@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: 도메인 관리에 도움이 되는 도메인 및 관련 DNS 레코드에 대해 알아봅니다.
-ms.openlocfilehash: bd011add44ea462dacab41fde1ef0ebe4a6b4aa8
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: feef7de31f1576173f7377afe3eac8a6f6aaacb1
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048188"
+ms.locfileid: "44053755"
 ---
 # <a name="dns-basics"></a>DNS 기본 사항
 
@@ -151,14 +151,14 @@ Contoso.com의 NS 레코드에 "hichina.com."이 있다고 가정해 보겠습�
 ## <a name="why-add-a-domain-in-office-365"></a>Office 365에서 도메인을 추가해야 하는 이유
 
 
-사용자 지정 도메인(예: fourthcoffee.com)을 Office 365에 추가하면 서비스에서 더 짧고 친숙한 전자 메일 주소와 사용자 ID를 사용할 수 있습니다. Office 365 계정에 가입할 때 [사용할 도메인이 제공](https://support.office.com/article/b9fc3018-8844-43f3-8db1-1b3a8e9cfd5a.aspx)되지만, 여기에는 "onmicrosoft.com"이 포함됩니다. 많은 사용자가 전자 메일에 Office 365를 사용하려는 경우 조직 또는 비즈니스 도메인을 추가하는 것을 선호합니다. 
+사용자 지정 도메인(예: fourthcoffee.com)을 Office 365에 추가하면 서비스에서 더 짧고 친숙한 전자 메일 주소와 사용자 ID를 사용할 수 있습니다. Office 365 계정에 가입할 때 [사용할 도메인이 제공](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)되지만, 여기에는 "onmicrosoft.com"이 포함됩니다. 많은 사용자가 전자 메일에 Office 365를 사용하려는 경우 조직 또는 비즈니스 도메인을 추가하는 것을 선호합니다. 
   
 > [!NOTE]
 > Outlook 또는 Word 등의 Microsoft 앱을 다운로드하고 사용하려는 경우에는 도메인을 추가할 필요가 없습니다. [PC 또는 Mac에 Office를 설치](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx)하기만 하면 됩니다. 
   
 Office 365에서는 전자 메일, 공개 웹 사이트 및 메신저 주소에 사용자의 도메인 이름을 사용할 수 있습니다.
   
-- **전자 메일:** 도메인 이름을 사용하면 전자 메일을 사용자 지정할 수 있으므로 계정과 함께 제공되는 [초기 onmicrosoft.com 전자 메일 주소](https://support.office.com/article/b9fc3018-8844-43f3-8db1-1b3a8e9cfd5a.aspx)보다 더 짧고 기억하기 쉬운 주소를 사용할 수 있습니다. 따라서 joe@contoso.onmicrosoft.com 대신 전자 메일 주소(Office 365에 로그인하는 데 사용하는 회사 계정)는 joe@contoso.com이 될 수 있습니다. 
+- **전자 메일:** 도메인 이름을 사용하면 전자 메일을 사용자 지정할 수 있으므로 계정과 함께 제공되는 [초기 onmicrosoft.com 전자 메일 주소](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)보다 더 짧고 기억하기 쉬운 주소를 사용할 수 있습니다. 따라서 joe@contoso.onmicrosoft.com 대신 전자 메일 주소(Office 365에 로그인하는 데 사용하는 회사 계정)는 joe@contoso.com이 될 수 있습니다. 
     
 - **웹 사이트:** Microsoft 365 구독에 SharePoint Online 공개 웹 사이트(더 이상 구입할 수 없음)가 포함된 경우 공개 웹 사이트에는 contoso-public.sharepoint.com과 같은 초기 주소가 제공됩니다. 비즈니스를 위한 웹 사이트를 설정한 경우 www.contoso.com과 같이 사용자 지정 도메인 이름을 사용하여 웹 사이트 주소의 이름을 바꿀 수 있습니다. 
     
@@ -170,14 +170,14 @@ Office 365에서는 전자 메일, 공개 웹 사이트 및 메신저 주소에 
 ## <a name="why-add-a-domain-in-office-365"></a>Office 365에서 도메인을 추가해야 하는 이유
 
 
-사용자 지정 도메인(예: fourthcoffee.com)을 Office 365에 추가하면 서비스에서 더 짧고 친숙한 전자 메일 주소와 사용자 ID를 사용할 수 있습니다. Office 365 계정에 가입할 때 [사용할 도메인이 제공](https://support.office.com/article/b9fc3018-8844-43f3-8db1-1b3a8e9cfd5a.aspx)되지만, 여기에는 "onmicrosoft.com"이 포함됩니다. 많은 사용자가 전자 메일에 Office 365를 사용하려는 경우 조직 또는 비즈니스 도메인을 추가하는 것을 선호합니다. 
+사용자 지정 도메인(예: fourthcoffee.com)을 Office 365에 추가하면 서비스에서 더 짧고 친숙한 전자 메일 주소와 사용자 ID를 사용할 수 있습니다. Office 365 계정에 가입할 때 [사용할 도메인이 제공](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)되지만, 여기에는 "onmicrosoft.com"이 포함됩니다. 많은 사용자가 전자 메일에 Office 365를 사용하려는 경우 조직 또는 비즈니스 도메인을 추가하는 것을 선호합니다. 
   
 > [!NOTE]
 > Outlook 또는 Word 등의 Office 365 앱을 다운로드하고 사용하려는 경우 도메인을 추가할 필요가 없습니다. [PC 또는 Mac에 Office를 설치](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx)하기만 하면 됩니다. 
   
 Office 365에서는 전자 메일, 공개 웹 사이트 및 메신저 주소에 사용자의 도메인 이름을 사용할 수 있습니다.
   
-- **전자 메일:** 도메인 이름을 사용하면 전자 메일을 사용자 지정할 수 있으므로 계정과 함께 제공되는 [초기 onmicrosoft.com 전자 메일 주소](https://support.office.com/article/b9fc3018-8844-43f3-8db1-1b3a8e9cfd5a.aspx)보다 더 짧고 기억하기 쉬운 주소를 사용할 수 있습니다. 따라서 joe@contoso.onmicrosoft.com 대신 전자 메일 주소(Office 365에 로그인하는 데 사용하는 회사 계정)는 joe@contoso.com이 될 수 있습니다. 
+- **전자 메일:** 도메인 이름을 사용하면 전자 메일을 사용자 지정할 수 있으므로 계정과 함께 제공되는 [초기 onmicrosoft.com 전자 메일 주소](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)보다 더 짧고 기억하기 쉬운 주소를 사용할 수 있습니다. 따라서 joe@contoso.onmicrosoft.com 대신 전자 메일 주소(Office 365에 로그인하는 데 사용하는 회사 계정)는 joe@contoso.com이 될 수 있습니다. 
     
 - **웹 사이트:** 구독에 SharePoint Online 공개 웹 사이트(더 이상 구입할 수 없음)가 포함된 경우 공개 웹 사이트에는 contoso-public.sharepoint.com과 같은 초기 주소가 제공됩니다. 비즈니스를 위한 웹 사이트를 설정한 경우 www.contoso.com과 같이 사용자 지정 도메인 이름을 사용하여 웹 사이트 주소의 이름을 바꿀 수 있습니다. 
     

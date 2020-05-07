@@ -20,12 +20,12 @@ search.appverid:
 - BSA160
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
 description: Microsoft 365 관리 센터에서 그룹에 구성원을 추가 하 고, 그룹에서 구성원을 제거 하 고, 그룹 소유자 상태를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 9191f9a29f9d4c1589feda66c9ca482180229bd6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8b4df54e3dc54baf2f9e770f42333b95af391e90
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631316"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049402"
 ---
 # <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>관리 센터를 사용 하 여 Microsoft 365 그룹에서 구성원 추가 또는 제거
 
@@ -82,7 +82,7 @@ Microsoft 365에서 그룹 구성원은 일반적으로 고유한 그룹을 만�
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.  
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..  
     
 2. 사용자를 선택 합니다.
     
@@ -96,7 +96,7 @@ Microsoft 365에서 그룹 구성원은 일반적으로 고유한 그룹을 만�
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.  
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..  
     
 2. 사용자 이름을 선택 합니다.
     
@@ -110,7 +110,7 @@ Microsoft 365에서 그룹 구성원은 일반적으로 고유한 그룹을 만�
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
     
 2. 사용자 이름을 선택 합니다.
     
@@ -276,16 +276,16 @@ Microsoft 365에서 그룹 구성원은 일반적으로 고유한 그룹을 만�
     
 - 수백 또는 수천 명의 사용자를 그룹에 추가 하려면 [add-unifiedgrouplinks](https://go.microsoft.com/fwlink/p/?LinkId=616191)를 사용 합니다.
     
-- [분리된 그룹에 새 소유자 할당](https://support.office.com/article/86bb3db6-8857-45d1-95c8-f6d540e45732.aspx)
+- [분리된 그룹에 새 소유자 할당](https://support.microsoft.com/en-us/office/assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732)
     
 ## <a name="articles-about-managing-groups"></a>그룹 관리에 대한 문서
     
 - [Outlook에서 Microsoft 365 그룹으로 메일 그룹 업그레이드](../manage/upgrade-distribution-lists.md)
     
-- [Outlook에서 배포 목록을 그룹으로 업그레이드해야 하는 이유](https://support.office.com/article/7fb3d880-593b-4909-aafa-950dd50ce188.aspx)
+- [Outlook에서 배포 목록을 그룹으로 업그레이드해야 하는 이유](https://support.microsoft.com/en-us/office/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188)
 
 - [Microsoft 365 그룹에서 게스트 액세스 관리](manage-guest-access-in-groups.md)    
     
-- [PowerShell을 사용 하 여 Microsoft 365 그룹 관리](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540):이 문서에서는 주요 cmdlet을 소개 하 고 예제를 제공 합니다.
+- [PowerShell을 사용 하 여 Microsoft 365 그룹 관리](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell):이 문서에서는 주요 cmdlet을 소개 하 고 예제를 제공 합니다.
     
 - [Microsoft 365 그룹 명명 정책](groups-naming-policy.md)

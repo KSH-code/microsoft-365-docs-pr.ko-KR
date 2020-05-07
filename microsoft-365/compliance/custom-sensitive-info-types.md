@@ -15,13 +15,14 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: DLP에 대한 사용자 지정 중요한 정보 유형의 개요를 확인합니다.
-ms.openlocfilehash: 2e56811cf8e837e698254c0205d5b831f7b1f3b1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 'DLP(데이터 손실 방지)에 대한 사용자 지정 중요한 정보 유형(예: 기본 패턴, 문자 근접성, 신뢰 수준)의 개요를 확인합니다.'
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 621c7be728f772e113ef5cd65d5b79a2526ec7c5
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43617092"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035750"
 ---
 # <a name="custom-sensitive-information-types"></a>사용자 지정 중요한 정보 유형
 

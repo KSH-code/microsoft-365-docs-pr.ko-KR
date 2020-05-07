@@ -20,14 +20,21 @@ search.appverid:
 - GEA150
 ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: 조직 이름, 주소, 전화, 기술 담당자 및 전자 메일과 같은 조직 프로필을 변경 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 94f2c875a9373675fd044db7b73251cefe859647
-ms.sourcegitcommit: 997f6227f33c3683ade9672e881d09216df22ee9
+ms.openlocfilehash: a1b792dd74c38e93489bccc49e3a034e1da889e4
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44016017"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139676"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>조직 주소, 기술 담당자 등 변경
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
   
 조직 이름, 주소, 전화 번호, 기술 담당자 등의 조직 프로필을 변경할 수 있습니다. **이 정보를 업데이트하려면 전역 관리자여야 합니다.**
   

@@ -19,14 +19,21 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 관리 센터에서 중앙 집중식 배포를 사용 하 여 조직의 사용자 및 그룹에 추가 기능을 배포 하는 방법을 알아봅니다.
-ms.openlocfilehash: 30f2c08aa895f63ed529b4390d208e3daa9d6d7b
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: cb41d02d8075e94c788a9964e0a3ac69d8363ef4
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011714"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139712"
 ---
 # <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 추가 기능 배포 관리
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정보에 액세스하는 방법을 간소화할 수 있습니다([Office 추가 기능 사용 시작](https://support.office.com/article/82e665c4-6700-4b56-a3f3-ef5441996862.aspx) 참조). 관리자는 조직의 사용자를 위한 Office 추가 기능을 배포할 수 있습니다. Microsoft 365 관리 센터의 중앙 집중식 배포 기능을 사용 하 여이 작업을 수행할 수 있습니다.
   
@@ -234,7 +241,7 @@ GDPR (일반 데이터 보호 규정)은 실제 5 월 25 일 2018이 되는 유�
   
 Windows 용 Word, Excel 및 PowerPoint 2013은 ADAL (Active Directory 인증 라이브러리)을 사용 하는 경우 동일한 사소한 검사를 지원 합니다. 다음에 설명 된 대로 준수에 대 한 두 가지 옵션이 있습니다.
   
-- **ADAL을 사용 하도록 설정**합니다. 이 문서에서는 Office [365](https://support.office.com/article/776c0036-66fd-41cb-8928-5495c0f9168a)2013에 대해 ADAL을 사용 하도록 설정 하는 방법에 대해 설명 합니다.<br/>또한 [Windows 장치에서 Office 2013에 대 한 최신 인증 사용](../security-and-compliance/enable-modern-authentication.md)에 설명 된 대로 ADAL을 사용 하도록 레지스트리 키를 설정 해야 합니다.<br/>또한 Office 2013에 대 한 다음 4 월 업데이트를 설치 해야 합니다.
+- **ADAL을 사용 하도록 설정**합니다. 이 문서에서는 Office [365](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016)2013에 대해 ADAL을 사용 하도록 설정 하는 방법에 대해 설명 합니다.<br/>또한 [Windows 장치에서 Office 2013에 대 한 최신 인증 사용](../security-and-compliance/enable-modern-authentication.md)에 설명 된 대로 ADAL을 사용 하도록 레지스트리 키를 설정 해야 합니다.<br/>또한 Office 2013에 대 한 다음 4 월 업데이트를 설치 해야 합니다.
     
   - [Office 2013의 보안 업데이트에 대 한 설명: 2018 년 4 월 10 일](https://support.microsoft.com/help/4018330/description-of-the-security-update-for-office-2013-april-10-2018)
     
@@ -277,10 +284,10 @@ Windows 용 Word, Excel 및 PowerPoint 2013은 ADAL (Active Directory 인증 라
 3. **추가 기능 삭제**를 클릭 합니다. 오른쪽 아래 모서리에 있는 추가 기능 단추를 제거 합니다.
 4. 선택한 항목의 유효성을 검사 하 고 **추가 기능 제거**를 선택 합니다.
   
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>자세한 정보
 
 [Office 추가 기능](https://go.microsoft.com/fwlink/p/?linkid=846362)을 만들고 빌드하는 방법에 대해 자세히 알아보세요.
   
-[중앙 집중식 배포 PowerShell cmdlet을 사용 하 여 추가 기능을 관리](https://support.office.com/article/94f4e86d-b8e5-42dd-b558-e6092f830ec9)합니다.
+[중앙 집중식 배포 PowerShell cmdlet을 사용 하 여 추가 기능을 관리](https://docs.microsoft.com/office365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins)합니다.
   
 [문제 해결: 사용자가 추가 기능을 볼 수 없음](https://docs.microsoft.com/office365/troubleshoot/access-management/user-not-seeing-add-ins)

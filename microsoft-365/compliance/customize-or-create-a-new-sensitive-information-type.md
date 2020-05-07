@@ -17,15 +17,15 @@ ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: ''
-description: GDPR에 대한 중요한 정보 유형을 수정하거나 새로 만드는 방법을 알아봅니다.
-ms.openlocfilehash: e29193e3fdb7f4d2cd6a5810137bc120fb1171e5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 유럽 연합 일반 개인정보보호법(GDPR)에 맞도록 Office 365 중요한 정보 유형을 수정하거나 새로 만드는 방법을 알아봅니다.
+ms.openlocfilehash: ffe9792eabc8607506f2ebabd75ae24b70214449
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637780"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035740"
 ---
 # <a name="customize-or-create-a-new-sensitive-information-type"></a>중요한 정보 유형 사용자 지정 또는 새로 만들기
 

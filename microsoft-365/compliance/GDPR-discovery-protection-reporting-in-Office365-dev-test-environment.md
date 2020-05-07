@@ -1,6 +1,6 @@
 ---
-title: 개발/테스트 환경에서 GDPR 검색, 보호 및 보고
-description: Microsoft 365의 GDPR 기능을 설명합니다.
+title: GDPR 검색, 보호 및 Microsoft 365 개발/테스트 환경에서 보고
+description: Microsoft 365 개발/테스트 환경에서 GDPR에 맞춰 PII(개인 식별이 가능한 정보)를 구성하고 입증하는 방법을 알아봅니다.
 f1.keywords:
 - NOCSH
 ms.author: bcarter
@@ -18,12 +18,13 @@ search.appverid:
 - MET150
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 6a16f48948cd40ea39f8d066471e902d2b5a6bf0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: b35db1a7be133e61cbde03f02af83baf9341d32e
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632343"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034652"
 ---
 # <a name="gdpr-discovery-protection-and-reporting-in-the-devtest-environment"></a>개발/테스트 환경에서 GDPR 검색, 보호 및 보고
 

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - M365solutions
 description: Microsoft 365 클라우드 서비스로의 액세스를 최적화하는 동안 원격 작업자는 온-프레미스 리소스에 액세스할 수 있는지 확인합니다.
-ms.openlocfilehash: fb91451b52c55f2cad1e0efefe19a044ce1cc37b
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: daa1a04912dd83c7a53769299b3870b90dbfd33a
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002916"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049561"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>2단계. 온-프레미스 앱 및 서비스로의 원격 액세스 제공
 
@@ -35,6 +35,10 @@ ms.locfileid: "44002916"
 1. 이미 원격 액세스 VPN 솔루션을 사용하고 있습니다.
 2. 원격 액세스 VPN 솔루션을 사용하지 않고 있으며 하이브리드 ID가 있어, 사용자는 온-프레미스 웹 기반 앱으로의 원격 액세스만 필요로 합니다.
 3. 원격 액세스 VPN 솔루션을 사용하지 않고 있어, 온-프레미스 앱으로의 액세스 권한이 필요하며 앱 중 일부는 웹 기반이 아닙니다.
+
+이 문서에서 설명하는 원격 액세스 구성 옵션을 보려면 이 순서도를 참조하세요.
+
+![원격 액세스 구성 순서도](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-flowchart.png)
 
 또한 원격 액세스 연결을 사용하여 [원격 데스크톱](https://support.microsoft.com/help/4028379/windows-10-how-to-use-remote-desktop)을 사용하여 사용자를 온-프레미스 PC에 연결할 수도 있습니다. 예를 들어 원격 작업자는 원격 데스크톱을 사용 하 여 Windows, iOS 또는 Android 장치에서 사무실의 PC에 연결할 수 있습니다. 원격으로 연결되면 바로 앞에 앉아있는 것처럼 사용할 수 있습니다.
 

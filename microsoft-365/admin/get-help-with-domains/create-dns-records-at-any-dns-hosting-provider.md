@@ -23,25 +23,25 @@ search.appverid:
 ms.assetid: 7b7b075d-79f9-4e37-8a9e-fb60c1d95166
 description: Microsoft 365용 모든 DNS 호스팅 공급자에서 도메인을 확인하고 DNS 레코드를 만드는 방법을 배웁니다.
 ms.custom: okr_smb
-ms.openlocfilehash: a2d9b57f0230aa736944727e39845f3a0a533426
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 2cf28cdd3cc2f85e448d512e72f5b022177e8f1e
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048786"
+ms.locfileid: "44053728"
 ---
 # <a name="create-dns-records-at-any-dns-hosting-provider"></a>모든 DNS 호스팅 공급자에서 DNS 레코드 만들기
 
  원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.md)** 하세요. 
   
-호스트를 찾으려면 [호스트 별 지침](https://support.office.com/article/ae950c9e-e8d9-4108-b0cb-449156998580) 목록을 확인하고 다음 단계에 따라 필요한 모든 레코드를 추가합니다. 
+호스트를 찾으려면 [호스트 별 지침](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions) 목록을 확인하고 다음 단계에 따라 필요한 모든 레코드를 추가합니다. 
   
 사용 중인 도메인의 DNS 호스팅 공급자 또는 도메인 등록 기관을 모르는 경우 [도메인 등록자 또는 DNS 호스팅 공급자 찾기](../get-help-with-domains/find-your-domain-registrar.md)를 참조하세요.
   
 레코드를 직접 설정하려는 경우 추가해야 할 레코드입니다. 확인 레코드와 MX 레코드는 도메인마다 고유합니다. 이를 설정하려면 도메인에 특정 "토큰"값을 가져와 사용해야 합니다. 이 작업을 수행하는 방법은 아래 단계에 설명되어 있습니다.
   
 > [!IMPORTANT]
-> 각 유형의 DNS 레코드를 생성하기 위해 정보를 입력하거나 붙여 넣은 상자 또는 *필드*의 정확한 이름은 DNS 호스트마다 다릅니다. DNS 호스트는 웹 사이트에 도움말을 표시하여 여기에 표시된 지침을 해당 웹 사이트의 정확한 필드에 매핑할 수 있습니다. [Microsoft 365용 DNS 레코드 만들기](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23.aspx)에서 DNS 호스트에 대한 단계별 지침이 있는지 확인하십시오. > 일부 DNS 호스트를 사용하면 Microsoft 365에서 [서비스 제한이 발생](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)되는 모든 필수 레코드 유형을 만들 수 없습니다. 예를 들어 도메인의 호스트가 SRV, TXT 또는 CNAME 레코드를 지원하지 않는 경우 모든 필수 레코드를 지원하는 DNS 호스트로 [도메인을 이전](../get-help-with-domains/buy-a-domain-name.md)하는 것이 좋습니다. Microsoft 365로 빠르고 자동화된 프로세스를 설정하려면 도메인을 GoDaddy로 이전하는 것이 좋습니다. 
+> 각 유형의 DNS 레코드를 생성하기 위해 정보를 입력하거나 붙여 넣은 상자 또는 *필드*의 정확한 이름은 DNS 호스트마다 다릅니다. DNS 호스트는 웹 사이트에 도움말을 표시하여 여기에 표시된 지침을 해당 웹 사이트의 정확한 필드에 매핑할 수 있습니다. [Microsoft 365용 DNS 레코드 만들기](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)에서 DNS 호스트에 대한 단계별 지침이 있는지 확인하십시오. > 일부 DNS 호스트를 사용하면 Microsoft 365에서 [서비스 제한이 발생](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)되는 모든 필수 레코드 유형을 만들 수 없습니다. 예를 들어 도메인의 호스트가 SRV, TXT 또는 CNAME 레코드를 지원하지 않는 경우 모든 필수 레코드를 지원하는 DNS 호스트로 [도메인을 이전](../get-help-with-domains/buy-a-domain-name.md)하는 것이 좋습니다. Microsoft 365로 빠르고 자동화된 프로세스를 설정하려면 도메인을 GoDaddy로 이전하는 것이 좋습니다. 
   
 > [!NOTE]
 > 일반적으로 몇 분 정도만 있으면 DNS 변경 사항이 적용됩니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가 한 후 메일 흐름 또는 기타 문제에 문제가 있는 경우 [도메인 이름 또는 DNS 레코드를 변경한 후 문제 찾기 및 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하십시오. 
@@ -432,6 +432,6 @@ DNS 호스트의 웹 사이트에서 2개의 새 SRV 레코드를 일반적으�
   
  **필요한 DNS 레코드를 추가하는 방법을 알아내는 데 도움이 필요한 경우**[ 도메인 설정 (호스트 별 지침 ](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions?view=o365-worldwide), [ Microsoft 365 DNS 레코드를 만드는 데 필요한 정보 수집 ](../get-help-with-domains/information-for-dns-records.md)를 먼저 참조합니다. 그런 다음 이 항목의 일반 단계를 사용하여 도메인의 DNS 레코드를 설정하여 전자 메일과 같은 Microsoft 365 서비스에서 도메인을 사용할 수 있도록 합니다.
   
- **사용자 지정 도메인에 사용하는 웹 사이트가 없는 경우**, 모든 설정을 직접 수행하는 대신 Microsoft 365에서 도메인의 DNS 레코드를 설정하고 관리할 수 있습니다. Microsoft 365에서 [사용자 지정 도메인의 DNS 레코드를 설정하고 관리하기 위한 두 가지 옵션](https://support.office.com/article/5980474a-097f-4f21-a864-21245314957f.aspx)에 대해 알아보세요. 
+ **사용자 지정 도메인에 사용하는 웹 사이트가 없는 경우**, 모든 설정을 직접 수행하는 대신 Microsoft 365에서 도메인의 DNS 레코드를 설정하고 관리할 수 있습니다. Microsoft 365에서 [사용자 지정 도메인의 DNS 레코드를 설정하고 관리하기 위한 두 가지 옵션](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)에 대해 알아보세요. 
   
 

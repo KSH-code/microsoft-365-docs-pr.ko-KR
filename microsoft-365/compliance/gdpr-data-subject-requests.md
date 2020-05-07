@@ -1,6 +1,5 @@
 ---
 title: GDPR 및 CCPA에 대한 데이터 주체 요청
-description: ''
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR, CCPA
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
@@ -15,12 +14,14 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: fc5f4f8752d17595cfafaa39626f0d36675d7c82
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: Microsoft 제품 및 서비스를 사용하여 유럽연합 일반 개인정보보호법(GDPR) 및 캘리포니아 소비자 개인 정보 보호법(CCPA)에 따라 DSR을 완료하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 7342c0ae4105c05ae2e2956df51581d3afedb286
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558058"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035476"
 ---
 # <a name="data-subject-requests-and-the-gdpr-and-ccpa"></a>데이터 주체 요청과 GDPR 및 CCPA
 
@@ -53,13 +54,13 @@ GDPR(일반 데이터 보호 규정)은 사람들(규정에서 데이터 주체)
 
 컨트롤러는 요청된 조치를 취하거나 DSR을 컨트롤러가 수용할 수 없는 이유에 대한 설명을 제공함으로써 각 DSR을 즉시 고려하고 실질적인 응답을 제공해야 합니다. 컨트롤러는 주어진 DSR의 적절한 처분과 관련하여 자체 법률 또는 준수 고문과 상의해야 합니다.
 
-조직의 GDPR 준수 규칙에 따라 여러 프로세스가 DSR 완료하는 데 연관될 수 있습니다.
+조직의 GDPR 준수 규칙에 따라 여러 프로세스가 DSR을 완료하는 데 연관될 수 있습니다.
   
 - **검색**. DSR을 완료하는 데 필요한 데이터를 결정하는 프로세스
 - **액세스**. 검색된 정보의 데이터 주체에 대한 검색 및 잠재적 전송
 - **수정**. 변경 또는 기타 요청된 개인 데이터 변경 사항을 구현합니다.
 - **제한**. 액세스를 제한하거나 Microsoft 클라우드에서 데이터를 제거하여 개인 데이터의 액세스 또는 처리를 변경합니다.
-- **내보내기**. GDPR의 "데이터 이식성(data-portability)"에서 제공하는 바와 같이 개인 데이터의 "구조화되고 일반적으로 사용되는 컴퓨터가 읽을 수 있는 형식"을 데이터 주체에 제공합니다.
+- **내보내기**. GDPR의 "데이터 이식성(data-portability) 권리"에 규정된 바와 같이 개인 데이터의 "구조화되고 일반적으로 사용되는 컴퓨터가 읽을 수 있는 형식"을 데이터 주체에 제공합니다.
 - **삭제**. Microsoft 클라우드에서 개인 데이터를 영구적으로 제거합니다.
 
 ## <a name="specific-dsr-considerations"></a>특정 DSR 고려 사항
@@ -78,7 +79,7 @@ Microsoft에서 생성한 로그 및 관련 데이터는 GDPR의 "개인 데이�
 
 ### <a name="yammer-and-kaizala"></a>Yammer 및 Kaizala
 
-사용자 계정을 삭제해도 Yammer 및 Kaizala에 대한 시스템 생성 로그는 제거되지 않습니다. 이러한 응용 프로그램에서 데이터를 제거하려면 다음 리소스 중 하나를 참조합니다.
+사용자 계정을 삭제해도 Yammer 및 Kaizala에 대한 시스템 생성 로그는 제거되지 않습니다. 이러한 응용 프로그램에서 생성된 데이터를 제거하려면 다음 리소스 중 하나를 참조하세요.
 
 - [Yammer Enterprise에서 GDPR 데이터 주체 요청 관리](https://docs.microsoft.com/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)
 - [Kaizala에서 사용자의 조직 데이터 내보내기 또는 삭제](https://docs.microsoft.com/office365/kaizala/export-or-delete-a-user-s-data)
@@ -93,7 +94,7 @@ Microsoft에서 생성한 로그 및 관련 데이터는 GDPR의 "개인 데이�
 
 ### <a name="microsoft-controller-products"></a>Microsoft 컨트롤러 제품
 
-경우에 따라 조직의 사용자가 Microsoft가 데이터 컨트롤러인 Microsoft 제품 또는 서비스에 액세스 할 수 있습니다. 그러한 경우 사용자는 자신의 DSR을 Microsoft에 직접 시작해야 하며 Microsoft는 사용자에게 직접 요청을 수행합니다.
+경우에 따라 조직의 사용자가 Microsoft가 데이터 관리자인 Microsoft 제품 또는 서비스에 액세스할 수 있습니다. 그러한 경우 사용자는 자신의 DSR을 Microsoft에 직접 시작해야 하며 Microsoft는 사용자에게 직접 요청을 수행합니다.
 
 ### <a name="third-party-products"></a>타사 제품
 

@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: DNS 레코드가 올바르게 설정 되어 있는지 확인 하 여 사용자 지정 도메인을 설정 하는 동안 실행 한 문제를 추적 하는 방법을 설명 합니다.
-ms.openlocfilehash: 13d867559684d80ee5c0e1f7005d1dcaf3b4d611
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 457b9a0f76e66f121572064f359f120b770b65de
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628473"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44053727"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records"></a>도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결
 
@@ -65,21 +65,21 @@ ms.locfileid: "43628473"
 ## <a name="outlook-isnt-working"></a>Outlook이 작동하지 않나요?
 <a name="BKMK_OutlookBroken"> </a>
 
-도메인에 대해 MX 레코드 및 기타 DNS 레코드를 올바르게 설정했으나 메일이 작동하지 않는 경우 [Outlook 문제 해결](https://support.office.com/article/b3e740b9-171d-4179-bcd1-e279a363fa75.aspx)을 도와드리겠습니다.
+도메인에 대해 MX 레코드 및 기타 DNS 레코드를 올바르게 설정했으나 메일이 작동하지 않는 경우 [Outlook 문제 해결](https://docs.microsoft.com/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues)을 도와드리겠습니다.
   
 ## <a name="everyones-email-got-switched-to-microsoft-365-and-you-only-wanted-your-email-to-switch"></a>모든 사용자의 전자 메일이 Microsoft 365로 전환 되었으며 전자 메일만 전환 하려고 했습니까?
 <a name="BKMK_EmailSwitched"> </a>
 
 Microsoft 365에 도메인을 추가 하면 일반적으로 Microsoft 365을 가리키도록 도메인의 MX 레코드가 365 업데이트 되 고, 해당 도메인으로 전송 된 모든 전자 메일은 Microsoft 365로 시작 됩니다. MX 레코드를 변경 하기 전에 도메인에 전자 메일이 있는 모든 사용자에 대해 Microsoft 365에서 사서함을 만들었는지 확인 합니다.
   
-도메인의 모든 사용자에 대 한 전자 메일을 Microsoft 365로 이동 하지 않을 경우 어떻게 하나요? [대신 몇 개의 전자 메일 주소만 사용 하 여 Microsoft 365를 파일럿 하는](https://support.office.com/article/39cee536-6a03-40cf-b9c1-f301bb6001d7.aspx)단계를 수행할 수 있습니다.
+도메인의 모든 사용자에 대 한 전자 메일을 Microsoft 365로 이동 하지 않을 경우 어떻게 하나요? [대신 몇 개의 전자 메일 주소만 사용 하 여 Microsoft 365를 파일럿 하는](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)단계를 수행할 수 있습니다.
   
 ## <a name="cant-confirm-non-profit-or-school-account-status"></a>비영리 또는 학교 계정 상태를 확인할 수 없습니까?
 <a name="BKMK_validateAcct"> </a>
 
 조직의 도메인을 확인 하 고 서비스를 설정 하지 않은 경우를 비롯 한 몇 가지 시나리오가 있습니다. 예를 들어 조직에 학교 구독에 대 한 자격을 부여할 수 있도록 Microsoft 365를 입증 합니다.
   
-[Microsoft 365 도메인에서 소유권, 비영리 또는 교육 상태를 증명 하거나 Yammer를 활성화](https://support.office.com/article/87d1844e-aa47-4dc0-a61b-1b773fd4e590) 하 여 필요한 모든 단계를 완료 했는지 확인의 지침을 확인 하세요. 각 상황에서 다소 차이가 있습니다. 
+[Microsoft 365 도메인에서 소유권, 비영리 또는 교육 상태를 증명 하거나 Yammer를 활성화](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) 하 여 필요한 모든 단계를 완료 했는지 확인의 지침을 확인 하세요. 각 상황에서 다소 차이가 있습니다. 
   
 ## <a name="services-not-working-with-your-domain"></a>도메인에서 서비스가 작동하지 않나요?
 <a name="BKMK_Test"> </a>
@@ -87,14 +87,14 @@ Microsoft 365에 도메인을 추가 하면 일반적으로 Microsoft 365을 가
 Microsoft에서는 도메인의 DNS 설정 문제를 해결할 수 있도록 지원합니다. Microsoft 365의 도메인 문제 해결사는 문제를 해결 해야 하는 레코드와 레코드를 설정 해야 하는 항목을 정확히 보여 줍니다. 
 
 > [!TIP]
-> DNS를 올바르게 설정했지만 데스크톱의 Outlook에서 메일이 작동하지 않나요? [Microsoft 365와 함께 제공 될 수 있는 다른 메일 흐름 시나리오](https://go.microsoft.com/fwlink/?LinkId=787530) 를 확인 하 여 비즈니스에 맞게 올바르게 설정 되었는지 확인 합니다. 또는 전자 메일과 관련된 추가 문제 해결 도움말을 [Outlook 문제 해결](https://support.office.com/article/b3e740b9-171d-4179-bcd1-e279a363fa75.aspx)에서 확인합니다. 
+> DNS를 올바르게 설정했지만 데스크톱의 Outlook에서 메일이 작동하지 않나요? [Microsoft 365와 함께 제공 될 수 있는 다른 메일 흐름 시나리오](https://www.microsoft.com/?ref=go) 를 확인 하 여 비즈니스에 맞게 올바르게 설정 되었는지 확인 합니다. 또는 전자 메일과 관련된 추가 문제 해결 도움말을 [Outlook 문제 해결](https://docs.microsoft.com/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues)에서 확인합니다. 
   
 ## <a name="accessing-your-website-isnt-working"></a>웹 사이트에 액세스할 수 없나요?
 <a name="BKMK_Website"> </a>
 
 DNS 문제를 해결한 경우에도 여전히 문제가 있는 경우 다음 방법 중 하나를 수행합니다.
   
-- 다른 사용자가 www.mydomain.com의 내 웹 사이트에 연결할 수 없는 경우: [웹 사이트 문제 추적](https://support.office.com/article/61f34ca1-ca7f-4a65-9348-def20db09ddf.aspx)
+- 다른 사용자가 www.mydomain.com의 내 웹 사이트에 연결할 수 없는 경우: [웹 사이트 문제 추적](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)
     
 - 웹 사이트를 가리키도록 A 레코드 또는 CNAME 레코드를 업데이트할 수 없음: [Microsoft 365에서 사용자 지정 DNS 레코드 업데이트](../dns/add-or-edit-custom-dns-records.md)
     

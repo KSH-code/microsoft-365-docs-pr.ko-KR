@@ -19,14 +19,21 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: 보안 그룹을 만들거나 편집 하거나 삭제 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b6138a36890ec4b0408339fbb1510fa7677a7040
-ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
+ms.openlocfilehash: 6f4daa66c11675674fdbfbfeb625128d8f817520
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44053815"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140444"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 보안 그룹 만들기, 편집 또는 삭제
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 Microsoft 365 **Groups** 페이지에서는 SharePoint ONLINE 및 CRM online에 동일한 사용 권한을 할당 하는 데 사용할 수 있는 사용자 계정 그룹을 만들 수 있습니다. 예를 들어 관리자는 특정 사용자 그룹에 게 SharePoint 사이트에 대 한 액세스 권한을 부여 하는 보안 그룹을 만들 수 있습니다. 전역 및 사용자 관리 관리자만 보안 그룹을 만들거나 편집 하거나 삭제할 수 있습니다. 관리자 역할에 대 한 자세한 내용은 [관리자 역할 할당](../add-users/assign-admin-roles.md)을 참조 하십시오. 
   

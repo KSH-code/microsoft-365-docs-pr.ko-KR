@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: d6466f0d-5d13-464a-adcb-00906ae87029
 description: 컴퓨터, 휴대폰 및 태블릿에서 Microsoft 365을 설정 하 고 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: fd52b12ab008e2c8d7b7a4476ae2212e01e1bb10
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6db85e57757d627c22767289761b4cb3120b3716
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43623921"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049426"
 ---
 # <a name="get-started"></a>시작하기
 
@@ -60,7 +60,7 @@ ms.locfileid: "43623921"
   
 - [관리자를 위한 교육](https://support.office.com/article/e990f8ff-56d7-450e-ad9f-74ae8718ef09.aspx): 관리자를 위한 무료 온라인 강의에 대 한 링크를 가져옵니다.
     
-- [관리자 도움말](https://support.office.com/article/17d3ff3f-3601-466e-b5a1-482b31cfb791.aspx): 주요 작업, 관리 도구 시작 및 문제 해결에 대 한 정보를 가져옵니다.
+- [관리자 도움말](https://docs.microsoft.com/microsoft-365/admin/admin-home): 주요 작업, 관리 도구 시작 및 문제 해결에 대 한 정보를 가져옵니다.
     
 - [연락처 지원-관리자 도움말](../contact-support-for-business-products.md) : 전화를 걸어 온라인 요청을 열거나 커뮤니티에 게 도움을 줄 수 있습니다. 
     

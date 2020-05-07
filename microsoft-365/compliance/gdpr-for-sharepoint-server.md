@@ -1,6 +1,6 @@
 ---
 title: SharePoint Server의 GDPR
-description: 온-프레미스 SharePoint Server에서 GDPR 요구 사항을 해결하는 방법을 알아보세요.
+description: 온-프레미스 SharePoint Server에서 유럽 연합 일반 개인정보보호법(GDPR) 요구 사항을 해결하는 방법을 알아봅니다.
 f1.keywords:
 - NOCSH
 ms.author: mikeplum
@@ -11,12 +11,13 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 6cbcb7f0918d472d953cb0f837adcb23b642a3a3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 58ddbe98ec5ca6b08e6d6be58c4258265c13e3de
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596395"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036231"
 ---
 # <a name="gdpr-for-sharepoint-server"></a>SharePoint Server의 GDPR
 
@@ -109,7 +110,7 @@ SharePoint Server 사용 현황 데이터베이스(기본 이름 WSS_Logging)에
 
 ### <a name="query-history-and-favorite-queries"></a>쿼리 기록 및 즐겨찾기 쿼리
 
-SharePoint Server에서 쿼리 기록 및 ‘즐겨찾기’ 쿼리는 자동으로 365일 후에 만료됩니다. 사용자가 조직을 떠나면 다음 단계를 사용하여 쿼리 기록에서 사용자 이름에 대한 참조를 제거할 수 있습니다.
+SharePoint Server에서 쿼리 기록 및 '즐겨찾기' 쿼리는 자동으로 365일 후에 만료됩니다. 사용자가 조직을 떠나면 다음 단계를 사용하여 쿼리 기록에서 사용자 이름에 대한 참조를 제거할 수 있습니다.
 
 다음 SQL 쿼리는 SharePoint Server에 적용되며 다음 작업을 수행할 수 있습니다.
 
@@ -117,7 +118,7 @@ SharePoint Server에서 쿼리 기록 및 ‘즐겨찾기’ 쿼리는 자동으
 
 -   쿼리 기록의 사용자 이름에 대한 참조 제거
 
-#### <a name="export-a-users-queries-since-a-specific-date"></a>특정 날짜 후 사용자의 쿼리 내보내기 
+#### <a name="export-a-users-queries-since-a-specific-date"></a>특정 날짜 이후 사용자 쿼리 내보내기 
 
 @StartTime 후 @UserName에 의해 수행된 링크 스토어 쿼리 로그 테이블에서 쿼리를 내보내려면 다음 절차를 사용합니다.
 
@@ -300,7 +301,7 @@ SharePoint Server는 3년 후 자동으로 사용 현황 레코드를 삭제합�
 
 사용자 프로필 서비스를 사용하면 다양한 외부 소스에서 프로필 데이터를 가져올 수 있습니다. 이러한 사용자 프로필 데이터에 대한 쿼리 및 업데이트는 데이터가 마스터된 시스템에서 처리해야 합니다. 외부 시스템을 업데이트하는 경우 SharePoint Server에서 사용자 프로필을 다시 동기화해야 합니다.
 
-다음 기존 단계에 따라 SharePoint Server 사용자 프로필에서 사용자의 개인 정보를 제거합니다.
+다음 기본 단계에 따라 SharePoint Server 사용자 프로필에서 사용자의 개인 정보를 제거합니다.
 
 1.  SharePoint Server 사용자 프로필에 제공되는 외부 시스템에서 사용자 정보를 제거합니다. 디렉터리 동기화를 사용하는 경우 사용자는 온-프레미스 활성 디렉터리 환경에서 제거해야 합니다.
 

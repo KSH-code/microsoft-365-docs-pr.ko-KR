@@ -1,6 +1,6 @@
 ---
 title: Microsoft의 데이터 보호 관리자
-description: GDPR에 대한 Microsoft의 유럽 연합 데이터 보호 관리자(DPO) 정보
+description: GDPR에 대한 Microsoft의 유럽 연합 데이터 보호 관리자(DPO)의 직위 및 자격에 대해 알아봅니다.
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
@@ -15,12 +15,13 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 8e517db11806085339f6f431c9b942b468a211ed
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: b09458bfba65a196ff9be4d9bfd7f3fbfda25fda
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558068"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036096"
 ---
 # <a name="microsofts-data-protection-officer"></a>Microsoft의 데이터 보호 관리자
 
@@ -55,6 +56,6 @@ Ireland<br>
 
 데이터 보호 관리자의 세부 연락처가 Microsoft의 관리 기관에 전달되었습니다.
 
-## <a name="learn-more"></a>자세한 정보
+## <a name="learn-more"></a>자세히 알아보기
 
 - [Microsoft 보안 센터](https://www.microsoft.com/trust-center/privacy/gdpr-overview)

@@ -15,14 +15,21 @@ ms.custom: ''
 search.appverid:
 - MET150
 description: Microsoft에서 계정을 닫는 방법을 알아봅니다.
-ms.openlocfilehash: 43ec3fe2eedc354c0494818f97b01e8de63694c7
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: e41d11502b0c0f738cc23405c387bd5fca1cb0fe
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045779"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141281"
 ---
 # <a name="close-your-account"></a>계정 사용 중지 
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 Microsoft 계정을 폐쇄하면 계정과 관련된 모든 정보가 삭제됩니다. 이 정보에는 구독, 라이선스, 지불 방법, 사용자 및 사용자 데이터가 포함됩니다. 이 프로세스를 시작 하기 전에 보존 하려는 모든 데이터를 백업 해야 합니다.
 

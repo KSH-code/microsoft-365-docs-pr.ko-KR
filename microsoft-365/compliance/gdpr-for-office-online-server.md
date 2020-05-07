@@ -1,6 +1,6 @@
 ---
 title: Office Online Server 및 Office Web Apps Server GDPR
-description: 온-프레미스 Exchange Server에서 GDPR 요구 사항을 해결하는 방법을 알아보세요.
+description: 이 문서에서는 Office Online Server 및 Office Web Apps 서버의 GDPR 요구 사항을 처리하는 방법에 대해 설명합니다.
 f1.keywords:
 - NOCSH
 ms.author: mikeplum
@@ -10,13 +10,15 @@ audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
+ms.custom:
+- seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: e16f206c858d35dd2894b44d398e375c0a59fde5
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0391fccfd7316b5c3268dd479c16fc2acf37080d
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42073263"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036273"
 ---
 # <a name="gdpr-for-office-web-apps-server-and-office-online-server"></a>Office Web Apps Server 및 Office Online Server GDPR
 

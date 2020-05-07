@@ -17,18 +17,20 @@ ms.collection:
 ms.custom:
 - M365solutions
 description: Microsoft Endpoint Manager를 사용하여 장치, PC 및 기타 끝점을 관리합니다.
-ms.openlocfilehash: 76e18d65865f4ec2bbc8a8d1554bb4cad6fee553
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 2a5b047aabb95d0b60c46fe3bec339e723adee0e
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011606"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049585"
 ---
 # <a name="3-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>3. 장치, PC 및 기타 끝점에 대한 끝점 관리 기능 배포
 
 원격 작업자의 경우 점점 늘어나는 개인 장치를 지원해야 합니다. 끝점 관리 기능은 장치에서 리소스에 대한 액세스 권한을 부여받기 전에 특정 기준을 준수해야 하는 정책 기반의 보안 방식입니다. Microsoft Endpoint Manager는 클라우드 및 온-프레미스에서 데이터를 안전하게 유지하기 위한 최신 작업 공간과 최신 관리 기능을 제공합니다. 
 
 Endpoint Manager는 이미 알고 있고 사용하고 있는 다음 서비스를 결합하여 모바일 장치, 데스크톱 컴퓨터, 가상 머신, 내장 장치, 서버를 관리하는 서비스와 도구를 제공합니다.
+
+![끝점 관리용 구성 요소](../media/empower-people-to-work-remotely/endpoint-managment-step-grid.png)
 
 ## <a name="microsoft-intune"></a>Microsoft Intune
 

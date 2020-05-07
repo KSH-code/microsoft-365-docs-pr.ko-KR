@@ -20,14 +20,21 @@ ms.custom:
 search.appverid:
 - MET150
 description: 비즈니스 구독에 대해 대금을 청구할 빈도를 변경 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 574a0c565a981aa1e2af4800aff379bbb6e9692c
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: ce659f03ee94a47728a097e73749c2a0a01c962b
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045919"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140938"
 ---
 # <a name="change-your-payment-frequency"></a>결제 빈도 변경
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 구독을 구입할 때 월별 또는 연간 대금 청구를 선택 합니다. 구독에 대 한 요금 청구 빈도를 변경 하려면 다음 단계를 사용 합니다.
 
