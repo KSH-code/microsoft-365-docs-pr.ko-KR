@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: 보안 그룹을 만들거나 편집 하거나 삭제 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 689adb46bdec4d4f669482af6b5467fdcf63482c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b6138a36890ec4b0408339fbb1510fa7677a7040
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628882"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44053815"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 보안 그룹 만들기, 편집 또는 삭제
 
@@ -145,7 +145,7 @@ Microsoft 365 **Groups** 페이지에서는 SharePoint ONLINE 및 CRM online에 
     
 Exchange 관리 센터에서 메일 그룹 및 메일 사용이 가능한 보안 그룹을 만든 후에는 해당 이름 및 사용자 목록이 **보안 그룹** 페이지에 표시 됩니다. 두 위치에서 모두 이러한 그룹을 삭제할 수 있지만 편집은 Exchange 관리 센터에서만 가능합니다. 동적 메일 그룹은 **보안 그룹** 페이지에 표시 되지 않습니다. 
   
- SharePoint 그룹은 사이트 모음을 만들 때 자동으로 만들어집니다. 기본 그룹은 SharePoint의 기본 사용 권한 수준(SharePoint 역할이라고도 함)을 통해 사용자 권한 및 액세스 권한을 부여합니다. 자세한 내용은 [Sharepoint Online의 기본 sharepoint 그룹](https://support.office.com/article/13bb2b6b-dd8c-447e-b71b-0e4bb9efe1d3.aspx)을 참조 하세요.
+ SharePoint 그룹은 사이트 모음을 만들 때 자동으로 만들어집니다. 기본 그룹은 SharePoint의 기본 사용 권한 수준(SharePoint 역할이라고도 함)을 통해 사용자 권한 및 액세스 권한을 부여합니다. 자세한 내용은 [Sharepoint Online의 기본 sharepoint 그룹](https://docs.microsoft.com/sharepoint/default-sharepoint-groups)을 참조 하세요.
   
 ## <a name="how-is-a-security-group-different-from-security-groups-i-create-in-sharepoint"></a>어떤 보안 그룹을 SharePoint에서 만드는 보안 그룹과 다른 이유는 무엇 인가요?
 

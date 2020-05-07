@@ -1,5 +1,5 @@
 ---
-title: 보안 로드맵-처음 30 일, 90 일 및 그 이상에 대 한 주요 우선 순위
+title: Microsoft 365 보안 로드맵-주요 우선 순위
 f1.keywords:
 - NOCSH
 ms.author: bcarter
@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: 'Microsoft 365 환경을 보호 하기 위한 보안 기능을 구현 하기 위한 Microsoft의 cybersecurity 팀의 주요 권장 사항입니다. '
-ms.openlocfilehash: f00cf7c63e84f19ac2cae080adb87209b32d3012
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 762f0772002917d11459b97f76b7bfbddceb2016
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633728"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035411"
 ---
 # <a name="security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>보안 로드맵-처음 30 일, 90 일 및 그 이상에 대 한 주요 우선 순위
 

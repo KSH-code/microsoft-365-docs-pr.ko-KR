@@ -21,14 +21,21 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Microsoft 365에서 비즈니스 평가판 또는 유료 구독을 취소 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: c12b574d29b50432cdb480dca711588ad1f0df32
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: f0f635529a7d7c6ee0f9a2d6b15b887e3fd23bfb
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046207"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141172"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 *자격:* 사용자에 게 할당 된 라이선스가 25 개 미만이 면 언제 든 지 Microsoft 365 관리 센터에서 비즈니스 평가판 또는 유료 구독에 대 한 Microsoft 365을 취소할 수 있습니다. 사용자에 게 25 개 이상의 라이선스가 할당 된 경우 [지원 서비스에 문의 하 여 구독을 취소할 수](../../admin/contact-support-for-business-products.md)있습니다.
 

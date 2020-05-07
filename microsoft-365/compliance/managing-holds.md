@@ -17,13 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 1334a90dc2e98e720aa9da392bd558adb34b37b2
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Custodians 및 해당 데이터 원본에 보류를 배치 하 여 고급 eDiscovery 사례에 대 한 관련 콘텐츠를 보존 하는 방법을 알아봅니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 8789889a243bad15f1c29c0bd392d7273574b62c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632963"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034128"
 ---
 # <a name="manage-holds-in-advanced-ediscovery"></a>Advanced eDiscovery에서 보류 관리
 
@@ -122,7 +123,7 @@ Microsoft 팀은 Office 365 그룹을 기반으로 작성 됩니다. 따라서 �
 - **추가 Microsoft 365 그룹 또는 Microsoft 팀 사이트를 custodian에 매핑하는 방법은 무엇 인가요? Microsoft 365 그룹 및 Microsoft 팀에 Custodial가 없는 보존을 설정 하는 방법은 무엇 인가요?** Microsoft 팀은 Microsoft 365 그룹을 기반으로 작성 됩니다. 따라서 eDiscovery 사례에서 보류를 설정 하는 것은 매우 유사 합니다. Microsoft 365 그룹과 Microsoft 팀을 보류할 때 다음과 같은 사항을 염두에 두어야 합니다.
   - Microsoft 365 그룹 및 Microsoft 팀 구성원에 있는 콘텐츠를 저장 하려면 그룹 또는 팀과 연결 된 사서함 및 SharePoint 사이트를 지정 해야 합니다.
   
-  - Exchange Online에서 **remove-unifiedgroup** cmdlet을 실행 하 여 Microsoft 365 그룹 또는 microsoft Team의 속성을 볼 수 있습니다. 이 방법을 사용 하면 Microsoft 365 그룹 또는 Microsoft 팀에 연결 된 사이트의 URL을 가져올 수 있습니다. 예를 들어 다음 명령은 선임 리더십 팀 이라는 Microsoft 365 그룹에 대해 선택 된 속성을 표시 합니다.
+  - Exchange Online에서 **remove-unifiedgroup** cmdlet을 실행 하 여 Microsoft 365 그룹 또는 microsoft Team의 속성을 볼 수 있습니다. 이 방법을 사용 하면 Microsoft 365 그룹 또는 Microsoft 팀에 연결 된 사이트의 URL을 가져올 수 있습니다. 예를 들어, 다음 명령을 실행하면 Senior Leadership Team이라는 Microsoft 365 그룹의 선택된 속성이 표시됩니다.
 
 
     ```text

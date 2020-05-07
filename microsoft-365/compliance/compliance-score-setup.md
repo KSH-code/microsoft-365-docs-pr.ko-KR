@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 위험 평가를 간소화 하 고 자동화 하는 데 도움이 되는 Microsoft 준수 점수를 설정 하 고 시작 하는 방법을 알아봅니다.
-ms.openlocfilehash: 4ccd89647540aeda8ba6253f6e5eefab1dc81791
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7a0030ed417e21484717b6edf12406d2f5e760e5
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632393"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140863"
 ---
 # <a name="microsoft-compliance-score-preview-setup"></a>Microsoft 준수 점수 (미리 보기) 설치
 
@@ -40,16 +40,14 @@ ms.locfileid: "43632393"
 
 ### <a name="where-to-set-permissions"></a>사용 권한을 설정 하는 위치
 
-조직의 전역 관리자는 Microsoft 365 준수 센터 또는 Azure Active Directory (Azure AD)에서 사용자 권한을 설정할 수 있습니다. 이러한 위치 중 하나에서 역할이 설정 되 면 사용자는 준수 관리자와 준수 점수에 액세스할 수 있습니다.
-
-기존 준수 관리자 역할은 준수 점수로 전송 **되지** 않습니다. 준수 관리자의 역할이 있고 준수 점수가 새로운 인 경우 준수 관리자 역할은 준수 점수에 대 한 액세스 권한을 부여 하지 않습니다. 전역 관리자는 준수 점수에 액세스할 수 있도록 Microsoft 365 준수 센터 또는 Azure AD에서 사용자에 대 한 사용 권한 및 역할을 설정 해야 합니다.
+조직의 전역 관리자는 azure [Active Directory (AZURE AD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal) 또는 [준수 관리자](compliance-manager-overview.md#permissions)에서 사용자 권한을 설정할 수 있습니다. 이러한 위치 중 하나에서 역할이 설정 되 면 사용자는 준수 관리자와 준수 점수에 액세스할 수 있습니다.
 
 ### <a name="role-types"></a>역할 유형
 
-아래 표에는 각 Microsoft 365 준수 센터 역할이 기존 준수 관리자 역할 및 각 역할에서 허용 하는 기능에 매핑되는 방식이 나와 있습니다.
+아래 표에는 각 [AZURE AD 역할이](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) 기존 준수 관리자 역할 및 각 역할에서 허용 하는 기능에 매핑되는 방식이 나와 있습니다. 준수 점수에 액세스 하려면 사용자에 게 최소한 Azure AD 전역 독자 역할이 필요 합니다.
 
 
-| 사용자는 다음을 수행할 수 있습니다. | Microsoft 365 준수 센터 역할 | 준수 관리자 역할 | 
+| 사용자는 다음을 수행할 수 있습니다. | Azure AD 역할 | 준수 관리자 역할 | 
 | :------------- | :-------------: | :------------: |
 | **데이터를 읽을 수는 있지만 편집 하지 않음**| Azure AD 전역 읽기 권한자  | Azure AD 전역 읽기 권한자 | 
 | **데이터를 읽을 수는 있지만 편집 하지 않음**| 보안 읽기 권한자 | 준수 관리자 읽기 권한자  | 
@@ -60,13 +58,6 @@ ms.locfileid: "43632393"
 
 > [!NOTE]
 > 규정 준수 점수에서 준수 관리자로 이동 하 여 작업을 완료 하면 (예: 평가 관리) 브라우저가 새 탭을 열고 대화 상자가 표시 됩니다. 머리글이 "이미 Microsoft 클라우드 서비스 고객" 인 최상위 섹션에서 계정에 로그인 하 고 " **로그인** 하 여 액세스 준수 관리자를 선택 합니다. 자격 증명을 다시 입력할 필요가 없습니다.
-
-### <a name="how-to-set-permissions-and-roles-in-the-microsoft-365-compliance-center"></a>Microsoft 365 준수 센터에서 사용 권한 및 역할을 설정 하는 방법
-
-Microsoft 365 준수 센터에서 사용 권한을 설정 하려면 다음을 수행 합니다.
-
-1. [Microsoft 365 준수 센터로](https://compliance.microsoft.com) 이동 하 여 전역 관리자 계정으로 로그인 합니다.
-2. 왼쪽 탐색 창에서 **사용 권한을** 선택 합니다. 여기에서 역할을 확인 하 고 사용 권한을 할당할 수 있습니다.
 
 ## <a name="configure-automatic-secure-score-updates"></a>자동 보안 점수 업데이트 구성
 

@@ -1,6 +1,6 @@
 ---
 title: GDPR 및 CCPA에 대한 Dynamics 365 데이터 주체 요청
-description: Microsoft 제품, 서비스 및 관리 도구를 사용하여 통제자 고객이 개인 데이터를 찾아 조치를 취함으로써 DSR 및 CCPA 요청에 대처하는 데 도움을 주는 방법에 대한 지침입니다.
+description: 이 가이드는 개인 데이터를 찾아서 조치를 취하고, Dynamics 365 고객의 DSR 및 CCPA 요청에 응답하는 방법을 이해하는 데 도움이 됩니다.
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR, CCPA
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
@@ -15,13 +15,15 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 hideEdit: true
+ms.custom:
+- seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 38c50703fbc58e85a646720b5bbe8b400477b9d4
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: ec598816158068445f3f662bbdd6ea7c7edafd82
+ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558008"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44043336"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Dynamics 365 데이터 주체 요청
 
@@ -223,7 +225,7 @@ Dynamics 365 for Finance and Operations 및 ***Dynamics 365 for Talent*** 둘 �
 
 새 요청을 만들면 **데이터 로그 내보내기** 페이지에 표시되므로 해당 상태를 추적할 수 있습니다. 요청이 완료되면 시스템 생성 로그에 액세스할 수 있는 링크를 클릭할 수 있습니다. 그러면 해당 로그는 요청을 만들고 30일 이내에 조직의 Azure Storage 위치로 내보내집니다. 데이터는 JSON 또는 XML과 같이 컴퓨터가 읽을 수 있는 일반적인 파일 형식으로 저장됩니다. Azure 계정 및 Azure Storage 위치가 없는 경우 조직을 위한 Azure 계정 및/또는 Azure Storage 위치를 만들어야 합니다. 그래야 데이터 로그 내보내기 도구를 통해 시스템 생성 로그를 내보낼 수 있습니다.
 
-Azure에서는 조직이 네이티브 JSON 형식의 데이터를 지정된 Azure Storage 컨테이너로 내보낼 수 있도록 하여 이러한 작업을 지원합니다. [Microsoft Azure Storage 소개 - Blob 저장소](https://docs.microsoft.com/azure/storage/common/storage-introduction#blob-storage) 문서를 참조하세요.
+Azure에서는 조직이 네이티브 JSON 형식의 데이터를 지정된 Azure Storage 컨테이너로 내보낼 수 있도록 하여 이러한 작업을 지원합니다. [Microsoft Azure Storage 소개 - Blob 저장소](https://docs.microsoft.com/azure/storage/common/storage-introduction#blob-storage) 문서를 참조하세요. 검색되는 데이터에는 서비스의 보안과 안정성을 손상시킬 수 있는 데이터가 포함되지 않습니다.
 
 > [!IMPORTANT]
 > 테넌트에서 사용자 데이터를 내보내려면 테넌트 관리자여야 합니다.
@@ -245,9 +247,7 @@ Azure에서는 조직이 네이티브 JSON 형식의 데이터를 지정된 Azur
 
 ### <a name="deleting-system-generated-logs"></a>시스템 생성 로그 삭제
 
-액세스 요청을 통해 검색된 시스템 생성 로그를 삭제하려면 서비스에서 사용자를 제거하고 해당 Azure Active Directory 계정을 영구적으로 삭제해야 합니다. 사용자를 영구적으로 삭제하는 방법에 대한 지침은 이 가이드에서 [사용자 삭제](https://microsoft-my.sharepoint.com/personal/kated_microsoft_com/Documents/DSR%20Guide%20v4%20-(newly%20created%20for%20O365%20only).docx#_Deleting_a_user)를 참조하세요. 사용자 계정을 영구적으로 삭제하는 작업을 일단 시작하면 되돌릴 수 없습니다.
-
-사용자 계정을 영구적으로 삭제하면 30일 이내에 거의 모든 Dynamics 365 서비스에 대한 시스템 생성 로그에서 해당 사용자의 데이터가 제거됩니다.
+액세스 요청을 통해 검색된 시스템 생성 로그를 삭제하려면 서비스에서 해당 사용자를 제거하고 Azure Active Directory 계정을 영구적으로 삭제해야 합니다. 사용자 계정을 영구적으로 삭제하는 것은 일단 시작하면 되돌릴 수 없다는 점에 유의하세요. 사용자 계정을 영구적으로 삭제하면 30일 이내에 거의 모든 Dynamics 365 서비스에 대한 시스템 생성 로그에서 해당 사용자의 데이터가 제거됩니다.
 
 ## <a name="learn-more"></a>자세히 알아보기
 

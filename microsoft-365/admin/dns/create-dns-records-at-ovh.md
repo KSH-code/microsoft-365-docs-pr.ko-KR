@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5176feef-36dc-4d84-842f-1f2b5a21ba96
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Microsoft 용 OVH에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: a1f29b6f6464e781768997be0969914771ec5703
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: 18ddcba9cdb4f45f624d32369db07b24f9a357cf
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939134"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048918"
 ---
 # <a name="create-dns-records-at-ovh-for-microsoft"></a>OVH에서 Microsoft에 대 한 DNS 레코드 만들기
 
@@ -142,7 +142,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
     |**Record type(레코드 종류)**|**하위 도메인**|**TTL**|**우선 순위**|**Target(대상)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(공백으로 둠)  <br/> |3600 (초)  <br/> |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx)을 참조하세요. <br/> |\<mail.protection.outlook.com를 사용\>합니다.  <br/> **참고:** Microsoft 계정에서 * \<도메인 키\> * 를 가져옵니다.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)  |
+    |MX  <br/> |(공백으로 둠)  <br/> |3600 (초)  <br/> |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |\<mail.protection.outlook.com를 사용\>합니다.  <br/> **참고:** Microsoft 계정에서 * \<도메인 키\> * 를 가져옵니다.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)  |
    
     ![메일에 대 한 OVH MX 레코드](../../media/6e2f5655-93e2-4620-8f19-c452e7edf8f0.png)
   
@@ -235,7 +235,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**Record type(레코드 종류)**|**하위 도메인**|**TTL**|**TXT 값**|
     |:-----|:-----|:-----|:-----|
-    |TXT  <br/> |(공백으로 둠)  <br/> |3600 (초)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
+    |TXT  <br/> |(공백으로 둠)  <br/> |3600 (초)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
     ![SPF에 대 한 OVH 추가 TXT 레코드](../../media/f50466e9-1557-4548-8a39-e98978a5ee2e.png)
   
@@ -276,8 +276,8 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**Record type(레코드 종류)**|**하위 도메인**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**TTL**|**Target(대상)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV (Service)(SRV(서비스))  <br/> |_sip _tls  <br/> |100  <br/> |1   <br/> |443  <br/> |3600 (초)  <br/> |sipdir.online.lync.com  <br/> |
-    |SRV (Service)(SRV(서비스))  <br/> |_sipfederationtls _tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |3600 (초)  <br/> |sipfed.online.lync.com  <br/> |
+    |SRV (Service)(SRV(서비스))  <br/> |_sip _tls  <br/> |100  <br/> |개  <br/> |443  <br/> |3600 (초)  <br/> |sipdir.online.lync.com  <br/> |
+    |SRV (Service)(SRV(서비스))  <br/> |_sipfederationtls _tcp  <br/> |100  <br/> |개  <br/> |5061  <br/> |3600 (초)  <br/> |sipfed.online.lync.com  <br/> |
        
     ![OVH SRV 레코드](../../media/73956b9e-9e4f-40a5-803e-c4ead2f77fa6.png)
   

@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1970f7d6-03b5-442f-b385-5880b9c256ec
 description: CSV 파일에서 동시에 한 번에 하나씩 Microsoft 365에 사용자를 추가 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 78e5cf2c3c0148a91d48355881c3aec331213fd5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6d7a9d97d4cca25bac6579ea4427136351110658
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43618863"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049474"
 ---
 # <a name="add-users-individually-or-in-bulk"></a>개별적으로 또는 대량으로 사용자 추가
 
@@ -118,7 +118,7 @@ ms.locfileid: "43618863"
 사용자 추가를 마친 다음에는 Microsoft Online Services 팀으로부터 전자 메일 알림을 받게 됩니다. 이 전자 메일에는 사용자가 Microsoft 365에 로그인 할 수 있도록 해당 사람의 ID와 암호가 포함 됩니다. 새 사용자에 게 Microsoft 365 로그인 정보를 알려주지 않아도 됩니다. 새 암호를 전달하는 데 일반 프로세스를 사용합니다.
 
 > [!NOTE]
->메일 상자를 마이그레이션하여 사용자를 만드는 경우에는 라이선스를 할당 하 여 사용자 계정을 활성화 해야 합니다. 사용자에 게 라이선스를 할당 하지 않으면 유예 기간이 30 일 후 해당 사서함이 사용 하지 않도록 설정 됩니다. Microsoft 365 관리 센터를 사용 하 여 [사용자에 게 라이선스를 할당](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) 하는 방법을 참조 하세요.
+>메일 상자를 마이그레이션하여 사용자를 만드는 경우에는 라이선스를 할당 하 여 사용자 계정을 활성화 해야 합니다. 사용자에 게 라이선스를 할당 하지 않으면 유예 기간이 30 일 후 해당 사서함이 사용 하지 않도록 설정 됩니다. Microsoft 365 관리 센터를 사용 하 여 [사용자에 게 라이선스를 할당](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) 하는 방법을 참조 하세요.
 
 ### <a name="video-add-and-manage-users-in-the-admin-center"></a>비디오: 관리 센터에서 사용자 추가 및 관리
 

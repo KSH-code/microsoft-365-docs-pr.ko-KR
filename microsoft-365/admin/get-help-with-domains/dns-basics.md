@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: 도메인 관리에 도움이 되는 도메인 및 관련 DNS 레코드에 대해 알아봅니다.
-ms.openlocfilehash: 0b1e969dbb8b172c799e98d5470860fec3625fc2
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: bd011add44ea462dacab41fde1ef0ebe4a6b4aa8
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628485"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048188"
 ---
 # <a name="dns-basics"></a>DNS 기본 사항
 
@@ -191,7 +191,7 @@ Office 365에서 도메인이 작동하려면 많은 DNS 레코드가 필요합�
   
 도메인을 설정하기 위한 [값 목록을 찾을](information-for-dns-records.md) 수 있습니다. Microsoft 365 관리 센터에 바로 포함되어 있습니다. 
   
-또는 배포를 계획하고 있는 경우 Office 365에 필요한 모든 DNS 레코드, 해당 기능, 예시 값을 검토할 수 있습니다. [Office 365에 대한 외부 Domain Name System 레코드](https://support.office.com/article/c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0)를 참조하세요.
+또는 배포를 계획하고 있는 경우 Office 365에 필요한 모든 DNS 레코드, 해당 기능, 예시 값을 검토할 수 있습니다. [Office 365에 대한 외부 Domain Name System 레코드](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records)를 참조하세요.
   
 ## <a name="how-can-i-learn-more"></a>자세한 내용을 알고 싶은 경우
 

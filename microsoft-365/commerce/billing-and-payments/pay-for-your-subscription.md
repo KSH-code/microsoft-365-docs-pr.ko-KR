@@ -24,12 +24,12 @@ description: 비즈니스에 대 한 Microsoft 365 구독을 결제 하는 데 �
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
-ms.openlocfilehash: ccf04de4fe11469241e734a202aad3e20778843c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 599eb7eafda81f59b02ab11c822307d0db0c49c2
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635019"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045839"
 ---
 # <a name="pay-for-your-subscription"></a>구독 결제
 
@@ -51,7 +51,7 @@ ms.locfileid: "43635019"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
+1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
 
 2. 미지불 잔액이 있는 구독을 찾습니다. **청구** 섹션에서 **구독에 기한 경과 결제가 있음** 옆에 있는 **잔액 결제**를 선택합니다.
 

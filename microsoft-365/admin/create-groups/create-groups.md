@@ -19,19 +19,19 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Microsoft 365 그룹을 만들고 삭제 하 고, 그룹 구성원을 추가 및 제거 하 고, 그룹의 작동 방식을 사용자 지정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d37058fa3ef3803f3a8f6099d46e1262f314e501
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a691f2363547c5bffb4c674d61cddde0cdb0266a
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630458"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049218"
 ---
 # <a name="create-a-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 그룹 만들기
   
 사용자는 Outlook 또는 다른 앱에서 Microsoft 365 그룹을 만들 수 있지만 관리자는 그룹을 만들거나 삭제 하 고, 구성원을 추가 또는 제거 하 고, 작동 방식을 사용자 지정 해야 할 수 있습니다. Microsoft 365 관리 센터는이 작업을 수행 하는 위치입니다. 
 
 > [!TIP]
-> Microsoft 365에서 연결 된 Yammer 그룹은 Yammer에서 만들어야 하지만, 다른 Microsoft 365 그룹과 마찬가지로 Microsoft 365 관리 센터에서 관리할 수 있습니다. 자세한 내용은 [Yammer 및 Microsoft 365 groups](https://support.office.com/article/d8c239dc-a48b-47ab-b85e-6b4b8191a869.aspx)를 참조 하세요. 
+> Microsoft 365에서 연결 된 Yammer 그룹은 Yammer에서 만들어야 하지만, 다른 Microsoft 365 그룹과 마찬가지로 Microsoft 365 관리 센터에서 관리할 수 있습니다. 자세한 내용은 [Yammer 및 Microsoft 365 groups](https://docs.microsoft.com/yammer/manage-yammer-groups/yammer-and-office-365-groups)를 참조 하세요. 
 
 ## <a name="create-a-microsoft-365-group"></a>Microsoft 365 그룹 만들기
 
@@ -57,7 +57,7 @@ ms.locfileid: "43630458"
 
 ::: moniker range="o365-worldwide"
 
-사용자는 [자신을 추가 하거나 승인을 요청할](https://support.office.com/article/Join-a-group-in-Outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d)수 있으며, 지금 추가할 수도 있습니다.
+사용자는 [자신을 추가 하거나 승인을 요청할](https://support.microsoft.com/en-us/office/join-a-group-in-outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d)수 있으며, 지금 추가할 수도 있습니다.
 
 1. 관리 센터에서 새 그룹이 표시 되도록 페이지를 새로 고친 다음 구성원을 추가 하려는 그룹의 이름을 선택 합니다.
     
@@ -67,7 +67,7 @@ ms.locfileid: "43630458"
     
 4. 추가할 사용자를 선택한 다음 **저장**을 선택 합니다.
     
-5. **닫기** 를 세 번 선택 합니다. 
+5. **닫기**를 세 번 클릭합니다. 
     
 그룹은 지정 된 구성원이 있는 Outlook에 표시 됩니다.
 
@@ -75,7 +75,7 @@ ms.locfileid: "43630458"
 
 ::: moniker range="o365-germany"
 
-사용자는 [자신을 추가 하거나 승인을 요청할](https://support.office.com/article/Join-a-group-in-Outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d)수 있으며, 지금 추가할 수도 있습니다.
+사용자는 [자신을 추가 하거나 승인을 요청할](https://support.microsoft.com/en-us/office/join-a-group-in-outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d)수 있으며, 지금 추가할 수도 있습니다.
 1. 관리 센터에서 새 그룹이 표시 되도록 페이지를 새로 고치고 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">그룹</a>을 선택한 다음 구성원을 추가할 그룹을 선택 합니다.
     
 2. **구성원**옆에 있는 **편집**을 선택 합니다.
@@ -83,7 +83,7 @@ ms.locfileid: "43630458"
     
 4. 추가할 사용자를 선택한 다음 **저장**을 선택 합니다.
     
-5. **닫기** 를 세 번 선택 합니다. 
+5. **닫기**를 세 번 클릭합니다. 
     
 그룹은 지정 된 구성원이 있는 Outlook에 표시 됩니다.
   
@@ -91,7 +91,7 @@ ms.locfileid: "43630458"
 
 ::: moniker range="o365-21vianet"
 
-사용자는 [자신을 추가 하거나 승인을 요청할](https://support.office.com/article/Join-a-group-in-Outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d)수 있으며, 지금 추가할 수도 있습니다.
+사용자는 [자신을 추가 하거나 승인을 요청할](https://support.microsoft.com/en-us/office/join-a-group-in-outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d)수 있으며, 지금 추가할 수도 있습니다.
 1. 관리 센터에서 새 그룹이 표시 되도록 페이지를 새로 고치고 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">그룹</a>을 선택한 다음 구성원을 추가할 그룹을 선택 합니다.
     
 2. **구성원**옆에 있는 **편집**을 선택 합니다.
@@ -99,7 +99,7 @@ ms.locfileid: "43630458"
     
 4. 추가할 사용자를 선택한 다음 **저장**을 선택 합니다.
     
-5. **닫기** 를 세 번 선택 합니다. 
+5. **닫기**를 세 번 클릭합니다. 
     
 그룹은 지정 된 구성원이 있는 Outlook에 표시 됩니다.
   
@@ -119,7 +119,7 @@ ms.locfileid: "43630458"
 
 ## <a name="related-articles"></a>관련 문서
 
-[Microsoft 365 그룹에 대 한 게스트 액세스 관리](https://support.office.com/article/7c713d74-a144-4eab-92e7-d50df526ff96.aspx)
+[Microsoft 365 그룹에 대 한 게스트 액세스 관리](https://support.office.com/article/adding-guests-to-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)
 
 [Microsoft 365 그룹을 만들 때 사용할 도메인 선택](choose-domain-to-create-groups.md)
 

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 46ab4b10-6857-44b1-b08d-d1b5f45a69c6
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스를 위한 DNS 레코드를 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7d5222ba68858f9ad50c95a0123c2cd2943ea2c0
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: 4779b8f6fadcd4b134d3954d2c6c133da40c19e6
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939442"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048990"
 ---
 # <a name="create-dns-records-at-hover-for-microsoft"></a>Microsoft에 대해 가리키기에서 DNS 레코드 만들기
 
@@ -127,7 +127,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**Hostname(호스트 이름)**|**Record Type(레코드 종류)**|**우선 순위**|**호스트 이름**|
     |:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |개  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx)을 참조하세요. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft 계정에서 * \<도메인 키\> * 를 가져옵니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |MX  <br/> |개  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft 계정에서 * \<도메인 키\> * 를 가져옵니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![DNS 값을 입력 하거나 복사 하 여 붙여넣기](../../media/2c8915fa-04a8-4d2a-a8ae-a79de0c8ef99.png)
   
@@ -216,7 +216,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**Hostname(호스트 이름)**|**Record Type(레코드 종류)**|**값**|
     |:-----|:-----|:-----|
-    |@  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
+    |@  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
     ![DNS 값을 입력 하거나 복사 하 여 붙여넣기](../../media/ed36b9e0-aaa9-45fb-804d-7d4e82ba0c7f.png)
   
@@ -251,8 +251,8 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**호스트 이름**|**Record Type(레코드 종류)**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**대상**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip _tls  <br/> |SRV  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls _tcp  <br/> |SRV  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_sip _tls  <br/> |SRV  <br/> |100  <br/> |개  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls _tcp  <br/> |SRV  <br/> |100  <br/> |개  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
    
     ![DNS 값을 입력 하거나 복사 하 여 붙여넣기](../../media/67562cd6-c598-4c37-af53-626f153c0197.png)
   

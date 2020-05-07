@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 832276bd-d024-47b6-a80a-a6b884907a5b
 description: 'Exchange PowerShell을 사용 하 여 조직의 모든 또는 특정 사용자에 대해 낮은 우선 순위 기능을 사용 하거나 사용 하지 않도록 설정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: b71fe20133c78974dc7d1c97a061121eded9f221
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6ba1e3f2b6a8a516a2b55267ab22fb43613350e0
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628930"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44053839"
 ---
 # <a name="configure-clutter-for-your-organization"></a>조직에 대 한 복잡 한 구성
 
@@ -98,7 +98,7 @@ PowerShell을 사용 하 여 사용자를 대량으로 만드는 경우에는 �
 ## <a name="related-articles"></a>관련 문서
 <a name="bkmk_onoff"> </a>
 
-[간단 하 게 Outlook에서 낮은 우선 순위 메시지 정렬](https://support.office.com/article/7755ebf5-4585-469b-b1ab-8b12425c6b6b.aspx)
+[간단 하 게 Outlook에서 낮은 우선 순위 메시지 정렬](https://support.office.com/article/use-clutter-to-sort-low-priority-messages-in-outlook-7b50c5db-7704-4e55-8a1b-dfc7bf1eafa0)
     
 [간단 하 게 OWA에서 낮은 우선 순위의 메시지 정렬](https://support.office.com/article/fe4d64ca-bf73-48f1-91b4-9a659e008bce.aspx)
     

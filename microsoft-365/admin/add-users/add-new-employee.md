@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9cdfa29d-7681-4af2-a79d-3e72e7ab9778
 description: 전자 메일, Skype 및 Office 앱에 대해 비즈니스용 Microsoft 365에 새 직원을 추가 합니다.
-ms.openlocfilehash: 43685a786da7ec43c982f91b4fca554424cad624
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f25f9445cba31942a58c656d8d7f212dc093024d
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43618899"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049500"
 ---
 # <a name="add-a-new-employee-to-microsoft-365"></a>Microsoft 365에 새 직원 추가
 
@@ -82,7 +82,7 @@ Facebook, Amazon 또는 Gmail과 마찬가지로 직원은 Microsoft 365을 사�
 |비즈니스용 Skype를 설정 하 여 회사 또는 전 세계의 동료 또는 비즈니스 파트너와 연결할 수 있도록 합니다. IM, 음성 또는 화상 통화를 통해 대화를 시작할 수 있습니다.  <br/> |[컴퓨터에 비즈니스용 Skype를 설치](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb.aspx)합니다.  <br/> <br/>비즈니스용 Skype를 사용 하는 방법에 대 한 자세한 내용은 [비디오를 시청 하세요.](https://support.office.com/article/3a21eca4-434d-41f1-ab06-3d4a268573b7.aspx) <br/> <br/>직원이 무료 Skype 앱을 사용 하는 회사 외부의 사용자에 게 연락할 수 있도록 비즈니스용 Skype를 설정 해야 하나요? 그렇지 않은 경우 비즈니스용 Skype를 사용할 때 예상 되는 사항을 알 수 있도록 새 직원에 게 알려주십시오.  <br/> |
 |전자 메일을 받거나 휴대폰에서 비즈니스용 Skype를 사용 하려면 모바일 장치에 앱을 설치 합니다.  <br/> |휴대폰을 통해 전자 메일을 받을 수 있도록 Outlook 모바일 앱을 설정 하려는 경우 자세한 내용은 [iOS](https://support.office.com/article/b2de2161-cc1d-49ef-9ef9-81acd1c8e234.aspx), [Android](https://support.office.com/article/886db551-8dfa-4fd5-b835-f8e532091872.aspx), [Windows Phone](https://support.microsoft.com/en-us/office/set-up-email-on-windows-phone-181a112a-be92-49ca-ade5-399264b3d417) 를 참조 하세요. <br/> <br/>모바일 장치에서 비즈니스용 Skype를 사용 하려면 모바일 앱을 다운로드 하 여 설치 합니다. 자세한 내용은 [iOS](https://support.microsoft.com/en-us/office/install-skype-for-business-on-a-mobile-device-3239c8a3-cf55-4ff0-a967-5de51911c049#OS_Type=iOS), [Android](https://support.microsoft.com/en-us/office/sign-in-to-skype-for-business-on-a-mobile-device-4d1b7dfa-5b0b-4868-bae5-25947fb99e6e#OS_Type=Android), [Windows Phone](https://support.microsoft.com/en-us/office/sign-in-to-skype-for-business-on-a-mobile-device-4d1b7dfa-5b0b-4868-bae5-25947fb99e6e#OS_Type=Windows_Phone) 를 참조 하세요. <br/> |
 |비즈니스용 OneDrive 교육 완료 클라우드에서 문서, 프레젠테이션 및 스프레드시트를 저장 하 고 구성 하는 방법을 파악 하는 데 도움이 됩니다.  <br/> |비즈니스용 OneDrive를 사용 하 여 클라우드에서 비즈니스 관련 문서를 보관 합니다. 다른 컴퓨터에서 Microsoft 365에 로그인 한 경우에도 언제 든 지 콘텐츠를 가져올 수 있습니다. [비즈니스용 OneDrive를 사용 하는 방법을 알아보려면 동영상을 시청 하세요.](https://support.office.com/article/b30da4eb-ddd2-44b6-943b-e6fbfc6b8dde.aspx) <br/><br/> **교육:** [비즈니스용 onedrive 교육](https://support.office.com/article/1f608184-b7e6-43ca-8753-2ff679203132.aspx) (비즈니스용 onedrive 선택)  <br/> |
-|SharePoint Online 교육을 완료 하 여 동료와 공동으로 작업 하 고 콘텐츠를 공유 합니다.  <br/> |동료 들이 액세스할 문서를 보관 하는 가장 좋은 위치는 SharePoint Online입니다.  <br/> <br/>**교육:** [비디오: SharePoint Online을 사용 하 여 팀 콘텐츠와 공동 작업](https://support.office.com/article/2dd9aeff-7749-4b78-9696-eb0f6267f1f5.aspx) <br/><br/> **찾기:** 조직에서 SharePoint Online을 사용 하는 방법과 여기에 저장 되는 문서 유형을 확인 하세요. 또한 비즈니스용 OneDrive에 저장 된 문서를 확인할 수 있습니다.  <br/> |
+|SharePoint Online 교육을 완료 하 여 동료와 공동으로 작업 하 고 콘텐츠를 공유 합니다.  <br/> |동료 들이 액세스할 문서를 보관 하는 가장 좋은 위치는 SharePoint Online입니다.  <br/> <br/>**교육:** [비디오: SharePoint Online을 사용 하 여 팀 콘텐츠와 공동 작업](https://support.office.com/article/what-is-sharepoint-online-c17b6824-cc22-478f-8757-497cc6b57121) <br/><br/> **찾기:** 조직에서 SharePoint Online을 사용 하는 방법과 여기에 저장 되는 문서 유형을 확인 하세요. 또한 비즈니스용 OneDrive에 저장 된 문서를 확인할 수 있습니다.  <br/> |
 
    
 ## <a name="related-articles"></a>관련 문서

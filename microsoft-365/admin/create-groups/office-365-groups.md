@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 그룹에 대해 알아봅니다.
-ms.openlocfilehash: 9d47383d3226d5a18b9a30a579f6497c7ce63477
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: aca6dfee26e05f162b8cc3efb69005d773a9a9dc
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630046"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049170"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>관리자를 위한 Microsoft 365 그룹 개요
 
@@ -56,7 +56,7 @@ Microsoft 365 그룹에서는 그룹에 사용자를 추가 하는 경우 그룹
 - [그룹을 만들 수 있는 사용자 지정](manage-creation-of-groups.md)
 - [조직의 그룹에 대 한 명명 정책 만들기](groups-naming-policy.md)
 - [그룹을 만들 때 사용할 도메인 선택](choose-domain-to-create-groups.md)
-- [그룹에 대 한 게스트 액세스 관리](manage-guest-access-in-groups.md)
+- [그룹에 대한 게스트 액세스 관리](manage-guest-access-in-groups.md)
 - [삭제 된 그룹 복구](restore-deleted-group.md) (삭제 후 30 일 이내)
 
 Microsoft 365 그룹의 수명 주기를 보다 자동화 된 방식으로 관리 하려면 만료 정책을 사용 하 여 특정 시간 간격으로 그룹을 만료 시킬 수 있습니다. 그룹 소유자는 그룹 만료를 위해 30, 15, 1 일 전에 전자 메일을 받게 되며,이는 여전히 필요한 경우 그룹을 쉽게 갱신할 수 있도록 합니다. 참고: [Microsoft 365 그룹 만료 정책](office-365-groups-expiration-policy.md)
@@ -79,7 +79,7 @@ Microsoft 365 그룹에는 다음과 같은 제한이 적용 됩니다.
 |파일 저장소|1 테라바이트 + 10 g b 구독 된 사용자 당 및 구매한 추가 저장소를 사용 합니다. 무제한의 추가 저장소를 구입할 수 있습니다.|
 |그룹 사서함 크기|50GB|
 
-조직에서 사용할 수 있는 Microsoft 365 그룹의 기본 최대 개수는 50만 이지만 요청에 따라 증가 될 수 있습니다. Microsoft 365 그룹 제한에 대 한 자세한 내용은 [microsoft 365 groups-Admin help](https://support.office.com/article/3f780e8e-61aa-4287-830d-ff6209cbc192.aspx)를 참조 하십시오.
+조직에서 사용할 수 있는 Microsoft 365 그룹의 기본 최대 개수는 50만 이지만 요청에 따라 증가 될 수 있습니다. Microsoft 365 그룹 제한에 대 한 자세한 내용은 [microsoft 365 groups-Admin help](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)를 참조 하십시오.
 
 그룹 사용에 대 한 정보를 사용할 수 있는 경우 Microsoft 365 그룹을 관리 하는 것이 보다 효율적입니다. Microsoft 365 관리 센터에는 저장소 사용, 보유 하 고 있는 활성 그룹 수 및 사용자가 그룹을 사용 하는 방법에 대 한 작업을 볼 수 있는 보고 도구가 있습니다. 자세한 내용은 [관리 센터의 Microsoft 365 보고서](../activity-reports/office-365-groups.md) 를 참조 하세요.
 

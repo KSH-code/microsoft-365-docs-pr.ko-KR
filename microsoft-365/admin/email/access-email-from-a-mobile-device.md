@@ -16,18 +16,18 @@ search.appverid: MET150
 ms.assetid: ba780859-0297-4114-a258-2b2809bab9e6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 모바일 장치에서 전자 메일에 액세스 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7c318c6d68a0314c750c6ca1e4c3b2d180d9507f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 42784d652d26222fc53b3e11f3427cf286cb32dd
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629098"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048822"
 ---
 # <a name="options-for-accessing-email-from-your-mobile-device"></a>모바일 장치에서 전자 메일에 액세스 하기 위한 옵션
 
 조직에서 전자 메일, 일정 및 연락처의 작업 계정에 액세스 하는 데 사용할 수 있는 모바일 앱을 제어 하는 설정을 구성 했습니다.
   
-Android 용 Outlook 및 iOS 모바일 앱에 대 한 outlook은 회사 또는 학교 전자 메일용으로 디자인 되며 중요 [받은 편지함](https://support.office.com/article/f445ad7f-02f4-4294-a82e-71d8964e3978.aspx)과 같은 기능을 제공 하는 유일한 앱 이며, 주요 전자 메일 및 센터를 유지 하 고, 모임 시간을 검색 하 여 동료와 함께 작업 하 여 사용 가능한 회의실을 찾는 데 도움이 되는 [지원자](https://go.microsoft.com/fwlink/?linkid=873406)를 지원 합니다.
+Android 용 Outlook 및 iOS 모바일 앱에 대 한 outlook은 회사 또는 학교 전자 메일용으로 디자인 되며 중요 [받은 편지함](https://support.office.com/article/f445ad7f-02f4-4294-a82e-71d8964e3978.aspx)과 같은 기능을 제공 하는 유일한 앱 이며, 주요 전자 메일 및 센터를 유지 하 고, 모임 시간을 검색 하 여 동료와 함께 작업 하 여 사용 가능한 회의실을 찾는 데 도움이 되는 [지원자](https://www.microsoft.com/?ref=go)를 지원 합니다.
   
 ## <a name="end-user-experience"></a>최종 사용자 환경
 

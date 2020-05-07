@@ -20,14 +20,21 @@ search.appverid:
 ms.assetid: 89502322-bfbb-43d6-9207-4030f8ce26e0
 ROBOTS: NOINDEX
 description: '조직 외부의 사용자와 사이트 및 파일을 공유 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: c11526ee199cf097053489bb4ab8060dcb2c6bc9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e49cc84314b55f1aacfa47ab28916bae12132a3e
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628031"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139616"
 ---
 # <a name="share-sites-and-files-externally"></a>사이트 및 파일 외부 공유
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 조직 외부의 사용자와 공동 작업을 하려면 전체 사이트 또는 특정 파일을 외부에서 공유할 수 있습니다. 공유 설정으로 바로 이동하려면 사용하려는 시나리오를 선택합니다.
 

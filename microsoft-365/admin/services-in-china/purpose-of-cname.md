@@ -19,12 +19,12 @@ search.appverid:
 ROBOTS: NOINDEX
 description: 인증 프로세스를 위한 최적의 서버로 안내 하는 Office 365의 ' MSOID ' CNAME 레코드에 대해 자세히 알아보세요.
 monikerRange: o365-21vianet
-ms.openlocfilehash: f5369b8a723c60691da0e73f2bd8cc32233abbcd
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: a7c59829419ac8e7db400b079681ccf5bff199d6
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212224"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44053851"
 ---
 # <a name="whats-the-purpose-of-the-office-365-cname-record-for-msoid"></a>MSOID용 Office 365 CNAME 레코드의 용도
 
@@ -40,7 +40,7 @@ CNAME 레코드가 도메인에서 누락된 경우 이 응용 프로그램은 �
   
  **Office 365에서 도메인의 DNS 레코드를 관리 하는 경우** Office 365에서이 CNAME 레코드를 설정 합니다. 
   
- Dns **호스트에서 도메인에 대 한 dns 레코드를 관리 하는 경우** [dns 호스트에 대 한 지침](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23.aspx)을 따라 직접이 레코드를 만듭니다.
+ Dns **호스트에서 도메인에 대 한 dns 레코드를 관리 하는 경우** [dns 호스트에 대 한 지침](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)을 따라 직접이 레코드를 만듭니다.
   
 Office 365 배포를 계획 하는 경우 추가 하거나 업데이트 해야 할 수 있는 모든 DNS 레코드에 대 한 자세한 내용은 [Reference: External Domain Name System record For office 365를 참조](https://go.microsoft.com/fwlink/?LinkId=579013)하세요.
   

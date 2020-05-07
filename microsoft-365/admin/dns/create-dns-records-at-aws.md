@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7a2efd75-0771-4897-ba7b-082fe5bfa9da
 description: Microsoft의 AWS (Amazon Web Services)에서 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: daac9a8efedc8a2710217e352d9793ead954d2c3
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: d75822feef5848575b8ec7fe09f834f67cdc6c55
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939358"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049110"
 ---
 # <a name="create-dns-records-at-amazon-web-services-aws-for-microsoft"></a>Microsoft의 AWS (Amazon Web Services)에서 DNS 레코드 만들기
 
@@ -171,7 +171,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는 *단일* SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 예제가 필요하세요? [Microsoft에 대한 외부 Domain Name System 레코드](https://support.office.com/article/c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0)를 참조하세요. SPF 레코드의 유효성을 검사 하기 위해 이러한[spf 유효성 검사 도구](../setup/domains-faq.md)중 하나를 사용할 수 있습니다. 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는 *단일* SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 예제가 필요하세요? [Microsoft에 대한 외부 Domain Name System 레코드](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records)를 참조하세요. SPF 레코드의 유효성을 검사 하기 위해 이러한[spf 유효성 검사 도구](../setup/domains-faq.md)중 하나를 사용할 수 있습니다. 
   
 1. 시작하려면 [이 링크](https://console.aws.amazon.com/route53/home)를 사용하여 AWS의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
@@ -187,7 +187,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**값:**|
     |:-----|
-    |v=spf1 include:spf.protection.outlook.com -all  <br/> (화면 지침에 필요한 물음표가 자동으로 제공됩니다. 직접 입력할 필요가 없습니다.)  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
+    |v=spf1 include:spf.protection.outlook.com -all  <br/> (화면 지침에 필요한 물음표가 자동으로 제공됩니다. 직접 입력할 필요가 없습니다.)  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
     ![AWS-BP-구성-4-2](../../media/beb3c086-eaf8-4245-9860-18512a3ff72e.png)
   
@@ -214,8 +214,8 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**이름**|**종류**|**별칭**|**TTL(초)**|**값**|**라우팅 정책**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip _tls|SRV - Service locator(SRV - 서비스 로케이터)|아니요|300|100 1 443 sipdir.online.lync.com. **이 값은 마침표 (.)로 끝나야 합니다.**><br> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |Simple(단순형)|
-    |_sipfederationtls _tcp|SRV - Service locator(SRV - 서비스 로케이터)|아니요|300|100 1 5061 sipfed.online.lync.com. **This value MUST end with a period (.)**<br> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |Simple(단순형)|
+    |_sip _tls|SRV - Service locator(SRV - 서비스 로케이터)|아니요|300|100 1 443 sipdir.online.lync.com. **이 값은 마침표 (.)로 끝나야 합니다.**><br> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |Simple(단순형)|
+    |_sipfederationtls _tcp|SRV - Service locator(SRV - 서비스 로케이터)|아니요|300|100 1 5061 sipfed.online.lync.com. **This value MUST end with a period (.)**<br> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |Simple(단순형)|
    
     ![AWS-BP-구성-5-1](../../media/c3f841d3-6076-428f-bb04-e71cc5f392fa.png)
   

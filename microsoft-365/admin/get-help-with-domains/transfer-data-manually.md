@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
 description: 계획 또는 회사 이름을 변경 했을 때 두 Microsoft 365 계정 간에 데이터를 수동으로 전송 하거나 여러 구독을 하나로 결합 하는 방법을 알아봅니다.
-ms.openlocfilehash: c0cb6531518c18e8cdc5b5829dc05a5b9b375291
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1eaaf48f445eb54ebf91b96924c39e9062eea4fb
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628378"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44053743"
 ---
 # <a name="transfer-data-manually-between-two-accounts"></a>두 계정 간에 데이터를 수동으로 전송
 
@@ -55,7 +55,7 @@ Sleeves을 롤업 하 고 일정에서 시간을 차단: 두 Microsoft 365 계�
 
 각 계정의 다음 페이지로 이동 하 여 이전 계정의 설정을 기반으로 새 계정을 설정 합니다.
   
-Microsoft 365에서 Microsoft 365 중소 Business 또는 Microsoft 365 Enterprise로 데이터를 전송 하는 경우 관리 페이지는 서로 다른 방식으로 구성 됩니다. 비디오 시청 [: Microsoft 365 Enterprise를 소개](https://support.office.com/article/11f7b4a0-1294-4e94-9238-beaae26efa9c.aspx)하 고 다음 위치로 이동 하 여 관리 설정을 확인 하세요.
+Microsoft 365에서 Microsoft 365 중소 Business 또는 Microsoft 365 Enterprise로 데이터를 전송 하는 경우 관리 페이지는 서로 다른 방식으로 구성 됩니다. 비디오 시청 [: Microsoft 365 Enterprise를 소개](https://docs.microsoft.com/microsoft-365/admin/)하 고 다음 위치로 이동 하 여 관리 설정을 확인 하세요.
   
 Microsoft 365 Enterprise 및 Microsoft 365 중소 Business:
   
@@ -90,9 +90,9 @@ Microsoft 365에서 호스트 되는 공개 웹 사이트가 있는 경우이를
   
 - 이전 사이트를 서식 파일로 저장 하 고 서식 파일을 새 사이트로 가져올 수 있습니다.
 
-- 문서를 전송 하려면 먼저 새 사이트에서 계층 구조를 수동으로 다시 만듭니다. 그런 다음 두 SharePoint 팀 사이트를 동시에 열고 Windows 탐색기를 사용 하 여 두 문서 라이브러리를 열고 문서를 복사 하 여 붙여 넣을 수 있습니다. [비디오: Explorer에서 열기를 사용 하 여 라이브러리 파일 복사 또는 이동을](https://support.office.com/article/c27bc6f3-7b38-4c29-b947-5d00c7153384.aspx)참조 하세요.
+- 문서를 전송 하려면 먼저 새 사이트에서 계층 구조를 수동으로 다시 만듭니다. 그런 다음 두 SharePoint 팀 사이트를 동시에 열고 Windows 탐색기를 사용 하 여 두 문서 라이브러리를 열고 문서를 복사 하 여 붙여 넣을 수 있습니다. [비디오: Explorer에서 열기를 사용 하 여 라이브러리 파일 복사 또는 이동을](https://support.office.com/article/where-to-store-files-c7c20284-bc94-47f4-9728-d28e9daf0790)참조 하세요.
 
-- 목록 데이터를 전송 하려면 [목록 서식 파일](https://support.office.com/article/c3884ad1-bc49-44b8-b3d6-3bc6a01eb393.aspx)을 저장 하 고 저장 된 서식 파일을 사용 하 여 새 사이트에 목록을 다시 만듭니다.
+- 목록 데이터를 전송 하려면 [목록 서식 파일](https://support.microsoft.com/en-us/office/manage-list-templates-c3884ad1-bc49-44b8-b3d6-3bc6a01eb393)을 저장 하 고 저장 된 서식 파일을 사용 하 여 새 사이트에 목록을 다시 만듭니다.
 
 - SharePoint Online 환경 (비즈니스용 OneDrive 또는 팀 사이트)의 문서 라이브러리 또는 목록 콘텐츠를 파일 공유 또는 로컬 컴퓨터에 저장 하려면 [Sharepoint online 콘텐츠의 수동 마이그레이션에 대 한 정보](https://support.microsoft.com/kb/2783484)를 참조 하세요.
 
