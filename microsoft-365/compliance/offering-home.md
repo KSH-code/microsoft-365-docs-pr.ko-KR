@@ -13,12 +13,12 @@ localization_priority: Normal
 audience: ITPro
 ms.prod: Microsoft-365-enterprise
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 57faa73d6c3cb5bbe92c1cea4fab7dd810abbeec
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 5ed79829cc7066f423c9ce6e97355446b5e855c3
+ms.sourcegitcommit: d93429635cbaf33a8e8e8948ac218043c7283ced
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943327"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44092550"
 ---
 # <a name="microsoft-compliance-offerings"></a>Microsoft 규정 준수 제품
 
@@ -128,7 +128,6 @@ Microsoft는 조직에서 데이터를 수집 하 고 사용 하는 데 필요�
                         <p><a href="offering-nbb-fsma-belgium.md">NBB + FSMA (벨기에)</a></p>
                         <p><a href="offering-nen-7510-netherlands.md">NEN-7510 (네덜란드)</a></p>
                         <p><a href="offering-nerc-cip.md">NERC</a></p>
-                        <p><a href="offering-nhs-ig-toolkit-uk.md">NHS IG 툴킷 (영국)</a></p>
                         <p><a href="offering-osfi-canada.md">OSFI (캐나다)</a></p>
                         <p><a href="offering-pci-dss.md">PCI DSS</a></p>
                         <p><a href="offering-rbi-irdai-india.md">RBI + IRDAI (인도)</a></p>
@@ -182,7 +181,7 @@ Microsoft는 조직에서 데이터를 수집 하 고 사용 하는 데 필요�
                         <p><a href="offering-nz-cc-framework-nz.md">NZ CC 프레임 워크 (뉴질랜드)</a></p>
                         <p><a href="offering-pasf-uk.md">PASF (영국)</a></p>
                         <p><a href="offering-pdpa-argentina.md">PDPA (아르헨티나)</a></p>
-                        <p><a href="offering-russia-data-localization.md">개인 데이터 지역화 (러시아)</a></p>
+                        <p><a href="offering-russia-data-localization.md">개인 데이터 지역화(러시아)</a></p>
                         <p><a href="https://aka.ms/TRUCS-Compliance">TRUCS (중국)</a></p>
                     </div>
                 </div>
