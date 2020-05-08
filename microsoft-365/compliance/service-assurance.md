@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 47e8b964-4b09-44f7-a2d7-b8a06e8e389c
 description: 타사 감사를 다운로드 하 고, Microsoft에서 고객 데이터를 안전 하 게 보호 하는 방법을 확인 하 고, Office 365을 사용할 때 ISO, HIPAA, FINRA 및 FedRAMP을 준수 하는 방법을 알아봅니다.
-ms.openlocfilehash: b9a9198d8206b2693f0634355c926856c1327d9d
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: d2805ae3532ee01a2515693cac6eb52da209022d
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943591"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165929"
 ---
 # <a name="service-assurance-in-the-security--compliance-center"></a>보안 & 준수 센터의 서비스 보증
 
@@ -134,7 +134,7 @@ ms.locfileid: "43943591"
 ## <a name="get-help-with-service-assurance"></a>서비스 보증에 대 한 도움말 보기
 <a name="addother"> </a>
 
-[비즈니스 제품에 대 한 지원 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+[비즈니스 제품에 대 한 지원 문의-관리자 도움말](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
   
 ## <a name="frequently-asked-questions"></a>FAQ
 <a name="addother"> </a>

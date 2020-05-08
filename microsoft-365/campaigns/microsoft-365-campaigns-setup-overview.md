@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: 캠페인에 대 한 Microsoft 365의 설치 개요
-ms.openlocfilehash: 0fa804c46ac3545a7f2d30ffe80b148262cc23cc
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 463d7cebf88ea830048c25e2781eac4aa379e30a
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632758"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165700"
 ---
 # <a name="set-up-microsoft-365-for-campaigns"></a>캠페인에 대 한 Microsoft 365 설정
 
@@ -62,6 +62,6 @@ ms.locfileid: "43632758"
 
  **지원 센터에 문의해야 하는 경우:**
   
-Microsoft 365 관리자는 고객 지원 팀, ** [비즈니스 제품 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 에 액세스할 수 있습니다.**
+Microsoft 365 관리자는 고객 지원 팀, ** [비즈니스 제품 지원에 문의-관리자 도움말](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products) 에 액세스할 수 있습니다.**
     
 

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 797b32dfa0cd286cf7eb9b6e0aa128d332f5c19a
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 70c82232dff10bb13c5079de9590cde2508db14c
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066207"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159935"
 ---
 # <a name="communication-compliance-feature-reference"></a>통신 준수 기능 참조
 
@@ -44,7 +44,7 @@ Microsoft 365 준수 센터에서 Microsoft 365 조 직에 대 한 통신 준수
 |**영역**|**정책 템플릿**|**세부 정보**|
 |:-----|:-----|:-----|
 | **불쾌 한 언어 및 harassment** | 공격적인 언어에 대 한 통신 모니터링 | -위치: Exchange Online, Microsoft 팀, Yammer, 비즈니스용 Skype <br> -방향: 인바운드, 아웃 바운드, 내부 <br> -검토 비율: 100% <br> -조건: 공격적인 언어 분류자 |
-| **민감 정보** | 중요 한 정보에 대 한 통신 모니터링 | -위치: Exchange Online, Microsoft 팀, Yammer, 비즈니스용 Skype <br> -방향: 인바운드, 아웃 바운드, 내부 <br> -검토 비율: 10% <br> -조건: 중요 한 정보, 기본 콘텐츠 패턴 및 유형, 사용자 지정 사전 옵션, 1mb 보다 큰 첨부 파일 |
+| **민감 정보** | 중요 한 정보에 대 한 통신 모니터링 | -위치: Exchange Online, Microsoft 팀, Yammer, 비즈니스용 Skype <br> -방향: 인바운드, 아웃 바운드, 내부 <br> -검토 비율: 10% <br> -조건: 중요 한 정보, 기본 콘텐츠 패턴 및 형식, 사용자 지정 사전 옵션, 1mb 보다 큰 첨부 파일 |
 | **규정 준수** | 금융 규제 준수와 관련 된 정보에 대 한 통신 모니터링 | -위치: Exchange Online, Microsoft 팀, Yammer, 비즈니스용 Skype <br> -방향: 인바운드, 아웃 바운드 <br> -검토 비율: 10% <br> -조건: 사용자 지정 사전 옵션, 1mb 보다 큰 첨부 파일 |
 
 ## <a name="supervised-users"></a>감독 사용자
@@ -62,7 +62,7 @@ Microsoft 365 준수 센터에서 Microsoft 365 조 직에 대 한 통신 준수
 
 설정을 단순화 하기 위해 통신을 검토 하는 사용자에 대 한 그룹을 만들고 해당 통신을 검토할 사용자를 위해 그룹을 만듭니다. 그룹을 사용 하는 경우에는 여러 개 필요할 수도 있습니다. 예를 들어 서로 다른 두 그룹의 통신을 검색 하려는 경우 또는 감독 되지 않는 그룹을 지정 하려는 경우
 
-감독 되는 사용자에 대해 Microsoft 365 그룹을 선택 하면 정책이 공유 사서함의 콘텐츠 및 해당 그룹과 연결 된 Microsoft 팀 채널을 검사 합니다. 메일 그룹을 선택 하면 정책에서 개별 사용자 사서함을 검색 합니다.
+감독 되는 사용자에 대해 Microsoft 365 그룹을 선택 하면 정책이 공유 사서함의 콘텐츠 및 해당 그룹과 연결 된 Microsoft 팀 채널을 검사 합니다. 메일 그룹을 선택 하면 정책에서 개별 사용자 사서함을 검색 합니다. 통신 준수 정책에 그룹과 메일 그룹을 추가 하는 것은 전체 조건 및 규칙 집합의 일부 이므로 정책에 추가 되는 조건 수에 따라 정책이 지 원하는 최대 그룹 및 배포 목록 수가 달라 집니다. 각 정책은 정책에 있는 추가 조건의 수에 따라 약 20 개의 그룹 또는 메일 그룹을 지원 해야 합니다.
 
 ## <a name="supported-communication-types"></a>지원 되는 통신 유형
 
@@ -170,7 +170,7 @@ Microsoft 365의 분류자에 대 한 자세한 내용은 [분류자](classifier
 쉼표로 구분 하 여 입력 한 각 단어를 개별적으로 적용 합니다 (전자 메일 또는 첨부 파일에 적용할 정책 조건에 한 단어씩 적용 해야 함). 예를 **들어 다음**조건을 사용 하 여 메시지에 "banker", "기밀" 및 "참가자 거래" 라는 키워드를 쉼표로 구분 하 여 허용 합니다. 이 정책은 "banker", "기밀" 또는 "참가자 거래" 라는 단어가 포함 된 모든 메시지에 적용 됩니다. 이 정책 조건을 적용 하려면 이러한 단어 또는 구문 중 하나만 발생 해야 합니다. 메시지 또는 첨부 파일의 단어는 입력 한 내용과 정확히 일치 해야 합니다.
 
 >[!IMPORTANT]
->사용자 지정 사전 파일을 가져올 때는 각 단어나 구를 캐리지 리턴과 별도의 줄에 구분 해야 합니다. <br> 예시: <br><br>
+>사용자 지정 사전 파일을 가져올 때는 각 단어나 구를 캐리지 리턴과 별도의 줄에 구분 해야 합니다. <br> 예: <br><br>
 >*banker* <br>
 >*기밀로* <br>
 >*insider 사업*

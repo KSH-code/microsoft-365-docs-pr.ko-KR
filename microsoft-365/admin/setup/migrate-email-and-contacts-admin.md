@@ -26,12 +26,12 @@ search.appverid:
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
 description: 'Gmail 또는 다른 전자 메일 공급자에서 Microsoft 365로 연락처, 일정, 전자 메일을 가져오는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: ff81eed73a4bf5d7e58316e61212fd799de6d11c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3200ee91e4ca01fb946cbb045805a213958be000
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627585"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165158"
 ---
 # <a name="migrate-email-and-contacts-to-microsoft-365"></a>Microsoft 365로 전자 메일 및 연락처 마이그레이션
 
@@ -87,6 +87,6 @@ Outlook에서 Gmail, Yahoo 또는 Live.com와 같은 다른 공급자의 전자 
   
 ## <a name="multiple-mailboxes-admins-can-bulk-import-email-contacts-and-calendars-to-microsoft-365"></a>여러 사서함: 관리자는 전자 메일, 연락처 및 일정을 Microsoft 365로 대량 가져올 수 있습니다.
 
-원본 전자 메일 시스템에 따라 여러 대량 마이그레이션 방법에서 선택할 수 있습니다. [Microsoft 365로 여러 전자 메일 계정을 마이그레이션하](https://support.office.com/article/0a4913fe-60fb-498f-9155-a86516418842) 는 방법을 확인 하 여 어떤 방법을 사용할 것인지 결정 합니다. 
+원본 전자 메일 시스템에 따라 여러 대량 마이그레이션 방법에서 선택할 수 있습니다. [Microsoft 365로 여러 전자 메일 계정을 마이그레이션하](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration) 는 방법을 확인 하 여 어떤 방법을 사용할 것인지 결정 합니다. 
   
 

@@ -1,7 +1,7 @@
 ---
 title: 위원회의 국가 보안 시스템 명령 아니요 1253 (CNSSI 1253)
 description: Azure 정부용 CNSSI 1253 보안 제어를 사용 하 여 높은 기밀성, 높은 무결성 및 높은 가용성이 필요한 미국 정부 시스템을 지원 합니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f65baf936e83e4f5128f207a82bce50100cd58b2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 59bb5fd9e692cc5c69a4baf1cdc14cc200dba7a6
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602595"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066271"
 ---
 # <a name="committee-on-national-security-systems-instruction-no-1253-cnssi-1253"></a>위원회의 국가 보안 시스템 명령 아니요 1253 (CNSSI 1253)
 
@@ -35,9 +35,9 @@ CNSSI 1253은 NIST SP 800-53을 기반으로 하며, FedRAMP 높은 권한 부�
 
 FedRAMP 승인 된 타사 평가 조직 (3PAO), Kratos SecureInfo는 CNSSI 1253 고가-높은 기준선을 사용 하 여 Microsoft Azure 정부 시스템의 준수 여부를 독립적으로 확인 했습니다. Kratos SecureInfo attests Azure 정부의 CNSSI 1253 보안 평가 보고서 (SAP)에 있는 해당 보안 제어에 대 한 완벽 한 평가를 제공 합니다. 이 특별 행정구는 높은 기밀성, 높은 무결성 및 고가용성을 필요로 하는 시스템에 대해 CNSSI 1253 보안 제어를 선택 하기 위해 Azure 정부의 유효성을 검사 하기 위해 수행 된 테스트를 문서화 합니다.  
   
-현재 Azure 정부는 FedRAMP High Provisional 권한 부여 (공동 인증 위원회)에서 실행 되는 (P-ATO), 클라우드 컴퓨팅 보안의 영향 수준 5에 있는 PA (방어 Provisional 인증)의 부서를 운영 하 고 있습니다. 요구 사항 가이드 (SRG) 이러한 인증을 사용 하는 경우 Kratos SecureInfo는 이전 평가에서 테스트 한 보안 제어를 분석 하 여 CNSSI 1253 High-High 기준을 준수 하기 위해 테스트할 추가 CNSSI 1253 보안 제어를 확인 했습니다. Kratos SecureInfo에서는 적절 한 43 적용 가능 보안 제어가 성공적인 구현 되었는지 확인 하 고, CNSSI 1253 특별 행정구에서 전체 테스트의 결과를 게시 하기 위해 증거를 검사 하 고 인터뷰를 실시 했습니다.  
+현재 Azure 정부는 FedRAMP High Provisional 권한 부여 (공동 인증 위원회)에서 실행 되는 (P-ATO), 그리고 클라우드 컴퓨팅 보안 요구 사항 가이드 (SRG)의 영향 수준 5에 있는 PA (방어 Provisional 권한 부여)의 부서를 담당 합니다. 이러한 인증을 사용 하는 경우 Kratos SecureInfo는 이전 평가에서 테스트 한 보안 제어를 분석 하 여 CNSSI 1253 High-High 기준을 준수 하기 위해 테스트할 추가 CNSSI 1253 보안 제어를 확인 했습니다. Kratos SecureInfo에서는 적절 한 43 적용 가능 보안 제어가 성공적인 구현 되었는지 확인 하 고, CNSSI 1253 특별 행정구에서 전체 테스트의 결과를 게시 하기 위해 증거를 검사 하 고 인터뷰를 실시 했습니다.  
   
-까다로운 CNSSI 1253 요구 사항을 충족 하는 Azure 정부의 규정 준수는 Azure에서 CNSSI 1253과 호환 되는 다양 한 서비스를 제공 하 여 비용 절감 및 엄격한 혜택을 얻을 수 있도록 미국에서 공용 섹터 고객을 지원 한다는 것을 의미 합니다. Microsoft 클라우드의 보안입니다.
+까다로운 CNSSI 1253 요구 사항과 함께 Azure 정부를 준수 하는 것은 Azure에서 공용 섹터 고객에 게 CNSSI 1253과 호환 되는 다양 한 서비스를 제공 하 여 Microsoft 클라우드의 비용 절약 및 엄격한 보안을 활용할 수 있다는 것을 의미 합니다.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
@@ -51,7 +51,7 @@ Azure 정부 CNSSI 1253, CNSSI 1253 High-높은 기준선 준수 증명
 
 - [Azure 정부 설명서](https://docs.microsoft.com/azure/azure-government/): 자습서 및 방법 가이드 개발자가 Azure 정부를 사용 하 여 서비스를 배포 하 고 관리 하는 데 도움이 됩니다.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **CNSSI 1253를 적용할 대상**
 
@@ -69,7 +69,3 @@ Azure 정부 (FedRAMP 패키지 ID F1603087869)에서 이러한 컨트롤을 다
 - [Microsoft 및 DoD Provisional 권한 부여](offering-DoD-DISA-L2-L4-L5.md)
 - [Microsoft Government 클라우드](https://www.microsoft.com/enterprise/government)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/6/E/C/6EC27E89-826E-44CB-A107-2A37AC879206/CNSSI_1253-Compliance.pdf)를 다운로드합니다.

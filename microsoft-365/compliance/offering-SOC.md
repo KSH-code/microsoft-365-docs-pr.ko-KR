@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cdbd14ebd71964728282f5cff2e20f87f5a4a4a0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 548b331a8ee26434f53b9960fd355feacd45dfde
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633433"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066321"
 ---
 # <a name="service-organization-controls-soc"></a>SOC(서비스 조직 컨트롤)
 
@@ -42,8 +42,6 @@ SOC 1 또는 SOC 2 감사를 마치면서 서비스 감사자는 CSP의 시스�
 독립된 타사 감사자가 SOC 보고 프레임워크에 따라 Microsoft가 제공하는 클라우드 서비스를 최소 매년 감사합니다. Microsoft 클라우드 서비스에 대한 감사에는 각 서비스에 대한 범위 내 트러스트 원칙에 적용되는 데이터 보안, 가용성, 처리 무결성, 기밀성 등에 대한 통제 수단이 포함됩니다.
 
 Microsoft는 SOC 1 유형 2, SOC 2 유형 2 및 SOC 3 보고서를 완성했습니다. 일반적으로 SOC 1 및 SOC 2 보고서는 Microsoft와 비밀 유지 계약을 체결한 고객만 사용할 수 있고, SOC 3 보고서는 공개적으로 제공됩니다.
-
-Microsoft 클라우드에서 SOC 1, 2, 3의 이점에 대해 자세히 알아보세요. [SOC 1 및 SOC 2 유형 2 보고서 다운로드](https://aka.ms/soc_backgrounder)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 

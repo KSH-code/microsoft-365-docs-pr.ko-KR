@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 description: GDPR(일반 데이터 보호 규정) 보호 계획의 일부로 Office 레이블을 사용하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ad80a63470d0afa4cfb946def18f3408f8a27f4
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 42cfc73433a7087f0f5dd62f2da9b27b5a3cf48d
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034362"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165261"
 ---
 # <a name="apply-labels-to-personal-data"></a>개인 데이터에 레이블 적용하기
 
@@ -182,7 +182,7 @@ GDPR이 적용되는 개인 데이터의 경우, 사용자 환경을 위해 조�
 <tr class="odd">
 <td align="left"><p>규정 준수 팀의 구성원에게 권한을 부여합니다.</p></td>
 <td align="left"><p>레이블을 만드는 규정 준수 팀의 구성원에게는 의 보안 및/또는 규정 준수 센터를 사용할 수 있는 권한이 있어야 합니다. 보안 및 규정 준수 센터의 사용 권한으로 이동한 후, 규정 준수 관리자 그룹의 구성원을 수정합니다.</p>
-<p><a href="https://support.office.com/en-ie/article/Give-users-access-to-the-Office-365-Security-Compliance-Center-2cfce2c8-20c5-47f9-afc4-24b059c1bd76">사용자에게 보안 및/또는 규정 준수 센터에 대한 액세스 권한 부여</a>를 참조하세요.</p></td>
+<p><a href="https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center">사용자에게 보안 및/또는 규정 준수 센터에 대한 액세스 권한 부여</a>를 참조하세요.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>보존 레이블 생성,</p></td>

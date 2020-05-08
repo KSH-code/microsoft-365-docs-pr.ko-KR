@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: 규정 준수 센터에서 DLP(데이터 손실 방지) 정책을 사용하여 Office 365의 개인 데이터를 보호하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f5c82a1f841cca1eea9a79d8f9dbcc1f81a3ad74
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: eb6ae528e54f93fea26a20be35a6f5bfb33337d2
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035180"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165231"
 ---
 # <a name="apply-protection-to-personal-data"></a>개인 데이터에 보호 적용하기
 
@@ -45,7 +45,7 @@ DLP를 사용하면 다음과 같은 작업을 수행할 수 있습니다.
 
 -   조직의 DLP 정책과 일치하는 내용을 표시하는 DLP 보고서를 확인합니다.
 
-자세한 내용은 [데이터 손실 방지 정책 개요](https://support.office.com/article/Overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e)를 참조하세요.
+자세한 내용은 [데이터 손실 방지 정책 개요](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)를 참조하세요.
 
 ![데이터 손실 방지 정책을 만들기 위한 옵션](../media/Apply-protection-to-personal-data-in-Office-365-image1.png)
 
@@ -146,7 +146,7 @@ Microsoft 365 DLP의 기본적인 사용 중 하나는 Microsoft 365 환경에�
 <tr class="odd">
 <td align="left">정책 설정과 일치하는 콘텐츠가 있을 때 사용자에게 알림</td>
 <td align="left"><p>이 확인란("사용자에게 정책 팁 표시 및 전자 메일 알림 전송")을 선택합니다.</p>
-<p>'팁 및 전자 메일 사용자 지정'을 클릭하고 작업 환경에 맞게 업데이트합니다. <a href="https://support.office.com/article/Send-email-notifications-and-show-policy-tips-for-DLP-policies-87496bc5-9601-4473-8021-cb05c71369c1?ui=en-US&amp;rs=en-US&amp;ad=US">전자 메일 알림 보내기 및 DLP 정책에 대한 정책 팁 표시</a> 문서에서 기본 알림을 참조하세요.</p></td>
+<p>'팁 및 전자 메일 사용자 지정'을 클릭하고 작업 환경에 맞게 업데이트합니다. <a href="https://docs.microsoft.com/microsoft-365/compliance/use-notifications-and-policy-tips">전자 메일 알림 보내기 및 DLP 정책에 대한 정책 팁 표시</a> 문서에서 기본 알림을 참조하세요.</p></td>
 </tr>
 <tr class="even">
 <td align="left">한 번에 특정 양의 중요한 정보가 공유되는 경우 감지</td>
@@ -252,9 +252,9 @@ SharePoint의 사용 권한을 사용하여 사용자에게 사이트 또는 해
 
 추가 정보:
 
--   [SharePoint의 권한 수준 이해](https://support.office.com/ko-KR/article/Understanding-permission-levels-in-SharePoint-87ecbb0e-6550-491a-8826-c075e4859848)
+-   [SharePoint의 권한 수준 이해](https://docs.microsoft.com/sharepoint/understanding-permission-levels)
 
--   [SharePoint 그룹 이해](https://support.office.com/ko-KR/article/Understanding-SharePoint-groups-94d9b261-161e-4ace-829e-eca1c8cd2eb8)
+-   [SharePoint 그룹 이해](https://docs.microsoft.com/sharepoint/default-sharepoint-groups)
 
 ### <a name="external-sharing-policies-for-sharepoint-and-onedrive-for-business-libraries"></a>SharePoint 및 비즈니스용 OneDrive 라이브러리에 대한 외부 공유 정책
 
@@ -304,9 +304,9 @@ SharePoint의 사용 권한을 사용하여 사용자에게 사이트 또는 해
 
 추가 정보:
 
--   [SharePoint Online 환경에 대해 외부 공유 관리](https://support.office.com/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US)
+-   [SharePoint Online 환경에 대해 외부 공유 관리](https://docs.microsoft.com/sharepoint/external-sharing-overview)
 
--   [조직 외부의 사용자와 사이트 또는 문서 공유](https://support.office.com/ko-KR/article/Share-sites-or-documents-with-people-outside-your-organization-80e49744-e30f-44db-8d51-16661b1d4232)
+-   [조직 외부의 사용자와 사이트 또는 문서 공유](https://support.office.com/article/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c)
 
 ### <a name="site-level-device-access-policies"></a>사이트 수준 장치 액세스 제어
 
@@ -355,7 +355,7 @@ SharePoint 및 비즈니스용 OneDrive에 대한 장치 액세스 정책은 구
 </tbody>
 </table>
 
-자세한 내용: [SharePoint Online 관리 센터: 관리되지 않는 장치의 액세스 제어](https://support.office.com/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622?ui=en-US&rs=en-US&ad=US)
+자세한 내용: [SharePoint Online 관리 센터: 관리되지 않는 장치의 액세스 제어](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
 
 ## <a name="service-access-protection-for-identities-and-devices"></a>ID 및 장치에 대한 서비스 액세스 보호
 

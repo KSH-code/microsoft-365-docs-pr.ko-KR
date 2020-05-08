@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: d7138188-086e-4a54-a155-11fa953c3930
 ROBOTS: NOINDEX
 description: Microsoft 365 for business 구독에 라이선스를 활성화, 갱신 또는 추가 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: da4e42ae2dadec8d376b9ef8d12c6d4cb4fe7af5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0f8233613f7929dad37167e7237be335d4e8f567
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636455"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165134"
 ---
 # <a name="enter-your-product-key-purchased-from-microsoft-open"></a>Microsoft Open에서 구입한 제품 키 입력
 
@@ -63,7 +63,7 @@ Microsoft 365 for business를 처음 사용할 경우 [조직에 대해 microsof
 
 일반적인 오류 및 해결 방법 목록을 확인 하세요. [제품 키에 문제가 있나요?](product-key-errors-and-solutions.md)
   
-파트너인 경우 [파트너: 제품 키를 사용하여 고객 구독 설정](https://support.office.com/article/cf22c50f-95c9-4fa2-b959-c264de256d40.aspx)을 참조하세요.
+파트너인 경우 [파트너: 제품 키를 사용하여 고객 구독 설정](https://support.microsoft.com/en-us/office/partners-use-a-product-key-to-set-up-a-customer-subscription-cf22c50f-95c9-4fa2-b959-c264de256d40)을 참조하세요.
   
 볼륨 라이선스 고객은 [Microsoft 볼륨 라이선스 서비스 센터 교육 및 리소스](https://go.microsoft.com/fwlink/p/?LinkId=618103)를 방문하여 자세한 내용을 알아볼 수 있습니다.
   

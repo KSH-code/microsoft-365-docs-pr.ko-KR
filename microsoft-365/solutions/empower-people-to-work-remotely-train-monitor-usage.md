@@ -14,15 +14,15 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
-ms.custom:
 - M365solutions
+ms.custom: ''
 description: 사용자를 교육하고 문제를 신속하게 처리할 수 있도록 합니다.
-ms.openlocfilehash: 93ef4325ef042b33690662767f2484a9cf881475
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: bb8c6614ed383136ef5724d45637891ee978c9cd
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44003810"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160729"
 ---
 # <a name="step-6-train-remote-workers-and-address-usage-feedback"></a>6단계: 원격 작업자 교육 및 사용 피드백 처리
 

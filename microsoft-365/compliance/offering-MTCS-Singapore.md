@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7a0dfc1b03099d52255f2e474ba8d99c2ea3a2cb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a305c66aaa3359417bd72b8525ed63787d655f8f
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602155"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065683"
 ---
 # <a name="multi-tier-cloud-security-mtcs-standard-for-singapore"></a>싱가포르 MTCS(다단계 클라우드 보안) 표준
 
@@ -41,8 +41,6 @@ MTCS는 다양한 심각도 수준이 적용된 최초의 클라우드 보안 �
 Microsoft 클라우드 서비스는 MTCS 인증 주체에 의해 엄격한 평가를 거친 후 IaaS(서비스형 인프라), PaaS(서비스형 플랫폼) 및 SaaS(서비스형 소프트웨어)라는 세 가지 서비스 범주에 대해 MTCS 584:2013 인증을 취득했습니다. Microsoft는 세 가지 범주 모두에서 이 인증을 획득한 최초의 글로벌 CSP입니다.
 
 Microsoft Azure 서비스 (IaaS 및 PaaS), Microsoft Dynamics 365 서비스 (SaaS) 및 Microsoft Office 365 서비스 (SaaS)에 대해 수준 3의 인증을 받았습니다. 수준 3 인증은 범위 내 Microsoft 클라우드 서비스가 가장 엄격한 보안 요구 사항을 준수해야 하는 규제 조직에 대해 영향도가 높은 데이터를 호스팅할 수 있음을 의미합니다. 싱가포르 정부는 특정 클라우드 솔루션의 구현에 이 수준을 요구하고 있습니다.
-
-Microsoft 클라우드에서의 MTCS의 혜택에 대해 알아보세요. [싱가포르 MTCS 표준 배경 설명 다운로드](https://aka.ms/mtcs-backgrounder)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
@@ -105,7 +103,3 @@ MTCS에는 세 가지 보안 수준에 적용되는 총 535개의 통제 사항�
 - [싱가포르 보안 및 개인 정보 요구 사항 컨텍스트의 Azure 준수](https://aka.ms/azurecompliancesingapore)
 - [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/3/1/A/31AA4618-A5AE-4013-832B-C7A23CEBC26E/MCTS_Compliance_Backgrounder.pdf)를 다운로드합니다.
