@@ -1,7 +1,7 @@
 ---
 title: 경찰서 (보안 강화 기능) 영국
 description: Microsoft business cloud services는 경찰서 보안 기능이 클라우드에서 데이터를 처리 하 고 저장 하도록 요구 하는 영국 법 집행을 지원 합니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,24 +14,24 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 292e565064a91d2256dc62831dc1f0957a9b96eb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3207d0d29c837064ac5c27cc7022a8d0d7e63a22
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601875"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065793"
 ---
 # <a name="police-assured-secure-facilities-pasf-united-kingdom"></a>경찰서 (보안 강화 기능) 영국
 
 ## <a name="about-pasf"></a>정보 f
 
-경찰서 정보에 대 한 저장 및 액세스를 보장 하 여 치안에 대 한 정보 (예: 보안, immigration, 법률 및 주문)의 국립 Home Office (NPIRMT)에 대 한 비용이 청구 됩니다. [국립 치안 Information 위험 관리 정책을](http://library.college.police.uk/docs/APP-National-Policing-Information-Risk-Management-Policy.pdf)통해 경찰서 정보 시스템을 클라우드로 이동할 위험을 평가 하는 미국 집행 기관에 대 한 중앙 표준 및 제어를 설정 합니다. 이 정책에는 영국에 있는 모든 국가 경찰서 서비스 (protectively 또는 기타 중요 법률 적용 정보)를 저장 하 고 처리 하는 모든 국내 it 보안 데이터 센터에 대 한 물리적 검사 (해당 데이터가 필요 함) 된. 데이터 센터에 대 한 성공적인 평가가 성공적으로 수행 됨에 따라 f가 됩니다.
+경찰서 정보에 대 한 저장 및 액세스를 보장 하 여 치안에 대 한 정보 (예: 보안, immigration, 법률 및 주문)의 국립 Home Office (NPIRMT)에 대 한 비용이 청구 됩니다. [국립 치안 Information 위험 관리 정책을](http://library.college.police.uk/docs/APP-National-Policing-Information-Risk-Management-Policy.pdf)통해 경찰서 정보 시스템을 클라우드로 이동할 위험을 평가 하는 미국 집행 기관에 대 한 중앙 표준 및 제어를 설정 합니다. 이 정책에는 영국에 있는 모든 국가 경찰서 서비스 (protectively 또는 기타 중요 법률 적용 정보)가 위험 평가에서 추가 단계를 수행 해야 합니다 (해당 데이터가 저장 되는 데이터 센터의 실제 검사). 데이터 센터에 대 한 성공적인 평가가 성공적으로 수행 됨에 따라 f가 됩니다.
 
-주의 검토 시 로컬 경찰서 서비스를 지원 하기 위해 NPIRMT에서 Azure 데이터 센터에 대 한 상호 f 감사를 수행 했으며,이를 준수 하는 것으로 확인 되었습니다. 로컬 경찰서 서비스는이 NPIRMT 평가를 사용 하 여 자체 검토를 지원할 수 있습니다. NPIRMT 정책 지침을 사용 하 여 각 경찰서 서비스의 선임 정보 위험 소유자는 특정 응용 프로그램의 컨텍스트에서 개별 데이터 센터의 적합성을 평가한 다음, 승인을 받기 위해 NPIRMT에 제출 합니다. .
+주의 검토 시 로컬 경찰서 서비스를 지원 하기 위해 NPIRMT에서 Azure 데이터 센터에 대 한 상호 f 감사를 수행 했으며,이를 준수 하는 것으로 확인 되었습니다. 로컬 경찰서 서비스는이 NPIRMT 평가를 사용 하 여 자체 검토를 지원할 수 있습니다. NPIRMT 정책 지침을 사용 하 여 각 경찰서 서비스의 선임 정보 위험 소유자는 특정 응용 프로그램의 컨텍스트에서 개별 데이터 센터의 적합성을 평가한 다음, 승인을 위해 NPIRMT에 제출 합니다.
 
 ## <a name="microsoft-and-pasf"></a>Microsoft 및 기타 f
 
-UK 국립 치안 Information 위험 관리 팀 (NPIRMT)은 영국에 있는 Microsoft Azure 데이터 센터의 실제 인프라에 대 한 포괄적인 보안 평가를 완료 했으며, 이러한 요구 사항을 충족 한다는 것을 결론 했습니다. 수정 작업을 모두 수행 합니다. 이 성공적인 실제 감사는 Microsoft business cloud services가 경찰서 (경찰서 보장 보안 기능)를 사용 하 여 클라우드에서 데이터를 처리 하 고 저장 해야 하는 영국에서 모두 지원 되는 기능을 지원할 수 있다는 것을 의미 합니다.
+영국 국립 치안 Information 위험 관리 팀 (NPIRMT)은 영국에 있는 Microsoft Azure 데이터 센터의 실제 인프라에 대 한 포괄적인 보안 평가를 완료 했으며, 수정 작업 없이 NPIRMT 요구 사항을 준수 하 고 있음을 결론 했습니다. 이 성공적인 실제 감사는 Microsoft business cloud services가 경찰서 (경찰서 보장 보안 기능)를 사용 하 여 클라우드에서 데이터를 처리 하 고 저장 해야 하는 영국에서 모두 지원 되는 기능을 지원할 수 있다는 것을 의미 합니다.
 
 Microsoft는 보안에 대 한 전체적인 심층 방어 접근 방식을 사용 합니다. 영국 데이터 센터 (모든 Microsoft 데이터 센터)는 모든 클라우드 서비스 공급자에 대 한 국제적으로 인식 된 표준의 [가장 포괄적인 포트폴리오](https://azure.microsoft.com/overview/trusted-cloud/) 를 준수 하 고 이러한 요구 사항을 일관적으로 충족 하도록 인증 됩니다. 여기에는 [iso/iec 27001 정보 보안 관리 표준](offering-iso-27001.md) 구현에 대 한 인증 및 [클라우드에서 개인 데이터를 보호 하기 위한 연습용 iso/iec 27018 코드가](offering-iso-27018.md)포함 됩니다.
 
@@ -51,7 +51,7 @@ NPIRMT은 매년 한 번씩 Azure datacenter를 감사 하며, 매년 영국 4 �
 
 - [AZURE Uk 공식 청사진](https://servicetrust.microsoft.com/ViewPage/UKBlueprints): 영국 고객이 Azure에서 준수 작업의 IaaS 및 PaaS 배포를 가속화 하도록 지원 합니다.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **영국에서 경찰서 부서가 자체 위험 평가의 일부로 Azure에 지 f 평가를 사용할 수 있나요?**
 
@@ -64,7 +64,3 @@ NPIRMT은 매년 한 번씩 Azure datacenter를 감사 하며, 매년 영국 4 �
 - [Microsoft 및 ISO/IEC 27001:2013 ISM 표준](offering-iso-27001.md)
 - [Microsoft 온라인 서비스 사용 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/C/9/7/C97C7B62-F582-4C25-8ABB-80DFB87628CA/PASF-Compliance.pdf)를 다운로드합니다.

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 989d30a53b767bc8ec757c92e72198e3900bcfeb
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 70e36d4f11f7fc1a5870f41a32351cf7078bdc68
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943667"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065773"
 ---
 # <a name="russian-personal-data-localization-requirements"></a>러시아어 개인 데이터 지역화 요구 사항
 
@@ -71,5 +71,5 @@ Microsoft Azure와 같은 Microsoft Online Services의 경우 Microsoft 365, Dyn
 - **온라인 지원**: [파워 플랫폼 지원을](https://docs.microsoft.com/power-platform/admin/get-help-support) 통해 쿼리 전송
 
 > [!NOTE]
-> <sup>1</sup> 연방 법이 아닙니다. 242-FZ (버전 날짜 12.31.2014) "정보 및 통신 네트워크에서 개인 데이터를 처리 하는 절차를 명확 하 게 설명 하기 위해 러시아어 페더레이션을 사용 하는 특정 기관 작동 amendments <br>
+> <sup>1</sup> 연방 법이 아닙니다. 242-FZ (버전 날짜 12.31.2014) ' amendments에 개인 데이터 처리 절차를 명확 하 게 설명 하기 위한 러시아어 연합의 특정 기관 작동 합니다 07.21.2014 <br>
 > <sup>2</sup> 연방 법 법칙 152-07.27의 개인 데이터에 대 한 FZ 2006<br>

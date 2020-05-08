@@ -17,19 +17,19 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 8767174fa17aceab7d83adb96f938efad5074356
-ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
+ms.openlocfilehash: 8277549c683da19dbbf915a7cf673fc731cb8803
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43804768"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141415"
 ---
 # <a name="microsoft-secure-score-preview"></a>Microsoft 보안 점수 (미리 보기)
 
 >[!IMPORTANT]
 >일부 정보는 상업적으로 출시 되기 전에 크게 수정 될 수 있는 prereleased 제품과 관련 되어 있습니다. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 많은 향상 작업이 수행 되었음을 나타냅니다. 이 도구는 Microsoft 365 https://security.microsoft.com/securescore 보안 센터에서 찾을 수 있습니다.
+Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 많은 향상 작업이 수행 되었음을 나타냅니다. 이 도구는 https://security.microsoft.com/securescore [Microsoft 365 보안 센터](overview-security-center.md)에서 찾을 수 있습니다.
 
 보안 점수 권장 사항을 따르면 위협 으로부터 조직을 보호할 수 있습니다. Microsoft 365 보안 센터의 중앙 집중식 대시보드를 통해 조직은 Microsoft 365 id, 데이터, 앱, 장치 및 인프라의 보안을 모니터링 하 고 작업할 수 있습니다.
 
@@ -57,7 +57,7 @@ Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 
 
 ### <a name="products-included-in-secure-score"></a>안전한 점수에 포함 된 제품
 
-현재 Microsoft 365 (SharePoint Online, Exchange Online, 비즈니스용 OneDrive, Microsoft Information Protection 등), Azure AD, Microsoft Defender ATP 및 Cloud App Security에 대 한 권장 사항이 있습니다. 다른 보안 제품에 대 한 권장 사항은 곧 제공 될 예정입니다. 권장 사항은 각 제품과 연결 된 모든 공격 표면을 다루지는 않지만 좋은 기준이 됩니다. 또한 개선 작업을 제 3 자에서 다룬 것으로 표시할 수도 있습니다.
+현재 Microsoft 365 (Exchange Online 포함), Azure AD, Microsoft Defender ATP, Azure ATP 및 Cloud App Security에 대 한 권장 사항이 있습니다. 다른 보안 제품에 대 한 권장 사항은 곧 제공 될 예정입니다. 권장 사항은 각 제품과 연결 된 모든 공격 표면을 다루지는 않지만 좋은 기준이 됩니다. 또한 개선 작업을 제 3 자에서 다룬 것으로 표시할 수도 있습니다.
 
 ## <a name="required-permissions"></a>필요한 사용 권한
 
@@ -97,7 +97,7 @@ Microsoft 보안 점수에 액세스할 수 있는 권한을 부여 하려면 Az
 
 * Id (Azure AD 계정 & 역할)
 * 데이터 (Microsoft Information Protection)
-* 장치 (지금 향상 작업 없음)
+* 장치 (Microsoft Defender ATP)
 * 앱 (Office 365 및 Microsoft Cloud App Security)을 포함 하는 전자 메일 및 클라우드 앱
 * 인프라 (지금은 향상 작업 없음)
 
@@ -108,17 +108,17 @@ Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간의 점수가
 
 ## <a name="take-action-to-improve-your-score"></a>점수를 개선 하기 위한 조치 수행
 
-향상 작업 탭에는 가능한 공격 대상 및 해당 상태 (완료 됨, 계획 됨, 위험 수락, 타사 및 받는 사람 주소)를 포함 하는 보안 권장 사항이 나열 되어 있습니다. 모든 개선 작업을 검색, 필터링 및 그룹화 할 수 있습니다.  
+**향상 작업** 탭에는 가능한 공격 지를 확인 하는 보안 권장 사항과 함께 해당 상태 (주소, 계획 된 위험, 허용 됨, 제 3 자가 해결 됨, 대안 완화 및 완료 됨)가 함께 표시 됩니다. 모든 개선 작업을 검색, 필터링 및 그룹화 할 수 있습니다.  
 
 ### <a name="ranking"></a>순서
 
 순위는 달성할 수 있는 남은 점수, 구현 난이도, 사용자 영향 및 복잡도를 기반으로 합니다. 가장 높은 순위의 향상 작업에는 낮은 난이도, 사용자 영향 및 복잡도의 점수가 많이 남아 있습니다.
 
-### <a name="actions"></a>작업
+### <a name="view-improvement-action-details"></a>향상 작업 세부 정보 보기
 
 특정 향상 작업을 선택 하면 전체 페이지 플라이 아웃이 나타납니다.  
 
-![향상 작업 플라이 아웃](../../media/secure-score/secure-score-improvement-action.png)
+![향상 작업 플라이 아웃](../../media/secure-score/secure-score-improvement-action-details.png)
 예*그림 2: 개선 작업 플라이 아웃 예제*
 
 이 작업을 완료 하려면 몇 가지 옵션을 사용할 수 있습니다.
@@ -127,16 +127,34 @@ Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간의 점수가
 
 * **공유** 를 선택 하 여 개선 작업에 대 한 직접 링크를 복사 하거나, 전자 메일, microsoft 팀, Microsoft Planner 또는 ServiceNow와 같은 링크를 공유할 플랫폼을 선택 합니다. ServiceNow를 선택 하면 ServiceNow 및 Microsoft 365 보안 센터 홈에 표시 되는 변경 티켓을 만들 수 있습니다. 자세한 내용은 [Microsoft 365 보안 센터 및 ServiceNow 통합](tickets.md)을 참조 하세요.
 
-* **상태 및 메모 편집** 을 선택 하 여 수동 상태를 편집 하거나 개선 작업에 관련 된 메모를 기록 합니다. 향상 작업 탭에서 상태를 기준으로 필터링 하거나 그룹화 할 수 있습니다. 선택할 수 있는 조각상은 다음과 같습니다.
+### <a name="choose-an-improvement-action-status"></a>향상 작업 상태 선택
 
-    * **해결 방법** : 개선 작업이 필요한 지를 인식 하 고 미래에 특정 시점에 해결할 계획입니다. 이 상태는 부분적으로 검색 되었지만 완전히 완료 되지 않은 작업에도 적용 됩니다.
-    * **계획** 됨-개선 작업을 완료 하기 위한 구체적인 계획이 마련 되었습니다.
-    * **위험 수락** -보안이 항상 유용성과 균형을 유지 해야 하며, 환경에 대 한 모든 권장 사항이 적합 하지는 않습니다. 이 경우 위험 또는 남은 위험을 수락 하 고 개선 작업을 적용 하지 않도록 선택할 수 있습니다. 모든 점수를 제공 하는 것은 아니지만 해당 작업은 개선 작업 목록에 더 이상 표시 되지 않습니다. 언제 든 지 기록에서이 작업을 보거나 실행 취소할 수 있습니다.
-    * 타사 응용 프로그램 또는 소프트웨어에서 개선 작업을 이미 처리 한 타사를 **통해 해결** 합니다. 작업을 수행 하는 점수를 얻게 되므로 점수가 향상 되어 전반적인 보안 환경을 보다 효율적으로 반영할 수 있습니다. 제 3 자가 더 이상 해당 컨트롤을 커버 하지 않으면 다른 상태를 선택할 수 있습니다. 개선 작업이 타사를 통해 해결 된 것으로 표시 되는 경우 Microsoft는 구현의 완성도를 명확 하 게 파악할 수 없습니다.
+상태를 선택 하 고 향상 작업과 관련 된 메모를 기록 합니다. 선택할 수 있는 동상은 다음과 같습니다.
 
-### <a name="prerequisites"></a>필수 구성 요소
+* **해결 방법** : 개선 작업이 필요한 지를 인식 하 고 미래에 특정 시점에 해결할 계획입니다. 이 상태는 부분적으로 검색 되었지만 완전히 완료 되지 않은 작업에도 적용 됩니다.
+* **계획** 됨-개선 작업을 완료 하기 위한 구체적인 계획이 마련 되었습니다.
+* **위험 수락** -보안이 항상 유용성과 균형을 유지 해야 하며, 환경에 대 한 모든 권장 사항이 적합 하지는 않습니다. 이 경우 위험 또는 남은 위험을 수락 하 고 개선 작업을 적용 하지 않도록 선택할 수 있습니다. 모든 점수를 제공 하는 것은 아니지만 해당 작업은 개선 작업 목록에 더 이상 표시 되지 않습니다. 언제 든 지 기록에서이 작업을 보거나 실행 취소할 수 있습니다.
+* 타사 응용 프로그램 또는 소프트웨어 또는 내부 도구로 이미 향상 된 기능을 사용 하 여 타사에서 **확인** 하 고 **다른 완화 작업을 통해 해결** 되었습니다. 작업을 수행 하는 점수를 얻게 되므로 점수가 향상 되어 전반적인 보안 환경을 보다 효율적으로 반영할 수 있습니다. 타사 또는 내부 도구가 더 이상 해당 컨트롤을 커버 하지 않으면 다른 상태를 선택할 수 있습니다. 향상 작업이 이러한 상태 중 하나로 표시 되는 경우 Microsoft는 구현의 완성도를 명확 하 게 파악할 수 없습니다.
 
-구현 섹션의 필수 구성 요소에는 획득 해야 하는 모든 라이선스 또는 개선 작업을 처리 하기 전에 완료 해야 하는 작업이 나열 됩니다. 라이선스에 개선 작업을 완료 하 고 해당 라이선스가 필요한 사용자에 게 적용 되었는지 확인 합니다.  
+#### <a name="threat--vulnerability-management-improvement-actions"></a>위협 & 취약성 관리 개선 작업
+
+"장치" 범주의 향상 작업을 수행 하는 경우 상태를 선택할 수 없습니다. 대신 [Microsoft Defender 보안 센터](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use) 의 [tvm (& 취약성 관리) 보안 권장 사항을](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-security-recommendation) 연결 하 여 조치를 취할 것입니다. 선택한 예외 및 작성 한 사유는 해당 포털에만 적용 되며 Microsoft 보안 점수 포털에는 표시 되지 않습니다.
+
+#### <a name="completed-improvement-actions"></a>완료 된 개선 작업
+
+향상 작업에 대 한 가능한 모든 점수를 얻은 후에는 개선 조치에 "완료 됨" 상태가 발생 합니다. 완료 된 개선 작업은 Microsoft 데이터를 통해 확인 되며 상태를 변경할 수 없습니다.
+
+### <a name="assess-information-and-review-user-impact"></a>정보 평가 및 사용자 영향 검토
+
+**살펴보기** 섹션에는 범주, 제품에 대해 보호할 수 있는 공격 및 제품이 설명 되어 있습니다.
+
+**사용자 영향** 에 따라 개선 작업이 실행 되는 경우 사용자에 게 발생할 항목이 표시 되 고, **영향을 받는 사용자** 에 게는이를 표시할 사람이 표시 됩니다.
+
+### <a name="implement-the-improvement-action"></a>개선 작업 구현
+
+**구현** 섹션에서는 다음 단계에 따라 개선 작업을 완료 하기 위한 단계, 개선 작업의 현재 구현 상태 및 자세한 링크를 보여 줍니다.
+
+필수 구성 요소는 개선 작업을 처리 하기 전에 완료 해야 하는 작업 또는 획득 해야 하는 모든 라이선스가 됩니다. 라이선스에 개선 작업을 완료 하 고 해당 라이선스가 필요한 사용자에 게 적용 되었는지 확인 합니다.  
 
 ## <a name="track-your-score-history-and-meet-goals"></a>점수 내역 추적 및 목표 달성
 
@@ -148,7 +166,7 @@ Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간의 점수가
 * **회귀 추세** -구성, 사용자 또는 장치 변경으로 인해 회귀 된 지점에 대 한 시간 표시 막대입니다.  
 * **비교 추세** — 조직의 보안 점수가 다른 사람들과 비교 하는 방식입니다. 이 보기에는 비슷한 사용자 수를 갖는 조직의 점수 평균을 나타내는 줄과 설정할 수 있는 custom 비교 보기가 포함 될 수 있습니다.
 * **위험 수락 추세** — "위험 수용 됨"으로 표시 된 개선 작업의 시간 표시 막대입니다.
-* **점수 변경** -지정 된 날짜 범위에서 얻은 점수 수, 회귀 된 점수 또는 후속 점수 변경과 함께 추가 된 새 작업입니다.
+* **점수 변경** -지정 된 날짜 범위에서 이후의 점수 변경과 함께 회귀 됨을 가리킵니다.
 
 ## <a name="risk-awareness"></a>위험 인식
 
@@ -158,7 +176,7 @@ Microsoft 보안 점수는 시스템 구성, 사용자 동작 및 기타 보안 
 
 Microsoft 보안 점수가 보안 상태를 보다 효율적으로 대표 하도록 하기 위해 몇 가지 사항을 변경 했습니다. 계획 된 변경 사항에 대 한 자세한 내용은 [Microsoft 보안 점수에서](microsoft-secure-score-whats-coming.md)제공 되는 기능을 참조 하세요.
 
-### <a name="april-21st-2020"></a>4 월 21 일 2020
+### <a name="april-2020"></a>2020년 4월
 
 #### <a name="added-azure-active-directory-improvement-action"></a>Azure Active Directory 개선 작업 추가 됨
 

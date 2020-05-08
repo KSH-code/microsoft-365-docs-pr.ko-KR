@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 2c956776-0016-4be6-b4cd-133a237f4a9e
 description: 필요한 경우 조직 요구 사항을 충족 하기 위해 온-프레미스 AD RMS (Active Directory Rights Management Service)를 사용 하도록 Exchange Online IRM을 구성할 수 있습니다. 이는 일반적인 것이 아닙니다. AD RMS를 사용 해야 하는 요구 사항이 없는 경우에는 Office 메시지 암호화를 대신 사용 합니다.
-ms.openlocfilehash: 24a86ad9b1a1f3bbd67e194143fa02cb4040a47e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: fa4d950ac52e48ac4fc554dff7e9fb800a8017d1
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600655"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165989"
 ---
 # <a name="exchange-online-mail-encryption-with-ad-rms"></a>AD RMS를 사용하여 Exchange Online 메일 암호화
 
@@ -29,7 +29,7 @@ IRM 보호는 Microsoft Outlook 또는 웹용 Outlook 사용자가 적용할 수
   
 ## <a name="changes-to-how-irm-works-with-office-365-message-encryption-ome-and-azure-active-directory"></a>IRM이 Office 365 메시지 암호화 (OME) 및 Azure Active Directory에서 작동 하는 방식에 대 한 변경 사항
 
-9 월 2017 일, 조직에 대 한 새 Office 365 메시지 암호화 기능을 설정할 때 azure RMS (Azure 권한 관리)와 함께 사용할 수 있도록 IRM을 설정 합니다. 더 이상 Azure RMS를 사용 하 여 IRM을 별도로 설정 하지는 않습니다. 대신 OME 및 권한 관리가 함께 원활 하 게 작동 합니다. 새 기능에 대 한 자세한 내용은 [Office 365 메시지 암호화 FAQ](https://support.office.com/article/0432dce9-d9b6-4e73-8a13-4a932eb0081e)를 참조 하세요. 조직 내에서 새 OME 기능을 사용할 준비가 [되 면 Set Up Office 365 Message Encryption capabilities for The Azure Information Protection](https://support.office.com/article/7ff0c040-b25c-4378-9904-b1b50210d00e)를 참조 하세요.
+9 월 2017 일, 조직에 대 한 새 Office 365 메시지 암호화 기능을 설정할 때 azure RMS (Azure 권한 관리)와 함께 사용할 수 있도록 IRM을 설정 합니다. 더 이상 Azure RMS를 사용 하 여 IRM을 별도로 설정 하지는 않습니다. 대신 OME 및 권한 관리가 함께 원활 하 게 작동 합니다. 새 기능에 대 한 자세한 내용은 [Office 365 메시지 암호화 FAQ](https://docs.microsoft.com/microsoft-365/compliance/ome-faq)를 참조 하세요. 조직 내에서 새 OME 기능을 사용할 준비가 [되 면 Set Up Office 365 Message Encryption capabilities for The Azure Information Protection](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities)를 참조 하세요.
   
 ## <a name="how-irm-works-with-exchange-online-and-active-directory-rights-management-services"></a>Exchange Online 및 Active Directory 권한 관리 서비스에서 IRM이 작동 하는 방식
 
@@ -45,6 +45,6 @@ IRM을 사용하도록 설정한 후에는 다음과 같이 메시지에 IRM 보
     
 - **관리자는 전송 보호 규칙을 사용 하 여 Outlook 및 웹용 Outlook에 모두 IRM 보호를 자동으로 적용할 수 있습니다.** IRM 보호 메시지에 대한 전송 보호 규칙을 만들 수 있습니다. 규칙 조건에 맞는 메시지에 AD RMS 권한 정책 템플릿을 적용하도록 전송 보호 규칙 동작을 구성합니다. IRM을 사용하도록 설정하고 나면 조직의 AD RMS 권한 정책 템플릿을 **다음을 포함하는 메시지에 권한 보호 적용**이라는 전송 보호 규칙 동작과 함께 사용할 수 있게 됩니다.
     
-- **관리자가 Outlook 보호 규칙을 만들 수 있습니다.** Outlook 보호 규칙은 보낸 사람의 부서, 메시지를 보낸 사람 및 받는 사람이 외부에 있는지 여부를 포함 하는 메시지 조건을 기준으로 Outlook 2010 (웹에서 Outlook이 아님)의 메시지에 IRM 보호를 자동으로 적용 합니다. 조직. 자세한 내용은 [Create an Outlook Protection Rule](https://technet.microsoft.com/library/da64750d-faaf-44de-ad8c-888eba7fbdbf.aspx)를 참조하십시오.
+- **관리자가 Outlook 보호 규칙을 만들 수 있습니다.** Outlook 보호 규칙은 보낸 사람의 부서, 메시지를 보낸 사람, 받는 사람이 조직 내부 인지 외부 인지 여부를 포함 하는 메시지 조건을 기준으로 Outlook 2010 (웹에서 Outlook 아님)의 메시지에 IRM 보호를 자동으로 적용 합니다. 자세한 내용은 [Create an Outlook Protection Rule](https://technet.microsoft.com/library/da64750d-faaf-44de-ad8c-888eba7fbdbf.aspx)를 참조하십시오.
     
 

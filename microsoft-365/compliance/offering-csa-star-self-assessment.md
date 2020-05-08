@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 576404aadb2328682f10f69f30e58df2cafebe54
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 03f80deca7ba9a65dd47ac814d15eb5a8f764f10
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601995"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066451"
 ---
 # <a name="cloud-security-alliance-csa-star-self-assessment"></a>CSA (Cloud Security Alliance) STAR 자체 평가
 
@@ -41,8 +41,6 @@ STAR는 세 가지 수준의 보장을 제공합니다. CSA-STAR 자체 평가�
 ## <a name="microsoft-and-csa-star-self-assessment"></a>Microsoft와 CSA STAR 자체 평가
 
 STAR 자체 평가의 일환으로 CSP는 CSA 모범 사례 준수를 보여주는 두 가지 유형의 문서(완료된 CAIQ 또는 CCM 준수를 문서화한 보고서)를 제출할 수 있습니다. CSA STAR 자체 평가를 위해 Microsoft는 Microsoft Azure에 대한 CAIQ 및 CCM 기반 보고서와 Microsoft Dynamics 365와 Microsoft Office 365에 대한 CCM 기반 보고서를 모두 게시합니다.  
-  
-Microsoft 클라우드에서 CSA STAR 자체 평가의 이점에 대해 알아봅니다. [CSA STAR 자체 평가 배경 설명 다운로드](https://aka.ms/csastar-selfassessment-backgrounder)
 
 Azure 보안 및 규정 준수 청사진을 사용하여 CSA STAR 자체 평가 배포를 가속화하는 방법에 대해 알아봅니다. [CSA Consensus Assessments에 대한 Azure 대응 다운로드](https://gallery.technet.microsoft.com/Azure-Responses-to-CSA-46034a11)
 
@@ -85,8 +83,3 @@ CCM는 ISO 27001, PCI DSS, HIPAA, AICPA SOC 2, CIP, FedRAMP, NIST 등과 같은 
 
 - [Azure](https://aka.ms/Azure_STAR)
 - [Dynamics 365](https://aka.ms/DynamicsCRM_Online_STAR)
-
-## <a name="download-the-offering-backgrounder"></a>제공되는 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/7/C/E/7CE08DFE-86D6-4690-9455-5123DA0A7C09/CSA-STAR-SelfAssessment-Compliance.pdf)를 다운로드합니다.
-

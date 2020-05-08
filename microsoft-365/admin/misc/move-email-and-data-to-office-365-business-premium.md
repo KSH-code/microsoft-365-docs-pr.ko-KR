@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 1062115d-e312-482a-bb5a-765235990f41
 ROBOTS: NOINDEX
 description: 새 비즈니스 id로 데이터를 이동 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 674b5e1fc8128656733b9586d9bab607df621954
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 64db403b27d661fe812acd209ca6ed8e95961125
+ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627839"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44155366"
 ---
 # <a name="move-email-and-data-to-microsoft-365-business-standard"></a>전자 메일 및 데이터를 Microsoft 365 Business Standard로 이동
 
@@ -61,14 +61,14 @@ Microsoft 365 Business Standard로 업그레이드 하면 새로운 *비즈니�
 ## <a name="outlookemail"></a>[Outlook/전자 메일](#tab/Outlook)
   
  **Outlook 데이터 파일로 Outlook 2013 정보 내보내기**
-1. Outlook 데이터 파일(.pst)을 만들려면 먼저 Outlook 정보를 내보낼 계정이 이미 데스크톱 버전의 Outlook에 추가되어 있어야 합니다. Outlook 2013 이상에 계정을 추가하는 방법에 대한 내용은 [(Windows용) Outlook에서 전자 메일 설정](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) 또는 [Outlook for Mac 2011에서 전자 메일 설정](https://support.office.com/article/d7b404a0-6e18-4d95-bed8-2de7661563ca.aspx)을 참조하세요.
+1. Outlook 데이터 파일(.pst)을 만들려면 먼저 Outlook 정보를 내보낼 계정이 이미 데스크톱 버전의 Outlook에 추가되어 있어야 합니다. Outlook 2013 이상에 계정을 추가하는 방법에 대한 내용은 [(Windows용) Outlook에서 전자 메일 설정](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) 또는 [Outlook for Mac 2011에서 전자 메일 설정](https://support.microsoft.com/en-us/office/set-up-email-in-mac-os-x-mail-de372dc4-9648-4044-a76c-e8a60e178d54)을 참조하세요.
     
 2. 각 사용자는 [전자 메일, 연락처 및 일정을 Outlook .pst 파일로 내보내기 또는 백업](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx)의 단계를 완료해야 합니다.
     
  **Outlook에서 새 전자 메일 계정 설정**
 1. 각 사용자는 Microsoft 365 for business 구독과 함께 제공 된 새 전자 메일 계정을 설정 해야 합니다. 이렇게 하려면 새 전자 메일 계정의 주소가 필요합니다. 각 사용자의 전자 메일 계정은 비즈니스를 위해 Microsoft 365에 로그인 하는 데 사용 하는 사용자 이름과 동일 합니다. 예를 들면 sue@contoso.onmicrosoft.com 또는 david@contoso.com과 비슷합니다.
     
-2. 전자 메일 계정을 Outlook에 추가하도록 각 사용자에게 요청하세요. 자세한 내용은 [(Windows용) Outlook에서 전자 메일 설정](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) 또는 [Outlook for Mac 2011에서 전자 메일 설정](https://support.office.com/article/d7b404a0-6e18-4d95-bed8-2de7661563ca.aspx)을 참조하세요.
+2. 전자 메일 계정을 Outlook에 추가하도록 각 사용자에게 요청하세요. 자세한 내용은 [(Windows용) Outlook에서 전자 메일 설정](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) 또는 [Outlook for Mac 2011에서 전자 메일 설정](https://support.microsoft.com/en-us/office/set-up-email-in-mac-os-x-mail-de372dc4-9648-4044-a76c-e8a60e178d54)을 참조하세요.
     
  **Outlook 데이터 파일에서 정보 가져오기**
 1. 이렇게 하면 PST 파일에 저장 된 전자 메일, 일정, 작업 및 연락처가 비즈니스용 Microsoft 365에 전자 메일 계정으로 병합 됩니다.

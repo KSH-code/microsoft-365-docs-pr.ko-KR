@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Microsoft 365에서 일부 단계만 수행 하 여 Active Directory에 가입 된 로컬 Windows 10 장치를 보호 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 431c1be74723e156befb13ffe1ed98b48b9a23cb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: adc125c32fe5aa56be8c17c07f28316602a36594
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633286"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165812"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-for-business"></a>비즈니스를 위해 Microsoft 365에서 관리할 도메인에 가입 된 Windows 10 장치를 사용 하도록 설정
 
@@ -53,7 +53,7 @@ ms.locfileid: "43633286"
 
 ## <a name="2-install-and-configure-azure-ad-connect"></a>2. Azure AD Connect 설치 및 구성
 
-로컬 Active Directory의 사용자, 그룹 및 연락처를 Azure Active Directory에 동기화 하려면 Azure Active Directory Connect를 설치 하 고 디렉터리 동기화를 설정 합니다. 자세한 내용은 [Office 365에 대 한 디렉터리 동기화 설정](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846) 를 참조 하세요.
+로컬 Active Directory의 사용자, 그룹 및 연락처를 Azure Active Directory에 동기화 하려면 Azure Active Directory Connect를 설치 하 고 디렉터리 동기화를 설정 합니다. 자세한 내용은 [Office 365에 대 한 디렉터리 동기화 설정](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) 를 참조 하세요.
 
 > [!NOTE]
 > 비즈니스에 대 한 Microsoft 365의 단계는 정확히 동일 합니다. 

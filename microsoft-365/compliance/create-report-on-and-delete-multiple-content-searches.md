@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 1d463dda-a3b5-4675-95d4-83db19c9c4a3
 description: Office 365의 보안 & 준수 센터에서 PowerShell 스크립트를 통해 검색을 만들고 보고서를 실행 하는 등의 콘텐츠 검색 작업을 자동화 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 4e66013ba34c71fd7e2078691f892c2ae289538b
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 1967d17ab24c991d38a7c5881d3cff87750084c3
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943499"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166079"
 ---
 # <a name="create-report-on-and-delete-multiple-content-searches"></a>여러 콘텐츠 검색 만들기, 보고하기 및 삭제
 
@@ -33,7 +33,7 @@ ms.locfileid: "43943499"
 
 - 이 항목에서 설명 하는 스크립트를 실행 하려면 보안 & 준수 센터에서 eDiscovery 관리자 역할 그룹의 구성원 이어야 합니다. 
     
-- 1 단계에서 CSV 파일에 추가할 수 있는 조직 내 비즈니스용 OneDrive 사이트의 Url 목록을 수집 하려면 [조직에서 모든 OneDrive 위치 목록 만들기](https://support.office.com/article/Create-a-list-of-all-OneDrive-locations-in-your-organization-8e200cb2-c768-49cb-88ec-53493e8ad80a)를 참조 하십시오. 
+- 1 단계에서 CSV 파일에 추가할 수 있는 조직 내 비즈니스용 OneDrive 사이트의 Url 목록을 수집 하려면 [조직에서 모든 OneDrive 위치 목록 만들기](https://docs.microsoft.com/onedrive/list-onedrive-urls)를 참조 하십시오. 
     
 - 이 항목에서 만드는 모든 파일을 동일한 폴더에 저장 해야 합니다. 이를 통해 스크립트를 보다 쉽게 실행할 수 있습니다.
     

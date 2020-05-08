@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 description: Office 365의 보안 및 규정 준수 센터를 사용하면 조직의 메시지 보존, 전자 검색 및 보유 요구 사항을 지원하기 위해 보관 사서함을 사용할 수 있습니다.
-ms.openlocfilehash: 6ff4e0eda616e9bdd5fe10832ae334c9337272f0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f544e739bc28b2383492baec5465be1502a08d0d
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631743"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166019"
 ---
 # <a name="enable-archive-mailboxes-in-the-security--compliance-center"></a>보안 및 준수 센터에서 보관 사서함 사용
   
@@ -131,7 +131,7 @@ Exchange Online에 연결되면 다음 섹션의 명령을 실행하여 보관 �
   
 - 보관 사서함을 사용하도록 설정하면 사용자는 보관 사서함에 메시지를 저장할 수 있습니다. 사용자는 웹에서 Microsoft Outlook 및 Outlook을 사용하여 보관 사서함에 액세스할 수 있습니다. 이러한 클라이언트 응용 프로그램을 사용하여 사용자는 보관 사서함의 메시지를 보고 기본 사서함과 보관 사서함 간에 메시지를 이동하거나 복사할 수 있습니다. 사용자는 지운 편지함 복구 도구를 사용하여 보관 사서함의 복구 가능한 항목 폴더에서 삭제된 항목을 복구할 수 있습니다.
 
-   현재 위치 보관을 지원하는 Outlook 라이선스 목록은 [Exchange 기능](https://support.office.com/article/outlook-license-requirements-for-exchange-features-46b6b7c5-c3ca-43e5-8424-1e2807917c99)의 Outlook 라이선스 요구 사항을 참조하십시오.
+   현재 위치 보관을 지원하는 Outlook 라이선스 목록은 [Exchange 기능](https://support.microsoft.com/ko-KR/office/outlook-license-requirements-for-exchange-features-46b6b7c5-c3ca-43e5-8424-1e2807917c99)의 Outlook 라이선스 요구 사항을 참조하십시오.
 
 - 보관 사서함은 사용자가 조직의 보존, eDiscovery 및 보류 요구 사항을 충족하는 데 도움이 됩니다. 예를 들어, 조직의 Exchange 보존 정책을 사용하여 사용자의 보관 사서함으로 사서함 콘텐츠를 이동할 수 있습니다. 보안 및 규정 준수 센터의 콘텐츠 검색 도구를 사용하여 사용자의 사서함에서 특정 콘텐츠를 검색하면 해당 사용자의 보관 사서함도 검색됩니다. 또한 소송 보존을 배치하거나 보존 정책을 사용자의 사서함에 적용하면 보관 사서함의 항목도 보존됩니다.
   

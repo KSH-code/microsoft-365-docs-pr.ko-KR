@@ -20,14 +20,21 @@ search.appverid:
 - BSA160
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
 description: Microsoft 365 관리 센터에서 그룹에 구성원을 추가 하 고, 그룹에서 구성원을 제거 하 고, 그룹 소유자 상태를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 8b4df54e3dc54baf2f9e770f42333b95af391e90
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 96d9485821c27f2e9a4696401938da35a9996996
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049402"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140558"
 ---
 # <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>관리 센터를 사용 하 여 Microsoft 365 그룹에서 구성원 추가 또는 제거
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 Microsoft 365에서 그룹 구성원은 일반적으로 고유한 그룹을 만들거나, 참가 하려는 그룹에 자신을 추가 하거나, 그룹 소유자의 초대를 받습니다. 그룹 소유권이 변경 되거나 구성원을 추가 또는 제거 해야 하는 경우에도 해당 변경 작업을 수행할 수 있습니다. 전역 관리자, Exchange 관리자, 그룹 관리자 또는 사용자 관리자만 이러한 변경 작업을 수행할 수 있습니다. [Microsoft 365 그룹 이란?](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx)
 

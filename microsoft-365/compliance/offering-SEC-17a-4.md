@@ -1,7 +1,7 @@
 ---
 title: 증권 및 Exchange 위원회 (SEC) 규칙 17a-4 (미국)
 description: 독립적인 평가 기업에서는 Azure 및 Office 365에서 재무 기업이 초 규칙 17a-4 (f) 레코드 보존 및 불변의 저장소 요구 사항을 충족 하도록 도울 수 있음을 확인 했습니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5bbc8e8e39e28a020864d705489d704acd0c012b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3169a1e9e7cb8b269e74463adaee017b8f48e4ad
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602065"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065943"
 ---
 # <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>증권 및 Exchange 위원회 (SEC) 규칙 17a-4 (미국)
 
@@ -81,7 +81,3 @@ Microsoft 클라우드 서비스에 대 한 위험 평가를 위한 거 버 넌 
 - [Microsoft Office 365 보존 정책](https://docs.microsoft.com/office365/securitycompliance/retention-policies)
 - [Microsoft 금융 서비스 블로그](https://techcommunity.microsoft.com/t5/Financial-Services-Blog/bg-p/FinancialServicesBlog)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/E/5/2/E52103E7-C1BB-4118-9725-4452FEA931D8/SEC17a-4(f)-Compliance.pdf)를 다운로드합니다.

@@ -22,14 +22,21 @@ search.appverid:
 ms.assetid: fab3b86c-3359-4042-8692-5d4dc7550b7c
 description: '이미 구독이 있는 경우 조직의 다른 Microsoft 365 for business 구독을 구입 하는 방법을 알아봅니다. '
 ms.custom: okr_SMB
-ms.openlocfilehash: fe07ea5bcb977b867fe02cc69706595f3ff5064e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 63dc9554d1783f81615e52a83ad338368d482e93
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634935"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141305"
 ---
 # <a name="buy-another-microsoft-365-for-business-subscription"></a>다른 Microsoft 365 for business 구독 구입
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 비즈니스용 Microsoft 365이 이미 있고 조직의 다른 구독을 구입 하려는 경우에는 관리 센터를 통해 작업을 수행 하는 것이 가장 좋습니다. 조직의 첫 번째 Microsoft 365 비즈니스 구독을 아직 구입 하지 않은 경우 [여기](https://products.office.com/business/compare-office-365-for-business-plans) 로 이동 하 여 계획을 선택 하세요.
   

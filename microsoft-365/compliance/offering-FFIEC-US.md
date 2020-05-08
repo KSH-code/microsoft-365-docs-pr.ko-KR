@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6dcdfd7ec2230de3eec7ccc0db08f7f4a637263d
-ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
+ms.openlocfilehash: d0656286ecdac0471715c5dbb0feaa0bbaffaf6a
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42222074"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066361"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>연방 금융 기관 검사 Council (FFIEC)
 
@@ -37,7 +37,7 @@ Microsoft Azure, Microsoft Power BI 및 Microsoft Office 365는 금융 서비스
 
 금융 기관 클라이언트가 Azure를 통한 FFIEC 준수 요구 사항을 충족 하도록 지원 하기 위해 Microsoft는 다음을 개발 했습니다.
 
-- [클라우드 보안 진단 도구 * *](https://aka.ms/FFIEC-CSDT) Azure 서비스의 위험 요소 분석을 보다 효율적으로 수행 하는 데 도움이 됩니다. 이 도구 (Excel 스프레드시트)는 재무 서비스 규정 및 기타 관련 표준의 요구 사항을 추적 하는 정보 보안 도메인 19 개 (예: 네트워크 및 시스템 보안, 정보 및 위험 관리)를 갖추고 있습니다. 검사 안내서 이 도구는 Azure에서 기술 서비스 공급자 (TSPs)에 적용 되는 각 요구 사항을 준수 하는 방법을 설명 합니다.
+- [클라우드 보안 진단 도구 * *](https://aka.ms/FFIEC-CSDT) Azure 서비스의 위험 요소 분석을 보다 효율적으로 수행 하는 데 도움이 됩니다. 이 도구 (Excel 스프레드시트)는 재무 서비스 규정 및 기타 관련 표준의 요구 사항을 추적 하는 정보 보안 도메인 19 개 (예: 네트워크 및 시스템 보안, 정보 및 위험 관리)를 갖추고 있습니다. 이 도구는 Azure에서 기술 서비스 공급자 (TSPs)에 적용 되는 각 요구 사항을 준수 하는 방법을 설명 합니다.
 - 진단 도구와 함께 제공 되는 [FFIEC 규정 서비스 작업에 대 한 Azure 보안 및 규정 준수 청사진](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint) Azure 클라우드 서비스의 사용과 FFIEC 요구 사항 및 위험 평가 지침에 대 한 고객 준수 고려 사항에 대 한 지침을 제공 합니다.
 
 FFIEC 요구 사항을 준수 하는 데 도움이 되도록 Microsoft 클라우드 서비스는 독립 CPA 회사에서 생성 하는 [SOC 증명 보고서](offering-SOC.md) 를 제공 합니다. 예를 들어 SOC 1 유형 2 증명은 SAS 70를 대체 한 AICPA SSAE 18 standard (-C 섹션 105 참조)를 기반으로 하며, 재무 보고용으로 특정 컨트롤을 보고 하는 데 적합 합니다. SOC 보고서에는 지정 된 모니터링 기간 동안 관련 제어 목표를 달성할 때 Microsoft 컨트롤의 효율성에 대 한 감사자의 의견이 포함 됩니다. 금융 기관은 Azure, Power BI 및 Office 365에 배포 된 자산에 대 한 FFIEC 관련 규정 준수 의무를 준수할 때이 공식적인 감사를 사용할 수 있습니다.
@@ -53,7 +53,7 @@ FFIEC 요구 사항을 준수 하는 데 도움이 되도록 Microsoft 클라우
 
 Azure 및 Office 365 SOC 증명 보고서
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **Microsoft에서 사용 하는 제 1의 FFIEC 준수 의무를 충족 하기 위해 SOC 표준에 대 한 마이크로소프트 준수를 사용할 수 있나요?**
 
@@ -79,7 +79,3 @@ Azure 및 Office 365 SOC 증명 보고서
 - [Microsoft 비즈니스 클라우드 서비스 및 금융 서비스](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
 - [클라우드 컴퓨팅에 대한 공동 책임](https://aka.ms/sharedresponsibility)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/6/2/7/62760960-C4B5-456B-9CF8-DCB7D692AAC4/FFIEC-Compliance.pdf)를 다운로드합니다.

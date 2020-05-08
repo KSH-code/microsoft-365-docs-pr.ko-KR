@@ -24,14 +24,21 @@ description: 비즈니스에 대 한 Microsoft 365 구독을 결제 하는 데 �
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
-ms.openlocfilehash: 599eb7eafda81f59b02ab11c822307d0db0c49c2
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 613bb0fcc776b65090ee66faf6dc0516987947b2
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045839"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140874"
 ---
 # <a name="pay-for-your-subscription"></a>구독 결제
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 구독을 설정한 경우 신용 카드 또는 은행 계좌 결제를 사용하여 결제하거나 수표 또는 EFT(전자식 자금 이체)를 사용하여 송장으로 결제할 수 있습니다. 어떤 방법을 선택하든 [결제 방법을 변경](change-payment-method.md)하지 않는 한 이후 청구 기간에도 계속 해당 결제 방법을 사용합니다.
 

@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Pc, 휴대폰 및 태블릿에서 데이터를 안전 하 게 보호 하기 위해 Microsoft 365 Business Premium에 제공 되는 보안 기능에 대해 알아봅니다.
-ms.openlocfilehash: 35eb0ac1dce216ccc557fc629ddb5d2df50e7134
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f6aef84afc76217161dee6b68d626128e0cc15b2
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635147"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165760"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Microsoft 365 Business Premium 보안 및 규정 준수 기능
 
@@ -64,7 +64,7 @@ Microsoft 365 Business Premium은 Pc, 휴대폰 및 태블릿에서 데이터를
 
 Microsoft 365 비즈니스 Premium의 고급 기능은 비즈니스를 사이버 위협 으로부터 보호 하 고 중요 한 정보를 보호 하는 데 도움이 됩니다.
   
-- **[Office 365 Advanced Threat Protection](https://support.office.com/article/e100fe7c-f2a1-4b7d-9e08-622330b83653)**
+- **[Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)**
     
     ATP(Advanced Threat Protection)는 직원이나 고객 정보를 손상시키도록 설계된 정교한 피싱 및 랜섬웨어 공격으로부터 비즈니스를 보호할 수 있도록 합니다.기능은 다음과 같습니다.
     
@@ -97,7 +97,7 @@ Microsoft 365 비즈니스 Premium의 고급 기능은 비즈니스를 사이버
 
 Microsoft 365 Business Premium subscription에는 준수 및 규정 표준을 유지 관리 하는 데 도움이 되는 기능이 포함 되어 있습니다.
 
-- **[데이터 손실 방지 정책 개요](https://support.office.com/article/1966b2a7-d1e2-4d92-ab61-42efbb137f5e)**(DLP) 
+- **[데이터 손실 방지 정책 개요](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)**(DLP) 
     
     신용 카드 번호, 주민 등록 번호 등의 중요 한 정보를 자동으로 검색 하도록 DLP를 설정 하 여 회사 외부에서 실수로 공유 되는 것을 방지할 수 있습니다.
     

@@ -14,14 +14,21 @@ ms.collection:
 search.appverid:
 - MET150
 description: 사용자는 셀프 서비스 구매를 관리 하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: ed84bfc215d000eaa144aaf1f6eac281fc5a0c16
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 8f141f28c2f1241d19ed34ae234c3b122dd9d69c
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046171"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141127"
 ---
 # <a name="manage-self-service-purchases-users"></a>셀프 서비스 구매(사용자) 관리
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 사용자는 특정 제품에 대 한 구독을 구입 하 고 해당 구독에 대 한 라이선스를 팀의 사용자에 게 할당할 수 있습니다. 사용자가 수행 하는 셀프 서비스 구매에 대 한 비용을 지불 해야 합니다. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Admin.microsoft.com</a>의 Microsoft 365 관리 센터에서 구독을 관리할 수 있습니다.
 

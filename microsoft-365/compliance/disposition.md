@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용 하 든, 구성 된 설정에 따라 콘텐츠를 자동으로 삭제할지 여부에 관계 없이 콘텐츠 삭제를 모니터링 하 고 관리 합니다.
-ms.openlocfilehash: 47cb8f023f378796f206e436aa33e74b2993ac97
-ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+ms.openlocfilehash: 07790175d56db9b82610b4882070a54ddce3d0c2
+ms.sourcegitcommit: 8a15038a6ac16f41f6b90af52e367f888104cec9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43952621"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44156893"
 ---
 # <a name="disposition-of-content"></a>콘텐츠 처리
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
 
 Microsoft 365 준수 센터의 **레코드 관리** 에서 **처리** 탭을 사용 하 여 처리 검토를 관리 하 고 보존 기간이 끝나면 자동으로 삭제 된 [레코드](records.md) 를 확인 합니다. 
 
@@ -63,17 +63,20 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스 하려면 **처리 �
 
 처리 검토가 보존 기간이 끝날 때 트리거되는 경우:
   
-- 선택한 사용자는 검토할 콘텐츠가 있는 전자 메일 알림을 받습니다. 이러한 검토자는 개별 사용자, 메일 그룹 또는 Office 365 그룹이 될 수 있습니다. 알림은 주 단위로 전송 됩니다.
+- 선택한 사용자는 검토할 콘텐츠가 있는 전자 메일 알림을 받습니다. 이러한 검토자는 개별 사용자, 메일 그룹 또는 Microsoft 365 그룹 ([이전의 Office 365 그룹](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601)) 일 수 있습니다. 알림은 주 단위로 전송 됩니다.
     
 - 검토자가 Microsoft 365 준수 센터의 **처리** 탭으로 이동 하 여 콘텐츠를 검토 하 고이를 영구적으로 삭제할지, 보존 기간을 연장할 지 아니면 다른 보존 레이블을 적용할지를 결정 합니다.
 
 처리 검토에는 Exchange 사서함, SharePoint 사이트, OneDrive 계정 및 Microsoft 365 그룹의 콘텐츠가 포함 될 수 있습니다. 해당 위치에서 처리 검토를 대기 중인 콘텐츠는 검토자가 콘텐츠를 영구적으로 삭제 하도록 선택한 후에만 삭제 됩니다.
 
+> [!NOTE]
+> 처리 검토를 지원 하려면 사서함에 10mb 이상의 데이터가 있어야 합니다.
+
 **개요** 탭에서 모든 보류 중인 dispositions의 개요를 확인할 수 있습니다. 예를 들어:
 
 ![레코드 관리 개요에서 보류 중인 dispositions](../media/dispositions-overview.png)
 
-**보류 중인 모든 Dispositions 보기**를 선택 하면 **처리** 페이지로 이동 됩니다. 예시:
+**보류 중인 모든 Dispositions 보기**를 선택 하면 **처리** 페이지로 이동 됩니다. 예:
 
 ![Microsoft 365 준수 센터의 Dispositions 페이지](../media/disposition-tab.png)
 
@@ -106,10 +109,10 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스 하려면 **처리 �
 - 다른 보존 레이블 적용
 
 위치 및 콘텐츠에 대 한 사용 권한을 부여 하면 **위치** 열의 링크를 사용 하 여 문서를 원래 위치에서 볼 수 있습니다. 처리 검토 중에는 콘텐츠가 원래 위치에서 이동 하지 않으며, 검토자가이를 선택 하기 전 까지는 삭제 되지 않습니다.
-  
+
 전자 메일 알림은 매주 검토자에 게 자동으로 전송 됩니다. 이 일정 상의 프로세스는 콘텐츠가 보존 기간의 끝에 도달 하는 경우 검토자가 콘텐츠 처리를 기다리는 전자 메일 알림을 받는 데 최대 7 일이 걸릴 수 있음을 의미 합니다.
   
-모든 처리 작업을 감사할 수 있습니다.
+모든 처리 작업을 감사 하 고 검토자가 입력 한 근거 텍스트를 저장 하 여 **삭제 된 항목** 페이지의 **메모** 열에 표시할 수 있습니다.
   
 ### <a name="how-long-until-disposed-content-is-permanently-deleted"></a>삭제 된 콘텐츠가 영구적으로 삭제 될 때 까지의 기간
 
@@ -120,7 +123,7 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스 하려면 **처리 �
 > [!NOTE]
 > 처리 검토 없이 자동으로 삭제 된 레코드를 확인 하는 기능은 4 2020 월 중에 테 넌 트로 서서히 롤아웃 되므로이 환경이 즉시 표시 되지 않을 수 있습니다.
 
-**레코드 관리** 페이지의 **처리** 탭을 사용 하 여 자동으로 삭제 되는 레코드를 식별 합니다. 이러한 항목은 **형식** 열에서 **삭제 된 레코드** 를 표시 합니다. 예시:
+**레코드 관리** 페이지의 **처리** 탭을 사용 하 여 자동으로 삭제 되는 레코드를 식별 합니다. 이러한 항목은 **형식** 열에서 **삭제 된 레코드** 를 표시 합니다. 예:
 
 ![처리 검토 없이 삭제 된 항목](../media/records-disposed2.png)
 

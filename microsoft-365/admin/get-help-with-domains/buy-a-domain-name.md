@@ -22,14 +22,21 @@ search.appverid:
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Microsoft 365에서 도메인 이름을 구입 하는 방법을 알아봅니다.
 ms.custom: okr_smb
-ms.openlocfilehash: 3df4ec9014e2e65288cb30fd9203db4a11708369
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e60947b2f0f2591d09add00bd5aeb2ad3a5aa161
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628593"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140420"
 ---
 # <a name="buy-a-domain-name"></a>도메인 이름 구매
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
  *도메인을 추가, 수정 또는 제거 하려면 [비즈니스 또는 기업 계획](https://products.office.com/business/office)의 **전역 관리자** **여야 합니다** . 이러한 변경 내용은 전체 테 넌 트에 영향을 미치며 *사용자 지정 된 관리자* 또는 *일반 사용자* 는 이러한 변경 작업을 수행할 수 없습니다.*  
 

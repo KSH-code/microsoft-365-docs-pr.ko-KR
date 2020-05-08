@@ -21,12 +21,12 @@ ms.assetid: 0dc55430-98d6-4cbe-ba69-1a4ad29a967d
 ROBOTS: NOINDEX
 description: '관리 센터의 사용자 유형에 대해 자세히 알아봅니다. '
 ms.custom: okr_smb
-ms.openlocfilehash: b9a705d651aff3cde9fdd32d0122e8947e574715
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 152be955ffdb5526c974d3b0f4d19693cb29e948
+ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627767"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44155356"
 ---
 # <a name="quick-help-types-of-users"></a>빠른 도움말: 사용자의 종류
 
@@ -45,7 +45,7 @@ Microsoft 365 관리 센터의 **활성 사용자** 페이지에서 다음 유�
 |암호 관리자  <br/> |사용자를 대신하여 암호를 재설정하고 서비스 요청을 관리하고 서비스 상태를 모니터링할 수 있는 사용자입니다.  <br/> |
 |서비스 관리자  <br/> |사용자를 대신하여 서비스 요청을 관리하고 서비스 상태를 모니터링할 수 있는 사용자입니다.  <br/> |
 |사용자 관리 관리자  <br/> |암호를 재설정하고 서비스 상태를 모니터링하고 사용자 계정, 사용자 그룹 및 서비스 요청을 관리할 수 있는 사용자입니다. 전역 관리자를 삭제하거나 다른 관리자 역할을 만들거나 청구 관리자, 전역 관리자 및 서비스 관리자의 암호를 재설정할 수 없습니다.  <br/> |
-|사용자 지정 필터 추가  <br/> |이 옵션을 사용 하 여 사용자 지정 필터를 만들어 Microsoft 365 비즈니스 계획에 있는 사용자와 같은 기본 설정의 특정 사용자 유형만 볼 수 있습니다. [빠른 도움말: 사용자 필터링](https://support.office.com/article/8ac6a63c-04d8-4ceb-91af-d7e27b6eac0c)  <br/> |
+|사용자 지정 필터 추가  <br/> |이 옵션을 사용 하 여 사용자 지정 필터를 만들어 Microsoft 365 비즈니스 계획에 있는 사용자와 같은 기본 설정의 특정 사용자 유형만 볼 수 있습니다. [빠른 도움말: 사용자 필터링](https://docs.microsoft.com/microsoft-365/admin/add-users/create-edit-or-delete-a-custom-user-view)  <br/> |
    
 ## <a name="related-articles"></a>관련 문서
 

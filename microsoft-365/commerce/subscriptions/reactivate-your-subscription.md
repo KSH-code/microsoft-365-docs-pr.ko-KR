@@ -25,14 +25,21 @@ search.appverid:
 - GEA150
 ms.assetid: 23aa9dd5-a2b0-42f5-8893-9541d2f3761f
 description: 구독이 만료 되는 경우 다시 활성화 하는 방법 또는 Microsoft가 사용 하지 않도록 설정 하는 경우 또는 중앙에서 취소할 수 있습니다.
-ms.openlocfilehash: 9f665cc9ca80b7338197a5401cdf9a4c2283d123
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: d75ebb3b09ec8b72c60e829406c1341939a4e534
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046243"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141101"
 ---
 # <a name="reactivate-your-subscription"></a>구독 다시 활성화
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 구독이 만료 되거나 Microsoft에 의해 사용 하지 않도록 설정 되었거나 구독 용어 중에 취소 한 경우에는 관리 센터에서 다시 활성화할 수 있습니다.
   

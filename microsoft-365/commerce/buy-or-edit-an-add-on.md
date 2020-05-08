@@ -22,14 +22,21 @@ search.appverid:
 ms.assetid: 4e7b57d6-b93b-457d-aecd-0ea58bff07a6
 description: 추가 기능을 구입 하 여 Microsoft 365 비즈니스 에디션 구독에 추가 기능을 추가 하는 방법에 대해 알아봅니다. 또한 추가 기능을 업데이트 하 고 제거할 수 있습니다.
 ms.custom: okr_SMB
-ms.openlocfilehash: 801da522c9fea9efcc4d3d4a0285a6ffcb5adc0b
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 60bc63d4db84667f00ab0bde95e8541f45a38df7
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045791"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141293"
 ---
 # <a name="buy-or-edit-an-add-on"></a>추가 기능 구입 또는 편집
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 일부 Microsoft 365 for business 요금제에는 구독에 대해 구입할 수 있는 추가 기능이 있습니다. 추가 기능은 구입 시 대상 구독에 추가 기능을 제공합니다.
 

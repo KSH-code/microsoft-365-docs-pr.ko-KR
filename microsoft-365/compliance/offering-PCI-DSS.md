@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 85fa3c8a8e8ac2dda725227235512385bf991c12
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 334e93a009e69b8c5ec6ec74edb486d0e2fd3dbb
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036357"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065953"
 ---
 # <a name="payment-card-industry-pci-data-security-standard-dss"></a>PCI(Payment Card Industry) DSS(Data Security Standard)
 
@@ -101,7 +101,3 @@ PA DSS(Payment Application Data Security Standard)는 PCI DSS를 준수하고, V
 - [Azure PCI DSS 3.2.1 Responsibility Matrix(영문)](https://aka.ms/pciresponsibilitymatrix)
 - [PCI DSS 빠른 참조 설명서(영문)](https://www.pcisecuritystandards.org/documents/PCISSC%20QRG%20August%202014%20-print.pdf)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/3/7/7/377F1BBC-37D5-4677-AB4A-7C01D089CA67/PCI-DSS-Compliance.pdf)를 다운로드합니다.

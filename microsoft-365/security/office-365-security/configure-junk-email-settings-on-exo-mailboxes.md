@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online 사서함에서 정크 메일 설정을 구성 하는 방법을 알 수 있습니다. 이러한 설정 중 상당수는 Outlook 또는 웹용 Outlook에서 사용자에 게 제공 됩니다.
-ms.openlocfilehash: 55597c45f093a5b9a0b860c6987454f926025e28
-ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
+ms.openlocfilehash: 20112e23ff8bb62b96bdba4e86725c8566af3444
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43804785"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066196"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Exchange Online 사서함에 대한 정크 메일 설정 구성
 
@@ -41,7 +41,7 @@ Exchange Online의 조직 스팸 방지 설정은 EOP (Exchange Online Protectio
 
 관리자는 Exchange Online PowerShell을 사용 하 여 사서함에 대 한 정크 메일 규칙의 상태를 사용 하지 않도록 설정 하 고 사용 하도록 설정할 수 있습니다. 또한 관리자는 Exchange Online PowerShell을 사용 하 여 사서함의 수신 허용 목록 컬렉션, 즉 수신 허용-보낸 사람 목록 및 수신 거부 목록에 있는 항목을 구성할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - 다음 절차를 수행 하는 경우에만 Exchange Online PowerShell을 사용할 수 있습니다. Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.
 
@@ -90,12 +90,6 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 
   ```PowerShell
   Get-MailboxJunkEmailConfiguration -Identity "<MailboxIdentity>" | Format-List Enabled
-  ```
-
-- _ \<MailboxIdentity\> _ 를 사서함의 이름, 별칭 또는 전자 메일 주소로 바꾸고 다음 명령을 실행 하 여 정크 메일 규칙의 **Enabled** 속성 값을 확인 합니다.
-
-  ```PowerShell
-  Get-InboxRule "Junk E-mail Rule" -Mailbox "<MailboxIdentity>" -IncludeHidden
   ```
 
 ## <a name="use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox"></a>Exchange Online PowerShell을 사용 하 여 사서함에 대 한 수신 허용 목록 컬렉션 구성

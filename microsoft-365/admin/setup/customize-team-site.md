@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 70a62f09-45ea-4968-8482-43cddfb8cc01
 description: 이 문서에서는 파일 저장 및 공유를 위해 팀 사이트를 사용자 지정, 구성 및 관리 하는 방법을 알아봅니다.
-ms.openlocfilehash: 49bacdd193277e88eb076baeb90380c8f696d27b
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 465cd3781fb5023fa6a1c943b41fa7802d7b4a45
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033789"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165110"
 ---
 # <a name="customize-your-team-site-for-file-storage-and-sharing"></a>파일 저장 및 공유를 위해 팀 사이트 사용자 지정
 
@@ -51,7 +51,7 @@ ms.locfileid: "44033789"
   
 사이트 검색을 개선 하려면 SharePoint 시작 페이지에 주요 링크로 추가 합니다. 자세한 내용은 [SharePoint 시작 페이지에 추천 항목 링크 추가](/sharepoint/change-links-list-on-sharepoint-home-page)를 참조 하십시오.
   
-팀 사이트 시작 페이지에 이미지를 추가 하려면 [SharePoint 페이지에 그림 또는 이미지 파일 추가](https://support.office.com/article/4A9B0E98-C89A-4A41-8ADB-B7750DCCCA16.aspx#ID0EAACAAA=SharePoint_Online)를 참조 하세요.
+팀 사이트 시작 페이지에 이미지를 추가 하려면 [SharePoint 페이지에 그림 또는 이미지 파일 추가](https://support.microsoft.com/en-us/office/add-a-picture-or-image-file-to-a-sharepoint-page-4a9b0e98-c89a-4a41-8adb-b7750dccca16)를 참조 하세요.
   
 사이트에 페이지를 추가 하려면 [사이트에 페이지 추가](https://support.office.com/article/b3d46deb-27a6-4b1e-87b8-df851e503dec.aspx)를 참조 하세요.
   
@@ -65,7 +65,7 @@ ms.locfileid: "44033789"
    
 파일 편집, 삭제, 체크 아웃 등을 수행 하는 방법에 대해 알아봅니다. 자세한 내용은 [문서 라이브러리에서 파일에](https://support.office.com/article/a9d89171-1673-4892-9dd2-1ca52037dea2.aspx)대 한 작업을 참조 하십시오.
   
-특정 데이터를 표시 하는 라이브러리 보기를 만드는 방법에 대 한 자세한 내용은 [문서 라이브러리의 사용자 지정 보기 만들기](https://support.office.com/article/8f6b08e0-a9a0-4232-9b9b-b374a2ad3da7.aspx)를 참조 하십시오.
+특정 데이터를 표시 하는 라이브러리 보기를 만드는 방법에 대 한 자세한 내용은 [문서 라이브러리의 사용자 지정 보기 만들기](https://support.microsoft.com/en-us/office/create-a-custom-view-of-a-document-library-8f6b08e0-a9a0-4232-9b9b-b374a2ad3da7)를 참조 하십시오.
   
 ## <a name="work-with-lists-to-organize-data"></a>목록을 사용 하 여 데이터 구성
 
@@ -73,11 +73,11 @@ SharePoint에는 링크 목록, 일정, 연락처 또는 작업 등 사이트에
   
 [SharePoint에서 목록을 만드는](https://support.office.com/article/0D397414-D95F-41EB-ADDD-5E6EFF41B083.aspx#ID0EAAGAAA=Online)방법을 알아봅니다.
   
-더 많은 열을 사용 하 여 목록을 확장 하는 방법에 대 한 자세한 내용은 [SharePoint 목록이 나 라이브러리에서 열 만들기](https://support.office.com/article/2b0361ae-1bd3-41a3-8329-269e5f81cfa2.aspx#ID0EAADAAA=Online)를 참조 하세요.
+더 많은 열을 사용 하 여 목록을 확장 하는 방법에 대 한 자세한 내용은 [SharePoint 목록이 나 라이브러리에서 열 만들기](https://support.microsoft.com/en-us/office/create-a-column-in-a-sharepoint-list-or-library-2b0361ae-1bd3-41a3-8329-269e5f81cfa2)를 참조 하세요.
   
 많은 양의 데이터를 목록에 저장 하는 경우 [SharePoint에서 큰 목록 및 라이브러리 관리](https://support.office.com/article/B8588DAE-9387-48C2-9248-C24122F07C59.aspx)를 참조 하세요.
   
-동영상 보기 사이트에 일정을 추가 하는 방법에 대 한 자세한 내용은 [Create a shared calendar](https://support.office.com/article/61B96006-70E2-4535-A34F-EE4FC772F798.aspx)를 참조 하십시오.
+동영상 보기 사이트에 일정을 추가 하는 방법에 대 한 자세한 내용은 [Create a shared calendar](https://support.microsoft.com/en-us/office/video-create-a-shared-calendar-in-office-365-61b96006-70e2-4535-a34f-ee4fc772f798)를 참조 하십시오.
 
 ## <a name="organize-sites-into-hubs"></a>사이트를 허브로 구성
 
@@ -87,7 +87,7 @@ SharePoint에는 링크 목록, 일정, 연락처 또는 작업 등 사이트에
   
 허브 사이트를 작성할 준비가 되 면 [SharePoint Online에서 허브 사이트 만들기](/sharepoint/create-hub-site)를 참조 하세요.
   
-허브 사이트에 사이트를 추가 하는 방법에 대 한 자세한 내용은 [SharePoint 사이트와 허브 사이트 연결](https://support.office.com/article/ae0009fd-af04-4d3d-917d-88edb43efc05.aspx)을 참조 하십시오.
+허브 사이트에 사이트를 추가 하는 방법에 대 한 자세한 내용은 [SharePoint 사이트와 허브 사이트 연결](https://support.microsoft.com/en-us/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05)을 참조 하십시오.
   
 ## <a name="sharing-files-with-the-team"></a>팀과 파일 공유
 
@@ -115,7 +115,7 @@ Microsoft 365 그룹에 사용자를 추가 하려면 [add users or bulk To micr
     
   - [Microsoft 365을 사용 하 여 iPhone 또는 iPad에서 Office 설치 및 설정](https://support.office.com/article/9df6d10c-7281-4671-8666-6ca8e339b628.aspx)
     
-  - [Microsoft 365을 사용 하 여 Windows Phone에서 Office 설정](https://support.office.com/article/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7.aspx)
+  - [Microsoft 365을 사용 하 여 Windows Phone에서 Office 설정](https://support.microsoft.com/en-us/office/set-up-office-mobile-apps-on-a-windows-mobile-device-2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7)
     
 - 자세한 내용은 [OneDrive 사용을 참고](https://go.microsoft.com/fwlink/?LinkID=511458)하세요.
     

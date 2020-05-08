@@ -17,16 +17,18 @@ ms.collection:
 ms.custom:
 - M365solutions
 description: 원격 작업자는 MFA(다단계 인증)를 사용하여 로그인해야 합니다.
-ms.openlocfilehash: f8154f35baaf693bb51c523cfe4c44374437de02
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: dfb4262c05399e1c5add9b151c42c143ac723a7d
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44003582"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066130"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>1단계. MFA를 사용하여 원격 작업자에 대 한 로그인 보안 강화
 
 원격 작업자의 로그인에 대한 보안을 강화하려면 MFA(다단계 인증)를 사용합니다. MFA에서는 사용자 로그인이 사용자 계정 비밀번호 외에 추가 확인을 받아야합니다. 악의적인 사용자가 사용자 계정 암호를 확인하더라도 액세스 권한이 부여되기 전에 스마트폰으로 전송되는 문자 메시지와 같은 추가 확인에 응답 할 수 있어야 합니다.
+
+![올바른 암호와 추가적인 확인을 수행하면 로그인에 성공합니다.](../media/empower-people-to-work-remotely/remote-workers-mfa.png)
 
 원격 작업자, 특히 관리자를 포함한 모든 사용자에게 MFA를 강력히 권장합니다.
 

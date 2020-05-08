@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2dafb9d99e1042b1cd810d35ed726fad72c7116a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e1d5e6b196f4c064a4bb2f4bc0f92f8973a61a15
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602185"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066605"
 ---
 # <a name="monetary-authority-of-singapore-mas-and-association-of-banks-in-singapore-abs"></a>싱가포르 통화청(MAS) 및 싱가포르 은행 연합(ABS)
 
@@ -99,7 +99,3 @@ MAS 아웃소싱 지침의 특정 항목은 “명시적 아웃소싱 계약”�
 - [Microsoft 비즈니스 클라우드 서비스 및 금융 서비스](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
 - [클라우드 컴퓨팅에 대한 공동 책임](https://aka.ms/sharedresponsibility)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/3/A/B/3ABF29D9-FBF5-4011-A496-77ADD4EF9EE9/MAS+ABS-Singapore-Compliance.pdf)를 다운로드합니다.

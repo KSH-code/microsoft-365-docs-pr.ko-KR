@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d4efa625c4026ce87d0895d03b4a9993bb4bca40
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 09d6514a3b18535820f31b50736591314182d140
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602705"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066655"
 ---
 # <a name="dutch-authority-for-the-financial-markets-and-the-central-bank-of-the-netherlands"></a>네덜란드의 금융 서비스 기관 및 네덜란드 중앙은행
 
@@ -81,7 +81,3 @@ Microsoft의 점검 목록은 Microsoft 비즈니스 클라우드 서비스에 �
 - [Azure에서의 금융 서비스 규정 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Azure 금융 서비스 클라우드 위험 평가 도구](https://aka.ms/FFIEC-CSDT)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/A/E/5/AE505D51-DA54-4B2D-B1BD-C76D9102F36A/AFM-DNB-Compliance.pdf)를 다운로드합니다.

@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Azure Active Directory에 연결된 Windows 10 장치의 LOB(기간 업무) 앱, 파일 공유 및 프린터와 같은 온-프레미스 리소스에 액세스하는 방법을 알아봅니다.
-ms.openlocfilehash: c1e04e5ca0d36c32a55a9819140356db5093e3a1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 980efbf09349cc0203ac50ae5e028c008d5694ca
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627457"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165904"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Microsoft 365 Business Premium의 Azure AD에 가입 된 장치에서 온-프레미스 리소스에 액세스
 
@@ -41,7 +41,7 @@ Azure Active Directory에 가입 된 모든 Windows 10 장치에는 Microsoft 36
 
 조직의 Azure AD 조인 장치에서 온-프레미스 리소스에 액세스하도록 설정하려면 다음 단계를 완료하세요.
   
-1. 로컬 Active Directory의 사용자, 그룹 및 연락처를 Azure Active Directory와 동기화하려면 [Office 365에 대한 디렉터리 동기화 설정](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846)에서 설명한 대로 디렉터리 동기화 마법사 및 Azure AD Connect를 실행합니다.
+1. 로컬 Active Directory의 사용자, 그룹 및 연락처를 Azure Active Directory와 동기화하려면 [Office 365에 대한 디렉터리 동기화 설정](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization)에서 설명한 대로 디렉터리 동기화 마법사 및 Azure AD Connect를 실행합니다.
     
 2. 디렉터리 동기화가 완료되면 조직의 Windows 10 장치가 Azure AD에 연결되어 있는지 확인합니다. 이 단계는 각각의 Windows 10 장치에서 개별적으로 수행됩니다. 자세한 내용은 [Microsoft 365 Business Premium 사용자를 위한 Windows 장치 설정을](set-up-windows-devices.md) 참조 하세요. 
     

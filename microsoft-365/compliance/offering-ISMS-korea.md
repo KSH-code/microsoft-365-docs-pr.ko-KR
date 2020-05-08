@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bea6775580c4e4a7c9ab4cbf9b9368c312331038
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 069267af4e695ebdf811f92cdab653c5f20e4af4
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602285"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065933"
 ---
 # <a name="korea-information-security-management-system-k-isms"></a>대한민국-정보보호관리체계(K-ISMS, Korea-Information Security Management System)
 
@@ -85,8 +85,4 @@ Azure 인증은 인증 기관인 KISA의 매년 재평가와 함께 인증 일�
 - [K-ISMS-인증받은 기관](https://isms.kisa.or.kr/main/isms/issue/?certificationMode=list&crtfYear=2018&searchCondition=2&searchKeyword=%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%86%8C%ED%94%84%ED%8A%B8) (국문)
 - [K-ISMS 문서 및 지침](https://isms.kisa.or.kr/main/isms/notice/) (국문)
 - [Azure 지역](https://azure.microsoft.com/global-infrastructure/regions/)
-- [Microsoft 보안 센터의 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/2/C/6/2C6FFA1C-1BA8-48E8-887A-4EA52E256AF3/K-ISMS-Compliance.pdf)를 다운로드합니다.
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)

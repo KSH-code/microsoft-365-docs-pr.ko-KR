@@ -13,15 +13,16 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
+- M365solutions
 ms.custom:
 - Ent_Solutions
 description: 매우 중요한 데이터를 보호하는 팀을 배치하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f044dd672d52db4100fcb4cfec2519a8605c7be8
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: f60c46c3b596c131bb04a49f0293c6dd8bbbea2b
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44003244"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166176"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>매우 중요한 데이터를 보호하는 팀 구성하기
 
@@ -43,7 +44,7 @@ ms.locfileid: "44003244"
 게스트와 안전하게 공유하는 방법에 대한 자세한 내용은 다음 리소스를 참조하세요.
 
 - [파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출 제한하기](https://docs.microsoft.com/microsoft-365/solutions/share-limit-accidental-exposure)
-- [안전한 게스트 공유 환경 만들기](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
+- [보안 게스트 공유 환경 만들기](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
 
 게스트 공유를 허용하거나 차단하기 위해 나중에 설명할 팀의 민감도 레이블과 연결된 SharePoint 사이트의 사이트 수준 공유 제어를 조합해서 사용합니다.
 
@@ -152,5 +153,5 @@ Teams에서 민감도 레이블을 사용하도록 설정한 후 다음 단계�
 
 ## <a name="see-also"></a>참고 항목
 
-[민감도 레이블과 해당 정책 생성 및 구성하기](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels)
+[민감도 레이블과 해당 정책 생성 및 구성](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels)
 

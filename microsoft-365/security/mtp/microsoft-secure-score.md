@@ -17,14 +17,14 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 56c3187999d34ac6d84c1b3857053f82bb40b2a9
-ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
+ms.openlocfilehash: 9f39878ca56aef3ec8c9d89805a87196c19eb5b8
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43804761"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141510"
 ---
-# <a name="microsoft-secure-score"></a>Microsoft 보안 점수
+# <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
 Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 많은 향상 작업이 수행 되었음을 나타냅니다. 보안 점수 권장 사항을 따르면 위협 으로부터 조직을 보호할 수 있습니다. Microsoft 365 보안 센터의 중앙 집중식 대시보드를 통해 조직은 Microsoft 365 id, 데이터, 앱, 장치 및 인프라의 보안을 모니터링 하 고 작업할 수 있습니다.
 
@@ -52,7 +52,7 @@ Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 
 
 ### <a name="products-included-in-secure-score"></a>안전한 점수에 포함 된 제품
 
-현재에는 SharePoint Online, Exchange Online, 비즈니스용 OneDrive, Microsoft Information Protection 등, Azure AD 및 Cloud App Security를 포함 하기 위한 권장 사항이 있습니다. Azure ATP 및 Microsoft Defender ATP와 같은 다른 보안 제품에 대 한 권장 사항은 곧 제공 될 예정입니다. 권장 사항은 각 제품과 연결 된 모든 공격 표면을 다루지는 않지만 좋은 기준이 됩니다. 또한 개선 작업을 제 3 자에서 다룬 것으로 표시할 수도 있습니다.
+현재 Microsoft 365 (Exchange Online 포함), Azure AD, Microsoft Defender ATP, Azure ATP 및 Cloud App Security에 대 한 권장 사항이 있습니다. 다른 보안 제품에 대 한 권장 사항은 곧 제공 될 예정입니다. 권장 사항은 각 제품과 연결 된 모든 공격 표면을 다루지는 않지만 좋은 기준이 됩니다. 또한 개선 작업을 제 3 자에서 다룬 것으로 표시할 수도 있습니다.
 
 ## <a name="required-permissions"></a>필요한 사용 권한
 
@@ -110,8 +110,6 @@ Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간의 점수가
 
 ### <a name="actions"></a>작업
 
-Microsoft 보안 점수에 의해 [점수 없음] 레이블이 지정 된 작업은 추적 되지 않습니다. 계속 해 서 작업을 수행할 수는 있지만 작업이 완료 되 면 점수에 영향을 주지 않습니다. 향후 Microsoft 보안 점수에 따라 작업이 추적 되 고 이미 완료 된 경우 보안 점수가 자동으로 변경 됩니다.
-
 특정 개선 작업을 선택 하면 플라이 아웃이 나타납니다. 이 작업을 완료 하려면 몇 가지 옵션을 사용할 수 있습니다.
 
 1. **설정 보기** 를 선택 하 여 구성 화면으로 이동 하 고 변경을 수행 합니다. 그리고 나 서 플라이 아웃 위쪽에 표시 되는 작업의 점수를 얻을 수 있습니다. 점수를 업데이트 하는 데 최대 24 시간이 걸릴 수 있습니다.
@@ -122,7 +120,7 @@ Microsoft 보안 점수에 의해 [점수 없음] 레이블이 지정 된 작업
 
 ![보안 점수 향상 작업 예제](../../media/secure-score/secure-score1x450.png)
 
-*그림 2 & 3: 향상 작업 flyouts*
+*그림 2: 개선 작업 플라이 아웃*
 
 ## <a name="monitor-improvements-over-time"></a>시간에 따른 모니터 향상
 

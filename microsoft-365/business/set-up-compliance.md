@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 규정 준수 기능을 설정 하 여 데이터 손실을 방지 하 고 및 고객의 중요 한 정보를 안전 하 게 유지 합니다.
-ms.openlocfilehash: 523d020587bcf16e46263b88ee7654b9c786e7a2
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: a3405207cd7d2d6565807ef0f3a51acbcb80409a
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048068"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165740"
 ---
 # <a name="set-up-compliance-features"></a>준수 기능 설정
 
@@ -34,9 +34,9 @@ Microsoft 365 Business Premium에는 데이터와 장치를 보호 하는 기능
 
 ## <a name="set-up-dlp-features"></a>DLP 기능 설정
 
-PII(개인 식별 정보)를 보호하도록 정책을 설정하는 방법의 예제를 보려면 [템플릿에서 DLP 정책 만들기](https://support.office.com/article/59414438-99f5-488b-975c-5023f2254369)를 참조하세요. 
+PII(개인 식별 정보)를 보호하도록 정책을 설정하는 방법의 예제를 보려면 [템플릿에서 DLP 정책 만들기](https://docs.microsoft.com/microsoft-365/compliance/create-a-dlp-policy-from-a-template)를 참조하세요. 
   
-DLP에는 다양 한 로캘에 대 한 다양 한 사용 가능 정책 템플릿이 제공 됩니다. 예를 들어 오스트레일리아 재무 데이터, 캐나다 개인 정보 Act, 미국 재무 데이터 등이 있습니다. 전체 목록에 대해 [DLP 정책 템플릿에 포함 된 내용을](https://support.office.com/article/c2e588d3-8f4f-4937-a286-8c399f28953a) 확인 합니다. 이러한 서식 파일은 모두 PII 서식 파일 예제와 비슷하게 설정할 수 있습니다. 
+DLP에는 다양 한 로캘에 대 한 다양 한 사용 가능 정책 템플릿이 제공 됩니다. 예를 들어 오스트레일리아 재무 데이터, 캐나다 개인 정보 Act, 미국 재무 데이터 등이 있습니다. 전체 목록에 대해 [DLP 정책 템플릿에 포함 된 내용을](https://docs.microsoft.com/microsoft-365/compliance/what-the-dlp-policy-templates-include) 확인 합니다. 이러한 서식 파일은 모두 PII 서식 파일 예제와 비슷하게 설정할 수 있습니다. 
   
 ## <a name="set-up-email-retention-with-exchange-online-archiving"></a>Exchange Online Archiving을 사용하여 전자 메일 보존 설정
 

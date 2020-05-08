@@ -21,12 +21,12 @@ ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 또는 Microsoft 365의 규정 준수 센터에서 콘텐츠 검색 도구를 사용하여 다양한 Office 365 서비스에서 콘텐츠를 검색할 수 있습니다.
-ms.openlocfilehash: e16b369c2844f75673ac4f6eee1cb3b8f4fdfab4
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: b2120ed131af48defb87af80e8b38c55dc0a0422
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035506"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166109"
 ---
 # <a name="content-search"></a>콘텐츠 검색
 
@@ -237,7 +237,7 @@ Office 365 또는 Microsoft 365의 규정 준수 센터의 콘텐츠 검색 eDis
   
 ### <a name="searching-onedrive-accounts"></a>OneDrive 계정 검색
 
-- 조직의 OneDrive 사이트에 대한 URL 목록을 수집하려면 [조직의 모든 OneDrive 위치 목록 만들기](https://support.office.com/article/8e200cb2-c768-49cb-88ec-53493e8ad80a)를 참조하세요. 이 문서의 스크립트는 모든 OneDrive 사이트 목록이 포함된 텍스트 파일을 만듭니다. 이 스크립트를 실행하려면 SharePoint Online 관리 셸을 설치하고 사용해야 합니다. 조직의 MySite 도메인에 대한 URL을 검색하려는 각 OneDrive 사이트 앞에 붙입니다. 이것은 모든 OneDrive 도메인을 포함하는 도메인입니다(예: `https://contoso-my.sharepoint.com`). 사용자의 OneDrive 사이트에 대한 URL의 예는 다음과 같습니다.  `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.
+- 조직의 OneDrive 사이트에 대한 URL 목록을 수집하려면 [조직의 모든 OneDrive 위치 목록 만들기](https://docs.microsoft.com/onedrive/list-onedrive-urls)를 참조하세요. 이 문서의 스크립트는 모든 OneDrive 사이트 목록이 포함된 텍스트 파일을 만듭니다. 이 스크립트를 실행하려면 SharePoint Online 관리 셸을 설치하고 사용해야 합니다. 조직의 MySite 도메인에 대한 URL을 검색하려는 각 OneDrive 사이트 앞에 붙입니다. 이것은 모든 OneDrive 도메인을 포함하는 도메인입니다(예: `https://contoso-my.sharepoint.com`). 사용자의 OneDrive 사이트에 대한 URL의 예는 다음과 같습니다.  `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.
     
     드물게 사용자의 UPN(사용자 계정 이름)이 변경되는 경우 해당 OneDrive 위치의 URL이 새 UPN을 통합하도록 변경됩니다. 이 경우 사용자의 새 OneDrive URL을 추가하고 이전 항목을 제거하여 콘텐츠 검색을 수정해야 합니다. 자세한 내용은 [UPN 변경 내용이 OneDrive URL에 미치는 영향](https://docs.microsoft.com/onedrive/upn-changes)을 참조하세요.
   

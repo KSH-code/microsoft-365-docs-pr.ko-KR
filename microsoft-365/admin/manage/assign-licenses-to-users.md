@@ -24,14 +24,21 @@ search.appverid:
 - GEA150
 ms.assetid: 997596b5-4173-4627-b915-36abac6786dc
 description: 사용자에게 라이선스를 할당하거나 새 구독으로 사용자를 이동하는 방법을 알아봅니다.
-ms.openlocfilehash: 2019aeef0d802e92489b09bbddb564c4ecded8c0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 971141514f9117db69a2fbc8f91c2e42b329c33a
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628247"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139700"
 ---
 # <a name="assign-licenses-to-users"></a>사용자에게 라이선스 할당
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
+
+::: moniker-end
 
 ::: moniker range="o365-worldwide"
 

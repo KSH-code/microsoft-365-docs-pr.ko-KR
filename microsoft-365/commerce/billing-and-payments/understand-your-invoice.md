@@ -18,14 +18,21 @@ search.appverid:
 - MET150
 description: Microsoft 비즈니스 제품의 송장을 읽고 이해 하는 방법을 알아봅니다.
 keywords: 청구 계정, 조직 정보, 송장
-ms.openlocfilehash: 7b16af7c6ef39743aa8d0a4e927786f64f47c4cd
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: dad635df97e9cdf490118adc3a041c876878521b
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942880"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141331"
 ---
 # <a name="understand-your-invoice"></a>송장 이해
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 송장에서는 결제에 대 한 요금 및 지침을 요약해 서 제공 합니다. Microsoft 365 관리 센터에서 [온라인 송장을 볼](#view-your-online-invoice) 수 있습니다. 또한이 파일을 휴대용 문서 형식 (.pdf)으로 다운로드 하 여 전자 메일을 통해 보낼 수 있습니다.
 

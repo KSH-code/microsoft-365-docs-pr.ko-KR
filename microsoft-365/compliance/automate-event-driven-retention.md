@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 항목에서는 Microsoft 365 REST API를 사용하여 이벤트를 통한 보존을 자동화하는 비즈니스 프로세스 흐름을 설정하는 방법에 대해 설명합니다.
-ms.openlocfilehash: 1e7255fe8f21328b93ac95c0377ccd9017195caa
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b94a607b679c6a03624a5af7a1b61f7d7a29dbee
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636366"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166129"
 ---
 # <a name="automate-event-based-retention"></a>이벤트 기반 보존 자동화
 
@@ -89,7 +89,7 @@ ms.locfileid: "43636366"
         
     - SharePoint 라이브러리 만들기: 라이브러리 수준에서 이벤트 기반 레이블을 설정합니다. 자세한 내용은 [ SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 콘텐츠에 기본 보존 레이블 적용](labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set)을 참조하십시오.
           
-    - SharePoint에서 문서 집합을 설정합니다. 자세한 내용은 [문서 집합 소개](https://support.office.com/article/3DBCD93E-0BED-46B7-B1BA-B31DE2BCD234)를 참조합니다.
+    - SharePoint에서 문서 집합을 설정합니다. 자세한 내용은 [문서 집합 소개](https://support.microsoft.com/ko-KR/office/introduction-to-document-sets-3dbcd93e-0bed-46b7-b1ba-b31de2bcd234)를 참조합니다.
       
 3. 각 직원 문서 집합에 자산 ID를 할당합니다. 자산 ID는 조직에서 사용하는 제품 이름 또는 코드입니다. 예를 들어 직원 번호는 자산 ID가 될 수 있습니다. 자산 ID를 폴더에 할당하면 해당 폴더에 있는 모든 항목이 자동으로 동일한 자산 ID를 상속합니다. 즉, 동일한 이벤트로 모든 항목의 보존 기간을 트리거할 수 있습니다.
 
@@ -183,10 +183,10 @@ REST API를 호출하는 샘플 코드
 <tr class="odd">
 <td>본문</td>
 <td><p>&lt;?xml version='1.0' encoding='utf-8' standalone='yes'?&gt;</p>
-<p>&lt;entry xmlns:d='http://schemas.microsoft.com/ado/2007/08/dataservices'</p>
-<p>xmlns:m='http://schemas.microsoft.com/ado/2007/08/dataservices/metadata'</p>
-<p>xmlns='http://www.w3.org/2005/Atom'&gt;</p>
-<p>&lt;category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent' /&gt;</p>
+<p>&lt;entry xmlns:d='https://schemas.microsoft.com/ado/2007/08/dataservices'</p>
+<p>xmlns:m='https://schemas.microsoft.com/ado/2007/08/dataservices/metadata'</p>
+<p>xmlns='https://www.w3.org/2005/Atom'&gt;</p>
+<p>&lt;category scheme='https://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent' /&gt;</p>
 <p>&lt;updated&gt;9/9/2017 10:50:00 PM&lt;/updated&gt;</p>
 <p>&lt;content type='application/xml'&gt;</p>
 <p>&lt;m:properties&gt;</p>
@@ -374,10 +374,10 @@ REST API를 호출하는 샘플 코드
 <p>$EventName=&quot;EventByRESTPost-$(([Guid]::NewGuid()).ToString('N'))&quot;</p>
 <p>호스트 쓰기 &quot;시작하여 다음의 이름으로 이벤트 생성: $EventName&quot;</p>
 <p>$body = &quot;&lt;?xml version='1.0' encoding='utf-8' standalone='yes'?&gt;</p>
-<p>&lt;entry xmlns:d='http://schemas.microsoft.com/ado/2007/08/dataservices'</p>
-<p>xmlns:m='http://schemas.microsoft.com/ado/2007/08/dataservices/metadata'</p>
-<p>xmlns='http://www.w3.org/2005/Atom'&gt;</p>
-<p>&lt;category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent' /&gt;</p>
+<p>&lt;entry xmlns:d='https://schemas.microsoft.com/ado/2007/08/dataservices'</p>
+<p>xmlns:m='https://schemas.microsoft.com/ado/2007/08/dataservices/metadata'</p>
+<p>xmlns='https://www.w3.org/2005/Atom'&gt;</p>
+<p>&lt;category scheme='https://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent' /&gt;</p>
 <p>&lt;updated&gt;7/14/2017 2:03:36 PM&lt;/updated&gt;</p>
 <p>&lt;content type='application/xml'&gt;</p>
 <p>&lt;m:properties&gt;</p>

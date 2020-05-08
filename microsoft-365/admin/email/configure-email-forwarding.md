@@ -21,14 +21,21 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: Office365을 사용 하 여 하나 이상의 전자 메일 계정으로 전자 메일을 전달 하도록 설정 합니다.
-ms.openlocfilehash: 5807649fa43d094fd8f05cf63e2905d7cdb6dd7d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8cd86bcab4d73719e527f9942cd41a3174966c2d
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628918"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140456"
 ---
 # <a name="configure-email-forwarding"></a>전자 메일 전달 구성
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
   
 조직의 관리자는 사용자 사서함에 대 한 전자 메일 전달을 설정 하기 위한 회사 요구 사항이 있을 수 있습니다. 전자 메일 전달을 사용 하면 사용자의 사서함에 전송 된 전자 메일 메시지를 조직의 내부 또는 외부에 있는 다른 사용자의 사서함으로 전달할 수 있습니다.
 
@@ -66,7 +73,7 @@ ms.locfileid: "43628918"
 
 ::: moniker range="o365-germany"
     
- 1.   관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
+ 1.   관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
     
 2. 전자 메일을 전달 하려는 사용자의 이름을 선택 하 여 속성 페이지를 엽니다. 
 
@@ -84,7 +91,7 @@ ms.locfileid: "43628918"
 
 ::: moniker range="o365-21vianet"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
     
 2. 전자 메일을 전달 하려는 사용자의 이름을 선택 하 여 속성 페이지를 엽니다. 
 

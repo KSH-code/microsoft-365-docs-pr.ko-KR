@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1a1e8b19ff214d29dc8a309cce4f79de92cf8155
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 8288438eed0f658d8058125bc90315e9a2626c08
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071295"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066583"
 ---
 # <a name="federal-information-processing-standard-fips-publication-140-2"></a>FIPS (연방 정보 처리 표준) 게시 140-2
 
 ## <a name="fips-140-2-standard-overview"></a>FIPS 140-2 표준 개요
 
-FIPS (연방 정보 처리 표준) 게시 140-2는 정보의 5131 섹션에 정의 된 정보 기술 제품의 암호화 모듈에 대 한 최소 보안 요구 사항을 정의 하는 미국 정부 표준입니다. 기술 관리 개정 1996의 Act입니다.
+FIPS (연방 정보 처리 표준) 게시 140-2는 정보 기술 관리 개정 1996의 5131 섹션에 정의 된 정보 기술 제품의 암호화 모듈에 대 한 최소 보안 요구 사항을 정의 하는 미국 정부 표준입니다.
 
 Nvp ( [암호화 모듈 유효성 검사 프로그램](https://csrc.nist.gov/Projects/cryptographic-module-validation-program) )는 미국 국내 표준 및 기술 (NIST)과 캐나다의 사이버 보안 (cccs)에 대 한 공동 작업으로, 암호화 모듈 표준 (즉, fips 140-2) 및 관련 FIPS 암호화 표준 *에 대 한 보안 요구 사항에 대 한* 암호화 모듈의 유효성을 검사 합니다. FIPS 140-2 보안 요구 사항에는 암호화 모듈의 디자인 및 구현과 관련 된 11 개의 영역이 포함 되어 있습니다. NIST 정보 기술 실험에서는 모듈에서 FIPS로 승인 된 암호화 알고리즘의 유효성을 검사 하는 관련 프로그램을 실행 합니다.
 
@@ -43,7 +43,7 @@ Microsoft Windows 암호화 모듈, 각 모듈에 대 한 보안 정책 및 NVP 
 - [Dynamics 365 및 Dynamics 365 정부](https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-in-microsoft-dynamics-365)
 - [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-risks-and-protections)
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **"FIPS 140 유효성 검사"와 "FIPS 140 준수" 간의 차이점은 무엇입니까?**
 
@@ -61,7 +61,7 @@ Microsoft는 Windows 10 및 Windows Server를 실행 하는 하드웨어 구성�
 
 FIPS 140-2를 통해 유효성이 검사 된 암호화 모듈을 사용 해야 하는 경우에는 사용 하는 버전이 유효성 검사 목록에 표시 되는지 확인 해야 합니다. NVP 및 Microsoft는 Windows 시스템에 설치 된 모듈을 식별 하기 위한 지침과 함께 제품 릴리스로 구성 된 유효성이 검사 된 암호화 모듈의 목록을 유지 관리 합니다. 시스템을 준수 하도록 구성 하는 방법에 대 한 자세한 내용은 [windows 및 Windows SERVER FIPS 140-2 콘텐츠](https://aka.ms/AA6ehud)를 참조 하세요.
 
-**인증서에 대 한 "FIPS 모드에서 작동 하는 경우"의 의미**
+**' FIPS 모드에서 작동 하는 경우 '는 인증서에 대해 무슨 의미 입니까?**
 
 이 주의 사항은 FIPS 140-2 보안 정책과 일치 하는 방식으로 암호화 모듈을 사용 하기 위해 필요한 구성 및 보안 규칙을 따라야 함을 독자에 게 알립니다. 각 모듈에는 자체 보안 정책, 즉 운영 하는 데 필요한 보안 규칙을 정확 하 게 지정 하 고, 승인 된 암호화 알고리즘, 암호화 키 관리 및 인증 기법을 활용 합니다. 보안 규칙은 각 모듈에 대 한 보안 정책에 정의 됩니다. CMVP를 통해 유효성이 검사 된 각 모듈에 대 한 보안 정책에 대 한 링크를 포함 하 여 자세한 내용은 [Windows 및 Windows SERVER FIPS 140-2 콘텐츠](https://aka.ms/AA6ehud)를 참조 하세요.
 
@@ -87,7 +87,3 @@ FIPS 140-2을 준수 하려면 시스템을 FIPS 승인 모드 (암호화 모듈
 - [NIST 암호화 모듈 유효성 검사 프로그램](https://csrc.nist.gov/groups/STM/cmvp/index.html)
 - [Windows, Windows Server 및 FIPS 140-2](https://docs.microsoft.com/windows/security/threat-protection/fips-140-validation)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/B/7/2/B7226B91-1A56-41E4-AC01-43FCFEE50B7F/FIPS_Compliance_Backgrounder.pdf)를 다운로드합니다.

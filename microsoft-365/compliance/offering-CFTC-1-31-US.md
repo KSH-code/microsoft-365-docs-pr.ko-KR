@@ -1,7 +1,7 @@
 ---
 title: 필수품 퓨처 거래 위원회 (CFTC) Rule 1.31 (c 차원) 미국
 description: 독립적인 평가 회사에서는 Azure 및 Office 365이 재무 기업이 CFTC Rule 1.31 레코드 보존 및 불변의 저장소 요구 사항을 충족 하도록 도울 수 있음을 확인 했습니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 448dbcf250a34d7c7d7acb2d3f3acc4c8de4d14b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 08f912492d1874b940156e3a6165f9476add7711
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602645"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065853"
 ---
 # <a name="commodity-futures-trading-commission-cftc-rule-131c-d-united-states"></a>필수품 퓨처 거래 위원회 (CFTC) Rule 1.31 (c 차원) 미국
 
@@ -27,7 +27,7 @@ ms.locfileid: "41602645"
 
 [상품 퓨처 거래 위원회](https://www.cftc.gov/) (CFTC)는 독립 미국 연방 에이전시 이며, 필수품 퓨처 및 옵션 시장의 최근 및 이전 교체 시장을 규정 합니다.  
   
-장기간 CFTC 규칙 1.31은 SEC 규칙 17a-4 (f)로 설정 된 레코드 보존 요구 사항을 정의 합니다. 또한 전자 레코드가 5 년 동안 유지 관리 되어야 하 고, 처음 2 년 동안 원본에 "쉽게 액세스할 수" 있고, 전체 작업 중에 위원회 또는 미국 지정 부서에서 검사 가능 하도록 지정 합니다. 보존 기간  
+장기간 CFTC 규칙 1.31은 SEC 규칙 17a-4 (f)로 설정 된 레코드 보존 요구 사항을 정의 합니다. 또한 전자 레코드가 5 년 동안 유지 관리 되어야 하 고, 원래 2 년 동안 원본에 "쉽게 액세스할 수" 있고, 전체 보존 기간 동안에는 위원회 또는 미국 지정 부서에서 검사 가능 하도록 지정 합니다.  
   
 2017에서 CFTC는 해당 [규칙](https://www.cftc.gov/sites/default/files/idc/groups/public/@lrfederalregister/documents/file/2017-11014a.pdf)을 수정 하 고 해당 레코드를 유지 관리 하는 방법을 보다 유연 하 게 제공 하는 원칙 기반 표준을 채택 하 고 있습니다. 이를 통해 규칙을 강화 하 여 규정 된 엔터티가 비즈니스에 가장 적합 한 기술을 선택할 수 있으며 "레코드를 유지 관리 프로세스의 안정성을 보장 합니다." 수정 된 규칙은 조직에서 2 년 동안 원본 레코드를 유지 관리 하는 요구 사항을 제거 하지만, CFTC 및 초에 따라 기업에 대 한 harmonizes 사례에 해당 하는 5 년의 유지 관리 기간을 유지 합니다.
 
@@ -71,7 +71,3 @@ Office 365의 보관 기능은 전자 메일, 음성 메일, 공유 문서, 인�
 - [Microsoft Office 365 보존 정책](https://docs.microsoft.com/office365/securitycompliance/retention-policies)
 - [Microsoft 금융 서비스 블로그](https://techcommunity.microsoft.com/t5/Financial-Services-Blog/bg-p/FinancialServicesBlog)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/9/A/9/9A9847FE-164A-4321-8112-50719D9EA877/CFTC1.31-Compliance.pdf)를 다운로드합니다.

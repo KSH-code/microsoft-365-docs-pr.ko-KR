@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 88f84cc73bfea5bbc072a46e894a140e227844b2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 46118f9fe48e6fe794cdb256384bb88e9a1e0cfa
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602325"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066471"
 ---
 # <a name="health-data-hosting-hds-france"></a>건강 데이터 호스팅 (HDS) 프랑스
 
@@ -74,7 +74,3 @@ HDS 인증은 3년간 유효합니다.
 - [보건용 Azure](https://azure.microsoft.com/industries/healthcare/)
 - [Microsoft의 보안](https://www.microsoft.com/security)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/E/7/B/E7BC3E72-A6E5-4A10-96C9-3B210C4DBE35/HDS-Compliance.pdf)를 다운로드합니다.

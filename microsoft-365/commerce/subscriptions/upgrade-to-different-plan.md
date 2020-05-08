@@ -23,15 +23,21 @@ search.appverid:
 - BEA160
 - GEA150
 description: 새 구독으로 업그레이드 하는 방법을 알아봅니다.
-monikerRange: o365-worldwide
-ms.openlocfilehash: 7739da2d56fa0d37dd64b22b2959ad6dca198e75
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: b0f79233e6a05c2838026093bb0027cd4789b01b
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046219"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141069"
 ---
-# <a name="upgrade-to-a-different-plan"></a>다른 플랜으로 업그레이드 
+# <a name="upgrade-to-a-different-plan"></a>다른 플랜으로 업그레이드
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 비즈니스가 변경 되거나 더 많은 기능이 필요한 경우 요금제를 업그레이드할 수 있습니다. 이 작업을 수행 하는 가장 쉬운 방법은 관리 센터에서 **Upgrade** 탭을 사용 하는 것입니다. 그러나 **업그레이드** 탭을 사용 하는 경우에는 모든 상황에서 지원 되지 않습니다. 경우에 따라 요금제를 수동으로 변경할 수도 있습니다.
 

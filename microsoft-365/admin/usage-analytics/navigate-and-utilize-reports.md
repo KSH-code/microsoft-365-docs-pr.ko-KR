@@ -19,14 +19,21 @@ search.appverid:
 - MOE150
 ms.assetid: 286fcf0b-ffc7-4593-8073-d7a4a5dd2b45
 description: 탐색 탭 및 필터를 사용 하 여 보고서를 보는 방법을 알아봅니다.
-ms.openlocfilehash: 3abbd2362cb6216d5dd561c7792fa41588daac66
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: dedcaf52a2b5e69d53f8c41494b5fd68ac1f248b
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42355109"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140674"
 ---
 # <a name="navigate-and-utilize-the-reports-in-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석에서 보고서 탐색 및 활용
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 대시보드는 기본 사용 현황 및 채택 메트릭에 대한 간략한 개요를 제공합니다. 최상위 메트릭을 선택 하면 자세한 내용과 정보를 제공 하는 보고서에 액세스할 수 있습니다. 각 보고서 탭에는 조직에 대 한 사용 현황 및 채택 측면에 해당 하는 데이터 시각화가 포함 되어 있습니다. 수집 된 데이터는 각 보고서의 제목에 설명 되 고, 보고 있는 보고서 탭의 시각화에 대 한 추가 정보가 포함 된 타일이 표시 됩니다.
 

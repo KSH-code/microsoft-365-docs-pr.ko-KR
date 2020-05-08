@@ -24,14 +24,21 @@ search.appverid:
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
 description: '초기 전자 메일 주소를 tom@fourthcoffee.com와 같은 친숙 한 전자 메일 주소로 변경 합니다. 이 작업을 수행 하려면 도메인 이름을 구입 하 여 Microsoft 365에 추가 해야 합니다. '
-ms.openlocfilehash: baa2e49d98ed1d7b3de9af78b84403d028b4c91d
-ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
+ms.openlocfilehash: 50739c01fda9528140870798324dd69a1c68abce
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44053827"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140503"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>사용자 지정 도메인을 사용하도록 전자 메일 주소 변경
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
  원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.md)** 하세요. 
   

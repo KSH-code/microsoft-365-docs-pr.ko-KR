@@ -16,12 +16,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능 사용을 시작 하세요.
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: b9811963210f253bbfe90af02dd6d38926776a62
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 4e36e0fa07f825d3259ef9e42b802c81ae929470
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033953"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159410"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Office 365에서 자동화 된 조사 및 응답 (AIR) 사용 시작
 
@@ -93,6 +93,13 @@ Microsoft 365에서는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠�
 |--|--|
 |AIR 기능을 설정 하려면 |다음 역할 중 하나입니다. <br/>-전역 관리자<br/>-보안 관리자 <br/>이러한 역할은 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 [보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)에서 할당할 수 있습니다. |
 |권장 작업을 승인 하거나 거부 하려면|[Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 [보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center))에서 할당 된 다음 역할 중 하나입니다.<br/>-전역 관리자 <br/>-보안 관리자<br/>-보안 독자 <br/>--- 및 ---<br/>-검색 및 제거 (이 역할은 [보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)에만 할당 됨) 여기에 새 역할 그룹을 만들고 새 역할 그룹에 검색 및 제거 역할을 추가 해야 할 수 있습니다.
+
+[Office 365 ATP 계획 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2) 라이선스는 다음에 할당 되어야 합니다.
+- 보안 관리자 (전역 관리자 포함)
+- 조직의 보안 운영 팀 (보안 판독기 및 검색 및 제거 역할을 포함 하는 작업)
+- 최종 사용자
+
+또한 보호 기능을 적용 하려면 [Office 365 ATP 정책을](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) 정의 하 고 따라야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

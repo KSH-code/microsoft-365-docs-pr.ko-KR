@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: b5efda8f6b4b7937b98a9357ad3bb2c661541256
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: ace04c61b8bb26661201b3a2616799f0dc4ea87e
+ms.sourcegitcommit: 9ffa2fd25776726475e10148940987fa076bbd91
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065823"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44162680"
 ---
 # <a name="get-started-with-insider-risk-management"></a>내부자 위험 관리 시작
 
@@ -91,17 +91,19 @@ Microsoft 365 Enterprise E5 요금제가 아직 없는 경우 microsoft 365을 �
 조직에 대 한 Microsoft 365 HR 커넥터를 구성 하려면 단계별 지침을 보려면 [HR 데이터를 가져올 커넥터 설정](import-hr-data.md) 항목을 참조 하십시오. HR 커넥터를 구성한 후에는 다음 구성 단계로 돌아가십시오.
 
 >[!IMPORTANT]
->*Departing emplo'ee data 절도* 템플릿을 사용 하 여 p'licy를 구성 하는 경우 정책 템플릿의 전체 신호 검색 기능을 사용 하도록 HR 커넥터를 구성 해야 합니다. 조직에 대해 두 개 이상의 HR 커넥터를 구성 하는 경우, 참가자 위험 관리는 모든 HR 커넥터에서 자동으로 지표를 가져옵니다.
+>*Departing employee data 절도* 템플릿을 사용 하 여 정책을 구성 하는 경우 정책 템플릿의 전체 신호 검색 기능을 사용 하도록 HR 커넥터를 구성 해야 합니다. 조직에 대해 두 개 이상의 HR 커넥터를 구성 하는 경우, 참가자 위험 관리는 모든 HR 커넥터에서 자동으로 지표를 가져옵니다.
 
 ### <a name="configure-data-loss-prevention-dlp-policies"></a>DLP (데이터 손실 방지) 정책 구성
 
-참가자 위험 관리는 DLP 정책을 사용 하 여 원하지 않는 사용자에 게 중요 한 정보를 고의적으로 또는 실수로 노출 하는 것을 지원 합니다. *데이터 누수* 템플릿을 사용 하 여 참가자 위험 관리 정책을 구성 하는 경우 정책에 특정 DLP 정책을 할당 해야 합니다. 이 정책은 중요 한 정보에 대 한 경고 표시기를 구성 하는 데 도움이 됩니다.
+참가자 위험 관리는 DLP 정책을 사용 하 여 원하지 않는 사용자에 게 중요 한 정보를 고의적으로 또는 실수로 노출 하는 것을 지원 합니다. *데이터 누수* 템플릿을 사용 하 여 참가자 위험 관리 정책을 구성 하는 경우 정책에 특정 DLP 정책을 할당 해야 합니다.
 
-조직의 DLP 정책을 구성 하는 단계별 지침은 [dlp 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md) 항목을 참조 하십시오. DLP 정책을 구성한 후에는 "ration 단계." "" "" "" "" "" "로 돌아갑니다.
+이 정책은 중요 한 정보에 대 한 높은 심각도 DLP 경고에 대 한 참가자 위험 관리 지표를 제공 하는 데 도움이 되며, 조직의 전체 위험 관리 범위를 구성 하는 데 있어 중요 한 요소입니다. 조직에 대해 두 개 이상의 DLP 정책을 구성 하는 경우에는 DLP 정책에 따라 참가자 위험 관리 정책을 할당 해야 합니다.
+
+조직의 DLP 정책을 구성 하는 단계별 지침은 [dlp 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md) 항목을 참조 하십시오. DLP 정책을 구성한 후에는 다음 구성 단계로 돌아가십시오.
 
 >[!IMPORTANT]
->*데이터 누수* 템플릿을 사용 하 여 정책을 구성 하는 경우 정책 템플릿의 전체 신호 검색 기능을 사용 하도록 하나 이상의 DLP 정책을 구성 해야 합니다. 조직에 대해 두 개 이상의 DLP 정책을 구성 하는 경우에는 DLP 정책에 따라 참가자 위험 관리 정책을 할당 해야 합니다.
-""""""""
+>이 서식 파일에 사용 되는 참가자 위험 관리에 사용할 DLP 정책의 **문제 보고서** 설정이 *높은* 심각도 수준 알림에 대해 구성 되어 있는지 확인 합니다. *낮음* 또는 *보통*으로 **인시던트 보고서** 필드가 설정 된 DLP 정책에서 참가자 위험 관리 알림이 생성 되지 않습니다.
+
 ## <a name="step-4-required-configure-insider-risk-settings"></a>4 단계 (필수 사항): 참가자 위험 설정 구성
 
 [참가자 위험 설정은](insider-risk-management-policies.md#policy-settings) 정책을 만들 때 선택한 서식 파일에 관계 없이 모든 참가자 위험 관리 정책에 적용 됩니다. 설정은 모든 참가자 위험 관리 탭의 맨 위에 있는 **참가자 위험 설정** 제어를 사용 하 여 구성 됩니다. 이러한 설정은 개인 정보, 지표, 모니터링 windows 및 지능형 검색을 제어 합니다.

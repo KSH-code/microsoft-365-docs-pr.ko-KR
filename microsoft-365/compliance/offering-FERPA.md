@@ -1,7 +1,7 @@
 ---
 title: 가족 교육 기관 권한 및 FERPA (개인 정보 취급 방침)
 description: Microsoft는 미국 가족 교육 기관 권리 및 개인 정보 취급 방침의 요구 사항을 충족 합니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 11fa59476737fd3326fb49427945f183f8b990bc
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6685a542ac082b97ec771bb14481eecf212f4898
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602435"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066371"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>가족 교육 기관 권한 및 FERPA (개인 정보 취급 방침)
 
@@ -27,7 +27,7 @@ ms.locfileid: "41602435"
 
 가족 교육 기관 (FERPA)은 개인 식별 및 디렉터리 정보를 포함 하 여 학생의 교육 기록에 대 한 개인 정보를 보호 하는 미국 연방 법입니다. FERPA는 상위 및 학생 보존 기간 18 이상에서 해당 레코드에 액세스할 수 있도록 하 고, FERPA에서 승인 없이 공개를 허용 하는 구체적이 고 제한적인 사례를 제외 하 고 정보 공개를 제어 합니다.
 
-이 법칙은 학교, 학교 및 미국 교육 부서의 자금을 수신 하는 다른 모든 기관, 즉 사실상 모든 공용 K – 12 학교 및 학교 학구, 그리고 대부분의 사후 보조 기관, 공용 및 사설 모두에 게 적용 됩니다. .
+이 법칙은 학교, 학교 및 미국 교육 부서의 자금을 수신 하는 모든 기관, 즉 사실상 모든 공개 K-12 학교와 학교, 그리고 대부분의 사후 보조 기관 (공용 및 사설 모두)에 적용 됩니다.
 
 보안은 FERPA의 규정 준수 중심 이며, 무단 공개 로부터 학생 정보를 보호 해야 합니다. 클라우드 컴퓨팅을 사용 하는 교육 기관은 기술 공급 업체가 중요 한 학생 데이터를 적절 하 게 관리 하는 계약 reassurances 필요 합니다.
 
@@ -39,13 +39,11 @@ FERPA는 감사 또는 기타 인증을 요구 하거나 인식 하지 않으므
 - 또한 Microsoft는 클라우드 서비스와 호환 되는 목적 (예: 맬웨어 검색 향상)을 조직에 제공 하기 위해 고객 데이터를 사용 하는 것을 커밋 하며, 광고를 위해 고객 데이터를 채광 하지는 않습니다.
 - 또한 Microsoft는 교육 기관에서 계약에 설명 된 대로 또는 법률에 따라 필요한 경우를 제외 하 고 고객 데이터를 공개 하지 않도록 계약 의무가 합니다. 따라서 Microsoft 클라우드 서비스를 사용 하 여 Microsoft에 교육 기록을 제공 하는 학교는 이러한 레코드가 사용 및 공개에 대 한 엄격한 계약 제한을 준수 하도록 보장할 수 있습니다.
 
-이러한 계약 약정에 따라 FERPA가 적용 되는 고객 (교육 기관 및 타사 사용자가 중요 한 학생 데이터에 대 한 액세스 권한을 부여 함)을 사용 하면 범위 내 Microsoft business cloud services에서 처리, 저장을 처리할 수 있습니다. 를 선택한 다음 해당 데이터를 전송 합니다.
-
-Microsoft 클라우드에서 FERPA의 혜택에 대해 알아봅니다. [FERPA backgrounder를 다운로드](https://aka.ms/ferpa-compliance) 하세요.
+이러한 계약 약정의 결과로, FERPA가 되는 고객 (교육 기관 및 제 3 자)이 중요 한 학생 데이터에 대 한 액세스 권한을 부여 하는 경우에는 범위 내 Microsoft business cloud services를 사용 하 여 해당 데이터를 처리, 저장 및 전송할 수 있습니다.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
-다음은 고객 데이터에 "합법적인 교육 관심사"가 포함 된 "학교 공식"으로 지정 하는 Microsoft의 서비스입니다.
+고객 데이터의 ' 합법적인 교육 취미 '를 사용 하 여 Microsoft의 ' 학교 공식 '으로 지정 하기로 동의한 서비스는 다음과 같습니다.
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
@@ -59,7 +57,7 @@ Microsoft 클라우드에서 FERPA의 혜택에 대해 알아봅니다. [FERPA b
 
 FERPA는 감사 또는 인증을 요구 하거나 인식 하지 않습니다.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **FERPA 중요 한 이유는 무엇 인가요?**
 
@@ -79,7 +77,3 @@ FERPA는 감사 또는 인증을 요구 하거나 인식 하지 않습니다.
 - [Azure FERPA 준수 프레임 워크 매핑](https://aka.ms/AzureFERPAMapping)
 - [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/2/8/3/2839FB21-353E-472E-BE57-883EC9C6185F/FERPA_Compliance_Backgrounder.pdf)를 다운로드합니다.

@@ -10,16 +10,16 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
+- M365solutions
 ms.custom:
 - Ent_Solutions
-- M365solutions
 description: 보안을 위한 고유한 민감도 레이블이 있는 팀을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: cfb05bdfe791289cef7af480397802a3e11271a1
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 3af0826e925f2592aaae930200c0f7b8b9865be1
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44003057"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160066"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>보안 격리를 사용하여 팀 구성하기
 
@@ -55,7 +55,7 @@ ms.locfileid: "44003057"
 게스트와 안전하게 공유하는 방법에 대한 자세한 내용은 다음 리소스를 참조하세요.
 
 - [파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출 제한하기](https://docs.microsoft.com/microsoft-365/solutions/share-limit-accidental-exposure)
-- [안전한 게스트 공유 환경 만들기](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
+- [보안 게스트 공유 환경 만들기](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
 
 게스트 공유를 허용하거나 차단하기 위해 나중에 설명할 팀의 민감도 레이블과 연결된 SharePoint 사이트의 사이트 수준 공유 제어를 조합해서 사용합니다.
 

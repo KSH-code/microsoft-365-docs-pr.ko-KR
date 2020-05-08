@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 07a722101aaf9a3413e5821459ea9a980a8b76fe
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 1b24460940d583eeb9ed431b61453e87a218a816
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071285"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066381"
 ---
 # <a name="food-and-drug-administration-cfr-title-21-part-11"></a>음식 및 마약 관리 CFR 제목 21 부
 
@@ -39,9 +39,9 @@ CFR Title 21 부-전자 레코드 및 서명이 신뢰할 수 있고 안정적�
 
 Microsoft enterprise 클라우드 서비스는 일반 독립 타사 SOC 1 유형 2 및 SOC 2 유형 2 감사를 실시 하며 ISO/IEC 27001 및 ISO/IEC 27018 표준에 따라 인증 됩니다.
 
-이러한 일반 감사 및 인증은 FDA 규정 준수에 초점을 두는 것은 아니지만, 해당 목적과 목표는 CFR 제목 21 부의 특성에 따라 유사 하며 기밀성, 무결성 및 가용성을 보장 하는 데 도움이 됩니다. Microsoft 클라우드 서비스에 저장 된 데이터의 개수입니다. 또한 규정 접근 방식은 Pharmaceutical 엔지니어링을 위한 국제 사회 (ISPE) GAMP 시리즈 모범 사례 가이드 및 Pharmaceutical 검사 협력 구성표 (PIC/S)가 규정 GxP 환경의 컴퓨터 시스템에 대 한 모범 사례를 포함 하는 업계 모범 사례를 기반으로 합니다.
+이러한 일반 감사 및 인증은 FDA 규정 준수에 중점을 둔 것이 아니지만, 해당 목적과 목표는 CFR 제목 21 부의 특성과 유사 하며, Microsoft 클라우드 서비스에 저장 된 데이터의 기밀성, 무결성 및 가용성을 보장 하는 데 도움이 됩니다. 또한 규정 접근 방식은 Pharmaceutical 엔지니어링을 위한 국제 사회 (ISPE) GAMP 시리즈 모범 사례 가이드 및 Pharmaceutical 검사 협력 구성표 (PIC/S)가 규정 GxP 환경의 컴퓨터 시스템에 대 한 모범 사례를 포함 하는 업계 모범 사례를 기반으로 합니다.
 
-고객은 Microsoft 계정 담당자 또는 [서비스 신뢰 포털](https://aka.ms/stphelp)을 통해 규정 준수 보고서에 대 한 액세스 권한, nondisclosure 계약 약관 및 조건에 따라 요청을 받을 수 있습니다. 또한 microsoft Azure 및 Microsoft Office 365에 대 한 자격 규정 지침은 Microsoft 감사 제어가 CFR 제목 21 부의 요구 사항에 해당 하는 방식에 대 한 자세한 설명과, FDA 자격 전략을 구현 하기 위한 지침을 제공 합니다. 공유 책임 영역에 대 한 설명
+고객은 Microsoft 계정 담당자 또는 [서비스 신뢰 포털](https://aka.ms/stphelp)을 통해 규정 준수 보고서에 대 한 액세스 권한, nondisclosure 계약 약관 및 조건에 따라 요청을 받을 수 있습니다. 또한 microsoft Azure 및 Microsoft Office 365에 대 한 자격 규정 지침에는 Microsoft 감사 제어가 CFR 제목 21 년 제 11 부, FDA 자격 전략 구현 지침 및 공유 책임 영역에 대 한 자세한 설명이 제공 됩니다.
 
 FDA CFR 타이틀을 가속화 하는 방법을 알아봅니다. 21 배포: [AZURE FDA 21 검증 가이드 다운로드](https://go.microsoft.com/fwlink/p/?linkid=2086604)
 
@@ -94,7 +94,3 @@ Microsoft는 해당 엔터프라이즈 클라우드 서비스가 [온라인 서�
 - [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
 - [Microsoft Cloud for Government](https://aka.ms/govt-cloud)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/8/8/D/88DA8B65-8CEE-46A5-8E93-DAFC3699AD06/FDA_Compliance_Backgrounder.pdf)를 다운로드합니다.

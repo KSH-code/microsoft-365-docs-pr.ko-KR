@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: 랜 섬 웨어, 피싱 및 악의적 첨부 파일을 포함 하 여 사이버 위협 으로부터 비즈니스 전자 메일 및 데이터를 보호 합니다.
-ms.openlocfilehash: a5d81eed4d3d6edae48cd82109f83320953782a3
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: abc75a7c7a8b771e5b15fb3c4f0aeb2125be4684
+ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046355"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44155424"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>집에서 작업을 지원 하기 위한 보안 팀을 위한 상위 12 개 작업
 
@@ -217,7 +217,7 @@ Microsoft 365에서는 조직에서 사용자에 게 알릴 수 있도록 다음
     
 또한 사용자는 다음 문서에서 권장 하는 작업을 수행 하 여 개인 전자 메일 계정을 보호 하는 것이 좋습니다.
   
-- [Outlook.com 전자 메일 계정 보호](https://support.office.com/article/a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba.aspx)
+- [Outlook.com 전자 메일 계정 보호](https://support.microsoft.com/en-us/office/help-protect-your-outlook-com-email-account-a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
     
 - [2 단계 인증을 사용 하 여 Gmail 계정 보호](https://go.microsoft.com/fwlink/?linkid=2015688&amp;clcid=0x409)
 

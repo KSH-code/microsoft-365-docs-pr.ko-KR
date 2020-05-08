@@ -20,31 +20,38 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: '랜 섬 웨어, 피싱 및 악의적 첨부 파일을 포함 하 여 사이버 위협 으로부터 비즈니스 전자 메일 및 데이터를 보호 합니다. '
-ms.openlocfilehash: 2f70bf8d7b3a98416eca288aaa68f12fde1ba211
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 119329289a9c19c2256cf112e82289b55cf9ce07
+ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627695"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44155436"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Microsoft 365 비즈니스 계획을 보호 하는 10 가지 주요 방법
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 Microsoft의 비즈니스 계획 중 하나를 사용 하는 중소 규모의 조직이 나 조직의 유형이 사이버 범죄자와 해커의 대상이 되는 경우이 문서의 지침을 사용 하 여 조직의 보안을 강화 합니다. 이 지침은 조직에서 Harvard Kennedy School [Cybersecurity 캠페인 안내서](https://go.microsoft.com/fwlink/?linkid=2015598&amp;clcid=0x409)에 설명 된 목표를 달성 하는 데 도움이 됩니다.
   
 서비스 요금제에 해당 하는 다음 표에 나열 된 작업을 완료 하는 것이 좋습니다. 
   
-||**작업**|**Microsoft 365 비즈니스 표준**|**Microsoft 365 Business Premium**|
+||**작업**|**Microsoft 365 Business Standard**|**Microsoft 365 Business Premium**|
 |:-----|:-----|:-----|:-----|
-|1   <br/> |[다단계 인증 설정](secure-your-business-data.md#setup) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|2   <br/> |[사용자 교육](secure-your-business-data.md#train) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|3   <br/> |[전용 관리자 계정 사용](secure-your-business-data.md#admin) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|개  <br/> |[다단계 인증 설정](secure-your-business-data.md#setup) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|2  <br/> |[사용자 교육](secure-your-business-data.md#train) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|3(sp3)  <br/> |[전용 관리자 계정 사용](secure-your-business-data.md#admin) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |4   <br/> |[메일에서 맬웨어에 대 한 보호 수준 올리기](secure-your-business-data.md#malware) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |5   <br/> |[랜섬웨어로부터 보호](secure-your-business-data.md#ransomware) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |6   <br/> |[전자 메일에 대 한 자동 전달 중지](secure-your-business-data.md#forwarding) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |7   <br/> |[Office 메시지 암호화 사용](secure-your-business-data.md#encryption) <br/> ||![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |8   <br/> |[피싱 공격 으로부터 전자 메일을 보호 합니다.](secure-your-business-data.md#phishing) <br/> ||![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |9   <br/> |[ATP 안전한 첨부 파일을 사용 하 여 악의 있는 첨부 파일과 파일을 보호 합니다.](secure-your-business-data.md#atp) <br/> ||![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|10   <br/> |[ATP 안전한 링크를 통한 피싱 공격 으로부터 보호](secure-your-business-data.md#phishingatp) <br/> ||![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|10    <br/> |[ATP 안전한 링크를 통한 피싱 공격 으로부터 보호](secure-your-business-data.md#phishingatp) <br/> ||![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
    
 시작 하기 전에 Microsoft 365 보안 센터에서 [microsoft 365 보안 점수](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) 를 확인 하세요. 중앙 집중식 대시보드에서 Microsoft 365 id, 데이터, 앱, 장치 및 인프라에 대 한 보안을 모니터링 하 고 향상 시킬 수 있습니다. 권장 되는 보안 기능을 구성 하 고, 보고서 보기와 같은 보안 관련 작업을 수행 하거나, 타사 응용 프로그램 또는 소프트웨어를 사용 하 여 권장 주소를 지정 하기 위한 사항이 제공 됩니다. 보다 광범위 한 Microsoft 제품 및 서비스 집합에 대 한 추가 통찰력과 가시성을 통해 조직의 보안 상태에 대 한 보고를 받을 수 있습니다.
   
@@ -90,7 +97,7 @@ Harvard Kennedy School [Cybersecurity 캠페인 안내서](https://go.microsoft.
     
 또한 사용자는 다음 문서에서 권장 하는 작업을 수행 하 여 개인 전자 메일 계정을 보호 하는 것이 좋습니다.
   
-- [Outlook.com 전자 메일 계정 보호](https://support.office.com/article/a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba.aspx)
+- [Outlook.com 전자 메일 계정 보호](https://support.microsoft.com/en-us/office/help-protect-your-outlook-com-email-account-a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
     
 - [2 단계 인증을 사용 하 여 Gmail 계정 보호](https://go.microsoft.com/fwlink/?linkid=2015688&amp;clcid=0x409)
     
@@ -222,7 +229,7 @@ Outlook.com에서 전자 메일에서 **보호** 를 선택 합니다. 기본 �
   
 받는 사람이 Gmail 또는 Yahoo와 같은 다른 전자 메일 클라이언트나 전자 메일 계정을 사용 하는 경우에는 로그인 하 여 전자 메일 메시지를 읽거나 일회용 암호를 요청 하 여 웹 브라우저에서 메시지를 볼 수 있는 링크가 표시 됩니다. 사용자가 전자 메일을 받지 못하는 경우 스팸 또는 정크 폴더를 확인 하도록 합니다. 
   
-자세한 내용은 [Outlook FOR PC에서 암호화 된 메시지 보내기, 보기 및 회신을](https://support.office.com/article/eaa43495-9bbb-4fca-922a-df90dee51980.aspx)참조 하세요.
+자세한 내용은 [Outlook FOR PC에서 암호화 된 메시지 보내기, 보기 및 회신을](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980)참조 하세요.
   
 ## <a name="8-protect-your-email-from-phishing-attacks"></a>8. 피싱 공격 으로부터 전자 메일을 보호 합니다.
 <a name="phishing"> </a>

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Microsoft 365의 고급 감사는 조직에서 법의학 및 규정 준수 조사를 수행하는 데 도움이 되는 새로운 감사 기능을 제공합니다.
-ms.openlocfilehash: b1a79598fc49d710c54a23dc9ce92c9f2b7f5805
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6fb42e9df35fe025c5c5f292238217aebb4098c7
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632283"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141046"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Microsoft 365의 고급 감사
 
@@ -93,7 +93,7 @@ Office 365 관리 활동 API를 통해 감사 로그에 액세스하는 조직�
 
 **E5 구독과 E5 라이선스가 할당된 사용자가 있지만 조직에서 고급 감사를 볼 수 없는 이유는 무엇인가요?**
 
-적합한 라이선스가 있더라도 고급 감사 기능(예: 감사 로그 보존 정책을 만드는 기능 및 MailItemsAccessed 감사 레코드 로깅)을 조직에서 사용할 수 없는 경우가 있을 수 있습니다. 이 문제가 발생하는 경우에는 고급 감사 패키지가 아직 조직에 배포되지 않았기 때문입니다. 이것은 다음 몇 주 안에 영향을 받는 조직에서 해결해야 하는 일시적인 라이선스 백필 문제입니다. 이 문제를 완화하려면 각 E5 사용자에 대해 다음 단계를 수행하세요.
+적합한 라이선스가 있더라도 고급 감사 기능(예: 감사 로그 보존 정책을 만드는 기능 및 MailItemsAccessed 감사 레코드 로깅)을 조직에서 사용할 수 없는 경우가 있을 수 있습니다. 이 문제가 발생하는 경우에는 고급 감사 패키지가 아직 조직에 배포되지 않았기 때문입니다. 이것은 영향을 받는 조직에서 곧 해결해야 하는 일시적인 라이선스 백필 문제입니다. 이 문제를 완화하려면 각 E5 사용자에 대해 다음 단계를 수행하세요.
 
 1. Microsoft 365 관리 센터에서 **사용자 > 활성 사용자**로 이동하여 사용자를 선택합니다.
 
@@ -106,6 +106,8 @@ Office 365 관리 활동 API를 통해 감사 로그에 액세스하는 조직�
    b. **Microsoft 365 고급 감사** 확인란이 선택되어 있는 경우 선택을 취소하고 **변경 내용을 저장**을 클릭합니다. 4단계를 참조하세요.
 
 4. 3단계에서 확인란의 선택을 취소한 경우 60분 정도 기다린 다음 3a 단계를 반복하여 Microsoft 365 고급 감사 앱을 설정합니다.
+
+그룹 기반 라이선스를 사용하여 사용자 그룹에 라이선스를 할당하는 조직의 경우 그룹의 Microsoft 365 고급 감사에 대한 라이선스 할당을 해제해야 합니다. 변경 내용을 저장한 후에는 그룹에 대해 Microsoft 365 고급 감사를 해제했는지 확인합니다. 그런 다음, 그룹에 대한 라이선스 할당을 다시 설정합니다. 그룹 기반 라이선싱에 대한 자세한 내용은 [Azure Active Directory에서 그룹 구성원으로 사용자에게 라이선스 할당](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)을 참조하세요.
 
 **조직이 감사 기록을 1년간 보유하는 비공개 미리 보기에 있는 경우 어떻게 되나요?**
 

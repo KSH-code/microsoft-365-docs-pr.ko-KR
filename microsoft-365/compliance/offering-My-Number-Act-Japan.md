@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7b8e7e7f15ac4a0f257e9c4c86bd14659cc609b6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d270e43bb336a6cdf110507ba51281e135f99b9a
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632933"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066082"
 ---
 # <a name="my-number-act-japan"></a>마이넘버 법 (일본)
 
@@ -33,11 +33,11 @@ ms.locfileid: "43632933"
 
 일본 고객이 개인 데이터의 개인 정보를 보호할 수 있도록 Microsoft는 계약상 [Microsoft 온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)을 통해 범위 내 비즈니스 클라우드 서비스가 고객이 마이넘버 법을 준수하는 데 도움이 되는 기술 및 조직 보안 보호 수단을 구현했습니다. 이는 일본 고객이 일본 입법 요구 사항을 준수할 수 있다는 확신을 가지고 Microsoft 비즈니스 클라우드 서비스를 배포 할 수 있음을 의미합니다.
 
-개인 정보 보호위원회 (PPC)가 발행한 [Q\&A](https://www.ppc.go.jp/legal/policy/faq/) (일본어)는 개인 정보의 적절한 취급 및 보호에 대한 지침을 제시합니다. 또한 제 3자가 아래의 경우에 모두 해당하면 개인 데이터를 취급하는 것으로 해석되지 않습니다. 계약서에 (a) 개인 데이터를 취급하지 않는다, 또한 (b) 적절한 액세스 제어 시스템을 설정한다고 규정하는 경우입니다. 마이넘버 법은 데이터가 제3자에게 전송될 때의 의무를 명시하고 있지만, [PPC QA의 ](https://www.ppc.go.jp/legal/policy/faq/)Q3-12\&(일본어) 섹션은 제3자가 이를 "취급"하지 않는 경우 즉, 개인 정보에 접근할 수 없는 경우에는 적용되지 않는다고 설명합니다.
+개인 정보 보호위원회 (PPC)가 발행한 [Q\&A](https://www.ppc.go.jp/legal/policy/faq/) (일본어)는 개인 정보의 적절한 취급 및 보호에 대한 지침을 제시합니다. 또한 제 3자가 아래의 경우에 모두 해당하면 개인 데이터를 취급하는 것으로 해석되지 않습니다. 계약서에 (a) 개인 데이터를 취급하지 않는다, 또한 (b) 적절한 액세스 제어 시스템을 설정한다고 규정하는 경우입니다. 마이넘버 법은 데이터가 제3자에게 전송될 때의 의무를 명시하고 있지만, [PPC QA의 ](https://www.ppc.go.jp/legal/policy/faq/)Q3-12\&(일본어) 섹션은 제3자가 이를 '취급'하지 않는 경우 즉, 개인 정보에 접근할 수 없는 경우에는 적용되지 않는다고 설명합니다.
 
 Microsoft 비즈니스 클라우드 서비스는 [Microsoft 온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)의 해당 요구 사항을 해결하며, 마이넘버 데이터가 포함된 고객 데이터에 대한 소유권 및 책임은 Microsoft가 아닌 고객에게 있습니다. 따라서 고객은 고객 데이터에 포함된 마이넘버 데이터를 보호하기 위한 적절한 컨트롤 수단을 갖추어야 합니다.
 
-Microsoft는 클라우드 서비스에 저장된 마이넘버 데이터에 정식으로 액세스할 수 없으므로 마이넘버 데이터 처리를 위한 "아웃소싱" 계약이 필요하지 않습니다. 고객이 Microsoft가 마이넘버 데이터가 포함된 고객 데이터에 액세스하기를 원하는 경우 고객은 요청하기 전에 모든 경우에 대해 Microsoft와 추가 아웃소싱 계약을 작성해야합니다.
+Microsoft는 클라우드 서비스에 저장된 마이넘버 데이터에 정식으로 액세스할 수 없으므로 마이넘버 데이터 처리를 위한 '아웃소싱' 계약이 필요하지 않습니다. 고객이 Microsoft가 마이넘버 데이터가 포함된 고객 데이터에 액세스하기를 원하는 경우 고객은 요청하기 전에 모든 경우에 대해 Microsoft와 추가 아웃소싱 계약을 작성해야합니다.
 
 또한 Microsoft는 광고나 유사한 상업적 목적이 아닌 고객에게 서비스를 제공하기 위해서만 고객 데이터를 사용하겠다고 약속하며 Microsoft는 강력한 액세스 컨트롤 시스템을 갖추고 있다고 명시합니다.
 
@@ -73,11 +73,7 @@ Microsoft는 클라우드 서비스에 저장된 마이넘버 데이터에 정�
 ## <a name="resources"></a>리소스
 
 - [Azure 규정 준수와 일본 보안 및 개인 정보 요구 사항](https://gallery.technet.microsoft.com/Azure-Compliance-and-the-53409748)
-- [Microsoft 개인 정보](https://privacy.microsoft.com/en-US/)
+- [Microsoft 개인 정보](https://privacy.microsoft.com/ko-KR/)
 - [Microsoft 개인 정보 취급 방침](https://privacy.microsoft.com/privacystatement)
 - [클라우드에서의 개인 정보 보호 고려 사항](https://download.microsoft.com/download/0/9/D/09DE47F6-F9E5-4C14-B9E8-E8119A130ACC/Privacy_considerations_in_the_cloud.pdf)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/0/E/C/0EC14DDA-6041-4841-A180-199870B136C4/MyNumberAct-Compliance.pdf)를 다운로드합니다.

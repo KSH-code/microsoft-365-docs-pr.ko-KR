@@ -103,8 +103,6 @@
           href: migration-microsoft-365-enterprise-workload.md
         - name: 원격 작업자 지원
           href: empower-people-to-work-remotely.md
-        - name: 높은 규제 대상 데이터에 대한 Teams
-          href: secure-teams-highly-regulated-data-scenario.md
         - name: 높은 규제 대상 데이터를 위한 SharePoint 사이트
           href: teams-sharepoint-online-sites-highly-regulated-data.md
     - name: 테스트 랩 가이드

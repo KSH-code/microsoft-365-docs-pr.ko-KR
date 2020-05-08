@@ -14,15 +14,15 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
-ms.custom:
 - M365solutions
+ms.custom: ''
 description: 직원이 언제 어디서나 원격으로 작업할 수 있는 보안 및 인프라를 구성하세요.
-ms.openlocfilehash: 5f22930a4c8d207e32c5379733ec77c637f3f581
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 5c2de3fbb174bdf1dccc8ef8371dca1ae1bfddf0
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44003114"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159398"
 ---
 # <a name="configure-a-team-with-security-isolation-in-a-devtest-environment"></a>개발/테스트 환경에서 보안 격리를 사용하여 팀 구성
 

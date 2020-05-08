@@ -17,18 +17,18 @@ ms.collection:
 - M365-security-compliance
 description: AD RMS (Active Directory Rights Management Service) 서버를 사용 하 여 Exchange Online에서 IRM (정보 권한 관리)을 구성 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 510dc7ea628a46bc5bedfc04ba3b197407d5d67d
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 92bf92427ed9a0ba55a0f059859d59c11023ea33
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033698"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166119"
 ---
 # <a name="configure-irm-to-use-an-on-premises-ad-rms-server"></a>온-프레미스 AD RMS 서버를 사용하도록 IRM 구성
   
 온-프레미스 배포와 함께 사용 하는 경우 Exchange Online의 IRM (정보 권한 관리)은 Windows Server 2008 이상에서 정보 보호 기술인 AD RMS (Active Directory Rights Management Services)를 사용 합니다. AD RMS 권한 정책 템플릿을 전자 메일 메시지에 적용하여 전자 메일에 IRM 보호를 적용합니다. 권한은 메시지 자체에 첨부 되므로 보호가 온라인 및 오프 라인 상태이 고 조직의 방화벽 내부 및 외부에서 보호 됩니다.
   
-이 항목에서는 AD RMS 서버를 사용하도록 IRM을 구성하는 방법을 보여줍니다. Azure Active Directory 및 Azure 권한 관리에서 Office 365 메시지 암호화에 대 한 새로운 기능을 사용 하는 방법에 대 한 자세한 내용은 [office 365 메시지 암호화 FAQ](https://support.office.com/article/0432dce9-d9b6-4e73-8a13-4a932eb0081e)를 참조 하세요.
+이 항목에서는 AD RMS 서버를 사용하도록 IRM을 구성하는 방법을 보여줍니다. Azure Active Directory 및 Azure 권한 관리에서 Office 365 메시지 암호화에 대 한 새로운 기능을 사용 하는 방법에 대 한 자세한 내용은 [office 365 메시지 암호화 FAQ](https://docs.microsoft.com/microsoft-365/compliance/ome-faq)를 참조 하세요.
   
 Exchange Online의 IRM에 대한 자세한 내용은 [Information Rights Management in Exchange Online](information-rights-management-in-exchange-online.md)를 참조하십시오.
   

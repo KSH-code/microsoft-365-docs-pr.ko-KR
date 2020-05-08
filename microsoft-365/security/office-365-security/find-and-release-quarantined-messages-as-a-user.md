@@ -16,13 +16,15 @@ search.appverid:
 ms.assetid: efff08ec-68ff-4099-89b7-266e3c4817be
 ms.collection:
 - M365-security-compliance
-description: Microsoft 365 사용자는 격리된 메시지(사용자가 받는 사람인 메시지, 스팸 또는 대량 전자 메일로 메시지를 격리하는 스팸 필터링)를 보고, 해제하고, 삭제할 수 있습니다. 보안 및 준수 센터에서 격리된 메시지를 보고 관리할 수 있습니다.
-ms.openlocfilehash: b8ab5835a29ccf0c58d27f56fe84d29745419b1a
-ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
+ms.custom:
+- seo-marvel-apr2020
+description: 이 문서에서는 Microsoft 365의 보안 및 준수 센터에서 격리된 메시지를 확인하고 관리하는 방법을 알아봅니다.
+ms.openlocfilehash: 177f60f1fccc764d74ec0374249a62c602cb84aa
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43809015"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036515"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user"></a>사용자로 격리된 메시지 찾기 및 릴리스
 

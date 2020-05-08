@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c792653cf8434a14bc89776a4ec870bc0d9a67ca
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 778338220cf7897f8a557fb1e335062d3effeac5
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637982"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066421"
 ---
 # <a name="european-union-model-clauses"></a>유럽 연합 모델 조항
 
@@ -38,10 +38,6 @@ Microsoft는 처리자로의 개인 데이터 전송에 대해 모델 조항의 
 Microsoft는 검토 및 승인을 받기 위해 EU의 29 조항 특별 조사 위원회에 표준 계약 조항을 제출했습니다. 29 조항 특별 조사 위원회에는 유럽 데이터 보호 감독 기관, 유럽 위원회 및 각각 28 EU 데이터 보호 감독 기구(DPA)의 대표가 포함되어 있습니다.
 
 이 그룹은 Microsoft 계약의 조항 구현이 엄격한 요구 사항을 만족하는 것을 확인했습니다. (Microsoft는 그룹의 보증 승인서를 받은 첫 번째 클라우드 서비스 공급자였습니다.) 승인은 모델 조항 2010/87/EU에 반영된 계약을 다루었지만 데이터 전송 및 데이터 가져오기에서 구현되는 보안 조치를 설명하는 부록에서는 다루지 않았습니다. 부록은 DPA에 의해 별도로 분석될 수 있습니다.
-
-Microsoft 클라우드에서 유럽 연합 모델 조항의 이점에 대해 알아봅니다.
-
-[유럽 연합 모델 조항 배경 설명 다운로드](https://aka.ms/eu-model-backgrounder)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
@@ -75,9 +71,9 @@ Microsoft는 EU 표준을 지속적으로 평가하고 필요 시 서비스를 �
 
 규정 준수는 계약상 책무입니다. Microsoft 표준 계약 조항은 [온라인 서비스 약관](https://aka.ms/Online-Services-Terms)에서 모든 클라우드 고객에게 제공됩니다. 다른 서비스에 대한 자세한 내용은 Microsoft와의 기존 계약을 참조하세요.
 
-**"하위 처리자"란 무엇인가요?**
+**'하위 처리자'란 무엇인가요?**
 
-“하위 처리자”는 데이터 제어자의 지시, EU 모델 조항의 조건 및 하도급 계약에 따라 개인 데이터를 처리하는 사람입니다. 특히 ISV(독립 소프트웨어 공급 업체)는 때때로 자신의 데이터 처리자입니다. 그러한 경우에는 Microsoft가 하위 처리자입니다.
+하위 처리자는 데이터 제어자의 지시, EU 모델 조항의 조건 및 하도급 계약에 따라 개인 데이터를 처리하는 사람입니다. 특히 ISV(독립 소프트웨어 공급 업체)는 때때로 자신의 데이터 처리자입니다. 그러한 경우에는 Microsoft가 하위 처리자입니다.
 
 **우리 회사의 규정 준수 활동은 어디서부터 시작해야 하나요?**
 
@@ -94,7 +90,3 @@ Microsoft는 EU 표준을 지속적으로 평가하고 필요 시 서비스를 �
 - [Microsoft 공통 컨트롤 허브 규정 준수 프레임 워크](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/E/5/F/E5FA8D11-07A4-4496-82B3-0BCFABAA2FB7/EU_Model_Clauses_Compliance_Backgrounder.pdf)를 다운로드합니다.

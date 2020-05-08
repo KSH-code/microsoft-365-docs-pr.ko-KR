@@ -14,14 +14,21 @@ ms.collection:
 search.appverid:
 - MET150
 description: 관리자는 조직의 사용자가 만든 셀프 서비스 구매를 관리 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 7074a829bed3e65a160a9a33afb4f2b130f6c8d1
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 991dc87c40f41a6cbd2f1c08d4bc72bbb34d28f1
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046183"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141153"
 ---
 # <a name="manage-self-service-purchases-admin"></a>셀프 서비스 구매(관리자) 관리
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 관리자는 조직의 사용자가 만든 셀프 서비스 구매를 볼 수 있습니다. 제품, 구매자 이름, 구독 구입, 만료 날짜, 구입 가격 및 할당 된 사용자를 각 셀프 서비스 구매에 대해 확인할 수 있습니다. 조직에 필요한 경우 PowerShell을 통해 제품별로 셀프 서비스 구매를 해제할 수 있습니다. 셀프 서비스 구매 나 중앙을 통해 구매한 제품에 대해 동일한 데이터 관리 및 액세스 정책을 사용 합니다.
 

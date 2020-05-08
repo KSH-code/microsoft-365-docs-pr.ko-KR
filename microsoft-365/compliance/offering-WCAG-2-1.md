@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f1abc4d885a1d9a1d915bdf5492e3492dc4318a6
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 35f565eb9adb2283238a753fe5e46c208387afb0
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42363024"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066281"
 ---
 # <a name="web-content-accessibility-guidelines"></a>웹 콘텐츠 접근성 지침
 
@@ -59,7 +59,3 @@ Microsoft는 전체 제품 또는 서비스를 반영하는 WCAG 보고서를 �
 - [Office 365 접근성 센터](https://go.microsoft.com/fwlink/p/?linkid=2051801): 장애가 있는 사용자를 위한 Office 365 리소스
 - [Enterprise Disability Answer Desk](https://go.microsoft.com/fwlink/p/?linkid=2050890): 제품 및 서비스 또는 규정 준수에 대한 접근성과 관련된 질문이 있는 엔터프라이즈 고객을 위한 전용 지원
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/3/E/1/3E10CC43-036D-4DB5-ACBA-8665A752C8F7/Accessibility-Compliance.pdf)를 다운로드합니다.

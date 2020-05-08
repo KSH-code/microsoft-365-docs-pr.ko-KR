@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 구독 체험 또는 구입
+title: Microsoft 365 구독 체험 또는 구매
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -19,14 +19,21 @@ search.appverid:
 - MOE150
 ms.assetid: 9e8ceac6-8d20-4d28-837a-d766ae99cbd1
 description: 무료 평가판을 얻는 방법 또는 Microsoft 365 용 구독을 구입 하는 방법을 알아봅니다.
-ms.openlocfilehash: 255cd1779f3fb29a619110160faefdd3d5369eca
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 19529192e2fa48ac081a84e9ad54669c3ef16791
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707538"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141057"
 ---
-# <a name="try-or-buy-a-microsoft-365-subscription"></a>Microsoft 365 구독 체험 또는 구입
+# <a name="try-or-buy-a-microsoft-365-subscription"></a>Microsoft 365 구독 체험 또는 구매
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 Microsoft 365는 고급 보안 및 장치 관리를 포함 하 여 Office 365 및 Windows 10을 결합 한 완벽 한 솔루션입니다. 이미 구독을 보유 하 고 있거나 Microsoft 365 구독을 구입 하려는 경우 관리 센터를 통해 수행 하는 것이 가장 좋은 방법입니다. 다음 Microsoft 365 구독을 지금 시도 하거나 구매할 수 있도록 관리 센터에서 사용할 수 있습니다.
   
@@ -38,7 +45,7 @@ Microsoft 365는 고급 보안 및 장치 관리를 포함 하 여 Office 365 �
 
 관리 센터를 통해 구독을 추가 하는 경우 새 구독은 기존 구독과 동일한 조직 (도메인 네임 스페이스)에 연결 됩니다. 이렇게 하면 구독 간에 조직의 사용자를 보다 쉽게 이동 하거나 필요한 추가 구독에 대 한 라이선스를 할당할 수 있습니다.
   
-## <a name="try-or-buy-a-microsoft-365-subscription"></a>Microsoft 365 구독 체험 또는 구입
+## <a name="try-or-buy-a-microsoft-365-subscription"></a>Microsoft 365 구독 체험 또는 구매
 
 ::: moniker range="o365-worldwide"
 

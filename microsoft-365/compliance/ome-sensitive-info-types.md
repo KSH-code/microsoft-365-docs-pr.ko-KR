@@ -18,12 +18,12 @@ ms.collection:
 - Strat_O365_Enterprise
 description: Office 365 메시지 암호화를 사용 하 여 조직에 대 한 중요 한 정보 유형 정책을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a6baf20d755ed30ce962d7cc6b03f6c9734e4a4
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 7ba94923c1f8c6ade6b7bf494636c562b4cc4102
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44031415"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165959"
 ---
 # <a name="create-a-sensitive-information-type-policy-for-your-organization-using-message-encryption"></a>메시지 암호화를 사용 하 여 조직에 대 한 중요 한 정보 유형 정책 만들기
 
@@ -64,7 +64,7 @@ Microsoft에서 메시지를 암호화 하면 받는 사람은 암호화 된 전
 
 해당 하는 최종 사용자 설명서 및 교육 자료를 업데이트 하 여 조직의 사용자가이 변경 내용을 준비할 수 있습니다. 다음 Office 365 메시지 암호화 리소스를 사용자와 적절 하 게 공유 합니다.
 
-- [PC 용 Outlook에서 암호화 된 메시지 보내기, 확인 및 회신](https://support.office.com/article/eaa43495-9bbb-4fca-922a-df90dee51980)
+- [PC 용 Outlook에서 암호화 된 메시지 보내기, 확인 및 회신](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980)
 - [Microsoft 365 Essentials Video: Office 메시지 암호화](https://youtu.be/CQR0cG_iEUc)
 
 ## <a name="view-these-changes-in-the-audit-log"></a>감사 로그에서 이러한 변경 내용을 확인 합니다.

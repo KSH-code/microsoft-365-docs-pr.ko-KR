@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Windows AutoPilot를 사용 하 여 비즈니스에 대 한 새 Windows 10 장치를 설정 하 여 직원 들이 사용할 수 있도록 준비 하는 방법을 알아봅니다.
-ms.openlocfilehash: 98a2bfc721ce86c81ebd89e8f41603e619b31546
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: de14012ebf9e7cdd22e41505f316ab665773c670
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627497"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165884"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가
 
@@ -69,7 +69,7 @@ Windows AutoPilot를 사용 하 여 비즈니스에 대 한 **새** windows 10 �
     
     하드웨어 공급 업체에서이 정보를 가져오거나 [Get-windowsautopilotinfo PowerShell 스크립트](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) 를 사용 하 여 CSV 파일을 생성할 수 있습니다. 
     
-    자세한 내용은 [장치 목록 CSV 파일](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e)을 참조하세요. **장치 목록이 포함된 .csv 파일 업로드** 페이지에서 샘플 파일을 다운로드할 수도 있습니다. 
+    자세한 내용은 [장치 목록 CSV 파일](https://docs.microsoft.com/microsoft-365/admin/misc/device-list)을 참조하세요. **장치 목록이 포함된 .csv 파일 업로드** 페이지에서 샘플 파일을 다운로드할 수도 있습니다. 
     
 4. **프로필 할당** 페이지에서 기존 프로필을 선택 하거나 새로 만들 수 있습니다. 아직 없으면 만들 것인지 묻는 메시지가 표시 됩니다. 
     

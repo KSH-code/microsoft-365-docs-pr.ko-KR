@@ -25,14 +25,21 @@ search.appverid:
 - GEA150
 ms.assetid: 36081d8d-b3fa-4948-8c34-e217bba825e1
 description: Microsoft 365 for business 구독에 대 한 라이선스를 추가 및 제거 하는 방법을 알아봅니다.
-ms.openlocfilehash: 57768a7e93b19c14c5428508268c2c1e37d700f6
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: f8ae177052be325673af96d9535f25dfcdc93180
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045227"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141236"
 ---
 # <a name="manage-subscription-licenses"></a>구독 라이선스 관리
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 이러한 단계를 사용 하 여 구독에서 라이선스를 추가 하거나 제거할 수 있습니다.
 

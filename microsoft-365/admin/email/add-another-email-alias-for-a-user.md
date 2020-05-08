@@ -22,14 +22,21 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Microsoft 365 for business 계정에 연결 된 전자 메일 주소를 두 개 이상 사용할 수 있는 방법을 알아봅니다. '
-ms.openlocfilehash: efd0dbf5ae072c803b52d94dd41f16db9bb0413a
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 603b2f42d603ae5172c66b6f78bc55f8d44c81f5
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048810"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140515"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>사용자의 다른 전자 메일 별칭 추가
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
   
 이 문서는 비즈니스 구독을 보유 하 고 있는 Microsoft 365 관리자를 위한 것입니다. 가정용 사용자용이 아닙니다.
   

@@ -1,5 +1,7 @@
 ---
 title: 청구 프로필 관리
+f1.keywords:
+- NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
@@ -16,14 +18,22 @@ search.appverid:
 - MET150
 description: 청구 프로필에서 송장을 지 원하는 방법을 알아봅니다.
 keywords: 청구 프로필, 송장, 요금, 관리 비용
-ms.openlocfilehash: 3dbdbb57b46b915891640483bde56ebc8ad1cff6
-ms.sourcegitcommit: 95a07b328166f637a481c8b5c53669eaf8ff0db8
+ms.openlocfilehash: f93ca5af11ba416fecd13fcceffe75055a776553
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39837392"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140893"
 ---
 # <a name="manage-billing-profiles"></a>청구 프로필 관리
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
+
 Microsoft의 제품 및 서비스를 구입한 상용 고객의 경우 대금 청구 프로필을 사용 하 여 송장에 포함 되는 항목을 사용자 지정 하 고 청구서 비용을 지불 하는 방법을 확인할 수 있습니다.
 
 대금 청구 프로필에는 다음 정보가 포함 됩니다.
@@ -51,7 +61,7 @@ Microsoft의 제품 및 서비스를 구입한 상용 고객의 경우 대금 �
 
 ## <a name="view-billing-profiles"></a>청구 프로필 보기
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">금액 & 지불</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">청구서 및 결제</a> 페이지로 이동하십시오.
 
 2. **대금 청구**프로필을 선택한 다음 목록에서 대금 청구 프로필을 선택 합니다.
 
@@ -66,7 +76,7 @@ Microsoft의 제품 및 서비스를 구입한 상용 고객의 경우 대금 �
     > [!NOTE]
     > Azure 크레딧이 없는 경우 **azure 크레딧 잔액** 또는 **azure 제작진** 탭이 표시 되지 않습니다.
 
-## <a name="need-help-contact-support"></a>도움이 필요 하세요? 고객 지원에 문의하세요.
+## <a name="need-help-contact-support"></a>도움이 필요하신가요? 고객 지원에 문의하세요.
 
 Azure 청구에 대 한 질문이 있거나 도움이 필요한 경우 <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">azure 지원 서비스를 통해 지원 요청을 만듭니다</a>.
 

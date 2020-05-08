@@ -20,12 +20,12 @@ search.appverid:
 ms.custom: seo-marvel-apr2020
 ms.assetid: ''
 description: 유럽 연합 일반 개인정보보호법(GDPR)에 맞도록 Office 365 중요한 정보 유형을 수정하거나 새로 만드는 방법을 알아봅니다.
-ms.openlocfilehash: ffe9792eabc8607506f2ebabd75ae24b70214449
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 3eca04fcf949a19615dc574c90d8dbeea0894a23
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035740"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166069"
 ---
 # <a name="customize-or-create-a-new-sensitive-information-type"></a>중요한 정보 유형 사용자 지정 또는 새로 만들기
 
@@ -73,7 +73,7 @@ ms.locfileid: "44035740"
 
 7.  새 중요한 정보 유형을 업로드합니다.
 
-8.  중요한 정보를 식별하도록 콘텐츠를 다시 크롤링합니다. [사이트 크롤링 및 재인덱싱 수동 요청](https://support.office.com/article/Manually-request-crawling-and-re-indexing-of-a-site-a-library-or-a-list-9AFA977D-39DE-4321-B4CA-8C7C7E6D264E)을 참조하세요.
+8.  중요한 정보를 식별하도록 콘텐츠를 다시 크롤링합니다. [사이트 크롤링 및 재인덱싱 수동 요청](https://docs.microsoft.com/sharepoint/crawl-site-content)을 참조하세요.
 
 ## <a name="example-modify-the-eu-debit-card-number-sensitive-information-type"></a>예제: '유럽 직불 카드 번호' 중요한 정보 유형 수정하기
 
@@ -147,11 +147,11 @@ KQL을 사용하여 쿼리를 작성하고 최적화하려면 다음 리소스�
 
 - [콘텐츠 검색 실행](content-search.md)
 
-콘텐츠 검색은 KQL 쿼리 및 중요한 정보 유형을 개발하는 데 도움이 되는 또 다른 리소스인 키워드를 제공합니다. 키워드 목록은 왜 사용할까요? 많은 항목이 각 키워드와 일치하는 방식을 보여 주는 통계를 얻을 수 있습니다. 이러한 통계는 가장 많이(덜) 효과적인 키워드를 빠르게 식별하는 데 도움이 됩니다. 검색 통계에 대한 자세한 내용은 [콘텐츠 검색 결과에 대한 키워드 통계 보기](https://support.office.com/article/View-keyword-statistics-for-Content-Search-results-9701a024-c52e-43f0-b545-9a53478aec04)를 참조하세요.
+콘텐츠 검색은 KQL 쿼리 및 중요한 정보 유형을 개발하는 데 도움이 되는 또 다른 리소스인 키워드를 제공합니다. 키워드 목록은 왜 사용할까요? 많은 항목이 각 키워드와 일치하는 방식을 보여 주는 통계를 얻을 수 있습니다. 이러한 통계는 가장 많이(덜) 효과적인 키워드를 빠르게 식별하는 데 도움이 됩니다. 검색 통계에 대한 자세한 내용은 [콘텐츠 검색 결과에 대한 키워드 통계 보기](https://docs.microsoft.com/microsoft-365/compliance/view-keyword-statistics-for-content-search)를 참조하세요.
 
 각 행의 키워드는 만들어지는 검색 쿼리에서 OR 연산자로 연결됩니다. 행에 키워드 구(괄호 사용)를 사용할 수도 있습니다.
 
-자세한 내용은 [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](https://support.office.com/article/Keyword-queries-and-search-conditions-for-Content-Search-c4639c2e-7223-4302-8e0d-b6e10f1c3be3)을 참조하세요.
+자세한 내용은 [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](https://docs.microsoft.com/microsoft-365/compliance/keyword-queries-and-search-conditions)을 참조하세요.
 
 ### <a name="exampleusing-content-search-to-identify-email-addresses"></a>예제 - 콘텐츠 검색을 사용하여 전자 메일 주소 식별
 

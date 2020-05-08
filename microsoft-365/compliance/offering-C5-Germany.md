@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 837dda3a506a2ba2a743b1aed89a5c004a4fb163
-ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
+ms.openlocfilehash: 48b9e0135198f687430bf195c7dff8a405d15f7e
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42228554"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065873"
 ---
 # <a name="cloud-computing-compliance-controls-catalog-c5"></a>클라우드 컴퓨팅 규정 준수 컨트롤 카탈로그(C5)
 
@@ -67,7 +67,3 @@ Microsoft Cloud Germany는 독일에 물리적으로 기반을 두고 있으며 
 - [준수 보고서: C5-und SOC-Testate Azure 독일](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=df100ae1-baf9-4785-8a6d-864c0bc5c308&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_SOC%20%2F%20SSAE%2016%20Reports)
 - Microsoft Azure Germany용 [IT-Grundschutz 규정 준수 통합 문서](https://gallery.technet.microsoft.com/Azure-Germany-IT-fca4afd7)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/E/F/6/EF619A4D-C17C-4279-8DC4-79C0620676AB/C5Germany-Compliance.pdf)를 다운로드합니다.

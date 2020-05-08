@@ -20,16 +20,23 @@ search.appverid:
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: '앱 시작 관리자에 사용자 지정 타일을 추가 하 여 전자 메일, 문서, 앱, SharePoint 사이트, 외부 사이트 및 기타 리소스에 대 한 빠른 연결을 만듭니다. '
-ms.openlocfilehash: 44a8af104f6f39bd6b095a08f8ad9b2750d86d11
-ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
+ms.openlocfilehash: 2c0a1cbd2f7c605bc03a55787266c7a627f8e329
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44053779"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139724"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>앱 시작 관리자에 사용자 지정 타일 추가
 
-Microsoft 365에서는 앱 시작 관리자를 사용 하 여 전자 메일, 일정, 문서 및 앱을 쉽고 빠르게 가져올 수 있습니다 ([자세한 정보](https://support.microsoft.com/en-us/office/meet-the-microsoft-365-app-launcher-79f12104-6fed-442f-96a0-eb089a3f476a)). Microsoft 365에서 제공 하는 앱과 [SharePoint 스토어](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43.aspx) 또는 [Azure AD](https://msdn.microsoft.com/office/office365/howto/connect-your-app-to-o365-app-launcher)에서 추가한 사용자 지정 앱이 여기에 해당 됩니다.
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
+
+Microsoft 365에서는 앱 시작 관리자를 사용 하 여 전자 메일, 일정, 문서 및 앱을 쉽고 빠르게 가져올 수 있습니다 ([자세한 정보](https://support.office.com/article/79f12104-6fed-442f-96a0-eb089a3f476a.aspx)). Microsoft 365에서 제공 하는 앱과 [SharePoint 스토어](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43.aspx) 또는 [Azure AD](https://msdn.microsoft.com/office/office365/howto/connect-your-app-to-o365-app-launcher)에서 추가한 사용자 지정 앱이 여기에 해당 됩니다.
   
 앱 시작 관리자에 SharePoint 사이트, 외부 사이트, 레거시 앱 등을 가리키는 사용자 지정 타일을 추가할 수 있습니다. 사용자 지정 타일은 앱 시작 관리자의 **모든** 앱 아래에 표시 되지만,이를 **홈** 앱에 고정 하 고 사용자가 동일한 작업을 수행 하도록 지시할 수 있습니다. 이렇게 하면 작업을 수행 하기 위해 관련 사이트, 앱 및 리소스를 쉽게 찾을 수 있습니다. 아래 예제에서는 조직의 SharePoint 인트라넷 사이트에 액세스 하는 데 "Contoso Portal" 이라는 사용자 지정 타일을 사용 합니다. 
   

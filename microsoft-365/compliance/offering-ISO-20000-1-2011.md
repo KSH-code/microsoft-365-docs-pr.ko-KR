@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: da23c71947e668ac3a401d68a35963fbc94a9afc
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5a30f856f418807025eb450537633aec1616c54f
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602275"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065923"
 ---
 # <a name="isoiec-20000-12011-information-technology-service-management"></a>ISO/IEC 20000-1:2011 정보 기술 서비스 관리
 
@@ -79,7 +79,3 @@ Azure와 이 평가 범위에 있는 추가 서비스의 ISO 20000-1:2011 인증
 - [ISO 20000-1:2011 - 서비스 관리](https://www.iso.org/standard/51986.html) (구입 요구 사항)
 - [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/4/E/5/4E58193E-F4D8-4A98-A39E-27F604BD8292/ISO-IEC-20000-Compliance.pdf)를 다운로드합니다.

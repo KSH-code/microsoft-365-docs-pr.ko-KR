@@ -21,14 +21,21 @@ search.appverid:
 - BEA160
 ms.assetid: 75533195-f1f6-4c2c-8ceb-0b5597790d7b
 description: 다른 30 일 동안 평가판 구독을 확장 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a158f737b0606ec8b3ae451d92d312ea2969f176
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: e634c43c1d6399abc3a88438fe410f5a1a19361e
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045767"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141255"
 ---
 # <a name="extend-your-trial"></a>평가판 연장
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 구입 하기 전에 Microsoft 365의 기능을 사용해 볼 시간이 더 필요 한가요? 평가판 구독이 15일 이내에 만료되며 만료일 이전에 평가판 사용 기간이 연장되지 않은 경우 평가판 사용 기간을 30일 더 연장할 수 있습니다. 연장은 한 번만 가능합니다.
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: f7ae1a285e22ad18d292d37aab0bba0b4a441461
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 6ac6d74b027cc533f689c1d67c7fce246c73984f
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857454"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166164"
 ---
 # <a name="automated-investigation-and-response-air-capabilities-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 자동 조사 및 응답 (AIR) 기능
 
@@ -54,7 +54,7 @@ AIR을 사용하면 보안 운영팀에서 보안 경고와 인시던트를 처�
 |장치(끝점이라고도 함)     |[Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)<br/>[Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) |      
 |전자 메일 콘텐츠(사서함의 파일 및 메시지)     |[Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)         |
 
-각 조사는 조사된 각 증거에 대한 판정(*악성*, *의심* 또는 *깨끗*)을 생성합니다. 위협 유형 및 결과 결과에 따라 업데이트 관리 작업은 조직의 보안 운영 팀의 승인을 받을 때 자동으로 수행 됩니다. 보류 중인 동작과 완료된 작업은 [알림 센터](mtp-action-center.md)에 나열되어 있습니다.
+각 조사에서는 조사 되는 각 증거 조각에 대해 verdicts (*악의적*이 고 *의심 스러운*또는 *위협이 되지 않음*)을 생성 합니다. 위협 유형 및 결과 결과에 따라 업데이트 관리 작업은 조직의 보안 운영 팀의 승인을 받을 때 자동으로 수행 됩니다. 보류 중인 동작과 완료된 작업은 [알림 센터](mtp-action-center.md)에 나열되어 있습니다.
 
 > [!TIP]
 > Microsoft Threat Protection의 자동화 된 조사 및 응답 기능을 통해 누락 되었거나 지워지는이 감지 되었다고 생각 되 면 알려주세요. [Microsoft Threat Protection에서 자동 조사 및 응답 (AIR) 기능을 통해 허위 긍정/네거티브를 보고 하는 방법을](mtp-autoir-report-false-positives-negatives.md)참조 하세요.

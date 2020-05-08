@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Office 365에서는 콘텐츠가 rest에서 암호화 되 고 가장 강력한 암호화, 프로토콜 및 기술이 제공 된 상태로 전송 됩니다. Office 365의 암호화에 대 한 개요를 가져옵니다.
-ms.openlocfilehash: fdd1c50c7fde1892b5bab4ad83cddf8e032f4d61
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 16b7786097690af6a2dbb558582a7cf88e605bec
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631683"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166009"
 ---
 # <a name="encryption"></a>암호화
 
@@ -63,7 +63,7 @@ Microsoft 365에서는 Office 365에서 볼륨 암호화, 파일 암호화 및 �
   
 - [Azure 권한 관리란?](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
 
-- [관리 센터에서 권한 관리 활성화](https://support.office.com/article/5b6d3ac7-b1ac-428e-b03e-50e882f85a6e)
+- [관리 센터에서 권한 관리 활성화](https://docs.microsoft.com/office365/enterprise/activate-rms-in-office-365)
 
 - [Set up Information Rights Management (IRM) in SharePoint admin center](set-up-irm-in-sp-admin-center.md)
 
@@ -75,7 +75,7 @@ Microsoft 365에서는 Office 365에서 볼륨 암호화, 파일 암호화 및 �
 |:-----|:-----|
 |조직에 대 한 암호화 설정  <br/> |[Office 365 Enterprise의 암호화 설정](set-up-encryption.md) <br/> |
 |인증서, 기술 및 TLS 암호화 제품군에 대 한 세부 정보 보기 <br/> |[암호화에 대 한 기술 세부 정보](technical-reference-details-about-encryption.md) <br/> |
-|모바일 장치에서 암호화 된 메시지 작업  <br/> |[Android 장치에서 암호화 된 메시지 보기](https://support.office.com/article/83d60f17-2305-407a-a762-7d518401fdeb) <br/> [IPhone 또는 iPad에서 암호화 된 메시지 보기](https://support.office.com/article/4d631321-0d26-4bcc-a483-d294dd0b1caf) <br/> |
+|모바일 장치에서 암호화 된 메시지 작업  <br/> |[Android 장치에서 암호화 된 메시지 보기](https://support.office.com/article/83d60f17-2305-407a-a762-7d518401fdeb) <br/> [IPhone 또는 iPad에서 암호화 된 메시지 보기](https://support.microsoft.com/en-us/office/view-protected-messages-on-your-iphone-or-ipad-4d631321-0d26-4bcc-a483-d294dd0b1caf) <br/> |
 |암호 보호를 사용 하 여 문서 암호화  <br/><br/>  암호 보호는 브라우저에서 지원 되지 않습니다. 데스크톱 버전의 Word, Excel 및 PowerPoint를 암호 보호에 사용 합니다. |[문서, 통합 문서 또는 프레젠테이션에서 보호 기능 추가 또는 제거](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) <br/> **보호 추가** 섹션을 선택한 다음 **암호를 사용 하 여 암호화**를 확인 합니다.  |
 |문서에서 암호화 제거  <br/> |[문서, 통합 문서 또는 프레젠테이션에서 보호 기능 추가 또는 제거](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) <br/> **보호 제거** 섹션을 선택 하 고 **암호 암호화 제거**를 참조 하세요.  |
 

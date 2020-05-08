@@ -28,14 +28,21 @@ search.appverid:
 - GSP150
 ms.assetid: 96ea3533-de64-4b01-839a-c560875a662c
 description: Microsoft 365 구독에서 파일 저장소를 추가 하 고 줄이는 방법에 대해 알아봅니다. 추가 파일 저장소를 사용 하는 경우 SharePoint Online 및 OneDrive에 더 많은 콘텐츠를 저장할 수 있습니다.
-ms.openlocfilehash: a944c272f456fd6f284e1df28c52420e4deb40d4
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 921fd4a232d288971150a3379b138613f009f9dc
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045943"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140969"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>구독에 대 한 저장소 공간 추가
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 SharePoint Online 사이트 모음의 저장소 공간이 부족해지면 해당 플랜에 자격이 있는 경우 구독에 저장소를 추가할 수 있습니다. 사용 가능한 추가 기능 목록에 **Office 365 추가 파일 저장소가** 표시 되지 않으면 계획이 적합 하지 않음을 의미 합니다. 자세한 내용은 [내 요금제를 참조 하세요](#is-my-plan-eligible-for-office-365-extra-file-storage) .
 

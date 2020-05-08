@@ -20,14 +20,21 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 'Microsoft 365 관리 센터에서 조직에 대한 암호 만료 정책을 설정하는 방법을 알아봅니다. '
-ms.openlocfilehash: dd925ee3a5d2aadb07dceed5a0e896e77921e2a1
-ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
+ms.openlocfilehash: b5836fb1a9bf7c1a9820214916f4c6158bc44852
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901013"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139664"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>조직의 암호 만료 정책 설정
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
+
+::: moniker-end
 
 회사, 학교 또는 비영리용 암호 만료 정책을 설정하는 사용자를 위한 문서입니다.  
 

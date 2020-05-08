@@ -23,14 +23,21 @@ search.appverid:
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: 비즈니스용 Microsoft 365에 대 한 대금 청구 주소를 업데이트 하는 방법을 알아봅니다. 또한 대금 청구 알림을 수신 하는 데 사용 되는 전자 메일 주소를 업데이트할 수 있습니다.
 ms.custom: okr_SMB
-ms.openlocfilehash: 7edef65eb1cf45192188316b13acfd87eac5a490
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 09f4ef95c9f8ab3dcce3b3a2511c5e407539020e
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048028"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140926"
 ---
 # <a name="change-your-billing-addresses"></a>대금 청구 주소 변경
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 청구서 또는 송장에는 다음과 같은 세 가지 주소가 포함 됩니다.
   

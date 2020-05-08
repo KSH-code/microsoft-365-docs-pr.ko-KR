@@ -16,14 +16,21 @@ search.appverid:
 - MET150
 description: Microsoft 공인 솔루션 공급자 (파트너)와 협력 하 여 조직 또는 학교에 대 한 제품 및 서비스를 구매 하 고 관리 하는 방법에 대해 알아봅니다.
 keywords: 파트너, 솔루션 공급자
-ms.openlocfilehash: ad51ee23b780de33aaaca6ad651816dba89c7bc9
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3ba5a62caf199bf1e111ecf921df0f21568d5257
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080365"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141210"
 ---
 # <a name="manage-partner-relationships"></a>파트너 관계 관리
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 Microsoft 공인 솔루션 공급자 (파트너)와 협력 하 여 조직 또는 학교에 대 한 제품 및 서비스를 구매 하 고 관리할 수 있습니다. 설정 작업을 수행 하는 데는 몇 가지 단계가 있습니다.
 

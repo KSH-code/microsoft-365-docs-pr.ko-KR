@@ -24,14 +24,21 @@ search.appverid:
 - BEA160
 ms.assetid: 30ba9c83-50d8-4020-90ed-830a5b8c8724
 description: Microsoft 365 관리 센터에서 결제 방법을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b15381ee4eba7c1a91e108743fc326c890ab1820
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: fda0bc13fc8c15644eeabd497cd3783b4f50e9db
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045931"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140950"
 ---
 # <a name="add-update-or-remove-your-payment-methods"></a>결제 방법을 추가, 업데이트 또는 제거
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+
+::: moniker-end
 
 ::: moniker range="o365-worldwide"
 신용, 직불 카드 또는 은행 계좌를 사용 하 여 Microsoft의 제품 및 서비스를 구입할 수 있습니다. **결제 방법** 페이지에서 또는 구매할 때 결제 정보를 입력할 수 있습니다.

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7741d23d83b7f21b61801fd51ed6332f2fb02718
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ea4c13f6561bdfd3b08e81b99d772172f3e90961
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602585"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066119"
 ---
 # <a name="cloud-security-alliance-csa-star-attestation"></a>CSA(Cloud Security Alliance) STAR 증명
 
@@ -80,7 +80,3 @@ CSA 레지스트리에서 Intune도 다루는 Azure의 [CSA STAR 증명](https:/
 - [Cloud Controls Matrix (CCM)](https://cloudsecurityalliance.org/group/cloud-controls-matrix/)
 - [Microsoft 공통 컨트롤 허브 규정 준수 프레임 워크](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/0/0/F/00F2766F-00E5-4235-8CE8-90FE657D768F/CSA-STAR-Attestation-Compliance.pdf)를 다운로드합니다.

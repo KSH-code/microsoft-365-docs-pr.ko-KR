@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 5af334b6-a15d-4f73-97f8-1423457d9f6b
 description: 동일한 메시지의 여러 인스턴스가 서로 다른 사서함에서 발견 된 경우에도 전자 메일 메시지의 복사본 하나만 내보내도록 내보내기 위해 내보낸 eDiscovery 검색 결과를 복제 해제 하는 옵션을 사용할 수 있습니다.
-ms.openlocfilehash: 17bfb7581da1147c7de8cae0437fe91316a3fcb6
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 6a63783efd76d6e598d3f00dd8a683317c261d2d
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943135"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166049"
 ---
 # <a name="de-duplication-in-ediscovery-search-results"></a>EDiscovery 검색 결과에서 중복 제거
 
@@ -84,4 +84,4 @@ EDiscovery 내보내기 프로세스 중에 검색 조건과 일치 하는 모�
 
   - [PST 파일로 원본 위치 eDiscovery 검색 결과 내보내기](https://go.microsoft.com/fwlink/p/?linkid=832671)
 
-  - [eDiscovery 센터에서 콘텐츠 내보내기 및 보고서 만들기](https://support.office.com/article/7b2ea190-5f9b-4876-86e5-4440354c381a)
+  - [eDiscovery 센터에서 콘텐츠 내보내기 및 보고서 만들기](https://docs.microsoft.com/SharePoint/governance/export-content-and-create-reports-in-the-ediscovery-center)

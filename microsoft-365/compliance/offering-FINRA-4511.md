@@ -1,7 +1,7 @@
 ---
 title: 금융 업계의 FINRA (규정 기관) Rule 4511 (c) 미국
 description: 독립적인 평가 회사에서는 Azure 및 Office 365에서 재무 기업이 FINRA 규칙 4511 레코드 보존 및 불변의 저장소 요구 사항을 충족 하도록 도울 수 있음을 확인 했습니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 9518fbdca5e7234e31979e4c88fe4499b65fc5f0
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bcffe85011bad55a458f2359051fe659f5720c8b
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602405"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066341"
 ---
 # <a name="financial-industry-regulatory-authority-finra-rule-4511c-united-states"></a>금융 업계의 FINRA (규정 기관) Rule 4511 (c) 미국
 
@@ -81,7 +81,3 @@ Office 365의 보관 기능은 전자 메일, 음성 메일, 공유 문서, 인�
 - [Microsoft Office 365 보존 정책](https://docs.microsoft.com/office365/securitycompliance/retention-policies)
 - [Microsoft 금융 서비스 블로그](https://techcommunity.microsoft.com/t5/Financial-Services-Blog/bg-p/FinancialServicesBlog)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/6/B/2/6B20520B-E264-4B58-9EE2-DD6C87D9E254/FINRA-Compliance.pdf)를 다운로드합니다.

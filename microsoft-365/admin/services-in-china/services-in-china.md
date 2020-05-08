@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: 중국의 안전 하 고 안정적 이며 확장 가능한 클라우드 서비스에 대 한 요구를 충족 하도록 설계 된 21Vianet에서 운영 하는 Office 365에 대해 자세히 알아봅니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: c473dacee7fe6f2e779960711a87368e261c3448
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 6d3facba5beb9398f26ede5345b9121275a47b94
+ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360799"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44155412"
 ---
 # <a name="office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365
 
@@ -54,12 +54,12 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
 
 |||
 |:-----|:-----|
-|사용자 지정 도메인  <br/> |관리자는 중국어 (번체) 도메인 공급자를 통해 등록 된 사용자 지정 도메인을 만들거나 사용할 수 있습니다. 사용자 지정 도메인이 없는 경우 도메인 이름 등록 기관에서 [도메인 이름을 구입 하는 방법을](https://support.office.com/article/a6689b24-eeca-41f1-afe6-19917936b73c.aspx) 사용할 수 있습니다. 이미 하나가 있는 경우 [도메인 등록 기관 또는 DNS 호스팅 공급자를 찾습니다](https://support.office.com/article/98b6bfa3-1b0b-4484-8a12-02061cc9f9c3).  <br/> 또한 Office 365 SharePoint Online 서비스를 사용 하 여 공개 웹 사이트를 만드는 경우 중국 인터넷 규정 준수 정책에서는 ICP (인터넷 콘텐츠 공급자) 번호를 받아야 합니다.  **참고:** 사용자 지정 도메인 이름의 허용 되지 않은 단어에 대 한 자동 유효성 검사를 사용할 수 없습니다.           |
+|사용자 지정 도메인  <br/> |관리자는 중국어 (번체) 도메인 공급자를 통해 등록 된 사용자 지정 도메인을 만들거나 사용할 수 있습니다. 사용자 지정 도메인이 없는 경우 도메인 이름 등록 기관에서 [도메인 이름을 구입 하는 방법을](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/buy-a-domain-name) 사용할 수 있습니다. 이미 하나가 있는 경우 [도메인 등록 기관 또는 DNS 호스팅 공급자를 찾습니다](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/find-your-domain-registrar).  <br/> 또한 Office 365 SharePoint Online 서비스를 사용 하 여 공개 웹 사이트를 만드는 경우 중국 인터넷 규정 준수 정책에서는 ICP (인터넷 콘텐츠 공급자) 번호를 받아야 합니다.  **참고:** 사용자 지정 도메인 이름의 허용 되지 않은 단어에 대 한 자동 유효성 검사를 사용할 수 없습니다.           |
 |구독, 청구 및 기술 지원  <br/> |21Vianet에서 제공 합니다. 지원 서비스에 문의 하는 방법에 대 한 자세한 내용은 [Office 365 for business support](../contact-support-for-business-products.md)를 참조 하세요.  <br/> |
-|셀프 서비스 암호 재설정  <br/> |관리자만 사용할 수 있습니다. 자세한 내용은 [21vianet에서 운영 하는 Office 365에서 암호 변경 또는 재설정](https://support.office.com/article/d8eb5b62-9d0e-4267-a9bf-2aa491ee6d0b)을 참조 하세요.  <br/> |
+|셀프 서비스 암호 재설정  <br/> |관리자만 사용할 수 있습니다. 자세한 내용은 [21vianet에서 운영 하는 Office 365에서 암호 변경 또는 재설정](https://support.microsoft.com/en-us/office/change-or-reset-your-password-in-microsoft-365-operated-by-21vianet-d8eb5b62-9d0e-4267-a9bf-2aa491ee6d0b)을 참조 하세요.  <br/> |
 |보안, 개인 정보, 규정 준수 및 지원 수준에 대 한 세부 정보  <br/> |21Vianet에서 제공 합니다.  <br/> |
 |Office 데스크톱 설정  <br/> |Office 2010 및 Office 2007에서는 office 데스크톱 설치를 사용할 수 없습니다. 그러나 관리자는 [office 365에서 작동 하도록 현재 office 데스크톱 응용 프로그램을 구성할](https://support.office.com/article/85646aba-7e6c-4e24-a047-8fd9ce4f9d2e)수 있습니다.  <br/> |
-|모바일 및 장치 지원\*  <br/> | 출시 예정 모바일 기능은 다음과 같습니다.  <br/>  MDM (모바일 장치 관리)  <br/>  Blackberry CS (Business Cloud Services)를 사용할 수는 없지만 Exchange ActiveSync 장치 또는 동작 (테두리, BlackBerry 무선 전자 메일 솔루션)에서 리서치의 제공을 사용 하 여 Blackberry Enterprise Server (BES)를 실행할 수 있습니다.  <br/>  모바일 지원에 대 한 자세한 내용은 [사용자에 대 한 모바일 액세스 설정 및 관리](https://support.office.com/article/01fff219-4492-40f2-82d3-fd2ffc0ad802)를 참조 하세요.  <br/> |
+|모바일 및 장치 지원\*  <br/> | 출시 예정 모바일 기능은 다음과 같습니다.  <br/>  MDM (모바일 장치 관리)  <br/>  Blackberry CS (Business Cloud Services)를 사용할 수는 없지만 Exchange ActiveSync 장치 또는 동작 (테두리, BlackBerry 무선 전자 메일 솔루션)에서 리서치의 제공을 사용 하 여 Blackberry Enterprise Server (BES)를 실행할 수 있습니다.  <br/>  모바일 지원에 대 한 자세한 내용은 [사용자에 대 한 모바일 액세스 설정 및 관리](https://support.microsoft.com/en-us/office/set-up-and-manage-mobile-access-for-your-users-01fff219-4492-40f2-82d3-fd2ffc0ad802)를 참조 하세요.  <br/> |
 |Office Lens  <br/> |사용할 수 없습니다.  <br/> |
 |Microsoft Planner  <br/> |개봉박두.  <br/> |
 |Microsoft Teams  <br/> |사용할 수 없습니다.  <br/> |
@@ -196,7 +196,7 @@ Apple 모바일 장치에 대 한 Exchange 연락처 데이터를 Apple iCloud�
 |Bing services에 대 한 리서치 창 통합  <br/> |사용할 수 없습니다.  <br/> |
 |접근성 검사  <br/> |사용할 수 없습니다.  <br/> |
 |수업용 전자 필기장  <br/> |사용할 수 없습니다.  <br/> |
-|양식  <br/> |사용할 수 없습니다.  <br/> |
+|Forms  <br/> |사용할 수 없습니다.  <br/> |
 |몰입 형 리더  <br/> |사용할 수 없습니다.  <br/> |
 |온라인 그림 삽입  <br/> |사용할 수 없습니다.  <br/> |
 |모임 세부 정보  <br/> |사용할 수 없습니다.  <br/> |
@@ -210,7 +210,7 @@ Apple 모바일 장치에 대 한 Exchange 연락처 데이터를 Apple iCloud�
 
 |||
 |:-----|:-----|
-|비즈니스용 Skype를 지 원하는 도메인 공급자  <br/> |SRV 레코드를 지 원하는 중국어 (간체) 도메인 공급자에 도메인을 등록 해야 합니다. 도메인을 등록 하는 방법에 대 한 자세한 내용은 [Find 사용자 도메인 등록 기관 또는 DNS 호스팅 공급자](https://support.office.com/article/98b6bfa3-1b0b-4484-8a12-02061cc9f9c3)를 참조 하십시오.  <br/> |
+|비즈니스용 Skype를 지 원하는 도메인 공급자  <br/> |SRV 레코드를 지 원하는 중국어 (간체) 도메인 공급자에 도메인을 등록 해야 합니다. 도메인을 등록 하는 방법에 대 한 자세한 내용은 [Find 사용자 도메인 등록 기관 또는 DNS 호스팅 공급자](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/find-your-domain-registrar)를 참조 하십시오.  <br/> |
 |전화 접속 회의 (컴퓨터에 액세스할 수 없는 사용자에 대 한 전화를 모임에 추가 하는 기능)  <br/> |비즈니스용 Skype 및 전화 접속 회의 및 공급자를 위한 비즈니스용 Skype 관리 센터에서 옵션을 볼 수 있지만 이러한 기능은 아직 사용할 수 없습니다. 곧 제공 될 예정입니다.  <br/> |
 |비즈니스용 Skype 데스크톱 도움말  <br/> |비즈니스용 Skype 데스크톱에 대 한 도움말을 찾을 [수 있습니다.](https://support.office.com/article/6ae5853c-f0fd-4710-aecf-f46def8377ad.aspx) 그러나 Office 간편 실행을 사용 하는 경우가 아니면 제품에서 데스크톱 도움말을 사용할 수 없습니다.  <br/> |
 |Lync 2010  <br/> |사용할 수 없습니다.  <br/> |
@@ -225,7 +225,7 @@ Apple 모바일 장치에 대 한 Exchange 연락처 데이터를 Apple iCloud�
    
 ## <a name="data-subject-requests-for-gdpr"></a>GDPR에 대 한 데이터 주체 요청
 
-GDPR은 부정확 한 데이터를 수정 하 고 데이터를 지우거 나 처리를 제한 하는 권한을 포함 하 여 개인 데이터 처리와 관련 된 특정 권한 (또는, 데이터 주체)에 게 데이터를 수신 하 고 해당 사용자의 전송 요청을 수행 합니다. 다른 컨트롤러에 데이터를 추가할 수 있습니다. 21Vianet에서 운영 하는 Office 365의 테 넌 트 관리자 역할은 다음과 같은 방법으로 데이터 주체를 대신 하 여 데이터를 요청할 수 있습니다.
+GDPR은 잘못 된 데이터를 수정 하 고, 데이터를 지우거 나 처리를 제한 하 고, 데이터를 다른 컨트롤러에 전송 하기 위한 요청을 수행 하는 것을 포함 하 여 개인 데이터 처리와 관련 하 여 특정 권한 (또는 데이터 주체)에 게 데이터를 전달 하는 것을 허용 합니다. 21Vianet에서 운영 하는 Office 365의 테 넌 트 관리자 역할은 다음과 같은 방법으로 데이터 주체를 대신 하 여 데이터를 요청할 수 있습니다.
   
 - 테 넌 트 관리자는 Azure Active Directory 관리 센터를 사용 하 여 Azure Active Directory 및 관련 서비스에서 데이터 주체를 영구적으로 삭제할 수 있습니다.
     

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 규정 준수 점수는 조직이 위험 평가를 간소화 하 고 자동화 하는 데 도움이 되며, 위험을 해결 하기 위한 권장 조치를 제시 합니다.
-ms.openlocfilehash: 507ff021095dfc0b18cffb6db313009c22ad2693
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 5fced1a9452f2345a678bfef670e1a19b9811e81
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046276"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140853"
 ---
 # <a name="microsoft-compliance-score-preview"></a>Microsoft 준수 점수 (미리 보기)
 
@@ -104,7 +104,7 @@ Microsoft 준수 점수는 조직의 규정 준수 상태를 이해 하는 데 �
 
 ### <a name="templates"></a>템플릿
 
-규정 준수 점수는 미리 구성 된 서식 파일을 평가에 제공 합니다. 사용자 고유의 컨트롤 및 작업을 추가 하 여 미리 구성 된 서식 파일을 사용자 지정할 수도 있습니다. 예를 들어 비즈니스 프로세스 컨트롤에 대 한 서식 파일을 만들거나 미리 구성 된 서식 파일 중 하나에 포함 되지 않는 지역별 데이터 보호 또는 규정 준수 표준을 위한 서식 파일을 만들 수 있습니다. 서식 파일을 준수 점수로 설정 하면 Microsoft 클라우드 평가 뿐 아니라 조직의 범위에 있는 기타 위험 평가를 추적할 수 있습니다.
+규정 준수 점수는 미리 구성 된 서식 파일을 평가에 제공 합니다. 또한 미리 구성 된 서식 파일에 자체 컨트롤 및 작업을 추가 하 여 사용자 지정 평가를 만들 수도 있습니다. 예를 들어 비즈니스 프로세스 컨트롤에 대 한 서식 파일을 만들거나 미리 구성 된 서식 파일 중 하나에 포함 되지 않는 지역별 데이터 보호 또는 규정 준수 표준을 위한 서식 파일을 만들 수 있습니다. 서식 파일을 준수 점수로 설정 하면 Microsoft 클라우드 평가 뿐 아니라 조직의 범위에 있는 기타 위험 평가를 추적할 수 있습니다.
 
 규정 준수 점수를 위해 미리 구성 된 서식 파일은 다음과 같습니다.
 

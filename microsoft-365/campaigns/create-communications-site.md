@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 캠페인에 대 한 통신 사이트를 만듭니다.
-ms.openlocfilehash: 5c6590ae8e8fbe0dd1cc024c53f3a2a109aa918c
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3435ede554c16bb787b87a6ea76e0c41f62b8fe5
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42056383"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165724"
 ---
 # <a name="create-a-communications-site-for-your-campaign"></a>캠페인에 대 한 통신 사이트 만들기
 
@@ -60,7 +60,7 @@ ms.locfileid: "42056383"
 2. 페이지의 왼쪽 위 모서리에서 앱 시작 관리자 아이콘을 선택 하 고 **SharePoint** 타일을 선택 합니다. **Sharepoint** 타일이 표시 되지 않는 경우 **사이트** 타일 또는 sharepoint가 표시 되지 않는 경우 **모두** 를 클릭 합니다.
 3. SharePoint 홈 페이지 맨 위에서 **+ 사이트 만들기** 를 클릭 하 고 **통신 사이트** 옵션을 선택 합니다.
 
-[통신 사이트](https://support.office.com/article/What-is-a-SharePoint-communication-site-94A33429-E580-45C3-A090-5512A8070732) 및 [SharePoint Online에서 통신 사이트를 만드는](https://support.office.com/article/Create-a-communication-site-in-SharePoint-Online-7FB44B20-A72F-4D2C-9173-FC8F59BA50EB)방법에 대해 알아봅니다.
+[통신 사이트](https://support.office.com/article/What-is-a-SharePoint-communication-site-94A33429-E580-45C3-A090-5512A8070732) 및 [SharePoint Online에서 통신 사이트를 만드는](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-online-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb)방법에 대해 알아봅니다.
 
 
 ## <a name="admin-settings"></a>관리 설정

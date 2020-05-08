@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0c3898fd808a588578cba29f7f40b8d5be183e1c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 695471d51e391957a5dfea8770cb1928dd39ee86
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602265"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065913"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>ISO 22301:2012 비즈니스 연속성 관리 표준
 
@@ -32,8 +32,6 @@ ms.locfileid: "41602265"
 ## <a name="microsoft-and-iso-22301"></a>Microsoft와 ISO 22301
 
 Microsoft는 최초로 비즈니스 연속성 관리에 대한 ISO 22301 인증을 받은 하이퍼스케일 클라우드 서비스 공급업체입니다. 비즈니스 연속성 프로세스의 모든 측면을 다루는 엄격한 감사 후에 Microsoft Azure, Microsoft Azure Government, Microsoft Office 365 (상업적, 정부 및 교육 제공품을 포함), Microsoft Cloud App Security, Microsoft Intune 및 Microsoft Power BI에 이 인증을 부여 받은 독립된 인증 기관입니다. 시행된 감사는 아래 나열된 범위 내의 서비스와 Azure 관리 기능, Azure Portal 그리고 및 범위 내의 서비스를 모니터링하고 운영하고 업데이트하는 데 사용되는 시스템을 포함하였습니다.
-
-Microsoft 클라우드에서 ISO/IEC 22301의 혜택에 대해 알아보세요. [ISO/IEC 22301 배경 설명 다운로드](https://aka.ms/iso22301-backgrounder)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
@@ -79,7 +77,3 @@ ISO 22301은 기업 및 정부의 조직에서 비즈니스 연속성 관리를 
 - [Microsoft 엔터프라이즈 비즈니스 연속성 관리 프로그램 설명서](https://go.microsoft.com/fwlink/p/?linkid=2092212)
 - [준수 점수](compliance-score.md)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/0/0/9/009B2F34-96F6-4D85-8BDC-238B91A2C6EE/ISO-22301-Compliance.pdf )를 다운로드합니다.

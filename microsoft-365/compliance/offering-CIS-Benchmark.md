@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a83c744bc9f1335e0ce2993801475fdf16164766
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8e147e26072609a43d962b1d9fc7e71925510da4
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627070"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064697"
 ---
 # <a name="center-for-internet-security-cis-benchmarks"></a>인터넷 보안 센터 (CIS) 벤치마크
 
 ## <a name="about-cis-benchmarks"></a>CIS 벤치마크 정보
 
-[인터넷 보안 센터](https://www.cisecurity.org/)는 "사이버 방어를 위한 모범 사례 솔루션을 식별, 개발, 검증, 홍보 및 유지하는" 사명을 가진 비영리 단체입니다. 전세계 정부, 기업 및 학계의 사이버 보안 및 IT 전문가의 전문 지식을 바탕으로 합니다. CI 벤치 마크, 제어 및 강화된 이미지를 비롯한 표준 및 모범 사례를 개발하기 위해 합의된 의사 결정 모델을 따릅니다.  
+[인터넷 보안 센터](https://www.cisecurity.org/)는 '사이버 방어를 위한 모범 사례 솔루션을 식별, 개발, 검증, 홍보 및 유지하는' 사명을 가진 비영리 단체입니다. 전세계 정부, 기업 및 학계의 사이버 보안 및 IT 전문가의 전문 지식을 바탕으로 합니다. CI 벤치 마크, 제어 및 강화된 이미지를 비롯한 표준 및 모범 사례를 개발하기 위해 합의된 의사 결정 모델을 따릅니다.  
   
 [CIS 벤치 마크](https://www.cisecurity.org/cis-benchmarks/)는 시스템을 안전하게 구성하는 데 유용한 구성 기준과 모범 사례입니다. 각 지침 권장 사항은 조직이 사이버 방어 기능을 개선하는 데 도움이 되도록 개발된 하나 이상의 [CIS 컨트롤](https://www.cisecurity.org/controls/)을 참조합니다. CIS 컨트롤은 NIST 사이버 보안 프레임워크 (CSF) 및 NIST SP 800-53, ISO 27000 표준 시리즈, PCI DSS, HIPAA 등을 포함하여 다양한 표준 및 규제 프레임워크에 매핑됩니다.  
   
@@ -46,7 +46,7 @@ CIS 벤치마크는 사이버 공격으로부터 IT 시스템 및 데이터를 �
   
 모든 CIS 벤치마크와 마찬가지로 Microsoft 벤치 마크는 소프트웨어 개발, 감사 및 준수, 보안 연구, 운영, 정부 및 법률에 걸친 다양한 배경을 가진 주제 전문가의 의견을 바탕으로 합의 검토 프로세스를 사용하여 만들어졌습니다. Microsoft는 이러한 CIS 노력의 결과로 핵심 파트너가 되었습니다. 예를 들어, Office 365는 나열된 서비스에 대해 테스트를 거쳤으며 그 결과 Microsoft 365 Foundations 벤치마크는 계정 및 인증, 데이터 관리, 응용 프로그램 권한, 저장소 및 기타 보안 정책 영역을 포괄하는 적절한 보안 정책을 설정하기 위한 광범위한 권장 사항을 다룹니다.  
   
-CIS는 Microsoft 제품 및 서비스에 대한 벤치마크 외에도 CIS 벤치마크를 충족하도록 구성된 [Azure 가상 머신에서 사용할 CIS 강화 이미지](https://www.cisecurity.org/blog/cis-hardened-images-now-in-microsoft-azure-marketplace/)를 게시했습니다. 여기에는 Azure에서 실행되도록 인증된 Microsoft Windows Server 2016용 CIS 강화 이미지가 포함됩니다. CIS는 다음과 같이 명시했습니다. "[Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps?search=center%20for%20internet%20security)에서 사용할 수 있는 모든 CIS 강화 이미지는 Azure에서 실행되도록 인증되었습니다. Azure 퍼블릭 클라우드, 클라우드 OS 네트워크를 통해 서비스 공급자가 호스트하는 Microsoft 클라우드 플랫폼 및 고객이 관리하는 온-프레미스 프라이빗 클라우드 Windows Server Hyper-V 배포와의 호환성에 대해 사전 테스트를 거쳤습니다."
+CIS는 Microsoft 제품 및 서비스에 대한 벤치마크 외에도 CIS 벤치마크를 충족하도록 구성된 [Azure 가상 머신에서 사용할 CIS 강화 이미지](https://www.cisecurity.org/blog/cis-hardened-images-now-in-microsoft-azure-marketplace/)를 게시했습니다. 여기에는 Azure에서 실행되도록 인증된 Microsoft Windows Server 2016용 CIS 강화 이미지가 포함됩니다. CIS는 다음과 같이 명시했습니다. [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps?search=center%20for%20internet%20security)에서 사용할 수 있는 모든 CIS 강화 이미지는 Azure에서 실행되도록 인증되었습니다. Azure 퍼블릭 클라우드, 클라우드 OS 네트워크를 통해 서비스 공급자가 호스트하는 Microsoft 클라우드 플랫폼 및 고객이 관리하는 온-프레미스 프라이빗 클라우드 Windows Server Hyper-V 배포와의 호환성에 대해 사전 테스트를 거쳤습니다.'
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
@@ -84,7 +84,7 @@ CIS 벤치마크는 범위 내 Microsoft 제품 및 서비스를 채택하는 �
 
 **누가 Microsoft CIS 벤치마크 개발에 기여했나요?**
 
-CIS는 "벤치마크는 주제 전문가, 기술 공급 업체, 공공 및 민간 CIS 벤치마크 커뮤니티 구성원 및 CIS 벤치마크 개발팀의 너그러운 자원 봉사 노력을 통해 개발되었습니다"라고 말합니다. 예를 들어 [CIS Microsoft Azure Foundations Benchmark v1.0.0 Now Available](https://www.cisecurity.org/blog/cis-microsoft-azure-foundations-benchmark-v1-0-0-now-available/)에서 Azure 기여자 목록을 찾을 수 있습니다.
+CIS는 '벤치마크는 주제 전문가, 기술 공급업체, 공공 및 민간 CIS 벤치마크 커뮤니티 구성원 및 CIS 벤치마크 개발팀의 너그러운 자원 봉사 노력을 통해 개발되었습니다.'라고 말합니다. 예를 들어 [CIS Microsoft Azure Foundations Benchmark v1.0.0 Now Available](https://www.cisecurity.org/blog/cis-microsoft-azure-foundations-benchmark-v1-0-0-now-available/)에서 Azure 기여자 목록을 찾을 수 있습니다.
 
 ## <a name="resources"></a>리소스
 
@@ -92,7 +92,3 @@ CIS는 "벤치마크는 주제 전문가, 기술 공급 업체, 공공 및 민�
 - [Windows 10 보안 정책 설정](https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/security-policy-settings)
 - [Windows 10 Enterprise 보안](https://docs.microsoft.com/windows/security/index)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/9/B/7/9B75D846-BDB9-41CB-86FF-F0ADFD15800B/CIS_Benchmarks-Compliance.pdf)를 다운로드합니다.

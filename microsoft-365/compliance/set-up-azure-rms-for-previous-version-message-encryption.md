@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2cba47b3-f09e-4911-9207-ac056fcb9db7
 description: 이전 버전의 Office 365 메시지 암호화는 Microsoft Azure 권한 관리 (이전에는 Windows Azure Active Directory Rights Management)에 따라 달라 집니다.
-ms.openlocfilehash: 234115a76116fe9033e8da7868f846658d0d3eee
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 879f4ec1db8a8cfe1fe3c8d3b1dd9e1fc68dd687
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943267"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165919"
 ---
 # <a name="set-up-azure-rights-management-for-the-previous-version-of-message-encryption"></a>이전 버전의 메시지 암호화에 대 한 Azure 권한 관리 설정
 
@@ -116,7 +116,7 @@ Active Directory Rights Management를 사용 하 여 기존 Office 365 메시지
 ## <a name="next-steps"></a>다음 단계
 <a name="importTPDs"> </a>
 
-Azure 권한 관리 설치를 완료 한 후에 새 OME 기능을 사용 하도록 설정 하려면 [Azure Information Protection에 기본적으로 제공 되는 새로운 Office 365 메시지 암호화 기능 설정을](https://support.office.com/article/7ff0c040-b25c-4378-9904-b1b50210d00e) 참조 하십시오.
+Azure 권한 관리 설치를 완료 한 후에 새 OME 기능을 사용 하도록 설정 하려면 [Azure Information Protection에 기본적으로 제공 되는 새로운 Office 365 메시지 암호화 기능 설정을](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities) 참조 하십시오.
   
 새 OME 기능을 사용 하도록 조직을 설정한 후에는 [새 OME 기능을 사용 하 여 전자 메일 메시지를 보호 하는 메일 흐름 규칙을 정의할](define-mail-flow-rules-to-encrypt-email.md)수 있습니다.
   
