@@ -16,12 +16,12 @@ search.appverid:
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: 'Microsoft Service Trust Portal의 준수 관리자는 Office 365 및 Microsoft Azure와 같은 Microsoft 클라우드 서비스에 대해 측정했을 때 조직이 보안 및 데이터 보호 산업 표준(예: GDPR, ISO 27001 및 27018, HIPAA)을 준수하는 데 도움이 되는 컨트롤을 추적, 구현 및 관리하기 위한 도구를 제공합니다. 준수 관리자는 조직의 데이터 보호 및 개인 정보 보호 전략을 감독하는 담당자가 규정 준수 및 위험 평가 프로세스를 관리하는 데 도움을 줍니다.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9cfa034de5d8116485a7d371c40ef55b0466103
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 13d90e733dad48dc0e979f6d307a9419afd05cf6
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034224"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165969"
 ---
 # <a name="microsoft-compliance-manager-classic"></a>Microsoft 준수 관리자(기본)
 
@@ -30,7 +30,7 @@ ms.locfileid: "44034224"
 
  *준수 관리자는 21Vianet, Office 365 Germany, Office 365 미국 GCC(Government Community High) 또는 Office 365 미국방부에서 운영하는 Office 365에서 사용할 수 없습니다.*
   
-Microsoft [Service Trust Portal](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662)의 워크플로 기반 위험 평가 도구인 준수 관리자를 사용하여 Microsoft 전문가 서비스 및 Microsoft 클라우드 서비스(예: Microsoft Office 365, Microsoft Dynamics 365 및 Microsoft Azure)와 관련된 조직의 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다. 
+Microsoft [Service Trust Portal](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal)의 워크플로 기반 위험 평가 도구인 준수 관리자를 사용하여 Microsoft 전문가 서비스 및 Microsoft 클라우드 서비스(예: Microsoft Office 365, Microsoft Dynamics 365 및 Microsoft Azure)와 관련된 조직의 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다. 
 
 규정 준수 관리자:
   
