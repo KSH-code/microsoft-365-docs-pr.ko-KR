@@ -1,7 +1,7 @@
 ---
 title: 미국 내부 수익 서비스 게시 1075
 description: Microsoft에는 미국 내부 수익 서비스 게시 1075의 요구 사항을 충족 하는 컨트롤이 있습니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bb7a805fa927756753e3ba09c3dd5eb2998467e7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b64b69d52028a09ddd54863d4e2cbf5f0642bd67
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602295"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066331"
 ---
 # <a name="us-internal-revenue-service-publication-1075"></a>미국 내부 수익 서비스 게시 1075
 
@@ -33,7 +33,7 @@ FTI을 보호 하기 위해 IRS 1075은 응용 프로그램, 플랫폼 및 데�
 
 Microsoft Azure 정부 및 [Microsoft Office 365 U.S. 정부](https://products.office.com/government/office-365-web-services-for-government) 클라우드 서비스는 적절 한 컨트롤을 보유 하 고 있는 계약 약정을 제공 하 고, Microsoft 에이전시 고객이 IRS 1075의 substantive 요구 사항을 충족 하는 데 필요한 보안 기능에 대해 설명 합니다.  
   
-정부에 대 한 이러한 Microsoft 클라우드 서비스는 고객이 솔루션을 작성 하 고 운영할 수 있는 플랫폼을 제공 하지만, 고객은 해당 특정 솔루션이 IRS 1075에 따라 운영 되는지 여부를 직접 확인 해야 하며, 따라서 IRS 감사에 따라 달라 집니다.  
+정부에 대 한 이러한 Microsoft 클라우드 서비스는 고객이 솔루션을 작성 및 운영할 수 있는 플랫폼을 제공 하지만, 고객은 IRS 1075에 따라 이러한 특정 솔루션이 운영 되는지 여부를 확인 하 고, 따라서 IRS 감사에 따라 결정 해야 합니다.  
   
 정부 기관에서 규정 준수를 지원 하기 위해 Microsoft는 다음과 같은 작업을 수행 합니다.
 
@@ -42,8 +42,6 @@ Microsoft Azure 정부 및 [Microsoft Office 365 U.S. 정부](https://products.o
 - 클라우드 서비스에 대 한 독립 평가자에서 생성 하는 사용 가능한 감사 보고서 및 모니터링 정보를 만듭니다.
 - IRS Azure 정부 준수 고려 사항 및 Office 365 미국 정부 준수 고려 사항에 대해 설명 하 고,이를 통해 에이전시에서 IRS 1075을 준수 하는 방식으로 정부 서비스용 Microsoft 클라우드를 사용 하는 방법을 대략적으로 소개 합니다. NDA에 거주 하는 정부 고객은 이러한 문서를 요청할 수 있습니다.
 - 고객에 게 필요한 경우 Microsoft 주제별 전문가 또는 외부 감사자와 정보를 교환할 기회를 제공 합니다.
-
-Microsoft 클라우드에서 IRS 1075의 혜택에 대해 알아봅니다. [IRS 1075 backgrounder를 다운로드 합니다](https://aka.ms/irs1075-backgrounder) .
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
@@ -62,7 +60,7 @@ IRS 1075의 substantive 요구 사항을 준수 하는 기능은 FedRAMP 감사�
 - [FedRAMP 권한 부여](https://marketplace.fedramp.gov/#/product/azure-government?sort=productName&productNameSearch=azure)
 - [Azure IRS 1075 보호 보안 보고서](https://aka.ms/AzureIRS1075SafeguardSecurityReport)
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **Microsoft는 IRS 1075의 요구 사항을 해결 하는 방법을 설명 합니다.**
 
@@ -85,7 +83,3 @@ Microsoft는 보안, 개인 정보, 운영 체제 및 NIST 800-53 rev를 정기�
 - [Microsoft 공통 컨트롤 허브 규정 준수 프레임 워크](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 - [Microsoft Cloud for Government](https://enterprise.microsoft.com/industries/government/start-your-microsoft-cloud-for-government-trial-today)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/D/1/8/D1825AE2-4FDA-4A4B-8D4F-9B7D2976D54A/IRS1075_Compliance_Backgrounder.pdf)를 다운로드합니다.

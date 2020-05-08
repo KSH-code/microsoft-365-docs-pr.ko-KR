@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1ed1703ac30a9c7c8392ad61ec0d126d1e17c17e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f58baecce1d1972c7aee1fdb7121375d5ddd111c
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602475"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066411"
 ---
 # <a name="eu-us-and-swiss-us-privacy-shield-frameworks"></a>EU-US 및 Swiss-US Privacy Shield 프레임워크
 
@@ -82,7 +82,7 @@ Privacy Shield는 GDPR 규정 준수 메커니즘이 아니라 참여하는 회�
 
 **Microsoft는 EU-US 및 Swiss-US Privacy Shield 하에 발생한 불만 사항을 어떻게 처리하나요?**
 
-Privacy Shield와 관련된 불만 사항이 있는 경우 [Microsoft 개인정보처리방](https://privacy.microsoft.com/privacystatement)의 [문의 방법](https://privacy.microsoft.com/PrivacyStatement#mainhowtocontactusmodule) 섹션을 통해 알려주세요. Microsoft에서 직접 해결할 수 없는 불만 사항에 대한 자세한 내용은 EU DPA와 협력하여 제공되는 조언을 준수합니다. 관련 DPA 연락처로 연락을 드리겠습니다. [Privacy Shield 원칙](https://www.privacyshield.gov/article?id=Requirements-of-Participation)에 추가로 설명된 바와 같이 구속력 있는 조정 옵션을 사용하여 다른 방법으로 해결되지 않은 불만 사항을 해결할 수 있습니다.
+Privacy Shield와 관련된 불만 사항이 있는 경우 [Microsoft 개인정보처리방](https://privacy.microsoft.com/privacystatement)의 [문의 방법](https://privacy.microsoft.com/privacystatement#mainhowtocontactusmodule) 섹션을 통해 알려주세요. Microsoft에서 직접 해결할 수 없는 불만 사항에 대한 자세한 내용은 EU DPA와 협력하여 제공되는 조언을 준수합니다. 관련 DPA 연락처로 연락을 드리겠습니다. [Privacy Shield 원칙](https://www.privacyshield.gov/article?id=Requirements-of-Participation)에 추가로 설명된 바와 같이 구속력 있는 조정 옵션을 사용하여 다른 방법으로 해결되지 않은 불만 사항을 해결할 수 있습니다.
 
 ## <a name="resources"></a>리소스
 
@@ -92,7 +92,3 @@ Privacy Shield와 관련된 불만 사항이 있는 경우 [Microsoft 개인정�
 - [Microsoft 개인정보처리방침](https://privacy.microsoft.com)
 - [클라우드에서의 개인 정보 보호 고려 사항](https://download.microsoft.com/download/0/9/D/09DE47F6-F9E5-4C14-B9E8-E8119A130ACC/Privacy_considerations_in_the_cloud.pdf)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/3/F/4/3F4C5C35-6653-4E9B-8C4F-917B1064F537/PrivacyShield-Compliance.pdf)를 다운로드합니다.

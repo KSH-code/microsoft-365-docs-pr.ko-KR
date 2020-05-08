@@ -1,7 +1,7 @@
 ---
 title: 영국 정부-클라우드 (G-클라우드)
 description: Crown 상업용 서비스가 Microsoft 클라우드 서비스 분류를 정부 클라우드 v. 6으로 갱신 했습니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 27f664f9657e88db1dab86f765be36458b4090d9
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 66db28688a483aea8c0092202eda258a2032027f
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236888"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066563"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>영국 정부-클라우드 (G-클라우드)
 
@@ -82,7 +82,7 @@ Microsoft 클라우드 서비스가 G-Cloud 계약 준수를 유지 하 고 있�
 
 [Azure UK G-Cloud 청사진 사용 시작](https://aka.ms/ukofficialblueprint)
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **디지털 Marketplace를 사용할 수 있는 사람은 누구 인가요?**
 
@@ -115,7 +115,3 @@ It는 영국 정부에 의해 투자 되는 조직이 나 에이전시 이며 �
 - [디지털 마켓플레이스](https://www.digitalmarketplace.service.gov.uk/)
 - [Microsoft Online Services](https://aka.ms/Online-Services-Terms)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/9/E/0/9E008CC0-6783-4472-B19D-F5B6970DD73A/UK_GCloud_Compliance_Backgrounder.pdf)를 다운로드합니다.

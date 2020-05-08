@@ -27,12 +27,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: 파일 저장 및 공유를 위해 OneDrive 및 팀 사이트를 사용 하는 방법을 알아봅니다.
-ms.openlocfilehash: 56057bc33adaf92a415c443bfb7bf89c10f8d646
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 98fc168e42fea50ae21914d5f44e403ae459c1d9
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627561"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165220"
 ---
 # <a name="set-up-file-storage-and-sharing"></a>파일 저장 및 공유 설정
 
@@ -63,7 +63,7 @@ OneDrive 및 팀 사이트를 함께 사용할 때 각 위치에 저장할 항�
 |**SharePoint 팀 사이트** <br/> |간. Microsoft 365 그룹 (예: Microsoft 365 관리 센터, Outlook 또는 Microsoft 팀에서 팀을 만드는 경우)을 만들 때 해당 그룹에 대해 SharePoint 팀 사이트를 만듭니다. 마찬가지로 SharePoint 홈 페이지 또는 새 SharePoint 관리 센터에서 새 SharePoint 팀 사이트를 만들면 Microsoft 365 그룹도 만들어집니다. 자세한 내용은 [sharepoint 팀 사이트 란?](https://support.office.com/article/75545757-36c3-46a7-beed-0aaa74f0401e.aspx) 및 [sharepoint Online에서 팀 사이트 만들기](https://support.office.com/article/ef10c1e7-15f3-42a3-98aa-b5972711777d.aspx)를 참조 하세요.  <br/> |공유 소유권이 있는 파일입니다. 조직의 각 작업 단위에 대해 팀 사이트를 구분 하는 것이 좋습니다. 예를 들어 직원 및 재무 문서를 소규모 팀에 공개 하는 것을 방지 하려면 별도의 팀 사이트를 만들어야 합니다.  <br/> |
 
 > [!NOTE]
-> 또한 SharePoint에는 비즈니스를 위해 사용할 수 있는 다른 유형의 사이트가 있습니다. 인트라넷에서 [통신 사이트](https://support.office.com/article/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb.aspx) 를 사용 하 여 광범위 한 대상에 대 한 정보를 게시할 수 있습니다. 그리고 [허브 사이트](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f.aspx) 를 사용 하 여 인트라넷에서 사이트를 연결할 수 있습니다.
+> 또한 SharePoint에는 비즈니스를 위해 사용할 수 있는 다른 유형의 사이트가 있습니다. 인트라넷에서 [통신 사이트](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-online-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb) 를 사용 하 여 광범위 한 대상에 대 한 정보를 게시할 수 있습니다. 그리고 [허브 사이트](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f.aspx) 를 사용 하 여 인트라넷에서 사이트를 연결할 수 있습니다.
   
 ## <a name="start-using-onedrive-and-your-team-site"></a>OneDrive 및 팀 사이트 사용 시작
 
@@ -201,4 +201,4 @@ Microsoft 365에서 사용자에 게 타사 저장소를 사용 하도록 설정
 
   - [Microsoft 365을 사용 하 여 iPhone 또는 iPad에서 Office 설치 및 설정](https://support.office.com/article/9df6d10c-7281-4671-8666-6ca8e339b628.aspx)
 
-  - [Microsoft 365을 사용 하 여 Windows Phone에서 Office 설정](https://support.office.com/article/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7.aspx)
+  - [Microsoft 365을 사용 하 여 Windows Phone에서 Office 설정](https://support.microsoft.com/en-us/office/set-up-office-mobile-apps-on-a-windows-mobile-device-2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7)

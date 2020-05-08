@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b62e40ce317bc5a6bc817e5eade5b476542c5f04
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ac5a027225ce0f7c4c719ba3a897f5bc6f5629d5
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602175"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065649"
 ---
 # <a name="minimum-acceptable-risk-standards-for-exchanges-mars-e-20-framework"></a>거래소에 대한 최소 허용 위험 표준 (MARS-E) 2.0 프레임워크
 
@@ -34,8 +34,6 @@ MARS-E가 출시된 후 NIST는 응용 프로그램 보안을 포함하여 온�
 ## <a name="microsoft-and-mars-e-20-framework"></a>Microsoft와 MARS-E 2.0 프레임워크
 
 현재 MARS-E에 대한 공식적인 승인 및 인증 프로세스는 없습니다. 그러나 Microsoft Azure 플랫폼 서비스는 FedRAMP 감사를 받고 보통 영향 수준으로, Azure Government는 높은 영향 수준으로 평가되었고, 이는 FedRAMP 표준에 따라 부여됩니다. 이러한 표준은 MARS-E에 특별히 초점을 맞추지는 않지만 MARS-E 컨트롤 요구 사항과 목표가 면밀하게 부합하는 면이 있어 Azure에서 데이터의 기밀성, 무결성 및 가용성을 보호하기 위해 제공됩니다.
-
-Microsoft 클라우드에서의 MARS-E 2.0 프레임워크의 혜택에 대해 자세히 알아보세요. [MARS-E 배경 설명 다운로드](https://aka.ms/mars-e-backgrounder)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
@@ -72,7 +70,3 @@ Microsoft는 Azure 플랫폼이 관리하는 [온라인 서비스 약관](https:
 - [온라인 서비스용 Microsoft 규정 준수 프레임워크 백서](https://aka.ms/compliance-framework)
 - [Microsoft 온라인 서비스 사용 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/7/C/2/7C2690A7-19CC-4EED-A47A-B43CC418790A/MARS-E-Compliance.pdf)를 다운로드합니다.

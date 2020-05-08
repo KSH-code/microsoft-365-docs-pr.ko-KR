@@ -9,17 +9,17 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
-ms.custom:
 - M365solutions
+ms.custom: ''
 localization_priority: Priority
 f1.keywords: NOCSH
 description: 파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출을 제한하는 방법을 알아보세요.
-ms.openlocfilehash: 93fceaca45a3f814341678c2d29d5feea3653369
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 2687705a9edab9dea486e28d8e417cf890cc0424
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002171"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159386"
 ---
 # <a name="limit-accidental-exposure-to-files-when-sharing-with-people-outside-your-organization"></a>파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출을 제한
 

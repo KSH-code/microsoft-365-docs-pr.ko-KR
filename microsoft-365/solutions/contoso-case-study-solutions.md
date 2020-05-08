@@ -13,14 +13,15 @@ localization_priority: Priority
 ms.collection:
 - Strat_O365_Enterprise
 - M365-subscription-management
+- M365solutions
 ms.custom: ''
 description: 대표적인 가상 글로벌 조직이 Microsoft 365 솔루션을 배포한 방법
-ms.openlocfilehash: 89909681cfbbc473b81ec4f95efe7fcc97270617
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 7d99a936bcfaddb2032b5f077ea95034e275182a
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44003234"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159494"
 ---
 # <a name="microsoft-365-solutions-for-the-contoso-corporation"></a>Contoso Corporation의 Microsoft 365 솔루션
 

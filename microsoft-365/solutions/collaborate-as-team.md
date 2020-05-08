@@ -9,18 +9,18 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
-ms.custom:
 - M365solutions
+ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
 description: 팀에서 게스트를 공동 작업용으로 설정 하는 데 필요한 Microsoft 365 구성 단계에 대해 설명 합니다.
-ms.openlocfilehash: bf074d9115d8e5d9e2c7c265ee96e493ac3d59e3
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: dabcfa53e9ccf4b3ea136b5ab522619fe81ae738
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036010"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160030"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>게스트와 팀으로 공동 작업하기
 

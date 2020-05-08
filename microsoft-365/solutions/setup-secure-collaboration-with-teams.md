@@ -9,16 +9,16 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom:
 - M365solutions
+ms.custom: ''
 f1.keywords: NOCSH
 description: 해당 민감도에 따라 데이터를 보호 하도록 팀을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 77493398b11109a51c4e60599561fd8cd4f6c3ac
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 8704c3a0a271c247652d611e963ff1d26308dcdb
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002956"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159470"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Microsoft 365을 사용한 보안 공동 작업 설정
 
@@ -85,9 +85,9 @@ Microsoft 365에서는 다음과 같은 다양 한 구성을 사용 하 여 팀�
 
 기본 계층부터 시작한 다음 필요에 따라 *중요* 하 고 *중요* 한 계층을 사용 하는 팀을 추가 하 여 조직의 정보를 보호 하는 데 도움을 주는 방법을 설명 합니다. 시작 하려면 다음 리소스를 참조 하세요.
 
-- [기본 보호를 사용 하 여 팀 구성](configure-teams-baseline-protection.md)
-- [중요 한 데이터에 대 한 보호를 사용 하 여 팀 구성](configure-teams-sensitive-protection.md)
-- [중요 한 데이터에 대 한 보호를 사용 하 여 팀 구성](configure-teams-highly-sensitive-protection.md)
+- [기본 보호 기능으로 팀 구성](configure-teams-baseline-protection.md)
+- [중요한 데이터를 보호하는 팀 구성하기](configure-teams-sensitive-protection.md)
+- [매우 중요한 데이터를 보호하는 팀 구성하기](configure-teams-highly-sensitive-protection.md)
 
 조직 내 에서도 공유 기능을 추가로 보호 해야 하는 중요 한 프로젝트가 있는 경우 해당 민감도 레이블을 사용 하 여 팀 구성원만 읽을 수 있도록 파일을 암호화 하는 팀을 구성할 수 있습니다. 자세한 내용은 [보안 격리를 사용 하 여 팀 구성을](secure-teams-security-isolation.md) 참조 하세요.
 
@@ -103,8 +103,8 @@ Microsoft 365에서는 다음과 같은 다양 한 구성을 사용 하 여 팀�
 
 공유 되는 정보의 민감도에 따라, 과잉 공유를 방지 하는 보호 기능을 추가할 수 있습니다. 이러한 리소스는 조직에 필요한 보호를 설정 하는 데 도움이 됩니다.
 
-- [인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례](best-practices-anonymous-sharing.md)
-- [파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출을 제한](share-limit-accidental-exposure.md)
+- [인증되지 않은 사용자와 파일 및 폴더를 공유하는 최우수 사례](best-practices-anonymous-sharing.md)
+- [파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출 제한하기](share-limit-accidental-exposure.md)
 - [보안 게스트 공유 환경 만들기](create-secure-guest-sharing-environment.md)
 
 파트너 조직이 포함 된 주요 프로젝트인 경우 Azure 권한 관리를 사용 하 여 프로젝트에 대해 설정한 팀의 해당 조직에서 게스트를 관리할 수 있습니다. 자세한 내용은 [관리 되는 게스트를 사용 하 여 B2B 엑스트라넷 만들기](b2b-extranet.md) 를 참조 하세요.

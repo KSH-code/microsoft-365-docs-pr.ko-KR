@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 695edb08c8316cf3f95af37321d5ab3a7d53399d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 765e9b3ed18e15cd458913e7f943d52f791dbafd
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602685"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065883"
 ---
 # <a name="baseline-informatiebeveiliging-rijksdienst-standard-bir-2012"></a>Baseline Informatiebeveiliging Rijksdienst 표준(BIR 2012)
 
@@ -75,7 +75,3 @@ Microsoft 온라인 서비스는 네덜란드 내의 조직이 BIR 규정 준수
 - [Prescription information security national 2007 (VIR)](https://wetten.overheid.nl/BWBR0022141/2007-07-01)
 - [BIR (Baseline Information Security )](https://www.earonline.nl/index.php/BIR_2012)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/F/0/0/F00F62B6-254B-41AC-AC79-7A43CD6E376C/BIR2012-Compliance.pdf)를 다운로드합니다.

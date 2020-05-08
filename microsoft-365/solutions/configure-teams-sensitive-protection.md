@@ -13,15 +13,16 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
+- M365solutions
 ms.custom:
 - Ent_Solutions
 description: 중요한 데이터를 보호하는 팀을 배치하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6c3d79e212a1a0333a7262b72ae0f1db8597096f
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 6ad5de355055ac193979db9154d54ab9974fcde0
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002980"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159924"
 ---
 # <a name="configure-teams-with-protection-for-sensitive-data"></a>중요한 데이터를 보호하는 팀 구성하기
 

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: dd12d261c52f79bf6b9e8de747bb8fcaec775686
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2582dcc9c865ad96390163ffef819811906cf0de
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602205"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066625"
 ---
 # <a name="spanish-royal-decree-17202007-spanish-organic-law-151999"></a>스페인 칙령 1720/2007, 스페인 기본법 15/1999
 
@@ -73,7 +73,3 @@ Microsoft는 스페인 기본법 15/1999 (LOPD, Ley Orgánica 15/1999 de Protecc
 - 개인정보 보호를 위한 스페인 기본법 15/1999, 12월 13일 공표, [스페인어](https://www.boe.es/buscar/act.php?id=BOE-A-1999-23750)
 - [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/A/2/8/A280F049-3C15-4638-A2FA-EFD2793A956E/LOPD-Compliance.pdf)를 다운로드합니다.

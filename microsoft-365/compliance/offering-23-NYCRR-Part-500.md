@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e5d9c847173af4155d6c9eb0f8c59a07053435c2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e9b72f7206ff83b790cf41c00e3f7042eadf3664
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602895"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066665"
 ---
 # <a name="title-23-nycrr-part-500"></a>Title 23 NYCRR Part 500
 
@@ -40,7 +40,7 @@ Microsoft는 Title 23 NYCRR Part 500에 따라 규제되는 재무 서비스를 
 - 사이버 보안 프로그램을 관리하고 정책을 적용하기 위한 **수석 정보 보안 책임자(CISO)를 지정**합니다. CISO를 지원하기 위해 Microsoft는 [Azure Security Center](https://azure.microsoft.com/services/security-center/?v=17.23h), [Office 365 Advanced Threat Analytics](https://docs.microsoft.com/advanced-threat-analytics/) 및 [Power BI 보안](https://go.microsoft.com/fwlink/?LinkId=829185)을 통해 Microsoft 클라우드 배포에 대한 심층 사이버 보안 정보를 제공합니다.
 - **사이버 보안 프로그램의 효율성 모니터링 및 테스트**: Microsoft에서는 지속적인 모니터링, 주기적인 침투 테스트, 취약점 평가를 포함 하는 사이버 보안 관행 감사에 대한 정보를 제공합니다. 고객은 사전에 Microsoft에서 제공 하는 고급 권한을 사용하지 않고 자체 테스트를 수행할 수 있습니다.
 - **감사 내역을 관리합니다.** Azure, Office 365 및 Power BI 고객에 대한 기본 제공 감사 기능은 재무 거래를 재구성하고 감사 추적 정보를 개발하는 데 사용할 수 있는 정보를 생성합니다.
-- **비공개 정보를 포함하는 정보 시스템에 대한 액세스 제한**" Azure, Office 365, Power BI는 각 서비스에 대한 기본 RBAC(역할 기반 액세스 제어) 프로세스, 모든 Microsoft 관리자의 엄격한 보안 및 액세스 요구 사항, 강화된 액세스 권한에 대한 모든 요청 감사를 제공하는지 평가합니다.
+- **비공개 정보를 포함하는 정보 시스템에 대한 액세스 제한**: Azure, Office 365, Power BI는 각 서비스에 대한 기본 RBAC(역할 기반 액세스 제어) 프로세스, 모든 Microsoft 관리자의 엄격한 보안 및 액세스 요구 사항, 강화된 액세스 권한에 대한 모든 요청 감사를 제공하는지 평가합니다.
 - **외부 개발 애플리케이션에 대한 보안을 평가하고 테스트하기 위한 절차 도입**: Visual Studio를 사용하는 개발자는 관리 코드에 대한 [보안 규칙](https://docs.microsoft.com/visualstudio/code-quality/security-rules-rule-set-for-managed-code)을 코드가 배포되기 전에 애플리케이션 사이버 보안 위협이 감지되고 완화되는지 확인할 수 있습니다.
 - **주기적인 위험 평가를 사용하여 사이버 보안 프로그램을 설계 및 개선**: 고객을 위해 Microsoft는 보안 위협에 대한 정보를 집계하고 변경 관리의 로드맵을 제공하며 하도급업자에 대한 정보를 정기적으로 업데이트합니다. Microsoft는 또한 고객에게 제공되는 결과인 자체 서비스에 대한 위험 평가를 정기적으로 실시합니다.
 - **공인 담당자를 통해 사이버 보안 위험을 관리하고 사이버 보안 기능을 감독**: Microsoft는 직원들이 고객 데이터에 액세스하는 데 엄격한 절차를 사용합니다. 하도급업자를 고용하는 경우 서비스 제공을 관리하고, 중요한 데이터를 처리하는 데 필요한 요구 사항, 신원 조사 및 비공개 계약을 비롯하여 하도급업자가 Microsoft의 개인정보취급방침 및 보안 지침 내용을 완전하게 준수하는지 확인합니다.
@@ -76,7 +76,3 @@ Microsoft는 Title 23 NYCRR Part 500에 따라 규제되는 재무 서비스를 
 - [Microsoft 클라우드 금융 서비스 규정 준수 프로그램](https://www.microsoft.com/download/confirmation.aspx?id=55332)
 - [Azure에서의 금융 서비스 규정 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [클라우드 컴퓨팅에 대한 공동 책임](https://aka.ms/sharedresponsibility)- 
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/9/F/B/9FB6EE03-0096-4820-A5BF-B633EE2BE0B7/23NYCRR_Part500-Compliance.pdf)를 다운로드합니다.

@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: '비즈니스용 Microsoft 365에서 사용자의 암호를 다시 설정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 99ec6423b835204624f91977b6f138fa7c8ba8cd
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 14226927680c70035a01d9390f114cb0bfddbf38
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049450"
+ms.locfileid: "44064812"
 ---
 # <a name="reset-passwords"></a>암호 다시 설정
 
@@ -93,7 +93,7 @@ ms.locfileid: "44049450"
     
 - 조직의 다른 전역 관리자에 게 암호를 다시 설정 하도록 요청 합니다.
     
-- [Microsoft 지원 서비스에 문의](https://docs.microsoft.com/en-us/microsoft-365/admin/contact-support-for-business-products)합니다. 
+- [Microsoft 지원 서비스에 문의](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)합니다. 
     
 ## <a name="reset-all-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a>조직의 모든 사용자에 대 한 모든 비즈니스 암호를 동시에 다시 설정
 <a name="bkmk_forgot"> </a>

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 31c67d9beb0a99019ceb204293de50c194a3d2a6
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f80167a45379a143d7a96e568aedbc27484090a4
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602495"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064717"
 ---
 # <a name="spain-esquema-nacional-de-seguridad-ens-high-level-security-measures"></a>Spain Esquema Nacional de Seguridad(ENS) 높은 수준의 보안 조치
 
@@ -38,8 +38,6 @@ ms.locfileid: "41602495"
 ## <a name="microsoft-and-spain-ens-high-level-security-measures"></a>Microsoft 및 스페인 ENS 높은 수준의 보안 조치
 
 Microsoft Azure 및 Microsoft Office 365는 이들에 대한 규정 준수 공식 문서를 발행한 독립된 감사자인 BDO의 엄격한 평가를 거쳤습니다. 두 개의 서비스 모두와 이 서비스의 정보 시스템 및 데이터 처리 시설의 보안 조치는 RD 3/2010의 높은 수준을 준수하며 시정 조치를 취할 필요가 없다고 BDO는 보고합니다. Microsoft는 스페인에서 이 인증을 받은 최초의 하이퍼스케일 클라우드 서비스 공급업체입니다.
-
-Microsoft 클라우드에서의 스페인 ENS 고급 보안 조치의 혜택에 대해 알아보세요. [스페인 ENS 배경 설명을 다운로드하세요](https://aka.ms/spainens-backgrounder)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
@@ -79,7 +77,3 @@ Microsoft 클라우드에서의 스페인 ENS 고급 보안 조치의 혜택에 
 - Esquema Nacional de Seguridad of Spain([스페인어](https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Seguridad_Inicio/pae_Esquema_Nacional_de_Seguridad.html?idioma=sp#.Vwxp82mcGM8) 및 [영어](https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Seguridad_Inicio/pae_Esquema_Nacional_de_Seguridad.html?idioma=en#.VwvcgmmcGM9))
 - [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/2/3/2/23208181-BA86-4011-8B4A-3CA7E8E383A1/ENS-Spain-Compliance.pdf)를 다운로드합니다.

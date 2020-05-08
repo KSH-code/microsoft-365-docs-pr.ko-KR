@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: e135ceec2ac4abcd0bfd5183fb19089a97dc4bb4
-ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
+ms.openlocfilehash: 4f52cb4ff6809bee7582e2c030fb782f6ac35fd8
+ms.sourcegitcommit: 9ffa2fd25776726475e10148940987fa076bbd91
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44043299"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44162690"
 ---
 # <a name="insider-risk-management-policies"></a>참가자 위험 관리 정책
 
@@ -52,7 +52,9 @@ ms.locfileid: "44043299"
 대부분의 조직에서 데이터를 보호 하 고 데이터 누출을 방지 하는 것은 특히 직원, 장치 및 서비스에서 만든 새 데이터를 빠르게 확장 하는 것입니다. 직원은 데이터 손실을 보다 복잡 하 고 다루기 쉽게 관리 하는 다양 한 서비스 및 장치에서 정보를 만들고 저장 하 고 공유할 수 있습니다. 데이터 누출은 조직 외부의 정보를 실수로 과도 하 게 공유 하거나 악의적인 의도로 데이터를 도용 하는 것을 포함할 수 있습니다. 이 서식 파일은 의심 스러운 SharePoint Online 데이터 다운로드, 파일 및 폴더 공유, USB 드라이브와 같은 휴대용 장치에 파일 복사, 파일 인쇄 및 개인 클라우드 메시징 및 저장소 서비스에 데이터 복사의 우선 순위를 우선적으로 검색 합니다.
 
 >[!IMPORTANT]
->이 서식 파일을 사용 하는 경우에는 하나 이상의 DLP (데이터 손실 방지) 정책을 구성 하 여 조직에서 중요 한 정보를 정의 해야 합니다. 조직의 DLP 정책을 구성 하는 단계별 지침은 [dlp 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md) 항목을 참조 하십시오.
+>이 서식 파일을 사용 하는 경우에는 하나 이상의 DLP (데이터 손실 방지) 정책을 구성 하 여 조직에서 중요 한 정보를 정의 해야 합니다. 이 서식 파일에 사용 되는 참가자 위험 관리에 사용할 DLP 정책의 **문제 보고서** 설정이 *높은* 심각도 수준 알림에 대해 구성 되어 있는지 확인 합니다. *낮음* 또는 *보통*으로 **인시던트 보고서** 필드가 설정 된 DLP 정책에서 참가자 위험 관리 알림이 생성 되지 않습니다.
+>
+>조직의 DLP 정책을 구성 하는 단계별 지침은 [dlp 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md) 항목을 참조 하십시오.
 
 ### <a name="offensive-language-in-email"></a>전자 메일의 공격적인 언어
 

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 728208960932ea8d642ad1604d45ba321f021735
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: 0b0c9089d7a61f328e7942aefc605b49148aa454
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "42313763"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066351"
 ---
 # <a name="financial-market-supervisory-authority-finma-switzerland"></a>스위스 금융시장감독청 (FINMA, Financial Market Supervisory Authority)
 
@@ -69,7 +69,3 @@ Microsoft의 점검 목록은 스위스 금융 기업이 Microsoft 비즈니스 
 - [Azure에서의 금융 서비스 규정 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Azure 금융 서비스 클라우드 위험 평가 도구](https://aka.ms/FFIEC-CSDT)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/4/6/A/46AE2B08-49ED-478F-8E64-6BDE9B56C5F4/FINMA-Compliance.pdf)를 다운로드합니다.

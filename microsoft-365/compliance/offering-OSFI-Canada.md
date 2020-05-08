@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f4cb36cd208017881dd03a99d4e8c8adbbea65d4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7a43011a1d81c014526b1dd9178d051162e96acd
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602075"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065963"
 ---
 # <a name="office-of-the-superintendent-of-financial-institutions-osfi-canada"></a>Office of the Superintendent of Financial Institution(금융감독원:OSFI) 캐나다
 
@@ -75,7 +75,3 @@ ms.locfileid: "41602075"
 - [Azure에서의 금융 서비스 규정 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Azure 금융 서비스 클라우드 위험 평가 도구](https://aka.ms/FFIEC-CSDT)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/6/9/9/699E9434-6376-4F2A-A666-1F10D715B898/OFSI-Compliance.pdf)를 다운로드합니다.

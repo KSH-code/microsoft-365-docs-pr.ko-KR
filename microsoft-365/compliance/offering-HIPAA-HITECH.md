@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 182e3489824c7842f5e9cf6a410d49d574b7462c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8a7a64532aeb7053572b78a6b05a757bf6d1b006
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638002"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066461"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>HITECH의 상태 보험 이식성 및 책임 (HIPAA) &
 
@@ -57,7 +57,7 @@ Microsoft 엔터프라이즈 클라우드 서비스에는 FedRAMP 평가도 포�
 - Cloud App Security
 - Microsoft Health Bot 서비스
 - Microsoft Stream
-- Microsoft 전문 서비스: Azure, Dynamics 365, Intune, 중소 기업 및 기업 고객을 위한 Microsoft 365 비즈니스에 대 한 프리미어 및 온-프레미스
+- Microsoft 전문 서비스: Azure, Dynamics 365, Intune, 비즈니스용 Microsoft 365의 중간 규모 비즈니스 및 엔터프라이즈 고객 대상 프리미어 및 온-프레미스
 - [Dynamics 365 및 Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스
 - Intune
@@ -72,7 +72,7 @@ Azure 보안 및 규정 준수 청사진 (HIPAA/HITRUST Health Data and AI)을 �
 
 [Azure HIPAA/HITRUST 청사진 사용 시작](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/)
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **조직이 Microsoft의 BAA에 입력 될 수 있나요?**
 
@@ -115,7 +115,3 @@ Microsoft 서비스가 모든 고객에 대해 일관성이 있으므로 microso
 - [Azure에서 HIPAA 준수 이해](https://www.youtube.com/embed/6ptdye1LZ5k?autoplay=0)(5 월 19 2016 일)
 - [Azure HIPAA 구현 지침](https://aka.ms/azure-hipaa-guide)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/4/6/B/46BB3C98-AE2B-42C1-A2CD-F7C0040FB6B8/HIPAA_Compliance_Backgrounder.pdf)를 다운로드합니다.

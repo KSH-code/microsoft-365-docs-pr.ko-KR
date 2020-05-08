@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4ad74c8d4ec71587f88a80c3ee109500e230be35
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e2b314934a51c16ab4e907b7d9f6208e7de21641
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071225"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065713"
 ---
 # <a name="securities-and-exchange-commission-regulation-systems-compliance-and-integrity-sci"></a>증권 및 Exchange 위원회: 규정 시스템 준수 및 무결성 (SCI)
 
@@ -52,9 +52,9 @@ SCI 규칙은 SCI 엔터티에 적용 되며, 이러한 조직은 SROs를 주식
 - [규제 SCI 구현 가이드](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=a69ce0c1-7b7e-44e9-9143-867241e6b2f9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_FAQ_and_White_Papers): 규정에 따라 Azure 기능을 매핑하고 규정 준수에 대 한 공유 책임을 자세히 설명 합니다.
 - [안정적인 azure 응용 프로그램 디자인](https://docs.microsoft.com/azure/architecture/resiliency/): azure 응용 프로그램 설계의 각 단계에 대 한 안정성을 구축 하는 방법에 대 한 간략 한 개요입니다.
 - [고가용성 응용 프로그램 디자인](https://docs.microsoft.com/azure/storage/common/storage-designing-ha-apps-with-ragrs): 개발자가 Azure Storage 응용 프로그램을 항상 사용할 수 있도록 하는 방법에 대해 알아봅니다.
-- [위험 평가 & 규제 준수 가이드](https://aka.ms/RiskGovernanceGuide): Microsoft 클라우드 서비스의 위험 평가 및 규제 기관의 알림에 대한 거버넌스 모델을 만듭니다.
+- [위험 평가 & 준수 가이드](https://aka.ms/RiskGovernanceGuide): Microsoft 클라우드 서비스의 위험 평가 및 규제 기관의 알림에 대한 거버넌스 모델을 만들 수 있습니다.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **클라우드 기술을 사용할 때의 공유 역할 이란 무엇을 의미 하나요?**
 
@@ -62,7 +62,7 @@ SCI 규칙은 SCI 엔터티에 적용 되며, 이러한 조직은 SROs를 주식
 
 **규정 SCI 요구 사항을 충족 하기 위해 Azure를 활용할 수 있는 금융 기관**
 
-이 규정의 영향을 받는 금융 조직 또는 SCI 엔터티에서 Azure를 배포할 수 있습니다. 초는 재고 및 옵션 교환, 등록 된 정부 기관, FINRA 및 MSRB, ATSs를 비롯 한 ' 자체 규정 조직 (SROs) '에 해당 규정이 적용 되며,이를 사용 하 여 NMS 및 NMS가 지정 된 주식을 초과 하는 것을 의미 합니다. 볼륨 임계값, disseminators 통합 시장 데이터 (요금제 프로세서) 및 특정 면제 지우기 기관 ' '
+이 규정의 영향을 받는 금융 조직 또는 SCI 엔터티에서 Azure를 배포할 수 있습니다. 초에는 증권 및 options 교환, 등록 된 클리어 정부, FINRA 및 MSRB, disseminators가 지정 된 볼륨 임계값을 초과 하는 ATSs (대체 거래 시스템), 특정 한 제외 지우기 기관 등을 포함 하는 "자가 규정 조직 (SROs)"에 대 한 규정이 적용 됩니다.
 
 ## <a name="resources"></a>리소스
 
@@ -74,7 +74,3 @@ SCI 규칙은 SCI 엔터티에 적용 되며, 이러한 조직은 SROs를 주식
 - [Microsoft 금융 서비스](https://aka.ms/FinServ-Compliance)
 - [Microsoft 및 SEC 규칙 17a-4](offering-SEC-17a-4.md)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/8/1/a/81aa04eb-3c1f-4c1a-ba7d-9d30032acc52/SEC_Reg_SCI-Compliance.pdf)를 다운로드합니다.

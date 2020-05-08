@@ -1,7 +1,7 @@
 ---
 title: US DoE 10 CFR 부분 810
 description: 고객은 Azure 정부를 사용할 수 있는 US DoE 10 CFR 파트 810의 수출 관리 요구 사항을 따릅니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f9054c164efa340b489de917fb820e0460123df5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b34babe60781858b85a3c76280c2126094442851
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601975"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066441"
 ---
 # <a name="us-doe-10-cfr-part-810"></a>US DoE 10 CFR 부분 810
 
@@ -45,9 +45,9 @@ FedRAMP에서는 Azure 정부에서 엄격한 NIST 컨트롤로 설계 된 계�
 
 ## <a name="about-doe-10-cfr-part-810"></a>DoE 10 CFR Part 810
 
-미국 에너지 (DoE) 수출 통제 규정 [10 CFR 부분 810](https://www.govinfo.gov/content/pkg/FR-2015-02-23/pdf/2015-03479.pdf) 에서는 분류 되지 않은 핵 기술 및 지원의 수출을 제어 합니다. 이를 통해 미국에서 내보내진 핵 기술이 peaceful 목적 으로만 사용 되도록 할 수 있습니다. 수정 된 부분 810 (Final Rule)은 3 월 2015에 적용 되 고 [국내 핵 보안 관리](https://www.energy.gov/nnsa/national-nuclear-security-administration)에 의해 관리 됩니다. 810.6 섹션에서는 특정 권한 부여를 요구 하는 모든 지원 및 중요 한 기밀 기술 (예: 지원에 대 한 제공)을 제공 하기 위해 특정 DoE 권한 부여가 필요 하다는 것을 설명 합니다. 향상 및 중형 온수와 같은 중요 한 핵 기술이 포함 되어 있습니다.
+미국 에너지 (DoE) 수출 통제 규정 [10 CFR 부분 810](https://www.govinfo.gov/content/pkg/FR-2015-02-23/pdf/2015-03479.pdf) 에서는 분류 되지 않은 핵 기술 및 지원의 수출을 제어 합니다. 이를 통해 미국에서 내보내진 핵 기술이 peaceful 목적 으로만 사용 되도록 할 수 있습니다. 수정 된 부분 810 (Final Rule)은 3 월 2015에 적용 되 고 [국내 핵 보안 관리](https://www.energy.gov/nnsa/national-nuclear-security-administration)에 의해 관리 됩니다. 810.6 섹션에는 향상 및 고급 물의 생산과 같은 중요 한 핵 기술이 필요한 경우와 같이 특정 인증을 요구 하는 모든 지원 및 중요 한 기밀 기술의 전송에 대 한 특정 DoE 인증이 필요 합니다.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **미국 핵 규제 위원회에 대 한 10 CFR 부분 110 규정은 Azure 정부에 적용 됩니까?**
 
@@ -68,7 +68,3 @@ Azure 정부에 데이터를 배포 하는 고객은 자체 보안 분류 프로
 - [Microsoft 및 DoD](offering-dod-disa-l2-l4-l5.md)
 - [Microsoft Government 클라우드](https://www.microsoft.com/enterprise/government)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/A/E/3/AE309D0E-F8D5-42C9-9B36-86FF51464AFC/DOE_10CFR_Part810-Compliance.pdf)를 다운로드합니다.

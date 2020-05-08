@@ -14,15 +14,15 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
-ms.custom:
 - M365solutions
+ms.custom: ''
 description: Microsoft 365 클라우드 서비스로의 액세스를 최적화하는 동안 원격 작업자는 온-프레미스 리소스에 액세스할 수 있는지 확인합니다.
-ms.openlocfilehash: daa1a04912dd83c7a53769299b3870b90dbfd33a
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 363f2a5edb43d294be5a8ecfe0fd02964dd8b945
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049561"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160753"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>2단계. 온-프레미스 앱 및 서비스로의 원격 액세스 제공
 

@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Microsoft 365 for business 구독이 만료 되거나, 사용 하지 않도록 설정 되었거나, 취소 된 경우 데이터에 대 한 결과를 알아봅니다.
-ms.openlocfilehash: cd90b0b5825b2888b1194998c25a2ce9c7c28718
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 363d8379bb2fa34e58a81892beadcebb9c6624f2
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707610"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165128"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>내 데이터 및 액세스에 대 한 Microsoft 365 for business 구독이 종료 될 때 어떤 일이 발생 하나요?
 
@@ -50,7 +50,7 @@ ms.locfileid: "43707610"
 * 대부분의 국가 및 지역에서 제공 됩니다.
   
 > [!NOTE]
-> **"고객 데이터" 란?** [Microsoft Online Services 조항](https://go.microsoft.com/fwlink/p/?LinkId=613649)에 정의 된 대로 고객 데이터는 고객의 microsoft 365 서비스 사용을 통해 고객에 게 microsoft에 의해 제공 되는 모든 텍스트, 사운드 또는 이미지 파일을 포함 하 여 모든 데이터를 나타냅니다. 고객 데이터를 보호 하는 방법에 대 한 자세한 내용은 [Microsoft Service Trust Portal 시작](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662)을 참조 하세요.
+> **"고객 데이터" 란?** [Microsoft Online Services 조항](https://go.microsoft.com/fwlink/p/?LinkId=613649)에 정의 된 대로 고객 데이터는 고객의 microsoft 365 서비스 사용을 통해 고객에 게 microsoft에 의해 제공 되는 모든 텍스트, 사운드 또는 이미지 파일을 포함 하 여 모든 데이터를 나타냅니다. 고객 데이터를 보호 하는 방법에 대 한 자세한 내용은 [Microsoft Service Trust Portal 시작](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal)을 참조 하세요.
   
 ## <a name="what-are-my-options-if-my-subscription-is-about-to-expire"></a>구독 만료를 위해 내 옵션 이란?
 

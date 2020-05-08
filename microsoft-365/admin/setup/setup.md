@@ -25,12 +25,12 @@ search.appverid:
 - BEA160
 ms.assetid: 6a3a29a0-e616-4713-99d1-15eda62d04fa
 description: Microsoft 365 Business Standard, Microsoft 365 Business Basic, 비즈니스용 Microsoft 365 앱 또는 Office 365 Education 구독을 설정하는 방법을 알아봅니다.
-ms.openlocfilehash: 812d1a65986f53e53a02d4c1b70c823dffa98786
-ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
+ms.openlocfilehash: 9415d81e88234ac537bb531d531b891f0a4feb80
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44053863"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165086"
 ---
 # <a name="set-up-microsoft-365-for-business"></a>비즈니스용 Microsoft 365 설정
 
@@ -286,7 +286,7 @@ Office 365 Germany를 사용하는 경우 [https://portal.office.de/OLS/MySoftwa
 
 모바일 장치에 Office를 설치하고, Outlook이 새 Microsoft 사서함과 작동하도록 설정합니다. 팀의 모든 구성원이 이 단계를 수행해야 합니다. 각 사용자는 최대 5대의 휴대폰 및 5대의 태블릿에 Office 모바일 앱을 설치할 수 있습니다.
   
-각 장치에 대한 단계는 다음을 확인하세요. [Android](https://support.office.com/article/6ef2ebf2-fc2d-474a-be4a-5a801365c87f.aspx) | [iOS](https://support.office.com/article/0402b37e-49c4-4419-a030-f34c2013041f.aspx) | [Windows Phone](https://support.office.com/article/9bccc8b8-a321-4d0d-a45e-6e06a3438e43.aspx)
+각 장치에 대한 단계는 다음을 확인하세요. [Android](https://support.office.com/article/6ef2ebf2-fc2d-474a-be4a-5a801365c87f.aspx) | [iOS](https://support.office.com/article/0402b37e-49c4-4419-a030-f34c2013041f.aspx) | [Windows Phone](https://support.microsoft.com/ko-KR/office/set-up-office-apps-and-email-on-windows-phone-9bccc8b8-a321-4d0d-a45e-6e06a3438e43)
   
 ### <a name="4-store-files-online"></a>4. 온라인에 파일 저장
 
@@ -314,7 +314,7 @@ Microsoft 365를 둘러보고 Office 모바일 앱을 사용하는 방법을 알
 
 - **도움 받기** 고급 배포에 대한 도움을 받으려면 **[FastTrack](https://www.microsoft.com/ko-KR/fasttrack/microsoft-365/office-365)** 에서 시작해 보세요. [파트너를 찾아](https://go.microsoft.com/fwlink/p/?linkid=391089) 도움을 받을 수도 있습니다.
 
-- **계획** 이러한 도구와 리소스를 통해 Office 365에 대해 네트워크, 디렉터리, 사용자를 준비할 수 있습니다. [조직의 Office 365 Enterprise 사용 준비](https://support.office.com/article/712fced7-f9d0-4fde-8b79-286262a5d0bc).
+- **계획** 이러한 도구와 리소스를 통해 Office 365에 대해 네트워크, 디렉터리, 사용자를 준비할 수 있습니다. [조직의 Office 365 Enterprise 사용 준비](https://docs.microsoft.com/office365/enterprise/get-your-organization-ready-for-office-365).
 
 ### <a name="1-add-your-school-domain-or-connect-your-directory"></a>1. 학교 도메인 추가 또는 디렉터리 연결
 
@@ -340,25 +340,25 @@ Office 365 Germany를 사용하는 경우 [이 관리 센터](https://go.microso
 
 마법사를 시작하려면 **설정으로 이동**을 선택합니다.
 
-[설정 마법사 사용](https://support.office.com/article/3c62a3b7-1680-41ca-943c-0ff01566bace.aspx)에서 마법사를 실행하면 수행되는 단계를 확인할 수 있습니다.
+[설정 마법사 사용](https://docs.microsoft.com/microsoft-365/admin/setup/plan-your-setup)에서 마법사를 실행하면 수행되는 단계를 확인할 수 있습니다.
   
-온-프레미스 디렉터리에서 사용자를 동기화하거나 Single Sign-On을 사용하려면 **설치 마법사를 사용하여 사용자를 추가하지 않습니다**. 그 대신 다음 안내를 살펴보고 옵션을 확인합니다. [Office 365에 디렉터리 연결](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9). 다음 중 하나를 설정합니다.
+온-프레미스 디렉터리에서 사용자를 동기화하거나 Single Sign-On을 사용하려면 **설치 마법사를 사용하여 사용자를 추가하지 않습니다**. 그 대신 다음 안내를 살펴보고 옵션을 확인합니다. [Office 365에 디렉터리 연결](https://docs.microsoft.com/office365/enterprise/about-office-365-identity). 다음 중 하나를 설정합니다.
   
-- [](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9#BK_Sync). 온-프레미스 디렉터리와 동기화합니다. 온-프레미스에서 사용자를 관리합니다. 사용자가 온-프레미스와 클라우드에서 동일한 암호를 사용하도록 암호를 동기화할 수도 있지만 Office 365를 사용하기 위해서는 다시 로그인해야 합니다.
+- [](https://docs.microsoft.com/office365/enterprise/about-office-365-identity#BK_Sync). 온-프레미스 디렉터리와 동기화합니다. 온-프레미스에서 사용자를 관리합니다. 사용자가 온-프레미스와 클라우드에서 동일한 암호를 사용하도록 암호를 동기화할 수도 있지만 Office 365를 사용하기 위해서는 다시 로그인해야 합니다.
 
-- [](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9#BK_Federated). 온-프레미스 디렉터리와 동기화합니다. 온-프레미스에서 사용자를 관리합니다. 사용자가 온-프레미스와 클라우드에서 동일한 암호를 사용하며 Office 365를 사용하기 위해 다시 로그인할 필요가 없습니다. 이를 보통 Single Sign-On이라고 합니다.
+- [](https://docs.microsoft.com/office365/enterprise/about-office-365-identity#BK_Federated). 온-프레미스 디렉터리와 동기화합니다. 온-프레미스에서 사용자를 관리합니다. 사용자가 온-프레미스와 클라우드에서 동일한 암호를 사용하며 Office 365를 사용하기 위해 다시 로그인할 필요가 없습니다. 이를 보통 Single Sign-On이라고 합니다.
 
 ### <a name="2-set-up-services"></a>2. 서비스 설정
 
-전자 메일, 파일 공유, 메신저 대화 또는 다른 Office 365 서비스 및 응용 프로그램을 설정합니다. [Office 365 Enterprise 서비스 및 응용 프로그램 구성](https://support.office.com/article/7cec08a5-97fd-4761-b23b-ef3d66519e30).
+전자 메일, 파일 공유, 메신저 대화 또는 다른 Office 365 서비스 및 응용 프로그램을 설정합니다. [Office 365 Enterprise 서비스 및 응용 프로그램 구성](https://docs.microsoft.com/office365/enterprise/configure-services-and-applications).
   
 이 단계에서는 인당 최대 5대의 PC 및 노트북에 Office 365를 설치할 수 있습니다.
   
 ### <a name="3-migrate-data"></a>3. 데이터 마이그레이션
 
-서비스가 구성되면 전자 메일 및 파일처럼 데이터 마이그레이션을 시작할 수 있습니다. [조직 데이터를 Office 365 Enterprise로 마이그레이션](https://support.office.com/article/e2fdfc8d-547e-4419-8628-2738ed4e0f46).
+서비스가 구성되면 전자 메일 및 파일처럼 데이터 마이그레이션을 시작할 수 있습니다. [조직 데이터를 Office 365 Enterprise로 마이그레이션](https://docs.microsoft.com/office365/enterprise/migrate-data-to-office-365).
   
-학생 및 교직원을 위한 SIS(학생 정보 시스템)를 사용하는 경우, [SIS 통합 설정](https://support.office.com/article/f3d1147b-4ade-4905-8518-508e729f2e91.aspx)에 대해 알아보세요.
+학생 및 교직원을 위한 SIS(학생 정보 시스템)를 사용하는 경우, [SIS 통합 설정](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync)에 대해 알아보세요.
   
 ### <a name="train-your-users"></a>사용자 교육
 

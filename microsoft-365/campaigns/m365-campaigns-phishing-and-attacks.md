@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 for 캠페인을 통해 피싱 및 기타 공격 으로부터 보호 합니다.
-ms.openlocfilehash: 2b0acd42b1c272bba7078bf6bc09944540ca9e42
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 6f53cc069de2d9162d81a5049128dd35064003c1
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080605"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165712"
 ---
 # <a name="protect-yourself-against-phishing-and-other-attacks"></a>피싱 및 기타 공격 으로부터 자신을 보호 합니다.
 
@@ -43,7 +43,7 @@ Microsoft 365에는 공격 으로부터 보호할 수 있는 다양 한 보호 �
 
 **스팸 메일을 줄입니다.**
 
-[스팸을 줄이는 방법에 대 한 다음 10 가지 팁](https://support.office.com/article/10-tips-on-how-to-help-reduce-spam-55F756E8-688B-41C3-A086-8F68CCC592F6)을 따릅니다.
+[스팸을 줄이는 방법에 대 한 다음 10 가지 팁](https://support.microsoft.com/en-us/office/10-tips-on-how-to-help-reduce-spam-55f756e8-688b-41c3-a086-8f68ccc592f6)을 따릅니다.
 
 **보고서!**
 
@@ -74,6 +74,6 @@ Microsoft 365에는 공격 으로부터 보호할 수 있는 다양 한 보호 �
 ## <a name="set-it-up"></a>설정하기
 
 자세한 내용은 다음을 참고 하세요.
-- [파일 및 통신을 Office와 안전 하 게 유지](https://support.office.com/article/keep-your-files-and-communications-safe-with-office-c4ddc381-7395-42da-887c-8836a3bb975f)합니다.
+- [파일 및 통신을 Office와 안전 하 게 유지](https://support.microsoft.com/en-us/office/keep-your-files-and-communications-safe-with-office-c4ddc381-7395-42da-887c-8836a3bb975f)합니다.
 - [회사에서 보안 및 사설을 유지](https://support.office.com/article/stay-secure-and-private-at-work-104c7d91-b25a-453d-beee-ba64b6c6fc2d)합니다.
   
