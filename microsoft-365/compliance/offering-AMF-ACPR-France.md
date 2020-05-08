@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 04b14f913a9b513ee5235223315daa2611395854
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 931aab574fd5bea59c2dca997fdff02db8a2e1c6
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42363034"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066645"
 ---
 # <a name="financial-authority-amf-and-prudential-authority-acpr-france"></a>프랑스 재무 기관(AMF) 및 건전성 감독청(ACPR)
 
@@ -76,8 +76,3 @@ EBA 게시물인 [클라우드 서비스 공급자로의 아웃소싱에 대한 
 - [Azure에서의 금융 서비스 규정 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Azure 금융 서비스 클라우드 위험 평가 도구](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint?command=Download&downloadType=Document&downloadId=079a1973-711a-428f-9312-9ddd290cff7b&docTab=c726d5c0-2d1e-11e8-a485-57140ec19669_PaaS)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/3/D/8/3D81D753-0896-4D8C-9131-D9F9153942DB/AMF-ACPR-Compliance.pdf)를 다운로드합니다.
-

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: eca929b495a6f6d059b0015afa0bf5ab18fabd78
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ea2700b8bee62b045d3a65ff95097cae567c239e
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602605"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066261"
 ---
 # <a name="cloud-security-mark-gold-cs-gold-mark"></a>클라우드 보안 마크 골드(CS 골드 마크)
 
@@ -65,7 +65,3 @@ Microsoft에서는 JASA 공인 감사자에 의한 엄격한 평가를 거친 �
 - [ISO/IEC 27017: 2015](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=43757)
 - [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/D/A/A/DAAF35AB-60DE-4A70-AF1D-DD5CBAF16477/CSMarkGold-Compliance.pdf)를 다운로드합니다.

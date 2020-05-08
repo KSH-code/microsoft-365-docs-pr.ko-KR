@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a13274aea83bf26eca8ecde524eafa14d27b4fca
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 37c460732704da4c5904005cf8ebaabf36b92c49
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602565"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066109"
 ---
 # <a name="cloud-security-alliance-csa-star-certification"></a>CSA(Cloud Security Alliance) STAR 인증
 
@@ -36,8 +36,6 @@ CSA(Cloud Security Alliance)는 STAR(Security, Trust & Assurance Registry: 보�
 Microsoft Azure, Microsoft Intune 및 Microsoft Power BI는 클라우드 공급자의 보안 상태에 대한 엄격한 독립적인 제삼자 평가가 포함된 STAR 인증을 획득했습니다. 이 STAR 인증은 ISO/IEC 27001 인증을 획득과 CCM에 지정된 기준 충족에 기반합니다. 이는 클라우드 서비스 공급자가 ISO/IEC 27001의 해당 요구 사항을 준수하고 CCM에 설명된 클라우드 보안에 중요한 문제를 해결했으며 CCM 제어 영역의 활동 관리를 위해 STAR 기능 성숙도 모델에 대해 평가되었음을 입증합니다.  
   
 평가 중에 공인된 CSA 인증 감사자는 각 16개의 CCM 제어 영역에 성숙도 기능 점수를 할당합니다. 그런 다음 평균 점수를 사용 하 여 전체 성숙도와 해당 하는 청동, 실버 또는 금색을 할당 합니다. 그런 다음 평균 점수를 사용하여 전체 성숙도 수준과 상응하는 동상, 은상, 또는 금상을 배정합니다. Azure, Intune, Power BI, Microsoft Cloud App Security는 금 수준으로 CSA(Cloud Security Alliance) STAR 인증을 받았습니다.  
-  
-Microsoft 클라우드에서 CSA STAR 인증의 이점에 대해 알아봅니다. [CSA STAR 인증 배경 설명 다운로드](https://aka.ms/csastar-certification-backgrounder)
 
 Azure 보안 및 규정 준수 청사진을 사용하여 CSA STAR 인증 배포를 가속화하는 방법에 대해 알아봅니다. [Download the Microsoft Azure Responses to CSA Consensus Assessments Initiative Questionnaire에 대한 Azure 대응 다운로드](https://gallery.technet.microsoft.com/Azure-Responses-to-CSA-46034a11)
 
@@ -92,7 +90,3 @@ Azure, Cloud App Security, Intune 및 Power BI는 성숙도 기능 평가에서 
 - [ISO/IEC 27001](offering-iso-27001.md)
 - [Microsoft 공통 컨트롤 허브 규정 준수 프레임 워크](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/C/3/6/C36C6DBB-AF39-44A2-B6C6-50CC6E4991D7/CSA-STAR-Certification-Compliance.pdf)를 다운로드합니다.

@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 932e3676-2491-49f0-9177-d893d2f5276e
 ROBOTS: NOINDEX
 description: AutoPilot 용 CSV 파일을 Microsoft 365에서 비즈니스용으로 만드는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b1154d639ba23180f637520750d94f00e997cfc4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c83862675db1372aa2cef27c727c04577b4cf5a3
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627863"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064654"
 ---
 # <a name="device-list-csv-file"></a>장치 목록 CSV-파일
 
@@ -51,7 +51,7 @@ Windows Autopilot를 통해 장치를 관리 하 고 배포 하려면 장치에 
 
 [비즈니스 설명서 및 리소스에 대 한 Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
-[Microsoft 365 for business 시작](https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364)
+[Microsoft 365 for business 시작](https://docs.microsoft.com/microsoft-365/business/microsoft-365-business-overview)
   
-[비즈니스에 대 한 Microsoft 365 관리](https://support.office.com/article/27ff1678-865a-4707-8145-e1155aa815d6)
+[비즈니스에 대 한 Microsoft 365 관리](https://docs.microsoft.com/microsoft-365/business/manage)
   

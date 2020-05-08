@@ -1,7 +1,7 @@
 ---
 title: Sarbanes-Oxley Act of 2002(SOX)
 description: 금융 서비스 기업은 Microsoft 준수 보고서를 사용 하 여 Sarbanes-oxley of-Sarbanes-oxley Act와의 준수를 처리할 수 있습니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ef2f30492df89e97348e4dbce81ce4ae43c2e806
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a1ee3987a762d3ff9555a8e992dda67e4a154849
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602035"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066311"
 ---
 # <a name="sarbanes-oxley-act-of-2002-sox"></a>Sarbanes-Oxley Act of 2002(SOX)
 
@@ -59,7 +59,7 @@ SOX 준수 의무를 해결 하는 경우 Microsoft Azure 준수 보고서를 �
 - Dynamics 365
 - Office 365
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **조직의 규정 준수 프로세스를 용이 하 게 하기 위해 Microsoft SOX 준수를 어떻게 사용할 수 있나요?**
 
@@ -73,7 +73,3 @@ SOX 준수 의무를 해결 하는 경우 Microsoft Azure 준수 보고서를 �
 - [Microsoft 비즈니스 클라우드 서비스 및 금융 서비스](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
 - [클라우드 컴퓨팅에 대한 공동 책임](https://aka.ms/sharedresponsibility)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/5/D/2/5D278460-AF57-470F-B166-5BD9258BCE3E/SOX-Compliance.pdf)를 다운로드합니다.

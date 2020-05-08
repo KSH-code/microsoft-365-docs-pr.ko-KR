@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 17820674f9c6db417289a232f006c115e7060d01
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 85c629c12ec1a9fccd8c8a3bd6b1e9e8b63ded39
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637158"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066055"
 ---
 # <a name="nen-7510"></a>NEN 7510
 
@@ -79,7 +79,3 @@ Microsoft는 NEN 7510 표준의 글로벌 보증과 컨트롤간의 매핑을 �
 - [NEN 정보](https://www.nen.nl/About-NEN.htm)
 - [NEN 7510:2011 표준](https://www.nen.nl/NEN-Shop-2/Standard/NEN-75102011-nl.htm)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/3/D/E/3DE55FFB-0B45-49BC-851E-3696C8BD5FB7/NEN7510-Compliance.pdf)를 다운로드합니다.

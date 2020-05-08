@@ -12,12 +12,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business Premium, Microsoft 365, SMB, FAQ, 질문과 대답, 답변, 비즈니스
 ms.date: 06/08/2018
-ms.openlocfilehash: 2ace43e0a3bab466d102740434b2a126fb8e099d
-ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
+ms.openlocfilehash: 68e085313b0344f9e48ddfa9124c1d2d7297ae45
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43900693"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065838"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Microsoft 365 Business Premium 자주 묻는 질문
 
@@ -130,7 +130,7 @@ Microsoft 365 Business Premium의 전체 기능을 체험하고자 하는 고객
 ## <a name="deployment"></a>배포
 
 ### <a name="what-should-customers-consider-when-planning-a-microsoft-365-business-premium-deployment"></a>Microsoft 365 Business Premium 배포를 계획할 때 고객이 고려해야 할 사항은 무엇인가요? 
-성공적으로 Microsoft 365 Business Premium을 배포하는 가장 직접적인 경로는 Microsoft 파트너와 협력하는 것입니다. Microsoft 파트너는 다양한 고객 시나리오의 광범위한 교육과 경험을 갖추었으며 귀하의 환경에 필요한 것을 파악하도록 가장 잘 훈련되었습니다. 숙련된 IT 직원이 있는 고객은 <a href="https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364" target="_blank">Microsoft 365 Business Premium 시작</a>을 참고하여 Microsoft 365 Business Premium 배포를 지원할 수 있습니다. 
+성공적으로 Microsoft 365 Business Premium을 배포하는 가장 직접적인 경로는 Microsoft 파트너와 협력하는 것입니다. Microsoft 파트너는 다양한 고객 시나리오의 광범위한 교육과 경험을 갖추었으며 귀하의 환경에 필요한 것을 파악하도록 가장 잘 훈련되었습니다. 숙련된 IT 직원이 있는 고객은 <a href="https://docs.microsoft.com/microsoft-365/business/microsoft-365-business-overview" target="_blank">Microsoft 365 Business Premium 시작</a>을 참고하여 Microsoft 365 Business Premium 배포를 지원할 수 있습니다. 
 
 ### <a name="does-microsoft-365-business-premium-include-the-full-capabilities-of-microsoft-intune"></a>Microsoft 365 Business Premium에 Microsoft Intune의 전체 기능이 포함되나요? 
 예. Microsoft 365 Business Premium 구독자에게는 iOS, Android, MacOS 및 기타 크로스 플랫폼 디바이스 관리에 대한 전체 Intune 기능을 사용할 수 있는 라이선스가 부여됩니다. Microsoft 365 Business Premium의 간소화된 관리 콘솔에서 사용할 수 없는 기능(예: 타사 앱 관리 및 WiFi 프로필 구성, VPN 인증서)을 전체 Intune 콘솔에서 관리할 수 있습니다. 

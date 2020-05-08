@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
 description: '초기 전자 메일 주소를 tom@fourthcoffee.com와 같은 친숙 한 전자 메일 주소로 변경 합니다. 이 작업을 수행 하려면 도메인 이름을 구입 하 여 Microsoft 365에 추가 해야 합니다. '
-ms.openlocfilehash: d419521210740cfa76a911cf0d66e7826ee8e626
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: baa2e49d98ed1d7b3de9af78b84403d028b4c91d
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629062"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44053827"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>사용자 지정 도메인을 사용하도록 전자 메일 주소 변경
 
@@ -53,7 +53,7 @@ Office 365 독일의 초기 전자 메일 주소에는 tom@fourthcoffee.onmicros
 
 ::: moniker-end
 
-설치 하는 동안 도메인의 MX 레코드를 업데이트 하 여 도메인의 전자 메일을 Microsoft 365로 변경 하면 해당 도메인으로 전송 되는 모든 전자 메일이 Microsoft 365로 시작 됩니다. MX 레코드를 변경 하기 전에 도메인에 전자 메일이 있는 모든 사용자가 Microsoft 365에서 사용자를 추가 하 고 사서함을 만들었는지 확인 합니다. 도메인의 모든 사용자에 대 한 전자 메일을 Microsoft 365로 이동 하지 않으려고 하나요? [대신 몇 개의 전자 메일 주소만 사용 하 여 Microsoft 365를 파일럿 하는](https://support.office.com/article/39cee536-6a03-40cf-b9c1-f301bb6001d7.aspx)단계를 수행할 수 있습니다.
+설치 하는 동안 도메인의 MX 레코드를 업데이트 하 여 도메인의 전자 메일을 Microsoft 365로 변경 하면 해당 도메인으로 전송 되는 모든 전자 메일이 Microsoft 365로 시작 됩니다. MX 레코드를 변경 하기 전에 도메인에 전자 메일이 있는 모든 사용자가 Microsoft 365에서 사용자를 추가 하 고 사서함을 만들었는지 확인 합니다. 도메인의 모든 사용자에 대 한 전자 메일을 Microsoft 365로 이동 하지 않으려고 하나요? [대신 몇 개의 전자 메일 주소만 사용 하 여 Microsoft 365를 파일럿 하는](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)단계를 수행할 수 있습니다.
   
 ## <a name="change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터를 사용 하 여 사용자 지정 도메인을 사용 하도록 전자 메일 주소 변경
 
