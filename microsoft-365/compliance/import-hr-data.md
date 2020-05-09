@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: 관리자는 조직의 HR (인적 자원) 시스템에서 직원 데이터를 Microsoft 365로 가져오는 데이터 커넥터를 설정할 수 있습니다. 이를 통해 참가자 위험 관리 정책에 HR 데이터를 사용 하 여 조직에 내부적인 위협을 초래할 수 있는 특정 사용자의 작업을 검색 하는 데 도움을 받을 수 있습니다.
-ms.openlocfilehash: 0850e3fbbccb7653ddb9c56c07deaad9ed13f84a
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 118e2a8ad4ff134a4529e3ffc95fa22cdb7cbdaf
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943367"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173488"
 ---
 # <a name="set-up-a-connector-to-import-hr-data"></a>HR 데이터를 가져올 커넥터 설정
 
@@ -68,7 +68,7 @@ CSV 파일의 첫 번째 행 또는 머리글 행에는 필요한 열 이름이 
 |**LastWorkingDate**|종료 된 직원에 대 한 마지막 작업 날짜를 지정 합니다. [ISO 8601 날짜 및 시간 형식인](https://www.iso.org/iso-8601-date-and-time-format.html)와 `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm`같은 날짜 형식을 사용 해야 합니다.|
 |||
 
-필요한 HR 데이터로 CSV 파일을 만든 후에는 4 단계에서 스크립트를 실행 하는 로컬 컴퓨터에 저장 합니다. 또한 스크립트를 실행 하는 데 필요한 모든 정보를 Microsoft 클라우드에 업로드 하기 위해 CSV 파일에 항상 최신 정보가 포함 되도록 하기 위해 업데이트 전략을 구현 해야 합니다.
+필요한 HR 데이터로 CSV 파일을 만든 후에는 4 단계에서 실행 하는 스크립트와 같은 시스템에 저장 합니다. 또한 스크립트를 실행 하는 데 필요한 모든 정보를 Microsoft 클라우드에 업로드 하기 위해 CSV 파일에 항상 최신 정보가 포함 되도록 하기 위해 업데이트 전략을 구현 해야 합니다.
 
 ## <a name="step-3-create-the-hr-connector"></a>3 단계: HR 커넥터 만들기
 
@@ -136,7 +136,7 @@ HR 커넥터를 설정 하는 마지막 단계는 2 단계에서 만든 CSV 파�
    |`appId` |이는 1 단계에서 Azure AD에 만든 앱에 대 한 AAD 응용 프로그램 Id입니다. 스크립트에서 Microsoft 365 조직에 액세스 하려고 할 때 인증을 위해 Azure AD에서 사용 됩니다. | 
    |`appSecret`|이는 1 단계에서 Azure AD에 만든 앱에 대 한 AAD 응용 프로그램 비밀입니다. 인증에도 사용 됩니다.|
    |`jobId`|3 단계에서 만든 HR 커넥터의 작업 Id입니다. 이는 HR 커넥터를 사용 하 여 Microsoft 클라우드에 업로드 된 HR 데이터를 연결 하는 데 사용 됩니다.|
-   |`csvFilePath`|2 단계에서 만든 CSV 파일에 대 한 로컬 컴퓨터 (스크립트를 실행 하는 데 사용 하는 사용자)의 파일 경로입니다. 파일 경로에 공백이 생기지 않도록 합니다. 그렇지 않으면 작은따옴표를 사용 합니다.|
+   |`csvFilePath`|2 단계에서 만든 CSV 파일 (스크립트와 같은 시스템에 저장 됨)의 파일 경로입니다. 파일 경로에 공백이 생기지 않도록 합니다. 그렇지 않으면 작은따옴표를 사용 합니다.|
    |||
    
    다음은 각 매개 변수에 대 한 실제 값을 사용 하는 HR connector 스크립트의 구문 예입니다.
@@ -177,7 +177,7 @@ Windows의 작업 스케줄러 응용 프로그램에서 매일 자동으로 스
 
 3. **작업** 섹션에서 **작업 만들기**를 클릭 합니다.
 
-4. **일반** 탭에서 예약 된 작업에 대 한 설명이 포함 된 이름을 입력 합니다. 예를 들어 **HR 커넥터 스크립트**를 예로 들 있습니다. 선택적 설명도 추가할 수 있습니다. 
+4. **일반** 탭에서 예약 된 작업에 대 한 설명이 포함 된 이름을 입력 합니다. 예를 들어 **HR 커넥터 스크립트**를 예로 들 있습니다. 선택적 설명도 추가할 수 있습니다.
 
 5. **보안 옵션**에서 다음을 수행 합니다.
 

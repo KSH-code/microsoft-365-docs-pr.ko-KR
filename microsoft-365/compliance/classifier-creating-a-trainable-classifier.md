@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 기본 제공 분류자 중 하나가 사용자의 요구 사항을 충족 하지 않는 경우 trainable 분류자를 사용 합니다. Microsoft 365 분류자는 다양 한 유형의 콘텐츠를 확인할 수 있도록 교육을 제공 하는 도구입니다. 이 항목에서는 사용자 지정 분류자를 만드는 방법을 보여 줍니다.
-ms.openlocfilehash: 31fb4374290bcf92a5c68bc4e7531e9472622b0b
-ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
+ms.openlocfilehash: 6358f333b274c4a1ce618d87598e7ea5340b77c9
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42266897"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173510"
 ---
 # <a name="creating-a-trainable-classifier-preview"></a>Trainable 분류자 만들기 (미리 보기)
 
@@ -118,7 +118,7 @@ Trainable 분류자가 예측 모델을 작성 하기에 충분 한 긍정적인
 
 21. 분류자를 게시 합니다.
 
-22. 게시 된 분류자는 조건 및 [통신 준수](communication-compliance.md)를 [기반으로 하는 자동 적용 보존 레이블 정책의](labels.md#applying-a-retention-label-automatically-based-on-conditions) 조건으로 사용 될 수 있습니다.
+22. 게시 한 분류자는 [민감도 레이블이 있는 Office autolabeling](apply-sensitivity-label-automatically.md)의 조건으로 제공 되며, 조건 및 [통신 준수](communication-compliance.md)에 [따라 보존 레이블 정책을 자동으로 적용](labels.md#applying-a-retention-label-automatically-based-on-conditions) 합니다.
 
 > [!CAUTION]
 > 일단 분류자가 게시 되 면 추가 교육을 받을 수 없으므로 가능한 한 많은 항목을 테스트 하 고 검토 하 여 정확성을 최대한 높게 유지 해야 합니다.

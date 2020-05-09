@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 SharePoint 및 OneDrive에서 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용 하도록 설정할 수 있습니다.
-ms.openlocfilehash: bdf66e4160e324fa3b83cc58214b16fbacf5c233
-ms.sourcegitcommit: fa6a1e432747e150df945050a3744b4408ceb2d9
+ms.openlocfilehash: bb35d4ed287e87ba17780c0e7106b837beb9666a
+ms.sourcegitcommit: 758263ad484e00f5a561a47c8c22d5787af7671e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43957288"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44170917"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용
 
@@ -56,7 +56,7 @@ SharePoint 및 OneDrive에서 Office 파일에 대해 민감도 레이블을 사
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed//RE4ornZ]
 
-언제 든 지 SharePoint 및 OneDrive에서 Office 파일에 대 한 민감도 레이블을 사용 하지 않도록 설정할 수 있습니다.
+언제 든 지 SharePoint 및 OneDrive에서 Office 파일에 대 한 민감도 레이블을 사용 하지 않도록[opt-out](#how-to-disable-sensitivity-labels-for-sharepoint-and-onedrive-opt-out) 설정할 수 있습니다.
 
 ## <a name="requirements"></a>요구 사항
 
@@ -66,21 +66,13 @@ Windows 및 버전 19.002.0107.0008 이상에서 OneDrive 동기화 앱 버전 1
 
 ## <a name="limitations"></a>제한
 
-- SharePoint 및 OneDrive에서 Office 파일에 대해 민감도 레이블을 사용 하도록 설정 하면 OneDrive 동기화 폴더에서 파일의 레이블을 변경 하는 사용자가 파일에 변경한 다른 내용을 저장 하지 못할 수 있습니다. 이 시나리오는 암호화가 지정 된 파일에 적용 되며, 레이블이 암호화를 적용 하는 레이블에 암호화를 적용 하지 않은 레이블에서 변경 되는 경우에도 마찬가지입니다. 사용자에 게 [흰색 횡단면 오류가 있는 빨간색 원이](https://support.office.com/article/what-do-the-onedrive-icons-mean-11143026-8000-44f8-aaa9-67c985aa49b3)표시 되 고 새 변경 내용을 별도의 복사본으로 저장할지 묻는 메시지가 나타납니다.  
-    
-    사용자가 시작한 레이블 변경 사항 외에도, 관리자가 사용자의 동기화 클라이언트에 다운로드 된 파일에 이미 적용 되어 있는 게시 한 레이블의 설정을 변경 하는 경우에도 같은 동작이 발생할 수 있습니다.
-    
-    이러한 시나리오에서 작업이 손실 되지 않도록 하려면 다음 작업 중 하나를 수행 합니다.
-    - 레이블을 적용 하려면 Office 앱의 웹 버전을 사용 합니다.
-    - 레이블을 적용 한 후 파일을 닫고 다른 내용을 변경 하기 위해 파일을 다시 엽니다.
-
 - SharePoint에서는 이미 Azure Information Protection 레이블을 사용 하 여 암호화 한 기존 파일에 민감도 레이블을 자동으로 적용 하지 않습니다. 대신 SharePoint 및 OneDrive에서 Office 파일에 대해 민감도 레이블을 사용 하도록 설정한 후에 작동 하는 기능을 얻으려면 다음 작업을 완료 하세요.
     
-    1. Azure Information Protection 레이블을 민감도 레이블로 마이그레이션하고 Microsoft 365 준수 센터 또는 레이블 관리 센터에서 게시 했는지 확인 합니다.
+    1. [Azure Information Protection 레이블을](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) 민감도 레이블로 마이그레이션하고 Microsoft 365 준수 센터 또는 레이블 관리 센터에서 [게시](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) 했는지 확인 합니다.
     
     2. 파일을 다운로드 한 다음 SharePoint에 업로드 합니다.
 
-- 암호화를 적용 한 레이블에서 암호화에 대 한 다음 구성 중 하나를 수행 하면 SharePoint에서 암호화 된 파일을 처리할 수 없습니다.
+- 암호화를 적용 한 레이블에서 암호화 [에 대 한 다음 구성](encryption-sensitivity-labels.md#configure-encryption-settings)중 하나를 수행 하면 SharePoint에서 암호화 된 파일을 처리할 수 없습니다.
     - 사용자가 **Word, PowerPoint 및 Excel에서 사용 권한을 지정할** **때 사용 권한을 할당할 수** 있습니다. 이 설정을 "사용자 정의 권한"이 라고도 합니다.
     - **콘텐츠에 대 한 사용자 액세스 만료** 는 **Never**이외의 값으로 설정 됩니다.
     
@@ -91,6 +83,8 @@ Windows 및 버전 19.002.0107.0008 이상에서 OneDrive 동기화 앱 버전 1
 - Azure Information Protection 문서 추적 사이트는 지원 되지 않습니다.
 
 - Office 데스크톱 앱 및 모바일 앱은 암호화로 레이블이 지정 된 파일에 대 한 공동 작성을 지원 하지 않습니다. 이러한 앱은 계속 해 서 레이블이 지정 되 고 암호화 된 파일을 단독 편집 모드로 엽니다.
+
+- 사용자의 동기화 클라이언트에 다운로드 한 파일에 이미 적용 되어 있는 게시 된 레이블의 설정이 관리자가 변경 하는 경우 사용자는 해당 파일에 대 한 변경 내용을 OneDrive 동기화 폴더에 저장 하지 못할 수 있습니다. 이 시나리오는 암호화가 지정 된 파일에 적용 되며, 레이블이 암호화를 적용 하는 레이블에 암호화를 적용 하지 않은 레이블에서 변경 되는 경우에도 마찬가지입니다. 사용자에 게 [흰색 횡단면 오류가 있는 빨간색 원이](https://support.office.com/article/what-do-the-onedrive-icons-mean-11143026-8000-44f8-aaa9-67c985aa49b3)표시 되 고 새 변경 내용을 별도의 복사본으로 저장할지 묻는 메시지가 나타납니다. 대신 파일을 닫았다가 다시 열거나, 웹에서 Office를 사용할 수 있습니다.
 
 - 레이블이 지정 된 문서가 SharePoint에 업로드 되 고 레이블이 서비스 사용자 이름의 계정을 사용 하 여 암호화를 적용 한 경우에는 웹의 Office에서 해당 문서를 열 수 없습니다. 예제 시나리오에는 Microsoft Cloud App Security 및 팀별로 전자 메일로 전송 되는 파일이 포함 됩니다.
 
