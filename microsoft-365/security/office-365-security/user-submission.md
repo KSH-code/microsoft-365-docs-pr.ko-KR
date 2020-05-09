@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 관리자는 사용자가 보고 하는 스팸 및 피싱 전자 메일을 수집 하도록 사서함을 구성 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: a3a175c3815c6750086526ec92d097fb7cbcefa3
-ms.sourcegitcommit: d929fa32fc2dfb0749fa2420eddbc2251d8489dc
+ms.openlocfilehash: 6de4c076af5b0c669625cd8edaa367f072c27598
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43922666"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173347"
 ---
 # <a name="specify-a-mailbox-for-user-submissions-of-spam-and-phishing-messages-in-office-365"></a>Office 365에서 스팸 및 피싱 메시지의 사용자 제출을 위한 사서함을 지정 합니다.
 
@@ -66,9 +66,9 @@ Exchange Online 사서함이 있는 Office 365 조직에서는 사용자가 악�
 
      - **Microsoft (권장)**: 사용자 제출 사서함이 사용 되지 않습니다 (보고 된 모든 메시지는 Microsoft로 이동 됨).
 
-     - **Microsoft 및 사용자 지정 사서함**: 표시 되는 상자에 기존 Exchange Online 사서함의 전자 메일 주소를 입력 합니다.
+     - **Microsoft 및 사용자 지정 사서함**: 표시 되는 상자에 기존 Exchange Online 사서함의 전자 메일 주소를 입력 합니다. 메일 그룹을 사용할 수 없습니다.
 
-     - **사용자 지정 사서함**: 표시 되는 상자에 기존 Exchange Online 사서함의 전자 메일 주소를 입력 합니다.
+     - **사용자 지정 사서함**: 표시 되는 상자에 기존 Exchange Online 사서함의 전자 메일 주소를 입력 합니다. 메일 그룹을 사용할 수 없습니다.
 
      작업이 완료 되 면 **확인**을 클릭 합니다.
 

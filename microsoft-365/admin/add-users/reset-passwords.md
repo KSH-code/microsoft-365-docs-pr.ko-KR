@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: '비즈니스용 Microsoft 365에서 사용자의 암호를 다시 설정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 14226927680c70035a01d9390f114cb0bfddbf38
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 32d2d529ab4e2592556613b016231dbbd93458b3
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064812"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173521"
 ---
 # <a name="reset-passwords"></a>암호 다시 설정
 
@@ -79,11 +79,11 @@ ms.locfileid: "44064812"
 
 암호를 잊어 잊고 사용자의 암호가 브라우저에 저장 되어 있기 때문에 Microsoft 365에 로그인 할 수 있는 경우 다음 단계를 사용 합니다. 
     
-1. Microsoft 365에서 **설정** \> **Office 365** \> **개인 정보**를 선택 합니다. 
+1. **내 계정** > **개인 정보**를 > 오른쪽 위 모서리에 있는 이름 (아이콘)을 선택 합니다. 
           
-2. **연락처 세부 정보** 및 **대체 전자 메일이** 정확한 지 확인 합니다. 그렇지 않으면 지금 변경 합니다. 
+2. **연락처 세부 정보**에서 **대체 전자 메일이** 정확한 지, 휴대폰 번호를 제공 했는지를 두 번 확인 합니다. 그렇지 않으면 지금 변경 합니다. 
         
-3. Office 365에서 로그 아웃: 오른쪽 위 모서리에 있는 이름 (위의 이미지에서 **diane**표시 \> **됨)을**선택 합니다. 
+3. 로그 아웃: 오른쪽 위 모서리에 있는 사용자 이름을 선택 합니다 (위의 이미지에서 **diane**표시 \> **됨).** 
         
 4. 이제 다시 로그인: \> **다음** \> 에 사용자 이름을 입력 하 고 **암호 잊음**를 선택 합니다. 
     
@@ -92,6 +92,8 @@ ms.locfileid: "44064812"
 암호를 잊은 경우 로그인 할 수 없는 경우: 
     
 - 조직의 다른 전역 관리자에 게 암호를 다시 설정 하도록 요청 합니다.
+
+- 휴대폰 번호를 포함 하 여 대체 연락처 정보를 제공 했는지 확인 합니다. 
     
 - [Microsoft 지원 서비스에 문의](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)합니다. 
     

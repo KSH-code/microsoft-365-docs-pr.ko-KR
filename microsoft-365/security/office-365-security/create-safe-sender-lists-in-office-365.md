@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자가 Microsoft 365 및 EOP에서 수신 허용-보낸 사람 목록을 만들어 인바운드 메시지에서 스팸 필터링을 건너뛸 수 있도록 하는 방법을 알아봅니다.
-ms.openlocfilehash: e09d607f6b5203bdc3ab23ad5bd6e8f85782605a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 300ecf8cfdb7436b8eda306a28c237ed8bf19760
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036346"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173419"
 ---
 # <a name="create-safe-sender-lists"></a>안전한 보낸 사람 목록 만들기
 
@@ -85,7 +85,7 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 메시
 
 ## <a name="use-outlook-safe-senders"></a>Outlook 수신 허용-보낸 사람 사용
 
-조직 설정 대신 사용자 또는 관리자가 사서함의 수신 허용-보낸 사람 목록에 보낸 사람 전자 메일 주소를 추가할 수 있습니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
+조직 설정 대신 사용자 또는 관리자가 사서함의 수신 허용-보낸 사람 목록에 보낸 사람 전자 메일 주소를 추가할 수 있습니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요. 이는 보낸 사람이 필터링 스택의 일부를 우회 하기 때문에 대부분의 경우에 바람직한 방법입니다. 보낸 사람을 신뢰 하는 경우에도 보낸 사람은 손상 될 수 있으며 악성 콘텐츠 보내기가 종료 됩니다. 필터가 잘못 된 경우 필터에서 모든 메시지를 확인 하는 데 필요한 작업을 수행한 다음 [가양성을 Microsoft에 보고](report-junk-email-messages-to-microsoft.md) 하는 것이 좋습니다. 또한 메시지에 수행 해야 하는 작업을 수행 하는 [Zap](zero-hour-auto-purge.md) 에 impedes 됩니다.
 
 메시지가 사용자의 수신 허용-보낸 사람 목록으로 인해 스팸 필터링을 건너뛸 때 **스팸 방지-Report** header 필드에는 스팸, 스푸핑 및 피싱 `SFV:SFE`필터링이 무시 됨을 나타내는 값이 포함 됩니다.
 

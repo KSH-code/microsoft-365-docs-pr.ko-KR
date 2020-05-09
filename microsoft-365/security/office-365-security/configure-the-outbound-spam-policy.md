@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 조직의 특정 사용자, 그룹 또는 도메인에 적용 되는 아웃 바운드 스팸 정책을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 644ffb51c92f4d71d3ae2cde1eba408289573f48
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: efd3fecc2447435f40e4e20fd958e8f3b2d8e48f
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036791"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173443"
 ---
 # <a name="configure-outbound-spam-filtering"></a>아웃바운드 스팸 필터링 구성
 
@@ -53,7 +53,7 @@ EOP의 아웃 바운드 스팸 정책의 기본 요소는 다음과 같습니다
 
 - 보안 & 준수 센터에서 아웃 바운드 스팸 정책을 제거 하면 아웃 바운드 스팸 필터 규칙과 연결 된 아웃 바운드 스팸 필터 정책이 제거 됩니다.
 
-Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection PowerShell에서 아웃 바운드 스팸 필터 정책 및 아웃 바운드 스팸 필터 규칙 간의 차이가 명백 합니다. -Get-hostedcontentfilterpolicy cmdlet을 사용 하 여 아웃 바운드 스팸 필터 정책을 관리 하 고 ** \*-disable-hostedcontentfilterrule** cmdlet을 사용 하 여 아웃 바운드 스팸 필터 규칙을 관리 합니다. ** \***
+Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection PowerShell에서 아웃 바운드 스팸 필터 정책 및 아웃 바운드 스팸 필터 규칙 간의 차이가 명백 합니다. -Get-hostedoutboundspamfilterpolicy cmdlet을 사용 하 여 아웃 바운드 스팸 필터 정책을 관리 하 고 ** \*-HostedOutboundSpamFilterRule** cmdlet을 사용 하 여 아웃 바운드 스팸 필터 규칙을 관리 합니다. ** \***
 
 - PowerShell에서 먼저 아웃 바운드 스팸 필터 정책을 만든 다음 규칙이 적용 되는 정책을 식별 하는 아웃 바운드 스팸 필터 규칙을 만듭니다.
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 Office 365 Advanced Threat Protection에 대 한 보고서를 찾아서 사용 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56e8b79ad85a5801f75a6ed36a58afe58b552527
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: c202e7df274e81da5395f7466199d85443361c05
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034965"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173325"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection에 대 한 보고서 보기
 
@@ -101,7 +101,7 @@ ATP 보고서에는 다음이 포함 됩니다.
 정보 테이블에서는 클릭 시간 및 사용자 정보에 대 한 자세한 정보를 볼 수 있습니다. 마지막으로, URL 보호 상태 보고서에는 ATP 안전한 링크 기능의 보호 기능이 표시 되므로 ATP 안전한 링크를 사용 하도록 설정한 고객만이 보고서에 반영 된 데이터를 볼 수 있습니다.
 
 > [!NOTE]
-> 이는 *보호 추세 보고서*로, 데이터가 더 큰 데이터 집합의 추세를 나타냅니다. 실시간으로 보고 기능을 사용할 수 없습니다. 실시간 URL에 대해 데이터를 클릭 하 고 계속 해 서 URL 추적을 사용 합니다.
+> 이는 *보호 추세 보고서*로, 데이터가 더 큰 데이터 집합의 추세를 나타냅니다. 따라서 집계 보기의 데이터는 실시간으로 사용할 수 없지만 세부 정보 표 보기의 데이터는 두 보기 간에 약간의 차이가 있을 수 있습니다.
 
 ## <a name="atp-file-types-report"></a>ATP 파일 형식 보고서
 

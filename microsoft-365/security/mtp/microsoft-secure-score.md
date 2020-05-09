@@ -1,6 +1,6 @@
 ---
-title: Microsoft Secure Score
-description: Microsoft 365 보안 센터의 Microsoft 보안 점수, 세부 정보를 계산 하는 방법 및 보안 관리자가 예상할 수 있는 사항에 대해 설명 합니다.
+title: Microsoft 보안 점수 (이전 이터레이션)
+description: Microsoft 365 보안 센터의 Microsoft 보안 점수, 보안 환경을 개선 하는 방법 및 보안 관리자가 예상할 수 있는 사항에 대해 설명 합니다.
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 점수, 보안 센터, 개선 작업
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -17,14 +17,19 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 9f39878ca56aef3ec8c9d89805a87196c19eb5b8
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 383ef5a0ff61b861bd72dc08d7b974ef98592fcc
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141510"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173395"
 ---
-# <a name="microsoft-secure-score"></a>Microsoft Secure Score
+# <a name="microsoft-secure-score-previous-iteration"></a>Microsoft 보안 점수 (이전 이터레이션)
+
+>[!IMPORTANT]
+>이 Microsoft 보안 점수는 다음 몇 개월 동안 새로운 디자인 요소 및 기능으로 교체 되 고 있습니다. 최신 이터레이션이 아직 표시 되지 않는 경우에는 곧 제공 될 예정입니다.
+>
+>기록 옆에 **메트릭 & 추세** 탭이 표시 되 면 새 이터레이션이 진행 되 고 있는 것입니다. [Microsoft 보안 성과로 이동 (신규)](microsoft-secure-score-new.md)
 
 Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 많은 향상 작업이 수행 되었음을 나타냅니다. 보안 점수 권장 사항을 따르면 위협 으로부터 조직을 보호할 수 있습니다. Microsoft 365 보안 센터의 중앙 집중식 대시보드를 통해 조직은 Microsoft 365 id, 데이터, 앱, 장치 및 인프라의 보안을 모니터링 하 고 작업할 수 있습니다.
 

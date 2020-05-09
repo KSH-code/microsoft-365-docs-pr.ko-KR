@@ -21,12 +21,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Exchange Online으로 이미 배달 된 스팸, 맬웨어 또는 피싱 메시지를 검색 하는 Microsoft 365의 전자 메일 보호 기능인 0 시간 자동 삭제 (ZAP)에 대해 알아봅니다.
-ms.openlocfilehash: a6f21147e7beaadb3aa6430b299dea8b248561c1
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: ba7aa74dd9152990ce327d1b1564c3246d15cbb8
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034929"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173301"
 ---
 # <a name="zero-hour-auto-purge-zap---protection-against-spam-and-malware-in-microsoft-365"></a>제로 시간 자동 삭제 (ZAP)-Microsoft 365의 스팸 및 맬웨어에 대 한 보호
 
@@ -42,7 +42,7 @@ Microsoft 365는 스팸 및 맬웨어 서명을 매일 실시간으로 업데이
 
 사용자가 ZAP 작업을 원활 하 게 수행할 수 있습니다. 메시지를 검색 하 고 이동한 경우 알림을 받지 않습니다.
 
-[수신 허용-보낸 사람 목록](create-safe-sender-lists-in-office-365.md), 메일 흐름 규칙 (전송 규칙이 라고도 함), 받은 편지함 규칙 또는 추가 필터는 ZAP 보다 우선적으로 적용 됩니다.
+[수신 허용-보낸 사람 목록](create-safe-sender-lists-in-office-365.md), 메일 흐름 규칙 (전송 규칙이 라고도 함), 받은 편지함 규칙 또는 추가 필터는 ZAP 보다 우선적으로 적용 됩니다. 메일 흐름에서와 마찬가지로 서비스에서 전달 된 메시지의 ZAP이 결정 되는 경우에도 수신 허용-보낸 사람 구성으로 인해 메시지가 처리 되지 않습니다. 이는 필터링을 우회 하도록 메시지를 구성 하는 경우에 주의 해야 할 또 다른 이유입니다.
 
 ### <a name="malware-zap"></a>맬웨어 ZAP
 
@@ -88,28 +88,28 @@ ZAP이 메시지를 이동 했는지 확인 하려면 [위협 방지 상태 보�
 
 ## <a name="zap-faq"></a>ZAP FAQ
 
-### <a name="q-what-happens-if-a-legitimate-message-is-moved-to-the-junk-email-folder"></a>Q: 합법적인 메시지를 정크 메일 폴더로 이동 하면 어떻게 되나요?
+### <a name="what-happens-if-a-legitimate-message-is-moved-to-the-junk-email-folder"></a>합법적인 메시지를 정크 메일 폴더로 이동 하면 어떻게 되나요?
 
-A: 일반적인 보고 프로세스는 [가양성](report-junk-email-messages-to-microsoft.md)에 따라 수행 해야 합니다. 메시지를 받은 편지함에서 정크 메일 폴더로 이동 하는 유일한 이유는 서비스가 스팸 또는 악성 메시지를 받는 것으로 확인 되었기 때문입니다.
+[가양성](report-junk-email-messages-to-microsoft.md)에 대 한 일반적인 보고 프로세스를 따라야 합니다. 메시지를 받은 편지함에서 정크 메일 폴더로 이동 하는 유일한 이유는 서비스가 스팸 또는 악성 메시지를 받는 것으로 확인 되었기 때문입니다.
 
-### <a name="q-what-if-i-use-the-quarantine-folder-instead-of-the-junk-mail-folder"></a>Q: 정크 메일 폴더 대신 Quarantine 폴더를 사용 하는 경우에는 어떻게 하나요?
+### <a name="what-if-i-use-the-quarantine-folder-instead-of-the-junk-mail-folder"></a>정크 메일 폴더 대신 Quarantine 폴더를 사용 하는 경우에는 어떻게 하나요?
 
-A: ZAP은이 항목의 앞부분에서 설명한 대로, 스팸 방지 정책 구성을 기반으로 메시지에 대해 작업을 수행 합니다.
+ZAP은이 항목의 앞부분에서 설명한 스팸 방지 정책 구성을 기반으로 하는 메시지에 대해 작업을 수행 합니다.
 
-### <a name="q-what-if-im-using-mail-flow-rules-or-allowedblocked-sender-lists"></a>Q: 메일 흐름 규칙 또는 허용/차단 된 보낸 사람 목록을 사용 하는 경우
+### <a name="what-if-im-using-safe-senders-mail-flow-rules-or-allowedblocked-sender-lists"></a>수신 허용-보낸 사람, 메일 흐름 규칙 또는 허용/차단 된 보낸 사람 목록을 사용 하는 경우
 
-A: 메일 흐름 규칙 또는 차단 및 조직 설정 허용이 우선적으로 적용 됩니다. 이러한 메시지는 ZAP에서 제외 됩니다.
+수신 허용-보낸 사람, 메일 흐름 규칙 또는 차단 및 조직 설정 허용이 우선적으로 적용 됩니다. 서비스에서 구성 된 작업을 수행 하는 중 이므로 이러한 메시지는 ZAP에서 제외 됩니다. 이는 필터링을 우회 하도록 메시지를 구성 하는 경우에 주의 해야 할 또 다른 이유입니다.
 
-### <a name="q-what-if-a-message-is-moved-to-another-folder-eg-inbox-rules"></a>Q: 메시지를 다른 폴더 (예: 받은 편지함 규칙)로 이동 하는 경우
+### <a name="what-if-a-message-is-moved-to-another-folder-eg-inbox-rules"></a>다른 폴더 (예: 받은 편지함 규칙)로 메시지를 이동 하는 경우
 
-A: 메시지가 삭제 되지 않았거나, 동일 하거나 더 강력 하지만 작업이 아직 적용 되지 않은 동안에도 ZAP이 계속 작동 합니다. 예를 들어 피싱 정책이 quarantine로 설정 되어 있고 사용자 또는 관리자가 이미 전자 메일을 junked 하는 경우 격리를 통해 파일을 격리 하는 작업이 수행 됩니다.
+메시지가 삭제 되지 않았거나, 동일 하거나 더 강력 하지만 작업이 아직 적용 되지 않은 경우에도 ZAP이 계속 작동 합니다. 예를 들어 피싱 정책이 quarantine로 설정 되어 있고 사용자 또는 관리자가 이미 전자 메일을 junked 하는 경우 격리를 통해 파일을 격리 하는 작업이 수행 됩니다.
 
-### <a name="q-does-zap-change-the-message-header"></a>Q: ZAP이 메시지 헤더를 변경 합니까?
+### <a name="does-zap-change-the-message-header"></a>ZAP이 메시지 헤더를 변경 합니까?
 
-A: 메시지 헤더는 ZAP 작업을 통해 변경 되지 않습니다.
+ZAP 매크로 함수는 메시지 헤더를 변경 하지 않습니다.
 
-### <a name="q-how-does-zap-affect-mailboxes-on-hold"></a>Q: ZAP이 보존 되는 사서함에 어떤 영향을 줍니까?
+### <a name="how-does-zap-affect-mailboxes-on-hold"></a>ZAP이 보류 중인 사서함에 어떤 영향을 줍니까?
 
-A: ZAP은 보류 중인 사서함에서 메시지를 격리 하지 않습니다. 스팸 방지 정책에서 스팸 또는 피싱 결과에 대해 구성 된 작업을 기반으로 메시지를 정크 메일 폴더로 이동할 수 있습니다.
+ZAP은 보류 중인 사서함에서 메시지를 격리 하지 않습니다. 스팸 방지 정책에서 스팸 또는 피싱 결과에 대해 구성 된 작업을 기반으로 메시지를 정크 메일 폴더로 이동할 수 있습니다.
 
 Exchange Online의 보류에 대 한 자세한 내용은 [Exchange online의 원본 위치 유지 및 소송 보존](https://docs.microsoft.com/Exchange/security-and-compliance/in-place-and-litigation-holds)을 참조 하세요.

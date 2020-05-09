@@ -21,20 +21,21 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Windows PowerShell을 사용 하 여 일부 개별 사용자 암호가 만료 되지 않도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 66c4901d171f5ed2e07d7a9f5cccbf141dc3d04d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3d5d65f687a5ed02e0e20ff77482f7bef5b6b695
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43624037"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173499"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>개별 사용자 암호가 만료되지 않도록 설정
 
 ## <a name="set-the-password-expiration-policy-for-your-organization"></a>조직의 암호 만료 정책 설정
 
-1. 관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">보안 & 개인 정보</a> 페이지로 이동 합니다.
-2. **암호 정책** 옆에 있는 **편집**을 선택 합니다. 
-3. 암호가 만료 되지 않도록 설정 되어 있으면 토글을 **Off**로 설정 합니다. 암호가 만료 될 때 까지의 기간 (일)을 지정 하는 옵션을 사용할 수 있습니다.
+1. 관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">설정</a> 페이지로 이동 합니다.
+2. 설정 페이지 맨 위에서 **보안 & 개인 정보**를 선택 합니다.
+3. **암호 만료 정책**을 선택합니다. 
+4. 암호가 만료 되지 않도록 설정 되어 있는 경우 **사용자 암호가 일 후에 만료 되도록 설정**옆의 확인란을 클릭 합니다. 암호가 만료 될 때 까지의 기간 (일)을 지정 하는 옵션을 사용할 수 있습니다.
 
 ## <a name="set-the-password-expiration-policy-for-individual-users"></a>개별 사용자에 대 한 암호 만료 정책 설정
 
