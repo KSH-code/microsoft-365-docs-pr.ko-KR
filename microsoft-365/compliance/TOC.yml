@@ -10,8 +10,6 @@
       href: microsoft-365-compliance-center.md
     - name: Microsoft 365 솔루션 카탈로그
       href: microsoft-365-solution-catalog.md
-    - name: 보안 및 준수 센터로 이동
-      href: go-to-the-securitycompliance-center.md
     - name: 무료 Azure Active Directory 구독 사용
       href: use-your-free-azure-ad-subscription-in-office-365.md
     - name: Office 365의 보안 및 규정 준수 계획
@@ -42,6 +40,8 @@
       items:
         - name: 커뮤니케이션 규정 준수에 대해 알아보기
           href: communication-compliance.md
+        - name: 커뮤니케이션 규정 준수 계획
+          href: communication-compliance-plan.md
         - name: 커뮤니케이션 규정 준수 시작
           href: communication-compliance-configure.md
         - name: 커뮤니케이션 규정 준수 알림 검사 및 수정
@@ -1054,8 +1054,6 @@
               href: offering-mars-e.md
             - name: NEN-7510 (네덜란드)
               href: offering-nen-7510-netherlands.md
-            - name: NHS IG 툴킷 (영국)
-              href: offering-nhs-ig-toolkit-uk.md
         - name: 제조
           items:
             - name: FDA CFR Title 21 Part 11
@@ -1132,8 +1130,6 @@
               href: offering-mpaa.md
             - name: NBB + FSMA (벨기에)
               href: offering-nbb-fsma-belgium.md
-            - name: NHS IG 툴킷 (영국)
-              href: offering-nhs-ig-toolkit-uk.md
             - name: NIST CSF
               href: offering-nist-csf.md
             - name: PCI DSS
