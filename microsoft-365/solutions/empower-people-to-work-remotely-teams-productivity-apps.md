@@ -1,5 +1,5 @@
 ---
-title: 4. 원격 작업자 생산성 앱 및 서비스 배포
+title: 4단계. 원격 작업자 생산성 앱 및 서비스 배포
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -14,17 +14,17 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
-ms.custom:
 - M365solutions
+ms.custom: ''
 description: 사용자가 Teams, Exchange, SharePoint 및 기타 Microsoft 365 서비스를 사용하여 생산성을 향상시킬 수 있도록 합니다.
-ms.openlocfilehash: dddc3cac8a6cb955e8a337eed07279ba75c029aa
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 2fc55ff9f991c75e8124c710e60fe2ba34ed7f17
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44003197"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160741"
 ---
-# <a name="4-deploy-remote-worker-productivity-apps-and-services"></a>4. 원격 작업자 생산성 앱 및 서비스 배포
+# <a name="step-4-deploy-remote-worker-productivity-apps-and-services"></a>4단계. 원격 작업자 생산성 앱 및 서비스 배포
 
 생산성을 높이려면 사용자가 서로 통신하고 공동 작업을 해야 합니다. 사용자들은 만나고, 음성 및 텍스트로 채팅하 고, 새 콘텐츠를 만들고, 정보 및 파일을 공유 하고, 전자 메일을 교환하고, 일정 및 작업을 관리해야 합니다. Microsoft 365는 다음과 같은 모든 주요 기능에 대한 클라우드 기반 서비스를 제공합니다.
 
@@ -32,6 +32,8 @@ ms.locfileid: "44003197"
 - 전자 메일을 교환하고 일정, 연락처 및 작업을 관리하는 데 Exchange Online과 Outlook 클라이언트를 사용하도록 합니다.
 - 파일을 저장하고 공동 작업을 하려면 SharePoint 및 OneDrive를 사용합니다. 이들은 웹 브라우저나 Teams 내에서 사용할 수 있습니다.
 - 새 콘텐츠를 만들거나 기존 콘텐츠에 대해 공동 작업을 하는 데, Microsoft 365 앱은 로컬 컴퓨터에 설치된 Word, PowerPoint, Excel 및 Outlook 버전이며 지속적인 기능과 보안 업데이트를 받습니다.
+
+![Teams, Outlook, SharePoint, OneDrive 및 Microsoft 365 앱을 사용해서 생산성 유지](../media/empower-people-to-work-remotely/remote-workers-productivity-grid.png)
 
 ## <a name="keep-people-connected-with-microsoft-teams"></a>Microsoft Teams를 통해 사용자들이 연결된 상태를 유지
 

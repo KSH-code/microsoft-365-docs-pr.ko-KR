@@ -1,5 +1,5 @@
 ---
-title: 3. 장치, PC 및 기타 끝점에 대한 끝점 관리 기능 배포
+title: 3단계. 장치, PC 및 기타 끝점에 대한 끝점 관리 기능 배포
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -14,17 +14,17 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
-ms.custom:
 - M365solutions
+ms.custom: ''
 description: Microsoft Endpoint Manager를 사용하여 장치, PC 및 기타 끝점을 관리합니다.
-ms.openlocfilehash: 2a5b047aabb95d0b60c46fe3bec339e723adee0e
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 388ac2b7f9f4a31d33c1f4551e215b2b32c8f85f
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049585"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160801"
 ---
-# <a name="3-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>3. 장치, PC 및 기타 끝점에 대한 끝점 관리 기능 배포
+# <a name="step-3-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>3단계. 장치, PC 및 기타 끝점에 대한 끝점 관리 기능 배포
 
 원격 작업자의 경우 점점 늘어나는 개인 장치를 지원해야 합니다. 끝점 관리 기능은 장치에서 리소스에 대한 액세스 권한을 부여받기 전에 특정 기준을 준수해야 하는 정책 기반의 보안 방식입니다. Microsoft Endpoint Manager는 클라우드 및 온-프레미스에서 데이터를 안전하게 유지하기 위한 최신 작업 공간과 최신 관리 기능을 제공합니다. 
 

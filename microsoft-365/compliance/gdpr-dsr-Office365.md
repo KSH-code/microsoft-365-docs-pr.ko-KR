@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: dbb24e3c7347faf09e5f14d3d28d17b8163ccc2c
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: e4620938a5f7f63d7da09d60d701e81c3bbae0fa
+ms.sourcegitcommit: 758263ad484e00f5a561a47c8c22d5787af7671e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166029"
+ms.locfileid: "44171007"
 ---
 # <a name="data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 데이터 주체 요청
 
@@ -586,7 +586,7 @@ DSR 삭제 요청에 대한 응답으로 개인 데이터를 삭제하는 것 �
 - 사용자가 더 이상 Office 365에 로그인할 수 없거나 조직의 Microsoft 리소스(예: 비즈니스용 OneDrive 계정, SharePoint Online 사이트 또는 Exchange Online 사서함)에 액세스할 수 없습니다.
 - 사용자 계정과 연결된 개인 데이터(예: 전자 메일 주소, 별칭, 전화 번호, 우편 주소)가 삭제됩니다.
 - 일부 Office 365 응용 프로그램은 사용자에 대한 정보를 제거합니다. 예를 들어, Microsoft Flow에서 삭제된 사용자는 공유된 흐름의 소유자 목록에서 제거됩니다.
-- 사용자 계정이 삭제되고 30일 후 데이터 주체에 대한 시스템 생성 로그가 삭제됩니다. 자세한 내용은 [시스템 생성 로그 삭제](#deleting-system-generated-logs) 섹션을 참조하세요.
+- 서비스의 보안 혹은 안정성을 손상시킬 수 있는 데이터를 제외하고 데이터 주체에 대한 시스템 생성 로그는 사용자 계정을 삭제한 후 30일 후에 삭제됩니다. 자세한 내용은 [시스템 생성 로그 삭제 섹션](#deleting-system-generated-logs)을 참조하세요.
 
 >[!IMPORTANT]
 >사용자 계정을 삭제한 후 이 사용자는 Office 365에 로그인할 수 있는 권한 및 이전에 회사 또는 학교 계정으로 사용한 제품 또는 서비스에 로그인할 수 있는 권한을 상실합니다. 또한 Microsoft가 데이터 통제자인 인스턴스에서 Microsoft를 통해 직접 DSR 요청을 시작할 수 없습니다. 자세한 내용은 이 가이드의 4부에서 [Microsoft가 데이터 통제자인 조직 ID로 인증된 제품 및 서비스](#product-and-services-authenticated-with-an-org-id-for-which-microsoft-is-a-data-controller) 섹션을 참조하세요.
@@ -597,7 +597,7 @@ DSR 삭제 요청에 대한 응답으로 개인 데이터를 삭제하는 것 �
 개인 데이터 삭제에 대한 이전 섹션에서 설명된 데이터의 일시 삭제 및 영구 삭제와 마찬가지로 사용자 계정을 삭제할 때도 일시 삭제 및 영구 삭제 상태가 있습니다.
 
 - 관리 센터 또는 Azure Portal에서 사용자를 삭제하여 초기에 사용자 계정을 삭제한 경우 해당 사용자 계정은 일시 삭제되며 Azure의 휴지통으로 이동하여 최대 30일 동안 보존됩니다. 이때는 사용자 계정을 복원할 수 있습니다.
-- 사용자 계정을 영구적으로 삭제한 경우 해당 사용자 계정은 영구 삭제되며 Azure의 휴지통에서 제거됩니다. 이때는 사용자 계정을 복원할 수 없으며, 사용자 계정과 연결된 모든 데이터가 Microsoft 클라우드에서 영구적으로 제거됩니다. 데이터 주체에 대한 시스템 생성 로그는 사용자 계정이 영구 삭제된 후에 삭제됩니다.
+- 사용자 계정을 영구적으로 삭제한 경우 해당 사용자 계정은 영구 삭제되며 Azure의 휴지통에서 제거됩니다. 이때는 사용자 계정을 복원할 수 없으며, 사용자 계정과 연결된 모든 데이터가 Microsoft 클라우드에서 영구적으로 제거됩니다. 계정을 영구 삭제하면 데이터 주체에 대한 시스템 생성 로그는 서비스의 보안 혹은 안정성을 손상시킬 수 있는 데이터를 제외하고 삭제됩니다.
 
 조직에서 사용자를 삭제하는 대략적인 프로세스는 다음과 같습니다.
 
@@ -1598,7 +1598,7 @@ Microsoft에서는 특정 서비스의 기존 API(응용 프로그래밍 인터�
 
 액세스 요청을 통해 검색된 시스템 생성 로그를 삭제하려면 서비스에서 사용자를 제거하고 해당 Azure Active Directory 계정을 영구적으로 삭제해야 합니다. 사용자를 영구적으로 삭제하는 방법에 대한 지침은 이 가이드에서 [사용자 삭제](#deleting-a-user)를 참조하세요. 사용자 계정을 영구적으로 삭제하는 작업을 일단 시작하면 되돌릴 수 없습니다.
 
-영구적으로 사용자 계정을 삭제하면 30일 이내에 거의 모든 Office 365 서비스의 시스템 생성 로그에서 사용자의 데이터가 제거됩니다. 한 가지 예외는 Exchange Online에서 사용자 계정을 영구적으로 삭제하는 데 30일 이상이 걸리는 것입니다. Exchange Online 콘텐츠의 중요한 특성을 감안하여 실수로 인한 데이터 손실을 방지하세요. 이 시스템은 사용자 계정이 영구적으로 삭제된 후 최대 60일 동안 의도적으로 데이터를 보관 상태로 유지하도록 설계되었습니다. 30일 기간 내에 사용자의 Exchange Online 데이터를 영구히 삭제하려면 Azure Active Directory에서 사용자 계정을 영구적으로 삭제한 다음, [Microsoft 지원 서비스](https://support.microsoft.com/)에 연락하여 예약된 삭제 프로세스 외부에서 사용자의 Exchange Online 데이터를 수동으로 제거하도록 요청하세요. 자세한 내용은 이 가이드에서 이전에 설명한 [Exchange Online 데이터 제거](#removing-exchange-online-data)를 참조하세요.
+영구적으로 사용자 계정을 삭제하면, 서비스의 보안이나 안정성을 손상시킬 수 있는 데이터를 제외하고, 30일 이내에 거의 모든 Office 365 서비스의 시스템 생성 로그에서 사용자의 데이터가 제거됩니다. 한 가지 예외는 Exchange Online에서 사용자 계정을 영구적으로 삭제하는 데 30일 이상이 걸리는 것입니다. Exchange Online 콘텐츠의 중요한 특성을 감안하여 실수로 인한 데이터 손실을 방지하세요. 이 시스템은 사용자 계정이 영구적으로 삭제된 후 최대 60일 동안 의도적으로 데이터를 보관 상태로 유지하도록 설계되었습니다. 30일 기간 내에 사용자의 Exchange Online 데이터를 영구히 삭제하려면 Azure Active Directory에서 사용자 계정을 영구적으로 삭제한 다음, [Microsoft 지원 서비스](https://support.microsoft.com/)에 연락하여 예약된 삭제 프로세스 외부에서 사용자의 Exchange Online 데이터를 수동으로 제거하도록 요청하세요. 자세한 내용은 이 가이드에서 이전에 설명한 [Exchange Online 데이터 제거](#removing-exchange-online-data)를 참조하세요.
 
 사용자 계정을 삭제해도 Yammer 및 Kaizala에 대한 시스템 생성 로그는 제거되지 않습니다. 이러한 응용 프로그램에서 데이터를 제거하려면 다음 중 하나를 참조합니다.
 

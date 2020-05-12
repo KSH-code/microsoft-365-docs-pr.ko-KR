@@ -1,5 +1,5 @@
 ---
-title: '# 5단계: COVID-19 위기 소통 장소 만들기'
+title: '5단계: COVID-19 위기 소통 장소 만들기'
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -14,14 +14,15 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
+- M365solutions
 ms.custom: ''
 description: Microsoft 365를 사용하여 COVID-19 내부 및 공공에 대한 다양한 소통 방법을 만들 수 있습니다.
-ms.openlocfilehash: 189e0bde959ee8ad245b03cb5aca42ab6b19a0b3
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 686cfa12d76bf4122ebe4ae22a49da938322fee9
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44003067"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160813"
 ---
 # <a name="step-5-create-covid-19-crisis-communication-venues"></a>5단계: COVID-19 위기 소통 장소 만들기
 
@@ -31,6 +32,8 @@ ms.locfileid: "44003067"
 - 공중보건과 뉴스를 단일 포털로 통합
 - SharePoint Online에서 커뮤니케이션 사이트 만들기
 - Yammer 커뮤니티
+
+![COVID-19 위기 소통 장소](../media/empower-people-to-work-remotely/comm-venues-grid.png)
 
 ## <a name="employee-surveys"></a>직원 설문 조사
 

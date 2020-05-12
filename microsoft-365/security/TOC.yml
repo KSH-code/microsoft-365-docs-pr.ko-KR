@@ -57,8 +57,27 @@
               href: mtp/portals.md
             - name: 문제 해결
               href: ./mtp/troubleshoot.md
+        - name: 기능 평가
+          items:
+            - name: 평가판 랩 개요
+              href: mtp/mtp-evaluation.md
+            - name: 준비
+              href: mtp/prepare-mtpeval.md
+            - name: 설정
+              href: mtp/setup-mtpeval.md
+            - name: 끝점 구성 및 온보드
+              href: mtp/config-mtpeval.md
         - name: 사용 방법 가이드
           items:
+            - name: 평가판 랩 환경 만들기
+              href: mtp/mtp-evaluation.md
+              items:
+                - name: 준비
+                  href: mtp/prepare-mtpeval.md
+                - name: 설정
+                  href: mtp/setup-mtpeval.md
+                - name: 끝점 구성 및 온보드
+                  href: mtp/config-mtpeval.md
             - name: 지원 서비스 사용
               href: mtp/deploy-supported-services.md
             - name: Microsoft Threat Protection 사용 설정
@@ -159,9 +178,11 @@
                       href: mtp/custom-detections-overview.md
                     - name: 검색 규칙 만들기 및 관리
                       href: mtp/custom-detection-rules.md
-            - name: Secure Score
+            - name: 보안 점수
               items:
-                - name: 보안 점수
+                - name: 보안 점수(신규)
+                  href: mtp/microsoft-secure-score-new.md
+                - name: 보안 점수(이전 반복)
                   href: mtp/microsoft-secure-score.md
                 - name: 보안 점수(미리 보기)
                   href: mtp/microsoft-secure-score-preview.md
@@ -293,6 +314,8 @@
                       href: ./office-365-security/configure-anti-phishing-policies-eop.md
                     - name: ATP 피싱 방지 정책 구성
                       href: ./office-365-security/configure-atp-anti-phishing-policies.md
+                - name: 보낸 사람 확인되지 않음 - 피싱 메일 수신을 방지합니다.
+                  href: ./office-365-security/unverified-sender-feature.md
                 - name: 주소의 유효성을 검사하여 Office 365에서 피싱을 방지하는 방법
                   href: ./office-365-security/how-office-365-validates-the-from-address.md
                 - name: 피싱 방지 보호 기능 조정
@@ -379,7 +402,7 @@
                     - name: 사용자 지정 "재작성 금지" URL 목록 설정
                       href: ./office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp.md
                     - name: 차단된 사용자 지정 URL 목록 설정
-                      href: ./office-365-security/set-up-a-custom-blocked-urls-list-wtih-atp.md
+                      href: ./office-365-security/set-up-a-custom-blocked-urls-list-atp.md
                 - name: 역할 관리자 설정 작업
                   items:
                     - name: 'SharePoint, OneDrive 및 Microsoft Teams의 ATP 켜기'
@@ -492,14 +515,7 @@
                 - name: 정치적 캠페인 개발/테스트 환경에서 팀 사이트 만들기
                   href: ./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md
             - name: Microsoft Teams에서의 파일 보호
-              href: ./office-365-security/secure-files-in-teams.md
               items:
-                - name: 파일의 3단계 보호를 위한 Teams 배포
-                  href: ./office-365-security/deploy-teams-three-tiers.md
-                - name: 보존 레이블 및 DLP를 사용하여 팀에서 파일을 보호
-                  href: ./office-365-security/deploy-teams-retention-DLP.md
-                - name: 민감도 레이블을 사용하여 팀에서 파일 보호
-                  href: ./office-365-security/deploy-teams-sensitivity-labels.md
                 - name: 개발/테스트 환경에서의 파일을 위한 Teams 보안
                   href: ./office-365-security/secure-team-for-files-in-a-dev-test-environment.md
             - name: 개발/테스트 환경의 SharePoint Online 사이트 보호
@@ -598,8 +614,8 @@
                   href: ./office-365-security/sync-user-certificates-to-office-365-for-s-mime.md
                 - name: S/MIME 유효성 검사를 위한 가상 인증서 컬렉션 설정
                   href: ./office-365-security/set-up-virtual-certificate-collection-to-validate-s-mime.md
-        - name: Office 365 Enterprise
-          href: 'https://docs.microsoft.com/office-365-security/Enterprise'
+        - name: 엔터프라이즈용 Microsoft 365
+          href: 'https://docs.microsoft.com/microsoft-365/enterprise'
         - name: 비즈니스용 Microsoft 365
           href: 'https://docs.microsoft.com/microsoft-365/admin/admin-home'
     - name: Microsoft 365 규정 준수
