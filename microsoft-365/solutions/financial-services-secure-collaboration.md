@@ -13,12 +13,12 @@ ms.custom: ''
 localization_priority: Priority
 description: Microsoft 365에서 어떤 방식으로 데이터와 시스템을 보호하고 규정을 준수하도록 지원하며, 금융 서비스를 최신 공동 작업 플랫폼으로 전환하는지 알아봅니다.
 f1.keywords: NOCSH
-ms.openlocfilehash: affaf7ee6d9251003aec084d73b501212ebeda40
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 24177c6e878116b8d60d8f38be77d0b52141699a
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160462"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214699"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>미국 은행 및 자본 시장에 대한 주요 규정 준수 및 보안 고려 사항
 
@@ -216,7 +216,7 @@ Microsoft 365의 보안 서비스는 지능형 보안 그래프를 통해 제공
 - 보존 기간이 만료되면 수행되는 작업(문서 삭제, 처리 검토 시작 또는 조치 없음)
 -  보존 기간 시작(생성일, 최종 수정일, 레이블 지정일 또는 이벤트)을 트리거하고 문서나 이메일을 레코드로 표시(편집 또는 삭제할 수 없음)하는 항목
 
-그런 다음 보존 레이블이 SharePoint 또는 OneDrive 사이트, Exchange 사서함 및 Microsoft 365 그룹에 게시됩니다. 사용자는 문서 및 전자 메일에 보존 레이블을 수동으로 적용할 수 있습니다. 레코드 관리자는 인텔리전스를 사용하여 레이블을 자동으로 적용할 수 있습니다. 인텔리전트 기능은 [90가지 이상의 내장된 중요 정보 유형](https://docs.microsoft.com/microsoft-365/compliance/what-the-sensitive-information-types-look-for?view=o365-worldwide)(예: ABA 발신 번호, 미국 은행 계좌 번호 또는 미국 사회 보장 번호)을 기반으로 할 수 있습니다. 인텔리전트 기능은 또한 신용 카드 번호 또는 기타 개인 식별 정보와 같이 문서나 전자 메일에서 찾은 키워드를 기반으로 혹은 중요한 데이터 또는 SharePoint 메타데이터를 기반으로 사용자 지정할 수 있습니다. 수동 또는 자동 패턴 일치를 통해 쉽게 식별할 수 없는 데이터의 경우 훈련 가능한 분류자를 사용하여 머신 러닝 기술을 기반으로 문서를 지능적으로 분류할 수 있습니다.
+그런 다음 보존 레이블이 SharePoint 또는 OneDrive 사이트, Exchange 사서함 및 Microsoft 365 그룹에 게시됩니다. 사용자는 문서 및 전자 메일에 보존 레이블을 수동으로 적용할 수 있습니다. 레코드 관리자는 인텔리전스를 사용하여 레이블을 자동으로 적용할 수 있습니다. 인텔리전트 기능은 [90가지 이상의 내장된 중요 정보 유형](https://docs.microsoft.com/microsoft-365/compliance/content-search?view=o365-worldwide)(예: ABA 발신 번호, 미국 은행 계좌 번호 또는 미국 사회 보장 번호)을 기반으로 할 수 있습니다. 인텔리전트 기능은 또한 신용 카드 번호 또는 기타 개인 식별 정보와 같이 문서나 전자 메일에서 찾은 키워드를 기반으로 혹은 중요한 데이터 또는 SharePoint 메타데이터를 기반으로 사용자 지정할 수 있습니다. 수동 또는 자동 패턴 일치를 통해 쉽게 식별할 수 없는 데이터의 경우 훈련 가능한 분류자를 사용하여 머신 러닝 기술을 기반으로 문서를 지능적으로 분류할 수 있습니다.
  
 **SEC(증권거래위원회)** 는 증권중개인 및 기타 규제 금융 기관이 모든 업무 관련 통신을 보존하도록 요구합니다. 이러한 요건은 전자 메일, 문서, 인스턴트 메시지, 팩스 등 다양한 유형의 통신 및 데이터에 적용됩니다. **SEC 규칙 17a-4**는 전자적 데이터 저장소 시스템에 레코드를 저장하기 위해 이러한 조직이 충족해야 하는 기준을 정의합니다. 2003년 SEC는 이러한 요건을 명확히 하는 공개 자료를 발표했습니다. 여기에는 다음과 같은 기준이 포함되었습니다.
 

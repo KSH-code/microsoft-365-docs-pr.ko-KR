@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에 암호를 강력하고 관리하기 쉽도록 설정해야 합니다.
-ms.openlocfilehash: b4eb1861eb8d1c483972cf6a7c22a339dc1b0b36
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6e5c2567ee2027be2a84121fdad10ba873ec1c43
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637051"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214653"
 ---
 # <a name="step-2-secure-your-passwords"></a>2단계: 암호 보호
 
@@ -31,7 +31,7 @@ ms.locfileid: "43637051"
 
 *이 단계는 선택 사항이며 Microsoft 365 E3 및 E5 버전에 모두 적용됩니다*
 
-모든 사용자가 [Microsoft의 암호 지침](https://www.microsoft.com/research/publication/password-guidance/) 을 사용하여 사용자 계정 암호를 만들어야 합니다.
+모든 사용자가 [Microsoft의 암호 지침](https://www.microsoft.com/research/publication/password-guidance) 을 사용하여 사용자 계정 암호를 만들어야 합니다.
 
 사용자가 쉽게 확인할 수 있는 암호를 만들지 못하도록 하려면 전역 금지 암호 목록과 사용자가 지정한 선택적 사용자 지정 금지 암호 목록을 사용하는 Azure AD 암호 보호를 사용합니다. 예를 들어, 다음과 같이 조직에 맞는 조건을 지정할 수 있습니다.
 
