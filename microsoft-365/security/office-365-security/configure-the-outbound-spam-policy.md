@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 아웃 바운드 스팸 정책을 보고, 만들고, 수정 하 고, 삭제 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 9970956c2d05a47032cd47b867b8b4e9e92abc29
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 3f34c1ad27af1e0df2d2e2385f095da53e1cc318
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209574"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213035"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>EOP에서 아웃 바운드 스팸 필터링 구성
 
@@ -37,7 +37,7 @@ EOP에서는 스팸을 방지 하기 위해 조직의 전반적인 방어 과정
 
 보안 & 준수 센터 또는 PowerShell (exchange online 사서함이 없는 조직에 대 한 사서함이 있는 Microsoft 365 조 직 용 Exchange online PowerShell)에서 아웃 바운드 스팸 정책을 구성할 수 있습니다.
 
-## <a name="outbound-spam-policies-in-the-security--compliance-center-vs-exchange-online-powershell-or-exchange-online-protection-powershell"></a>보안 & 준수 센터 vs Exchange Online PowerShell 또는 Exchange Online Protection PowerShell의 아웃 바운드 스팸 정책
+## <a name="outbound-spam-policies-in-the-security--compliance-center-vs-powershell"></a>보안 & 준수 센터 vs PowerShell의 아웃 바운드 스팸 정책
 
 EOP의 아웃 바운드 스팸 정책의 기본 요소는 다음과 같습니다.
 
@@ -53,7 +53,7 @@ EOP의 아웃 바운드 스팸 정책의 기본 요소는 다음과 같습니다
 
 - 보안 & 준수 센터에서 아웃 바운드 스팸 정책을 제거 하면 아웃 바운드 스팸 필터 규칙과 연결 된 아웃 바운드 스팸 필터 정책이 제거 됩니다.
 
-Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection PowerShell에서 아웃 바운드 스팸 필터 정책 및 아웃 바운드 스팸 필터 규칙 간의 차이가 명백 합니다. ** \* -Get-hostedoutboundspamfilterpolicy** cmdlet을 사용 하 여 아웃 바운드 스팸 필터 정책을 관리 하 고 ** \* -HostedOutboundSpamFilterRule** cmdlet을 사용 하 여 아웃 바운드 스팸 필터 규칙을 관리 합니다.
+Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서는 아웃 바운드 스팸 필터 정책 및 아웃 바운드 스팸 필터 규칙 간의 차이가 명백 합니다. ** \* -Get-hostedoutboundspamfilterpolicy** cmdlet을 사용 하 여 아웃 바운드 스팸 필터 정책을 관리 하 고 ** \* -HostedOutboundSpamFilterRule** cmdlet을 사용 하 여 아웃 바운드 스팸 필터 규칙을 관리 합니다.
 
 - PowerShell에서 먼저 아웃 바운드 스팸 필터 정책을 만든 다음 규칙이 적용 되는 정책을 식별 하는 아웃 바운드 스팸 필터 규칙을 만듭니다.
 
@@ -77,9 +77,9 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
 - <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **스팸 방지 설정** 페이지로 바로 이동하려면 <https://protection.office.com/antispam>을 사용하세요.
 
-- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)를 참조하세요. Exchange Online Protection PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)를 참조하세요.
+- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)를 참조하세요. 독립 실행형 EOP PowerShell에 연결 하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조 하세요.
 
-- 이 절차를 수행하려면 먼저 사용 권한을 할당 받아야 합니다. 아웃 바운드 스팸 정책을 추가, 수정 및 삭제 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 아웃 바운드 스팸 정책에 대 한 읽기 전용 액세스를 위해서는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
+- 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 아웃 바운드 스팸 정책을 추가, 수정 및 삭제 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 아웃 바운드 스팸 정책에 대 한 읽기 전용 액세스를 위해서는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
 - 아웃 바운드 스팸 정책에 대 한 권장 설정에 대 한 자세한 내용은 [EOP outbound 스팸 필터 정책 설정을](recommended-settings-for-eop-and-office365-atp.md#eop-outbound-spam-policy-settings)참조 하십시오.
 
@@ -101,7 +101,12 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
 4. 반드시 **알림** 섹션을 확장 하 여 의심 스러운 아웃 바운드 전자 메일 메시지에 대 한 복사본 및 알림을 수신 해야 하는 추가 사용자를 구성 합니다.
 
-   - **의심 스러운 아웃 바운드 전자 메일 메시지의 복사본을 특정 사용자에 게 보내기**:이 설정은 지정한 사용자를 숨은 참조로 받는 사람에 게 의심 되는 아웃 바운드 메시지에 추가 합니다. 이 설정을 사용 하도록 설정 하려면:
+   - **의심 스러운 아웃 바운드 전자 메일 메시지의 복사본을 특정 사용자에 게 보내기**:이 설정은 지정한 사용자를 숨은 참조로 받는 사람에 게 의심 되는 아웃 바운드 메시지에 추가 합니다.
+
+     > [!NOTE]
+     > 이 설정은 기본 아웃 바운드 스팸 정책 에서만 작동 합니다. 사용자가 만든 아웃 바운드 스팸 정책에서는 작동 하지 않습니다.
+
+     이 설정을 사용 하도록 설정 하려면:
 
      a. 확인란을 선택 하 여 설정을 사용 하도록 설정 합니다.
 
@@ -122,7 +127,7 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
    - **아웃 바운드 스팸 전송로 인해 보낸 사람이 차단 된 경우 특정 사용자에 게 알림**:
 
      > [!NOTE]
-     > **받는 사람 제한** 섹션의 제한을 초과 하 여 사용자가 **차단 된 경우** **전자 메일을 보내는** 것이 제한**Global admins**된 사용자에 게 이미 전자 메일 알림이 전송 됩니다. 라는 기본 [경고 정책](../../compliance/alert-policies.md) 아웃 바운드 스팸 정책에서이 설정이 관리자 및 기타 사용자에 게 알리도록 설정 하는 것이 아니라 경고 정책을 사용 하는 것이 좋습니다. 자세한 내용은 [제한 된 사용자에 대 한 알림 설정 확인](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users)을 참조 하십시오.
+     > **받는 사람 제한** 섹션의 제한을 초과 하 여 사용자가 **차단 된 경우** **전자 메일을 보내는** 것이 제한**Global admins**된 사용자에 게 이미 전자 메일 알림이 전송 됩니다. 라는 기본 [경고 정책](../../compliance/alert-policies.md) 아웃 바운드 스팸 정책에서이 설정이 관리자 및 기타 사용자에 게 알리도록 설정 하는 것이 아니라 경고 정책을 사용 하는 것이 좋습니다. 자세한 내용은 [제한 된 사용자에 대 한 알림 설정 확인](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users)을 참조 하십시오. <br/><br/> 이 설정은 기본 아웃 바운드 스팸 정책 에서만 작동 합니다. 사용자가 만든 아웃 바운드 스팸 정책에서는 작동 하지 않습니다.
 
      이 설정을 사용 하도록 설정 하려면:
 
@@ -146,7 +151,7 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
    > [!NOTE]
    > 이러한 설정은 클라우드 기반 사서함에만 적용 됩니다.
-     
+
    - **사용자 당 최대 받는 사람 수**
 
      유효한 값은 0 ~ 1만입니다. 기본값은 0 이며이 값은 서비스 기본값을 사용 함을 의미 합니다. 자세한 내용은 [Microsoft 365 옵션을 통한 제한 보내기](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)를 참조 하세요.
@@ -263,7 +268,7 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
 기본 정책은 제거할 수 없습니다.
 
-## <a name="use-exchange-online-powershell-or-exchange-online-protection-powershell-to-configure-outbound-spam-policies"></a>Exchange Online PowerShell 또는 Exchange Online Protection PowerShell을 사용 하 여 아웃 바운드 스팸 정책 구성
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-outbound-spam-policies"></a>Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell을 사용 하 여 아웃 바운드 스팸 정책 구성
 
 ### <a name="use-powershell-to-create-outbound-spam-policies"></a>PowerShell을 사용 하 여 아웃 바운드 스팸 정책 만들기
 

@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: 관리자는 보안 & 준수 센터에서 메시지 추적을 사용 하 여 메시지에 대 한 변경 내용을 확인할 수 있습니다.
-ms.openlocfilehash: e78d3361306a93542302e29ff5c1fac4e2262b2f
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 22ae7293dfe85fe5354d21e690de6f060a931788
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209430"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44212989"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>보안 및 준수 센터의 메시지 추적
 
@@ -27,7 +27,7 @@ ms.locfileid: "44209430"
 보안 & 준수 센터의 메시지 추적은 EAC (Exchange 관리 센터)에서 사용 가능 했던 원본 메시지 추적에 대 한 개선 된 방법을 제공 합니다. 메시지 추적의 정보를 사용 하 여 메시지에 발생 한 상황에 대 한 사용자 질문을 효율적으로 응답 하 고, 메일 흐름 문제를 해결 하 고, 정책 변경을 확인할 수 있습니다.
 
 > [!NOTE]
-> • 메시지 추적을 수행 하려면 조직 관리, 준수 관리 또는 Help Desk 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요. <br/><br/>• 결과에 표시 되는 최대 메시지 수는 선택한 보고서 유형에 따라 달라 집니다 (자세한 내용은 [보고서 유형 선택](#choose-report-type) 섹션 참조). Exchange Online PowerShell 또는 Exchange Online Protection PowerShell의 [get-historicalsearch](https://docs.microsoft.com/powershell/module/exchange/reporting/get-historicalsearch) cmdlet은 결과의 모든 메시지를 반환 합니다.
+> • 메시지 추적을 수행 하려면 조직 관리, 준수 관리 또는 Help Desk 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요. <br/><br/>• 결과에 표시 되는 최대 메시지 수는 선택한 보고서 유형에 따라 달라 집니다 (자세한 내용은 [보고서 유형 선택](#choose-report-type) 섹션 참조). Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell의 [get-historicalsearch](https://docs.microsoft.com/powershell/module/exchange/reporting/get-historicalsearch) cmdlet은 결과의 모든 메시지를 반환 합니다.
 
 ## <a name="open-message-trace"></a>메시지 추적 열기
 

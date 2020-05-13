@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 사용자가 데스크톱에 대 한 Office 앱, 모바일 용 Office 앱 및 웹 용 Office 앱에서 민감도 레이블을 사용 하는 방법에 대해 알아봅니다. 민감도 레이블을 지 원하는 앱을 찾습니다.
-ms.openlocfilehash: 5a5b793358364efdd725de5478318a8237d78ca8
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 39ab61a13af311339174c0e37a10f4637f51ba84
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208072"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213308"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 사용
 
@@ -169,9 +169,9 @@ Office 365 메시지 암호화에 대해 정의 하는 것과 같은 관리자 �
 
 비즈니스용 OneDrive 또는 SharePoint Online의 문서를 웹에 있는 office 기본 제공 레이블 클라이언트를 사용 하려면 [sharepoint 및 OneDrive에서 office 파일에 대 한 민감도 레이블을 사용 하도록](sensitivity-labels-sharepoint-onedrive-files.md)미리 보기에 옵트인 해야 합니다.
 
-## <a name="when-office-365-applies-content-marking-and-encryption"></a>Office 365에서 콘텐츠 표시 및 암호화를 적용 하는 경우
+## <a name="when-office-apps-apply-content-marking-and-encryption"></a>Office 앱에서 콘텐츠 표시 및 암호화를 적용 하는 경우
 
-Office 365에서는 사용 하는 앱에 따라 민감도 레이블을 사용 하 여 콘텐츠 표시 및 암호화를 다르게 적용 합니다.
+Office 앱은 사용 하는 앱에 따라 콘텐츠 표시 및 암호화를 민감도 레이블과 다르게 적용 합니다.
 
 | 앱 | 콘텐츠 표시 | 암호화 |
 | --- | --- | --- |
@@ -179,6 +179,22 @@ Office 365에서는 사용 하는 앱에 따라 민감도 레이블을 사용 �
 | PC 및 Mac용 Outlook | Exchange Online이 전자 메일을 보낸 후 | 즉시 |
 | Mac, iOS 및 Android용 Outlook | Exchange Online이 전자 메일을 보낸 후 | Exchange Online이 전자 메일을 보낸 후 |
 |
+
+Office 앱 외부의 파일에 민감도 레이블을 적용 하는 솔루션은 레이블 메타 데이터를 파일에 적용 하 여이를 수행 합니다. 이 시나리오에서는 레이블의 구성에서 콘텐츠 표시가 파일에 삽입 되지 않지만 암호화가 적용 됩니다. 
+
+Office 데스크톱 앱에서 해당 파일을 열면 콘텐츠 표시가 Azure Information Protection 통합 레이블 클라이언트에 의해 자동으로 적용 됩니다. 데스크톱, 모바일 또는 웹 앱에 대 한 기본 제공 레이블을 사용 하는 경우에는 콘텐츠 표시가 자동으로 적용 되지 않습니다.
+
+Office 앱 외부에 민감도 레이블을 적용 하는 경우 다음이 포함 됩니다.
+
+- Azure Information Protection 통합 레이블 클라이언트의 스캐너, 파일 탐색기 및 PowerShell 
+
+- SharePoint 및 OneDrive에 대 한 자동 레이블 지정 정책
+
+- Power BI에서 레이블이 지정 되 고 암호화 된 데이터 내보내기
+
+- Microsoft Cloud App Security
+
+이러한 시나리오에서 Office 앱을 사용 하는 경우 기본 제공 레이블이 지정 된 사용자는 현재 레이블을 일시적으로 제거 하거나 바꾼 다음 원래 레이블을 다시 적용 하 여 레이블의 내용 표시를 적용할 수 있습니다.
 
 ## <a name="end-user-documentation"></a>최종 사용자 설명서
 
