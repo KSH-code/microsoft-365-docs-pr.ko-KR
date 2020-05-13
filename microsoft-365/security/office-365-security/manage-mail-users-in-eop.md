@@ -1,9 +1,9 @@
 ---
-title: EOP에서 메일 사용자 관리
+title: 독립 실행형 EOP에서 메일 사용자 관리
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
@@ -13,177 +13,273 @@ localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: 디렉터리 동기화, EAC 및 PowerShell을 사용 하 여 사용자를 관리 하는 등의 EOP (Exchange Online Protection)에서 메일 사용자를 관리 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9a4555bf4b6a716839c327c692f0e44b590f8175
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: e40465901747bcbd006d437fa527a9803aad1e24
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035559"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208648"
 ---
-# <a name="manage-mail-users-in-eop"></a><span data-ttu-id="c7bd3-103">EOP에서 메일 사용자 관리</span><span class="sxs-lookup"><span data-stu-id="c7bd3-103">Manage mail users in EOP</span></span>
+# <a name="manage-mail-users-in-standalone-eop"></a><span data-ttu-id="c9425-103">독립 실행형 EOP에서 메일 사용자 관리</span><span class="sxs-lookup"><span data-stu-id="c9425-103">Manage mail users in standalone EOP</span></span>
 
-<span data-ttu-id="c7bd3-p101">메일 사용자 정의는 EOP(Exchange Online Protection) 서비스 관리의 중요한 부분입니다. EOP에서는 여러 가지 방식으로 사용자를 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-p101">Defining mail users is an important part of managing the Exchange Online Protection (EOP) service. There are several ways that you can manage users in EOP:</span></span>
-
-- <span data-ttu-id="c7bd3-p102">**디렉터리 동기화를 사용하여 메일 사용자 관리**: 회사의 온-프레미스 Active Directory 환경에 기존 사용자 계정이 있는 경우 이러한 계정을 Azure Active Directory(AD)로 동기화할 수 있습니다. 계정의 복사본은 클라우드에 저장됩니다. 기존 사용자 계정을 Azure Active Directory에 동기화할 때는 EAC(Exchange 관리 센터)의 **받는 사람** 창에서 해당 받는 사람을 볼 수 있습니다. 디렉터리 동기화를 사용하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-p102">**Use directory synchronization to manage mail users**: If your company has existing user accounts in an on-premises Active Directory environment, you can synchronize those accounts to Azure Active Directory (AD), where a copy of the accounts is stored in the cloud. When you synchronize your existing user accounts to Azure Active Directory, you can view those users in the **Recipients** pane of the Exchange admin center (EAC). Using directory synchronization is recommended.</span></span>
-
-- <span data-ttu-id="c7bd3-p103">**EAC를 사용하여 메일 사용자 관리**: EAC에서 메일 사용자를 직접 추가하고 관리합니다. 이 방법이 메일 사용자를 추가하는 가장 쉬운 방법이며 한 번에 한 명의 사용자를 추가하는 데 유용합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-p103">**Use the EAC to manage mail users**: Add and manage mail users directly in the EAC. This is the easiest way to add mail users and is useful for adding one user at a time.</span></span>
-
-- <span data-ttu-id="c7bd3-111">**PowerShell을 사용 하 여 메일 사용자 관리**: Exchange Online Protection PowerShell에서 메일 사용자 추가 및 관리를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-111">**Use PowerShell to manage mail users**: Add and manage mail users by in Exchange Online Protection PowerShell.</span></span> <span data-ttu-id="c7bd3-112">이 방법은 여러 레코드를 추가하고 스크립트를 만드는 데 유용합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-112">This method is useful for adding multiple records and creating scripts.</span></span>
+<span data-ttu-id="c9425-104">Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protection) 조직에서 메일 사용자는 기본 유형의 사용자 계정입니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-104">In standalone Exchange Online Protection (EOP) organizations without Exchange Online mailboxes, mail users are the fundamental type of user account.</span></span> <span data-ttu-id="c9425-105">메일 사용자는 독립 실행형 EOP 조직에 계정 자격 증명을 가지 며 사용 권한이 할당 된 리소스에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-105">A mail user has account credentials in your standalone EOP organization, and can access resources (have permissions assigned).</span></span> <span data-ttu-id="c9425-106">메일 사용자의 전자 메일 주소는 외부 (예: 온-프레미스 전자 메일 환경)입니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-106">A mail user's email address is external (for example, in your on-premises email environment).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c7bd3-113">Microsoft 365 관리 센터에서 사용자를 추가할 수 있지만 이러한 사용자는 메일 받는 사람으로 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-113">You can add users in the Microsoft 365 admin center, however these users can't be used as mail recipients.</span></span>
+> <span data-ttu-id="c9425-107">메일 사용자를 만들 때는 Microsoft 365 관리 센터에서 해당 사용자 계정을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-107">When you create a mail user, the corresponding user account is available in the Microsoft 365 admin center.</span></span> <span data-ttu-id="c9425-108">Microsoft 365 관리 센터에서 사용자 계정을 만드는 경우 해당 계정을 사용 하 여 메일 사용자를 만들 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-108">When you create a user account in the Microsoft 365 admin center, you can't use that account to create a mail user.</span></span>
 
-## <a name="before-you-begin"></a><span data-ttu-id="c7bd3-114">시작하기 전에</span><span class="sxs-lookup"><span data-stu-id="c7bd3-114">Before you begin</span></span>
+<span data-ttu-id="c9425-109">독립 실행형 EOP에서 메일 사용자를 만들고 관리 하는 데 권장 되는 방법은이 항목 뒷부분의 [디렉터리 동기화를 사용 하 여 메일 사용자 관리](#use-directory-synchronization-to-manage-mail-users) 섹션에 설명 된 대로 디렉터리 동기화를 사용 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-109">The recommended method to create and manage mail users in standalone EOP is to use directory synchronization as described in the [Use directory synchronization to manage mail users](#use-directory-synchronization-to-manage-mail-users) section later in this topic.</span></span>
 
-- <span data-ttu-id="c7bd3-115">Exchange 관리 센터를 열려면 exchange [Online Protection의 exchange 관리 센터](exchange-admin-center-in-exchange-online-protection-eop.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-115">To open the Exchange admin center, see [Exchange admin center in Exchange Online Protection](exchange-admin-center-in-exchange-online-protection-eop.md).</span></span>
+<span data-ttu-id="c9425-110">사용자 수가 적은 독립 실행형 EOP 조직의 경우이 항목에 설명 된 대로 EAC (Exchange 관리 센터) 또는 독립 실행형 EOP PowerShell에서 메일 사용자를 추가 하 고 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-110">For standalone EOP organizations with a small number of users, you can add and manage mail users in the Exchange admin center (EAC) or in standalone EOP PowerShell as described in this topic.</span></span>
 
-- <span data-ttu-id="c7bd3-p105">이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인하려면 다음을 참조하세요. [EOP의 기능 사용 권한](feature-permissions-in-eop.md)의 "사용자, 연락처 및 역할 그룹" 항목</span><span class="sxs-lookup"><span data-stu-id="c7bd3-p105">You need to be assigned permissions before you can perform this procedure or procedures. To see what permissions you need, see the "Users, Contacts, and Role Groups" entry in [Feature permissions in EOP](feature-permissions-in-eop.md).</span></span>
+## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="c9425-111">시작하기 전에 알아야 할 사항은 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="c9425-111">What do you need to know before you begin?</span></span>
 
-- <span data-ttu-id="c7bd3-118">Exchange Online Protection PowerShell cmdlet을 사용 하 여 메일 사용자를 만들 때 제한이 발생할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-118">Be aware that when creating mail users by using Exchange Online Protection PowerShell cmdlets, you may encounter throttling.</span></span>
+- <span data-ttu-id="c9425-112">EAC (Exchange 관리 센터)를 열려면 [독립 실행형 EOP에서 exchange 관리 센터](exchange-admin-center-in-exchange-online-protection-eop.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="c9425-112">To open the Exchange admin center (EAC), see [Exchange admin center in standalone EOP](exchange-admin-center-in-exchange-online-protection-eop.md).</span></span>
 
-- <span data-ttu-id="c7bd3-119">이 항목의 PowerShell 명령에서는 일괄 처리 방법을 사용 하 여 명령 결과가 표시 되기까지 몇 분 정도 전파 지연을 발생 시킵니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-119">The PowerShell commands in this topic use a batch processing method that results in a propagation delay of a few minutes before the results of the commands are visible.</span></span>
+- <span data-ttu-id="c9425-113">독립 실행형 EOP PowerShell에 연결 하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="c9425-113">To connect to standalone EOP PowerShell, see [Connect to Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).</span></span>
 
-- <span data-ttu-id="c7bd3-120">Windows PowerShell을 사용하여 Exchange Online Protection에 연결하는 방법에 대한 자세한 내용은 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-120">To learn how to use Windows PowerShell to connect to Exchange Online Protection, see [Connect to Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).</span></span>
+- <span data-ttu-id="c9425-114">EOP PowerShell에서 메일 사용자를 만들 때 제한이 발생할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-114">When you create mail users in EOP PowerShell, you might encounter throttling.</span></span> <span data-ttu-id="c9425-115">또한 EOP PowerShell cmdlet은 일괄 처리 방법을 사용 하 여 명령 결과가 표시 되기까지 몇 분 정도 전파 지연을 발생 시킵니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-115">Also, the EOP PowerShell cmdlets use a batch processing method that results in a propagation delay of a few minutes before the results of the commands are visible.</span></span>
 
-- <span data-ttu-id="c7bd3-121">이 항목의 절차에 적용할 수 있는 바로 가기 키에 대 한 자세한 내용은 [Exchange Online에서 exchange 관리 센터에 대 한 바로 가기 키](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-121">For information about keyboard shortcuts that may apply to the procedures in this topic, see [Keyboard shortcuts for the Exchange admin center in Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).</span></span>
+- <span data-ttu-id="c9425-116">이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-116">You need to be assigned permissions before you can perform these procedures.</span></span> <span data-ttu-id="c9425-117">특히 OrganizationManagement (전역 관리자) 및 RecipientManagement 역할 그룹에 할당 되는 메일 받는 사람 만들기 (만들기) 및 메일 받는 사람 (수정) 역할은 기본적으로 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-117">Specifically, you need the Mail Recipient Creation (create) and Mail Recipients (modify) roles, which are assigned to the OrganizationManagement (global admins) and RecipientManagement role groups by default.</span></span> <span data-ttu-id="c9425-118">자세한 내용은 [권한 독립 실행형 EOP의 사용 권한을](feature-permissions-in-eop.md) 참조 하 고 [EAC를 사용 하 여 역할 그룹의 구성원 목록을 수정](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-118">For more information, see [Permissions in standalone EOP](feature-permissions-in-eop.md) and [Use the EAC modify the list of members in role groups](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).</span></span>
+
+- <span data-ttu-id="c9425-119">이 항목의 절차에 적용할 수 있는 바로 가기 키에 대 한 자세한 내용은 [Exchange Online에서 exchange 관리 센터에 대 한 바로 가기 키](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="c9425-119">For information about keyboard shortcuts that may apply to the procedures in this topic, see [Keyboard shortcuts for the Exchange admin center in Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).</span></span>
 
 > [!TIP]
-> <span data-ttu-id="c7bd3-122">문제가 있습니까?</span><span class="sxs-lookup"><span data-stu-id="c7bd3-122">Having problems?</span></span> <span data-ttu-id="c7bd3-123">[Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) 포럼에서 도움을 요청 하세요.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-123">Ask for help in the [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) forum.</span></span>
+> <span data-ttu-id="c9425-120">문제가 있습니까?</span><span class="sxs-lookup"><span data-stu-id="c9425-120">Having problems?</span></span> <span data-ttu-id="c9425-121">Exchange 포럼에서 도움을 요청하세요.</span><span class="sxs-lookup"><span data-stu-id="c9425-121">Ask for help in the Exchange forums.</span></span> <span data-ttu-id="c9425-122">[Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) 포럼을 방문 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-122">Visit the [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) forum.</span></span>
 
-## <a name="use-directory-synchronization-to-manage-mail-users"></a><span data-ttu-id="c7bd3-124">디렉터리 동기화를 사용하여 메일 사용자 관리</span><span class="sxs-lookup"><span data-stu-id="c7bd3-124">Use directory synchronization to manage mail users</span></span>
+## <a name="use-the-exchange-admin-center-to-manage-mail-users"></a><span data-ttu-id="c9425-123">Exchange 관리 센터를 사용 하 여 메일 사용자 관리</span><span class="sxs-lookup"><span data-stu-id="c9425-123">Use the Exchange admin center to manage mail users</span></span>
 
-<span data-ttu-id="c7bd3-125">이 섹션에서는 디렉터리 동기화를 사용하여 전자 메일 사용자를 관리하는 방법에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-125">This section provides information about managing email users by using directory synchronization.</span></span>
+### <a name="use-the-eac-to-create-mail-users"></a><span data-ttu-id="c9425-124">EAC를 사용 하 여 메일 사용자 만들기</span><span class="sxs-lookup"><span data-stu-id="c9425-124">Use the EAC to create mail users</span></span>
 
-<span data-ttu-id="c7bd3-126">**참고**:</span><span class="sxs-lookup"><span data-stu-id="c7bd3-126">**Notes**:</span></span>
+1. <span data-ttu-id="c9425-125">EAC에서 **받는 사람** \> **연락처로** 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-125">In the EAC, go to **Recipients** \> **Contacts**</span></span>
 
-- <span data-ttu-id="c7bd3-127">디렉터리 동기화를 사용 하 여 받는 사람을 관리 하는 경우에도 Microsoft 365 관리 센터에서 사용자를 추가 및 관리할 수 있지만 온-프레미스 Active Directory와 동기화 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-127">If you use directory synchronization to manage your recipients, you can still add and manage users in the Microsoft 365 admin center, but they will not be synchronized with your on-premises Active Directory.</span></span> <span data-ttu-id="c7bd3-128">디렉터리 동기화는 온-프레미스 Active Directory **의** 받는 사람만 클라우드 **로** 동기화 하기 때문입니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-128">This is because directory synchronization only syncs recipients **from** your on-premises Active Directory **to** the cloud.</span></span>
+2. <span data-ttu-id="c9425-126">**새로** ![ 만들기 아이콘 ](../../media/ITPro-EAC-AddIcon.png) 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-126">Click **New** ![New icon](../../media/ITPro-EAC-AddIcon.png).</span></span> <span data-ttu-id="c9425-127">**새 메일 사용자** 페이지가 열리면 다음 설정을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-127">In the **New mail user** page that opens, configure the following settings.</span></span> <span data-ttu-id="c9425-128">로 표시 된 설정은 <sup>\*</sup> 필수입니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-128">Settings marked with an <sup>\*</sup> are required.</span></span>
 
-- <span data-ttu-id="c7bd3-129">디렉터리 동기화는 다음과 같은 기능을 사용 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-129">Directory synchronization is recommended for use with the following features:</span></span>
+   - <span data-ttu-id="c9425-129">**이름**</span><span class="sxs-lookup"><span data-stu-id="c9425-129">**First name**</span></span>
 
-  - <span data-ttu-id="c7bd3-130">**Outlook 수신 허용-보낸 사람 및 수신 거부 목록**: 서비스에 동기화 할 때 이러한 목록이 서비스의 스팸 필터링 보다 우선 합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-130">**Outlook safe sender and blocked sender lists**: When synchronized to the service, these lists will take precedence over spam filtering in the service.</span></span> <span data-ttu-id="c7bd3-131">이를 통해 사용자는 사용자 또는 도메인 기준으로 수신 허용 및 수신 거부 보낸 사람 목록을 자체적으로 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-131">This lets users manage their own safe sender and blocked sender lists on a per-user or per-domain basis.</span></span>
+   - <span data-ttu-id="c9425-130">**이니셜**: 사람의 중간 이니셜입니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-130">**Initials**: The person's middle initial.</span></span>
 
-  - <span data-ttu-id="c7bd3-132">**Dbeb (디렉터리 기반 Edge 차단)**: dbeb에 대 한 자세한 내용은 [Use Directory Based Edge 차단은 잘못 된 받는 사람에 게 보낸 메시지를 거부](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-directory-based-edge-blocking)합니다 .를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-132">**Directory Based Edge Blocking (DBEB)**: For more information about DBEB, see [Use Directory Based Edge Blocking to Reject Messages Sent to Invalid Recipients](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-directory-based-edge-blocking).</span></span>
+   - <span data-ttu-id="c9425-131">**성**</span><span class="sxs-lookup"><span data-stu-id="c9425-131">**Last name**</span></span>
 
-  - <span data-ttu-id="c7bd3-133">**최종 사용자 스팸 격리**: 최종 사용자 스팸 격리에 액세스 하려면 최종 사용자에 게 유효한 사용자 ID와 암호가 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-133">**End user spam quarantine**: In order to access the end user spam quarantine, end users must have a valid user ID and password.</span></span> <span data-ttu-id="c7bd3-134">온-프레미스 사서함을 보호하는 EOP 고객은 유효한 전자 메일 사용자여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-134">EOP customers protecting on-premises mailboxes must be valid email users.</span></span>
+   - <span data-ttu-id="c9425-132"><sup>\*</sup>**표시 이름**:이 상자에는 기본적으로 **이름**, **이니셜**및 **성** 상자의 값이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-132"><sup>\*</sup>**Display name**: By default, this box shows the values from the **First name**, **Initials**, and **Last name** boxes.</span></span> <span data-ttu-id="c9425-133">이 값을 그대로 사용 하거나 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-133">You can accept this value or change it.</span></span> <span data-ttu-id="c9425-134">이 값은 고유 해야 하며 최대 길이는 64 자입니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-134">The value should be unique, and has a maximum length of 64 characters.</span></span>
 
-  - <span data-ttu-id="c7bd3-135">**메일 흐름 규칙**: 디렉터리 동기화를 사용 하는 경우 기존 Active directory 사용자 및 그룹이 클라우드로 자동 업로드 되 고, EAC 또는 Exchange Online Protection PowerShell을 통해 해당 사용자 및/또는 그룹을 수동으로 추가 하지 않고도 특정 사용자나 그룹이 대상으로 지정 되는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-135">**Mail flow rules**: When you use directory synchronization, your existing Active Directory users and groups are automatically uploaded to the cloud, and you can then create mail flow rules (also known as transport rules) that target specific users and/or groups without having to manually add them via the the EAC or Exchange Online Protection PowerShell.</span></span> <span data-ttu-id="c7bd3-136">[동적 메일 그룹](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups) 은 디렉터리 동기화를 통해 동기화 할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-136">Note that [dynamic distribution groups](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups) can't be synchronized via directory synchronization.</span></span>
+   - <span data-ttu-id="c9425-135"><sup>\*</sup>**별칭**: 사용자에 대해 최대 64 문자를 사용 하 여 고유한 별칭을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-135"><sup>\*</sup>**Alias**: Enter a unique alias, using up to 64 characters, for the user</span></span>
 
-<span data-ttu-id="c7bd3-137">[Azure Active directory를 사용한 하이브리드 id 란?](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity)에 설명 된 대로 필요한 사용 권한을 얻고 디렉터리 동기화를 준비 합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-137">Get the necessary permissions and prepare for directory synchronization, as described in [What is hybrid identity with Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity).</span></span>
+   - <span data-ttu-id="c9425-136">**외부 전자 메일 주소**: 사용자의 전자 메일 주소를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-136">**External email address**: Enter the user's email address.</span></span> <span data-ttu-id="c9425-137">도메인은 클라우드 기반 조직 외부에 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-137">The domain should be external to your cloud-based organization.</span></span>
 
-### <a name="to-synchronize-user-directories-with-azure-active-directory-connect-aad-connect"></a><span data-ttu-id="c7bd3-138">사용자 디렉터리를 Azure Active Directory Connect (AAD 연결)와 동기화 하려면</span><span class="sxs-lookup"><span data-stu-id="c7bd3-138">To synchronize user directories with Azure Active Directory Connect (AAD Connect)</span></span>
+   - <span data-ttu-id="c9425-138"><sup>\*</sup>**사용자 ID**: 사용자가 서비스에 로그인 할 때 사용할 계정을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-138"><sup>\*</sup>**User ID**: Enter the account that the person will use to sign in to the service.</span></span> <span data-ttu-id="c9425-139">사용자 ID는 @ 기호 왼쪽의 사용자 이름 및 오른쪽에 있는 도메인으로 구성 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-139">The user ID consists of a username on the left side of the at (@) symbol (@) and a domain on the right side.</span></span>
 
-<span data-ttu-id="c7bd3-139">사용자를 Azure Active Directory (AAD)와 동기화 하려면 먼저 [AZURE AD Connect 동기화: 이해 및 사용자 지정 동기화](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)에 설명 된 대로 **디렉터리 동기화를 활성화**해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-139">To synchronize users to Azure Active Directory (AAD) you first have to **activate directory synchronization**, as described in [Azure AD Connect sync: Understand and customize synchronization](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis).</span></span>
+   - <span data-ttu-id="c9425-140"><sup>\*</sup>**새 암호** 및 <sup>\*</sup> **암호 확인**: 계정 암호를 입력 하 고 다시 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-140"><sup>\*</sup>**New password** and <sup>\*</sup>**Confirm password**: Enter and reenter the account password.</span></span> <span data-ttu-id="c9425-141">암호가 조직의 암호 길이, 복잡도 및 기록 요구 사항을 따르는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-141">Verify that the password complies with the password length, complexity, and history requirements of your organization.</span></span>
 
-<span data-ttu-id="c7bd3-140">다음은 AAD 연결을 실행 하는 온-프레미스 컴퓨터를 설치 및 구성 하는 것입니다 (아직 한 번 확인 해야 할 사항이 없는 경우).</span><span class="sxs-lookup"><span data-stu-id="c7bd3-140">Next is the installation and configuration of an on-premises computer to run AAD Connect (if you don't already have one -- something worth checking ahead of time).</span></span> <span data-ttu-id="c7bd3-141">[Aad 연결 설정에 대 한 빠른 방법](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express) 항목에는 aad connect를 사용 하 여 온-프레미스에서 Azure AD로 계정을 설정 하 고 동기화 하는 방법에 대 한 정보가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-141">The [Setting up AAD Connect, the express way](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express) topic tells you how to setup and synchronize your accounts from on-premises to Azure AD with AAD Connect.</span></span>
+3. <span data-ttu-id="c9425-142">모든 설정이 끝나면 **저장**을 클릭하여 메일 사용자를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-142">When you've finished, click **Save** to create the mail user.</span></span>
 
-<span data-ttu-id="c7bd3-142">그러나이 작업을 수행 하기 전에 [필수 구성 요소를 충족](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-prerequisites)하는지 확인 하 고 [설치 유형을 선택](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-select-installation)합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-142">But before you do that work, make certain [you meet prerequisites](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-prerequisites), and [choose your installation type](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-select-installation).</span></span> <span data-ttu-id="c7bd3-143">위의 링크는 빠른 설치를 위한 짧은 문서에 대 한 것입니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-143">The earlier link is to a short article for express installs.</span></span> <span data-ttu-id="c7bd3-144">또한 [사용자 지정 설치](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-custom)또는 필요한 경우 [통과 인증](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta-quick-start) 에 대 한 문서를 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-144">You can also find articles on [custom installations](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-custom), or [pass-through authentication](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta-quick-start) if they're needed.</span></span>
+### <a name="use-the-eac-to-modify-mail-users"></a><span data-ttu-id="c9425-143">EAC를 사용 하 여 메일 사용자 수정</span><span class="sxs-lookup"><span data-stu-id="c9425-143">Use the EAC to modify mail users</span></span>
 
-> [!IMPORTANT]
-> <span data-ttu-id="c7bd3-p113">Azure Active Directory 동기화 도구 구성 마법사를 완료하면 Active Directory 포리스트에 **MSOL_AD_SYNC** 계정이 만들어집니다. 이 계정을 사용하여 온-프레미스 Active Directory 정보를 읽고 동기화합니다. 디렉터리 동기화가 정상적으로 작동하도록 하려면 로컬 디렉터리 동기화 서버의 TCP 443이 열려 있는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-p113">When you finish the Azure Active Directory Sync Tool Configuration Wizard, the **MSOL_AD_SYNC** account is created in your Active Directory forest. This account is used to read and synchronize your on-premises Active Directory information. In order for directory synchronization to work correctly, make sure that TCP 443 on your local directory synchronization server is open.</span></span>
+1. <span data-ttu-id="c9425-144">EAC에서 **받는 사람** \> **연락처**로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-144">In the EAC, go to **Recipients** \> **Contacts**.</span></span>
 
-<span data-ttu-id="c7bd3-148">동기화를 구성한 후에는 EOP가 올바르게 동기화 되는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-148">After configuring your sync, be sure to verify that EOP is synchronizing correctly.</span></span> <span data-ttu-id="c7bd3-149">이렇게 하려면 EAC에서 **받는 사람** \> **연락처**로 이동한 다음 온-프레미스 환경에서 사용자 목록이 올바르게 동기화되었는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-149">In the EAC, go to **Recipients** \> **Contacts** and view that the list of users was correctly synchronized from your on-premises environment.</span></span>
+2. <span data-ttu-id="c9425-145">수정할 메일 사용자를 선택 하 고 편집 아이콘 **편집** 을 클릭 ![ ](../../media/ITPro-EAC-AddIcon.png) 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-145">Select the mail user that you want to modify, and then click **Edit** ![Edit icon](../../media/ITPro-EAC-AddIcon.png).</span></span>
 
-## <a name="use-the-eac-to-manage-mail-users"></a><span data-ttu-id="c7bd3-150">EAC를 사용하여 메일 사용자 관리</span><span class="sxs-lookup"><span data-stu-id="c7bd3-150">Use the EAC to manage mail users</span></span>
+3. <span data-ttu-id="c9425-146">메일 사용자 속성 페이지가 열리면 다음 탭 중 하나를 클릭 하 여 속성을 보거나 변경 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-146">On the mail user properties page that opens, click one of the following tabs to view or change properties.</span></span>
 
-<span data-ttu-id="c7bd3-151">이 섹션에서는 전자 메일 사용자를 EAC에서 직접 추가 및 관리하는 방법에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-151">This section provides information about adding and managing email users directly in the EAC.</span></span>
+   <span data-ttu-id="c9425-147">작업을 마쳤으면 **저장**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-147">When you're finished, click **Save**.</span></span>
 
-### <a name="use-the-eac-to-add-a-mail-user"></a><span data-ttu-id="c7bd3-152">EAC를 사용 하 여 메일 사용자 추가</span><span class="sxs-lookup"><span data-stu-id="c7bd3-152">Use the EAC to add a mail user</span></span>
+#### <a name="general"></a><span data-ttu-id="c9425-148">일반</span><span class="sxs-lookup"><span data-stu-id="c9425-148">General</span></span>
 
-1. <span data-ttu-id="c7bd3-153">EAC에서 **받는 사람** \> **연락처**로 이동한 다음 **새로 만들기 +** 를 클릭하여 전자 메일 사용자를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-153">Create an email user by going to go to **Recipients** \> **Contacts** in the EAC, and then clicking **New +**.</span></span>
+<span data-ttu-id="c9425-149">**일반** 탭을 사용 하 여 메일 사용자에 대 한 기본 정보를 보거나 변경 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-149">Use the **General** tab to view or change basic information about the mail user.</span></span>
 
-2. <span data-ttu-id="c7bd3-154">**새 메일 사용자** 페이지에서 다음을 비롯한 사용자의 정보를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-154">On the **New mail user** page, enter the user's information, including the following:</span></span>
+- <span data-ttu-id="c9425-150">**이름**</span><span class="sxs-lookup"><span data-stu-id="c9425-150">**First name**</span></span>
 
-   ****
+- <span data-ttu-id="c9425-151">**이니셜**</span><span class="sxs-lookup"><span data-stu-id="c9425-151">**Initials**</span></span>
 
-   |<span data-ttu-id="c7bd3-155">**메일 사용자 속성**</span><span class="sxs-lookup"><span data-stu-id="c7bd3-155">**Mail user property**</span></span>|<span data-ttu-id="c7bd3-156">**설명**</span><span class="sxs-lookup"><span data-stu-id="c7bd3-156">**Description**</span></span>|
-   |:-----|:-----|
-   |<span data-ttu-id="c7bd3-157">**이름**, **이니셜**, **성**</span><span class="sxs-lookup"><span data-stu-id="c7bd3-157">**First name**, **Initials**, and **Last name**</span></span>|<span data-ttu-id="c7bd3-158">해당 상자에 사용자의 전체 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-158">Type the user's full name in the appropriate boxes.</span></span>|
-   |<span data-ttu-id="c7bd3-159">**표시 이름**</span><span class="sxs-lookup"><span data-stu-id="c7bd3-159">**Display name**</span></span>|<span data-ttu-id="c7bd3-p115">이름을 64자까지 입력합니다. 기본적으로 이 상자에는 **이름**, **이니셜** 및 **성** 상자의 이름(있는 경우)이 표시됩니다. 표시 이름은 필수 입력 필드입니다.  </span><span class="sxs-lookup"><span data-stu-id="c7bd3-p115">Type a name, using up to 64 characters. By default, this box shows the names in the **First name**, **Initials**, and **Last name** boxes if any. The display name is required.</span></span>|
-   |<span data-ttu-id="c7bd3-163">**별칭**</span><span class="sxs-lookup"><span data-stu-id="c7bd3-163">**Alias**</span></span>|<span data-ttu-id="c7bd3-p116">사용자의 고유한 별칭을 64자까지 입력합니다. 별칭은 필수 입력 필드입니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-p116">Type a unique alias, using up to 64 characters, for the user. The alias is required.</span></span>|
-   |<span data-ttu-id="c7bd3-166">**외부 전자 메일 주소**</span><span class="sxs-lookup"><span data-stu-id="c7bd3-166">**External email address**</span></span>|<span data-ttu-id="c7bd3-167">사용자의 외부 전자 메일 주소를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-167">Type the external email address of the user.</span></span>|
-   |<span data-ttu-id="c7bd3-168">**사용자 ID**</span><span class="sxs-lookup"><span data-stu-id="c7bd3-168">**User id**</span></span>|<span data-ttu-id="c7bd3-p117">사용자가 서비스에 로그인하는 데 사용할 이름을 입력합니다. 사용자 로그인 이름은 @ 기호 왼쪽의 사용자 이름과 오른쪽의 접미사로 구성됩니다. 일반적으로 접미사는 사용자 계정이 있는 도메인 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-p117">Type the name that the mail user will use to sign in to the service. The user sign-in name consists of a user name on the left side of the at (@) symbol and a suffix on the right side. Typically, the suffix is the domain name in which the user account resides.</span></span>|
-   |<span data-ttu-id="c7bd3-172">**새 암호**</span><span class="sxs-lookup"><span data-stu-id="c7bd3-172">**New password**</span></span>|<span data-ttu-id="c7bd3-p118">사용자가 서비스에 로그인하는 데 사용할 암호를 입력합니다. 제공하는 암호는 사용자 계정을 만들 도메인의 암호 길이, 복잡성 및 내역 요구 사항을 준수해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-p118">Type the password that the mail user will use to sign in to the service. Make sure that the password you supply complies with the password length, complexity, and history requirements of the domain in which you're creating the user account.</span></span>|
-   |<span data-ttu-id="c7bd3-175">**암호 확인**</span><span class="sxs-lookup"><span data-stu-id="c7bd3-175">**Confirm password**</span></span>|<span data-ttu-id="c7bd3-176">암호를 다시 입력하여 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-176">Retype the password to confirm it.</span></span>|
+- <span data-ttu-id="c9425-152">**성**</span><span class="sxs-lookup"><span data-stu-id="c9425-152">**Last name**</span></span>
 
-3. <span data-ttu-id="c7bd3-p119">**저장**을 클릭하여 새 전자 메일 사용자를 만듭니다. 그러면 새 사용자가 사용자 목록에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-p119">Click **Save** to create the new email user. The new user should appear in the list of users.</span></span>
+- <span data-ttu-id="c9425-153">**표시 이름**:이 이름은 조직의 주소록, 전자 메일의 대상: 및 보낸 사람: 줄 및 EAC의 연락처 목록에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-153">**Display name**: This name appears in your organization's address book, on the To: and From: lines in email, and in the list of contacts in the EAC.</span></span> <span data-ttu-id="c9425-154">표시 이름 앞뒤에는 빈 공간을 포함할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-154">This name can't contain empty spaces before or after the display name.</span></span>
 
-### <a name="use-the-eac-to-edit-or-remove-a-mail-user"></a><span data-ttu-id="c7bd3-179">EAC를 사용 하 여 메일 사용자 편집 또는 제거</span><span class="sxs-lookup"><span data-stu-id="c7bd3-179">Use the EAC to edit or remove a mail user</span></span>
+- <span data-ttu-id="c9425-155">**사용자 ID**: Microsoft 365의 사용자 계정입니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-155">**User ID**: This is the user's account in Microsoft 365.</span></span> <span data-ttu-id="c9425-156">여기서는이 값을 수정할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-156">You can't modify this value here.</span></span>
 
-- <span data-ttu-id="c7bd3-180">EAC에서 **받는 사람** \> **연락처**로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-180">In the EAC, go to **Recipients** \> **Contacts**.</span></span> <span data-ttu-id="c7bd3-181">사용자 목록에서 보거나 변경 하려는 사용자를 클릭 한 다음 편집 아이콘](../../media/ITPro-EAC-EditIcon.gif) **편집** ![을 선택 하 여 사용자 설정을 필요에 따라 업데이트 합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-181">In the list of users, click the user that you want to view or change, and then select **Edit** ![Edit icon](../../media/ITPro-EAC-EditIcon.gif) to update the user settings as needed.</span></span> <span data-ttu-id="c7bd3-182">사용자 이름, 별칭 또는 연락처 정보를 변경할 수 있으며 조직에서 사용자의 역할에 대한 상세 정보를 기록할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-182">You can change the user's name, alias, or contact information, and you can record detailed information about the user's role in the organization.</span></span> <span data-ttu-id="c7bd3-183">사용자를 선택한 다음 제거 아이콘](../../media/ITPro-EAC-RemoveIcon.gif) **제거** ![를 선택 하 여 삭제를 삭제할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-183">You can also select a user and then choose **Remove** ![Remove icon](../../media/ITPro-EAC-RemoveIcon.gif) to delete it.</span></span>
+#### <a name="contact-information"></a><span data-ttu-id="c9425-157">연락처 정보</span><span class="sxs-lookup"><span data-stu-id="c9425-157">Contact information</span></span>
 
-## <a name="use-exchange-online-protection-powershell-to-manage-mail-users"></a><span data-ttu-id="c7bd3-184">Exchange Online Protection PowerShell을 사용 하 여 메일 사용자 관리</span><span class="sxs-lookup"><span data-stu-id="c7bd3-184">Use Exchange Online Protection PowerShell to manage mail users</span></span>
+<span data-ttu-id="c9425-158">사용자의 연락처 정보를 보거나 변경 하려면 **연락처 정보** 탭을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-158">Use the **Contact information** tab to view or change the user's contact information.</span></span> <span data-ttu-id="c9425-159">이 페이지의 정보는 주소록에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-159">The information on this page is displayed in the address book.</span></span>
 
-<span data-ttu-id="c7bd3-185">이 섹션에서는 원격 Windows PowerShell을 사용하여 메일 사용자를 추가하고 관리하는 방법에 대한 정보가 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-185">This section provides information about adding and managing mail users by using remote Windows PowerShell.</span></span>
+- <span data-ttu-id="c9425-160">**주소**</span><span class="sxs-lookup"><span data-stu-id="c9425-160">**Street**</span></span>
+- <span data-ttu-id="c9425-161">**구/군/시**</span><span class="sxs-lookup"><span data-stu-id="c9425-161">**City**</span></span>
+- <span data-ttu-id="c9425-162">**시/도**</span><span class="sxs-lookup"><span data-stu-id="c9425-162">**State/Province**</span></span>
+- <span data-ttu-id="c9425-163">**우편 번호**</span><span class="sxs-lookup"><span data-stu-id="c9425-163">**ZIP/Postal code**</span></span>
+- <span data-ttu-id="c9425-164">**국가/지역**</span><span class="sxs-lookup"><span data-stu-id="c9425-164">**Country/Region**</span></span>
+- <span data-ttu-id="c9425-165">**회사 전화**</span><span class="sxs-lookup"><span data-stu-id="c9425-165">**Work phone**</span></span>
+- <span data-ttu-id="c9425-166">**휴대폰**</span><span class="sxs-lookup"><span data-stu-id="c9425-166">**Mobile phone**</span></span>
+- <span data-ttu-id="c9425-167">**팩스**</span><span class="sxs-lookup"><span data-stu-id="c9425-167">**Fax**</span></span>
+- <span data-ttu-id="c9425-168">**기타 옵션**</span><span class="sxs-lookup"><span data-stu-id="c9425-168">**More options**</span></span>
 
-### <a name="use-eop-powershell-to-add-a-mail-user"></a><span data-ttu-id="c7bd3-186">EOP PowerShell을 사용 하 여 메일 사용자 추가</span><span class="sxs-lookup"><span data-stu-id="c7bd3-186">Use EOP PowerShell to add a mail user</span></span>
+  - <span data-ttu-id="c9425-169">**사무실**</span><span class="sxs-lookup"><span data-stu-id="c9425-169">**Office**</span></span>
+  - <span data-ttu-id="c9425-170">**집 전화**</span><span class="sxs-lookup"><span data-stu-id="c9425-170">**Home phone**</span></span>
+  - <span data-ttu-id="c9425-171">**웹 페이지**</span><span class="sxs-lookup"><span data-stu-id="c9425-171">**Web page**</span></span>
+  - <span data-ttu-id="c9425-172">**참고**</span><span class="sxs-lookup"><span data-stu-id="c9425-172">**Notes**</span></span>
 
-<span data-ttu-id="c7bd3-187">이 예제에서는 다음 세부 정보를 사용하여 [New-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/new-eopmailuser) cmdlet을 통해 EOP에서 Jeffrey Zeng에 대한 메일 사용이 가능한 사용자 계정을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-187">This example uses the [New-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/new-eopmailuser) cmdlet to create a mail-enabled user account for Jeffrey Zeng in EOP with the following details:</span></span>
+#### <a name="organization"></a><span data-ttu-id="c9425-173">조직</span><span class="sxs-lookup"><span data-stu-id="c9425-173">Organization</span></span>
 
-- <span data-ttu-id="c7bd3-188">이름은 Jeffrey고 성은 Zeng입니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-188">The first name is Jeffrey and the last name is Zeng.</span></span>
+<span data-ttu-id="c9425-174">**조직 탭을** 사용 하 여 조직에서 사용자의 역할에 대 한 세부 정보를 기록 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-174">Use the **Organization** tab to record detailed information about the user's role in the organization.</span></span>
 
-- <span data-ttu-id="c7bd3-189">이름은 Jeffrey이고 표시 이름은 Jeffrey Zeng입니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-189">The name is Jeffrey and the display name is Jeffrey Zeng.</span></span>
+- <span data-ttu-id="c9425-175">**Title**</span><span class="sxs-lookup"><span data-stu-id="c9425-175">**Title**</span></span>
+- <span data-ttu-id="c9425-176">**Department**</span><span class="sxs-lookup"><span data-stu-id="c9425-176">**Department**</span></span>
+- <span data-ttu-id="c9425-177">**Company**</span><span class="sxs-lookup"><span data-stu-id="c9425-177">**Company**</span></span>
 
-- <span data-ttu-id="c7bd3-190">별칭은 jeffreyz입니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-190">The alias is jeffreyz.</span></span>
+### <a name="use-the-eac-to-remove-mail-users"></a><span data-ttu-id="c9425-178">EAC를 사용 하 여 메일 사용자 제거</span><span class="sxs-lookup"><span data-stu-id="c9425-178">Use the EAC to remove mail users</span></span>
 
-- <span data-ttu-id="c7bd3-191">외부 전자 메일 주소는 jzeng@tailspintoys.com입니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-191">The external email address is jzeng@tailspintoys.com.</span></span>
+1. <span data-ttu-id="c9425-179">EAC에서 **받는 사람** \> **연락처**로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-179">In the EAC, go to **Recipients** \> **Contacts**.</span></span>
 
-- <span data-ttu-id="c7bd3-192">Microsoft 365 로그인 이름은 jeffreyz@contoso.onmicrosoft.com입니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-192">The Microsoft 365 sign in name is jeffreyz@contoso.onmicrosoft.com.</span></span>
+2. <span data-ttu-id="c9425-180">제거할 메일 사용자를 선택한 다음 제거 아이콘 **제거** 를 클릭 ![ ](../../media/ITPro-EAC-RemoveIcon.gif) 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-180">Select the mail user that you want to remove, and then click **Remove** ![Remove icon](../../media/ITPro-EAC-RemoveIcon.gif).</span></span>
 
-- <span data-ttu-id="c7bd3-193">암호는 Pa$$word1입니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-193">The password is Pa$$word1.</span></span>
+## <a name="use-powershell-to-manage-mail-users"></a><span data-ttu-id="c9425-181">PowerShell을 사용 하 여 메일 사용자 관리</span><span class="sxs-lookup"><span data-stu-id="c9425-181">Use PowerShell to manage mail users</span></span>
 
-```PowerShell
-New-EOPMailUser -LastName Zeng -FirstName Jeffrey -DisplayName "Jeffrey Zeng" -Name Jeffrey -Alias jeffreyz -MicrosoftOnlineServicesID jeffreyz@contoso.onmicrosoft.com -ExternalEmailAddress jeffreyz@tailspintoys.com -Password (ConvertTo-SecureString -String 'Pa$$word1' -AsPlainText -Force)
+### <a name="use-standalone-eop-powershell-to-view-mail-users"></a><span data-ttu-id="c9425-182">독립 실행형 EOP PowerShell을 사용 하 여 메일 사용자 보기</span><span class="sxs-lookup"><span data-stu-id="c9425-182">Use standalone EOP PowerShell to view mail users</span></span>
+
+<span data-ttu-id="c9425-183">독립 실행형 EOP PowerShell에 있는 모든 메일 사용자의 요약 목록을 반환 하려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-183">To return a summary list of all mail users in standalone EOP PowerShell, run the following command:</span></span>
+
+```powershell
+Get-Recipient -RecipientType MailUser -ResultSize unlimited
 ```
 
-<span data-ttu-id="c7bd3-194">이 작업이 제대로 수행 되었는지 확인 하려면 다음 명령을 실행 하 여 새 메일 사용자 Jeffrey Zeng에 대 한 정보를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-194">To verify that this worked, run the following command to display information about new mail user Jeffrey Zeng:</span></span>
+<span data-ttu-id="c9425-184">특정 메일 사용자에 대 한 자세한 정보를 보려면 \< \> 메일 사용자의 이름, 별칭 또는 계정 이름으로 mailuseridentity를 바꾸고 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-184">To view detailed information about a specific mail user, replace \<MailUserIdentity\> with the name, alias, or account name of the mail user, and run the following commands:</span></span>
 
-```PowerShell
-Get-User -Identity "Jeffrey Zeng"
+```powershell
+Get-Recipient -Identity <MailUserIdentity> | Format-List
 ```
 
-<span data-ttu-id="c7bd3-195">구문 및 매개 변수에 대 한 자세한 내용은 [get-help](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-user)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-195">For detailed syntax and parameter information, see [Get-User](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-user).</span></span>
+```powershell
+Get-User -Identity <MailUserIdentity> | Format-List
+```
 
-### <a name="use-eop-powershell-to-edit-the-properties-of-a-mail-user"></a><span data-ttu-id="c7bd3-196">EOP PowerShell을 사용 하 여 메일 사용자의 속성 편집</span><span class="sxs-lookup"><span data-stu-id="c7bd3-196">Use EOP PowerShell to edit the properties of a mail user</span></span>
+<span data-ttu-id="c9425-185">구문 및 매개 변수에 대 한 자세한 내용은 [get-Recipient](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-recipient) and [get-help](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-user)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="c9425-185">For detailed syntax and parameter information, see [Get-Recipient](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-recipient) and [Get-User](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-user).</span></span>
 
-<span data-ttu-id="c7bd3-197">[Get-Recipient](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-recipient) 및 [Set-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-eopmailuser) cmdlet을 사용하여 메일 사용자의 속성을 보거나 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-197">Use the [Get-Recipient](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-recipient) and [Set-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-eopmailuser) cmdlets to view or change properties for mail users.</span></span>
+### <a name="use-standalone-eop-powershell-to-create-mail-users"></a><span data-ttu-id="c9425-186">독립 실행형 EOP PowerShell을 사용 하 여 메일 사용자 만들기</span><span class="sxs-lookup"><span data-stu-id="c9425-186">Use standalone EOP PowerShell to create mail users</span></span>
 
-<span data-ttu-id="c7bd3-198">다음 예에서는 Pilar Pinilla의 외부 전자 메일 주소를 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-198">This example sets the external email address for Pilar Pinilla.</span></span>
+<span data-ttu-id="c9425-187">독립 실행형 EOP PowerShell에서 메일 사용자를 만들려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-187">To create mail users in standalone EOP PowerShell, use the following syntax:</span></span>
+
+```powershell
+New-EOPMailUser -Name "<UniqueName>" -MicrosoftOnlineServicesID <Account> -Password (ConvertTo-SecureString -String '<password>' -AsPlainText -Force) [-Alias <AliasValue>] [-DisplayName "<Display Name>"] [-ExternalEmailAddress <ExternalEmailAddress>] [-FirstName <Text>] [-Initials <Text>] [-LastName <Text>]
+```
+
+<span data-ttu-id="c9425-188">**참고**:</span><span class="sxs-lookup"><span data-stu-id="c9425-188">**Notes**:</span></span>
+
+- <span data-ttu-id="c9425-189">_Name_ 매개 변수는 필수 이며, 최대 길이는 64 자 이며 고유 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-189">The _Name_ parameter is required, has a maximum length of 64 characters, and must be unique.</span></span> <span data-ttu-id="c9425-190">_DisplayName_ 매개 변수를 사용하지 않는 경우에는 _Name_ 매개 변수의 값이 표시 이름에 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-190">If you don't use the _DisplayName_ parameter, the value of the _Name_ parameter is used for the display name.</span></span>
+- <span data-ttu-id="c9425-191">_Alias_ 매개 변수를 사용 하지 않으면 _MicrosoftOnlneServicesID_ 매개 변수의 왼쪽이 별칭에 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-191">If you don't use the _Alias_ parameter, the left side of the _MicrosoftOnlneServicesID_ parameter is used for the alias.</span></span>
+- <span data-ttu-id="c9425-192">_ExternalEmailAddress_ 매개 변수를 사용 하지 않으면 외부 전자 메일 주소에 _MicrosoftOnlineServicesID_ 값이 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-192">If you don't use the _ExternalEmailAddress_ parameter, the _MicrosoftOnlineServicesID_ value is used for the external email address.</span></span>
+
+<span data-ttu-id="c9425-193">이 예에서는 다음 설정을 사용 하 여 메일 사용자를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-193">This example creates a mail user with the following settings:</span></span>
+
+- <span data-ttu-id="c9425-194">이름은 JeffreyZeng이 고 표시 이름은 Jeffrey Zeng입니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-194">The name is JeffreyZeng and the display name is Jeffrey Zeng.</span></span>
+- <span data-ttu-id="c9425-195">이름은 Jeffrey고 성은 Zeng입니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-195">The first name is Jeffrey and the last name is Zeng.</span></span>
+- <span data-ttu-id="c9425-196">별칭은 jeffreyz입니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-196">The alias is jeffreyz.</span></span>
+- <span data-ttu-id="c9425-197">외부 전자 메일 주소는 jzeng@tailspintoys.com입니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-197">The external email address is jzeng@tailspintoys.com.</span></span>
+- <span data-ttu-id="c9425-198">계정 이름은 jeffreyz@contoso.onmicrosoft.com입니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-198">The account name is jeffreyz@contoso.onmicrosoft.com.</span></span>
+- <span data-ttu-id="c9425-199">암호는 Pa$$word1입니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-199">The password is Pa$$word1.</span></span>
+
+```PowerShell
+New-EOPMailUser -Name JeffreyZeng -MicrosoftOnlineServicesID jeffreyz@contoso.onmicrosoft.com -Password (ConvertTo-SecureString -String 'Pa$$word1' -AsPlainText -Force) -ExternalEmailAddress jeffreyz@tailspintoys.com -DisplayName "Jeffrey Zeng" -Alias jeffreyz -FirstName Jeffrey -LastName Zeng
+```
+
+<span data-ttu-id="c9425-200">구문 및 매개 변수에 대 한 자세한 내용은 [New-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/new-eopmailuser)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="c9425-200">For detailed syntax and parameter information, see [New-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/new-eopmailuser).</span></span>
+
+### <a name="use-standalone-eop-powershell-to-modify-mail-users"></a><span data-ttu-id="c9425-201">독립 실행형 EOP PowerShell을 사용 하 여 메일 사용자 수정</span><span class="sxs-lookup"><span data-stu-id="c9425-201">Use standalone EOP PowerShell to modify mail users</span></span>
+
+<span data-ttu-id="c9425-202">독립 실행형 EOP PowerShell에서 기존 메일 사용자를 수정 하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-202">To modify existing mail users in standalone EOP PowerShell, use the following syntax:</span></span>
+
+```powershell
+Set-EOPMailUser -Identity <MailUserIdentity> [-Alias <Text>] [-DisplayName <Textg>] [-EmailAddresses <ProxyAddressCollection>] [-MicrosoftOnlineServicesID <SmtpAddress>]
+```
+
+```powershell
+Set-EOPUser -Identity <MailUserIdentity> [-City <Text>] [-Company <Text>] [-CountryOrRegion <CountryInfo>] [-Department <Text>] [-Fax <PhoneNumber>] [-FirstName <Text>] [-HomePhone <PhoneNumber>] [-Initials <Text>] [-LastName <Text>] [-MobilePhone <PhoneNumber>] [-Notes <Text>] [-Office <Text>] [-Phone <PhoneNumber>] [-PostalCode <String>] [-StateOrProvince <String>] [-StreetAddress <Tet>] [-Title <Text>] [-WebPage <Text>]
+```
+
+<span data-ttu-id="c9425-203">다음 예에서는 Pilar Pinilla의 외부 전자 메일 주소를 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-203">This example sets the external email address for Pilar Pinilla.</span></span>
 
 ```PowerShell
 Set-EOPMailUser -Identity "Pilar Pinilla" -EmailAddresses pilarp@tailspintoys.com
 ```
 
-<span data-ttu-id="c7bd3-199">다음 예에서는 모든 메일 사용자의 Company 속성을 Contoso로 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-199">This example sets the Company property for all mail users to Contoso.</span></span>
+<span data-ttu-id="c9425-204">다음 예에서는 모든 메일 사용자의 Company 속성을 Contoso로 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-204">This example sets the Company property for all mail users to Contoso.</span></span>
 
 ```PowerShell
-$Recip = Get-Recipient -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'mailuser')}
+$Recip = Get-Recipient -RecipientType MailUser -ResultSize unlimited
 $Recip | foreach {Set-EOPUser -Identity $_.Alias -Company Contoso}
 ```
 
-<span data-ttu-id="c7bd3-200">이 작업이 제대로 수행 되었는지 확인 하려면 [받는 사람](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-recipient) cmdlet을 사용 하 여 변경 내용을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-200">To verify that this worked, use the [Get-Recipient](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-recipient) cmdlet to verify the changes.</span></span> <span data-ttu-id="c7bd3-201">여러 메일 연락처의 여러 속성을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-201">(Note that you can view multiple properties for multiple mail contacts.)</span></span>
+<span data-ttu-id="c9425-205">구문 및 매개 변수에 대 한 자세한 내용은 [Set-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-eopmailuser)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="c9425-205">For detailed syntax and parameter information, see [Set-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-eopmailuser).</span></span>
+
+### <a name="use-standalone-eop-powershell-to-remove-mail-users"></a><span data-ttu-id="c9425-206">독립 실행형 EOP PowerShell을 사용 하 여 메일 사용자 제거</span><span class="sxs-lookup"><span data-stu-id="c9425-206">Use standalone EOP PowerShell to remove mail users</span></span>
+
+<span data-ttu-id="c9425-207">독립 실행형 EOP PowerShell에서 메일 사용자를 제거 하려면 \< mailuseridentity를 \> 메일 사용자의 이름, 별칭 또는 계정 이름으로 바꾸고 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-207">To remove mail users in standalone EOP PowerShell, replace \<MailUserIdentity\> with the name, alias, or account name of the mail user, and run the following command:</span></span>
 
 ```PowerShell
-Get-Recipient -Identity "Pilar Pinilla" | Format-List
+Remove-EOPMailUser -Identity <MailUserIdentity\>
 ```
 
-<span data-ttu-id="c7bd3-202">모든 메일 사용자에 대한 Company 속성이 Contoso로 설정된 이전 예제에서 변경 사항을 확인하려면 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-202">In the previous example where the Company property was set to Contoso for all mail users, run the following command to verify the changes:</span></span>
+<span data-ttu-id="c9425-208">이 예에서는 Jeffrey Zeng의 메일 사용자를 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-208">This example removes the mail user for Jeffrey Zeng.</span></span>
 
 ```PowerShell
-Get-Recipient -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'mailuser')} | Format-List Name,Company
+Remove-EOPMailUser -Identity "Jeffrey Zeng"
 ```
+
+<span data-ttu-id="c9425-209">구문 및 매개 변수에 대 한 자세한 내용은 [Remove-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/remove-eopmailuser)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="c9425-209">For detailed syntax and parameter information, see [Remove-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/remove-eopmailuser).</span></span>
+
+## <a name="how-do-you-know-these-procedures-worked"></a><span data-ttu-id="c9425-210">이 절차가 제대로 수행되었는지 어떻게 확인하나요?</span><span class="sxs-lookup"><span data-stu-id="c9425-210">How do you know these procedures worked?</span></span>
+
+<span data-ttu-id="c9425-211">독립 실행형 EOP에서 메일 사용자를 성공적으로 생성, 수정 또는 제거 했는지 확인 하려면 다음 절차 중 하나를 사용 하십시오.</span><span class="sxs-lookup"><span data-stu-id="c9425-211">To verify that you've successfully created, modified, or removed mail users in standalone EOP, use any of the following procedures:</span></span>
+
+- <span data-ttu-id="c9425-212">EAC에서 **받는 사람** \> **연락처**로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-212">In the EAC, go to **Recipients** \> **Contacts**.</span></span> <span data-ttu-id="c9425-213">메일 사용자가 나열 되어 있거나 나열 되지 않았는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-213">Verify that the mail user is listed (or isn't listed).</span></span> <span data-ttu-id="c9425-214">메일 사용자를 선택 하 고 세부 정보 창에서 정보를 보거나 편집 아이콘 **편집** ![ 을 클릭 ](../../media/ITPro-EAC-AddIcon.png) 하 여 설정을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-214">Select the mail user and view the information in the Details pane, or click **Edit** ![Edit icon](../../media/ITPro-EAC-AddIcon.png) to view the settings.</span></span>
+
+- <span data-ttu-id="c9425-215">독립 실행형 EOP PowerShell에서 다음 명령을 실행 하 여 메일 사용자가 나열 되어 있거나 나열 되지 않았는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-215">In standalone EOP PowerShell, run the following command to verify the mail user is listed (or isn't listed):</span></span>
+
+  ```powershell
+  Get-Recipient -RecipientType MailUser -ResultSize unlimited
+  ```
+
+- <span data-ttu-id="c9425-216">\<Mailuseridentity를 \> 메일 사용자의 이름, 별칭 또는 계정 이름으로 바꾸고 다음 명령을 실행 하 여 설정을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-216">Replace \<MailUserIdentity\> with the name, alias, or account name of the mail user, and run the following commands to verify the settings:</span></span>
+
+  ```powershell
+  Get-Recipient -Identity <MailUserIdentity> | Format-List
+  ```
+
+  ```powershell
+  Get-User -Identity <MailUserIdentity> | Format-List
+  ```
+
+## <a name="use-directory-synchronization-to-manage-mail-users"></a><span data-ttu-id="c9425-217">디렉터리 동기화를 사용하여 메일 사용자 관리</span><span class="sxs-lookup"><span data-stu-id="c9425-217">Use directory synchronization to manage mail users</span></span>
+
+<span data-ttu-id="c9425-218">독립 실행형 EOP에서는 온-프레미스 Active Directory를 사용 하는 고객에 게 디렉터리 동기화를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-218">In standalone EOP, directory synchronization is available for customers with on-premises Active Directory.</span></span> <span data-ttu-id="c9425-219">이러한 계정을 azure AD (Active Directory)와 동기화 하 여 계정의 복사본이 클라우드에 저장 되는 것을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-219">You can synchronize those accounts to Azure Active Directory (Azure AD), where copies of the accounts are stored in the cloud.</span></span> <span data-ttu-id="c9425-220">기존 사용자 계정을 Azure Active Directory에 동기화 하는 경우 EAC (Exchange 관리 센터)의 **받는 사람** 창이 나 독립 실행형 EOP PowerShell에서 해당 사용자를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-220">When you synchronize your existing user accounts to Azure Active Directory, you can view those users in the **Recipients** pane of the Exchange admin center (EAC) or in standalone EOP PowerShell.</span></span>
+
+<span data-ttu-id="c9425-221">**참고**:</span><span class="sxs-lookup"><span data-stu-id="c9425-221">**Notes**:</span></span>
+
+- <span data-ttu-id="c9425-222">디렉터리 동기화를 사용 하 여 받는 사람을 관리 하는 경우에도 Microsoft 365 관리 센터에서 사용자를 추가 및 관리할 수 있지만 온-프레미스 Active Directory와 동기화 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-222">If you use directory synchronization to manage your recipients, you can still add and manage users in the Microsoft 365 admin center, but they will not be synchronized with your on-premises Active Directory.</span></span> <span data-ttu-id="c9425-223">디렉터리 동기화는 온-프레미스 Active Directory의 받는 사람만 클라우드로 동기화 하기 때문입니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-223">This is because directory synchronization only syncs recipients from your on-premises Active Directory to the cloud.</span></span>
+
+- <span data-ttu-id="c9425-224">다음 기능을 사용하려면 디렉터리 동기화를 사용하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-224">Using directory synchronization is recommended for use with the following features:</span></span>
+
+  - <span data-ttu-id="c9425-225">**Outlook 수신 허용-보낸 사람 목록 및 수신 거부 목록**: 서비스에 동기화 된 경우 이러한 목록이 서비스의 스팸 필터링 보다 우선 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-225">**Outlook Safe Sender lists and Blocked Sender lists**: When synchronized to the service, these lists will take precedence over spam filtering in the service.</span></span> <span data-ttu-id="c9425-226">이렇게 하면 개별 보낸 사람 및 도메인 항목을 사용 하 여 사용자의 수신 허용-보낸 사람의 목록 및 수신 거부 목록을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-226">This lets users manage their own Safe Sender list and Blocked Sender list with individual sender and domain entries.</span></span> <span data-ttu-id="c9425-227">자세한 내용은 [Exchange Online 사서함의 정크 메일 설정 구성을](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="c9425-227">For more information, see [Configure junk email settings on Exchange Online mailboxes](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes).</span></span>
+
+  - <span data-ttu-id="c9425-228">**Dbeb (디렉터리 기반 Edge 차단)**: dbeb에 대 한 자세한 내용은 [Use Directory Based edge 차단은 잘못 된 받는 사람에 게 보낸 메시지를 거부](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)합니다 .를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="c9425-228">**Directory Based Edge Blocking (DBEB)**: For more information about DBEB, see [Use Directory Based Edge Blocking to reject messages sent to invalid recipients](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking).</span></span>
+
+  - <span data-ttu-id="c9425-229">**최종 사용자에 게 격리에 대 한 액세스 권한**: 격리 된 메시지에 액세스 하려면 받는 사람에 게 서비스의 유효한 사용자 ID와 암호가 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-229">**End user access to quarantine**: To access their quarantined messages, recipients must have a valid user ID and password in the service.</span></span> <span data-ttu-id="c9425-230">격리에 대 한 자세한 내용은 [사용자로 격리 된 메시지 찾기 및 릴리스](https://docs.microsoft.com/microsoft-365/security/office-365-security/find-and-release-quarantined-messages-as-a-user)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="c9425-230">For more information about quarantine, see [Find and release quarantined messages as a user](https://docs.microsoft.com/microsoft-365/security/office-365-security/find-and-release-quarantined-messages-as-a-user).</span></span>
+
+  - <span data-ttu-id="c9425-231">**메일 흐름 규칙 (전송 규칙이 라고도 함)**: 디렉터리 동기화를 사용 하는 경우 기존 Active directory 사용자 및 그룹이 클라우드로 자동 업로드 되 고, 서비스에서 해당 사용자 및/또는 그룹을 수동으로 추가 하지 않고도이를 대상으로 하는 메일 흐름 규칙을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-231">**Mail flow rules (also known as transport rules)**: When you use directory synchronization, your existing Active Directory users and groups are automatically uploaded to the cloud, and you can then create mail flow rules that target specific users and/or groups without having to manually add them in the service.</span></span> <span data-ttu-id="c9425-232">[동적 메일 그룹](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups) 은 디렉터리 동기화를 통해 동기화 할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-232">Note that [dynamic distribution groups](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups) can't be synchronized via directory synchronization.</span></span>
+
+<span data-ttu-id="c9425-233">[Azure Active directory를 사용한 하이브리드 id 란?](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity)에 설명 된 대로 필요한 사용 권한을 얻고 디렉터리 동기화를 준비 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-233">Get the necessary permissions and prepare for directory synchronization, as described in [What is hybrid identity with Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity).</span></span>
+
+### <a name="synchronize-directories-with-azure-active-directory-connect-aad-connect"></a><span data-ttu-id="c9425-234">Azure Active Directory Connect를 사용한 디렉터리 동기화 (AAD 연결)</span><span class="sxs-lookup"><span data-stu-id="c9425-234">Synchronize directories with Azure Active Directory Connect (AAD Connect)</span></span>
+
+1. <span data-ttu-id="c9425-235">[AZURE AD Connect 동기화: 이해 및 사용자 지정 동기화](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)에 설명 된 대로 디렉터리 동기화를 활성화 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-235">Activate directory synchronization as described in [Azure AD Connect sync: Understand and customize synchronization](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis).</span></span>
+
+2. <span data-ttu-id="c9425-236">[AZURE AD Connect 필수 구성 요소](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-prerequisites)에 설명 된 대로 AAD connect를 실행 하는 온-프레미스 컴퓨터를 설치 하 고 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-236">Install and configure an on-premises computer to run AAD Connect as described in [Prerequisites for Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-prerequisites).</span></span>
+
+3. <span data-ttu-id="c9425-237">[AZURE AD Connect에 사용할 설치 유형을 선택 합니다](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-select-installation).</span><span class="sxs-lookup"><span data-stu-id="c9425-237">[Select which installation type to use for Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-select-installation):</span></span>
+
+   - [<span data-ttu-id="c9425-238">고급</span><span class="sxs-lookup"><span data-stu-id="c9425-238">Express</span></span>](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express)
+
+   - [<span data-ttu-id="c9425-239">사용자 지정</span><span class="sxs-lookup"><span data-stu-id="c9425-239">Custom</span></span>](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-custom)
+
+   - [<span data-ttu-id="c9425-240">통과 인증</span><span class="sxs-lookup"><span data-stu-id="c9425-240">Pass-through authentication</span></span>](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta-quick-start)
 
 > [!IMPORTANT]
-> <span data-ttu-id="c7bd3-203">이 cmdlet은 일괄 처리 방법을 사용하므로 cmdlet 결과가 보이기 몇 분 전에 전파 지연이 발생합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-203">This cmdlet uses a batch processing method that results in a propagation delay of a few minutes before the results of the cmdlet are visible.</span></span>
+> <span data-ttu-id="c9425-p121">Azure Active Directory 동기화 도구 구성 마법사를 완료하면 Active Directory 포리스트에 **MSOL_AD_SYNC** 계정이 만들어집니다. 이 계정을 사용하여 온-프레미스 Active Directory 정보를 읽고 동기화합니다. 디렉터리 동기화가 정상적으로 작동하도록 하려면 로컬 디렉터리 동기화 서버의 TCP 443이 열려 있는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-p121">When you finish the Azure Active Directory Sync Tool Configuration Wizard, the **MSOL_AD_SYNC** account is created in your Active Directory forest. This account is used to read and synchronize your on-premises Active Directory information. In order for directory synchronization to work correctly, make sure that TCP 443 on your local directory synchronization server is open.</span></span>
 
-### <a name="use-eop-powershell-to-remove-a-mail-user"></a><span data-ttu-id="c7bd3-204">EOP PowerShell을 사용 하 여 메일 사용자 제거</span><span class="sxs-lookup"><span data-stu-id="c7bd3-204">Use EOP PowerShell to remove a mail user</span></span>
-
-<span data-ttu-id="c7bd3-205">이 예제에서는 [Remove-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/remove-eopmailuser) cmdlet을 사용하여 사용자 Jeffrey Zeng을 삭제합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-205">This example uses the [Remove-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/remove-eopmailuser) cmdlet to delete user Jeffrey Zeng:</span></span>
-
-```PowerShell
-Remove-EOPMailUser -Identity Jeffrey
-```
-<span data-ttu-id="c7bd3-206">이 작업이 제대로 수행 되었는지 확인 하려면 [받는 사람](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-recipient) cmdlet을 실행 하 여 메일 사용자가 더 이상 존재 하지 않는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="c7bd3-206">To verify that this worked, run the [Get-Recipient](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-recipient) cmdlet to verify that the mail user no longer exists.</span></span>
-
-```PowerShell
-Get-Recipient Jeffrey | Format-List
-```
+<span data-ttu-id="c9425-244">동기화를 구성한 후 AAD 연결이 제대로 동기화 되는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-244">After configuring your sync, be sure to verify that AAD Connect is synchronizing correctly.</span></span> <span data-ttu-id="c9425-245">이렇게 하려면 EAC에서 **받는 사람** \> **연락처**로 이동한 다음 온-프레미스 환경에서 사용자 목록이 올바르게 동기화되었는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="c9425-245">In the EAC, go to **Recipients** \> **Contacts** and view that the list of users was correctly synchronized from your on-premises environment.</span></span>
