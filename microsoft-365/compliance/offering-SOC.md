@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 548b331a8ee26434f53b9960fd355feacd45dfde
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: cc6f99dea89a5abc7f4c5bc07187c82d8999a064
+ms.sourcegitcommit: 8a15038a6ac16f41f6b90af52e367f888104cec9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066321"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44156883"
 ---
 # <a name="service-organization-controls-soc"></a>SOC(서비스 조직 컨트롤)
 
@@ -77,19 +77,13 @@ Microsoft는 SOC 1 유형 2, SOC 2 유형 2 및 SOC 3 보고서를 완성했습�
 
 ### <a name="audit-cycle"></a>감사 주기
 
-SOC 1 (SSAE18, ISAE 3402) 및 SOC 2 (AT Section 101) 표준에 따라 Microsoft 클라우드 서비스를 적어도 매년 감사합니다.
+SOC 1 (SSAE18, ISAE 3402) 및 SOC 2 (AT Section 101) 및 SOC 3 표준에 따라 Microsoft 클라우드 서비스를 적어도 매년 감사합니다.
 
-#### <a name="azure-cloud-app-security-flow-graph-intune-power-bi-powerapps-stream-and-microsoft-datacenters"></a>Azure, Cloud App Security, Flow, Graph, Intune, Power BI, PowerApps, Stream, Microsoft Datacenters
+#### <a name="azure-dynamics-365-cloud-app-security-flow-graph-intune-power-bi-powerapps-stream-and-microsoft-datacenters"></a>Azure, Dynamics 365, Cloud App Security, Flow, Graph, Intune, Power BI, PowerApps, Stream 및 Microsoft Datacenters
 
-- [Azure 및 Azure Government SOC 1 유형 2 보고서](https://go.microsoft.com/fwlink/p/?linkid=2099601)
-- [Azure 및 Azure Government SOC 2 유형 2 보고서](https://aka.ms/azuresoc2auditreport)
-- [Azure 및 Azure Government SOC 3 보고서](https://aka.ms/azuresoc3auditreport)
-
-#### <a name="dynamics-365"></a>Dynamics 365
-
-- [Dynamics 365 SOC 1 유형 2 보고서](https://aka.ms/Dynamics365SOC1AuditReport)
-- [Dynamics 365 SOC 2 AT 101 유형 II 감사 보고서](https://aka.ms/Dynamics365SOC2AuditReport)
-- [브리지 레터 및 추가 감사 보고서를 참조하기](https://aka.ms/auditreports)
+- [Azure + Dynamics 365 및 Azure + Dynamics 365 Government SOC 1 Type 2 보고서](https://aka.ms/azuresoc1auditreport)
+- [Azure + Dynamics 365 및 Azure + Dynamics 365 Government SOC 2 Type 2 보고서](https://aka.ms/azuresoc2auditreport)
+- [Azure + Dynamics 365 및 Azure + Dynamics 365 Government SOC 3 보고서](https://aka.ms/azuresoc3auditreport)
 
 #### <a name="office-365"></a>Office 365
 

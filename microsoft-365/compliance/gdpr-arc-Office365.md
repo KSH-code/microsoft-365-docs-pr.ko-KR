@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: ee36f1fb1b44d2643aeb73f35ae9eb571dd0aa35
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8a988cb053a5869c9cb57306fc0c78cdd7ba5ccc
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633313"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208819"
 ---
 # <a name="accountability-readiness-checklist-for-microsoft-365"></a>Microsoft 365에 대한 책임 준비 상태 검사 목록
 
@@ -104,10 +104,10 @@ GDPR 타일의 *고객 관리 컨트롤*에서 컨트롤 ID 및 컨트롤 제목
 |***정보 분류(6.5.1)***|고객은 데이터 분류 체계의 일부로 개인 데이터를 명시적으로 고려해야 합니다.|개인 데이터 분류를 지원하기 위한 Office 365의 기능<br>- *GDPR에 대한 Office 365 정보 보호*[[5](gdpr-arc-Office365.md#5)] 개인 데이터에 대한 분류 스키마 설계 참조<br>- 6.5.1 [준수 점수](compliance-score.md)의 정보 분류|(39)(1)(b)|
 |***이동식 미디어 관리(6.5.2)***|고객은 개인 데이터 보호와 관련된 이동식 미디어(예: 암호화 장치) 사용에 대한 내부 정책을 결정해야 합니다.|Microsoft 서비스가 이동식 미디어에서 개인 정보 보안을 보호하는 방법<br>- *FedRAMP Moderate FedRAMP 시스템 보안 계획*[[3](gdpr-arc-Office365.md#3)] 13.10 미디어 보호(MP) 참조<br>- [준수 점수](compliance-score.md)의 이동식 미디어 관리|(32)(1)(a), (5)(1)(f)|
 |***실제 미디어 전송(6.5.3)***|고객은 물리적 미디어(예: 암호화) 전송 시 개인 데이터를 보호하기 위한 내부 정책을 결정해야 합니다.| Microsoft 서비스가 실제 미디어를 전송하는 동안 개인 데이터를 보호하는 방법<br>- FedRAMP Moderate FedRAMP 시스템 보안 계획[[3](gdpr-arc-Office365.md#3)] 13.10 미디어 보호(MP) 참조<br>- 6.5.3 [준수 점수](compliance-score.md)의 실제 미디어 전송|(32)(1)(a), (5)(1)(f)|
-|***사용자 액세스 관리(6.6.1)***|고객은 사용 중인 서비스 내에서 액세스 컨트롤에 대한 책임을 인식하고 사용 가능한 도구를 사용하여 해당 책임을 적절하게 관리해야 합니다.|액세스 제어를 강화하도록 지원하기 위해 Microsoft 서비스에서 제공하는 도구<br>- Office 365 보안 설명서[[2](gdpr-arc-Office365.md#2)] [Office 365에서 데이터 및 서비스에 대한 액세스 보호](https://support.office.com/article/protect-access-to-data-and-services-in-office-365-a6ef28a4-2447-4b43-aae2-f5af6d53c68e) 참조<br>- 6.6.1 [준수 점수](compliance-score.md)|(5)(1)(f)|
-|***사용자 등록 및 등록 취소(6.6.2)***|고객은 사용 가능한 도구를 통해 사용 중인 서비스에서 사용자 등록 및 등록 취소를 관리해야 합니다.|액세스 제어를 강화하도록 지원하기 위해 Microsoft 서비스에서 제공하는 도구<br>- Office 365 보안 설명서[[2](gdpr-arc-Office365.md#2)] [Office 365에서 데이터 및 서비스에 대한 액세스 보호](https://support.office.com/article/protect-access-to-data-and-services-in-office-365-a6ef28a4-2447-4b43-aae2-f5af6d53c68e) 참조<br>- 6.6.2 [준수 점수](compliance-score.md)의 사용자 등록 및 등록 취소|(5)(1)(f)|
-|***사용자 액세스 프로비저닝(6.6.3)***|고객은 사용 가능한 도구를 사용하여 활용하는 서비스 내에서 특히 개인 데이터에 대한 인증된 액세스에 대해 사용자 프로필을 관리해야 합니다.|Microsoft 서비스가 사용자 ID, 역할, 응용 프로그램 액세스, 사용자 등록 및 등록 취소를 포함하여 개인 데이터에 대한 정식 액세스 제어를 지원하는 방법<br>- Office 365 보안 설명서[[2](gdpr-arc-Office365.md#2)] [Office 365에서 데이터 및 서비스에 대한 액세스 보호](https://support.office.com/article/protect-access-to-data-and-services-in-office-365-a6ef28a4-2447-4b43-aae2-f5af6d53c68e) 참조<br>테넌트 제한을 사용하여 SaaS 클라우드 응용 프로그램에 대한 액세스 관리[[15](gdpr-arc-Office365.md#15)]<br>- [준수 점수](compliance-score.md)의 사용자 액세스 프로비저닝|(5)(1)(f)|
-|***권한 있는 액세스 관리(6.6.4)***|고객은 사용 가능한 도구를 사용하여 활용하는 서비스 내에서 특히 개인 데이터를 쉽게 추적할 수 있도록 사용자 ID를 관리해야 합니다.|Microsoft 서비스가 사용자 ID, 역할, 사용자 등록 및 등록 취소를 포함하여 개인 데이터에 대한 정식 액세스 제어를 지원하는 방법<br>- Office 365 보안 설명서2 [Office 365에서 데이터 및 서비스에 대한 액세스 보호](https://support.office.com/article/protect-access-to-data-and-services-in-office-365-a6ef28a4-2447-4b43-aae2-f5af6d53c68e) 참조<br>- 테넌트 제한을 사용하여 SaaS 클라우드 응용 프로그램에 대한 액세스 관리[15]<br>- 6.6.4 [준수 점수](compliance-score.md)에서 권한 있는 액세스 관리|(5)(1)(f)|
+|***사용자 액세스 관리(6.6.1)***|고객은 사용 중인 서비스 내에서 액세스 컨트롤에 대한 책임을 인식하고 사용 가능한 도구를 사용하여 해당 책임을 적절하게 관리해야 합니다.|액세스 제어를 강화하도록 지원하기 위해 Microsoft 서비스에서 제공하는 도구<br>- Office 365 보안 설명서[[2](gdpr-arc-Office365.md#2)] [Office 365에서 데이터 및 서비스에 대한 액세스 보호](https://docs.microsoft.com/microsoft-365/compliance/protect-access-to-data-and-services) 참조<br>- 6.6.1 [준수 점수](compliance-score.md)|(5)(1)(f)|
+|***사용자 등록 및 등록 취소(6.6.2)***|고객은 사용 가능한 도구를 통해 사용 중인 서비스에서 사용자 등록 및 등록 취소를 관리해야 합니다.|액세스 제어를 강화하도록 지원하기 위해 Microsoft 서비스에서 제공하는 도구<br>- Office 365 보안 설명서[[2](gdpr-arc-Office365.md#2)] [Office 365에서 데이터 및 서비스에 대한 액세스 보호](https://docs.microsoft.com/microsoft-365/compliance/protect-access-to-data-and-services) 참조<br>- 6.6.2 [준수 점수](compliance-score.md)의 사용자 등록 및 등록 취소|(5)(1)(f)|
+|***사용자 액세스 프로비저닝(6.6.3)***|고객은 사용 가능한 도구를 사용하여 활용하는 서비스 내에서 특히 개인 데이터에 대한 인증된 액세스에 대해 사용자 프로필을 관리해야 합니다.|Microsoft 서비스가 사용자 ID, 역할, 응용 프로그램 액세스, 사용자 등록 및 등록 취소를 포함하여 개인 데이터에 대한 정식 액세스 제어를 지원하는 방법<br>- Office 365 보안 설명서[[2](gdpr-arc-Office365.md#2)] [Office 365에서 데이터 및 서비스에 대한 액세스 보호](https://docs.microsoft.com/microsoft-365/compliance/protect-access-to-data-and-services) 참조<br>테넌트 제한을 사용하여 SaaS 클라우드 응용 프로그램에 대한 액세스 관리[[15](gdpr-arc-Office365.md#15)]<br>- [준수 점수](compliance-score.md)의 사용자 액세스 프로비저닝|(5)(1)(f)|
+|***권한 있는 액세스 관리(6.6.4)***|고객은 사용 가능한 도구를 사용하여 활용하는 서비스 내에서 특히 개인 데이터를 쉽게 추적할 수 있도록 사용자 ID를 관리해야 합니다.|Microsoft 서비스가 사용자 ID, 역할, 사용자 등록 및 등록 취소를 포함하여 개인 데이터에 대한 정식 액세스 제어를 지원하는 방법<br>- Office 365 보안 설명서2 [Office 365에서 데이터 및 서비스에 대한 액세스 보호](https://docs.microsoft.com/microsoft-365/compliance/protect-access-to-data-and-services) 참조<br>- 테넌트 제한을 사용하여 SaaS 클라우드 응용 프로그램에 대한 액세스 관리[15]<br>- 6.6.4 [준수 점수](compliance-score.md)에서 권한 있는 액세스 관리|(5)(1)(f)|
 |***보안 로그온 절차(6.6.5)***|고객은 서비스의 제공된 메커니즘을 활용하여 필요에 따라 사용자의 보안 로그온 기능을 확인해야 합니다.|Microsoft 서비스가 개인 데이터와 관련된 내부 액세스 제어 정책을 지원하는 방법<br>- 사용자 데이터에 액세스할 수 있는 사람 및 관련 약관[[6](gdpr-arc-Office365.md#6)]<br>- 6.6.5 [준수 점수](compliance-score.md)의 보안 로그온 절차|(5)(1)(f)|
 |***암호화(6.7)***|고객은 암호화해야 할 데이터가 있는지 여부와 사용 중인 서비스가 이 기능을 제공하는지 여부를 결정해야 합니다. 고객은 사용 가능한 도구를 사용하여 필요에 따라 암호화를 사용해야 합니다.|Microsoft 서비스가 개인 데이터 처리 위험을 줄이기 위해 암호화 및 익명화를 지원하는 방법<br>- FedRAMP Moderate FedRAMP SSP(시스템 보안 계획) *Cosmos* pp29 참조<br>- 6.7 [준수 점수](compliance-score.md)의 암호화|(32)(1)(a)|
 |***장비의 안전한 폐기 또는 재사용(6.8.1)***|고객이 클라우드 컴퓨팅 서비스(PaaS, SaaS, IaaS)를 사용하는 경우 클라우드 공급자가 해당 공간을 다른 고객에게 할당하기 전에 저장 공간에서 개인 데이터를 지웠는지 확인하는 방법을 이해해야 합니다.|Microsoft 서비스가 장비가 전송되거나 재사용되기 전에 저장 장비에서 개인 데이터를 지웠는지 확인하는 방법<br>- FedRAMP Moderate FedRAMP 시스템 보안 계획[[3](gdpr-arc-Office365.md#3)] 13.10 미디어 보호(MP) 참조<br>- 6.8.1 [준수 점수](compliance-score.md)의 안전한 장비 폐기 또는 재사용|(5)(1)(f)|
@@ -134,7 +134,7 @@ GDPR 타일의 *고객 관리 컨트롤*에서 컨트롤 ID 및 컨트롤 제목
 |:-----|:-----|
 |**ID**|**설명/링크**|
 | 1 <a name="1"> </a> | [온라인 서비스 약관](https://aka.ms/ost) |
-| 2 <a name="2"> </a> | [Office 365 보안 설명서](https://support.office.com/article/protect-access-to-data-and-services-in-office-365-a6ef28a4-2447-4b43-aae2-f5af6d53c68e) |
+| 2 <a name="2"> </a> | [Office 365 보안 설명서](https://docs.microsoft.com/microsoft-365/compliance/protect-access-to-data-and-services) |
 | 3 <a name="3"> </a> | [FedRAMP Moderate FedRAMP SSP(시스템 보안 계획)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=053666de-e359-43ef-a7bb-3cf379208ed8&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_FedRAMP_Reports) |
 | 4 <a name="4"> </a> | [Microsoft 클라우드 보안 정책](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=c83d1345-0cff-4beb-a521-27b837ed271a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) |
 | 5 <a name="5"> </a> | [GDPR에 대한 Office 365 정보 보호](https://docs.microsoft.com/office365/enterprise/office-365-information-protection-for-gdpr) |
@@ -148,7 +148,7 @@ GDPR 타일의 *고객 관리 컨트롤*에서 컨트롤 ID 및 컨트롤 제목
 | 13 <a name="13"> </a> | [Microsoft 보안 센터 준수 제공 사항](offering-home.md) |
 | 14 <a name="14"> </a> | [Office 365 ISMS 설명서](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=72821313-c175-4857-b1f7-e3c5e6eb2db4&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) |
 | 15 <a name="15"> </a> | [테넌트 제한을 사용하여 SaaS 클라우드 응용 프로그램에 대한 액세스 관리](https://docs.microsoft.com/azure/active-directory/active-directory-tenant-restrictions) |
-| 16 <a name="16"> </a> | [Office 365 보안 및 준수 센터에서 감사 로그 검색](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) |
+| 16 <a name="16"> </a> | [Office 365 보안 및 준수 센터에서 감사 로그 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) |
 | 17 <a name="17"> </a> | [Microsoft 클라우드에서 암호화](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=ec66d938-6eb4-4d7d-b8c3-2168573bb534&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) |
 | 18 <a name="18"> </a> | [Microsoft의 데이터 보호 관리자](https://docs.microsoft.com/microsoft-365/compliance/gdpr-data-protection-officer) |
 

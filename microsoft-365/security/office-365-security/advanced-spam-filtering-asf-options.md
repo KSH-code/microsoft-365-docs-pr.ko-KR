@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)의 스팸 방지 정책에서 사용할 수 있는 ASF (고급 스팸 필터) 설정에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 3193c1ea11d9a470a6b0df72f052bab20dec29f8
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 904513780ca472efb91cfcd914ad6c72d6c720f7
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208051"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213415"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-eop"></a>EOP의 ASF (고급 스팸 필터) 설정
 
@@ -35,7 +35,7 @@ Exchange online 사서함이 없는 Microsoft 365 조직, EOP (독립 실행형 
 > [!NOTE]
 > 하나 이상의 ASF 설정을 사용 하도록 설정 하는 것이 스팸 필터링에 적극적인 방법입니다. ASF로 필터링 된 메시지는 가양성으로 보고할 수 없습니다. 다음과 같은 방법으로 ASF로 필터링 된 메시지를 확인할 수 있습니다. <ul><li>주기적인 최종 사용자 스팸 격리 알림</li><li>필터링 된 메시지가 격리 상태에 있는지 여부</li><li>`X-CustomSpam:`이 항목에 설명 된 대로 메시지에 추가 되는 특정 X-헤더 필드입니다.</li></ul>
 
-다음 섹션에서는 보안 & 준수 센터의 스팸 방지 정책 및 Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection PowerShell ([get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedcontentfilterpolicy) 및 [get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy))에서 사용할 수 있는 ASF 설정 및 옵션에 대해 설명 합니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
+다음 섹션에서는 보안 & 준수 센터의 스팸 방지 정책 및 Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell ([get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedcontentfilterpolicy) 및 [get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy))에서 사용할 수 있는 ASF 설정 및 옵션에 대해 설명 합니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
 
 ## <a name="enable-disable-or-test-asf-settings"></a>ASF 설정 사용, 사용 안 함 또는 테스트
 

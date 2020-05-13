@@ -15,21 +15,21 @@ search.appverid:
 ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
-description: 기본 스팸 필터 설정에는 스팸으로 식별되는 메시지에 관해 수행할 작업 선택이 포함됩니다.
-ms.openlocfilehash: 027cea45159131ebe4718dfb2209d8be15f8e355
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 관리자는 Exchange Online Protection(EOP)에서 스팸 방지 정책을 보고, 만들고 수정하고 삭제하는 방법을 배울 수 있습니다.
+ms.openlocfilehash: 66266ac79f6f442c8551b9ec15d553d6fb074cdc
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637715"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209562"
 ---
-# <a name="configure-anti-spam-policies"></a>스팸 방지 정책 구성
+# <a name="configure-anti-spam-policies-in-eop"></a>EOP에서 스팸 방지 정책 구성하기
 
-Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 고객인 경우, 인바운드 전자 메일 메시지가 EOP에서 자동으로 스팸으로부터 보호됩니다. EOP는 스팸에 대한 조직의 전반적인 방어책의 일부로 스팸 방지 정책(스팸 필터 정책 또는 콘텐츠 필터 정책)을 사용합니다. 자세한 내용은 [스팸 방지 보호](anti-spam-protection.md)를 참조하세요.
+Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직의 경우, 인바운드 전자 메일 메시지가 EOP를 통해 자동으로 스팸으로부터 보호됩니다. EOP는 스팸에 대한 조직의 전반적인 방어책의 일부로 스팸 방지 정책(스팸 필터 정책 또는 콘텐츠 필터 정책)을 사용합니다. 자세한 내용은 [스팸 방지 보호](anti-spam-protection.md)를 참조하세요.
 
 관리자는 기본 스팸 방지 정책을 보고, 편집하고, 구성할 수 있습니다. 세분성을 높이기 위해 사용자 지정 스팸 방지 정책을 만들어 조직의 특정 사용자, 그룹 또는 도메인에 적용할 수도 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만, 사용자 지정 정책의 우선순위(실행 순서)를 변경할 수 있습니다.
 
-보안 및 준수 센터 또는 PowerShell(Microsoft 365 고객의 경우 Exchange Online PowerShell, 독립 실행형 EOP 고객의 경우 Exchange Online Protection PowerShell)에서 스팸 방지 정책을 구성할 수 있습니다.
+보안 및 준수 센터 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직의 경우 Exchange Online PowerShell; Exchange Online 사서함이 없는 조직의 경우 독립 실행형 EOP PowerShell)에서 스팸 방지 정책을 구성할 수 있습니다.
 
 ## <a name="anti-spam-policies-in-the-security--compliance-center-vs-exchange-online-powershell-or-exchange-online-protection-powershell"></a>보안 및 준수 센터 대 Exchange Online PowerShell 또는 Exchange Online Protection PowerShell의 스팸 방지 정책
 
@@ -120,9 +120,9 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
     |**작업 없음**|||||![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
     |
 
-    > <sup>1</sup> Exchange Online에서 사서함에 정크 메일 규칙이 활성화되어 있으면 메시지는 정크 메일 폴더로 이동합니다(기본적으로 활성화되어 있음). 자세한 내용은 [Office 365에서 Exchange Online 사서함에 대한 정크 메일 설정 구성하기](configure-junk-email-settings-on-exo-mailboxes.md)를 참조하세요.<br/>EOP로 온-프레미스 Exchange 사서함을 보호하는 독립 실행형 EOP 환경에서는 EOP 스팸 필터링 결과를 변환하여 정크 메일 규칙에 따라 메시지를 정크 메일 폴더로 이동하기 위해 온-프레미스 Exchange에서 메일 흐름 규칙(전송 규칙이라고도 함)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 독립 실행형 EOP 구성하기](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)를 참조하세요.<br/><br/><sup>2</sup> 메일 흐름 규칙(전송 규칙이라고도 함)에서 이 값을 조건으로 사용하여 메시지를 필터링하거나 라우팅할 수 있습니다.
+    > <sup>1</sup> Exchange Online에서 사서함에 정크 메일 규칙이 활성화되어 있으면 메시지는 정크 메일 폴더로 이동합니다(기본적으로 활성화되어 있음). 자세한 내용은 [Exchange Online 사서함에 대한 정크 메일 설정 구성하기](configure-junk-email-settings-on-exo-mailboxes.md)를 참조하세요.<br/>EOP로 온-프레미스 Exchange 사서함을 보호하는 독립 실행형 EOP 환경에서는 EOP 스팸 필터링 결과를 변환하여 정크 메일 규칙에 따라 메시지를 정크 메일 폴더로 이동하기 위해 온-프레미스 Exchange에서 메일 흐름 규칙(전송 규칙이라고도 함)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 독립 실행형 EOP 구성하기](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)를 참조하세요.<br/><br/><sup>2</sup> 메일 흐름 규칙(전송 규칙이라고도 함)에서 이 값을 조건으로 사용하여 메시지를 필터링하거나 라우팅할 수 있습니다.
 
-   - **임곗값 선택**: **대량 전자 메일** 스팸 필터링 결과에 지정된 작업을 트리거하는 메시지의 BCL(대량 불만 수준)을 지정합니다.(지정된 값보다 큼, 크거나 같지 않음). 값이 높을수록 메시지가 덜 바람직함을 나타냅니다(스팸과 유사할 가능성 높음). 기본값은 7입니다. 자세한 내용은 [Office 365에서 BCL(대량 불만 수준)](bulk-complaint-level-values.md) 및 [정크 메일과 대량 전자 메일의 차이점](what-s-the-difference-between-junk-email-and-bulk-email.md)을 참조하세요.
+   - **임곗값 선택**: **대량 전자 메일** 스팸 필터링 결과에 지정된 작업을 트리거하는 메시지의 BCL(대량 불만 수준)을 지정합니다.(지정된 값보다 큼, 크거나 같지 않음). 값이 높을수록 메시지가 덜 바람직함을 나타냅니다(스팸과 유사할 가능성 높음). 기본값은 7입니다. 자세한 내용은 [EOP에서의 BCL(대량 불만 수준)](bulk-complaint-level-values.md) 및 [정크 메일과 대량 전자 메일의 차이점](what-s-the-difference-between-junk-email-and-bulk-email.md)을 참조하세요.
 
      기본적으로 PowerShell 전용 설정 _MarkAsSpamBulkMail_은 스팸 방지 정책에서 `On` 상태입니다. 이 설정은 **대량 전자 메일** 필터링 결과의 결과에 크게 영향을 미칩니다.
 
@@ -132,9 +132,9 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
    - **격리**: 스팸 필터링 결과에 대한 작업으로 **메시지 격리**를 선택한 경우, 메시지를 격리할 기간을 지정합니다. 격리 기간이 만료되면 메시지가 삭제됩니다. 기본값은 30일입니다. 유효한 값은 1~30일입니다. 격리에 대한 자세한 내용은 다음 항목을 참조하세요.
 
-     - [Office 365에서 격리](quarantine-email-messages.md)
-     - [Office 365에서 관리자 권한으로 격리된 메시지 및 파일 관리하기](manage-quarantined-messages-and-files.md)
-     - [Office 365에서 사용자 권한으로 격리된 메시지 찾기 및 해제하기](find-and-release-quarantined-messages-as-a-user.md)
+     - [EOP에서 격리된 메시지](quarantine-email-messages.md)
+     - [EOP에서 관리자 권한으로 격리된 메시지 및 파일 관리하기](manage-quarantined-messages-and-files.md)
+     - [EOP에서 사용자 권한으로 격리된 메시지 찾기 및 해제하기](find-and-release-quarantined-messages-as-a-user.md)
 
    - **이 X-헤더 텍스트 추가**: 이 상자는 필수이며, **X-헤더 추가**를 스팸 필터링 결과 작업으로 선택한 경우에만 사용할 수 있습니다. 사용자가 지정하는 값은 메시지 헤더에 추가되는 헤더 필드 *이름*입니다. 헤더 필드 *값*은 항상 `This message appears to be spam`입니다.
 
@@ -148,7 +148,7 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
    - **이 전자 메일 주소로 리디렉션**: 이 상자는 필수이며, 스팸 필터링 결과 작업으로 **메시지를 전자 메일 주소로 리디렉션**을 선택한 경우에만 사용할 수 있습니다. 메시지를 배달하려는 전자 메일 주소를 입력하세요. 세미콜론(;)으로 구분하여 여러 값을 입력할 수 있습니다.
 
-   - **보안 팁**: 기본적으로 보안 팁은 활성화되어 있지만, **켬** 확인란을 선택 취소하여 이 기능을 비활성화할 수 있습니다. 보안 팁에 대한 자세한 내용은 [Office 365에서 전자 메일 메시지의 보안 팁](safety-tips-in-office-365.md)을 참조하세요.
+   - **보안 팁**: 기본적으로 보안 팁은 활성화되어 있지만, **켬** 확인란을 선택 취소하여 이 기능을 비활성화할 수 있습니다. 보안 팁에 대한 자세한 내용은 [전자 메일 메시지 보안 팁](safety-tips-in-office-365.md)을 참조하세요.
 
    **제로 아워 자동 제거** 설정: ZAP는 Exchange Online 사서함에 이미 배달된 메시지를 검색하여 작업을 수행합니다. ZAP에 대한 자세한 내용은 [제로 아워 자동 제거 - 스팸 및 맬웨어로부터 보호](zero-hour-auto-purge.md)를 참조하세요.
 
@@ -159,7 +159,7 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 5. (선택 사항) **허용 목록** 섹션을 확장하여 스팸 필터링을 건너뛰도록 허용된 전자 메일 주소나 전자 메일 도메인을 기준으로 메시지를 보낸 사람을 구성합니다.
 
    > [!CAUTION]
-   > <ul><li>여기에 도메인을 추가하기 전에 신중하게 생각하세요. 자세한 내용은 [Office 365에서 수신 허용 - 보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조하세요.</li><li>허용 도메인(소유하고 있는 도메인) 또는 공통 도메인(예: microsoft.com 또는 office.com)을 허용된 도메인 목록에 추가하지 않도록 하세요. 이를 통해 침입자가 스팸 필터링을 우회하는 전자 메일을 조직에 보낼 수 있습니다.</li></ul>
+   > • 여기에 도메인을 추가하기 전에 주의깊게 생각하세요. 자세한 내용은 [EOP에서 안전한 보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조하세요. <br/><br/> • 허용 도메인(소유하고 있는 도메인) 또는 공통 도메인(예: microsoft.com 또는 office.com)을 허용된 도메인 목록에 추가하지 않도록 하세요. 이를 통해 침입자가 스팸 필터링을 우회하는 전자 메일을 조직에 보낼 수 있습니다.
 
    - **허용할 보낸 사람**: **편집**을 클릭합니다. 표시되는 **허용되는 보낸 사람 목록** 플라이아웃에서 다음을 수행합니다.
 
@@ -188,7 +188,7 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 6. (선택 사항) **차단 목록** 섹션을 확장하여 항상 높은 정확도의 스팸으로 표시되는 전자 메일 주소나 전자 메일 도메인을 기준으로 메시지를 보낸 사람을 구성합니다.
 
    > [!NOTE]
-   > 수동으로 도메인을 차단하는 것은 위험하지 않지만, 관리 작업 부하가 늘어날 수 있습니다. 자세한 내용은 [Office 365에서 차단할 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조하세요.
+   > 수동으로 도메인을 차단하는 것은 위험하지 않지만, 관리 작업 부하가 늘어날 수 있습니다. 자세한 내용은 [EOP에서 차단할 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조하세요.
 
    - **차단할 보낸 사람**: **편집**을 클릭합니다. 표시되는 **차단되는 보낸 사람 목록** 플라이아웃에서 다음 단계를 수행합니다.
 
@@ -238,7 +238,7 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
 8. 선택적 **스팸 속성** 섹션에는 기본적으로 꺼져 있는 ASF(고급 스팸 필터) 설정이 포함되어 있습니다. ASF 설정은 더 이상 사용되지 않으며, 해당 기능은 필터링 스택의 다른 부분에 통합됩니다. 모든 ASF 설정을 스팸 방지 정책에서 해제하는 것이 좋습니다.
 
-   이러한 설정에 대한 자세한 내용은 [Office 365에서 고급 스팸 필터 설정](advanced-spam-filtering-asf-options.md)을 참조하세요.
+   이러한 설정에 대한 자세한 내용은 [EOP에서 고급 스팸 필터 설정](advanced-spam-filtering-asf-options.md)을 참조하세요.
 
 9. (필수 사항) **적용 대상** 섹션을 확장하여 정책을 적용할 내부 받는 사람을 식별합니다.
 
@@ -246,7 +246,7 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
     사용 가능한 모든 조건을 보려면 **조건 추가**를 세 번 클릭하는 것이 가장 쉽습니다. ![제거 단추](../../media/scc-remove-icon.png)를 클릭하여 구성하지 않을 조건을 제거할 수 있습니다.
 
-    - **받는 사람 도메인은**: Office 365에서 구성된 허용 도메인 중 하나 이상에서 받는 사람을 지정합니다. **태그 추가** 상자를 클릭하여 도메인을 확인하고 선택합니다. 두 개 이상의 도메인을 사용할 수 있는 경우, **태그 추가** 상자를 다시 클릭하여 추가 도메인을 선택합니다.
+    - **받는 사람 도메인은** 조직에서 구성된 허용 도메인 중 하나 이상에서 받는 사람을 지정합니다. **태그 추가** 상자를 클릭하여 도메인을 확인하고 선택합니다. 두 개 이상의 도메인을 사용할 수 있는 경우, **태그 추가** 상자를 다시 클릭하여 추가 도메인을 선택합니다.
 
     - **받는 사람은**: 조직에서 하나 이상의 사서함, 메일 사용자 또는 메일 연락처를 지정합니다. **태그 추가**를 클릭하고, 입력을 시작하여 목록을 필터링합니다. **태그 추가**를 다시 클릭하여 추가 받는 사람을 선택합니다.
 
@@ -324,7 +324,7 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
 ### <a name="configure-end-user-spam-notifications"></a>최종 사용자 스팸 알림 구성하기
 
-스팸 필터링 결과에서 메시지를 격리하는 경우, 받는 사람에게 전송된 메시지에 일어난 자세한 내용을 알릴 수 있도록 최종 사용자 스팸 알림을 구성할 수 있습니다. 이 알림에 대한 자세한 내용은 [Office 365에서 최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)을 참조하세요.
+스팸 필터링 결과에서 메시지를 격리하는 경우, 받는 사람에게 전송된 메시지에 일어난 자세한 내용을 알릴 수 있도록 최종 사용자 스팸 알림을 구성할 수 있습니다. 이 알림에 대한 자세한 내용은 [EOP에서 최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)을 참조하세요.
 
 1. 보안 및 준수 센터에서 **위협 관리** \> **정책** \> **스팸 방지**로 이동합니다.
 

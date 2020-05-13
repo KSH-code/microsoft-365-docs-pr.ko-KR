@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: 파일 계획 관리자는 보존 레이블 및 보존 레이블 정책에 대한 고급 관리 기능을 제공하고, 생성부터 공동 작업, 레코드 선언, 보존 및 최종 처리에 이르는 전체 콘텐츠 수명 주기 동안 레이블 및 레이블-콘텐츠 간 활동을 트래버스하는 통합 방법을 제공합니다.
-ms.openlocfilehash: 4c9cbdefe538a0ed2593ec74dfcee1010fd9b818
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 78a012b4ecc3401a664fba5e270e7cd67a5dce49
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708443"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208122"
 ---
 # <a name="overview-of-file-plan-manager"></a>파일 계획 관리자 개요
 
@@ -37,9 +37,9 @@ ms.locfileid: "43708443"
 
 파일 계획 관리자에 액세스하려면 다음과 같은 관리자 역할 중 하나가 있어야 합니다.
     
-    - 보존 관리자
-    
-    - 보기 전용 보존 관리자
+- 보존 관리자
+
+- 보기 전용 보존 관리자
 
 ## <a name="default-retention-labels-and-label-policy"></a>기본 보존 레이블 및 레이블 정책
 

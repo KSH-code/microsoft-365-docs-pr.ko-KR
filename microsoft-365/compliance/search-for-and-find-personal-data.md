@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: Microsoft Office 365에서 유럽연합 일반 개인정보보호법(GDPR)에 따라 개인 데이터를 검색 및 찾는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5634437e5212fca6a7caf768d5a66d99497de3c6
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 50c8db59cfd5e9a7de3da0dc696227e85dab1cee
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036413"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208092"
 ---
 # <a name="search-for-and-find-personal-data"></a>개인 데이터 검색 및 찾기
 
@@ -118,7 +118,7 @@ Office 365에 포함된 중요한 정보 유형을 사용하여 개인 데이터
 <td align="left"><p>다음 유형의 문제를 찾아 쿼리 정확도가 원하는 수준인지 확인합니다.</p>
 <p><li>많은 가양성</li></p>
 <p><li>누락된 데이터의 알려진 인스턴스</li></p>
-<p><a href="https://support.office.com/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278">보안 &amp; 준수 센터에서 콘텐츠 검색 결과 내보내기</a>를 참조하세요.</p>
+<p><a href="https://docs.microsoft.com/microsoft-365/compliance/export-search-results">보안 &amp; 준수 센터에서 콘텐츠 검색 결과 내보내기</a>를 참조하세요.</p>
 <p>참고: Mozilla Firefox 또는 Chrome을 사용하는 경우 필요한 추가 기능을 설치하기 위해 먼저 Internet Explorer 또는 Edge를 사용하여 보고서를 다운로드해야 할 수 있습니다.</p></td>
 </tr>
 </tbody>

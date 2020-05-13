@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: 관리자는 exchange Online 사서함을 포함 하거나 제외 하는 EOP (Exchange Online Protection) 조직에서 사용할 수 있는 피싱 방지 정책을 만들고, 수정 하 고, 삭제 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 076c8aa8a0111643ab0f43bcd5f6ff21f82277b2
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 5c2e036c075072056e7783ca4dc5aeb1289d827a
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208902"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213391"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>EOP에서 피싱 방지 정책 구성
 
@@ -31,7 +31,7 @@ Exchange Online 사서함이 있는 조직은 보안 & 준수 센터 또는 Exch
 
 Office 365 Advanced Threat Protection (Office 365 ATP)에서 사용할 수 있는 고급 ATP 피싱 방지 정책을 만들고 수정 하는 방법에 대 한 자세한 내용은 [ATP 피싱 방지 정책 구성을](configure-atp-anti-phishing-policies.md)참조 하십시오.
 
-## <a name="anti-phishing-policies-in-the-security--compliance-center-vs-exchange-online-powershell"></a>보안 & 준수 센터 vs Exchange Online PowerShell의 피싱 방지 정책
+## <a name="anti-phishing-policies-in-the-security--compliance-center-vs-powershell"></a>보안 & 준수 센터 vs PowerShell의 피싱 방지 정책
 
 피싱 방지 정책의 기본 요소는 다음과 같습니다.
 
