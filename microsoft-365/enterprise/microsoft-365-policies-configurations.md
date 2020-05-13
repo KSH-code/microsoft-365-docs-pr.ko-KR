@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: f336c9ef2957374223a8f0d7b64f892c87e1169d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0512d51f2789383c7612c3dbd97c0a77c2c4c7fa
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631552"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214665"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
@@ -121,10 +121,10 @@ Azure AD는 id 관리 기능을 완벽 하 게 제공 합니다. 액세스 보�
 이 가이드에서는 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive를 포함 하 여 Office 365에 대 한 액세스를 보호 하기 위한 정책 집합을 구현 하는 방법을 설명 합니다. 이러한 정책을 구현 하는 것 외에도 다음 리소스를 사용 하 여 테 넌 트의 보호 수준을 올리는 것이 좋습니다.
 
 - [보안 강화를 위해 테 넌 트 구성](https://support.office.com/article/Configure-your-Office-365-tenant-for-increased-security-8d274fe3-db51-4107-ba64-865e7155b355): 이러한 권장 사항은 테 넌 트의 기준 보안에 적용 됩니다.
-- [Microsoft 365 보안 로드맵: 처음 30 일, 90 일 및 그 이상에 대 한 주요 우선 순위](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352): 이러한 권장 사항에는 로깅, 데이터 거 버 넌 스, 관리자 액세스, 위협 방지 등이 있습니다.
+- [Microsoft 365 보안 로드맵: 처음 30 일, 90 일 및 그 이상에 대 한 주요 우선 순위](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap): 이러한 권장 사항에는 로깅, 데이터 거 버 넌 스, 관리자 액세스, 위협 방지 등이 있습니다.
 
 
-### <a name="windows-10-and-microsoft-365-apps-for-enterprise"></a>Windows 10 및 Microsoft 365 Apps for enterprise
+### <a name="windows-10-and-microsoft-365-apps-for-enterprise"></a>Windows 10 및 Microsoft Office 365 ProPlus
 
 Pc 용 Windows 10 및 Microsoft 365 Apps for enterprise는 권장 되는 클라이언트 환경입니다. Azure는 온-프레미스 및 Azure AD 둘 다에 사용할 수 있는 원활한 환경을 제공 하도록 디자인 되었기 때문에 Windows 10을 사용 하는 것이 좋습니다. Windows 10에는 Intune을 통해 관리할 수 있는 고급 보안 기능도 포함 되어 있습니다. Microsoft 365 enterprise 용 앱에는 최신 버전의 Office 응용 프로그램이 포함 되어 있습니다. 이러한 기능은 더 안전 하 고 조건부 액세스에 대 한 요구 사항을 충족 하는 최신 인증을 사용 합니다. 이러한 앱에는 향상 된 보안 및 준수 도구도 포함 되어 있습니다.
 

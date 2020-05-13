@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: 중앙 집중식 배포를 사용 하 여 Office 추가 기능을 배포할 수 있도록 테 넌 트 및 사용자가 요구 사항을 충족 하는지 확인 합니다.
-ms.openlocfilehash: 0fcdb9901c708842470f72106ab4eea20ff8b17e
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: bd1c9ca0a034494f6556f0badca66284c3d9e1de
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011726"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214255"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 맞게 작동 하는지 확인
 
@@ -75,9 +75,9 @@ Microsoft 365 Apps for enterprise를 사용 하려면 사용자에 게 Microsoft
 
 사용자가 office 용 Microsoft 365 앱이 설치 되어 있고 최근에 사용 중인 경우 microsoft 365 관리 센터에서 사용할 수 있는 Microsoft Office 정품 인증 보고서를 사용 하는 것이 가장 간단한 방법입니다. 이 보고서는 지난 7 일, 30 일, 90 일 또는 180 일 이내에 엔터프라이즈 용 Microsoft 365 앱을 정품 인증 한 모든 사용자의 목록을 제공 합니다. 중앙 집중식 배포를 위해 Windows 또는 Mac에 대한 데스크톱 정품 인증은 보고서의 중요 열에 있습니다. 보고서를 Excel로 내보낼 수 있습니다. 보고서에 대 한 자세한 내용은 [관리 센터의 microsoft 365 보고서-Microsoft Office 정품 인증](../activity-reports/microsoft-office-activations.md)을 참조 하세요.
   
-정품 인증 보고서를 사용 하지 않으려는 경우 사용자에 게 컴퓨터에서 Word와 같은 Office 응용 프로그램을 열도록 요청 하 고 **파일** \> **계정을**선택 하면 됩니다. 다음 그림에 나와 있는 것 처럼, **제품 정보**에는 **구독 제품** 및 **microsoft microsoft 365 앱 for enterprise**가 표시 됩니다.
+정품 인증 보고서를 사용 하지 않으려는 경우 사용자에 게 컴퓨터에서 Word와 같은 Office 응용 프로그램을 열도록 요청 하 고 **파일** \> **계정을**선택 하면 됩니다. 다음 이미지에 표시 된 것 처럼 **제품 정보**아래에는 **구독 제품** 및 **Microsoft 365 for enterprise**가 표시 됩니다.
 
-![Office 응용 프로그램의 제품 정보](../../media/4bff2bb8-0690-4d22-ac1f-b8881807fa39.png)
+![Office 응용 프로그램의 제품 정보](../../media/product-information-microsoft-365-enterprise.png)
   
 Microsoft 365 for enterprise 용 앱에 대 한 도움말을 보려면 [microsoft 365 앱 for Enterprise 문제 해결 팁](https://go.microsoft.com/fwlink/p/?linkid=846339)을 참조 하십시오.
 
@@ -108,7 +108,7 @@ Import-Module O365CompatibilityChecker
 ```powershell
 Invoke-CompatibilityCheck
 ```
-   여기에는 *_Tenantdomain_* 을 묻는 메시지가 표시 됩니다 (예: *TailspinToysIncorporated.</span> com*) 및 *_TenantAdmin_* 자격 증명 (전역 관리자 자격 증명 사용)을 선택한 다음 동의를 요청 합니다.
+   여기에는 *_Tenantdomain_* 을 묻는 메시지가 표시 됩니다 (예: *TailspinToysIncorporated. </span> com*) 및 *_TenantAdmin_* 자격 증명 (전역 관리자 자격 증명 사용)을 선택한 다음 동의를 요청 합니다.
     
 > [!NOTE]
 > 테넌트의 사용자 수에 따라 검사를 완료하는 데 몇 분 또는 몇 시간이 걸릴 수 있습니다. 
@@ -161,7 +161,7 @@ Invoke-CompatibilityCheck
   
 |**플랫폼**|**디버그 정보**|
 |:-----|:-----|
-|사무실  <br/> | Charles/Fiddler 로그  <br/>  테넌트 ID( [방법 알아보기](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b.aspx))  <br/>  관계. Office 페이지 중 하나의 원본을 확인 하 고 상관 관계 ID 값을 확인 한 다음 지원에 보냅니다.  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
+|사무실  <br/> | Charles/Fiddler 로그  <br/>  테넌트 ID( [방법 알아보기](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id.aspx))  <br/>  관계. Office 페이지 중 하나의 원본을 확인 하 고 상관 관계 ID 값을 확인 한 다음 지원에 보냅니다.  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
 |리치 클라이언트(Windows, Mac)  <br/> | Charles/Fiddler 로그  <br/>  클라이언트 응용 프로그램의 빌드 번호 ( **파일/계정의**스크린샷)  <br/> |
    
 
