@@ -12,16 +12,16 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Microsoft에서는 자체 지원 및 보조 지원을 비롯하여 다양한 방법 및 위치에서 EOP에 대한 도움말을 제공합니다.
-ms.openlocfilehash: 6fde3c6cf62f865a17f081c1892d6a5197b037f9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2ef6bacbce6f46a17abcceb98e40d20ed3ad5363
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638049"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209202"
 ---
 # <a name="help-and-support-for-eop"></a>EOP에 대한 도움말 및 지원
 
-여기에 나열된 기술 지원 리소스는 Microsoft EOP(Exchange Online Protection) 사용에 문제가 있을 경우 답변을 찾는 데 도움이 됩니다. Microsoft에서는 자체 지원 및 보조 지원을 비롯하여 다양한 방법 및 위치에서 EOP에 대한 도움말을 제공합니다.
+Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (exchange online Protection) 조직에 사서함이 있는 경우이 항목에 나열 된 기술 지원 리소스는 EOP에 문제가 있을 경우 답변을 찾는 데 도움이 됩니다. Microsoft에서는 자체 지원 및 보조 지원을 비롯하여 다양한 방법 및 위치에서 EOP에 대한 도움말을 제공합니다.
 
 ## <a name="self-support-options"></a>자체 지원 옵션
 

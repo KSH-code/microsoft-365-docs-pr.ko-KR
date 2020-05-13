@@ -17,17 +17,17 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 이 문서에서는 조직의 특정 사용자, 그룹 또는 도메인에 적용 되는 아웃 바운드 스팸 정책을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: efd3fecc2447435f40e4e20fd958e8f3b2d8e48f
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+description: 관리자는 EOP (Exchange Online Protection)에서 아웃 바운드 스팸 정책을 보고, 만들고, 수정 하 고, 삭제 하는 방법을 확인할 수 있습니다.
+ms.openlocfilehash: 9970956c2d05a47032cd47b867b8b4e9e92abc29
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173443"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209574"
 ---
-# <a name="configure-outbound-spam-filtering"></a>아웃바운드 스팸 필터링 구성
+# <a name="configure-outbound-spam-filtering-in-eop"></a>EOP에서 아웃 바운드 스팸 필터링 구성
 
-Exchange online 사서함이 없는 Microsoft 365, 독립 실행형 EOP (Exchange Online Protection) 고객의 사서함을 사용 하는 경우 EOP를 통해 전송 되는 아웃 바운드 전자 메일 메시지는 스팸 및 비정상적인 보내기 활동을 자동으로 확인 합니다.
+Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (독립 실행형 Exchange Online Protection) 조직에서 EOP를 통해 전송 되는 아웃 바운드 전자 메일 메시지는 스팸 및 비정상적인 보내기 활동을 자동으로 확인 합니다.
 
 조직에 있는 사용자의 아웃 바운드 스팸은 일반적으로 계정이 노출 된 것을 나타냅니다. 의심 스러운 아웃 바운드 메시지는 스팸 지 수 또는 SCL에 관계 없이 스팸으로 표시 되며, [높은 위험 배달 풀](high-risk-delivery-pool-for-outbound-messages.md) 을 통해 라우팅되는 서비스의 신뢰도를 보호 하는 데 도움이 됩니다 (즉, Microsoft 365 원본 전자 메일 서버를 IP 차단 목록 밖으로 유지). 관리자는 [경고 정책을](../../compliance/alert-policies.md)통해 의심 스러운 아웃 바운드 전자 메일 활동 및 차단 된 사용자에 게 자동으로 알림을 보냅니다.
 
@@ -35,7 +35,7 @@ EOP에서는 스팸을 방지 하기 위해 조직의 전반적인 방어 과정
 
 관리자는 기본 아웃 바운드 스팸 정책을 보고 편집 하 고 구성할 수 있습니다 (삭제 하지 않음). 세분성을 높이기 위해 조직의 특정 사용자, 그룹 또는 도메인에 적용 되는 사용자 지정 아웃 바운드 스팸 정책을 만들 수도 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만, 사용자 지정 정책의 우선순위(실행 순서)를 변경할 수 있습니다.
 
-보안 & 준수 센터 또는 PowerShell (Microsoft 365 고객을 위한 Exchange Online PowerShell)에서 아웃 바운드 스팸 정책을 구성할 수 있습니다. 독립 실행형 EOP 고객을 위한 Exchange Online Protection PowerShell
+보안 & 준수 센터 또는 PowerShell (exchange online 사서함이 없는 조직에 대 한 사서함이 있는 Microsoft 365 조 직 용 Exchange online PowerShell)에서 아웃 바운드 스팸 정책을 구성할 수 있습니다.
 
 ## <a name="outbound-spam-policies-in-the-security--compliance-center-vs-exchange-online-powershell-or-exchange-online-protection-powershell"></a>보안 & 준수 센터 vs Exchange Online PowerShell 또는 Exchange Online Protection PowerShell의 아웃 바운드 스팸 정책
 
@@ -53,7 +53,7 @@ EOP의 아웃 바운드 스팸 정책의 기본 요소는 다음과 같습니다
 
 - 보안 & 준수 센터에서 아웃 바운드 스팸 정책을 제거 하면 아웃 바운드 스팸 필터 규칙과 연결 된 아웃 바운드 스팸 필터 정책이 제거 됩니다.
 
-Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection PowerShell에서 아웃 바운드 스팸 필터 정책 및 아웃 바운드 스팸 필터 규칙 간의 차이가 명백 합니다. -Get-hostedoutboundspamfilterpolicy cmdlet을 사용 하 여 아웃 바운드 스팸 필터 정책을 관리 하 고 ** \*-HostedOutboundSpamFilterRule** cmdlet을 사용 하 여 아웃 바운드 스팸 필터 규칙을 관리 합니다. ** \***
+Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection PowerShell에서 아웃 바운드 스팸 필터 정책 및 아웃 바운드 스팸 필터 규칙 간의 차이가 명백 합니다. ** \* -Get-hostedoutboundspamfilterpolicy** cmdlet을 사용 하 여 아웃 바운드 스팸 필터 정책을 관리 하 고 ** \* -HostedOutboundSpamFilterRule** cmdlet을 사용 하 여 아웃 바운드 스팸 필터 규칙을 관리 합니다.
 
 - PowerShell에서 먼저 아웃 바운드 스팸 필터 정책을 만든 다음 규칙이 적용 되는 정책을 식별 하는 아웃 바운드 스팸 필터 규칙을 만듭니다.
 
@@ -113,7 +113,7 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
         필요한 만큼 이 단계를 반복합니다.
 
-        추가한 받는 사람이 플라이 아웃의 **받는 사람 목록** 섹션에 표시 됩니다. 받는 사람을 삭제 하려면 제거 ![단추](../../media/scc-remove-icon.png)를 클릭 합니다.
+        추가한 받는 사람이 플라이 아웃의 **받는 사람 목록** 섹션에 표시 됩니다. 받는 사람을 삭제 하려면 ![ 제거 단추를 클릭 ](../../media/scc-remove-icon.png) 합니다.
 
      e. 작업을 마쳤으면 **저장**을 클릭합니다.
 
@@ -136,7 +136,7 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
         필요한 만큼 이 단계를 반복합니다.
 
-        추가한 받는 사람이 플라이 아웃의 **받는 사람 목록** 섹션에 표시 됩니다. 받는 사람을 삭제 하려면 제거 ![단추](../../media/scc-remove-icon.png)를 클릭 합니다.
+        추가한 받는 사람이 플라이 아웃의 **받는 사람 목록** 섹션에 표시 됩니다. 받는 사람을 삭제 하려면 ![ 제거 단추를 클릭 ](../../media/scc-remove-icon.png) 합니다.
 
      e. 작업을 마쳤으면 **저장**을 클릭합니다.
 
@@ -167,17 +167,17 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
        - 사용자는 UTC 시간을 기준으로 다음 날까지 메시지를 더 이상 보낼 수 없게 됩니다. 관리자가이 블록을 무시할 수 있는 방법은 없습니다.
 
-     - **사용자가 메일을 보낼 수 없도록 제한**: 전자 메일 알림이 전송 되 고 사용자가 보안 & 준수 센터의 **[제한 된 사용자]<https://sip.protection.office.com/restrictedusers> ** 포털에 추가 되 고 관리자가 제한 된 **사용자** 포털에서 제거 될 때까지 사용자가 전자 메일을 보낼 수 없습니다. 관리자가 목록에서 사용자를 제거 하면 해당 날짜에 대해 사용자가 다시 제한 되지 않습니다. 자세한 내용은 [스팸 메일을 보낸 후 제한 된 사용자 포털에서 사용자 제거](removing-user-from-restricted-users-portal-after-spam.md)를 참조 하세요.
+     - **사용자가 메일을 보낼 수 없도록 제한**: 전자 메일 알림이 전송 되 고 사용자가 보안 & 준수 센터의 **[제한 된 사용자] <https://sip.protection.office.com/restrictedusers> ** 포털에 추가 되 고 관리자가 제한 된 **사용자** 포털에서 제거 될 때까지 사용자가 전자 메일을 보낼 수 없습니다. 관리자가 목록에서 사용자를 제거 하면 해당 날짜에 대해 사용자가 다시 제한 되지 않습니다. 자세한 내용은 [스팸 메일을 보낸 후 제한 된 사용자 포털에서 사용자 제거](removing-user-from-restricted-users-portal-after-spam.md)를 참조 하세요.
 
      - **작업 없음, 알림만**: 전자 메일 알림을 보냅니다.
 
 6. 않아도 **적용 대상** 섹션을 확장 하 여 정책이 적용 되는 내부 보낸 사람을 식별 합니다.
 
-    조건이나 예외는 한 번만 사용할 수 있지만, 조건이나 예외에 대한 값을 여러 개 지정할 수 있습니다. 동일한 조건 또는 예외를 사용 하는 여러 값 또는 논리 (예: _ \<sender1\> _ 또는 _ \<sender2\>_) 서로 다른 조건 또는 예외 사용 및 논리 (예: _ \<sender1\> _ , _ \<그룹 1\>의 구성원_)
+    조건이나 예외는 한 번만 사용할 수 있지만, 조건이나 예외에 대한 값을 여러 개 지정할 수 있습니다. 동일한 조건 또는 예외를 사용 하는 여러 값 또는 논리 (예: _ \< sender1 \> _ 또는 _ \< sender2 \> _) 서로 다른 조건 또는 예외 사용 및 논리 (예: _ \< sender1 \> _ , _ \< 그룹 1 \> 의 구성원_)
 
     사용 가능한 모든 조건을 보려면 **조건 추가**를 세 번 클릭하는 것이 가장 쉽습니다. ![제거 단추](../../media/scc-remove-icon.png)를 클릭하여 구성하지 않을 조건을 제거할 수 있습니다.
 
-    - **보낸 사람 도메인**: Office 365에서 구성 된 허용 도메인 중 하나 이상에 있는 보낸 사람을 지정 합니다. **태그 추가** 상자를 클릭하여 도메인을 확인하고 선택합니다. 두 개 이상의 도메인을 사용할 수 있는 경우, **태그 추가** 상자를 다시 클릭하여 추가 도메인을 선택합니다.
+    - **보낸 사람 도메인**: 조직에서 구성 된 허용 도메인 중 하나 이상에 있는 보낸 사람을 지정 합니다. **태그 추가** 상자를 클릭하여 도메인을 확인하고 선택합니다. 두 개 이상의 도메인을 사용할 수 있는 경우, **태그 추가** 상자를 다시 클릭하여 추가 도메인을 선택합니다.
 
     - **Sender is**: 조직에서 사용자를 한 명 이상 지정 합니다. **태그 추가**를 클릭하고, 입력을 시작하여 목록을 필터링합니다. **태그 추가** 상자를 다시 클릭 하 여 추가 보낸 사람을 선택 합니다.
 
@@ -191,7 +191,7 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
 1. 보안 및 준수 센터에서 **위협 관리** \> **정책** \> **스팸 방지**로 이동합니다.
 
-2. **스팸 방지 설정** 페이지에서 확장 아이콘 ![](../../media/scc-expand-icon.png) 을 클릭 하 여 아웃 바운드 스팸 정책을 확장 합니다.
+2. **스팸 방지 설정** 페이지에서 ![ 확장 아이콘을 클릭 하 여 ](../../media/scc-expand-icon.png) 아웃 바운드 스팸 정책을 확장 합니다.
 
    - **아웃 바운드 스팸 필터 정책**이라는 기본 정책
 
@@ -203,7 +203,7 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
 1. 보안 및 준수 센터에서 **위협 관리** \> **정책** \> **스팸 방지**로 이동합니다.
 
-2. **스팸 방지 설정** 페이지에서 확장 아이콘 ![](../../media/scc-expand-icon.png) 을 클릭 하 여 아웃 바운드 스팸 정책을 확장 합니다.
+2. **스팸 방지 설정** 페이지에서 ![ 확장 아이콘을 클릭 하 여 ](../../media/scc-expand-icon.png) 아웃 바운드 스팸 정책을 확장 합니다.
 
    - **아웃 바운드 스팸 필터 정책**이라는 기본 정책
 
@@ -221,7 +221,7 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
 1. 보안 및 준수 센터에서 **위협 관리** \> **정책** \> **스팸 방지**로 이동합니다.
 
-2. **스팸 방지 설정** 페이지에서 확장 아이콘](../../media/scc-expand-icon.png) 을 클릭 ![하 여 만든 사용자 지정 정책 ( **유형** 열의 값은 **사용자 지정 아웃 바운드 스팸 정책**)을 확장 합니다.
+2. **스팸 방지 설정** 페이지에서 확장 아이콘을 클릭 ![ 하 여 ](../../media/scc-expand-icon.png) 만든 사용자 지정 정책 ( **유형** 열의 값은 **사용자 지정 아웃 바운드 스팸 정책**)을 확장 합니다.
 
 3. 표시되는 확장된 정책 세부 정보에서 **켬** 열에 있는 값을 확인합니다.
 
@@ -243,11 +243,11 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
 2. **스팸 방지 설정** 페이지에서 **유형** 열의 값이 **사용자 지정 아웃 바운드 스팸 정책**인 정책을 찾습니다. **우선순위** 열의 값을 확인합니다.
 
-   - 우선 순위가 가장 높은 사용자 지정 아웃 바운드 스팸 정책의 값 ![은 아래쪽 화살표 아이콘](../../media/ITPro-EAC-DownArrowIcon.png) **0**입니다.
+   - 우선 순위가 가장 높은 사용자 지정 아웃 바운드 스팸 정책의 값은 ![ 아래쪽 화살표 아이콘 ](../../media/ITPro-EAC-DownArrowIcon.png) **0**입니다.
 
-   - 우선 순위가 가장 낮은 사용자 ![지정 아웃 바운드 스팸 정책의 값 위쪽 화살표 아이콘](../../media/ITPro-EAC-UpArrowIcon.png) **n** (예: ![위쪽 화살표 아이콘](../../media/ITPro-EAC-UpArrowIcon.png) **3**)이 사용 됩니다.
+   - 우선 순위가 가장 낮은 사용자 지정 아웃 바운드 스팸 정책의 값 ![ 위쪽 화살표 아이콘 ](../../media/ITPro-EAC-UpArrowIcon.png) **n** (예: ![ 위쪽 화살표 아이콘 ](../../media/ITPro-EAC-UpArrowIcon.png) **3**)이 사용 됩니다.
 
-   - 사용자 지정 된 아웃 바운드 스팸 정책이 3 개 이상인 경우 위쪽/최저 우선 순위 간의 정책에는 위쪽 ![](../../media/ITPro-EAC-UpArrowIcon.png)![화살표 아이콘 아래쪽 화살표 아이콘](../../media/ITPro-EAC-DownArrowIcon.png) **n** (예를 들어, ![위 화살표가 아이콘](../../media/ITPro-EAC-UpArrowIcon.png)![아래쪽 화살표 아이콘](../../media/ITPro-EAC-DownArrowIcon.png) **2**)로 설정 됩니다.
+   - 사용자 지정 된 아웃 바운드 스팸 정책이 3 개 이상인 경우 위쪽/최저 우선 순위 간의 정책에는 위쪽 화살표 아이콘 ![ ](../../media/ITPro-EAC-UpArrowIcon.png)![ 아래쪽 화살표 아이콘 ](../../media/ITPro-EAC-DownArrowIcon.png) **n** (예를 들어, ![ 위 화살표가 아이콘 ](../../media/ITPro-EAC-UpArrowIcon.png)![ 아래쪽 화살표 아이콘 ](../../media/ITPro-EAC-DownArrowIcon.png) **2**)로 설정 됩니다.
 
 3. 이 ![위쪽 화살표 아이콘](../../media/ITPro-EAC-UpArrowIcon.png) 또는 ![아래쪽 화살표 아이콘](../../media/ITPro-EAC-DownArrowIcon.png) 사용자 지정 아웃 바운드 스팸 정책을 우선 순위 목록에서 위아래로 이동 합니다.
 
@@ -255,7 +255,7 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
 1. 보안 및 준수 센터에서 **위협 관리** \> **정책** \> **스팸 방지**로 이동합니다.
 
-2. **스팸 방지 설정** 페이지에서 확장 아이콘](../../media/scc-expand-icon.png) 을 클릭 ![하 여 삭제할 사용자 지정 정책 ( **유형** 열은 **사용자 지정 아웃 바운드 스팸 정책**)을 확장 합니다.
+2. **스팸 방지 설정** 페이지에서 ![ 확장 아이콘을 클릭 하 여 ](../../media/scc-expand-icon.png) 삭제할 사용자 지정 정책 ( **유형** 열은 **사용자 지정 아웃 바운드 스팸 정책**)을 확장 합니다.
 
 3. 표시되는 확장된 정책 세부 정보에서 **정책 삭제**를 클릭합니다.
 
@@ -279,9 +279,9 @@ PowerShell에서 아웃 바운드 스팸 정책을 만드는 과정은 다음 �
 
 - 정책을 만든 후에 야 보안 & 준수 센터에서 사용할 수 없는 PowerShell에서 새 아웃 바운드 스팸 필터 정책에 대해 다음 설정을 구성할 수 있습니다.
 
-  - **HostedOutboundSpamFilterRule** cmdlet에서_사용 하도록 설정_ `$false` 된 새 정책을 사용 하지 않도록 설정 합니다.
+  - HostedOutboundSpamFilterRule cmdlet에서_사용 하도록 설정_ 된 새 정책을 사용 하지 않도록 설정 `$false` **New-HostedOutboundSpamFilterRule** 합니다.
 
-  - **HostedOutboundSpamFilterRule** cmdlet에 대해 만드는 동안 정책의 우선 순위 (_우선 순위_ _ \<번호\>_)를 설정 합니다.
+  - **HostedOutboundSpamFilterRule** cmdlet에 대해 만드는 동안 정책의 우선 순위 (_우선 순위_ _ \< 번호 \> _)를 설정 합니다.
 
 - 사용자가 PowerShell에서 만든 새 아웃 바운드 스팸 필터 정책이 보안 & 준수 센터에 표시 되지 않는 경우에는 해당 정책을 스팸 필터 규칙에 할당할 수 있습니다.
 

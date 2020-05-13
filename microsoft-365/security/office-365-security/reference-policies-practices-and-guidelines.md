@@ -2,10 +2,10 @@
 title: 참조 정책, 사례 및 지침
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 12/09/2016
+ms.date: ''
 audience: ITPro
 ms.topic: reference
 ms.service: O365-seccomp
@@ -16,12 +16,12 @@ ms.assetid: ff3f140b-b005-445f-bfe0-7bc3f328aaf0
 ms.collection:
 - M365-security-compliance
 description: Microsoft는 다양 한 정책과 절차를 개발 하 고 사용자가 악성 전자 메일, 원치 않는 이메일 또는 악의적으로 보호 하는 데 도움이 되는 몇 가지 업계 모범 사례를 채택 했습니다.
-ms.openlocfilehash: 6e73355c02e0416a80441aff8143fcbf51150b94
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9684453503329e955c21051885c5d93e8c927c48
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634391"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208213"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>참조: 정책, 사례 및 지침
 
@@ -31,9 +31,9 @@ Microsoft는 웹에서 가장 신뢰할 수 있는 사용자 환경을 제공 �
 
 ## <a name="general-microsoft-policies"></a>일반 Microsoft 정책
 
-Microsoft 365 사용자에 게 전송 된 전자 메일은 전자 메일 전송 및 Office 365 사용을 관리 하는 모든 Microsoft 정책을 준수 해야 합니다.
+Microsoft 365 사용자에 게 전송 되는 전자 메일은 전자 메일 전송 및 Microsoft 365 사용을 관리 하는 모든 Microsoft 정책을 준수 해야 합니다.
 
-- Office 365에 해당 하는 서비스 약관 특히, prohibition에서 서비스를 사용 하 여 스팸을 보내거나 맬웨어를 배포 하는 것을 방지 합니다.
+- Microsoft 365에 해당 하는 서비스 약관 특히, prohibition는 서비스를 사용 하 여 스팸을 보내거나 맬웨어를 배포 하는 것을 방지 합니다.
 
 - [Microsoft 서비스 계약](https://www.microsoft.com/servicesagreement/)
 
@@ -85,7 +85,7 @@ Microsoft는 인터넷 및 전자 메일 에코 시스템을 개선 하기 위�
 
 - [온라인 신뢰 동맹](https://www.otalliance.org/resources)
 
-- [전자 메일 &amp; 보낸 사람 공급자 Coalition](https://www.espcoalition.org/)
+- [전자 메일 보낸 사람 & 공급자 Coalition](https://www.espcoalition.org/)
 
 ## <a name="abuse-and-spam-reporting"></a>불건전 및 스팸 보고
 

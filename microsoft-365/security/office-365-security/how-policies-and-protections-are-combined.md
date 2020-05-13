@@ -15,17 +15,17 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Office 365 보호의 응용 프로그램 순서와 보호 정책의 우선 순위 값에 따라 적용 되는 정책이 결정 되는 방식을 알아봅니다.
-ms.openlocfilehash: 856b3bc39cd971e605cd9f1c0f31554a853c1b67
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: 관리자는 EOP (Exchange Online Protection)의 보호에 대 한 응용 프로그램 순서와 보호 정책의 우선 순위 값이 적용 되는 정책을 결정 하는 방법에 대해 알아볼 수 있습니다.
+ms.openlocfilehash: 176d39a240d49e0118b4bb8e8cee52a6e7c61b0e
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036719"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209442"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>전자 메일 보호의 순서 및 우선 순위
 
-Microsoft 365 사용자는 인바운드 전자 메일에 여러 보호 형태의 플래그를 지정 했을 수 있습니다. 예를 들어 모든 Microsoft 365 고객이 사용할 수 있는 기본 제공 EOP 피싱 방지 정책과 Office 365 Advanced Threat Protection 고객도 사용할 수 있는 더욱 견고한 ATP 피싱 방지 정책 또한 메시지는 맬웨어, 스팸, 피싱 등에 대해 여러 검색 검사를 통과 합니다. 이 모든 활동이 제공 되는 경우 적용 되는 정책과 같은 혼동이 있을 수 있습니다.
+Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (독립 실행형 Exchange Online 보호) 조직에서 인바운드 전자 메일에는 여러 가지 형식의 보호에 플래그가 지정 되어 있을 수 있습니다. 예를 들어 모든 Microsoft 365 고객이 사용할 수 있는 기본 제공 EOP 피싱 방지 정책과 Office 365 Advanced Threat Protection (Office 365 ATP) 고객 에게도 사용할 수 있는 더욱 견고한 ATP 피싱 방지 정책 또한 메시지는 맬웨어, 스팸, 피싱 등에 대해 여러 검색 검사를 통과 합니다. 이 모든 활동이 제공 되는 경우 적용 되는 정책과 같은 혼동이 있을 수 있습니다.
 
 일반적으로 메시지에 적용 되는 정책은 **CAT (Category)** 속성의 **스팸 방지-Report** 헤더에서 식별 됩니다. 자세한 내용은 [스팸 방지 메시지 헤더](anti-spam-message-headers.md)를 참조하세요.
 
@@ -35,20 +35,20 @@ Microsoft 365 사용자는 인바운드 전자 메일에 여러 보호 형태의
 
   |||||
   |---|---|---|---|
-  |**우선 순위**|**전자 메일 보호**|**범주**|**관리할 위치**|
-  |개|맬웨어|CAT: MALW|[Office 365에서 맬웨어 방지 정책 구성](configure-anti-malware-policies.md)|
-  |2|피싱|CAT: PHSH|[Office 365에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
-  |3(sp3)|높은 정확도 스팸|CAT: HSPM|[Office 365에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
-  |4 |스푸핑|CAT: 스푸핑|[Office 365에서 스푸핑 인텔리전스 구성](learn-about-spoof-intelligence.md)|
-  |5 |스팸|CAT: SPM|[Office 365에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
-  |6 |대량|CAT: 대량|[Office 365에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
-  |연중<sup>\*</sup>|도메인 가장 (보호 된 사용자)|DIMP|[Office 365에서 ATP 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)|
-  |8<sup>\*</sup>|사용자 가장 (보호 된 도메인)|UIMP|[Office 365에서 ATP 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)|
+  |**Priority(우선 순위)**|**전자 메일 보호**|**범주**|**관리할 위치**|
+  |개|맬웨어|CAT: MALW|[EOP에서 맬웨어 방지 정책 구성](configure-anti-malware-policies.md)|
+  |2|피싱|CAT: PHSH|[EOP에서 스팸 방지 정책 구성](configure-your-spam-filter-policies.md)|
+  |3(sp3)|높은 정확도 스팸|CAT: HSPM|[EOP에서 스팸 방지 정책 구성](configure-your-spam-filter-policies.md)|
+  |4 |스푸핑|CAT: 스푸핑|[EOP에서 스푸핑 인텔리전스 구성](learn-about-spoof-intelligence.md)|
+  |5 |스팸|CAT: SPM|[EOP에서 스팸 방지 정책 구성](configure-your-spam-filter-policies.md)|
+  |6 |대량|CAT: 대량|[EOP에서 스팸 방지 정책 구성](configure-your-spam-filter-policies.md)|
+  |연중<sup>\*</sup>|도메인 가장 (보호 된 사용자)|DIMP|[ATP 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)|
+  |8<sup>\*</sup>|사용자 가장 (보호 된 도메인)|UIMP|[ATP 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)|
   |
 
   <sup>\*</sup>이러한 기능은 ATP 피싱 방지 정책 에서만 사용할 수 있습니다.
 
-- **정책의 우선 순위**: 각 보호 유형 (스팸 방지, 맬웨어 방지, 피싱 방지 등)에 대해 모든 사용자에 게 적용 되는 기본 정책이 있지만 특정 사용자에 게 적용 되는 사용자 지정 정책을 종종 만들 수 있습니다. 각 사용자 지정 정책에는 정책이 적용 되는 순서를 결정 하는 우선 순위 값이 있습니다. 기본 정책은 항상 마지막으로 적용 됩니다.
+- **정책의 우선 순위**: 각 보호 유형 (스팸 방지, 맬웨어 방지, 피싱 방지 등)에 대해 모든 사용자에 게 적용 되는 기본 정책이 있지만 특정 사용자에 게 적용 되는 사용자 지정 정책을 만들 수 있습니다. 각 사용자 지정 정책에는 정책이 적용 되는 순서를 결정 하는 우선 순위 값이 있습니다. 기본 정책은 항상 마지막으로 적용 됩니다.
 
   사용자가 같은 유형의 여러 정책에서 정의 된 경우에는 우선 순위가 가장 높은 정책만 적용 됩니다. 해당 유형의 나머지 정책은 사용자에 대해 평가 되지 않습니다 (기본 정책 포함).
 
@@ -56,7 +56,7 @@ Microsoft 365 사용자는 인바운드 전자 메일에 여러 보호 형태의
 
   |||||
   |---|---|---|---|
-  |**ATP 피싱 방지 정책**|**우선 순위**|**사용자 가장**|**스푸핑 방지**|
+  |**ATP 피싱 방지 정책**|**Priority(우선 순위)**|**사용자 가장**|**스푸핑 방지**|
   |정책 A|개|켜짐|해제|
   |정책 B|2|해제|켜짐|
   |

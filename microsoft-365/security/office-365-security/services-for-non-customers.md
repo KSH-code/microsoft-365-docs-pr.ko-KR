@@ -1,11 +1,11 @@
 ---
-title: 비 고객을 위한 Office 365 메일을 보내는 서비스
+title: 비 고객을 위한 Microsoft 365 메일을 보내는 서비스
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 5/2/2016
+ms.date: ''
 audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
@@ -16,16 +16,16 @@ ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
 description: 전자 메일을 사용할 때 사용자의 신뢰를 유지 하기 위해 Microsoft는 사용자를 보호 하기 위한 다양 한 정책 및 기술을 배치 했습니다.
-ms.openlocfilehash: 2d8de601fd24f30c342768b8b27e44248f05b5fe
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3a3dc26d757de84f5abd46c85f3596db67d676ae
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638395"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208237"
 ---
-# <a name="services-for-non-customers-sending-mail-to-office-365"></a>비 고객을 위한 Office 365 메일을 보내는 서비스
+# <a name="services-for-non-customers-sending-mail-to-microsoft-365"></a>비 고객을 위한 Microsoft 365 메일을 보내는 서비스
 
-전자 메일 남용, 정크 메일 및 사기성 전자 메일 (피싱)은 전체 전자 메일 에코에 부담을 주지 않습니다. 전자 메일을 사용할 때 사용자의 신뢰를 유지 하기 위해 Microsoft는 사용자를 보호 하기 위한 다양 한 정책 및 기술을 배치 했습니다. 그러나 Microsoft는 합법적인 전자 메일이 부정적인 영향을 받지 않도록 인식 하 고 있습니다. 따라서 전송 신뢰도를 사전에 관리 하 여 보낸 사람이 Microsoft 365 사용자에 게 전자 메일을 배달 하는 기능을 개선 하는 데 도움이 되는 서비스 모음을 설정 했습니다.
+전자 메일 남용, 정크 메일 및 사기성 전자 메일 (피싱)은 전체 전자 메일 에코에 부담을 주지 않습니다. 전자 메일을 사용할 때 사용자의 신뢰를 유지 하기 위해 Microsoft는 사용자를 보호 하기 위한 다양 한 정책과 기술을 마련 했습니다. 그러나 Microsoft는 합법적인 전자 메일이 부정적인 영향을 받지 않도록 인식 하 고 있습니다. 따라서 전송 신뢰도를 사전에 관리 하 여 보낸 사람이 Microsoft 365 사용자에 게 전자 메일을 배달 하는 기능을 개선 하는 데 도움이 되는 서비스 모음을 설정 했습니다.
 
 이 개요에서는 고객이 아닌 경우에도 조직에 제공 하는 혜택에 대 한 정보를 제공 합니다.
 
@@ -33,14 +33,14 @@ ms.locfileid: "43638395"
 
 |**Service(서비스)**|**이점**|
 |:-----|:-----|
-|온라인 도움말 콘텐츠| 단계별로  <br/>  EOP 사용자에 게 통신을 제공 하는 것과 관련 된 질문에 대 한 시작점  <br/>  여기에는 정책 및 요구 사항이 포함 된 간단한 온라인 가이드가 포함 되어 있습니다.  <br/>  Microsoft에서 사용한 정크 메일 필터 및 인증 기술에 대 한 개요|
+|온라인 도움말 콘텐츠|단계별로 <br/> EOP 사용자에 게 통신을 제공 하는 것과 관련 된 질문에 대 한 시작 지점입니다. <br/><br/> 여기에는 정책과 요구 사항이 포함 된 간단한 온라인 가이드가 포함 되어 있습니다. <br/><br/> Microsoft에서 채택 하 고 있는 정크 메일 필터 및 인증 기술에 대 한 개요입니다.|
 |[Microsoft 지원](#microsoft-support)|배달 문제에 대 한 자가 진단 및 에스컬레이션 지원을 제공 합니다.|
 |[스팸 방지 IP 목록 포털](#anti-spam-ip-delist-portal)|IP 목록 요청을 제출 하는 도구입니다. 이 요청을 제출 하기 전에 해당 IP가 보낸 모든 메일이 악의적이 든 악의적인 지 확인 해야 합니다.|
 |[Exchange Online에서 보내는 정크 메일에 대 한 불건전 및 스팸 보고](#abuse-and-spam-reporting-for-junk-email-originating-from-exchange-online)|스팸 및 기타 원치 않는 메일이 Exchange Online에서 전송 되 고 인터넷 및 메일 시스템을 복잡 하 게 유지 합니다.|
 
 ## <a name="microsoft-support"></a>Microsoft 지원
 
-Microsoft는 Microsoft 365 받은 편지 함으로 메일을 보내는 데 문제가 있는 사용자를 위해 몇 가지 지원 옵션을 제공 합니다. 다음의 작업을 권장합니다.
+Microsoft는 Microsoft 365 받는 사람에 게 메일을 보낼 수 없는 사용자를 위한 몇 가지 지원 옵션을 제공 합니다. 다음의 작업을 권장합니다.
 
 - 수신 하는 배달 못 함 보고서 (들)의 지침을 따릅니다.
 

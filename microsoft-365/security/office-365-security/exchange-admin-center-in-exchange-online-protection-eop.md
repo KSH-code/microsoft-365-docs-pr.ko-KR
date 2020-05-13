@@ -1,5 +1,5 @@
 ---
-title: Exchange Online Protection의 Exchange 관리 센터
+title: 독립 실행형 EOP의 Exchange 관리 센터
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,29 +15,39 @@ search.appverid:
 ms.assetid: 97921f0e-832f-40c7-b56d-414faede5191
 ms.collection:
 - M365-security-compliance
-description: EAC(Exchange 관리 센터)는 Microsoft EOP(Exchange Online Protection)의 웹 기반 관리 콘솔입니다.
-ms.openlocfilehash: 3b5fb014e56a9928d58abffd5e4c96e1eef463ad
-ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
+description: EOP (독립 실행형 Exchange Online Protection)의 웹 관리 인터페이스에 대해 알아봅니다.
+ms.openlocfilehash: 378754f2565604236f7ac33e471d1f991238d304
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42372496"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209743"
 ---
-# <a name="exchange-admin-center-in-exchange-online-protection"></a>Exchange Online Protection의 Exchange 관리 센터
+# <a name="exchange-admin-center-in-standalone-eop"></a>독립 실행형 EOP의 Exchange 관리 센터
 
-EAC(Exchange 관리 센터)는 Microsoft EOP(Exchange Online Protection)의 웹 기반 관리 콘솔입니다.
-
-이 항목의 Exchange Server 버전을 찾으십니까? [Exchange 관리 센터를](https://docs.microsoft.com/exchange/architecture/client-access/exchange-admin-center)참조 하십시오.
+EAC (Exchange 관리 센터)는 독립 실행형 EOP (Exchange Online Protection)에 대 한 웹 기반 관리 콘솔입니다.
 
 이 항목의 Exchange Online 버전을 찾으시나요? Exchange [Online의 exchange 관리 센터를](https://docs.microsoft.com/exchange/exchange-admin-center)참조 하세요.
 
-## <a name="accessing-the-eac"></a>EAC 액세스
+## <a name="open-the-eac-in-eop"></a>EOP에서 EAC 열기
 
-대부분의 경우 EOP 고객은 Microsoft 365 관리 센터를 통해 EAC에 액세스 합니다. **내 소식** 타일 옆에 있는 **관리** 타일의 드롭다운 메뉴에 EOP에 대한 링크가 있습니다. **관리** 타일을 클릭 하 고 드롭다운 메뉴에서 **Exchange Online Protection** 을 선택 하 여 EAC로 이동 합니다.
+독립 실행형 EOP 고객은 다음 방법을 사용 하 여 EAC에 액세스할 수 있습니다.
 
-You can also access the EAC sign in page directly via the following URL: `https://admin.protection.outlook.com/ecp/<companydomain>`. For example, `https://admin.protection.outlook.com/ecp/contoso.onmicrosoft.com`. After specifying your user credentials you will be taken directly into the EAC.
+- **Microsoft 365 관리 센터에서 다음을 수행 합니다**.
 
-## <a name="common-user-interface-elements-in-the-eac"></a>EAC의 공통 사용자 인터페이스 요소
+  1. 으로 이동 하 여 <https://admin.microsoft.com> **모두 표시**를 클릭 합니다.
+
+     ![Microsoft 365 관리 센터에서 모두 표시를 클릭 합니다.](../../media/m365-center-show-all.png)
+
+  2. **관리 센터** 섹션에서 **모든 관리 센터**를 클릭 합니다.
+
+     ![Microsoft 365 관리 센터에서 모든 관리 센터를 클릭 합니다.](../../media/m365-center-select-all-admin-centers.png)
+
+  3. **모든 관리 센터** 페이지에서 **Exchange Online Protection**을 클릭 합니다.
+
+- 로 직접 이동 `https://admin.protection.outlook.com/ecp/` 합니다.
+
+## <a name="common-user-interface-elements-in-the-eac-in-eop"></a>EOP의 EAC에 있는 일반적인 사용자 인터페이스 요소
 
 이 섹션에서는 EMC에 있는 사용자 인터페이스 요소에 대해 설명합니다.
 
@@ -47,15 +57,20 @@ You can also access the EAC sign in page directly via the following URL: `https:
 
 이 창은 EAC에서 수행할 대부분의 작업에 대한 첫 번째 탐색 수준으로, 기능 영역별로 구성됩니다.
 
-1. **받는 사람**: 내부 사용자와 외부 연락처를 볼 수 있습니다.
+- **받는 사람**:이 기능을 통해 그룹 및 외부 연락처를 볼 수 있습니다.
 
-2. **사용 권한**: 관리자 역할을 관리할 수 있습니다.
+- **사용 권한**: 관리자 역할을 관리할 수 있습니다.
 
-3. **준수 관리**:이 기능을 통해 관리자 역할 그룹 보고서와 같은 감사 로그 및 보고서를 찾을 수 있습니다.
+- **준수 관리**:이 기능을 통해 관리자 역할 그룹 보고서 및 관리자 감사 로그 보고서를 찾을 수 있습니다.
 
-4. **보호**:이 기능을 통해 조직의 맬웨어 방지 및 스팸 방지 보호 기능을 관리할 수 있을 뿐만 아니라 격리에서 메시지를 관리할 수도 있습니다.
+- **보호**:이 기능을 통해 맬웨어 방지 정책, 기본 연결 필터 정책 및 dkim을 관리할 수 있습니다.
 
-5. **메일 흐름**:이 기능을 통해 규칙, 허용 도메인 및 커넥터를 관리할 수 있을 뿐만 아니라 메시지 추적을 수행할 수 있습니다.
+  > [!NOTE]
+  > 맬웨어 방지 정책 및 보안 & 준수 센터의 기본 연결 필터 정책을 관리 해야 합니다. 자세한 내용은 [EOP에서 맬웨어 방지 정책 구성](configure-anti-malware-policies.md) 및 [EOP에서 연결 필터링 구성을](configure-the-connection-filter-policy.md)참조 하세요.
+
+- **메일 흐름**:이 기능을 통해 메일 흐름 규칙 (전송 규칙이 라고도 함), 허용 도메인 및 커넥터를 관리할 수 있을 뿐 아니라 메시지 추적을 실행할 수도 있습니다.
+
+- **하이브리드**:이 기능을 통해 [하이브리드 구성 마법사](https://docs.microsoft.com/Exchange/hybrid-configuration-wizard)를 실행할 수 있으며 [Exchange Online PowerShell 모듈](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell)을 설치할 수 있습니다.
 
 ### <a name="tabs"></a>탭
 
@@ -65,8 +80,9 @@ You can also access the EAC sign in page directly via the following URL: `https:
 
 대부분의 탭은 클릭하면 도구 모음이 표시됩니다. 도구 모음에는 특정 작업을 수행하는 아이콘이 있습니다. 다음 표에서는 아이콘과 그 작업에 대해 설명합니다.
 
+||||
+|---|---|---|
 |**아이콘**|**이름**|**작업**|
-|:-----|:-----|:-----|
 |![아이콘 추가](../../media/ITPro-EAC-AddIcon.gif)|추가, 새로 만들기|이 아이콘을 사용하면 새 개체를 만들 수 있습니다. 일부 아이콘에는 아래쪽 화살표가 있으며 이 화살표를 클릭하면 만들 수 있는 추가 개체가 표시됩니다.|
 |![편집 아이콘](../../media/ITPro-EAC-EditIcon.gif)|편집|이 아이콘을 사용하면 개체를 편집할 수 있습니다.|
 |![삭제 아이콘](../../media/ITPro-EAC-DeleteIcon.gif)|삭제|이 아이콘을 사용하면 개체를 삭제할 수 있습니다. 일부 삭제 아이콘에는 아래쪽 화살표가 있으며 이 화살표를 클릭하면 추가 옵션이 표시됩니다.|
@@ -75,6 +91,7 @@ You can also access the EAC sign in page directly via the following URL: `https:
 |![기타 옵션 아이콘](../../media/ITPro-EAC-MoreOptionsIcon.gif)|기타 옵션|이 아이콘을 사용하면 해당 탭의 개체에 대해 수행할 수 있는 기타 작업을 볼 수 있습니다. 예를 들어 **받는 사람 \> 사용자**에서 이 아이콘을 클릭하면 **고급 검색**을 수행할 수 있는 옵션이 표시됩니다.  |
 |![위쪽 화살표 아이콘](../../media/ITPro-EAC-UpArrowIcon.gif)![아래쪽 화살표 아이콘](../../media/ITPro-EAC-DownArrowIcon.gif)|위쪽 화살표와 아래쪽 화살표|이 아이콘을 사용하면 개체 우선 순위를 위나 아래로 이동할 수 있습니다.|
 |![아이콘 제거](../../media/ITPro-EAC-RemoveIcon.gif)|제거|이 아이콘을 사용하면 목록에서 개체를 제거할 수 있습니다.|
+|
 
 ### <a name="list-view"></a>목록 보기
 
@@ -88,21 +105,23 @@ You can also access the EAC sign in page directly via the following URL: `https:
 
 **내 소식** 타일을 통해 EAC에서 로그아웃하고 다른 사용자로 로그인할 수 있습니다. **도움말**![도움말 아이콘](../../media/ITPro-EAC-HelpIcon.gif) 드롭다운 메뉴에서 다음 작업을 수행할 수 있습니다.
 
-1. **도움말**: 온라인 ![도움말 콘텐츠](../../media/ITPro-EAC-HelpIcon.gif) 를 보려면 도움말 아이콘을 클릭 합니다.
+- **도움말**: ![ ](../../media/ITPro-EAC-HelpIcon.gif) 온라인 도움말 콘텐츠를 보려면 도움말 아이콘을 클릭 합니다.
 
-2. **사용 안 함 버블**: 도움말 버블에는 개체를 만들거나 편집할 때 필드에 대 한 상황에 맞는 도움말이 표시 됩니다. 풍선형 도움말을 끌 수 있으며, 풍선형 도움말을 사용하지 않도록 설정한 경우에는 켤 수 있습니다.
+- **사용자 의견**: 사용자 의견을 남겨 두세요.
 
-3. **저작권**: Exchange Online Protection에 대 한 저작권 표시를 보려면이 링크를 클릭 합니다.
+- **커뮤니티**: 커뮤니티 포럼에서 답변을 찾기 위한 질문을 게시 합니다.
 
-4. **개인 정보 보호**:를 클릭 하 여 Exchange Online Protection에 대 한 개인 정보 보호 정책을 읽습니다.
+- **사용 안 함 버블**: 도움말 버블에는 개체를 만들거나 편집할 때 필드에 대 한 상황에 맞는 도움말이 표시 됩니다. 풍선형 도움말을 끌 수 있으며, 풍선형 도움말을 사용하지 않도록 설정한 경우에는 켤 수 있습니다.
+
+- **명령 로깅 표시**: EAC에서 구성한 사항에 따라 해당 PowerShell 명령을 표시 하는 새 창이 열립니다.
 
 ## <a name="supported-browsers"></a>지원되는 브라우저
 
 최상의 EAC 사용 환경을 위해 항상 최신 브라우저, Office 클라이언트 및 앱을 사용하는 것이 좋습니다. 또한 소프트웨어 업데이트가 제공되면 이를 설치하는 것이 좋습니다. 서비스의 지원 되는 브라우저 및 시스템 요구 사항에 대 한 자세한 내용은 [Office의 시스템 요구 사항을](https://products.office.com/office-system-requirements)참조 하세요.
 
-## <a name="supported-languages-in-eop"></a>EOP에서 지원되는 언어
+## <a name="supported-languages"></a>지원되는 언어
 
-Exchange Online Protection에서 지원되고 사용할 수 있는 언어는 다음과 같습니다.
+다음은 독립 실행형 EOP에서 EAC에 대해 지원 되 고 사용할 수 있는 언어입니다.
 
 - 암하라어
 
@@ -227,5 +246,3 @@ Exchange Online Protection에서 지원되고 사용할 수 있는 언어는 다
 - 베트남어
 
 - 웨일스어
-
-

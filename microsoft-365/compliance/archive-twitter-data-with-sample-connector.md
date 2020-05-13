@@ -16,14 +16,14 @@ ms.collection: M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
 description: Twitter 데이터를 Microsoft 365로 가져오는 커넥터를 설정 하 여 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용할 수 있도록 합니다.
-ms.openlocfilehash: 5fb13b3a5eb79c09c2947292b793fe607dae247f
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: efc02dcf7b9c40fafedf230e4786f6f6494c27d6
+ms.sourcegitcommit: ab0a944159d9349fbc7adc2f51c7f881254d7782
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035130"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210584"
 ---
-# <a name="set-up-a-connector-to-archive-twitter-data"></a>Twitter 데이터를 보관할 커넥터 설정
+# <a name="set-up-a-connector-to-archive-twitter-data-preview"></a>Twitter 데이터를 보관 하는 연결선 설정 (미리 보기)
 
 Microsoft 365 준수 센터의 커넥터를 사용 하 여 Twitter에서 Microsoft 365로 데이터를 가져오고 보관 합니다. 커넥터를 설정 하 고 구성한 후에는 일정에 따라 조직의 Twitter 계정에 연결 하 고, 항목의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 Microsoft 365의 사서함으로 가져옵니다.
 
@@ -82,7 +82,7 @@ Twitter 커넥터 응용 프로그램에 대 한 소스 코드를 배포 하려�
 
 - tenantId: 1 단계에서 Azure Active Directory에 Twitter 앱을 만든 후 복사한 Microsoft 365 조직의 테 넌 트 ID입니다.
 
-이 단계를 완료 한 후에는 앱 서비스 URL (예: `https://twitterconnector.azurewebsites.net`)을 복사 해야 합니다. 이 URL을 사용 하 여 3 단계, 4 단계, 5 단계를 완료 해야 합니다.
+이 단계를 완료 한 후에는 앱 서비스 URL (예:)을 복사 해야 `https://twitterconnector.azurewebsites.net` 합니다. 이 URL을 사용 하 여 3 단계, 4 단계, 5 단계를 완료 해야 합니다.
 
 ## <a name="step-3-create-developer-app-on-twitter"></a>3 단계: Twitter에서 개발자 앱 만들기
 
@@ -128,6 +128,6 @@ Twitter 커넥터 응용 프로그램에 대 한 소스 코드를 배포 하려�
 
 단계별 지침에 따라이 단계를 완료 하는 동안 다음 정보를 제공 합니다 (단계 완료 후 텍스트 파일로 복사).
 
-- Azure app service URL (예: 2 단계에서 가져옴 `https://twitterconnector.azurewebsites.net`)
+- Azure app service URL (예: 2 단계에서 가져옴 `https://twitterconnector.azurewebsites.net` )
 
 - APISecretKey (2 단계에서 만든 것)

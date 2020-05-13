@@ -1,5 +1,5 @@
 ---
-title: 통신 준수 알림 조사 및 재구성
+title: 커뮤니케이션 규정 준수 알림 검사 및 수정
 description: Microsoft 365에서 통신 준수 알림을 조사 하 고 수정 합니다.
 f1.keywords:
 - NOCSH
@@ -18,14 +18,14 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: fb185239ee670c9fa4bd4add5bd36140db2f7706
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 3cef513d6b89634e16e0a0b4516f403cf1a794af
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42632859"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208400"
 ---
-# <a name="investigate-and-remediate-communication-compliance-alerts"></a>통신 준수 알림 조사 및 재구성
+# <a name="investigate-and-remediate-communication-compliance-alerts"></a>커뮤니케이션 규정 준수 알림 검사 및 수정
 
 통신 준수 정책을 구성한 후에는 Microsoft 365 준수 센터에서 정책 조건과 일치 하는 메시지 문제에 대 한 알림을 수신 하기 시작 합니다. 워크플로 지침에 따라 경고 문제를 조사 하 고 수정 합니다.
 
@@ -33,14 +33,14 @@ ms.locfileid: "42632859"
 
 정책에서 감지한 문제를 조사 하는 첫 번째 단계는 Microsoft 365 준수 센터에서 생성 된 경고를 검토 하는 것입니다. 알림 그룹을 보는 방법에 따라 준수 센터에 몇 가지 영역이 있으며, 알림을 신속 하 게 조사 하는 데 도움이 됩니다.
 
-- **통신 준수 홈 페이지**: Microsoft 365 조직의 관리자 계정 [https://compliance.microsoft.com](https://compliance.microsoft.com) 에 대 한 자격 증명을 사용 하 여에 로그인 할 때 통신 준수 홈 페이지를 표시 하려면 **통신 적합성** > **개요** 를 선택 합니다. 여기에는 다음이 표시 됩니다.
+- **통신 준수 홈 페이지**: [https://compliance.microsoft.com](https://compliance.microsoft.com) Microsoft 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여에 로그인 할 때 통신 준수 홈 페이지를 표시 하려면 **통신 적합성**  >  **개요** 를 선택 합니다. 여기에는 다음이 표시 됩니다.
     - 검토가 필요한 경고가 높은 심각도로 나열 됩니다. 경고를 선택 하 여 알림 세부 정보 페이지를 시작 하 고 업데이트 관리 작업을 시작 합니다.
     - 정책 이름별로 나열 된 최근 정책 일치 항목
     - 확인 된 항목은 정책 이름별로 나열 됩니다.
     - 정책 이름별로 나열 된 에스컬레이션
     - 대부분의 정책이 일치 하는 사용자는 가장 적게 일치 하는 항목에 나열 됩니다.
-- **알림 탭**: **통신 준수** > **경고** 로 이동 하 여 일치 하는 통신 준수 정책에 따라 그룹화 된 알림을 표시 합니다. 이 보기를 사용 하면 심각도 별로 순서가 지정 된 대부분의 알림을 생성 하는 통신 준수 정책을 빠르게 확인할 수 있습니다.  수정 작업을 시작 하려면 정책을 확장 하 여 특정 알림을 선택 하 고 알림 세부 정보 페이지를 시작 합니다.
-- **정책 탭**: Microsoft 365 조 직에 대해 구성 된 통신 준수 정책을 표시 하려면 **통신 준수** > **정책** 으로 이동 합니다. 나열 된 각 정책에는 검토가 필요한 알림의 수가 포함 됩니다. 정책을 선택 하면 해당 정책에 대 한 일치 하는 모든 보류 중인 알림이 표시 되 고, 정책 세부 정보 페이지를 시작할 특정 알림을 선택 하 고, 재구성 작업을 시작할 수 있습니다.
+- **알림 탭**: **통신 준수**  >  **경고** 로 이동 하 여 정책 일치 별로 그룹화 된 알림의 마지막 30 일을 표시 합니다. 이 보기를 사용 하면 심각도 별로 순서가 지정 된 대부분의 알림을 생성 하는 통신 준수 정책을 빠르게 확인할 수 있습니다.  수정 작업을 시작 하려면 정책을 확장 하 여 특정 알림을 선택 하 고 알림 세부 정보 페이지를 시작 합니다.
+- **정책 탭**: **Communication compliance**  >  Microsoft 365 조 직에 대해 구성 된 통신 준수 정책을 표시 하려면 통신 준수**정책** 으로 이동 합니다. 나열 된 각 정책에는 검토가 필요한 알림의 수가 포함 됩니다. 정책을 선택 하면 해당 정책에 대 한 일치 하는 모든 보류 중인 알림이 표시 되 고, 정책 세부 정보 페이지를 시작할 특정 알림을 선택 하 고, 재구성 작업을 시작할 수 있습니다.
 
 ### <a name="using-filters"></a>필터 사용
 
@@ -50,7 +50,7 @@ ms.locfileid: "42632859"
 
 #### <a name="to-configure-a-filter"></a>필터를 구성 하려면
 
-1. Microsoft 365 [https://compliance.microsoft.com](https://compliance.microsoft.com) 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
+1. [https://compliance.microsoft.com](https://compliance.microsoft.com)Microsoft 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
 
 2. Microsoft 365 준수 센터에서 **통신 준수**로 이동 합니다.
 
@@ -74,7 +74,7 @@ ms.locfileid: "42632859"
 
 #### <a name="to-remediate-duplicates"></a>중복 항목을 수정 하려면
 
-1. Microsoft 365 [https://compliance.microsoft.com](https://compliance.microsoft.com) 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
+1. [https://compliance.microsoft.com](https://compliance.microsoft.com)Microsoft 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
 
 2. Microsoft 365 준수 센터에서 **통신 준수**로 이동 합니다.
 

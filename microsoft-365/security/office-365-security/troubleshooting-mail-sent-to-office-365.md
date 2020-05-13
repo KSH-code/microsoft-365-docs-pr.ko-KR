@@ -18,50 +18,32 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 microsoft 365 고객에 게 대량 메일을 보내기 위한 모범 사례 & Microsoft 365의 받은 편지함에 전자 메일을 보내는 문제에 대 한 문제 해결 정보를 제공 합니다.
-ms.openlocfilehash: 849707ee8b703f13ac12ecb414a8ed9ea6421704
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 0d9c1646aa7491b3da458c7cb0ddeb908873153a
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036743"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208600"
 ---
-# <a name="troubleshooting-mail-sent-to-office-365"></a>Office 365로 전송한 문제 해결 메일
+# <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Microsoft 365로 전송 되는 메일 문제 해결
 
 이 문서에서는 Microsoft 365의 받은 편지함에 전자 메일을 보내려고 할 때 문제가 발생 하는 보낸 사람에 대 한 문제 해결 정보를 제공 하 고 고객에 게 대량으로 메일을 보내는 데 유용한
 
-## <a name="troubleshooting-common-problems-with-mail-delivery-to-office-365"></a>Office 365에 대 한 메일 배달과 관련 된 일반적인 문제 해결
+## <a name="are-you-managing-your-ip-and-domains-sending-reputation"></a>IP 및 도메인의 전송 신뢰도를 관리 하 고 있나요?
 
-일반적으로 발생 하는 몇 가지 문제 중 하나를 선택 합니다.
+EOP 필터링 기술은 Microsoft 365에 대 한 스팸 방지 보호 기능 뿐 아니라 Exchange Server와 같은 다른 Microsoft 제품을 제공 하도록 설계 되었습니다. 또한 SPF, DKIM 및 DMARC을 활용 합니다. 전자 메일을 보내는 도메인에 대해 권한이 부여 되었는지 확인 하 여 스푸핑 및 피싱 문제를 해결 하는 데 도움이 되는 전자 메일 인증 기술입니다. EOP 필터링은 보내는 IP, 도메인, 인증, 목록 정확성, 불만 율, 콘텐츠 등에 관련 된 여러 요인의 영향을 받습니다. 이러한 방법 중 하나는 보낸 사람의 신뢰도를 추진 하는 보안 주체 요소와 전자 메일을 배달 하는 기능은 정크 메일 불만 률입니다.
 
-- [IP 및 도메인의 전송 신뢰도를 관리 하 고 있나요?](#are-you-managing-your-ip-and-domains-sending-reputation)
-
-- [새 IP 주소에서 전자 메일을 보내시겠습니까?](#are-you-sending-email-from-new-ip-addresses)
-
-- [DNS가 올바르게 설정 되어 있는지 확인](#confirm-that-your-dns-is-set-up-correctly)
-
-- [사용자를 라우팅할 수 없는 IP로 알리지 않도록 합니다.](#ensure-that-you-do-not-advertise-yourself-as-a-non-routable-ip)
-
-- [Office 365에서 사용자에 게 전자 메일을 보낼 때 배달 못 함 보고서 (NDR)를 받은 경우](#you-received-a-non-delivery-report-ndr-when-sending-email-to-a-user-in-office-365)
-
-- [EOP의 받는 사람 정크 폴더에 있는 내 전자 메일 마법사로 돌아갑니다](#my-email-landed-in-the-recipients-junk-folder-in-eop)
-
-- [내 IP 주소의 트래픽이 EOP에 의해 제한 됨](#traffic-from-my-ip-address-is-throttled-by-eop)
-
-### <a name="are-you-managing-your-ip-and-domains-sending-reputation"></a>IP 및 도메인의 전송 신뢰도를 관리 하 고 있나요?
-
-EOP 필터링 기술은 Microsoft 365에 대 한 스팸 방지 보호 기능 뿐 아니라 Exchange Server, Microsoft Office Outlook 및 Windows Live Mail과 같은 다른 Microsoft 제품을 제공 하도록 설계 되었습니다. 또한 SPF, DKIM 및 DMARC을 활용 합니다. 전자 메일을 보내는 도메인에 대해 권한이 부여 되었는지 확인 하 여 스푸핑 및 피싱 문제를 해결 하는 데 도움이 되는 전자 메일 인증 기술입니다. EOP 필터링은 보내는 IP, 도메인, 인증, 목록 정확성, 불만 율, 콘텐츠 등에 관련 된 여러 요인의 영향을 받습니다. 이러한 방법 중 하나는 보낸 사람의 신뢰도를 추진 하는 보안 주체 요소와 전자 메일을 배달 하는 기능은 정크 메일 불만 률입니다.
-
-### <a name="are-you-sending-email-from-new-ip-addresses"></a>새 IP 주소에서 전자 메일을 보내시겠습니까?
+## <a name="are-you-sending-email-from-new-ip-addresses"></a>새 IP 주소에서 전자 메일을 보내시겠습니까?
 
 전자 메일을 보내는 데 이전에 사용 되지 않은 IP 주소는 일반적으로 시스템에 신뢰가 구축 되어 있지 않습니다. 따라서 새 Ip 로부터의 전자 메일에 배달 문제가 발생할 가능성이 높습니다. IP가 스팸을 보내지 않는 신뢰도를 구축한 후에는 일반적으로 EOP에서 더 나은 전자 메일 배달 환경을 사용할 수 있습니다.
 
 기존 SPF 레코드에서 인증 된 도메인에 대해 추가 되는 새 Ip는 일반적으로 도메인의 전송 신뢰도 중 일부를 상속 하는 이점을 추가 합니다. 도메인에 신뢰도가 높은 새 Ip가 있으면 더 빠른 속도로 진입 하는 데 시간이 걸릴 수 있습니다. 새 IP는 볼륨, 목록 정확성 및 정크 메일 불만 율에 따라 몇 주 이내에 완전히 ramped 될 수 있습니다.
 
-### <a name="confirm-that-your-dns-is-set-up-correctly"></a>DNS가 올바르게 설정 되어 있는지 확인
+## <a name="confirm-that-your-dns-is-set-up-correctly"></a>DNS가 올바르게 설정 되어 있는지 확인
 
 메일 라우팅에 필요한 MX 레코드를 포함 하 여 DNS 레코드를 만들고 유지 관리 하는 방법에 대 한 지침을 보려면 DNS 호스팅 공급자에 게 문의 해야 합니다.
 
-### <a name="ensure-that-you-do-not-advertise-yourself-as-a-non-routable-ip"></a>사용자를 라우팅할 수 없는 IP로 알리지 않도록 합니다.
+## <a name="ensure-that-you-do-not-advertise-yourself-as-a-non-routable-ip"></a>사용자를 라우팅할 수 없는 IP로 알리지 않도록 합니다.
 
 역방향 DNS 조회에 실패 한 보낸 사람의 전자 메일은 수락 하지 못할 수 있습니다. 경우에 따라 합법적인 보낸 사람이 EOP에 대 한 연결을 열려고 시도할 때 인터넷 라우팅 불가능 IP로 자신을 잘못 알리는 경우도 있습니다. 개인 (라우팅 불가능) 네트워킹에 대해 예약 된 IP 주소는 다음과 같습니다.
 
@@ -71,38 +53,23 @@ EOP 필터링 기술은 Microsoft 365에 대 한 스팸 방지 보호 기능 뿐
 
 - 172.16.0.0/11 (또는 172.16.0.0-172.31.255.255)
 
-### <a name="you-received-a-non-delivery-report-ndr-when-sending-email-to-a-user-in-office-365"></a>Office 365에서 사용자에 게 전자 메일을 보낼 때 배달 못 함 보고서 (NDR)를 받은 경우
+## <a name="you-received-a-non-delivery-report-ndr-when-sending-email-to-a-user-in-office-365"></a>Office 365에서 사용자에 게 전자 메일을 보낼 때 배달 못 함 보고서 (NDR)를 받은 경우
 
 Microsoft가 보낸 사람의 IP 주소를 차단 했거나, 사용자 계정이 이전 스팸 활동으로 인해 금지 된 보낸 사람으로 식별 되었기 때문에 일부 배달 문제가 발생 합니다. 오류가 발생 한 NDR을 받은 것으로 생각 되 면 먼저 NDR 메시지의 지침을 따라 문제를 해결 합니다.
 
 수신 된 오류에 대 한 자세한 내용은 [Exchange Online의 전자 메일 배달 못 함 보고서](https://docs.microsoft.com/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)의 오류 코드 목록을 참조 하십시오.
 
- 예를 들어 다음 NDR이 수신 되는 경우 보내는 IP 주소가 Microsoft에 의해 차단 되었음을 나타냅니다.
+ 예를 들어 다음과 같은 NDR이 수신 되 면이는 보내는 IP 주소가 Microsoft에 의해 차단 되었음을 나타냅니다.
 
  `550 5.7.606-649 Access denied, banned sending IP [x.x.x.x]; To request removal from this list please visit https://sender.office.com/ and follow the directions.`
 
 이 목록에서 제거를 요청 하려면 [목록 해제 포털을 사용 하 여 수신 거부 목록에서 본인을 제거할](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md)수 있습니다.
 
-### <a name="my-email-landed-in-the-recipients-junk-folder-in-eop"></a>EOP의 받는 사람 정크 폴더에 있는 내 전자 메일 마법사로 돌아갑니다
+## <a name="my-email-landed-in-the-recipients-junk-email-folder"></a>받는 사람의 정크 메일 폴더에 있는 내 전자 메일 마법사로 돌아갑니다
 
-메시지가 EOP의 스팸으로 잘못 식별 된 경우 받는 사람과 협력 하 여 메시지를 평가 하 고 분석할 Microsoft 스팸 분석 팀에 게이 가양성 메시지를 제출할 수 있습니다. 분석 결과에 따라 메시지 통과를 허용하도록 서비스 전체적으로 스팸 콘텐츠 필터 규칙이 조정될 수 있습니다. 전자 메일을 사용 하 여 스팸으로 분류 되어서는 안 되는 메시지를 Microsoft로 전송 합니다. 이 경우 다음 절차의 단계를 수행해야 합니다.
+메시지가 EOP의 스팸으로 잘못 식별 된 경우 받는 사람과 협력 하 여 메시지를 평가 하 고 분석할 Microsoft 스팸 분석 팀에 게이 가양성 메시지를 제출할 수 있습니다. 자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
 
-### <a name="to-use-email-to-submit-false-positive-messages-to-the-microsoft-spam-analysis-team"></a>전자 메일을 사용 하 여 Microsoft 스팸 분석 팀에 허위 긍정 메시지를 전송 하려면
-
-1. 전송 하려는 메시지를 스팸이 아닌 것으로 저장 합니다.
-
-2. 비어 있는 새 메시지를 작성하여 스팸이 아니라는 메시지를 첨부합니다.
-
-    필요한 경우 스팸이 아닌 메시지를 여러 개 첨부할 수 있습니다.
-
-3. 원본 메시지의 제목 줄을 복사하여 새 메시지의 제목 줄에 붙여 넣습니다.
-
-    > [!IMPORTANT]
-    > 새 메시지의 본문은 비워 둡니다.
-
-4. 새 메시지를 [not_junk@office365.microsoft.com](mailto:not_junk@office365.microsoft.com)으로 보냅니다.
-
-### <a name="traffic-from-my-ip-address-is-throttled-by-eop"></a>내 IP 주소의 트래픽이 EOP에 의해 제한 됨
+## <a name="traffic-from-my-ip-address-is-throttled-by-eop"></a>내 IP 주소의 트래픽이 EOP에 의해 제한 됨
 
 IP 주소가 EOP에 의해 제한 됨을 나타내는 EOP에서 NDR을 수신 하는 경우 다음과 같은 작업을 수행 합니다.
 
@@ -110,7 +77,7 @@ IP 주소가 EOP에 의해 제한 됨을 나타내는 EOP에서 NDR을 수신 �
 
 IP 주소에서 의심 스러운 작업이 검색 되었으며 더 이상 평가 되는 동안 일시적으로 제한 되었기 때문에 NDR을 받았습니다. 평가를 통해 suspicion를 지우면이 제한이 곧 리프트 됩니다.
 
-### <a name="i-cant-receive-email-from-senders-in-office-365"></a>Office 365의 보낸 사람 으로부터 전자 메일을 받을 수 없음
+## <a name="i-cant-receive-email-from-senders-in-microsoft-365"></a>Microsoft 365의 보낸 사람 으로부터 전자 메일을 받을 수 없음
 
  사용자가 보낸 메시지를 수신 하려면 네트워크에서 EOP에 사용 하는 IP 주소에서 연결을 허용 하는지 확인 합니다. 자세한 내용은 [Exchange Online PROTECTION IP 주소](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)를 참조 하세요.
 
@@ -118,7 +85,7 @@ IP 주소에서 의심 스러운 작업이 검색 되었으며 더 이상 평가
 
 Microsoft 365 사용자에 게 대량 전자 메일 캠페인을 자주 수행 하 고 전자 메일이 안전한 시간 및 시기 적절 하 게 도착 하는지 확인 하려면이 섹션의 팁을 따릅니다.
 
-### <a name="ensure-that-the-from-name-reflects-who-is-sending-the-message"></a>보낸 사람: 이름이 메시지를 보내는 사용자를 반영 하는지 확인 합니다.
+### <a name="ensure-that-the-from-name-reflects-who-is-sending-the-message"></a>보낸 사람 이름에 메시지를 보내는 사람이 반영 되어 있는지 확인 합니다.
 
 제목은 메시지의 내용에 대 한 간략 한 요약으로, 메시지 본문은 명확 하 고 succinctly 제공, 서비스 또는 제품에 대 한 정보를 나타내야 합니다. 예시:
 

@@ -27,12 +27,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: 파일 저장 및 공유를 위해 OneDrive 및 팀 사이트를 사용 하는 방법을 알아봅니다.
-ms.openlocfilehash: 98fc168e42fea50ae21914d5f44e403ae459c1d9
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 7eb9ece0408fc495938c319390267790b01a2b89
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165220"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208189"
 ---
 # <a name="set-up-file-storage-and-sharing"></a>파일 저장 및 공유 설정
 
@@ -144,7 +144,7 @@ OneDrive 및 팀 사이트를 함께 사용할 때 각 위치에 저장할 항�
 
     ![이 화면에서 로컬 폴더 변경](../../media/6395485a-e729-4a9a-8e7d-b35e662435da.png)
   
-6. 팀 사이트의 파일이 조직 이름 아래에 있는 파일 탐색기의 왼쪽 창에 표시 됩니다. OneDrive의 파일이 "OneDrive \<이름\>" 아래에 표시 됩니다.
+6. 팀 사이트의 파일이 조직 이름 아래에 있는 파일 탐색기의 왼쪽 창에 표시 됩니다. OneDrive의 파일이 "OneDrive \< 이름" 아래에 표시 됩니다. \>
 
     ![로컬 폴더에서 동기화 된 항목 확인](../../media/93e2ca9f-4b5b-4930-a94d-ebc5b95aca84.png)
   
@@ -185,7 +185,7 @@ Microsoft 365에서 사용자에 게 타사 저장소를 사용 하도록 설정
   
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">관리 센터</a>에 로그인 합니다.
 
-2. **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2118715" target="_blank">설정</a> 페이지로 이동 합니다.
+2. **Settings** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2118715" target="_blank">**조직 설정**</a> 설정 페이지로 이동 합니다.
 
 3. **서비스** 탭에서 **웹에서 Office**를 선택 합니다.
 

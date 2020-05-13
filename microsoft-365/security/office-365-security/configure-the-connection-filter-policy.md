@@ -17,25 +17,25 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 전자 메일 서버의 메일을 허용 하거나 차단 하도록 Office 365에서 연결 필터링을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 0848e9a59df8c312891add29d14eec2dfed420df
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: 관리자는 EOP (Exchange Online Protection)에서 연결 필터링을 구성 하 여 전자 메일 서버에서 받은 메일을 허용 하거나 차단 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 9b4f203f11e72b4459c9fa35d3e4fdca544cffbb
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035085"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209586"
 ---
 # <a name="configure-connection-filtering"></a>연결 필터링 구성
 
 Exchange online 사서함이 없는 Microsoft 365 고객이 나 독립 실행형 EOP (Exchange Online Protection) 고객에 게는 EOP (특히 기본 연결 필터 정책)에서 연결 필터링을 사용 하 여 해당 IP 주소로 양호한 지 나 잘못 된 원본 전자 메일 서버를 식별 합니다. 기본 연결 필터 정책의 주요 구성 요소는 다음과 같습니다.
 
-- **Ip 허용 목록**: ip 주소 또는 ip 주소 범위로 지정한 원본 전자 메일 서버에서 들어오는 모든 메시지에 대해 스팸 필터링을 건너뜁니다. 이러한 원본의 메시지에 대 한 스팸 필터링이 계속 발생할 수 있는 시나리오는이 항목 뒷부분의 [IP 허용 목록에 있는 원본의 메시지가 계속 필터링 되는 시나리오](#scenarios-where-messages-from-sources-in-the-ip-allow-list-are-still-filtered) 를 참조 하십시오. IP 허용 목록을 전반적인 수신 허용-보낸 사람 전략에 맞게 조정 하는 방법에 대 한 자세한 내용은 [Office 365에서 안전한 보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조 하세요.
+- **Ip 허용 목록**: ip 주소 또는 ip 주소 범위로 지정한 원본 전자 메일 서버에서 들어오는 모든 메시지에 대해 스팸 필터링을 건너뜁니다. 이러한 원본의 메시지에 대 한 스팸 필터링이 계속 발생할 수 있는 시나리오는이 항목 뒷부분의 [IP 허용 목록에 있는 원본의 메시지가 계속 필터링 되는 시나리오](#scenarios-where-messages-from-sources-in-the-ip-allow-list-are-still-filtered) 를 참조 하십시오. IP 허용 목록을 전반적인 수신 허용-보낸 사람 전략에 맞게 조정 하는 방법에 대 한 자세한 내용은 [EOP의 수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조 하십시오.
 
-- **Ip 차단 목록**: ip 주소 또는 ip 주소 범위로 지정한 원본 전자 메일 서버에서 들어오는 모든 메시지를 차단 합니다. 들어오는 메시지가 거부 되 고 스팸으로 표시 되지 않으며 추가 필터링이 수행 되지 않습니다. IP 차단 목록이 전체 차단 된 보낸 사람 전략에 맞게 조정 되는 방식에 대 한 자세한 내용은 [Create Block lists In Office 365](create-block-sender-lists-in-office-365.md)을 참조 하십시오.
+- **Ip 차단 목록**: ip 주소 또는 ip 주소 범위로 지정한 원본 전자 메일 서버에서 들어오는 모든 메시지를 차단 합니다. 들어오는 메시지가 거부 되 고 스팸으로 표시 되지 않으며 추가 필터링이 수행 되지 않습니다. IP 차단 목록이 전체 차단 된 보낸 사람 전략에 맞게 조정 되는 방식에 대 한 자세한 내용은 [EOP에서 수신 거부 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조 하십시오.
 
 - **수신 허용 목록**: *안전한 목록은* Microsoft 데이터 센터의 동적 허용 목록으로, 고객 구성을 필요로 하지 않습니다. Microsoft는 이러한 신뢰할 수 있는 전자 메일 원본을 구독에서 다양 한 타사 목록으로 식별 합니다. 수신 허용 목록을 사용 하거나 사용 하지 않도록 설정할 수 있습니다. 수신 허용 목록에는 원본 전자 메일 서버를 구성할 수 없습니다. 수신 허용 목록에 있는 전자 메일 서버에서 들어오는 메시지에 대 한 스팸 필터링을 건너뜁니다.
 
-이 항목에서는 보안 & 준수 센터 또는 PowerShell (Microsoft 365 고객을 위한 Exchange Online PowerShell)에서 기본 연결 필터 정책을 구성 하는 방법에 대해 설명 합니다. 독립 실행형 EOP 고객을 위한 Exchange Online Protection PowerShell EOP가 연결 필터링을 사용 하는 방법에 대 한 자세한 내용은 [스팸 방지 보호](anti-spam-protection.md)를 참조 하십시오.
+이 항목에서는 보안 & 준수 센터 또는 PowerShell (exchange online 사서함이 없는 조직에 대 한 사서함이 있는 Microsoft 365 조 직의 exchange online PowerShell)에서 기본 연결 필터 정책을 구성 하는 방법에 대해 설명 합니다. EOP가 연결 필터링을 사용 하는 방법에 대 한 자세한 내용은 [스팸 방지 보호](anti-spam-protection.md)를 참조 하십시오.
 
 > [!NOTE]
 > IP 허용 목록, 안전한 목록 및 IP 차단 목록은 조직의 전자 메일을 허용 하거나 차단 하는 전체 전략의 한 부분입니다. 자세한 내용은 [수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md) 및 [차단 된 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조 하세요.
@@ -58,7 +58,7 @@ Exchange online 사서함이 없는 Microsoft 365 고객이 나 독립 실행형
 
 1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **스팸 방지**로 이동 합니다.
 
-2. **스팸 방지 설정** 페이지에서 확장 아이콘 ![](../../media/scc-expand-icon.png)을 클릭 하 여 **연결 필터 정책을** 확장 한 다음 **정책 편집**을 클릭 합니다.
+2. **스팸 방지 설정** 페이지에서 확장 아이콘을 클릭 하 여 **연결 필터 정책을** 확장 한 ![ ](../../media/scc-expand-icon.png) 다음 **정책 편집**을 클릭 합니다.
 
 3. **기본** 플라이 아웃이 나타나면 다음 설정을 구성 합니다.
 
@@ -72,11 +72,11 @@ Exchange online 사서함이 없는 Microsoft 365 고객이 나 독립 실행형
 
      - CIDR IP (예: 192.168.0.1/25) 유효한 네트워크 마스크 값은/24에서/32 까지입니다. CIDR IP 마스크 값/1에서/23에 대 한 스팸 필터링을 건너뛰려면이 항목의 뒷부분에 나오는 [사용 가능한 범위 외부의 CIDR ip에 대 한 스팸 필터링 건너뛰기](#skip-spam-filtering-for-a-cidr-ip-outside-of-the-available-range) 섹션을 참조 하십시오.
 
-     IP 주소 또는 주소 범위를 추가 하려면 ![추가](../../media/ITPro-EAC-AddIcon.png)아이콘 **추가를 클릭 합니다** . 항목을 제거 하려면 **허용 된 IP 주소** 에서 항목을 선택 하 고 ![](../../media/scc-remove-icon.png)제거 **제거를 클릭 합니다** . 작업을 마쳤으면 **저장**을 클릭합니다.
+     IP 주소 또는 주소 범위를 추가 하려면 추가 아이콘 **추가를 클릭** ![ ](../../media/ITPro-EAC-AddIcon.png) 합니다. 항목을 제거 하려면 **허용 된 IP 주소** 에서 항목을 선택 하 고 제거 **제거를 클릭** ![ ](../../media/scc-remove-icon.png) 합니다. 작업을 마쳤으면 **저장**을 클릭합니다.
 
    - **IP 차단 목록**: **편집**을 클릭 합니다. **Ip 차단 목록** 플라이 아웃이 나타나면 **ip 허용 목록** 설정에 설명 된 대로 **주소 또는 주소 범위** 상자에 단일 IP, ip 범위 또는 CIDR IP를 입력 합니다.
 
-     IP 주소 또는 주소 범위를 추가 하려면 ![추가](../../media/ITPro-EAC-AddIcon.png)아이콘 **추가를 클릭 합니다** . 항목을 제거 하려면 **차단 된 IP 주소** 에서 항목을 선택 하 고 ![](../../media/scc-remove-icon.png)제거 **제거를 클릭 합니다** . 작업을 마쳤으면 **저장**을 클릭합니다.
+     IP 주소 또는 주소 범위를 추가 하려면 추가 아이콘 **추가를 클릭** ![ ](../../media/ITPro-EAC-AddIcon.png) 합니다. 항목을 제거 하려면 **차단 된 IP 주소** 에서 항목을 선택 하 고 제거 **제거를 클릭** ![ ](../../media/scc-remove-icon.png) 합니다. 작업을 마쳤으면 **저장**을 클릭합니다.
 
    - **수신 허용 목록 설정**: 수신 허용 목록을 사용 하거나 사용 하지 않도록 설정 하 여 스팸 필터링을 건너뛸 알려진 적절 한 보낸 사람을 식별 합니다.
 
@@ -108,11 +108,11 @@ Set-HostedConnectionFilterPolicy -Identity Default [-AdminDisplayName <"Optional
 
   - CIDR IP (예: 192.168.0.1/25) 유효한 네트워크 마스크 값은/24에서/32 까지입니다.
 
-- 지정한 값으로 기존 항목을 *덮어쓰려면* 다음 구문을 사용 `IPAddressOrRange1,IPAddressOrRange2,...,IPAddressOrRangeN`합니다.
+- 지정한 값으로 기존 항목을 *덮어쓰려면* 다음 구문을 사용 `IPAddressOrRange1,IPAddressOrRange2,...,IPAddressOrRangeN` 합니다.
 
-- 기존의 다른 항목에 영향을 주지 않고 IP 주소 또는 주소 범위를 *추가 하거나 제거* 하려면 다음 구문을 `@{Add="IPAddressOrRange1","IPAddressOrRange2",...,"IPAddressOrRangeN";Remove="IPAddressOrRange3","IPAddressOrRange4",...,"IPAddressOrRangeN"}`사용 합니다.
+- 기존의 다른 항목에 영향을 주지 않고 IP 주소 또는 주소 범위를 *추가 하거나 제거* 하려면 다음 구문을 사용 `@{Add="IPAddressOrRange1","IPAddressOrRange2",...,"IPAddressOrRangeN";Remove="IPAddressOrRange3","IPAddressOrRange4",...,"IPAddressOrRangeN"}` 합니다.
 
-- IP 허용 목록 또는 IP 차단 목록을 비우려면이 값 `$null`을 사용 합니다.
+- IP 허용 목록 또는 IP 차단 목록을 비우려면이 값을 사용 `$null` 합니다.
 
 이 예에서는 지정 된 IP 주소 및 주소 범위를 사용 하 여 IP 허용 목록과 IP 차단 목록을 구성 합니다.
 
@@ -132,7 +132,7 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2
 
 기본 연결 필터 정책이 성공적으로 수정 되었는지 확인 하려면 다음 단계 중 하나를 수행 합니다.
 
-- 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **스팸** \> 방지에서 **연결 필터 정책 (항상 켜기**) 옆에 있는 드롭다운을 클릭 하 고 설정을 확인 합니다.
+- 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **스팸 방지** 에서 \> **연결 필터 정책 (항상 켜기**) 옆에 있는 드롭다운을 클릭 하 고 설정을 확인 합니다.
 
 - Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection PowerShell에서 다음 명령을 실행 하 고 설정을 확인 합니다.
 
@@ -152,9 +152,9 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2
 
 잠재적인 문제를 완벽 하 게 알게 되었으므로 다음 설정 (최소)을 사용 하 여 메일 흐름 규칙을 만들어 이러한 IP 주소의 메시지가 스팸 필터링을 건너뛰도록 할 수 있습니다.
 
-- 규칙 조건: \> **보낸 사람** \> **ip 주소가 이러한 범위에 있거나 정확 하 게 일치 하** \> 는 **경우이 규칙을 적용** 합니다 (/1과/23 사이의 네트워크 마스크를 사용 하 여 CIDR ip 입력).
+- 규칙 조건: **Apply this rule if** \> **보낸 사람** \> **ip 주소가 이러한 범위에 있거나 정확 하 게 일치 하** 는 경우이 규칙을 적용 합니다 \> (/1과/23 사이의 네트워크 마스크를 사용 하 여 CIDR ip 입력).
 
-- 규칙 동작: **메시지 속성** \> 수정 **SCL (스팸** \> 지 수) 사용 **안 함 스팸 필터링**을 설정 합니다.
+- 규칙 동작: **메시지 속성 수정** \> **SCL (스팸** 지 수) 사용 \> **안 함 스팸 필터링**을 설정 합니다.
 
 규칙을 감사 하 고 규칙을 테스트 하며 특정 기간 동안 규칙을 활성화 하 고 기타 옵션을 선택할 수 있습니다. 옵션을 적용하기 전에 규칙을 테스트하는 것이 좋습니다. 자세한 내용은 [Exchange Online에서 메일 흐름 규칙 관리](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)를 참조 하세요.
 
@@ -168,9 +168,9 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2
 
 2. 다음 설정을 사용 하 여 메일 흐름 규칙을 구성 합니다 (최소한).
 
-   - 규칙 조건: \> **보낸 사람** \> **IP 주소가 이러한 범위에 있거나,** \> 이전 단계에서 ip 허용 목록에 추가한 것과 같은 ip 주소 또는 주소 범위에 있는 192.168.1.25와 정확 하 게 일치 하는 **경우이 규칙을 적용** 합니다.
+   - 규칙 조건: **Apply this rule if** \> **보낸 사람** \> **IP 주소가 이러한 범위에 있거나,** \> 이전 단계에서 ip 허용 목록에 추가한 것과 같은 ip 주소 또는 주소 범위에 있는 192.168.1.25와 정확 하 게 일치 하는 경우이 규칙을 적용 합니다.
 
-   - 규칙 동작: **메시지 속성** \> 수정 **SCL (스팸 지 수)** \> **0**을 설정 합니다.
+   - 규칙 동작: **메시지 속성 수정** \> **SCL (스팸 지 수) 0을 설정** 합니다 \> **0**.
 
    - 규칙 예외: **보낸 사람** \> **도메인이** \> fabrikam.com (스팸 필터링을 건너뛰도록 하려는 도메인)입니다.
 
@@ -184,12 +184,12 @@ IP 허용 목록에 있는 전자 메일 서버의 메시지는 여전히 다음
 
 이러한 시나리오 중 하나에 해당 하는 경우 다음 설정을 사용 하 여 메일 흐름 규칙을 만들어 문제가 발생 한 IP 주소의 메시지가 스팸 필터링을 건너뛰도록 할 수 있습니다.
 
-- 규칙 조건: \> **보낸 사람** \> **ip 주소가 이러한 범위에 있거나 정확히 일치** \> 하는 경우 (IP 주소 또는 주소) **이 규칙을 적용** 합니다.
+- 규칙 조건: **Apply this rule if** \> **보낸 사람** \> **ip 주소가 이러한 범위에 있거나 정확히 일치** 하는 경우 \> (IP 주소 또는 주소)이 규칙을 적용 합니다.
 
-- 규칙 동작: **메시지 속성** \> 수정 **SCL (스팸** \> 지 수) 사용 **안 함 스팸 필터링**을 설정 합니다.
+- 규칙 동작: **메시지 속성 수정** \> **SCL (스팸** 지 수) 사용 \> **안 함 스팸 필터링**을 설정 합니다.
 
-## <a name="new-to-office-365"></a>Office 365의 새로운 기능
+## <a name="new-to-microsoft-365"></a>Microsoft 365의 새로운 기능
 
 ||
 |:-----|
-|![LinkedIn에 대 한 짧은 아이콘](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) 은 **Microsoft 365를 처음으로 학습 하나요?** LinkedIn 학습을 통해 제공 되는 **관리자 및 IT 전문가**를 위한 무료 비디오 코스를 제공 합니다.|
+|![LinkedIn에 대 한 짧은 아이콘은 ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Microsoft 365를 처음으로 학습 하나요?** LinkedIn 학습을 통해 제공 되는 **관리자 및 IT 전문가**를 위한 무료 비디오 코스를 제공 합니다.|

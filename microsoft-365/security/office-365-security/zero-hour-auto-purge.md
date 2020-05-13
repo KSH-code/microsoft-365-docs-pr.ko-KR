@@ -1,5 +1,5 @@
 ---
-title: 제로 시간 자동 제거 (ZAP)-전자 메일 보호 기능
+title: 제로 시간 자동 제거 (ZAP)
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -20,25 +20,25 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Exchange Online으로 이미 배달 된 스팸, 맬웨어 또는 피싱 메시지를 검색 하는 Microsoft 365의 전자 메일 보호 기능인 0 시간 자동 삭제 (ZAP)에 대해 알아봅니다.
-ms.openlocfilehash: ba7aa74dd9152990ce327d1b1564c3246d15cbb8
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+description: 관리자는 0 시간 자동 삭제 (ZAP)가 Exchange Online 사서함의 배달 된 메시지를 retroactively에서 정크 메일 폴더로 이동 하는 것을 retroactively 수 있는 격리 또는 피싱 인 것으로 확인 하는 방법에 대해 알아볼 수 있습니다.
+ms.openlocfilehash: 643063139f5d65b0271fd14ee5a2d1ca1f42ad1a
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173301"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208443"
 ---
-# <a name="zero-hour-auto-purge-zap---protection-against-spam-and-malware-in-microsoft-365"></a>제로 시간 자동 삭제 (ZAP)-Microsoft 365의 스팸 및 맬웨어에 대 한 보호
+# <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Exchange Online에서 제로 시간 자동 제거 (ZAP)
 
 ## <a name="overview"></a>개요
 
-0 시간 자동 삭제 (ZAP)는 retroactively에서 Exchange Online 사서함으로 이미 배달 된 악의적인 피싱, 스팸 또는 맬웨어 메시지를 검색 하 고 neutralizes 하는 Microsoft 365의 전자 메일 보호 기능입니다.
+Exchange Online의 사서함이 있는 Microsoft 365 조 직에서 제로 시간 자동 삭제 (ZAP)는 retroactively에서 Exchange Online 사서함으로 이미 배달 된 악의적인 피싱, 스팸 또는 맬웨어 메시지를 검색 하 고 neutralizes 하는 전자 메일 보호 기능입니다.
 
-ZAP은 Exchange Online 사서함이 포함 된 Microsoft 365 구독에 포함 된 기본 EOP (Exchange Online Protection)에서 사용할 수 있습니다. ZAP은 온-프레미스 Exchange 사서함을 보호 하는 독립 실행형 EOP 환경에서 작동 하지 않습니다.
+온-프레미스 Exchange 사서함을 보호 하는 독립 실행형 EOP (Exchange Online Protection) 환경에서는 ZAP이 작동 하지 않습니다.
 
 ## <a name="how-zap-works"></a>ZAP 작동 방식
 
-Microsoft 365는 스팸 및 맬웨어 서명을 매일 실시간으로 업데이트 합니다. 그러나 사용자에 게 콘텐츠를 배달 한 후에 weaponized를 포함 하 여 여러 가지 이유로 인해 여전히 악의적인 메시지를 받을 수 있습니다. ZAP은 Microsoft 365 스팸 및 맬웨어 서명에 대 한 업데이트를 지속적으로 모니터링 하 여이 문제를 해결 합니다. ZAP은 이미 사용자의 사서함에 있는 메시지를 찾아 제거할 수 있습니다.
+스팸 및 맬웨어 서명은 서비스에서 매일 실시간으로 업데이트 됩니다. 그러나 사용자에 게 콘텐츠를 배달 한 후에 weaponized를 포함 하 여 여러 가지 이유로 인해 여전히 악의적인 메시지를 받을 수 있습니다. ZAP은 서비스의 스팸 및 맬웨어 서명에 대 한 업데이트를 지속적으로 모니터링 하 여이 문제를 해결 합니다. ZAP은 이미 사용자의 사서함에 있는 메시지를 찾아 제거할 수 있습니다.
 
 사용자가 ZAP 작업을 원활 하 게 수행할 수 있습니다. 메시지를 검색 하 고 이동한 경우 알림을 받지 않습니다.
 
@@ -48,7 +48,7 @@ Microsoft 365는 스팸 및 맬웨어 서명을 매일 실시간으로 업데이
 
 배달 후 맬웨어가 포함 되는 것으로 확인 된 **읽음 또는 읽지 않은 메시지** 에 대해 ZAP 설정별가 맬웨어 첨부 파일을 포함 하는 메시지를 표시 합니다. 관리자만 격리에서 맬웨어 메시지를 보고 관리할 수 있습니다.
 
-맬웨어 ZAP은 맬웨어 방지 정책에서 기본적으로 사용 하도록 설정 됩니다. 자세한 내용은 [Microsoft 365에서 맬웨어 방지 정책 구성을](configure-anti-malware-policies.md)참조 하세요.
+맬웨어 ZAP은 맬웨어 방지 정책에서 기본적으로 사용 하도록 설정 됩니다. 자세한 내용은 [EOP에서 맬웨어 방지 정책 구성을](configure-anti-malware-policies.md)참조 하세요.
 
 ### <a name="phish-zap"></a>피싱 ZAP
 
@@ -58,7 +58,7 @@ Microsoft 365는 스팸 및 맬웨어 서명을 매일 실시간으로 업데이
 
 - **정크 메일로 메시지 이동**: ZAP 사서함에서 정크 메일 규칙을 사용 하는 경우 (기본적으로 사용 하도록 설정 되어 있음) 메시지를 정크 메일 폴더로 이동 합니다. 자세한 내용은 [Microsoft 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
 
-- **전자 메일 주소로 메시지 리디렉션**, **메시지 삭제**, **격리 메시지**: ZAP 설정별 메시지 관리자만 격리 된 피싱 메시지를 보고 관리할 수 있습니다.
+- **전자 메일 주소로 메시지 리디렉션**, **메시지 삭제**, **격리 메시지**: ZAP 설정별 메시지
 
 기본적으로 스팸 방지 정책에서 피싱 ZAP을 사용 하도록 설정 되어 있으며 **피싱 전자 메일** 필터링 결과의 기본 작업은 **메시지를 격리**하며,이는 메시지를 기본적으로 피싱 ZAP 설정별 한다는 것을 의미 합니다.
 
@@ -78,7 +78,7 @@ Microsoft 365는 스팸 및 맬웨어 서명을 매일 실시간으로 업데이
 
 스팸 필터링 verdicts 구성에 대 한 자세한 내용은 [Microsoft 365에서 스팸 방지 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
 
-### <a name="zap-considerations-for-office-365-advanced-threat-protection-atp"></a>Office 365 ATP (Advanced Threat Protection)에 대 한 ZAP 고려 사항
+### <a name="zap-considerations-for-office-365-advanced-threat-protection-office-365-atp"></a>Office 365 Advanced Threat Protection에 대 한 ZAP 고려 사항 (Office 365 ATP)
 
 ZAP은 [동적 배달](dynamic-delivery-and-previewing.md) 검색 프로세스에 포함 된 메시지를 격리 하지 않으며 맬웨어 필터링이 이미 **맬웨어 경고 텍스트인 .txt** 파일로 첨부 파일을 바꿨습니다. 이러한 유형의 메시지에 대 한 피싱 또는 스팸 신호를 수신 하 고 스팸 방지 정책의 필터링 결과 메시지에 대 한 특정 작업을 수행 하도록 설정 된 경우 (정크로 이동, 리디렉션, 삭제, 격리), ZAP은 ' 정크로 이동 ' 작업을 기본으로 합니다.
 

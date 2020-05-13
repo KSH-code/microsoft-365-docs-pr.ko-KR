@@ -14,23 +14,23 @@ ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
 description: Microsoft 정크 메일 보고 추가 기능을 설치 하 고 사용 하 여 스팸, 비 스팸 및 피싱 메시지를 Microsoft에 보고 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: be087a15071114b2d1ec564cbb118dcd85e32429
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5c0b802bea89a0f0f62952261bf0d2864842024f
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638503"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208830"
 ---
-# <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook-in-office-365"></a>Office 365에서 Microsoft Outlook 용 정크 메일 보고 추가 기능 설치 및 사용
+# <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Microsoft Outlook 용 정크 메일 보고 추가 기능 설치 및 사용
 
 > [!NOTE]
-> 현재 정크 메일 보고 추가 기능을 사용 하지 않는 경우에는 대신 [보고서 메시지 추가 기능](enable-the-report-message-add-in.md) 을 사용할 것을 권장 합니다.
+> 현재 정크 메일 보고 추가 기능을 사용 하지 않는 경우에는 대신 [보고서 메시지 추가 기능](enable-the-report-message-add-in.md) 을 사용할 것을 권장 합니다. 자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
 
-Microsoft Outlook 용 정크 메일 보고 추가 기능을 사용 하면 사용자가 가양성 (스팸으로 표시 된 전자 메일), 거짓 부정 (잘못 된 전자 메일 허용) 및 EOP (Exchange Online Protection)로의 피싱 메시지를 제출할 수 있습니다. 조직에서 EOP을 사용 하지 않는 경우 정크 메일 보고서 제출에서는 스팸 필터링에 영향을 주지 않습니다.
+Microsoft Outlook 용 정크 메일 보고 추가 기능을 사용 하면 사용자가 가양성 (스팸으로 표시 된 전자 메일), 거짓 부정 (잘못 된 전자 메일 허용), Microsoft에 피싱 메시지를 제출할 수 있습니다. 조직에서 exchange online Protection을 사용 하지 않는 경우 (예: Exchange Online 이외의 온-프레미스 Exchange 또는 전자 메일 서비스) 정크 메일 보고서 제출은 스팸 필터링에 영향을 주지 않습니다.
 
 이 항목에서는 정크 메일 보고 추가 기능을 설치 하 고 사용 하는 방법에 대해 설명 합니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - 정크 메일 보고 추가 기능을 설치 하려면이 항목의 뒷부분에 나오는 [정크 메일 보고 추가 기능 설치](#install-the-junk-email-reporting-add-in) 섹션을 참조 하십시오.
 
@@ -39,7 +39,7 @@ Microsoft Outlook 용 정크 메일 보고 추가 기능을 사용 하면 사용
   - Outlook 2013 이상
   - Microsoft 365 for enterprise 앱에 포함 된 Outlook
 
-- Microsoft에 메시지를 보고 하는 방법에 대 한 자세한 내용은 [Office 365에서 microsoft에 메시지 및 파일](report-junk-email-messages-to-microsoft.md)보고를 참조 하세요.
+- Microsoft에 메시지를 보고 하는 방법에 대 한 자세한 내용은 [microsoft에 메시지 및 파일 보고서](report-junk-email-messages-to-microsoft.md)를 참조 하십시오.
 
 ## <a name="use-the-junk-email-reporting-add-in-to-report-spam-and-phishing-messages"></a>정크 메일 보고 추가 기능을 사용 하 여 스팸 및 피싱 메시지 보고
 
@@ -93,7 +93,7 @@ Microsoft Outlook 용 정크 메일 보고 추가 기능을 사용 하면 사용
 
 - 추가 기능을 설치 하는 컴퓨터에 대 한 관리자 권한이 있어야 합니다.
 
-- Office 버전 <https://www.microsoft.com/download/details.aspx?id=18275> 의 적절 한 .msi 파일을 쉽게 찾을 수 있는 위치로 이동한 후 다운로드 합니다.
+- <https://www.microsoft.com/download/details.aspx?id=18275>Office 버전의 적절 한 .msi 파일을 쉽게 찾을 수 있는 위치로 이동한 후 다운로드 합니다.
 
   - **32 비트**:`Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
 
@@ -197,7 +197,7 @@ Microsoft에 피싱 메일을 보고하려는 경우 **피싱 메일로 보고**
 
 Outlook을 닫은 후에는 다음 절차 중 하나를 사용 하 여 정크 메일 보고 추가 기능을 제거 합니다.
 
-- **제어판**: Windows 키 + R을 누릅니다. 열리는 **실행** 대화 상자에서를 입력 `control appwiz.cpl` 하 고 **확인**을 클릭 합니다.
+- **제어판**: Windows 키 + R을 누릅니다. 열리는 **실행** 대화 상자에서를 입력 하 `control appwiz.cpl` 고 **확인**을 클릭 합니다.
 
   목록에서 **Microsoft 정크 메일 보고 추가 기능** 을 찾아 선택한 다음 **제거**를 클릭 합니다.
 
@@ -209,7 +209,7 @@ Outlook을 닫은 후에는 다음 절차 중 하나를 사용 하 여 정크 �
 
   대화 상자가 나타나면 **Outlook 용 Microsoft 정크 메일 보고 추가 기능 제거** 를 선택 하 고 **다음**을 클릭 합니다.
 
-- **자동 모드**: 적절 한 .msi 파일을 찾거나 다운로드 합니다. 명령 프롬프트 창에서 pathtofile \<\> 을 .msi 파일의 위치로 바꾸고 다음 명령 중 하나를 실행 합니다.
+- **자동 모드**: 적절 한 .msi 파일을 찾거나 다운로드 합니다. 명령 프롬프트 창에서 \< pathtofile을 \> .msi 파일의 위치로 바꾸고 다음 명령 중 하나를 실행 합니다.
 
   - **32 비트**:
 
@@ -249,7 +249,7 @@ Microsoft에 메시지를 전송 하는 데 사용할 수 있는 다른 방법�
 
 #### <a name="problem-an-error-message-continually-appears-that-asks-users-to-contact-their-system-administrator"></a>문제: 사용자에 게 시스템 관리자에 게 문의 하 라는 오류 메시지가 계속 표시 됩니다.
 
-1. `LoggingLevel` 레지스트리 키를 "Verbose" 값으로 확인 하거나 설정 합니다.
+1. `LoggingLevel`레지스트리 키를 "Verbose" 값으로 확인 하거나 설정 합니다.
 
    - **32 비트 Windows에서 32 비트 Outlook**:
 
@@ -288,7 +288,7 @@ Microsoft에 메시지를 전송 하는 데 사용할 수 있는 다른 방법�
 
 #### <a name="problem-users-selected-not-to-receive-a-confirmation-prompt-when-they-report-messages-and-now-they-want-the-prompt-back"></a>문제: 사용자가 메시지를 보고 했을 때 확인 메시지를 수신 하지 않도록 선택 했으며, 다시 확인 하 고 싶습니다.
 
-1. "True `ConfirmReportJunk`" 값을 wih 레지스트리 키를 만듭니다.
+1. `ConfirmReportJunk`"True" 값을 wih 레지스트리 키를 만듭니다.
 
    ```text
    Windows Registry Editor Version 5.00

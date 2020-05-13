@@ -16,12 +16,12 @@ ms.assetid: ac11edd9-2da3-462d-8ea3-bbf9dbc6f948
 ms.collection:
 - M365-security-compliance
 description: 위험성이 높은 배달 풀을 사용 하 여 Microsoft 365 데이터 센터에서 전자 메일 서버의 신뢰도를 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: 7fb4788361534335be1e07bae44ed7511bebe434
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 190dc3bd7ed2a6cddb23c8bc7c117dee30fd4f13
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638037"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209190"
 ---
 # <a name="high-risk-delivery-pool-for-outbound-messages"></a>아웃바운드 메시지용 높은 위험 배달 풀
 
@@ -45,11 +45,8 @@ Microsoft 365 데이터 센터의 전자 메일 서버가 일시적으로 스팸
 Ndr의 서 지에 대 한 가능한 원인은 다음과 같습니다.
 
 - 서비스를 사용 하는 고객 중 한 명에 게 영향을 주는 스푸핑 캠페인
-
 - 디렉터리 수집 공격입니다.
-
 - 스팸 공격
-
 - Rogue 전자 메일 서버
 
 이러한 모든 문제로 인해 서비스에서 처리 하는 Ndr 수가 급격 하 게 증가할 수 있습니다. 여러 번 이러한 ndr은 다른 전자 메일 서버 및 서비스에 스팸으로 표시 됩니다 ( _[후방 산란](backscatter-messages-and-eop.md)_ 이 라고도 함).

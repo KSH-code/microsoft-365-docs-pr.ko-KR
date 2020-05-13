@@ -1,5 +1,5 @@
 ---
-title: EOP 서비스 설정
+title: 독립 실행형 EOP 서비스 설정
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -13,17 +13,17 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
-description: 이 문서에서는 Microsoft EOP (Exchange Online Protection)를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: c00d39cae440bc95e26c853e107d8d7a8f4c50d8
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: 관리자는 온-프레미스 전자 메일 환경을 보호 하기 위해 독립 실행형 EOP (Exchange Online Protection)를 설정 하는 방법을 확인할 수 있습니다.
+ms.openlocfilehash: bf762eabcfebf34ca8cb8d37935ffac011228df0
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035287"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209802"
 ---
-# <a name="set-up-your-eop-service"></a>EOP 서비스 설정
+# <a name="set-up-your-standalone-eop-service"></a>독립 실행형 EOP 서비스 설정
 
-이 항목에서는 Microsoft EOP(Exchange Online Protection)를 설정하는 방법에 대해 설명합니다. Office 365 도메인 마법사에서 여기로 이동했으며 Exchange Online Protection를 사용하지 않으려면 Office 365 도메인 마법사로 돌아갑니다. 커넥터 구성 방법에 대한 자세한 내용를 보려면 [Configure mail flow using connectors in Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)을 참조하세요.
+이 항목에서는 독립 실행형 EOP (Exchange Online Protection)를 설정 하는 방법에 대해 설명 합니다. Office 365 도메인 마법사에서 여기로 이동했으며 Exchange Online Protection를 사용하지 않으려면 Office 365 도메인 마법사로 돌아갑니다. 커넥터 구성 방법에 대한 자세한 내용를 보려면 [Configure mail flow using connectors in Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)을 참조하세요.
 
 > [!NOTE]
 > 이 항목에서는 온-프레미스 사서함이 있고 EOP을 사용 하 여이를 보호 하려고 한다고 가정 합니다 (독립 실행형 시나리오 라고 함). Exchange Online을 사용 하 여 클라우드의 모든 사서함을 호스팅하려면이 항목의 모든 단계를 완료 하지 않아도 됩니다. [Exchange Online 계획 비교](https://products.office.com/exchange/compare-microsoft-exchange-online-plans) 로 이동 하 여 클라우드 사서함에 등록 하 고 구입 합니다. 온-프레미스의 일부 사서함과 클라우드에서 일부를 호스트 하려는 경우이를 하이브리드 시나리오 라고 합니다. 이를 위해서는 보다 고급 메일 흐름 설정이 필요 합니다. [Exchange Server 하이브리드 배포](https://docs.microsoft.com/exchange/exchange-hybrid) 에서는 하이브리드 메일 흐름에 대해 설명 하 고이를 설정 하는 방법을 보여 주는 리소스에 대 한 링크를 제공 합니다.
@@ -32,7 +32,7 @@ ms.locfileid: "44035287"
 
 - 이 작업의 예상 완료 시간: 1시간
 
-- 커넥터를 구성 하려면 계정이 전역 관리자 또는 Exchange 회사 관리자 (조직 관리 역할 그룹) 여야 합니다. 자세한 내용은 [EOP의 Feature permissions](feature-permissions-in-eop.md)를 참조 하십시오.
+- 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 특히, 기본적으로 MailFlowAdministrator 및 OrganizationManagement (전역 관리자) 역할 그룹에 할당 되는 원격 및 허용 도메인 역할이 필요 합니다. 자세한 내용은 [권한 독립 실행형 EOP의 사용 권한을](feature-permissions-in-eop.md) 참조 하 고 [EAC를 사용 하 여 역할 그룹의 구성원 목록을 수정](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)합니다.
 
 - 아직 EOP에 등록하지 않은 경우 [Exchange Online Protection](https://products.office.com/exchange/exchange-email-security-spam-protection)을 방문하여 서비스를 구입하거나 평가판을 신청합니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "44035287"
 
 ## <a name="step-3-use-the-eac-to-set-up-mail-flow"></a>3단계: EAC를 사용하여 메일 흐름 설정
 
-EOP 및 온-프레미스 메일 서버 간의 메일 흐름을 가능하게 하는 커넥터를 EAC(Exchange 관리 센터)에서 만듭니다. 자세한 내용은 [마이크로 sft 365와 자체 전자 메일 서버 간에 메일을 라우팅하도록 커넥터를 설정](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail)합니다 .를 참조 하세요.
+EOP 및 온-프레미스 메일 서버 간의 메일 흐름을 가능하게 하는 커넥터를 EAC(Exchange 관리 센터)에서 만듭니다. 자세한 내용은 [Set up connector to mail to a Microsoft 365와 자체 전자 메일 서버 간에 메일 라우팅를](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail)참조 하세요.
 
 ### <a name="how-do-you-know-this-task-worked"></a>이 작업의 작동 여부는 어떻게 확인하나요?
 
@@ -64,7 +64,7 @@ EOP 및 온-프레미스 메일 서버 간의 메일 흐름을 가능하게 하�
 
 ## <a name="step-4-allow-inbound-port-25-smtp-access"></a>4단계: 인바운드 포트 25 SMTP 액세스 허용
 
-커넥터를 구성한 후에 DNS 레코드 업데이트가 전파될 수 있게 72시간 동안 기다립니다. 그런 후에 EOP 데이터 센터(구체적으로는 [Exchange Online Protection IP 주소](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)에 나와 있는 IP 주소)에서 보내는 메일만 수락하도록 방화벽이나 메일 서버의 인바운드 포트 25 SMTP 트래픽을 제한합니다. 이렇게 하면 수신 가능한 인바운드 메시지 범위를 제한하여 온-프레미스 환경을 보호할 수 있습니다. 또한 메일 릴레이를 위한 연결이 허용된 IP 주소를 제어하는 설정이 메일 서버에 있는 경우에는 해당 설정도 업데이트합니다.
+커넥터를 구성한 후에는 DNS 레코드 업데이트의 전파를 허용 하는 데 72 시간을 기다립니다. 그런 후에 EOP 데이터 센터(구체적으로는 [Exchange Online Protection IP 주소](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)에 나와 있는 IP 주소)에서 보내는 메일만 수락하도록 방화벽이나 메일 서버의 인바운드 포트 25 SMTP 트래픽을 제한합니다. 이렇게 하면 수신 가능한 인바운드 메시지 범위를 제한하여 온-프레미스 환경을 보호할 수 있습니다. 또한 메일 릴레이를 위한 연결이 허용된 IP 주소를 제어하는 설정이 메일 서버에 있는 경우에는 해당 설정도 업데이트합니다.
 
 > [!TIP]
 > 연결 제한 시간을 60초로 지정하여 SMTP 서버의 설정을 구성합니다. 이 설정은 대부분의 상황에서 가능 하며 큰 첨부 파일을 사용 하 여 메시지를 보낼 때 약간의 지연을 허용 하는 등의 작업이 가능 합니다.
@@ -73,11 +73,14 @@ EOP 및 온-프레미스 메일 서버 간의 메일 흐름을 가능하게 하�
 
 스팸(정크) 메일이 각 사용자의 정크 메일 폴더로 라우팅되도록 하려면 몇 가지 구성 단계를 수행해야 합니다. [하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)에 단계가 제공 됩니다.
 
-각 사용자의 정크 메일 폴더로 메시지를 옮기지 않으려면 Exchange 관리 센터에서 콘텐츠 필터 정책을 편집하여 다른 작업을 선택할 수 있습니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
+각 사용자의 정크 메일 폴더로 메시지를 이동 하지 않으려면 스팸 방지 정책을 편집 하 여 다른 작업을 선택할 수 있습니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
 ## <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>6 단계: Microsoft 365 관리 센터를 사용 하 여 MX 레코드가 EOP를 가리키도록 지정
 
 도메인 구성 단계에 따라 도메인에 대 한 MX 레코드를 업데이트 하 여 인바운드 전자 메일이 EOP를 통해 흐를 수 있도록 합니다. 타사 필터링 서비스가 전자 메일을 EOP로 릴레이할 때와 달리 MX 레코드가 EOP를 직접 가리키도록 해야 합니다. 자세한 내용은 [Office 365용 DNS 레코드 만들기](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 참조하세요.
+
+> [!NOTE]
+> MX 레코드가 EOP 앞에 있는 다른 서버 또는 서비스를 가리켜야 하는 경우 [Exchange Online의 커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)을 참조 하십시오.
 
 ### <a name="how-do-you-know-this-task-worked"></a>이 작업의 작동 여부는 어떻게 확인하나요?
 
@@ -90,4 +93,4 @@ EOP 및 온-프레미스 메일 서버 간의 메일 흐름을 가능하게 하�
 - 아웃바운드 전자 메일 테스트를 실행하려면 조직 사용자가 웹 기반 전자 메일 계정에 전자 메일을 보내도록 한 다음 메시지 수신을 확인하면 됩니다.
 
 > [!TIP]
-> 설정이 완료된 후 EOP에서 스팸 및 맬웨어를 제거하도록 추가 단계를 수행할 필요는 없습니다. EOP는 스팸과 맬웨어를 자동으로 제거합니다. 그러나 비즈니스 요구 사항에 따라 EAC에서 설정을 미세 조정할 수는 있습니다. 자세한 내용은 [Office 365의 스팸 방지 및 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md)를 참조 하세요. <br/><br/> 이제 서비스가 실행 중 이므로 EOP을 설정한 후의 권장 설정 및 고려 사항을 설명 하는 [EOP 구성을 위한 모범 사례](best-practices-for-configuring-eop.md)를 읽는 것이 좋습니다.
+> 설정이 완료된 후 EOP에서 스팸 및 맬웨어를 제거하도록 추가 단계를 수행할 필요는 없습니다. EOP는 스팸과 맬웨어를 자동으로 제거합니다. 그러나 비즈니스 요구 사항에 따라 설정을 미세 조정할 수는 있습니다. 자세한 내용은 [Office 365의 스팸 방지 및 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md) 기능을 참조 하 고 [스푸핑 인텔리전스를 구성](learn-about-spoof-intelligence.md)합니다. <br/><br/> 이제 서비스가 실행 중 이므로 EOP을 설정한 후의 권장 설정 및 고려 사항을 설명 하는 [EOP 구성을 위한 모범 사례](best-practices-for-configuring-eop.md)를 읽는 것이 좋습니다.

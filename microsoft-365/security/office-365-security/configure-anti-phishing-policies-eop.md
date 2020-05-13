@@ -14,22 +14,22 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: 관리자는 exchange Online 사서함을 포함 하거나 제외 하는 EOP (Exchange Online Protection) 조직에서 사용할 수 있는 피싱 방지 정책을 만들고, 수정 하 고, 삭제 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 770990cdd7927ebb8afa088f2d5be09c75824d59
-ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
+ms.openlocfilehash: 076c8aa8a0111643ab0f43bcd5f6ff21f82277b2
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43949274"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208902"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>EOP에서 피싱 방지 정책 구성
 
-Exchange online 사서함이 있는 Office 365 조직 및 EOP (독립 실행형 Exchange Online Protection) 조직에는 기본 피싱 방지 정책이 적용 됩니다. 이 정책에는 기본적으로 사용 하도록 설정 되어 있는 제한 된 수의 스푸핑 방지 기능이 포함 되어 있습니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md#spoof-settings)참조 하십시오.
+Exchange online 사서함이 없는 Microsoft 365 조직에서 사서함이 EOP (exchange online Protection) 조직의 경우 기본적으로 사용 하도록 설정 되어 있는 제한 된 수의 스푸핑 방지 기능을 포함 하는 기본 피싱 방지 정책이 있습니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md#spoof-settings)참조 하십시오.
 
 관리자는 기본 피싱 방지 정책을 보고 편집 하 고 구성할 수 있습니다 (삭제 하지 않음). 세분성을 높이기 위해 조직의 특정 사용자, 그룹 또는 도메인에 적용 되는 사용자 지정 피싱 방지 정책을 만들 수도 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만, 사용자 지정 정책의 우선순위(실행 순서)를 변경할 수 있습니다.
 
 Exchange Online 사서함이 있는 조직은 보안 & 준수 센터 또는 Exchange Online PowerShell에서 피싱 방지 정책을 구성할 수 있습니다. 독립 실행형 EOP 조직은 보안 & 준수 센터만 사용할 수 있습니다.
 
-Office 365 Advanced Threat Protection에서 사용할 수 있는 고급 ATP 피싱 방지 정책을 만들고 수정 하는 방법에 대 한 자세한 내용은 [office 365에서 ATP 피싱 방지 정책 구성을](configure-atp-anti-phishing-policies.md)참조 하세요.
+Office 365 Advanced Threat Protection (Office 365 ATP)에서 사용할 수 있는 고급 ATP 피싱 방지 정책을 만들고 수정 하는 방법에 대 한 자세한 내용은 [ATP 피싱 방지 정책 구성을](configure-atp-anti-phishing-policies.md)참조 하십시오.
 
 ## <a name="anti-phishing-policies-in-the-security--compliance-center-vs-exchange-online-powershell"></a>보안 & 준수 센터 vs Exchange Online PowerShell의 피싱 방지 정책
 
@@ -47,7 +47,7 @@ Office 365 Advanced Threat Protection에서 사용할 수 있는 고급 ATP 피�
 
 - 보안 & 준수 센터에서 피싱 방지 정책을 제거 하면 피싱 규칙과 연결 된 피싱 정책이 모두 제거 됩니다.
 
-Exchange Online PowerShell에서 피싱 정책 및 피싱 규칙 간의 차이가 명백 합니다. -AntiPhishPolicy cmdlet을 사용 하 여 피싱 정책을 관리 하 고 ** \*-AntiPhishRule** cmdlet을 사용 하 여 피싱 규칙을 관리 합니다. ** \***
+Exchange Online PowerShell에서 피싱 정책 및 피싱 규칙 간의 차이가 명백 합니다. ** \* -AntiPhishPolicy** cmdlet을 사용 하 여 피싱 정책을 관리 하 고 ** \* -AntiPhishRule** cmdlet을 사용 하 여 피싱 규칙을 관리 합니다.
 
 - PowerShell에서는 먼저 피싱 정책을 만든 다음 규칙이 적용 되는 정책을 식별 하는 피싱 규칙을 만듭니다.
 
@@ -61,27 +61,27 @@ Exchange Online PowerShell에서 피싱 정책 및 피싱 규칙 간의 차이�
 
 - Office365 AntiPhish Default 정책에는 수정할 수 없는 사용자 지정 우선 순위 값이 **가장 낮습니다** (정책이 항상 마지막으로 적용 됨)이 있습니다. 만드는 모든 사용자 지정 정책에는 항상 Office365 AntiPhish Default 라는 정책 보다 높은 우선 순위가 부여 됩니다.
 
-- Office365 AntiPhish Default 라는 정책이 기본 정책 ( **IsDefault** 속성에 값 `True`이 있음) 이며 기본 정책을 삭제할 수 없습니다.
+- Office365 AntiPhish Default 라는 정책이 기본 정책 ( **IsDefault** 속성에 값이 있음 `True` ) 이며 기본 정책을 삭제할 수 없습니다.
 
 피싱 방지 보호 기능의 효율성을 높이려면 특정 사용자 또는 사용자 그룹에 적용 되는 보다 엄격한 설정을 사용 하 여 사용자 지정 피싱 방지 정책을 만들 수 있습니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. **피싱 방지** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/antiphishing>합니다.
+- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. **피싱 방지** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/antiphishing> 합니다.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.
 
   독립 실행형 EOP PowerShell에서 피싱 방지 정책을 관리할 수는 없습니다.
 
-- 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 피싱 방지 정책을 추가, 수정 및 삭제 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 피싱 방지 정책에 대 한 읽기 전용 액세스를 위해서는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [Office 365 보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
+- 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 피싱 방지 정책을 추가, 수정 및 삭제 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 피싱 방지 정책에 대 한 읽기 전용 액세스를 위해서는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
-- 독립 실행형 EOP에서 스팸 방지 정책을 만들고 수정 하려면 테 넌 트에 대해 _하이드레이션_ 이 필요한 작업을 수행 해야 합니다. 예를 들어 EAC에서 **사용 권한** 탭으로 이동 하 고 기존 역할 그룹을 선택 하 고 편집 아이콘 **Edit** ![](../../media/ITPro-EAC-EditIcon.png)편집을 클릭 하 고, 궁극적으로 다시 추가할 역할을 제거할 수 있습니다. 테 넌 트가 hydrated 되지 않은 경우 진행률 표시줄과 함께 완료 되는 **조직 설정 업데이트** 라는 대화 상자가 표시 됩니다. 하이드레이션에 대 한 자세한 내용은 독립 실행형 EOP PowerShell 또는 보안 & 준수 센터에서 사용할 수 없는 [OrganizationCustomization](https://docs.microsoft.com/powershell/module/exchange/organization/enable-organizationcustomization) cmdlet을 참조 하십시오.
+- 독립 실행형 EOP에서 스팸 방지 정책을 만들고 수정 하려면 테 넌 트에 대해 _하이드레이션_ 이 필요한 작업을 수행 해야 합니다. 예를 들어 EAC에서 **사용 권한** 탭으로 이동 하 고 기존 역할 그룹을 선택 하 **Edit** ![ 고 편집 아이콘 편집을 클릭 하 ](../../media/ITPro-EAC-EditIcon.png) 고, 궁극적으로 다시 추가할 역할을 제거할 수 있습니다. 테 넌 트가 hydrated 되지 않은 경우 진행률 표시줄과 함께 완료 되는 **조직 설정 업데이트** 라는 대화 상자가 표시 됩니다. 하이드레이션에 대 한 자세한 내용은 독립 실행형 EOP PowerShell 또는 보안 & 준수 센터에서 사용할 수 없는 [OrganizationCustomization](https://docs.microsoft.com/powershell/module/exchange/organization/enable-organizationcustomization) cmdlet을 참조 하십시오.
 
 - 피싱 방지 정책에 대 한 권장 설정에 대 한 자세한 내용은 [EOP 기본 피싱 방지 정책 설정을](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings)참조 하십시오.
 
 - 업데이트 된 정책을 적용할 최대 30 분을 허용 합니다.
 
-- 필터링 파이프라인에서 피싱 방지 정책이 적용 되는 위치에 대 한 자세한 내용은 [Office 365의 전자 메일 보호의 주문 및 우선 순위](how-policies-and-protections-are-combined.md)를 참조 하세요.
+- 필터링 파이프라인에서 피싱 방지 정책이 적용 되는 위치에 대 한 자세한 내용은 [전자 메일 보호의 주문 및 우선 순위](how-policies-and-protections-are-combined.md)를 참조 하세요.
 
 ## <a name="use-the-security--compliance-center-to-create-anti-phishing-policies"></a>보안 & 준수 센터를 사용 하 여 피싱 방지 정책 만들기
 
@@ -109,15 +109,15 @@ Exchange Online PowerShell에서 피싱 정책 및 피싱 규칙 간의 차이�
 
    - **받는 사람**: 조직의 사서함, 메일 사용자 또는 메일 연락처를 하나 이상 지정 합니다.
    - **받는 사람이 다음 구성원 인**경우: 조직에서 그룹을 하나 이상 지정 합니다.
-   - **받는 사람 도메인은**: Office 365에서 구성된 허용 도메인 중 하나 이상에서 받는 사람을 지정합니다.
+   - **받는 사람 도메인**: 조직에서 구성 된 허용 도메인 중 하나 이상의 받는 사람을 지정 합니다.
 
    조건을 선택한 후에는 **이러한 상자 중 하나** 에 해당 하는 dropdown이 표시 됩니다.
 
    - 상자를 클릭 하 고 선택할 값 목록을 스크롤합니다.
    - 상자를 클릭 하 고 입력을 시작 하 여 목록을 필터링 하 고 값을 선택 합니다.
    - 값을 더 추가 하려면 상자에서 빈 영역을 클릭 합니다.
-   - 개별 항목을 제거 하려면 값 **Remove** ![에서 제거 아이콘](../../media/scc-remove-icon.png) 제거를 클릭 합니다.
-   - 전체 조건을 제거 하려면 조건에서 제거 **Remove** ![아이콘](../../media/scc-remove-icon.png) 제거를 클릭 합니다.
+   - 개별 항목을 제거 하려면 값에서 제거 아이콘 **제거** 를 클릭 ![ ](../../media/scc-remove-icon.png) 합니다.
+   - 전체 조건을 제거 하려면 **Remove** ![ 조건에서 제거 아이콘 제거를 클릭 ](../../media/scc-remove-icon.png) 합니다.
 
    조건을 더 추가 하려면 **조건 추가** 를 클릭 하 고 **적용 된 경우**에는 나머지 값을 선택 합니다.
 
@@ -141,11 +141,11 @@ Exchange Online PowerShell에서 피싱 정책 및 피싱 규칙 간의 차이�
 
 2. 수정 하려는 사용자 지정 피싱 방지 정책을 선택 합니다. 이미 선택 되어 있으면 선택을 취소 하 고 다시 선택 합니다.
 
-3. **정책 \<이름\> ** 플라이 아웃 편집이 표시 됩니다. 섹션에서 **편집** 을 클릭 하면 해당 섹션의 설정에 액세스할 수 있습니다.
+3. **정책 \< 이름 \> ** 플라이 아웃 편집이 표시 됩니다. 섹션에서 **편집** 을 클릭 하면 해당 섹션의 설정에 액세스할 수 있습니다.
 
    - 다음 단계는 섹션에 표시 되는 순서 대로 제공 되지만 순서에 관계 없이 섹션을 선택 하 고 수정할 수 있습니다.
 
-   - 섹션에서 **편집** 을 클릭 하면 사용 가능한 설정이 마법사 형식으로 제공 되지만 페이지 내에서 언제 든 지 페이지를 이동할 수 있습니다 **Close** ![ **. 또는 닫기** 아이콘](../../media/scc-remove-icon.png) **을 클릭 하** 여 **정책 \<이름\> 편집** 페이지로 돌아갈 수 있습니다 (마법사의 마지막 페이지를 방문 하 여 저장 하거나 나갈 필요가 없음).
+   - 섹션에서 **편집** 을 클릭 하면 사용 가능한 설정이 마법사 형식으로 제공 되지만 페이지 **내에서 언제** 든 지 페이지를 이동할 수 있습니다. **또는** 닫기 아이콘을 클릭 하 여 **Close** ![ ](../../media/scc-remove-icon.png) **정책 \< \> 이름 편집** 페이지로 돌아갈 수 있습니다 (마법사의 마지막 페이지를 방문 하 여 저장 하거나 나갈 필요가 없음).
 
 4. **정책 설정**: 이전 섹션에서 [정책을 만들](#use-the-security--compliance-center-to-create-anti-phishing-policies) 때 사용 가능한 것과 동일한 설정을 수정 하려면 **편집** 을 클릭 합니다.
 
@@ -160,10 +160,10 @@ Exchange Online PowerShell에서 피싱 정책 및 피싱 규칙 간의 차이�
 
    이러한 동일한 설정은 ATP 피싱 방지 정책 에서도 사용할 수 있습니다.
 
-   - **스푸핑 필터 설정**: 기본값은 **on**이며,이 값을 유지 하는 것이 좋습니다. 해제 하려면 **토글을 끕니다.** 자세한 내용은 [Office 365에서 스푸핑 인텔리전스 구성하기](learn-about-spoof-intelligence.md)를 참조하세요.
+   - **스푸핑 필터 설정**: 기본값은 **on**이며,이 값을 유지 하는 것이 좋습니다. 해제 하려면 **토글을 끕니다.** 자세한 내용은 [Configure 스푸핑이 intelligence IN EOP](learn-about-spoof-intelligence.md)을 참조 하십시오.
 
      > [!NOTE]
-     > MX 레코드가 Office 365를 가리키지 않으면 스푸핑 방지 보호를 사용 하지 않도록 설정할 필요가 없습니다. 대신 커넥터에 대 한 향상 된 필터링을 사용 하도록 설정 합니다. 자세한 내용은 [Exchange Online의 커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)을 참조 하십시오.
+     > MX 레코드가 Microsoft 365를 가리키지 않는 경우 스푸핑 방지 보호를 사용 하지 않도록 설정할 필요가 없습니다. 대신 커넥터에 대 한 향상 된 필터링을 사용 하도록 설정 합니다. 자세한 내용은 [Exchange Online의 커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)을 참조 하십시오.
 
    - **인증 되지 않은 보낸 사람 기능 사용**: 기본값은 **On**입니다. 해제 하려면 **토글을 끕니다.**
 
@@ -184,7 +184,7 @@ Exchange Online PowerShell에서 피싱 정책 및 피싱 규칙 간의 차이�
 
    작업이 끝나면 모든 페이지에서 **저장** 을 클릭 합니다.
 
-6. **정책 \<\> 이름 편집** 페이지에서 설정을 검토 하 고 **닫기를**클릭 합니다.
+6. **정책 \< 이름 \> 편집** 페이지에서 설정을 검토 하 고 **닫기를**클릭 합니다.
 
 ### <a name="use-the-security--compliance-center-to-modify-the-default-anti-phishing-policy"></a>보안 & 준수 센터를 사용 하 여 기본 피싱 방지 정책 수정
 
@@ -234,7 +234,7 @@ Exchange Online PowerShell에서 피싱 정책 및 피싱 규칙 간의 차이�
 
 2. 수정 하려는 정책을 선택 합니다. 이미 선택 되어 있으면 선택을 취소 하 고 다시 선택 합니다.
 
-3. **정책 \<이름\> ** 플라이 아웃 편집이 표시 됩니다.
+3. **정책 \< 이름 \> ** 플라이 아웃 편집이 표시 됩니다.
 
    - **우선 순위** 값이 **0** 인 사용자 지정 피싱 방지 정책에는 **우선 순위 낮추기** 단추만 사용할 수 있습니다.
 
@@ -256,7 +256,7 @@ Exchange Online PowerShell에서 피싱 정책 및 피싱 규칙 간의 차이�
 
    - 기본 **정책을** 클릭 하 여 기본 피싱 방지 정책을 확인 합니다.
 
-3. 설정 및 값을 볼 수 있는 **정책 \<이름\> ** 플라이 아웃 편집이 표시 됩니다.
+3. 설정 및 값을 볼 수 있는 **정책 \< 이름 \> ** 플라이 아웃 편집이 표시 됩니다.
 
 ## <a name="use-the-security--compliance-center-to-remove-anti-phishing-policies"></a>보안 & 준수 센터를 사용 하 여 피싱 방지 정책 제거
 
@@ -264,7 +264,7 @@ Exchange Online PowerShell에서 피싱 정책 및 피싱 규칙 간의 차이�
 
 2. 제거할 정책을 선택 합니다. 이미 선택 되어 있으면 선택을 취소 하 고 다시 선택 합니다.
 
-3. 표시 되는 **정책 \<이름\> ** 플라이 아웃 편집에서 **정책 삭제**를 클릭 한 다음 표시 되는 경고 대화 상자에서 **예** 를 클릭 합니다.
+3. 표시 되는 **정책 \< 이름 \> ** 플라이 아웃 편집에서 **정책 삭제**를 클릭 한 다음 표시 되는 경고 대화 상자에서 **예** 를 클릭 합니다.
 
 기본 정책은 제거할 수 없습니다.
 
@@ -280,15 +280,15 @@ PowerShell에서 피싱 방지 정책을 만드는 과정은 다음 두 단계�
 
 2. 규칙이 적용 되는 피싱 정책을 지정 하는 피싱 규칙을 만듭니다.
 
- **참고:**
+ **참고**:
 
 - 새 피싱 규칙을 만들고 연결 되지 않은 기존 피싱 정책을 할당할 수 있습니다. 피싱 규칙을 두 개 이상의 피싱 정책에 연결할 수 없습니다.
 
 - 정책을 만든 후에 야 보안 & 준수 센터에서 사용할 수 없는 PowerShell의 새 피싱 정책에서 다음 설정을 구성할 수 있습니다.
 
-  - **AntiPhishRule** cmdlet에서_사용 하도록 설정_ `$false` 된 새 정책을 사용 하지 않도록 설정 합니다.
+  - AntiPhishRule cmdlet에서_사용 하도록 설정_ 된 새 정책을 사용 하지 않도록 설정 `$false` **New-AntiPhishRule** 합니다.
 
-  - **AntiPhishRule** cmdlet에 대해 만드는 동안 정책의 우선 순위 (_우선 순위_ _ \<번호\>_)를 설정 합니다.
+  - **AntiPhishRule** cmdlet에 대해 만드는 동안 정책의 우선 순위 (_우선 순위_ _ \< 번호 \> _)를 설정 합니다.
 
 - 피싱 규칙에 정책을 할당 하기 전 까지는 PowerShell에서 만드는 새로운 피싱 정책이 보안 & 준수 센터에 표시 되지 않습니다.
 
@@ -302,7 +302,7 @@ New-AntiPhishPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [-Enab
 
 이 예에서는 다음 설정을 사용 하 여 Research Quarantine 라는 피싱 정책을 만듭니다.
 
-- 정책이 사용 하도록 설정 되어 있습니다 ( _enabled_ 매개 변수를 사용 하지 않으며 기본값은 `$true`).
+- 정책이 사용 하도록 설정 되어 있습니다 ( _enabled_ 매개 변수를 사용 하지 않으며 기본값은 `$true` ).
 - 설명은 부서 정책 연구입니다.
 - 격리로 위장 하기 위한 기본 작업을 변경 합니다.
 
@@ -507,7 +507,7 @@ ATP 피싱 방지 정책이 구성 되었는지 확인 하려면 다음 단계 �
   - 목록에서 정책을 선택 하 고 플라이 아웃의 세부 정보를 확인 합니다.
   - **기본 정책을** 클릭 하 고 플라이 아웃에서 세부 정보를 확인 합니다.
 
-- Exchange Online PowerShell에서 이름을 \<\> 정책 또는 규칙의 이름으로 바꾸고 다음 명령을 실행 하 고 설정을 확인 합니다.
+- Exchange Online PowerShell에서 \< 이름을 \> 정책 또는 규칙의 이름으로 바꾸고 다음 명령을 실행 하 고 설정을 확인 합니다.
 
   ```PowerShell
   Get-AntiPhishPolicy -Identity "<Name>"

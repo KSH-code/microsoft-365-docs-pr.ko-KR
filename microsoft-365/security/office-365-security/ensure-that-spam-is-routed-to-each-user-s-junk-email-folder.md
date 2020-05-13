@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online Protection 하이브리드 환경에서 스팸을 사용자 정크 메일 폴더로 라우팅하는 방법을 알 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 14193fecf90a6f2ddde05fbfdaded0ff2bcb5875
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: a5b4d16c864b25c4d47910f0dd69f0ed3e71a0de
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036575"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209478"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성
 
@@ -44,9 +44,9 @@ ms.locfileid: "44036575"
 이 항목에서는 Exchange 관리 센터 (EAC) 및 온-프레미스 Exchange 조직의 exchange 관리 셸 (exchange PowerShell)에서 이러한 메일 흐름 규칙을 만드는 방법에 대해 설명 합니다.
 
 > [!TIP]
-> 온-프레미스 사용자의 정크 메일 폴더로 메시지를 배달 하는 대신 EOP에서 스팸 방지 정책을 구성 하 여 EOP의 스팸 메시지를 격리할 수 있습니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
+> 온-프레미스 사용자의 정크 메일 폴더로 메시지를 배달 하는 대신 EOP에서 스팸 방지 정책을 구성 하 여 EOP의 스팸 메시지를 격리할 수 있습니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - 이러한 절차를 수행 하려면 먼저 온-프레미스 Exchange 환경에서 사용 권한을 할당 받아야 합니다. 특히 **조직 관리**, **규정 준수 관리**및 **레코드 관리** 역할에 할당 되는 **전송 규칙** 역할을 기본적으로 할당 해야 합니다. 자세한 내용은 [역할 그룹에 구성원을 추가 합니다.](https://docs.microsoft.com/Exchange/permissions/role-group-members?view=exchserver-2019#add-members-to-a-role-group)를 참조하세요.
 
@@ -60,7 +60,7 @@ ms.locfileid: "44036575"
 
   - 사서함에서 정크 메일 규칙을 사용할 수 있는지 여부 (Exchange 관리 셸에서 [set-mailboxjunkemailconfiguration](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration) Cmdlet의 _enabled_ 매개 변수 값이 $true) 배달 후 실제로 메시지를 정크 메일 폴더로 이동 하는 정크 메일 규칙입니다. 기본적으로 사서함에서는 정크 메일 규칙이 사용 되도록 설정 됩니다. 자세한 내용은 [사서함에 대 한 Exchange 스팸 방지 설정 구성을](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings)참조 하세요.
   
-- Exchange 서버에서 EAC를 열려면 exchange [server의 exchange 관리 센터](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center)를 참조 하세요. Exchange 관리 셸을 열려면를 참조 [https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell)하세요.
+- Exchange 서버에서 EAC를 열려면 exchange [server의 exchange 관리 센터](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center)를 참조 하세요. Exchange 관리 셸을 열려면를 참조 하세요 [https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) .
 
 - 온-프레미스 Exchange의 메일 흐름 규칙에 대 한 자세한 내용은 다음 항목을 참조 하십시오.
 
@@ -74,7 +74,7 @@ ms.locfileid: "44036575"
 
 1. EAC에서 **메일 흐름** \> **규칙**으로 이동합니다.
 
-2. ![](../../media/ITPro-EAC-AddIcon.png) 추가 **아이콘 추가를 클릭 하** 고 표시 되는 드롭다운에서 **새 규칙 만들기** 를 선택 합니다.
+2. 추가 아이콘 추가를 **클릭 하** ![ ](../../media/ITPro-EAC-AddIcon.png) 고 표시 되는 드롭다운에서 **새 규칙 만들기** 를 선택 합니다.
 
 3. **새 규칙** 페이지가 열리면 다음 설정을 구성 합니다.
 
@@ -88,15 +88,15 @@ ms.locfileid: "44036575"
 
    - **기타 옵션**을 클릭 합니다.
 
-   - 다음의 **경우이 규칙 적용**: **메시지 헤더** \> 에 **다음 단어 포함**을 선택 합니다.
+   - 다음의 **경우이 규칙 적용**: **메시지 헤더** 에 \> **다음 단어 포함**을 선택 합니다.
 
      **입력 텍스트 헤더** 에 표시 되는 단어 문장 입력에 다음 단계를 수행 합니다.
 
      - **텍스트 입력**을 클릭 합니다. 표시 되는 **헤더 이름 지정** 대화 상자에서 **스팸 방지-Report** 를 입력 한 다음 **확인**을 클릭 합니다.
 
-     - **단어 입력**을 클릭 합니다. **단어 또는 구 지정** 대화 상자가 나타나면 EOP 스팸 헤더 값 (**sfv: SPM**, **sfv: SKS**또는 **sfv: SKB**) 중 하나를 입력 하 **고 추가 아이콘** ![](../../media/ITPro-EAC-AddIcon.png)추가를 클릭 한 다음 **확인**을 클릭 합니다.
+     - **단어 입력**을 클릭 합니다. **단어 또는 구 지정** 대화 상자가 나타나면 EOP 스팸 헤더 값 (**SFV: SPM**, **Sfv: SKS**또는 **sfv: SKB**) 중 하나를 입력 하 고 추가 아이콘 추가를 **클릭 한** ![ ](../../media/ITPro-EAC-AddIcon.png) 다음 **확인**을 클릭 합니다.
 
-   - **다음을 수행**합니다. **메시지 속성** \> 수정을 선택 하 여 **SCL (스팸 지 수)을 설정**합니다.
+   - **다음을 수행**합니다. **메시지 속성 수정을** 선택 하 여 \> **SCL (스팸 지 수)을 설정**합니다.
 
      **SCL 지정** 대화 상자가 나타나면 **6** (기본값은 **5**)을 선택 합니다.
 
@@ -132,9 +132,9 @@ New-TransportRule -Name "EOP SFV:SKB to SCL 6" -HeaderContainsMessageHeader "X-F
 
 하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP를 구성 했는지 확인 하려면 다음 단계 중 하나를 수행 합니다.
 
-- EAC에서 **메일 흐름** \> **규칙**으로 이동 하 고 규칙을 선택한 다음 편집 아이콘 **Edit** ![](../../media/ITPro-EAC-EditIcon.png) 편집을 클릭 하 여 설정을 확인 합니다.
+- EAC에서 **메일 흐름** 규칙으로 이동 하 고 \> **Rules**규칙을 선택한 다음 **Edit** ![ 편집 아이콘 편집을 클릭 하 여 ](../../media/ITPro-EAC-EditIcon.png) 설정을 확인 합니다.
 
-- Exchange 관리 셸에서 Msrtcsip-rulename \<\> 을 메일 흐름 규칙의 이름으로 바꾸고 rul 다음 명령을 사용 하 여 설정을 확인 합니다.
+- Exchange 관리 셸에서 \< msrtcsip-rulename을 \> 메일 흐름 규칙의 이름으로 바꾸고 rul 다음 명령을 사용 하 여 설정을 확인 합니다.
 
   ```powershell
   Get-TransportRule -Identity "<RuleName>" | Format-List

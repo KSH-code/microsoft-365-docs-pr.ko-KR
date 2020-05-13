@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 description: Microsoft 365에서 항목을 사용자의 보관 사서함으로 자동으로 이동 하는 보관 및 삭제 정책을 만듭니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d2dd6d95018742247655f085553ad6583f8843d
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: d4c1bd1c993444c38596642bf974e734870c79d8
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034320"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208062"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>조직에서 사서함에 대한 보관 및 삭제 정책 설정하기
 
@@ -83,7 +83,7 @@ ms.locfileid: "44034320"
     
 6. **예** 를 클릭 하 여 경고 메시지를 닫고 선택한 각 사서함에 대해 보관 사서함을 사용 하도록 설정 하는 프로세스를 시작 합니다. 
     
-7. 프로세스가 완료 되 면 새로 고침 새로 **고침** ![](../media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png) 을 클릭 하 여 **보관** 페이지에서 목록을 업데이트 합니다. 
+7. 프로세스가 완료 되 면 새로 고침 새로 **고침** ![ ](../media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png) 을 클릭 하 여 **보관** 페이지에서 목록을 업데이트 합니다. 
     
     보관 사서함은 조직의 모든 사용자에 대해 사용 하도록 설정 됩니다.
     
@@ -117,7 +117,7 @@ ms.locfileid: "44034320"
   
 먼저 3 년 후에 항목을 보관 사서함으로 이동 하는 사용자 지정 보관 DPT (기본 정책 태그)를 만듭니다. 
   
-1. **보존 태그** 페이지에서 새 **태그**![새로 만들기 아이콘](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)을 클릭 한 다음 **전체 사서함에 자동으로 적용을 선택 합니다 (기본값)**. 
+1. **보존 태그** 페이지에서 새 **태그** ![ 새로 만들기 아이콘을 클릭 한 ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) 다음 **전체 사서함에 자동으로 적용을 선택 합니다 (기본값)**. 
     
 2. **전체 사서함에 자동으로 적용 되는 새 태그 (기본값)** 페이지에서 다음 필드를 작성 합니다. 
     
@@ -139,7 +139,7 @@ ms.locfileid: "44034320"
   
 다음으로 다른 사용자 지정 DPT를 만들지만 7 년 후에 항목을 영구적으로 삭제 하는 삭제 정책이 됩니다.
   
-1. **보존 태그** 페이지에서 새 **태그**![새로 만들기 아이콘](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)을 클릭 한 다음 **전체 사서함에 자동으로 적용을 선택 합니다 (기본값)**. 
+1. **보존 태그** 페이지에서 새 **태그** ![ 새로 만들기 아이콘을 클릭 한 ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) 다음 **전체 사서함에 자동으로 적용을 선택 합니다 (기본값)**. 
     
 2. **전체 사서함에 자동으로 적용 되는 새 태그 (기본값)** 페이지에서 다음 필드를 작성 합니다. 
     
@@ -161,7 +161,7 @@ ms.locfileid: "44034320"
   
 마지막으로 만들 보존 태그는 지운 편지함 폴더에 대 한 사용자 지정 보존 정책 태그 (RPT)입니다. 이 태그는 5 년 후에 지운 편지함 폴더의 항목을 삭제 하 고 사용자가 지운 편지함 복구 도구를 사용 하 여 항목을 복구할 수 있는 복구 기간을 제공 합니다.
   
-1. **보존 태그** 페이지에서 새 **태그** ![새로 만들기 아이콘](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)을 클릭 한 다음 **기본 폴더에 자동으로 적용**을 선택 합니다. 
+1. **보존 태그** 페이지에서 새 **태그** ![ 새로 만들기 아이콘을 클릭 한 ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) 다음 **기본 폴더에 자동으로 적용**을 선택 합니다. 
     
 2. **자동으로 기본 폴더 페이지에 적용 된 새 태그** 에서 다음 필드를 작성 합니다. 
     
@@ -187,11 +187,11 @@ ms.locfileid: "44034320"
   
 1. EAC에서 **규정 준수 관리** \> **보존 정책**으로 이동 합니다.
     
-2. **보존 정책** 페이지에서 **새로** ![만들기 아이콘](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)을 클릭 합니다.
+2. **보존 정책** 페이지에서 **새로** ![ 만들기 아이콘을 클릭 ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) 합니다.
     
 3. **이름** 상자에 새 보존 정책의 이름을 입력 합니다. 예를 들면 **알파인 하우스 보관 및 삭제 정책**입니다. 
     
-4. **보존 태그**에서 새 아이콘 **Add** ![](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)추가를 클릭 합니다.
+4. **보존 태그**에서 새 아이콘 **추가** 를 클릭 ![ ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) 합니다.
     
     조직의 보존 태그 목록이 표시 됩니다. 참고 2 단계에서 만든 사용자 지정 태그가 표시 됩니다.
     
@@ -230,7 +230,7 @@ ms.locfileid: "44034320"
     
 7. 사서함에 대 한 사서함을 선택 하 고 편집을 클릭 하 여 새 보존 정책에 할당 되었는지 확인 합니다. 
     
-1. **사서함** 페이지에서 사서함을 ![선택한](../media/d7dc7e5f-17a1-4eb9-b42d-487db59e2e21.png) **다음 편집을 클릭 합니다** . 
+1. **사서함** 페이지에서 사서함을 선택한 다음 편집 **을 클릭** ![ ](../media/d7dc7e5f-17a1-4eb9-b42d-487db59e2e21.png) 합니다. 
     
 2. 선택한 사용자에 대 한 사서함 속성 페이지에서 **사서함 기능**을 클릭 합니다.
     
@@ -243,37 +243,10 @@ ms.locfileid: "44034320"
  **관리 되는 폴더 도우미를 실행할 때 어떤 일이 발생 합니까?** 사서함의 항목을 조사 하 고 보존이 적용 되는지 여부를 결정 하 여 보존 정책의 설정을 적용 합니다. 그런 다음 해당 보존 태그를 사용 하 여 보존이 적용 되는 항목을 스탬프 처리 하 고 보존 기간이 지난 항목에 대해 지정 된 보존 작업을 수행 합니다. 
   
 다음은 Exchange Online PowerShell에 연결 하 고 조직의 모든 사서함에서 관리 되는 폴더 도우미를 실행 하는 단계입니다.
+
+1. [Exchange Online PowerShell에 연결합니다](https://go.microsoft.com/fwlink/p/?LinkId=517283).
   
-1. 로컬 컴퓨터에서 Windows PowerShell을 열고 다음 명령을 실행합니다.
-    
-    ```powershell
-    $UserCredential = Get-Credential
-    ```
-
-    **Windows PowerShell 자격 증명 요청** 대화 상자에서 전역 관리자 계정의 사용자 이름 및 암호를 입력 하 고 **확인**을 클릭 합니다.
-    
-2. 다음 명령을 실행합니다.
-    
-    ```powershell
-    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
-    ```
-
-3. 다음 명령을 실행합니다.
-    
-    ```powershell
-    Import-PSSession $Session
-    ```
-
-4. Exchange Online 조직에 연결 되었는지 확인 하려면 다음 명령을 실행 하 여 조직의 모든 사서함 목록을 가져옵니다.
-    
-    ```powershell
-    Get-Mailbox
-    ```
-
-    > [!NOTE]
-    > 자세한 내용을 보거나 Exchange Online 조직에 연결 하는 데 문제가 있는 경우 [Exchange Online PowerShell에 연결](https://go.microsoft.com/fwlink/p/?LinkId=517283)을 참조 하세요. 
-  
-5. 조직의 모든 사용자 사서함에 대해 관리 되는 폴더 도우미를 시작 하려면 다음 두 명령을 실행 합니다.
+2. 조직의 모든 사용자 사서함에 대해 관리 되는 폴더 도우미를 시작 하려면 다음 두 명령을 실행 합니다.
     
     ```powershell
     $Mailboxes = Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"}
@@ -289,7 +262,7 @@ ms.locfileid: "44034320"
 
 4 단계에서는 기존 사서함에 새 보존 정책을 할당 해야 합니다. 하지만 새 보존 정책이 앞으로 만들어질 새 사서함에 할당 되도록 Exchange Online을 구성할 수 있습니다. 이 작업은 Exchange Online PowerShell을 사용 하 여 조직의 기본 사서함 계획을 업데이트 하는 방식으로 수행 합니다. *사서함 계획* 은 새 사서함에 대 한 속성을 자동으로 구성 하는 서식 파일입니다.  이 선택적 단계에서는 사서함 계획에 할당 된 현재 보존 정책 (기본적으로 기본 MRM 정책)을 3 단계에서 만든 보존 정책으로 바꿀 수 있습니다. 사서함 요금제를 업데이트 하면 새 보존 정책이 새 사서함에 할당 됩니다.
 
-1. [Exchange Online PowerShell에 연결](https://go.microsoft.com/fwlink/p/?LinkId=517283) 하거나 5 단계를 참조 하세요.
+1. [Exchange Online PowerShell에 연결합니다](https://go.microsoft.com/fwlink/p/?LinkId=517283).
 
 2. 다음 명령을 실행 하 여 조직의 사서함 계획에 대 한 정보를 표시 합니다.
 

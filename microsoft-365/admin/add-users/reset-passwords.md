@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: '비즈니스용 Microsoft 365에서 사용자의 암호를 다시 설정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 32d2d529ab4e2592556613b016231dbbd93458b3
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.openlocfilehash: 0cd9bfe2b4f60ed0150e95f35d1f24994724ca60
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173521"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208201"
 ---
 # <a name="reset-passwords"></a>암호 다시 설정
 
@@ -79,13 +79,13 @@ ms.locfileid: "44173521"
 
 암호를 잊어 잊고 사용자의 암호가 브라우저에 저장 되어 있기 때문에 Microsoft 365에 로그인 할 수 있는 경우 다음 단계를 사용 합니다. 
     
-1. **내 계정** > **개인 정보**를 > 오른쪽 위 모서리에 있는 이름 (아이콘)을 선택 합니다. 
+1. **내 계정**  >  **개인 정보**를 > 오른쪽 위 모서리에 있는 이름 (아이콘)을 선택 합니다. 
           
 2. **연락처 세부 정보**에서 **대체 전자 메일이** 정확한 지, 휴대폰 번호를 제공 했는지를 두 번 확인 합니다. 그렇지 않으면 지금 변경 합니다. 
         
-3. 로그 아웃: 오른쪽 위 모서리에 있는 사용자 이름을 선택 합니다 (위의 이미지에서 **diane**표시 \> **됨).** 
+3. 로그 아웃: 오른쪽 위 모서리에 있는 사용자 이름을 선택 합니다 (위의 이미지에서 **diane**표시 됨) \> **Sign out**. 
         
-4. 이제 다시 로그인: \> **다음** \> 에 사용자 이름을 입력 하 고 **암호 잊음**를 선택 합니다. 
+4. 이제 다시 로그인: 다음에 사용자 이름을 입력 하 \> **Next** \> 고 **암호 잊음**를 선택 합니다. 
     
 5. 마법사의 단계에 따라 암호를 다시 설정 합니다. 대체 연락처 정보를 사용 하 여 암호를 다시 설정 하는 것이 올바른 사용자 인지 확인 합니다. 
     
@@ -100,7 +100,7 @@ ms.locfileid: "44173521"
 ## <a name="reset-all-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a>조직의 모든 사용자에 대 한 모든 비즈니스 암호를 동시에 다시 설정
 <a name="bkmk_forgot"> </a>
 
-다음 단계는 수십 명의 사용자가 속한 비즈니스에 적합한 방법입니다. 비즈니스에 수백 또는 수천 명의 사용자가 있는 경우 다음 섹션에서 대량으로 암호를 재설정하는 방법을 참조하세요.
+다음 단계는 수십 명의 사용자가 속한 비즈니스에 적합한 방법입니다. 수백 또는 수천 명의 사용자가 있는 경우 다음 섹션에서 대량으로 암호를 다시 설정 하는 방법 (한 번에 최대 40 사용자)을 참조 하세요.
   
 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
     

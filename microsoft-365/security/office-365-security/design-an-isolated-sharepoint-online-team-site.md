@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 775a4e9e-3135-4a48-b32f-bbdd9f2bd0aa
 description: 권한 수준 확인, 액세스 그룹을 사용 하는 사용자에 게 사용 권한 할당, 중첩 된 Azure AD 그룹 등 격리 된 SharePoint Online 팀 사이트를 디자인 합니다.
-ms.openlocfilehash: 4663a0b9710fc05d0b063a3100d3b5ac223a2161
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 821e15a05bc80e3795f9e18d4457416baf7145b7
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034843"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209514"
 ---
 # <a name="design-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 디자인
 
@@ -59,19 +59,19 @@ SharePoint 그룹의 구성원이 사이트에서 수행할 수 있는 작업을
   
 ## <a name="phase-2-assign-permissions-to-users-with-access-groups"></a>2 단계: 액세스 그룹을 사용 하 여 사용자에 게 사용 권한 할당
 
-사용자 계정이 구성원 인 Microsoft 365 또는 Azure AD 그룹을 추가 하 여 사용자에 게 사용 권한을 할당 하거나 SharePoint 그룹에 할당할 수 있습니다. 추가 된 사용자 계정에는 Microsoft 365 또는 Azure AD 그룹의 멤버 자격을 통해 직접 또는 간접적으로 해당 SharePoint 그룹에 연결 된 사용 권한 수준이 할당 됩니다.
+사용자 계정을 추가 하거나 사용자 계정이 구성원 인 Microsoft 365 또는 Azure AD 그룹을 SharePoint 그룹에 추가할 때 사용자에 게 사용 권한을 할당할 수 있습니다. 추가 된 사용자 계정에는 Microsoft 365 또는 Azure AD 그룹의 멤버 자격을 통해 직접 또는 간접적으로 해당 SharePoint 그룹에 연결 된 사용 권한 수준이 할당 됩니다.
   
 기본 SharePoint 그룹을 예로 사용 합니다.
   
-- 사용자 계정 및 그룹을 모두 포함할 수 있는 ** \<사이트 이름> members** SharePoint 그룹의 구성원에 게는 권한 **편집** 수준이 할당 됩니다.
+- 사용자 계정 및 그룹을 모두 포함할 수 있는 ** \< 사이트 이름> members** SharePoint 그룹의 구성원에 게는 권한 **편집** 수준이 할당 됩니다.
     
 - 사용자 계정 및 그룹을 모두 포함할 수 있는 방문자 SharePoint 그룹 ** \<> 사이트 이름의** 구성원에 게는 **읽기** 권한 수준이 할당 됩니다.
     
-- 사용자 계정 및 그룹을 모두 포함할 수 있는 ** \<사이트 이름> 소유자** SharePoint 그룹의 구성원에 게는 **모든** 권한 수준 할당
+- 사용자 계정 및 그룹을 모두 포함할 수 있는 ** \< 사이트 이름> 소유자** SharePoint 그룹의 구성원에 게는 **모든** 권한 수준 할당
     
  **모범 사례:** 개별 사용자 계정을 통해 사용 권한을 관리할 수는 있지만 대신 액세스 그룹 이라고 하는 단일 Azure AD 그룹을 사용 하는 것이 좋습니다. 이를 통해 각 SharePoint 그룹의 사용자 계정 목록을 관리 하는 것이 아니라 액세스 그룹의 구성원을 통해 사용 권한을 쉽게 관리할 수 있습니다.
   
-Microsoft 365의 Azure AD 그룹은 Microsoft 365 그룹과는 다릅니다. Azure AD 그룹은 Microsoft 365 관리 센터에 나타나며, 해당 **유형은** **Security** 로 설정 되며 전자 메일 주소를 포함 하지 않습니다. Azure AD 그룹은 다음 내에서 관리할 수 있습니다.
+Microsoft 365의 Azure AD 그룹은 다른 tha Microsoft 365 그룹입니다. Azure AD 그룹은 Microsoft 365 관리 센터에 나타나며, 해당 **유형은** **Security** 로 설정 되며 전자 메일 주소를 포함 하지 않습니다. Azure AD 그룹은 다음 내에서 관리할 수 있습니다.
   
 - AD DS(Active Directory 도메인 서비스)
     
@@ -99,9 +99,9 @@ Azure AD 기반 액세스 그룹을 사용 하도록 구성 된 기본 SharePoin
   
 세 개의 액세스 그룹을 디자인할 때는 다음 사항을 염두에 두어야 합니다.
   
-- 팀 사이트를 관리 하는 소수의 SharePoint Online 관리자에 게 해당 하는 ** \<사이트 이름> Admins** 액세스 그룹의 구성원은 몇 명만 있어야 합니다.
+- 팀 사이트를 관리 하는 소수의 SharePoint Online 관리자에 게 해당 하는 ** \< 사이트 이름> Admins** 액세스 그룹의 구성원은 몇 명만 있어야 합니다.
     
-- 대부분의 사이트 구성원은 ** \<사이트 이름> 구성원** 또는 ** \<사이트 이름> viewer** 액세스 그룹에 있습니다. 사이트 ** \<이름> 구성원** 액세스 그룹의 사이트 구성원은 사이트의 리소스를 삭제 하거나 수정할 수 있기 때문에 멤버 자격을 신중 하 게 고려해 야 합니다. 의심 스러운 경우 사이트 구성원을 ** \<사이트 이름> viewer** 액세스 그룹에 추가 합니다.
+- 대부분의 사이트 구성원은 ** \< 사이트 이름> 구성원** 또는 ** \< 사이트 이름> viewer** 액세스 그룹에 있습니다. 사이트 ** \< 이름> 구성원** 액세스 그룹의 사이트 구성원은 사이트의 리소스를 삭제 하거나 수정할 수 있기 때문에 멤버 자격을 신중 하 게 고려해 야 합니다. 의심 스러운 경우 사이트 구성원을 ** \< 사이트 이름> viewer** 액세스 그룹에 추가 합니다.
     
 다음은 ProjectX 라는 격리 된 사이트에 대 한 SharePoint 그룹 및 액세스 그룹의 예입니다.
   

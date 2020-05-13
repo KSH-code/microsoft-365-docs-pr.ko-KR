@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: 관리자는 조직의 HR (인적 자원) 시스템에서 직원 데이터를 Microsoft 365로 가져오는 데이터 커넥터를 설정할 수 있습니다. 이를 통해 참가자 위험 관리 정책에 HR 데이터를 사용 하 여 조직에 내부적인 위협을 초래할 수 있는 특정 사용자의 작업을 검색 하는 데 도움을 받을 수 있습니다.
-ms.openlocfilehash: 118e2a8ad4ff134a4529e3ffc95fa22cdb7cbdaf
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.openlocfilehash: 69b290dfb6d5a07ad0fd3b0b356a4b9f6d467613
+ms.sourcegitcommit: ab0a944159d9349fbc7adc2f51c7f881254d7782
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173488"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210574"
 ---
-# <a name="set-up-a-connector-to-import-hr-data"></a>HR 데이터를 가져올 커넥터 설정
+# <a name="set-up-a-connector-to-import-hr-data-preview"></a>HR 데이터를 가져오기 위한 연결선 설정 (미리 보기)
 
 Microsoft 365 준수 센터에서 데이터 커넥터를 설정 하 여 직원 들이 직원의 resignation 및 날짜를 제출한 날짜와 같은 HR (인적 자원) 데이터를 가져올 수 있습니다. 이 HR 데이터는 새로운 [참가자 위험 관리 솔루션과](insider-risk-management.md)같은 Microsoft 정보 보호 솔루션에서 조직의 악의적인 활동 또는 데이터 절도 로부터 조직을 보호 하는 데 도움이 될 수 있습니다. HR 커넥터를 설정 하는 작업은 커넥터를 통한 인증에 사용 되는 Azure Active Directory에서 응용 프로그램을 만들고, HR 데이터를 포함 하는 CSV 매핑 파일을 만들고, 준수 센터에서 데이터 커넥터를 만든 다음, CSV 파일의 HR 데이터를 Microsoft 클라우드에 ingests 스크립트 (예약 된 방식)를 실행 하는 방법으로 구성 됩니다. 그런 다음 데이터 커넥터를 사용 하 여 microsoft 365 조직으로 가져온 HR 데이터에 액세스 하는 데에는 insider 위기 관리 등의 Microsoft 규정 준수 솔루션입니다.
 
@@ -64,8 +64,8 @@ CSV 파일의 첫 번째 행 또는 머리글 행에는 필요한 열 이름이 
 |**열 이름**|**설명**|
 |:-----|:-----|
 | **EmailAddress** <br/> |종료 된 직원의 전자 메일 주소를 지정 합니다.|
-| **TerminationDate** <br/> |조직의 직원이 공식적으로 종료 된 날짜를 지정 합니다. 예를 들어 직원에 게 조직 내 상태에 대 한 알림이 제공 된 날짜를 예로 들 수 있습니다. 이 날짜는 사용자가 마지막으로 작업 한 날짜와 다를 수 있습니다. [ISO 8601 날짜 및 시간 형식인](https://www.iso.org/iso-8601-date-and-time-format.html)와 `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm`같은 날짜 형식을 사용 해야 합니다.|
-|**LastWorkingDate**|종료 된 직원에 대 한 마지막 작업 날짜를 지정 합니다. [ISO 8601 날짜 및 시간 형식인](https://www.iso.org/iso-8601-date-and-time-format.html)와 `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm`같은 날짜 형식을 사용 해야 합니다.|
+| **TerminationDate** <br/> |조직의 직원이 공식적으로 종료 된 날짜를 지정 합니다. 예를 들어 직원에 게 조직 내 상태에 대 한 알림이 제공 된 날짜를 예로 들 수 있습니다. 이 날짜는 사용자가 마지막으로 작업 한 날짜와 다를 수 있습니다. `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` [ISO 8601 날짜 및 시간 형식인와](https://www.iso.org/iso-8601-date-and-time-format.html)같은 날짜 형식을 사용 해야 합니다.|
+|**LastWorkingDate**|종료 된 직원에 대 한 마지막 작업 날짜를 지정 합니다. `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` [ISO 8601 날짜 및 시간 형식인와](https://www.iso.org/iso-8601-date-and-time-format.html)같은 날짜 형식을 사용 해야 합니다.|
 |||
 
 필요한 HR 데이터로 CSV 파일을 만든 후에는 4 단계에서 실행 하는 스크립트와 같은 시스템에 저장 합니다. 또한 스크립트를 실행 하는 데 필요한 모든 정보를 Microsoft 클라우드에 업로드 하기 위해 CSV 파일에 항상 최신 정보가 포함 되도록 하기 위해 업데이트 전략을 구현 해야 합니다.
@@ -118,7 +118,7 @@ HR 커넥터를 설정 하는 마지막 단계는 2 단계에서 만든 CSV 파�
 
 4. 필요한 경우 조직에 대 한 예제 스크립트를 수정 합니다.
 
-5. 파일 이름 접미사를 사용 하 여 Windows PowerShell 스크립트 파일로 텍스트 파일을 저장 합니다 `.ps1`. 예를 `HRConnector.ps1`들면입니다.
+5. 파일 이름 접미사를 사용 하 여 텍스트 파일을 Windows PowerShell 스크립트 파일로 저장 `.ps1` 합니다 (예:) `HRConnector.ps1` .
 
 6. 로컬 컴퓨터에서 명령 프롬프트를 열고 스크립트를 저장 한 디렉터리로 이동 합니다.
 
@@ -151,7 +151,7 @@ HR 커넥터를 설정 하는 마지막 단계는 2 단계에서 만든 CSV 파�
 
 HR 커넥터를 만들고 스크립트를 실행 하 여 HR 데이터를 업로드 한 후에는 Microsoft 365 준수 센터에서 커넥터 및 업로드 상태를 볼 수 있습니다. 스크립트를 정기적으로 실행 하도록 예약 하는 경우 마지막으로 스크립트를 실행 한 후 현재 상태를 볼 수 있습니다.
 
-1. [https://compliance.microsoft.com](https://compliance.microsoft.com) 으로 이동 하 여 왼쪽 탐색 창에서 **데이터 커넥터** 를 클릭 합니다.
+1. 으로 이동 하 여 [https://compliance.microsoft.com](https://compliance.microsoft.com) 왼쪽 탐색 창에서 **데이터 커넥터** 를 클릭 합니다.
 
 2. **커넥터 탭을** 클릭 한 다음 HR 커넥터를 선택 하 여 커넥터에 대 한 속성 및 정보가 포함 된 플라이 아웃 페이지를 표시 합니다.
 
@@ -199,7 +199,7 @@ Windows의 작업 스케줄러 응용 프로그램에서 매일 자동으로 스
 
    a. **작업** 드롭다운 목록에서 **프로그램 시작** 을 선택 했는지 확인 합니다.
 
-   b. **프로그램/스크립트** 상자에서 **찾아보기를**클릭 하 고 다음 위치로 이동 하 여 경로를 상자에 표시 하도록 선택 `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe`합니다.
+   b. **프로그램/스크립트** 상자에서 **찾아보기를**클릭 하 고 다음 위치로 이동 하 여 경로를 상자에 표시 하도록 선택 `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe` 합니다.
 
    c. **인수 추가 (선택 사항)** 상자에 4 단계에서 실행 한 것과 동일한 스크립트 명령을 붙여 넣습니다. 예를 들어`.\HRConnector.ps1 -tenantId "d5723623-11cf-4e2e-b5a5-01d1506273g9" -appId "c12823b7-b55a-4989-faba-02de41bb97c3" -appSecret "MNubVGbcQDkGCnn"  -jobId "e081f4f4-3831-48d6-7bb3-fcfab1581458" -csvFilePath "C:\Users\contosoadmin\Desktop\Data\employee_termination_data.csv"`
 

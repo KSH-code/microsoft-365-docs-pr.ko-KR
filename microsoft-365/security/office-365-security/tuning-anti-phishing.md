@@ -11,17 +11,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
-description: 관리자는 피싱 메시지의 원인과 방법을 파악 하 고, 향후 피싱 메시지를 더 많이 차단 하기 위해 수행 해야 하는 작업에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: a27d41b01069e763ea2b3baab6576c8046b0f8e7
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 관리자는 Microsoft 365에서 피싱 메시지를 통해 얻은 이유와 방법을 파악 하 고, 향후 피싱 메시지를 더 많이 방지 하기 위해 수행 해야 하는 작업에 대해 알아봅니다.
+ms.openlocfilehash: a9b7a58f32fd14c157d72e8f91a1f1b8bfe3aedc
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631136"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208588"
 ---
 # <a name="tune-anti-phishing-protection"></a>피싱 방지 보호 기능 조정
 
-Microsoft 365에는 기본적으로 사용 하도록 설정 된 다양 한 피싱 방지 기능이 포함 되어 있지만 일부 피싱 메시지가 여전히 사서함으로 이동할 수 있습니다. 이 항목에서는 피싱 메시지가 발생 한 이유를 파악 하기 위해 수행할 수 있는 작업과 _실수로 작업을 더 어렵게 만들지 않고_Exchange Online 조직에서 피싱 방지 설정을 조정 하기 위해 수행할 수 있는 작업에 대해 설명 합니다.
+Microsoft 365에는 기본적으로 사용 하도록 설정 된 다양 한 피싱 방지 기능이 포함 되어 있지만 일부 피싱 메시지가 여전히 사서함으로 이동할 수 있습니다. 이 항목에서는 피싱 메시지가 발생 한 이유를 파악 하기 위해 수행할 수 있는 작업과 _실수로 작업을 더 악화 하지 않고_Microsoft 365 조 직에서 피싱 방지 설정을 조정 하기 위해 수행할 수 있는 작업에 대해 설명 합니다.
 
 ## <a name="first-things-first-deal-with-any-compromised-accounts-and-make-sure-you-block-any-more-phishing-messages-from-getting-through"></a>첫 번째 작업: 손상 된 계정을 처리 하 고 더 이상 피싱 메시지를 수신 하지 못하도록 차단 합니다.
 
@@ -33,7 +33,7 @@ Microsoft 365에는 기본적으로 사용 하도록 설정 된 다양 한 피�
 
 - [ATP 안전한 첨부 파일](set-up-atp-safe-attachments-policies.md)
 
-- [Office 365의 ATP 피싱 방지 정책](configure-atp-anti-phishing-policies.md) 정책의 **고급 피싱 임계값** 을 **표준** 에서 일시적 **으로, 적극적** **으로 또는** **적극적인**로 높일 수 있습니다.
+- [Microsoft 365의 ATP 피싱 방지 정책](configure-atp-anti-phishing-policies.md) 정책의 **고급 피싱 임계값** 을 **표준** 에서 일시적 **으로, 적극적** **으로 또는** **적극적인**로 높일 수 있습니다.
 
 ATP 기능이 설정 되어 있는지 확인 합니다.
 
@@ -45,7 +45,7 @@ ATP 기능이 설정 되어 있는지 확인 합니다.
 
 피싱 메시지의 헤더를 검사 하 여 더 많은 피싱 메시지를 통해 들어오는 것을 방지 하기 위해 수행할 수 있는 작업이 있는지 확인할 수 있습니다. 즉 메시지 헤더를 검사 하면에서 피싱 메시지를 허용 하는 일을 담당 하는 조직의 설정을 식별 하는 데 도움이 될 수 있습니다.
 
-특히 SFV (스팸 필터링 결과) 값에서 건너뛴 스팸 또는 피싱 필터링이 표시 되는 메시지 헤더에서 **스팸 방지-Report** 헤더 필드를 확인 해야 합니다. 필터링을 건너뛰지 않는 메시지에는 항목이 있는데 `SCL:-1`,이는 설정 중 하나에서 서비스에 의해 결정 된 스팸 또는 피싱 verdicts를 재정의 하 여이 메시지를 허용 한다는 것을 의미 합니다. 사용 가능한 모든 스팸 방지 및 피싱 메시지 헤더의 전체 목록 및 메시지 헤더를 가져오는 방법에 대 한 자세한 내용은 [스팸 방지 메시지 헤더 (Office 365)](anti-spam-message-headers.md)를 참조 하세요.
+특히 SFV (스팸 필터링 결과) 값에서 건너뛴 스팸 또는 피싱 필터링이 표시 되는 메시지 헤더에서 **스팸 방지-Report** 헤더 필드를 확인 해야 합니다. 필터링을 건너뛰지 않는 메시지에는 항목이 있는데 `SCL:-1` ,이는 설정 중 하나에서 서비스에 의해 결정 된 스팸 또는 피싱 verdicts를 재정의 하 여이 메시지를 허용 한다는 것을 의미 합니다. 사용 가능한 모든 스팸 방지 및 피싱 메시지 헤더의 전체 목록 및 메시지 헤더를 가져오는 방법에 대 한 자세한 내용은 [스팸 방지 메시지 헤더 (Microsoft 365)](anti-spam-message-headers.md)를 참조 하십시오.
 
 ## <a name="best-practices-to-stay-protected"></a>보호를 유지 하기 위한 모범 사례
 
@@ -61,17 +61,17 @@ ATP 기능이 설정 되어 있는지 확인 합니다.
 
   - SPF 레코드에 도메인의 보낸 사람에 대 한 _모든_ 전자 메일 원본이 식별 되는지 확인 합니다 (타사 서비스를 잊지 마십시오.).
 
-  - 권한 없는 보낸 사람이\-이를 수행 하도록 구성 된 전자 메일 시스템에 의해 거부 되도록 하려면 hard fail ()을 사용 합니다. [스푸핑 인텔리전스](learn-about-spoof-intelligence.md) 를 사용 하면 SPF 레코드에 권한이 부여 된 타사 보낸 사람을 포함할 수 있도록 도메인을 사용 중인 보낸 사람을 식별 하는 데 도움이 됩니다.
+  - \-권한 없는 보낸 사람이이를 수행 하도록 구성 된 전자 메일 시스템에 의해 거부 되도록 하려면 hard fail ()을 사용 합니다. [스푸핑 인텔리전스](learn-about-spoof-intelligence.md) 를 사용 하면 SPF 레코드에 권한이 부여 된 타사 보낸 사람을 포함할 수 있도록 도메인을 사용 중인 보낸 사람을 식별 하는 데 도움이 됩니다.
 
   구성 지침에 대해서는 다음을 참조 하세요.
   
-  - [스푸핑을 방지 하기 위한 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
+  - [스푸핑을 방지할 수 있도록 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
-  - [DKIM을 사용 하 여 사용자 지정 도메인에서 전송 되는 아웃 바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)
+  - [DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)
 
   - [DMARC를 사용하여 전자 메일의 유효성 검사](use-dmarc-to-validate-email.md)
 
-- 가능한 경우에는 항상 도메인에 대 한 전자 메일을 Office 365에 직접 배달 하는 것이 좋습니다. 즉, Office 365 도메인의 MX 레코드를 Office 365에 가리키도록 합니다. EOP (Exchange Online Protection)은 메일이 Office 365로 직접 배달 될 때 클라우드 사용자에 게 최상의 보호를 제공할 수 있습니다. EOP 앞에 타사 전자 메일 바이러스 예방 시스템을 사용 해야 하는 경우에는 커넥터에 대 한 고급 필터링을 사용 합니다. 자세한 내용은 [Exchange Online의 커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)을 참조 하십시오.
+- 가능한 경우에는 항상 도메인에 대 한 전자 메일을 Microsoft 365로 직접 배달 하는 것이 좋습니다. 즉, Microsoft 365 도메인의 MX 레코드를 Microsoft 365로 가리킵니다. EOP (Exchange Online Protection)은 메일이 Microsoft 365로 직접 배달 될 때 클라우드 사용자에 게 최상의 보호를 제공할 수 있습니다. EOP 앞에 타사 전자 메일 바이러스 예방 시스템을 사용 해야 하는 경우에는 커넥터에 대 한 고급 필터링을 사용 합니다. 자세한 내용은 [Exchange Online의 커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)을 참조 하십시오.
 
 - MFA (multi-factor authentication)는 손상 된 계정을 방지 하는 좋은 방법입니다. 모든 사용자에 대해 MFA를 사용 하도록 설정 하는 것이 좋습니다. 단계적 접근 방식에서는 모든 사용자에 대해 MFA를 사용 하도록 설정 하기 전에 가장 중요 한 사용자 (관리자, 임원 등)에 대해 MFA를 사용 하도록 설정 하는 것부터 시작 합니다. 자세한 내용은 [다단계 인증 설정을](../../admin/security-and-compliance/set-up-multi-factor-authentication.md)참조 하십시오.
 

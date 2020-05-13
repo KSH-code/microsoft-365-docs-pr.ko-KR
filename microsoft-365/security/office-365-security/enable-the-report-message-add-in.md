@@ -16,17 +16,17 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: 개별 사용자 또는 전체 조직에 대해 Outlook 및 웹용 outlook 용 보고서 메시지 추가 기능을 사용 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 22ce1c8e8084cb0bcbcb2f9fa4c0c80e1a59bf9c
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: 67fe2112e5d507ac1f0dc78ffa3534ebc9874916
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939478"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209490"
 ---
 # <a name="enable-the-report-message-add-in"></a>보고서 메시지 추가 기능을 사용하도록 설정
 
 > [!NOTE]
-> Exchange Online 사서함을 사용 하는 조직의 관리자 인 경우 보안 & 준수 센터에서 전송 포털을 사용 하는 것이 좋습니다. 자세한 내용은 [관리자 제출을 사용 하 여 의심 스러운 스팸, 피싱, url 및 파일을 Microsoft에 제출](admin-submission.md)합니다 .를 참조 하세요.
+> Exchange Online 사서함이 있는 Microsoft 365 조직의 관리자 인 경우 보안 & 준수 센터에서 전송 포털을 사용 하는 것이 좋습니다. 자세한 내용은 [관리자 제출을 사용 하 여 의심 스러운 스팸, 피싱, url 및 파일을 Microsoft에 제출](admin-submission.md)합니다 .를 참조 하세요.
 
 Outlook 및 웹용 Outlook에 대 한 보고서 메시지 추가 기능 (이전의 Outlook Web App)은 사용자가 가양성 (잘못 된 것으로 표시 된 전자 메일) 또는 거짓 네거티브 (잘못 된 전자 메일 허용)를 Microsoft와 해당 계열사로 쉽게 보고할 수 있도록 합니다. Microsoft는 이러한 전송을 사용 하 여 전자 메일 보호 기술의 효율성을 개선 합니다.
 
@@ -54,7 +54,7 @@ Outlook 및 웹용 Outlook에 대 한 보고서 메시지 추가 기능 (이전�
   - 온-프레미스 Exchange 조직의 사서함
   - GCC, GCC HIGH 또는 DoD 구독
 
-- 보고 된 메시지가 사용자가 지정한 사서함으로 복사 되거나 리디렉션되도록 구성할 수 있습니다. 자세한 내용은 [Office 365에서 스팸 및 피싱 메시지의 사용자 제출을 위한 사서함을 지정](user-submission.md)합니다 .를 참조 하세요.
+- 보고 된 메시지가 사용자가 지정한 사서함으로 복사 되거나 리디렉션되도록 구성할 수 있습니다. 자세한 내용은 [Exchange Online의 스팸 및 피싱 메시지에 대 한 사용자 제출을 위한 사서함 지정](user-submission.md)을 참조 하세요.
 
 - 기존 웹 브라우저가 보고서 메시지 추가 기능을 사용 하 여 작동 해야 합니다. 그러나 추가 기능이 사용 가능 하지 않거나 예상 대로 작동 하지 않는 경우 다른 브라우저를 사용해 보세요.
 
@@ -64,7 +64,7 @@ Outlook 및 웹용 Outlook에 대 한 보고서 메시지 추가 기능 (이전�
 
 ## <a name="get-the-report-message-add-in-for-yourself"></a>사용자를 위한 보고서 메시지 추가 기능 가져오기
 
-1. Microsoft AppSource로 이동 <https://appsource.microsoft.com/marketplace/apps> 하 여 보고서 메시지 추가 기능을 검색 합니다. 보고서 메시지 추가 기능으로 바로 이동 하려면로 <https://appsource.microsoft.com/product/office/wa104381180>이동 합니다.
+1. Microsoft AppSource로 이동 하 여 <https://appsource.microsoft.com/marketplace/apps> 보고서 메시지 추가 기능을 검색 합니다. 보고서 메시지 추가 기능으로 바로 이동 하려면로 이동 <https://appsource.microsoft.com/product/office/wa104381180> 합니다.
 
 2. **지금 다운로드**를 클릭 합니다.
 
@@ -91,7 +91,7 @@ Outlook 및 웹용 Outlook에 대 한 보고서 메시지 추가 기능 (이전�
 > [!NOTE]
 > 조직에 추가 기능을 표시 하는 데 최대 12 시간이 걸릴 수 있습니다.
 
-1. Microsoft 365 관리 센터에서 **서비스 & 추가** 기능 페이지로 <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns>이동한 후 **추가 기능 배포**를 클릭 합니다.
+1. Microsoft 365 관리 센터에서 **서비스 & 추가** 기능 페이지로 이동한 <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> 후 **추가 기능 배포**를 클릭 합니다.
 
    ![Microsoft 365 관리 센터의 서비스 및 추가 기능 페이지](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
@@ -101,7 +101,7 @@ Outlook 및 웹용 Outlook에 대 한 보고서 메시지 추가 기능 (이전�
 
    ![새 추가 기능 페이지 배포](../../media/NewAddInScreen2.png)
 
-4. 표시 되는 **추가 기능 선택** 페이지에서 **검색** 상자를 클릭 하 고 **보고서 메시지**를 입력 한 다음 **검색** ![검색 아이콘](../../media/search-icon.png)을 클릭 합니다. 결과 목록에서 **보고서 메시지** 를 찾은 다음 **추가**를 클릭 합니다.
+4. 표시 되는 **추가 기능 선택** 페이지에서 **검색** 상자를 클릭 하 고 **보고서 메시지**를 입력 한 다음 **검색** ![ 검색 아이콘을 클릭 ](../../media/search-icon.png) 합니다. 결과 목록에서 **보고서 메시지** 를 찾은 다음 **추가**를 클릭 합니다.
 
    ![추가 기능 검색 결과 선택](../../media/NewAddInScreen3.png)
 
@@ -118,7 +118,7 @@ Outlook 및 웹용 Outlook에 대 한 보고서 메시지 추가 기능 (이전�
    - **배포 방법**: 다음 값 중 하나를 선택 합니다.
 
      - **Fixed (기본값)**: 추가 기능이 지정 된 사용자에 게 자동으로 배포 되며 제거할 수 없습니다.
-     - **사용 가능**: 사용자가 **홈** \> 에 추가 기능을 설치할 수 있습니다 **관리 관리**를 **시작** \> 합니다.
+     - **사용 가능**: 사용자가 **홈** 에 추가 기능을 설치할 수 있습니다 \> **Get add-ins** \> **관리 관리**를 시작 합니다.
      - **선택 사항**: 추가 기능은 지정 된 사용자에 게 자동으로 배포 되지만 제거할 수 있습니다.
 
    ![추가 기능 페이지 구성](../../media/configure-add-in.png)
@@ -149,7 +149,7 @@ Outlook 및 웹용 Outlook에 대 한 보고서 메시지 추가 기능 (이전�
 
 ## <a name="review-or-edit-settings-for-the-report-message-add-in"></a>보고서 메시지 추가 기능의 설정 검토 또는 편집
 
-1. Microsoft 365 관리 센터에서 **서비스 & 추가 기능** 페이지로 이동 <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns>합니다.
+1. Microsoft 365 관리 센터에서 **서비스 & 추가 기능** 페이지로 이동 <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> 합니다.
 
    ![새 Microsoft 365 관리 센터의 서비스 및 추가 기능 페이지](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 

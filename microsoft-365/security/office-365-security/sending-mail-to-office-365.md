@@ -2,10 +2,10 @@
 title: Microsoft 365로 메일 보내기
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 04/09/2016
+ms.date: ''
 audience: ITPro
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -18,16 +18,16 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 외부의 보낸 사람에 대 한 자세한 내용은 Microsoft 365에서 사용자에 게 전자 메일을 배달 하는 기능을 향상 시킬 수 있는 방법을 설명 합니다. 또한 정크 메일 & 외부 사용자로 보고 하는 방법에 대해서도 알아봅니다.
-ms.openlocfilehash: c1086088a92240be4bb7bbbd52077cecb1c54476
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: c464d09ddd5f6324c9b3e22e9cad6a613862c9a1
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035387"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209826"
 ---
 # <a name="sending-mail-to-microsoft-365"></a>Microsoft 365로 메일 보내기
 
-이러한 문서는 외부 보낸 사람이 신뢰도를 개선 하 고 Office 365에서 사용자에 게 전자 메일을 배달 하는 기능을 향상 시키는 데 도움이 됩니다. 또한 Microsoft 365 사용자가 아닌 경우에도 정크 메일 및 피싱 시도를 보고 하는 방법에 대 한 몇 가지 정보를 제공 합니다.
+이러한 문서는 외부 보낸 사람이 신뢰도를 개선 하 고 Microsoft 365에서 사용자에 게 전자 메일을 배달 하는 기능을 향상 시키는 데 도움이 됩니다. 또한 Microsoft 365 사용자가 아닌 경우에도 정크 메일 및 피싱 시도를 보고 하는 방법에 대 한 몇 가지 정보를 제공 합니다.
 
 고객이 아닌 사용자에 게 메일을 보내려고 하는 경우 해당 위치에 있는 것입니다. 관리자 인 경우 스팸을 방지 하는 데 도움이 필요한 경우에는이 섹션을 적절 하 게 사용할 수 없습니다. 대신 [Microsoft 365의 스팸 방지 및 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md)로 이동 합니다.
 

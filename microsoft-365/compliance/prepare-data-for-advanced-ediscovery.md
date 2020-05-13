@@ -15,20 +15,20 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2fb94c23-1846-4a0e-994d-da6d02445f15
-description: '보안 &amp; 및 준수 센터를 사용 하 여 고급 eDiscovery로 분석을 위한 데이터를 준비 하는 방법을 알아봅니다. '
-ms.openlocfilehash: edc92aeac0c76e64d1d2dcfd6ceae08d766b9397
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: '보안 및 준수 센터를 사용 하 여 &amp; 고급 eDiscovery로 분석을 위한 데이터를 준비 하는 방법을 알아봅니다. '
+ms.openlocfilehash: 25b500e88e53dfae9b8fa9d504a402f4e2f7ce12
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626662"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208102"
 ---
 # <a name="prepare-data-for-advanced-ediscovery-classic"></a>고급 eDiscovery에 대 한 데이터 준비 (클래식)
 
 이 항목에서는 Advanced eDiscovery (클래식)에서 사례에 대 한 콘텐츠 검색 결과를 로드 하는 방법에 대해 설명 합니다. 
   
 > [!IMPORTANT]
-> 최신 버전의 Advanced eDiscovery에 계속 투자 하기 때문에 고급 ediscovery *(클래식)* 또는 *advanced ediscovery v 1.0*이 라고도 하는 개선 된 작업을 발표 합니다. Advanced eDiscovery v1.0을 계속 사용하고 있는 경우 [Advanced eDiscovery v2.0](overview-ediscovery-20.md)(*Advanced eDiscovery solution in Microsoft 365*라고도 함)으로 전환하세요. Advanced eDiscovery 2.0에는 Advanced eDiscovery v1.0에 있는 유사한 기능이 포함되어 있습니다. 또한 보유자 관리, 통신 관리, 검토 집합 등의 새로운 기능도 제공합니다. Advanced eDiscovery v1.0의 사용 중지에 대한 자세한 내용은 [레거시 eDiscovery 도구의 사용 중지](legacy-ediscovery-retirement.md#advanced-ediscovery-v10)를 참조하세요.  
+> 최신 버전의 Advanced eDiscovery에 계속 투자함에 따라, Advanced eDiscovery(*Advanced eDiscovery(클래식)* 또는 *Advanced eDiscovery v1.0*이라고도 함)를 발표합니다. Advanced eDiscovery v1.0을 계속 사용하고 있는 경우 [Advanced eDiscovery v2.0](overview-ediscovery-20.md)(*Advanced eDiscovery solution in Microsoft 365*라고도 함)으로 전환하세요. Advanced eDiscovery 2.0에는 Advanced eDiscovery v1.0에 있는 유사한 기능이 포함되어 있습니다. 또한 보유자 관리, 통신 관리, 검토 집합 등의 새로운 기능도 제공합니다. Advanced eDiscovery v1.0의 사용 중지에 대한 자세한 내용은 [레거시 eDiscovery 도구의 사용 중지](legacy-ediscovery-retirement.md#advanced-ediscovery-v10)를 참조하세요.  
   
 ## <a name="step-1-prepare-data-for-advanced-ediscovery"></a>1 단계: 고급 eDiscovery에 대 한 데이터 준비
 
@@ -37,7 +37,7 @@ Advanced eDiscovery를 사용하여 데이터를 분석하려면 Microsoft 365 �
 고급 eDiscovery에서 분석에 대 한 검색 결과를 준비 하는 방법에 대 한 자세한 단계는 [Advanced ediscovery에 대 한 검색 결과 준비](prepare-search-results-for-advanced-ediscovery.md)를 참조 하십시오.
   
 > [!NOTE]
-> Microsoft 365 외부에 있는 데이터를 Microsoft 365로 가져와서 고급 eDiscovery에서이를 준비 하 고 분석할 수 있도록 하려는 경우에는 [PST 파일을 microsoft 365로 가져오기](https://support.office.com/article/ba688e0a-0fcb-4bd7-8e57-2b669564ea84) , [타사 데이터 보관](https://go.microsoft.com/fwlink/p/?linkid=716918)에 대 한 개요를 참조 하세요. 
+> Microsoft 365 외부에 있는 데이터를 Microsoft 365로 가져와서 고급 eDiscovery에서이를 준비 하 고 분석할 수 있도록 하려는 경우에는 [PST 파일을 microsoft 365로 가져오기](https://docs.microsoft.com/microsoft-365/compliance/importing-pst-files-to-office-365) , [타사 데이터 보관](https://go.microsoft.com/fwlink/p/?linkid=716918)에 대 한 개요를 참조 하세요. 
   
 ## <a name="step-2-load-search-result-data-in-to-a-case-in-advanced-ediscovery"></a>2단계: Advanced eDiscovery에서 사례에 검색 결과 데이터 로드
 
@@ -45,7 +45,7 @@ Advanced eDiscovery를 사용하여 데이터를 분석하려면 Microsoft 365 �
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 회사 또는 학교 계정을 사용 하 여 로그인 합니다.
+2. 회사 또는 학교 계정을 사용하여 로그인합니다.
     
 3. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
     

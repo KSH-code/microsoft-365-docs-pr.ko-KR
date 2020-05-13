@@ -17,23 +17,23 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 이 문서에서는 관리자가 Office 365에서 사용자를 위해 격리 된 메시지 및 파일을 관리 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: e69887b54b3e892775c16fa3e306da3b17ab7db3
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: 관리자는 EOP (Exchange Online Protection)에서 모든 사용자에 대해 격리 된 메시지를 확인 하 고 관리 하는 방법을 확인할 수 있습니다. Office 365 Advanced Threat Protection (Office 365 ATP)을 사용 하는 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀에서 격리 된 파일을 관리할 수도 있습니다.
+ms.openlocfilehash: 0f0dd7ee14aeb4558674a6e2240e022df3c489fc
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036176"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209010"
 ---
-# <a name="manage-quarantined-messages-and-files-as-an-administrator"></a>관리자로 격리된 메시지 및 파일 관리
+# <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>EOP에서 격리 된 메시지 및 파일을 관리자 권한으로 관리
 
-격리는 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange online Protection) 조직에 위험할 가능성이 있거나 원치 않는 메시지를 보유합니다. 자세한 내용은 [Office 365의 격리](quarantine-email-messages.md)를 참조하세요.
+Exchange online 사서함이 없는 exchange Online 또는 독립 실행형 EOP (Exchange Online Protection) 조직에 사서함이 있는 Microsoft 365 조직에서 격리는 잠재적으로 위험할 수도 있고 원치 않는 메시지를 보관 합니다. 자세한 내용은 [EOP에서 격리 된 전자 메일 메시지](quarantine-email-messages.md)를 참조 하십시오.
 
 관리자는 모든 사용자에 대해 모든 유형의 격리 된 메시지를 보고, 해제 하 고, 삭제할 수 있습니다. 관리자만 맬웨어, 높은 신뢰도 피싱 또는 메일 흐름 규칙 (전송 규칙이 라고도 함)의 결과로 격리 된 메시지를 관리할 수 있습니다. 관리자는 가양성을 Microsoft에 보고할 수도 있습니다.
 
-Office 365의 조직에 있는 관리자는 ATP (고급 위협 방지) 에서도 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀에서 격리 된 파일을 보고, 다운로드 하 고, 삭제할 수 있습니다.
+Office 365, 고급 위협 방지 (Office 365 ATP)를 사용 하는 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀에서 격리 된 파일을 보고 다운로드 하 고 삭제할 수도 있습니다.
 
-보안 & 준수 센터 또는 PowerShell (Microsoft 365 고객을 위한 Exchange Online PowerShell)에서 격리 된 메시지를 보고 관리 합니다. 독립 실행형 EOP 고객을 위한 Exchange Online Protection PowerShell
+격리 된 메시지는 보안 & 준수 센터 또는 PowerShell (exchange online 사서함이 없는 조직에 대 한 사서함이 있는 Microsoft 365 조 직의 경우 exchange 온라인 PowerShell)에서 확인 하 고 관리 합니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
@@ -46,8 +46,6 @@ Office 365의 조직에 있는 관리자는 ATP (고급 위협 방지) 에서도
 - 격리 된 메시지는 자동으로 삭제 되기 전에 기본 기간 동안 보존 됩니다.
 
   - 스팸 방지 정책 (스팸, 피싱 및 대량 전자 메일)에 의해 격리 된 메시지: 30 일 이 값은 기본값 및 최대값입니다. 이 값을 구성 하려면 [스팸 방지 정책 구성을](configure-your-spam-filter-policies.md)참조 하십시오.
-
-1. 조직에서 전역 관리자 권한 (또는 적절 한 보안 & 준수 센터 역할)이 있는 회사 또는 학교 계정을 사용 하 여 로그인 하 고 [보안 & 준수 센터로 이동](../../compliance/go-to-the-securitycompliance-center.md)합니다.
 
   - 맬웨어가 포함 된 메시지: 15 일
 
@@ -74,8 +72,6 @@ Office 365의 조직에 있는 관리자는 ATP (고급 위협 방지) 에서도
    - **해제되었나요?**<sup>\*</sup>
 
    - **정책 유형**<sup>\*</sup>
-
-1. 조직에서 전역 관리자 권한 (또는 적절 한 보안 & 준수 센터 역할)이 있는 회사 또는 학교 계정을 사용 하 여 로그인 하 고 [보안 & 준수 센터로 이동](../../compliance/go-to-the-securitycompliance-center.md)합니다.
 
    - **받는 사람**
 
@@ -125,7 +121,7 @@ Office 365의 조직에 있는 관리자는 ATP (고급 위협 방지) 에서도
 
    - **메시지 ID**: 메시지의 GUID(Globally Unique Identifier)입니다.
 
-        예를 들어 [메시지 추적](message-trace-scc.md) 을 사용 하 여 조직의 사용자에 게 전송 된 메시지를 찾고 메시지가 배달 되지 않고 격리 되었음을 확인 했습니다. 전체 메시지 ID 값에는 꺾쇠 괄호 (\<\>)가 포함 될 수 있습니다. 예: `<79239079-d95a-483a-aacf-e954f592a0f6@XYZPR00BM0200.contoso.com>`.
+     예를 들어 [메시지 추적](message-trace-scc.md) 을 사용 하 여 조직의 사용자에 게 전송 된 메시지를 찾고 메시지가 배달 되지 않고 격리 되었음을 확인 했습니다. 전체 메시지 ID 값에는 꺾쇠 괄호 ()가 포함 될 수 있습니다 \< \> . 예: `<79239079-d95a-483a-aacf-e954f592a0f6@XYZPR00BM0200.contoso.com>` .
 
    - **보낸 사람 전자 메일 주소**: 보낸 사람 한 명의 전자 메일 주소입니다.
 
@@ -240,7 +236,7 @@ ATP가 있는 조직에서는 관리자가 격리 된 파일을 SharePoint Onlin
 
 2. **격리 된 보기** 를 기본 값 **파일로**변경 합니다. 사용 가능한 열 머리글을 클릭 하 여 필드를 정렬할 수 있습니다.
 
-3. 사용 가능한 열 헤더를 클릭하여 결과를 정렬할 수 있습니다. **열 수정**을 클릭하여 최대 7개의 열을 표시합니다. 기본 열에는 별표 (<sup>\*</sup>)가 표시 됩니다.
+3. 사용 가능한 열 헤더를 클릭하여 결과를 정렬할 수 있습니다. **열 수정**을 클릭하여 최대 7개의 열을 표시합니다. 기본 열에는 별표 ()가 표시 됩니다 <sup>\*</sup> .
 
    - **사용자**<sup>\*</sup>
 

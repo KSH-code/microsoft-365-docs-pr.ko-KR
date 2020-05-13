@@ -14,12 +14,12 @@ ms.assetid: 81b75194-3b04-48da-8b81-951afbabedde
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 온-프레미스 전자 메일 보안 어플라이언스 또는 클라우드 기반 보호 서비스에서 EOP (Exchange Online Protection)로 전환 하는 방법을 알아봅니다.
-ms.openlocfilehash: 4bbd0b60d42b52d5c9343126f12059fcf1fc3d62
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: d7b2cfbe84d1e03bcd549c5220f6063592962792
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035227"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209274"
 ---
 # <a name="switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco-ironport"></a>Google Postini, Barracuda Spam and Virus Firewall 또는 Cisco IronPor에서 EOP로 전환
 
@@ -55,9 +55,9 @@ Microsoft 365 설치 프로세스를 진행 하는 동안 클라우드 기반 �
 
 EOP로 전환하도록 결정한 경우 다음 영역을 특별히 고려해야 합니다.
 
-- **사용자 지정 필터링 규칙**: 특정 스팸을 catch 하는 사용자 지정 필터링 또는 비즈니스 정책 규칙이 있는 경우 규칙을 마이그레이션하기 전에 해당 기간의 기본 설정을 사용 하 여 EOP을 시도 하는 것이 좋습니다. EOP는 기본 설정에서 엔터프라이즈 수준의 스팸 보호를 제공하므로 규칙 일부를 EOP로 마이그레이션하지 않아도 됩니다. 물론 특정한 사용자 지정 비즈니스 정책을 적용하는 규칙이 있는 경우 해당 규칙을 만들면 됩니다. [Exchange Online Protection의 메일 흐름 규칙 (전송 규칙)](mail-flow-rules-transport-rules-0.md) EOP에서 메일 흐름 규칙을 만드는 방법에 대 한 자세한 지침을 제공 합니다.
+- **사용자 지정 필터링 규칙**: 특정 스팸을 catch 하는 사용자 지정 필터링 또는 비즈니스 정책 규칙이 있는 경우 규칙을 마이그레이션하기 전에 일정 기간 동안 기본 설정을 사용 하 여 EOP을 시도 하는 것이 좋습니다. EOP는 기본 설정에서 엔터프라이즈 수준의 스팸 보호를 제공하므로 규칙 일부를 EOP로 마이그레이션하지 않아도 됩니다. 물론 특정한 사용자 지정 비즈니스 정책을 적용하는 규칙이 있는 경우 해당 규칙을 만들면 됩니다. [Exchange Online Protection의 메일 흐름 규칙 (전송 규칙)](mail-flow-rules-transport-rules-0.md) EOP에서 메일 흐름 규칙을 만드는 방법에 대 한 자세한 지침을 제공 합니다.
 
-- **Ip 허용 목록 및 ip 차단 목록**: 사용자별 허용 목록 및 차단 목록이 있는 경우 설치 프로세스의 일부로이 목록을 EOP에 복사 하는 데 시간이 오래 걸릴 수 있습니다. IP 허용 목록 및 IP 차단 목록에 대 한 자세한 내용은 [Configure the connection filter policy](configure-the-connection-filter-policy.md)을 참조 하십시오.
+- **Ip 허용 목록 및 ip 차단 목록**: 사용자별 허용 목록 및 차단 목록이 있는 경우 설치 프로세스의 일부로이 목록을 EOP에 복사 하는 데 시간이 오래 걸릴 수 있습니다. IP 허용 목록 및 IP 차단 목록에 대 한 자세한 내용은 Configure the [connection filter policy](configure-the-connection-filter-policy.md)을 참조 하십시오.
 
 - **보안 통신**: 암호화 된 메시징을 필요로 하는 파트너가 있는 경우 Exchange 관리 센터에서이를 설정 하는 것이 좋습니다. 이 시나리오를 구성 하려면 [secure mail flow for a partner 조직과 함께 커넥터 설정을](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-for-secure-mail-flow-with-a-partner)참조 하십시오.
 

@@ -19,21 +19,19 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d11fdc58f44c9e4bacb708fb246fdea40eb75cff
-ms.sourcegitcommit: 997f6227f33c3683ade9672e881d09216df22ee9
+ms.openlocfilehash: 9d2c5ba495d6250ffb20f695edd515c63b123c30
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44016065"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209262"
 ---
 # <a name="microsoft-threat-protection-data-security-and-privacy"></a>Microsoft 위협 방지 데이터 보안 및 개인 정보 보호
 
 **적용 대상:**
 - Microsoft 위협 방지
 
-Microsoft 위협 보호를 사용 하면 다음과 같은 용어에 동의 하 게 됩니다.
-
-*MTP (Microsoft Threat Protection)를 설정 하면 다음과 같은 용어에 동의 하 게 됩니다. 온라인 서비스 약관 (OST)에 정의 된 대로 해당 하는 고객 데이터는 다른 Microsoft 서비스에서 MTP로 전송 됩니다. MTP에서 고객 데이터를 사용 하는 것은 microsoft defender ATP (Advanced Threat Protection)에 대 한 데이터 처리 표준 및 약정을 따릅니다. 이러한 약정은 고객 데이터가 전송 되는 서비스와 다를 수 있습니다. 또한 MTP에 저장 되는 고객 데이터는 MDATP 고객 데이터를 저장 하기 위해 선택한 지리적 위치에 보관 됩니다 (다른 서비스와 연결에서 선택한 Geo와 다를 수 있음). Microsoft는 [Microsoft 보안 센터](https://www.microsoft.com/trust-center)의 데이터 위치 섹션에 나와 있는 경우를 제외 하 고는 이러한 지역 외부에서 고객 데이터를 전송 하지 않습니다.*
+Microsoft Threat Protection은 유럽 연합, 영국 및 미국의 Microsoft Azure 데이터 센터에서 작동 합니다. 서비스에서 수집한 고객 데이터는 (a) 준비 중에 식별 된 테 넌 트의 지리적 위치 (a)에 저장 됩니다. (b) Microsoft Threat Protection이 다른 온라인 서비스의 데이터 저장소 규칙에 정의 된 것과 같은 데이터를 처리 하기 위해 다른 Microsoft online 서비스를 사용 하는 경우
 
 특정 제품의 데이터 저장소 및 개인 정보 보호에 대한 자세한 내용은 다음을 참조하세요.
 - [Microsoft Defender ATP 데이터 저장소 및 개인 정보 보호](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)

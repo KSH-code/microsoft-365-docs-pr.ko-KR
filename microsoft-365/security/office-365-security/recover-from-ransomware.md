@@ -13,14 +13,14 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 관리자는 랜 섬 웨어 공격 으로부터 복구 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 49e14e92505f5241828a525aba82a2dc871e6784
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 51f5bb365fe707615444c1399479171aa72755e1
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634403"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208261"
 ---
-# <a name="recover-from-a-ransomware-attack-in-office-365"></a>Office 365에서 랜 섬 웨어 공격 으로부터 복구
+# <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Microsoft 365에서 랜 섬 웨어 공격 으로부터 복구
 
 조직을 보호 하기 위해 모든 예방책을 사용 하는 경우에도 여전히 [랜 섬 웨어](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) 공격을 막을 수 있습니다. 랜 섬 웨어는 대규모 기업 이며, 공격은 정교 하 게 확인 됩니다.
 
@@ -42,7 +42,7 @@ ms.locfileid: "43634403"
 
 전자 메일이 대상이 되는 것으로 의심 되는 경우 사서함에 대 한 사용자 액세스를 일시적으로 사용 하지 않도록 설정 해야 합니다. Exchange ActiveSync는 모바일 장치에서 장치와 Exchange Online 사서함 간에 데이터를 동기화 하는 데 사용 됩니다.
 
-사서함에 대해 ActiveSync를 사용 하지 않도록 설정 하려면 [Office 365에서 사용자에 대해 Exchange ActiveSync를 사용 하지 않도록 설정 하는 방법을](https://support.microsoft.com/help/2795303/how-to-disable-exchange-activesync-for-users-in-office-365)참조 하세요.
+사서함에 대해 ActiveSync를 사용 하지 않도록 설정 하려면 [Exchange Online에서 사용자에 대해 Exchange activesync를 사용 하지 않도록 설정 하는 방법을](https://support.microsoft.com/help/2795303/how-to-disable-exchange-activesync-for-users-in-office-365)참조 하세요.
 
 사서함에 대 한 다른 유형의 액세스를 사용 하지 않도록 설정 하려면 다음을 참조 하세요.
 
@@ -66,7 +66,7 @@ OneDrive 동기화를 일시 중지 하면 잠재적으로 감염 된 장치에 
 
 이전 단계를 완료 하 여 환경에서 랜 섬 웨어 페이로드를 제거한 후 (섬 웨어 파일을 암호화 하거나 제거 하지 못하게 함) windows 10 및 Windows 8.1의 [파일 기록을](https://support.microsoft.com/help/17128/windows-8-file-history) 사용 하 여 로컬 파일 및 폴더 복구를 시도할 수 있습니다.
 
-**참고:**
+**참고**:
 
 - 일부 랜 섬 웨어도 백업 버전을 암호화 하거나 삭제 하므로 파일 기록 또는 시스템 보호를 사용 하 여 파일을 복원할 수 없습니다. 이 경우 다음 섹션에 설명 된 대로 랜 섬 웨어 또는 OneDrive의 영향을 받지 않았던 외부 드라이브 또는 장치에서 백업을 사용 해야 합니다.
 

@@ -15,17 +15,17 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 이 문서에서는 악의적인 피싱 공격 으로부터 조직을 보호 하기 위해 Microsoft 365에서 피싱 방지 보호 기능을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: bbde781114cadb6535bdb09c133d834ce23793a3
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: 관리자는 EOP (Exchange Online Protection) 및 Office 365 Advanced Threat Protection (Office 365 ATP)에서 사용할 수 있는 피싱 방지 정책에 대해 알아볼 수 있습니다.
+ms.openlocfilehash: 0b1342d61ab4ab1fedde63271082c577211f6595
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035335"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209814"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Microsoft 365의 피싱 방지 정책
 
-피싱 방지 보호 설정을 구성 하기 위한 정책은 exchange Online 사서함, 독립 실행형 EOP (Exchange Online Protection), Exchange Online 사서함이 없는 Microsoft 365 조직, Office 365 ATP (Advanced Threat Protection) 조직에서 사용할 수 있습니다.
+피싱 방지 보호 설정을 구성 하는 정책은 Exchange Online 사서함, 독립 실행형 EOP (Exchange Online Protection), Exchange Online 사서함이 없는 조직, Office 365 Advanced Threat Protection (Office 365 ATP) 조직이 있는 Microsoft 365 조직에서 사용할 수 있습니다.
 
 ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 수 있습니다. 예시:
 
@@ -185,7 +185,7 @@ ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 
 
 ### <a name="advanced-phishing-thresholds-in-atp-anti-phishing-policies"></a>ATP 피싱 방지 정책의 고급 피싱 임계값
 
-검색 된 피싱 메시지를 처리 하는 방법을 지정 하기 위해 ATP 피싱 방지 정책 에서만 다음과 같은 고급 피싱 임계값을 사용할 수 있습니다.
+다음 advanced 피싱 임계값은 ATP 피싱 사기 정책 에서만 사용할 수 있으며,이는 피싱 결과을 확인 하기 위해 메시지에 기계 학습 모델을 적용할 민감도를 제어 합니다.
 
 - **1-Standard**:이 값은 기본값입니다. 메시지에 대해 수행 되는 작업의 심각도는 메시지가 피싱 인 신뢰도 (낮음, 중간, 높음, 높음 신뢰도)에 따라 달라 집니다. 예를 들어 매우 높은 확신을 가진 피싱으로 식별 되는 메시지는 가장 심각 하 게 적용 되는 작업을 수행 하지만 낮은 수준의 확신을 가진 피싱으로 식별 된 메시지에는 덜 심각한 작업이 적용 됩니다.
 

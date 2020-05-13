@@ -13,23 +13,21 @@ localization_priority: Normal
 ms.assetid: e109077e-cc85-4c19-ae40-d218ac7d0548
 ms.custom:
 - seo-marvel-apr2020
-description: 이 문서에서는 EOP (Exchange Online Protection) 고객은 비즈니스 요구 사항을 준수 하는 사용자 지정 메일 라우팅을 구성 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: cdc919c628f2254ffc971678f7887c37786d2528
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: 관리자는 EOP (Exchange Online Protection)에서 메일 흐름 및 라우팅 구성을 위한 옵션에 대해 알아볼 수 있습니다.
+ms.openlocfilehash: cb2ae7370d50fe32802ad5c279cc2170eb35f581
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034235"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208333"
 ---
 # <a name="mail-flow-in-eop"></a>EOP의 메일 흐름
 
-EOP(Exchange Online Protection) 고객의 조직으로 전송되는 모든 메시지는 작업자에게 표시되기 전에 EOP를 통과합니다. 고객이 Exchange Online을 사용하여 클라우드에서 모든 사서함을 호스트하든, 기존 인프라를 계속 사용하기 위해 온-프레미스에서 사서함을 호스트하든(독립 실행형 시나리오) 관계없이 작업자의 받은 편지함으로 라우팅되기 전에 처리를 위해 EOP를 통과하는 메시지를 라우팅할 방법에 대한 옵션이 제공됩니다.
-
-메시징이 비즈니스 요구 사항을 따르도록 사용자 지정 메일 라우팅을 구성할 수 있습니다. 예를 들어 정책 필터링 어플라이언스를 통해 모든 아웃바운드 메일을 전달할 수 있습니다.
+Exchange Online 사서함이 있는 Microsoft 365 조직이 나 Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protection) 조직이 EOP를 통과 하기 전에 조직으로 전송 된 모든 메시지를 해당 사용자에 게 전달 합니다. EOP를 통과 하는 메시지를 처리 하기 위해 작업자의 받은 편지 함으로 라우팅되도록 하는 방법에 대 한 옵션을 사용할 수 있습니다.
 
 ## <a name="working-with-messages-and-message-access-options"></a>메시지 및 메시지 액세스 옵션 사용
 
-EOP는 매우 유동적인 메시지 라우팅 방식을 제공합니다. 다음 항목에서 메일 흐름 프로세스의 단계에 대해 설명합니다.
+EOP에서는 메시지의 라우팅 방식을 유연 하 게 제공 합니다. 다음 항목에서 메일 흐름 프로세스의 단계에 대해 설명합니다.
 
 [디렉터리 기반 Edge 차단을 사용 하 여 잘못 된 받는 사람에 게 보낸 메시지 거부](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-directory-based-edge-blocking) 서비스 네트워크 경계에서 잘못 된 받는 사람에 대 한 메시지를 거부할 수 있는 디렉터리 기반 Edge 차단 기능에 대해 설명 합니다.
 
@@ -37,9 +35,11 @@ EOP는 매우 유동적인 메시지 라우팅 방식을 제공합니다. 다음
 
 조직에 하위 도메인을 추가한 경우 EOP 서비스를 통해 관리할 수도 있습니다. 하위 도메인에 대 한 자세한 내용은 [Exchange Online에서 하위 도메인에 대 한 메일 흐름 사용](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/enable-mail-flow-for-subdomains)을 참고 하세요.
 
-[Configure mail flow using connectors in Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)에서는 커넥터에 대해 소개하고 이러한 커넥터를 통해 메일 라우팅을 사용자 지정하는 방법을 설명합니다. 또한 파트너 조직과의 통신을 보호하고 스마트 호스트를 설정하는 시나리오를 소개합니다.
+[커넥터를 사용 하 여 메일 흐름 구성](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) 커넥터를 도입 하 고 메일 라우팅을 사용자 지정 하는 데 사용할 수 있는 방법을 보여 줍니다. 또한 파트너 조직과의 통신을 보호하고 스마트 호스트를 설정하는 시나리오를 소개합니다.
 
-정크 메일이 각 사용자의 정크 메일 폴더로 라우팅되도록 하려면 몇 가지 구성 단계를 수행해야 합니다. [하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)에 자세히 설명 되어 있습니다. 각 사용자의 정크 메일 폴더로 메시지를 옮기지 않으려면 Exchange 관리 센터에서 콘텐츠 필터 정책을 편집하여 다른 작업을 선택할 수 있습니다. 자세한 내용은 [스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
+[커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) EOP 전에 메일이 서비스 또는 장치로 라우팅되는 경우 커넥터를 구성 하는 방법을 설명 합니다.
+
+독립 실행형 EOP 조직에서는 정크 메일이 각 사용자의 정크 메일 폴더로 올바르게 라우팅되도록 하기 위해 몇 가지 구성 단계를 수행 해야 합니다. [하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)에 자세히 설명 되어 있습니다. 각 사용자의 정크 메일 폴더로 메시지를 이동 하지 않으려면 스팸 방지 정책 (콘텐츠 필터 정책이 라고도 함)을 편집 하 여 다른 작업을 선택할 수 있습니다. 자세한 내용은 [스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
 ## <a name="verify-mail-flow"></a>메일 흐름 확인
 

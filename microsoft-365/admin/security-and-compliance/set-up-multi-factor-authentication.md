@@ -1,5 +1,5 @@
 ---
-title: 사용자에 대해 multi-factor authentication 설정
+title: 사용자를 위한 대한 다단계 인증 설정
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: 보안 기본값을 사용 하 여 사용자에 대해 multi-factor authentication을 설정 하는 방법을 알아봅니다.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 1000689794b8b5471efa898e731fd75a0e5a8cce
-ms.sourcegitcommit: 7c0470fd7a98911d142bac060c228947c46a6be7
+ms.openlocfilehash: 4c0df9198db8154c1aa748a68eff29dd9bf3bca1
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43665635"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213013"
 ---
 # <a name="set-up-multi-factor-authentication"></a>다단계 인증 설정
   
@@ -75,7 +75,9 @@ ms.locfileid: "43665635"
 
 ## <a name="enable-modern-authentication-for-your-organization"></a>조직에 대 한 최신 인증을 사용 하도록 설정
 
-모든 Office 2016 클라이언트 응용 프로그램은 ADAL(Active Directory Authentication Library)을 사용하여 MFA를 지원합니다. 즉, Office 2016 클라이언트에는 앱 암호가 필요하지 않습니다. 그러나 Microsoft 365 구독이 ADAL 또는 최신 인증을 사용 하도록 설정 되어 있는지 확인 해야 합니다.
+모든 Office 2016 클라이언트 응용 프로그램은 ADAL(Active Directory Authentication Library)을 사용하여 MFA를 지원합니다. 즉, Office 2016 클라이언트에는 앱 암호가 필요하지 않습니다. 자세한 내용은 [이 문서](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-mfasettings#app-passwords) 를 참조 하세요.
+
+그러나 Microsoft 365 구독이 ADAL 또는 최신 인증을 사용 하도록 설정 되어 있는지 확인 해야 합니다.
 
 1. 최신 인증을 사용하도록 설정하려면 [관리 센터](https://go.microsoft.com/fwlink/p/?linkid=834822)의 **설정** \> **설정**을 선택하고 **서비스**탭의 목록에서 **최신 인증**을 선택합니다.
 

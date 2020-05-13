@@ -9,6 +9,7 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+monikerRange: o365-germany
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -19,18 +20,17 @@ search.appverid:
 - BEA160
 ms.assetid: 8a5a4bbc-667a-4cac-8769-d8ac9015db4c
 description: Office 365 독일에 대해 알아봅니다.
-ms.openlocfilehash: d992d437e40baaa105ca407d40bb81ff84d9e3f3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2c63672865ac2c64bd9731df797202cf9cfdd9cd
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43623909"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208357"
 ---
-> [!NOTE]
-> Office 365 독일은 더 이상 새 고객을 수락 하거나 새 서비스를 배포 하지 않습니다. Microsoft 365 및 Office 365 용 2020의 1/4 분기에서 사용 가능한 독일의 새 클라우드 지역에는 Microsoft 전역 클라우드 네트워크에 대 한 전체 연결 뿐만 아니라 독일 내의 핵심 고객 데이터 상주 제공 됩니다. 
->
-
 # <a name="learn-about-office-365-germany"></a>독일 Office 365에 대해 알아보기
+
+> [!NOTE]
+> Office 365 독일은 더 이상 새 고객을 수락 하거나 새 서비스를 배포 하지 않습니다. Microsoft 365 및 Office 365 용 2020의 1/4 분기에서 사용 가능한 독일의 새 클라우드 지역에는 Microsoft 전역 클라우드 네트워크에 대 한 전체 연결 뿐만 아니라 독일 내의 핵심 고객 데이터 상주 제공 됩니다.
 
 Office 365 독일는 유럽에서 사용 가능한 Office 365 서비스와 차별화 된 옵션입니다. Microsoft는 독일, 유럽 연합 (EU)에서 업계 최고의 생산성 서비스를 제공 하 고, 독일어 데이터 센터, 독일의 상주 및 엄격한 데이터 액세스 및 제어 측정값을 사용 하 여 스페인어 (자유 교역 협회)에 대 한 고객의 요구 사항을 해결 하는 데 도움이 되었습니다.
   

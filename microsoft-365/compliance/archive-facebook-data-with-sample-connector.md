@@ -16,14 +16,14 @@ ms.collection: M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
 description: 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용할 수 있도록 Facebook 데이터를 Microsoft 365로 가져오는 커넥터를 설정 합니다.
-ms.openlocfilehash: a1a45b3558e8c5fb77fb1d04a1a38402000bbd1b
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: e35e4cb8e0f16d3cc95b3f21ce6648bbe087733d
+ms.sourcegitcommit: ab0a944159d9349fbc7adc2f51c7f881254d7782
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035160"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210545"
 ---
-# <a name="set-up-a-connector-to-archive-facebook-data"></a>Facebook 데이터를 보관할 커넥터 설정
+# <a name="set-up-a-connector-to-archive-facebook-data-preview"></a>Facebook 데이터를 보관할 커넥터 설정 (미리 보기)
 
 Microsoft 365 준수 센터의 커넥터를 사용 하 여 Facebook Business 페이지의 데이터를 Microsoft 365로 가져오고 보관 합니다. 커넥터를 설정 하 고 구성한 후에는이를 Facebook Business 페이지에 연결 하 고 (예약 된 방식), Facebook 항목의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 Microsoft 365의 사서함으로 가져옵니다.
 
@@ -74,7 +74,7 @@ Microsoft 365 준수 센터에서 커넥터를 설정 및 구성 하 여 조직�
 
 - TenantId: 1 단계에서 Azure Active Directory에 Facebook 커넥터 앱을 만든 후 복사한 Microsoft 365 조직의 테 넌 트 ID입니다.
 
-이 단계를 완료 한 후 Azure 앱 서비스 URL (예:을 https://fbconnector.azurewebsites.net)복사 해야 합니다. 이 URL을 사용 하 여 3 단계, 4 단계, 5 단계를 완료 해야 합니다.
+이 단계를 완료 한 후 Azure 앱 서비스 URL (예:을 복사 해야 https://fbconnector.azurewebsites.net) 합니다. 이 URL을 사용 하 여 3 단계, 4 단계, 5 단계를 완료 해야 합니다.
 
 ## <a name="step-3-register-the-web-app-on-facebook"></a>3 단계: Facebook에서 웹 앱 등록
 

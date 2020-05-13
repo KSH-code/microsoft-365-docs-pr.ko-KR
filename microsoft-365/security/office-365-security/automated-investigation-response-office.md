@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능에 대 한 개요를 확인 하세요.
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: 3f8aa761207be61f78eb5f9b5140439c86455bf3
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: d62d24a8f4cbd0541099ece91e46a23d3fbc786c
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035619"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208914"
 ---
 # <a name="an-overview-of-automated-investigation-and-response-air-in-microsoft-365"></a>Microsoft 365의 자동화 된 조사 및 응답 (AIR)에 대 한 개요
 
@@ -50,7 +50,7 @@ ms.locfileid: "44035619"
 > [!NOTE]
 > 별표 (*)로 표시 된 경고는 전자 메일 알림을 해제 한 상태에서 보안 & 준수 센터 내의 각 경고 정책에 *정보* 심각도를 할당 합니다. [알림 정책 구성을](../../compliance/alert-policies.md#alert-policy-settings)통해 전자 메일 알림을 설정할 수 있습니다. 해시 (#)로 표시 된 경고는 일반적으로 공개 미리 보기 playbooks에 연결 된 사용 가능한 알림입니다.
 
-알림을 보려면 보안 & 준수 센터 **에서 경고** > **보기**를 선택 합니다. 알림을 선택 하 여 세부 정보를 확인 하 고, **보기 조사** 링크를 사용 하 여 해당 [조사](air-view-investigation-results.md#investigation-graph)로 이동 합니다.  
+알림을 보려면 보안 & 준수 센터 **에서 경고**  >  **보기**를 선택 합니다. 알림을 선택 하 여 세부 정보를 확인 하 고, **보기 조사** 링크를 사용 하 여 해당 [조사](air-view-investigation-results.md#investigation-graph)로 이동 합니다.  
 
 > [!NOTE]
 > 정보 알림은 기본적으로 경고 보기에 숨겨집니다. 이러한 항목을 보려면 알림 필터링을 변경 하 여 정보 알림 메시지를 포함 합니다.
@@ -68,6 +68,7 @@ AIR에서 제공 하는 보안 playbook은 조직이 현재 전자 메일을 통
 ### <a name="security-playbooks-are-rolling-out-in-phases"></a>보안 playbook가 단계별로 롤아웃 됨
 
 AIR의 일환으로 보안 playbook가 단계별로 배포 됩니다. 이제 1 단계를 일반적으로 사용할 수 있으며, 보안 관리자가 검토 하 고 승인할 수 있는 작업에 대 한 권장 사항을 제공 하는 몇 가지 playbook 포함 합니다.
+
 - 사용자가 보고 한 피싱 메시지
 - URL 결과 변경 클릭
 - 맬웨어 배달 후 검색 (맬웨어 ZAP)
@@ -76,6 +77,7 @@ AIR의 일환으로 보안 playbook가 단계별로 배포 됩니다. 이제 1 �
 1 단계에는 [위협 탐색기](threat-explorer.md)를 사용 하 여 관리자가 트리거한 전자 메일 조사에 대 한 지원도 포함 됩니다.
 
 이제 2 단계에서는 **공개 미리 보기**의 다음 playbook을 사용 하 여 작업을 진행 하 고 있으며 문제 조사에 대 한 권장 사항 및 aiding 보안 관리자를 제공 합니다.
+
 - 사용자가 손상 된 것으로 보고 됨 (공개 미리 보기)
 
 추가 playbook 완료 되 면 릴리스됩니다. [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap) 방문 하 여 그 밖의 계획 및 출시 예정 사항을 확인 하세요.
@@ -83,6 +85,7 @@ AIR의 일환으로 보안 playbook가 단계별로 배포 됩니다. 이제 1 �
 ### <a name="playbooks-include-investigation-and-recommendations"></a>Playbooks에는 조사 및 권장 사항이 포함 되어 있습니다.
 
 AIR에서는 각 보안 playbook 다음이 포함 됩니다. 
+
 - 전자 메일의 엔터티 (파일, Url, 받는 사람, IP 주소 등)에 대 한 루트 조사
 - 조직에서 받은 유사한 전자 메일에 대 한 추가 구하기 
 - 다른 잠재적 위협을 식별 및 상호 연결 하기 위해 수행 되는 단계 
@@ -95,6 +98,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 조직의 사용자가 피싱 시도 라고 생각 하는 전자 메일을 받는 경우를 가정해 보겠습니다. 이러한 메시지를 보고 하도록 훈련 된 사용자는 [보고서 메시지 추가 기능](enable-the-report-message-add-in.md) 을 사용 하 여 분석을 위해 Microsoft에 보냅니다. 전송도 시스템에 전송 되 고 **제출 보기의** 탐색기 (이전에는 **사용자가 보고** 한 보기 라고 함)에 표시 됩니다. 또한 사용자가 보고 한 메시지는 이제 조사 playbook를 자동으로 실행 하는 시스템 기반 정보 알림을 트리거합니다.
 
 루트 조사 단계에서는 전자 메일의 다양 한 측면을 평가 합니다. 여기에는 다음이 포함됩니다.
+
 - 사용할 수 있는 위협의 유형에 대 한 결정
 - 보낸 사람
 - 전자 메일이 전송 되는 위치 (보내는 인프라)
@@ -110,8 +114,8 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 - 전자 메일 클러스터 검색을 통해 유사한 전자 메일 메시지가 식별 됩니다.
 - 신호가 [Microsoft DEFENDER ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)와 같은 다른 플랫폼과 공유 됩니다.
 - 의심 스러운 전자 메일 메시지에서 모든 사용자가 악의적인 링크를 클릭 했는지 여부가 결정 됩니다.
-- [EOP](exchange-online-protection-eop.md)(Exchange Online Protection) 및 Office 365 Advanced Threat Protection ([ATP](office-365-atp.md))에서 확인 작업을 수행 하 여 사용자가 다른 유사한 메시지가 보고 되었는지 확인 합니다.
-- 사용자가 손상 되었는지 확인 하는 검사를 수행 합니다. 이 검사는 Office 365, [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)및 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory)간의 신호를 활용 하 여 관련 된 사용자 활동에 대 한 예외를 모두 연관 시킵니다. 
+- [EOP](exchange-online-protection-overview.md)(Exchange Online Protection) 및 Office 365 Advanced Threat Protection ([ATP](office-365-atp.md))에서 확인 작업을 수행 하 여 사용자가 다른 유사한 메시지가 보고 되었는지 확인 합니다.
+- 사용자가 손상 되었는지 확인 하는 검사를 수행 합니다. 이 검사는 Office 365, [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)및 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory)간의 신호를 활용 하 여 관련 된 사용자 활동에 대 한 예외를 모두 연관 시킵니다.
 
 사냥 단계에서는 위험과 위협이 다양 한 구하기 단계에 할당 됩니다. 
 
@@ -136,4 +140,3 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 - [AIR 사용 시작](office-365-air.md)
 
 - [Microsoft 365 로드맵를 방문 하 여 곧 제공 되는 항목을 확인 하 고 롤아웃](https://www.microsoft.com/microsoft-365/roadmap?filters=)
-

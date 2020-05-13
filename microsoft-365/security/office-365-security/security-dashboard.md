@@ -16,12 +16,12 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: 새 보안 대시보드를 사용 하 여 Office 365 위협 방지 상태를 검토 하 고 보안 경고를 보고 작동 합니다.
-ms.openlocfilehash: 3b6d754505d0e23f1080520e66061b8f6fef523e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d750c0055a9a55f573e4b920166284f6d95ae70f
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632520"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208039"
 ---
 # <a name="security-dashboard"></a>보안 대시보드
 
@@ -61,7 +61,7 @@ ms.locfileid: "43632520"
 
 ![위협 방지 상태 위젯](../../media/tpswidget.png)
 
-세부 정보는 Microsoft 365 구독에 [Office 365 ATP (Advanced Threat protection](office-365-atp.md) )가 있는 EOP ( [Exchange Online Protection](exchange-online-protection-eop.md) )가 포함 되어 있는지 여부에 따라 달라 집니다.
+세부 정보는 Microsoft 365 구독에 [Office 365 ATP (Advanced Threat protection](office-365-atp.md) )가 있는 EOP ( [Exchange Online Protection](exchange-online-protection-overview.md) )가 포함 되어 있는지 여부에 따라 달라 집니다.
 
 |||
 |---|---|
@@ -82,7 +82,7 @@ ms.locfileid: "43632520"
 
 |||
 |---|---|
-|**192.168.1.0**|**계산 방법**|
+|**메트릭**|**계산 방법**|
 |검색 된 메시지|검색 된 전자 메일 메시지의 수를 받는 사람 수에 곱하여 함|
 |위협이 중지 됨|맬웨어를 포함 하는 것으로 식별 되는 전자 메일 메시지 수 (받는 사람 수)|
 |[ATP](office-365-atp.md) 에 의해 차단 됨|ATP에 의해 차단 되는 전자 메일 메시지 수와 받는 사람 수를 곱합니다.|

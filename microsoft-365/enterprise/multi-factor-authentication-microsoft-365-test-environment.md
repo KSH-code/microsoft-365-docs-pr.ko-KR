@@ -15,12 +15,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Microsoft 365 Enterprise 테스트 환경에서 스마트 전화로 전송 되는 텍스트 메시지를 사용 하 여 다단계 인증을 구성 합니다.
-ms.openlocfilehash: b17c6b3b39bebaff2737ea5e9bb198beef00844c
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: ae8cab25a20cc75992eecc600219d9f1dd869b63
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153883"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213143"
 ---
 # <a name="multi-factor-authentication-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대 한 다단계 인증
 
@@ -28,7 +28,7 @@ ms.locfileid: "43153883"
 
 Microsoft 365 또는 구독에 대해 Azure AD 테 넌 트를 사용 하는 모든 서비스 또는 응용 프로그램에 로그인 하기 위한 추가 보안 수준에 대 한 자세한 내용은 계정을 확인 하기 위해 사용자 이름 및 암호 뿐 아니라 Azure multi-factor authentication을 사용 하도록 설정할 수 있습니다. 
 
-다단계 인증을 사용 하는 경우 사용자는 전화 통화를 승인 하거나, 문자 메시지로 보낸 확인 코드를 입력 하거나, 암호를 올바르게 입력 한 후 스마트 전화에서 앱 암호를 지정 해야 합니다. 사용자는 이 두 번째 인증 요소를 충족해야 로그인할 수 있습니다. 
+다단계 인증을 사용 하는 경우 사용자는 전화 통화를 승인 하거나, 문자 메시지로 보낸 확인 코드를 입력 하거나, 암호를 올바르게 입력 한 후 스마트 전화에서 앱을 사용 하 여 인증을 확인 해야 합니다. 사용자는 이 두 번째 인증 요소를 충족해야 로그인할 수 있습니다. 
   
 이 문서에서는 특정 사용자 계정에 대해 텍스트 메시지 기반 인증을 사용 하 고 테스트 하는 방법에 대해 설명 합니다.
   
@@ -58,7 +58,7 @@ Microsoft 365 Enterprise 테스트 환경에서는 계정에 대해 multi-factor
 
 사용자 2 계정에 대해 다단계 인증을 사용 하도록 설정 하려면 다음 단계를 수행 합니다.
   
-1. 별도의 브라우저 전용 인스턴스를 열고 Microsoft 365 관리 센터 ([https://portal.microsoft.com](https://portal.microsoft.com))로 이동한 후 전역 관리자 계정으로 로그인 합니다.
+1. 별도의 브라우저 전용 인스턴스를 열고 Microsoft 365 관리 센터 ()로 이동한 [https://portal.microsoft.com](https://portal.microsoft.com) 후 전역 관리자 계정으로 로그인 합니다.
     
 2. 왼쪽 탐색에서 **사용자 > 활성화된 사용자**를 클릭합니다.
     
@@ -80,7 +80,7 @@ Microsoft 365 Enterprise 테스트 환경에서는 계정에 대해 multi-factor
   
 1. 브라우저의 새 개인 인스턴스를 엽니다.
     
-2. Office 365 portal ([https://portal.office.com](https://portal.office.com))로 이동 하 여 사용자 2 계정 이름 및 암호를 사용 하 여 로그인 합니다.
+2. Office 365 portal ()로 이동 [https://portal.office.com](https://portal.office.com) 하 여 사용자 2 계정 이름 및 암호를 사용 하 여 로그인 합니다.
     
 3. 로그인 한 후에는 계정을 설정 하 라는 메시지가 표시 됩니다. **다음**을 클릭합니다.
     
@@ -96,7 +96,7 @@ Microsoft 365 Enterprise 테스트 환경에서는 계정에 대해 multi-factor
     
 6. 스마트 폰에서 받은 문자 메시지의 확인 코드를 입력 하 고 **확인**을 클릭 합니다.
     
-7. **3 단계: 기존 응용 프로그램 유지** 페이지에서 사용자 2 계정에 대해 표시 된 앱 암호를 안전한 위치에 기록 하 고 **완료**를 클릭 합니다.
+7. **3 단계: 기존 응용 프로그램 유지** 페이지에서 **완료**를 클릭 합니다.
     
 8. 사용자 2 계정으로 처음 로그인 하는 경우 암호를 변경 하 라는 메시지가 표시 됩니다. 원래 암호와 새 암호를 두 번 입력 한 다음 **암호 업데이트 및 로그인**을 클릭 합니다. 새 암호를 안전한 위치에 기록 합니다.
     
@@ -121,7 +121,7 @@ Microsoft 365 Enterprise 테스트 환경에서는 계정에 대해 multi-factor
 
 다음으로 MFAUsers 그룹의 구성원에 대해 다단계 인증을 요구 하는 조건부 액세스 정책을 만듭니다.
 
-1. 브라우저의 새 탭에서으로 이동 [https://portal.azure.com](https://portal.azure.com)합니다.
+1. 브라우저의 새 탭에서으로 이동 [https://portal.azure.com](https://portal.azure.com) 합니다.
 2. **Azure Active Directory > 보안 > 조건부 액세스**를 클릭 합니다.
 3. **조건부 액세스 – 정책** 창에서 **새 정책을**클릭 합니다.
 4. **새로 만들기** 창에서 **이름**에 **사용자 계정의 MFA** 를 입력 합니다.
