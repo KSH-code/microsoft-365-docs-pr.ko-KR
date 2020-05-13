@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 7ac93507-0e38-4398-8bfe-9c1d123cb387
 description: '비즈니스에 대 한 Microsoft 365의 구독 및 라이선스에 대해 알아보고, 사용자에 게 라이선스를 할당할 때 라이선스를 할당할 수 있는 사람 및 상황을 파악 합니다. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 1508daa6dae30c35a9517fceb81b0a4d2b4a7f58
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5178b25de6f66968f8a89c7b2c34ee466f8855bd
+ms.sourcegitcommit: 4cfb8a9c3675d0aefcabd690273e2af85f2e38b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635439"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44211441"
 ---
 # <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>비즈니스에 대 한 Microsoft 365의 구독 및 라이선스 이해
 
@@ -58,20 +58,20 @@ ms.locfileid: "43635439"
   
 |**구독에 이 서비스가 있는 경우**|**자동으로 일어나는 일**|
 |:-----|:-----|
-|Exchange Online  <br/> |해당 사용자의 사서함이 만들어집니다.  <br/> |
+|Exchange Online  <br/> |해당 사용자의 사서함이 만들어집니다.  <br/> 이 작업을 완료 하는 데 필요한 SLA에 대 한 자세한 내용은 "설정 ..."을 참조 하십시오 [. Microsoft 365 관리 센터의 메시지](https://support.microsoft.com/help/2635238/setting-up-messages-in-the-office-365-admin-center) |
 |SharePoint Online  <br/> |기본 SharePoint Online 팀 사이트에 대한 편집 권한이 해당 사용자에게 할당됩니다.  <br/> |
 |비즈니스용 Skype Online  <br/> |사용자가 라이선스 관련 기능에 액세스할 수 있습니다.  <br/> |
-|Microsoft 365 enterprise 용 앱  <br/> |사용자는 조직의 최대 5대의 Mac 또는 PC, 최대 5대의 태블릿, 최대 5대의 스마트폰에 Microsoft Office를 다운로드할 수 있습니다.  <br/> |
+|엔터프라이즈용 Microsoft 365 앱  <br/> |사용자는 조직의 최대 5대의 Mac 또는 PC, 최대 5대의 태블릿, 최대 5대의 스마트폰에 Microsoft Office를 다운로드할 수 있습니다.  <br/> |
    
 ## <a name="how-many-devices-can-people-install-office-on"></a>사용자가 Office를 설치할 수 있는 장치는 몇 개인가요?
 
 구독에 다음 제품이 포함되는 경우 각 사용자는 최대 5대의 PC 또는 Mac, 최대 5대의 태블릿, 최대 5대의 전화기에 Office를 설치할 수 있습니다.
   
-- Microsoft 365 비즈니스 에디션 앱
+- 비즈니스용 Microsoft 365 앱
     
-- Microsoft 365 비즈니스 표준
+- Microsoft 365 Business Standard
     
-- Microsoft 365 enterprise 용 앱
+- 엔터프라이즈용 Microsoft 365 앱
     
 - Office 365 Enterprise E3
     
