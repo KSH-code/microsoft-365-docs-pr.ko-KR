@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365의 피싱 방지 보호 기능
+title: 피싱 방지 보호 기능
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,13 +18,13 @@ ms.collection:
 ms.custom:
 - TopSMBIssues
 - seo-marvel-apr2020
-description: 이 문서에서는 Microsoft 365에서 피싱 방지 옵션 및 전략을 배우고 구현 하는 데 사용할 수 있는 온라인 리소스에 대해 소개 합니다.
-ms.openlocfilehash: 09d384376b1e44989987c40ef3c7860e4fac6167
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: 관리자는 EOP (Exchange Online Protection) 및 Office 365 Advanced Threat Protection (Office 365 ATP)의 피싱 방지 보호 기능에 대해 알아볼 수 있습니다.
+ms.openlocfilehash: c1b9332fc35997dfe1cbfdfbef79e2d7beed736f
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033765"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208974"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Microsoft 365의 피싱 방지 보호 기능
 
@@ -38,13 +38,13 @@ ms.locfileid: "44033765"
 
 - 데이터를 암호화 하 고 해당 암호를 해독 하기 위한 지불을 요청 하는 **랜 섬 웨어** 는 피싱 메시지에서 거의 항상 시작 됩니다. 피싱 방지 보호는 암호화 된 파일의 암호를 해독 하는 데 도움이 되지만, 랜 섬 웨어 캠페인과 연결 된 초기 피싱 메시지를 검색 하는 데 도움이 될 수 있습니다. 랜 섬 웨어 공격에서 복구 하는 방법에 대 한 자세한 내용은 [Microsoft 365에서 랜 섬 웨어 공격 으로부터 복구](recover-from-ransomware.md)를 참조 하세요.
 
-공격에 대 한 복잡성이 증가 함에 따른 숙련 된 사용자가 복잡 한 피싱 메시지를 식별 하기는 어렵습니다. 다행 스럽게도 EOP (Exchange Online Protection) 및 Microsoft 365의 추가 기능 (ATP)이 도움이 될 수 있습니다.
+공격에 대 한 복잡성이 증가 함에 따른 숙련 된 사용자가 복잡 한 피싱 메시지를 식별 하기는 어렵습니다. 다행 스럽게도 EOP (Exchange Online Protection)와 Office 365 Advanced Threat Protection (Office 365 ATP)의 추가 기능은 도움이 될 수 있습니다.
 
 ## <a name="anti-phishing-protection-in-eop"></a>EOP의 피싱 방지 보호 기능
 
 EOP (즉, ATP가 없는 Microsoft 365 조직)에는 피싱 위협 으로부터 조직을 보호 하는 데 도움이 되는 기능이 포함 되어 있습니다.
 
-- **스푸핑 인텔리전스**: 내부 및 외부 도메인의 보낸 사람으로부터 스푸핑된 메시지를 검토하고 해당 보낸 사람을 허용하거나 차단합니다. 자세한 내용은 [Microsoft 365에 스푸핑 인텔리전스 구성](learn-about-spoof-intelligence.md)을 참조하세요.
+- **스푸핑 인텔리전스**: 내부 및 외부 도메인의 보낸 사람으로부터 스푸핑된 메시지를 검토하고 해당 보낸 사람을 허용하거나 차단합니다. 자세한 내용은 [Configure 스푸핑이 intelligence IN EOP](learn-about-spoof-intelligence.md)을 참조 하십시오.
 
 - **EOP의 피싱 방지 정책**: 스푸핑 인텔리전스를 설정 하거나 해제 하 고, Outlook에서 인증 되지 않은 보낸 사람 id를 설정/해제 하 고, 차단 된 스푸핑된 보낸 사람 (정크 메일 폴더 또는 격리로 이동)에 대 한 작업을 지정 합니다. 자세한 내용은 [EOP에서 피싱 방지 정책 구성을](configure-anti-phishing-policies-eop.md)참조 하세요.
 

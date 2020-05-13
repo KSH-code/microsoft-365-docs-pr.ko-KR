@@ -19,18 +19,18 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 Microsoft 365의 보안 및 준수 센터에서 격리된 메시지를 확인하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 177f60f1fccc764d74ec0374249a62c602cb84aa
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: ff6cb3dbf9a0a2010bf792115c53265689873090
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036515"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173383"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user"></a>사용자로 격리된 메시지 찾기 및 릴리스
 
 격리는 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange online Protection) 조직에 위험할 가능성이 있거나 원치 않는 메시지를 보유합니다. 자세한 내용은 [Office 365의 격리](quarantine-email-messages.md)를 참조하세요.
 
-사용자는 사용자가 받는 사람인 격리되는 메시지를 보고, 해제하고, 삭제할 수 있으며 메시지는 스팸, 대량 전자 메일 또는 (2020년 4월부터)피싱으로 격리되었습니다. 보안 및 준수 센터에서 또는 [최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)에서(관리자가 설정한 경우) 격리 된 메시지를보고 관리합니다.
+사용자가 받는 사람인 경우 사용자는 격리된 메시지를 보고 해제하고 삭제할 수 있으며, 메시지는 스팸 또는 벌크 메일로 격리되었습니다. 2020년 4월부터 사용자가 받는 사람인 경우 사용자는 격리된 피싱(높은 정확도가 아닌 피싱) 메시지를 보거나 삭제할 수 있습니다. 보안 및 준수 센터에서 또는 [최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)에서(관리자가 설정한 경우) 격리 된 메시지를보고 관리합니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 

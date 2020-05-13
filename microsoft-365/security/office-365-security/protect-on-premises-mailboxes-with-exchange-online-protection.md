@@ -1,11 +1,11 @@
 ---
-title: 온-프레미스 사서함 보호-Exchange Online Protection
+title: 독립 실행형 EOP 사용 하 여 중국의 온-프레미스 사서함 보호
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 6/1/2017
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -20,15 +20,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 이 문서에서는 EOP (Exchange Online Protection)를 사용 하 여 온-프레미스 사서함을 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: bdfebf16d77f26f3e3bb2890bd4aa8ccfa12f27b
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: 중국의 관리자 21Vianet에서 운영 하는 Office 365을 사용 하 여 온-프레미스 사서함을 보호 하기 위해 독립 실행형 EOP (Exchange Online Protection)를 사용 하는 방법을 확인할 수 있습니다.
+ms.openlocfilehash: 6ce85e626f9bf4c960de57ad5cd15ac3148954cb
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033881"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208297"
 ---
-# <a name="protect-on-premises-mailboxes-with-exchange-online-protection"></a>Exchange Online Protection을 사용 하여 온-프레미스 사서함 보호
+# <a name="protect-on-premises-mailboxes-in-china-with-standalone-eop"></a>독립 실행형 EOP 사용 하 여 중국의 온-프레미스 사서함 보호
 
 > [!NOTE]
 > 이 문서는 중국의 21Vianet에서 운영 하는 Office 365에만 적용 됩니다.
@@ -65,7 +65,7 @@ EOP 및 온-프레미스 메일 서버 간의 메일 흐름을 가능하게 하�
 
 ## <a name="step-5-ensure-that-spam-is-routed-to-each-users-junk-email-folder"></a>5 단계: 스팸이 각 사용자의 정크 메일 폴더로 라우팅되도록 확인
 
-스팸(정크) 메일이 각 사용자의 정크 메일 폴더로 라우팅되도록 하려면 몇 가지 구성 단계를 수행해야 합니다. [하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)에 단계가 제공 됩니다. 각 사용자의 정크 메일 폴더로 메시지를 옮기지 않으려면 Exchange 관리 센터에서 콘텐츠 필터 정책을 편집하여 다른 작업을 선택할 수 있습니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
+스팸(정크) 메일이 각 사용자의 정크 메일 폴더로 라우팅되도록 하려면 몇 가지 구성 단계를 수행해야 합니다. [하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)에 단계가 제공 됩니다. 각 사용자의 정크 메일 폴더로 메시지를 이동 하지 않으려면 스팸 방지 정책 (콘텐츠 필터 정책이 라고도 함)을 편집 하 여 다른 작업을 선택할 수 있습니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
 ## <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>6 단계: Microsoft 365 관리 센터를 사용 하 여 MX 레코드가 EOP를 가리키도록 지정
 

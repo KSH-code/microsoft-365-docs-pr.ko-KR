@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: cca08d26-6fbf-4b2c-b102-b226e4cd7381
 description: 이 문서의 스크립트를 사용 하 여 Office 365 또는 Microsoft 365의 준수 센터에서 eDiscovery 사례와 관련 된 모든 보류에 대 한 정보를 포함 하는 보고서를 생성 합니다.
-ms.openlocfilehash: 9fa4bab745a3f956b32deb1dab1a1d909cecf08a
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 4a4d9c4195a201482228226ddd781260bb19499c
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942901"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208380"
 ---
 # <a name="create-a-report-on-holds-in-ediscovery-cases"></a>EDiscovery 사례의 보존 보고서 만들기
   
@@ -41,27 +41,9 @@ ms.locfileid: "43942901"
     
 ## <a name="step-1-connect-to-the-security--compliance-center-powershell"></a>1 단계: 보안 & 준수 센터 PowerShell에 연결
 
-첫 번째 단계는 조직의 보안 & 준수 센터에 연결 하는 것입니다.
+첫 번째 단계는 조직의 보안 & 준수 센터 PowerShell에 연결 하는 것입니다. 단계별 지침은 [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)를 참조하세요.
   
-1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 `ConnectSCC.ps1`들면입니다. 
-    
-      ```powershell
-      # Get login credentials 
-      $UserCredential = Get-Credential 
-      $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Credential $UserCredential -Authentication Basic -AllowRedirection 
-      Import-PSSession $Session -AllowClobber -DisableNameChecking 
-      $Host.UI.RawUI.WindowTitle = $UserCredential.UserName + " (Security & Compliance Center)" 
-    ```
-
-2. 로컬 컴퓨터에서 Windows PowerShell을 열고 스크립트를 저장 한 폴더로 이동 합니다. 
-    
-3. 스크립트를 실행 합니다. 예를 들어:
-
-    ```powershell
-    .\ConnectSCC.ps1
-    ```
-
-4. 자격 증명을 묻는 메시지가 표시 되 면 전자 메일 주소와 암호를 입력 하 고 **확인**을 클릭 합니다. 
+Microsoft 365 계정에서 MFA(다단계 인증) 또는 페더레이션된 인증을 사용하는 경우 이전 항목의 지침에 따라 보안 및 준수 센터 PowerShell에 연결할 수 없습니다. 대신 [다단계 인증을 사용하여 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/mfa-connect-to-scc-powershell) 항목의 지침을 참조하세요.
   
 ## <a name="step-2-run-the-script-to-report-on-holds-associated-with-ediscovery-cases"></a>2 단계: 스크립트를 실행 하 여 eDiscovery 사례와 연결 된 보류에 대해 보고
 
@@ -172,9 +154,9 @@ Write-host "Script complete! Report files saved to this folder: '$Path'"
     > [!TIP]
     > 스크립트가 있는 폴더에 보고서를 저장 하려면 대상 폴더를 묻는 메시지가 표시 되 면 마침표 (".")를 입력 합니다. 스크립트가 있는 폴더의 하위 폴더에 보고서를 저장 하려면 하위 폴더의 이름만 입력 하면 됩니다. 
   
-    스크립트에서 조직의 모든 eDiscovery 사례에 대 한 정보를 수집 하기 시작 합니다. 스크립트가 실행 되는 동안에는 보고서 파일에 액세스 하지 마세요. 스크립트가 완료 되 면 Windows PowerShell 세션에 확인 메시지가 표시 됩니다. 이 메시지가 표시 되 면 4 단계에서 지정한 폴더의 보고서에 액세스할 수 있습니다. 보고서의 파일 이름은 `CaseHoldsReport<DateTimeStamp>.csv`입니다.
+    스크립트에서 조직의 모든 eDiscovery 사례에 대 한 정보를 수집 하기 시작 합니다. 스크립트가 실행 되는 동안에는 보고서 파일에 액세스 하지 마세요. 스크립트가 완료 되 면 Windows PowerShell 세션에 확인 메시지가 표시 됩니다. 이 메시지가 표시 되 면 4 단계에서 지정한 폴더의 보고서에 액세스할 수 있습니다. 보고서의 파일 이름은 `CaseHoldsReport<DateTimeStamp>.csv` 입니다.
 
-    Addtionally을 사용 하는 경우 스크립트는 보류 된 것이 없는 사례 목록을 포함 하는 보고서도 만듭니다. 이 보고서의 파일 이름은 `CaseswithNoHolds<DateTimeStamp>.csv`입니다.
+    Addtionally을 사용 하는 경우 스크립트는 보류 된 것이 없는 사례 목록을 포함 하는 보고서도 만듭니다. 이 보고서의 파일 이름은 `CaseswithNoHolds<DateTimeStamp>.csv` 입니다.
     
     다음은 CaseHoldsReport 스크립트를 실행 하는 예제입니다. 
     

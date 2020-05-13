@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 핵심 eDiscovery 사례를 관리 하는 방법을 설명 합니다. 여기에는 사례 종료, 닫힌 사례 다시 열기 및 사례 삭제 등이 포함 됩니다.
-ms.openlocfilehash: 41ba622a58b0abb5ce668e6d94d89b1694a328c9
-ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
+ms.openlocfilehash: 45282486c2c3b1d00b99a1cda5968b3bb042f6c2
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43551425"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208420"
 ---
 # <a name="close-reopen-and-delete-a-core-ediscovery-case"></a>핵심 eDiscovery 사례 닫기, 다시 열기 및 삭제
 
@@ -42,7 +42,7 @@ ms.locfileid: "43551425"
 
 사례를 닫으려면:
   
-1. Microsoft 365 준수 서비스 입력에서 **eDiscovery** > **코어** 를 클릭 하 여 조직의 핵심 eDiscovery 사례 목록을 표시 합니다.
+1. Microsoft 365 준수 센터에서 **eDiscovery**  >  **Core** 를 클릭 하 여 조직의 핵심 eDiscovery 사례 목록을 표시 합니다.
 
 2. 닫으려는 case의 이름을 클릭 합니다.
 
@@ -66,7 +66,7 @@ ms.locfileid: "43551425"
 
 사례를 다시 열면 사례를 닫을 때 적용 되었던 eDiscovery 보류가 자동으로 복원 되지 않습니다. 사례를 다시 연 후에는 **보류** 페이지로 이동 하 여 이전 보류를 켜야 합니다. 보류를 설정 하려면이 옵션을 선택 하 여 플라이 아웃 페이지를 표시 하 고 **상태** 전환 설정을 **켜기**로 설정 합니다.
   
-1. Microsoft 365 준수 서비스 입력에서 **eDiscovery** > **코어** 를 클릭 하 여 조직의 핵심 eDiscovery 사례 목록을 표시 합니다.
+1. Microsoft 365 준수 센터에서 **eDiscovery**  >  **Core** 를 클릭 하 여 조직의 핵심 eDiscovery 사례 목록을 표시 합니다.
 
 2. 다시 열 사례 이름을 클릭 합니다.
 
@@ -102,7 +102,7 @@ EDiscovery 보류를 삭제 하려면:
 
 사례를 삭제 하려면 다음을 수행 합니다.
 
-1. Microsoft 365 준수 서비스 입력에서 **eDiscovery** > **코어** 를 클릭 하 여 조직의 핵심 eDiscovery 사례 목록을 표시 합니다.
+1. Microsoft 365 준수 센터에서 **eDiscovery**  >  **Core** 를 클릭 하 여 조직의 핵심 eDiscovery 사례 목록을 표시 합니다.
 
 2. 삭제 하려는 서비스 케이스의 이름을 클릭 합니다.
 

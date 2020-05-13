@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Microsoft 365 그룹을 만들 수 있는 사용자를 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: 5ecd48161a751a1558146236d48df13bb0662ad1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 55b3ec119e8c74982ce340c58f6b8da684c9ffa8
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630408"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208345"
 ---
 # <a name="manage-who-can-create-groups"></a>그룹을 만들 수 있는 사용자 관리
 
@@ -120,13 +120,13 @@ Microsoft 365 그룹 만들기를 특정 보안 그룹의 구성원으로 제한
 
 아래 스크립트를 메모장과 같은 텍스트 편집기 또는 [Windows POWERSHELL ISE](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise)에 복사 합니다.
 
-* \<SecurityGroupName\> * 을 만든 보안 그룹의 이름으로 바꿉니다. 예시:
+* \< SecurityGroupName \> * 을 만든 보안 그룹의 이름으로 바꿉니다. 예시:
 
 `$GroupName = "Group Creators"`
 
 파일을 GroupCreators 저장 합니다. p s. 
 
-PowerShell 창에서 파일을 저장 한 위치로 이동 합니다 ("CD <FileLocation>" 형식).
+PowerShell 창에서 파일을 저장 한 위치로 이동 합니다 ("CD <FileLocation> " 형식).
 
 다음 명령을 입력 하 여 스크립트를 실행 합니다.
 
@@ -173,6 +173,8 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 그룹 만들기 제한을 해제 하 고 모든 사용자가 그룹을 만들 수 있도록 하려면 $GroupName를 ""로 설정 하 고 $AllowGroupCreation "True"로 설정한 후 스크립트를 다시 실행 합니다.
     
 ## <a name="step-4-verify-that-it-works"></a>4 단계: 작동 하는지 확인
+
+변경 내용이 적용 되려면 30 분 이상이 소요 될 수 있습니다. 다음을 수행 하 여 새 설정을 확인할 수 있습니다.
 
 1. 그룹을 만들 수 없는 사용자 계정을 사용 하 여 로그인 합니다. 즉, 사용자가 만들었거나 관리자가 만든 보안 그룹의 구성원이 아닙니다.
     

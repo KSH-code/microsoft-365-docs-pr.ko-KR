@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 관리자 제출
+title: 관리자 전송
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,17 +16,17 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 회사의 의심 스러운 전자 메일, 의심 스러운 메일, 스팸 및 기타 해로운 메시지, Url 및 파일을 검색을 위해 Microsoft에 제출 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 79f200963655e5fb07a04b686c1dd8cc3bbd0873
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: 관리자는 보안 & 준수 센터에서 전송 포털을 사용 하 여 의심 스러운 전자 메일, 의심 되는 피싱 메일, 스팸 및 기타 해로운 메시지, Url 및 파일을 검색을 위해 Microsoft에 제출 하는 방법에 대해 알아볼 수 있습니다.
+ms.openlocfilehash: ae84c9ca111c7e7056ae97abff20471c474dccb2
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034203"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209754"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>관리자 제출을 사용하여 의심스러운 스팸, 피싱, URL 및 파일을 Microsoft에 제출
 
-Exchange Online의 사서함이 있는 Microsoft 365 조직의 관리자 인 경우 보안 & 준수 센터의 전송 포털을 사용 하 여 검색을 위해 Microsoft에 전자 메일 메시지, Url 및 첨부 파일을 제출할 수 있습니다.
+Exchange Online의 사서함이 있는 Microsoft 365 조 직에서는 관리자가 보안 & 준수 센터의 전송 포털을 사용 하 여 검색을 위해 전자 메일 메시지, Url 및 첨부 파일을 Microsoft에 제출할 수 있습니다.
 
 전자 메일을 제출 하면 메일에 포함 된 Url 및 첨부 파일을 검사 하는 것은 물론 수신 전자 메일을 허용 했을 수 있는 모든 정책에 대 한 정보를 받게 됩니다. 메일을 허용할 수 있는 정책에는 개별 사용자의 수신 허용-보낸 사람 목록 뿐 아니라 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)과 같은 테 넌 트 수준 정책이 포함 됩니다.
 
@@ -34,7 +34,7 @@ Exchange Online의 사서함이 있는 Microsoft 365 조직의 관리자 인 경
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. **제출** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/reportsubmission>합니다.
+- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. **제출** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/reportsubmission> 합니다.
 
 - 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 스팸 방지 정책을 추가, 수정 및 삭제 하려면 **조직 관리**, **보안 관리자**또는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
@@ -74,7 +74,7 @@ Exchange Online의 사서함이 있는 Microsoft 365 조직의 관리자 인 경
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>Microsoft에 의심 스러운 URL 보내기
 
-1. **개체 유형** 섹션에서 **URL**을 선택 합니다. 상자가 나타나면 전체 URL (예: <https://www.fabrikam.com/marketing.html>)을 입력 합니다.
+1. **개체 유형** 섹션에서 **URL**을 선택 합니다. 상자가 나타나면 전체 URL (예:)을 입력 합니다 <https://www.fabrikam.com/marketing.html> .
 
 2. **제출 사유** 섹션에서 다음 옵션 중 하나를 선택 합니다.
 
@@ -108,7 +108,7 @@ Exchange Online의 사서함이 있는 Microsoft 365 조직의 관리자 인 경
 
 2. **제출** 페이지가 나타나면 **관리자 제출** 탭이 선택 되어 있는지 확인 합니다.
 
-페이지 맨 위에 있는 시작 날짜와 끝 날짜를 입력할 수 있으며, 기본적으로 상자에 값을 입력 하 고 새로 고침 단추 ![](../../media/scc-quarantine-refresh.png)를 클릭 하 여 **제출 ID** 를 기준으로 필터링 할 수 있습니다. Update
+페이지 맨 위에 있는 시작 날짜와 끝 날짜를 입력할 수 있으며, 기본적으로 상자에 값을 입력 하 고 새로 고침 단추를 클릭 하 여 **제출 ID** 를 기준으로 필터링 할 수 있습니다 ![ ](../../media/scc-quarantine-refresh.png) . Update
 
 필터 조건을 변경 하려면 **제출 ID** 단추를 클릭 하 고 다음 값 중 하나를 선택 합니다.
 
@@ -193,7 +193,7 @@ Exchange Online의 사서함이 있는 Microsoft 365 조직의 관리자 인 경
 
 <sup>\*</sup>이 값을 클릭 하면 자세한 정보가 플라이 아웃에 표시 됩니다.
 
-페이지 맨 위에 있는 시작 날짜와 끝 날짜를 입력할 수 있으며, 기본적으로 상자에 값을 입력 하 고 새로 고침 단추 ![](../../media/scc-quarantine-refresh.png)를 클릭 하 여 **보낸 사람** 을 기준으로 필터링 할 수 있습니다. Update
+페이지 맨 위에 있는 시작 날짜와 끝 날짜를 입력할 수 있으며, 기본적으로 상자에 값을 입력 하 고 새로 고침 단추를 클릭 하 여 **보낸 사람** 을 기준으로 필터링 할 수 있습니다 ![ ](../../media/scc-quarantine-refresh.png) . Update
 
 필터 조건을 변경 하려면 **보낸 사람** 단추를 클릭 하 고 다음 값 중 하나를 선택 합니다.
 
@@ -224,7 +224,7 @@ Exchange Online의 사서함이 있는 Microsoft 365 조직의 관리자 인 경
 - **보낸 사람 IP**<sup>\*</sup>
 - **전송 유형**
 
-페이지 위쪽에 있는 시작 날짜, 종료 날짜를 입력 하 고 상자에 값을 입력 하 고 새로 고침 단추 ![](../../media/scc-quarantine-refresh.png)를 **클릭 하 여** 필터링 하 여 필터할 수 있습니다. Update
+페이지 위쪽에 있는 시작 날짜, 종료 날짜를 입력 하 고 상자에 값을 입력 하 고 새로 고침 단추를 **클릭 하 여** 필터링 하 여 필터할 수 있습니다 ![ ](../../media/scc-quarantine-refresh.png) . Update
 
 결과를 내보내려면 페이지 위쪽에서 **내보내기를** 클릭 하 고 **차트 데이터** 또는 **표**를 선택 합니다. 대화 상자가 나타나면 .csv 파일을 저장 합니다.
 

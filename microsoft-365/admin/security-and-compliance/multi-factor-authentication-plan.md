@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 365의 다단계 인증 및이를 설정 하기 위해 수행 해야 하는 단계에 대해 알아봅니다.
-ms.openlocfilehash: 035a79c9db44990dbce09de540e3e483b3cea8df
-ms.sourcegitcommit: 7c0470fd7a98911d142bac060c228947c46a6be7
+ms.openlocfilehash: 6d28e9e7db825aa9030196396ad420028dc1c881
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43665671"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213131"
 ---
 # <a name="plan-for-multi-factor-authentication-for-microsoft-365-deployments"></a>Microsoft 365 배포에 대 한 다단계 인증 계획
 
@@ -131,10 +131,10 @@ MSI 기반 설치의 경우 아래 나열한 파일 버전 이상으로 다음 �
     
 2. [Microsoft 365에 대해 MFA를 설정](set-up-multi-factor-authentication.md)합니다.
     
-3. 개별 사용자에 게 MFA로 로그인 하는 방법을 설명 합니다. [MFA를 사용 하 여 Microsoft 365에 로그인을](https://support.office.com/en-us/article/sign-in-to-microsoft-365-with-2-step-verification-2b856342-170a-438e-9a4f-3c092394d3cb)참조 하세요.
+3. 개별 사용자에 게 MFA로 로그인 하는 방법을 설명 합니다. [MFA를 사용 하 여 Microsoft 365에 로그인을](https://support.office.com/article/sign-in-to-microsoft-365-with-2-step-verification-2b856342-170a-438e-9a4f-3c092394d3cb)참조 하세요.
 
 > [!IMPORTANT]
-> 사용자가 Azure Multi-factor Authentication을 사용 하도록 설정한 상태에서 최신 인증을 사용 하도록 설정 되지 않은 모든 장치를 Office 2013를 실행 하는 경우 해당 장치에서 AppPasswords를 사용 해야 합니다. AppPasswords에 대 한 자세한 내용은 [Azure 다단계 인증을 사용 하는 앱 암호](https://go.microsoft.com/fwlink/p/?LinkId=528178)를 참조 하세요.
+> 사용자가 Azure Multi-factor Authentication을 사용 하도록 설정한 상태에서 최신 인증을 사용할 수 없는 Office 2013을 실행 하는 장치가 있으면 이러한 장치에서 앱 암호를 사용 해야 합니다. 자세한 내용은 [이 문서](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-mfasettings#app-passwords) 를 참조 하세요.
   
 ## <a name="faq"></a>FAQ
 

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: e49b80cc873887cf9cc447a28ac2a274034176fc
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 49b5491cb67f447bf8cca1d88aab807c1bf30624
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066241"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208390"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Microsoft 365의 통신 준수
 
@@ -97,7 +97,7 @@ Microsoft 365의 통신 준수 기능은 새로운 몇 가지 향상 된 [Office
 
 통신 준수 정책은 여러 통신 채널에서 메시지를 검색 하 고 캡처하여 규정 준수 문제를 신속 하 게 검토 하 고 수정 하는 데 도움이 됩니다.
 
-- **Microsoft 팀**: 공개 및 개인 [Microsoft 팀](https://docs.microsoft.com/MicrosoftTeams/Teams-overview) 채널과 개별 채팅에 대 한 채팅 통신은 독립 실행형 채널 원본이 나 다른 Microsoft 365 서비스와의 통신 준수에서 지원 됩니다. 이제 정책은 정책에 정의 된 특정 사용자에 대해 모든 Microsoft 팀 채널 및 팀을 자동으로 검사 하 여 Microsoft 팀 할당에 대해 별도의 매핑 목록을 유지할 필요가 없습니다.
+- **Microsoft 팀**: 공개 및 개인 [Microsoft 팀](https://docs.microsoft.com/MicrosoftTeams/Teams-overview) 채널과 개별 채팅에 대 한 채팅 통신은 독립 실행형 채널 원본이 나 다른 Microsoft 365 서비스와의 통신 준수에서 지원 됩니다. 통신 준수 정책에서 감독할에 대해 사용자 및 그룹을 선택 하는 경우 개별 사용자, 메일 그룹 또는 특정 Microsoft 팀 채널을 수동으로 추가 해야 합니다.
 - **Exchange online**: Microsoft 365 조 직의 [exchange online](https://docs.microsoft.com/Exchange/exchange-online) 에서 호스트 되는 모든 사서함이 검색에 적합 합니다. 통신 준수 정책 조건과 일치 하는 전자 메일 및 첨부 파일은 모니터링 및 준수 보고서에서 즉시 사용할 수 있습니다. Exchange Online은 이제 선택적 원본 채널이 며 통신 준수 정책에 더 이상 필요 하지 않습니다.
 - **Yammer**: [yammer](https://docs.microsoft.com/yammer/yammer-landing-page) 의 개인 메시지 및 공용 커뮤니티 대화는 통신 준수 정책에서 지원 됩니다. Yammer는 선택적 채널 이며, 메시지 및 첨부 파일의 검색을 지원 하려면 [기본 모드](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) 에 있어야 합니다.
 - 비즈니스용 **Skype online**: 통신 준수 정책은 [비즈니스용 skype Online](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)에서 채팅 통신 및 관련 첨부 파일의 검색을 지원 합니다.
