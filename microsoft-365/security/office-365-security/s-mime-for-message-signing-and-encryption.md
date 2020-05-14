@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
 description: 관리자는 Exchange Online의 S/MIME (Secure/다목적 Internet Mail Extensions)를 사용 하 여 전자 메일을 암호화 하 고 디지털 서명을 하는 방법에 대해 알아볼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8c45df36535e7b5af2648b82f83159315b94bec8
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: cf9859240914e078eb62b0e914f8de79cf647f2d
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036623"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224676"
 ---
 # <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>Exchange Online의 메시지 서명 및 암호화를 위한 S/MIME
 
@@ -51,7 +51,7 @@ Exchange Online 관리자로 서 조직의 사서함에 대해 S/MIME 기반 보
 5. S/MIME을 사용하도록 Outlook 또는 EAS 끝점을 설정합니다.
 
 > [!NOTE]
-> Mac, iOS, Android 또는 기타 비 Windows 장치에서는 Outlook에서 S/MIME 컨트롤을 설치할 수 없습니다. 자세한 내용은 [웹용 Outlook에서 S/MIME을 사용 하 여 메시지 암호화](https://support.office.com/article/878c79fc-7088-4b39-966f-14512658f480)를 참조 하세요.
+> Mac, iOS, Android 또는 기타 비 Windows 장치에서는 Outlook에서 S/MIME 컨트롤을 설치할 수 없습니다. 자세한 내용은 [웹용 Outlook에서 S/MIME을 사용 하 여 메시지 암호화](https://support.microsoft.com/en-us/office/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480)를 참조 하세요.
 
 ## <a name="setup-smime-with-outlook-on-the-web"></a>웹에서 Outlook을 사용 하 여 S/MIME 설정
 

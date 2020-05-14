@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 99a124ff57816481cde92dd79c3058a2e7b72d31
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: bfbb0481670b2f957bf240c261fcbafab96717b9
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43625209"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222592"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Id 및 장치 액세스 정책을 구현 하기 위한 필수 작업
 
@@ -42,7 +42,7 @@ ms.locfileid: "43625209"
 | **사용자의 지원 팀 준비**. MFA를 완료할 수 없는 사용자에 대한 계획을 시행합니다. 이를 정책 제외 그룹에 추가 하거나 새 MFA 정보를 등록할 수 있습니다. 이러한 보안 관련 변경 사항을 적용 하기 전에 실제 사용자가 요청을 수행 하 고 있는지 확인 해야 합니다. 사용자의 관리자에 대해 승인을 통해 도움을 주도록 요구하는 것이 효과적인 단계입니다. | 예 | 예 | 예 | 예 |  
 | [온-프레미스 AD에 대한 암호 쓰기 저장 구성](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started). 암호 쓰기 저장을 사용 하면 높은 위험 계정 손상 감지 시 사용자가 온-프레미스 암호를 변경 하도록 할 수 있습니다. Azure ad Connect 설치 마법사의 선택적 기능 화면에서 **암호 쓰기 저장** 을 사용 하도록 설정 하거나 Windows PowerShell을 통해 사용 하도록 설정 하 여 Azure ad connect를 사용 하 여이 기능을 사용 하도록 설정할 수 있습니다. |   | 예 | 예 | 예 |
 | [Azure Active Directory Id 보호를 사용 하도록 설정](https://docs.microsoft.com/azure/active-directory/identity-protection/enable)합니다. Azure AD Id 보호를 사용 하면 조직의 id에 영향을 미치는 잠재적인 취약점을 검색 하 고, 낮음, 보통 및 높음 로그인 위험 및 사용자 위험에 대 한 자동화 된 수정 정책을 구성할 수 있습니다.  | 예 | 예 | 예 | 예 |
-| [Exchange online](https://support.office.com/article/Enable-or-disable-modern-authentication-in-Exchange-Online-58018196-f918-49cd-8238-56f57f38d662) 및 [비즈니스용 Skype online](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)에 **최신 인증을 사용 하도록 설정** 합니다. 최신 인증은 MFA (multi-factor authentication)를 사용 하기 위한 필수 구성 요소입니다. 최신 인증은 Office 2016 클라이언트, SharePoint Online 및 비즈니스용 OneDrive에 기본적으로 사용 하도록 설정 되어 있습니다. | 예 | 예 | 예 | 예 |
+| [Exchange online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) 및 [비즈니스용 Skype online](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)에 **최신 인증을 사용 하도록 설정** 합니다. 최신 인증은 MFA (multi-factor authentication)를 사용 하기 위한 필수 구성 요소입니다. 최신 인증은 Office 2016 클라이언트, SharePoint Online 및 비즈니스용 OneDrive에 기본적으로 사용 하도록 설정 되어 있습니다. | 예 | 예 | 예 | 예 |
 ||||||
 
 
@@ -69,7 +69,7 @@ BYOD Windows 장치에서는 사용자가 **회사 또는 학교 계정 추가**
 
 |플랫폼|클라이언트|버전/참고|
 |:-------|:-----|:------------|
-|**Windows**|Outlook|2016, 2013 [최신 인증 사용](https://support.office.com/article/Enable-Modern-Authentication-for-Office-2013-on-Windows-devices-7dc1c01a-090f-4971-9677-f1b192d6c910), [필수 업데이트](https://support.office.com/article/Outlook-Updates-472c2322-23a4-4014-8f02-bbc09ad62213)|
+|**Windows**|Outlook|2016, 2013 [최신 인증 사용](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/enable-modern-authentication), [필수 업데이트](https://support.office.com/article/Outlook-Updates-472c2322-23a4-4014-8f02-bbc09ad62213)|
 |**iOS**|iOS용 Outlook|[최신](https://itunes.apple.com/us/app/microsoft-outlook-email-and-calendar/id951937596?mt=8)|
 |**Android**|Android용 Outlook|[최신](https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&hl=en)|
 |**macOS**|Outlook|2016|
@@ -91,7 +91,7 @@ BYOD Windows 장치에서는 사용자가 **회사 또는 학교 계정 추가**
 |macOS|공개 미리 보기|공개 미리 보기|해당 없음|해당 없음|지원되지 않음|
 |Linux|지원되지 않음|지원되지 않음|지원되지 않음|지원되지 않음|지원되지 않음|
 
-<sup>*</sup>자세한 내용은 [OneDrive 동기화 클라이언트](https://support.office.com/article/Azure-Active-Directory-conditional-access-with-the-OneDrive-sync-client-on-Windows-028d73d7-4b86-4ee0-8fb7-9a209434b04e)에서 조건부 액세스 사용을 참고 하세요.
+<sup>*</sup>자세한 내용은 [OneDrive 동기화 클라이언트](https://docs.microsoft.com/onedrive/enable-conditional-access)에서 조건부 액세스 사용을 참고 하세요.
 
 ### <a name="microsoft-365-client-support"></a>Microsoft 365 클라이언트 지원
 클라이언트 지원에 대 한 자세한 내용은 다음 문서를 참조 하십시오.
@@ -114,7 +114,7 @@ Azure AD는 미리 구성 된 조건부 액세스 정책을 사용 하 여 관�
 추가 권장 사항은 다음과 같습니다.
 - Azure AD Privileged Identity Management를 사용하여 영구 관리 계정 수를 줄입니다. [PIM 사용 시작](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-getting-started)을 참조 하세요. 
 - [Office 365의 권한이 부여 된 액세스 관리를 사용](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview) 하 여 중요 한 데이터에 대 한 액세스 권한이 나 중요 한 구성 설정에 대 한 액세스 권한이 있는 기존 권한 관리 계정을 사용 하는 위반 으로부터 조직을 보호할 수 있습니다. 
-- 관리에만 관리자 계정을 사용 합니다. 관리자는 일반 비 관리 사용을 위한 별도의 사용자 계정을 가져야 하며, 해당 작업 기능과 관련 된 작업을 완료 하는 데 필요한 경우에만 해당 관리자 계정을 사용 해야 합니다. [Microsoft 365 관리자](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) 역할은 microsoft 365 서비스 보다 훨씬 더 많은 권한을 가집니다.
+- 관리에만 관리자 계정을 사용 합니다. 관리자는 일반 비 관리 사용을 위한 별도의 사용자 계정을 가져야 하며, 해당 작업 기능과 관련 된 작업을 완료 하는 데 필요한 경우에만 해당 관리자 계정을 사용 해야 합니다. [Microsoft 365 관리자](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) 역할은 microsoft 365 서비스 보다 훨씬 더 많은 권한을 가집니다.
 - 이 [문서](https://docs.microsoft.com/azure/active-directory/admin-roles-best-practices)에 설명 된 대로 Azure AD에서 권한 있는 계정 보안을 위한 모범 사례를 따릅니다.
 
 ## <a name="next-steps"></a>다음 단계

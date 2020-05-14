@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 description: Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는 항상 발전 하 고 있습니다. Microsoft에서는 피드백에 따라 계속 새 문서를 만들고, 기존 기사를 업데이트 하 고, 변경 작업을 수행 하 고 있습니다. 이번 달의 새로운 기능과 업데이트 된 기능에 대해 알아보세요.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b7edcf8c4c530c926d323fddbf795cd930efd649
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 6995413d6bbd068ac5e126351dc1a8fb761a0934
+ms.sourcegitcommit: ad789f1e7bf9c9dc0d45c731373e667a26ed30b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036021"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221422"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Microsoft 365 준수 콘텐츠에 대 한 최신 업데이트
 
@@ -32,7 +32,122 @@ Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는
 > [!TIP]
 > Microsoft 365 준수 센터의 최신 기능 업데이트를 계속 해 서 확인 하려면 [microsoft 365 준수 센터에서 새롭게 소개](whats-new.md)되는 내용을 참조 하세요.
 
+## <a name="march-2020"></a>2020년 3월
+
+### <a name="auditing"></a>감사
+
+[고급 감사를 사용 하 여 손상 된 계정 조사](mailitemsaccessed-forensics-investigations.md) (신규)<br>법적 조사를 위해 새 *mail항목에 액세스* 한 사서함 감사 작업에 대 한 새로운 지침입니다.
+
+다음과 같은 여러 업데이트를 통해 [감사 로그를 검색할](search-the-audit-log-in-security-and-compliance.md)수 있습니다.
+- 감사 레코드에 나열 된 ' app@sharepoint ' 사용자에 대 한 세부 정보가 포함 된 [새 섹션](search-the-audit-log-in-security-and-compliance.md#the-appsharepoint-user-in-audit-records) 입니다.
+- 격리 작업에 대 한 [새로운 설명](search-the-audit-log-in-security-and-compliance.md#quarantine-activities)
+- 사용자 [관리 활동](search-the-audit-log-in-security-and-compliance.md#user-administration-activities) 섹션에서 "사용자가 자체 암호를 변경 하면 셀프 서비스 암호 재설정을 통해" Change user password 이벤트가 트리거되고, 관리자가 사용자의 암호를 다시 설정할 때 "사용자 암호 재설정" 이벤트가 트리거되는 것을 명확히 설명 합니다.
+
+### <a name="auto-expanding-archive"></a>자동 확장 보관 함
+
+[무제한 보관 개요](unlimited-archiving.md#outlook-requirements-for-accessing-items-in-an-auto-expanded-archive)(업데이트 됨)<br>사서함에서 자동 확장 보관을 사용 하도록 설정한 경우 기본 보관 함 또는 보조 보관 파일의 폴더를 삭제할 수 없다는 설명이 추가 되었습니다.
+
+### <a name="compliance-scorecompliance-manager"></a>준수 점수/준수 관리자
+
+모든 [준수 점수](compliance-score.md) 및 [준수 관리자](compliance-manager-overview.md) 항목에는 4 월 이전에 릴리스된이 제품에 대 한 업데이트 (두 가지 모두 공개 미리 보기 상태)가 반영 됩니다. 주요 업데이트는 다음과 같습니다.
+- 템플릿을 만들고 수정 하기 위한 간소화 된 프로세스
+- 템플릿 및 작업에 대 한 버전 관리 알림 및 컨트롤
+- 그룹 간 일반 작업 동기화
+- 현재 언어 지원이 중국어 (간체), 중국어 (번체), 프랑스어, 독일어, 이탈리아어, 일본어, 한국어, 포르투갈어 (브라질), 러시아어 및 스페인어로 확장
+
+### <a name="communication-compliance"></a>커뮤니케이션 규정 준수
+
+[사례 연구-Contoso는 Microsoft 팀, Exchange 및 Yammer 통신에 대 한 공격적인 언어 정책을 빠르게 구성 합니다](communication-compliance-case-study.md) (신규).<br>교육 및 소규모 비즈니스 조직을 위해 공격적인 언어 정책을 빠르게 구성 하는 데 도움이 되는 단계별 사례 연구입니다. 조직이 COVID19 응답을 올림 함에 따라 고객의 요청이 증가 했습니다.
+
+[통신 준수 시작](communication-compliance-configure.md) (업데이트 됨)<br>라이선스 및 사용 권한 요구 사항이 업데이트 되었습니다.
+
+### <a name="customer-key"></a>고객 키
+
+[고객 키 또는 가용성 키 롤 또는 회전](customer-key-availability-key-roll.md) (업데이트 됨)<br>구성 하 여 롤백할 수 있는 키를 명확 하 게 하는 데 도움이 되는 조직 업데이트
+
+[고객 키의 가용성 키에 대 한 자세한](customer-key-availability-key-understand.md) 정보 (업데이트 됨)<br>고객 키에 대 한 Exchange Online 아키텍처에 대 한 설명이 추가 되었습니다.
+
+### <a name="data-loss-prevention"></a>데이터 손실 방지
+
+[데이터 손실 방지 개요](data-loss-prevention-policies.md) (업데이트 됨)<br>보존 레이블이 적용 되는 데 걸리는 시간 및 경고가 구성 되지 않은 기본 동작 정책을 업데이트 했습니다.
+
+### <a name="ediscovery"></a>eDiscovery
+
+[Advanced eDiscovery 시작 하기](get-started-with-advanced-ediscovery.md) (신규)<br>라이선스 및 사용 권한 요구 사항, 전역 설정 구성 단계 및 새 사례 만들기 및 고급 eDiscovery 워크플로 연습에 대 한 정보를 제공 합니다.
+
+[레거시 eDiscovery 도구 만료](legacy-ediscovery-retirement.md) (업데이트 됨)<br>공개 상태 상황으로 인해 만료 날짜가 3 개월 후로 이동 되었습니다. 업데이트 된 문서 cites 새 만료 날짜가 추가 되었습니다.
+
+### <a name="insider-risk-management"></a>내부자 위험 관리
+
+[참가자 위험 관리 시작](insider-risk-management-configure.md) (업데이트 됨)<br>라이선스 및 사용 권한 요구 사항이 업데이트 되었습니다.
+
+[정보 장벽 정책 정의](information-barriers-policies.md) (업데이트 됨)<br>적용 하는 데 필요한 처리 속도 및 시간에 대 한 설명이 추가 되었습니다. 적절 한 주소록 정책이 없는 경우에 대 한 세부 정보가 추가 되었습니다. 또한 필터링을 위한 새 코드를 포함 하 여 다양 한 PowerShell 코드 업데이트를 사용할 수 있습니다.
+
+[정보 장벽](information-barriers.md) (업데이트 됨)<br>일부 끊어진 링크를 수정 하 고 PDF 링크와 제목을 업데이트 했습니다. 고객 의견에 따라 정보 장벽에서 양방향 제한이 지원 된다고 명확히 설명 했습니다. 마케팅과 같은 단방향 제한은 지원 되지 않습니다 (예: marketing은 당일 상인과 통신할 수 있음).
+
+[정보 장벽 문제 해결](information-barriers-troubleshooting.md) (업데이트 됨)<br>새로운 문제 해결 시나리오 섹션이 추가 되었습니다. 정보 장애물을 다시 적용 하는 방법의 단계에 대 한 링크가 추가 되었습니다.
+
+### <a name="office-365-message-encryption"></a>Office 365 메시지 암호화
+
+[Office 365 메시지 암호화 관리](manage-office-365-message-encryption.md) (업데이트 됨)<br>Force 래퍼 함수가 고급 1이 아니라 표준 OME 기능 이라고 반영 하 여 업데이트 되었습니다. PowerShell 예제를 Rewrote 고급 OME 기능 해지 및 만료에 대 한 모든 참조를 제외 합니다.
+
+[메시지 암호화 FAQ](ome-faq.md) (업데이트 됨)<br>웹용 Outlook 에서만 임시 암호화를 적용할 수 있음을 명확히 설명 했습니다. 마찬가지로 모든 Outlook 클라이언트에 대해 메시지 및 보호 되지 않은 PDF 첨부 파일은 Exchange Online의 DLP (데이터 손실 방지) 정책 또는 메일 흐름 규칙에 대 한 OME 보호를 상속 받습니다.
+
+### <a name="privileged-access-management"></a>권한이 부여된 액세스 관리
+
+[권한 있는 액세스 관리 시작](privileged-access-management-configuration.md) (업데이트 됨)<br>라이선스 및 사용 권한 요구 사항이 업데이트 되었습니다.
+
+### <a name="pst-import"></a>PST 가져오기
+
+[PST 파일 가져오기에 대 한 FAQ](faqimporting-pst-files-to-office-365.md) (업데이트 됨)<br>PST 가져오기 프로세스에서 중복 전자 메일 항목을 처리 하는 방법에 대 한 FAQ가 추가 되었습니다.
+
+### <a name="retention"></a>보존
+
+[보존 정책 개요](retention-policies.md) (업데이트 됨)<br>변경 내용은 다음과 같습니다.
+
+- 보존 전용 및 삭제 전용 보존 정책에 대 한 콘텐츠 경로가 추가 되었습니다 (이전에는 콘텐츠 경로가 유지 및 삭제에만 설명 됨).
+- SharePoint 위치에서 사이트를 선택 하는 대신 URL을 지정 하는 방법을 설명 하는 [업데이트 된 섹션이](retention-policies.md#applying-a-retention-policy-to-an-entire-organization-or-specific-locations) 추가 되었습니다. 즉, 사이트에 액세스 하는 데 필요한 권한이 보존 정책에 포함 되지 않습니다.
+
+### <a name="sensitivity-labels"></a>민감도 레이블
+
+민감도 레이블 (업데이트 됨) [에 대해 알아보기](sensitivity-labels.md)<br>[공식적인 고 지](https://techcommunity.microsoft.com/t5/azure-information-protection/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179)사항에 대 한 링크를 포함 하 여 Azure portal의 레이블 관리에 대 한 세부 정보를 추가 했습니다.
+
+[민감도 레이블 시작 하기](get-started-with-sensitivity-labels.md) (업데이트 됨)<br>새 민감도 레이블 독자 역할에 대 한 정보가 추가 되었으며, 초기에는 레이블 PowerShell cmdlet에만 지원 됩니다.
+
+[민감도 레이블 및 정책 만들기 및 구성](create-sensitivity-labels.md#removing-and-deleting-labels) (업데이트 됨)<br>추가 된 새 섹션 레이블 제거 및 삭제 결과에 대해 설명 합니다.
+
+[민감도 레이블을 사용 하 여 Microsoft 팀, microsoft 365 그룹 및 SharePoint 사이트의 콘텐츠 보호 (공개 미리 보기)](sensitivity-labels-teams-groups-sites.md) (업데이트 됨)<br>변경 내용은 다음과 같습니다.
+
+- Azure ad 지침이 제거 되었으며 [AZURE ad 권한 정보](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels)에 연결 됩니다.
+- 새 **없음** 옵션을 비롯 하 여 **Office 365 그룹에 연결 된 팀 사이트** 설정에 대 한 정보로 [민감도 레이블 섹션을 만들거나 편집할 때 사이트 및 그룹 설정을 구성 하는 방법이](sensitivity-labels-teams-groups-sites.md#how-to-configure-site-and-group-settings-when-you-create-or-edit-sensitivity-labels) 업데이트 되었습니다.
+- 사용자가 팀, 그룹 및 사이트를 만들 때 사이트 및 그룹 설정을 포함 하는 레이블만 선택할 수 있는 방법을 설명 하는 참고 사항이 추가 되었습니다. 이 기능은 조직에 점진적으로 롤아웃 됩니다.
+
+[민감도 레이블을 사용 하 여 암호화를 적용 하 여 콘텐츠에 대 한 액세스 제한](encryption-sensitivity-labels.md) (업데이트 됨)<br>문서 및 전자 메일을 보호 하기 위해 가장 일반적으로 사용 되는 일부 구성에 대 한 예제 암호화 설정이 포함 된 [새 섹션](encryption-sensitivity-labels.md#example-configurations-for-the-encryption-settings) 입니다.
+
+[콘텐츠에 민감도 레이블을 자동으로 적용](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps) (업데이트 됨)<br>기본 제공 되는 레이블 비교와 Azure Information Protection 통합 레이블 클라이언트 간의 동작 차이점에 대 한 설명입니다.
+
+[SharePoint 및 OneDrive의 Office 파일에 대해 민감도 레이블 사용](sensitivity-labels-sharepoint-onedrive-files.md) (업데이트 됨)<br>변경 내용은 다음과 같습니다.
+
+- 이 미리 보기를 사용 하도록 설정 하면 레이블이 지정 되 고 암호화 된 지원 문서 외에도, 웹의 Office 레이블에 대 한 리본 메뉴에 **민감도** 단추가 표시 된다는 것이 명확 하 게 설명 되었습니다.
+- Office 365 다중 지역에 대 한 지침이 업데이트 되었습니다.
+- 제한 목록에는 컴퓨터를 오프 라인으로 전환 하거나 절전 모드로 전환할 때 수행 되는 작업을 비롯 하 여 레이블이 삭제 되는 경우를 포함 하는 새 항목이 있습니다.
+
+[Office 앱에서 민감도 레이블 사용](sensitivity-labels-office-apps.md) (업데이트 됨)<br>변경 내용은 다음과 같습니다.
+
+- [민감도 레이블을 시작](get-started-with-sensitivity-labels.md)하기 위해 라이선스 정보를 이동 했습니다.
+- [새 섹션](sensitivity-labels-office-apps.md#labeling-client-for-desktop-apps) office 데스크톱 앱에 기본 제공 되는 레이블을 사용 하는 방법에 대 한 자세한 내용은 독립 실행형 Edition 대신 office의 구독 버전을 사용 해야 합니다.
+- 지원 되는 앱의 테이블에는 iOS 및 Android 용 Office 앱 및 사용자가 Word, Excel 및 PowerPoint에 대 한 사용 권한을 할당할 수 있도록 하는 구성 및 Windows 및 Mac 용 월 단위 채널이 업데이트 되었습니다.  
+- [새 섹션](sensitivity-labels-office-apps.md#office-built-in-labeling-client-and-other-labeling-solutions) 에서는 Windows 컴퓨터에 계속 사용할 다른 레이블 솔루션을 현재 사용 하 고 있는 경우 그룹 정책 설정을 사용 하 여 기본 제공 레이블을 사용 하지 않도록 설정 하는 방법을 설명 합니다. 
+- 두 가지 보호 솔루션을 혼합 했을 때 발생할 수 있는 결과에 대 한 설명과 함께 IRM [(정보 권한 관리) 옵션 및 민감도 레이블](sensitivity-labels-office-apps.md#information-rights-management-irm-options-and-sensitivity-labels) 섹션이 업데이트 되었습니다.
+
+### <a name="trainable-classifiers"></a>Trainable 분류자
+
+[Trainable 분류자 시작 (미리 보기)](classifier-getting-started-with.md) (업데이트 됨)<br>더 이상 사용 되지 않는 언어로 서식 파일을 만드는 방법에 대 한 정보가 추가 되었습니다. 또한 소스 코드 기본 제공 분류자에 사용 되는 상위 25 개 코드 언어를 나열 하는 표가 추가 되었습니다.
+
 ## <a name="february-2020"></a>2020년 2월
+
+> [!NOTE]
+> 이전 달에 나열 된 문서는 업데이트, 이동 또는 삭제 되었을 수 있습니다. 따라서 아래 세부 정보 중 일부는 오래 되어 연결이 끊어졌을 수 있습니다.
 
 ### <a name="auditing"></a>감사
 

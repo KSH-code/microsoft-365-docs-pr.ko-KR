@@ -15,19 +15,19 @@ search.appverid:
 localization_priority: Normal
 ms.assetid: 7acd33ce-1ec8-49fb-b625-43bac7b58c5a
 description: '보안 & 준수 센터를 사용 하 여 SharePoint Online 및 Exchange Online 조직에 대 한 다양 한 보고서 및 Azure Active Directory 보고서를 확인할 수 있습니다.  '
-ms.openlocfilehash: 9134cf403c8452ea457983226be04ba139bf72e6
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 4783c3171f5f49dd50d6da8f5f4835ba243f7ab3
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943287"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214710"
 ---
 # <a name="reports-in-the-security--compliance-center"></a>보안 및 준수 센터의 보고서
 
 보안 & 준수 센터의 **보고서 보기** 페이지를 사용 하 여 SharePoint Online 및 Exchange Online 조직에 대 한 감사 보고서에 빠르게 액세스할 수 있습니다. **보고서 보기** 페이지에서 Azure Active DIRECTORY (AD) 사용자 로그인 보고서, 사용자 활동 보고서 및 azure ad audit 로그에 액세스할 수도 있습니다. 이는 유료 Microsoft 365 구독에 Microsoft Azure에 대 한 무료 구독이 포함 되어 있기 때문입니다. 이러한 Azure 보고서에 처음 액세스 하려고 하면 일회성 등록 프로세스를 완료 해야 합니다. 
   
 > [!TIP]
-> 조직의 활동에 대 한 추가 보고서를 보려면 [Microsoft 365 관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)를 참조 하세요. 
+> 조직의 활동에 대 한 추가 보고서를 보려면 [Microsoft 365 관리 센터의 활동 보고서](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)를 참조 하세요. 
   
  **시작하기 전에**
   

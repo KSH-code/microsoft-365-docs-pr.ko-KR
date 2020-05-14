@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: 원격 작업자는 MFA(다단계 인증)를 사용하여 로그인해야 합니다.
-ms.openlocfilehash: 2cb16c78f7fb0b1f9f48559c61a6200d6adcf470
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: a0350be5cf75024fbefadb21ae56017bf64ca0d8
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166140"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213475"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>1단계. MFA를 사용하여 원격 작업자에 대 한 로그인 보안 강화
 
@@ -55,9 +55,9 @@ ms.locfileid: "44166140"
 
 조건부 액세스 정책은 로그인 평가 및 허용 조건을 지정하는 규칙 집합입니다. 예를 들어 다음과 같은 조건부 액세스 정책을 만들 수 있습니다.
 
-- 사용자 계정 이름이 Exchange, 사용자, 암호, 보안, SharePoint 또는 전역 관리자인 사용자의 이름인 경우 액세스를 허용하기 전에 MFA가 필요합니다.
+- 사용자 계정 이름이 Exchange, 사용자, 암호, 보안, SharePoint 또는 전역 관리자 역할이 할당된 사용자의 그룹의 구성원인 경우, 액세스를 허용하기 전에 MFA를 요구합니다.
 
-이 정책은 이러한 관리자 역할에 추가되거나 제거될 때 MFA에 대한 개별 사용자 계정을 구성하는 것을 기억하는 것보다 쉽습니다.
+이 정책을 사용하면 이들 관리자 역할이 할당되거나 할당이 해제될 때 MFA에 대한 개별 사용자 계정을 구성하는 대신 그룹 멤버 자격을 기반으로 MFA를 요구할 수 있습니다.
 
 Windows 10을 실행하는 노트북과 같은 호환 장치에서 로그인을 요구하는 등 고급 기능을 위해 조건부 액세스 정책을 사용할 수도 있습니다.
 
@@ -65,15 +65,15 @@ Windows 10을 실행하는 노트북과 같은 호환 장치에서 로그인을 
 
 자세한 내용은 이 [조건부 액세스 개요](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)를 참조하세요.
 
-## <a name="azure-ad-identity-protection-policies"></a>Azure AD ID 보호 정책
+## <a name="azure-ad-identity-protection-support"></a>Azure AD ID 보호 지원
 
-Azure AD ID 보호 정책은 로그인 평가 및 허용 조건을 지정하는 규칙입니다. 예를 들어 다음을 나타내는 Azure AD ID 보호 정책을 만들 수 있습니다.
+Azure AD ID 보호 기능을 사용하여 다음과 같이 조건을 부여하는 추가 조건부 액세스 정책을 만들 수 있습니다.
 
-- 로그인 위험이 중간 또는 높은 위험으로 판단되면 사용자는 MFA를 사용하여 로그인해야 합니다.
+- 로그인의 위험이 중간 또는 높은으로 판단되면, MFA를 요구합니다.
 
-Azure AD ID 보호에는 Microsoft 365 E5에 포함된 Azure AD Premium P2가 필요합니다.
+Azure AD ID 보호 기능은 Microsoft 365 E5에 포함된 Azure AD Premium P2를 필요로 합니다.
 
-자세한 내용은 이 [Azure AD ID 보호 개요](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection)를 참조하세요.
+자세한 내용은 [위험에 기반한 조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk#require-mfa-medium-or-high-sign-in-risk-users)를 참조하세요.
 
 ## <a name="using-these-methods-together"></a>이 방법들을 함께 사용
 
@@ -84,12 +84,12 @@ Azure AD ID 보호에는 Microsoft 365 E5에 포함된 Azure AD Premium P2가 �
 
 보안 기본값을 사용하면 모든 새 사용자에게 MFA 등록 및 Microsoft Authenticator 앱 사용을 요구하는 메시지가 표시됩니다. 
 
-이 표는 보안 기본값, 조건부 액세스 정책 및 사용자별 계정 설정으로 MFA를 활성화한 결과를 보여줍니다.
+이 표는 보안 기본값 및 조건부 액세스 정책으로 MFA를 활성화한 결과를 보여줍니다.
 
-|| 사용 | 사용 안 함 | 보조 인증 방법 |
+|| 사용 | 사용 안 함 | 추가 인증 방법 |
 |:-------|:-----|:-------|:-------|
 | **보안 기본값**  | 조건부 액세스 정책을 사용할 수 없습니다 | 조건부 액세스 정책을 사용할 수 있습니다 | Microsoft Authenticator 앱 |
-| **조건부 액세스 정책** | 이 중 하나가 사용되는 경우 보안 기본값을 사용할 수 없습니다. | 상기 수단을 모두 사용하고 있지 않은 경우 보안 기본값을 사용할 수 있습니다  | MFA 등록 중 사용자 지정  |
+| **조건부 액세스 정책** | 이 중 하나가 사용되는 경우 보안 기본값을 사용할 수 없습니다. | 상기 수단을 모두 사용하지 않도록 설정한 경우, MFA 등록 중 사용자가 지정한   | 보안 기본값을 사용할 수 있습니다  |
 ||||
 
 ## <a name="admin-training-and-technical-resources-for-mfa-and-identity"></a>MFA 및 ID에 대한 관리 교육 및 기술 리소스

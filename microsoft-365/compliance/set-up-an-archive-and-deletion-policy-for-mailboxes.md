@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 description: Microsoft 365에서 항목을 사용자의 보관 사서함으로 자동으로 이동 하는 보관 및 삭제 정책을 만듭니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d4c1bd1c993444c38596642bf974e734870c79d8
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 5bc48b8192af3ca4edd591307e5945b9171cf665
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208062"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222529"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>조직에서 사서함에 대한 보관 및 삭제 정책 설정하기
 
@@ -298,6 +298,6 @@ ms.locfileid: "44208062"
     |삭제 안 함  <br/> |이 태그는 보존 정책에 따라 항목이 삭제 되는 것을 방지 합니다.  <br/> |기본 제공  <br/> |비공개 이 태그는 사용자가 적용할 수 있습니다.  <br/> |
     |개인 1년 후 보관함으로 이동  <br/> |1 년 후에 항목을 보관 사서함으로 이동 합니다.  <br/> |기본 제공  <br/> |비공개 이 태그는 사용자가 적용할 수 있습니다.  <br/> |
    
-    > <sup>\*</sup>사용자는 Outlook 및 웹용 Outlook (이전의 Outlook Web App)에서 지운 편지함 복구 도구를 사용 하 여 삭제 된 항목 보존 기간 내에 삭제 된 항목을 복구할 수 있습니다 (기본적으로 Exchange Online에서 14 일). 관리자는 Windows PowerShell을 사용 하 여 삭제 된 항목 보존 기간을 최대 30 일로 늘릴 수 있습니다. 자세한 내용은 [Windows 용 Outlook에서 지운 편지함 복구](https://support.office.com/article/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce) 및 [Exchange Online의 사서함에 대 한 삭제 된 항목 보존 기간 변경](https://go.microsoft.com/fwlink/p/?LinkId=286940) 를 참조 하세요.
+    > <sup>\*</sup>사용자는 Outlook 및 웹용 Outlook (이전의 Outlook Web App)에서 지운 편지함 복구 도구를 사용 하 여 삭제 된 항목 보존 기간 내에 삭제 된 항목을 복구할 수 있습니다 (기본적으로 Exchange Online에서 14 일). 관리자는 Windows PowerShell을 사용 하 여 삭제 된 항목 보존 기간을 최대 30 일로 늘릴 수 있습니다. 자세한 내용은 [Windows 용 Outlook에서 지운 편지함 복구](https://support.office.com/article/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce) 및 [Exchange Online의 사서함에 대 한 삭제 된 항목 보존 기간 변경](https://www.microsoft.com/?ref=go) 를 참조 하세요.
   
 - **복구 가능한 항목 14 일 후 보관** 보존 태그를 사용 하면 사용자의 기본 사서함에 있는 복구할 수 있는 항목 폴더에 저장 공간을 확보 하는 데 도움이 됩니다. 이 기능은 사용자의 사서함이 유지 되는 경우에 유용 하며,이는 사용자의 사서함을 영구적으로 삭제 하지 않은 것을 의미 합니다. 보관 사서함으로 항목을 이동 하지 않으면 기본 사서함의 복구할 수 있는 항목 폴더에 대 한 저장소 할당량에 도달 하 게 됩니다. 이에 대 한 자세한 내용과이를 방지 하는 방법에 대 한 자세한 내용은 [보류 중인 사서함에 대 한 복구 가능한 항목 할당량 증가](https://go.microsoft.com/fwlink/p/?LinkId=786479)를 참조 하세요.

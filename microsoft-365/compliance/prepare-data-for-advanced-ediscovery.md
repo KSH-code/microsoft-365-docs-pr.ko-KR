@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 2fb94c23-1846-4a0e-994d-da6d02445f15
 description: '보안 및 준수 센터를 사용 하 여 &amp; 고급 eDiscovery로 분석을 위한 데이터를 준비 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 25b500e88e53dfae9b8fa9d504a402f4e2f7ce12
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 31bf002c275b228de12b7ff9e39fabf7c72be74d
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208102"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214286"
 ---
 # <a name="prepare-data-for-advanced-ediscovery-classic"></a>고급 eDiscovery에 대 한 데이터 준비 (클래식)
 
@@ -37,7 +37,7 @@ Advanced eDiscovery를 사용하여 데이터를 분석하려면 Microsoft 365 �
 고급 eDiscovery에서 분석에 대 한 검색 결과를 준비 하는 방법에 대 한 자세한 단계는 [Advanced ediscovery에 대 한 검색 결과 준비](prepare-search-results-for-advanced-ediscovery.md)를 참조 하십시오.
   
 > [!NOTE]
-> Microsoft 365 외부에 있는 데이터를 Microsoft 365로 가져와서 고급 eDiscovery에서이를 준비 하 고 분석할 수 있도록 하려는 경우에는 [PST 파일을 microsoft 365로 가져오기](https://docs.microsoft.com/microsoft-365/compliance/importing-pst-files-to-office-365) , [타사 데이터 보관](https://go.microsoft.com/fwlink/p/?linkid=716918)에 대 한 개요를 참조 하세요. 
+> Microsoft 365 외부에 있는 데이터를 Microsoft 365로 가져와서 고급 eDiscovery에서이를 준비 하 고 분석할 수 있도록 하려는 경우에는 [PST 파일을 microsoft 365로 가져오기](https://docs.microsoft.com/microsoft-365/compliance/importing-pst-files-to-office-365) , [타사 데이터 보관](https://www.microsoft.com/?ref=go)에 대 한 개요를 참조 하세요. 
   
 ## <a name="step-2-load-search-result-data-in-to-a-case-in-advanced-ediscovery"></a>2단계: Advanced eDiscovery에서 사례에 검색 결과 데이터 로드
 

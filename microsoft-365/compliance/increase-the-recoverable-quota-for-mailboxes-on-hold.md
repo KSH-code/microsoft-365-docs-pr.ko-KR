@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: a8bdcbdd-9298-462f-b889-df26037a990c
 description: '보관 사서함을 사용 하도록 설정 하 고 자동 확장 보관을 설정 하 여 Office 365에서 사서함에 대 한 복구 가능한 항목 폴더의 크기를 늘립니다. '
-ms.openlocfilehash: 37d0e783f3b3a5157fe4a7a9b7d512b09c05d32c
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 884a03bc1693ec76cd3e80d85f62f4054e1d9911
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072931"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222711"
 ---
 # <a name="increase-the-recoverable-items-quota-for-mailboxes-on-hold"></a>보류된 사물함의 복구 가능한 항목 할당량 증가
 
@@ -78,7 +78,7 @@ Exchange Online의 사서함에 대 한 보존을 설정 하면이 제한을 초
     ```
 
     > [!TIP]
-    > 복구 가능한 항목 RPT의 보존 기간은 RPT가 적용 될 사서함에 대 한 삭제 된 항목 보존 기간과 동일 하 _게 유지 하_ 는 것이 좋습니다. 이렇게 하면 사용자가 삭제된 항목 보존 기간을 전부 활용하여 삭제된 항목이 보관 사서함으로 이동하기 전에 삭제된 항목을 복구할 수 있습니다. 이전 예에서는 사서함의 삭제된 항목 보존 기간도 30일이라는 가정 하에 보존 기간이 30일로 설정되었습니다. 기본적으로 Exchange Online 사서함은 14일 동안 삭제된 항목을 보존하도록 구성됩니다. 하지만 이 설정을 최대 30일로 변경할 수 있습니다. 자세한 내용은 [Exchange Online에서 사서함에 대 한 삭제 된 항목 보존 기간 변경을](https://go.microsoft.com/fwlink/p/?LinkId=286940)참조 하십시오. 
+    > 복구 가능한 항목 RPT의 보존 기간은 RPT가 적용 될 사서함에 대 한 삭제 된 항목 보존 기간과 동일 하 _게 유지 하_ 는 것이 좋습니다. 이렇게 하면 사용자가 삭제된 항목 보존 기간을 전부 활용하여 삭제된 항목이 보관 사서함으로 이동하기 전에 삭제된 항목을 복구할 수 있습니다. 이전 예에서는 사서함의 삭제된 항목 보존 기간도 30일이라는 가정 하에 보존 기간이 30일로 설정되었습니다. 기본적으로 Exchange Online 사서함은 14일 동안 삭제된 항목을 보존하도록 구성됩니다. 하지만 이 설정을 최대 30일로 변경할 수 있습니다. 자세한 내용은 [Exchange Online에서 사서함에 대 한 삭제 된 항목 보존 기간 변경을](https://www.microsoft.com/?ref=go)참조 하십시오. 
   
 ## <a name="step-2-create-a-new-retention-policy-for-mailboxes-on-hold"></a>2단계: 보류된 사서함에 대한 새로운 보존 정책을 만듭니다.
 
@@ -96,11 +96,11 @@ EAC 또는 Exchange Online PowerShell을 사용 하 여 보존 정책을 만들 
   
 ### <a name="use-the-eac-to-create-a-retention-policy"></a>EAC를 사용하여 보존 정책 만들기
   
-1. EAC에서 **준수 관리** \> **보존 정책**으로 이동한 ![다음 추가](../media/ITPro-EAC-AddIcon.gif) **아이콘 추가를 클릭 합니다** .
+1. EAC에서 **준수 관리** \> **보존 정책**으로 이동한 다음 추가 아이콘 추가를 클릭 **Add** ![ ](../media/ITPro-EAC-AddIcon.gif) 합니다.
     
 2. **새 보존 정책** 페이지의 **이름**에서 **MRM Policy for Mailboxes on Hold** 등 보존 정책의 목적을 설명하는 이름을 입력합니다.  
     
-3. **보존 태그**에서 ![추가](../media/ITPro-EAC-AddIcon.gif)아이콘 **추가를 클릭 합니다** .
+3. **보존 태그**에서 추가 아이콘 **추가를 클릭** ![ ](../media/ITPro-EAC-AddIcon.gif) 합니다.
     
 4. 보존 태그 목록에서 1단계에서 만든 복구 가능한 항목 RPT를 선택한 다음 **추가**를 클릭합니다.
     
@@ -139,7 +139,7 @@ New-RetentionPolicy "MRM Policy for Mailboxes on Hold"  -RetentionPolicyTagLinks
   
 1. **받는 사람** \> **사서함**으로 이동 합니다.
     
-2. 목록 보기에서 보존 정책을 적용할 사서함을 선택 하 고 편집 아이콘](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **편집** ![을 클릭 합니다.
+2. 목록 보기에서 보존 정책을 적용할 사서함을 선택 하 고 편집 아이콘 **편집** 을 클릭 ![ ](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) 합니다.
     
 3. **사용자 사서함** 페이지에서 **사서함 기능**을 클릭합니다.
     
@@ -225,6 +225,6 @@ $MailboxesOnHold.DistinguishedName | Start-ManagedFolderAssistant
 
 ## <a name="more-information"></a>추가 정보
 
-- 사용자의 보관 사서함을 사용하도록 설정한 후 사용자에게 사서함에 있는 다른 항목(복구 가능한 항목 폴더에 있는 항목 외)이 보관 사서함으로 이동될 수 있다는 점을 안내하는 것이 좋습니다. 이는 Exchange Online 사서함에 할당 된 기본 MRM 정책에 항목이 사서함으로 배달 된 후 2 년 후에 항목을 보관 사서함으로 이동 하는 보존 태그 (기본 2 년을 보관 함으로 이동 함)가 포함 되어 있기 때문입니다. 가. 자세한 내용은 [Exchange Online의 기본 보존 정책](https://go.microsoft.com/fwlink/p/?LinkId=746954) 를 참조 하세요.
+- 사용자의 보관 사서함을 사용하도록 설정한 후 사용자에게 사서함에 있는 다른 항목(복구 가능한 항목 폴더에 있는 항목 외)이 보관 사서함으로 이동될 수 있다는 점을 안내하는 것이 좋습니다. 이는 Exchange Online 사서함에 할당 된 기본 MRM 정책에 항목이 사서함으로 배달 되거나 사용자가 만든 날짜 후 2 년 후에 항목을 보관 사서함으로 이동 하는 보존 태그 (기본 2 년 후 보관 함으로 이동)가 포함 되어 있기 때문입니다. 자세한 내용은 [Exchange Online의 기본 보존 정책](https://go.microsoft.com/fwlink/p/?LinkId=746954) 를 참조 하세요.
     
 - 사용자의 보관 사서함을 사용하도록 설정한 후 사용자에게 보관 사서함의 복구 가능한 항목 폴더에서 삭제된 항목을 복구할 수 있다고 안내하시기 바랍니다. 보관 사서함에서 **지운** 편지함 폴더를 선택 하 고 **홈** 탭의 **서버에서 지운 편지함 복구** 를 클릭 하 여 Outlook에서이 작업을 수행할 수 있습니다. 삭제 된 항목을 복구 하는 방법에 대 한 자세한 내용은 [Windows 용 Outlook에서 삭제 된 항목 복구](https://go.microsoft.com/fwlink/p/?LinkId=624829)를 참조 하십시오. 

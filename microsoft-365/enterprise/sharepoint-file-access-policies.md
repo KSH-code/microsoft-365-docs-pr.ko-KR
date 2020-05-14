@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 2b0d015485196bc76e7de580c888892967fe5d05
-ms.sourcegitcommit: c079cc893cd1bd5d894b13814063a2f42238806e
+ms.openlocfilehash: 6429c3dee32087d6e82a427b2f374ec49bab5cac
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43035126"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222688"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>SharePoint 사이트 및 파일을 보호 하기 위한 정책 권장 사항
 
@@ -43,7 +43,7 @@ ms.locfileid: "43035126"
 
 다음 표에는 SharePoint Online을 검토 하 고 업데이트 하거나 새를 만드는 데 필요한 정책이 나와 있습니다. 공통 정책- [일반 id 및 장치 액세스 정책](identity-access-policies.md) 문서의 관련 구성 지침에 대 한 링크를 제공 합니다.
 
-|보호 수준|정책도|추가 정보|
+|보호 수준|정책|추가 정보|
 |:---------------|:-------|:----------------|
 |**기준선**|[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 SharePoint Online 포함|
 |        |[최신 인증을 지원하지 않는 클라이언트 차단](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|클라우드 앱 할당에 SharePoint Online 포함|
@@ -60,7 +60,7 @@ ms.locfileid: "43035126"
 
 SharePoint Online에서 액세스 제어를 구현 하는 경우 azure ad에서이 조건부 액세스 정책을 만들어 SharePoint Online에서 구성한 정책을 적용 해야 합니다. 이 규칙은 모든 사용자에 게 적용 되지만 SharePoint Online에서 액세스 제어를 만들 때 PowerShell을 사용 하 여 지정한 사이트에 대 한 액세스에만 영향을 줍니다.
 
-이 정책을 구성 하려면이 문서의 "특정 SharePoint 사이트 모음 또는 OneDrive 계정에 대 한 액세스 차단 또는 제한" ( [관리 되지 않는 장치에서의 액세스 제어](https://support.office.com/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622))을 참조 하세요.
+이 정책을 구성 하려면이 문서의 "특정 SharePoint 사이트 모음 또는 OneDrive 계정에 대 한 액세스 차단 또는 제한" ( [관리 되지 않는 장치에서의 액세스 제어](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices))을 참조 하세요.
 
 ## <a name="sharepoint-online-access-control-policies"></a>SharePoint Online 액세스 제어 정책
 
@@ -69,7 +69,7 @@ Microsoft는 장치 액세스 제어를 통해 중요 하 고 규제 된 콘텐�
 - 중요 한 사이트: 브라우저 전용 액세스 허용 이렇게 하면 사용자가 파일을 편집 하 고 다운로드할 수 없습니다.
 - 높은 규제 대상 사이트: 관리 되지 않는 장치에서 액세스를 차단 합니다.
 
-이 문서의 "특정 SharePoint 사이트 모음 또는 OneDrive 계정에 대 한 액세스 차단 또는 제한" ( [관리 되지 않는 장치에서의 액세스 제어](https://support.office.com/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622))을 참조 하세요.
+이 문서의 "특정 SharePoint 사이트 모음 또는 OneDrive 계정에 대 한 액세스 차단 또는 제한" ( [관리 되지 않는 장치에서의 액세스 제어](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices))을 참조 하세요.
 
 ## <a name="how-these-policies-work-together"></a>이러한 정책이 함께 작동 하는 방식
 

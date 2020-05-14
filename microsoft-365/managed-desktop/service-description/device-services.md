@@ -7,12 +7,12 @@ author: jaimeo
 ms.localizationpriority: normal
 ms.date: 02/06/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: cb138d14a35324840d78000b55a2f4376c3869b5
-ms.sourcegitcommit: 9a4084ce2b80bac883412e0ec956b6c0cc18d0f5
+ms.openlocfilehash: 99ae4fda67de060a5c4dd7c9cd0550f751706e86
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42400875"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222398"
 ---
 # <a name="microsoft-managed-desktop-device-services"></a>Microsoft Managed Desktop 장치 서비스
 
@@ -33,9 +33,9 @@ Microsoft는 이러한 서비스를 Microsoft Managed Desktop 장치에 제공 �
 장치 교체, 업그레이드 및 지원 약관에 대 한 자세한 내용은 디바이스 공급자 및 무상 수리 약관에 동의 합니다 .를 참조 하세요.
 
 화면 보증 및 복구에 대 한 자세한 내용은 다음을 수행 합니다.
+- [비즈니스 도움말 센터에 대 한 Surface](https://support.microsoft.com/hub/4339296/surface-for-business-help)
 - [장치에 대 한 보증, 확장 서비스 계획 및 용어](https://support.microsoft.com/help/4040687/info-about-warranties-extended-service-plans-and-terms-conditions)
-- [노출 표준 보증](https://support.microsoft.com/help/4036296)
-- [장치 서비스 및 복구](https://support.microsoft.com/devices)
+
 
 ## <a name="device-service-limitations"></a>장치 서비스 제한 사항
 

@@ -15,12 +15,12 @@ ms.collection: Strat_O365_Enterprise
 ms.custom:
 - seo-marvel-mar2020
 description: 이 문서에서는 Microsoft 365에서 관리 및 구성할 수 있는 암호화 기술에 대해 알아봅니다.
-ms.openlocfilehash: 3c7050ba0417473b4b387937336aae02c1eba778
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: a70f737d1af10622b093bddc682cc493396fff45
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033616"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214224"
 ---
 # <a name="customer-managed-encryption-features"></a>고객 관리 암호화 기능
 
@@ -56,11 +56,11 @@ S/MIME (Secure/Expressioninternet Mail Extensions)는 MIME 데이터의 디지�
 
 ## <a name="office-365-message-encryption"></a>Office 365 메시지 암호화
 
-Aip ( [Azure Information Protection](https://docs.microsoft.com/information-protection/understand-explore/what-is-information-protection) )를 기반으로 하는 [Office 365 메시지 암호화](https://products.office.com/exchange/office-365-message-encryption) (OME)를 통해 모든 사용자에 게 암호화 및 권한으로 보호 된 메일을 보낼 수 있습니다. OME는 연결 누르기 및 중간자와 같은 위협 및 기타 위협 (예: 적절 한 사용 권한이 없는 권한이 없는 사용자의 unwarranted 데이터 액세스)을 완화 합니다. Microsoft는 Azure Information Protection을 토대로 구축 된 보다 간단 하 고 직관적인 보안 전자 메일 환경을 제공 합니다. Microsoft 365에서 보낸 메시지를 조직 내부 또는 외부의 모든 사람에 게 보호할 수 있습니다. 이러한 메시지는 Azure Active Directory, Microsoft 계정 및 Google Id를 비롯 한 모든 id를 사용 하는 다양 한 메일 클라이언트 집합에서 볼 수 있습니다. 조직에서 암호화 된 메시지를 사용할 수 있는 방법에 대 한 자세한 내용은 [Office 365 메시지 암호화](https://support.office.com/article/F87CB016-7876-4317-AE3C-9169B311FF8A)를 참조 하세요.
+Aip ( [Azure Information Protection](https://docs.microsoft.com/information-protection/understand-explore/what-is-information-protection) )를 기반으로 하는 [Office 365 메시지 암호화](https://products.office.com/exchange/office-365-message-encryption) (OME)를 통해 모든 사용자에 게 암호화 및 권한으로 보호 된 메일을 보낼 수 있습니다. OME는 연결 누르기 및 중간자와 같은 위협 및 기타 위협 (예: 적절 한 사용 권한이 없는 권한이 없는 사용자의 unwarranted 데이터 액세스)을 완화 합니다. Microsoft는 Azure Information Protection을 토대로 구축 된 보다 간단 하 고 직관적인 보안 전자 메일 환경을 제공 합니다. Microsoft 365에서 보낸 메시지를 조직 내부 또는 외부의 모든 사람에 게 보호할 수 있습니다. 이러한 메시지는 Azure Active Directory, Microsoft 계정 및 Google Id를 비롯 한 모든 id를 사용 하는 다양 한 메일 클라이언트 집합에서 볼 수 있습니다. 조직에서 암호화 된 메시지를 사용할 수 있는 방법에 대 한 자세한 내용은 [Office 365 메시지 암호화](https://docs.microsoft.com/microsoft-365/compliance/ome)를 참조 하세요.
 
 ## <a name="transport-layer-security"></a>전송 계층 보안   
 
-파트너와의 보안 통신을 보장 하려는 경우 인바운드 및 아웃 바운드 커넥터를 사용 하 여 보안 및 메시지 무결성을 제공할 수 있습니다. 인증서를 사용 하 여 각 커넥터에 대해 강제 인바운드 및 아웃 바운드 TLS를 구성할 수 있습니다. 암호화 된 SMTP 채널을 사용 하면 중간자 개입 공격을 통해 데이터가 유출 되지 않도록 할 수 있습니다. 자세한 내용은 [Exchange Online이 TLS를 사용 하 여 전자 메일 연결을 보호 하는 방법을](https://support.office.com/article/How-Exchange-Online-uses-TLS-to-secure-email-connections-in-Office-365-4CDE0CDA-3430-4DC0-B489-F2C0736C929F)참조 하세요.
+파트너와의 보안 통신을 보장 하려는 경우 인바운드 및 아웃 바운드 커넥터를 사용 하 여 보안 및 메시지 무결성을 제공할 수 있습니다. 인증서를 사용 하 여 각 커넥터에 대해 강제 인바운드 및 아웃 바운드 TLS를 구성할 수 있습니다. 암호화 된 SMTP 채널을 사용 하면 중간자 개입 공격을 통해 데이터가 유출 되지 않도록 할 수 있습니다. 자세한 내용은 [Exchange Online이 TLS를 사용 하 여 전자 메일 연결을 보호 하는 방법을](https://docs.microsoft.com/microsoft-365/compliance/exchange-online-uses-tls-to-secure-email-connections)참조 하세요.
 
 ## <a name="domain-keys-identified-mail"></a>도메인 키 식별 메일
 

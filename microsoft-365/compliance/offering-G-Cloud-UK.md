@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 66db28688a483aea8c0092202eda258a2032027f
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: cc6f2a8c52a5fc829a9f04c51f78cf7ea5c2f1e1
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066563"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214502"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>영국 정부-클라우드 (G-클라우드)
 
@@ -82,7 +82,7 @@ Microsoft 클라우드 서비스가 G-Cloud 계약 준수를 유지 하 고 있�
 
 [Azure UK G-Cloud 청사진 사용 시작](https://aka.ms/ukofficialblueprint)
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **디지털 Marketplace를 사용할 수 있는 사람은 누구 인가요?**
 
@@ -105,7 +105,7 @@ It는 영국 정부에 의해 투자 되는 조직이 나 에이전시 이며 �
 
 **감사자 보고서의 복사본은 어떻게 얻을 수 있나요?**
 
-[Service Trust Portal](https://support.office.com/article/Get-started-with-the-Service-Trust-Portal-for-Office-365-for-business-Azure-and-Dynamics-CRM-Online-subscriptions-f30e2353-0bd6-41ed-8347-eea1fb8d2662)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 이 포털을 사용 하 여 감사 보고서를 요청 하 여 감사자가 Microsoft 결과를 사용자의 법적 및 규정 요구 사항과 비교할 수 있습니다.
+[Service Trust Portal](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 이 포털을 사용 하 여 감사 보고서를 요청 하 여 감사자가 Microsoft 결과를 사용자의 법적 및 규정 요구 사항과 비교할 수 있습니다.
 
 ## <a name="resources"></a>리소스
 

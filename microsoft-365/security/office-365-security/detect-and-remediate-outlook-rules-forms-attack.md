@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격을 인지하고 재구성하는 방법 알아보기
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6e818d05465f7b91268cc44c345c6699e8c6d0ed
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: e18635b9b9d090dbc2808b5b8142b59ec1f29c6e
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034819"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224592"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성
 
@@ -159,7 +159,7 @@ ms.locfileid: "44034819"
 
 1. 사용자가 Outlook에서 사용한 모든 장치를 확인합니다. 이들 장치 모두에서 잠정 맬웨어를 청소해야 합니다. 모든 장치를 청소할 때 까지는 사용자가 로그온 하고 전자 메일을 사용하지 않도록 합니다.
 
-2. 각 장치에 대한 [규칙 삭제](https://support.office.com/article/2f0e7139-f696-4422-8498-44846db9067f)에 있는 단계를 따릅니다.
+2. 각 장치에 대한 [규칙 삭제](https://support.microsoft.com/en-us/office/delete-a-rule-2f0e7139-f696-4422-8498-44846db9067f)에 있는 단계를 따릅니다.
 
 3. 다른 맬웨어의 존재 여부가 확실하지 않은 경우 장치의 모든 소프트웨어를 포맷하고 다시 설치할 수 있습니다. 모바일 장치의 경우 제조업체의 단계에 따라 장치를 출하 이미지로 재설정할 수 있습니다.
 
