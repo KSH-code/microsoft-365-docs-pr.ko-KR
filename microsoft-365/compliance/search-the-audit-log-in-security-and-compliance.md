@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자와 관리자 활동을 확인합니다. '
-ms.openlocfilehash: 447777c4cf3eb8532e30977d97694445647889d4
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 34e9998ee0a17f44ba4f70d2cd1c5f1d12ce926f
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208082"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214296"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
@@ -429,7 +429,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |사이트 모음에 사용 권한 수준 추가됨|PermissionLevelAdded|사이트 모음에 사용 권한 수준이 추가되었습니다.|
 |액세스 요청 수락됨|AccessRequestAccepted|사이트, 폴더 또는 문서에 대한 액세스 요청이 수락되었으며 요청하는 사용자에게 액세스 권한이 부여되었습니다.|
 |공유 초대 수락됨|SharingInvitationAccepted|사용자(구성원 또는 게스트)가 공유 초대를 수락했으며 리소스에 대한 액세스 권한이 부여되었습니다. 이 이벤트에는 초대를 받은 사용자 및 초대를 수락하는 데 사용된 전자 메일 주소에 대한 정보가 포함됩니다(다를 수 있음). 이 활동에는 대체로 사용자에게 리소스에 대한 액세스 권한이 어떻게 부여되었는지를 설명(예: 리소스에 대한 액세스 권한이 있는 그룹에 사용자 추가)하는 두 번째 이벤트가 수반됩니다.|
-|공유 초대 차단됨|SharingInvitationBlocked|조직의 사용자가 보낸 공유 초대가 대상 사용자의 도메인을 기반으로 외부 공유를 허용하거나 거부하는 외부 공유 정책으로 인해 차단되었습니다. 이 경우 공유 초대는 다음과 같은 이유로 차단되었습니다. <br/> 대상 사용자의 도메인이 허용된 도메인 목록에 포함되어 있지 않습니다. <br/> 또는 <br/> 대상 사용자의 도메인이 차단된 도메인 목록에 포함되어 있습니다. <br/> 도메인을 기반으로 한 외부 공유 허용 또는 차단에 대한 자세한 내용은 [SharePoint Online 및 비즈니스용 OneDrive의 제한된 도메인 공유](https://support.office.com/article/5d7589cd-0997-4a00-a2ba-2320ec49c4e9)를 참조하세요.|
+|공유 초대 차단됨|SharingInvitationBlocked|조직의 사용자가 보낸 공유 초대가 대상 사용자의 도메인을 기반으로 외부 공유를 허용하거나 거부하는 외부 공유 정책으로 인해 차단되었습니다. 이 경우 공유 초대는 다음과 같은 이유로 차단되었습니다. <br/> 대상 사용자의 도메인이 허용된 도메인 목록에 포함되어 있지 않습니다. <br/> 또는 <br/> 대상 사용자의 도메인이 차단된 도메인 목록에 포함되어 있습니다. <br/> 도메인을 기반으로 한 외부 공유 허용 또는 차단에 대한 자세한 내용은 [SharePoint Online 및 비즈니스용 OneDrive의 제한된 도메인 공유](https://docs.microsoft.com/sharepoint/restricted-domains-sharing)를 참조하세요.|
 |액세스 요청 생성됨|AccessRequestCreated|사용자가 액세스 권한이 없는 사이트, 폴더 또는 문서에 대한 액세스를 요청합니다.|
 |회사에서 공유할 수 있는 링크 생성됨 |CompanyLinkCreated|사용자가 리소스에 대한 회사 전체 링크를 생성했습니다. 회사 전체 링크는 조직의 구성원만 사용할 수 있습니다. 게스트는 사용할 수 없습니다.|
 |익명 링크 생성됨|AnonymousLinkCreated|사용자가 리소스에 대한 익명 링크를 만들었습니다. 이 링크만 있으면 누구든지 인증 필요 없이 리소스에 액세스할 수 있습니다.|
@@ -502,9 +502,9 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |사용자가 그룹을 만들 수 있도록 허용됨|AllowGroupCreationSet|사이트 관리자 또는 소유자가 해당 권한이 할당된 사용자가 사이트에 대한 그룹을 만들 수 있도록 허용하는 사용 권한 수준을 사이트에 추가합니다.|
 |사이트 지리적 이동 취소됨|SiteGeoMoveCancelled|SharePoint 또는 전역 관리자가 SharePoint 또는 OneDrive 사이트 지리적 이동을 성공적으로 취소했습니다. Multi-Geo Capabilities를 사용하면 조직이 geos라는 여러 데이터센터 지역에 걸쳐 있을 수 있습니다. 자세한 내용은 [OneDrive 및 SharePoint Online의 여러 지리 기능](https://go.microsoft.com/fwlink/?linkid=860840)을 참조하세요.|
 |공유 정책 변경됨|SharingPolicyChanged|SharePoint 또는 전역 관리자가 Microsoft 365 관리 포털, SharePoint 관리자 포털 또는 SharePoint Online 관리 셸을 사용하여 SharePoint 공유 정책을 변경했습니다. 조직의 공유 정책 설정에 대한 변경 내용이 모두 기록됩니다. 변경 된 정책은 이벤트 레코드의 자세한 속성에서 **ModifiedProperties** 필드에서 식별됩니다.|
-|장치 액세스 정책 변경됨|DeviceAccessPolicyChanged|SharePoint 또는 전역 관리자가 조직의 관리되지 않는 장치 정책을 변경했습니다. 이 정책은 조직에 가입되지 않은 장치에서의 SharePoint, OneDrive, Microsoft 365 액세스를 제어합니다. 이 정책을 구성하려면 Enterprise Mobility + Security 구독이 필요합니다. 자세한 내용은 [관리되지 않는 장치에서의 액세스 제어](https://support.office.com/article/5ae550c4-bd20-4257-847b-5c20fb053622)를 참조하세요.|
+|장치 액세스 정책 변경됨|DeviceAccessPolicyChanged|SharePoint 또는 전역 관리자가 조직의 관리되지 않는 장치 정책을 변경했습니다. 이 정책은 조직에 가입되지 않은 장치에서의 SharePoint, OneDrive, Microsoft 365 액세스를 제어합니다. 이 정책을 구성하려면 Enterprise Mobility + Security 구독이 필요합니다. 자세한 내용은 [관리되지 않는 장치에서의 액세스 제어](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)를 참조하세요.|
 |예외 사용자 에이전트 변경됨|CustomizeExemptUsers|SharePoint 또는 전역 관리자가 SharePoint 관리 센터에서 예외 사용자 에이전트 목록을 사용자 지정했습니다. 인덱스에 전체 웹 페이지를 받을 수 없도록 제외할 사용자 에이전트를 지정할 수 있습니다. 즉, 예외로 지정한 사용자 에이전트가 InfoPath 양식을 만나면 해당 양식은 전체 웹 페이지가 아닌 XML 파일로 반환됩니다. 이렇게 하면 InfoPath 양식을 더 빠르게 인덱싱할 수 있습니다.|
-|네트워크 액세스 정책 변경됨|NetworkAccessPolicyChanged|SharePoint 또는 전역 관리자가 SharePoint 관리 센터에서 또는 SharePoint PowerShell을 사용하여 위치 기반 액세스 정책(신뢰할 수 있는 네트워크 경계라고도 함)을 변경했습니다. 이 정책 유형은 지정한 권한 있는 IP 주소 범위를 기반으로 조직의 SharePoint 및 OneDrive 리소스에 액세스할 수 있는 사용자를 제어합니다. 자세한 내용은 [네트워크 위치를 기반으로 SharePoint Online 및 OneDrive 데이터에 대한 액세스 제어](https://support.office.com/article/b5a5f1f1-1174-4c6b-91d0-9273a6b6971f)를 참조하세요.|
+|네트워크 액세스 정책 변경됨|NetworkAccessPolicyChanged|SharePoint 또는 전역 관리자가 SharePoint 관리 센터에서 또는 SharePoint PowerShell을 사용하여 위치 기반 액세스 정책(신뢰할 수 있는 네트워크 경계라고도 함)을 변경했습니다. 이 정책 유형은 지정한 권한 있는 IP 주소 범위를 기반으로 조직의 SharePoint 및 OneDrive 리소스에 액세스할 수 있는 사용자를 제어합니다. 자세한 내용은 [네트워크 위치를 기반으로 SharePoint Online 및 OneDrive 데이터에 대한 액세스 제어](https://docs.microsoft.com/sharepoint/control-access-based-on-network-location)를 참조하세요.|
 |사이트 지리적 이동 완료됨|SiteGeoMoveCompleted|조직의 전역 관리자가 예약한 사이트 지리적 이동이 완료되었습니다. Multi-Geo Capabilities를 사용하면 조직이 geos라는 여러 데이터센터 지역에 걸쳐 있을 수 있습니다. 자세한 내용은 [Office 365의 OneDrive 및 SharePoint Online의 여러 지리 기능](https://go.microsoft.com/fwlink/?linkid=860840)을 참조하세요.|
 |받는 사람 연결 생성됨|SendToConnectionAdded|SharePoint 또는 전역 관리자가 SharePoint 관리 센터의 레코드 관리 페이지에서 새 보내기 연결을 만듭니다. 받는 사람 연결은 문서 리포지토리 또는 레코드 센터에 대한 설정을 지정합니다. 받는 사람 연결을 만들면 콘텐츠 구성 도우미가 문서를 지정된 위치에 제출할 수 있습니다.|
 |사이트 모음 생성됨|SiteCollectionCreated|Sharepoint 또는 전역 관리자가 SharePoint Online 조직에서 사이트 모음을 만들거나 사용자가 비즈니스용 OneDrive 사이트를 프로비전합니다.|
@@ -599,7 +599,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 ### <a name="azure-ad-group-administration-activities"></a>Azure AD 그룹 관리 활동
 
-다음 표에서는 관리자 또는 사용자가 Microsoft 365 그룹을 만들거나 변경할 때 또는 관리자가 Microsoft 365 관리 센터 또는 Azure 관리 포털을 사용하여 보안 그룹을 만들 때 기록되는 그룹 관리 활동을 보여 줍니다. Office 365의 그룹에 대한 자세한 내용은 [Microsoft 365 관리 센터에서 그룹 보기, 만들기, 삭제](https://support.office.com/article/a6360120-2fc4-46af-b105-6a04dc5461c7)를 참조하세요.
+다음 표에서는 관리자 또는 사용자가 Microsoft 365 그룹을 만들거나 변경할 때 또는 관리자가 Microsoft 365 관리 센터 또는 Azure 관리 포털을 사용하여 보안 그룹을 만들 때 기록되는 그룹 관리 활동을 보여 줍니다. Office 365의 그룹에 대한 자세한 내용은 [Microsoft 365 관리 센터에서 그룹 보기, 만들기, 삭제](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups)를 참조하세요.
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
@@ -734,9 +734,9 @@ Workplace Analytics는 조직에서 그룹이 공동으로 작업하는 방법�
 
 다음 표에서는 Microsoft Teams에서 감사 로그에 기록되는 사용자 및 관리자 활동을 보여 줍니다. Microsoft 팀은 Office 365에서 채팅 중심의 작업 영역입니다. Microsoft Teams를 사용하면 팀의 대화, 모임, 파일 및 메모를 모두 한곳에서 관리할 수 있습니다. 자세한 내용과 도움말 항목에 대한 링크는 다음을 참조하세요.
 
-- [Microsoft Teams에 대한 질문과 대답 – 관리 도움말](https://support.office.com/article/05cbe533-2181-4e95-a4b0-52cd7695fafc)
+- [Microsoft Teams에 대한 질문과 대답 – 관리 도움말](https://docs.microsoft.com/MicrosoftTeams/teams-overview)
 
-- [Microsoft Teams 도움말](https://support.office.com/article/23156c0c-2c6e-49dd-8b7b-7c564b76508c)
+- [Microsoft Teams 도움말](https://support.office.com/teams)
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
@@ -746,7 +746,7 @@ Workplace Analytics는 조직에서 그룹이 공동으로 작업하는 방법�
 |구성원이 추가됨|MemberAdded|팀 소유자가 팀, 채널 또는 그룹 채팅에 구성원을 추가합니다.|
 |탭 추가됨|TabAdded|사용자가 채널에 탭을 추가합니다.|
 |채널 설정 변경함|ChannelSettingChanged|ChannelSettingChanged 작업은 팀 구성원이 다음 활동을 수행하는 경우 로깅됩니다. 각 활동에 대해 감사 로그 검색 결과의 **항목** 열에 변경된 설정에 대한 설명(아래에서 괄호 안에 표시된 내용)이 표시됩니다. <br/><br/>* 팀 채널의 이름을 변경합니다(**채널 이름**). <br/><br/>* 팀 채널의 설명을 변경합니다(**채널 설명**).|
-|조직 설정 변경함|TeamsTenantSettingChanged|TeamsTenantSettingChanged 작업은 Microsoft 365 관리 센터를 사용하여 전역 관리자가 다음 활동을 수행할 때 기록됩니다. 이러한 활동은 조직 전체의 Microsoft Teams 설정에 영향을 미칩니다. 자세한 내용은 [Microsoft Teams의 관리자 설정](https://support.office.com/article/3966a3f5-7e0f-4ea9-a402-41888f455ba2)을 참조하세요. <br/> 각 활동에 대해 감사 로그 검색 결과의 **항목** 열에 변경된 설정에 대한 설명(아래에서 괄호 안에 표시된 내용)이 표시됩니다. <br/><br/>* 조직에서 Microsoft Teams를 사용하거나 사용하지 않도록 설정합니다(**Microsoft Teams**). <br/><br/>* 조직에서 Microsoft Teams과 비즈니스용 Skype 사이의 상호 운용성을 사용하거나 사용하지 않도록 설정합니다(**비즈니스용 Skype 상호 운용성**). <br/><br/>* Microsoft Teams 클라이언트에서 조직도 보기를 사용하거나 사용하지 않습니다(조직도 보기**). <br/><br/>* 팀 구성원이 비공개 모임을 예약할 수 있는 기능을사용하거나 사용하지 않도록 설정합니다(**비공개 모임 예약**). <br/><br/>* 팀 구성원이 채널 모임을 예약하는 기능을 사용하거나 사용하지 않도록 설정합니다(채널 모임 예약**). <br/><br/>* Teams 모임에서 화상 통화 기능을 활성화하거나 비활성화합니다(Skype 모임용 비디오**). <br/><br/>* 조직에서 Microsoft Teams 모임의 화면 공유 기능을 활성화하거나 비활성화합니다(**Skype 모임용 화면 공유**). <br/><br/>* Teams 대화에 애니메이션 이미지(Giphy)를 추가할 수 있도록 허용하거나 허용하지 않습니다(애니메이션 이미지**). <br/><br/>* 조직의 콘텐츠 등급 설정을 변경합니다(**콘텐츠 등급**). 콘텐츠 등급으로 인해 대화에 표시될 수 있는 애니메이션 이미지의 유형이 제한됩니다. <br/><br/>* 팀 구성원이 팀 대화에 인터넷에서 받은 사용자 지정 이미지(사용자 지정 밈)를 추가할 수 있도록 허용하거나 허용하지 않습니다(인터넷에서 받은 사용자 지정 이미지**). <br/><br/>* 팀 구성원이 팀 대화에 편집 가능한 이미지(스티커)를 추가할 수 있도록 허용하거나 허용하지 않습니다(**편집 가능한 이미지**).<br/><br/>* 팀 구성원이 Microsoft Teams 채팅 및 채널에서 봇을 사용할 수 있도록 허용하거나 허용하지 않습니다(전사 봇**). <br/><br/>* Microsoft Teams 전용 봇을 활성화합니다. 조직에서 봇이 활성화된 경우 사용할 수 있는 Teams 도움말 봇인 T-Bot은 여기에 포함되지 않습니다(**개별 봇**). <br/><br/>* 팀 구성원이 확장 또는 탭을 추가할 수 있도록 허용하거나 허용하지 않습니다(**확장 또는 탭**). <br/><br/>* Microsoft Teams용 독점 봇의 테스트용 로드 기능을 활성화하거나 비활성화합니다(**봇의 테스트용 로드**). <br/><br/>* 사용자가 Microsoft Teams 채널로 전자 메일 메시지를 보낼 수 있도록 허용하거나 허용하지 않습니다(**채널 전자 메일**).|
+|조직 설정 변경함|TeamsTenantSettingChanged|TeamsTenantSettingChanged 작업은 Microsoft 365 관리 센터를 사용하여 전역 관리자가 다음 활동을 수행할 때 기록됩니다. 이러한 활동은 조직 전체의 Microsoft Teams 설정에 영향을 미칩니다. 자세한 내용은 [Microsoft Teams의 관리자 설정](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365)을 참조하세요. <br/> 각 활동에 대해 감사 로그 검색 결과의 **항목** 열에 변경된 설정에 대한 설명(아래에서 괄호 안에 표시된 내용)이 표시됩니다. <br/><br/>* 조직에서 Microsoft Teams를 사용하거나 사용하지 않도록 설정합니다(**Microsoft Teams**). <br/><br/>* 조직에서 Microsoft Teams과 비즈니스용 Skype 사이의 상호 운용성을 사용하거나 사용하지 않도록 설정합니다(**비즈니스용 Skype 상호 운용성**). <br/><br/>* Microsoft Teams 클라이언트에서 조직도 보기를 사용하거나 사용하지 않습니다(조직도 보기**). <br/><br/>* 팀 구성원이 비공개 모임을 예약할 수 있는 기능을사용하거나 사용하지 않도록 설정합니다(**비공개 모임 예약**). <br/><br/>* 팀 구성원이 채널 모임을 예약하는 기능을 사용하거나 사용하지 않도록 설정합니다(채널 모임 예약**). <br/><br/>* Teams 모임에서 화상 통화 기능을 활성화하거나 비활성화합니다(Skype 모임용 비디오**). <br/><br/>* 조직에서 Microsoft Teams 모임의 화면 공유 기능을 활성화하거나 비활성화합니다(**Skype 모임용 화면 공유**). <br/><br/>* Teams 대화에 애니메이션 이미지(Giphy)를 추가할 수 있도록 허용하거나 허용하지 않습니다(애니메이션 이미지**). <br/><br/>* 조직의 콘텐츠 등급 설정을 변경합니다(**콘텐츠 등급**). 콘텐츠 등급으로 인해 대화에 표시될 수 있는 애니메이션 이미지의 유형이 제한됩니다. <br/><br/>* 팀 구성원이 팀 대화에 인터넷에서 받은 사용자 지정 이미지(사용자 지정 밈)를 추가할 수 있도록 허용하거나 허용하지 않습니다(인터넷에서 받은 사용자 지정 이미지**). <br/><br/>* 팀 구성원이 팀 대화에 편집 가능한 이미지(스티커)를 추가할 수 있도록 허용하거나 허용하지 않습니다(**편집 가능한 이미지**).<br/><br/>* 팀 구성원이 Microsoft Teams 채팅 및 채널에서 봇을 사용할 수 있도록 허용하거나 허용하지 않습니다(전사 봇**). <br/><br/>* Microsoft Teams 전용 봇을 활성화합니다. 조직에서 봇이 활성화된 경우 사용할 수 있는 Teams 도움말 봇인 T-Bot은 여기에 포함되지 않습니다(**개별 봇**). <br/><br/>* 팀 구성원이 확장 또는 탭을 추가할 수 있도록 허용하거나 허용하지 않습니다(**확장 또는 탭**). <br/><br/>* Microsoft Teams용 독점 봇의 테스트용 로드 기능을 활성화하거나 비활성화합니다(**봇의 테스트용 로드**). <br/><br/>* 사용자가 Microsoft Teams 채널로 전자 메일 메시지를 보낼 수 있도록 허용하거나 허용하지 않습니다(**채널 전자 메일**).|
 |팀의 구성원 역할이 변경됨|MemberRoleChanged|팀 소유자가 팀의 구성원 역할을 변경합니다. 다음 값은 사용자에게 할당된 역할 유형을 나타냅니다. <br/><br/> **1** - 소유자 역할을 나타냅니다.<br/>**2** - 구성원 역할을 나타냅니다. <br/>**3** - 게스트 역할을 나타냅니다. <br/><br/> 구성원 속성에는 조직의 이름 및 구성원의 전자 메일 주소도 포함됩니다.|
 |팀 설정 변경함|TeamSettingChanged|TeamSettingChanged 작업은 팀 소유자가 다음 활동을 수행하는 경우 로깅됩니다. 각 활동에 대해 감사 로그 검색 결과의 **항목** 열에 변경된 설정에 대한 설명(아래에서 괄호 안에 표시된 내용)이 표시됩니다. <br/><br/>* 팀의 액세스 유형을 변경합니다. 팀은 비공개 또는 공개로 설정될 수 있습니다(**팀 액세스 유형**). 비공개 팀(기본값)은 초대받은 사용자만 액세스할 수 있습니다. 공개 팀은 누구나 검색할 수 있습니다. <br/><br/>* 팀의 정보 분류를 변경합니다(**팀 분류**). <br/> 예를 들어, 팀 데이터는 높은 비즈니스 영향, 중간 비즈니스 영향 또는 낮은 비즈니스 영향으로 분류될 수 있습니다.<br/><br/>* 팀의 이름을 변경합니다(**팀 이름**). <br/><br/>* 팀 설명을 변경합니다(팀 설명 **). <br/><br/>* 팀 설정에 대한 변경 사항입니다. 팀 소유자는 팀을 마우스 오른쪽 단추로 클릭하고 **팀 관리**를 클릭한 다음 **설정** 탭을 클릭하여 Teams 클라이언트에서 이러한 설정에 액세스할 수 있습니다. 이러한 활동에 대해 변경된 설정의 이름이 감사 로그 검색 결과의 **항목** 열에 표시됩니다.|
 |팀 생성됨|TeamCreated|사용자가 팀을 만듭니다.|

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 최종 사용자가 커뮤니케이션 및 학습에 사용할 수 있는 Windows 10 및 엔터프라이즈용 Microsoft 365 앱을 준비하는 방법을 알아봅니다.
-ms.openlocfilehash: 7497925b7efd66dd4b86dd4d64df81490bbc7d90
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e6118e1029186c84bebdb0fee079364f22356c2e
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636750"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222664"
 ---
 # <a name="step-8-user-communications-and-training"></a>8단계: 사용자 커뮤니케이션 및 교육
 
@@ -61,7 +61,7 @@ Windows 10의 경우, Windows Hello와 같이 생체 인식을 사용하여 안�
 
 예를 들어 다단계 인증을 사용하도록 설정한 경우 이 기능은 Azure AD를 사용하고, 휴대폰 앱 또는 PIN으로 안전하게 서비스에 액세스하도록 하여 리소스에 대한 사용자 로그인을 보호합니다. 또한 Azure Information Protection은 사용자가 문서를 쉽게 분류하고 레이블을 지정할 수 있도록 합니다.
 
-[사용자를 위한 대한 다단계 인증 설정](https://support.office.com/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)
+[사용자를 위한 대한 다단계 인증 설정](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)
 
 사용자들이 경험하게 될 새로운 기능들이 약간 있으며 경우에 따라 긍정적이거나 덜 긍정적인 차원에서 사용자에게 놀라움을 주는 기능도 있을 수 있습니다. 또한 이러한 놀라운 기능들이 정상적인 워크플로에 변화를 가져올 경우 지원 센터에서 더 많은 문의 전화가 수신되고 지원 티켓이 늘어날 수 있습니다.
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체에 또는 특정 위치 또는 사용자에게 하나의 정책을 적용할 수 있고, 모든 콘텐츠에 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: 36866f457369248f642a4189f2d9f46e58baa2a3
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: a4bf22f7064e74926935a228f84281af9171bedc
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165949"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214612"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -422,7 +422,7 @@ SharePoint 및 OneDrive의 30일간의 유예 기간은 Exchange의 30일 지연
   
 ### <a name="exchange-online"></a>Exchange Online
 
-- [보안 &amp;및 준수 센터](https://support.office.com/article/edea80d6-20a7-40fb-b8c4-5e8c8395f6da)에서 eDiscovery 사례 관리(eDiscovery 보류) 
+- [보안 &amp;및 준수 센터](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery)에서 eDiscovery 사례 관리(eDiscovery 보류) 
     
 - [원본 위치 유지 및 소송 보존](https://go.microsoft.com/fwlink/?linkid=846124)(eDiscovery 보류) 
 
@@ -432,15 +432,15 @@ SharePoint 및 OneDrive의 30일간의 유예 기간은 Exchange의 30일 지연
     
 ### <a name="sharepoint-online-and-onedrive-for-business"></a>SharePoint Online 및 비즈니스용 OneDrive
 
-- [보안 &amp;및 준수 센터](https://support.office.com/article/edea80d6-20a7-40fb-b8c4-5e8c8395f6da)에서 eDiscovery 사례 관리(eDiscovery 보류) 
+- [보안 &amp;및 준수 센터](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery)에서 eDiscovery 사례 관리(eDiscovery 보류) 
     
-- [eDiscovery 센터에서 사례에 콘텐츠 추가 및 원본 우 위치 유지](https://support.office.com/article/54d70de9-1ec2-4325-84f3-aeb588554479)(eDiscovery 보류) 
+- [eDiscovery 센터에서 사례에 콘텐츠 추가 및 원본 우 위치 유지](https://docs.microsoft.com/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)(eDiscovery 보류) 
     
-- [문서 삭제 정책 개요](https://support.office.com/article/55e8d858-f278-482b-a198-2e62d6a2e6e5)(삭제만 해당) 
+- [문서 삭제 정책 개요](https://docs.microsoft.com/microsoft-365/compliance/document-deletion-policies)(삭제만 해당) 
     
 - [ 현재 위치 레코드 관리 구성](https://support.office.com/article/7707a878-780c-4be6-9cb0-9718ecde050a)(보존) 
     
-- [사이트 폐쇄 및 삭제에 대한 정책 사용](https://support.office.com/article/a8280d82-27fd-48c5-9adf-8a5431208ba5)(삭제만 해당) 
+- [사이트 폐쇄 및 삭제에 대한 정책 사용](https://support.microsoft.com/ko-KR/office/use-policies-for-site-closure-and-deletion-a8280d82-27fd-48c5-9adf-8a5431208ba5)(삭제만 해당) 
     
 - [정보 관리 정책](intro-to-info-mgmt-policies.md)(삭제만 해당) 
     

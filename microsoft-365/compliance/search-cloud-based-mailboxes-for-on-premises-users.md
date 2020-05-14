@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Exchange 하이브리드 배포에서 보안 및 준수 센터의 콘텐츠 검색 도구를 사용하여 온-프레미스 사용자의 MicrosoftTeams 채팅 데이터(1xN 채팅이라고 함)를 검색하고 내보냅니다.
-ms.openlocfilehash: 7b05460bb41ff97c8571a96b38a8eebd50a206fd
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 488a08067a39ff4bab61696d5faf8b7c849b4ab8
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034575"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214602"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users"></a>온-프레미스 사용자의 클라우드 기반 사서함 검색
 
@@ -59,7 +59,7 @@ Microsoft 지원 요청을 제출할 때 다음 정보를 포함해야 합니다
   
 - 조직의 기본 도메인 이름
 
-- 조직의 테넌트 이름 및 테넌트 ID 이를 Azure Active Directory 포털(**관리** \> **속성** 아래)에서 찾을 수 있습니다. [Microsoft 365 테넌트 ID 찾기](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b)를 참조하세요.
+- 조직의 테넌트 이름 및 테넌트 ID 이를 Azure Active Directory 포털(**관리** \> **속성** 아래)에서 찾을 수 있습니다. [Microsoft 365 테넌트 ID 찾기](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)를 참조하세요.
 
 - 다음은 지원 요청의 목적에 대한 다음 제목 또는 설명입니다. “온-프레미스 사용자의 응용 프로그램 콘텐츠 검색 사용” 이를 통해 요청을 구현할 eDiscovery 엔지니어 팀에게 요청을 보낼 수 있습니다.
 

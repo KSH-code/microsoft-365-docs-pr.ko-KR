@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 279ecf60b0d9c023449031a3c5f086f15b18049f
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: b2542f697edb28c4949b844ae32d606dba5e7a1c
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065753"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214306"
 ---
 # <a name="iso-90012015-quality-management-systems-standards"></a>ISO 9001:2015 품질 관리 시스템 표준
 
@@ -57,15 +57,15 @@ ISO 9001:2015는 품질 관리 시스템에 대한 기준을 설정하는 국제
 
 **Microsoft 서비스의 ISO 9001:2015 감사 보고서와 범위 기술서는 어디에서 받을 수 있나요?**
 
-[서비스 보안 포털](https://support.office.com/article/Get-started-with-the-Service-Trust-Portal-for-Office-365-for-business-Azure-and-Dynamics-CRM-Online-subscriptions-f30e2353-0bd6-41ed-8347-eea1fb8d2662)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 사용자의 감사자는 이 포털을 통해 Microsoft의 클라우드 서비스 결과와 사용자의 법적 및 규제 요구 사항을 비교할 수 있도록 보고서를 요청할 수 있습니다. [FY17 Microsoft Azure ISO 9001 평가 보고서](https://aka.ms/Azure9001Report) 및 [FY17 Microsoft Azure ISO 9001 인증서](https://aka.ms/Azure9001Cert) 모두 요청 가능합니다.
+[서비스 보안 포털](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 사용자의 감사자는 이 포털을 통해 Microsoft의 클라우드 서비스 결과와 사용자의 법적 및 규제 요구 사항을 비교할 수 있도록 보고서를 요청할 수 있습니다. [FY17 Microsoft Azure ISO 9001 평가 보고서](https://www.microsoft.com/?ref=aka) 및 [FY17 Microsoft Azure ISO 9001 인증서](https://www.microsoft.com/?ref=aka) 모두 요청 가능합니다.
 
 **Microsoft는 인프라 장애에 대해 매년 테스트를 실시하고 있나요?**
 
-예. ISO 9001:2015 연간 평가는 기본 물리적 인프라 데이터 센터를 포함합니다. 적용 범위 세부 정보는 [인증서를 검토](https://aka.ms/Azure9001Cert)하세요.
+예. ISO 9001:2015 연간 평가는 기본 물리적 인프라 데이터 센터를 포함합니다. 적용 범위 세부 정보는 [인증서를 검토](https://www.microsoft.com/?ref=aka)하세요.
 
 **ISO 9001:2015에 대한 Microsoft의 규정 준수 정보는 어디에서 확인할 수 있나요?**
 
-Azure와 이 평가 범위 내에 있는 추가 서비스에 대한 [ISO 9001:2015](https://aka.ms/Azure9001Cert) 인증서를 다운로드할 수 있습니다.
+Azure와 이 평가 범위 내에 있는 추가 서비스에 대한 [ISO 9001:2015](https://www.microsoft.com/?ref=aka) 인증서를 다운로드할 수 있습니다.
 
 ## <a name="resources"></a>리소스
 

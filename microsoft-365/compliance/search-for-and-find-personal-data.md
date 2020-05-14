@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: Microsoft Office 365에서 유럽연합 일반 개인정보보호법(GDPR)에 따라 개인 데이터를 검색 및 찾는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 50c8db59cfd5e9a7de3da0dc696227e85dab1cee
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: e0d29697a28221b5ff998f5ce923c143bf7a0804
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208092"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214582"
 ---
 # <a name="search-for-and-find-personal-data"></a>개인 데이터 검색 및 찾기
 
@@ -80,7 +80,7 @@ Office 365에 포함된 중요한 정보 유형을 사용하여 개인 데이터
 
 이 주제에는 유럽 연합 시민에게 적용되는 일부 중요한 정보 유형 목록이 포함됩니다. GDPR 규정 준수에 도움이 될 수 있는 추가 사항은 보안 센터 또는 규정 준수 센터를 확인하세요.
 
-또한 [중요한 정보 유형 및 각 유형이 확인하는 내용 목록](https://support.office.com/article/What-the-sensitive-information-types-look-for-fd505979-76be-4d9f-b459-abef3fc9e86b)을 참조하세요.
+또한 [중요한 정보 유형 및 각 유형이 확인하는 내용 목록](https://docs.microsoft.com/microsoft-365/compliance/content-search)을 참조하세요.
 
 중요한 정보 유형은 정규식이나 함수로 식별될 수 있는 패턴으로 정의됩니다. 또한 키워드 및 체크섬과 같은 확증적인 증거를 사용하여 중요한 정보 유형을 식별할 수 있습니다. 이러한 평가 프로세스에서 신뢰 수준 및 근접성도 사용됩니다. 중요한 정보 유형은 정규식이나 함수로 식별될 수 있는 패턴으로 정의됩니다. 또한 키워드 및 체크섬과 같은 보완적 증거를 사용하여 중요한 정보 유형을 식별할 수 있습니다. 신뢰도 및 근접성도 평가 프로세스에서 활용됩니다.
 
@@ -111,7 +111,7 @@ Office 365에 포함된 중요한 정보 유형을 사용하여 개인 데이터
 <p>SensitiveType:&quot;France Passport Number&quot;</p>
 </blockquote>
 <p>검색 범위를 SharePoint(비즈니스용 OneDrive 포함)으로 지정합니다. 구문이 정확한지와 불필요한 공백이나 입력 오류가 없는지 확인합니다.</p>
-<p><a href="https://support.office.com/article/Form-a-query-to-find-sensitive-data-stored-on-sites-3019fbc5-7f15-4972-8d0e-dc182dc7f836">사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성</a>을 참조하세요.</p></td>
+<p><a href="https://docs.microsoft.com/microsoft-365/compliance/form-a-query-to-find-sensitive-data-stored-on-sites">사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성</a>을 참조하세요.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>각 검색에 대한 결과 검토</p></td>
@@ -218,4 +218,4 @@ Office 365에 포함된 중요한 정보 유형을 사용하여 개인 데이터
 
 참고: "SensitiveType"은 대/소문자를 구분하지만, 쿼리의 나머지 부분은 그렇지 않습니다.
 
-또한 속성 및 연산자를 사용하여 쿼리를 구체화하는 방법을 보여줄 수도 있습니다. 자세한 내용 및 예제에 대해서는 [사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성](https://support.office.com/article/Form-a-query-to-find-sensitive-data-stored-on-sites-3019fbc5-7f15-4972-8d0e-dc182dc7f836)을 참조하세요.
+또한 속성 및 연산자를 사용하여 쿼리를 구체화하는 방법을 보여줄 수도 있습니다. 자세한 내용 및 예제에 대해서는 [사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성](https://docs.microsoft.com/microsoft-365/compliance/form-a-query-to-find-sensitive-data-stored-on-sites)을 참조하세요.

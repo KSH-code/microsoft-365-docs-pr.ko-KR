@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3cc92be00eca4f1e90917cadea26df8f10adf267
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: dfbb5ed43c5256109ccc0a137a3d144d084e573e
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066615"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214244"
 ---
 # <a name="isoiec-270012013-information-security-management-standards"></a>ISO/IEC 27001:2013 정보 보안 관리 표준
 
@@ -125,7 +125,7 @@ Microsoft 클라우드에서 ISO-IEC-27001 의 혜택에 대해 알아보세요.
 
 **Microsoft 서비스에 대한 ISO/IEC 27001 감사 보고서와 범위 기술서는 어디에서 구할 수 있나요?**
 
-[Service Trust Portal](https://support.office.com/article/Get-started-with-the-Service-Trust-Portal-for-Office-365-for-business-Azure-and-Dynamics-CRM-Online-subscriptions-f30e2353-0bd6-41ed-8347-eea1fb8d2662)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 귀사의 감사자는 이 포털을 통해 Microsoft의 클라우드 서비스 결과와 귀사의 법적 및 규제 요건을 비교할 수 있도록 보고서를 요청할 수 있습니다.
+[Service Trust Portal](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 귀사의 감사자는 이 포털을 통해 Microsoft의 클라우드 서비스 결과와 귀사의 법적 및 규제 요건을 비교할 수 있도록 보고서를 요청할 수 있습니다.
 
 **Microsoft는 인프라 장애에 대한 연례 테스트를 실시하나요?**
 

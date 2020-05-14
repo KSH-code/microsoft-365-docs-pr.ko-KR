@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9564445f6b5a92479ba264947dbeaa109db76e14
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 196cbc0ebc05683315766b736dd9d5fc2d92afd2
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036221"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214572"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>Microsoft 365 기능을 사용한 GDPR에 대한 정보 보호
 
@@ -56,8 +56,8 @@ Microsoft에서는 시작점으로 사용할 수 있는 권장 구성을 제공�
 
 위협 방지는 Microsoft 365 서비스에 기본적으로 제공되며 다음 리소스를 통해 시작할 수 있습니다.
 
-- [Office 365 보안 로드맵: 처음 30일, 90일 및 그 이상 기간에 주요 우선 순위 두기](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352). 이 로드맵에는 기능을 구현하기 위한 권장 사항이 포함되어 있습니다. 
-- [Office 365에서 위협으로부터 보호](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58). Microsoft 365 보안 센터에서 수행할 수 있는 보호 조치에 대해 알아봅니다.
+- [Office 365 보안 로드맵: 처음 30일, 90일 및 그 이상 기간에 주요 우선 순위 두기](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap). 이 로드맵에는 기능을 구현하기 위한 권장 사항이 포함되어 있습니다. 
+- [Office 365에서 위협으로부터 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats). Microsoft 365 보안 센터에서 수행할 수 있는 보호 조치에 대해 알아봅니다.
 - [Windows 위협 보호](https://docs.microsoft.com/windows/security/threat-protection/). Windows Defender Advanced Threat Protection 및 Windows 10의 기타 기능에 대해 자세히 알아봅니다.
 
 ## <a name="learn-more"></a>자세한 정보

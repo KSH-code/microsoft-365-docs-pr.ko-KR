@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 사용자 환경에서 Windows 및 Office Servicing을 준비하는 방법을 알아봅니다.
-ms.openlocfilehash: bca8fbf39bbbcc7b0a37512383caf630ffe3da67
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: f30581408be1c69d7aec7e31e9b5d6461266adb1
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011618"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222676"
 ---
 # <a name="step-7-windows-and-office-servicing"></a>7단계: Windows 및 Office Servicing
 
@@ -95,7 +95,7 @@ Windows 10은 다음의 3가지 서비스 채널을 제공합니다.
 
 Microsoft 365는 다음과 같은 4가지 서비스 채널을 제공합니다.
 
-- [**Office 참가자 프로그램**](https://support.office.com/article/What-is-Office-Insider-f4208185-b63a-4b68-9c7a-9a32d2411c16): 조직에서 최신 Office 기능과 아직 개발 중인 기능을 테스트하고 의견을 제공할 수 있습니다.
+- [**Office 참가자 프로그램**](https://products.office.com/office-insider): 조직에서 최신 Office 기능과 아직 개발 중인 기능을 테스트하고 의견을 제공할 수 있습니다.
 - **월별 채널**: Office의 최신 기능이 사용 가능해지는 즉시 사용자에게 제공됩니다.
 - **반기 채널**: 연 2회만 새 기능을 제공합니다.
 - **반기 채널(대상 지정)**: 파일럿 사용자와 애플리케이션 호환성 테스터가 다음 반기 채널을 테스트하고 유효성을 검사할 수 있는 완전히 지원되는 Office 빌드입니다.
