@@ -196,6 +196,8 @@
           href: manage/centralized-deployment-of-add-ins.md
         - name: 중앙 집중식 배포를 사용하여 추가 기능 설치 및 관리
           href: manage/manage-deployment-of-add-ins.md
+        - name: 중앙 집중식 배포 FAQ
+          href: manage/centralized-deployment-faq.md
         - name: 파트너 또는 재판매업체 찾기
           href: manage/find-your-partner-or-reseller.md
         - name: 메시지 센터 정보

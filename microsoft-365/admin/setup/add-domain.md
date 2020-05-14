@@ -25,19 +25,19 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: DNS 호스트에서 DNS 레코드를 추가 하 여 Microsoft 365 관리 센터에서 Office 365에 도메인을 추가 합니다. 설치 마법사가 프로세스를 안내 합니다.
-ms.openlocfilehash: bab4da6e4a8191d91ccdd38dd54f62f4d790c3b8
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 336e6ee78d7020d73c7e00f639e8f1e1b20c62cd
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140778"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222342"
 ---
-# <a name="add-a-domain-to-office-365"></a>Office 365에 도메인 추가
+# <a name="add-a-domain-to-microsoft-365"></a>Microsoft 365에 도메인 추가
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -74,7 +74,7 @@ ms.locfileid: "44140778"
 
 ::: moniker-end
     
-2. **도메인** **설정** > 페이지로 이동 합니다. 
+2. **Setup**  >  **도메인** 설정 페이지로 이동 합니다. 
 
 3. **도메인 추가**를 선택 합니다.
     
@@ -82,7 +82,7 @@ ms.locfileid: "44140778"
     
 5. 도메인을 소유 하 고 있는지 확인 하는 방법을 선택 합니다.
     
-    1. 도메인이 godaddy&amp;또는 1 1에 등록 되어 있으면**다음** **로그인** > 을 선택 하 고 Microsoft[에서 레코드를 자동으로 설정](../get-help-with-domains/domain-connect.md)합니다.
+    1. 도메인이 godaddy 또는 1 1에 등록 되어 있으면 &amp; **Sign in**  >  **다음** 로그인을 선택 하 고 Microsoft [에서 레코드를 자동으로 설정](../get-help-with-domains/domain-connect.md)합니다.
     
     2. 도메인에 대해 등록된 연락처로 확인 코드가 포함된 전자 메일을 받을 수 있습니다. 알 수 없거나 기록 된 전자 메일에 대 한 액세스 권한이 있는 경우 세 번째 옵션을 사용 하면 됩니다.
     
@@ -113,9 +113,9 @@ ms.locfileid: "44140778"
 
 아래 단계에 따라 웹 사이트 또는 타사 서비스에 대 한 사용자 지정 레코드를 추가 합니다.
 
-1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>Microsoft 관리 센터에 로그인 합니다.
+1. 에서 Microsoft 관리 센터에 로그인 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 합니다.
 
-2. **설정**  > **도메인** 페이지로 이동 합니다.
+2. **설정**   >  **도메인** 페이지로 이동 합니다.
 
 3. **도메인** 페이지에서 도메인을 선택합니다. 
     
@@ -136,7 +136,7 @@ ms.locfileid: "44140778"
   
 ### <a name="domain-connect-registrars-integrating-with-microsoft-365"></a>도메인 연결 등록 기관 Microsoft 365 통합
 
-- [1&amp;1GB 이상 os](https://www.1and1.com/)
+- [1 &amp; 1gb 이상 os](https://www.1and1.com/)
 - [123Reg](https://www.123-reg.co.uk/)
 - [GoDaddy](https://www.godaddy.com/)
 - [WordPress](https://wordpress.com/)

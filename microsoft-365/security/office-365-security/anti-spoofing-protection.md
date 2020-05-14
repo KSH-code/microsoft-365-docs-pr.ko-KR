@@ -19,17 +19,17 @@ ms.custom:
 - TopSMBIssues
 - seo-marvel-apr2020
 localization_priority: Priority
-description: 이 문서에서는 스푸핑된 도메인의 피싱 공격을 완화하는 Microsoft 365의 스푸핑 방지 보호에 대해 알아봅니다.
-ms.openlocfilehash: a5236161e1df6df1d007135c9ae700e87a06ccf0
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: 관리자는 스푸핑된 보낸 사람 및 도메인의 피싱 공격을 완화하는 데 도움이 되며 EOP(Exchange Online Protection)에서 사용할 수 있는 스푸핑 방지 기능에 대해 알아볼 수 있습니다.
+ms.openlocfilehash: c28f5cf18a8da3be06906eb1e6b118c856c40066
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034073"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209034"
 ---
-# <a name="anti-spoofing-protection"></a>스푸핑 방지 보호 기능
+# <a name="anti-spoofing-protection-in-eop"></a>EOP의 스푸핑 방지 보호 기능
 
-Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 고객의 경우, EOP에 가짜(위조) 발신인으로부터 조직을 보호하는 데 도움이 되는 기능이 포함됩니다.
+Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직의 경우, EOP에 가짜(위조) 발신인으로부터 조직을 보호하는 데 도움이 되는 기능이 포함됩니다.
 
 사용자 보호와 관련해 Microsoft는 피싱 위협을 심각한 위험으로 간주합니다. 스푸핑은 공격자가 흔히 사용하는 기술로 **스푸핑된 메시지가 실제 출처가 아닌 다른 사람이나 다른 곳에서 시작된 것처럼 보입니다**. 이 기법은 사용자 자격 증명을 얻기 위해 고안된 피싱 캠페인에서 주로 사용됩니다. EOP의 스푸핑 방지 기술은 특히 메시지 본문에서 보낸 사람 머리글의 위조를 검사합니다(전자 메일 클라이언트에서 메시지 보낸 사람을 표시하는 데 사용됨). EOP에서 보낸 사람 머리글이 위조되었다는 강한 확신이 있는 경우 메시지는 가짜로 식별됩니다.
 
@@ -37,11 +37,11 @@ EOP에서 다음 스푸핑 방지 기술을 사용할 수 있습니다.
 
 - **스푸핑 인텔리전스**: 내부 및 외부 도메인의 보낸 사람으로부터 스푸핑된 메시지를 검토하고 해당 보낸 사람을 허용하거나 차단합니다. 자세한 내용은 [Microsoft 365에 스푸핑 인텔리전스 구성](learn-about-spoof-intelligence.md)을 참조하세요.
 
-- **피싱 방지 정책**: 기본 제공되는 피싱 방지 정책을 사용하면 스푸핑 인텔리전스를 설정 또는 해제하고, Outlook의 인증되지 않은 발신자 신원 확인을 설정 또는 해제하며, 차단된 스푸핑된 발신자(정크 메일 폴더 또는 격리로 이동)에 대한 작업을 지정할 수 있습니다. Office 365 ATP(Advanced Threat Protection)에서 제공하는 고급 피싱 방지 정책에는 가장 방지 설정(보호된 발신자 및 도메인), 사서함 인텔리전스 설정 및 조정 가능한 고급 피싱 임계값 또한 포함되어 있습니다. 자세한 내용은 [Microsoft 365의 피싱 방지 정책](set-up-anti-phishing-policies.md)을 참조하세요.
+- **피싱 방지 정책**: EOP에서 피싱 방지 정책을 사용하면 스푸핑 인텔리전스를 설정 또는 해제하고, Outlook의 인증되지 않은 발신자 신원 확인을 설정 또는 해제하며, 차단된 스푸핑된 발신자(정크 메일 폴더 또는 격리로 이동)에 대한 작업을 지정할 수 있습니다. Office 365 ATP(Advanced Threat Protection)에서 제공하는 고급 피싱 방지 정책에는 가장 방지 설정(보호된 발신자 및 도메인), 사서함 인텔리전스 설정 및 조정 가능한 고급 피싱 임계값 또한 포함되어 있습니다. 자세한 내용은 [Microsoft 365의 피싱 방지 정책](set-up-anti-phishing-policies.md)을 참조하세요.
 
 - **전자 메일 인증**: 모든 스푸핑 방지 작업의 필수 요소는 SPF, DKIM 및 DNS의 DMARC 레코드에서 전자 메일 인증(다른 말로 전자 메일 유효성 검사라고 함)을 사용하는 것입니다. 대상 전자 메일 시스템에서 도메인에 속한 발신자로부터 시작되었다고 주장하는 메시지의 유효성을 검사할 수 있도록 도메인에 대해 이러한 레코드를 구성할 수 있습니다. 인바운드 메시지의 경우 Microsoft 365를 사용하려면 발신자 도메인에 대한 전자 메일 인증을 수행해야 합니다. 자세한 내용은 [Microsoft 365의 전자 메일 인증](email-validation-and-authentication.md)을 참조하세요.
 
-Microsoft의 스푸핑 방지 기술은 원래 Office 365 ATP(Advanced Threat Protection)가 적용되는 조직에 한해 배포되었습니다. 2018년 10월에 스푸핑 방지 보호 기능이 EOP에 추가되었습니다.
+2018년 10월부터 EOP에서 스푸핑 방지 보호를 사용할 수 있습니다. 그때까지는, Office 365 ATP가 있는 조직만 스푸핑 방지 보호 기능을 사용할 수 있습니다.
 
 EOP는 표준 전자 메일 인증 방법과 보낸 사람 신뢰도 기술을 조합하여 인증하지 못하는 메시지를 분석 및 차단합니다.
 

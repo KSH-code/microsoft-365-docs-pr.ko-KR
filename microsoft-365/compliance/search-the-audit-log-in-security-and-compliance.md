@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자와 관리자 활동을 확인합니다. '
-ms.openlocfilehash: f3cf16da0c7623c1cdd7f90272fa4b11126dcc25
-ms.sourcegitcommit: 4f2129b161eed3f9ddec47494fa19a2a7a553e4f
+ms.openlocfilehash: 447777c4cf3eb8532e30977d97694445647889d4
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43805187"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208082"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
@@ -79,19 +79,19 @@ ms.locfileid: "43805187"
   > [!IMPORTANT]
   > 보안 및 준수 센터의 **사용 권한** 페이지에서 사용자에게 보기 전용 감사 로그 또는 감사 로그 역할을 할당하는 경우 감사 로그를 검색할 수 없습니다. Exchange Online에서 사용 권한을 할당해야 합니다. 감사 로그를 검색하는 데 사용되는 기본 cmdlet이 Exchange Online cmdlet이기 때문입니다.
 
-- 사용자 또는 관리자가 감사되는 활동을 수행하면 감사 레코드가 생성되어 조직의 감사 로그에 저장됩니다. 감사 기록이 보존되고 감사 로그에서 검색 가능한 시간은 Office 365 또는 Microsoft 365 엔터프라이즈 구독, 특히 특정 사용자에게 할당된 라이선스 유형에 따라 다릅니다.
+- 사용자 또는 관리자가 감사되는 활동을 수행하면 감사 레코드가 생성되어 조직의 감사 로그에 저장됩니다. 감사 기록이 보존되는(감사 로그에서 검색 가능한) 시간은 Office 365 또는 Microsoft 365 Enterprise 구독, 그리고 특히 특정 사용자에게 할당된 라이선스 유형에 따라 다릅니다.
 
-  - Office 365 E5 또는 Microsoft 365 E5 라이선스가 할당된 사용자(또는 Microsoft 365 E5 Compliance 또는 Microsoft 365 E5 eDiscovery and Audit 애드온 라이선스가 있는 사용자)의 경우 Azure Active Directory, Exchange 및 SharePoint 활동에 대한 감사 레코드가 기본적으로 1년 유지됩니다. 조직은 감사 로그 보존 정책을 만들어 다른 서비스 활동에 대한 감사 레코드를 최대 1년 동안 유지할 수도 있습니다. 자세한 내용은 [감사 로그 보존 정책 관리](audit-log-retention-policies.md)를 참조하십시오.
+  - Office 365 E5 또는 Microsoft 365 E5 라이선스가 할당된 사용자(또는 Microsoft 365 E5 규정 준수 또는 Microsoft 365 E5 eDiscovery 및 Audit 추가 기능 라이선스가 있는 사용자)의 경우 Azure Active Directory, Exchange 및 SharePoint 활동에 대한 감사 레코드가 기본적으로 1년 동안 유지됩니다. 조직은 감사 로그 보존 정책을 만들어 다른 서비스 활동에 대한 감사 레코드를 최대 1년 동안 유지할 수도 있습니다. 자세한 내용은 [감사 로그 보존 정책 관리](audit-log-retention-policies.md)를 참조하십시오.
 
     > [!NOTE]
     > 조직이 감사 레코드의 1년 보존을 위해 개인 미리보기 프로그램에 참여한 경우 일반 가용성 롤아웃 날짜 이전에 생성 된 감사 레코드의 보존 기간은 재설정되지 않습니다.
 
-  - E5 이외의 다른 Office 365 또는 Microsoft 365 라이선스가 할당된 사용자의 경우 감사 레코드가 90일 동안 유지됩니다. 통합 감사 로깅을 지원하는 Office 365 및 Microsoft 365 구독 목록을 확인하려면 [보안 및 규정 준수 센터 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)을 참조하세요.
+  - E5 이외의 다른 Office 365 또는 Microsoft 365 라이선스가 할당된 사용자의 경우 감사 레코드가 90일 동안 보존됩니다. 통합 감사 로깅을 지원하는 Office 365 및 Microsoft 365 구독 목록을 확인하려면 [보안 및 규정 준수 센터 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)을 참조하세요.
 
     > [!NOTE]
     > 기본적으로 사서함 감사가 설정되어 있더라도 일부 사용자에 대한 사서함 감사 이벤트는 보안 및 준수 센터의 감사 로그 검색에서 발견되지 않거나 Office 365 관리 작업 API를 통해 찾지 못할 수 있습니다. 자세한 내용은 [사서함 감사 로깅에 대한 자세한 정보](enable-mailbox-auditing.md#more-information)를 참조하세요.
 
-- 조직에서 감사 로그 검색을 해제하려면 Exchange Online 조직에 연결된 원격 PowerShell에서 다음과 같은 명령을 실행하세요.
+- 조직의 감사 로그 검색을 해제하려면 Exchange Online 조직에 연결된 원격 PowerShell에서 다음의 명령을 실행합니다.
 
   ```powershell
   Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $false
@@ -941,7 +941,7 @@ Exchange Online, SharePoint Online, 비즈니스용 OneDrive, Azure Active Direc
 
 **감사 레코드는 얼마나 오래 보존되나요?**
 
-앞에서 설명한 것처럼 Office 365 E5 또는 Microsoft E5 라이선스가 할당 된 사용자(또는 Microsoft 365 E5 애드온 라이선스가 있는 사용자)가 수행한 활동에 대한 감사 레코드는 1년 동안 유지됩니다. 통합 감사 로깅을 지원하는 다른 모든 구독의 경우 감사 레코드가 90일 동안 유지됩니다.
+앞에서 설명한 것처럼 Office 365 E5 또는 Microsoft E5 라이선스가 할당된 사용자(또는 Microsoft 365 E5 추가 기능 라이선스가 있는 사용자)가 수행한 활동에 대한 감사 레코드는 1년 동안 보존됩니다. 통합 감사 로깅을 지원하는 다른 모든 구독의 경우 감사 레코드가 90일 동안 보존됩니다.
 
 **프로그래밍 방식으로 감사 데이터에 액세스할 수 있나요?**
 
