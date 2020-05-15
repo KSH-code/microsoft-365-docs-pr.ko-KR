@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb00dd4e-2d5f-4e8d-8ff4-94b2cf002bdd
 description: '사용자가 모임 및 약속을 위해 외부 사용자와 일정을 공유할 수 있도록 하는 방법을 알아봅니다. '
-ms.openlocfilehash: bd297fc2d684357d0500495e5a8263e5279efa39
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6e5a4a3a7e29dcbb6b19aeb1dd3b914ff98eb06e
+ms.sourcegitcommit: 708857a82eab3d37da1dec027399b09bd306a5dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628043"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44249875"
 ---
 # <a name="share-calendars-with-external-users"></a>외부 사용자와 일정 공유
 
@@ -39,10 +39,9 @@ ms.locfileid: "43628043"
   
 ## <a name="enable-calendar-sharing-using-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터를 사용 하 여 일정 공유를 사용 하도록 설정
 
-1. 관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">서비스 & 추가</a> 기능 페이지로 이동 합니다. 
+1. 관리 센터에서 **설정** \> **설정**으로 이동 합니다. 
     
-  
-2. **서비스 &amp; 추가 기능** 페이지에서 **일정**을 선택 합니다.
+2. **서비스** 탭에서 **일정**을 선택 합니다.
   
 3. 열리는 **일정** 페이지에서 사용자가 Microsoft 365 또는 Exchange를 사용 하는 조직 외부의 사용자와 일정을 공유할 수 있도록 할지 여부를 선택 합니다.
     
@@ -55,4 +54,3 @@ ms.locfileid: "43628043"
 
 테넌트에 공유가 설정되면 일정 소유자는 특정 사용자로 초대를 확장할 수 있습니다. 자세한 내용은 [Outlook Web App에서 일정 공유](https://support.office.com/article/7ecef8ae-139c-40d9-bae2-a23977ee58d5.aspx)를 참고하세요. 
   
-

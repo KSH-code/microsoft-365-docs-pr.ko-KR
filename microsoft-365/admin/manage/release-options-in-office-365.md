@@ -21,23 +21,23 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Microsoft 365 관리 센터에서 새 제품 및 기능 업데이트에 대 한 릴리스 옵션을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: fc931893e95ff053cd251b6c1b12bfdbaadf49ae
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 3a7a0562edef527718816bba6e67ea948cfad6b5
+ms.sourcegitcommit: 708857a82eab3d37da1dec027399b09bd306a5dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139652"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44249887"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>표준 또는 대상 지정 된 릴리스 옵션 설정
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
-Microsoft 365에서는 몇 년 마다 비용이 많이 드는 업데이트를 수행 하는 대신 새로운 제품 업데이트 및 기능을 사용할 수 있을 때 수신 합니다. 관리자는 조직에서 이러한 업데이트를 받는 방법을 관리할 수 있습니다. 예를 들어, 조직에서 먼저 업데이트를 받도록 초기 릴리스에 등록할 수 있습니다. 특정 개인만 업데이트를 받도록 지정할 수 있습니다. 또는 기본 릴리스 일정을 유지하고 나중에 업데이트를 받을 수도 있습니다. 이 문서에서는 다양한 릴리스 옵션과 조직에서 이를 사용하는 방법에 대해 설명합니다.
+Microsoft 365에서는 몇 년 마다 비용이 많이 드는 업데이트를 수행 하는 대신 새로운 제품 업데이트 및 기능을 사용할 수 있을 때 수신 합니다. 관리자는 조직에서 이러한 업데이트를 받는 방법을 관리할 수 있습니다. 예를 들어, 조직에서 먼저 업데이트를 받도록 초기 릴리스에 등록할 수 있습니다. 특정 개인만 업데이트를 받도록 지정할 수 있습니다. 또는 기본 릴리스 일정을 유지하고 나중에 업데이트를 받을 수도 있습니다. 이 문서에서는 다양 한 릴리스 옵션과 조직에서 이러한 옵션을 사용 하는 방법에 대해 설명 합니다.
   
 > [!IMPORTANT]
 > 이 문서에서 설명 하는 Microsoft 365 업데이트는 Microsoft 365, SharePoint Online 및 Exchange Online에 적용 됩니다. 비즈니스용 Skype 및 관련 서비스에는 적용되지 않습니다. 이러한 릴리스 옵션은 Microsoft 365에 대 한 변경 사항을 릴리스할 수 있는 최상의 방법 이지만 항상 또는 모든 업데이트에 대해 보장할 수 없습니다. 
@@ -48,7 +48,7 @@ Microsoft 365에서는 몇 년 마다 비용이 많이 드는 업데이트를 �
   
 ![Microsoft 365에 대 한 릴리스 유효성 검사 링](../../media/73611ed3-2d8c-4e7b-8074-9f03b239f9ed.png)
   
-중요 업데이트의 경우 Office 고객은 처음에 [Microsoft 365 로드맵](https://products.office.com/business/office-365-roadmap)에서 알림을 받습니다. 업데이트가 롤아웃에 더 가까이 있으면 [Microsoft 365 메시지 센터](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter)를 통해 전달 됩니다.
+중요 업데이트의 경우 처음에는 [Microsoft 365 로드맵](https://products.office.com/business/office-365-roadmap)에서 고객에 게 알려 줍니다. 업데이트가 롤아웃에 더 가까이 있으면 [Microsoft 365 메시지 센터](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter)를 통해 전달 됩니다.
 
 > [!NOTE]
 > [관리 센터](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center)를 통해 메시지 센터에 액세스 하려면 Microsoft 365 또는 Azure AD 계정이 필요 합니다. Microsoft 365 home 요금제 사용자에 게 관리 센터는 없습니다.
@@ -99,7 +99,7 @@ Microsoft 365에서는 몇 년 마다 비용이 많이 드는 업데이트를 �
 > [!IMPORTANT]
 > 아래의 변경 내용이 Microsoft 365에 적용 되려면 최대 24 시간이 걸릴 수 있습니다. 대상 지정된 릴리스를 설정한 후에 취소하는 경우 사용자가 아직 예정된 릴리스에 도달하지 않은 기능에 액세스하지 못할 수 있습니다. 
   
-1. 관리 센터에서 **설정** > **설정**으로 이동 하 여 **조직 프로필** 탭 아래에서 **기본 설정 릴리스**를 선택 합니다.
+1. 관리 센터에서 **설정**설정으로 이동 하 여  >  **Setting** **조직 프로필** 탭 아래에서 **기본 설정 릴리스**를 선택 합니다.
 
 5. 대상 지정 된 릴리스를 사용 하지 않도록 설정 하려면 **표준 릴리스**를 선택 하 고 **변경 내용 저장**을 선택 합니다. 
     
@@ -112,10 +112,6 @@ Microsoft 365에서는 몇 년 마다 비용이 많이 드는 업데이트를 �
 9. 사용자 추가가 완료 되 면 **변경 내용 저장**을 선택 합니다.
 
 
-
-## <a name="get-the-targeted-release-version-of-office"></a>Office의 대상 지정 된 릴리스 버전 가져오기
-
-Office의 대상 지정된 릴리스 빌드를 설치하려면 [다음 단계를 수행](https://support.office.com/article/4dd8ba40-73c0-4468-b778-c7b744d03ead)합니다. 그러면 Windows 데스크톱용 Office 2016의 새로운 기능에 미리 액세스할 수 있습니다.
   
 ## <a name="learn-more"></a>자세한 정보
 
