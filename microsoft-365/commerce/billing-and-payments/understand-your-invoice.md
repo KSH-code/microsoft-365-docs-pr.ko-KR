@@ -1,5 +1,5 @@
 ---
-title: 송장 이해
+title: 청구서 또는 송장 이해
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 search.appverid:
 - MET150
-description: Microsoft 비즈니스 제품의 송장을 읽고 이해 하는 방법을 알아봅니다.
+description: Microsoft 비즈니스 제품에 대 한 청구서 또는 송장을 읽고 이해 하는 방법에 대해 알아보세요.
 keywords: 청구 계정, 조직 정보, 송장
-ms.openlocfilehash: 63186bb0fc601be786e223fe2e6febbdb48361e2
-ms.sourcegitcommit: 4cfb8a9c3675d0aefcabd690273e2af85f2e38b0
+ms.openlocfilehash: 25e9f2865c5970d11fac14d9427cb54374884541
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44211407"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232820"
 ---
-# <a name="understand-your-invoice"></a>송장 이해
+# <a name="understand-your-bill-or-invoice"></a>청구서 또는 송장 이해
 
 ::: moniker range="o365-21vianet"
 
@@ -36,7 +36,7 @@ ms.locfileid: "44211407"
 
 송장에서는 결제에 대 한 요금 및 지침을 요약해 서 제공 합니다. Microsoft 365 관리 센터에서 [온라인 송장을 볼](#view-your-online-invoice) 수 있습니다. 또한이 파일을 휴대용 문서 형식 (.pdf)으로 다운로드 하 여 전자 메일을 통해 보낼 수 있습니다.
 
-Microsoft 365 구독만 있는 경우 [microsoft 365 for business의 청구서 이해](understand-your-invoice2.md)를 참조 하세요.
+Microsoft 365 구독만 있는 경우 [microsoft 365 for business의 청구서 또는 송장 이해](understand-your-invoice2.md)를 참조 하세요.
 
 ## <a name="understand-the-invoice-header"></a>송장 헤더 이해
 

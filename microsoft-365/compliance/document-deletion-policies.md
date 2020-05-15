@@ -15,18 +15,18 @@ search.appverid:
 - MET150
 ms.assetid: 55e8d858-f278-482b-a198-2e62d6a2e6e5
 description: 조직은 규정 준수, 법률 또는 기타 비즈니스 요구 사항으로 인해 일정 기간 동안 문서를 보존 해야 할 수 있습니다. 그러나 조직에서 필요한 것 보다 긴 문서를 보관 하는 경우에는 불필요 한 법적 위험을 생성 합니다. 문서 삭제 정책을 사용 하면 특정 기간이 지난 후에 사이트에서 문서를 삭제 하 여 위험을 줄일 수 있으며, 문서를 만든 후 5 년 동안 사용자의 비즈니스용 OneDrive 사이트에서 문서를 삭제할 수 있습니다.
-ms.openlocfilehash: fba7af2c58b373e51aed93ce9a353a45528bb9f9
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 63bf9e83bb6ef793359e35943cbfc6244ef5078c
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943001"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232093"
 ---
 # <a name="overview-of-document-deletion-policies"></a>문서 삭제 정책 개요
 
 > [!IMPORTANT]
-> 앞으로는 문서 삭제 정책 대신 Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 보안 &amp; 준수 센터에서 만든 보존 정책을 사용 하는 것이 좋습니다. 문서 삭제 정책은 계속 해 서 보존 정책과 함께 작동 하지만 Office 365의 모든 위치에서 콘텐츠를 보존 하거나 삭제 해야 하는 경우에는 보존 정책을 사용 하는 것이 좋습니다. 자세한 내용은 [이러한 기능 대신 보존 정책 사용](retention-policies.md#use-a-retention-policy-instead-of-these-features)을 참조 하십시오.
-  
+> 앞으로는 문서 삭제 정책 대신 Microsoft 365 준수 센터의 보존 정책을 사용 하는 것이 좋습니다. 문서 삭제 정책은 계속 해 서 보존 정책과 함께 작동 하지만 Office 365의 모든 위치에서 콘텐츠를 보존 하거나 삭제 해야 하는 경우 보존 정책이 나 보존 레이블을 사용 하는 것이 좋습니다. 자세한 내용은 [이전 기능 대신 보존 정책 사용](retention-policies.md#use-a-retention-policy-instead-of-older-features)을 참조 하십시오.
+
 조직은 규정 준수, 법률 또는 기타 비즈니스 요구 사항으로 인해 일정 기간 동안 문서를 보존 해야 할 수 있습니다. 그러나 조직에서 필요한 것 보다 긴 문서를 보관 하는 경우에는 불필요 한 법적 위험을 생성 합니다. 문서 삭제 정책을 사용 하면 특정 기간이 지난 후에 사이트에서 문서를 삭제 하 여 위험을 줄일 수 있으며, 문서를 만든 후 5 년 동안 사용자의 비즈니스용 OneDrive 사이트에서 문서를 삭제할 수 있습니다.
   
 문서 삭제 정책은 다음과 같은 강력 하 고 유연성이 뛰어납니다.
@@ -127,7 +127,7 @@ ms.locfileid: "43943001"
   
 사이트 모음에 정책이 할당 되지 않은 경우 **문서 삭제 정책** 링크가 표시 되지 않습니다. 또한 사이트에 정책이 할당 된 직후에 링크가 표시 되지 않으며, **문서 삭제 정책** 링크가 나타나면 정책이 할당 될 때까지 최대 24 시간이 걸릴 수 있습니다. 
   
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 문서 삭제 정책 센터를 사용할 규정 준수 팀의 구성원은 정책이 적용 될 정책 센터 및 사이트 모음에 대 한 사용 권한이 필요 합니다. 다음의 작업을 권장합니다.
   

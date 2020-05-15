@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 description: '다른 지역의 Microsoft 365 비즈니스 에디션 구독에 대해 부과할 세금을 확인할 수 있습니다. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 0aeabd49477bdef856a7ddb9f3b7c39211be2479
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 7c071a29fa5cedfc12c69a6471d1321a9167106f
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045827"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232832"
 ---
 # <a name="tax-information"></a>세금 정보
 
@@ -114,7 +114,7 @@ Microsoft를 통해 구입한 Microsoft 365 관리 센터에 대한 세금은 �
 
 #### <a name="add-your-vat-id-eu-countries-only"></a>VAT ID 추가(EU 국가에만 해당)
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
 
 2. 업데이트 하려는 구독의 구독 카드를 찾습니다.
 
@@ -130,7 +130,7 @@ Microsoft를 통해 구입한 Microsoft 365 관리 센터에 대한 세금은 �
   
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 
-2. 구독 이름을 선택 하 고 **기타 작업** \> 을 선택 하 여 **VAT 번호를 편집**합니다.
+2. 구독 이름을 선택 하 고 **기타 작업** 을 선택 하 여 \> **VAT 번호를 편집**합니다.
   
 3. **서비스 사용 주소 편집** 페이지의 **vat 번호** 상자에 vat ID를 입력 한 다음 **제출을**선택 합니다.
 
@@ -160,7 +160,7 @@ Microsoft Corporation에서 대금 청구를 수행 하는 경우 ([청구서 �
 
 판매 세금이 단가를 기준으로 계산 된 다음 집계 됩니다.
 
-예시:
+예시는 다음과 같습니다:
 
 >*(단가 X 세금 비율) X 수량 = 총 판매액 세금*
 
@@ -184,6 +184,6 @@ Microsoft Corporation에서 대금 청구를 수행 하는 경우 ([청구서 �
   
 ## <a name="related-articles"></a>관련 문서
   
-[청구서 보기](view-your-bill-or-invoice.md)
+[청구서 또는 송장 보기](view-your-bill-or-invoice.md)
   
-[요금 청구 방식](understand-your-invoice.md)
+[청구서 또는 송장 이해](understand-your-invoice.md)

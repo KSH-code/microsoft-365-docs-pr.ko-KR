@@ -1,5 +1,5 @@
 ---
-title: 비즈니스에 대 한 Microsoft 365의 청구서 이해
+title: 비즈니스에 대 한 Microsoft 365의 청구서 또는 송장 이해
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -23,15 +23,15 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
-description: Microsoft 365 비즈니스 송장의 청구 금액, 대금 청구 및 지불 정보를 해석 하는 방법과 구매 주문 번호를 변경 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5cb2f961fa11f25e160ddd978783c7744776307e
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+description: Microsoft 365의 비즈니스 청구서 또는 송장에 대 한 청구 금액, 비용 및 지불 정보를 해석 하는 방법과 구매 주문 번호를 변경 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: bd0204deb34d1fe08ec6391c24df5ab6fe6cc6d6
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045815"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232796"
 ---
-# <a name="understand-your-invoice-for-microsoft-365-for-business"></a>비즈니스에 대 한 Microsoft 365의 청구서 이해
+# <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>비즈니스에 대 한 Microsoft 365의 청구서 또는 송장 이해
 
 매월 관리 센터에서 새 청구 내역을 사용할 수 있음을 알리는 전자 메일을 받을 수 있습니다. [청구서 또는 송장을 찾아서 보는 방법을 알아봅니다](view-your-bill-or-invoice.md).
   
@@ -104,7 +104,7 @@ ms.locfileid: "44045815"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
 
 2. **테이블** 보기인 경우 **카드** 를 선택 하 여 보기를 전환 합니다.
 

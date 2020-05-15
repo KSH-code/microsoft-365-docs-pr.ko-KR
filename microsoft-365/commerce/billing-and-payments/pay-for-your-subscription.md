@@ -24,19 +24,19 @@ description: 비즈니스에 대 한 Microsoft 365 구독을 결제 하는 데 �
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
-ms.openlocfilehash: 613bb0fcc776b65090ee66faf6dc0516987947b2
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: a1ee158079e30348c3b1f9f26ef0b62160bf9544
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140874"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232878"
 ---
 # <a name="pay-for-your-subscription"></a>구독 결제
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -58,7 +58,7 @@ ms.locfileid: "44140874"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
 
 2. 미지불 잔액이 있는 구독을 찾습니다. **청구** 섹션에서 **구독에 기한 경과 결제가 있음** 옆에 있는 **잔액 결제**를 선택합니다.
 
@@ -108,7 +108,7 @@ ms.locfileid: "44140874"
 죄송합니다. 구독을 송장으로 결제하도록 설정한 경우 온라인으로 직접 결제할 수 없습니다. 그러나 [결제 방법을 신용 카드 또는 은행 계좌로 변경](change-payment-method.md)할 수 있으며 각 서비스 기간이 경과한 후에 지불 총액이 카드 또는 계좌로 자동으로 청구됩니다. Azure 구독의 경우 [Azure 구독 결제에 사용하는 신용 카드를 변경하는 방법](https://go.microsoft.com/fwlink/p/?LinkId=718057)을 참조하세요.
 
 > [!NOTE]
-> 자동 신용 카드 결제로 전환할 경우 먼저 모든 미지불 잔액을 완납해야 합니다. 청구서에서 결제 옵션 및 지침을 확인하세요. 자세한 내용은 [송장 이해](understand-your-invoice2.md)를 참조하세요.
+> 자동 신용 카드 결제로 전환할 경우 먼저 모든 미지불 잔액을 완납해야 합니다. 청구서에서 결제 옵션 및 지침을 확인하세요. 자세한 내용은 [청구서 또는 송장 이해](understand-your-invoice2.md)를 참조 하세요.
 
 ### <a name="where-do-i-send-my-check-or-eft-payment"></a>수표 또는 EFT 결제를 어디로 보내야 하나요?
 
@@ -313,4 +313,4 @@ ms.locfileid: "44140874"
 
 [신용 카드 또는 은행 계좌 추가, 업데이트 또는 제거](add-update-or-remove-credit-card-or-bank-account.md)
 
-[요금 청구 방식](understand-your-invoice2.md)
+[청구서 또는 송장 이해](understand-your-invoice2.md)

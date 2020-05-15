@@ -23,19 +23,19 @@ search.appverid:
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: 비즈니스용 Microsoft 365에 대 한 대금 청구 주소를 업데이트 하는 방법을 알아봅니다. 또한 대금 청구 알림을 수신 하는 데 사용 되는 전자 메일 주소를 업데이트할 수 있습니다.
 ms.custom: okr_SMB
-ms.openlocfilehash: 09f4ef95c9f8ab3dcce3b3a2511c5e407539020e
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 87a9540218f7ef4bef48154930b62bddab7b54e8
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140926"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232890"
 ---
 # <a name="change-your-billing-addresses"></a>대금 청구 주소 변경
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -51,13 +51,13 @@ ms.locfileid: "44140926"
   
 ::: moniker range="o365-worldwide"
 
-청구서 또는 송장에 대 한 자세한 내용은 청구서 [또는 송장 보기](view-your-bill-or-invoice.md) 및 [청구서 이해](understand-your-invoice2.md)를 참조 하세요.
+청구서 또는 송장에 대 한 자세한 내용은 청구서 또는 [송장 보기](view-your-bill-or-invoice.md) 및 [청구서 또는 송장 이해](understand-your-invoice2.md)를 참조 하세요.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-청구서 또는 송장에 대 한 자세한 내용은 청구서 [또는 송장 보기](view-your-bill-or-invoice.md) 및 [청구서 이해](understand-your-invoice2.md)를 참조 하세요.
+청구서 또는 송장에 대 한 자세한 내용은 [청구서 또는 송장 보기](view-your-bill-or-invoice.md) 및 청구서 결제를 [이해](understand-your-invoice2.md)를 참조 하세요.
 
 ::: moniker-end
 
@@ -128,7 +128,7 @@ ms.locfileid: "44140926"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
 
 2. 변경 하려는 구독을 찾습니다. **& 작업 설정** 섹션에서 **서비스 사용 주소 편집**을 선택 합니다.
 
@@ -204,7 +204,7 @@ ms.locfileid: "44140926"
 
 [청구서 또는 송장 보기](view-your-bill-or-invoice.md)
 
-[요금 청구 방식](understand-your-invoice2.md)
+[청구서 또는 송장 이해](understand-your-invoice2.md)
 
 [구독 요금 결제](pay-for-your-subscription.md)
 

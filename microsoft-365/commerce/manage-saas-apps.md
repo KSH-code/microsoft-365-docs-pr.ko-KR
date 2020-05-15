@@ -13,19 +13,19 @@ ms.collection:
 - commerce
 search.appverid: MET150
 description: Microsoft 365 관리 센터에서 타사 앱을 활성화 하 고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: eb2826a4b0c69d61eb35a9dfff37e9dc2dd6ad71
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 3e6d77eec71ca1137e0aaf44b62d198d9c87b0c5
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141191"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232748"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>조직에 대 한 타사 앱 구독 관리
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -67,7 +67,7 @@ ms.locfileid: "44141191"
 
 관리자는 타사 앱을 사용자에 게 할당 하기 전에 정품 인증을 받아야 합니다. 이러한 앱은 타사 게시자 포털에서 활성화 됩니다.
 
-1. 관리 센터에서**제품** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">앱</a> **대금 청구** > 페이지로 이동 합니다.
+1. 관리 센터에서 **Billing**  >  **제품**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">앱</a> 대금 청구 페이지로 이동 합니다.
 2. 관리 하려는 앱을 찾아 선택 합니다.
 3. **작업 설정 &** 에서 **Publisher 포털에서 관리**를 선택 합니다.
 
@@ -89,7 +89,7 @@ ms.locfileid: "44141191"
 
 관리자는 타사 앱을 사용자에 게 할당 하기 전에 정품 인증을 받아야 합니다. 타사 게시자 포털에서 활성화 됩니다. 앱 페이지의 **설정 & 작업**에서 라이선스를 할당 하는 링크를 선택 합니다.
 
-1. 관리 센터에서**제품** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">앱</a> **대금 청구** > 페이지로 이동 합니다.
+1. 관리 센터에서 **Billing**  >  **제품**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">앱</a> 대금 청구 페이지로 이동 합니다.
 2. 관리 하려는 앱을 찾아 선택 합니다.
 3. **작업 설정 &** 에서 **Publisher 포털에서 관리할**링크를 선택 합니다.
 
@@ -97,7 +97,7 @@ ms.locfileid: "44141191"
 
 관리자는 조직에서 소유한 라이선스 수를 변경할 수 있습니다. 이는 사용자의 중심 가격을 사용 하 여 구매한 앱에만 적용 됩니다.
 
-1. 관리 센터에서**제품** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">앱</a> **대금 청구** > 페이지로 이동 합니다.
+1. 관리 센터에서 **Billing**  >  **제품**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">앱</a> 대금 청구 페이지로 이동 합니다.
 2. 관리 하려는 앱을 찾아 선택 합니다.
 3. **라이선스 수량 변경을**선택 합니다.
 
@@ -113,16 +113,16 @@ ms.locfileid: "44141191"
 
 ### <a name="change-the-billing-profile-on-a-software-as-a-service-app-subscription"></a>서비스를 사용 하는 소프트웨어 앱 구독에서 대금 청구 프로필 변경
 
-1. 관리 센터에서**제품** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">앱</a> **대금 청구** > 페이지로 이동 합니다.
+1. 관리 센터에서 **Billing**  >  **제품**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">앱</a> 대금 청구 페이지로 이동 합니다.
 2. 관리 하려는 앱을 찾아 선택 합니다.
 3. **청구 프로필**옆에서 **편집**을 선택 합니다.
 
-송장에 대 한 자세한 내용은 [청구서 이해](billing-and-payments/understand-your-invoice.md)를 참조 하세요.
+송장에 대 한 자세한 내용은 [청구서 또는 송장 이해](billing-and-payments/understand-your-invoice.md)를 참조 하세요.
 
 ## <a name="cancel-a-software-as-a-service-app-subscription"></a>서비스를 사용 하는 소프트웨어 앱 구독 취소
 
 앱 페이지에서 서비스를 통해 소프트웨어 앱을 취소할 수 있습니다.
 
-1. 관리 센터에서**제품** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">앱</a> **대금 청구** > 페이지로 이동 합니다.
+1. 관리 센터에서 **Billing**  >  **제품**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">앱</a> 대금 청구 페이지로 이동 합니다.
 2. 관리 하려는 앱을 찾아 선택 합니다.
 3. **작업 설정 &** 에서 **구독 취소**를 선택 합니다.

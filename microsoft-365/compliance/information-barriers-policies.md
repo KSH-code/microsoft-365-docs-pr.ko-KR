@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: Microsoft 팀에서 정보 장벽에 대 한 정책을 정의 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c81fedddf5e3553ec4b24353fac43079305c5b2
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 41d56927f3f9c22782b10640330ca9d0167402d2
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035044"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232057"
 ---
 # <a name="define-information-barrier-policies"></a>정보 장벽 정책 정의
 
@@ -72,7 +72,7 @@ ms.locfileid: "44035044"
 
 - 주소록 정책 없음-정보 장벽 정책을 정의 하 고 적용 하기 전에 Exchange 주소록 정책이 없는지 확인 합니다. 정보 장애물은 주소록 정책에 기반을 둔 반면 두 가지 종류의 정책은 서로 호환 되지 않습니다. 이러한 정책이 있는 경우 먼저 주소록 [정책을 제거](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) 해야 합니다. 정보 장벽 정책이 사용 하도록 설정 되 고 계층 구조 주소록을 사용 하도록 설정 하면 정보 장벽 세그먼트에 ***포함 되지*** 않은 모든 사용자에 게 Exchange online의 [계층 구조](https://docs.microsoft.com/exchange/address-books/hierarchical-address-books/hierarchical-address-books) 주소록이 표시 됩니다.
 
-- PowerShell-현재 정보 장벽 정책은 PowerShell cmdlet을 사용 하 여 Office 365 보안 & 준수 센터에서 정의 되 고 관리 됩니다. 이 문서에서는 몇 가지 예를 제공 했지만 PowerShell cmdlet 및 매개 변수에 익숙해져야 합니다. AzureRM 모듈도 필요 합니다.
+- PowerShell-현재 정보 장벽 정책은 PowerShell cmdlet을 사용 하 여 Office 365 보안 & 준수 센터에서 정의 되 고 관리 됩니다. 이 문서에서는 몇 가지 예를 제공 했지만 PowerShell cmdlet 및 매개 변수에 익숙해져야 합니다. Azure PowerShell 모듈도 필요 합니다.
     - [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
     - [Azure PowerShell 모듈 설치](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-2.3.2)
 
@@ -81,10 +81,10 @@ ms.locfileid: "44035044"
    1. 다음 PowerShell cmdlet을 실행 합니다.
 
       ```powershell
-      Login-AzureRmAccount 
+      Login-AzAccount 
       $appId="bcf62038-e005-436d-b970-2a472f8c1982" 
-      $sp=Get-AzureRmADServicePrincipal -ServicePrincipalName $appId
-      if ($sp -eq $null) { New-AzureRmADServicePrincipal -ApplicationId $appId }
+      $sp=Get-AzADServicePrincipal -ServicePrincipalName $appId
+      if ($sp -eq $null) { New-AzADServicePrincipal -ApplicationId $appId }
       Start-Process  "https://login.microsoftonline.com/common/adminconsent?client_id=$appId"
       ```
 
@@ -213,13 +213,13 @@ ms.locfileid: "44035044"
 
     |구문과  |예제  |
     |---------|---------|
-    |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name"`     |`New-InformationBarrierPolicy -Name "Manufacturing-HR" -AssignedSegment "Manufacturing" -SegmentsAllowed "HR" -State Inactive` <p>    이 예에서는 *manufacturing*이라는 세그먼트에 대해 *제조-HR* 이라는 정책을 정의 했습니다. 이 정책을 사용 하면 *제조* 중인 사용자가 *HR*이라는 세그먼트에 있는 사용자와만 통신할 수 있습니다. (이 경우, *Manufacturing* 은 *HR*에 속하지 않는 사용자와 통신할 수 없습니다.)         |
+    |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name","segment1name"`     |`New-InformationBarrierPolicy -Name "Manufacturing-HR" -AssignedSegment "Manufacturing" -SegmentsAllowed "HR","Manufacturing" -State Inactive` <p>    이 예에서는 *manufacturing*이라는 세그먼트에 대해 *제조-HR* 이라는 정책을 정의 했습니다. 이 정책을 사용 하면 *제조* 중인 사용자가 *HR*이라는 세그먼트에 있는 사용자와만 통신할 수 있습니다. (이 경우, *Manufacturing* 은 *HR*에 속하지 않는 사용자와 통신할 수 없습니다.)         |
 
     **필요한 경우 다음 예와 같이이 cmdlet을 사용 하 여 여러 세그먼트를 지정할 수 있습니다.**
 
     |구문과  |예제  |
     |---------|---------|
-    |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name", "segment3name"`     |`New-InformationBarrierPolicy -Name "Research-HRManufacturing" -AssignedSegment "Research" -SegmentsAllowed "HR","Manufacturing" -State Inactive` <p>이 예에서는 *조사* 세그먼트가 *HR* 및 *제조*와만 통신할 수 있도록 하는 정책을 정의 했습니다.        |
+    |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name", "segment3name","segment1name"`     |`New-InformationBarrierPolicy -Name "Research-HRManufacturing" -AssignedSegment "Research" -SegmentsAllowed "HR","Manufacturing","Research" -State Inactive` <p>이 예에서는 *조사* 세그먼트가 *HR* 및 *제조*와만 통신할 수 있도록 하는 정책을 정의 했습니다.        |
 
     특정 세그먼트가 다른 특정 세그먼트와만 통신할 수 있도록 정의 하려는 각 정책에 대해이 단계를 반복 합니다.
 
@@ -248,7 +248,7 @@ ms.locfileid: "44035044"
 
     구문과`Start-InformationBarrierPoliciesApplication`
 
-    시스템에서 정책 `Start-InformationBarrierPoliciesApplication` 적용을 시작할 때까지 30 분까지 허용을 실행 합니다. 시스템은 사용자별 정책을 사용자에 게 적용 합니다. 일반적으로 시스템은 시간당 5000 사용자 계정에 대해 프로세스를 처리 합니다.
+    `Start-InformationBarrierPoliciesApplication`시스템에서 정책 적용을 시작할 때까지 30 분까지 허용을 실행 합니다. 시스템은 사용자별 정책을 사용자에 게 적용 합니다. 일반적으로 시스템은 시간당 5000 사용자 계정에 대해 프로세스를 처리 합니다.
 
 ## <a name="view-status-of-user-accounts-segments-policies-or-policy-application"></a>사용자 계정, 세그먼트, 정책 또는 정책 응용 프로그램의 상태 보기
 
@@ -256,7 +256,7 @@ PowerShell을 사용 하 여 다음 표에 나와 있는 것 처럼 사용자 �
 
 |이를 보려면  |실행할 작업  |
 |---------|---------|
-|사용자 계정     |Identity 매개 변수와 함께 **InformationBarrierRecipientStatus** cmdlet을 사용 합니다. <p>구문과`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같은 각 사용자를 고유 하 게 식별 하는 모든 값을 사용할 수 있습니다. <p>예제: `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p>이 예에서는 Office 365의 두 사용자 계정 ( *Megan*용 *meganb* 및 *Alex*용 *alexw* )을 참조 합니다. <p>(단일 사용자에 대해이 cmdlet을 사용할 수도 있습니다. `Get-InformationBarrierRecipientStatus -Identity <value>`) <p>이 cmdlet은 특성 값 및 적용 되는 정보 장벽 정책과 같은 사용자에 대 한 정보를 반환 합니다.|
+|사용자 계정     |Identity 매개 변수와 함께 **InformationBarrierRecipientStatus** cmdlet을 사용 합니다. <p>구문과`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같은 각 사용자를 고유 하 게 식별 하는 모든 값을 사용할 수 있습니다. <p>예제: `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p>이 예에서는 Office 365의 두 사용자 계정 ( *Megan*용 *meganb* 및 *Alex*용 *alexw* )을 참조 합니다. <p>(단일 사용자에 대해이 cmdlet을 사용할 수도 있습니다. `Get-InformationBarrierRecipientStatus -Identity <value>` ) <p>이 cmdlet은 특성 값 및 적용 되는 정보 장벽 정책과 같은 사용자에 대 한 정보를 반환 합니다.|
 |세그먼트     |**OrganizationSegment** cmdlet을 사용 합니다.<p>구문과`Get-OrganizationSegment` <p>이렇게 하면 조직에 대해 정의 된 모든 세그먼트의 목록이 표시 됩니다.         |
 |정보 장벽 정책     |**InformationBarrierPolicy** cmdlet을 사용 합니다. <p> 구문과`Get-InformationBarrierPolicy` <p>이렇게 하면 정의 된 정보 장벽 정책 목록과 해당 상태가 표시 됩니다.       |
 |가장 최근 정보 장벽 정책 응용 프로그램     | **InformationBarrierPoliciesApplicationStatus** cmdlet을 사용 합니다. <p>구문과`Get-InformationBarrierPoliciesApplicationStatus`<p>    이렇게 하면 정책 응용 프로그램이 완료, 실패 또는 진행 중인지에 대 한 정보가 표시 됩니다.       |
@@ -321,7 +321,7 @@ Contoso는 다음 표에 설명 된 세 가지 정책을 정의 합니다.
 |---------|---------|
 |정책 1: 영업에서 연구와의 통신을 방지 합니다.     | `New-InformationBarrierPolicy -Name "Sales-Research" -AssignedSegment "Sales" -SegmentsBlocked "Research" -State Inactive` <p> 이 예에서 정보 장벽 정책을 *판매 조사*라고 합니다. 이 정책이 활성 상태이 고 적용 되 면 Sales 세그먼트에 있는 사용자가 리서치 세그먼트의 사용자와 통신할 수 없도록 하는 데 도움이 됩니다. 이는 단방향 정책입니다. 이로 인해 연구가 영업과의 통신을 방지할 수는 없습니다. 따라서 정책 2가 필요 합니다.      |
 |정책 2: 영업 담당자가 리서치를 진행 하지 못하도록 방지     | `New-InformationBarrierPolicy -Name "Research-Sales" -AssignedSegment "Research" -SegmentsBlocked "Sales" -State Inactive` <p> 이 예에서는 정보 장벽 정책을 *리서치-판매*라고 합니다. 이 정책이 활성화 및 적용 되 면 리서치 세그먼트에 있는 사용자가 Sales 세그먼트의 사용자와 통신할 수 없도록 하는 데 도움이 됩니다.       |
-|정책 3: 제조에서 HR 및 마케팅과의 통신만 허용     | `New-InformationBarrierPolicy -Name "Manufacturing-HRMarketing" -AssignedSegment "Manufacturing" -SegmentsAllowed "HR","Marketing" -State Inactive` <p>이 경우 정보 장벽 정책은 *제조-HRMarketing*이라고 합니다. 이 정책이 활성 상태이 고 적용 되 면 Manufacturing은 HR 및 Marketing과만 통신할 수 있습니다. HR 및 Marketing은 다른 세그먼트와 통신 하는 것이 제한 되지 않습니다. |
+|정책 3: 제조에서 HR 및 마케팅과의 통신만 허용     | `New-InformationBarrierPolicy -Name "Manufacturing-HRMarketing" -AssignedSegment "Manufacturing" -SegmentsAllowed "HR","Marketing","Manufacturing" -State Inactive` <p>이 경우 정보 장벽 정책은 *제조-HRMarketing*이라고 합니다. 이 정책이 활성 상태이 고 적용 되 면 Manufacturing은 HR 및 Marketing과만 통신할 수 있습니다. HR 및 Marketing은 다른 세그먼트와 통신 하는 것이 제한 되지 않습니다. |
 
 **InformationBarrierPoliciesApplication** cmdlet을 실행 하 여 모든 세그먼트와 정책을 정의 하 고, Contoso는 정책을 적용 합니다. 
 

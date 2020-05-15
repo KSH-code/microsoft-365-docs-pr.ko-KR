@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 description: Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는 항상 발전 하 고 있습니다. Microsoft에서는 피드백에 따라 계속 새 문서를 만들고, 기존 기사를 업데이트 하 고, 변경 작업을 수행 하 고 있습니다. 이번 달의 새로운 기능과 업데이트 된 기능에 대해 알아보세요.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6995413d6bbd068ac5e126351dc1a8fb761a0934
-ms.sourcegitcommit: ad789f1e7bf9c9dc0d45c731373e667a26ed30b1
+ms.openlocfilehash: 750165aab3612e3edb6a56f69eebf0778e141fde
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221422"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231901"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Microsoft 365 준수 콘텐츠에 대 한 최신 업데이트
 
@@ -38,14 +38,14 @@ Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는
 
 [고급 감사를 사용 하 여 손상 된 계정 조사](mailitemsaccessed-forensics-investigations.md) (신규)<br>법적 조사를 위해 새 *mail항목에 액세스* 한 사서함 감사 작업에 대 한 새로운 지침입니다.
 
-다음과 같은 여러 업데이트를 통해 [감사 로그를 검색할](search-the-audit-log-in-security-and-compliance.md)수 있습니다.
+[감사 로그 검색](search-the-audit-log-in-security-and-compliance.md) (업데이트 됨)<br>변경 내용은 다음과 같습니다.
 - 감사 레코드에 나열 된 ' app@sharepoint ' 사용자에 대 한 세부 정보가 포함 된 [새 섹션](search-the-audit-log-in-security-and-compliance.md#the-appsharepoint-user-in-audit-records) 입니다.
 - 격리 작업에 대 한 [새로운 설명](search-the-audit-log-in-security-and-compliance.md#quarantine-activities)
 - 사용자 [관리 활동](search-the-audit-log-in-security-and-compliance.md#user-administration-activities) 섹션에서 "사용자가 자체 암호를 변경 하면 셀프 서비스 암호 재설정을 통해" Change user password 이벤트가 트리거되고, 관리자가 사용자의 암호를 다시 설정할 때 "사용자 암호 재설정" 이벤트가 트리거되는 것을 명확히 설명 합니다.
 
 ### <a name="auto-expanding-archive"></a>자동 확장 보관 함
 
-[무제한 보관 개요](unlimited-archiving.md#outlook-requirements-for-accessing-items-in-an-auto-expanded-archive)(업데이트 됨)<br>사서함에서 자동 확장 보관을 사용 하도록 설정한 경우 기본 보관 함 또는 보조 보관 파일의 폴더를 삭제할 수 없다는 설명이 추가 되었습니다.
+[무제한 보관 개요](unlimited-archiving.md#outlook-requirements-for-accessing-items-in-an-auto-expanded-archive) (업데이트 됨)<br>사서함에서 자동 확장 보관을 사용 하도록 설정한 경우 기본 보관 함 또는 보조 보관 파일의 폴더를 삭제할 수 없다는 설명이 추가 되었습니다.
 
 ### <a name="compliance-scorecompliance-manager"></a>준수 점수/준수 관리자
 

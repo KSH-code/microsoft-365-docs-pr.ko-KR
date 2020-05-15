@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 5480fc33-dd47-41e7-bcfb-b2533efdb92a
 description: '비즈니스에 대 한 Microsoft 365의 주요 구독에 대 한 답변을 확인 합니다. '
-ms.openlocfilehash: 3a75f9a754bf4f983ac0aca02b380e55d80be4b9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5d5b705c8c283103c09dc13dd13b853ffb3b270b
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634995"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232808"
 ---
 # <a name="top-billing-questions-for-microsoft-365-for-business"></a>비즈니스에 대 한 Microsoft 365에 대 한 주요 대금 청구 질문
 
@@ -40,13 +40,13 @@ ms.locfileid: "43634995"
   
 ::: moniker range="o365-worldwide"
 
-청구서에 표시 되는 요금을 해석 하거나 사용 된 용어를 이해 하는 데 도움이 필요한 경우 [청구서 이해](understand-your-invoice2.md)를 참조 하세요.
+청구서에 표시 되는 요금을 해석 하거나 사용 된 용어를 이해 하는 데 도움이 필요한 경우 [청구서 또는 송장 이해](understand-your-invoice2.md)를 참조 하세요.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-청구서에 표시 되는 요금을 해석 하거나 사용 된 용어를 이해 하는 데 도움이 필요한 경우 [청구서 이해](understand-your-invoice2.md)를 참조 하세요.
+청구서에 표시 되는 요금을 해석 하거나 사용 된 용어를 이해 하는 데 도움이 필요한 경우 [청구서 또는 송장 이해](understand-your-invoice2.md)를 참조 하세요.
 
 ::: moniker-end
 
@@ -120,7 +120,7 @@ ms.locfileid: "43634995"
 
 예. 청구 내역을 전자 메일 첨부 파일로 사용 하려면 다음 단계를 수행 합니다.
   
-1. Microsoft 365 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">청구 알림</a> 페이지로 이동 하거나 **대금** \> 청구 **알림을**선택 합니다.
+1. Microsoft 365 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">청구 알림</a> 페이지로 이동 하거나 **대금** 청구 \> **알림을**선택 합니다.
 
 2. **청구서를 전자 메일 첨부 파일로 받으시겠습니까?** 아래의 토글을 **설정**으로 전환합니다.
 

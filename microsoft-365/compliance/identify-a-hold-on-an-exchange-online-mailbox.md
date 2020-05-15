@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 description: Microsoft 365 사서함에 저장할 수 있는 다양 한 유형의 보존을 식별 하는 방법을 알아봅니다. 이러한 유형의 보류에는 소송 보존, eDiscovery 보류 및 Microsoft 365 보관 정책이 포함 됩니다. 사용자가 조직 차원의 보존 정책에서 제외 되었는지 여부도 확인할 수 있습니다.
-ms.openlocfilehash: 594b8550cdd418af9551c732b78091817da7bfc3
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 12d91d987af2ba11b2d9aa417dff92adb745fb03
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208669"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232073"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Exchange Online 사서함의 보류 유형을 식별하는 방법
 
@@ -41,7 +41,8 @@ Microsoft 365에서는 조직에서 사서함 콘텐츠가 영구적으로 삭�
     - **특정 위치 보존 정책:** 이러한 정책은 특정 사용자의 콘텐츠 위치에 할당 되는 정책입니다. Exchange Online PowerShell의 **Get-Mailbox** cmdlet을 사용 하 여 특정 사서함에 할당 된 보존 정책에 대 한 정보를 가져옵니다.
 
     - **조직 전체 보존 정책:** 이러한 정책은 조직의 모든 콘텐츠 위치에 할당 되는 정책입니다. Exchange Online PowerShell에서 **set-organizationconfig** cmdlet을 사용 하 여 조직 차원의 보존 정책에 대 한 정보를 가져옵니다.
-  자세한 내용은 [Microsoft 365 보존 정책 개요](retention-policies.md#applying-a-retention-policy-to-an-entire-organization-or-specific-locations)의 "전체 조직이 나 특정 위치에 보존 정책 적용" 섹션을 참조 하십시오.
+    
+  자세한 내용은 [전체 조직이 나 특정 위치에 보존 정책 적용](create-retention-policies.md#applying-a-retention-policy-to-an-entire-organization-or-specific-locations) 섹션을 참조 하십시오.
 
 - **[Microsoft 365 보존 레이블](labels.md):** 사용자가 microsoft 365 보존 레이블 (콘텐츠를 보존 하 고 유지 한 다음 콘텐츠를 보존 하 고 사서함의 *항목에 저장)을 적용* 하는 경우 사서함이 소송 보존 상태로 설정 되거나 Microsoft 365 보관 정책에 할당 된 것 처럼 보류 됩니다. 자세한 내용은이 문서의 [폴더 또는 항목 섹션에 보존 레이블이 적용 되었기 때문에 보류 중인 사서함 확인](#identifying-mailboxes-on-hold-because-a-retention-label-has-been-applied-to-a-folder-or-item) 을 참조 하십시오.
 
@@ -55,7 +56,7 @@ Exchange Online PowerShell에서 다음 두 cmdlet을 실행 하 여 사서함�
 
 - **Set-organizationconfig:** 이 cmdlet을 사용 하 여 조직 전체 보존 정책의 Guid를 가져올 수 있습니다.
 
-Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)을 참조하세요.
+Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)를 참조하세요.
 
 ### <a name="get-mailbox"></a>Get-Mailbox
 
@@ -97,7 +98,7 @@ Get-OrganizationConfig | FL InPlaceHolds
 |Exchange 사서함, Exchange 공용 폴더 및 팀 대화방에 적용 되는 Microsoft 365 보존 정책    |      `mbx7cfb30345d454ac0a989ab3041051209:2`   |   Exchange 사서함, Exchange 공용 폴더 및 1xN 채팅에 적용 되는 조직 차원의 보존 정책은 접두사를 사용 하 여 시작 되는 Guid로 식별 됩니다 `mbx` . 참고 1xN 채팅은 개별 채팅 참가자의 사서함에 저장 됩니다.      |
 |Microsoft 365 그룹 및 팀 채널 메시지에 적용 되는 microsoft 365 보존 정책     |   `grp1a0a132ee8944501a4bb6a452ec31171:3`      |    Microsoft 팀의 Microsoft 365 그룹 및 채널 메시지에 적용 되는 조직 차원의 보존 정책은 접두사로 시작 되는 Guid로 식별 됩니다 `grp` . 참고 채널 메시지는 Microsoft 팀과 연결 된 그룹 사서함에 저장 됩니다.     |
 
-Microsoft 팀에 적용 되는 자세한 정보 보존 정책은 "팀 위치" 섹션의 [보존 정책 개요](retention-policies.md#applying-a-retention-policy-to-an-entire-organization-or-specific-locations)를 참조 하세요.
+Microsoft 팀에 적용 되는 자세한 정보 보존 정책은 "팀 위치" 섹션의 [보존 정책 개요](create-retention-policies.md#applying-a-retention-policy-to-an-entire-organization-or-specific-locations)를 참조 하세요.
 
 ### <a name="understanding-the-format-of-the-inplaceholds-value-for-retention-policies"></a>보존 정책에 대 한 InPlaceHolds 값의 형식 이해
 
@@ -117,7 +118,7 @@ InPlaceHolds 속성의 항목을 Microsoft 365 보존 정책으로 식별 하는
 |**2**    |    항목을 포함 하도록 보존 정책이 구성 되어 있음을 나타냅니다. 보존 기간이 만료 된 후에는 정책이 항목을 삭제 하지 않습니다.     |
 |**3(sp3)**     |   보존 정책이 항목을 보관 하도록 구성 되어 있고 보존 기간이 만료 된 후에 삭제 됨을 나타냅니다.      |
 
-보존 작업에 대 한 자세한 내용은 [보존 정책 개요](retention-policies.md#retaining-content-for-a-specific-period-of-time)의 "특정 기간 동안 콘텐츠 보존" 섹션을 참조 하십시오.
+보존 작업에 대 한 자세한 내용은 [보존 정책 개요](create-retention-policies.md#retaining-content-for-a-specific-period-of-time)의 "특정 기간 동안 콘텐츠 보존" 섹션을 참조 하십시오.
    
 ## <a name="step-2-use-the-guid-to-identify-the-hold"></a>2 단계: GUID를 사용 하 여 보류 식별
 
