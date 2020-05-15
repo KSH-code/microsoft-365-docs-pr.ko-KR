@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: '모든 Microsoft Information Protection 솔루션에 대한 요구 사항: 조직의 문서와 전자 메일을 분류하고 보호하기 위해 민감도 레이블을 생성, 구성 및 게시합니다.'
-ms.openlocfilehash: ea9b8d119f431079ff0558eddfae3caf0ec0fffb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 358b87fca010aa5e910337b0942df0b33ee38951
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635958"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232725"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책 생성 및 구성
 
@@ -102,13 +102,12 @@ Settings=@(
 @{key=$Languages[0];Value=$DisplayNames[0];}
 @{key=$Languages[1];Value=$DisplayNames[1];}
 @{key=$Languages[2];Value=$DisplayNames[2];})}
-Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSettings -Depth 3 -Compress)
 $TooltipLocaleSettings = [PSCustomObject]@{LocaleKey='Tooltip';
 Settings=@(
 @{key=$Languages[0];Value=$Tooltips[0];}
 @{key=$Languages[1];Value=$Tooltips[1];}
 @{key=$Languages[2];Value=$Tooltips[2];})}
-Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $TooltipLocaleSettings -Depth 3 -Compress)
+Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSettings -Depth 3 -Compress),(ConvertTo-Json $TooltipLocaleSettings -Depth 3 -Compress)
 ```
 
 ## <a name="publish-sensitivity-labels-by-creating-a-label-policy"></a>레이블 정책을 만들어 민감도 레이블 게시

@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365의 레코드 관리를 사용하여 조직의 특정 보존 일정을 파일 플랜에 적용하여 전체 콘텐츠 수명 주기를 지원하는 보존, 레코드 선언, 처리를 관리할 수 있습니다.
-ms.openlocfilehash: e4454ba5940d9a67d9f160d90d0a9db14563bcf7
-ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
+ms.openlocfilehash: 261ae3286792dde540d9bf648c15e529863091ed
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43949251"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231871"
 ---
 # <a name="records-management-in-microsoft-365"></a>Microsoft 365의 레코드 관리
 
@@ -34,7 +34,7 @@ ms.locfileid: "43949251"
 
 - **파일 플랜으로 보존 플랜을 마이그레이션 및 관리**하고 [파일 플랜 관리자](file-plan-manager.md)를 사용하여 기존 보존 플랜을 가져오거나 파일 설명자 및 확장 계층 구조로 새 플랜을 구축합니다.
 
-- **보존 및 삭제 정책 설정하기** 마지막으로 수정 또는 생성된 날짜를 비롯하여 다양한 요소를 기반으로 [보존](retention-policies.md#retaining-content-for-a-specific-period-of-time) 및 [처리](retention-policies.md#deleting-content-thats-older-than-a-specific-age) 기간을 정의합니다.
+- **레코드 레이블 내에 보존 및 삭제 정책을 설정합니다**. 마지막으로 수정 또는 생성된 날짜를 비롯하여 다양한 요소를 기반으로 [보존](create-retention-policies.md#retaining-content-for-a-specific-period-of-time) 및 [처리](create-retention-policies.md#deleting-content-thats-older-than-a-specific-age) 기간을 정의합니다.
 
 - [이벤트 기반 보존](event-driven-retention.md)을 통해 **이벤트 기반 보존을 트리거**합니다.
 
