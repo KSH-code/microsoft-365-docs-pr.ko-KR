@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 9dd9b104-68f7-4d49-9a30-82561c7d79a3
 description: 관리 센터에서 사용자 지정 지원 센터 카드를 만들고 도움말 창에 사용자 지정 되는 연락처 정보를 추가 합니다.
-ms.openlocfilehash: 2a803e339eef23025e6323ee408c4c442c90951e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: dac276290f882aa1bd9f22eb6a3306f7869f4253
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627899"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262274"
 ---
 # <a name="add-customized-help-desk-info-to-the-help-pane"></a>도움말 창에 사용자 지정 지원 센터 정보 추가
 
@@ -40,7 +40,7 @@ ms.locfileid: "43627899"
 ### <a name="create-the-custom-help-desk-card-in-the-admin-center"></a>관리 센터에서 사용자 지정 지원 센터 카드 만들기
 <a name="BKMK_HelpDeskPreview"> </a>
 
-1. 관리 센터에서 **설정** > **설정** 으로 이동 하 여 **도움말 데스크 정보** 탭을 선택 합니다.
+1. 관리 센터에서 조직 설정 **설정**으로 이동 하 여  >  **Org Settings** **도움말 데스크 정보** 탭을 선택 합니다.
     
 2. **조직 프로필** 탭에서 **사용자 지정 앱 시작 관리자 타일**을 선택 합니다.
   

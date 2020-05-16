@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb00dd4e-2d5f-4e8d-8ff4-94b2cf002bdd
 description: '사용자가 모임 및 약속을 위해 외부 사용자와 일정을 공유할 수 있도록 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 6e5a4a3a7e29dcbb6b19aeb1dd3b914ff98eb06e
-ms.sourcegitcommit: 708857a82eab3d37da1dec027399b09bd306a5dd
+ms.openlocfilehash: 5853d285508c5ed0ec4771a145912e374c191089
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/15/2020
-ms.locfileid: "44249875"
+ms.locfileid: "44262298"
 ---
 # <a name="share-calendars-with-external-users"></a>외부 사용자와 일정 공유
 
@@ -39,7 +39,7 @@ ms.locfileid: "44249875"
   
 ## <a name="enable-calendar-sharing-using-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터를 사용 하 여 일정 공유를 사용 하도록 설정
 
-1. 관리 센터에서 **설정** \> **설정**으로 이동 합니다. 
+1. 관리 센터에서 **설정** \> **조직 설정**으로 이동 합니다. 
     
 2. **서비스** 탭에서 **일정**을 선택 합니다.
   

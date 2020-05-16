@@ -1,7 +1,7 @@
 ---
 title: 영국 정부-클라우드 (G-클라우드)
 description: Crown 상업용 서비스가 Microsoft 클라우드 서비스 분류를 정부 클라우드 v. 6으로 갱신 했습니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cc6f2a8c52a5fc829a9f04c51f78cf7ea5c2f1e1
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: 5a8d0b95a0abb93eef352a442ff6c8203eda6e0e
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214502"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254181"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>영국 정부-클라우드 (G-클라우드)
 
@@ -44,10 +44,10 @@ Azure 보안 및 준수 청사진을 사용 하 여 영국 G-Cloud v6 배포를 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
 - [Azure](https://aka.ms/AzureCompliance)
-- Cloud App Security
+- Microsoft Cloud App Security
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스
+- Power 자동화 (이전 Microsoft Flow) 클라우드 서비스를 독립 실행형 서비스로 또는 Office 365 또는 Dynamics 365 브랜드 요금제 또는 suite에 포함
 - Office 365: Exchange Online, SharePoint Online 및 비즈니스용 Skype Online
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
 - 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
@@ -82,7 +82,7 @@ Microsoft 클라우드 서비스가 G-Cloud 계약 준수를 유지 하 고 있�
 
 [Azure UK G-Cloud 청사진 사용 시작](https://aka.ms/ukofficialblueprint)
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **디지털 Marketplace를 사용할 수 있는 사람은 누구 인가요?**
 

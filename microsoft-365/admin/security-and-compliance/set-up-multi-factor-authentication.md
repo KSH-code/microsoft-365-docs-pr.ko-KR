@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: 보안 기본값을 사용 하 여 사용자에 대해 multi-factor authentication을 설정 하는 방법을 알아봅니다.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 4c0df9198db8154c1aa748a68eff29dd9bf3bca1
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: c4ea6037b34d29f2d1e05e248e03e49ee6b06f56
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213013"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262378"
 ---
 # <a name="set-up-multi-factor-authentication"></a>다단계 인증 설정
   
@@ -79,7 +79,7 @@ ms.locfileid: "44213013"
 
 그러나 Microsoft 365 구독이 ADAL 또는 최신 인증을 사용 하도록 설정 되어 있는지 확인 해야 합니다.
 
-1. 최신 인증을 사용하도록 설정하려면 [관리 센터](https://go.microsoft.com/fwlink/p/?linkid=834822)의 **설정** \> **설정**을 선택하고 **서비스**탭의 목록에서 **최신 인증**을 선택합니다.
+1. 최신 인증을 사용 **하도록 설정** 하려면 [관리 센터](https://go.microsoft.com/fwlink/p/?linkid=834822)에서 \> **조직 설정** 설정을 선택 하 고 **서비스** 탭의 목록에서 **최신 인증** 을 선택 합니다.
 
 2. **최신** 인증 패널에서 **최신 인증 사용 (권장)** 상자를 선택 하 고 **변경 내용 저장**을 선택 합니다. 
 

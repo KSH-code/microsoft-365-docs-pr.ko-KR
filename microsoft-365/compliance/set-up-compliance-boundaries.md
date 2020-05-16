@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 규정 준수 경계를 사용 하 여 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어 하는 조직 내의 논리적 경계를 만듭니다. 준수 경계는 검색 권한 필터링 (규정 준수 보안 필터 라고도 함)을 사용 하 여 특정 사용자가 검색할 수 있는 사서함, SharePoint 사이트 및 OneDrive 계정을 제어 합니다.
-ms.openlocfilehash: 6bad8aaba9b9905966797c21abe211850bf805a3
-ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
+ms.openlocfilehash: da03f60be55b0ac6438adcc1648231e5b9798e56
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231851"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262571"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>EDiscovery 조사에 대 한 준수 경계 설정
 
@@ -75,19 +75,20 @@ ms.locfileid: "44231851"
   
 ## <a name="step-2-file-a-request-with-microsoft-support-to-synchronize-the-user-attribute-to-onedrive-accounts"></a>2 단계: Microsoft Support가 사용자 특성을 OneDrive 계정에 동기화 하는 요청을 파일에 포함
 
-다음 단계에서는 1 단계에서 선택한 Azure Active Directory 특성을 조직의 모든 OneDrive 계정으로 동기화 하는 Microsoft 지원 서비스에 파일을 요청 합니다. 이 동기화가 수행 되 면 1 단계에서 선택한 특성 및 값이 SharePoint의 숨겨진 관리 속성에 매핑됩니다 `ComplianceAttribute` . 이 특성을 사용 하 여 4 단계에서 OneDrive에 대 한 검색 권한 필터를 만들 수 있습니다.
+다음 단계에서는 1 단계에서 선택한 Azure Active Directory 특성을 조직의 모든 OneDrive 계정으로 동기화 하는 Microsoft 지원 서비스에 파일을 요청 합니다. 이 동기화가 수행 되 면 1 단계에서 선택한 특성 및 값이 라는 숨겨진 관리 속성에 매핑됩니다 `ComplianceAttribute` . 이 특성을 사용 하 여 4 단계에서 OneDrive에 대 한 검색 권한 필터를 만들 수 있습니다.
   
 Microsoft 지원 서비스에 요청을 제출할 때 다음 정보를 포함 합니다.
   
 - 조직의 기본 도메인 이름
-    
+
 - Azure Active Directory 특성의 이름 (1 단계)
-    
+
 - 다음은 지원 요청의 목적에 대 한 설명입니다. "비즈니스용 OneDrive에서 준수 보안 필터에 대 한 Azure Active Directory를 사용 하도록 설정 합니다." 이를 통해 요청을 구현 하는 eDiscovery 엔지니어링 팀에 요청을 라우팅할 수 있습니다.
-    
+
 엔지니어링이 변경 되 고 특성이 OneDrive에 동기화 되 면 Microsoft Support에서 변경 된 빌드 번호와 예상 배포 날짜가 전송 됩니다. 배포 프로세스는 일반적으로 지원 요청을 제출한 후 4-6 주 정도 걸립니다.
   
- **중요:** 변경 내용이 배포 될 때까지 3 단계부터 5 단계까지 완료할 수 있습니다. 하지만 콘텐츠 검색을 실행 해도 변경 내용을 배포할 때까지 검색 권한 필터에 지정 된 OneDrive 사이트의 문서가 반환 되지 않습니다. 
+> [!IMPORTANT]
+> 이 특성 변경 내용이 배포 될 때까지 3 단계부터 5 단계까지 완료할 수 있습니다. 하지만 콘텐츠 검색을 실행 해도 변경 내용을 배포할 때까지 검색 권한 필터에 지정 된 OneDrive 사이트의 문서가 반환 되지 않습니다.
   
 ## <a name="step-3-create-a-role-group-for-each-agency"></a>3 단계: 각 에이전시에 대 한 역할 그룹 만들기
 

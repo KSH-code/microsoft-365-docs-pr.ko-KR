@@ -1,5 +1,5 @@
 ---
-title: 기본 제공 분류자 사용 (미리 보기)
+title: 보존 레이블을 사용 하 여 기본 제공 분류자 테스트 (미리 보기)
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,16 +14,21 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에는 조직 전체에서 콘텐츠를 식별 하 고 레이블을 지정 하는 데 사용할 수 있는 다양 한 기본 제공 분류자가 제공 됩니다. 이 항목에서는 이러한 분류자 사용을 준비 하는 방법을 보여 줍니다.
-ms.openlocfilehash: 2bd36ac42278cfe7b015d03caf2d9e1958908f8f
-ms.sourcegitcommit: 13f28aa762e467bab8ab1e95e1917b3ac28931da
+ms.openlocfilehash: fad35d72c4c40c7b79cba4cb286ccc0f5bb5ab8d
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43193506"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262549"
 ---
-# <a name="using-a-built-in-classifier-preview"></a>기본 제공 분류자 사용 (미리 보기)
+# <a name="testing-built-in-classifiers-using-retention-labels-preview"></a>보존 레이블을 사용 하 여 기본 제공 분류자 테스트 (미리 보기)
 
-Microsoft는 특정 콘텐츠 범주를 식별 하는 데 도움이 될 수 있는 매우 큰 예제 데이터 집합을 사용 하 여 다섯 개의 분류자를 교육 하 고 테스트 했습니다. [Trainable 분류자 (미리 보기) 시작을](classifier-getting-started-with.md)참조 하세요. 이러한 분류자는 `Ready to use` 기본적으로 그룹에 표시 됩니다.
+Microsoft는 특정 콘텐츠 범주를 식별 하는 데 도움이 될 수 있는 다섯 가지 분류자를 교육 하 고 테스트 했습니다. 이러한 분류자는 `Ready to use` 기본적으로 그룹에 표시 되며 매우 큰 예제 데이터 집합을 사용 하 여 교육을 받은 것입니다.
+
+> [!IMPORTANT]
+> 분류 및 레이블 지정 워크플로에 기본 제공 분류자를 사용 하기 전에 분류 예측이 예상과 맞는지 확인 하기 위해 범주에 적합 한 조직의 콘텐츠 샘플에서이를 테스트 해야 합니다.
+
+Trainable 분류자에 대 한 자세한 내용은 [trainable 분류자 (preview) 시작](classifier-getting-started-with.md)을 참조 하십시오.
 
 Microsoft 365에는 다음과 같이 권장 되는 5 가지 기본 제공 분류자가 있습니다.
 
@@ -45,13 +50,10 @@ Microsoft 365에는 다음과 같이 권장 되는 5 가지 기본 제공 분류
 - **불경**: 대부분의 사용자를 embarrass 하는 식이 포함 된 공격적인 언어 텍스트 항목의 특정 범주를 감지 합니다.
 - **위협**: 사용자 또는 속성에 대 한 폭력을 커밋하거나 물리적인 손상을 주거나 위협에 관련 된 비속어 텍스트 항목의 특정 범주를 감지 합니다.
 
-> [!NOTE]
-> 분류 및 레이블 지정 워크플로에 기본 제공 분류자를 사용 하기 전에 분류 예측이 예상과 맞는지 확인 하기 위해 범주에 적합 한 조직의 콘텐츠 샘플에서이를 테스트 해야 합니다.
-
 > [!IMPORTANT]
 > 비속어, harassment, 비속어 및 threat 분류자는 검색 가능한 텍스트만 사용할 수 있습니다. 추가적으로, 언어 및 문화 표준이 지속적으로 변경 되 고 이러한 현실에 따라 Microsoft는 이러한 분류자를 업데이트할 수 있는 권리를 보유 합니다. 이 분류자는 사용 중인 공격적인 및 기타 언어를 모니터링 하는 데 도움이 될 수 있지만, 이러한 언어의 결과를 해결 하는 것이 아니므로 조직의 해당 언어 사용에 대 한 다양 한 모니터링 또는 대응 수단을 제공 하기 위한 것이 아닙니다. Microsoft 또는 해당 자회사가 아닌 조직은 미리 훈련 된 분류자로 식별 되는 콘텐츠의 모니터링, 적용, 차단, 제거 및 보존과 관련 된 모든 결정을 계속 담당 합니다.
 
-## <a name="how-to-prepare-for-and-use-a-built-in-classifier"></a>기본 제공 분류자를 준비 하 고 사용 하는 방법
+## <a name="how-to-verify-that-a-built-in-classifier-will-meet-your-needs"></a>기본 제공 분류자가 사용자의 요구를 충족 하는지 확인 하는 방법
 
 1. 테스트 중인 범주에서 기본 제공 분류자의 범주 (긍정 일치) 및 포함 되지 않은 항목 (음수 일치)이 있는 삭제 가능한 테스트 콘텐츠를 수집 합니다.
 
@@ -60,19 +62,19 @@ Microsoft 365에는 다음과 같이 권장 되는 5 가지 기본 제공 분류
 
 2. 전용 SharePoint Online 폴더를 만듭니다. 폴더를 검색 인덱스에 추가할 때까지 적어도 1 시간 이상 기다립니다. 폴더 URL을 기록해 둡니다.
 
-3. 준수 관리자 또는 보안 관리자 역할 액세스를 사용 하 여 microsoft 365 준수 센터에 로그인 하 고 **microsoft 365 준수 센터** > **레코드 관리 (미리 보기)** > **레이블 정책** 탭을 엽니다.
+3. 준수 관리자 또는 보안 관리자 역할 액세스를 사용 하 여 microsoft 365 준수 센터에 로그인 하 고 **microsoft 365 준수 센터**  >  **레코드 관리 (미리 보기)**  >  **레이블 정책** 탭을 엽니다.
 
-4. 을 `Auto-apply a label`선택 합니다.
+4. `Auto-apply a label`을 선택 합니다.
 
-5. 을 `Choose a label to auto-apply`선택 합니다.
+5. `Choose a label to auto-apply`을 선택 합니다.
 
-6. 이 `Create new labels` 테스트에만 사용할 레이블을 선택 하 고 만듭니다. 이렇게 하면 설정 해제로 유지 `Retention` 됩니다. 보존 또는 기타 작업을 설정 하지 않으려고 합니다. 이 경우에는 작업을 적용 하지 않고 보존 레이블을 단순히 텍스트 레이블로 사용 합니다. 예를 들어 작업 없이 "SourceCode 분류자 test" 라는 보존 레이블을 만든 다음 해당 보존 레이블을 조건으로 소스 코드 분류자가 있는 콘텐츠에 자동으로 적용할 수 있습니다. 보존 레이블 만들기에 대 한 자세한 내용은 [Overview (보존 레이블](labels.md))를 참조 하십시오.
+6. `Create new labels`이 테스트에만 사용할 레이블을 선택 하 고 만듭니다. 이 경우 `Retention` 로를로 설정 `off` 합니다. 보존 또는 기타 작업을 설정 하지 않으려고 합니다. 이 경우에는 작업을 적용 하지 않고 보존 레이블을 단순히 텍스트 레이블로 사용 합니다. 예를 들어 작업 없이 "SourceCode 분류자 test" 라는 보존 레이블을 만든 다음 해당 보존 레이블을 조건으로 소스 코드 분류자가 있는 콘텐츠에 자동으로 적용할 수 있습니다. 보존 레이블 만들기에 대 한 자세한 내용은 [Overview (보존 레이블](labels.md))를 참조 하십시오.
   
-7. 을 `Auto-apply a label` 선택 하 `Choose a label to auto-apply`고을 클릭 합니다. 조건 기반 자동 적용 레이블을 사용 하는 방법에 대 한 자세한 내용은 [조건에 따라 보존 레이블 정책 자동 적용](labels.md#applying-a-retention-label-automatically-based-on-conditions)을 참조 하십시오.
+7. `Auto-apply a label`을 선택 하 고을 클릭 `Choose a label to auto-apply` 합니다. 조건 기반 자동 적용 레이블을 사용 하는 방법에 대 한 자세한 내용은 [조건에 따라 보존 레이블 정책 자동 적용](labels.md#applying-a-retention-label-automatically-based-on-conditions)을 참조 하십시오.
 
-8. 목록에서 테스트 레이블을 선택 하 고를 선택 `Next`합니다.
+8. 목록에서 테스트 레이블을 선택 하 고를 선택 `Next` 합니다.
 
-9. 을 `Apply label to content that matches a trainable classifier`선택 합니다.
+9. `Apply label to content that matches a trainable classifier`을 선택 합니다.
 
 ![조건으로 분류자 선택](../media/classifier-pre-trained-apply-label-match-trainable-classifier.png).
 
@@ -80,9 +82,9 @@ Microsoft 365에는 다음과 같이 권장 되는 5 가지 기본 제공 분류
 
 11. 정책 이름 (예: "소스 코드 기본 제공 분류자 test")을 사용 합니다.
 
-12. 을 `Let me choose specific locations`선택 합니다.
+12. `Let me choose specific locations`을 선택 합니다.
 
-13. 를 제외한 `SharePoint sites` 모든 위치를 해제 하 `Choose sites`고를 선택 합니다.
+13. 를 제외한 모든 위치 `SharePoint sites` 를 해제 하 고를 선택 `Choose sites` 합니다.
 
 14. 2 단계에 해당 하는 사이트의 URL을 입력 합니다.
 

@@ -1,7 +1,7 @@
 ---
 title: 가족 교육 기관 권한 및 FERPA (개인 정보 취급 방침)
 description: Microsoft는 미국 가족 교육 기관 권리 및 개인 정보 취급 방침의 요구 사항을 충족 합니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6685a542ac082b97ec771bb14481eecf212f4898
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: c7d3120f7094e91157c5a20df435c1c1438677bf
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066371"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254271"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>가족 교육 기관 권한 및 FERPA (개인 정보 취급 방침)
 
@@ -49,7 +49,7 @@ FERPA는 감사 또는 기타 인증을 요구 하거나 인식 하지 않으므
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
 - [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Power BI, PowerApps 및 Microsoft가 독립 실행형 서비스로 또는 Office 365 브랜드 요금제 또는 suite에 포함 된 것으로 이동
+- Power BI, PowerApps 및 Power 자동화 (이전의 Microsoft Flow)를 독립 실행형 서비스로 또는 Office 365 브랜드 요금제 또는 suite에 포함
 - Azure DevOps Services
 - Windows Defender ATP
 

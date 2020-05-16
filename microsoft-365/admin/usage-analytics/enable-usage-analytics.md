@@ -19,19 +19,19 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Power BI의 Microsoft 365 사용 현황 분석 서식 파일 앱을 사용 하 여 테 넌 트에 대 한 데이터 수집을 시작 하는 방법을 알아봅니다.
-ms.openlocfilehash: 386b64b1db15ba9f00450ac037a74bfc702e95ea
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 3c5e1a35b93b755b92710f0499599d849a6c251c
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140686"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262538"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석을 사용하도록 설정
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -63,7 +63,7 @@ Power BI가 아직 없는 경우 [POWER Bi Pro에 등록할](https://go.microsof
     
 2. **사용 현황** 페이지에서 **Microsoft 365 사용 현황 분석** 카드를 찾고 **시작**을 선택 합니다.
     
-3. 열리는 보고서 패널에서 **데이터를 Power BI에 대 한 Microsoft 365 사용 현황 분석** **에서** \> **저장할**수 있도록 설정 합니다. 
+3. 열리는 보고서 패널에서 **데이터를 Power BI에 대 한 Microsoft 365 사용 현황 분석에서 저장할 수 있도록** 설정 **On** \> **Save**합니다. 
   
 이는 데이터 수집 프로세스를 시작 하 여 테 넌 트의 크기에 따라 2 ~ 48 시간 이내에 완료 됩니다. 데이터 수집이 완료 되 면 **POWER BI로 이동** 단추를 사용할 수 있게 됩니다 (더 이상 회색 없음). 
     
@@ -75,7 +75,7 @@ Power BI가 아직 없는 경우 [POWER Bi Pro에 등록할](https://go.microsof
     
 2.  Power BI로 이동하면 로그인합니다. 앱-탐색 메뉴에서 앱 가져오기 >선택 합니다.    
   
-3. **앱** 탭의 검색 상자에 microsoft 365을 입력 한 다음 **microsoft 365 사용 현황 분석** \> 을 선택 하 여 **지금 다운로드**합니다.
+3. **앱** 탭의 검색 상자에 microsoft 365을 입력 한 다음 **microsoft 365 사용 현황 분석** 을 선택 하 여 \> **지금 다운로드**합니다.
 
     [![지금 받기 선택](../../media/78102250-9874-4a32-8365-436f13560b52.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics)
     
@@ -83,9 +83,9 @@ Power BI가 아직 없는 경우 [POWER Bi Pro에 등록할](https://go.microsof
 
 5.  샘플 데이터를 사용 하 여 앱을 보려면 **앱 탐색** 을 클릭 합니다. **연결** 을 클릭 하 여 조직의 데이터에 앱을 연결 합니다.
 
-6.  **연결**을 클릭 한 후 **Microsoft 365 usage analytics에 연결** 화면에서 \> **다음**단계에서 복사한 테 넌 트 Id를 입력 합니다 (1).
+6.  **연결**을 클릭 한 후 **Microsoft 365 Usage analytics에 연결** 화면에서 다음 단계에서 복사한 테 넌 트 Id를 입력 합니다 (1) \> **Next**.
     
-7. 다음 화면에서 **인증 방법** \> **로그인**으로 **oAuth2** 을 선택 합니다. 다른 인증 방법을 선택 하는 경우에는 서식 파일 앱에 대 한 연결이 실패 하 게 됩니다.
+7. 다음 화면에서 **인증 방법** 로그인으로 **oAuth2** 을 선택 합니다 \> **Sign in**. 다른 인증 방법을 선택 하는 경우에는 서식 파일 앱에 대 한 연결이 실패 하 게 됩니다.
     
     ![Choose oAuth2 as authentication method](../../media/ac85a360-c278-4c60-8aa3-68f4828f1d96.png)
   
@@ -97,7 +97,7 @@ Power BI가 아직 없는 경우 [POWER Bi Pro에 등록할](https://go.microsof
 
 모든 보고서에 대해 수집되는 데이터를 익명으로 만들려면 글로벌 관리자여야 합니다. 이렇게 하면 보고서의 사용자, 그룹 및 사이트 이름과 같은 식별 가능한 정보와 서식 파일 앱이 숨겨집니다.
   
-1. 관리 센터에서 **설정** \> **설정**으로 이동 하 여 **서비스** 탭에서 **보고서**를 선택 합니다.
+1. 관리 센터에서 조직 설정 **설정** 으로 이동 하 \> **Org Settings**고 **서비스** 탭에서 **보고서**를 선택 합니다.
     
 2. **보고서**를 선택 하 고 **익명 식별자를 표시**하도록 선택 합니다. 이 설정은 사용 현황 보고서와 서식 파일 앱에 모두 적용 됩니다.
   

@@ -15,14 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 02/21/2020
+ms.date: 05/15/2020
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4e6dfaa8a6a2a0157e9274c7b25dae6e7aed2395
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 83ae99a75e3c3aa8d109766418abcf0888b8cbf4
+ms.sourcegitcommit: 76edb413cbd7436252075ea7e314f5e1d07d8d55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036587"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44267170"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Office 365 ATP의 새로운 기능
 
@@ -35,6 +35,10 @@ ms.locfileid: "44036587"
 > [!TIP]
 > 아직 Office 365 ATP가 없습니까? [영업 담당자에 게 문의 하 여 평가판을 시작](https://go.microsoft.com/fwlink/p/?LinkId=518644)합니다.
 
+## <a name="marchapril-2020"></a>3 월/4 월 2020
+
+- 이제 [자동 조사 및 응답을 통해 손상 된 사용자 계정을 처리할](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) 수 있는 기능이 일반적으로 제공 됩니다.
+
 ## <a name="januaryfebruary-2020"></a>1 월/2 월 2020 일
 
 - [Office 365 ATP의 일반 캠페인 보기 가용성](campaigns.md)
@@ -46,7 +50,7 @@ ms.locfileid: "44036587"
     - 고급 필터 (포함 하지 않는 고급 필터링 옵션, 포함 하지 않음 등)
     - 자세한 시간 필터 (일, 시간, 30 분) 
 
-- **문제** 위젯은 이제 **동작 센터** 위젯입니다. 보안 위젯을 보려면 보안 & 준수 센터에서 **위협 관리** > **검토**로 이동 합니다.
+- **문제** 위젯은 이제 **동작 센터** 위젯입니다. 보안 위젯을 보려면 보안 & 준수 센터에서 **위협 관리**  >  로 이동 합니다. **검토**합니다.
 
 - [Microsoft 365의 안전한 문서](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(미리 보기)**
 

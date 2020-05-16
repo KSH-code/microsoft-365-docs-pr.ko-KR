@@ -20,19 +20,19 @@ search.appverid:
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: '앱 시작 관리자에 사용자 지정 타일을 추가 하 여 전자 메일, 문서, 앱, SharePoint 사이트, 외부 사이트 및 기타 리소스에 대 한 빠른 연결을 만듭니다. '
-ms.openlocfilehash: 2c0a1cbd2f7c605bc03a55787266c7a627f8e329
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: f099eabef7a22e9ebd8f20b23ccd3d8da142f07f
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139724"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262366"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>앱 시작 관리자에 사용자 지정 타일 추가
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -44,7 +44,7 @@ Microsoft 365에서는 앱 시작 관리자를 사용 하 여 전자 메일, 일
   
 ## <a name="add-a-custom-tile-to-the-app-launcher"></a>앱 시작 관리자에 사용자 지정 타일 추가
 
-1. 관리 센터에서 **설정** > **설정** 으로 이동 하 여 **조직 프로필** 탭을 선택 합니다.
+1. 관리 센터에서 **설정**  >  **조직 설정** 으로 이동 하 여 **조직 프로필** 탭을 선택 합니다.
     
 2. **조직 프로필** 탭에서 **사용자 지정 앱 시작 관리자 타일**을 선택 합니다.
   
@@ -76,7 +76,7 @@ Microsoft 365에서는 앱 시작 관리자를 사용 하 여 전자 메일, 일
   
 ## <a name="edit-or-delete-a-custom-tile"></a>사용자 지정 타일 편집 또는 삭제
 
-1. 관리 센터에서 **설정** > **설정** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2067339" target="_blank">조직 프로필</a> 탭으로 이동 합니다.
+1. 관리 센터에서 **Settings**  >  **Org settings**  >  **조직 프로필** 설정 탭으로 이동 </a> 합니다.
     
 2. **조직 프로필** 페이지에서 **조직의 사용자 지정 타일 추가**옆에 있는 **편집**을 선택 합니다.
 
@@ -84,7 +84,7 @@ Microsoft 365에서는 앱 시작 관리자를 사용 하 여 전자 메일, 일
     
 4. **업데이트** \> **닫기를**선택 합니다. 
     
-사용자 지정 타일을 삭제 하려면 **사용자 지정 타일** 창에서 타일을 선택 하 고 **타일** > **삭제**제거를 선택 합니다. 
+사용자 지정 타일을 삭제 하려면 **사용자 지정 타일** 창에서 타일을 선택 하 고 **타일**  >  **삭제**제거를 선택 합니다. 
   
 ## <a name="whats-next"></a>다음 작업
 

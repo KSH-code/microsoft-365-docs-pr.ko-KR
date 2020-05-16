@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Microsoft 365의 기본 테마를 변경 하 고 회사 로고나 색과 일치 하도록 사용자 지정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: cfde26e2b7f6d74a59b7431091fbc3c2f6049ec6
-ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
+ms.openlocfilehash: 3674c26be50d622364a4dc077a85eaa974d71fcd
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44022123"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262332"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>조직에 대 한 Microsoft 365 테마 사용자 지정
 
@@ -34,7 +34,7 @@ Microsoft 365 관리 센터에서 테마를 사용자 지정 하는 방법에 �
   
 ## <a name="customize-your-theme-in-the-admin-center"></a>관리 센터에서 테마 사용자 지정
 
-1. 관리 센터에서 **설정** \> **설정**으로 이동한 다음 **조직 프로필** 탭을 선택 합니다.
+1. 관리 센터에서 **설정** \> **조직 설정**으로 이동한 다음 **조직 프로필** 탭을 선택 합니다.
 
 2. **조직 프로필** 탭에서 **사용자 지정 테마**를 선택 합니다.
 

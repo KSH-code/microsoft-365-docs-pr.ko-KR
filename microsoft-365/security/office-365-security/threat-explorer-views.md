@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 08/07/2019
+ms.date: 05/15/2020
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,18 +15,18 @@ ms.collection:
 - M365-security-compliance
 description: 위협 탐색기 및 실시간 검색 보고서를 사용 하 여 보안 & 준수 센터에서 위협을 조사 및 대응 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 31fa228d69fcbe885f7639a47a5df2bf1ee0c60d
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 824fde8d6f6a03dd61a46d1f0ccc08c93b85adf8
+ms.sourcegitcommit: 76edb413cbd7436252075ea7e314f5e1d07d8d55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035191"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44267194"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색의 보기
 
 ![위협 탐색기](../../media/ThreatExplorerFirstOpened.png)
 
-[위협 탐색기](threat-explorer.md) 및 실시간 검색 보고서는 보안 운영 팀에서 보안 &amp; 및 준수 센터의 위협에 대해 조사 하 고 대응 하는 데 도움을 주는 강력 하 고도 비슷한 실시간 도구입니다. Explorer (and 실시간 검색 보고서)에는 조직에 대 한 기타 보안 위협 및 위험 뿐 아니라 전자 메일 및 Office 365의 파일에 있는 의심 스러운 맬웨어 및 피싱에 대 한 정보가 표시 됩니다. 
+[위협 탐색기](threat-explorer.md) 및 실시간 검색 보고서는 보안 운영 팀에서 보안 및 준수 센터의 위협에 대해 조사 하 고 대응 하는 데 도움을 주는 강력 하 고도 비슷한 실시간 도구입니다 &amp; . Explorer (and 실시간 검색 보고서)에는 조직에 대 한 기타 보안 위협 및 위험 뿐 아니라 전자 메일 및 Office 365의 파일에 있는 의심 스러운 맬웨어 및 피싱에 대 한 정보가 표시 됩니다. 
 
 - [Office 365 ATP (Advanced Threat Protection](office-365-atp.md) ) 계획 2가 있는 경우 Explorer를 사용할 수 있습니다.
 - Office 365 ATP 계획 1을 사용 하는 경우에는 실시간 검색이 가능 합니다.
@@ -38,7 +38,7 @@ Explorer (또는 실시간 검색 보고서)를 처음으로 열면 기본 보�
 |ATP P1 평가판     | 실시간 탐지        |   7       |
 |ATP P1 유료     |   실시간 탐지      |    kb     |
 |ATP P1에서 ATP P2 평가판 테스트를 유료 인 경우     | 위협 탐색기   |   7    |
-|ATP P2 트레일     |  위협 탐색기       |     7     |
+|ATP P2 평가판     |  위협 탐색기       |     7     |
 |ATP P2 유료     |     위협 탐색기    |  kb       |
 
 표시 되는 정보를 변경 하려면 **보기** 메뉴를 사용 합니다. 도구 설명은 사용할 보기를 결정 하는 데 도움이 됩니다.
@@ -49,7 +49,7 @@ Explorer (또는 실시간 검색 보고서)를 처음으로 열면 기본 보�
 
 ## <a name="email--malware"></a>전자 메일 > 맬웨어
 
-이 보고서를 보려면 Explorer (또는 실시간 검색)에서**전자 메일** > **맬웨어** **보기** > 를 선택 합니다. 이 보기에는 맬웨어를 포함 하는 것으로 확인 된 전자 메일 메시지에 대 한 정보가 표시 됩니다.  
+이 보고서를 보려면 Explorer (또는 실시간 검색)에서 **View**  >  **전자 메일**  >  **맬웨어**보기를 선택 합니다. 이 보기에는 맬웨어를 포함 하는 것으로 확인 된 전자 메일 메시지에 대 한 정보가 표시 됩니다.  
 
 ![맬웨어로 식별 된 전자 메일에 대 한 데이터 보기](../../media/ExplorerEmailMalwareMenu.png) 
 
@@ -65,7 +65,7 @@ Explorer (또는 실시간 검색 보고서)를 처음으로 열면 기본 보�
 
 ## <a name="email--phish"></a>전자 메일 > 피싱
 
-이 보고서를 보려면 Explorer (또는 실시간 검색)에서**전자 메일** > **피싱** **보기** > 를 선택 합니다. 이 보기에는 피싱 시도로 식별 된 전자 메일 메시지가 표시 됩니다.  
+이 보고서를 보려면 Explorer (또는 실시간 검색)에서 **View**  >  **전자 메일**  >  **피싱**보기를 선택 합니다. 이 보기에는 피싱 시도로 식별 된 전자 메일 메시지가 표시 됩니다.  
 
 ![피싱 시도로 식별 된 전자 메일에 대 한 데이터 보기](../../media/ThreatExplorerEmailPhish.png) 
 
@@ -85,13 +85,13 @@ Explorer (또는 실시간 검색 보고서)를 처음으로 열면 기본 보�
 
 ## <a name="email--submissions"></a>전자 메일 > 전송
 
-이 보고서를 보려면 Explorer (또는 실시간 검색)에서**전자 메일** > **전송** **보기** > 를 선택 합니다. 이 보기에는 사용자가 정크 메일로 보고 되거나, 정크 메일, 피싱 전자 메일이 표시 됩니다. 
+이 보고서를 보려면 Explorer (또는 실시간 검색)에서 **View**  >  **전자 메일**  >  **전송**보기를 선택 합니다. 이 보기에는 사용자가 정크 메일로 보고 되거나, 정크 메일, 피싱 전자 메일이 표시 됩니다. 
 
 ![사용자가 보고 한 전자 메일 메시지](../../media/ThreatExplorerEmailUserReportedViewOptions.png) 
 
 **보낸 사람** 을 클릭 하 여 보기 옵션 목록을 엽니다. 이 목록을 사용 하 여 보낸 사람, 받는 사람, 보고서 유형 (사용자가 정크 메일 인지, 정크 메일이 아님, 피싱 인지를 결정) 등의 정보를 볼 수 있습니다. 
 
-예를 들어 피싱 시도로 보고 된 전자 메일 메시지에 대 한 정보를 보려면 **Sender** > **Report type**을 클릭 하 고 **피싱**를 선택한 다음 새로 고침 단추를 클릭 합니다.
+예를 들어 피싱 시도로 보고 된 전자 메일 메시지에 대 한 정보를 보려면 **Sender**  >  **Report type**을 클릭 하 고 **피싱**를 선택한 다음 새로 고침 단추를 클릭 합니다.
 
 ![보고서 유형 필터를 위해 선택한 피싱](../../media/ThreatExplorerEmailUserReportedPhishSelected.png)
 
@@ -103,7 +103,7 @@ Explorer (또는 실시간 검색 보고서)를 처음으로 열면 기본 보�
 
 ## <a name="email--all-email"></a>모든 전자 메일 > 전자 메일
 
-이 보고서를 보려면 탐색기에서**전자** > 메일**모든 메일** **보기** > 를 선택 합니다. 이 보기에는 모든 비 악성 메일 (일반 전자 메일, 스팸 및 대량 메일)과 마찬가지로 피싱 또는 맬웨어로 인 한 악성 전자 메일을 비롯 한 전자 메일 활동의 모든 보기가 표시 됩니다. 
+이 보고서를 보려면 탐색기에서 **View**  >  **전자**메일  >  **모든 메일**보기를 선택 합니다. 이 보기에는 모든 비 악성 메일 (일반 전자 메일, 스팸 및 대량 메일)과 마찬가지로 피싱 또는 맬웨어로 인 한 악성 전자 메일을 비롯 한 전자 메일 활동의 모든 보기가 표시 됩니다. 
 
 > [!NOTE]
 > **너무 많은 데이터를 표시 하는 데**오류가 발생 하는 경우 필터를 추가 하 고 필요한 경우 보고 있는 날짜 범위를 좁힐 수 있습니다. 
@@ -116,7 +116,7 @@ Explorer (또는 실시간 검색 보고서)를 처음으로 열면 기본 보�
 
 ## <a name="content--malware"></a>맬웨어 > 콘텐츠
 
-이 보고서를 보려면 Explorer (또는 실시간 검색)에서**콘텐츠** > **맬웨어** **보기** > 를 선택 합니다. 이 보기는 [SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀의 Office 365 Advanced Threat Protection에서](atp-for-spo-odb-and-teams.md)악의적으로 식별 된 파일을 보여 줍니다.
+이 보고서를 보려면 Explorer (또는 실시간 검색)에서 **View**  >  **콘텐츠**  >  **맬웨어**보기를 선택 합니다. 이 보기는 [SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀의 Office 365 Advanced Threat Protection에서](atp-for-spo-odb-and-teams.md)악의적으로 식별 된 파일을 보여 줍니다.
 
 맬웨어 제품군, 검색 기술 (맬웨어가 감지 된 방법) 및 작업 (OneDrive, SharePoint 또는 팀)을 통해 정보를 확인 합니다. 
 
@@ -128,7 +128,7 @@ Explorer (또는 실시간 검색 보고서)를 처음으로 열면 기본 보�
 
 탐색기 (및 실시간 검색)를 사용 하 여 클릭 한 번으로 필터를 적용할 수 있습니다. 범례에서 항목을 클릭 하면 해당 항목이 보고서에 대 한 필터가 됩니다. 예를 들어 Explorer에서 맬웨어 보기를 보고 있다고 가정 합니다.
   
-![위협 관리 \> 탐색기로 이동](../../media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
+![위협 관리 탐색기로 이동 \>](../../media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
   
 이 차트에서 **ATP 샌드 박싱** 를 클릭 하면 다음과 같은 보기가 만들어집니다. 
   

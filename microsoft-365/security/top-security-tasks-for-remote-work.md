@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: 랜 섬 웨어, 피싱 및 악의적 첨부 파일을 포함 하 여 사이버 위협 으로부터 비즈니스 전자 메일 및 데이터를 보호 합니다.
-ms.openlocfilehash: abc75a7c7a8b771e5b15fb3c4f0aeb2125be4684
-ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
+ms.openlocfilehash: 1b21c59e95eccced66a7b64ec7c67354de53e59d
+ms.sourcegitcommit: 76edb413cbd7436252075ea7e314f5e1d07d8d55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44155424"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44267182"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>집에서 작업을 지원 하기 위한 보안 팀을 위한 상위 12 개 작업
 
@@ -37,11 +37,11 @@ ms.locfileid: "44155424"
   
 ||**작업**| 모든 Office 365 Enterprise 요금제|**Microsoft 365 E3** |**Microsoft 365 E5**|
 |:-----|:-----|:-----|:-----|:-----|
-|개      |[Azure MFA (Multi-factor Authentication) 사용](#1-enable-azure-multi-factor-authentication-mfa)   |   ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
-|2     | [위협으로부터 보호](#2-protect-against-threats) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png) |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
+|1       |[Azure MFA (Multi-factor Authentication) 사용](#1-enable-azure-multi-factor-authentication-mfa)   |   ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
+|2      | [위협으로부터 보호](#2-protect-against-threats) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png) |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
 |3(sp3)      |  [Office 365 Advanced Threat Protection 구성](#3-configure-office-365-advanced-threat-protection)  |   |      |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
 |4       | [Azure ATP (Advanced Threat Protection) 구성](#4-configure-azure-advanced-threat-protection)   |   |      |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
-|5      |   [Microsoft Advanced Threat Protection 설정](#5-turn-on-microsoft-advanced-threat-protection)  |  |      | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
+|5      |   [Microsoft 위협 방지 설정](#5-turn-on-microsoft-threat-protection)  |  |      | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
 |6       | [전화 및 태블릿에서 Intune 모바일 앱 보호 구성](#6-configure-intune-mobile-app-protection-for-phones-and-tablets) |    |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
 |7      | [Intune 앱 보호를 포함 하 여 게스트에 대 한 MFA 및 조건부 액세스 구성](#7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection)  |    |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)     | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
 |8       |  [Pc를 장치 관리에 등록 하 고 준수 Pc 필요](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)   |  | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)        | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
@@ -114,7 +114,7 @@ Exchange Online 관리자 및 SharePoint Online 관리자와 협력 하 여 이�
 - [비디오 보기: AZURE ATP 소개](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)
 - [AZURE ATP 배포의 세 단계](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp#whats-next) 검토
 
-## <a name="5-turn-on-microsoft-advanced-threat-protection"></a>5: Microsoft Advanced Threat Protection 설정
+## <a name="5-turn-on-microsoft-threat-protection"></a>5: Microsoft Threat Protection 설정
 
 Office 365 ATP 및 Azure ATP가 구성 되었으므로 한 대시보드에서 이러한 기능 으로부터 결합 된 신호를 볼 수 있습니다. MTP ( [Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) )는 작업 (Azure Atp, OFFICE 365 ATP, MICROSOFT Defender ATP 및 Microsoft Cloud App Security)에서 경고, 문제, 자동화 된 조사 및 응답을 함께 제공 하며 [security.microsoft.com](https://security.microsoft.com)에서 단일 창으로 진행 됩니다. 
 <br>
@@ -236,7 +236,7 @@ Microsoft 365에서는 조직에서 사용자에 게 알릴 수 있도록 다음
 
 ## <a name="12-monitor-for-threats-and-take-action"></a>12: 위협 모니터링 및 조치 수행
 
-Microsoft 365에는 상태를 모니터링 하 고 적절 한 조치를 취하는 몇 가지 방법이 포함 되어 있습니다. 가장 좋은 출발점은 Microsoft 365 보안 센터 ([https://security.microsoft.com](https://security.microsoft.com))로, 조직의 [microsoft 보안 점수](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score?view=o365-worldwide)와 주의가 필요한 경고나 엔터티를 볼 수 있습니다.
+Microsoft 365에는 상태를 모니터링 하 고 적절 한 조치를 취하는 몇 가지 방법이 포함 되어 있습니다. 가장 좋은 출발점은 Microsoft 365 보안 센터 ( [https://security.microsoft.com](https://security.microsoft.com) )로, 조직의 [Microsoft 보안 점수](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score?view=o365-worldwide)와 주의가 필요한 경고나 엔터티를 볼 수 있습니다.
 
 - [Microsoft 365 보안 센터 시작 하기](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center?view=o365-worldwide)
 - [보고서 모니터링 및 보기](https://docs.microsoft.com/microsoft-365/security/mtp/monitoring-and-reporting?view=o365-worldwide)
