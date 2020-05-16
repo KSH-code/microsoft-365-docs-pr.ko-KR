@@ -13,12 +13,12 @@ metadata:
   author: robmazz
   ms.author: robmazz
   ms.date: 11/29/2019
-  ms.openlocfilehash: f954a03e23d354eb52e5dc112f1ebc1d804ca350
-  ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+  ms.openlocfilehash: 31685a610f6560296dc72b7624f81a5927d56ec2
+  ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/04/2020
-  ms.locfileid: "44011176"
+  ms.lasthandoff: 05/16/2020
+  ms.locfileid: "44268260"
 highlightedContent:
   items:
   - title: 엔터프라이즈용 Microsoft 365에 대해 알아보기
@@ -44,7 +44,7 @@ conceptualContent:
       text: 파운데이션 인프라
     - url: deploy-workloads.md
       itemType: how-to-guide
-      text: 워크로드 및 시나리오
+      text: 워크로드
     - url: desktop-deployment-center-home.md
       itemType: get-started
       text: 데스크톱 배포 센터
@@ -62,20 +62,6 @@ conceptualContent:
     - url: https://docs.microsoft.com/intune/fundamentals/planning-guide
       itemType: deploy
       text: Microsoft Intune
-  - title: 주요 시나리오 배포
-    links:
-    - url: secure-teams-highly-regulated-data-scenario.md
-      itemType: how-to-guide
-      text: 높은 규제 대상 데이터를 위한 Microsoft Teams
-    - url: teams-sharepoint-online-sites-highly-regulated-data.md
-      itemType: how-to-guide
-      text: 높은 규제 대상 데이터를 위한 SharePoint 사이트
-    - url: empower-people-to-work-remotely.md
-      itemType: how-to-guide
-      text: 원격 작업자
-    - url: migration-microsoft-365-enterprise-workload.md
-      itemType: deploy
-      text: Office 클라이언트와 서버 및 Windows 마이그레이션
   - title: 엔터프라이즈용 Microsoft 365 관리
     links:
     - url: https://docs.microsoft.com/windows/deployment/update/
