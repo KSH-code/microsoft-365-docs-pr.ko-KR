@@ -28,7 +28,7 @@
       href: subscriptions/cancel-your-subscription.md
     - name: 구독이 만료된 경우 어떻게 하나요?
       href: subscriptions/what-if-my-subscription-expires.md
-    - name: 타사 앱 관리
+    - name: 타사 앱 구독 관리
       href: manage-saas-apps.md
     - name: 셀프 서비스 구매(사용자) 관리
       href: subscriptions/manage-self-service-purchases-users.md
@@ -46,9 +46,9 @@
       href: licenses/subscriptions-and-licenses.md
 - name: 청구 및 결제
   items:
-    - name: 송장 보기
+    - name: 청구서 또는 송장 보기
       href: billing-and-payments/view-your-bill-or-invoice.md
-    - name: 송장 이해
+    - name: 청구서 또는 송장 이해하기
       href: billing-and-payments/understand-your-invoice.md
     - name: 결제 방법 관리
       href: billing-and-payments/manage-payment-methods.md
@@ -62,7 +62,7 @@
       href: billing-and-payments/manage-billing-profiles.md
     - name: 대금 청구 주소 변경
       href: billing-and-payments/change-your-billing-addresses.md
-    - name: 결제 서비스 지침 2 및 강력한 고객 인증
+    - name: 결제 서비스 지침 2 및 강력한 고객 인증 정보
       href: billing-and-payments/psd2.md
 - name: 청구 계정
   items:
