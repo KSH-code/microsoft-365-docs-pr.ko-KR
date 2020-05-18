@@ -13,12 +13,12 @@ ms.collection:
 - SPO_Content
 ms.custom: ''
 description: 조직 전체에서 SharePoint를 계획하고 배포하며 가치를 창출하는 프로세스를 안내합니다.
-ms.openlocfilehash: ee2c5592015361a678785cb8e4aaad9074c5d804
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6b0483073a836f29b1faa5a30018848ef7b2df34
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636919"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268212"
 ---
 # <a name="deploy-sharepoint-and-onedrive-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise용 SharePoint 및 OneDrive 배포
 
@@ -67,10 +67,6 @@ SharePoint는 다양한 용도로 사용할 수 있습니다. 비즈니스 요�
 필요에 맞게 SharePoint를 구성하는 방법에 대한 리소스는 [SharePoint 관리자](https://docs.microsoft.com/sharepoint/sharepoint-online)를 참조하세요.
 
 SharePoint의 이점을 알아보는 한 가지 방법은 개인, 팀, 부서 또는 조직 전체가 현재 상호 작용하는 방식을 검토한 후, 파일을 저장 및 공유하는 보다 쉬운 방법을 제공하는 적절한 시나리오를 찾아보는 것입니다. [Microsoft Teams](teams-workload.md)가 일부 시나리오에 적합한 옵션이 될 수 있다는 점에 유의하세요.
-
-#### <a name="sharepoint-site-for-highly-regulated-data"></a>강도 높은 규제 대상 데이터를 위한 SharePoint 사이트
-
-강도 높은 규제 대상 데이터는 해당 지역 규정이 적용되거나, 영업 비밀, 재무 또는 인사 관련 정보와 조직의 전략과 같이 조직에서 가장 중요한 데이터입니다. 이 유형의 데이터에 대한 제한된 액세스, 데이터 분류, 데이터 손실 방지 및 암호화를 위해 SharePoint 사이트를 구성할 수 있습니다. 자세한 내용은 [높은 규제 대상 데이터용 Microsoft Teams 및 SharePoint 사이트](teams-sharepoint-online-sites-highly-regulated-data.md)를 참조하세요.
 
 #### <a name="result"></a>결과
 조직의 문서 저장 및 공유, 콘텐츠 관리, 공동 작업 및 보안에 필요한 사항을 충족하는 SharePoint 시나리오 목록을 얻을 수 있습니다.

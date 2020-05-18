@@ -15,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise에 대한 정보 보호 인프라를 배포하는 단계입니다.
-ms.openlocfilehash: 0e6fdf1a9c63200bfb57fc9f833515553c1609f4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d6e3501e8262a0c3245c6e13da6633ac465276fb
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631624"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268306"
 ---
 # <a name="phase-6-information-protection"></a>6단계: 정보 보호
 
 ![6단계: 정보 보호](../media/deploy-foundation-infrastructure/infoprotection_icon.png)
 
-정보 보호는 중요한 정보를 전송, 저장 및 처리하는 방법을 정의하는 정책 및 기술 집합입니다. 6단계에서는 클라우드 기반 워크로드 및 시나리오의 데이터를 보호하는 데 유용한 Microsoft 365 Enterprise의 정보 보호 설정 및 기능을 안내합니다.
+정보 보호는 중요한 정보를 전송, 저장 및 처리하는 방법을 정의하는 정책 및 기술 집합입니다. 6단계에서는 클라우드 기반 작업의 데이터를 보호하는 데 유용한 Microsoft 365 Enterprise의 정보 보호 설정 및 기능을 안내합니다.
 
 >[!Note]
 >정보 보호를 이미 배포한 경우 이 단계에 대한 [종료 조건](infoprotect-exit-criteria.md)을 검토하여 Microsoft 365 Enterprise에 대한 필수 및 선택적 조건을 충족하는지 확인합니다.

@@ -20,12 +20,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: c9f837af-8d71-4df1-a285-dedb1c5618b3
 description: '요약: 다양한 정보 보호 수준을 통해 SharePoint Online 팀 사이트에 보존 레이블 및 DLP(데이터 손실 방지) 정책을 적용합니다.'
-ms.openlocfilehash: ab9026fa4c00038abb166677277145c8129e33e2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b924b0d62d7c66a008739dfa12c0d1dd00deac9b
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081760"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262399"
 ---
 # <a name="protect-sharepoint-online-files-with-retention-labels-and-dlp"></a>보존 레이블 및 DLP를 사용하여 SharePoint Online 파일 보호
 
@@ -216,6 +216,10 @@ SharePoint Online 팀 사이트에 보존 레이블을 만들고 할당하는 �
 결과적으로 극비 SharePoint Online 팀 사이트에 대한 구성은 다음과 같습니다.
   
 ![높은 수준의 기밀 보존 레이블을 사용하는 격리된 SharePoint Online 팀 사이트의 DLP 정책](../media/f705d3d0-23c9-4333-8b70-ad3b91f835ea.png)
+
+### <a name="support-for-sensitivity-labels-is-coming"></a>민감도 레이블 지원이 곧 제공됩니다.
+
+현재 보존 레이블만 조건으로 사용할 수 있습니다. [민감도 레이블](sensitivity-labels.md)은 사용할 수 없습니다. 현재 해당 조건에서 민감도 레이블 사용에 대한 지원을 연구하고 있습니다.
   
 ## <a name="next-step"></a>다음 단계
 

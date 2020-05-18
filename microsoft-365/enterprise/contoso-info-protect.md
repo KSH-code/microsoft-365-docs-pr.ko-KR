@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 Microsoft 365 Enterprise의 정보 보호 기능을 사용하여 클라우드에서 디지털 자산을 보호하는 방법을 이해합니다.
-ms.openlocfilehash: 41873f14ac52000635508aca4728572556692cc4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 137e6ff499ba8fb119c696dba9337307876ee0c2
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43625305"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268413"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Contoso Corporation의 정보 보호
 
@@ -65,15 +65,11 @@ Contoso는 다음 단계를 사용하여 정보 보호 요구에 맞게 Microsof
 
    Contoso는 암호화, 사용 권한 및 워터마크를 포함하여 높은 규제 대상 레이블을 사용하여 데이터 수준에 맞게 민감도 레이블을 만들었습니다.
 
-4. 액세스를 잠그는 권한을 사용하여 중요한 데이터 및 높은 규제 대상 데이터에 대해 보호된 SharePoint 사이트 생성
-
-   중요하고 고도로 규제된 사이트는 추가 권한 제한이 있는 비공개 팀 사이드로 구성되었습니다. 또한 중요 및 높은 규제 대상 SharePoint 사이트도 해당 보존 레이블로 구성했습니다. 높은 규제 대상 SharePoint 사이트에 저장된 파일은 높은 규제 대상 레이블의 민감도 하위 레이블로 보호됩니다. 자세한 내용은 [높은 규제 대상 데이터를 위한 SharePoint 사이트](teams-sharepoint-online-sites-highly-regulated-data.md) 시나리오를 참조하세요.
-
-5.  온-프레미스 SharePoint 사이트 및 파일 공유의 데이터를 새 SharePoint 사이트로 이동
+4.  온-프레미스 SharePoint 사이트 및 파일 공유의 데이터를 새 SharePoint 사이트로 이동
 
     새 SharePoint 사이트로 마이그레이션된 파일에는 해당 사이트에 할당된 기본 보존 레이블이 상속되었습니다.
 
-6.  직원에게 새 문서에 대해 민감도 레이블을 사용하는 방법, 새 SharePoint 사이트를 만들 때 Contoso IT와 상호 작용하는 방법을 학습시키고 항상 SharePoint 사이트에 디지털 자산을 저장하도록 교육
+5.  직원에게 새 문서에 대해 민감도 레이블을 사용하는 방법, 새 SharePoint 사이트를 만들 때 Contoso IT와 상호 작용하는 방법을 학습시키고 항상 SharePoint 사이트에 디지털 자산을 저장하도록 교육
 
     클라우드에 대한 정보 보호 전환에서 가장 어려운 부분을 고려하면서 Contoso IT 및 관리 부서는 조직의 직원들이 나타내는 나쁜 정보 저장 습관을 변경하여 항상 디지털 자산을 클라우드에 레이블을 지정하고 저장하도록 하고 온-프레미스 파일 공유 사용을 자제하며 제3자 클라우드 저장소 서비스 또는 USB 드라이브를 사용하지 않도록 변경해야 했습니다.
 

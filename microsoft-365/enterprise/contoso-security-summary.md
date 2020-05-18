@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso가 Microsoft 365 Enterprise에서 보안 기능을 사용하는 방법
-ms.openlocfilehash: f8a16b07c6d4cb9a62e0131a1f667b675d5eaf66
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c0f3497eb49a0490fccf6c0ec5174d932a21005e
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636489"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268401"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Contoso Corporation의 Microsoft 365 Enterprise 보안 요약
 
@@ -134,9 +134,4 @@ Contoso의 보안 관리자 및 IT 부서는 보안 모범 사례 및 Microsoft 
 - Windows Defender 보안 센터의 사용자를 위한 중앙 보안 대시보드
 
   Contoso는 Windows 10 Enterprise가 실행되는 PC 및 장치에 [Windows 보안 앱](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center)을 배포하여 사용자가 보안 태세를 한 눈에 확인하고 조치를 취할 수 있도록 하고 있습니다.
-
-
-## <a name="next-step"></a>다음 단계
-
-Contoso에서 연구팀 간에 공동 작업을 수행할 수 있도록 규제가 엄격한 데이터를 위해 SharePoint 사이트를 만든 방법을 [알아보세요](contoso-sharepoint-online-site-for-highly-confidential-assets.md).
 
