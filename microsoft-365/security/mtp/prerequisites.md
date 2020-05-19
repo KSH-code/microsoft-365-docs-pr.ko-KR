@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 66b3f7e446416b6252050e6f41a2b22d99d25767
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 71e7b532e046015dd64e51fd422d276433d65b3a
+ms.sourcegitcommit: 6ea9a910a8106a5f1aa589c55d166bfa67fd12a8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209238"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280537"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Microsoft 위협 방지 필수 구성 요소
 
@@ -79,8 +79,12 @@ Microsoft 365 관리 센터 ([admin.microsoft.com](https://admin.microsoft.com/)
 ## <a name="browser-requirements"></a>브라우저 요구 사항
 Microsoft Edge, Internet Explorer 11 또는 HTML 5와 호환 되는 웹 브라우저를 사용 하 여 microsoft 365 보안 센터의 Microsoft 위협 보호에 액세스 합니다.
 
-## <a name="us-gcc-and-gcc-high-availability"></a>미국 GCC 및 GCC 고가용성
-현재 Microsoft 위협 보호는 GCC (미국 정부 커뮤니티 클라우드) 및 정부 커뮤니티 클라우드 (GCC 최고) 고객에 게 제공 되지 않습니다. 
+## <a name="availability-to-us-gcc-gcc-high-and-other-us-government-institutions"></a>미국 GCC, GCC 최고 및 기타 미국 정부 기관에 대 한 가용성
+현재 다음과 같은 경우에는 Microsoft Threat Protection을 사용할 수 *없습니다* .
+- 미국 정부 커뮤니티 클라우드 (GCC)
+- 미국 정부 커뮤니티 클라우드 높음 (GCC 높음)
+- 미국 방어 부서
+- 상업적 라이선스를 포함 하는 모든 미국 정부 기관
 
 ## <a name="related-topics"></a>관련 항목
 - [Microsoft 위협 방지 개요](microsoft-threat-protection.md)
