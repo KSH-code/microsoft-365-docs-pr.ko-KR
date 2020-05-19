@@ -271,13 +271,23 @@
           href: set-up-an-archive-and-deletion-policy-for-mailboxes.md
     - name: 데이터 보존
       items:
-        - name: 보존 정책
+        - name: 보존 정책에 대한 자세한 정보
           href: retention-policies.md
+        - name: 보존 정책 만들기 및 구성
+          href: create-retention-policies.md
+        - name: SharePoint 및 OneDrive에 대한 보존
+          href: retention-policies-sharepoint.md
+        - name: Microsoft Teams에 대한 보존
+          href: retention-policies-teams.md
+        - name: Exchange에 대한 보존
+          href: retention-policies-exchange.md
         - name: 파일 플랜 관리자
           href: file-plan-manager.md
-        - name: 보존 레이블
+        - name: 보존 레이블에 대한 자세한 정보
           href: labels.md
-        - name: SEC 규칙 17 a-4 준수
+        - name: '보존 레이블 만들기, 게시 및 자동 적용'
+          href: create-retention-labels.md
+        - name: SEC 규칙 17a-4 준수
           href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
         - name: PowerShell을 사용하여 보존 레이블 만들기 및 게시
           href: bulk-create-publish-labels-using-powershell.md
@@ -325,9 +335,11 @@
           items:
             - name: 파일 플랜 관리자
               href: file-plan-manager.md
-            - name: 보존 레이블
+            - name: 보존 레이블에 대한 자세한 정보
               href: labels.md
-            - name: PowerShell을 사용하여 보존 레이블 만들기 및 게시
+            - name: 보존 레이블 만들기 및 게시
+              href: create-retention-labels.md
+            - name: PowerShell을 사용하여 대규모로 보존 레이블 만들기 및 게시
               href: bulk-create-publish-labels-using-powershell.md
             - name: 레이블 분석을 통한 레이블 사용량 보기
               href: label-analytics.md

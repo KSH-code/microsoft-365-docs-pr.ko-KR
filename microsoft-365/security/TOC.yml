@@ -410,6 +410,8 @@
                   href: ./office-365-security/air-view-investigation-results.md
                 - name: 보류 중인 작업 검토 또는 승인(또는 거부)
                   href: ./office-365-security/air-review-approve-pending-completed-actions.md
+                - name: 가양성/가음성 처리
+                  href: ./office-365-security/air-report-false-positives-negatives.md
                 - name: AIR를 사용자 지정 솔루션 또는 타사 솔루션과 통합
                   href: ./office-365-security/air-custom-reporting.md
             - name: 손상된 사용자 계정을 신속하게 탐지 및 해결
