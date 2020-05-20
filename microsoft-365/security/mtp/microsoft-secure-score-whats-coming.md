@@ -17,21 +17,19 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d9025e4333c6d6ae40f894fc6bde195028871dab
-ms.sourcegitcommit: 4cfb8a9c3675d0aefcabd690273e2af85f2e38b0
+ms.openlocfilehash: 723b2584846b9d6ec01e7d4286a63d2dce0757ac
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44211453"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322174"
 ---
-# <a name="whats-coming-in-microsoft-secure-score"></a><span data-ttu-id="dda30-104">Microsoft 보안 점수가 어떻게 제공 됩니까?</span><span class="sxs-lookup"><span data-stu-id="dda30-104">What's coming in Microsoft Secure Score?</span></span>
+# <a name="whats-coming-in-microsoft-secure-score"></a><span data-ttu-id="f7e78-104">Microsoft 보안 점수가 어떻게 제공 됩니까?</span><span class="sxs-lookup"><span data-stu-id="f7e78-104">What's coming in Microsoft Secure Score?</span></span>
 
-<span data-ttu-id="dda30-105">Microsoft의 보안 [점수](microsoft-secure-score-new.md) 를 보안 환경을 보다 효율적으로 대표 하 고 유용성을 향상 시키기 위해 곧 몇 가지 사항을 변경 하 고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dda30-105">To make [Microsoft Secure Score](microsoft-secure-score-new.md) a better representative of your security posture and improve usability, we are making some changes in the near future.</span></span> <span data-ttu-id="dda30-106">점수와 가능한 최대 점수가 변경 됩니다.</span><span class="sxs-lookup"><span data-stu-id="dda30-106">Your score and the maximum possible score will change.</span></span> <span data-ttu-id="dda30-107">그러나 보안 환경을 변경 하는 것은 아닙니다.</span><span class="sxs-lookup"><span data-stu-id="dda30-107">However, this does not imply a change in your security posture.</span></span>
+<span data-ttu-id="f7e78-105">Microsoft의 보안 [점수](microsoft-secure-score-new.md) 를 보안 환경을 보다 효율적으로 대표 하 고 유용성을 향상 시키기 위해 곧 몇 가지 사항을 변경 하 고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f7e78-105">To make [Microsoft Secure Score](microsoft-secure-score-new.md) a better representative of your security posture and improve usability, we are making some changes in the near future.</span></span> <span data-ttu-id="f7e78-106">점수와 가능한 최대 점수가 변경 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f7e78-106">Your score and the maximum possible score will change.</span></span> <span data-ttu-id="f7e78-107">그러나 보안 환경을 변경 하는 것은 아닙니다.</span><span class="sxs-lookup"><span data-stu-id="f7e78-107">However, this does not imply a change in your security posture.</span></span>
 
-<span data-ttu-id="dda30-108">최근 변경 내용에 대 한 자세한 내용은 [Microsoft 보안 점수의 새로운 기능](microsoft-secure-score-new.md#whats-new) 을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="dda30-108">To learn about recent changes, see [What's new in Microsoft Secure Score?](microsoft-secure-score-new.md#whats-new)</span></span>
+<span data-ttu-id="f7e78-108">최근 변경 내용에 대 한 자세한 내용은 [Microsoft 보안 점수의 새로운 기능](microsoft-secure-score-new.md#whats-new) 을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f7e78-108">To learn about recent changes, see [What's new in Microsoft Secure Score?](microsoft-secure-score-new.md#whats-new)</span></span>
 
-## <a name="may-2020"></a><span data-ttu-id="dda30-109">5 월 2020</span><span class="sxs-lookup"><span data-stu-id="dda30-109">May 2020</span></span>
+## <a name="may-2020"></a><span data-ttu-id="f7e78-109">2020년 5월</span><span class="sxs-lookup"><span data-stu-id="f7e78-109">May 2020</span></span>
 
-### <a name="adding-additional-azure-advanced-threat-protection-improvement-actions-to-the-preview-release-and-new-iteration"></a><span data-ttu-id="dda30-110">미리 보기 릴리스 및 새로운 반복에 추가 Azure Advanced Threat Protection 개선 작업 추가</span><span class="sxs-lookup"><span data-stu-id="dda30-110">Adding additional Azure Advanced Threat Protection improvement actions to the preview release and new iteration</span></span>
-
-- <span data-ttu-id="dda30-111">Active Directory 트러스트에서 보안 기능을 사용 하도록 설정</span><span class="sxs-lookup"><span data-stu-id="dda30-111">Enable security features on Active Directory trusts</span></span>
+<span data-ttu-id="f7e78-110">현재 계획 된 변경 내용 없음</span><span class="sxs-lookup"><span data-stu-id="f7e78-110">No changes currently planned</span></span>
