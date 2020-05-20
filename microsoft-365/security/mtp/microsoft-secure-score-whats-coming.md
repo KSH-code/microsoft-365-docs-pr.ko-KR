@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d9025e4333c6d6ae40f894fc6bde195028871dab
-ms.sourcegitcommit: 4cfb8a9c3675d0aefcabd690273e2af85f2e38b0
+ms.openlocfilehash: 723b2584846b9d6ec01e7d4286a63d2dce0757ac
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44211453"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322174"
 ---
 # <a name="whats-coming-in-microsoft-secure-score"></a>Microsoft 보안 점수가 어떻게 제공 됩니까?
 
@@ -30,8 +30,6 @@ Microsoft의 보안 [점수](microsoft-secure-score-new.md) 를 보안 환경을
 
 최근 변경 내용에 대 한 자세한 내용은 [Microsoft 보안 점수의 새로운 기능](microsoft-secure-score-new.md#whats-new) 을 참조 하세요.
 
-## <a name="may-2020"></a>5 월 2020
+## <a name="may-2020"></a>2020년 5월
 
-### <a name="adding-additional-azure-advanced-threat-protection-improvement-actions-to-the-preview-release-and-new-iteration"></a>미리 보기 릴리스 및 새로운 반복에 추가 Azure Advanced Threat Protection 개선 작업 추가
-
-- Active Directory 트러스트에서 보안 기능을 사용 하도록 설정
+현재 계획 된 변경 내용 없음

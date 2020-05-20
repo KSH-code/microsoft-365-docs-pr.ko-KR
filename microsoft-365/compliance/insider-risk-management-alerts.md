@@ -12,16 +12,16 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 74e84fc00e5fe633f0d70315cea9ad1329e2f639
-ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
+ms.openlocfilehash: 0618eb6b68f5753ea6af2469e3487eabfe566450
+ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42372016"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44292486"
 ---
 # <a name="insider-risk-management-alerts"></a>참가자 위험 관리 알림
 
-참가자 위험 관리 알림은 참가자 위험 관리 정책에 정의 된 위험 지표에 의해 자동으로 생성 됩니다. 이러한 경고는 준수 분석가를 제공 하 고 현재 위험 상태의 모든 보기를 investigators 조직에서 검색 된 위험에 대 한 조치를 취할 수 있도록 허용 합니다.
+참가자 위험 관리 알림은 참가자 위험 관리 정책에 정의 된 위험 지표에 의해 자동으로 생성 됩니다. 이러한 경고는 준수 분석가를 제공 하 고 현재 위험 상태의 모든 보기를 investigators 조직에서 검색 된 위험에 대 한 조치를 취할 수 있도록 허용 합니다. 기본적으로 정책은 낮음, 중간 및 높은 심각도 경고를 생성 하지만 필요에 따라 [경고 볼륨을 높이 거 나 낮출](insider-risk-management-policies.md#alert-volume) 수 있습니다.
 
 ## <a name="alert-dashboard"></a>알림 대시보드
 

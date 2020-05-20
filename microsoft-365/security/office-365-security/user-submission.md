@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 관리자는 사용자가 보고 하는 스팸 및 피싱 전자 메일을 수집 하도록 사서함을 구성 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 6aa343b337139c4d81f35f78a227634d3b6a8781
-ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
+ms.openlocfilehash: 2a1872aff88cd1cc21c6a6e3258671c303b55e17
+ms.sourcegitcommit: 4ce28ad4d17d336106c1720d65349f19f9e90e04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44262526"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44294196"
 ---
 # <a name="specify-a-mailbox-for-user-submissions-of-spam-and-phishing-messages-in-exchange-online"></a>Exchange Online에서 스팸 및 피싱 메시지의 사용자 제출을 위한 사서함 지정
 
@@ -31,7 +31,7 @@ Exchange Online 사서함이 있는 Microsoft 365 조 직에서는 사용자가 
 - 웹용 Outlook (이전의 Outlook Web App) [에 기본적으로 제공 되는 보고 기능](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)
 
   > [!NOTE]
-  > [웹에서 outlook에서 보고를 사용 하지 않도록](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop#disable-or-enable-junk-email-reporting-in-outlook-on-the-web)설정한 경우 여기서 사용자 제출을 사용 하도록 설정 하면 해당 설정이 무시 되 고 사용자가 웹에서 Outlook에서 메시지를 다시 보고할 수 있습니다.
+  > [웹에서 outlook에서 보고를 사용 하지 않도록](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web)설정한 경우 여기서 사용자 제출을 사용 하도록 설정 하면 해당 설정이 무시 되 고 사용자가 웹에서 Outlook에서 메시지를 다시 보고할 수 있습니다.
 
 또한 타사 메시지 보고 도구를 구성 하 여 지정한 사서함에 메시지를 전달할 수 있습니다.
 
@@ -75,8 +75,6 @@ Exchange Online 사서함이 있는 Microsoft 365 조 직에서는 사용자가 
 
         작업이 완료 되 면 **확인**을 클릭 합니다.
 
-        ![보고 된 메시지를 Microsoft 및 사용자 지정 사서함으로 보내기](../../media/user-submission-enable-outlook-report-message.png)
-
      > [!CAUTION]
      > 웹 사서함 정책에서 Outlook을 사용 하 여 [웹용 outlook에서 정크 메일 보고를 사용 하지 않도록 설정](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) 했지만 microsoft에 메시지를 보고 하는 이전 설정 중 하나를 구성 하는 경우 사용자는 보고서 메시지 추가 기능을 사용 하 여 웹용 Outlook에서 Microsoft에 메시지를 보고할 수 있습니다.
 
@@ -86,8 +84,6 @@ Exchange Online 사서함이 있는 Microsoft 365 조 직에서는 사용자가 
 
       작업이 완료 되 면 **확인**을 클릭 합니다.
 
-      ![타사 도구를 사용 하 여 보고 된 메시지를 사용자 지정 사서함으로 보내기](../../media/user-submission-disable-outlook-report-message.png)
-     
 ## <a name="message-submission-format"></a>메시지 전송 형식
 
 사용자 지정 사서함에 전송 된 메시지는 특정 전송 메일 형식을 따라야 합니다. 제출 서류의 제목 (봉투 제목)은 다음과 같은 형식 이어야 합니다.

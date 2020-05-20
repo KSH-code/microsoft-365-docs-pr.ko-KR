@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 이 문서에서는 내부 및 외부 조사 도구인 Microsoft 365의 고급 eDiscovery에 대 한 개요를 제공 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fae09b33364f9ff57233ee25ccf40e4956dfd408
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 84fbf3bbdc4a4ee08901001f7898355e4c8b2705
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034908"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322043"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Microsoft 365의 고급 eDiscovery 솔루션 개요
 
@@ -106,7 +106,3 @@ Custodian 및 해당 custodial 데이터 원본을 사례에 추가 하면 custo
 ## <a name="configuring-case-settings"></a>사례 설정 구성
 
 **설정** 탭을 사용 하 여 대/소문자 전체의 설정을 구성 합니다. 여기에는 사례에 구성원 추가, 사례 닫기 또는 삭제, 검색 및 분석 설정 구성 등이 포함 됩니다.
-
-## <a name="advanced-ediscovery-reports"></a>고급 eDiscovery 보고서
-
-홈 페이지의 고급 eDiscovery 보고서를 사용 하 여 조직에서 모든 Advanced eDiscovery 사례에 대해 활동 및 상태를 추적 하는 데 도움을 받을 수 있습니다. 고급 eDiscovery 보고서 기능은 사례, custodians, 데이터 원본 및 통신에 대 한 정보를 집계 합니다. 다양 한 조건을 기준으로 보고서 데이터를 필터링 하 고 집계 된 정보를 CSV 파일로 내보내서 추가 분석을 수행할 수 있습니다.  자세한 내용은 [Advanced eDiscovery reports](advanced-ediscovery-reports.md)를 참조 하십시오.

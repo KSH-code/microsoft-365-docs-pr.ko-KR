@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: EDiscovery 및 검색 도구를 사용 하 여 조직의 데이터 유출 인시던트를 관리 하 고 대응 합니다.
-ms.openlocfilehash: 708343992d2b8d51d9b10f89cd6b986de00423d6
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 4246460f2f7d7fdc41754fc2acd3125601bb5f79
+ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166059"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44292454"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>eDiscovery 솔루션 시리즈: 데이터 유출 시나리오-검색 및 삭제
 
@@ -90,7 +90,7 @@ Custodian 또는 최종 사용자에 게 Office 365 E5 라이선스가 할당 �
 
 데이터를 포함 하는 전자 메일 메시지를 찾을 때 메시지를 받는 사람에 게 외부 공유 여부를 확인 합니다. 메시지를 추가로 추적 하기 위해 보낸 사람 정보 및 날짜 범위를 수집 하 여 [5 단계](#step-5-use-message-trace-log-to-check-how-spilled-data-was-shared)에서 설명 하는 메시지 추적 로그를 사용할 수 있습니다.
 
-검색 결과를 확인 하 고 나면 보조 검토를 위해 다른 사람들과 의견을 공유할 수 있습니다. 1 단계에서 사례에 할당 한 사용자는 eDiscovery 및 Advanced eDiscovery에서 사례 콘텐츠를 검토 하 고 사례 결과를 승인할 수 있습니다. 실제 콘텐츠를 내보내지 않고 보고서를 생성할 수도 있습니다. 또한 [8 단계](#step-8-verify-provide-a-proof-of-deletion-and-audit)에서 설명 하는이 보고서를 삭제 했을 때와 동일 하 게 사용할 수 있습니다.
+검색 결과를 확인 한 후에는 보조 검토를 위해 결과를 다른 사용자와 공유할 수 있습니다. 1 단계에서 사례에 할당 한 사용자는 eDiscovery 및 Advanced eDiscovery에서 사례 콘텐츠를 검토 하 고 사례 결과를 승인할 수 있습니다. 실제 콘텐츠를 내보내지 않고 보고서를 생성할 수도 있습니다. 또한 [8 단계](#step-8-verify-provide-a-proof-of-deletion-and-audit)에서 설명 하는이 보고서를 삭제 했을 때와 동일 하 게 사용할 수 있습니다.
   
  **통계 보고서를 생성 하려면:**
   
@@ -157,14 +157,15 @@ Custodian 또는 최종 사용자에 게 Office 365 E5 라이선스가 할당 �
 단일 항목 복구를 사용 하거나 사서함을 보류 중인 경우 영구 삭제 된 메시지를 복구 가능한 항목 폴더에 보존 됩니다. 따라서 저장 된 데이터를 제거 하려면 기존 사서함 구성을 확인 하 고 단일 항목 복구를 사용 하지 않도록 설정 하 고 보류 또는 보존 정책을 제거 해야 합니다. 한 번에 하나의 사서함을 준비한 다음 서로 다른 사서함에서 동일한 명령을 실행 하거나 PowerShell 스크립트를 만들어 여러 사서함을 동시에 준비할 수 있다는 점에 유의 하세요.
 
 - 단일 항목 복구를 사용할 수 있는지 확인 하는 방법에 대 한 지침을 보려면 [보류 중인 클라우드 기반 사서함의 복구 가능한 항목 폴더에서](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#step-1-collect-information-about-the-mailbox) 사서함에 대 한 정보 수집 "을 참조 하십시오. 
-    
+
 - 단일 항목 복구를 사용 하지 않도록 설정 하는 방법에 대 한 지침은 [보류 중인 클라우드 기반 사서함의 복구 가능한 항목 폴더에서 항목 삭제](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#step-2-prepare-the-mailbox) 의 "2 단계: 사서함 준비"를 참조 하세요. 
-    
+
 - 사서함에서 보류 또는 보존 정책을 제거 하는 방법에 대 한 자세한 내용은 [보류 중인 클라우드 기반 사서함의 복구 가능한 항목 폴더에 있는 항목 삭제](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#step-3-remove-all-holds-from-the-mailbox) 의 "3 단계: 사서함에서 모든 보류 제거"를 참조 하세요. 
 
 - 모든 유형의 보존을 제거한 후 사서함에 적용 되는 지연 대기를 제거 하는 방법에 대 한 지침은 "4 단계: [보류 중인 클라우드 기반 사서함의 복구 가능한 항목 폴더의 항목 삭제](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#step-4-remove-the-delay-hold-from-the-mailbox) "를 참조 하세요.
-    
- **중요:** 보류 또는 보존 정책을 제거 하기 전에 레코드 관리 또는 법률 부서에 문의 하세요. 조직에 보류 중인 사서함 또는 데이터 유출 인시던트가 우선 하는지 여부를 정의 하는 정책이 있을 수 있습니다. 
+
+> [!IMPORTANT]
+> 보류 또는 보존 정책을 제거 하기 전에 레코드 관리 또는 법률 부서에 문의 하세요. 조직에 보류 중인 사서함 또는 데이터 유출 인시던트가 우선 하는지 여부를 정의 하는 정책이 있을 수 있습니다. 
   
 분산 된 데이터가 영구적으로 삭제 되었는지 확인 한 후 사서함을 이전 구성으로 되돌려야 합니다. [7 단계](#step-7-permanently-delete-the-spilled-data)에 나와 있는 세부 정보를 참조 하세요.
 
@@ -173,6 +174,9 @@ Custodian 또는 최종 사용자에 게 Office 365 E5 라이선스가 할당 �
 전송 된 데이터를 포함 하는 전자 메일을 찾기 위해 3 단계에서 작성 하 고 준비한 검색 쿼리와 6 단계에서 수집한 사서함 위치를 사용 하 여 데이터를 영구적으로 삭제할 수 있습니다.  앞에서 설명한 것 처럼 메시지를 삭제 하려면 조직 관리 역할 그룹의 구성원 이거나 검색 및 삭제 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가하는 방법에 대한 자세한 내용은 [보안 및 준수 센터의 eDiscovery 권한 부여](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions)를 참조하세요.
 
 전송 된 메시지를 삭제 하려면 [전자 메일 메시지 검색 및 삭제](https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization) 에서 2 단계 & 3 수행을 참조 하십시오.
+
+> [!IMPORTANT]
+> 고급 eDiscovery 사례에 있는 검토 집합의 전자 메일 항목은이 문서의 절차를 사용 하 여 삭제할 수 없습니다. 검토 집합의 항목은 실시간 서비스에서 Azure 저장소 위치에 복사 되 고 저장 되는 항목의 복사본 이기 때문입니다. 즉, 3 단계에서 만든 콘텐츠 검색에서는 반환 되지 않습니다. 검토 집합에서 항목을 삭제 하려면 검토 집합이 포함 된 고급 eDiscovery 사례를 삭제 해야 합니다. 자세한 내용은 [Close or delete a Advanced eDiscovery case](close-or-delete-case.md)을 참조 하십시오.
   
 ## <a name="step-8-verify-provide-a-proof-of-deletion-and-audit"></a>8 단계: 확인, 삭제 증거 제공 및 감사
 

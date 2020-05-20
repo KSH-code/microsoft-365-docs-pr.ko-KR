@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Outlook을 사용 하 여 암호화 된 전자 메일을 보내는 방법에 대해 알아봅니다.
-ms.openlocfilehash: fe0835c7b5b3328114ce7820da3336ca9f300d3e
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 5318fbe045c909e3b7f81d195a8e6b4d5eb96dc1
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165688"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322150"
 ---
 # <a name="encrypt-or-label-your-sensitive-email"></a>중요 한 전자 메일 암호화 또는 레이블 지정
 
@@ -52,7 +52,7 @@ ms.locfileid: "44165688"
 
 ## <a name="admin-settings"></a>관리 설정
 
-전자 메일 암호화 설정에 대 한 자세한 내용은 [Office 365의 전자 메일 암호화](https://docs.microsoft.com/office365/securitycompliance/email-encryption)를 통해 확인할 수 있습니다.
+전자 메일 암호화 설정에 대 한 자세한 내용은 [Office 365의 전자 메일 암호화](https://docs.microsoft.com/microsoft-365/compliance/email-encryption)를 통해 확인할 수 있습니다.
 
 ### <a name="automatically-encrypt-email-messages"></a>자동으로 전자 메일 메시지 암호화
 
@@ -64,9 +64,9 @@ ms.locfileid: "44165688"
 2. 관리 타일을 선택 합니다. 
 3. 관리 센터에서 **관리 센터 > Exchange**를 선택 합니다. 
 
-자세한 내용은 [Office 365에서 전자 메일 메시지를 암호화 하는 메일 흐름 규칙 정의](https://docs.microsoft.com/office365/securitycompliance/define-mail-flow-rules-to-encrypt-email)를 참조 하세요.
+자세한 내용은 [Office 365에서 전자 메일 메시지를 암호화 하는 메일 흐름 규칙 정의](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)를 참조 하세요.
 
 ### <a name="brand-your-encryption-messages"></a>암호화 메시지 브랜드
 
-캠페인 브랜딩을 적용 하 여 전자 메일 메시지의 모양과 텍스트를 사용자 지정할 수도 있습니다. 자세한 내용은 [암호화 된 메시지에 조직의 브랜드 추가](https://docs.microsoft.com/office365/securitycompliance/email-encryption)를 참조 하세요.
+캠페인 브랜딩을 적용 하 여 전자 메일 메시지의 모양과 텍스트를 사용자 지정할 수도 있습니다. 자세한 내용은 [암호화 된 메시지에 조직의 브랜드 추가](https://docs.microsoft.com/microsoft-365/compliance/email-encryption)를 참조 하세요.
 

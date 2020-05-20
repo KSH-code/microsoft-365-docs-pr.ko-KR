@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Microsoft 365의 보호 수준 향상에 대 한 도움말 보기
-ms.openlocfilehash: d7ab554ae2f162260e978fe82d4a197cc0d84d02
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 39c79f438bd8018f2e70863225664c55e4bcd615
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633716"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322126"
 ---
 # <a name="increase-threat-protection"></a>위협 방지 강화
 
@@ -35,16 +35,16 @@ ms.locfileid: "43633716"
 
 시작 하기 전에 Office 365 보안 점수를 확인 하세요. Office 365 안전한 점수는 정기 활동 및 보안 설정에 따라 조직의 보안을 분석 하 고 점수를 할당 합니다. 먼저 현재 점수를 기록 합니다. 이 문서에서 권장 하는 작업을 수행 하면 점수가 증가 합니다. 목표는 최대 점수를 얻는 것이 아니라 사용자의 생산성에 부정적인 영향을 주지 않는 환경을 보호 하기 위한 기회를 얻기 위한 것입니다. 
 
-자세한 내용은 [Microsoft 보안 점수](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score)를 참조 하세요.
+자세한 내용은 [Microsoft 보안 점수](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score)를 참조 하세요.
 
 
 ## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>메일에서 맬웨어에 대 한 보호 수준 올리기
 
 Office 365 또는 Microsoft 365 환경에는 맬웨어에 대 한 보호 기능이 포함 되어 있지만 일반적으로 맬웨어에 사용 되는 파일 형식을 사용 하 여 첨부 파일이 차단 되므로이 보호 기능을 높일 수 있습니다. 전자 메일에서 맬웨어 보호를 강화 하려면:
   
-1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 고 관리자 계정 자격 증명으로 로그인 합니다. 
+1. 으로 이동 하 [https://protection.office.com](https://protection.office.com) 고 관리자 계정 자격 증명으로 로그인 합니다. 
     
-2. 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책** \> **맬웨어 방지**를 선택 합니다.
+2. 보안 및 &amp; 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책** \> **맬웨어 방지**를 선택 합니다.
     
 3. 기본 정책을 두 번 클릭 하 여이 회사 차원의 정책을 편집 합니다.
     
@@ -73,7 +73,7 @@ Office 365 또는 Microsoft 365 환경에는 맬웨어에 대 한 보호 기능�
     
 2. **메일 흐름** 범주에서 **규칙**을 클릭 합니다.
     
-3. 을 **+** 클릭 한 다음 **새 규칙 만들기**를 클릭 합니다.
+3. 을 클릭 한 **+** 다음 **새 규칙 만들기**를 클릭 합니다.
     
 4. 대화 상자 아래쪽에 있는 **기타 옵션** 을 클릭 하 여 전체 옵션 집합을 표시 합니다. 
     
@@ -107,7 +107,7 @@ Office 365 또는 Microsoft 365 환경에는 맬웨어에 대 한 보호 기능�
     
 2. **메일 흐름** 범주에서 **규칙**을 클릭 합니다.
     
-3. 을 **+** 클릭 한 다음 **새 규칙 만들기**를 클릭 합니다.
+3. 을 클릭 한 **+** 다음 **새 규칙 만들기**를 클릭 합니다.
     
 4. 대화 상자 아래쪽에 있는 **기타 옵션** 을 클릭 하 여 전체 옵션 집합을 표시 합니다. 
     
@@ -134,7 +134,7 @@ ATP 피싱 방지 정책을 만들려면 [이 간략 한 교육 비디오](https
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다. 
     
-2. 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책을**선택 합니다.
+2. 보안 및 &amp; 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책을**선택 합니다.
     
 3. **정책** 페이지에서 **ATP 피싱 방지**를 선택 합니다.
     
@@ -151,22 +151,22 @@ ATP 피싱 방지 정책을 만들려면 [이 간략 한 교육 비디오](https
 |설명  <br/> |가장 중요 한 직원과 해당 도메인이 가장 되 고 있지 않은지 확인 합니다.  <br/> |
 |보호할 사용자를 추가  <br/> |**조건을 추가 하 고 받는 사람**을 선택 합니다. 사용자 이름을 입력 하거나 후보, 캠페인 관리자 및 기타 중요 교직원 구성원의 전자 메일 주소를 입력 합니다. 가장을 보호 하려는 최대 20 개의 내부 및 외부 주소를 추가할 수 있습니다.  <br/> |
 |보호할 도메인을 추가  <br/> |**조건 추가, 받는 사람 도메인**을 차례로 선택 합니다. Microsoft 365 구독에 연결 된 사용자 지정 도메인 (하나를 정의한 경우)을 입력 합니다. 둘 이상의 도메인을 입력할 수 있습니다.  <br/> |
-|작업 선택  <br/> |가장 된 사용자가 전자 메일을 보낸 경우: **다른 전자 메일 주소로 메시지 리디렉션을**선택 하 고 보안 관리자의 전자 메일 주소를 입력 합니다. 예를 들어 *Alice<span><span>@contoso 합니다.*          가장된 도메인에서 전자 메일을 보내는 경우: **격리 메시지**를 선택합니다.  <br/> |
+|작업 선택  <br/> |가장 된 사용자가 전자 메일을 보낸 경우: **다른 전자 메일 주소로 메시지 리디렉션을**선택 하 고 보안 관리자의 전자 메일 주소를 입력 합니다. 예를 들어 *Alice <span> <span> @contoso 합니다.*          가장된 도메인에서 전자 메일을 보내는 경우: **격리 메시지**를 선택합니다.  <br/> |
 |사서함 인텔리전스  <br/> |새 피싱 방지 정책을 만들 때 기본적으로 사서함 인텔리전스가 선택됩니다. 최상의 결과를 위해 해당 설정을 **켜짐**에 둡니다.  <br/> |
 |신뢰할 수 있는 발신자와 도메인 추가  <br/> |여기에서 자체 도메인 또는 다른 트러스트 된 도메인을 추가할 수 있습니다.  <br/> |
-|적용 대상  <br/> |**받는 사람의 도메인이 다음과 같음**을 선택합니다. **이러한 항목 모두** 아래에서 **선택**을 선택합니다. **+ 추가**를 선택합니다. 도메인 이름 (예: contoso) 옆에 있는 확인란을 선택 합니다 *.<span> com <span>* 의 목록에서 **추가**를 선택 합니다. **완료**를 선택합니다.  <br/> |
+|적용 대상  <br/> |**받는 사람의 도메인이 다음과 같음**을 선택합니다. **이러한 항목 모두** 아래에서 **선택**을 선택합니다. **+ 추가**를 선택합니다. 도메인 이름 (예: contoso) 옆에 있는 확인란을 선택 합니다 *. <span> <span> com*의 목록에서 **추가**를 선택 합니다. **완료**를 선택합니다.  <br/> |
    
 자세한 내용은 [Set Up Office 365 ATP 피싱 방지 정책](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies)를 참조 하세요.
   
 ## <a name="protect-against-malicious-attachments-files-and-links-with-advanced-threat-protection-atp"></a>ATP (Advanced Threat Protection)를 사용한 악의 있는 첨부 파일 및 링크 로부터 보호
 
-![를 https://aka.ms/aboutM365preview가리키는 배너입니다.](../media/m365admincenterchanging.png)
+![를 가리키는 배너 https://aka.ms/aboutM365preview 입니다.](../media/m365admincenterchanging.png)
 
-먼저 관리 센터 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 에서 새 관리 센터 미리 보기가 설정 되어 있는지 확인 합니다. 텍스트 옆의 토글을 **새 관리 센터로**설정 합니다.
+먼저 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 새 관리 센터 미리 보기가 설정 되어 있는지 확인 합니다. 텍스트 옆의 토글을 **새 관리 센터로**설정 합니다.
 
    ![새 관리 센터 미리 보기가 설정 되어 있습니다.](../media/previewon.png)
 
-아직 테 넌 트에 명함이 있는 **설정** 페이지가 표시 되지 않으면 보안 &amp; 및 준수 센터에서 다음 단계를 완료 하는 방법을 참조 하세요. Security [& 준수 센터에서 atp 안전한 첨부 파일 설정을](#set-up-atp-safe-attachments-in-the-security--compliance-center) 참조 하 고 [보안 & 준수 센터에서 atp 안전한 링크를 설정](#set-up-atp-safe-links-in-the-security--compliance-center)합니다.
+아직 테 넌 트에 명함이 있는 **설정** 페이지가 표시 되지 않으면 보안 및 준수 센터에서 다음 단계를 완료 하는 방법을 참조 하세요 &amp; . Security [& 준수 센터에서 atp 안전한 첨부 파일 설정을](#set-up-atp-safe-attachments-in-the-security--compliance-center) 참조 하 고 [보안 & 준수 센터에서 atp 안전한 링크를 설정](#set-up-atp-safe-links-in-the-security--compliance-center)합니다.
 
 1.  왼쪽 탐색 창에서 **설치**를 선택 합니다.
 2. **설정** 페이지에서 **고급 위협 으로부터 보호 강화** 카드에서 **보기** 를 선택 합니다.</br></br>
@@ -186,15 +186,15 @@ ATP 피싱 방지 정책을 만들려면 [이 간략 한 교육 비디오](https
   
 ATP 안전한 첨부 파일 정책을 만들려면 [이 짧은 비디오](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)를 시청 하거나 다음 단계를 완료 합니다.
   
-1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 고 관리자 계정으로 로그인 합니다. 
+1. 으로 이동 하 [https://protection.office.com](https://protection.office.com) 고 관리자 계정으로 로그인 합니다. 
     
-2. 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책을**선택 합니다.
+2. 보안 및 &amp; 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책을**선택 합니다.
     
 3. 정책 페이지에서 **ATP 안전한 첨부 파일**을 선택 합니다.
     
 4. 안전한 첨부 파일 페이지에서 **SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP 설정** 확인란을 선택 하 여이 보호를 광범위 하 게 적용 합니다. 
     
-5. 새 **+** 정책을 만들려면 선택 합니다. 
+5. **+** 새 정책을 만들려면 선택 합니다. 
     
 6. 다음 표의 설정을 적용 합니다. 
     
@@ -223,9 +223,9 @@ ATP 안전한 첨부 파일 정책을 만들려면 [이 짧은 비디오](https:
     
 ATP 안전한 링크를 설정 하려면 [이 간략 한 교육 비디오](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa)를 시청 하거나 다음 단계를 완료 하세요.
   
-1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 고 관리자 계정으로 로그인 합니다. 
+1. 으로 이동 하 [https://protection.office.com](https://protection.office.com) 고 관리자 계정으로 로그인 합니다. 
     
-2. 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책을**선택 합니다.
+2. 보안 및 &amp; 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책을**선택 합니다.
     
 3. 정책 페이지에서 **ATP 안전한 링크**를 선택 합니다.
     
@@ -239,7 +239,7 @@ ATP 안전한 링크를 설정 하려면 [이 간략 한 교육 비디오](https
     
 도메인의 모든 받는 사람을 대상으로 하는 새 정책을 만들려면 다음을 수행 합니다.
   
-1. 안전한 링크 페이지의 **전체 조직에 적용 되는 정책**에서를 클릭 **+** 하 여 새 정책을 만듭니다. 
+1. 안전한 링크 페이지의 **전체 조직에 적용 되는 정책**에서를 클릭 하 여 **+** 새 정책을 만듭니다. 
     
 2. 다음 표에 나와 있는 설정을 적용 합니다.
     
@@ -256,23 +256,23 @@ ATP 안전한 링크를 설정 하려면 [이 간략 한 교육 비디오](https
   
 ## <a name="turn-on-the-unified-audit-log"></a>통합 된 감사 로그 설정
 
-보안 &amp; 및 준수 센터에서 감사 로그 검색을 켠 후에는 로그에서 관리자 및 기타 사용자 활동을 유지 하 고 검색할 수 있습니다. 
+보안 및 준수 센터에서 감사 로그 검색을 켠 후에는 &amp; 로그에서 관리자 및 기타 사용자 활동을 유지 하 고 검색할 수 있습니다. 
 
 Microsoft 365 구독에서 감사 로그 검색을 설정 하거나 해제 하려면 Exchange Online에서 감사 로그 역할을 할당 받아야 합니다. 기본적으로이 역할은 Exchange 관리 센터의 사용 권한 페이지에 있는 준수 관리 및 조직 관리 역할 그룹에 할당 됩니다. Microsoft 365의 전역 관리자는 기본적으로이 그룹의 구성원입니다.
 
-1. 감사 로그 검색을 켜려면 왼쪽 **탐색 창의 관리 센터** <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 에서 **준수** 를 선택 합니다. 
+1. 감사 로그 검색을 켜려면 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 왼쪽 탐색 창의 **관리 센터** 에서 **준수** 를 선택 합니다. 
 2. **Microsoft 365 준수** 페이지에서 **기타 리소스**를 선택한 다음 **Office 365 보안 &amp; 센터** 카드에서 **엽니다** .
 
     ![보안 & 준수 자동차에서 열기를 선택 합니다.](../media/gotosecandcomp.png)
 3. 보안 및 준수 페이지에서 **검색** 을 선택한 후 **감사 로그 검색**을 선택 합니다.
 1. **감사 로그 검색** 페이지 맨 위에서 **감사 사용**을 선택 합니다.
 
-기능이 설정 되 면 파일, 폴더 및 여러 작업을 검색할 수 있습니다. 자세한 내용은 [search the audit log](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance)을 참조 하십시오.
+기능이 설정 되 면 파일, 폴더 및 여러 작업을 검색할 수 있습니다. 자세한 내용은 [search the audit log](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)을 참조 하십시오.
 
 ## <a name="tune-up-anonymous-sharing-settings-for-sharepoint-and-onedrive-files-and-folders"></a>SharePoint 및 OneDrive 파일 및 폴더에 대 한 조정 익명 공유 설정
 
 기본 익명 링크 만료를 14 일로 변경 하 고 기본 공유 유형을 "특정 사용자"로 변경 합니다. OneDrive 및 SharePoint에 대 한 공유 설정을 변경 하려면:
-1. 관리 센터로 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 이동한 후 왼쪽 탐색 창의 **관리 센터** 아래에서 **SharePoint** 를 선택 합니다. 
+1. 관리 센터로 이동한 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 후 왼쪽 탐색 창의 **관리 센터** 아래에서 **SharePoint** 를 선택 합니다. 
 2. SharePoint 관리 센터에서 **정책** \> **공유**로 이동 합니다.
 3. **공유** 페이지의 **파일 및 폴더 링크**에서 **특정 사용자**를 선택 하 고, **"모든 사용자" 링크에 대 한 고급 설정**에서 **이러한 링크는이 며칠 이내에 만료 되어야 함**을 선택 하 고 14 (연결 수명 범위를 제한 하려는 또 다른 일 수)를 입력 합니다.
 
@@ -280,7 +280,7 @@ Microsoft 365 구독에서 감사 로그 검색을 설정 하거나 해제 하�
 
 ## <a name="activity-alerts"></a>활동 알림
 
-활동 알림을 사용 하 여 관리자 및 사용자 활동을 추적 하 고 조직의 맬웨어 및 데이터 손실 방지 인시던트를 검색할 수 있습니다. 구독에 기본 정책 집합이 포함 되어 있지만 사용자 지정 정책을 만들 수도 있습니다. 자세한 내용은 [경고 정책을](https://docs.microsoft.com/office365/securitycompliance/alert-policies)참조 하세요. 예를 들어 외부에서 사용자를 공유 하지 않으려는 중요 한 파일을 SharePoint에 저장 하는 경우 누군가가이를 공유 하는 경우이를 알리는 알림을 만들 수 있습니다.
+활동 알림을 사용 하 여 관리자 및 사용자 활동을 추적 하 고 조직의 맬웨어 및 데이터 손실 방지 인시던트를 검색할 수 있습니다. 구독에 기본 정책 집합이 포함 되어 있지만 사용자 지정 정책을 만들 수도 있습니다. 자세한 내용은 [경고 정책을](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)참조 하세요. 예를 들어 외부에서 사용자를 공유 하지 않으려는 중요 한 파일을 SharePoint에 저장 하는 경우 누군가가이를 공유 하는 경우이를 알리는 알림을 만들 수 있습니다.
 
 다음 그림에는 Microsoft 365에 포함 된 기본 정책이 나와 있습니다. <br/><br/>
     ![Microsoft 365에 포함 된 기본 경고 정책](../media/alertpolicies.png)

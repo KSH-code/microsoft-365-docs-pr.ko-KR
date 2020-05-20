@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Exchange online 관리자는 조직의 전자 메일 및 사서함을 관리 합니다. 예를 들어 사용자 사서함에서 삭제 된 항목을 복구 합니다. '
-ms.openlocfilehash: e45d6a0e9f2151e03a300b1e36bf53b7c9f8ef68
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 984345dd92e9b9a6da3c803b77b663bd8299c62e
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43618911"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322078"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>Exchange Online 관리자 역할 정보
 
@@ -37,7 +37,7 @@ Microsoft 365을 관리 하는 데 도움이 되도록 사용자에 게 [Exchang
   
 - [사용자 사서함에서 지운 편지함 복구 - 관리자 도움말](https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox)
     
-- [조직의 사서함에 대 한 보관 및 삭제 정책을 설정](https://docs.microsoft.com/office365/securitycompliance/set-up-an-archive-and-deletion-policy-for-mailboxes)합니다.
+- [조직의 사서함에 대 한 보관 및 삭제 정책을 설정](https://docs.microsoft.com/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes)합니다.
     
 - 사서함 공유 정책과 같은 사서함 기능 설정: 사용자가 조직 외부의 다른 사용자와 일정 및 연락처 정보를 공유 하는 방법입니다. 
     
@@ -45,7 +45,7 @@ Microsoft 365을 관리 하는 데 도움이 되도록 사용자에 게 [Exchang
     
 - 사용자 그룹이 일반 전자 메일 주소에서 전자 메일을 모니터링 하 고 보낼 수 있도록 [공유 사서함을 만듭니다](../email/create-a-shared-mailbox.md) . 
     
-- 조직에 대 한 [스팸 방지 보호](https://docs.microsoft.com/office365/securitycompliance/anti-spam-protection) 및 맬웨어 필터를 전자 메일로 전송 합니다. 
+- 조직에 대 한 [스팸 방지 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-protection) 및 맬웨어 필터를 전자 메일로 전송 합니다. 
     
 - Microsoft 365 그룹 관리
     

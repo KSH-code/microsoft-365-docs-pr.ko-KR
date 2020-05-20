@@ -20,12 +20,12 @@ search.appverid:
 description: Microsoft 365 관리 센터-이 달에 추가 된 기능에 대해 알아봅니다.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: 6dcfa1bac5fa9837f9882a575c3d5eaa6cf3be4f
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 6514456a16a6ee2079a1b93e053c21863809db24
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208167"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322138"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운 기능
 
@@ -46,7 +46,7 @@ Microsoft 365 관리 센터에 로그인 할 때 항상 새 관리 센터로 이
 
 - [Exchange Online의 새로운 기능](https://go.microsoft.com/fwlink/?linkid=2119714)
 - [Microsoft Intune의 새로운 기능](https://docs.microsoft.com/mem/intune/fundamentals/whats-new)
-- [Microsoft 365 준수 센터의 새로운 기능](https://docs.microsoft.com/Office365/SecurityCompliance/whats-new)
+- [Microsoft 365 준수 센터의 새로운 기능](https://docs.microsoft.com/microsoft-365/compliance/whats-new)
 - [SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
 - [Exchange 관리 센터의 새로운 기능](https://docs.microsoft.com/Exchange/whats-new)
 - [Office 업데이트](https://docs.microsoft.com/OfficeUpdates/)

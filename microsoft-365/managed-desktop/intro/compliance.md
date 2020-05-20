@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 6114642b5899e2708703e3c0d62cadde25296504
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 31844ee413f89992babd2b1917fcb89d20db6804
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632818"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322020"
 ---
 # <a name="compliance"></a>규정 준수
 
@@ -21,7 +21,7 @@ Microsoft Managed Desktop IT-서비스를 사용 하는 경우 Microsoft는 광�
 
 Microsoft Managed Desktop은 다음과 같은 인증을 얻은 것입니다.
 
-- [ISO 27001 정보 보안 관리 표준](../../compliance/offering-ISO-27001.md)
+- [ISO 27001 정보 보안 관리 표준 (ISMS)](../../compliance/offering-ISO-27001.md)
 - [ISO 27701 개인 정보 관리 시스템 (PIMS)](../../compliance/offering-iso-27701.md)
 - [ISO 27017 정보 보안 제어를 위한 연습용 코드](../../compliance/offering-ISO-27017.md)
 - [ISO 27018 클라우드에서 개인 데이터를 보호 하기 위한 방법의 코드](../../compliance/offering-ISO-27018.md)
@@ -38,7 +38,7 @@ Microsoft Managed Desktop은 다음과 같은 인증을 얻은 것입니다.
 제어 및 기술 요구 사항을 비롯 한 적절 한 정보 [(STP)](https://servicetrust.microsoft.com/)는 Microsoft 클라우드 서비스 제공에 대 한 이러한 정보를 확인할 수 있는 중앙 리포지토리입니다. STP의 [감사 보고서](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide) 섹션에서 감사자 보고서, 준수 인증서 등을 다운로드할 수 있습니다.
 
 > [!NOTE]
-> Microsoft Managed Desktop은 Azure에서 실행 되므로 일부 관련 문서에는 파일 이름 (예: "Microsoft Azure, Dynamics 365 및 기타 온라인 서비스")이 있습니다. 이러한 문서에서는 일반적으로 "Monitoring + Management" 범주 아래에서 Microsoft Managed Desktop을 찾을 수 있습니다.
+> Microsoft Managed Desktop은 Azure에서 실행 되므로 일반적으로 관련 문서에는 파일 이름 (예: "Microsoft Azure, Dynamics 365 및 기타 온라인 서비스")이 있습니다. 이러한 문서에서는 일반적으로 "Monitoring + Management" 범주 아래에서 Microsoft Managed Desktop을 찾을 수 있습니다.
 
 ## <a name="shared-responsibility"></a>공유 책임
 

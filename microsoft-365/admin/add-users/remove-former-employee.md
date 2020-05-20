@@ -24,19 +24,19 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: '다음 검사 목록을 따라 Microsoft 365에서 직원을 제거 하 고 데이터를 보호 합니다. '
-ms.openlocfilehash: d54a37575c0280ca9ad23fdd4a4b878286dde1ab
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: bfde2f55f12967e15213ecb12274a215c4190c93
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140596"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322090"
 ---
 # <a name="remove-a-former-employee"></a>이전 직원 제거
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
   
@@ -135,7 +135,7 @@ PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-Azu
     
     비활성 사서함은 전자 메일을 받을 수 없으며 조직의 공유 주소록 또는 기타 목록에 표시되지 않습니다.
     
-    사서함에 보존을 적용 하는 방법에 대 한 자세한 내용은 [Exchange Online에서 비활성 사서함 관리](https://docs.microsoft.com/office365/securitycompliance/create-and-manage-inactive-mailboxes)를 참조 하세요.
+    사서함에 보존을 적용 하는 방법에 대 한 자세한 내용은 [Exchange Online에서 비활성 사서함 관리](https://docs.microsoft.com/microsoft-365/compliance/create-and-manage-inactive-mailboxes)를 참조 하세요.
     
 ## <a name="forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox"></a>이전 직원의 전자 메일을 다른 직원에게 전달 또는 공유 사서함으로 변환
 <a name="bkmk_forward"> </a>
@@ -218,7 +218,7 @@ PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-Azu
     
 4. 사용자를 선택 하 고 **모바일 장치**에서 **세부 정보 보기**를 선택 합니다. 
     
-5. 모바일 장치 **세부 정보** 페이지의 **모바일**장치에서 모바일 장치를 선택 하 고 **데이터**![지우기 장치](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png)지우기를 선택한 다음 **차단을**선택 합니다. 
+5. 모바일 장치 **세부 정보** 페이지의 **모바일**장치에서 모바일 장치를 선택 하 고 **데이터** ![ 지우기 장치 지우기를 선택한 ](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png) 다음 **차단을**선택 합니다. 
     
 6. **저장**을 선택합니다. 
     
@@ -325,7 +325,7 @@ Microsoft 365 구독의 일부로 전자 메일이 있는 경우 다음 단계�
 
 
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
 
 
 ::: moniker-end
