@@ -129,8 +129,8 @@
               href: how-dlp-works-between-admin-centers.md
     - name: 중요한 정보 유형
       items:
-        - name: 중요한 정보 형식이 찾는 항목
-          href: what-the-sensitive-information-types-look-for.md
+        - name: 중요한 정보 유형 엔터티 정의
+          href: sensitive-information-type-entity-definitions.md
         - name: DLP 기능이 찾는 항목
           href: what-the-dlp-functions-look-for.md
         - name: 사용자 지정 DLP 확장된 개요 보기
