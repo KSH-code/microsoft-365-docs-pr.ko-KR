@@ -20,19 +20,24 @@ search.appverid:
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다. 예를 들어 서비스 관리자는 Microsoft로 지원 티켓을 엽니다.
 ms.custom: okr_smb
-ms.openlocfilehash: 4e3cec5b2ff86b35d02f8963a584efdb272f2c5e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2f3b5fedf77c2f763f60c097b25101255d55ecaf
+ms.sourcegitcommit: 4ce28ad4d17d336106c1720d65349f19f9e90e04
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43618923"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44294219"
 ---
 # <a name="about-admin-roles"></a>관리자 역할 정보
 
-사용자의 구독은 조직의 사용자에게 할당할 수 있는 관리자 역할과 함께 제공됩니다. 각 관리자 역할은 공통 비즈니스 기능에 매핑되며 조직의 직원에게 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다. 자세한 내용은 [관리자 역할 할당](assign-admin-roles.md)을 참조하세요.
+Microsoft 365 또는 Office 365 구독은 Microsoft 365 관리 센터를 사용하여 조직의 사용자에게 할당할 수 있는 관리자 역할의 집합과 함께 제공됩니다. 각 관리자 역할은 공통 비즈니스 기능에 매핑되며 조직의 직원에게 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다.
 
-> [!TIP] 
-> 자세한 역할 설명을 찾고 계신가요? [Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) 확인하기
+Microsoft 365 관리 센터를 통해 Azure AD 역할과 Microsoft Intune 역할을 관리할 수 있습니다. 그러나 해당 역할은 Azure AD 포털과 Intune 관리 센터에서 사용할 수 있는 역할의 하위 집합입니다.
+
+Azure AD에 대한 자세한 역할 설명을 찾고 있나요? [Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)을 확인하세요.
+
+Microsoft Intune에 대한 자세한 역할 설명을 찾고 있나요? [Microsoft Intune으로 RBAC(역할 기반 액세스 제어)](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control)를 확인하세요.
+
+Microsoft 365 관리 센터에서 역할을 할당하는 방법에 대한 자세한 내용은 [관리자 역할 할당하기](assign-admin-roles.md)를 참조하세요.
 
 ## <a name="things-to-consider"></a>고려할 사항...
 
@@ -44,32 +49,21 @@ ms.locfileid: "43618923"
 | *최소 허용* 역할 할당    | *최소 허용* 역할을 지정하는 것은 관리자가 작업을 수행하는 데 필요한 액세스 권한만 부여하는 것을 의미합니다. 예를 들어, 누군가 직원 암호를 재설정하게 하려는 경우 무제한 전역 관리자 역할을 할당하지 말고 비밀번호 관리자 또는 헬프 데스크 관리자와 같은 제한된 관리자 역할을 할당해야 합니다. 이를 통해 데이터를 안전하게 유지할 수 있습니다.                 |
 | 관리자에게 다단계 인증 요구                  |    모든 사용자에게 MFA를 요구하는 것이 사실 좋은 생각이며 관리자는 반드시 MFA를 사용하여 로그인해야 합니다. MFA는 사용자가 자신이 누구인지 확인하기 위해 두 번째 식별 방법을 입력하도록 합니다. 관리자는 많은 고객 및 직원 데이터에 액세스할 수 있으며 MFA가 필요한 경우 관리자 암호가 손상되더라도 두 번째 식별 양식없이 암호를 사용할 수 없습니다.  <br><br>다음에 사용자가 로그인할 때 MFA를 켜면 계정 복구를 위해 대체 이메일 주소와 전화 번호를 제공해야 합니다.  <br> [다단계 인증 설정](../security-and-compliance/set-up-multi-factor-authentication.md)          |
 
-  
-## <a name="some-roles-are-missing-from-active-users--manage-admin-roles-where-did-they-go"></a>활성 사용자> 관리 역할 관리에서 일부 역할이 누락되었습니다. 어디에 있나요?
-기본적으로 Microsoft에서는 대부분의 조직에서 사용하는 역할을 먼저 보여줍니다. 역할을 찾을 수없는 경우 목록 맨 아래로 이동하여 **역할 더보기**를 선택하십시오.
-
-## <a name="how-can-i-tell-which-permissions-are-assigned-to-me"></a>어떤 권한이 할당되어 있는지 어떻게 알 수 있습니까?
 설정이나 페이지를 편집할 권한이 없다는 메시지가 관리 센터에 표시된다면 이는 해당 권한이 없는 역할이 할당되었기 때문입니다.
 
-## <a name="what-about-the-azure-active-directory-roles"></a>Azure Active Directory 역할의 경우는 어떤가요? 
+## <a name="azure-ad-roles-available-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 이용 가능한 Azure AD 역할
 
-Azure 포털에는 Microsoft 365 관리 센터에서 사용할 수 있는 것보다 많은 역할이 있습니다. 대기업의 경우 조직 요구 사항을 충족하는 역할이 Azure 포털에 있을 수 있습니다.
-
-모든 Azure Active Directory 역할의 목록과 설명은 [Azure Active Directory에서 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)을 참조하세요.
+Microsoft 365 관리 센터를 통해 30개 이상의 Azure AD 역할을 관리할 수 있습니다. 그러나 이 역할은 Azure 포털에서 사용할 수 있는 역할의 하위 집합입니다. 대기업의 경우 조직 요구 사항을 충족하는 역할이 Azure 포털에 있을 수 있습니다.
 
 관리자 역할이 할당된 사용자는 Microsoft 365 관리 센터 또는 Azure 포털에서 역할을 할당하거나 Windows PowerShell용 Azure AD 모듈을 사용하든지와 관계 없이 조직에 가입한 클라우드 서비스에 동일한 수준의 액세스 권한을 갖습니다. 
-  
-## <a name="roles-available-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 이용 가능한 역할
-
-Microsoft 365 관리 센터를 통해 30개 이상의 Azure AD 역할을 관리할 수 있습니다. 그러나 이 역할은 Azure 포털에서 사용할 수 있는 역할의 하위 집합입니다.
 
 ::: moniker range="o365-worldwide"
 
-관리 센터에서 **역할**로 이동한 다음 원하는 역할을 선택하 여 세부 정보 창을 열 수 있습니다. **사용 권한** 탭을 선택하여 해당 역할에 할당된 관리자가 수행할 수 있는 작업에 대한 자세한 목록을 볼 수 있습니다.
+Microsoft 365 관리 센터에서 **역할**로 이동한 다음 아무 역할이나 선택하여 세부 정보 창을 열 수 있습니다. **사용 권한** 탭을 선택하여 해당 역할에 할당된 관리자가 수행할 수 있는 작업에 대한 자세한 목록을 볼 수 있습니다. 역할에 사용자를 추가하려면 **할당된** 또는 **할당된 관리자** 탭을 선택합니다.
 
 ::: moniker-end
 
-조직에서 다음 역할을 할당하기만 하면 될 것입니다. (역할에 연결된 cmdlet을 포함한 자세한 내용은 [Azure Active Directory에서 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)을 참조하세요.)
+조직에서 다음 역할을 할당하기만 하면 됩니다. 기본적으로 Microsoft에서는 대부분의 조직에서 사용하는 역할을 먼저 보여줍니다. 역할을 찾을 수없는 경우 목록 맨 아래로 이동하여 **역할 더보기**를 선택하십시오. (역할에 연결된 cmdlet을 포함한 자세한 내용은 [Azure Active Directory에서 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)을 참조하세요.)
 
 |관리자 역할     |이 역할에는 누가 할당되어야 하나요?  |
 |---------|---------|
@@ -84,7 +78,7 @@ Microsoft 365 관리 센터를 통해 30개 이상의 Azure AD 역할을 관리�
 |Teams 서비스 관리자    |   Teams 관리 센터에 액세스하고 관리해야 하는 사용자에게 Teams 서비스 관리자 역할을 할당합니다. <br><br>Teams 서비스 관리자도 다음을 수행할 수 있습니다. <br> - 모임 관리 <br> - 회의 브리지 관리 <br> - 페더레이션, 팀 업그레이드 및 팀 클라이언트 설정을 포함한 모든 조직 전체 설정 관리   |
 |사용자 관리자     |    모든 사용자를 위해 다음 작업을 수행해야 하는 사용자에게 사용자 관리자 역할을 할당합니다. <br> - 사용자 및 그룹 추가 <br> - 라이선스 할당 <br> - 대부분의 사용자 속성 관리 <br> - 사용자 보기 만들기 및 관리 <br> - 암호 만료 정책 설정 <br> - 서비스 요청 관리 <br> - 서비스 상태 모니터링 <br><br>  사용자 관리자는 또한 관리자가 아닌 사용자와 디렉터리 읽기 권한자, 게스트 초대자, 헬프 데스크 관리자, 메시지 센터 읽기 권한자, 보고서 읽기 권한자 역할이 할당된 사용자에 대해 다음 작업을 수행할 수 있습니다.  <br> - 사용자 이름 관리<br> - 사용자 삭제 및 복원<br> - 암호 초기화 <br> - 강제로 사용자에게 로그 아웃 <br> - 업데이트(FIDO) 장치 키   |
 
-### <a name="all-roles"></a>모든 역할
+### <a name="all-azure-ad-roles"></a>모든 Azure AD 역할
 
  여기에 Microsoft 365 관리 센터에서 이용 가능한 모든 관리자 역할에 대한 목록이 나와 있습니다.
 
@@ -134,6 +128,17 @@ Microsoft 365 관리 센터를 통해 30개 이상의 Azure AD 역할을 관리�
 |Teams 통신 지원 엔지니어     |    모든 통화 참가자의 통화 기록 세부 정보를 읽고 통신 문제를 해결합니다.     |
 |Teams 통신 지원 전문가     |    통신 문제를 해결하기 위해 특정 사용자에 대해서만 사용자 통화 세부 정보를 읽습니다.|
 |사용자 관리자     |   사용자 암호를 재설정하고, 필터를 포함하여 사용자 및 그룹을 만들고 관리하고 서비스 요청을 관리하고 서비스 상태를 모니터링합니다.|
+
+## <a name="microsoft-intune-roles-available-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 이용 가능한 Microsoft Intune 역할
+
+|관리자 역할     |이 역할에는 누가 할당되어야 하나요?  |
+|---------|---------|
+|응용 프로그램 관리자     |   모바일 앱의 응용 프로그램 수명 주기를 관리하고, 정책 관리 앱을 구성하고, 장치 정보와 구성 프로필을 보는 사용자에게 응용 프로그램 역할을 할당합니다.  |
+|지원 센터 운영자     |   사용자와 장치에 앱과 정책을 할당하는 사용자에게 지원 센터 운영자 역할을 할당합니다. |
+|Intune 역할 관리자    |   Intune 사용 권한을 다른 관리자에게 할당할 수 있고 사용자 지정 및 기본 제공 Intune 역할을 관리할 수 있는 사용자에게 Intune 역할 관리자를 할당합니다.   |
+|정책 및 프로필 관리자     |   규정 준수 정책, 구성 프로필, Apple 등록을 관리하는 사용자에게 정책 및 프로필 관리자 역할을 할당합니다.   |
+|읽기 전용 운영자     |   사용자, 장치, 등록 세부 정보 및 구성을 보기만 할 수 있는 사용자에게 읽기 전용 운영자 역할을 할당합니다.   |
+|학교 관리자     |   교육용 Intune에서 Windows 10 및 iOS 장치, 앱과 구성을 관리하는 데 필요한 모든 액세스 권한을 부여하려면 학교 관리자 역할을 사용자에게 할당합니다.   |
 
 ## <a name="delegated-administration-for-microsoft-partners"></a>Microsoft 파트너를 위한 위임 된 관리
 
