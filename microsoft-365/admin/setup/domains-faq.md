@@ -22,19 +22,19 @@ search.appverid:
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: FAQ에서 질문에 대 한 대답을 찾아 도메인에 대해 자세히 알아보세요.
 ms.custom: okr_smb
-ms.openlocfilehash: 09e811b64def4d507a9d825f95b9d22f910669bb
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 1af20ed0052a7bb4f98072a7142bf7e112b8305e
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140752"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327115"
 ---
 # <a name="domains-faq"></a>도메인 FAQ
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -102,7 +102,7 @@ Office 365 서비스에 대 한 DNS 레코드를 직접 설정 해야 합니다 
 
 도메인은 전자 메일 주소에서 **@** 기호 뒤에, 그리고 웹 주소에서 **www.** 뒤에 나타나는 고유한 이름입니다. 일반적으로 *yourbusiness.com* 또는 stateuniversity.edu와 같은 표준 인터넷 접미사와 조직의 이름 형식을 사용 합니다 *.* 
   
-"**Rob\@contoso.com**"와 같은 사용자 지정 도메인을 Office 365와 함께 사용 하면 신용 및 브랜드를 위한 신뢰도를 구축 하는 데 도움이 될 수 있습니다. 
+"**Rob \@ contoso.com**"와 같은 사용자 지정 도메인을 Office 365와 함께 사용 하면 신용 및 브랜드를 위한 신뢰도를 구축 하는 데 도움이 될 수 있습니다. 
   
 [Office 365에서 도메인을 구입 하 여이를 자동으로 설정](../get-help-with-domains/buy-a-domain-name.md)하거나 이미 도메인 등록 기관에서 소유한 사용자를 구입 하거나 가져올 수 있습니다.
   
@@ -128,11 +128,11 @@ Office 365 서비스에 대 한 DNS 레코드를 직접 설정 해야 합니다 
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">라이선스</a> **설정** > 페이지로 이동 합니다.
+1. 관리 센터에서 **Settings** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">라이선스</a> 설정 페이지로 이동 합니다.
 
 ::: moniker-end
     
-2. **도메인** 페이지에서 다른 도메인 등록자에 게 전송할 Office 365 도메인을 선택 하 고 **도메인 전송을** > **사용 하 여 도메인 전송을**선택 합니다.
+2. **도메인** 페이지에서 다른 도메인 등록자에 게 전송할 Office 365 도메인을 선택 하 고 **도메인 전송을**사용 하 여  >  **도메인 전송을**선택 합니다.
        
 4. 단계에 따라 도메인 전송을 준비 합니다.
     
@@ -258,6 +258,8 @@ Office 365 서비스에 대 한 DNS 레코드를 직접 설정 해야 합니다 
 - 비즈니스용 skype Online 데스크톱 클라이언트는 자동 검색을 사용 하 여 사용자가 서버 이름을 입력 하지 않고도 로그인 할 수 있도록 비즈니스용 Skype Online 서비스를 자동적으로 찾을 수 있습니다.
     
 - 비즈니스용 skype Online 모바일 클라이언트는 자동 검색을 사용 하 여 사용자가 서버 이름을 입력 하지 않고도 로그인 할 수 있도록 비즈니스용 Skype Online 서비스를 자동적으로 찾을 수 있습니다.
+
+- 온-프레미스 또는 온라인에서 비즈니스용 Skype를 사용 하는 Microsoft 팀 페더레이션 자세한 내용은 [Microsoft 팀에 대 한 조직의 네트워크 준비](https://docs.microsoft.com/microsoftteams/prepare-network)를 참조 하세요.
     
  **SPF/TXT 레코드를 지원 하지 않는 경우**다른 사용자가 사용자의 도메인을 사용 하 여 스팸 또는 기타 악성 전자 메일을 보낼 수 있습니다. SPF 레코드는 도메인에서 전자 메일을 보낼 수 있는 권한이 부여 된 서버를 식별 하는 방식으로 작동 합니다. 
   
@@ -342,7 +344,7 @@ Office 365 서비스에 대 한 DNS 레코드를 직접 설정 해야 합니다 
 
 Office 365에서는 서비스에 등록할 때 *contoso.onmicrosoft.com*와 같은 도메인을 만듭니다. 등록할 때 만드는 사용자 ID에는 *alan@contoso.onmicrosoft.com*와 같은 도메인이 포함 됩니다. 
   
- **전자 메일을 *\@alan contoso.com*:** 으로 지정 하려면 [도메인을 구입](../get-help-with-domains/buy-a-domain-name.md) 하거나 사용자 및 도메인을 이미 소유 하 고 있는 경우 [Office 365에 추가](add-domain.md) 의 단계를 수행 하세요. 
+ **전자 메일을 *alan \@ contoso.com*:** 으로 지정 하려면 [도메인을 구입](../get-help-with-domains/buy-a-domain-name.md) 하거나 [사용자 및 도메인을 이미 소유 하 고 있는 경우 Office 365에 추가](add-domain.md) 의 단계를 수행 하세요. 
   
 - **등록 후에는 onmicrosoft 도메인의 이름을 바꿀 수 없습니다.** 예를 들어 선택한 초기 도메인이 fourthcoffee.onmicrosoft.com 인 경우 fabrikam.onmicrosoft.com로 변경할 수 없습니다. 다른 onmicrosoft.com 도메인을 사용 하려면 Office 365에서 새 구독을 시작 해야 합니다. 
     
@@ -441,7 +443,7 @@ Office 365에서는 서비스에 등록할 때 *contoso.onmicrosoft.de*와 같�
         
     3. EAC에서 **보호**를 선택 하 고 **연결 필터**를 선택 합니다. 
         
-    4. **IP 허용 목록**에서를 선택 **+** 하 고 현재 전자 메일 공급자 로부터 가져올 수 있는 메일 서버 IP 주소를 추가 합니다. 
+    4. **IP 허용 목록**에서를 선택 하 **+** 고 현재 전자 메일 공급자 로부터 가져올 수 있는 메일 서버 IP 주소를 추가 합니다. 
     
 5. 사용자 계정 만들기 및 기본 (회신) 주소 설정
     

@@ -17,12 +17,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 많은 조직에서는 이미 Windows Server FCI(파일 분류 인프라)의 분류 속성, SharePoint의 문서 속성 또는 타사 시스템을 통해 적용된 문서 속성을 사용하여 중요한 정보를 식별하고 분류하는 프로세스를 유지하고 있습니다. 이로 인해 조직에 대해 설명 하는 경우 특정 FCI 또는 기타 속성 값을 사용 하 여 Office 문서에서 DLP 정책을 적용할 수 있도록 Windows Server FCI 또는 기타 시스템에서 문서에 적용 한 속성을 인식 하는 DLP 정책을 만들 수 있습니다.
-ms.openlocfilehash: e2b64412a6f35dc3f29fe538a849f84e764af156
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3fa28492ef4d19903797741795091561de3fa257
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632203"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327104"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기
 
@@ -56,11 +56,11 @@ DLP는 검색 크롤러를 사용 하 여 사이트에서 중요 한 정보를 �
     
 2. 왼쪽 탐색 영역에서 **관리 센터** \> **SharePoint**를 선택 합니다. 이제 사용자는 SharePoint 관리 센터에 있습니다.
     
-3. 왼쪽 탐색 창의 검색 **관리** \> 페이지 **에서 검색** \> **스키마 관리**를 선택 합니다.
+3. 왼쪽 탐색 창의 검색 관리 페이지 **에서 검색** \> **search administration** \> **스키마 관리**를 선택 합니다.
     
     ![검색 관리 페이지의 SharePoint 관리 센터](../media/6bcd3aec-d11a-4f8c-9987-8f35da14d80b.png)
   
-4. **관리 속성** 페이지 \> 에서 **새 관리 속성**을 설정 합니다.
+4. **관리 속성** 페이지에서 \> **새 관리 속성**을 설정 합니다.
     
     ![관리 속성 페이지에서 새 관리 속성 단추가 강조 표시 된](../media/b161c764-414c-4037-83ed-503a49fb4410.png)
   
@@ -70,13 +70,13 @@ DLP는 검색 크롤러를 사용 하 여 사이트에서 중요 한 정보를 �
     
 7. **기본 특징** 아래에서 **쿼리 가능** 및 **조회 가능**을 선택합니다.
     
-8. **크롤링 속성** \> 에 매핑 아래에서 **매핑을 추가**합니다.
+8. **크롤링 속성에** 매핑 아래에서 \> **매핑을 추가**합니다.
     
-9. **크롤링 속성 선택** 대화 상자 \> 에서 DLP 정책 \> **확인**에 사용할 Windows Server fci 속성 또는 기타 속성에 해당 하는 크롤링 속성을 찾아 선택 합니다.
+9. **크롤링 속성 선택** 대화 상자에서 \> DLP 정책 확인에 사용할 Windows Server fci 속성 또는 기타 속성에 해당 하는 크롤링 속성을 찾아 선택 합니다 \> **OK**.
     
     ![크롤링된 속성 선택](../media/aeda1dce-1342-48bf-9594-a8e4f230e8aa.png)
   
-10. 페이지 \> 맨 아래에서 **확인을**선택 합니다.
+10. 페이지 맨 아래에서 \> **확인을**선택 합니다.
     
 ## <a name="create-a-dlp-policy-that-uses-an-fci-property-or-other-property"></a>FCI 속성 또는 기타 속성을 사용하는 DLP 정책 만들기
 
@@ -92,13 +92,13 @@ DLP는 검색 크롤러를 사용 하 여 사이트에서 중요 한 정보를 �
     
 ### <a name="create-the-dlp-policy-by-using-powershell"></a>PowerShell을 사용 하 여 DLP 정책 만들기
 
-조건 **문서 속성** 에는 보안 &amp; 및 준수 센터의 UI에서 일시적으로 사용할 수 없지만 PowerShell을 사용 하 여이 조건을 계속 사용할 수 있습니다. `New\Set\Get-DlpCompliancePolicy` Cmdlet을 사용 하 여 DLP 정책에 대 한 작업을 수행 하 고 `New\Set\Get-DlpComplianceRule` `ContentPropertyContainsWords` 매개 변수와 함께 cmdlet을 사용 하 여 조건을 추가할 수 있습니다 **문서 속성에 이러한 값이 포함 되어**있습니다.
+조건 **문서 속성** 에는 보안 및 준수 센터의 UI에서 일시적으로 사용할 수 &amp; 없지만 PowerShell을 사용 하 여이 조건을 계속 사용할 수 있습니다. Cmdlet을 사용 `New\Set\Get-DlpCompliancePolicy` 하 여 DLP 정책에 대 한 작업을 수행 하 고 `New\Set\Get-DlpComplianceRule` 매개 변수와 함께 cmdlet을 사용 `ContentPropertyContainsWords` 하 여 조건을 추가할 수 있습니다 **문서 속성에 이러한 값이 포함 되어**있습니다.
   
 이러한 cmdlet에 대 한 자세한 내용은 [Security &amp; 준수 센터 cmdlet](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)를 참조 하세요.
   
-1. [원격 PowerShell을 사용 &amp; 하 여 보안 및 준수 센터에 연결](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
+1. [&amp;원격 PowerShell을 사용 하 여 보안 및 준수 센터에 연결](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
     
-2. 을 사용 하 `New-DlpCompliancePolicy`여 정책을 만듭니다.
+2. 을 사용 하 여 정책을 만듭니다 `New-DlpCompliancePolicy` .
 
 다음은 모든 위치에 적용 되는 DLP 정책을 만드는 PowerShell 예제입니다.
 
@@ -106,7 +106,7 @@ DLP는 검색 크롤러를 사용 하 여 사이트에서 중요 한 정보를 �
 New-DlpCompliancePolicy -Name FCI_PII_policy -ExchangeLocation All -SharePointLocation All -OneDriveLocation All -Mode Enable
 ```
 
-3. 위에서 설명한 두 가지 규칙을 사용 하 `New-DlpComplianceRule`여, 즉 **낮은** 값에 대 한 규칙을 만들고, **높은** 값과 **중간** 가치에 대해 다른 규칙을 만듭니다. 
+3. 위에서 설명한 두 가지 규칙을 사용 하 여 `New-DlpComplianceRule` , 즉 **낮은** 값에 대 한 규칙을 만들고, **높은** 값과 **중간** 가치에 대해 다른 규칙을 만듭니다. 
     
     다음은 이러한 두 가지 규칙을 만드는 PowerShell 예제입니다. 속성 이름/값 쌍은 따옴표로 묶여 있고 속성 이름에는 다음과 같이 공백 없이 쉼표로 구분 하 여 여러 값을 지정할 수 있습니다.`"<Property1>:<Value1>,<Value2>","<Property2>:<Value3>,<Value4>"....`
 
@@ -137,7 +137,7 @@ New-DlpComplianceRule -Name FCI_PII_content-High,Moderate -Policy FCI_PII_policy
 
 1. 사이트에서 **설정** (오른쪽 위의 기어 아이콘) \> **사이트 설정을**선택 합니다.
     
-2. **검색**에서 **검색 및 오프 라인 가용성** \> 다시 **인덱싱 사이트**를 선택 합니다.
+2. **검색**에서 **검색 및 오프 라인 가용성 다시** \> **인덱싱 사이트**를 선택 합니다.
     
 ## <a name="more-information"></a>추가 정보
 
@@ -149,4 +149,4 @@ New-DlpComplianceRule -Name FCI_PII_content-High,Moderate -Policy FCI_PII_policy
     
 - [DLP 정책 템플릿에 포함되는 내용](what-the-dlp-policy-templates-include.md)
     
-- [중요 한 정보 유형 목록](what-the-sensitive-information-types-look-for.md)
+- [중요 한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)

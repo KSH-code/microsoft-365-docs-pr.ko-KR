@@ -11,12 +11,12 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: 포함 된 내용을 비롯 하 여 Microsoft 365 준수 센터, 다운로드 방법 및 다음 단계에 대해 알아봅니다.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: f87fcbe2cd40b01a42d20da8e36ee4b1d7d3bbb4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2774e9944d01ac244d963e3dd510f82af8164e8e
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637960"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327070"
 ---
 # <a name="microsoft-365-compliance-center"></a>Microsoft 365 규정 준수 센터
 
@@ -62,27 +62,27 @@ Microsoft 365 준수 센터를 처음 방문 하면 홈 페이지의 카드 구�
 
 |  |  |
 |---------|---------|
-|![Microsoft 365 준수 센터의 탐색](../media/m365-compliance-center-leftnav.png)  | **홈** 을 선택 하 여 Microsoft 365 준수 센터 기본 페이지로 돌아갑니다. <br><br> **데이터 분류** 섹션을 선택 하 여 [trainable 분류자](classifier-getting-started-with.md), [중요 한 정보 유형](what-the-sensitive-information-types-look-for.md), 콘텐츠 및 [활동](data-classification-activity-explorer.md) 탐색기에 액세스 합니다. <br/><br/> **데이터 커넥터** 를 선택 하 여 Microsoft 365 구독에서 데이터를 가져오고 보관 하도록 [커넥터를 구성](archiving-third-party-data.md) 합니다. <br><br> [경고를 보고 확인 하](alert-policies.md) 는 **알림** 으로 이동 <br/><br/>**보고서** 를 방문 하 여 [레이블 사용 및 보존](sensitivity-labels.md), [DLP 정책 일치 및 재정의](view-the-dlp-reports.md), [공유 파일](https://docs.microsoft.com/cloud-app-security/file-filters), [타사 앱](https://docs.microsoft.com/cloud-app-security/discovered-apps)및 기타 정보에 대 한 데이터를 확인 합니다. <br/><br/> **정책** 으로 이동 하 여 데이터를 제어 하 고, 장치를 관리 하 고, [경고](../security/office-365-security/alerts.md)를 수신 하는 정책을 설정 합니다. [DLP](data-loss-prevention-policies.md) 및 [보존](retention-policies.md) 정책에 액세스할 수도 있습니다.<br/><br/> 조직에서 Microsoft 365 준수 센터에 액세스할 수 있는 사용자를 관리 하는 **권한을** 선택 하 여 콘텐츠를 보고 작업을 완료 합니다. <br/><br/> 조직의 규정 준수 솔루션에 액세스 하려면 **솔루션** 섹션의 링크를 사용 합니다. 여기에는 다음이 포함됩니다. <br/><br/> [카탈로그](microsoft-365-solution-catalog.md) <br> 조직에서 사용할 수 있는 지능형 준수 및 위험 관리 솔루션을 검색 하 고, 학습 하 고, 시작 합니다. <br/><br/> [감사](search-the-audit-log-in-security-and-compliance.md) <br> 감사 로그를 사용 하 여 일반적인 지원 및 준수 문제를 조사 합니다. <br/><br/> [콘텐츠 검색](search-for-content.md) <br> 콘텐츠 검색을 사용 하 여 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치에 있는 문서, Microsoft 팀 및 비즈니스용 Skype의 인스턴트 메시징 대화에서 전자 메일을 빠르게 찾을 수 있습니다. <br/><br/> [통신 준수](communication-compliance.md) <br> 적절 하지 않은 메시지를 자동으로 캡처하고, 가능한 정책 위반을 조사 하 고, 재구성 단계를 수행 하 여 통신 위험을 최소화 합니다. <br/><br/> [데이터 조사](overview-data-investigations.md) <br/> 콘텐츠 위치를 검색 하 여 데이터 유출 같은 모든 인시던트를 조사 하 고 수정할 수 있도록 Microsoft 365에서 중요, 악의적 또는 잘못 된 데이터를 식별 합니다. <br/><br/> [데이터 손실 보호](data-loss-prevention-policies.md) <br> 중요 한 콘텐츠를 조직 전체에서 사용 하 고 공유 하며 클라우드 및 장치에서 검색 하 고 실수로 인 한 데이터 손실을 방지 하는 데 도움이 됩니다. <br/><br/> [데이터 주체 요청](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md) <br> GDPR (일반 데이터 보호 규정)에 대 한 데이터 주체 요청에 응답 하는 데 도움이 되는 사용자의 개인 데이터를 찾아서 내보냅니다. <br/><br/> [eDiscovery](overview-ediscovery-20.md) <br> 이 섹션을 확장 하 여 조직의 내부 및 외부 조사에 응답 하는 콘텐츠를 보존, 수집, 검토, 분석 및 내보내기 위해 코어 및 고급 eDiscovery를 사용 합니다. <br/><br/> [정보 거 버 넌 스](manage-information-governance.md) <br> 기능을 사용 하 여 콘텐츠 수명 주기 관리 업무상 중요 한 데이터를 가져오고, 저장 하 고, 분류 하 여 필요한 항목을 유지 하 고 사용자가 사용 하지 않는 항목을 삭제할 수 있습니다. <br/><br/> [정보 보호](protect-information.md) <br> 조직 전체에서 해당 수명 주기 동안 중요 및 업무상 중요 한 콘텐츠를 검색 하 고 분류 하 고 보호 합니다. <br/><br/> [참가자 위험 관리](insider-risk-management.md) <br> 조직 전체에서 위험한 활동을 검색 하 여 참가자 위험 및 위협에 대 한 조치를 신속 하 게 식별 하 고 조사 하 고 수행 합니다. <br/><br/> [레코드 관리](records-management.md) <br> 조직에서 규정, 법률 및 업무상 중요 한 레코드의 보존 일정을 자동화 하 고 단순화 합니다.
+|![Microsoft 365 준수 센터의 탐색](../media/m365-compliance-center-leftnav.png)  | **홈** 을 선택 하 여 Microsoft 365 준수 센터 기본 페이지로 돌아갑니다. <br><br> **데이터 분류** 섹션을 선택 하 여 [trainable 분류자](classifier-getting-started-with.md), [중요 한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md), 콘텐츠 및 [작업](data-classification-activity-explorer.md) 탐색기에 액세스 합니다. <br/><br/> **데이터 커넥터** 를 선택 하 여 Microsoft 365 구독에서 데이터를 가져오고 보관 하도록 [커넥터를 구성](archiving-third-party-data.md) 합니다. <br><br> [경고를 보고 확인 하](alert-policies.md) 는 **알림** 으로 이동 <br/><br/>**보고서** 를 방문 하 여 [레이블 사용 및 보존](sensitivity-labels.md), [DLP 정책 일치 및 재정의](view-the-dlp-reports.md), [공유 파일](https://docs.microsoft.com/cloud-app-security/file-filters), [타사 앱](https://docs.microsoft.com/cloud-app-security/discovered-apps)및 기타 정보에 대 한 데이터를 확인 합니다. <br/><br/> **정책** 으로 이동 하 여 데이터를 제어 하 고, 장치를 관리 하 고, [경고](../security/office-365-security/alerts.md)를 수신 하는 정책을 설정 합니다. [DLP](data-loss-prevention-policies.md) 및 [보존](retention-policies.md) 정책에 액세스할 수도 있습니다.<br/><br/> 조직에서 Microsoft 365 준수 센터에 액세스할 수 있는 사용자를 관리 하는 **권한을** 선택 하 여 콘텐츠를 보고 작업을 완료 합니다. <br/><br/> 조직의 규정 준수 솔루션에 액세스 하려면 **솔루션** 섹션의 링크를 사용 합니다. 여기에는 다음이 포함됩니다. <br/><br/> [카탈로그](microsoft-365-solution-catalog.md) <br> 조직에서 사용할 수 있는 지능형 준수 및 위험 관리 솔루션을 검색 하 고, 학습 하 고, 시작 합니다. <br/><br/> [감사](search-the-audit-log-in-security-and-compliance.md) <br> 감사 로그를 사용 하 여 일반적인 지원 및 준수 문제를 조사 합니다. <br/><br/> [콘텐츠 검색](search-for-content.md) <br> 콘텐츠 검색을 사용 하 여 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치에 있는 문서, Microsoft 팀 및 비즈니스용 Skype의 인스턴트 메시징 대화에서 전자 메일을 빠르게 찾을 수 있습니다. <br/><br/> [커뮤니케이션 규정 준수](communication-compliance.md) <br> 적절 하지 않은 메시지를 자동으로 캡처하고, 가능한 정책 위반을 조사 하 고, 재구성 단계를 수행 하 여 통신 위험을 최소화 합니다. <br/><br/> [데이터 조사](overview-data-investigations.md) <br/> 콘텐츠 위치를 검색 하 여 데이터 유출 같은 모든 인시던트를 조사 하 고 수정할 수 있도록 Microsoft 365에서 중요, 악의적 또는 잘못 된 데이터를 식별 합니다. <br/><br/> [데이터 손실 보호](data-loss-prevention-policies.md) <br> 중요 한 콘텐츠를 조직 전체에서 사용 하 고 공유 하며 클라우드 및 장치에서 검색 하 고 실수로 인 한 데이터 손실을 방지 하는 데 도움이 됩니다. <br/><br/> [데이터 주체 요청](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md) <br> GDPR (일반 데이터 보호 규정)에 대 한 데이터 주체 요청에 응답 하는 데 도움이 되는 사용자의 개인 데이터를 찾아서 내보냅니다. <br/><br/> [eDiscovery](overview-ediscovery-20.md) <br> 이 섹션을 확장 하 여 조직의 내부 및 외부 조사에 응답 하는 콘텐츠를 보존, 수집, 검토, 분석 및 내보내기 위해 코어 및 고급 eDiscovery를 사용 합니다. <br/><br/> [정보 거 버 넌 스](manage-information-governance.md) <br> 기능을 사용 하 여 콘텐츠 수명 주기 관리 업무상 중요 한 데이터를 가져오고, 저장 하 고, 분류 하 여 필요한 항목을 유지 하 고 사용자가 사용 하지 않는 항목을 삭제할 수 있습니다. <br/><br/> [정보 보호](protect-information.md) <br> 조직 전체에서 해당 수명 주기 동안 중요 및 업무상 중요 한 콘텐츠를 검색 하 고 분류 하 고 보호 합니다. <br/><br/> [내부자 위험 관리](insider-risk-management.md) <br> 조직 전체에서 위험한 활동을 검색 하 여 참가자 위험 및 위협에 대 한 조치를 신속 하 게 식별 하 고 조사 하 고 수행 합니다. <br/><br/> [레코드 관리](records-management.md) <br> 조직에서 규정, 법률 및 업무상 중요 한 레코드의 보존 일정을 자동화 하 고 단순화 합니다.
 
 ## <a name="how-do-i-get-the-compliance-center"></a>준수 센터를 얻으려면 어떻게 해야 합니까?
 
 - 새로운 Microsoft 365 준수 센터가 설치 되어 있지 않은 경우 곧 제공 될 예정입니다. Microsoft 365 준수 센터는 일반적으로 Microsoft 365 SKU 고객에 게 제공 됩니다.
 
-- 전역 관리자, 규정 준수 관리자 또는 규정 준수 데이터 관리자는 Microsoft 365 준수 센터를 방문 하 여 로그인 [https://compliance.microsoft.com](https://compliance.microsoft.com) 한 후 로그온 합니다.
+- 전역 관리자, 규정 준수 관리자 또는 규정 준수 데이터 관리자는 Microsoft 365 준수 센터를 방문 하 여 [https://compliance.microsoft.com](https://compliance.microsoft.com) 로그인 한 후 로그온 합니다.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **특정 정책을 정의 하는 것과 같은 일부 작업을 완료 하기 위해 보안 & 준수 센터에 수행 해야 하는 이유는 무엇 인가요?**
 
-Microsoft 365 준수 센터를 아직 개발 중 이며, 향후 몇 개월에 더 많은 기능과 솔루션을 추가 하 고 있습니다. 한편 보안 & 준수 센터 ([https://protection.office.com](https://protection.office.com))에서 완료 해야 하는 몇 가지 작업이 있습니다. 이러한 경우에는 감독 정책 만들기 또는 편집과 같이 작업을 완료 하는 데 사용할 수 있는 위치로 자동으로 리디렉션됩니다.
+Microsoft 365 준수 센터를 아직 개발 중 이며, 향후 몇 개월에 더 많은 기능과 솔루션을 추가 하 고 있습니다. 한편 보안 & 준수 센터 ()에서 완료 해야 하는 몇 가지 작업이 있습니다 [https://protection.office.com](https://protection.office.com) . 이러한 경우에는 감독 정책 만들기 또는 편집과 같이 작업을 완료 하는 데 사용할 수 있는 위치로 자동으로 리디렉션됩니다.
 
 **아직 새로운 Microsoft 365 준수 센터가 표시 되지 않는 이유는 무엇 인가요?**
 
-먼저 적절 한 라이선스 및 사용 권한이 있는지 확인 합니다. 그런 후에 [https://compliance.microsoft.com](https://compliance.microsoft.com)로그인 합니다. 새 준수 센터가 아직 표시 되지 않으면 곧 제공 될 예정입니다.
+먼저 적절 한 라이선스 및 사용 권한이 있는지 확인 합니다. 그런 후에 로그인 [https://compliance.microsoft.com](https://compliance.microsoft.com) 합니다. 새 준수 센터가 아직 표시 되지 않으면 곧 제공 될 예정입니다.
 
 **Microsoft 365 준수 센터에서는 일부 준수 기능을 사용할 수 없습니다. 뭐 할까요?**
 
-Microsoft 365 준수 센터에 여전히 기능을 추가 하 고 있습니다. 감사 로그 검색과 같은 항목을 찾을 수 없는 경우 보안 & 준수 센터 ([https://protection.office.com](https://protection.office.com))를 사용 합니다. 구성은 기존 보안 & 준수 센터 및 새로운 Microsoft 365 준수 센터에 자동으로 저장 됩니다.
+Microsoft 365 준수 센터에 여전히 기능을 추가 하 고 있습니다. 감사 로그 검색과 같은 항목을 찾을 수 없는 경우 보안 & 준수 센터 ()를 사용 합니다 [https://protection.office.com](https://protection.office.com) . 구성은 기존 보안 & 준수 센터 및 새로운 Microsoft 365 준수 센터에 자동으로 저장 됩니다.
 
 이 위치로 이동 하려면 Microsoft 365 준수 센터에서 화면 왼쪽의 탐색 창에 있는 **기타 리소스**를 선택한 다음 **Office 365 보안 & 준수 센터**에서 **열기**를 선택 합니다.
 

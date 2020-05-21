@@ -16,12 +16,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능 사용을 시작 하세요.
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: 4e36e0fa07f825d3259ef9e42b802c81ae929470
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: c2020c3d46fcf17194e2560af53d9a26fca30629
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159410"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327833"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Office 365에서 자동화 된 조사 및 응답 (AIR) 사용 시작
 
@@ -31,7 +31,7 @@ ms.locfileid: "44159410"
 
 ## <a name="the-overall-flow-of-air"></a>전체 공기 흐름
 
-높은 수준에서 경고가 트리거되고 보안 playbook가 시작 되 고 자동화 된 조사로 인해 발견 및 추천이 발생 합니다. 다음은 AIR의 전체 흐름을 단계별로 설명한 것입니다.
+높은 수준에서 경고가 트리거되고 보안 playbook에 의해 자동화 된 조사가 시작 되어 발견 및 추천이 발생 합니다. 다음은 AIR의 전체 흐름을 단계별로 설명한 것입니다.
 
 1. 자동화 된 조사가 다음 중 한 가지 방법으로 시작 됩니다.
 

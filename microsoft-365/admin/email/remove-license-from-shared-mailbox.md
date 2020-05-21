@@ -21,23 +21,30 @@ search.appverid:
 - MOE150
 ms.assetid: bb229ee9-e7be-4990-b3eb-354e75740496
 description: '공유 사서함에서 라이선스를 제거 하 여 다른 사용자에 게 할당 합니다. '
-ms.openlocfilehash: fb09036fc28ea3d9c182395d0a85e467f611dfdc
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 9ba411c614fee93e37ac45e58fd40bf246a9c2ab
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140432"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327245"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>공유 사서함에서 라이선스 제거
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
-사서함에 50GB 이상의 데이터가 있는 경우가 아니면 공유 사서함에 라이선스가 필요 하지 않습니다. 다음 지침에 따라 공유 사서함에서 라이선스를 제거 하 여 사용자에 게 할당 하거나 필요 하지 않은 라이선스에 대 한 비용을 지불 하지 않도록 라이선스를 반환할 수 있습니다.
+일반적으로 공유 사서함에는 라이선스가 필요 하지 않습니다. 다음 지침에 따라 공유 사서함에서 라이선스를 제거 하 여 사용자에 게 할당 하거나 필요 하지 않은 라이선스에 대 한 비용을 지불 하지 않도록 라이선스를 반환할 수 있습니다.
+
+> [!NOTE]
+> 라이선스는 다음과 같은 경우에 필요 합니다.
+> 1. 공유 사서함에 사용 중인 저장소의 저장소가 50 개 이상 있습니다.
+> 2. 공유 사서함에서 원본 위치 보관을 사용 합니다.
+> 3. 공유 사서함은 소송 보존에 포함 됩니다.
+
   
 ## <a name="remove-the-license"></a>라이선스 제거
 

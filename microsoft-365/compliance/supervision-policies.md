@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft 365 Compliance
-ms.openlocfilehash: b0778cd05565057fde8982e791a75801d097046c
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 45dc5a3e9674ebdf9488d14813abf04fc81b6781
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034562"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327256"
 ---
 # <a name="supervision-policies"></a>감독 정책
 
@@ -139,7 +139,7 @@ Office 365의 감독 정보에 대 한 자세한 내용은 [Microsoft 365 로드
 - 개인 정보
 - 사용자 지정 정보 유형
 
-중요 한 정보 세부 정보 및 기본 형식에 포함 된 패턴에 대 한 자세한 내용은 [어떤 중요 한 정보 유형이 검색](what-the-sensitive-information-types-look-for.md)되는지 참조 하십시오.
+중요 한 정보 세부 정보와 기본 형식에 포함 된 패턴에 대 한 자세한 내용은 [중요 한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)를 참조 하십시오.
 
 #### <a name="custom-keyword-dictionaries"></a>사용자 지정 키워드 사전
 
@@ -181,8 +181,8 @@ Office 365의 감독 정보에 대 한 자세한 내용은 [Microsoft 365 로드
 | **메시지에 다음 단어 포함** <br><br> **메시지에 다음 단어 포함 안 함** | 특정 단어나 구가 메시지에 포함 되거나 제외 되는 경우 정책을 적용 하려면 각 단어나 구를 입력 하 고 쉼표로 구분 합니다. 입력 한 각 단어가 별도로 적용 됩니다 (메시지에 적용할 정책에는 한 단어씩 적용 해야 함). 단어 또는 구를 입력 하는 방법에 대 한 자세한 내용은 [전자 메일 또는 첨부 파일에 단어 및 구를 일치 시키는](supervision-policies.md#Matchwords)다음 섹션을 참조 하십시오.|
 | **첨부 파일에 다음 단어 포함** <br><br> **첨부 파일에 다음 단어 포함 안 함** | 특정 단어나 구가 메시지 첨부 파일에 포함 되거나 제외 되는 경우 (예: Word 문서) 정책을 적용 하려면 각 단어나 구를 입력 하 고 쉼표로 구분 합니다. 입력 한 각 단어가 별도로 적용 됩니다 (해당 첨부 파일에 적용할 정책에는 한 단어씩 적용 해야 함). 단어 또는 구를 입력 하는 방법에 대 한 자세한 내용은 [전자 메일 또는 첨부 파일에 단어 및 구를 일치 시키는](supervision-policies.md#Matchwords)다음 섹션을 참조 하십시오.|
 | **첨부 파일이 다음 파일 형식 중 하나입니다.** <br><br> **첨부 파일이 다음 파일 형식에 없음** | 특정 유형의 첨부 파일을 포함 하거나 제외 하는 통신을 감독할 파일 확장명 (예: .exe 또는 .pdf)을 입력 합니다. 여러 파일 확장명을 포함 하거나 제외 하려면 별도의 줄에 다음을 입력 합니다. 정책을 적용 하려면 하나의 첨부 파일 확장명만 일치 해야 합니다.|
-| **메시지 크기가 다음 보다 큼** <br><br> **메시지 크기가 다음 보다 크지 않음** | 특정 크기에 따라 메시지를 검토 하려면 다음 조건을 사용 하 여 메시지를 검토 하기 전 까지의 최대 또는 최소 크기를 지정 합니다. 예를 들어 **메시지 크기** \> 를 지정 하는 경우 **1.0**보다 크면 1.01 mb 이상인 모든 메시지는 검토 대상이 됩니다. 이 조건에 대해 바이트, 킬로바이트, 메가바이트 또는 기가바이트를 선택할 수 있습니다.|
-| **첨부 파일이 다음 보다 큼** <br><br> **첨부 파일이 다음 보다 크지 않음** | 첨부 파일의 크기에 따라 메시지를 검토 하려면 첨부 파일의 최대 또는 최소 크기를 해당 메시지와 해당 첨부 파일을 검토할 수 있을 때까지 지정 합니다. 예를 들어 **첨부 파일** \> 을 지정 하는 경우 **2.0**보다 큰 경우 첨부 파일이 2.01 mb이 하 인 모든 메시지는 검토 대상이 됩니다. 이 조건에 대해 바이트, 킬로바이트, 메가바이트 또는 기가바이트를 선택할 수 있습니다.|
+| **메시지 크기가 다음 보다 큼** <br><br> **메시지 크기가 다음 보다 크지 않음** | 특정 크기에 따라 메시지를 검토 하려면 다음 조건을 사용 하 여 메시지를 검토 하기 전 까지의 최대 또는 최소 크기를 지정 합니다. 예를 들어 **메시지 크기** 를 지정 하는 경우 \> **1.0**보다 크면 1.01 mb 이상인 모든 메시지는 검토 대상이 됩니다. 이 조건에 대해 바이트, 킬로바이트, 메가바이트 또는 기가바이트를 선택할 수 있습니다.|
+| **첨부 파일이 다음 보다 큼** <br><br> **첨부 파일이 다음 보다 크지 않음** | 첨부 파일의 크기에 따라 메시지를 검토 하려면 첨부 파일의 최대 또는 최소 크기를 해당 메시지와 해당 첨부 파일을 검토할 수 있을 때까지 지정 합니다. 예를 들어 첨부 파일을 지정 하는 경우 2.0 **보다 큰** 경우 \> **2.0 MB**첨부 파일이 2.01 mb이 하 인 모든 메시지는 검토 대상이 됩니다. 이 조건에 대해 바이트, 킬로바이트, 메가바이트 또는 기가바이트를 선택할 수 있습니다.|
    
 ##### <a name="matching-words-and-phrases-to-emails-or-attachments"></a>단어 및 구를 전자 메일 또는 첨부 파일에 일치
 <a name="Matchwords"> </a> 쉼표로 구분 하 여 입력 한 각 단어를 개별적으로 적용 합니다 (전자 메일 또는 첨부 파일에 적용할 정책 조건에 한 단어씩 적용 해야 함). 예를 들어 "banker" 및 "insider 교역" 키워드를 쉼표로 구분 하 여 (banker, 참가자 사업) "이라는 조건을 사용 하 여 메시지를 예로 **들어**보겠습니다. 이 정책은 "banker" 또는 "insider 거래" 라는 단어가 포함 된 모든 메시지에 적용 됩니다. 이 정책 조건을 적용 하려면 이러한 단어 또는 구문 중 하나만 발생 해야 합니다. 메시지 또는 첨부 파일의 단어는 입력 한 내용과 정확히 일치 해야 합니다.
@@ -213,7 +213,7 @@ Office 365의 감독 정보에 대 한 자세한 내용은 [Microsoft 365 로드
 
 ### <a name="supervision-policy-dashboard"></a>감독 정책 대시보드
 
-감독 정책 대시보드를 사용 하 여 감독 정책 결과를 관리 하 고 처리 중인 항목을 해결할 수 있습니다. 이 대시보드를 사용 하면 검토자가 검토 해야 하는 항목을 보고, 항목에 대해 작업을 수행 하 고, 각 감독 정책에 대해 이전에 검토 및 확인 한 항목의 결과를 검토할 수 있습니다. 규정 준수 센터 > *에서 사용자 지정 정책* > **공개**에 **대해 감독 정책**대시보드에 액세스할 수 있습니다.
+감독 정책 대시보드를 사용 하 여 감독 정책 결과를 관리 하 고 처리 중인 항목을 해결할 수 있습니다. 이 대시보드를 사용 하면 검토자가 검토 해야 하는 항목을 보고, 항목에 대해 작업을 수행 하 고, 각 감독 정책에 대해 이전에 검토 및 확인 한 항목의 결과를 검토할 수 있습니다. 규정 준수 센터에서 **Supervision**  >  *사용자 지정 정책*  >  **공개**에 대해 감독 정책 대시보드에 액세스할 수 있습니다.
 
 #### <a name="dashboard-home"></a>대시보드 홈
 
@@ -289,7 +289,7 @@ Office 365의 감독 정보에 대 한 자세한 내용은 [Microsoft 365 로드
 
 다음 감독 정책 활동은 감사 되어 통합 된 감사 로그에서 사용 가능 합니다.
 
-|**작업**|**연결 된 명령**|
+|**활동**|**연결 된 명령**|
 |:-----|:-----|
 | **정책 만들기** | [Remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewpolicyv2) <br> [Set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewrule) |
 | **정책 편집** | [Remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewpolicyv2) <br> [Set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewrule) |

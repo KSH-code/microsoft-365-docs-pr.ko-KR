@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: 이 문서에서는 조직의 요구 사항에 따라 DLP 정책을 만들고 테스트 하 고 조정 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 2a7ef029d00aff8450d9e8cf41253c2a86606807
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 2cbf30f3d0c5d70aecce77c7a07820812699797a
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035760"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327800"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>DLP 정책 만들기, 테스트 및 조정
 
@@ -51,13 +51,13 @@ DLP는 콘텐츠 분석 엔진을 사용 하 여 전자 메일 메시지 및 파
 - "새 랩톱을 주문할 수 있습니다. 내에 번호 1111-1111-1111-1111, 만료 11/22을 사용 하 여 예상 배달 날짜를 사용자에 게 제공 합니다. "
 - "내 랩탑 일련 번호는 2222-2222-2222-2222이 고 11/2010에서 구매한 것입니다. 내 출장은 아직 승인 되었습니까? "
 
-이 항목에서는 각 정보 유형이 검색 되는 방식을 설명 하는 [중요 한 정보 유형에 대해 책갈피로 설정](what-the-sensitive-information-types-look-for.md) 하는 것이 좋습니다.
+책갈피를 유지 하는 데 도움이 되는 참조 자료는 각 정보 유형이 검색 되는 방식을 설명 하는 [중요 한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md) 입니다.
 
 ## <a name="where-to-start-with-data-loss-prevention"></a>데이터 손실 방지를 사용 하 여 시작 하는 위치
 
 데이터 누출의 위험이 완전히 확실 하지 않을 경우에는 DLP 구현으로 시작 해야 하는 위치를 정확히 파악 하기가 어렵습니다. 다행히 DLP 정책은 "테스트 모드"에서 실행 될 수 있으므로, 기능을 설정 하기 전에 효율성과 정확성을 평가할 수도 있습니다.
 
-Exchange Online에 대 한 DLP 정책은 Exchange 관리 센터를 통해 관리할 수 있습니다. 그러나 보안 & 준수 센터를 통해 모든 작업에 대해 DLP 정책을 구성할 수 있으므로이 문서에서 시연 하는 데 사용 하는 것이 좋습니다. 보안 & 준수 센터에서 **데이터 손실 방지** > **정책**에 따라 DLP 정책을 찾을 수 있습니다. 시작할 **정책 만들기** 를 클릭 합니다.
+Exchange Online에 대 한 DLP 정책은 Exchange 관리 센터를 통해 관리할 수 있습니다. 그러나 보안 & 준수 센터를 통해 모든 작업에 대해 DLP 정책을 구성할 수 있으므로이 문서에서 시연 하는 데 사용 하는 것이 좋습니다. 보안 & 준수 센터에서 **데이터 손실 방지**정책에 따라 DLP 정책을 찾을 수 있습니다  >  **Policy**. 시작할 **정책 만들기** 를 클릭 합니다.
 
 Microsoft 365에서는 DLP 정책을 만드는 데 사용할 수 있는 다양 한 [dlp 정책 템플릿을](what-the-dlp-policy-templates-include.md) 제공 합니다. 사용자가 오스트레일리아 business 라고 가정해 보겠습니다. 금융, 의료 및 건강 및 개인 정보에 대 한 일반적인 범주에 해당 하는 오스트레일리아와 관련 된 항목만 표시 하도록 정책 서식 파일을 필터링 할 수 있습니다.
 
@@ -95,7 +95,7 @@ Microsoft 365에서는 DLP 정책을 만드는 데 사용할 수 있는 다양 �
 
 ## <a name="test-a-dlp-policy"></a>DLP 정책 테스트
 
-새 DLP 정책이 약 1 시간 내에 적용 됩니다. 이 작업을 수행 하 고 정상적인 사용자 활동에 의해 트리거될 때까지 기다리거나 직접 트리거하도록 할 수도 있습니다. 이전에는 DLP 일치를 트리거하는 방법에 대 한 정보를 제공 하는 [중요 한 정보 유형에 대](what-the-sensitive-information-types-look-for.md)한이 항목에 연결 했습니다.
+새 DLP 정책이 약 1 시간 내에 적용 됩니다. 이 작업을 수행 하 고 정상적인 사용자 활동에 의해 트리거될 때까지 기다리거나 직접 트리거하도록 할 수도 있습니다. 이전에는 DLP 일치를 트리거하는 방법에 대 한 정보를 제공 하는 [중요 한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)에 연결 했습니다.
 
 예를 들어이 문서에 대해 만든 DLP 정책을 통해 TFN (오스트레일리아 세금 파일 번호)가 검색 됩니다. 설명서에 따르면 일치는 다음 조건을 기준으로 합니다.
 
@@ -192,7 +192,7 @@ DLP 정책 템플릿은 상자에서 완벽 하 게 처리 되지 않습니다. 
 
 인스턴스 수를 변경 하는 것 외에도 일치 정확도 (또는 신뢰 수준)를 조정할 수도 있습니다. 중요 한 정보 유형에 여러 패턴이 있는 경우 규칙이 특정 패턴만 일치 하도록 규칙에서 정확도를 조정할 수 있습니다. 예를 들어 가양성을 줄이기 위해 신뢰도 수준이 가장 높은 패턴과 일치 하도록 규칙의 정확도를 설정할 수 있습니다. 신뢰도 수준이 계산 되는 방식을 이해 하는 것이이 게시물의 범위를 벗어나 다소 복잡 하지만, [신뢰 수준을 사용 하 여 규칙을 조정 하는 방법](data-loss-prevention-policies.md#match-accuracy)에 대 한 자세한 설명입니다.
 
-마지막으로 좀 더 높은 수준의 고급을 가져오려면 중요 한 정보 유형을 사용자 지정 하면 됩니다. 예를 들어, [오스트레일리아 운전 면허](what-the-sensitive-information-types-look-for.md#australia-drivers-license-number)의 키워드 목록에서 "시드니 NSW"를 제거 하 여 위에서 트리거된 가양성을 제거할 수 있습니다. XML 및 PowerShell을 사용 하 여이 작업을 수행 하는 방법에 대 한 자세한 내용은 [기본 제공 중요 한 정보 유형을 사용자 지정](customize-a-built-in-sensitive-information-type.md)하는 경우이 항목을 참조 하십시오.
+마지막으로 좀 더 높은 수준의 고급을 가져오려면 중요 한 정보 유형을 사용자 지정 하면 됩니다. 예를 들어, [오스트레일리아 운전 면허 번호](sensitive-information-type-entity-definitions.md#australia-drivers-license-number)의 키워드 목록에서 "시드니 NSW"를 제거 하 여 위에서 트리거된 가양성을 제거할 수 있습니다. XML 및 PowerShell을 사용 하 여이 작업을 수행 하는 방법에 대 한 자세한 내용은 [기본 제공 중요 한 정보 유형을 사용자 지정](customize-a-built-in-sensitive-information-type.md)하는 경우이 항목을 참조 하십시오.
 
 ## <a name="turn-on-a-dlp-policy"></a>DLP 정책 설정
 

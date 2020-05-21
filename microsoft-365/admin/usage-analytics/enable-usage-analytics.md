@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Power BI의 Microsoft 365 사용 현황 분석 서식 파일 앱을 사용 하 여 테 넌 트에 대 한 데이터 수집을 시작 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3c5e1a35b93b755b92710f0499599d849a6c251c
-ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
+ms.openlocfilehash: 375bc26a2e106d909eb9ea5d0990a054553d71b0
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44262538"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327675"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석을 사용하도록 설정
 
@@ -83,7 +83,7 @@ Power BI가 아직 없는 경우 [POWER Bi Pro에 등록할](https://go.microsof
 
 5.  샘플 데이터를 사용 하 여 앱을 보려면 **앱 탐색** 을 클릭 합니다. **연결** 을 클릭 하 여 조직의 데이터에 앱을 연결 합니다.
 
-6.  **연결**을 클릭 한 후 **Microsoft 365 Usage analytics에 연결** 화면에서 다음 단계에서 복사한 테 넌 트 Id를 입력 합니다 (1) \> **Next**.
+6.  **연결**을 클릭 한 후 **Microsoft 365 Usage analytics에 연결** 화면에서 복사 하려는 테 넌 트 Id (1)를 입력 하 고 **다음**을 선택 합니다.
     
 7. 다음 화면에서 **인증 방법** 로그인으로 **oAuth2** 을 선택 합니다 \> **Sign in**. 다른 인증 방법을 선택 하는 경우에는 서식 파일 앱에 대 한 연결이 실패 하 게 됩니다.
     

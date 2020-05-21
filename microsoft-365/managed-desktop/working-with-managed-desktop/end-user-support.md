@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 687b587da033b3c6cc8e027221043dd6c52e15c3
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3e74f644457057eafe61235c874ca6290bfae6a3
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42084995"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327895"
 ---
 # <a name="getting-help-for-end-users"></a>최종 사용자를 위한 도움말 보기
 
@@ -55,6 +55,12 @@ ms.locfileid: "42084995"
 - 룩셈부르크: + 352 800 40119
 - 오스트레일리아: + 61 180 037 0619
 - 뉴질랜드: + 64 988 44380
+- 스웨덴: + 46 20 120 3554
+- 노르웨이: + 47 800 62584
+- 아이슬란드: + 354 800 9006
+- 아일랜드: + 353 1 800 832272
+- 덴마크: + 45 80 40 04 01
+- 핀란드: + 358 800 525088
 
 >[!NOTE]
 >Id를 확인 하기 위해 전화를 걸려면 조직의 전자 메일 주소가 준비 되어 있어야 합니다. 

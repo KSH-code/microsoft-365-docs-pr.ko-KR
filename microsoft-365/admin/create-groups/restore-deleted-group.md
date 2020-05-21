@@ -19,19 +19,19 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: 삭제 된 Microsoft 365 그룹을 복원 하는 방법을 알아봅니다.
-ms.openlocfilehash: 9d432d6ddb7e41b6560329b562c24f392a424412
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 123805750beff88904a8e3874f0d4d46a72e8f01
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140527"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327631"
 ---
 # <a name="restore-a-deleted-group"></a>삭제 된 그룹 복원
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -72,6 +72,9 @@ Microsoft 365 그룹의 소유자 인 경우 다음 단계를 수행 하 여 Out
 1. [관리 센터로](https://admin.microsoft.com)이동 합니다.
 2. **그룹**을 확장 한 다음 **삭제 된 그룹**을 클릭 합니다.
 3. 복원할 그룹을 선택한 다음 **그룹 복원을**클릭 합니다.
+
+> [!NOTE]
+> 경우에 따라 그룹 및 해당 모든 데이터를 복원 하는 데 24 시간이 걸릴 수도 있습니다. 
   
 ## <a name="permanently-delete-a-microsoft-365-group"></a>Microsoft 365 그룹 영구 삭제
 

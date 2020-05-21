@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 위험 평가를 간소화 하 고 자동화 하는 데 도움이 되는 M365 준수 센터의 기능인 Microsoft 준수 점수 (미리 보기)에 대 한 릴리스 정보 및 알려진 문제
-ms.openlocfilehash: 4368255c87da118174ad08b52994865a8fdcd0af
-ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
+ms.openlocfilehash: 1567921b8bd07b0fe4deda0bab6601898eed75a9
+ms.sourcegitcommit: 56772bed89516cebc5eb370e292ccfbb4889cb38
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "43790593"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44330782"
 ---
 # <a name="microsoft-compliance-score-preview-release-notes"></a>Microsoft 준수 점수 (미리 보기) 릴리스 정보
 
@@ -32,6 +32,7 @@ Microsoft 준수 점수가 공개 미리 보기를 통해 예정 된 기능 및 
 평가를 위해 새롭게 미리 구성 된 서식 파일이 출시 되 면 준수 점수 (미리 보기)에 대 한 프로덕션 환경에 릴리스됩니다. 여기에서 [전체 서식 파일 목록을](compliance-score.md#templates)확인 하세요. 최근에 추가 된 서식 파일은 다음과 같습니다.
 
 - 브라질 LGPD (일반 데이터 보호 법)
+- DGISR (두바이 Information Security Resolution)
 - IRAP/오스트레일리아 정부 ISM (미리 보기)
 - ISO 27701:2019
 - SOC 1
@@ -47,7 +48,7 @@ Microsoft 준수 점수가 공개 미리 보기를 통해 예정 된 기능 및 
 
 ## <a name="common-actions-will-synch-status-across-groups"></a>일반 작업을 통해 여러 그룹의 상태가 동기화 됨
 
-조직에 여러 평가 그룹이 있는 경우 **기술** 작업의 동작 (즉, 전체 조직에 영향을 주는 작업)이 변경 되었습니다. 그룹 간 중복 된 작업은 하나의 단일 작업으로 결합 됩니다. 이 단일 작업에는 중복 버전의 업로드 된 모든 메모 및 증거가 포함 됩니다. 이렇게 변경 하면 기술 작업은 이제 동일한 그룹에 속해 있는 것 처럼 동작 합니다. 이제 하나의 그룹 또는 평가에서 작업에 대 한 변경 내용이 모든 인스턴스에 반영 됩니다.  **구현 상태**, **구현 날짜**, **테스트 상태**및 **테스트 날짜** 에는 최신 업데이트가 반영 됩니다.
+조직에 여러 평가 그룹이 있는 경우 **기술** 작업의 동작 (즉, 전체 조직에 영향을 주는 작업)이 변경 되었습니다. 그룹 간 중복 된 작업은 하나의 단일 작업으로 결합 됩니다. 이 단일 작업에는 중복 버전의 업로드 된 모든 메모 및 증거가 포함 됩니다. 이렇게 변경 하면 기술 작업은 이제 동일한 그룹에 속해 있는 것 처럼 동작 합니다. 이제 하나의 그룹 또는 평가에서 작업에 대 한 변경 내용이 모든 인스턴스에 반영 됩니다.  **구현 상태**, **구현 날짜**, **테스트 상태**및 **테스트 날짜**에는   최신 업데이트가 반영 됩니다.
 
 ## <a name="compliance-score-relationship-to-compliance-manager"></a>준수 관리자와 규정 준수 점수 관계
 

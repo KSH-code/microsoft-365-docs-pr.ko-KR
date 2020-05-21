@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 trainable 분류자는 긍정적이 고 부정적 샘플을 확인 하 여 다양 한 유형의 콘텐츠를 인식할 수 있도록 교육을 제공 하는 도구입니다. 일단 분류자가 학습 되 면 결과가 정확 함을 확인할 수 있습니다. 그런 다음이를 사용 하 여 조직의 콘텐츠를 검색 하 고이를 분류 하 여 보존 또는 민감도 레이블을 적용 하거나 DLP (데이터 손실 방지) 또는 보존 정책에 포함 합니다.
-ms.openlocfilehash: edfa708077e273d9c644801f5461c880d87261b5
-ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
+ms.openlocfilehash: 99d1d9039ef70347515f80da73a487f40534d2e7
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44292434"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327760"
 ---
 # <a name="getting-started-with-trainable-classifiers-preview"></a>학습 가능한 분류자 시작 (미리 보기)
 
@@ -34,7 +34,7 @@ ms.locfileid: "44292434"
 이 분류 메커니즘 범주에는 다음을 통한 콘텐츠 찾기가 포함 됩니다.
 
 - 키워드 또는 메타 데이터 값 (키워드 쿼리 언어)
-- 이전에는 사회 보안, 신용 카드 또는 은행 계좌 번호와 같은 중요 한 정보 [(중요 한 정보 유형)](what-the-sensitive-information-types-look-for.md) 를 사용 하 여 확인
+- 공유 보안, 신용 카드 또는 은행 계좌 번호 같은 중요 한 정보를 이전에 식별 한 패턴 사용 [(중요 한 정보 유형 엔터티 정의)](sensitive-information-type-entity-definitions.md)
 - 항목을 인식 하 여 서식 파일의 변형 [(문서 손가락 인쇄)](document-fingerprinting.md)
 - 정확한 문자열 [(정확히 일치)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)을 사용 합니다.
 
@@ -116,8 +116,8 @@ Microsoft 365에는 다음과 같이 권장 되는 5 가지 기본 제공 분류
 
 - [보존 레이블](labels.md)
 - [보존 정책](retention-policies.md)
-- [DLP (데이터 손실 방지)](data-loss-prevention-policies.md)
+- [DLP(데이터 손실 방지)](data-loss-prevention-policies.md)
 - [민감도 레이블](sensitivity-labels.md)
-- [중요 한 정보 유형](what-the-sensitive-information-types-look-for.md)
+- [중요 한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)
 - [문서 손가락 인쇄](document-fingerprinting.md)
 - [정확한 데이터 일치](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)

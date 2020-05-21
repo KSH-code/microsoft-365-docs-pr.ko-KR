@@ -5,12 +5,12 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: d481a53da541b28975071a9dff6b7cdcc671345b
-ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
+ms.openlocfilehash: 034305eec75bd369752915084b2857ebea455aa0
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43804800"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327927"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치 
 
@@ -25,7 +25,7 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 여기에 장치에 대 한 링크는 참조용 으로만 제공 됩니다. 장치를 주문 하려면 상업용 채널 대화 상대와 협력 하 여 올바른 구성을 선택 했는지 확인 합니다. 이 표에서 *보관 날짜* 는 이러한 모델이 보다 짧은 Microsoft Managed Desktop service 수명에 적용 되는 날짜입니다. 이 날짜 이후에 등록 되는 모든 장치는 Microsoft Managed Desktop의 3 년 전체 지원 기간을 받지 않습니다. 보관 된 장치는 [Microsoft Managed Desktop 아카이브된 장치](archived-device-list.md)에도 나열 됩니다. *퇴직 date* 는 Microsoft Managed Desktop에서 더 이상이 모델을 지원 하지 않는 날짜입니다. 해당 날짜에이 모델의 등록 된 모든 장치는 등록 시점에 관계 없이 Microsoft Managed Desktop에서 제거 됩니다.
 
 >[!NOTE]
->언제 든 지이 테이블에 장치를 추가할 수 있지만 보관 또는 만료 날짜에 영향을 주는 변경 내용은 90 days를 제공 합니다. 가장 최근에 추가 된 장치는로 **\*** 표시 됩니다.
+>언제 든 지이 테이블에 장치를 추가할 수 있지만 보관 또는 만료 날짜에 영향을 주는 변경 내용은 90 days를 제공 합니다. 가장 최근에 추가 된 장치는로 표시 됩니다 **\*** .
 
 
 **Microsoft Managed Desktop 장치**
@@ -60,13 +60,17 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 | [Surface Pro 6](https://www.microsoft.com/p/surface-pro-6-for-business/8xjq3d3lrp0r/grf9?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 128 GB/Intel i5/8gb RAM | 없음 | 2020 년 10 월 16 일 | 2023 년 10 월 16 일 |
 | **\*[Surface Pro 7](https://www.microsoft.com/en-us/surface/business/surface-pro-7)** | 128 GB/Intel i5/8gb RAM | 없음 | 2021 년 10 월 22 일 | 2024 년 10 월 22 일 |
 
-
-
 또한 장치는 다음 기준을 충족 해야 합니다.     
 
 - Microsoft Managed Desktop에서 이미지를 승인 받아야 합니다. 장치를 주문할 때 Microsoft Managed Desktop과 함께 사용 되도록 지정 해야 합니다.
 - Windows 최초 실행 환경을 완료 하지 않은 경우
 - [장치 등록](https://aka.ms/mmddrhelp) 기능을 사용 하 여 Microsoft Managed Desktop에 등록 해야 합니다.
+
+>[!NOTE]
+>프로세서가 2.0 GHz 이상인 장치는 이러한 활동에 관련 된 사용자에 게 보다 나은 환경을 제공 합니다.
+>- 팀과의 비디오 회의 사용 자세한 내용은 [Microsoft 팀에 대 한 하드웨어 요구 사항을](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app) 참조 하세요.
+>-  여러 다른 작업에 하나의 장치 사용
+>- 여러 모니터 사용
 
 **추가 도움말**
 

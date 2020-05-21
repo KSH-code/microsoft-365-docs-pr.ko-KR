@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 965b4cf872129dc7bc9b439c1c15025acceb44c6
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.openlocfilehash: dbc8d1e8dae1845412b1fb3ad86b831b08a4a518
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173554"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327147"
 ---
 # <a name="microsoft-secure-score-new"></a>Microsoft 보안 점수 (신규)
 
@@ -31,7 +31,7 @@ ms.locfileid: "44173554"
 >
 >기록 옆에 **메트릭 & 추세** 탭이 표시 되지 않으면 이전 반복에서 진행 되 고 있는 것입니다. [Microsoft 보안 성과로 이동 (이전 반복)](microsoft-secure-score.md)
 
-Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 많은 향상 작업이 수행 되었음을 나타냅니다. 이 도구는 https://security.microsoft.com/securescore [Microsoft 365 보안 센터](overview-security-center.md)에서 찾을 수 있습니다.
+Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 많은 향상 작업이 수행 되었음을 나타냅니다. 이 도구 https://security.microsoft.com/securescore 는 [Microsoft 365 보안 센터](overview-security-center.md)에서 찾을 수 있습니다.
 
 보안 점수 권장 사항을 따르면 위협 으로부터 조직을 보호할 수 있습니다. Microsoft 365 보안 센터의 중앙 집중식 대시보드를 통해 조직은 Microsoft 365 id, 데이터, 앱, 장치 및 인프라의 보안을 모니터링 하 고 작업할 수 있습니다.
 
@@ -103,6 +103,9 @@ Microsoft 보안 점수에 액세스할 수 있는 권한을 부여 하려면 Az
 * 앱 (Office 365 및 Microsoft Cloud App Security)을 포함 하는 전자 메일 및 클라우드 앱
 * 인프라 (지금은 향상 작업 없음)
 
+>[!NOTE]
+>Microsoft 보안 점수가 최근 릴리스에서는 Microsoft 보안 점수가 Id 보안 점수 및 그래프 API와 일시적으로 호환 되지 않는 향상 된 점수 매기기 모델이 출시 되었습니다. [자세히 보기](microsoft-secure-score-new.md#incompatibility-with-identity-secure-score-and-graph-api)
+
 Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간의 점수가 분할 되는 방식과 사용할 수 있는 지점을 볼 수 있습니다. 개요 페이지는 또한 전체 점수에 대 한 모든 보기, 벤치 마크 비교를 사용한 보안 점수의 역사적 추세 및 점수를 높이기 위해 수행할 수 있는 향상 작업의 우선 순위를 지정 하는 위치를 제공 합니다.
 
 ![보안 점수 홈페이지](../../media/secure-score/secure-score-homepage-new.png)
@@ -120,8 +123,8 @@ Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간의 점수가
 
 특정 향상 작업을 선택 하면 전체 페이지 플라이 아웃이 나타납니다.  
 
-![향상 작업 플라이 아웃](../../media/secure-score/secure-score-improvement-action-details.png)
-예*그림 2: 개선 작업 플라이 아웃 예제*
+![향상 작업 플라이 아웃 예 ](../../media/secure-score/secure-score-improvement-action-details.png)
+ *그림 2: 개선 작업 플라이 아웃 예제*
 
 이 작업을 완료 하려면 몇 가지 옵션을 사용할 수 있습니다.
 
@@ -177,6 +180,14 @@ Microsoft 보안 점수는 시스템 구성, 사용자 동작 및 기타 보안 
 ## <a name="whats-new"></a>어떠한 새로운 기능이 있나요? 
 
 Microsoft 보안 점수가 보안 상태를 보다 효율적으로 대표 하도록 하기 위해 몇 가지 사항을 변경 했습니다. 계획 된 변경 사항에 대 한 자세한 내용은 [Microsoft 보안 점수에서](microsoft-secure-score-whats-coming.md)제공 되는 기능을 참조 하세요.
+
+### <a name="incompatibility-with-identity-secure-score-and-graph-api"></a>Id 보안 점수 및 그래프 API와 호환 되지 않는 문제
+
+최신 버전의 Microsoft 보안 점수에서는 향상 된 점수 매기기 모델이 출시 되었습니다. 이러한 변경으로 인해 보안 환경을 보다 유연 하 고 정확 하 게 확인할 수 있습니다. 그러나 이러한 업데이트는 Microsoft 보안 점수가 Id 보안 점수 및 그래프 API와 일시적으로 호환 되지 않습니다.
+
+보안 성과를 식별 하 고 Graph API가 새 점수 매기기 모델을 채택 합니다. 그때까지 고객은 Microsoft 보안 점수, Id 보안 점수 및 그래프 API에서 보고 하는 점수의 차이를 볼 수 있습니다. 이로 인해 불편을 끼쳐 드려서 죄송 하며, 향후 이러한 환경이 더 높은 호환성을 유지 하기 위해 노력 하 고 있습니다.
+
+### <a name="updated-improvement-actions"></a>업데이트 된 개선 작업
 
 - Azure Active Directory 개선 작업 추가 됨
 - Azure Advanced Threat Protection 개선 작업 추가

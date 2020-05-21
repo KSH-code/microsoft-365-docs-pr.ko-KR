@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: f6f83be060a376e843a4224add6e5815f0a7b6b3
-ms.sourcegitcommit: b57d597edbff5ab6cff8c2b04d27c15b0024776f
+ms.openlocfilehash: 7b46998f27bd620fe7ea4359b91f611cbf4c3d85
+ms.sourcegitcommit: 56772bed89516cebc5eb370e292ccfbb4889cb38
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43998153"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44330765"
 ---
 # <a name="generate-a-test-alert-in-your-microsoft-threat-protection-evaluation-lab"></a>Microsoft Threat Protection 평가 랩에서 테스트 경고 생성  
 
@@ -33,3 +33,7 @@ Microsoft Threat Protection 평가 실험 설정 및 구성을 완료 했으므�
 
 1. 로그온 대상https://security.microsoft.com
 2. 홈 페이지에서 **시뮬레이션**이라는 타일을 찾습니다.  Microsoft Threat Protection에서 테스트 인시던트를 만드는 단계는 연습 가이드를 참조 하십시오.
+<br>![Microsoft 365 보안 대시보드의 시뮬레이션 카드 이미지](../../media/mtp-eval-73.png) <br>
+
+## <a name="next-steps"></a>다음 단계
+[Microsoft 365 솔루션 및 아키텍처 센터](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center?view=o365-worldwide) 에서 사용자의 고유한 환경에서 보안 솔루션을 구현 하는 방법에 대 한 지침을 찾아봅니다.

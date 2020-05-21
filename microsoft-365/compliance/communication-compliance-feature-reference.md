@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: bfaead99bf439173cb353bc745488a5d0aee70c4
-ms.sourcegitcommit: ab0a944159d9349fbc7adc2f51c7f881254d7782
+ms.openlocfilehash: 6ca0edb1338c21f710ae493c8697b0c2740860ba
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44210553"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327614"
 ---
 # <a name="communication-compliance-feature-reference"></a>통신 준수 기능 참조
 
@@ -124,7 +124,7 @@ Office 365의 감독 정보에 대 한 자세한 내용은 [Microsoft 365 로드
 - 개인 정보
 - 사용자 지정 정보 유형
 
-중요 한 정보 세부 정보 및 기본 형식에 포함 된 패턴에 대 한 자세한 내용은 [어떤 중요 한 정보 유형이 검색](what-the-sensitive-information-types-look-for.md)되는지 참조 하십시오.
+중요 한 정보 세부 정보와 기본 형식에 포함 된 패턴에 대 한 자세한 내용은 [중요 한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)를 참조 하십시오.
 
 ### <a name="custom-keyword-dictionaries"></a>사용자 지정 키워드 사전
 
@@ -170,7 +170,7 @@ Microsoft 365의 분류자에 대 한 자세한 내용은 [분류자](classifier
 쉼표로 구분 하 여 입력 한 각 단어를 개별적으로 적용 합니다 (전자 메일 또는 첨부 파일에 적용할 정책 조건에 한 단어씩 적용 해야 함). 예를 **들어 다음**조건을 사용 하 여 메시지에 "banker", "기밀" 및 "참가자 거래" 라는 키워드를 쉼표로 구분 하 여 허용 합니다. 이 정책은 "banker", "기밀" 또는 "참가자 거래" 라는 단어가 포함 된 모든 메시지에 적용 됩니다. 이 정책 조건을 적용 하려면 이러한 단어 또는 구문 중 하나만 발생 해야 합니다. 메시지 또는 첨부 파일의 단어는 입력 한 내용과 정확히 일치 해야 합니다.
 
 >[!IMPORTANT]
->사용자 지정 사전 파일을 가져올 때는 각 단어나 구를 캐리지 리턴과 별도의 줄에 구분 해야 합니다. <br> 예시: <br><br>
+>사용자 지정 사전 파일을 가져올 때는 각 단어나 구를 캐리지 리턴과 별도의 줄에 구분 해야 합니다. <br> 예시는 다음과 같습니다: <br><br>
 >*banker* <br>
 >*기밀로* <br>
 >*insider 사업*

@@ -1,5 +1,5 @@
 ---
-title: 참가자 위험 관리 계획
+title: 내부자 위험 관리 계획
 description: 조직에서 참가자 위험 관리 정책을 사용 하도록 계획 하는 방법을 알아봅니다.
 keywords: Microsoft 365, 참가자 위험, 위험 관리, 규정 준수
 localization_priority: Normal
@@ -12,14 +12,14 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 2b2abd68d767f169ea8e20fc349e6314cc6400d5
-ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
+ms.openlocfilehash: ca15f26cf8eb19990c3252acf66ba50d52567e44
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44043408"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327126"
 ---
-# <a name="plan-for-insider-risk-management"></a>참가자 위험 관리 계획
+# <a name="plan-for-insider-risk-management"></a>내부자 위험 관리 계획
 
 조직에서 [참가자 위험 관리](insider-risk-management.md) 를 시작 하기 전에 정보 기술 및 준수 관리 팀에서 검토 해야 하는 중요 한 계획 작업 및 고려 사항이 있습니다. 다음 영역에서 배포를 철저히 이해 하 고 계획 하는 것은 사용자의 참가자 위험 관리 기능 구현 및 사용이 원활 하 게 진행 되 고 솔루션에 대 한 모범 사례와 부합 되도록 하는 데 도움이 됩니다.
 
