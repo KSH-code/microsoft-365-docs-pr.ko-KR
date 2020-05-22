@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 trainable 분류자는 긍정적이 고 부정적 샘플을 확인 하 여 다양 한 유형의 콘텐츠를 인식할 수 있도록 교육을 제공 하는 도구입니다. 일단 분류자가 학습 되 면 결과가 정확 함을 확인할 수 있습니다. 그런 다음이를 사용 하 여 조직의 콘텐츠를 검색 하 고이를 분류 하 여 보존 또는 민감도 레이블을 적용 하거나 DLP (데이터 손실 방지) 또는 보존 정책에 포함 합니다.
-ms.openlocfilehash: 99d1d9039ef70347515f80da73a487f40534d2e7
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: ba24bbe76bce5e3a41345c80616a57d3fb67a5fc
+ms.sourcegitcommit: 2fbcecaa60e9f551738b9235bd380af807a6681a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327760"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44339916"
 ---
 # <a name="getting-started-with-trainable-classifiers-preview"></a>학습 가능한 분류자 시작 (미리 보기)
 
@@ -34,9 +34,9 @@ ms.locfileid: "44327760"
 이 분류 메커니즘 범주에는 다음을 통한 콘텐츠 찾기가 포함 됩니다.
 
 - 키워드 또는 메타 데이터 값 (키워드 쿼리 언어)
-- 공유 보안, 신용 카드 또는 은행 계좌 번호 같은 중요 한 정보를 이전에 식별 한 패턴 사용 [(중요 한 정보 유형 엔터티 정의)](sensitive-information-type-entity-definitions.md)
-- 항목을 인식 하 여 서식 파일의 변형 [(문서 손가락 인쇄)](document-fingerprinting.md)
-- 정확한 문자열 [(정확히 일치)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)을 사용 합니다.
+- 공유 보안, 신용 카드 또는 은행 계좌 번호와 같은 중요 한 정보 [(중요 한 정보 유형 엔터티 정의)](sensitive-information-type-entity-definitions.md)를 이전에 식별 한 패턴으로 사용 합니다.
+- 서식 파일의 변형 [(문서 손가락 인쇄)](document-fingerprinting.md)으로 인해 항목을 인식 합니다.
+- 정확한 문자열 [(정확한 데이터 일치)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)을 사용 합니다.
 
 그런 다음 민감도 및 보존 레이블을 자동으로 적용 하 여 [DLP (데이터 손실 방지)](data-loss-prevention-policies.md) 및 [보존 정책](retention-policies.md)에서 콘텐츠를 사용할 수 있도록 설정할 수 있습니다.
 
@@ -44,8 +44,10 @@ ms.locfileid: "44327760"
 
 이 분류 방법은 수동 또는 자동 패턴 일치 방법으로 쉽게 식별할 수 없는 콘텐츠에 특히 적합 합니다. 이 분류 방법은 항목에 있는 요소 (패턴 일치)가 아니라 항목을 기준으로 항목을 식별 하는 분류자를 교육 하는 방법에 대해 자세히 설명 합니다. 분류자는 분류에 관심이 있는 콘텐츠의 수백 가지 예를 검토 하 여 콘텐츠 형식을 식별 하는 방법을 학습 합니다. 먼저 범주에서 명확 하 게 보여 주는 예제를 공급 합니다. 이를 처리 하 고 나면 일치 및 일치 하지 않는 예제를 모두 함께 제공 하 여 테스트 합니다. 그런 다음 분류자는 지정 된 항목이 작성 중인 범주에 속하는지 여부에 따라 예측을 수행 합니다. 그런 다음 결과를 확인 하 여 정확도를 높일 수 있도록 긍정, 음수, 가양성 및 거짓 네거티브를 정렬 합니다. 숙련 된 분류자를 게시 하면 SharePoint Online, Exchange 및 OneDrive와 같은 위치에 있는 항목을 통해 정렬 되며 콘텐츠를 분류 합니다.
 
-> [!IMPORTANT]
-> 기본 제공 분류자와 trainable 분류자는 모두 조건 및 [통신 준수](communication-compliance.md)를 [기반으로 하는 자동 적용 보존 레이블 정책의](labels.md#applying-a-retention-label-automatically-based-on-conditions) 조건으로 사용할 수 있습니다. 민감도 레이블은 기본 제공 분류자를 조건만 사용할 수 있으며 [민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)을 참조 하십시오.
+### <a name="where-you-can-use-trainable-classifiers"></a>Trainable 분류자를 사용할 수 있는 위치
+기본 제공 분류자와 trainable 분류자는 모두 조건 및 [통신 준수](communication-compliance-configure.md)를 [기반으로 하는 자동 적용 보존 레이블 정책의](labels.md#applying-a-retention-label-automatically-based-on-conditions) 조건으로 사용할 수 있습니다. 
+
+민감도 레이블은 기본 제공 및 빌드 자체 분류자를 조건으로 사용할 수 있으며, [자동으로 콘텐츠에 민감도 레이블 적용](apply-sensitivity-label-automatically.md)및 [Office 앱에 대 한 자동 레이블](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps)지정을 참조 하세요.
 
 > [!IMPORTANT]
 > Trainable 분류자는 암호화 되지 않고 영어로 있는 항목에 대해서만 작동 합니다.
@@ -53,6 +55,18 @@ ms.locfileid: "44327760"
 ### <a name="licensing-requirements"></a>라이선스 요구 사항
 
 Trainable 분류자는 Microsoft 365 E5 또는 E5 규정 준수 기능입니다. 이러한 구독 중 하나를 사용 하 여이를 사용할 수 있어야 합니다.
+
+### <a name="pre-requisites"></a>필수 구성 요소
+
+UI에서 trainable 분류자에 액세스 하려면: 
+- 전역 관리자가 테 넌 트를 옵트인 해야 함
+- 분류자를 교육 하려면 준수 관리자 역할 또는 준수 데이터 관리자가 필요 합니다.
+
+다음 시나리오에서 trainable 분류자를 사용 하려면 이러한 사용 권한이 있는 계정이 필요 합니다.
+
+- 보존 레이블 정책 시나리오: RecordManagement and 보존 관리 역할 
+- 민감도 레이블 정책 시나리오: 보안 관리자, 준수 관리자, 준수 데이터 관리자
+- 통신 준수 정책 시나리오: 참가자 위험 관리 관리자, 관리 검토 관리자 
 
 ## <a name="types-of-classifiers"></a>분류자 유형
 
@@ -114,10 +128,11 @@ Microsoft 365에는 다음과 같이 권장 되는 5 가지 기본 제공 분류
 
 ## <a name="see-also"></a>참고 항목
 
+
 - [보존 레이블](labels.md)
 - [보존 정책](retention-policies.md)
 - [DLP(데이터 손실 방지)](data-loss-prevention-policies.md)
 - [민감도 레이블](sensitivity-labels.md)
-- [중요 한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)
+- [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)
 - [문서 손가락 인쇄](document-fingerprinting.md)
 - [정확한 데이터 일치](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)

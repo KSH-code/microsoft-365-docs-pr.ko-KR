@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: dfbb5ed43c5256109ccc0a137a3d144d084e573e
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: c02e27ccf6b4c1a1c03849d1f599acef43385668
+ms.sourcegitcommit: dbc9ff159ed41160d8883c8a9787eba50b45f50b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214244"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278461"
 ---
 # <a name="isoiec-270012013-information-security-management-standards"></a>ISO/IEC 27001:2013 정보 보안 관리 표준
 
@@ -35,28 +35,30 @@ ISO/IEC 27001은 명시적 관리 통제 하에서 정보 보안을 유지하기
 
 ISO/IEC 27001의 인증이 정보 보안 구현 및 관리에 대한 Microsoft 접근 방식이 최전방에 있는 중요한 이유는 바로 이 표준의 국제적 승인 및 적용성 때문입니다. Microsoft의 ISO/IEC 27001 인증은 비즈니스, 보안 준수 관점에서 고객 약속을 지키겠다는 약속을 나타냅니다. 현재 Azure Public과 Azure Germany는 일년에 한 번 타사 공인된 인증 기관을 통해 ISO/IEC 27001 규정 준수에 대한 감사를 받으며 보안 통제 수단이 있고 효과적으로 작동하는지 독립적으로 검증합니다.
 
-Microsoft 클라우드에서 ISO-IEC-27001 의 혜택에 대해 알아보세요. [ISO/IEC 27001:2013 배경 설명 다운로드](https://go.microsoft.com/fwlink/p/?linkid=2100068)
+Microsoft 클라우드에서 ISO/IEC-27001의 혜택에 대해 알아보세요. [ISO/IEC 27001:2013 다운로드](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
 - [Azure, Azure Government, Azure Germany](https://aka.ms/AzureCompliance)
-- Cloud App Security
-- [Dynamics 365 및 Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
-- 유전체학
-- 그래프
-- Health Bot
+- Azure DevOps 서비스
+- Microsoft Cloud App Security
+- Microsoft Defender Advanced Threat Protection
+- [Dynamics 365, Dynamics 365 Government, and Dynamics 365 Germany](https://aka.ms/d365-compliance-list)
+- Microsoft Graph
+- Microsoft Healthcare Bot
 - Intune
 - Microsoft Managed Desktop
-- 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스
+- 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power Automate(이전 Microsoft Flow) 클라우드 서비스
 - [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?linkid=2077751)
 - Office 365 Germany
 - OMS 서비스 지도
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
 - 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
+- Power BI가 포함됨
+- 파워 가상 에이전트
 - [Microsoft 전문 서비스](https://go.microsoft.com/fwlink/p/?linkid=2100022)
-- Stream
-- Azure DevOps Services
-- Microsoft Defender ATP — 엔드포인트 감지 및 대응, 자동 조사 및 조치, 보안 점수
+- Microsoft Stream
+- Microsoft 위협 전문가
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 
@@ -64,19 +66,13 @@ Microsoft 클라우드에서 ISO-IEC-27001 의 혜택에 대해 알아보세요.
 
 ### <a name="azure"></a>Azure
 
-- [Azure, Cloud App Security, Flow, Genomics, Graph, Health Bot, Intune, Microsoft Managed Desktop, OMS Service Map, PowerApps, Power BI, Stream, and Microsoft Datacenter — ISO 27001 인증서](https://go.microsoft.com/fwlink/p/?linkid=2078342)
+- [Azure, Dynamics 365 및 온라인 서비스: ISO27001 인증서](https://aka.ms/azureiso27001cert)
 
 ### <a name="office-365"></a>Office 365
 
-- [Office 365 — Global and Germany ISO 27001 — 정보 보안 관리 표준 — 인증서](https://aka.ms/o365iso27001cert)
+- [Office 365 — Global and Germany ISO 27001: 정보 보안 관리 표준 인증서](https://aka.ms/o365iso27001cert)
 
-### <a name="dynamics-365"></a>Dynamics 365
-
-- [Dynamics 365 — (이전 Dynamics CRM) ISO 27001 — 정보 보안 관리 표준 — 인증서](https://aka.ms/D365ISO27001Cert)
-- [Dynamics 365 — Microsoft Dynamics Marketing Service (MDM) ISO 27001 — 정보 보안 관리 표준 — 인증서](https://aka.ms/d365mdm27001cert)
-- [Dynamics 365 — Microsoft Social Engagement Service ISO 27001 — 정보 보안 관리 표준 — 인증서](https://aka.ms/d365siso27001cert)
-
-### <a name="azure-devops-services"></a>Azure DevOps Services
+### <a name="azure-devops-services"></a>Azure DevOps 서비스
 
 - [Azure DevOps 서비스](https://www.bsigroup.com/Our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d619017%26company%3dVisual%2bStudio%2bOnline&licencenumber=IS%20619017)
 
@@ -84,36 +80,23 @@ Microsoft 클라우드에서 ISO-IEC-27001 의 혜택에 대해 알아보세요.
 
 - [Microsoft 전문 서비스](https://www.bsigroup.com/Our-services/Certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d601002%26company%3dMicrosoft&licencenumber=IS%20601002)
 
-### <a name="microsoft-defender-atp"></a>Microsoft Defender ATP
-
-- [Microsoft Defender ATP  —  엔드포인트 감지 및 대응, 자동 조사 및 조치, 보안 점수 — ISO 27001 인증서](https://aka.ms/windowsdefenderatpiso27001certificate)
-
 ## <a name="assessments-and-reports"></a>평가 및 보고서
 
 ### <a name="azure"></a>Azure
 
-- [Azure, Cloud App Security, Flow, Genomics, Graph, Health Bot, Intune, Microsoft Managed Desktop, OMS Service Map, PowerApps, Power BI, Stream, and Microsoft Datacenter — ISO 27001 및 27018 감사 평가 보고서](https://go.microsoft.com/fwlink/p/?linkid=2078010)
-- [Azure, Cloud App Security, Flow, Genomics, Graph, Health Bot, Intune, OMS Service Map, PowerApps, Power BI, Stream, and Microsoft Datacenter — ISO 27001 및 27018 SOA(적용성 보고서)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
+- [Azure, Dynamics 365 및 온라인 서비스: ISO 27001, 27018 및 27701 감사 평가 보고서](https://aka.ms/azureiso27001report)
+- [Azure, Dynamics 365 및 온라인 서비스: 27001, 27018, 27701 적용성 보고서(SOA)](https://aka.ms/Azureiso27001soa)
 
 ### <a name="office-365"></a>Office 365
 
-- [Office 365 — ISO 27001, ISO 27018 및 ISO 27017 감사 평가 보고서](https://aka.ms/o365isoreport)
-- [Office 365 정보 보안 관리 시스템 (ISMS)-보안 및 개인 정보 보호를 위한 적용성 보고서](https://aka.ms/o365isosoa)
-- [Office 365 — Germany ISO 27001 ISO 27017 및 ISO 27018 감사 평가 보고서](https://aka.ms/o365gerisoaudit)
-- [Yammer ISO 27001 감사 평가 보고서](https://aka.ms/yammeriso)
-
-### <a name="dynamics-365"></a>Dynamics 365
-
-- [Dynamics 365 — ISO 27001 SOA(적용성 보고서)](https://aka.ms/d365isosoa)
+- [Office 365: ISO 27001, 27018 및 27017 감사 평가 보고서](https://aka.ms/o365isoreport)
+- [Office 365: 정보 보안 관리 시스템 (ISMS)-보안 및 개인 정보 보호를 위한 적용성 보고서](https://aka.ms/o365isosoa)
+- [Office 365 Germany: ISO 27001 ISO 27017 및 27018 감사 평가 보고서](https://aka.ms/o365gerisoaudit)
+- [Yammer: ISO27001 감사 평가 보고서](https://aka.ms/yammeriso)
 
 ### <a name="azure-devops-services"></a>Azure DevOps Services
 
 - [Azure DevOps Services ISO 27001 인증서 IS 619017](https://www.bsigroup.com/Our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=company%3dVisual%2bStudio%2bTeam%2bServices&licencenumber=IS%20619017)
-
-### <a name="microsoft-defender-atp"></a>Microsoft Defender ATP
-
-- [Microsoft Defender ATP — 엔드포인트 감지 및 대응, 자동 조사 및 조치, 보안 점수 — ISO 27001 감사 평가 보고서](https://aka.ms/windowsdefenderatpiso27001auditreport)
-- [Microsoft Defender ATP - 엔드포인트 감지 및 대응, 자동 조사 및 조치, 보안 점수 — ISO 27001 및 27018 SOA](https://aka.ms/windowsdefenderatpiso27001SOA)
 
 [추가 감사 보고서 보기](https://aka.ms/auditreports)
 
@@ -148,7 +131,7 @@ ISO/IEC 27001 채택은 전략적인 약속입니다. [ISO/IEC 27000 디렉터�
 
 ## <a name="resources"></a>리소스
 
-- [Microsoft 사이버 제품을 다음에 매핑: NIST Cybersecurity (CSF),CIS Controls and ISO27001:2013 Frameworks](https://download.microsoft.com/download/B/1/8/B18F4C7D-5CBA-4E68-A437-31F1E908ACBA/Microsoft_Cyber_Offerings_Mapped_to_Security_Frameworks_EN_US.pdf)
+- [Microsoft 사이버 제품을 다음에 매핑: NIST Cybersecurity (CSF), CIS Controls and ISO27001:2013 Frameworks](https://download.microsoft.com/download/B/1/8/B18F4C7D-5CBA-4E68-A437-31F1E908ACBA/Microsoft_Cyber_Offerings_Mapped_to_Security_Frameworks_EN_US.pdf)
 - [ISO/IEC 27000 디렉터리](https://www.27000.org/index.htm)
 - [ISO/IEC 27001: 2013 표준](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=54534)(구입)
 - [정보 보안의 기준을 한 차원 높인 Microsoft](https://pages.bsigroup.com/l/73472/2015-07-24/v9btr)(BSI 사례 연구)

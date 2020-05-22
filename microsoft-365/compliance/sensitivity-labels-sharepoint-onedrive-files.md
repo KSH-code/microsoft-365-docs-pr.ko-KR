@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 SharePoint 및 OneDrive에서 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용 하도록 설정할 수 있습니다.
-ms.openlocfilehash: bb35d4ed287e87ba17780c0e7106b837beb9666a
-ms.sourcegitcommit: 758263ad484e00f5a561a47c8c22d5787af7671e
+ms.openlocfilehash: 62bc2b748cf004722f94a7231046930d78437603
+ms.sourcegitcommit: b18949de721c6eef3521d5f8286d9b926ad4aabe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44170917"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44342506"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용
 
@@ -106,7 +106,7 @@ Microsoft 365 준수 센터를 사용 하거나 PowerShell을 사용 하 여 새
 
 조직의 전역 관리자는 민감도 레이블의 모든 측면을 작성하고 관리할 수있는 모든 권한을 가지고 있습니다. 전역 관리자로 로그인하지 않은 경우 [민감도 레이블을 만들고 관리하는 데 필요한 권한](get-started-with-sensitivity-labels.md#permissions-required-to-create-and-manage-sensitivity-labels)을 참조하십시오.
 
-1. [Microsoft 365 준수 센터](https://compliance.microsoft.com/)에 로그인 하 고 **솔루션** > **정보 보호** 로 이동 합니다.
+1. [Microsoft 365 준수 센터](https://compliance.microsoft.com/)에 로그인 하 고 **솔루션**  >  **정보 보호** 로 이동 합니다.
     
     이 옵션이 바로 보이지 않는 경우에는 먼저 **모두 표시**를 선택합니다. 
 
@@ -117,13 +117,13 @@ Microsoft 365 준수 센터를 사용 하거나 PowerShell을 사용 하 여 새
     이 명령은 즉시 실행 되며, 다음에 페이지를 새로 고치면 메시지 또는 단추가 더 이상 표시 되지 않습니다. 
 
 > [!NOTE]
-> Office 365 다중 Geo가 있는 경우 PowerShell을 사용 하 여 모든 지리적 위치에서 이러한 기능을 사용 하도록 설정 해야 합니다. 자세한 내용은 다음 섹션을 참조하세요.
+> Microsoft 365 다중 Geo가 있는 경우 PowerShell을 사용 하 여 모든 지리적 위치에서 이러한 기능을 사용 하도록 설정 해야 합니다. 자세한 내용은 다음 섹션을 참조하세요.
 
 ### <a name="use-powershell-to-enable-support-for-sensitivity-labels"></a>PowerShell을 사용 하 여 민감도 레이블 지원 설정
 
 준수 센터를 사용 하는 대신 SharePoint Online PowerShell에서 [set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps) cmdlet을 사용 하 여 민감도 레이블에 대 한 지원을 사용 하도록 설정할 수 있습니다. 
 
-Office 365 다중 Geo가 있는 경우 PowerShell을 사용 하 여 모든 지리적 위치에 대해이 지원을 사용 하도록 설정 해야 합니다.
+Microsoft 365 다중 Geo가 있는 경우 PowerShell을 사용 하 여 모든 지리적 위치에 대해이 지원을 사용 하도록 설정 해야 합니다.
 
 #### <a name="prepare-the-sharepoint-online-management-shell"></a>SharePoint Online 관리 셸 준비
 
@@ -149,16 +149,16 @@ SharePoint 및 OneDrive에서 Office 파일의 민감도 레이블을 사용 하
 
 새 기능을 사용 하도록 설정 하려면 *EnableAIPIntegration* 매개 변수와 함께 [set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps) cmdlet을 사용 합니다.
 
-1. Office 365에서 전역 관리자 또는 SharePoint 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 SharePoint에 연결 합니다. 자세한 방법은 [SharePoint Online 관리 셸 시작](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)을 참조하세요.
+1. Microsoft 365에서 전역 관리자 또는 SharePoint 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 SharePoint에 연결 합니다. 자세한 방법은 [SharePoint Online 관리 셸 시작](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)을 참조하세요.
     
-    참고: Office 365 다중 위치를 사용 하는 경우-Url 매개 변수를 [connect-sposervice와 연결](https://docs.microsoft.com/powershell/module/sharepoint-online/connect-sposervice?view=sharepoint-ps)하 고 지리적 위치 중 하나에 대 한 SharePoint Online 관리 센터 사이트 Url을 지정 합니다.
+    참고: Microsoft 365 다중 위치를 사용 하는 경우에는 [connect-sposervice](https://docs.microsoft.com/powershell/module/sharepoint-online/connect-sposervice?view=sharepoint-ps)에-Url 매개 변수를 사용한 다음 지리적 위치 중 하나에 대 한 SharePoint Online 관리 센터 사이트 Url을 지정 합니다.
 
 2. 다음 명령을 실행 하 고 **Y** 를 눌러 확인 합니다.
 
     ```PowerShell
     Set-SPOTenant -EnableAIPIntegration $true  
     ```
-3. Office 365 다중 사용자의 경우 나머지 각 지리적 위치에 대해 1 ~ 2 단계를 반복 합니다.
+3. Microsoft 365 다중 사용자의 경우 남은 각 지리적 위치에 대해 1 ~ 2 단계를 반복 합니다.
 
 ## <a name="schedule-roll-out-after-you-create-or-change-a-sensitivity-label"></a>민감도 레이블을 만들거나 변경한 후 일정 롤업
 
@@ -182,7 +182,7 @@ Microsoft 365 준수 센터에서 민감도 레이블을 만들거나 변경한 
 Set-SPOTenant -EnableAIPIntegration $false
 ```
 
-Office 365 다중 Geo를 사용 하는 경우 각 지리적 위치에 대해이 명령을 실행 해야 합니다.
+Microsoft 365 다중 지역에 있는 경우 각 지리적 위치에 대해이 명령을 실행 해야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

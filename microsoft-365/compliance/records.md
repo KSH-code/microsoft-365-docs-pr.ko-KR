@@ -1,5 +1,5 @@
 ---
-title: 레코드 개요
+title: 레코드에 대해 알아보기
 f1.keywords:
 - NOCSH
 ms.author: cabailey
@@ -16,17 +16,17 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Office 365 또는 Microsoft 조직에서 레코드 관리 전략을 구현하려면 콘텐츠를 레코드로 선언하는 보존 레이블을 사용합니다. 그런 다음 보존 레코드 레이블을 게시하거나 자동으로 적용합니다.
-ms.openlocfilehash: cfd9bbc30313a53c197476ab6b7345fdff1c0c35
-ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
+description: Office 365 또는 Microsoft 조직에서 레코드 관리 전략을 구현하기 위해 콘텐츠를 레코드로 선언하는 보존 레이블의 사용에 대해 알아봅니다. 그런 다음 보존 레코드 레이블을 게시하거나 자동으로 적용합니다.
+ms.openlocfilehash: 8dcb3b03dcd908da2a3133d52c1a70ae197eee99
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43949285"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231911"
 ---
-# <a name="overview-of-records"></a>레코드 개요
+# <a name="learn-about-records"></a>레코드에 대해 알아보기
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
 Microsoft 365에서 레코드 관리를 사용하면 조직은 회사 정책, 법적 고지 사항 및 규제 의무를 준수하는 동시에 위험과 법적 책임을 줄일 수 있습니다.
 
@@ -38,7 +38,9 @@ Microsoft 365에서 레코드 관리를 사용하면 조직은 회사 정책, �
 
 - 레코드는 명시된 보존 기간이 지나면 폐기됩니다.
 
-[보존 레이블](labels.md)을 사용하여 콘텐츠를 레코드로 분류합니다. 레코드를 선언하는 보존 레이블을 만든 후 사용자가 콘텐츠를 레코드로 분류하는 데 사용할 수 있도록 해당 레이블을 [게시](labels.md#how-retention-labels-work-with-retention-label-policies)하거나 사용자가 레코드로 분류하기 원하는 콘텐츠에 [해당 레이블을 자동 적용](labels.md#applying-a-retention-label-automatically-based-on-conditions)할 수 있습니다. 사용자는 레코드를 선언하기 위한 보존 레이블을 사용하여 Office 365에서 일관된 단일 레코드 관리 전략을 구현할 수 있지만 레코드 센터와 같은 다른 레코드 관리 기능은 SharePoint Online의 콘텐츠에만 적용할 수 있습니다.
+[보존 레이블](labels.md)을 사용하여 콘텐츠를 레코드로 분류합니다. 레코드를 선언하는 보존 레이블을 만든 후 사용자가 콘텐츠에 적용할 수 있도록 해당 레이블을 게시하거나, 레코드로 분류하기를 원하는 콘텐츠에 해당 레이블을 자동으로 적용할 수 있습니다. 그 지침은 [보존 레이블 만들기, 게시 및 자동 적용](create-retention-labels.md)을 참조하세요.
+
+보존 레이블을 사용하여 레코드를 선언하면 Microsoft 365 환경에서 일관된 단일 레코드 관리 전략을 구현할 수 있습니다.
 
 레코드에 대해 다음의 사항에 유의하십시오.
 
@@ -60,27 +62,28 @@ Microsoft 365에서 레코드 관리를 사용하면 조직은 회사 정책, �
 
     SharePoint 및 OneDrive 폴더에 보존 레이블을 적용하는 방법에 대한 자세한 내용은 [ SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 콘텐츠에 기본 보존 레이블 적용](labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set)을 참조하세요.
 
-  - **레코드는 삭제될 수 없습니다**. 사용자가 Exchange에서 기록을 삭제하려고 하면 [보존 정책이 원본 위치의 콘텐츠에 작동하는 방식](retention-policies.md#content-in-mailboxes-and-public-folders)에 설명된 것처럼 항목이 복구 가능한 항목 폴더로 이동됩니다.
+  - **레코드는 삭제될 수 없습니다**. 사용자가 Exchange에서 기록을 삭제하려고 하면 [보존 정책이 Exchange 위치와 작동하는 방식](retention-policies-exchange.md#how-a-retention-policy-works-with-exchange-locations)에 설명된 것처럼 항목이 복구 가능한 항목 폴더로 이동됩니다.
 
     SharePoint에서 레코드를 삭제하려고 하면 항목이 삭제되지 않았다는 오류 메시지가 표시되고 항목은 라이브러리에 남아 있습니다.
 
     ![SharePoint에서 항목이 삭제되지 않았다는 메시지](../media/d0020726-1593-4a96-b07c-89b275e75c49.png)
 
-    OneDrive에서 레코드를 삭제하려고 하면 [보존 정책이 원본 위치의 콘텐츠에 작동하는 방식](retention-policies.md#content-in-onedrive-accounts-and-sharepoint-sites)에 설명된 것처럼 항목이 자료 보존 라이브러리로 이동됩니다.
+    OneDrive에서 레코드를 삭제하려고 하면 [보존 정책이 SharePoint 및 OneDrive와 작동하는 방식](retention-policies-sharepoint.md#how-a-retention-policy-works-with-sharepoint-and-onedrive)에 설명된 것처럼 항목이 자료 보존 라이브러리로 이동됩니다.
 
   - **레코드 레이블은 제거할 수 없습니다.** 레코드 레이블이 항목에 적용되면 해당 위치의 관리자만(예: SharePoint 사이트의 사이트 모음 관리자) 해당 레코드 레이블을 제거할 수 있습니다.
 
 ## <a name="using-retention-labels-to-declare-records"></a>보존 레이블을 사용하여 레코드 선언
 
-보존 레이블을 만들 때 보존 레이블을 사용하여 콘텐츠를 레코드로 분류하는 옵션이 제공됩니다. 콘텐츠를 레코드로 선언하려면 다음 단계를 따릅니다.
+보존 레이블을 만들 때 보존 레이블을 사용하여 콘텐츠를 레코드로 분류하는 옵션이 제공됩니다.
 
-1. 보존 레이블을 만듭니다. Microsoft 365 준수 센터에서 **레코드 관리** \> **파일 계획**으로 이동합니다. **파일 계획** 페이지에서 **레이블 만들기**를 선택합니다.
+1. Microsoft 365 준수 센터에서 **레코드 관리** \> **파일 계획**으로 이동합니다. **파일 계획** 페이지에서 **레이블 만들기**를 선택합니다.
 
 2. 마법사의 **레이블 설정** 페이지에서 콘텐츠를 레코드로 선언하는 보존 레이블 설정 옵션을 선택합니다.
     
    ![레이블을 사용하여 콘텐츠를 레코드로 분류 확인란을 클릭합니다.](../media/recordversioning6.png)
 
 3. SharePoint 사이트 및/또는 OneDrive 계정에 대한 보존 레이블을 [게시](labels.md#how-retention-labels-work-with-retention-label-policies)하거나 [자동 적용](labels.md#applying-a-retention-label-automatically-based-on-conditions)합니다.
+
 
 ### <a name="applying-a-retention-label-to-content"></a>콘텐츠에 보존 레이블 적용
 

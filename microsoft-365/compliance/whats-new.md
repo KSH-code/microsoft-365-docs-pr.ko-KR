@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Microsoft 365 준수 센터에 지속적으로 새로운 기능을 추가 하 고, 문제를 해결 하 고, 사용자 의견에 따라 변경 사항을 적용 하 고 있습니다. 이번 달에 제공 된 내용을 확인 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 940d316c97370a477c963785ae7e90482b35a46c
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: baccff8699f9ec7b38090fb5adc0fcde8811c764
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034270"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327740"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>Microsoft 365 준수 센터의 새로운 기능
 
@@ -70,7 +70,7 @@ ms.locfileid: "44034270"
 > [!TIP]
 > 최근 매월 미리 본 [솔루션](#new-compliance-solutions) 및 보안 & 준수 센터의 준수 기능이 Microsoft 365에 살고 있는 위치를 보여주는 [로드맵](#updated-compliance-solutions) 에 대 한 자세한 내용은 지난 달의 업데이트를 다시 읽어 보십시오.
 
-책갈피와 head to [https://compliance.microsoft.com](https://compliance.microsoft.com) a now to a-stop-상점을 여행 하 여 조직 전체에서 준수를 관리 합니다. [이 문서를 읽으면](microsoft-365-compliance-center.md) 좀 더 자세히 알아볼 수 있습니다.
+책갈피와 head to a now to a [https://compliance.microsoft.com](https://compliance.microsoft.com) -stop-상점을 여행 하 여 조직 전체에서 준수를 관리 합니다. [이 문서를 읽으면](microsoft-365-compliance-center.md) 좀 더 자세히 알아볼 수 있습니다.
 
 ![Microsoft 365 준수 센터 홈 페이지](../media/mcc-home-ga.png)
 
@@ -177,7 +177,7 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 |레이블 활동 탐색기|정보 거 버 넌 스 > 레이블 활동 탐색기 <br/> https://protection.office.com/labelexplorer |데이터 분류 > 활동 탐색기 탭 <br/> https://compliance.microsoft.com/dataclassification?viewid=activitiesexplorer |[레이블이 지정된 콘텐츠의 활동 보기(미리 보기)](data-classification-activity-explorer.md)|
 |보존 레이블 및 레이블 정책 |분류 > 보존 레이블 > 레이블 및 레이블 정책 탭 <br/> https://protection.office.com/retentionlabels |정보 거 버 넌 스 > 레이블 및 레이블 정책 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=labels <br/> https://compliance.microsoft.com/informationgovernance?viewid=labelpolicies | [보존 레이블 개요](labels.md)|
 |보존 정책|정보 거 버 넌 스 > 보존 <br/> https://protection.office.com/retention |정보 거 버 넌 스 > 보존 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=retention |[보존 정책 개요](retention-policies.md)|
-|중요 한 정보 유형|분류 > 중요 한 정보 유형 <br/> https://protection.office.com/sensitivetypes |데이터 분류 > 중요 한 정보 유형 탭 <br/> https://compliance.microsoft.com/dataclassification?viewid=sensitiveinfotypes |[중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)|
+|중요 한 정보 유형|분류 > 중요 한 정보 유형 <br/> https://protection.office.com/sensitivetypes |데이터 분류 > 중요 한 정보 유형 탭 <br/> https://compliance.microsoft.com/dataclassification?viewid=sensitiveinfotypes |[중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)|
 |민감도 레이블 및 레이블 정책|분류 > 민감도 레이블 > 레이블 및 레이블 정책 탭 <br/> https://protection.office.com/sensitivity |정보 보호 > 레이블 및 레이블 정책 탭 <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabels <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabelpolicies |[민감도 레이블 알아보기](sensitivity-labels.md) |
 |서비스 보증|서비스 보증 <br/> https://protection.office.com/serviceassurance/dashboard |현재 서비스 보증 리소스는 Office 365 보안 & 준수 센터 에서만 액세스할 수 있습니다. |[보안 & 준수 센터의 서비스 보증](service-assurance.md)|
 |감독|감독 <br/> https://protection.office.com/supervisoryreviewv2 |커뮤니케이션 규정 준수 <br/> https://compliance.microsoft.com/supervisoryreview |[Microsoft 365의 통신 준수 (미리 보기)](communication-compliance.md) |
