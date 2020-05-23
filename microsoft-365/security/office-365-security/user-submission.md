@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 관리자는 사용자가 보고 하는 스팸 및 피싱 전자 메일을 수집 하도록 사서함을 구성 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 2a1872aff88cd1cc21c6a6e3258671c303b55e17
-ms.sourcegitcommit: 4ce28ad4d17d336106c1720d65349f19f9e90e04
+ms.openlocfilehash: d3ff44957864e3d5e959d6252d1d538cc715ae92
+ms.sourcegitcommit: 8d9509e617ede7cc5ba933c54fb9300d2d1c6344
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44294196"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "44347810"
 ---
 # <a name="specify-a-mailbox-for-user-submissions-of-spam-and-phishing-messages-in-exchange-online"></a>Exchange Online에서 스팸 및 피싱 메시지의 사용자 제출을 위한 사서함 지정
 
@@ -41,9 +41,9 @@ Exchange Online 사서함이 있는 Microsoft 365 조 직에서는 사용자가 
 
 - <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **사용자 전송** 페이지로 직접 이동 하려면를 사용 <https://protection.office.com/userSubmissionsReportMessage> 합니다.
 
-- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)를 참조하세요. 독립 실행형 EOP PowerShell에 연결 하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조 하세요.
+- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
-- 이 절차를 수행하려면 먼저 사용 권한을 할당 받아야 합니다. 사용자 제출을 위한 사서함을 구성 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
+- 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 사용자 제출을 위한 사서함을 구성 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
 ## <a name="use-the-security--compliance-center-to-configure-the-user-submissions-mailbox"></a>보안 & 준수 센터를 사용 하 여 사용자 전송 사서함을 구성 합니다.
 
@@ -63,7 +63,7 @@ Exchange Online 사서함이 있는 Microsoft 365 조 직에서는 사용자가 
 
       - **제출 후** ![ 확장 아이콘을 클릭 ](../../media/scc-expand-icon.png) 합니다. **제목** 및 **확인 메시지** 상자에 사용자가 보고서 메시지 추가 기능을 사용 하 여 메시지를 보고 한 후에 표시 되는 설명 텍스트를 입력 합니다. 전송 유형을 포함 하기 위해% type% 변수를 사용할 수 있습니다.
 
-      작업을 마친 후 **저장**을 클릭합니다. 이러한 값을 지우려면 **사용자 전송** 페이지에서 다시 **복원을** 클릭 합니다.
+      작업을 마쳤으면 **저장**을 클릭합니다. 이러한 값을 지우려면 **사용자 전송** 페이지에서 다시 **복원을** 클릭 합니다.
 
       - **보고 된 메시지를 보낼**위치: 다음 중 하나를 선택 합니다.
 
@@ -71,12 +71,15 @@ Exchange Online 사서함이 있는 Microsoft 365 조 직에서는 사용자가 
 
         - **Microsoft 및 사용자 지정 사서함**: 표시 되는 상자에 기존 Exchange Online 사서함의 전자 메일 주소를 입력 합니다. 메일 그룹을 사용할 수 없습니다. 사용자 제출은 Microsoft for analysis와 관리자 또는 보안 운영 팀이 분석 하기 위한 사용자 지정 사서함으로 이동 합니다.
 
-        - **사용자 지정 사서함**: 표시 되는 상자에 기존 Exchange Online 사서함의 전자 메일 주소를 입력 합니다. 메일 그룹을 사용할 수 없습니다. 이 옵션을 사용 하 여 분석을 위해 먼저 관리자 또는 보안 운영 팀으로 메시지를 이동 하도록 합니다. 관리자가 메시지를 전달 하지 않으면 메시지가 Microsoft로 이동 하지 않습니다.
+        - **사용자 지정 사서함**: 표시 되는 상자에 기존 Exchange Online 사서함의 전자 메일 주소를 입력 합니다. 메일 그룹을 사용할 수 없습니다. 이 옵션을 사용 하 여 메시지를 먼저 분석을 위해 관리자 또는 보안 운영 팀 으로만 이동 합니다. 관리자가 메시지를 직접 전달 하지 않으면 메시지가 Microsoft로 이동 하지 않습니다.
 
-        작업이 완료 되 면 **확인**을 클릭 합니다.
+        > [!NOTE]
+        > 미국 정부 기관 (GCC, GCC-H 및 DoD)은 **사용자 지정 사서함**만 구성할 수 있습니다. 다른 두 옵션은 사용 하지 않도록 설정 됩니다. 
 
-     > [!CAUTION]
-     > 웹 사서함 정책에서 Outlook을 사용 하 여 [웹용 outlook에서 정크 메일 보고를 사용 하지 않도록 설정](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) 했지만 microsoft에 메시지를 보고 하는 이전 설정 중 하나를 구성 하는 경우 사용자는 보고서 메시지 추가 기능을 사용 하 여 웹용 Outlook에서 Microsoft에 메시지를 보고할 수 있습니다.
+      작업이 완료 되 면 **확인**을 클릭 합니다.
+
+      > [!CAUTION]
+      > 웹 사서함 정책에서 Outlook을 사용 하 여 [웹용 outlook에서 정크 메일 보고를 사용 하지 않도록 설정](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) 했지만 microsoft에 메시지를 보고 하는 이전 설정 중 하나를 구성 하는 경우 사용자는 보고서 메시지 추가 기능을 사용 하 여 웹용 Outlook에서 Microsoft에 메시지를 보고할 수 있습니다.
 
    - **Outlook에 대 한 보고서 메시지 기능 사용 안 함**:이 옵션을 선택 하면 보고서 메시지 추가 기능 대신 타사 보고 도구를 사용 하거나, 웹에서 Outlook에서 기본 제공 되는 보고를 사용할 수 있습니다.
 
@@ -88,13 +91,13 @@ Exchange Online 사서함이 있는 Microsoft 365 조 직에서는 사용자가 
 
 사용자 지정 사서함에 전송 된 메시지는 특정 전송 메일 형식을 따라야 합니다. 제출 서류의 제목 (봉투 제목)은 다음과 같은 형식 이어야 합니다.
 
-`{(int)safetyApiAction}|{networkId}|{senderIp}|{fromAddress}|({subject.Substring(0, Math.Min(subjectLen, subject.Length))})`
+`SafetyAPIAction|NetworkMessgeId|SenderIp|FromAddress|(Message Subject)`
 
-가 중 Etyapiaction은 다음과 같습니다.
+(으)로이 함수는 다음 정수 값 중 하나입니다.
 
-- 정크 메일 = 1
-- NotJunk = 2
-- 피싱 = 3
+- 1: 정크
+- 2: NotJunk
+- 3: 피싱
 
 다음 예제를 실행 합니다.
 
@@ -102,7 +105,7 @@ Exchange Online 사서함이 있는 Microsoft 365 조 직에서는 사용자가 
 - 네트워크 메시지 ID는 49871234-6dc6-43e8-abcd-08d797f20abe입니다.
 - 보낸 사람 IP는 167.220.232.101입니다.
 - 보낸 사람 주소는 test@contoso.com입니다.
-- 메시지의 전자 메일 제목은 "test 피싱"입니다.
+- 메시지의 제목 줄이 "test 피싱"입니다.
 
 `3|49871234-6dc6-43e8-abcd-08d797f20abe|167.220.232.101|test@contoso.com|(test phish submission)`
 

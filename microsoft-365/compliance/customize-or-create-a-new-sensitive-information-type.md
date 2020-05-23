@@ -20,12 +20,12 @@ search.appverid:
 ms.custom: seo-marvel-apr2020
 ms.assetid: ''
 description: 유럽 연합 일반 개인정보보호법(GDPR)에 맞도록 Office 365 중요한 정보 유형을 수정하거나 새로 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 3eca04fcf949a19615dc574c90d8dbeea0894a23
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 70ce61f582cbc952811d01cccc7b958bf1b52dbb
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166069"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224635"
 ---
 # <a name="customize-or-create-a-new-sensitive-information-type"></a>중요한 정보 유형 사용자 지정 또는 새로 만들기
 
@@ -165,7 +165,7 @@ KQL 및 키워드를 함께 사용할 수는 없습니다. 이러한 도구를 �
 
 참고:
 
--   근접 검색에는 NEAR 및 ONEAR을 사용할 수 있습니다.
+-   근접 검색에는 NEAR을 사용할 수 있습니다.
 
 -   그렇지만 KQL은 Regex 클래스가 있는 쿼리(예: IdRef="Regex\_email\_address")를 지원하지 않습니다.
 

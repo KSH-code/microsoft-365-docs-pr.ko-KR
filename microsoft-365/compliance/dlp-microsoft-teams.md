@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 이제 Microsoft 팀 채팅 및 채널에 DLP 정책을 적용할 수 있습니다. 이 문서를 읽으면 작동 방식에 대해 자세히 알아볼 수 있습니다.
-ms.openlocfilehash: 290e1e7a7c3fd395c1f7e1739b08eba64c8d2d8d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2e65800f747b4e6eae4e19e9da92ad2589ac0d4e
+ms.sourcegitcommit: 8d9509e617ede7cc5ba933c54fb9300d2d1c6344
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633057"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "44347857"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft 팀
 
@@ -31,10 +31,8 @@ ms.locfileid: "43633057"
 
 ## <a name="overview-of-dlp-for-microsoft-teams"></a>Microsoft 팀의 DLP 개요
 
-최근에 DLP ( [데이터 손실 방지](data-loss-prevention-policies.md) ) 기능은 Microsoft 팀 채팅 및 채널 메시지를 포함 하도록 확장 되었습니다.
+최근에 DLP ( [데이터 손실 방지](data-loss-prevention-policies.md) ) 기능은 **개인 채널 메시지를 포함 하 여**Microsoft 팀 채팅 및 채널 메시지를 포함 하도록 확장 되었습니다.
 
-> [!NOTE]
-> 이 시점에서 개인 채널 메시지에 대 한 DLP는 지원 되지 않습니다.
 
 조직에 DLP가 있는 경우에는 사용자가 Microsoft 팀 채널 또는 채팅 세션에서 중요 한 정보를 공유 하지 못하도록 하는 정책을 정의할 수 있습니다. 다음은 이러한 보호의 작동 방식에 대 한 몇 가지 예입니다.
 
@@ -67,9 +65,9 @@ ms.locfileid: "43633057"
 
 이 작업을 수행 하려면 DLP 정책을 편집할 수 있는 권한이 있는 역할을 할당 받아야 합니다. 자세한 내용은 [사용 권한을](data-loss-prevention-policies.md#permissions)참조 하십시오.
 
-1. 보안 & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다.
+1. 보안 & 준수 센터 ()로 이동 [https://protection.office.com](https://protection.office.com) 하 여 로그인 합니다.
 
-2. **데이터 손실 방지** > **정책을**선택 합니다.
+2. **데이터 손실 방지**  >  **정책을**선택 합니다.
 
 3. 정책을 선택 하 고 **정책 설정**옆에서 **편집**을 선택 합니다.
 
@@ -87,9 +85,9 @@ ms.locfileid: "43633057"
 
 이 작업을 수행 하려면 DLP 정책을 편집할 수 있는 권한이 있는 역할을 할당 받아야 합니다. 자세한 내용은 [사용 권한을](data-loss-prevention-policies.md#permissions)참조 하십시오.
 
-1. 보안 & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다.
+1. 보안 & 준수 센터 ()로 이동 [https://protection.office.com](https://protection.office.com) 하 여 로그인 합니다.
 
-2. **데이터 손실 방지** > **정책을**선택 합니다.
+2. **데이터 손실 방지**  >  **정책을**선택 합니다.
 
 3. 정책을 선택 하 고 **위치**아래의 값을 확인 합니다. **팀 채팅 및 채널 메시지가**표시 되 면 모든 설정이 완료 됩니다. 그렇지 않으면 **편집**을 클릭 합니다.<br/>![기존 정책에 대 한 위치](../media/dlp-teams-editexistingpolicy.png)<br/>
 
@@ -105,9 +103,9 @@ ms.locfileid: "43633057"
 
 이 작업을 수행 하려면 DLP 정책을 편집할 수 있는 권한이 있는 역할을 할당 받아야 합니다. 자세한 내용은 [사용 권한을](data-loss-prevention-policies.md#permissions)참조 하십시오.
 
-1. 보안 & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다.
+1. 보안 & 준수 센터 ()로 이동 [https://protection.office.com](https://protection.office.com) 하 여 로그인 합니다.
 
-2. **데이터 손실 방지** > **정책** > 및**정책 만들기를**선택 합니다.
+2. **데이터 손실 방지**  >  **정책**및  >  **정책 만들기를**선택 합니다.
 
 3. [서식 파일](data-loss-prevention-policies.md#dlp-policy-templates)을 선택 하 고 **다음**을 선택 합니다.<br/>이 예제에서는 미국 개인 식별이 가능한 정보 데이터 서식 파일을 선택 했습니다.<br/>![DLP 정책에 대 한 개인 정보 서식 파일](../media/dlp-teams-createnewpolicy-template.png)<br/>
 

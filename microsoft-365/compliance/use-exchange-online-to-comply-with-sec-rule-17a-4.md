@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Cohasset Associates는 Exchange Online 및 Security & Compliance Center가 권장대로 구성되어 있으면 CFTC 규칙 1.31 (c) - (d), FINRA 규칙 4511 및 SEC 규칙 17a-4의 관련 저장소 요구 사항을 충족함을 확인했습니다. 평가판을 다운로드할 수 있습니다.
-ms.openlocfilehash: d2624dbc230bb0fb714ab1a5a66b91e70d301a9c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 4d494c519576ed86ed56a331a3440d9237270e33
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626424"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231841"
 ---
 # <a name="use-exchange-online-and-the-security--compliance-center-to-comply-with-sec-rule-17a-4"></a>SEC Rule 17a-4를 준수하기 위해 Exchange Online과 보안 및 준수 센터 사용
 
@@ -65,7 +65,7 @@ Exchange Online에서 [보존 정책](retention-policies.md)이 사용자의 사
 
 ## <a name="how-to-set-up-preservation-lock"></a>보존 잠금을 설정하는 방법
 
-PowerShell을 사용하여 보존 정책을 잠글 수 있습니다. 자세한 내용은 [ 보관 정책 잠금 ](retention-policies.md#locking-a-retention-policy)을 참조하십시오.
+PowerShell을 사용하여 보존 정책을 잠글 수 있습니다. 자세한 내용은 [보존 잠금을 사용하여 규정 요구 사항 준수](retention-policies.md#use-preservation-lock-to-comply-with-regulatory-requirements)를 참조하세요.
 
 ## <a name="known-limitations"></a>알려진 제한
 

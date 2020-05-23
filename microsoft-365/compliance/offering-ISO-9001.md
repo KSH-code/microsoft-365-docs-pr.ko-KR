@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b2542f697edb28c4949b844ae32d606dba5e7a1c
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: 3f733f3baf0db4d01a78e7984f44b17a5d5584e7
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214306"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254311"
 ---
 # <a name="iso-90012015-quality-management-systems-standards"></a>ISO 9001:2015 품질 관리 시스템 표준
 
@@ -33,23 +33,27 @@ ISO 9001:2015는 품질 관리 시스템에 대한 기준을 설정하는 국제
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
-- [Azure](https://aka.ms/AzureCompliance)
-- Cloud App Security
-- Genomics
-- 그래프
+- [Azure, Azure Government, Azure Germany](https://aka.ms/AzureCompliance)
+- Microsoft Cloud App Security
+- Dynamics 365, Dynamics 365 Government, Dynamics 365 Germany
+- Microsoft Graph
 - Intune
+- Microsoft Defender Advanced Threat Protection
+- Microsoft Healthcare Bot
 - Microsoft Managed Desktop
-- 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스
-- 독립 실행형 서비스로서 또는 Office 365나 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
+- 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power Automate(이전 Microsoft Flow) 클라우드 서비스
+- 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
 - 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
+- Power BI Embedded
+- Microsoft Stream
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 
-- [FY19 Microsoft Azure ISO 9001 평가 보고서](https://go.microsoft.com/fwlink/p/?linkid=2077661)
-- [FY19 Microsoft Azure ISO 9001 인증서](https://go.microsoft.com/fwlink/p/?linkid=2077747)
-- [추가 감사 보고서 보기](https://aka.ms/auditreports)
+- [Azure, Dynamics 365 및 온라인 서비스: ISO9001 인증서](https://aka.ms/azureiso9001cert)
+- [Azure, Dynamics 365 및 온라인 서비스: ISO9001 평가 보고서](https://aka.ms/azureiso9001report)
+- [Azure, Dynamics 365 및 온라인 서비스: ISO9001 적용성 보고서(SOA)](https://aka.ms/azureiso9001soa)
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 이 표준은 누구에게 적용되나요?
 
@@ -69,7 +73,7 @@ Azure와 이 평가 범위 내에 있는 추가 서비스에 대한 [ISO 9001:20
 
 ## <a name="resources"></a>리소스
 
-- [ISO 9001:2015 - 품질 관리](https://www.iso.org/iso-9001-quality-management.html)
+- [ISO 9001:2015—품질 관리](https://www.iso.org/iso-9001-quality-management.html)
 - [ISO 9001:2015 표준](https://www.iso.org/standard/62085.html) (구매 요구 사항)
 - [ISO 9000:2015](https://www.iso.org/standard/45481.html) (구매에 대한 기본 사항 및 어휘)
 - [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)

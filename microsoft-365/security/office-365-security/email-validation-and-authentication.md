@@ -17,17 +17,17 @@ ms.collection:
 - Strat_O365_IP
 ms.custom: TopSMBIssues
 localization_priority: Priority
-description: Microsoft 365의 Exchange Online 및 Exchange Online Protection (EOP)에서 전자 메일 인증(SPF, DKIM 및 DMARC)을 사용하여 스푸핑, 피싱 및 스팸이 방지되는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f3a3ea902cb0c4fede4fcfd919f0969765bc4a96
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 관리자는 EOP(Exchange Online Protection)에서 전자 메일 인증(SPF, DKIM 및 DMARC)을 사용하여 스푸핑, 피싱 및 스팸이 방지되는 방법에 대해 알아봅니다.
+ms.openlocfilehash: c79a75f1ae520a0c4f885c923b4a56cdb0f7fb87
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637559"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209502"
 ---
-# <a name="email-authentication-in-microsoft-365"></a>Microsoft 365에서 전자 메일 인증
+# <a name="email-authentication-in-eop"></a>EOP에서 전자 메일 인증
 
-전자 메일 인증(전자 메일 유효성 검사라고도 함)은 스푸핑(위조된 보낸 사람의 전자 메일 메시지)방지를 시도하는 표준 그룹입니다. Exchange Online 사서함 및 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직과 함께 Microsoft 365 조직에서 EOP는 표준을 사용하여 전자 메일을 확인합니다.
+전자 메일 인증(전자 메일 유효성 검사라고도 함)은 스푸핑(위조된 보낸 사람의 전자 메일 메시지)방지를 시도하는 표준 그룹입니다. Exchange Online의 사서함이 있는 Microsoft 365 조직과 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서 EOP는 표준을 사용하여 전자 메일을 확인합니다.
 
 - [SPF](how-office-365-uses-spf-to-prevent-spoofing.md)
 

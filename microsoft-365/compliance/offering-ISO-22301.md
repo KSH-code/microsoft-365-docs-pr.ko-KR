@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 695471d51e391957a5dfea8770cb1928dd39ee86
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 64a43fc281e5074314ca2b272306a0733297d34e
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065913"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254437"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>ISO 22301:2012 비즈니스 연속성 관리 표준
 
 ## <a name="iso-22301-overview"></a>ISO 22301 개요
 
-국제 표준화 기구(ISO)는 독립적인 비정부 조직으로 세계 최대의 자발적 국제 표준 개발 기구입니다. ISO는 재해, 테러리스트의 주요 공격 혹은 전력망의 정지와 같은 재난이 발생하는 경우 조직을 포함하여 사회를 보호하기 위한 표준을 개발하고자 TC 223 사회안보 기술 위원회를 구성하였습니다.
+ISO(International Organization for Standardization: 국제 표준화 기구)는 독립적인 비정부 조직으로 세계 최대의 자발적 국제 표준 개발자입니다. ISO는 재해, 테러리스트의 주요 공격 혹은 전력망의 정지와 같은 재난이 발생하는 경우 조직을 포함하여 사회를 보호하기 위한 표준을 개발하고자 TC 223 사회안보 기술 위원회를 구성하였습니다.
 
 2012년에 이 기술 위원회가 발행한 ISO 22301:2012는 비즈니스의 연속성을 보장하는 데 도움이 되는 관리 시스템에 대한 최초의 국제 표준입니다. ISO 22301는 비즈니스 연속성에 대한 고급 표준으로서 이의 인증은 분열성 사고를 방지 및 완화하고 이에 대응하고 복구하는 엄격한 관행을 준수하고 있음을 입증합니다.
 
@@ -35,21 +35,24 @@ Microsoft는 최초로 비즈니스 연속성 관리에 대한 ISO 22301 인증�
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
-- [Azure 및 Azure Government](https://aka.ms/AzureCompliance)
-- Cloud App Security
-- Genomics
-- 그래프
+- [Azure, Azure Government, Azure Germany](https://aka.ms/AzureCompliance)
+- Microsoft Cloud App Security
+- Dynamics 365, Dynamics 365 Government, Dynamics 365 Germany
+- Microsoft Defender Advanced Threat Protection
+- Microsoft Graph
+- Microsoft Healthcare Bot
 - Intune
 - Microsoft Managed Desktop
-- 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스
+- 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power Automate(이전 Microsoft Flow) 클라우드 서비스
 - [Office 365 상업용, 정부용 그리고 교육용](https://go.microsoft.com/fwlink/p/?linkid=2077751)
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
 - 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
+- Power BI가 포함됨
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 
-- [Azure 및 Azure ISO 22301 등록증](https://go.microsoft.com/fwlink/p/?linkid=2099078)
-- [Azure ISO 22301 평가 보고서](https://go.microsoft.com/fwlink/p/?linkid=2099079)
+- [Azure, Dynamics 365 및 온라인 서비스: ISO22301 인증서](https://aka.ms/azureiso22301cert)
+- [Azure, Dynamics 365 및 온라인 서비스: ISO22301 평가 보고서](https://aka.ms/azureiso22301report)
 - [BSI 22301 Microsoft Office 365 인증서](https://go.microsoft.com/fwlink/p/?linkid=2092109)
 - [BSI 22301 Microsoft Office 365 2단계 부록](https://go.microsoft.com/fwlink/p/?linkid=2092209)
 - [Office 365 ISO 22301 2단계 보고서](https://go.microsoft.com/fwlink/p/?linkid=2092211)

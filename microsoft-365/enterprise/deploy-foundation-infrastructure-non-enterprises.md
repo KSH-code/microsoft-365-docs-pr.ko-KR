@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/08/2019
+ms.date: 05/15/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 엔터프라이즈 이외의 조직의 엔터프라이즈용 Microsoft 365에 대해 간소화된 기본 인프라 단계를 안내합니다.
-ms.openlocfilehash: e1c747e5f4ab3e58adeaf91518512d8ece83d91b
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: caca093463e4a180f50c880a77fa18399103f069
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011902"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268388"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure-for-non-enterprises"></a>엔터프라이즈 이외의 비즈니스용 Microsoft 365 기본 인프라
 
@@ -438,4 +438,4 @@ Powershell을 사용하려면 이 [다운로드 가능한 Excel 통합 문서](h
 
 ## <a name="next-step"></a>다음 단계
 
-[워크로드와 시나리오](deploy-workloads.md)를 배포하여 엔터프라이즈용 Microsoft 365 기본 인프라의 기능과 구성을 활용하세요.
+[워크로드](deploy-workloads.md)를 배포하여 엔터프라이즈용 Microsoft 365 기본 인프라의 기능과 구성을 활용하세요.

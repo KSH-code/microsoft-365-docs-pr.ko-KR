@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 37c460732704da4c5904005cf8ebaabf36b92c49
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 897fc513d0f129a273f87107dc8e85127890ee6e
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066109"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254397"
 ---
 # <a name="cloud-security-alliance-csa-star-certification"></a>CSA(Cloud Security Alliance) STAR 인증
 
@@ -42,23 +42,24 @@ Azure 보안 및 규정 준수 청사진을 사용하여 CSA STAR 인증 배포�
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
 - [Azure, Azure Government, Azure Germany](https://aka.ms/AzureCompliance)
-- Cloud App Security
-- Genomics
-- 그래프
-- Health Bot
+- Microsoft Cloud App Security
+- Microsoft Graph
+- Microsoft Healthcare Bot
 - Intune
 - Microsoft Managed Desktop
-- 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스
-- OMS 서비스 맵
-- 독립 실행형 서비스로서 또는 Office 365나 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
+- Microsoft Defender Advanced Threat Protection
+- OMS 서비스 지도
+- Power Automate(이전 Microsoft Flow): 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 클라우드 서비스
+- PowerApps 클라우드 서비스: 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태
 - Power BI: 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 제공된 클라우드 서비스
-- Stream
+- Power BI Embedded
+- Microsoft Stream
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 
-- [Azure, Cloud App Security, Flow, Genomics, Graph, Health Bot, Intune, Microsoft Managed Desktop, OMS Service Map, PowerApps, Power BI, Stream — CSA STAR 인증](https://servicetrust.microsoft.com/Documents/ComplianceReports?command=Download&downloadType=Document&downloadId=6d07d7e3-da62-4153-a91c-14d259dac9f1&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
+- [Azure, Dynamics 365 및 온라인 서비스: CSA STAR 인증서](https://aka.ms/azurecsastarcert)
 
-## <a name="frequently-asked-questions"></a>자주 하는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 **CSA CCM이 어떤 산업 표준과 일치하나요?**
 
@@ -66,16 +67,16 @@ CCM는 ISO 27001, PCI DSS, HIPAA, AICPA SOC 2, CIP, FedRAMP, NIST 등과 같은 
 
 **Microsoft 클라우드 서비스에 대한 CSA STAR 인증은 어디에서 확인할 수 있습니까?**
 
-CSA 레지스트리에서 Intune도 다루는 Azure의 [CSA STAR 인증](https://aka.ms/csastar-certification)을 다운로드할 수 있습니다.
+CSA 레지스트리에서 Dynamics 365, Intune와 Power BI도 다루는 Azure의 [CSA STAR 인증](https://aka.ms/csastar-certification)을 볼 수 있습니다.
 
 **Microsoft 클라우드 서비스는 어떤 성숙도 수준을 달성했나요?**
 
-Azure, Cloud App Security, Intune 및 Power BI는 성숙도 기능 평가에서 최고의 금상을 수상했습니다.
+Azure, Microsoft Cloud App Security, Intune 및 Power BI는 성숙도 기능 평가에서 최고의 금상을 수상했습니다.
 
 **Microsoft 비즈니스 클라우드 서비스는 어떤 CSA STAR 보증 수준을 획득했나요?**
 
 - **수준 1**: **CSA STAR 자체 평가**: Azure, Dynamics 365, Office 365. [자체 평가](offering-csa-star-self-assessment.md)는 클라우드 서비스 공급자가 고객이 서비스 보안을 평가하는 것을 돕기 위해 보안 제어를 문서화하는 무료 서비스입니다.
-- **수준 2**: **CSA STAR 인증**: Azure, Cloud App Security, Intune, Power BI. STAR 인증은 ISO/IEC 27001 인증을 획득과 CCM에 지정된 기준 충족에 기반합니다. 클라우드 서비스 공급자의 보안 제어 및 관행에 대한 엄격한 제3자 평가 후에 이를 수여합니다.
+- **수준 2**: **CSA STAR 인증**: Microsoft Azure, Cloud App Security, Intune, Power BI. STAR 인증은 ISO/IEC 27001 인증을 획득과 CCM에 지정된 기준 충족에 기반합니다. 클라우드 서비스 공급자의 보안 제어 및 관행에 대한 엄격한 제3자 평가 후에 이를 수여합니다.
 - **수준 2**: **CSA STAR 증명**: Azure, Intune. CSA와 AICPA는 AICPA(Trust Service Principles, AT 101)와 CSA CCM의 기준을 사용하여 CPA가 SOC 2 계약을 수행하는 데 사용할 지침을 제공하기 위해 협력했습니다. [STAR 증명](offering-CSA-STAR-Attestation.md)은 이러한 지침을 기반으로 하며 클라우드 공급자에 대한 엄격한 독립적인 평가 후에 수여됩니다.
 
 ## <a name="resources"></a>리소스

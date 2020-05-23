@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1f44c46046fc107e8059cebda3388fcd775bd31e
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 329bb7c4662d6449d69c6dca9ad489bdd70a0d3f
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065693"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254231"
 ---
 # <a name="isoiec-270172015-code-of-practice-for-information-security-controls"></a>ISO/IEC 27017:2015 정보 보안 통제를 위한 규약
 
@@ -44,28 +44,30 @@ ISO/IEC 27017은 클라우드 서비스 공급자 및 클라우드 서비스 고
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
 - [Azure, Azure Government, Azure Germany](https://aka.ms/AzureCompliance)
-- 클라우드 앱 보안
-- [Dynamics 365](https://aka.ms/d365-compliance-list)
-- Genomics
-- 그래프
+- Microsoft Cloud App Security
+- [Dynamics 365, Dynamics 365 및 Dynamics 365 Germany](https://aka.ms/d365-compliance-list)
+- Microsoft Defender Advanced Threat Protection
+- Microsoft Graph
+- Microsoft Healthcare Bot
 - Intune
 - Microsoft Managed Desktop
-- 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스
+- 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power Automate(이전 Microsoft Flow) 클라우드 서비스
 - Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense, 및 Office 365 Germany
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
 - 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
+- Power BI Embedded
+- Microsoft Stream
 - Office 365에서 적용되는 서비스에 대한 [자세한 목록](https://go.microsoft.com/fwlink/p/?linkid=2077751)보기
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 
 Microsoft 클라우드 서비스는 ISO/IEC 27001:2013에 대한 인증 프로세스의 일부로서 ISO/IEC 27017:2015 규약에 대해 1년에 한 번씩 감사를 받습니다.
 
-- [Azure ISO 27017 인증서](https://go.microsoft.com/fwlink/p/?linkid=2078005)
-- [Azure ISO 27017 평가 보고서](https://go.microsoft.com/fwlink/p/?linkid=2078010)
-- [Azure ISO 27017 적용성 보고서](https://aka.ms/azureiso27017StatementofApplicability)
-- [Office 365 ISO 27001, 27018, and 27017 감사 평가 보고서](https://aka.ms/o365isoreport)
+- [Azure ISO 27017 인증서](https://aka.ms/azureiso27017cert)
+- [Azure ISO 27017 평가 보고서](https://aka.ms/azureiso27017report)
+- [Office 365: ISO 27001, 27018 및 27017 감사 평가 보고서](https://aka.ms/o365isoreport)
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 이 표준은 누구에게 적용됩니까?
 

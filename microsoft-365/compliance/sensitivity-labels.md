@@ -16,13 +16,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Microsoft Information Protection 프레임 워크의 민감도 레이블을 사용하여 조직의 데이터를 분류하고 보호하는 동시에 사용자 생산성과 공동 작업 능력이 방해받지 않도록 하십시오. 이 레이블은 바닥글 및 워터마크와 같은 암호화 시각적 표시가 포함된 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: b09a107c6b03743eeaddf86e812cc747482d2eb4
-ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
+description: Microsoft Information Protection 프레임워크의 민감도 레이블을 사용하여 사용자 생산성과 공동 작업 능력을 방해하지 않으면서 조직의 데이터를 분류하고 보호하세요.
+ms.openlocfilehash: 76d6a57c02f2623b65287b5429c41728a07724bd
+ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44022156"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44292546"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -89,7 +89,7 @@ Office 앱의 경우, 민감도 레이블이 전자 메일 또는 문서에서 �
     
     ![문서에 적용된 워터마크 및 머리글](../media/Sensitivity-label-watermark-header.png)
     
-    콘텐츠 표시가 적용되는 경우를 확인해야 하나요? [Microsoft 365에서 콘텐츠 표시 및 암호화를 적용하는 경우](sensitivity-labels-office-apps.md#when-office-365-applies-content-marking-and-encryption)를 참조하세요.
+    콘텐츠 표시가 적용되는 경우를 확인해야 하나요? [Office 앱에서 콘텐츠 표시 및 암호화를 적용하는 경우](sensitivity-labels-office-apps.md#when-office-apps-apply-content-marking-and-encryption)를 참조하세요.
     
     문자열 길이: 워터 마크는 255자로 제한됩니다. Excel의 경우를 제외하고 머리글과 바닥글은 1024자로 제한됩니다. Excel에서는 머리글과 바닥글의 총 글자 수가 255자로 제한되지만 이 제한에는 서식 코드처럼 보이지 않는 문자가 포함됩니다. 해당 한도에 도달하면 입력한 문자열이 Excel에 표시되지 않습니다.
 

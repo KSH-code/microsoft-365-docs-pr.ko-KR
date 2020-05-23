@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 525d58a37fe4bb254d06ce7a4fcb6e2a54344a79
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 42adeca60c97fa2a3877f04055725a99a453b032
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035800"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327780"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -494,7 +494,7 @@ Exchange Online용 DLP(전자 메일), Business용 OneDrive(파일), Microsoft T
 
 ## <a name="related-articles"></a>관련 문서
 
-[기본 제공 중요 정보 유형 및 해당 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)
+[중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)
 
 [사용자 지정 중요한 정보 유형](custom-sensitive-info-types.md)
 

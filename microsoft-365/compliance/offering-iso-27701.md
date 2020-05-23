@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e6d28d3095f0a08aa7c2bf66df3b32b2dc7bec86
-ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
+ms.openlocfilehash: 8a4f59a817e8ddd38ee8132e7028a3357d15d578
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42222020"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254171"
 ---
 # <a name="isoiec-27701-privacy-information-management-system-pims"></a>ISO/IEC 27701 PIMS(개인 정보 관리 시스템)
 
@@ -67,10 +67,30 @@ ISO/IEC 27001 및 PIMS의 주요 사항:
 
 조직의 규모 및 컨트롤러인지 프로세서인지에 상관없이 조직은 조직 자체를 위해 또는 비즈니스 요구 사항을 기반으로 공급업체 또는 공급자의 요청을 받아 인증을 진행하는 것을 고려해야 합니다. 이는 중요한 볼륨 또는 많은 볼륨의 개인 데이터를 처리하는 프로세서, 하위 프로세서 및 공동 컨트롤러에 특히 적용됩니다. 어떤 경우든 조직은 자신의 제품 및 서비스에 대한 인증이 적합한지 확인하기 위해 비즈니스 요구 사항을 평가해야 합니다.
 
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
+
+- Azure, Azure Government, Azure Germany
+- Azure DevOps Services
+- Microsoft Cloud App Security
+- Dynamics 365, Dynamics 365 Government, Dynamics 365 Germany
+- Microsoft Graph
+- Microsoft Healthcare Bot
+- Intune
+- Microsoft Managed Desktop
+- Power Automate(과거 Microsoft Flow) 
+- PowerApps
+- Power BI
+- Power BI Embedded
+- Power Virtual Agents
+- Microsoft Stream
+- Microsoft 위협 전문가
+- Windows Defender Advanced Threat Protection
+
+
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 
-- [Azure ISO/IEC 27701 인증](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0431b3f-7716-4332-9c26-44b58174bdaf&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports)
-- [Azure ISO/IEC 27701 평가 보고서](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1abbb81e-f4ca-4436-bbdb-b196a672efda&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports)
+- [Azure, Dynamics 365 및 온라인 서비스: ISO27701 인증](https://aka.ms/azureiso27701cert)
+- [Azure, Dynamics 365 및 온라인 서비스: ISO27701 평가 보고서](https://aka.ms/azureiso27701report)
 
 ## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용하여 위험 평가
 

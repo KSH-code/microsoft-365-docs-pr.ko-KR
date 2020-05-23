@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블 및 민감도 레이블을 만든 이후 테넌트 전체에서 얼마나 사용되는지 알고자 할 것입니다. Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터의 레이블 분석을 사용하여 어떤 레이블이 사장 많이 사용되고 레이블이 적용된 위치를 빠르게 알 수 있습니다.
-ms.openlocfilehash: 75eb86cb8671c81b80afc67b19d7c54830c4c401
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3905b868ec3815fd9bf63ca131a20ceb1034f2c7
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072310"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231991"
 ---
 # <a name="view-label-usage-with-label-analytics"></a>레이블 분석을 통한 레이블 사용량 보기
 

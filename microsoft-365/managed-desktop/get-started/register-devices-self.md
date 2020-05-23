@@ -7,19 +7,19 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 1d4ca01e7b791dafc952b62a5f5dd59263b31546
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: 8765d6ecd180d71d918a5feda8cd5089e7f561ee
+ms.sourcegitcommit: 8d9509e617ede7cc5ba933c54fb9300d2d1c6344
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557556"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "44347822"
 ---
 # <a name="register-new-devices-yourself"></a>직접 새 장치 등록
 
 Microsoft Managed Desktop은 새로운 장치에서 작동 하거나 이미 사용 중인 장치를 다시 사용할 수 있습니다 (다시 이미지 해야 함). Azure Portal에서 Microsoft Managed Desktop을 사용 하 여 장치를 등록할 수 있습니다.
 
 > [!NOTE]
-> 파트너와 협력 하 여 장치 가져오기 그렇다면 하드웨어 해시를 가져오는 것을 걱정 하지 않아도 됩니다. 사용자에 게 필요한 작업입니다. 파트너가 [파트너 센터](https://partner.microsoft.com/dashboard) 의 관계를 설정 하 고 Azure Active Directory 및 Office 365에 대 한 위임 된 관리 권한을 포함 하는지 확인 합니다. 파트너 [센터 도움말](https://docs.microsoft.com/partner-center/request-a-relationship-with-a-customer)에서 더 많은 정보를 확인할 수 있습니다. 이 관계가 설정 되 면 파트너는 사용자를 대신 하 여 장치를 등록 합니다 (추가 작업은 필요 하지 않음). 세부 정보를 보거나 파트너에 게 질문이 있는 경우 [에는 파트너가 장치를 등록 하는 단계](register-devices-partner.md)를 참조 하세요. 장치가 등록 되 면 [이미지 확인](#check-the-image) 을 계속 하 고 사용자에 게 [장치를 전달할](#deliver-the-device) 수 있습니다.
+> 파트너와 협력 하 여 장치 가져오기 그렇다면 하드웨어 해시를 가져오는 것을 걱정 하지 않아도 됩니다. 사용자에 게 필요한 작업입니다. 파트너가 [파트너 센터](https://partner.microsoft.com/dashboard)에서 사용자와 관계를 설정 했는지 확인 합니다. 파트너 [센터 도움말](https://docs.microsoft.com/partner-center/request-a-relationship-with-a-customer)에서 더 많은 정보를 확인할 수 있습니다. 이 관계가 설정 되 면 파트너는 사용자를 대신 하 여 장치를 등록 합니다 (추가 작업은 필요 하지 않음). 세부 정보를 보거나 파트너에 게 질문이 있는 경우 [에는 파트너가 장치를 등록 하는 단계](register-devices-partner.md)를 참조 하세요. 장치가 등록 되 면 [이미지 확인](#check-the-image) 을 계속 하 고 사용자에 게 [장치를 전달할](#deliver-the-device) 수 있습니다.
 
 ## <a name="prepare-to-register-brand-new-devices"></a>새 장치 등록 준비
 
@@ -53,7 +53,7 @@ Microsoft Managed Desktop은 해당 하드웨어 해시를 참조 하 여 각 �
 3. 실행`Save-Script -Name Get-MMDRegistrationInfo -Path <pathToUsb>`
 4. 등록 중인 디바이스를 켜면 *설치 환경이 시작 되지*않습니다. 실수로 설치 환경을 시작한 경우 장치를 초기화 하거나 다시 이미지로 만들어야 합니다.
 5. USB 드라이브를 삽입 한 다음 SHIFT + F10 키를 누릅니다.
-6. 관리 권한으로 PowerShell 프롬프트를 열고를 실행 `cd <pathToUsb>`합니다.
+6. 관리 권한으로 PowerShell 프롬프트를 열고를 실행 `cd <pathToUsb>` 합니다.
 7. 실행`Set-ExecutionPolicy -ExecutionPolicy Unrestricted`
 8. 실행`.\Get-MMDRegistrationInfo -OutputFile <path>\hardwarehash.csv`
 9. USB 드라이브를 제거한 다음 다음을 실행 하 여 장치를 종료 합니다.`shutdown -s -t 0`
@@ -98,7 +98,7 @@ Microsoft Managed Desktop [Azure Portal](https://aka.ms/mmdportal)의 왼쪽 탐
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
 
-다음 단계를 따릅니다.
+다음 단계를 따릅니다:
 
 1. **파일 업로드**에서 이전에 만든 CSV 파일의 경로를 제공 합니다.
 2. 원하는 경우 사용자의 추적 목적으로 **주문 id** 또는 **구매 ID** 를 추가할 수 있습니다. 이러한 값에 대 한 형식 요구 사항은 없습니다.

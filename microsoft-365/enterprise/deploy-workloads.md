@@ -1,8 +1,8 @@
 ---
-title: Microsoft 365 Enterprise 워크로드 및 시나리오
+title: Microsoft 365 Enterprise 워크로드
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/21/2019
+ms.date: 05/15/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,14 +12,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직의 사용자에게 Microsoft 365 Enterprise의 생산성 워크로드를 제공합니다.
-ms.openlocfilehash: 7767f01d87029c7fc641a65442a5171b0d03eab5
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 0e1658655c4b97a7e571d1ac09c4b2edcc6c82ce
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066218"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268288"
 ---
-# <a name="microsoft-365-for-enterprise-workloads-and-scenarios"></a>Microsoft 365 Enterprise 워크로드 및 시나리오
+# <a name="microsoft-365-for-enterprise-workloads"></a>Microsoft 365 Enterprise 워크로드
 
 Microsoft 365 Enterprise의 독창성과 팀워크 이점을 얻으려면 기본 인프라에 다음과 같은 워크로드를 배포하세요.
 
@@ -29,31 +29,13 @@ Microsoft 365 Enterprise의 독창성과 팀워크 이점을 얻으려면 기본
 
 전체 조직을 Microsoft Office 클라이언트 제품, 온-프레미스 Office Server 제품 및 Microsoft Windows 기반 장치가 포함된 Microsoft 365 Enterprise로 마이그레이션하는 일반적인 로드맵은 [마이그레이션](migration-microsoft-365-enterprise-workload.md) 문서를 참조하세요.
 
-시나리오는 Microsoft 365 Enterprise에서 제공되는 기능 및 서비스를 통합된 방식으로 사용하여 비즈니스 요구 사항을 해결합니다. 
+전체 Microsoft 365 Enterprise 배포 가이드의 워크로드는 다음과 같습니다.
 
-그러한 요구 사항 중 하나는 직원들이 인트라넷에 직접 연결되어 있지 않을 때 생산적으로 안전하게 작업할 수 있도록 하는 것입니다. 인프라 요소를 배포하고 원거리 사용자의 Teams 및 Exchange Online과 같은 주요 작업부하의 채택을 견인하기 위한 지침은 [원거리 작업자에 권리 부여](empower-people-to-work-remotely.md) 시나리오를 참조하세요.
-
-그러한 요구 중 또 다른 하나는 Microsoft 365에 저장된 규제가 엄격한 데이터의 보호입니다. 규제가 엄격한 데이터에는 다음과 같은 디지털 자산이 포함됩니다.
-
-- 지역 규제를 받는 데이터
-- 영업 비밀, 재무 또는 인사 관련 정보와 조직의 전략과 같이 조직에서 가장 중요한 데이터
-
-내부 및 외부 위협에서이 데이터를 보호하려면 다음을 참조하세요:
-
-- [높은 규제 대상 데이터를 위한 Teams](secure-teams-highly-regulated-data-scenario.md)
-- [높은 규제 대상 데이터를 위한 SharePoint 사이트](teams-sharepoint-online-sites-highly-regulated-data.md). 
-
-이들 시나리오에서는 가장 중요한 데이터를 안전하게 저장하기 위해 Microsoft Teams 팀을 구성하는 방법을 단계별로 설명합니다.
-
-전체 Microsoft 365 Enterprise 배포 가이드의 워크로드 및 시나리오는 다음과 같습니다.
-
-![전체 Microsoft 365 Enterprise 배포 가이드의 워크로드 및 시나리오](media/deploy-workloads/m365-deploy-content-arch-workloads.png)
-
-추가 시나리오는 [Microsoft 365 생산성 라이브러리](https://aka.ms/productivitylibrary)(https://aka.ms/productivitylibrary)를 참조하세요. 
+![전체 Microsoft 365 Enterprise 배포 가이드의 워크로드](../media/deploy-workloads/m365-deploy-content-arch-workloads.png)
 
 ## <a name="foundation-infrastructure-prerequisites"></a>기본 인프라 전제 조건
 
-*이상적으로*는 [기초 인프라](deploy-foundation-infrastructure.md)의 모든 단계를 구성한 후에 워크로드 및 시나리오를 배포해야합니다. 이렇게하면 모든 기본 기반 계층이 사용자 및 장치에 통합, 보안 및 최상의 환경을 제공할 수 있습니다.
+*이상적으로*는 [기초 인프라](deploy-foundation-infrastructure.md)의 모든 단계를 구성한 후에 워크로드를 배포해야 합니다. 이렇게하면 모든 기본 기반 계층이 사용자 및 장치에 통합, 보안 및 최상의 환경을 제공할 수 있습니다.
 
 | 단계 | 결과 |
 |:-------|:-----|

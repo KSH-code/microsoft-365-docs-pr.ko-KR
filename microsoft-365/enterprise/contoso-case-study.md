@@ -15,12 +15,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: 대표적인 가상 글로벌 조직이 Microsoft 365 Enterprise를 채택한 방법
-ms.openlocfilehash: bf974d374b9c60744b2efda465a7c5e92f0386bb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e623e4a95172432dc790f345b1758afed63e144c
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43625353"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268425"
 ---
 # <a name="microsoft-365-enterprise-for-the-contoso-corporation"></a>Contoso Corporation의 Microsoft 365 Enterprise
 
@@ -68,14 +68,9 @@ Microsoft 365 Enterprise에 대한 Contoso의 전반적인 목표는 클라우�
 
   Contoso는 ID 및 액세스 관리, 위협 방지, 정보 보호 및 보안 관리를 위해 Microsoft 365 Enterprise의 전체 보안 기능을 사용합니다.
 
-- [극비 프로젝트를 위한 팀](contoso-team-for-top-secret-project.md)
+- [극비 프로젝트를 위한 팀](../solutions/contoso-team-for-top-secret-project.md)
 
-  극비 프로젝트를 위한 안전한 공동 작업 환경을 만들기 위해 Contoso는 높은 규제 대상 데이터를 위한 팀을 사용했습니다.
-
-- [고도의 기밀 디지털 자산을 위한 SharePoint Online 사이트](contoso-sharepoint-online-site-for-highly-confidential-assets.md)
-
-  Contoso는 지적 재산권을 보호하고 연구팀이 보다 쉽게 공동 작업을 할 수 있도록 지원하기 위해 고도로 규제된 데이터에 SharePoint Online 사이트를 사용했습니다.
-
+  극비 프로젝트를 위한 안전한 공동 작업 환경을 만들기 위해 Contoso는 보안 격리를 갖춘 팀을 사용했습니다.
 
 ## <a name="next-step"></a>다음 단계
 

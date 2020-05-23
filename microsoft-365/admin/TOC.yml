@@ -234,9 +234,11 @@
       items:
         - name: 데이터를 보호하는 10가지 유용한 방법
           href: security-and-compliance/secure-your-business-data.md
+        - name: Microsoft 365에 대한 다단계 인증 사용
+          href: security-and-compliance/multi-factor-authentication-microsoft-365.md
         - name: 다단계 인증 설정
           href: security-and-compliance/set-up-multi-factor-authentication.md
-        - name: Office 2013을 사용하여 다단계 인증 설정
+        - name: Office 2013에 대해 최신 인증 사용
           href: security-and-compliance/enable-modern-authentication.md
         - name: 보안 점수
           href: 'https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-new'

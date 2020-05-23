@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 보안 &amp; 준수 센터의 DLP(데이터 손실 방지) 정책을 사용하여 Office 365 전체의 중요한 정보를 식별하고 모니터링하며 자동으로 보호할 수 있습니다.
-ms.openlocfilehash: 68e81a83242ef4a1a099760044b5ccaec5bd91b7
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 705c105853a67d4bb006efbfd0f3d6150f5e7181
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630605"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327706"
 ---
 # <a name="overview-of-data-loss-prevention"></a>데이터 손실 방지 개요
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -289,7 +289,7 @@ DLP 정책을 만들고 설정한 후에 다음과 같은 문제가 발생하기
   
 ### <a name="match-accuracy"></a>일치 정확도
 
-위에서 설명한 것처럼, 중요한 정보 유형은 다양한 유형의 증거 결합을 통해 정의되고 검색됩니다. 일반적으로 중요한 정보 유형은 패턴이라는 이러한 여러 결합으로 정의됩니다. 증거가 덜 필요한 패턴은 일치 정확도(또는 신뢰 수준)가 낮은 데 반해 증거가 더 필요한 패턴은 일치 정확도(또는 신뢰 수준)가 높습니다. 모든 중요한 정보 유형에서 사용되는 실제 패턴 및 신뢰 수준에 대해 자세히 알아보려면 [중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)을 참조하세요.
+위에서 설명한 것처럼, 중요한 정보 유형은 다양한 유형의 증거 결합을 통해 정의되고 검색됩니다. 일반적으로 중요한 정보 유형은 패턴이라는 이러한 여러 결합으로 정의됩니다. 증거가 덜 필요한 패턴은 일치 정확도(또는 신뢰 수준)가 낮은 데 반해 증거가 더 필요한 패턴은 일치 정확도(또는 신뢰 수준)가 높습니다. 모든 중요한 정보 유형에서 사용되는 실제 패턴 및 신뢰 수준에 대해 자세히 알아보려면 [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)를 참조하세요.
   
 예를 들어 신용 카드 번호라는 중요한 정보 유형은 다음과 같은 두 개의 패턴으로 정의됩니다.
   
@@ -332,7 +332,7 @@ DLP 정책을 만들고 설정한 후에 다음과 같은 문제가 발생하기
 DLP 정책에서 이전에 생성 및 게시 된 [보존 레이블](labels.md)을 조건으로 사용하는 경우 다음 사항에 유의해야 합니다.
 
 - 보존 레이블을 DLP 정책의 조건으로 사용하기 전에 보존 레이블을 미리 작성, 게시 및 적용해야 합니다.
-- 보존 레이블은 생성 및 게시된 후 자동으로 적용되려면 하루가 소요되고 최대 7일이 소요될 수 있습니다. 자세한 정보는 [보존 레이블이 적용되는 데 걸리는 시간](labels.md#how-long-it-takes-for-retention-labels-to-take-effect)을 참조하세요.
+- 보존 레이블은 생성 및 게시된 후 자동으로 적용되려면 하루가 소요되고 최대 7일이 소요될 수 있습니다. 자세한 정보는 [보존 레이블이 적용되는 데 걸리는 시간](create-retention-labels.md#how-long-it-takes-for-retention-labels-to-take-effect)을 참조하세요.
 - 정책에서 보존 레이블을 사용하는 것은 ***SharePoint Online 및 비즈니스 용 OneDrive 항목***에만 지원됩니다.
 
 
@@ -504,9 +504,13 @@ DLP 정책을 만드는 규정 준수 팀의 구성원에게는 보안 &amp; 준
 1. Microsoft 365에서 그룹을 생성하고 규정 준수 책임자를 추가하십시오.
     
 2. 보안 &amp; 준수 센터의 **사용 권한** 페이지에서 역할 그룹을 생성하십시오. 
+
+3. 역할 그룹을 만드는 동안 **역할 선택** 섹션을 사용하여 역할 그룹에 **DLP 준수 관리** 역할을 추가합니다.
     
-3. 역할 그룹에 Microsoft 365 그룹을 추가하십시오.
-    
+4. **구성원 선택** 섹션을 사용하여 이전에 만든 Microsoft 365 그룹을 역할 그룹에 추가합니다.
+
+**보기 전용 DLP 준수 관리** 역할을 부여하여 DLP 정책 및 DLP 보고서에 대한 보기 전용 권한이 있는 역할 그룹을 만들 수도 있습니다.
+
 더 자세한 내용은 [Office 365 준수 센터 액세스 권한 부여하기](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참고하십시오.
   
 이러한 정책은 DLP 정책을 만들고 적용하는 데만 필요합니다. 정책 적용을 위해서는 콘텐츠에 액세스하지 않아도 됩니다.
@@ -539,8 +543,8 @@ DLP 정책을 만드는 규정 준수 팀의 구성원에게는 보안 &amp; 준
     
 - [DLP 정책 템플릿에 포함되는 내용](what-the-dlp-policy-templates-include.md)
     
-- [What the sensitive information types look for](what-the-sensitive-information-types-look-for.md)(중요한 정보 유형이 찾는 항목)
+- [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)
     
-- [DLP 기능이 찾는 항목](what-the-dlp-functions-look-for.md)
+- [DLP 함수가 찾는 항목](what-the-dlp-functions-look-for.md)
     
 - [사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)

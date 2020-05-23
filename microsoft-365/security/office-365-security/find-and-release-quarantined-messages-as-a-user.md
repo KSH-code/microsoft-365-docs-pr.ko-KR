@@ -18,17 +18,17 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 이 문서에서는 Microsoft 365의 보안 및 준수 센터에서 격리된 메시지를 확인하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: ff6cb3dbf9a0a2010bf792115c53265689873090
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+description: 사용자에게 전달되었어야 하는 EOP(Exchange Online Protection)에 격리된 메시지를 보고 관리하는 방법에 대해 알아볼 수 있습니다.
+ms.openlocfilehash: 802c2a5ce196a1ca67b01b973be5889b141f57f5
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173383"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208854"
 ---
-# <a name="find-and-release-quarantined-messages-as-a-user"></a>사용자로 격리된 메시지 찾기 및 릴리스
+# <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>EOP에서 사용자 권한으로 격리된 메시지 찾기 및 해제하기
 
-격리는 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange online Protection) 조직에 위험할 가능성이 있거나 원치 않는 메시지를 보유합니다. 자세한 내용은 [Office 365의 격리](quarantine-email-messages.md)를 참조하세요.
+Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange online Protection) 조직에서 격리는 위험할 가능성이 있거나 원치 않는 메시지를 보유합니다. 자세한 내용은 [EOP에 격리](quarantine-email-messages.md)를 참조하세요.
 
 사용자가 받는 사람인 경우 사용자는 격리된 메시지를 보고 해제하고 삭제할 수 있으며, 메시지는 스팸 또는 벌크 메일로 격리되었습니다. 2020년 4월부터 사용자가 받는 사람인 경우 사용자는 격리된 피싱(높은 정확도가 아닌 피싱) 메시지를 보거나 삭제할 수 있습니다. 보안 및 준수 센터에서 또는 [최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)에서(관리자가 설정한 경우) 격리 된 메시지를보고 관리합니다.
 
@@ -36,11 +36,11 @@ ms.locfileid: "44173383"
 
 - 보안 및 준수 센터를 열려면 <https://protection.office.com>로 이동하세요. 격리 페이지를 바로 열려면 <https://protection.office.com/quarantine>으로 이동하세요.
 
-- 관리자는 메시지를 영구적으로 삭제하기 전에 얼마나 오래 메시지를 격리할지 구성할 수 있습니다(스팸 방지 정책). 격리에서 만료되는 메시지는 복구할 수 없습니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
+- 관리자는 메시지를 영구적으로 삭제하기 전에 얼마나 오래 메시지를 격리할지 구성할 수 있습니다(스팸 방지 정책). 격리에서 만료되는 메시지는 복구할 수 없습니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
-- 관리자는 스팸 방지 정책에서 [최종 사용자 스팸 알림을 사용하도록 설정](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)할 수도 있습니다. 사용자는 스팸 격리된 메시지를 해제할 수 있지만 이 알림에서 피싱 격리된 메시지를 직접 해제할 수 없습니다. 자세한 내용은 [Office 365에서 최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)을 참조하세요.
+- 관리자는 스팸 방지 정책에서 [최종 사용자 스팸 알림을 사용하도록 설정](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)할 수도 있습니다. 사용자는 스팸 격리된 메시지를 해제할 수 있지만 이 알림에서 피싱 격리된 메시지를 직접 해제할 수 없습니다. 자세한 내용은 [EOP에서 최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)을 참조하세요.
 
-- 신뢰도가 높은 피싱, 맬웨어 또는 메일 흐름 규칙(전송 규칙이라고도 함)에 의해 격리된 메시지는 관리자만 볼 수 있습니다. 피싱 메시지는 관리자가 릴리스할 뿐 아니라 사용자가 검토할 수 있습니다. 자세한 내용은 [Office 365에서 관리자로 격리된 메시지 관리하기](manage-quarantined-messages-and-files.md)를 참조하세요.
+- 신뢰도가 높은 피싱, 맬웨어 또는 메일 흐름 규칙(전송 규칙이라고도 함)에 의해 격리된 메시지는 관리자만 볼 수 있습니다. 피싱 메시지는 관리자가 릴리스할 뿐 아니라 사용자가 검토할 수 있습니다. 자세한 내용은 [EOP에서 관리자로 격리된 메시지 관리하기](manage-quarantined-messages-and-files.md)를 참조하세요.
 
 - 메시지를 해제하고 가양성으로(정크 아님) 한 번만 보고할 수 있습니다.
 
@@ -96,7 +96,7 @@ ms.locfileid: "44173383"
 
      - **스팸**
 
-     - **피싱**(2020년 4월부터)
+     - **피싱**
 
    필터를 지우려면 **지우기**를 클릭합니다. 필터 플라이아웃을 숨기려면 다시 **필터**를 클릭합니다.
 
@@ -134,7 +134,7 @@ ms.locfileid: "44173383"
 
 - **제목**
 
-- **격리 이유**: 메시지가 **스팸**, **대량 전자 메일** 또는 (2020년 4월부터)**피싱**으로 구분되었는지 표시합니다.
+- **격리 이유**: 메시지가 **스팸**, **대량 메일** 또는 **피싱**으로 구분되었는지를 표시합니다.
 
 - **받는 사람**: 메시지에 받는 사람이 여러 명 있는 경우 **미리 보기 메시지** 또는 **메시지 헤더 보기**를 클릭하여 전체 받는 사람의 목록을 확인해야 합니다.
 

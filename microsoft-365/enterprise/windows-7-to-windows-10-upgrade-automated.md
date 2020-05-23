@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 대규모 조직을 위한 Windows 7에서 Windows 10으로 자동 업그레이드
-ms.openlocfilehash: 575ffba84b2cd7b7cfe5267a35a9f36c75dbe306
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: c151c5488fdbc77dc2da7dd308bafb75b6bb5f22
+ms.sourcegitcommit: ad789f1e7bf9c9dc0d45c731373e667a26ed30b1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011554"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221401"
 ---
 # <a name="windows-7-to-windows-10-automated-in-place-upgrades-for-large-organizations"></a>대규모 조직을 위한 Windows 7에서 Windows 10으로 현재 위치에서 자동 업그레이드
 
@@ -90,7 +90,7 @@ Configuration Manager 배포 작업 순서의 [사전 캐시 옵션](https://doc
 
 호환성 검사와 결합된 사전 캐시 작업 시퀀스
 
-패키지 다운로드 시간을 절약하는 것 외에도 업그레이드 패키지를 사전 캐시하고 Windows 설치 프로그램을 사용하여 실제 Windows 업그레이드를 실행하기 전에 현재 위치 업그레이드가 성공할지를 평가할 수 있습니다. 다음 명령줄 구문을 사용하여 호환성 검사를 자동으로 실행하고 Windows 설치 프로그램에서 장치를 업그레이드 준비 상태로 평가하는지 여부를 확인할 수 있습니다.
+패키지 다운로드 시간을 절약하는 것 외에도 업그레이드 패키지를 사전 캐시하고 Windows 설치 프로그램을 사용하여 실제 Windows 업그레이드를 실행하기 전에 현재 위치 업그레이드가 성공할지를 평가할 수 있습니다. 다음 명령줄 구문을 사용하여 호환성 검사를 자동으로 실행하고 Windows 설치 프로그램에서 장치를 업그레이드 준비 상태로 평가하는지 여부를 확인할 수 있습니다. **Setup.EXE /Auto Upgrade /Quiet /NoReboot /Compat ScanOnly**
 
 그런 다음 로그가 정의된 서버 경로로 전송되고 Windows 설치가 사용자에게 표시되지 않고 사용자 조작이 없이도 종료합니다.
 

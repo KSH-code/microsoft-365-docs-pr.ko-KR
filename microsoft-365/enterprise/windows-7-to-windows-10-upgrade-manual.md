@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 7에서 Windows 10으로 수동 업그레이드.
-ms.openlocfilehash: ea1705a91baf6b0526e87bcf04529ab2668aa439
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3840a57e3672bdbe0f9fc3c785e20350646a0102
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086139"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222318"
 ---
 # <a name="windows-7-to-windows-10-manual-upgrade-step-by-step-guide"></a>Windows 7에서 Windows 10으로 수동 업그레이드 단계별 가이드
 
@@ -110,6 +110,6 @@ Windows 7으로 돌아가기 프로세스를 시작하려면 설정 \> 업데이
 
 ## <a name="moving-to-windows-10-on-a-new-pc"></a>새 PC에서 Windows 10으로 이동
 
-새 PC에서 Windows 10으로 이동하는 것도 좋은 방법입니다. 새 PC에서 Windows 10으로 이동하려는 경우, [OneDrive](https://support.office.com/article/b5e918be-0fd4-4095-98da-bceed57f8e0c?ocid=MoveToWindows10) 백업 또는 [Windows에서 기본 제공하는 백업 및 복원](https://support.microsoft.com/help/4469209?ocid=MoveToWindows10)을 사용하거나, 수동으로 [외부 스토리지 디바이스](https://support.microsoft.com/help/4465814/windows-7-move-files-off-pc-with-an-external-storage-device?ocid=MoveToWindows10)를 사용하거나 [Laplink PCmover Express](https://www.microsoft.com/windows/transfer-your-data)와 같은 도구를 사용하여 기존 컴퓨터의 파일을 전송할 수 있습니다. 이 중에서 어떠한 옵션을 사용해도 Windows 10에 포함되어 있지 않으나 필요한 애플리케이션을 다시 설치할 수 있습니다. Windows 7을 실행하는 기존 PC에서 Windows 10을 실행하는 새 PC로 수동으로 이동하는 옵션에 대해 자세히 알아보려면 Windows 지원의 [Windows 10 PC로 이동](https://support.microsoft.com/help/4229823?ocid=MoveToWindows10)을 참조하세요.
+새 PC에서 Windows 10으로 이동하는 것도 좋은 방법입니다. 새 PC에서 Windows 10으로 이동하려는 경우, [OneDrive](https://support.office.com/article/b5e918be-0fd4-4095-98da-bceed57f8e0c?ocid=MoveToWindows10) 백업 또는 [Windows에서 기본 제공하는 백업 및 복원](https://support.microsoft.com/help/4469209?ocid=MoveToWindows10)을 사용하거나, 수동으로 [외부 스토리지 디바이스](https://support.microsoft.com/help/4465814/windows-7-move-files-off-pc-with-an-external-storage-device?ocid=MoveToWindows10)를 사용하거나 Laplink PCmover Express와 같은 도구를 사용하여 기존 컴퓨터의 파일을 전송할 수 있습니다. 이 중에서 어떠한 옵션을 사용해도 Windows 10에 포함되어 있지 않으나 필요한 애플리케이션을 다시 설치할 수 있습니다. Windows 7을 실행하는 기존 PC에서 Windows 10을 실행하는 새 PC로 수동으로 이동하는 옵션에 대해 자세히 알아보려면 Windows 지원의 [Windows 10 PC로 이동](https://support.microsoft.com/help/4229823?ocid=MoveToWindows10)을 참조하세요.
 
-## <a name="desktop-deployment-centerhttpsakamshowtoshift"></a>[데스크톱 배포 센터](https://aka.ms/howtoshift)
+## <a name="desktop-deployment-center"></a>[데스크톱 배포 센터](https://aka.ms/howtoshift)

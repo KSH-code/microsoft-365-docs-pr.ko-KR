@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5a30f856f418807025eb450537633aec1616c54f
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 00657f3e1e223305c4e4a4202e8ff6f612b5374e
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065923"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254201"
 ---
 # <a name="isoiec-20000-12011-information-technology-service-management"></a>ISO/IEC 20000-1:2011 정보 기술 서비스 관리
 
@@ -37,26 +37,28 @@ ISO 20000-1:2011 인증을 얻는 것은 Microsoft Azure에 대한 논리적인 
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
-- [Azure 및 Azure Government](https://aka.ms/AzureCompliance)
-- Cloud App Security
+- [Azure, Azure Government, Azure Germany](https://aka.ms/AzureCompliance)
+- Microsoft Cloud App Security
+- Microsoft Defender Advanced Threat Protection
+- Microsoft Graph
+- Microsoft Healthcare Bot
 - Intune
 - Microsoft Managed Desktop
-- Microsoft PowerApps
-- Microsoft Flow
-- Microsoft Graph
-- Microsoft Genomics
 - Office 365 Operated by 21Vianet
+- Microsoft PowerApps
+- Power Automate(과거 Microsoft Flow)
 - Power BI
+- Power BI Embedded
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 
-Azure, Intune, Microsoft Managed Desktop, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics 및 Microsoft Datacenters에 대한 2017 ISO 20000-1 설명서
+ISO 20000-1 문서는 다음과 같습니다.
 
-- [평가 보고서](https://go.microsoft.com/fwlink/p/?linkid=2077810)
-- [인증서](https://go.microsoft.com/fwlink/p/?linkid=2077815)
-- [적용성 보고서](https://aka.ms/AzureISO20000StatementofApplicability)
+- [Azure, Dynamics 365 및 온라인 서비스: ISO20000-1 인증서](https://aka.ms/azureiso200001cert)
+- [Azure, Dynamics 365 및 온라인 서비스: ISO20000-1 평가 보고서](https://aka.ms/azureiso200001report)
+- [Azure, Dynamics 365 및 온라인 서비스: ISO20000-1 가용성 보고서(SOA)](https://aka.ms/azureiso200001soa)
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 **Microsoft 서비스의 ISO 20000-1:2011 감사 보고서와 범위 기술서는 어디에서 구할 수 있습니까?**
 
@@ -76,6 +78,6 @@ Azure와 이 평가 범위에 있는 추가 서비스의 ISO 20000-1:2011 인증
 
 ## <a name="resources"></a>리소스
 
-- [ISO 20000-1:2011 - 서비스 관리](https://www.iso.org/standard/51986.html) (구입 요구 사항)
+- [ISO 20000-1:2011—서비스 관리](https://www.iso.org/standard/51986.html) (구입 요구 사항)
 - [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)

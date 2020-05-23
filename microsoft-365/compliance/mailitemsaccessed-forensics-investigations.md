@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: MailItemsAccessed 사서함 감사 작업을 사용하여 손상된 사용자 계정에 대한 포렌식 조사를 수행합니다.
-ms.openlocfilehash: 20c57f1d11af8fded15cc2fdf280414f7172ffd7
-ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
+ms.openlocfilehash: cd76a49e1f7b6e52d2a21e74162781771a8552a1
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44262581"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327652"
 ---
 # <a name="use-advanced-audit-to-investigate-compromised-accounts"></a>고급 감사를 사용하여 손상된 계정 조사
 
@@ -37,13 +37,13 @@ MailItemsAccessed 사서함 감사 작업은 POP, IMAP, MAPI, EWS, Exchange Acti
 
 ### <a name="auditing-sync-access"></a>동기화 액세스 감사
 
-Windows 또는 Mac용 Outlook 클라이언트의 데스크톱 버전에서 사서함에 액세스하는 경우에만 동기화 작업이 기록됩니다. 동기화 작업 중에 일반적으로 이러한 클라이언트는 클라우드에서 많은 메일 항목의 집합을 로컬 컴퓨터로 다운로드합니다. 동기화 작업에 대한 감사 볼륨은 매우 큽니다. 따라서 동기화되는 각 메일 항목에 대한 감사 레코드를 생성하는 대신, 동기화된 항목이 포함된 메일 폴더에 대한 감사 이벤트를 생성합니다. 이는 동기화된 폴더의 *모든* 메일 항목이 손상되었다고 가정합니다. 액세스 형식은 감사 레코드의 OperationsProperties 필드에 기록됩니다. 
+Windows 또는 Mac용 Outlook 클라이언트의 데스크톱 버전에서 사서함에 액세스하는 경우에만 동기화 작업이 기록됩니다. 동기화 작업 중에 일반적으로 이러한 클라이언트는 클라우드에서 많은 메일 항목의 집합을 로컬 컴퓨터로 다운로드합니다. 동기화 작업에 대한 감사 볼륨은 매우 큽니다. 따라서 동기화되는 각 메일 항목에 대한 감사 레코드를 생성하는 대신, 동기화된 항목이 포함된 메일 폴더에 대한 감사 이벤트를 생성합니다. 이는 동기화된 폴더의 *모든* 메일 항목이 손상되었다고 가정합니다. 액세스 형식은 감사 레코드의 OperationProperties 필드에 기록됩니다. 
 
 감사 레코드에 동기화 액세스 유형을 표시하는 예제는 [포렌식 조사를 위해 MailItemsAccessed 감사 레코드를 사용](#use-mailitemsaccessed-audit-records-for-forensic-investigations) 섹션의 2단계를 참조하세요.
 
 ### <a name="auditing-bind-access"></a>바인딩 액세스 감사
 
-바인딩 작업은 전자 메일 메시지에 대한 개별 액세스입니다. 바인딩 액세스의 경우 개별 메시지의 인터넷 메시지 ID가 감사 레코드에 기록됩니다. MailItemsAccessed 감사 작업은 바인딩 작업을 레코드한 다음 하나의 감사 레코드로 집계합니다. 2분 간격 이내에 발생하는 모든 바인딩 작업은 AuditData 속성 내에 있는 폴더 필드의 단일 감사 레코드에 집계됩니다. 액세스한 각 메시지는 인터넷 메시지 ID로 식별 됩니다. 레코드에 집계된 바인딩 작업 수가 AuditData 속성의 OperationCount 필드에 표시 됩니다.
+바인딩 작업은 전자 메일 메시지에 대한 개별 액세스입니다. 바인딩 액세스의 경우 개별 메시지의 InternetMessageId가 감사 레코드에 기록됩니다. MailItemsAccessed 감사 작업은 바인딩 작업을 레코드한 다음 하나의 감사 레코드로 집계합니다. 2분 간격 이내에 발생하는 모든 바인딩 작업은 AuditData 속성 내에 있는 폴더 필드의 단일 감사 레코드에 집계됩니다. 엑세스된 각 메시지는 InternetMessageId로 식별됩니다. 레코드에 집계된 바인딩 작업 수가 AuditData 속성의 OperationCount 필드에 표시됩니다.
 
 감사 레코드에 바인딩 액세스 유형을 표시하는 예제는 [포렌식 조사를 위해 MailItemsAccessed 감사 레코드를 사용](#use-mailitemsaccessed-audit-records-for-forensic-investigations) 섹션의 4단계를 참조하세요.
 
@@ -152,13 +152,13 @@ Search-MailboxAuditLog -Identity <user> -StartDate 01/06/2020 -EndDate 01/20/202
  
    다음과 같은 두 가지 방법으로 바인딩 작업에 감사 데이터를 사용할 수 있습니다.
 
-     - 공격자가 인터넷 메시지 ID를 사용하여 액세스한 모든 전자 메일 메시지에 액세스를 하거나 수집을 하여 찾고 해당 메시지 가운데 중요한 정보가 포함되어 있는지 확인합니다.
+     - 공격자가 InternetMessageId를 사용하여 액세스한 모든 전자 메일 메시지에 액세스를 하거나 수집을 하여 찾고 해당 메시지 가운데 중요한 정보가 포함되어 있는지 확인합니다.
 
-     - 인터넷 메시지 ID를 사용하여 잠재적으로 중요한 전자 메일 메시지 집합과 관련된 감사 레코드를 검색합니다. 이 방법은 적은 수의 메시지만 우려하는 경우에 유용합니다.
+     - InternetMessageId를 사용하여 잠재적으로 중요한 전자 메일 메시지 집합과 관련된 감사 레코드를 검색합니다. 이 방법은 적은 수의 메시지만 우려하는 경우에 유용합니다.
 
 ## <a name="filtering-of-duplicate-audit-records"></a>중복된 감사 레코드 필터링
 
-한 시간 이내에 서로 발생하는 동일한 바인딩 작업에 대한 중복 감사 레코드는 감사 노이즈를 제거하기 위해 필터링됩니다. 동기화 작업은 1시간 간격으로도 필터링됩니다. 이 중복 제거 프로세스의 예외는 동일한 인터넷 메시지 ID에 대해 다음의 표에 설명된 속성이 다른 경우 발생합니다. 이러한 속성 중 하나가 중복 작업에서 다르면 새 감사 레코드가 생성됩니다. 이 프로세스는 다음 섹션에서 자세히 설명되어 있습니다.
+한 시간 이내에 서로 발생하는 동일한 바인딩 작업에 대한 중복 감사 레코드는 감사 노이즈를 제거하기 위해 필터링됩니다. 동기화 작업은 1시간 간격으로도 필터링됩니다. 이 중복 제거 프로세스의 예외는 동일한 InternetMessageId에 대해 다음의 표에 설명된 속성이 다른 경우 발생합니다. 이러한 속성 중 하나가 중복 작업에서 다르면 새 감사 레코드가 생성됩니다. 이 프로세스는 다음 섹션에서 자세히 설명되어 있습니다.
 
 | 속성| 설명|
 |:--------|:---------|

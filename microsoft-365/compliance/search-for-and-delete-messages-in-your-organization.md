@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: 보안 및 준수 센터의 검색 및 삭제하기 기능을 사용하여 조직의 모든 사서함에서 전자 메일 메시지를 검색하고 삭제할 수 있습니다.
-ms.openlocfilehash: 69df11f00680aec2380ed5663761a29bc1fcfebc
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: cec7229da0d6bef9af94dfc017794ece21aa0ac8
+ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626444"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44292444"
 ---
 # <a name="search-for-and-delete-email-messages"></a>전자 메일 메시지 검색 및 삭제
 
@@ -42,14 +42,16 @@ ms.locfileid: "43626444"
 ## <a name="before-you-begin"></a>시작하기 전에
 
 - 콘텐츠 검색을 만들고 실행하려면 **eDiscovery 관리자** 역할 그룹의 구성원이거나 **준수 검색** 관리 역할을 할당 받아야 합니다. 메시지를 삭제하려면 **조직 관리** 역할 그룹의 구성원이거나 **검색 및 삭제** 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가하는 방법에 대한 자세한 내용은 [보안 및 준수 센터의 eDiscovery 권한 부여](assign-ediscovery-permissions.md)를 참조하세요.
-    
+
 - 메시지를 삭제하려면 보안 및 준수 센터 PowerShell을 사용해야 합니다. 연결하는 방법에 대한 자세한 내용은 [2단계](#step-2-connect-to-security--compliance-center-powershell)를 참조하세요.
-    
+
 - 사서함마다 한 번에 최대 10개의 항목을 제거할 수 있습니다. 메시지를 검색하고 제거하는 기능은 인시던트 응답 도구로 고안되었으므로 이러한 제한은 사서함에서 메시지가 빠르게 제거되도록 합니다. 이 기능은 사용자 사서함을 정리하기 위한 것이 아닙니다.
-    
+
 - 콘텐츠 검색에서 검색 및 삭제 작업을 수행하여 항목을 삭제할 수 있는 최대 사서함 수는 50,000개입니다. [1단계](#step-1-create-a-content-search-to-find-the-message-to-delete)에서 만든 콘텐츠 검색에 50,000개를 초과하는 원본 사서함이 있는 경우 3단계에서 만드는 삭제 작업이 실패합니다. 50,000개 이상의 사서함에 대해 검색 및 삭제 작업을 수행하는 방법에 대한 자세한 내용은 [추가 정보](#more-information) 섹션을 참조하세요. 
-    
+
 - 이 문서의 절차는 Exchange Online 사서함 및 공용 폴더에서 항목을 삭제하는 데에만 사용할 수 있습니다. SharePoint 또는 비즈니스용 OneDrive 사이트에서 콘텐츠를 삭제하는 데에는 사용할 수 없습니다.
+
+- Advanced eDiscovery 사례에서 검토 집합의 전자 메일 항목은 이 문서의 절차를 사용하여 삭제할 수 없습니다. 검토 집합의 항목이 실제 서비스가 아닌 Azure Storage 위치에 저장되기 때문입니다. 즉, 1단계에서 만든 콘텐츠 검색에서 이를 반환하지 않습니다. 검토 집합의 항목을 삭제하려면 검토 집합이 포함된 Advanced eDiscovery 사례를 삭제해야 합니다. 자세한 내용은 [Advanced eDiscovery 사례 닫기 또는 삭제하기](close-or-delete-case.md)를 참조하세요.
     
 ## <a name="step-1-create-a-content-search-to-find-the-message-to-delete"></a>1단계: 삭제할 메시지를 찾는 콘텐츠 검색 만들기
 

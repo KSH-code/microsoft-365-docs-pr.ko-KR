@@ -27,18 +27,18 @@ ms.custom:
 - OKR_SMB_Videos
 ms.assetid: 2ae3ea58-4fce-4592-91d6-46e9ae3ec218
 description: Microsoft 365 관리 센터에서 송장 또는 청구서를 찾으십시오. 청구서 복사본을 저장하고 인쇄할 수도 있습니다.
-ms.openlocfilehash: 9a7f6f7c28d429135959fa2612dd24721e35366b
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 7425c0b49ff65fa0d5c777e3c7fdb7af99488a9d
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942868"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232784"
 ---
 # <a name="view-your-bill-or-invoice"></a>청구서 또는 송장 보기
 
 이 문서는 비즈니스용 Microsoft 365 구독을 사용하는 사용자용입니다. 이 문서에 설명된 단계를 수행하려면 전역 관리자 또는 대금 청구 관리자여야 합니다.
   
-청구서에 표시된 요금 내용을 해석하는 데 도움이 필요한 경우 [청구서 이해](understand-your-invoice2.md)에서 자세한 지침을 참조하세요.
+청구서에 표시된 요금 내용을 해석하는 데 도움이 필요한 경우 [결제 내역 또는 청구서 이해](understand-your-invoice2.md)에서 자세한 지침을 참조하세요.
   
  **관리자가 아니세요?** IT 관리자에게 지원을 문의하세요. 
   

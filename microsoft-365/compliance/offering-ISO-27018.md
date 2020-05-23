@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8c04362747a3e4767defcf746e1158849c00725b
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: a5e5879bf176c7be72ead3c80c91934d0a1c5a01
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065763"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254417"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>클라우드 내 개인 데이터 보호를 위한 ISO/IEC 27018 규약
 
@@ -33,7 +33,7 @@ Microsoft와 ISO/IEC 27018
 
 적어도 1년에 한 번 Microsoft Azure 및 Azure Germany는 공인된 타사 인증 기관을 통해 ISO/IEC 27001 및 ISO/IEC 27018 규정 준수에 대한 감사를 받고, 적용 가능한 보안 통제 수단이 있고 효과적으로 작동하는지 독립적으로 검증합니다. 이 준수 확인 프로세스의 일환으로서 감사자는 적용서 보고서에서 Microsoft 범위 내 클라우드 서비스 및 상용 기술 지원 서비스에 Azure에서 PII 보호를 위한 ISO/IEC 27018 통제 수단이 통합되어 있음을 확인했습니다. 규정 준수 상태를 유지하려면 매년 Microsoft 클라우드 서비스에 대한 외부 검토를 받아야 합니다.
 
-ISO/IEC 27001 표준과 ISO/IEC 27018에 포함된 규약을 준수함으로써 이 행동 규약을 통합한 최초 주요 클라우드 공급자인 Microsoft는 Microsoft의 개인 정보 보호 정책 및 절차가 확고하며 높은 수준의 자체 표준에 따른 것임을 입증하고 있습니다.
+ISO/IEC 27001 표준과 ISO/IEC 27018에 포함된 규약을 준수하는(이 행동 규약을 통합한 최초 주요 클라우드 공급자) Microsoft는 Microsoft의 개인 정보 보호 정책 및 절차가 확고하며 높은 수준의 자체 표준에 따른 것임을 입증하고 있습니다.
 
 - **Microsoft 클라우드 서비스의 고객은 자신의 데이터가 저장되는 위치를 알고 있습니다.** ISO/IEC 27018에 따라 인증된 CSP는 고객에게 데이터가 저장될 수 있는 국가를 알려주어야 하므로, Microsoft 클라우드 서비스 고객은 해당되는 정보 보안 규칙을 준수하는 데 필요한 시야를 확보하게 됩니다.
 - **고객 데이터는 명시적 승인 없이는 마케팅이나 광고에 사용되지 않습니다.** 일부 CSP는 대상 지정된 광고 등 고유의 상업적 목적으로 고객 데이터를 사용하기도 합니다. Microsoft는 범위 내 엔터프라이즈 클라우드 서비스에 대해 ISO/IEC 27018을 채택했으므로, 고객은 데이터가 명시적 승인 없이는 이러한 목적으로 사용되지 않으며 이러한 승인이 클라우드 서비스의 사용 조건일 수 없음을 확신할 수 있습니다.
@@ -43,22 +43,24 @@ ISO/IEC 27001 표준과 ISO/IEC 27018에 포함된 규약을 준수함으로써 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
 - [Azure, Azure Government, Azure Germany](https://aka.ms/AzureCompliance)
-- Cloud App Security
+- Azure DevOps Services
+- Microsoft Cloud App Security
+- Dynamics 365, Dynamics 365 및 Dynamics 365 Germany
 - Microsoft 전문 서비스: Azure, Dynamics 365, Intune, 비즈니스용 Microsoft 365의 중간 규모 비즈니스 및 엔터프라이즈 고객 대상 프리미어 및 온-프레미스
-- [Dynamics 365 및 Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
-- 유전체학
-- 그래프
-- Health Bot
+- Microsoft Graph
+- Microsoft Healthcare Bot
 - Intune
 - Microsoft Managed Desktop
-- 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스
+- Power Automate(이전 Microsoft Flow): 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 클라우드 서비스
 - [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?linkid=2077751)
 - Office 365 Germany
 - OMS 서비스 지도
-- 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
-- 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
-- Stream
-- Azure DevOps Services
+- PowerApps 클라우드 서비스: 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태
+- Power BI 클라우드 서비스: 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태
+- Power BI가 포함됨
+- 파워 가상 에이전트
+- Microsoft 위협 전문가
+- Microsoft Stream
 - Windows Defender ATP — 끝점 감지 및 대응, 자동 조사 및 조치, 보안 점수
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
@@ -69,32 +71,20 @@ Microsoft 클라우드와 상용 기술 지원 서비스는 ISO/IEC 27001에 대
 
 ### <a name="audits-and-reports"></a>감사 및 보고서
 
-- [Azure, Intune, Microsoft Managed Desktop, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics 및 Microsoft Datacenter — ISO 27001 및 27018 인증서](https://go.microsoft.com/fwlink/p/?linkid=2078016)
-- [Azure, Intune, Microsoft Managed Desktop, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics 및 Microsoft Datacenter — ISO 27001 및 27018 감사 평가 보고서](https://go.microsoft.com/fwlink/p/?linkid=2078020)
-- [Azure, Intune, Microsoft Managed Desktop, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics 및 Microsoft Datacenter — ISO 27001 및 27018 SOA(적용성 보고서) 2017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
-- [Azure — Germany ISO 27018 — 클라우드 내 개인 데이터 보호를 위한 규약 — 인증서](https://servicetrust.microsoft.com/Documents/ComplianceReports?downloadDocument=1&documentId=6a0dab80-8382-4af6-980c-ed2ed9a341c6)
+- [Azure, Dynamics 365 및 온라인 서비스: ISO27018 인증서](https://aka.ms/azureiso27018cert)
+- [AAzure, Dynamics 365 및 온라인 서비스: ISO27018 평가 보고서](https://aka.ms/azureiso27001report)
+- [Azure Germany: 클라우드 인증서 내 개인 데이터 보호를 위한 ISO27018 규약](https://servicetrust.microsoft.com/Documents/ComplianceReports?downloadDocument=1&documentId=6a0dab80-8382-4af6-980c-ed2ed9a341c6)
 
 ### <a name="office-365"></a>Office 365
 
-- [Office 365 — ISO 27001, ISO 27018 및 ISO 27017 감사 평가 보고서](https://aka.ms/o365isoreport)
+- [Office 365: ISO 27001, 27018 및 27017 감사 평가 보고서](https://aka.ms/o365isoreport)
 - [Yammer ISO 27018 감사 평가 보고서](https://aka.ms/YammerISO27018Auditreport)
-
-### <a name="dynamics-365"></a>Dynamics 365
-
-- [Dynamics 365 ISO 27018 감사 평가 보고서](https://aka.ms/dynamics365iso27018auditreport)
-- [Dynamics 365 for Marketing ISO 27018 감사 평가 보고서](https://aka.ms/dynamics365Marketingiso27018auditreport)
-- [Dynamics 365 Parature ISO 27018 감사 평가 보고서](https://aka.ms/dynamics365Paratureiso27018auditreport)
 
 ### <a name="azure-devops-services"></a>Azure DevOps Services
 
-- [Azure DevOps Services ISO 27018 Certificate PII 665918](https://go.microsoft.com/fwlink/p/?linkid=2062252)
+- [Azure DevOps Services: ISO27018 인증서 PII 665918](https://go.microsoft.com/fwlink/p/?linkid=2062252)
 
-### <a name="windows-defender-atp"></a>Windows Defender ATP
-
-- [Windows Defender ATP - 끝점 감지 및 대응, 자동 조사 및 조치, 보안 점수 — ISO 27018 인증서](https://aka.ms/windowsdefenderatpiso27018certificate)
-- [Windows Defender ATP — 끝점 감지 및 대응, 자동 조사 및 조치, 보안 점수 — ISO 27001 및 27018 감사 평가 보고서](https://aka.ms/WindowsDefenderATPISO27001AuditReport)
-
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 **ISO/IEC 27018은 누구에게 적용되나요?**
 

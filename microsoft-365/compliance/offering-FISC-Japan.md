@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b6dc80bbacaf8d4bbadb345910b29b8410c13768
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: b81c2eba975b59341a2ef57f7df8ebc49efc9752
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066573"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254447"
 ---
 # <a name="center-for-financial-industry-information-systems-fisc"></a>FISC(Center for Financial Industry Information Systems: 금융 산업 정보 시스템 센터)
 
@@ -48,7 +48,7 @@ Microsoft에서는 Microsoft Azure, Dynamics 365 및 Microsoft Office 365가 금
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
 - [Azure](https://aka.ms/AzureCompliance)
-- Cloud App Security
+- Microsoft Cloud App Security
 - Intune
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: 파일 계획 관리자는 보존 레이블 및 보존 레이블 정책에 대한 고급 관리 기능을 제공하고, 생성부터 공동 작업, 레코드 선언, 보존 및 최종 처리에 이르는 전체 콘텐츠 수명 주기 동안 레이블 및 레이블-콘텐츠 간 활동을 트래버스하는 통합 방법을 제공합니다.
-ms.openlocfilehash: 78a012b4ecc3401a664fba5e270e7cd67a5dce49
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: b3270538cf2a1454840f6beff4e52fda84fa0afe
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208122"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327686"
 ---
 # <a name="overview-of-file-plan-manager"></a>파일 계획 관리자 개요
 
@@ -142,7 +142,7 @@ ms.locfileid: "44208122"
    |RetentionAction|String|이 속성은 RetentionDuration 속성에 지정된 값이 만료되는 경우 수행할 작업을 지정합니다. 유효한 값은 다음과 같습니다.</br>**Delete**: RetentionDuration 속성에 지정된 값보다 오래된 항목이 삭제됩니다.</br>**Keep**: RetentionDuration 속성에 지정된 기간 동안 항목을 보존하고, 해당 기간이 만료되면 아무 작업도 수행하지 않습니다. </br>**KeepAndDelete**: RetentionDuration 속성에 지정된 기간 동안 항목을 보존하고, 해당 기간이 만료되면 항목을 삭제합니다.   |
    |RetentionDuration|문자열|이 속성은 콘텐츠를 보관할 일 수를 지정합니다. 유효한 값은 다음과 같습니다.</br>**Unlimited**: 항목이 무기한 보존됩니다. </br>***n***: 양의 정수입니다(예: **365**). 
    |RetentionType|String|이 속성은 콘텐츠 작성 날짜, 이벤트 날짜, 레이블이(태그가) 지정된 날짜 또는 마지막으로 수정한 날짜에서 보존 기간을 계산하는지 여부를 지정합니다. 유효한 값은 다음과 같습니다.</br>**CreationAgeInDays**</br>**EventAgeInDays**</br>**TaggedAgeInDays**</br>**ModificationAgeInDays** |
-   |ReviewerEmail|SmtpAddress|이 속성을 채울 때 보존 기간이 만료되면 처리 검토가 트리거됩니다. 이 속성은 **Delete**와 **KeepAndDelete** 보존 작업에 대한 검토자의 전자 메일 주소를 지정합니다. 개별 사용자, 배포 또는 보안 그룹의 전자 메일 주소를 포함할 수 있습니다. 전자 메일 주소가 여러 개인 경우 각 주소를 세미콜론으로 구분하여 지정할 수 있습니다.|
+   |ReviewerEmail|SmtpAddress|이 속성을 채울 때 보존 기간이 만료되면 처리 검토가 트리거됩니다. 이 속성은 **KeepAndDelete** 보존 작업에 대한 검토자의 전자 메일 주소를 지정합니다. 개별 사용자, 배포 또는 보안 그룹의 전자 메일 주소를 포함할 수 있습니다. 전자 메일 주소가 여러 개인 경우 각 주소를 세미콜론으로 구분하여 지정할 수 있습니다.|
    |ReferenceId|String|이 속성은 **참조 ID** 파일 계획 설명자에 표시되는 값을 지정합니다.| 
    |DepartmentName|String|이 속성은 **기능/부서** 파일 계획 설명자에 표시되는 값을 지정합니다.|
    |Category|String|이 속성은 **범주** 파일 계획 설명자에 표시되는 값을 지정합니다.|

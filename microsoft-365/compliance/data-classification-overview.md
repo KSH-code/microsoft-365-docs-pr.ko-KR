@@ -1,5 +1,5 @@
 ---
-title: 데이터 분류 시작(미리 보기)
+title: 데이터 분류 시작하기
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 데이터 분류 대시보드에서는 조직에서 검색 및 분류한 중요한 데이터의 양을 시각적으로 파악할 수 있습니다.
-ms.openlocfilehash: 15beb3c0716aeb780fb3bfed3b3a8fa74557574d
-ms.sourcegitcommit: fa6a1e432747e150df945050a3744b4408ceb2d9
+ms.openlocfilehash: eda58ea2d34713a5c2cef40bbc2aa21b9964ddab
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43957278"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327874"
 ---
-# <a name="know-your-data---data-classification-overview-preview"></a>데이터 파악 - 데이터 분류 개요(미리보기)
+# <a name="know-your-data---data-classification-overview"></a>데이터 파악 - 데이터 분류 개요
 
-Microsoft 365 관리자 또는 준수 관리자는 조직의 콘텐츠가 이동하는 위치를 제어하고, 위치에 관계없이 보호하고, 조직의 요구에 따라 보존 및 삭제하기 위해 콘텐츠를 평가하고 태그를 지정할 수 있습니다. 이 작업은 [민감도 레이블](sensitivity-labels.md), [보존 레이블](labels.md) 및 중요한 정보 유형 분류를 적용하여 수행합니다. 검색, 평가 및 태그 지정을 수행하는 방법에는 여러 가지가 있지만, 결과적으로는 많은 수의 문서 및 전자 메일을 이러한 두 레이블 중 하나 또는 둘 다를 사용하여 태그를 지정하고 분류하게 됩니다. 보존 레이블 및 민감도 레이블을 적용한 후에는 테넌트 전체에서 레이블이 사용되는 방식과 해당 항목으로 수행 중인 작업을 확인하고 싶을 것입니다. 데이터 분류 페이지에는 해당 콘텐츠 본문이 표시됩니다. 특히 다음 정보를 확인할 수 있습니다.
+Microsoft 365 관리자 또는 준수 관리자는 조직의 콘텐츠가 이동하는 위치를 제어하고, 위치에 관계없이 보호하고, 조직의 요구에 따라 보존 및 삭제하기 위해 콘텐츠를 평가하고 태그를 지정할 수 있습니다. 이 작업은 [민감도 레이블](sensitivity-labels.md), [보존 레이블](labels.md) 및 중요한 정보 유형 분류를 적용하여 수행합니다. 검색, 평가 및 태그 지정을 수행하는 방법에는 여러 가지가 있지만, 결과적으로는 많은 수의 문서 및 전자 메일을 이러한 두 레이블 중 하나 또는 둘 다를 사용하여 태그를 지정하고 분류하게 됩니다. 보존 레이블 및 민감도 레이블을 적용한 후에는 테넌트 전체에서 레이블이 사용되는 방식과 해당 항목으로 수행 중인 작업을 확인하고자 할 것입니다. 데이터 분류 페이지에는 해당 콘텐츠 본문이 표시됩니다. 특히 다음 정보를 확인할 수 있습니다.
 
 - 중요한 정보 유형으로 분류된 항목의 수와 사용된 분류
 - Microsoft 365 및 Azure Information Protection에서 가장 많이 적용한 민감도 레이블
@@ -33,11 +33,41 @@ Microsoft 365 관리자 또는 준수 관리자는 조직의 콘텐츠가 이동
 - 사용자가 중요한 콘텐츠에 대해 수행하는 활동 요약
 - 중요한 데이터와 보존된 데이터의 위치
 
+또한 데이터 분류 페이지에서 다음 기능을 관리합니다.
+- [학습 가능한 분류자](classifier-getting-started-with.md)
+- [중요한 정보 유형](what-the-sensitive-information-types-look-for.md)
+
 **Microsoft 365 규정 준수 센터** 또는 **Microsoft 365 보안 센터** > **분류** > **데이터 분류**에서 데이터 분류를 찾을 수 있습니다.
+
+비디오를 시청하여 데이터 분류 기능에 대해 알아보세요.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vx8x]
+
+정책을 만들기 전에 데이터 분류에서 중요한 콘텐츠와 레이블이 지정된 콘텐츠를 검사합니다. 이를 **제로 변경 관리**라고 합니다. 이를 통해 모든 보존 및 민감도 레이블이 환경에 미치는 영향을 확인하고, 보호 및 관리 정책 요구 사항을 평가할 수 있습니다.
+
+## <a name="prerequisites"></a>필수 구성 요소
+
+테이터 분류에 액세스하고 이를 사용하는 모든 계정에는 다음 구독 중 하나에서 할당된 라이선스가 있어야 합니다.
+
+- Microsoft 365 (E5)
+- Office 365 (E5)
+- 고급 규정 준수 (E5) 추가 기능
+- 고급 위협 인텔리전스 (E5) 추가 기능
+
+### <a name="permissions"></a>권한
+
+ 테이터 분류 페이지에 액세스하려면 계정에 다음 역할이나 역할 그룹 중 하나의 구성원 자격이 할당되어야 합니다.
+
+**Microsoft 365 역할 그룹**
+
+- 전역 관리자
+- 준수 관리자
+- 보안 관리자
+- 규정 준수 데이터 관리자
 
 ## <a name="sensitive-information-types-used-most-in-your-content"></a>콘텐츠에 가장 많이 사용되는 중요한 정보 유형
 
-Microsoft 365에는 사회 보장 번호 또는 신용 카드 번호를 포함하는 항목과 같은 중요한 정보 유형에 대한 다양한 정의가 포함되어 있습니다. 중요한 정보 유형에 대한 자세한 내용은 [중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)을 참조하세요.
+Microsoft 365에는 사회 보장 번호 또는 신용 카드 번호를 포함하는 항목과 같은 중요한 정보 유형에 대한 다양한 정의가 포함되어 있습니다. 중요한 정보 유형에 대한 자세한 내용은 [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)를 참조하세요.
 
 중요한 정보 유형 카드는 조직 전체에서 검색되고 레이블이 지정된 상위 중요한 정보 유형을 보여 줍니다.
 
@@ -51,7 +81,7 @@ Microsoft 365에는 사회 보장 번호 또는 신용 카드 번호를 포함�
 > 카드에 "중요한 정보가 포함된 데이터가 없습니다." 메시지가 표시되는 경우 조직에 중요한 정보 유형으로 분류된 항목이 없거나 크롤링된 항목이 없는 것입니다. 레이블을 시작하려면 다음을 참조하세요.
 >- [민감도 레이블](sensitivity-labels.md)
 >- [보존 레이블](labels.md)
->- [중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)
+>- [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)
 
 ## <a name="top-sensitivity-labels-applied-to-content"></a>콘텐츠에 적용되는 상위 민감도 레이블
 
@@ -106,5 +136,6 @@ Microsoft 365 또는 AIP(Azure Information Protection)를 통해 항목에 민�
 - [레이블이 지정된 콘텐츠 보기(미리 보기)](data-classification-content-explorer.md)
 - [민감도 레이블](sensitivity-labels.md)
 - [보존 레이블](labels.md)
-- [중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)
+- [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)
 - [보존 정책 개요](retention-policies.md)
+- [학습 가능한 분류자 시작하기(미리 보기)](classifier-getting-started-with.md)

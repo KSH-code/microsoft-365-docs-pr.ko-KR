@@ -2,8 +2,8 @@
 title: 스팸 방지 메시지 헤더
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ search.appverid:
 ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
 ms.collection:
 - M365-security-compliance
-description: 메시지와 메시지 처리 방법에 대한 정보를 제공하기 위해 Exchange Online Protection이 메시지에 추가하는 헤더 필드에 대해 알아봅니다.
+description: 관리자는 메시지와 메시지 처리 방법에 대한 정보를 제공하기 위해 Exchange Online Protection에서 메시지에 추가하는 헤더 필드에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7f86b5ffa02b6f84c10ab2300f913b5f03726713
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.openlocfilehash: d63d173b90ffd868cfbeac212f2c9d5a6ee125c6
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173407"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208225"
 ---
-# <a name="anti-spam-message-headers"></a>스팸 방지 메시지 헤더
+# <a name="anti-spam-message-headers-in-microsoft-365"></a>Microsoft 365의 스팸 방지 메시지 헤더
 
-EOP(Exchange Online Protection)에서 인바운드 전자 메일 메시지를 검색하는 경우 **X-Forefront-Antispam-Report** 헤더가 각 메시지에 삽입됩니다. 관리자는 이 헤더의 필드를 통해 메시지 및 메시지 처리 방법에 대한 정보를 확인할 수 있습니다. **X-Microsoft-Antispam** 헤더의 필드는 대량 메일 및 피싱에 대한 추가 정보를 제공합니다. 이러한 두 헤더 외에도, Exchange Online Protection은 **Authentication-results** 헤더에서 처리하는 각 메시지의 전자 메일 인증 결과를 삽입합니다.
+Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직의 경우, EOP에서 **X-Forefront-Antispam-Report** 헤더를 검색하여 각 인바운드 전자 메일 메시지에 삽입합니다. 관리자는 이 헤더의 필드를 통해 메시지 및 메시지 처리 방법에 대한 정보를 확인할 수 있습니다. **X-Microsoft-Antispam** 헤더의 필드는 대량 메일 및 피싱에 대한 추가 정보를 제공합니다. 이러한 두 헤더 외에도, Exchange Online Protection은 **Authentication-results** 헤더에서 처리하는 각 메시지의 전자 메일 인증 결과를 삽입합니다.
 
 다양한 전자 메일 클라이언트에서 전자 메일 메시지 헤더를 보는 방법에 대한 자세한 내용은 [Outlook에서 인터넷 메시지 헤더 보기](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c)를 참조하세요.
 
