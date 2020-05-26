@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 6ca0edb1338c21f710ae493c8697b0c2740860ba
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: b524001f848a106ec2832c698b474cfce8ceb24b
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327614"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352091"
 ---
 # <a name="communication-compliance-feature-reference"></a>통신 준수 기능 참조
 
@@ -170,7 +170,7 @@ Microsoft 365의 분류자에 대 한 자세한 내용은 [분류자](classifier
 쉼표로 구분 하 여 입력 한 각 단어를 개별적으로 적용 합니다 (전자 메일 또는 첨부 파일에 적용할 정책 조건에 한 단어씩 적용 해야 함). 예를 **들어 다음**조건을 사용 하 여 메시지에 "banker", "기밀" 및 "참가자 거래" 라는 키워드를 쉼표로 구분 하 여 허용 합니다. 이 정책은 "banker", "기밀" 또는 "참가자 거래" 라는 단어가 포함 된 모든 메시지에 적용 됩니다. 이 정책 조건을 적용 하려면 이러한 단어 또는 구문 중 하나만 발생 해야 합니다. 메시지 또는 첨부 파일의 단어는 입력 한 내용과 정확히 일치 해야 합니다.
 
 >[!IMPORTANT]
->사용자 지정 사전 파일을 가져올 때는 각 단어나 구를 캐리지 리턴과 별도의 줄에 구분 해야 합니다. <br> 예시는 다음과 같습니다: <br><br>
+>사용자 지정 사전 파일을 가져올 때는 각 단어나 구를 캐리지 리턴과 별도의 줄에 구분 해야 합니다. <br> 예시: <br><br>
 >*banker* <br>
 >*기밀로* <br>
 >*insider 사업*
@@ -294,7 +294,7 @@ Microsoft 365의 분류자에 대 한 자세한 내용은 [분류자](classifier
 | **작업** | 정책에 대해 수행 된 작업입니다. |
 | **AuditData** | 이 필드는 모든 정책 활동의 기본 데이터 원본입니다. 모든 활동은 쉼표 구분 기호로 기록 되 고 구분 됩니다. |
 
-통합 된 감사 로그 또는 [Search-unifiedauditlog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) PowerShell cmdlet을 사용 하 여 감사 작업을 볼 수도 있습니다.
+통합 된 감사 로그 또는 [Search-unifiedauditlog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) PowerShell cmdlet을 사용 하 여 감사 작업을 볼 수도 있습니다.
 
 예를 들어 다음은 모든 관리 검토 작업 (정책 및 규칙)에 대 한 작업을 반환 하는 예입니다.
 

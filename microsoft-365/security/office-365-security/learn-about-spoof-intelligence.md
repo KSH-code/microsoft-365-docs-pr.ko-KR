@@ -19,18 +19,18 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)의 스푸핑 인텔리전스에 대해 자세히 알아보고, 특정 스푸핑된 보낸 사람을 허용 하거나 차단할 수 있습니다.
-ms.openlocfilehash: fb5193566ee359dfe2e5652707c1846280a45c33
-ms.sourcegitcommit: 8d9509e617ede7cc5ba933c54fb9300d2d1c6344
+ms.openlocfilehash: 638f130c448f14bf7214afc705b5650311866fce
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "44347846"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351942"
 ---
 # <a name="configure-spoof-intelligence-in-eop"></a>EOP에서 스푸핑 인텔리전스 구성
 
 Exchange online 사서함이 없는 Microsoft 365 조직에서 사서함이 있는 EOP (exchange online Protection) 조직에서 인바운드 전자 메일 메시지는 EOP의 2018에서 자동으로 스푸핑 으로부터 보호 됩니다. EOP에서는 피싱에 대 한 조직의 전반적인 방어 과정에서 스푸핑 인텔리전스를 사용 합니다. 자세한 내용은 [EOP의 스푸핑 방지 보호](anti-spoofing-protection.md)를 참조 하세요.
 
-보낸 사람이 전자 메일 주소를 위장 하면 조직의 도메인 중 하나의 사용자 또는 조직에 전자 메일을 보내는 외부 도메인의 사용자로 표시 됩니다. 스팸 또는 피싱 전자 메일을 보내도록 보낸 사람을 위장 하는 공격자는 차단 해야 합니다. 그러나 합법적인 보낸 사람이 스푸핑 되는 시나리오가 있습니다. 예:
+보낸 사람이 전자 메일 주소를 위장 하면 조직의 도메인 중 하나의 사용자 또는 조직에 전자 메일을 보내는 외부 도메인의 사용자로 표시 됩니다. 스팸 또는 피싱 전자 메일을 보내도록 보낸 사람을 위장 하는 공격자는 차단 해야 합니다. 그러나 합법적인 보낸 사람이 스푸핑 되는 시나리오가 있습니다. 예시:
 
 - 내부 도메인 스푸핑에 대 한 합법적인 시나리오:
 
@@ -48,7 +48,7 @@ Exchange online 사서함이 없는 Microsoft 365 조직에서 사서함이 있�
 
   - 외부 회사는 다른 회사를 대신 하 여 전자 메일을 전송 합니다 (예: 자동화 된 보고서 또는 a-a-서비스 회사).
 
-스푸핑 인텔리전스 및 특히 기본 (및 전용) 스푸핑 인텔리전스 정책에서는 합법적인 보낸 사람이 보낸 스푸핑된 전자 메일이 Microsoft 365 또는 외부 전자 메일 시스템의 스팸 필터에서 발견 되지 않도록 하 고 사용자를 스팸 또는 피싱 공격 으로부터 보호 하는 데 도움을 줍니다.
+스푸핑 인텔리전스 및 특히 기본 (및 전용) 스푸핑 인텔리전스 정책을 사용 하면 합법적인 보낸 사람이 보낸 스푸핑된 전자 메일이 EOP 스팸 필터 또는 외부 전자 메일 시스템에서 발견 되지 않도록 하 여 스팸 또는 피싱 공격 으로부터 사용자를 보호할 수 있습니다.
 
 보안 & 준수 센터에서 또는 PowerShell (exchange online 사서함이 없는 조직에 대 한 사서함이 있는 Microsoft 365 조 직의 경우에는 exchange online의 사용 EOP powershell)에서 스푸핑 인텔리전스를 관리할 수 있습니다.
 
@@ -60,7 +60,7 @@ Exchange online 사서함이 없는 Microsoft 365 조직에서 사서함이 있�
 
 - 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 스푸핑 인텔리전스 정책을 수정 하거나 스푸핑 인텔리전스를 사용 하거나 사용 하지 않도록 설정 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 스푸핑 인텔리전스 정책에 대 한 읽기 전용 액세스를 위해서는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
-- 스푸핑 인텔리전스에 대 한 권장 설정에 대해서는 [기본 피싱 방지 정책 설정을 EOP](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings).
+- 스푸핑 인텔리전스에 대 한 권장 설정은 [EOP 기본 피싱 방지 정책 설정을](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings)참조 하십시오.
 
 ## <a name="use-the-security--compliance-center-to-manage-spoofed-senders"></a>보안 & 준수 센터를 사용 하 여 스푸핑된 보낸 사람 관리
 
@@ -140,7 +140,7 @@ Get-PhishFilterPolicy [-AllowedToSpoof <Yes | No | Partial>] [-ConfidenceLevel <
 Get-PhishFilterPolicy -AllowedToSpoof Yes -Detailed -SpoofType Internal
 ```
 
-구문과 매개 변수에 대 한 자세한 내용은 [get-phishfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-phishfilterpolicy)를 참조 하십시오.
+구문과 매개 변수에 대 한 자세한 내용은 [get-phishfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/get-phishfilterpolicy)를 참조 하십시오.
 
 스푸핑 인텔리전스에서 허용 및 수신 거부를 구성 하려면 다음 단계를 수행 합니다.
 
@@ -162,7 +162,7 @@ Get-PhishFilterPolicy -AllowedToSpoof Yes -Detailed -SpoofType Internal
    Set-PhishFilterPolicy -Identity Default -SpoofAllowBlockList $UpdateSpoofedSenders
    ```
 
-구문 및 매개 변수에 대 한 자세한 내용은 [get-phishfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-phishfilterpolicy)를 참조 하십시오.
+구문 및 매개 변수에 대 한 자세한 내용은 [get-phishfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/set-phishfilterpolicy)를 참조 하십시오.
 
 ## <a name="use-the-security--compliance-center-to-configure-spoof-intelligence"></a>보안 & 준수 센터를 사용 하 여 스푸핑 인텔리전스 구성
 
@@ -195,28 +195,16 @@ Get-PhishFilterPolicy -AllowedToSpoof Yes -Detailed -SpoofType Internal
    Get-PhishFilterPolicy -Detailed | Export-CSV "C:\My Documents\Spoofed Senders.csv"
    ```
 
-- Exchange Online 사서함이 있는 Microsoft 365 조 직에서 다음 단계 중 하나를 수행 합니다.
+- 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **피싱 방지** 또는 **ATP 피싱 방지**로 이동한 후 다음 단계 중 하나를 수행 합니다.  
 
-  - 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **피싱 방지** \> **기본 정책을** 클릭 하 고 플라이 아웃의 세부 정보를 확인 합니다.
+  - 목록에서 정책을 선택 합니다. 플라이 아웃이 나타나면 **스푸핑** 섹션에서 값을 확인 합니다.
+  - **기본 정책을**클릭 합니다. 플라이 아웃이 나타나면 **스푸핑** 섹션에서 값을 확인 합니다.
 
-  - Exchange Online PowerShell에서 다음 명령을 실행 하 고 설정을 확인 합니다.
+- Exchange Online PowerShell에서 \< 이름을 \> Office365 AntiPhish Default 또는 사용자 지정 정책 이름으로 바꾸고 다음 명령을 실행 하 여 설정을 확인 합니다.
 
-    ```PowerShell
-    Get-AntiPhishPolicy -Identity "Office365 AntiPhish Default"
-    ```
-
-- Microsoft 365 ATP 조직에서 다음 단계 중 하나를 수행 합니다.
-
-  - 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 피싱 방지** 로 이동한 후 다음 단계 중 하나를 수행 합니다.
-
-    - 목록에서 정책을 선택 합니다. 플라이 아웃이 나타나면 **스푸핑** 섹션에서 값을 확인 합니다.
-    - **기본 정책을**클릭 합니다. 플라이 아웃이 나타나면 **스푸핑** 섹션에서 값을 확인 합니다.
-
-  - Exchange Online PowerShell에서 Name을 \< \> Office365 AntiPhish Default로 바꾸거나 사용자 지정 ATP 피싱 방지 정책의 이름을 바꾼 후 다음 명령을 실행 하 고 설정을 확인 합니다.
-
-    ```PowerShell
-    Get-AntiPhishPolicy -Identity "<Name>"
-    ```
+  ```PowerShell
+  Get-AntiPhishPolicy -Identity "<Name>" | Format-List EnableAntiSpoofEnforcement,EnableUnauthenticatedSender,AuthenticationFailAction
+  ```
 
 ## <a name="other-ways-to-manage-spoofing-and-phishing"></a>스푸핑 및 피싱 관리의 기타 방법
 

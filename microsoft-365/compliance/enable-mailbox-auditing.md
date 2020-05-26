@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 description: 사서함 감사 로깅은 기본적으로 설정 됩니다 (기본적으로 기본 사서함 감사 또는 사서함 감사 라고도 함). 즉, 사서함 소유자, 대리인 및 관리자가 수행 하는 특정 작업이 사서함 감사 로그에 자동으로 기록 되므로 사서함에 대해 수행 된 작업을 검색할 수 있습니다.
-ms.openlocfilehash: 458e5c9797874f35e99c09edbc3ef45753132cba
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f25232dd30fe0fba0f4cc31acae3235012bb025a
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631733"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352111"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
 
@@ -98,7 +98,7 @@ Get-OrganizationConfig | Format-List AuditDisabled
 
 - 확인 표시( ![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png))는 사서함 작업이 로그온 유형에 대해 기록 될 수 있음을 나타냅니다 (모든 작업을 모든 로그온 유형에 사용할 수 있는 것은 아님).
 
-- 확인 표시 후 <sup>\*</sup> 에 별표 ()는 로그온 유형에 대해 기본적으로 사서함 작업이 기록 됨을 나타냅니다.
+- <sup>\*</sup>확인 표시 후에 별표 ()는 로그온 유형에 대해 기본적으로 사서함 작업이 기록 됨을 나타냅니다.
 
 - 사서함에 대 한 모든 권한이 있는 관리자는 대리인으로 간주 됩니다.
 
@@ -153,19 +153,19 @@ Microsoft 365 그룹 사서함에 대 한 모든 권한이 있는 관리자는 �
 
 기본적으로 사서함 감사는 모든 사서함에 새 *Defaultauditset* 속성을 추가 합니다. 이 속성의 값은 사서함에서 기본 사서함 작업 (Microsoft에서 관리)이 감사 되 고 있는지 여부를 나타냅니다.
 
-사용자 사서함 또는 공유 사서함에 값을 표시 하려면 MailboxIdentity \<\> 를 이름, 별칭, 전자 메일 주소 또는 사서함의 upn (사용자 계정 이름)으로 바꾸고 Exchange Online PowerShell에서 다음 명령을 실행 합니다.
+사용자 사서함 또는 공유 사서함에 값을 표시 하려면 MailboxIdentity를 \< \> 이름, 별칭, 전자 메일 주소 또는 사서함의 upn (사용자 계정 이름)으로 바꾸고 Exchange Online PowerShell에서 다음 명령을 실행 합니다.
 
 ```PowerShell
 Get-Mailbox -Identity <MailboxIdentity> | Format-List DefaultAuditSet
 ```
 
-Microsoft 365 그룹 사서함에 값을 표시 하려면 MailboxIdentity \<\> 을 공유 사서함의 이름, 별칭 또는 전자 메일 주소로 바꾸고 Exchange Online PowerShell에서 다음 명령을 실행 합니다.
+Microsoft 365 그룹 사서함에 값을 표시 하려면 MailboxIdentity을 \< \> 공유 사서함의 이름, 별칭 또는 전자 메일 주소로 바꾸고 Exchange Online PowerShell에서 다음 명령을 실행 합니다.
 
 ```PowerShell
 Get-Mailbox -Identity <MailboxIdentity> -GroupMailbox | Format-List DefaultAuditSet
 ```
 
-값 `Admin, Delegate, Owner` 은 다음을 나타냅니다.
+값은 `Admin, Delegate, Owner` 다음을 나타냅니다.
 
 - 세 가지 로그온 유형에 대 한 기본 사서함 작업을 모두 감사 합니다. 이 값은 Microsoft 365 그룹 사서함에만 표시 됩니다.
 
@@ -173,11 +173,11 @@ Get-Mailbox -Identity <MailboxIdentity> -GroupMailbox | Format-List DefaultAudit
 
 관리자가 로그온 유형에 대해 감사 되는 사서함 작업 ( *Auditadmin*, *Auditadmin*또는 **Set mailbox** cmdlet의 *auditadmin* 매개 변수를 사용 하 여)을 변경한 적이 없는 경우이 속성 값은 서로 다릅니다.
 
-예를 들어 사용자 사서함 `Owner` 또는 공유 사서함의 *defaultauditset* 속성에 대 한 값은 다음을 나타냅니다.
+예를 들어 `Owner` 사용자 사서함 또는 공유 사서함의 *Defaultauditset* 속성에 대 한 값은 다음을 나타냅니다.
 
 - 사서함 소유자에 대 한 기본 사서함 작업을 감사 하 고 있습니다.
 
-- `Delegate` 및 `Admin` 로그온 유형에 대 한 감사 된 사서함 작업이 기본 작업에서 변경 되었습니다.
+- 및 로그온 유형에 대 한 감사 된 사서함 작업이 `Delegate` `Admin` 기본 작업에서 변경 되었습니다.
 
 *Defaultauditset* 속성의 값이 비어 있으면 사용자 사서함 이나 공유 사서함에서 세 가지 로그온 유형에 대 한 사서함 작업이 모두 변경 되었음을 나타냅니다.
 
@@ -185,10 +185,10 @@ Get-Mailbox -Identity <MailboxIdentity> -GroupMailbox | Format-List DefaultAudit
 
 ### <a name="display-the-mailbox-actions-that-are-being-logged-on-mailboxes"></a>기록 중인 사서함 작업을 사서함에 표시 합니다.
 
-현재 사용자 사서함 또는 공유 사서함에 대해 로그온 중인 사서함 작업을 확인 하려면 MailboxIdentity \<\> 를 이름, 별칭, 전자 메일 주소 또는 사서함의 사용자 계정 이름 (Username)으로 바꾸고 Exchange Online PowerShell에서 다음 명령 중 하나 이상을 실행 합니다.
+현재 사용자 사서함 또는 공유 사서함에 대해 로그온 중인 사서함 작업을 확인 하려면 \< MailboxIdentity를 \> 이름, 별칭, 전자 메일 주소 또는 사서함의 사용자 계정 이름 (username)으로 바꾸고 Exchange Online PowerShell에서 다음 명령 중 하나 이상을 실행 합니다.
 
 > [!NOTE]
-> Microsoft 365 그룹 사서함의 `-GroupMailbox` 다음 **사서함** 명령에 스위치를 추가할 수 있지만 반환 되는 값은 반드시 확인 해야 합니다. Microsoft 365 그룹 사서함에 대해 감사 되는 기본 및 정적 사서함 작업은이 항목 앞부분의 [microsoft 365 그룹 사서함에 대 한 사서함 작업](#mailbox-actions-for-microsoft-365-group-mailboxes) 섹션에 설명 되어 있습니다.
+> `-GroupMailbox`Microsoft 365 그룹 사서함의 다음 **사서함** 명령에 스위치를 추가할 수 있지만 반환 되는 값은 반드시 확인 해야 합니다. Microsoft 365 그룹 사서함에 대해 감사 되는 기본 및 정적 사서함 작업은이 항목 앞부분의 [microsoft 365 그룹 사서함에 대 한 사서함 작업](#mailbox-actions-for-microsoft-365-group-mailboxes) 섹션에 설명 되어 있습니다.
 
 #### <a name="owner-actions"></a>소유자 작업
 
@@ -223,9 +223,9 @@ Get-Mailbox -Identity <MailboxIdentity> | Select-Object -ExpandProperty AuditAdm
 
 다음과 같은 두 가지 방법을 사용 하 여 사서함 작업을 지정할 수 있습니다.
 
-- *Replace* 다음 `action1,action2,...actionN`구문을 사용 하 여 기존 사서함 작업을 교체 (덮어씀) 합니다.
+- 다음 구문을 사용 하 여 기존 사서함 작업을 *교체* (덮어씀) `action1,action2,...actionN` 합니다.
 
-- 다음 `@{Add="action1","action2",..."actionN"}` 구문을 사용 하 여 기존 값에 영향을 주지 않고 사서함 작업을 `@{Remove="action1","action2",..."actionN"}` *추가 하거나 제거* 합니다.
+- 다음 구문을 사용 하 여 기존 값에 영향을 주지 않고 사서함 작업을 *추가 하거나 제거* `@{Add="action1","action2",..."actionN"}` `@{Remove="action1","action2",..."actionN"}` 합니다.
 
 이 예에서는 Gabriela Laureano "사서함에 대 한 관리자 사서함 작업을 소프트 삭제 및 하드 삭제의 기본 동작을 덮어쓰는 방법으로 변경 합니다.
 
@@ -323,7 +323,7 @@ Set-OrganizationConfig -AuditDisabled $false
 
 - 바이패스 된 사용자가 수행한 관리 작업은 로깅되지 않습니다.
 
-특정 사용자에 대 한 사서함 감사 로깅을 무시 하려면 MailboxIdentity \<\> 을 사용자의 이름, 전자 메일 주소, 별칭 또는 upn (사용자 계정 이름)으로 바꾸고 다음 명령을 실행 합니다.
+특정 사용자에 대 한 사서함 감사 로깅을 무시 하려면 \< MailboxIdentity을 \> 사용자의 이름, 전자 메일 주소, 별칭 또는 upn (사용자 계정 이름)으로 바꾸고 다음 명령을 실행 합니다.
 
 ```PowerShell
 Set-MailboxAuditBypassAssociation -Identity <MailboxIdentity> -AuditByPassEnabled $true
@@ -343,16 +343,16 @@ Get-MailboxAuditBypassAssociation -Identity <MailboxIdentity> | Format-List Audi
 
   E5 라이선스를 사용 하지 않고 사용자에 대 한 사서함 감사 로그 항목을 검색 하려면 다음을 수행할 수 있습니다.
 
-  - 개별 사서함에서 사서함 감사를 `Set-Mailbox -Identity <MailboxIdentity> -AuditEnabled $true`수동으로 사용 하도록 설정 합니다 (명령 실행). 이 작업을 수행한 후에는 보안 & 준수 센터 또는 Office 365 관리 활동 API를 통해 감사 로그 검색을 사용할 수 있습니다.
+  - 개별 사서함에서 사서함 감사를 수동으로 사용 하도록 설정 합니다 (명령 실행 `Set-Mailbox -Identity <MailboxIdentity> -AuditEnabled $true` ). 이 작업을 수행한 후에는 보안 & 준수 센터 또는 Office 365 관리 활동 API를 통해 감사 로그 검색을 사용할 수 있습니다.
   
     > [!NOTE]
-    > 사서함 감사가 이미 사용 하도록 설정 된 것으로 나타나지만 검색에서 결과가 반환 되지 않는 경우에는 _Auditenabled_ 매개 변수의 값을로 `$false` 변경한 다음 다시으로 `$true`변경 합니다.
+    > 사서함 감사가 이미 사용 하도록 설정 된 것으로 나타나지만 검색에서 결과가 반환 되지 않는 경우에는 _Auditenabled_ 매개 변수의 값을로 변경한 `$false` 다음 다시으로 변경 `$true` 합니다.
   
   - Exchange Online PowerShell에서 다음 cmdlet을 사용 합니다.
 
-    - [검색-search-mailboxauditlog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-mailboxauditlog) 에서 특정 사용자에 대 한 사서함 감사 로그를 검색 합니다.
+    - [검색-search-mailboxauditlog](https://docs.microsoft.com/powershell/module/exchange/search-mailboxauditlog) 에서 특정 사용자에 대 한 사서함 감사 로그를 검색 합니다.
 
-    - [New-mailboxauditlogsearch를 사용](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/new-mailboxauditlogsearch) 하 여 특정 사용자에 대 한 사서함 감사 로그를 검색 하 고 지정 된 받는 사람에 게 전자 메일을 통해 전송 되는 결과를 포함 합니다.
+    - [New-mailboxauditlogsearch를 사용](https://docs.microsoft.com/powershell/module/exchange/new-mailboxauditlogsearch) 하 여 특정 사용자에 대 한 사서함 감사 로그를 검색 하 고 지정 된 받는 사람에 게 전자 메일을 통해 전송 되는 결과를 포함 합니다.
 
   - Exchange Online의 EAC (Exchange 관리 센터)를 사용 하 여 다음 작업을 수행 합니다.
 
@@ -362,7 +362,7 @@ Get-MailboxAuditBypassAssociation -Identity <MailboxIdentity> | Format-List Audi
 
 - 기본적으로 사서함 감사 로그 레코드는 삭제 되기 전에 90 일 동안 보존 됩니다. Exchange Online PowerShell에서 **설정 된 사서함** Cmdlet의 *Auditlogagelimit* 매개 변수를 사용 하 여 감사 로그 레코드의 보존 기간을 변경할 수 있습니다. 그러나이 값을 높이면 감사 로그에서 90 일 보다 오래 된 이벤트를 검색할 수 없습니다.
 
-  보존 기간을 늘릴 경우 Exchange Online PowerShell에서 [search-mailboxauditlog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-mailboxauditlog) cmdlet을 사용 하 여 사용자의 사서함 감사 로그에서 90 일 보다 오래 된 레코드를 검색 해야 합니다.
+  보존 기간을 늘릴 경우 Exchange Online PowerShell에서 [search-mailboxauditlog](https://docs.microsoft.com/powershell/module/exchange/search-mailboxauditlog) cmdlet을 사용 하 여 사용자의 사서함 감사 로그에서 90 일 보다 오래 된 레코드를 검색 해야 합니다.
 
 - 조직에 대해 기본적으로 사서함 감사를 수행 하기 전에 사서함에 대 한 *Auditlogagelimit* 속성을 변경한 경우 사서함의 기존 감사 로그 보존 기간은 변경 되지 않습니다. 즉, 기본적으로 사서함을 감사 하는 경우 사서함 감사 레코드의 현재 보존 기간에는 영향을 주지 않습니다.
 

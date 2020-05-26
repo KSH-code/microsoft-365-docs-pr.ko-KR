@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 04/13/2020
+ms.date: 05/22/2020
 audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: 새 메시지 보호 기능의 작동 방식에 대 한 질문이 있나요? 여기에서 대답을 확인 하세요.
-ms.openlocfilehash: 75b414aecfbe9d3952d7e3c5994946775d353a6f
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: f7c6de7eba9cb5e0f165b345b5c97e98cb96b870
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049523"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352088"
 ---
 # <a name="message-encryption-faq"></a>메시지 암호화 FAQ
 
@@ -28,7 +28,7 @@ ms.locfileid: "44049523"
 ## <a name="what-is-office-365-message-encryption-ome"></a>Office 365 메시지 암호화 란 무엇입니까 (OME)?
 
 OME는 전자 메일 암호화 및 권한 관리 기능을 결합 합니다. 권한 관리 기능은 Azure Information Protection에 의해 구동 됩니다.
-  
+
 ## <a name="who-can-use-ome"></a>누가 OME를 사용할 수 있나요?
 
 다음 조건에서 OME의 새 기능을 사용할 수 있습니다.
@@ -137,9 +137,9 @@ Not yet. 비즈니스용 OneDrive 첨부 파일이 지원 되지 않으며 최�
 
 관리자는 메일 흐름 규칙을 설정 하 여 보내는 메일에 대 한 암호화를 제거할 수 있습니다. 받는 메일에 대 한 암호화를 제거 하는 규칙을 설정할 수는 없습니다.
 
-## <a name="can-i-automatically-encrypt-messages-by-setting-up-policies-in-data-loss-prevention-dlp-through-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터를 통해 DLP (데이터 손실 방지)에서 정책을 설정 하 여 메시지를 자동으로 암호화할 수 있습니까?
+## <a name="can-i-automatically-encrypt-messages-by-setting-up-policies-in-data-loss-prevention-dlp-through-the-security-amp-compliance-center"></a>보안 및 준수 센터를 통해 DLP (데이터 손실 방지)에서 정책을 설정 하 여 메시지를 자동으로 암호화할 수 &amp; 있습니까?
 
-예로! 메일 흐름 규칙은 Exchange Online에서 설정 하거나, 보안 &amp; 및 준수 센터에서 DLP를 사용 하 여 설정할 수 있습니다.
+예로! 메일 흐름 규칙은 Exchange Online에서 설정 하거나, 보안 및 준수 센터에서 DLP를 사용 하 여 설정할 수 있습니다 &amp; .
   
 ## <a name="can-i-customize-encrypted-messages-with-my-company-branding"></a>회사 브랜딩을 사용 하 여 암호화 된 메시지를 사용자 지정할 수 있습니까?
 
@@ -185,3 +185,9 @@ Not yet. 비즈니스용 OneDrive 첨부 파일이 지원 되지 않으며 최�
 - 사용자가 공유 사서함에 직접 할당 하 여 제공 되는 액세스만 지원 합니다. 전자 메일 사용이 가능한 보안 그룹을 통한 할당은 지원 되지 않습니다.
 
 - Outlook mobile을 사용 하 여 모바일 장치에서 받은 전자 메일에 대해서는 첨부 파일을 열 수 없습니다.
+
+## <a name="what-do-i-do-if-i-dont-receive-the-one-time-pass-code-after-i-requested-it"></a>요청 후 일회용 가공 패스 코드가 수신 되지 않는 경우 어떻게 해야 하나요?
+
+먼저 전자 메일 클라이언트에서 정크 또는 스팸 폴더를 확인 합니다. 조직에 대 한 DKIM 및 DMARC 설정으로 인해 이러한 전자 메일이 스팸으로 필터링 될 수 있습니다.
+
+다음으로, 보안 & 준수 센터에서 격리를 확인 합니다. 대개 1 회 통과 코드를 포함 하는 메시지 (특히 조직에서 수신 하는 첫 번째)는 격리로 끝납니다.

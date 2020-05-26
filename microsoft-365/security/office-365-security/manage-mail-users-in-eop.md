@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: 디렉터리 동기화, EAC 및 PowerShell을 사용 하 여 사용자를 관리 하는 등의 EOP (Exchange Online Protection)에서 메일 사용자를 관리 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e40465901747bcbd006d437fa527a9803aad1e24
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 0e8a4585a16b579c28de719181eed65b65ec6f4f
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208648"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352435"
 ---
 # <a name="manage-mail-users-in-standalone-eop"></a>독립 실행형 EOP에서 메일 사용자 관리
 
@@ -31,11 +31,11 @@ Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protec
 
 사용자 수가 적은 독립 실행형 EOP 조직의 경우이 항목에 설명 된 대로 EAC (Exchange 관리 센터) 또는 독립 실행형 EOP PowerShell에서 메일 사용자를 추가 하 고 관리할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - EAC (Exchange 관리 센터)를 열려면 [독립 실행형 EOP에서 exchange 관리 센터](exchange-admin-center-in-exchange-online-protection-eop.md)를 참조 하세요.
 
-- 독립 실행형 EOP PowerShell에 연결 하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조 하세요.
+- 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
 - EOP PowerShell에서 메일 사용자를 만들 때 제한이 발생할 수 있습니다. 또한 EOP PowerShell cmdlet은 일괄 처리 방법을 사용 하 여 명령 결과가 표시 되기까지 몇 분 정도 전파 지연을 발생 시킵니다.
 
@@ -149,7 +149,7 @@ Get-Recipient -Identity <MailUserIdentity> | Format-List
 Get-User -Identity <MailUserIdentity> | Format-List
 ```
 
-구문 및 매개 변수에 대 한 자세한 내용은 [get-Recipient](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-recipient) and [get-help](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-user)를 참조 하십시오.
+구문 및 매개 변수에 대 한 자세한 내용은 [get-Recipient](https://docs.microsoft.com/powershell/module/exchange/get-recipient) and [get-help](https://docs.microsoft.com/powershell/module/exchange/get-user)를 참조 하십시오.
 
 ### <a name="use-standalone-eop-powershell-to-create-mail-users"></a>독립 실행형 EOP PowerShell을 사용 하 여 메일 사용자 만들기
 
@@ -159,7 +159,7 @@ Get-User -Identity <MailUserIdentity> | Format-List
 New-EOPMailUser -Name "<UniqueName>" -MicrosoftOnlineServicesID <Account> -Password (ConvertTo-SecureString -String '<password>' -AsPlainText -Force) [-Alias <AliasValue>] [-DisplayName "<Display Name>"] [-ExternalEmailAddress <ExternalEmailAddress>] [-FirstName <Text>] [-Initials <Text>] [-LastName <Text>]
 ```
 
-**참고**:
+**참고:**
 
 - _Name_ 매개 변수는 필수 이며, 최대 길이는 64 자 이며 고유 해야 합니다. _DisplayName_ 매개 변수를 사용하지 않는 경우에는 _Name_ 매개 변수의 값이 표시 이름에 사용됩니다.
 - _Alias_ 매개 변수를 사용 하지 않으면 _MicrosoftOnlneServicesID_ 매개 변수의 왼쪽이 별칭에 사용 됩니다.
@@ -178,7 +178,7 @@ New-EOPMailUser -Name "<UniqueName>" -MicrosoftOnlineServicesID <Account> -Passw
 New-EOPMailUser -Name JeffreyZeng -MicrosoftOnlineServicesID jeffreyz@contoso.onmicrosoft.com -Password (ConvertTo-SecureString -String 'Pa$$word1' -AsPlainText -Force) -ExternalEmailAddress jeffreyz@tailspintoys.com -DisplayName "Jeffrey Zeng" -Alias jeffreyz -FirstName Jeffrey -LastName Zeng
 ```
 
-구문 및 매개 변수에 대 한 자세한 내용은 [New-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/new-eopmailuser)를 참조 하십시오.
+구문 및 매개 변수에 대 한 자세한 내용은 [New-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/new-eopmailuser)를 참조 하십시오.
 
 ### <a name="use-standalone-eop-powershell-to-modify-mail-users"></a>독립 실행형 EOP PowerShell을 사용 하 여 메일 사용자 수정
 
@@ -205,7 +205,7 @@ $Recip = Get-Recipient -RecipientType MailUser -ResultSize unlimited
 $Recip | foreach {Set-EOPUser -Identity $_.Alias -Company Contoso}
 ```
 
-구문 및 매개 변수에 대 한 자세한 내용은 [Set-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-eopmailuser)를 참조 하십시오.
+구문 및 매개 변수에 대 한 자세한 내용은 [Set-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/set-eopmailuser)를 참조 하십시오.
 
 ### <a name="use-standalone-eop-powershell-to-remove-mail-users"></a>독립 실행형 EOP PowerShell을 사용 하 여 메일 사용자 제거
 
@@ -221,7 +221,7 @@ Remove-EOPMailUser -Identity <MailUserIdentity\>
 Remove-EOPMailUser -Identity "Jeffrey Zeng"
 ```
 
-구문 및 매개 변수에 대 한 자세한 내용은 [Remove-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/remove-eopmailuser)를 참조 하십시오.
+구문 및 매개 변수에 대 한 자세한 내용은 [Remove-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/remove-eopmailuser)를 참조 하십시오.
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>이 절차가 제대로 수행되었는지 어떻게 확인하나요?
 
@@ -249,13 +249,13 @@ Remove-EOPMailUser -Identity "Jeffrey Zeng"
 
 독립 실행형 EOP에서는 온-프레미스 Active Directory를 사용 하는 고객에 게 디렉터리 동기화를 사용할 수 있습니다. 이러한 계정을 azure AD (Active Directory)와 동기화 하 여 계정의 복사본이 클라우드에 저장 되는 것을 확인할 수 있습니다. 기존 사용자 계정을 Azure Active Directory에 동기화 하는 경우 EAC (Exchange 관리 센터)의 **받는 사람** 창이 나 독립 실행형 EOP PowerShell에서 해당 사용자를 볼 수 있습니다.
 
-**참고**:
+**참고:**
 
 - 디렉터리 동기화를 사용 하 여 받는 사람을 관리 하는 경우에도 Microsoft 365 관리 센터에서 사용자를 추가 및 관리할 수 있지만 온-프레미스 Active Directory와 동기화 되지 않습니다. 디렉터리 동기화는 온-프레미스 Active Directory의 받는 사람만 클라우드로 동기화 하기 때문입니다.
 
 - 다음 기능을 사용하려면 디렉터리 동기화를 사용하는 것이 좋습니다.
 
-  - **Outlook 수신 허용-보낸 사람 목록 및 수신 거부 목록**: 서비스에 동기화 된 경우 이러한 목록이 서비스의 스팸 필터링 보다 우선 적용 됩니다. 이렇게 하면 개별 보낸 사람 및 도메인 항목을 사용 하 여 사용자의 수신 허용-보낸 사람의 목록 및 수신 거부 목록을 관리할 수 있습니다. 자세한 내용은 [Exchange Online 사서함의 정크 메일 설정 구성을](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes)참조 하세요.
+  - **Outlook 수신 허용-보낸 사람 목록 및 수신 거부 목록**: 서비스에 동기화 된 경우 이러한 목록이 서비스의 스팸 필터링 보다 우선 적용 됩니다. 이렇게 하면 개별 보낸 사람 및 도메인 항목을 사용 하 여 사용자의 수신 허용-보낸 사람의 목록 및 수신 거부 목록을 관리할 수 있습니다. 자세한 내용은 [Exchange Online 사서함에 대한 정크 메일 설정 구성하기](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes)를 참조하세요.
 
   - **Dbeb (디렉터리 기반 Edge 차단)**: dbeb에 대 한 자세한 내용은 [Use Directory Based edge 차단은 잘못 된 받는 사람에 게 보낸 메시지를 거부](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)합니다 .를 참조 하세요.
 

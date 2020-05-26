@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - BSA160
 description: Microsoft 365 그룹 거 버 넌 스를 계획 하는 방법을 알아봅니다.
-ms.openlocfilehash: e5e3b640edd15cb46fa3da8b65141fe9f63d6399
-ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
+ms.openlocfilehash: c37f88cbd3f41f22c1effdd7ba482033012aff01
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44322102"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351842"
 ---
 # <a name="plan-for-governance-in-groups"></a>그룹의 거 버 넌 스 계획
 
@@ -327,7 +327,7 @@ Microsoft 365 그룹은 조직에서 요구할 수 있는 다양 한 거 버 넌
 | 단계 | 설명 |
 | --------------- | ------------------------------------------------------------ |
 | 지침 |<ul><li>오픈 또는 IT-led 프로 비전 모델을 결정 합니다.</li><li> 부서와 같은 Azure AD 특성을 기반으로 [동적 멤버 자격 규칙](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) 에 연결 되는 특정 그룹을 만들 수 있습니다.</li><li> 조직 내에서 분류를 정의 합니다 (예: 고도의 기밀, 기밀 (기본값), 일반).</li><li>  보존 및 민감도와 같은 분류에 따라 정책을 정의 합니다.</li><li> SharePoint는 모든 Microsoft 365 그룹에 대 한 콘텐츠 서비스입니다. 세 가지 보호 계층 (기준, 중요 및 고도의 기밀) [에 대 한 SharePoint Online 사이트를](https://docs.microsoft.com/office365/enterprise/deploy-sharepoint-online-sites-for-three-tiers-of-protection) 디자인 하 고 배포 하는 방법을 고려 합니다. 이러한 3계층 보호에 대한 자세한 내용은 [SharePoint Online 사이트 및 파일 보호](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files)를 참조하세요.</li><li> 공용 및 개인 그룹은 기본적으로 GAL에 나열 됩니다. Microsoft 팀 외부에서 만들어진 GAL 전용 그룹에 표시할 그룹을 결정 합니다.  [Remove-unifiedgroup](https://technet.microsoft.com/library/mt238274(v=exchg.160).aspx) cmdlet의 "HiddenFromAddressListsEnabled" 또는 "HidefromExchangeClients"를 사용 하 여 특정 그룹을 숨깁니다.</li></ul> |
-| 다음 단계      |<ul><li>그룹을 효과적으로 유지 하는 데 도움이 되는 모범 사례를 사용자에 게 교육 하 고 내부 콘텐츠 정책에 대해 교육 하기 위한 [사용 지침](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets) 을 정의 합니다. 예를 들어 분류, 정책 및 절차에 대해 설명 합니다. </li><li>그룹을 갱신 하거나 삭제 하는 만료 정책에 해당 그룹의 수명 주기 기간을 정의 합니다.</li><li>다음 사용자 지정 작업을 만들어 분류에 따라 정책을 구현 하는 것이 좋습니다.</li><li>개인 정보를 비공개로 설정 합니다.</li><li>외부 구성원/공유를 사용 하지 않도록 설정 합니다. </li><li>[소유자가 없는](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732)그룹을 그룹 구성원에 게 알리기 위한 전자 메일</li><li>소유권 정책 적용 (최소 2 명의 소유자)</li><li> 분류를 기반으로 그룹에 대 한 보존 정책을 정의 합니다. </li><li>보존 정책 개요</li><li>Powershell을 사용 하 여 분류 및 [new-retentioncompliancepolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancepolicy?view=exchange-ps)을 사용 하 여 그룹 식별</li><li>[JSON 스키마 참조](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-json-schema)에 정의 된 작업을 사용 하 여 컨트롤을 정의 하려면 사이트 디자인 및 사이트 스크립트를 사용 하는 것이 좋습니다.</li><li>사이트 디자인 및 Microsoft 흐름 [을 사용 하 여 간단한 사이트 디렉터리를 작성 하는](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-trigger-flow-tutorial) 것이 좋습니다. 이 사이트 디자인을 사용 하 여 사이트를 만들 때마다 사이트의 세부 정보를 캡처하여 목록에 씁니다. </li></ul>|
+| 다음 단계      |<ul><li>그룹을 효과적으로 유지 하는 데 도움이 되는 모범 사례를 사용자에 게 교육 하 고 내부 콘텐츠 정책에 대해 교육 하기 위한 [사용 지침](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets) 을 정의 합니다. 예를 들어 분류, 정책 및 절차에 대해 설명 합니다. </li><li>그룹을 갱신 하거나 삭제 하는 만료 정책에 해당 그룹의 수명 주기 기간을 정의 합니다.</li><li>다음 사용자 지정 작업을 만들어 분류에 따라 정책을 구현 하는 것이 좋습니다.</li><li>개인 정보를 비공개로 설정 합니다.</li><li>외부 구성원/공유를 사용 하지 않도록 설정 합니다. </li><li>[소유자가 없는](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732)그룹을 그룹 구성원에 게 알리기 위한 전자 메일</li><li>소유권 정책 적용 (최소 2 명의 소유자)</li><li> 분류를 기반으로 그룹에 대 한 보존 정책을 정의 합니다. </li><li>보존 정책 개요</li><li>Powershell을 사용 하 여 분류 및 [new-retentioncompliancepolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy?view=exchange-ps)을 사용 하 여 그룹 식별</li><li>[JSON 스키마 참조](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-json-schema)에 정의 된 작업을 사용 하 여 컨트롤을 정의 하려면 사이트 디자인 및 사이트 스크립트를 사용 하는 것이 좋습니다.</li><li>사이트 디자인 및 Microsoft 흐름 [을 사용 하 여 간단한 사이트 디렉터리를 작성 하는](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-trigger-flow-tutorial) 것이 좋습니다. 이 사이트 디자인을 사용 하 여 사이트를 만들 때마다 사이트의 세부 정보를 캡처하여 목록에 씁니다. </li></ul>|
 
 ### <a name="regulated-or-enterprise"></a>규제 또는 기업
 위의 권장 사항 외에, Azure Active Directory Premium P1/P2 라이선스를 사용 하 여 최소한 엔터프라이즈 E3/E5를 사용 하 여 Office 365을 배포한 정부, 금융 서비스 또는 의료과 같은 고도로 규제 또는 대규모 입력 환경에 대해 다음을 고려해 야 합니다.

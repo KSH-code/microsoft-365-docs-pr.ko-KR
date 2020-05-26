@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 피싱 메시지가 사서함, Outlook.com 및 웹용 Outlook에 도달 하지 못하도록 차단 하는 방법을 안내 합니다.
-ms.openlocfilehash: 2172a9890d629dd840c3e2e2591d78546899d17e
-ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
+ms.openlocfilehash: 9583161c9e64d6a24312565d68ae516a2be8606e
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44224882"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352457"
 ---
 # <a name="unverified-sender"></a>확인 되지 않은 보낸 사람
 
@@ -50,7 +50,7 @@ Office 365에서 전자 메일 인증 기술을 사용 하 여 보낸 사람의 
 
 Office 365 고객 인 경우 Office 365 보안 & 준수 센터를 통해이 기능을 관리할 수 있습니다.
 
-- 보안 & 준수 센터에서 전역 또는 보안 관리자는 피싱 정책 아래의 스푸핑 방지를 통해이 기능을 설정 하거나 해제할 수 있습니다. 또한 Exchange Online PowerShell에서 **AntiPhishPolicy** cmdlet을 사용할 수 있습니다. 자세한 내용은 [Office 365 및 AntiPhishPolicy의 피싱 방지 보호](anti-phishing-protection.md) 를 참조 [Set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishpolicy)하세요.
+- 보안 & 준수 센터에서 전역 또는 보안 관리자는 피싱 정책 아래의 스푸핑 방지를 통해이 기능을 설정 하거나 해제할 수 있습니다. 또한 Exchange Online PowerShell에서 **AntiPhishPolicy** cmdlet을 사용할 수 있습니다. 자세한 내용은 [Office 365 및 AntiPhishPolicy의 피싱 방지 보호](anti-phishing-protection.md) 를 참조 [Set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/set-antiphishpolicy)하세요.
 
     ![그래픽 인터페이스에서 인증 되지 않은 보낸 사람 편집](../../media/unverified-sender-article-editing-unauthenticated-senders.jpg)
 
@@ -58,7 +58,7 @@ Office 365 고객 인 경우 Office 365 보안 & 준수 센터를 통해이 기�
 
   - 스푸핑 인텔리전스 이해를 통해 도메인 쌍을 추가 합니다. 자세한 내용은 [연습용: 스푸핑 인텔리전스 이해](walkthrough-spoof-intelligence-insight.md)를 참조 하십시오.
 
-  - Exchange Online PowerShell에서 **get-phishfilterpolicy** cmdlet을 통해 도메인 쌍을 추가 합니다. 자세한 내용은 [get-phishfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-phishfilterpolicy) 및 [set UP Office 365 ATP 안티 피싱 및 피싱 방지 정책을](set-up-anti-phishing-policies.md)참조 하십시오.
+  - Exchange Online PowerShell에서 **get-phishfilterpolicy** cmdlet을 통해 도메인 쌍을 추가 합니다. 자세한 내용은 [get-phishfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/set-phishfilterpolicy) 및 [set UP Office 365 ATP 안티 피싱 및 피싱 방지 정책을](set-up-anti-phishing-policies.md)참조 하십시오.
 
 또한 메일 흐름 규칙 (전송 규칙이 라고도 함) 또는 안전한 도메인 목록 (스팸 방지 정책)을 통해 메시지가 받은 편지 함으로 배달 된 경우에는 확인 되지 않은 보낸 사람 처리를 적용 하지 않습니다.
 

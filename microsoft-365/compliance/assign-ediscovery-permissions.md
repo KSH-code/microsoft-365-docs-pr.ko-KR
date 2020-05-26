@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: 보안 & 준수 센터를 사용 하 여 eDiscovery 관련 작업을 수행 하는 데 필요한 사용 권한을 할당 합니다.
-ms.openlocfilehash: dc7eb61a006b41e519c76e70c768b551ff5126b9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b56b2e59a7b3a40a4ea76c1172c3631198ddefe3
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631849"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351110"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>보안 & 준수 센터에서 eDiscovery 권한 할당
 
@@ -49,21 +49,21 @@ ms.locfileid: "43631849"
 
 - 보안 & 준수 센터에서 eDiscovery 권한을 할당 하려면 조직 관리 역할 그룹의 구성원 이거나 역할 관리 역할을 할당 받아야 합니다.
     
-- Security & 준수 센터 PowerShell의 [추가-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Add-RoleGroupMember) cmdlet을 사용 하 여 메일 사용이 가능한 보안 그룹을 ediscovery 관리자 역할 그룹에 있는 ediscovery 관리자의 구성원으로 추가할 수 있습니다. 그러나 메일 사용이 가능한 보안 그룹은 eDiscovery Administrators 그룹에 추가할 수 없습니다. 자세한 [내용은 추가 정보](#more-information) 섹션을 참조 하십시오. 
+- Security & 준수 센터 PowerShell의 [추가-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Add-RoleGroupMember) cmdlet을 사용 하 여 메일 사용이 가능한 보안 그룹을 ediscovery 관리자 역할 그룹에 있는 ediscovery 관리자의 구성원으로 추가할 수 있습니다. 그러나 메일 사용이 가능한 보안 그룹은 eDiscovery Administrators 그룹에 추가할 수 없습니다. 자세한 [내용은 추가 정보](#more-information) 섹션을 참조 하십시오. 
     
 ## <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>보안 & 준수 센터에서 eDiscovery 권한 할당
 
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 회사 또는 학교 계정을 사용 하 여 로그인 합니다.
+2. 회사 또는 학교 계정을 사용하여 로그인합니다.
     
 3. 보안 및 준수 센터의 왼쪽 창에서 **사용 권한을**선택한 다음 **eDiscovery Manager**옆에 있는 확인란을 선택 합니다.
     
 4. **Ediscovery 관리자** 플라이 아웃 페이지에서 할당 하려는 eDiscovery 권한에 따라 다음 중 하나를 수행 합니다. 
   
-    **사용자를 EDiscovery 관리자로 지정 하려면 다음을** 수행 합니다. **EDiscovery 관리자**옆에 있는 **편집**을 선택 합니다. **Ediscovery 관리자 선택** 섹션에서 **ediscovery 관리자 선택** 하이퍼링크를 선택 하 고 아이콘 ![](../media/ITPro-EAC-AddIcon.gif) **추가**(추가)를 선택 합니다. EDiscovery 관리자로 추가할 사용자 (또는 사용자)를 선택 하 고 **추가**를 선택 합니다. 사용자 추가가 완료 되 면 **완료**를 선택 합니다. 그런 다음 **Ediscovery 관리자** 플라이 아웃 선택 페이지에서 **저장** 을 선택 하 여 ediscovery 관리자 멤버 자격에 대 한 변경 내용을 저장 합니다.
+    **사용자를 EDiscovery 관리자로 지정 하려면 다음을** 수행 합니다. **EDiscovery 관리자**옆에 있는 **편집**을 선택 합니다. **Ediscovery 관리자 선택** 섹션에서 **ediscovery 관리자 선택** 하이퍼링크를 선택 하 고 아이콘 추가 (추가)를 선택 합니다 ![ ](../media/ITPro-EAC-AddIcon.gif) **Add**. EDiscovery 관리자로 추가할 사용자 (또는 사용자)를 선택 하 고 **추가**를 선택 합니다. 사용자 추가가 완료 되 면 **완료**를 선택 합니다. 그런 다음 **Ediscovery 관리자** 플라이 아웃 선택 페이지에서 **저장** 을 선택 하 여 ediscovery 관리자 멤버 자격에 대 한 변경 내용을 저장 합니다.
   
-    **사용자를 EDiscovery 관리자로 설정 하려면 다음을** 수행 합니다. **EDiscovery 관리자**옆에 있는 **편집**을 선택 합니다. **Ediscovery 관리자 선택** 섹션의 **ediscovery 관리자**에서 **ediscovery 관리자 선택을**선택 하 고 **편집**을 선택한 후에 아이콘 ![](../media/ITPro-EAC-AddIcon.gif) **추가**를 선택 합니다. **EDiscovery 관리자로**추가 하려는 사용자 (또는 사용자)를 선택한 다음 **추가**를 선택 합니다. 사용자 추가가 완료 되 면 **완료**를 선택 합니다. 그런 다음 **Ediscovery 관리자** 플라이 아웃 선택 페이지에서 **저장** 을 선택 하 여 ediscovery 관리자 멤버 자격에 대 한 변경 내용을 저장 합니다.
+    **사용자를 EDiscovery 관리자로 설정 하려면 다음을** 수행 합니다. **EDiscovery 관리자**옆에 있는 **편집**을 선택 합니다. **Ediscovery 관리자 선택** 섹션의 **eDiscovery 관리자**에서 **ediscovery 관리자 선택을**선택 하 고 **편집**을 선택한 후에 ![ 아이콘 추가를 선택 ](../media/ITPro-EAC-AddIcon.gif) **Add**합니다. **EDiscovery 관리자로**추가 하려는 사용자 (또는 사용자)를 선택한 다음 **추가**를 선택 합니다. 사용자 추가가 완료 되 면 **완료**를 선택 합니다. 그런 다음 **Ediscovery 관리자** 플라이 아웃 선택 페이지에서 **저장** 을 선택 하 여 ediscovery 관리자 멤버 자격에 대 한 변경 내용을 저장 합니다.
       
 > [!NOTE]
 > **EDiscoveryCaseAdmin** cmdlet을 사용 하 여 사용자를 eDiscovery 관리자로 설정할 수도 있습니다. 그러나이 cmdlet을 eDiscovery 관리자로 설정 하려면 사용자에 게 사례 관리 역할을 할당 받아야 합니다. 자세한 내용은 [Add-eDiscoveryCaseAdmin](https://go.microsoft.com/fwlink/p/?LinkID=798217)를 참조 하세요. 
@@ -151,7 +151,7 @@ ms.locfileid: "43631849"
   Add-RoleGroupMember "eDiscovery Manager" -Member <name of security group>
   ```
 
-    Exchange 메일 그룹 및 Microsoft 365 그룹은 지원 되지 않습니다. `New-DistributionGroup -Type Security` 명령을 사용 하 여 Exchange Online PowerShell에서 만들 수 있는 메일 사용이 가능한 보안 그룹을 사용 해야 합니다. 또한 Exchange 관리 센터 또는 Microsoft 365 관리 센터에서 메일 사용이 가능한 보안 그룹을 만들고 구성원을 추가할 수 있습니다. 새 메일 사용이 가능한 보안을 eDiscovery 관리자 역할 그룹에 추가할 수 있도록 만든 후 최대 60 분까지 걸릴 수 있습니다. 
+    Exchange 메일 그룹 및 Microsoft 365 그룹은 지원 되지 않습니다. 명령을 사용 하 여 Exchange Online PowerShell에서 만들 수 있는 메일 사용이 가능한 보안 그룹을 사용 해야 합니다 `New-DistributionGroup -Type Security` . 또한 Exchange 관리 센터 또는 Microsoft 365 관리 센터에서 메일 사용이 가능한 보안 그룹을 만들고 구성원을 추가할 수 있습니다. 새 메일 사용이 가능한 보안을 eDiscovery 관리자 역할 그룹에 추가할 수 있도록 만든 후 최대 60 분까지 걸릴 수 있습니다. 
     
     또한 앞에서 설명한 것 처럼 보안 & 준수 센터 PowerShell에서 **eDiscoveryCaseAdmin** cmdlet을 사용 하 여 메일 사용이 가능한 보안 그룹을 eDiscovery 관리자로 설정할 수 없습니다. 개별 사용자만 eDiscovery 관리자로 추가할 수 있습니다. 
     

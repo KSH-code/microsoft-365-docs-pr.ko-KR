@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: 이 문서를 정보 장벽 문제 해결을 위한 지침으로 사용 하십시오.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f73493f53937c38f33eeab9595ddb07ef4813c89
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 5aa45e3e9dea5ce413b2b0e62d825003bc24e20e
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035034"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352327"
 ---
 # <a name="troubleshooting-information-barriers"></a>정보 장벽 문제 해결
 
@@ -45,11 +45,11 @@ ms.locfileid: "44035034"
 
     |구문과  |예제  |
     |---------|---------|
-    | `Get-InformationBarrierRecipientStatus -Identity` <p>각 받는 사람을 고유 하 게 식별 하는 모든 id 값 (예: 이름, 별칭, DN (고유 이름), 정식 DN, 전자 메일 주소 또는 GUID)을 사용할 수 있습니다.     |`Get-InformationBarrierRecipientStatus -Identity meganb` <p>이 예제에서는 Identity 매개 변수에 별칭 (*meganb*)을 사용 합니다. 이 cmdlet은 사용자가 정보 장벽 정책의 영향을 받는지 여부를 나타내는 정보를 반환 합니다. (* ExoPolicyId: \<GUID>를 찾아보십시오.)         |
+    | `Get-InformationBarrierRecipientStatus -Identity` <p>각 받는 사람을 고유 하 게 식별 하는 모든 id 값 (예: 이름, 별칭, DN (고유 이름), 정식 DN, 전자 메일 주소 또는 GUID)을 사용할 수 있습니다.     |`Get-InformationBarrierRecipientStatus -Identity meganb` <p>이 예제에서는 Identity 매개 변수에 별칭 (*meganb*)을 사용 합니다. 이 cmdlet은 사용자가 정보 장벽 정책의 영향을 받는지 여부를 나타내는 정보를 반환 합니다. (찾기 * ExoPolicyId: \< GUID>)         |
 
     **사용자가 정보 장벽 정책에 포함 되어 있지 않은 경우 지원 서비스에 문의 하세요**. 그렇지 않으면 다음 단계를 진행 합니다.
 
-2. 정보 장벽 정책에 포함 된 세그먼트를 찾습니다. 이 작업을 수행 하려면 Identity `Get-InformationBarrierPolicy` 매개 변수와 함께 cmdlet을 사용 합니다. 
+2. 정보 장벽 정책에 포함 된 세그먼트를 찾습니다. 이 작업을 수행 하려면 `Get-InformationBarrierPolicy` Identity 매개 변수와 함께 cmdlet을 사용 합니다. 
 
     |구문과  |예제  |
     |---------|---------|
@@ -57,7 +57,7 @@ ms.locfileid: "44035034"
 
     Cmdlet을 실행 한 후 결과에서 **AssignedSegment**, **SegmentsAllowed**및 **SegmentsBlocked** 값을 찾습니다.
 
-    예를 들어 `Get-InformationBarrierPolicy` cmdlet을 실행 한 후에는 결과 목록에서 다음을 살펴보았습니다.
+    예를 들어 cmdlet을 실행 한 후 `Get-InformationBarrierPolicy` 에는 결과 목록에서 다음을 살펴보았습니다.
 
     ```powershell
         AssignedSegment      : Sales
@@ -68,13 +68,13 @@ ms.locfileid: "44035034"
     
     이 문제가 올바른 것 같으면 정보 장애가 예상 대로 작동 하는 것입니다. 로그인하지 않은 경우에는 다음 단계를 진행합니다.
 
-4. 세그먼트가 올바르게 정의 되었는지 확인 합니다. 이 작업을 수행 하려면 `Get-OrganizationSegment` cmdlet을 사용 하 여 결과 목록을 검토 합니다. 
+4. 세그먼트가 올바르게 정의 되었는지 확인 합니다. 이 작업을 수행 하려면 cmdlet을 사용 하 여 `Get-OrganizationSegment` 결과 목록을 검토 합니다. 
 
     |구문과  |예제  |
     |---------|---------|
     |`Get-OrganizationSegment`<p>이 cmdlet은 Identity 매개 변수와 함께 사용 합니다.     |`Get-OrganizationSegment -Identity c96e0837-c232-4a8a-841e-ef45787d8fcd` <p>이 예에서는 GUID *c96e0837-c232-4a8a-841e-ef45787d8fcd*가 있는 세그먼트에 대 한 정보를 가져옵니다.         |
 
-    해당 세그먼트에 대 한 세부 정보를 검토 합니다. 필요한 경우 [세그먼트를 편집](information-barriers-edit-segments-policies.md#edit-a-segment)하 고 `Start-InformationBarrierPoliciesApplication` cmdlet을 다시 사용 합니다.
+    해당 세그먼트에 대 한 세부 정보를 검토 합니다. 필요한 경우 [세그먼트를 편집](information-barriers-edit-segments-policies.md#edit-a-segment)하 고 cmdlet을 다시 사용 `Start-InformationBarrierPoliciesApplication` 합니다.
 
     **정보 장벽 정책에 여전히 문제가 있는 경우 고객 지원에 문의 하세요**.
 
@@ -104,7 +104,7 @@ ms.locfileid: "44035034"
     |---------|---------|
     |선택한 사용자에 대 한 세그먼트가 나열 되지 않음     |다음 중 하나를 수행합니다.<br/>-Azure Active Directory에서 사용자 프로필을 편집 하 여 기존 세그먼트에 사용자를 할당 합니다. ( [Office 365 PowerShell을 사용 하 여 사용자 계정 속성 구성](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell)참조)<br/>- [정보 장벽에 대해 지원 되는 특성](information-barriers-attributes.md)을 사용 하 여 세그먼트를 정의 합니다. 그런 다음 [새 정책을 정의](information-barriers-policies.md#part-2-define-information-barrier-policies) 하거나 [기존 정책을 편집](information-barriers-edit-segments-policies.md#edit-a-policy) 하 여 해당 세그먼트를 포함 합니다.  |
     |세그먼트는 나열 되지만 해당 세그먼트에 정보 장벽 정책이 할당 되지 않음     |다음 중 하나를 수행합니다.<br/>- 문제의 각 세그먼트에 대 한 [새 정보 장벽 정책 정의](information-barriers-policies.md#part-2-define-information-barrier-policies)<br/>- [기존 정보 장벽 정책을 편집](information-barriers-edit-segments-policies.md#edit-a-policy) 하 여 올바른 세그먼트에 할당         |
-    |나열 된 세그먼트는 정보 장벽 정책에 포함 되어 있습니다.     |- `Get-InformationBarrierPolicy` Cmdlet을 실행 하 여 정보 장벽 정책이 활성 상태 인지 확인 합니다.<br/>-정책이 적용 `Get-InformationBarrierPoliciesApplicationStatus` 되었는지 확인 하는 cmdlet을 실행 합니다.<br/>- `Start-InformationBarrierPoliciesApplication` Cmdlet을 실행 하 여 모든 활성 정보 장벽 정책 적용          |
+    |나열 된 세그먼트는 정보 장벽 정책에 포함 되어 있습니다.     |-Cmdlet을 실행 `Get-InformationBarrierPolicy` 하 여 정보 장벽 정책이 활성 상태 인지 확인 합니다.<br/>- `Get-InformationBarrierPoliciesApplicationStatus` 정책이 적용 되었는지 확인 하는 cmdlet을 실행 합니다.<br/>- `Start-InformationBarrierPoliciesApplication` Cmdlet을 실행 하 여 모든 활성 정보 장벽 정책 적용          |
     
 
 ## <a name="issue-i-need-to-remove-a-single-user-from-an-information-barrier-policy"></a>문제: 정보 장벽 정책에서 단일 사용자를 제거 해야 합니다.
@@ -126,7 +126,7 @@ ms.locfileid: "44035034"
 
 3. 정보 장벽에 영향을 받는 세그먼트에서 사용자를 제거 하려면 [Azure Active Directory에서 사용자의 프로필 정보를 업데이트](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)합니다.
 
-4. FwdSync가 발생할 때까지 30 분 정도 기다립니다. 또는 `Start-InformationBarrierPoliciesApplication` cmdlet을 실행 하 여 모든 활성 정보 장벽 정책을 적용 합니다.
+4. FwdSync가 발생할 때까지 30 분 정도 기다립니다. 또는 cmdlet을 실행 `Start-InformationBarrierPoliciesApplication` 하 여 모든 활성 정보 장벽 정책을 적용 합니다.
 
 ## <a name="issue-the-information-barrier-application-process-is-taking-too-long"></a>문제: 정보 장벽 응용 프로그램 프로세스가 너무 오래 걸립니다.
 
@@ -163,7 +163,7 @@ ms.locfileid: "44035034"
 
 1. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)에 연결 합니다. 
 
-2. [Get-AddressBookPolicy](https://docs.microsoft.com/powershell/module/exchange/email-addresses-and-address-books/get-addressbookpolicy?view=exchange-ps) cmdlet을 실행 하 고 결과를 검토 합니다.
+2. [Get-AddressBookPolicy](https://docs.microsoft.com/powershell/module/exchange/get-addressbookpolicy?view=exchange-ps) cmdlet을 실행 하 고 결과를 검토 합니다.
 
     |결과  |다음 단계  |
     |---------|---------|
@@ -175,7 +175,7 @@ ms.locfileid: "44035034"
 ## <a name="issue-information-barrier-policy-not-applied-to-all-designated-users"></a>문제: 지정 된 모든 사용자에 게 정보 장벽 정책이 적용 되지 않음
 
 세그먼트, 정의 된 정보 장벽 정책 및 해당 정책을 적용 하려고 한 후에는 정책이 일부 받는 사람에 게 적용 되지 않을 수 있습니다.
-`Get-InformationBarrierPoliciesApplicationStatus` Cmdlet을 실행할 때 다음과 같은 텍스트에 대 한 출력을 검색 합니다.
+Cmdlet을 실행할 때 `Get-InformationBarrierPoliciesApplicationStatus` 다음과 같은 텍스트에 대 한 출력을 검색 합니다.
 
 > 식별`<application guid>`
 >
@@ -189,13 +189,13 @@ ms.locfileid: "44035034"
 
 ### <a name="what-to-do"></a>수행할 작업
 
-1. 에 대 한 `<application guid>`감사 로그에서 검색 합니다. 이 PowerShell 코드를 복사 하 고 변수를 수정할 수 있습니다.
+1. 에 대 한 감사 로그에서 검색 `<application guid>` 합니다. 이 PowerShell 코드를 복사 하 고 변수를 수정할 수 있습니다.
 
 ```powershell
 $DetailedLogs = Search-UnifiedAuditLog -EndDate <yyyy-mm-ddThh:mm:ss>  -StartDate <yyyy-mm-ddThh:mm:ss> -RecordType InformationBarrierPolicyApplication -ResultSize 1000 |?{$_.AuditData.Contains(<application guid>)} 
 ```
 
-2. 감사 로그에서 `"UserId"` 및 `"ErrorDetails"` 필드 값에 대 한 자세한 출력을 확인 합니다. 이렇게 하면 오류에 대 한 이유가 제공 됩니다. 이 PowerShell 코드를 복사 하 고 변수를 수정할 수 있습니다.
+2. 감사 로그에서 및 필드 값에 대 한 자세한 출력을 확인 `"UserId"` 합니다 `"ErrorDetails"` . 이렇게 하면 오류에 대 한 이유가 제공 됩니다. 이 PowerShell 코드를 복사 하 고 변수를 수정할 수 있습니다.
 
 ```powershell
    $DetailedLogs[1] |fl
@@ -206,7 +206,7 @@ $DetailedLogs = Search-UnifiedAuditLog -EndDate <yyyy-mm-ddThh:mm:ss>  -StartDat
 > 
 >"ErrorDetails": "Status: IBPolicyConflict. 오류: IB 세그먼트 "segment id1" 및 IB 세그먼트 "segment id2"이 (가) 충돌 하 여 받는 사람에 게 할당할 수 없습니다. 
 
-3. 일반적으로 사용자가 둘 이상의 세그먼트에 포함 된 것을 확인할 수 있습니다. 에서 `-UserGroupFilter` `OrganizationSegments`값을 업데이트 하 여이 문제를 해결할 수 있습니다.
+3. 일반적으로 사용자가 둘 이상의 세그먼트에 포함 된 것을 확인할 수 있습니다. 에서 값을 업데이트 하 여이 문제를 해결할 수 있습니다 `-UserGroupFilter` `OrganizationSegments` .
 
 4. 이러한 절차 [정보 장벽 정책을](information-barriers-policies.md#part-3-apply-information-barrier-policies)사용 하 여 정보 장애물 정책을 다시 적용 합니다.
 

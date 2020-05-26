@@ -14,12 +14,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: 409afed8ea927f1bdfc602264bbff7bce34e8533
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 216ec3853f1b55c7fb34de3a236f50094202bca5
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943337"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352468"
 ---
 # <a name="migrate-legacy-ediscovery-searches-and-holds-to-the-microsoft-365-compliance-center"></a>레거시 eDiscovery 검색 및 보류를 Microsoft 365 준수 센터로 마이그레이션
 
@@ -79,11 +79,11 @@ $search | FL
 ![개별 검색에 대해 New-mailboxsearch를 사용 하는 경우의 PowerShell 출력 예제](../media/MigrateLegacyeDiscovery2.png)
 
 > [!NOTE]
-> 이 예의 원본 위치 유지 기간은 무제한입니다 (*ItemHoldPeriod: 제한 없음*). 이는 eDiscovery 및 법적 조사 시나리오에서 일반적으로 발생 합니다. 보류 기간이 무기한 값과 다른 경우 보존 시나리오에서 콘텐츠를 보존 하기 위해 보류가 사용 되 고 있기 때문일 수 있습니다. 보존 시나리오의 경우 Security & 준수 센터 PowerShell에서 eDiscovery cmdlet을 사용 하는 대신 [new-retentioncompliancepolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancepolicy) 및 [new-retentioncompliancerule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancerule) 을 사용 하 여 콘텐츠를 보존 하는 것이 좋습니다. 이러한 cmdlet을 사용 하는 경우에는 **new-caseholdpolicy** 및 **new-caseholdrule**를 사용 하는 것과 유사 하지만 보존 기간 및 보존 기간이 만료 된 후에 콘텐츠를 삭제 하는 것과 같은 유지 작업을 지정할 수 있습니다. 또한 보존 cmdlet을 사용 하는 경우에는 보존 보류와 eDiscovery 사례를 연결할 필요가 없습니다.
+> 이 예의 원본 위치 유지 기간은 무제한입니다 (*ItemHoldPeriod: 제한 없음*). 이는 eDiscovery 및 법적 조사 시나리오에서 일반적으로 발생 합니다. 보류 기간이 무기한 값과 다른 경우 보존 시나리오에서 콘텐츠를 보존 하기 위해 보류가 사용 되 고 있기 때문일 수 있습니다. 보존 시나리오의 경우 Security & 준수 센터 PowerShell에서 eDiscovery cmdlet을 사용 하는 대신 [new-retentioncompliancepolicy](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancepolicy) 및 [new-retentioncompliancerule](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancerule) 을 사용 하 여 콘텐츠를 보존 하는 것이 좋습니다. 이러한 cmdlet을 사용 하는 경우에는 **new-caseholdpolicy** 및 **new-caseholdrule**를 사용 하는 것과 유사 하지만 보존 기간 및 보존 기간이 만료 된 후에 콘텐츠를 삭제 하는 것과 같은 유지 작업을 지정할 수 있습니다. 또한 보존 cmdlet을 사용 하는 경우에는 보존 보류와 eDiscovery 사례를 연결할 필요가 없습니다.
 
 ## <a name="step-4-create-a-case-in-the-microsoft-365-compliance-center"></a>4 단계: Microsoft 365 준수 센터에서 사례 만들기
 
-EDiscovery 보류를 만들려면 보류를 연결 하는 eDiscovery 사례를 만들어야 합니다. 다음 예제에서는 선택한 이름을 사용 하 여 eDiscovery 사례를 만듭니다. 나중에 사용할 수 있도록 새 사례의 속성을 변수에 저장 합니다. 사례를 만든 후에 `$case | FL` 명령을 실행 하 여 이러한 속성을 볼 수 있습니다.
+EDiscovery 보류를 만들려면 보류를 연결 하는 eDiscovery 사례를 만들어야 합니다. 다음 예제에서는 선택한 이름을 사용 하 여 eDiscovery 사례를 만듭니다. 나중에 사용할 수 있도록 새 사례의 속성을 변수에 저장 합니다. 사례를 만든 후에 명령을 실행 하 여 이러한 속성을 볼 수 있습니다 `$case | FL` .
 
 ```powershell
 $case = New-ComplianceCase -Name "[Case name of your choice]"
@@ -132,7 +132,7 @@ New-ComplianceSearch -Name $search.Name -ExchangeLocation $search.SourceMailboxe
 
 ## <a name="step-8-verify-the-case-hold-and-search-in-the-microsoft-365-compliance-center"></a>8 단계: Microsoft 365 준수 센터의 사례, 보류 및 검색 확인
 
-모든 기능이 제대로 설정 되었는지 확인 하려면 Microsoft 365 준수 센터로 [https://compliance.microsoft.com](https://compliance.microsoft.com)이동 하 여 **eDiscovery > Core**를 클릭 합니다.
+모든 기능이 제대로 설정 되었는지 확인 하려면 Microsoft 365 준수 센터로 이동 하 여 [https://compliance.microsoft.com](https://compliance.microsoft.com) **EDiscovery > Core**를 클릭 합니다.
 
 ![Microsoft 365 준수 센터 eDiscovery](../media/MigrateLegacyeDiscovery7.png)
 
@@ -156,18 +156,18 @@ New-ComplianceSearch -Name $search.Name -ExchangeLocation $search.SourceMailboxe
 
 - 문서에 사용 된 PowerShell cmdlet에 대 한 자세한 내용은 다음 항목을 참조 하십시오.
 
-  - [New-mailboxsearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-mailboxsearch)
+  - [New-mailboxsearch](https://docs.microsoft.com/powershell/module/exchange/get-mailboxsearch)
   
-  - [Remove-compliancecase](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/new-compliancecase)
+  - [Remove-compliancecase](https://docs.microsoft.com/powershell/module/exchange/new-compliancecase)
 
-  - [New-caseholdpolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/new-caseholdpolicy)
+  - [New-caseholdpolicy](https://docs.microsoft.com/powershell/module/exchange/new-caseholdpolicy)
   
-  - [New-caseholdrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/new-caseholdrule)
+  - [New-caseholdrule](https://docs.microsoft.com/powershell/module/exchange/new-caseholdrule)
 
-  - [New-caseholdpolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-caseholdpolicy)
+  - [New-caseholdpolicy](https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy)
   
-  - [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/new-compliancesearch)
+  - [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearch)
 
-  - [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/start-compliancesearch)
+  - [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/start-compliancesearch)
 
 - Microsoft 365 준수 센터에 대 한 자세한 내용은 [microsoft 365 준수 센터 개요](microsoft-365-compliance-center.md)를 참조 하세요.

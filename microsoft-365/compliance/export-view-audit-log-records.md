@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 감사 로그 검색 결과를 CSV 파일로 내보내고 다운로드 한 후에는 Excel의 파워 쿼리 편집기에서 JSON 변환 기능을 사용 하 여 AuditData 열에 있는 JSON 개체의 각 속성을 자체 열로 분할할 수 있습니다. 이를 통해 원하는 특정 감사 데이터를 빠르게 찾을 수 있습니다. PowerShell을 사용 하 여 감사 로그 레코드를 검색 하 고 내보낼 수도 있습니다.
-ms.openlocfilehash: c06fbe28a62cf04e1ffdd6ecf173d027e89b5074
-ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
+ms.openlocfilehash: 763a20a7da09007e54c0714b82b86ffe3586e501
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43799931"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352388"
 ---
 # <a name="export-configure-and-view-audit-log-records"></a>감사 로그 레코드 내보내기, 구성 및 보기
 
@@ -100,7 +100,7 @@ ms.locfileid: "43799931"
 
 ## <a name="use-powershell-to-search-and-export-audit-log-records"></a>PowerShell을 사용 하 여 감사 로그 기록 검색 및 내보내기
 
-보안 & 준수 센터에서 감사 로그 검색 도구를 사용 하는 대신 Exchange Online PowerShell의 [search-unifiedauditlog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) cmdlet을 사용 하 여 감사 로그 검색의 결과를 CSV 파일로 내보낼 수 있습니다. 그런 다음 2 단계에서 설명한 것과 같은 절차에 따라 파워 쿼리 편집기를 사용 하 여 감사 로그를 포맷할 수 있습니다. PowerShell cmdlet을 사용 하는 경우의 한 가지 이점은 *RecordType* 매개 변수를 사용 하 여 특정 서비스에서 이벤트를 검색할 수 있다는 것입니다. 다음은 PowerShell을 사용 하 여 감사 레코드를 CSV 파일로 내보낸 다음, 파워 쿼리 편집기를 사용 하 여 **Auditdata** 열에 있는 JSON 개체를 2 단계에 설명 된 대로 변환할 수 있는 몇 가지 예입니다.
+보안 & 준수 센터에서 감사 로그 검색 도구를 사용 하는 대신 Exchange Online PowerShell의 [search-unifiedauditlog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) cmdlet을 사용 하 여 감사 로그 검색의 결과를 CSV 파일로 내보낼 수 있습니다. 그런 다음 2 단계에서 설명한 것과 같은 절차에 따라 파워 쿼리 편집기를 사용 하 여 감사 로그를 포맷할 수 있습니다. PowerShell cmdlet을 사용 하는 경우의 한 가지 이점은 *RecordType* 매개 변수를 사용 하 여 특정 서비스에서 이벤트를 검색할 수 있다는 것입니다. 다음은 PowerShell을 사용 하 여 감사 레코드를 CSV 파일로 내보낸 다음, 파워 쿼리 편집기를 사용 하 여 **Auditdata** 열에 있는 JSON 개체를 2 단계에 설명 된 대로 변환할 수 있는 몇 가지 예입니다.
 
 이 예제에서는 다음 명령을 실행 하 여 SharePoint 공유 작업과 관련 된 모든 레코드를 반환 합니다.
 

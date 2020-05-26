@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 고객 키를 설정한 후에는 AKV 키를 복원 하 고 사용 권한 및 데이터 암호화 정책을 관리 하 여이를 관리 하는 방법을 알아봅니다.
-ms.openlocfilehash: 4796fcef69e052725b635acb4170d73bb36de787
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: dbdbd61b4d06e183d8cc5461122e316b2b6b1797
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635604"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352205"
 ---
 # <a name="manage-customer-key"></a>고객 키 관리
 
@@ -88,7 +88,7 @@ Get-DataEncryptionPolicy PowerShell cmdlet을 사용 하 여 Exchange Online 및
   Get-DataEncryptionPolicy
   ```
 
-  Get-data과 Policy cmdlet에 대 한 자세한 내용은 [get-data과 policy](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/get-dataencryptionpolicy?view=exchange-ps)를 참조 하십시오.
+  Get-data과 Policy cmdlet에 대 한 자세한 내용은 [get-data과 policy](https://docs.microsoft.com/powershell/module/exchange/get-dataencryptionpolicy?view=exchange-ps)를 참조 하십시오.
 
 ### <a name="assign-a-dep-before-you-migrate-a-mailbox-to-the-cloud"></a>클라우드로 사서함을 마이그레이션하기 전에 DEP를 할당 합니다.
 
@@ -104,7 +104,7 @@ Office 365로 마이그레이션하기 전에 사서함에 DEP를 할당 하려�
   Set-MailUser -Identity <GeneralMailboxOrMailUserIdParameter> -DataEncryptionPolicy <DataEncryptionPolicyIdParameter>
   ```
 
-  여기서 *GeneralMailboxOrMailUserIdParameter* 는 사서함을 지정 하 고 *Dataencryptionpolicyidparameter* 는 DEP의 ID입니다. 설정-MailUser cmdlet에 대 한 자세한 내용은 [설정-MailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-mailuser?view=exchange-ps)를 참조 하십시오.
+  여기서 *GeneralMailboxOrMailUserIdParameter* 는 사서함을 지정 하 고 *Dataencryptionpolicyidparameter* 는 DEP의 ID입니다. 설정-MailUser cmdlet에 대 한 자세한 내용은 [설정-MailUser](https://docs.microsoft.com/powershell/module/exchange/set-mailuser?view=exchange-ps)를 참조 하십시오.
 
 ### <a name="determine-the-dep-assigned-to-a-mailbox"></a>사서함에 할당 된 DEP 확인
 
@@ -116,7 +116,7 @@ Office 365로 마이그레이션하기 전에 사서함에 DEP를 할당 하려�
    Get-MailboxStatistics -Identity <GeneralMailboxOrMailUserIdParameter> | fl DataEncryptionPolicyID
    ```
 
-   여기서 *GeneralMailboxOrMailUserIdParameter* 은 사서함을 지정 하 고 DataEncryptionPolicyID는 DEP의 GUID를 반환 합니다. Get-mailboxstatistics cmdlet에 대 한 자세한 내용은 [get-get-mailboxstatistics](https://docs.microsoft.com/powershell/module/exchange/mailboxes/get-mailboxstatistics?view=exchange-ps)을 참조 하십시오.
+   여기서 *GeneralMailboxOrMailUserIdParameter* 은 사서함을 지정 하 고 DataEncryptionPolicyID는 DEP의 GUID를 반환 합니다. Get-mailboxstatistics cmdlet에 대 한 자세한 내용은 [get-get-mailboxstatistics](https://docs.microsoft.com/powershell/module/exchange/get-mailboxstatistics?view=exchange-ps)을 참조 하십시오.
   
 2. Get-DataEncryptionPolicy cmdlet을 실행 하 여 사서함이 할당 된 DEP의 이름을 확인할 수 있습니다.
   
@@ -148,7 +148,7 @@ Get-MailboxStatistics -Identity <GeneralMailboxOrMailUserIdParameter> | fl IsEnc
 New-MoveRequest <alias>
 ```
 
-이 cmdlet에 대 한 자세한 내용은 [get-mailboxstatistics](https://docs.microsoft.com/powershell/module/exchange/move-and-migration/new-moverequest?view=exchange-ps)를 참조 하십시오.
+이 cmdlet에 대 한 자세한 내용은 [get-mailboxstatistics](https://docs.microsoft.com/powershell/module/exchange/new-moverequest?view=exchange-ps)를 참조 하십시오.
 
 ### <a name="verify-encryption-completes-for-sharepointonlineonedriveforbusinessandteamsfiles"></a>SharePoint Online, 비즈니스용 OneDrive 및 팀 파일에 대 한 암호화 완료 확인
 
@@ -201,7 +201,7 @@ Exchange Online 및 비즈니스용 Skype의 데이터 제거 경로를 시작�
 
 2. 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)합니다.
 
-3. 삭제 하려는 사서함이 포함 된 각 DEP에 대해 다음과 같이 [Set-Data\ 정책](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/set-dataencryptionpolicy) cmdlet을 실행 합니다.
+3. 삭제 하려는 사서함이 포함 된 각 DEP에 대해 다음과 같이 [Set-Data\ 정책](https://docs.microsoft.com/powershell/module/exchange/set-dataencryptionpolicy) cmdlet을 실행 합니다.
 
     ```powershell
     Set-DataEncryptionPolicy <Policy ID> -PermanentDataPurgeRequested -PermanentDataPurgeReason <Reason> -PermanentDataPurgeContact <ContactName>

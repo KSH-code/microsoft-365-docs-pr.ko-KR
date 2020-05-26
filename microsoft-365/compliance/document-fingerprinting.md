@@ -12,12 +12,12 @@ ms.service: exchange-online
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 조직에서 정보 근로자는 일상적으로 다양한 종류의 중요한 정보를 처리합니다. 문서 지문을 사용하면 조직 전체에서 사용되는 표준 양식을 식별하여 이 정보를 보다 쉽게 보호할 수 있습니다. 이 항목에서는 문서 지문을 개념 및 PowerShell을 사용 하 여 만드는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 61fe5082b4808f153cc4092b429c0c5e6a54b110
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 37b5649e357f24993e41ae93db6737d980ce0c72
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074953"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352025"
 ---
 # <a name="document-fingerprinting"></a>문서 지문
 
@@ -65,7 +65,7 @@ ms.locfileid: "42074953"
 
 ## <a name="use-powershell-to-create-a-classification-rule-package-based-on-document-fingerprinting"></a>PowerShell을 사용 하 여 문서 지문을를 기반으로 분류 규칙 패키지 만들기
 
-현재 보안 &amp; 및 준수 센터에서 PowerShell을 사용 하 여 문서 지문을 만들 수 있습니다. 연결 하려면 [보안 & 준수 센터 PowerShell에 연결을](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)참조 하세요.
+현재 보안 및 준수 센터에서 PowerShell을 사용 하 여 문서 지문을 만들 수 있습니다 &amp; . 연결 하려면 [보안 & 준수 센터 PowerShell에 연결을](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)참조 하세요.
 
 DLP는 분류 규칙 패키지를 사용 하 여 중요 한 콘텐츠를 검색 합니다. 문서 지문을 기준으로 분류 규칙 패키지를 만들려면 **DlpSensitiveInformationType** cmdlet을 **사용 합니다.** **새-dlpfingerprint** 의 결과는 데이터 분류 규칙의 외부에 저장 되지 않으므로 항상 동일한 PowerShell 세션에서 **DlpSensitiveInformationType** 또는 **DlpSensitiveInformationType** **를 실행 합니다** . 다음 예에서는 C:\My Documents\Contoso Employee Template.docx 파일을 기반으로 새 문서 지문을 만듭니다. 새 지문을 변수로 저장 하 여 동일한 PowerShell 세션에서 **DlpSensitiveInformationType** cmdlet과 함께 사용할 수 있도록 합니다.
   
@@ -84,7 +84,7 @@ New-DlpSensitiveInformationType -Name "Contoso Customer Confidential" -Fingerpri
 
 이제 **DlpSensitiveInformationType** cmdlet을 사용 하 여 모든 DLP 데이터 분류 규칙 패키지를 찾을 수 있으며이 예에서 "Contoso 고객 기밀"은 데이터 분류 규칙 패키지 목록의 일부입니다. 
   
-마지막으로, 보안 &amp; 및 준수 센터에서 "Contoso 고객 기밀" 데이터 분류 규칙 패키지를 DLP 정책에 추가 합니다. 이 예에서는 "ConfidentialPolicy" 라는 기존 DLP 정책에 규칙을 추가 합니다.
+마지막으로, 보안 및 준수 센터에서 "Contoso 고객 기밀" 데이터 분류 규칙 패키지를 DLP 정책에 추가 합니다 &amp; . 이 예에서는 "ConfidentialPolicy" 라는 기존 DLP 정책에 규칙을 추가 합니다.
 
 ```powershell
 New-DlpComplianceRule -Name "ContosoConfidentialRule" -Policy "ConfidentialPolicy" -ContentContainsSensitiveInformation @{Name="Contoso Customer Confidential"} -BlockAccess $True
@@ -100,8 +100,8 @@ New-TransportRule -Name "Notify :External Recipient Contoso confidential" -Notif
   
 구문 및 매개 변수 정보는 다음 항목을 참조 하십시오.
 
-- [새 DlpFingerprint](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/New-DlpFingerprint)
-- [DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/New-DlpSensitiveInformationType)
-- [DlpSensitiveInformationType을 제거 합니다.](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Remove-DlpSensitiveInformationType)
-- [DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Set-DlpSensitiveInformationType)
-- [DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Get-DlpSensitiveInformationType)
+- [새 DlpFingerprint](https://docs.microsoft.com/powershell/module/exchange/New-DlpFingerprint)
+- [DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/New-DlpSensitiveInformationType)
+- [DlpSensitiveInformationType을 제거 합니다.](https://docs.microsoft.com/powershell/module/exchange/Remove-DlpSensitiveInformationType)
+- [DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/Set-DlpSensitiveInformationType)
+- [DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/Get-DlpSensitiveInformationType)

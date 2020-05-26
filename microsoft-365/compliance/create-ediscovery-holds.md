@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 핵심 eDiscovery 사례와 연결 된 보류를 만들어 조사와 관련이 있을 수 있는 콘텐츠를 보존할 수 있습니다.
-ms.openlocfilehash: 6405dac51c34163f8eadb359d9c29f1aa81a1b82
-ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
+ms.openlocfilehash: c4f3b258fecde8b5a49a77585fe8f1d6cdfe2c11
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43551461"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352255"
 ---
 # <a name="create-an-ediscovery-hold"></a>eDiscovery 보존 만들기
 
@@ -43,7 +43,7 @@ EDiscovery 보류를 만든 후에는 보류를 적용 하는 데 최대 24 시�
 
 코어 eDiscovery 사례와 연결 된 eDiscovery 보존을 만들려면:
   
-1. [https://compliance.microsoft.com](https://compliance.microsoft.com) 적절 한 eDiscovery 권한이 할당 된 사용자 계정에 대 한 자격 증명을 사용 하 여으로 이동 하 여 로그인 합니다.
+1. 적절 한 [https://compliance.microsoft.com](https://compliance.microsoft.com) eDiscovery 권한이 할당 된 사용자 계정에 대 한 자격 증명을 사용 하 여으로 이동 하 여 로그인 합니다.
 
 2. Microsoft 365 준수 센터의 왼쪽 탐색 창에서 **모두 표시**를 클릭 한 다음 **eDiscovery > 코어**를 클릭 합니다.
 
@@ -63,7 +63,7 @@ EDiscovery 보류를 만든 후에는 보류를 적용 하는 데 최대 24 시�
 
    b. **사이트 위치** - **사이트 선택을** 클릭 한 다음 **사이트 선택을** 클릭 하 여 SharePoint 및 OneDrive 계정을 보류 하도록 지정 합니다. 보류 하도록 설정할 각 사이트의 URL을 입력 합니다. Microsoft Team, Office 365 그룹 또는 Yammer 그룹에 대 한 SharePoint 사이트의 URL을 추가할 수도 있습니다. **선택을**클릭 하 고 **완료**를 클릭 합니다.
   
-   c. **Exchange 공용 폴더** Exchange Online 조직의 모든 ![공용 폴더](../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) 를 보류 상태로 설정 하려면 toggle Switch toggle control을 **all** 위치로 이동 합니다. 특정 공용 폴더를 선택 하 여 보류 상태로 설정할 수는 없습니다. 공용 폴더를 보존 하지 않으려면 toggle 스위치를 **"없음"** 으로 설정 된 상태로 둡니다.
+   c. **Exchange 공용 폴더** ![ ](../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) Exchange Online 조직의 모든 공용 폴더를 보류 상태로 설정 하려면 toggle switch toggle Control을 **all** 위치로 이동 합니다. 특정 공용 폴더를 선택 하 여 보류 상태로 설정할 수는 없습니다. 공용 폴더를 보존 하지 않으려면 toggle 스위치를 **"없음"** 으로 설정 된 상태로 둡니다.
 
 8. 보류에 콘텐츠 위치를 모두 추가한 후에 **다음**을 클릭 합니다.
 
@@ -173,7 +173,7 @@ EDiscovery 보존에 팀 및 Office 365 그룹을 둘 다 배치할 때는 다�
 EDiscovery 사례와 연결 된 보류 또는 검색에 추가할 수 있도록 조직의 비즈니스용 OneDrive 사이트에 대 한 Url 목록을 수집 하려면 [조직의 모든 OneDrive 위치 목록 만들기](https://docs.microsoft.com/onedrive/list-onedrive-urls)를 참조 하십시오. 이 문서의 스크립트는 조직의 모든 OneDrive 사이트 목록을 포함 하는 텍스트 파일을 만듭니다. 이 스크립트를 실행하려면 SharePoint Online 관리 셸을 설치하고 사용해야 합니다. 조직의 MySite 도메인에 대한 URL을 검색하려는 각 OneDrive 사이트 앞에 붙입니다. 이것은 모든 OneDrive 도메인을 포함하는 도메인입니다(예: `https://contoso-my.sharepoint.com`). 사용자의 OneDrive 사이트에 대한 URL의 예는 다음과 같습니다.  `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.
 
 > [!IMPORTANT]
-> 사용자의 OneDrive 계정에 대 한 URL에는 UPN (사용자 계정 이름)이 `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com`포함 됩니다 (예:). 드물지만 사용자의 UPN이 변경 되는 경우에는 해당 OneDrive URL도 새 UPN을 통합 하도록 변경 됩니다. 사용자의 OneDrive 계정이 eDiscovery 보류의 일부인 경우 이전 및 해당 UPN이 변경 되 면 보류를 업데이트 해야 하며 보류를 업데이트 하 고 사용자의 새 OneDrive URL을 추가 하 고 이전 항목을 제거해 야 합니다. 자세한 내용은 [UPN 변경 내용이 OneDrive URL에 미치는 영향](https://docs.microsoft.com/onedrive/upn-changes)을 참조하세요.
+> 사용자의 OneDrive 계정에 대 한 URL에는 UPN (사용자 계정 이름)이 포함 됩니다 (예: `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` ). 드물지만 사용자의 UPN이 변경 되는 경우에는 해당 OneDrive URL도 새 UPN을 통합 하도록 변경 됩니다. 사용자의 OneDrive 계정이 eDiscovery 보류의 일부인 경우 이전 및 해당 UPN이 변경 되 면 보류를 업데이트 해야 하며 보류를 업데이트 하 고 사용자의 새 OneDrive URL을 추가 하 고 이전 항목을 제거해 야 합니다. 자세한 내용은 [UPN 변경 내용이 OneDrive URL에 미치는 영향](https://docs.microsoft.com/onedrive/upn-changes)을 참조하세요.
 
 ## <a name="ediscovery-hold-limits"></a>eDiscovery 보존 제한
 
@@ -189,4 +189,4 @@ EDiscovery 사례와 연결 된 보류 또는 검색에 추가할 수 있도록 
   |||
 
    > [!NOTE]
-   > <sup>1</sup> 1000 개 보다 많은 사례, 보류 중, 검색 또는 내보내기의 목록을 보려면 해당 Office 365 Security & 준수 PowerShell cmdlet을 사용할 수 있습니다.<br/> [Remove-compliancecase](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-compliancecase) <br/> [New-caseholdpolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-caseholdpolicy)<br/> [Get-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearch)<br/> [New-compliancesearchaction](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearchaction)
+   > <sup>1</sup> 1000 개 보다 많은 사례, 보류 중, 검색 또는 내보내기의 목록을 보려면 해당 Office 365 Security & 준수 PowerShell cmdlet을 사용할 수 있습니다.<br/> [Remove-compliancecase](https://docs.microsoft.com/powershell/module/exchange/get-compliancecase) <br/> [New-caseholdpolicy](https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy)<br/> [Get-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch)<br/> [New-compliancesearchaction](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction)

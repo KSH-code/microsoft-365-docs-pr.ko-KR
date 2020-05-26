@@ -14,12 +14,12 @@ search.appverid: MET150
 ms.assetid: 39db1659-0b12-4243-a21c-2614512dcb44
 description: 사서함을 소송 보존 상태로 설정 하 여 조사 중에 모든 사서함 콘텐츠를 보존 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3ea5c07065788e342edcd0b5c70ef9dcaae48e16
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 8f4d95e1174c9070dd51f27ae9ab90c64bfeaafd
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035820"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351053"
 ---
 # <a name="create-a-litigation-hold"></a>소송 보존 만들기
 
@@ -44,7 +44,7 @@ ms.locfileid: "44035820"
 
 다음은 Exchange 관리 센터를 사용 하 여 사서함에 소송 보존을 적용 하는 단계입니다.
 
-1. 로 이동 [https://outlook.office.com/ecp](https://outlook.office.com/ecp) 하 고 전역 관리자 계정을 사용 하 여 로그인 합니다.
+1. 로 이동 하 [https://outlook.office.com/ecp](https://outlook.office.com/ecp) 고 전역 관리자 계정을 사용 하 여 로그인 합니다.
 
 2. 왼쪽 탐색 창에서 **받는 사람 > 사서함** 을 클릭 합니다.
 
@@ -78,7 +78,7 @@ Set-Mailbox <username> -LitigationHoldEnabled $true
 Set-Mailbox <username> -LitigationHoldEnabled $true -LitigationHoldDuration <number of days>
 ```
 
-자세한 내용은 [설정-사서함](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)을 참조하세요.
+자세한 내용은 [설정-사서함](https://docs.microsoft.com/powershell/module/exchange/set-mailbox)을 참조하세요.
 
 ## <a name="how-does-litigation-hold-work"></a>소송 보존의 작동 방식
 

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
 description: 이 문서에는 Microsoft 365의 데이터 조사 (미리 보기) 도구에 대 한 변경 내용 및 새로운 기능이 포함 된 릴리스 정보가 나와 있습니다.
-ms.openlocfilehash: 5bb18ccb3354082634780720938fb18164da0ccb
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 9567e9d83c6fc952e61271e665b96fad8fc6b69a
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035730"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352285"
 ---
 # <a name="release-notes-for-data-investigations-preview-in-microsoft-365"></a>Microsoft 365의 데이터 조사 (미리 보기)에 대 한 릴리스 정보
 
@@ -50,4 +50,4 @@ Microsoft 365의 새 데이터 조사 (미리 보기) 도구를 사용 하 여 �
 
 - **작업** -장기 실행 프로세스의 상태를 추적 합니다.
 
-- **사서함 항목 영구 삭제** -긴급 상황에서 잘못 된 항목을 영구적으로 삭제 해야 할 수 있습니다. 이렇게 하려면 Security & 준수 센터 PowerShell에서 **PurgeType 하드 삭제** 명령을 실행 하 여 사서함에서 항목을 영구적으로 제거 하면 됩니다. 자세한 내용은 [New-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/new-compliancesearchaction)을 참조하세요.
+- **사서함 항목 영구 삭제** -긴급 상황에서 잘못 된 항목을 영구적으로 삭제 해야 할 수 있습니다. 이렇게 하려면 Security & 준수 센터 PowerShell에서 **PurgeType 하드 삭제** 명령을 실행 하 여 사서함에서 항목을 영구적으로 제거 하면 됩니다. 자세한 내용은 [New-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearchaction)을 참조하세요.

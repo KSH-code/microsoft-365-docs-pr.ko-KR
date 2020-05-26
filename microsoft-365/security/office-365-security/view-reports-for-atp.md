@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 보안 및 준수 센터에서 Office 365 Advanced Threat Protection에 대 한 보고서를 찾아서 사용 &amp; 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: af5844cf05d14e34059a26291d2034187439ec56
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 857b98c02895f187d8639d991b74ed1fe12622ae
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208492"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351876"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection에 대 한 보고서 보기
 
@@ -136,9 +136,9 @@ ATP 보고서에는 다음이 포함 됩니다.
 |**보고서**|**세부 정보**|
 |**탐색기** 또는 **실시간**검색: (Office 365 ATP 계획 2 고객에 게 탐색기가 있습니다. Office 365 ATP 계획 1 고객은 실시간 검색을 합니다.|[위협 탐색기 (실시간 검출)](threat-explorer.md)|
 |상위 보낸 사람 및 받는 사람 보고서, 스푸핑 메일 보고서, 스팸 감지 보고서 등의 **전자 메일 보안 보고서**|[보안 및 준수 센터의 전자 메일 보안 보고서 보기 &amp;](view-email-security-reports.md)|
-|**ATP 안전한 링크 URL 추적**: (PowerShell을 사용 하 여 생성 하는 보고서) 이 보고서는 지난 7 일 동안 ATP 안전한 링크 작업의 결과를 보여 줍니다.|[Get-UrlTrace cmdlet 참조](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-urltrace)|
-|**EOP 및 ATP 결과**: (PowerShell을 사용 하 여 생성 하는 사용자 지정 보고서) 이 보고서에는 도메인, 날짜, 이벤트 유형, 방향, 동작 및 메시지 수와 같은 정보가 포함 됩니다.|[MailTrafficATPReport cmdlet 참조](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-mailtrafficatpreport)|
-|**EOP 및 ATP**검색: (PowerShell을 사용 하 여 생성 하는 사용자 지정 보고서) 이 보고서에는 악성 파일 또는 Url, 피싱 시도, 가장 및 기타 잠재적 위협 (전자 메일 또는 파일)에 대 한 자세한 정보가 포함 되어 있습니다.|[MailDetailATPReport cmdlet 참조](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-maildetailatpreport)|
+|**ATP 안전한 링크 URL 추적**: (PowerShell을 사용 하 여 생성 하는 보고서) 이 보고서는 지난 7 일 동안 ATP 안전한 링크 작업의 결과를 보여 줍니다.|[Get-UrlTrace cmdlet 참조](https://docs.microsoft.com/powershell/module/exchange/get-urltrace)|
+|**EOP 및 ATP 결과**: (PowerShell을 사용 하 여 생성 하는 사용자 지정 보고서) 이 보고서에는 도메인, 날짜, 이벤트 유형, 방향, 동작 및 메시지 수와 같은 정보가 포함 됩니다.|[MailTrafficATPReport cmdlet 참조](https://docs.microsoft.com/powershell/module/exchange/get-mailtrafficatpreport)|
+|**EOP 및 ATP**검색: (PowerShell을 사용 하 여 생성 하는 사용자 지정 보고서) 이 보고서에는 악성 파일 또는 Url, 피싱 시도, 가장 및 기타 잠재적 위협 (전자 메일 또는 파일)에 대 한 자세한 정보가 포함 되어 있습니다.|[MailDetailATPReport cmdlet 참조](https://docs.microsoft.com/powershell/module/exchange/get-maildetailatpreport)|
 |
 
 ## <a name="what-permissions-are-needed-to-view-the-atp-reports"></a>ATP 보고서를 표시 하는 데 필요한 사용 권한은 무엇입니까?

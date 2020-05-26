@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Exchange 하이브리드 배포에서 보안 및 준수 센터의 콘텐츠 검색 도구를 사용하여 온-프레미스 사용자의 MicrosoftTeams 채팅 데이터(1xN 채팅이라고 함)를 검색하고 내보냅니다.
-ms.openlocfilehash: 488a08067a39ff4bab61696d5faf8b7c849b4ab8
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: ab523c0d2d334d3d2366711e241b3bafa2e0002f
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214602"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352121"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users"></a>온-프레미스 사용자의 클라우드 기반 사서함 검색
 
@@ -129,11 +129,11 @@ Microsoft 지원 요청을 제출할 때 다음 정보를 포함해야 합니다
   
 이러한 cmdlet 사용에 대한 자세한 내용은 다음을 참조하세요.
   
-- [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/new-compliancesearch)
+- [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearch)
 
-- [Set-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/set-compliancesearch)
+- [Set-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/set-compliancesearch)
 
-- [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/start-compliancesearch)
+- [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/start-compliancesearch)
 
 ## <a name="known-issues"></a>알려진 문제
 

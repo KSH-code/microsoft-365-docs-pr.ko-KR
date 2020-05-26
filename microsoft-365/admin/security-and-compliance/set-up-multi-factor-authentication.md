@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: 조직에 대해 multi-factor authentication을 설정 하는 방법을 알아봅니다.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 893a4ae535dfb781a4f77ee57c0ead40fda8454f
-ms.sourcegitcommit: 185d62f41f6b173894ba6e3e87b11b2b5d02db58
+ms.openlocfilehash: ca1a8bd47e2fa5bbd7b7aed396debefaad10ea5e
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44340777"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351718"
 ---
 # <a name="set-up-multi-factor-authentication"></a>다단계 인증 설정
   
@@ -104,7 +104,7 @@ Azure portal의 azure Active Directory (Azure AD)에 대 한 **속성** 창에�
 
 ### <a name="conditional-access-policies"></a>조건부 액세스 정책
 
-로그인을 위해 MFA를 필요로 하는 사용자 그룹을 포함 하는 적절 한 정책을 만들거나 구성 하거나 사용 하도록 설정 합니다.
+로그인을 위해 MFA를 필요로 하는 사용자 그룹을 포함 하는 적절 한 정책을 만들고 구성 하 고 사용 하도록 설정 합니다.
 
 ### <a name="per-user-mfa-not-recommended"></a>사용자별 MFA (권장 하지 않음)
 

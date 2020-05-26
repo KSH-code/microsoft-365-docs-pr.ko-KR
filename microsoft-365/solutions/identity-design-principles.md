@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: c830e7f7b0366623520d7ba4e5a47a51e73f09ad
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 8b991fb6cf8f03f2ff686c89251f53f53f87a5e1
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160381"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352549"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Id 및 그 외의 설계자 관점
 
@@ -183,7 +183,7 @@ Outlook 클라이언트를 살펴보면 Exchange 뿐만 아니라이 환경의 �
 - 고객 환경에 대 한 시뮬레이션으로, 고객이 프로덕션 환경을 변경 하지는 않습니다. 
 - 고객을 위한 소프트웨어 개발
 
-이러한 다중 테 넌 트 시나리오에서 고객은 테 넌 트 간에 일부 구성을 유지 하거나 구성 변경 및 drifts을 보고 하려는 경우가 많습니다. 이는 일반적으로 구성에 대 한 변경 내용을 코드로 옮기는 것을 의미 합니다. Microsoft Premiere support는 다음 공용 IP를 기반으로 하는 이러한 유형의 요구 사항에 [https://Microsoft365dsc.com](https://Microsoft365dsc.com)대 한 워크숍을 제공 합니다.
+이러한 다중 테 넌 트 시나리오에서 고객은 테 넌 트 간에 일부 구성을 유지 하거나 구성 변경 및 drifts을 보고 하려는 경우가 많습니다. 이는 일반적으로 구성에 대 한 변경 내용을 코드로 옮기는 것을 의미 합니다. Microsoft Premiere support는 다음 공용 IP를 기반으로 하는 이러한 유형의 요구 사항에 대 한 워크숍을 제공 [https://Microsoft365dsc.com](https://Microsoft365dsc.com) 합니다.
 
 
 ### <a name="multi-geo"></a>Multi-Geo 
@@ -209,7 +209,7 @@ Outlook 클라이언트를 살펴보면 Exchange 뿐만 아니라이 환경의 �
 
 간격이 줄어들어 전체 관리자 역할을 사용 해야 하는 경우도 있지만 모든 항목을 위임할 수는 없습니다. 이 역할의 사용자 멤버 자격 대신 구성-코드 및 자동화를 고려해 야 합니다.
 
-**참고**: Microsoft 365 관리 센터는 사용자에 게 친숙 한 인터페이스를 제공 하지만 Azure AD 관리 환경에 비해 기능 하위 집합이 있습니다. 두 포털 모두 동일한 Azure AD 역할을 사용 하므로 변경 내용이 같은 위치에서 발생 합니다. 팁: 모든 Azure를 사용 하지 않고 id 관리 중심 관리 UI를 사용할 [https://aad.portal.azure.com](https://aad.portal.azure.com)수 있습니다. 
+**참고**: Microsoft 365 관리 센터는 사용자에 게 친숙 한 인터페이스를 제공 하지만 Azure AD 관리 환경에 비해 기능 하위 집합이 있습니다. 두 포털 모두 동일한 Azure AD 역할을 사용 하므로 변경 내용이 같은 위치에서 발생 합니다. 팁: 모든 Azure를 사용 하지 않고 id 관리 중심 관리 UI를 사용할 수 있습니다 [https://aad.portal.azure.com](https://aad.portal.azure.com) . 
 
 이름에는 무엇이 있나요? 역할의 이름으로 가정을 만들지 마십시오. 언어가 정확한 도구는 아닙니다. 필요한 역할을 살펴보기 전에 위임 해야 하는 작업을 정의 하는 것이 목표입니다. "보안 독자" 역할에 사용자를 추가 하는 것은 모든 항목에 걸쳐 보안 설정이 표시 되지 않습니다. 
 
@@ -243,29 +243,29 @@ Protection.office.com (보안 & 준수 센터)를 통해 현재 관리 되는 �
 
 - **Exchange Online** - [https://docs.microsoft.com/exchange/permissions-exo/permissions-exo](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) 
 - **SharePoint Online** - [https://docs.microsoft.com/sharepoint/manage-site-collection-administrators](https://docs.microsoft.com/sharepoint/manage-site-collection-administrators) 
-- **Microsoft**  -  [ 팀https://docs.microsoft.com/microsoftteams/itadmin-readiness](https://docs.microsoft.com/microsoftteams/itadmin-readiness )
+- **Microsoft 팀**  -  [https://docs.microsoft.com/microsoftteams/itadmin-readiness ](https://docs.microsoft.com/microsoftteams/itadmin-readiness )
 - **eDiscovery** - [https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions](https://docs.microsoft.com/microsoft-365/compliance/) 
-  + **사용 권한 필터링**  -  [ https://docs.microsoft.com/microsoft-365/compliance/permissions-filtering-for-content-search](https://docs.microsoft.com/microsoft-365/compliance/)
-  + **준수**  -  [ 경계https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries )
-  + **고급**  -  [ eDiscoveryhttps://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 )
+  + **사용 권한 필터링**  -  [https://docs.microsoft.com/microsoft-365/compliance/permissions-filtering-for-content-search ](https://docs.microsoft.com/microsoft-365/compliance/)
+  + **준수 경계**  -  [https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries ](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries )
+  + **고급 eDiscovery**  -  [https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 ](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 )
 - **Yammer** - [https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-admins](https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-admins) 
 - **다중 지역** - [https://docs.microsoft.com/office365/enterprise/add-a-sharepoint-geo-admin](https://docs.microsoft.com/office365/enterprise/add-a-sharepoint-geo-admin) 
 - **Dynamics 365** –[https://docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/) <br>
   참고:이 링크는 설명서의 루트에 대 한 것입니다. 관리/위임 모델에는 다양 한 유형의 서비스가 있습니다.
-- **전원**  -  [ 플랫폼https://docs.microsoft.com/power-platform/admin/admin-documentation](https://docs.microsoft.com/power-platform/admin/admin-documentation )
-  + **파워**  -  [ 앱https://docs.microsoft.com/power-platform/admin/wp-security](https://docs.microsoft.com/power-platform/admin/wp-security ) <br>
+- **전원 플랫폼**  -  [https://docs.microsoft.com/power-platform/admin/admin-documentation ](https://docs.microsoft.com/power-platform/admin/admin-documentation )
+  + **파워 앱**  -  [https://docs.microsoft.com/power-platform/admin/wp-security ](https://docs.microsoft.com/power-platform/admin/wp-security ) <br>
     참고: 관리/위임 모델에는 다양 한 유형의 변형이 있습니다.
-  + **전원**  -  [ 자동화https://docs.microsoft.com/power-automate/environments-overview-admin](https://docs.microsoft.com/power-automate/environments-overview-admin )
-  + **PowerBI** -  [ PowerBIhttps://docs.microsoft.com/power-bi/service-admin-governance](https://docs.microsoft.com/power-bi/service-admin-governance ) <br>
+  + **전원 자동화**  -  [https://docs.microsoft.com/power-automate/environments-overview-admin ](https://docs.microsoft.com/power-automate/environments-overview-admin )
+  + **PowerBI**  -  [https://docs.microsoft.com/power-bi/service-admin-governance ](https://docs.microsoft.com/power-bi/service-admin-governance ) <br>
 참고: 데이터 플랫폼 보안 및 위임 (Power BI가 구성 요소)은 복잡 한 영역입니다.
-- **MEM/Intune**  -  [ https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control )
-- **Microsoft Defender ATP**  -  [ https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles )
+- **MEM/Intune**  -  [https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control ](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control )
+- **Microsoft DEFENDER ATP**  -  [https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles ](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles )
 - **Microsoft Threat Protection** - [https://docs.microsoft.com/microsoft-365/security/mtp/mtp-permissions](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-permissions)
 - **Microsoft Cloud App Security** - [https://docs.microsoft.com/cloud-app-security/manage-admins](https://docs.microsoft.com/cloud-app-security/manage-admins)
-- **Stream** -  [ Streamhttps://docs.microsoft.com/stream/assign-administrator-user-role](https://docs.microsoft.com/stream/assign-administrator-user-role )
-- **정보**  -  [ 장벽https://docs.microsoft.com/microsoft-365/compliance/information-barriers](https://docs.microsoft.com/microsoft-365/compliance/information-barriers )
+- **Stream**  -  [https://docs.microsoft.com/stream/assign-administrator-user-role ](https://docs.microsoft.com/stream/assign-administrator-user-role )
+- **정보 장벽**  -  [https://docs.microsoft.com/microsoft-365/compliance/information-barriers ](https://docs.microsoft.com/microsoft-365/compliance/information-barriers )
 
-나머지에서는 문서 검색이 매우 유용 [https://docs.microsoft.com/](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)합니다. 
+나머지에서는 문서 검색이 매우 유용 [https://docs.microsoft.com/](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) 합니다. 
 
 
 ### <a name="activity-logs"></a>활동 로그
@@ -273,7 +273,7 @@ Office 365에는 [통합 감사 로그가](https://docs.microsoft.com/microsoft-
 
 다른 API를 통해 액세스 하는 Microsoft 365 로그의 예는 다음과 같습니다.
 - [AZURE AD](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings) (Office 365와 관련 되지 않은 활동)
-- [Exchange 메시지 추적](https://docs.microsoft.com/powershell/module/exchange/mail-flow/get-messagetrace?view=exchange-ps)
+- [Exchange 메시지 추적](https://docs.microsoft.com/powershell/module/exchange/get-messagetrace?view=exchange-ps)
 - 위에 설명 된 위협/UEBA 시스템 (예: Azure AD Identity Protection, Microsoft Cloud App Security, Microsoft Defender ATP 등)
 - [Microsoft information protection](https://docs.microsoft.com/microsoft-365/compliance/data-classification-activity-explorer?view=o365-worldwide)
 - [Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)

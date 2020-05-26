@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Office 365 Compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9cbde149419320495e3848867846322733cb56f9
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 54ff4012767b156bc72289473e289fa4d93d1a2c
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033658"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352161"
 ---
 # <a name="configure-supervision-policies-in-office-365"></a>Office 365에서 감독 정책 구성
 
@@ -83,7 +83,7 @@ ms.locfileid: "44033658"
 
 대규모 엔터프라이즈 조직에서 감독 사용자를 관리 하려면 대규모 그룹의 모든 사용자를 모니터링 해야 할 수 있습니다. PowerShell을 사용 하 여 할당 된 그룹에 대 한 전역 감독 정책에 대 한 메일 그룹을 구성할 수 있습니다. 이를 통해 단일 정책을 사용 하는 수천 명의 사용자를 모니터링 하 고 조직에 새 직원이 참가할 때 감독 정책을 업데이트할 수 있습니다.
 
-1. 다음 속성을 사용 하 여 전역 감독 정책에 대 한 전용 [메일 그룹](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/new-distributiongroup?view=exchange-ps) 을 만듭니다 .이 메일 그룹이 다른 목적이 나 기타 Office 365 서비스에 사용 되지 않는지 확인 합니다.
+1. 다음 속성을 사용 하 여 전역 감독 정책에 대 한 전용 [메일 그룹](https://docs.microsoft.com/powershell/module/exchange/new-distributiongroup?view=exchange-ps) 을 만듭니다 .이 메일 그룹이 다른 목적이 나 기타 Office 365 서비스에 사용 되지 않는지 확인 합니다.
 
     - **MemberDepartRestriction = 닫힘** 사용자가 메일 그룹에서 자신을 제거할 수 없도록 합니다.
     - **Memberjoinrestriction = 닫힘** 사용자가 메일 그룹에 자신을 추가할 수 없도록 합니다.
@@ -124,7 +124,7 @@ ms.locfileid: "44033658"
   
 ### <a name="add-members-to-the-supervisory-review-role-group"></a>관리 검토 역할 그룹에 구성원 추가
 
-1. 조직의 관리자 [https://protection.office.com](https://protection.office.com) 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
+1. [https://protection.office.com](https://protection.office.com)조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
 
 2. 보안 & 준수 센터에서 **사용 권한**으로 이동 합니다.
 
@@ -134,11 +134,11 @@ ms.locfileid: "44033658"
 
 ### <a name="create-a-new-role-group"></a>새 역할 그룹 만들기
 
-1. 조직의 관리자 [https://protection.office.com/permissions](https://protection.office.com/permissions) 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
+1. [https://protection.office.com/permissions](https://protection.office.com/permissions)조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
 
-2. 보안 & 준수 센터에서 **사용 권한** 으로 이동한 다음 추가 (**+**)를 클릭 합니다.
+2. 보안 & 준수 센터에서 **사용 권한** 으로 이동한 다음 추가 ()를 클릭 **+** 합니다.
 
-3. **역할** 섹션에서 추가 (**+**)를 클릭 하 고 아래로 스크롤하여 **관리 검토 관리자**를 선택 합니다. 이 역할을 역할 그룹에 추가 합니다.
+3. **역할** 섹션에서 추가 ()를 클릭 하 **+** 고 아래로 스크롤하여 **관리 검토 관리자**를 선택 합니다. 이 역할을 역할 그룹에 추가 합니다.
 
 4. **구성원** 섹션에서 조직에 대 한 통신 감독을 관리 하려는 사용자를 추가 합니다.
 
@@ -158,7 +158,7 @@ ms.locfileid: "44033658"
 
 ### <a name="create-custom-sensitive-information-types"></a>사용자 지정 중요 한 정보 유형 만들기
 
-1. 보안 & 준수 센터에서 새 중요 한 정보 유형을 만들고 사용자 지정 사전을 추가 합니다. **중요 한 정보** 유형 **분류** \> 로 이동 하 여 **새 중요 한 정보 유형 마법사**의 단계를 따릅니다. 여기에서 다음을 수행 합니다.
+1. 보안 & 준수 센터에서 새 중요 한 정보 유형을 만들고 사용자 지정 사전을 추가 합니다. 중요 한 정보 유형 **분류** 로 이동 하 여 \> **Sensitive info types** **새 중요 한 정보 유형 마법사**의 단계를 따릅니다. 여기에서 다음을 수행 합니다.
 
     - 중요 한 정보 유형에 대 한 이름 및 설명 정의
     - 근접성, 신뢰 수준 및 주 패턴 요소 정의
@@ -167,11 +167,11 @@ ms.locfileid: "44033658"
 
     자세한 내용은 [사용자 지정 중요 한 정보 유형 만들기](create-a-custom-sensitive-information-type.md) 및 [키워드 사전 만들기](create-a-keyword-dictionary.md) 를 참조 하세요.
 
-    사용자 지정 사전/어휘를 만든 후에는 [DlpKeywordDictionary](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpkeyworddictionary) cmdlet을 사용 하 여 구성 된 키워드를 보거나 [DlpKeywordDictionary](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/set-dlpkeyworddictionary) cmdlet에서 용어를 추가 및 제거할 수 있습니다.
+    사용자 지정 사전/어휘를 만든 후에는 [DlpKeywordDictionary](https://docs.microsoft.com/powershell/module/exchange/get-dlpkeyworddictionary) cmdlet을 사용 하 여 구성 된 키워드를 보거나 [DlpKeywordDictionary](https://docs.microsoft.com/powershell/module/exchange/set-dlpkeyworddictionary) cmdlet에서 용어를 추가 및 제거할 수 있습니다.
 
 ## <a name="step-4-set-up-a-supervision-policy-required"></a>4 단계: 감독 정책 설정 (필수)
   
-1. 조직의 관리자 [https://protection.office.com](https://protection.office.com) 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
+1. [https://protection.office.com](https://protection.office.com)조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
 
 2. 보안 & 준수 센터에서 **감독**을 선택 합니다.
   
@@ -196,5 +196,5 @@ ms.locfileid: "44033658"
     >[!NOTE]
     >정의 된 정책이 적용 되는 전자 메일은 거의 실시간으로 처리 되며 정책이 구성 된 직후에 테스트할 수 있습니다. Microsoft 팀의 채팅에는 정책에서 전체 프로세스를 수행 하는 데 최대 24 시간이 걸릴 수 있습니다. 
 
-3. 통신 감독 정책에 지정 된 검토자에 게 Microsoft 365에 로그인 합니다. *사용자 지정 정책이* > **열려** 있는 **감독** > 을 탐색 하 여 정책에 대 한 보고서를 확인 합니다.
+3. 통신 감독 정책에 지정 된 검토자에 게 Microsoft 365에 로그인 합니다. **Supervision**  >  *사용자 지정 정책이*열려 있는 감독을 탐색 하 여  >  **Open** 정책에 대 한 보고서를 확인 합니다.
 

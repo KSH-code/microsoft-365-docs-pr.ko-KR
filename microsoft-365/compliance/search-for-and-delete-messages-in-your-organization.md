@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: 보안 및 준수 센터의 검색 및 삭제하기 기능을 사용하여 조직의 모든 사서함에서 전자 메일 메시지를 검색하고 삭제할 수 있습니다.
-ms.openlocfilehash: cec7229da0d6bef9af94dfc017794ece21aa0ac8
-ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
+ms.openlocfilehash: 3be3b64d7745fe97aae6b2003e0adbcd6aa7d82e
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44292444"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352101"
 ---
 # <a name="search-for-and-delete-email-messages"></a>전자 메일 메시지 검색 및 삭제
 
@@ -61,9 +61,9 @@ ms.locfileid: "44292444"
     
 - [콘텐츠 검색에 대한 키워드 쿼리](keyword-queries-and-search-conditions.md)
     
-- [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/New-ComplianceSearch)
+- [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/New-ComplianceSearch)
     
-- [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/Start-ComplianceSearch)
+- [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/Start-ComplianceSearch)
     
 > [!NOTE]
 > 이 단계에서 만드는 콘텐츠 검색에서 검색되는 콘텐츠 위치에는 SharePoint 또는 비즈니스용 OneDrive 사이트가 포함될 수 없습니다. 전자 메일 메시지에 사용되는 콘텐츠 검색에는 사서함 및 공용 폴더만 포함될 수 있습니다. 콘텐츠 검색에 사이트가 포함되는 경우 **New-ComplianceSearchAction** cmdlet을 실행할 때 3단계에서 오류가 발생합니다. 
@@ -129,7 +129,7 @@ New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeTy
 
 이전 명령을 실행하여 메시지를 일시 삭제하거나 영구 삭제하는 경우 *SearchName* 매개 변수에 지정된 검색은 1단계에서 만든 콘텐츠 검색입니다. 
   
-자세한 내용은 [New-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/New-ComplianceSearchAction)을 참조하세요.
+자세한 내용은 [New-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/New-ComplianceSearchAction)을 참조하세요.
 
 ## <a name="more-information"></a>추가 정보
 

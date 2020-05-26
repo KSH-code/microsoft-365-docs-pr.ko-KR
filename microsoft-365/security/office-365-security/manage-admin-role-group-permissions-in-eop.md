@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 125834f4-1024-4325-ad5a-d2573cfb005e
 description: 관리자는 Exchange Online Protection의 EAC (Exchange 관리 센터)에서 사용 권한을 할당 하거나 제거 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 3d7b709304f901c4adc41c67b0d6fe9c6ff382bf
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: ba2d053e1e75bd8867ebb9eb7f426cde92abd3e8
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209684"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352338"
 ---
 # <a name="manage-role-groups-in-standalone-eop"></a>독립 실행형 EOP에서 역할 그룹 관리
 
@@ -25,7 +25,7 @@ Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protec
 
 역할 및 역할 그룹에 대 한 자세한 내용은 [Permissions in 독립 실행형 EOP](feature-permissions-in-eop.md)을 참조 하십시오.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - EAC (Exchange 관리 센터)를 열려면 [독립 실행형 EOP에서 exchange 관리 센터](exchange-admin-center-in-exchange-online-protection-eop.md)를 참조 하세요.
 
@@ -135,7 +135,7 @@ Get-RoleGroup -Identity "Recipient Administrators" | Format-List
 Get-RoleGroup -Filter "Members -eq 'CN=Julia,OU=contoso.onmicrosoft.com,OU=Microsoft Exchange Hosted Organizations,DC=NAMPR001,DC=PROD,DC=OUTLOOK,DC=COM'"
 ```
 
-구문과 매개 변수에 대 한 자세한 내용은 ' [Get-RoleGroup](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Get-RoleGroup)'을 참조 하십시오.
+구문과 매개 변수에 대 한 자세한 내용은 ' [Get-RoleGroup](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroup)'을 참조 하십시오.
 
 ### <a name="use-standalone-eop-powershell-to-create-role-groups"></a>독립 실행형 EOP PowerShell을 사용 하 여 역할 그룹 만들기
 
@@ -184,7 +184,7 @@ Get-RoleGroup -Filter "Members -eq 'CN=Julia,OU=contoso.onmicrosoft.com,OU=Micro
      New-RoleGroup "Limited Organization Management" -Roles $RoleGroup.Roles -Members "Isabelle","Carter","Lukas"
      ```
 
-구문 및 매개 변수에 대 한 자세한 내용은 [새-RoleGroup를 사용](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/New-RoleGroup)하십시오.
+구문 및 매개 변수에 대 한 자세한 내용은 [새-RoleGroup를 사용](https://docs.microsoft.com/powershell/module/exchange/New-RoleGroup)하십시오.
 
 ### <a name="use-standalone-eop-powershell-modify-the-list-of-members-in-role-groups"></a>독립 실행형 EOP PowerShell 사용 역할 그룹의 구성원 목록을 수정 합니다.
 
@@ -214,7 +214,7 @@ Update-RoleGroupMember -Identity "Help Desk" -Members "Gabriela Laureano","Hyun-
 Update-RoleGroupMember -Identity "Help Desk" -Members @{Add="Daigoro Akai"; Remove="Valeria Barrios"}
 ```
 
-구문 및 매개 변수에 대 한 자세한 내용은 [업데이트-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Update-RoleGroupMember)를 참조 하십시오.
+구문 및 매개 변수에 대 한 자세한 내용은 [업데이트-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Update-RoleGroupMember)를 참조 하십시오.
 
 ### <a name="use-standalone-eop-powershell-to-remove-role-groups"></a>독립 실행형 EOP PowerShell을 사용 하 여 역할 그룹 제거
 
@@ -232,7 +232,7 @@ Remove-RoleGroup -Identity "<Role Group Name>" [-BypassSecurityGroupManagerCheck
 Remove-RoleGroup -Identity "Training Administrators"
 ```
 
-구문과 매개 변수에 대한 자세한 내용은 [Remove-RoleGroup](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Remove-RoleGroup)를 참조하십시오.
+구문과 매개 변수에 대한 자세한 내용은 [Remove-RoleGroup](https://docs.microsoft.com/powershell/module/exchange/Remove-RoleGroup)를 참조하십시오.
 
 ### <a name="how-do-you-know-these-procedures-worked"></a>이 절차가 제대로 수행되었는지 어떻게 확인하나요?
 

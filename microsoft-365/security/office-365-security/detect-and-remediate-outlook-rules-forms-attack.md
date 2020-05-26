@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격을 인지하고 재구성하는 방법 알아보기
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e18635b9b9d090dbc2808b5b8142b59ec1f29c6e
-ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
+ms.openlocfilehash: b892a72c2016222d34df8c58fcda20d2d2b9ba74
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44224592"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351978"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성
 
@@ -175,17 +175,17 @@ ms.locfileid: "44224592"
 
 1. 원격 PowerShell을 사용하여 Exchange 서버에 연결합니다. [원격 PowerShell을 사용하여 Exchange 서버에 연결](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)에 있는 단계를 따릅니다.
 
-2. 사서함의 단일 규칙, 여러 규칙 또는 모든 규칙을 완전히 제거하려면 [InboxRule 제거](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Remove-InboxRule) cmdlet을 사용합니다.
+2. 사서함의 단일 규칙, 여러 규칙 또는 모든 규칙을 완전히 제거하려면 [InboxRule 제거](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule) cmdlet을 사용합니다.
 
-3. 추가 조사를 위해 규칙과 해당 콘텐츠를 보존하려면 [InboxRule 비활성화](https:https://docs.microsoft.com/powershell/module/exchange/mailboxes/disable-inboxrule/library/dd298120(v=exchg.160).aspx) cmdlet을 사용합니다.
+3. 추가 조사를 위해 규칙과 해당 콘텐츠를 보존하려면 [InboxRule 비활성화](https:https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule/library/dd298120(v=exchg.160).aspx) cmdlet을 사용합니다.
 
 #### <a name="steps-for-mailboxes-in-exchange-online"></a>Exchange Online의 사서함에 대한 단계
 
 1. [PowerShell을 사용하여 Exchange Online에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)에 있는 단계를 따릅니다.
 
-2. 사서함의 단일 규칙, 여러 규칙 또는 모든 규칙을 완전히 제거하려면 [받은 편지함 제거 규칙](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Remove-InboxRule) cmdlet을 사용합니다.
+2. 사서함의 단일 규칙, 여러 규칙 또는 모든 규칙을 완전히 제거하려면 [받은 편지함 제거 규칙](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule) cmdlet을 사용합니다.
 
-3. 추가 조사를 위해 규칙과 해당 콘텐츠를 보존하려면 [InboxRule 비활성화](https:https://docs.microsoft.com/powershell/module/exchange/mailboxes/disable-inboxrule/library/dd298120(v=exchg.160).aspx) cmdlet을 사용합니다.
+3. 추가 조사를 위해 규칙과 해당 콘텐츠를 보존하려면 [InboxRule 비활성화](https:https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule/library/dd298120(v=exchg.160).aspx) cmdlet을 사용합니다.
 
 ## <a name="how-to-minimize-future-attacks"></a>미래의 공격을 최소화하는 방법
 

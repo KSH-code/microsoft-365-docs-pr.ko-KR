@@ -18,12 +18,12 @@ ms.collection:
 - Strat_O365_Enterprise
 description: Office 365 메시지 암호화를 사용 하 여 조직에 대 한 중요 한 정보 유형 정책을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7ba94923c1f8c6ade6b7bf494636c562b4cc4102
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: da459ab5e92592f86bc32d7dd9d648de24b9a3ed
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165959"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352071"
 ---
 # <a name="create-a-sensitive-information-type-policy-for-your-organization-using-message-encryption"></a>메시지 암호화를 사용 하 여 조직에 대 한 중요 한 정보 유형 정책 만들기
 
@@ -31,7 +31,7 @@ Exchange 메일 흐름 규칙 또는 DLP (데이터 손실 방지)를 사용 하
 
 ## <a name="to-create-the-policy-by-using-mail-flow-rules-in-the-eac"></a>EAC에서 메일 흐름 규칙을 사용 하 여 정책을 만들려면
 
-EAC (Exchange 관리 센터)에 로그인 하 고 **메일 흐름** > **규칙**으로 이동 합니다. 규칙 페이지에서 Office 365 메시지 암호화를 적용 하는 규칙을 만듭니다. 메시지 또는 첨부 파일에 특정 키워드나 중요 한 정보 유형이 있는 경우와 같은 조건을 기준으로 규칙을 만들 수 있습니다.
+EAC (Exchange 관리 센터)에 로그인 하 고 **메일 흐름**  >  **규칙**으로 이동 합니다. 규칙 페이지에서 Office 365 메시지 암호화를 적용 하는 규칙을 만듭니다. 메시지 또는 첨부 파일에 특정 키워드나 중요 한 정보 유형이 있는 경우와 같은 조건을 기준으로 규칙을 만들 수 있습니다.
 
 ### <a name="to-create-the-policy-by-using-mail-flow-rules-in-powershell"></a>PowerShell에서 메일 흐름 규칙을 사용 하 여 정책을 만들려면
 
@@ -54,7 +54,7 @@ Set-IRMConfiguration -DecryptAttachmentForEncryptOnly $true
 New-TransportRule -Name "Encrypt outbound sensitive emails (out of box rule)" -SentToScope  NotInOrganization  -ApplyRightsProtectionTemplate "Encrypt" -MessageContainsDataClassifications @(@{Name="ABA Routing Number"; minCount="1"},@{Name="Credit Card Number"; minCount="1"},@{Name="Drug Enforcement Agency (DEA) Number"; minCount="1"},@{Name="U.S. / U.K. Passport Number"; minCount="1"},@{Name="U.S. Bank Account Number"; minCount="1"},@{Name="U.S. Individual Taxpayer Identification Number (ITIN)"; minCount="1"},@{Name="U.S. Social Security Number (SSN)"; minCount="1"}) -SenderNotificationType "NotifyOnly"
 ```
 
-자세한 내용은 [설정-IRMConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/set-irmconfiguration?view=exchange-ps) 및 [new-transportrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/New-TransportRule?view=exchange-ps)를 참조 하세요.
+자세한 내용은 [설정-IRMConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-irmconfiguration?view=exchange-ps) 및 [new-transportrule](https://docs.microsoft.com/powershell/module/exchange/New-TransportRule?view=exchange-ps)를 참조 하세요.
 
 ## <a name="how-recipients-access-attachments"></a>받는 사람이 첨부 파일에 액세스 하는 방법
 
@@ -77,4 +77,4 @@ Microsoft 365에서이 활동을 감사 하 고 관리자가 사용할 수 있�
 
 ## <a name="to-disable-or-customize-the-sensitive-information-types-policy"></a>중요 한 정보 유형 정책을 사용 하지 않도록 설정 하거나 사용자 지정 하려면
 
-Exchange 메일 흐름 규칙을 만든 후에는 EAC (exchange 관리 센터)의 **메일 흐름** > **규칙** 으로 이동 하 여 [규칙을 사용 하지 않도록 설정 하거나 편집](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#enable-or-disable-a-mail-flow-rule) 하 고 "*아웃 바운드 중요 한 전자 메일 암호화 (box 규칙을 초과*합니다." 규칙을 사용 하지 않도록 설정할 수 있습니다.
+Exchange 메일 흐름 규칙을 만든 후에는 EAC (exchange 관리 센터)의 **메일 흐름**규칙으로 이동 하 여 [규칙을 사용 하지 않도록 설정 하거나 편집](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#enable-or-disable-a-mail-flow-rule) 하  >  **Rules** 고 "*아웃 바운드 중요 한 전자 메일 암호화 (box 규칙을 초과*합니다." 규칙을 사용 하지 않도록 설정할 수 있습니다.

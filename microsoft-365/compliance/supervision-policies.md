@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft 365 Compliance
-ms.openlocfilehash: 45dc5a3e9674ebdf9488d14813abf04fc81b6781
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 0729530537e1d01f2e58633bf67a968a6ae2717b
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327256"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352295"
 ---
 # <a name="supervision-policies"></a>감독 정책
 
@@ -291,11 +291,11 @@ Office 365의 감독 정보에 대 한 자세한 내용은 [Microsoft 365 로드
 
 |**활동**|**연결 된 명령**|
 |:-----|:-----|
-| **정책 만들기** | [Remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewpolicyv2) <br> [Set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewrule) |
-| **정책 편집** | [Remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewpolicyv2) <br> [Set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewrule) |
-| **정책 삭제** | [Remove-supervisoryreviewpolicyv2을 제거 합니다.](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/remove-supervisoryreviewpolicyv2) |
+| **정책 만들기** | [Remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/new-supervisoryreviewpolicyv2) <br> [Set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/new-supervisoryreviewrule) |
+| **정책 편집** | [Remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/set-supervisoryreviewpolicyv2) <br> [Set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/set-supervisoryreviewrule) |
+| **정책 삭제** | [Remove-supervisoryreviewpolicyv2을 제거 합니다.](https://docs.microsoft.com/powershell/module/exchange/remove-supervisoryreviewpolicyv2) |
 
-통합 감사 로그 또는 [Search-unifiedauditlog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) PowerShell cmdlet을 사용 하 여 감사 작업을 확인 합니다.
+통합 감사 로그 또는 [Search-unifiedauditlog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) PowerShell cmdlet을 사용 하 여 감사 작업을 확인 합니다.
 
 예를 들어 다음 예에서는 모든 관리 검토 작업 (정책 및 규칙)에 대 한 활동을 반환 하 고 각 정보에 대 한 자세한 내용을 나열 합니다.
 
@@ -309,7 +309,7 @@ Search-UnifiedAuditLog -StartDate 3/1/2019 -EndDate ([System.DateTime]::Now) -Re
 Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -Operations SupervisionPolicyCreated,SupervisionPolicyUpdated,SupervisionPolicyDeletedAuditData
 ```
 
-[SupervisoryReviewActivity](https://docs.microsoft.com/powershell/module/exchange/reporting/get-supervisoryreviewactivity?view=exchange-ps) PowerShell cmdlet을 사용 하 여 감독 보고서 및 로그에 제공 되는 정보 뿐 아니라 모든 감독 정책 작업의 전체 세부 목록을 반환할 수도 있습니다.
+[SupervisoryReviewActivity](https://docs.microsoft.com/powershell/module/exchange/get-supervisoryreviewactivity?view=exchange-ps) PowerShell cmdlet을 사용 하 여 감독 보고서 및 로그에 제공 되는 정보 뿐 아니라 모든 감독 정책 작업의 전체 세부 목록을 반환할 수도 있습니다.
 
 ## <a name="ready-to-get-started"></a>시작할 준비가 되셨습니까?
 

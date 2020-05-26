@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online Protection 하이브리드 환경에서 스팸을 사용자 정크 메일 폴더로 라우팅하는 방법을 알 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5b4d16c864b25c4d47910f0dd69f0ed3e71a0de
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 1d5d83f8cfb994499be98eccf77b36d83e1f3d7c
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209478"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351966"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성
 
@@ -44,21 +44,21 @@ ms.locfileid: "44209478"
 이 항목에서는 Exchange 관리 센터 (EAC) 및 온-프레미스 Exchange 조직의 exchange 관리 셸 (exchange PowerShell)에서 이러한 메일 흐름 규칙을 만드는 방법에 대해 설명 합니다.
 
 > [!TIP]
-> 온-프레미스 사용자의 정크 메일 폴더로 메시지를 배달 하는 대신 EOP에서 스팸 방지 정책을 구성 하 여 EOP의 스팸 메시지를 격리할 수 있습니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
+> 온-프레미스 사용자의 정크 메일 폴더로 메시지를 배달 하는 대신 EOP에서 스팸 방지 정책을 구성 하 여 EOP의 스팸 메시지를 격리할 수 있습니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - 이러한 절차를 수행 하려면 먼저 온-프레미스 Exchange 환경에서 사용 권한을 할당 받아야 합니다. 특히 **조직 관리**, **규정 준수 관리**및 **레코드 관리** 역할에 할당 되는 **전송 규칙** 역할을 기본적으로 할당 해야 합니다. 자세한 내용은 [역할 그룹에 구성원을 추가 합니다.](https://docs.microsoft.com/Exchange/permissions/role-group-members?view=exchserver-2019#add-members-to-a-role-group)를 참조하세요.
 
 - 온-프레미스 Exchange 조직의 정크 메일 폴더로 배달 되는 메시지는 다음 설정을 조합 하 여 제어 합니다.
 
-  - Exchange 관리 셸에서 [set-organizationconfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) cmdlet에 대 한 _SCLJunkThreshold_ 매개 변수 값입니다. 기본값은 4 이며이 값은 SCL 5 이상이 사용자의 정크 메일 폴더로 메시지를 배달 하는 것을 의미 합니다.
+  - Exchange 관리 셸에서 [set-organizationconfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig) cmdlet에 대 한 _SCLJunkThreshold_ 매개 변수 값입니다. 기본값은 4 이며이 값은 SCL 5 이상이 사용자의 정크 메일 폴더로 메시지를 배달 하는 것을 의미 합니다.
 
-  - Exchange 관리 셸에서 [설정 된 사서함](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox) Cmdlet의 _SCLJunkThreshold_ 매개 변수 값입니다. 기본값은 비어 있음 ($null) 이며,이 값은 조직 설정이 사용 됨을 의미 합니다.
+  - Exchange 관리 셸에서 [설정 된 사서함](https://docs.microsoft.com/powershell/module/exchange/set-mailbox) Cmdlet의 _SCLJunkThreshold_ 매개 변수 값입니다. 기본값은 비어 있음 ($null) 이며,이 값은 조직 설정이 사용 됨을 의미 합니다.
 
   자세한 내용은 [EXCHANGE SCL (스팸 지 수) 임계값](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/scl)을 참조 하십시오.
 
-  - 사서함에서 정크 메일 규칙을 사용할 수 있는지 여부 (Exchange 관리 셸에서 [set-mailboxjunkemailconfiguration](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration) Cmdlet의 _enabled_ 매개 변수 값이 $true) 배달 후 실제로 메시지를 정크 메일 폴더로 이동 하는 정크 메일 규칙입니다. 기본적으로 사서함에서는 정크 메일 규칙이 사용 되도록 설정 됩니다. 자세한 내용은 [사서함에 대 한 Exchange 스팸 방지 설정 구성을](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings)참조 하세요.
+  - 사서함에서 정크 메일 규칙을 사용할 수 있는지 여부 (Exchange 관리 셸에서 [set-mailboxjunkemailconfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration) Cmdlet의 _enabled_ 매개 변수 값이 $true) 배달 후 실제로 메시지를 정크 메일 폴더로 이동 하는 정크 메일 규칙입니다. 기본적으로 사서함에서는 정크 메일 규칙이 사용 되도록 설정 됩니다. 자세한 내용은 [사서함에 대 한 Exchange 스팸 방지 설정 구성을](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings)참조 하세요.
   
 - Exchange 서버에서 EAC를 열려면 exchange [server의 exchange 관리 센터](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center)를 참조 하세요. Exchange 관리 셸을 열려면를 참조 하세요 [https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) .
 
@@ -126,7 +126,7 @@ New-TransportRule -Name "EOP SFV:SKS to SCL 6" -HeaderContainsMessageHeader "X-F
 New-TransportRule -Name "EOP SFV:SKB to SCL 6" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "SFV:SKB" -SetSCL 6
 ```
 
-자세한 구문 및 매개변수 정보 [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule)을 참조하세요.
+자세한 구문 및 매개변수 정보 [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/new-transportrule)을 참조하세요.
 
 ## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
