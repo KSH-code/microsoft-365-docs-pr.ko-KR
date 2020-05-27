@@ -18,18 +18,18 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 연결 필터링을 구성 하 여 전자 메일 서버에서 받은 메일을 허용 하거나 차단 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 14221298ed8e85bd776e7a58a1d2e427c3d19438
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 6fb1fd95a701802d9373c07b7661196271ac1e2c
+ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352014"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "44371477"
 ---
 # <a name="configure-connection-filtering"></a>연결 필터링 구성
 
 Exchange online 사서함이 없는 Microsoft 365 고객이 나 독립 실행형 EOP (Exchange Online Protection) 고객에 게는 EOP (특히 기본 연결 필터 정책)에서 연결 필터링을 사용 하 여 해당 IP 주소로 양호한 지 나 잘못 된 원본 전자 메일 서버를 식별 합니다. 기본 연결 필터 정책의 주요 구성 요소는 다음과 같습니다.
 
-- **Ip 허용 목록**: ip 주소 또는 ip 주소 범위로 지정한 원본 전자 메일 서버에서 들어오는 모든 메시지에 대해 스팸 필터링을 건너뜁니다. 이러한 원본의 메시지에 대 한 스팸 필터링이 계속 발생할 수 있는 시나리오는이 항목 뒷부분의 [IP 허용 목록에 있는 원본의 메시지가 계속 필터링 되는 시나리오](#scenarios-where-messages-from-sources-in-the-ip-allow-list-are-still-filtered) 를 참조 하십시오. IP 허용 목록을 전반적인 수신 허용-보낸 사람 전략에 맞게 조정 하는 방법에 대 한 자세한 내용은 [EOP의 수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조 하십시오.
+- **Ip 허용 목록**: ip 주소 또는 ip 주소 범위로 지정한 원본 전자 메일 서버에서 들어오는 모든 메시지에 대 한 스팸 필터링을 건너뜁니다. 이러한 원본의 메시지에 대 한 스팸 필터링이 계속 발생할 수 있는 시나리오는이 항목 뒷부분의 [IP 허용 목록에 있는 원본의 메시지가 계속 필터링 되는 시나리오](#scenarios-where-messages-from-sources-in-the-ip-allow-list-are-still-filtered) 를 참조 하십시오. IP 허용 목록을 전반적인 수신 허용-보낸 사람 전략에 맞게 조정 하는 방법에 대 한 자세한 내용은 [EOP의 수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조 하십시오.
 
 - **Ip 차단 목록**: ip 주소 또는 ip 주소 범위로 지정한 원본 전자 메일 서버에서 들어오는 모든 메시지를 차단 합니다. 들어오는 메시지가 거부 되 고 스팸으로 표시 되지 않으며 추가 필터링이 수행 되지 않습니다. IP 차단 목록이 전체 차단 된 보낸 사람 전략에 맞게 조정 되는 방식에 대 한 자세한 내용은 [EOP에서 수신 거부 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조 하십시오.
 
@@ -98,7 +98,7 @@ Exchange online 사서함이 없는 Microsoft 365 고객이 나 독립 실행형
 Set-HostedConnectionFilterPolicy -Identity Default [-AdminDisplayName <"Optional Comment">] [-EnableSafeList <$true | $false>] [-IPAllowList <IPAddressOrRange1,IPAddressOrRange2...>] [-IPBlockList <IPAddressOrRange1,IPAddressOrRange2...>]
 ```
 
-**참고:**
+**참고**:
 
 - 유효한 IP 주소 또는 주소 범위 값은 다음과 같습니다.
 

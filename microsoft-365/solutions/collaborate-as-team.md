@@ -15,12 +15,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: 팀에서 게스트를 공동 작업용으로 설정 하는 데 필요한 Microsoft 365 구성 단계에 대해 설명 합니다.
-ms.openlocfilehash: dabcfa53e9ccf4b3ea136b5ab522619fe81ae738
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 6742409732e1ef9b466dae6854768c3843f33bd0
+ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160030"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "44371497"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>게스트와 팀으로 공동 작업하기
 
@@ -44,10 +44,10 @@ Microsoft 365의 공유는 Azure Active Directory의 조직 관계 설정에 따
 
 조직 관계 설정을 설정 하려면
 
-1. Microsoft Azure에 로그인 [https://portal.azure.com](https://portal.azure.com)합니다.
+1. Microsoft Azure에 로그인 [https://portal.azure.com](https://portal.azure.com) 합니다.
 2. 왼쪽 탐색 창에서 **Azure Active Directory**를 클릭 합니다.
-3. **개요** 창에서 **조직 관계**를 클릭 합니다.
-4. **조직 관계** 창에서 **설정을**클릭 합니다.
+3. **개요** 창에서 **외부 id**를 클릭 합니다.
+4. **조직 id** 창에서 **외부 공동 작업 설정을**클릭 합니다.
 5. **Guest inviter 역할의 관리자 및 사용자가 초대** 를 하 고 **구성원은 초대** 를 할 수 있는지 확인 하 고 둘 다 **예**로 설정 합니다.
 6. 변경한 내용이 있으면 **저장**을 클릭합니다.
 
@@ -161,12 +161,12 @@ SharePoint 조직 수준 기본 링크 설정을 설정 하려면
 이제 게스트 공유 설정이 구성 되므로 팀에 내부 사용자 및 게스트를 추가할 수 있습니다. 
 
 팀에 내부 사용자를 초대 하려면
-1. 팀에서 **기타 옵션** (**\*\***)을 클릭 하 고 **구성원 추가**를 클릭 합니다.
+1. 팀에서 **기타 옵션** ( **\*\*\*** )을 클릭 하 고 **구성원 추가**를 클릭 합니다.
 2. 초대 하려는 사용자의 이름을 입력 합니다.
 3. **추가**를 클릭한 다음 **닫기**를 클릭합니다.
 
 팀에 게스트를 초대 하려면
-1. 팀에서 **기타 옵션** (**\*\***)을 클릭 하 고 **구성원 추가**를 클릭 합니다.
+1. 팀에서 **기타 옵션** ( **\*\*\*** )을 클릭 하 고 **구성원 추가**를 클릭 합니다.
 2. 초대 하려는 게스트의 전자 메일 주소를 입력 합니다.
 3. **게스트 정보 편집**을 클릭 합니다.
 4. 게스트의 전체 이름을 입력 하 고 확인 표시를 클릭 합니다.

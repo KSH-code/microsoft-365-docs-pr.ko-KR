@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에는 조직 전체에서 콘텐츠를 식별 하 고 레이블을 지정 하는 데 사용할 수 있는 다양 한 기본 제공 분류자가 제공 됩니다. 이 항목에서는 이러한 분류자 사용을 준비 하는 방법을 보여 줍니다.
-ms.openlocfilehash: 485ef8013c5a6656be9d0e025048154ec8b2f250
-ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
+ms.openlocfilehash: 2652df8d79b06d6614e2478843195e67de0a8ebb
+ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44292424"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "44371410"
 ---
 # <a name="testing-built-in-classifiers-using-retention-labels-preview"></a>보존 레이블을 사용 하 여 기본 제공 분류자 테스트 (미리 보기)
 
@@ -33,18 +33,18 @@ Trainable 분류자에 대 한 자세한 내용은 [trainable 분류자 (preview
 Microsoft 365에는 다음과 같이 권장 되는 5 가지 기본 제공 분류자가 있습니다.
 
 > [!CAUTION]
-> 많은 수의 가양성을 **생성 하 여 방식의 기본 제공** 분류자를 사용 중입니다. 이 도구를 사용 하지 않고 현재 사용 중인 경우 비즈니스 프로세스를 외부에서 이동 해야 합니다. **위협**, **불경**및 **Harassment** 기본 제공 분류자를 대신 사용 하는 것이 좋습니다.
+> 당사는 **비속어** 기본 제공 분류자가 많은 수의 가양성을 생성하였기 에 그 사용을 중단하고 있습니다. 이 도구를 사용 하지 않고 현재 사용 중인 경우 비즈니스 프로세스를 외부에서 이동 해야 합니다. **위협**, **불경**및 **Harassment** 기본 제공 분류자를 대신 사용 하는 것이 좋습니다.
 
 - **다시 시작**: 지원자 개인, 교육, 전문가 자격, 작업 환경 및 기타 개인 식별 정보에 대 한 텍스트 계정인 항목을 검색 합니다.
 - **소스 코드**: GitHub에서 상위 25 용으로 사용 되는 컴퓨터 프로그래밍 언어에 작성 된 지침 및 문 집합이 포함 되어 있는 항목을 검색 합니다.
 
-|언어 이름|||||
-|---------|---------|---------|---------|---------|
-|ActionScript|C        |& #       |C + +     |Clojure  |
-|CoffeeScript|시트     |갈       |Haskell |HTML     |
-|Java     |JavaScript|Lua      |MATLAB   |목표-C|
-|Perl     |PHP      |Python   |이력서        |Ruby     |
-|Scala    |셸    |Swift    |Tex      |Vim 스크립트|
+  |언어 이름|||||
+  |---------|---------|---------|---------|---------|
+  |ActionScript|C        |& #       |C + +     |Clojure  |
+  |CoffeeScript|시트     |갈       |Haskell |HTML     |
+  |Java     |JavaScript|Lua      |MATLAB   |목표-C|
+  |Perl     |PHP      |Python   |이력서        |Ruby     |
+  |Scala    |셸    |Swift    |Tex      |Vim 스크립트|
 
 > [!NOTE]
 > 소스 코드는 대량의 텍스트가 소스 코드 인지 검색할 수 있도록 교육을 받습니다. 일반 텍스트와 섞여 있는 소스 코드 텍스트는 검색 되지 않습니다.
@@ -60,8 +60,8 @@ Microsoft 365에는 다음과 같이 권장 되는 5 가지 기본 제공 분류
 
 1. 테스트 중인 범주에서 기본 제공 분류자의 범주 (긍정 일치) 및 포함 되지 않은 항목 (음수 일치)이 있는 삭제 가능한 테스트 콘텐츠를 수집 합니다.
 
-> [!IMPORTANT]
-> 샘플 항목은 암호화 하지 않아야 하며 영어로 되어 있어야 합니다.
+   > [!IMPORTANT]
+   > 샘플 항목은 암호화 하지 않아야 하며 영어로 되어 있어야 합니다.
 
 2. 전용 SharePoint Online 폴더를 만듭니다. 폴더를 검색 인덱스에 추가할 때까지 적어도 1 시간 이상 기다립니다. 폴더 URL을 기록해 둡니다.
 
@@ -79,7 +79,7 @@ Microsoft 365에는 다음과 같이 권장 되는 5 가지 기본 제공 분류
 
 9. `Apply label to content that matches a trainable classifier`을 선택 합니다.
 
-![조건으로 분류자 선택](../media/classifier-pre-trained-apply-label-match-trainable-classifier.png).
+   ![조건으로 분류자 선택](../media/classifier-pre-trained-apply-label-match-trainable-classifier.png)
 
 10. 이 경우 목록에서 분류자를 선택 합니다.`Source Code`
 
@@ -105,6 +105,6 @@ Microsoft 365에는 다음과 같이 권장 되는 5 가지 기본 제공 분류
 
 참고 항목:
 
-- [학습 가능한 분류자 시작 (미리 보기)](classifier-getting-started-with.md)
+- [학습 가능한 분류자 시작하기(미리 보기)](classifier-getting-started-with.md)
 - [보존 레이블 개요](labels.md)
 - [조건에 따라 보존 레이블 정책 자동 적용](labels.md#applying-a-retention-label-automatically-based-on-conditions)

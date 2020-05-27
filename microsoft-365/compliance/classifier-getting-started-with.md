@@ -1,5 +1,5 @@
 ---
-title: 학습 가능한 분류자 시작 (미리 보기)
+title: 학습 가능한 분류자 시작하기(미리 보기)
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,14 +14,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 trainable 분류자는 긍정적이 고 부정적 샘플을 확인 하 여 다양 한 유형의 콘텐츠를 인식할 수 있도록 교육을 제공 하는 도구입니다. 일단 분류자가 학습 되 면 결과가 정확 함을 확인할 수 있습니다. 그런 다음이를 사용 하 여 조직의 콘텐츠를 검색 하 고이를 분류 하 여 보존 또는 민감도 레이블을 적용 하거나 DLP (데이터 손실 방지) 또는 보존 정책에 포함 합니다.
-ms.openlocfilehash: ba24bbe76bce5e3a41345c80616a57d3fb67a5fc
-ms.sourcegitcommit: 2fbcecaa60e9f551738b9235bd380af807a6681a
+ms.openlocfilehash: de52c8c7f96d2d3c0383f27b17bcc5162bb662c5
+ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44339916"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "44371466"
 ---
-# <a name="getting-started-with-trainable-classifiers-preview"></a>학습 가능한 분류자 시작 (미리 보기)
+# <a name="getting-started-with-trainable-classifiers-preview"></a>학습 가능한 분류자 시작하기(미리 보기)
 
 콘텐츠를 보호 하 고 적절 하 게 레이블을 지정 하 여 정보 보호 규칙의 시작 위치를 확인할 수 있습니다. Microsoft 365에는 세 가지 방법으로 콘텐츠를 분류할 수 있습니다.
 
@@ -80,18 +80,18 @@ UI에서 trainable 분류자에 액세스 하려면:
 Microsoft 365에는 다음과 같이 권장 되는 5 가지 기본 제공 분류자가 있습니다.
 
 > [!CAUTION]
-> 많은 수의 가양성을 **생성 하 여 방식의 기본 제공** 분류자를 사용 중입니다. 이 도구를 사용 하지 않고 현재 사용 중인 경우 비즈니스 프로세스를 외부에서 이동 해야 합니다. **위협**, **불경**및 **Harassment** 기본 제공 분류자를 대신 사용 하는 것이 좋습니다.
+> 당사는 **비속어** 기본 제공 분류자가 많은 수의 가양성을 생성하였기 에 그 사용을 중단하고 있습니다. 이 도구를 사용 하지 않고 현재 사용 중인 경우 비즈니스 프로세스를 외부에서 이동 해야 합니다. **위협**, **불경**및 **Harassment** 기본 제공 분류자를 대신 사용 하는 것이 좋습니다.
 
 - **다시 시작**: 지원자 개인, 교육, 전문가 자격, 작업 환경 및 기타 개인 식별 정보에 대 한 텍스트 계정인 항목을 검색 합니다.
 - **소스 코드**: GitHub에서 상위 25 용으로 사용 되는 컴퓨터 프로그래밍 언어에 작성 된 지침 및 문 집합이 포함 되어 있는 항목을 검색 합니다.
 
-|언어 이름|||||
-|---------|---------|---------|---------|---------|
-|ActionScript|C        |& #       |C + +     |Clojure  |
-|CoffeeScript|시트     |갈       |Haskell |HTML     |
-|Java     |JavaScript|Lua      |MATLAB   |목표-C|
-|Perl     |PHP      |Python   |이력서        |Ruby     |
-|Scala    |셸    |Swift    |Tex      |Vim 스크립트|
+  |언어 이름|||||
+  |---------|---------|---------|---------|---------|
+  |ActionScript|C        |& #       |C + +     |Clojure  |
+  |CoffeeScript|시트     |갈       |Haskell |HTML     |
+  |Java     |JavaScript|Lua      |MATLAB   |목표-C|
+  |Perl     |PHP      |Python   |이력서        |Ruby     |
+  |Scala    |셸    |Swift    |Tex      |Vim 스크립트|
 
 > [!NOTE]
 > 소스 코드는 대량의 텍스트가 소스 코드 인지 검색할 수 있도록 교육을 받습니다. 일반 텍스트와 섞여 있는 소스 코드 텍스트는 검색 되지 않습니다.

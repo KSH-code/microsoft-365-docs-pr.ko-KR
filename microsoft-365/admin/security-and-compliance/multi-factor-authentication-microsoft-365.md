@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365에 대 한 다단계 인증
+title: Microsoft 365에 대한 다단계 인증 사용
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -20,14 +20,14 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 365의 다단계 인증에 대해 알아봅니다.
-ms.openlocfilehash: 128296b7dbc37ba5ebffb25a87bce589f8e5a904
-ms.sourcegitcommit: 185d62f41f6b173894ba6e3e87b11b2b5d02db58
+ms.openlocfilehash: eba9ae38dbc17a22abb5d5ef92b8cd30a827ae11
+ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44340849"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "44371455"
 ---
-# <a name="multi-factor-authentication-for-microsoft-365"></a>Microsoft 365에 대 한 다단계 인증
+# <a name="multi-factor-authentication-for-microsoft-365"></a>Microsoft 365에 대한 다단계 인증 사용
 
 암호는 컴퓨터 또는 온라인 서비스에 대 한 로그인을 인증 하는 가장 일반적인 방법 이지만 가장 취약 합니다. 사용자는 여러 컴퓨터와 서비스에 대 한 로그인을 간편 하 게 선택 하 고 동일한 암호를 사용할 수 있습니다.
 
@@ -151,17 +151,10 @@ Microsoft 365 관리 센터의 **활성 사용자** 창에서 개별 사용자 �
 |:-------|:-----|:-------|:-------|
 | **보안 기본값** | 조건부 액세스 정책을 사용할 수 없습니다 |   조건부 액세스 정책을 사용할 수 있습니다 | Microsoft Authenticator 앱 |
 | **조건부 액세스 정책** |이 중 하나가 사용되는 경우 보안 기본값을 사용할 수 없습니다. | 상기 수단을 모두 사용하지 않도록 설정한 경우, MFA 등록 중 사용자가 지정한  | MFA 등록 중 사용자 지정 |
-| **사용자별 계정 설정 (권장 하지 않음)** | MFA를 요구 하는 보안 기본값 및 조건부 액세스 정책에 의해 재정의 됨 | 보안 기본값 및 조건부 액세스 정책에 의해 재정의 됨 | MFA 등록 중 사용자 지정|
+| **사용자별 계정 설정 (권장 하지 않음)** | 각 로그인에서 MFA를 요구 하는 보안 기본값과 조건부 액세스 정책을 재정의 합니다. | 보안 기본값 및 조건부 액세스 정책에 의해 재정의 됨 | MFA 등록 중 사용자 지정|
 ||||
 
 보안 기본값을 사용 하도록 설정 하면 모든 새 사용자에 게 MFA 등록 및 다음 로그인 시 Microsoft Authenticator 앱 사용에 대 한 메시지가 표시 됩니다.
-
-그러나 사용자에 게 문자 메시지를 받을 수 있지만 Microsoft 인증자 앱은 실행할 수 없는 이전 전화가 있는 경우 해당 특정 사용자 계정에 대해 MFA를 사용 하도록 설정 하 고 다음 단계를 사용 하 여 텍스트 코드 추가 확인 방법을 사용 하 여 등록 하도록 할 수 있습니다.
-
-1. Azure portal에서 보안 기본값을 사용 하지 않도록 설정 합니다.
-2. Microsoft 365 관리 센터에서 사용자 계정에 대해 MFA를 사용 하도록 설정 합니다.
-3. 사용자가 로그인 하 고 MFA에 등록 하 고 텍스트 코드 인증 방법을 사용 하도록 합니다.
-4. 완료 되 면 Azure portal에서 보안 기본값을 사용 하도록 설정 합니다.
 
 ## <a name="ways-to-manage-mfa-settings"></a>MFA 설정을 관리 하는 방법
 

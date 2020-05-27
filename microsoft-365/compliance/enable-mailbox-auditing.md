@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 description: 사서함 감사 로깅은 기본적으로 설정 됩니다 (기본적으로 기본 사서함 감사 또는 사서함 감사 라고도 함). 즉, 사서함 소유자, 대리인 및 관리자가 수행 하는 특정 작업이 사서함 감사 로그에 자동으로 기록 되므로 사서함에 대해 수행 된 작업을 검색할 수 있습니다.
-ms.openlocfilehash: f25232dd30fe0fba0f4cc31acae3235012bb025a
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 03e32a11176530d26f33076331f8f6a2093e7200
+ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352111"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "44371432"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
 
@@ -39,7 +39,8 @@ ms.locfileid: "44352111"
 - 모든 사서함에 대해 동일한 작업을 감사 하 고 있으므로 조직 전체에 일관 된 사서함 감사 정책이 있습니다.
 
 > [!NOTE]
->* 기본적으로 사서함 감사 릴리스를 고려해 야 할 중요 한 사항은 다음과 같습니다. 사서함 감사를 관리할 필요가 없습니다. 그러나 자세한 내용을 보거나 기본 설정에서 사서함 감사를 사용자 지정 하거나 완전히 해제 하려면이 항목을 참조 하십시오. <br><br>* 기본적으로 E5 사용자에 대 한 사서함 감사 이벤트만 보안 & 준수 센터 또는 Office 365 관리 활동 API를 통해 감사 로그 검색에서 사용할 수 있습니다. 자세한 내용은이 항목의 [추가 정보](#more-information) 섹션을 참조 하십시오.
+>* 기본적으로 사서함 감사 릴리스를 고려해 야 할 중요 한 사항은 다음과 같습니다. 사서함 감사를 관리할 필요가 없습니다. 그러나 자세한 내용을 보거나 기본 설정에서 사서함 감사를 사용자 지정 하거나 완전히 해제 하려면이 항목을 참조 하십시오.
+>- 기본적으로 E5 사용자에 대 한 사서함 감사 이벤트만 보안 & 준수 센터의 감사 로그 검색 또는 Office 365 관리 활동 API를 통해 사용할 수 있습니다. 자세한 내용은이 항목의 [추가 정보](#more-information) 섹션을 참조 하십시오.
 
 ## <a name="verify-mailbox-auditing-on-by-default-is-turned-on"></a>기본적으로 사서함 감사가 설정 되어 있는지 확인
 
@@ -315,7 +316,7 @@ Set-OrganizationConfig -AuditDisabled $false
 
 현재 조직에서 사서함 감사가 기본적으로 설정 된 경우에는 특정 사서함에 대해 사서함 감사를 사용 하지 않도록 설정할 수 없습니다. 예를 들어 *Auditenabled* mailbox 속성을 **False** 로 설정 하는 것은 무시 됩니다.
 
-그러나 Exchange Online PowerShell에서 **get-mailboxauditbypassassociation** cmdlet을 사용 하 여 작업이 수행 되는 위치에 관계 없이 지정 된 사용자의 *모든* 사서함 작업이 로깅되지 않도록 할 수 있습니다. 예시:
+그러나 Exchange Online PowerShell에서 **get-mailboxauditbypassassociation** cmdlet을 사용 하 여 작업이 수행 되는 위치에 관계 없이 지정 된 사용자의 *모든* 사서함 작업이 로깅되지 않도록 할 수 있습니다. 예를 들면 다음과 같습니다.
 
 - 바이패스 된 사용자가 수행한 사서함 소유자 작업은 로깅되지 않습니다.
 
