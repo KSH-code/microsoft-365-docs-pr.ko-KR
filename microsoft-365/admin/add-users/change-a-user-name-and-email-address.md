@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: '전역 관리자가 사용자의 전자 메일 주소 및 표시 이름을 변경하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 726d1f01203bbaefc529039d3816fb09c892cd90
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 4325892a51c9d7a562b628a2bb89e6e1ff966e29
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43618743"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387252"
 ---
 # <a name="change-a-user-name-and-email-address"></a>사용자 이름 및 전자 메일 주소 변경
 

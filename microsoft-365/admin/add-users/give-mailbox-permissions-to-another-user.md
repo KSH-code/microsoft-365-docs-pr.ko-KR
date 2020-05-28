@@ -15,18 +15,19 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 1dbcf12f-a9de-4d1d-b0b3-a227f8a736d8
 description: '사용자에게 다른 사용자의 사서함에 액세스할 수 있는 권한을 부여하는 방법에 대해 알아봅니다. 이를 통해 사용자에게 다른 사용자의 사서함에서 메일을 읽고 보낼 수 있는 권한을 부여합니다. '
-ms.openlocfilehash: 5a0677844e8503253561c57f926c9c4fadadd76d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 51de5f4e2b134a503ec935b1f1d0ec6519d2c229
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43617173"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387180"
 ---
 # <a name="give-mailbox-permissions-to-another-user---admin-help"></a>다른 사용자에게 사서함 권한 제공 - 관리자 도움말
 

@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: 사용할 수 있는 그룹 유형에 대해 알아봅니다.
-ms.openlocfilehash: 6f44214441c67e14d2cbc7ac12c0e2f3036acb2b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b81bb09efedc503b49d2ed4aa10b1e7153116f14
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630716"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44388032"
 ---
 # <a name="compare-groups"></a>그룹 비교
 
