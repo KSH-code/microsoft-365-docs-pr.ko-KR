@@ -15,17 +15,18 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 공유 사서함을 만든 후에는 전자 메일 전달 및 자동 회신 같은 사용자에 대 한 일부 설정을 구성 해야 합니다. 나중에 사서함 이름이 나 구성원 등의 다른 설정을 변경할 수 있습니다.
-ms.openlocfilehash: 63d3d0a5867875344ff4635071bbbad69e02eadc
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7c88ffa3276f40ea983f9060658f4e4091e36280
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629050"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400151"
 ---
 # <a name="configure-a-shared-mailbox"></a>공유 사서함 구성
 
@@ -260,7 +261,7 @@ ms.locfileid: "43629050"
 
 ::: moniker-end
 
-2. 편집 하려는 공유 사서함을 선택 하 고 **전체 주소 목록** \> **편집**에 표시를 선택 합니다.
+2. 편집 하려는 공유 사서함을 선택 하 고 **전체 주소 목록 편집에 표시** 를 선택 \> **Edit**합니다.
 
 3. 설정/ **해제**로 **전환** 합니다. 
 

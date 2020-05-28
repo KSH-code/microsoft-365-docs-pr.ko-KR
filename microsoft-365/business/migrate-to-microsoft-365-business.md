@@ -18,17 +18,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Microsoft 365 Business Standard와 Microsoft 365 Business Premium의 차이점 및 Microsoft 365 Business Premium으로 업그레이드 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 20a4162f74a9cb0e943195a589fd2d964f773f48
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: bdab8165623170926b17efa4cae9408b78a2f5f5
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045983"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401385"
 ---
 # <a name="upgrade-to-microsoft-365-business-premium-from-microsoft-365-business-standard"></a>Microsoft 365 Business Standard에서 Microsoft 365 Business Premium으로 업그레이드
 
@@ -55,9 +56,9 @@ Microsoft 365 Business Standard와 같은 [microsoft 365 비즈니스 에디션 
 
 ## <a name="upgrade-to-microsoft-365-business-premium"></a>Microsoft 365 Business Premium으로 업그레이드
 
-1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>관리 센터에 로그인 합니다.
+1. 에서 관리 센터에 로그인 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 합니다.
 
-2. 탐색 창으로 이동 하 여 제품 **대금 청구** \> **Your products**를 선택 합니다. 현재 구독을 찾아서 선택 하 여 세부 정보를 확인 합니다.
+2. 탐색 창으로 이동 하 여 제품 **대금 청구** 를 선택 \> **Your products**합니다. 현재 구독을 찾아서 선택 하 여 세부 정보를 확인 합니다.
 
 3. 다음 페이지에서 **업그레이드**를 선택 합니다.
 

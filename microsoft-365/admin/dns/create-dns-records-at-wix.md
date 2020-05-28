@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 7173c635-58b3-400f-95e0-97abe915565e
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 Microsoft 용 Wix의 기타 서비스에 대 한 DNS 레코드를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 6f88cc65ae19f747a9fc3740ea1578f30d18b5e2
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: b5fe216e65954bbcbdd9a1da223258a8362743ca
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048858"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400295"
 ---
 # <a name="create-dns-records-at-wix-for-microsoft"></a>Microsoft 용 Wix에서 DNS 레코드 만들기
 
@@ -109,7 +110,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
 |**Host Name**|**연결 대상**|**Priority(우선 순위)**|**TTL**|
 |:-----|:-----|:-----|:-----|
-|자동으로 채워짐 <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft 계정에서 * \<도메인 키\> * 를 가져옵니다.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md) |개  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. | 1 Hour|
+|자동으로 채워짐 <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **참고:** *\<domain-key\>* Microsoft 계정에서를 다운로드 하세요.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md) |개  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. | 1 Hour|
    
 6. 다른 MX 레코드가 나열 되어 있는 경우 각 레코드를 삭제 합니다. 
     
@@ -156,7 +157,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
 |**Host Name**|**TXT 값**|**TTL**|
 |:-----|:-----|:-----|
-|[이 값을 비워 둠]  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.<br/> |TXT  <br/> | 1 Hour |
+|[이 값을 비워 둠]  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.<br/> |TXT  <br/> | 1 Hour |
    
 5. DNS 편집기 위쪽에 있는 **Dns 저장** 단추를 선택 합니다. 
     
@@ -175,8 +176,8 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
 |**서비스**|**프로토콜**|**이름**|**Weight(가중치)**|**Port(포트)**|**대상**|**Priority(우선 순위)**|**TTL**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|sip  |tls  |자동으로 채워짐 |개  |443   |sipdir.online.lync.com |100 |1 Hour |
-|sipfed.online.lync.com>|tcp |자동으로 채워짐|개 |5061 |sipfed.online.lync.com|100 | 1 Hour |
+|sip  |tls  |자동으로 채워짐 |1   |443   |sipdir.online.lync.com |100 |1 Hour |
+|sipfed.online.lync.com>|tcp |자동으로 채워짐|1  |5061 |sipfed.online.lync.com|100 | 1 Hour |
    
 5. DNS 편집기 위쪽에 있는 **Dns 저장** 단추를 선택 합니다. 
     

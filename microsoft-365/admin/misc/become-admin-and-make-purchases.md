@@ -14,17 +14,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 48b26596-9e5b-4e5a-a64f-7430eb2a1e45
 description: '관리자가 되 고 조직에 대 한 Microsoft 365 구독을 받는 방법을 알아봅니다. '
-ms.openlocfilehash: ac18b40a1160d58e343df8196881769b7200d5a5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7d1e5673e6c995d007603d364b22ad81638d1782
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627959"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399461"
 ---
 # <a name="become-the-admin-and-purchase-microsoft-365-for-your-organization"></a>관리자 되 고 조직에 대 한 Microsoft 365을 구입 합니다.
 

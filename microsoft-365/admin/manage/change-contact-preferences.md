@@ -9,6 +9,7 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -16,12 +17,12 @@ search.appverid:
 - GEA150
 ms.assetid: 6f70de1b-a64d-4498-bfbd-be8c83a9c0fc
 description: 조직의 연락처 정보를 업데이트 하 고 수신 하려는 Microsoft 365 제품 관련 통신을 선택 합니다.
-ms.openlocfilehash: 4a667757990ec30f4514b094fd1592831601e679
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e802a45c9b038c7256def259090c58f92b6a7cb8
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628211"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399791"
 ---
 # <a name="change-your-contact-preferences-for-communications-from-microsoft"></a>Microsoft의 통신에 대한 연락처 기본 설정 변경
 

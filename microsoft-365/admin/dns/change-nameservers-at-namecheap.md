@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 84f467f6-28cf-40f0-94d0-a2a27ddfc2e7
 description: 'Microsoft에서 DNS 레코드를 관리 하도록 하려면 Namecheap을 사용 하 여 Microsoft 사용자 지정 도메인을 설정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 6fdec37e837c74666ada82af81d43faaa0a6d589
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 55fde3b0db960d78ad77c9f9189c5367de16c73f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629782"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400620"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-namecheap"></a>이름 서버를 변경 하 여 Namecheap을 사용 하 여 Microsoft 설정
 
@@ -69,7 +70,7 @@ Microsoft에서 DNS 레코드를 관리 하도록 하려면 다음 지침을 따
     
 |**유형**|**호스트**|**Value(값)**|**TTL**|
 |:-----|:-----|:-----|:-----|
-|TXT  <br/> |@  <br/> |MS=ms *XXXXXXXX*  <br/> **참고**:이는 예입니다. 표에서 특정 **대상 또는 지점** 값을 사용 하 여 여기서 주소를 지정 합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |30 분  <br/> |
+|TXT  <br/> |@  <br/> |MS=ms *XXXXXXXX*  <br/> **참고**:이는 예입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |30 분  <br/> |
    
    ![Namecheap-BP-Verify-1-2](../../media/fe75c0fd-f85c-4bef-8068-edaf9779b7f1.png)
   
@@ -81,7 +82,7 @@ Microsoft에서 DNS 레코드를 관리 하도록 하려면 다음 지침을 따
     
 도메인 등록 기관 사이트에서 레코드를 추가 했으므로 이제 Microsoft로 이동 하 여 레코드 검색을 요청 합니다.
   
-Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인 된 것입니다.
+Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
   
 1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
 

@@ -21,17 +21,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
 description: 사용자가 Windows 10 장치에 Office 앱을 설치 하 고 Microsoft 365 관리 센터에서 Windows 10 Pc에 Office를 간편 하 게 설치할 수 있도록 지원 합니다.
-ms.openlocfilehash: a7078ad6d7423900aefba47605cb2b2852856108
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 617942c08b1fb27e8e864906774b4120486e0bb3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627201"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400909"
 ---
 # <a name="help-your-users-install-office-on-windows-10-devices"></a>사용자가 Windows 10 장치에 Office를 설치 하도록 지원
 
@@ -49,7 +50,7 @@ Office 앱을 설치 하는 방법에 대 한 간단한 비디오를 시청 하�
 
 ## <a name="manage-office-deployments"></a>Office 배포 관리
 
-1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>관리 센터로 이동 하 여 전역 관리자 자격 증명으로 로그인 합니다. 
+1. 에서 관리 센터로 이동 하 여 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 전역 관리자 자격 증명으로 로그인 합니다. 
 
 2. 왼쪽 탐색 창의 **설정** 으로 이동한 후 **설정** 페이지에서 **앱 및 업데이트**로 스크롤합니다.
     > [!NOTE]
@@ -64,4 +65,4 @@ Office 앱을 설치 하는 방법에 대 한 간단한 비디오를 시청 하�
 
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Microsoft 365 Business Premium 설정 및 사용에 대 한 자세한 내용은
 
-[Microsoft 365 for business 교육용 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5f0c840e-4140-4571-88ed-cf235ff142d6
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Microsoft 용 Hostgator에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: fb510bcdcdefb141535e9a1099e18b63adffd2ab
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 8adfc4b6154dad0da7dd2fe037c73fcfc4f84d58
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049002"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400440"
 ---
 # <a name="create-dns-records-at-hostgator-for-microsoft"></a>Hostgator에서 Microsoft에 대 한 DNS 레코드 만들기
 
@@ -91,7 +92,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     |||||
     |:-----|:-----|:-----|:-----|
     |**이름** <br/> |**TTL** <br/> |**유형** <br/> |**TXT 데이터** <br/> |
-    |*Domain_name*를 사용 합니다. (for example, fourthcoffee.com.)  <br/> **This value MUST end with a period (.)** <br/> |개  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
+    |*Domain_name*를 사용 합니다. (for example, fourthcoffee.com.)  <br/> **This value MUST end with a period (.)** <br/> |1   <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
    
 4. **레코드 추가**를 선택 합니다.
     
@@ -136,7 +137,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**우선 순위**|**대상**|
     |:-----|:-----|
-    |개  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** \< Microsoft 계정에서 *도메인 키* \> 를 가져옵니다.    [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
+    |개  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **참고:** \< *domain-key*  \>Microsoft 계정에서를 다운로드 하세요.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
   
 6. **새 레코드 추가**를 선택 합니다.
    
@@ -206,7 +207,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**이름**|**TTL**|**유형**|**TXT 데이터**|
     |:-----|:-----|:-----|:-----|
-    |*Domain_name*를 사용 합니다. (for example, fourthcoffee.com.)  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |3600  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
+    |*Domain_name*를 사용 합니다. (for example, fourthcoffee.com.)  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |3600  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
   
 4. **레코드 추가**를 선택 합니다.
     
@@ -234,8 +235,8 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**이름**|**TTL**|**종류**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**대상**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_tls을 _sip 합니다. *domain_name*합니다. 예를 들어 fourthcoffee를 _tls _sip 합니다.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |3600  <br/> |SRV  <br/> |100  <br/> |개  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_tcp을 _sipfederationtls 합니다. *domain_name*합니다. 예를 들어 fourthcoffee를 _tcp _sipfederationtls 합니다.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |3600  <br/> |SRV  <br/> |100  <br/> |개  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_tls을 _sip 합니다. *domain_name*합니다. 예를 들어 fourthcoffee를 _tls _sip 합니다.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |3600  <br/> |SRV  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_tcp을 _sipfederationtls 합니다. *domain_name*합니다. 예를 들어 fourthcoffee를 _tcp _sipfederationtls 합니다.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |3600  <br/> |SRV  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
    
 
 4. **레코드 추가**를 선택 합니다.

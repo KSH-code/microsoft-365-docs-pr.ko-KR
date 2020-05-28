@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 7a2efd75-0771-4897-ba7b-082fe5bfa9da
 description: Microsoft의 AWS (Amazon Web Services)에서 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: d75822feef5848575b8ec7fe09f834f67cdc6c55
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: fcc4da3a5841e9df2f6edabd540363fe70bb73ad
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049110"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400572"
 ---
 # <a name="create-dns-records-at-amazon-web-services-aws-for-microsoft"></a>Microsoft의 AWS (Amazon Web Services)에서 DNS 레코드 만들기
 
@@ -105,7 +106,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**이름**|**종류**|**별칭**|**TTL(초)**|**값**|**라우팅 정책**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |(이 필드는 비워 둡니다.)  <br/> |MX - Mail Exchanger(MX - 메일 교환기)  <br/> |아니요  <br/> |300  <br/> |0  *\<도메인 키\>*  .mail.protection.outlook.com.  <br/> 0은 MX 우선 순위 값입니다. 이 값을 MX 값 시작 부분에 추가하고 나머지 값과 공백으로 구분합니다.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:** \<Microsoft 365 계정에서 *도메인 키* \> 를 가져옵니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |Simple(단순형)  <br/> |
+    |(이 필드는 비워 둡니다.)  <br/> |MX - Mail Exchanger(MX - 메일 교환기)  <br/> |아니요  <br/> |300  <br/> |*\<domain-key\>* mail.protection.outlook.com.  <br/> 0은 MX 우선 순위 값입니다. 이 값을 MX 값 시작 부분에 추가하고 나머지 값과 공백으로 구분합니다.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:** \<*domain-key*\>Microsoft 365 계정을 확인 하세요. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |Simple(단순형)  <br/> |
        
     ![AWS-BP-구성-2-1](../../media/94a71ce7-1b3b-4b1a-9ad3-9592db133075.png)
   
@@ -187,7 +188,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**값:**|
     |:-----|
-    |v=spf1 include:spf.protection.outlook.com -all  <br/> (화면 지침에 필요한 물음표가 자동으로 제공됩니다. 직접 입력할 필요가 없습니다.)  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
+    |v=spf1 include:spf.protection.outlook.com -all  <br/> (화면 지침에 필요한 물음표가 자동으로 제공됩니다. 직접 입력할 필요가 없습니다.)  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
    
     ![AWS-BP-구성-4-2](../../media/beb3c086-eaf8-4245-9860-18512a3ff72e.png)
   
@@ -214,8 +215,8 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**이름**|**종류**|**별칭**|**TTL(초)**|**값**|**라우팅 정책**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip _tls|SRV - Service locator(SRV - 서비스 로케이터)|아니요|300|100 1 443 sipdir.online.lync.com. **이 값은 마침표 (.)로 끝나야 합니다.**><br> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |Simple(단순형)|
-    |_sipfederationtls _tcp|SRV - Service locator(SRV - 서비스 로케이터)|아니요|300|100 1 5061 sipfed.online.lync.com. **This value MUST end with a period (.)**<br> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |Simple(단순형)|
+    |_sip _tls|SRV - Service locator(SRV - 서비스 로케이터)|아니요|300|100 1 443 sipdir.online.lync.com. **이 값은 마침표 (.)로 끝나야 합니다.**><br> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |Simple(단순형)|
+    |_sipfederationtls _tcp|SRV - Service locator(SRV - 서비스 로케이터)|아니요|300|100 1 5061 sipfed.online.lync.com. **This value MUST end with a period (.)**<br> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |Simple(단순형)|
    
     ![AWS-BP-구성-5-1](../../media/c3f841d3-6076-428f-bb04-e71cc5f392fa.png)
   

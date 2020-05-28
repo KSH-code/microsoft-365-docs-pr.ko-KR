@@ -19,18 +19,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: c3ac23c5-d4b4-4b1b-b7ce-ea759521bf8c
 description: 비즈니스용 Microsoft 365에서 관리 홈의 장치 작업 목록에 있는 다양 한 장치 상태에 대해 알아봅니다.
-ms.openlocfilehash: 1a66e76dd3a74428923292427b01551db2449e48
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 90c11caa03249408ba2916d303bcb4a59fbcca8c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627249"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400957"
 ---
 # <a name="device-states"></a>장치 상태
 

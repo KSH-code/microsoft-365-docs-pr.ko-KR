@@ -12,17 +12,18 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 - FRP150
 description: 새로운 Microsoft 365 관리 센터에 대해 알아봅니다.
-ms.openlocfilehash: 95453380fc693c4313debf5baaa96264d486385b
-ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+ms.openlocfilehash: 0eeebcd0c96b5f3741c01a2776391ceaa698a40e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43952642"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399485"
 ---
 # <a name="about-the-new-microsoft-365-admin-center"></a>새 Microsoft 365 관리 센터 정보
 
@@ -30,7 +31,7 @@ ms.locfileid: "43952642"
 
 Microsoft 365 서비스를 관리 하는 간편한 방법인 새로운 Microsoft 365 관리 센터는 IT 팀을 위해 작성 되었습니다. 관리 센터는 역할이 나 조직의 고유한 요구 사항에 따라 맞춤식 환경을 제공 하 고 일상적인 작업의 효율성을 향상 시키며, 사용자를 위해 데이터 기반 결정을 내리는 데 도움이 되는 단계별 정보를 제공 합니다.
 
-Microsoft 365 관리 센터는 모든 Microsoft 365 관리자의 공통 진입점 이며에서 [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339)액세스할 수 있습니다. 보안 또는 장치 관리와 같은 전문가 작업 영역을 통해 보다 세부적으로 제어할 수 있습니다. 관리 센터를 함께 사용 하는 방법에 대 한 자세한 내용은이 문서의 뒷부분에 나오는 [보안, 장치 관리 또는 Exchange와 같은 특정 유형의 IT 역할 및 기타 작업 영역](#what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange) 을 참조 하십시오.
+Microsoft 365 관리 센터는 모든 Microsoft 365 관리자의 공통 진입점 이며에서 액세스할 수 있습니다 [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339) . 보안 또는 장치 관리와 같은 전문가 작업 영역을 통해 보다 세부적으로 제어할 수 있습니다. 관리 센터를 함께 사용 하는 방법에 대 한 자세한 내용은이 문서의 뒷부분에 나오는 [보안, 장치 관리 또는 Exchange와 같은 특정 유형의 IT 역할 및 기타 작업 영역](#what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange) 을 참조 하십시오.
 
 ::: moniker-end
 
@@ -38,7 +39,7 @@ Microsoft 365 관리 센터는 모든 Microsoft 365 관리자의 공통 진입�
 
 현재 미리 보기로 제공 되는 새로운 Microsoft 365 관리 센터는 Microsoft 365 서비스를 관리 하는 간편한 방법으로 IT 팀을 위한 것입니다. 관리 센터는 역할이 나 조직의 고유한 요구 사항에 따라 맞춤식 환경을 제공 하 고 일상적인 작업의 효율성을 향상 시키며, 사용자를 위해 데이터 기반 결정을 내리는 데 도움이 되는 단계별 정보를 제공 합니다.
 
-Microsoft 365 관리 센터는 모든 Microsoft 365 관리자의 공통 진입점 이며에 [https://portal.partner.microsoftonline.cn/AdminPortal/Home#/homepage](https://go.microsoft.com/fwlink/p/?linkid=850627)로그인 하 여 액세스할 수 있습니다. 또한 Azure Active Directory 및 Exchange와 같은 전문가 작업 영역을 사용 하면 보다 세부적으로 제어할 수 있습니다. Microsoft 365 관리 센터의 탐색 창에서 전문가 작업 영역에 액세스할 수 있습니다.
+Microsoft 365 관리 센터는 모든 Microsoft 365 관리자의 공통 진입점 이며에 로그인 하 여 액세스할 수 있습니다 [https://portal.partner.microsoftonline.cn/AdminPortal/Home#/homepage](https://go.microsoft.com/fwlink/p/?linkid=850627) . 또한 Azure Active Directory 및 Exchange와 같은 전문가 작업 영역을 사용 하면 보다 세부적으로 제어할 수 있습니다. Microsoft 365 관리 센터의 탐색 창에서 전문가 작업 영역에 액세스할 수 있습니다.
 
 ::: moniker-end
 
@@ -92,7 +93,7 @@ Microsoft 365 관리 센터에서 새 기능을 사용할 수 있게 되 면 새
 
 ::: moniker range="o365-worldwide"
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 여기에 질문에 대 한 답변을 보 시겠습니까? 이 페이지 아래쪽의 **의견** 섹션으로 이동 하 여 질문을 부탁 합니다. 
   
@@ -118,7 +119,7 @@ Microsoft 365는 Office 365, Windows 10 및 Enterprise Mobility + Security가 �
 
 ## <a name="what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange"></a>특정 유형의 IT 역할 및 보안, 장치 관리 또는 Exchange와 같은 다른 작업 영역에 대 한 설명
 
-Microsoft 365 관리 센터는 Microsoft 365를 관리 하는 모든 팀 및 역할에 대 한 공통 진입점입니다. 환경, 정보 및 컨트롤은 각 관리자와 역할에 맞게 조정 되 고 사용자 지정 가능 합니다. 또한 전문가 작업 영역을 통해 강력 하 고 세밀 한 제어를 허용할 수 있습니다. 이러한 전문가 작업 영역에는 SharePoint &amp; , 팀 Skype, Exchange, 보안, 규정 준수, 장치 관리 및 Azure Active Directory가 포함 됩니다. Microsoft 365 관리 센터의 탐색 창에서 전문가 작업 영역을 찾을 수 있습니다 [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339).
+Microsoft 365 관리 센터는 Microsoft 365를 관리 하는 모든 팀 및 역할에 대 한 공통 진입점입니다. 환경, 정보 및 컨트롤은 각 관리자와 역할에 맞게 조정 되 고 사용자 지정 가능 합니다. 또한 전문가 작업 영역을 통해 강력 하 고 세밀 한 제어를 허용할 수 있습니다. 이러한 전문가 작업 영역에는 SharePoint, 팀 &amp; Skype, Exchange, 보안, 규정 준수, 장치 관리 및 Azure Active Directory가 포함 됩니다. Microsoft 365 관리 센터의 탐색 창에서 전문가 작업 영역을 찾을 수 있습니다 [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339) .
   
 모든 관리 센터를 효율적으로 사용할 수 있도록 업데이트 하는 작업은 시간이 오래 걸리지만 이미 시작 했던 관리 센터에 대 한 자세한 내용은 makeover를 참고 하세요.
   

@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 719f4904-cbdd-4889-a0cf-fbd7837dfecd
 description: 메시지 센터, 대상 지정 된 릴리스, 로드맵 및 블로그 및 커뮤니티를 사용 하 여 Microsoft 365 업데이트를 계속 해 서 확인 하는 방법을 알아봅니다.
-ms.openlocfilehash: 8e803fbf725f162d34d42cec8abc62d0de9c9178
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2700ee1eb06986c885920c7cac4a57581354d61a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628019"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399533"
 ---
 # <a name="stay-on-top-of-changes"></a>변경 내용에 관한 최신 정보 확인
 

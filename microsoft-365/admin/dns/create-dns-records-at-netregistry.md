@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,12 +22,12 @@ search.appverid:
 - BEA160
 ms.assetid: 48e09394-2287-4b3c-9853-21eadf61277e
 description: Microsoft의 Netregistry에서 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: ed3e3bae232dcbb3c8e4eea3d1a3bc4dd0a88799
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: c4e81e92b9f86d0a2974e6f95e397f3584c9a01e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939158"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400367"
 ---
 # <a name="create-dns-records-at-netregistry-for-microsoft"></a>Microsoft에 대 한 Netregistry에서 DNS 레코드 만들기
 
@@ -81,7 +82,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
   
     **새 TXT 레코드** 폼에서 다음 표의 값을 입력 하거나 복사 하 여 붙여넣습니다. 
     
-    |**Name(이름)**|**TTL (초)**|**TXT (주소 또는 값에 가리키기)**|
+    |**이름**|**TTL (초)**|**TXT (주소 또는 값에 가리키기)**|
     |:-----|:-----|:-----|
     |(공백으로 둠)  <br/> |3600 (초)  <br/> |"MS = msXXXXXXXX"  <br/> **참고:** 이 값은 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)  |
        
@@ -135,9 +136,9 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 6. **새 MX 레코드** 폼에서 다음 표의 값을 입력 하거나 복사 하 여 붙여넣습니다. 
     
-    |**Name(이름)**|**TTL (초)**|**Exchange (주소 또는 값을 가리키도록)**|**호스트 정규화 여부**|**기본 설정 (우선 순위)**|
+    |**이름**|**TTL (초)**|**Exchange (주소 또는 값을 가리키도록)**|**호스트 정규화 여부**|**기본 설정 (우선 순위)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |(공백으로 둠)  <br/> |3600 (초)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft 계정에서 * \<도메인 키\> * 를 가져옵니다.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)      |(확인란 선택)  <br/> |10    <br/> For more information about priority, see What is MX priority?  <br/> |
+    |(공백으로 둠)  <br/> |3600 (초)  <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **참고:** *\<domain-key\>* Microsoft 계정에서를 다운로드 하세요.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)      |(확인란 선택)  <br/> |10    <br/> For more information about priority, see What is MX priority?  <br/> |
        
     ![Netregistry_MX_values](../../media/518b3da6-4055-4e2d-b5ce-44a0fee25419.png)
   

@@ -17,6 +17,7 @@ ms.collection:
 ms.custom:
 - TopSMBIssues
 - okr_SMB
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -25,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 5480fc33-dd47-41e7-bcfb-b2533efdb92a
 description: '비즈니스에 대 한 Microsoft 365의 주요 구독에 대 한 답변을 확인 합니다. '
-ms.openlocfilehash: 5d5b705c8c283103c09dc13dd13b853ffb3b270b
-ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
+ms.openlocfilehash: 04e2a24ced149e67899608237bdde67eac3f8bad
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232808"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400764"
 ---
 # <a name="top-billing-questions-for-microsoft-365-for-business"></a>비즈니스에 대 한 Microsoft 365에 대 한 주요 대금 청구 질문
 

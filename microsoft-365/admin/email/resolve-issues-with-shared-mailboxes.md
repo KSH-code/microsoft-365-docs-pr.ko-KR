@@ -15,17 +15,18 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 공유 사서함에서 문제가 발생 하는 경우 다음 솔루션을 사용해 보세요.
-ms.openlocfilehash: 52aac8ab6936dfeba2ae4b5b7a80c45029ec6105
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5d6de9ac66b11f0e50b259cdca0b1bb50b8326ee
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628750"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400019"
 ---
 # <a name="resolve-issues-with-shared-mailboxes"></a>공유 사서함의 문제 해결
 
@@ -34,7 +35,7 @@ ms.locfileid: "43628750"
 ## <a name="error-when-creating-shared-mailboxes"></a>공유 사서함을 만들 때 오류 발생
 <a name="bkmk_Fix"> </a>
 
-오류 메시지가 표시 되 면 " **\<name>"의 프록시 주소 또는 LegacyExchangeDN에서 프록시 주소\>"smtp: <공유 사서함 이름"을 이미 사용 하 고 있는 것입니다. 다른 프록시 주소를 선택**하 여 이미 사용 중인 공유 사서함의 이름을 지정 하 고 있음을 의미 합니다. 예를 들어 공유 사서함 이름을 info@domain1 및 info@domain2로 지정하려 합니다. 이 작업은 다음 두 가지 방법으로 수행할 수 있습니다.
+오류 메시지가 표시 **되 면 프록시 주소 "smtp: <공유 사서함 이름 \> "이 프록시 주소 또는 LegacyExchangeDN ""에서 이미 사용 되 고 있는 것입니다 \<name> . 다른 프록시 주소를 선택**하 여 이미 사용 중인 공유 사서함의 이름을 지정 하 고 있음을 의미 합니다. 예를 들어 공유 사서함 이름을 info@domain1 및 info@domain2로 지정하려 합니다. 이 작업은 다음 두 가지 방법으로 수행할 수 있습니다.
 
   - Windows PowerShell을 사용 합니다. 이 블로그 게시물에서 지침을 참조 하세요. [다른 도메인에서 같은 별칭을 사용 하 여 공유 사서함 만들기](https://www.cogmotive.com/blog/office-365-tips/create-shared-mailboxes-with-same-alias-at-different-domains-in-office-365)
     

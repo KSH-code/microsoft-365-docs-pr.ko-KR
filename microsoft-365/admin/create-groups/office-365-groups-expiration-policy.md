@@ -13,17 +13,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Microsoft 365 그룹 만료 정책에 대해 자세히 알아봅니다.
-ms.openlocfilehash: 0cb67b87a542d021387365802bd5969f4c4332b8
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 00dfb09cdf4fe3f70344152444e7433c1de8a8c2
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064824"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400728"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Microsoft 365 그룹 만료 정책
 
@@ -57,7 +58,7 @@ Microsoft 365 그룹의 사용이 증가 함에 의해 관리자와 사용자는
 
 ## <a name="how-to-set-the-expiration-policy"></a>만료 정책을 설정 하는 방법
 
-위에서 설명한 것 처럼 만료는 기본적으로 해제 되어 있습니다. 관리자는 만료 정책을 사용 하도록 설정 하 고 속성을 설정 해야 해당 정책이 적용 됩니다. 이 기능을 사용 하도록 설정 > 하려면 **AAD (Azure Active Directory)****그룹** > **만료**로 이동 합니다. 여기에서 기본 그룹 수명을 설정 하 고 첫 번째 및 두 번째 만료 알림이 그룹 소유자에 게 이동 하기 전 까지의 간격을 지정할 수 있습니다.
+위에서 설명한 것 처럼 만료는 기본적으로 해제 되어 있습니다. 관리자는 만료 정책을 사용 하도록 설정 하 고 속성을 설정 해야 해당 정책이 적용 됩니다. 이 기능을 사용 하도록 설정 하려면 **AAD (Azure Active Directory)**  >  **그룹**  >  **만료**로 이동 합니다. 여기에서 기본 그룹 수명을 설정 하 고 첫 번째 및 두 번째 만료 알림이 그룹 소유자에 게 이동 하기 전 까지의 간격을 지정할 수 있습니다.
 
 그룹 수명은 일 단위로 지정 되며 180, 365 또는 지정한 사용자 지정 값으로 설정할 수 있습니다. 사용자 지정 값은 30 일 이상 이어야 합니다.
 

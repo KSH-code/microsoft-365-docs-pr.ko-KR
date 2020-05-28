@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: f3bd3c62-0477-48e4-b2b5-21e329d67985
 description: Hostgator에서 사용자 지정 도메인의 DNS 레코드를 관리 하도록 Microsoft를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 09f0409ed2a5f81b450c9aae7bb3699373ce6f22
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 787fe5f5e768d9d93cfca9d1644037142822216e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629890"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400644"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-hostgator"></a>Hostgator을 사용 하 여 Microsoft 365을 설정 하도록 이름 서버 변경
 
@@ -70,7 +71,7 @@ Microsoft에서 DNS 레코드를 관리 하도록 하려면 다음 지침을 따
 > [!IMPORTANT]
 > 이 절차를 수행 하기 전에 먼저이 문서의 첫 번째 섹션에 나와 있는 절차를 수행 하 고 [도메인을 호스팅 계정으로](#point-your-domain-to-your-hosting-account)지정 해야 합니다.
   
-Microsoft에서 도메인을 사용 하기 전에 사용자가 소유 하 고 있는지 확인 해야 합니다. 도메인 등록 기관에서 계정에 로그인 하 고 DNS 레코드를 만들 수 있는 기능은 Microsoft에 도메인을 소유 하 고 있음을 증명 합니다.
+Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소유하고 있어야 합니다. 도메인 등록 기관에서 사용자의 계정으로 로그인하고 DNS 레코드를 만들 수 있으면 Microsoft에 도메인을 소유하고 있음을 증명할 수 있습니다.
   
 > [!NOTE]
 > 이 레코드는 사용자가 도메인을 소유하고 있는지 확인하는 데만 사용되며 그 밖에 아무런 영향도 주지 않습니다. 원하는 경우 나중에 삭제할 수 있습니다.
@@ -93,7 +94,7 @@ Microsoft에서 도메인을 사용 하기 전에 사용자가 소유 하 고 �
 |||||
 |:-----|:-----|:-----|:-----|
 |**이름** <br/> |**TTL** <br/> |**종류** <br/> |**TXT 데이터** <br/> |
-|사용자의  *domain_name*  (예: fourthcoffee.com)을 사용합니다.<br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |1   <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 표에서 특정 **대상 또는 지점** 값을 사용 하 여 여기서 주소를 지정 합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)     <br/>  |
+|사용자의  *domain_name*  (예: fourthcoffee.com)을 사용합니다.<br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |1   <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)     <br/>  |
    
 4. **레코드 추가**를 선택 합니다.
     
@@ -101,7 +102,7 @@ Microsoft에서 도메인을 사용 하기 전에 사용자가 소유 하 고 �
     
 도메인 등록 기관 사이트에서 레코드를 추가 했으므로 이제 Microsoft로 이동 하 여 레코드 검색을 요청 합니다.
   
-Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인 된 것입니다.
+Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
   
 1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
 
@@ -113,7 +114,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인 된 것
 4. **도메인 확인** 페이지에서 **확인**을 선택합니다.
     
 > [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제에 문제가 있는 경우 [도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조 하세요. 
+> Typically it takes about 15 minutes for DNS changes to take effect. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제가 발생하는 경우 [도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결하기](../get-help-with-domains/find-and-fix-issues.md)를 참조하세요. 
   
 ## <a name="change-your-domains-nameserver-ns-records"></a>도메인의 NS(이름 서버) 레코드 변경
 

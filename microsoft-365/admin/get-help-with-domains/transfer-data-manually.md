@@ -13,17 +13,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
 description: 계획 또는 회사 이름을 변경 했을 때 두 Microsoft 365 계정 간에 데이터를 수동으로 전송 하거나 여러 구독을 하나로 결합 하는 방법을 알아봅니다.
-ms.openlocfilehash: 1eaaf48f445eb54ebf91b96924c39e9062eea4fb
-ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
+ms.openlocfilehash: 69476687915024accabdce2a603ebdd7e8b653af
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44053743"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399875"
 ---
 # <a name="transfer-data-manually-between-two-accounts"></a>두 계정 간에 데이터를 수동으로 전송
 
@@ -61,16 +62,16 @@ Microsoft 365 Enterprise 및 Microsoft 365 중소 Business:
   
 |**위치**|**용도**|
 |:-----|:-----|
-|**관리** \> **Microsoft 365** \> **서비스 설정** <br/> |메일, 사이트, Lync, 사용자 소프트웨어, 암호, 커뮤니티, 권한 관리 및 모바일의 설정에 대 한 각 탭을 선택 합니다.  <br/> |
-|**관리** \> **Exchange** <br/> | Exchange Online 설정  <br/> |
-|**관리** \> **SharePoint** <br/> | SharePoint Online 설정  <br/> |
-|**Admin** \> **비즈니스용 Skype** 관리자 <br/> |추가 비즈니스용 Skype 설정  <br/> |
+|**관리자** \> **Microsoft 365** \> **서비스 설정** <br/> |메일, 사이트, Lync, 사용자 소프트웨어, 암호, 커뮤니티, 권한 관리 및 모바일의 설정에 대 한 각 탭을 선택 합니다.  <br/> |
+|**관리자** \> **Exchange** <br/> | Exchange Online 설정  <br/> |
+|**관리자** \> **SharePoint** <br/> | SharePoint Online 설정  <br/> |
+|**관리자** \> **비즈니스용 Skype** <br/> |추가 비즈니스용 Skype 설정  <br/> |
 
 Microsoft 365 Small Business
   
 |**위치**|**용도**|
 |:-----|:-----|
-|\> **관리** **조직 차원의 설정 관리** <br/> |관리 설정  <br/> |
+|**관리자** \> **조직 수준 설정 관리** <br/> |관리 설정  <br/> |
 
 ## <a name="transfer-a-public-website-between-subscriptions"></a>구독 간 공용 웹 사이트 전송
 

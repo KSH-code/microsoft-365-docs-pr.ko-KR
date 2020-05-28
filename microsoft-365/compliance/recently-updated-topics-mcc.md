@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 description: Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는 항상 발전 하 고 있습니다. Microsoft에서는 피드백에 따라 계속 새 문서를 만들고, 기존 기사를 업데이트 하 고, 변경 작업을 수행 하 고 있습니다. 이번 달의 새로운 기능과 업데이트 된 기능에 대해 알아보세요.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 750165aab3612e3edb6a56f69eebf0778e141fde
-ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
+ms.openlocfilehash: 94a4025a0a30ce26175a1a598713721aaa835ee7
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231901"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401202"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Microsoft 365 준수 콘텐츠에 대 한 최신 업데이트
 
@@ -100,13 +100,6 @@ Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는
 ### <a name="pst-import"></a>PST 가져오기
 
 [PST 파일 가져오기에 대 한 FAQ](faqimporting-pst-files-to-office-365.md) (업데이트 됨)<br>PST 가져오기 프로세스에서 중복 전자 메일 항목을 처리 하는 방법에 대 한 FAQ가 추가 되었습니다.
-
-### <a name="retention"></a>보존
-
-[보존 정책 개요](retention-policies.md) (업데이트 됨)<br>변경 내용은 다음과 같습니다.
-
-- 보존 전용 및 삭제 전용 보존 정책에 대 한 콘텐츠 경로가 추가 되었습니다 (이전에는 콘텐츠 경로가 유지 및 삭제에만 설명 됨).
-- SharePoint 위치에서 사이트를 선택 하는 대신 URL을 지정 하는 방법을 설명 하는 [업데이트 된 섹션이](retention-policies.md#applying-a-retention-policy-to-an-entire-organization-or-specific-locations) 추가 되었습니다. 즉, 사이트에 액세스 하는 데 필요한 권한이 보존 정책에 포함 되지 않습니다.
 
 ### <a name="sensitivity-labels"></a>민감도 레이블
 

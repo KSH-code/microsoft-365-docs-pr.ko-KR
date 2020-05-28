@@ -14,6 +14,9 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - Adm_O365_Setup
+ms.custom:
+- okr_smb
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -22,13 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: 전자 메일 및 비즈니스용 Skype 온라인 등의 서비스에서 고유한 도메인 이름을 사용 하도록 Microsoft 365에서 도메인을 추가 및 설정 하는 방법에 대해 알아봅니다.
-ms.custom: okr_smb
-ms.openlocfilehash: e987d1194d3ee86548a6628310ebdfd14cdbb9ea
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 16e8699c1c8588a4368f04078fea44c165c13e29
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628509"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399995"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>모든 도메인 등록 기관에서 Microsoft 365을 설정 하도록 이름 서버 변경
 
@@ -48,7 +50,7 @@ ms.locfileid: "43628509"
 > [!NOTE]
 > 이러한 레코드 중 하나만 만들어집니다. TXT가 기본 레코드 형식이지만 일부 DNS 호스팅 공급자는 이를 지원하지 않으며, 이 경우 대신 MX 레코드를 만들면 됩니다. 
   
-Microsoft 365에서 도메인을 사용 하기 전에 사용자가 소유 하 고 있는지 확인 해야 합니다. 도메인 등록 기관에서 계정에 로그인 하 고 DNS 레코드를 만들 수 있는 기능은 Microsoft 365에 도메인을 소유 하 고 있음을 증명 합니다.
+Microsoft 365에서 사용자 도메인을 사용하려면 먼저 도메인을 소유하고 있어야 합니다. 도메인 등록 기관에서 사용자의 계정으로 로그인하고 DNS 레코드를 만들 수 있으면 Microsoft 365에 도메인을 소유하고 있음을 증명할 수 있습니다.
   
 > [!NOTE]
 > 이 레코드는 사용자가 도메인을 소유하고 있는지 확인하는 데만 사용되며 그 밖에 아무런 영향도 주지 않습니다. 원하는 경우 나중에 삭제할 수 있습니다. 
@@ -71,20 +73,20 @@ Microsoft 365에서 도메인을 사용 하기 전에 사용자가 소유 하 �
 |:-----|:-----|:-----|:-----|
 |**Record Type(레코드 종류)** <br/> |**Alias(별칭)** 또는 **Host Name(호스트 이름)** <br/> |**Value(값)** <br/> |**TTL** <br/> |
 |TXT  <br/> |다음 중 하나를 수행합니다. **@** 을 입력하거나 필드를 비워 두거나 도메인 이름을 입력합니다.      <br/> > [!NOTE]> 이 필드의 경우 각 DNS 호스트마다 요구 사항이 다릅니다.           
-|MS=ms *XXXXXXXX*  <br/> > [!NOTE]> 이 값은 예시입니다. 여기에는 Microsoft 365의 표에 나와 있는 특정 **대상 또는 지점** 값을 사용 합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |이 값을 **1시간** 또는 등가의 분( **60** ), 초( **3600** ) 단위로 설정합니다.  <br/> |
+|MS=ms *XXXXXXXX*  <br/> > [!NOTE]> 이 값은 예시입니다. 여기에는 Microsoft 365의 표에 있는 특정 **주소를 지정할 대상 또는 지점** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |이 값을 **1시간** 또는 등가의 분( **60** ), 초( **3600** ) 단위로 설정합니다.  <br/> |
    
 **MX 레코드를 만드는 경우 다음 값을 사용합니다.**
     
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Record Type(레코드 종류)**|**Alias(별칭)** 또는 **Host Name(호스트 이름)**|**Value(값)**|**Priority(우선 순위)**|**TTL**|
-|MX|**@** 또는 도메인 이름을 입력합니다. |MS=ms *XXXXXXXX* > [!NOTE]> 이 값은 예시입니다. 여기에는 Microsoft 365의 표에 나와 있는 특정 **대상 또는 지점** 값을 사용 합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |**우선 순위**의 경우, 메일 흐름에 사용되는 MX 레코드와의 충돌을 피하기 위해 기존 MX 레코드의 우선 순위보다 낮은 우선 순위를 사용합니다. 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](../setup/domains-faq.md#what-is-mx-priority)을 참조하세요. |이 값을 **1시간** 또는 등가의 분( **60** ), 초( **3600** ) 단위로 설정합니다. |
+|MX|**@** 또는 도메인 이름을 입력합니다. |MS=ms *XXXXXXXX* > [!NOTE]> 이 값은 예시입니다. 여기에는 Microsoft 365의 표에 있는 특정 **주소를 지정할 대상 또는 지점** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |**우선 순위**의 경우, 메일 흐름에 사용되는 MX 레코드와의 충돌을 피하기 위해 기존 MX 레코드의 우선 순위보다 낮은 우선 순위를 사용합니다. 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](../setup/domains-faq.md#what-is-mx-priority)을 참조하세요. |이 값을 **1시간** 또는 등가의 분( **60** ), 초( **3600** ) 단위로 설정합니다. |
    
 ### <a name="save-the-record"></a>레코드 저장
 
-도메인 등록 기관 사이트에서 레코드를 추가 했으므로 이제 Microsoft 365으로 돌아가 Microsoft 365에 요청 하 여 레코드를 찾을 수 있습니다.
+이제 도메인 등록 기관에 레코드가 추가되었습니다. Microsoft 365로 돌아가서 Microsoft 365에 레코드를 찾을 것을 요청합니다.
   
-Microsoft 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인 된 것입니다.
+Microsoft 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
   
 
 1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.

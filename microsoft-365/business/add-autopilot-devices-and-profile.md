@@ -18,18 +18,19 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Windows AutoPilot를 사용 하 여 비즈니스에 대 한 새 Windows 10 장치를 설정 하 여 직원 들이 사용할 수 있도록 준비 하는 방법을 알아봅니다.
-ms.openlocfilehash: de14012ebf9e7cdd22e41505f316ab665773c670
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: efcb5442b34d2d42275cedc30e71ac98c7ea1266
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165884"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401097"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가
 
@@ -59,7 +60,7 @@ Windows AutoPilot를 사용 하 여 비즈니스에 대 한 **새** windows 10 �
     
     ![Click Start guide for step-by-step instructions for Autopilot.](../media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   
-3. **장치 목록이 포함 된 .csv 파일 업로드** 페이지에서 준비 된 위치로 이동 합니다. CSV 파일을 선택한 후 **다음**을 **엽니다** \> . 파일에는 다음과 같은 세 가지 헤더가 있어야 합니다.
+3. **장치 목록이 포함 된 .csv 파일 업로드** 페이지에서 준비 된 위치로 이동 합니다. CSV 파일을 선택한 후 다음을 **엽니다** \> **Next**. 파일에는 다음과 같은 세 가지 헤더가 있어야 합니다.
     
     - A 열: 장치 일련 번호
     

@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 3c490fbf-7833-4e43-be34-ed0dc3cce5e3
 description: Google Domains 페이지를 통해 eNom에 액세스 하 고 DNS를 만드는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7d79350f163d1b120d3dd45bc7bbb3e57583bf05
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6c6698f3d11f42cd0298bdb66710ec3c62bac5ca
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629134"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400259"
 ---
 # <a name="create-dns-records-when-your-domain-is-managed-by-google-enom"></a>Google (eNom)에서 도메인을 관리 하는 경우 DNS 레코드 만들기
 
@@ -89,7 +90,7 @@ Google **Domains** 페이지를 통해 enom에 액세스 하 고 DNS를 만들 �
     |@  <br/> ||TXT  <br/> |
 
     > [!NOTE]
-    > This is an example. 표에서 특정 **대상 또는 지점** 값을 사용 하 여 여기서 주소를 지정 합니다. 
+    > This is an example. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다. 
   
     [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)
   

@@ -21,18 +21,19 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: f338e660-6483-4eef-acb9-53dee5bd4408
 description: Business Cloud Suite 설치가 완료 되 고 기본 장치 정책이 준비 되어 적용할 준비가 된 후 예상 되는 작업에 대해 알아봅니다.
-ms.openlocfilehash: 375a46fd946b42dc391ff6e4dabe98a435074377
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d3aad182f7e233f239b35e35c032e8ca09c57769
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627217"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400925"
 ---
 # <a name="help-users-connect-to-microsoft-365-business-premium"></a>Microsoft 365 Business Premium에 연결 하는 데 도움이 되는 도움말
 

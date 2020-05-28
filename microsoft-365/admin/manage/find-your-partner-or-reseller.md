@@ -15,6 +15,7 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -22,12 +23,12 @@ search.appverid:
 - BEA160
 ms.assetid: b6c18a9b-2aed-4c84-9d75-af709160258c
 description: '새 Microsoft 365 파트너를 찾거나 이전에 작업 한 파트너에 대 한 연락처 정보를 가져오는 방법을 알아봅니다. '
-ms.openlocfilehash: 54933174816047188a8c084c63df6c1e8e166d82
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 749f1a12ffbd1512b15a83e7979aea3b0cb3be48
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628187"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399767"
 ---
 # <a name="find-your-partner-or-reseller"></a>파트너 또는 대리점 찾기
 
@@ -50,7 +51,7 @@ ms.locfileid: "43628187"
   
 ## <a name="get-partner-info-in-the-admin-center"></a>관리 센터에서 파트너 정보 가져오기
 
-1. 관리 센터에서<a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">파트너 관계</a> **설정** > 페이지로 이동 합니다.
+1. 관리 센터에서 **Settings**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">파트너 관계</a> 설정 페이지로 이동 합니다.
   
 2. 파트너가 있는 경우 파트너의 이름과 조직에 대 한 관계가 여기에 나열 됩니다. 파트너 연락처 정보 (전화 번호 및 전자 메일 주소)를 확인 하려면 파트너 이름을 선택 합니다.
     

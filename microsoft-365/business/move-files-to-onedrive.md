@@ -18,17 +18,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
 description: 몇 가지 간단한 단계 만으로 개인 회사 파일 및 중요 한 회사 파일을 비즈니스용 OneDrive로 이동할 수 있는 방법을 알아봅니다.
-ms.openlocfilehash: 4c41928ac51950a5a8c372ef0a170a76ff48ed2e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ec225eb43d79bebaa7035178d4d1751c58149e7a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633142"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401365"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>비즈니스용 OneDrive로 파일 이동
 
@@ -53,4 +54,4 @@ ms.locfileid: "43633142"
   
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>비즈니스를 위한 Microsoft 365 설정 및 사용에 대 한 자세한 내용은
 
-[Microsoft 365 for business 교육용 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

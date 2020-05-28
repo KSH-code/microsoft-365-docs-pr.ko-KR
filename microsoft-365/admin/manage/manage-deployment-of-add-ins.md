@@ -13,25 +13,26 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 관리 센터에서 중앙 집중식 배포를 사용 하 여 조직의 사용자 및 그룹에 추가 기능을 배포 하는 방법을 알아봅니다.
-ms.openlocfilehash: cb41d02d8075e94c788a9964e0a3ac69d8363ef4
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: e71afad19690d3a05dc5f06bc0718861cb22f12d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139712"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399731"
 ---
 # <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 추가 기능 배포 관리
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -147,7 +148,7 @@ Office 추가 기능의 유형 및 기능에 대한 자세한 내용은 [Office 
 
 배포 후 관리자는 추가 기능에 대 한 사용자 액세스를 수정할 수도 있습니다.
 
-1. 관리 센터에서 **설정** > **서비스 & 추가** 기능 페이지로 이동 합니다.
+1. 관리 센터에서 **설정**  >  **서비스 & 추가** 기능 페이지로 이동 합니다.
 
 2. 배포 된 추가 기능을 선택 합니다.
 
@@ -261,7 +262,7 @@ Windows 용 Word, Excel 및 PowerPoint 2013은 ADAL (Active Directory 인증 라
   
 ### <a name="in-word-2016-excel-2016-or-powerpoint-2016"></a>Word 2016, Excel 2016 또는 PowerPoint 2016의 경우
 
-1. **내 추가 \> 기능 삽입을**선택 합니다. 
+1. ** \> 내 추가 기능 삽입을**선택 합니다. 
     
 2. Office 추가 기능 창에서 **관리자가 관리함** 탭을 선택합니다. 
     
@@ -277,7 +278,7 @@ Windows 용 Word, Excel 및 PowerPoint 2013은 ADAL (Active Directory 인증 라
 
 배포 된 추가 기능을 삭제할 수도 있습니다.
 
-1. 관리 센터에서 **설정** > **서비스 & 추가** 기능 페이지로 이동 합니다.
+1. 관리 센터에서 **설정**  >  **서비스 & 추가** 기능 페이지로 이동 합니다.
 
 2. 배포 된 추가 기능을 선택 합니다.
 

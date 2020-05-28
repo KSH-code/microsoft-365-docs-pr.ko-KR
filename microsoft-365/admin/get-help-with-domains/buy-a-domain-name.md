@@ -14,6 +14,9 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - Adm_O365_Setup
+ms.custom:
+- AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
@@ -21,20 +24,19 @@ search.appverid:
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Microsoft 365에서 도메인 이름을 구입 하는 방법을 알아봅니다.
-ms.custom: okr_smb
-ms.openlocfilehash: e60947b2f0f2591d09add00bd5aeb2ad3a5aa161
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 9358df6728e1e29228241887be65fb68a4720281
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140420"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400007"
 ---
 # <a name="buy-a-domain-name"></a>도메인 이름 구매
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -42,7 +44,7 @@ ms.locfileid: "44140420"
 
  원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.md)** 하세요. 
   
-### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>로그인 하 고 설정 \> 도메인 \> 으로 이동 하 여 도메인 구입
+### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>로그인 하 고 설정 도메인으로 이동 하 여 \> \> 도메인 구입
 
 1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
     
@@ -80,7 +82,7 @@ Microsoft는 도메인 구입과 함께 무료 도메인 개인 정보 구독을
 ### <a name="buy-a-domain-from-another-domain-registrar"></a>다른 도메인 등록 기관에서 도메인 구입
 [Godaddy](https://www.godaddy.com)이외의 다른 도메인 등록 기관에서 도메인을 구입 하려면 자동 설치 (도메인 연결)를 지 원하는 아래를 사용 하는 것이 좋습니다. 
   
-- [1&amp;1GB 이상 os](https://www.1and1.com/)
+- [1 &amp; 1gb 이상 os](https://www.1and1.com/)
 - [WordPress](https://www.wordpress.com) 
 
    

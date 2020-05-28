@@ -10,15 +10,16 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: ''
+ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 365 관리 센터의 통합 앱 포털에서 조직의 사용자 및 그룹에 대해 Microsoft 및 Microsoft 파트너 앱을 검색 하 고 테스트 하 고 배포 합니다.
-ms.openlocfilehash: bc9ad91a664072f4291f0c95c029fb2ca06530f5
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 787c1670cff865e1f207a1554f3fa6a0b1a28f1d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942160"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399521"
 ---
 # <a name="test-and-deploy-microsoft-365-apps-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 Microsoft 365 앱 테스트 및 배포
 

@@ -13,25 +13,26 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: 보안 그룹을 만들거나 편집 하거나 삭제 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6f4daa66c11675674fdbfbfeb625128d8f817520
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 283f1eca7500bfb1d8172657639bbc7cff76906f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140444"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400091"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 보안 그룹 만들기, 편집 또는 삭제
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -46,7 +47,7 @@ Microsoft 365 **Groups** 페이지에서는 SharePoint ONLINE 및 CRM online에 
 
 ### <a name="add-a-security-group"></a>보안 그룹 추가
 
-1. Microsoft 365 관리 센터에서 **그룹** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">그룹</a> 페이지로 이동 합니다.
+1. Microsoft 365 관리 센터에서 **그룹**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">그룹</a> 페이지로 이동 합니다.
   
 2. **그룹** 페이지에서 **그룹 추가**를 선택 합니다.
     
@@ -113,7 +114,7 @@ Microsoft 365 **Groups** 페이지에서는 SharePoint ONLINE 및 CRM online에 
     
 3. 보안 그룹 창에서 **이름** 또는 **구성원** 탭 옆에 있는 **편집** 을 선택 하 여 그룹 세부 정보 또는 구성원을 편집 합니다.
     
-4. 변경 작업을 수행한 후 **닫기** **저장** \> 을 선택 합니다.
+4. 변경 작업을 수행한 후 닫기 **저장** 을 선택 \> **Close**합니다.
 
 ::: moniker-end
 
@@ -125,14 +126,14 @@ Microsoft 365 **Groups** 페이지에서는 SharePoint ONLINE 및 CRM online에 
     
 3. 보안 그룹 창에서 **이름** 또는 **구성원** 탭 옆에 있는 **편집** 을 선택 하 여 그룹 세부 정보 또는 구성원을 편집 합니다.
     
-4. 변경 작업을 수행한 후 **닫기** **저장** > 을 선택 합니다.
+4. 변경 작업을 수행한 후 닫기 **저장** 을 선택 > **Close**합니다.
 
 ::: moniker-end
 
 
 ### <a name="delete-a-security-group"></a>보안 그룹 삭제
 
-1. 관리 센터에서 **그룹** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">그룹</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **그룹**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">그룹</a> 페이지로 이동 합니다.
     
 2. **그룹** 페이지에서 그룹의 이름을 선택 합니다. 
     
@@ -142,7 +143,7 @@ Microsoft 365 **Groups** 페이지에서는 SharePoint ONLINE 및 CRM online에 
     
 ## <a name="groups-in-exchange-online-and-sharepoint-online"></a>Exchange Online 및 SharePoint Online의 그룹
 
-전자 메일을 모두 동시에 보낼 수 있도록 사용자 그룹을 만들려는 경우에는 exchange 관리 센터에서 **관리** \> **exchange** \> **받는 사람** \> **그룹**으로 이동 하 여이 작업을 수행할 수 있습니다. 그런 다음 **새로 만들기**![](../../media/328ffb57-5f31-430a-b653-4a6b8e76d338.png)를 선택 하 고 만들려는 그룹의 유형을 선택 합니다. 
+전자 메일을 모두 동시에 보낼 수 있도록 사용자 그룹을 만들려는 경우에는 exchange 관리 센터에서 **관리** \> **exchange** \> **받는 사람** \> **그룹**으로 이동 하 여이 작업을 수행할 수 있습니다. 그런 다음 **새로 만들기** ![ 를 선택 하 ](../../media/328ffb57-5f31-430a-b653-4a6b8e76d338.png) 고 만들려는 그룹의 유형을 선택 합니다. 
   
 - **메일 그룹**: 사용자 그룹에 메시지를 배포하는 데 사용됩니다. *메일 사용이 가능한 메일 그룹*또는 *메일*그룹이 라고도 합니다. 자세한 내용은 [메일 그룹 관리](https://technet.microsoft.com/library/bb124513.aspx)를 참조하세요.
     

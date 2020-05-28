@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
 description: Microsoft의 Windows 기반 DNS에 있는 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대해 도메인을 확인 하 고 DNS 레코드를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 1aaf81dddf27911ad3562bec6f56fb34c64fd37d
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 8f65a397552813f22d4bde82f7fcd51c478d82bd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048846"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400247"
 ---
 # <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>Windows 기반 DNS를 사용 하 여 Microsoft에 대 한 DNS 레코드 만들기
 
@@ -38,21 +39,21 @@ Windows 기반 DNS를 사용하여 자체 DNS 레코드를 호스트하는 경�
 메일 흐름 문제 또는 기타 문제 DNS 레코드를 추가한 후에는 [도메인 이름 또는 DNS 레코드 변경 후 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조 하세요. 
   
 ## <a name="find-your-dns-records-in-windows-based-dns"></a>Windows 기반 DNS에서 DNS 레코드 찾기
-<a name="BKMK_find_your_dns_1"> </a> 도메인에 대 한 DNS 레코드가 있는 페이지로 이동 합니다. Windows Server 2008에서 작업 하는 경우 **시작** > **실행**으로 이동 합니다. Windows Server 2012에서 작업 하는 경우 Windows 키 및 **r**키를 누릅니다. **Dnsmgmnt.msc**를 입력 한 다음 **확인**을 선택 합니다. Dns 관리자에서 ** \<dns 서버 이름\> \> 정방향 조회 영역  **을 확장 합니다. 도메인을 선택합니다. 이제 DNS 레코드를 만들 준비가 되었습니다.
+<a name="BKMK_find_your_dns_1"> </a> 도메인에 대 한 DNS 레코드가 있는 페이지로 이동 합니다. Windows Server 2008에서 작업 하는 경우 **시작**  >  **실행**으로 이동 합니다. Windows Server 2012에서 작업 하는 경우 Windows 키 및 **r**키를 누릅니다. **Dnsmgmnt.msc**를 입력 한 다음 **확인**을 선택 합니다. DNS 관리자에서 ** \<DNS server name\> \> 정방향 조회 영역  **을 확장 합니다. 도메인을 선택합니다. 이제 DNS 레코드를 만들 준비가 되었습니다.
    
 ## <a name="add-mx-record"></a>MX 레코드 추가
 <a name="BKMK_add_MX"> </a>
 
 도메인에 대 한 전자 메일이 Microsoft에 제공 되도록 MX 레코드를 추가 합니다.
-- 추가할 MX 레코드에는 \<MX 토큰\> .mail.protection.outlook.com과 같은 값 (**지점 주소** 값)이 포함됩니다. 여기서 \<MX 토큰\>은 MSxxxxxxx와 같은 값입니다. 
+- 추가할 MX 레코드에는 mail.protection.outlook.com와 같이 표시 되는 값 ( **주소에 대 한 점수** 값)이 포함 됩니다 \<MX token\> . \<MX token\> 
 - Microsoft의 DNS 레코드 추가 페이지에서 Exchange Online 섹션의 MX 행에서 Points to address에 나열 된 값을 복사 합니다. 이 값은이 작업에서 만드는 레코드에 사용 됩니다. 
-- 도메인의 DNS 관리자 페이지에서 **동작** > **MX (메일 교환기)** 로 이동 합니다. 해당 도메인의이 페이지를 찾으려면 [Windows 기반 dns에서 dns 레코드 찾기를](#find-your-dns-records-in-windows-based-dns)참조 하세요.  
+- 도메인의 DNS 관리자 페이지에서 **동작**  >  **MX (메일 교환기)** 로 이동 합니다. 해당 도메인의이 페이지를 찾으려면 [Windows 기반 dns에서 dns 레코드 찾기를](#find-your-dns-records-in-windows-based-dns)참조 하세요.  
 - **새 리소스 레코드** 대화 상자에서 필드가 정확히 다음 값으로 설정 되었는지 확인 합니다. 
     - 호스트 이름:  
     - @Address: Microsoft에서 방금 복사한 점수 값을 여기에 붙여 넣습니다.  
     - 우선 
 - **변경 내용 저장**을 선택 합니다.
-- 사용되지 않는 MX 레코드를 제거합니다. 다른 곳에서 전자 메일을 라우팅하는이 도메인에 대 한 오래 된 MX 레코드가 있는 경우에는 각 이전 레코드 옆의 확인란을 선택 하 고**확인** **삭제** > 를 선택 합니다. 
+- 사용되지 않는 MX 레코드를 제거합니다. 다른 곳에서 전자 메일을 라우팅하는이 도메인에 대 한 오래 된 MX 레코드가 있는 경우에는 각 이전 레코드 옆의 확인란을 선택 하 고 확인 **삭제**를 선택  >  **OK**합니다. 
    
 ## <a name="add-cname-records"></a>CNAME 레코드 추가
 <a name="BKMK_add_CNAME"> </a>
@@ -62,7 +63,7 @@ Microsoft에 필요한 CNAME 레코드를 추가 합니다. Microsoft에 추가 
 > [!IMPORTANT]
 > Microsoft 용 MDM (모바일 장치 관리)이 있는 경우 두 개의 CNAME 레코드를 추가로 만들어야 합니다. 다른 4개의 CNAME 레코드를 만드는 데 사용한 절차를 따르되 다음 표의 값을 입력합니다. (MDM이 없는 경우에는이 단계를 건너뛰어도 됩니다.) 
 
-- 도메인의 DNS 관리자 페이지에서 **작업** > **cname (cname)** 로 이동 합니다.
+- 도메인의 DNS 관리자 페이지에서 **작업**  >  **cname (cname)** 로 이동 합니다.
 - **새 리소스 레코드** 대화 상자에서 필드가 정확히 다음 값으로 설정 되었는지 확인 합니다.  
     - 호스트 이름: 자동 검색
     - 형식일 
@@ -132,7 +133,7 @@ MDM Enterpriseenrollment CNAME 레코드를 추가합니다.
 Microsoft에 필요한 두 개의 SRV 레코드를 추가 합니다.
 
 비즈니스용 Skype Online 웹 회의에 대한 SIP SRV 레코드를 추가합니다.  <br/> 
--  도메인의 DNS 관리자 페이지에서 **다른 새 레코드** **작업** \> 으로 이동 합니다. 
+-  도메인의 DNS 관리자 페이지에서 **Action** \> **다른 새 레코드**작업으로 이동 합니다. 
 -   **리소스 레코드 종류** 창에서 **서비스 위치 (SRV)** 를 선택한 다음 **레코드 만들기**를 선택 합니다. 
 -   **새 리소스 레코드** 대화 상자에서 필드가 정확히 다음 값으로 설정 되었는지 확인 합니다.  
     -  서비스: _sip
@@ -145,7 +146,7 @@ Microsoft에 필요한 두 개의 SRV 레코드를 추가 합니다.
 
 
 비즈니스용 Skype Online 페더레이션에 대한 SIP SRV 레코드를 추가합니다.  
--  도메인의 DNS 관리자 페이지에서 **다른 새 레코드** **작업** \> 으로 이동 합니다.  
+-  도메인의 DNS 관리자 페이지에서 **Action** \> **다른 새 레코드**작업으로 이동 합니다.  
 -  **리소스 레코드 종류** 창에서 **서비스 위치 (SRV)** 를 선택한 다음 **레코드 만들기**를 선택 합니다. 
 -   **새 리소스 레코드** 대화 상자에서 필드가 정확히 다음 값으로 설정 되었는지 확인 합니다.  
     -  서비스: _sipfederationtls
@@ -183,14 +184,14 @@ TXT 레코드를 추가합니다.
 - 호스트 이름: @
 - 문자: TXT
 - 주소: 지금 Microsoft에서 복사한 대상 또는 주소 값을 붙여 넣습니다.  
-- **확인** > **완료**를 선택 합니다.
+- **확인**  >  **완료**를 선택 합니다.
 
 Microsoft에서 도메인을 확인 합니다.  
 > [!IMPORTANT]
 > 이 작업을 수행 하기 전에 15 분 정도 기다린 후 방금 만든 레코드가 인터넷을 통해 업데이트 될 수 있도록 합니다.       
 
 - Microsoft로 돌아가서 아래 단계에 따라 확인을 요청 합니다. 확인을 통해 이전 단계에 추가한 TXT 레코드를 찾습니다. 올바른 TXT 레코드가 발견되면 도메인이 확인됩니다.  
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> **설정** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> 설정 페이지로 이동 합니다.
 2. **도메인** 페이지의 확인 하려는 도메인에 대 한 **작업** 열에서 **설정 시작**을 선택 합니다. 
 3. 사용자의 **도메인 소유 여부 확인** 페이지에서 **완료, 지금 확인**을 차례로 선택 하 고 확인 대화 상자에서 **마침을**선택 합니다. 
    

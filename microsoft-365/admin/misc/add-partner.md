@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -20,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
 description: Microsoft 365 구입 시에 구독 관리자 파트너를 record 파트너로 추가 하거나, 파트너를 변경 하거나, 구독에서 파트너를 삭제 하는 방법을 알아봅니다.
-ms.openlocfilehash: daefb83335af84403cb2dd4e9c7759700eab8278
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: fa9cd549c0af616776722f6d2be4ecb9ecac1bc7
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045287"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399473"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>구독 관리자 파트너 추가, 변경, 삭제
 
@@ -114,7 +115,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
 > [!NOTE]
 > 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
     
 2. 구독이 둘 이상인 경우에는 편집할 구독을 선택 합니다.
   
@@ -130,7 +131,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
     
 2. 구독이 둘 이상인 경우에는 편집할 구독을 선택 합니다.
   
-3. 오른쪽의 구독 비용 아래에 있는 **추가 작업** > 에서 **레코드 파트너 추가**를 선택 합니다.
+3. 오른쪽의 구독 비용 아래에 있는 **추가 작업** 에서 > **레코드 파트너 추가**를 선택 합니다.
 
 4. 추가할 파트너의 Microsoft 파트너 ID를 입력하고 **ID 검사**를 선택한 다음 **제출**을 선택합니다. 해당 파트너에게 문의하면 Microsoft 파트너 ID를 얻을 수 있습니다.
 
@@ -161,7 +162,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
 > [!NOTE]
 > 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
     
 2. 구독이 여러 개 있는 경우 편집하려는 구독의 이름을 선택합니다.
     
@@ -198,7 +199,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
 
 ## <a name="view-your-partner-relationships"></a>파트너 관계 보기
 
-- 관리 센터에서<a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">파트너 관계</a> **설정** > 페이지로 이동 합니다. 파트너가이 페이지에 나열 됩니다. 
+- 관리 센터에서 **Settings**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">파트너 관계</a> 설정 페이지로 이동 합니다. 파트너가이 페이지에 나열 됩니다. 
   
   파트너가 없으면 "여기에 아무 것도 없음" 이라는 메시지가 표시 됩니다.
   
@@ -209,7 +210,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
 > [!NOTE]
 > 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
-1.  관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
+1.  관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
     
 2. 구독이 여러 개 있는 경우 편집하려는 구독의 이름을 선택합니다.
     
@@ -248,7 +249,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
 
 ::: moniker range="o365-worldwide"
 
-대리점 관계는 제거할 수 없습니다.
+대리점 관계를 스스로 제거할 수는 없습니다.
   
 리셀러 관계를 제거 하는 경우 **삭제** 옵션이 회색으로 표시 되며, 이러한 지침을 따르려면 대리점 파트너에 게 문의 해야 합니다. [파트너와의 대리점 관계 제거](https://docs.microsoft.com/partner-center/remove-a-relationship)
 
@@ -256,7 +257,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
 
 ::: moniker range="o365-germany"
 
-대리점 관계는 제거할 수 없습니다.
+대리점 관계를 스스로 제거할 수는 없습니다.
   
 리셀러 관계를 제거 하는 경우 **삭제** 옵션이 회색으로 표시 되며, 이러한 지침을 따르려면 대리점 파트너에 게 문의 해야 합니다. [파트너와의 대리점 관계 제거](https://docs.microsoft.com/partner-center/remove-a-relationship)
   
@@ -264,7 +265,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
 
 ::: moniker range="o365-21vianet"
 
-대리점 관계는 제거할 수 없습니다.
+대리점 관계를 스스로 제거할 수는 없습니다.
   
 리셀러 관계를 제거 하는 경우 **삭제** 옵션이 회색으로 표시 되며, 이러한 지침을 따르려면 대리점 파트너에 게 문의 해야 합니다. [파트너와의 대리점 관계 제거](https://docs.microsoft.com/partner-center/remove-a-relationship)
   

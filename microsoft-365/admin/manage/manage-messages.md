@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 97af2932-0868-4ccf-8f6b-21a94946c58a
 description: 변경 관리에 도움이 되도록 메시지 센터 메시지를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 95a4544dd99ebce793242532ae144f00c3b16fcb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 63c46b10913b3388c833470041da3695f0988327
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628151"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399719"
 ---
 # <a name="manage-messages-in-message-center"></a>메시지 센터에서 메시지 관리
 
@@ -32,7 +33,7 @@ ms.locfileid: "43628151"
   
 ## <a name="read-a-message"></a>메시지 읽기
 
-메시지 센터로 이동 하려면 [관리 센터로](https://go.microsoft.com/fwlink/p/?linkid=2024339)이동한 후 **상태** > **메시지 센터**를 선택 합니다. 
+메시지 센터로 이동 하려면 [관리 센터로](https://go.microsoft.com/fwlink/p/?linkid=2024339)이동한 후 **상태**  >  **메시지 센터**를 선택 합니다. 
 
 메시지 제목을 선택 하 여 읽기 창에서 엽니다. 모든 메시지에는 변경 내용의 요약, 변경에 영향을 주는 방법에 대 한 설명, 변경에 대 한 조직을 준비 하는 방법에 대 한 정보, 그리고 대부분의 경우 더 자세히 알아볼 수 있는 추가 정보 링크가 포함 되어 있습니다. 메시지가 만료 된 후에도 추가 정보를 계속 사용할 수 있습니다.
 
@@ -111,7 +112,7 @@ ms.locfileid: "43628151"
 
 1. 메시지를 선택 하 여 엽니다.
 
-2. 작업 모음에서 **추가** \> **링크 가져오기를** 선택 합니다.
+2. **More** \> 작업 모음에서 추가 **링크 가져오기를** 선택 합니다.
 
 3. 웹 페이지에서 클립보드에 액세스할 수 있습니다. 직접 링크가 클립보드에 복사 됩니다.
 
@@ -123,7 +124,7 @@ ms.locfileid: "43628151"
 
 1. 메시지를 선택 하 여 엽니다.
 
-2. 작업 모음에서 **추가** \> **링크 가져오기를** 선택 합니다.
+2. **More** \> 작업 모음에서 추가 **링크 가져오기를** 선택 합니다.
 
 3. 웹 페이지에서 클립보드에 액세스할 수 있습니다. 직접 링크가 클립보드에 복사 됩니다.
 
@@ -147,7 +148,7 @@ ms.locfileid: "43628151"
 
 1. 메시지를 선택 하 여 엽니다.
 
-2. \> **읽지 않은 것으로 표시를** **선택 합니다** .
+2. **More** \> **읽지 않은 것으로 표시를**선택 합니다.
 
 3. 메시지를 닫습니다.
 
@@ -157,7 +158,7 @@ ms.locfileid: "43628151"
 
 1. 메시지를 선택 하 여 엽니다.
 
-2. \> **읽지 않은 것으로 표시를** **선택 합니다** .
+2. **More** \> **읽지 않은 것으로 표시를**선택 합니다.
 
 3. 메시지를 닫습니다.
 

@@ -19,21 +19,22 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: 앱 관리 정책을 만들고, 편집 하 고, 삭제 하 고, Android 또는 iOS 장치에서 작업 파일을 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: 0d9e901cac94fe7692ffe705c6b0a51df2bc542f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 01c50e6660d8d8640a2bff2794ee0ea8a69188c8
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627437"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401057"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Android 또는 iOS 장치에서 앱 보호 설정 설정하기
 
-![를 https://aka.ms/aboutM365preview가리키는 배너입니다.](../media/m365admincenterchanging.png)
+![를 가리키는 배너 https://aka.ms/aboutM365preview 입니다.](../media/m365admincenterchanging.png)
 
 ## <a name="create-an-app-management-policy"></a>앱 관리 정책 만들기
 
@@ -51,7 +52,7 @@ ms.locfileid: "43627437"
     
     ![Screenshot of Create a policy with Application management for Android selected](../media/eabbe06d-ac0a-4f3a-8630-68c808b1e662.png)
   
-6. Next decide **Who will get these settings?** 기본값인 **모든 사용자** 보안 그룹을 사용 하지 않으려는 경우 **변경을**선택 하 고 이러한 설정이 \> 있는 보안 그룹을 **선택**합니다.
+6. Next decide **Who will get these settings?** 기본값인 **모든 사용자** 보안 그룹을 사용 하지 않으려는 경우 **변경을**선택 하 고 이러한 설정이 있는 보안 그룹을 \> **선택**합니다.
     
 7. 마지막으로 **완료**를 선택하여 정책을 저장하고 장치를 할당합니다. 
     

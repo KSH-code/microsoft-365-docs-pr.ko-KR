@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: Outlook에서 하나 이상의 메일 그룹을 Microsoft 365 그룹으로 업그레이드 하는 방법 및 PowerShell을 사용 하 여 여러 메일 그룹을 동시에 업그레이드 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 993b0baf46b702322df64693f682e25b0240a0ab
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: cac0232b721c07ce8e07c7b101e0313eb9cd91df
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065672"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399497"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Outlook에서 Microsoft 365 그룹으로 메일 그룹 업그레이드
 
@@ -89,7 +90,7 @@ Upgrade-DistributionGroup -DlIdentities \<DL SMTP address1\>, \< DL SMTP address
 \< DL SMTP address3\>, \< DL SMTP address 4\>
 ```
 
-예를 들어 SMTP `dl1@contoso.com` 주소 `dl2@contoso.com` `dl3@contoso.com` `dl4@contoso.com` `dl5@contoso.com`와을 사용 하 여 5 개의 dl을 업그레이드 하려면 다음 명령을 실행 합니다.
+예를 들어 SMTP 주소와을 사용 하 여 5 개의 dl을 업그레이드 하려면 `dl1@contoso.com` `dl2@contoso.com` `dl3@contoso.com` `dl4@contoso.com` `dl5@contoso.com` 다음 명령을 실행 합니다.
 
 `Upgrade-DistributionGroup -DlIdentities dl1@contoso.com, dl2@contoso.com, dl3@contoso.com, dl4@contoso.com, dl5@contoso.com`
 
@@ -98,7 +99,7 @@ Upgrade-DistributionGroup -DlIdentities \<DL SMTP address1\>, \< DL SMTP address
 모든 적합 한 Dl을 업그레이드 하는 방법에는 두 가지가 있습니다.
 
 > [!NOTE]
-> New-distributiongroup cmdlet은 파이프라인의 데이터를 수신 하지 않으므로 "foreach-object{}" 연산자를 사용 하 여 성공적으로 실행 해야 합니다.
+> New-distributiongroup cmdlet은 파이프라인의 데이터를 수신 하지 않으므로 "foreach-object" 연산자를 사용 하 여 성공적으로 실행 해야 {} 합니다.
 
 1. 테 넌 트에서 적격 Dl을 가져오고 upgrade 명령을 사용 하 여 업그레이드 합니다.
 

@@ -14,17 +14,18 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 446babfe-2e08-4cc2-bbfb-c05b854933ac
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Microsoft 용 easyDNS에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: b7b29900108ab94f0fd99dcf3404cfa137ce92ff
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 24f477d240af936975141c53d382e114a24c0ac5
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631360"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400235"
 ---
 # <a name="create-dns-records-at-easydns-for-microsoft"></a>EasyDNS에서 Microsoft에 대 한 DNS 레코드 만들기
 
@@ -36,7 +37,7 @@ Microsoft로 메일을 라우팅하기 위해 등록자의 웹 사이트에서 �
   
 ## <a name="verify-that-you-own-the-domain-with-a-txt-record"></a>TXT 레코드를 사용 하 여 도메인을 소유 하 고 있는지 확인
 
-1. [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) 으로 이동 하 여 자격 증명을 사용 하 여 로그인 합니다. 
+1. 으로 이동 하 여 [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) 자격 증명을 사용 하 여 로그인 합니다. 
     
 2. **모든 도메인** 머리글에서 dns를 선택 **합니다.**
     
@@ -54,7 +55,7 @@ Microsoft로 메일을 라우팅하기 위해 등록자의 웹 사이트에서 �
     
 7. 방금 만든 레코드가 인터넷을 통해 전파 되 고 Microsoft에서 검색할 수 있도록 몇 분 정도 기다립니다.
     
-8. 도메인 등록 기관 사이트에서 레코드를 추가 했으므로 이제 Microsoft로 이동 하 여 레코드를 요청 합니다.
+8. 이제 도메인 등록 기관에 레코드가 추가되었습니다. Microsoft로 돌아가서 레코드를 요청합니다.
     
 9. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
     
@@ -66,7 +67,7 @@ Microsoft로 메일을 라우팅하기 위해 등록자의 웹 사이트에서 �
     
 ## <a name="add-an-mx-record-to-route-email-to-microsoft"></a>Microsoft에 전자 메일을 라우팅하기 위한 MX 레코드 추가
 
-1. [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) 으로 이동 하 여 자격 증명을 사용 하 여 로그인 합니다. 
+1. 으로 이동 하 여 [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) 자격 증명을 사용 하 여 로그인 합니다. 
     
 2. **모든 도메인** 머리글에서 dns를 선택 **합니다.**
     
@@ -76,7 +77,7 @@ Microsoft로 메일을 라우팅하기 위해 등록자의 웹 사이트에서 �
     
     |**영역에 대 한 메일**|**메일 서버**|**우선**|
     |:-----|:-----|:-----|
-    |@  <br/> |\<\>mail.protection.outlook.com (관리 센터 도메인 페이지에서 \<도메인 키\> 값 가져오기)  <br/> |개  <br/> |
+    |@  <br/> |\<domain-key\>mail.protection.outlook.com ( \<domain-key\> 관리 센터 도메인 페이지에서 값 가져오기)  <br/> |개  <br/> |
    
 2. 백업 목적으로 다른 MX 레코드를 저장 하려면 그 위치에 복사 합니다. 이동 하기 전에 여기에서 다른 모든 MX 레코드를 제거 합니다.
     
@@ -86,7 +87,7 @@ Microsoft로 메일을 라우팅하기 위해 등록자의 웹 사이트에서 �
     
 ## <a name="add-the-required-cname-records"></a>필요한 CNAME 레코드 추가
 
-1. [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) 으로 이동 하 여 자격 증명을 사용 하 여 로그인 합니다. 
+1. 으로 이동 하 여 [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) 자격 증명을 사용 하 여 로그인 합니다. 
     
 2. **모든 도메인** 머리글에서 dns를 선택 **합니다.**
     
@@ -109,7 +110,7 @@ Microsoft로 메일을 라우팅하기 위해 등록자의 웹 사이트에서 �
     
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>전자 메일 스팸 방지에 유용한 SPF용 TXT 레코드 추가
 
-1. [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) 으로 이동 하 여 자격 증명을 사용 하 여 로그인 합니다. 
+1. 으로 이동 하 여 [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) 자격 증명을 사용 하 여 로그인 합니다. 
     
 2. **모든 도메인** 머리글에서 dns를 선택 **합니다.**
     
@@ -125,11 +126,11 @@ Microsoft로 메일을 라우팅하기 위해 등록자의 웹 사이트에서 �
     
 6. 레코드가 올바른지 확인 하 고 **확인**을 선택 합니다. 
     
-## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Microsoft에 필요한 두 개의 SRV 레코드를 추가 합니다.
+## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Microsoft 필요한 2개의 SRV 레코드 추가하기
 
 참고: easyDNS ' 도메인 Plus 서비스 수준 '에서는 현재 SRV 레코드를 사용할 수 없습니다. SRV 레코드를 추가 하려면 easyDNS를 사용 하 여 더 높은 서비스 수준으로 업그레이드 해야 할 수 있습니다. 
   
-1. [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) 으로 이동 하 여 자격 증명을 사용 하 여 로그인 합니다. 
+1. 으로 이동 하 여 [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) 자격 증명을 사용 하 여 로그인 합니다. 
     
 2. **모든 도메인** 머리글에서 dns를 선택 **합니다.**
     

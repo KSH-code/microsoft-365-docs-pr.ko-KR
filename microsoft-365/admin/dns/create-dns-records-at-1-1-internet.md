@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5762c3ca-1de2-4999-bfe5-4c5e25a8957e
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 설정 하는 방법에 대해 설명 합니다 (예&1).
-ms.openlocfilehash: 1c32e15be8bfdf9ea29647af511d0f8ff0ac0b57
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 983fba73a6f82308d6d1bcf706ff93d72b98976c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049146"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400596"
 ---
 # <a name="create-dns-records-at-11-ionos-for-microsoft"></a>1&1gb OS에서 DNS 레코드 만들기
 
@@ -108,19 +109,19 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
 4. **도메인 설정** 영역에서 **DNS 설정 편집**을 선택 합니다.
     
-5. **Mx 레코드** 섹션의 **메일 교환기 (mx 레코드)** 영역에서 **다른 메일 서버**를 선택 합니다.<br/>(You may have to scroll down.)<br/>![1&amp;1-BP-구성-2-1](../../media/b0db72ae-9431-460f-ba7a-3268590b892e.png) <br/>
+5. **Mx 레코드** 섹션의 **메일 교환기 (mx 레코드)** 영역에서 **다른 메일 서버**를 선택 합니다.<br/>(You may have to scroll down.)<br/>![1 &amp; 1-BP-구성-2-1](../../media/b0db72ae-9431-460f-ba7a-3268590b892e.png) <br/>
   
-6. MX 레코드가 이미 나열되어 있으면 레코드를 선택한 다음 키보드의 **Delete** 키를 눌러 하나씩 삭제합니다.<br/>(MX 레코드가 나열되어 있지 않으면 다음 단계를 진행합니다.)<br/>![1&amp;1-BP-구성-2-2](../../media/4a39bac7-7310-481d-bda4-1dd5c220c60f.png)<br/>
+6. MX 레코드가 이미 나열되어 있으면 레코드를 선택한 다음 키보드의 **Delete** 키를 눌러 하나씩 삭제합니다.<br/>(MX 레코드가 나열되어 있지 않으면 다음 단계를 진행합니다.)<br/>![1 &amp; 1-BP-구성-2-2](../../media/4a39bac7-7310-481d-bda4-1dd5c220c60f.png)<br/>
   
 7. **MX 1** 레코드의 상자에서 다음 표의 값을 입력하거나 복사하여 붙여넣습니다. 
     
     |**MX 1**|**우선 순위**|
     |:-----|:-----|
-    | *\<domain-key\>*  .mail.protection.outlook.com  <br/>  참고: Microsoft 계정 \<에서 도메인 키\> 를 가져옵니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> | 
+    | *\<domain-key\>*. mail.protection.outlook.com  <br/>  참고: \<domain-key\> Microsoft 계정에서 가져옵니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> | 
     
     ![1, 1-2 및 3 구성](../../media/3afb04d1-7bbf-4147-89ae-561e14ded26d.png)<br/>
   
-8. **저장**을 선택합니다.<br/>(You may have to scroll down.)<br/>![1&amp;1-BP-구성-2-4](../../media/355b3ba7-4d2b-45ed-aa17-ac4affb54fe3.png)
+8. **저장**을 선택합니다.<br/>(You may have to scroll down.)<br/>![1 &amp; 1-BP-구성-2-4](../../media/355b3ba7-4d2b-45ed-aa17-ac4affb54fe3.png)
   
 9. **DNS 설정 편집** 대화 상자에서 **예**를 선택 합니다.<br/>![DNS 설정 편집 대화 상자에서 예 선택](../../media/920cc95f-fedf-4da2-94a4-9cb41ed49bcf.png)
   
@@ -143,7 +144,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
 2. **도메인 관리**를 선택 합니다.
     
-3. **Domain Center (도메인 센터** ) 페이지에서 업데이트 하려는 도메인을 찾은 다음 하위 **도메인 관리**를 선택 합니다.<br/>![1&amp;1-BP-구성-3-0](../../media/d570d03f-5c38-463d-809e-5bb9e4fb2777.png) <br/>두 개의 하위 도메인을 만들고 각 도메인에 대한 **별칭** 값을 설정합니다.<br/>1&, 1gb OS는 최상위 CNAME 레코드를 하나만 지원 하기 때문에 필요 하지만 Microsoft에서는 여러 CNAME 레코드가 필요 합니다.<br/>먼저 자동 검색 하위 도메인을 만듭니다.
+3. **Domain Center (도메인 센터** ) 페이지에서 업데이트 하려는 도메인을 찾은 다음 하위 **도메인 관리**를 선택 합니다.<br/>![1 &amp; 1-BP-구성-3-0](../../media/d570d03f-5c38-463d-809e-5bb9e4fb2777.png) <br/>두 개의 하위 도메인을 만들고 각 도메인에 대한 **별칭** 값을 설정합니다.<br/>1&, 1gb OS는 최상위 CNAME 레코드를 하나만 지원 하기 때문에 필요 하지만 Microsoft에서는 여러 CNAME 레코드가 필요 합니다.<br/>먼저 자동 검색 하위 도메인을 만듭니다.
     
 4. 하위 **도메인 개요** 섹션에서 하위 **도메인 만들기**를 선택 합니다.
     
@@ -155,15 +156,15 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     |:-----|:-----|
     |autodiscover  <br/> |autodiscover.outlook.com   | 
 
-    ![1&amp;1-BP-구성-3-2](../../media/9be45113-ebaf-48e6-983c-a7e6ff9eea45.png)
+    ![1 &amp; 1-BP-구성-3-2](../../media/9be45113-ebaf-48e6-983c-a7e6ff9eea45.png)
   
-6. 하위 **도메인 만들기**를 선택 합니다.<br/>![1&amp;1-BP-구성-3-3](../../media/1e7bc874-f174-4597-8c08-df611d16a74d.png)
+6. 하위 **도메인 만들기**를 선택 합니다.<br/>![1 &amp; 1-BP-구성-3-3](../../media/1e7bc874-f174-4597-8c08-df611d16a74d.png)
   
-7. 하위 **도메인 개요** 섹션에서 방금 만든 **자동 검색** 하위 도메인을 찾은 다음 해당 하위 도메인에 대 한 **패널 (v)** 컨트롤을 선택 합니다. <br/>![1&amp;1-BP-구성-3-4](../../media/10e2e446-3e54-4fb2-8a29-8c442536cc31.png)
+7. 하위 **도메인 개요** 섹션에서 방금 만든 **자동 검색** 하위 도메인을 찾은 다음 해당 하위 도메인에 대 한 **패널 (v)** 컨트롤을 선택 합니다. <br/>![1 &amp; 1-BP-구성-3-4](../../media/10e2e446-3e54-4fb2-8a29-8c442536cc31.png)
   
-8. 하위 **도메인 설정** 영역에서 **DNS 설정 편집**을 선택 합니다. <br/>![1&amp;1-BP-구성-3-5](../../media/5c602118-b89b-4897-9faf-0736be8a6a0d.png)
+8. 하위 **도메인 설정** 영역에서 **DNS 설정 편집**을 선택 합니다. <br/>![1 &amp; 1-BP-구성-3-5](../../media/5c602118-b89b-4897-9faf-0736be8a6a0d.png)
   
-9. **A/AAAA 레코드 (Ip 주소)** 섹션의 **Ip 주소 (레코드)** 영역에서 **CNAME**을 선택 합니다.<br/>![1&amp;1-BP-구성-3-6](../../media/7f57f468-fbee-4440-a53d-3e334d8e5b71.png)
+9. **A/AAAA 레코드 (Ip 주소)** 섹션의 **Ip 주소 (레코드)** 영역에서 **CNAME**을 선택 합니다.<br/>![1 &amp; 1-BP-구성-3-6](../../media/7f57f468-fbee-4440-a53d-3e334d8e5b71.png)
   
 10. **별칭:** 상자에서 다음 표의 **별칭** 값만 입력하거나 복사하여 붙여넣습니다.<br/> 
     
@@ -171,11 +172,11 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     |:-----|:-----|
     |autodiscover  <br/> |autodiscover.outlook.com   |
 
-    ![1&amp;1-BP-구성-3-7](../../media/afac3118-3337-4f99-98dd-a7ca930230ce.png)
+    ![1 &amp; 1-BP-구성-3-7](../../media/afac3118-3337-4f99-98dd-a7ca930230ce.png)
   
-11. 고지 사항을 **알고 있음**에 대한 확인란을 선택합니다.<br/>![1&amp;1-BP-구성-3-8-1](../../media/6c4cac1a-23f2-4ff3-b2d1-3dca908638d2.png)
+11. 고지 사항을 **알고 있음**에 대한 확인란을 선택합니다.<br/>![1 &amp; 1-BP-구성-3-8-1](../../media/6c4cac1a-23f2-4ff3-b2d1-3dca908638d2.png)
   
-12. **저장**을 선택합니다.<br/>![1&amp;1-BP-구성-3-8-2](../../media/ea1dfc06-c175-4146-ab40-da4d162097e1.png)
+12. **저장**을 선택합니다.<br/>![1 &amp; 1-BP-구성-3-8-2](../../media/ea1dfc06-c175-4146-ab40-da4d162097e1.png)
   
   
 ### <a name="additional-cname-records"></a>추가 CNAME 레코드
@@ -268,7 +269,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**종류**|**Prefix(접두사)**|**Name Value(이름 값)**|
     |:-----|:-----|:-----|
-    |TXT  <br/> |(Leave this field empty.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           | 
+    |TXT  <br/> |(Leave this field empty.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           | 
     
     ![TXT 레코드](../../media/0b3ba3b4-64b9-4d68-9ee1-04eb3a17d4c5.png)
   
@@ -299,14 +300,14 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**유형**|**서비스**|**프로토콜**|**이름**|**호스트**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV  <br/> |sip  <br/> |tls  <br/> |(Leave this field empty.)  <br/> |sipdir.online.lync.com  <br/> |100  <br/> |개  <br/> |443  <br/> |3600(1시간)  <br/> |
-    |SRV  <br/> |sipfederationtls  <br/> |tcp  <br/> |(이 필드는 비워 둡니다.)  <br/> |sipfed.online.lync.com  <br/> |100  <br/> |개  <br/> |5061  <br/> |3600(1시간)  <br/> |  
+    |SRV  <br/> |sip  <br/> |tls  <br/> |(Leave this field empty.)  <br/> |sipdir.online.lync.com  <br/> |100  <br/> |1   <br/> |443  <br/> |3600(1시간)  <br/> |
+    |SRV  <br/> |sipfederationtls  <br/> |tcp  <br/> |(이 필드는 비워 둡니다.)  <br/> |sipfed.online.lync.com  <br/> |100  <br/> |1   <br/> |5061  <br/> |3600(1시간)  <br/> |  
     
-    ![1&amp;1-BP-구성-5-1](../../media/087e337d-926b-42ff-b11d-b449cfaed76c.png)
+    ![1 &amp; 1-BP-구성-5-1](../../media/087e337d-926b-42ff-b11d-b449cfaed76c.png)
   
-7. **저장**을 선택합니다. <br/>![1&amp;1-BP-구성-5-2](../../media/aa5f803d-fb24-48e0-976a-6759c5fd252c.png)
+7. **저장**을 선택합니다. <br/>![1 &amp; 1-BP-구성-5-2](../../media/aa5f803d-fb24-48e0-976a-6759c5fd252c.png)
   
-8. **저장**을 선택합니다. <br/>![1&amp;1-BP-구성-5-3](../../media/097e7e95-4899-4878-b6e7-c3abd8193c52.png)
+8. **저장**을 선택합니다. <br/>![1 &amp; 1-BP-구성-5-3](../../media/097e7e95-4899-4878-b6e7-c3abd8193c52.png)
   
 9. **DNS 설정 편집** 대화 상자에서 **예**를 선택 합니다. <br/>![DNS 설정 편집 대화 상자에서 예 선택](../../media/920cc95f-fedf-4da2-94a4-9cb41ed49bcf.png)
   

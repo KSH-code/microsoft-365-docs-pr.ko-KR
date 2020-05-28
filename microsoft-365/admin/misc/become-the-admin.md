@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
 description: Microsoft 365에서 관리 되지 않는 테 넌 트를 사용 하도록 전자 메일 및 도메인 소유권을 확인 하는 방법을 알아봅니다.
-ms.openlocfilehash: 1772ba9929433c87603d4b9d7027419063fd2fca
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 4c2dcdb0f6c4f6b795d9579c8796e9668ed2ed05
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627947"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399449"
 ---
 # <a name="perform-an-internal-admin-takeover"></a>내부 관리 인수 수행
 
@@ -40,9 +41,9 @@ ms.locfileid: "43627947"
 > [!NOTE]
 > 테 넌 트에서 셀프 서비스를 사용 하도록 설정한 경우 사용자는 Power BI와 같은 무료 서비스를 자체에 등록할 수 있습니다. 이 단계에서는 셀프 서비스 사용자 구독이 관리자로 수행 하려는 관리 되지 않는 테 넌 트를 만든 것으로 가정 합니다. 첫 번째 단계에서는 관리자 인수 경로를 보여 주기 위해 Power BI를 사용 하 여 관리 되지 않는 테 넌 트에서 사용자 컨텍스트를 만듭니다.
 
-1. Power bi에 등록 하려면 [power bi 사이트로](https://powerbi.com) 이동한 후 **무료** > **시작 무료 평가판** 시작 (power bi Pro를 사용 하 여 공유)을 선택 합니다. 
+1. Power bi에 등록 하려면 [power bi 사이트로](https://powerbi.com) 이동한 후 **무료**  >  **시작 무료 평가판** 시작 (power bi Pro를 사용 하 여 공유)을 선택 합니다. 
 
-2. 조직의 도메인 이름을 사용 하는 사용자 계정으로 등록 합니다 (like `powerbiadmin@contoso.com`). 계정이 이미 사용 중인 경우 현재 암호를 사용 하 여 로그인 합니다.
+2. 조직의 도메인 이름을 사용 하는 사용자 계정으로 등록 합니다 (like `powerbiadmin@contoso.com` ). 계정이 이미 사용 중인 경우 현재 암호를 사용 하 여 로그인 합니다.
 
 3. 전자 메일에서 **확인 코드** 를 확인 하 고 코드를 입력 하 여 전자 메일 주소를 확인 합니다.
     

@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 034bd7bc-b098-4c4d-8a93-4d74ff24532a
 description: 전자 메일, 비즈니스용 Skype Online 및 Yahoo!의 기타 서비스에 대해 도메인을 확인 하 고 DNS 레코드를 설정 하는 방법을 알아봅니다. Microsoft에는 Small Business가 있습니다.
-ms.openlocfilehash: 12efa8f7056f0d06cbf78b2486ea67dc85d2e705
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c44ad1cde79fdc401f1cd7411a4019d31ade6d02
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629158"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400283"
 ---
 # <a name="create-dns-records-at-yahoo-small-business-for-microsoft"></a>Yahoo! Microsoft 용 Small Business
 

@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -25,12 +26,12 @@ search.appverid:
 - SPB160
 ms.assetid: eb3e840f-ed60-4461-81f5-12381c132b89
 description: 다양 한 유형의 그룹 및 Microsoft 365의 다양 한 공동 작업 기능을 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b5b8030b1f16562007ac2786dca776db6482eecb
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: a646a5b2f65b952543fcac0ae2c96d2ec03ec543
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048798"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400079"
 ---
 # <a name="email-collaboration"></a>전자 메일 공동 작업
 

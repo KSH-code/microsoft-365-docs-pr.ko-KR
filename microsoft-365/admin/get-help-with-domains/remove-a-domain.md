@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,19 +22,19 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Microsoft 365에서 이전 도메인을 제거 하 고 사용자 및 그룹을 다른 도메인으로 이동 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ef0209d6ccb7534745172585fe599f627e386cb4
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: c5e629f0d683c6dc3e18b1278027ac3a88cc834b
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140408"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399899"
 ---
 # <a name="remove-a-domain"></a>도메인 제거
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
   
@@ -123,7 +124,7 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 
 2. **사용자 이름/전자 메일** 섹션에서 **편집**을 선택 하 고 다른 도메인을 선택 합니다.
 
-3. 기본 > **Save** 저장 > **닫기를** **설정을** 선택 합니다.
+3. 기본 저장 닫기를 **설정을** 선택 > **Save** > **Close**합니다.
   
 4. 맨 위에서 계정 이름을 선택한 다음 **로그 아웃**을 선택 합니다.
 
@@ -139,7 +140,7 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 
 2. **사용자 이름/전자 메일** 섹션에서 **편집**을 선택 하 고 다른 도메인을 선택 합니다.
 
-3. 기본 > **Save** 저장 > **닫기를** **설정을** 선택 합니다.
+3. 기본 저장 닫기를 **설정을** 선택 > **Save** > **Close**합니다.
   
 4. 맨 위에서 계정 이름을 선택한 다음 **로그 아웃**을 선택 합니다.
 
@@ -197,13 +198,13 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">도메인</a> **설정** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">도메인</a> 설정 페이지로 이동 합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">도메인</a> **설정** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">도메인</a> 설정 페이지로 이동 합니다.
 
 ::: moniker-end
   

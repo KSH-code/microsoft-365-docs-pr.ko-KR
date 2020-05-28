@@ -20,18 +20,19 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
 description: 프로필을 편집 또는 삭제 하거나 장치에서 프로필을 제거 하는 방법 뿐 아니라 AutoPilot 프로필을 만들어 장치에 적용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a6e02ab56faeb08718a9831657b55cff0356a4ec
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e58418813ed0b4d23a5fa7e1d23aae33d8850e7f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627377"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400977"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>AutoPilot 프로필 만들기 및 편집
 
@@ -53,7 +54,7 @@ ms.locfileid: "43627377"
   
 1. **Windows 준비** 페이지에서 **장치** 탭을 선택합니다. 
     
-2. 장치 이름 옆의 확인란을 선택 하 고 **장치** 패널의 **할당 된 프로필** \> **드롭다운 목록에서**프로필을 선택 합니다.
+2. 장치 이름 옆의 확인란을 선택 하 고 **장치** 패널의 **할당 된 프로필** 드롭다운 목록에서 프로필을 선택 합니다 \> **Save**.
     
     ![In the Device panel, select an Assigned profile to apply it.](../media/ed0ce33f-9241-4403-a5de-2dddffdc6fb9.png)
   
@@ -73,7 +74,7 @@ ms.locfileid: "43627377"
 
 1. **Windows 준비** 페이지에서 **프로필** 탭을 선택합니다. 
     
-2. 장치 이름 옆의 확인란을 선택 하 고 **프로필** 패널에서 **프로필** \> **저장**삭제를 선택 합니다.
+2. 장치 이름 옆의 확인란을 선택 하 고 **프로필** 패널에서 프로필 저장 삭제를 선택 **Delete profile** \> **Save**합니다.
     
     프로필을 삭제하면 프로필이 할당된 장치 또는 장치 그룹에서 제거됩니다.
     
@@ -81,5 +82,5 @@ ms.locfileid: "43627377"
 
 1. **Windows 준비** 페이지에서 **장치** 탭을 선택합니다. 
     
-2. 장치 이름 옆의 확인란을 선택 하 고 **장치** 패널의 **할당 된 프로필** \> **드롭다운 목록에서** **없음** 을 선택 합니다.
+2. 장치 이름 옆의 확인란을 선택 하 고 **장치** 패널의 **할당 된 프로필** 드롭다운 목록에서 **없음** 을 선택 합니다 \> **Save**.
     
