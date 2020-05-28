@@ -9,18 +9,19 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.custom: AdminSurgePortfolio
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft Cloud 전라남도 Exchange Online에서 전역 Exchange Online 서비스로 전환 하는 방법을 알아봅니다.
-ms.openlocfilehash: 276a12095cbad5b9bcaf1c48fe5d26ee20232e54
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 41628b3032f5b268d5e32501b393fef31663dfc3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44003021"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399233"
 ---
 # <a name="update-your-mx-records-to-transition-to-the-global-exchange-online-service"></a>전역 Exchange Online 서비스로 전환 되도록 MX 레코드 업데이트
 
-1. [Microsoft 365 관리 포털](https://admin.microsoft.com)에 로그인 하 고 **설정** > **도메인** 으로 이동
+1. [Microsoft 365 관리 포털](https://admin.microsoft.com)에 로그인 하 고 **설정**  >  **도메인** 으로 이동
 
 2. 각 도메인의 오른쪽에 상태가 표시 됩니다. 조직의 도메인이 Microsoft Cloud 전라남도 Exchange Online을 가리킬 경우 MX 레코드를 업데이트 해야 합니다.
 

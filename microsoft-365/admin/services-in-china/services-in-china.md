@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - SPO_Content
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - GEU150
@@ -21,12 +22,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: 중국의 안전 하 고 안정적 이며 확장 가능한 클라우드 서비스에 대 한 요구를 충족 하도록 설계 된 21Vianet에서 운영 하는 Office 365에 대해 자세히 알아봅니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 6d3facba5beb9398f26ede5345b9121275a47b94
-ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
+ms.openlocfilehash: f18dd909cedb69e509d6da69e45940337cda8c17
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44155412"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399017"
 ---
 # <a name="office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365
 
@@ -178,7 +179,7 @@ Apple 모바일 장치에 대 한 Exchange 연락처 데이터를 Apple iCloud�
 
 |||
 |:-----|:-----|
-|**파일** \> **열기에서**Office 응용 프로그램을 엽니다. 단추  <br/> |있게. 로밍이 곧 수행 될 예정입니다.  <br/> |
+|**파일** 열기에서 Office 응용 프로그램을 엽니다. \> **Open in** 단추  <br/> |있게. 로밍이 곧 수행 될 예정입니다.  <br/> |
 |Microsoft 계정으로 로그인 한 동안 비즈니스용 OneDrive에 저장  <br/> |사용자가 국가 내에서 데이터를 유지 하려면 Microsoft 계정을 사용 하 여 Office에 로그인 한 경우 문서를 조직 사이트 (비즈니스용 OneDrive)에 저장할 수 없습니다.  <br/> |
 |텍스트 또는 페이지 번역 기능  <br/> |이 기능은 사용할 수 있지만 기본적으로 해제 되어 있습니다. 관리자는이 기능을 설정할 수 있지만, 사용자가 국가 외부에서 데이터에 액세스할 수 있음을 나타내는 경고 메시지가 표시 됩니다.  <br/> |
    
@@ -186,7 +187,7 @@ Apple 모바일 장치에 대 한 Exchange 연락처 데이터를 Apple iCloud�
 
 |||
 |:-----|:-----|
-|계정 관리 (Office 클라이언트 내)  <br/> |이 기능은 Office 365 포털로 이동 하기 위한 것이 고, 현재 전 세계 Office 365 포털을 가리키고, 21Vianet 계정에서 운영 하는 Office 365에 로그인 할 수 없습니다. 이는 알려진 문제 이며 해결 되었습니다. 이 경우에는 URL https://portal.partner.microsoftonline.cn/ 을 사용 하 여 계정에 로그인 하 고 여기에서 설정을 관리할 수 있습니다. 자세한 내용은 [21vianet에서 운영 하는 office 365에 대 한 office 365 Pro Plus 계정을 관리](https://support.office.com/article/fbe473d3-69de-4d0c-aecb-b9c2d0d45bc8.aspx)합니다 .를 참조 하세요.  <br/> |
+|계정 관리 (Office 클라이언트 내)  <br/> |이 기능은 Office 365 포털로 이동 하기 위한 것이 고, 현재 전 세계 Office 365 포털을 가리키고, 21Vianet 계정에서 운영 하는 Office 365에 로그인 할 수 없습니다. 이는 알려진 문제 이며 해결 되었습니다. 이 경우에는 URL을 사용 하 여 https://portal.partner.microsoftonline.cn/ 계정에 로그인 하 고 여기에서 설정을 관리할 수 있습니다. 자세한 내용은 [21vianet에서 운영 하는 office 365에 대 한 office 365 Pro Plus 계정을 관리](https://support.office.com/article/fbe473d3-69de-4d0c-aecb-b9c2d0d45bc8.aspx)합니다 .를 참조 하세요.  <br/> |
    
 ## <a name="onenote"></a>OneNote
 

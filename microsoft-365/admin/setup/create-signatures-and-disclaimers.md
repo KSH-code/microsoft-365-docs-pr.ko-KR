@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: 조직을 들어가거나 탈퇴 하는 모든 전자 메일 메시지에 전자 메일 서명, 법적 고 지 사항 또는 공개 설명을 추가 하는 방법을 알아봅니다.
-ms.openlocfilehash: affd091f951b81541214b4f98c414b5cd4675cd3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5149f6f4a0276cc1384f15a8134d1ede0b673b8c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631980"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398957"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>조직 차원의 서명 및 부인 만들기
 
@@ -62,7 +63,7 @@ ms.locfileid: "43631980"
 
 ::: moniker-end
 
-1. 앱 시작 관리자 ![앱 시작 관리자 아이콘](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png)을 선택 하 고 **관리자**를 선택 합니다.
+1. 앱 시작 관리자 ![ 앱 시작 관리자 아이콘 ](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) 을 선택 하 고 **관리자**를 선택 합니다.
    
     찾고자 하는 앱을 찾을 수 없나요? 앱 시작 관리자에서 **모든 앱** 을 선택 하 여 사용할 수 있는 앱의 사전순 목록을 확인 합니다. 거기에서 특정 앱을 검색할 수 있습니다. 
     
@@ -70,7 +71,7 @@ ms.locfileid: "43631980"
     
 3. 메일 흐름 아래에서 **규칙**을 선택 합니다.
     
-4. **+** (추가) 아이콘을 선택 하 고 고 지 사항 **적용**을 선택 합니다.
+4. **+**(추가) 아이콘을 선택 하 고 고 지 사항 **적용**을 선택 합니다.
     
 5. 규칙 이름을 지정합니다.
     

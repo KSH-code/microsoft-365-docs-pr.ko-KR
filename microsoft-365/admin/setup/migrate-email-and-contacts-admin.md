@@ -17,6 +17,7 @@ ms.collection:
 ms.custom:
 - TopSMBIssues
 - okr_smb
+- AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
@@ -26,12 +27,12 @@ search.appverid:
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
 description: 'Gmail 또는 다른 전자 메일 공급자에서 Microsoft 365로 연락처, 일정, 전자 메일을 가져오는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 3200ee91e4ca01fb946cbb045805a213958be000
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 6fa8ff991bf9c02743b81d7947d9486e8f7b7b0f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165158"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398873"
 ---
 # <a name="migrate-email-and-contacts-to-microsoft-365"></a>Microsoft 365로 전자 메일 및 연락처 마이그레이션
 
@@ -69,7 +70,7 @@ Gmail 또는 다른 전자 메일 공급자에서 Microsoft 365으로 전자 메
     
 프로세스를 시작 하려면 Outlook을 열고 **파일** \> **열기 &amp; ** \> **/내보내기 가져오기/내보내기를**선택 합니다.
   
-![Outlook 2016의 파일 메뉴](../../media/2f1c39a5-177e-4052-9dd8-90c0d140be2c.png)![Outlook &amp; 2016에서 내보내기 명령 열기](../../media/eecab6df-c372-45b1-8a8a-2f6d7af0dd68.png)![Outlook 2016의 가져오기/내보내기 단추](../../media/ed90ae47-20db-4be1-b0c0-826008432c6e.png)
+![Outlook 2016의 파일 메뉴](../../media/2f1c39a5-177e-4052-9dd8-90c0d140be2c.png)![&amp;Outlook 2016에서 내보내기 명령 열기](../../media/eecab6df-c372-45b1-8a8a-2f6d7af0dd68.png)![Outlook 2016의 가져오기/내보내기 단추](../../media/ed90ae47-20db-4be1-b0c0-826008432c6e.png)
   
 ## <a name="see-other-email-accounts-in-outlook"></a>Outlook에서 다른 전자 메일 계정 참조
 

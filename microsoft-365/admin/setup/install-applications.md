@@ -13,17 +13,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: d0653266-31db-4f6a-a804-d34b667c16bf
 description: 'Mac, PC 또는 모바일 장치에서 Office 응용 프로그램을 설정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 73da808b7704f526d07f265ecfe99016e138ea52
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2f273c868d5641807c0c81135d18769ea47b6a33
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632106"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398885"
 ---
 # <a name="install-office-applications"></a>Office 응용 프로그램 설치
 

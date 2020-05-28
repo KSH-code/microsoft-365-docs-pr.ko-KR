@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -20,12 +21,12 @@ search.appverid:
 ms.assetid: 481b460e-f799-4fac-9592-4d5c51bdcbd8
 ROBOTS: NOINDEX
 description: 사용자의 Microsoft 365 계정을 삭제 하거나 복원 하는 방법을 알아봅니다.
-ms.openlocfilehash: 7c6ab070db2821d914a26277b7f5c19043abe39b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3b7e71aa11c153372c9b38c54e45397c5f840c2e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627887"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399389"
 ---
 # <a name="quick-help-deleted-user"></a>빠른 도움말: 삭제된 사용자
 
@@ -48,9 +49,9 @@ ms.locfileid: "43627887"
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.  
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..  
 
-2. 사용자를 선택 하 고 사용자 목록 위쪽에 **있는 사용자 삭제를** **추가로** > 선택 합니다.
+2. 사용자를 선택 하 고 사용자 목록 위쪽에 **More** > **있는 사용자 삭제를**추가로 선택 합니다.
   
 3. 삭제 확인 창에서 **사용자 삭제**를 선택 합니다. <br/>[전체 문서를 읽으십시오.](../add-users/delete-a-user.md)
 
@@ -58,9 +59,9 @@ ms.locfileid: "43627887"
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
 
-2. 사용자를 선택 하 고 사용자 목록 위쪽에 **있는 사용자 삭제를** **추가로** > 선택 합니다.
+2. 사용자를 선택 하 고 사용자 목록 위쪽에 **More** > **있는 사용자 삭제를**추가로 선택 합니다.
   
 3. 삭제 확인 창에서 **사용자 삭제**를 선택 합니다. <br/>[전체 문서를 읽으십시오.](../add-users/delete-a-user.md)
 

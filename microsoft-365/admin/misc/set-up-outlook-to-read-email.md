@@ -13,18 +13,19 @@ ms.custom:
 - Core_O365Admin_Migration
 - GSTips
 - MiniMaven
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 2e155154-bc66-48cc-8476-ab558c97115a
 description: Outlook에서 Windows 및 Mac에 대해 전자 메일 계정을 설정 하는 방법과 Office 앱을 설치 하 고 온라인으로 전자 메일에 액세스 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6f256a9b528c5ee51490007f388b8d3bd5a92f02
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 04d14c314fbcda4f8d0edff57a141a89688bec28
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627791"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399281"
 ---
 # <a name="set-up-outlook-to-read-email"></a>Outlook을 설정 하 여 전자 메일 읽기
 

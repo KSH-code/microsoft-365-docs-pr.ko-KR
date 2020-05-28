@@ -15,6 +15,7 @@ ms.collection:
 - Adm_NonTOC
 ms.custom:
 - MSB365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -22,12 +23,12 @@ search.appverid:
 ms.assetid: 932e3676-2491-49f0-9177-d893d2f5276e
 ROBOTS: NOINDEX
 description: AutoPilot 용 CSV 파일을 Microsoft 365에서 비즈니스용으로 만드는 방법에 대해 알아봅니다.
-ms.openlocfilehash: c83862675db1372aa2cef27c727c04577b4cf5a3
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 030fb96e9e60c792fb685af57d34eacd6670645a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064654"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399365"
 ---
 # <a name="device-list-csv-file"></a>장치 목록 CSV-파일
 

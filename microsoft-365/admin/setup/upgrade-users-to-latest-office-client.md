@@ -17,14 +17,15 @@ search.appverid:
 - MOE150
 ms.custom:
 - fwlink 824861; CampaignID O365_Comm_SR_UpgradeOffice
+- AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: 사용자를 최신 Office 클라이언트로 업그레이드 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 2140e246882d9d9b30481bc20b78142708408f88
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 22fe8e12e4aff4f9afe52e913ad57d37866dbb95
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011278"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398813"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>비즈니스 사용자를 위한 Microsoft 365를 최신 Office 클라이언트로 업그레이드
 

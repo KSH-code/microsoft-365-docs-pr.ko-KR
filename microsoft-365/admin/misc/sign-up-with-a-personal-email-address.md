@@ -12,18 +12,19 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 20816b8b-8b21-458f-81c1-320b8116597e
 ROBOTS: NOINDEX
 description: '사용자 지정 도메인을 추가 하지 않으려는 경우 개인 전자 메일 주소를 사용 하 여 Office 365에 등록 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: c49da60af4d369ea2529ddaf5e9b9f0c44251319
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 0b188754b169f6f0f0fb807a8ba236497a7439ff
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257258"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399257"
 ---
 # <a name="signing-up-for-office-365-with-a-personal-email-address"></a>개인 전자 메일 주소를 사용 하 여 Office 365에 등록
 
@@ -52,7 +53,7 @@ ms.locfileid: "42257258"
   
 ## <a name="how-to-add-a-domain"></a>도메인을 추가 하는 방법
 
-관리 센터에서 **설치** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> > **도메인 추가**로 이동 합니다.
+관리 센터에서 **설치**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a>  >  **도메인 추가**로 이동 합니다.
   
 
 

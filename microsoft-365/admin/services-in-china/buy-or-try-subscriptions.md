@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - GEA150
 ms.assetid: f9877a28-1434-4108-9e92-f29ef8ee5591
 description: 중국의 21Vianet에서 운영 하는 기존 Office 365 계정에 Office 365 구독을 구입 하거나 바로 구매 하거나 구독을 추가 하거나 추가 기능을 가져오는 방법을 알아봅니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 0781430eaf2ccfeed7c31665029d514be9cc5f2e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: d1ad668a5eb22ab38ac458fa7b1867941e1d6612
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360839"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399089"
 ---
 # <a name="buy-or-try-subscriptions-for-office-365-operated-by-21vianet"></a>21Vianet에서 운영 하는 Office 365 구독 구입 또는 체험
 

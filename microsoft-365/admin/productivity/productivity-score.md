@@ -13,17 +13,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 생산성 점수 개요
-ms.openlocfilehash: ae2d6188af6a0964dc7670adf0777c0bb3d77a77
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 52a520e36c6b121984aef650ffba1867f4d3e8c9
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942240"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399185"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Microsoft 생산성 점수 (미리 보기)
 
@@ -82,7 +83,7 @@ Microsoft는 다음과 같은 두 가지 분야에서 데이터, 통찰력 및 �
 - 전역 읽기 권한자 
 - 보고서 구독자 
 
-**생산성 점수가** **보고** > 되 면 Microsoft 365 관리자 홈의 환경에 액세스할 수 있습니다.
+**Reports**  >  **생산성 점수가**보고 되 면 Microsoft 365 관리자 홈의 환경에 액세스할 수 있습니다.
 
 ## <a name="interpreting-productivity-score"></a>생산성 점수 해석 
 

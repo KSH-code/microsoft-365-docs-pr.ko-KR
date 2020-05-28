@@ -13,6 +13,9 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom:
+- AdminSurgePortfolio
+- okr_SMB
 search.appverid:
 - BCS160
 - MET150
@@ -20,13 +23,12 @@ search.appverid:
 - BEA160
 ms.assetid: 4f8712ff-9346-4c6c-bb63-a21ad7a62cbd
 description: Microsoft 365 셀프 서비스에 제공 되는 microsoft Power Apps, Microsoft Flow 및 Dynamics 365 (Financials)과 같은 사용 가능한 셀프 서비스 프로그램에 대해 알아봅니다.
-ms.custom: okr_SMB
-ms.openlocfilehash: 02d318fbafb6e062f9c3d1592cd6adc7f764fd56
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: d2d4d23eeb3ddeda0dc5b66acfe072a66f4ce267
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045276"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399293"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>조직에서 셀프 서비스 등록 사용
 
@@ -63,6 +65,6 @@ Microsoft에서 의견을 듣고 조직의 사용자가 마이크로소프트의
 |**Microsoft 비즈니스 센터** <br/> |Microsoft 비즈니스 센터는 Microsoft 제품 및 서비스 계약 (MPSA)을 통해 구매한 고객을 위한 포털입니다. <br/> |[빠른 시작: Microsoft 비즈니스 센터에 대 한 등록](https://go.microsoft.com/fwlink/p/?linkid=841479) <br/> |[Microsoft 비즈니스 센터](https://go.microsoft.com/fwlink/p/?linkid=841470) <br/> |
 |**Microsoft 볼륨 라이선스 서비스 센터** <br/> |Microsoft 볼륨 라이선스 서비스 센터에는 Enterprise, Select, 교육부 (캠퍼스 또는 학교), 개방형 값, 오픈 라이선스 및 ISV 로열티 계약에 따라 구매한 라이선스가 표시 됩니다.  <br/> |[VLSC 교육 및 리소스](https://www.microsoft.com/en-us/Licensing/existing-customer/vlsc-training-and-resources.aspx) <br/> |[볼륨 라이선스 서비스 센터](https://www.microsoft.com/Licensing/servicecenter/default.aspx) <br/> |
 |**Minecraft 교육 에디션** <br/> |학습을 위한 플랫폼으로 Minecraft을 사용 하 여, 교육자는 모든 학생이 동기를 inspire 하 고 학습을 위한 열정을 ignite 수 있습니다. 교육 전문가 커뮤니티에 참여 Minecraft을 사용 하 여 학생의 잠재력을 해제 하는 방법을 알아봅니다.  <br/> |[Minecraft 교육 에디션](https://go.microsoft.com/fwlink/p/?linkid=841480) <br/> |[Minecraft 교육 에디션](https://go.microsoft.com/fwlink/p/?linkid=841471) <br/> |
-|**Microsoft Stream** <br/> |조직 전체에서 비디오를 업로드 하 고 공유 하 여 통신, 참여 및 학습을 개선 합니다.  <br/> |[&amp; 하루 종일 알림 신청](https://go.microsoft.com/fwlink/p/?linkid=841472) <br/> |[Microsoft Stream](https://go.microsoft.com/fwlink/p/?linkid=841473) <br/> |
+|**Microsoft Stream** <br/> |조직 전체에서 비디오를 업로드 하 고 공유 하 여 통신, 참여 및 학습을 개선 합니다.  <br/> |[&amp;하루 종일 알림 신청](https://go.microsoft.com/fwlink/p/?linkid=841472) <br/> |[Microsoft Stream](https://go.microsoft.com/fwlink/p/?linkid=841473) <br/> |
 |**전원 자동화** <br/> |전원 자동화는 즐겨 찾는 앱과 서비스 간에 자동화 된 워크플로를 설정 하 여 파일을 동기화 하 고, 알림을 가져오고, 데이터를 수집 하는 데 도움이 되는 제품입니다.  <br/> |[등록 및 로그인 하 여 전원 자동화](https://docs.microsoft.com/power-automate/sign-up-sign-in) <br/> |[전원 자동화](https://go.microsoft.com/fwlink/p/?linkid=841465) <br/> |
-|**파워 가상 에이전트** <br/> |파워 가상 에이전트를 사용 하면 팀이 데이터 과학자 나 개발자 없이도 코딩 된 비 코드 그래픽 인터페이스를 통해 강력한 인공 지능을 쉽게 만들 수 있습니다. 파워 가상 에이전트는 현재 업계에서 bot 건물을 사용 하는 수많은 주요 문제를 해결 합니다. 이를 통해 주제별 전문가와 인공 지능 개발 팀 간의 차이와 문제점을 인식 하 고 문제를 해결 하기 위해 인공으로 업데이트 하는 팀 간의 긴 대기 시간을 없앨 수 있습니다.  <br/> |[라이선스 및 액세스 세부 정보](https://go.microsoft.com/fwlink/?linkid=2113708) <br/> |[파워 가상 에이전트 등록](https://aka.ms/TryPVA) <br/> |
+|**Power Virtual Agents** <br/> |파워 가상 에이전트를 사용 하면 팀이 데이터 과학자 나 개발자 없이도 코딩 된 비 코드 그래픽 인터페이스를 통해 강력한 인공 지능을 쉽게 만들 수 있습니다. 파워 가상 에이전트는 현재 업계에서 bot 건물을 사용 하는 수많은 주요 문제를 해결 합니다. 이를 통해 주제별 전문가와 인공 지능 개발 팀 간의 차이와 문제점을 인식 하 고 문제를 해결 하기 위해 인공으로 업데이트 하는 팀 간의 긴 대기 시간을 없앨 수 있습니다.  <br/> |[라이선스 및 액세스 세부 정보](https://go.microsoft.com/fwlink/?linkid=2113708) <br/> |[파워 가상 에이전트 등록](https://aka.ms/TryPVA) <br/> |

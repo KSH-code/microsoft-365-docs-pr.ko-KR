@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - SPO_Content
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,12 +22,12 @@ search.appverid:
 ms.assetid: 1062115d-e312-482a-bb5a-765235990f41
 ROBOTS: NOINDEX
 description: 새 비즈니스 id로 데이터를 이동 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 64db403b27d661fe812acd209ca6ed8e95961125
-ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
+ms.openlocfilehash: 03a8ff6b3cfab43d80401a10825a1c274e278ed9
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44155366"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399329"
 ---
 # <a name="move-email-and-data-to-microsoft-365-business-standard"></a>전자 메일 및 데이터를 Microsoft 365 Business Standard로 이동
 
@@ -39,7 +40,7 @@ Microsoft 365 Business Standard로 업그레이드 하면 새로운 *비즈니�
  **OneDrive 데이터 복사**
 1. 비즈니스용 Microsoft 365로 마이그레이션할 파일을 임시로 저장 하기 위해 하드 드라이브에 임시 폴더를 만듭니다.
     
-2. [https://onedrive.live.com/](https://onedrive.live.com/) 으로 이동 하 여 Microsoft 365 제품군 구독에 액세스 하는 데 사용 하는 microsoft 계정을 사용 하 여 로그인 합니다. 
+2. 으로 이동 하 여 [https://onedrive.live.com/](https://onedrive.live.com/) microsoft 365 제품군 구독에 액세스 하는 데 사용 하는 microsoft 계정을 사용 하 여 로그인 합니다. 
     
 3. 비즈니스용 Microsoft 365에서 사용 하려는 파일을 1 단계에서 만든 로컬 폴더로 복사 합니다.
     

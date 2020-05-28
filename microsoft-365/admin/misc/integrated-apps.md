@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
 description: 타사 앱이 사용자의 Microsoft 365 정보에 액세스할 수 있도록 하기 위해 통합 된 앱과이를 켜는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 2e292afc4ab33eef1ace91808f93588b9cec4702
-ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
+ms.openlocfilehash: 070150662daeefb2a4d02c7e0940dfd242bd4b5f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44022111"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399341"
 ---
 # <a name="turning-integrated-apps-on-or-off"></a>통합 앱 설정 또는 해제
 
@@ -35,7 +36,7 @@ ms.locfileid: "44022111"
 
 통합 앱을 설정 또는 해제하는 방법은 다음과 같습니다.
 
-1. Microsoft 365 관리 센터에서 **설정** \> **설정** 페이지 \> 의 **서비스** 탭으로 이동한 후 **통합 앱**을 선택 합니다.
+1. Microsoft 365 관리 센터에서 **설정** \> **설정** 페이지의 \> **서비스** 탭으로 이동한 후 **통합 앱**을 선택 합니다.
 
 2. **통합 앱** 페이지에서 통합 앱을 설정 하거나 해제 하는 옵션을 선택 합니다.
 

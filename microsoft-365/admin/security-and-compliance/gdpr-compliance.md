@@ -13,17 +13,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 211c5c90-9719-4d73-9ad9-1925bb80f5f6
 description: Microsoft의 비즈니스 365이 GDPR (일반 데이터 보호 규정) 프로세스를 지원 하는 방법을 알아봅니다.
-ms.openlocfilehash: a77de1b835e4cf6e312b8976a972ac10eb60e3b4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 066803e15fe107c8a20b61d9871b6807629f2a9f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627719"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399161"
 ---
 # <a name="gdpr-simplified-a-guide-for-your-small-business"></a>GDPR 간소화: 소규모 기업에 대 한 가이드
 
@@ -53,7 +54,7 @@ GDPR은 다음과 같은 유형의 데이터와 관련 되어 있습니다.
   
 GDPR 상태: "개인 데이터의 처리는 mankind을 지원 하도록 디자인 해야 합니다." GDPR은 개인 데이터를 처리할 때 동의를 사용 하 여 이러한 목표를 달성 하려고 합니다. 이는 회사에서 전자 메일 메시지를 받을 수 있는지 여부를 고객에 게 묻는 간단한 작업입니다. 또한 마케팅에 대 한 데이터를 사용 하려는 경우에는 웹 사이트에서 더 이상 옵트아웃 (opt out) 확인란을 사용할 수 없습니다. "Clear affirmative act"를 사용 하 여 명시적 동의를 고려해 야 합니다. 또한 동의를 가져오거나 취소할 때의 레코드도 기록해 야 합니다.
   
- **데이터 주체 권리**
+ **데이터 주체 권한**
   
 GDPR은 데이터 주체 권한을 설정 하며,이는 개인 데이터, 고객, 직원, 비즈니스 파트너, 클라이언트, 계약자, 학생, 공급자 등을 사용 하 여 다음을 수행 한다는 것을 의미 합니다.
   

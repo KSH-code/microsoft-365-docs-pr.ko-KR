@@ -13,6 +13,9 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom:
+- AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
@@ -21,13 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: FAQ에서 질문에 대 한 대답을 찾아 도메인에 대해 자세히 알아보세요.
-ms.custom: okr_smb
-ms.openlocfilehash: 1af20ed0052a7bb4f98072a7142bf7e112b8305e
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: c82d5d01d64ad01f68d0c1ba73860511aa1718aa
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327115"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398909"
 ---
 # <a name="domains-faq"></a>도메인 FAQ
 

@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - GEU150
 - GEA150
 description: 21Vianet에서 운영 하는 Office 365 용 iOS 용 Microsoft Office 앱 및 중국의 고객을 위해이를 다운로드 하는 방법에 대해 자세히 알아보세요.
 monikerRange: o365-21vianet
-ms.openlocfilehash: fcdd1af001de59f5f2fec3cea091c96818d643ca
-ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
+ms.openlocfilehash: bd36684f7fa5365c3f680128cbbd0132c6a8876d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42266995"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399053"
 ---
 # <a name="office-app-for-ios-for-office-365-operated-by-21vianet"></a>21Vianet에서 운영 하는 Office 365 용 iOS 용 office 앱
 
