@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 607d9d3ac0b7c5f91f2d5581f6c815dbac43e6e7
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 38e6ef9181a196a6a666d7c840450a8ca7d8e328
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42357769"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44397169"
 ---
 # <a name="contact-support-for-marshall-islands"></a>마샬 군도 지원 서비스에 문의
 
