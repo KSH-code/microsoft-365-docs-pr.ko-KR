@@ -14,18 +14,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 - GEA150
 ms.assetid: 28343f3a-dcee-41b6-9b97-5b0f4999b7ef
 description: Office 365의 전자 메일, 웹 사이트 및 계정에 대 한 고유한 도메인 사용을 시작 하세요. 도메인에 대해 알아보고 도메인을 변경 하 고, 전자 메일 및 웹 사이트를 통합 하 고, 도구 및 팁을 확인 하세요.
-ms.openlocfilehash: f1b159f33d60c9a927f495b5bdce8a8eb24e9a44
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 1d3e7fb12f497d512693b8289f072106173356bb
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42897081"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399923"
 ---
 # <a name="get-help-with-office-365-domains"></a>Office 365 도메인에 대한 도움말 보기
 

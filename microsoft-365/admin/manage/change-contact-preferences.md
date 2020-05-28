@@ -9,6 +9,7 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -16,38 +17,38 @@ search.appverid:
 - GEA150
 ms.assetid: 6f70de1b-a64d-4498-bfbd-be8c83a9c0fc
 description: 조직의 연락처 정보를 업데이트 하 고 수신 하려는 Microsoft 365 제품 관련 통신을 선택 합니다.
-ms.openlocfilehash: 4a667757990ec30f4514b094fd1592831601e679
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e802a45c9b038c7256def259090c58f92b6a7cb8
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628211"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399791"
 ---
-# <a name="change-your-contact-preferences-for-communications-from-microsoft"></a><span data-ttu-id="ab2b1-103">Microsoft의 통신에 대한 연락처 기본 설정 변경</span><span class="sxs-lookup"><span data-stu-id="ab2b1-103">Change your contact preferences for communications from Microsoft</span></span>
+# <a name="change-your-contact-preferences-for-communications-from-microsoft"></a><span data-ttu-id="a115b-103">Microsoft의 통신에 대한 연락처 기본 설정 변경</span><span class="sxs-lookup"><span data-stu-id="a115b-103">Change your contact preferences for communications from Microsoft</span></span>
 
-<span data-ttu-id="ab2b1-104">**연락처 기본 설정** 페이지를 사용 하 여 조직의 연락처 정보를 업데이트 하 고, 수신 하려는 Microsoft 365 제품 관련 통신을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab2b1-104">Use the **Contact preferences** page to update your organizations's contact information, and choose the Microsoft 365 product-related communications that you want to receive.</span></span>
+<span data-ttu-id="a115b-104">**연락처 기본 설정** 페이지를 사용 하 여 조직의 연락처 정보를 업데이트 하 고, 수신 하려는 Microsoft 365 제품 관련 통신을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="a115b-104">Use the **Contact preferences** page to update your organizations's contact information, and choose the Microsoft 365 product-related communications that you want to receive.</span></span>
   
-<span data-ttu-id="ab2b1-105">읽기 관리자 휴대폰 번호 및 전자 메일 주소를 변경 하는 방법에 대 한 정보는 [Microsoft 365의 관리자 전화 번호 및 전자 메일 주소를 업데이트](update-phone-number-and-email-address.md) 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab2b1-105">Read [Update your admin phone number and email address in Microsoft 365](update-phone-number-and-email-address.md) for info on how to change your admin cellular phone number and email address.</span></span>
+<span data-ttu-id="a115b-105">읽기 관리자 휴대폰 번호 및 전자 메일 주소를 변경 하는 방법에 대 한 정보는 [Microsoft 365의 관리자 전화 번호 및 전자 메일 주소를 업데이트](update-phone-number-and-email-address.md) 합니다.</span><span class="sxs-lookup"><span data-stu-id="a115b-105">Read [Update your admin phone number and email address in Microsoft 365](update-phone-number-and-email-address.md) for info on how to change your admin cellular phone number and email address.</span></span>
   
-<span data-ttu-id="ab2b1-106">조직의 이름 및 주소, 기본 회사 전화 번호 및 기술 담당자 정보와 같은 회사 프로필 정보를 변경하는 방법을 알아보려면 [조직의 주소, 기술 담당자 전자 메일 및 기타 정보 변경](change-address-contact-and-more.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="ab2b1-106">If you're looking for how to change company profile information, such as organization's name and address, primary company phone number, and technical contact information, see [Change your organization's address, technical contact email, and other information](change-address-contact-and-more.md).</span></span>
+<span data-ttu-id="a115b-106">조직의 이름 및 주소, 기본 회사 전화 번호 및 기술 담당자 정보와 같은 회사 프로필 정보를 변경하는 방법을 알아보려면 [조직의 주소, 기술 담당자 전자 메일 및 기타 정보 변경](change-address-contact-and-more.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="a115b-106">If you're looking for how to change company profile information, such as organization's name and address, primary company phone number, and technical contact information, see [Change your organization's address, technical contact email, and other information](change-address-contact-and-more.md).</span></span>
   
-## <a name="to-update-your-information"></a><span data-ttu-id="ab2b1-107">정보를 업데이트하려면</span><span class="sxs-lookup"><span data-stu-id="ab2b1-107">To update your information</span></span>
+## <a name="to-update-your-information"></a><span data-ttu-id="a115b-107">정보를 업데이트하려면</span><span class="sxs-lookup"><span data-stu-id="a115b-107">To update your information</span></span>
   
-1. <span data-ttu-id="ab2b1-108">관리 센터에서 머리글 오른쪽 맨 위에 있는 **설정** 아이콘을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab2b1-108">In the admin center, select the **Settings** icon in the top right of the header.</span></span>
+1. <span data-ttu-id="a115b-108">관리 센터에서 머리글 오른쪽 맨 위에 있는 **설정** 아이콘을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="a115b-108">In the admin center, select the **Settings** icon in the top right of the header.</span></span>
 
-2. <span data-ttu-id="ab2b1-109">**연락처 기본 설정을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab2b1-109">Select **Contact preferences**.</span></span>
+2. <span data-ttu-id="a115b-109">**연락처 기본 설정을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="a115b-109">Select **Contact preferences**.</span></span>
 
-3. <span data-ttu-id="ab2b1-110">수신하려는 제품 관련 통신의 유형을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="ab2b1-110">Choose the types of product-related communications you want to receive.</span></span>
+3. <span data-ttu-id="a115b-110">수신하려는 제품 관련 통신의 유형을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a115b-110">Choose the types of product-related communications you want to receive.</span></span>
 
-4. <span data-ttu-id="ab2b1-111">이러한 통신을 수신하려는 회사 전화, 회사 휴대폰 또는 회사 전자 메일을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="ab2b1-111">Type the business phone, business mobile phone, or business email where you want to receive these communications.</span></span>
-    <span data-ttu-id="ab2b1-112">Microsoft 전자 메일 주소를 비롯 한 모든 전자 메일 주소를 사용 하 여 이러한 통신을 받을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ab2b1-112">You can use any email address, including your Microsoft email address, to receive these communications.</span></span> <span data-ttu-id="ab2b1-113">연락처 기본 설정의 전자 메일 주소를 추가하지 않으면 대체 전자 메일 주소( **개인 정보** 페이지에 있음)가 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="ab2b1-113">If you don't add an email address for contact preferences, your alternate email address (on the **Personal info** page) will be used.</span></span>
+4. <span data-ttu-id="a115b-111">이러한 통신을 수신하려는 회사 전화, 회사 휴대폰 또는 회사 전자 메일을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="a115b-111">Type the business phone, business mobile phone, or business email where you want to receive these communications.</span></span>
+    <span data-ttu-id="a115b-112">Microsoft 전자 메일 주소를 비롯 한 모든 전자 메일 주소를 사용 하 여 이러한 통신을 받을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a115b-112">You can use any email address, including your Microsoft email address, to receive these communications.</span></span> <span data-ttu-id="a115b-113">연락처 기본 설정의 전자 메일 주소를 추가하지 않으면 대체 전자 메일 주소( **개인 정보** 페이지에 있음)가 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="a115b-113">If you don't add an email address for contact preferences, your alternate email address (on the **Personal info** page) will be used.</span></span>
 
-5. <span data-ttu-id="ab2b1-114">**저장**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="ab2b1-114">Choose **Save**.</span></span>
+5. <span data-ttu-id="a115b-114">**저장**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a115b-114">Choose **Save**.</span></span>
   
-<span data-ttu-id="ab2b1-115">Office 365 Enterprise, Microsoft 365 Business Standard 및 Microsoft 365 Business Basic의 경우 조직의 사용자 국가 또는 지역에 따라 Microsoft 365에 대 한 관리자 권한으로 처음으로 등록할 때 사용자가 제품 관련 통신을 수신 하도록 자동으로 등록 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ab2b1-115">For Office 365 Enterprise, Microsoft 365 Business Standard, and Microsoft 365 Business Basic, when you first signed up as an admin for Microsoft 365, depending on the country or region of the users in your organization, your users might be automatically signed up to receive product-related communications.</span></span>
+<span data-ttu-id="a115b-115">Office 365 Enterprise, Microsoft 365 Business Standard 및 Microsoft 365 Business Basic의 경우 조직의 사용자 국가 또는 지역에 따라 Microsoft 365에 대 한 관리자 권한으로 처음으로 등록할 때 사용자가 제품 관련 통신을 수신 하도록 자동으로 등록 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a115b-115">For Office 365 Enterprise, Microsoft 365 Business Standard, and Microsoft 365 Business Basic, when you first signed up as an admin for Microsoft 365, depending on the country or region of the users in your organization, your users might be automatically signed up to receive product-related communications.</span></span>
   
-<span data-ttu-id="ab2b1-116">대금 청구 관련 질문에 대답은 다음을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="ab2b1-116">For answers to billing questions, see:</span></span>
+<span data-ttu-id="a115b-116">대금 청구 관련 질문에 대답은 다음을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="a115b-116">For answers to billing questions, see:</span></span>
   
-- [<span data-ttu-id="ab2b1-117">비즈니스에 대 한 Microsoft 365의 대금 청구 주소 변경</span><span class="sxs-lookup"><span data-stu-id="ab2b1-117">Change your billing addresses for Microsoft 365 for business</span></span>](../../commerce/billing-and-payments/change-your-billing-addresses.md)
+- [<span data-ttu-id="a115b-117">비즈니스에 대 한 Microsoft 365의 대금 청구 주소 변경</span><span class="sxs-lookup"><span data-stu-id="a115b-117">Change your billing addresses for Microsoft 365 for business</span></span>](../../commerce/billing-and-payments/change-your-billing-addresses.md)
 
-- [<span data-ttu-id="ab2b1-118">비즈니스용 Microsoft 365에서 신용 카드 또는 은행 계좌 추가, 업데이트 또는 제거</span><span class="sxs-lookup"><span data-stu-id="ab2b1-118">Add, update, or remove a credit card or bank account in Microsoft 365 for business</span></span>](../../commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
+- [<span data-ttu-id="a115b-118">비즈니스용 Microsoft 365에서 신용 카드 또는 은행 계좌 추가, 업데이트 또는 제거</span><span class="sxs-lookup"><span data-stu-id="a115b-118">Add, update, or remove a credit card or bank account in Microsoft 365 for business</span></span>](../../commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
