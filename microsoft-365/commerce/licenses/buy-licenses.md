@@ -17,6 +17,7 @@ ms.collection:
 ms.custom:
 - SaRA
 - okr_SMB
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -25,19 +26,19 @@ search.appverid:
 - GEA150
 ms.assetid: 36081d8d-b3fa-4948-8c34-e217bba825e1
 description: Microsoft 365 for business 구독에 대 한 라이선스를 추가 및 제거 하는 방법을 알아봅니다.
-ms.openlocfilehash: f8ae177052be325673af96d9535f25dfcdc93180
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: c4b2b30c9d444aad11ea4cd2faf8b2546e33c39c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141236"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44404025"
 ---
 # <a name="manage-subscription-licenses"></a>구독 라이선스 관리
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -49,7 +50,7 @@ ms.locfileid: "44141236"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
 
 2. **제품** 페이지에서 라이선스를 추가 하거나 제거할 구독을 찾은 다음 **라이선스 추가/제거**를 선택 합니다.
 
@@ -69,7 +70,7 @@ ms.locfileid: "44141236"
 
     [라이선스 추가/제거 링크가 표시되지 않으면 어떻게 하나요?](#what-if-i-dont-see-the-addremove-licenses-link)
 
-3. **총 라이선스** 상자에이 구독에 필요한 총 라이선스 수를 입력 한 다음 **닫기** **제출을** \> 선택 합니다. 예를 들어 100개의 라이선스가 있는데 5개를 더 추가해야 하는 경우 105를 입력합니다. 5 개를 제거 하려면 95을 입력 합니다.
+3. **총 라이선스** 상자에이 구독에 필요한 총 라이선스 수를 입력 한 다음 **Submit** \> **닫기**제출을 선택 합니다. 예를 들어 100개의 라이선스가 있는데 5개를 더 추가해야 하는 경우 105를 입력합니다. 5 개를 제거 하려면 95을 입력 합니다.
 
 새 라이선스를 구매한 후에 [는 사용자에 게 라이선스를 할당](../../admin/manage/assign-licenses-to-users.md)해야 합니다.
 
@@ -83,7 +84,7 @@ ms.locfileid: "44141236"
 
     [라이선스 추가/제거 링크가 표시되지 않으면 어떻게 하나요?](#what-if-i-dont-see-the-addremove-licenses-link)
 
-3. **총 라이선스** 상자에이 구독에 필요한 총 라이선스 수를 입력 한 다음 **닫기** **제출을** \> 선택 합니다. 예를 들어 100개의 라이선스가 있는데 5개를 더 추가해야 하는 경우 105를 입력합니다. 5 개를 제거 하려면 95을 입력 합니다.
+3. **총 라이선스** 상자에이 구독에 필요한 총 라이선스 수를 입력 한 다음 **Submit** \> **닫기**제출을 선택 합니다. 예를 들어 100개의 라이선스가 있는데 5개를 더 추가해야 하는 경우 105를 입력합니다. 5 개를 제거 하려면 95을 입력 합니다.
 
 새 라이선스를 구매한 후에 [는 사용자에 게 라이선스를 할당](../../admin/manage/assign-licenses-to-users.md)해야 합니다.
 
@@ -93,7 +94,7 @@ ms.locfileid: "44141236"
 
 이 표에서는 **라이선스 추가/제거** 링크를 사용 하지 못할 수 있는 이유와이에 대해 수행할 수 있는 작업에 대해 설명 합니다. 
 
-|이유  |설명  |솔루션  |
+|이유  |설명  |해결 방법  |
 |---------|---------|---------|
 |신용 검사가 보류 중입니다. |신용 조사가 보류 중인 경우 "신용 조사 보류 중" 메시지가 표시되고 신용 조사가 완료될 때까지 라이선스를 구입할 수 없습니다.  | 나중에 다시 확인 하 여 신용 검사가 완료 되었는지 확인 합니다. 신용 조사가 완료되려면 보통 영업일 기준 최대 2일이 걸립니다.<br>신용 조사가 완료되면 **사용자** 섹션에 **라이선스 추가/제거** 링크가 표시됩니다. 그렇다면 [구독 라이선스 관리](#manage-subscription-licenses)로 이동 합니다. |
 |제품 키를 사용 하 여 구독을 활성화 한 경우| 25자의 제품 키를 사용하여 구독을 구입하고 정품 인증한 경우 "선불"이라는 텍스트가 표시됩니다.  |[제품 키를 사용 하 여 지불한 구독에 라이선스 추가를](add-licenses-using-product-key.md)참조 하세요. |

@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: 구독에 대 한 결제를 보낼 위치를 알아봅니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 89fefb02d431954176774a3f5feba8cefe897d45
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 7eb078eb4213d8d15c301f2f2ada26448228e992
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257793"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403989"
 ---
 # <a name="payment-information-for-nigeria"></a>나이지리아 결제 정보
 

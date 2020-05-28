@@ -25,12 +25,12 @@ ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
-ms.openlocfilehash: 387cc4af038bea572a60176b2c2b400f410aa6ad
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: baf09d87f6229cb530c328d570fa70dc25729a11
+ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401765"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407959"
 ---
 # <a name="pay-for-your-subscription"></a>구독 결제
 
@@ -48,7 +48,7 @@ ms.locfileid: "44401765"
 
 ## <a name="pay-by-credit-card-or-bank-account"></a>신용 카드 또는 은행 계좌로 결제
 
-신용 카드 또는 은행 계좌로 결제하는 경우 구독 기간이 끝날 때까지 구독 요금이 송장 날짜 다음날에 자동으로 청구됩니다. 필요한 경우 언제든지 [신용 카드 또는 은행 계좌 정보를 업데이트](add-update-or-remove-credit-card-or-bank-account.md)할 수 있습니다. 또한 [전자 메일로 청구서 사본 받기](#receive-a-copy-of-your-billing-statement-in-email) 선택할 수 있습니다.
+신용 카드 또는 은행 계좌로 결제하는 경우 구독 기간이 끝날 때까지 구독 요금이 송장 날짜 다음날에 자동으로 청구됩니다. 필요한 경우 언제 든 지 [결제 방법을 관리할](manage-payment-methods.md) 수 있습니다. 또한 [전자 메일로 청구서 사본 받기](#receive-a-copy-of-your-billing-statement-in-email) 선택할 수 있습니다.
 
 ### <a name="what-if-my-credit-card-was-declined-and-my-payment-is-past-due"></a>신용 카드가 거부되었는데 결제 기한이 지난 경우에 어떻게 되나요?
 
@@ -63,12 +63,12 @@ ms.locfileid: "44401765"
 
 2. 미지불 잔액이 있는 구독을 찾습니다. **청구** 섹션에서 **구독에 기한 경과 결제가 있음** 옆에 있는 **잔액 결제**를 선택합니다.
 
-3. 신용 카드를 소유한 경우 카드의 만료 날짜를 변경하거나, 다른 카드를 선택하거나, [새 카드를 추가](add-update-or-remove-credit-card-or-bank-account.md)할 수 있습니다.
+3. 신용 카드를 소유한 경우 카드의 만료 날짜를 변경하거나, 다른 카드를 선택하거나, [새 카드를 추가](manage-payment-methods.md)할 수 있습니다.
 
     > [!NOTE]
     > **잔액 결제** 기능을 사용할 때 계정의 미지불 잔액이 전부 청구되며, 그 금액은 다른 곳에 표시된 금액보다 클 수도 있습니다.
 
-4. 신용 카드를 소유하지 않은 경우 다른 신용 카드를 선택하거나 [새 카드를 추가](add-update-or-remove-credit-card-or-bank-account.md)할 수 있습니다.
+4. 신용 카드를 소유하지 않은 경우 다른 신용 카드를 선택하거나 [새 카드를 추가](manage-payment-methods.md)할 수 있습니다.
 
 5. 신용 카드 정보를 업데이트하거나 구독의 결제에 사용한 카드를 변경하고 나면 **저장**을 선택합니다.
 
@@ -80,13 +80,13 @@ ms.locfileid: "44401765"
 
 2. 변경할 구독을 선택합니다. **내 청구서** 섹션에서 **지금 결제**를 선택합니다.
 
-3. 신용 카드를 소유한 경우 카드의 만료 날짜를 변경하거나, 다른 카드를 선택하거나, [새 카드를 추가](add-update-or-remove-credit-card-or-bank-account.md)할 수 있습니다.
+3. 신용 카드를 소유한 경우 카드의 만료 날짜를 변경하거나, 다른 카드를 선택하거나, [새 카드를 추가](manage-payment-methods.md)할 수 있습니다.
 
     > [!NOTE]
     > 
             **지금 결제** 기능을 사용할 때 계정의 미지불 잔액이 전부 청구되며, 그 금액은 다른 곳에 표시된 금액보다 클 수도 있습니다.
 
-4. 신용 카드를 소유하지 않은 경우 다른 신용 카드를 선택하거나 [새 카드를 추가](add-update-or-remove-credit-card-or-bank-account.md)할 수 있습니다.
+4. 신용 카드를 소유하지 않은 경우 다른 신용 카드를 선택하거나 [새 카드를 추가](manage-payment-methods.md)할 수 있습니다.
 
 5. 신용 카드 정보를 업데이트하거나 구독의 결제에 사용한 카드를 변경하고 나면 **제출**을 선택합니다. 그러면 "결제 방법이 업데이트되었고 모든 미결 요금이 결제되었습니다. 감사합니다."라는 확인 메시지가 표시됩니다.
 
@@ -312,6 +312,6 @@ ms.locfileid: "44401765"
 
 ## <a name="related-articles"></a>관련 문서
 
-[신용 카드 또는 은행 계좌 추가, 업데이트 또는 제거](add-update-or-remove-credit-card-or-bank-account.md)
+[결제 방법 관리](manage-payment-methods.md)
 
 [청구서 또는 송장 이해하기](understand-your-invoice2.md)

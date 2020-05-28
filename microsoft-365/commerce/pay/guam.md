@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: 구독에 대 한 결제를 보낼 위치를 알아봅니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a2c674ebb8314562b34ccdbf2d7db6256660993e
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 8cc9027782301a13b49aa4a69514483d30d13423
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255651"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44404421"
 ---
 # <a name="payment-information-for-guam"></a>괌에 대 한 지불 정보
 

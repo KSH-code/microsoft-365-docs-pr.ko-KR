@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: 구독에 대 한 결제를 보낼 위치를 알아봅니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8b77cd0814d1d261a229c5aac1b94c833db7b667
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: d370ea99633671d56aa934078631b28db9e7dd6e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247128"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403785"
 ---
 # <a name="payment-information-for-saudi-arabia"></a>사우디아라비아 결제 정보
 

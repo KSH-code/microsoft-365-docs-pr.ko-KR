@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8652f539-3123-4a8f-b9bd-6aa2f0e0372d
 description: 비즈니스 구독의 결제 방법을 변경 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: babc8911305fe009ad3b9dc49163a0525c6d0666
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 7350546da14ebd68182e158c0d15cdfb727f5718
+ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401813"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407971"
 ---
 # <a name="change-your-payment-method"></a>결제 방법 변경
 
@@ -43,7 +43,7 @@ ms.locfileid: "44401813"
 > [!IMPORTANT]
 > 일부 국가나 지역에서는 은행 계좌 결제를 사용할 수 없습니다.
 
- **신용 카드 또는 은행 계좌 정보만 변경 하 고 싶으십니까?** [신용 카드 또는 은행 계좌 추가, 업데이트 또는 제거](add-update-or-remove-credit-card-or-bank-account.md)를 참조 하세요.
+ **신용 카드 또는 은행 계좌 정보만 변경 하 고 싶으십니까?** [결제 방법 관리](manage-payment-methods.md)를 참조 하세요.
 
  **청구 되는 빈도를 변경 하 고 싶으십니까?** [결제 빈도 변경을](change-payment-frequency.md)참조 하세요.
   
@@ -67,7 +67,7 @@ ms.locfileid: "44401813"
   
  **결제 빈도를 변경 하 시겠습니까?** 연회비에서 매월 또는 매월 년 간 구독 비용을 지불 하는 빈도를 변경 하려면 [Microsoft 지원 서비스에 문의](../../admin/contact-support-for-business-products.md) 하 여 도움을 받아야 합니다.
   
- **신용 카드 또는 은행 계좌 정보만 변경 하 고 싶으십니까?** [신용 카드 또는 은행 계좌 추가, 업데이트 또는 제거](add-update-or-remove-credit-card-or-bank-account.md)를 참조 하세요.
+ **신용 카드 또는 은행 계좌 정보만 변경 하 고 싶으십니까?** [결제 방법 관리](manage-payment-methods.md)를 참조 하세요.
   
  **미지불 잔액이 있는 경우에는 어떻게 하나요?**
   

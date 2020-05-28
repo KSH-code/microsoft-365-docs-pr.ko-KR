@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
 description: 관리 센터에서 관리자 전화 번호 및 전자 메일 주소를 업데이트 합니다. 자신의 관리자 암호를 다시 설정 하려면이 정보가 필요 합니다.
-ms.openlocfilehash: fd0cf89391d87692f87db5d83b8d054783e9310a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: bd8ee28cbc7982ea5b057fecb34d362557a5d5a9
+ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399509"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407923"
 ---
 # <a name="update-your-admin-phone-number-and-email-address"></a>관리자 전화 번호 및 전자 메일 주소 업데이트
 
@@ -58,4 +58,4 @@ ms.locfileid: "44399509"
   
 - [비즈니스에 대 한 Microsoft 365의 대금 청구 주소 변경](../../commerce/billing-and-payments/change-your-billing-addresses.md)
 
-- [비즈니스용 Microsoft 365에서 신용 카드 또는 은행 계좌 추가, 업데이트 또는 제거](../../commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
+- [결제 방법 관리](../../commerce/billing-and-payments/manage-payment-methods.md)

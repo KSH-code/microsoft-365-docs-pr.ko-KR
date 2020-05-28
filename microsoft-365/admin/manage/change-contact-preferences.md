@@ -17,12 +17,12 @@ search.appverid:
 - GEA150
 ms.assetid: 6f70de1b-a64d-4498-bfbd-be8c83a9c0fc
 description: 조직의 연락처 정보를 업데이트 하 고 수신 하려는 Microsoft 365 제품 관련 통신을 선택 합니다.
-ms.openlocfilehash: e802a45c9b038c7256def259090c58f92b6a7cb8
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: afb69c52ba89c2a9e6ff7af014a74b0abfda4e5e
+ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399791"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407935"
 ---
 # <a name="change-your-contact-preferences-for-communications-from-microsoft"></a>Microsoft의 통신에 대한 연락처 기본 설정 변경
 
@@ -51,4 +51,4 @@ Office 365 Enterprise, Microsoft 365 Business Standard 및 Microsoft 365 Busines
   
 - [비즈니스에 대 한 Microsoft 365의 대금 청구 주소 변경](../../commerce/billing-and-payments/change-your-billing-addresses.md)
 
-- [비즈니스용 Microsoft 365에서 신용 카드 또는 은행 계좌 추가, 업데이트 또는 제거](../../commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
+- [결제 방법 관리](../../commerce/billing-and-payments/manage-payment-methods.md)

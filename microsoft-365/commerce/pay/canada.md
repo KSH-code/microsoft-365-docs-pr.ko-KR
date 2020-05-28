@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: 구독에 대 한 결제를 보낼 위치를 알아봅니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c1c8186b335f370f8d8969d4cd0ae7e4c003980d
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 16ce085edcb573874ddb10b127723ab34efd6546
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255795"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44404373"
 ---
 # <a name="payment-information-for-canada"></a>캐나다 결제 정보
 
@@ -27,13 +28,17 @@ CAD에만 요금을 지불 하 고 결제 방식 remittance에서 청구서 번�
 
 ## <a name="check"></a>수표
 
-**Payee:** Mfc  
-**우편 주소:**   
+**Payee:** Mfc
+
+**우편 주소:**  
 아메리카, Lockbox 910430, PO Box 4090, STN, M5W 0E9, 캐나다
 
 ## <a name="electronic-funds-transfer"></a>전자 자금 이체
 
-**뱅크:** 아메리카 뱅크  
+**뱅크:** 지역, 사람의 은행  
 **SWIFT 코드:** BOFACATT  
 **계정 번호:** 45571239  
 **계정 이름:** Mfc  
+**은행 ID:** 241  
+**분기:** 56792  
+**라우팅/통과 #:** 024156792  

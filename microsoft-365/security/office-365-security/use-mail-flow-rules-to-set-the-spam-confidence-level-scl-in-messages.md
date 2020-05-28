@@ -17,20 +17,20 @@ ms.collection:
 - M365-security-compliance
 description: 메일 흐름 규칙 (전송 규칙)을 만들어 메시지를 식별 하 고 Exchange Online Protection에서 메시지의 SCL (스팸 지 수)을 설정 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9af154a9f71992597e111147b792cd5286e2ad3
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 223e676579c99eca7db641146d3a1b6bd22f9ca2
+ms.sourcegitcommit: 1f3101326e8a54b9bda4ba0324eae00fafcf5e7b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208564"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44405122"
 ---
 # <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages-in-eop"></a>메일 흐름 규칙을 사용 하 여 EOP의 메시지에 SCL (스팸 지 수) 설정
 
-Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (독립 실행형 Exchange Online Protection) 조직에서 EOP는 스팸 방지 정책 (스팸 필터 정책 또는 콘텐츠 필터 정책이 라고도 함)을 사용 하 여 스팸 메일에 대 한 인바운드 메시지를 검사 합니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
+Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (독립 실행형 Exchange Online Protection) 조직에서 EOP는 스팸 방지 정책 (스팸 필터 정책 또는 콘텐츠 필터 정책이 라고도 함)을 사용 하 여 스팸 메일에 대 한 인바운드 메시지를 검사 합니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
 특정 메시지를 스팸으로 표시 하 여 스팸 필터링으로 검색 하거나 메시지를 표시 하 여 스팸 필터링을 건너뛰도록 하려면 메시지를 식별 하 고 SCL (스팸 지 수)을 설정 하는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수 있습니다. SCL에 대 한 자세한 내용은 [EOP의 scl (스팸](spam-confidence-levels.md)지 수)을 참조 하십시오.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 이러한 절차를 수행 하려면 먼저 Exchange Online에서 사용 권한을 할당 받아야 합니다. 특히 **조직 관리**, **규정 준수 관리**및 **레코드 관리** 역할에 할당 되는 **전송 규칙** 역할을 기본적으로 할당 해야 합니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)를 참조하세요.
 
@@ -54,7 +54,7 @@ Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (독립 실행�
 
    - **다음을 수행**합니다. **메시지 속성 수정을** 선택 하 여 \> **SCL (스팸 지 수)을 설정**합니다. **SCL 지정** 대화 상자가 나타나면 다음 값 중 하나를 구성 합니다.
 
-   - **스팸 필터링 바이패스**: 그러면 SCL이-1로 설정 되므로 메시지는 스팸 필터링을 건너뜁니다.
+   - **스팸 필터링 바이패스**: 메시지에서 스팸 필터링을 건너뜁니다.
 
      > [!CAUTION]
      > 스팸 필터링을 건너뛰도록 메시지를 허용 하는 경우에 특히 주의 해야 합니다. 공격자는이 보안 문제를 사용 하 여 피싱 및 기타 악의적인 메시지를 조직에 보낼 수 있습니다. 메일 흐름 규칙은 보낸 사람의 전자 메일 주소 또는 도메인을 초과 하는 경우에만 필요 합니다. 자세한 내용은 [EOP에서 수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조 하십시오.

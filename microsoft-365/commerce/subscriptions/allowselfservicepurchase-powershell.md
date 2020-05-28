@@ -11,17 +11,17 @@ ms.service: o365-administration
 localization_priority: None
 ms.collection:
 - commerce
-ms.custom: ''
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: AllowSelfServicePurchase PowerShell cmdlet을 사용 하 여 셀프 서비스 구매를 설정 하거나 해제 하는 방법을 알아봅니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6c0bcec70eab4266674ca2a22f1b2054807a26e8
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: ec5ebe814066916de5cafc176cdcd82bfd416a57
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011678"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403693"
 ---
 # <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a>MSCommerce PowerShell 모듈에 대해 AllowSelfServicePurchase 사용
 
@@ -137,7 +137,7 @@ Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId $pr
 
 이전 버전의 TLS (전송 계층 보안)로 인 한 것일 수 있습니다. 이 서비스에 연결 하려면 TLS 1.2 이상을 사용 해야 합니다.
 
-**솔루션**
+**해결 방법**
 
 TLS 1.2으로 업그레이드 합니다.[https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2)
 
