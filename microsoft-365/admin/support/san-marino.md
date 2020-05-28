@@ -9,34 +9,35 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 770ab04eba064750bd516766b04d8614957bf57e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 57c9f31f6d25637c9325e7006de943c14e6d9113
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42356639"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44389256"
 ---
-# <a name="contact-support-for-san-marino"></a><span data-ttu-id="da58e-103">산마리노 지원 문의</span><span class="sxs-lookup"><span data-stu-id="da58e-103">Contact support for San Marino</span></span>
+# <a name="contact-support-for-san-marino"></a><span data-ttu-id="16c18-103">산마리노 지원 문의</span><span class="sxs-lookup"><span data-stu-id="16c18-103">Contact support for San Marino</span></span>
 
-<span data-ttu-id="da58e-104">[다른 국가 또는 지역을 찾습니다](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="da58e-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="16c18-104">[다른 국가 또는 지역을 찾습니다](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="16c18-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="da58e-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="da58e-105">Phone number</span></span>
-<span data-ttu-id="da58e-106">+ 1 312 843 5154</span><span class="sxs-lookup"><span data-stu-id="da58e-106">+1 312 843 5154</span></span>
+## <a name="phone-number"></a><span data-ttu-id="16c18-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="16c18-105">Phone number</span></span>
+<span data-ttu-id="16c18-106">+ 1 312 843 5154</span><span class="sxs-lookup"><span data-stu-id="16c18-106">+1 312 843 5154</span></span>
 
-## <a name="hours"></a><span data-ttu-id="da58e-107">시간</span><span class="sxs-lookup"><span data-stu-id="da58e-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="da58e-108">대금 청구 지원:</span><span class="sxs-lookup"><span data-stu-id="da58e-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="16c18-107">시간</span><span class="sxs-lookup"><span data-stu-id="16c18-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="16c18-108">대금 청구 지원:</span><span class="sxs-lookup"><span data-stu-id="16c18-108">Billing Support:</span></span>
 
-<span data-ttu-id="da58e-109">이탈리아어: Mon-금요일 오전 10 시-오후 6 시</span><span class="sxs-lookup"><span data-stu-id="da58e-109">Italian: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="16c18-109">이탈리아어: Mon-금요일 오전 10 시-오후 6 시</span><span class="sxs-lookup"><span data-stu-id="16c18-109">Italian: Mon-Fri 10 AM-6 PM</span></span>
 
-<span data-ttu-id="da58e-110">영어: Mon-금요일 오전 10 시-오후 6 시</span><span class="sxs-lookup"><span data-stu-id="da58e-110">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="16c18-110">영어: Mon-금요일 오전 10 시-오후 6 시</span><span class="sxs-lookup"><span data-stu-id="16c18-110">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="da58e-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="da58e-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="16c18-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="16c18-111">Technical Support:</span></span>
 
-<span data-ttu-id="da58e-112">이탈리아어: Mon-금요일 오전 9 시-오후 10 시</span><span class="sxs-lookup"><span data-stu-id="da58e-112">Italian: Mon-Fri 9 AM-10 PM</span></span>
+<span data-ttu-id="16c18-112">이탈리아어: Mon-금요일 오전 9 시-오후 10 시</span><span class="sxs-lookup"><span data-stu-id="16c18-112">Italian: Mon-Fri 9 AM-10 PM</span></span>
 
-<span data-ttu-id="da58e-113">영어: 하루 24 시간 365 일 연중 무휴로</span><span class="sxs-lookup"><span data-stu-id="da58e-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="16c18-113">영어: 하루 24 시간 365 일 연중 무휴로</span><span class="sxs-lookup"><span data-stu-id="16c18-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="da58e-114">국제 통화 요금이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="da58e-114">International call charges apply</span></span>
+<span data-ttu-id="16c18-114">국제 통화 요금이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="16c18-114">International call charges apply</span></span>
