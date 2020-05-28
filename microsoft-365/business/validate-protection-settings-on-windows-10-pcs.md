@@ -17,17 +17,18 @@ ms.custom:
 - Core_O365Admin_Migration
 - MSB365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Windows 10 장치에서 Microsoft 365 Business Premium 앱 보호 설정을 확인 하 고 사용자가 회사 데이터를 개인 파일이 나 관리 되지 않는 앱에 복사할 수 없는지 확인 합니다.
-ms.openlocfilehash: 20b2e43ae53486c046440ff1066d241ec9661888
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 589d2fc25cc1425a775523595881660cc03e152e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635747"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403393"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Windows 10 PC에서 앱 보호 설정 유효성 검사
 
@@ -37,11 +38,11 @@ ms.locfileid: "43635747"
   
  **연결 설정 확인**
   
-1. Microsoft 365 business premium 자격 증명으로 로그인 하 고 [microsoft 365 Business premium 사용자를 위한 windows 장치 설정](set-up-windows-devices.md)에 설명 된 대로 Azure AD에 연결한 후에 **windows 설정** \> **계정** \> **액세스 회사 또는 학교**로 이동 합니다. **\<테넌트 이름\> Azure AD에 연결됨**을 선택한 다음 **정보**를 선택합니다.
+1. Microsoft 365 business premium 자격 증명으로 로그인 하 고 [microsoft 365 Business premium 사용자를 위한 windows 장치 설정](set-up-windows-devices.md)에 설명 된 대로 Azure AD에 연결한 후에 **windows 설정** \> **계정** \> **액세스 회사 또는 학교**로 이동 합니다. ** \<tenant name\> Azure AD에 연결**을 선택한 다음 **정보**를 선택 합니다.
     
     ![Click or tap Info on the Connected to Azure AD dialog.](../media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   
-2. 테 \<넌 트\> 이름 **으로 관리** 페이지에서 다음 그림에 표시 된 것과 같은 **관리 서버 주소** 를 포함 하는 **연결 정보** 를 볼 수 있습니다. 
+2. 관리 **대상** \<tenant name\> 페이지에서 다음 그림에 표시 된 것과 같은 **관리 서버 주소** 를 포함 하는 **연결 정보** 를 볼 수 있습니다. 
     
     ![Managed by page shows connection info of the device manager URL.](../media/47515a8e-2d0c-4bea-99f0-6b2545b88a11.png)
   
@@ -67,7 +68,7 @@ ms.locfileid: "43635747"
     
 2. **회사 또는 학교 액세스**에서 **연결**을 선택합니다.
     
-3. **회사 또는 학교 계정 설정 대화 상자** \> 에 **로그인**하 여 Microsoft 365 Business Premium 자격 증명을 입력 합니다.
+3. **회사 또는 학교 계정 설정 대화 상자** 에 로그인 하 여 Microsoft 365 Business Premium 자격 증명을 입력 합니다 \> **Sign in**.
     
 4. **회사 또는 학교 액세스** 페이지에서 **회사 또는 학교 계정**을 선택한 다음 **정보**를 선택합니다.
     

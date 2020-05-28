@@ -20,6 +20,7 @@ ms.custom:
 - TopSMBIssues
 - MSStore_Link
 - okr_SMB
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -27,12 +28,12 @@ search.appverid:
 - BEA160
 ms.assetid: 485fee6d-b22e-440a-9053-a4e7fa509c92
 description: 비즈니스를 위한 Microsoft 365 구독을 구매 합니다. 같은 유형의 구독을 구입 하거나 다른 요금제를 구입할 수 있습니다.
-ms.openlocfilehash: 48786ffc4bd0a8c5e8e13e0062b6db1dd5bed561
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: de141cb42b310bff6221d0bef6d923882dadadfd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045803"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402621"
 ---
 # <a name="buy-a-subscription-to-microsoft-365-for-business-from-your-free-trial"></a>무료 평가판에서 Microsoft 365 비즈니스에 대 한 구독 구입
 
@@ -50,7 +51,7 @@ Microsoft 365를 사용해 보았지만 이제 구매할 준비가 되었습니�
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
 
 2. **제품** 페이지에서 구매할 구독을 찾습니다. **라이선스** 섹션에서 **구독 구매**를 선택 합니다.
 
@@ -109,7 +110,7 @@ Microsoft 365를 사용해 보았지만 이제 구매할 준비가 되었습니�
 
 5. 가격 정보를 검토 하 고 **다음**을 선택 합니다.
 
-6. 결제 정보를 입력 하 고 **주문** \> 내용을 선택 **하 여 관리 홈으로 이동**합니다.
+6. 결제 정보를 입력 하 고 **주문** 내용을 선택 \> **하 여 관리 홈으로 이동**합니다.
 
 ::: moniker-end
 

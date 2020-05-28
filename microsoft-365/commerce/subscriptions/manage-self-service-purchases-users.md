@@ -11,22 +11,23 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: 사용자는 셀프 서비스 구매를 관리 하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 8f141f28c2f1241d19ed34ae234c3b122dd9d69c
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: e8cb319b482ef49090544916b5e76a02083ebf06
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141127"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403261"
 ---
 # <a name="manage-self-service-purchases-users"></a>셀프 서비스 구매(사용자) 관리
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -37,11 +38,11 @@ ms.locfileid: "44141127"
 
 ## <a name="view-your-subscriptions"></a>구독 보기
 
-구매한 모든 셀프 서비스 구매한 구독의 목록을 볼 수 있습니다. 관리 센터에서<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** > 페이지로 이동 합니다.
+구매한 모든 셀프 서비스 구매한 구독의 목록을 볼 수 있습니다. 관리 센터에서 **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 청구 페이지로 이동 합니다.
 
 ## <a name="how-to-buy-more-or-reduce-licenses"></a>라이선스를 더 구입 하거나 감소 하는 방법
 
-1. 관리 센터에서<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** > 페이지로 이동 합니다.
+1. 관리 센터에서 **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 청구 페이지로 이동 합니다.
 
 2. 추가로 구입 하거나 라이선스를 줄이는 데 사용할 구독을 찾습니다.
 
@@ -54,7 +55,7 @@ ms.locfileid: "44141127"
 
 ### <a name="to-assign-licenses"></a>라이선스를 할당 하려면
 
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지로 이동 합니다.
 
 2. 라이선스를 할당 하려는 구독을 선택 합니다.
 
@@ -69,7 +70,7 @@ ms.locfileid: "44141127"
 
 ### <a name="to-unassign-licenses"></a>라이선스 할당을 취소 하려면
 
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지로 이동 합니다.
 
 2. 라이선스의 할당을 취소할 제품을 선택 합니다.
 
@@ -81,7 +82,7 @@ ms.locfileid: "44141127"
 
 ## <a name="cancel-a-subscription"></a>구독 취소
 
-1. 관리 센터에서<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** > 페이지로 이동 합니다.
+1. 관리 센터에서 **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 청구 페이지로 이동 합니다.
 
 2. 취소할 구독을 찾습니다.
 
@@ -91,7 +92,7 @@ ms.locfileid: "44141127"
 
 ## <a name="manage-your-payment-details"></a>결제 정보 관리
 
-1. 관리 센터에서 **청구** > **금액 & 지불** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">대금 청구 프로필</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구**  >  **금액 & 지불**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">대금 청구 프로필</a> 페이지로 이동 합니다.
 
 2. 목록에서 청구 프로필을 선택 합니다.
 
@@ -104,7 +105,7 @@ ms.locfileid: "44141127"
 
 ### <a name="update-an-existing-payment-method"></a>기존 결제 방법 업데이트
 
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">금액 & 지불</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">금액 & 지불</a> 페이지로 이동 합니다.
 
 2. 기존 결제 방법을 편집 하려면 목록에서 해당 방법을 선택 합니다.
 
@@ -114,7 +115,7 @@ ms.locfileid: "44141127"
 
 ### <a name="add-a-new-payment-method"></a>새 결제 방법 추가
 
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">금액 & 지불</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">금액 & 지불</a> 페이지로 이동 합니다.
 
 2. **결제 방법 추가를**선택 합니다.
 
@@ -122,7 +123,7 @@ ms.locfileid: "44141127"
 
 ## <a name="view-your-invoices"></a>송장 보기
 
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">금액 & 지불</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">금액 & 지불</a> 페이지로 이동 합니다.
 
 2. **송장** 아래에서 보려는 송장을 선택 합니다.
 

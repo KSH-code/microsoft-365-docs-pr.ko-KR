@@ -19,17 +19,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Microsoft 365 캠페인에 대 한 조건부 액세스 정책을 설정 하 여 상당한 추가 보안을 추가 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 26fadecc69486d7931dac069d8f53061592f397f
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: d7c9cfee2ef00e4ebe231a28ccca185c10f53c6b
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153769"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403021"
 ---
 # <a name="set-up-conditional-access-policies"></a>조건부 액세스 정책 설정
 
@@ -38,10 +39,10 @@ ms.locfileid: "43153769"
 관리자 및 사용자는 이러한 정책을 통해 특정 조건이 충족 될 때 다단계 인증 또는 MFA 라는 두 번째 인증 양식을 입력 해야 합니다. 예를 들어 사용자가 다른 국가에서 로그인 하는 경우 로그인이 위험한 것으로 간주 될 수 있으며 사용자는 추가 인증 양식을 제공 해야 합니다. 
 
 현재 기본 정책에는 다음이 포함 됩니다.
-- 관리자 **에 게 MFA 필요를 요구** &ndash; 하는 경우 전역 관리자를 포함 하 여 가장 권한이 부여 된 관리자 역할에 대해 다단계 인증이 필요 합니다.
-- **최종 사용자 보호** &ndash; 를 사용 하려면 로그인이 위험한 경우에만 사용자에 대 한 다단계 인증이 필요 합니다. 
-- **레거시 인증** &ndash; 차단 이전 버전의 클라이언트 앱과 일부 새 앱은 보다 새로운 비보안 인증 프로토콜을 사용 하지 않습니다. 이러한 이전 앱은 조건부 액세스 정책을 우회 하 여 환경에 대 한 무단 액세스를 얻을 수 있습니다. 이 정책은 조건부 액세스를 지원 하지 않는 클라이언트의 액세스를 차단 합니다. 
-- &ndash; **서비스 관리에 MFA 필요를 요구** 하는 경우 Azure portal을 비롯 하 여 관리 도구에 액세스 하기 위한 다단계 인증이 필요 합니다 (기준 정책 구성). 
+- 관리자를 위해 **MFA 필요** &ndash; 전역 관리자를 포함 하 여 권한이 가장 높은 관리자 역할에 대해 multi-factor authentication이 필요 합니다.
+- **최종 사용자 보호** &ndash; 로그인이 위험한 경우에만 사용자에 대 한 다단계 인증을 받아야 합니다. 
+- **레거시 인증 차단** &ndash; 오래 된 클라이언트 앱과 일부 새 앱은 더 안전 하 고 보안 인증 프로토콜을 사용 하지 않습니다. 이러한 이전 앱은 조건부 액세스 정책을 우회 하 여 환경에 대 한 무단 액세스를 얻을 수 있습니다. 이 정책은 조건부 액세스를 지원 하지 않는 클라이언트의 액세스를 차단 합니다. 
+- **서비스 관리** &ndash; 를 위해 MFA 필요 Azure portal을 포함 하 여 관리 도구에 액세스 하기 위한 multi-factor authentication (기준 정책 구성)이 필요 합니다. 
 
 이러한 모든 기본 정책을 사용 하도록 설정 하는 것이 좋습니다. 이러한 정책을 사용 하도록 설정 하 고 나면 관리자 및 사용자에 게 Azure Multii-요인 인증을 등록 하 라는 메시지가 표시 됩니다.
 

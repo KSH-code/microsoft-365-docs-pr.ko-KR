@@ -11,17 +11,17 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Microsoft 제품 및 서비스를 구입 하는 데 도움이 되는 제안에 대해 알아봅니다.
-ms.custom: ''
 ROBOTS: NOINDEX
-ms.openlocfilehash: 18d106894aeebe499cca2254a6e3a534cd255db6
-ms.sourcegitcommit: 2fbcecaa60e9f551738b9235bd380af807a6681a
+ms.openlocfilehash: ded29a4eab3dd19d7ce3a1f60dff968e34b434a0
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44340127"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403129"
 ---
 # <a name="understand-the-proposal-workflow"></a>제안 워크플로 이해
 

@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: a73632a1-62c8-4a13-8115-913773b30f93
 description: Microsoft 365 Usage Analytics 서식 파일 앱의 문제를 해결 하는 방법을 알아봅니다.
-ms.openlocfilehash: 7164aa246a79a8d8c5aa50d995b53b6221003c01
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 4696dd0c5140cdc110781c226819fc64a90fae1b
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212152"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402037"
 ---
 # <a name="troubleshooting-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석 문제 해결
 
@@ -39,7 +40,7 @@ ms.locfileid: "43212152"
   
  **원인:** 앱에 연결 하려면 먼저 Microsoft 365 관리 센터에서 데이터를 구독 해야 합니다. 이 단계를 먼저 수행 하지 않으면 Microsoft 365 테 넌 트 id를 제공한 경우에도 서식 파일 앱에 연결할 수 없게 됩니다. 
   
- **이 오류를 해결 하려면** 데이터를 \> 구독 하려면 관리 센터의 <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> **보고서** \> 로 이동 하 여 기본 대시보드 페이지에서 Microsoft 365 Usage analytics 타일을 찾습니다. **시작** 단추를 선택 하 고 열리는 **보고서** 창에서 **Power BI 설정에 대 한 Microsoft 365 사용 현황 분석을 사용 하 여 데이터를 사용할 수 있도록** 설정 하 고 **저장**합니다.
+ **이 오류를 해결 하려면** 데이터를 구독 하려면 관리 센터의 사용 현황 보고서로 이동 하 여 \> **Reports** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a> 기본 대시보드 페이지에서 Microsoft 365 Usage analytics 타일을 찾습니다. **시작** 단추를 선택 하 고 열리는 **보고서** 창에서 **Power BI 설정에 대 한 Microsoft 365 사용 현황 분석을 사용 하 여 데이터를 사용할 수 있도록** 설정 하 고 **저장**합니다.
   
 ## <a name="we-are-processing-your-data"></a>데이터를 처리하고 있습니다.
 
@@ -67,7 +68,7 @@ ms.locfileid: "43212152"
   
  **원인:** 테넌트 ID는 GUID이며 xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx 형식이어야 합니다. 테넌트 입력 상자에 다른 문자열을 입력하면 이 오류가 발생합니다. 
   
- **이 오류를 해결 하려면** 관리 센터 \> 의 <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> **보고서** \> 로 이동 하 여 기본 대시보드 페이지에서 Microsoft 365 Usage analytics 타일을 찾습니다. 테넌트 ID가 타일에 나열됩니다. 서식 파일 앱에 연결 하기 위해 여기에서 복사 하 여 대화 상자에 붙여 넣을 수 있습니다. 
+ **이 오류를 해결 하려면** 관리 센터의 \> **Reports** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> 보고서로 이동 하 여 기본 대시보드 페이지에서 Microsoft 365 Usage analytics 타일을 찾습니다. 테넌트 ID가 타일에 나열됩니다. 서식 파일 앱에 연결 하기 위해 여기에서 복사 하 여 대화 상자에 붙여 넣을 수 있습니다. 
   
 ## <a name="the-tenant-id-you-provided-is-not-recognized-by-our-system"></a>입력하신 테넌트 ID가 시스템에서 인식되지 않습니다.
 
@@ -77,7 +78,7 @@ ms.locfileid: "43212152"
   
  **원인:** 입력하신 테넌트 ID가 올바르지 않거나 존재하지 않습니다. 
   
- **이 오류를 해결 하려면** 관리 센터 \> 의 <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> **보고서** \> 로 이동 하 여 기본 대시보드 페이지에서 Microsoft 365 Usage analytics 타일을 찾습니다. 테넌트 ID가 타일에 나열됩니다. 서식 파일 앱에 연결 하기 위해 여기에서 복사 하 여 대화 상자에 붙여 넣을 수 있습니다. 
+ **이 오류를 해결 하려면** 관리 센터의 \> **Reports** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> 보고서로 이동 하 여 기본 대시보드 페이지에서 Microsoft 365 Usage analytics 타일을 찾습니다. 테넌트 ID가 타일에 나열됩니다. 서식 파일 앱에 연결 하기 위해 여기에서 복사 하 여 대화 상자에 붙여 넣을 수 있습니다. 
   
 ## <a name="please-re-enter-your-credentials-to-sign-in-to-power-bi-again"></a>Power BI에 다시 로그인하려면 자격 증명을 다시 입력하세요.
 

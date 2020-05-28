@@ -16,6 +16,7 @@ ms.collection:
 - commerce
 ms.custom:
 - SaRA
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -24,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: '제품 키를 사용하여 비즈니스용 Microsoft 365 구독을 갱신하고 반복되는 청구 기능을 끄거나 켜는 방법을 알아봅니다. '
-ms.openlocfilehash: 992a3c2cb100f9153cae5cbd681f6f789a361935
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 8dd9697f95e238ff759b90b1fef7544be9196c85
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208431"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403225"
 ---
 # <a name="renew-microsoft-365-for-business"></a>비즈니스용 Microsoft 365 갱신
 

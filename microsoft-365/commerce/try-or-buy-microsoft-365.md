@@ -14,24 +14,25 @@ ms.collection:
 - Adm_O365
 - commerce
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9e8ceac6-8d20-4d28-837a-d766ae99cbd1
 description: 무료 평가판을 얻는 방법 또는 Microsoft 365 용 구독을 구입 하는 방법을 알아봅니다.
-ms.openlocfilehash: 19529192e2fa48ac081a84e9ad54669c3ef16791
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 28ec622d32c3218238edf9c171b1eb0566a93c60
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141057"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403141"
 ---
 # <a name="try-or-buy-a-microsoft-365-subscription"></a>Microsoft 365 구독 체험 또는 구매
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -50,7 +51,7 @@ Microsoft 365는 고급 보안 및 장치 관리를 포함 하 여 Office 365 �
 ::: moniker range="o365-worldwide"
 
 
-1. 에서 관리 센터 [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339)에 로그인 한 후 **대금 청구** \> **구매 서비스로**이동 합니다.
+1. 에서 관리 센터에 로그인 한 [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339) 후 **대금 청구** \> **구매 서비스로**이동 합니다.
 
 2. **서비스 구매** 페이지에 조직에서 사용할 수 있는 구독이 나열 됩니다. 체험 하거나 구매할 Microsoft 365 계획을 선택 합니다.
 
@@ -79,7 +80,7 @@ Microsoft 365는 고급 보안 및 장치 관리를 포함 하 여 Office 365 �
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-1. 에서 관리 센터 [https://portal.office.de](https://go.microsoft.com/fwlink/?linkid=847686)에 로그인 한 후 **대금 청구** \> **구매 서비스로**이동 합니다.
+1. 에서 관리 센터에 로그인 한 [https://portal.office.de](https://go.microsoft.com/fwlink/?linkid=847686) 후 **대금 청구** \> **구매 서비스로**이동 합니다.
 
 2. **서비스 구매** 페이지에 조직에서 사용할 수 있는 구독이 나열 됩니다. 
 
@@ -107,7 +108,7 @@ Microsoft 365는 고급 보안 및 장치 관리를 포함 하 여 Office 365 �
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
-1. 에서 관리 센터 [https://portal.partner.microsoftonline.cn](https://go.microsoft.com/fwlink/?linkid=850628)에 로그인 한 후 **대금 청구** \> **구매 서비스로**이동 합니다.
+1. 에서 관리 센터에 로그인 한 [https://portal.partner.microsoftonline.cn](https://go.microsoft.com/fwlink/?linkid=850628) 후 **대금 청구** \> **구매 서비스로**이동 합니다.
 
 2. **서비스 구매** 페이지에 조직에서 사용할 수 있는 구독이 나열 됩니다. 
 

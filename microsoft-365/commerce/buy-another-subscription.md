@@ -21,20 +21,22 @@ search.appverid:
 - BEA160
 ms.assetid: fab3b86c-3359-4042-8692-5d4dc7550b7c
 description: '이미 구독이 있는 경우 조직의 다른 Microsoft 365 for business 구독을 구입 하는 방법을 알아봅니다. '
-ms.custom: okr_SMB
-ms.openlocfilehash: 63dc9554d1783f81615e52a83ad338368d482e93
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.custom:
+- okr_SMB
+- AdminSurgePortfolio
+ms.openlocfilehash: ebadf9a019829080c145eec2f3f5d612473e91b3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141305"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402205"
 ---
 # <a name="buy-another-microsoft-365-for-business-subscription"></a>다른 Microsoft 365 for business 구독 구입
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -59,7 +61,7 @@ ms.locfileid: "44141305"
 
 5. 가격 정보를 검토 하 고 **다음**을 선택 합니다.
 
-6. 결제 정보를 입력 하 고 **주문** \> 내용을 선택 **하 여 관리 홈으로 이동**합니다.
+6. 결제 정보를 입력 하 고 **주문** 내용을 선택 \> **하 여 관리 홈으로 이동**합니다.
 
 ::: moniker-end
 

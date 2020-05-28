@@ -20,17 +20,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: Windows 10 Pro for Microsoft 365 Business Premium users를 실행 하는 Windows 장치를 설정 하 고 중앙 집중식 관리 및 보안 제어를 사용 하는 방법을 알아봅니다.
-ms.openlocfilehash: efe81a5547496f502232e1db2f3f092165475641
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ecd9f5aa348d29d34e77061657619c015b09c41a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635455"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402961"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Microsoft 365 Business Premium 사용자를 위한 Windows 장치 설정
 
@@ -104,7 +105,7 @@ Windows 10 Pro 크리에이터 업데이트를 실행하는 새로운 장치 또
   
 ## <a name="verify-the-device-is-connected-to-azure-ad"></a>장치가 Azure AD에 연결되었는지 확인
 
-동기화 상태를 확인하려면 **설정**의 **회사 또는 학교 액세스** 페이지에서 \<조직 이름\> _ **에 연결** _ 영역에서 클릭하여 **정보** 및 **연결 해제** 버튼을 표시합니다. **정보**를 클릭해 동기화 상태를 확인합니다. 
+동기화 상태를 확인 하려면 **설정**의 **회사 또는 학교** 페이지에서 **연결** 프로그램을 클릭 하 여 단추 정보를 표시 \<organization name\> 하 고 연결을 **해제**합니다 **Info** . **정보** 를 클릭 하 여 동기화 상태를 가져옵니다. 
   
 동기화 상태 페이지에서 동기화를 클릭하여 최신 모바일 장치 관리 정책을 PC로 이동합니다.
   
@@ -128,4 +129,4 @@ Azure AD에 연결 된 Windows 10 장치가 Microsoft 365 Business Premium 구�
   
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Microsoft 365 Business Premium 설정 및 사용에 대 한 자세한 내용은
 
-[Microsoft 365 for business 교육용 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

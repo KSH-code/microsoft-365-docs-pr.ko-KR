@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -22,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Microsoft 365 for business 구독이 만료 되거나, 사용 하지 않도록 설정 되었거나, 취소 된 경우 데이터에 대 한 결과를 알아봅니다.
-ms.openlocfilehash: 363d8379bb2fa34e58a81892beadcebb9c6624f2
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: e1953f439577b9339b035968a63e8d1a6eddcd29
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165128"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403165"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>내 데이터 및 액세스에 대 한 Microsoft 365 for business 구독이 종료 될 때 어떤 일이 발생 하나요?
 
@@ -40,9 +41,9 @@ ms.locfileid: "44165128"
 
 다음 표에서는 유료 Microsoft 365 for business 구독이 만료 되는 경우 예상 되는 결과를 설명 합니다.
 
-| **활성**                                                             | **만료 <br/>(30 일\*)**                                                | **사용 <br/>안 함 (\*90 일)**                                               | **프로비전 해제됨**                                                                         |
+| **활성**                                                             | **만료 <br/> (30 일 \* )**                                                | **사용 안 함 <br/> (90 일 \* )**                                               | **프로비전 해제됨**                                                                         |
 |------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| *모든 데이터에 액세스할 수 있음*                                               | *모든 데이터에 액세스할 수 있음*                                                     | *관리자만 데이터에 액세스할 수 있음*                                             | **다른 서비스<br/>에서 사용 하 고 있지 않은 경우 삭제 된 데이터가 Azure Active Directory를 제거 함** |
+| *모든 데이터에 액세스할 수 있음*                                               | *모든 데이터에 액세스할 수 있음*                                                     | *관리자만 데이터에 액세스할 수 있음*                                             | **<br/>다른 서비스에서 사용 하 고 있지 않은 경우 삭제 된 데이터가 Azure Active Directory를 제거 함** |
 | 사용자에 게 Microsoft 365, 데이터 및 Office 응용 프로그램에 대 한 일반 액세스 권한  | 사용자에 게 Microsoft 365, 파일 및 응용 프로그램에 대 한 일반 액세스 권한              | 사용자가 Microsoft 365, 파일 또는 응용 프로그램에 액세스할 수 없음                        | 사용자가 Microsoft 365, 파일 또는 응용 프로그램에 액세스할 수 없음                                     |
 | 관리자에 게 Microsoft 365, 데이터 및 Office 응용 프로그램에 대 한 일반 액세스 권한 | 관리자가 관리 센터에 액세스할 수 있음                                           | 관리자가 관리 센터에 액세스할 수 있으 나 사용자에 게 라이선스 할당 불가       | 관리자가 관리 센터에 액세스 하 여 다른 구독을 구매 및 관리할 수 있음             |
 |                                                                        | 전역 또는 대금 청구 관리자는 관리 센터에서 구독을 다시 활성화할 수 있습니다. | 전역 또는 대금 청구 관리자는 관리 센터에서 구독을 다시 활성화할 수 있습니다. |                                                                                           |

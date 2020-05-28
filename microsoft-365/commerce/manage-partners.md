@@ -11,30 +11,30 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
-ms.custom: ''
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Microsoft 공인 솔루션 공급자 (파트너)와 협력 하 여 조직 또는 학교에 대 한 제품 및 서비스를 구매 하 고 관리 하는 방법에 대해 알아봅니다.
 keywords: 파트너, 솔루션 공급자
-ms.openlocfilehash: 3ba5a62caf199bf1e111ecf921df0f21568d5257
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 752c9e0237bbdde7be996b5675848e948e866dce
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141210"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402597"
 ---
 # <a name="manage-partner-relationships"></a>파트너 관계 관리
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
 Microsoft 공인 솔루션 공급자 (파트너)와 협력 하 여 조직 또는 학교에 대 한 제품 및 서비스를 구매 하 고 관리할 수 있습니다. 설정 작업을 수행 하는 데는 몇 가지 단계가 있습니다.
 
-- 관리자는에서 <a href="https://www.microsoft.com/en-us/solution-providers/home" target="_blank">https://www.microsoft.com/en-us/solution-providers/home</a>양식을 사용 하 여 파트너를 찾고 연락처에 연결 합니다.
+- 관리자는에서 양식을 사용 하 여 파트너를 찾고 연락처에 연결 <a href="https://www.microsoft.com/en-us/solution-providers/home" target="_blank">https://www.microsoft.com/en-us/solution-providers/home</a> 합니다.
 - 파트너는 고객에 게 파트너 관계를 설정 하는 전자 메일 요청을 보냅니다.
 - 고객은 Microsoft 365 관리 센터에서 초대를 수락 하 고 파트너와 협력 하는 작업을 시작 합니다.
 
@@ -90,7 +90,7 @@ Microsoft 공인 솔루션 공급자 (파트너)와 협력 하 여 조직 또는
 
 파트너에 게 관리자 권한을 위임 하는 경우 언제 든 지 해당 권한을 제거할 수 있습니다. 관리자 권한을 제거 해도 파트너 관계는 제거 되지 않습니다. 예를 들어 대리점 처럼 계속 작업할 수 있습니다.
 
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">청구 계정</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">청구 계정</a> 페이지로 이동 합니다.
 2. **청구 계정** 페이지에서 **파트너 관계** 탭을 선택 합니다.
 3. 파트너 이름이 포함 된 행을 선택 합니다.
 4. 파트너 페이지에서 **관리자 역할 제거**를 선택 합니다.
@@ -99,7 +99,7 @@ Microsoft 공인 솔루션 공급자 (파트너)와 협력 하 여 조직 또는
 
 파트너가 더 이상 작업을 수행 하 고 싶지 않은 경우에는 관계를 끝낼 수 있습니다. 그러나 해당 파트너가 위임 된 관리자 또는 관리자 인 관계만 삭제할 수 있습니다. 다른 모든 파트너 유형의 경우에는 파트너에 문의 하 여 관계를 종료 합니다.
 
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">청구 계정</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">청구 계정</a> 페이지로 이동 합니다.
 2. **청구 계정** 페이지에서 **파트너 관계** 탭을 선택 합니다.
 3. 파트너 이름이 포함 된 행을 선택 합니다.
 4. 파트너 정보 페이지에서 **파트너 삭제**를 선택 합니다.

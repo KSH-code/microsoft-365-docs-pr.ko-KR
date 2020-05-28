@@ -16,19 +16,20 @@ ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
 - MSB365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Microsoft 365 Business Premium에서 Microsoft 365 E3로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: a41b27b91bd049abb2231a397a328f4f53af9500
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6a795d96ccae7e054e7e52d4fd60a4e73b3c71dd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633178"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401993"
 ---
-# <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Microsoft 365 Business Premium에서 Microsoft 365 E3으로 마이그레이션
+# <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Microsoft 365 Business Premium에서 Microsoft 365 E3로 마이그레이션
 
 Microsoft 365 Business Premium에는 소규모 기업에 필요한 모든 것이 있으며, 최상의 클라우드 기반 생산성 앱을 간단한 장치 관리 및 보안과 함께 사용 하 여 직원 들이 최상의 작업을 수행할 수 있습니다. 그러나 경우에 따라 Microsoft 365 Business Premium subscription을 Microsoft 365 E3으로 마이그레이션해야 할 수도 있습니다. 
 
@@ -50,7 +51,7 @@ Microsoft 365 Business Premium에는 소규모 기업에 필요한 모든 것이
 |:-------|:-----|:-----|
 | **온-프레미스**        | | | 
 | Windows 10    | Windows 10 Business  |     Windows 10 Enterprise E3| 
-| Office 앱 *    | [Microsoft 365 비즈니스 에디션 앱](#office-365-business)    | Microsoft 365 enterprise 용 앱 | 
+| Office 앱 *    | [비즈니스용 Microsoft 365 앱](#office-365-business)    | 엔터프라이즈용 Microsoft 365 앱 | 
 | **클라우드 생산성 앱**        | | | 
 | Exchange Online 및 Outlook    | 사서함 당 50 GB 저장소 제한 및 무제한 Exchange 온라인 보관    | 사서함 당 100 GB 저장소 제한 및 무제한 Exchange 온라인 보관 | 
 | Teams    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
@@ -140,7 +141,7 @@ Windows 10 Enterprise e 3에는 Microsoft Edge에 대 한 하드웨어 기반 �
 Microsoft 365 Business Premium에는 windows AutoPilot를 사용 하 여 설치할 수 있는 Windows 10 Business가 포함 되어 있습니다. Microsoft 365 E3로 마이그레이션하는 경우 각 사용자 라이선스에는 windows Autopilot를 사용 하 여 설치할 수도 있습니다.
 
 <a name="office-365-business"></a>
-###  <a name="microsoft-365-apps-for-business"></a>Microsoft 365 비즈니스 에디션 앱
+###  <a name="microsoft-365-apps-for-business"></a>비즈니스용 Microsoft 365 앱
 
 장치에 설치 된 Microsoft 365 Apps for business 클라이언트는 자동으로 Microsoft 365 앱 for enterprise 기능을 사용 하기 시작 합니다. 마이그레이션 후에는 다음을 사용할 수 있습니다.
 

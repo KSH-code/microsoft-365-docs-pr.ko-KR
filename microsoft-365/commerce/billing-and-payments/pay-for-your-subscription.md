@@ -24,12 +24,13 @@ description: 비즈니스에 대 한 Microsoft 365 구독을 결제 하는 데 �
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
-ms.openlocfilehash: a1ee158079e30348c3b1f9f26ef0b62160bf9544
-ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
+- AdminSurgePortfolio
+ms.openlocfilehash: 387cc4af038bea572a60176b2c2b400f410aa6ad
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232878"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401765"
 ---
 # <a name="pay-for-your-subscription"></a>구독 결제
 
@@ -313,4 +314,4 @@ ms.locfileid: "44232878"
 
 [신용 카드 또는 은행 계좌 추가, 업데이트 또는 제거](add-update-or-remove-credit-card-or-bank-account.md)
 
-[청구서 또는 송장 이해](understand-your-invoice2.md)
+[청구서 또는 송장 이해하기](understand-your-invoice2.md)

@@ -15,15 +15,17 @@ ms.collection:
 - Adm_TOC
 - commerce
 description: 장치에 사용 하기 위해 그룹에 라이선스를 할당 하는 방법을 알아봅니다.
-ms.custom: okr_SMB
+ms.custom:
+- okr_SMB
+- AdminSurgePortfolio
 search.appverid:
 - MET150
-ms.openlocfilehash: 1a525117c25a2471ad696ef1447fd7e4ccb6bed0
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: ce3c8f7d669f2fe5d19c48d7a1fb1f224aaec7f4
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011188"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402873"
 ---
 # <a name="manage-licenses-for-devices"></a>장치에 대 한 라이선스 관리
 
@@ -41,7 +43,7 @@ Microsoft 365 for enterprise (장치) 또는 교육을 위한 Microsoft 365 앱 
 
 그룹에 라이선스를 할당 하는 경우 그룹 내의 모든 장치에 라이선스를 할당 합니다. 하나의 구독을 단일 그룹에만 할당할 수 있습니다.
 
-1. Microsoft 365 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지로 이동 합니다.
+1. Microsoft 365 관리 센터에서 **청구**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지로 이동 합니다.
 2. **라이선스** 페이지에서 **Microsoft 365 for 교육용 (장치)** 또는 **microsoft 365 앱 for enterprise (장치)** 를 선택 합니다.
 3. 다음 페이지에서 구독을 선택 하 고 **라이선스 할당**을 선택 합니다.
 4. **그룹에 라이선스 할당** 창에서 그룹 이름을 입력 하 고 결과에서 선택 하 여 목록에 추가 합니다.
@@ -51,7 +53,7 @@ Microsoft 365 for enterprise (장치) 또는 교육을 위한 Microsoft 365 앱 
 
 그룹의 라이선스 할당을 취소 하는 경우 그룹 내의 모든 장치에서 라이선스를 제거 합니다. 모든 앱 및 연결 된 데이터는 읽기 전용입니다.
 
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지로 이동 합니다.
 2. **라이선스** 페이지에서 **Microsoft 365 for 교육용 (장치)** 또는 **microsoft 365 앱 for enterprise (장치)** 를 선택 합니다.
 3. 다음 페이지에서 구독을 선택 하 고 **기타 작업**을 선택한 다음 **라이선스 할당**해제를 선택 합니다.
 4. **라이선스 할당** 해제 대화 상자에서 **할당**해제를 선택 합니다.

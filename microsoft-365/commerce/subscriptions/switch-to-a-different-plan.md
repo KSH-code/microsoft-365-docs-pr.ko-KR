@@ -1,5 +1,5 @@
 ---
-title: 다른 Microsoft 365 for business 요금제로 전환
+title: 다른 비즈니스용 Microsoft 365 요금제로 전환
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -16,6 +16,7 @@ ms.collection:
 - commerce
 ms.custom:
 - SaRA
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -24,14 +25,14 @@ search.appverid:
 - GEA150
 ms.assetid: 73318661-8f33-478b-bcc7-fb8d69dbb22a
 description: 비즈니스를 위한 새로운 Microsoft 365 구독으로 전환 하는 방법을 알아봅니다.
-ms.openlocfilehash: 8682ced4aab6fd1b0cbfc132527e977eabc59306
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: c1216f0eb5069610ea63ca1a81d90243d3ef111d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707502"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403189"
 ---
-# <a name="switch-to-a-different-microsoft-365-for-business-plan"></a>다른 Microsoft 365 for business 요금제로 전환
+# <a name="switch-to-a-different-microsoft-365-for-business-plan"></a>다른 비즈니스용 Microsoft 365 요금제로 전환
 
 비즈니스가 변경 되거나 더 많은 기능이 필요한 경우 요금제를 전환할 수 있습니다.  
 
@@ -67,7 +68,7 @@ ms.locfileid: "43707502"
 
 2. 사용할 수 있는 새 요금제 목록을 보려면 **요금제 전환을** 선택 합니다.
 
-    [요금제 전환 단추](#the-switch-plans-button-isnt-there) | 에[원하는 계획이 표시 되지 않음](#i-dont-see-the-plan-i-want)
+    [요금제 전환 단추가](#the-switch-plans-button-isnt-there)  |  없는 경우 [원하는 계획이 표시 되지 않음](#i-dont-see-the-plan-i-want)
 
 3. 계획을 선택 하 여 월별 새 총 비용을 확인할 수 있습니다. **키 정보**를 확인 하 고 **다음** 을 선택 하 여 체크 아웃 합니다.
 

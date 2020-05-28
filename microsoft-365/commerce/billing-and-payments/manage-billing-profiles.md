@@ -13,24 +13,24 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
-ms.custom: ''
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: 청구 프로필에서 송장을 지 원하는 방법을 알아봅니다.
 keywords: 청구 프로필, 송장, 요금, 관리 비용
-ms.openlocfilehash: f93ca5af11ba416fecd13fcceffe75055a776553
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 64f0f6bf456b1251a2db49aa9c2f7473cb7c885b
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140893"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401777"
 ---
 # <a name="manage-billing-profiles"></a>청구 프로필 관리
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -38,11 +38,11 @@ Microsoft의 제품 및 서비스를 구입한 상용 고객의 경우 대금 �
 
 대금 청구 프로필에는 다음 정보가 포함 됩니다.
 
-- 청구 계정 프로필과 관련 된 **계정** &ndash; 이름입니다.
-- **결제 방법** &ndash; 크레딧 또는 직불 카드, 은행 계좌, 확인 또는 전선 전송
-- **연락처 정보** &ndash; 청구 주소 및 연락처 이름
-- **송장 설정** &ndash; 대금 청구 계정의 국가, 선택적 PO 번호 및 청구서를 전자 메일 첨부 파일로 수신 하는 옵션을 기준으로 통화
-- **사용 권한** &ndash; 권한 프로필을 변경 하거나, 청구서를 지불 하거나, 대금 청구 프로필에서 결제 방법을 사용 하 여 구매를 수행할 수 있도록 하는 권한이 있어야 합니다.
+- **청구 계정** &ndash; 프로필과 관련 된 청구 계정의 이름입니다.
+- **결제 방법** &ndash; 신용 카드, 은행 계좌, 확인 또는 전선 전송
+- **연락처 정보** &ndash; 청구지 주소 및 연락처 이름
+- **송장 설정** &ndash; 청구 계정의 국가, 선택적 PO 번호 및 청구서를 전자 메일 첨부 파일로 수신 하는 옵션에 따른 통화
+- **사용 권한** &ndash; 청구 프로필을 변경 하거나, 청구서를 지불 하거나, 대금 청구 프로필에서 결제 방법을 사용 하 여 구매를 수행할 수 있는 권한
 
 청구 프로필을 사용 하 여 구매를 제어 하 고 송장을 사용자 지정 합니다. 대금 청구 프로필과 함께 구매한 제품에 대해 월별 송장이 생성 됩니다. 구매 주문 번호 및 전자 메일 송장 기본 설정 업데이트와 같은 송장을 사용자 지정할 수 있습니다.
 

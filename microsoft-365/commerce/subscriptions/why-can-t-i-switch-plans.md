@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -23,12 +24,12 @@ search.appverid:
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
 description: 때로는 수동으로 전환 하거나 지원 서비스를 호출 하 여 계획을 수행 해야 하는 이유를 이해 합니다.
-ms.openlocfilehash: 8b6c4069f2c7f0cfd86981c1001a7211aa298ff7
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 9f48ed56f230802ebd305d9b79e8ad694fadcc4c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943146"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403153"
 ---
 # <a name="why-cant-i-switch-microsoft-365-for-business-plans"></a>Microsoft 365 for business 요금제를 전환할 수 없는 이유는 무엇 인가요?
 
@@ -41,18 +42,18 @@ ms.locfileid: "43943146"
   
 ::: moniker range="o365-worldwide"
 
- **다른 사항이 필요 합니다.** [다른 구독](../buy-another-subscription.md) | 구입 구독 | [구독 및 대금 청구](../index.yml) | [통화 지원을](../../admin/contact-support-for-business-products.md) [취소 합니다](cancel-your-subscription.md).
+ **다른 사항이 필요 합니다.** [다른 구독 구입](../buy-another-subscription.md)  |  [구독 취소](cancel-your-subscription.md)  |  [구독 및 대금 청구](../index.yml)  |  [통화 지원](../../admin/contact-support-for-business-products.md)
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
- **다른 사항이 필요 합니다.** [다른 구독](../buy-another-subscription.md) | 구입 구독 | [구독 및 대금 청구](../index.yml) | [통화 지원을](../../admin/contact-support-for-business-products.md) [취소 합니다](cancel-your-subscription.md).
+ **다른 사항이 필요 합니다.** [다른 구독 구입](../buy-another-subscription.md)  |  [구독 취소](cancel-your-subscription.md)  |  [구독 및 대금 청구](../index.yml)  |  [통화 지원](../../admin/contact-support-for-business-products.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
- **다른 사항이 필요 합니다.** [21vianet에서 운영 하는 Office 365에 대 한 구독 구입 또는 시도](../../admin/services-in-china/buy-or-try-subscriptions.md) | [구독](cancel-your-subscription.md) | [통화 지원](../../admin/contact-support-for-business-products.md) 취소
+ **다른 사항이 필요 합니다.** [21vianet에서 운영 하는 Office 365 구독 구입 또는 체험](../../admin/services-in-china/buy-or-try-subscriptions.md)  |  [구독 취소](cancel-your-subscription.md)  |  [통화 지원](../../admin/contact-support-for-business-products.md)
 
 ::: moniker-end
 

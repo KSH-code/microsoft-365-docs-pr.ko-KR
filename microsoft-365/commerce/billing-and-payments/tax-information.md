@@ -20,13 +20,15 @@ search.appverid:
 - MOE150
 - BEA160
 description: '다른 지역의 Microsoft 365 비즈니스 에디션 구독에 대해 부과할 세금을 확인할 수 있습니다. '
-ms.custom: okr_SMB
-ms.openlocfilehash: 7c071a29fa5cedfc12c69a6471d1321a9167106f
-ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
+ms.custom:
+- okr_SMB
+- AdminSurgePortfolio
+ms.openlocfilehash: 72939c40ad340e751be30aecc6e102570ea42eb0
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232832"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401753"
 ---
 # <a name="tax-information"></a>세금 정보
 
@@ -160,7 +162,7 @@ Microsoft Corporation에서 대금 청구를 수행 하는 경우 ([청구서 �
 
 판매 세금이 단가를 기준으로 계산 된 다음 집계 됩니다.
 
-예시는 다음과 같습니다:
+예를 들면 다음과 같습니다.
 
 >*(단가 X 세금 비율) X 수량 = 총 판매액 세금*
 
@@ -186,4 +188,4 @@ Microsoft Corporation에서 대금 청구를 수행 하는 경우 ([청구서 �
   
 [청구서 또는 송장 보기](view-your-bill-or-invoice.md)
   
-[청구서 또는 송장 이해](understand-your-invoice.md)
+[청구서 또는 송장 이해하기](understand-your-invoice.md)

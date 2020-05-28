@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - commerce
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -22,12 +23,12 @@ search.appverid:
 ms.assetid: 82ba88fa-ebdf-4d44-a7b3-cea82b25d71a
 ROBOTS: NOINDEX
 description: Microsoft에서 인식 하는 타사 파트너를 통해 구매한 Microsoft 365 구독에 라이선스를 추가 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 9e463e53d51e7fc0a3828cc6163296084995f9c9
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: a1761f01383e2321ca86c91bf0b998b697c566e3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045755"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402133"
 ---
 # <a name="add-licenses-to-a-subscription-purchased-through-the-volume-licensing-service-center"></a>볼륨 라이선스 서비스 센터를 통해 구매한 구독에 라이선스 추가
 
@@ -35,7 +36,7 @@ ms.locfileid: "44045755"
 
 ::: moniker range="o365-worldwide"
   
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
 
 2. 라이선스를 추가할 구독을 선택 하 고 **VLSC (볼륨 라이선스 서비스 센터)** 링크를 선택 합니다.
 

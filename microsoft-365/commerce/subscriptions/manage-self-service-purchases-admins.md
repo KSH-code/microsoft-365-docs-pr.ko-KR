@@ -11,22 +11,23 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: 관리자는 조직의 사용자가 만든 셀프 서비스 구매를 관리 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 991dc87c40f41a6cbd2f1c08d4bc72bbb34d28f1
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 562e0e26d9ca7d10d71a46b8cf2d87c487c1b529
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141153"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403273"
 ---
 # <a name="manage-self-service-purchases-admin"></a>셀프 서비스 구매(관리자) 관리
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -36,7 +37,7 @@ ms.locfileid: "44141153"
 
 ## <a name="view-self-service-subscriptions"></a>셀프 서비스 구독 보기
 
-1. 관리 센터에서<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** > 페이지로 이동 합니다.
+1. 관리 센터에서 **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 청구 페이지로 이동 합니다.
 
 2. **결과 구체화**옆의 **계정 유형** 드롭다운에서 **셀프 서비스**를 선택 합니다.
 
@@ -44,7 +45,7 @@ ms.locfileid: "44141153"
 
 ## <a name="view-who-has-licenses-for-a-self-service-purchase-subscription"></a>셀프 서비스 구매 구독 라이선스를 가진 사용자 보기
 
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지로 이동 합니다.
 
 2. 필터 아이콘을 선택한 다음 **셀프 서비스**를 선택 합니다.
 
@@ -63,7 +64,7 @@ ms.locfileid: "44141153"
 
 **MSCommerce** PowerShell 모듈을 사용 하 여 다음을 수행할 수 있습니다.
 
-- 제품이 사용 하거나 사용 하지 않도록 **AllowSelfServicePurchase** 설정 되었는지 여부 &mdash; 에 관계 없이 AllowSelfServicePurchase 매개 변수 값의 기본 상태를 확인 합니다.
+- **AllowSelfServicePurchase** &mdash; 제품이 사용 하거나 사용 하지 않도록 설정 되었는지 여부에 관계 없이 AllowSelfServicePurchase 매개 변수 값의 기본 상태를 확인 합니다.
 - 해당 하는 제품 목록 및 셀프 서비스 구매가 사용 하도록 설정 되었는지 여부 확인
 - 특정 제품에 대 한 현재 설정을 보거나 수정 하 여 사용 하거나 사용 하지 않도록 설정
 
@@ -75,7 +76,7 @@ ms.locfileid: "44141153"
 
 1. 전역 관리자 또는 청구 관리자 계정을 사용 하 여 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">관리 센터</a> 에 로그인 합니다.
 
-2. **결제** > <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">구매 서비스</a> 페이지로 이동 합니다.
+2. **결제**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">구매 서비스</a> 페이지로 이동 합니다.
 
 3. 구매할 제품을 찾아 선택한 다음 **구입**을 선택 합니다.
 

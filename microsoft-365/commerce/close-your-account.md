@@ -11,23 +11,23 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
-ms.custom: ''
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Microsoft에서 계정을 닫는 방법을 알아봅니다.
-ms.openlocfilehash: e41d11502b0c0f738cc23405c387bd5fca1cb0fe
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: f399a1ba4d67abf5982c111e9b915f02324150a5
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141281"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402181"
 ---
 # <a name="close-your-account"></a>계정 사용 중지 
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -47,7 +47,7 @@ Microsoft 계정을 폐쇄하면 계정과 관련된 모든 정보가 삭제됩�
 
 ## <a name="step-2-cancel-all-active-subscriptions"></a>2 단계: 모든 활성 구독 취소
 
-1. 관리 센터에서<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** > 페이지로 이동 합니다.
+1. 관리 센터에서 **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 청구 페이지로 이동 합니다.
 
 2. 구독 목록이 **표** 보기에 있는 경우 오른쪽에서 **카드**를 선택 합니다.
 
@@ -59,7 +59,7 @@ Microsoft 계정을 폐쇄하면 계정과 관련된 모든 정보가 삭제됩�
 
 ## <a name="step-3-delete-all-disabled-subscriptions"></a>3 단계: 사용 하지 않는 구독 모두 삭제
 
-1. 관리 센터에서<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** > 페이지로 이동 합니다.
+1. 관리 센터에서 **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 청구 페이지로 이동 합니다.
 
 2. 구독 목록이 **표** 보기에 있는 경우 오른쪽에서 **카드**를 선택 합니다.
 
@@ -73,7 +73,7 @@ Microsoft 계정을 폐쇄하면 계정과 관련된 모든 정보가 삭제됩�
 
 ## <a name="step-4-disable-multi-factor-authentication"></a>4 단계: 다단계 인증 사용 안 함
 
-1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **사용자**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동 합니다.
 
 2. **다단계 인증**을 선택 합니다.
 

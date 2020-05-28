@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 - BEA160
 description: Microsoft 365 for business 구독을 등록 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 9d1c9068b1d6596aabc09d44d854f89e76dd7ddb
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 968ab3c8bf7b377eba1aafb3fbc710eb4d36dad7
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708110"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402837"
 ---
 # <a name="sign-up-for-a-trial-subscription"></a>평가판 구독 등록
 
@@ -52,4 +53,4 @@ ms.locfileid: "43708110"
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 for business 교육용 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

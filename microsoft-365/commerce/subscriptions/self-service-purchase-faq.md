@@ -11,16 +11,18 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
+ms.custom:
+- AdminSurgePortfolio
+- aka.ms/self-service-purchase-faq
 search.appverid:
 - MET150
 description: 셀프 서비스 구매에 대 한 일반적인 질문과 대답을 확인할 수 있습니다.
-ms.custom: aka.ms/self-service-purchase-faq
-ms.openlocfilehash: c7f91b8067aac5baa3c792dac10c1fdadae55fa2
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: cc0a059c745c64c9c196deccf771fffa30a5fe63
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046159"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403213"
 ---
 # <a name="self-service-purchase-faq"></a>셀프 서비스 구매 FAQ
 
@@ -119,7 +121,7 @@ Microsoft는 미국에 있는 고객에 게 Power BI, Power Apps 및 파워 자�
 
 ### <a name="where-does-the-admin-see-self-service-purchases"></a>관리자가 셀프 서비스 구매를 참조 하는 위치
 
-전역 및 대금 청구 관리자는 중앙 조달을 통해 구매한 다른 모든 구독과 함께 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a> 의**제품** 을 **청구** > 하는 셀프 서비스 구매를 통해 구매한 구독을 볼 수 있습니다. 중앙 조달을 통해 구매한 구독에만 목록을 필터링 하거나 셀프 서비스 구매를 통해 구매한 구독을 포함할 수 있습니다.
+전역 및 대금 청구 관리자 **Billing**  >  는 중앙 조달을 통해 구매한 다른 모든 구독과 함께 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a> 의**제품** 을 청구 하는 셀프 서비스 구매를 통해 구매한 구독을 볼 수 있습니다. 중앙 조달을 통해 구매한 구독에만 목록을 필터링 하거나 셀프 서비스 구매를 통해 구매한 구독을 포함할 수 있습니다.
 
 관리자는 제품, 구매자 이름, 구독 구입, 만료 날짜, 주문 내역, 구매 가격 및 할당 된 사용자를 볼 수 있습니다.
 

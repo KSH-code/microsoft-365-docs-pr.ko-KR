@@ -19,17 +19,18 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: IPhone 또는 Android 휴대폰에 Office를 설치 하 고 Office 앱의 작업 파일이 비즈니스용 Microsoft 365으로 보호 됩니다.
-ms.openlocfilehash: 1263a922ba41083511fec8030634ed6cfaf70f00
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e96e2edc0fc2bc25449d8f50239fa25179b345bd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632570"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403001"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a>Microsoft 365 for business 사용자를 위한 모바일 장치 설정
 
@@ -59,7 +60,7 @@ Microsoft 365 for business를 사용 하 여 iOS 장치에서 Office 앱을 설�
   
 ![Screenshot of Outlook with Get Started button](../media/005bedec-ae50-4d75-b3bb-e7cef9e2561c.png)
   
-**전자 메일 계정 추가** 화면 \> 에 회사 전자 메일 주소를 입력 하 고 **계정 추가**를 클릭 한 다음 Microsoft 365 for \> business credentials **로그인**을 입력 합니다.
+**전자 메일 계정 추가** 화면에 회사 전자 메일 주소를 입력 하 \> 고 **계정 추가**를 클릭 한 다음 Microsoft 365 for business credentials \> **로그인**을 입력 합니다.
   
 ![Sign in to your work account](../media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png)
   
@@ -105,6 +106,6 @@ Outlook을 다시 열어 PIN을 입력하고 확인합니다. 이제 Outlook 앱
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 for business 교육용 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
 
 ---

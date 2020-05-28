@@ -20,17 +20,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: aad21b1a-c775-469a-b89c-c5d1d59d27db
 description: Microsoft 365 Business Premium의 보호 기능을 Intune 설정에 대해 알아봅니다. 구독은 Intune 설정을 수정할 수 있는 라이선스를 제공 합니다.
-ms.openlocfilehash: 572d3364e465067536e8369b49404d3d1de1bb5b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ce75073f748f6005a843e31f7c38d06b38a3c706
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633246"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401581"
 ---
 # <a name="how-do-protection-features-in-microsoft-365-business-premium-map-to-intune-settings"></a>Microsoft 365 Business Premium의 보호 기능을 Intune 설정에 매핑하는 방법
 
@@ -44,7 +45,7 @@ Intune 설정을 찾으려면 Microsoft 365 Business Premium 관리자 자격 �
  > 
  > Microsoft 365 Business Premium subscription은 모든 Intune 설정을 수정할 수 있는 라이선스를 제공 합니다. [시작 하려면 Intune 소개를 참조 하세요.](https://docs.microsoft.com/intune/introduction-intune)
   
-예를 들어, Android &mdash; &mdash; 용 응용 프로그램 정책에서 원하는 정책 이름을 선택한 다음 **정책 설정을**선택 합니다.
+&mdash;예를 들어, Android 용 응용 프로그램 정책에서 원하는 정책 이름을 선택한 &mdash; 다음 **정책 설정을**선택 합니다.
   
 **장치를 분실하거나 도난당한 경우 작업 파일 보호**에서
   
@@ -103,7 +104,7 @@ Intune 설정을 찾으려면 Microsoft 365 Business Premium 관리자 자격 �
 |Microsoft Edge에서 웹 기반 위협으로부터 PC를 보호하도록 지원  <br/> |**Edge 브라우저 설정**의 **SmartScreen**이 **필수**로 설정됩니다.  <br/> |
 |이 시간 동안 유휴 상태일 때 장치 화면 끄기(분)  <br/> |화면이 잠기기 전까지 최대 비활성 시간(분)  <br/> |
 |사용자가 Microsoft Store에서 앱을 다운로드할 수 있도록 허용  <br/> |사용자 지정 URI 정책  <br/> |
-|사용자가 Cortana에 액세스할 수 있도록 허용  <br/> |Microsoft 365 Business Premium에서 **off** 로 설정 되 면 Intune에서 **일반** \> **Cortana** 가 **차단** 으로 설정 됩니다.  <br/> |
+|사용자가 Cortana에 액세스할 수 있도록 허용  <br/> |**일반** \> **Cortana** 는 Microsoft 365 Business Premium에서 **off** 로 설정 되 면 Intune에서 **차단** 으로 설정 됩니다.  <br/> |
 |사용자가 Microsoft에서 Windows 팁 및 광고를 받을 수 있도록 허용  <br/> |**Windows 추천**, Microsoft 365 Business Premium에서 **off** 로 설정 된 경우 모두 차단 됩니다.  <br/> |
 |자동으로 Windows 10 장치를 최신 상태로 유지  <br/> | 이 설정은 **Microsoft Intune** \> **서비스 업데이트-windows 10 업데이트 링**에서 **windows 10 장치에 대 한 업데이트 정책**, **속성** \> **설정을**차례로 선택 합니다.  <br/>  Microsoft 365 Business Premium 설정이 **On**으로 설정 되 면 다음 설정이 모두 설정 됩니다.  <br/> **서비스 분기가** **CB** 로 설정 됩니다 (Microsoft 365 Business Premium에서이 기능을 해제 한 경우 cbb).  <br/> **Microsoft 제품 업데이트**는 **허용**으로 설정됩니다.  <br/> **Windows 드라이버**는 **허용**으로 설정됩니다.  <br/> **자동 업데이트 동작**은 다음 설정과 함께 **유지 관리 시간에 자동 설치**로 설정됩니다.  <br/> **After hours start**(초과 근무 시간 시작)가 **오전 6시**로 설정됩니다.  <br/> **활성 시간 끝**이 **오후 10시**로 설정됩니다.  <br/> **품질 업데이트 지연 기간(일)** 은 **0**으로 설정됩니다.  <br/> **기능 업데이트 지연 기간(일)** 은 **0**으로 설정됩니다.  <br/> **배달 최적화 다운로드 모드**는 **동일한 NAT 뒤의 피어링과 혼합된 HTTP**로 설정됩니다.  <br/> |
 |||

@@ -17,16 +17,17 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 description: Office 365 E3에서 Microsoft 365 Business Premium로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: 0d23e293d599f5b9d6c829d101f2395d6ac21215
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 23d024ed7f18fe6a5f5dc9b59e3ad20069dc3e6a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633190"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402241"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Office 365 E3에서 Microsoft 365 Business Premium으로 마이그레이션 
 
@@ -41,7 +42,7 @@ Microsoft 365 Business Premium에는 최고급 비즈니스에 필요한 모든 
 | 기능    | Microsoft 365 Business Premium의 지원    | Office 365 E3의 지원 | 
 |:-------|:-----|:-----|
 | **온-프레미스**        | | | 
-| Office 앱<sup>1</sup>    | Microsoft 365 비즈니스 에디션 앱    | Microsoft 365 enterprise 용 앱 | 
+| Office 앱<sup>1</sup>    | 비즈니스용 Microsoft 365 앱    | 엔터프라이즈용 Microsoft 365 앱 | 
 | **클라우드 생산성 앱**        | | | 
 | Exchange Online 및 Outlook    | 사서함 당 50 GB 저장소 제한 및 무제한 Exchange 온라인 보관    | 사서함 당 100 GB 저장소 제한 및 무제한 Exchange 온라인 보관 | 
 | Teams    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Office 365 E3에 포함](../media/check-mark.png) | 

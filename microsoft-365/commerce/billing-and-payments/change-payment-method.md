@@ -18,6 +18,7 @@ ms.custom:
 - TopSMBIssues
 - MSStore_Link
 - okr_SMB
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -26,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8652f539-3123-4a8f-b9bd-6aa2f0e0372d
 description: 비즈니스 구독의 결제 방법을 변경 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 195bdcd580663fe2cb9789562a52208753500a79
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: babc8911305fe009ad3b9dc49163a0525c6d0666
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045907"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401813"
 ---
 # <a name="change-your-payment-method"></a>결제 방법 변경
 
@@ -88,7 +89,7 @@ ms.locfileid: "44045907"
   
 송장 결제에서 신용 카드 혹은 은행 계좌로 결제로 변경하면 자동으로 신규 구독이 만들어지고 사용자들이 신규 구독으로 이동되며 이전 구독은 사용을 해제하도록 설정됩니다. 걱정하지 마세요. 사용자들은 어떠한 서비스 중단도 겪지 않고, 신규 구독을 통해 그들의 모든 정보를 사용할 수 있게 됩니다.
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 청구 페이지로 이동 합니다.
 
 2. **표** 보기인 경우 **카드**를 선택 합니다.
 
@@ -152,7 +153,7 @@ ms.locfileid: "44045907"
 
 크레딧 확인이 필요 하지 않은 경우 다음 단계를 사용 하 여 송장에 따라 지불로 변경 합니다.
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 청구 페이지로 이동 합니다.
 
 2. **표** 보기인 경우 **카드**를 선택 합니다.
 
@@ -198,7 +199,7 @@ ms.locfileid: "44045907"
 
 구독에 대해 구성된 결제 방법을 확인하려면 언제든지 다음 단계를 사용하세요.
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 청구 페이지로 이동 합니다.
 
 2. 확인 하려는 구독을 찾습니다. 구독에 대해 구성 된 결제 방법이 **청구** 섹션에 표시 됩니다.
 

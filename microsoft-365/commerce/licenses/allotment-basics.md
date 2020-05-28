@@ -9,19 +9,17 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: None
-search.appverid:
-- MET150
 ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - commerce
-ms.custom: ''
+ms.custom: AdminSurgePortfolio
 description: 새 서비스 구성 기능에 대해 알아봅니다.
-ms.openlocfilehash: e6fe91ee2c0e2de58b54e40eddba6d3066999e6d
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: c8c472fbf30bb898f9a10eca778ee7c668c8c388
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942178"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402417"
 ---
 # <a name="allotment-basics"></a>서비스 기본 사항
 
@@ -51,4 +49,4 @@ ms.locfileid: "43942178"
 
 ## <a name="getting-started"></a>시작하기
 
-서비스 구성 기능은 소수의 고객 에게만 전용 미리 보기에서 사용할 수 있습니다. 참석 하려는 경우이 양식을 작성 [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup)합니다.
+서비스 구성 기능은 소수의 고객 에게만 전용 미리 보기에서 사용할 수 있습니다. 참석 하려는 경우이 양식을 작성 [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup) 합니다.

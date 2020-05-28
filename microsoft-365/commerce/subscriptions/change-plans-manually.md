@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - commerce
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,12 +22,12 @@ search.appverid:
 - BEA160
 ROBOTS: NOINDEX
 description: 새 구독을 구입 하 고 구독이 모두 나열 되 고 활성 상태가 되도록 하 여 수동으로 구독을 변경 합니다.
-ms.openlocfilehash: fcaa3ebfd9d20fa50c9f37f3366aec9d4dd69103
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 20f5492a816c6c819456ac2ca4aa0f20da24eccd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046195"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403285"
 ---
 # <a name="change-plans-manually"></a>수동으로 계획 변경
 
@@ -53,12 +54,12 @@ ms.locfileid: "44046195"
 
 **새 구독 및 라이선스를 구입 합니다.** 새 구독을 구입 하려면 [비즈니스용 Microsoft 365 for business subscription](../buy-another-subscription.md) 의 단계를 수행 합니다.
 
-사용자가 현재 있는 동일한 조직에 대 한 구독을 구입 해야 합니다. 예를 들어 이동 하려는 사용자의 전자 메일 주소를 확인 합니다. 전자 메일 주소에 contoso.com \@가 포함 된 경우 contoso.com에 대 한 새 구독을 구입 해야 합니다.
+사용자가 현재 있는 동일한 조직에 대 한 구독을 구입 해야 합니다. 예를 들어 이동 하려는 사용자의 전자 메일 주소를 확인 합니다. 전자 메일 주소에 contoso.com가 포함 \@ 된 경우 contoso.com에 대 한 새 구독을 구입 해야 합니다.
 이동 하려는 각 사용자에 대 한 라이선스를 포함 합니다.
 
 ## <a name="step-3-check-your-new-subscription-and-licenses"></a>3 단계: 새 구독 및 라이선스 확인
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
 
 2. **두 구독이 모두 나열 되 고 활성 상태 인지 확인** 사용자를 이동 하는 구독과 사용자를 이동 하려는 구독은 함께 나열 되어야 합니다. 처음 확인할 때 새 구독이 없으면 나중에 다시 시도 하세요. 두 구독이 모두 활성 상태 인지 확인 합니다. [새 구독이 나열 되지 않거나 활성](#the-new-subscription-isnt-listed-or-isnt-active)상태가 아닙니다.
 

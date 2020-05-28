@@ -14,24 +14,25 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - SPO_Content
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
 description: '사용 현황 분석을 통해 API에 연결 하 고 다양 한 Microsoft 365 서비스의 사용에 대 한 월별 추세를 제공 하는 방법을 알아봅니다.  '
-ms.openlocfilehash: 2c39edd66bda19233a67c4623044ffc9e0e8046d
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 6b0b005e6e07e52731a84490a6df7c9ead614321
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011774"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402049"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Microsoft 365 사용 현황 분석 데이터 모델
 
 ## <a name="data-for-the-microsoft-365-usage-analytics-tables"></a>Microsoft 365 usage analytics 테이블에 대 한 데이터
 
-Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출 하는 API에 연결 됩니다. API는 미리 보기 상태이며 `https://reports.office.com/pbi/v1.0/\<tenantid\>`에서 액세스할 수 있습니다(\<tenant id\>을(를) 테넌트 GUID로 바꾸기). 
+Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출 하는 API에 연결 됩니다. Api는 미리 보기에 있으며에 액세스할 수 있습니다 `https://reports.office.com/pbi/v1.0/\<tenantid\>` (를 \<tenant id\> 테 넌 트 GUID로 바꾸기). 
   
 > [!NOTE]
 > 자세한 내용은 [Microsoft Graph에서 microsoft 365 사용 현황 보고서](https://go.microsoft.com/fwlink/p/?linkid=864336)사용을 참조 하십시오. 

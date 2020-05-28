@@ -21,18 +21,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
 description: 보호 정책을 통해 관리 되는 장치에서 회사 데이터를 제거 하는 방법과 Windows 10 장치를 공장 설정으로 다시 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 180887dca3226512ab558e98d2b5a78da3521e53
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2d725224631901054480d705ab2adc0f8f4f9353
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634291"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403101"
 ---
 # <a name="manage-protected-devices-with-microsoft-365-for-business"></a>비즈니스를 위해 Microsoft 365을 사용 하 여 보호 된 장치 관리
 

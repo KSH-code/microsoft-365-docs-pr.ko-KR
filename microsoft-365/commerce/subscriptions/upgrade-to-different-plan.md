@@ -16,6 +16,7 @@ ms.collection:
 - commerce
 ms.custom:
 - SaRA
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -23,19 +24,19 @@ search.appverid:
 - BEA160
 - GEA150
 description: 새 구독으로 업그레이드 하는 방법을 알아봅니다.
-ms.openlocfilehash: b0f79233e6a05c2838026093bb0027cd4789b01b
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 2a0dcff5b4326fc75b4e8e4154ee73e0ac17897d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141069"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403177"
 ---
 # <a name="upgrade-to-a-different-plan"></a>다른 플랜으로 업그레이드
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -48,7 +49,7 @@ ms.locfileid: "44141069"
 
 **업그레이드** 탭을 사용 하는 경우 새 요금제를 구입 하는 프로세스를 진행 하 고 있습니다. 모든 사용자에 게 새 요금제의 라이선스가 자동으로 할당 되며 이전 계획은 사용자에 대해 취소 됩니다.
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 청구 페이지로 이동 합니다.
 
 2. 업그레이드할 구독을 선택 합니다.
 
@@ -133,7 +134,7 @@ ms.locfileid: "44141069"
 
 #### <a name="the-plan-that-you-want-to-upgrade-to-isnt-a-supported-option"></a>업그레이드 하려는 계획은 지원 되지 않는 옵션입니다.
 
-요금제를 업그레이드할 때 업그레이드에 사용할 수 있는 요금제는 현재 요금제의 서비스를 기반으로 표시 됩니다. Exchange Online, SharePoint Online 등의 데이터 관련 서비스가 동일 하거나 상위 버전의 요금제로만 업그레이드할 수 있습니다. 이렇게 하면 사용자가\'업그레이드 중에 해당 서비스와 관련 된 데이터가 손실 되지 않습니다.
+요금제를 업그레이드할 때 업그레이드에 사용할 수 있는 요금제는 현재 요금제의 서비스를 기반으로 표시 됩니다. Exchange Online, SharePoint Online 등의 데이터 관련 서비스가 동일 하거나 상위 버전의 요금제로만 업그레이드할 수 있습니다. 이렇게 하면 사용자가 \' 업그레이드 중에 해당 서비스와 관련 된 데이터가 손실 되지 않습니다.
 
 요금제가 계획을 자동으로 업그레이드할 수 없는 경우 대신 [요금제를 수동으로 변경할](change-plans-manually.md)수도 있습니다. [지원을 요청할](../../admin/contact-support-for-business-products.md) 수도 있습니다.
 

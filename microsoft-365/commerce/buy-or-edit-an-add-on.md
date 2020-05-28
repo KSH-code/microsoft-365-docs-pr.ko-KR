@@ -21,20 +21,22 @@ search.appverid:
 - BEA160
 ms.assetid: 4e7b57d6-b93b-457d-aecd-0ea58bff07a6
 description: 추가 기능을 구입 하 여 Microsoft 365 비즈니스 에디션 구독에 추가 기능을 추가 하는 방법에 대해 알아봅니다. 또한 추가 기능을 업데이트 하 고 제거할 수 있습니다.
-ms.custom: okr_SMB
-ms.openlocfilehash: 60bc63d4db84667f00ab0bde95e8541f45a38df7
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.custom:
+- okr_SMB
+- AdminSurgePortfolio
+ms.openlocfilehash: e22c4193fffa1d97334f61e789265e75d55d53a3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141293"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402193"
 ---
 # <a name="buy-or-edit-an-add-on"></a>추가 기능 구입 또는 편집
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -56,7 +58,7 @@ ms.locfileid: "44141293"
 
 6. 가격 정보를 검토 하 고 **다음**을 선택 합니다.
 
-7. 결제 정보를 입력 하 고 **주문** \> 내용을 선택 **하 여 관리 홈으로 이동**합니다.
+7. 결제 정보를 입력 하 고 **주문** 내용을 선택 \> **하 여 관리 홈으로 이동**합니다.
 
 ::: moniker-end
 
@@ -66,7 +68,7 @@ ms.locfileid: "44141293"
 
 2. **구독** 페이지에서 추가 기능을 구입할 구독을 선택 합니다.
 
-3. 구독 세부 정보의 왼쪽 아래 모서리 **에서 추가 기능** \> 을 **구입**합니다 .를 선택 합니다.
+3. 구독 세부 정보의 왼쪽 아래 모서리 **에서 추가 기능** 을 \> **구입**합니다 .를 선택 합니다.
 
     ![Microsoft 365 관리 센터의 구독 페이지에서 추가 기능을 구입 합니다.](../media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
   
@@ -78,7 +80,7 @@ ms.locfileid: "44141293"
 
 7. 가격 정보를 검토 하 고 **다음**을 선택 합니다.
 
-8. 결제 정보를 입력 하 고 **주문** \> 내용을 선택 **하 여 관리 홈으로 이동**합니다.
+8. 결제 정보를 입력 하 고 **주문** 내용을 선택 \> **하 여 관리 홈으로 이동**합니다.
 
 ::: moniker-end
 
@@ -88,7 +90,7 @@ ms.locfileid: "44141293"
 
 2. **구독** 페이지에서 추가 기능을 구입할 구독을 선택 합니다.
 
-3. 구독 세부 정보의 왼쪽 아래 모서리 **에서 추가 기능** \> 을 **구입**합니다 .를 선택 합니다.
+3. 구독 세부 정보의 왼쪽 아래 모서리 **에서 추가 기능** 을 \> **구입**합니다 .를 선택 합니다.
 
     ![Microsoft 365 관리 센터의 구독 페이지에서 추가 기능을 구입 합니다.](../media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
   
@@ -100,7 +102,7 @@ ms.locfileid: "44141293"
 
 7. 가격 정보를 검토 하 고 **다음**을 선택 합니다.
 
-8. 결제 정보를 입력 하 고 **주문** \> 내용을 선택 **하 여 관리 홈으로 이동**합니다.
+8. 결제 정보를 입력 하 고 **주문** 내용을 선택 \> **하 여 관리 홈으로 이동**합니다.
 
 ::: moniker-end
 
@@ -116,7 +118,7 @@ ms.locfileid: "44141293"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
 
 2. **제품** 페이지에서 추가 기능을 업데이트할 구독을 선택 합니다.
 
@@ -179,7 +181,7 @@ ms.locfileid: "44141293"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
 
 2. **제품** 페이지에서 업데이트 하려는 추가 기능 구독을 선택 하 고 **라이선스 추가/제거**를 선택 합니다.
 

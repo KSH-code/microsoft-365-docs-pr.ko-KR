@@ -18,17 +18,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
 description: 비즈니스용 Microsoft 365을 사용 하 여 사용자가 자신의 장치 또는 Windows Pc에 보유 한 회사 데이터를 제거 하는 방법을 알아봅니다.
-ms.openlocfilehash: 80997a48bb3924ab20f16a454120d24caf76e1e7
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 42784149fcf6b850e7d0483c17dd605e7ecb7cf0
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634851"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402789"
 ---
 # <a name="remove-company-data-from-devices"></a>장치에서 회사 데이터 제거
 
@@ -48,7 +49,7 @@ ms.locfileid: "43634851"
     
     ![회사 데이터 제거 창에서 데이터를 제거할 장치를 선택 합니다.](../media/resetorremove.png)
   
-5. 확인 창에서 **닫기** **확인** \> 을 선택 합니다.
+5. 확인 창에서 닫기 **확인** 을 선택 \> **Close**합니다.
     
 
 

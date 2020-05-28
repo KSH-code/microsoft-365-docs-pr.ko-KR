@@ -11,18 +11,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 093a6d0d-890b-489e-9f46-b15687d3fe4f
 description: Microsoft 365 사용 현황 분석, 활동 보고서 및 채택 메트릭에 대 한 활성 사용자에 대해 알아봅니다.
-ms.openlocfilehash: 2117bae32913ad713318c1df25be66d6ef6859e5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b4834d96b2f762d77f0d27309cf8c71a782b0dcd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631794"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402885"
 ---
 # <a name="active-user-in-microsoft-365-usage-reports"></a>Microsoft 365 사용 현황 보고서의 활성 사용자
 
@@ -45,7 +46,7 @@ ms.locfileid: "43631794"
 
 [Microsoft 365 사용 현황 분석](usage-analytics.md) 에서는 활성 사용자와 관련 된 추가 도입 메트릭을 포함 하 여 시간의 경과에 따른 제품 채택을 보여 줍니다. 이러한 메트릭은 선택한 제품 및 월에 대해 유효 하며 다음과 같이 정의 됩니다. 
   
-|**192.168.1.0**|**설명**|
+|**메트릭**|**설명**|
 |:-----|:-----|
 |EnabledUsers  <br/> |해당 월에 제품을 사용할 수 있는 사용자 수입니다.  <br/> |
 |Activeusers 작업  <br/> |해당 월의 활성 상태인 사용자 수입니다.  <br/> |

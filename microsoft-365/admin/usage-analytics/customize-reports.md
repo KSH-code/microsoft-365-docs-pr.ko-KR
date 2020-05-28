@@ -13,25 +13,26 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 9b76065f-29b9-4b89-8059-c5f9db9ddbf6
 description: 브라우저 및 Power BI Desktop에서 보고서를 사용자 지정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 4f0c85802ecb5db9c57add2fa6dd561827e8fa22
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 121a9be4a83570b7fcf358c48bf558d3bc7c1131
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140712"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402933"
 ---
 # <a name="customize-the-reports-in-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석에서 보고서 사용자 지정
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -49,7 +50,7 @@ Microsoft 365 사용 현황 분석은 Power BI에 사용자가 Microsoft 365를 
   
 1. **정품 인증/라이선싱** 보고서 내에서 **정품 인증** 탭을 클릭 합니다.
     
-2. Power BI ![](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) 단추의 기타 페이지 단추를 맨 위에 있는 **편집** 단추를 클릭 하 여 편집 모드를 시작 합니다. 
+2. **Edit** ![ Power BI 단추의 기타 페이지 단추를 맨 위에 있는 편집 단추를 클릭 하 여 편집 모드를 시작 합니다 ](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) . 
     
     ![Click Edit report on the top right navigation](../../media/e2c16663-1fbd-4d7f-887c-0cbb891d3b3d.png)
   
@@ -69,7 +70,7 @@ Microsoft 365 사용 현황 분석은 Power BI에 사용자가 Microsoft 365를 
   
 1. 왼쪽 탐색 창에서 **제품 사용** 보고서로 이동 하 고 **Yammer** 탭을 클릭 합니다.
     
-2. Power BI](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) 및 **편집**에서 기타 페이지 ![단추를 클릭 하 여 편집 모드로 전환 합니다. 
+2. ![POWER BI 및 편집에서 기타 페이지 단추를 클릭 하 여 편집 모드로 ](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) 전환 **Edit**합니다. 
     
 3. 페이지 맨 아래에서 다음을 클릭 합니다. ![Power BI의 페이지 추가 단추](../../media/d3b8c117-17d4-4f53-b078-8fefc2155b24.png) 새 페이지를 만들 수 있습니다.
   
@@ -95,7 +96,7 @@ Microsoft 365 사용 현황 분석은 Power BI에 사용자가 Microsoft 365를 
 
     ![Yammer 선택 확인란](../../media/82e99730-0de9-42da-928a-76aab0c3e609.png)
   
-12. 시각화 목록 바로 아래에서 Power BI Visualizaions ![](../../media/ee0602f3-3df5-4930-b862-db1d90ae4ae2.png)의 아이콘 형식 **서식** 아이콘을 클릭 합니다.
+12. 시각화 목록 바로 아래 **Format** ![ 에서 Power BI Visualizaions의 아이콘 형식 서식 아이콘을 클릭 합니다 ](../../media/ee0602f3-3df5-4930-b862-db1d90ae4ae2.png) .
 
 13. 제목을 확장하고 **제목 텍스트** 값을 **First-Time Yammer Users by Month**(월별 Yammer 최초 사용자)로 변경합니다.
     
@@ -115,7 +116,7 @@ Microsoft 365 사용 현황 분석은 Power BI에 사용자가 Microsoft 365를 
   
 1. **데이터 가져오기** \> **기타** \> **ODATA 피드** \> **연결**로 이동합니다.
     
-2. URL 창에 "https://<i></i>reports.office.com/pbi/v1.0/\<tenantid\>"를 입력 합니다.
+2. URL 창에 "https:// <i></i> reports.office.com/pbi/v1.0/"을 입력 합니다. \<tenantid\>
     
     **참고:** 보고 Api는 미리 보기 상태 이며 프로덕션 환경에 들어갈 때까지 변경 될 수 있습니다. 
   
