@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 - BSA160
 description: Microsoft 365 그룹 거 버 넌 스를 계획 하는 방법을 알아봅니다.
-ms.openlocfilehash: c37f88cbd3f41f22c1effdd7ba482033012aff01
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: f61d07bbb4434b493ffede47df401da6304d0063
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351842"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44388188"
 ---
 # <a name="plan-for-governance-in-groups"></a>그룹의 거 버 넌 스 계획
 

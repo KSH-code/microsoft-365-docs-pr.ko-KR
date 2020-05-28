@@ -15,23 +15,24 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 description: 여러 사용자를 추가할 때 템플릿을 만들고 사용 하 여 시간을 절약 하 고 설정을 표준화할 수 있습니다.
-ms.openlocfilehash: a39ad3df7928e45f7cb93a13c6ffc40111f2ee48
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 3173d28f27acdf1a084137d36cd71894e94e9547
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140655"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387228"
 ---
 # <a name="create-and-use-a-template-to-add-users"></a>서식 파일을 만들고 사용하여 사용자 추가
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -39,7 +40,7 @@ ms.locfileid: "44140655"
 
 ## <a name="create-a-template"></a>서식 파일 만들기
 
-서식 파일 만들기&mdash;쉬운 사용자**활성 사용자** > **사용자 서식 파일** **을 선택한** > 다음 드롭다운 목록에서 **서식 파일 추가** 를 선택 하거나 새 사용자를 추가할 수 있으며, 완료 되 면 항목을 서식 파일로 저장 하는 옵션을 사용할 수 있습니다.
+서식 파일 만들기 쉬운 사용자 &mdash; **Users**  >  **활성 사용자**  >  **사용자 서식 파일**을 선택한 다음 드롭다운 목록에서 **서식 파일 추가** 를 선택 하거나 새 사용자를 추가할 수 있으며, 완료 되 면 항목을 서식 파일로 저장 하는 옵션을 사용할 수 있습니다.
 
 사용자를 추가한 후에 템플릿을 만들면 다음 설정에 대해 선택한 값이 서식 파일에 저장 됩니다.
 
@@ -68,12 +69,12 @@ ms.locfileid: "44140655"
 
 기존 서식 파일을 사용 하 여 사용자를 추가 하려면 다음을 수행 합니다.
 
-1. 관리 센터에서 **사용자** > **활성 사용자**를 선택 합니다.
+1. 관리 센터에서 **사용자**  >  **활성 사용자**를 선택 합니다.
 
 2. **사용자 서식 파일**을 선택한 다음 드롭다운 목록에서 서식 파일을 선택 합니다. 이 목록에는 사용자가 만든 템플릿만 포함 되 고 다른 관리자가 만든 서식 파일은 들어 있지 않습니다.
 
  > [!NOTE]
- > **사용자 서식** > **파일을**선택 하 고 서식 파일을 선택한 다음 **서식 파일 사용**을 선택 하 여 사용자를 추가 하는 방법으로도 서식 파일을 사용할 수 있습니다.
+ > **사용자 서식**파일을 선택 하 고 서식 파일  >  **Manage templates**을 선택한 다음 **서식 파일 사용**을 선택 하 여 사용자를 추가 하는 방법으로도 서식 파일을 사용할 수 있습니다.
 
 3. 단계에 따라 선택한 서식 파일에서 사용자를 만듭니다.
 
@@ -84,7 +85,7 @@ ms.locfileid: "44140655"
 
 더 이상 필요 없는 템플릿을 쉽게 삭제 하 고 새 서식 파일을 추가할 수 있습니다. 서식 파일을 삭제 하려면 다음을 수행 합니다.
 
-1. 관리 센터에서 **사용자** > **활성 사용자**를 선택 합니다.
+1. 관리 센터에서 **사용자**  >  **활성 사용자**를 선택 합니다.
 
 2. **서식 파일**을 선택한 다음 드롭다운 목록에서 **템플릿 관리** 를 선택 합니다.
 

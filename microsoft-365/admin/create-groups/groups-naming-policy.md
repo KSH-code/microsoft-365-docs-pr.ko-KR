@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MST160
@@ -20,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
 description: Microsoft 365 그룹에 대 한 명명 정책을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 2d8b016e0830f0d20ea6fb6227dd7789878bfc94
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 38b5bbed0c6e4c12af2f529568a53df329d9a933
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630446"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44388008"
 ---
 # <a name="groups-naming-policy"></a>그룹 명명 정책
 
@@ -38,7 +39,7 @@ ms.locfileid: "43630446"
 
 그룹 명명 정책은 다음과 같은 기능으로 구성 됩니다.
 
-- **접두사 접미사 명명 정책**: 접두사 또는 접미사를 사용 하 여 그룹 명명 규칙을 정의할 수 있습니다 (예: "US\_My Group\_엔지니어링"). 접두사/접미사는 고정 문자열이 나 [부서]와 같은 사용자 특성으로, 그룹을 만드는 사용자에 따라 대체 될 수 있습니다.
+- **접두사 접미사 명명 정책**: 접두사 또는 접미사를 사용 하 여 그룹 명명 규칙을 정의할 수 있습니다 (예: "US \_ My Group \_ 엔지니어링"). 접두사/접미사는 고정 문자열이 나 [부서]와 같은 사용자 특성으로, 그룹을 만드는 사용자에 따라 대체 될 수 있습니다.
 
 - **사용자 지정 차단 된 단어**: 사용자가 만든 그룹에서 차단 되는 조직에 대 한 차단 되는 단어 집합을 업로드할 수 있습니다. (예: "CEO, 급여, HR").
 
@@ -54,7 +55,7 @@ Microsoft 365 그룹에 대해 Azure AD 명명 정책을 사용 하려면 하나
 
 ### <a name="fixed-strings"></a>고정 문자열
 
-그룹 작업의 GAL 및 왼쪽 탐색 창에 있는 그룹을 구별 하는 데 도움이 되는 짧은 문자열을 사용할 수 있습니다. 일반적인 접두사 접미사 중 일부는 ' Grp\_Name ', '\#name ', '\_name '과 같은 키워드입니다.
+그룹 작업의 GAL 및 왼쪽 탐색 창에 있는 그룹을 구별 하는 데 도움이 되는 짧은 문자열을 사용할 수 있습니다. 일반적인 접두사 접미사 중 일부는 ' Grp \_ Name ', ' \# name ', ' \_ name '과 같은 키워드입니다.
 
 ### <a name="attributes"></a>특성만
 
@@ -80,7 +81,7 @@ Microsoft 365 그룹에 대해 Azure AD 명명 정책을 사용 하려면 하나
 
 - 접두사와 접미사는 그룹 이름 및 그룹 별칭에서 지원 되는 특수 문자를 포함할 수 있습니다. 접두사 및 접미사에 그룹 별칭에서 허용 되지 않는 특수 문자가 포함 되어 있으면 그룹 이름에만 적용 됩니다. 따라서 그룹 이름에 적용 되는 접두사와 접미사는 그룹 별칭에 적용 된 접두 번호와 접미사가 다릅니다.
 
-- Yammer \#Microsoft 365 연결 된 그룹을 사용 하는 경우에는 이름 지정 정책에 @,, \[ \] \<, 및와 \>같은 문자를 사용 하지 않도록 합니다. 이러한 문자가 이름 지정 정책에 있는 경우 일반 Yammer 사용자는 그룹을 만들 수 없습니다.
+- Yammer Microsoft 365 연결 그룹을 사용 하는 경우에는 이름 지정 정책에 @,,,,에서 다음 문자를 사용 하지 않도록 \# \[ \] \<, and \> 합니다. 이러한 문자가 이름 지정 정책에 있는 경우 일반 Yammer 사용자는 그룹을 만들 수 없습니다.
 
 ## <a name="custom-blocked-words"></a>사용자 지정 차단 된 단어
 

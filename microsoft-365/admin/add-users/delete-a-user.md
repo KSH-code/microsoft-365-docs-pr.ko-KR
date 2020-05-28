@@ -16,6 +16,7 @@ ms.collection:
 - SPO_Content
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -23,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: 사용자 계정을 삭제 하는 방법에 대해 알아봅니다. 사용자의 전자 메일, OneDrive 콘텐츠, 제품 라이선스를 유지할지 아니면 지불할 지를 결정 합니다.
-ms.openlocfilehash: a179915ae92def2a967dc86378346bb905c923e4
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 4102fe4ac297a1f426b3bf575e748a72b323ebb6
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049462"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387192"
 ---
 # <a name="delete-a-user-from-your-organization"></a>조직에서 사용자 삭제
   
@@ -138,7 +139,7 @@ ms.locfileid: "44049462"
   
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다. 이 옵션이 표시 되지 않으면 전역 관리자 또는 대금 청구 관리자가 아니므로이 단계를 수행할 수 없습니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요. 이 옵션이 표시 되지 않으면 전역 관리자 또는 대금 청구 관리자가 아니므로이 단계를 수행할 수 없습니다.
 
 2. 구독을 하나 이상 선택한 다음 라이선스 **추가/제거** 를 선택 하 여 다른 사람을 고용 하기 전까지 라이선스에 대해 비용을 지불 하지 않을 수 있습니다.  
 

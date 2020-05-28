@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 9b838071-94aa-4b8e-8d84-d17ece1ee951
 description: '암호를 다시 설정 하 고 새 Microsoft 365 사용자에 게 알림 전자 메일을 보내는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: fcf5fb53c2468930e68929a9bf38b634d7e67404
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2f9d4fd829e4378b245fd3b8277e9b913d17ab69
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43624115"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386988"
 ---
 # <a name="resend-a-users-password---admin-help"></a>사용자의 암호 다시 보내기-관리자 도움말
 
@@ -34,19 +35,19 @@ ms.locfileid: "43624115"
   
 ::: moniker range="o365-worldwide"  
   
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
      
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.  
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..  
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
 
 ::: moniker-end
 

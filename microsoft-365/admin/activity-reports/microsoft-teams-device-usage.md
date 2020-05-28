@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MST160
@@ -20,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 917b3e1d-203e-4439-8539-634e80196687
 description: Microsoft 365 보고서를 통해 마이크로소프트의 앱 사용 현황 보고서를 가져와 조직에서 사용 되는 Microsoft 팀 앱에 대 한 정보를 습득 합니다.
-ms.openlocfilehash: 9c79f83d90905470c56fd62489f1439b3383841f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c2070f13c790f2a66c5849e68fc2fe3579ffa3e3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43621213"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387721"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>관리 센터의 microsoft 365 보고서-Microsoft 팀 장치 사용 현황
 

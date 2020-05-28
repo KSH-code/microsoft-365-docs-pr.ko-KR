@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Microsoft 365 그룹을 만들고 삭제 하 고, 그룹 구성원을 추가 및 제거 하 고, 그룹의 작동 방식을 사용자 지정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a691f2363547c5bffb4c674d61cddde0cdb0266a
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 5e89c89c6b50e58f235877a61eaceaefe2bf6ee8
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049218"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44388020"
 ---
 # <a name="create-a-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 그룹 만들기
   

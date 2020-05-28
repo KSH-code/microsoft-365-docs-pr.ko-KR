@@ -18,6 +18,7 @@ ms.custom:
 - okr_smb
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -26,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: 관리 센터에서 특정 작업을 수행할 수 있도록 비즈니스의 사용자 또는 여러 사용자에 게 관리자 역할을 할당 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7842714d7a57c7db9c3f0afe7e4b2e353137b66f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 86759a07221e93e211107dcbd41a6bee5e6ca9a4
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43618791"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387240"
 ---
 # <a name="assign-admin-roles"></a>관리자 역할 할당
 
@@ -84,7 +85,7 @@ Microsoft 비즈니스 구독을 구매한 사용자는 전역 관리자입니�
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 2. **활성 사용자** 페이지에서 관리자 역할을 변경 하려는 사용자를 선택 합니다. 플라이 아웃 창에서 **역할**옆에 있는 **편집**을 선택 합니다. 
 
@@ -96,7 +97,7 @@ Microsoft 비즈니스 구독을 구매한 사용자는 전역 관리자입니�
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 2. **활성 사용자** 페이지에서 관리자 역할을 변경 하려는 사용자를 선택 합니다. 플라이 아웃 창에서 **역할**옆에 있는 **편집**을 선택 합니다. 
 

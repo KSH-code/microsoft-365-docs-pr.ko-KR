@@ -13,24 +13,25 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Microsoft 365 그룹에 게스트를 추가 하 고, 게스트 사용자를 보고, PowerShell을 사용 하 여 게스트 액세스를 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: 48f3339968040eeb82a93d6540c70f0bbea0754a
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 99288521f29d67f3146cafe1f194662750cc8a5d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140546"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386784"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>Microsoft 365 그룹에서 게스트 액세스 관리
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -55,7 +56,7 @@ ms.locfileid: "44140546"
 
 그룹에서 게스트 액세스를 사용 하도록 설정 하거나 사용 하지 않도록 설정 하려면 Microsoft 365 관리 센터에서이 작업을 수행 하면 됩니다.
 
-1. 관리 센터에서 **설정** \> **설정** 으로 이동 하 여 **Microsoft 365 그룹**을 선택 합니다.
+1. 관리 센터에서 **설정** 설정으로 이동 하 여 \> **Settings** **Microsoft 365 그룹**을 선택 합니다.
   
 2. **Microsoft 365 그룹** 페이지에서 조직 외부의 사용자에 게 그룹 리소스에 대 한 액세스를 허용할지, 아니면 그룹 소유자가 조직 외부의 사용자를 그룹에 추가할 수 있도록 할지 여부를 선택 합니다.
 
@@ -63,7 +64,7 @@ ms.locfileid: "44140546"
 
 게스트가 디렉터리에 이미 있는 경우 Microsoft 365 관리 센터에서 사용자를 그룹에 추가할 수 있습니다.
   
-1. 관리 센터에서 **그룹** > **그룹** 페이지로 이동 합니다.
+1. 관리 센터에서 **그룹**  >  **그룹** 페이지로 이동 합니다.
   
 2. 게스트를 추가할 그룹을 클릭 하 고 **구성원** 탭에서 **모두 보기 및 구성원 관리** 를 선택 합니다. 
   
@@ -90,7 +91,7 @@ ms.locfileid: "44140546"
 > [!NOTE]
 > 이러한 명령을 실행 하려면 전역 관리자 권한이 있어야 합니다. 
 
-게스트 액세스를 차단 하려는 그룹 * / * 의 이름으로 변경 되는 다음 스크립트를 실행 합니다.
+*/<GroupName/>* 게스트 액세스를 차단 하려는 그룹의 이름으로 변경 되는 다음 스크립트를 실행 합니다.
 
 ```PowerShell
 $GroupName = "<GroupName>"

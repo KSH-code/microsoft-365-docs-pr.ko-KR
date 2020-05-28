@@ -11,18 +11,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 - GEA150
 description: Microsoft 365 관리 센터의 microsoft 365 보고서 대시보드를 사용 하 여 사용 현황 보고서에 대 한 Microsoft 365 앱을 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: eb8978c878b2356c8fe73cb0f9f0021b65fcc333
-ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
+ms.openlocfilehash: bdf6863b47739e77355137f0bb559e7cc425d055
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43781442"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387660"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-apps-usage"></a>관리 센터의 microsoft 365 보고서-Microsoft 365 앱 사용 현황
 
@@ -38,7 +39,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
 
 1. 관리 센터에서 **보고서** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> 페이지를 참조하세요.
 
- 2. **보고서 선택** 드롭다운에서 **Office 365** \> **Microsoft 365 앱 사용** 을 선택 합니다.
+ 2. **보고서 선택** 드롭다운에서 **Office 365**   \>  **Microsoft 365 앱 사용** 을 선택 합니다.
 
 ## <a name="interpret-the-microsoft-365-apps-usage-report"></a>Microsoft 365 Apps 사용 보고서 해석
 
@@ -52,7 +53,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
  |2. <br/> |각 보고서의 데이터는 대개 최근 24 ~ 48 시간까지 포함 됩니다. <br/> |
  |3. <br/> |**사용자** 보기 iew에서는 각 앱 (Outlook, Word, Excel, PowerPoint, OneNote 및 팀)에 대 한 활성 사용자 수의 추세를 보여 줍니다. "활성 사용자"는 이러한 앱 내에서 임의의 의도적인 작업을 수행 하는 사용자입니다. <br/> |
  |4. <br/> |**플랫폼** 보기에는 각 플랫폼에 대 한 모든 앱 (Windows, Mac, 웹 및 모바일)에 대 한 활성 사용자의 추세가 표시 됩니다. <br/> |
- |5.<br/>|**사용자** 차트에서 Y 축은 각 앱에 대 한 고유한 활성 사용자 수입니다.  **플랫폼** 차트에서 Y 축은 각 플랫폼에 대 한 고유 사용자 수입니다. 두 차트에서 X 축은 지정 된 platform.object에서 앱이 사용 된 날짜입니다.<br/>|
+ |5.<br/>|**사용자** 차트에서 Y 축은 각 앱에 대 한 고유한 활성 사용자 수입니다.  **플랫폼**   차트에서 Y 축은 각 플랫폼에 대 한 고유 사용자 수입니다. 두 차트에서 X 축은 지정 된 platform.object에서 앱이 사용 된 날짜입니다.<br/>|
  6.<br/>|범례에서 항목을 선택 하 여 차트에 표시 되는 계열을 필터링 할 수 있습니다. 예를 들어 **사용자** 차트에서 Outlook, Word, Excel, PowerPoint, OneDrive 또는 팀을 선택 하 여 각 항목에 관련 된 정보만 표시 합니다. 이 선택 항목을 변경 해도 아래 눈금 표에 있는 정보는 변경 되지 않습니다.|
  |7.<br/>|이 표에서는 사용자 수준별 데이터 분석 결과를 보여 줍니다. 표에서 열을 추가하거나 제거할 수 있습니다. <br/><br/>**Username** 은 Microsoft 앱에서 활동을 수행한 사용자의 전자 메일 주소입니다.<br><br/>**최종 정품 인증 날짜 (UTC)** 는 사용자가 Microsoft 365 앱 구독을 정품 인증 한 최근 날짜입니다.<br/><br/>**마지막 활동 날짜 (UTC)** 는 사용자가 의도적인 활동을 수행한 최근 날짜입니다. 특정 날짜에 발생한 활동을 보려면 차트에서 직접 날짜를 선택합니다.<br/><br/>각 앱에 해당 하는 다음 열에 따라 사용자가 선택한 기간 동안 해당 앱에서 활성 상태 인지 여부를 식별 합니다.<br> <br>**Outlook** <br>**Word** <br>**Excel**<br>**PowerPoint** <br>**OneNote**<br><br> 각 플랫폼에 해당 하는 다음 열: 선택한 기간 동안 사용자가 앱 (Microsoft 365 앱 내)에 대해 해당 플랫폼에서 활성 상태 인지 여부를 식별 합니다.<br><br>**Outlook (Windows)**<br>**Outlook (Mac)**<br>**Outlook (웹)** <br>**Outlook (모바일)**<br> **Word (Windows)**<br> **Word (Mac)**<br> **Word (웹)**<br> **Word (모바일)**<br> **Excel (Windows)**<br> **Excel (Mac)**<br> **Excel (웹)**<br> **Excel (모바일)**<br> **PowerPoint (Windows)**<br> **PowerPoint (Mac)**<br>**PowerPoint (웹)**<br> **PowerPoint (모바일)**<br> **OneNote (Windows)**<br> **OneNote (Mac)**<br> **OneNote (웹)**<br>**OneNote (모바일)**<br> **팀 (Windows)**<br> **팀 (Mac)**<br> **팀 (웹)**<br>**팀 (모바일)** |
  |8.<br/>|**열 관리** 아이콘을 선택 하 여 보고서에서 열을 추가 하거나 제거 합니다.|

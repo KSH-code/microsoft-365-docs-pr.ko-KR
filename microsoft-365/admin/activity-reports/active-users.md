@@ -11,6 +11,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -18,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: fc1cf1d0-cd84-43fd-adb7-a4c4dfa8112d
 description: Microsoft 365 관리 센터에서 Microsoft 365 Reports 대시보드를 사용 하 여 활성 사용자 보고서를 가져와 사용 중인 제품 라이선스의 수를 확인 하는 방법을 알아봅니다.
-ms.openlocfilehash: e865fa1ed68e7e68c103bf6abc66816b844d7b2d
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: 7f32059f01163a2a499f1befb9f4e3c519973549
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43046846"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387900"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---active-users"></a>관리 센터의 Microsoft 365 보고서-활성 사용자
 
@@ -50,7 +51,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
 |3.  <br/> |**활성 사용자** 차트는 보고 기간의 일일 활성 사용자 수를 제품별로 구분해서 보여 줍니다.  <br/> **서비스** 차트는 활동 유형 및 서비스별 사용자 수를 보여 줍니다.  <br/> |
 |4.  <br/> | **활성 사용자** 차트에서 X축은 선택된 보고 기간을 보여 주고 Y축은 라이선스 유형별로 구분된 일일 활성 사용자 수와 라이선스 유형별로 코딩된 색상을 표시합니다.  <br/>  **서비스** 활동 차트에서 X축은 지정된 기간에 사용자에게 허용된 개별 서비스를 표시하고 Y축은 활동 상태별 사용자 수와 활동 상태별로 코딩된 색상입니다.  <br/> |
 |5.  <br/> |범례에서 항목을 선택 하 여 차트에 표시 되는 계열을 필터링 할 수 있습니다. 이 선택 항목을 변경해도 눈금 표에 있는 정보가 변경되지는 않습니다.  <br/> |
-|6.  <br/> |**내보내기** ![데이터를 excel 파일로](../../media/816a224b-6ca7-4967-a135-4f6427f64dc8.JPG) 내보내기 링크를 선택 하 여 excel .csv 파일에 보고서 데이터를 내보낼 수도 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다.  <br/> |
+|6.  <br/> |**내보내기** ![ 데이터를 excel 파일로 내보내기 링크를 선택 하 여 excel .csv 파일에 보고서 데이터를 내보낼 수도 있습니다 ](../../media/816a224b-6ca7-4967-a135-4f6427f64dc8.JPG) . 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다.  <br/> |
 |7.  <br/> |열 컨트롤 없이 눈금 표에 표시되는 정보를 변경할 수 있습니다.  <br/> 21Vianet에서 운영 하는 구독의 경우 Yammer가 표시 되지 않습니다. <br/> <br/> |
 |||
 

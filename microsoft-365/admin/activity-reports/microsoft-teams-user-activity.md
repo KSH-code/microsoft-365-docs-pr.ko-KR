@@ -11,6 +11,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MST160
@@ -18,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 07f67fc4-c0a4-4d3f-ad20-f40c7f6db524
 description: Microsoft 팀 사용자 활동 보고서를 가져오고 조직의 팀 활동에 대 한 정보를 파악 하는 방법을 알아봅니다.
-ms.openlocfilehash: 4a1b546efa7ba3bac887f60de54231389b8b5ca6
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: 59fdeec9979b939524279d938e97baf6993d3cb0
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43047100"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387672"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>관리 센터의 microsoft 365 보고서-Microsoft 팀 사용자 활동
 

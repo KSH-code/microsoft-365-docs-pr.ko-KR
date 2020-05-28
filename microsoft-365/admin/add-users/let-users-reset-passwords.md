@@ -17,18 +17,19 @@ ms.custom:
 - MSStore_Link
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: 셀프 서비스 암호 재설정 도구를 사용 하 여 암호를 다시 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 01099f6f678bbaa3b163ac59e0417614352e0e97
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.openlocfilehash: 5c30d1da20998fb7e9681431173070ba57e1b090
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173533"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387036"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>사용자가 암호를 직접 재설정할 수 있도록 허용
 
@@ -59,13 +60,13 @@ ms.locfileid: "44173533"
 
 ::: moniker range="o365-germany"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **설정** \> ** &amp; 보안 개인 정보** 페이지로 이동 합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **설정** \> **보안 &amp; 개인 정보** 페이지로 이동 합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **설정** \> **설정** \> ** &amp; 보안 개인 정보** 페이지로 이동 합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **설정** \> **설정** \> **보안 &amp; 개인 정보** 페이지로 이동 합니다.
 
 ::: moniker-end
 

@@ -11,6 +11,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -18,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: c2ce12a2-934f-4dd4-ba65-49b02be4703d
 description: Exchange Online에 연결 하는 전자 메일 앱 및 사용자가 사용 중인 Outlook 버전에 대 한 정보를 확인 하기 위해 전자 메일 앱 사용 현황 보고서를 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: 5bdd62d150cf103cd3c3520cf5a0c593dceb8e66
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: 80f05e4b356655c859536a46868e7ffde7cdebdb
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43046858"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387768"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---email-apps-usage"></a>관리 센터의 Microsoft 365 보고서-전자 메일 앱 사용 현황
 
@@ -53,7 +54,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
 |4.  <br/> |**앱** 보기에는 선택한 기간 동안 앱별 고유 사용자 수가 표시됩니다.  <br/> |
 |5.  <br/> |**버전** 보기에는 Windows의 각 Outlook 버전에 대 한 고유 사용자 수가 표시 됩니다.  <br/> |
 |6.  <br/> | **사용자** 차트에서 Y축은 보고 기간 중 임의의 날짜에 앱에 연결한 총 고유 사용자 수입니다.  <br/>  **사용자** 차트에서 Y축은 보고 기간 동안 앱을 사용한 고유 사용자 수입니다.  <br/>  **앱** 차트에서 Y축은 보고 기간 동안 특정 앱을 사용한 총 고유 사용자 수입니다.  <br/>  **앱** 차트에서 X축은 조직의 앱 목록입니다.  <br/>  **버전** 차트에서 Y축은 Outlook 데스크톱의 특정 버전을 사용하는 총 고유 사용자 수입니다. 보고서에서 Outlook 버전 번호를 확인할 수 없는 경우 수량은 정해지지 않은 상태로 표시됩니다.  <br/>  **버전** 차트에서 X축은 조직의 앱 목록입니다.  <br/> |
-|7.  <br/> |범례에서 selectingan 항목으로 차트에 표시 되는 계열을 필터링 할 수 있습니다. 예를 들어 **사용자** 차트에서 전자 메일 클라이언트의 **Mac 메일** 또는 **Outlook** ![목록을 선택 합니다. 해당 클라이언트에서 더 많은 보고 데이터를 가져오려면 전자 메일 클라이언트를 선택 합니다.](../../media/19b9da1b-7b69-4a04-8527-38349f859e84.png) 각 항목에 관련 된 정보만 표시 합니다. 이 선택 항목을 변경해도 눈금 표에 있는 정보가 변경되지는 않습니다. Mac 메일, Mac 용 Outlook, Outlook 모바일, Outlook desktop 및 웹용 Outlook은 조직에 있을 수 있는 전자 메일 앱의 예입니다.  <br/> |
+|7.  <br/> |범례에서 selectingan 항목으로 차트에 표시 되는 계열을 필터링 할 수 있습니다. 예를 들어 **사용자** 차트에서 전자 메일 클라이언트의 **Mac 메일** 또는 **Outlook** ![ 목록을 선택 합니다. 해당 클라이언트에서 더 많은 보고 데이터를 가져오려면 전자 메일 클라이언트를 선택 합니다.](../../media/19b9da1b-7b69-4a04-8527-38349f859e84.png) 각 항목에 관련 된 정보만 표시 합니다. 이 선택 항목을 변경해도 눈금 표에 있는 정보가 변경되지는 않습니다. Mac 메일, Mac 용 Outlook, Outlook 모바일, Outlook desktop 및 웹용 Outlook은 조직에 있을 수 있는 전자 메일 앱의 예입니다.  <br/> |
 |8.  <br/> | 항목을 추가할 때까지 아래 목록의 열에 일부 항목이 표시되지 않을 수 있습니다.<br/> **Username** 은 전자 메일 응용 프로그램 소유자의 이름입니다.  <br/> **마지막 활동 날짜** 는 사용자가 전자 메일 메시지를 읽거나 보낸 최근 날짜입니다.  <br/> **Mac Mail**, **Mac Outlook** 및 **Outlook**, **Outlook 모바일** 및 **웹용 Outlook**은 조직에서 보유하고 있을 수 있는 전자 메일 앱의 예입니다.  <br/>  조직의 정책으로 인해 사용자 정보를 식별할 수 있는 보고서를 볼 수 없는 경우 이러한 모든 보고서의 개인 정보 설정을 변경할 수 있습니다. [Microsoft 365 관리 센터의 활동 보고서](activity-reports.md)에서 **사용자 수준의 세부 정보를 숨기는 방법** 섹션을 확인 하세요.  <br/> |
 |9.  <br/> |**열 관리** 를 선택 하 여 보고서에서 열을 추가 하거나 제거 합니다.  <br/> ![전자 메일 앱 사용 현황 보고서-열 선택](../../media/c17b2a5c-db41-474a-8334-0e5a621b2f16.png)|
 |10.  <br/> |**내보내기** 링크를 선택 하 여 Excel .csv 파일에 보고서 데이터를 내보낼 수도 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다.  <br/> |

@@ -17,18 +17,19 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - okr_smb
+- AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: 관리 센터를 사용하여 클라우드에서의 조직 설정, 사용자 관리, 구독 관리를 수행합니다. 관리자 권한으로 계정에 로그인하여 시작하세요.
-ms.openlocfilehash: 4b5db6afd7ef8428fea9fc0b57a090b22d027216
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: c5f061e8ffd8f545965483d8d318debea708bf2c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049438"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386964"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 정보
 

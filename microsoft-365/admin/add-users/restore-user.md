@@ -15,6 +15,7 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -22,19 +23,19 @@ search.appverid:
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
 description: 삭제 된 사용자 계정 및 모든 관련 데이터를 복원 하는 방법을 알아봅니다.
-ms.openlocfilehash: 7ac0805024ebf78075a66f77c99496675f20e497
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 27b3f4a0077b5ef0dcfaef1dbe5019a5d69652f2
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140570"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387008"
 ---
 # <a name="restore-a-user"></a>사용자 복원
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
    

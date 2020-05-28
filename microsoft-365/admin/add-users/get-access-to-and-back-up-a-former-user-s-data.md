@@ -16,25 +16,26 @@ ms.collection:
 - SPO_Content
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: a6f7f9ad-e3f5-43de-ade5-e5a0d7531604
 description: 사용자가 조직을 떠날 때 직원의 파일 및 전자 메일을 보존 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f7132b927c05b8339f20b268b48847291e9c710e
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 2bf32aa9e7a3dcc76ae2114240bff07d697ce29d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140636"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387204"
 ---
 # <a name="get-access-to-and-back-up-a-former-users-data"></a>액세스 권한 받기 및 이전 사용자 데이터 백업
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경 되는 중입니다. 환경이 여기에 나와 있는 세부 정보와 일치 하지 않으면 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조 하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -156,7 +157,7 @@ ms.locfileid: "44140636"
     
     ![리본 메뉴의 모양은 Outlook 2016에서 확인할 수 있습니다.](../../media/d7f66ed3-9861-4521-b410-e86a58ab15a7.png)
   
-3. 내보내기 \> **가져오기/내보내기** **열기 &amp; ** 를 선택 합니다.
+3. ** &amp; 내보내기** \> **가져오기/내보내기**열기를 선택 합니다.
     
     ![Backstage 보기의 가져오기/내보내기 명령](../../media/6013919e-d8ce-4902-b7b4-78ff4260a2f8.jpg)
   
@@ -204,7 +205,7 @@ Outlook 2010에서 [전자 메일, 연락처 및 일정을 outlook .pst 파일�
 > 또한 [이전 사용자의 사서함을 공유 사서함으로 변환](https://docs.microsoft.com/office365/admin/email/convert-user-mailbox-to-shared-mailbox) 하거나 [이전 직원의 전자 메일을 다른 직원에 게 전달할](https://docs.microsoft.com/office365/admin/add-users/remove-former-employee#forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox)수 있습니다.
 
   
-1. Outlook에서 **가져오기/내보내기** ** &amp; 내보내기** \> **파일로** \> 이동 합니다.
+1. Outlook에서 **File** \> ** &amp; ** \> **가져오기/내보내기**내보내기 파일로 이동 합니다.
     
     그러면 가져오기 및 내보내기 마법사가 시작 됩니다.
     

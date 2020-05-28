@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 64bedda6f22ea64ade76a941658be109a6512d9f
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 2f486f593a9fd6a2dd7fbcaca9908176561c7790
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42356359"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386640"
 ---
 # <a name="contact-support-for-south-africa"></a>남아프리카 공화국에 대 한 지원 문의
 

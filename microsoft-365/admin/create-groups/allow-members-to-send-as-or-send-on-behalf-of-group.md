@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 description: 구성원이 microsoft 365 그룹으로 전자 메일을 보내거나 Microsoft 365 그룹을 대신 하 여 전자 메일을 보낼 수 있도록 하는 방법을 알아봅니다.
-ms.openlocfilehash: ce4527321468ee01864177fc1a607fab6a474481
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: a4d8cb65feab3fca69824adc8f7b4ef10e705d8c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049390"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44388140"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>구성원이 그룹을 대신 하거나 다른 사람 이름으로 보내기 허용
 
@@ -46,11 +47,11 @@ ms.locfileid: "44049390"
   
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a>에서 **받는 사람** \> **그룹**으로 이동 합니다.
     
-2. 사용자 **Edit**![에 게 보낼 수](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) 있도록 허용할 그룹에서 그룹 편집 아이콘 편집을 선택 합니다.   
+2. **Edit** ![ ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) 사용자에 게 보낼 수 있도록 허용할 그룹에서 그룹 편집 아이콘 편집을 선택 합니다.   
     
 3. **그룹 위임을**선택 합니다.
     
-4. **다른 이름으로 보내기** 섹션에서 그룹으로 **+** 보낼 사용자를 추가 하려면 서명을 선택 합니다. 
+4. **다른 이름으로 보내기** 섹션에서 **+** 그룹으로 보낼 사용자를 추가 하려면 서명을 선택 합니다. 
     
     ![Microsoft 365 그룹으로 보낼 사용자를 추가 하려면 더하기 기호를 선택 합니다.](../../media/1df167f6-1eff-4f98-9ecd-4230fab46557.png)
   
@@ -64,11 +65,11 @@ ms.locfileid: "44049390"
   
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a>에서 **받는 사람** \> **그룹**으로 이동 합니다.
     
-2. 사용자에 게 보낼 수](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) 있도록 허용할 그룹에서 ![ **그룹 편집 아이콘을 선택 합니다** . 
+2. **Edit** ![ ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) 사용자에 게 보낼 수 있도록 허용할 그룹에서 그룹 편집 아이콘을 선택 합니다. 
     
 3. **그룹 위임을**선택 합니다.
     
-4. 대신 보내기 섹션에서 그룹으로 보낼 사용자를 **+** 추가 하려면 서명을 선택 합니다. 
+4. 대신 보내기 섹션에서 **+** 그룹으로 보낼 사용자를 추가 하려면 서명을 선택 합니다. 
     
     ![Microsoft 365 그룹으로 보낼 사용자를 추가 하려면 더하기 기호를 선택 합니다.](../../media/2bae0579-8907-4d6b-8920-ddd6555897b4.png)
   

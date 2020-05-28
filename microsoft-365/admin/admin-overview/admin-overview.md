@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: c7228a3e-061f-4575-b1ef-adf1d1669870
 description: Microsoft 365 관리 센터에 대해 설명 하 고, 관리자를 위해 로그인 하 고,이에 대 한 비디오 소개를 시청 하세요.
-ms.openlocfilehash: 79c43c0f918c8d4793b02bea08aa092e3a5ef421
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 84c8ef52c4cd3bf687a0849e1e3b1a25f9b31f4d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43623967"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386940"
 ---
 # <a name="admin-center-overview"></a>관리 센터 개요 
 
@@ -35,19 +36,19 @@ ms.locfileid: "43623967"
   
 ::: moniker range="o365-worldwide"
 
- **관리자 계정으로 로그인 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>합니다.**
+ **관리자 계정으로 로그인 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 합니다.**
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-**에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a>Office 365 전라남도에 관리자 계정으로 로그인 합니다.**
+**에서 Office 365 전라남도에 관리자 계정으로 로그인 <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a> 합니다.**
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-**21Vianet에서 운영 하는 Office 365에 관리자 계정으로 로그인 <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>합니다.**
+**21Vianet에서 운영 하는 Office 365에 관리자 계정으로 로그인 <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a> 합니다.**
 
 ::: moniker-end
 

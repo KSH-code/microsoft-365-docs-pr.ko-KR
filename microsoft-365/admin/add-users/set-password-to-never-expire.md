@@ -15,18 +15,19 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Windows PowerShell을 사용 하 여 일부 개별 사용자 암호가 만료 되지 않도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3d5d65f687a5ed02e0e20ff77482f7bef5b6b695
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.openlocfilehash: 6562a4092c47d9c4bf7bf294767e6050a3e0577a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173499"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387012"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>개별 사용자 암호가 만료되지 않도록 설정
 
@@ -127,4 +128,4 @@ AzureAD 모듈의 AzureADUser 명령에 대 한 자세한 내용은 [AzureADUser
     ```
 
 > [!WARNING]
-> 특성에 따라 `-PasswordPolicies DisablePasswordExpiration` 암호를 여전히 age로 설정 합니다. `pwdLastSet` 사용자 암호가 만료 되지 않도록 설정 하 고 90 일을 경과 하면 암호가 만료 됩니다. `pwdLastSet` 특성을 기반으로 만료 `-PasswordPolicies None`를 변경 하면 다음에 로그인 할 때 사용자가 해당 90 `pwdLastSet` 암호를 변경 해야 합니다. 이 변경으로 인해 많은 사용자에 게 영향을 줄 수 있습니다.
+> `-PasswordPolicies DisablePasswordExpiration`특성에 따라 암호를 여전히 age로 설정 `pwdLastSet` 합니다. 사용자 암호가 만료 되지 않도록 설정 하 고 90 일을 경과 하면 암호가 만료 됩니다. `pwdLastSet`특성을 기반으로 만료를 변경 하면 다음에 로그인 할 `-PasswordPolicies None` `pwdLastSet` 때 사용자가 해당 90 암호를 변경 해야 합니다. 이 변경으로 인해 많은 사용자에 게 영향을 줄 수 있습니다.

@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MSP160
@@ -21,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Microsoft 365 그룹을 만들 수 있는 사용자를 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: 7a699a01687aec47fd39ce108c5a8c7a888afe65
-ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
+ms.openlocfilehash: f3de4ac0856f1281151e6d1c686d90559a5e8544
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44222386"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387996"
 ---
 # <a name="manage-who-can-create-groups"></a>그룹을 만들 수 있는 사용자 관리
 
@@ -120,7 +121,7 @@ Microsoft 365 그룹 만들기를 특정 보안 그룹의 구성원으로 제한
 
 아래 스크립트를 메모장과 같은 텍스트 편집기 또는 [Windows POWERSHELL ISE](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise)에 복사 합니다.
 
-* \< SecurityGroupName \> * 을 만든 보안 그룹의 이름으로 바꿉니다. 예시는 다음과 같습니다:
+*\<SecurityGroupName\>* 만든 보안 그룹의 이름으로 대체 합니다. 예를 들면 다음과 같습니다.
 
 `$GroupName = "Group Creators"`
 

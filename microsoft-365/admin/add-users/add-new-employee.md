@@ -15,17 +15,18 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9cdfa29d-7681-4af2-a79d-3e72e7ab9778
 description: 전자 메일, Skype 및 Office 앱에 대해 비즈니스용 Microsoft 365에 새 직원을 추가 합니다.
-ms.openlocfilehash: f25f9445cba31942a58c656d8d7f212dc093024d
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 0df9ed292cd4d8010c779cb822b84f9916cf1928
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049500"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387312"
 ---
 # <a name="add-a-new-employee-to-microsoft-365"></a>Microsoft 365에 새 직원 추가
 
@@ -63,7 +64,7 @@ ms.locfileid: "44049500"
 
 Facebook, Amazon 또는 Gmail과 마찬가지로 직원은 Microsoft 365을 사용 하 여 로그인 합니다. 사용자에 게 다음 로그인 정보를 제공 합니다.
   
-- 로그인 [https://www.office.com](https://www.office.com)합니다.
+- 로그인 [https://www.office.com](https://www.office.com) 합니다.
     
 - **로그인**을 선택한 다음 사용자 ID와 암호를 입력 합니다.
     
@@ -76,7 +77,7 @@ Facebook, Amazon 또는 Gmail과 마찬가지로 직원은 Microsoft 365을 사�
   
 |**작업**|**세부 정보 찾기**|
 |:-----|:-----|
-|Office에 로그인  <br/> |[https://www.office.com](https://www.office.com)으로 이동 하 여 **로그인**을 선택한 다음 사용자 ID와 암호를 입력 합니다.  <br/> |
+|Office에 로그인  <br/> |으로 이동 하 여 [https://www.office.com](https://www.office.com) **로그인**을 선택한 다음 사용자 ID와 암호를 입력 합니다.  <br/> |
 |컴퓨터에 Office 앱을 설치 합니다.  <br/><br/> |로그인 할 때 홈 페이지에는 Word 및 Outlook과 같은 앱을 다운로드 하 고 설치할 수 있는 링크가 포함 됩니다.  **Office 설치**를 선택 합니다.         자세한 내용은 [Office 설치 방법을](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx)참조 하십시오.  <br/> |
 |Outlook 2016에서 전자 메일을 설정 합니다.  <br/> |Office 앱이 컴퓨터에 설치 되 면 전자 메일을 설정 합니다. 자세한 내용은 [How to Setup Outlook](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx)을 참조 하십시오.  <br/> |
 |비즈니스용 Skype를 설정 하 여 회사 또는 전 세계의 동료 또는 비즈니스 파트너와 연결할 수 있도록 합니다. IM, 음성 또는 화상 통화를 통해 대화를 시작할 수 있습니다.  <br/> |[컴퓨터에 비즈니스용 Skype를 설치](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb.aspx)합니다.  <br/> <br/>비즈니스용 Skype를 사용 하는 방법에 대 한 자세한 내용은 [비디오를 시청 하세요.](https://support.office.com/article/3a21eca4-434d-41f1-ab06-3d4a268573b7.aspx) <br/> <br/>직원이 무료 Skype 앱을 사용 하는 회사 외부의 사용자에 게 연락할 수 있도록 비즈니스용 Skype를 설정 해야 하나요? 그렇지 않은 경우 비즈니스용 Skype를 사용할 때 예상 되는 사항을 알 수 있도록 새 직원에 게 알려주십시오.  <br/> |
