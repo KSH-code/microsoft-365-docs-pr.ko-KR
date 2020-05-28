@@ -9,26 +9,27 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: 구독에 대 한 결제를 보낼 위치를 알아봅니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 89fefb02d431954176774a3f5feba8cefe897d45
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 7eb078eb4213d8d15c301f2f2ada26448228e992
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257793"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403989"
 ---
-# <a name="payment-information-for-nigeria"></a><span data-ttu-id="09577-103">나이지리아 결제 정보</span><span class="sxs-lookup"><span data-stu-id="09577-103">Payment information for Nigeria</span></span>
+# <a name="payment-information-for-nigeria"></a><span data-ttu-id="c97a8-103">나이지리아 결제 정보</span><span class="sxs-lookup"><span data-stu-id="c97a8-103">Payment information for Nigeria</span></span>
 
-<span data-ttu-id="09577-104">[다른 국가 또는 지역을 찾습니다](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="09577-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="c97a8-104">[다른 국가 또는 지역을 찾습니다](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="c97a8-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="09577-105">USD에만 요금을 지불 하 고 청구서 remittance에서 청구서 번호를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="09577-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
+<span data-ttu-id="c97a8-105">USD에만 요금을 지불 하 고 청구서 remittance에서 청구서 번호를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="c97a8-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="09577-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="09577-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="c97a8-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="c97a8-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="09577-107">**뱅크:** Citibank, 런던</span><span class="sxs-lookup"><span data-stu-id="09577-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="09577-108">**SWIFT 코드:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="09577-108">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="09577-109">**Iban:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="09577-109">**IBAN:** GB95CITI18500812510049</span></span>  
-<span data-ttu-id="09577-110">**계정 번호:** 12510049</span><span class="sxs-lookup"><span data-stu-id="09577-110">**Account Number:** 12510049</span></span>  
-<span data-ttu-id="09577-111">**계정 이름:** MFC</span><span class="sxs-lookup"><span data-stu-id="09577-111">**Account Name:** MICROSOFT</span></span>  
+<span data-ttu-id="c97a8-107">**뱅크:** Citibank, 런던</span><span class="sxs-lookup"><span data-stu-id="c97a8-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="c97a8-108">**SWIFT 코드:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="c97a8-108">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="c97a8-109">**Iban:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="c97a8-109">**IBAN:** GB95CITI18500812510049</span></span>  
+<span data-ttu-id="c97a8-110">**계정 번호:** 12510049</span><span class="sxs-lookup"><span data-stu-id="c97a8-110">**Account Number:** 12510049</span></span>  
+<span data-ttu-id="c97a8-111">**계정 이름:** MFC</span><span class="sxs-lookup"><span data-stu-id="c97a8-111">**Account Name:** MICROSOFT</span></span>  
