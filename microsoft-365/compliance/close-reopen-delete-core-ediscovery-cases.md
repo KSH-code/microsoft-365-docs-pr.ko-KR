@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 핵심 eDiscovery 사례를 관리 하는 방법을 설명 합니다. 여기에는 사례 종료, 닫힌 사례 다시 열기 및 사례 삭제 등이 포함 됩니다.
-ms.openlocfilehash: 45282486c2c3b1d00b99a1cda5968b3bb042f6c2
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 17b243a7207fd6927188b42e585101ff1d258b76
+ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208420"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412797"
 ---
 # <a name="close-reopen-and-delete-a-core-ediscovery-case"></a>핵심 eDiscovery 사례 닫기, 다시 열기 및 삭제
 
@@ -32,7 +32,7 @@ ms.locfileid: "44208420"
 
 핵심 eDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 면 사례를 닫을 수 있습니다. 사례를 닫을 때 수행 되는 작업은 다음과 같습니다.
   
-- 사례에 eDiscovery 보류의 콘텐츠 위치가 포함 되어 있는 경우 해당 보류는 해제 됩니다. 이로 인해 사용자 또는 자동화 된 프로세스 (예: 삭제 정책)에 의해 콘텐츠가 영구적으로 삭제 되거나 제거 될 수 있습니다.
+- 사례에 eDiscovery 보류의 콘텐츠 위치가 포함 되어 있는 경우 해당 보류는 해제 됩니다. 보류를 해제 하면 보류 중인 콘텐츠 위치에 30 일 유예 기간 ( *지연 대기*)이 적용 됩니다. 이를 통해 콘텐츠가 즉시 삭제 되는 것을 방지 하 고 관리자가 콘텐츠를 검색 하 고 복원 하는 기회를 제공 하 여 지연 보존 기간이 만료 된 후 영구적으로 삭제 될 수 있습니다. 자세한 내용은 [eDiscovery 보류에서 콘텐츠 위치 제거](create-ediscovery-holds.md#removing-content-locations-from-an-ediscovery-hold)를 참조 하세요.
 
 - 사례를 닫으면 해당 사례와 연결 된 보류만 해제 됩니다. 다른 보류가 콘텐츠 위치 (예: 소송 보류, 보존 정책 또는 다른 코어 eDiscovery 사례의 보류)에 배치 되 면 해당 보류는 계속 유지 됩니다.
 

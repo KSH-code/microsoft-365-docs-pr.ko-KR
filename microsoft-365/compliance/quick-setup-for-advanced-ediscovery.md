@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: d7ccd944-9698-41c7-a21b-677dc62973c4
 description: '보안 &amp; 준수 센터에서 Advanced eDiscovery에 액세스하는 방법을 알아보고 Advanced eDiscovery를 사용하기 위한 일반적인 워크플로를 검토합니다.  '
-ms.openlocfilehash: 62c2ef316daafebeba6f91483277ea344039a271
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b824183c88e4bbf300c2e07c9e8802dfb704aadf
+ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632173"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412837"
 ---
 # <a name="quick-setup-advanced-ediscovery-classic"></a>고급 eDiscovery 빠른 설정(클래식)
 
@@ -32,7 +32,6 @@ ms.locfileid: "43632173"
   
 ## <a name="accessing-a-case-in-advanced-ediscovery"></a>Advanced eDiscovery에서 사례에 액세스
 
-
 보안 및 준수 센터에서 Advanced eDiscovery에 액세스합니다. Advanced eDiscovery에서 사례에 액세스하려면 보안 및 준수 센터에서 eDiscovery 사례의 구성원이어야 합니다. eDiscovery 사례 권한 할당 및 eDiscovery 사례에 사용자를 추가하는 방법에 대한 지침은 [Office 365에서 eDiscovery 사례 관리](ediscovery-cases.md)를 참조하세요. 
   
 Advanced eDiscovery에서 사례로 이동하려면 
@@ -41,15 +40,15 @@ Advanced eDiscovery에서 사례로 이동하려면
     
 2. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
     
-3. **eDiscovery** 페이지에서 Advanced eDiscovery의 이동하려는 사례 옆에 있는 **열기**를 클릭합니다. 
+3. **eDiscovery** 페이지에서 Advanced eDiscovery의 이동하려는 사례 옆에 있는 **열기**를 클릭합니다.
     
-4. 사례에 대한 **홈** 페이지에서 **Advanced eDiscovery**를 클릭합니다.
+4. 사례에 대한 **홈** 페이지에서 **Advanced eDiscovery로 전환**을 클릭합니다.
     
     **Advanced eDiscovery에 연결** 진행률 표시줄이 표시됩니다. 연결되면 Advanced eDiscovery에서 사례가 열립니다. 
     
 ## <a name="workflow"></a>워크플로
 
-다음 다이어그램에서는 보안 및 인증 센터와 Advanced eDiscovery에서 사례를 관리 및 사용하기 위한 일반적인 워크플로를 보여 줍니다. 
+다음 다이어그램에서는 보안 및 인증 센터와 Advanced eDiscovery에서 사례를 관리 및 사용하기 위한 일반적인 워크플로를 보여 줍니다.
   
 ![다이어그램은 사용자 &amp; 사례 설정, 사례 데이터 식별, 내보내기 및 처리를 포함하는 4가지 설정 단계와 분석 및 로컬 시스템으로 내보내기 단계를 포함하는 Advanced eDiscovery 워크플로를 표시합니다.](../media/76589ccc-789d-4581-b3a8-98d339b05979.png)
   

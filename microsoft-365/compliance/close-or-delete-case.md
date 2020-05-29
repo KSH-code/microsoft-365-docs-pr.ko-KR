@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 고급 eDiscovery 사례에서 지 원하는 조사 또는 법적 사례가 종료 되거나 삭제 된 경우 수행 되는 작업에 대해 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e64f5cc0483129396a28cbf657778001e5d372a7
-ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
+ms.openlocfilehash: be8d133a8215fc40c6d33025f9f4d1dee0f3b609
+ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44292414"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412787"
 ---
 # <a name="close-or-delete-an-advanced-ediscovery-case"></a>고급 eDiscovery 사례 닫기 또는 삭제
 
@@ -32,7 +32,7 @@ ms.locfileid: "44292414"
 
 고급 eDiscovery 사례를 닫을 때 수행 되는 작업은 다음과 같습니다.
 
-- 대/소문자에 보류 중인 콘텐츠 위치가 포함 되어 있으면 해당 보류를 해제 합니다. 이로 인해 사용자 또는 자동화 된 프로세스 (예: 삭제 정책)에 의해 콘텐츠가 영구적으로 삭제 되거나 제거 될 수 있습니다.
+- 대/소문자에 보류 중인 콘텐츠 위치가 포함 되어 있으면 해당 보류를 해제 합니다. 보류를 해제 하면 보류 중인 콘텐츠 위치에 30 일 유예 기간 ( *지연 대기*)이 적용 됩니다. 이를 통해 콘텐츠가 즉시 삭제 되는 것을 방지 하 고 관리자에 게 지연 보존 기간이 만료 된 후 영구적으로 삭제 되는 콘텐츠를 검색 하거나 복구할 수 있는 기회를 제공 합니다. 자세한 내용은 [eDiscovery 보류에서 콘텐츠 위치 제거](create-ediscovery-holds.md#removing-content-locations-from-an-ediscovery-hold)를 참조 하세요.
 
 - 사례를 닫으면 해당 사례와 연결 된 보류만 해제 됩니다. 콘텐츠 위치 (예: 소송 보존, 코어 eDiscovery 보류, 다른 고급 eDiscovery 사례의 보류 등)에 다른 보류가 있는 경우 해당 보류는 계속 유지 됩니다.
 

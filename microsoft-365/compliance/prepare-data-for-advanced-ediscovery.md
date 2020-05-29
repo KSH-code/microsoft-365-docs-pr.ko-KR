@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 2fb94c23-1846-4a0e-994d-da6d02445f15
 description: '보안 및 준수 센터를 사용 하 여 &amp; 고급 eDiscovery로 분석을 위한 데이터를 준비 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 31bf002c275b228de12b7ff9e39fabf7c72be74d
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: cf6ace4f88aa18790495b79ed3aa22ebeda75545
+ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214286"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412827"
 ---
 # <a name="prepare-data-for-advanced-ediscovery-classic"></a>고급 eDiscovery에 대 한 데이터 준비 (클래식)
 
@@ -51,7 +51,7 @@ Advanced eDiscovery를 사용하여 데이터를 분석하려면 Microsoft 365 �
     
 4. Advanced eDiscovery에서 데이터를 로드할 사례 옆에 있는 **열기**를 클릭합니다. 
     
-5. 사례에 대한 **홈** 페이지에서 **Advanced eDiscovery**를 클릭합니다. 
+5. 사례에 대 한 **홈** 페이지에서 **Advanced eDiscovery로 전환을**클릭 합니다. 
     
     ![Advanced eDiscovery로 전환을 클릭하여 Advanced eDiscovery에서 케이스를 엽니다.](../media/8e34ba23-62e3-4e68-a530-b6ece39b54be.png)
   

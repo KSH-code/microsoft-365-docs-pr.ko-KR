@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: 보안 & 준수 센터를 사용 하 여 eDiscovery 관련 작업을 수행 하는 데 필요한 사용 권한을 할당 합니다.
-ms.openlocfilehash: 4c39dc3cd0d3c5d13d33330eca930e07227c38d3
-ms.sourcegitcommit: 17a45261926dde1a7cd24e0ac516cfc49e453806
+ms.openlocfilehash: 76ec07909fab35dfbead806befe2565f4e2054ae
+ms.sourcegitcommit: 21977f5cb6b01aee5cae54979717530b2a31a46a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374407"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44411035"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>보안 & 준수 센터에서 eDiscovery 권한 할당
 
@@ -43,7 +43,7 @@ ms.locfileid: "44374407"
   조직에서 eDiscovery 관리자가 필요한 이유는 [추가 정보](#more-information) 섹션을 참조 하십시오.
 
 > [!NOTE]
-> 고급 eDiscovery를 사용 하 여 사용자 데이터를 분석 하려면 사용자 (데이터 custodian)에 Office 365 E5 또는 Microsoft E5 라이선스를 할당 해야 합니다. 또는 E1 또는 E3 라이선스를 사용 하는 사용자에 게 E5 추가 기능 라이선스를 할당할 수 있습니다. 관리자, 규정 준수 담당자 또는 구성원으로 사례에 할당 되 고 고급 eDiscovery를 사용 하 여 데이터를 수집, 확인 및 분석 하는 데에는 E5 라이선스가 필요 하지 않습니다. 라이선스에 대 한 자세한 내용은 [보안 & 준수에 대 한 Microsoft 365 라이선스 지침](https://aka.ms/complianceSD)을 참조 하세요.
+> 고급 eDiscovery를 사용 하 여 사용자 데이터를 분석 하려면 사용자 (데이터 custodian)에 Office 365 E5 또는 Microsoft 365 E5 라이선스를 할당 해야 합니다. 또는 Office 365 E1 또는 Office 365 또는 Microsoft 365 E3 라이선스를 사용 하는 사용자에 게 Microsoft 365 E5 준수 또는 Microsoft 365 eDiscovery 및 감사 추가 기능 라이선스를 할당할 수 있습니다. 관리자, 규정 준수 담당자 또는 구성원으로 사례에 할당 되 고 고급 eDiscovery를 사용 하 여 데이터를 수집, 확인 및 분석 하는 데에는 E5 라이선스가 필요 하지 않습니다. 고급 eDiscovery 라이선스에 대 한 자세한 내용은 [Advanced ediscovery 시작](get-started-with-advanced-ediscovery.md)을 참조 하세요.
   
 ## <a name="before-you-begin"></a>시작하기 전에
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 핵심 eDiscovery 사례와 연결 된 보류를 만들어 조사와 관련이 있을 수 있는 콘텐츠를 보존할 수 있습니다.
-ms.openlocfilehash: c4f3b258fecde8b5a49a77585fe8f1d6cdfe2c11
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 41e5f21d36456eb39999afa71852b169de864356
+ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352255"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412857"
 ---
 # <a name="create-an-ediscovery-hold"></a>eDiscovery 보존 만들기
 
@@ -113,7 +113,7 @@ EDiscovery 보류에서 위치를 검색할 때 주의 해야 할 몇 가지 사
 
 - 검색에서 보류 중인 위치를 검색 하도록 구성한 후 위치를 추가 또는 제거 하거나 보류 쿼리를 변경 하 여 eDiscovery 보류를 변경 하면 검색 구성이 해당 변경 내용으로 업데이트 됩니다. 그러나 검색 결과를 업데이트 하려면 보류가 변경 된 후에 검색을 다시 실행 해야 합니다.
 
-- EDiscovery 사례의 단일 위치에 eDiscovery를 여러 개 저장 한 경우 보류 중인 위치를 검색 하도록 선택 하면 해당 검색 쿼리에 대 한 최대 키워드 수가 500이 됩니다. 이는 검색에서 **OR** 연산자를 사용 하 여 쿼리 기반 보류를 모두 결합 하기 때문입니다. 결합 된 보류 쿼리와 검색 쿼리에 500 개 보다 많은 키워드가 있으면 쿼리 기반 사례와 일치 하는 콘텐츠 뿐 아니라 사서함의 모든 콘텐츠가 검색 됩니다. 
+- EDiscovery 사례의 단일 위치에 eDiscovery를 여러 개 저장 한 경우 보류 중인 위치를 검색 하도록 선택 하면 해당 검색 쿼리에 대 한 최대 키워드 수가 500이 됩니다. 이는 검색에서 **OR** 연산자를 사용 하 여 쿼리 기반 보류를 모두 결합 하기 때문입니다. 결합 된 보류 쿼리와 검색 쿼리에 500 개 보다 많은 키워드가 있으면 쿼리 기반 사례와 일치 하는 콘텐츠 뿐 아니라 사서함의 모든 콘텐츠가 검색 됩니다.
     
 - EDiscovery 보류가 켜 **지거나 설정 된**경우에도 보류 중인 위치를 계속 검색할 수 있습니다.
 
@@ -174,6 +174,26 @@ EDiscovery 사례와 연결 된 보류 또는 검색에 추가할 수 있도록 
 
 > [!IMPORTANT]
 > 사용자의 OneDrive 계정에 대 한 URL에는 UPN (사용자 계정 이름)이 포함 됩니다 (예: `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` ). 드물지만 사용자의 UPN이 변경 되는 경우에는 해당 OneDrive URL도 새 UPN을 통합 하도록 변경 됩니다. 사용자의 OneDrive 계정이 eDiscovery 보류의 일부인 경우 이전 및 해당 UPN이 변경 되 면 보류를 업데이트 해야 하며 보류를 업데이트 하 고 사용자의 새 OneDrive URL을 추가 하 고 이전 항목을 제거해 야 합니다. 자세한 내용은 [UPN 변경 내용이 OneDrive URL에 미치는 영향](https://docs.microsoft.com/onedrive/upn-changes)을 참조하세요.
+
+## <a name="removing-content-locations-from-an-ediscovery-hold"></a>EDiscovery 보류에서 콘텐츠 위치 제거
+
+사서함, SharePoint 사이트 또는 OneDrive 계정이 eDiscovery 보류에서 제거 된 후 *지연 보류가* 적용 됩니다. 즉, 콘텐츠 위치에서 데이터가 영구적으로 삭제 (제거) 되는 것을 방지 하기 위해 보류의 실제 제거가 30 일 동안 지연 됩니다. 이를 통해 관리자는 eDiscovery 보류가 제거 된 후에 제거 될 콘텐츠를 검색 하거나 복구할 수 있습니다. 사서함 및 사이트에 대 한 지연 대기 작동 방식에 대 한 자세한 정보는 서로 다릅니다.
+
+- **사서함:** 다음 번에 관리 되는 폴더 도우미가 사서함을 처리 하 고 eDiscovery 보류가 제거 되었음을 감지할 때 대기 시간이 사서함에 저장 됩니다. 특히 관리 되는 폴더 도우미가 다음 사서함 속성 중 하나를 **True**로 설정 하면 사서함에 지연 보류가 적용 됩니다. 
+
+   - **DelayHoldApplied:** 이 속성은 사용자의 사서함에 저장 된 전자 메일 관련 콘텐츠 (Outlook 및 웹에서 Outlook을 사용 하는 사용자가 생성)에 적용 됩니다.
+
+   - **DelayReleaseHoldApplied:** 이 속성은 사용자의 사서함에 저장 되어 있는 Microsoft 팀, Microsoft Forms 및 Microsoft Yammer와 같은 Outlook 이외의 앱에 의해 생성 된 클라우드 기반 콘텐츠에 적용 됩니다. Microsoft 앱에서 생성 되는 클라우드 데이터는 일반적으로 사용자 사서함의 숨겨진 폴더에 저장 됩니다.
+
+   이전 속성을 True로 설정 하는 경우 사서함에 지연 보류가 **적용**되 면 사서함이 소송 보존 상태에 있는 것 처럼 보류 시간에 무제한 유지 되는 것으로 간주 됩니다. 30 일 후에 지연 보류가 만료 되 고 Microsoft 365에서 자동으로 지연 보존 (DelayHoldApplied 또는 DelayReleaseHoldApplied 속성을 **False**로 설정)을 제거 하 여 보류가 제거 되도록 시도 합니다. 이러한 속성 중 하나를 **False**로 설정 하면 다음에 관리 되는 폴더 도우미가 사서함을 처리할 때 제거 하도록 표시 된 해당 항목을 제거 합니다.
+
+   자세한 내용은 [지연되는 사서함 관리](identify-a-hold-on-an-exchange-online-mailbox.md#managing-mailboxes-on-delay-hold)를 참조하세요.
+
+- **SharePoint 및 OneDrive 사이트:** 사이트가 eDiscovery 보류에서 제거 된 후 30 일 지연 보존 기간 중에 보존 되는 모든 SharePoint 또는 OneDrive 콘텐츠는 삭제 되지 않습니다. 이는 사이트를 보존 정책에서 해제할 때 발생 하는 결과와 비슷합니다. 또한 30 일 지연 보존 기간 동안에는 보존 보류 라이브러리에서이 콘텐츠를 수동으로 삭제할 수 없습니다. 
+
+   자세한 내용은 [보존 정책 릴리스](retention-policies.md#releasing-a-retention-policy)를 참조 하세요.
+
+서비스 케이스가 닫힐 때 보류가 해제 되었기 때문에 핵심 eDiscovery 사례를 닫을 때 보류 중인 콘텐츠 위치에도 지연 보류가 적용 됩니다. 사례를 닫는 방법에 대 한 자세한 내용은 [닫기, 다시 열기 및 삭제 a Core eDiscovery 사례](close-reopen-delete-core-ediscovery-cases.md)를 참조 하세요.
 
 ## <a name="ediscovery-hold-limits"></a>eDiscovery 보존 제한
 

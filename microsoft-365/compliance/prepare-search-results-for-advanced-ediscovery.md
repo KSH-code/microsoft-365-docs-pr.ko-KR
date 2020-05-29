@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 0b6fac2d-8627-4b05-9df0-03609db6248b
 description: Advanced eDiscovery 도구로 추가 분석을 위해 보안 & 준수 센터에서 콘텐츠 검색 결과를 준비 하는 방법을 알아봅니다.
-ms.openlocfilehash: 4d1b406503ff758fb9287cc40d8a323ae23bc3f1
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 14bc98dc9cca656e23fc76f00c6adc975bb61c5e
+ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943297"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412847"
 ---
 # <a name="prepare-search-results-for-advanced-ediscovery-classic"></a>Advanced eDiscovery(클래식) 검색 결과 준비
 
@@ -98,7 +98,7 @@ EDiscovery 사례와 연결 된 검색의 결과를 준비할 수 있습니다. 
     
 2. Advanced eDiscovery에서 데이터를 로드할 사례 옆에 있는 **열기**를 클릭합니다. 
     
-3. 사례에 대한 **홈** 페이지에서 **Advanced eDiscovery**를 클릭합니다. 
+3. 사례에 대 한 **홈** 페이지에서 **Advanced eDiscovery로 전환을**클릭 합니다. 
     
     ![Advanced eDiscovery로 전환을 클릭하여 Advanced eDiscovery에서 케이스를 엽니다.](../media/8e34ba23-62e3-4e68-a530-b6ece39b54be.png)
   

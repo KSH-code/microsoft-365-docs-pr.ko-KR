@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 SharePoint 및 OneDrive에서 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용 하도록 설정할 수 있습니다.
-ms.openlocfilehash: 62bc2b748cf004722f94a7231046930d78437603
-ms.sourcegitcommit: b18949de721c6eef3521d5f8286d9b926ad4aabe
+ms.openlocfilehash: 178359ae993e0db3ec5fd09cae0a13de351a3b94
+ms.sourcegitcommit: 21977f5cb6b01aee5cae54979717530b2a31a46a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44342506"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44411015"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용
 
@@ -58,13 +58,15 @@ SharePoint 및 OneDrive에서 Office 파일에 대해 민감도 레이블을 사
 
 언제 든 지 SharePoint 및 OneDrive에서 Office 파일에 대 한 민감도 레이블을 사용 하지 않도록[opt-out](#how-to-disable-sensitivity-labels-for-sharepoint-and-onedrive-opt-out) 설정할 수 있습니다.
 
+Sharepoint에서 IRM (정보 권한 관리)을 사용 하 여 현재 문서를 보호 하는 경우이 페이지에서 [SHAREPOINT irm (정보 권한 관리) 및 민감도 레이블](#sharepoint-information-rights-management-irm-and-sensitivity-labels) 섹션을 확인 해야 합니다. 
+
 ## <a name="requirements"></a>요구 사항
 
 이러한 새 기능은 [민감도 레이블](sensitivity-labels.md) 에서만 작동 합니다. 현재 Azure Information Protection 레이블이 있는 경우에는 업로드 하는 새 파일에 대해 이러한 기능을 사용할 수 있도록 먼저 해당 레이블을 민감도 레이블로 마이그레이션하십시오. 자세한 내용은 [통합 민감도 레이블로 Azure Information Protection 레이블을 마이그레이션하는 방법](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) 를 참조 하십시오.
 
 Windows 및 버전 19.002.0107.0008 이상에서 OneDrive 동기화 앱 버전 19.002.0121.0008 이상을 사용 합니다. 두 버전 모두 2019 년 1 월 28 일에 출시 되었으며 현재 모든 링으로 출시 되었습니다. 자세한 내용은 [OneDrive 릴리스 노트](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0)를 참조 하세요. SharePoint 및 OneDrive에서 Office 파일에 대해 민감도 레이블을 사용 하도록 설정 하 고 나면 이전 버전의 동기화 앱을 실행 하는 사용자에 게 업데이트 하 라는 메시지가 표시 됩니다.
 
-## <a name="limitations"></a>제한
+## <a name="limitations"></a>제한 사항
 
 - SharePoint에서는 이미 Azure Information Protection 레이블을 사용 하 여 암호화 한 기존 파일에 민감도 레이블을 자동으로 적용 하지 않습니다. 대신 SharePoint 및 OneDrive에서 Office 파일에 대해 민감도 레이블을 사용 하도록 설정한 후에 작동 하는 기능을 얻으려면 다음 작업을 완료 하세요.
     
@@ -171,6 +173,26 @@ Microsoft 365 준수 센터에서 민감도 레이블을 만들거나 변경한 
 2. 초기 발행물 이후 24 시간 이상 기다립니다. 레이블이 완전히 동기화 되었는지 확인 합니다.
 
 3. 레이블을 보다 광범위 하 게 게시 합니다.
+
+## <a name="sharepoint-information-rights-management-irm-and-sensitivity-labels"></a>SharePoint IRM (정보 권한 관리) 및 민감도 레이블
+
+[SHAREPOINT IRM (정보 권한 관리)](set-up-irm-in-sp-admin-center.md) 은 파일을 다운로드할 때 암호화 및 제한을 적용 하 여 목록 및 라이브러리 수준에서 파일을 보호 하는 데 사용할 수 있는 이전 기술입니다. 이 이전 보호 기술은 SharePoint 외부에서 권한이 없는 사용자가 파일을 열지 못하도록 하기 위한 것입니다.
+
+비교에서 민감도 레이블은 암호화와 함께 시각적 표시 (머리글, 바닥글, 워터 마크)의 보호 설정을 제공 합니다. 암호화 설정은 전체 [사용 권한](https://docs.microsoft.com/azure/information-protection/configure-usage-rights) 범위를 지원 하 여 사용자가 콘텐츠를 사용 하 여 수행할 수 있는 작업을 제한 하 고, [여러 시나리오](get-started-with-sensitivity-labels.md#common-scenarios-for-sensitivity-labels)에서 동일한 민감도 레이블을 지원 합니다. 여러 작업 및 앱 간에 일관 된 설정과 동일한 보호 방법을 사용 하면 일관성 있는 보호 전략이 적용 됩니다.
+
+그러나 두 보호 솔루션을 함께 사용할 수 있으며 동작은 다음과 같습니다. 
+
+- 암호화를 적용 하는 민감도 레이블을 사용 하 여 파일을 업로드 하는 경우 이러한 파일, 공동 작성, eDiscovery, DLP 및 검색에 대 한 암호화가 제거 되지 않습니다.
+
+- 웹에서 Office를 사용 하 여 파일에 레이블을 지정 하면 레이블에서 암호화 설정이 적용 됩니다. 이러한 파일에 대해 공동 작성, eDiscovery, DLP 및 검색이 지원 됩니다.
+
+- 웹에서 Office를 사용 하 여 레이블이 지정 된 파일을 다운로드 하는 경우 레이블이 보존 되 고 해당 레이블의 모든 암호화 설정이 IRM 제한 설정이 아닌 적용 됩니다.
+
+- 민감도 레이블로 암호화 되지 않은 Office 또는 PDF 파일을 다운로드 하는 경우 IRM 설정이 적용 됩니다.
+
+- 사용자가 IRM을 지원 하지 않는 문서를 업로드 하지 못하게 하는 추가 IRM library 설정이 사용 하도록 설정 된 경우에는 이러한 설정이 적용 됩니다.
+
+이 동작을 사용 하면 레이블이 없는 경우에도 모든 Office 및 PDF 파일을 다운로드 한 경우 무단으로 액세스 하지 못하도록 보호할 수 있습니다. 그러나 레이블이 지정 된 파일은 새로운 기능을 통해 얻을 수 없습니다.
 
 ## <a name="how-to-disable-sensitivity-labels-for-sharepoint-and-onedrive-opt-out"></a>SharePoint 및 OneDrive에 대해 민감도 레이블을 사용 하지 않도록 설정 하는 방법 (옵트아웃)
 

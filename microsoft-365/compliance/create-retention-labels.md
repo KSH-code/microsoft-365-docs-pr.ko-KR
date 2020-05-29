@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365 환경에서 필요한 사항은 보존하고 필요하지 않은 사항은 삭제하기 위해 보존 레이블을 만들고, 게시하고 자동 적용하기 위한 지침입니다.
-ms.openlocfilehash: 4a9343ddfe07bbc4bf535759a39268915fd83ca1
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 65319baa0fd238ebdc403307fb8bb91a59d87cd6
+ms.sourcegitcommit: 3cd487476efe4138d1b42499fbffbbe4bacfe5b8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352245"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44408470"
 ---
 # <a name="create-publish-and-auto-apply-retention-labels"></a>보존 레이블 만들기, 게시 및 자동 적용
 
@@ -80,7 +80,7 @@ ms.locfileid: "44352245"
 
 2. 마법사의 지시를 따릅니다.
     
-    위치를 구성하는 방법에 대한 자세한 내용은 이 페이지에서 [보존 레이블과 위치](#retention-labels-and-locations) 섹션을 참조하세요. 
+    보존 레이블이 지원하는 위치에 대한 자세한 내용은 [보존 레이블과 위치](labels.md#retention-label-policies-and-locations) 섹션을 참조하세요. 
 
 ## <a name="auto-apply-a-retention-label"></a>보존 레이블 작동 적용
 
@@ -100,21 +100,7 @@ ms.locfileid: "44352245"
     
     보존 레이블을 자동으로 적용하는 조건을 구성하는 방법에 대한 자세한 내용은이 페이지에서 [보존 레이블 자동 적용에 대한 조건 구성하기](#configuring-conditions-for-auto-apply-retention-labels) 섹션을 참조하세요.
     
-    위치를 구성하는 방법에 대한 자세한 내용은 이 페이지의 다음 섹션 [보존 레이블과 위치](#retention-labels-and-locations)를 참조하세요.
-
-## <a name="retention-labels-and-locations"></a>보존 레이블 및 위치
-
-보존 레이블이 수행하는 작업에 따라, 다양한 유형의 보존 레이블을 여러 다른 위치에 게시할 수 있습니다.
-  
-|**보존 레이블...**|**레이블 정책을 적용할 수 있는 대상...**|
-|:-----|:-----|
-|최종 사용자에게 게시  <br/> |Exchange, SharePoint, OneDrive, Office 365 그룹  <br/> |
-|중요한 정보 유형에 따라 자동으로 적용  <br/> |Exchange(모든 사서함만), SharePoint, OneDrive  <br/> |
-|쿼리에 따라 자동 적용  <br/> |Exchange, SharePoint, OneDrive, Office 365 그룹  <br/> |
-   
-Exchange에서 자동 적용 보존 레이블(쿼리 및 중요한 정보 유형 모두에 대한)은 현재 사서함에 있는 모든 항목(미사용 데이터)이 아닌 새로 전송된 메시지(전송 중인 데이터)에만 적용됩니다. 또한 민감한 정보 유형에 대한 자동 적용 보존 레이블은 모든 사서함에만 적용되며 특정 사서함을 선택할 수 없습니다.
-  
-Exchange 공용 폴더와 Skype는 보존 레이블을 지원하지 않습니다.
+    보존 레이블이 지원하는 위치에 대한 자세한 내용은 [보존 레이블과 위치](labels.md#retention-label-policies-and-locations) 섹션을 참조하세요.
 
 
 ## <a name="configuring-conditions-for-auto-apply-retention-labels"></a>보존 레이블 자동 적용에 대한 조건 구성하기
@@ -206,7 +192,7 @@ SharePoint 또는 OneDrive에 보존 레이블을 게시하면 해당 보존 레
   
 ### <a name="how-to-check-on-the-status-of-retention-labels-published-to-exchange"></a>Exchange에 게시된 보존 레이블의 상태를 확인하는 방법
 
-Exchange Online에서는 7일 간격으로 실행되는 프로세스를 통해 최종 사용자가 보존 레이블을 사용할 수 있게 됩니다. Powershell을 사용하여 이 프로세스가 마지막으로 실행된 시간 및 다시 실행될 시간을 확인할 수 있습니다.
+Exchange Online에서 보존 레이블은 7일마다 실행되는 프로세스를 통해 최종 사용자에게 제공됩니다. PowerShell을 사용하여 이 프로세스가 마지막으로 실행된 시간을 확인할 수 있고 따라서 이 프로세스가 다시 실행될 시간을 확인할 수 있습니다.
   
 1. [Exchange Online PowerShell에 연결합니다](https://go.microsoft.com/fwlink/?linkid=799773).
     

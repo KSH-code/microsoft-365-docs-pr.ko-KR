@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
-description: 'Office 365와 통합 된 경우 Cortana를 사용 하는 방법에 대해 알아봅니다. 관리 센터에서 Cortana를 해제 하 여 조직의 데이터에 대 한 액세스를 제한할 수 있습니다. '
-ms.openlocfilehash: 80c4425814e6015d5a8116a1e8df7f7b528dbd66
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: 유효한 회사 또는 학교 계정으로 로그인 한 사용자는 Office 365의 엔터프라이즈 수준 개인 정보, 보안 및 준수 약속을 충족 하는 Microsoft 365 환경에서 Cortana를 사용 하 여 클라우드 기반 지원 서비스를 받을 수 있습니다.
+ms.openlocfilehash: 6c1eb42ad54c0cfb25f84b9f584171eb7d198bb9
+ms.sourcegitcommit: 21977f5cb6b01aee5cae54979717530b2a31a46a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399413"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44411004"
 ---
 # <a name="cortana-in-microsoft-365"></a>Microsoft 365의 Cortana
 
