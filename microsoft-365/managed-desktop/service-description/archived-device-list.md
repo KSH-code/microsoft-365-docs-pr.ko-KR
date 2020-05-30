@@ -8,12 +8,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 788021d9bcd531cbd9210299cb90f1cce49db1c7
-ms.sourcegitcommit: 213b33cbf14e35e6dc563e0b700a4eed5e42e91d
+ms.openlocfilehash: e49c2271bd7005c674447cd59d5ccf7439cf4710
+ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42284369"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44418881"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Microsoft Managed Desktop 보관 장치
 
@@ -42,6 +42,7 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 |HP EliteBook x360 1030 G3| 256 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 |**5 월 14 일 2023** |
 |HP EliteBook x360 1040 G5| 256 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 | **2023 년 10 월 23 일** |
 |Surface Book 2| 256 GB/Intel i5/8gb RAM | 없음 | **2022 년 11 월 16 일** |
+|표면 이동| 128 GB/Intel 4415Y/8GB RAM | 없음 | **8 월 2 일, 2023** |
 |Surface 랩탑| 256 GB/Intel i5/8gb RAM | 없음 | **5 월 20 일, 2022** |
 |Surface Pro| 256 GB/Intel i5/8gb RAM | 없음 | **6 월 15 일 2022** |
 

@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 고급 eDiscovery 사례에서 지 원하는 조사 또는 법적 사례가 종료 되거나 삭제 된 경우 수행 되는 작업에 대해 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: be8d133a8215fc40c6d33025f9f4d1dee0f3b609
-ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
+ms.openlocfilehash: ffdd93351325be0c4b5d6d8cdfb78e55b710c0be
+ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412787"
+ms.locfileid: "44419064"
 ---
 # <a name="close-or-delete-an-advanced-ediscovery-case"></a>고급 eDiscovery 사례 닫기 또는 삭제
 
@@ -56,7 +56,7 @@ ms.locfileid: "44412787"
 
 닫힌 사례를 다시 열려면:
 
-1. **고급 eDiscovery** 페이지에서 삭제할 사례를 선택 합니다.
+1. **고급 eDiscovery** 페이지에서 다시 열 사례를 선택 합니다.
 
 2. **설정** 탭의 **사례 정보**에서 **선택을**클릭 합니다.
 

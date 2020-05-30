@@ -14,17 +14,17 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 규정 준수 점수가 위험을 해결 하 고 준수 상태를 개선 하기 위해 수행한 조치에 따라 개인 설정 점수를 계산 하는 방법을 이해 합니다.
-ms.openlocfilehash: 10e75be9541c4bd2b5a62d8bea46c45d213655e2
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: e1a13cee8086e158f3869a00384166366c0a63dc
+ms.sourcegitcommit: 436841236dc41390a3be9f8936d19d3d017fa35c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141586"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "44429193"
 ---
 # <a name="microsoft-compliance-score-preview-calculation"></a>Microsoft 규정 준수 점수 (미리 보기) 계산
 
 > [!IMPORTANT]
-> 규정 준수 점수가 특정 표준 또는 규정에 대 한 조직 준수를 절대 측정 하지는 않습니다. 개인 데이터 및 개별 개인 정보에 대 한 위험을 줄일 수 있는 컨트롤을 채택한 범위를 나타냅니다. 준수 점수 및 준수 관리자의 권장 사항은 준수 보장으로 해석 되어서는 안 됩니다. 이 서비스는 현재 미리 볼 수 있으며 [온라인 서비스 약관](https://go.microsoft.com/fwlink/?linkid=2108910)의 사용 약관에 따라 달라 집니다.
+> 준수 점수 및 준수 관리자의 권장 사항을 준수 보장으로 해석하면 안 됩니다. 규정 환경에 따라 고객 컨트롤의 효율성을 평가 하 고 유효성을 검사 하는 작업은 사용자의 결정입니다. 이러한 서비스는 현재 미리 보기로 사용 되며 [온라인 서비스 약관](https://go.microsoft.com/fwlink/?linkid=2108910)의 사용 약관에 따라 달라 집니다. [보안 및 규정 준수에 대 한 자세한 내용은 Microsoft 365 라이선싱 지침을](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)참조 하세요.
 
 ## <a name="overview"></a>개요
 
@@ -82,9 +82,9 @@ ms.locfileid: "43141586"
 |:-----|:-----|
 | 예방적 필수 | kb(56kbps |
 | 예방적 임의 | 9  |
-| 예방용 인지 필수 | 3  |
+| 예방용 인지 필수 | 3(sp3) |
 | 예방용 인지 임의 | 1  |
-| 정정 필수 | 3  |
+| 정정 필수 | 3(sp3) |
 | 정정 임의 | 1  |
   
 ![규정 준수 점수 컨트롤 포인트 값](../media/compliance-score-controls-scoring.png "규정 준수 점수 컨트롤 포인트 값")

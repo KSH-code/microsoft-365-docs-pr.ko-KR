@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 그룹에 대해 알아봅니다.
-ms.openlocfilehash: 5260d811f23dd07e096e02214eafcf7f0a757ffd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: e677a5206a17f22900007fc4eeffc6e665186f8e
+ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400716"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44419139"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>관리자를 위한 Microsoft 365 그룹 개요
 
@@ -84,12 +84,27 @@ Microsoft 365 그룹에는 다음과 같은 제한이 적용 됩니다.
 
 그룹 사용에 대 한 정보를 사용할 수 있는 경우 Microsoft 365 그룹을 관리 하는 것이 보다 효율적입니다. Microsoft 365 관리 센터에는 저장소 사용, 보유 하 고 있는 활성 그룹 수 및 사용자가 그룹을 사용 하는 방법에 대 한 작업을 볼 수 있는 보고 도구가 있습니다. 자세한 내용은 [관리 센터의 Microsoft 365 보고서](../activity-reports/office-365-groups.md) 를 참조 하세요.
 
+## <a name="sensitivity-labels"></a>민감도 레이블
+
+조직의 사용자가 Microsoft 365 그룹을 만들 때 설정할 수 있는 민감도 레이블을 만들 수 있습니다. 민감도 레이블을 사용 하 여 다음을 구성할 수 있습니다. 
+
+- 개인 정보 보호 (공용 또는 개인)
+- 외부 사용자 액세스
+- 관리 되지 않는 장치 액세스
+
+예를 들어 *높은 기밀* 이라는 레이블을 만들고이 레이블로 만든 모든 그룹은 비공개로 지정 하 고 외부 사용자를 허용 하지 않도록 지정할 수 있습니다. 조직의 사용자가 그룹을 만드는 동안이 레이블을 선택 하는 경우 그룹이 개인 그룹으로 설정 되 고 그룹 구성원에 게 외부 사용자를 추가할 수 없게 됩니다.
+
+> [!IMPORTANT]
+> 현재 분류 레이블을 사용 하는 경우 민감도 레이블이 사용 되도록 설정 되 면 그룹을 만드는 사용자는 더 이상 사용할 수 없게 됩니다. 
+
+민감도 레이블을 만들고 관리 하 고 사용 하는 방법에 대 한 자세한 내용은 [Microsoft 팀, microsoft 365 그룹 및 SharePoint 사이트의 콘텐츠를 보호 하려면 사용 민감도 레이블을](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)참조 하세요.
+
 ## <a name="which-microsoft-365-plans-include-groups"></a>어떤 Microsoft 365 계획에 그룹이 포함 됩니까?
 
 Exchange Online 및 SharePoint Online이 포함 된 모든 Microsoft 365 구독에서는 그룹을 지원 합니다. 여기에는 Business Essentials 및 Business Premium 요금제와 Enterprise E1, E3 및 E5 요금제가 포함 됩니다. 그룹은 그룹을 만든 사용자 (그룹의 "이끌이" 라고도 함)를 사용 하 여 라이선스를 받습니다. 이끌이는 그룹에 포함 하려는 모든 기능에 적합 한 라이선스를가지고 있으면 해당 라이선스가 그룹에 전달 됩니다.
 
 > [!NOTE]
-> Microsoft 365 서비스 제품군 및 계획에 대 한 자세한 내용은 [microsoft 365 계획 옵션](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) 을 참조 하십시오.
+> Microsoft 365 서비스 제품군 및 계획에 대 한 자세한 내용은 [microsoft 365 계획 옵션](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)을 참조 하십시오.
 
 Exchange 전용 요금제가 있는 경우에도 Outlook에서 공유 받은 편지함 및 공유 일정 기능을 가져올 수는 있지만 문서 라이브러리, Planner 또는 기타 기능은 제공 되지 않습니다.
 

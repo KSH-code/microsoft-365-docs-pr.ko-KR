@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Microsoft 제품 및 서비스를 구입 하는 데 도움이 되는 제안에 대해 알아봅니다.
 ROBOTS: NOINDEX
-ms.openlocfilehash: ded29a4eab3dd19d7ce3a1f60dff968e34b434a0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6de3f116b9266ad8f2d4d245cc0ac4b7422bbf4d
+ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403129"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44419115"
 ---
 # <a name="understand-the-proposal-workflow"></a>제안 워크플로 이해
 
@@ -31,7 +31,7 @@ Microsoft 대표 초안은 사용자와 담당자가 설명한 항목을 포함 
 
 알림 전자 메일을 받은 후 제안 사이트에 대 한 링크를 따르세요. 사이트에 로그인 한 후 제안 검토 프로세스를 시작할 수 있습니다.
 
-## <a name="what-are-the-organization-prerequisites-to-buy-items-with-a-proposal"></a>제안서로 항목을 구입 하기 위한 조직 필수 구성 요소는 무엇입니까?
+## <a name="prerequisites-for-buying-items-with-a-proposal"></a>제안서로 항목을 구입 하기 위한 필수 구성 요소
 
 제안의 항목을 구입 하려면 먼저 대금 청구 계정 및 Microsoft와 계약을 받아야 합니다.
 
@@ -49,7 +49,7 @@ Microsoft 대표 초안은 사용자와 담당자가 설명한 항목을 포함 
 
 Microsoft 고객 계약 (MCA)을 사용 하면 조직에서 Microsoft 제품 및 서비스를 구매할 수 있습니다. 자세한 내용은 [Microsoft 고객 계약](https://www.microsoft.com/en-us/Licensing/how-to-buy/microsoft-customer-agreement)을 참조 하십시오.
 
-## <a name="what-permissions-do-i-need-to-sign-an-agreement-or-pay-for-items"></a>계약에 서명 하거나 항목에 대해 요금을 지불 하는 데 필요한 사용 권한은 무엇입니까?
+## <a name="permissions-needed-to-sign-an-agreement-or-pay-for-items"></a>계약에 서명 하거나 항목에 대 한 요금을 지불 하는 데 필요한 사용 권한
 
 청구 계정에 할당 된 역할이 없으면 제안을 볼 때 기본 독자 역할이 할당 된 것입니다. 이 역할을 사용 하면 제안을 볼 수 있으 나 아무 조치도 취할 필요가 없습니다. 계약에 서명 하거나 제품 및 서비스를 구매할 수 있으려면 먼저 청구 계정 소유자 또는 청구 계정 참가자 역할을 할당 받아야 합니다. 청구 계정 소유자는이 역할을 사용자에 게 할당할 수 있습니다.
 
@@ -59,7 +59,7 @@ Microsoft 고객 계약 (MCA)을 사용 하면 조직에서 Microsoft 제품 및
 
 - 제안에서 이름이 지정 된 사람 \
     또는
-- 이미 조직의 Azure Active Directory 전역 관리자 인 경우
+- 이미 조직의 [Azure Active Directory 전역 관리자](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 인 경우
 
 ## <a name="what-is-the-overall-workflow"></a>전체 워크플로 란?
 
@@ -86,7 +86,6 @@ Microsoft 고객 계약 (MCA)을 사용 하면 조직에서 Microsoft 제품 및
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 청구 계정 | 계정 설정, 송장, 지불 방법 및 제품을 관리 하는 데 사용 되는 계정입니다. |
 | 청구 프로필 | 송장에 포함 되는 항목을 사용자 지정할 수 있도록 하는 조직에 대 한 정보 및 송장에 대해 지불 하는 방법입니다. 대금 청구 프로필에는 청구 계정 이름, 특정 대금 청구 프로필에 사용 되는 지불 방법, 연락처 정보, 송장 설정, 청구 프로필을 변경 하 고 금액을 지불 하 고 제품 및 서비스를 구매할 수 있는 권한이 포함 됩니다. |
-| 고객 계열사 구입 조항 (CAPT) | 조직의 계열사가 별도의 MCA에 서명 하지 않고 제품 및 서비스를 구매할 수 있게 해 주는 추가 용어 집합입니다. |
 | 기존 계약 | 조직이 이미 Microsoft와 함께 사용 하 고 있는 계약입니다. 여기에는 엔터프라이즈 계약, Microsoft 제품 & 서비스 계약 또는 Microsoft 고객 계약을 포함할 수 있습니다. |
 | Microsoft 고객 계약 (MCA) | Microsoft와 조직에서 보유 한 계정의 사용 약관을 대략적으로 설명 하는 계약입니다. |
 | Microsoft 담당자 | 사용자 및 조직에 대 한 제안서를 준비한 승인 된 Microsoft 담당자입니다. |
