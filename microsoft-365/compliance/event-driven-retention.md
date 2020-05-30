@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 사용하여 특정 유형의 이벤트가 발생하는 시점을 기준으로 보존 기간을 지정할 수 있습니다. 이벤트는 보존 기간의 시작을 트리거하며, 해당 유형의 이벤트에 적용된 보존 레이블이 있는 모든 콘텐츠에 대해 레이블 보존 작업이 적용됩니다. 이벤트 기반 보존은 일반적으로 기록 관리 프로세스의 일부로 사용됩니다.
-ms.openlocfilehash: 00bc5b44a23dfd08eb56fd7b1f6577bf8411003d
-ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
+ms.openlocfilehash: 100381d87c51a8ef403a88f19159235081c2a8df
+ms.sourcegitcommit: 330e9baf02b5bc220d61f777c2338814459626ec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44053886"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44385019"
 ---
 # <a name="overview-of-event-driven-retention"></a>이벤트 구동 보존 개요
 
@@ -108,13 +108,16 @@ Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 해당 �
   
 ![이벤트 유형을 만들거나 선택하는 옵션](../media/8b7afe79-72cb-462e-81d4-b5ddbe899dbc.png)
   
-### <a name="step-3-publish-the-event-based-retention-labels"></a>3단계: 이벤트 기반 보존 레이블 게시
+### <a name="step-3-publish-or-auto-apply-the-event-based-retention-labels"></a>3단계: 이벤트 기반 보존 레이블 게시 혹은 자동 적용
 
-이벤트 기반 보존 레이블을 게시하여 콘텐츠에 수동으로 적용할 수 있습니다. 자동 적용 정책의 이벤트 기반 보존 레이블을 선택할 수 없습니다. 
+다른 보존 레이블과 마찬가지로 이벤트 기반 레이블을 [게시하거나 자동 적용](create-retention-labels.md)해야만 콘텐츠에 수동 또는 자동으로 적용됩니다.
 
-이벤트 기반 보존 레이블을 게시하려면 **분류** > **보존 레이블** 페이지로 이동합니다.
-  
-![보존 레이블 게시 또는 자동 적용 옵션](../media/options-to-publish-auto-apply-retention-label.png)
+> [!NOTE]
+> **레코드 관리** > **파일 계획** 탭 혹은 **데이터 관리** > **레이블** 탭에서 이벤트 중심의 보존 레이블을 선택하는 경우, **레이블 자동 적용** 단추를 사용할 수 없습니다.
+> 
+> 이 단추 대신 다음 위치 중 하나에서 레이블 또는 정책 목록 위에 있는 **레이블 자동 적용** 옵션을 사용합니다.
+> - **레코드 관리** > **레이블 정책** 탭
+> - **데이터 관리** > **레이블** 탭 또는 **레이블 정책** 탭
 
 ### <a name="step-4-enter-an-asset-id"></a>4단계: 자산 ID 입력
 
@@ -144,7 +147,7 @@ Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 해당 �
 
 이제 SharePoint 및 OneDrive 콘텐츠에 대한 자산 ID 또는 Exchange 콘텐츠에 대 한 키워드를 지정하여 콘텐츠의 범위를 좁힙니다. 자산 ID의 경우 지정된 속성:값 쌍의 콘텐츠에만 보존이 적용됩니다. 자산 ID를 입력하지 않으면 해당 이벤트 유형의 레이블이 지정된 **모든 콘텐츠**에 동일한 보존 날짜가 적용됩니다. 
   
-자산 ID는 SharePoint 및 비즈니스용 OneDrive에서 또 다른 문서 속성에 불과합니다. 자산 ID 속성을 사용하는 경우 아래 표시된 자산 ID에 대한 상자에 ComplianceAssetID:\<value\>를 입력합니다.
+자산 ID는 SharePoint 및 비즈니스용 OneDrive에서는 또 다른 문서 속성일 뿐입니다. 자산 ID 속성을 사용하는 경우, 아래 표시된 자산 ID 상자에 ComplianceAssetID:\<value\>를 입력합니다.
   
 조직이 이 이벤트 유형과 관련된 문서에 다른 속성 및 ID를 적용했을 수 있습니다. 예를 들어 특정 제품의 레코드를 검색해야 할 경우 ID는 사용자 지정 속성인 ProductID와 값 "XYZ"의 조합일 수 있습니다. 이 경우 아래에 표시된 자산 ID에 대한 상자에 ProductID:XYZ를 입력합니다.
   
@@ -162,7 +165,7 @@ Exchange 항목의 경우 키워드를 포함할 수 있습니다. AND, OR 및 N
   
 - 특정 보존 레이블이 있는 모든 콘텐츠를 찾으려면 **준수 태그** 조건을 선택하고 전체 레이블 이름 또는 레이블 이름 일부를 입력하고 와일드카드를 사용합니다. 
     
-- 특정 자산 ID가 있는 모든 콘텐츠를 찾으려면 **ComplianceAssetID** 속성과 값(ComplianceAssetID:\<value\>)을 입력합니다. 
+- 특정 자산 ID가 있는 모든 콘텐츠를 찾으려면 **ComplianceAssetID** 속성과 값(예: ComplianceAssetID:\<value\>)을 입력합니다. 
     
 자세한 내용은 [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)을 참조하세요.
   

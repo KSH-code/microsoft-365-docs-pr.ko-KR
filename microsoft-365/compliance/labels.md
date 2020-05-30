@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 거버넌스를 위해 보존 레이블을 사용하여 조직 전체의 데이터를 분류하고, 해당 분류에 따라 보존 규칙을 시행하는 방법을 알아봅니다. 보존 레이블을 사용하여 Microsoft 365용 레코드 관리 솔루션을 구현할 수도 있습니다.
-ms.openlocfilehash: 54691f996f1b2e0759c4d8758df0044a32b9ffa9
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: fa24bacedf0e8bd3707fa9a6fd87fff81041e2e8
+ms.sourcegitcommit: 21977f5cb6b01aee5cae54979717530b2a31a46a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327906"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44411045"
 ---
 # <a name="learn-about-retention-labels"></a>보존 레이블에 대한 자세한 정보
 
@@ -107,10 +107,6 @@ ms.locfileid: "44327906"
 
 명시적으로 할당된 보존 레이블이 암시적으로 할당된 보존 레이블에 우선합니다. 자세한 내용은 [보존 원칙 또는 우선하는 항목](#the-principles-of-retention-or-what-takes-precedence)에 대한 이 페이지의 섹션을 참조하세요.
 
-결과에서 `ELCLastSuccessTimeStamp`(UTC) 속성은 시스템에서 사서함을 마지막으로 처리한 시간을 보여 줍니다. 정책을 만든 이후로 이러한 처리가 발생하지 않은 경우 레이블은 표시되지 않습니다. 강제로 처리하려면 `Start-ManagedFolderAssistant -Identity <user>`를 실행합니다.
-    
-웹용 Outlook에 레이블이 나타나야 하는데 나타나지 않으면 브라우저에서 캐시를 지워야 합니다(Ctrl + F5).
-    
 ## <a name="retention-label-policies-and-locations"></a>보존 레이블 정책 및 위치
 
 보존 레이블이 수행하는 작업에 따라, 다양한 유형의 보존 레이블을 여러 다른 위치에 게시할 수 있습니다.
@@ -123,12 +119,12 @@ ms.locfileid: "44327906"
    
 Exchange에서 자동 적용 보존 레이블(쿼리 및 중요한 정보 유형 모두에 대한)은 현재 사서함에 있는 모든 항목(미사용 데이터)이 아닌 새로 전송된 메시지(전송 중인 데이터)에만 적용됩니다. 또한 민감한 정보 유형에 대한 자동 적용 보존 레이블은 모든 사서함에만 적용되며 특정 사서함을 선택할 수 없습니다.
   
-Exchange 공용 폴더와 Skype는 보존 레이블을 지원하지 않습니다.
+Exchange 공용 폴더, Skype, 팀 채널 메시지 및 채팅은 보존 레이블을 지원하지 않습니다.
 
 ## <a name="how-retention-labels-enforce-retention"></a>보존 레이블이 보존을 적용하는 방법
 
-보존 레이블은 보존 정책이 할 수 있는 보존 및 삭제용, 보존 전용 또는 삭제 전용과 같은 보존 작업을 적용할 수 있습니다. 보존 레이블을 사용하여 정교한 콘텐츠 계획(또는 파일 계획)을 구현할 수 있습니다. 보존이 작동하는 방식에 대한 자세한 내용은 [보존 정책 정보](retention-policies.md)를 참조하세요.
-  
+보존 레이블은 보존 정책이 할 수 있는 보존 및 삭제용, 보존 전용 또는 삭제 전용과 같은 보존 작업을 적용할 수 있습니다. 보존 레이블을 사용하여 다양한 보존 설정에 대한 특정 파일을 식별하는 정교한 파일 계획을 구현할 수 있습니다. 보존이 작동하는 방식에 대한 자세한 내용은 [보존 정책 정보](retention-policies.md)를 참조하세요.
+
 또한 보존 레이블에는 보존 정책이 아니라 보존 레이블에서만 사용할 수 있는 2가지 보존 옵션이 있습니다. 보존 레이블을 사용하면 다음과 같은 작업을 수행할 수 있습니다.
   
 - SharePoint 및 OneDrive 문서가 삭제되기 전에 검토되도록 보존 정책 종료 시 처리 검토를 트리거합니다. 자세한 내용은 [처리 검토](disposition.md#disposition-reviews)를 참조하세요.
@@ -136,6 +132,8 @@ Exchange 공용 폴더와 Skype는 보존 레이블을 지원하지 않습니다
 - 보존 기간은 콘텐츠 사용 기간이나 마지막으로 수정되었을 때가 아니라 콘텐츠에 레이블이 지정될 때 시작됩니다. 해당 옵션은 SharePoint 사이트 및 OneDrive 계정의 콘텐츠에만 적용됨을 유의하세요. Exchange 전자 메일의 경우 보존 기간은 사용자가 선택한 옵션에 상관없이 항상 메시지를 보냈거나 받은 날짜를 기준으로 합니다.
     
 ![레이블 관련 옵션이 있는 보존 설정](../media/c49118c9-6279-4661-94db-deffa76e27ac.png)
+
+또 다른 중요한 차이점은 SharePoint에서 파일에 보존 정책 보다는 보존 레이블을 적용하고 레이블이 콘텐츠를 보유하도록 구성한 경우, 사용자는 보존 기간이 적용되는 동안에는 파일을 삭제할 수 없다는 것입니다. 사용자는 레이블이 콘텐츠를 레코드로 표시하지 않는 한 OneDrive에서의 파일 및 전자 메일에 동일한 레이블이 적용되는 경우 콘텐츠를 삭제할 수 있습니다.
 
 ## <a name="where-published-retention-labels-can-appear-to-end-users"></a>게시된 보존 레이블이 최종 사용자에게 표시될 수 있는 위치
 
@@ -197,7 +195,7 @@ OneDrive 또는 SharePoint에서 문서(OneNote 파일 포함)에 레이블을 �
 ![세부 정보 창에 표시되는 적용된 레이블](../media/d06e585e-29f7-4c8c-afef-629c97268b8e.png)
   
 OneDrive에서는 아니지만 SharePoint의 경우 **레이블** 열 또는 **레코드 항목임** 열을 포함하는 라이브러리의 보기를 만들 수 있습니다. 이 보기에서는 모든 항목에 할당된 보존 레이블과 레코드인 항목을 한눈에 볼 수 있습니다. 그러나 보기를 **레코드인 항목** 열로 필터링할 수는 없습니다. 열을 추가하는 방법에 대한 자세한 내용은 [목록 또는 라이브러리에서 열 표시 또는 숨기기](https://support.microsoft.com/ko-KR/office/show-or-hide-columns-in-a-list-or-library-b820db0d-9e3e-4ff9-8b8b-0b2dbefa87e2)를 참조하세요.
-  
+
 
 ### <a name="microsoft-365-groups"></a>Microsoft 365 그룹
 
@@ -276,11 +274,12 @@ Outlook에서는 보존 레이블 또는 보존 정책을 적용하는 규칙을
   
 예를 들어, 작업 없이 “나중에 검토”라는 보존 레이블을 만든 다음, 해당 보존 레이블을 중요한 정보 유형을 갖는 콘텐츠 또는 쿼리된 콘텐츠에 자동으로 적용할 수 있습니다.
   
-![보존이 해제된 레이블 설정 페이지](../media/17ce863b-a823-426e-aaad-83718465f762.png)
+![보존이 해제된 레이블 설정 페이지](../media/retention-label-retentionoff.png)
+
   
 ## <a name="using-retention-labels-for-records-management"></a>기록 관리에 보존 레이블 사용
     
-보존 레이블을 사용하여 콘텐츠를 레코드로 선언할 수 있습니다. 이를 통해 Microsoft 365에서 일관된 단일 레코드 관리 전략을 구현할 수 있습니다. 자세한 내용은 [레코드 개요](records.md)를 참조하세요.
+보존 레이블을 사용하여 콘텐츠를 레코드로 선언할 수 있습니다. 이를 통해 Microsoft 365에서 일관된 단일 레코드 관리 전략을 구현할 수 있습니다. 자세한 내용은 [레코드에 대해 자세히 알아보기](records.md)를 참조하세요.
   
 ## <a name="using-a-retention-label-as-a-condition-in-a-dlp-policy"></a>보존 레이블을 DLP 정책의 조건으로 사용
 
@@ -353,7 +352,7 @@ Outlook에서는 보존 레이블 또는 보존 정책을 적용하는 규칙을
   
 ### <a name="exchange-online"></a>Exchange Online
 
-- [보존 태그 및 보존 정책](https://go.microsoft.com/fwlink/?linkid=846125)([[MRM(메시징 레코드 관리)라고도 함]](https://go.microsoft.com/fwlink/?linkid=846126)(삭제만 해당) 
+- [보존 태그 및 보존 정책](https://go.microsoft.com/fwlink/?linkid=846125), [[MRM(메시징 레코드 관리)](https://go.microsoft.com/fwlink/?linkid=846126)라고도 함(삭제만 해당) 
     
 ### <a name="sharepoint-and-onedrive"></a>SharePoint 및 OneDrive
 
@@ -361,6 +360,6 @@ Outlook에서는 보존 레이블 또는 보존 정책을 적용하는 규칙을
     
 - [레코드 센터 소개](https://support.office.com/article/bae6ca5a-7b19-40e0-b433-e3613a747c2c)(보존) 
     
-- [정보 관리 정책](intro-to-info-mgmt-policies.md)(삭제만 해당) 
+- [정보 관리 정책](intro-to-info-mgmt-policies.md) (삭제만 해당) 
     
 
