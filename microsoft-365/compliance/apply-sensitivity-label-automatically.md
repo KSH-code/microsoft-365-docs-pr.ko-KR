@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 문서 또는 전자 메일에 레이블을 자동으로 할당하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 752a394b2e1c3d2219093f2342f597bdac38aee1
-ms.sourcegitcommit: 6ea9a910a8106a5f1aa589c55d166bfa67fd12a8
+ms.openlocfilehash: 318ecd19d7dcfb4b80e1bdcec743057462c44b1b
+ms.sourcegitcommit: 3cd487476efe4138d1b42499fbffbbe4bacfe5b8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44280558"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44408480"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>민감도 레이블을 콘텐츠에 자동으로 적용
 
@@ -45,10 +45,7 @@ ms.locfileid: "44280558"
     
     구성 방법에 대한 자세한 내용은 이 페이지에서 [Office 앱에 대한 자동 레이블 지정 구성 방법](#how-to-configure-auto-labeling-for-office-apps)을 참조하세요.
 
-- **콘텐츠가 이미 저장(SharePoint Online 또는 비즈니스용 OneDrive) 또는 전자 메일 전송(Exchange Online에서 처리됨)된 경우 서비스쪽 레이블 지정**: 자동 레이블 지정 정책 사용(현재 미리보기) 
-    
-    > [!NOTE]
-    > 발표 미리 보기 [Microsoft 365 서비스에서 민감도 레이블을 통한 자동 분류의 공개 미리 보기 발표](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/announcing-public-preview-of-auto-classification-with/ba-p/1279961)와 웨비나 [민감도 레이블을 통한 SharePoint & OneDrive 자동 레이블 지정 소개](https://aka.ms/SPOAutoLabelWebinar-Recording)를 참조하세요.
+- **콘텐츠가 이미 저장되었거나(SharePoint 또는 OneDrive) 전자 메일로 전송(Exchange Online에서 처리됨)된 경우 서비스쪽 레이블 지정**: 자동 레이블 지정 정책을 사용합니다. 
     
     이 방법을 민감도 레이블이 있는 자동 분류라고 합니다. 또한 유휴 데이터(SharePoint 및 OneDrive의 문서) 및 전송 중인 데이터(Exchange에서 보내거나 받은 전자 메일)에 대한 자동 레이블 지정이라고 부르는 경우도 있습니다. Exchange의 경우 유휴 전자 메일(사서함)은 포함되지 않습니다. 
     
@@ -60,6 +57,7 @@ ms.locfileid: "44280558"
     - 테넌트에서 하루 최대 25,000개의 자동 레이블 지정 파일 수(Word, PowerPoint 또는 Excel)
     - 모든 정책에서 최대 10개의 사이트 모음 수
     - 모든 테넌트에서 최대 10개의 정책 수
+    - 수정된 날짜는 시뮬레이션 모드와 레이블이 적용되는 경우 모두 자동 레이블 지정 정책의 결과로 변경되지 않습니다.
 
     Exchange 자동 레이블 지정에만 해당:
     - Office 앱의 수동 레이블 지정 또는 자동 레이블 지정과 달리, 자동 레이블 지정 정책에서 사용자가 지정한 조건에 대해 Office 첨부 파일도 검사됩니다. 일치하는 항목이 있는 경우 전자 메일에 레이블이 표시되지만 첨부 파일에는 표시되지 않습니다.
@@ -186,12 +184,14 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 - 문서 및 전자 메일의 본문 텍스트와 머리글 및 바닥글에서는 중요한 정보를 검색할 수 있지만, 전자 메일의 제목 줄이나 첨부 파일에서는 중요한 정보를 검색할 수 없습니다.
 
 ## <a name="how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange"></a>SharePoint, OneDrive 및 Exchange에 대한 자동 레이블 지정 정책을 구성하는 방법
-> [!NOTE]
-> 자동 레이블 지정 정책은 공개 미리 보기에서 테넌트에 변경될 수 있습니다.
+
+반드시 자동 레이블 정책을 구성하기 전에 먼저 필수 조건을 알고 있어야 합니다. 
 
 ### <a name="prerequisites-for-auto-labeling-policies"></a>자동 레이블 지정 정책에 대한 필수 구성 요소
 
-- 시뮬레이션 모드로 Microsoft 365에 대한 감사가 설정되어 있어야 합니다. 감사를 설정해야 하거나 감사가 이미 설정되어 있는지 확실하지 않은 경우에는 [감사 로그 검색 켜기 또는 끄기](turn-audit-log-search-on-or-off.md)를 참조하세요.
+- 시뮬레이션 모드:
+    - Microsoft 365에 대한 감사가 설정되어 있어야 합니다. 감사를 설정해야 하거나 감사가 이미 설정되어 있는지 확실하지 않은 경우에는 [감사 로그 검색 켜기 또는 끄기](turn-audit-log-search-on-or-off.md)를 참조하세요.
+    - 원본 보기에서 파일 콘텐츠를 보려면(전자 메일에 대해 지원되지 않음), 사용자가 전역 관리자가 아닌 경우 **콘텐츠 탐색기 콘텐츠 뷰어** 역할을 보유하고 있어야 합니다. 이 권한이 없는 경우, **일치 하는 항목** 탭에서 항목을 선택할 때 미리 보기 창이 표시되지 않습니다.
 
 - SharePoint 및 OneDrive에서 파일에 자동 레이블을 지정하려면 다음을 수행합니다.
     - [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용(공개 미리 보기)](sensitivity-labels-sharepoint-onedrive-files.md)합니다.
@@ -236,9 +236,9 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
     
     이 옵션이 바로 보이지 않는 경우에는 먼저 **모두 표시**를 선택합니다.
 
-2. **자동 레이블 지정(미리 보기)** 탭을 선택합니다.
+2. **자동 레이블 지정** 탭을 선택합니다.
     
-    ![자동 레이블 지정(미리 보기)](../media/auto-labeling-tab.png)
+    ![자동 레이블 지정 탭](../media/auto-labeling-tab.png)
     
 
 3. **+ 정책 만들기**를 선택합니다.
@@ -248,6 +248,12 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 5. **자동 레이블 지정 정책 이름 지정** 페이지에서 고유한 이름을 입력하고, 필요에 따라 레이블을 지정할 콘텐츠를 식별하는 자동으로 적용되는 레이블, 위치 및 조건을 식별하는 데 도움이 되는 설명을 입력합니다.
 
 6. **레이블을 적용할 위치 선택** 페이지에서 Exchange, SharePoint 사이트 및 OneDrive의 위치를 선택하고 지정합니다. 그런 후 **다음**을 선택합니다.
+    
+    OneDrive의 경우 개별 계정을 지정해야 합니다. 사용자의 OneDrive에 대한 URL은 다음과 같은 형식입니다. `https://<tenant name>-my.sharepoint.com/personal/<user_name>_<tenant name>_com`
+    
+    예를 들어, "rsimone"라는 사용자 이름을 보유한 Contoso 테넌트에 있는 사용자의 경우: `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`
+    
+    테넌트의 구문을 확인하고 사용자 URL을 확인하려면, [조직에 있는 모든 사용자 OneDrive URL 목록 가져오기](https://docs.microsoft.com/onedrive/list-onedrive-urls)를 참조하세요.
 
 7. **정책 설정 정의** 페이지에서 선택한 모든 위치에서 레이블을 지정할 컨텐츠를 식별하는 규칙을 정의하기 위해 **포함된 콘텐츠 찾기**의 기본값을 유지합니다. 위치마다 다른 규칙이 필요한 경우 **고급 설정**을 선택합니다. 그런 후 **다음**을 선택합니다.
     
@@ -280,7 +286,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
     
     Office 앱에 대한 자동 레이블 지정 기능과 달리 별도의 게시 옵션은 없습니다. 그러나 게시 레이블과 마찬가지로 자동 레이블 지정 정책이 조직 전체에 복제될 때까지 최대 24시간이 소요됩니다.
 
-이제 **정보 보호** 페이지의 **자동 레이블 지정(미리 보기)** 탭, **시뮬레이션** 혹은 **끄기** 구역에 시뮬레이션 모드에서 실행할지의 선택 여부에 따라 자동 레이블 정책이 표시됩니다. 구성 및 상태에 대한 세부 사항을 보려면 정책을 선택합니다(예: **정책 시뮬레이션을 아직 실행 중**). 시뮬레이션 모드에서의 정책의 경우 **일치 항목** 탭을 선택하여 지정한 규칙과 일치하는 전자 메일 또는 문서를 확인합니다.
+이제 **정보 보호** 페이지 **,자동 레이블 지정** 탭에서, **시뮬레이션** 혹은 **끄기** 구역에 시뮬레이션 모드에서 실행할지의 선택 여부에 따라 자동 레이블 지정 정책이 표시됩니다. 구성 및 상태에 대한 세부 사항을 보려면 정책을 선택합니다(예: **정책 시뮬레이션을 아직 실행 중**). 시뮬레이션 모드에서의 정책의 경우 **일치 항목** 탭을 선택하여 지정한 규칙과 일치하는 전자 메일 또는 문서를 확인합니다.
 
 다음의 인터페이스에서 직접 정책을 수정할 수 있습니다.
 
