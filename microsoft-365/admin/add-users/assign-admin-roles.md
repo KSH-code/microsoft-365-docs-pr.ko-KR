@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: 관리 센터에서 특정 작업을 수행할 수 있도록 비즈니스의 사용자 또는 여러 사용자에 게 관리자 역할을 할당 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 86759a07221e93e211107dcbd41a6bee5e6ca9a4
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3dce88f8ea2aecc094eda7e88f2f6c03537e1fa5
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387240"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432102"
 ---
 # <a name="assign-admin-roles"></a>관리자 역할 할당
 
@@ -47,13 +47,6 @@ Microsoft 비즈니스 구독을 구매한 사용자는 전역 관리자입니�
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
 이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
-
-::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
-
-::: moniker-end
 
 ## <a name="assign-admin-roles"></a>관리자 역할 할당 
 
@@ -99,7 +92,7 @@ Microsoft 비즈니스 구독을 구매한 사용자는 전역 관리자입니�
 
 1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
-2. **활성 사용자** 페이지에서 관리자 역할을 변경 하려는 사용자를 선택 합니다. 플라이 아웃 창에서 **역할**옆에 있는 **편집**을 선택 합니다. 
+2. **활성 사용자** 페이지에서 관리자 역할을 변경 하려는 사용자를 선택 합니다. 플라이 아웃 창에서 **역할**옆에 있는 **편집**을 선택 합니다.
 
     **편집** 옵션이 표시 되지 않으면 편집할 수 있는 권한이 없으며 다른 사람에 게 관리자 역할을 할당할 수 없습니다. 비즈니스의 전역 관리자에 게 역할을 할당 해 달라고 요청 하세요. 소규모 회사에서는 비즈니스 소유자 (구독을 구매한 사용자)가 전역 관리자입니다. 대규모 비즈니스에서 IT 부서의 주요 사용자는 전역 관리자입니다.
 
@@ -125,9 +118,10 @@ PowerShell을 알고 [있는 경우 powershell을 사용 하 여 사용자 계�
 
 ## <a name="related-articles"></a>관련 문서
 
+[Microsoft 365 관리자 역할 정보](about-admin-roles.md)
+
 [PowerShell을 사용 하 여 사용자 계정에 역할 할당](https://docs.microsoft.com/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)
 
 [파트너 관계 권한 부여 또는 제거](../misc/add-partner.md)
 
 [Exchange 관리 센터를 사용 하 여 대체 전자 메일 주소 추가](https://docs.microsoft.com/Exchange/recipients/user-mailboxes/email-addresses?view=exchserver-2019#add-an-email-address-to-a-user-mailbox)
-

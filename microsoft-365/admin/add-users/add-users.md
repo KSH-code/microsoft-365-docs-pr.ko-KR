@@ -25,21 +25,18 @@ search.appverid:
 - GEA150
 ms.assetid: 1970f7d6-03b5-442f-b385-5880b9c256ec
 description: CSV 파일에서 동시에 한 번에 하나씩 Microsoft 365에 사용자를 추가 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1b63f09bf34f5ca54be83eedfac9188251578a05
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: af4fead3112a678b1ee7eacb087dddc40ed43d36
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387264"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432126"
 ---
 # <a name="add-users-individually-or-in-bulk"></a>개별적으로 또는 대량으로 사용자 추가
 
 팀 구성원은 각각 사용자 계정을 사용 하 여 [비즈니스용 Microsoft 365](https://go.microsoft.com/fwlink/?LinkID=519395)에 로그인 하 고 액세스할 수 있어야 합니다. 사용자 계정을 추가 하는 가장 쉬운 방법은 Microsoft 365 관리 센터에서 한 번에 하나씩 추가 하는 것입니다. 이 단계를 수행 하면 사용자에 게 Microsoft 365 라이선스, 로그인 자격 증명 및 Microsoft 365 사서함이 포함 됩니다.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
 

@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Exchange online 관리자는 조직의 전자 메일 및 사서함을 관리 합니다. 예를 들어 사용자 사서함에서 삭제 된 항목을 복구 합니다. '
-ms.openlocfilehash: cf7bd2a7856017ccf4f17f71ad1845b56b004a10
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6d5596bd572d6fa5d43c79c34f174528fbfb3f1d
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387428"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432138"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>Exchange Online 관리자 역할 정보
 
@@ -56,9 +56,10 @@ Microsoft 365을 관리 하는 데 도움이 되도록 사용자에 게 [Exchang
   
  예를 들어 Exchange 관리자는 검색 관리 역할 그룹에 다른 사용자를 할당 하 여 특정 조건에 맞는 데이터에 대 한 사서함 검색을 수행할 수 있습니다. 자세한 내용은 [Exchange Online의 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) 및 [역할 그룹 관리](https://docs.microsoft.com/exchange/manage-role-groups-exchange-2013-help)를 참조 하세요.
   
-## <a name="learn-about-other-admin-roles"></a>다른 관리 역할에 대 한 자세한 정보
-    
+## <a name="learn-about-other-admin-role"></a>다른 관리 역할에 대 한 자세한 정보
+
+- [Microsoft 365 관리자 역할 정보](about-admin-roles.md)
+
 - [SharePoint Online 관리자 역할 정보](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)
-    
+
 - [비즈니스용 Skype 관리자 역할 정보](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online)
-    

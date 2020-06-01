@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8652f539-3123-4a8f-b9bd-6aa2f0e0372d
 description: 비즈니스 구독의 결제 방법을 변경 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7350546da14ebd68182e158c0d15cdfb727f5718
-ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
+ms.openlocfilehash: 41cf16397c4b3d2341721e741c6b293005971909
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407971"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432418"
 ---
 # <a name="change-your-payment-method"></a>결제 방법 변경
 
@@ -202,12 +202,6 @@ ms.locfileid: "44407971"
 1. 관리 센터에서 **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 청구 페이지로 이동 합니다.
 
 2. 확인 하려는 구독을 찾습니다. 구독에 대해 구성 된 결제 방법이 **청구** 섹션에 표시 됩니다.
-
-### <a name="use-the-old-admin-center-to-verify-which-payment-method-is-configured"></a>이전 관리 센터를 사용 하 여 구성 된 결제 방법 확인
-
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">구독</a> 페이지로 이동 합니다.
-
-2. 확인 하려는 구독을 찾습니다. **결제 방법**아래에 구독에 대해 구성 된 결제 방법이 표시 됩니다.
 
 ::: moniker-end
 

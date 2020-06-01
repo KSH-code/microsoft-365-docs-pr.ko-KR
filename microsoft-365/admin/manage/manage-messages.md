@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 97af2932-0868-4ccf-8f6b-21a94946c58a
 description: 변경 관리에 도움이 되도록 메시지 센터 메시지를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 63c46b10913b3388c833470041da3695f0988327
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 95d1e4eb7bdf411ea1fed7ccfb58224860f889e5
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399719"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432268"
 ---
 # <a name="manage-messages-in-message-center"></a>메시지 센터에서 메시지 관리
 
@@ -36,13 +36,6 @@ ms.locfileid: "44399719"
 메시지 센터로 이동 하려면 [관리 센터로](https://go.microsoft.com/fwlink/p/?linkid=2024339)이동한 후 **상태**  >  **메시지 센터**를 선택 합니다. 
 
 메시지 제목을 선택 하 여 읽기 창에서 엽니다. 모든 메시지에는 변경 내용의 요약, 변경에 영향을 주는 방법에 대 한 설명, 변경에 대 한 조직을 준비 하는 방법에 대 한 정보, 그리고 대부분의 경우 더 자세히 알아볼 수 있는 추가 정보 링크가 포함 되어 있습니다. 메시지가 만료 된 후에도 추가 정보를 계속 사용할 수 있습니다.
-
-::: moniker range="o365-worldwide"
- 
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
-
-::: moniker-end
 
 ## <a name="filter-and-sort"></a>필터 및 정렬
 

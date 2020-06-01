@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: 사용자 계정을 삭제 하는 방법에 대해 알아봅니다. 사용자의 전자 메일, OneDrive 콘텐츠, 제품 라이선스를 유지할지 아니면 지불할 지를 결정 합니다.
-ms.openlocfilehash: 4102fe4ac297a1f426b3bf575e748a72b323ebb6
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 81243286b70985082f8b671d7e021735a76cffc4
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387192"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44431680"
 ---
 # <a name="delete-a-user-from-your-organization"></a>조직에서 사용자 삭제
   
@@ -67,13 +67,6 @@ ms.locfileid: "44387192"
 |Active Directory  <br/> |회사에서 Azure AD와 동기화 되는 **Active directory** 를 사용 하는 경우 active directory에서 사용자 계정을 삭제 해야 합니다. Office 365를 통해서는 이렇게 할 수 없습니다. 자세한 내용은 [사용자 계정 삭제](https://go.microsoft.com/fwlink/p/?linkid=841808)를 참조 하십시오.  <br/> |
    
 ### <a name="get-started"></a>시작하기
-
-::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
-
-::: moniker-end
 
 안내가 제공 되는 환경에서는 사용자를 삭제 하는 단계를 안내 하므로 시작 하려면 다음을 수행 하세요.
 

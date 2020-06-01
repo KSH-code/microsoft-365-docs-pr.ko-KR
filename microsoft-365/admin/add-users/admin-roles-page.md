@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다. 예를 들어 서비스 관리자는 Microsoft로 지원 티켓을 엽니다.
-ms.openlocfilehash: 1dde487ef9dc99b45263a21ce62d556249ada927
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f557d00e21659880a96e4cd1936ab40d4b5a2dec
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387276"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432114"
 ---
 # <a name="get-started-with-the-roles-page"></a>역할 페이지 시작
 
@@ -99,3 +99,9 @@ Skype 관리 센터 & 팀에 액세스 하 고 관리 하려는 사용자에 게
 :::image type="content" source="../../media/compare-roles-list.png" alt-text="관리자 역할 비교를 보여 주는 그림":::
 
 ::: moniker-end
+
+## <a name="related-topics"></a>관련 항목
+
+[Microsoft 365 관리자 역할 정보](about-admin-roles.md)
+
+[관리자 역할 할당](assign-admin-roles.md)

@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
 description: Microsoft 365 구입 시에 구독 관리자 파트너를 record 파트너로 추가 하거나, 파트너를 변경 하거나, 구독에서 파트너를 삭제 하는 방법을 알아봅니다.
-ms.openlocfilehash: fa9cd549c0af616776722f6d2be4ecb9ecac1bc7
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 4ab02e95c2a2330e95f8a54f717e38025d04714c
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399473"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432198"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>구독 관리자 파트너 추가, 변경, 삭제
 
@@ -70,9 +70,6 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
 
 ## <a name="add-a-partner-at-the-time-of-purchase"></a>구입 시 파트너 추가
 
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
-
 1. 관리 센터에서 **결제** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">구매 서비스</a> 페이지로 이동 합니다.
     
 2. 구매할 제품을 선택 하 고 **구입**을 선택 합니다.
@@ -111,9 +108,6 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
 ## <a name="add-a-partner-to-an-existing-subscription"></a>기존 구독에 파트너 추가
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
 1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
     
@@ -159,9 +153,6 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
 
 ::: moniker range="o365-worldwide"
 
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
-
 1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
     
 2. 구독이 여러 개 있는 경우 편집하려는 구독의 이름을 선택합니다.
@@ -206,9 +197,6 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
 ## <a name="delete-a-partner-from-a-subscription"></a>구독에서 파트너 삭제
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
 1.  관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
     

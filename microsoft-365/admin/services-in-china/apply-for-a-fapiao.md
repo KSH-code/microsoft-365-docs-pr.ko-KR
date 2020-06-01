@@ -21,21 +21,17 @@ search.appverid:
 ms.assetid: c80a315a-af87-4996-94b9-fd2194f58a93
 description: 중국의 21Vianet에서 운영 하는 Office 365에서 지불을 수행한 후 21Vianet Fapiao 관리 시스템으로 Fapiao 요청을 제출 하는 방법을 알아봅니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: c920f7497c50e7f961028624f9e3ca954a6108f3
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 4503226d50a719e169e9112538e7d0dcd172197e
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399101"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432406"
 ---
 # <a name="apply-for-a-fapiao-for-office-365-operated-by-21vianet"></a>21Vianet에서 운영 하는 Office 365 용 Fapiao에 대해 적용
 
-::: moniker range="o365-21vianet"
-
 > [!NOTE]
 > 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
 
 지불한 후 3 일 동안 21Vianet Fapiao 관리 시스템으로 Fapiao 요청을 제출할 수 있습니다. Fapiao 요청을 제출 하 고 나면 2 일 이내에 처리 됩니다.
   
@@ -46,39 +42,39 @@ ms.locfileid: "44399101"
 Fapiao에는 두 가지 방법을 적용할 수 있습니다.
   
 1. 21Vianet 웹 사이트에서 운영 하는 Office 365에서 지불을 수행한 후 주문 번호와 Fapiao 관리 시스템에 대 한 링크가 포함 된 주문 확인 전자 메일을 받게 됩니다. 전자 메일의 링크를 사용 하 여 <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">21Vianet Fapiao 정보 관리 시스템</a>에서 계정을 만들 수 있습니다.
-    
+
     또는
-    
+
 2. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 Fapiao에 적용할 수 있습니다.
-    
+
     ![Microsoft 365 관리 센터의 자재 명세서 페이지](../../media/a6e3b953-abd4-46aa-a910-08c517915a21.png)
   
 ## <a name="step-2-register-with-the-21vianet-fapiao-management-system"></a>2 단계: 21Vianet Fapiao 관리 시스템에 등록
 
 > [!NOTE]
-> Office 365 계정과 동일한 전자 메일 이름 및 암호를 사용 하거나 다른 것을 사용할 수 있습니다. 
+> Office 365 계정과 동일한 전자 메일 이름 및 암호를 사용 하거나 다른 것을 사용할 수 있습니다.
   
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">21Vianet Fapiao 정보 관리 시스템</a>으로 이동 합니다.
-    
+
 2. 등록 양식에서 주문 번호, 전자 메일 주소 및 암호를 입력 한 다음 **등록**을 선택 합니다.
-    
+
     ![21Vianet Fapioa 관리 시스템 등록 페이지입니다.](../../media/60d39184-95b2-4ea4-a8a2-3e11763bec87.png)
   
 3. 등록이 완료 되 면 전자 메일 주소로 정품 인증 전자 메일 메시지가 전송 됩니다. 전자 메일 메시지를 열고 링크를 선택 하 여 계정에 대 한 정품 인증을 받으십시오.
-    
+
 ## <a name="step-3-submit-your-bill-for-a-fapiao"></a>3 단계: Fapiao에 대해 청구서 제출
 
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837465" target="_blank">Fapiao 관리 시스템</a>에 로그인 합니다.
-    
+
 2. 청구 레코드를 선택 하 고 **청구지 적용**을 선택 합니다.
-    
+
     > [!NOTE]
-    > 지불 시스템이 타사 플랫폼에 있고 3 일 동안 주문 및 지불 기록을 동기화 해야 합니다. 
+    > 지불 시스템이 타사 플랫폼에 있고 3 일 동안 주문 및 지불 기록을 동기화 해야 합니다.
   
     ![최근 주문을 표시 하는 Fapiao 관리 시스템 페이지입니다.](../../media/b319767d-1d10-4cb4-b270-c5fbcee1368e.png)
   
 3. Fapiao 유형을 선택 하 고 필요한 정보를 입력 한 후 **다음**을 선택 합니다.
-    
+
     ![Fapiao 유형을 선택 하는 Fapiao 요청 양식입니다.](../../media/56fe3db1-c20f-4082-a39d-02d7ac41fec8.png)
   
     > [!NOTE]
@@ -86,9 +82,9 @@ Fapiao에는 두 가지 방법을 적용할 수 있습니다.
     > - 필요한 경우 다른 제목의 Fapiao에 적용할 수 있습니다. 그러나 시스템의 한 청구서에 대해 Fapiao 타이틀을 하나만 적용할 수 있습니다. Fapiao를 다른 금액 또는 제목으로 분할 하려면 <a href="https://portal.partner.microsoftonline.cn/Support/SupportOverview.aspx" target="_blank">관리 센터에서 요청을 제출</a>하십시오.
     > - 다음에 Fapiao에 적용할 때 시스템에서 이전 Fapiao 정보를 자동으로 표시 합니다.
     > - 구매 인증서 또는 환불이 필요한 경우 payer 이름 및 Fapiao 제목이 일치 해야 합니다.
-    
+
 4. 배송 방법을 선택 하 고 메일 정보를 입력 합니다. Yunda 또는 SF (화물 수집)를 선택할 수 있습니다. 21Vianet 상하이 ~ 분기로 이동 하 여 Fapiao를 가져올 수도 있습니다. **다음**을 선택 합니다.
-    
+
     ![우편물 정보를 보여 주는 Fapiao 요청 양식입니다.](../../media/bba500b4-a51d-477b-81a7-9113b08d39f1.png)
   
     **21Vianet 상하이 ~ 분기 회사 주소:**
@@ -98,9 +94,9 @@ Fapiao에는 두 가지 방법을 적용할 수 있습니다.
     **연락처 정보:**
 
     021-28986102의 qin qin
-   
+
 5. 정보가 올바른지 확인 하 고 **확인**을 선택 합니다.
-    
+
     ![Fapiao 요청 양식의 확인 페이지입니다.](../../media/18706d9d-defc-4285-8fd3-990448b44a18.png)
   
 ## <a name="step-4-check-application-progress"></a>4 단계: 응용 프로그램 진행 상황 확인
@@ -128,25 +124,24 @@ Fapiao 타이틀을 변경 하려면 Fapiao를 다시 보내 주십시오. 그�
 ### <a name="how-do-i-change-my-login-email-address-and-password"></a>로그인 전자 메일 주소 및 암호를 변경 하려면 어떻게 해야 합니까?
 
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837465" target="_blank">Fapiao 관리 시스템</a>에 로그인 한 다음 **전자 메일 주소 변경을**선택 합니다.
-    
+
     ![사용자가 21Vianet Fapiao 관리 시스템에 로그인 한 후의 드롭다운 메뉴입니다.](../../media/ee6de24b-6be2-41e6-8aec-e0c3cb0ea35e.png)
   
 2. 로그인 암호를 잊은 경우 로그인 전자 메일 주소를 사용 하 여 암호를 다시 설정할 수 있습니다. Fapiao 관리 시스템은 사용자의 전자 메일 주소로 새 암호를 보냅니다. 새 암호를 사용 하 여 로그인 할 수 있습니다.
-    
+
     ![21Vianet Fapiao 관리 시스템에서 암호를 다시 설정 하는 방법을 보여 주는 순차적인 이미지](../../media/2edb0a47-1286-4792-804d-7e84534c8370.png)
   
 3. 로그인 전자 메일 주소를 잊은 경우 21Vianet 고객 서비스 (86) 400-089-0365에 문의 하세요.
-    
+
 ### <a name="how-do-i-find-my-order-id"></a>주문 ID를 확인 하려면 어떻게 하나요?
 
 1. [관리 센터](https://go.microsoft.com/fwlink/p/?linkid=850627)에서 **청구** \> **금액 & 지불** 페이지로 이동 합니다.
-    
+
 2. 원하는 송장을 찾거나, 보기를 선택 하거나, PDF를 다운로드 하도록 선택 합니다.
 
-  
 ### <a name="what-if-i-enter-the-wrong-email-address-when-i-register"></a>등록할 때 잘못 된 전자 메일 주소를 입력 하면 어떻게 되나요?
 
-등록할 때 잘못 된 전자 메일 주소를 입력 하면 정품 인증 전자 메일이 수신 되지 않습니다. 전자 메일의 등록 링크는 24 시간 후에 자동으로 만료 됩니다. <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">등록 페이지로</a> 돌아간 후 올바른 전자 메일 주소로 다시 등록할 수 있습니다. 
+등록할 때 잘못 된 전자 메일 주소를 입력 하면 정품 인증 전자 메일이 수신 되지 않습니다. 전자 메일의 등록 링크는 24 시간 후에 자동으로 만료 됩니다. <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">등록 페이지로</a> 돌아간 후 올바른 전자 메일 주소로 다시 등록할 수 있습니다.
   
 ### <a name="what-if-i-dont-receive-an-activation-email"></a>정품 인증 전자 메일이 수신 되지 않으면 어떻게 되나요?
 

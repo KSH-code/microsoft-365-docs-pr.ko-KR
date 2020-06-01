@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: bb229ee9-e7be-4990-b3eb-354e75740496
 description: '공유 사서함에서 라이선스를 제거 하 여 다른 사용자에 게 할당 합니다. '
-ms.openlocfilehash: 1f69cd6f0e572da18abf7253832604ad3ac0ab8f
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 401b334efeccf6d7c4caca20be3cc9767b2df945
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400031"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432222"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>공유 사서함에서 라이선스 제거
 
@@ -51,10 +51,7 @@ ms.locfileid: "44400031"
 
 ::: moniker range="o365-worldwide"
 
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
-
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
    > [!NOTE]
    > 활성 사용자 페이지에서 라이선스를 제거 해야 합니다. 라이선스가 사용자 설정 이므로 공유 사서함 페이지에서 라이선스를 제거할 수 없습니다. 

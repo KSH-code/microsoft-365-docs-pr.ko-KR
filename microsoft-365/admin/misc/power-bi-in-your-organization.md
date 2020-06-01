@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: d7941332-8aec-4e5e-87e8-92073ce73dc5
 ROBOTS: NOINDEX
 description: Power BI 및 조직의 사용자가이 비즈니스 분석 서비스를 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: cabe489915061a773c0faeb8687695f2672fe478
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 5a5e7516800b2010f79296d758aeaeef80194bfd
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399305"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432174"
 ---
 # <a name="power-bi-in-your-organization"></a>조직의 Power BI
 
@@ -171,11 +171,8 @@ To allow your existing users to sign up for Power BI, run the opposite command a
 사용자가 Power BI에 등록했지만 이 사용자에게 Power BI에 대한 액세스 권한을 더 이상 허용하지 않으면 해당 사용자에 대한 Power BI 라이선스를 제거하면 됩니다.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
   
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
     
 2. 라이선스를 제거할 사용자를 찾은 다음 해당 이름을 선택 합니다.
     
@@ -202,7 +199,7 @@ To allow your existing users to sign up for Power BI, run the opposite command a
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 라이선스를 제거할 사용자를 찾은 다음 해당 이름을 선택 합니다.
     

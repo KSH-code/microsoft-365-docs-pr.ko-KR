@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 사용자가 데스크톱에 대 한 Office 앱, 모바일 용 Office 앱 및 웹 용 Office 앱에서 민감도 레이블을 사용 하는 방법에 대해 알아봅니다. 민감도 레이블을 지 원하는 앱을 찾습니다.
-ms.openlocfilehash: 2cff14f2de60136b35399225da7cb04bbf9e880c
-ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
+ms.openlocfilehash: e8cb869e6883df99babfb8d20bf8130678e0f9da
+ms.sourcegitcommit: 1b560ee45f3b0253fa5c410a4499373c1f92da9c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44222507"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432597"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 사용
 
@@ -122,7 +122,7 @@ Office 365 메시지 암호화에 대해 정의 하는 것과 같은 관리자 �
 - 문서의 경우: **파일**  >  **정보**  >  **보호 문서**  >  **제한 액세스**
 - 전자 메일의 경우: **Options** 탭에서 **Encrypt** > 합니다. 
   
-처음에 문서 또는 전자 메일에 레이블을 지정 하면 사용자는 레이블 구성 설정을 자체 암호화 설정으로 무시할 수 있습니다. 예시는 다음과 같습니다:
+처음에 문서 또는 전자 메일에 레이블을 지정 하면 사용자는 레이블 구성 설정을 자체 암호화 설정으로 무시할 수 있습니다. 예시:
 
 - 사용자가 문서에 **기밀 \ 모든 직원** 레이블을 적용 하며,이 레이블은 조직의 모든 사용자에 대해 암호화 설정을 적용 하도록 구성 됩니다. 이 사용자는 조직 외부의 사용자에 대 한 액세스를 제한 하도록 IRM 설정을 수동으로 구성 합니다. 최종 결과는 **기밀 \ 모든 직원** 및 암호화 됨 이라는 레이블이 지정 된 문서이 고 조직의 사용자가 예상 대로 열 수 없습니다.
 
@@ -132,7 +132,7 @@ Office 365 메시지 암호화에 대해 정의 하는 것과 같은 관리자 �
 
 문서 또는 전자 메일에 이미 레이블이 지정 되어 있는 경우에는 콘텐츠가 아직 암호화 되지 않았거나 [사용 권한](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) 내보내기 또는 모든 권한이 있는 경우 사용자가 이러한 작업을 수행할 수 있습니다. 
 
-의미 있는 보고를 사용 하 여 보다 일관성 있는 레이블 환경을 제공 하려면 문서 보호에 레이블을 적용 하는 데 사용할 수 있는 적절 한 레이블과 지침을 제시 합니다. 예시는 다음과 같습니다:
+의미 있는 보고를 사용 하 여 보다 일관성 있는 레이블 환경을 제공 하려면 문서 보호에 레이블을 적용 하는 데 사용할 수 있는 적절 한 레이블과 지침을 제시 합니다. 예시:
 
 - 사용자가 자신의 사용 권한을 할당 해야 하는 경우 사용자에 [게 고유한 사용 권한을 할당](encryption-sensitivity-labels.md#let-users-assign-permissions)하는 데 사용할 수 있는 레이블을 제공 합니다. 
 
@@ -168,6 +168,34 @@ Office 365 메시지 암호화에 대해 정의 하는 것과 같은 관리자 �
 ## <a name="support-for-sharepoint-and-onedrive-files-protected-by-sensitivity-labels"></a>민감도 레이블로 보호 되는 SharePoint 및 OneDrive 파일에 대 한 지원
 
 SharePoint 또는 OneDrive의 문서를 웹에 있는 office 기본 제공 레이블 클라이언트를 사용 하려면 [sharepoint 및 onedrive에서 office 파일에 대 한 민감도 레이블을 사용 하도록 설정](sensitivity-labels-sharepoint-onedrive-files.md)했는지 확인 합니다.
+
+## <a name="support-for-external-users-and-labeled-content"></a>외부 사용자 및 레이블이 지정 된 콘텐츠 지원
+
+문서나 전자 메일에 레이블을 지정 하면 해당 레이블은 테 넌 트와 레이블 GUID를 포함 하는 메타 데이터로 저장 됩니다. 민감도 레이블을 지 원하는 Office 앱에서 레이블이 지정 된 문서 또는 전자 메일을 열면이 메타 데이터를 읽고 사용자가 같은 테 넌 트에 속해 있는 경우에만 레이블이 앱에 표시 됩니다. 예를 들어 Word, PowerPoint 및 Excel의 기본 제공 레이블에서는 상태 표시줄에 레이블 이름이 표시 됩니다. 
+
+즉, 다른 레이블 이름을 사용 하는 다른 조직과 문서를 공유 하는 경우 각 조직이 적용 되며 문서에 적용 된 자체 레이블이 표시 될 수 있습니다. 그러나 적용 된 레이블에서 다음 요소는 조직 외부의 사용자에 게 표시 됩니다.
+
+- 콘텐츠 표식입니다. 레이블이 머리글, 바닥글 또는 워터 마크를 적용 하는 경우 이러한 항목은 콘텐츠에 직접 추가 되며 사용자가 수정 하거나 삭제할 때까지 계속 표시 됩니다.
+
+- 암호화를 적용 한 레이블에서 기본 보호 서식 파일의 이름과 설명을 입력 합니다. 이 정보는 문서 위쪽의 메시지 표시줄에 표시 되며, 문서를 열 수 있는 사용자에 대 한 정보 및 해당 문서에 대 한 사용 권한을 제공 합니다.
+
+### <a name="sharing-encrypted-documents-with-external-users"></a>암호화 된 문서를 외부 사용자와 공유
+
+자신의 조직에 있는 사용자에 대 한 액세스를 제한 하는 것 외에도 Azure Active Directory에 계정을 가진 다른 모든 사용자에 대 한 액세스를 확장할 수 있습니다. 사용자가 인증 된 후 모든 Office 앱 및 기타 [RMS-인식 된 응용 프로그램](https://docs.microsoft.com/azure/information-protection/requirements-applications#rms-enlightened-applications) 에서 암호화 된 문서를 열 수 있습니다. 
+
+외부 사용자가 Azure Active Directory에 계정이 없는 경우 테 넌 트에서 guest 계정을 만들 수 있습니다. 전자 메일 주소에 대해 이미 사용 중인 전자 메일 주소를 지정할 수 있습니다. 예를 들면 Gmail 주소입니다. [Sharepoint 및 onedrive에서 Office 파일에 대 한 민감도 레이블을 사용 하도록 설정한](sensitivity-labels-sharepoint-onedrive-files.md)경우이 게스트 계정을 사용 하 여 Sharepoint 또는 onedrive의 공유 문서에 액세스할 수도 있습니다.
+
+외부 사용자가 Windows에서 Microsoft 365 앱을 사용할 때 암호화 된 문서에 대해 Microsoft 계정을 사용 하 고 만들 수도 있습니다. MacOS, Android 또는 iOS에 대해서는이 기능이 아직 지원 되지 않습니다. 예를 들어, 사용자는 암호화 된 문서를 함께 공유 하 고, 암호화 설정은 Gmail 전자 메일 주소를 지정 합니다. 이 사용자는 Gmail 전자 메일 주소를 사용 하는 자신의 Microsoft 계정을 만들 수 있습니다. 그런 다음이 계정으로 로그인 한 후 해당 사용자에 대해 지정 된 사용 제한에 따라 문서를 열고 편집할 수 있습니다. 이 시나리오의 연습 예제를 보려면 보호 된 [문서 열기 및 편집](https://docs.microsoft.com/azure/information-protection/secure-collaboration-documents#opening-and-editing-the-protected-document)을 참조 하십시오.
+
+> [!NOTE]
+> Microsoft 계정의 전자 메일 주소는 암호화 설정에 대 한 액세스를 제한 하기 위해 지정 된 전자 메일 주소와 일치 해야 합니다.
+
+Microsoft 계정이 있는 사용자가이 방법으로 암호화 된 문서를 열면 이름이 같은 게스트 계정이 없는 경우 테 넌 트에 대 한 게스트 계정이 자동으로 만들어집니다. 게스트 계정이 있으면 Windows 데스크톱 앱에서 암호화 된 문서를 열 뿐 아니라 브라우저 (웹에서 Office)를 사용 하 여 SharePoint 및 OneDrive에서 문서를 여는 데 사용할 수 있습니다. 
+
+그러나 자동 게스트 계정은 복제 대기 시간으로 인해 즉시 만들어지지 않습니다. 레이블 암호화 설정의 일부로 개인 전자 메일 주소를 지정 하는 경우 Azure Active Directory에서 해당 하는 게스트 계정을 만드는 것이 좋습니다. 그런 다음 이러한 사용자에 게이 계정을 사용 하 여 조직에서 암호화 된 문서를 여는 것을 알리는 것을 허용 합니다.
+
+> [!TIP]
+> 외부 사용자가 지원 되는 Office 클라이언트 앱을 사용 하 고 있는지 확실 하지 않으므로, 게스트 계정을 만든 후 SharePoint 및 OneDrive에서 링크를 공유 하는 것은 외부 사용자와의 안전한 공동 작업을 지원 하기 위한 보다 안정적인 방법입니다.
 
 ## <a name="when-office-apps-apply-content-marking-and-encryption"></a>Office 앱에서 콘텐츠 표시 및 암호화를 적용 하는 경우
 

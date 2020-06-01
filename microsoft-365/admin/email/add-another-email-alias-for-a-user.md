@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Microsoft 365 for business 계정에 연결 된 전자 메일 주소를 두 개 이상 사용할 수 있는 방법을 알아봅니다. '
-ms.openlocfilehash: 778d927d9ab830aea674b9bff72df250e6e430b1
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: bab4ace6d497bac8892a29c76b6f2d05c4fa018f
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400187"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432328"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>사용자의 다른 전자 메일 별칭 추가
 
@@ -59,10 +59,7 @@ Microsoft 365의 기본 전자 메일 주소는 일반적으로 계정을 만들
   
 ::: moniker range="o365-worldwide"
 
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
-
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 2. **활성 사용자** 페이지에서 **전자 메일 별칭 관리**> 사용자를 선택 합니다. 사용자에 게 라이선스가 할당 되어 있지 않은 경우에는이 옵션이 표시 되지 않습니다. 
     

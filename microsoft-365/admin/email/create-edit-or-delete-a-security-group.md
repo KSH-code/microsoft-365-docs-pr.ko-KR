@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: 보안 그룹을 만들거나 편집 하거나 삭제 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 283f1eca7500bfb1d8172657639bbc7cff76906f
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 49fe9b941564f26268045f6e57af329900476b90
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400091"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432280"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 보안 그룹 만들기, 편집 또는 삭제
 
@@ -58,9 +58,6 @@ Microsoft 365 **Groups** 페이지에서는 SharePoint ONLINE 및 CRM online에 
 ### <a name="add-members-to-a-security-group"></a>보안 그룹에 구성원 추가
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
     
 1. **그룹** 페이지에서 보안 그룹 이름을 선택 하 고 **구성원** 탭에서 **모두 보기 및 구성원 관리**를 선택 합니다. 
     
@@ -95,9 +92,6 @@ Microsoft 365 **Groups** 페이지에서는 SharePoint ONLINE 및 CRM online에 
 
 ::: moniker range="o365-worldwide"
 
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
-
 1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">그룹</a> 페이지로 이동 합니다.
   
 2. **그룹** 페이지에서 그룹의 이름을 선택 합니다. 
@@ -108,7 +102,7 @@ Microsoft 365 **Groups** 페이지에서는 SharePoint ONLINE 및 CRM online에 
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">그룹</a> 페이지로 이동 합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **그룹** \> **그룹** 페이지로 이동 합니다.  
   
 2. **그룹** 페이지에서 그룹의 이름을 선택 합니다. 
     
@@ -120,7 +114,7 @@ Microsoft 365 **Groups** 페이지에서는 SharePoint ONLINE 및 CRM online에 
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">그룹</a> 페이지로 이동 합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **그룹** \> **그룹** 페이지로 이동 합니다.
   
 2. **그룹** 페이지에서 그룹의 이름을 선택 합니다. 
     

@@ -20,23 +20,16 @@ search.appverid:
 - MOE150
 ms.assetid: 4fe7f6ac-be8e-4b57-9e13-24ff889a4b28
 description: 필터를 사용 하 여 Microsoft 365에서 사용자 지정 사용자 보기를 만들거나 편집 하거나 삭제 하는 방법을 알아봅니다.
-ms.openlocfilehash: faea21f0e5142d197cc2b90d6ade99490f9f88e3
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 265aa1a7c22475710a12a93c2bfee0b7749f438b
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387216"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44431644"
 ---
 # <a name="create-edit-or-delete-a-custom-user-view-in-office-365"></a>Office 365에서 사용자 지정 사용자 보기 만들기, 편집 또는 삭제
 
 Office 365의 전역 또는 사용자 관리 관리자 인 경우 사용자 지정 사용자 보기를 만들어 특정 사용자 하위 집합을 볼 수 있습니다. 이러한 보기는 Office 365와 함께 제공 되는 표준 보기 집합에 추가 됩니다. 사용자 지정 사용자 보기를 만들거나 편집 하거나 삭제할 수 있으며, 만든 사용자 지정 보기는 모든 관리자에 게 제공 됩니다.
-
-::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
-
-::: moniker-end
   
 ## <a name="custom-user-views-in-the-admin-center"></a>관리 센터의 사용자 지정 사용자 보기
 

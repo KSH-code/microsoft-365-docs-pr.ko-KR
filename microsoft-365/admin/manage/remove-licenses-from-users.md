@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 9b497c85-d0a4-4735-80fa-d3565bc05bd1
 description: 사용자 계정에서 라이선스를 제거 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7207509c8e20710abae53cb095f7cbedfdc3bd6b
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 18fd23ab2eeb471f29be28cd03daae808c9eccf1
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399683"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432234"
 ---
 # <a name="unassign-licenses-from-users"></a>사용자의 라이선스 할당 취소
 
@@ -45,9 +45,6 @@ ms.locfileid: "44399683"
 
 **라이선스** 페이지를 사용 하 여 라이선스 할당을 취소 하는 경우 최대 20 명의 사용자에 대 한 특정 제품의 라이선스 할당을 취소 합니다. 
 
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
-
 1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지로 이동합니다.
 2. 라이선스의 할당을 취소할 제품을 선택 합니다.
 3. 라이선스의 할당을 취소할 사용자를 선택 합니다.
@@ -59,11 +56,8 @@ ms.locfileid: "44399683"
 ## <a name="unassign-licenses-from-one-user-on-the-active-users-page"></a>활성 사용자 페이지에서 한 사용자의 라이선스 할당 해제
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
   
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 2. **활성 사용자** 페이지에서 라이선스를 할당 해제할 사용자의 행을 선택 합니다.
 
@@ -105,10 +99,7 @@ ms.locfileid: "44399683"
 
 ::: moniker range="o365-worldwide"
 
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
-
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 2. 라이선스를 할당 하지 않을 사용자의 이름 옆에 있는 원을 선택 합니다.
 

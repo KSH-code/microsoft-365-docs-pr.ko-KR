@@ -20,21 +20,14 @@ search.appverid:
 - MET150
 - MOE150
 description: 여러 사용자를 추가할 때 템플릿을 만들고 사용 하 여 시간을 절약 하 고 설정을 표준화할 수 있습니다.
-ms.openlocfilehash: 3173d28f27acdf1a084137d36cd71894e94e9547
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: cbe61c87bec40196ffd7a8e9868ea4611e4c259e
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387228"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44431812"
 ---
 # <a name="create-and-use-a-template-to-add-users"></a>서식 파일을 만들고 사용하여 사용자 추가
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
 
 여러 사용자를 추가할 때 템플릿을 만들고 사용 하 여 시간을 절약 하 고 설정을 표준화할 수 있습니다. 서식 파일은 사용자가 같은 역할을 하 고 동일한 위치에서 작업을 수행 하 고 동일한 소프트웨어를 필요로 하는 것과 같은 여러 일반 속성을 공유 하는 경우에 특히 유용 합니다. 예를 들어 같은 사무실에서 근무 하는 지원 엔지니어 팀이 있을 수 있습니다.  
 

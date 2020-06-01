@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 481b460e-f799-4fac-9592-4d5c51bdcbd8
 ROBOTS: NOINDEX
 description: 사용자의 Microsoft 365 계정을 삭제 하거나 복원 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3b7e71aa11c153372c9b38c54e45397c5f840c2e
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 13908a83ffa39369b2aea71e7212fd0d41488c44
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399389"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432186"
 ---
 # <a name="quick-help-deleted-user"></a>빠른 도움말: 삭제된 사용자
 
@@ -35,11 +35,8 @@ ms.locfileid: "44399389"
 ## <a name="delete-a-user"></a>사용자 삭제
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
   
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 2. 사용자를 선택 하 고 사용자 목록 위에 있는 **기타 옵션** (**...**)을 선택한 다음 **사용자 삭제**를 선택 합니다.
   

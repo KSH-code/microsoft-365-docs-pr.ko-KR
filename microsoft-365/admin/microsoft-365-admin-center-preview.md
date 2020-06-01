@@ -1,5 +1,5 @@
 ---
-title: 새 Microsoft 365 관리 센터 정보
+title: Microsoft 365 관리 센터 정보
 f1.keywords:
 - CSH
 ms.author: pebaum
@@ -17,19 +17,19 @@ search.appverid:
 - MET150
 - MOE150
 - FRP150
-description: 새로운 Microsoft 365 관리 센터에 대해 알아봅니다.
-ms.openlocfilehash: 0eeebcd0c96b5f3741c01a2776391ceaa698a40e
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Microsoft 365 관리 센터에 대해 알아봅니다.
+ms.openlocfilehash: 267a7fe56cbd71734664f085846c8b5a1356cccd
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399485"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432210"
 ---
-# <a name="about-the-new-microsoft-365-admin-center"></a>새 Microsoft 365 관리 센터 정보
+# <a name="about-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 정보
 
 ::: moniker range="o365-worldwide"
 
-Microsoft 365 서비스를 관리 하는 간편한 방법인 새로운 Microsoft 365 관리 센터는 IT 팀을 위해 작성 되었습니다. 관리 센터는 역할이 나 조직의 고유한 요구 사항에 따라 맞춤식 환경을 제공 하 고 일상적인 작업의 효율성을 향상 시키며, 사용자를 위해 데이터 기반 결정을 내리는 데 도움이 되는 단계별 정보를 제공 합니다.
+Microsoft 365 관리 센터는 Microsoft 365 서비스를 관리 하는 간편한 방법으로 IT 팀을 위해 구축 되었습니다. 관리 센터는 역할이 나 조직의 고유한 요구 사항에 따라 맞춤식 환경을 제공 하 고 일상적인 작업의 효율성을 향상 시키며, 사용자를 위해 데이터 기반 결정을 내리는 데 도움이 되는 단계별 정보를 제공 합니다.
 
 Microsoft 365 관리 센터는 모든 Microsoft 365 관리자의 공통 진입점 이며에서 액세스할 수 있습니다 [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339) . 보안 또는 장치 관리와 같은 전문가 작업 영역을 통해 보다 세부적으로 제어할 수 있습니다. 관리 센터를 함께 사용 하는 방법에 대 한 자세한 내용은이 문서의 뒷부분에 나오는 [보안, 장치 관리 또는 Exchange와 같은 특정 유형의 IT 역할 및 기타 작업 영역](#what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange) 을 참조 하십시오.
 
@@ -37,7 +37,7 @@ Microsoft 365 관리 센터는 모든 Microsoft 365 관리자의 공통 진입�
 
 ::: moniker range="o365-21vianet"
 
-현재 미리 보기로 제공 되는 새로운 Microsoft 365 관리 센터는 Microsoft 365 서비스를 관리 하는 간편한 방법으로 IT 팀을 위한 것입니다. 관리 센터는 역할이 나 조직의 고유한 요구 사항에 따라 맞춤식 환경을 제공 하 고 일상적인 작업의 효율성을 향상 시키며, 사용자를 위해 데이터 기반 결정을 내리는 데 도움이 되는 단계별 정보를 제공 합니다.
+Microsoft 365 관리 센터는 Microsoft 365 서비스를 관리 하는 간편한 방법으로 IT 팀을 위해 구축 되었습니다. 관리 센터는 역할이 나 조직의 고유한 요구 사항에 따라 맞춤식 환경을 제공 하 고 일상적인 작업의 효율성을 향상 시키며, 사용자를 위해 데이터 기반 결정을 내리는 데 도움이 되는 단계별 정보를 제공 합니다.
 
 Microsoft 365 관리 센터는 모든 Microsoft 365 관리자의 공통 진입점 이며에 로그인 하 여 액세스할 수 있습니다 [https://portal.partner.microsoftonline.cn/AdminPortal/Home#/homepage](https://go.microsoft.com/fwlink/p/?linkid=850627) . 또한 Azure Active Directory 및 Exchange와 같은 전문가 작업 영역을 사용 하면 보다 세부적으로 제어할 수 있습니다. Microsoft 365 관리 센터의 탐색 창에서 전문가 작업 영역에 액세스할 수 있습니다.
 
@@ -45,14 +45,11 @@ Microsoft 365 관리 센터는 모든 Microsoft 365 관리자의 공통 진입�
 
 ::: moniker range="o365-worldwide"
 
-Microsoft 365 관리 센터에서 새 기능을 사용할 수 있게 되 면 새 관리 센터를 선택 하 고 Microsoft와 사용자 의견을 공유 하 여 관리자 환경을 계속 개선할 수 있습니다. 옵트인 하면 사용자에 게 영향을 주지 않으며 언제 든 지 이전 관리 센터로 다시 전환할 수 있습니다.
-[새로운 Microsoft 365 관리 센터의 새로운 기능을 소개](whats-new-in-preview.md)합니다.
+Microsoft 365 관리 센터에서 새로운 기능을 사용할 수 있게 되 면 관리 센터를 선택 하 고 Microsoft와 사용자 의견을 공유 하 여 관리자 환경을 계속 해 서 개선할 수 있습니다. 옵트인 하면 사용자에 게 영향을 주지 않으며 언제 든 지 이전 관리 센터로 다시 전환할 수 있습니다.
+[Microsoft 365 관리 센터의 새로운 기능을 소개](whats-new-in-preview.md)합니다.
   
 > [!NOTE]
-> 대상이 지정 된 릴리스 관리자에 게는 새 기능에 대 한 첫 번째 액세스 권한이 제공 됩니다. 그러면 새 기능이 모든 관리자에 게 롤아웃 됩니다. 즉, 새 관리 센터가 표시 되지 않거나 도움말 문서에 설명 된 것과 다를 수 있습니다. 처음부터 새로운 기능을 보려면 아래에서 새 관리 센터에 참여를 참조 하세요. 
-    
-## <a name="participate-in-the-new-admin-center"></a>새 관리 센터에 참여
-새로운 Microsoft 365 관리 센터에 참여 하 여 변경 내용을 준비 하 고 의견을 제공 하는 데 도움이 될 것입니다.
+> 대상이 지정 된 릴리스 관리자에 게는 새 기능에 대 한 첫 번째 액세스 권한이 제공 됩니다. 그러면 새 기능이 모든 관리자에 게 롤아웃 됩니다. 즉, 관리 센터가 표시 되지 않거나 도움말 문서에 설명 된 것과 다를 수 있습니다. 처음부터 새로운 기능을 확인 하려면 아래 관리 센터에 참여를 참조 하세요. 
 
 ### <a name="turn-on-targeted-release"></a>대상 지정 된 릴리스 켜기
 
@@ -64,18 +61,9 @@ Microsoft 365 관리 센터에서 새 기능을 사용할 수 있게 되 면 새
     
 3. **선택한 사용자에 대해**모든 사용자 또는 대상 지정 된 릴리스에 **대해 대상 지정 된 릴리스를** 선택 합니다. 선택한 사용자에 대해 대상 지정 된 릴리스를 선택 하는 경우 선택한 사용자 목록에 관리자 계정 및 조직에 참여 하려는 조직의 다른 관리자를 추가 해야 합니다.
     
-### <a name="switch-to-the-new-admin-center-and-back-again"></a>새 관리 센터로 전환한 후 다시 돌아가기
+### <a name="admin-center-feedback"></a>관리 센터 피드백
 
-- 새 Microsoft 365 관리 센터를 사용할 수 있는 경우 홈 페이지 맨 위에 있는 **새 관리 센터** 사용 설정/해제를 선택 하 여 옵트인 할 수 있습니다. 관리 센터에서 로그 아웃 하면 선택 항목이 저장 되며 새 관리 센터에 다시 로그인 됩니다. <br/><br/>![새 관리 센터는 이전 관리 센터에서 전환 합니다.](../media/admin-center-toggle-off.png) 
-  
-- 홈 페이지에서 이전 관리 센터로 다시 전환 **합니다.** <br/><br/>![새 관리 센터 설정/해제](../media/admin-center-toggle-on.png)
-
-새 관리 센터에서는 모든 페이지의 맨 아래에 있는 **도움말 보기** 바로 옆에 있는 **사용자 의견 제공** 을 선택 하 여 사용자 환경에 대 한 사용자 의견을 제공 받을 수 있습니다. 원하는 것과 더 나은 작업을 수행할 수 있는 작업을 알려주십시오. 또한 전체 상대 또는 새로 출시 된 특정 환경을 확인 하는 시간을 들 여 팝업을 조사 하는 경우를 볼 수 있습니다. 이 **정보가 도움이 되었습니까?** 를 선택 하 여이 문서 끝에 의견을 제공할 수도 있습니다.
-  
-새 관리 센터에서 초기 도입자로 사용 하려는 경우에는 대상 지정 된 릴리스를 켠 다음 새 관리 센터를 사용할 수 있도록 전환할 수 있습니다.
-  
-> [!NOTE]
-> 새 관리 센터에 대 한 액세스는 모든 Microsoft 365 관리자에 게 출시 됩니다. 조직의 대상 릴리스 그룹에 있는 관리자는 먼저 새 관리 센터를 받게 됩니다. 대상 지정 된 릴리스가 진행 되 고 있다는 것은 사용자에 게 즉시 전환이 제공 되는 것은 아니지만 표준 릴리스의 경우 보다 빠른 것입니다. 
+관리 센터에서는 모든 페이지 아래쪽에 있는 **도움말 보기** 바로 옆에 있는 **사용자 의견 제공** 을 선택 하 여 사용자 환경에 대 한 사용자 의견을 제공 받을 수 있습니다. 원하는 것과 더 나은 작업을 수행할 수 있는 작업을 알려주십시오. 또한 전체 상대 또는 새로 출시 된 특정 환경을 확인 하는 시간을 들 여 팝업을 조사 하는 경우를 볼 수 있습니다. 이 **정보가 도움이 되었습니까?** 를 선택 하 여이 문서 끝에 의견을 제공할 수도 있습니다.
   
 ::: moniker-end
 

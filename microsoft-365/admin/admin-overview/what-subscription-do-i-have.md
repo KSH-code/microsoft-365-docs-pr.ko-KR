@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
 description: 구독 페이지로 이동 하 여 조직에 있는 구독을 확인 하는 방법을 알아봅니다.
-ms.openlocfilehash: 438d9932b2e0dcce0e75e0d979908cdab5979f13
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 0e2ff42ad75e2006470c441c6c3403fcfd127e93
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386748"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44431608"
 ---
 # <a name="what-subscription-do-i-have"></a>내가 구독한 것은 무엇인가요?
 
@@ -38,9 +38,6 @@ ms.locfileid: "44386748"
  **관리자가 아니세요?** [사용 중인 비즈니스 제품 또는 라이선스에 대 한 Microsoft 365를 확인 하세요](https://support.office.com/article/f8ab5e25-bf3f-4a47-b264-174b1ee925fd.aspx) .
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
 1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
 

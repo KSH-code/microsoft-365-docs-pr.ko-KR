@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: 조직에 대해 multi-factor authentication을 설정 하는 방법을 알아봅니다.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 2b4ac2b5950d2641254742e03f054f3e4c886833
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: c84c66cc051363fbc582abfb5521f922440b6801
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399125"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432382"
 ---
 # <a name="set-up-multi-factor-authentication"></a>다단계 인증 설정
   
@@ -42,7 +42,8 @@ ms.locfileid: "44399125"
 
 ## <a name="step-1-decide-on-the-method-of-requiring-your-users-to-use-mfa"></a>1 단계: 사용자에 게 MFA를 사용 하도록 요구 하는 방법 결정
 
-사용자가 로그인을 위해 MFA를 사용 하도록 요구 하는 방법에는 세 가지가 있습니다. 자세한 내용은 [Microsoft 365에서 MFA 지원를](multi-factor-authentication-microsoft-365.md) 참조 하세요.
+> [!NOTE]
+> MFA를 설정 하거나 수정 하려면 전역 관리자 여야 합니다. 사용자가 로그인을 위해 MFA를 사용 하도록 요구 하는 방법에는 세 가지가 있습니다. 자세한 내용은 [Microsoft 365에서 MFA 지원를](multi-factor-authentication-microsoft-365.md) 참조 하세요.
 
 - 보안 기본값 (small 비즈니스에 대해 권장)
 

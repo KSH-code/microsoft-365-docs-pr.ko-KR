@@ -23,21 +23,14 @@ search.appverid:
 - MOE150
 ms.assetid: a6f7f9ad-e3f5-43de-ade5-e5a0d7531604
 description: 사용자가 조직을 떠날 때 직원의 파일 및 전자 메일을 보존 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 2bf32aa9e7a3dcc76ae2114240bff07d697ce29d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 13cc1117c52a45f4ec1389d2e8b9f0189f4730e1
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387204"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44431716"
 ---
 # <a name="get-access-to-and-back-up-a-former-users-data"></a>액세스 권한 받기 및 이전 사용자 데이터 백업
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
 
 
 직원이 조직을 떠나는 경우 해당 데이터 (문서 및 전자 메일)에 액세스 하 고, 검토 하거나, 새 직원에 게 제공 하는 것이 좋습니다.
@@ -51,10 +44,7 @@ ms.locfileid: "44387204"
 
 ::: moniker range="o365-worldwide"
 
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
-
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.  
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..  
     
 2. 사용자를 선택 합니다.
 
@@ -132,7 +122,7 @@ ms.locfileid: "44387204"
 
 2. 왼쪽 창에서 **관리 센터** \> **SharePoint**를 선택 합니다. (관리 센터의 목록을 보려면 **모두 표시**를 선택해야 할 수도 있습니다.)
 
-3. 기존 SharePoint 관리 센터가 나타나는 경우 페이지 위쪽에 있는 **지금 열기**를 선택하여 새 SharePoint 관리 센터를 엽니다.
+3. 클래식 SharePoint 관리 센터가 나타나면 페이지 맨 위에 있는 **지금 열기** 를 선택 하 여 SharePoint 관리 센터를 엽니다.
 
 4. 왼쪽 창에서 **추가 기능**을 선택 합니다.
 
