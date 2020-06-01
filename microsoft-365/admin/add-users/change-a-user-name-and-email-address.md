@@ -23,23 +23,16 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: '전역 관리자가 사용자의 전자 메일 주소 및 표시 이름을 변경하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 4325892a51c9d7a562b628a2bb89e6e1ff966e29
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b672476048354a8b086781d6d9c89a7aa42ccdd3
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387252"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432090"
 ---
 # <a name="change-a-user-name-and-email-address"></a>사용자 이름 및 전자 메일 주소 변경
 
 예를 들어 사용자가 결혼하여 성이 바뀌는 경우 해당 사용자의 전자 메일 주소 및 표시 이름을 변경해야 할 수 있습니다.
-
-::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
-
-::: moniker-end
 
 사용자의 전자 메일 주소를 변경하는 방법에 대한 짧은 비디오를 시청하세요. <br><br>
 
