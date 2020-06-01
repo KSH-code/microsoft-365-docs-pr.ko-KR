@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise에 대한 사용자의 ID 인프라를 배포하는 단계입니다.
-ms.openlocfilehash: 0189da0814d1d526d9e07ad35dbbabcbfe82a4cd
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 6f237f779df16f2a2a03eab29af78a89c5f7a5ae
+ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42952033"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "44371421"
 ---
 # <a name="phase-2-identity"></a>2단계: ID
 
@@ -70,7 +70,11 @@ Microsoft에서는 직원 안전과 생산성을 유지하기 위해 [ID 및 디
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Microsoft에서 Microsoft 365 Enterprise를 수행하는 방법
 
-Microsoft의 IT 전문가가 [ID와 보안 액세스를 관리하는 방법](https://www.microsoft.com/itshowcase/deploying-and-managing-microsoft-365#primaryR5)을 알아보세요.
+Microsoft의 IT 전문가가 [ID와 보안 액세스를 관리하는 방법](https://www.microsoft.com/ko-KR/itshowcase/managing-user-identities-and-secure-access-at-microsoft)을 알아보세요.
+
+>[!Note]
+>이 IT 소개 리소스는 영어로만 제공됩니다.
+>
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Contoso의 Microsoft 365 Enterprise 사용 방식
 

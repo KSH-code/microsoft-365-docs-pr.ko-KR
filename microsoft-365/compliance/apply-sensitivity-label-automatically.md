@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 문서 또는 전자 메일에 레이블을 자동으로 할당하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 318ecd19d7dcfb4b80e1bdcec743057462c44b1b
-ms.sourcegitcommit: 3cd487476efe4138d1b42499fbffbbe4bacfe5b8
+ms.openlocfilehash: 795803b79a60c7fb8ce6154c61730d10baabdce1
+ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44408480"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44419084"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>민감도 레이블을 콘텐츠에 자동으로 적용
 
@@ -105,9 +105,6 @@ Windows용 Office 앱의 자동 레이블 지정은 Azure Information Protection
 [민감도 레이블을 만들거나 편집](create-sensitivity-labels.md)하는 경우, Office 앱에 대한 자동 레이블 지정 설정을 사용할 수 있습니다. 중요한 정보가 감지되는 경우 자동으로 민감도 레이블을 콘텐츠에 적용하도록 선택할 수 있습니다. 중요한 정보 유형 또는 교육 가능한 분류자 목록에서 선택합니다.
 
 ![Office 앱에서 자동 레이블 지정에 대한 레이블 조건](../media/sensitivity-labels-conditions.png)
-
-> [!NOTE]
-> **교육 가능한 분류자**에 대한 옵션은 현재 공개 미리 보기에서 테넌트에 배포 중입니다. 이 옵션이 보이지 않는 경우, 며칠 후 다시 시도하세요.
 
 이 민감도 레이블이 자동으로 적용되면 사용자는 Office 앱에서 알림을 보게 됩니다. 예시:
 
