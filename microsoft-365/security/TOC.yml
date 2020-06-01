@@ -283,7 +283,7 @@
                   items:
                     - name: 아웃바운드 스팸 필터링 구성
                       href: ./office-365-security/configure-the-outbound-spam-policy.md
-                    - name: 아웃바운드 메시지용 높은 위험 배달 풀
+                    - name: 아웃바운드 배달 풀
                       href: ./office-365-security/high-risk-delivery-pool-for-outbound-messages.md
                     - name: 제한된 사용자 포털에서 차단된 사용자 제거
                       href: ./office-365-security/removing-user-from-restricted-users-portal-after-spam.md
