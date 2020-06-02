@@ -21,14 +21,16 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Azure Active Directory에 연결된 Windows 10 장치의 LOB(기간 업무) 앱, 파일 공유 및 프린터와 같은 온-프레미스 리소스에 액세스하는 방법을 알아봅니다.
-ms.openlocfilehash: da5fab99cf00a65986fb5e555cc19e432fe0fe8d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 9615ecc9469992d3e5a7479f4799c610db11fb41
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401117"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44471254"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Microsoft 365 Business Premium의 Azure AD에 가입 된 장치에서 온-프레미스 리소스에 액세스
+
+이 문서는 Microsoft 365 Business Premium에 적용 됩니다.
 
 Azure Active Directory에 가입 된 모든 Windows 10 장치에는 Microsoft 365 앱과 같은 모든 클라우드 기반 리소스에 대 한 액세스 권한이 있으며 Microsoft 365 Business Premium으로 보호할 수 있습니다. LOB(기간 업무) 앱, 파일 공유 및 프린터와 같은 온-프레미스 리소스에 대한 액세스를 허용할 수도 있습니다. 액세스를 허용하려면 [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)를 사용하여 온-프레미스 Active Directory를 Azure Active Directory와 동기화합니다. 
 

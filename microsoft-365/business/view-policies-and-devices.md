@@ -23,16 +23,16 @@ search.appverid:
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
 description: 전역 관리자 자격 증명을 사용 하 여 비즈니스용 Microsoft 365에 로그인 하 여 장치 정책 및 작업을 확인할 수 있습니다.
-ms.openlocfilehash: f65365584d8b05f4df012d9f5727a74c33c06ae8
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 49e878ae6d4e1a6c55dbd7bc65532f94295412a8
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403573"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470598"
 ---
 # <a name="view-and-manage-policies-and-devices"></a>정책 및 장치 보기 및 관리
 
-[![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+이 문서는 Microsoft 365 Business Premium에 적용 됩니다.
 
 ## <a name="view-and-edit-device-policies"></a>장치 정책 보기 및 편집
 

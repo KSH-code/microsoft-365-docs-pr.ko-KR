@@ -25,16 +25,16 @@ search.appverid:
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Microsoft 365에서 일부 단계만 수행 하 여 Active Directory에 가입 된 로컬 Windows 10 장치를 보호 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: e7f83e620fbb43a478dba98f78d5f471a541aea7
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 7bfe5da8701a17712fa249eac99a22b8d5a1b2d1
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403061"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44471050"
 ---
-# <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-for-business"></a>비즈니스를 위해 Microsoft 365에서 관리할 도메인에 가입 된 Windows 10 장치를 사용 하도록 설정
+# <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Microsoft 365 Business Premium에서 관리할 도메인에 가입 된 Windows 10 장치를 사용 하도록 설정
 
-조직에서 Windows Server Active Directory 온-프레미스를 사용 하는 경우 Windows 10 장치를 보호 하 고 로컬 인증을 필요로 하는 온-프레미스 리소스에 대 한 액세스를 유지 하는 Microsoft 365 for business를 설정할 수 있습니다.
+조직에서 Windows Server Active Directory 온-프레미스를 사용 하는 경우에는 Microsoft 365 Business Premium을 설정 하 여 Windows 10 장치를 보호 하 고 로컬 인증을 필요로 하는 온-프레미스 리소스에 대 한 액세스를 계속 유지할 수 있습니다.
 이 보호를 설정 하기 위해 **하이브리드 AZURE AD에 가입 된 장치**를 구현할 수 있습니다. 이러한 장치는 온-프레미스 Active Directory 및 Azure Active Directory에 모두 가입 되어 있습니다.
 
 이 비디오에서는 다음 단계에서 자세히 설명 되는 가장 일반적인 시나리오에 대해이 설정을 구성 하는 단계를 보여 줍니다.

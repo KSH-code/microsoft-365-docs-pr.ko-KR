@@ -27,14 +27,16 @@ search.appverid:
 - MOE150
 ms.assetid: 665485be-2389-4f1d-9ef8-dbef19c6acdf
 description: 사용자의 개인 장치에 대 한 회사 데이터를 보호 하려면 특정 장치 및 보안 그룹을 대상으로 하는 정책을 사용 합니다.
-ms.openlocfilehash: 2407db3309ed0967daa6eef9da14a702079d0487
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 18bf29d82b8020d31fec681b2114af86f52cad9c
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400893"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44471162"
 ---
 # <a name="how-policies-in-microsoft-365-for-business-protect-company-data"></a>비즈니스용 Microsoft 365의 정책에서 회사 데이터를 보호 하는 방법
+
+이 문서는 Microsoft 365 Business Premium에 적용 됩니다.
 
 관리자가 생성하는 정책은 장치 유형에 따라 달라지며, 특정 사용자 그룹에 적용할 수 있습니다. 즉, 임원진에게만 적용되는 하나의 정책과 그 밖의 모든 사용자에게 적용되는 또 다른 정책을 만들 수 있습니다.
   

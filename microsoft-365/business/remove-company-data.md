@@ -24,16 +24,16 @@ search.appverid:
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
 description: 비즈니스용 Microsoft 365을 사용 하 여 사용자가 자신의 장치 또는 Windows Pc에 보유 한 회사 데이터를 제거 하는 방법을 알아봅니다.
-ms.openlocfilehash: 42784149fcf6b850e7d0483c17dd605e7ecb7cf0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3a2faf0c5617b5d1e6beccf1e457f8b483820604
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402789"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470830"
 ---
 # <a name="remove-company-data-from-devices"></a>장치에서 회사 데이터 제거
 
-[![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+이 문서는 Microsoft 365 Business Premium에 적용 됩니다.
 
 ## <a name="remove-company-data"></a>회사 데이터 제거
 

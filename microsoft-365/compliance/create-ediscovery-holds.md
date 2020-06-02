@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 핵심 eDiscovery 사례와 연결 된 보류를 만들어 조사와 관련이 있을 수 있는 콘텐츠를 보존할 수 있습니다.
-ms.openlocfilehash: 41e5f21d36456eb39999afa71852b169de864356
-ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
+ms.openlocfilehash: 8993a3e88ab7513713086499a316c92fdb7509cb
+ms.sourcegitcommit: ff1af42b036bfdf75729db8c78f10cf4642616ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412857"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44477198"
 ---
 # <a name="create-an-ediscovery-hold"></a>eDiscovery 보존 만들기
 

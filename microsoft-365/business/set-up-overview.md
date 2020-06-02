@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Microsoft 365 Business Premium, 구독에서 도메인 및 사용자 추가, 보안 정책 설정 등에 대 한 설정 단계를 알아봅니다.
-ms.openlocfilehash: 80243fac6ca2efcfca030b6ee1c1113c026a80ce
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 4670344263ceb64a32962dfa6eb9c1644e61541d
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402981"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470528"
 ---
 # <a name="overview-of-setup"></a>설치 개요
 
@@ -48,7 +48,7 @@ Microsoft 365 Business Premium 설치에 대 한 간단한 비디오를 시청 �
 
    - **[도메인 추가](set-up.md#add-your-domain-to-personalize-sign-in)** ( [등록](sign-up.md)중에 도메인을 구매한 경우이 단계는 이미 완료 됨)
 
-    - **사용자를 추가**합니다. 다음 세 가지 방법 중 하나를 통해 사용자를 추가할 수 있습니다.
+   - **사용자를 추가**합니다. 다음 세 가지 방법 중 하나를 통해 사용자를 추가할 수 있습니다.
         - [마법사](set-up.md#add-users-in-the-wizard)에서
         - 온-프레미스 Active directory가 있는 경우 디렉터리 동기화를 사용 하 여 [AZURE AD Connect를 사용 하 여 사용자를 추가](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) 합니다.
         - 나중에 관리 센터에서 [사용자를 추가할](add-users-m365b.md) 수도 있습니다.

@@ -5,12 +5,12 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 034305eec75bd369752915084b2857ebea455aa0
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: ccaa0a99dbfe8ce775f078093b9bf6b34e503fa7
+ms.sourcegitcommit: ff1af42b036bfdf75729db8c78f10cf4642616ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327927"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44477187"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치 
 
@@ -42,6 +42,7 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 | [Dell Latitude 7300](https://www.dell.com/en-us/work/shop/laptops/13-7300/spd/latitude-13-7300-laptop) | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | 5 월 1 일, 2021  | 5 월 1 일, 2024  |
 | [Dell Latitude 7400](https://www.dell.com/en-us/work/shop/laptops/new-14/spd/latitude-14-7400-laptop) | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | 5 월 1 일, 2021  | 5 월 1 일, 2024  |
 | **\*[Dell Latitude 7400 2-1](https://www.dell.com/en-us/work/shop/laptops/14-2-in-1/spd/latitude-14-7400-2-in-1-laptop)** | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | 5 월 1 일, 2021  | 5 월 1 일, 2024  |
+| **\*[Dell Optiplex 3070](https://www.dell.com/en-us/work/shop/desktops-n-workstations/3070/spd/optiplex-3070-desktop)** | 128 GB/Intel i3/8gb RAM | 없음 | 5 월 1 일, 2022  | 5 월 1 일, 2025  |
 | [HP EliteBook 830/840/850 G6 노트북 PC](https://store.hp.com/us/en/mdp/laptops/elitebook-840#!&tab=features) | 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
 | [HP EliteBook x360 830 G6 노트북 PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g6-notebook-pc) | 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
 | **\*[HP 정예 x2 G4 태블릿](https://store.hp.com/us/en/mdp/laptops/hp-elite-x2-3074457345617405170--1)** | 256 GB/Intel i5/8gb RAM | 5VS03AV가 포함 된 SKU | 2021 년 7 월 31 일 | 2024 년 7 월 31 일 |
@@ -54,11 +55,11 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 | [HP ProBook x360 440 G1](https://store.hp.com/us/en/mdp/laptops/hp-probook-x360-440-3074457345617293669--1#!&tab=features) | 128 GB/Intel i3/8gb RAM | 5VS04AV, IR 카메라 또는 지문 판독기가 필요한 SKU | 7 월 6 일 2020 | 7 월 6 일 2023 |
 | [HP Z2 미니 G4 워크스테이션](https://store.hp.com/us/en/mdp/hp-z2-mini-workstation-451004--1) | 256 GB/Intel i5/8gb RAM | 8QR48AV가 포함 된 SKU| 1 월 31 일 2021 | 1 월 31 일 2024 |
 |[HP ZBook 14u/15u G6 모바일 워크스테이션](https://store.hp.com/us/en/mdp/hp-zbook-14u-mobile-workstation) | 256 GB/Intel i5/8gb RAM | 5VS02AV를 사용한 SKU, IR 카메라 필요 | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
-| [표면 이동](https://www.microsoft.com/p/surface-go-for-business/909wr0x3sgfk/8khl?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 128 GB/Intel 4415Y/8GB RAM | 없음 | 8 월 2 일, 2020 | 8 월 2 일, 2023 |
+| [표면 이동 2](https://www.microsoft.com/p/surface-go-2-for-business/8wzd6dhzj7kv?activetab=pivot%3aoverviewtab) | 128 GB/인텔 코어 M3/8GB RAM | 없음 | 5 월 21 일, 2022 | 5 월 21 일, 2027 |
 | [Surface 랩탑 2](https://www.microsoft.com/p/surface-laptop-2-for-business/8xlk0g60tlb6/hkq9?cid=msft_web_collection&CustomerIntent=Consumer) | 128 GB/Intel i5/8gb RAM | 없음 | 2020 년 10 월 16 일 | 2023 년 10 월 16 일 |
-| **\*[Surface 랩탑 3](https://www.microsoft.com/en-us/surface/business/surface-laptop-3)** | 128 GB/Intel i5/8gb RAM | 없음 | 2021 년 10 월 22 일 | 2024 년 10 월 22 일 |
+| **\*[Surface 랩탑 3](https://www.microsoft.com/surface/business/surface-laptop-3)** | 128 GB/Intel i5/8gb RAM | 없음 | 2021 년 10 월 22 일 | 2024 년 10 월 22 일 |
 | [Surface Pro 6](https://www.microsoft.com/p/surface-pro-6-for-business/8xjq3d3lrp0r/grf9?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 128 GB/Intel i5/8gb RAM | 없음 | 2020 년 10 월 16 일 | 2023 년 10 월 16 일 |
-| **\*[Surface Pro 7](https://www.microsoft.com/en-us/surface/business/surface-pro-7)** | 128 GB/Intel i5/8gb RAM | 없음 | 2021 년 10 월 22 일 | 2024 년 10 월 22 일 |
+| **\*[Surface Pro 7](https://www.microsoft.com/surface/business/surface-pro-7)** | 128 GB/Intel i5/8gb RAM | 없음 | 2021 년 10 월 22 일 | 2024 년 10 월 22 일 |
 
 또한 장치는 다음 기준을 충족 해야 합니다.     
 

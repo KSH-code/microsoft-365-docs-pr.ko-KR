@@ -27,16 +27,18 @@ search.appverid:
 - MOE150
 ms.assetid: aa31319c-9196-48c9-a90b-4057e0494c7a
 description: 사용자가 모바일 장치에서 Office 앱 및 작업 파일에 액세스 하는 방법을 관리 하는 데 사용할 수 있는 보호 정책에 대해 알아봅니다.
-ms.openlocfilehash: f613e518c3607010cae55443456be9d3ddc3d689
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b2b828cf2e201360f12b8fadcb395e72958230f6
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403081"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44471070"
 ---
 # <a name="manage-how-users-access-office-documents-on-mobile-devices"></a>사용자가 모바일 장치에서 Office 문서에 액세스하는 방법 관리
 
- 사용자가 모바일 장치에서 Office 파일을 액세스하는 방법을 제어하는 정책 설정은 기본적으로 **꺼짐**으로 되어 있습니다. 설치 중에 기본값을 사용 하 여 모든 사용자에 게 적용 되는 Android, iOS 및 Windows 10에 대 한 응용 프로그램 정책을 만드는 것이 좋습니다. 설치가 완료되면 추가로 정책을 만들 수 있습니다. 
+이 문서는 Microsoft 365 Business Premium에 적용 됩니다.
+
+사용자가 모바일 장치에서 Office 파일을 액세스하는 방법을 제어하는 정책 설정은 기본적으로 **꺼짐**으로 되어 있습니다. 설치 중에 기본값을 사용 하 여 모든 사용자에 게 적용 되는 Android, iOS 및 Windows 10에 대 한 응용 프로그램 정책을 만드는 것이 좋습니다. 설치가 완료되면 추가로 정책을 만들 수 있습니다. 
   
 ## <a name="settings-that-control-how-users-access-office-files-on-mobile-devices"></a>사용자가 모바일 장치에서 Office 파일을 액세스하는 방법을 제어하는 설정
 

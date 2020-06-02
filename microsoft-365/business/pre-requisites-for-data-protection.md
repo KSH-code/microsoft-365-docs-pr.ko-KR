@@ -22,14 +22,16 @@ search.appverid:
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
 description: 비즈니스를 위해 Microsoft 365을 사용 하 여 조직을 설정 하 고 사용자의 장치에서 작업 데이터를 보호 하기 위한 요구 사항에 대해 알아봅니다.
-ms.openlocfilehash: e170f7ca4fb8373c9070bcbfc1783138c20422c1
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 1bfa2b2d2ceba68d39da9c65560e67a6602e6cfa
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401345"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470970"
 ---
 # <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-for-business"></a>비즈니스를 위해 Microsoft 365을 사용 하 여 장치의 데이터를 보호 하기 위한 필수 구성 요소
+
+이 문서는 Microsoft 365 Business Premium에 적용 됩니다.
 
 비즈니스를 위한 Microsoft 365을 사용 하 여 조직을 설정 하는 첫 번째 단계는 필수 구성 요소를 충족할 수 있는지 확인 하는 것입니다.
   

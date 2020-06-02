@@ -22,18 +22,20 @@ search.appverid:
 - MET150
 ms.assetid: ed34fff3-2881-4ed4-9906-1ba6bb8dd804
 description: Windows 10 컴퓨터에 32 비트 Office 앱을 자동으로 설치 하 고 업데이트 된 상태로 유지 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6f3a80be9729a3818607c0f42e2cc7ece66a07ee
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 2de492914edbde2afe593aac290c4a634b801443
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401325"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470950"
 ---
 # <a name="prepare-for-office-client-deployment-by-microsoft-365-for-business"></a>비즈니스용 Microsoft 365에서 Office 클라이언트 배포 준비
 
+이 문서는 Microsoft 365 Business Premium에 적용 됩니다.
+
 ## <a name="prepare-to-automatically-install-office-apps-to-client-computers"></a>클라이언트 컴퓨터에 Office 앱 자동 설치 준비
 
-비즈니스용 Microsoft 365을 사용 하 여 Windows 10 컴퓨터에 32 비트 Office 앱을 자동으로 설치 하 고 업데이트를 최신 상태로 유지할 수 있습니다.
+Microsoft 365 Business Premium을 사용 하 여 Windows 10 컴퓨터에 32 비트 Office 앱을 자동으로 설치 하 고 업데이트를 최신 상태로 유지할 수 있습니다.
   
 최종 사용자의 컴퓨터가 Windows 10 Business에 있고 다음을 수행 하는 경우 자동 설치가 가장 효율적으로 작동 합니다.
   

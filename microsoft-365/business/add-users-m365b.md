@@ -27,14 +27,16 @@ search.appverid:
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
 description: Microsoft 365 Business Premium에서 새 사용자를 쉽게 추가 하 고, 해당 장치를 보호 하 고, 역할을 할당 하는 단계를 알아봅니다.
-ms.openlocfilehash: 9d2efe62ed1c48df5c10a765b8d3499934e6aebd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: bb5c3ffe29448437b6c369fc770281aca3355ee7
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401077"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44471222"
 ---
 # <a name="add-more-users"></a>더 많은 사용자 추가
+
+이 문서는 Microsoft 365 Business Premium에 적용 됩니다.
 
 ## <a name="add-new-users"></a>새 사용자 추가
 

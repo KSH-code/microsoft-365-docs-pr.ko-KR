@@ -28,14 +28,14 @@ search.appverid:
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
 description: 보호 정책을 통해 관리 되는 장치에서 회사 데이터를 제거 하는 방법과 Windows 10 장치를 공장 설정으로 다시 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 2d725224631901054480d705ab2adc0f8f4f9353
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 5e6ba7352a6a82811e1c79fe29bff35e3da5639e
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403101"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44471142"
 ---
-# <a name="manage-protected-devices-with-microsoft-365-for-business"></a>비즈니스를 위해 Microsoft 365을 사용 하 여 보호 된 장치 관리
+# <a name="manage-protected-devices-with-microsoft-365-business-premium"></a>Microsoft 365 Business Premium을 사용 하 여 보호 된 장치 관리
 
 사용자가 회사에 장치를 연결 하 고 장치의 장치 또는 Office 앱에 로그인 하 여 디바이스를 조직에 연결한 후에는 설정한 정책에 따라 장치를 보호할 수 있습니다. 연결 된 장치는 **장치** 페이지에 나열 됩니다. 장치를 분실하거나 도난당한 경우 이 페이지에서 회사 데이터를 제거할 수 있습니다. Windows 10 장치의 경우 공장 설정으로 초기화하여 사용자 지정 설정을 지울 수 있습니다. 
 

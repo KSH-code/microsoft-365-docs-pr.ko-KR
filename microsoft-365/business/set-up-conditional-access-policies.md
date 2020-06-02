@@ -25,14 +25,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 캠페인에 대 한 조건부 액세스 정책을 설정 하 여 상당한 추가 보안을 추가 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d7c9cfee2ef00e4ebe231a28ccca185c10f53c6b
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 58ee760877ee2fd7e53ef9463242657ab66a2b6e
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403021"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470650"
 ---
 # <a name="set-up-conditional-access-policies"></a>조건부 액세스 정책 설정
+
+이 문서는 Microsoft 365 Business Premium에 적용 됩니다.
 
 [조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) 정책은 상당히 추가 보안을 추가 합니다. Microsoft는 모든 고객에 게 권장 되는 기본 조건부 액세스 정책 집합을 제공 합니다. 기본 정책은 일반적인 여러 공격 으로부터 조직을 보호 하는 데 도움이 되는 미리 정의 된 정책의 집합입니다. 이러한 일반적인 공격에는 암호 스프레이, replay 및 피싱이 포함 될 수 있습니다.
 

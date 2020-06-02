@@ -29,14 +29,16 @@ search.appverid:
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
 description: 사용자의 개인 Windows 10 장치에서 앱 관리 정책을 만들고 작업 파일을 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: c3e003205da30fa79069946960ef00e4195f0cbc
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: df10470c6bd7aad2f35700a267c4d24d949f569c
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386540"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470870"
 ---
 # <a name="set-application-protection-settings-for-windows-10-devices"></a>Windows 10 장치에서 응용 프로그램 보호 설정 설정하기
+
+이 문서는 Microsoft 365 Business Premium에 적용 됩니다.
 
 ## <a name="create-an-app-management-policy-for-windows-10"></a>Windows 10용 앱 관리 정책 만들기
 

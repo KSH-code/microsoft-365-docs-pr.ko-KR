@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: ''
 description: Custodians 및 해당 데이터 원본에 보류를 배치 하 여 고급 eDiscovery 사례에 대 한 관련 콘텐츠를 보존 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8789889a243bad15f1c29c0bd392d7273574b62c
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 9f540877626d01652912038d69a83598af55ba1d
+ms.sourcegitcommit: ff1af42b036bfdf75729db8c78f10cf4642616ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034128"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44477164"
 ---
 # <a name="manage-holds-in-advanced-ediscovery"></a>Advanced eDiscovery에서 보류 관리
 
@@ -40,7 +40,7 @@ Custodian 보류 정책을 보려면 다음을 수행 합니다.
    
 2. **Custodians** 탭으로 이동 하 여 사례 내의 Custodians을 추가 합니다. 고급 eDiscovery 사례 내에서 custodians을 보류에 추가 하 고 배치 하는 방법에 대 한 자세한 내용은 [Add custodians to a Advanced Ediscovery case](add-custodians-to-case.md)를 참조 하십시오. Custodians를 이미 추가 했 고 대기 상태로 둔 경우 3 단계로 이동 합니다.
    
-3. **보류** 탭으로 이동 하 여 **\<CustodianHold HoldId>** 를 클릭 합니다.
+3. **보류** 탭으로 이동 하 여 **CustodianHold \<HoldId> **을 클릭 합니다.
    
 4. 플라이 아웃 페이지에서는 정책에 대 한 보류 통계를 볼 수 있습니다. Custodian 기반 유지에 쿼리를 적용 하는 등의 작업을 수행할 수도 있습니다. 보류 쿼리를 만들고 조건을 사용 하는 방법에 대 한 자세한 내용은 [키워드 쿼리 및 검색 조건을](keyword-queries-and-search-conditions.md)참조 하십시오.
  
@@ -80,7 +80,7 @@ Custodian 보류 정책을 보려면 다음을 수행 합니다.
      Microsoft 365 그룹 및 Microsoft 팀을 보류 상태로 설정 하는 방법에 대 한 팁은 **FAQ** 섹션을 참조 하십시오.
 
     > [!NOTE]
-    > 사용자의 OneDrive 계정에 대 한 URL에는 UPN (사용자 계정 이름)이 `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com`포함 됩니다 (예:). 드물지만 사용자의 UPN이 변경 되는 경우에는 해당 OneDrive URL도 새 UPN을 통합 하도록 변경 됩니다. 사용자의 OneDrive 계정이 custodial 되지 않은 보류에 속하며 해당 UPN이 변경 되는 경우에는 보류를 업데이트 하 고 새 OneDrive URL을 가리키도록 해야 합니다. 자세한 내용은 [UPN 변경 내용이 OneDrive URL에 미치는 영향](https://docs.microsoft.com/onedrive/upn-changes)을 참조하세요.
+    > 사용자의 OneDrive 계정에 대 한 URL에는 UPN (사용자 계정 이름)이 포함 됩니다 (예: `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` ). 드물지만 사용자의 UPN이 변경 되는 경우에는 해당 OneDrive URL도 새 UPN을 통합 하도록 변경 됩니다. 사용자의 OneDrive 계정이 custodial 되지 않은 보류에 속하며 해당 UPN이 변경 되는 경우에는 보류를 업데이트 하 고 새 OneDrive URL을 가리키도록 해야 합니다. 자세한 내용은 [UPN 변경 내용이 OneDrive URL에 미치는 영향](https://docs.microsoft.com/onedrive/upn-changes)을 참조하세요.
 
      c. **Exchange 공용 폴더** -설정/해제 스위치를 all 위치로 이동 하 여 Exchange Online 조직의 모든 공용 폴더를 보류 상태로 전환 합니다. 특정 공용 폴더를 선택 하 여 보류 상태로 설정할 수는 없습니다. 공용 폴더를 보존 하지 않으려면 toggle 스위치를 **"없음"** 으로 설정 된 상태로 둡니다.
 

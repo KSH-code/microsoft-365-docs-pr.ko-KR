@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: 1f86c904d3168eef84b4d48d8d578dd7a935267c
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 8bfd71c4a143dee54ae006c8c54d711a8785480f
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327729"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470492"
 ---
 # <a name="security-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 보안
 
@@ -27,7 +27,6 @@ Microsoft Managed Desktop은 다양 한 Microsoft 기술을 사용 하 여 관�
 
 Microsoft Managed Desktop에서 사용 되는 데이터 저장, 사용 및 보안 방법에 대 한 자세한 내용은 백서를 다운로드 하세요 [https://aka.ms/mmd-data](https://aka.ms/mmd-data) .
 
-Microsoft Managed Desktop의 보안 운영 팀과 장치에 대 한 보안을 제공 하는 방법에 대 한 자세한 내용은 [Microsoft Managed Desktop 보안 작업](https://www.microsoft.com/videoplayer/embed/RE4q6nP)비디오를 참조 하세요. 
 
 ## <a name="device-security"></a>장치 보안
 

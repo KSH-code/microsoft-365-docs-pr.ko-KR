@@ -28,14 +28,16 @@ search.appverid:
 - MOE150
 ms.assetid: 52089919-9a5e-475f-a49a-f65369487861
 description: '기본 구성 및 사용자의 개인 모바일 장치에 대 한 회사 데이터를 보호 하기 위한 응용 프로그램 관리 정책 추가에 대해 알아봅니다. '
-ms.openlocfilehash: 1d76b8fde6db4cf99d29fcfff000c20f0e7c18fe
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6dd6bc5c16ffbbd6ed62f16ad11e1eeb8e06a193
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401285"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470910"
 ---
 # <a name="protect-work-files-on-devices"></a>장치에서 작업 파일 보호
+
+이 문서는 Microsoft 365 Business Premium에 적용 됩니다.
 
 오늘날에는 사용자가 자신의 장치에 연결 되 고 개인 및 작업 수명 충돌에 따라 회사 데이터를 직원의 개인 장치로 이동할 수 있습니다. 여기서 구성 하는 설정은 사용자의 개인 설정 또는 데이터에 영향을 주지 않으면 서 제어를 다시 수행 하 고 작업 파일을 보호 하는 데 도움이 될 수 있습니다.
   
