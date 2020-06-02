@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 681fb02e504c590610a0ed040756fd418f4221fd
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: bf4abfd6f5ab19c3bc89673b0cc2255e026d1f7a
+ms.sourcegitcommit: 9d7a14bf4c26bda18561fa45885225d95855fb5c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352265"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44474539"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -47,7 +47,7 @@ EDM 기반 분류를 사용하면 중요한 정보 데이터베이스의 정확�
 
 이 문서에 설명된 작업을 수행하려면 전역 관리자, 준수 관리자 또는 Exchange Online 관리자여야 합니다. DLP 권한에 관한 자세한 내용은  [사용 권한](data-loss-prevention-policies.md#permissions)을 참조하세요.
 
-일반적으로 사용 가능하게 되면 EDM 기반 분류가 다음 구독에 포함됩니다.
+EDM 기반 분류가 이 구독에 포함되어 있습니다
 
 - Office 365 E5
 - Microsoft 365 E5
@@ -447,11 +447,16 @@ Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $us
 
 ### <a name="part-3-use-edm-based-classification-with-your-microsoft-cloud-services"></a>3단계: Microsoft 클라우드 서비스로 EDM 기반 분류 사용
 
-Exchange Online용 DLP(전자 메일), Business용 OneDrive(파일), Microsoft Teams(대화) 및 Microsoft Cloud App Security DLP 정책은 EDM 중요 정보 유형을 지원합니다.
+이러한 위치는 지원 EDM 중요 정보 유형입니다.
 
-다음 시나리오에 대한 EDM 중요 정보 유형은 현재 개발 중이지만 아직 사용할 수는 없습니다.
-
+- Exchange Online용 DLP(전자 메일)
+- 비즈니스용 OneDrive(파일)
+- Microsoft Teams(대화)
 - SharePoint용 DLP(파일)
+- Microsoft Cloud App Security DLP 정책
+
+다음 시나리오에 대한 EDM 중요 정보 유형은 현재 개발 중이지만, 아직 사용할 수는 없습니다.
+
 - 민감도 레이블과 보존 레이블의 자동 분류
 
 #### <a name="to-create-a-dlp-policy-with-edm"></a>EDM으로 DLP 정책 만들기

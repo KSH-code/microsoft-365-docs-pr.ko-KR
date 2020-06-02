@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 문서 또는 전자 메일에 레이블을 자동으로 할당하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 795803b79a60c7fb8ce6154c61730d10baabdce1
-ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
+ms.openlocfilehash: bfbebf78664cdce34d224c5cc4b24ed6a9ad0646
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44419084"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470665"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>민감도 레이블을 콘텐츠에 자동으로 적용
 
@@ -191,7 +191,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
     - 원본 보기에서 파일 콘텐츠를 보려면(전자 메일에 대해 지원되지 않음), 사용자가 전역 관리자가 아닌 경우 **콘텐츠 탐색기 콘텐츠 뷰어** 역할을 보유하고 있어야 합니다. 이 권한이 없는 경우, **일치 하는 항목** 탭에서 항목을 선택할 때 미리 보기 창이 표시되지 않습니다.
 
 - SharePoint 및 OneDrive에서 파일에 자동 레이블을 지정하려면 다음을 수행합니다.
-    - [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용(공개 미리 보기)](sensitivity-labels-sharepoint-onedrive-files.md)합니다.
+    - [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블을 사용하도록 설정](sensitivity-labels-sharepoint-onedrive-files.md)합니다.
     - 자동 레이블 지정 정책이 실행될 때 다른 프로세스나 사용자가 파일을 열면 안됩니다.
 
 - 기본 제공 민감도 유형이 아닌 [사용자 지정 민감도 정보 유형](custom-sensitive-info-types.md)을 사용하려는 경우: 

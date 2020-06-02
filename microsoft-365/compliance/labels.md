@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 거버넌스를 위해 보존 레이블을 사용하여 조직 전체의 데이터를 분류하고, 해당 분류에 따라 보존 규칙을 시행하는 방법을 알아봅니다. 보존 레이블을 사용하여 Microsoft 365용 레코드 관리 솔루션을 구현할 수도 있습니다.
-ms.openlocfilehash: fa24bacedf0e8bd3707fa9a6fd87fff81041e2e8
-ms.sourcegitcommit: 21977f5cb6b01aee5cae54979717530b2a31a46a
+ms.openlocfilehash: 4291e32760a585be7610612b81cc54ecfcf0863e
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44411045"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432245"
 ---
 # <a name="learn-about-retention-labels"></a>보존 레이블에 대한 자세한 정보
 
@@ -362,4 +362,6 @@ Outlook에서는 보존 레이블 또는 보존 정책을 적용하는 규칙을
     
 - [정보 관리 정책](intro-to-info-mgmt-policies.md) (삭제만 해당) 
     
+## <a name="next-steps"></a>다음 단계
 
+보존 레이블을 만들고 게시할 준비가 되었으면 [보존 레이블 만들기, 게시 및 자동 적용](create-retention-labels.md)을 참조하세요.

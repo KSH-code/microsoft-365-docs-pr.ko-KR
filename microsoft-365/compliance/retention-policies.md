@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체 또는 특정 위치 또는 사용자에게 단일 정책을 적용할 수 있고 모든 콘텐츠 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: b91b4be724c3d664cdd237fc01596372a2a6bdcc
-ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
+ms.openlocfilehash: cf38eecaeaf23371c370ad07e723177e3770c7ba
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412817"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432339"
 ---
 # <a name="learn-about-retention-policies"></a>보존 정책에 대해 자세히 알아보기
 
@@ -178,8 +178,12 @@ SharePoint 및 OneDrive의 30일간의 유예 기간은 Exchange의 30일 지연
 
 ## <a name="related-information"></a>관련 정보
 
-- [보존 정책 생성 및 구성](create-retention-policies.md)
 - [보존 레이블에 대한 자세한 정보](labels.md)
 - [SharePoint Online 제한 사항](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
 - [Microsoft Teams의 제한 사항 및 사양](https://docs.microsoft.com/microsoftteams/limits-specifications-teams) 
 - [SEC 규칙 17a-4 준수](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
+
+## <a name="next-steps"></a>다음 단계
+
+보존 정책을 만들 준비가 되었으면 [보존 정책 만들기 및 구성](create-retention-policies.md)을 참조하세요.
+
