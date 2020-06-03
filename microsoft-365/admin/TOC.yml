@@ -218,6 +218,8 @@
           href: manage/manage-messages.md
         - name: 릴리스 옵션 설정
           href: manage/release-options-in-office-365.md
+        - name: 새 기능 표시 또는 숨기기
+          href: manage/show-hide-new-features.md
         - name: Power BI 사용 현황 분석
           items:
             - name: 사용량 분석 정보
