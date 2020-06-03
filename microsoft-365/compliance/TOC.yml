@@ -281,7 +281,7 @@
           href: retention-policies-teams.md
         - name: Exchange에 대한 보존
           href: retention-policies-exchange.md
-        - name: 파일 플랜 관리자
+        - name: 파일 플랜
           href: file-plan-manager.md
         - name: 보존 레이블에 대한 자세한 정보
           href: labels.md
@@ -333,7 +333,7 @@
           href: records.md
         - name: 파일 플랜
           items:
-            - name: 파일 플랜 관리자
+            - name: 보존 레이블 관리
               href: file-plan-manager.md
             - name: 보존 레이블에 대한 자세한 정보
               href: labels.md
