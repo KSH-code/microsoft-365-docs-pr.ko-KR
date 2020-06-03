@@ -11,7 +11,15 @@
         - name: 설정 계획
           href: setup/plan-your-setup.md
         - name: 둘러보기 설정을 사용하여 조직 설정
-          href: setup/setup.md
+          items:
+            - name: Microsoft 365 Business Basic
+              href: setup/setup-business-basic.md
+            - name: Microsoft 365 Business Standard
+              href: setup/setup-business-standard.md
+            - name: Microsoft Business Premium
+              href: ../business/set-up.md
+            - name: 비즈니스용 Microsoft 365 앱
+              href: setup/setup-apps-for-business.md
         - name: 설정 페이지 및 마법사 살펴보기
           href: setup/o365-setup-wizard-and-setup-page.md
         - name: 데이터 마이그레이션
@@ -21,7 +29,7 @@
         - name: Teams 배포
           href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
         - name: 모든 사용자를 위한 교육
-          href: 'https://support.office.com/en-us/office-training-center'
+          href: 'https://support.office.com/office-training-center'
         - name: 내가 구독한 것은 무엇인가요?
           href: admin-overview/what-subscription-do-i-have.md
         - name: 로그인 페이지 사용자 지정
@@ -240,10 +248,42 @@
           href: security-and-compliance/set-up-multi-factor-authentication.md
         - name: Office 2013에 대해 최신 인증 사용
           href: security-and-compliance/enable-modern-authentication.md
+        - name: Microsoft Business Premium 보안
+          items:
+            - name: 데이터 보호를 위한 필수 조건
+              href: ../business/pre-requisites-for-data-protection.md
+            - name: 보안 기능
+              href: ../business/security-features.md
+            - name: 위협 방지 강화
+              href: ../business/increase-threat-protection.md
+            - name: 준수 기능 설정
+              href: ../business/set-up-compliance.md
         - name: 보안 점수
           href: 'https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-new'
         - name: GDPR 준수 가이드
           href: security-and-compliance/gdpr-compliance.md
+    - name: 장치 관리
+      items:
+        - name: 정책 및 장치 보기 및 편집
+          href: ../business/view-policies-and-devices.md
+        - name: 회사 데이터 제거
+          href: ../business/remove-company-data.md
+        - name: 장치를 공장 설정으로 초기화
+          href: ../business/reset-devices-to-factory-settings.md
+        - name: Intune 설정에 대한 맵 보호 기능
+          href: ../business/map-protection-features-to-intune-settings.md
+        - name: Android 및 iOS용 앱 보호 설정
+          href: ../business/app-protection-settings-for-android-and-ios.md
+          items:
+            - name: Android 또는 iOS의 설정 확인
+              href: ../business/validate-settings-on-android-or-ios.md
+        - name: Windows 10 PC에 대한 장치 보호 설정
+          href: ../business/protection-settings-for-windows-10-pcs.md
+          items:
+            - name: Windows 10 PC의 설정 확인
+              href: ../business/validate-settings-on-windows-10-pcs.md
+        - name: Windows 10 PC의 앱 보호 설정
+          href: ../business/protection-settings-for-windows-10-devices.md
     - name: 고객과 협력
       href: work-with-customers/index.yml
       items:
