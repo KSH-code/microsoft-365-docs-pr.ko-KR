@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 핵심 eDiscovery 사례와 연결 된 보류를 만들어 조사와 관련이 있을 수 있는 콘텐츠를 보존할 수 있습니다.
-ms.openlocfilehash: 8993a3e88ab7513713086499a316c92fdb7509cb
-ms.sourcegitcommit: ff1af42b036bfdf75729db8c78f10cf4642616ac
+ms.openlocfilehash: 4ec9ff37a49f783afc25835ca91208608ab4733a
+ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44477198"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44498331"
 ---
 # <a name="create-an-ediscovery-hold"></a>eDiscovery 보존 만들기
 
@@ -32,12 +32,9 @@ EDiscovery 보류를 만든 후에는 보류를 적용 하는 데 최대 24 시�
 
 보류를 만들 때 지정한 콘텐츠 위치에 보존 되는 콘텐츠의 범위를 지정 하려면 다음 옵션을 사용할 수 있습니다.
   
-- 모든 콘텐츠가 보류 되는 영구 보존을 만듭니다. 또는 검색 쿼리와 일치 하는 콘텐츠만 보존 되는 쿼리 기반 보류를 만들 수 있습니다.
+- 지정 된 위치에 있는 모든 콘텐츠가 보존 되는 무한 보류를 만듭니다. 또는 검색 쿼리와 일치 하는 지정 된 위치에 있는 콘텐츠만 보존 되도록 쿼리 기반 보류를 만들 수 있습니다.
 
-- 해당 날짜 범위 내에서 전송, 수신 또는 만든 콘텐츠만 보존 하는 날짜 범위를 지정할 수 있습니다. 또는 보내기, 수신 또는 만든 시기에 관계 없이 모든 콘텐츠를 저장할 수 있습니다.
-
-> [!NOTE]
-> 조직의 모든 핵심 eDiscovery 사례에 대해 최대 1만 eDiscovery 보류를 보유할 수 있습니다.
+- 해당 날짜 범위 내에서 전송, 수신 또는 만든 콘텐츠만 보존 하는 날짜 범위를 지정할 수 있습니다. 또는 보낸 날짜, 수신 또는 만든 시기에 관계 없이 지정 된 위치에 있는 모든 콘텐츠를 보유할 수 있습니다.
   
 ## <a name="how-to-create-an-ediscovery-hold"></a>EDiscovery 보존을 만드는 방법
 
@@ -64,6 +61,9 @@ EDiscovery 보류를 만든 후에는 보류를 적용 하는 데 최대 24 시�
    b. **사이트 위치** - **사이트 선택을** 클릭 한 다음 **사이트 선택을** 클릭 하 여 SharePoint 및 OneDrive 계정을 보류 하도록 지정 합니다. 보류 하도록 설정할 각 사이트의 URL을 입력 합니다. Microsoft Team, Office 365 그룹 또는 Yammer 그룹에 대 한 SharePoint 사이트의 URL을 추가할 수도 있습니다. **선택을**클릭 하 고 **완료**를 클릭 합니다.
   
    c. **Exchange 공용 폴더** ![ ](../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) Exchange Online 조직의 모든 공용 폴더를 보류 상태로 설정 하려면 toggle switch toggle Control을 **all** 위치로 이동 합니다. 특정 공용 폴더를 선택 하 여 보류 상태로 설정할 수는 없습니다. 공용 폴더를 보존 하지 않으려면 toggle 스위치를 **"없음"** 으로 설정 된 상태로 둡니다.
+
+   > [!NOTE]
+   > 하나 이상의 콘텐츠 위치를 보류에 추가 해야 합니다. 그렇지 않으면 eDiscovery 보류 정적 할당은 보류 중인 항목이 없음을 나타냅니다.
 
 8. 보류에 콘텐츠 위치를 모두 추가한 후에 **다음**을 클릭 합니다.
 

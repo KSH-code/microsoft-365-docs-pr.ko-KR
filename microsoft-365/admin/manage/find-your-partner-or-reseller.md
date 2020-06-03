@@ -23,12 +23,12 @@ search.appverid:
 - BEA160
 ms.assetid: b6c18a9b-2aed-4c84-9d75-af709160258c
 description: '새 Microsoft 365 파트너를 찾거나 이전에 작업 한 파트너에 대 한 연락처 정보를 가져오는 방법을 알아봅니다. '
-ms.openlocfilehash: 749f1a12ffbd1512b15a83e7979aea3b0cb3be48
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b116fc77f41efa2e73bfa50bb187897d167d9998
+ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399767"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44515798"
 ---
 # <a name="find-your-partner-or-reseller"></a>파트너 또는 대리점 찾기
 
@@ -47,7 +47,7 @@ ms.locfileid: "44399767"
 ## <a name="find-contact-information-for-a-partner-youve-worked-with-in-the-past"></a>과거에 거래한 적 있는 파트너의 연락처 정보 찾기
 
 > [!NOTE]
-> 일부 경우에는 이전에 사용한 파트너에 대해 Microsoft 365 관리 센터에서 정보를 제거할 수 있습니다. 이 정보는 최신 상태가 아닐 수 있습니다. 조직에서 구매를 담당하는 사람이나 부서에 문의하여 연락할 파트너를 알아보는 것이 좋습니다. 
+> 경우에 따라 이전에 작업 한 파트너에 대해 Microsoft 365 관리 센터에서 정보를 찾을 수 있습니다. 이 정보는 최신 상태가 아닐 수 있습니다. 조직에서 구매를 담당하는 사람이나 부서에 문의하여 연락할 파트너를 알아보는 것이 좋습니다. 
   
 ## <a name="get-partner-info-in-the-admin-center"></a>관리 센터에서 파트너 정보 가져오기
 

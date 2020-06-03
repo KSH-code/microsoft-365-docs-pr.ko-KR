@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
 description: 앱에 대 한 사용자 동의 및 타사 앱이 사용자의 Microsoft 365 정보에 액세스할 수 있도록 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: df81d2cf3e1d796e462d2b9240b8288273ed5372
-ms.sourcegitcommit: ff1af42b036bfdf75729db8c78f10cf4642616ac
+ms.openlocfilehash: 955ae9e58c14dbb8012a440ef6c336f44b0760a4
+ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44477175"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44498320"
 ---
 # <a name="managing-user-consent-to-apps-in-microsoft-365"></a>Microsoft 365에서 앱에 대 한 사용자 동의 관리
 
@@ -42,7 +42,7 @@ ms.locfileid: "44477175"
 
 1. 관리 센터에서 **Settings** \> **조직 설정**  >  [서비스](https://go.microsoft.com/fwlink/p/?linkid=2053743) 설정 페이지로 이동한 다음 **앱에 대 한 사용자 동의**를 선택 합니다.
 
-2. **앱에 대 한 사용자 동의** 페이지에서 통합 앱을 설정 하거나 해제 하는 옵션을 선택 합니다.
+2. **앱에 대 한 사용자 동의** 페이지에서 사용자 동의를 설정 하거나 해제 하는 옵션을 선택 합니다.
 
 ## <a name="more-info"></a>추가 정보
 <a name="__toc379982114"> </a>

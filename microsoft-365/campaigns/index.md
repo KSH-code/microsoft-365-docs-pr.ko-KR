@@ -25,10 +25,10 @@ search.appverid:
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 캠페인에 대 한 Microsoft 365
 ms.openlocfilehash: 167b265676d3c3bc9025a0c0e998379f72bb9e52
-ms.sourcegitcommit: ad789f1e7bf9c9dc0d45c731373e667a26ed30b1
+ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
+ms.lasthandoff: 06/02/2020
 ms.locfileid: "43632038"
 ---
 <a name="microsoft-365-for-campaigns"></a>캠페인을 위한 Microsoft 365
@@ -57,7 +57,7 @@ ms.locfileid: "43632038"
 포함 된 항목에 대 한 자세한 내용은 [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business)를 참조 하세요. 
 
 
-<a name="get-started"></a>시작하기
+<a name="get-started"></a>시작
 --------------------------
 
 <ul class="panelContent cardsJ">

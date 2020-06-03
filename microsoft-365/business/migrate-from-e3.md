@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Office 365 E3에서 Microsoft 365 Business Premium로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: 23d024ed7f18fe6a5f5dc9b59e3ad20069dc3e6a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6571fb3ba53620fbb8b97d8f5fd76832f95b82c3
+ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402241"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44515902"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Office 365 E3에서 Microsoft 365 Business Premium으로 마이그레이션 
 
@@ -78,6 +78,7 @@ Microsoft 365 Business Premium에는 최고급 비즈니스에 필요한 모든 
 - 구독 구성 (예: DNS 레코드 및 도메인 이름)
 - 사용자 및 그룹 계정 및 인증 설정 (예: 다단계 인증 또는 조건부 액세스 정책)
 - 팀, Exchange Online 사서함, SharePoint Online 사이트, 비즈니스용 OneDrive 폴더, OneNote 전자 필기장 등의 생산성 서비스 구성 및 데이터
+- Office 응용 프로그램은 자동으로 확장 됩니다. Office 365 최신 라이선스는 매 72 시간 마다 사용자의 라이선스 할당을 확인 하 고 Office 응용 프로그램을 사용자 구독과 일치 하는 버전으로 변환 합니다.
 
 ### <a name="windows-10"></a>Windows 10
 

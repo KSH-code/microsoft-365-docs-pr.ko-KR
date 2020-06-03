@@ -19,12 +19,12 @@ ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 ms.custom:
 - seo-marvel-apr2020
 description: 잠재적인 위협, 데이터 손실 및 사용 권한 문제를 모니터링 하려면 Office 365 및 Microsoft 365의 보안 및 준수 센터에서 알림 정책을 만듭니다.
-ms.openlocfilehash: 92f7146c40bbcbd93eb36e43a4dff9c8a807c403
-ms.sourcegitcommit: 436841236dc41390a3be9f8936d19d3d017fa35c
+ms.openlocfilehash: 48c187d7456f4b0a8e1da7558b7813fc2a8dc9f7
+ms.sourcegitcommit: 33be6075fcc89d4c0a48fa7e59f3b3ebc605d9f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "44429225"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44520172"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>보안 및 준수 센터의 경고 정책
 
@@ -42,6 +42,9 @@ Microsoft 365 보안 및 준수 센터의 경고 정책 및 알림 대시보드 
 ![경고 정책이 작동 하는 방식에 대 한 개요](../media/e02a622d-b429-448b-8107-dd1a4770b4e0.png)
 
 1. 조직의 관리자가 보안 및 준수 센터의 **경고 정책** 페이지를 사용 하 여 경고 정책을 만들고 구성 하 고 켭니다. 보안 & 준수 센터 PowerShell에서 **remove-protectionalert** cmdlet을 사용 하 여 경고 정책을 만들 수도 있습니다. 경고 정책을 만들려면 보안 및 준수 센터에서 알림 관리 역할 또는 조직 구성 역할을 할당 받아야 합니다.
+
+   > [!NOTE]
+   > 정책에 의해 경고가 트리거되기 전에 경고 정책을 만들거나 업데이트 한 후 최대 24 시간이 걸릴 수 있습니다. 이는 정책을 알림 검색 엔진에 동기화 해야 하기 때문입니다.
 
 2. 사용자가 경고 정책의 조건과 일치 하는 작업을 수행 합니다. 악성 프로그램 공격의 경우 조직의 사용자에 게 전송 되는 감염 된 전자 메일 메시지는 경고를 트리거합니다.
 
@@ -179,6 +182,12 @@ Microsoft는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적 외�
 다음 스크린샷에서는 집계 된 네 개의 이벤트가 있는 경고를 보여 줍니다. 활동 목록에는 경고와 관련 된 4 개의 전자 메일 메시지에 대 한 정보가 포함 됩니다.
 
 ![알림 집계의 예](../media/AggregatedAlertExample.png)
+
+경고 집계에 대해서는 다음 사항에 유의 하세요.
+
+- **잠재적으로 악의적인 URL** 에 의해 트리거되는 경고 [기본 경고 정책이](#default-alert-policies) 집계 되지 않습니다. 이 정책이 트리거하는 알림은 각 사용자와 전자 메일 메시지에 고유 하기 때문입니다.
+
+- 현재 **적중 횟수** 알림 속성은 모든 경고 정책에 대 한 집계 된 이벤트 수를 나타내지 않습니다. 이러한 경고 정책에 의해 트리거되는 경고의 경우 **메시지 목록 보기** 또는 알림에서 **활동 보기** 를 클릭 하 여 집계 된 이벤트를 볼 수 있습니다. 여기에서는 **적중 횟수** 알림 속성에 나열 된 집계 이벤트 수를 모든 경고 정책에서 사용할 수 있도록 설정 하 고 있습니다.
 
 ## <a name="rbac-permissions-required-to-view-alerts"></a>경고를 확인 하는 데 필요한 RBAC 사용 권한
 

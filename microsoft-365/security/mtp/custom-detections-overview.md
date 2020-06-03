@@ -17,19 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: a9ba61650b69e3c42506735c90ae05b917a53209
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: cdbaf9cfd2172656ed75cb3c0a1a9e361070f25b
+ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42931747"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44498354"
 ---
 # <a name="custom-detections-overview"></a>사용자 지정 검색 개요
 
 **적용 대상:**
 - Microsoft 위협 방지
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 사용자 지정 검색을 사용 하면 의심 스러운 위반 작업과 잘못 구성 된 끝점을 포함 하 여 다양 한 이벤트 및 시스템 상태를 사전에 모니터링 하 고 응답할 수 있습니다. 이는 응답 작업 뿐만 아니라 경고를 자동으로 트리거하는 사용자 지정 가능한 검색 규칙이 적용 될 수 있습니다.
 

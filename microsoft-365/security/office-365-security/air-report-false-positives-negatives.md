@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 2dd67af62a400f3e217f146e6d0ee213d74ad99a
-ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
+ms.openlocfilehash: 837232550ca392a364b9842f64a1c3f0d790a502
+ms.sourcegitcommit: 33be6075fcc89d4c0a48fa7e59f3b3ebc605d9f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44262417"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44520161"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>자동화 된 조사 및 응답 기능에서 가양성/네거티브를 보고 하는 방법
 
@@ -34,7 +34,7 @@ ms.locfileid: "44262417"
 Office 365 누락 또는 지워지는 [의 검색에 대 한 자동화 된 조사 및 응답 (AIR) 기능](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office) 이 문제를 해결 하기 위해 수행할 수 있는 몇 가지 단계가 있습니다. 다음을 수행할 수 있습니다.
 - [허위 긍정/음수를 Microsoft에 보고 합니다](#report-a-false-positivenegative-to-microsoft-for-analysis).
 - 필요한 경우 [경고를 조정 합니다](#adjust-an-alert-to-prevent-false-positives-from-recurring) . 한 
-- [장치에 대해 수행 된 재구성 작업을 실행 취소](#undo-a-remediation-action)합니다. 
+- [수행한 수정 작업을 취소](#undo-a-remediation-action)합니다. 
 
 이 문서를 참조 하십시오. 
 
@@ -61,7 +61,7 @@ Office 365 AIR에 전자 메일 메시지, 전자 메일 첨부 파일, 전자 �
 
 위협 탐색기를 사용 하는 경우 보안 운영 팀은 작업의 영향을 받는 전자 메일을 찾아 작업을 취소할 수 있습니다.
 
-|시나리오  |실행 취소 옵션  |자세한 정보 |
+|시나리오  |실행 취소 옵션  |자세히 알아보기 |
 |---------|---------|---------|
 |전자 메일 메시지가 사용자의 정크 메일 폴더로 라우팅 됨     |-메시지를 사용자의 지운 편지함 폴더로 이동 합니다.<br/>-사용자의 받은 편지 함으로 메시지를 이동 합니다. <br/>-메시지 삭제          |[Office 365에서 제공 된 악성 전자 메일 찾기 및 조사](https://docs.microsoft.com/microsoft-365/security/office-365-security/investigate-malicious-email-that-was-delivered) |
 |전자 메일 메시지 또는 파일이 격리 됨     |-전자 메일 또는 파일을 릴리스 합니다. <br/>-전자 메일 또는 파일 삭제         |[Office 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리](https://docs.microsoft.com/microsoft-365/security/office-365-security/manage-quarantined-messages-and-files) |

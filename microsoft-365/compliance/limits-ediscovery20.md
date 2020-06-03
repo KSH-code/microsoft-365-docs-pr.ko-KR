@@ -14,26 +14,26 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365의 고급 eDiscovery 솔루션에 적용 되는 제한 사항에 대해 알아봅니다. 검색 도구를 사용 하 여 사례 데이터를 수집 하는 경우 대/소문자 제한, 인덱싱 제한 및 검색 제한 사항이 포함 됩니다.
-ms.openlocfilehash: 5fe14aec3be9de2ec614ecf3737387f08d2e7b88
-ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
+ms.openlocfilehash: babc05cc5c74f435f0be6fbc8eafd80f09a77b75
+ms.sourcegitcommit: 33be6075fcc89d4c0a48fa7e59f3b3ebc605d9f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44224665"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44520150"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Advanced eDiscovery 제한 사항
 
 이 문서에서는 Microsoft 365의 고급 eDiscovery 솔루션에 대 한 제한 사항에 대해 설명 합니다.
 
-## <a name="case-limits"></a>사례 제한
+## <a name="case-and-review-set-limits"></a>사례 및 검토 제한 설정
 
-다음 표에는 Advanced eDiscovery의 사례 제한이 나와 있습니다.
+다음 표에는 Advanced eDiscovery의 사례 및 검토 집합에 대 한 제한이 나와 있습니다.
 
 |**제한 설명**|**제한 유형**|
 |:-----|:-----|
 |사례에 추가할 수 있는 총 문서 수 (사례에서 모든 검토 집합의 경우)입니다.  <br/> |1,000,000  <br/> |
-|부하 집합 당 총 파일 크기입니다.  <br/> |100GB  <br/> |
-|하루 동안 사례에 로드 된 총 데이터 양<br/> |2TB <br/> |
+|부하 집합 당 총 파일 크기입니다. 여기에는 비 Office 365을 검토 집합으로 로드 하는 작업이 포함 됩니다.  <br/> |100GB  <br/> |
+|조직에서 일별 모든 검토 집합에 로드 된 총 데이터 양<br/> |2TB <br/> |
 |사례 당 최대 부하 집합 수입니다.  <br/> |15  <br/> |
 |사례 당 최대 검토 집합 수입니다.  <br/> |20cm(8 <br/> |
 |||
@@ -60,7 +60,7 @@ ms.locfileid: "44224665"
 |동시에 실행할 수 있는 최대 검색 수입니다.  <br/> |제한 없음  <br/> | 
 |단일 사용자가 동시에 시작할 수 있는 최대 검색 수입니다.  <br/> |10    <br/> | 
 |검색 쿼리의 최대 문자 수 (연산자 및 조건 포함)입니다.  <br/> |**사서함**: 1만<br/>**사이트**: 4000-최대 20 <sup>개의 사이트를</sup> 검색할 때 모든 사이트 또는 2000를 검색 하는 경우 <br/> |
-|접두사 와일드 카드에 대 한 최소 영숫자 문자 수입니다. 예를 **들면 \* 1** 또는 **set \* **입니다. <br/> |3   <br/> |  
+|접두사 와일드 카드에 대 한 최소 영숫자 문자 수입니다. 예를 **들면 \* 1** 또는 **set \* **입니다. <br/> |3(sp3)  <br/> |  
 |접두사 와일드 카드를 사용 하 여 정확한 구문을 검색 하거나 접두사 와일드 카드와 **근사** 부울 연산자를 사용 하는 경우 반환 되는 최대 variant입니다.  <br/> |1만 <sup>3</sup> <br/> |
 |검색에 대 한 미리 보기 페이지에 표시 되는 사용자 사서함 당 최대 항목 수입니다. 최신 항목이 표시 됩니다.   <br/> |100  <br/> |
 |검색에 대 한 미리 보기 페이지에 표시 되는 모든 사서함의 최대 항목 수입니다.  <br/> |1,000  <br/> |

@@ -17,19 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 46849aa81da5a615a5dff7c5e2ac28566443d3ee
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 47486f34f9926d83e52ba206f63d3e85286527dc
+ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633522"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44515822"
 ---
 # <a name="emailurlinfo"></a>EmailUrlInfo
 
 **적용 대상:**
 - Microsoft 위협 방지
-
-
 
 [고급 헌팅](advanced-hunting-overview.md) 스키마의 `EmailUrlInfo` 표에는 Office 365 ATP에서 처리된 전자 메일의 URL 및 첨부 파일에 대한 정보가 포함되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 

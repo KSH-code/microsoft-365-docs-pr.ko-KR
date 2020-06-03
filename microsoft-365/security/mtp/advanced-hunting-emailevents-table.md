@@ -1,6 +1,6 @@
 ---
 title: 고급 헌팅 스키마의 EmailEvents 표
-description: 고급 구하기 스키마의 EmailEvents 테이블에서 Microsoft 전자 메일과 연결 된 이벤트에 대해 자세히 알아보기
+description: 고급 구하기 스키마의 EmailEvents 테이블에서 Microsoft 365 전자 메일에 연결 된 이벤트에 대해 자세히 알아보기
 keywords: 고급 구하기, 위협 검색, 사이버 위협 요소 검색, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, column, data type, description, 결과,, 메시지, 첨부 파일 id, 첨부 파일 이름, 맬웨어, 피싱 결과, 첨부 파일 수, 링크 개수, url 개수
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 3146c428edcf276d0a4d5e7797ed913be48dd2ae
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: be86f446e05952f7e88dc32e12a6a0d05e380afd
+ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633534"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44515858"
 ---
 # <a name="emailevents"></a>EmailEvents
 

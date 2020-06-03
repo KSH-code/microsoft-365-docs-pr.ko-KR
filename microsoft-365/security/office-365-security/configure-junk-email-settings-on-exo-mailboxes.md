@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online 사서함에서 정크 메일 설정을 구성 하는 방법을 알 수 있습니다. 이러한 설정 중 상당수는 Outlook 또는 웹용 Outlook에서 사용자에 게 제공 됩니다.
-ms.openlocfilehash: 72b2680cb16e9d8d0f33ee3ec8a080206c68bf97
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 40364db9d4af9e093d8f2f74ee3c0f0373b1671a
+ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352513"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44498666"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Exchange Online 사서함에 대한 정크 메일 설정 구성
 
@@ -42,9 +42,9 @@ Exchange Online의 사서함이 있는 Microsoft 365 조직에서 조직 스팸 
 관리자는 Exchange Online PowerShell을 사용 하 여 사서함에 대 한 정크 메일 규칙의 상태를 사용 하지 않도록 설정 하 고 사용 하도록 설정할 수 있습니다. 또한 관리자는 Exchange Online PowerShell을 사용 하 여 사서함의 수신 허용 목록 컬렉션, 즉 수신 허용-보낸 사람 목록 및 수신 거부 목록에 있는 항목을 구성할 수 있습니다.
 
 > [!NOTE]
-> 사용자가 자체 수신 허용-보낸 사람 목록에 추가한 보낸 사람의 메시지는 EOP 필터링 (SCL은-1)을 건너뜁니다. 사용자가 Outlook에서 수신 허용-보낸 사람 목록에 항목을 추가 하지 못하도록 하려면이 항목 뒷부분의 [outlook의 정크 메일 설정](#about-junk-email-settings-in-outlook) 섹션에 설명 된 대로 그룹 정책을 사용 합니다.
+> 사용자가 자체 수신 허용-보낸 사람 목록에 추가한 보낸 사람의 메시지는 EOP (SCL is-1)의 일부로 연결 필터링을 건너뜁니다. 사용자가 Outlook에서 수신 허용-보낸 사람 목록에 항목을 추가 하지 못하도록 하려면이 항목 뒷부분의 [outlook의 정크 메일 설정](#about-junk-email-settings-in-outlook) 섹션에 설명 된 대로 그룹 정책을 사용 합니다. 정책 필터링, 콘텐츠 필터링 및 ATP (Advanced Threat Protection) 확인은 여전히 메시지에 적용 됩니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 다음 절차를 수행 하는 경우에만 Exchange Online PowerShell을 사용할 수 있습니다. Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.
 
@@ -89,7 +89,7 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 
 사서함에서 정크 메일 규칙을 사용 하거나 사용 하지 않도록 성공적으로 설정 했는지 확인 하려면 다음 절차 중 하나를 사용 하십시오.
 
-- _ \< MailboxIdentity \> _ 를 사서함의 이름, 별칭 또는 전자 메일 주소로 바꾸고 다음 명령을 실행 하 여 **Enabled** 속성 값을 확인 합니다.
+- _\<MailboxIdentity\>_ 사서함의 이름, 별칭 또는 전자 메일 주소로 대체 하 고 다음 명령을 실행 하 여 **Enabled** 속성 값을 확인 합니다.
 
   ```PowerShell
   Get-MailboxJunkEmailConfiguration -Identity "<MailboxIdentity>" | Format-List Enabled
@@ -154,7 +154,7 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 
 사서함에 수신 허용 목록 컬렉션을 성공적으로 구성 했는지 확인 하려면 다음 절차 중 하나를 사용 하십시오.
 
-- _ \< MailboxIdentity \> _ 를 사서함의 이름, 별칭 또는 전자 메일 주소로 바꾸고 다음 명령을 실행 하 여 속성 값을 확인 합니다.
+- _\<MailboxIdentity\>_ 사서함의 이름, 별칭 또는 전자 메일 주소로 대체 하 고 다음 명령을 실행 하 여 속성 값을 확인 합니다.
 
   ```PowerShell
   Get-MailboxJunkEmailConfiguration -Identity "<MailboxIdentity>" | Format-List trusted*,contacts*,blocked*

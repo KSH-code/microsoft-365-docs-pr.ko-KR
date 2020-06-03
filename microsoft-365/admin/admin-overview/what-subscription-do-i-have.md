@@ -25,10 +25,10 @@ search.appverid:
 ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
 description: 구독 페이지로 이동 하 여 조직에 있는 구독을 확인 하는 방법을 알아봅니다.
 ms.openlocfilehash: 0e2ff42ad75e2006470c441c6c3403fcfd127e93
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/02/2020
 ms.locfileid: "44431608"
 ---
 # <a name="what-subscription-do-i-have"></a>내가 구독한 것은 무엇인가요?
