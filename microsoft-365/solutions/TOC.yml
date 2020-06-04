@@ -12,8 +12,9 @@
     - name: 개요
       href: foundation-solutions-overview.md
     - name: Microsoft 365를 사용하여 원격 작업자의 역량 강화하기
-      href: empower-people-to-work-remotely.md
       items:
+        - name: 개요
+          href: empower-people-to-work-remotely.md
         - name: 1단계. 로그인 보안 강화
           href: empower-people-to-work-remotely-secure-sign-in.md
         - name: 2단계. 원격 액세스 제공
