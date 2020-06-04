@@ -26,6 +26,10 @@
           href: setup/migrate-email-and-contacts-admin.md
         - name: Office 앱 설치
           href: setup/install-applications.md
+        - name: Windows 장치 설정
+          href: ../business/set-up-windows-devices.md
+        - name: 모바일 장치 설정
+          href: ../business/set-up-mobile-devices.md
         - name: Teams 배포
           href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
         - name: 모든 사용자를 위한 교육

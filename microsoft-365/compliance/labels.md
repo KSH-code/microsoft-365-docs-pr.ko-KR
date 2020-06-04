@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 거버넌스를 위해 보존 레이블을 사용하여 조직 전체의 데이터를 분류하고, 해당 분류에 따라 보존 규칙을 시행하는 방법을 알아봅니다. 보존 레이블을 사용하여 Microsoft 365용 레코드 관리 솔루션을 구현할 수도 있습니다.
-ms.openlocfilehash: 4291e32760a585be7610612b81cc54ecfcf0863e
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: ab2e1baf553a386009d55e43efdf75b796cc1ffd
+ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432245"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44545970"
 ---
 # <a name="learn-about-retention-labels"></a>보존 레이블에 대한 자세한 정보
 
@@ -129,7 +129,9 @@ Exchange 공용 폴더, Skype, 팀 채널 메시지 및 채팅은 보존 레이�
   
 - SharePoint 및 OneDrive 문서가 삭제되기 전에 검토되도록 보존 정책 종료 시 처리 검토를 트리거합니다. 자세한 내용은 [처리 검토](disposition.md#disposition-reviews)를 참조하세요.
     
-- 보존 기간은 콘텐츠 사용 기간이나 마지막으로 수정되었을 때가 아니라 콘텐츠에 레이블이 지정될 때 시작됩니다. 해당 옵션은 SharePoint 사이트 및 OneDrive 계정의 콘텐츠에만 적용됨을 유의하세요. Exchange 전자 메일의 경우 보존 기간은 사용자가 선택한 옵션에 상관없이 항상 메시지를 보냈거나 받은 날짜를 기준으로 합니다.
+- 보존 기간은 콘텐츠 사용 기간이나 마지막으로 수정되었을 때가 아니라 콘텐츠에 레이블이 지정될 때 시작됩니다. 이 옵션을 사용하는 경우,
+    - SharePoint 사이트 및 OneDrive 계정의 콘텐츠에만 적용됩니다. Exchange 전자 메일의 경우 보존 기간은 항상 메시지를 보냈거나 받은 날짜를 기준으로 합니다.
+    - 레이블이 저장된 후에는 보존 기간을 변경할 수 없습니다.
     
 ![레이블 관련 옵션이 있는 보존 설정](../media/c49118c9-6279-4661-94db-deffa76e27ac.png)
 
