@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 인바운드 메시지를 허용 하는 데 사용할 수 있는 옵션 및 기본 설정에 대해 알아봅니다.
-ms.openlocfilehash: 3ef05c919a86bc3458cceb2a2bc73522e16e4bb1
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: c9f444483afea82db1fbbe3b5be98751d42c2f5e
+ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209538"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44545949"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>EOP에서 수신 허용-보낸 사람 목록 만들기
 
@@ -39,7 +39,7 @@ Exchange online 사서함이 없는 Microsoft 365, EOP (독립 실행형 Exchang
 > [!IMPORTANT]
 > • 수신 허용-보낸 사람 목록을 사용 하 여 스팸 필터링에 대 *한 예외를* 면밀 하 게 모니터링 해야 합니다. <br/><br/> • 수신 허용-보낸 사람 목록을 사용 하 여 가양성 (스팸으로 표시 되는 전자 메일)에 대 한 도움을 받을 수 있지만 안전한 보낸 사람 목록을 사용 하는 것이 가능한 경우 피해 야 하는 임시 솔루션으로 간주 해야 합니다. 스팸 필터링에 대 한 예외로 인해 조직이 스푸핑 및 기타 공격을 막을 수 있으므로 수신 허용-보낸 사람 목록을 사용 하 여 가양성을 관리 하지 않는 것이 좋습니다. 수신 허용-보낸 사람 목록을 사용 하 여 가양성을 관리 해야 하는 경우에는 vigilant를 수행 하 고 준비 하는 동안 항목 [보고서 메시지 및 파일을 Microsoft에](report-junk-email-messages-to-microsoft.md) 보관해 두어야 합니다. <br/><br/> • 도메인에서 인증 되지 않은 전자 메일을 보낼 수 있도록 허용 하 되 스팸 방지 및 맬웨어 방지 확인을 우회 하지는 않으므로 [Allowedtospoof 수신 허용-보낸 사람 목록](walkthrough-spoof-intelligence-insight.md) 에 추가할 수 있습니다. <br/><br/> • EOP 및 Outlook에서 다른 메시지 속성을 검사 하 여 메시지를 보낸 사람을 확인 합니다. 자세한 내용은이 항목의 뒷부분에 나오는 [대량 전자 메일 고려 사항](#considerations-for-bulk-email) 섹션을 참조 하십시오.
 
-반면, _차단 된 보낸 사람 목록을_사용 하 여 특정 원본의 전자 메일을 차단 하는 몇 가지 옵션도 있습니다. 자세한 내용은 [EOP에서 수신 거부 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조 하세요.
+반면, _차단 된 보낸 사람 목록을_사용 하 여 특정 원본의 전자 메일을 차단 하는 몇 가지 옵션도 있습니다. 자세한 내용은 [EOP에서 차단할 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조하세요.
 
 ## <a name="recommended-use-mail-flow-rules"></a>는 메일 흐름 규칙 사용
 
@@ -66,13 +66,13 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 메시
 
    - **보낸 사람** \> **내부/외부** \> **조직 외부**:이 조건은 암시적 이지만, 제대로 구성 되지 않았을 수 있는 온-프레미스 전자 메일 서버를 고려 하는 데에는이 조건이 확인 됩니다.
 
-   - **제목 또는 본문** \> **제목 또는 본문에 다음 단어 포함** \> \<키워드 \> : 제목 줄 이나 메시지 본문의 키워드나 구로 메시지를 추가로 제한할 수 있는 경우 해당 단어를 조건으로 사용할 수 있습니다.
+   - **제목 또는 본문** \> **제목 또는 본문에 다음 단어 포함** \> \<keywords\>: 제목 줄 또는 메시지 본문의 키워드나 구로 메시지를 추가로 제한할 수 있는 경우 해당 단어를 조건으로 사용할 수 있습니다.
 
 4. **작업**: 규칙에서 이러한 작업을 모두 구성 합니다.
 
    a. **메시지 속성 수정** \> **SCL (스팸 지 수) 설정** \> **스팸 필터링을 무시**합니다.
 
-   b. **메시지 헤더** \> **다음 단어 포함** \> **헤더 이름**: \< custom인원 ername \> **헤더 값**: \< customheadername \>
+   b. **메시지 헤더** \> **다음 단어 포함** \> **헤더 이름**: \<CustomHeaderName\> **헤더 값**: \<CustomHeaderValue\> 입니다.
 
       예를 들면 `X-ETR: Bypass spam filtering for authenticated sender 'contoso.com'`와 같습니다. 규칙에 도메인이 둘 이상 있는 경우 머리글 텍스트를 적절 하 게 사용자 지정할 수 있습니다.
 
@@ -90,7 +90,7 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 메시
 
 앞에서 설명한 것 처럼 메일 흐름 규칙을 사용할 수 없는 경우에는 연결 필터 정책의 IP 허용 목록에 원본 전자 메일 서버를 추가 하는 것이 가장 좋습니다. 자세한 내용은 [Configure connection 필터링할지 IN EOP](configure-the-connection-filter-policy.md)을 참조 하십시오.
 
-**참고**:
+**참고:**
 
 - 허용 되는 IP 주소 수를 최소로 유지 하는 것이 중요 하므로 가능 하면 전체 IP 주소 범위를 사용 하지 않는 것이 좋습니다.
 
@@ -103,7 +103,7 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 메시
 
 ## <a name="use-allowed-sender-lists-or-allowed-domain-lists"></a>허용 되는 보낸 사람 목록 또는 허용 되는 도메인 목록 사용
 
-스팸 방지 정책에서 허용 되는 보낸 사람 목록 또는 허용 도메인 목록을 사용 하는 것이 가장 바람직하지 않은 옵션입니다. 보낸 사람이 모든 스팸, 스푸핑, 피싱 보호 및 보낸 사람 인증 (SPF, DKIM, DMARC)을 우회 하기 때문에 *가능 하면* 이 옵션을 사용 하지 않는 것이 좋습니다. 이 메서드는 임시 테스트에만 사용 하는 것이 가장 좋습니다. 자세한 단계는 [스팸 방지 정책 구성 EOP](configure-your-spam-filter-policies.md) 항목에 나와 있습니다.
+스팸 방지 정책에서 허용 되는 보낸 사람 목록 또는 허용 도메인 목록을 사용 하는 것이 가장 바람직하지 않은 옵션입니다. 보낸 사람이 모든 스팸, 스푸핑, 피싱 보호 및 보낸 사람 인증 (SPF, DKIM, DMARC)을 우회 하기 때문에 *가능 하면* 이 옵션을 사용 하지 않는 것이 좋습니다. 이 방법은 임시 테스트에만 사용하는 것이 가장 좋습니다. 자세한 단계는 [스팸 방지 정책 구성 EOP](configure-your-spam-filter-policies.md) 항목에 나와 있습니다.
 
 이러한 목록의 최대 제한은 약 1000 항목입니다. 하지만 포털에는 30 개의 항목만 입력할 수 있습니다. 30 개 보다 많은 항목을 추가 하려면 PowerShell을 사용 해야 합니다.
 
@@ -118,7 +118,7 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 메시
 
 - 보낸 `5322.From` 사람 주소 또는 P2 보낸 **From** 사람이 라고도 하는 전자 메일 주소 **는 보낸 사람의** 전자 메일 주소 이며 전자 메일 클라이언트에 표시 됩니다.
 
-`5321.MailFrom`및 `5322.From` 주소는 동일 합니다 (사용자 간 통신). 그러나 다른 사람을 대신 하 여 전자 메일을 보내는 경우에는 주소가 서로 다를 수 있습니다. 일반적으로 대량 전자 메일 메시지에서 가장 자주 발생 합니다.
+`5321.MailFrom`및 `5322.From` 주소는 동일 합니다 (사용자 간 통신). 그러나 다른 사람을 대신 하 여 전자 메일을 보내는 경우에는 주소가 다를 수 있습니다. 이 작업은 일반적으로 대량 전자 메일 메시지에 대해 수행 됩니다.
 
 예를 들어 파란색 Yonder Airlines가 손 정 란 여행사를 고용 하 여 전자 메일 광고를 보내도록 가정 합니다. 받은 편지함에 받은 메시지에는 다음과 같은 속성이 있습니다.
 

@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 723b2584846b9d6ec01e7d4286a63d2dce0757ac
-ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
+ms.openlocfilehash: f9bca47c6a47468d0a5a37b77e4f587745bf619d
+ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44322174"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44545937"
 ---
 # <a name="whats-coming-in-microsoft-secure-score"></a>Microsoft 보안 점수가 어떻게 제공 됩니까?
 
@@ -30,6 +30,26 @@ Microsoft의 보안 [점수](microsoft-secure-score-new.md) 를 보안 환경을
 
 최근 변경 내용에 대 한 자세한 내용은 [Microsoft 보안 점수의 새로운 기능](microsoft-secure-score-new.md#whats-new) 을 참조 하세요.
 
-## <a name="may-2020"></a>2020년 5월
+## <a name="june-2020"></a>2020 년 6 월
 
-현재 계획 된 변경 내용 없음
+### <a name="remove-improvement-action-for-microsoft-defender-advanced-threat-protection"></a>Microsoft Defender Advanced Threat Protection에 대 한 개선 작업 제거
+
+* 공격 표면 축소 규칙 켜기
+
+### <a name="add-improvement-actions-for-microsoft-defender-advanced-threat-protection"></a>Microsoft Defender Advanced Threat Protection에 대 한 개선 작업 추가
+
+* 하위 프로세스를 만들지 못하도록 Adobe Reader 차단
+* 랜 섬 웨어에 대 한 고급 보호 사용
+* 모든 Office 응용 프로그램에서 하위 프로세스를 만들지 못하도록 차단
+* Office 응용 프로그램에서 실행 가능한 콘텐츠를 만들지 못하도록 차단
+* 다운로드 한 실행 가능한 콘텐츠를 실행 하는 JavaScript 또는 VBScript 차단
+* 잠재적으로 난독 처리 된 스크립트의 실행 차단
+* 전자 메일 클라이언트 및 webmail에서 실행 가능한 콘텐츠 차단
+* Office 통신 응용 프로그램에서 하위 프로세스를 만들지 못하도록 차단
+* 신뢰할 수 없으며 USB에서 실행 되는 서명 되지 않은 프로세스 차단
+* WMI 이벤트 구독을 통해 지 속성 차단
+* Office 응용 프로그램에서 다른 프로세스에 코드를 주입 하지 못하도록 차단
+* 실행 파일이 전파, 연령 또는 신뢰할 수 있는 목록 조건을 충족 하지 않는 이상 실행 되지 않도록 차단
+* PSExec 및 WMI 명령에서 시작 되는 프로세스 만들기 차단
+* Windows 로컬 보안 기관 하위 시스템 (lsass.exe)에서 자격 증명 가로채기 차단
+* Office 매크로에서 Win32 API 호출 차단

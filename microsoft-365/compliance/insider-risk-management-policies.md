@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: eff935eb39884d9003b64b5be952c8e8e73b286a
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: 827cffde0ff719d133830e10e958f04fe70fc9d6
+ms.sourcegitcommit: 416a4b87bfd7e5aff80194b59b2776f054aa8eb5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515883"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44534930"
 ---
 # <a name="insider-risk-management-policies"></a>참가자 위험 관리 정책
 
@@ -67,7 +67,7 @@ ms.locfileid: "44515883"
      >[!NOTE]
      >기본 제공 서식 파일을 사용 하 여 새 DLP 정책을 만들 때는 **고급 DLP 규칙 만들기 또는 사용자 지정** 옵션을 선택 하 여 *높은* 심각도 수준에 대 한 **문제 보고서** 설정을 구성 해야 합니다.
 
-**데이터 누수** 템플릿에서 만드는 각 참가자 위험 관리 정책에는 하나의 DLP 정책만 할당할 수 있습니다. 참가자 위험 관리 정책에 의해 처리 되는 높은 심각도 경고가 있는 DLP 정책이 둘 이상 있는 경우 DLP 정책에 따라 별도의 참가자 위험 관리 정책을 만들어야 합니다.
+**데이터 누수** 템플릿에서 만드는 각 참가자 위험 관리 정책에는 하나의 DLP 정책만 할당할 수 있습니다. 검색 하 여 **데이터 누수** 템플릿을 사용 하는 참가자 위험 정책을 트리거하는 지표로 작동 하는 다른 작업을 결합 하는 전용 DLP 정책을 만드는 것이 좋습니다.
 
 조직의 DLP 정책을 구성 하는 단계별 지침은 [dlp 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md) 항목을 참조 하십시오.
 

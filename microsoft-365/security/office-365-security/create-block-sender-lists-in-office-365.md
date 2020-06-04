@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid:
 - MET150s
 description: 관리자는 EOP (Exchange Online Protection)에서 인바운드 메시지를 차단 하는 데 사용할 수 있는 옵션 및 기본 설정에 대해 알아봅니다.
-ms.openlocfilehash: d9db3d4ac123998e6ab4f108199b3aee852f95d6
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 2862fa4a33a31eac9c61f94aa929133d2dc69fc8
+ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209550"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44545903"
 ---
 # <a name="create-blocked-sender-lists-in-eop"></a>EOP에서 차단 된 보낸 사람 목록 만들기
 
@@ -38,6 +38,18 @@ Exchange online 사서함이 없는 exchange Online 또는 독립 실행형 EOP 
 > 조직 전체 차단 설정을 사용 하 여 거짓 네거티브 (부재 중 스팸)를 처리할 수 있지만 이러한 메시지를 분석을 위해 Microsoft로 제출 해야 합니다. 차단 목록을 사용 하 여 거짓 네거티브를 관리 하면 관리 오버 헤드가 크게 증가 합니다. 차단 목록을 사용 하 여 누락 된 스팸을 돌리기에는 준비 중에 항목 [보고서 메시지 및 파일을 Microsoft에](report-junk-email-messages-to-microsoft.md) 유지 해야 합니다.
 
 반면에, 수신 허용- _보낸 사람 목록을_사용 하 여 특정 원본에서 전자 메일을 보낼 수 있는 몇 가지 옵션도 있습니다. 자세한 내용은 [수신 허용 - 보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조하세요.
+
+## <a name="email-message-basics"></a>전자 메일 메시지 기본 사항
+
+표준 SMTP 전자 메일 메시지는 *메시지 봉투* 와 메시지 콘텐츠로 구성 됩니다. 메시지 봉투에는 SMTP 서버 간에 메시지를 전송 및 배달 하는 데 필요한 정보가 포함 되어 있습니다. 메시지 콘텐츠에는 메시지 헤더 필드 (통칭 *메시지 헤더*) 및 메시지 본문이 포함 됩니다. 메시지 봉투는 RFC 5321에 설명 되어 있고 메시지 헤더는 RFC 5322에 설명 되어 있습니다. 실제 메시지 봉투는 메시지 전송 프로세스에 의해 생성 되며 실제로는 메시지의 일부가 아니기 때문에 받는 사람에 게는 표시 되지 않습니다.
+
+- `5321.MailFrom`주소 ( **메일** 보낸 사람 주소, P1 sender 또는 envelope sender)는 메시지의 SMTP 전송에 사용 되는 전자 메일 주소입니다. 이 전자 메일 주소는 일반적으로 메시지 헤더의 **반환 경로** 헤더 필드에 기록 됩니다 (보낸 사람이 다른 **반환 경로** 전자 메일 주소를 지정할 수 있지만). 메시지를 배달할 수 없는 경우 NDR 또는 바운스 메시지가 라고도 하는 배달 못 함 보고서 (예를 들어)의 받는 사람을 나타냅니다.
+
+- 보낸 `5322.From` 사람 주소 또는 P2 보낸 **From** 사람이 라고도 하는 전자 메일 주소 **는 보낸 사람의** 전자 메일 주소 이며 전자 메일 클라이언트에 표시 됩니다.
+
+`5321.MailFrom`및 `5322.From` 주소는 동일 합니다 (사용자 간 통신). 그러나 다른 사람을 대신 하 여 전자 메일을 보내는 경우에는 주소가 다를 수 있습니다.
+
+수신 허용-보낸 사람 목록 및 차단 된 도메인 목록 EOP의 스팸 방지 정책에서 `5321.MailFrom` 및 주소를 모두 검사 `5322.From` 합니다. Outlook 수신 거부만이 주소를 사용 `5322.From` 합니다.
 
 ## <a name="use-outlook-blocked-senders"></a>Outlook 수신 거부 사용
 
