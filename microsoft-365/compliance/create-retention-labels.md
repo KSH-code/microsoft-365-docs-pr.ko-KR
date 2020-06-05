@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365 환경에서 필요한 사항은 보존하고 필요하지 않은 사항은 삭제하기 위해 보존 레이블을 만들고, 게시하고 자동 적용하기 위한 지침입니다.
-ms.openlocfilehash: 65319baa0fd238ebdc403307fb8bb91a59d87cd6
-ms.sourcegitcommit: 3cd487476efe4138d1b42499fbffbbe4bacfe5b8
+ms.openlocfilehash: a3ba321c9eae91bf701646a45271d3edcbc8dccc
+ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44408470"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44545960"
 ---
 # <a name="create-publish-and-auto-apply-retention-labels"></a>보존 레이블 만들기, 게시 및 자동 적용
 
@@ -56,13 +56,13 @@ ms.locfileid: "44408470"
 
 2. 마법사의 지시를 따릅니다. 레코드 관리를 사용하는 경우:
     
-    - 파일 계획 설명자에 대한 자세한 내용은 [파일 계획 관리자의 개요](file-plan-manager.md)를 참조하세요
+    - 파일 계획 설명자에 대한 자세한 내용은 [파일 계획을 사용하여 보존 레이블 관리의 개요](file-plan-manager.md)를 참조하세요
     
     - 보존 레이블을 사용하여 콘텐츠를 레코드로 선언하려면 **레이블을 사용하여 콘텐츠를 “기록”으로 분류** 확인란을 체크합니다.
 
 3. 이 단계를 반복하여 레이블을 더 만듭니다.
 
-기존 레이블을 편집하려면 레이블을 선택하고 **레이블 편집**을 선택합니다. 그러면 2단계에서 레이블 설명과 설정을 변경할 수 있는 동일한 마법사가 시작됩니다.
+기존 레이블을 편집하려면 레이블을 선택하고 **레이블 편집**을 선택하여 레이블 설명과 [적격 설정](#updating-retention-labels-and-their-policies)을 변경하는 데 사용하는 동일한 마법사를 2단계에서 시작합니다. 또는 사용 가능한 **편집** 옵션 중 하나를 선택하여 해당 페이지로 바로 이동하고 업데이트를 수행합니다.
 
 ## <a name="publish-retention-labels-by-creating-a-retention-label-policy"></a>보존 레이블 정책을 만들어 보존 레이블 게시
 
@@ -81,6 +81,8 @@ ms.locfileid: "44408470"
 2. 마법사의 지시를 따릅니다.
     
     보존 레이블이 지원하는 위치에 대한 자세한 내용은 [보존 레이블과 위치](labels.md#retention-label-policies-and-locations) 섹션을 참조하세요. 
+
+기존 보존 레이블 정책을 편집하려면 레이블을 선택하고 **정책 편집**을 선택하여 정책 설명과 [적격 설정](#updating-retention-labels-and-their-policies)을 변경하는 데 사용하는 동일한 마법사를 2단계에서 시작합니다. 또는 사용 가능한 **편집** 옵션 중 하나를 선택하여 해당 페이지로 바로 이동하고 업데이트를 수행합니다.
 
 ## <a name="auto-apply-a-retention-label"></a>보존 레이블 작동 적용
 
@@ -101,6 +103,8 @@ ms.locfileid: "44408470"
     보존 레이블을 자동으로 적용하는 조건을 구성하는 방법에 대한 자세한 내용은이 페이지에서 [보존 레이블 자동 적용에 대한 조건 구성하기](#configuring-conditions-for-auto-apply-retention-labels) 섹션을 참조하세요.
     
     보존 레이블이 지원하는 위치에 대한 자세한 내용은 [보존 레이블과 위치](labels.md#retention-label-policies-and-locations) 섹션을 참조하세요.
+
+기존 자동 적용 레이블 정책을 편집하려면 레이블을 선택하고 **정책 편집**을 선택하여 정책 설명과 [적격 설정](#updating-retention-labels-and-their-policies)을 변경하는 데 사용하는 동일한 마법사를 2단계에서 시작합니다. 또는 사용 가능한 **편집** 옵션 중 하나를 선택하여 해당 페이지로 바로 이동하고 업데이트를 수행합니다.
 
 
 ## <a name="configuring-conditions-for-auto-apply-retention-labels"></a>보존 레이블 자동 적용에 대한 조건 구성하기
@@ -217,7 +221,11 @@ Exchange Online에서 보존 레이블은 7일마다 실행되는 프로세스�
 
 ## <a name="updating-retention-labels-and-their-policies"></a>보존 레이블과 해당 정책 업데이트하기
 
-보존 레이블, 보존 레이블 정책 또는 자동 적용 정책을 편집하거나 보존 레이블이 이미 콘텐츠에 적용된 경우, 새로 레이블이 적용된 콘텐츠 외에 이 콘텐츠에 업데이트된 설정이 자동으로 적용됩니다.
+보존 레이블, 보존 레이블 정책 또는 자동 적용 정책을 편집하거나 보존 레이블 또는 정책이 이미 콘텐츠에 적용된 경우, 새로 식별된 콘텐츠 외에 이 콘텐츠에 업데이트된 설정이 자동으로 적용됩니다.
+
+다음 내용을 포함하는 레이블이나 정책을 만들고 저장한 후에는 일부 설정을 변경할 수 없습니다.
+- 사용자가 만든 날짜를 기준으로 콘텐츠를 보존하거나 삭제하도록 레이블을 구성하지 않은 경우 보존 기간을 제외한 보존 설정입니다.
+- 레코드로 분류하는 옵션입니다.
 
 ## <a name="find-the-powershell-cmdlets-for-retention-labels"></a>보존 레이블에 대한 PowerShell cmdlet 찾기
 

@@ -373,26 +373,10 @@
                   href: ./office-365-security/use-dmarc-to-validate-email.md
             - name: 보안 및 준수 센터의 똑똑한 보고서 및 분석
               href: ./office-365-security/reports-and-insights-in-security-and-compliance.md
-              items:
-                - name: 보안 대시보드 개요
-                  href: ./office-365-security/security-dashboard.md
-                  items:
-                    - name: 연습 - 자세한 보고서에서 통찰력에 이르기까지
-                      href: ./office-365-security/from-a-detailed-report-to-an-insight.md
-                    - name: 연습 - 통찰력에서 자세한 보고서
-                      href: ./office-365-security/from-an-insight-to-a-detailed-report.md
-                    - name: 연습 - 대시보드에서 통찰력에 이르기까지
-                      href: ./office-365-security/from-a-dashboard-to-an-insight.md
-                    - name: 보고서에 대한 일정 만들기
-                      href: ./office-365-security/create-a-schedule-for-a-report.md
-                    - name: 여러 보고서에 대한 일정 관리
-                      href: ./office-365-security/manage-schedules-for-multiple-reports.md
-                    - name: 사용자 지정 보고서 설치 및 다운로드
-                      href: ./office-365-security/set-up-and-download-a-custom-report.md
-                    - name: 기존 보고서 다운로드
-                      href: ./office-365-security/download-existing-reports.md
-                - name: 악성 파일에 대한 정보 보기
-                  href: ./office-365-security/malicious-files-detected-in-spo-odb-or-teams.md
+            - name: 보안 대시보드 개요
+              href: ./office-365-security/security-dashboard.md
+            - name: 악성 파일에 대한 정보 보기
+              href: ./office-365-security/malicious-files-detected-in-spo-odb-or-teams.md
         - name: Advanced Threat Protection
           href: ./office-365-security/office-365-atp.md
           items:

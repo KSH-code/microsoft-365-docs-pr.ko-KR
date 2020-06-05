@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 05/01/2020
+ms.date: 06/03/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,16 +17,16 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Microsoft Endpoint Manager를 사용하여 장치, PC 및 기타 끝점을 관리합니다.
-ms.openlocfilehash: 388ac2b7f9f4a31d33c1f4551e215b2b32c8f85f
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: c7149295c24e5339e87db55998ec48fe9f0e9a93
+ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160801"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44560496"
 ---
 # <a name="step-3-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>3단계. 장치, PC 및 기타 끝점에 대한 끝점 관리 기능 배포
 
-원격 작업자의 경우 점점 늘어나는 개인 장치를 지원해야 합니다. 끝점 관리 기능은 장치에서 리소스에 대한 액세스 권한을 부여받기 전에 특정 기준을 준수해야 하는 정책 기반의 보안 방식입니다. Microsoft Endpoint Manager는 클라우드 및 온-프레미스에서 데이터를 안전하게 유지하기 위한 최신 작업 공간과 최신 관리 기능을 제공합니다. 
+원격 작업자의 경우 점점 늘어나는 개인 장치를 지원해야 합니다. 끝점 관리 기능은 장치에서 리소스에 대한 액세스 권한을 부여받기 전에 특정 기준을 준수해야 하는 정책 기반의 보안 방식입니다. Microsoft Endpoint Manager는 클라우드 및 온-프레미스에서 데이터를 안전하게 유지하기 위한 최신 관리 기능을 제공합니다. 
 
 Endpoint Manager는 이미 알고 있고 사용하고 있는 다음 서비스를 결합하여 모바일 장치, 데스크톱 컴퓨터, 가상 머신, 내장 장치, 서버를 관리하는 서비스와 도구를 제공합니다.
 
@@ -34,7 +34,7 @@ Endpoint Manager는 이미 알고 있고 사용하고 있는 다음 서비스를
 
 ## <a name="microsoft-intune"></a>Microsoft Intune
 
-Intune은 조직 데이터에 액세스하는 데 사용되는 장치를 관리하지 않는 경우 데이터를 보호하는 데 도움을 주도록 설계되었습니다. Azure AD Conditional Access와 결합하여 Intune 앱 보호 정책은 모바일 장치에서 데이터를 세부적으로 컨트롤할 수 있도록 해줍니다. Intune을 사용하면 올바른 조건을 충족하는 사용자만 회사 데이터에 액세스하도록 하는 포괄적인 정책을 정의하고, Office, Outlook 및 다른 모바일 앱에서 데이터를 사용하는 방법을 컨트롤하여 데이터를 계속해서 보호된 상태로 유지하도록 할 수 있습니다.
+Intune은 조직 데이터에 액세스하는 데 사용되는 장치를 관리하지 않는 경우 데이터를 보호하는 데 도움을 주도록 설계되었습니다. Azure AD(Azure Active Directory) 조건부 액세스와 결합하여 Intune 앱 보호 정책은 모바일 장치에서 데이터를 세부적으로 컨트롤할 수 있도록 해줍니다. Intune을 사용하면 올바른 조건을 충족하는 사용자만 회사 데이터에 액세스하도록 하는 포괄적인 정책을 정의하고, Office, Outlook 및 다른 모바일 앱에서 데이터를 사용하는 방법을 컨트롤하여 데이터를 계속해서 보호된 상태로 유지하도록 할 수 있습니다.
 
 자세한 내용은 이 [Microsoft Intune의 개요](https://docs.microsoft.com/intune/fundamentals/what-is-intune)를 참조하세요.
 
@@ -66,8 +66,10 @@ Windows Autopilot은 제로터치의 셀프 서비스 Windows 배포 플랫폼�
 
 ## <a name="admin-technical-resources-for-endpoint-management"></a>끝점 관리를 위한 관리자 기술 리소스
 
-- [보안을 위해 관리되는 장치를 등록하고, 관리되지 않는 장치에 대한 앱 설정을 활용하고, 장치 및 앱 정책을 사용합니다](https://docs.microsoft.com/microsoft-365/enterprise/mobility-infrastructure)
-- [MDM(모바일 장치 관리)에 다양한 유형의 장치를 등록하는 방법](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment)
+- [원격 작업자를 위한 Windows 10 장치 관리에 대한 동영상 파트 3](https://resources.techcommunity.microsoft.com/enabling-remote-work/#security)
+- [원격 작업자를 위한 사용자 데스크톱 및 브라우저 관리에 대한 동영상 파트 5](https://resources.techcommunity.microsoft.com/enabling-remote-work/#security)
+- [Microsoft 365에 대한 이동성 인프라 배포](https://docs.microsoft.com/microsoft-365/enterprise/mobility-infrastructure)
+- [모바일 장치 관리에 다양한 유형의 장치를 등록하는 방법](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment)
 - [Microsoft Intune에 대해 최종 사용자를 교육하는 방법](https://docs.microsoft.com/mem/intune/fundamentals/end-user-educate)
  
 ## <a name="results-of-step-3"></a>3단계의 결과

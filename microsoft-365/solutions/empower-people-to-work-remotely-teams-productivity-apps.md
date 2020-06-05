@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 05/01/2020
+ms.date: 06/03/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: 사용자가 Teams, Exchange, SharePoint 및 기타 Microsoft 365 서비스를 사용하여 생산성을 향상시킬 수 있도록 합니다.
-ms.openlocfilehash: 2fc55ff9f991c75e8124c710e60fe2ba34ed7f17
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 1c621ae797f32cd5b98af4c1eb7a341d0f976938
+ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160741"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44560450"
 ---
 # <a name="step-4-deploy-remote-worker-productivity-apps-and-services"></a>4단계. 원격 작업자 생산성 앱 및 서비스 배포
 
@@ -39,7 +39,9 @@ ms.locfileid: "44160741"
 
 Teams를 사용하면 한 곳에서 채팅, 모임, 통화, 공동 작업을 모두 수행할 수 있습니다. Teams는 팀워크를 위한 허브로 원격 작업을 하는 데 필요한 모든 것을 통합하고 있기에 수백만 명의 사용자가 매일 Teams에서 작업을 수행합니다. 
 
-[이 문서](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams)를 Teams를 이용하여 원격 작업자를 지원하기 위한 지침으로 사용할 수 있습니다.  
+[이 문서](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams)를 Teams를 이용한 원격 작업자 지원 지침으로 사용할 수 있습니다.  
+
+원격 작업을 위한 Teams의 사용에 대한 지침 및 데모를 보려면 [동영상 파트 1](https://resources.techcommunity.microsoft.com/enabling-remote-work/#productivity)을 시청하세요.
 
 ### <a name="chat-and-conversations"></a>채팅 및 대화
 
@@ -63,25 +65,34 @@ Teams는 데스크톱, 웹 및 모바일 버전의 Teams에서 액세스할 수 
 
 Outlook을 사용하면 원격 작업자는 연결 상태를 유지하고 전자 메일, 일정, 연락처, 작업 등을 모두 함께 계속해서 한 곳에서 구성할 수 있습니다. Outlook을 사용하면 관련 항목에 따라 하루를 순조롭게 진행하고 우선순위를 지정하는 데 도움이 됩니다. Outlook은 OneDrive에서 바로 첨부 파일을 공유하고, 팀 모임을 계획하고 모임에 참여하며, 일정을 보고 공유하고 다른 사용자에게 대리인 권한을 제공할 수 있도록 해줍니다. 직장 및 개인적 용무 모두의 측면에서 다음에 처리할 용무와 주의를 필요로 하는 사항을 아는 것은 원격 작업자들이 중요한 사항에 집중할 수 있도록 하는 데 도움이 됩니다. Outlook은 원격 작업자들이 그들의 시간 및 필요로 하는 사항을(예를 들어, 파일, 조직 내 사용자 등) 쉽게 관리하는 데 유용한 방법들을 제공합니다. 
 
+최신 인증 및 조건부 액세스를 지원하는 조직의 전자 메일 및 메일 클라이언트를 보호하는 권장 ID와 정책은 [이 문서](../enterprise/secure-email-recommended-policies.md)를 참조하세요.
+
 ## <a name="store-and-collaborate-on-files-with-sharepoint-online-and-onedrive"></a>SharePoint Online 및 OneDrive를 사용한 파일 저장 및 공동 작업
 
 콘텐츠 공동 작업의 경우 원격 작업자는 SharePoint Online 및 OneDrive 폴더를 클라우드의 중앙 위치로 사용하여 파일을 저장하고, 공동 작성하고, 통신하고 공동 작업을 수행할 수 있습니다. 원격 작업자는 웹 브라우저, Teams 그리고 Office 앱을 통해 어디에서나 안전하게 작업을 수행할 수 있습니다.
+
+SharePoint Online 및 비즈니스용 OneDrive를 보호하기 위한 권장 ID 및 장치 액세스 정책은 [이 문서](../enterprise/sharepoint-file-access-policies.md)를 참조하세요.
 
 ## <a name="create-and-collaborate-on-content-with-microsoft-365-apps"></a>Microsoft 365 앱을 사용한 콘텐츠 만들기 및 공동 작업
 
 Microsoft 365 앱은 언제 어디에서나 사용자들이 원활하게 함께 작업할 수 있도록 해주는 기업에 가장 생산적이고 안전한 Office 환경입니다. 원격 작업자는 동시에 여러 사용자와 한 문서에 대해 공동 작업을 하고, 실시간으로 편집 및 변경된 내용을 보고, 모든 노트북, PC 또는 모바일 장치를 통해 다른 사용자들과 공동 작성할 수 있습니다.
 
+엔터프라이즈 환경에서 Microsoft 365 앱을 계획, 배포 및 관리하려면 [이 문서](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)를 참조하세요.
+
 ## <a name="admin-technical-resources-for-productivity-apps-and-services"></a>생산성 앱 및 서비스를 위한 관리자 기술 리소스
 
 - [Microsoft Teams를 사용하여 원격 작업자 지원하기](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams)
+- [원격 작업자를 위한 Teams에 대한 동영상 파트 1](https://resources.techcommunity.microsoft.com/enabling-remote-work/#productivity)
 - [Teams 고객 성공 키트 다운로드](https://www.microsoft.com/download/details.aspx?id=54244)
 - [Teams의 채택을 촉진하기 위한 도구](https://docs.microsoft.com/microsoftteams/adopt-tools-and-downloads) 
 - [Microsoft Teams에 대한 변경 관리 전략 만들기](https://docs.microsoft.com/MicrosoftTeams/change-management-strategy)
 - [세 가지 보호 계층이 있는 Teams](configure-teams-three-tiers-protection.md)
+
+## <a name="user-training-resources-for-productivity-apps-and-services"></a>생산성 앱과 서비스에 대한 사용자 교육 리소스
 
 - [Office 및 Office 365에 대한 사용자 교육](https://support.office.com/article/train-your-users-on-office-and-microsoft-365-7cba3c97-7f19-46ed-a1c6-763971a26c2)
 - [웹용 Office 사용](https://support.microsoft.com/office/get-started-with-office-for-the-web-in-microsoft-365-5622c7c9-721d-4b3d-8cb9-a7276c2470e5)
 
 ## <a name="next-step"></a>다음 단계
 
-[5단계](empower-people-to-work-remotely-communication-venues.md)를 계속 진행하여 COVID-19 위기의 특별한 고유의 요구 사항을 충족하는 추가 통신 장소를 만들어 보세요.
+[5단계](empower-people-to-work-remotely-communication-venues.md)를 계속 진행하여 원격 작업자에게 서비스를 제공하는 추가 통신 장소를 만듭니다.
