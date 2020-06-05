@@ -17,12 +17,12 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: 조직의 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 & 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
-ms.openlocfilehash: ca23f7ba0ce7bc43f8808e213dc79d066316a9ec
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: e62d64ec062653c5292f98c2456cd26275916dca
+ms.sourcegitcommit: 86705d15231c987be2fcf5a295b9b6239fc46077
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208516"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44566743"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>보안 및 준수 센터의 전자 메일 보안 보고서 보기
 
@@ -256,7 +256,3 @@ Exchange Online Protection을 사용 하는 모든 사용자가 사용할 수 �
 [Microsoft 365 전자 메일 스팸 방지 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-and-anti-malware-protection)
 
 [보안 & 준수 센터의 보고서 및 정보](https://docs.microsoft.com/microsoft-365/security/office-365-security/reports-and-insights-in-security-and-compliance)
-
-[보안 & 준수 센터에서 보고서에 대 한 일정 만들기](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-a-schedule-for-a-report)
-
-[보안 & 준수 센터에서 사용자 지정 보고서 설정 및 다운로드](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-and-download-a-custom-report)

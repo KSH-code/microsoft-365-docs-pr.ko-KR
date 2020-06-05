@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 보안 및 준수 센터에서 Office 365 Advanced Threat Protection에 대 한 보고서를 찾아서 사용 &amp; 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 857b98c02895f187d8639d991b74ed1fe12622ae
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 0d8a5c0231d1ac63573619470be3b786cae9c37a
+ms.sourcegitcommit: 86705d15231c987be2fcf5a295b9b6239fc46077
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351876"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44566731"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection에 대 한 보고서 보기
 
@@ -173,8 +173,4 @@ ATP 보고서에 데이터가 표시 되지 않는 경우 정책이 올바르게
 
 [보안 및 준수 센터의 보고서 및 정보 &amp;](reports-and-insights-in-security-and-compliance.md)
   
-[보안 및 준수 센터에서 보고서 일정 만들기 &amp;](create-a-schedule-for-a-report.md)
-
-[보안 및 준수 센터에서 사용자 지정 보고서 설정 및 다운로드 &amp;](set-up-and-download-a-custom-report.md)
-
 [역할 권한 (Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#role-permissions)
