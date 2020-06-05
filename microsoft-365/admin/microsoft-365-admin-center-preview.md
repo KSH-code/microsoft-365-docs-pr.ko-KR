@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - FRP150
 description: Microsoft 365 관리 센터에 대해 알아봅니다.
-ms.openlocfilehash: 267a7fe56cbd71734664f085846c8b5a1356cccd
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 720130f01000e1f8845d2fa28dbc2d278a258ebf
+ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432210"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44560426"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 정보
 
@@ -54,8 +54,6 @@ Microsoft 365 관리 센터에서 새로운 기능을 사용할 수 있게 되 �
 ### <a name="turn-on-targeted-release"></a>대상 지정 된 릴리스 켜기
 
 1. 로그인 [admin.microsoft.com](https://admin.microsoft.com)에서 탐색 창으로 이동 하 고 **설정** \> **조직 프로필**을 선택 합니다.
-
-1. 로그인 [portal.partner.microsoftonline.cn](https://go.microsoft.com/fwlink/p/?linkid=513813)에서 탐색 창으로 이동 하 고 **설정** \> **조직 프로필**을 선택 합니다.
 
 2. **릴리스 기본 설정** 카드로 이동한 후 **편집**을 선택 합니다. 
     

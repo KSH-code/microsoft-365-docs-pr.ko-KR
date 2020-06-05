@@ -16,22 +16,25 @@ search.appverid:
 - MET150
 ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
 description: 콘텐츠 검색 eDiscovery 도구를 사용 하 여 타사 데이터 원본에서 Microsoft 365의 사서함으로 가져온 항목을 검색 합니다. 가져온 모든 항목을 검색 하는 쿼리를 만들거나 특정 타사 데이터 형식을 검색 하기 위한 쿼리를 만들 수 있습니다. 이 문서에서는 키워드 쿼리에서 Microsoft 365로 가져올 수 있는 타사 데이터 형식을 검색 하는 데 사용할 수 있는 값을 보여 줍니다.
-ms.openlocfilehash: e7e48f5231bccc988ad853202603defd17fd58f4
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: ab693ff8e2283e201b9d573e68f4bdfb9f859749
+ms.sourcegitcommit: e6e704cbd9a50fc7db1e6a0cf5d3f8c6cbb94363
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942971"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44564971"
 ---
-# <a name="use-content-search-to-search-third-party-imported-data"></a>콘텐츠 검색을 사용 하 여 타사 가져온 데이터 검색
+# <a name="use-content-search-to-search-third-party-data-imported-by-a-custom-partner-connector"></a>콘텐츠 검색을 사용 하 여 사용자 지정 파트너 커넥터로 가져온 타사 데이터 검색
 
-보안 & 준수 센터에서 [콘텐츠 검색 eDiscovery 도구](content-search.md) 를 사용 하 여 타사 데이터 원본에서 Microsoft 365의 사서함으로 가져온 항목을 검색할 수 있습니다. 가져온 모든 타사 데이터 항목을 검색 하는 쿼리를 만들 수도 있고, 특정 타사 데이터 항목을 검색 하는 쿼리를 만들 수도 있습니다. 또한 타사 데이터를 보존 하기 위해 쿼리 기반 보존 정책 또는 쿼리 기반 eDiscovery 유지를 만들 수도 있습니다. 
+보안 & 준수 센터에서 [콘텐츠 검색 eDiscovery 도구](content-search.md) 를 사용 하 여 타사 데이터 원본에서 Microsoft 365의 사서함으로 가져온 항목을 검색할 수 있습니다. 가져온 모든 타사 데이터 항목을 검색 하는 쿼리를 만들 수도 있고, 특정 타사 데이터 항목을 검색 하는 쿼리를 만들 수도 있습니다. 또한 타사 데이터를 보존 하기 위해 쿼리 기반 보존 정책 또는 쿼리 기반 eDiscovery 유지를 만들 수도 있습니다.
   
-타사 데이터와 Microsoft 365로 가져올 수 있는 타사 데이터 형식 목록을 가져오는 방법에 대 한 자세한 내용은 [Office 365에서 파트너와 협력 하](work-with-partner-to-archive-third-party-data.md)여 타사 데이터 보관을 참조 하십시오. 
+타사 데이터를 가져오는 파트너와 Microsoft 365로 가져올 수 있는 타사 데이터 형식 목록을 사용 하는 방법에 대 한 자세한 내용은 [Office 365에서 파트너와 협력 하](work-with-partner-to-archive-third-party-data.md)여 타사 데이터 보관을 참조 하십시오.
+
+> [!IMPORTANT]
+> 이 문서의 지침은 사용자 지정 파트너 커넥터로 가져온 타사 데이터에만 적용 됩니다. 이 문서는 Microsoft 준수 센터에서 타사 [데이터 커넥터](archiving-third-party-data.md#third-party-data-connectors) 를 사용 하 여 가져온 타사 데이터에는 적용 되지 않습니다.
   
 ## <a name="creating-a-query-to-search-all-third-party-data"></a>모든 타사 데이터를 검색 하기 위한 쿼리 만들기
 
-Office 365로 가져온 모든 타사 데이터 형식을 검색 하거나 보류 하려면 콘텐츠 검색의 키워드 상자에 `kind:externaldata` 메시지 속성-값 쌍을 사용 하거나 쿼리 기반 보존을 만들 때 사용할 수 있습니다. 예를 들어 모든 타사 데이터 원본에서 가져온 항목을 검색 하 고 가져온 항목의 Subject 속성에 "contoso" 라는 단어를 포함 하려면 다음 쿼리를 사용 합니다. 
+Office 365로 가져온 모든 타사 데이터 형식을 검색 하거나 보류 하려면 `kind:externaldata` 콘텐츠 검색의 키워드 상자에 메시지 속성-값 쌍을 사용 하거나 쿼리 기반 보존을 만들 때 사용할 수 있습니다. 예를 들어 모든 타사 데이터 원본에서 가져온 항목을 검색 하 고 가져온 항목의 Subject 속성에 "contoso" 라는 단어를 포함 하려면 다음 쿼리를 사용 합니다. 
   
 ```powershell
 kind:externaldata AND subject:contoso
@@ -55,9 +58,9 @@ itemclass:ipm.externaldata.<third-party data type>*
 itemclass:ipm.externaldata.Facebook* AND subject:contoso
 ```
 
-다음 표에서는 검색할 수 있는 타사 데이터 형식 및 해당 유형의 타사 데이터를 특별히 검색 하기 위해 `itemclass:` message 속성에 사용할 값을 보여 줍니다. 쿼리 구문은 대/소문자를 구분 하지 않습니다. 
+다음 표에서는 검색할 수 있는 타사 데이터 형식 및 `itemclass:` 해당 유형의 타사 데이터를 특별히 검색 하기 위해 message 속성에 사용할 값을 보여 줍니다. 쿼리 구문은 대/소문자를 구분 하지 않습니다. 
   
-|**타사 데이터 형식**|**`itemclass:` 속성 값**|
+|**타사 데이터 형식**|**속성 값 `itemclass:`**|
 |:-----|:-----|
 |AIM  <br/> | `ipm.externaldata.AIM*` <br/> |
 |American Idol  <br/> | `ipm.externaldata.AmericanIdol*` <br/> |

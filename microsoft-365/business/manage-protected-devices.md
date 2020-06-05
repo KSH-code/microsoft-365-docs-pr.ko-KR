@@ -1,5 +1,5 @@
 ---
-title: 비즈니스를 위해 Microsoft 365을 사용 하 여 보호 된 장치 관리
+title: Microsoft 365 Business Premium을 사용 하 여 보호 된 장치 관리
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -28,12 +28,12 @@ search.appverid:
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
 description: 보호 정책을 통해 관리 되는 장치에서 회사 데이터를 제거 하는 방법과 Windows 10 장치를 공장 설정으로 다시 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5e6ba7352a6a82811e1c79fe29bff35e3da5639e
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.openlocfilehash: 1f4b267f5a58429d40c5ece7df42a1bb5727c4e2
+ms.sourcegitcommit: e6e704cbd9a50fc7db1e6a0cf5d3f8c6cbb94363
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44471142"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44564945"
 ---
 # <a name="manage-protected-devices-with-microsoft-365-business-premium"></a>Microsoft 365 Business Premium을 사용 하 여 보호 된 장치 관리
 

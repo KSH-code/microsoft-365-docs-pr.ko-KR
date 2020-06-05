@@ -21,19 +21,20 @@ search.appverid:
 - BSA160
 ms.assetid: 4ecfb843-e5d5-464d-8bf6-7ed512a9b213
 description: 'Sharepoint 사이트 사용 보고서를 다운로드 하 여 사용자가 SharePoint 사이트에 저장 하는 파일의 수, 현재 사용 되 고 있는 총 저장소 및 사용 된 전체 저장 용량을 확인 합니다. '
-ms.openlocfilehash: 45614557710e05c600a3603d85462c4987022881
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3a7fece8868ceb34cbcf356e23fd13006defa439
+ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387516"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44560402"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---sharepoint-site-usage"></a>관리 센터의 Microsoft 365 보고서-SharePoint 사이트 사용 현황
 
 Microsoft 365 관리자 인 **보고서** 대시보드에는 조직의 다양 한 제품에 대 한 활동 개요가 표시 됩니다. 각 제품의 고유한 활동에 대한 자세한 정보를 확인할 수 있습니다. 예를 들어 사용자가 SharePoint 사이트에 저장한 총 파일 수, 현재 적극적으로 사용 중인 파일 수 및 모든 SharePoint 사이트에서 사용된 저장소와 관련하여 SharePoint에서 얻는 값을 대략적으로 볼 수 있습니다. 그런 다음 SharePoint 사이트 사용 보고서를 확인하여 추세와 모든 사이트에 대한 수준별 세부 정보를 파악할 수 있습니다. 
   
 > [!NOTE]
-> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint, 팀 서비스, 팀 통신 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다. 
+> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint, 팀 서비스, 팀 통신 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다.
+관리 센터의 Microsoft 365 보고서는 GCC High 및 DoD 테 넌 트에 대해서는 지원 되지 않습니다.
  
 ## <a name="how-to-get-to-the-sharepoint-site-usage-report"></a>SharePoint 사이트 사용 보고서에 액세스하는 방법
 
