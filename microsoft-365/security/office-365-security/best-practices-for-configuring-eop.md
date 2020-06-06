@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: EOP (독립 실행형 Exchange Online Protection)에 대해 직접 설정 하 여 성공적인 작동을 방지 하 고 일반적인 구성 오류가 발생 하지 않도록 하려면 다음과 같은 모범 사례 권장 사항을 따르십시오.
-ms.openlocfilehash: ade41b5343e19f75658f01e6c395c470e230b315
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 69b0789612d6490305ff31d89954bc1d9258ac01
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351930"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44587536"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>독립 실행형 EOP 구성 모범 사례
 
@@ -56,7 +56,7 @@ EOP (독립 실행형 Exchange Online Protection)에 대해 직접 설정 하 �
 |[PowerShell 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)|사용 안 함|사용 안 함|사서함 사용자 또는 메일 사용자 ( [Get-user](https://docs.microsoft.com/powershell/module/exchange/get-user) cmdlet에서 반환 된 사용자 개체)에 사용할 수 있습니다.|
 |가능한 경우 [위장 인텔리전스](learn-about-spoof-intelligence.md) 를 사용 하 여 보낸 사람에 게 허용 목록|예|예||
 |[DBEB (디렉터리 기반 Edge 차단)](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|사용|사용|도메인 유형 = 신뢰할 수 있음|
-|[모든 관리자 계정에 대해 multi-factor authentication 설정](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)|사용|사용||
+|[모든 관리자 계정에 대해 multi-factor authentication 설정](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)|사용|사용||
 |
 
 ## <a name="troubleshooting"></a>문제 해결

@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online 사서함에서 정크 메일 설정을 구성 하는 방법을 알 수 있습니다. 이러한 설정 중 상당수는 Outlook 또는 웹용 Outlook에서 사용자에 게 제공 됩니다.
-ms.openlocfilehash: 40364db9d4af9e093d8f2f74ee3c0f0373b1671a
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+ms.openlocfilehash: a0b2bce985c642a2069d51cbd3103b6fd044ff17
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44498666"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588455"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Exchange Online 사서함에 대한 정크 메일 설정 구성
 
@@ -32,7 +32,7 @@ Exchange Online의 사서함이 있는 Microsoft 365 조직에서 조직 스팸 
 - **정크 메일 규칙을 사용 하거나 사용 하지 않도록**설정: 정크 메일 규칙은 모든 사서함에서 기본적으로 사용 하도록 설정 된 정크 메일 규칙 이라는 숨겨진 받은 편지함 규칙입니다. 정크 메일 규칙은 다음과 같은 기능을 제어 합니다.
 
   - **스팸 방지 정책을 기반으로 정크 메일 폴더로 메시지 이동**: 스팸 방지 정책에 대 한 **메시지 이동** 작업을 정크 메일 필터링 결과으로 구성한 경우 정크 메일 필터 규칙은 메시지가 사서함으로 배달 된 후 해당 메시지를 정크 메일 폴더로 이동 합니다. 스팸 방지 정책에서의 스팸 필터링 verdicts에 대 한 자세한 내용은 Configure 안티스팸 information For [EOP](configure-your-spam-filter-policies.md)을 참조 하십시오. 마찬가지로, ZAP (자동 삭제)이 배달 된 메시지가 스팸으로 또는 피싱 경우 정크 메일 필터 규칙은 메시지를 **정크 메일 폴더** 스팸 필터링 결과 작업으로 이동 하기 위해 정크 메일 폴더로 이동 합니다. ZAP에 대 한 자세한 내용은 [Exchange Online에서 제로 시간 자동 삭제 (ZAP)](zero-hour-auto-purge.md)를 참조 하세요.
-  
+
   - **사용자가 Outlook 또는 웹용 outlook에서 자신을 위해 구성 하는 정크 메일 설정**: _수신 허용 목록 컬렉션_ 은 수신 허용-보낸 사람 목록, 수신 허용-받는 사람 목록 및 각 사서함의 보낸 사람 차단 목록입니다. 이러한 목록의 항목에 따라 정크 메일 규칙에서 메시지를 받은 편지함 또는 정크 메일 폴더로 이동할 것인지 여부가 결정 됩니다. 사용자는 Outlook 또는 웹용 Outlook (이전의 Outlook Web App)에서 자신의 사서함에 대 한 수신 허용 목록 컬렉션을 구성할 수 있습니다. 관리자는 모든 사용자 사서함에서 수신 허용 목록 컬렉션을 구성할 수 있습니다.
 
 사서함에서 정크 메일 규칙을 사용 하도록 설정 하면 EOP에서 사서함에 대 한 스팸 필터링 결과 작업 **이동 메시지를 정크** 메일 폴더 또는 수신 거부 목록에 기반 하 여 정크 메일 폴더로 이동 하 고 메시지를 정크 메일 폴더 (사서함의 수신 허용-보낸 사람 목록에 기반)로 배달 하지 않도록 할 수 있습니다.
@@ -148,7 +148,7 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 > 
 > - 사서함에서 정크 메일 규칙이 사용 하지 않도록 설정 된 경우에도 수신 허용 목록 컬렉션을 구성할 수 있으며 Outlook 정크 메일 필터는 메시지를 받은 편지함 또는 정크 메일 폴더로 이동할 수 있습니다. 자세한 내용은이 항목의 [Outlook의 정크 메일 설정](#about-junk-email-settings-in-outlook) 섹션을 참조 하십시오.
 > 
-> - Outlook 정크 메일 필터에는 추가 수신 허용 목록 모음 설정 (예: **수신 허용-보낸 사람 목록에 전자 메일을 자동으로 추가**)이 있습니다. 자세한 내용은 [정크 메일 필터를 사용 하 여 표시 되는 메시지 제어](https://support.office.com/article/274ae301-5db2-4aad-be21-25413cede077)를 참조 하세요.
+> - Outlook 정크 메일 필터에는 추가 수신 허용 목록 모음 설정 (예: **수신 허용-보낸 사람 목록에 전자 메일을 자동으로 추가**)이 있습니다. 자세한 내용은 [정크 메일 필터를 사용 하 여 표시 되는 메시지 제어](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077)를 참조 하세요.
 
 ### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
@@ -197,7 +197,7 @@ Outlook 및 웹용 Outlook은 모두 수신 허용 목록 컬렉션을 지원 �
   - 500 차단할 보낸 사람 목록 및 차단 된 도메인 목록의 총 항목
 
   1024 항목 제한에 도달 하면 다음과 같은 결과가 발생 합니다.
-  
+
   - 목록에서 PowerShell 및 웹용 Outlook의 항목을 허용 하지 않지만 오류는 표시 되지 않습니다.
 
     Outlook 사용자는 510 Outlook에서 1024 개 보다 많은 항목을 계속 추가할 수 있습니다. Outlook에서 사서함 (메일 흐름 규칙, 스푸핑 방지 등)에 배달 되기 전에 EOP 필터에서 메시지를 차단 하지 않는 한 이러한 추가 항목을 사용할 수 있습니다.
@@ -208,7 +208,7 @@ Outlook 및 웹용 Outlook은 모두 수신 허용 목록 컬렉션을 지원 �
   2. 수신 허용-보낸 사람 목록 및 수신 허용-받는 사람 목록은 처음 1024 항목을 변경할 때마다 사전순으로 결합 되 고, 복제 되지 않으며, 정렬 됩니다.
 
   첫 번째 1024 항목이 사용 되 고 관련 정보가 메시지 헤더에 스탬프 처리 됩니다.
-  
+
   Azure AD와 동기화 되지 않은 1024의 항목은 Outlook (웹용 Outlook 아님)에 의해 처리 되며 메시지 헤더에는 어떠한 정보도 기록 되지 않습니다.
 
 여기에서 볼 수 있듯이 **내 연락처에서 전자 메일 신뢰** 설정을 사용 하도록 설정 하면 동기화 할 수 있는 수신 허용-보낸 사람 및 수신 허용-받는 사람 수가 줄어듭니다. 이 문제가 중요 한 경우 그룹 정책을 사용 하 여이 기능을 해제 하는 것이 좋습니다.

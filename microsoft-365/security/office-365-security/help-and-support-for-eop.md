@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Microsoft에서는 자체 지원 및 보조 지원을 비롯하여 다양한 방법 및 위치에서 EOP에 대한 도움말을 제공합니다.
-ms.openlocfilehash: 2ef6bacbce6f46a17abcceb98e40d20ed3ad5363
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 277c48a8ac9503681eb695fba3697ddd16e49b88
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209202"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588243"
 ---
 # <a name="help-and-support-for-eop"></a>EOP에 대한 도움말 및 지원
 
@@ -29,7 +29,7 @@ Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (exchange online
 
 [Exchange Online Protection에 대한 제품 개요](https://products.office.com/exchange/exchange-email-security-spam-protection)
 
-[비즈니스용 제품에 대한 고객 지원 센터 - 관리자 도움말](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)
+[비즈니스용 제품에 대한 고객 지원 센터 - 관리자 도움말](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 
 [Microsoft 365 커뮤니티](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
 

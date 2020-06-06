@@ -1,5 +1,5 @@
 ---
-title: 독립 실행형 EOP 사용 하 여 중국의 온-프레미스 사서함 보호
+title: 독립형 EOP를 사용하여 중국에 있는 온-프레미스 사서함 보호
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -21,19 +21,19 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 중국의 관리자 21Vianet에서 운영 하는 Office 365을 사용 하 여 온-프레미스 사서함을 보호 하기 위해 독립 실행형 EOP (Exchange Online Protection)를 사용 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 6ce85e626f9bf4c960de57ad5cd15ac3148954cb
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 3e9ba8400ce9c545dd26f2dadce70595f5c5695e
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208297"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44587983"
 ---
-# <a name="protect-on-premises-mailboxes-in-china-with-standalone-eop"></a>독립 실행형 EOP 사용 하 여 중국의 온-프레미스 사서함 보호
+# <a name="protect-on-premises-mailboxes-in-china-with-standalone-eop"></a>독립형 EOP를 사용하여 중국에 있는 온-프레미스 사서함 보호
 
 > [!NOTE]
 > 이 문서는 중국의 21Vianet에서 운영 하는 Office 365에만 적용 됩니다.
 
-온-프레미스에서 사서함의 일부 또는 전체를 호스트 하는 경우에도 EOP (Exchange Online Protection)를 사용 하 여 사서함을 보호할 수 있습니다. 커넥터를 구성 하려면 계정이 전역 관리자 또는 Exchange 회사 관리자 (조직 관리 역할 그룹) 여야 합니다. Office 365 권한이 Exchange 권한과 관련 된 방식에 대 한 자세한 내용은 [21vianet에서 운영 하는 office 365에서 관리자 역할 할당](https://docs.microsoft.com/office365/admin/add-users/assign-admin-roles?&view=o365-21vianet)을 참조 하세요. 모든 Exchange 사서함이 온-프레미스에 있는 경우 다음 단계를 수행 하 여 EOP 서비스를 설정 합니다.
+온-프레미스에서 사서함의 일부 또는 전체를 호스트 하는 경우에도 EOP (Exchange Online Protection)를 사용 하 여 사서함을 보호할 수 있습니다. 커넥터를 구성 하려면 계정이 전역 관리자 또는 Exchange 회사 관리자 (조직 관리 역할 그룹) 여야 합니다. Office 365 권한이 Exchange 권한과 관련 된 방식에 대 한 자세한 내용은 [21vianet에서 운영 하는 office 365에서 관리자 역할 할당](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles?view=o365-21vianet)을 참조 하세요. 모든 Exchange 사서함이 온-프레미스에 있는 경우 다음 단계를 수행 하 여 EOP 서비스를 설정 합니다.
 
 ## <a name="step-1-use-the-microsoft-365-admin-center-to-add-and-verify-your-domain"></a>1 단계: Microsoft 365 관리 센터를 사용 하 여 도메인 추가 및 확인
 
@@ -42,7 +42,7 @@ ms.locfileid: "44208297"
 2. 도메인 소유권을 확인 하기 위해 포털의 단계에 따라 DNS 호스팅 공급자에 게 해당 DNS 레코드를 추가 합니다.
 
 > [!TIP]
-> 도메인 [및 사용자를 21vianet에서 운영 하는 office 365에 추가](https://docs.microsoft.com/office365/admin/setup/add-domain?&view=o365-21vianet) 하 고, [dns 레코드를 관리할 때 office 365에 대 한 Dns 레코드를 만들려면](https://docs.microsoft.com/office365/admin/services-in-china/create-dns-records-when-you-manage-your-dns-records?&view=o365-21vianet) 도메인을 서비스에 추가 하 고 dns를 구성할 때 참조 하면 도움이 되는 리소스입니다.
+> 도메인 [및 사용자를 21vianet에서 운영 하는 office 365에 추가](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain?view=o365-21vianet) 하 고, [dns 레코드를 관리할 때 office 365에 대 한 Dns 레코드를 만들려면](https://docs.microsoft.com/microsoft-365/admin/services-in-china/create-dns-records-when-you-manage-your-dns-records?view=o365-21vianet) 도메인을 서비스에 추가 하 고 dns를 구성할 때 참조 하면 도움이 되는 리소스입니다.
 
 ### <a name="step-2-add-recipients-and-configure-the-domain-type"></a>2 단계: 받는 사람 추가 및 도메인 유형 구성
 
@@ -69,7 +69,7 @@ EOP 및 온-프레미스 메일 서버 간의 메일 흐름을 가능하게 하�
 
 ## <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>6 단계: Microsoft 365 관리 센터를 사용 하 여 MX 레코드가 EOP를 가리키도록 지정
 
-Office 365 도메인 구성 단계에 따라 도메인의 MX 레코드를 업데이트하여 인바운드 전자 메일이 EOP를 통해 이동하도록 할 수 있습니다. 자세한 내용은 [dns 레코드를 관리할 때 Office 365에 대 한 dns 레코드 만들기](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 다시 참조 하십시오.
+Office 365 도메인 구성 단계에 따라 도메인의 MX 레코드를 업데이트하여 인바운드 전자 메일이 EOP를 통해 이동하도록 할 수 있습니다. 자세한 내용은 [dns 레코드를 관리할 때 Office 365에 대 한 dns 레코드 만들기](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 다시 참조 하십시오.
 
 이 작업의 작동 여부는 어떻게 확인하나요?
 

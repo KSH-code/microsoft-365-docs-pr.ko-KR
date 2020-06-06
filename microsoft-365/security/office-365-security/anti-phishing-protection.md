@@ -19,16 +19,16 @@ ms.custom:
 - TopSMBIssues
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection) 및 Office 365 Advanced Threat Protection (Office 365 ATP)의 피싱 방지 보호 기능에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 2b5d5786e363b0d74e29b1f0c27ab110d2e60b0d
-ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
+ms.openlocfilehash: 657224d3a18d7cae1581eaf6c603d1c04c3b41f3
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44262286"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588315"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Microsoft 365의 피싱 방지 보호 기능
 
-*피싱은* 적법 하거나 신뢰할 수 있는 보낸 사람 으로부터 온 것 처럼 보이는 메시지의 중요 한 정보를 도용 하는 전자 메일 공격입니다. 특정 종류의 피싱이 있습니다. 예시는 다음과 같습니다:
+*피싱은* 적법 하거나 신뢰할 수 있는 보낸 사람 으로부터 온 것 처럼 보이는 메시지의 중요 한 정보를 도용 하는 전자 메일 공격입니다. 특정 종류의 피싱이 있습니다. 예시:
 
 - **스피어 피싱은** 특히 대상 지정 된 받는 사람에 맞게 특별히 조정 된 콘텐츠 (일반적으로 공격자가 받는 사람을 검사 한 후)를 사용 합니다.
 
@@ -62,6 +62,6 @@ Office 365 ATP에는 추가 및 보다 고급 피싱 방지 기능이 포함 되
 
 ## <a name="other-anti-phishing-resources"></a>기타 피싱 방지 리소스
 
-- 최종 사용자의 경우: [피싱 체계 및 기타 형태의 온라인 사기 행위 로부터 자신을 보호](https://support.office.com/article/protect-yourself-from-phishing-schemes-and-other-forms-of-online-fraud-be0de46a-29cd-4c59-aaaf-136cf177d593)합니다.
+- 최종 사용자의 경우: [피싱 체계 및 기타 형태의 온라인 사기 행위 로부터 자신을 보호](https://support.microsoft.com/office/be0de46a-29cd-4c59-aaaf-136cf177d593)합니다.
 
 - [Microsoft 365에서 보낸 사람 주소의 유효성을 검사 하 여 피싱을 방지 하는 방법](how-office-365-validates-the-from-address.md)입니다.

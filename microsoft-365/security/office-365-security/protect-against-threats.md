@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 Microsoft 365의 위협 보호에 대해 알아보고 조직에서이를 사용 하는 방법을 구성할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3ed243d36866e9ebadf00a0247dd4545113788e8
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 4176aabb88d177c7cff0f32f32543a251b558170
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44206607"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44587995"
 ---
 # <a name="protect-against-threats"></a>위협으로부터 보호
 
@@ -41,13 +41,13 @@ Microsoft 365에는 다양 한 위협 보호 기능이 포함 되어 있습니�
 |||
 |---|---|
 |**보호 유형**|**구독 요구 사항**|
-|맬웨어 방지 보호 기능|EOP ( [Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description) )|
+|맬웨어 방지 보호 기능|EOP ( [Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) )|
 |전자 메일 및 Office 문서의 악성 Url 및 파일 로부터 보호|[Office 365 ATP (Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) )|
-|피싱 방지 보호 기능|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)|
+|피싱 방지 보호 기능|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |고급 피싱 방지 보호|[Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
-|스팸 방지 보호 기능|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)|
-|0 시간 자동 삭제 (전자 메일의 경우)|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)|
-|감사 로깅 (보고 목적으로 사용 됨)|[Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description)|
+|스팸 방지 보호 기능|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
+|0 시간 자동 삭제 (전자 메일의 경우)|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
+|감사 로깅 (보고 목적으로 사용 됨)|[Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description)|
 |
 
 ### <a name="roles-and-permissions"></a>역할 및 사용 권한
@@ -56,7 +56,7 @@ Microsoft 365에는 다양 한 위협 보호 기능이 포함 되어 있습니�
 
 |역할 또는 역할 그룹|자세한 정보|
 |---------|---------|
-|전역 관리자|[Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
+|전역 관리자|[Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
 |보안 관리자|[Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Exchange Online 조직 관리|[Exchange Online의 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>및<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)|
 |
@@ -65,7 +65,7 @@ Microsoft 365에는 다양 한 위협 보호 기능이 포함 되어 있습니�
 
 ## <a name="part-1---anti-malware-protection"></a>1 부-맬웨어 방지 보호 기능
 
-[맬웨어 방지 보호](anti-malware-protection.md) 는 [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)을 포함 하는 구독에서 사용할 수 있습니다.
+[맬웨어 방지 보호](anti-malware-protection.md) 는 [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)을 포함 하는 구독에서 사용할 수 있습니다.
 
 1. [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리**  >  **정책**  >  **맬웨어 방지**를 선택 합니다.
 
@@ -147,7 +147,7 @@ Microsoft 365에는 다양 한 위협 보호 기능이 포함 되어 있습니�
 
 [피싱 방지]
 
-[피싱 방지 보호](anti-phishing-protection.md) 기능은 [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)을 포함 하는 구독에서 사용할 수 있습니다. 고급 피싱 방지 보호는 [ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)에서 사용할 수 있습니다.
+[피싱 방지 보호](anti-phishing-protection.md) 기능은 [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)을 포함 하는 구독에서 사용할 수 있습니다. 고급 피싱 방지 보호는 [ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)에서 사용할 수 있습니다.
 
 다음 절차에서는 ATP 피싱 방지 정책을 구성 하는 방법에 대해 설명 합니다. 이 단계는 피싱 방지 정책 (ATP 없이)을 구성 하는 경우에도 비슷합니다.
 
@@ -183,7 +183,7 @@ Microsoft 365에는 다양 한 위협 보호 기능이 포함 되어 있습니�
 
 ## <a name="part-4---anti-spam-protection"></a>4 부-스팸 방지 보호 기능
 
-[스팸 방지 보호](anti-spam-protection.md) 기능은 [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)을 포함 하는 구독에서 사용할 수 있습니다.
+[스팸 방지 보호](anti-spam-protection.md) 기능은 [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)을 포함 하는 구독에서 사용할 수 있습니다.
 
 1. [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리**  >  **정책**  >  **스팸 방지**를 선택 합니다.
 
@@ -205,7 +205,7 @@ Microsoft 365에는 다양 한 위협 보호 기능이 포함 되어 있습니�
 
 ### <a name="zero-hour-auto-purge-for-email"></a>전자 메일에 대 한 제로 시간 자동 삭제
 
-[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)을 포함 하는 구독에서 [0 시간 자동 삭제](zero-hour-auto-purge.md) (ZAP)를 사용할 수 있습니다. 이 보호 기능은 기본적으로 설정 되어 있습니다. 그러나 보호 기능을 적용 하려면 다음 조건을 충족 해야 합니다.
+[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)을 포함 하는 구독에서 [0 시간 자동 삭제](zero-hour-auto-purge.md) (ZAP)를 사용할 수 있습니다. 이 보호 기능은 기본적으로 설정 되어 있습니다. 그러나 보호 기능을 적용 하려면 다음 조건을 충족 해야 합니다.
 
 - 스팸 [방지 정책](anti-spam-protection.md)에서 **정크 메일 폴더로 메시지를 이동** 하도록 스팸 작업을 설정 합니다.
 
@@ -215,7 +215,7 @@ Microsoft 365에는 다양 한 위협 보호 기능이 포함 되어 있습니�
 
 ### <a name="audit-logging-for-reporting-and-investigation"></a>보고 및 조사에 대 한 감사 로깅
 
-감사 로깅은 [Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description)이 포함 된 구독에서 사용할 수 있습니다. [보안 대시보드](security-dashboard.md), [전자 메일 보안 보고서](view-email-security-reports.md)및 [탐색기](threat-explorer.md)와 같은 위협 보호 보고서의 데이터를 보려면 조직에 대해 감사 로깅을 설정 해야 합니다. 자세한 내용은 [Turn audit log search on or off](../../compliance/turn-audit-log-search-on-or-off.md)를 참조 하십시오.
+감사 로깅은 [Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description)이 포함 된 구독에서 사용할 수 있습니다. [보안 대시보드](security-dashboard.md), [전자 메일 보안 보고서](view-email-security-reports.md)및 [탐색기](threat-explorer.md)와 같은 위협 보호 보고서의 데이터를 보려면 조직에 대해 감사 로깅을 설정 해야 합니다. 자세한 내용은 [Turn audit log search on or off](../../compliance/turn-audit-log-search-on-or-off.md)를 참조 하십시오.
 
 ## <a name="post-setup-tasks"></a>설치 후 작업
 
@@ -226,5 +226,5 @@ Microsoft 365에는 다양 한 위협 보호 기능이 포함 되어 있습니�
 |**수행할 작업**|**자세한 정보를 알아볼 수 있는 리소스**|
 |보고서를 확인 하 여 조직에서 위협 방지 기능을 사용 하는 방법 보기|[보안 대시보드](security-dashboard.md)<br/>[전자 메일 보안 보고서](view-email-security-reports.md)<br/>[Office 365 ATP에 대 한 보고서](view-reports-for-atp.md)<br/>[위협 탐색기](threat-explorer.md)|
 |필요에 따라 위협 보호 정책 주기적으로 검토 및 수정|[Secure Score](../mtp/microsoft-secure-score.md)<br/>[스마트 보고서 및 통찰력](reports-and-insights-in-security-and-compliance.md)<br/>[Microsoft 365 위협 조사 및 응답 기능](keep-users-safe-with-office-365-ti.md)|
-|새로운 기능 및 서비스 업데이트 조사|[표준 및 대상 지정 된 릴리스 옵션](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide)<br/>[메시지 센터](https://docs.microsoft.com/office365/admin/manage/message-center?view=o365-worldwide)<br/>[Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|
+|새로운 기능 및 서비스 업데이트 조사|[표준 및 대상 지정 된 릴리스 옵션](https://docs.microsoft.com/microsoft-365/admin/manage/release-options-in-office-365)<br/>[메시지 센터](https://docs.microsoft.com/microsoft-365/admin/manage/message-center)<br/>[Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|
 |

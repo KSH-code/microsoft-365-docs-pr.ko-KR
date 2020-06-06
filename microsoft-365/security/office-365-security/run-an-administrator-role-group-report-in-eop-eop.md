@@ -14,12 +14,12 @@ ms.assetid: 23b47b57-0eec-46a3-a03b-366ea014ab31
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 독립 실행형 EOP (Exchange Online Protection)에서 administrator 역할 그룹 보고서를 실행 하는 방법을 확인할 수 있습니다. 관리자가 관리 역할 그룹에서 구성원을 추가 하거나 제거할 때이 보고서가 기록 되며, EOP 각 항목에 대해 로그를 기록 합니다.
-ms.openlocfilehash: 39022892075b295a26645157941195b97897c690
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 0c504460657a153aad7d3dd065c81007a68ba916
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350942"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44587367"
 ---
 # <a name="run-an-administrator-role-group-report-in-standalone-eop"></a>독립 실행형 EOP에서 관리자 역할 그룹 보고서 실행
 
@@ -27,7 +27,7 @@ Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protec
 
 EAC (Exchange 관리 센터)에서 관리자 역할 그룹 보고서를 실행 하면 항목이 검색 결과로 표시 되 고 영향을 받는 역할 그룹, 역할 그룹 구성원 자격을 변경한 사용자 및 멤버 자격 업데이트를 포함 합니다. 이 보고서를 사용하여 조직의 사용자에게 할당된 관리 권한의 변경을 모니터링할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - Exchange 관리 센터를 열려면 [독립 실행형 EOP에서 exchange 관리 센터](exchange-admin-center-in-exchange-online-protection-eop.md)를 참조 하세요.
 
@@ -74,7 +74,7 @@ EAC (Exchange 관리 센터)에서 관리자 역할 그룹 보고서를 실행 �
 
 ## <a name="use-standalone-exchange-online-powershell-to-search-for-audit-log-entries"></a>독립 실행형 Exchange Online PowerShell을 사용 하 여 감사 로그 항목 검색
 
-Exchange Online PowerShell을 사용 하 여 지정한 기준을 충족 하는 감사 로그 항목을 검색할 수 있습니다. 검색 기준 목록은 [관리자 감사 로깅](https://technet.microsoft.com/library/22b17eb8-d8ee-4599-b202-d6a7928c20d9.aspx)를 참조하십시오. 이 절차에서는 **search-adminauditlog** cmdlet을 사용 하 고 Exchange Online PowerShell에 검색 결과를 표시 합니다. 이 cmdlet은 **New-AdminAuditLogSearch** cmdlet 또는 EAC 감사 보고 보고서에 정의된 제한을 초과하는 결과를 반환해야 할 경우에 사용할 수 있습니다.
+Exchange Online PowerShell을 사용 하 여 지정한 기준을 충족 하는 감사 로그 항목을 검색할 수 있습니다. 검색 조건 목록은 [검색-search-adminauditlog 검색 조건을](https://docs.microsoft.com/Exchange/policy-and-compliance/admin-audit-logging/admin-audit-logging#search-adminauditlog-cmdlet)참조 하십시오. 이 절차에서는 **search-adminauditlog** cmdlet을 사용 하 고 Exchange Online PowerShell에 검색 결과를 표시 합니다. 이 cmdlet은 **New-AdminAuditLogSearch** cmdlet 또는 EAC 감사 보고 보고서에 정의된 제한을 초과하는 결과를 반환해야 할 경우에 사용할 수 있습니다.
 
 지정한 기준을 충족하는 감사 로그를 검색하려면 다음 구문을 사용합니다.
 
@@ -119,7 +119,7 @@ Search-AdminAuditLog -StartDate 05/01/2018 -EndDate 10/03/2018 -ObjectID contoso
 
 ### <a name="view-details-of-audit-log-entries"></a>감사 로그 항목의 상세 정보 보기
 
-**Search-AdminAuditLog** cmdlet은 [관리자 감사 로깅](https://technet.microsoft.com/library/22b17eb8-d8ee-4599-b202-d6a7928c20d9.aspx)의 "감사 로그 콘텐츠" 섹션에 설명된 필드를 반환합니다. cmdlet에 의해 반환된 필드 중에서 **CmdletParameters** 및 **ModifiedProperties** 의 두 필드에는 기본적으로 볼 수 없는 추가 정보가 포함됩니다.
+**Search-adminauditlog** Cmdlet은 [감사 로그 내용](https://docs.microsoft.com/Exchange/policy-and-compliance/admin-audit-logging/admin-audit-logging#audit-log-contents)에 설명 된 필드를 반환 합니다. cmdlet에 의해 반환된 필드 중에서 **CmdletParameters** 및 **ModifiedProperties** 의 두 필드에는 기본적으로 볼 수 없는 추가 정보가 포함됩니다.
 
 **CmdletParameters** 및 **ModifiedProperties** 필드의 콘텐츠를 보려면 다음 단계를 수행합니다. 또는 **Exchange Online PowerShell 사용의 절차를 사용 하 여 감사 로그 항목을 검색 하 고이 항목의 뒷부분에 있는 받는 사람에 게 결과를 보내** XML 파일을 만들 수 있습니다.
 

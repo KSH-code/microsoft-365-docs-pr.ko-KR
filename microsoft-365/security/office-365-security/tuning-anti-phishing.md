@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: 관리자는 Microsoft 365에서 피싱 메시지를 통해 얻은 이유와 방법을 파악 하 고, 향후 피싱 메시지를 더 많이 방지 하기 위해 수행 해야 하는 작업에 대해 알아봅니다.
-ms.openlocfilehash: a9b7a58f32fd14c157d72e8f91a1f1b8bfe3aedc
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: b7a68eb3ab3cf7dbb7156059416cca04d80bb3a8
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208588"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588443"
 ---
 # <a name="tune-anti-phishing-protection"></a>피싱 방지 보호 기능 조정
 
@@ -75,4 +75,4 @@ ATP 기능이 설정 되어 있는지 확인 합니다.
 
 - MFA (multi-factor authentication)는 손상 된 계정을 방지 하는 좋은 방법입니다. 모든 사용자에 대해 MFA를 사용 하도록 설정 하는 것이 좋습니다. 단계적 접근 방식에서는 모든 사용자에 대해 MFA를 사용 하도록 설정 하기 전에 가장 중요 한 사용자 (관리자, 임원 등)에 대해 MFA를 사용 하도록 설정 하는 것부터 시작 합니다. 자세한 내용은 [다단계 인증 설정을](../../admin/security-and-compliance/set-up-multi-factor-authentication.md)참조 하십시오.
 
-- 외부 받는 사람에 게 규칙을 전달 하는 경우 공격자가 데이터를 추출 하는 경우가 많습니다. [Microsoft 보안 점수](../mtp/microsoft-secure-score.md) 에서 **사서함 전달 규칙 검토** 정보를 사용 하 여 외부의 받는 사람에 대 한 전달 규칙을 찾아이를 방지할 수도 있습니다. 자세한 내용은 [보안 점수를 사용한 클라이언트 외부 전달 규칙 완화](https://blogs.technet.microsoft.com/office365security/mitigating-client-external-forwarding-rules-with-secure-score/)를 참조 하세요.
+- 외부 받는 사람에 게 규칙을 전달 하는 경우 공격자가 데이터를 추출 하는 경우가 많습니다. [Microsoft 보안 점수](../mtp/microsoft-secure-score.md) 에서 **사서함 전달 규칙 검토** 정보를 사용 하 여 외부의 받는 사람에 대 한 전달 규칙을 찾아이를 방지할 수도 있습니다. 자세한 내용은 [보안 점수를 사용한 클라이언트 외부 전달 규칙 완화](https://docs.microsoft.com/archive/blogs/office365security/mitigating-client-external-forwarding-rules-with-secure-score)를 참조 하세요.

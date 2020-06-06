@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Microsoft Office 365에서 불법 동의 부여 공격을 인식 하 고 수정 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c7ba6c521c814e4ea44c2dc29ccdad8143d166d4
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 0e775112809fc25e562686761c69471dad6cac1d
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034831"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44587499"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>불법 동의 권한 부여 검색 및 재구성
 
@@ -158,7 +158,7 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 - 영향을 받는 계정에 대한 로그인을 사용하지 않도록 설정할 수도 있습니다. 그러면 해당 계정의 데이터에 대한 앱 액세스를 해제합니다. 이는 최종 사용자의 생산성에 이상적이지는 않지만 영향을 신속하게 제한려 한다면 단기적으로 조치가 될 수 있습니다.
 
-- 테넌시에 통합 응용 프로그램을 해제할 수 있습니다. 이는 최종 사용자가 테넌트 전반에 대한 동의를 부여하는 기능을 해제하는 극단적인 단계입니다. 따라서 사용자가 실수로 악성 응용 프로그램에 액세스를 부여하는 것을 방지할 수 있습니다. 타사 응용 프로그램을 사용하여 생산성을 높일 수 있는 사용자 능력을 크게 손상시킬 수 있으므로 권장하지 않습니다. [통합 앱을 설정하거나 해제](https://docs.microsoft.com/office365/admin/misc/integrated-apps)하는 단계를 수행하여 이 작업을 수행할 수 있습니다.
+- 테넌시에 통합 응용 프로그램을 해제할 수 있습니다. 이는 최종 사용자가 테넌트 전반에 대한 동의를 부여하는 기능을 해제하는 극단적인 단계입니다. 따라서 사용자가 실수로 악성 응용 프로그램에 액세스를 부여하는 것을 방지할 수 있습니다. 타사 응용 프로그램을 사용하여 생산성을 높일 수 있는 사용자 능력을 크게 손상시킬 수 있으므로 권장하지 않습니다. [통합 앱을 설정하거나 해제](https://docs.microsoft.com/microsoft-365/admin/misc/integrated-apps)하는 단계를 수행하여 이 작업을 수행할 수 있습니다.
 
 ## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>사이버 보안 프로그램과 같은 Microsoft 365 보안
 

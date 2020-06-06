@@ -14,12 +14,12 @@ ms.custom:
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: 관리자는 온-프레미스 전자 메일 환경을 보호 하기 위해 독립 실행형 EOP (Exchange Online Protection)를 설정 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: bf762eabcfebf34ca8cb8d37935ffac011228df0
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: b50ec7e2bca3765bb81e165b74596155da1f7940
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209802"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588067"
 ---
 # <a name="set-up-your-standalone-eop-service"></a>독립 실행형 EOP 서비스 설정
 
@@ -43,12 +43,12 @@ ms.locfileid: "44209802"
 
 ## <a name="step-1-use-the-microsoft-365-admin-center-to-add-and-verify-your-domain"></a>1 단계: Microsoft 365 관리 센터를 사용 하 여 도메인 추가 및 확인
 
-1. [Microsoft 365 관리 센터](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center)에서 **설정** 으로 이동 하 여 서비스에 도메인을 추가 합니다.
+1. [Microsoft 365 관리 센터](https://docs.microsoft.com/microsoft-365/admin/admin-overview/about-the-admin-center)에서 **설정** 으로 이동 하 여 서비스에 도메인을 추가 합니다.
 
 2. 도메인 소유권 확인을 위해 해당 DNS 레코드를 DNS 호스팅 공급자에 추가하는 단계를 수행합니다.
 
 > [!TIP]
-> [Office 365에 도메인 추가](https://docs.microsoft.com/office365/admin/setup/add-domain) 및 [office 365에 대 한 dns 호스팅 공급자에서 dns 레코드 만들기](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) 는 서비스에 도메인을 추가 하 고 DNS를 구성할 때 참조 해야 하는 유용한 리소스입니다.
+> [Office 365에 도메인 추가](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) 및 [office 365에 대 한 dns 호스팅 공급자에서 dns 레코드 만들기](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) 는 서비스에 도메인을 추가 하 고 DNS를 구성할 때 참조 해야 하는 유용한 리소스입니다.
 
 ## <a name="step-2-add-recipients-and-optionally-enable-dbeb"></a>2단계: 받는 사람을 추가하고 선택적으로 DBEB 사용
 
@@ -77,7 +77,7 @@ EOP 및 온-프레미스 메일 서버 간의 메일 흐름을 가능하게 하�
 
 ## <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>6 단계: Microsoft 365 관리 센터를 사용 하 여 MX 레코드가 EOP를 가리키도록 지정
 
-도메인 구성 단계에 따라 도메인에 대 한 MX 레코드를 업데이트 하 여 인바운드 전자 메일이 EOP를 통해 흐를 수 있도록 합니다. 타사 필터링 서비스가 전자 메일을 EOP로 릴레이할 때와 달리 MX 레코드가 EOP를 직접 가리키도록 해야 합니다. 자세한 내용은 [Office 365용 DNS 레코드 만들기](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 참조하세요.
+도메인 구성 단계에 따라 도메인에 대 한 MX 레코드를 업데이트 하 여 인바운드 전자 메일이 EOP를 통해 흐를 수 있도록 합니다. 타사 필터링 서비스가 전자 메일을 EOP로 릴레이할 때와 달리 MX 레코드가 EOP를 직접 가리키도록 해야 합니다. 자세한 내용은 [Office 365용 DNS 레코드 만들기](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 참조하세요.
 
 > [!NOTE]
 > MX 레코드가 EOP 앞에 있는 다른 서버 또는 서비스를 가리켜야 하는 경우 [Exchange Online의 커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)을 참조 하십시오.

@@ -27,12 +27,12 @@ search.appverid:
 ms.assetid: 9b23c065-eef9-4bf7-acf5-127eb46d5e67
 ROBOTS: NOINDEX
 description: 'Office 365에 대 한 등록 프로세스를 진행 하기 전에 알아야 할 사항에 대해 알아봅니다. '
-ms.openlocfilehash: 2778dda03c517e176fbab044243306fb51355396
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3b3212eeb5e95d4be24029a78f9af4d1b02931ce
+ms.sourcegitcommit: a418195dc11e6251ae37e788c102bbaa7087e44e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386760"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44579172"
 ---
 # <a name="how-to-sign-up---admin-help"></a>관리자 도움말에 등록 하는 방법
 
@@ -40,21 +40,11 @@ ms.locfileid: "44386760"
 
 팀이 비즈니스에서 최신 버전의 Word, Excel, PowerPoint 및 기타 Office 프로그램을 사용 하기 시작할 수 있도록 Microsoft 365 for business에 등록 합니다.
   
-365 Microsoft의 세 가지 비즈니스 요금제에 대 한 간략 한 개요를 보거나 아래로 스크롤하여 자세한 정보를 확인 하세요.
-<br><br>
-  
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/cf211808-67c3-4d4b-880a-3f582d70b4d1?autoplay=false]
-  
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
 팀이 비즈니스에서 최신 버전의 Word, Excel, PowerPoint 및 기타 Office 프로그램을 사용 하기 시작할 수 있도록 Microsoft 365 for business에 등록 합니다.
-  
-비즈니스에 가장 적합 한 세 가지 계획에 대 한 간략 한 개요를 시청 하세요. 자세한 내용을 보려면 아래로 스크롤합니다.
-<br><br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/cf211808-67c3-4d4b-880a-3f582d70b4d1?autoplay=false]
   
 ::: moniker-end
 

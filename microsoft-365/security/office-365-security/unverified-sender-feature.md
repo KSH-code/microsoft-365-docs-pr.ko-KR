@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 피싱 메시지가 사서함, Outlook.com 및 웹용 Outlook에 도달 하지 못하도록 차단 하는 방법을 안내 합니다.
-ms.openlocfilehash: 9583161c9e64d6a24312565d68ae516a2be8606e
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: b49cc27685f62f5fb5d123a8a7aa4e51e0065e64
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352457"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588339"
 ---
 # <a name="unverified-sender"></a>확인 되지 않은 보낸 사람
 
@@ -86,8 +86,8 @@ Via 태그: 보낸 사람으로 서, DKIM 서명 또는 SMTP 메일의 도메인
 
 ## <a name="related-topics"></a>관련 항목
 
-[Outlook.com 전자 메일 계정 보호](https://support.microsoft.com/en-us/office/help-protect-your-outlook-com-email-account-a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
+[Outlook.com 전자 메일 계정 보호](https://support.microsoft.com/office/a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
 
 [Outlook.com의 피싱 또는 스푸핑 처리](https://support.office.com/article/0d882ea5-eedc-4bed-aebc-079ffa1105a3)
 
-[웹용 Outlook에서 정크 메일 및 스팸 필터링](https://support.office.com/article/db786e79-54e2-40cc-904f-d89d57b7f41d)
+[웹용 Outlook에서 정크 메일 및 스팸 필터링](https://support.microsoft.com/office/db786e79-54e2-40cc-904f-d89d57b7f41d)

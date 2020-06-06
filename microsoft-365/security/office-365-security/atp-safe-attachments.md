@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - seo-marvel-apr2020
 description: 이 문서에서는 Office 365의 ATP 안전한 첨부 파일 기능 및 구독에 대 한 기능을 가져오는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e6cbd5cb494e765bdb849da93114ea4168ab3c93
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 75b047c1761a936f1fb0e08c65d9c270a136a953
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034855"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588303"
 ---
 # <a name="atp-safe-attachments"></a>ATP 안전한 첨부 파일
 
@@ -47,9 +47,9 @@ ATP 정책을 정의 하거나 편집 하려면 적절 한 역할이 할당 되�
 
 |역할|할당 된 위치/방법|
 |---------|---------|
-|전역 관리자|Microsoft 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 를 참조 하세요.|
-|보안 관리자|Azure Active Directory 관리 센터 ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
-|Exchange Online 조직 관리|Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)참조)|
+|전역 관리자|Microsoft 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) 를 참조 하세요.|
+|보안 관리자|Azure Active Directory 관리 센터 ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
+|Exchange Online 조직 관리|Exchange 관리 센터 ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)참조)|
 
 ## <a name="how-to-know-if-atp-safe-attachments-protection-is-in-place"></a>ATP 안전한 첨부 파일 보호가 현재 위치에 있는지 여부를 확인 하는 방법
 

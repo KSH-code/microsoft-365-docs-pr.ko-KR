@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Attack 시뮬레이터를 사용 하 여 Microsoft 365 E5 또는 ATP 계획 2 조 직에서 시뮬레이트된 피싱 및 암호 공격을 실행 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e2c6859291e4a25e56dd8dd20a8ecc5962310680
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 166a8ab9f6ef08ca089bc8924b686e392e870526
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035861"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44587571"
 ---
 # <a name="attack-simulator-in-atp"></a>ATP의 공격 시뮬레이터
 
@@ -39,7 +39,7 @@ ms.locfileid: "44035861"
 
 - **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
-- MFA (multi-factor authentication)를 사용 하 여 공격 시뮬레이터에서 캠페인을 만들고 관리 하도록 계정을 구성 해야 합니다. 자세한 내용은 [다단계 인증 설정을](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)참조 하십시오.
+- MFA (multi-factor authentication)를 사용 하 여 공격 시뮬레이터에서 캠페인을 만들고 관리 하도록 계정을 구성 해야 합니다. 자세한 내용은 [다단계 인증 설정을](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)참조 하십시오.
 
 공격이 정상적으로 시작 되려면 시뮬레이트된 공격을 실행 하는 데 사용 하는 계정이 다단계 인증을 사용 하 고 있는지 확인 합니다. 또한 전역 관리자 또는 보안 관리자 여야 합니다. 역할 및 사용 권한에 대 한 자세한 내용은 [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
@@ -55,7 +55,7 @@ ms.locfileid: "44035861"
 
 Attack 시뮬레이터에서는 다음과 같은 두 가지 유형의 스피어 피싱 캠페인을 사용할 수 있습니다.
 
-- 하나 이상의 전역 관리자 계정 및 보안 관리자에 게 공격 시뮬레이터를 사용할 수 있도록 [다단계 인증/조건부 액세스가](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) 설정 되어 있어야 합니다. 이상적으로는 조직의 모든 사용자에 대해 다단계 인증/조건부 액세스를 설정 하는 것이 좋습니다.
+- 하나 이상의 전역 관리자 계정 및 보안 관리자에 게 공격 시뮬레이터를 사용할 수 있도록 [다단계 인증/조건부 액세스가](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication) 설정 되어 있어야 합니다. 이상적으로는 조직의 모든 사용자에 대해 다단계 인증/조건부 액세스를 설정 하는 것이 좋습니다.
 
   - 이를 설명 하는 기본 페이지는 테스트 일 뿐 이며 피싱 메시지를 인식 하기 위한 팁을 제공 합니다.
 
@@ -63,7 +63,7 @@ Attack 시뮬레이터에서는 다음과 같은 두 가지 유형의 스피어 
 
   - 지정 하는 사용자 지정 페이지 (URL)입니다.
 
-- **스피어 피싱 (첨부 파일)**:이 공격은 받는 사람이 메시지에 있는 .docx 또는 .pdf 첨부 파일을 열도록 유도 하려고 시도 합니다. 첨부 파일은 기본 피싱 링크와 동일한 콘텐츠를 포함 하지만 첫 문장이 "표시 이름\<\>"으로 시작 되며,이 메시지는 사용자가 연 최근 전자 메일 메시지로 나타납니다. "
+- **스피어 피싱 (첨부 파일)**:이 공격은 받는 사람이 메시지에 있는 .docx 또는 .pdf 첨부 파일을 열도록 유도 하려고 시도 합니다. 첨부 파일에는 기본 피싱 링크와 동일한 콘텐츠가 포함 되어 있지만 첫 문장이 "라는 \<Display Name\> 최근 전자 메일 메시지로 표시 됩니다."로 시작 됩니다.
 
 > [!NOTE]
 > 현재 공격 시뮬레이터의 스피어 피싱 캠페인은 만료 되지 않습니다.
@@ -291,7 +291,7 @@ Attack 시뮬레이터에서는 사용자 암호의 복잡도를 테스트 하�
 
 - **성공**: 링크를 클릭 **하 고** 자격 증명 (*사용자 이름 및* 암호 값)을 입력 한 사용자 수입니다.
 
-- **전체 성공률**:**총 사용자**수에 대해 **성공한 시도** / 를 통해 계산 되는 백분율입니다.
+- **전체 성공률**: 총 사용자 수에 대해 **성공한 시도**를 통해 계산 되는 백분율  /  **Total users targeted**입니다.
 
 - **고속 클릭**: 처음 사용자가 캠페인을 시작한 후 링크를 클릭 하는 데 소요 되는 시간입니다.
 
@@ -331,7 +331,7 @@ Attack 시뮬레이터에서는 사용자 암호의 복잡도를 테스트 하�
 
 - **성공한 시도**: 첨부 파일을 열거나 다운로드 한 후 연 사용자 수 (미리 보기에서 계산 되지 않음)입니다.
 
-- **전체 성공률**:**총 사용자**수에 대해 **성공한 시도** / 를 통해 계산 되는 백분율입니다.
+- **전체 성공률**: 총 사용자 수에 대해 **성공한 시도**를 통해 계산 되는 백분율  /  **Total users targeted**입니다.
 
 - **가장 빠른 첨부 파일 열기 시간**: 캠페인을 시작한 후 첫 번째 사용자가 첨부 파일을 여는 데 소요 되는 기간입니다.
 
@@ -349,7 +349,7 @@ Attack 시뮬레이터에서는 사용자 암호의 복잡도를 테스트 하�
 
 - **성공한 시도**: 지정 된 암호 중 하나를 사용 하는 것으로 확인 된 사용자 수입니다.
 
-- **전체 성공률**:**총 사용자**수에 대해 **성공한 시도** / 를 통해 계산 되는 백분율입니다.
+- **전체 성공률**: 총 사용자 수에 대해 **성공한 시도**를 통해 계산 되는 백분율  /  **Total users targeted**입니다.
 
 - **손상 된 사용자** 섹션에는 영향을 받는 사용자의 전자 메일 주소가 나열 됩니다. **내보내기를** 클릭 하 여 결과를 CSV 파일로 내보낼 수 있습니다.
 
@@ -363,4 +363,4 @@ Attack 시뮬레이터에서는 사용자 암호의 복잡도를 테스트 하�
 
 - **성공**: 지정 된 암호를 사용 하 여 검색 된 사용자 수입니다.
 
-- **전체 성공률**:**총 사용자**수에 대해 **성공한 시도** / 를 통해 계산 되는 백분율입니다.
+- **전체 성공률**: 총 사용자 수에 대해 **성공한 시도**를 통해 계산 되는 백분율  /  **Total users targeted**입니다.

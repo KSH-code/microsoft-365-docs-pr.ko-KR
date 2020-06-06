@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: 관리자는 insights, reports 및 widget을 포함 하 여 보안 & 준수 센터의 메일 흐름 대시보드에 대해 알아볼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6bd3638f9f7cc2c6c8a7c1abe31b2e7655d110af
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 61a3df3016541b170f736d23b9e4b4854964046e
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034149"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588019"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>보안 및 준수 센터의 메일 흐름 파악
 
@@ -57,19 +57,19 @@ ms.locfileid: "44034149"
 
 - 보안 & 준수 센터에서 **메일 흐름 관리자 역할** 의 구성원 이 역할이 전역 관리자 또는 Exchange 관리자 역할의 구성원이 아닌 사용자에 게 명시적으로 할당 된 경우 다음을 수행 합니다.
 
-  - 사용자는에서 [https://protection.office.com](https://protection.office.com)직접 보안 & 준수 센터에 로그인 해야 합니다.
+  - 사용자는에서 직접 보안 & 준수 센터에 로그인 해야 합니다 [https://protection.office.com](https://protection.office.com) .
 
   - 사용자에 게는 메일 흐름 대시보드에 대 한 읽기 전용 권한만 있습니다.
 
   - 사용자에 게 Microsoft 365 관리 센터에 액세스할 수 있는 권한이 없습니다.
 
-전역 관리자 역할에 대 한 자세한 내용은 [About Microsoft 365 admin roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)를 참조 하십시오.
+전역 관리자 역할에 대 한 자세한 내용은 [About Microsoft 365 admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)를 참조 하십시오.
 
 사용자에 게 보안 & 준수 센터 역할을 할당 하는 방법에 대 한 자세한 내용은 사용자에 게 [보안 & 준수 센터에 대 한 액세스 권한을 부여](grant-access-to-the-security-and-compliance-center.md)를 참조 하십시오
 
 ## <a name="where-to-find-the-mail-flow-dashboard"></a>메일 흐름 대시보드를 찾는 위치
 
-1. 보안 & 준수 센터 ()로 이동 [https://protection.office.com](https://protection.office.com)합니다.
+1. 보안 & 준수 센터 ()로 이동 [https://protection.office.com](https://protection.office.com) 합니다.
 
 2. **메일 흐름** 을 확장 한 다음 **대시보드**를 선택 합니다.
 

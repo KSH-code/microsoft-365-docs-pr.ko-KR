@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)의 스팸 방지 보호 기능에 대 한 질문과 대답을 볼 수 있습니다.
-ms.openlocfilehash: 69d9e72e3be53f0ddd5bc5771493564f364bef54
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 11c80a4cb93cf0c37ffbdf917e238960dd8fea80
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209646"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588043"
 ---
 # <a name="anti-spam-protection-faq"></a>스팸 방지 보호 FAQ
 
@@ -59,7 +59,7 @@ ms.locfileid: "44209646"
 
 [EOP에서 연결 필터링 구성](configure-the-connection-filter-policy.md)
 
-[EOP에서 스팸 방지 정책 구성](configure-your-spam-filter-policies.md)
+[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)
 
 [아웃바운드 스팸 정책 구성](configure-the-outbound-spam-policy.md)
 
@@ -137,7 +137,7 @@ Exchange Online 고객: [Exchange online의 모니터링, 보고 및 메시지 �
 
   [스푸핑을 방지할 수 있도록 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
-  [도메인 FAQ](https://docs.microsoft.com/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
+  [도메인 FAQ](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
 
 - **DKIM으로 전자 메일에 서명을 하는 경우 낮은 수준의 정규화로 서명합니다.**
 

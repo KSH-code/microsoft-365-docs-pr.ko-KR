@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 보안 및 준수 센터에서 사용할 수 있는 스마트 보고서 및 정보 및이를 사용 하 여 데이터를 보고 탐색 하 고 바로 작업을 수행 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4a033231b808964829ced0b9520515c426f5b81f
-ms.sourcegitcommit: 86705d15231c987be2fcf5a295b9b6239fc46077
+ms.openlocfilehash: 3646c38f56852d18fe7f2a79c82c059f6d0bca21
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/05/2020
-ms.locfileid: "44566695"
+ms.locfileid: "44588159"
 ---
 # <a name="smart-reports-and-insights-in-the-security-amp-compliance-center"></a>보안 및 준수 센터의 Smart reports 및 통찰력 &amp;
 
@@ -50,7 +50,7 @@ ms.locfileid: "44566695"
 |**위협 탐색기** (탐색기 라고도 함) 또는 **실시간 감지** <br/> Microsoft 365의 전자 메일 및 파일에서 의심 되는 맬웨어가 검색 됨  <br/> |보안 &amp; 및 준수 센터에서 **위협 관리** \> **탐색기나** **실시간** 검색으로 이동 합니다.<br/> |[위협 탐색기 (또는 실시간 검출)](threat-explorer.md) <br/> |
 |**Advanced Threat Protection 및 전자 메일 보안 보고서** <br/> 전자 메일 보안 및 위협 보호 보고서 (맬웨어, 스팸, 피싱 및 스푸핑 보고서 포함)  <br/> |보안 &amp; 및 준수 센터에서 **보고서** \> **대시보드로** 이동 합니다. <br/> |[Office 365 Advanced Threat Protection에 대 한 보고서 보기](view-reports-for-atp.md) <br/><br/> [보안 및 준수 센터의 전자 메일 보안 보고서 보기 &amp;](view-email-security-reports.md) <br/> |
 |**메일 흐름** <br/> 발신 및 수신 전자메일 메시지, 최근 알림, 최상위 발신자 및 수신자, 전자 메일 전달 보고서 등에 대한 정보  <br/> |보안 &amp; 및 준수 센터에서 **메일 흐름** \> **대시보드로** 이동 합니다. <br/> |[보안 및 준수 센터의 메일 흐름 파악](mail-flow-insights-v2.md)<br/> |
-|**GDPR 규정 준수** <br/> GDPR 준수에 대 한 정보 (데이터 주체, 레이블 추세 및 활성 닫힌 사례에 대 한 링크 포함) &amp;  <br/> |보안 &amp; 및 준수 센터에서 **데이터 개인 정보** \> **gdpr 대시보드로** 이동 합니다. <br/> |[GDPR에 대한 Office 365 정보 보호](https://docs.microsoft.com/office365/enterprise/office-365-information-protection-for-gdpr) <br/> |
+|**GDPR 규정 준수** <br/> GDPR 준수에 대 한 정보 (데이터 주체, 레이블 추세 및 활성 닫힌 사례에 대 한 링크 포함) &amp;  <br/> |보안 &amp; 및 준수 센터에서 **데이터 개인 정보** \> **gdpr 대시보드로** 이동 합니다. <br/> |[GDPR에 대한 Office 365 정보 보호](https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr) <br/> |
 |**감사 로그** <br/> Microsoft 365 활동, 사용자, 파일 또는 폴더 등에 대한 정보  <br/> |보안 &amp; 및 준수 센터에서 **검색 &amp; 조사** \> **감사 로그 검색** 으로 이동 합니다. <br/> |[보안 및 준수 센터에서 감사 로그 검색 &amp;](../../compliance/search-the-audit-log-in-security-and-compliance.md) <br/> |
 |**준수 보고서** <br/> FedRAMP 보고서, 거버넌스, 위험 및 규정 준수 보고서, ISO 정보 보안 관리 보고서 및 Service Organization Controls(SOC) 감사 및 평가 보고서  <br/> |보안 &amp; 및 준수 센터에서 **서비스 보증** \> **준수 보고서** 로 이동 합니다. <br/> |[&amp;Office 365의 보안 준수 계획](../../compliance/plan-for-security-and-compliance.md) <br/> |
   

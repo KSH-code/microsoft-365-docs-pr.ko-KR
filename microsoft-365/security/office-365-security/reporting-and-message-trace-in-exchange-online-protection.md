@@ -14,12 +14,12 @@ ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 Microsoft EOP (Exchange Online Protection) 관리자가 사용할 수 있는 보고서 및 문제 해결 도구에 대해 알아봅니다.
-ms.openlocfilehash: af41f1d3b6ccc7632b392f58c36344239200f915
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: b33d343d9b7f02e32619031d3ecf72ad12f891fd
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44206445"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588171"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>EOP의 보고 및 메시지 추적
 
@@ -37,13 +37,13 @@ Exchange online 사서함이 없는 exchange Online 또는 독립 실행형 EOP 
 
 자세한 내용은 다음 리소스를 참조 하십시오.
 
-- [관리 센터의 microsoft 365 보고서-Microsoft 365 그룹](https://docs.microsoft.com/office365/admin/activity-reports/office-365-groups)
+- [관리 센터의 microsoft 365 보고서-Microsoft 365 그룹](https://docs.microsoft.com/microsoft-365/admin/activity-reports/office-365-groups)
 
-- [관리 센터의 Microsoft 365 보고서-전자 메일 활동](https://docs.microsoft.com/office365/admin/activity-reports/email-activity)
+- [관리 센터의 Microsoft 365 보고서-전자 메일 활동](https://docs.microsoft.com/microsoft-365/admin/activity-reports/email-activity)
 
-- [관리 센터의 Microsoft 365 보고서-전자 메일 앱 사용 현황](https://docs.microsoft.com/office365/admin/activity-reports/email-apps-usage)
+- [관리 센터의 Microsoft 365 보고서-전자 메일 앱 사용 현황](https://docs.microsoft.com/microsoft-365/admin/activity-reports/email-apps-usage)
 
-- [관리 센터의 Microsoft 365 보고서-사서함 사용량](https://docs.microsoft.com/office365/admin/activity-reports/mailbox-usage)
+- [관리 센터의 Microsoft 365 보고서-사서함 사용량](https://docs.microsoft.com/microsoft-365/admin/activity-reports/mailbox-usage)
 
 ## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 보안 & 준수 보고서
 

@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
 description: '요약: Microsoft 365 개발/테스트 환경에서 조직의 나머지 사람들과 격리 된 SharePoint Online 팀 사이트를 구성 합니다.'
-ms.openlocfilehash: 2a1c728f5cbc1d622bb46ffd7532f1103a7995d3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 07f3ae349f20fd4498e7809955cf0407d8c31d8c
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634125"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588031"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>격리된 SharePoint Online 팀 사이트 개발/테스트 환경
 
@@ -56,9 +56,9 @@ Microsoft 365 개발/테스트 환경에서 격리 된 SharePoint Online 팀 사
 
 ## <a name="phase-1-build-out-your-lightweight-or-simulated-enterprise-microsoft-365-devtest-environment"></a>1 단계: 경량 또는 시뮬레이트된 엔터프라이즈 Microsoft 365 개발/테스트 환경 구축
 
-최소 요구 사항과 함께 간단한 방식으로 격리 된 SharePoint Online 팀 사이트를 만들려는 경우에는 [Microsoft 365 개발/테스트 환경의](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment)2, 3 단계의 지침을 따릅니다.
+최소 요구 사항과 함께 간단한 방식으로 격리 된 SharePoint Online 팀 사이트를 만들려는 경우 [간단한 기본 구성](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise)의 2 단계와 3 단계의 지침을 따릅니다.
 
-시뮬레이트된 엔터프라이즈 구성에서 격리 된 SharePoint Online 팀 사이트를 만들려면 [Microsoft 365 개발/테스트 환경용 DirSync](https://docs.microsoft.com/office365/enterprise/dirsync-for-your-office-365-dev-test-environment)의 지침을 따릅니다.
+시뮬레이트된 엔터프라이즈 구성에서 격리 된 SharePoint Online 팀 사이트를 만들려면 [Microsoft 365 테스트 환경에 대 한 암호 해시 동기화](https://docs.microsoft.com/microsoft-365/enterprise/password-hash-sync-m365-ent-test-environment)의 지침을 따릅니다.
 
 > [!NOTE]
 > 격리 된 SharePoint Online 사이트를 만드는 경우에는 AD DS (Active Directory 도메인 서비스) 포리스트의 인터넷 및 디렉터리 동기화에 연결 된 시뮬레이트된 인트라넷을 포함 하는 시뮬레이트된 엔터프라이즈 개발/테스트 환경이 필요 하지 않습니다. 격리 된 SharePoint Online 사이트를 테스트 하 고 일반적인 조직을 나타내는 환경에서 테스트해 볼 수 있도록 여기에서 옵션으로 제공 됩니다.
@@ -148,7 +148,7 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 ProjectX에 대 한 SharePoint Online 팀 사이트를 만들려면 다음을 수행 합니다.
 
-1. 로컬 컴퓨터 (경량 구성) 또는 CLIENT1 (시뮬레이트된 엔터프라이즈 구성)에 브라우저를 사용 하 여 전역 관리자 계정을 사용 하 여 Microsoft 365 관리 센터 ([https://admin.microsoft.com](https://admin.microsoft.com))에 로그인 합니다.
+1. 로컬 컴퓨터 (경량 구성) 또는 CLIENT1 (시뮬레이트된 엔터프라이즈 구성)에 브라우저를 사용 하 여 [https://admin.microsoft.com](https://admin.microsoft.com) 전역 관리자 계정을 사용 하 여 Microsoft 365 관리 센터 ()에 로그인 합니다.
 
 2. 타일 목록에서 **SharePoint**를 클릭합니다.
 
@@ -216,7 +216,7 @@ ProjectX에 대 한 SharePoint Online 팀 사이트를 만들려면 다음을 �
 
 2. 전역 관리자의 이름을 클릭 하 고 **로그 아웃**을 클릭 합니다.
 
-3. 잠재 고객 디자이너 계정 이름 및 암호를 사용[https://admin.microsoft.com](https://admin.microsoft.com)하 여 Microsoft 365 관리 센터 ()에 로그인 합니다.
+3. [https://admin.microsoft.com](https://admin.microsoft.com)잠재 고객 디자이너 계정 이름 및 암호를 사용 하 여 Microsoft 365 관리 센터 ()에 로그인 합니다.
 
 4. 타일 목록에서 **SharePoint**를 클릭합니다.
 
@@ -246,7 +246,7 @@ ProjectX에 대 한 SharePoint Online 팀 사이트를 만들려면 다음을 �
 
 이제 개발 VP 사용자 계정을 사용 하 여 액세스 방법을 살펴보겠습니다.
 
-1. 개발 VP 계정 이름 및 암호를 사용 하[https://admin.microsoft.com](https://admin.microsoft.com)여 Microsoft 365 관리 센터 ()에 로그인 합니다.
+1. [https://admin.microsoft.com](https://admin.microsoft.com)개발 VP 계정 이름 및 암호를 사용 하 여 Microsoft 365 관리 센터 ()에 로그인 합니다.
 
 2. 타일 목록에서 **SharePoint**를 클릭합니다.
 
@@ -262,7 +262,7 @@ ProjectX에 대 한 SharePoint Online 팀 사이트를 만들려면 다음을 �
 
 이제 사용 권한이 없는 사용자 계정을 사용 하 여 액세스 하는 방법을 알아보겠습니다.
 
-1. 사용자 3 계정 이름 및 암호를 사용 하[https://admin.microsoft.com](https://admin.microsoft.com)여 Microsoft 365 관리 센터 ()에 로그인 합니다.
+1. [https://admin.microsoft.com](https://admin.microsoft.com)사용자 3 계정 이름 및 암호를 사용 하 여 Microsoft 365 관리 센터 ()에 로그인 합니다.
 
 2. 타일 목록에서 **SharePoint**를 클릭합니다.
 
@@ -288,12 +288,8 @@ ProjectX에 대 한 SharePoint Online 팀 사이트를 만들려면 다음을 �
 
 [클라우드 도입 TLG(테스트 랩 가이드)](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
 
-[기본 구성 개발/테스트 환경](https://docs.microsoft.com/office365/enterprise/base-configuration-dev-test-environment)
+[시뮬레이트된 엔터프라이즈 기본 구성](https://docs.microsoft.com/microsoft-365/enterprise/simulated-ent-base-configuration-microsoft-365-enterprise)
 
-[Microsoft 365 개발/테스트 환경](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment)
+[간단한 기본 구성](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise)
 
 [클라우드 도입 및 하이브리드 솔루션](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
-
-
-
-

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365에서 DNS의 SPF (Sender Policy Framework) TXT 레코드를 사용 하 여 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰 하는지 확인 하는 방법을 알아봅니다.
-ms.openlocfilehash: 5d09047b51f191947c13a3e6ca64b5cb30d3f6a0
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: a86087f510dca328bb5b56af6fd4802f1f42a454
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036392"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44587487"
 ---
 # <a name="how-microsoft-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Microsoft 365에서 SPF(Sender Policy Framework)를 사용하여 스푸핑을 방지하는 방법
 
@@ -51,11 +51,11 @@ SPF는 보낸 사람이 도메인을 대신 하 여 메일을 보낼 수 있는�
 
 SPF 규칙에 대 한 기본 구문을 살펴보겠습니다.
 
-v = spf1 \<IP\> \<적용 규칙\>
+v = spf1 \<IP\>\<enforcement rule\>
 
 예를 들어 contoso.com에 대 한 다음과 같은 SPF 규칙이 있다고 가정해 보겠습니다.
 
-v = spf1 \<ip 주소 #1\> \<ip 주소 #2\> \<ip 주소 #3\> \<적용 규칙\>
+v = spf1 \<IP address #1\> \<IP address #2\> \<IP address #3\>\<enforcement rule\>
 
 이 예에서 SPF 규칙은 받는 전자 메일 서버에 contoso.com 도메인에 대 한 이러한 IP 주소 로부터의 메일만 수락 하도록 지시 합니다.
 
@@ -131,7 +131,7 @@ v=spf1 include:spf.protection.outlook.com -all
 
 이 문서의 구문 정보를 사용 하 여 사용자 지정 도메인에 대 한 SPF TXT 레코드를 구성 합니다. 여기에 나와 있지 않은 다른 구문 옵션도 있지만 가장 일반적으로 사용 되는 옵션은 다음과 같습니다. 레코드를 구성한 후에는 도메인 등록 기관에서 레코드를 업데이트해야 합니다.
 
-Microsoft 365에 대해 포함 해야 하는 도메인에 대 한 자세한 내용은 [SPF에 필요한 외부 DNS 레코드](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records)를 참조 하세요. 도메인 등록 기관에 대 한 SPF (TXT) 레코드를 업데이트 하는 단계별 [지침](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider#add-a-txt-record-for-spf-to-help-prevent-email-spam) 을 사용 합니다.
+Microsoft 365에 대해 포함 해야 하는 도메인에 대 한 자세한 내용은 [SPF에 필요한 외부 DNS 레코드](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records)를 참조 하세요. 도메인 등록 기관에 대 한 SPF (TXT) 레코드를 업데이트 하는 단계별 [지침](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider#add-a-txt-record-for-spf-to-help-prevent-email-spam) 을 사용 합니다.
 
 ### <a name="spf-txt-record-syntax-for-microsoft-365"></a>Microsoft 365에 대 한 SPF TXT 레코드 구문
 <a name="SPFSyntaxO365"> </a>
@@ -248,6 +248,6 @@ Nslookup을 사용 하 여 SPF TXT 레코드를 비롯 한 DNS 레코드를 볼 
 ## <a name="for-more-information"></a>자세한 내용
 <a name="SPFTroubleshoot"> </a>
 
-SPF TXT 레코드를 추가 하는 데 도움이 필요 하세요? Microsoft 365에서 사용자 지정 도메인을 사용 하 여 보낸 사람 정책 프레임 워크를 사용 하는 방법에 대 한 자세한 내용은 [microsoft 365 용 dns 호스팅 공급자에서 dns 레코드 만들기](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider#add-a-txt-record-for-spf-to-help-prevent-email-spam) 문서를 참조 하세요. [스팸 방지 메시지 헤더](anti-spam-message-headers.md) 에는 SPF 확인을 위해 Microsoft 365에서 사용 하는 구문 및 헤더 필드가 포함 되어 있습니다.
+SPF TXT 레코드를 추가 하는 데 도움이 필요 하세요? Microsoft 365에서 사용자 지정 도메인을 사용 하 여 보낸 사람 정책 프레임 워크를 사용 하는 방법에 대 한 자세한 내용은 [microsoft 365 용 dns 호스팅 공급자에서 dns 레코드 만들기](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider#add-a-txt-record-for-spf-to-help-prevent-email-spam) 문서를 참조 하세요. [스팸 방지 메시지 헤더](anti-spam-message-headers.md) 에는 SPF 확인을 위해 Microsoft 365에서 사용 하는 구문 및 헤더 필드가 포함 되어 있습니다.
 
 

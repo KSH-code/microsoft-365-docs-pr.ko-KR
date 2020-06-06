@@ -14,14 +14,14 @@ ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 Microsoft Exchange Online Protection (EOP) 조직 (테 넌 트)에서 다른 사용자에 게 도메인과 설정을 이동 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: e9e0bd0d18ad73c08f0bc5b487a46289f67e40ba
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: 1144f193fd56587e8ea38fdd659af4bbaa05311c
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213451"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588195"
 ---
-# <a name="move-domains-and-settings-from-one-eop-organization-to-another"></a>한 EOP 조직에서 다른 조직의 도메인 및 설정 이동
+# <a name="move-domains-and-settings-from-one-eop-organization-to-another"></a>EOP 조직 간에 도메인 및 설정 이동
 
 비즈니스 요구 사항 변경 시 하나의 Microsoft EOP(Exchange Online Protection) 조직(테넌트)을 두 조직으로 분할하거나, 두 조직을 하나로 병합하거나, 조직 간에 도메인 및 EOP 설정을 이동해야 할 수 있습니다. EOP 조직 간의 이동은 까다로운 작업일 수 있지만 몇 가지 기본적인 원격 Windows PowerShell 스크립트를 사용하고 약간만 준비하면 비교적 적은 유지 관리 기간에 완료할 수 있습니다.
 
@@ -59,7 +59,7 @@ ms.locfileid: "44213451"
   > [!NOTE]
   > 메일 흐름 규칙 모음의 내보내기 및 가져오기에 대 한 Cmdlet 지원은 현재 EOP Premium 구독 계획 에서만 지원 됩니다.
 
-모든 설정을 수집 하는 가장 쉬운 방법은 PowerShell을 사용 하는 것입니다. 독립 실행형 EOP PowerShell에 연결 하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조 하세요.
+모든 설정을 수집 하는 가장 쉬운 방법은 PowerShell을 사용 하는 것입니다. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
 다음으로, 모든 설정을 수집하고 대상 테넌트로 가져올 .xml 파일을 내보낼 수 있습니다. 일반적으로 다음 코드 샘플과 같이 각 설정에 대한 **Get** cmdlet의 출력을 **Export-Clixml** cmdlet에 파이프하여 .xml 파일에 설정을 저장할 수 있습니다.
 
@@ -191,7 +191,7 @@ Foreach ($domain in $Domains) {
 
 5. 도메인을 확인하는 데 사용할 MX 레코드 또는 TXT 레코드를 기록하고 설정 마법사를 완료합니다.
 
-6. 확인 TXT 레코드를 DNS 레코드에 추가합니다. 그러면 원본 조직이 대상 조직에서 제거된 후 해당 원본 조직의 도메인을 보다 신속하게 확인할 수 있습니다. DNS를 구성 하는 방법에 대 한 자세한 내용은 dns [호스팅 공급자에서 Microsoft 365에 대 한 dns 레코드 만들기](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 참조 하세요.
+6. 확인 TXT 레코드를 DNS 레코드에 추가합니다. 그러면 원본 조직이 대상 조직에서 제거된 후 해당 원본 조직의 도메인을 보다 신속하게 확인할 수 있습니다. DNS를 구성 하는 방법에 대 한 자세한 내용은 dns [호스팅 공급자에서 Microsoft 365에 대 한 dns 레코드 만들기](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 참조 하세요.
 
 ## <a name="step-3-force-senders-to-queue-mail"></a>3단계: 보낸 사람이 메일을 강제로 큐에 넣도록 설정 
 
@@ -201,7 +201,7 @@ Foreach ($domain in $Domains) {
 
 또 다른 옵션은 도메인의 DNS 레코드가 유지(DNS 호스팅 서비스라고도 함)되는 각 도메인에 잘못된 MX 레코드를 두는 것입니다. 이렇게 하면 보낸 사람이 메일을 큐에 넣고 다시 시도하게 됩니다(일반적으로 48시간 동안 다시 시도되지만 이는 공급자마다 다를 수 있음). invalid.outlook.com을 잘못된 MX 대상으로 사용할 수 있습니다. MX 레코드에서 TTL(Time to Live) 값을 5분으로 낮추면 변경 내용을 DNS 공급자에 보다 신속하게 전파할 수 있습니다.
 
-DNS를 구성 하는 방법에 대 한 자세한 내용은 dns [호스팅 공급자에서 Microsoft 365에 대 한 dns 레코드 만들기](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 참조 하세요.
+DNS를 구성 하는 방법에 대 한 자세한 내용은 dns [호스팅 공급자에서 Microsoft 365에 대 한 dns 레코드 만들기](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 참조 하세요.
 
 > [!IMPORTANT]
 > 공급자마다 메일이 큐에서 유지되는 기간이 다릅니다. 큐 시간이 만료된 경우 배달 못 함 보고서(NDR)가 보낸 사람에게 전송되지 않도록 하려면 새 테넌트를 신속하게 설정하고 DNS 설정을 되돌려야 합니다.
@@ -931,4 +931,4 @@ if($HostedContentFilterPolicyCount -gt 0){
 
 ## <a name="step-8-revert-your-dns-settings-to-stop-mail-queuing"></a>8단계: 메일 큐를 중지하도록 DNS 설정 되돌리기
 
-사용자가 전환 중에 보낸 사람이 메일을 큐로 만들도록 하기 위해 MX 레코드를 잘못 된 주소로 설정 하려면 [관리 센터](https://admin.microsoft.com)에 지정 된 올바른 값으로 다시 설정 해야 합니다. DNS를 구성 하는 방법에 대 한 자세한 내용은 dns [호스팅 공급자에서 Microsoft 365에 대 한 dns 레코드 만들기](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 참조 하세요.
+사용자가 전환 중에 보낸 사람이 메일을 큐로 만들도록 하기 위해 MX 레코드를 잘못 된 주소로 설정 하려면 [관리 센터](https://admin.microsoft.com)에 지정 된 올바른 값으로 다시 설정 해야 합니다. DNS를 구성 하는 방법에 대 한 자세한 내용은 dns [호스팅 공급자에서 Microsoft 365에 대 한 dns 레코드 만들기](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 참조 하세요.

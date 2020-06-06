@@ -2,8 +2,8 @@
 title: Microsoft 365 관리 센터의 새로운 기능
 f1.keywords:
 - CSH
-ms.author: pebaum
-author: pebaum
+ms.author: anfowler
+author: adefowler
 manager: shohara
 audience: Admin
 ms.topic: overview
@@ -21,12 +21,12 @@ description: Microsoft 365 관리 센터-이 달에 추가 된 기능에 대해 
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 460eba757d9fa35e6031ca3382630a6bcd38c392
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 4e4d47b054b5c6371bb62a3fe0f52c08b0997498
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401145"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44587583"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운 기능
 
@@ -43,18 +43,62 @@ ms.locfileid: "44401145"
 > **3 월부터 시작 하는 "클래식" 관리 센터 만료**<br><br>
 Microsoft 365 관리 센터에 로그인 할 때 항상 새 관리 센터로 이동 합니다. 또한 3 월에는 기본 관리 센터로 다시 전환 하는 기능을 사용 하지 않도록 설정 했습니다. 지금은 다시 전환할 수 있지만 새 관리 센터가 패리티에 도달 하 여이를 초과 하면 모든 조직에 대해 스위치를 해제 하 게 됩니다. <br><br> *마지막 업데이트 날짜: 5 월 11 일 2020*
 
-다른 Microsoft 클라우드 서비스의 새로운 기능에 관심이 있는 경우 다음을 수행 하세요.
+다른 Microsoft 클라우드 서비스의 새로운 기능을 확인 하려면 다음을 수행 하세요.
 
-- [Exchange Online의 새로운 기능](https://go.microsoft.com/fwlink/?linkid=2119714)
-- [Microsoft Intune의 새로운 기능](https://docs.microsoft.com/mem/intune/fundamentals/whats-new)
-- [Microsoft 365 준수 센터의 새로운 기능](https://docs.microsoft.com/microsoft-365/compliance/whats-new)
-- [SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
+- [Azure Active Directory의 새로운 기능](https://docs.microsoft.com/azure/active-directory/fundamentals/whats-new)
 - [Exchange 관리 센터의 새로운 기능](https://docs.microsoft.com/Exchange/whats-new)
+- [Microsoft Intune의 새로운 기능](https://docs.microsoft.com/mem/intune/fundamentals/whats-new)
+- [Microsoft 365 준수 센터의 새로운 기능](https://docs.microsoft.com/Office365/SecurityCompliance/whats-new)
+- [Microsoft Threat Protection의 새로운 기능](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)
+- [SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
 - [Office 업데이트](https://docs.microsoft.com/OfficeUpdates/)
+
+## <a name="may-2020"></a>2020년 5월
+
+### <a name="new-update-channel-for-office"></a>Office의 새 업데이트 채널
+
+5 월 12 일에는 새로운 Office 용 업데이트 채널: 월별 엔터프라이즈 채널을 사용할 수 있습니다. 이 업데이트 채널은 매달 두 번째 화요일에 새로운 Office 기능을 사용자에 게 제공 합니다.
+
+사용자가 포털에서 Office를 자동으로 설치할 수 있도록 허용한 경우에는 월별 엔터프라이즈 채널을 선택할 수 있습니다. 이렇게 하려면 Microsoft 365 관리 센터에 로그인 하 고 **모든**  > **설정**표시  >  **조직 설정**  >  **서비스**  >  **Office 소프트웨어 다운로드 설정**으로 이동 합니다. **한 달에 한 번 선택 하면 (월별 엔터프라이즈 채널)** Office의 새 자동 설치는 월별 엔터프라이즈 채널을 사용 하도록 구성 됩니다.
+
+월별 엔터프라이즈 채널 릴리스와 함께 기존 업데이트 채널의 이름도 수정 됩니다. 예를 들어 월별 채널의 이름은 현재 채널로 바뀝니다. 새 이름은 2020 년 6 월 9 일에 적용 됩니다.
+
+자세한 내용은 [업데이트 채널의 Microsoft 365 앱 변경 사항을](https://docs.microsoft.com/DeployOffice/update-channels-changes)참조 하세요.
+
+### <a name="new-admin-roles"></a>새 관리자 역할
+
+Microsoft 365 관리 센터에 몇 가지 새로운 Azure Active Directory 관리자 역할을 추가 했습니다.
+
+- 하이브리드 id 관리자 역할은 사용자에 게 클라우드 프로 비전 및 인증 서비스를 관리할 수 있는 권한을 부여 합니다.
+- 네트워크 관리자 역할을 통해 사용자는 네트워크 위치를 관리 하 고 Microsoft 365 소프트웨어에 대 한 네트워크 insights를 서비스 앱으로 검토할 수 있습니다.
+- 프린터 관리자 역할은 프린터 및 프린터 연결의 모든 측면을 관리할 수 있는 사용 권한을 부여 합니다.
+- Printer 엔지니어가 프린터 관리자 역할의 하위 집합으로, 프린터를 등록 하 고 등록을 취소 하 고 프린터 상태를 업데이트할 수 있습니다.
+이러한 역할에 대 한 자세한 내용은 [관리 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)를 참조 하십시오.
+
+### <a name="export-groups-list"></a>그룹 내보내기 목록
+
+관리자 센터에 대 한 액세스 권한이 없는 사용자에 게 그룹 및 사용에 대 한 정보를 공유 해야 하는 관리자가 많았습니다. 이제 감사 목적으로 그룹 목록을 CSV 파일로 내보낼 수 있는데,이는 이전 PowerShell 스크립트를 throw 할 수 있다는 것을 의미 합니다. 실행 하려면 **그룹**  >  **그룹**으로 이동한 후 명령 모음에서 **그룹 내보내기를** 선택 합니다.
+
+### <a name="microsoft-365-solution-and-architecture-center"></a>Microsoft 365 솔루션 및 아키텍처 센터
+
+이번 달에는 [https://docs.microsoft.com](https://docs.microsoft.com) [microsoft 365 솔루션 및 아키텍처 센터](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center)라는 새로운 사이트를 출시 했으며, 보안 및 준수 공동 작업용 통합 microsoft 365 솔루션을 이해 하 고 계획 하 고 구현 하는 데 필요한 기술 지침을 함께 제공 합니다. 이 센터에서는 다음을 확인할 수 있습니다.
+
+- 기본 솔루션 지침
+- 작업 솔루션 및 시나리오 지침
+- 솔루션 및 아키텍처 그림 (포스터!!!)
+- 업계 관련 지침
+- 엔터프라이즈 아키텍처 디자인 보안 주체
+
+### <a name="docs-training-and-videos"></a>문서, 교육 및 비디오
+
+- **Microsoft 365 비디오 시리즈의 새로운 기능**: 이번 달에는 팀 관리자 및 보안 및 준수 센터의 새로운 지원 환경, 메시지 센터와의 Planner 통합 및 Microsoft 팀의 새로운 3 중 비디오 레이아웃에 대해 다룹니다. [Microsoft 365의 새로운 기능](https://go.microsoft.com/fwlink/p/?linkid=2118096)
+- 보다 빠르게 필요한 정보를 찾을 수 있도록 [Microsoft 365 관리 센터 도움말](https://docs.microsoft.com/microsoft-365/admin/) 허브 페이지가 업데이트 되었습니다. 그리고 해당 페이지를 바로 살펴보면 중요 업데이트 및 변경 사항을 알리는 카드를 추가 했습니다.
 
 ## <a name="april-2020"></a>2020년 4월
 
 ### <a name="intune-roles-management"></a>Intune 역할 관리
+
+[2020년 4월](#april-2020)
 
 잘 하셨습니다. 두 번째 단계를 통합 된 역할 환경으로 이동 했으며 이제 Microsoft 365 관리 센터에서 Intune 역할을 관리할 수 있습니다. 역할을 검색 하 고 역할 권한을 보기 위한 기능과 같은 기능을 활용할 수도 있습니다. 즉, Microsoft 365 및 Intune에 대 한 역할을 관리 하는 두 가지 별도의 도구가 필요 하지 않습니다. Microsoft 365 관리 센터에 로그인 할 때 역할 페이지에는 Azure AD에 대해 하나씩, Intune 용으로는 두 개의 피벗이 표시 됩니다.
 
@@ -103,7 +147,7 @@ Microsoft 지원 에이전트는 집에서 작업 하는 동안 고객의 사례
 - 이제 Outlook에서 그룹이 라고도 하는 Office 365 그룹의 전자 메일 주소를 편집할 수 있으며 곧 Microsoft 365 그룹으로 알려져 있습니다.
 - 사용자 의견을 받은 후 그룹을 Microsoft 팀으로 변환할 수 없는 이유에 대 한 오류 메시지를 명확 하 게 추가 했습니다.
 
-### <a name="docs-videos-and-training"></a>문서, 동영상 및 교육
+### <a name="docs-videos-and-training-april"></a>문서, 비디오 및 교육 (4 월)
 
 **Microsoft 365 비디오 시리즈의 새로운 기능**: 이번 달에는 microsoft 팀을 배포 하는 방법, 클라이언트 및 파트너와의 연결을 유지 하기 위해 원격 작업 교육 리소스 및 새로운 Microsoft 365 비즈니스 음성 요금제를 포함 하 여 원격 작업으로 소규모 비즈니스를 전환 하는 데 도움이 되는 팁과 리소스에 대해 알아봅니다. [Microsoft 365의 새로운 기능](https://go.microsoft.com/fwlink/p/?linkid=2118096)
 
@@ -118,7 +162,7 @@ Microsoft 지원 에이전트는 집에서 작업 하는 동안 고객의 사례
 
 #### <a name="for-admins-and-business-owners"></a>관리자 및 비즈니스 소유자의 경우
 
-- [소규모 기업에 원격 작업 강화](https://support.office.com/article/empower-your-small-business-with-remote-work-9b91a85a-39b4-40a6-a590-0f9bea0ba8e6) 
+- [소규모 기업에 원격 작업 강화](https://support.office.com/article/empower-your-small-business-with-remote-work-9b91a85a-39b4-40a6-a590-0f9bea0ba8e6)
 - [원격 중소 기업 실행](https://support.office.com/article/sign-up-for-a-microsoft-subscription-9ac1a0f1-789b-4143-b954-5821d5d89298)
 - [Microsoft Business Basic 등록](https://support.office.com/article/sign-up-for-a-microsoft-subscription-9ac1a0f1-789b-4143-b954-5821d5d89298)
 - [2 단계 로그인 설정](https://support.office.com/article/sign-up-for-a-microsoft-subscription-9ac1a0f1-789b-4143-b954-5821d5d89298)
@@ -143,8 +187,6 @@ Microsoft 365 관리 센터를 사용 하 여 이제 SharePoint 모바일 앱 fo
 
 :::image type="content" source="../media/MAC-WN-CustThemeSP.png" alt-text="관리 센터 설정을 모바일 앱에 매핑하는 다이어그램입니다.":::
 
-:::image-end:::
-
 ### <a name="improvements-to-the-add-a-group-wizard"></a>"그룹 추가" 마법사의 향상 된 기능
 
 관리자가 새 그룹을 만들어 동시에 팀으로 만든 경우 팀을 포함 하는 라이선스가 없는 소유자를 할당할 수 있습니다. 그리고 몇 가지 골치 아픈 것을 본 것입니다. 마법사 흐름을 업데이트 하 여 소유자에 게 팀 라이선스가 있는지 확인 하 고 그룹을 팀으로 전환 하는 옵션을 사용 하지 않도록 설정 했습니다.
@@ -162,7 +204,7 @@ Microsoft 365 관리 센터를 사용 하 여 이제 SharePoint 모바일 앱 fo
 |Office 365 Business Essentials     |   Microsoft 365 Business Basic      |
 |Office 365 Business Premium     |    Microsoft 365 Business Standard     |
 |Microsoft 365 Business     |    Microsoft 365 Business Premium     |
-|Office 365 Business     |    비즈니스용 Microsoft 365 앱       | 
+|Office 365 Business     |    비즈니스용 Microsoft 365 앱       |
 |Office 365 ProPlus    |   Microsoft 365 enterprise 용 앱      |
 
 ### <a name="videos-training-and-docs"></a>동영상, 교육 및 문서
@@ -192,7 +234,7 @@ Microsoft 365 관리 센터를 사용 하 여 이제 SharePoint 모바일 앱 fo
 - **그룹 이름순으로 정렬**: **그룹 이름** 열을 선택 하 여 그룹 목록을 사전순으로 정렬할 수 있습니다.
 - **삭제 된 microsoft 365 그룹 복원**: 더 이상 Exchange 관리 센터로 이동 하 여 삭제 한 microsoft 365 그룹을 복원할 필요가 없습니다. **Microsoft 365 관리 센터** \> **그룹** \> **삭제** \> 된 그룹 (목록에서 그룹 선택) \> **복원 그룹**으로 이동 합니다. **그룹을 그룹 목록으로** 다시 복원 하 고 그룹의 전자 메일, 대화, 전자 필기장, 파일 및 일정을 복원 합니다.
 
-### <a name="videos-training-and-docs"></a>동영상, 교육 및 문서
+### <a name="videos-training-and-docs-february"></a>비디오, 교육 및 문서 (2 월)
 
 - **Microsoft 365 비디오 시리즈의 새로운 기능**: 이번 달에는 SharePoint Online에 대 한 사용자 지정 검색 기능을 중점적으로 다루며, Office "What 's new" 관리 기능을 사용 하 여 앱 내 도움말 창, Yammer의 최신 보안 및 준수 업데이트를 통해 최종 사용자의 특정 기능을 표시 하거나 숨길 수 있습니다. 최신 에피소드: [Microsoft 365의 새로운 기능](https://go.microsoft.com/fwlink/p/?linkid=2118096)
 
