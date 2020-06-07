@@ -42,6 +42,14 @@
           href: setup/customize-your-organization-theme.md
         - name: 독일 Office 365에 대해 알아보기
           href: admin-overview/learn-about-office-365-germany.md
+        - name: 온 프레미스 사용자 및 리소스 액세스
+          items:
+            - name: 도메인 사용자를 Microsoft 365와 동기화
+              href: ../business/manage-domain-users.md
+            - name: 도메인이 결합된 Windows 10 장치가 관리되도록 설정
+              href: ../business/manage-windows-devices.md
+            - name: Azure AD가 결합된 장치에서 리소스에 액세스
+              href: ../business/access-resources.md
     - name: Microsoft 365 관리 센터 개요
       items:
         - name: 관리 센터 개요
@@ -278,6 +286,8 @@
           href: ../business/reset-devices-to-factory-settings.md
         - name: Intune 설정에 대한 맵 보호 기능
           href: ../business/map-protection-features-to-intune-settings.md
+        - name: 장치 상태
+          href: ../business/device-states.md
         - name: Android 및 iOS용 앱 보호 설정
           href: ../business/app-protection-settings-for-android-and-ios.md
           items:
@@ -290,6 +300,16 @@
               href: ../business/validate-settings-on-windows-10-pcs.md
         - name: Windows 10 PC의 앱 보호 설정
           href: ../business/protection-settings-for-windows-10-devices.md
+        - name: Autopilot
+          items:
+            - name: Autopilot 장치 및 프로필 추가
+              href: ../business/add-autopilot-devices-and-profile.md
+            - name: AutoPilot 프로필 만들기 및 편집
+              href: ../business/create-and-edit-autopilot-profiles.md
+            - name: AutoPilot 장치 만들기 및 편집
+              href: ../business/create-and-edit-autopilot-devices.md
+            - name: Autopilot 프로필 설정
+              href: ../business/autopilot-profile-settings.md
     - name: 고객과 협력
       href: work-with-customers/index.yml
       items:

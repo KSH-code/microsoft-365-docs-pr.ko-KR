@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블 구현을 시작할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
-ms.openlocfilehash: 88b9ad0ea97ff035491f6e2d2ec2ec57b2b8d796
-ms.sourcegitcommit: 1b560ee45f3b0253fa5c410a4499373c1f92da9c
+ms.openlocfilehash: 47122e4ec6f902e0c84bd223ff771dc5db6fdfa5
+ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432617"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44560485"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
@@ -78,9 +78,8 @@ ms.locfileid: "44432617"
 |민감도 레이블을 사용하여 Teams와 SharePoint에서 콘텐츠 보호 |[Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 민감도 레이블 사용하기](sensitivity-labels-teams-groups-sites.md)|
 |온 프레미스에 있는 데이터 저장소에 저장된 파일 검색, 레이블 지정 및 보호 |[파일을 자동으로 분류하고 보호하는 Azure Information Protection 스캐너 배포](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
 |클라우드에 있는 데이터 저장소에 저장된 파일 검색, 레이블 지정 및 보호|[클라우드에 저장된 데이터를 검색하고, 분류하고, 레이블을 지정하고, 보호](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
-|Power BI에서 민감도 레이블을 적용 및 확인하고 다운로드한 보고서를 보호할 수 있습니다.|[Power BI의 데이터 보호](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|
+|Power BI 민감도 레이블을 적용하고 내보낼 때 데이터 보호|[Power BI의 데이터 보호](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|
 |조직에서 민감도 레이블이 사용되는 방식을 모니터링하고 이해하기|[데이터 파악 - 데이터 분류 개요](data-classification-overview.md) <br /><br /> [레이블 분석을 통한 레이블 사용량 보기](label-analytics.md)|
-
 
 ## <a name="end-user-documentation-for-sensitivity-labels"></a>민감도 레이블용 최종 사용자 설명서
 
