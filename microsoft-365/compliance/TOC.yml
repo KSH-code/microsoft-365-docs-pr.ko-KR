@@ -885,8 +885,6 @@
               href: gdpr-arc-prof-services.md
             - name: Office 365
               href: gdpr-arc-office365.md
-        - name: 정보 보호
-          href: gdpr-information-protection.md
         - name: 데이터 주체 요청
           items:
             - name: 데이터 주체 요청
@@ -927,8 +925,12 @@
               href: gdpr-dpia-prof-services.md
             - name: Office 365
               href: gdpr-dpia-office365.md
+        - name: 정보 보호
+          href: gdpr-information-protection.md
         - name: Microsoft의 데이터 보호 관리자
           href: gdpr-data-protection-officer.md
+        - name: 시스템 생성 로그 데이터를 내보낼 수 있는 추가 단계
+          href: gdpr-system-generated-log-data.md
 - name: 하이브리드 준수 기능
   items:
     - name: AD RMS를 사용하여 Exchange Online 메일 암호화

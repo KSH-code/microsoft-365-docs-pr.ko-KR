@@ -288,6 +288,8 @@
           href: ../business/map-protection-features-to-intune-settings.md
         - name: 장치 상태
           href: ../business/device-states.md
+        - name: Windows 10 PC의 앱 보호 설정
+          href: ../business/protection-settings-for-windows-10-devices.md
         - name: Android 및 iOS용 앱 보호 설정
           href: ../business/app-protection-settings-for-android-and-ios.md
           items:
@@ -298,8 +300,6 @@
           items:
             - name: Windows 10 PC의 설정 확인
               href: ../business/validate-settings-on-windows-10-pcs.md
-        - name: Windows 10 PC의 앱 보호 설정
-          href: ../business/protection-settings-for-windows-10-devices.md
         - name: Autopilot
           items:
             - name: Autopilot 장치 및 프로필 추가
