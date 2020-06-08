@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Microsoft 365 보안 센터나 Microsoft 365 규정 준수 센터를 사용하여 보안 또는 규정 준수와 관련된 모든 작업에 대한 권한을 중앙에서 관리할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 74139dfef3e0adfccbf16451d3577a8a916a0f97
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 633473206ebe95c14e351607175405988a933540
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033905"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588007"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터의 권한
 
@@ -58,8 +58,8 @@ Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터에 나타나�
 |**서비스...**|**준수 관리자가 할 수 있는 작업...**|
 |:-----|:-----|
 |[**Microsoft 365 규정 준수 센터**](https://compliance.microsoft.com/)|Microsoft 365 서비스 전반에 걸쳐 조직의 데이터를 보호하고 관리합니다. <br/><br/> 규정 준수 경고를 관리합니다.|
-|[**준수 점수**](https://docs.microsoft.com/office365/securitycompliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|조직의 규정 준수 활동을 추적, 할당 및 확인합니다.|
-|[**보안 및 준수 센터**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|데이터 거버넌스를 관리합니다. <br/><br/> 법적 조사/데이터 조사를 수행합니다. <br/><br/> 데이터 주체 요청을 관리합니다.|
+|[**준수 점수**](https://docs.microsoft.com/microsoft-365/compliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|조직의 규정 준수 활동을 추적, 할당 및 확인합니다.|
+|[**보안 및 준수 센터**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|데이터 거버넌스를 관리합니다. <br/><br/> 법적 조사/데이터 조사를 수행합니다. <br/><br/> 데이터 주체 요청을 관리합니다.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|모든 Intune 감사 데이터를 확인합니다.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|읽기 전용 권한이 있으며 경고를 관리할 수 있습니다. <br/><br/> 파일 정책을 생성/수정하고 파일 거버넌스 작업을 허용할 수 있습니다. <br/><br/> 데이터 관리에서 모든 기본 제공 보고서를 확인할 수 있습니다.|
 
@@ -70,8 +70,8 @@ Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터에 나타나�
 |**이 서비스에서는...**|**규정 준수 데이터 관리자는 다음을 수행할 수 있습니다.**|
 |:-----|:-----|
 |[**Microsoft 365 규정 준수 센터**](https://compliance.microsoft.com/)|Microsoft 365 서비스 전반에 걸쳐 조직의 데이터를 보호하고 관리합니다. <br/><br/> 규정 준수 경고를 관리합니다. <br/><br/> 민감도 레이블을 관리합니다.|
-|[**준수 점수**](https://docs.microsoft.com/office365/securitycompliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|조직의 규정 준수 활동을 추적, 할당 및 확인합니다.|
-|[**보안 및 준수 센터**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|데이터 거버넌스를 관리합니다. <br/><br/> 법적 조사/데이터 조사를 수행합니다. <br/><br/> 데이터 주체 요청을 관리합니다. <br/><br/> 민감도 레이블을 관리합니다.|
+|[**준수 점수**](https://docs.microsoft.com/microsoft-365/compliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|조직의 규정 준수 활동을 추적, 할당 및 확인합니다.|
+|[**보안 및 준수 센터**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|데이터 거버넌스를 관리합니다. <br/><br/> 법적 조사/데이터 조사를 수행합니다. <br/><br/> 데이터 주체 요청을 관리합니다. <br/><br/> 민감도 레이블을 관리합니다.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)(서비스 예정)|모든 Intune 감사 데이터를 확인합니다.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|읽기 전용 권한을 사용하여 정보를 확인합니다. <br/>알림을 관리합니다. <br/><br/> 파일 정책을 생성/수정하고 파일 거버넌스 작업을 허용합니다. <br/><br/> 데이터 관리에서 모든 기본 제공 보고서를 확인합니다.|
 
@@ -84,7 +84,7 @@ Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터에 나타나�
 |[**Microsoft 365 보안 센터**](https://security.microsoft.com/)|Microsoft 365 서비스 전반의 보안 관련 정책을 모니터링합니다. <br/><br/>  보안 위협과 경고를 관리합니다. <br/><br/> 보고서를 봅니다. <br/><br/> 민감도 레이블을 관리합니다.|
 |**ID 보호 센터**|보안 읽기 권한자가 할 수 있는 모든 작업 외에, 암호 재설정을 제외한 모든 ID 보호 센터 작업을 수행할 수 있습니다.|
 |[**Privileged Identity Management**](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)|보안 읽기 권한자 역할이 할 수 있는 모든 작업을 수행합니다. <br/><br/> Azure AD 역할 할당 또는 설정은 관리할 수 **없습니다**.|
-|[**보안 및 준수 센터**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|보안 정책을 관리합니다. <br/><br/> 보안 위협을 확인, 조사 및 대응합니다. <br/><br/> 보고서를 봅니다. <br/><br/> 민감도 레이블을 관리합니다.|
+|[**보안 및 준수 센터**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|보안 정책을 관리합니다. <br/><br/> 보안 위협을 확인, 조사 및 대응합니다. <br/><br/> 보고서를 봅니다. <br/><br/> 민감도 레이블을 관리합니다.|
 |**Azure Advanced Threat Protection**|의심스러운 보안 활동을 모니터링하고 대응합니다.|
 |**Windows Defender ATP 및 EDR**|역할을 할당합니다. <br/><br/> 머신 그룹을 관리합니다. <br/><br/> 엔드포인트 위협 검색 및 자동 수정을 구성합니다. <br/><br/> 경고를 확인, 조사 및 대응합니다.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|사용자, 디바이스, 등록, 구성 및 애플리케이션 정보를 확인합니다. <br/><br/> Intune은 변경할 수 **없습니다**.|
@@ -101,7 +101,7 @@ Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터에 나타나�
 |[**Microsoft 365 보안 센터**](https://security.microsoft.com/)|보안 읽기 권한자 역할이 할 수 있는 모든 작업을 수행합니다. <br/><br/> 보안 경고를 확인, 조사 및 대응합니다.|
 |**ID 보호 센터**(서비스 예정)|보안 읽기 권한자 역할이 할 수 있는 모든 작업을 수행합니다.|
 |[**Privileged Identity Management**](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)|보안 읽기 권한자 역할이 할 수 있는 모든 작업을 수행합니다.|
-|[**보안 및 준수 센터**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|보안 읽기 권한자 역할이 할 수 있는 모든 작업을 수행합니다. <br/><br/> 보안 위협을 확인, 조사 및 대응합니다.|
+|[**보안 및 준수 센터**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|보안 읽기 권한자 역할이 할 수 있는 모든 작업을 수행합니다. <br/><br/> 보안 위협을 확인, 조사 및 대응합니다.|
 |**Windows Defender ATP 및 EDR**|보안 읽기 권한자 역할이 할 수 있는 모든 작업을 수행합니다. <br/><br/> 경고를 확인, 조사 및 대응합니다.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|사용자, 디바이스, 등록, 구성 및 애플리케이션 정보를 확인합니다. <br/><br/> Intune은 변경할 수 **없습니다**.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|보안 읽기 권한자가 할 수 있는 모든 작업 외에, 경고를 보고 해제할 수 있습니다.|
@@ -116,7 +116,7 @@ Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터에 나타나�
 |[**Microsoft 365 보안 센터**](https://security.microsoft.com/)|Microsoft 365 서비스 전반에서 보안 관련 정책을 확인합니다. <br/><br/> 보안 위협 및 경고를 확인합니다. <br/><br/> 보고서를 봅니다.|
 |**ID 보호 센터**|보안 기능에 대한 모든 보안 보고서와 설정 정보, 즉 스팸 방지, 암호화, DLP(데이터 손실 방지), 맬웨어 방지, ATP(Advanced Threat Protection), 피싱 방지 및 메일 흐름 규칙(전송 규칙이라고도 함)을 읽습니다.|
 |[**Privileged Identity Management**](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)|읽기 전용 액세스 권한으로 Azure AD PIM에 표시되는 모든 정보, 즉 Azure AD 역할 할당에 대한 정책 및 보고서, 보안 검토, Azure AD 역할 할당 외의 시나리오에 대한 (향후) 정책 데이터 및 보고서를 봅니다. <br/><br/> Azure AD PIM에 로그인을 하거나 어떠한 변경도 할 수 **없습니다**. 이 역할에 속한 사람은 PIM 포털 또는 PowerShell에서 적격 사용자를 대상으로 전역 관리자, 권한 있는 역할 관리자 등의 추가 역할을 활성화할 수도 있습니다.|
-|[**보안 및 준수 센터**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|보안 정책을 봅니다. <br/><br/> 보안 위협을 확인하고 조사합니다. <br/><br/> 보고서를 봅니다.|
+|[**보안 및 준수 센터**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|보안 정책을 봅니다. <br/><br/> 보안 위협을 확인하고 조사합니다. <br/><br/> 보고서를 봅니다.|
 |**Windows Defender ATP 및 EDR**|경고를 확인하고 조사합니다.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|사용자, 디바이스, 등록, 구성 및 애플리케이션 정보를 확인합니다. <br/><br/> Intune은 변경할 수 **없습니다**.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|읽기 전용 권한을 사용하여 정보를 확인합니다. <br/><br/> 알림을 관리합니다.|
@@ -149,7 +149,7 @@ Azure Active Directory에서 이러한 역할을 관리하는 경우에는 **모
 
 |**Microsoft 365 서비스**|**역할 정보**|
 |:-----|:-----|
-|Office 365 및 Microsoft 365 비즈니스 요금제 관리자 역할|[Microsoft 365 관리자 역할](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles?view=o365-worldwide)|
+|Office 365 및 Microsoft 365 비즈니스 요금제 관리자 역할|[Microsoft 365 관리자 역할](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)|
 |Azure AD(Azure Active Directory) 및 Azure AD ID 보호|[Azure AD 관리자 역할](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Azure Advanced Threat Protection|[Azure ATP 역할 그룹](https://docs.microsoft.com/azure-advanced-threat-protection/atp-role-groups)|
 |Azure Information Protection|[Azure AD 관리자 역할](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
@@ -158,7 +158,7 @@ Azure Active Directory에서 이러한 역할을 관리하는 경우에는 **모
 |Intune|[Intune 역할 기반 액세스 제어](https://docs.microsoft.com/intune/role-based-access-control)|
 |Managed Desktop|[Azure AD 관리자 역할](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Microsoft Cloud App Security|[역할 기반 액세스 제어](https://docs.microsoft.com/cloud-app-security/manage-admins)|
-|보안 및 준수 센터|[Microsoft 365 관리자 역할](https://docs.microsoft.com/office365/SecurityCompliance/permissions-in-the-security-and-compliance-center)|
+|보안 및 준수 센터|[Microsoft 365 관리자 역할](permissions-in-the-security-and-compliance-center.md)|
 |Privileged Identity Management|[Azure AD 관리자 역할](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |보안 점수|[Azure AD 관리자 역할](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |SharePoint Online|[Azure AD 관리자 역할](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <br/><br/> [Office 365의 SharePoint 관리자 역할 정보](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)|

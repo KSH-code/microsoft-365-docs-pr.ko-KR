@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Microsoft 365에서 제공하는 도구를 사용하여 손상된 전자 메일 계정을 인식하고 대처하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f53d38c6e34e555542e0c655d7e7d24ca3c9c978
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: adf1ded6fb88cc26e96840dc2a8bfe20300205dc
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033833"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588219"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>손상된 전자 메일 계정에 응답
 
@@ -87,7 +87,7 @@ Microsoft 365 사서함, 데이터 및 기타 서비스에 대한 액세스는 �
 > [!WARNING]
 > 이 시점에서 공격자가 여전히 사서함에 액세스할 수 있으므로 메일을 통해 의도한 사용자에게 새 암호를 보내지 않습니다.
 
-1. 비즈니스용 Microsoft 365 앱 암호 재설정에 대해 다른 사람의 [비즈니스용 Microsoft 365 앱 암호 재설정](https://docs.microsoft.com/office365/admin/add-users/reset-passwords) 절차 따르기
+1. 비즈니스용 Microsoft 365 앱 암호 재설정에 대해 다른 사람의 [비즈니스용 Microsoft 365 앱 암호 재설정](https://docs.microsoft.com/microsoft-365/admin/add-users/reset-passwords) 절차 따르기
 
 **참고:**
 
@@ -98,7 +98,7 @@ Microsoft 365 사서함, 데이터 및 기타 서비스에 대한 액세스는 �
 - 온-프레미스 ID가 Microsoft 365와 페더레이션된 경우 온-프레미스 암호를 변경해야 하며 관리자에게 손상 사실을 알려야 합니다.
 
 > [!TIP]
-> 특히 관리자 권한이있는 계정의 경우에는 손상 방지를 위해 MFA(다중 요소 인증)를 사용하는 것이 좋습니다.  MFA에 대 한 자세한 내용은[여기](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)에서 확인할 수 있습니다.
+> 특히 관리자 권한이있는 계정의 경우에는 손상 방지를 위해 MFA(다중 요소 인증)를 사용하는 것이 좋습니다.  MFA에 대 한 자세한 내용은[여기](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)에서 확인할 수 있습니다.
 
 ### <a name="step-2-remove-suspicious-email-forwarding-addresses"></a>2단계 의심스러운 메일 전달 주소 제거하기
 
@@ -202,4 +202,4 @@ Microsoft 365 구독에는 데이터 및 사용자를 보호하는 데 사용할
 
 - [증권 거래 위원회 - “피싱” 사기](https://www.sec.gov/investor/pubs/phishing.htm)
 
-- Microsoft와 관리자에게 스팸 전자 메일을 직접 보고하려면 [보고서 메시지 추가 기능을 사용하세요](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
+- Microsoft와 관리자에게 스팸 전자 메일을 직접 보고하려면 [보고서 메시지 추가 기능을 사용하세요](https://support.microsoft.com/office/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
