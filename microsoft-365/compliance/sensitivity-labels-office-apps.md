@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 사용자가 데스크톱에 대 한 Office 앱, 모바일 용 Office 앱 및 웹 용 Office 앱에서 민감도 레이블을 사용 하는 방법에 대해 알아봅니다. 민감도 레이블을 지 원하는 앱을 찾습니다.
-ms.openlocfilehash: 9fca3af2c53c57bbc010c5e95976cbde9ddcbbdc
-ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
+ms.openlocfilehash: 7d37eae65775a79ef49db6c7d13d2ce0d2965acb
+ms.sourcegitcommit: e9cb10d0d617742a5040d7c09d1d36fd1ee25e5d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44545918"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44649387"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 사용
 
@@ -51,7 +51,7 @@ IOS 및 Android의 경우: 나열 되는 최소 버전은 [Office 앱](https://w
 |기능                                                                                                        |Windows 데스크톱 |Mac 데스크톱 |iOS    |Android      |웹                                                         |
 |------------------------------------------------------------------------------------------------------------------|----------------|------------|-------|-------------|------------------------------------------------------------|
 |[수동으로 레이블 적용, 변경 또는 제거](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [예-옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
-|[기본 레이블 적용](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | 검토 중                                                        |
+|[기본 레이블 적용](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | 배포 중                                                        |
 |[레이블을 변경 하려면 사유 필요](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [예-옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[사용자 지정 도움말 페이지에 대 한 도움말 링크 제공](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [예-옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[콘텐츠 표시](sensitivity-labels.md#what-sensitivity-labels-can-do)                                              | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [예-옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
