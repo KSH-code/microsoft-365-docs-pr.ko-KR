@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Information Protection 프레임워크의 민감도 레이블을 사용하여 사용자 생산성과 공동 작업 능력을 방해하지 않으면서 조직의 데이터를 분류하고 보호하세요.
-ms.openlocfilehash: 76d6a57c02f2623b65287b5429c41728a07724bd
-ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
+ms.openlocfilehash: 26b916f2a6aa86131da6f0bf9250291bad85dd74
+ms.sourcegitcommit: 57afde60f81499f58a9dce13649361c62f2b5a01
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44292546"
+ms.lasthandoff: 06/06/2020
+ms.locfileid: "44590929"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -163,7 +163,7 @@ Office 앱의 경우, 민감도 레이블이 전자 메일 또는 문서에서 �
 
 사용자 및 그룹에 민감도 레이블을 할당하는 레이블 정책을 만든 후에는 해당 사용자에게 Office 앱에 레이블을 확인하도록 최대 24시간을 허용할 수 있습니다.
 
-만들고 게시할 수 있는 민감도 레이블의 수에는 제한이 없지만 한 가지 예외적인 경우가 있습니다. 레이블에 암호화가 적용되는 경우의 최대 레이블의 수는 500개입니다. 하지만 최상의 방식은 관리자 오버헤드를 낮추고 사용자의 복잡성을 줄이기 위해 레이블의 수를 최소로 유지하는 것입니다. 사용자에게 6개 이상의 주 레이블 또는 주 레이블당 6개 이상의 하위 레이블이 있는 경우 효과가 확연하게 감소하는 것이 실제 배포 결과를 통해 입증되었습니다.
+생성 및 게시가 가능한 민감도 레이블의 수에는 제한이 없지만 한 가지 예외적인 경우가 있습니다. 레이블에 암호화가 적용되는 경우 최대 레이블의 수는 500개입니다. 하지만 최상의 방식은 관리자 오버헤드를 낮추고 사용자의 복잡성을 줄이기 위해 레이블의 수를 최소로 유지하는 것입니다. 사용자에게 6개 이상의 주 레이블 또는 주 레이블당 6개 이상의 하위 레이블이 있는 경우 효과가 확연하게 감소하는 것이 실제 배포 결과를 통해 입증되었습니다.
 
 ### <a name="label-policy-priority-order-matters"></a>레이블 정책 우선 순위(순서 중요)
 

@@ -17,12 +17,12 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
-ms.openlocfilehash: f0d256a1d181b482516c7be55bca240a55dec567
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 6fd860bbe860b9ed398d0f452c6ea60b41c0e225
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588183"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617421"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -114,7 +114,7 @@ Office 365 ATP Plan 2에는 조직의 보안팀이 악의적인 공격을 예측
 |---------|---------|
 |전역 관리자(Azure Active Directory 또는 보안 & 규정 준수 센터에서 할당할 수 있습니다.) |[Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
 |보안 관리자 (Azure Active Directory 또는 보안 & 규정 준수 센터에서 할당할 수 있습니다.) |[Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br><br/>[보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)|
-|Exchange Online 조직 관리(Exchange Online에서 할당합니다.)|[Exchange Online의 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)<br><br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)|
+|Exchange Online 조직 관리(Exchange Online에서 할당합니다.)|[Exchange Online의 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)<br><br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
 |검색 및 제거(보안 & 규정 준수 센터에서만 할당합니다.) |[보안 & 규정 준수 센터의 사용 권한] (permissions-in-the-security-and-compliance-center.md|
 
 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.

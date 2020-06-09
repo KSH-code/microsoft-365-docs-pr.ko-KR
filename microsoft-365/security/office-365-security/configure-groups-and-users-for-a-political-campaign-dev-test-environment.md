@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: '요약: 정치적 캠페인 개발/테스트 환경의 사용자 및 그룹을 사용하여 Office 365 및 EMS(Enterprise Mobility + Security) 평가판 구독을 만듭니다.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 14722ab96230ecb8acaf4476d6ca70c47de2ffdd
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: d1cd4812cdb8a58062d7c64e73049c080f8b906f
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035109"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588467"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에 대해 그룹 및 사용자 구성
 
@@ -35,7 +35,7 @@ ms.locfileid: "44035109"
 
 이 단계에서는 정치적 캠페인을 표방하는 가상의 조직을 위해 Office 365 E5 및 EMS(Enterprise Mobility + Security) E5에 대한 평가판 구독을 얻습니다.
 
-먼저 [Office 365 개발/테스트 환경](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment)의 **2단계**에 있는 지침을 따릅니다.
+먼저 [간단한 기본 구성](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise)의 **2단계**에 나와 있는 지침을 따르세요.
 
 다음으로, EMS E5 평가판 구독을 등록하고 평가판 구독과 동일한 조직에 추가합니다.
 

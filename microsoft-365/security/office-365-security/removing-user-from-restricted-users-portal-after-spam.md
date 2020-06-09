@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 Office 365의 제한된 사용자 포털에서 사용자를 제거 하는 방법을 알아볼 수 있습니다. 사용자는 일반적으로 계정 손상의 결과로 아웃바운드 스팸 전송을 위해 제한된 사용자 포털에 추가됩니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9865b409be6bce14b84a9175e8f17cdad58befe
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: b9e28550c67e20466b18b17d8b49fb1b68997cc4
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351010"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617365"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Office 365의 제한된 사용자 포털에서 차단된 사용자 제거
 
@@ -40,7 +40,7 @@ ms.locfileid: "44351010"
 
 - <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. **제한된 사용자** 페이지로 직접 이동하려면 <https://protection.office.com/restrictedusers>를 사용합니다.
 
-- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.
+- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
 - 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 제한된 사용자 포털에서 사용자를 제거하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원이어야 합니다. 제한된 사용자 포털에 대한 읽기 전용 액세스를 위해서는 **보안 읽기 권한자** 역할 그룹의 구성원이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
@@ -96,7 +96,7 @@ ms.locfileid: "44351010"
 Get-BlockedSenderAddress
 ```
 
-특정 사용자에 대한 세부 정보를 보려면 \<emailaddress\>를 해당 전자 메일 주소로 바꾸고 다음 명령을 실행합니다.
+특정 사용자에 대한 세부 정보를 보려면 \<emailaddress\>를 그들의 전자 메일 주소로 바꾸고 다음 명령을 실행합니다.
 
 ```powershell
 Get-BlockedSenderAddress -SenderAddress <emailaddress>
@@ -104,7 +104,7 @@ Get-BlockedSenderAddress -SenderAddress <emailaddress>
 
 자세한 구문 및 매개 변수 정보는 [Get-BlockedSenderAddress](https://docs.microsoft.com/powershell/module/exchange/get-blockedsenderaddress)를 참조하세요.
 
-제한된 사용자 목록에서 사용자를 제거하려면 \<emailaddress\>를 전자 메일 주소로 바꾸고 다음 명령을 실행합니다.
+제한된 사용자 목록에서 사용자를 제거하려면 \<emailaddress\>를 그들의 전자 메일 주소로 바꾸고 다음 명령을 실행합니다.
 
 ```powershell
 Remove-BlockedSenderAddress -SenderAddress <emailaddress>

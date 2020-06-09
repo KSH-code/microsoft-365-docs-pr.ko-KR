@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: 8717f6dc9f86ed8d0d9bab378588d70e2854e8e7
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: ead28675a24b0364b89948fe582277862eaab3b8
+ms.sourcegitcommit: e9cb10d0d617742a5040d7c09d1d36fd1ee25e5d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352490"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44649407"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites-public-preview"></a>민감도 레이블 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 콘텐츠 보호하기
 
@@ -89,7 +89,7 @@ Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트의 민감도 레�
 
 - **외부 사용자 액세스**: 그룹 소유자가 [그룹에 게스트를 추가](/office365/admin/create-groups/manage-guest-access-in-groups)할 수 있는지를 제어합니다.
 
-- **관리되지 않는 장치**: [관리되지 않는 장치](/sharepoint/control-access-from-unmanaged-devices)의 경우 전체 액세스, 웹 전용 액세스를 허용하거나 액세스를 완벽하게 차단합니다. 
+- **관리되지 않는 장치**: [관리되지 않는 장치](/sharepoint/control-access-from-unmanaged-devices)의 경우 전체 액세스, 웹 전용 액세스를 허용하거나 액세스를 완벽하게 차단합니다. 테넌트 수준이나 특정 사이트에 대해 이 설정을 구성한 경우, 여기서 지정하는 설정은 더 제한적인 경우에만 적용됩니다.
 
 ![사이트 및 그룹 설정 탭](../media/edit-sensitivity-label-site-group2.png)
 

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
-ms.openlocfilehash: 2db8af2c0651388998967db239ceed92a8be1018
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 9a2cda171de2b81acdabc2180fe53d8ed4e0f900
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036611"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616481"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 
@@ -33,7 +33,7 @@ SPF 및 DMARC와 함께 DKIM을 사용하여 spoofer로 하여금 사용자의 �
 
 기본적으로 개인 키를 사용하여 사용자의 도메인의 보내는 전자 메일에서 머리글을 암호화 합니다. 사용자의 DNS 레코드에 공개 키를 게시하면 수신하는 서버에서 이를 이용하여 서명을 디코딩하는 데 사용할 수 있습니다. 공개 키를 사용하여 메시지가 실제로 사용자로부터 온 것이고 도메인을 *스푸핑한* 사람에게서 온 것이 아닌지 확인합니다.
 
-Microsoft 365는 초기 'onmicrosoft.com' 도메인에 대해 DKIM을 자동으로 설정합니다. 즉, 초기 도메인 이름(예: litware.onmicrosoft.com)의 DKIM을 설정하기 위한 작업을 수행하지 않아도 됩니다. 도메인에 대한 자세한 내용은 [도메인 FAQ](https://docs.microsoft.com/office365/admin/setup/domains-faq#why-do-i-have-an-onmicrosoftcom-domain)를 참조하세요.
+Microsoft 365는 초기 'onmicrosoft.com' 도메인에 대해 DKIM을 자동으로 설정합니다. 즉, 초기 도메인 이름(예: litware.onmicrosoft.com)의 DKIM을 설정하기 위한 작업을 수행하지 않아도 됩니다. 도메인에 대한 자세한 내용은 [도메인 FAQ](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#why-do-i-have-an-onmicrosoftcom-domain)를 참조하세요.
 
 사용자 지정 도메인의 DKIM에 대해서 아무 것도 수행하지 않도록 선택할 수 있습니다. 사용자 지정 도메인에 DKIM을 설정하지 않으면 Microsoft 365는 개인 및 공개 키 쌍을 만들고 DKIM 서명을 사용하도록 설정 한 다음 사용자 지정 도메인에 대한 Microsoft 365 기본 정책을 구성합니다. 대부분의 Microsoft 365 고객에게는 이 기능으로 충분하지만 다음과 같은 경우에는 사용자 지정 도메인에 대해 DKIM을 수동으로 구성해야 합니다.
 
@@ -133,7 +133,7 @@ New-DkimSigningConfig -DomainName <domain> -Enabled $false
 Get-DkimSigningConfig -Identity <domain> | Format-List Selector1CNAME, Selector2CNAME
 ```
 
-Microsoft 365는 사용자가 설정한 두 개의 레코드를 사용하여 자동 키 순환을 수행합니다. Microsoft 365의 초기 도메인 외에 사용자 지정 도메인을 프로비저닝한 경우에는 추가 도메인마다 두 개의 CNAME 레코드를 게시해야 합니다. 따라서 두 개의 도메인이 있는 경우 두 개의 CNAME 레코드를 모두 게시해야 합니다.
+Microsoft 365의 초기 도메인 외에 사용자 지정 도메인을 프로비저닝한 경우에는 추가 도메인마다 두 개의 CNAME 레코드를 게시해야 합니다. 따라서 두 개의 도메인이 있는 경우 두 개의 CNAME 레코드를 모두 게시해야 합니다.
 
 CNAME 레코드에는 다음 형식을 사용합니다.
 
@@ -158,7 +158,7 @@ TTL:                3600
 
   > @contoso.com.  3600  IN  MX   5 contoso-com.mail.protection.outlook.com
 
-- _initialdomain_ 은 Microsoft 365에 등록할 때 사용한 도메인입니다. 초기 도메인은 항상 onmicrosoft.com으로 끝납니다. 초기 도메인을 확인하는 방법에 대한 자세한 내용은 [도메인 FAQ](https://docs.microsoft.com/office365/admin/setup/domains-faq#why-do-i-have-an-onmicrosoftcom-domain)를 참조하세요.
+- _initialdomain_ 은 Microsoft 365에 등록할 때 사용한 도메인입니다. 초기 도메인은 항상 onmicrosoft.com으로 끝납니다. 초기 도메인을 확인하는 방법에 대한 자세한 내용은 [도메인 FAQ](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#why-do-i-have-an-onmicrosoftcom-domain)를 참조하세요.
 
 예를 들어 cohovineyardandwinery.onmicrosoft.com이라는 초기 도메인과 cohovineyard.com 및 cohowinery.com이라는 두 개의 사용자 지정 도메인이 있는 경우 추가 도메인마다 총 두 개의 CNAME 레코드를 설정해야 합니다 (총 네 개의 CNAME 레코드).
 
@@ -181,7 +181,10 @@ TTL:                3600
 ```
 
 > [!NOTE]
-> 두 번째 레코드를 만드는 것도 중요하지만, 생성 시 선택 도구 중 하나만 사용할 수 있습니다. 본질적으로, 두 번째 선택기는 아직 생성되지 않은 주소를 가리킬 수 있습니다. 키 회전이 매끄럽게 진행되므로 직접 단계를 수행하지 않아도 되기 때문에 두 번째 CNAME 레코드를 만드는 것이 좋습니다.
+> 두 번째 레코드를 만드는 것도 중요하지만, 생성 시 선택 도구 중 하나만 사용할 수 있습니다. 본질적으로, 두 번째 선택기는 아직 생성되지 않은 주소를 가리킬 수 있습니다. 키 회전이 원활하게 진행되므로 두 번째 CNAME 레코드를 만드는 것을 당사는 계속 권장했습니다.
+
+> [!CAUTION]
+> 당사는 키를 만드는 방법의 일부 설계 변경을 구현하고 있어서 자동 키 회전이 일시적으로 사용되지 않도록 설정되었습니다. 주기적으로 회전할 수 있도록 키를 여러 개 유지하는 것이 좋습니다. 비록 크랙을 하기는 어렵지만 이는 가장과 같은 위반을 방지하는 실질적인 완화 전략입니다. [Rotate-DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/rotate-dkimsigningconfig) 문서를 따라 조직에서 이 작업을 수행하는 데 도움을 줄 수 있습니다. 2020년 8월에 자동 회전이 다시 설정될 예정입니다.
 
 ### <a name="enable-dkim-signing-for-your-custom-domain"></a>사용자 지정 도메인에 DKIM 서명 사용
 <a name="EnableDKIMinO365"> </a>
@@ -202,7 +205,7 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
 
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-by-using-powershell"></a>PowerShell을 사용하여 사용자 지정 도메인에 DKIM 서명 사용
 
-1. [Exchange Online PowerShell에 연결합니다](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+1. [Exchange Online PowerShell에 연결합니다](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. 다음 명령을 실행합니다.
 
@@ -253,7 +256,7 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
 
 ### <a name="to-disable-the-dkim-signing-policy-by-using-windows-powershell"></a>Windows PowerShell을 사용하여 DKIM 서명 정책을 비활성화하려면
 
-1. [Exchange Online PowerShell에 연결합니다](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+1. [Exchange Online PowerShell에 연결합니다](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. DKIM 서명을 비활성화하려는 각 도메인에 대해 다음 명령 중 하나를 실행합니다.
 
@@ -299,7 +302,7 @@ DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
     b=<signed field>;
 ```
 
-이 예제에서 도메인 관리자가 fabrikam.com에 대한 DKIM 서명을 활성화한 경우 호스트 이름과 도메인에는 CNAME이 가리키는 값이 포함됩니다. 결국 Microsoft 365에서 보낸 모든 단일 메시지는 DKIM 서명됩니다. DKIM을 직접 활성화하는 경우 도메인은 보낸 사람:주소의 도메인 (이 경우 fabrikam.com)과 동일합니다. 직접 활성화하지 않는 경우 맞추는 대신 사용자 조직의 초기 도메인을 사용합니다. 초기 도메인을 확인하는 방법에 대한 자세한 내용은 [도메인 FAQ](https://docs.microsoft.com/office365/admin/setup/domains-faq#why-do-i-have-an-onmicrosoftcom-domain)를 참조하세요.
+이 예제에서 도메인 관리자가 fabrikam.com에 대한 DKIM 서명을 활성화한 경우 호스트 이름과 도메인에는 CNAME이 가리키는 값이 포함됩니다. 결국 Microsoft 365에서 보낸 모든 단일 메시지는 DKIM 서명됩니다. DKIM을 직접 활성화하는 경우 도메인은 보낸 사람:주소의 도메인 (이 경우 fabrikam.com)과 동일합니다. 직접 활성화하지 않는 경우 맞추는 대신 사용자 조직의 초기 도메인을 사용합니다. 초기 도메인을 확인하는 방법에 대한 자세한 내용은 [도메인 FAQ](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#why-do-i-have-an-onmicrosoftcom-domain)를 참조하세요.
 
 ## <a name="set-up-dkim-so-that-a-third-party-service-can-send-or-spoof-email-on-behalf-of-your-custom-domain"></a>타사 서비스에서 사용자 지정 도메인을 대신하여 이메일을 보내거나 스푸핑할 수 있도록 DKIM을 설정
 <a name="SetUp3rdPartyspoof"> </a>
@@ -323,7 +326,7 @@ Return-Path: <communication@bulkemailprovider.com>
 
 3. 전자 메일을 보낼 때 대량 전자 메일 공급자는 해당하는 개인 키로 키에 서명합니다. 이렇게하면 대량 전자 메일 공급자가 메시지 머리글에 DKIM 서명을 첨부합니다.
 
-4. 수신 이메일 시스템은 메시지의 From:(5322.From) 주소에서 도메인에 대해 DKIM-Signature d= \<도메인\> 값을 인증하여 DKIM 확인을 수행합니다. 이 예제에서 값은 다음과 일치합니다.
+4. 수신 이메일 시스템은 메시지의 From:(5322.From) 주소에서 도메인에 대해 DKIM-Signature d=\<domain\> 값을 인증하여 DKIM 검사를 수행합니다. 이 예제에서 값은 다음과 일치합니다.
 
    > sender@**contoso.com**
 
