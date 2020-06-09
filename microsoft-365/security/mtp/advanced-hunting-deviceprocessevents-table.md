@@ -1,7 +1,7 @@
 ---
 title: 고급 구하기 스키마의 DeviceProcessEvents 테이블
 description: 고급 구하기 스키마의 DeviceProcessEventstable에 있는 프로세스 생성 또는 생성 이벤트에 대해 자세히 알아보기
-keywords: 고급 구하기, 위협 검색, 사이버 위협 사냥, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, column, data type, processcreationevents, DeviceProcessEvents, 프로세스 id, 명령 회선, DeviceProcessEvents
+keywords: 고급 구하기, 위협 검색, 사이버 위협 사냥, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, column, data type, processcreationevents, DeviceProcessEvents, 프로세스 id, 명령 줄, DeviceProcessEvents
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: eae1eff69fa6a91413e3f2dd6644c9c27549968e
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: a6e22dc9462ff8f06f171b71b2d68973fd87cc63
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42234777"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617475"
 ---
 # <a name="deviceprocessevents"></a>DeviceProcessEvents
 
@@ -44,7 +44,7 @@ ms.locfileid: "42234777"
 | `FileName` | 문자열 | 기록된 조치가 적용된 파일의 이름 |
 | `FolderPath` | 문자열 | 기록 된 작업이 적용 된 파일을 포함 하는 폴더 |
 | `SHA1` | 문자열 | 기록된 조치가 적용된 파일의 SHA-1 |
-| `SHA256` | 문자열 | 기록된 조치가 적용된 파일의 SHA-256 이 필드는 대개 채워지지 않으며, 가능한 경우 SHA1 열을 사용 합니다. |
+| `SHA256` | 문자열 | 기록된 조치가 적용된 파일의 SHA-256 일반적으로이 필드는 채워지지 않습니다. 가능한 경우 SHA1 열을 사용합니다. |
 | `MD5` | 문자열 | 기록 된 작업이 적용 된 파일의 MD5 해시 |
 | `ProcessId` | int | 새로 만든 프로세스의 PID (프로세스 ID) |
 | `ProcessCommandLine` | 문자열 | 새 프로세스를 만드는 데 사용 되는 명령줄 |
@@ -62,7 +62,7 @@ ms.locfileid: "42234777"
 | `InitiatingProcessIntegrityLevel` | 문자열 | 이벤트를 시작한 프로세스의 무결성 수준입니다. Windows에서는 인터넷 다운로드에서 시작 된 경우와 같이 특정 특성에 따라 프로세스에 무결성 수준을 할당 합니다. 이러한 무결성 수준은 리소스에 대 한 사용 권한에 영향을 줍니다. |
 | `InitiatingProcessTokenElevation` | 문자열 | 이벤트를 시작한 프로세스에 UAC (사용자 액세스 제어) 권한 상승이 적용 되었는지 여부를 나타내는 토큰 유형입니다. |
 | `InitiatingProcessSHA1` | 문자열 | 이벤트를 시작한 프로세스 (이미지 파일)의 SHA-1 |
-| `InitiatingProcessSHA256` | 문자열 | 이벤트를 시작한 프로세스 (이미지 파일)의 SHA-256입니다. 이 필드는 대개 채워지지 않으며, 가능한 경우 SHA1 열을 사용 합니다. |
+| `InitiatingProcessSHA256` | 문자열 | 이벤트를 시작한 프로세스 (이미지 파일)의 SHA-256입니다. 일반적으로이 필드는 채워지지 않습니다. 가능한 경우 SHA1 열을 사용합니다. |
 | `InitiatingProcessMD5` | 문자열 | 이벤트를 시작한 프로세스 (이미지 파일)의 MD5 해시 |
 | `InitiatingProcessFileName` | 문자열 | 이벤트를 시작한 프로세스의 이름입니다. |
 | `InitiatingProcessId` | int | 이벤트를 시작한 프로세스의 PID (프로세스 ID) |

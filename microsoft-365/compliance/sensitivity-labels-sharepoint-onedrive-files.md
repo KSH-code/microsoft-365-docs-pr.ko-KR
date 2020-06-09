@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 SharePoint 및 OneDrive에서 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용 하도록 설정할 수 있습니다.
-ms.openlocfilehash: c364c55888165b10de603fd4709e4f82b06f83cc
-ms.sourcegitcommit: 1b560ee45f3b0253fa5c410a4499373c1f92da9c
+ms.openlocfilehash: 0ad4381d4a4004d89dd35aa59098f26d8f12dd56
+ms.sourcegitcommit: bc17d4b2197dd60cdff7c9349bbe19eeaac85ac2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432607"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44604313"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용
 
@@ -195,6 +195,35 @@ Microsoft 365 준수 센터에서 민감도 레이블을 만들거나 변경한 
 - 사용자가 IRM을 지원 하지 않는 문서를 업로드 하지 못하게 하는 추가 IRM library 설정이 사용 하도록 설정 된 경우에는 이러한 설정이 적용 됩니다.
 
 이 동작을 사용 하면 레이블이 없는 경우에도 모든 Office 및 PDF 파일을 다운로드 한 경우 무단으로 액세스 하지 못하도록 보호할 수 있습니다. 그러나 레이블이 지정 된 파일은 새로운 기능을 통해 얻을 수 없습니다.
+
+## <a name="search-for-documents-by-sensitivity-label"></a>민감도 레이블을 기준으로 문서 검색
+
+관리 속성 **InformationProtectionLabelId** 를 사용 하 여 특정 민감도 레이블이 있는 SharePoint 또는 OneDrive의 모든 문서를 찾을 수 있습니다. 다음 구문을 사용 합니다.`InformationProtectionLabelId:<GUID>`
+
+예를 들어 "기밀" 이라는 레이블이 지정 된 모든 문서를 검색 하 고 해당 레이블에 GUID가 "8faca7b8-8d20-48a3-8ea2-0f96310a848e" 인 경우 검색 상자에 다음을 입력 합니다.
+
+`InformationProtectionLabelId: 8faca7b8-8d20-48a3-8ea2-0f96310a848e`
+
+민감도 레이블의 Guid를 가져오려면 [get-Label](https://docs.microsoft.com/powershell/module/exchange/get-label?view=exchange-ps) cmdlet을 사용 합니다.
+    
+1. 우선 [Office 365 보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)합니다. 
+    
+    예를 들어 관리자로 실행하는 PowerShell 세션에서 전역 관리자 계정으로 로그인합니다.
+    
+    ```powershell
+    Set-ExecutionPolicy RemoteSigned
+    $UserCredential = Get-Credential
+    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
+    Import-PSSession $Session -DisableNameChecking
+    ```
+
+2. 그리고 나 서 다음 명령을 실행 합니다.
+    
+    ```powershell
+    Get-Label |ft Name, Guid
+    ```
+
+관리 속성을 사용 하는 방법에 대 한 자세한 내용은 [SharePoint에서 검색 스키마 관리](https://docs.microsoft.com/sharepoint/manage-search-schema)를 참조 하세요.
 
 ## <a name="how-to-disable-sensitivity-labels-for-sharepoint-and-onedrive-opt-out"></a>SharePoint 및 OneDrive에 대해 민감도 레이블을 사용 하지 않도록 설정 하는 방법 (옵트아웃)
 

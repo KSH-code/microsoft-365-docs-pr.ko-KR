@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: 디렉터리 동기화, EAC 및 PowerShell을 사용 하 여 사용자를 관리 하는 등의 EOP (Exchange Online Protection)에서 메일 사용자를 관리 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0e8a4585a16b579c28de719181eed65b65ec6f4f
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: d82170499bcfa6465164ca2644eea43c2558ad18
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352435"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616837"
 ---
 # <a name="manage-mail-users-in-standalone-eop"></a>독립 실행형 EOP에서 메일 사용자 관리
 
@@ -31,11 +31,11 @@ Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protec
 
 사용자 수가 적은 독립 실행형 EOP 조직의 경우이 항목에 설명 된 대로 EAC (Exchange 관리 센터) 또는 독립 실행형 EOP PowerShell에서 메일 사용자를 추가 하 고 관리할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - EAC (Exchange 관리 센터)를 열려면 [독립 실행형 EOP에서 exchange 관리 센터](exchange-admin-center-in-exchange-online-protection-eop.md)를 참조 하세요.
 
-- 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조하세요.
+- 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
 - EOP PowerShell에서 메일 사용자를 만들 때 제한이 발생할 수 있습니다. 또한 EOP PowerShell cmdlet은 일괄 처리 방법을 사용 하 여 명령 결과가 표시 되기까지 몇 분 정도 전파 지연을 발생 시킵니다.
 
@@ -139,7 +139,7 @@ Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protec
 Get-Recipient -RecipientType MailUser -ResultSize unlimited
 ```
 
-특정 메일 사용자에 대 한 자세한 정보를 보려면 \< \> 메일 사용자의 이름, 별칭 또는 계정 이름으로 mailuseridentity를 바꾸고 다음 명령을 실행 합니다.
+특정 메일 사용자에 대 한 자세한 정보를 보려면 \<MailUserIdentity\> 메일 사용자의 이름, 별칭 또는 계정 이름으로 바꾸고 다음 명령을 실행 합니다.
 
 ```powershell
 Get-Recipient -Identity <MailUserIdentity> | Format-List
@@ -209,7 +209,7 @@ $Recip | foreach {Set-EOPUser -Identity $_.Alias -Company Contoso}
 
 ### <a name="use-standalone-eop-powershell-to-remove-mail-users"></a>독립 실행형 EOP PowerShell을 사용 하 여 메일 사용자 제거
 
-독립 실행형 EOP PowerShell에서 메일 사용자를 제거 하려면 \< mailuseridentity를 \> 메일 사용자의 이름, 별칭 또는 계정 이름으로 바꾸고 다음 명령을 실행 합니다.
+독립 실행형 EOP PowerShell에서 메일 사용자를 제거 하려면 \<MailUserIdentity\> 메일 사용자의 이름, 별칭 또는 계정 이름으로 바꾸고 다음 명령을 실행 합니다.
 
 ```PowerShell
 Remove-EOPMailUser -Identity <MailUserIdentity\>
@@ -235,7 +235,7 @@ Remove-EOPMailUser -Identity "Jeffrey Zeng"
   Get-Recipient -RecipientType MailUser -ResultSize unlimited
   ```
 
-- \<Mailuseridentity를 \> 메일 사용자의 이름, 별칭 또는 계정 이름으로 바꾸고 다음 명령을 실행 하 여 설정을 확인 합니다.
+- \<MailUserIdentity\>메일 사용자의 이름, 별칭 또는 계정 이름으로 바꾸고 다음 명령을 실행 하 여 설정을 확인 합니다.
 
   ```powershell
   Get-Recipient -Identity <MailUserIdentity> | Format-List

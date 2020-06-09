@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: f99420b978f77f8b4a4660394d4a6f335c5aad66
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: f340a34b3c88f1caba83861c4d36ce140846d495
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235047"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617177"
 ---
 # <a name="deviceevents"></a>DeviceEvents
 
@@ -31,7 +31,7 @@ ms.locfileid: "42235047"
 
 
 
-[고급 구하기](advanced-hunting-overview.md) 스키마의 기타 `DeviceEvents` 장치 이벤트 또는 테이블에는 Windows Defender 바이러스 백신 및 exploit protection과 같은 보안 컨트롤에서 트리거되는 이벤트를 비롯 하 여 다양 한 이벤트 유형에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+`DeviceEvents` [고급 구하기](advanced-hunting-overview.md) 스키마의 기타 장치 이벤트 또는 테이블에는 Windows Defender 바이러스 백신 및 exploit protection과 같은 보안 컨트롤에서 트리거되는 이벤트를 비롯 하 여 다양 한 이벤트 유형에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 
@@ -45,7 +45,7 @@ ms.locfileid: "42235047"
 | `FileName` | 문자열 | 기록된 조치가 적용된 파일의 이름 |
 | `FolderPath` | 문자열 | 기록 된 작업이 적용 된 파일을 포함 하는 폴더 |
 | `SHA1` | 문자열 | 기록된 조치가 적용된 파일의 SHA-1 |
-| `SHA256` | 문자열 | 기록된 조치가 적용된 파일의 SHA-256 이 필드는 대개 채워지지 않으며, 가능한 경우 SHA1 열을 사용 합니다. |
+| `SHA256` | 문자열 | 기록된 조치가 적용된 파일의 SHA-256 일반적으로이 필드는 채워지지 않습니다. 가능한 경우 SHA1 열을 사용합니다. |
 | `MD5` | 문자열 | 기록 된 작업이 적용 된 파일의 MD5 해시 |
 | `AccountDomain` | 문자열 | 계정의 도메인 |
 | `AccountName` | 문자열 | 계정의 사용자 이름입니다. |
@@ -68,7 +68,7 @@ ms.locfileid: "42235047"
 | `FileOriginIP` | 문자열 | 파일을 다운로드 한 IP 주소 |
 | `AdditionalFields` | 문자열 | JSON 배열 형식의 이벤트에 대 한 추가 정보 |
 | `InitiatingProcessSHA1` | 문자열 | 이벤트를 시작한 프로세스 (이미지 파일)의 SHA-1 |
-| `InitiatingProcessSHA256` | 문자열 | 이벤트를 시작한 프로세스 (이미지 파일)의 SHA-256입니다. 이 필드는 대개 채워지지 않으며, 가능한 경우 SHA1 열을 사용 합니다. |
+| `InitiatingProcessSHA256` | 문자열 | 이벤트를 시작한 프로세스 (이미지 파일)의 SHA-256입니다. 일반적으로이 필드는 채워지지 않습니다. 가능한 경우 SHA1 열을 사용합니다. |
 | `InitiatingProcessFileName` | 문자열 | 이벤트를 시작한 프로세스의 이름입니다. |
 | `InitiatingProcessFolderPath` | 문자열 | 이벤트를 시작한 프로세스 (이미지 파일)가 들어 있는 폴더 |
 | `InitiatingProcessId` | int | 이벤트를 시작한 프로세스의 PID (프로세스 ID) |

@@ -1,7 +1,7 @@
 ---
 title: 고급 구하기 스키마의 DeviceNetworkEvents 테이블
 description: 고급 구하기 스키마의 DeviceNetworkEvents 테이블에서 쿼리할 수 있는 네트워크 연결 이벤트에 대해 자세히 알아보기
-keywords: 고급 구하기, 위협 검색, 사이버 위협 사냥, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, column, data type, devicenetworkevents, NetworkCommunicationEvents, network 연결, 원격 ip, 로컬 ip
+keywords: 고급 구하기, 위협 검색, 사이버 위협 검색, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, column, data type, devicenetworkevents, NetworkCommunicationEvents, network connection, 원격 ip, 로컬 ip
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: d5e3327f4b4e066b3e4c14f646ad8db78ff3804a
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: 3be6523372edcda520e05545c87385c0e1a42044
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42929043"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617121"
 ---
 # <a name="devicenetworkevents"></a>DeviceNetworkEvents
 
@@ -50,6 +50,7 @@ ms.locfileid: "42929043"
 | `LocalIPType` | 문자열 | IP 주소 유형 (예: Public, Private, Reserved, 루프백, Teredo, FourToSixMapping 및 브로드캐스트) |
 | `RemoteIPType` | 문자열 | IP 주소 유형 (예: Public, Private, Reserved, 루프백, Teredo, FourToSixMapping 및 브로드캐스트) |
 | `InitiatingProcessSHA1` | 문자열 | 이벤트를 시작한 프로세스 (이미지 파일)의 SHA-1 |
+| `InitiatingProcessSHA256` | 문자열 | 이벤트를 시작한 프로세스 (이미지 파일)의 SHA-256입니다. 일반적으로이 필드는 채워지지 않습니다. 가능한 경우 SHA1 열을 사용합니다. |
 | `InitiatingProcessMD5` | 문자열 | 이벤트를 시작한 프로세스 (이미지 파일)의 MD5 해시 |
 | `InitiatingProcessFileName` | 문자열 | 이벤트를 시작한 프로세스의 이름입니다. |
 | `InitiatingProcessId` | int | 이벤트를 시작한 프로세스의 PID (프로세스 ID) |

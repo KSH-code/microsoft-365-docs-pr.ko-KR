@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 125834f4-1024-4325-ad5a-d2573cfb005e
 description: 관리자는 Exchange Online Protection의 EAC (Exchange 관리 센터)에서 사용 권한을 할당 하거나 제거 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: ba2d053e1e75bd8867ebb9eb7f426cde92abd3e8
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 3555d3bd7fa4c53802eb214747735223cccc21e5
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352338"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616517"
 ---
 # <a name="manage-role-groups-in-standalone-eop"></a>독립 실행형 EOP에서 역할 그룹 관리
 
@@ -25,11 +25,11 @@ Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protec
 
 역할 및 역할 그룹에 대 한 자세한 내용은 [Permissions in 독립 실행형 EOP](feature-permissions-in-eop.md)을 참조 하십시오.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - EAC (Exchange 관리 센터)를 열려면 [독립 실행형 EOP에서 exchange 관리 센터](exchange-admin-center-in-exchange-online-protection-eop.md)를 참조 하세요.
 
-- 독립 실행형 EOP PowerShell을 열려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조 하세요.
+- 독립 실행형 EOP PowerShell을 열려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조 하세요.
 
 - 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 특히 OrganizationManagement (전역 관리자) 역할 그룹에 기본적으로 할당 되는 역할 관리 역할이 필요 합니다. 자세한 내용은 [권한 독립 실행형 EOP의 사용 권한을](feature-permissions-in-eop.md) 참조 하 고 [EAC를 사용 하 여 역할 그룹의 구성원 목록을 수정](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)합니다.
 
@@ -240,7 +240,7 @@ Remove-RoleGroup -Identity "Training Administrators"
 
 - EAC에서 **사용 권한** \> **관리자 역할로**이동 하 여 해당 역할 그룹이 나열 되는지 확인 합니다 (또는 나열 되지 않음). 역할 그룹을 선택 하 고 세부 정보 창에서 설정을 확인 하거나 편집 아이콘 **편집** ![ 을 클릭 ](../../media/ITPro-EAC-EditIcon.png) 하 여 설정을 확인 합니다.
 
-- Exchange Online PowerShell에서 \< 역할 그룹 이름을 \> 역할 그룹의 이름으로 바꾸고 다음 명령을 실행 하 여 역할 그룹이 있는지 확인 하 고 (또는 존재 하지 않음) 설정을 확인 합니다.
+- Exchange Online PowerShell에서 \<Role Group Name\> 역할 그룹의 이름으로 바꾸고 다음 명령을 실행 하 여 역할 그룹이 존재 하는지 확인 하 고 (또는 존재 하지 않음) 설정을 확인 합니다.
 
     ```PowerShell
     Get-RoleGroup -Identity "<Role Group Name>" | Format-List

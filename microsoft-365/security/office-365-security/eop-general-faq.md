@@ -14,12 +14,12 @@ ms.assetid: 9dbff00a-474e-4452-aeb5-5be9a6b8c6d5
 ms.custom:
 - seo-marvel-apr2020
 description: EOP (Exchange Online Protection) 클라우드 호스트 전자 메일 필터링 서비스에 대 한 일반적인 질문과 대답을 볼 수 있습니다.
-ms.openlocfilehash: 02aa7175e95cf706ed13268035953400af2485a7
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 0908fd5cf3a799f5a253122efac2b4d56d80ee76
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44206665"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617033"
 ---
 # <a name="eop-general-faq"></a>EOP 관련 일반 FAQ(질문과 대답)
 
@@ -89,4 +89,4 @@ SLA(서비스 수준 계약)에 대한 정보를 비롯하여 데이터 및 개�
 
 ## <a name="does-eop-support-powershell"></a>EOP가 PowerShell을 지원 하나요?
 
-예, PowerShell: exchange Online 사서함을 포함 하는 조직에 대 한 Exchange Online PowerShell을 통해 전체 EOP 기능을 사용할 수 있습니다. 독립 실행형 EOP 조직에 대 한 독립 실행형 EOP PowerShell 자세한 내용은 [Exchange Online powershell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell) 및 [Exchange online Protection powershell](https://docs.microsoft.com/powershell/exchange/exchange-eop/exchange-online-protection-powershell)을 참조 하세요.
+예, PowerShell: exchange Online 사서함을 포함 하는 조직에 대 한 Exchange Online PowerShell을 통해 전체 EOP 기능을 사용할 수 있습니다. 독립 실행형 EOP 조직에 대 한 독립 실행형 EOP PowerShell 자세한 내용은 [Exchange Online powershell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell) 및 [Exchange online Protection powershell](https://docs.microsoft.com/powershell/exchange/exchange-online-protection-powershell)을 참조 하세요.

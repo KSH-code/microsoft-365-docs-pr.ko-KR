@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 EOP (Exchange Online Protection)에서 메일 흐름 규칙 (전송 규칙)을 사용 하 여 대량 메일 (회색 메일)을 식별 하 고 필터링 하는 방법을 알 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa2c13aed1fd7f9c34872d05693f88577bbbc9c5
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 860c9a1af2cb560c4fd966b303501686a1cbfea7
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352399"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44613315"
 ---
 # <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>메일 흐름 규칙을 사용하여 EOP에서 대량 전자 메일 필터링
 
@@ -31,7 +31,7 @@ Exchange online 사서함이 없는 Microsoft 365 조직, EOP (독립 실행형 
 
 이 항목에서는 EAC (exchange 관리 센터) 및 PowerShell (exchange online 사서함이 없는 조직의 경우 exchange Online의 사서함이 있는 Microsoft 365 조 직의 경우 exchange online PowerShell)에서 이러한 메일 흐름 규칙을 만드는 방법에 대해 설명 합니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 다음 절차를 수행 하려면 먼저 사용 권한을 할당 받아야 합니다.
 
@@ -41,7 +41,7 @@ Exchange online 사서함이 없는 Microsoft 365 조직, EOP (독립 실행형 
 
 - Exchange Online에서 EAC를 열려면 exchange [online의 exchange 관리 센터](https://docs.microsoft.com/Exchange/exchange-admin-center)를 참조 하세요. 독립 실행형 EOP에서 EAC를 열려면 [독립 실행형 EOP에서 Exchange 관리 센터](exchange-admin-center-in-exchange-online-protection-eop.md)를 참조 하세요.
 
-- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조하세요.
+- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
 - Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에 대 한 자세한 내용은 다음 항목을 참조 하십시오.
 
@@ -148,7 +148,7 @@ New-TransportRule -Name "Bulk email filtering - Words" -SubjectOrBodyContainsWor
 
 - EAC에서 **메일 흐름** \> **규칙** 을 \> 선택 하 \> **Edit** ![ 고 편집 아이콘 편집 ](../../media/ITPro-EAC-EditIcon.png) 을 클릭 한 다음 설정을 확인 합니다.
 
-- PowerShell에서 \< 규칙 이름을 \> 규칙 이름으로 바꾸고 다음 명령을 실행 하 여 설정을 확인 합니다.
+- PowerShell에서 \<Rule Name\> 규칙의 이름으로 바꾸고 다음 명령을 실행 하 여 설정을 확인 합니다.
 
   ```powershell
   Get-TransportRule -Identity "<Rule Name>" | Format-List

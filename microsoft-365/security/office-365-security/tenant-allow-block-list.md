@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 보안 & 준수 센터의 테 넌 트 허용/차단 목록에서 URL 및 파일 항목을 구성 하는 방법을 알아봅니다.
-ms.openlocfilehash: b3a25458bbde2b3a78cfecc60ccb75fe298013f7
-ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
+ms.openlocfilehash: 0143ee2601a4cb9593c79f8c6c62d1f06914088f
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44419271"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44613423"
 ---
 # <a name="manage-urls-and-files-in-the-tenant-allowblock-list"></a>테 넌 트 허용/차단 목록에서 Url 및 파일 관리
 
@@ -56,7 +56,7 @@ Exchange online 사서함을 사용 하지 않는 exchange Online 또는 독립 
 
 - 기본적으로 테 넌 트 허용/차단 목록의 항목은 30 일 후에 만료 됩니다. 날짜를 지정 하거나 만료 되지 않도록 설정할 수 있습니다.
 
-- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조하세요.
+- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
 - 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 테 넌 트 허용/차단 목록에서 값을 추가 및 제거 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 테 넌 트 허용/차단 목록에 대 한 읽기 전용 액세스를 위해서는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 

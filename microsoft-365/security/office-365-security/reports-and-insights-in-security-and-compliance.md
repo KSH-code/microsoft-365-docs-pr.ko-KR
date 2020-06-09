@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 보안 및 준수 센터에서 사용할 수 있는 스마트 보고서 및 정보 및이를 사용 하 여 데이터를 보고 탐색 하 고 바로 작업을 수행 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3646c38f56852d18fe7f2a79c82c059f6d0bca21
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: fc969dd9bbcbe049f4fcd065ef9caed51c52fac6
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588159"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617311"
 ---
 # <a name="smart-reports-and-insights-in-the-security-amp-compliance-center"></a>보안 및 준수 센터의 Smart reports 및 통찰력 &amp;
 
@@ -54,11 +54,6 @@ ms.locfileid: "44588159"
 |**감사 로그** <br/> Microsoft 365 활동, 사용자, 파일 또는 폴더 등에 대한 정보  <br/> |보안 &amp; 및 준수 센터에서 **검색 &amp; 조사** \> **감사 로그 검색** 으로 이동 합니다. <br/> |[보안 및 준수 센터에서 감사 로그 검색 &amp;](../../compliance/search-the-audit-log-in-security-and-compliance.md) <br/> |
 |**준수 보고서** <br/> FedRAMP 보고서, 거버넌스, 위험 및 규정 준수 보고서, ISO 정보 보안 관리 보고서 및 Service Organization Controls(SOC) 감사 및 평가 보고서  <br/> |보안 &amp; 및 준수 센터에서 **서비스 보증** \> **준수 보고서** 로 이동 합니다. <br/> |[&amp;Office 365의 보안 준수 계획](../../compliance/plan-for-security-and-compliance.md) <br/> |
   
-## <a name="next-steps"></a>다음 단계
-
-보고서 및 통찰력에 대 한 개요를 만들었으므로 다음 단계는 보고서를 사용자 지정, 관리 및 다운로드 하는 방법을 알아봅니다. 다음 문서를 참조 하세요.
-  
-
     
 ## <a name="related-topics"></a>관련 항목
 

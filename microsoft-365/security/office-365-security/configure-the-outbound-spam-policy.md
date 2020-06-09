@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 아웃 바운드 스팸 정책을 보고, 만들고, 수정 하 고, 삭제 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: e035fe26cea0fcd1f3051f7464722ae1c7a3b56f
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 6a15e33033643f99fc8aeb51036ddac7beba7b71
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352002"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616581"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>EOP에서 아웃 바운드 스팸 필터링 구성
 
@@ -77,7 +77,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서는 아�
 
 - <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **스팸 방지 설정** 페이지로 바로 이동하려면 <https://protection.office.com/antispam>을 사용하세요.
 
-- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조하세요.
+- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
 - 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 아웃 바운드 스팸 정책을 추가, 수정 및 삭제 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 아웃 바운드 스팸 정책에 대 한 읽기 전용 액세스를 위해서는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
@@ -178,7 +178,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서는 아�
 
 6. 않아도 **적용 대상** 섹션을 확장 하 여 정책이 적용 되는 내부 보낸 사람을 식별 합니다.
 
-    조건이나 예외는 한 번만 사용할 수 있지만, 조건이나 예외에 대한 값을 여러 개 지정할 수 있습니다. 동일한 조건 또는 예외를 사용 하는 여러 값 또는 논리 (예: _ \< sender1 \> _ 또는 _ \< sender2 \> _) 서로 다른 조건 또는 예외 사용 및 논리 (예: _ \< sender1 \> _ , _ \< 그룹 1 \> 의 구성원_)
+    조건이나 예외는 한 번만 사용할 수 있지만, 조건이나 예외에 대한 값을 여러 개 지정할 수 있습니다. 동일한 조건 또는 예외를 사용 하는 여러 값 또는 논리 (예: _\<sender1\>_ or _\<sender2\>_ ) 서로 다른 조건 또는 예외 사용 및 논리 (예: _\<sender1\>_ and _\<member of group 1\>_ )
 
     사용 가능한 모든 조건을 보려면 **조건 추가**를 세 번 클릭하는 것이 가장 쉽습니다. ![제거 단추](../../media/scc-remove-icon.png)를 클릭하여 구성하지 않을 조건을 제거할 수 있습니다.
 
@@ -286,7 +286,7 @@ PowerShell에서 아웃 바운드 스팸 정책을 만드는 과정은 다음 �
 
   - HostedOutboundSpamFilterRule cmdlet에서_사용 하도록 설정_ 된 새 정책을 사용 하지 않도록 설정 `$false` **New-HostedOutboundSpamFilterRule** 합니다.
 
-  - **HostedOutboundSpamFilterRule** cmdlet에 대해 만드는 동안 정책의 우선 순위 (_우선 순위_ _ \< 번호 \> _)를 설정 합니다.
+  - HostedOutboundSpamFilterRule cmdlet에 대 한 생성 (_우선 순위_ ) 중에 정책의 우선 순위를 설정 _\<Number\>_ 합니다. **New-HostedOutboundSpamFilterRule**
 
 - 사용자가 PowerShell에서 만든 새 아웃 바운드 스팸 필터 정책이 보안 & 준수 센터에 표시 되지 않는 경우에는 해당 정책을 스팸 필터 규칙에 할당할 수 있습니다.
 

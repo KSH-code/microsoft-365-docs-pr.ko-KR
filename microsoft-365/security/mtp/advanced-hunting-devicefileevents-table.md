@@ -1,7 +1,7 @@
 ---
 title: 고급 구하기 스키마의 DeviceFileEvents 테이블
 description: 고급 구하기 스키마의 DeviceFileEvents 테이블에 있는 파일 관련 이벤트에 대해 자세히 알아봅니다.
-keywords: 고급 구하기, 위협 검색, 사이버 위협 검색, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, description, filecreationevents, DeviceFileEvents, files, path, hash, sha1, sha256, md5
+keywords: 고급 구하기, 위협 검색, 사이버 위협 사냥, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, column, data type, description, filecreationevents, DeviceFileEvents, files, path, hash, sha1, sha256, md5
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,19 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 07569b93244bd420fe5961e20e6951ea84ae47d7
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 4b815afbe8e3ca1f7967d13f6482b90f7c64e362
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235037"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617165"
 ---
 # <a name="devicefileevents"></a>DeviceFileEvents
 
 **적용 대상:**
 - Microsoft 위협 방지
-
-
 
 `DeviceFileEvents` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 파일 생성, 수정 및 기타 파일 시스템 이벤트에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
@@ -44,7 +42,7 @@ ms.locfileid: "42235037"
 | `FileName` | 문자열 | 기록된 조치가 적용된 파일의 이름 |
 | `FolderPath` | 문자열 | 기록 된 작업이 적용 된 파일을 포함 하는 폴더 |
 | `SHA1` | 문자열 | 기록된 조치가 적용된 파일의 SHA-1 |
-| `SHA256` | 문자열 | 기록된 조치가 적용된 파일의 SHA-256 이 필드는 대개 채워지지 않으며, 가능한 경우 SHA1 열을 사용 합니다. |
+| `SHA256` | 문자열 | 기록된 조치가 적용된 파일의 SHA-256 일반적으로이 필드는 채워지지 않습니다. 가능한 경우 SHA1 열을 사용합니다. |
 | `MD5` | 문자열 | 기록 된 작업이 적용 된 파일의 MD5 해시 |
 | `FileOriginUrl` | 문자열 | 파일을 다운로드 한 URL |
 | `FileOriginReferrerUrl` | 문자열 | 다운로드 한 파일에 연결 되는 웹 페이지의 URL입니다. |
@@ -54,6 +52,7 @@ ms.locfileid: "42235037"
 | `InitiatingProcessAccountSid` | 문자열 | 이벤트를 담당 하는 프로세스를 실행 한 계정의 SID (보안 식별자)입니다. |
 | `InitiatingProcessMD5` | 문자열 | 이벤트를 시작한 프로세스 (이미지 파일)의 MD5 해시 |
 | `InitiatingProcessSHA1` | 문자열 | 이벤트를 시작한 프로세스 (이미지 파일)의 SHA-1 |
+| `InitiatingProcessSHA256` | 문자열 | 이벤트를 시작한 프로세스 (이미지 파일)의 SHA-256입니다. 일반적으로이 필드는 채워지지 않습니다. 가능한 경우 SHA1 열을 사용합니다. |
 | `InitiatingProcessFolderPath` | 문자열 | 이벤트를 시작한 프로세스 (이미지 파일)가 들어 있는 폴더 |
 | `InitiatingProcessFileName` | 문자열 | 이벤트를 시작한 프로세스의 이름입니다. |
 | `InitiatingProcessId` | int | 이벤트를 시작한 프로세스의 PID (프로세스 ID) |
@@ -64,6 +63,13 @@ ms.locfileid: "42235037"
 | `InitiatingProcessParentId` | int | 이벤트를 담당 하는 프로세스를 생성 한 상위 프로세스의 PID (프로세스 ID)입니다. |
 | `InitiatingProcessParentFileName` | 문자열 | 이벤트를 담당 하는 프로세스를 생성 한 상위 프로세스의 이름입니다. |
 | `InitiatingProcessParentCreationTime` | datetime | 이벤트를 담당 하는 프로세스의 부모를 시작한 날짜 및 시간입니다. |
+| `RequestProtocol` | 문자열 | 작업을 시작 하는 데 사용 되는 네트워크 프로토콜 (해당 하는 경우): 알 수 없음, 로컬, SMB 또는 NFS |
+| `ShareName` | 문자열 | 파일이 들어 있는 공유 폴더의 이름입니다. |
+| `RequestSourceIP` | 문자열 | 활동을 시작한 원격 장치의 IPv4 또는 IPv6 주소입니다. |
+| `RequestSourcePort` | 문자열 | 활동을 시작한 원격 장치의 원본 포트 |
+| `RequestAccountName` | 문자열 | 활동을 원격으로 시작 하는 데 사용 되는 계정의 사용자 이름입니다. |
+| `RequestAccountDomain` | 문자열 | 활동을 원격으로 시작 하는 데 사용 되는 계정의 도메인입니다. |
+| `RequestAccountSid` | 문자열 | 활동을 원격으로 시작 하는 데 사용 되는 계정의 SID (보안 식별자) |
 | `ReportId` | long | 반복 카운터를 기반으로 하는 이벤트 식별자입니다. 고유 이벤트를 식별 하려면이 열을 장치 이름 및 타임 스탬프 열과 함께 사용 해야 합니다. |
 | `AppGuardContainerId` | 문자열 | 응용 프로그램 가드가 브라우저 활동을 격리 하는 데 사용 하는 가상화 된 컨테이너의 식별자입니다. |
 | `SensitivityLabel` | 문자열 | 정보 보호를 위해 전자 메일, 파일 또는 기타 콘텐츠에 적용 되는 레이블 |

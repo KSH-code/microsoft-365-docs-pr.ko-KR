@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: 다음 표에는 EOP(Exchange 온라인 보호) 호스팅 전자 메일 필터링 서비스에서 사용할 수 있는 기능 목록이 나와 있습니다.
-ms.openlocfilehash: fc9a13ce7a2fc8782ed260ce0ce64aec456a4d51
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: 820f635e679be9d579ba94fc3288830dc6996a0e
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213427"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617045"
 ---
 # <a name="eop-features"></a>EOP 기능
 
@@ -78,7 +78,7 @@ ms.locfileid: "44213427"
 |웹 기반 관리|관리자는 60 언어에서 지원 되는 EAC (Exchange 관리 센터)에서 서비스를 관리할 수 있습니다. 자세한 내용은 [독립 실행형 EOP의 Exchange 관리 센터](exchange-admin-center-in-exchange-online-protection-eop.md)를 참조 하십시오.|
 |디렉터리 동기화|디렉터리 동기화는 Azure Active Directory 동기화 도구를 통해 사용할 수 있습니다. 자세한 내용은 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)에서 "디렉터리 동기화를 사용하여 메일 사용자 관리" 섹션을 참조하세요.  |
 |DBEB(디렉터리 기반 Edge 차단)|DBEB 기능을 통해 서비스 네트워크 주변에서 잘못된 받는 사람에 대한 메시지를 거부할 수 있습니다. 관리자는 DBEB를 사용 하 여 microsoft 365에 메일 사용이 가능한 받는 사람을 추가 하 고 Microsoft 365에는 없는 전자 메일 주소로 전송 된 모든 메시지를 차단할 수 있습니다. DBEB를 구성 하는 방법에 대 한 자세한 내용은 [Use Directory 기반 Edge 블로킹을 통해 잘못 된 받는 사람에 게 보낸 메시지를 거부](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-directory-based-edge-blocking)를 참조 하세요.|
-|PowerShell|전체 EOP 기능은 독립 실행형 EOP PowerShell에서 사용할 수 있습니다. 자세한 내용은 [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/exchange-online-protection-powershell)을 참조 하세요.|
+|PowerShell|전체 EOP 기능은 독립 실행형 EOP PowerShell에서 사용할 수 있습니다. 자세한 내용은 [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-protection-powershell)을 참조 하세요.|
 |**보고 및 로깅**||
 |Message trace|관리자가 서비스를 통과 하는 전자 메일 메시지를 팔 로우 할 수 있습니다. 서비스에서 대상 전자 메일 메시지를 수신, 거부, 지연 또는 배달 했는지 여부를 확인할 수 있습니다. 이를 통해 사용자의 질문에 효과적으로 응답 하 고 메일 흐름 문제를 해결 하 고 정책 변경을 확인 하 고 기술 지원 서비스에 문의 하 여 도움을 받을 수 있습니다. 자세한 내용은 [보안 및 준수 센터 메시지 추적](message-trace-scc.md)을 참조하세요.|
 |웹 기반 보고서|보안 & 준수 센터의 메일 보호 보고서는 메시징 데이터를 제공 합니다. 예를 들어 검색 되는 스팸 및 맬웨어가 얼마나 되는지, 메일 흐름 규칙이 일치 하는 빈도를 모니터링할 수 있습니다. 이러한 대화형 보고서를 사용하여 최대 90일 이전의 요약 데이터에 대한 시각적 보고서를 빠르게 보고 개별 메시지의 세부 정보를 드릴다운할 수 있습니다. 자세한 내용은 [메일 보호 보고서를 사용 하 여 맬웨어, 스팸 및 규칙 감지에 대 한 데이터 보기](https://docs.microsoft.com/exchange/monitoring/use-mail-protection-reports)를 참조 하세요.|

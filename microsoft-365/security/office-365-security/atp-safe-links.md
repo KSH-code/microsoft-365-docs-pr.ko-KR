@@ -25,12 +25,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 이 문서에서는 안전한 링크를 사용 하 여 피싱 및 기타 공격 으로부터 조직을 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: f71ff8d625c6c365f39fd581f3483c8a0384d817
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 5cd5e1331bb16b27cd036d20458355448ee32ae2
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44587547"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616769"
 ---
 # <a name="atp-safe-links"></a>ATP 안전한 링크
 
@@ -69,7 +69,7 @@ ATP 안전한 링크 정책이 마련 되 면 전역 관리자, 보안 관리자
 |---------|---------|
 |전역 관리자|Microsoft 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) 를 참조 하세요.|
 |보안 관리자|Azure Active Directory 관리 센터 ( <https://aad.portal.azure.com> )|
-|Exchange Online 조직 관리|Exchange 관리 센터 ( <https://outlook.office365.com/ecp> ) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)참조)|
+|Exchange Online 조직 관리|Exchange 관리 센터 ( <https://outlook.office365.com/ecp> ) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)참조)|
 
 ## <a name="how-to-make-sure-atp-safe-links-protection-is-in-place"></a>ATP 안전한 링크 보호가 적절 한지 확인 하는 방법
 

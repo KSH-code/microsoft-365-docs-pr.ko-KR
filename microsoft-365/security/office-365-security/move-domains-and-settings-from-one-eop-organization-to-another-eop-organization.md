@@ -14,12 +14,12 @@ ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 Microsoft Exchange Online Protection (EOP) 조직 (테 넌 트)에서 다른 사용자에 게 도메인과 설정을 이동 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 1144f193fd56587e8ea38fdd659af4bbaa05311c
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 32a1721a70df88e7e0d558322988e3e64b3f3397
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588195"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617453"
 ---
 # <a name="move-domains-and-settings-from-one-eop-organization-to-another"></a>EOP 조직 간에 도메인 및 설정 이동
 
@@ -59,7 +59,7 @@ ms.locfileid: "44588195"
   > [!NOTE]
   > 메일 흐름 규칙 모음의 내보내기 및 가져오기에 대 한 Cmdlet 지원은 현재 EOP Premium 구독 계획 에서만 지원 됩니다.
 
-모든 설정을 수집 하는 가장 쉬운 방법은 PowerShell을 사용 하는 것입니다. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조하세요.
+모든 설정을 수집 하는 가장 쉬운 방법은 PowerShell을 사용 하는 것입니다. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
 다음으로, 모든 설정을 수집하고 대상 테넌트로 가져올 .xml 파일을 내보낼 수 있습니다. 일반적으로 다음 코드 샘플과 같이 각 설정에 대한 **Get** cmdlet의 출력을 **Export-Clixml** cmdlet에 파이프하여 .xml 파일에 설정을 저장할 수 있습니다.
 

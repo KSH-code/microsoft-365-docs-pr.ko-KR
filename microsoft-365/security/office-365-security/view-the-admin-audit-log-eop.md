@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
 description: 관리자는 독립 실행형 EOP (Exchange Online Protection)에서 관리자 감사 로그를 보고 검색 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: b3f2f2601be1ce6e2120b60d23f617ae4e174e08
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: e8c12f622c4dc382b11d03424e45c33e3afe3cbf
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351864"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44613327"
 ---
 # <a name="view-the-admin-audit-log-in-standalone-eop"></a>독립 실행형 EOP에서 관리자 감사 로그 보기
 
@@ -28,11 +28,11 @@ Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protec
 > [!NOTE]
 > <ul><li>관리자 감사 로깅은 기본적으로 사용 하도록 설정 되어 있으며 사용 하지 않도록 설정할 수 없습니다.</li><li>관리자 감사 로그는 동사 **Get**, **Search**또는 **Test**로 시작 하는 cmdlet을 기반으로 작업을 기록 하지 않습니다.</li><li>감사 로그 항목은 90 일 동안 유지 됩니다. 항목이 90 일 보다 오래 된 경우 삭제 됩니다.</li></ul>
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - Exchange 관리 센터를 열려면 [독립 실행형 EOP에서 exchange 관리 센터](exchange-admin-center-in-exchange-online-protection-eop.md)를 참조 하세요.
 
-- 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조하세요.
+- 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
 - 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 특히 ComplianceManagement, OrganizationManagement (global admins) 및 SecurityAdministrator 역할 그룹에 할당 되는 감사 로그 또는 보기 전용 감사 로그 역할이 기본적으로 필요 합니다. 자세한 내용은 [권한 독립 실행형 EOP의 사용 권한을](feature-permissions-in-eop.md) 참조 하 고 [EAC를 사용 하 여 역할 그룹의 구성원 목록을 수정](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)합니다.
 
@@ -86,7 +86,7 @@ Search-AdminAuditLog [-Cmdlets <Cmdlet1,Cmdlet2,...CmdletN>] [-Parameters <Param
 
   - UTC로 날짜/시간 값 지정. 예: "2016-05-06 14:30:00z"
 
-  - 날짜/시간 값을 현지 표준 시간대의 날짜/시간을 UTC로 변환 하는 수식으로 지정 합니다 (예:) `(Get-Date "5/6/2016 9:30 AM").ToUniversalTime()` . 자세한 내용은 [Get-Date](https://go.microsoft.com/fwlink/p/?LinkID=113313)를 참조하세요.
+  - 날짜/시간 값을 현지 표준 시간대의 날짜/시간을 UTC로 변환 하는 수식으로 지정 합니다 (예:) `(Get-Date "5/6/2016 9:30 AM").ToUniversalTime()` . 자세한 내용은 [Get-Date](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/get-date)를 참조하세요.
 
 - 이 cmdlet은 기본적으로 최대 1000 개의 로그 항목을 반환 합니다. _Resultsize_ 매개 변수를 사용 하 여 최대 25만 개의 로그 항목을 지정할 수 있습니다. 또는 값을 사용 `Unlimited` 하 여 모든 항목을 반환 합니다.
 

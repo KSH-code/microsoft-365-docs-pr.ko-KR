@@ -14,12 +14,12 @@ ms.assetid: 212e68ac-6330-47e9-a169-6cf5e2f21e13
 ms.custom:
 - seo-marvel-apr2020
 description: EOP (독립 실행형 Exchange Online Protection) 조직의 관리자는 EAC (Exchange 관리 센터) 및 EOP (독립 실행형 Exchange Online Protection) PowerShell에서 메일 그룹을 만들고, 수정 하 고, 제거 하는 방법을 알 수 있습니다.
-ms.openlocfilehash: 4f1dbdb503f8baf02b7dd763dbf7fc6acdf5771a
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 42086b67e22df4725bf07bf227853c070f936f24
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352194"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616505"
 ---
 # <a name="manage-groups-in-eop"></a>EOP에서 그룹 관리
 
@@ -34,11 +34,11 @@ Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protec
 
 EAC (Exchange 관리 센터) 및 독립 실행형 EOP PowerShell에서 그룹을 관리할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - Exchange 관리 센터를 열려면 [독립 실행형 EOP에서 exchange 관리 센터](exchange-admin-center-in-exchange-online-protection-eop.md)를 참조 하세요.
 
-- 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조하세요.
+- 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
 - 독립 실행형 EOP PowerShell에서 그룹을 관리 하는 경우 제한이 발생할 수 있습니다. 이 항목의 PowerShell 절차에서는 일괄 처리 방법을 사용 하 여 명령 결과가 표시 되기까지 몇 분 정도 전파 지연을 발생 시킵니다.
 
@@ -141,7 +141,7 @@ EAC (Exchange 관리 센터) 및 독립 실행형 EOP PowerShell에서 그룹을
 Get-Recipient -RecipientType MailUniversalDistributionGroup,MailUniversalSecurityGroup -ResultSize unlimited
 ```
 
-그룹 구성원 목록을 반환 하려면 \< groupidentity를 \> 그룹의 이름, 별칭 또는 전자 메일 주소로 바꾸고 다음 명령을 실행 합니다.
+그룹 구성원 목록을 반환 하려면 \<GroupIdentity\> 그룹의 이름, 별칭 또는 전자 메일 주소로 바꾸고 다음 명령을 실행 합니다.
 
 ```powershell
 Get-DistributionGroupMember -Identity <GroupIdentity>
@@ -231,13 +231,13 @@ Remove-EOPDistributionGroup -Identity "IT Administrators"
   Get-Recipient -RecipientType MailUniversalDistributionGroup,MailUniversalSecurityGroup -ResultSize unlimited
   ```
 
-- \<Groupidentity를 \> 그룹의 이름, 별칭 또는 전자 메일 주소로 바꾸고 다음 명령을 실행 하 여 설정을 확인 합니다.
+- \<GroupIdentity\>그룹의 이름, 별칭 또는 전자 메일 주소로 대체 하 고 다음 명령을 실행 하 여 설정을 확인 합니다.
 
   ```PowerShell
   Get-Recipient -Identity <GroupIdentity> | Format-List
   ```
 
-- 그룹 구성원을 보려면 \< groupidentity를 \> 그룹의 이름, 별칭 또는 전자 메일 주소로 바꾸고 다음 명령을 실행 합니다.
+- 그룹 구성원을 보려면 \<GroupIdentity\> 그룹의 이름, 별칭 또는 전자 메일 주소로 바꾸고 다음 명령을 실행 합니다.
 
   ```PowerShell
   Get-DistributionGroupMember -Identity "<GroupIdentity>"

@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)의 스푸핑 인텔리전스에 대해 자세히 알아보고, 특정 스푸핑된 보낸 사람을 허용 하거나 차단할 수 있습니다.
-ms.openlocfilehash: 638f130c448f14bf7214afc705b5650311866fce
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: fe1e8f8a2e9f0cc792dc802ea5c7362af00687ae
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351942"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44613243"
 ---
 # <a name="configure-spoof-intelligence-in-eop"></a>EOP에서 스푸핑 인텔리전스 구성
 
@@ -56,7 +56,7 @@ Exchange online 사서함이 없는 Microsoft 365 조직에서 사서함이 있�
 
 - <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **스팸 방지 설정** 페이지로 바로 이동하려면 <https://protection.office.com/antispam>을 사용하세요. **피싱 방지** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/antiphishing> 합니다.
 
-- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조하세요.
+- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
 - 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 스푸핑 인텔리전스 정책을 수정 하거나 스푸핑 인텔리전스를 사용 하거나 사용 하지 않도록 설정 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 스푸핑 인텔리전스 정책에 대 한 읽기 전용 액세스를 위해서는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
@@ -200,7 +200,7 @@ Get-PhishFilterPolicy -AllowedToSpoof Yes -Detailed -SpoofType Internal
   - 목록에서 정책을 선택 합니다. 플라이 아웃이 나타나면 **스푸핑** 섹션에서 값을 확인 합니다.
   - **기본 정책을**클릭 합니다. 플라이 아웃이 나타나면 **스푸핑** 섹션에서 값을 확인 합니다.
 
-- Exchange Online PowerShell에서 \< 이름을 \> Office365 AntiPhish Default 또는 사용자 지정 정책 이름으로 바꾸고 다음 명령을 실행 하 여 설정을 확인 합니다.
+- Exchange Online PowerShell에서 \<Name\> Office365 AntiPhish Default 또는 사용자 지정 정책 이름으로 바꾸고 다음 명령을 실행 하 여 설정을 확인 합니다.
 
   ```PowerShell
   Get-AntiPhishPolicy -Identity "<Name>" | Format-List EnableAntiSpoofEnforcement,EnableUnauthenticatedSender,AuthenticationFailAction

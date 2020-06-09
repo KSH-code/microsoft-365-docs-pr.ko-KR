@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격을 인지하고 재구성하는 방법 알아보기
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bc71a358170cdda86d16096c56b9d9660bf6a5be
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 5d8c4495715ef29e1d9b70b993d1216e80461cf7
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588267"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44613387"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성
 
@@ -173,7 +173,7 @@ ms.locfileid: "44588267"
 
 #### <a name="steps-for-mailboxes-that-are-on-an-exchange-server"></a>Exchange 서버에 있는 사서함에 대한 단계
 
-1. 원격 PowerShell을 사용하여 Exchange 서버에 연결합니다. [원격 PowerShell을 사용하여 Exchange 서버에 연결](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)에 있는 단계를 따릅니다.
+1. 원격 PowerShell을 사용하여 Exchange 서버에 연결합니다. [원격 PowerShell을 사용하여 Exchange 서버에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-servers-using-remote-powershell)에 있는 단계를 따릅니다.
 
 2. 사서함의 단일 규칙, 여러 규칙 또는 모든 규칙을 완전히 제거하려면 [InboxRule 제거](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule) cmdlet을 사용합니다.
 
@@ -181,7 +181,7 @@ ms.locfileid: "44588267"
 
 #### <a name="steps-for-mailboxes-in-exchange-online"></a>Exchange Online의 사서함에 대한 단계
 
-1. [PowerShell을 사용하여 Exchange Online에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)에 있는 단계를 따릅니다.
+1. [PowerShell을 사용하여 Exchange Online에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)에 있는 단계를 따릅니다.
 
 2. 사서함의 단일 규칙, 여러 규칙 또는 모든 규칙을 완전히 제거하려면 [받은 편지함 제거 규칙](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule) cmdlet을 사용합니다.
 

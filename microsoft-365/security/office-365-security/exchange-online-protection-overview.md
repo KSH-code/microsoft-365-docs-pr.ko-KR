@@ -14,12 +14,12 @@ ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 ms.custom:
 - seo-marvel-apr2020
 description: EOP (Exchange Online Protection)를 사용 하 여 독립 실행형 및 하이브리드 환경에서 온-프레미스 전자 메일 조직을 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: 7a019b2651eda114bab8dcf9df6d9a6201558704
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: a3f71ea5366224465cdaf3922c6c467fcb49f3cc
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44206691"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616989"
 ---
 # <a name="exchange-online-protection-overview"></a>Exchange Online Protection 개요
 
@@ -109,6 +109,6 @@ EOP 관리자의 도움말 내용은 다음과 같은 최상위 범주로 구성
 
 - [독립 실행형 EOP의 Exchange 관리 센터](exchange-admin-center-in-exchange-online-protection-eop.md): EOP 서비스를 관리 하기 위해 EAC (exchange 관리 센터) 관리 인터페이스를 액세스 하 고 탐색 하는 방법에 대해 설명 합니다.
 
-- [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/exchange-online-protection-powershell): 명령줄에서 EOP 서비스를 관리 하는 데 사용할 수 있는 원격 PowerShell에 대 한 정보를 제공 합니다.
+- [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-protection-powershell): 명령줄에서 EOP 서비스를 관리 하는 데 사용할 수 있는 원격 PowerShell에 대 한 정보를 제공 합니다.
 
 - [EOP에 대한 도움말 및 지원](help-and-support-for-eop.md) 도움말 및 기술 지원 서비스를 구하는 내용에 대해 설명합니다.
