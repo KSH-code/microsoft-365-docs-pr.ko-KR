@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: '모든 Microsoft Information Protection 솔루션에 대한 요구 사항: 조직의 문서와 전자 메일을 분류하고 보호하기 위해 민감도 레이블을 생성, 구성 및 게시합니다.'
-ms.openlocfilehash: 50411e04ac04dc0bf00e7b743f3f30d25b9fa12e
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 96784edb6cf31d024d94e12a76c96b2f61340f04
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352215"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679082"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책 생성 및 구성
 
@@ -131,7 +131,8 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 4. **민감도 레이블을 선택하여 게시**를 선택합니다. 앱과 서비스에서 사용할 수 있도록 설정할 레이블을 선택한 다음 **추가**를 선택합니다.
     
-    하위 레이블을 선택한 경우 해당 상위 레이블도 선택해야 합니다.
+    > [!NOTE]
+    > 하위 레이블을 선택한 경우 해당 상위 레이블도 선택해야 합니다.
     
 5. 선택한 레이블을 검토하 고 내용을 변경하려면 **편집**을 선택합니다. 그렇지 않으면 **다음**을 선택합니다.
 
