@@ -13,12 +13,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 92a2cc7603a1a49be5ee72fc7b6d132ce46e38d7
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: ee3acf0729920f1ab4fdaa3fb79b2b541a7a608b
+ms.sourcegitcommit: a3ec91423c352cd5fbf79b46ccd9c169455a03ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160873"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44664601"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365"></a>Microsoft 365에서 위협 보호 기능 배포
 
@@ -83,8 +83,8 @@ MFA ( [multi-factor authentication](https://docs.microsoft.com/azure/active-dire
 Microsoft는 모든 SaaS 응용 프로그램 (특히 Microsoft 365)에 대 한 액세스를 보호 하기 위한 특정 조건부 액세스 및 관련 정책 집합을 테스트 하 고 권장 합니다. 기준, 중요 및 높은 규제 된 보호에 대 한 정책은 권장 됩니다. 먼저 기준 보호에 대 한 정책을 구현 합니다. 
 
 
-[![Id 및 장치 액세스](../media/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png)
-를 구성 하기 위한 일반 정책[더 큰 버전의 이미지를 참조 하세요](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png) .
+[ ![ Id 및 장치 액세스를 구성 하기 위한 일반 정책](../media/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png) 
+ [더 큰 버전의 이미지를 참조 하세요](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png) .
 
 ### <a name="to-implement-baseline-protection-for-microsoft-365"></a>Microsoft 365에 대 한 기본 보호를 구현 하려면
 
@@ -206,7 +206,7 @@ Microsoft [Defender Advanced Threat Protection](https://docs.microsoft.com/windo
 
 ## <a name="step-7-monitor-status-and-take-actions"></a>7 단계: 상태 모니터링 및 작업 수행
 
-위협 방지 서비스와 기능을 설정 하 고 배포한 후에는 위협 검색을 모니터링 하 고 적절 한 조치를 취해야 합니다. 가장 좋은 출발점은 Microsoft 365 보안 센터 ([https://security.microsoft.com](https://security.microsoft.com)) 이며,이를 통해 마이크로소프트 id, 데이터, 장치, 앱 및 인프라에서 보안을 모니터링 하 고 관리할 수 있습니다. 
+위협 방지 서비스와 기능을 설정 하 고 배포한 후에는 위협 검색을 모니터링 하 고 적절 한 조치를 취해야 합니다. 가장 좋은 출발점은 Microsoft 365 보안 센터 () 이며 [https://security.microsoft.com](https://security.microsoft.com) ,이를 통해 마이크로소프트 id, 데이터, 장치, 앱 및 인프라에서 보안을 모니터링 하 고 관리할 수 있습니다. 
 
 :::image type="content" source="../media/solutions-architecture-center/m365-security-center.png" alt-text="Microsoft 365 보안 센터":::
 
@@ -245,5 +245,5 @@ Microsoft 365에서는 조직에서 사용자에 게 알릴 수 있도록 다음
 - Windows 10 및 Mac Pc에서 보안 기능 사용 (관리 되지 않는 장치)
     
 또한 사용자는 다음 문서에서 권장 하는 작업을 수행 하 여 개인 전자 메일 계정을 보호 하는 것이 좋습니다.
-- [Outlook.com 전자 메일 계정 보호](https://support.microsoft.com/en-us/office/help-protect-your-outlook-com-email-account-a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
+- [Outlook.com 전자 메일 계정 보호](https://support.microsoft.com/office/help-protect-your-outlook-com-email-account-a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
 - [2 단계 인증을 사용 하 여 Gmail 계정 보호](https://go.microsoft.com/fwlink/?linkid=2015688&amp;clcid=0x409)
