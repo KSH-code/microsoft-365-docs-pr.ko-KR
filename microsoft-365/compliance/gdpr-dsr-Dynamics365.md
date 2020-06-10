@@ -18,12 +18,12 @@ hideEdit: true
 ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: ec598816158068445f3f662bbdd6ea7c7edafd82
-ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
+ms.openlocfilehash: e8a13821aaec16f66546f78be69394222ad5d41c
+ms.sourcegitcommit: a418195dc11e6251ae37e788c102bbaa7087e44e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44043336"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44579193"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Dynamics 365 데이터 주체 요청
 
@@ -242,12 +242,9 @@ Azure에서는 조직이 네이티브 JSON 형식의 데이터를 지정된 Azur
 |**데이터는 어떻게 사용자에게 반환되나요?**| 데이터는 조직의 Azure Storage 위치로 내보내집니다. 이 데이터를 사용자에게 표시/반환하는 방식은 조직의 관리자가 결정합니다. |
 |**시스템 생성 로그의 데이터는 어떤 모습으로 표시되나요?**| JSON 형식의 시스템 생성 로그 레코드 예제: <br><br> "DateTime": "2017-04-28T12:09:29-07:00", <br> "AppName": "SharePoint", <br> "Action": "OpenFile", <br> "IP": "154.192.13.131", <br> "DevicePlatform": "Windows 1.0.1607" |
 
-> [!NOTE]
-> 일부 기능은 보안 및 감사를 이유로, 이러한 정보의 무결성을 유지하기 위해 개인 정보가 포함된 시스템 생성 로그의 내보내기나 삭제를 허용하지 않습니다.
-
 ### <a name="deleting-system-generated-logs"></a>시스템 생성 로그 삭제
 
-액세스 요청을 통해 검색된 시스템 생성 로그를 삭제하려면 서비스에서 해당 사용자를 제거하고 Azure Active Directory 계정을 영구적으로 삭제해야 합니다. 사용자 계정을 영구적으로 삭제하는 것은 일단 시작하면 되돌릴 수 없다는 점에 유의하세요. 사용자 계정을 영구적으로 삭제하면 30일 이내에 거의 모든 Dynamics 365 서비스에 대한 시스템 생성 로그에서 해당 사용자의 데이터가 제거됩니다.
+액세스 요청을 통해 검색된 시스템 생성 로그를 삭제하려면 서비스에서 해당 사용자를 제거하고 Azure Active Directory 계정을 영구적으로 삭제해야 합니다. 사용자를 영구적으로 삭제하는 방법을 보려면 Azure 데이터 주체 요청 항목의 [5단계: 삭제](gdpr-dsr-azure.md#step-5-delete) 섹션을 참조하세요. 사용자 계정을 영구적으로 삭제하는 작업은 일단 시작하면 되돌릴 수 없다는 점에 유의하세요. 사용자 계정을 영구적으로 삭제하면, 서비스의 보안이나 안정성을 손상시킬 수 있는 데이터를 제외하고, 30일 이내에 거의 모든 Dynamics 365 서비스의 시스템 생성 로그에서 사용자의 데이터가 삭제됩니다.
 
 ## <a name="learn-more"></a>자세히 알아보기
 
