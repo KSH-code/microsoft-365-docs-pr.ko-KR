@@ -70,6 +70,22 @@
               href: microsoft-365-guest-settings.md
     - name: Microsoft 365 전체에 위협 보호 기능 배포
       href: deploy-threat-protection.md
+    - name: 데이터 개인 정보 규정을 위한 정보 보호 배포
+      items:
+        - name: 개요
+          href: information-protection-deploy.md
+        - name: 계획
+          href: information-protection-deploy-assess.md
+        - name: 추적
+          href: information-protection-deploy-compliance.md
+        - name: 방지
+          href: information-protection-deploy-identity-device-threat.md
+        - name: 보호
+          href: information-protection-deploy-protect-information.md
+        - name: 보존
+          href: information-protection-deploy-govern.md
+        - name: 조사
+          href: information-protection-deploy-monitor-respond.md
 - name: 워크로드 솔루션 및 시나리오
   items:
     - name: 개요
