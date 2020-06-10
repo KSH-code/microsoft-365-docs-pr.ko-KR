@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: 관리 센터를 사용하여 클라우드에서의 조직 설정, 사용자 관리, 구독 관리를 수행합니다. 관리자 권한으로 계정에 로그인하여 시작하세요.
-ms.openlocfilehash: c5f061e8ffd8f545965483d8d318debea708bf2c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 77799599dfd93525efe101f7dea02c5fc8408bbf
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386964"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44678651"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 정보
 
@@ -75,7 +75,7 @@ ms.locfileid: "44386964"
   
 |**메뉴**|**용도**|
 |-----|-----|
-|**홈** <br/> |새 관리 센터의 방문 페이지입니다. 사용자, 청구, 서비스 상태 및 보고서를 관리하는 위치가 표시됩니다.  <br/> |
+|**홈** <br/> |관리 센터의 랜딩 페이지입니다. 사용자, 청구, 서비스 상태 및 보고서를 관리하는 위치가 표시됩니다.  <br/> |
 |**사용자** <br/> |직원이나 학생 같은 조직 내 사용자를 생성 및 관리합니다. 사용 권한 수준을 설정하거나 암호를 다시 설정할 수도 있습니다.  <br/> |
 |**그룹** <br/> |Microsoft 365 그룹, 메일 그룹, 보안 그룹 또는 공유 사서함과 같은 조직에서 그룹을 만들고 관리 합니다. 그룹 [만들기](../create-groups/create-groups.md) 및 [관리](../create-groups/manage-groups.md) 방법을 알아봅시다.   <br/> |
 |**리소스** <br/> |SharePoint 사이트 모음과 같은 리소스를 만들고 관리합니다. [사이트 모음을 만드는](https://docs.microsoft.com/sharepoint/create-site-collection) 방법을 알아봅니다.  <br/> |

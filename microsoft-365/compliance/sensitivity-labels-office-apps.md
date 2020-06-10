@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 사용자가 데스크톱에 대 한 Office 앱, 모바일 용 Office 앱 및 웹 용 Office 앱에서 민감도 레이블을 사용 하는 방법에 대해 알아봅니다. 민감도 레이블을 지 원하는 앱을 찾습니다.
-ms.openlocfilehash: 7d37eae65775a79ef49db6c7d13d2ce0d2965acb
-ms.sourcegitcommit: e9cb10d0d617742a5040d7c09d1d36fd1ee25e5d
+ms.openlocfilehash: 8feb8fc70277e502c5bbb321c864e4cd022ad725
+ms.sourcegitcommit: 03da5464943ef4b9a51644601a229897955dcbb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44649387"
+ms.locfileid: "44658343"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 사용
 
@@ -42,6 +42,9 @@ Windows 컴퓨터에서 이러한 독립 실행형 버전의 Office와 함께 �
 
 새 버전의 앱은 다양 한 업데이트 채널에 대해 서로 다른 시간에 사용할 수 있습니다. 관심 있는 새 레이블 기능을 테스트할 수 있도록 업데이트 채널을 구성 하는 방법을 비롯 한 자세한 내용은 [Microsoft 365 용 업데이트 채널 개요](https://docs.microsoft.com/DeployOffice/overview-update-channels)를 참조 하세요. 개인 미리 보기에 있는 새로운 기능은 표에는 포함 되어 있지 않지만 이러한 미리 보기에 참여 하려면 먼저 조직에서 [Microsoft Information Protection nominating 미리 보기 프로그램](https://aka.ms/mip-preview)을 사용할 수 있습니다.
 
+> [!NOTE]
+> Office 앱에 대 한 업데이트 채널의 이름이 최근에 변경 되었습니다. 예를 들어 이제 월별 채널이 현재 채널 이며 Office 참가자가 이제 베타 채널입니다. 자세한 내용은 [업데이트 채널의 Microsoft 365 앱 변경 사항을](https://docs.microsoft.com/deployoffice/update-channels-changes)참조 하세요.
+
 Windows 컴퓨터 에서만 실행 되는 Azure Information Protection 통합 레이블 클라이언트를 설치할 때 추가 기능을 사용할 수 있습니다. 자세한 내용은 [Windows 컴퓨터에 대 한 레이블 클라이언트 비교](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#compare-the-labeling-clients-for-windows-computers)를 참조 하십시오.
 
 ### <a name="sensitivity-label-capabilities-in-word-excel-and-powerpoint"></a>Word, Excel 및 PowerPoint의 민감도 레이블 기능
@@ -56,10 +59,10 @@ IOS 및 Android의 경우: 나열 되는 최소 버전은 [Office 앱](https://w
 |[사용자 지정 도움말 페이지에 대 한 도움말 링크 제공](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [예-옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[콘텐츠 표시](sensitivity-labels.md#what-sensitivity-labels-can-do)                                              | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [예-옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[지금 권한 할당](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [예-옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
-|[사용자가 권한을 할당하도록 허용](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | [월별 채널](https://docs.microsoft.com/DeployOffice/overview-update-channels#monthly-channel-for-microsoft-365-apps) (2003 +) | [월별 채널](https://docs.microsoft.com/DeployOffice/overview-update-channels#monthly-channel-for-microsoft-365-apps) (16.35 +)   | 검토 중   | 검토 중         | 검토 중                                                        |
+|[사용자가 권한을 할당하도록 허용](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | [현재 채널](https://docs.microsoft.com/deployoffice/overview-update-channels#current-channel-overview) (2003 +) | 16.35 +   | 검토 중   | 검토 중         | 검토 중                                                        |
 |[레이블 분석을 사용 하 여 레이블 사용을 확인](label-analytics.md) 하 고 관리자를 위해 데이터 보내기                      | 검토 중            | 검토 중        | 검토 중   | 검토 중         | 검토 중                                                        |
 |[사용자가 전자 메일 및 문서에 레이블을 적용 해야 합니다.](sensitivity-labels.md#what-label-policies-can-do)   | 검토 중            | 검토 중        | 검토 중   | 검토 중         | 검토 중                                                        |
-|[민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)                    | 미리 보기: [Office 참가자](https://office.com/insider)                                  | 검토 중 | 검토 중 | 검토 중 | [예-옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)                    | 미리 보기: [베타 채널](https://office.com/insider) 에서                                  | 검토 중 | 검토 중 | 검토 중 | [예-옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |레이블이 지정 되 고 보호 된 문서에서 [자동 저장](https://support.office.com/article/6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) 및 [공동](https://support.office.com/article/ee1509b4-1f6e-401e-b04a-782d26f564a4) 작성 지원 | 검토 중 | 검토 중 | 검토 중 | 검토 중 | [예-옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |
 
@@ -76,7 +79,7 @@ IOS 및 Android의 경우: 나열 되는 최소 버전은 [Office 앱](https://w
 |[사용자가 권한을 할당하도록 허용](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | 예               |
 |[레이블 분석을 사용 하 여 레이블 사용을 확인](label-analytics.md) 하 고 관리자를 위해 데이터 보내기                      | 검토 중                       | 검토 중                    | 검토 중           | 검토 중               | 검토 중               |
 |[사용자가 전자 메일 및 문서에 레이블을 적용 해야 합니다.](sensitivity-labels.md#what-label-policies-can-do)   | 검토 중                       | 검토 중                    | 검토 중           | 검토 중               | 검토 중               |
-|[민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)                    | Preview: [Office 참가자](https://office.com/insider) 에 게 롤아웃                       | 검토 중                    | 검토 중           | 검토 중               | 예 |
+|[민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)                    | Preview: [베타 채널로](https://office.com/insider) 롤백                       | 검토 중                    | 검토 중           | 검토 중               | 예 |
 |
 
 ## <a name="office-built-in-labeling-client-and-other-labeling-solutions"></a>Office 기본 제공 레이블 클라이언트 및 기타 레이블 솔루션
@@ -185,7 +188,7 @@ SharePoint 또는 OneDrive의 문서를 웹에 있는 office 기본 제공 레�
 
 외부 사용자가 Azure Active Directory에 계정이 없는 경우 테 넌 트에서 guest 계정을 만들 수 있습니다. 전자 메일 주소에 대해 이미 사용 중인 전자 메일 주소를 지정할 수 있습니다. 예를 들면 Gmail 주소입니다. [Sharepoint 및 onedrive에서 Office 파일에 대 한 민감도 레이블을 사용 하도록 설정한](sensitivity-labels-sharepoint-onedrive-files.md)경우이 게스트 계정을 사용 하 여 Sharepoint 또는 onedrive의 공유 문서에 액세스할 수도 있습니다.
 
-외부 사용자가 Windows에서 Microsoft 365 앱 ([형식적 Office 365 앱](https://docs.microsoft.com/deployoffice/name-change))을 사용 하는 경우 암호화 된 문서에 대해 microsoft 계정을 사용 하 고 만들 수도 있습니다. MacOS, Android 또는 iOS에 대해서는이 기능이 아직 지원 되지 않습니다. 예를 들어, 사용자는 암호화 된 문서를 함께 공유 하 고, 암호화 설정은 Gmail 전자 메일 주소를 지정 합니다. 이 사용자는 Gmail 전자 메일 주소를 사용 하는 자신의 Microsoft 계정을 만들 수 있습니다. 그런 다음이 계정으로 로그인 한 후 해당 사용자에 대해 지정 된 사용 제한에 따라 문서를 열고 편집할 수 있습니다. 이 시나리오의 연습 예제를 보려면 보호 된 [문서 열기 및 편집](https://docs.microsoft.com/azure/information-protection/secure-collaboration-documents#opening-and-editing-the-protected-document)을 참조 하십시오.
+외부 사용자가 Windows에서 Microsoft 365 앱 ([이전 Office 365 앱](https://docs.microsoft.com/deployoffice/name-change))을 사용 하는 경우 암호화 된 문서에 대해 microsoft 계정을 사용 하 고 만들 수도 있습니다. MacOS, Android 또는 iOS에 대해서는이 기능이 아직 지원 되지 않습니다. 예를 들어, 사용자는 암호화 된 문서를 함께 공유 하 고, 암호화 설정은 Gmail 전자 메일 주소를 지정 합니다. 이 사용자는 Gmail 전자 메일 주소를 사용 하는 자신의 Microsoft 계정을 만들 수 있습니다. 그런 다음이 계정으로 로그인 한 후 해당 사용자에 대해 지정 된 사용 제한에 따라 문서를 열고 편집할 수 있습니다. 이 시나리오의 연습 예제를 보려면 보호 된 [문서 열기 및 편집](https://docs.microsoft.com/azure/information-protection/secure-collaboration-documents#opening-and-editing-the-protected-document)을 참조 하십시오.
 
 > [!NOTE]
 > Microsoft 계정의 전자 메일 주소는 암호화 설정에 대 한 액세스를 제한 하기 위해 지정 된 전자 메일 주소와 일치 해야 합니다.

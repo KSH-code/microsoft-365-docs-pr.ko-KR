@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 02e6eb5914af9ad72971029913d31b214ebbd190
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 7e7889cb1540cb2cb164cbbd44e9ec0e480a6fd5
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011938"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44678697"
 ---
 # <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop에서 업데이트를 처리 하는 방법
 
@@ -61,10 +61,10 @@ Microsoft Managed Desktop은 다음과 같은 네 가지 Azure AD 그룹을 사�
 <tr><td>운영 체제용 기능 업데이트</td><td>0 일</td><td>30일</td><td>60일</td><td>90일</td></tr>
 <tr><td>드라이버/펌웨어</td><td colspan="4">품질 업데이트 일정을 따릅니다.</td></tr>
 <tr><td>바이러스 백신 정의</td><td colspan="4">각 검색에서 업데이트</td></tr>
-<tr><td>엔터프라이즈용 Microsoft 365 앱</td><td colspan="4">Office의 월별 채널 팔 로우
+<tr><td>엔터프라이즈용 Microsoft 365 앱</td><td colspan="4">Office의 현재 채널 팔 로우
 </table>
 
-Enterprise 용 Microsoft 365 Apps의 월별 채널에 대 한 자세한 내용은 [microsoft 365 앱 용 업데이트 채널 개요](https://docs.microsoft.com/deployoffice/overview-update-channels)를 참조 하세요.
+엔터프라이즈 용 Microsoft 365 Apps의 현재 채널에 대 한 자세한 내용은 [microsoft 365 앱 용 업데이트 채널 개요](https://docs.microsoft.com/deployoffice/overview-update-channels)를 참조 하세요.
 
 >[!NOTE]
 >이러한 지연 기간은 모든 사용자에 대 한 높은 보안 및 성능 표준을 보장 하도록 의도적으로 설계 되었습니다. 또한 모든 Microsoft Managed Desktop 장치에서 수집 된 데이터와 업데이트의 다양 한 범위 및 영향을 기반으로 Microsoft Managed Desktop은 임의 및 모든 배포 그룹에 대 한 위의 지연 기간을 특별 하 게 수정 하는 유연성을 예약 합니다.

@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Office 데스크톱 앱의 새로운 기능 관리에서 최종 사용자에 게 표시 되거나 숨겨진 기능과 새 콘텐츠를 볼 것인지 여부를 결정 합니다.
-ms.openlocfilehash: 0723823e76be2baf15273d23ad343d91bcec8d60
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: d4d4ff24896555a4af0ae4a936840c9935d73813
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399545"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44678605"
 ---
 # <a name="show-or-hide-new-features-using-whats-new-management"></a>새로운 기능 관리를 사용하여 새로운 기능 표시 또는 숨기기
 
-Office의 새로운 Win 32 관리 기능을 사용 하 여 조직에서 Office 데스크톱 앱의 최종 사용자에 게 표시 되는 기능이 무엇 인지를 결정할 수 있습니다. 각 Office 릴리스에는 새로운 기능 및 향상 된 기능이 포함 되어 있으며 콘텐츠 미리 보기를 사용 하면 각 릴리스 버전 및 채널에 대 한 새 콘텐츠를 보고, 최종 사용자에 게 각 기능에 대 한 새 콘텐츠를 숨기 거 나 표시할지를 선택할 수 있습니다. 
+Office의 새로운 기능 Windows를 사용 하면 조직에서 Office 데스크톱 앱의 최종 사용자에 게 표시 되는 기능이 나이를 숨길 수 있습니다. 각 Office 릴리스에는 새로운 기능 및 향상 된 기능이 포함 되어 있으며 콘텐츠 미리 보기를 사용 하면 각 릴리스 버전 및 채널에 대 한 새 콘텐츠를 보고, 최종 사용자에 게 각 기능에 대 한 새 콘텐츠를 숨기 거 나 표시할지를 선택할 수 있습니다. 
 
 Office 데스크톱 앱의 새로운 기능 콘텐츠는 해당 응용 프로그램에 대해 출시 되는 새 기능의 맞게 조정 된 목록 (간단한 설명)과 팀이 기능을 사용 하는 방법을 익히는 데 도움이 되는 기능이 포함 된 그림 또는 동영상을 보여 줍니다. 
 
@@ -41,7 +41,7 @@ Office의 새로운 기능 기능은 Microsoft 365 관리 센터와 [클라이�
 
 관리자는 채널의 새로운 기능 콘텐츠를 미리 보고 Office의 새 관리 기능을 사용 하 여 콘텐츠의 릴리스를 관리할 수 있습니다.
 
-1. Microsoft 365 관리 센터의 **설정**에서 **설정을**선택 합니다.
+1. Microsoft 365 관리 센터의 **설정**에서 **조직 설정을**선택 합니다.
 
 2. **서비스** 탭에서 **Office의 새로운 기능 관리**를 선택 합니다.
 
@@ -59,11 +59,11 @@ Office의 새로운 기능 기능은 Microsoft 365 관리 센터와 [클라이�
 ||||
 |:-----|:-----|:-----|
 |**채널** <br/> |**관리 미리 보기** <br/> |**작업 수행** <br/> |
-|**월간** <br/> |매월 15 일  <br/> |매월 릴리스 1-3 주 <br/> |
-|**반기 (대상 지정)** <br/> |9 월 1 일 ~ 3 월 1 일 <br/> | 새 기능을 제공 하는 주 릴리스 2 주 전
-|**반기** <br/> |Jan 1, 7 월 1 일 <br/> | 새 기능을 제공 하는 주 릴리스 2 주 전<br/> |
+|**현재** <br/> |매월 15 일  <br/> |매월 릴리스 1-3 주 <br/> |
+|**반기 엔터프라이즈 (미리 보기)** <br/> |9 월 1 일 ~ 3 월 1 일 <br/> | 새 기능을 제공 하는 주 릴리스 2 주 전
+|**반기 기업** <br/> |Jan 1, 7 월 1 일 <br/> | 새 기능을 제공 하는 주 릴리스 2 주 전<br/> |
 
-채널 업데이트 일정에 대 한 자세한 내용은 [Microsoft 365 앱에 대 한 업데이트 기록 (날짜별로 나열)](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)을 참조 하십시오.
+채널 업데이트 일정에 대 한 자세한 내용은 [Microsoft 365 앱에 대 한 업데이트 기록 (날짜별로 나열)](https://docs.microsoft.com/officeupdates/update-history-microsoft365-apps-by-date)을 참조 하십시오.
 
 ## <a name="related-articles"></a>관련 문서
 

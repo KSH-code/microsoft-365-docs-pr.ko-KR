@@ -16,12 +16,12 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: 새 보안 대시보드를 사용 하 여 Office 365 위협 방지 상태를 검토 하 고 보안 경고를 보고 작동 합니다.
-ms.openlocfilehash: c18c25fcb35661ae8703a98ca0e83cdddc0a9f2e
-ms.sourcegitcommit: 86705d15231c987be2fcf5a295b9b6239fc46077
+ms.openlocfilehash: 6aedc0e499a489d7526737700ecc76deab9e6e32
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44566719"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679135"
 ---
 # <a name="security-dashboard"></a>보안 대시보드
 
@@ -48,13 +48,11 @@ ms.locfileid: "44566719"
 
 위협 관리 요약에 표시 되는 정보는 구독에 포함 된 항목에 따라 달라 집니다. 다음 표에는 Office 365 E3 및 Office 365 E5에 포함 된 정보에 대 한 설명이 나와 있습니다.
 
-
-|Office 365 E3 |Office 365 E5 |
+|Office 365 E3|Office 365 E5|
 |---|---|
 |차단 된 맬웨어 메시지<br/>차단 된 피싱 메시지<br>사용자가 보고 한 메시지<br><br><br><br>|차단 된 맬웨어 메시지<br>차단 된 피싱 메시지<br>사용자가 보고 한 메시지<br>제로 일 맬웨어 차단<br>검색 된 고급 피싱 메시지<br>차단 된 악의적인 Url|
 
-
-위협 관리 요약 위젯을 보거나 액세스 하려면 Advanced Threat Protection 보고서를 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 [ATP 보고서를 확인 하는 데 필요한 사용 권한](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports)를 참조 하십시오.
+위협 관리 요약 위젯을 보거나 액세스 하려면 Advanced Threat Protection 보고서를 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 [ATP 보고서를 확인 하는 데 필요한 사용 권한](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports) 를 참조 하세요.
 
 ## <a name="threat-protection-status"></a>위협 방지 상태
 
@@ -69,7 +67,7 @@ ms.locfileid: "44566719"
 |EOP는 아니지만 Office 365 ATP|EOP에서 검색 하 고 차단한 악성 전자 메일입니다.<br><br> [위협 방지 상태 보고서 (EOP)](view-email-security-reports.md#threat-protection-status-report)를 참조 하세요.|
 |Office 365 ATP|EOP 및 Office 365 ATP가 검색 하 고 차단한 악성 콘텐츠 및 악성 전자 메일<br><br>맬웨어 방지 엔진, [자동 삭제](zero-hour-auto-purge.md)및 atp 기능 ( [안전한 링크](atp-safe-links.md), [안전한 첨부 파일](atp-safe-attachments.md)및 [atp 피싱 방지](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies))에 의해 차단 되는 악성 콘텐츠가 포함 된 고유한 전자 메일 메시지의 집계 개수입니다.<br><br>[ATP (Threat Protection 상태 보고서)](view-reports-for-atp.md#threat-protection-status-report)를 참조 하세요.|
 
-위협 방지 상태 위젯을 보거나 액세스 하려면 Advanced Threat Protection 보고서를 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 [ATP 보고서를 확인 하는 데 필요한 사용 권한](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports)를 참조 하십시오.
+위협 방지 상태 위젯을 보거나 액세스 하려면 Advanced Threat Protection 보고서를 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 [ATP 보고서를 확인 하는 데 필요한 사용 권한](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports) 를 참조 하세요.
 
 ## <a name="global-weekly-threat-detections"></a>전역 주간 위협 감지
 
@@ -79,13 +77,12 @@ ms.locfileid: "44566719"
 
 메트릭은 다음 표에 설명 된 대로 계산 됩니다.
 
-|메트릭|계산 방법 |
+|메트릭|계산 방법|
 |---|---|
 |검색 된 메시지|검색 된 전자 메일 메시지의 수를 받는 사람 수에 곱하여 함|
 |위협이 중지 됨|맬웨어를 포함 하는 것으로 식별 되는 전자 메일 메시지 수 (받는 사람 수)|
 |[ATP](office-365-atp.md) 에 의해 차단 됨|ATP에 의해 차단 되는 전자 메일 메시지 수와 받는 사람 수를 곱합니다.|
 |배달 후 제거 됨|[자동 삭제](zero-hour-auto-purge.md) 를 통해 제거 되는 메시지 수를 받는 사람 수 곱하여|
-
 
 ## <a name="malware"></a>맬웨어
 

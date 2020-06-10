@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
 description: 사서함에 보류 또는 보존 정책을 적용 한 다음 해당 사용자 계정을 삭제 하 여 Microsoft 365에서 비활성 사서함을 만들 수 있습니다. 비활성 사서함의 항목은 비활성 상태가 되기 전에 적용 된 보류 또는 보존 정책의 기간 동안 보존 됩니다. 비활성 사서함을 영구적으로 삭제 하려면 보류 또는 보존 정책을 제거 하면 됩니다.
-ms.openlocfilehash: bf8539ad8cfdd0170d17b490e7cfeaee8e0bd789
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 76205e0f0504d647f4968afcf9ae2f75b2664a01
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166089"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679102"
 ---
 # <a name="create-and-manage-inactive-mailboxes"></a>비활성 사서함 만들기 및 관리
 
@@ -75,9 +75,9 @@ Microsoft 365을 사용 하면 삭제 된 사서함의 콘텐츠를 보존할 �
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동한 후 조직의 관리자 계정 자격 증명을 사용하여 로그인합니다. 
     
-2. **정보 거 버 넌 스** > **보존**을 클릭 합니다.
+2. **정보 거 버 넌 스**  >  **보존**을 클릭 합니다.
     
-3. **보존** 페이지에서 **기타**![탐색 모음 줄임표](../media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif)를 클릭 한 다음 **비활성 사서함**을 클릭 합니다.
+3. **보존** 페이지에서 **기타** ![ 탐색 모음 줄임표를 클릭 한 ](../media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif) 다음 **비활성 사서함**을 클릭 합니다.
     
     ![보존 페이지에서 자세히를 클릭 하 고 비활성 사서함을 클릭 하 여 비활성 사서함 목록을 표시 합니다.](../media/761bd90c-3e37-48f9-b1b9-479e90fea267.png)
   
@@ -91,7 +91,7 @@ Microsoft 365을 사용 하면 삭제 된 사서함의 콘텐츠를 보존할 �
  Get-Mailbox -InactiveMailboxOnly | FT DisplayName,PrimarySMTPAddress,WhenSoftDeleted
 ```
 
-검색 결과 내보내기 ![아이콘](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **내보내기를** 클릭 하 여 조직의 비활성 사서함에 대 한 추가 정보가 포함 된 CSV 파일을 보거나 다운로드할 수 있습니다. 
+![검색 결과 내보내기 아이콘 ](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **내보내기를** 클릭 하 여 조직의 비활성 사서함에 대 한 추가 정보가 포함 된 CSV 파일을 보거나 다운로드할 수 있습니다. 
   
 다음 명령을 실행 하 여 비활성 사서함 목록과 기타 정보를 CSV 파일로 내보낼 수도 있습니다. 이 예제에서는 CSV 파일이 현재 디렉터리에 만들어집니다.
 
@@ -112,7 +112,7 @@ Get-Mailbox -InactiveMailboxOnly | Select Displayname,PrimarySMTPAddress,Disting
     
 다음은 비활성 사서함을 검색할 때 유의해야 하는 몇 가지 사항입니다.
   
-- 콘텐츠 검색에 사용자 사서함이 포함 된 경우 해당 사서함이 비활성 상태가 되 면 검색을 다시 실행할 때 비활성 사서함이 계속 검색 됩니다.
+- 콘텐츠 검색에 사용자 사서함이 포함 되어 있고 해당 사서함이 비활성 상태가 되 면 검색을 다시 실행할 때 비활성 사서함을 계속 검색 합니다.
     
 - 일부 경우에는 사용자에 게 활성 사서함과 SMTP 주소가 같은 비활성 사서함이 있을 수 있습니다. 이 경우에는 콘텐츠 검색 위치로 선택한 특정 사서함만 검색 됩니다. 즉, 사용자의 사서함을 검색에 추가 하는 경우에는 활성 및 비활성 사서함이 모두 검색 된다고 가정할 수 없습니다. 검색에 명시적으로 추가 하는 사서함만 검색 됩니다.
     

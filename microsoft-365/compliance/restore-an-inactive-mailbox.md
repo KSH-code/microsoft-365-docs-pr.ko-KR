@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 8/28/2017
+ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 97e06a7a-ef9a-4ce8-baea-18b9e20449a3
 description: 새 직원 또는 다른 사용자가 Office 365에서 비활성 사서함의 콘텐츠에 액세스 해야 하는 경우 비활성 사서함의 내용을 기존 사서함으로 복원 하거나 병합할 수 있습니다.
-ms.openlocfilehash: 3352dfa582fb09a5f0a6c7ecbd807ed80593351f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b3cc574b96f616debec38a2b69406bf20dabf7b9
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43621320"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44678964"
 ---
 # <a name="restore-an-inactive-mailbox"></a>비활성 사서함 복원
 

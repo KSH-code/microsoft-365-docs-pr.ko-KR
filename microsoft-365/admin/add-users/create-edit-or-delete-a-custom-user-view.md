@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 ms.assetid: 4fe7f6ac-be8e-4b57-9e13-24ff889a4b28
 description: 필터를 사용 하 여 Microsoft 365에서 사용자 지정 사용자 보기를 만들거나 편집 하거나 삭제 하는 방법을 알아봅니다.
-ms.openlocfilehash: 265aa1a7c22475710a12a93c2bfee0b7749f438b
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 598a167b9845f763ddab57d3c5ba36e431aa751c
+ms.sourcegitcommit: a3ec91423c352cd5fbf79b46ccd9c169455a03ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44431644"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44664577"
 ---
-# <a name="create-edit-or-delete-a-custom-user-view-in-office-365"></a>Office 365에서 사용자 지정 사용자 보기 만들기, 편집 또는 삭제
+# <a name="create-edit-or-delete-a-custom-user-view"></a>사용자 지정 사용자 보기 만들기, 편집 또는 삭제
 
-Office 365의 전역 또는 사용자 관리 관리자 인 경우 사용자 지정 사용자 보기를 만들어 특정 사용자 하위 집합을 볼 수 있습니다. 이러한 보기는 Office 365와 함께 제공 되는 표준 보기 집합에 추가 됩니다. 사용자 지정 사용자 보기를 만들거나 편집 하거나 삭제할 수 있으며, 만든 사용자 지정 보기는 모든 관리자에 게 제공 됩니다.
+Microsoft 365 비즈니스 에디션 구독의 전역 또는 사용자 관리 관리자 인 경우 사용자 지정 사용자 보기를 만들어 특정 사용자 하위 집합을 볼 수 있습니다. 이러한 보기는 표준 보기 집합에 추가 됩니다. 사용자 지정 사용자 보기를 만들거나 편집 하거나 삭제할 수 있으며, 만든 사용자 지정 보기는 모든 관리자에 게 제공 됩니다.
   
 ## <a name="custom-user-views-in-the-admin-center"></a>관리 센터의 사용자 지정 사용자 보기
 
@@ -98,7 +98,7 @@ Office 365의 전역 또는 사용자 관리 관리자 인 경우 사용자 지�
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a>로 이동 합니다.
     
 2. **활성 사용자** 페이지에서 **필터** 를 선택 하 고 **새 필터**를 선택 합니다.
   
@@ -108,7 +108,7 @@ Office 365의 전역 또는 사용자 관리 관리자 인 경우 사용자 지�
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..  
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a>로 이동 합니다.  
 
 2. **활성 사용자** 페이지에서 **보기** 를 선택 하 고 **사용자 지정 보기 추가**를 선택 합니다.
   
@@ -119,7 +119,7 @@ Office 365의 전역 또는 사용자 관리 관리자 인 경우 사용자 지�
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a>로 이동 합니다. 
 
 2. **활성 사용자** 페이지에서 **보기** 를 선택 하 고 **사용자 지정 보기 추가**를 선택 합니다.
   
@@ -132,7 +132,7 @@ Office 365의 전역 또는 사용자 관리 관리자 인 경우 사용자 지�
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a>로 이동 합니다.
     
 2. **활성 사용자** 페이지에서 **필터**를 선택 하 고 변경 하려는 필터를 선택한 다음 **필터 편집**을 선택 합니다. 
     
@@ -145,7 +145,7 @@ Office 365의 전역 또는 사용자 관리 관리자 인 경우 사용자 지�
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..  
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a>로 이동 합니다.  
 
 2. **활성 사용자** 페이지에서 **보기**를 선택 하 고 변경 하려는 필터를 선택한 다음 **이 보기 편집**을 선택 합니다. 
     
@@ -158,7 +158,7 @@ Office 365의 전역 또는 사용자 관리 관리자 인 경우 사용자 지�
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a>로 이동 합니다. 
 
 2. **활성 사용자** 페이지에서 **보기**를 선택 하 고 변경 하려는 필터를 선택한 다음 **이 보기 편집**을 선택 합니다. 
     

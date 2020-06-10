@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용 하 든, 구성 된 설정에 따라 콘텐츠를 자동으로 삭제할지 여부에 관계 없이 콘텐츠 삭제를 모니터링 하 고 관리 합니다.
-ms.openlocfilehash: 07790175d56db9b82610b4882070a54ddce3d0c2
-ms.sourcegitcommit: 8a15038a6ac16f41f6b90af52e367f888104cec9
+ms.openlocfilehash: 8936289ccf42fa50b78b611c46742710cd035727
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44156893"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44678994"
 ---
 # <a name="disposition-of-content"></a>콘텐츠 처리
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
 Microsoft 365 준수 센터의 **레코드 관리** 에서 **처리** 탭을 사용 하 여 처리 검토를 관리 하 고 보존 기간이 끝나면 자동으로 삭제 된 [레코드](records.md) 를 확인 합니다. 
 
@@ -35,7 +35,7 @@ Microsoft 365 준수 센터의 **레코드 관리** 에서 **처리** 탭을 사
 
 ### <a name="permissions-for-disposition"></a>처리 권한
 
-Microsoft 365 준수 센터의 **처리** 탭에 액세스 하려면 **처리 관리** 역할 및 **보기 전용 감사 로그** 역할의 구성원 이어야 합니다. **처리 검토자**라는 새 역할 그룹을 만들고이 두 역할을 해당 역할 그룹에 추가 하는 것이 좋습니다. 
+Microsoft 365 준수 센터의 **처리** 탭에 액세스 하려면 **처리 관리** 역할 및 **보기 전용 감사 로그** 역할의 구성원 이어야 합니다. **처리 검토자**라는 새 역할 그룹을 만들고이 두 역할을 해당 역할 그룹에 추가 하는 것이 좋습니다. 사용자가 **전역 관리자** 인 경우에도 처리 **관리** 역할의 일부로 처리 탭에 액세스할 수 있습니다.
 
 **보기 전용 감사 로그** 역할에 한정 됩니다.
 
@@ -43,11 +43,11 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스 하려면 **처리 �
 
 - Microsoft 365 그룹 ([이전의 Office 365 그룹](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601))은이 역할에 대해 지원 되지 않습니다. 대신 사용자 사서함, 메일 사용자 또는 메일 사용이 가능한 보안 그룹을 할당 합니다.
 
-사용자에 게 **처리 관리** 역할을 부여 하 고 새 **처리 검토자** 역할을 만드는 방법에 대 한 지침은 [사용자에 게 Office 365 &amp; 보안 및 준수 센터에](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)대 한 액세스 권한을 부여를 참조 하세요.
+사용자에 게 **처리 관리** 역할을 부여 하 고 새 **처리 검토자** 역할을 만드는 방법에 대 한 지침은 [사용자에 게 Office 365 보안 및 &amp; 준수 센터에](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)대 한 액세스 권한을 부여를 참조 하세요.
 
 ### <a name="enable-auditing"></a>감사 사용
 
-감사 기능이 사용 하도록 설정 되어 있는지 확인 하 고 첫 번째 처리 작업 보다 하루 이상입니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)을 참조 하세요. 
+감사 기능이 사용 하도록 설정 되어 있는지 확인 하 고 첫 번째 처리 작업 보다 하루 이상입니다. 자세한 내용은 [Office 365 보안 및 &amp; 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)을 참조 하세요. 
 
 ## <a name="disposition-reviews"></a>처리 검토
 
@@ -76,7 +76,7 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스 하려면 **처리 �
 
 ![레코드 관리 개요에서 보류 중인 dispositions](../media/dispositions-overview.png)
 
-**보류 중인 모든 Dispositions 보기**를 선택 하면 **처리** 페이지로 이동 됩니다. 예:
+**보류 중인 모든 Dispositions 보기**를 선택 하면 **처리** 페이지로 이동 됩니다. 예시:
 
 ![Microsoft 365 준수 센터의 Dispositions 페이지](../media/disposition-tab.png)
 
@@ -123,7 +123,7 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스 하려면 **처리 �
 > [!NOTE]
 > 처리 검토 없이 자동으로 삭제 된 레코드를 확인 하는 기능은 4 2020 월 중에 테 넌 트로 서서히 롤아웃 되므로이 환경이 즉시 표시 되지 않을 수 있습니다.
 
-**레코드 관리** 페이지의 **처리** 탭을 사용 하 여 자동으로 삭제 되는 레코드를 식별 합니다. 이러한 항목은 **형식** 열에서 **삭제 된 레코드** 를 표시 합니다. 예:
+**레코드 관리** 페이지의 **처리** 탭을 사용 하 여 자동으로 삭제 되는 레코드를 식별 합니다. 이러한 항목은 **형식** 열에서 **삭제 된 레코드** 를 표시 합니다. 예시:
 
 ![처리 검토 없이 삭제 된 항목](../media/records-disposed2.png)
 

@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: 셀프 서비스 암호 재설정 도구를 사용 하 여 암호를 다시 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 21bcbbbd5ef2167b04b8da6db437c528b5fab0c5
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 40f094489a1981302e97043b019e8c90a52ffc55
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44431704"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44678685"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>사용자가 암호를 직접 재설정할 수 있도록 허용
 
@@ -54,7 +54,8 @@ ms.locfileid: "44431704"
 다음 단계에서는 비즈니스의 모든 사용자에 대해 셀프 서비스 암호 재설정을 켭니다.
   
 ::: moniker range="o365-worldwide"
-1. 관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">설정</a> 페이지로 이동 합니다.
+
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">관리 센터</a>에서 조직 설정 **설정** > **Org settings** 페이지로 이동 합니다.
 
 ::: moniker-end
 
@@ -70,13 +71,17 @@ ms.locfileid: "44431704"
 
 ::: moniker-end
 
-2. 설정 페이지 맨 위에서 **보안 & 개인 정보**를 선택 합니다.
+2. **조직 설정** 페이지 맨 위에서 **보안 & 개인 정보 보호** 탭을 선택 합니다.
   
 3. **셀프 서비스 암호 재설정**을 선택 합니다.
+
+4. **셀프 서비스 암호 재설정**에서 **Azure portal로 이동을 선택 하 여 셀프 서비스 암호 재설정을 켭니다**.
+
+5. 왼쪽 탐색 창에서 **사용자**를 선택 하 고 **사용자 | 모든 사용자** 페이지에서 **암호 재설정**을 선택 합니다.
   
-4. 속성 페이지에서 **모두** 를 선택 하 여 회사의 모든 사용자에 대해 사용 하도록 설정 하 고 **저장**을 선택 합니다.
+6. **속성** 페이지에서 **모두** 를 선택 하 여 회사의 모든 사용자에 대해 사용 하도록 설정 하 고 **저장**을 선택 합니다.
   
-5. 사용자가 로그인 하면 나중에 암호를 다시 설정 하는 데 도움이 되는 추가 연락처 정보를 입력 하 라는 메시지가 표시 됩니다.
+7. 사용자가 로그인 하면 나중에 암호를 다시 설정 하는 데 도움이 되는 추가 연락처 정보를 입력 하 라는 메시지가 표시 됩니다.
 
 ## <a name="related-articles"></a>관련 문서
 

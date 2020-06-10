@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 관리 센터에서 중앙 집중식 배포를 사용 하 여 조직의 사용자 및 그룹에 추가 기능을 배포 하는 방법을 알아봅니다.
-ms.openlocfilehash: e71afad19690d3a05dc5f06bc0718861cb22f12d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 9d6a3da00445dd5cde26c80fe63edd81f745ce63
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399731"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44678639"
 ---
 # <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 추가 기능 배포 관리
 
@@ -219,8 +219,8 @@ GDPR (일반 데이터 보호 규정)은 실제 5 월 25 일 2018이 되는 유�
 |||
 |:-----|:-----|
 |**플랫폼** <br/> |**빌드 번호** <br/> |
-|Microsoft 365 Apps for enterprise (월별 채널)  <br/> |9001.2138   <br/> |
-|Microsoft 365 Apps for enterprise (반기 채널)  <br/> |8431.2159  <br/> |
+|Microsoft 365 Apps for enterprise (현재 채널)  <br/> |9001.2138   <br/> |
+|Microsoft 365 Apps for enterprise (반기 엔터프라이즈 채널)  <br/> |8431.2159  <br/> |
 |Windows 용 Office 2016  <br/> |16.0.4672.1000  <br/> |
 |Windows 용 Office 2013  <br/> |15.0.5023.1000  <br/> |
 |Office 2016 for Mac  <br/> |16.11.18020200  <br/> |
@@ -285,7 +285,7 @@ Windows 용 Word, Excel 및 PowerPoint 2013은 ADAL (Active Directory 인증 라
 3. **추가 기능 삭제**를 클릭 합니다. 오른쪽 아래 모서리에 있는 추가 기능 단추를 제거 합니다.
 4. 선택한 항목의 유효성을 검사 하 고 **추가 기능 제거**를 선택 합니다.
   
-## <a name="learn-more"></a>자세한 정보
+## <a name="learn-more"></a>자세히 알아보기
 
 [Office 추가 기능](https://go.microsoft.com/fwlink/p/?linkid=846362)을 만들고 빌드하는 방법에 대해 자세히 알아보세요.
   

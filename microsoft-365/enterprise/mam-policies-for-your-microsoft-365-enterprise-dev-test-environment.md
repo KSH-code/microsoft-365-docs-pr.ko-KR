@@ -14,12 +14,12 @@ ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용 하 여 Microsoft 365 Enterprise 테스트 환경에 Intune 장치 준수 정책을 추가 합니다.
-ms.openlocfilehash: 4324ccca761e504812edc210ee6b6abdc484b670
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5ef39310ff74e5d5a38e8a5dd8c7ca24a126af58
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631588"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679029"
 ---
 # <a name="device-compliance-policies-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대 한 장치 준수 정책
 
@@ -46,9 +46,9 @@ ms.locfileid: "43631588"
 
 이 단계에서는 Windows 10 장치에 대 한 장치 준수 정책을 만듭니다.
   
-1. 에서[https://portal.office.com](https://portal.office.com)office 365 포털로 이동 하 여 전역 관리자 계정을 사용 하 여 office 365 테스트 랩 구독에 로그인 합니다.
+1. 에서 Office 365 포털로 이동 하 여 [https://portal.office.com](https://portal.office.com) 전역 관리자 계정을 사용 하 여 office 365 테스트 랩 구독에 로그인 합니다.
     
-2. 브라우저의 새 탭에서 Azure portal ()을 엽니다 [https://portal.azure.com](https://portal.azure.com).
+2. 브라우저의 새 탭에서 Azure portal ()을 엽니다 [https://portal.azure.com](https://portal.azure.com) .
 
 3. 브라우저의 Azure portal 탭에 있는 검색 상자에 **intune** 을 입력 한 다음 **intune**을 클릭 합니다.
     
@@ -87,7 +87,7 @@ ms.locfileid: "43631588"
 
 20. **앱 추가** 창에서 **앱 제품군 설정을**선택 합니다.
 
-21. **업데이트 채널**의 경우 **반기**를 선택 하 고 **확인**을 클릭 합니다.
+21. **업데이트 채널**의 경우 **반기 엔터프라이즈**를 선택 하 고 **확인**을 클릭 합니다.
 
 22. **앱 추가** 창에서 **추가**를 클릭 합니다.
 
