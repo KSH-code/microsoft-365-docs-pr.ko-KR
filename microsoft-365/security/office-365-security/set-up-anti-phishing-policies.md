@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection) 및 Office 365 Advanced Threat Protection (Office 365 ATP)에서 사용할 수 있는 피싱 방지 정책에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 0b1342d61ab4ab1fedde63271082c577211f6595
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 4cf727cd7d232baac13f44e008a509934f55d895
+ms.sourcegitcommit: efd4dd29af0ea2b71b674534de3b2dcbfd7482db
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209814"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689281"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Microsoft 365의 피싱 방지 정책
 
@@ -114,7 +114,7 @@ ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 
 
 - **적용 대상**: ATP 피싱 방지 정책이 적용 되는 내부 받는 사람을 식별 합니다. 이 값은 사용자 지정 정책에 필요 하며 기본 정책에서는 사용할 수 없습니다 (기본 정책은 모든 받는 사람에 게 적용 됨).
 
-    조건이나 예외는 한 번만 사용할 수 있지만, 조건이나 예외에 대한 값을 여러 개 지정할 수 있습니다. 동일한 조건이나 예외의 여러 값은 OR 논리를 사용합니다(예: _\<받는 사람1\>_ or _\<받는 사람2\>_). 다른 조건이나 예외에는 AND 논리를 사용합니다(예: _\<받는 사람1\>_ and _\<그룹 1의 구성원\>_).
+    조건이나 예외는 한 번만 사용할 수 있지만, 조건이나 예외에 대한 값을 여러 개 지정할 수 있습니다. 동일한 조건의 여러 값이나 예외는 OR 논리를 사용합니다(예: _\<recipient1\>_ 혹은 _\<recipient2\>_). 다양한 조건이나 예외는 AND 논리를 사용합니다(예: _\<recipient1\>_ 및 _\<member of group 1\>_).
 
   - **받는 사람**: 조직에 있는 하나 이상의 사서함, 메일 사용자 또는 메일 연락처입니다.
   - **받는 사람은**조직에 있는 하나 이상의 그룹의 구성원입니다.
@@ -128,7 +128,7 @@ ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 
 
 ### <a name="impersonation-settings-in-atp-anti-phishing-policies"></a>ATP 피싱 방지 정책의 가장 설정
 
-가장은 메시지의 보낸 사람 또는 보낸 사람의 전자 메일 도메인이 실제 보낸 사람 또는 도메인과 매우 비슷해 보이는 위치입니다.
+가장은 메시지의 보낸 사람 또는 보낸 사람의 전자 메일 도메인이 실제 보낸 사람이 나 도메인과 비슷한 모습입니다.
 
 - 도메인 contoso.com 가장의 예는 ćóntoso.com입니다.
 
@@ -140,11 +140,11 @@ ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 
 
 - **보호할 사용자**: 지정 된 내부 또는 외부 사용자가 가장 되지 않도록 합니다. 예를 들어 임원 (내부) 및 보드 구성원 (외부) 등이 있습니다. 내부 및 외부 주소를 최대 60 개까지 추가할 수 있습니다. 이 보호 된 사용자 목록은 **적용** 된 설정에서 정책이 적용 되는 받는 사람 목록과 다릅니다.
 
-  예를 들어 Apodaca 그룹에 적용 되는 정책에서 Felipe (felipea@contoso.com)을 보호 된 사용자로 지정 합니다. 해당 Felipe Apodaca이 가장 되는 임원 그룹의 구성원에 게 전송 되는 인바운드 메시지는 정책 (가장 한 사용자를 위해 구성한 작업)에 의해 처리 됩니다.
+  예를 들어 Apodaca 그룹에 적용 되는 정책에서 Felipe (felipea@contoso.com)을 보호 된 사용자로 지정 합니다. Felipe Apodaca 가장이 구성 된 임원 그룹의 구성원에 게 전송 되는 인바운드 메시지는 정책 (가장 한 사용자를 위해 구성한 작업)에 의해 처리 됩니다.
 
 - **보호할 도메인**: 지정 된 도메인이 가장 되지 않도록 합니다. 예를 들어 소유한 모든 도메인 ([허용 도메인](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)) 또는 특정 도메인 (사용자가 소유한 도메인 또는 파트너 도메인) 이 보호 된 도메인 목록은 **적용** 된 설정에서 정책을 적용 하는 도메인 목록과는 다릅니다.
 
-  예를 들어 tailspintoys.com 라는 그룹의 구성원에 게 적용 되는 정책에서 보호 된 도메인으로 지정 합니다. Tailspintoys.com이 가장 되는 임원 그룹의 구성원에 게 전송 되는 인바운드 메시지는 정책 (가장 한 도메인에 대해 구성한 작업)에 의해 처리 됩니다.
+  예를 들어 tailspintoys.com 라는 그룹의 구성원에 게 적용 되는 정책에서 보호 된 도메인으로 지정 합니다. Tailspintoys.com이 가장 된 임원 그룹의 구성원에 게 전송 되는 인바운드 메시지는 정책 (가장 한 도메인에 대해 구성한 작업)에 의해 처리 됩니다.
 
 - **보호 된 사용자 또는 도메인에 대 한 작업**: 정책의 보호 된 사용자 및 보호 된 도메인에 대 한 가장 시도를 포함 하는 인바운드 메시지에 대해 수행할 작업을 선택 합니다. 보호 된 사용자의 가장에 대해 서로 다른 작업을 지정 하 고 보호 된 도메인의 가장을 보호할 수 있습니다.
 
