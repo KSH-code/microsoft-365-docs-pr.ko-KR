@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: b524001f848a106ec2832c698b474cfce8ceb24b
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: bd9162316bd5c180210040f0820eb8d1cc46dc6c
+ms.sourcegitcommit: efd4dd29af0ea2b71b674534de3b2dcbfd7482db
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352091"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689246"
 ---
 # <a name="communication-compliance-feature-reference"></a>통신 준수 기능 참조
 
@@ -62,7 +62,9 @@ Microsoft 365 준수 센터에서 Microsoft 365 조 직에 대 한 통신 준수
 
 설정을 단순화 하기 위해 통신을 검토 하는 사용자에 대 한 그룹을 만들고 해당 통신을 검토할 사용자를 위해 그룹을 만듭니다. 그룹을 사용 하는 경우에는 여러 개 필요할 수도 있습니다. 예를 들어 서로 다른 두 그룹의 통신을 검색 하려는 경우 또는 감독 되지 않는 그룹을 지정 하려는 경우
 
-감독 되는 사용자에 대해 Microsoft 365 그룹을 선택 하면 정책이 공유 사서함의 콘텐츠 및 해당 그룹과 연결 된 Microsoft 팀 채널을 검사 합니다. 메일 그룹을 선택 하면 정책에서 개별 사용자 사서함을 검색 합니다. 통신 준수 정책에 그룹과 메일 그룹을 추가 하는 것은 전체 조건 및 규칙 집합의 일부 이므로 정책에 추가 되는 조건 수에 따라 정책이 지 원하는 최대 그룹 및 배포 목록 수가 달라 집니다. 각 정책은 정책에 있는 추가 조건의 수에 따라 약 20 개의 그룹 또는 메일 그룹을 지원 해야 합니다.
+정책에서 메일 그룹을 할당할 경우 정책은 메일 그룹의 각 사용자에 대 한 모든 전자 메일을 모니터링 합니다. 정책에 Microsoft 365 그룹을 할당 하면 각 그룹 구성원이 받은 개별 전자 메일이 아닌 해당 그룹에 전송 된 모든 전자 메일을 모니터링 하는 정책이 됩니다.
+
+통신 준수 정책에 그룹과 메일 그룹을 추가 하는 것은 전체 조건 및 규칙 집합의 일부 이므로 정책에 추가 되는 조건 수에 따라 정책이 지 원하는 최대 그룹 및 배포 목록 수가 달라 집니다. 각 정책은 정책에 있는 추가 조건의 수에 따라 약 20 개의 그룹 또는 메일 그룹을 지원 해야 합니다.
 
 ## <a name="supported-communication-types"></a>지원 되는 통신 유형
 
@@ -232,7 +234,7 @@ Microsoft 365의 분류자에 대 한 자세한 내용은 [분류자](classifier
 | **날짜** | 조직의 사용자가 메시지를 보내거나 받은 날짜입니다. |
 | **File 클래스** | 메시지 유형, *메시지* 또는 *첨부 파일*중 하나를 기준으로 메시지의 클래스입니다. |
 | **첨부 파일 있음** | 메시지에 있는 첨부 파일의 현재 상태입니다. |
-| **Item 클래스** | 메시지 유형, 전자 메일, Microsoft 팀 채팅, Bloonmberg 등을 기준으로 메시지 원본입니다. |
+| **Item 클래스** | 메시지 유형, 전자 메일, Microsoft 팀 채팅, Bloonmberg 등을 기준으로 메시지 원본입니다. 일반 항목 형식 및 메시지 클래스에 대 한 자세한 내용은 [항목 형식 및 메시지 클래스](https://docs.microsoft.com/office/vba/outlook/concepts/forms/item-types-and-message-classes)를 참조 하십시오. |
 | **받는 사람 도메인** | 메시지를 보낸 도메인입니다. 이 도메인은 대개 기본적으로 Microsoft 365 구독 도메인입니다. |
 | **받는 사람** | 메시지를 보낸 사용자입니다. |
 | **보낸 사람** | 메시지를 보낸 사람입니다. |
