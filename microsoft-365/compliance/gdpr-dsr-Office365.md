@@ -1,5 +1,5 @@
 ---
-title: GDPR 및 CCPA에 따른 데이터 주체 요청
+title: GDPR 및 CCPA에 따른 Office 365 데이터 주체 요청
 description: GDPR 및 CCPA에 따른 사용자 권한 및 기업에서 Office 365를 사용하여 DSR에 대한 응답으로 데이터를 찾고 작업하는 방법을 이해합니다.
 keywords: Office 365, DSR, Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR, CCPA
 localization_priority: Priority
@@ -15,14 +15,14 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 7e6f821cdc8712b11638cbb905b01b82af68e5ad
-ms.sourcegitcommit: ad789f1e7bf9c9dc0d45c731373e667a26ed30b1
+ms.openlocfilehash: bedce9c71e18749d6a394af17788e07ce79c2820
+ms.sourcegitcommit: a418195dc11e6251ae37e788c102bbaa7087e44e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221432"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44579273"
 ---
-# <a name="data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 데이터 주체 요청
+# <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Office 365 데이터 주체 요청
 
 ## <a name="introduction-to-dsrs"></a>DSR 소개
 
@@ -1581,24 +1581,62 @@ Workplace Analytics 보고서 또는 보고서 집합에서 데이터 주체를 
 
 ### <a name="accessing-and-exporting-system-generated-logs"></a>시스템 생성 로그 액세스 및 내보내기
 
-"데이터 이식성의 권한”이 있는 경우 데이터 제목에서 다른 데이터 컨트롤러로 전송할 수 있는 해당 개인 데이터의 사본을 전자 형식으로 요청할 수 있습니다. Azure는 조직이 네이티브 JSON 형식의 데이터를 지정된 Azure Storage Container로 내보내어 이를 지원합니다.
+테넌트 관리자는 조직 내에서 특정 사용자의 Office 365 서비스 및 응용 프로그램 사용과 연결된 시스템 생성 로그에 액세스할 수 있는 유일한 사용자입니다. 내보내기 요청에 대해 검색된 데이터는 컴퓨터에서 읽을 수 있는 형식으로 제공되며, 사용자가 데이터가 연결되는 서비스를 알 수 있도록 해주는 파일로 제공됩니다. 앞서 확인한 대로 검색되는 데이터에는 서비스의 보안 혹은 안정성을 손상시킬 수 있는 데이터가 포함되지 않습니다.
+
+시스템 생성 로그에 액세스하여 내보내려면 다음을 수행합니다.
+
+1. Azure 포털에 로그인하고 **모든 서비스**를 선택합니다.
+2. 필터에 정책을 입력한 다음 **정책**을 선택합니다.
+3. **정책** 블레이드에서 **사용자 개인 정보**를 선택하고 **사용자 요청 관리**를 선택한 후 **내보내기 요청 추가**를 선택합니다.
+4. 다음과 같이 **데이터 내보내기 요청**을 완료합니다.
+
+    - **사용자**. 내보내기를 요청한 Azure Active Directory 사용자의 전자 메일 주소를 입력합니다.
+    - **구독**. 리소스 사용량을 보고하고 서비스를 청구할 때 사용하는 계정을 선택합니다. 이 계정은 또한 Azure 저장소 계정의 위치입니다.
+    - **저장소 계정**. Azure 저장소(Blob)의 위치를 선택합니다. 자세한 내용은 Microsoft Azure 저장소 소개 — Blob 저장소 문서를 참조하세요.
+    - **컨테이너**. 사용자가 내보내기 작업을 수행한 개인 정보 데이터의 저장소 위치로서 새 컨테이너를 만들거나 기존 컨테이너를 선택합니다.
+
+5. **만들기**를 선택합니다.
+
+내보내기 요청이 **보류 중** 상태로 변경됩니다. **사용자 개인 정보** > **개요 블레이드**에서 보고서 상태를 볼 수 있습니다.
 
 >[!IMPORTANT]
->테넌트에서 사용자 데이터를 내보내려면 테넌트 관리자여야 합니다.
+>개인 데이터는 여러 시스템에서 가져올 수 있으므로 내보내기 프로세스를 완료하는 데 최대 1개월이 소요될 수 있습니다.
 
-#### <a name="azure-active-directory"></a>Azure Active Directory
+### <a name="notify-about-exporting-or-deleting-issues"></a>내보내기 또는 삭제 중 발생하는 문제에 대한 알림
 
-고객 데이터와 관련해서, Microsoft는 엔터프라이즈 고객의 테넌트 관리자에게 최종 사용자에 대한 식별 가능 정보의 내보내기 요청을 관리하는 기능을 지원하는 포털 및 제품 내 환경을 제공합니다.
+Azure 포털에서 데이터를 내보내거나 삭제하는 동안 문제가 발생하면 Azure 포털 **도움말 + 지원** 블레이드로 이동하여 **구독 관리** > **기타 보안 및 준수 요청** > **개인 정보 보호 블레이드 및 GDPR 요청**에서 새 티켓을 제출합니다.
 
-#### <a name="service-specific-interfaces"></a>서비스 관련 인터페이스
+>[!NOTE]
+ >Azure 포털에서 데이터를 내보내면 일부 응용 프로그램에 대한 시스템 생성 데이터는 내보내지지 않습니다. 이러한 응용 프로그램에 대한 데이터를 내보내려면 [시스템 생성 로그 데이터를 내보내는 추가 단계](https://docs.microsoft.com/microsoft-365/compliance/gdpr-system-generated-log-data)를 참조합니다.
 
-Microsoft에서는 특정 서비스의 기존 API(응용 프로그래밍 인터페이스) 또는 UI(사용자 인터페이스)를 통해 직접 고객 데이터를 검색하는 기능을 제공합니다. 세부 사항은 해당 CRUD(만들기, 읽기, 업데이트, 삭제) 작업을 설명하는 서비스의 참조 설명서에 나와 있습니다.
+아래에 시스템 생성 로그를 액세스하고 내보내는 방법을 요약해서 설명합니다.
+
+- **Azure 포털을 사용한 내보내기 요청을 완료하는 데 걸리는 시간:** 이는 몇 가지 요인에 따라 다를 수 있습니다. 보통 1일이나 2일 후에 완료되지만 최대 30일이 걸릴 수 있습니다.
+- **출력 형식:** 컴퓨터에서 읽을 수 있는 구조화된 파일(예: XML, CSV 또는 JSON)로 출력됩니다.
+- **Azure 포털에 액세스하여 시스템 생성 데이터에 대한 액세스 요청을 제출할 수 있는 사용자:** Office 365 전역 관리자는 Azure 포털에 액세스할 수 있습니다.
+- **내보내기 결과에 반환된 데이터**: 결과에 Microsoft에서 저장하는 시스템 생성 로그가 포함되어 있습니다. 내보낸 데이터는 Office 365, Azure 및 Dynamics를 포함하여 다양한 Microsoft 서비스에 걸쳐져 있습니다. 결과에는 서비스의 보안 또는 안정성을 손상시킬 수 있는 데이터가 포함되지 않습니다.
+- **사용자에게 데이터를 반환하는 방식:** 데이터는 조직의 Azure 저장소 위치로 내보내집니다. 이 데이터를 사용자에게 표시/반환하는 방식은 조직의 관리자가 결정합니다.
+- **시스템 생성 로그 데이터 형태:** 다음은 데이터를 JSON 형식으로 표시한 예제입니다.
+
+    ```JSON
+    [{
+    "DateTime": "2017-04-28T12:09:29-07:00",
+    "AppName": "SharePoint",
+    "Action": "OpenFile",
+    "IP": "154.192.13.131",
+    "DevicePlatform": "Windows 1.0.1607"
+    }]
+    ```
+
+Exchange Online, SharePoint Online, 비즈니스용 Skype, Yammer 및 Office 365 그룹과 같이 Microsoft에서 가장 자주 사용하는 일부 제품 및 서비스 사용 데이터는 보안 & 준수 센터에서 Office 365 감사 로그를 검색하여 얻을 수 있습니다. 자세한 내용은 부록 A의 [DSR 조사에서 Office 365 감사 로그 검색 도구 사용](#use-the-audit-log-search-tool-in-dsr-investigations)을 참조합니다. 감사 로그를 사용하면 조직의 다른 사람 (예 : 규정 준수 담당자)에게 권한을 할당해서 이 데이터에 액세스하여 감사 로그를 검색할 수 있기 때문에 사용자가 원하던 것일 수 있습니다.
 
 ### <a name="deleting-system-generated-logs"></a>시스템 생성 로그 삭제
 
 액세스 요청을 통해 검색된 시스템 생성 로그를 삭제하려면 서비스에서 사용자를 제거하고 해당 Azure Active Directory 계정을 영구적으로 삭제해야 합니다. 사용자를 영구적으로 삭제하는 방법에 대한 지침은 이 가이드에서 [사용자 삭제](#deleting-a-user)를 참조하세요. 사용자 계정을 영구적으로 삭제하는 작업을 일단 시작하면 되돌릴 수 없습니다.
 
-영구적으로 사용자 계정을 삭제하면, 서비스의 보안이나 안정성을 손상시킬 수 있는 데이터를 제외하고, 30일 이내에 거의 모든 Office 365 서비스의 시스템 생성 로그에서 사용자의 데이터가 제거됩니다. 한 가지 예외는 Exchange Online에서 사용자 계정을 영구적으로 삭제하는 데 30일 이상이 걸리는 것입니다. Exchange Online 콘텐츠의 중요한 특성을 감안하여 실수로 인한 데이터 손실을 방지하세요. 이 시스템은 사용자 계정이 영구적으로 삭제된 후 최대 60일 동안 의도적으로 데이터를 보관 상태로 유지하도록 설계되었습니다. 30일 기간 내에 사용자의 Exchange Online 데이터를 영구히 삭제하려면 Azure Active Directory에서 사용자 계정을 영구적으로 삭제한 다음, [Microsoft 지원 서비스](https://support.microsoft.com/)에 연락하여 예약된 삭제 프로세스 외부에서 사용자의 Exchange Online 데이터를 수동으로 제거하도록 요청하세요. 자세한 내용은 이 가이드에서 이전에 설명한 [Exchange Online 데이터 제거](#removing-exchange-online-data)를 참조하세요.
+영구적으로 사용자 계정을 삭제하면, 서비스의 보안이나 안정성을 손상시킬 수 있는 데이터를 제외하고, 30일 이내에 거의 모든 Office 365 서비스의 시스템 생성 로그에서 사용자의 데이터가 제거됩니다. 
+
+30일 기간에 대한 한 가지 예외는 Exchange Online에서 사용자 계정을 영구적으로 삭제하는 데 30일 이상이 걸리는 것입니다. 이는 Exchange Online 콘텐츠의 중요한 특성으로 인한 이유와 우발적으로 데이터가 손실되는 것을 방지하기 위한 목적입니다. Exchange Online은 사용자 계정이 영구적으로 삭제된 후 최대 60일 동안 의도적으로 데이터를 보관 상태로 유지하도록 설계되었습니다. 30일 기간 내에 사용자의 Exchange Online 데이터를 영구히 삭제하려면 Azure Active Directory에서 사용자 계정을 영구적으로 삭제한 다음, [Microsoft 지원 서비스](https://support.microsoft.com/)에 연락하여 예약된 삭제 프로세스 외부에서 사용자의 Exchange Online 데이터를 수동으로 제거하도록 요청하세요. 자세한 내용은 이 가이드에서 이전에 설명한 [Exchange Online 데이터 제거](#removing-exchange-online-data)를 참조하세요.
 
 사용자 계정을 삭제해도 Yammer 및 Kaizala에 대한 시스템 생성 로그는 제거되지 않습니다. 이러한 응용 프로그램에서 데이터를 제거하려면 다음 중 하나를 참조합니다.
 
@@ -1607,11 +1645,11 @@ Microsoft에서는 특정 서비스의 기존 API(응용 프로그래밍 인터�
 
 #### <a name="national-clouds"></a>국가별 클라우드
 
-다음 국가별 클라우드에서 전역 IT 관리자는 다음을 수행하여 시스템 생성 로그를 삭제해야 합니다.
+전역 IT 관리자는 다음과 같은 국가별 클라우드에서 시스템 생성 로그를 내보내려면 다음을 수행해야 합니다.
 
-- Office 365 Germany - 사용자 계정이 영구적으로 삭제되면 시스템 생성 로그도 삭제됩니다. 
-- Office 365 미국 정부 - [Office 365 관리자 포털](https://portal.office365.us)을 통해 Microsoft 지원 서비스로 요청을 제출합니다.
-- 21Vianet에서 운영하는 Office 365(중국) - 이 [URL](https://portal.partner.microsoftonline.cn/AdminPortal/Home#/homepage)의 Office 365 관리 포털을 통해 Microsoft 지원 서비스에 요청을 제출합니다. **상거래**로 이동한 후 **구독** -> **개인 정보** -> **GDPR**을 선택하고 필수 정보를 입력합니다.
+- **Office 365 Germany**: 위 단계를 따릅니다.
+- **Office 365 미국 정부**: [Office 365 관리 포털로 이동한 후](https://portal.office365.us) Microsoft 지원 서비스에 요청을 제출합니다.
+- **21Vianet에서 운영하는 Office 365(중국)**: [21Vianet에서 운영하는 Office 365 관리 포털로 이동](https://portal.partner.microsoftonline.cn/AdminPortal/Home#/homepage)한 후 **상거래** > **구독** > **개인 정보** > **GDPR**로 가서 필수 정보를 입력합니다.
 
 ## <a name="part-4-additional-resources-to-assist-you-with-dsrs"></a>4부: DSR을 지원하는 추가 리소스
 
