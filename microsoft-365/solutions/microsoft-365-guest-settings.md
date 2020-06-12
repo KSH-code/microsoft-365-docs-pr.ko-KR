@@ -15,12 +15,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: 조직 외부 사용자와의 공유에 영향을 줄 수 있는 Microsoft 365에서 사용할 수 있는 게스트 공유 설정에 대해 알아봅니다.
-ms.openlocfilehash: a1c734adfe72d5eff5f18e67116544fd63eb854a
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 35a1a20e65eccddcb1117f9def09bd4fdfc7f161
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160138"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679147"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 게스트 공유 설정 참조
 
@@ -195,7 +195,7 @@ SharePoint 및 OneDrive에서 게스트와 공유할 수 있는 사용자를 제
 |선택된 보안 그룹에 있는 사용자만 인증된 외부 사용자와 공유하도록 허용|해제|**켜짐**이 설정되면 지정된 보안 그룹에 속한 사용자만 외부 사용자와 공유할 수 있습니다. *특정 사용자* 링크만 사용할 수 있습니다. **선택한 보안 그룹에 있는 사용자만 인증된 외부 사용자와 공유하고 익명 링크를 사용**하도록 **설정**하지 않은 경우 *모든 사용자* 공유가 효과적으로 해제됩니다.|
 |선택된 보안 그룹에 있는 사용자들만 인증된 외부 사용자들과 공유하고 익명의 링크를 사용하도록 허용|해제|**켜짐**이 설정되면 지정된 보안 그룹에 속한 사용자만 게스트와 공유할 수 있습니다. *모든 사용자*와 *특정 사용자* 링크를 사용할 수 있습니다.|
 
-이 두 가지 설정은 동시에 사용할 수 있습니다. 사용자가 두 설정에 대해 지정된 보안 그룹에 있는 경우 더 높은 사용 권한 수준이 우선합니다(*모든 사용자* + *특정 사용자*).
+이 두 가지 설정은 동시에 사용할 수 있습니다. 사용자가 두 설정에 대해 지정된 보안 그룹에 있는 경우 더 높은 사용 권한 수준이 우선합니다(*모든 사용자* + *특정 사용자*). 중첩 된 보안 그룹이 지원 됩니다.
 
 ## <a name="sharepoint-site-level"></a>SharePoint(사이트 수준)
 
