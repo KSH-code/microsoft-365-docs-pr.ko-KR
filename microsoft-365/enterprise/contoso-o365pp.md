@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 Microsoft Endpoint Configuration Manager를 사용하여 엔터프라이즈용 Microsoft 365 앱을 배포하는 방식을 이해합니다.
-ms.openlocfilehash: 2ff05a079d83389ed94445fc011b9f7902c6de56
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 4a36e33a6f2ef6df880864dd852f0f63056946e6
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011890"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679041"
 ---
 # <a name="microsoft-365-apps-for-enterprise-deployment-for-contoso"></a>Contoso용 엔터프라이즈용 Microsoft 365 앱 배포
 
@@ -53,10 +53,10 @@ Configuration Manager를 사용하여 Office에 대한 업데이트를 관리하
 
 Contoso는 기능 업데이트를 위해서도 Office 배포에 사용한 것과 동일한 2단계 접근 방법을 따랐습니다. 즉, 파일럿 그룹의 장치가 조직의 나머지 장치(브로드 그룹)보다 4개월 먼저 기능 업데이트를 받았습니다. Office에 대해 이러한 방식을 적용하기 위해 Contoso는 권장되는 두 개의 [업데이트 채널](https://docs.microsoft.com/DeployOffice/overview-update-channels)을 사용했습니다. 
 
-- 파일럿 그룹에 대한 업데이트용 반기 채널(대상 지정) 
-- 브로드 그룹에 대한 업데이트용 반기 채널. 
+- 파일럿 그룹에 대한 업데이트용 반기 엔터프라이즈 채널(미리 보기) 
+- 광범위한 그룹에 대한 업데이트용 반기 엔터프라이즈 채널. 
 
-반기(대상 지정) 채널은 반기 채널보다 4개월 먼저 엔터프라이즈용 Microsoft 365 앱 버전을 릴리스하므로, Contoso는 업데이트를 관리할 필요가 없이 유효성을 검사할 시간적 여유를 갖게 됩니다. 
+반기 엔터프라이즈 채널(미리 보기)은 반기 엔터프라이즈 채널보다 4개월 먼저 엔터프라이즈용 Microsoft 365 앱 버전을 릴리스하므로, Contoso는 업데이트를 관리할 필요가 없이 유효성을 검사할 시간적 여유를 갖게 됩니다. 
 
 ## <a name="deployment-process"></a>배포 프로세스
 
@@ -65,7 +65,7 @@ Office 배포를 완료하기 위해 Contoso는 Microsoft의 모범 사례 권�
 1. 배포 전에, 준비 도구 키트를 사용하여 앱 및 Office 추가 기능이 엔터프라이즈용 Microsoft 365 앱과 호환되는지 평가했습니다.
 2. Configuration Manager에서 Contoso는 클라이언트 장치에 피어 캐시를 사용하도록 설정하여 원격 위치의 클라이언트 장치에 배포할 때 제한적인 네트워크 용량 때문에 발생하는 문제를 완화했습니다. 
 3. 또한 Configuration Manager에서 두 가지 배포 그룹, 즉 파일럿 그룹과 광범위한 그룹을 장치 컬렉션으로 정의했습니다. 조직 내의 소규모 대표 장치 집합을 포함하는 파일럿 그룹은 Windows 10 Enterprise 및 엔터프라이즈용 Microsoft 365 앱에서 앱, 추가 기능 및 하드웨어를 추가적으로 테스트하는 데 사용되었습니다. 
-4. 그들은 Configuration Manager에 포함되어 있는 Office 클라이언트 관리 대시보드 및 Office 365 설치 관리자 마법사를 사용하여 Office용 배포 패키지를 만들었습니다. 이러한 두 기능은 두 개의 엔터프라이즈용 Microsoft 365 앱 패키지, 즉 반기 채널(대상 지정)의 파일럿 그룹용 패키지와 반기 채널의 광범위한 그룹용 패키지를 만들었습니다. 
+4. 그들은 Configuration Manager 콘솔에 포함되어 있는 Office 클라이언트 관리 대시보드 및 Office 365 설치 관리자 마법사를 사용하여 Office용 배포 패키지를 만들었습니다. 또한 두 개의 엔터프라이즈용 Microsoft 365 앱 패키지, 즉 반기 엔터프라이즈 채널(미리 보기)의 파일럿 그룹용 패키지와 반기 엔터프라이즈 채널의 광범위한 그룹용 패키지를 만들었습니다. 
 5. 각 Office 패키지의 일부로, 영어, 프랑스어,및 독일어 언어 팩을 포함했습니다. 장치에 Office 패키지에 포함되지 않은 언어가 필요한 경우 Office CDN(콘텐츠 배달 네트워크)에서 자동으로 다운로드되었습니다.
 6. 엔터프라이즈용 Microsoft 365 앱을 설치하기 전에 모든 기존 Office의 MSI 버전을 자동으로 제거하는 Office 패키지의 기본 제공 기능을 사용했습니다.
 7. Configuration Manager에서 Windows 및 Office 패키지를 네트워크의 배포 지점에 배포한 후 Configuration Manager 배포 작업 시퀀스를 실행하여 파일럿 그룹에 파일럿 엔터프라이즈용 Microsoft 365 앱 패키지를 배포했습니다.

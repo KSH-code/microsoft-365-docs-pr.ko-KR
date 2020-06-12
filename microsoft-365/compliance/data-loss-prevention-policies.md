@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 보안 &amp; 준수 센터의 DLP(데이터 손실 방지) 정책을 사용하여 Office 365 전체의 중요한 정보를 식별하고 모니터링하며 자동으로 보호할 수 있습니다.
-ms.openlocfilehash: 4328855a4a7332c452d7e2832e1b924c16652f8b
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 3f4cabab120f418e4c410a1e1f052868ad453f67
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351853"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679072"
 ---
 # <a name="overview-of-data-loss-prevention"></a>데이터 손실 방지 개요
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -116,8 +116,8 @@ DLP 정책은 정보가 Exchange Online, SharePoint Online, 비즈니스용 OneD
     
 - 콘텐츠를 조직 내부 또는 외부 사용자와 공유합니다.
 
-> [!NOTE]
-> 호스트 조직의 Active Directory 또는 Azure Active Directory 테넌트에 게스트가 아닌 계정을 보유하고 있는 사용자는 조직 내부의 사용자로 간주됩니다.
+  > [!NOTE]
+  > 호스트 조직의 Active Directory 또는 Azure Active Directory 테넌트에 게스트가 아닌 계정을 보유하고 있는 사용자는 조직 내부의 사용자로 간주됩니다.
     
 #### <a name="types-of-sensitive-information"></a>중요한 정보 유형
 
@@ -127,13 +127,13 @@ DLP 정책은 **중요한 정보 유형**으로 정의되어 있는 중요한 �
   
 DLP 정책이 신용 카드 번호와 같은 중요한 정보 유형을 찾을 때 단순히 16자리 숫자만 찾는 것이 아닙니다. 중요한 각 정보 유형은 다음의 조합을 사용해서 정의되고 검색됩니다.
   
-- 키워드
+- 키워드.
     
-- 체크섬 또는 구성의 유효성을 검사하기 위한 내부 함수
+- 체크섬 또는 구성의 유효성을 검사하기 위한 내부 함수입니다.
     
-- 패턴 일치를 찾기 위한 정규식의 평가
+- 패턴 일치를 찾기 위한 정규식의 평가입니다.
     
-- 기타 콘텐츠 검사
+- 기타 콘텐츠 검사.
     
 성러한 정책은 사용자 작업을 중단시킬 수 있는 가양성의 수를 줄이는 동시에 DLP 검색 시 높은 수준의 정확도를 얻을 수 있도록 도와줍니다.
   
@@ -145,13 +145,19 @@ DLP 정책이 신용 카드 번호와 같은 중요한 정보 유형을 찾을 �
   
 현재 사용할 수 있는 작업으로 다음과 같은 작업을 수행할 수 있습니다:
   
-- 사이트 콘텐츠에 있어서 **콘텐츠의 액세스를 제한하십시오**. 이는 문서에 대한 사용 권한이 주 사이트 컬렉션 관리자, 문서 소유자 및 문서를 마지막에 수정한 사용자를 제외한 모든 사람들에게 제한되어 있음을 의미합니다. 해당 사용자는 문서에서 중요한 정보를 제거하거나 다른 해결 조치를 취할 수 있습니다. 문서가 규정을 준수하는 경우 원래의 사용 권한은 자동으로 복원됩니다. 문서에 대한 액세스가 차단되면 해당 문서가 사이트 라이브러리에서 특수한 정책 팁 아이콘과 함께 나타납니다. 
+- **콘텐츠에 대한 액세스 제한** 필요에 따라 다음 세 가지 방법으로 콘텐츠에 대한 액세스를 제한할 수 있습니다.
+
+  1. 모든 사용자의 콘텐츠에 대한 액세스를 제한합니다.
+  2. 조직 외부 사용자의 콘텐츠에 대한 액세스를 제한합니다.
+  3. "링크가 있는 모든 사용자"의 액세스를 제한합니다.
+
+  사이트 콘텐츠의 경우, 이는 문서에 대한 사용 권한이 주 사이트 컬렉션 관리자, 문서 소유자 및 문서를 마지막에 수정한 사용자를 제외한 모든 사람들에게 제한되어 있음을 의미합니다. 해당 사용자는 문서에서 중요한 정보를 제거하거나 다른 해결 조치를 취할 수 있습니다. 문서가 규정을 준수하는 경우 원래의 사용 권한은 자동으로 복원됩니다. 문서에 대한 액세스가 차단되면 해당 문서가 사이트 라이브러리에서 특수한 정책 팁 아이콘과 함께 나타납니다. 
     
-    ![문서에 액세스를 표시하는 정책 팁이 차단됩니다.](../media/b6cefed3-d212-43d7-8534-4b92b26ebd50.png)
+  ![문서에 액세스를 표시하는 정책 팁이 차단됩니다.](../media/b6cefed3-d212-43d7-8534-4b92b26ebd50.png)
   
-    전자 메일 콘텐츠의 경우 이 작업은 메시지가 발송되지 않도록 차단합니다. DLP 규칙이 구성된 방식에 따라 발신자는 NDR 또는 (규칙이 알림을 사용하는 경우) 정책 팁 및/또는 전자 메일 알림을 볼 수 있습니다.
+  전자 메일 콘텐츠의 경우 이 작업은 메시지가 발송되지 않도록 차단합니다. DLP 규칙이 구성된 방식에 따라 발신자는 NDR 또는 (규칙이 알림을 사용하는 경우) 정책 팁 및/또는 전자 메일 알림을 볼 수 있습니다.
     
-    ![메시지에서 인증되지 않은 수신자를 제거해야 한다는 경고](../media/302f9994-912d-41e7-861f-8a4539b3c285.png)
+  ![메시지에서 인증되지 않은 수신자를 제거해야 한다는 경고](../media/302f9994-912d-41e7-861f-8a4539b3c285.png)
   
 #### <a name="user-notifications-and-user-overrides"></a>사용자 알림 및 사용자 재정의
 
@@ -335,15 +341,14 @@ DLP 정책에서 이전에 생성 및 게시 된 [보존 레이블](labels.md)�
 - 보존 레이블은 생성 및 게시된 후 자동으로 적용되려면 하루가 소요되고 최대 7일이 소요될 수 있습니다. 자세한 정보는 [보존 레이블이 적용되는 데 걸리는 시간](create-retention-labels.md#how-long-it-takes-for-retention-labels-to-take-effect)을 참조하세요.
 - 정책에서 보존 레이블을 사용하는 것은 ***SharePoint Online 및 비즈니스 용 OneDrive 항목***에만 지원됩니다.
 
+  ![조건으로서의 레이블](../media/5b1752b4-a129-4a88-b010-8dcf8a38bb09.png)
 
-![조건으로서의 레이블](../media/5b1752b4-a129-4a88-b010-8dcf8a38bb09.png)
+  보존 및 처리 중인 항목이 있고 다른 컨트롤을 적용하려는 경우 DLP 정책에 보존 레이블을 사용할 수 있습니다. 예를 들면 다음과 같습니다.
 
-보존 및 처리 중인 항목이 있고 다른 컨트롤을 적용하려는 경우 DLP 정책에 보존 레이블을 사용할 수 있습니다. 예를 들면 다음과 같습니다.
+  - **과세 연도 2018**이라는 보존 레이블을 게시했으며, 2018년에 과세 문서에 적용할 때 SharePoint에 저장된 10년 동안 보관한 다음 폐기합니다. 또한 DLP 정책으로 수행할 수 있는 항목을 조직 외부에서 공유하고 싶지 않습니다.
 
-- **과세 연도 2018**이라는 보존 레이블을 게시했으며, 2018년에 과세 문서에 적용할 때 SharePoint에 저장된 10년 동안 보관한 다음 폐기합니다. 또한 DLP 정책으로 수행할 수 있는 항목을 조직 외부에서 공유하고 싶지 않습니다.
-
-> [!IMPORTANT]
-> DLP 정책에서 보존 레이블을 조건으로 지정하고 Exchange 및/또는 Teams를 위치로 포함하면 이 오류가 발생합니다. **"전자 메일 및 팀 메시지에서 레이블이 지정된 콘텐츠를 보호할 수 없습니다. 아래의 레이블을 제거하거나 Exchange 및 Teams를 위치로 사용하는 것을 중지하세요."** 이는 Exchange 전송에서 메시지 제출 및 배달이 진행되는 동안 레이블 메타 데이터를 평가하지 않기 때문입니다. 
+  > [!IMPORTANT]
+  > DLP 정책에서 보존 레이블을 조건으로 지정하고 Exchange 및/또는 Teams를 위치로 포함하면 이 오류가 발생합니다. **"전자 메일 및 팀 메시지에서 레이블이 지정된 콘텐츠를 보호할 수 없습니다. 아래의 레이블을 제거하거나 Exchange 및 Teams를 위치로 사용하는 것을 중지하세요."** 이는 Exchange 전송에서 메시지 제출 및 배달이 진행되는 동안 레이블 메타 데이터를 평가하지 않기 때문입니다. 
 
 ### <a name="support-for-sensitivity-labels-is-coming"></a>민감도 레이블 지원이 곧 제공됩니다.
 
@@ -449,15 +454,15 @@ DLP는 심도 깊은 콘텐츠 분석(단순 텍스트 검색 아님)을 사용�
 
 보안 &amp; 규정 준수 센터에서 DLP 정책을 만든 후 정책은 중앙 정책 저장소에 저장되며 다음을 포함하는 다양한 콘텐츠 원본과 동기화합니다:
   
-- Exchange Online 및 웹 상 Outlook, Outlook
+- Exchange Online, 웹용 Outlook 및 Outlook.
     
-- 비즈니스용 OneDrive 사이트
+- 비즈니스용 OneDrive 사이트.
     
-- SharePoint Online 사이트
+- SharePoint Online 사이트.
     
-- Office 데스크톱 프로그램 (Excel, PowerPoint 및 Word)
+- Office 데스크톱 프로그램 (Excel, PowerPoint 및 Word).
 
-- Microsoft 팀 채널 및 채팅 메시지
+- Microsoft Teams 채널 및 채팅 메시지.
     
 정책이 올바른 위치와 동기화된 후 콘텐츠를 평가하고 작업을 적용하기 시작합니다.
 <!-- what is the time delay for first deployment of a policy and what is the sync schedule? -->
@@ -519,13 +524,13 @@ DLP 정책을 만드는 규정 준수 팀의 구성원에게는 보안 &amp; 준
 
 대부분의 보안 &amp; 준수 센터용 cmdlet을 사용하려면 다음의 단계를 따르십시오:
   
-1. [원격 PowerShell을 사용하여 Office 365 보안 &amp; 준수 센터에 연결하십시오.](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
+1. [원격 PowerShell을 사용하여 Office 365 보안 &amp; 준수 센터에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
     
-2. 해당 [정책 및 준수-dlp cmdlet](https://docs.microsoft.com/powershell/module/exchange/export-dlppolicycollection?view=exchange-ps) 중 하나를 사용하십시오.
+2. 이 [policy-and-compliance-dlp cmdlets](https://docs.microsoft.com/powershell/module/exchange/export-dlppolicycollection?view=exchange-ps) 중 하나를 사용하십시오.
     
 하지만 DLP 보고서에서는 Exchange Online을 포함한 Microsoft 365에서 데이터를 가져와야 합니다. 이러한 이유로 **DLP 보고서용 cmdlet은 보안 &amp; 준수 센터 Powershell이 아닌 Exchange Online Powershell에서 사용할 수 있습니다.** 따라서 DLP 보고서용 cmdlet을 사용하려면 다음의 단계가 필요합니다:
   
-1. [원격 PowerShell을 사용하여 Exchange Online에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)
+1. [원격 PowerShell을 사용하여 Exchange Online에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)합니다.
     
 2. 다음과 같은 DLP 보고서용 cmdlet 중 하나 사용
     
