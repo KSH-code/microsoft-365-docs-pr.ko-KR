@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용 하 든, 구성 된 설정에 따라 콘텐츠를 자동으로 삭제할지 여부에 관계 없이 콘텐츠 삭제를 모니터링 하 고 관리 합니다.
-ms.openlocfilehash: 8936289ccf42fa50b78b611c46742710cd035727
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 56eed956e4488932b7bf0f29eb3810964b8cb425
+ms.sourcegitcommit: 3274b65a3932288721541d2b3fa5ecbf4c51e1ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44678994"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702562"
 ---
 # <a name="disposition-of-content"></a>콘텐츠 처리
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
 
 Microsoft 365 준수 센터의 **레코드 관리** 에서 **처리** 탭을 사용 하 여 처리 검토를 관리 하 고 보존 기간이 끝나면 자동으로 삭제 된 [레코드](records.md) 를 확인 합니다. 
 
@@ -35,7 +35,10 @@ Microsoft 365 준수 센터의 **레코드 관리** 에서 **처리** 탭을 사
 
 ### <a name="permissions-for-disposition"></a>처리 권한
 
-Microsoft 365 준수 센터의 **처리** 탭에 액세스 하려면 **처리 관리** 역할 및 **보기 전용 감사 로그** 역할의 구성원 이어야 합니다. **처리 검토자**라는 새 역할 그룹을 만들고이 두 역할을 해당 역할 그룹에 추가 하는 것이 좋습니다. 사용자가 **전역 관리자** 인 경우에도 처리 **관리** 역할의 일부로 처리 탭에 액세스할 수 있습니다.
+Microsoft 365 준수 센터의 **처리** 탭에 성공적으로 액세스 하려면 사용자에 게 **처리 관리** 역할과 **보기 전용 감사 로그** 역할이 있어야 합니다. 기본 역할 그룹에 사용자를 추가 하는 것이 표준 조언 이지만,이 경우에는 이러한 두 역할이 포함 된 **처리 검토자** 라는 새 역할 그룹을 만들고 필요에 따라이 그룹에 사용자를 추가 하는 것이 좋습니다. 단일 역할 그룹을 사용 하면 관리 오버 헤드가 줄어들고 사용자가 필요한 사용 권한을 더 쉽게 사용할 수 있습니다.
+
+> [!NOTE]
+> 전역 관리자 라도 **처리 관리** 역할을 부여 받아야 합니다. 따라서 global admins가 처리 탭에 액세스 해야 하는 경우 처리 **검토자** 역할 그룹의 구성원으로 사용 됩니다. 
 
 **보기 전용 감사 로그** 역할에 한정 됩니다.
 
