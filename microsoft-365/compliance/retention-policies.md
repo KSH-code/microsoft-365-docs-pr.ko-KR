@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체 또는 특정 위치 또는 사용자에게 단일 정책을 적용할 수 있고 모든 콘텐츠 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: cf38eecaeaf23371c370ad07e723177e3770c7ba
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 377c5e1f21938204123de298e620a3d0d2bb9755
+ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432339"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44695141"
 ---
 # <a name="learn-about-retention-policies"></a>보존 정책에 대해 자세히 알아보기
 
@@ -141,18 +141,17 @@ SharePoint 및 OneDrive의 30일간의 유예 기간은 Exchange의 30일 지연
   
 **Exchange Online의 이전 기능:**
 
-- [Office 365 보안 및 준수 센터에서 eDiscovery 사례 관리](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery)(eDiscovery 보류) 
-    
 - [원본 위치 유지 및 소송 보존](https://go.microsoft.com/fwlink/?linkid=846124)(eDiscovery 보류) 
 
 - [Exchange Online 사서함의 보류 유형을 식별하는 방법](identify-a-hold-on-an-exchange-online-mailbox.md)
     
-- [MRM(메시징 레코드 관리)](https://go.microsoft.com/fwlink/?linkid=846126)이라고도 하는 [보존 태그 및 보존 정책](https://go.microsoft.com/fwlink/?linkid=846125) (삭제만 해당)
+- [보존 태그 및 보존 정책](https://go.microsoft.com/fwlink/?linkid=846125), [[MRM(메시징 레코드 관리)](https://go.microsoft.com/fwlink/?linkid=846126)라고도 함(삭제만 해당)
     
+또한 [레거시 eDiscovery 도구의 사용 중지](legacy-ediscovery-retirement.md)도 참조하세요.
+
+
 **SharePoint 및 OneDrive의 이전 기능:**
 
-- [Office 365 보안 및 준수 센터에서 eDiscovery 사례 관리](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery)(eDiscovery 보류) 
-    
 - [eDiscovery 센터에서 사례에 콘텐츠 추가 및 원본 우 위치 유지](https://docs.microsoft.com/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)(eDiscovery 보류) 
     
 - [문서 삭제 정책](https://support.office.com/article/Create-a-document-deletion-policy-in-SharePoint-Server-2016-4fe26e19-4849-4eb9-a044-840ab47458ff)(삭제만 해당)

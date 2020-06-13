@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 액세스 및 사용을 제한하여 데이터를 보호하는 암호화를 위한 민감도 레이블을 구성합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 78e3fcecd1253229ea9b5ab88147bafe16b85727
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.openlocfilehash: 35dfc642aee2e4d602aeb4bc1ea689dbc2589735
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470675"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44678984"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한 
 
@@ -349,7 +349,7 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 
 5. **현재 또는 사용자 지정으로 사용 권한 선택**을 선택합니다.
 
-6. **현재 또는 사용자 지정으로 사용 권한 선택** 창에서 드롭다운 상자를 선택하고 원하는 **뷰어** 사용 권한을 선택한 다음 **저장**을 선택합니다.
+6. **현재 또는 사용자 지정으로 사용 권한 선택** 창에서 드롭다운 상자를 선택하고 원하는 사용 권한을 선택한 다음 **저장**을 선택합니다.
 
 7. **사용 권한 할당** 창으로 돌아가서 **저장**을 선택합니다.
 
