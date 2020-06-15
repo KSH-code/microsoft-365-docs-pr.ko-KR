@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365의 Advanced eDiscovery에서 사례에 대 한 검토 집합의 문서에 대 한 메타 데이터 필드를 정의 합니다.
-ms.openlocfilehash: f53a754fce482ddc0944d84059b1e346e93f5067
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: 19a8b4968ea4b1d82cd6a9e9278530e6c155ef3f
+ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "42941240"
+ms.lasthandoff: 06/13/2020
+ms.locfileid: "44726454"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>고급 eDiscovery의 문서 메타 데이터 필드
 
@@ -44,8 +44,8 @@ ms.locfileid: "42941240"
 |첨부 파일 이름|AttachmentNames|Attachment_Names|첨부 파일 이름의 목록입니다.|
 |변호사 클라이언트 권한 점수|AttorneyClientPrivilegeScore||변호사-클라이언트 권한 모델 콘텐츠 점수입니다.|
 |만든 이|만든 이|Doc_authors|문서 메타 데이터의 작성자|
-|대상|대상|Email_bcc|메시지 유형에 대 한 숨은 참조 필드입니다. 형식은 ** \<DisplayName SMTPAddress>** 입니다.|
-|참조란|참조란|Email_cc|메시지 유형에 대 한 참조 필드입니다. 형식은 ** \<DisplayName SMTPAddress>** 입니다.|
+|대상|대상|Email_bcc|메시지 유형에 대 한 숨은 참조 필드입니다. 형식은 **DisplayName \<SMTPAddress> **입니다.|
+|참조란|참조란|Email_cc|메시지 유형에 대 한 참조 필드입니다. 형식은 **DisplayName \<SMTPAddress> **입니다.|
 |준수 레이블|ComplianceLabels|Compliance_labels|Office 365의 콘텐츠에 적용 되는 [보존 레이블](labels.md)|
 |컴파운드 경로|CompoundPath|Compound_path|항목의 원본을 설명 하는 사람이 읽을 수 있는 경로입니다.|
 |콘텐츠|콘텐츠||추출 된 항목의 텍스트입니다.|
@@ -110,10 +110,11 @@ ms.locfileid: "42941240"
 |시드 대/소문자 문제 1 *로 표시 된 경우||Marked_as_seed_Case_issue_1|시드 사례 1로 표시 된 경우와 관련성을 구분 합니다.|
 |모임 종료 날짜|MeetingEndDate|Meeting_end_date|모임의 모임 종료 날짜입니다.|
 |모임 시작 날짜|MeetingStartDate|Meeting_start_date|모임에 대 한 모임 시작 날짜입니다.|
-|메시지 종류|MessageKind|Message_kind|검색할 메시지의 유형입니다. 가능한 값: ** <br /> <br />contacts <br />docs <br />email <br />externaldata <br />팩스가 <br />im <br />업무 <br />일지 <br />모임 microsoftteams** (Microsoft 팀의 채팅, 모임 및 통화에서 항목 반환) ** <br />notes <br /> <br />rssfeeds <br />작업 <br />음성 메일을 게시** 합니다.| 
+|메시지 종류|MessageKind|Message_kind|검색할 메시지의 유형입니다. 가능한 값: ** <br /> <br /> contacts <br /> docs <br /> email <br /> externaldata <br /> 팩스가 <br /> im <br /> 업무 일지 <br /> 모임 <br /> microsoftteams** (Microsoft 팀의 채팅, 모임 및 통화에서 항목 반환) ** <br /> notes <br /> <br /> rssfeeds <br /> 작업 <br /> 음성 메일을 게시** 합니다.| 
 |네이티브 확장명|NativeExtension|Native_extension|항목의 네이티브 확장명입니다.|
 |기본 파일 이름|NativeFileName|Native_file_name|항목의 기본 파일 이름입니다.|
-|NativeMD5||Native_MD5|파일 스트림의 MD5 해시|
+|NativeMD5||Native_MD5|파일 스트림의 MD5 해시 (128 비트 해시 값)입니다.|
+|NativeSHA256||Native_SHA_256|파일 스트림의 SHA256 해시 (256 비트 해시 값)입니다.|
 |ND/ET Sort: 첨부 파일 제외|NdEtSortExclAttach|ND_ET_sort_excl_attach|전자 메일 스레드 (ET) 설정 및 유사 복제 (ND) 집합의 연결 이 필드는 검토 시간에 효율적으로 정렬 하는 데 사용 됩니다. **D** 는 ND 집합에 붙는 접두사이 고 **E** 에는 to ET sets가 붙습니다.|
 |ND/ET Sort: 첨부 파일 포함|NdEtSortInclAttach|ND_ET_sort_incl_attach|전자 메일 스레드 (ET) 설정 및 유사 중복 (ND) 집합의 연결 이 필드는 검토 시간에 효율적으로 정렬 하는 데 사용 됩니다. **D** 는 ND 집합에 붙는 접두사이 고 **E** 에는 to ET sets가 붙습니다. ET 집합의 각 전자 메일 항목 다음에 해당 하는 첨부 파일이 나옵니다.|
 |정규화 된 관련성 점수 사례 1||Normalized_relevance_score_case_issue_1|정규화 된 관련성 점수 사례 1과 관련성을 구분 합니다.|
@@ -142,7 +143,7 @@ ms.locfileid: "42941240"
 |관련성 점수|RelevanceScore||관련성을 기준으로 문서의 관련성 점수입니다.|
 |관련성 태그|RelevanceTag||관련성을 기준으로 문서의 관련성 점수입니다.|
 |대표 번호|RepresentativeId||정확히 중복 된 각 집합의 숫자 식별자입니다.|
-|보낸 사람|보낸 사람|Email_sender|메시지 유형 (보낸 사람) 필드입니다. 형식은 ** \<DisplayName SmtpAddress>** 입니다.|
+|보낸 사람|보낸 사람|Email_sender|메시지 유형 (보낸 사람) 필드입니다. 형식은 **DisplayName \<SmtpAddress> **입니다.|
 |보낸 사람/만든이|SenderAuthor||항목의 보낸 사람 또는 만든이로 구성 된 계산 필드입니다.|
 |보낸 사람 도메인|SenderDomain|Email_sender_domain|보낸 사람의 도메인입니다.|
 |전송할|전송할|Email_date_sent|메시지를 보낸 날짜입니다.|
@@ -155,7 +156,7 @@ ms.locfileid: "42941240"
 |태그|태그|태그|검토 집합에 적용 된 태그|
 |테마 목록|기타 Eslist|Themes_list|분석을 위해 계산 되는 테마 목록|
 |제목|제목|Doc_title|문서 메타 데이터의 제목입니다.|
-|받는 사람|받는 사람|Email_to|메시지 유형의 대상 필드 형식이 **\<DisplayName SmtpAddress>**|
+|받는 사람|받는 사람|Email_to|메시지 유형의 대상 필드 형식은 **DisplayName \<SmtpAddress> ** 입니다.|
 |전자 메일 설정의 고유|UniqueInEmailSet||전자 메일 집합에 첨부 파일이 중복 된 경우 **False** 입니다.|
 |재구성 됨|WasRemediated|Was_Remediated|항목이 재구성 된 경우 **True** 이 고 그렇지 않으면 **False**입니다.|
 |단어 개수|WordCount|Word_count|항목의 단어 수입니다.|

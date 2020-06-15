@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 for Exchange Online, 비즈니스용 Skype, SharePoint Online, 비즈니스용 OneDrive 및 팀 파일에 대 한 고객 키를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: d9438b1578b5708e9b7740f001da3870c3616c39
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 4d9a6292482a06a4629d394c5ff422ba02bec55e
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352275"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717265"
 ---
 # <a name="set-up-customer-key"></a>고객 키 설정
 
@@ -108,15 +108,15 @@ Azure 단계를 완료 한 후에는 [Microsoft FastTrack 포털](https://fasttr
 
 2. 로그인 한 후 **대시보드로**이동 합니다.
 
-3. **서비스**를 선택 하 고 현재 서비스 목록을 검토 합니다.
+3. 탐색 모음에서 **배포** 를 선택 **하거나** **배포 정보 카드에서** **모든 배포 리소스 보기** 를 선택 하 고 현재 서비스 목록을 검토 합니다.
 
-4. 사용자에 게 제공 되는 혜택에 대 한 **자세한 정보** 를 선택 합니다.
+4. 고객에 게 제공 되는 혜택에 대 한 정보 카드를 선택 합니다.
 
-   - **Exchange Online 및 비즈니스용 Skype:** **고객 키에서 Exchange 제공에 대 한** **자세한 정보** 를 선택 합니다.
+   - **Exchange Online 및 비즈니스용 Skype:** **Exchange online 서비스에 대 한 암호화 키 도움말 요청** 을 선택 합니다.
 
-   - **SharePoint Online, 비즈니스용 OneDrive 및 팀 파일:** **SharePoint 용 고객 키 및 비즈니스용 OneDrive** 제공에서 **자세한 정보** 를 선택 합니다.
+   - **SharePoint Online, OneDrive 및 팀 파일:** **Sharepoint 및 OneDrive 제공에 대 한 요청 암호화 키 도움말** 을 선택 합니다.
 
-5. **제공 세부 정보** 페이지에서 **요청 만들기**를 선택 합니다.
+5. 제안 세부 정보를 검토 한 후에는 **2 단계 계속을**선택 합니다.
 
 6. 제공 양식에서 해당 하는 모든 정보 및 요청 된 정보를 입력 합니다. 인증을 승인할 조직의 관리자가 선택한 사항에 특별히 주의 하 여 암호화 키와 데이터의 영구 및 복구할 수 없는 소멸을 승인 해야 합니다. 양식을 완료 했으면 **제출을**선택 합니다.
 
@@ -137,7 +137,7 @@ Microsoft 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각
 
 3. Microsoft에 문의 하 여 해당 프로세스를 완료 합니다. SharePoint 및 비즈니스용 OneDrive 팀의 경우 [spock@microsoft.com](mailto:spock@microsoft.com)에 문의 하세요. Exchange Online 및 비즈니스용 Skype에 대 한 자세한 내용은 [exock@microsoft.com](mailto:exock@microsoft.com)에 문의 하세요. 전자 메일에 다음을 포함 합니다.
 
-   **제목**: \< *테 넌 트의 정규화 된 도메인 이름* 에 대 한 고객 키\>
+   **제목**: 다음에 대 한 고객 키\<*Your tenant's fully-qualified domain name*\>
 
    **Body**: 필수 보존 기간을 완료 하려는 구독 id입니다.
    각 구독에 대 한 AzProviderFeature의 출력입니다.

@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 ms.assetid: f87cb016-7876-4317-ae3c-9169b311ff8a
 description: Office 365 메시지 암호화를 사용 하면 조직에서 조직 내부 및 외부의 사용자 간에 암호화 된 전자 메일 메시지를 보내고 받을 수 있습니다. 전자 메일 메시지 암호화는 의도 된 받는 사람만 메시지 콘텐츠를 볼 수 있도록 합니다.
-ms.openlocfilehash: e4210feb2f510507a1d930ffed6ac784566951b5
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: f5ce3103a6fc8c9f025d657408814a954cf0a13e
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214234"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717329"
 ---
 # <a name="message-encryption"></a>메시지 암호화
 
@@ -33,9 +33,6 @@ Office 365 메시지 암호화를 사용 하면 조직에서 조직 내부 및 �
 ## <a name="how-office-365-message-encryption-works"></a>Office 365 메시지 암호화가 작동 하는 방식
 
 이 문서의 나머지 부분은 새로운 OME 기능에 적용 됩니다.
-
-> [!NOTE]
-> 사서함에 대 한 모든 권한이 있는 대리인은 사서함으로 전송 되는 암호화 된 메시지를 읽을 수 있습니다.
 
 Office 365 메시지 암호화는 Azure Information Protection의 일부인 Microsoft Azure RMS (서비스 권한 관리)를 기반으로 작성 된 온라인 서비스가 됩니다. 여기에는 전자 메일을 보호 하는 데 도움이 되는 암호화, id 및 권한 부여 정책이 포함 됩니다. 권한 관리 템플릿, [전달 금지 옵션](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)및 [암호화 전용 옵션](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)을 사용 하 여 메시지를 암호화할 수 있습니다.
 

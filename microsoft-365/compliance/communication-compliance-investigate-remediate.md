@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 3cef513d6b89634e16e0a0b4516f403cf1a794af
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 5bda1556b5726c6e94a6860c7c57f3f7082f2f5e
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208400"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717319"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts"></a>커뮤니케이션 규정 준수 알림 검사 및 수정
 
@@ -70,7 +70,7 @@ ms.locfileid: "44208400"
 
 ### <a name="using-near-and-exact-duplicate-analysis"></a>유사 및 정확히 중복 분석 사용
 
-통신 준수 정책은 추가 구성 단계를 수행 하지 않고 근거리 및 정확히 메시지 복제를 자동으로 검색 하 고 사전 그룹화 합니다. 이 보기를 통해 유사한 메시지를 일대일 또는 그룹으로 빠르게 재구성 하 여 검토자에 대 한 메시지 조사 부담을 줄일 수 있습니다. 중복 항목이 검색 됨에 따라 업데이트 관리 작업 도구 모음에는 **거의 중복** 및/또는 **정확히 중복** 되는 컨트롤이 표시 됩니다.
+통신 준수 정책은 추가 구성 단계를 수행 하지 않고 근거리 및 정확히 메시지 복제를 자동으로 검색 하 고 사전 그룹화 합니다. 이 보기를 통해 유사한 메시지를 일대일 또는 그룹으로 빠르게 재구성 하 여 검토자에 대 한 메시지 조사 부담을 줄일 수 있습니다. 중복 항목이 검색 됨에 따라 업데이트 관리 작업 도구 모음에는 **거의 중복** 및/또는 **정확히 중복** 되는 컨트롤이 표시 됩니다. 근접 했거나 정확 하 게 중복을 찾을 수 없는 경우에는이 보기를 사용 하지 않습니다.
 
 #### <a name="to-remediate-duplicates"></a>중복 항목을 수정 하려면
 

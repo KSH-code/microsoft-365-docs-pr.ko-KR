@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 고객 키를 설정한 후에는 AKV 키를 복원 하 고 사용 권한 및 데이터 암호화 정책을 관리 하 여이를 관리 하는 방법을 알아봅니다.
-ms.openlocfilehash: dbdbd61b4d06e183d8cc5461122e316b2b6b1797
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 21c1fedce1ebc09e6c33b74a1b2c035c90988e12
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352205"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717309"
 ---
 # <a name="manage-customer-key"></a>고객 키 관리
 
@@ -142,13 +142,7 @@ Get-MailboxStatistics -Identity <GeneralMailboxOrMailUserIdParameter> | fl IsEnc
 
 사서함이 암호화 된 경우 IsEncrypted 속성은 **true** 값을 반환 하 고 사서함이 암호화 되지 않은 경우에는 **false** 로 설정 합니다.
 
-사서함 이동이 완료 되는 시간은 사서함의 크기에 따라 달라 집니다. 고객 키가 새 DEP를 할당 한 시간부터 72 시간 후 사서함을 완전히 암호화 하지 않은 경우 사서함 이동을 시작 합니다. 이 작업을 수행 하려면 New-moverequest cmdlet을 사용 하 여 사서함의 별칭을 제공 합니다. 예시:
-  
-```powershell
-New-MoveRequest <alias>
-```
-
-이 cmdlet에 대 한 자세한 내용은 [get-mailboxstatistics](https://docs.microsoft.com/powershell/module/exchange/new-moverequest?view=exchange-ps)를 참조 하십시오.
+사서함 이동이 완료 되는 시간은 사서함의 크기에 따라 달라 집니다. 고객 키가 새 DEP를 할당 한 시간부터 72 시간 후 사서함을 완전히 암호화 하지 않은 경우 Microsoft 지원에 문의 하 여 도움을 요청 하세요. New-moverequest cmdlet은 로컬 사서함 이동에 더 이상 사용할 수 없습니다. 자세한 내용은 [이 공지](https://techcommunity.microsoft.com/t5/exchange-team-blog/disabling-new-moverequest-for-local-mailbox-moves/bc-p/1332141) 를 참조 하십시오.
 
 ### <a name="verify-encryption-completes-for-sharepointonlineonedriveforbusinessandteamsfiles"></a>SharePoint Online, 비즈니스용 OneDrive 및 팀 파일에 대 한 암호화 완료 확인
 

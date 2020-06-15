@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Office 365에서는 콘텐츠가 rest에서 암호화 되 고 가장 강력한 암호화, 프로토콜 및 기술이 제공 된 상태로 전송 됩니다. Office 365의 암호화에 대 한 개요를 가져옵니다.
-ms.openlocfilehash: 16b7786097690af6a2dbb558582a7cf88e605bec
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 2b1f2927b5d6daeb5e83aae2521d96e329e77c43
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166009"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717231"
 ---
 # <a name="encryption"></a>암호화
 
@@ -54,6 +54,7 @@ Office 365에서는 여러 계층 및 암호화 종류를 함께 사용 하 여 
 |장치에 있는 파일 이러한 파일에는 폴더에 저장 된 전자 메일 메시지, 컴퓨터, 태블릿 또는 휴대폰에 저장 된 Office 문서, Microsoft 클라우드에 저장 된 데이터가 포함 될 수 있습니다.  <br/> |Microsoft 데이터 센터의 BitLocker BitLocker는 Windows 컴퓨터 및 태블릿과 같은 클라이언트 컴퓨터 에서도 사용할 수 있습니다.  <br/> Microsoft 데이터 센터의 DKM (분산 키 관리자)  <br/> Microsoft 365에 대 한 고객 키  <br/> |[Windows IT 센터: BitLocker](https://docs.microsoft.com/windows/device-security/bitlocker/bitlocker-overview) <br/> [Microsoft 보안 센터: 암호화](https://www.microsoft.com/TrustCenter/Security/Encryption) <br/> [클라우드 보안 컨트롤 계열: 휴지에서 데이터 암호화](https://blogs.microsoft.com/microsoftsecure/2015/09/10/cloud-security-controls-series-encrypting-data-at-rest) <br/> [Exchange Online이 전자 메일 암호를 보호하는 방법](exchange-online-secures-email-secrets.md) <br/> [고객 키를 사용한 서비스 암호화](customer-key-overview.md) <br/> |
 |사용자 간 전송 중인 파일 이러한 파일에는 사용자 간에 공유 되는 Office 문서 또는 SharePoint 목록 항목이 포함 될 수 있습니다.  <br/> |전송 중인 파일에 대 한 TLS  <br/> |[비즈니스용 OneDrive 및 SharePoint Online에서의 데이터 암호화](data-encryption-in-odb-and-spo.md) <br/> [비즈니스용 Skype Online: 보안 및 보관](https://technet.microsoft.com/library/skype-for-business-online-security-and-archiving.aspx) <br/> |
 |받는 사람 간 전송 되는 전자 메일입니다. 이 전자 메일에는 Exchange Online에서 호스팅하는 전자 메일이 포함 됩니다.  <br/> |전송 중인 전자 메일에 대 한 Azure 권한 관리, S/MIME 및 TLS를 사용한 Office 365 메시지 암호화  <br/> |[OME(Office 365 메시지 암호화)](ome.md) <br/> [Office 365의 전자 메일 암호화](email-encryption.md) <br/> [Office 365의 전자 메일 연결 보안을 위해 Exchange Online에서 TLS를 사용하는 방법](exchange-online-uses-tls-to-secure-email-connections.md) <br/> |
+|Microsoft 팀을 사용 하 여 받는 사람 간에 전송 되는 채팅, 메시지 및 파일 <br/> |팀에서는 TLS 및 MTLS를 사용 하 여 인스턴트 메시지를 암호화 합니다. 미디어 트래픽은 보안 RTP (SRTP)를 사용 하 여 암호화 됩니다. 팀에서는 암호화 키 교환의 FIPS (연방 정보 처리 표준) 규격 알고리즘을 사용 합니다. <br/> |[팀에 대 한 암호화](https://docs.microsoft.com/microsoftteams/teams-security-guide#encryption-for-teams) <br/> |
 
 ## <a name="what-if-i-need-more-control-over-encryption-to-meet-security-and-compliance-requirements"></a>보안 및 규정 준수 요구 사항을 충족 하기 위해 암호화를 보다 강력 하 게 제어 해야 하는 경우
 
@@ -78,6 +79,7 @@ Microsoft 365에서는 Office 365에서 볼륨 암호화, 파일 암호화 및 �
 |모바일 장치에서 암호화 된 메시지 작업  <br/> |[Android 장치에서 암호화 된 메시지 보기](https://support.office.com/article/83d60f17-2305-407a-a762-7d518401fdeb) <br/> [IPhone 또는 iPad에서 암호화 된 메시지 보기](https://support.microsoft.com/en-us/office/view-protected-messages-on-your-iphone-or-ipad-4d631321-0d26-4bcc-a483-d294dd0b1caf) <br/> |
 |암호 보호를 사용 하 여 문서 암호화  <br/><br/>  암호 보호는 브라우저에서 지원 되지 않습니다. 데스크톱 버전의 Word, Excel 및 PowerPoint를 암호 보호에 사용 합니다. |[문서, 통합 문서 또는 프레젠테이션에서 보호 기능 추가 또는 제거](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) <br/> **보호 추가** 섹션을 선택한 다음 **암호를 사용 하 여 암호화**를 확인 합니다.  |
 |문서에서 암호화 제거  <br/> |[문서, 통합 문서 또는 프레젠테이션에서 보호 기능 추가 또는 제거](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) <br/> **보호 제거** 섹션을 선택 하 고 **암호 암호화 제거**를 참조 하세요.  |
+
 
 ## <a name="related-topics"></a>관련 항목
 

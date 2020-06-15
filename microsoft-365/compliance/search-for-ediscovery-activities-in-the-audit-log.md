@@ -16,22 +16,24 @@ search.appverid:
 - MET150
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: 준수 관리자가 보안 & 준수 센터에서 콘텐츠 검색 및 eDiscovery 사례 작업을 수행할 때 기록 되는 이벤트에 대 한 감사 로그를 검색 하는 방법을 알아봅니다.
-ms.openlocfilehash: f575953fb2d48ac996e443589ff312743d93d424
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: e7ed3ddf16d22750449d3211d96800334676e519
+ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943657"
+ms.lasthandoff: 06/13/2020
+ms.locfileid: "44726515"
 ---
 # <a name="search-for-ediscovery-activities-in-the-audit-log"></a>감사 로그에서 eDiscovery 활동 검색
 
-보안 & 준수 센터에서 또는 해당 PowerShell cmdlet을 실행 하 여 수행 되는 콘텐츠 검색 및 eDiscovery 관련 작업은 감사 로그에 기록 됩니다. 이벤트는 관리자나 eDiscovery 관리자 또는 사용자가 할당 한 eDiscovery 권한이 있는 경우 보안 & 준수 센터에서 다음과 같은 콘텐츠 검색 및 핵심 eDiscovery 작업을 수행할 때 기록 됩니다.
+보안 & 준수 센터에서 또는 해당 PowerShell cmdlet을 실행 하 여 수행 되는 핵심 eDiscovery 및 고급 eDiscovery에 대 한 콘텐츠 검색 및 eDiscovery 관련 작업을 감사 로그에 기록 합니다. 이벤트는 관리자나 eDiscovery 관리자 또는 사용자가 할당 한 eDiscovery 권한이 있는 경우 보안 & 준수 센터에서 다음과 같은 콘텐츠 검색 및 핵심 eDiscovery 작업을 수행할 때 기록 됩니다.
   
-- eDiscovery 사례 만들기 및 관리
+- 핵심 및 고급 eDiscovery 사례 만들기 및 관리
 
 - 콘텐츠 검색 만들기, 시작 및 편집
 
 - 검색 결과 미리 보기, 내보내기, 삭제 등 콘텐츠 검색 작업 수행
+
+- 고급 eDiscovery에서 custodians 및 검토 집합 관리
 
 - 콘텐츠 검색에 대한 사용 권한 필터링 구성
 
@@ -47,31 +49,33 @@ ms.locfileid: "43943657"
 현재 감사 로그에서 eDiscovery 활동을 확인 하려면 몇 가지 특정 작업을 수행 해야 합니다. 이 작업을 수행하는 방법은 다음과 같습니다.
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
-    
+
 2. 회사 또는 학교 계정을 사용하여 로그인합니다.
-    
+
 3. 왼쪽 창에서 **검색**을 클릭 하 고 **감사 로그 검색**을 클릭 합니다.
-    
-4. **작업** 드롭다운 목록의 **eDiscovery 활동**에서 검색할 하나 이상의 활동을 클릭 합니다. 또는 **ediscovery 활동** 을 클릭 하 여 모든 ediscovery 관련 활동을 검색할 수 있습니다. 
-    
+
+4. **작업** 드롭다운 목록의 **EDiscovery 작업** 또는 **고급 eDiscovery 활동**에서 검색할 활동을 하나 이상 클릭 합니다.
+
     > [!NOTE]
-    > 또한 작업 드롭다운 목록에는 cmdlet 감사 로그의 레코드를 반환 하는 **eDiscovery cmdlet 작업** 이라는 작업 그룹이 포함 되어 있습니다. 
+    > 또한 **작업** 드롭다운 목록에는 cmdlet 감사 로그의 레코드를 반환 하는 **eDiscovery cmdlet 작업** 이라는 작업 그룹이 포함 되어 있습니다.
   
-5.  날짜 및 시간 범위를 선택 하 여 해당 기간 내에 발생 한 eDiscovery 이벤트를 표시 합니다. 
-    
-6. **사용자** 상자에서 검색 결과를 표시할 사용자를 한 명 이상 선택 합니다. 모든 사용자에 대 한 항목을 반환 하려면이 상자를 비워 둡니다. 
-    
-7. **검색**을 클릭하여 검색 조건을 사용한 검색을 실행합니다.  
-    
+5. 날짜 및 시간 범위를 선택 하 여 해당 기간 내에 발생 한 eDiscovery 이벤트를 표시 합니다. 
+
+6. **사용자** 상자에서 검색 결과를 표시할 사용자를 한 명 이상 선택 합니다. 모든 사용자에 대 한 항목을 반환 하려면이 상자를 비워 둡니다.
+
+7. **검색**을 클릭하여 검색 조건을 사용한 검색을 실행합니다. 
+
 8. 검색 결과가 표시 된 후 **결과 필터링** 을 클릭 하 여 결과 활동 레코드를 필터링 하거나 정렬할 수 있습니다. 아쉽게도 필터링을 사용 하 여 특정 활동을 명시적으로 제외할 수는 없습니다. 
-    
+
 9. 활동에 대 한 세부 정보를 보려면 검색 결과 목록에서 활동 레코드를 클릭 합니다. 
-    
-    이벤트 레코드의 자세한 속성을 포함 하는 **세부 정보가** 플라이 아웃 페이지에 표시 됩니다. 자세한 내용을 표시 하려면 **추가 정보**를 클릭 합니다. 이러한 속성에 대 한 [자세한 내용은 eDiscovery 작업에 대 한 자세한 속성](#detailed-properties-for-ediscovery-activities) 섹션을 참조 하십시오. 
+
+    이벤트 레코드의 자세한 속성을 포함 하는 **세부 정보가** 플라이 아웃 페이지에 표시 됩니다. 자세한 내용을 표시 하려면 **추가 정보**를 클릭 합니다. 이러한 속성에 대 한 [자세한 내용은 eDiscovery 작업에 대 한 자세한 속성](#detailed-properties-for-ediscovery-activities) 섹션을 참조 하십시오.
+
+10. 필요한 경우 감사 로그 검색 결과를 CSV 파일로 내보낸 다음 Excel 파워 쿼리 기능을 사용 하 여 이러한 레코드의 서식 지정 및 필터링을 수행할 수 있습니다. 자세한 내용은 [감사 로그 레코드 내보내기, 구성 및 보기](export-view-audit-log-records.md)를 참조하세요.
 
 ## <a name="ediscovery-activities"></a>eDiscovery 활동
 
-다음 표에서는 관리자 또는 eDiscovery 관리자가 보안 & 준수 센터를 사용 하 여 eDiscovery 관련 작업을 수행 하거나 보안 & 준수 센터 PowerShell에서 해당 cmdlet을 실행 하는 경우 기록 되는 콘텐츠 검색 및 핵심 eDiscovery 작업에 대해 설명 합니다. 
+다음 표에서는 관리자 또는 eDiscovery 관리자가 보안 & 준수 센터를 사용 하 여 eDiscovery 관련 작업을 수행 하거나 보안 & 준수 센터 PowerShell에서 해당 cmdlet을 실행 하는 경우 기록 되는 콘텐츠 검색 및 핵심 eDiscovery 작업에 대해 설명 합니다. 또한이 목록에서 활동을 검색할 때 Advanced에서 수행 되는 일부 활동이 반환 됩니다.
   
 > [!NOTE]
 > 이 섹션에서 설명 하는 eDiscovery 작업은 다음 섹션에서 설명 하는 eDiscovery cmdlet 작업에 대 한 유사한 정보를 제공 합니다. 이 섹션에서 설명 하는 eDiscovery 작업은 감사 로그 검색 결과에서 30 분 이내에 표시 되므로 사용 하는 것이 좋습니다. EDiscovery cmdlet 작업이 감사 로그 검색 결과에 표시 되는 데 최대 24 시간이 걸릴 수 있습니다. 
@@ -118,9 +122,40 @@ ms.locfileid: "43943657"
 |(없음)|ViewedSearchPreviewed|New-compliancesearchaction-Preview|사용자는 보안 및 준수 센터에서 또는 cmdlet을 실행 하 여 콘텐츠 검색 결과를 미리 볼 수 있습니다.|
 |||||
   
+## <a name="advanced-ediscovery-activities"></a>고급 eDiscovery 활동
+
+다음 표에서는 감사 로그에 기록 된 고급 eDiscovery 작업에 대해 설명 합니다. 이러한 작업 (관련 eDiscovery 활동 외에도 고급 eDiscovery 사례에서 활동 진행을 추적 하는 데 도움이 될 수 있습니다.
+
+|**친숙한 이름**|**작업**|**설명**|
+|:-----|:-----|:-----|
+|다른 검토 집합에 데이터 추가됨|AddWorkingSetQueryToWorkingSet|사용자가 한 검토 집합에서 다른 검토 집합으로 문서를 추가했습니다.|
+|검토 집합에 데이터 추가됨|AddQueryToWorkingSet|사용자가 고급 eDiscovery 사례와 연결된 콘텐츠 검색에서 검토 집합에 검색 결과를 추가했습니다.|
+|검토 집합에 비 Microsoft 365 데이터 추가됨|AddNonOffice365DataToWorkingSet|사용자가 검토 집합에 비 Microsoft 365 데이터를 추가했습니다.|
+|수정된 문서가 검토 집합에 추가됨|AddRemediatedData|사용자가 검토 집합으로 수정된 색인 작성 오류가 있는 문서를 업로드합니다.|
+|검토 집합의 데이터가 분석됨|RunAlgo|사용자가 검토 집합의 문서에 대한 분석을 실행했습니다.|
+|검토 집합의 문서에 주석이 달림|AnnotateDocument|사용자가 검토 집합의 문서에 주석을 달았습니다. 주석에는 문서의 내용을 편집하는 것이 포함되어 있습니다. |
+|부하 집합 비교됨|LoadComparisonJob|사용자가 검토 집합에서 서로 다른 두 개의 부하 집합을 비교했습니다. 부하 집합은 사례와 연결된 콘텐츠 검색 데이터가 검토 집합에 추가되는 경우입니다.|
+|편집된 문서가 PDF로 변환됨|BurnJob|사용자가 검토의 모든 편집된 문서를 PDF 파일로 변환했습니다.|
+|검토 집합 생성됨|CreateWorkingSet|사용자가 검토 집합을 만들었습니다.|
+|검토 집합 검색 생성됨|CreateWorkingSetSearch|사용자가 검토 집합에서 문서를 검색하는 검색 쿼리를 만들었습니다.|
+|태그 생성됨|태그 생성|사용자가 검토 집합에 태그 그룹을 만들었습니다. 태그 그룹에는 하나 이상의 하위 태그가 포함될 수 있습니다. 그런 다음 이 태그를 사용하여 검토 집합의 문서에 태그를 지정합니다.|
+|검토 집합 검색 삭제됨|DeleteWorkingSetSearch|사용자가 검토 집합에서 검색 쿼리를 삭제했습니다.|
+|태그 삭제됨|DeleteTag|사용자가 검토 집합의 태그 그룹을 삭제었습니다.|
+|문서 다운로드됨|DownloadDocument|사용자가 검토 집합에서 문서를 다운로드했습니다.|
+|태그 편집됨|UpdateTag|사용자가 검토 집합에서 태그를 변경했습니다.|
+|검토 집합에서 문서 내보냄|ExportJob|사용자가 검토 집합에서 문서를 내보냈습니다.|
+|사례 설정 수정됨|UpdateCaseSettings|사용자가 사례에 대한 설정을 수정했습니다. 사례 설정에는 사례 정보, 액세스 권한 및 검색 및 분석 동작을 제어하는 설정이 포함됩니다.|
+|검토 집합 검색 수정됨|UpdateWorkingSetSearch|사용자가 검토 집합에서 검색 쿼리를 편집했습니다.|
+|검토 집합 검색 미리 보기됨|PreviewWorkingSetSearch|사용자가 검토 집합에 검색 쿼리의 결과를 미리 보았습니다.|
+|오류 문서 수정됨|ErrorRemediationJob|사용자가 인덱싱 오류가 있는 파일을 수정합니다.|
+|문서에 태그가 지정됨|TagFiles|사용자가 검토 집합의 문서에 태그를 지정합니다.|
+|쿼리의 결과가 태그됨|TagJob|사용자는 검토 집합의 검색 쿼리 조건과 일치하는 모든 문서를 태그합니다.|
+|검토 집합의 문서 조회됨|ViewDocument|사용자가 검토 집합의 문서를 조회했습니다.|
+|||
+
 ## <a name="ediscovery-cmdlet-activities"></a>eDiscovery cmdlet 작업
 
-다음 표에서는 관리자 또는 사용자가 보안 & 준수 센터를 사용 하 여 eDiscovery 관련 작업을 수행 하거나 조직의 보안 & 준수 센터에 연결 된 원격 PowerShell에서 해당 cmdlet을 실행 하 여 기록 되는 cmdlet 감사 로그 레코드를 보여 줍니다. 이 표에 나와 있는 cmdlet 작업 및 이전 섹션에 설명 된 eDiscovery 작업에 대 한 감사 로그 레코드의 자세한 정보는 서로 다릅니다. 
+다음 표에서는 관리자 또는 사용자가 보안 & 준수 센터를 사용 하 여 eDiscovery 관련 작업을 수행 하거나 조직의 보안 & 준수 센터에 연결 된 원격 PowerShell에서 해당 cmdlet을 실행 하 여 기록 되는 cmdlet 감사 로그 레코드를 보여 줍니다. 이 표에 나와 있는 cmdlet 작업 및 이전 섹션에 설명 된 eDiscovery 작업에 대 한 감사 로그 레코드의 자세한 정보는 서로 다릅니다.
   
 앞에서 설명한 것 처럼 감사 로그 검색 결과에 eDiscovery cmdlet 작업을 표시 하는 데 최대 24 시간이 걸릴 수 있습니다.
   
