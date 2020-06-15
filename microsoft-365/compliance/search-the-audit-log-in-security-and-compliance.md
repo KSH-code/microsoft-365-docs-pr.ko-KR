@@ -18,18 +18,18 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자와 관리자 활동을 확인합니다. '
-ms.openlocfilehash: d743a397d16e107b43c07ac1556b0a6b01c7181a
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 7602042c0bd8fb46b497bdf0fc16bb6b02809074
+ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352131"
+ms.lasthandoff: 06/13/2020
+ms.locfileid: "44726525"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
 ## <a name="introduction"></a>소개
 
-사용자가 특정 문서를 보았는지 또는 사서함에서 항목을 제거했는지 확인해야 하나요? 그렇다면 보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자와 관리자 활동을 확인합니다. 통합된 감사 로그를 사용하는 이유는 무엇일까요? Office 365에서 다음과 같은 유형의 사용자 및 관리자 활동을 검색할 수 있기 때문입니다.
+사용자가 특정 문서를 보았는지 또는 사서함에서 항목을 제거했는지 확인해야 하나요? 그렇다면 보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자와 관리자 활동을 확인합니다. 통합된 감사 로그를 사용하는 이유는 무엇일까요? Office 365에서 다음과 같은 유형의 [사용자 및 관리자 활동](#audited-activities)을 검색할 수 있기 때문입니다.
 
 - SharePoint Online 및 비즈니스용 OneDrive의 사용자 활동
 
@@ -310,10 +310,10 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |[사용자 관리 활동](#user-administration-activities)|[Azure AD 그룹 관리 활동](#azure-ad-group-administration-activities)|[응용 프로그램 관리 활동](#application-administration-activities)|
 |[역할 관리 활동](#role-administration-activities)|[디렉터리 관리 활동](#directory-administration-activities)|[eDiscovery 활동](#ediscovery-activities)|
 |[고급 eDiscovery 활동](#advanced-ediscovery-activities)|[Power BI 활동](#power-bi-activities)|[Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)|
-|[Microsoft Teams 활동](#microsoft-teams-activities)|[Microsoft Teams 보건 활동](#microsoft-teams-healthcare-activities)|[Yammer 활동](#yammer-activities)|
-|[Microsoft Power Automate 활동](#microsoft-power-automate-activities)|[Microsoft Power Apps 활동](#microsoft-power-apps-activities)|[Microsoft Stream 활동](#microsoft-stream-activities)|
-|[콘텐츠 탐색기 활동](#content-explorer-activities)|[격리 활동](#quarantine-activities)|[Microsoft Forms 활동](#microsoft-forms-activities)
-|[민감도 레이블 및 활동](#sensitivity-label-activities)|[Exchange 관리자 활동](#exchange-admin-audit-log)|||
+|[Microsoft Teams 활동](#microsoft-teams-activities)|[Microsoft Teams 보건 활동](#microsoft-teams-healthcare-activities)|[Microsoft Teams 교대 활동](#microsoft-teams-shifts-activities)|
+|[Yammer 활동](#yammer-activities)|[Microsoft Power Automate 활동](#microsoft-power-automate-activities)|[Microsoft Power Apps 활동](#microsoft-power-apps-activities)|
+|[Microsoft Stream 활동](#microsoft-stream-activities)|[콘텐츠 탐색기 활동](#content-explorer-activities)|[격리 활동](#quarantine-activities)|
+|[Microsoft Forms 활동](#microsoft-forms-activities)|[민감도 레이블 및 활동](#sensitivity-label-activities)|[Exchange 관리자 활동](#exchange-admin-audit-log)|
 ||||
 
 ### <a name="file-and-page-activities"></a>파일 및 페이지 활동
@@ -673,38 +673,11 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 기록되는 eDiscovery 활동의 목록과 자세한 설명을 보려면 [감사 로그에서 eDiscovery 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md)을 참조하세요.
 
 > [!NOTE]
-> **활동** 드롭다운 목록의 **eDiscovery 활동** 아래에 나열된 활동에서 발생한 이벤트가 검색 결과에 표시될 때까지 최대 30분이 걸립니다. 반대로, eDiscovery cmdlet 활동의 해당 이벤트가 검색 결과에 나타날 때까지는 최대 24시간이 걸립니다.
+> **활동** 드롭다운 목록에서 **eDiscovery 활동** 및 **고급 eDiscorvery 활동**에서 발생한 이벤트가 검색 결과에 표시 되는데까지는 최대 30분이 걸립니다. 반대로, eDiscovery cmdlet 활동의 해당 이벤트가 검색 결과에 나타날 때까지는 최대 24시간이 걸립니다.
 
 ### <a name="advanced-ediscovery-activities"></a>고급 eDiscovery 활동
 
-다음 표에는 Microsoft 365의 고급 eDiscovery에 대한 작업을 수행하는 IT 및 법인 전문가의 활동 목록이 나와 있습니다. 자세한 내용은 M[icrosoft 365의 고급 eDiscovery 솔루션 개요](overview-ediscovery-20.md)를 참조하세요.
-
-|**친숙한 이름**|**작업**|**설명**|
-|:-----|:-----|:-----|
-|다른 검토 집합에 데이터 추가됨|AddWorkingSetQueryToWorkingSet|사용자가 한 검토 집합에서 다른 검토 집합으로 문서를 추가했습니다.|
-|검토 집합에 데이터 추가됨|AddQueryToWorkingSet|사용자가 고급 eDiscovery 사례와 연결된 콘텐츠 검색에서 검토 집합에 검색 결과를 추가했습니다.|
-|검토 집합에 비 Microsoft 365 데이터 추가됨|AddNonOffice365DataToWorkingSet|사용자가 검토 집합에 비 Microsoft 365 데이터를 추가했습니다.|
-|수정된 문서가 검토 집합에 추가됨|AddRemediatedData|사용자가 검토 집합으로 수정된 색인 작성 오류가 있는 문서를 업로드합니다.|
-|검토 집합의 데이터가 분석됨|RunAlgo|사용자가 검토 집합의 문서에 대한 분석을 실행했습니다.|
-|검토 집합의 문서에 주석이 달림|AnnotateDocument|사용자가 검토 집합의 문서에 주석을 달았습니다. 주석에는 문서의 내용을 편집하는 것이 포함되어 있습니다. |
-|부하 집합 비교됨|LoadComparisonJob|사용자가 검토 집합에서 서로 다른 두 개의 부하 집합을 비교했습니다. 부하 집합은 사례와 연결된 콘텐츠 검색 데이터가 검토 집합에 추가되는 경우입니다.|
-|편집된 문서가 PDF로 변환됨|BurnJob|사용자가 검토의 모든 편집된 문서를 PDF 파일로 변환했습니다.|
-|검토 집합 생성됨|CreateWorkingSet|사용자가 검토 집합을 만들었습니다.|
-|검토 집합 검색 생성됨|CreateWorkingSetSearch|사용자가 검토 집합에서 문서를 검색하는 검색 쿼리를 만들었습니다.|
-|태그 생성됨|태그 생성|사용자가 검토 집합에 태그 그룹을 만들었습니다. 태그 그룹에는 하나 이상의 하위 태그가 포함될 수 있습니다. 그런 다음 이 태그를 사용하여 검토 집합의 문서에 태그를 지정합니다.|
-|검토 집합 검색 삭제됨|DeleteWorkingSetSearch|사용자가 검토 집합에서 검색 쿼리를 삭제했습니다.|
-|태그 삭제됨|DeleteTag|사용자가 검토 집합의 태그 그룹을 삭제었습니다.|
-|문서 다운로드됨|DownloadDocument|사용자가 검토 집합에서 문서를 다운로드했습니다.|
-|태그 편집됨|UpdateTag|사용자가 검토 집합에서 태그를 변경했습니다.|
-|검토 집합에서 문서 내보냄|ExportJob|사용자가 검토 집합에서 문서를 내보냈습니다.|
-|사례 설정 수정됨|UpdateCaseSettings|사용자가 사례에 대한 설정을 수정했습니다. 사례 설정에는 사례 정보, 액세스 권한 및 검색 및 분석 동작을 제어하는 설정이 포함됩니다.|
-|검토 집합 검색 수정됨|UpdateWorkingSetSearch|사용자가 검토 집합에서 검색 쿼리를 편집했습니다.|
-|검토 집합 검색 미리 보기됨|PreviewWorkingSetSearch|사용자가 검토 집합에 검색 쿼리의 결과를 미리 보았습니다.|
-|오류 문서 수정됨|ErrorRemediationJob|사용자가 인덱싱 오류가 있는 파일을 수정합니다.|
-|문서에 태그가 지정됨|TagFiles|사용자가 검토 집합의 문서에 태그를 지정합니다.|
-|쿼리의 결과가 태그됨|TagJob|사용자는 검토 집합의 검색 쿼리 조건과 일치하는 모든 문서를 태그합니다.|
-|검토 집합의 문서 조회됨|ViewDocument|사용자가 검토 집합의 문서를 조회했습니다.|
-|||
+고급 eDiscovery에서 활동에 대한 감사 로그를 검색할 수 있습니다. 이 활동에 대한 설명은 [감사 로그에서 eDiscovery 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md#advanced-ediscovery-activities)에서 “고급 eDiscovery 활동” 섹션을 참조하세요.
 
 ### <a name="power-bi-activities"></a>Power BI 활동
 
@@ -745,10 +718,10 @@ Workplace Analytics는 조직에서 그룹이 공동으로 작업하는 방법�
 |커넥터 추가됨|ConnectorAdded|사용자가 채널에 커넥터를 추가합니다.|
 |구성원이 추가됨|MemberAdded|팀 소유자가 팀, 채널 또는 그룹 채팅에 구성원을 추가합니다.|
 |탭 추가됨|TabAdded|사용자가 채널에 탭을 추가합니다.|
-|채널 설정 변경함|ChannelSettingChanged|ChannelSettingChanged 작업은 팀 구성원이 다음 활동을 수행하는 경우 로깅됩니다. 각 활동에 대해 감사 로그 검색 결과의 **항목** 열에 변경된 설정에 대한 설명(아래에서 괄호 안에 표시된 내용)이 표시됩니다. <br/><br/>* 팀 채널의 이름을 변경합니다(**채널 이름**). <br/><br/>* 팀 채널의 설명을 변경합니다(**채널 설명**).|
-|조직 설정 변경함|TeamsTenantSettingChanged|TeamsTenantSettingChanged 작업은 Microsoft 365 관리 센터를 사용하여 전역 관리자가 다음 활동을 수행할 때 기록됩니다. 이러한 활동은 조직 전체의 Microsoft Teams 설정에 영향을 미칩니다. 자세한 내용은 [Microsoft Teams의 관리자 설정](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365)을 참조하세요. <br/> 각 활동에 대해 감사 로그 검색 결과의 **항목** 열에 변경된 설정에 대한 설명(아래에서 괄호 안에 표시된 내용)이 표시됩니다. <br/><br/>* 조직에서 Microsoft Teams를 사용하거나 사용하지 않도록 설정합니다(**Microsoft Teams**). <br/><br/>* 조직에서 Microsoft Teams과 비즈니스용 Skype 사이의 상호 운용성을 사용하거나 사용하지 않도록 설정합니다(**비즈니스용 Skype 상호 운용성**). <br/><br/>* Microsoft Teams 클라이언트에서 조직도 보기를 사용하거나 사용하지 않습니다(조직도 보기**). <br/><br/>* 팀 구성원이 비공개 모임을 예약할 수 있는 기능을사용하거나 사용하지 않도록 설정합니다(**비공개 모임 예약**). <br/><br/>* 팀 구성원이 채널 모임을 예약하는 기능을 사용하거나 사용하지 않도록 설정합니다(채널 모임 예약**). <br/><br/>* Teams 모임에서 화상 통화 기능을 활성화하거나 비활성화합니다(Skype 모임용 비디오**). <br/><br/>* 조직에서 Microsoft Teams 모임의 화면 공유 기능을 활성화하거나 비활성화합니다(**Skype 모임용 화면 공유**). <br/><br/>* Teams 대화에 애니메이션 이미지(Giphy)를 추가할 수 있도록 허용하거나 허용하지 않습니다(애니메이션 이미지**). <br/><br/>* 조직의 콘텐츠 등급 설정을 변경합니다(**콘텐츠 등급**). 콘텐츠 등급으로 인해 대화에 표시될 수 있는 애니메이션 이미지의 유형이 제한됩니다. <br/><br/>* 팀 구성원이 팀 대화에 인터넷에서 받은 사용자 지정 이미지(사용자 지정 밈)를 추가할 수 있도록 허용하거나 허용하지 않습니다(인터넷에서 받은 사용자 지정 이미지**). <br/><br/>* 팀 구성원이 팀 대화에 편집 가능한 이미지(스티커)를 추가할 수 있도록 허용하거나 허용하지 않습니다(**편집 가능한 이미지**).<br/><br/>* 팀 구성원이 Microsoft Teams 채팅 및 채널에서 봇을 사용할 수 있도록 허용하거나 허용하지 않습니다(전사 봇**). <br/><br/>* Microsoft Teams 전용 봇을 활성화합니다. 조직에서 봇이 활성화된 경우 사용할 수 있는 Teams 도움말 봇인 T-Bot은 여기에 포함되지 않습니다(**개별 봇**). <br/><br/>* 팀 구성원이 확장 또는 탭을 추가할 수 있도록 허용하거나 허용하지 않습니다(**확장 또는 탭**). <br/><br/>* Microsoft Teams용 독점 봇의 테스트용 로드 기능을 활성화하거나 비활성화합니다(**봇의 테스트용 로드**). <br/><br/>* 사용자가 Microsoft Teams 채널로 전자 메일 메시지를 보낼 수 있도록 허용하거나 허용하지 않습니다(**채널 전자 메일**).|
+|채널 설정 변경함|ChannelSettingChanged|ChannelSettingChanged 작업은 팀 구성원이 다음 활동을 수행하는 경우 로깅됩니다. 각 활동에 대해 감사 로그 검색 결과의 **항목** 열에 변경된 설정에 대한 설명(아래에서 괄호 안에 표시된 내용)이 표시됩니다. <br/><br/>• 팀 채널의 이름을 변경합니다(**채널 이름**). <br/><br/>• 팀 채널의 설명을 변경합니다(**채널 설명**).|
+|조직 설정 변경함|TeamsTenantSettingChanged|TeamsTenantSettingChanged 작업은 Microsoft 365 관리 센터를 사용하여 전역 관리자가 다음 활동을 수행할 때 기록됩니다. 이러한 활동은 조직 전체의 Microsoft Teams 설정에 영향을 미칩니다. 자세한 내용은 [Microsoft Teams의 관리자 설정](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365)을 참조하세요. <br/> 각 활동에 대해 감사 로그 검색 결과의 **항목** 열에 변경된 설정에 대한 설명(아래에서 괄호 안에 표시된 내용)이 표시됩니다. <br/><br/>• 조직에서 Microsoft Teams를 사용하거나 사용하지 않도록 설정합니다(**Microsoft Teams**). <br/><br/>• 조직에서 Microsoft Teams과 비즈니스용 Skype 사이의 상호 운용성을 사용하거나 사용하지 않도록 설정합니다(**비즈니스용 Skype 상호 운용성**). <br/><br/>• Microsoft Teams 클라이언트에서 조직도 보기를 사용하거나 사용하지 않습니다(조직도 보기 **). <br/><br/>• 팀 구성원이 비공개 모임을 예약할 수 있는 기능을사용하거나 사용하지 않도록 설정합니다(** 비공개 모임 예약 **). <br/><br/>• 팀 구성원이 채널 모임을 예약하는 기능을 사용하거나 사용하지 않도록 설정합니다(채널 모임 예약**). <br/><br/>• 팀 회의에서 비디오 통화를 사용하거나 사용하지 않도록 설정합니다(Skype 모임용 비디오 **). <br/><br/>• 조직의 Microsoft Teams 모임에서 화면 공유를 사용하거나 사용하지 않도록 설정합니다(** Skype 모임의 화면 공유 **). <br/><br/>• 팀 대화(애니메이션 이미지**)에 애니메이션 이미지(Giphys라고 함)를 추가하는 기능을 사용하거나 사용하지 않도록 설정합니다. <br/><br/>• 조직의 콘텐츠 등급 설정을 변경합니다(**콘텐츠 등급**). 콘텐츠 등급으로 인해 대화에 표시될 수 있는 애니메이션 이미지의 유형이 제한됩니다. <br/><br/>• 팀 구성원이 인터넷에서 팀 대화에 사용자 지정한 이미지(사용자 지정 밈)를 추가 하는 것을 허용하거나 허용하지 않습니다(인터넷에서 얻은 사용자 지정 이미지 **). <br/><br/> 팀 구성원이 편집 가능한 이미지(스티커)를 팀 대화에 추가할 수 있도록 허용하거나 허용하지 않습니다(** 편집 가능한 이미지 **).<br/><br/> 팀 구성원이 Microsoft Teams 채팅이나 채널에서 봇을 사용하도록 허용하거나 허용하지 않습니다(조직적 봇). <br/><br/> Microsoft Teams를 위한 특정 봇 사용을 허용합니다. 조직에서 봇 사용이 허용된 경우 Teams에게 제공되는 도우미 봇인 T-봇은 표함되지 않습니다(** 개별 봇 **) <br/><br/> 팀 구성원이 확장이나 탭을 추가하는 것을 허용하거나 허용하지 않습니다(** 확장 혹은 탭 **) <br/><br/> Microsoft Teams가 보유한 봇의 측면 부하를 허용하거나 허용하지 않습니다(** 봇의 측면 부하 **). <br/><br/> 사용자가 Microsoft Teams 채널에 이메일 메시지를 보내는 것을 허용하거나 허용하지 않습니다.(** 채널 이메일**).|
 |팀의 구성원 역할이 변경됨|MemberRoleChanged|팀 소유자가 팀의 구성원 역할을 변경합니다. 다음 값은 사용자에게 할당된 역할 유형을 나타냅니다. <br/><br/> **1** - 소유자 역할을 나타냅니다.<br/>**2** - 구성원 역할을 나타냅니다. <br/>**3** - 게스트 역할을 나타냅니다. <br/><br/> 구성원 속성에는 조직의 이름 및 구성원의 전자 메일 주소도 포함됩니다.|
-|팀 설정 변경함|TeamSettingChanged|TeamSettingChanged 작업은 팀 소유자가 다음 활동을 수행하는 경우 로깅됩니다. 각 활동에 대해 감사 로그 검색 결과의 **항목** 열에 변경된 설정에 대한 설명(아래에서 괄호 안에 표시된 내용)이 표시됩니다. <br/><br/>* 팀의 액세스 유형을 변경합니다. 팀은 비공개 또는 공개로 설정될 수 있습니다(**팀 액세스 유형**). 비공개 팀(기본값)은 초대받은 사용자만 액세스할 수 있습니다. 공개 팀은 누구나 검색할 수 있습니다. <br/><br/>* 팀의 정보 분류를 변경합니다(**팀 분류**). <br/> 예를 들어, 팀 데이터는 높은 비즈니스 영향, 중간 비즈니스 영향 또는 낮은 비즈니스 영향으로 분류될 수 있습니다.<br/><br/>* 팀의 이름을 변경합니다(**팀 이름**). <br/><br/>* 팀 설명을 변경합니다(팀 설명 **). <br/><br/>* 팀 설정에 대한 변경 사항입니다. 팀 소유자는 팀을 마우스 오른쪽 단추로 클릭하고 **팀 관리**를 클릭한 다음 **설정** 탭을 클릭하여 Teams 클라이언트에서 이러한 설정에 액세스할 수 있습니다. 이러한 활동에 대해 변경된 설정의 이름이 감사 로그 검색 결과의 **항목** 열에 표시됩니다.|
+|팀 설정 변경함|TeamSettingChanged|TeamSettingChanged 작업은 팀 소유자가 다음 활동을 수행하는 경우 로깅됩니다. 각 활동에 대해 감사 로그 검색 결과의 **항목** 열에 변경된 설정에 대한 설명(아래에서 괄호 안에 표시된 내용)이 표시됩니다. <br/><br/>• 팀의 액세스 유형을 변경합니다. 팀은 비공개 또는 공개로 설정될 수 있습니다(**팀 액세스 유형**). 비공개 팀(기본값)은 초대받은 사용자만 액세스할 수 있습니다. 공개 팀은 누구나 검색할 수 있습니다. <br/><br/>• 팀의 정보 분류를 변경합니다(**팀 분류**). <br/> 예를 들어, 팀 데이터는 높은 비즈니스 영향, 중간 비즈니스 영향 또는 낮은 비즈니스 영향으로 분류될 수 있습니다.<br/><br/>• 팀의 이름을 변경합니다(**팀 이름**). <br/><br/>• 팀 설명을 변경합니다(팀 설명**). <br/><br/>• 팀 설정에 대한 변경 사항입니다. 팀 소유자는 팀을 마우스 오른쪽 단추로 클릭하고 **팀 관리**를 클릭한 다음 **설정** 탭을 클릭하여 Teams 클라이언트에서 이러한 설정에 액세스할 수 있습니다. 이러한 활동에 대해 변경된 설정의 이름이 감사 로그 검색 결과의 **항목** 열에 표시됩니다.|
 |팀 생성됨|TeamCreated|사용자가 팀을 만듭니다.|
 |채널 삭제됨|ChannelDeleted|사용자는 팀에서 채널을 삭제합니다.|
 |팀 삭제됨|TeamDeleted|팀 소유자가 팀을 삭제합니다.|
@@ -768,6 +741,12 @@ Workplace Analytics는 조직에서 그룹이 공동으로 작업하는 방법�
 ![활동 선택기 목록에서 Microsoft Teams의 보건 활동](../media/TeamsHealthcareAuditActivities.png)
 
 환자 앱 활동에 대한 자세한 내용은 [환자 앱에 대한 감사 로그](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit)를 참조하세요.
+
+### <a name="microsoft-teams-shifts-activities"></a>Microsoft Teams 교대 활동
+
+조직에서 Microsoft Teams의 교대 앱을 사용하는 경우 교대 앱 사용과 관련된 활동에 대한 감사 로그를 검색할 수 있습니다. 교대 앱을 지원하도록 환경을 구성한 경우 이러한 활동에 대한 추가 활동 그룹을 **활동** 선택기 목록에서 사용할 수 있습니다.
+
+교대 앱 활동에 관한 설명은 [Microsoft Teams에서 이벤트 감사 로그 검색](https://docs.microsoft.com/microsoftteams/audit-log-events#shifts-in-teams-activities)을 참조 하세요.
 
 ### <a name="yammer-activities"></a>Yammer 활동
 
