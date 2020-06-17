@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Exchange Online의 원본 위치 eDiscovery 및 원본 위치 유지 및 해당 PowerShell cmdlet은 2020의 처음 절반에서 만료 됩니다. 또한 검색 사서함 cmdlet 및 Advanced eDiscovery v 1.0은 동일한 기간 내에 폐기 됩니다.
-ms.openlocfilehash: 547b58bebf4ade04bc9c1992ed7f0f518924341f
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 8b428b0d90442c937e08d4dc9ca23fb345553178
+ms.sourcegitcommit: 589f78fc0f39aff9109959ded48d146cc32fc3c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351919"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761688"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>eDiscovery 도구의 사용 중지
 
@@ -289,14 +289,6 @@ Exchange Online PowerShell의 **검색 사서함** cmdlet은 처음에 2018에�
 </td>
 </tr>
 <tr class="even">
-<td>사서함에서 메시지 제거</td>
-<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch?view=exchange-ps"><span class="underline">*-ComplianceSearch</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction?view=exchange-ps"><span class="underline">*-New-compliancesearchaction</span></a></p>
-<p></p></td>
-<td><p>ComplianceSearch 및 New-compliancesearchaction cmdlet은 상호 작용 하 여 콘텐츠를 검색 하 고 제거 하는 데 도움이 됩니다. <strong>ComplianceSearch</strong> 및 <strong>ComplianceSearch</strong> cmdlet을 사용 하 여 검색을 만들고 실행 한 후에는 <strong>new-compliancesearchaction-PurgeType</strong> 명령을 통해 콘텐츠를 제거할 수 있습니다. 자세한 내용은 <a href="https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization"><span class="underline">메시지 검색 및 삭제</span></a>를 참조 하세요.</p>
-</td>
-</tr>
-<tr class="odd">
 <td>사서함에서 대량 전자 메일 삭제</td>
 <td><p><a href="https://docs.microsoft.com/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes?view=o365-worldwide"><span class="underline">사서함에 대한 보관 및 삭제 정책 설정</span></a></p>
 <p></p></td>
@@ -307,6 +299,24 @@ Exchange Online PowerShell의 **검색 사서함** cmdlet은 처음에 2018에�
 <td>검색 결과를 검색 사서함으로 복사</td>
 <td> </td>
 <td>이 기능은 모든 Microsoft 365 서비스에 대 한 액세스를 제공 하지 않으므로 직접 대체할 수 없습니다. 대체 해결 방법은 <strong>*-new-mailboxsearch cmdlet</strong> 섹션의 faq를 참조 하세요. </td>
+</tr>
+<tr class=odd>
+  <td>한 사서함에서 다른 사서함으로 메시지 복사</td>
+  <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">사서함에 사용 권한 할당</a></td>
+  <td>사용자에 게 다른 사용자의 전자 메일에 대 한 액세스 권한을 부여 하려면 (예: 직원이 조직을 떠나는 경우 다른 사용자에 게 이전 직원의 전자 메일에 액세스할 수 있는 경우) 해당 사용자에 게 이전 직원의 사서함에 대 한 액세스 권한을 할당 하는 것이 좋습니다. 따라서 사서함 항목을 다른 사용자 사서함 또는 공유 사서함으로 복사 하는 대신 사용자에 게 원본 사서함에 액세스 하기 위한 권한을 할당 하기만 하면 됩니다.</td>
+</tr>
+<tr class=even>
+  <td>사서함에서 메시지 제거</td>
+<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch?view=exchange-ps"><span class="underline">*-ComplianceSearch</span></a></p>
+<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction?view=exchange-ps"><span class="underline">*-New-compliancesearchaction</span></a></p>
+<p></p></td>
+<td><p>ComplianceSearch 및 New-compliancesearchaction cmdlet은 상호 작용 하 여 콘텐츠를 검색 하 고 제거 하는 데 도움이 됩니다. <strong>ComplianceSearch</strong> 및 <strong>ComplianceSearch</strong> cmdlet을 사용 하 여 검색을 만들고 실행 한 후에는 <strong>new-compliancesearchaction-PurgeType</strong> 명령을 통해 콘텐츠를 제거할 수 있습니다. 자세한 내용은 <a href="https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization"><span class="underline">메시지 검색 및 삭제</span></a>를 참조 하세요.</p>
+</td>
+</tr>
+<tr class="odd"> 
+<td>사서함에서 메시지 제거</td>
+<td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">사서함에 사용 권한 할당</a></td>
+<td>사서함에서 메시지를 제거 하려면 직원 사서함에 액세스할 수 있는 관리자 권한을 할당 합니다. Outlook의 기본 제공 검색 및 보기 기능을 활용 하 여 필요에 따라 메시지를 삭제 및 재생할 수 있습니다.</td>
 </tr>
 </tbody>
 </table>

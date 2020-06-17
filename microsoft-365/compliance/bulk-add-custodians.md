@@ -15,15 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
-description: ''
-ms.openlocfilehash: 9331e45619f549ea31adcfdd9316eea20e43efef
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+description: 대량 추가 도구를 사용 하면 고급 eDiscovery에서 여러 custodians 및 연결 된 데이터 원본을 사례에 빠르게 추가할 수 있습니다.
+ms.openlocfilehash: 921d4a1616d97f2adde7e40baa5c73f607c849b6
+ms.sourcegitcommit: 956dd3f87adb4e6173517550a662c3bacc2d2d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432441"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44741637"
 ---
-# <a name="bulk-add-custodians-to-an-advanced-ediscovery-case-preview"></a>대량-Advanced eDiscovery 사례 (미리 보기)에 custodians 추가
+# <a name="bulk-add-custodians-to-an-advanced-ediscovery-case"></a>고급 eDiscovery 사례에 custodians 대량 추가
 
 많은 수의 custodians 포함 된 고급 eDiscovery 사례의 경우 여러 custodians를 사례에 추가 하는 데 필요한 모든 정보를 포함 하는 CSV 파일을 한 번에 가져올 수도 있습니다.
 

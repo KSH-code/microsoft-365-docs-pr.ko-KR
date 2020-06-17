@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: 조직에서 Microsoft 파트너와 협력 하 여 Salesforce Chatter, Yahoo Messenger 또는 Yammer와 같은 데이터 원본의 타사 데이터를 가져올 사용자 지정 커넥터를 설정할 수 있습니다. 이렇게 하면 타사 데이터 원본의 데이터를 보관 하 여 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 Microsoft 365 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 0892e0c02e72516b6abc4502eb9777bd824f9073
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: fa9efa62f4e2791c5d77cf01de6849b581cdebae
+ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943157"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44739059"
 ---
 # <a name="work-with-a-partner-to-archive-third-party-data"></a>타사 데이터를 저장하는 데 파트너와 협력
 
@@ -49,11 +49,11 @@ Microsoft 파트너와 협력 하 여 타사 데이터 원본에서 Microsoft 36
     
 3. 파트너 커넥터는 잘 알려진 끝점을 통해 EWS (Exchange 웹 서비스)를 사용 하 여 Microsoft 365의 Azure 서비스에 연결 합니다.
     
-4. 항목은 특정 사용자의 사서함 또는 "범용" 타사 데이터 사서함으로 가져오기됩니다. 항목을 특정 사용자 사서함으로 가져올지 또는 타사 데이터 사서함으로 가져올지는 다음 기준을 기반으로 합니다.
+4. Items are imported into the mailbox of a specific user or into a "catch-all" third-party data mailbox. Whether an item is imported into a specific user mailbox or to the third-party data mailbox is based on the following criteria:
     
-    a. **사용자 계정에 해당 하는 사용자 ID가 있는 항목:** 파트너 커넥터가 타사 데이터 원본 항목의 사용자 ID를 Office 365의 특정 사용자 ID에 매핑할 수 있는 경우 해당 항목은 사용자의 복구 가능한 항목 폴더에 있는 **제거** 폴더에 복사 됩니다. 제거 폴더의 항목에는 액세스할 수 없습니다. 그러나 eDiscovery 도구를 사용 하 여 제거 폴더에서 항목을 검색할 수는 있습니다.
+   1. **사용자 계정에 해당 하는 사용자 ID가 있는 항목:** 파트너 커넥터가 타사 데이터 원본 항목의 사용자 ID를 Office 365의 특정 사용자 ID에 매핑할 수 있는 경우 해당 항목은 사용자의 복구 가능한 항목 폴더에 있는 **제거** 폴더에 복사 됩니다. 제거 폴더의 항목에는 액세스할 수 없습니다. 그러나 eDiscovery 도구를 사용 하 여 제거 폴더에서 항목을 검색할 수는 있습니다.
     
-    b. **사용자 계정에 해당 하는 사용자 ID가 없는 항목:** 파트너 커넥터가 항목의 사용자 ID를 특정 사용자 ID에 매핑할 수 없는 경우 항목은 타사 데이터 사서함의 **받은 편지함** 폴더에 복사 됩니다. 받은 편지함에 항목을 가져올 수 있으면 관리자 또는 조직의 누군가가 타사 사서함에 로그인하여 이러한 항목을 보고 관리할 수 있으며 파트너 커넥터 구성을 조정해야 하는지 확인할 수 있습니다.
+   1. **사용자 계정에 해당 하는 사용자 ID가 없는 항목:** 파트너 커넥터가 항목의 사용자 ID를 특정 사용자 ID에 매핑할 수 없는 경우 항목은 타사 데이터 사서함의 **받은 편지함** 폴더에 복사 됩니다. 받은 편지함에 항목을 가져올 수 있으면 관리자 또는 조직의 누군가가 타사 사서함에 로그인하여 이러한 항목을 보고 관리할 수 있으며 파트너 커넥터 구성을 조정해야 하는지 확인할 수 있습니다.
  
 ## <a name="step-1-find-a-third-party-data-partner"></a>1단계: 타사 데이터 파트너 찾기
 
@@ -163,7 +163,7 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
 
 - Cisco Webex 팀
 
-- Citrix 작업 &amp; 영역 sharefile
+- Citrix 작업 영역 &amp; sharefile
 
 - CrowdCompass
 
@@ -521,7 +521,7 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
   
 - Office 365에서 Azure 서비스에 연결 하는 데 사용 되는 끝점:
 
-    ```text
+    ```http
     https://office365ingestionsvc.gble1.protection.outlook.com/service/ThirdPartyIngestionService.svc
     ```
 
@@ -529,7 +529,7 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
  
 ## <a name="step-5-register-the-third-party-data-connector-in-azure-active-directory"></a>5 단계: Azure Active Directory에서 타사 데이터 커넥터 등록
 
-2018 년 9 월 30 일부 부터는 Office 365의 Azure 서비스가 Exchange Online의 최신 인증을 사용 하 여 데이터를 가져오기 위해 조직에 연결을 시도 하는 타사 데이터 커넥터를 인증 합니다. 이러한 변경이 발생 하는 이유는 최신 인증이 이전에 설명한 끝점을 사용 하 여 Azure 서비스에 연결 하는 허용 목록이 타사 커넥터를 기반으로 하는 현재 방법 보다 더 많은 보안 기능을 제공 한다는 것입니다.
+2018 년 9 월 30 일부 부터는 Office 365의 Azure 서비스가 Exchange Online의 최신 인증을 사용 하 여 데이터를 가져오기 위해 조직에 연결을 시도 하는 타사 데이터 커넥터를 인증 합니다. 이러한 변경이 발생 하는 이유는 최신 인증이 이전에 설명한 끝점을 사용 하 여 Azure 서비스에 연결 하는 타사 커넥터에 대 한 허용 목록을 기반으로 하는 현재 방법 보다 더 많은 보안을 제공 한다는 것입니다.
 
 최신 인증 방법을 사용 하 여 타사 데이터 커넥터에서 Office 365에 연결할 수 있도록 하려면 조직의 관리자가 해당 커넥터를 Azure Active Directory의 신뢰할 수 있는 서비스 응용 프로그램으로 등록 하는 것이 동의 해야 합니다. 이 작업은 사용 권한 요청을 수락 하 여 커넥터가 Azure Active Directory에서 조직의 데이터에 액세스할 수 있도록 허용 합니다. 이 요청을 수락 하면 타사 데이터 커넥터가 엔터프라이즈 응용 프로그램으로 Azure Active Directory에 추가 되 고 서비스 사용자로 표시 됩니다. 승인 프로세스에 대 한 자세한 내용은 [테 넌 트 관리자 동의](https://docs.microsoft.com/skype-sdk/trusted-application-api/docs/tenantadminconsent)를 참조 하십시오.
 
@@ -543,7 +543,7 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
 
 2. **Accept(동의함)** 를 클릭합니다.
 
-요청을 수락 하면 [Azure portal](https://portal.azure.com) 이 표시 됩니다. 조직의 응용 프로그램 목록을 보려면 **Azure Active Directory** > **Enterprise 응용 프로그램**을 클릭 합니다. Office 365 타사 데이터 커넥터가 **엔터프라이즈 응용 프로그램** 블레이드에서 나열 됩니다.
+요청을 수락 하면 [Azure portal](https://portal.azure.com) 이 표시 됩니다. 조직의 응용 프로그램 목록을 보려면 **Azure Active Directory**  >  **Enterprise 응용 프로그램**을 클릭 합니다. Office 365 타사 데이터 커넥터가 **엔터프라이즈 응용 프로그램** 블레이드에서 나열 됩니다.
 
 > [!IMPORTANT]
 > Azure Active Directory에 타사 데이터 커넥터를 등록 하지 않으면, 2018 년 9 월 30 일 이후에는 타사 데이터를 조직의 사서함으로 가져올 수 없게 됩니다. 참고 5 단계에 나와 있는 절차에 따라 기존 타사 데이터 커넥터 (9 월 30 일 이전에는 2018)도 Azure Active Directory에 등록 되어 있어야 합니다.
@@ -556,7 +556,7 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
   
 ## <a name="more-information"></a>추가 정보
 
-- 앞서 설명한 것처럼 타사 데이터 원본의 항목을 Exchange 사서함에 전자 메일 메시지로 가져옵니다. 파트너 커넥터는 Office 365 API에 필요한 스키마를 사용 하 여 항목을 가져옵니다. 다음 표에서는 타사 데이터 원본 항목을 Exchange 사서함에 전자 메일 메시지로 가져온 후, 타사 데이터 원본 항목에 대한 메시지 속성을 설명합니다. 또한 이 표는 메시지 속성이 필수인지 여부를 나타냅니다. 필수 속성은 채워야 합니다. 항목에 필수 속성이 없는 경우에는 Office 365로 가져올 수 없습니다. 가져오기 프로세스를 진행 하면 항목을 가져오지 못한 이유와 해당 속성이 누락 된 이유를 설명 하는 오류 메시지가 반환 됩니다.
+- 앞서 설명한 것처럼 타사 데이터 원본의 항목을 Exchange 사서함에 전자 메일 메시지로 가져옵니다. 파트너 커넥터는 Office 365 API에 필요한 스키마를 사용 하 여 항목을 가져옵니다. 다음 표에서는 타사 데이터 원본 항목을 Exchange 사서함에 전자 메일 메시지로 가져온 후, 타사 데이터 원본 항목에 대한 메시지 속성을 설명합니다. 또한 이 표는 메시지 속성이 필수인지 여부를 나타냅니다. 필수 속성은 채워야 합니다. 항목에 필수 속성이 없는 경우에는 Office 365로 가져올 수 없습니다. 가져오기 프로세스를 진행 하면 항목을 가져오지 못한 이유와 해당 속성이 누락 된 이유를 설명 하는 오류 메시지가 반환 됩니다.<br/><br/>
     
     |**메시지 속성**|**강제?**|**설명**|**예제 값**|
     |:-----|:-----|:-----|:-----|
@@ -566,11 +566,11 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
     |**종료일** <br/> |예  <br/> |항목이 처음으로 작성 되거나 고객 데이터 원본에 게시 된 날짜입니다. 예를 들어, Twitter 메시지가 tweeted 된 날짜입니다.  <br/> | `01 NOV 2015` <br/> |
     |**보내기** <br/> |아니요  <br/> |메시지 또는 게시물의 콘텐츠입니다. 일부 데이터 원본의 경우 이 속성의 콘텐츠는 **SUBJECT** 속성의 콘텐츠와 같을 수 있습니다. 가져오기 프로세스 중에 파트너 커넥터는 가능한 한 콘텐츠 원본에서 완전 한 충실도를 유지 하려고 시도 합니다. 가능한 경우 원본 항목의 본문에서 가져온 파일, 그래픽 또는 기타 콘텐츠가 이 속성에 포함됩니다. 그렇지 않은 경우 원본 항목의 콘텐츠가 **ATTACHMENT** 속성에 포함됩니다. 이 속성의 내용은 파트너 커넥터와 원본 플랫폼의 기능에 따라 달라 집니다.  <br/> | `Author: bob@contoso.com` <br/>  `Date: 10 DEC 2014` <br/>  `Tweet: "Mega deals with Contoso coming your way! #ContosoHolidayDeals"` <br/>  `Date: 01 NOV 2015` <br/> |
     |**덧붙인** <br/> |아니요  <br/> |데이터 원본의 항목 (예: Twitter 또는 인스턴트 메시징 대화에 있는 tweet)에 첨부 된 파일이 있거나 이미지를 포함 하는 경우, 파트너 연결에서는 먼저 **BODY** 속성에 첨부 파일을 포함 하 려 합니다. 이것이 가능 하지 않으면 * * ATTACHMENT * * 속성에 추가 됩니다. 첨부 파일의 다른 예로는 Facebook의 좋아요, 콘텐츠 원본의 메타데이터, 메시지 또는 게시물에 대한 응답이 있습니다.  <br/> | `image.gif` <br/> |
-    |**MESSAGECLASS** <br/> |예  <br/> | 파트너 커넥터가 만들어서 채우는 다중 값 속성입니다. 이 속성의 형식은 `IPM.NOTE.Source.Event`입니다. (이 속성은로 `IPM.NOTE`시작 해야 합니다. 이 형식은 `IPM.NOTE.X` 메시지 클래스의 형식과 유사 합니다. 이 속성에는 다음 정보가 포함 됩니다.  <br/><br/>`Source`: 타사 데이터 원본을 나타냅니다. 예: Twitter, Facebook 또는 BlackBerry를 예로 들 있습니다.  <br/> <br/>  `Event`: 항목을 생성 한 타사 데이터 원본에서 수행한 작업의 유형을 나타냅니다. 예를 들어, Twitter에 있는 tweet 또는 Facebook의 게시물입니다. 이벤트는 데이터 원본에 따라 다릅니다.  <br/> <br/>  이 속성의 한 가지 목적은 항목이 시작된 데이터 원본이나 이벤트의 유형에 따라 특정 항목을 필터링하는 것입니다. 예를 들어 eDiscovery 검색에서 특정 사용자가 게시한 모든 트윗을 찾는 검색 쿼리를 만들 수 있습니다.  <br/> | `IPM.NOTE.Twitter.Tweet` <br/> |
+    |**MESSAGECLASS** <br/> |예  <br/> | 파트너 커넥터가 만들어서 채우는 다중 값 속성입니다. 이 속성의 형식은 `IPM.NOTE.Source.Event` 입니다. (이 속성은로 시작 해야 합니다 `IPM.NOTE` . 이 형식은 메시지 클래스의 형식과 유사 `IPM.NOTE.X` 합니다. 이 속성에는 다음 정보가 포함 됩니다.  <br/><br/>`Source`: 타사 데이터 원본을 나타냅니다. 예: Twitter, Facebook 또는 BlackBerry를 예로 들 있습니다.  <br/> <br/>  `Event`: 항목을 생성 한 타사 데이터 원본에서 수행한 작업의 유형을 나타냅니다. 예를 들어, Twitter에 있는 tweet 또는 Facebook의 게시물입니다. 이벤트는 데이터 원본에 따라 다릅니다.  <br/> <br/>  이 속성의 한 가지 목적은 항목이 시작된 데이터 원본이나 이벤트의 유형에 따라 특정 항목을 필터링하는 것입니다. 예를 들어 eDiscovery 검색에서 특정 사용자가 게시한 모든 트윗을 찾는 검색 쿼리를 만들 수 있습니다.  <br/> | `IPM.NOTE.Twitter.Tweet` <br/> |
    
-- Office 365에서 사서함에 항목을 성공적으로 가져오면 고유한 식별자가 HTTP 응답의 일부로 다시 발신자에 게 반환 됩니다. 이 식별자 `x-IngestionCorrelationID`는 종단 간 항목 추적을 위해 파트너의 후속 문제 해결을 위해 사용 될 수 있습니다. 파트너는 이 정보를 수집하고 적절하게 기록해두는 것이 좋습니다. 이 식별자를 나타내는 HTTP 응답의 예는 다음과 같습니다.
+- Office 365에서 사서함에 항목을 성공적으로 가져오면 고유한 식별자가 HTTP 응답의 일부로 다시 발신자에 게 반환 됩니다. 이 식별자는 `x-IngestionCorrelationID` 종단 간 항목 추적을 위해 파트너의 후속 문제 해결을 위해 사용 될 수 있습니다. 파트너는 이 정보를 수집하고 적절하게 기록해두는 것이 좋습니다. 이 식별자를 나타내는 HTTP 응답의 예는 다음과 같습니다.
 
-    ```text
+    ```http
     HTTP/1.1 200 OK
     Content-Type: text/xml; charset=utf-8
     Server: Microsoft-IIS/8.5
@@ -582,11 +582,11 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
 
 - 보안 및 준수 센터의 콘텐츠 검색 도구를 사용 하 여 타사 데이터 원본에서 사서함으로 가져온 항목을 검색할 수 있습니다. 이러한 가져온 항목을 구체적으로 검색 하려면 콘텐츠 검색의 키워드 상자에 다음과 같은 메시지 속성-값 쌍을 사용할 수 있습니다.
     
-  - **`kind:externaldata`**:이 속성-값 쌍을 사용 하 여 모든 타사 데이터 형식을 검색 합니다. 예를 들어 타사 데이터 원본에서 가져온 항목과 가져온 항목의 Subject 속성에 "contoso" 라는 단어가 포함 된 항목을 검색 하려면 keyword 쿼리 `kind:externaldata AND subject:contoso`를 사용 합니다.
+  - **`kind:externaldata`**:이 속성-값 쌍을 사용 하 여 모든 타사 데이터 형식을 검색 합니다. 예를 들어 타사 데이터 원본에서 가져온 항목과 가져온 항목의 Subject 속성에 "contoso" 라는 단어가 포함 된 항목을 검색 하려면 keyword 쿼리를 사용 `kind:externaldata AND subject:contoso` 합니다.
     
-  - **`itemclass:ipm.externaldata.<third-party data type>`**:이 속성-값 쌍을 사용 하 여 지정 된 타사 데이터 형식만 검색 합니다. 예를 들어 Subject 속성에서 "contoso" 라는 단어가 포함 된 Facebook 데이터만 검색 하려면 keyword 쿼리 `itemclass:ipm.externaldata.Facebook* AND subject:contoso`를 사용 합니다. 
+  - **`itemclass:ipm.externaldata.<third-party data type>`**:이 속성-값 쌍을 사용 하 여 지정 된 타사 데이터 형식만 검색 합니다. 예를 들어 Subject 속성에서 "contoso" 라는 단어가 포함 된 Facebook 데이터만 검색 하려면 keyword 쿼리를 사용 `itemclass:ipm.externaldata.Facebook* AND subject:contoso` 합니다. 
 
-  `itemclass` 속성의 타사 데이터 형식에 사용할 값의 전체 목록은 [Office 365로 가져온 타사 데이터 검색을 사용 하 여 콘텐츠 검색](use-content-search-to-search-third-party-data-that-was-imported.md) 을 참조 하세요.
+  속성의 타사 데이터 형식에 사용할 값의 전체 목록은 `itemclass` [Office 365로 가져온 타사 데이터를 검색 하려면 사용 콘텐츠 검색](use-content-search-to-search-third-party-data-that-was-imported.md)을 참조 하십시오.
     
    콘텐츠 검색 사용 및 키워드 검색 쿼리를 만드는 방법에 대한 자세한 내용은 다음을 참조하세요.
     

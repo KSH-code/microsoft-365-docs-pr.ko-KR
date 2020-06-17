@@ -15,15 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 65a0e6dc2857a51b10d1fa3b6674ccf24dbc4799
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 검토 집합에 대해 고급 eDiscovery 대시보드를 사용 하 여 모음를 빠르게 분석 하 여 검토 전략을 개발 하는 데 도움이 되는 추세 또는 주요 통계를 파악 합니다.
+ms.openlocfilehash: 36f30689047eec7ff2c2c49c6b0d54f1a60470e4
+ms.sourcegitcommit: 956dd3f87adb4e6173517550a662c3bacc2d2d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080114"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44741703"
 ---
-# <a name="advanced-ediscovery-dashboard-for-review-sets-preview"></a>검토 집합에 대 한 고급 eDiscovery 대시보드 (미리 보기)
+# <a name="advanced-ediscovery-dashboard-for-review-sets"></a>검토 집합에 대 한 고급 eDiscovery 대시보드
 
 고급 eDiscovery의 경우 검토 해야 하는 문서 및 전자 메일 메시지의 양이 많을 수 있습니다. 검토 프로세스를 시작 하기 전에 모음를 빠르게 분석 하 여 검토 전략을 개발 하는 데 도움이 되는 추세 또는 주요 통계를 파악할 수 있습니다. 이렇게 하려면 검토 집합에 대해 고급 eDiscovery 대시보드를 사용 하 여 모음를 빠르게 분석할 수 있습니다.
 

@@ -334,8 +334,6 @@
                       href: ./office-365-security/configure-anti-phishing-policies-eop.md
                     - name: ATP 피싱 방지 정책 구성
                       href: ./office-365-security/configure-atp-anti-phishing-policies.md
-                - name: 보낸 사람 확인되지 않음 - 피싱 메일 수신을 방지합니다.
-                  href: ./office-365-security/unverified-sender-feature.md
                 - name: 주소의 유효성을 검사하여 Office 365에서 피싱을 방지하는 방법
                   href: ./office-365-security/how-office-365-validates-the-from-address.md
                 - name: 피싱 방지 보호 기능 조정
