@@ -416,7 +416,7 @@ DLP 정책을 만든 후에는 완전히 적용하기 전에 서서히 롤아웃
   
 1. **정책 팁이 없는 테스트 모드에서 시작**하고 DLP 보고서 및 모든 사고 보고서를 사용하여 영향을 평가합니다. DLP 보고서를 사용하여 정책 일치의 횟수, 위치, 유형 및 심각도를 확인할 수 있습니다. 결과에 따라 필요에 맞게 규칙을 미세 조정할 수 있습니다. 테스트 모드에서 DLP 정책은 조직에서 작업하는 사용자의 생산성에 영향을 주지 않습니다. 
     
-2. **알림 및 정책 팁을 사용하여 테스트 모드로 전환**하여 사용자에게 규정 준수 정책을 교육하고 적용될 규칙을 준비하도록 할 수 있습니다. 이 단계에서 규칙을 미세 조정할 수 있도록 사용자에게 가양성을 보고하도록 요청할 수도 있습니다. 
+2. **Move to Test mode with notifications and Policy Tips** so that you can begin to teach users about your compliance policies and prepare them for the rules that are going to be applied. At this stage, you can also ask users to report false positives so that you can further refine the rules. 
     
 3. 규칙에서 작업이 적용되고 콘텐츠가 보호되도록 **정책에 대한 전체 적용을 시작합니다**. DLP 보고서 및 모든 사고 보고서나 알림을 계속 모니터링하여 결과가 의도한 대로 나타나는지 확인합니다. 
 
@@ -448,7 +448,7 @@ DLP 보고서를 사용하면 비즈니스 통찰력을 얻고 다음을 수행�
   
 ## <a name="how-dlp-policies-work"></a>DLP 정책이 작동하는 방식
 
-DLP는 심도 깊은 콘텐츠 분석(단순 텍스트 검색 아님)을 사용하여 중요한 정보를 검색합니다. 이 심도 깊은 콘텐츠 분석은 키워드 일치, 사전 일치, 정규식 평가, 내부 함수 및 기타 방법을 사용하여 DLP 정책과 일치하는 콘텐츠를 검색합니다. 잠재적으로 데이터의 일부만 중요한 것으로 간주됩니다. DLP 정책은 나머지 콘텐츠로 작업하는 사람들에게 영향을 주거나 작업을 지연시키지 않으면서 해당 데이터를 식별 및 모니터링하고 자동으로 보호할 수 있습니다.
+DLP detects sensitive information by using deep content analysis (not just a simple text scan). This deep content analysis uses keyword matches, dictionary matches, the evaluation of regular expressions, internal functions, and other methods to detect content that matches your DLP policies. Potentially only a small percentage of your data is considered sensitive. A DLP policy can identify, monitor, and automatically protect just that data, without impeding or affecting people who work with the rest of your content.
   
 ### <a name="policies-are-synced"></a>정책이 동기화됨
 
@@ -480,12 +480,13 @@ SharePoint Online 사이트 및 비즈니스용 OneDrive 사이트 전체에 걸
   
 ![DLP 정책에서 콘텐츠를 비동기적으로 평가하는 방법을 보여주는 다이어그램](../media/bdf73099-039a-4909-ae89-ac12c41992ba.png)
   
-<!-- conflict with a DLP policy is bad wording --> 마지막으로 문서는 DLP 정책과 충돌할 수 있지만 DLP 정책을 준수할 수도 있습니다. 예를 들어 어떤 사람이 신용 카드 번호를 문서를 추가하는 경우 DLP 정책이 문서에 대한 액세스를 자동으로 차단할 수 있습니다. 하지만 나중에 이 사람이 중요한 정보를 제거하면 다음 번에 정책에 대해 문서가 평가될 때 작업(이 경우 차단)이 자동으로 실행 취소됩니다.
+<!-- conflict with a DLP policy is bad wording -->
+Finally, documents can conflict with a DLP policy, but they can also become compliant with a DLP policy. For example, if a person adds credit card numbers to a document, it might cause a DLP policy to block access to the document automatically. But if the person later removes the sensitive information, the action (in this case, blocking) is automatically undone the next time the document is evaluated against the policy.
   
 DLP는 인덱스를 지정할 수 있는 모든 콘텐츠를 평가합니다. 기본적으로 크롤링되는 파일 형식에 대한 자세한 내용은 [SharePoint Server의 크롤링되는 기본 파일 이름의 확장명 및 구문 분석되는 파일 형식](https://docs.microsoft.com/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)을 참고하십시오.
 
 > [!NOTE]
-> 최소 하나 이상의 DLP 정책이 새로운 항목을 찾을 때까지 SharePoint에서 신규 파일 외부 공유는 기본적으로 차단될수 있습니다. 자세한 내용은 [신규 파일 기본으로 민감하게 설정](https://docs.microsoft.com/sharepoint/sensitive-by-default)을 참고 하세요. 
+> 최소 하나 이상의 DLP 정책이 새로운 항목을 찾을 때까지 SharePoint에서 신규 파일 외부 공유는 기본적으로 차단될수 있습니다. 자세한 내용은 [신규 파일을 기본으로 민감하게 설정하기](https://docs.microsoft.com/sharepoint/sensitive-by-default)를 참고하세요. 
   
 ### <a name="policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web"></a>Exchange, Outlook 및 웹 상 Outlook의 정책 평가
 

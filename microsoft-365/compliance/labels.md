@@ -16,19 +16,19 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 거버넌스를 위해 보존 레이블을 사용하여 조직 전체의 데이터를 분류하고, 해당 분류에 따라 보존 규칙을 시행하는 방법을 알아봅니다. 보존 레이블을 사용하여 Microsoft 365용 레코드 관리 솔루션을 구현할 수도 있습니다.
-ms.openlocfilehash: ab2e1baf553a386009d55e43efdf75b796cc1ffd
-ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
+description: Learn how retention labels classify data across your organization for governance, and enforce retention rules based on that classification. You can also use retention labels to implement a records management solution for Microsoft 365.
+ms.openlocfilehash: 90039930d94de238a784cc4f8cea6463ff4e49b3
+ms.sourcegitcommit: 589f78fc0f39aff9109959ded48d146cc32fc3c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44545970"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761698"
 ---
 # <a name="learn-about-retention-labels"></a>보존 레이블에 대한 자세한 정보
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
-조직 전체에서 산업 규정 및 내부 정책을 준수하기 위해 다른 작업이 수행되어야 하는 다음과 같은 다른 형식의 콘텐츠가 있을 수 있습니다.
+Across your organization, you probably have different types of content that require different actions taken on them in order to comply with industry regulations and internal policies. For example, you might have:
   
 - 최소 기간 동안 **보존**해야 하는 세금 양식 
     
@@ -38,11 +38,11 @@ ms.locfileid: "44545970"
     
 - 편집하거나 삭제할 수 없게 **기록으로 표시**해야 하는 취업 비자 
     
-이러한 모든 경우에 보존 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 보존 레이블을 사용하여 거버넌스를 위해 조직의 데이터를 분류하고 해당 분류에 따라 보존 규칙을 적용할 수 있습니다.
+In all of these cases, retention labels can help you take the right actions on the right content. With retention labels, you can classify data across your organization for governance, and enforce retention rules based on that classification.
   
 보존 레이블을 사용하여 다음을 수행할 수 있습니다.
   
-- 웹용 Outlook, Outlook 2010 이상, OneDrive, SharePoint 및 Microsoft 365 그룹에서 Outlook 콘텐츠에 **조직의 사용자가 보존 레이블을 수동으로 적용할 수 있게 합니다**. 사용자는 종종 자신이 사용하고 있는 콘텐츠의 형식을 가장 잘 알고 있기 때문에 콘텐츠를 분류하여 적절한 정책을 적용할 수 있습니다. 
+- **Enable people in your organization to apply a retention label manually** to content in Outlook on the web, Outlook 2010 and later, OneDrive, SharePoint, and Microsoft 365 Groups. Users often know best what type of content they're working with, so they can classify it and have the appropriate policy applied. 
     
 - 콘텐츠에 다음이 포함된 경우처럼 특정 조건과 일치하는 경우 **콘텐츠에 보존 레이블을 자동으로 적용**합니다. 
     
@@ -62,7 +62,9 @@ ms.locfileid: "44545970"
 
 - SharePoint의 **문서 라이브러리, 폴더 또는 문서 집합에 기본 보존 레이블을 적용**하여 해당 위치에 저장된 모든 문서가 기본 보존 레이블을 상속하도록 합니다.
 
-또한, 보존 레이블은 Microsoft 365 앱과 서비스에서 전자 메일 및 문서의 [레코드 관리](records-management.md)를 지원합니다. 보존 레이블을 사용하여 콘텐츠를 레코드로 분류할 수 있습니다. 이 경우 레이블을 변경하거나 제거할 수 없고, 콘텐츠를 편집하거나 삭제할 수 없습니다. 
+또한, 보존 레이블은 Microsoft 365 앱과 서비스에서 전자 메일 및 문서의 [레코드 관리](records-management.md)를 지원합니다. 보존 레이블을 사용하여 콘텐츠를 레코드로 분류할 수 있습니다. 이런 경우 콘텐츠가 Microsoft 365에 남아 있으면 레이블을 변경하거나 제거할 수 없으며 콘텐츠를 편집하거나 삭제할 수 없습니다. 
+
+보존 레이블은 [민감도 레이블](sensitivity-labels.md)과 달리 Microsoft 365 외부로 콘텐츠를 이동해도 유지되지 않습니다.
 
 테넌트에 지원되는 보존 레이블 개수에는 제한이 없습니다. 그러나 10,000은 테넌트에 지원되는 최대 정책의 수이며, 여기에는 레이블뿐만 아니라 보존 정책이 적용되는 정책(보존 레이블 정책과 자동 적용 보존 정책)도 포함됩니다.
 
@@ -125,7 +127,7 @@ Exchange 공용 폴더, Skype, 팀 채널 메시지 및 채팅은 보존 레이�
 
 보존 레이블은 보존 정책이 할 수 있는 보존 및 삭제용, 보존 전용 또는 삭제 전용과 같은 보존 작업을 적용할 수 있습니다. 보존 레이블을 사용하여 다양한 보존 설정에 대한 특정 파일을 식별하는 정교한 파일 계획을 구현할 수 있습니다. 보존이 작동하는 방식에 대한 자세한 내용은 [보존 정책 정보](retention-policies.md)를 참조하세요.
 
-또한 보존 레이블에는 보존 정책이 아니라 보존 레이블에서만 사용할 수 있는 2가지 보존 옵션이 있습니다. 보존 레이블을 사용하면 다음과 같은 작업을 수행할 수 있습니다.
+In addition, a retention label has two retention options that are available only in a retention label and not in a retention policy. With a retention label, you can:
   
 - SharePoint 및 OneDrive 문서가 삭제되기 전에 검토되도록 보존 정책 종료 시 처리 검토를 트리거합니다. 자세한 내용은 [처리 검토](disposition.md#disposition-reviews)를 참조하세요.
     
@@ -178,7 +180,7 @@ Outlook 데스크톱 클라이언트에서 항목에 레이블을 지정하려�
   
 ![웹용 Outlook의 정책 할당 메뉴](../media/146a23cf-e478-4595-b2e8-f707fc4e6ea3.png)
   
-해당 보존 레이블이 적용된 후에는 항목 맨 위에서 해당 보존 레이블과 수행되는 작업을 볼 수 있습니다. 전자 메일 분류되고 연결된 보존 기간이 있으면 전자 메일이 만료될 시기를 한눈에 알 수 있습니다.
+After the retention label is applied, you can view that retention label and what action it takes at the top of the item. If an email is classified and has an associated retention period, you can know at a glance when the email will expire.
   
 ![웹용 Outlook에서 전자 메일에 할당된 레이블](../media/16f6c91b-5eab-4574-9d13-6d12be00a783.png)
   
@@ -285,30 +287,30 @@ Outlook에서는 보존 레이블 또는 보존 정책을 적용하는 규칙을
   
 ## <a name="using-a-retention-label-as-a-condition-in-a-dlp-policy"></a>보존 레이블을 DLP 정책의 조건으로 사용
 
-보존 레이블은 콘텐츠에 보존 작업을 적용할 수 있습니다. 또한 보존 레이블을 DLP(데이터 손실 방지) 정책의 조건으로 사용할 수 있고, DLP 정책은 특정 레이블이 있는 콘텐츠에 대해 액세스 제한과 같은 기타 작업을 적용할 수 있습니다. 
+A retention label can enforce retention actions on content. In addition, you can use a retention label as a condition in a data loss prevention (DLP) policy, and the DLP policy can enforce other actions, such as restricting access, on content that contains a specific label. 
   
 자세한 내용은 [보존 레이블을 DLP 정책의 조건으로 사용하기](data-loss-prevention-policies.md#using-a-retention-label-as-a-condition-in-a-dlp-policy)를 참조하세요.
   
 
 ## <a name="the-principles-of-retention-or-what-takes-precedence"></a>보존 원칙 또는 우선 순위
 
-콘텐츠에 각기 다른 작업(보존, 삭제 또는 둘 다) 및 보존 기간을 지정하는 여러 보존 정책이 적용될 수 있습니다. 우선 순위는 어떨까요? 분명한 것은 가장 높은 수준에서 한 정책을 통해 보존되는 콘텐츠가 다른 정책에 의해 영구적으로 삭제될 수 없다는 것입니다.
+It's possible or even likely that content might have several retention policies applied to it, each with a different action (retain, delete, or both) and retention period. What takes precedence? At the highest level, rest assured that content being retained by one policy can't be permanently deleted by another policy.
   
 ![보존 원칙 다이어그램](../media/1693d6ec-b340-4805-9da3-89aa41bc6afb.png)
   
 보존 작업이 있는 여러 다른 레이블이 콘텐츠에 적용되는 방식을 이해하려면 다음과 같은 보존 원칙에 유의합니다.
   
-1. **보존이 삭제보다 우선합니다.** 한 보존 정책은 3년 후에 Exchange 전자 메일을 삭제하도록 지정하지만 다른 보존 정책은 5년 동안 Exchange 전자 메일을 보존했다가 삭제하도록 지정하는 경우를 가정해보세요. 3년에 도달한 모든 콘텐츠는 삭제되고 사용자가 볼 수 없게 숨겨지지만, 5년에 도달할 때까지 복구 가능한 항목 폴더에 보존되었다가 영구적으로 삭제됩니다. 
+1. **Retention wins over deletion.** Suppose that one retention policy says to delete Exchange email after three years, but another retention policy says to retain Exchange email for five years and then delete it. Any content that reaches three years old will be deleted and hidden from the users' view, but still retained in the Recoverable Items folder until the content reaches five years old, when it will be permanently deleted. 
     
-2. **가장 긴 보존 기간이 우선합니다.** 콘텐츠에 여러 콘텐츠 보존 정책이 적용되는 경우 가장 긴 보존 기간이 끝날 때까지 보존됩니다. 
+2. **The longest retention period wins.** If content's subject to multiple policies that retain content, it will be retained until the end of the longest retention period. 
     
-3. **명시적 포함이 암시적 포함보다 우선합니다.** 이것은 다음을 의미합니다. 
+3. **Explicit inclusion wins over implicit inclusion.** This means: 
     
     1. 보존 설정이 포함된 보존 레이블이 사용자에 의해 수동으로 항목(예: Exchange 전자 메일 또는 OneDrive 문서)에 할당된 경우 해당 보존 레이블은 사이트 또는 사서함 수준에서 할당된 정책이나 문서 라이브러리에 의해 할당된 기본 보존 레이블보다 우선합니다. 예를 들어 명시적 보존 레이블에서 10년 동안 보존하라고 하지만, 사이트에 할당된 보존 정책에서 5년 동안만 보존하라고 한다면 보존 레이블이 우선합니다. 자동 적용 보존 레이블은 Microsoft 365에서 자동으로 적용하므로 명시적이 아니라 암시적으로 간주됩니다.
     
     2. 보존 정책에 특정 사용자의 사서함 또는 OneDrive 계정과 같은 특정 위치가 포함되는 경우, 해당 정책이 모든 사용자의 사서함 또는 OneDrive 계정에 적용되지만 해당 사용자의 사서함을 특별히 포함하지 않는 다른 보존 정책보다 우선합니다.
     
-4. **가장 짧은 삭제 기간이 우선적으로 적용됩니다.** 마찬가지로 콘텐츠에 여러 콘텐츠 삭제 정책이 적용되는 경우(보존 없음) 가장 짧은 보존 기간이 끝나면 삭제됩니다. 
+4. **The shortest deletion period wins.** Similarly, if content's subject to multiple policies that delete content (with no retention), it will be deleted at the end of the shortest retention period. 
     
 보존 원칙은 위에서 아래로 균형을 깨는 흐름처럼 작동한다는 점을 이해하도록 합니다. 모든 정책 또는 레이블에 의해 적용되는 규칙이 하나의 수준에서 동일한 경우 규칙이 적용되는 우선 순위를 결정하기 위해 흐름은 아래의 다음 수준으로 이동합니다.
   

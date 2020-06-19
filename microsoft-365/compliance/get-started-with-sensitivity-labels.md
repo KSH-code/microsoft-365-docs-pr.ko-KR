@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블 구현을 시작할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
-ms.openlocfilehash: db937347dd397628e0cfaae67b8c923f9433ca13
-ms.sourcegitcommit: e9cb10d0d617742a5040d7c09d1d36fd1ee25e5d
+ms.openlocfilehash: 2fbb54cadaa1681ace4e04dade4fd5a0784360eb
+ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44649397"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44739056"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
@@ -64,17 +64,24 @@ ms.locfileid: "44649397"
 
 이러한 사용 권한은 민감도 레이블과 해당 레이블 정책을 만들고 구성하는 데만 필요합니다. 앱이나 서비스에서 레이블을 적용하는 것은 필요하지 않습니다. 민감도 레이블과 관련된 특정 구성에 대해 추가 사용 권한이 필요한 경우 해당 사용 권한은 해당하는 문서 지침에 나열되어 있습니다.
 
+## <a name="deployment-strategy-for-sensitivity-labels"></a>민감도 레이블 배포 전략
+
+조직에 민감도 레이블을 배포하는 성공적인 전략은 비즈니스 및 기술 요구사항, 개념 증명 테스트, 내부 체크포인트 및 승인, 프로덕션 환경에 대한 최종 배포를 식별 및 관리하는 가상 팀을 만드는 것입니다.
+
+다음 섹션의 표를 사용하여 가장 영향력 있는 비즈니스 요구사항에 적합한 상위 한두 가지 시나리오를 파악하는 것이 좋습니다. 이러한 시나리오가 배포된 후 목록으로 돌아가 배포의 다음 한두 가지 우선 순위를 식별합니다.
+
+다운로드 가능한 Microsoft 365 Information Protection & Compliance 배포 가속화 안내서에서 추가 일반 배포 지침을 확인할 수 있습니다. 자세한 내용은 [Microsoft 정보 보호 및 규정 준수 배포 가속 가이드](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-information-protection-and-compliance-deployment/ba-p/1403493) 블로그 게시물을 참조 하세요.
+
 ## <a name="common-scenarios-for-sensitivity-labels"></a>민감도 레이블에 대한 일반적인 시나리오
 
-다음 문서를 사용하여 민감도 레이블 배포를 지원합니다.
+모든 시나리오에서 [민감도 레이블 및 해당 정책](create-sensitivity-labels.md)을 만들고 구성해야 합니다.
 
 |필요|설명서|
 |----------------|---------------|
-|조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블을 만들고 게시합니다.|[민감도 레이블과 해당 정책 생성 및 구성](create-sensitivity-labels.md)|
+|콘텐츠가 만들어 질 때 레이블이 지정되도록 Office 앱의 민감도 레이블을 관리합니다. |[Office 앱의 민감도 레이블 사용](sensitivity-labels-office-apps.md)|
 |사용자가 Office 앱, 파일 탐색기 및 PowerShell을 사용하여 Windows 컴퓨터에서 파일에 레이블을 지정하고 파일을 보호하도록 할 수 있습니다.|[Windows용 Azure Information Protection 통합 레이블 지정 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)|
 |민감도 레이블이있는 문서 및 이메일을 암호화하고 해당 컨텐츠에 액세스할 수 있는 사람과 사용 방법을 제한합니다. |[민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한](encryption-sensitivity-labels.md)|
 |문서를 암호화한 경우에도 공동 작성, eDiscovery, 데이터 손실 방지, 검색에 대 한 지원을 사용하여 웹용 Office에 대한 민감도 레이블을 사용하도록 설정합니다. | [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용](sensitivity-labels-sharepoint-onedrive-files.md)
-|콘텐츠가 만들어 질 때 레이블이 지정되도록 Office 앱의 민감도 레이블을 관리합니다. |[Office 앱의 민감도 레이블 사용](sensitivity-labels-office-apps.md)|
 |문서 및 전자 메일에 자동으로 민감도 레이블 적용 | [민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)|
 |민감도 레이블을 사용하여 Teams와 SharePoint에서 콘텐츠 보호 |[Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 민감도 레이블 사용하기](sensitivity-labels-teams-groups-sites.md)|
 |온 프레미스에 있는 데이터 저장소에 저장된 파일 검색, 레이블 지정 및 보호 |[파일을 자동으로 분류하고 보호하는 Azure Information Protection 스캐너 배포](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
