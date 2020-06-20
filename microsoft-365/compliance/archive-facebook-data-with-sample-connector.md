@@ -13,15 +13,14 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
-ms.custom:
-- seo-marvel-apr2020
-description: 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용할 수 있도록 Facebook 데이터를 Microsoft 365로 가져오는 커넥터를 설정 합니다.
-ms.openlocfilehash: e35e4cb8e0f16d3cc95b3f21ce6648bbe087733d
-ms.sourcegitcommit: ab0a944159d9349fbc7adc2f51c7f881254d7782
+ms.custom: seo-marvel-apr2020
+description: 설치 방법 & Microsoft 365 준수 센터에서 커넥터를 사용 하 여 Facebook Business 페이지에서 Microsoft 365로 & 보관 데이터를 가져오는 방법을 알아봅니다.
+ms.openlocfilehash: 79f3c3914476a20c07a1c3ab4418b918c8f22c3e
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44210545"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818467"
 ---
 # <a name="set-up-a-connector-to-archive-facebook-data-preview"></a>Facebook 데이터를 보관할 커넥터 설정 (미리 보기)
 

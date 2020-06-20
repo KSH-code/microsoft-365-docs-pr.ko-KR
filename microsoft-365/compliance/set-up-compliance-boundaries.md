@@ -17,13 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
-description: 규정 준수 경계를 사용 하 여 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어 하는 조직 내의 논리적 경계를 만듭니다. 준수 경계는 검색 권한 필터링 (규정 준수 보안 필터 라고도 함)을 사용 하 여 특정 사용자가 검색할 수 있는 사서함, SharePoint 사이트 및 OneDrive 계정을 제어 합니다.
-ms.openlocfilehash: da03f60be55b0ac6438adcc1648231e5b9798e56
-ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
+description: 준수 경계를 사용 하 여 eDiscovery 관리자가 Microsoft 365에서 검색할 수 있는 사용자 콘텐츠 위치를 제어 하는 논리적 경계를 만드는 방법을 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5d0c1741d46882c3ad623aa1d0529939ede3687f
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44262571"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819208"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>EDiscovery 조사에 대 한 준수 경계 설정
 
@@ -252,7 +253,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
     Set-ComplianceSecurityFilter -FilterName <Filter name>  -Region <Region>
     ```
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
  **New-compliancesecurityfilter 및 New-compliancesecurityfilter cmdlet을 사용 하 여 검색 권한 필터를 만들고 관리할 수 있는 사람은 누구 인가요?**
   
@@ -264,11 +265,11 @@ EDiscovery 관리자는 검색 쿼리에 특정 에이전시로 제한 되는 �
   
  **검색 권한 필터에서 준수 특성으로 사용 되는 특성의 값이 변경 된 경우 어떻게 되나요?**
   
-필터에 사용 된 특성의 값이 변경 되는 경우 검색 권한 필터에 대해 최대 3 일이 소요 됩니다. 예를 들어 Contoso 시나리오에서, 네 번째 커피 에이전시의 사용자가 Coho Winery 에이전시로 전송 된다는 것을 가정해 보겠습니다. 따라서 사용자 개체의 **부서** 특성 값은 *FourthCoffee* 에서 *CohoWinery*로 변경 됩니다. 이 상황에서 네 번째 커피 eDiscovery 및 투자자는 해당 사용자에 대 한 검색 결과를 3 일 동안 (특성이 변경 된 후)으로 가져옵니다. 마찬가지로, Coho Winery eDiscovery 관리자 및 investigators에서 사용자에 대 한 검색 결과를 가져올 때까지 3 일 정도 걸립니다. 
+필터에 사용 된 특성의 값이 변경 되는 경우 검색 권한 필터에 대해 최대 3 일이 소요 됩니다. 예를 들어 Contoso 시나리오에서, 네 번째 커피 에이전시의 사용자가 Coho Winery 에이전시로 전송 된다는 것을 가정해 보겠습니다. 따라서 사용자 개체의 **부서** 특성 값은 *FourthCoffee* 에서 *CohoWinery*로 변경 됩니다. 이 상황에서 네 번째 커피 eDiscovery 및 투자자는 해당 사용자에 대 한 검색 결과를 3 일 동안 (특성이 변경 된 후)으로 가져옵니다. 마찬가지로, Coho Winery eDiscovery 관리자 및 investigators에서 사용자에 대 한 검색 결과를 가져올 때까지 3 일 정도 걸립니다.
   
  **EDiscovery 관리자가 두 개의 별도 준수 경계의 콘텐츠를 볼 수 있습니까?**
   
-예. 이 작업은 두 기관에 모두 표시 되는 역할 그룹에 사용자를 추가 하 여 수행할 수 있습니다.
+예, 두 기관에 모두 표시 되는 역할 그룹에 eDiscovery 관리자를 추가 하 여 Exchange 사서함을 검색할 때이 작업을 수행할 수 있습니다. 그러나 SharePoint 사이트 및 OneDrive 계정을 검색할 때 eDiscovery 관리자는 해당 기관이 동일한 지역 또는 지리적 위치에 있는 경우에만 서로 다른 준수 경계에서 콘텐츠를 검색할 수 있습니다. **참고:** SharePoint 및 OneDrive에서 콘텐츠를 검색할 때 지리적 위치로 제한이 없기 때문에 사이트에 대 한이 제한은 고급 eDiscovery에서 적용 되지 않습니다.
   
  **검색 사용 권한 필터는 eDiscovery 사례 보류, Microsoft 365 보존 정책 또는 DLP에 대해 작동 하나요?**
   

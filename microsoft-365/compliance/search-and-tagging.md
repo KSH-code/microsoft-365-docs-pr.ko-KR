@@ -14,19 +14,20 @@ search.appverid:
 - MET150
 ms.assetid: 22f5adad-1bc0-460d-94a9-8732929f5b99
 description: 고급 eDiscovery에서 검색 및 태그 지정 모듈을 사용 하 여 사용자의 경우 문서를 검색, 미리 보기 및 구성할 수 있습니다. 현재이 모듈은 베타 버전입니다.
-ms.openlocfilehash: 012154e117e0d2b800f0e1077d43f2e1c1d10b0e
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: eba95f4832e674bae0a26d3fa8466b0118a9715d
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557808"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818897"
 ---
 # <a name="search-and-tagging"></a>검색 및 태그 지정
 
 고급 eDiscovery에서 검색 및 태그 지정 모듈을 사용 하 여 사용자의 경우 문서를 검색, 미리 보기 및 구성할 수 있습니다. 현재이 모듈은 베타 버전입니다. 검색 및 태그 지정에 대 한 간단한 데모를 보려면 [고급 eDiscovery로 데이터 관리](https://www.youtube.com/watch?v=VaPYL3DHP6I) 비디오를 참조 하세요.
 
 > [!NOTE]
-> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 ## <a name="search-the-documents-in-your-case"></a>사례에서 문서 검색
 
@@ -73,7 +74,7 @@ ms.locfileid: "42557808"
 
 검색 가능한 속성에 대 한 자세한 내용은 [키워드 쿼리 및 검색 조건을](keyword-queries-and-search-conditions.md)참조 하세요.
   
-## <a name="see-also"></a>참고 항목
+## <a name="related-topics"></a>관련 항목
 
 [고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
