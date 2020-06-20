@@ -15,17 +15,18 @@ localization_priority: Normal
 search.appverid:
 - MOE150
 - MET150
-description: Office 365의 DLP 보고서를 사용 하 여 DLP 정책 일치, 재정의 또는 가양성의 수를 빠르게 확인할 수 있습니다. 시간이 경과 함에 따라 작업 시간을 초과 하 고 있는지 여부를 확인할 수 있습니다. 다양 한 방법으로 보고서를 필터링 합니다. 그래프의 선에서 점을 선택 하 여 추가 세부 정보를 확인 합니다.
-ms.openlocfilehash: 6ff8237b1471f10aff3abc40715af7fe538a211c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+description: Office 365의 DLP 보고서를 사용 하 여 일치 하는 DLP 정책 수, 재정의 또는 가양성을 확인 하 고 시간에 따른 추세를 확인 하 고이를 분석 하 고 있는지 여부를 확인할 수 있습니다.
+ms.openlocfilehash: 1ddcd60dc9314779ade2f7ceae02d336f902e483
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626294"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818998"
 ---
 # <a name="view-the-reports-for-data-loss-prevention"></a>데이터 손실 방지에 대한 보고서 보기
 
-DLP (데이터 손실 방지) 정책을 만든 후에는 해당 정책이 의도 한 대로 작동 하 고 준수 상태를 유지 하는 데 도움을 주려는 것을 확인할 수 있습니다. 보안 &amp; 및 준수 센터의 DLP 보고서를 사용 하 여 다음을 빠르게 확인할 수 있습니다.
+DLP (데이터 손실 방지) 정책을 만든 후에는 해당 정책이 의도 한 대로 작동 하 고 준수 상태를 유지 하는 데 도움을 주려는 것을 확인할 수 있습니다. 보안 및 준수 센터의 DLP 보고서를 사용 하 여 &amp; 다음을 빠르게 확인할 수 있습니다.
   
 - **DLP 정책 일치 항목** 이 보고서는 시간에 따른 DLP 정책 일치 항목의 수를 표시 합니다. 날짜, 위치, 정책 또는 작업을 기준으로 보고서를 필터링 할 수 있습니다. 이 보고서를 사용 하 여 다음을 수행할 수 있습니다. 
     
@@ -57,7 +58,7 @@ DLP (데이터 손실 방지) 정책을 만든 후에는 해당 정책이 의도
     
 모든 DLP 보고서는 최근 4 개월 동안의 데이터를 표시할 수 있습니다. 가장 최근 데이터가 보고서에 표시 되는 데 최대 24 시간이 걸릴 수 있습니다.
   
-보안 &amp; 및 준수 센터 \> **보고서** \> **대시보드에서**이러한 보고서를 찾을 수 있습니다.
+보안 및 &amp; 준수 센터 \> **보고서** \> **대시보드에서**이러한 보고서를 찾을 수 있습니다.
   
 ![DLP 정책 일치 보고서](../media/117d20c9-d379-403f-ad68-1f5cd6c4e5cf.png)
   
@@ -87,11 +88,11 @@ DLP (데이터 손실 방지) 정책을 만든 후에는 해당 정책이 의도
 
 대부분의 보안 &amp; 준수 센터용 cmdlet을 사용하려면 다음의 단계를 따르십시오:
   
-1. [원격 PowerShell을 사용 &amp; 하 여 보안 및 준수 센터에 연결](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
+1. [&amp;원격 PowerShell을 사용 하 여 보안 및 준수 센터에 연결](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
     
 2. 다음 [보안 &amp; 준수 센터 cmdlet](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409) 사용
     
-하지만 DLP 보고서에서는 Exchange Online을 포함한 Office 365에서 데이터를 가져와야 합니다. 이러한 이유로 DLP 보고서용 cmdlet은 보안 &amp; 및 준수 센터 powershell이 아닌 Exchange Online Powershell에서 사용할 수 있습니다. 따라서 DLP 보고서용 cmdlet을 사용하려면 다음의 단계가 필요합니다:
+하지만 DLP 보고서에서는 Exchange Online을 포함한 Office 365에서 데이터를 가져와야 합니다. 이러한 이유로 DLP 보고서용 cmdlet은 보안 및 준수 센터 Powershell이 아닌 Exchange Online Powershell에서 사용할 수 있습니다 &amp; . 따라서 DLP 보고서용 cmdlet을 사용하려면 다음의 단계가 필요합니다:
   
 1. [원격 PowerShell을 사용하여 Exchange Online에 연결](https://go.microsoft.com/fwlink/?LinkID=799773&amp;clcid=0x409)
     

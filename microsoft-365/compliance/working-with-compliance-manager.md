@@ -13,13 +13,15 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Microsoft 준수 관리자는 무료 워크플로 기반 위험 평가 도구입니다. 이 도구를 사용 하 여 Microsoft 제품과 관련 된 규정 준수 활동을 추적, 할당 및 확인 합니다.
-ms.openlocfilehash: 2e67114c4b59fbb676c45995c08b9e4faa05e55b
-ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
+ms.custom:
+- seo-marvel-apr2020
+description: 준수 관리자를 사용 하 여 Microsoft 제품과 관련 된 규정 준수 활동을 추적, 할당 및 확인 하는 방법을 알아봅니다.
+ms.openlocfilehash: fe7b04fe7687bc91e6f96fb2c3994a6536cec314
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "43790665"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817085"
 ---
 # <a name="working-with-microsoft-compliance-manager-preview"></a>Microsoft 준수 관리자 사용 (미리 보기)
 

@@ -13,15 +13,14 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
-ms.custom:
-- seo-marvel-apr2020
-description: LinkedIn 데이터를 Microsoft 365로 가져오는 커넥터를 설정 하 여 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 도구를 사용할 수 있도록 합니다.
-ms.openlocfilehash: 7d88d366ea19be7d158a04edc7d7fb11dca7bab9
-ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
+ms.custom: seo-marvel-apr2020
+description: 관리자가 네이티브 커넥터를 사용 하 여 LinkedIn 회사 페이지에서 Microsoft 365로 데이터를 가져오는 &를 설정 하는 방법을 알아봅니다.
+ms.openlocfilehash: c7801dc7ab00f1193b05a50ae10ee67d78e11065
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44043349"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818447"
 ---
 # <a name="set-up-a-connector-to-archive-linkedin-data"></a>LinkedIn 데이터를 보관할 커넥터 설정
 
@@ -29,7 +28,7 @@ Microsoft 365 준수 센터의 커넥터를 사용 하 여 LinkedIn 회사 페�
 
 LinkedIn 회사 페이지 데이터가 사서함에 저장 되 면 소송 보존, 콘텐츠 검색, 원본 위치 보관, 감사 및 Microsoft 365 고정 정책과 같은 Microsoft 365 준수 기능을 LinkedIn 데이터에 적용할 수 있습니다. 예를 들어 콘텐츠 검색을 사용 하 여 이러한 항목을 검색 하거나, 고급 eDiscovery 사례의 custodian에 저장소 사서함을 연결할 수 있습니다. Microsoft 365에서 LinkedIn 데이터를 가져오고 보관 하기 위한 커넥터를 만들면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
 
-## <a name="before-you--begin"></a>시작 하기 전에
+## <a name="give-consent-assign-roles-and-verify-credentials"></a>동의 부여, 역할 할당 및 자격 증명 확인
 
 - 조직에서는 Office 365 가져오기 서비스가 조직의 사서함 데이터에 액세스할 수 있도록 허용 해야 합니다. 이 요청에 동의 하려면 [이 페이지로](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent)이동 하 여 Microsoft 365 전역 관리자의 자격 증명으로 로그인 한 다음 요청을 수락 합니다.
 
@@ -39,7 +38,7 @@ LinkedIn 회사 페이지 데이터가 사서함에 저장 되 면 소송 보존
 
 ## <a name="create-a-linkedin-connector"></a>LinkedIn 커넥터 만들기
 
-1. 로 이동한 <https://compliance.microsoft.com> 후 **데이터 커넥터** > **LinkedIn 회사 페이지**를 클릭 합니다.
+1. 로 이동한 <https://compliance.microsoft.com> 후 **데이터 커넥터**  >  **LinkedIn 회사 페이지**를 클릭 합니다.
 
 2. **LinkedIn 회사 페이지** 제품 페이지에서 **커넥터 추가**를 클릭 합니다.
 

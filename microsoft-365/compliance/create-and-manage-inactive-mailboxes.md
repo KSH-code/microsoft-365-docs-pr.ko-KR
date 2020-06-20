@@ -17,13 +17,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
-description: 사서함에 보류 또는 보존 정책을 적용 한 다음 해당 사용자 계정을 삭제 하 여 Microsoft 365에서 비활성 사서함을 만들 수 있습니다. 비활성 사서함의 항목은 비활성 상태가 되기 전에 적용 된 보류 또는 보존 정책의 기간 동안 보존 됩니다. 비활성 사서함을 영구적으로 삭제 하려면 보류 또는 보존 정책을 제거 하면 됩니다.
-ms.openlocfilehash: 76205e0f0504d647f4968afcf9ae2f75b2664a01
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.custom:
+- seo-marvel-apr2020
+description: Office 365의 비활성 사서함 기능을 사용 하 여 삭제 된 사서함의 콘텐츠를 유지 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: d479f6661c4d6e87263488ac75682683b4779380
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44679102"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818017"
 ---
 # <a name="create-and-manage-inactive-mailboxes"></a>비활성 사서함 만들기 및 관리
 
@@ -32,7 +34,7 @@ Microsoft 365을 사용 하면 삭제 된 사서함의 콘텐츠를 보존할 �
 > [!IMPORTANT]
 > 계속 해 서 사서함 콘텐츠를 보존 하는 다양 한 방법을 사용할 때 Exchange 관리 센터에서 원본 위치 유지의 만료를 알리는 것입니다. 즉, 소송 보유 및 보존 정책을 사용 하 여 비활성 사서함을 만들어야 합니다. 2020 년 7 월 1 일부 터 시작 Exchange Online에 새로운 현재 위치 유지를 만들 수 없습니다. 그러나 비활성 사서함에 저장 된 원본 위치 유지의 보존 기간은 여전히 변경할 수 있습니다. 그러나 2020 년 10 월 1 일부 터 시작 하는 경우에는 보존 기간을 변경할 수 없습니다. 원본 위치 유지를 제거 해야만 비활성 사서함을 삭제할 수 있습니다. 원본 위치 유지 상태인 기존 비활성 사서함은 보존을 제거할 때까지 계속 유지 됩니다. 원본 위치 유지의 만료에 대 한 자세한 내용은 [레거시 eDiscovery 도구의 만료](legacy-ediscovery-retirement.md)를 참조 하세요.
   
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="preparations-before-creating-an-inactive-mailbox"></a>비활성 사서함을 만들기 전 준비
 
 - 사서함을 비활성화 하려면이를 삭제 하기 전에 사서함에 적용할 수 있도록 Exchange Online 계획 2 라이선스를 할당 받아야 합니다. Exchange Online 계획 2 라이선스는 Office 365 Enterprise E3 및 E5 구독의 일부입니다. 사서함에 Office 365 E1 및 F1 구독에 각각 포함 된 Exchange Online 계획 1 또는 Exchange Online Kiosk 라이선스가 할당 되 면 사서함을 삭제 하기 전에 해당 보존을 적용할 수 있도록 별도의 Exchange Online 보관 라이선스를 할당 해야 합니다. 자세한 내용은 [Exchange Online 아카이빙](https://go.microsoft.com/fwlink/p/?LinkId=286153)를 참조 하세요.
 

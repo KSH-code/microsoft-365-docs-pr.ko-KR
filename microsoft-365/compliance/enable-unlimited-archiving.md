@@ -18,18 +18,19 @@ search.appverid:
 - MET150
 ms.assetid: e2a789f2-9962-4960-9fd4-a00aa063559e
 description: '관리자: 자동 확장 보관을 사용 하도록 설정 하 여 사용자에 게 Exchange Online 사서함에 대 한 무제한 저장소를 제공 하는 방법을 알아봅니다. 전체 조직 또는 특정 사용자만 자동 확장 보관을 사용 하도록 설정할 수 있습니다.'
-ms.openlocfilehash: cb63aa79365d17692dbedf1829f76fb91e965d8d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 8d550e562e8226d586a9538f9f366e3283ad0437
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631713"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817827"
 ---
 # <a name="enable-unlimited-archiving--admin-help"></a>무제한 보관 사용-관리자 도움말
 
 Exchange Online 자동 확장 보관 기능을 사용 하 여 보관 사서함에 대해 무제한 저장 공간을 사용 하도록 설정할 수 있습니다. 자동 확장 보관이 켜져 있는 경우 저장소 제한에 도달 하면 추가 저장소 공간이 사용자의 보관 사서함에 자동으로 추가 됩니다. 따라서 사서함 저장소 용량 제한이 없습니다. 조직의 모든 사용자 또는 특정 사용자에 대해서만 자동 확장 보관을 설정할 수 있습니다. 자동 확장 보관에 대 한 자세한 내용은 [Office 365의 무제한 보관 개요](unlimited-archiving.md)를 참조 하세요.
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-enable-auto-expanding-archiving"></a>자동 확장 보관을 사용 하도록 설정 하기 전에
 
 - 전체 조직 또는 특정 사용자에 대해 자동 확장 보관을 사용 하도록 설정 하려면 조직의 전역 관리자 이거나 Exchange Online 조직에서 조직 관리 역할 그룹의 구성원 이어야 합니다. 또는 특정 사용자에 대 한 자동 확장 보관을 사용 하도록 설정 하려면 Mail Recipients 역할이 할당 된 역할 그룹의 구성원 이어야 합니다.
     
@@ -86,7 +87,7 @@ Exchange Online 자동 확장 보관 기능을 사용 하 여 보관 사서함�
 Get-OrganizationConfig | FL AutoExpandingArchiveEnabled
 ```
 
-값은 조직 `True` 에 대해 자동 확장 보관을 사용 하도록 설정 됨을 나타냅니다. 
+값은 `True` 조직에 대해 자동 확장 보관을 사용 하도록 설정 됨을 나타냅니다. 
   
 특정 사용자에 대해 자동 확장 보관이 enabledd 인지 확인 하려면 Exchange Online PowerShell에서 다음 명령을 실행 합니다.
   
@@ -94,13 +95,13 @@ Get-OrganizationConfig | FL AutoExpandingArchiveEnabled
 Get-Mailbox <user mailbox> | FL AutoExpandingArchiveEnabled
 ```
 
-값은 사용자 `True` 에 대해 자동 확장 보관을 사용 하도록 설정 됨을 나타냅니다. 
+값은 `True` 사용자에 대해 자동 확장 보관을 사용 하도록 설정 됨을 나타냅니다. 
   
 자동 확장 보관을 사용 하도록 설정한 후에는 다음 사항을 염두에 두어야 합니다.
   
-- **Set-organizationconfig-AutoExpandingArchive** 명령을 실행 하 여 조직에 대해 자동 확장 보관을 사용 하도록 설정 하는 경우에는 개별 사서함에서 **enable-AutoExpandingArchive** 를 실행할 필요가 없습니다. **Set-organizationconfig** cmdlet을 실행 하 여 조직에 대해 자동 확장 보관을 사용 하도록 설정 해도 사용자 사서함의 *AutoExpandingArchiveEnabled* 속성은로 `True`변경 되지 않습니다.
+- **Set-organizationconfig-AutoExpandingArchive** 명령을 실행 하 여 조직에 대해 자동 확장 보관을 사용 하도록 설정 하는 경우에는 개별 사서함에서 **enable-AutoExpandingArchive** 를 실행할 필요가 없습니다. **Set-organizationconfig** cmdlet을 실행 하 여 조직에 대해 자동 확장 보관을 사용 하도록 설정 해도 사용자 사서함의 *AutoExpandingArchiveEnabled* 속성은로 변경 되지 않습니다 `True` .
     
-- 마찬가지로 자동 확장 보관을 사용 하도록 설정 하면 *ArchiveQuota* 및 *ArchiveWarningQuota* 사서함 속성의 값이 변경 되지 않습니다. 실제로 사용자 사서함에 대해 자동 확장 보관을 사용 하도록 설정 하 고 *AutoExpandingArchiveEnabled* `True`속성을로 설정 하면 *ArchiveQuota* 및 *ArchiveWarningQuota* 속성이 무시 됩니다. 다음은 사용자 사서함에 대해 자동 확장 보관을 사용 하도록 설정한 후 이러한 사서함 속성의 예입니다. 
+- 마찬가지로 자동 확장 보관을 사용 하도록 설정 하면 *ArchiveQuota* 및 *ArchiveWarningQuota* 사서함 속성의 값이 변경 되지 않습니다. 실제로 사용자 사서함에 대해 자동 확장 보관을 사용 하도록 설정 하 고 *AutoExpandingArchiveEnabled* 속성을로 설정 하면 `True` *ArchiveQuota* 및 *ArchiveWarningQuota* 속성이 무시 됩니다. 다음은 사용자 사서함에 대해 자동 확장 보관을 사용 하도록 설정한 후 이러한 사서함 속성의 예입니다. 
     
     ![자동 확장 보관을 사용 하도록 설정한 후에는 ArchiveQuota 및 ArchiveWarningQuota 속성이 무시 됩니다.](../media/6a1c1b69-5c4c-4267-aac8-53577667f03e.png)
 

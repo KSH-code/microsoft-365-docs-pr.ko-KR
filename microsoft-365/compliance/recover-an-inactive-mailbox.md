@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 35d0ecdb-7cb0-44be-ad5c-69df2f8f8b25
-description: '이전 직원이 조직에 반환 되는 경우 또는 이거나 퇴직 한 직원의 직무에 따라 새 직원을 고용 하는 경우 Office 365에서 비활성 사서함의 콘텐츠를 복구할 수 있습니다. 비활성 사서함을 복구 하면 비활성 사서함의 내용이 포함 된 새 사서함으로 변환 됩니다. '
-ms.openlocfilehash: 63d71d2f6e23af55d94f006e772f35747c83d59c
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.custom: seo-marvel-apr2020
+description: 비활성 사서함의 콘텐츠를 포함 하는 새 사서함으로 변환 하 여 Office 365에서 비활성화 된 사서함의 내용을 복구 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: e5ac5a5e5e9e73d118ea1872bf36476ee1e1965a
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44678974"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818948"
 ---
 # <a name="recover-an-inactive-mailbox"></a>비활성 사서함 복구
 
@@ -33,7 +34,7 @@ ms.locfileid: "44678974"
 
 비활성 사서함 복구 및 복원과 비활성 사서함을 복구할 때 수행 되는 작업에 대 한 자세한 [내용은 추가 정보](#more-information) 섹션을 참조 하십시오.
   
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="requirements-to-recover-an-inactive-mailbox"></a>비활성 사서함을 복구 하기 위한 요구 사항
 
 - 비활성 사서함을 복구 하려면 Exchange Online PowerShell을 사용 해야 합니다. EAC(Exchange 관리 센터)는 사용할 수 없습니다. 단계별 지침은 [Exchange Online PowerShell에 연결을](https://go.microsoft.com/fwlink/?linkid=396554)참조 하십시오.
     

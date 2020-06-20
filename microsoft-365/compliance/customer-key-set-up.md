@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 for Exchange Online, 비즈니스용 Skype, SharePoint Online, 비즈니스용 OneDrive 및 팀 파일에 대 한 고객 키를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 4d9a6292482a06a4629d394c5ff422ba02bec55e
-ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
+ms.openlocfilehash: 158096216974691bf0caff93a1c95db54b92f6b1
+ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44717265"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44810994"
 ---
 # <a name="set-up-customer-key"></a>고객 키 설정
 
@@ -448,7 +448,15 @@ DEP를 만들려면 다음 단계를 수행 합니다.
 Set-Mailbox -Identity <MailboxIdParameter> -DataEncryptionPolicy <PolicyName>
 ```
 
-여기서 *MailboxIdParameter* 는 사서함을 지정 합니다. 사서함 cmdlet에 대 한 자세한 내용은 [set-mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox?view=exchange-ps)를 참조 하십시오.
+여기서 *MailboxIdParameter* 는 사서함을 지정 합니다. 사서함 cmdlet에 대 한 자세한 내용은 [set-mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox)를 참조 하십시오.
+
+온 [-프레미스 사서함에 대해 Outlook을 하이브리드 최신 인증과 함께 사용 하](https://docs.microsoft.com/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth)는 경우 Exchange Online 테 넌 트에 동기화 되는 온-프레미스 사서함 데이터는 Set-mailuser cmdlet을 사용 하 여 DEP를 할당할 수 있습니다. 
+
+```powershell
+Set-MailUser -Identity <MailUserIdParameter> -DataEncryptionPolicy <PolicyName>
+```
+
+여기서 *Mailuseridparameter 변수* 는 메일 사용자 (메일 사용이 가능한 사용자 라고도 함)를 지정 합니다. 설정-MailUser cmdlet에 대 한 자세한 내용은 [설정-MailUser](https://docs.microsoft.com/powershell/module/exchange/set-mailuser)를 참조 하십시오.
   
 ### <a name="validate-mailbox-encryption"></a>사서함 암호화 유효성 검사
 

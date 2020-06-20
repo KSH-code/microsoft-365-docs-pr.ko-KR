@@ -14,15 +14,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 88898874-e262-4c5c-b6d2-4e697497fc74
-ms.custom:
-- seo-marvel-apr2020
-description: 키워드 쿼리를 통해 콘텐츠 검색에 지원 되지 않는 문자 및 소문자 부울 연산자와 같은 오류 및 오타가 있는지 확인 하는 방법을 알아봅니다.
-ms.openlocfilehash: 489afd8b2fe19742b63232d323197afecc257ccc
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.custom: seo-marvel-apr2020
+description: 검색을 실행 하기 전에 콘텐츠 검색에 대 한 키워드 쿼리에서 오류 및 오타를 검색 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 250db272014d5801bfb3927d14072eea94bd635f
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035630"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818097"
 ---
 # <a name="check-your-content-search-query-for-errors"></a>오류에 대한 콘텐츠 검색 쿼리 확인
 
@@ -38,7 +37,7 @@ ms.locfileid: "44035630"
     
 - **왼쪽에서 오른쪽 및 오른쪽에서 왼쪽으로 표시** -이러한 표시는 왼쪽에서 오른쪽으로 쓰기 언어의 텍스트 방향 (예: 영어 및 스페인어) 및 오른쪽에서 왼쪽으로 쓰기 언어 (아랍어, 히브리어)를 나타내는 데 사용 되는 제어 문자입니다.
     
-- **소문자 부울 연산자** -검색 쿼리에 **NOT** **And**, **OR**등의 부울 연산자를 사용 하는 경우에는 대문자 여야 합니다. 쿼리에 오타가 있는지 여부를 확인 하는 경우 쿼리 구문에는 소문자 연산자를 사용할 수 있지만 부울 연산자가 사용 되는 것으로 표시 되는 경우가 많습니다. 예를 `(WordA or WordB) and (WordC or WordD)`들면입니다.
+- **소문자 부울 연산자** -검색 쿼리에 **NOT** **And**, **OR**등의 부울 연산자를 사용 하는 경우에는 대문자 여야 합니다. 쿼리에 오타가 있는지 여부를 확인 하는 경우 쿼리 구문에는 소문자 연산자를 사용할 수 있지만 부울 연산자가 사용 되는 것으로 표시 되는 경우가 많습니다. 예를 들면 `(WordA or WordB) and (WordC or WordD)` 입니다.
     
 ## <a name="what-happens-if-a-query-has-an-unsupported-character"></a>쿼리에 지원 되지 않는 문자가 있으면 어떻게 되나요?
 

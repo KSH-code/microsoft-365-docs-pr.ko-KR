@@ -16,13 +16,15 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 한 검토 집합에서 문서를 선택 하 고 고급 eDiscovery 사례의 다른 집합에서 개별적으로 사용 하는 방법에 대해 알아봅니다.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 636e76b1740cfa07254e4c56165cfafa8f1fad5a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.custom:
+- seo-marvel-mar2020
+- seo-marvel-apr2020
+ms.openlocfilehash: 433e59629ec40dbdf66b8daf6437ce84e41a3a33
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034682"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818605"
 ---
 # <a name="add-data-to-a-review-set-from-another-review-set"></a>다른 검토 집합의 검토 집합에 데이터 추가
 
@@ -30,9 +32,9 @@ ms.locfileid: "44034682"
 
 이 문서에서 설명 하는 워크플로를 따라 검토 집합 간에 콘텐츠를 추가 합니다.
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="create-a-review-set"></a>검토 집합 만들기
 
-시작 하기 전에 데이터를 추가할 새 검토 집합을 만들어야 합니다.  사례에 대 한 **검토 집합** 탭에 새 검토 집합을 추가할 수 있습니다. 자세한 내용은 [Create a review set](managing-review-sets.md#create-a-review-set)을 참조 하십시오.
+시작 하기 전에 데이터를 추가할 검토 집합을 만들어야 합니다.  사례에 대 한 **검토 집합** 탭에 새 검토 집합을 추가할 수 있습니다. 자세한 내용은 [Create a review set](managing-review-sets.md#create-a-review-set)을 참조 하십시오.
 
 ## <a name="step-1-identify-content-to-add-to-another-review-set"></a>1 단계: 다른 검토 집합에 추가할 콘텐츠 식별
 

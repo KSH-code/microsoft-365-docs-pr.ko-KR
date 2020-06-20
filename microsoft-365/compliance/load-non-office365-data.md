@@ -16,19 +16,21 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Office 이외 365 콘텐츠 가져오기 기능을 사용 하 여 Office 이외 365 문서를 데이터 조사의 증거에 업로드 하는 방법을 알아봅니다.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 499b1074b9a1e2026804eab2ac958fe7392e98ea
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.custom:
+- seo-marvel-mar2020
+- seo-marvel-apr2020
+ms.openlocfilehash: 9bfebc6aad9bc37d7d78ec4a0d50e6de967ac7d1
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034416"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44815485"
 ---
 # <a name="load-non-microsoft-365-data-into-evidence"></a>Microsoft 제품이 아닌 365 데이터를 증거에 로드
 
 데이터 조사에서 분석을 수행 하는 데 필요한 모든 문서는 Microsoft 365에 있습니다. 비 Microsoft 365 콘텐츠 가져오기 기능을 사용 하 여 Microsoft 365에 없는 문서를 데이터 조사에서 분석할 수 있도록 증거에 업로드할 수 있습니다.
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="requirements-to-upload-non-office-365-content"></a>Office 이외의 365 콘텐츠를 업로드 하기 위한 요구 사항
 
 이 절차에 설명 된 것 처럼 365 Microsoft 제품이 아닌 업로드 기능을 사용 하려면 다음이 필요 합니다.
 
@@ -42,7 +44,7 @@ ms.locfileid: "44034416"
 
 - 비 Microsoft 365 콘텐츠 폴더 구조에 대 한 액세스 권한이 있는 컴퓨터에 eDiscovery 관리자 또는 eDiscovery 관리자 Microsoft Azure Storage Tools가 설치 되어 있는 계정입니다.
 
-- 다음에서 수행할 수 있는 AzCopy을 설치 합니다.https://docs.microsoft.com/azure/storage/common/storage-use-azcopy
+- [AzCopy을 사용 하 여 시작할](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy)수 있는 AzCopy을 설치 합니다.
 
 ## <a name="upload-non-microsoft-365-content-in-to-a-data-investigation"></a>Microsoft 제품이 아닌 365 콘텐츠를 데이터 조사에 업로드
 

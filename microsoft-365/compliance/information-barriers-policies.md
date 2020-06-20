@@ -14,16 +14,14 @@ ms.collection:
 localization_priority: None
 description: Microsoft 팀에서 정보 장벽에 대 한 정책을 정의 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 41d56927f3f9c22782b10640330ca9d0167402d2
-ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
+ms.openlocfilehash: 88ff728f00709707233b97586d1220ead76eca8c
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232057"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817547"
 ---
 # <a name="define-information-barrier-policies"></a>정보 장벽 정책 정의
-
-## <a name="overview"></a>개요
 
 정보 장애물을 사용 하 여 특정 사용자 세그먼트가 서로 통신 하지 못하도록 설계 된 정책을 정의 하거나 특정 세그먼트가 다른 특정 세그먼트와만 통신할 수 있습니다. 정보 장벽 정책은 조직에서 관련 업계 표준 및 규정 준수를 유지 하 고, 잠재적으로 발생할 수 있는 충돌을 방지 하는 데 도움이 됩니다. 자세한 내용은 [정보 장벽](information-barriers.md)를 참조 하십시오. 
 

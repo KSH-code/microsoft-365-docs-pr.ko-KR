@@ -19,12 +19,13 @@ search.appverid:
 - MET150
 ms.assetid: 1adffc35-38e5-4f7d-8495-8e0e8721f377
 description: 콘텐츠 검색 권한 필터링을 사용 하 여 eDiscovery 관리자가 조직에 있는 사서함 및 사이트의 하위 집합만 검색 하도록 합니다.
-ms.openlocfilehash: 9628548b3cb2f6af5bedf7895a8714822731361f
-ms.sourcegitcommit: 8d9509e617ede7cc5ba933c54fb9300d2d1c6344
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 06fabfd1132166e2439c9790b50b0dbcb5bdca2c
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "44347787"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818777"
 ---
 # <a name="configure-permissions-filtering-for-content-search"></a>콘텐츠 검색에 대한 권한 필터링 구성
 
@@ -42,7 +43,7 @@ ms.locfileid: "44347787"
 
 [New-compliancesecurityfilter을 제거 합니다.](#remove-compliancesecurityfilter)
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="requirements-to-configure-permissions-filtering"></a>사용 권한 필터링을 구성 하기 위한 요구 사항
 
 - 준수 보안 필터 cmdlet을 실행 하려면 보안 & 준수 센터에서 조직 관리 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [보안 및 준수 센터의 사용 권한](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)을 참조하세요.
     
@@ -58,7 +59,7 @@ ms.locfileid: "44347787"
     
 ## <a name="connect-to-the-security--compliance-center-and-exchange-online-in-a-single-remote-powershell-session"></a>단일 원격 PowerShell 세션에서 보안 & 준수 센터 및 Exchange Online에 연결
 
-1. 파일 이름 접미사. p s e c 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 **합니다.** 예를 들어 **ConnectEXO-CC**이라는 파일에 저장할 수 있습니다.
+1. 파일 이름 접미사. p s e c 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 **합니다.** 예를 들어 **ConnectEXO-CC.ps1**라는 파일에 저장할 수 있습니다.
     
     ```powershell
     $UserCredential = Get-Credential
@@ -79,7 +80,7 @@ ms.locfileid: "44347787"
   
 오류가 발생하면 다음 요구 사항을 확인합니다.
   
-- 가장 흔한 문제는 암호를 잘못 입력한 경우입니다. 두 가지 단계를 다시 실행하고 1단계에서 사용자 이름과 암호를 입력할 때 신중하게 확인합니다.
+- A common problem is an incorrect password. Run the two steps again and pay close attention to the user name and password you enter in Step 1.
     
 - 계정에 보안 & 준수 센터에 대 한 액세스 권한이 있는지 확인 합니다. 자세한 내용은 [사용자에 게 보안 & 준수 센터에 대 한 액세스 권한을 부여](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조 하십시오.
     
@@ -149,7 +150,7 @@ New-ComplianceSecurityFilter -FilterName CountryFilter  -Users annb@contoso.com 
 New-ComplianceSecurityFilter -FilterName MarketingFilter  -Users donh,suzanf -Filters "Mailbox_CustomAttribute1  -eq 'Marketing'" -Action Search
 ```
 
-이 예에서는 "미국 검색 관리자" 역할 그룹의 구성원이 미국에 있는 사서함에 대해서만 모든 콘텐츠 검색 작업을 수행할 수 있도록 합니다. 이 필터에는 ISO 3166-1의 3자리 미국 국가 코드가 포함되어 있습니다.
+This example allows members of the "US Discovery Managers" role group to perform all Content Search actions only on mailboxes in the United States. This filter contains the three-digit numeric country code for the United States from ISO 3166-1.
   
 ```powershell
 New-ComplianceSecurityFilter -FilterName USDiscoveryManagers  -Users "US Discovery Managers" -Filters "Mailbox_CountryCode  -eq '840'" -Action All

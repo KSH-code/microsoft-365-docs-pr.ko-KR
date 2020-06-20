@@ -15,18 +15,19 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: c87bb0e5-301c-4d1d-958e-aabeb7990f44
-description: '보안 &amp; 및 준수 센터를 사용 하 여 Advanced eDiscovery에 액세스 하 고 서비스 케이스에 대해 프로세스 모듈을 실행 하는 방법을 알아봅니다.  '
-ms.openlocfilehash: efab765a7ed17b1118efe7296fbabe08d51dd1ba
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: '보안 및 준수 센터를 사용 하 여 &amp; Advanced eDiscovery에 액세스 하 고 서비스 케이스에 대해 프로세스 모듈을 실행 하는 방법을 알아봅니다.  '
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 47614e8bc25a376f9b51068c151a71e025e2f264
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626474"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818907"
 ---
 # <a name="run-the-process-module-and-load-data-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 프로세스 모듈 실행 및 데이터 로드 (클래식)
 
 > [!NOTE]
-> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 이 섹션에서는 고급 eDiscovery 프로세스 모듈의 기능에 대해 설명 합니다. 
   
@@ -41,13 +42,13 @@ Advanced eDiscovery는 거의 중복 된 그룹 또는 관련성 점수와 같�
   
 다음 단계를 수행 하 여 프로세스를 실행 합니다.
   
-1. [보안 &amp; 및 준수 센터를 엽니다](go-to-the-securitycompliance-center.md) . 
+1. [보안 &amp; 을 엽니다. 준수 센터](go-to-the-securitycompliance-center.md) 
     
-2. ** &amp; 검색 조사** \> **eDiscovery** 로 이동한 후 **Advanced eDiscovery로 이동을**클릭 합니다.
+2. **검색 &amp; 조사** \> **eDiscovery** 로 이동한 후 **Advanced eDiscovery로 이동을**클릭 합니다.
     
 3. 고급 eDiscovery의 경우 표시 되는 **사례** 페이지에서 적절 한 사례를 선택 하 고 **대/소문자로 이동을**클릭 합니다.
     
-4. \> **프로세스** **Prepare** \> 준비 **설정**의 사용 가능한 컨테이너 목록에서 컨테이너를 선택 합니다.
+4. 프로세스 **준비** \> **Process** \> **설정**의 사용 가능한 컨테이너 목록에서 컨테이너를 선택 합니다.
     
     ![프로세스를 클릭 하 여 검색 결과를 사례에 추가 합니다.](../media/50bdc55c-d378-4881-b302-31ef785fa359.png)
   
@@ -77,11 +78,11 @@ Advanced eDiscovery는 거의 중복 된 그룹 또는 관련성 점수와 같�
     
 6. 시작 하려면 **프로세스**를 클릭 합니다. 완료 되 면 프로세스 결과가 표시 됩니다.
     
-7. 반드시 특정 custodian에 데이터 원본을 할당 해야 하는 **경우에** \> 는 **Custodians** \> 에서 custodian를 **관리** 하 고 Custodians을 할당할 **수 없습니다.** 
+7. 반드시 특정 custodian에 데이터 원본을 할당 해야 하는 경우에는 **Custodians** 에서 custodian를 \> **관리** 하 고 Custodians을 할당할 수 **Custodians** \> **Assign**없습니다. 
     
 사례에 추가 하는 경우 다시 처리할 수 있습니다.
   
-## <a name="see-also"></a>참고 항목
+## <a name="related-topics"></a>관련 항목
 
 [고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   

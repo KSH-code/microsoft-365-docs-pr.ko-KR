@@ -14,19 +14,20 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 규정 준수 점수가 위험을 해결 하 고 준수 상태를 개선 하기 위해 수행한 조치에 따라 개인 설정 점수를 계산 하는 방법을 이해 합니다.
-ms.openlocfilehash: e1a13cee8086e158f3869a00384166366c0a63dc
-ms.sourcegitcommit: 436841236dc41390a3be9f8936d19d3d017fa35c
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: cf8a691b558614896cc17207e761035e1f360280
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "44429193"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818077"
 ---
 # <a name="microsoft-compliance-score-preview-calculation"></a>Microsoft 규정 준수 점수 (미리 보기) 계산
 
 > [!IMPORTANT]
 > 준수 점수 및 준수 관리자의 권장 사항을 준수 보장으로 해석하면 안 됩니다. 규정 환경에 따라 고객 컨트롤의 효율성을 평가 하 고 유효성을 검사 하는 작업은 사용자의 결정입니다. 이러한 서비스는 현재 미리 보기로 사용 되며 [온라인 서비스 약관](https://go.microsoft.com/fwlink/?linkid=2108910)의 사용 약관에 따라 달라 집니다. [보안 및 규정 준수에 대 한 자세한 내용은 Microsoft 365 라이선싱 지침을](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)참조 하세요.
 
-## <a name="overview"></a>개요
+## <a name="how-compliance-score-works"></a>준수 점수 작동 방식
 
 규정 준수 점수 대시보드에는 컨트롤 내에서 향상 작업을 완료 하는 과정의 진행 상황을 측정 하는 점수가 표시 됩니다. 작업을 완료 하면 점수가 계산 됩니다.
 

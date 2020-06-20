@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d0656286ecdac0471715c5dbb0feaa0bbaffaf6a
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: c30f92bbbe3458fe4751f829b02203f622414cda
+ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066361"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44800099"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>연방 금융 기관 검사 Council (FFIEC)
 
@@ -33,7 +33,7 @@ ms.locfileid: "44066361"
 
 Microsoft Azure, Microsoft Power BI 및 Microsoft Office 365는 금융 서비스 기관에 클라우드 서비스를 제공 하는 데 필요한 엄격한 요구 사항을 충족 하도록 작성 되었습니다. 지원의 일부로, 정보 기술에 대 한 FFIEC 감사 요구 사항을 준수 하는 데 도움이 되는 지침을 제공 하 고 FFIEC 준수 의무를 다룰 때 Azure SOC attestations을 사용 하는 기능에 대해 설명 합니다.
 
-금융 서비스 배포 속도 향상: [Azure 보안 및 준수 FFIEC 금융 서비스 청사진 다운로드](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint)
+금융 서비스 배포 속도 향상: [Azure 보안 및 준수 FFIEC 금융 서비스 청사진 다운로드](https://servicetrust.officeppe.com/ViewPage/FFIECBlueprint)
 
 금융 기관 클라이언트가 Azure를 통한 FFIEC 준수 요구 사항을 충족 하도록 지원 하기 위해 Microsoft는 다음을 개발 했습니다.
 
@@ -53,7 +53,7 @@ FFIEC 요구 사항을 준수 하는 데 도움이 되도록 Microsoft 클라우
 
 Azure 및 Office 365 SOC 증명 보고서
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 **Microsoft에서 사용 하는 제 1의 FFIEC 준수 의무를 충족 하기 위해 SOC 표준에 대 한 마이크로소프트 준수를 사용할 수 있나요?**
 

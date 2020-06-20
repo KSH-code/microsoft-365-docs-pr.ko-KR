@@ -15,13 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Advanced eDiscovery에서 처리에는 custodian 데이터의 다시 인덱싱, 포함 된 문서 및 첨부 파일의 확장 및 OCR이 포함 되어 있습니다. 처리에 인덱싱 오류를 위한 업데이트도 포함 됩니다.
-ms.openlocfilehash: ab0b9d3a92590812531be04f193ef51afa70a1cf
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Office 365의 고급 eDiscovery 도구에서 다양 한 데이터 형식을 처리 하는 방법에 대 한 개요를 읽으십시오.
+ms.openlocfilehash: ec39df5ba8f8ad4ce979b2cd110e14f29f7838b4
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632223"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818787"
 ---
 # <a name="work-with-processing-errors-in-advanced-ediscovery"></a>Advanced eDiscovery에서의 처리 오류 작업
 

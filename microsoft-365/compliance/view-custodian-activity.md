@@ -17,18 +17,18 @@ search.appverid:
 ms.assetid: ''
 description: 고급 eDiscovery Custodian 관리 도구를 사용 하 여 사례 내에서 custodians에 대 한 활동을 쉽게 액세스 하 고 검색할 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 84da57c8f2115c18543d4f38fd84f2c4eccb46d5
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 29aee2498b21cc4535ffa82f91fdba05125c4d18
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034300"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819048"
 ---
 # <a name="view-custodian-audit-activity"></a>Custodian 감사 작업 보기
 
 사용자가 특정 문서를 보았는지 또는 사서함에서 항목을 제거했는지 확인해야 하나요? 고급 eDiscovery는 이제 보안 & 준수 센터의 기존 감사 로그 검색 도구와 통합 되어 있습니다. 이 포함 된 환경을 사용 하 여 고급 eDiscovery Custodian 관리 도구를 사용 하 여 사례 내에서 custodians의 활동을 쉽게 액세스 하 고 검색할 수 있습니다.
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="get-permissions"></a>사용 권한 얻기
 
 감사 로그를 검색하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할이 할당되어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 사용 권한 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. 사용자에 게 고급 eDiscovery 감사 로그에서 최소 권한 수준을 검색할 수 있는 기능을 제공 하기 위해 Exchange Online에서 사용자 지정 역할 그룹을 만들고 보기 전용 감사 로그 또는 감사 로그 역할을 추가한 다음 사용자를 새 역할 그룹의 구성원으로 추가할 수 있습니다. 자세한 내용은 Exchange Online에서 역할 그룹 관리를 참조하세요.
 

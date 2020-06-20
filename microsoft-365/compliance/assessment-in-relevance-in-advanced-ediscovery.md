@@ -15,18 +15,19 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 1d33d4fb-91ed-41c0-b72e-5a26eca3a2a7
-description: 고급 eDiscovery의 관련성 교육 중에 다양 한 문제를 파악 하는 데 있어 평가 단계 및 해당 역할에 대 한 개요를 확인 하세요.
-ms.openlocfilehash: e1e090a9b3aceecad8451657d7a8e5d26e92ed6f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Microsoft 365 Advanced eDiscovery의 관련성 교육 중에 다양 한 문제를 파악 하기 위한 평가 단계 및 해당 역할에 대 한 개요를 확인할 수 있습니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: afd4f1f549d52652ac02cfa410efc507ece58910
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636156"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818417"
 ---
 # <a name="understand-assessment-in-relevance-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 관련성 평가 이해 (클래식)
 
 > [!NOTE]
-> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 고급 eDiscovery에서는 정의 된 문제와 사례에 대해 가져온 데이터에 대 한 초기 평가를 수행할 수 있습니다. 고급 eDiscovery를 사용 하면 전문가가 채택 된 접근 방식을 결정 하 고 문서 검토 프로젝트에 이러한 결정을 적용할 수 있습니다.
   
@@ -51,9 +52,9 @@ ms.locfileid: "43636156"
 관련성 권장 사항을 그대로 사용 하거나 필요에 따라 현재 오류 여백을 조정할 수 있습니다. 기본값 현재 오류 여백이 75% 이상 인지 여부에 따라 결정 됩니다.
   
 > [!NOTE]
-> 평가 단계를 무시할 수 있으며, 문제에 대 한 확장 된 보기의 ** \> 관련성 트랙** 탭에서 문제 마다 **평가** 확인란을 선택 취소 하 고 "모든 문제"에 대해 확인 합니다. 그러나 따라서이 문제에 대 한 통계가 제공 되지 않습니다. **평가** 를 수행 하기 전에만 확인 확인란을 선택 취소할 수 있습니다. > 사례에 여러 문제가 있는 경우 각 문제에 대해 확인란이 선택 취소 되어 있는 경우에만 평가를 무시 합니다. 
+> 평가 단계를 무시할 수 있으며, 문제에 대 한 확장 된 보기의 **관련성 \> 트랙** 탭에서 문제 마다 **평가** 확인란을 선택 취소 하 고 "모든 문제"에 대해 확인 합니다. 그러나 따라서이 문제에 대 한 통계가 제공 되지 않습니다. **평가** 를 수행 하기 전에만 확인 확인란을 선택 취소할 수 있습니다. > 사례에 여러 문제가 있는 경우 각 문제에 대해 확인란이 선택 취소 되어 있는 경우에만 평가를 무시 합니다. 
   
-## <a name="see-also"></a>참고 항목
+## <a name="related-topics"></a>관련 항목
 
 [고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   

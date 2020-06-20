@@ -14,12 +14,13 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: 새 메시지 보호 기능의 작동 방식에 대 한 질문이 있나요? 여기에서 대답을 확인 하세요.
-ms.openlocfilehash: d3dcc91f1e1e93293218e18109cebae2190d337b
-ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5368133877921d8f5fdfa2e3de2e610c545f57ff
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44717157"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818681"
 ---
 # <a name="message-encryption-faq"></a>메시지 암호화 FAQ
 
@@ -103,7 +104,7 @@ Microsoft 365 사용자는 Windows 및 Mac 용 Outlook (2013 및 2016), 웹용 O
   
 ## <a name="what-file-types-are-supported-as-attachments-in-protected-emails-do-attachments-inherit-the-protection-policies-associated-with-protected-emails"></a>보호 된 전자 메일에서 첨부 파일로 지원 되는 파일 형식은 무엇입니까? 첨부 파일에서 보호 된 전자 메일과 연결 된 보호 정책을 상속 하나요?
 
-보호 된 메일에 모든 파일 형식을 첨부할 수 있지만 보호 정책은 [여기](https://docs.microsoft.com/information-protection/rms-client/client-admin-guide-file-types)에 언급 된 파일 형식에만 적용 됩니다.
+모든 파일 형식을 보호 된 메일에 첨부할 수 있지만 보호 정책은 [Azure Information protection 클라이언트에서 지 원하는 파일 형식](https://docs.microsoft.com/information-protection/rms-client/client-admin-guide-file-types)에 언급 된 파일 형식에만 적용 됩니다.
   
 Word, Excel 또는 PowerPoint 파일과 같은 파일 형식이 지원 되는 경우 받는 사람이 첨부 파일을 다운로드 한 후에도 파일이 항상 보호 됩니다. 예를 들어 첨부 파일이 전달 하지 않도록 보호 되 고 원래 받는 사람이 첨부 파일을 다운로드 하 여 새 받는 사람에 게 전달 하는 경우 새 받는 사람은 보호 된 파일을 열 수 없게 됩니다.
   

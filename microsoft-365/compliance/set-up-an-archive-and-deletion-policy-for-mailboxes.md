@@ -19,14 +19,14 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
-description: Microsoft 365에서 항목을 사용자의 보관 사서함으로 자동으로 이동 하는 보관 및 삭제 정책을 만듭니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5bc48b8192af3ca4edd591307e5945b9171cf665
-ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
+description: Microsoft 365에서 항목을 사용자의 보관 사서함으로 자동으로 이동 하는 보관 및 삭제 정책을 만드는 방법에 대해 알아봅니다.
+ms.openlocfilehash: e5f35938241608a247c625e8411821572d75b18e
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44222529"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819218"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>조직에서 사서함에 대한 보관 및 삭제 정책 설정하기
 
@@ -48,7 +48,7 @@ ms.locfileid: "44222529"
     
 이 문서의 단계 중 일부 또는 전체를 수행 하 여 조직의 사서함에 대 한 보관 및 삭제 정책을 설정할 수 있습니다. 조직의 모든 사서함에 대해이 프로세스를 구현 하기 전에 몇 개의 사서함에서이 과정을 테스트 하는 것이 좋습니다.
   
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-set-up-an-archive-and-deletion-policy"></a>보관 및 삭제 정책을 설정 하기 전에
 
 - 이 항목의 단계를 수행 하려면 조직의 전역 관리자 여야 합니다. 
     

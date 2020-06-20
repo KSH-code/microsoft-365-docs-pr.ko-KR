@@ -18,12 +18,12 @@ ms.assetid: 7b40eeaa-544c-4534-b89b-9f79998e374c
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서의 Windows PowerShell 스크립트를 사용 하 여 Office 365 또는 Microsoft 365의 준수 센터에서 기존 콘텐츠 검색을 빠르게 복제 합니다.
-ms.openlocfilehash: 013a3cd04b665e1da800638a2335adb034878a4a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 28f1264736f158fd686174813b9cefdd087c274c
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035650"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818087"
 ---
 # <a name="clone-a-content-search"></a>콘텐츠 검색 복제
 
@@ -37,7 +37,7 @@ Office 365 또는 Microsoft 365의 준수 센터에서 콘텐츠 검색을 만�
     
 - 검색 결과의 크기를 줄이려면 예를 들어 검색 결과로 너무 많은 결과를 반환 하는 경우 검색을 복제 한 다음 날짜 범위에 따라 검색 조건을 추가 하 여 검색 결과의 수를 줄일 수 있습니다.
   
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="script-information"></a>스크립트 정보
 
 - 이 항목에서 설명 하는 스크립트를 실행 하려면 보안 & 준수 센터에서 eDiscovery 관리자 역할 그룹의 구성원 이어야 합니다.
     
@@ -61,7 +61,7 @@ Office 365 또는 Microsoft 365의 준수 센터에서 콘텐츠 검색을 만�
     
 검색을 복제 하려면 다음을 수행 합니다.
   
-1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 `CloneSearch.ps1`들면입니다.
+1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 들면 `CloneSearch.ps1` 입니다.
     
   ```powershell
   # This PowerShell script clones an existing content search in the Security &amp; Compliance Center.

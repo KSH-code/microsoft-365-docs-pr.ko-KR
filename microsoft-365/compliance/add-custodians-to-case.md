@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 고급 eDiscovery의 기본 제공 custodian 관리 도구를 사용 하 여 워크플로를 조정 하 고 사례에서 관련 데이터 원본을 식별 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0c85fb080faeeafd5909c033bc95ef14efc2c45
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: adf5df3bba1956ab1bb658590c1fcf9d4f5a814d
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034692"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818615"
 ---
 # <a name="add-custodians-to-an-advanced-ediscovery-case"></a>고급 eDiscovery 사례에 custodians 추가
 
@@ -32,7 +32,7 @@ ms.locfileid: "44034692"
 
 ![Custodian 관리 탭](../media/CustodianMgtPage.png)
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="make-sure-you-have-the-necessary-permissions"></a>필요한 사용 권한이 있는지 확인
 
 Custodians를 사례에 추가 하려면 eDiscovery 관리자 역할 그룹의 구성원 이어야 합니다. 이렇게 하면 custodians를 사례에 추가 하 고 custodial 데이터 원본에 대 한 보류를 수행 하는 데 필요한 권한이 제공 됩니다.
 

@@ -1,5 +1,5 @@
 ---
-title: 보류 가능한 항목 폴더에 있는 클라우드 사서함의 항목 삭제-관리자 도움말
+title: 보류 가능한 항목 폴더의 클라우드 사서함에서 항목 삭제
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,14 +16,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
-description: '관리자: 해당 사서함이 법적 보존 상태로 설정 된 경우에도 Exchange Online 사서함에 대 한 사용자의 복구 가능한 항목 폴더에서 항목을 삭제 합니다. 이렇게 하면 Microsoft 365에 실수로 분산 된 데이터를 효과적으로 삭제할 수 있습니다.'
+description: 사서함이 법적 보존 상태로 설정 된 경우에도 사용자의 복구 가능한 항목 폴더에서 Exchange Online 사서함의 항목을 삭제 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ce363d558e5ce1de600ccf34863cc6524841e78b
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 2d7babf231efba31a6f4cb1638d98669a9b938f9
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352183"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817877"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>보류에서 클라우드 기반 사서함의 복구 가능한 항목 폴더에 있는 항목 삭제-관리자 도움말
 
@@ -46,7 +46,7 @@ Exchange Online 사서함에 대 한 복구 가능한 항목 폴더는 실수로
 > [!CAUTION]
 > 이 문서에서 설명 하는 절차에 따라 Exchange Online 사서함에서 데이터가 영구적으로 삭제 (제거) 됩니다. 즉, 복구 가능한 항목 폴더에서 삭제 한 메시지는 복구할 수 없으며, 법적 검색 이나 다른 규정 준수 용도로는 사용할 수 없습니다. 보안 및 준수 센터에서 만든 소송 보존, 원본 위치 유지, eDiscovery 보존 또는 보관 정책의 일부로 보류 중인 사서함에서 메시지를 삭제 하려면 보류를 제거 하기 전에 레코드 관리 또는 법률 부서에 문의 하십시오. 조직에 보류 중인 사서함 또는 데이터 유출 인시던트가 우선적으로 적용 되는지 여부를 정의 하는 정책이 있을 수 있습니다. 
   
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-delete-items"></a>항목을 삭제 하기 전에
 
 - 콘텐츠 검색을 만들고 실행하려면 eDiscovery 관리자 역할 그룹의 구성원이거나 준수 검색 관리 역할을 할당 받아야 합니다. 메시지를 삭제하려면 조직 관리 역할 그룹의 구성원이거나 검색 및 제거 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가하는 방법에 대한 자세한 내용은 [보안 및 준수 센터의 eDiscovery 권한 부여](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions)를 참조하세요.
 

@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
-description: 준수 관리자가 보안 & 준수 센터에서 콘텐츠 검색 및 eDiscovery 사례 작업을 수행할 때 기록 되는 이벤트에 대 한 감사 로그를 검색 하는 방법을 알아봅니다.
-ms.openlocfilehash: e7ed3ddf16d22750449d3211d96800334676e519
-ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
+description: EDiscovery 권한이 할당 된 사용자가 보안 & 준수 센터에서 콘텐츠 검색 및 코어 eDiscovery 작업을 수행할 때 기록 되는 이벤트에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 671fdebd75dfdaaf09deebf320b9fe4cfab0ca1c
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2020
-ms.locfileid: "44726515"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818877"
 ---
 # <a name="search-for-ediscovery-activities-in-the-audit-log"></a>감사 로그에서 eDiscovery 활동 검색
 

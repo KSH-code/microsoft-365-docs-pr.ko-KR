@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3ebed6af6ba1e3e82178ad87cfe3592e0df4bc48
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 2b705d26efa513214164c05703acafe8d5d141c2
+ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066153"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44799983"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>국내 표준 협회 및 기술 (NIST) Cybersecurity Framework (CSF)
 
@@ -37,7 +37,7 @@ NIST Cybersecurity Framework (CSF)는 Cybersecurity 관련 위험을 관리 하�
 
 준수 점수 및 Azure 보안 및 준수 청사진을 사용 하 여 NIST Cybersecurity Framework 배포를 가속화 하는 방법을 알아봅니다.
 
-- [Azure 보안 및 규정 준수 청사진 다운로드-NIST CSF 위험 요소 분석 검사 목록](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=11e61716-11ab-4b11-9a9a-434b33a62ff9&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_NIST_CSF_Blueprint)
+- [NIST SP 800-53 4, 청사진의 개요 샘플](https://docs.microsoft.com/azure/governance/blueprints/samples/nist-sp-800-53-rev4/)
 - [규정 준수 점수가 Office 365에 대 한 NIST CSF 평가에 대해 자세히 알아보기](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
@@ -64,7 +64,7 @@ Cybersecurity는 디지털 변환 연대의 중요 관리 문제를 그대로 �
 
 - [준수 점수 사용 시작](compliance-score.md)
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 **Azure 정부, Dynamics 365 및 Office 365 지원 NIST CSF 요구 사항에 대 한 독립적인 평가자 확인 해야 하나요?**
 

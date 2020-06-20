@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3169a1e9e7cb8b269e74463adaee017b8f48e4ad
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 89456de1ec4ef170d85d7bd9c6b210d8bdb39f28
+ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065943"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773729"
 ---
 # <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>증권 및 Exchange 위원회 (SEC) 규칙 17a-4 (미국)
 
@@ -40,7 +40,7 @@ Microsoft Azure 불변 Blob Storage with Policy Lock 및 Microsoft Office 365 wi
 SEC 규칙 17a-4 (f)를 사용 하 여 Azure 및 Office 365 준수를 평가 하기 위해 Microsoft는 레코드 관리 및 정보 거 버 넌 스를 전문적으로 담당 하는 독립 평가 회사를 보유 하 고 있습니다. 결과 보고서에서 다음을 수행 합니다.
 
 - **Azure**: [초 17a-4 (f) 준수 평가: Microsoft azure Storage](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports), With Hasset는 정책 잠금 옵션으로 시간 기반 blob을 유지 하는 데 사용 되는 경우 erasable 및 비 다시 쓰기가 가능한 (웜) 형식의 [AZURE 불변 blob 저장소](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutable-storage) 에서 SEC 규칙의 변경 불가능 한 저장소 요구 사항을 충족 하는지 확인 했습니다. 필요한 보존 기간이 만료 되 고 연결 된 법적 보유가 출시 될 때까지 각 Blob (레코드)은 수정 하거나 덮어쓰거나 삭제 되지 않도록 보호 됩니다. 이제 중요 한 작업을 포함 하는 소프트웨어 공급자와 파트너가 Azure 불변의 Blob 저장소를 레코드 보존 및 불변 저장소 용 onestop 솔루션으로 사용할 수 있습니다. 이제 금융 기관은 나머지 규격에 따라 이러한 기능을 활용 하 여 자체 응용 프로그램을 작성할 수 있습니다.
-- **Office 365**: [Exchange Online을 사용 하 여 초 17a-4를 준수 하](https://docs.microsoft.com/office365/securitycompliance/use-exchange-online-to-comply-with-sec-rule-17a-4)고, [보존 잠금](https://docs.microsoft.com/office365/securitycompliance/retention-policies#locking-a-retention-policy) 기능을 사용 하 여 Office 365에 데이터를 저장 하는 데 도움이 되는 정보를 제공 하는 보관 기능이 포함 되어 있는지 확인 합니다. Office 365의 보존 정책은 전자 메일, 음성 메일, 공유 문서, 인스턴트 메시지 및 타사 데이터를 비롯 한 광범위 한 데이터를 보존 하는 데 도움이 됩니다. 특히, Office 365의 보관을 통해 고객은 전체 또는 세분화 된 메시징 보존 정책을 설정 하 여, 정의 되지 않은 기간에 대 한 데이터를 저장 하지 않는 nonerasable 형식으로 저장할 수 있습니다.
+- **Office 365**: [Exchange Online을 사용 하 여 초 17a-4를 준수 하](https://docs.microsoft.com/office365/securitycompliance/use-exchange-online-to-comply-with-sec-rule-17a-4)고, [보존 잠금](retention-policies.md) 기능을 사용 하 여 Office 365에 데이터를 저장 하는 데 도움이 되는 정보를 제공 하는 보관 기능이 포함 되어 있는지 확인 합니다. Office 365의 보존 정책은 전자 메일, 음성 메일, 공유 문서, 인스턴트 메시지 및 타사 데이터를 비롯 한 광범위 한 데이터를 보존 하는 데 도움이 됩니다. 특히, Office 365의 보관을 통해 고객은 전체 또는 세분화 된 메시징 보존 정책을 설정 하 여, 정의 되지 않은 기간에 대 한 데이터를 저장 하지 않는 nonerasable 형식으로 저장할 수 있습니다.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 

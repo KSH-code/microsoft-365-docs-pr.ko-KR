@@ -17,13 +17,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: cca08d26-6fbf-4b2c-b102-b226e4cd7381
-description: 이 문서의 스크립트를 사용 하 여 Office 365 또는 Microsoft 365의 준수 센터에서 eDiscovery 사례와 관련 된 모든 보류에 대 한 정보를 포함 하는 보고서를 생성 합니다.
-ms.openlocfilehash: 4a4d9c4195a201482228226ddd781260bb19499c
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.custom:
+- seo-marvel-apr2020
+description: EDiscovery 사례와 연결 된 모든 보류에 대 한 정보가 포함 된 보고서를 생성 하는 방법을 알아봅니다.
+ms.openlocfilehash: b4387434d57373f9569b6472786e8ad40de85b21
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208380"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818037"
 ---
 # <a name="create-a-report-on-holds-in-ediscovery-cases"></a>EDiscovery 사례의 보존 보고서 만들기
   
@@ -31,13 +33,13 @@ ms.locfileid: "44208380"
 
 보고서에 포함 된 정보에 대 한 자세한 [내용은 추가 정보](#more-information) 섹션을 참조 하십시오.
   
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="admin-requirements-and-script-information"></a>관리 요구 사항 및 스크립트 정보
 
 - 조직의 모든 eDiscovery 사례에 대 한 보고서를 생성 하려면 조직의 eDiscovery 관리자 여야 합니다. EDiscovery 관리자 인 경우 보고서에 액세스할 수 있는 사례에 대 한 정보만 포함 됩니다. EDiscovery 권한에 대 한 자세한 내용은 [ediscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
     
 - 이 문서의 스크립트에는 최소한의 오류 처리가 있습니다. 기본 목적은 조직의 eDiscovery 사례와 연결 된 보류에 대 한 보고서를 빠르게 만드는 것입니다.
     
-- 이 항목에서 제공된 샘플 스크립트는 Microsoft 표준 지원 프로그램 또는 서비스에서는 지원되지 않습니다. 샘플 스크립트는 어떠한 보증도 없이 "있는 그대로" 제공됩니다. Microsoft는 묵시적인 모든 보증(상품성 또는 특정 목적에의 적합성에 대한 묵시적인 보증을 포함하되 이에 제한되지 않음)을 부인합니다. 샘플 스크립트 및 문서의 사용 또는 수행으로 인해 발생하는 모든 위험은 사용자의 책임입니다. 어떠한 경우에도 Microsoft, 스크립트 작성자 또는 스크립트의 작성, 생산 또는 제공과 관련된 사람은 누구나 샘플 스크립트 또는 문서의 사용 또는 사용 불가능으로 인해 발생하는 모든 손해(수익에 대한 손실, 비즈니스 중단, 비즈니스 정보 손실 또는 기타 금전상의 손실을 포함하되 이에 제한되지 않음)에 대해 책임지지 않습니다. 이는 Microsoft가 이러한 손해가 발생할 가능성에 대해 알고 있었더라고 마찬가지입니다.
+- The sample scripts provided in this topic aren't supported under any Microsoft standard support program or service. The sample scripts are provided AS IS without warranty of any kind. Microsoft further disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you. In no event shall Microsoft, its authors, or anyone else involved in the creation, production, or delivery of the scripts be liable for any damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or other pecuniary loss) arising out of the use of or inability to use the sample scripts or documentation, even if Microsoft has been advised of the possibility of such damages.
     
 ## <a name="step-1-connect-to-the-security--compliance-center-powershell"></a>1 단계: 보안 & 준수 센터 PowerShell에 연결
 
@@ -49,7 +51,7 @@ Microsoft 365 계정에서 MFA(다단계 인증) 또는 페더레이션된 인�
 
 보안 & 준수 센터 PowerShell에 연결한 후에는 조직의 eDiscovery 사례에 대 한 정보를 수집 하는 스크립트를 만들어 실행 해야 합니다. 
   
-1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예: CaseHoldsReport. 
+1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 CaseHoldsReport.ps1 합니다. 
     
   ```powershell
 #script begin
@@ -158,9 +160,9 @@ Write-host "Script complete! Report files saved to this folder: '$Path'"
 
     Addtionally을 사용 하는 경우 스크립트는 보류 된 것이 없는 사례 목록을 포함 하는 보고서도 만듭니다. 이 보고서의 파일 이름은 `CaseswithNoHolds<DateTimeStamp>.csv` 입니다.
     
-    다음은 CaseHoldsReport 스크립트를 실행 하는 예제입니다. 
+    다음은 CaseHoldsReport.ps1 스크립트를 실행 하는 예제입니다. 
     
-    ![CaseHoldsReport 스크립트를 실행 한 후의 출력](../media/7d312ed5-505e-4ec5-8f06-3571e3524a1a.png)
+    ![CaseHoldsReport.ps1 스크립트를 실행 한 후의 출력](../media/7d312ed5-505e-4ec5-8f06-3571e3524a1a.png)
   
 ## <a name="more-information"></a>추가 정보
 

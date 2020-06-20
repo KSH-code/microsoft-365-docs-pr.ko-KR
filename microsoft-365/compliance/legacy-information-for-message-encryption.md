@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: 5986b9e1-c824-4f8f-9b7d-a2b0ae2a7fe9
 ms.collection:
 - M365-security-compliance
-description: 아직 조직을 새 OME 기능으로 이동 하지 않았지만 이미 OME을 배포한 경우이 문서의 정보가 조직에 적용 됩니다. 조직에 적합 한 시기에 새 OME 기능으로 바로 이동 하는 계획을 수립 하는 것이 좋습니다. 자세한 내용은 Azure Information Protection 기반으로 구축 된 새 Office 365 메시지 암호화 기능 설치를 참조 하세요. 새 기능이 먼저 작동 하는 방식에 대해 자세히 알아보려면 Office 365 메시지 암호화를 참조 하세요. 이 문서의 나머지 부분에서는 새 OME 기능이 출시 되기 전에 발생 하는 OME 동작을 나타냅니다.
-ms.openlocfilehash: 00b42dfceaeac5b7e9e28263c56f9f7490644a3b
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.custom:
+- seo-marvel-apr2020
+description: 조직에 대 한 레거시 파일을 Office 365 메시지 암호화 (OME)로 전환 하는 방법을 이해 합니다.
+ms.openlocfilehash: e69a0d3f0d8803630ecff976d0060d8a7447b928
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351909"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817125"
 ---
 # <a name="legacy-information-for-office-365-message-encryption"></a>Office 365 메시지 암호화 레거시 정보
 
@@ -177,11 +179,11 @@ S/MIME은 기본적으로 클라이언트 쪽 암호화 기술이며, 사용하�
   
  **Q. 회신과 전달된 메시지도 암호화되나요?**
   
-예. 스레드가 진행되는 동안에는 응답도 계속 암호화됩니다.
+Yes. Responses continue to be encrypted throughout the duration of the thread.
   
  **Q. Office 365 메시지 암호화는 지역화를 제공 하나요?**
   
-받는 전자 메일 및 HTML 콘텐츠는 보낸 사람의 전자 메일 설정에 따라 지역화됩니다. 보기 포털은 받는 사람의 브라우저 설정에 따라 지역화됩니다. 그러나 암호화된 메시지의 실제 본문(내용)은 지역화되지 않습니다.
+Incoming email and HTML content is localized based on sender email settings. The viewing portal is localized based on recipient's browser settings. However, the actual body (content) of encrypted message isn't localized.
   
  **Q. Office 365 메시지 암호화에 사용 되는 암호화 방법은 무엇입니까?**
   
@@ -189,13 +191,13 @@ Office 365 메시지 암호화는 RMS (권한 관리 서비스)를 암호화 인
   
 - Microsoft Azure RMS를 사용 하 여 키를 가져오는 경우 암호화 모드 2가 사용 됩니다. 암호화 모드 2는 업데이트 및 향상 된 AD RMS 암호화 구현입니다. 서명 및 암호화를 위해 RSA 2048를 지원 하 고 서명을 위해 SHA-256를 지원 합니다.
 
-- AD(Active Directory) RMS를 사용하여 키를 얻은 경우 암호화 모드 1 또는 암호화 모드 2가 사용됩니다. 사용되는 방법은 온-프레미스 AD RMS 배포에 따라 다릅니다. 암호화 모드 1은 원래 AD RMS 암호화 구현으로, 서명 및 암호화에 RSA 1024을 지원하고 서명에 SHA-1을 지원합니다. 이 모드는 RMS의 모든 현재 버전에서 계속 지원됩니다.
+- If you use Active Directory (AD) RMS to obtain the keys, either Cryptographic Mode 1 or Cryptographic Mode 2 is used. The method used depends on your on-premises AD RMS deployment. Cryptographic Mode 1 is the original AD RMS cryptographic implementation. It supports RSA 1024 for signature and encryption, and supports SHA-1 for signature. This mode continues to be supported by all current versions of RMS.
 
 자세한 내용은 [AD RMS 암호화 모드](https://go.microsoft.com/fwlink/p/?LinkId=398616)를 참조 하세요.
   
  **Q. 일부 암호화 된 메시지는 Office365@messaging.microsoft.com에서 제공 되는 이유는 무엇** 인가요?
   
-암호화된 회신 암호화 포털에서 또는 OME 뷰어 앱을 통해 전송되는 경우 암호화된 메시지는 Microsoft 끝점을 통해 전송되므로 보내는 전자 메일 주소는 Office365@messaging.microsoft.com으로 설정됩니다. 이를 통해 암호화된 메시지가 스팸으로 표시되지 않도록 합니다. 암호화 포털 안의 주소 및 전자 메일에 표시되는 이름은 이 레이블을 지정으로 인해 변경되지 않습니다. 또한 다른 전자 메일 클라이언트를 통해서가 아니라 해당 포털을 통해 보낸 메시지에만 이 레이블 지정을 적용합니다.
+When an encrypted reply is sent from the encryption portal or through the OME Viewer app, the sending email address is set to Office365@messaging.microsoft.com because the encrypted message is sent through a Microsoft endpoint. This helps to prevent encrypted messages from being marked as spam. The displayed name on the email and the address within the encryption portal aren't changed because of this labeling. Also, this labeling only applies to messages sent through the portal, not through any other email client.
   
  **Q. EHE (Exchange Hosted Encryption) 구독자 Office 365 메시지 암호화로의 업그레이드에 대 한 자세한 내용은 어디에서 확인할 수 있나요?**
   

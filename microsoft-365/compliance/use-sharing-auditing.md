@@ -19,13 +19,14 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
-description: '공유는 SharePoint Online 및 비즈니스용 OneDrive의 주요 활동입니다. 이제 관리자는 감사 로그의 공유 감사를 사용 하 여 조직 외부의 사용자와 공유 되는 리소스를 식별할 수 있습니다. '
-ms.openlocfilehash: 63b56831dc5409cc92a0c4a2f4bf002cd268a878
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 관리자는 Microsoft 365 감사 로그의 공유 감사를 사용 하 여 조직 외부의 사용자와 공유 된 리소스를 식별 하는 방법을 확인할 수 있습니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d26a8022f8d59aeb56a03c50ae546777c882ef7a
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626384"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819298"
 ---
 # <a name="use-sharing-auditing-in-the-audit-log"></a>감사 로그에서 공유 감사 사용
 
@@ -97,7 +98,7 @@ ms.locfileid: "43626384"
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 회사 또는 학교 계정을 사용 하 여 로그인 합니다.
+2. 회사 또는 학교 계정을 사용하여 로그인합니다.
     
 3. 보안 및 규정 준수 센터의 왼쪽 창에서 **검색**  > **감사 로그 검색**을 클릭하십시오.
     
@@ -152,4 +153,4 @@ ms.locfileid: "43626384"
     이제 외부 사용자는 **TargetUserOrGroupType: Guest**값으로 식별 되므로 공유 이벤트 및 대상 사용자가 조직 외부에 있는 위치에 대 한 행이 표시 됩니다. 
   
 > [!TIP]
-> 표시 되는 감사 레코드의 경우 **ObjectId** 열은 대상 사용자와 공유 된 리소스를 식별 합니다. 예를 `ObjectId:https:\/\/contoso-my.sharepoint.com\/personal\/sarad_contoso_com\/Documents\/Southwater Proposal.docx`들어
+> 표시 되는 감사 레코드의 경우 **ObjectId** 열은 대상 사용자와 공유 된 리소스를 식별 합니다. 예를 `ObjectId:https:\/\/contoso-my.sharepoint.com\/personal\/sarad_contoso_com\/Documents\/Southwater Proposal.docx` 들어

@@ -12,13 +12,14 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: 고객 키를 사용 하 여 조직의 암호화 키를 제어 하 고 microsoft 365을 구성 하 여 Microsoft 데이터 센터의 휴지 상태에서 데이터를 암호화 합니다.
-ms.openlocfilehash: 701dc306a81e12db7dd1062d2a840621b710abd3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+description: 이 문서에서는 Microsoft 365의 고객 키와 서비스 암호화가 작동 하는 방식에 대해 설명 합니다.
+ms.openlocfilehash: 217e23eff89427e5bd30a1da4dd36729110ed563
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635594"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817957"
 ---
 # <a name="service-encryption-with-customer-key"></a>고객 키를 사용한 서비스 암호화
 

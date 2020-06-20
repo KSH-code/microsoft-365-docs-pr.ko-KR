@@ -18,12 +18,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 보안 & 준수 센터에서 새 데이터 조사 (미리 보기) 도구를 사용 하 여 원래 위치에서 항목을 삭제 하는 방법을 설명 합니다.
-ms.openlocfilehash: 4ad450fbbfac838ba536b19ec54eb83a4fb5d597
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 0787944791fea65dfc940b1067abe1bad8097dcd
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630525"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817887"
 ---
 # <a name="delete-items-from-their-original-location-preview"></a>원래 위치에서 항목 삭제 (미리 보기)
 
@@ -31,7 +32,7 @@ ms.locfileid: "43630525"
 
 데이터 조사를 사용 하 여 원래 위치에서 항목을 삭제할 수 있습니다. 즉, 조직 전체에서 Exchange 사서함, SharePoint 사이트 및 OneDrive 계정에서 항목을 삭제할 수 있습니다. 항목을 증거로 수집 했기 때문에 추가 조사를 위해 증거 집합에 보존 되거나 참조로 유지 되는 항목의 복사본을 갖게 됩니다.
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-delete-items"></a>항목을 삭제 하기 전에
 
 - 항목을 삭제 하려면 보안 & 준수 센터에서 **검색 및 삭제** 역할을 할당 받아야 합니다. 이 역할은 기본 제공 Data Investigator 역할 그룹에 기본적으로 할당 됩니다.
 

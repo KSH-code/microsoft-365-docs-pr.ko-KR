@@ -19,12 +19,13 @@ search.appverid:
 - MET150
 ms.assetid: 0b6fac2d-8627-4b05-9df0-03609db6248b
 description: Advanced eDiscovery 도구로 추가 분석을 위해 보안 & 준수 센터에서 콘텐츠 검색 결과를 준비 하는 방법을 알아봅니다.
-ms.openlocfilehash: 14bc98dc9cca656e23fc76f00c6adc975bb61c5e
-ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: c0f1540e9745351269e019ea95399ce5c636d8b3
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412847"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818767"
 ---
 # <a name="prepare-search-results-for-advanced-ediscovery-classic"></a>Advanced eDiscovery(클래식) 검색 결과 준비
 
@@ -51,7 +52,7 @@ ms.locfileid: "44412847"
     
 - **검토 응용 프로그램에 대 한 데이터 내보내기** -분석을 완료 하 고 데이터 집합을 줄이고 나면 고급 EDiscovery 및 Microsoft 365에서 데이터를 내보낼 수 있습니다. 내보내기 패키지에는 내보낸 콘텐츠 및 analytics 메타 데이터의 속성을 포함 하는 CSV 파일이 포함 됩니다. 내보낸 패키지는 eDiscovery 검토 응용 프로그램으로 가져올 수 있습니다. 
     
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="get-licenses-and-permissions"></a>라이선스 및 사용 권한 가져오기
 
 - 고급 eDiscovery를 사용 하 여 사용자 데이터를 분석 하려면 데이터의 custodian 사용자에 게 Office 365 E5 라이선스를 할당 해야 합니다. 또는 Office 365 E1 또는 E3 라이선스를 사용 하는 사용자에 게 고급 eDiscovery 독립 실행형 라이선스를 할당할 수 있습니다. 서비스 케이스에 할당 되 고 고급 eDiscovery를 사용 하 여 데이터를 분석 하는 관리자 및 규정 준수 직원은 E5 라이선스가 필요 하지 않습니다. 
     
@@ -98,7 +99,7 @@ EDiscovery 사례와 연결 된 검색의 결과를 준비할 수 있습니다. 
     
 2. Advanced eDiscovery에서 데이터를 로드할 사례 옆에 있는 **열기**를 클릭합니다. 
     
-3. 사례에 대 한 **홈** 페이지에서 **Advanced eDiscovery로 전환을**클릭 합니다. 
+3. 사례에 대한 **홈** 페이지에서 **Advanced eDiscovery로 전환**을 클릭합니다. 
     
     ![Advanced eDiscovery로 전환을 클릭하여 Advanced eDiscovery에서 케이스를 엽니다.](../media/8e34ba23-62e3-4e68-a530-b6ece39b54be.png)
   

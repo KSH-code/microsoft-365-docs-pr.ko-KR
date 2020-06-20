@@ -15,13 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: 고급 eDiscovery의 custodian 관리 도구를 사용 하면 법적 사례에 관심이 있는 사용자와 연결 된 데이터를 식별, 보존 및 수집 하는 방법에 대 한 워크플로를 관리할 수 있습니다.
-ms.openlocfilehash: fbd348c842cb3c4bb7284c14ae2504b83fd0b117
-ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
+ms.custom:
+- seo-marvel-apr2020
+description: 고급 eDiscovery의 custodian 관리 도구를 사용 하 여 법적 사례에 대 한 데이터를 관리 하는 방법을 알아봅니다.
+ms.openlocfilehash: 400793a6779cef5b1e823f40fa08cc1e05f93f15
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43551246"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44815495"
 ---
 # <a name="work-with-custodians-in-advanced-ediscovery"></a>Advanced eDiscovery에서 custodians을 사용 하 여 작업
 

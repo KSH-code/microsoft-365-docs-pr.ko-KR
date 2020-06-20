@@ -15,13 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: f5caf497-5e8d-4b7a-bfff-d02942f38150
-description: Microsoft 365 비활성 사서함의 콘텐츠를 더 이상 보존할 필요가 없으면 보류를 제거 하 여 비활성 사서함을 영구적으로 삭제할 수 있습니다. 보류를 제거한 후 비활성 사서함은 삭제 되도록 표시 되 고 처리 된 후 영구적으로 삭제 됩니다.
-ms.openlocfilehash: fafedd1ccf78c3e763c9e02dc37c594d8f2c9785
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Microsoft 365 비활성 사서함의 콘텐츠를 더 이상 보존할 필요가 없으면 비활성 사서함을 영구적으로 삭제할 수 있습니다.
+ms.openlocfilehash: 05357ce1b3e10394854844f15ec6a18c1c427d5b
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630535"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817897"
 ---
 # <a name="delete-an-inactive-mailbox"></a>비활성 사서함 삭제
 
@@ -32,7 +34,7 @@ ms.locfileid: "43630535"
   
 비활성 사서함에서 보류가 제거 된 후 발생 하는 작업에 대 한 설명을 보려면 [추가 정보](#more-information) 섹션을 참조 하세요.
   
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-delete-an-inactive-mailbox"></a>비활성 사서함을 삭제 하기 전에
 
 - Exchange Online PowerShell을 사용 하 여 비활성 사서함에서 소송 보존을 제거 해야 합니다. EAC(Exchange 관리 센터)는 사용할 수 없습니다. 단계별 지침은 [Exchange Online PowerShell에 연결을](https://go.microsoft.com/fwlink/?linkid=396554)참조 하십시오. Exchange Online PowerShell 또는 EAC를 사용 하 여 비활성 사서함에서 원본 위치 유지를 제거할 수 있습니다. 
     
@@ -105,13 +107,13 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
    Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID> | FL Name
    ```
 
-2. EAC에서 **규정 준수 관리** \> 원본 ** &amp; 위치 eDiscovery 유지**로 이동 합니다.
+2. EAC에서 **규정 준수 관리** 원본 \> **위치 eDiscovery &amp; 유지**로 이동 합니다.
     
-3. 삭제할 원본 위치 유지를 선택 하 고 편집 아이콘](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **편집** ![을 클릭 합니다.
+3. 삭제할 원본 위치 유지를 선택 하 고 편집 아이콘 **편집** 을 클릭 ![ ](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) 합니다.
     
-4. 원본 ** &amp; 위치 eDiscovery 보류** 속성 페이지에서 원본 **위치 유지**를 클릭 하 고 **선택한 사서함에 있는 검색 쿼리와 일치 하는 콘텐츠를 보류에** 저장 상자를 선택 취소 한 후에 **Save**를 클릭 합니다.
+4. 원본 **위치 eDiscovery &amp; 보류** 속성 페이지에서 원본 **위치 유지**를 클릭 하 고 **선택한 사서함에 있는 검색 쿼리와 일치 하는 콘텐츠를 보류에** 저장 상자를 선택 취소 한 후에 **Save**를 클릭 합니다.
     
-5. 원본 **위치 eDiscovery &amp; 유지** 페이지에서 원본 위치 유지를 다시 선택한 다음 삭제 아이콘 **Delete**![](../media/87565fbb-5147-4f22-9ed7-1c18ce664392.png)삭제를 클릭 합니다.
+5. 원본 **위치 eDiscovery &amp; 유지** 페이지에서 원본 위치 유지를 다시 선택한 다음 삭제 아이콘 **삭제**를 클릭 ![ ](../media/87565fbb-5147-4f22-9ed7-1c18ce664392.png) 합니다.
     
 6. 경고에서 **예** 를 클릭 하 여 원본 위치 유지를 삭제 합니다. 
     
@@ -143,13 +145,13 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
    Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID> | FL Name
    ```
 
-2. EAC에서 **규정 준수 관리** \> 원본 ** &amp; 위치 eDiscovery 유지**로 이동 합니다.
+2. EAC에서 **규정 준수 관리** 원본 \> **위치 eDiscovery &amp; 유지**로 이동 합니다.
     
-3. 비활성 사서함에 저장 된 원본 위치 유지를 선택 하 고 편집 아이콘](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **편집** ![을 클릭 합니다.
+3. 비활성 사서함에 저장 된 원본 위치 유지를 선택 하 고 편집 아이콘 편집을 클릭 **Edit** ![ ](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) 합니다.
     
 4. 원본 **위치 eDiscovery &amp; 보류** 속성 페이지에서 **원본을**클릭 합니다.
     
-5. 원본 사서함 목록에서 제거 하려는 비활성 사서함의 이름을 클릭 하 고 제거 아이콘](../media/adf01106-cc79-475c-8673-065371c1897b.gif) **제거**![를 클릭 합니다.
+5. 원본 사서함 목록에서 제거 하려는 비활성 사서함의 이름을 클릭 하 고 제거 아이콘 **제거**를 클릭 ![ ](../media/adf01106-cc79-475c-8673-065371c1897b.gif) 합니다.
     
 6. **저장**을 클릭하여 변경 내용을 저장합니다. 작업이 성공적으로 완료 되었음을 알리는 메시지가 표시 됩니다. 
     

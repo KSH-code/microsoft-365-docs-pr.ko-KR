@@ -16,17 +16,18 @@ search.appverid:
 - MET150
 ms.assetid: 35d52b41-75ab-4144-9edf-31e11453bd5d
 description: '선택 된 내보내기 배치 세션에 대 한 자세한 정보를 확인 하는 방법과 Advanced eDiscovery에서 마지막 내보내기 세션을 실행 취소 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: 356b0b61288b466da38bc640f9aad636ee654da2
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 498cd5d0fbeea4902a0992e8210666884a308f72
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626354"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819058"
 ---
 # <a name="view-batch-history-and-export-past-results-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 일괄 처리 기록 보기 및 이전 결과 내보내기 (클래식)
 
 > [!NOTE]
-> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 다음 섹션에서는 고급 eDiscovery의 데이터 일괄 보기 및 내보내기에 대 한 추가 옵션을 설명 합니다. 
   
@@ -46,9 +47,9 @@ ms.locfileid: "43626354"
   
 3. 이전 세션을 롤백하는 데 필요한 경우 **마지막 세션 실행 취소**를 클릭 합니다. 롤백을 여러 번 수행 하 여 마지막 세션을 취소할 수 있습니다.
     
-4. 이전에 실행 한 내보내기 일괄 처리 세션에서 언제 든 지 데이터를 다운로드 하려면 내보낼 원하는 내보내기 **Download** 일괄 처리 ![옆에 있는 다운로드 아이콘](../media/de69b920-a6ac-4ddb-b93e-e1cc5888e6c4.gif) 내보내기 다운로드 아이콘을 클릭 합니다. 
+4. 이전에 실행 한 내보내기 일괄 처리 세션에서 언제 든 지 데이터를 다운로드 하려면 **Download** ![ ](../media/de69b920-a6ac-4ddb-b93e-e1cc5888e6c4.gif) 내보낼 원하는 내보내기 일괄 처리 옆에 있는 다운로드 아이콘 내보내기 다운로드 아이콘을 클릭 합니다. 
     
-5. **공유 액세스 서명** 대화 상자가 표시 되 면 **클립보드에 복사** 를 클릭 하 여 내보내기 세션 데이터를 로컬 컴퓨터로 복사한 다음 **닫기를**클릭 합니다. 보안 &amp; 및 준수 센터 **eDiscovery 내보내기 도구** 대화 상자가 표시 됩니다. 
+5. **공유 액세스 서명** 대화 상자가 표시 되 면 **클립보드에 복사** 를 클릭 하 여 내보내기 세션 데이터를 로컬 컴퓨터로 복사한 다음 **닫기를**클릭 합니다. 보안 및 &amp; 준수 센터 **EDiscovery 내보내기 도구** 대화 상자가 표시 됩니다. 
     
     ![EDiscovery 대화 내보내기](../media/01f79d2d-6da0-45e6-9c6f-ab12347572cb.gif)
   
@@ -60,7 +61,7 @@ ms.locfileid: "43626354"
     
 3. **시작**을 클릭합니다. 내보내기 파일이 로컬 컴퓨터로 다운로드 됩니다. 
     
-## <a name="see-also"></a>참고 항목
+## <a name="related-topics"></a>관련 항목
 
 [고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   

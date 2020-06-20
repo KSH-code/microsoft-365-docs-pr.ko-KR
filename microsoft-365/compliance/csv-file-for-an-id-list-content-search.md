@@ -15,17 +15,19 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 82c97bb4-2b64-4edc-804d-cedbda525d22
-description: 기존 콘텐츠 검색에서 결과 .csv 또는 인덱싱되지 않은 항목 .csv 파일을 사용 하 여 특정 전자 메일 메시지를 반환 하는 ID 목록 검색을 만듭니다. ID 목록 검색은 일반적으로 부분적으로 인덱싱된 사서함 항목을 반환 하는 데 사용 됩니다.
-ms.openlocfilehash: f3b815f2268121e9adc47de2c24a4e23b44adce5
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.custom:
+- seo-marvel-apr2020
+description: 기존 콘텐츠 검색의 CSV 파일을 사용 하 여 특정 전자 메일 메시지를 반환 하는 ID 목록 검색을 만듭니다.
+ms.openlocfilehash: 7b63a78d34306cf3afcef49276e584bc816c107f
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942891"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817977"
 ---
 # <a name="prepare-a-csv-file-for-an-id-list-content-search"></a>ID 목록 콘텐츠 검색에 대 한 CSV 파일 준비
 
-Exchange Id 목록을 사용 하 여 특정 사서함 전자 메일 메시지 및 기타 사서함 항목을 검색할 수 있습니다. ID 목록 검색을 만들려면 검색할 특정 사서함 항목을 식별 하는 CSV (쉼표로 구분 된 값) 파일을 전송 합니다. 이 CSV 파일의 경우에는 **결과 .csv** 파일 또는 콘텐츠 검색 결과를 내보내거나 기존 콘텐츠 검색에서 콘텐츠 검색 보고서를 내보낼 때 포함 되는 **인덱싱되지 않은 항목 .csv** 파일을 사용 합니다. 그런 다음 이러한 파일 중 하나를 편집 하 여 검색할 특정 항목을 표시 한 다음 새 ID 목록 검색을 만들고 CSV 파일을 제출 합니다.
+Exchange Id 목록을 사용 하 여 특정 사서함 전자 메일 메시지 및 기타 사서함 항목을 검색할 수 있습니다. ID 목록 검색을 만들려면 검색할 특정 사서함 항목을 식별 하는 CSV (쉼표로 구분 된 값) 파일을 전송 합니다. 이 CSV 파일의 경우 콘텐츠 검색 결과를 내보내거나 기존 콘텐츠 검색에서 콘텐츠 검색 보고서를 내보낼 때 포함 되는 **Results.csv** 파일 또는 **인덱싱되지 않은 Items.csv** 파일을 사용 합니다. 그런 다음 이러한 파일 중 하나를 편집 하 여 검색할 특정 항목을 표시 한 다음 새 ID 목록 검색을 만들고 CSV 파일을 제출 합니다.
 
 ID 목록 검색을 만드는 프로세스에 대 한 간략 한 개요는 다음과 같습니다.
 
@@ -37,14 +39,14 @@ ID 목록 검색을 만드는 프로세스에 대 한 간략 한 개요는 다�
 
     - [콘텐츠 검색 보고서 내보내기](export-a-content-search-report.md)
 
-3. **결과 .csv** 파일 또는 **인덱싱되지 않은 항목 .csv** 를 편집 하 고 ID 목록 검색에 포함할 특정 사서함 항목을 식별 합니다. ID 목록 검색에 대 한 CSV 파일을 준비 하는 방법에 대 한 [지침](#prepare-the-csv-file-for-an-id-list-search) 을 참조 하세요.
+3. **Results.csv** 파일 또는 **인덱싱되지 않은 Items.csv** 를 편집 하 고 ID 목록 검색에 포함할 특정 사서함 항목을 식별 합니다. ID 목록 검색에 대 한 CSV 파일을 준비 하는 방법에 대 한 [지침](#prepare-the-csv-file-for-an-id-list-search) 을 참조 하세요.
 
 4. 새 ID 목록 검색 ( [지침](#create-an-id-list-search)참조)을 만들고 준비한 CSV 파일을 제출 합니다. 만들어진 검색 쿼리는 CSV 파일에서 선택한 항목만 검색 합니다.
 
 > [!NOTE]
 > ID 목록 검색은 사서함 항목에 대해서만 지원 됩니다. ID 목록 검색에서는 SharePoint 및 OneDrive 문서를 검색할 수 없습니다.
 
- **ID 목록 검색을 만드는 이유** **결과 .csv** 파일의 메타 데이터를 기반 **으로 항목이 eDiscovery** 요청에 응답 하는지 확인할 수 없는 경우 ID 목록 검색을 사용 하 여 조사 중인 사례에 응답 하는지 여부를 확인 하 고 해당 항목을 찾아서 미리 보고 내보낼 수 있습니다. ID 목록 검색은 일반적으로 인덱싱되지 않은 특정 항목 집합을 검색 하 고 반환 하는 데 사용 됩니다.
+ **ID 목록 검색을 만드는 이유** **Results.csv** 또는 **Items.csv인덱싱되지** 않은 파일의 메타 데이터를 기반으로 항목이 eDiscovery 요청에 응답 하는지 확인할 수 없는 경우에는 ID 목록 검색을 사용 하 여 해당 항목을 찾아 미리 보고 내보낸 사례에 응답 하는지 여부를 확인할 수 있습니다. ID 목록 검색은 일반적으로 인덱싱되지 않은 특정 항목 집합을 검색 하 고 반환 하는 데 사용 됩니다.
 
 ## <a name="prepare-the-csv-file-for-an-id-list-search"></a>ID 목록 검색을 위해 CSV 파일 준비
 
@@ -52,7 +54,7 @@ ID 목록 검색을 만드는 프로세스에 대 한 간략 한 개요는 다�
 
 SharePoint 사이트 및 OneDrive 계정을 포함 하는 검색에서 CSV 파일을 사용할 수는 있지만 ID 목록 검색에 대 한 *사서함 항목만* 선택할 수 있습니다. SharePoint 또는 OneDrive에서 문서를 선택 하면 ID 목록 검색을 만들 때 CSV 파일의 유효성 검사에 실패 합니다.
 
-1. Excel에서 **.csv** 또는 인덱싱되지 않은 **항목 .csv** 파일을 엽니다.
+1. Excel에서 **Results.csv** 또는 **인덱싱되지 않은 Items.csv** 파일을 엽니다.
 
 2. **선택** 된 열에서 검색 하려는 항목에 해당 하는 셀에 **예** 를 입력 합니다. 검색 하려는 모든 항목에 대해이 단계를 반복 합니다.
 
@@ -80,7 +82,7 @@ SharePoint 사이트 및 OneDrive 계정을 포함 하는 검색에서 CSV 파�
 
 1. 보안 & 준수 센터에서 **검색** \> **콘텐츠 검색**으로 이동 합니다.
 
-2. **검색** 페이지에서 아이콘 ![](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **새로 만들기**옆에 있는 화살표를 클릭 한 다음 **ID 목록으로 검색**을 클릭 합니다.
+2. **검색** 페이지에서 아이콘 새로 만들기 옆에 있는 화살표를 클릭 한 ![ ](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **New search**다음 **ID 목록으로 검색**을 클릭 합니다.
 
     ![새 검색 드롭다운 목록에서 ID 별 검색을 클릭 합니다.](../media/e65f9942-09b2-4127-865e-e64029a590df.png)
 

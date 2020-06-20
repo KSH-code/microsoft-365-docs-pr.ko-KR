@@ -1,5 +1,5 @@
 ---
-title: 메시지 암호화를 사용 하 여 조직에 대 한 중요 한 정보 유형 정책 만들기
+title: Office 365 메시지 암호화를 사용 하 여 중요 한 정보 유형 정책 만들기
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -18,12 +18,12 @@ ms.collection:
 - Strat_O365_Enterprise
 description: Office 365 메시지 암호화를 사용 하 여 조직에 대 한 중요 한 정보 유형 정책을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: da459ab5e92592f86bc32d7dd9d648de24b9a3ed
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 173ff06a6af674c0df6c0b03bd5b61f6c9b430fa
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352071"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818671"
 ---
 # <a name="create-a-sensitive-information-type-policy-for-your-organization-using-message-encryption"></a>메시지 암호화를 사용 하 여 조직에 대 한 중요 한 정보 유형 정책 만들기
 

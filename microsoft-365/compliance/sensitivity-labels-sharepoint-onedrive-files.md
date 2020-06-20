@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 SharePoint 및 OneDrive에서 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용 하도록 설정할 수 있습니다.
-ms.openlocfilehash: d12cb6d83ef343b0dc192d2515da7670cd159be2
-ms.sourcegitcommit: 92f641cad63379bf16417854a43b16b48a71a30a
+ms.openlocfilehash: ee6f89db7758140ac8e4c2752d8a2883cc0990db
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44724791"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780721"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용
 
@@ -184,7 +184,7 @@ Microsoft 365 준수 센터에서 민감도 레이블을 만들거나 변경한 
 
 그러나 두 보호 솔루션을 함께 사용할 수 있으며 동작은 다음과 같습니다. 
 
-- 암호화를 적용 하는 민감도 레이블을 사용 하 여 파일을 업로드 하는 경우 이러한 파일, 공동 작성, eDiscovery, DLP 및 검색에 대 한 암호화가 제거 되지 않습니다.
+- 암호화를 적용 하는 민감도 레이블을 사용 하 여 파일을 업로드 하는 경우 SharePoint에서이 파일에 대해 공동 작업, eDiscovery, DLP 및 검색이 작동 하지 않도록이 파일을 처리할 수 없습니다.
 
 - 웹에서 Office를 사용 하 여 파일에 레이블을 지정 하면 레이블에서 암호화 설정이 적용 됩니다. 이러한 파일에 대해 공동 작성, eDiscovery, DLP 및 검색이 지원 됩니다.
 

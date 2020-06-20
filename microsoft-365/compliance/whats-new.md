@@ -16,14 +16,14 @@ search.appverid:
 ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
-description: Microsoft 365 준수 센터에 지속적으로 새로운 기능을 추가 하 고, 문제를 해결 하 고, 사용자 의견에 따라 변경 사항을 적용 하 고 있습니다. 이번 달에 제공 된 내용을 확인 합니다.
+description: Microsoft 365 준수 센터에 지속적으로 새로운 기능을 추가 하 고 있습니다. 이번 달에 제공 된 내용을 확인 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 314c118673375abcf1e774a8d96d8a17edb505ff
-ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
+ms.openlocfilehash: 5dc55fe38b588cd2a9b6c67d3f651e7c52df0664
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44418902"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817063"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>Microsoft 365 준수 센터의 새로운 기능
 
@@ -192,13 +192,13 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 - **Outlook 전자 메일**에 레이블을 적용할 때 사용자는 전달 금지 옵션에 해당 하는 제한을 적용할 수 있습니다. 받는 사람은 메시지를 읽을 수는 있지만 콘텐츠를 전달, 인쇄 또는 복사 하지는 못합니다.
 - **Word, PowerPoint 및 Excel 파일**에 레이블을 적용 하는 경우 사용자에 게 특정 사용자 및 그룹에 대 한 액세스 권한을 지정 하 라는 메시지가 표시 됩니다.
 
-[자세한 정보](encryption-sensitivity-labels.md#let-users-assign-permissions)
+[민감도 레이블을 사용 하 여 콘텐츠에 대 한 액세스 제한](encryption-sensitivity-labels.md#let-users-assign-permissions) 으로 이동 하 여 자세한 내용을 확인 하 고 자세한 내용은 암호화를 적용 합니다.
 
 ## <a name="august-2019"></a>2019년 8월
 
 ### <a name="update-to-data-investigations"></a>데이터 조사에 대 한 업데이트
 
-데이터 조사를 수행할 때 이제 원래 위치에서 항목을 삭제할 수 있습니다. 즉, 조직 전체에서 Exchange 사서함, SharePoint 사이트 및 OneDrive 계정에서 항목을 삭제할 수 있습니다. 항목을 증거로 수집 했기 때문에 세부 정보 집합에 보관 된 복사본을 추가 하거나 참조로 유지 하는 것을 조사할 수 있습니다. [자세한 정보](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) 
+데이터 조사를 수행할 때 이제 원래 위치에서 항목을 삭제할 수 있습니다. 즉, 조직 전체에서 Exchange 사서함, SharePoint 사이트 및 OneDrive 계정에서 항목을 삭제할 수 있습니다. 항목을 증거로 수집 했기 때문에 세부 정보 집합에 보관 된 복사본을 추가 하거나 참조로 유지 하는 것을 조사할 수 있습니다. 자세한 내용은 [Microsoft 365의 data 유출 인시던트 관리](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) 로 이동 하세요. 
 
 ## <a name="july-2019"></a>2019년 7월
 

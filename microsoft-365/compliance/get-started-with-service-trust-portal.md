@@ -11,15 +11,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: MET150
 mscollection: M365-security-compliance
-ms.custom: Adm_O365
+ms.custom:
+- Adm_O365
+- seo-marvel-apr2020
 ms.assetid: f30e2353-0bd6-41ed-8347-eea1fb8d2662
-description: Microsoft 365, Azure 및 Dynamics 365 Online 규정 준수 보고서의 경우 타사 감사를 보려면 Microsoft에서 고객 데이터를 안전 하 게 보호 하는 방법과 이러한 온라인 서비스를 사용할 때 ISO, HIPAA, NIST, FINRA, GDPR 및 FedRAMP을 준수 하는 방법을 확인 하세요.
-ms.openlocfilehash: 837ab06a0b4cf058586cff31c462884833da5871
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 보안, 개인 정보 보호 및 준수 방법에 도움이 되도록 Microsoft 서비스 보안 포털에 액세스 하 고 사용 하는 방법을 알아봅니다.
+ms.openlocfilehash: 0866a32087e61bb8af3ea9d7d4c61ea463864067
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632449"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817627"
 ---
 # <a name="get-started-with-the-microsoft-service-trust-portal"></a>Microsoft Service Trust Portal 시작
 
@@ -29,7 +31,7 @@ Microsoft Service Trust Portal은 Microsoft 보안, 개인 정보 보호 및 규
 
 서비스 트러스트 포털에는 Microsoft의 클라우드 서비스 및 고객 데이터를 보호 하는 제어 및 프로세스에 대 한 자세한 정보가 포함 되어 있습니다. 서비스 보안 포털의 일부 리소스에 액세스 하려면 Microsoft 클라우드 서비스 계정 (Azure Active Directory 조직 계정 또는 Microsoft 계정)을 사용 하 여 인증 된 사용자로 로그인 하 고 준수 자료에 대해 Microsoft 비밀 유지 계약을 검토 한 후 동의 해야 합니다.
   
-기존 고객은 다음 온라인 구독 (평가판 또는 [https://aka.ms/STP](https://aka.ms/STP) 유료) 중 하나를 사용 하 여 **서비스 신뢰 포털에 액세스할 수 있습니다** . 
+**기존 고객** 은 [https://aka.ms/STP](https://aka.ms/STP) 다음 온라인 구독 (평가판 또는 유료) 중 하나를 사용 하 여 서비스 신뢰 포털에 액세스할 수 있습니다. 
   
 - Microsoft 365
 
@@ -163,7 +165,7 @@ Microsoft 클라우드에서 보안, 규정 준수 및 개인 정보 보호에 �
   
 ![Service Trust Portal - 지역화된 콘텐츠 옵션](../media/b50c677e-a886-4267-9eca-915d880ead7a.png)
   
-## <a name="feedback"></a>사용자 의견
+## <a name="feedback"></a>피드백
 
 서비스 신뢰 포털에 대 한 질문이 나 포털을 사용할 때 발생 하는 오류에 대해 도움을 얻을 수 있습니다. 또한 STP 페이지 아래쪽에 있는 피드백 링크를 사용 하 여 서비스 신뢰 포털 준수 보고서 및 신뢰 리소스에 대 한 질문과 대답 및 의견을 문의할 수 있습니다.
   

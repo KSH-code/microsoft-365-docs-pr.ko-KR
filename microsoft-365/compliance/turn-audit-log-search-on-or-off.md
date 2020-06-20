@@ -18,13 +18,14 @@ search.appverid:
 - MED150
 - MET150
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
-description: 보안 & 준수 센터에서 감사 로그 검색 기능을 설정할 수 있습니다. 생각이 변경 되 면 언제 든 지 설정을 해제할 수 있습니다. 감사 로그 검색이 해제 되 면 관리자가 조직의 사용자 및 관리자 활동에 대 한 Microsoft 365 감사 로그를 검색할 수 없습니다.
-ms.openlocfilehash: f3d88f62f466d9c868dfc6addb5865e144f5223b
-ms.sourcegitcommit: 56772bed89516cebc5eb370e292ccfbb4889cb38
+ms.custom: seo-marvel-apr2020
+description: 보안 & 준수 센터에서 감사 로그 검색 기능을 설정 하거나 해제 하 여 관리자가 감사 로그를 검색 하는 기능을 사용 하거나 사용 하지 않도록 설정 하는 방법
+ms.openlocfilehash: 4571c90c4fa680acd8925e83e32ffcf07de7d626
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44330792"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819138"
 ---
 # <a name="turn-audit-log-search-on-or-off"></a>감사 로그 검색 켜기 또는 끄기
 
@@ -33,7 +34,7 @@ ms.locfileid: "44330792"
 > [!IMPORTANT]
 > Microsoft 365에서 감사 로그 검색을 해제 하면 Office 365 관리 활동 API 또는 Azure 센티널을 사용 하 여 조직의 감사 데이터에 액세스할 수 없습니다. 이 문서에서 설명 하는 단계에 따라 감사 로그 검색을 해제 하면 보안 & 준수 센터를 사용 하 여 감사 로그를 검색 하거나 Exchange Online PowerShell에서 **search-unifiedauditlog** cmdlet을 실행할 때 결과가 반환 되지 않습니다. 이는 또한 Office 365 관리 활동 API 또는 Azure 센티널를 통해 감사 로그를 사용할 수 없다는 것을 의미 합니다.
   
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-turn-audit-log-search-on-or-off"></a>감사 로그 검색을 설정 또는 해제 하기 전에
 
 - Microsoft 365 조직에서 감사 로그 검색을 설정 하거나 해제 하려면 Exchange Online에서 감사 로그 역할을 할당 받아야 합니다. 기본적으로이 역할은 Exchange 관리 센터의 **사용 권한** 페이지에 있는 준수 관리 및 조직 관리 역할 그룹에 할당 됩니다. Microsoft 365의 전역 관리자는 Exchange Online의 조직 관리 역할 그룹의 구성원입니다. 
     

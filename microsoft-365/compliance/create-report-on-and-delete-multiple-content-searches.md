@@ -18,18 +18,19 @@ search.appverid:
 - MET150
 ms.assetid: 1d463dda-a3b5-4675-95d4-83db19c9c4a3
 description: Office 365의 보안 & 준수 센터에서 PowerShell 스크립트를 통해 검색을 만들고 보고서를 실행 하는 등의 콘텐츠 검색 작업을 자동화 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 2832b533c6350cdc2ab2852b6dd0d592603af46e
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 389cc9e15bc661e967f7af769ac48c4ae6e27228
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208142"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817987"
 ---
 # <a name="create-report-on-and-delete-multiple-content-searches"></a>여러 콘텐츠 검색 만들기, 보고하기 및 삭제
 
  원본으로 사용 하는 데이터에 대 한 정보를 확인 하 고 검색의 다양성 및 품질을 확인할 때 검색 검색을 빠르게 만들고 보고 하는 것은 eDiscovery 및 조사에서 중요 한 단계입니다. 이를 위해 보안 & 준수 센터 PowerShell은 시간이 오래 걸리는 콘텐츠 검색 작업을 자동화 하기 위한 일련의 cmdlet을 제공 합니다. 이러한 스크립트를 통해 신속 하 고 간편 하 게 다양 한 검색을 만든 다음 해당 데이터의 양을 확인 하는 데 도움이 되는 예상 검색 결과의 보고서를 실행할 수 있습니다. 스크립트를 사용 하 여 각 검색 결과가 생성 되는 결과를 비교할 수도 있습니다. 이러한 스크립트는 데이터를 빠르고 효율적으로 식별 하 고 cull 하는 데 도움이 됩니다. 
   
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-create-a-content-search"></a>콘텐츠 검색을 만들기 전에
 
 - 이 항목에서 설명 하는 스크립트를 실행 하려면 보안 & 준수 센터에서 eDiscovery 관리자 역할 그룹의 구성원 이어야 합니다. 
     
@@ -39,7 +40,7 @@ ms.locfileid: "44208142"
     
 - 스크립트에는 최소 오류 처리가 포함 되어 있습니다. 주요 목적은 여러 콘텐츠 검색을 빠르게 작성, 보고 및 삭제 하는 것입니다.
     
-- 이 항목에서 제공된 샘플 스크립트는 Microsoft 표준 지원 프로그램 또는 서비스에서는 지원되지 않습니다. 샘플 스크립트는 어떠한 보증도 없이 "있는 그대로" 제공됩니다. Microsoft는 묵시적인 모든 보증(상품성 또는 특정 목적에의 적합성에 대한 묵시적인 보증을 포함하되 이에 제한되지 않음)을 부인합니다. 샘플 스크립트 및 문서의 사용 또는 수행으로 인해 발생하는 모든 위험은 사용자의 책임입니다. 어떠한 경우에도 Microsoft, 스크립트 작성자 또는 스크립트의 작성, 생산 또는 제공과 관련된 사람은 누구나 샘플 스크립트 또는 문서의 사용 또는 사용 불가능으로 인해 발생하는 모든 손해(수익에 대한 손실, 비즈니스 중단, 비즈니스 정보 손실 또는 기타 금전상의 손실을 포함하되 이에 제한되지 않음)에 대해 책임지지 않습니다. 이는 Microsoft가 이러한 손해가 발생할 가능성에 대해 알고 있었더라고 마찬가지입니다.
+- The sample scripts provided in this topic aren't supported under any Microsoft standard support program or service. The sample scripts are provided AS IS without warranty of any kind. Microsoft further disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you. In no event shall Microsoft, its authors, or anyone else involved in the creation, production, or delivery of the scripts be liable for any damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or other pecuniary loss) arising out of the use of or inability to use the sample scripts or documentation, even if Microsoft has been advised of the possibility of such damages.
     
 ## <a name="step-1-create-a-csv-file-that-contains-information-about-the-searches-you-want-to-run"></a>1 단계: 실행할 검색에 대 한 정보가 포함 된 CSV 파일 만들기
 

@@ -12,19 +12,19 @@ ms.service: O365-seccomp
 ms.collection:
 - M365-security-compliance
 localization_priority: Normal
-search.appverid:
-- MET150
-description: 이 통찰력 기반 권장 사항은 조직에서 DLP 정책 적용 범위에 가능한 간격이 있을 때 사용자에 게이를 알리는 방식으로 중요 한 콘텐츠를 저장 하 고 Microsoft 365에서 공유할 때 안전 하 게 유지 하는 데 도움이 됩니다. 문서에 가장 일반적인 유형의 중요 한 주요 정보가 포함 되어 있지만 &amp; DLP 정책에 의해 보호 되지 않는 경우에는 보안 및 준수 센터의 홈 페이지에서이 권장 사항을 확인할 수 있습니다.
-ms.openlocfilehash: 504a85b07f348c45c9925cc2e6ee24b1d8a48656
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.custom:
+- seo-marvel-apr2020
+description: 조직에 대해 권장 되는 DLP (데이터 손실 방지) 정책을 만들고 편집 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 9588eabe5dbe2b1e60eaeb6a45eb95cc327383aa
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943377"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817637"
 ---
 # <a name="get-started-with-dlp-policy-recommendations"></a>DLP 정책 권장 시작
 
-이 통찰력 기반 권장 사항은 조직에서 DLP 정책 적용 범위에 가능한 간격이 있을 때 사용자에 게이를 알리는 방식으로 중요 한 콘텐츠를 저장 하 고 Microsoft 365에서 공유할 때 안전 하 게 유지 하는 데 도움이 됩니다. 문서에 가장 일반적인 유형의 중요 한 **Home** 주요 정보가 포함 되어 있지만 &amp; DLP (데이터 손실 방지) 정책으로 보호 되지 않는 경우에는 보안 및 준수 센터의 홈 페이지에이 권장 사항이 표시 됩니다. 
+이 통찰력 기반 권장 사항은 조직에서 DLP 정책 적용 범위에 가능한 간격이 있을 때 사용자에 게이를 알리는 방식으로 중요 한 콘텐츠를 저장 하 고 Microsoft 365에서 공유할 때 안전 하 게 유지 하는 데 도움이 됩니다. **Home** &amp; 문서에 가장 일반적인 유형의 중요 한 주요 정보가 포함 되어 있지만 DLP (데이터 손실 방지) 정책으로 보호 되지 않는 경우에는 보안 및 준수 센터의 홈 페이지에이 권장 사항이 표시 됩니다. 
   
 이 위젯을 사용 하 여 한 번에 사용자 지정 된 DLP 정책을 빠르게 만들 수 있으며,이 DLP 정책을 만든 후에는 완전히 사용자 지정이 가능 합니다. 처음에는 권장 사항이 표시 되지 않으면 **권장** 섹션의 아래쪽에서 **+ 자세히** 를 클릭 해 보세요. 
   
@@ -38,7 +38,7 @@ ms.locfileid: "43943377"
   
 - 보호 되지 않는 중요 한 정보 유형 중 하나를 포함 하는 Exchange, SharePoint 및 OneDrive의 콘텐츠가 조직 외부의 사용자와 공유 되는 경우를 감지 합니다.
     
-- 조직 외부의 사용자와 콘텐츠를 공유한 사용자를 추적할 수 있도록 자세한 활동 보고서를 생성 합니다. [Dlp 보고서](view-the-dlp-reports.md) 및 [감사 로그 데이터](search-the-audit-log-in-security-and-compliance.md) (여기서 **활동** = **DLP**)를 사용 하 여이 정보를 볼 수 있습니다.
+- 조직 외부의 사용자와 콘텐츠를 공유한 사용자를 추적할 수 있도록 자세한 활동 보고서를 생성 합니다. [Dlp 보고서](view-the-dlp-reports.md) 및 [감사 로그 데이터](search-the-audit-log-in-security-and-compliance.md) (여기서 **활동**  =  **DLP**)를 사용 하 여이 정보를 볼 수 있습니다.
     
 또한 다음과 같이 DLP 정책을 사용할 수도 있습니다.
   
@@ -54,7 +54,7 @@ ms.locfileid: "43943377"
   
 ## <a name="edit-the-recommended-dlp-policy"></a>권장 DLP 정책 편집
 
-위젯을 사용 하 여 DLP 정책을 만든 후에는 보안 &amp; 및 준수 센터의 **정책** 페이지에서 **데이터 손실 방지** 에 해당 정책이 표시 됩니다. 
+위젯을 사용 하 여 DLP 정책을 만든 후에는 보안 및 준수 센터의 **정책** 페이지에서 **데이터 손실 방지** 에 해당 정책이 표시 됩니다 &amp; . 
   
 기본적으로 **중요 한 정보를 공유 하려면 정책을 System 권장 정책**이라고 합니다. 이 정책은 처음부터 직접 만든 DLP 정책과 동일한 방법으로 완전히 사용자 지정할 수 있습니다. 예를 들어 widget을 사용할 때 문제 보고서와 정책 팁을 설정 하지 않기로 결정 한 경우 언제 든 지 정책을 편집 하 고 이러한 옵션을 설정할 수 있습니다.
   
@@ -62,7 +62,7 @@ ms.locfileid: "43943377"
   
 ## <a name="when-the-widget-does-and-does-not-appear"></a>위젯이 수행 되 고 표시 되지 않는 경우
 
-**보호 되지 않는 중요 정보** 라는 위젯은 &amp; 보안 및 준수 센터 **홈페이지의 홈** 페이지에서 **권장 되** 는 섹션에 표시 됩니다. 
+**보호 되지 않는 중요 정보** 라는 위젯은 보안 및 준수 센터 **홈페이지의 홈** 페이지에서 **권장 되** 는 섹션에 표시 됩니다 &amp; . 
   
 이 위젯은 다음과 같은 경우에만 표시 됩니다.
   

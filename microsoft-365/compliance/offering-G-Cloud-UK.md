@@ -1,7 +1,7 @@
 ---
 title: 영국 정부-클라우드 (G-클라우드)
 description: Crown 상업용 서비스가 Microsoft 클라우드 서비스 분류를 정부 클라우드 v. 6으로 갱신 했습니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5a8d0b95a0abb93eef352a442ff6c8203eda6e0e
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: 814b04583724b9ab8e6bcb570d51d24467755064
+ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254181"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773769"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>영국 정부-클라우드 (G-클라우드)
 
@@ -37,8 +37,6 @@ Microsoft는 매년에 문서를 준비 하 고 증거를 제출 하 여 해당 
 
 Microsoft 서비스의 디지털 마켓플레이스에 대 한 약속은 영국 정부 기관 및 파트너가 영국 공식 정부 데이터, 대부분의 정부 데이터를 저장 하 고 처리 하는 데 사용할 수 있음을 의미 합니다. 또한 Microsoft 클라우드 서비스의 리셀러 인 G-클라우드에 포함 된 Microsoft 파트너가 450 개 이상 있습니다. 자체 응용 프로그램에서 14 개 원칙을 사용 하 여 범위 내 서비스의 준수를 직접 어설션할 수 있습니다. 그러나 고객 및 파트너는 증명에 포함 되지 않은 구성 요소와 Microsoft 클라우드 서비스에 대 한 준수 결정 사항에 대 한 준수를 달성 해야 합니다.
 
-Microsoft 클라우드에서 영국 G-Cloud v6가 제공 하는 혜택에 대해 자세히 알아보기: [영국 g-cloud v6 배경 문서 다운로드](https://aka.ms/uk-g-cloud_backgrounder)
-
 Azure 보안 및 준수 청사진을 사용 하 여 영국 G-Cloud v6 배포를 가속화 하는 방법을 알아봅니다. [Azure 청사진 영국 g-클라우드 원칙 구현 지침 다운로드](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=c3804aba-03a7-4d21-88ad-d9bbe5314a00&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_UK_G-Cloud_Blueprint)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
@@ -47,7 +45,7 @@ Azure 보안 및 준수 청사진을 사용 하 여 영국 G-Cloud v6 배포를 
 - Microsoft Cloud App Security
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- Power 자동화 (이전 Microsoft Flow) 클라우드 서비스를 독립 실행형 서비스로 또는 Office 365 또는 Dynamics 365 브랜드 요금제 또는 suite에 포함
+- 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power Automate(이전 Microsoft Flow) 클라우드 서비스
 - Office 365: Exchange Online, SharePoint Online 및 비즈니스용 Skype Online
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
 - 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
@@ -82,7 +80,7 @@ Microsoft 클라우드 서비스가 G-Cloud 계약 준수를 유지 하 고 있�
 
 [Azure UK G-Cloud 청사진 사용 시작](https://aka.ms/ukofficialblueprint)
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 **디지털 Marketplace를 사용할 수 있는 사람은 누구 인가요?**
 
@@ -105,7 +103,7 @@ It는 영국 정부에 의해 투자 되는 조직이 나 에이전시 이며 �
 
 **감사자 보고서의 복사본은 어떻게 얻을 수 있나요?**
 
-[Service Trust Portal](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 이 포털을 사용 하 여 감사 보고서를 요청 하 여 감사자가 Microsoft 결과를 사용자의 법적 및 규정 요구 사항과 비교할 수 있습니다.
+[서비스 보안 포털](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 이 포털을 사용 하 여 감사 보고서를 요청 하 여 감사자가 Microsoft 결과를 사용자의 법적 및 규정 요구 사항과 비교할 수 있습니다.
 
 ## <a name="resources"></a>리소스
 

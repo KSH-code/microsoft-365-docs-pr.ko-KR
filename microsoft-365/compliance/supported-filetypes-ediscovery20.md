@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: 지원 되는 파일 형식 목록 (Microsoft 365 Advanced eDiscovery) 여기에는 Advanced eDiscovery의 OCR 기능에서 지 원하는 이미지 파일 형식 목록이 포함 됩니다.
-ms.openlocfilehash: 562b39664dd29ff3cf738e0d3ded7cc2f0cbb21c
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: 고급 eDiscovery의 OCR 기능에서 지 원하는 이미지 파일 형식을 포함 하 여 Microsoft 365 Advanced eDiscovery의 지원 되는 파일 형식 목록입니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e7c1840642dcc572da8e23bcdde3b7759746b209
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634636"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819158"
 ---
 # <a name="supported-file-types-in-advanced-ediscovery"></a>고급 eDiscovery에서 지원 되는 파일 형식
 
@@ -41,12 +42,12 @@ ms.locfileid: "42634636"
 
 | Mime 형식 | 파일 id | 메타 데이터 추출 | 텍스트 추출 | 네이티브 뷰어 | 주석 달기 보기 | 가능한 내선 번호 |
 | :- |  :- |  :- |  :- |  :- |  :- |  :- |
-| application/mp4 | 예 | 예 | 아니요 | 예 | 아니요 | f4v;. m4a;. m4v;. mp4;. mp4v; mpeg; mpeg4 |
-| 오디오/mpeg | 예 | 예 | 아니요 | 예 | 아니요 | mpeg |
-| 비디오/3gpp | 예 | 예 | 아니요 | 예 | 아니요 | .3gp |
-| video/3gpp2 | 예 | 예 | 아니요 | 예 | 아니요 | .3g2;. 3gp2 |
-| 비디오/quicktime | 예 | 예 | 아니요 | 예 | 아니요 | . moov; .mov; qt |
-| 비디오/x-m4v | 예 | 예 | 아니요 | 예 | 아니요 | .m4v |
+| application/mp4 | 예 | 예 | 아니오 | 예 | 아니요 | f4v;. m4a;. m4v;. mp4;. mp4v; mpeg; mpeg4 |
+| 오디오/mpeg | 예 | 예 | 아니오 | 예 | 아니요 | mpeg |
+| 비디오/3gpp | 예 | 예 | 아니오 | 예 | 아니요 | .3gp |
+| video/3gpp2 | 예 | 예 | 아니오 | 예 | 아니요 | .3g2;. 3gp2 |
+| 비디오/quicktime | 예 | 예 | 아니오 | 예 | 아니요 | . moov; .mov; qt |
+| 비디오/x-m4v | 예 | 예 | 아니오 | 예 | 아니요 | .m4v |
 ||||||||
 
 ## <a name="database"></a>데이터베이스
@@ -154,9 +155,9 @@ ms.locfileid: "42634636"
 | :- |  :- |  :- |  :- |  :- |  :- |  :- |
 | application/msword | 예 | 예 | 예 | 예 | 예 | .dat; .doc |
 | application/rtf | 예 | 예 | 예 | 예 | 예 | .doc; .rtf |
-| application/vnd macroenabled. 12 | 예 | 예 | 예 | 예 | 예 | .docm |
+| 응용 프로그램/vnd.ms-word.document macroenabled. 12 | 예 | 예 | 예 | 예 | 예 | .docm |
 | application/vnd macroenabled. 12 | 예 | 예 | 예 | 예 | 예 | normal.dotm |
-| 응용 프로그램/vnd. wordprocessingml 문서 | 예 | 예 | 예 | 예 | 예 | .docx |
+| 응용 프로그램/vnd.openxmlformats-officedocument.wordprocessingml.document | 예 | 예 | 예 | 예 | 예 | .docx |
 | application/vnd. wordprocessingml | 예 | 예 | 예 | 예 | 예 | . dotx |
 ||||||||
 

@@ -17,13 +17,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 5af334b6-a15d-4f73-97f8-1423457d9f6b
-description: 동일한 메시지의 여러 인스턴스가 서로 다른 사서함에서 발견 된 경우에도 전자 메일 메시지의 복사본 하나만 내보내도록 내보내기 위해 내보낸 eDiscovery 검색 결과를 복제 해제 하는 옵션을 사용할 수 있습니다.
-ms.openlocfilehash: 6a63783efd76d6e598d3f00dd8a683317c261d2d
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.custom:
+- seo-marvel-apr2020
+description: 중복 eDiscovery 검색 결과를 제거 하 여 전자 메일 메시지의 복사본 하나만 내보내도록 하는 방법을 알아봅니다.
+ms.openlocfilehash: 046ef1e40e293e511672d5a95c6f5248b49d13a2
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166049"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817917"
 ---
 # <a name="de-duplication-in-ediscovery-search-results"></a>EDiscovery 검색 결과에서 중복 제거
 
@@ -41,17 +43,17 @@ eDiscovery 도구 다음과 같은 전자 메일 속성을 조합 하 여 메시
 
 - **BodyTagInfo** -내부 Exchange 저장소 속성입니다. 이 속성의 값은 메시지 본문에서 다양 한 특성을 확인 하 여 계산 됩니다. 이 속성은 메시지 본문의 차이점을 식별 하는 데 사용 됩니다. 
 
-EDiscovery 내보내기 프로세스 중에 검색 조건과 일치 하는 모든 메시지에 대해 이러한 세 가지 속성을 비교 합니다. 두 개 이상의 메시지에 대해 이러한 속성을 동일 하 게 설정 하는 경우 이러한 메시지는 중복 되는 것으로 확인 되며 중복 해제 된 경우에는 메시지의 복사본 하나만 내보내집니다. 내보낸 메시지를 "원본 항목" 이라고 합니다. 중복 메시지에 대 한 정보는 내보낸 검색 결과에 포함 된 **.csv** 및 **manifest.xml** 보고서에 포함 됩니다. **결과 .csv** 파일에서 중복 **항목** 열에 값을 표시 하 여 복제 된 메시지를 식별 합니다. 이 열의 값은 내보낸 메시지의 **항목 id** 열에 있는 값과 일치 합니다. 
+EDiscovery 내보내기 프로세스 중에 검색 조건과 일치 하는 모든 메시지에 대해 이러한 세 가지 속성을 비교 합니다. 두 개 이상의 메시지에 대해 이러한 속성을 동일 하 게 설정 하는 경우 이러한 메시지는 중복 되는 것으로 확인 되며 중복 해제 된 경우에는 메시지의 복사본 하나만 내보내집니다. 내보낸 메시지를 "원본 항목" 이라고 합니다. 중복 메시지에 대 한 정보는 내보낸 검색 결과에 포함 된 **Results.csv** 및 **Manifest.xml** 보고서에 포함 되어 있습니다. **Results.csv** 파일에서 중복 된 메시지는 **중복 항목** 열에 값이 있다고 식별 됩니다. 이 열의 값은 내보낸 메시지의 **항목 id** 열에 있는 값과 일치 합니다. 
   
-다음 그래픽에서는 검색 결과와 함께 내보낸 **.csv** 및 **manifest.xml** 보고서에 중복 메시지를 표시 하는 방법을 보여 줍니다. 이 보고서에는 이전에 설명한 중복 제거 알고리즘에서 사용 되는 전자 메일 속성이 포함 되어 있지 않습니다. 대신 Exchange 저장소에서 항목에 할당 한 **항목 Identity** 속성이 보고서에 포함 됩니다. 
+다음 그래픽은 **Results.csv** 에서 중복 메시지를 표시 하는 방법 및 검색 결과와 함께 내보내는 **Manifest.xml** 보고서를 보여 줍니다. 이 보고서에는 이전에 설명한 중복 제거 알고리즘에서 사용 되는 전자 메일 속성이 포함 되어 있지 않습니다. 대신 Exchange 저장소에서 항목에 할당 한 **항목 Identity** 속성이 보고서에 포함 됩니다. 
   
- ### <a name="resultscsv-report-viewed-in-excel"></a>결과 .csv 보고서 (Excel에서 표시)
+ ### <a name="resultscsv-report-viewed-in-excel"></a>Results.csv 보고서 (Excel에서 표시)
   
-![결과 .csv 보고서의 중복 된 항목에 대 한 정보 보기](../media/e3d64004-3b91-4cba-b6f3-934b46cbdcdb.png)
+![Results.csv 보고서의 중복 된 항목에 대 한 정보 보기](../media/e3d64004-3b91-4cba-b6f3-934b46cbdcdb.png)
   
  ### <a name="manifestxml-report-viewed-in-excel"></a>Manifest.xml 보고서 (Excel에서 표시)
   
-![Manifest.xml 보고서의 중복 항목에 대 한 정보 보기](../media/69aa4786-9883-46ff-bcae-b35e0daf4a6d.png)
+![Manifest.xml 보고서의 중복 된 항목에 대 한 정보 보기](../media/69aa4786-9883-46ff-bcae-b35e0daf4a6d.png)
   
 또한 중복 메시지의 다른 속성도 내보내기 보고서에 포함 됩니다. 여기에는 중복 메시지가 있는 사서함이 포함 되 고, 메시지가 메일 그룹으로 전송 되었는지, 메시지가 다른 사용자에 게 참조 아웃 또는 숨은 참조 인지 여부입니다.
   

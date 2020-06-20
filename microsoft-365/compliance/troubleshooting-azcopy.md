@@ -16,13 +16,15 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Advanced eDiscovery에서 오류 수정을 위해 비 Office 365 데이터를 로드할 때 Azure AzCopy의 오류를 해결 합니다.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: afb89517f6c34495820bec424c72833324e00125
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.custom:
+- seo-marvel-mar2020
+- seo-marvel-apr2020
+ms.openlocfilehash: 0185c179039b7aec72bc400709225ef42489f620
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034500"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819148"
 ---
 # <a name="troubleshoot-azcopy-in-advanced-ediscovery"></a>Advanced eDiscovery에서 AzCopy 문제 해결
 
@@ -38,13 +40,13 @@ ms.locfileid: "44034500"
 
 ## <a name="azcopy-isnt-installed-on-the-local-computer-or-its-not-installed-in-the-default-location"></a>AzCopy가 로컬 컴퓨터에 설치 되어 있지 않거나 기본 위치에 설치 되어 있지 않습니다.
 
-AzCopy가 설치 되어 있지 않거나 기본 설치 위치 (is `%ProgramFiles(x86)%`) 이외의 위치에 설치 되어 있는 경우 AzCopy 명령을 실행 하면 다음 오류 메시지가 표시 될 수 있습니다.
+AzCopy가 설치 되어 있지 않거나 기본 설치 위치 (is) 이외의 위치에 설치 되어 있는 경우 `%ProgramFiles(x86)%` AzCopy 명령을 실행 하면 다음 오류 메시지가 표시 될 수 있습니다.
 
     The system cannot find the path specified.
 
-AzCopy가 로컬 컴퓨터에 설치 되어 있지 않으면 [여기](https://docs.microsoft.com/previous-versions/azure/storage/storage-use-azcopy)에서 설치할 수 있습니다. 기본 위치에 설치 해야 합니다.
+AzCopy가 로컬 컴퓨터에 설치 되어 있지 않은 경우 [Windows의 AzCopy v 8.1을 사용 하 여 전송 데이터](https://docs.microsoft.com/previous-versions/azure/storage/storage-use-azcopy)에서 설치 정보를 확인할 수 있습니다. 기본 위치에 설치 해야 합니다.
 
-AzCopy가 설치 되어 있지만 기본 위치와 다른 위치에 설치 되어 있는 경우 명령을 복사 하 여 텍스트 파일에 붙여 넣은 다음 AzCopy가 설치 된 위치에 대 한 경로를 변경할 수 있습니다. 예를 들어 Azcopy가에 `%ProgramFiles%`있는 경우 명령의 첫 번째 부분 `%ProgramFiles(x86)%\Microsoft SDKs\Azure\AzCopy.exe` 을로 `%ProgramFiles%\Microsoft SDKs\Azure\AzCopy`변경할 수 있습니다. 이 변경 작업을 수행한 후에는 텍스트 파일에서 복사한 다음 명령 프롬프트를 실행 합니다.
+AzCopy가 설치 되어 있지만 기본 위치와 다른 위치에 설치 되어 있는 경우 명령을 복사 하 여 텍스트 파일에 붙여 넣은 다음 AzCopy가 설치 된 위치에 대 한 경로를 변경할 수 있습니다. 예를 들어 Azcopy가에 있는 경우 `%ProgramFiles%` 명령의 첫 번째 부분을로 변경할 수 있습니다 `%ProgramFiles(x86)%\Microsoft SDKs\Azure\AzCopy.exe` `%ProgramFiles%\Microsoft SDKs\Azure\AzCopy` . 이 변경 작업을 수행한 후에는 텍스트 파일에서 복사한 다음 명령 프롬프트를 실행 합니다.
 
 > [!TIP]
 > 기본 설치 위치 이외의 위치에 AzCopy가 설치 되어 있으면 제거한 다음 기본 위치에 다시 설치 하는 것이 좋습니다. 이를 통해 나중에이 문제를 방지할 수 있습니다.

@@ -16,21 +16,22 @@ search.appverid:
 - MET150
 ms.assetid: a797682f-ad85-4c08-a354-3850ba2237ee
 description: '고급 eDiscovery의 분석 프로세스에 대 한 중복 항목, 전자 메일 스레드 및 테마를 포함 하 여 고급 설정을 구성 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 91faf9e39fe7b8a7fada7b05ccd88351d813b148
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: b596ffa4061909ccb5c149553ac8fac169b7fd77
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631275"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819238"
 ---
 # <a name="set-analyze-advanced-settings-in-advanced-ediscovery"></a>고급 eDiscovery에서 분석 고급 설정에 대 한 설정
 
 > [!NOTE]
-> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 Advanced eDiscovery는 모듈 설정 분석을 위한 기본 고급 매개 변수를 제공 합니다. 다음 절차에서는 지정할 수 있는 설정에 대해 설명 합니다.
   
-1. **설치 분석 \> \> 준비** 탭에서 **고급 설정** (페이지 맨 아래)을 클릭 합니다. 다음 패널이 표시 됩니다. 
+1. ** \> \> 설치 분석 준비** 탭에서 **고급 설정** (페이지 맨 아래)을 클릭 합니다. 다음 패널이 표시 됩니다. 
     
     ![고급 설정 설정 분석](../media/c9ea3017-e19a-456b-a742-c3d07121a3f6.png)
   
@@ -46,7 +47,7 @@ Advanced eDiscovery는 모듈 설정 분석을 위한 기본 고급 매개 변�
     
 4. **저장**을 클릭합니다. 
     
-## <a name="see-also"></a>참고 항목
+## <a name="related-topics"></a>관련 항목
 
 [고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   

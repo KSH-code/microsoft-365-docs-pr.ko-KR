@@ -16,17 +16,19 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 ms.assetid: f87cb016-7876-4317-ae3c-9169b311ff8a
-description: Office 365 메시지 암호화를 사용 하면 조직에서 조직 내부 및 외부의 사용자 간에 암호화 된 전자 메일 메시지를 보내고 받을 수 있습니다. 전자 메일 메시지 암호화는 의도 된 받는 사람만 메시지 콘텐츠를 볼 수 있도록 합니다.
-ms.openlocfilehash: f5ce3103a6fc8c9f025d657408814a954cf0a13e
-ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
+ms.custom:
+- seo-marvel-apr2020
+description: 조직 내부 및 외부의 사용자 간에 암호화 된 전자 메일 메시지를 보내고 받는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 527d7519ff9f20b4d7cf5a02cec6b0704802f8dc
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44717329"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818733"
 ---
 # <a name="message-encryption"></a>메시지 암호화
 
-전자 메일을 통해 재무 데이터, 법적 계약, 기밀 제품 정보, 매출 보고서 및 매출 예상, 환자 건강 정보 또는 고객 및 직원 정보와 같은 중요한 정보를 교환하는 경우가 많습니다. 따라서 사서함이 잠재적으로 중요한 정보를 대량 포함하는 리포지토리가 될 뿐 아니라 정보 유출이 조직에 심각한 위협이 될 수 있습니다.
+People often use email to exchange sensitive information, such as financial data, legal contracts, confidential product information, sales reports and projections, patient health information, or customer and employee information. As a result, mailboxes can become repositories for large amounts of potentially sensitive information and information leakage can become a serious threat to your organization.
 
 Office 365 메시지 암호화를 사용 하면 조직에서 조직 내부 및 외부의 사용자 간에 암호화 된 전자 메일 메시지를 보내고 받을 수 있습니다. Office 365 메시지 암호화는 Outlook.com, Yahoo!, Gmail 및 기타 전자 메일 서비스에서 작동 합니다. 전자 메일 메시지 암호화는 의도 된 받는 사람만 메시지 콘텐츠를 볼 수 있도록 합니다.
 
@@ -44,11 +46,11 @@ Office 365 메시지 암호화는 Azure Information Protection의 일부인 Micr
 
 이전 버전의 OME와 새 OME 기능 간의 차이점에 대 한 자세한 목록은 [OME 버전 비교](ome-version-comparison.md)를 참조 하십시오.
 
-다른 사용자가 암호화 메일 흐름 규칙과 일치 하는 전자 메일 메시지를 보내면 메시지가 전송 되기 전에 암호화 됩니다. Outlook 클라이언트를 사용 하 여 메일을 읽는 모든 Microsoft 365 최종 사용자는 보낸 사람과 같은 조직에 없는 경우에도 암호화 및 권한으로 보호 되는 메일에 대 한 기본, 첫 번째 읽기 환경을 수신 합니다. 지원 되는 Outlook 클라이언트에는 Outlook 데스크톱, Outlook Mac, iOS 및 Android의 outlook 모바일 및 웹용 Outlook (이전의 Outlook Web App)이 포함 됩니다.
+다른 사용자가 암호화 메일 흐름 규칙과 일치 하는 전자 메일 메시지를 보내면 메시지가 전송 되기 전에 암호화 됩니다. Outlook 클라이언트를 사용 하 여 메일을 읽는 모든 Microsoft 365 최종 사용자는 보낸 사람과 같은 조직에 없는 경우에도 암호화 및 권한으로 보호 되는 메일에 대 한 기본, 최초 클래스 읽기 환경을 수신 합니다. 지원 되는 Outlook 클라이언트에는 Outlook 데스크톱, Outlook Mac, iOS 및 Android의 outlook 모바일 및 웹용 Outlook (이전의 Outlook Web App)이 포함 됩니다.
 
 Outlook.com, Gmail 및 Yahoo 계정으로 전송 된 암호화 또는 권한으로 보호 된 메일을 수신 하는 암호화 된 메시지를 받는 사람은 Microsoft 계정, Gmail 또는 Yahoo 자격 증명을 사용 하 여 쉽게 인증할 수 있는 OME 포털에이를 지시 하는 래퍼 메일을 받습니다.
 
-Outlook 이외의 클라이언트에서 암호화 되거나 권한으로 보호 된 메일을 읽는 최종 사용자는 OME 포털을 사용 하 여 자신이 받은 암호화 및 권한으로 보호 된 메시지를 볼 수 있습니다.
+Outlook 이외의 클라이언트에서 암호화 또는 권한으로 보호 된 메일을 읽는 최종 사용자는 OME 포털을 사용 하 여 자신이 받은 암호화 및 권한으로 보호 된 메시지를 볼 수 있습니다.
 
 보호 된 메일을 보낸 사람이 GCC High이 고 받는 사람이 상업용 사용자, Outlook.com 사용자 및 Gmail과 같은 다른 전자 메일 공급자의 사용자를 포함 하 여 GCC High를 초과 하는 경우 받는 사람은 래퍼 메일을 받습니다. 래퍼 메일은 받는 사람이 메시지를 읽고 회신할 수 있는 OME 포털에 지시 합니다. 그렇지 않고 보낸 사람과 받는 사람이 모두 GCC High 환경에 있고, 같은 조직에 있지 않더라도 Outlook 클라이언트를 사용 하 여 메일을 읽는 받는 사람은 암호화 및 권한으로 보호 되는 메일에 대 한 기본, 최초 클래스 읽기 환경을 수신 합니다. GCC High의 서로 다른 환경에 대 한 자세한 내용은 [Compare VERSIONS OME](ome-version-comparison.md)을 참조 하십시오.
 
@@ -86,9 +88,9 @@ Office 365 메시지 암호화를 사용 하면 사용자가 Outlook 및 웹용 
 |:-----|:-----|
 |이 문서 읽기 ...|...|
 |[Office 365의 보호 된 메시지에 대해 자세히 알아보기](https://support.office.com/article/2baf3ac7-12db-40a4-8af7-1852204b4b67.aspx)|암호화 된 메시지의 작동 방식과 사용할 수 있는 옵션에 대해 자세히 알아보려면 최종 사용자를 선택 합니다.|
-|[보호 된 메시지를 열려면 어떻게 해야 합니까?](https://support.office.com/article/1157a286-8ecc-4b1e-ac43-2a608fbf3098.aspx)|사용자에 게 전송 되는 보호 된 메시지를 읽으려고 하는 최종 사용자입니다. 이 문서에는 gmail 및 Yahoo!와 같은 Microsoft 365 이외의 다른 전자 메일 계정 및 여러 버전의 Outlook에서 메시지를 읽는 방법에 대 한 정보가 포함 되어 있습니다. 거래처.|
-|[Outlook에서 암호화 된 메시지 보내기, 확인 및 회신](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980)|Outlook에서 암호화 된 메시지를 보내거나 보거나 회신 하려는 최종 사용자입니다. 조직의 구성원이 아니더라도 Outlook에서 보낸 암호화 된 메시지에 대 한 알림도 여전히 받게 됩니다. 이 문서를 사용 하 여 Office 365에서 보낸 암호화 된 메시지를 보고 회신 하는 방법에 대 한 지침을 확인할 수 있습니다.|
-|[디지털 서명 되거나 암호화 된 메시지 보내기](https://support.microsoft.com/en-us/office/send-a-digitally-signed-or-encrypted-message-a18ecf7f-a7ac-4edd-b02e-687b05eff547)|Mac 용 Outlook을 사용 하 여 암호화 된 메시지를 보내거나 보거나 회신 하려는 최종 사용자입니다. 이 문서에서는 S/MIME과 같이 OME 이외의 암호화 방법 사용에 대해서도 설명 합니다.|
+|[보호 된 메시지를 열려면 어떻게 해야 합니까?](https://support.office.com/article/1157a286-8ecc-4b1e-ac43-2a608fbf3098.aspx)|사용자에 게 전송 되는 보호 된 메시지를 읽으려고 하는 최종 사용자입니다. 이 문서에는 gmail 및 Yahoo!와 같은 Microsoft 365 외부의 계정을 포함 하 여 여러 버전의 Outlook 및 다른 전자 메일 계정에서 메시지를 읽는 방법에 대 한 정보가 포함 되어 있습니다. 거래처.|
+|[Outlook에서 암호화 된 메시지 보내기, 확인 및 회신](https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980)|Outlook에서 암호화 된 메시지를 보내거나 보거나 회신 하려는 최종 사용자입니다. 조직의 구성원이 아니더라도 Outlook에서 보낸 암호화 된 메시지에 대 한 알림도 여전히 받게 됩니다. 이 문서를 사용 하 여 Office 365에서 보낸 암호화 된 메시지를 보고 회신 하는 방법에 대 한 지침을 확인할 수 있습니다.|
+|[디지털 서명 되거나 암호화 된 메시지 보내기](https://support.microsoft.com/office/send-a-digitally-signed-or-encrypted-message-a18ecf7f-a7ac-4edd-b02e-687b05eff547)|Mac 용 Outlook을 사용 하 여 암호화 된 메시지를 보내거나 보거나 회신 하려는 최종 사용자입니다. 이 문서에서는 S/MIME과 같이 OME 이외의 암호화 방법 사용에 대해서도 설명 합니다.|
 |[Android 장치에서 암호화 된 메시지 보기](https://support.office.com/article/83d60f17-2305-407a-a762-7d518401fdeb)|Android 장치에서 Office 365 메시지 암호화로 암호화 된 메시지를 받은 최종 사용자는 무료 OME Viewer 앱을 사용 하 여 메시지를 확인 하 고 암호화 된 회신을 보낼 수 있습니다. 이 문서에서는 이러한 방법을 설명 합니다.|
-|[IPhone 또는 iPad에서 암호화 된 메시지 보기](https://support.microsoft.com/en-us/office/view-protected-messages-on-your-iphone-or-ipad-4d631321-0d26-4bcc-a483-d294dd0b1caf)|IPhone 또는 iPad에서 Office 365 메시지 암호화로 암호화 된 메시지를 받은 최종 사용자는 무료 OME Viewer 앱을 사용 하 여 메시지를 확인 하 고 암호화 된 회신을 보낼 수 있습니다. 이 문서에서는 이러한 방법을 설명 합니다.|
+|[IPhone 또는 iPad에서 암호화 된 메시지 보기](https://support.microsoft.com/office/view-protected-messages-on-your-iphone-or-ipad-4d631321-0d26-4bcc-a483-d294dd0b1caf)|IPhone 또는 iPad에서 Office 365 메시지 암호화로 암호화 된 메시지를 받은 최종 사용자는 무료 OME Viewer 앱을 사용 하 여 메시지를 확인 하 고 암호화 된 회신을 보낼 수 있습니다. 이 문서에서는 이러한 방법을 설명 합니다.|
 ||

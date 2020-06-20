@@ -13,13 +13,15 @@ localization_priority: Normal
 search.appverid: MET150
 ms.assetid: 39db1659-0b12-4243-a21c-2614512dcb44
 description: 사서함을 소송 보존 상태로 설정 하 여 조사 중에 모든 사서함 콘텐츠를 보존 하는 방법을 알아봅니다.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8f4d95e1174c9070dd51f27ae9ab90c64bfeaafd
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.custom:
+- seo-marvel-mar2020
+- seo-marvel-apr2020
+ms.openlocfilehash: 9c62dfcd9e4cf1e3cc75e029b250c7abe80de6df
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351053"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818047"
 ---
 # <a name="create-a-litigation-hold"></a>소송 보존 만들기
 
@@ -35,7 +37,7 @@ ms.locfileid: "44351053"
     
 - 사용자의 기본 및 보관 사서함에 있는 항목은 유지 됩니다.
     
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="assign-an-exchange-online-plan-2-license"></a>Exchange Online 계획 2 라이선스 할당
 
 - Exchange Online 사서함에 소송 보존을 적용 하려면 Exchange Online 계획 2 라이선스를 할당 받아야 합니다. 사서함에 Exchange Online 계획 1 라이선스가 할당 되는 경우이를 보류 상태로 설정 하려면 별도의 Exchange Online 보관 라이선스를 할당 해야 합니다.
     

@@ -13,13 +13,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 2c956776-0016-4be6-b4cd-133a237f4a9e
-description: 필요한 경우 조직 요구 사항을 충족 하기 위해 온-프레미스 AD RMS (Active Directory Rights Management Service)를 사용 하도록 Exchange Online IRM을 구성할 수 있습니다. 이는 일반적인 것이 아닙니다. AD RMS를 사용 해야 하는 요구 사항이 없는 경우에는 Office 메시지 암호화를 대신 사용 합니다.
-ms.openlocfilehash: fa4d950ac52e48ac4fc554dff7e9fb800a8017d1
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.custom:
+- seo-marvel-apr2020
+description: 조직 요구 사항을 충족 하기 위해 온-프레미스 AD RMS (Active Directory Rights Management Service)를 사용 하도록 Exchange Online IRM을 구성 하는 방법을 알아봅니다.
+ms.openlocfilehash: be53b54328c2c1e08e51a84b7251e23c3e7468c3
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165989"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44815445"
 ---
 # <a name="exchange-online-mail-encryption-with-ad-rms"></a>AD RMS를 사용하여 Exchange Online 메일 암호화
 

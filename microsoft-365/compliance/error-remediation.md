@@ -16,13 +16,15 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 오류 수정을 사용 하 여 콘텐츠를 올바르게 처리 하지 못할 수 있는 데이터 조사 (미리 보기)의 데이터 문제를 해결 하는 방법을 알아봅니다.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c833ce9ae93f5395e06ee3dbde54ff4a8d5d4a00
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.custom:
+- seo-marvel-mar2020
+- seo-marvel-apr2020
+ms.openlocfilehash: fe77f918a7471bf36df7727f890ea043976e44db
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035120"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817817"
 ---
 # <a name="error-remediation-when-processing-data-for-an-investigation"></a>조사를 위해 데이터를 처리할 때의 오류 수정
 
@@ -57,7 +59,7 @@ ms.locfileid: "44035120"
     >최적의 성능을 위해 원격 네트워크 경로 대신 로컬 파일 경로를 사용 하는 것이 좋습니다.
 
     > [!NOTE]
-    > AzCopy을 설치 하지 않은 경우 여기에서 설치할 수 있습니다.https://docs.microsoft.com/azure/storage/common/storage-use-azcopy
+    > AzCopy을 설치 하지 않은 경우 [AzCopy을 사용한 시작](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy) 으로 이동 하 여 설치 합니다.
 
 6. **클립보드에 복사를**클릭 하 여 미리 정의 된 명령을 복사 합니다. Windows 명령 프롬프트를 시작 하 고 명령을 붙여 넣은 다음 enter 키 **를 누릅니다.**  
 
@@ -71,7 +73,7 @@ ms.locfileid: "44035120"
 7. 파일을 다운로드 한 후에는 적절 한 도구를 사용 하 여 수정할 수 있습니다. 암호로 보호 된 파일의 경우에는 여러 가지 암호 해독 도구를 사용할 수 있습니다. 파일에 대 한 암호를 알고 있으면 열고 암호 보호 기능을 제거할 수 있습니다.
     
    > [!NOTE]
-    > 재구성 된 파일의 파일 이름 및 디렉터리 구조를 유지 하는 것이 중요 합니다. 다운로드 한 파일 및 폴더의 경로 이름을 사용 하면 재구성 한 파일을 원본 파일과 연결할 수 있습니다.  디렉터리 구조 또는 파일 이름이 변경 되 면 다음 오류가 `Cannot apply Error Remediation to the current Evidenceset`표시 됩니다.
+    > 재구성 된 파일의 파일 이름 및 디렉터리 구조를 유지 하는 것이 중요 합니다. 다운로드 한 파일 및 폴더의 경로 이름을 사용 하면 재구성 한 파일을 원본 파일과 연결할 수 있습니다.  디렉터리 구조 또는 파일 이름이 변경 되 면 다음 오류가 표시 `Cannot apply Error Remediation to the current Evidenceset` 됩니다.
 
 8. 이제 데이터 조사 (미리 보기)로 돌아가 **다음: 파일 업로드**를 클릭 합니다.  이렇게 하면 이제 파일을 업로드할 수 있는 다음 단계로 이동 합니다.
 
@@ -81,7 +83,7 @@ ms.locfileid: "44035120"
 
 10. Windows 명령 프롬프트에 명령을 붙여 넣고 **enter 키를 눌러 파일을 업로드** 합니다.
 
-    ![ff2ff691-629f-4065-9b37-5333f937daf6-.png](../media/ff2ff691-629f-4065-9b37-5333f937daf6.png)
+    ![ff2ff691-629f-4065-9b37-5333f937daf6.png](../media/ff2ff691-629f-4065-9b37-5333f937daf6.png)
 
 11. 마지막으로 데이터 조사 (미리 보기)로 돌아가 **다음: 프로세스 파일**을 클릭 합니다.
 

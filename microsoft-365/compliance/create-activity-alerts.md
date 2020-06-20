@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 72bbad69-035b-4d33-b8f4-549a2743e97d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 사용자가 특정 작업을 수행할 때 Microsoft 365에서 전자 메일 알림을 보내도록 보안 & 준수 센터에서 활동 알림 추가 및 관리
-ms.openlocfilehash: 16c40ebeb44ecb1c54a1715a936436b3427a7d54
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: ac78c57d368e27c43cc5f25733d49fad5fe4374a
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035810"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818027"
 ---
 # <a name="create-activity-alerts"></a>활동 알림 만들기
 
@@ -34,7 +34,7 @@ ms.locfileid: "44035810"
 > [!NOTE]
 > 활동 알림이 더 이상 사용 되지 않습니다. 새 활동 경고를 만드는 대신 보안 및 준수 센터에서 경고 정책을 사용 하는 것이 좋습니다. 경고 정책은 사용자가 지정 된 활동을 수행 하 고 보안 및 준수 센터의 **경고 보기** 페이지에 알림을 표시할 때 경고를 생성 하는 경고 정책을 만드는 기능 등의 추가 기능을 제공 합니다. 자세한 내용은 [경고 정책을](alert-policies.md)참조 하세요.
   
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="confirm-roles-and-configure-audit-logging"></a>역할 확인 및 감사 로깅 구성
 
 - 작업 알림을 관리 하려면 보안 & 준수 센터에서 조직 구성 역할을 할당 받아야 합니다. 기본적으로이 역할은 준수 관리자 및 조직 관리 역할 그룹에 할당 됩니다. 역할 그룹에 구성원을 추가 하는 방법에 대 한 자세한 내용은 [사용자에 게 보안 & 준수 센터에 대 한 액세스 권한을 부여](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조 하십시오.
     
@@ -50,7 +50,7 @@ ms.locfileid: "44035810"
     
 2. 회사 또는 학교 계정을 사용하여 로그인합니다.
     
-3. **활동 알림** 페이지에서 ![](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **새로 만들기**아이콘 추가를 클릭 합니다.
+3. **활동 알림** 페이지에서 ![ ](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **새로 만들기**아이콘 추가를 클릭 합니다.
 
    활동 경고를 만드는 플라이 아웃 페이지가 표시 됩니다.
 
@@ -85,7 +85,7 @@ ms.locfileid: "44035810"
 
 전자 메일 알림이 전송 되지 않도록 활동 알림을 해제할 수 있습니다. 활동 알림을 해제 한 후에도 해당 작업 알림이 조직의 활동 알림 목록에 표시 되며 해당 속성을 볼 수는 있습니다.
   
-1. 이동으로 이동 [https://protection.office.com/managealerts](https://protection.office.com/managealerts)합니다.
+1. 이동으로 이동 [https://protection.office.com/managealerts](https://protection.office.com/managealerts) 합니다.
     
 2. 회사 또는 학교 계정을 사용하여 로그인합니다.
     

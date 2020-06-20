@@ -13,15 +13,14 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
-ms.custom:
-- seo-marvel-apr2020
-description: Twitter 데이터를 Microsoft 365로 가져오는 커넥터를 설정 하 여 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용할 수 있도록 합니다.
-ms.openlocfilehash: efc02dcf7b9c40fafedf230e4786f6f6494c27d6
-ms.sourcegitcommit: ab0a944159d9349fbc7adc2f51c7f881254d7782
+ms.custom: seo-marvel-apr2020
+description: 관리자가 네이티브 커넥터를 설정 하 고 사용 하 여 Twitter 데이터를 Microsoft 365로 가져오는 방법에 대해 알아봅니다.
+ms.openlocfilehash: ba6c0786c0861776bad00dc1ed8f859da378a355
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44210584"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818427"
 ---
 # <a name="set-up-a-connector-to-archive-twitter-data-preview"></a>Twitter 데이터를 보관 하는 연결선 설정 (미리 보기)
 

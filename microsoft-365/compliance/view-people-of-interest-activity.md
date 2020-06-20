@@ -15,20 +15,22 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-ms.custom: seo-marvel-mar2020
+ms.custom:
+- seo-marvel-mar2020
+- seo-marvel-apr2020
 description: 관심 있는 사람을 위해 작업에 액세스 하 고 검색 하 여 조사에서 관심사 관리 도구의 데이터 조사 (미리 보기)를 사용 합니다.
-ms.openlocfilehash: 552d7727761052a28c2a58b51bf9b937bf953ad5
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 37a8d6bae02f1e18bdd5599d7c5472b8d42e145f
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034280"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819018"
 ---
 # <a name="view-the-audit-activity-of-people-of-interest"></a>관심 있는 사용자의 감사 작업 보기
 
 사용자가 특정 문서를 보았는지 또는 사서함에서 항목을 제거했는지 확인해야 하나요? 데이터 조사 (미리 보기)는 이제 보안 & 준수 센터의 기존 감사 로그 검색 도구와 통합 되었습니다. 이 포함 된 환경을 사용 하는 경우 데이터 조사 (미리 보기) 사용자의 관심 있음 관리 도구를 사용 하 여 조사 내에서 관심 있는 사용자에 대 한 활동을 쉽게 액세스 하 고 검색할 수 있습니다.
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="get-permissions"></a>사용 권한 얻기
 
 감사 로그를 검색하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할이 할당되어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 사용 권한 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. 사용자에 게 최소 수준의 권한으로 데이터 조사 (미리 보기) 감사 로그를 검색할 수 있는 기능을 제공 하려면 Exchange Online에서 사용자 지정 역할 그룹을 만들고 보기 전용 감사 로그 또는 감사 로그 역할을 추가한 다음 사용자를 새 역할 그룹의 구성원으로 추가 하면 됩니다. 자세한 내용은 Exchange Online에서 역할 그룹 관리를 참조하세요.
 

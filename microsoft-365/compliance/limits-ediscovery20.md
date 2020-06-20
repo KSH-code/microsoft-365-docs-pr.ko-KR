@@ -13,13 +13,15 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Microsoft 365의 고급 eDiscovery 솔루션에 적용 되는 제한 사항에 대해 알아봅니다. 검색 도구를 사용 하 여 사례 데이터를 수집 하는 경우 대/소문자 제한, 인덱싱 제한 및 검색 제한 사항이 포함 됩니다.
-ms.openlocfilehash: babc05cc5c74f435f0be6fbc8eafd80f09a77b75
-ms.sourcegitcommit: 33be6075fcc89d4c0a48fa7e59f3b3ebc605d9f3
+ms.custom:
+- seo-marvel-apr2020
+description: Microsoft 365의 고급 eDiscovery 솔루션에 적용 되는 사례 제한, 인덱싱 제한 및 검색 제한에 대해 알아봅니다.
+ms.openlocfilehash: 67e53a484878b0ea4ddde29d77297a3d9b2fd7cd
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44520150"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817095"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Advanced eDiscovery 제한 사항
 

@@ -16,23 +16,24 @@ search.appverid:
 - MET150
 ms.assetid: f6cd6588-f6b6-424a-a9ab-3782b842faee
 description: '유사 항목 복제, 전자 메일 스레드 및 테마를 포함 하 여 고급 eDiscovery의 분석 프로세스에 대 한 옵션을 설정 하는 단계를 검토 합니다.  '
-ms.openlocfilehash: 5f50e2863398679d1381c66009ff1daec40623f9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 091eb75bea0312e5a06cc60ca915612efc820e6e
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631265"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819228"
 ---
 # <a name="set-analyze-options-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 분석 옵션 설정 (클래식)
 
 > [!NOTE]
-> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 고급 eDiscovery에서 분석을 실행 하기 전에 분석 옵션을 설정 합니다.
   
 ## <a name="set-analyze-options"></a>분석 옵션 설정
 
-** \> 준비 분석** \> **설정을**엽니다. 다음 창이 표시 됩니다.
+**준비 \> 분석** \> **설정을**엽니다. 다음 창이 표시 됩니다.
   
 ![세트 옵션 분석](../media/c3ec7a92-8484-4812-b98c-aa3eb740e5b7.png)
   
@@ -55,7 +56,7 @@ ms.locfileid: "43631265"
   
 1. 제안 된 테마를 보거나 추가 하거나 편집 하려면 **수정을**클릭 합니다.
     
-2. 제안 된 **테마** 패널 **에서 추가 아이콘** ![](../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) 추가 아이콘를 클릭 하 여 테마를 추가 합니다. **제안 테마 추가** 패널에서 단어를 쉼표로 구분 하 여 추가 합니다. 
+2. 제안 된 **테마** 패널에서 추가 아이콘 추가 아이콘를 클릭 하 **여** ![ ](../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) 테마를 추가 합니다. **제안 테마 추가** 패널에서 단어를 쉼표로 구분 하 여 추가 합니다. 
     
 3. **테마 수**에 따라 고급 eDiscovery에서 해당 단어에 대해 생성을 시도할 테마 수를 결정 하는 값 (기본값은 1 테마)을 선택 합니다.
     
@@ -76,7 +77,7 @@ ms.locfileid: "43631265"
   
 이러한 옵션을 설정한 후에는 **분석** 을 클릭 하 여 실행 합니다. [보기 분석 결과](view-analyze-results-in-advanced-ediscovery.md) 를 표시 합니다. 
   
-## <a name="see-also"></a>참고 항목
+## <a name="related-topics"></a>관련 항목
 
 [고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   

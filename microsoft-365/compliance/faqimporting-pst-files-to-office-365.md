@@ -15,13 +15,14 @@ search.appverid:
 - MED150
 - MET150
 ms.assetid: 2fe71b05-f5a2-4182-ade7-4dc5cabdfd51
-description: '관리자가 Office 365 가져오기 서비스를 사용 하 여 조직의 PST 파일을 Microsoft 365 사서함으로 가져오는 방법에 대 한 질문과 대답을 자주 받습니다. '
-ms.openlocfilehash: 0d3245c962c2d22f0d500aafe22703bd3e57d504
-ms.sourcegitcommit: a418195dc11e6251ae37e788c102bbaa7087e44e
+ms.custom: seo-marvel-apr2020
+description: 이 문서에서는 Office 365 가져오기 서비스를 사용 하 여 PST 파일을 Microsoft 365로 가져오는 관리자를 위한 몇 가지 질문과 대답을 제공 합니다.
+ms.openlocfilehash: 0f490b7bae3f462bb07725bf14453a6b9a4d7b9e
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44579203"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817737"
 ---
 # <a name="faq-about-importing-pst-files"></a>PST 파일 가져오기에 대한 FAQ
 
@@ -93,7 +94,7 @@ PST 가져오기 프로세스는 중복 항목을 확인하고 대상 사서함 
   
  **사서함으로 가져오려는 PST 파일의 폴더 계층 구조에서 레벨 수에 제한이 있나요?**
   
-예. 300개 이상의 중첩 폴더 레벨이 있는 PST 파일을 가져올 수 없습니다.
+Yes. You can't import a PST file that has 300 or more levels of nested folders.
   
  **Office 365의 비활성 사서함에 PST 파일을 가져오기 위해 네트워크 업로드를 사용할 수 있나요?**
   
@@ -154,7 +155,7 @@ Office 365 가져오기 서비스에서는 2.5인치 SSD(반도체 드라이브)
   
  **하드 드라이브를 배송한 후 Microsoft 데이터 센터에 가져오는 데 얼마나 걸리나요?**
   
-해당 기간은 Microsoft 데이터 센터에 대한 근접성, 하드 드라이브를 배송하는 데 사용한 배송 옵션 종류(예: 익일 배송, 2일 배송 또는 육로 배송) 등의 몇 가지 요인에 따라 다릅니다. 대부분의 운송업체에서, 추적 번호를 사용하여 배송 상태를 추적할 수 있습니다.
+That depends on a few things, such as your proximity to the Microsoft data center and what kind of shipping option you used to ship your hard drive (such as, next-day delivery, two-day delivery, or ground-delivery). With most shippers, you can use the tracking number to track the status of your delivery.
   
  **하드 드라이브가 Microsoft 데이터 센터에 도착하면 내 PST 파일을 Azure에 업로드하는 데 얼마나 걸리나요?**
   
@@ -192,7 +193,7 @@ PST 가져오기 프로세스는 중복 항목을 확인하고 대상 사서함 
   
  **사서함으로 가져오려는 PST 파일의 폴더 계층 구조에서 레벨 수에 제한이 있나요?**
   
-예. 300개 이상의 중첩 폴더 레벨이 있는 PST 파일을 가져올 수 없습니다.
+Yes. You can't import a PST file that has 300 or more levels of nested folders.
   
  **Microsoft 365의 비활성 사서함으로 PST 파일을 가져오기 위해 드라이브 배송을 사용할 수 있나요?**
   
@@ -208,19 +209,19 @@ PST 가져오기 프로세스는 중복 항목을 확인하고 대상 사서함 
   
  **Microsoft에서 나에게 다시 배송하기 전에 내 하드 드라이브를 초기화할 수 있나요?**
   
-아니요. Microsoft는 하드 드라이브를 고객에게 다시 보내기 전에 해당 드라이브를 지울 수 없습니다. 하드 드라이브는 Microsoft에서 받은 것과 동일한 상태로 고객에게 반환됩니다.
+No, Microsoft can't wipe hard drives before shipping them back to customers. Hard drives are returned to you in the same state they were in when they were received by Microsoft.
   
  **Microsoft에서 내 하드 드라이브를 나에게 다시 배송하는 대신 폐기할 수 있나요?**
   
-아니요, Microsoft에서는 고객의 하드 드라이브를 파괴할 수 없습니다. 하드 드라이브는 Microsoft에서 받을 때와 동일한 상태로 고객에게 반환됩니다.
+No, Microsoft can't destroy your hard drive. Hard drives are returned to you in the same state they were in when they were received by Microsoft.
   
  **반환 배송에 어떤 택배 서비스를 사용할 수 있나요?**
   
-미국 또는 유럽 고객인 경우 Microsoft에서는 FedEx를 통해 하드 드라이브를 반환합니다. 다른 모든 지역에서는 DHL을 이용합니다.
+If you're a customer in the United States or Europe, Microsoft uses FedEx to return your hard drive. For all other regions, Microsoft uses DHL.
   
  **반환 배송 비용은 얼마인가요?**
   
-반환 배송 비용은 고객이 하드 드라이브를 배송한 Microsoft 데이터 센터와의 근접성에 따라 다릅니다. Microsoft는 FedEx 또는 DHL 계정으로 하드 드라이브 반환 비용을 청구합니다. 반환 배송의 비용은 고객이 부담해야 합니다.
+Return shipping costs vary, depending on your proximity to the Microsoft data center that you shipped your hard drive to. Microsoft will bill your FedEx or DHL account to return your hard drive. The cost of return shipping is your responsibility.
   
  **Microsoft로 하드 드라이브를 배송하는 데 FedEx Custom Shipping과 같은 사용자 지정 택배 배송 서비스를 이용할 수 있나요?**
   
@@ -228,4 +229,4 @@ PST 가져오기 프로세스는 중복 항목을 확인하고 대상 사서함 
   
  **하드 드라이브를 다른 국가로 하드 드라이브를 배송해야 하는 경우 내가 해야 할 일이 있나요?**
   
-Microsoft에 배송하는 하드 드라이브가 국경을 통과해야 하는 경우도 있습니다. 이런 경우 하드 드라이브와 해당 하드 드라이브에 포함된 데이터를 해당 법규에 따라 가져오거나 내보내는 것은 고객의 책임입니다. 하드 드라이브를 배송하기 전에 드라이브 및 데이터를 지정된 Microsoft 데이터 센터로 합법적으로 배송할 수 있는지 고문 담당자와 확인하세요. 이렇게 하면 적시에 Microsoft로 도착할 수 있습니다.
+The hard drive that you ship to Microsoft might have to cross international borders. If this is the case, you're responsible for ensuring that the hard drive and the data it contains are imported and/or exported in accordance with the applicable laws. Before shipping a hard drive, check with your advisors to verify that your drive and data can legally be shipped to the specified Microsoft data center. This will help to ensure that it reaches Microsoft in a timely manner.

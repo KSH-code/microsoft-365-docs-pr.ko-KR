@@ -13,15 +13,14 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
-ms.custom:
-- seo-marvel-apr2020
-description: 다양 한 준수 도구를 사용할 수 있도록 인스턴트 Bloomberg에서 Microsoft 365으로 데이터를 가져올 커넥터를 설정 합니다.
-ms.openlocfilehash: 49fdef36e6ae2b425878641c1a368e982e391eeb
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.custom: seo-marvel-apr2020
+description: 관리자가 기본 커넥터를 사용 하 &를 설정 하 여 인스턴트 Bloomberg 채팅 도구에서 Microsoft 365으로 데이터를 가져오는 방법을 알아봅니다.
+ms.openlocfilehash: 02f197ba61f422852db6d4bc4c045ced0bf3d13e
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035150"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818457"
 ---
 # <a name="set-up-a-connector-to-archive-instant-bloomberg-data"></a>Instant Bloomberg 데이터를 보관할 커넥터 설정
 
@@ -75,7 +74,7 @@ Microsoft 365 준수 센터의 네이티브 커넥터를 사용 하 여 [인스�
 
 첫 번째 단계는 SSH (Secure Shell) 용 공개 키와 PGP (매우 좋은 개인 정보)의 복사본을 가져오는 것입니다. 2 단계에서 이러한 키를 사용 하 여 3 단계에서 만든 커넥터에서 SFTP 사이트에 연결 하 고 인스턴트 Bloomberg 채팅 데이터를 Microsoft 365 사서함으로 전송 하도록 Bloomberg SFTP 사이트를 구성 합니다. 또한 Bloomberg SFTP 사이트를 구성할 때 사용 하는이 단계에서 IP 주소를 가져옵니다.
 
-1. 로 이동한 <https://compliance.microsoft.com> 후 **데이터 커넥터** > **인스턴트 Bloomberg**를 클릭 합니다.
+1. 로 이동한 <https://compliance.microsoft.com> 후 **데이터 커넥터**  >  **인스턴트 Bloomberg**를 클릭 합니다.
 
 2. **인스턴트 Bloomberg** 제품 설명 페이지에서 **커넥터 추가** 를 클릭 합니다.
 
@@ -102,7 +101,7 @@ Microsoft 365 준수 센터의 네이티브 커넥터를 사용 하 여 [인스�
 
 마지막 단계는 Microsoft 365 준수 센터에서 인스턴트 Bloomberg 커넥터를 만드는 것입니다. 커넥터는 제공 하는 정보를 사용 하 여 Bloomberg SFTP 사이트에 연결 하 고 채팅 메시지를 Microsoft 365의 해당 사용자 사서함 상자로 전송 합니다. 
 
-1. 로 이동한 <https://compliance.microsoft.com> 후 **데이터 커넥터** > **인스턴트 Bloomberg**를 클릭 합니다.
+1. 로 이동한 <https://compliance.microsoft.com> 후 **데이터 커넥터**  >  **인스턴트 Bloomberg**를 클릭 합니다.
 
 2. **인스턴트 Bloomberg** 제품 설명 페이지에서 **커넥터 추가** 를 클릭 합니다.
 

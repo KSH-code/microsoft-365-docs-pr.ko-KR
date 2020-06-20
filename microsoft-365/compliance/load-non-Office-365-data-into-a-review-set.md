@@ -17,18 +17,18 @@ search.appverid:
 ms.assetid: ''
 description: 고급 eDiscovery 사례에서 분석을 위해 365 Microsoft 제품이 아닌 데이터를 검토 집합으로 가져오는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ed4a26ea1dd68b9198cce67ce0f97580ed4b2a99
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: f9b506edc55da1916ae908eaa7ca619ba7300f87
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034426"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44815465"
 ---
 # <a name="load-non-microsoft-365-data-into-a-review-set"></a>타사 365 데이터를 검토 집합으로 로드
 
 고급 eDiscovery에서 분석 해야 하는 모든 문서는 Microsoft 365에 나와 있습니다. 고급 eDiscovery의 타사 365 데이터 가져오기 기능을 사용 하 여 Microsoft 365에 없는 문서를 검토 집합에 업로드할 수 있습니다. 이 문서에서는 분석을 위해 Microsoft 제품이 아닌 365 문서를 고급 eDiscovery로 가져오는 방법을 설명 합니다.
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="requirements-to-upload-non-office-365-content"></a>Office 이외의 365 콘텐츠를 업로드 하기 위한 요구 사항
 
 이 문서에서 설명 하는 Microsoft가 아닌 업로드 365 기능을 사용 하려면 다음이 필요 합니다.
 

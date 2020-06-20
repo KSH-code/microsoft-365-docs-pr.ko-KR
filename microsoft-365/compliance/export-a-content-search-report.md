@@ -21,12 +21,13 @@ search.appverid:
 - MET150
 ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
 description: Office 365의 보안 & 준수 센터에서 콘텐츠 검색의 실제 결과를 내보내는 대신 검색 결과 보고서를 내보낼 수 있습니다. 이 보고서에는 검색 결과에 대 한 요약과 내보낼 각 항목에 대 한 자세한 정보가 있는 문서가 포함 되어 있습니다.
-ms.openlocfilehash: 63acc8701973519f959ced9822333e893e6fd863
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 25525a0670f31a7e962fb72f6d1559381e8b33cd
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43615932"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817777"
 ---
 # <a name="export-a-content-search-report"></a>콘텐츠 검색 보고서 내보내기
 
@@ -34,11 +35,11 @@ ms.locfileid: "43615932"
   
 보고서를 내보낼 때 콘텐츠 검색과 이름이 같은 폴더에 다운로드 되지만 *_ReportsOnly*에 추가 되어 있습니다. 예를 들어 콘텐츠 검색의 이름이 *ContosoCase0815*인 경우 보고서가 *ContosoCase0815_ReportsOnly*라는 폴더에 다운로드 됩니다. 보고서에 포함 되는 문서 목록은 [보고서에 포함 된 항목](#whats-included-in-the-report)을 참조 하십시오.
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="assign-roles-and-check-system-requirements"></a>역할 할당 및 시스템 요구 사항 확인
 
-- 콘텐츠 검색 보고서를 내보내려면 보안 & 준수 센터에서 준수 검색 관리 역할을 할당 받아야 합니다. 이 역할은 기본 제공 eDiscovery 관리자 및 조직 관리 역할 그룹에 할당 됩니다. 기본적으로 조직 관리 역할 그룹에는 할당되지 않습니다. 자세한 내용은 [eDiscovery 권한 할당](assign-ediscovery-permissions.md)을 참조하세요.
-    
-- 보고서를 내보낼 때 데이터는 로컬 컴퓨터로 다운로드 되기 전에 Microsoft 클라우드의 고유한 Azure Storage 영역에 일시적으로 저장 됩니다. 조직이 Azure의 끝점에 연결할 수 있는지 (와일드 카드는 내보내기에 대 한 고유 식별자를 나타냄) ** \*blob.core.windows.net 합니다** . 검색 결과 데이터는 만들어진 후 2 주 후 Azure 저장소 영역에서 삭제 됩니다. 
+- 콘텐츠 검색 보고서를 내보내려면 보안 & 준수 센터에서 준수 검색 관리 역할을 할당 받아야 합니다. 이 역할은 기본적으로 기본 제공 eDiscovery 관리자 및 조직 관리 역할 그룹에 할당 됩니다. 자세한 내용은 [eDiscovery 권한 할당](assign-ediscovery-permissions.md)을 참조하세요.
+
+- 보고서를 내보낼 때 데이터는 로컬 컴퓨터로 다운로드 되기 전에 Microsoft 클라우드의 고유한 Azure Storage 영역에 일시적으로 저장 됩니다. 조직이 Azure의 끝점에 연결할 수 있는지 (와일드 카드는 내보내기에 대 한 고유 식별자를 나타냄) ** \* blob.core.windows.net 합니다** . 검색 결과 데이터는 만들어진 후 2 주 후 Azure 저장소 영역에서 삭제 됩니다. 
     
 - 검색 결과를 PST 파일로 내보내는 데 사용하는 컴퓨터는 다음과 같은 시스템 요구 사항을 충족해야 합니다.
     
@@ -72,9 +73,9 @@ ms.locfileid: "43615932"
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 회사 또는 학교 계정을 사용 하 여 로그인 합니다.
+2. 회사 또는 학교 계정을 사용하여 로그인합니다.
     
-3. 보안 & 준수 센터의 왼쪽 창에서 **콘텐츠 검색** **검색** \> 을 클릭 합니다.
+3. 보안 & 준수 센터의 왼쪽 창에서 **Search** \> **콘텐츠 검색**검색을 클릭 합니다.
     
 4. **콘텐츠 검색** 페이지에서 검색을 선택 합니다. 
     
@@ -100,7 +101,7 @@ ms.locfileid: "43615932"
     검색 결과 보고서를 다운로드 준비 중 이며,이는 보고서 문서가 Microsoft 클라우드의 Azure Storage 영역에 업로드 됨을 의미 합니다. 보고서를 다운로드할 준비가 되 면 세부 정보 창의 **컴퓨터로 보고서 내보내기** 아래에 보고서 **다운로드** 링크가 표시 됩니다. 
     
 > [!NOTE]
-> EDiscovery 사례와 연결 된 콘텐츠 검색에 대 한 보고서를 내보낼 수도 있습니다. 이렇게 하려면 **ediscovery** \> **ediscovery**로 이동 하 여 사례를 선택 하 고 편집 아이콘 **Edit** ![](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)편집을 클릭 합니다. **검색 페이지에서** 검색을 선택 하 고 내보내기 검색 결과 아이콘 **Export** ![](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) \> 내보내기를 클릭 하 **여 보고서를 내보냅니다**. 
+> EDiscovery 사례와 연결 된 콘텐츠 검색에 대 한 보고서를 내보낼 수도 있습니다. 이렇게 하려면 **ediscovery** ediscovery로 이동 하 여 \> **eDiscovery**사례를 선택 하 고 편집 아이콘 **편집** 을 클릭 ![ ](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) 합니다. **검색 페이지에서** 검색을 선택 하 고 내보내기 검색 결과 아이콘 **내보내기를 클릭 하** ![ ](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) \> **여 보고서를 내보냅니다**. 
   
 ## <a name="step-2-download-the-report"></a>2 단계: 보고서 다운로드
 
@@ -138,7 +139,7 @@ ms.locfileid: "43615932"
     **eDiscovery 내보내기 도구**는 다운로드할 남은 항목의 예상 개수(크기)를 포함하여 내보내기 프로세스에 대한 상태 정보를 표시합니다. 내보내기 프로세스가 완료 되 면 다운로드 한 위치에서 파일에 액세스할 수 있습니다. 
     
 > [!NOTE]
-> EDiscovery 사례와 연결 된 콘텐츠 검색에 대 한 보고서를 다운로드할 수 있습니다. 이렇게 하려면 **ediscovery** \> **ediscovery**로 이동 하 여 사례를 선택 하 고 편집 아이콘 **Edit** ![](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)편집을 클릭 합니다. **내보내기** 페이지에서 보고서 내보내기를 선택 하 고 세부 정보 창에서 **보고서 다운로드** 를 클릭 합니다. 
+> EDiscovery 사례와 연결 된 콘텐츠 검색에 대 한 보고서를 다운로드할 수 있습니다. 이렇게 하려면 **ediscovery** ediscovery로 이동 하 여 \> **eDiscovery**사례를 선택 하 고 편집 아이콘 **편집** 을 클릭 ![ ](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) 합니다. **내보내기** 페이지에서 보고서 내보내기를 선택 하 고 세부 정보 창에서 **보고서 다운로드** 를 클릭 합니다. 
   
 ## <a name="whats-included-in-the-report"></a>보고서에 포함 된 내용
 

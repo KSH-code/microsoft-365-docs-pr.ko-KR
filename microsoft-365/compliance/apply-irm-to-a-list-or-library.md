@@ -20,18 +20,19 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: IRM (정보 권한 관리)을 사용 하 여 목록 또는 라이브러리에서 다운로드 한 파일을 제어 하 고 보호 하는 데 도움을 받을 수 있습니다.
-ms.openlocfilehash: 4366a9fa5c42a8f4505163e0987da1decf727564
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 11d12eda6f2cb8de5c94b6952a8a194b06471473
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079909"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818477"
 ---
 # <a name="apply-information-rights-management-irm-to-a-list-or-library"></a>목록 또는 라이브러리에 IRM (정보 권한 관리) 적용
 
 IRM (정보 권한 관리)을 사용 하 여 목록 또는 라이브러리에서 다운로드 한 파일을 제어 하 고 보호 하는 데 도움을 받을 수 있습니다.
   
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="administrator-preparations-before-applying-irm"></a>IRM을 적용 하기 전 관리자 준비
 
 - Azure Information Protection에서 azure RMS (권한 관리 서비스) 및 온-프레미스에 해당 하는 AD RMS (Active Directory Rights Management Services)는 사이트에 대 한 정보 권한 관리를 지원 합니다. 별도의 설치 또는 추가 설치가 필요 하지 않습니다.
     

@@ -16,13 +16,15 @@ ms.assetid: 09f6737e-f03f-4bc8-8281-e46d24ee2a74
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-description: Office 365 메시지 암호화 (OME) 설정을 완료 한 후에는 여러 가지 방법으로 배포 구성을 사용자 지정할 수 있습니다. 예를 들어, 웹의 Outlook에서 1 회 통과, 보호 단추를 표시할 것인지 여부를 구성할 수 있습니다. 이 문서의 작업에서는 이러한 방법을 설명 합니다.
-ms.openlocfilehash: 25cb5cebda48432afdc670a6dab0a5229167df15
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.custom:
+- seo-marvel-apr2020
+description: Office 365 메시지 암호화 (OME) 설정이 완료 되 면 여러 가지 방법으로 배포를 사용자 지정 하는 방법을 알아봅니다.
+ms.openlocfilehash: 83fa620852ea9b2e0cd50d50b6715742658b7239
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165979"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44815435"
 ---
 # <a name="manage-office-365-message-encryption"></a>Office 365 메시지 암호화 관리
 
@@ -191,9 +193,9 @@ Microsoft 365에서 암호화 전용 옵션을 사용 하 여 전자 메일 첨�
 
    - `mail flow rule name`은 새 메일 흐름 규칙에 사용할 이름입니다.
 
-   - `option name`은 `Encrypt` 또는 `Do Not Forward`입니다.
+   - `option name`은 `Encrypt` 또는 `Do Not Forward` 입니다.
 
-   - `template name`은 사용자 지정 브랜딩 서식 파일에 지정한 이름입니다 예: `OME Configuration`
+   - `template name`은 사용자 지정 브랜딩 서식 파일에 지정한 `OME Configuration` 이름입니다 예:
 
    "OME Configuration" 서식 파일을 사용 하 여 모든 외부 전자 메일을 암호화 하 고 암호화 전용 옵션을 적용 하려면 다음을 수행 합니다.
 

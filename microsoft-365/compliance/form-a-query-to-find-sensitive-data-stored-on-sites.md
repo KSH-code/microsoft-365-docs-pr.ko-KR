@@ -16,13 +16,13 @@ localization_priority: Normal
 search.appverid:
 - MOE150
 - MET150
-description: SharePoint Online의 DLP (데이터 손실 방지)를 사용 하 여 테 넌 트 전체에서 중요 한 데이터가 포함 된 문서를 검색할 수 있습니다. 문서를 검색한 후 문서 소유자와 함께 작업하여 데이터를 보호할 수 있습니다. 이 항목은 중요한 데이터를 검색하는 쿼리를 작성하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: 78f7f07bf6b2fbb0781f4bda8716b84399eef561
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+description: SharePoint Online의 DLP (데이터 손실 방지)를 사용 하 여 테 넌 트 전체에서 중요 한 데이터가 포함 된 문서를 검색 합니다.
+ms.openlocfilehash: b6a0943aa4e71b61c5f430034d9e445462eebde7
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327916"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817707"
 ---
 # <a name="form-a-query-to-find-sensitive-data-stored-on-sites"></a>사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성
 
@@ -33,7 +33,7 @@ ms.locfileid: "44327916"
   
 ## <a name="forming-a-basic-dlp-query"></a>기본 DLP 쿼리 작성
 
-기본 DLP 쿼리는 중요한 정보 유형, 개수 범위 및 신뢰도 범위의 세 부분으로 구성됩니다. 다음 그림과 같이 **SensitiveType: " \< type \> "** 이 필요 하며** | \< count 범위 \> ** 와** | \< 신뢰 \> 범위** 모두 선택 사항입니다. 
+기본 DLP 쿼리는 중요한 정보 유형, 개수 범위 및 신뢰도 범위의 세 부분으로 구성됩니다. 다음 그림과 같이 **SensitiveType: " \<type\> "** 가 필요 하며 두 가지 모두 **|\<count range\>** **|\<confidence range\>** 선택적입니다. 
   
 ![필수 및 옵션으로 구분되는 예제 쿼리](../media/DLP-query-example-text.png)
   
@@ -88,7 +88,7 @@ DLP 관련 속성만 사용 하 여 쿼리를 만들 수 있을 뿐 아니라 �
    
 ## <a name="for-more-information"></a>자세한 내용
 
-- [중요 한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)
+- [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)
 - [콘텐츠 검색 실행](content-search.md)
 - [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)
   

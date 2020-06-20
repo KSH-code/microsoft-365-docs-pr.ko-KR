@@ -19,13 +19,14 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 조직의 암호화 된 전자 메일 메시지와 암호화 포털의 콘텐츠에 조직의 브랜딩을 적용 합니다.
-ms.openlocfilehash: 86636b319151a96e9ec827f85cc943282c30f63c
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+- seo-marvel-jun2020
+description: Office 365에서 전역 관리자가 암호화 된 전자 메일 메시지에 조직의 브랜딩을 적용 하는 방법에 대해 알아봅니다 & 합니다.
+ms.openlocfilehash: 6ec13a9d986019e6eb91d1b7a395f1c6199fe12a
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44679112"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818661"
 ---
 # <a name="add-your-organizations-brand-to-your-encrypted-messages"></a>암호화된 메시지에 조직의 브랜드 추가
 

@@ -15,17 +15,19 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 중요 한 정보 유형은 특정 패턴을 확인 하 고 적절 한 서식을 유지 하 고 체크섬을 적용 하며 관련 키워드 또는 기타 정보를 찾는 방법으로 corroborate 합니다. 이 기능 중 일부는 내부 함수에 의해 수행됩니다. 이 항목에는 이러한 함수가 찾는 대상이 설명되어 있어 미리 정의된 중요한 정보 유형이 작동하는 방식을 이해할 수 있습니다.
-ms.openlocfilehash: 710cd371cbf67a03d75a928baab4b63587cdcfc1
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.custom:
+- seo-marvel-apr2020
+description: 미리 정의 된 중요 한 정보 유형의 작동 방식을 이해 하는 데 도움이 되도록 DLP (데이터 손실 방지) 함수가 찾는 내용을 알아봅니다.
+ms.openlocfilehash: 838277b2e30696cd00cfc30df49c1d5a29149d92
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327750"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819278"
 ---
 # <a name="what-the-dlp-functions-look-for"></a>DLP 기능이 찾는 항목
 
-DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카드 번호 및 EU 직불 카드 번호와 같은 중요한 정보 유형이 포함됩니다. 이러한 중요한 정보 유형은 특정 패턴을 찾은 후 서식이 올바른지 확인하고, 체크섬을 적용하고, 관련된 키워드 또는 기타 정보를 찾아 완전하게 확인합니다. 이 기능 중 일부는 내부 함수에 의해 수행됩니다. 예를 들어 신용 카드 번호 중요한 정보 유형은 만료일과 같은 형식의 날짜를 찾는 함수를 사용하여 숫자가 신용 카드 번호임을 입증하는 데 도움을 줍니다.
+Data loss prevention (DLP) includes sensitive information types, such as Credit Card Number and EU Debit Card Number, which are ready for you to use in your DLP policies. These sensitive information types look for a specific pattern and corroborate it by ensuring proper formatting, enforcing checksums, and looking for relevant keywords or other information. Some of this functionality is performed by internal functions. For example, the Credit Card Number sensitive information type uses a function to look for dates formatted like an expiration date, to help corroborate that a number is a credit card number.
   
 이 항목에는 이러한 함수가 찾는 대상이 설명되어 있어 미리 정의된 중요한 정보 유형이 작동하는 방식을 이해할 수 있습니다. 자세한 내용은 [중요 한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md) 를 참조 하세요.
   
@@ -51,7 +53,7 @@ DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카
     
 허용되는 월 이름:
   
-- 영어
+- English
     
   - 1 월, 2 월, 3 월, 4 월, 5 월, 01 년 6 월, 년 9 월, 10 월, 년 11 월, 12 월
     
@@ -59,7 +61,7 @@ DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카
     
 ## <a name="func_eu_date"></a>Func_eu_date
 
-이 함수는 유럽 연합(및 미국 이외의 대부분의 지역)에서 일반적으로 사용되는 형식의 날짜를 찾습니다. 여기에는 "일/월/년", "일-월-년" 및 "일 월 년" 형식이 포함됩니다. 월 이름 또는 약어는 대/소문자를 구분하지 않습니다.
+This function looks for a date in the format commonly used in the E.U. (and most places outside the U.S.). This includes the formats "day/month/year", "day-month-year", and "day month year". The names or abbreviations of months are not case sensitive.
   
 예제:
   
@@ -79,31 +81,31 @@ DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카
     
 허용되는 월 이름:
   
-- 영어
+- English
     
   - 1 월, 2 월, 3 월, 4 월, 5 월, 01 년 6 월, 년 9 월, 10 월, 년 11 월, 12 월
     
   - 1 월 2 월 3 월 4 일. c a 11 월호-2005 년 12 월.
     
-- 네덜란드어
+- Dutch
     
   - januari, februari, maart, April, mei, juni, juli, augustus, September, ocktober, October, November, December
     
   - jan 1 월 maart 년 9 월 8 일
     
-- 프랑스어
+- French
     
   - janvier, février, mars, avril, mai, juin juillet, août, septembre, octobre, novembre, décembre
     
   - janv. févr. mars avril mai juin juil août 9 월 일. 수정일. déc.
     
-- 독일어
+- German
     
   - jänuar, februar, märz, 4 월, mai, juni juli, 8 월, 09, oktober, 11 월, dezember
     
   - 1 월/Jän. März Apr. Mai Juni Juli 8 ~ 9. Okt 11 월.
     
-- 이탈리아어
+- Italian
     
   - gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, novembre
     
@@ -115,7 +117,7 @@ DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카
     
   - 1 월의 fev mar abr mai 6 월 30 일 전인 11 월 이전 설정
     
-- 스페인어
+- Spanish
     
   - enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre
     
@@ -177,7 +179,7 @@ DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카
     
 허용되는 월 이름:
   
-- 네덜란드어
+- Dutch
     
   - januari, februari, maart, April, mei, juni, juli, augustus, September, ocktober, October, November, December
     
@@ -209,7 +211,7 @@ DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카
     
 허용되는 월 이름:
   
-- 영어
+- English
     
   - 1 월, 2 월, 3 월, 4 월, 5 월, 01 년 6 월, 년 9 월, 10 월, 년 11 월, 12 월
     
@@ -217,7 +219,7 @@ DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카
     
 ## <a name="func_us_address"></a>Func_us_address
 
-이 함수는 우편 주소에 사용되는 것과 같이 미국 주 이름 또는 주 약어와 유효한 우편 번호를 찾습니다. 우편 번호는 미국 주 이름 또는 약어와 관련된 올바른 우편 번호 중 하나여야 합니다. 미국 주 이름과 우편 번호를 문장 부호나 문자로 구분할 수 없습니다.
+This function looks for a U.S. state name or postal abbreviation followed by a valid zip code, just as they are used in postal addresses. The zip code must be one of the correct zip codes associated with the U.S. state name or abbreviation. The U.S. state name and zip code cannot be separated by punctuation or letters.
   
 예제:
   

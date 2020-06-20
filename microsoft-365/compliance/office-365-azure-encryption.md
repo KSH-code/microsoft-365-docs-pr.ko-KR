@@ -17,18 +17,16 @@ ms.collection:
 - Strat_O365_Enterprise
 description: Azure에서 사용 가능한 암호화에 대해 자세히 알아보기
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d5d334c56228a372d7e389bd5d0eff9859184d5b
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 57581f7ca1f4cb605aa2617f73dd1e4b04bd129c
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033636"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818857"
 ---
 # <a name="encryption-in-azure"></a>Azure의 암호화
 
 암호화 된 통신 및 운영 프로세스와 같은 Azure의 기술 보호책은 데이터를 안전 하 게 유지 하는 데 도움이 됩니다. 또한 추가 암호화 기능을 구현 하 고 자체 암호화 키를 관리할 수 있는 유연성을 제공 합니다. Microsoft는 고객 구성에 관계 없이 Azure에서 고객 데이터를 보호 하기 위해 암호화를 적용 합니다. 또한 Microsoft에서는 다양 한 고급 기술을 통해 Azure에서 호스트 되는 데이터를 제어 하 고 암호화 키를 암호화, 제어 및 관리 하며 데이터에 대 한 액세스를 제어 하 고 감사할 수 있습니다. 또한 Azure Storage는 개발자가 안전한 응용 프로그램을 작성할 수 있도록 하는 광범위 한 보안 기능 집합을 제공 합니다.
-
-## <a name="introduction"></a>소개
 
 Azure는 한 위치에서 다른 위치로 이동 될 때 데이터를 보호 하기 위한 다양 한 메커니즘을 제공 합니다. Microsoft는 클라우드 서비스와 고객 간에 이동할 때 TLS를 사용 하 여 데이터를 보호 합니다. Microsoft의 데이터 센터는 Azure services에 연결 되는 클라이언트 시스템과 TLS 연결을 협상 합니다. PFS (전달 완전 보안)는 고유한 키에 따라 고객의 클라이언트 시스템과 Microsoft 클라우드 서비스 간의 연결을 보호 합니다. 또한 연결에서는 RSA 기반 2048 비트 암호화 키 길이를 사용 합니다. 이 조합을 사용 하면 누군가가 전송 중인 데이터를 가로채 고 액세스 하기가 어려워집니다.
 
