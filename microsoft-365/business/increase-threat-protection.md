@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Office 365 Advanced Threat Protection을 설정 하 고 피싱, 맬웨어 및 기타 위협 으로부터 중요 한 데이터를 보호 합니다.
-ms.openlocfilehash: 6fa4d1595c379aaccf3a0cbfca020fbd32376fb9
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: d5510cdc082781fd9a1776e86b1bab1d8a2723d6
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400873"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44786209"
 ---
 # <a name="increase-threat-protection"></a>위협 방지 강화
 
@@ -92,13 +92,13 @@ Office 365 또는 Microsoft 365 환경에는 맬웨어에 대 한 보호 기능�
   
 - [랜 섬 웨어를 처리 하는 방법](https://go.microsoft.com/fwlink/?linkid=2016501)
     
-- [OneDrive 복원](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15.aspx)
+- [OneDrive 복원](https://support.microsoft.com/office/fa231298-759d-41cf-bcd0-25ac53eb8a15.aspx)
 
 ## <a name="stop-auto-forwarding-for-email"></a>전자 메일에 대 한 자동 전달 중지
 
 사용자의 사서함에 대 한 액세스 권한을 획득 하는 해커는 자동으로 전자 메일을 전달 하도록 사서함을 설정 하 여 메일을 도용할 수 있습니다. 사용자의 인식이 없어도이 문제가 발생할 수 있습니다. 이러한 상황이 발생 하지 않도록 하려면 메일 흐름 규칙을 구성 합니다. 
   
-메일 전송 규칙을 만들려면 [이 짧은 비디오](https://support.office.com/article/f9d693ba-5c78-47c0-b156-8e461e062aa7) 를 시청 하거나 다음 단계를 수행 합니다.
+메일 전송 규칙을 만들려면 [이 짧은 비디오](https://support.microsoft.com/office/f9d693ba-5c78-47c0-b156-8e461e062aa7) 를 시청 하거나 다음 단계를 수행 합니다.
   
 1. Microsoft 365 관리 센터에서 **관리 센터** \> **Exchange**를 선택 합니다.
     
@@ -127,7 +127,7 @@ Office 365 또는 Microsoft 365 환경용으로 하나 이상의 사용자 지�
   
 가장 중요 한 사용자와 사용자 지정 도메인을 보호 하는 정책을 만들어이 보호를 시작 하는 것이 좋습니다. 
 
-ATP 피싱 방지 정책을 만들려면 [이 간략 한 교육 비디오](https://support.office.com/article/86c425e1-1686-430a-9151-f7176cce4f2c)를 시청 하거나 다음 단계를 완료 하세요.
+ATP 피싱 방지 정책을 만들려면 [이 간략 한 교육 비디오](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)를 시청 하거나 다음 단계를 완료 하세요.
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다. 
     
@@ -157,7 +157,7 @@ ATP 피싱 방지 정책을 만들려면 [이 간략 한 교육 비디오](https
 
 사용자가 문서, 프레젠테이션, 스프레드시트 등의 첨부 파일을 정기적으로 보내고 받고 공유 합니다. 전자 메일 메시지를 확인 하기만 하면 첨부 파일이 안전한 지 또는 악의적 임을 쉽게 알 수 있습니다. Office 365 Advanced Threat Protection은 ATP Safe 첨부 파일 보호를 포함 하지만이 보호 기능은 기본적으로 설정 되어 있지 않습니다. 이 보호 기능을 사용 하기 시작 하는 새 규칙을 만드는 것이 좋습니다. 이 보호는 SharePoint, OneDrive 및 Microsoft 팀의 파일로 확장 됩니다.
   
-ATP 안전한 첨부 파일 정책을 만들려면 [이 짧은 비디오](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)를 시청 하거나 다음 단계를 완료 합니다.
+ATP 안전한 첨부 파일 정책을 만들려면 [이 짧은 비디오](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)를 시청 하거나 다음 단계를 완료 합니다.
   
 1. 으로 이동 하 [https://protection.office.com](https://protection.office.com) 고 관리자 계정으로 로그인 합니다. 
     
@@ -194,7 +194,7 @@ ATP 안전한 첨부 파일 정책을 만들려면 [이 짧은 비디오](https:
     
 - 도메인의 모든 받는 사람을 대상으로 하는 새 정책을 추가 합니다.
     
-ATP 안전한 링크를 설정 하려면 [이 간략 한 교육 비디오](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa)를 시청 하거나 다음 단계를 완료 하세요.
+ATP 안전한 링크를 설정 하려면 [이 간략 한 교육 비디오](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)를 시청 하거나 다음 단계를 완료 하세요.
   
 1. 으로 이동 하 [https://protection.office.com](https://protection.office.com) 고 관리자 계정으로 로그인 합니다. 
     

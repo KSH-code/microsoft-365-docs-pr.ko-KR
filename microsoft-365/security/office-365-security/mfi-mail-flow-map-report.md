@@ -10,13 +10,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
+ms.custom:
+- seo-marvel-apr2020
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에 있는 메일 흐름 맵 보고서에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: f5441a5c775cb9cadb6e9c631adc988f807d8592
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b0850ee50573583f1a971d1a5dfd69f47fb70b99
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635295"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818846"
 ---
 # <a name="mail-flow-map-report"></a>메일 흐름 맵 보고서
 
@@ -30,7 +32,7 @@ ms.locfileid: "43635295"
 
 ![메일 흐름 맵 위젯의 왼쪽 및 오른쪽 화살표](../../media/mail-flow-map-widget.png)
 
-## <a name="overview"></a>개요
+## <a name="mail-flow-map-basics"></a>메일 흐름 맵 기본 사항
 
 **메일 흐름 맵** 위젯을 클릭 하면 **메일 흐름 맵** 보고서로 이동 합니다. 여기에서 세부 정보 테이블 보기를 클릭 하 여 자세한 데이터를 볼 수 있습니다. 또한 요청 보고서를 클릭 하 여 자세한 보고서를 다운로드할 수 있습니다.
 

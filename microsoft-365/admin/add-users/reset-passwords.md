@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: '비즈니스용 Microsoft 365에서 사용자의 암호를 다시 설정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 44052ee0c795143d67d832f9528e3eea7232f1cb
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: d1c17448a1f9993b056fa2dc428980acf8ef82b4
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386976"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780568"
 ---
 # <a name="reset-passwords"></a>암호 다시 설정
 
@@ -40,11 +40,11 @@ ms.locfileid: "44386976"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FVVP] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
   
 ## <a name="let-users-reset-their-own-passwords"></a>사용자가 암호를 직접 재설정할 수 있도록 허용
 
-셀프 서비스 암호 재설정을 설정하는 것이 좋습니다. 이 방법을 사용하면 사용자의 암호를 수동으로 재설정할 필요가 없습니다. 그 방법을 알고 싶으면 [Office 365에서 사용자가 암호를 직접 재설정할 수 있도록 허용](let-users-reset-passwords.md)을 참조하세요.
+We strongly recommend that you set up self-service password reset. This way you don't have to manually reset passwords for your users. To learn how, see [Let users reset their own passwords in Office 365](let-users-reset-passwords.md).
   
 ## <a name="reset-a-business-password-for-someone-else"></a>다른 사람에 대 한 회사 암호 다시 설정
 
@@ -53,19 +53,19 @@ ms.locfileid: "44386976"
  
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
@@ -103,7 +103,7 @@ ms.locfileid: "44386976"
 
 다음 단계는 수십 명의 사용자가 속한 비즈니스에 적합한 방법입니다. 수백 또는 수천 명의 사용자가 있는 경우 다음 섹션에서 대량으로 암호를 다시 설정 하는 방법 (한 번에 최대 40 사용자)을 참조 하세요.
   
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
     
 2. **표시 이름** 옆에 있는 옵션을 선택 하 여 회사의 모든 사용자를 선택 합니다. 자신의 이름은 선택 취소합니다. 다른 모든 사람의 암호와 자신의 암호를 동시에 재설정할 수 없습니다.
     
@@ -118,11 +118,11 @@ ms.locfileid: "44386976"
 ## <a name="reset-business-passwords-in-bulk"></a>대량으로 비즈니스 암호 다시 설정
 <a name="bkmk_forgot"> </a>
 
-PowerShell을 사용하세요! Eyal Doron이 작성한 게시물을 확인하세요. [PowerShell을 사용하여 암호 관리](https://go.microsoft.com/fwlink/?linkid=853696)
+Use PowerShell! Check out this post by Eyal Doron: [Managing passwords with PowerShell](https://go.microsoft.com/fwlink/?linkid=853696).
   
 관련된 문서는 다음과 같습니다. [여러 사용자 계정의 암호 설정](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
   
-개요에 대 한 자세한 내용은 [Microsoft 365 관리자를 위한 PowerShell](https://support.microsoft.com/en-us/office/powershell-for-office-365-administrators-40fdcbd4-c34f-42ab-8678-8b3751137ef1)을 참조 하십시오.
+개요에 대 한 자세한 내용은 [Microsoft 365 관리자를 위한 PowerShell](https://support.microsoft.com/office/40fdcbd4-c34f-42ab-8678-8b3751137ef1)을 참조 하십시오.
   
 ## <a name="force-a-password-change-for-all-users-in-your-business"></a>조직의 모든 사용자가 암호를 변경하게 만들기
 <a name="bkmk_forgot"> </a>
@@ -132,7 +132,7 @@ Microsoft MVP인 Vasil Michev의 유용한 블로그 게시물을 확인하세�
 ## <a name="im-lost"></a>모르겠습니다!
 <a name="bkmk_forgot"> </a>
 
-[Office에서 사용하는 계정에 대한 사용자 이름 또는 암호를 잊었습니다.](https://support.office.com/article/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp) 문서를 참조하세요.
+[Office에서 사용하는 계정에 대한 사용자 이름 또는 암호를 잊었습니다.](https://support.microsoft.com/office/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp) 문서를 참조하세요.
   
 ## <a name="related-articles"></a>관련 문서
 <a name="bkmk_forgot"> </a>
@@ -147,4 +147,4 @@ Microsoft MVP인 Vasil Michev의 유용한 블로그 게시물을 확인하세�
 
 [이전 직원 제거](remove-former-employee.md)
 
-[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business 교육 비디오](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -18,16 +18,16 @@ ms.collection:
 - M365-security-compliance
 description: ATP 안전한 첨부 파일 정책을 설정할 때 메시지 지연을 방지 하 고 사용자가 검색 중인 첨부 파일을 미리 볼 수 있도록 동적 전달을 선택 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7c30803efd2dafedd6d988de5374f08bd61f7d2a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: b22112617ecba191c7ee8d7daab0de3cde1bf8c3
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034795"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819355"
 ---
 # <a name="dynamic-delivery-and-previewing-with-atp-safe-attachments"></a>동적인 배달 및 ATP 안전한 첨부 파일로 미리 보기
 
-## <a name="overview"></a>개요
+## <a name="basic-features-of-dynamic-delivery"></a>동적 배달의 기본 기능
 
 동적 배달은 [ATP 안전한 첨부 파일](atp-safe-attachments.md)에 대해 선택할 수 있는 옵션입니다. 이 문서를 읽으면 [Office 365에서 ATP 안전한 첨부 파일](atp-safe-attachments.md)의 동적 배달 및 첨부 파일 미리 보기 기능에 대해 자세히 알아볼 수 있습니다.
 
@@ -80,7 +80,7 @@ ATP 안전한 첨부 파일 검사는 Microsoft 365 데이터가 있는 동일�
 
 - 오류 상태의 사용자 사서함 검색 폴더
 
-- Exchange Online 관리자가 Exclaimer를 사용 하도록 설정한 환경 이 문제를 해결 하려면 [ATP 동적 배달 및 Exclaimer을 사용할 때 첨부 파일이 포함 된 메시지가 배달 되지 않음](https://support.microsoft.com/help/4014438/messages-with-attachments-are-not-delivered-when-atp-dynamic-delivery) 을 참고 하십시오.
+- Exchange Online 관리자가 Exclaimer를 사용 하도록 설정한 환경 이 문제를 해결 하려면 [ATP 동적 배달 및 Exclaimer을 사용할 때 첨부 파일이 포함 된 메시지가 배달 되지 않음](https://support.microsoft.com/help/4014438) 을 참고 하십시오.
 
 - [Secure/다목적 인터넷 메일 확장명 (S/MIME)](s-mime-for-message-signing-and-encryption.md)을 사용 하 여 암호화 된 메시지
 

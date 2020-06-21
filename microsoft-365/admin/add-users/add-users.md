@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1970f7d6-03b5-442f-b385-5880b9c256ec
 description: CSV 파일에서 동시에 한 번에 하나씩 Microsoft 365에 사용자를 추가 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: af4fead3112a678b1ee7eacb087dddc40ed43d36
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: af160b78317171bec98dcfa3d5877b53560f75a2
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432126"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780664"
 ---
 # <a name="add-users-individually-or-in-bulk"></a>개별적으로 또는 대량으로 사용자 추가
 
@@ -80,11 +80,11 @@ ms.locfileid: "44432126"
     
 - **암호** 자동 생성된 암호를 사용하거나 확장하여 강력한 암호를 지정해 줍니다. 
     
-    사용자는 90일이 지나면 암호를 변경해야 합니다. 또는 **사용자가 처음 로그인할 때 암호를 변경하도록 설정**할 수도 있습니다.
+    They'll need to change their password after 90 days. Or you can choose to **Make this user change their password when they first sign in**.
     
 - **역할** 사용자를 관리자로 설정해야 하는 경우 확장합니다. 
     
-- **제품 라이선스** 이 섹션을 확장하여 적절한 라이선스를 선택합니다. 사용 가능한 라이선스가 없어도 사용자를 추가하고 추가 라이선스를 구입할 수 있습니다. 
+- **Product licenses** Expand this section and select the appropriate license. If you don't have any licenses available, you can still add a user and buy additional licenses. 
 
 ::: moniker-end
 
@@ -105,11 +105,11 @@ ms.locfileid: "44432126"
     
 - **암호** 자동 생성된 암호를 사용하거나 확장하여 강력한 암호를 지정해 줍니다. 
     
-    사용자는 90일이 지나면 암호를 변경해야 합니다. 또는 **사용자가 처음 로그인할 때 암호를 변경하도록 설정**할 수도 있습니다.
+    They'll need to change their password after 90 days. Or you can choose to **Make this user change their password when they first sign in**.
     
 - **역할** 사용자를 관리자로 설정해야 하는 경우 확장합니다. 
     
-- **제품 라이선스** 이 섹션을 확장하여 적절한 라이선스를 선택합니다. 사용 가능한 라이선스가 없어도 사용자를 추가하고 추가 라이선스를 구입할 수 있습니다. 
+- **Product licenses** Expand this section and select the appropriate license. If you don't have any licenses available, you can still add a user and buy additional licenses. 
 
 ::: moniker-end 
   
@@ -124,7 +124,7 @@ ms.locfileid: "44432126"
   
 ## <a name="next-steps"></a>다음 단계
 
-새로운 사용자가 [PC 또는 Mac의 Office](https://support.office.com/article/b9700090-ce64-4046-ab92-ce8488a7bc0f.aspx) 및 [Office 모바일 앱](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx)과 같은 기능을 설정할 수 있도록 [Employee quick start guide](https://support.office.com/article/7dabb6cb-0046-40b6-81fe-767e0b1f014f.aspx)(직원 빠른 시작 가이드)를 사용자와 공유하세요.
+새로운 사용자가 [PC 또는 Mac의 Office](https://support.microsoft.com/office/b9700090-ce64-4046-ab92-ce8488a7bc0f) 및 [Office 모바일 앱](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)과 같은 기능을 설정할 수 있도록 [Employee quick start guide](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f)(직원 빠른 시작 가이드)를 사용자와 공유하세요.
   
 ## <a name="need-help"></a>도움이 필요하신가요?
 
@@ -144,6 +144,8 @@ ms.locfileid: "44432126"
 - **Exchange에서 마이그레이션 여부** [여러 전자 메일 계정을 Office 365로 마이그레이션하는 방법](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration) 가공선, 단계적 또는 하이브리드 Exchange 방법을 사용 하 여 여러 개의 사서함을 Microsoft 365로 마이그레이션하는 경우 마이그레이션의 일부로 사용자를 자동으로 추가 합니다. 마이그레이션하면 사용자 계정만 추가됩니다. 사용자에게 라이선스를 할당해야 전자 메일 및 기타 Office 앱을 사용할 수 있습니다.
 
 ## <a name="related-articles"></a>관련 문서
+
+[사용자에게 라이선스 할당](../manage/assign-licenses-to-users.md)
 
 [Microsoft 365에 새 직원 추가](add-new-employee.md)
 

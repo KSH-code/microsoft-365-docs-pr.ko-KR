@@ -19,17 +19,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 스팸을 방지 하는 데 도움이 되는 스팸 방지 설정 및 필터에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: d7c58fd4751bc7d92d5dfa3cadcfb7b24a3fc465
-ms.sourcegitcommit: 4cfb8a9c3675d0aefcabd690273e2af85f2e38b0
+ms.openlocfilehash: ce673a4bee64dfbc84f870f9cf4871e9ac32a71c
+ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44211419"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44800110"
 ---
 # <a name="anti-spam-protection-in-eop"></a>EOP의 스팸 방지 보호 기능
 
 > [!NOTE]
-> 이 항목은 관리자를 위한 것입니다. 최종 사용자 항목의 경우 [정크 메일 필터 개요](https://support.Microsoft.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) 및 [정크 메일 및 피싱에 대 한 자세한](https://support.Microsoft.com/article/86c1d76f-4d5a-4967-9647-35665dc17c31)정보를 참조 하세요.
+> 이 항목은 관리자를 위한 것입니다. 최종 사용자 항목의 경우 [정크 메일 필터 개요](https://support.microsoft.com/office/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) 및 [정크 메일 및 피싱에 대 한 자세한](https://support.microsoft.com/office/86c1d76f-4d5a-4967-9647-35665dc17c31)정보를 참조 하세요.
 
 Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (독립 실행형 Exchange Online Protection) 조직에 전자 메일 메시지가 EOP을 통해 스팸 (정크 메일) 로부터 자동으로 보호 됩니다.
 
@@ -83,7 +83,7 @@ EOP의 스팸 방지 설정은 다음과 같은 기술로 구성 됩니다.
 
 ### <a name="prevent-the-delivery-of-spam-to-the-inbox"></a>받은 편지함에 스팸 배달 방지
 
-- **조직 설정 확인**: 스팸 방지 정책에서 허용 되는 도메인 목록에 자체 도메인을 추가 하는 경우와 같이 메시지가 스팸 필터링을 건너뛰는 것을 허용 하는 설정을 검토 합니다. 권장 설정에 대 한 자세한 내용은 [EOP 및 Microsoft 365 ATP security의 권장 설정](recommended-settings-for-eop-and-office365-atp.md) 및 [수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조 하세요.
+- **조직 설정 확인**: 스팸 방지 정책에서 허용 되는 도메인 목록에 자체 도메인을 추가 하는 경우와 같이 메시지가 스팸 필터링을 건너뛰는 것을 허용 하는 설정을 검토 합니다. 권장 설정에 대 한 자세한 내용은 [EOP And Office 365 ATP security의 권장 설정](recommended-settings-for-eop-and-office365-atp.md) 및 [수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조 하세요.
 
 - **정크 메일 규칙이 사용자 사서함에서 사용 하도록 설정 되어 있는지 확인**하세요. 기본적으로 사용 하도록 설정 되어 있지만 사용 하지 않도록 설정 되어 있으면 정크 메일로 표시 된 메시지를 정크 메일 폴더로 이동할 수 없습니다. 자세한 내용은 [Microsoft 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
 

@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 8b991fb6cf8f03f2ff686c89251f53f53f87a5e1
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 99112b70715770b24c1454fbd9442d2b5b6f08ea
+ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352549"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44800134"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Id 및 그 외의 설계자 관점
 
@@ -134,7 +134,7 @@ Azure AD의 정책 엔진은 [조건부 액세스 정책을](https://docs.micros
 - [Azure AD ID 보호](https://docs.microsoft.com/azure/active-directory/identity-protection/) 
 - [AZURE ATP (Advanced Threat Protection](https://docs.microsoft.com/azure-advanced-threat-protection/) )
 - [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) (MICROSOFT defender ATP)
-- [Microsoft 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) (MICROSOFT 365 ATP)
+- [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) (OFFICE 365 ATP)
 - [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/) (mcas)
 - MTP ( [Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection?view=o365-worldwide) )
 - [Microsoft Intune](https://docs.microsoft.com/mem/intune/)
@@ -310,7 +310,7 @@ Azure RBAC (역할 기반 액세스 제어)를 사용 하면 Azure에 세분화 
 
 :::image type="content" source="../media/solutions-architecture-center/identity-beyond-illustration-5.png" alt-text="위임 된 관리를 위한 Azure 구성 요소의 고급 보기":::
 
-위의 그림에서 볼 수 있듯이 대부분의 다른 서비스는 디자인의 일부로 간주 해야 합니다 (예: [Azure 정책](https://docs.microsoft.com/azure/governance/policy/overview), [asure 청사진](https://docs.microsoft.com/azure/governance/blueprints/overview), [관리 그룹](https://docs.microsoft.com/azure/governance/management-groups/)등).
+위의 그림에서 볼 수 있듯이 대부분의 다른 서비스는 디자인의 일부로 간주 해야 합니다 (예: [Azure 정책](https://docs.microsoft.com/azure/governance/policy/overview), [azure 청사진](https://docs.microsoft.com/azure/governance/blueprints/overview), [관리 그룹](https://docs.microsoft.com/azure/governance/management-groups/)등).
 
 ## <a name="conclusion"></a>결론
 짧은 요약으로 시작 됨, 예상 보다 더 오래 완료 되었습니다.  이제 조직의 위임 모델을 만드는 방법에 대해 자세히 살펴보겠습니다.  이 대화는 고객에 게 흔히 발생 합니다. 모든 사용자에 대해 작동 하는 모델은 없습니다. 고객 들에 게 표시 되는 일반적인 패턴을 문서화 하기 전에 Microsoft 기술팀에서 계획 된 몇 가지 향상을 기다리는 중입니다. 또한 Microsoft 계정 팀과 협력 하 여 가장 가까운 [Microsoft 기술 센터로](https://www.microsoft.com/mtc)의 방문을 배열할 수 있습니다.  거기가 표시 됩니다.

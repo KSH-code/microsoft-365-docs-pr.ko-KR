@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Office 생산성 앱과 사이버 위협으로부터 비즈니스를 보호하는 고급 보호 기능을 포함하는 구독 서비스인 Microsoft 365 Business Premium에 대해 알아봅니다.
-ms.openlocfilehash: 61f4c34ade180717486ce889162947afe9be7ba6
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6cff2fe62111e0d3ee99f406d0be83db0a119b09
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402257"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44786177"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Microsoft 365 Business Premium 개요
 
@@ -46,7 +46,7 @@ Microsoft 365 Business Premium에 대한 간략한 개요를 보려면 이 비�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요. 
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요. 
 
 Microsoft 365 Business Premium은 최대 300개의 라이선스용으로 만들어졌습니다. 라이선스가 더 필요한 경우 자세한 내용은 [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) 설명서를 참조하세요.
 
@@ -111,11 +111,11 @@ Microsoft 365 Business Premium은 다음을 통해 **위협으로부터 보호�
 
 - 파트너 없이 Microsoft 365 Business Premium을 받으려면 [여기에서 구매](https://www.microsoft.com/microsoft-365/business)하고 [가입](sign-up.md) 지침을 따르세요.
 
-- [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=gm_fy18_hol_bopis_feature3&CustomerIntent=Consumer)로 이동하여 Microsoft 365 Business Premium을 구매하고 설정 도움말을 받을 수도 있습니다.
+- [Microsoft Store](https://www.microsoft.com/store/locations/find-a-store?icid=gm_fy18_hol_bopis_feature3&CustomerIntent=Consumer)로 이동하여 Microsoft 365 Business Premium을 구매하고 설정 도움말을 받을 수도 있습니다.
 
     > [!NOTE]
     > 이 링크는 미국 Microsoft Store 전용입니다.
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 Business Premium 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business Premium 교육 비디오](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

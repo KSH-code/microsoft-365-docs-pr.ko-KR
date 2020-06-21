@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: d7138188-086e-4a54-a155-11fa953c3930
 ROBOTS: NOINDEX
 description: Microsoft 365 for business 구독에 라이선스를 활성화, 갱신 또는 추가 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 83b4ba3338db4351ef50af687d3632da83f45648
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f0e8de1546c5efdde907209e98f9ee5d710ab2c2
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44404685"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818558"
 ---
 # <a name="enter-your-product-key-purchased-from-microsoft-open"></a>Microsoft Open에서 구입한 제품 키 입력
 
@@ -38,7 +38,7 @@ ms.locfileid: "44404685"
   
  **다른 사항이 필요 합니다.**
  
- **Microsoft 365 Home 또는 Personal에 대 한 도움말**을 보려면 [Office와 함께 제품 키 사용](https://support.office.com/article/12a5763a-d45c-4685-8c95-a44500213759.aspx)을 참조 하세요.
+ **Microsoft 365 Home 또는 Personal에 대 한 도움말**을 보려면 [Office와 함께 제품 키 사용](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx)을 참조 하세요.
   
  **소매점 스토어에서 구입한 Microsoft 365 Business Standard에 대 한 도움말**을 보려면 [소매점에서 구입한 제품 키 입력](enter-your-product-key.md)을 참조 하세요. 
   
@@ -64,7 +64,7 @@ Microsoft 365 for business를 처음 사용할 경우 [조직에 대해 microsof
 
 일반적인 오류 및 해결 방법 목록을 확인 하세요. [제품 키에 문제가 있나요?](product-key-errors-and-solutions.md)
   
-파트너인 경우 [파트너: 제품 키를 사용하여 고객 구독 설정](https://support.microsoft.com/en-us/office/partners-use-a-product-key-to-set-up-a-customer-subscription-cf22c50f-95c9-4fa2-b959-c264de256d40)을 참조하세요.
+파트너인 경우 [파트너: 제품 키를 사용하여 고객 구독 설정](https://support.microsoft.com/office/cf22c50f-95c9-4fa2-b959-c264de256d40)을 참조하세요.
   
 볼륨 라이선스 고객은 [Microsoft 볼륨 라이선스 서비스 센터 교육 및 리소스](https://go.microsoft.com/fwlink/p/?LinkId=618103)를 방문하여 자세한 내용을 알아볼 수 있습니다.
   

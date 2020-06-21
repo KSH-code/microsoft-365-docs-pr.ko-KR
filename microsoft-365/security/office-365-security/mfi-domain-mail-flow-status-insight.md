@@ -10,13 +10,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
+ms.custom:
+- seo-marvel-apr2020
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에 있는 최상위 도메인 메일 흐름 상태에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 42ce0545dad2804829d15572ce6e1f5a0ca6b49f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 22b0f8cefe8baacac682550126de55dcbf880d73
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082851"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818594"
 ---
 # <a name="top-domain-mail-flow-status-insight"></a>최상위 도메인 메일 흐름 상태 정보
 
@@ -32,6 +34,6 @@ ms.locfileid: "42082851"
 
 ![최상위 도메인 흐름 상태 이해의 세부 정보 플라이 아웃](../../media/domain-mail-flow-status-flyout.png)
 
-## <a name="see-also"></a>참고 항목
+## <a name="related-topics"></a>관련 항목
 
 메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.

@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Office 365 E3에서 Microsoft 365 Business Premium로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: 6571fb3ba53620fbb8b97d8f5fd76832f95b82c3
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: d72f0c52a745ff973868b6fdaa95efa1a37a3dbd
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515902"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785931"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Office 365 E3에서 Microsoft 365 Business Premium으로 마이그레이션 
 
@@ -117,8 +117,8 @@ Microsoft 365 Business Premium에 라이선스를 할당 한 후에는 사용자
 
 ### <a name="threat-protection"></a>위협 방지
 
-Microsoft 365 Business Premium으로 마이그레이션한 후 Office 365 ATP가 있습니다. 개요는 [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) 를 참조 하세요. 설정 하려면 [atp 안전한 링크 설정](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa), [atp 안전한 첨부 파일 설정](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)및 [atp 피싱 방지 설정을](https://support.office.com/article/86c425e1-1686-430a-9151-f7176cce4f2c)참조 하세요.
+Microsoft 365 Business Premium으로 마이그레이션한 후 Office 365 ATP가 있습니다. 개요는 [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) 를 참조 하세요. 설정 하려면 [atp 안전한 링크 설정](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa), [atp 안전한 첨부 파일 설정](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)및 [atp 피싱 방지 설정을](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)참조 하세요.
 
 ### <a name="sensitivity-labels"></a>민감도 레이블
 
-민감도 레이블 사용을 시작 하려면 [민감도 레이블 개요](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) 및 [create and manage 민감도 레이블](https://support.office.com/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) 비디오를 참조 하세요.
+민감도 레이블 사용을 시작 하려면 [민감도 레이블 개요](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) 및 [create and manage 민감도 레이블](https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) 비디오를 참조 하세요.

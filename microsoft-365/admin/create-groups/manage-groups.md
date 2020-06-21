@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: 그룹 구성원 제거, 전자 메일 주소, 그룹 이름 또는 설명 편집, 그룹 작동 방식 사용자 지정 등 Microsoft 365 그룹을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 332d0dce46b94a3b69169183afb0c75ec537af8c
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: ba88e35713e889ca85a264b1da1d34d9e1e30671
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049206"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780652"
 ---
 # <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 그룹 관리
 
@@ -194,7 +194,7 @@ ms.locfileid: "44049206"
 
 [Microsoft 365 그룹 만들기](create-groups.md)
 
-[Microsoft 365 그룹에 대 한 게스트 액세스 관리](https://support.office.com/article/adding-guests-to-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)
+[Microsoft 365 그룹에 대 한 게스트 액세스 관리](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 
 [Microsoft 365 그룹을 만들 때 사용할 도메인 선택](choose-domain-to-create-groups.md)
 

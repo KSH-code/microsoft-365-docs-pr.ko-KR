@@ -13,14 +13,14 @@ localization_priority: Normal
 search.appverid: ''
 ms.collection:
 - M365-security-compliance
-description: 위협 탐색기 및 실시간 검색 보고서를 사용 하 여 보안 & 준수 센터에서 위협을 조사 및 대응 하는 방법에 대해 알아봅니다.
+description: 위협 탐색기 및 실시간 검색 보고서를 사용 하 여 보안 및 준수 센터에서 위협을 조사 및 대응 하는 방법에 대해 알아봅니다 &amp; .
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 824fde8d6f6a03dd61a46d1f0ccc08c93b85adf8
-ms.sourcegitcommit: 76edb413cbd7436252075ea7e314f5e1d07d8d55
+ms.openlocfilehash: ae063cdcbd3d9b5d371e64513c90ff46503ec982
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44267194"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819476"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색의 보기
 

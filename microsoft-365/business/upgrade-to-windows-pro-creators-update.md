@@ -26,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: Windows 장치를 Windows 10 Pro로 업그레이드 하 여 고급 보안 및 비즈니스 네트워킹 기능을 활용 하는 방법을 알아봅니다.
-ms.openlocfilehash: c982f59ded0b0d2e1cd321f5856b38bd792eebed
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 24ef1f1547ed8873ed1fa18120eef6275f53c7dc
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403533"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785533"
 ---
 # <a name="upgrade-windows-devices-to-windows-10-pro"></a>Windows를 Windows 10 Pro로 업그레이드
 
@@ -39,7 +39,7 @@ Windows 장치를 Windows 10 Pro로 업그레이드 하는 방법에 대 한 간
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3t58j] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
 
 ## <a name="upgrade-to-windows-10-pro"></a>Windows 10 Pro로 업그레이드
   
@@ -62,4 +62,4 @@ Android 및 iOS 장치 설정을 완료 하려면 [비즈니스용 windows 365 �
   
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>비즈니스를 위한 Microsoft 365 설정 및 사용에 대 한 자세한 내용은
 
-[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business 교육 비디오](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

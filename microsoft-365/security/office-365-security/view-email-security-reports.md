@@ -1,5 +1,5 @@
 ---
-title: 전자 메일 보안 보고서 보기 보안 & 준수 센터, 손상 된 사용자, 암호화, 위협 방지 상태, 맬웨어 감지, 상위 맬웨어, 스팸 감지, 보낸 날짜, 받은 전자 메일, 사용자가 보고 한 메시지, 읽기 보고서, 검색, 보안 데이터, 보안 정보
+title: 보안 및 준수 센터의 전자 메일 보안 보고서 보기
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -17,12 +17,13 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: 조직의 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 & 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
-ms.openlocfilehash: 6fc77696625fb11d4ebfc6f339939c751c7a45f2
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: dfee1fa2c6e515bfc10ed7a633584c54763fdec4
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44613459"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819464"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>보안 및 준수 센터의 전자 메일 보안 보고서 보기
 

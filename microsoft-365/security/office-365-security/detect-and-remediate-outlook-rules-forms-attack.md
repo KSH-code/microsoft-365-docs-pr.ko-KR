@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격을 인지하고 재구성하는 방법 알아보기
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5d8c4495715ef29e1d9b70b993d1216e80461cf7
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: f9b5551b8cbda85ac3940bc8f43ec2d7b7eccdb1
+ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44613387"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44811053"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성
 
@@ -101,7 +101,7 @@ ms.locfileid: "44613387"
 
 1. 사용자로 사용자 Outlook 클라이언트를 엽니다. 사용자는 사서함에 대한 규칙을 확인하는 데 도움이 필요할 수 있습니다.
 
-2. Outlook에서 규칙 인터페이스를 여는 방법에 대한 절차는 [규칙을 사용하여 전자 메일 메시지 관리](https://support.office.com/article/c24f5dea-9465-4df4-ad17-a50704d66c59) 문서를 참조하세요.
+2. Outlook에서 규칙 인터페이스를 여는 방법에 대한 절차는 [규칙을 사용하여 전자 메일 메시지 관리](https://support.microsoft.com/office/c24f5dea-9465-4df4-ad17-a50704d66c59) 문서를 참조하세요.
 
 3. 사용자가 만들지 않은 규칙 또는 의심스러운 이름을 사용하여 예기치 않은 규칙이나 규칙을 찾습니다.
 
@@ -113,7 +113,7 @@ ms.locfileid: "44613387"
 
 1. 사용자로 사용자 Outlook 클라이언트를 엽니다.
 
-2. 사용자 버전의 Outlook에서의 [개발자 탭을 표시](https://support.office.com/article/e1192344-5e56-4d45-931b-e5fd9bea2d45)에 나와 있는 단계를 따릅니다.
+2. 사용자 버전의 Outlook에서의 [개발자 탭을 표시](https://support.microsoft.com/office/e1192344-5e56-4d45-931b-e5fd9bea2d45)에 나와 있는 단계를 따릅니다.
 
 3. Outlook에서 현재 표시되는 개발자 탭을 열고 **양식 디자인**을 클릭합니다.
 
@@ -159,7 +159,7 @@ ms.locfileid: "44613387"
 
 1. 사용자가 Outlook에서 사용한 모든 장치를 확인합니다. 이들 장치 모두에서 잠정 맬웨어를 청소해야 합니다. 모든 장치를 청소할 때 까지는 사용자가 로그온 하고 전자 메일을 사용하지 않도록 합니다.
 
-2. 각 장치에 대한 [규칙 삭제](https://support.microsoft.com/en-us/office/delete-a-rule-2f0e7139-f696-4422-8498-44846db9067f)에 있는 단계를 따릅니다.
+2. 각 장치에 대한 [규칙 삭제](https://support.microsoft.com/office/2f0e7139-f696-4422-8498-44846db9067f)에 있는 단계를 따릅니다.
 
 3. 다른 맬웨어의 존재 여부가 확실하지 않은 경우 장치의 모든 소프트웨어를 포맷하고 다시 설치할 수 있습니다. 모바일 장치의 경우 제조업체의 단계에 따라 장치를 출하 이미지로 재설정할 수 있습니다.
 
@@ -177,7 +177,7 @@ ms.locfileid: "44613387"
 
 2. 사서함의 단일 규칙, 여러 규칙 또는 모든 규칙을 완전히 제거하려면 [InboxRule 제거](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule) cmdlet을 사용합니다.
 
-3. 추가 조사를 위해 규칙과 해당 콘텐츠를 보존하려면 [InboxRule 비활성화](https:https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule/library/dd298120(v=exchg.160).aspx) cmdlet을 사용합니다.
+3. 추가 조사를 위해 규칙과 해당 콘텐츠를 보존하려면 [InboxRule 비활성화](https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule) cmdlet을 사용합니다.
 
 #### <a name="steps-for-mailboxes-in-exchange-online"></a>Exchange Online의 사서함에 대한 단계
 
@@ -185,7 +185,7 @@ ms.locfileid: "44613387"
 
 2. 사서함의 단일 규칙, 여러 규칙 또는 모든 규칙을 완전히 제거하려면 [받은 편지함 제거 규칙](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule) cmdlet을 사용합니다.
 
-3. 추가 조사를 위해 규칙과 해당 콘텐츠를 보존하려면 [InboxRule 비활성화](https:https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule/library/dd298120(v=exchg.160).aspx) cmdlet을 사용합니다.
+3. 추가 조사를 위해 규칙과 해당 콘텐츠를 보존하려면 [InboxRule 비활성화](https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule) cmdlet을 사용합니다.
 
 ## <a name="how-to-minimize-future-attacks"></a>미래의 공격을 최소화하는 방법
 
@@ -207,7 +207,7 @@ ms.locfileid: "44613387"
 
 ### <a name="second-keep-your-outlook-clients-current"></a>두 번째: Outlook 클라이언트를 최신 상태로 유지
 
-완벽하게 업데이트되고 패치가 적용된 Outlook 2013과 2016은 "응용 프로그램 시작" 규칙/양식 작업은 기본적으로 사용하지 않도록 설정합니다. 이렇게 하면 공격자가 계정을 침해하더라도 규칙과 양식 작업이 차단됩니다. [Office 업데이트 설치](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5)단계를 따라 최신 업데이트 및 보안 패치를 설치할 수 있습니다.
+완벽하게 업데이트되고 패치가 적용된 Outlook 2013과 2016은 "응용 프로그램 시작" 규칙/양식 작업은 기본적으로 사용하지 않도록 설정합니다. 이렇게 하면 공격자가 계정을 침해하더라도 규칙과 양식 작업이 차단됩니다. [Office 업데이트 설치](https://support.microsoft.com/office/2ab296f3-7f03-43a2-8e50-46de917611c5)단계를 따라 최신 업데이트 및 보안 패치를 설치할 수 있습니다.
 
 다음은 Outlook 2013 및 2016 클라이언트용 패치 버전입니다.
 
@@ -225,7 +225,7 @@ ms.locfileid: "44613387"
 
 패치 및 업데이트가 설치되어 있더라도 공격자가 로컬 컴퓨터 구성을 변경하여 "응용 프로그램 시작" 동작을 다시 사용하도록 설정할 수 있습니다. [고급 그룹 정책 관리](https://docs.microsoft.com/microsoft-desktop-optimization-pack/agpm/)를 사용하여 클라이언트에서 로컬 컴퓨터 정책을 모니터링하고 적용할 수 있습니다.
 
-[64 비트 버전의 Windows를 사용하여 시스템 레지스트리를 보는 방법](https://support.microsoft.com/help/305097/how-to-view-the-system-registry-by-using-64-bit-versions-of-windows)의 정보를 사용하여 "시작 응용 프로그램"이 레지스트리에 오버라이드를 통해 다시 사용하도록 설정되었는지 확인할 수 있습니다. 다음의 하위 키를 확인합니다:
+[64 비트 버전의 Windows를 사용하여 시스템 레지스트리를 보는 방법](https://support.microsoft.com/help/305097)의 정보를 사용하여 "시작 응용 프로그램"이 레지스트리에 오버라이드를 통해 다시 사용하도록 설정되었는지 확인할 수 있습니다. 다음의 하위 키를 확인합니다:
 
 - **Outlook 2016**: `HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Security\`
 

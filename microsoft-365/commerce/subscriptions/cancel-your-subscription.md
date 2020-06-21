@@ -22,12 +22,12 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Microsoft 365에서 비즈니스 평가판 또는 유료 구독을 취소 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 863bb9c5cd6a6c9468715f02df6b40e91859ca27
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3f60792446b468aaa5c85d03ab761fd75e607b8b
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403297"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818522"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
 
@@ -101,7 +101,7 @@ ms.locfileid: "44403297"
   
 - **관리자 액세스 권한** 관리자는 계속 해 서 관리자 센터에 로그인 하 고 액세스할 수 있으며, 필요에 따라 다른 구독을 구입할 수도 있습니다. 전역 또는 대금 청구 관리자는 90 일 이내에 모든 데이터를 그대로 사용 하 여 [구독을 다시 활성화할](reactivate-your-subscription.md) 수 있습니다.
 
-- **사용자 액세스** 사용자가 비즈니스용 OneDrive와 같은 서비스를 사용할 수 없거나 팀 사이트의 전자 메일 또는 문서와 같은 고객 데이터에 액세스 하지 못할 수도 있습니다. Word 및 Excel 등의 Office 응용 프로그램은 읽기 전용 상태가 되어 기능 제한 모드로 실행되며 [사용 허가되지 않은 제품 알림](https://support.office.com/article/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx)을 표시합니다.
+- **사용자 액세스** 사용자가 비즈니스용 OneDrive와 같은 서비스를 사용할 수 없거나 팀 사이트의 전자 메일 또는 문서와 같은 고객 데이터에 액세스 하지 못할 수도 있습니다. Word 및 Excel 등의 Office 응용 프로그램은 읽기 전용 상태가 되어 기능 제한 모드로 실행되며 [사용 허가되지 않은 제품 알림](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx)을 표시합니다.
 
 자세한 내용은 [내 데이터 및 액세스에 대 한 어떻게 해야 합니까? 구독이 종료 됩니까?](what-if-my-subscription-expires.md) 를 참조 하세요.
 
@@ -138,13 +138,13 @@ ms.locfileid: "44403297"
 
 취소가 효과적일 때 사용자는 자신의 데이터에 대 한 액세스 권한을 잃게 됩니다. 구독을 취소 하기 전에 비즈니스용 OneDrive 또는 SharePoint Online 파일을 다른 위치에 저장 하도록 합니다. 뒤에 남겨 둔 모든 고객 데이터는 30 일 후에 삭제 될 수 있으며, 취소 후에는 180 일 이내에 삭제 됩니다.
 
-- 전자 메일, 연락처, 작업 및 일정 정보를 다른 계정으로 이동하려면 [전자 메일, 연락처, 일정을 Outlook .pst 파일로 내보내기 또는 백업](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx)을 참조하세요.
+- 전자 메일, 연락처, 작업 및 일정 정보를 다른 계정으로 이동하려면 [전자 메일, 연락처, 일정을 Outlook .pst 파일로 내보내기 또는 백업](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx)을 참조하세요.
 
 - SharePoint Online 환경(비즈니스용 OneDrive 또는 팀 사이트)의 문서 라이브러리나 목록 콘텐츠(예: 연락처)를 파일 공유 또는 로컬 컴퓨터에 저장하려면 [SharePoint Online 콘텐츠 수동 마이그레이션](https://support.microsoft.com/kb/2783484)을 참조하세요.
 
 ### <a name="uninstall-office-optional"></a>Office 제거 (선택 사항)
 
-구독을 취소 했 고 사용자를 Microsoft 365이 포함 된 다른 구독으로 이동 하지 않은 경우 Microsoft 365는 기능 제한 모드로 실행 됩니다. 이 경우 사용자는 문서를 읽고 인쇄할 수 있을 뿐 이며, Microsoft 365 응용 프로그램은 허가 되지 않은 [제품 알림을](https://support.office.com/article/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx)표시 합니다. 혼동을 방지하기 위해 사용자가 해당 컴퓨터에서 [Office를 제거](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx)하도록 하세요.
+구독을 취소 했 고 사용자를 Microsoft 365이 포함 된 다른 구독으로 이동 하지 않은 경우 Microsoft 365는 기능 제한 모드로 실행 됩니다. 이 경우 사용자는 문서를 읽고 인쇄할 수 있을 뿐 이며, Microsoft 365 응용 프로그램은 허가 되지 않은 [제품 알림을](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx)표시 합니다. 혼동을 방지하기 위해 사용자가 해당 컴퓨터에서 [Office를 제거](https://support.microsoft.com/office/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx)하도록 하세요.
 
 ## <a name="related-articles"></a>관련 문서
 

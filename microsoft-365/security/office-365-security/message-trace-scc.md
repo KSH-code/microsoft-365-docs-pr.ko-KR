@@ -10,17 +10,19 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
+ms.custom:
+- seo-marvel-apr2020
 description: 관리자는 보안 & 준수 센터에서 메시지 추적을 사용 하 여 메시지에 대 한 변경 내용을 확인할 수 있습니다.
-ms.openlocfilehash: 816f81b2339c8edb1317dcf517c10d5b8325941d
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: cb24b9a5f5540f1858ac17b5b4ec3de0c77b47d1
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352501"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819343"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>보안 및 준수 센터의 메시지 추적
 
-## <a name="overview"></a>개요
+## <a name="message-trace-features"></a>메시지 추적 기능
 
 보안 & 준수 센터의 메시지 추적은 Exchange Online 조직에서 이동 하는 전자 메일 메시지를 따릅니다. 서비스가 메시지를 수신, 거부, 지연 또는 배달 했는지 여부를 확인할 수 있습니다. 또한 최종 상태에 도달 하기 전에 메시지에 대해 수행 된 작업을 보여 줍니다.
 
@@ -230,7 +232,7 @@ ms.locfileid: "44352501"
 
 - **sender_address**: 보낸 사람의 전자 메일 주소 (*별칭* @ *도메인*)입니다.
 
-- **Recipient_status**: 받는 사람에 대 한 메시지 배달 상태입니다. 메시지가 여러 받는 사람에 게 전송 되 면 \< *전자 메일 주소* \> ## \< *상태* \> 와 같은 형식으로 모든 받는 사람과 해당 상태가 표시 됩니다. 예시:
+- **Recipient_status**: 받는 사람에 대 한 메시지 배달 상태입니다. 메시지를 여러 받는 사람에 게 보낸 경우에는 다음 형식으로 모든 받는 사람과 해당 상태를 표시 합니다 \<*email address*\> ## \<*status*\> . 예시:
 
   - **# #Receive, Send** 는 서비스에서 메시지를 받았으며 의도 한 대상으로 전송 되었음을 의미 합니다.
 

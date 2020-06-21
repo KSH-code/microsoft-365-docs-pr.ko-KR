@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: 삭제 된 Microsoft 365 그룹을 복원 하는 방법을 알아봅니다.
-ms.openlocfilehash: 24e5159dd85ab6ede324b3981e3e592f1c2ead70
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: d7cf548816af1661298458f27c704d654845075d
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400692"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818510"
 ---
 # <a name="restore-a-deleted-group"></a>삭제 된 그룹 복원
 
@@ -56,9 +56,9 @@ ms.locfileid: "44400692"
 
 - Yammer 그룹 및 그룹 콘텐츠 (Yammer에서 Microsoft 365 그룹이 만들어진 경우)
 
-## <a name="restore-a-group-that-you-own-by-using-outlook"></a>Outlook을 사용 하 여 소유한 그룹 복원
+## <a name="restore-a-group-that-you-own-by-using-outlook-on-the-web"></a>웹에서 Outlook을 사용 하 여 소유한 그룹 복원
 
-Microsoft 365 그룹의 소유자 인 경우 다음 단계를 수행 하 여 Outlook에서 그룹을 직접 복원할 수 있습니다.
+Microsoft 365 그룹의 소유자 인 경우 다음 단계를 수행 하 여 웹용 Outlook에서 그룹을 직접 복원할 수 있습니다.
 
 1. 삭제 된 [그룹 페이지](https://outlook.office.com/people/group/deleted)에서 **그룹** 노드 아래의 **그룹 관리** 옵션을 선택한 다음 **삭제**를 선택 합니다.
 
@@ -96,7 +96,7 @@ Get-AzureADMSDeletedGroup
 Remove-AzureADMSDeletedDirectoryObject -Id <objectId>
 ```
 
-그룹이 제거되었는지 확인하려면  *Get-AzureADMSDeletedGroup*  cmdlet을 다시 실행하여 그룹이 소프트 삭제된 그룹 목록에 더 이상 나타나지 않는지 확인합니다. 일부 경우 그룹 및 모든 해당 데이터가 영구적으로 삭제되는 데 24시간이 걸릴 수도 있습니다. 
+To confirm that the group has been successfully purged, run the  *Get-AzureADMSDeletedGroup*  cmdlet again to confirm that the group no longer appears on the list of soft-deleted groups. In some cases it may take as long as 24 hours for the group and all of its data to be permanently deleted. 
   
 ## <a name="got-questions-about-microsoft-365-groups"></a>Microsoft 365 그룹에 대 한 질문이 있나요?
 
@@ -108,6 +108,6 @@ Remove-AzureADMSDeletedDirectoryObject -Id <objectId>
   
 [Remove-UnifiedGroup cmdlet을 사용하여 그룹 삭제](https://technet.microsoft.com/library/mt238270%28v=exchg.160%29.aspx)
   
-[그룹에 연결된 팀 사이트 설정 관리](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42.aspx)
+[그룹에 연결된 팀 사이트 설정 관리](https://support.microsoft.com/office/8376034d-d0c7-446e-9178-6ab51c58df42)
   
-[Outlook에서 그룹 삭제](https://support.office.com/article/ca7f5a9e-ae4f-4cbe-a4bc-89c469d1726f.aspx)
+[Outlook에서 그룹 삭제](https://support.microsoft.com/office/ca7f5a9e-ae4f-4cbe-a4bc-89c469d1726f)

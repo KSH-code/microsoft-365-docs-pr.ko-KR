@@ -15,12 +15,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: 조직 외부의 사용자와 공동 작업용 Microsoft 365을 구성 하는 방법을 알아봅니다.
-ms.openlocfilehash: 5d85b164133d235dce410cd6cbda778588fd093a
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 4d5be2d560017978d08bf9f5b06c9e2011606c6d
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160018"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819415"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>조직 외부의 사용자와 공동 작업
 
@@ -53,11 +53,11 @@ Microsoft 365에서 제공 하는 게스트 공유 설정에 대 한 자세한 �
 
 다른 조직의 여러 게스트가 포함 된 대규모 프로젝트에서 작업 하는 경우 또는 게스트에서 자주 변경 되는 공급 업체 관계가 있는 경우 Azure Active Directory에서 자격 관리를 사용 하 여 게스트 관리를 단순화 하 고 파트너 회사에서 해당 책임을 공유할 수 있습니다. 자세한 내용은 [관리 되는 게스트를 사용 하 여 B2B 엑스트라넷 만들기](b2b-extranet.md) 를 참조 하세요.
 
-## <a name="limit-sharing"></a>제한 공유
+## <a name="limit-sharing"></a>공유 제한
 
 Microsoft 365의 일부 공유 기능이 거 버 넌 스 정책과 충돌 하는 경우 공유 제한 옵션에 대 한 자세한 내용은 [microsoft 365의 공유 제한](microsoft-365-limit-sharing.md) 를 참조 하세요.
 
-## <a name="see-also"></a>참고 항목
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft 365의 파일 공동 작업 소개](https://docs.microsoft.com/sharepoint/intro-to-file-collaboration)
 

@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: a6f7f9ad-e3f5-43de-ade5-e5a0d7531604
 description: 사용자가 조직을 떠날 때 직원의 파일 및 전자 메일을 보존 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 13cc1117c52a45f4ec1389d2e8b9f0189f4730e1
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 32f64efb30acb5438e5add8bcb897200951e6362
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44431716"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780616"
 ---
 # <a name="get-access-to-and-back-up-a-former-users-data"></a>액세스 권한 받기 및 이전 사용자 데이터 백업
 
@@ -44,7 +44,7 @@ ms.locfileid: "44431716"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..  
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.  
     
 2. 사용자를 선택 합니다.
 
@@ -60,7 +60,7 @@ ms.locfileid: "44431716"
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..  
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.  
 
 2. 사용자를 선택 합니다.
 
@@ -76,7 +76,7 @@ ms.locfileid: "44431716"
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
 
 2. 사용자를 선택 합니다.
 
@@ -141,7 +141,7 @@ ms.locfileid: "44431716"
 
 이전 직원의 전자 메일 메시지, 일정, 작업 및 연락처를 저장 하려면 해당 정보를 Outlook 데이터 파일 (.pst)로 내보냅니다.
   
-1. Outlook에 [이전 직원의 전자 메일을 추가](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) 합니다 ( [사용자 암호를 다시 설정 하는](reset-passwords.md)경우에만 알고 있는 항목으로 설정할 수 있음).
+1. Outlook에 [이전 직원의 전자 메일을 추가](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) 합니다 ( [사용자 암호를 다시 설정 하는](reset-passwords.md)경우에만 알고 있는 항목으로 설정할 수 있음).
     
 2. Outlook에서 **파일**을 선택 합니다.
     
@@ -181,7 +181,7 @@ ms.locfileid: "44431716"
     
   - 암호로 보호 되는 기존 Outlook 데이터 파일 (.pst)로 내보내는 경우 **Outlook 데이터 파일 암호** 대화 상자에 *암호*를 입력 하 고 **확인**을 선택 합니다.
     
-Outlook 2010에서 [전자 메일, 연락처 및 일정을 outlook .pst 파일로 내보내거나 백업](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx) 하는 방법을 참조 하세요. 
+Outlook 2010에서 [전자 메일, 연락처 및 일정을 outlook .pst 파일로 내보내거나 백업](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91) 하는 방법을 참조 하세요. 
   
   
   > [!NOTE]

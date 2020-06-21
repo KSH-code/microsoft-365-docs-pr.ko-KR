@@ -22,12 +22,12 @@ search.appverid:
 - BEA160
 ms.assetid: a1da52c9-2167-4973-9e6d-492314a79b87
 description: Microsoft 365 요금제를 변경 하기 전에 Outlook, OneDrive, Yammer 및 SharePoint 콘텐츠를 백업 합니다.
-ms.openlocfilehash: b7a29912416bd659f2e0dd40c7aa6b9f6309676e
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 9acc97f65bb5b471cb992d7f01cd299192b74a52
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403621"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818534"
 ---
 # <a name="back-up-data-before-switching-microsoft-365-for-business-plans"></a>Microsoft 365 for business 요금제를 전환 하기 전에 데이터 백업
 
@@ -35,13 +35,13 @@ ms.locfileid: "44403621"
   
 ## <a name="save-a-copy-of-outlook-information"></a>Outlook 정보 복사본 저장
 
-사용자가 Outlook을 사용할 경우 요금제가 전환 되기 전에 [전자 메일, 연락처 및 일정을 outlook .pst 파일로 내보내거나 백업할](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91) 수 있습니다.
+사용자가 Outlook을 사용할 경우 요금제가 전환 되기 전에 [전자 메일, 연락처 및 일정을 outlook .pst 파일로 내보내거나 백업할](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91) 수 있습니다.
   
-새 요금제로 전환이 완료 되 면 사용자는 [Outlook .pst 파일에서 전자 메일, 연락처 및 일정을 가져올](https://support.office.com/article/431a8e9a-f99f-4d5f-ae48-ded54b3440ac)수 있습니다.
+새 요금제로 전환이 완료 되 면 사용자는 [Outlook .pst 파일에서 전자 메일, 연락처 및 일정을 가져올](https://support.microsoft.com/office/431a8e9a-f99f-4d5f-ae48-ded54b3440ac)수 있습니다.
   
 ## <a name="save-files-stored-in-onedrive-for-business"></a>비즈니스용 OneDrive에 저장 된 파일 저장
 
-사용자는 다른 구독으로 전환 되기 전에 [OneDrive 또는 SharePoint에서 파일 및 폴더](https://support.office.com/article/5c7397b7-19c7-4893-84fe-d02e8fa5df05) 를 컴퓨터의 하드 드라이브에 있는 폴더 또는 조직의 네트워크에 있는 파일 공유와 같은 다른 위치에 다운로드할 수 있습니다.
+사용자는 다른 구독으로 전환 되기 전에 [OneDrive 또는 SharePoint에서 파일 및 폴더](https://support.microsoft.com/office/5c7397b7-19c7-4893-84fe-d02e8fa5df05) 를 컴퓨터의 하드 드라이브에 있는 폴더 또는 조직의 네트워크에 있는 파일 공유와 같은 다른 위치에 다운로드할 수 있습니다.
   
 ## <a name="save-yammer-information"></a>Yammer 정보 저장
 

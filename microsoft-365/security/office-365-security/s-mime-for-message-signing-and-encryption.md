@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
 description: 관리자는 Exchange Online의 S/MIME (Secure/다목적 Internet Mail Extensions)를 사용 하 여 전자 메일을 암호화 하 고 디지털 서명을 하는 방법에 대해 알아볼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cf9859240914e078eb62b0e914f8de79cf647f2d
-ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
+ms.openlocfilehash: 95bbab5161f9e4133223a247f8937c68f29c0590
+ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44224676"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44811017"
 ---
 # <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>Exchange Online의 메시지 서명 및 암호화를 위한 S/MIME
 
@@ -40,7 +40,7 @@ Exchange Online 관리자로 서 조직의 사서함에 대해 S/MIME 기반 보
 
 이러한 각 끝점에 대해 S/MIME을 설정 하기 위해 수행 하는 단계는 약간 다릅니다. 일반적으로는 다음 단계를 수행 해야 합니다.
 
-1. S/MIME 인증서를 발급하도록 Windows 기반 인증 기관을 설치하고 공개 키 인프라를 설정합니다. 타사 인증서 공급자가 발급한 인증서도 지원됩니다. 자세한 내용은 [Active Directory 인증서 서비스 개요](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831740(v=ws.11))를 참조하세요.
+1. Install a Windows-based Certification Authority and set up a public key infrastructure to issue S/MIME certificates. Certificates issued by third-party certificate providers are also supported. For details, see [Active Directory Certificate Services Overview](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831740(v=ws.11)).
 
 2. **UserSMIMECertificate** 및/또는 **UserCertificate** 특성의 온-프레미스 AD DS 계정에 사용자 인증서를 게시 합니다.
 
@@ -51,7 +51,7 @@ Exchange Online 관리자로 서 조직의 사서함에 대해 S/MIME 기반 보
 5. S/MIME을 사용하도록 Outlook 또는 EAS 끝점을 설정합니다.
 
 > [!NOTE]
-> Mac, iOS, Android 또는 기타 비 Windows 장치에서는 Outlook에서 S/MIME 컨트롤을 설치할 수 없습니다. 자세한 내용은 [웹용 Outlook에서 S/MIME을 사용 하 여 메시지 암호화](https://support.microsoft.com/en-us/office/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480)를 참조 하세요.
+> Mac, iOS, Android 또는 기타 비 Windows 장치에서는 Outlook에서 S/MIME 컨트롤을 설치할 수 없습니다. 자세한 내용은 [웹용 Outlook에서 S/MIME을 사용 하 여 메시지 암호화](https://support.microsoft.com/office/878c79fc-7088-4b39-966f-14512658f480)를 참조 하세요.
 
 ## <a name="setup-smime-with-outlook-on-the-web"></a>웹에서 Outlook을 사용 하 여 S/MIME 설정
 

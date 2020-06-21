@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
 description: 몇 가지 간단한 단계 만으로 개인 회사 파일 및 중요 한 회사 파일을 비즈니스용 OneDrive로 이동할 수 있는 방법을 알아봅니다.
-ms.openlocfilehash: ec225eb43d79bebaa7035178d4d1751c58149e7a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 561c9dee1080a50dea695f136df10be8e5d52959
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401365"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785915"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>비즈니스용 OneDrive로 파일 이동
 
@@ -37,7 +37,7 @@ ms.locfileid: "44401365"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/d74b083c-1f44-43ea-8a14-2e1fc600b341] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
 
 
 ## <a name="move-files-to-onedrive-for-business"></a>비즈니스용 OneDrive로 파일 이동
@@ -50,8 +50,8 @@ ms.locfileid: "44401365"
     
 3. 메뉴 모음에서 **업로드**![Upload](../media/d9b963b8-10af-42e2-953d-360301b83d3c.png)를 선택하고 저장하려는 파일을 찾습니다. 
     
-사용자 프로필과 중요 파일을 전송하려면 ForensiT과 같은 타사 도구를 사용할 수도 있습니다. 결과 파일도 비즈니스용 OneDrive에서 업로드해야 합니다.
+To transfer the user profile and important files, you can also use a third-party tool, such as ForensiT. You should upload the resulting files in OneDrive for Business also.
   
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>비즈니스를 위한 Microsoft 365 설정 및 사용에 대 한 자세한 내용은
 
-[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business 교육 비디오](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

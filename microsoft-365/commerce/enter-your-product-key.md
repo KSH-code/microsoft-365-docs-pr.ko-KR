@@ -25,19 +25,19 @@ description: 소매점 스토어에서 구입한 Microsoft 365 Business Standard
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: de0a45fe35a53d166eb8d587a6410f91b69e3288
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 30c10efdadae1828438ea9cba01cda93adaa4f0f
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402169"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818582"
 ---
 # <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Microsoft 365 비즈니스 표준에 대 한 제품 키 입력
 
 소매점 스토어에서 Microsoft 365 Business Standard를 구매한 경우이 문서를 통해 구독을 정품 인증할 수 있습니다. 
   
  **다른 사항이 필요 합니다.**
- **Microsoft 365 제품군 또는 microsoft 365 Personal에 대 한 도움말**을 보려면 [Office와 함께 제품 키 사용](https://support.office.com/article/12a5763a-d45c-4685-8c95-a44500213759.aspx)을 참조 하세요.  
+ **Microsoft 365 제품군 또는 microsoft 365 Personal에 대 한 도움말**을 보려면 [Office와 함께 제품 키 사용](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx)을 참조 하세요.  
  **볼륨 라이선스 고객** Microsoft [Open 라이선스 프로그램](https://go.microsoft.com/fwlink/p/?LinkID=613298)을 통해 비즈니스용 microsoft 365을 구매한 경우 [microsoft에서 구입한 제품 키를 입력](purchases-from-microsoft-open.md)하십시오 문서를 참조 하세요.
   
 ## <a name="activate-a-new-subscription"></a>새 구독 활성화

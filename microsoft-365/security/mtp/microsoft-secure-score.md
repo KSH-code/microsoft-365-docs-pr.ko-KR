@@ -17,12 +17,15 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 383ef5a0ff61b861bd72dc08d7b974ef98592fcc
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-jun2020
+ms.openlocfilehash: a7097bfc9fb4c15408672171b27d577ddfaa9bd5
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173395"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818570"
 ---
 # <a name="microsoft-secure-score-previous-iteration"></a>Microsoft 보안 점수 (이전 이터레이션)
 
@@ -43,7 +46,7 @@ Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 
 
 또한 [Microsoft GRAPH API](https://www.microsoft.com/security/partnerships/graph-security-api)를 통해 권장 사항 및 점수에 액세스할 수 있습니다. [보안 점수 리소스 종류](https://go.microsoft.com/fwlink/?linkid=2092996)에 대해 자세히 알아봅니다.
 
-## <a name="how-it-works"></a>작동 방식
+## <a name="how-your-secure-score-is-calculated"></a>보안 점수가 계산 되는 방식
 
 권장 되는 보안 기능을 구성 하 고, 보고서 보기와 같은 보안 관련 작업을 수행 하거나, 타사 응용 프로그램 또는 소프트웨어를 사용 하 여 개선 작업을 처리 하기 위한 사항이 제공 됩니다. 일부 향상 작업은 완전히 완료 된 경우에만 점수를 제공 하며 일부 장치 또는 사용자에 대해 완료 되 면 일부를 부분 포인트로 지정 합니다.
 
@@ -102,8 +105,8 @@ Microsoft 보안 점수에 액세스할 수 있는 권한을 부여 하려면 Az
 
 Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간의 점수가 분할 되는 방식과 사용할 수 있는 지점을 볼 수 있습니다. 개요 페이지는 또한 전체 점수에 대 한 모든 보기, 벤치 마크 비교를 사용한 보안 점수의 역사적 추세 및 점수를 높이기 위해 수행할 수 있는 향상 작업의 우선 순위를 지정 하는 위치를 제공 합니다.
 
-![보안 점수 홈페이지](../../media/secure-score/homepage-original.png)
-*그림 1: Microsoft 보안 점수 개요 페이지*
+![보안 점수 홈페이지 ](../../media/secure-score/homepage-original.png)
+ *그림 1: Microsoft 보안 점수 개요 페이지*
 
 ## <a name="take-action-to-improve-your-score"></a>점수를 개선 하기 위한 조치 수행
 

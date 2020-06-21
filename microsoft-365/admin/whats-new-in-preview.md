@@ -21,12 +21,12 @@ description: Microsoft 365 관리 센터-이 달에 추가 된 기능에 대해 
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 4e4d47b054b5c6371bb62a3fe0f52c08b0997498
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: d0c32c7f7ac3b2824cd48c0e10085e3d59a16c69
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44587583"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780710"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운 기능
 
@@ -153,19 +153,19 @@ Microsoft 지원 에이전트는 집에서 작업 하는 동안 고객의 사례
 
 #### <a name="for-your-users"></a>사용자의 경우
 
-- [모임 예약](https://support.office.com/article/c61b4f61-ee62-4a06-8bf7-0a1cd302700a)
-- [팀 모임 참가](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
-- [조직 전체 팀 만들기](https://support.office.com/article/create-a-company-wide-team-037bb27a-bcc9-48fe-8d72-44d9482420a3)
-- [게스트와 함께 팀 만들기](https://support.office.com/article/create-a-team-with-guests-11fbb083-52ee-434d-8c6e-63711fdafac7)
-- [팀에 게스트로 참가](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
-- [그룹 전자 메일 주소 만들기](https://support.office.com/article/create-a-company-email-address-ded875f9-a9de-437f-b559-2ae4f235bb2b)
+- [모임 예약](https://support.microsoft.com/office/c61b4f61-ee62-4a06-8bf7-0a1cd302700a)
+- [팀 모임 참가](https://support.microsoft.com/office/078e9868-f1aa-4414-8bb9-ee88e9236ee4)
+- [조직 전체 팀 만들기](https://support.microsoft.com/office/037bb27a-bcc9-48fe-8d72-44d9482420a3)
+- [게스트와 함께 팀 만들기](https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7)
+- [팀에 게스트로 참가](https://support.microsoft.com/office/928d1eef-61e2-49ec-b754-c2fe86b34824)
+- [그룹 전자 메일 주소 만들기](https://support.microsoft.com/office/ded875f9-a9de-437f-b559-2ae4f235bb2b)
 
 #### <a name="for-admins-and-business-owners"></a>관리자 및 비즈니스 소유자의 경우
 
-- [소규모 기업에 원격 작업 강화](https://support.office.com/article/empower-your-small-business-with-remote-work-9b91a85a-39b4-40a6-a590-0f9bea0ba8e6)
-- [원격 중소 기업 실행](https://support.office.com/article/sign-up-for-a-microsoft-subscription-9ac1a0f1-789b-4143-b954-5821d5d89298)
-- [Microsoft Business Basic 등록](https://support.office.com/article/sign-up-for-a-microsoft-subscription-9ac1a0f1-789b-4143-b954-5821d5d89298)
-- [2 단계 로그인 설정](https://support.office.com/article/sign-up-for-a-microsoft-subscription-9ac1a0f1-789b-4143-b954-5821d5d89298)
+- [소규모 기업에 원격 작업 강화](https://support.microsoft.com/office/9b91a85a-39b4-40a6-a590-0f9bea0ba8e6)
+- [원격 중소 기업 실행](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
+- [Microsoft Business Basic 등록](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
+- [2 단계 로그인 설정](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
 
 ## <a name="march-2020"></a>2020년 3월
 
@@ -276,12 +276,12 @@ Howdy, 파트너! (도움을 받을 수 없습니다.) 이번 달에도 업데�
 
 1 월에 릴리스된 중소 기업 관리 교육을 확인 하세요.
 
-- [비즈니스 웹 사이트 만들기](https://support.office.com/article/3325d50e-d131-403c-a278-7f3296fe33a9)
-- [답변 및 도움말 찾기](https://support.office.com/article/7f681212-c649-4a3e-a43b-32b1d1e58988)
-- [도움말 또는 지원 받기](https://support.office.com/article/18948a4c-3eb1-4b30-b1bc-a4cc29eb7655)
-- [사용자 삭제](https://support.office.com/article/6bcdad7b-732a-4260-997a-8c176bc3d9d6)
-- [Microsoft 구독 선택](https://support.office.com/article/b9f7c78e-430f-4117-89ec-2eeb1dced2ca)
-- [Microsoft 365 for business security 개요](https://support.office.com/article/3274b159-a825-46d7-9421-7d6e209389d1)
+- [비즈니스 웹 사이트 만들기](https://support.microsoft.com/office/3325d50e-d131-403c-a278-7f3296fe33a9)
+- [답변 및 도움말 찾기](https://support.microsoft.com/office/7f681212-c649-4a3e-a43b-32b1d1e58988)
+- [도움말 또는 지원 받기](https://support.microsoft.com/office/18948a4c-3eb1-4b30-b1bc-a4cc29eb7655)
+- [사용자 삭제](https://support.microsoft.com/office/6bcdad7b-732a-4260-997a-8c176bc3d9d6)
+- [Microsoft 구독 선택](https://support.microsoft.com/office/b9f7c78e-430f-4117-89ec-2eeb1dced2ca)
+- [Microsoft 365 for business security 개요](https://support.microsoft.com/office/3274b159-a825-46d7-9421-7d6e209389d1)
 
 ## <a name="november-and-december-2019"></a>11 월과 12 월 2019
 

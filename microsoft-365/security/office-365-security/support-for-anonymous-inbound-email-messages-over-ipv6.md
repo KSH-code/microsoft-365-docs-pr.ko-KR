@@ -14,13 +14,15 @@ search.appverid:
 ms.assetid: b68df621-0a5f-4824-8abc-41e0c4fd1398
 ms.collection:
 - M365-security-compliance
+ms.custom:
+- seo-marvel-apr2020
 description: 관리자는 Exchange Online 및 Exchange Online Protection에서 IPv6 원본의 익명 인바운드 전자 메일에 대 한 지원을 구성 하는 방법을 알 수 있습니다.
-ms.openlocfilehash: 86de431f8f46af1c5ddae8ecc91f326c6e3280e6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: fbbcba3631c7b2a7060f07011c119ee973fdf4af
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631220"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818712"
 ---
 # <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-microsoft-365"></a>Microsoft 365에서 i p v 6을 통한 익명 인바운드 전자 메일 지원 추가
 
@@ -48,6 +50,6 @@ Exchange online 사서함 및 독립 실행형 EOP (Exchange Online Protection)�
 
   > 550 5.2.1 서비스를 사용할 수 없음 [contoso.com]에서는 IPv6을 통한 전자 메일을 수락 하지 않습니다.
 
-## <a name="for-more-information"></a>자세한 내용
+## <a name="related-topics"></a>관련 항목
 
 [DKIM으로 서명된 메시지의 유효성 검사 지원](support-for-validation-of-dkim-signed-messages.md)

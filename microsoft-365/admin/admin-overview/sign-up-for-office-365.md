@@ -27,12 +27,12 @@ search.appverid:
 ms.assetid: 9b23c065-eef9-4bf7-acf5-127eb46d5e67
 ROBOTS: NOINDEX
 description: 'Office 365에 대 한 등록 프로세스를 진행 하기 전에 알아야 할 사항에 대해 알아봅니다. '
-ms.openlocfilehash: 3b3212eeb5e95d4be24029a78f9af4d1b02931ce
-ms.sourcegitcommit: a418195dc11e6251ae37e788c102bbaa7087e44e
+ms.openlocfilehash: dd374cd12f4e3a041869d17157e7198445f99e69
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44579172"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780520"
 ---
 # <a name="how-to-sign-up---admin-help"></a>관리자 도움말에 등록 하는 방법
 
@@ -70,7 +70,7 @@ Microsoft 365 for business 요금제를 선택 하는 방법에 대 한 간단�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/906be77d-ded6-48fb-a25f-da110f787282]
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
 
 선택에 도움이 필요하세요? 영업 컨설턴트가 질문에 답변해 드립니다. [모든 제품 비교](https://products.office.com/compare-all-microsoft-office-products?tab=2) 로 이동 하 여 페이지 왼쪽에 나열 된 연락처 지원 옵션 중 하나를 선택 하면 됩니다.
   
@@ -115,9 +115,9 @@ Microsoft 365 for business 요금제를 선택 하는 방법에 대 한 간단�
 
 - **구독을 위한 주소 및 연락처 정보:**
 
-  - 서비스를 사용하는 **국가**. 이 항목은 등록 프로세스 중이라도 나중에 변경하는 것이 **불가능** 하므로 등록 마법사를 다시 시작해야 합니다.
+  - **Country** where the services will be used. You **won't** be able to change this later, even during the sign up process; you'll have to re-start the sign up wizard.
 
-  - 필요한 경우 구독에 대해 연락받을 수 있는 **전자 메일** 및 **전화 번호**. 예를 들어 암호를 잊어버린 경우 Microsoft는 이 정보를 사용하여 임시 암호를 보내 드립니다. 또한 지정한 전자 메일 주소로 청구 정보도 보내 드립니다.
+  - **Email** and **phone number** so we can contact you if needed about your subscription. For example, if you forget your password, we would use this information to send you a temporary one. We also send your billing information to the email address you specify.
 
     > [!NOTE]
     > 여기에 입력 하는 전자 메일 주소는 Microsoft 365 전자 메일 주소 (아래의 로그인 이름)와 다릅니다. 이 주소로 청구 정보도 전송되므로, 비즈니스 전자 메일을 받기에 적합한 주소를 사용하는 것이 좋습니다.
@@ -137,4 +137,4 @@ Microsoft 365 for business 요금제를 선택 하는 방법에 대 한 간단�
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business 교육 비디오](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

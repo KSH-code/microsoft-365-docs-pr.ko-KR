@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: 비즈니스에 대 한 Microsoft 365, 비즈니스를 설정 하는 방법, 그리고 Microsoft 365 for business에서 보호 되는 사용자의 장치 및 Pc를 준비 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a09b7c676f0e095d2a9db16daa56e19fb7a3baae
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 48a103333e101d545d562e7f2e9dd7329686f107
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402009"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44786157"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Microsoft 365 for business 시작
 
@@ -65,7 +65,7 @@ Microsoft 365 for business setup의 개요를 보려면이 비디오를 시청 �
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
 
   
 ### <a name="1-set-up-microsoft-365-for-business-admin"></a>1: Microsoft 365 for business (Admin)를 설정 합니다.
@@ -113,4 +113,4 @@ Microsoft 365 for business setup의 개요를 보려면이 비디오를 시청 �
   
 비즈니스를[위해 microsoft 365로 마이그레이션하기](migrate-to-microsoft-365-business.md) [위한 Microsoft 365을 관리](manage.md)합니다.
 
-[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 
+[Microsoft 365 Business 교육 비디오](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 

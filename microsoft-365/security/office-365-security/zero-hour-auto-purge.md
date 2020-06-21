@@ -21,16 +21,16 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 0 시간 자동 삭제 (ZAP)가 Exchange Online 사서함의 배달 된 메시지를 retroactively에서 정크 메일 폴더로 이동 하는 것을 retroactively 수 있는 격리 또는 피싱 인 것으로 확인 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 643063139f5d65b0271fd14ee5a2d1ca1f42ad1a
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 612ef45194fbf70ef89eee0f455b2d4d8781247f
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208443"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819427"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Exchange Online에서 제로 시간 자동 제거 (ZAP)
 
-## <a name="overview"></a>개요
+## <a name="basic-features-of-zap"></a>ZAP의 기본 기능
 
 Exchange Online의 사서함이 있는 Microsoft 365 조 직에서 제로 시간 자동 삭제 (ZAP)는 retroactively에서 Exchange Online 사서함으로 이미 배달 된 악의적인 피싱, 스팸 또는 맬웨어 메시지를 검색 하 고 neutralizes 하는 전자 메일 보호 기능입니다.
 
@@ -80,7 +80,7 @@ Exchange Online의 사서함이 있는 Microsoft 365 조 직에서 제로 시간
 
 ### <a name="zap-considerations-for-office-365-advanced-threat-protection-office-365-atp"></a>Office 365 Advanced Threat Protection에 대 한 ZAP 고려 사항 (Office 365 ATP)
 
-ZAP은 [동적 배달](dynamic-delivery-and-previewing.md) 검색 프로세스에 포함 된 메시지를 격리 하지 않으며 맬웨어 필터링이 이미 **맬웨어 경고 텍스트인 .txt** 파일로 첨부 파일을 바꿨습니다. 이러한 유형의 메시지에 대 한 피싱 또는 스팸 신호를 수신 하 고 스팸 방지 정책의 필터링 결과 메시지에 대 한 특정 작업을 수행 하도록 설정 된 경우 (정크로 이동, 리디렉션, 삭제, 격리), ZAP은 ' 정크로 이동 ' 작업을 기본으로 합니다.
+ZAP은 [동적 배달](dynamic-delivery-and-previewing.md) 검색 프로세스에 있는 모든 메시지를 격리 하지 않으며, 맬웨어 필터링에서 이미 **맬웨어 경고 Text.txt** 파일로 첨부 파일을 바꿨습니다. 이러한 유형의 메시지에 대 한 피싱 또는 스팸 신호를 수신 하 고 스팸 방지 정책의 필터링 결과 메시지에 대 한 특정 작업을 수행 하도록 설정 된 경우 (정크로 이동, 리디렉션, 삭제, 격리), ZAP은 ' 정크로 이동 ' 작업을 기본으로 합니다.
 
 ## <a name="how-to-see-if-zap-moved-your-message"></a>메시지가 ZAP에서 이동 된 것을 확인 하는 방법
 
@@ -103,10 +103,6 @@ ZAP은이 항목의 앞부분에서 설명한 스팸 방지 정책 구성을 기
 ### <a name="what-if-a-message-is-moved-to-another-folder-eg-inbox-rules"></a>다른 폴더 (예: 받은 편지함 규칙)로 메시지를 이동 하는 경우
 
 메시지가 삭제 되지 않았거나, 동일 하거나 더 강력 하지만 작업이 아직 적용 되지 않은 경우에도 ZAP이 계속 작동 합니다. 예를 들어 피싱 정책이 quarantine로 설정 되어 있고 사용자 또는 관리자가 이미 전자 메일을 junked 하는 경우 격리를 통해 파일을 격리 하는 작업이 수행 됩니다.
-
-### <a name="does-zap-change-the-message-header"></a>ZAP이 메시지 헤더를 변경 합니까?
-
-ZAP 매크로 함수는 메시지 헤더를 변경 하지 않습니다.
 
 ### <a name="how-does-zap-affect-mailboxes-on-hold"></a>ZAP이 보류 중인 사서함에 어떤 영향을 줍니까?
 

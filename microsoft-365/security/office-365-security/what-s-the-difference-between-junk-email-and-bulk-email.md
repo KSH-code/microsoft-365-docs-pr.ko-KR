@@ -1,5 +1,5 @@
 ---
-title: 정크 메일과 대량 전자 메일의 차이점
+title: '&apos;정크 메일과 대량 전자 메일의 차이점은 무엇 인가요?'
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 정크 메일 (스팸) 및 대량 전자 메일 (회색 메일) 간의 차이점에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 6936028aa7bda538f0e49429d22f28c7a78cdb36
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: c1f5ca724f7a41d9fc11ed0c93f52a79a6ecc8e5
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208455"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819439"
 ---
 # <a name="whats-the-difference-between-junk-email-and-bulk-email-in-eop"></a>EOP에서 정크 메일과 대량 전자 메일의 차이점은 무엇 인가요?
 

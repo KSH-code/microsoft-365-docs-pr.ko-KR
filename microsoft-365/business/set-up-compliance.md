@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 규정 준수 기능을 설정 하 여 데이터 손실을 방지 하 고 및 고객의 중요 한 정보를 안전 하 게 유지 합니다.
-ms.openlocfilehash: 9b900367c22ec5bb5c2719af63049045ecd5e466
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 18886ff3a0ba5e99e63c70ef083d7a69c75bac91
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402697"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785835"
 ---
 # <a name="set-up-compliance-features"></a>준수 기능 설정
 
@@ -55,13 +55,13 @@ DLP에는 다양 한 로캘에 대 한 다양 한 사용 가능 정책 템플릿
     
 4. **소송** 보존 대화 상자의 소송 보존 **기간** 필드에 소송 보존 기간을 지정할 수 있습니다. 무기한 유지 하려면 필드를 비워 둡니다. 메모를 추가 하 고 사서함 소유자에 게 소송 보존에 대 한 자세한 내용을 설명 해야 할 수 있는 웹 사이트로 지시할 수도 있습니다. \>**저장**을 합니다.
     
-**보존:** 특정 기간 동안 보존하거나 보존 기간이 끝나면 영구적으로 콘텐츠를 삭제하는 것과 같은 사용자 지정된 보존 정책을 사용하도록 설정할 수 있습니다. 자세한 내용은 [보존 정책 개요](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)를 참조하세요.
+**Retention:** You can enable customized retention policies, for example, to preserve for a specific amount of time or delete content permanently at the end of the retention period. To learn more, see [Overview of retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies).
 
 ## <a name="set-up-sensitivity-labels"></a>민감도 레이블 설정
 
 민감도 레이블은 Azure Information Protection (AIP) 계획 1에 제공 되며, 레이블을 적용 하 여 문서와 전자 메일을 분류 하 고 필요에 따라 보호할 수 있습니다. 규칙 및 조건을 정의 하는 관리자가 사용자에 의해 수동으로 또는 사용자에 게 권장 사항을 제공 하는 조합을 사용 하 여 레이블을 자동으로 적용할 수 있습니다.
 
-민감도 레이블을 설정 하려면 [만들기 및 관리 민감도 레이블](https://support.office.com/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) 비디오를 확인 합니다.
+민감도 레이블을 설정 하려면 [만들기 및 관리 민감도 레이블](https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) 비디오를 확인 합니다.
 
 
 
@@ -69,7 +69,7 @@ DLP에는 다양 한 로캘에 대 한 다양 한 사용 가능 정책 템플릿
 
 AIP 클라이언트를 수동으로 설치하려면
 
-1. [Microsoft 다운로드 센터](https://www.microsoft.com/download/details.aspx?id=53018)에서 **AzinfoProtection_UL** 를 다운로드 합니다.
+1. [Microsoft 다운로드 센터](https://www.microsoft.com/download/details.aspx?id=53018)에서 **AzinfoProtection_UL.exe** 를 다운로드 합니다.
  
 2. Word 문서를 보고 **홈** 탭에서 **민감도** 옵션을 사용할 수 있는지 확인 하 여 설치가 제대로 되었는지 확인할 수 있습니다.
 <br/>![Word 문서의 보호 탭 드롭다운](../media/word-sensitivity.png)

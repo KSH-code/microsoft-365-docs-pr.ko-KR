@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 관리자는 랜 섬 웨어 공격 으로부터 복구 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 29afb66dd90be3917d576a7533900e21a91966c0
-ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
+ms.openlocfilehash: 1471b7b0cacbabaf086e0759e21a46b9cb9929ab
+ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44224712"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44811029"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Microsoft 365에서 랜 섬 웨어 공격 으로부터 복구
 
@@ -42,7 +42,7 @@ ms.locfileid: "44224712"
 
 전자 메일이 대상이 되는 것으로 의심 되는 경우 사서함에 대 한 사용자 액세스를 일시적으로 사용 하지 않도록 설정 해야 합니다. Exchange ActiveSync는 모바일 장치에서 장치와 Exchange Online 사서함 간에 데이터를 동기화 하는 데 사용 됩니다.
 
-사서함에 대해 ActiveSync를 사용 하지 않도록 설정 하려면 [Exchange Online에서 사용자에 대해 Exchange activesync를 사용 하지 않도록 설정 하는 방법을](https://support.microsoft.com/help/2795303/how-to-disable-exchange-activesync-for-users-in-office-365)참조 하세요.
+사서함에 대해 ActiveSync를 사용 하지 않도록 설정 하려면 [Exchange Online에서 사용자에 대해 Exchange activesync를 사용 하지 않도록 설정 하는 방법을](https://support.microsoft.com/help/2795303)참조 하세요.
 
 사서함에 대 한 다른 유형의 액세스를 사용 하지 않도록 설정 하려면 다음을 참조 하세요.
 
@@ -50,7 +50,7 @@ ms.locfileid: "44224712"
 
 - [사용자에 대해 POP3 또는 IMAP4 액세스를 사용 하거나 사용 하지 않도록 설정](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)
 
-OneDrive 동기화를 일시 중지 하면 잠재적으로 감염 된 장치에 의해 클라우드 데이터가 업데이트 되는 것을 방지할 수 있습니다. 자세한 내용은 [OneDrive에서 동기화 일시 중지 및 다시 시작 하는 방법을](https://support.office.com/article/2152bfa4-a2a5-4d3a-ace8-92912fb4421e)참조 하세요.
+OneDrive 동기화를 일시 중지 하면 잠재적으로 감염 된 장치에 의해 클라우드 데이터가 업데이트 되는 것을 방지할 수 있습니다. 자세한 내용은 [OneDrive에서 동기화 일시 중지 및 다시 시작 하는 방법을](https://support.microsoft.com/office/2152bfa4-a2a5-4d3a-ace8-92912fb4421e)참조 하세요.
 
 ## <a name="step-3-remove-the-malware-from-the-affected-devices"></a>3 단계: 영향을 받는 장치에서 맬웨어 제거
 
@@ -60,11 +60,11 @@ OneDrive 동기화를 일시 중지 하면 잠재적으로 감염 된 장치에 
 
 랜 섬 웨어 또는 맬웨어를 제거 하는 데 도움이 되는 또 다른 방법은 [악성 소프트웨어 제거 도구 (MSRT)](https://www.microsoft.com/download/details.aspx?id=9905)입니다.
 
-이러한 옵션이 작동 하지 않으면 [Windows Defender offline](https://support.microsoft.com/help/17466/windows-defender-offline-help-protect-my-pc) 을 시도 하거나 [맬웨어 검색 및 제거 문제를 해결할](https://support.microsoft.com/help/4466982/windows-10-troubleshoot-problems-with-detecting-and-removing-malware)수 있습니다.
+이러한 옵션이 작동 하지 않으면 [Windows Defender offline](https://support.microsoft.com/help/17466) 을 시도 하거나 [맬웨어 검색 및 제거 문제를 해결할](https://support.microsoft.com/help/4466982)수 있습니다.
 
 ## <a name="step-4-recover-files-on-a-cleaned-computer-or-device"></a>4 단계: 치료 된 컴퓨터 또는 장치에서 파일 복구
 
-이전 단계를 완료 하 여 환경에서 랜 섬 웨어 페이로드를 제거한 후 (섬 웨어 파일을 암호화 하거나 제거 하지 못하게 함) windows 10 및 Windows 8.1의 [파일 기록을](https://support.microsoft.com/help/17128/windows-8-file-history) 사용 하 여 로컬 파일 및 폴더 복구를 시도할 수 있습니다.
+이전 단계를 완료 하 여 환경에서 랜 섬 웨어 페이로드를 제거한 후 (섬 웨어 파일을 암호화 하거나 제거 하지 못하게 함) windows 10 및 Windows 8.1의 [파일 기록을](https://support.microsoft.com/help/17128) 사용 하 여 로컬 파일 및 폴더 복구를 시도할 수 있습니다.
 
 **참고:**
 
@@ -74,7 +74,7 @@ OneDrive 동기화를 일시 중지 하면 잠재적으로 감염 된 장치에 
 
 ## <a name="step-5-recover-your-files-in-your-onedrive-for-business"></a>5 단계: 비즈니스용 OneDrive에서 파일 복구
 
-비즈니스용 OneDrive의 파일 복원 기능을 사용 하면 지난 30 일 이내에 이전 시점으로 전체 OneDrive를 복원할 수 있습니다. 자세한 내용은 [OneDrive 복원을](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15)참조 하세요.
+비즈니스용 OneDrive의 파일 복원 기능을 사용 하면 지난 30 일 이내에 이전 시점으로 전체 OneDrive를 복원할 수 있습니다. 자세한 내용은 [OneDrive 복원을](https://support.microsoft.com/office/fa231298-759d-41cf-bcd0-25ac53eb8a15)참조 하세요.
 
 ## <a name="step-6-recover-deleted-email"></a>6 단계: 삭제 된 전자 메일 복구
 
@@ -82,7 +82,7 @@ OneDrive 동기화를 일시 중지 하면 잠재적으로 감염 된 장치에 
 
 - [사용자의 사서함에서 삭제된 메시지 복구](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/recover-deleted-messages)
 
-- [Windows용 Outlook에서 삭제된 항목 복구](https://support.office.com/article/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce)
+- [Windows용 Outlook에서 삭제된 항목 복구](https://support.microsoft.com/office/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce)
 
 ## <a name="step-7-re-enable-exchange-activesync-and-onedrive-sync"></a>7 단계: Exchange ActiveSync 및 OneDrive 동기화 다시 사용
 
@@ -132,11 +132,11 @@ OneDrive 동기화를 일시 중지 하면 잠재적으로 감염 된 장치에 
 
 - [Norsk Hydro 투명도를 사용한 랜 섬 웨어 공격에 응답](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
 
-- [랜 섬 웨어 검색 및 OneDrive에서 파일 복구](https://support.microsoft.com/en-us/office/ransomware-detection-and-recovering-your-files-0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
+- [랜 섬 웨어 검색 및 OneDrive에서 파일 복구](https://support.microsoft.com/office/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
 
 - [Microsoft 보안 인텔리전스 보고서](https://www.microsoft.com/securityinsights/)
 
-- [Office 파일에서 매크로를 사용 하거나 사용 하지 않도록 설정](https://support.office.com/article/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
+- [Office 파일에서 매크로를 사용 하거나 사용 하지 않도록 설정](https://support.microsoft.com/office/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
 
 - [EOP 및 Office 365 ATP 보안에 대 한 권장 설정](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp)
 

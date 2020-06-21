@@ -15,17 +15,19 @@ search.appverid:
 ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
+ms.custom:
+- seo-marvel-apr2020
 description: 새 보안 대시보드를 사용 하 여 Office 365 위협 방지 상태를 검토 하 고 보안 경고를 보고 작동 합니다.
-ms.openlocfilehash: 6aedc0e499a489d7526737700ecc76deab9e6e32
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 3df48685e8068fd80baa4952753a1925fb237422
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44679135"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819451"
 ---
 # <a name="security-dashboard"></a>보안 대시보드
 
-## <a name="overview"></a>개요
+## <a name="basic-functions-and-how-to-open-security-dashboard"></a>기본 기능 및 보안 대시보드를 여는 방법
 
 [보안 & 준수 센터](../../compliance/go-to-the-securitycompliance-center.md) 를 통해 조직에서 데이터 보호 및 규정 준수를 관리할 수 있습니다. 필요한 사용 권한이 있는 경우 보안 대시보드를 사용 하 여 위협 방지 상태를 검토 하 고 보안 경고에 대 한 작업을 수행할 수 있습니다.
 

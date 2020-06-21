@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
 description: 비즈니스를 위해 Microsoft 365을 사용 하 여 조직을 설정 하 고 사용자의 장치에서 작업 데이터를 보호 하기 위한 요구 사항에 대해 알아봅니다.
-ms.openlocfilehash: 1bfa2b2d2ceba68d39da9c65560e67a6602e6cfa
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.openlocfilehash: 237825d2c2683bb6e71ae2fd31f8a25b1aa85ff7
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470970"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785895"
 ---
 # <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-for-business"></a>비즈니스를 위해 Microsoft 365을 사용 하 여 장치의 데이터를 보호 하기 위한 필수 구성 요소
 
@@ -41,7 +41,7 @@ ms.locfileid: "44470970"
     
     [Windows Pro 크리에이터 업데이트로 Windows 장치 업그레이드](upgrade-to-windows-pro-creators-update.md)
     
-    Windows 10 Home을 실행 하는 경우에는 windows 10 Pro를 **구입** 해야 합니다. 지침을 보려면 [windows 10 Home a windows 10 Pro로 업그레이드를](https://support.office.com/article/0aee10c1-4d34-43ee-a325-579c6c2df90e?ui=en-US&rs=en-US&ad=US) 참조 하세요. 
+    Windows 10 Home을 실행 하는 경우에는 windows 10 Pro를 **구입** 해야 합니다. 지침을 보려면 [windows 10 Home a windows 10 Pro로 업그레이드를](https://support.microsoft.com/office/0aee10c1-4d34-43ee-a325-579c6c2df90e) 참조 하세요. 
     
 - 모바일 관리 솔루션에서 장치 제거 (모바일 철, 락 시청 등) 비즈니스 모바일 관리를 위해 Microsoft 365에서 조직의 모든 사용자를 등록 합니다.
     

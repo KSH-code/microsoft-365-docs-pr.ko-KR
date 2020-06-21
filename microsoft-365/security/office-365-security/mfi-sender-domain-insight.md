@@ -10,13 +10,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
+ms.custom:
+- seo-marvel-apr2020
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 보낸 사람 도메인에 대 한 정보를 수정 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: a416b4d15ff52a611f00a88de8440c749ff08ad3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c4cf4a87ad770325ca6ad2f0b87ac8ce52c345c2
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635175"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818834"
 ---
 # <a name="fix-sender-domain-insight"></a>보낸 사람 도메인 정보 문제 해결
 
@@ -28,7 +30,7 @@ Microsoft 365에서는 특정 보안 기준을 충족 하기 위해 내부 온-�
 
 - 구성에서 다음 문 중 하나에 해당 하는 경우:
 
-  - 보낸 사람의 전자 메일 도메인이 조직에 등록 됩니다. 자세한 내용은 Office 365에서 도메인 추가를 참조 하세요.
+  - 보낸 사람의 전자 메일 도메인이 조직에 등록 됩니다. 자세한 내용은 Office 365에서 도메인 추가를 참조하세요.
 
   - 온-프레미스 전자 메일 서버는 인증서를 사용 하 여 microsoft 365에 전자 메일을 보내거나, 인증서가 Microsoft 365에 등록 한 도메인 이름과 정확히 일치 하거나, 해당 도메인을 사용 하 여 Microsoft 365에 인증서 기반 커넥터를 만들었다고 구성 되어 있습니다. 
 
@@ -46,6 +48,6 @@ Microsoft 365에서는 특정 보안 기준을 충족 하기 위해 내부 온-�
 
 ![보낸 사람 도메인 정보 수정에서 예제 메시지 id 보기](../../media/sender-domain-view-sample-message-ids.png)
 
-## <a name="see-also"></a>참고 항목
+## <a name="related-topics"></a>관련 항목
 
 메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.
