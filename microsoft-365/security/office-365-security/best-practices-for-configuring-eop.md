@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: EOP (독립 실행형 Exchange Online Protection)에 대해 직접 설정 하 여 성공적인 작동을 방지 하 고 일반적인 구성 오류가 발생 하지 않도록 하려면 다음과 같은 모범 사례 권장 사항을 따르십시오.
-ms.openlocfilehash: a2ef5d20a79a15e4b1965d352ed0603ac0783121
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: e5e87883e9c8aad21552ebf306a9716f14532884
+ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616725"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44739091"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>독립 실행형 EOP 구성 모범 사례
 
@@ -54,7 +54,7 @@ EOP (독립 실행형 Exchange Online Protection)에 대해 직접 설정 하 �
 |인증 된 SMTP 전송|사용 안 함|사용 안 함|POP3 및 IMAP4 클라이언트에서 전자 메일을 보내려면 인증 된 클라이언트 SMTP 전송 (클라이언트 SMTP 전송 또는 SMTP 인증이 라고도 함)이 필요 합니다.|
 |사서함에 대 한 EWS 연결|사용 안 함|사용 안 함||
 |[PowerShell 연결](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell)|사용 안 함|사용 안 함|사서함 사용자 또는 메일 사용자 ( [Get-user](https://docs.microsoft.com/powershell/module/exchange/get-user) cmdlet에서 반환 된 사용자 개체)에 사용할 수 있습니다.|
-|가능한 경우 [위장 인텔리전스](learn-about-spoof-intelligence.md) 를 사용 하 여 보낸 사람에 게 허용 목록|예|예||
+|[스푸핑 인텔리전스](learn-about-spoof-intelligence.md) 를 사용 하 여 허용 목록에 보낸 사람 추가|예|예||
 |[DBEB (디렉터리 기반 Edge 차단)](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|사용|사용|도메인 유형 = 신뢰할 수 있음|
 |[모든 관리자 계정에 대해 multi-factor authentication 설정](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)|사용|사용||
 |
@@ -71,7 +71,7 @@ EOP (독립 실행형 Exchange Online Protection)에 대해 직접 설정 하 �
 
 비즈니스 요구를 충족 하기 위해 메일 흐름 규칙 (전송 규칙이 라고도 함) 또는 사용자 지정 필터를 만듭니다.
 
-새 규칙을 프로덕션 환경으로 배포할 때는 먼저 테스트 모드 중 하나를 선택하여 규칙의 효과를 확인합니다. 규칙이 원하는 방식으로 작동하면 규칙 모드를 **적용**으로 변경합니다.
+When you deploy a new rule to production, select one of the test modes first to see the effect of the rule. Once you are satisfied that the rule is working in the manner intended, change the rule mode to **Enforce**.
 
 새 규칙을 배포할 때는 적용된 규칙을 모니터링하기 위해 **문제 보고서 생성** 동작을 추가할 수 있습니다.
 

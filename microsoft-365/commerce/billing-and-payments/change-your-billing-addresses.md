@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: 비즈니스용 Microsoft 365에 대 한 대금 청구 주소를 업데이트 하는 방법을 알아봅니다. 또한 대금 청구 알림을 수신 하는 데 사용 되는 전자 메일 주소를 업데이트할 수 있습니다.
-ms.openlocfilehash: 1985299d1ed4388ea8ffa0255935f1ee7c8ac3b7
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6b2da1e947362db432bf036d9799ddef89526030
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401801"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817032"
 ---
 # <a name="change-your-billing-addresses"></a>대금 청구 주소 변경
 
@@ -47,9 +47,9 @@ ms.locfileid: "44401801"
 
 - **청구지 주소** 청구 담당 부서의 주소로, 대개 **구매자** 주소와 동일합니다.
 
-- **서비스 사용 주소** 서비스를 사용 중인 주소로, 대개 **구매자** 주소와 동일합니다. 조직에 원격 사용자나 여러 사무실이 있는 경우 대다수의 사용자가 있는 주소를 사용합니다.
+- **Service Usage Address** The address where the service is being used, usually the same as the **Sold-To** address. If your organization has remote users or multiple offices, use the address where the majority of your users are located.
 
-대부분의 경우 이러한 주소는 동일합니다. 하나 이상의 주소를 변경해야 하는 경우 변경할 수 있습니다. 청구 알림을 받을 대체 전자 메일 주소를 제공하고 다른 관리자의 대체 전자 메일 주소를 변경할 수도 있습니다.
+In most cases, these addresses are the same. If you need to change one or more of the addresses, you can do that. You can also provide an alternate email address to receive billing notifications, and change the alternate email address for other admins.
   
 ::: moniker range="o365-worldwide"
 
@@ -166,7 +166,7 @@ ms.locfileid: "44401801"
 
 기본적으로 조직의 청구 알림은 Microsoft 전자 메일 주소와 조직 내 모든 전역 및 청구 관리자의 대체 전자 메일 주소로 전송 됩니다. 각 관리자는 자신의 프로필 정보를 업데이트하여 자신의 대체 전자 메일 주소를 변경할 수 있습니다.
   
-1. 회사 또는 학교 계정을 전역 관리자로 사용 하 여 Microsoft 365에 로그인 합니다. [로그인 하는 방법을 알아봅니다](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. 회사 또는 학교 계정을 전역 관리자로 사용 하 여 Microsoft 365에 로그인 합니다. [로그인 하는 방법을 알아봅니다](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4).
 
 2. **사용자 아이콘**을 선택한 다음 **내 계정**을 선택 합니다.
   

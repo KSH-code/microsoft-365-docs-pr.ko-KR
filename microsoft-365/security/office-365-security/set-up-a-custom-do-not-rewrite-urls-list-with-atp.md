@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 ATP 안전한 링크 정책의 사용자 그룹에 대 한 사용자 지정 차단 Url을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f4e7067c9edc9bbe2965311a7c203cb16f242f49
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 183291ef5b43248c5ff3d4e63b03a170416119bf
+ms.sourcegitcommit: 3274b65a3932288721541d2b3fa5ecbf4c51e1ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617245"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702539"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-atp-safe-links"></a>ATP 안전한 링크를 사용 하 여 사용자 지정 쓰기 방지 Url 목록 설정
 
@@ -73,13 +73,15 @@ ATP 정책을 편집 하거나 정의 하려면 적절 한 역할을 할당 받�
 
 - "다시 쓰지 않음" 목록에서 지정 하는 Url은 지정 된 받는 사람에 대 한 ATP 안전한 링크 검색에서 제외 됩니다.
 
+- 일반적으로 사용 되는 내부 Url을 "다시 쓰지 않음" 목록에 추가 하 여 사용자 환경을 개선 하는 것이 좋습니다. 예를 들어 비즈니스용 Skype 또는 Sharepoint와 같은 온-프레미스 서비스를 사용 하는 경우 해당 Url을 목록에 추가 하 여 검색에서 제외할 수 있습니다.
+
 - "다시 쓰지 않음" 목록에 이미 Url 목록이 있는 경우 해당 목록을 검토 하 고 와일드 카드를 적절 하 게 추가 해야 합니다. 예를 들어 기존 목록에 항목이 있는 경우 `https://contoso.com/a` 정책에 하위 경로를 포함 하려면 `https://contoso.com/a/b` 항목에 와일드 카드를 추가 하 여 표시 `https://contoso.com/a/*` 합니다.
 
-- ATP 안전한 링크 정책에 대해 "다시 쓰지 않음" 목록을 지정 하는 경우 최대 3 개의 와일드 카드 별표 ()를 포함할 수 있습니다 \* . 와일드 카드 ( \* )는 접두사 또는 하위 도메인을 명시적으로 포함 하는 데 사용 됩니다. 이 항목은 `contoso.com` `*.contoso.com/*` 지정 된 `*.contoso.com/*` 도메인에서 peoples가 하위 도메인과 경로를 방문 하도록 허용 하기 때문입니다.
+- ATP 안전한 링크 정책에 대 한 "다시 쓰지 않음" 목록을 지정 하는 경우 최대 3 개의 와일드 카드 ()를 포함할 수 있습니다 \* . 와일드 카드에 접두사 또는 하위 도메인이 명시적으로 포함 됩니다. 예를 들어 항목은 `contoso.com` `*.contoso.com/*` `*.contoso.com/*` 지정 된 도메인의 하위 도메인과 경로를 방문 하도록 허용 하므로와는 다릅니다.
 
 다음 표에는 입력 가능한 항목과 해당 항목이 갖는 영향에 대 한 예가 나와 있습니다.
 
-|**예제 항목**|**수행 하는 작업**|
+|예제 항목|수행 하는 작업|
 |:-----|:-----|
 |`contoso.com`|받는 사람이 하위 도메인 또는 경로를 제외 하 고 사이트를 방문할 수 있도록 허용 `https://contoso.com` 합니다.|
 |`*.contoso.com/*`|받는 사람이,, 또는 등의 도메인, 하위 도메인과 경로를 방문할 수 있습니다 `https://www.contoso.com` `https://www.contoso.com` `https://maps.contoso.com` `https://www.contoso.com/a` . <br/><br/> 이 항목은 `*contoso.com*` 다음과 같이 잠재적으로 사기성 사이트를 포함 하지 않기 때문에 기본적으로 더 좋습니다. `https://www.falsecontoso.com``https://www.false.contoso.completelyfalse.com`|
