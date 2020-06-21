@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: FAQ에서 질문에 대 한 대답을 찾아 도메인에 대해 자세히 알아보세요.
-ms.openlocfilehash: c82d5d01d64ad01f68d0c1ba73860511aa1718aa
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: a52513130f9bbbf7c4cd25d4c4827e833700d992
+ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398909"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44739160"
 ---
 # <a name="domains-faq"></a>도메인 FAQ
 
@@ -439,7 +439,7 @@ Office 365에서는 서비스에 등록할 때 *contoso.onmicrosoft.de*와 같�
     
 4. 필요에 따라 기존 전자 메일 서버 차단 해제
     
-    1. Office 365에서는 스팸 보호를 위해 EOP (Exchange Online Protection)를 사용 합니다. EOP에서 현재 메일 서버에 의해 전달 되는 대량의 스팸 볼륨이 감지 되 면 전달이 차단 될 수 있으며,이로 인해 착신 전환 되지 않습니다. 다른 전자 메일 공급자가 사용 하는 스팸 방지 기능이 확실 한 경우에는 해당 서버를 Office 365에서 허용 목록 수 있습니다. 그러나 이렇게 하면 원래 서버를 통해 수신 되는 모든 스팸 메일이 Office 365 사서함으로 전달 되 고, Office 365에서 스팸을 차단 하는 정도를 평가할 수 없습니다.
+    1. Office 365에서는 스팸 보호를 위해 EOP (Exchange Online Protection)를 사용 합니다. EOP에서 현재 메일 서버에 의해 전달 되는 대량의 스팸 볼륨이 감지 되 면 전달이 차단 될 수 있으며,이로 인해 착신 전환 되지 않습니다. 다른 전자 메일 공급자가 사용 하는 스팸 방지 기능이 확실 한 경우 Office 365의 허용 목록에 해당 서버를 추가할 수 있습니다. 그러나 이렇게 하면 원래 서버를 통해 수신 되는 모든 스팸 메일이 Office 365 사서함으로 전달 되 고, Office 365에서 스팸을 차단 하는 정도를 평가할 수 없습니다.
     
     2. EAC (Exchange 관리 센터)로 이동 합니다.
         

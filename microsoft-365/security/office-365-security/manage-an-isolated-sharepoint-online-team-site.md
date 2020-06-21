@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 79a61003-4905-4ba8-9e8a-16def7add37c
 description: 격리 된 SharePoint Online 팀 사이트를 관리 하 고, 새 사용자 및 그룹을 추가 하 고, 사용자 및 그룹을 제거 하 고, 사용자 지정 권한으로 문서 하위 폴더를 만듭니다.
-ms.openlocfilehash: 05e3cf742482d34c158e14253eed9d1b99c82995
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 43329aa72b3729200007441ce73838a7d6a60f55
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036635"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755381"
 ---
 # <a name="manage-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 관리
 
@@ -150,7 +150,7 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADGroup | Where { $_.DisplayName -
   
 사용자 지정 사용 권한을 사용 하 여 문서 하위 폴더를 만들려면 다음을 수행 합니다.
   
-1. 사이트에 대 한 관리자 액세스 그룹의 구성원 인 계정에 로그인 합니다. 도움을 받으려면 [Microsoft 365에 로그인하는 위치](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. 사이트에 대 한 관리자 액세스 그룹의 구성원 인 계정에 로그인 합니다. 도움을 받으려면 [Microsoft 365에 로그인하는 위치](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
     
 2. 격리 된 팀 사이트로 이동 하 여 **문서**를 클릭 합니다.
     
@@ -168,9 +168,9 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADGroup | Where { $_.DisplayName -
     
 9. **> Advanced와 공유 > 사용 권한 부여를**클릭 합니다.
     
-10. 사용 권한 페이지의 ** \<목록에서 사이트 이름> 구성원**을 클릭 합니다.
+10. 사용 권한 페이지의 ** \<site name> 목록에서 구성원**을 클릭 합니다.
     
-11. 사이트 이름> 구성원 페이지에서 사이트 구성원 액세스 그룹 옆에 있는 확인 표시를 선택 하 고 **작업**을 클릭 한 다음 **그룹에서 사용자 제거**를 클릭 하 고 **확인**을 클릭 합니다. ** \<**
+11. ** \<site name> 구성원** 페이지에서 사이트 구성원 액세스 그룹 옆에 있는 확인 표시를 선택 하 고 **작업**을 클릭 한 다음 **그룹에서 사용자 제거**를 클릭 하 고 **확인**을 클릭 합니다.
     
 12. 이 하위 폴더에 특정 구성원을 추가 하려면 **새로 만들기 > 사용자 추가**를 클릭 합니다.
     
@@ -178,9 +178,9 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADGroup | Where { $_.DisplayName -
     
 14. 웹 페이지를 새로 고쳐 새 결과를 확인 합니다.
     
-15. 왼쪽 탐색 창의 **그룹** 에서 ** \<방문자 그룹> 사이트 이름을** 클릭 하 고 11-14 단계를 사용 하 여 하위 폴더의 파일을 볼 수 있는 사용자 계정 집합 (필요한 경우)을 지정 합니다.
+15. 왼쪽 탐색 창의 **그룹** 에서 ** \<site name> 방문자** 그룹을 클릭 하 고 11-14 단계를 사용 하 여 하위 폴더의 파일을 볼 수 있는 사용자 계정 집합 (필요한 경우)을 지정 합니다.
     
-16. 왼쪽 탐색 창의 **그룹** 에서 ** \<사이트 이름> 소유자** 그룹을 클릭 하 고 11-14 단계를 사용 하 여 하위 폴더의 사용 권한을 관리할 수 있는 사용자 계정 집합 (필요한 경우)을 지정 합니다.
+16. 왼쪽 탐색 창의 **그룹** 에서 ** \<site name> 소유자** 그룹을 클릭 하 고 11-14 단계를 사용 하 여 하위 폴더의 사용 권한을 관리할 수 있는 사용자 계정 집합 (필요한 경우)을 지정 합니다.
     
 17. 브라우저에서 **사용자 및 그룹** 탭을 닫습니다.
     

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Office 데스크톱 앱의 새로운 기능 관리에서 최종 사용자에 게 표시 되거나 숨겨진 기능과 새 콘텐츠를 볼 것인지 여부를 결정 합니다.
-ms.openlocfilehash: d4d4ff24896555a4af0ae4a936840c9935d73813
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 7b9522a901078d6e235e295c184fec65c251338b
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44678605"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717178"
 ---
 # <a name="show-or-hide-new-features-using-whats-new-management"></a>새로운 기능 관리를 사용하여 새로운 기능 표시 또는 숨기기
 
@@ -60,7 +60,8 @@ Office의 새로운 기능 기능은 Microsoft 365 관리 센터와 [클라이�
 |:-----|:-----|:-----|
 |**채널** <br/> |**관리 미리 보기** <br/> |**작업 수행** <br/> |
 |**현재** <br/> |매월 15 일  <br/> |매월 릴리스 1-3 주 <br/> |
-|**반기 엔터프라이즈 (미리 보기)** <br/> |9 월 1 일 ~ 3 월 1 일 <br/> | 새 기능을 제공 하는 주 릴리스 2 주 전
+|**월 단위 엔터프라이즈** <br/> |매월 1 분  <br/> |새 기능을 제공 하는 주 릴리스 2 주 전 |
+|**반기 엔터프라이즈 (미리 보기)** <br/> |9 월 1 일 ~ 3 월 1 일 <br/> | 새 기능을 제공 하는 주 릴리스 2 주 전|
 |**반기 기업** <br/> |Jan 1, 7 월 1 일 <br/> | 새 기능을 제공 하는 주 릴리스 2 주 전<br/> |
 
 채널 업데이트 일정에 대 한 자세한 내용은 [Microsoft 365 앱에 대 한 업데이트 기록 (날짜별로 나열)](https://docs.microsoft.com/officeupdates/update-history-microsoft365-apps-by-date)을 참조 하십시오.

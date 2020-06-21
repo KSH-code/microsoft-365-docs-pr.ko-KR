@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
 description: 이 단계별 배포 가이드를 사용 하 여 Microsoft Office 365에서 격리 된 SharePoint Online 팀 사이트를 만들고 구성 합니다.
-ms.openlocfilehash: 772a9e5ea08871857a70cc840e377046d459a314
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 05fdbcfff792805708bfe0b8027e955d54a1ec6f
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036454"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755227"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 배포
 
@@ -161,7 +161,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
   
 먼저 다음 단계를 사용 하 여 SharePoint Online 팀 사이트를 만듭니다.
   
-1. SharePoint Online 팀 사이트를 관리 하는 데 사용할 계정 (SharePoint Online 관리자)을 사용 하 여 Microsoft 365 관리 센터에 로그인 합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. SharePoint Online 팀 사이트를 관리 하는 데 사용할 계정 (SharePoint Online 관리자)을 사용 하 여 Microsoft 365 관리 센터에 로그인 합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
 
 2. Microsoft 365 관리 센터의 **관리 센터**에서 **SharePoint**를 클릭 합니다.
 
@@ -191,7 +191,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 6. **사용 권한** 창에서 **고급 사용 권한 설정을**클릭 합니다.
     
-7. 브라우저의 **사용 권한** 탭에 있는 목록에서 ** \<사이트 이름> 구성원** 을 클릭 합니다.
+7. 브라우저의 **사용 권한** 탭에 있는 목록에서 ** \<site name> 구성원** 을 클릭 합니다.
     
 8. **사용자 및 그룹**에서 **새로 만들기**를 클릭합니다.
     
@@ -199,7 +199,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 10. 브라우저에서 뒤로 단추를 클릭합니다.
     
-11. 목록에서 ** \<사이트 이름> 소유자** 를 클릭 합니다.
+11. 목록에서 ** \<site name> 소유자** 를 클릭 합니다.
     
 12. **사용자 및 그룹**에서 **새로 만들기**를 클릭합니다.
     
@@ -207,7 +207,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 14. 브라우저에서 뒤로 단추를 클릭합니다.
     
-15. 목록에서 ** \<방문자> 사이트 이름을** 클릭 합니다.
+15. 목록에서 ** \<site name> 방문자** 를 클릭 합니다.
     
 16. **사용자 및 그룹**에서 **새로 만들기**를 클릭합니다.
     
@@ -217,11 +217,11 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 이러한 권한 설정의 결과는 다음과 같습니다.
   
-- 사이트 이름> 소유자 SharePoint 그룹에 **는 모든 구성원이 모든 권한 수준을** 갖는 사이트 관리자 액세스 그룹이 포함 되어 있습니다. ** \<**
+- ** \<site name> 소유자** SharePoint 그룹에 **는 모든 구성원이 모든 권한 수준을** 갖는 사이트 관리자 액세스 그룹이 포함 되어 있습니다.
     
-- Site name> members SharePoint 그룹에는 모든 구성원이 **편집** 권한 수준을 갖는 사이트 구성원 액세스 그룹이 포함 되어 있습니다. ** \<**
+- ** \<site name> Members** SharePoint 그룹에는 모든 구성원이 **편집** 권한 수준을 갖는 사이트 구성원 액세스 그룹이 포함 되어 있습니다.
     
-- 사이트 이름> 방문자 SharePoint 그룹에는 모든 구성원이 **읽기** 권한 수준을 갖는 사이트 뷰어 액세스 그룹이 포함 되어 있습니다. ** \<**
+- ** \<site name> 방문자** SharePoint 그룹에는 모든 구성원이 **읽기** 권한 수준을 갖는 사이트 뷰어 액세스 그룹이 포함 되어 있습니다.
     
 - 구성원이 다른 구성원을 초대 하거나 구성원이 아닌 사람에 게 액세스를 요청 하는 기능은 사용 하지 않도록 설정 됩니다.
     

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 피싱 메시지가 사서함, Outlook.com 및 웹용 Outlook에 도달 하지 못하도록 차단 하는 방법을 안내 합니다.
-ms.openlocfilehash: b49cc27685f62f5fb5d123a8a7aa4e51e0065e64
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: ed317f5673aa37b91e8c5092eb127b8df6be944e
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588339"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754835"
 ---
 # <a name="unverified-sender"></a>확인 되지 않은 보낸 사람
 
@@ -66,7 +66,7 @@ Office 365 고객 인 경우 Office 365 보안 & 준수 센터를 통해이 기�
 
 Office 365 고객 인 경우 확인 되지 않은 보낸 사람 처리를 관리 하는 것과 같은 방법으로 Office 365 보안 & 준수 센터를 통해이 기능을 관리할 수 있습니다. 위장 인텔리전스 스푸핑 허용 목록에 보낸 사람을 추가 하면 ' via ' 처리는 적용 되지 않습니다.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 ### <a name="what-criteria-does-outlookcom-and-outlook-win32-desktop-use-to-add-the--and-the-via-properties"></a>Outlook.com 및 Outlook Win32 데스크톱에서 '? ' 및 ' via ' 속성을 추가 하는 데 사용 하는 기준은 무엇입니까?
 
@@ -88,6 +88,6 @@ Via 태그: 보낸 사람으로 서, DKIM 서명 또는 SMTP 메일의 도메인
 
 [Outlook.com 전자 메일 계정 보호](https://support.microsoft.com/office/a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
 
-[Outlook.com의 피싱 또는 스푸핑 처리](https://support.office.com/article/0d882ea5-eedc-4bed-aebc-079ffa1105a3)
+[Outlook.com에서 피싱을 처리 하는 방법](https://support.microsoft.com/office/0d882ea5-eedc-4bed-aebc-079ffa1105a3)
 
 [웹용 Outlook에서 정크 메일 및 스팸 필터링](https://support.microsoft.com/office/db786e79-54e2-40cc-904f-d89d57b7f41d)

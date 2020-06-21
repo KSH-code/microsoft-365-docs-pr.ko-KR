@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: Office365을 사용 하 여 하나 이상의 전자 메일 계정으로 전자 메일을 전달 하도록 설정 합니다.
-ms.openlocfilehash: 3ce82d514e1342ac6110ca74106477e3cf7820cb
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: f6c177ba37cf2b8ce3966732adbe8428d9b6179e
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432304"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780256"
 ---
 # <a name="configure-email-forwarding"></a>전자 메일 전달 구성
 
@@ -53,7 +53,7 @@ ms.locfileid: "44432304"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
     
 2. 전자 메일을 전달 하려는 사용자의 이름을 선택 하 여 속성 페이지를 엽니다. 
  
@@ -61,7 +61,7 @@ ms.locfileid: "44432304"
   
 4. 전자 메일 전달 페이지에서 **이 사서함에 보낸 모든 전자 메일**전달을 선택 하 고 전달 주소를 입력 한 다음 전달 된 전자 메일의 복사본을 유지할지 여부를 선택 합니다. 이 옵션이 표시 되지 않으면 라이선스가 사용자 계정에 할당 되었는지 확인 합니다. **변경 내용 저장**을 선택합니다.
     
-    **여러 전자 메일 주소로 착신 전환**하려면 사용자에 게 Outlook에서 주소로 전달할 규칙을 설정 하도록 요청할 수 있습니다. 자세한 내용은 [규칙을 사용 하 여 메시지 자동 전달을](https://support.office.com/article/use-rules-to-automatically-forward-messages-45aa9664-4911-4f96-9663-ece42816d746)참조 하십시오. 
+    **여러 전자 메일 주소로 착신 전환**하려면 사용자에 게 Outlook에서 주소로 전달할 규칙을 설정 하도록 요청할 수 있습니다. 자세한 내용은 [규칙을 사용 하 여 메시지 자동 전달을](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746)참조 하십시오. 
     
      또는 관리 센터에서 [메일 그룹을 만들고](../setup/create-distribution-lists.md) [여기에 주소를 추가한](add-user-or-contact-to-distribution-list.md)다음이 문서의 지침을 사용 하 여 DL을 가리키도록 착신 전환을 설정 합니다.
     
@@ -71,7 +71,7 @@ ms.locfileid: "44432304"
 
 ::: moniker range="o365-germany"
     
- 1.   관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
+ 1.   관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
     
 2. 전자 메일을 전달 하려는 사용자의 이름을 선택 하 여 속성 페이지를 엽니다. 
 
@@ -79,7 +79,7 @@ ms.locfileid: "44432304"
 
 4. 전자 메일 전달 페이지에서 켜기/ **끄기를 설정**하 고 전달 주소를 입력 한 다음 전달 된 전자 메일의 복사본을 유지할지 여부를 선택 합니다. 이 옵션이 표시 되지 않으면 라이선스가 사용자 계정에 할당 되었는지 확인 합니다. **저장**을 선택합니다.
     
-    **여러 전자 메일 주소로 착신 전환**하려면 사용자에 게 Outlook에서 주소로 전달할 규칙을 설정 하도록 요청할 수 있습니다. 자세한 내용은 [규칙을 사용 하 여 메시지 자동 전달을](https://support.office.com/article/use-rules-to-automatically-forward-messages-45aa9664-4911-4f96-9663-ece42816d746)참조 하십시오. 
+    **여러 전자 메일 주소로 착신 전환**하려면 사용자에 게 Outlook에서 주소로 전달할 규칙을 설정 하도록 요청할 수 있습니다. 자세한 내용은 [규칙을 사용 하 여 메시지 자동 전달을](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746)참조 하십시오. 
     
      또는 관리 센터에서 [메일 그룹을 만들고](../setup/create-distribution-lists.md) [여기에 주소를 추가한](add-user-or-contact-to-distribution-list.md)다음이 문서의 지침을 사용 하 여 DL을 가리키도록 착신 전환을 설정 합니다.
     
@@ -89,7 +89,7 @@ ms.locfileid: "44432304"
 
 ::: moniker range="o365-21vianet"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
     
 2. 전자 메일을 전달 하려는 사용자의 이름을 선택 하 여 속성 페이지를 엽니다. 
 
@@ -97,7 +97,7 @@ ms.locfileid: "44432304"
 
 4. 전자 메일 전달 페이지에서 켜기/ **끄기를 설정**하 고 전달 주소를 입력 한 다음 전달 된 전자 메일의 복사본을 유지할지 여부를 선택 합니다. 이 옵션이 표시 되지 않으면 라이선스가 사용자 계정에 할당 되었는지 확인 합니다. **저장**을 선택합니다.
     
-    **여러 전자 메일 주소로 착신 전환**하려면 사용자에 게 Outlook에서 주소로 전달할 규칙을 설정 하도록 요청할 수 있습니다. 자세한 내용은 [규칙을 사용 하 여 메시지 자동 전달을](https://support.office.com/article/use-rules-to-automatically-forward-messages-45aa9664-4911-4f96-9663-ece42816d746)참조 하십시오. 
+    **여러 전자 메일 주소로 착신 전환**하려면 사용자에 게 Outlook에서 주소로 전달할 규칙을 설정 하도록 요청할 수 있습니다. 자세한 내용은 [규칙을 사용 하 여 메시지 자동 전달을](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746)참조 하십시오. 
     
      또는 관리 센터에서 [메일 그룹을 만들고](../setup/create-distribution-lists.md) [여기에 주소를 추가한](add-user-or-contact-to-distribution-list.md)다음이 문서의 지침을 사용 하 여 DL을 가리키도록 착신 전환을 설정 합니다.
     

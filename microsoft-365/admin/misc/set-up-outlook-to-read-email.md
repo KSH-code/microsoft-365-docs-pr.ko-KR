@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e155154-bc66-48cc-8476-ab558c97115a
 description: Outlook에서 Windows 및 Mac에 대해 전자 메일 계정을 설정 하는 방법과 Office 앱을 설치 하 고 온라인으로 전자 메일에 액세스 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 04d14c314fbcda4f8d0edff57a141a89688bec28
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: e17e532afca0a552b7e0e2565cd34e9dda256421
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399281"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779992"
 ---
 # <a name="set-up-outlook-to-read-email"></a>Outlook을 설정 하 여 전자 메일 읽기
 
@@ -39,7 +39,7 @@ Microsoft 365 구독에는 웹 기반 Outlook이 제공 되지만 구독에 Offi
     
 2. **자동 계정 설정** 페이지에서 이름, 전자 메일 주소 및 암호를 입력 하 고 **다음** \> **완료**를 선택 합니다.
     
-[전체 문서](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx)를 읽으십시오.
+[전체 문서](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b)를 읽으십시오.
   
 ## <a name="how-do-i-install-the-office-apps-including-outlook"></a>Outlook을 포함 하 여 Office 앱을 설치 하려면 어떻게 해야 합니까?
 
@@ -59,7 +59,7 @@ Outlook 앱을 처음 열 때 받은 편지함 설정 마법사가 열립니다.
     
 3. **Exchange 계정 정보 입력** 페이지에서 사용자 이름, 전자 메일 주소 및 암호를 입력 한 다음 **계정 추가**를 선택 합니다.
     
-[전체 문서](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx#PickTab=Outlook_for_Mac)를 읽으십시오. 
+[전체 문서](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b#PickTab=Outlook_for_Mac)를 읽으십시오. 
   
 ## <a name="how-do-i-access-my-mail-online"></a>내 메일에 액세스 하려면 어떻게 해야 합니까?
 

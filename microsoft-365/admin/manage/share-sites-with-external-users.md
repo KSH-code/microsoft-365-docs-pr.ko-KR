@@ -1,5 +1,5 @@
 ---
-title: 사이트 및 파일 외부 공유
+title: 게스트 사용자와 사이트 및 파일 공유
 f1.keywords: NOCSH
 ms.author: twerner
 author: twernermsft
@@ -21,14 +21,14 @@ search.appverid:
 ms.assetid: 89502322-bfbb-43d6-9207-4030f8ce26e0
 ROBOTS: NOINDEX
 description: '조직 외부의 사용자와 사이트 및 파일을 공유 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 6990b4ffe45af1a591c72e36c1348d1e804e829b
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 79760f662ec68d2ac9089586fd9cbf38b0bd9897
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399557"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780052"
 ---
-# <a name="share-sites-and-files-externally"></a>사이트 및 파일 외부 공유
+# <a name="share-sites-and-files-with-guest-users"></a>게스트 사용자와 사이트 및 파일 공유
 
 ::: moniker range="o365-21vianet"
 
@@ -62,7 +62,7 @@ ms.locfileid: "44399557"
 |문서를 공유 하 되 인증은 필요 하지 않습니다.  <br/> |중요하지 않거나 기밀이 아닌 문서에 대한 링크를 조직 외부의 사람과 공유하여 이들이 해당 문서를 보고 자신의 의견을 문서에 업데이트할 수 있도록 합니다. 이러한 사용자는 사이트의 콘텐츠에 액세스할 필요가 없습니다.  <br/> |
    
 > [!IMPORTANT]
-> 외부 공유를 사용 하지 않도록 설정 하면 현재 액세스 권한이 있는 조직 외부의 사용자에 게 더 이상 액세스 권한이 없게 됩니다. 나중에 외부 공유를 다시 켜면 이러한 사용자에 대 한 액세스가 복원 됩니다. 사용자가 공유 콘텐츠에 액세스 하지 못하도록 하려면 [Microsoft 365 그룹에서](/office365/admin/create-groups/add-or-remove-members-from-groups)해당 콘텐츠를 제거 하 고, 사이트에서 사용 권한을 제거 하거나, [파일 또는 폴더를 공유를 중지](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323)합니다. 
+> 외부 공유를 사용 하지 않도록 설정 하면 현재 액세스 권한이 있는 조직 외부의 사용자에 게 더 이상 액세스 권한이 없게 됩니다. 나중에 외부 공유를 다시 켜면 이러한 사용자에 대 한 액세스가 복원 됩니다. 사용자가 공유 콘텐츠에 액세스 하지 못하도록 하려면 [Microsoft 365 그룹에서](/office365/admin/create-groups/add-or-remove-members-from-groups)해당 콘텐츠를 제거 하 고, 사이트에서 사용 권한을 제거 하거나, [파일 또는 폴더를 공유를 중지](https://support.microsoft.com/office/0a36470f-d7fe-40a0-bd74-0ac6c1e13323)합니다. 
   
 ## <a name="enable-external-sharing-at-the-organization-level"></a>조직 수준에서 외부 공유를 사용 하도록 설정
 

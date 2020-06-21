@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection) 및 ATP (Advanced Threat Protection) 보안 설정에 대 한 모범 사례 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 ATP (Advanced Threat Protection)를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: 922457d231681bc4643ea1805fc6060de3abcb65
-ms.sourcegitcommit: b18949de721c6eef3521d5f8286d9b926ad4aabe
+ms.openlocfilehash: 15bd63a35b4279efc634115bbdb5248cdd5038db
+ms.sourcegitcommit: 589f78fc0f39aff9109959ded48d146cc32fc3c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44342530"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761709"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>EOP 및 Office 365 ATP 보안에 대 한 권장 설정
 
@@ -95,6 +95,8 @@ ms.locfileid: "44342530"
 
 아웃 바운드 스팸 정책을 만들고 구성 하려면 [Office 365에서 아웃 바운드 스팸 필터링 구성을](configure-the-outbound-spam-policy.md)참조 하세요.
 
+서비스의 기본 전송 제한에 대 한 자세한 내용은 [제한 보내기](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-1) 를 참조 하십시오.
+
 |||||
 |---|---|---|---|
 |**보안 기능 이름**|**표준을**|**항등**|**설명**|
@@ -152,9 +154,9 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 |||||
 |---|---|---|---|
 |**보안 기능 이름**|**표준을**|**항등**|**설명**|
-|보호 된 사용자: **보호를 위해 사용자 추가** <br/><br/> _EnableTargetedUserProtection_ <br/><br/> _TargetedUsersToProtect_|켜짐 <br/><br/> `$true` <br/><br/> \<사용자 목록\>|켜짐 <br/><br/> `$true` <br/><br/> \<사용자 목록\>|조직에 따라 다르지만 주요 역할에 사용자를 추가 하는 것이 좋습니다. 내부적으로는 CEO, CFO 및 기타 선임 리더가 될 수 있습니다. 외부에는 council 구성원 또는 이사회의 보드가 포함 될 수 있습니다.|
+|보호 된 사용자: **보호를 위해 사용자 추가** <br/><br/> _EnableTargetedUserProtection_ <br/><br/> _TargetedUsersToProtect_|켜짐 <br/><br/> `$true` <br/><br/> \<list of users\>|켜짐 <br/><br/> `$true` <br/><br/> \<list of users\>|조직에 따라 다르지만 주요 역할에 사용자를 추가 하는 것이 좋습니다. 내부적으로는 CEO, CFO 및 기타 선임 리더가 될 수 있습니다. 외부에는 council 구성원 또는 이사회의 보드가 포함 될 수 있습니다.|
 |보호 된 도메인: **내가 소유한 도메인을 자동으로 포함** <br/><br/> _EnableOrganizationDomainsProtection_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
-|보호 된 도메인: **사용자 지정 도메인 포함** <br/><br/> _EnableTargetedDomainsProtection_ <br/><br/> _TargetedDomainsToProtect_|켜짐 <br/><br/> `$true` <br/><br/> \<도메인 목록\>|켜짐 <br/><br/> `$true` <br/><br/> \<도메인 목록\>|조직에 따라 다르지만 사용자가 소유 하지 않은 경우에도 자주 상호 작용 하는 도메인을 추가 하는 것이 좋습니다.|
+|보호 된 도메인: **사용자 지정 도메인 포함** <br/><br/> _EnableTargetedDomainsProtection_ <br/><br/> _TargetedDomainsToProtect_|켜짐 <br/><br/> `$true` <br/><br/> \<list of domains\>|켜짐 <br/><br/> `$true` <br/><br/> \<list of domains\>|조직에 따라 다르지만 사용자가 소유 하지 않은 경우에도 자주 상호 작용 하는 도메인을 추가 하는 것이 좋습니다.|
 |보호 된 사용자: **가장 된 사용자가 전자 메일을 보낸 경우** <br/><br/> _TargetedUserProtectionAction_|**메시지 격리** <br/><br/> `Quarantine`|**메시지 격리** <br/><br/> `Quarantine`||
 |보호 된 도메인: **가장 된 도메인에서 전자 메일을 보내는 경우** <br/><br/> _TargetedUserProtectionAction_|**메시지 격리** <br/><br/> `Quarantine`|**메시지 격리** <br/><br/> `Quarantine`||
 |**가장 한 사용자에 대 한 팁 표시** <br/><br/> _EnableSimilarUsersSafetyTips_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||

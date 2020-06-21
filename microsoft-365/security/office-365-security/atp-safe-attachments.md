@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - seo-marvel-apr2020
 description: 이 문서에서는 Office 365의 ATP 안전한 첨부 파일 기능 및 구독에 대 한 기능을 가져오는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 36993454a128d23ba388c24321a249f3be40d3d6
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 77842596b460e2d96ccde79e9c8c6ef3d1f8985a
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616781"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754763"
 ---
 # <a name="atp-safe-attachments"></a>ATP 안전한 첨부 파일
 
@@ -41,7 +41,7 @@ ATP 보호는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀의 �
 
 - ATP 안전한 첨부 파일 정책이 설정 됩니다. ( [Office 365에서 ATP 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md)참조)
 
-- 사용자가 회사 또는 학교 계정을 사용 하 여 로그인 한 경우 ( [Office 또는 office 365에 로그인을](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426)참조 하세요.)
+- 사용자가 회사 또는 학교 계정을 사용 하 여 로그인 한 경우 ( [Office에 로그인을](https://support.microsoft.com/office/b9582171-fd1f-4284-9846-bdd72bb28426)참조 하세요.)
 
 ATP 정책을 정의 하거나 편집 하려면 적절 한 역할이 할당 되어 있어야 합니다. 다음 표에서는 몇 가지 예를 설명 합니다.
 

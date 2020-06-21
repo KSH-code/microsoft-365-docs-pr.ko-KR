@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: 중국의 안전 하 고 안정적 이며 확장 가능한 클라우드 서비스에 대 한 요구를 충족 하도록 설계 된 21Vianet에서 운영 하는 Office 365에 대해 자세히 알아봅니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: f18dd909cedb69e509d6da69e45940337cda8c17
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 7c8459c8c3da67ac4cc80ac2912e368f23cd8e10
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399017"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779920"
 ---
 # <a name="office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365
 
@@ -57,10 +57,10 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
 |:-----|:-----|
 |사용자 지정 도메인  <br/> |관리자는 중국어 (번체) 도메인 공급자를 통해 등록 된 사용자 지정 도메인을 만들거나 사용할 수 있습니다. 사용자 지정 도메인이 없는 경우 도메인 이름 등록 기관에서 [도메인 이름을 구입 하는 방법을](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/buy-a-domain-name) 사용할 수 있습니다. 이미 하나가 있는 경우 [도메인 등록 기관 또는 DNS 호스팅 공급자를 찾습니다](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/find-your-domain-registrar).  <br/> 또한 Office 365 SharePoint Online 서비스를 사용 하 여 공개 웹 사이트를 만드는 경우 중국 인터넷 규정 준수 정책에서는 ICP (인터넷 콘텐츠 공급자) 번호를 받아야 합니다.  **참고:** 사용자 지정 도메인 이름의 허용 되지 않은 단어에 대 한 자동 유효성 검사를 사용할 수 없습니다.           |
 |구독, 청구 및 기술 지원  <br/> |21Vianet에서 제공 합니다. 지원 서비스에 문의 하는 방법에 대 한 자세한 내용은 [Office 365 for business support](../contact-support-for-business-products.md)를 참조 하세요.  <br/> |
-|셀프 서비스 암호 재설정  <br/> |관리자만 사용할 수 있습니다. 자세한 내용은 [21vianet에서 운영 하는 Office 365에서 암호 변경 또는 재설정](https://support.microsoft.com/en-us/office/change-or-reset-your-password-in-microsoft-365-operated-by-21vianet-d8eb5b62-9d0e-4267-a9bf-2aa491ee6d0b)을 참조 하세요.  <br/> |
+|셀프 서비스 암호 재설정  <br/> |관리자만 사용할 수 있습니다. 자세한 내용은 [21vianet에서 운영 하는 Microsoft 365에서 암호 변경 또는 재설정](https://support.microsoft.com/office/d8eb5b62-9d0e-4267-a9bf-2aa491ee6d0b)을 참조 하세요.  <br/> |
 |보안, 개인 정보, 규정 준수 및 지원 수준에 대 한 세부 정보  <br/> |21Vianet에서 제공 합니다.  <br/> |
-|Office 데스크톱 설정  <br/> |Office 2010 및 Office 2007에서는 office 데스크톱 설치를 사용할 수 없습니다. 그러나 관리자는 [office 365에서 작동 하도록 현재 office 데스크톱 응용 프로그램을 구성할](https://support.office.com/article/85646aba-7e6c-4e24-a047-8fd9ce4f9d2e)수 있습니다.  <br/> |
-|모바일 및 장치 지원\*  <br/> | 출시 예정 모바일 기능은 다음과 같습니다.  <br/>  MDM (모바일 장치 관리)  <br/>  Blackberry CS (Business Cloud Services)를 사용할 수는 없지만 Exchange ActiveSync 장치 또는 동작 (테두리, BlackBerry 무선 전자 메일 솔루션)에서 리서치의 제공을 사용 하 여 Blackberry Enterprise Server (BES)를 실행할 수 있습니다.  <br/>  모바일 지원에 대 한 자세한 내용은 [사용자에 대 한 모바일 액세스 설정 및 관리](https://support.microsoft.com/en-us/office/set-up-and-manage-mobile-access-for-your-users-01fff219-4492-40f2-82d3-fd2ffc0ad802)를 참조 하세요.  <br/> |
+|Office 데스크톱 설정  <br/> |Office 2010 및 Office 2007에서는 office 데스크톱 설치를 사용할 수 없습니다. 그러나 관리자는 [office 365에서 작동 하도록 현재 office 데스크톱 응용 프로그램을 구성할](https://support.microsoft.com/office/85646aba-7e6c-4e24-a047-8fd9ce4f9d2e)수 있습니다.  <br/> |
+|모바일 및 장치 지원\*  <br/> | 출시 예정 모바일 기능은 다음과 같습니다.  <br/>  MDM (모바일 장치 관리)  <br/>  Blackberry CS (Business Cloud Services)를 사용할 수는 없지만 Exchange ActiveSync 장치 또는 동작 (테두리, BlackBerry 무선 전자 메일 솔루션)에서 리서치의 제공을 사용 하 여 Blackberry Enterprise Server (BES)를 실행할 수 있습니다.  <br/>  모바일 지원에 대 한 자세한 내용은 [사용자에 대 한 모바일 액세스 설정 및 관리](https://support.microsoft.com/office/01fff219-4492-40f2-82d3-fd2ffc0ad802)를 참조 하세요.  <br/> |
 |Office Lens  <br/> |사용할 수 없습니다.  <br/> |
 |Microsoft Planner  <br/> |개봉박두.  <br/> |
 |Microsoft Teams  <br/> |사용할 수 없습니다.  <br/> |
@@ -74,7 +74,7 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
 
 |||
 |:-----|:-----|
-|조직 외부의 사용자와 전자 메일로 문서, 라이브러리 또는 사이트 공유  <br/> |이 기능은 사용할 수 있지만 기본적으로 사용 하지 않도록 설정 된 파일을 국가 외부에서 공유할 수 있습니다. 관리자는 해당 기능을 설정할 수 있지만 파일이 사용자 국가 외부에서 공유될 수 있음을 나타내는 경고 메시지가 표시됩니다. 조직 외부의 사용자와 공유 하려고 하면 경고 메시지가 표시 됩니다. 자세한 내용은 [Office 365에서 SharePoint 파일 또는 폴더 공유](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c.aspx)를 참조 하세요.  <br/> |
+|조직 외부의 사용자와 전자 메일로 문서, 라이브러리 또는 사이트 공유  <br/> |이 기능은 사용할 수 있지만 기본적으로 사용 하지 않도록 설정 된 파일을 국가 외부에서 공유할 수 있습니다. 관리자는 해당 기능을 설정할 수 있지만 파일이 사용자 국가 외부에서 공유될 수 있음을 나타내는 경고 메시지가 표시됩니다. 조직 외부의 사용자와 공유 하려고 하면 경고 메시지가 표시 됩니다. 자세한 내용은 [Office 365에서 SharePoint 파일 또는 폴더 공유](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)를 참조 하세요.  <br/> |
 |Access Services  <br/> |Access 2013은 지원 되지만 새 Access 앱을 추가 하는 기능은 Office 365 및 SharePoint Online에서 만료 될 예정 이므로 사용 하지 못할 수 있습니다. Office 365 및 SharePoint Online에서 새 Access 기반 웹 앱 및 Access 웹 데이터베이스 만들기는 6 월 2017 및 나머지 웹 앱과 웹 2018 데이터베이스에서 시작 하는 동안 중지 됩니다. 또한 Access 2010 기능은 지원 되지 않으며 Access 2010 데이터베이스를 사용 하려고 시도 하면 오류가 발생 하 고 데이터 손실이 발생할 수 있습니다.  <br/> |
 |Microsoft PowerApps  <br/> |개봉박두.  <br/> |
 |IRM(정보 권한 관리)  <br/> |조직의 SharePoint에 대해 IRM 기능을 설정 하는 기능은 곧 제공 될 예정입니다.  <br/> |
@@ -108,12 +108,12 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
  Exchange 2013 누적 업데이트 CU5)의 새로운 기능, 온-프레미스 Exchange 2013 조 직 및 Office 365 서비스 간의 완전 한 기능의 하이브리드 배포가 이제 지원 됩니다. 하이브리드 구성 마법사의 새로운 기능을 활용 하 여 Exchange 2013 CU5에서는 온-프레미스 조직과 Exchange Online 조직 간의 다음과 같은 하이브리드 기능을 지원 합니다.  
 
 - 온-프레미스 조직과 Exchange Online 조직 간의 보안 메일 라우팅 
-- 공유 도메인 네임스페이스를 사용한 메일 라우팅. 예를 들어 온-프레미스 조직과 Exchange Online 조직 모두 @contoso.com SMTP 도메인을 사용합니다. 
+- Mail routing with a shared domain namespace. For example, both on-premises and Exchange Online organizations use the @contoso.com SMTP domain. 
 - "공유 주소록"이라고도 하는 통합 GAL(전체 주소 목록)  
 - 온-프레미스 조직과 Exchange Online 조직 간에 약속 있음/없음 및 일정 공유  
-- 중앙 집중식 인바운드 및 아웃바운드 메일 흐름 제어. 모든 인바운드 및 아웃바운드 Exchange Online 메시지를 온-프레미스 Exchange 조직을 통해 라우팅되도록 구성할 수 있습니다. 
+- Centralized control of inbound and outbound mail flow. You can configure all inbound and outbound Exchange Online messages to be routed through the on-premises Exchange organization. 
 - 온-프레미스 조직과 Exchange Online 조직 모두에 대 한 단일 Office Outlook Web App URL  
-- 기존 온-프레미스 사서함을 Exchange Online 조직으로 이동할 수 있는 기능 필요한 경우 Exchange Online 사서함을 온-프레미스 조직으로 되돌릴 수도 있습니다.  
+- The ability to move existing on-premises mailboxes to the Exchange Online organization. Exchange Online mailboxes can also be moved back to the on-premises organization if needed.  
 - 온-프레미스 EAC(Exchange 관리 센터)를 사용한 중앙 집중식 사서함 관리.  
 - 메일 설명, Outlook 연락처에 대 한 HD 사진 지원 및 온-프레미스 조직과 Exchange Online 조직 간의 여러 사서함 검색 
 - 온-프레미스 Exchange 사서함의 클라우드 기반 메시지 보관. 
@@ -165,7 +165,7 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
 - [하이브리드 구성 마법사를 사용 하 여 하이브리드 배포 만들기](https://go.microsoft.com/fwlink/?LinkId=506767)
 
 > [!IMPORTANT]
->  [Exchange Server 배포 도우미](https://go.microsoft.com/fwlink/?LinkId=506768) 는 온-프레미스 조직과 office 365 간에 하이브리드 배포를 구성 하거나 완전히 Office 365로 마이그레이션하는 데 도움이 되는 무료 웹 기반 도구입니다. 이 도구는 몇 가지 단순한 질문을 제기한 다음 사용자의 답변에 따라 하이브리드 배포 구성 지침이 담긴 사용자 지정 검사 목록을 만듭니다. 배포 도우미를 사용 하 여 하이브리드 배포를 구성 하는 것이 좋습니다. > Exchange 2013 CU5 서버를 업그레이드 하거나 추가 하지 않으려는 조직에 대해 Exchange 2013 SP1 조직은 온-프레미스 조직과 Exchange Online 조직 간에 공유 일정 약속 있음/없음 공유를 구성할 수 있습니다. 이 하이브리드 배포 기능을 구성 하려면 [21vianet에서 운영 하는 Office 365을 사용 하 여 Exchange 하이브리드 배포 기능 구성을](https://support.office.com/article/26e7cc26-c980-4cc5-a082-c333de544b6d)참조 하세요. 
+>  [Exchange Server 배포 도우미](https://go.microsoft.com/fwlink/?LinkId=506768) 는 온-프레미스 조직과 office 365 간에 하이브리드 배포를 구성 하거나 완전히 Office 365로 마이그레이션하는 데 도움이 되는 무료 웹 기반 도구입니다. 이 도구는 몇 가지 단순한 질문을 제기한 다음 사용자의 답변에 따라 하이브리드 배포 구성 지침이 담긴 사용자 지정 검사 목록을 만듭니다. 배포 도우미를 사용 하 여 하이브리드 배포를 구성 하는 것이 좋습니다. > Exchange 2013 CU5 서버를 업그레이드 하거나 추가 하지 않으려는 조직에 대해 Exchange 2013 SP1 조직은 온-프레미스 조직과 Exchange Online 조직 간에 공유 일정 약속 있음/없음 공유를 구성할 수 있습니다. 이 하이브리드 배포 기능을 구성 하려면 [21vianet에서 운영 하는 Office 365을 사용 하 여 Exchange 하이브리드 배포 기능 구성을](https://support.microsoft.com/office/26e7cc26-c980-4cc5-a082-c333de544b6d)참조 하세요. 
 
 |||  
 |---|---|
@@ -187,7 +187,7 @@ Apple 모바일 장치에 대 한 Exchange 연락처 데이터를 Apple iCloud�
 
 |||
 |:-----|:-----|
-|계정 관리 (Office 클라이언트 내)  <br/> |이 기능은 Office 365 포털로 이동 하기 위한 것이 고, 현재 전 세계 Office 365 포털을 가리키고, 21Vianet 계정에서 운영 하는 Office 365에 로그인 할 수 없습니다. 이는 알려진 문제 이며 해결 되었습니다. 이 경우에는 URL을 사용 하 여 https://portal.partner.microsoftonline.cn/ 계정에 로그인 하 고 여기에서 설정을 관리할 수 있습니다. 자세한 내용은 [21vianet에서 운영 하는 office 365에 대 한 office 365 Pro Plus 계정을 관리](https://support.office.com/article/fbe473d3-69de-4d0c-aecb-b9c2d0d45bc8.aspx)합니다 .를 참조 하세요.  <br/> |
+|계정 관리 (Office 클라이언트 내)  <br/> |이 기능은 Office 365 포털로 이동 하기 위한 것이 고, 현재 전 세계 Office 365 포털을 가리키고, 21Vianet 계정에서 운영 하는 Office 365에 로그인 할 수 없습니다. 이는 알려진 문제 이며 해결 되었습니다. 이 경우에는 URL을 사용 하 여 https://portal.partner.microsoftonline.cn/ 계정에 로그인 하 고 여기에서 설정을 관리할 수 있습니다. 자세한 내용은 [21vianet에서 운영 하는 Office 365에 대 한 Microsoft 365 앱 엔터프라이즈 계정 관리](https://support.microsoft.com/office/fbe473d3-69de-4d0c-aecb-b9c2d0d45bc8)를 참조 하세요.  <br/> |
    
 ## <a name="onenote"></a>OneNote
 
@@ -213,7 +213,7 @@ Apple 모바일 장치에 대 한 Exchange 연락처 데이터를 Apple iCloud�
 |:-----|:-----|
 |비즈니스용 Skype를 지 원하는 도메인 공급자  <br/> |SRV 레코드를 지 원하는 중국어 (간체) 도메인 공급자에 도메인을 등록 해야 합니다. 도메인을 등록 하는 방법에 대 한 자세한 내용은 [Find 사용자 도메인 등록 기관 또는 DNS 호스팅 공급자](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/find-your-domain-registrar)를 참조 하십시오.  <br/> |
 |전화 접속 회의 (컴퓨터에 액세스할 수 없는 사용자에 대 한 전화를 모임에 추가 하는 기능)  <br/> |비즈니스용 Skype 및 전화 접속 회의 및 공급자를 위한 비즈니스용 Skype 관리 센터에서 옵션을 볼 수 있지만 이러한 기능은 아직 사용할 수 없습니다. 곧 제공 될 예정입니다.  <br/> |
-|비즈니스용 Skype 데스크톱 도움말  <br/> |비즈니스용 Skype 데스크톱에 대 한 도움말을 찾을 [수 있습니다.](https://support.office.com/article/6ae5853c-f0fd-4710-aecf-f46def8377ad.aspx) 그러나 Office 간편 실행을 사용 하는 경우가 아니면 제품에서 데스크톱 도움말을 사용할 수 없습니다.  <br/> |
+|비즈니스용 Skype 데스크톱 도움말  <br/> |비즈니스용 Skype 데스크톱에 대 한 도움말을 찾을 [수 있습니다.](https://support.microsoft.com/office/6ae5853c-f0fd-4710-aecf-f46def8377ad) 그러나 Office 간편 실행을 사용 하는 경우가 아니면 제품에서 데스크톱 도움말을 사용할 수 없습니다.  <br/> |
 |Lync 2010  <br/> |사용할 수 없습니다.  <br/> |
 |Google Chrome을 사용 하 여 삼성 기반 장치를 사용 하는 경우 일정에서 모임에 참가할 수 있는 기능  <br/> |개봉박두. 한편 비즈니스용 Skype를 열고 모임 보기로 이동한 후 모임에 참가할 수 있습니다.  <br/> |
 |Polycom, Ares 및 Tanjay 같은 일반 전화기 장치  <br/> |사용할 수 없습니다.  <br/> |

@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 description: 청구 프로필에서 송장을 지 원하는 방법을 알아봅니다.
 keywords: 청구 프로필, 송장, 요금, 관리 비용
-ms.openlocfilehash: 64f0f6bf456b1251a2db49aa9c2f7473cb7c885b
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 2979909e3b916cc4bc8704f32a821b13fa6090e0
+ms.sourcegitcommit: 956dd3f87adb4e6173517550a662c3bacc2d2d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401777"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44741705"
 ---
 # <a name="manage-billing-profiles"></a>청구 프로필 관리
 
@@ -61,7 +61,7 @@ Microsoft의 제품 및 서비스를 구입한 상용 고객의 경우 대금 �
 
 ## <a name="view-billing-profiles"></a>청구 프로필 보기
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">청구서 및 결제</a> 페이지로 이동하십시오.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">청구서 및 결제</a> 페이지로 이동하십시오.
 
 2. **대금 청구**프로필을 선택한 다음 목록에서 대금 청구 프로필을 선택 합니다.
 

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 관리 센터에서 중앙 집중식 배포를 사용 하 여 조직의 사용자 및 그룹에 추가 기능을 배포 하는 방법을 알아봅니다.
-ms.openlocfilehash: 9d6a3da00445dd5cde26c80fe63edd81f745ce63
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 25a4cd4147f6388cdbd8982eb10624e7b7e8f6cb
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44678639"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780124"
 ---
 # <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 추가 기능 배포 관리
 
@@ -36,7 +36,7 @@ ms.locfileid: "44678639"
 
 ::: moniker-end
 
-Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정보에 액세스하는 방법을 간소화할 수 있습니다([Office 추가 기능 사용 시작](https://support.office.com/article/82e665c4-6700-4b56-a3f3-ef5441996862.aspx) 참조). 관리자는 조직의 사용자를 위한 Office 추가 기능을 배포할 수 있습니다. Microsoft 365 관리 센터의 중앙 집중식 배포 기능을 사용 하 여이 작업을 수행할 수 있습니다.
+Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정보에 액세스하는 방법을 간소화할 수 있습니다([Office 추가 기능 사용 시작](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862) 참조). 관리자는 조직의 사용자를 위한 Office 추가 기능을 배포할 수 있습니다. Microsoft 365 관리 센터의 중앙 집중식 배포 기능을 사용 하 여이 작업을 수행할 수 있습니다.
   
 중앙 집중식 배포는 대부분의 관리자가 조직 내에서 사용자 및 그룹에 추가 기능을 배포 하는 데 권장 되 고 기능이 풍부한 방법입니다. 조직에서 중앙 집중식 배포를 지원할 수 있는지를 확인 하는 방법에 대 한 자세한 내용은 [추가 기능의 중앙 집중식 배포가 조직에 작동 하는지 확인](centralized-deployment-of-add-ins.md)을 참조 하십시오.
   
@@ -44,7 +44,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정
   
 - 전역 관리자는 추가 기능을 사용자에 게 직접 할당 하거나, 그룹을 통해 여러 사용자에 게 또는 테 넌 트의 모든 사람에 게 할당할 수 있습니다.
     
-- 관련 Office 응용 프로그램이 시작되면 사용자를 위해 추가 기능이 자동으로 다운로드됩니다. 추가 기능이 추가 기능 명령을 지원하는 경우 추가 기능은 자동으로 Office 응용 프로그램 내의 리본에 나타납니다.
+- When the relevant Office application starts, the add-in automatically downloads for the user. If the add-in supports add-in commands, the add-in automatically appears in the Ribbon within the Office application.
     
 - 관리자가 추가 기능을 해제 하거나 삭제 하거나, 사용자가 Azure Active Directory 또는 추가 기능이 할당 된 그룹에서 제거 된 경우에는 사용자에 게 더 이상 추가 기능이 나타나지 않습니다.
     
@@ -53,11 +53,11 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정
   
 ## <a name="recommended-approach-for-deploying-office-add-ins"></a>Office 추가 기능 배포에 권장되는 방법
 
-단계적 방법으로 추가 기능을 배포하면 추가 기능 배포가 원활하게 진행됩니다. 다음 계획이 권장됩니다.
+Consider rolling out add-ins in a phased approach to help ensure your add-in deployment goes smoothly. We recommend the following plan:
   
-1. 소수의 업무 관련자 및 IT 부서 구성원에게 추가 기능을 배포합니다. 배포가 성공적이었는지 평가하고, 성공적인 경우 2단계로 넘어갑니다.
+1. Roll-out the add-in to a small set of business stakeholders and members of the IT department. Evaluate if the deployment was successful, and if so, move on to step 2.
     
-2. 추가 기능을 사용하게 될 업무 내 더 많은 개인에게 배포합니다. 다시 결과를 평가하고 모든 사항이 순조롭게 진행된 경우 전체 배포의 다음 단계로 이동합니다.
+2. Roll-out to a larger set of individuals within the business who will be using the add-in. Again, evaluate results and, if all went well, go to the next step of a full deployment.
     
 3. 사용자 대상 그룹에 전체 배포합니다.
     
@@ -83,7 +83,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정
 7. 추가 기능이 배포 되 면 녹색 눈금이 표시 됩니다. 페이지에 설명 된 지침에 따라 추가 기능이 성공적으로 배포 되었는지 테스트할 수 있습니다.
 
 > [!NOTE]
-> 앱의 리본 메뉴에 추가 기능 아이콘이 표시 되도록 하려면 Office를 다시 열어야 할 수도 있습니다. Outlook 추가 기능은 사용자의 리본에 표시 되는 데 최대 12 시간이 걸릴 수 있습니다.
+> 앱의 리본 메뉴에 추가 기능 아이콘이 표시 되도록 하려면 Office를 다시 열어야 할 수도 있습니다. Outlook 추가 기능은 사용자의 리본에 표시 되는 데 최대 24 시간이 걸릴 수 있습니다.
     
 8. 완료 되 면 **다음**을 선택 합니다. 자신에 게 배포한 경우 **추가 기능에 액세스할** 수 있는 사용자를 선택 하 여 다른 사용자에 게 배포 합니다.
 
@@ -95,13 +95,13 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정
   
 ### <a name="considerations-when-assigning-an-add-in-to-users-and-groups"></a>사용자 및 그룹에 추가 기능을 할당할 때 고려 사항
 
-관리자는 모든 사용자 또는 특정 사용자 및 그룹에 추가 기능을 할당할 수 있습니다. 각 옵션은 다음과 같은 영향을 줍니다.
+Admins can assign an add-in to everyone or to specific users and groups. Each option has implications:
   
-- **모두**: 이름에서 알 수 있듯이 이 옵션은 테넌트의 모든 사용자에게 추가 기능을 할당합니다. 이 옵션은 조직에 진정으로 범용인 추가 기능에 대해서만 사용합니다. 
+- **Everyone**: As the name implies, this option assigns the add-in to every user in the tenant. Use this option sparingly and only for add-ins that are truly universal to your organization. 
     
-- **사용자**: 추가 기능을 개별 사용자에게 할당하는 경우 새 사용자에게 추가 기능을 배포하려면 먼저 해당 사용자를 추가해야 합니다. 사용자 제거의 경우에도 마찬가지입니다. 
+- **Users**: If you assign an add-in to an individual user, then to deploy the add-in to a new user, you will need to first add that user. The same goes for removing users. 
     
-- **그룹**: 추가 기능을 그룹에 할당하는 경우 그룹에 추가된 사용자에게는 자동으로 추가 기능이 할당됩니다. 또한 사용자가 그룹에서 제거되면 해당 사용자는 추가 기능에 대한 액세스 권한을 잃게 됩니다. 둘 중 어느 경우이든 관리자가 수행해야 할 추가 작업은 없습니다. 
+- **Groups**: If you assign an add-in to a group, users who are added to the group will automatically be assigned the add-in. And, when a user is removed from a group, the user loses access to the add-in. In either case, no additional action is required from you as the admin. 
 
 - **자신만: 추가**기능을 자신만에 게 할당 하면 사용자의 계정에만 추가 기능이 할당 됩니다. 이 방법은 먼저 추가 기능을 테스트 하려는 경우에 유용 합니다.
     
@@ -121,7 +121,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정
   
 ### <a name="security-of-office-add-ins"></a>Office 추가 기능의 보안
 
-Office 추가 기능은 추가 기능에 대한 일부 메타데이터를 포함하지만 무엇보다도 모든 코드와 논리가 포함된 웹 응용 프로그램을 가리키는 XML 매니페스트 파일을 결합합니다. 추가 기능의 기능은 다양할 수 있습니다. 예를 들어 추가 기능은 다음과 같은 작업을 수행할 수 있습니다.
+Office add-ins combine an XML manifest file that contains some metadata about the add-in, but most importantly points to a web application which contains all the code and logic. Add-ins can range in their capabilities. For example, add-ins can:
   
 - 데이터를 표시합니다.
     
@@ -131,18 +131,18 @@ Office 추가 기능은 추가 기능에 대한 일부 메타데이터를 포함
     
 Office 추가 기능의 유형 및 기능에 대한 자세한 내용은 [Office 추가 기능 플랫폼 개요](https://go.microsoft.com/fwlink/p/?linkid=846362)에서, 특히 "Office 추가 기능 분석" 섹션을 참조하세요.
   
-사용자 문서를 조작하려면 추가 기능이 필요한 사용 권한을 매니페스트에서 선언해야 합니다. 5개 수준으로 이루어진 JavaScript API 액세스 권한 모델은 작업창 추가 기능의 사용자에게 개인 정보 및 보안의 토대를 제공합니다. Office 스토어에 있는 대부분의 추가 기능은 ReadWriteDocument 수준이며, 거의 모든 추가 기능이 최소한 ReadDocument 수준을 지원합니다. 사용 권한 수준에 대한 자세한 내용은 [콘텐츠 및 작업창 추가 기능에서 사용되는 API에 대한 사용 권한 요청](https://go.microsoft.com/fwlink/p/?linkid=848863)을 참조하세요.
+To interact with the user's document, the add-in needs to declare what permission it needs in the manifest. A five-level JavaScript API access-permissions model provides the basis for privacy and security for users of task pane add-ins. The majority of the add-ins in the Office Store are level ReadWriteDocument with almost all add-ins supporting at least the ReadDocument level. For more information about the permission levels, see [Requesting permissions for API use in content and task pane add-ins](https://go.microsoft.com/fwlink/p/?linkid=848863).
   
-매니페스트를 업데이트하는 경우 일반적으로 추가 기능의 아이콘과 텍스트가 변경됩니다. 추가 기능 명령이 변경될 때도 있습니다. 그러나 추가 기능에 대한 사용 권한은 변경되지 않습니다. 추가 기능에 대한 모든 코드와 논리가 실행되는 웹 응용 프로그램은 언제든지 변경될 수 있으며, 이것이 웹 응용 프로그램의 특성입니다.
+When updating a manifest, the typical changes are to an add-in's icon and text. Occasionally, add-in commands change. However, the permissions of the add-in do not change. The web application where all the code and logic for the add-in runs can change at any time, which is the nature of web applications.
   
 추가 기능에 대한 업데이트는 다음과 같이 발생합니다.
   
-- **LOB(기간 업무) 추가 기능:** 관리자가 명시적으로 매니페스트를 업로드한 이러한 경우에는 추가 기능을 위해 관리자가 새 매니페스트 파일을 업로드하여 메타데이터 변경 내용을 지원해야 합니다. 다음에 관련 Office 응용 프로그램을 시작하면 추가 기능이 업데이트됩니다. 웹 응용 프로그램은 언제든지 변경될 수 있습니다. 
+- **Line-of-business add-in:** In this case, where an admin explicitly uploaded a manifest, the add-in requires that the admin upload a new manifest file to support metadata changes. The next time the relevant Office applications start, the add-in will update. The web application can change at any time. 
 
     > [!NOTE]
     > 관리자는 업데이트를 수행 하는 데 필요한 LOB 추가 기능을 제거할 필요가 없습니다.   추가 기능 섹션에서 관리자는 LOB 추가 기능을 클릭 하 고 오른쪽 아래 모서리에 있는 **업데이트 단추** 를 선택 하면 됩니다. 새 추가 기능의 버전이 기존 추가 기능의 버전과 동일 하지 않은 경우에만 업데이트를 사용할 수 있습니다.   
     
-- **Office 스토어 추가 기능:** 관리자가 Office 스토어에서 추가 기능을 선택한 경우 Office 스토어에서 추가 기능이 업데이트되면 나중에 중앙 집중식 배포에서도 추가 기능이 업데이트됩니다. 다음에 관련 Office 응용 프로그램을 시작하면 추가 기능이 업데이트됩니다. 웹 응용 프로그램은 언제든지 변경될 수 있습니다. 
+- **Office Store add-in:** When an admin selected an add-in from the Office Store, if an add-in updates in the Office Store, the add-in will update later in Centralized Deployment. The next time the relevant Office applications start, the add-in will update. The web application can change at any time. 
 
 ### <a name="edit-add-in-access"></a>추가 기능 액세스 편집
 
@@ -252,9 +252,9 @@ Windows 용 Word, Excel 및 PowerPoint 2013은 ADAL (Active Directory 인증 라
     
 ## <a name="end-user-experience-with-add-ins"></a>추가 기능에 대한 최종 사용자 환경
 
-이제 추가 기능을 배포했으므로 최종 사용자가 Office 응용 프로그램에서 사용을 시작할 수 있습니다([Office 추가 기능 사용 시작](https://support.office.com/article/82e665c4-6700-4b56-a3f3-ef5441996862.aspx) 참조). 추가 기능은 추가 기능에서 지원하는 모든 플랫폼에 나타납니다.
+Now that you've deployed the add-in, your end users can start using it in their Office applications (see [Start using your Office Add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)). The add-in will appear on all platforms that the add-in supports.
   
-추가 기능이 추가 기능 명령을 지원하는 경우 명령은 Office 리본에 나타납니다. 다음 예에서는 **인용 검색** 명령이 **인용** 추가 기능에 나타납니다. 
+If the add-in supports add-in commands, the commands appear on the Office ribbon. In the following example, the command **Search Citation** appears for the **Citations** add-in. 
 
 ![검색 인용이 있는 Office 리본 메뉴](../../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png)
   

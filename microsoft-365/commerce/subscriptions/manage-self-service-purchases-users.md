@@ -15,12 +15,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: 사용자는 셀프 서비스 구매를 관리 하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: e8cb319b482ef49090544916b5e76a02083ebf06
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 7513fc67ab80bcffe6e6159bb13db207be16d0e9
+ms.sourcegitcommit: 956dd3f87adb4e6173517550a662c3bacc2d2d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403261"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44741666"
 ---
 # <a name="manage-self-service-purchases-users"></a>셀프 서비스 구매(사용자) 관리
 
@@ -105,9 +105,9 @@ ms.locfileid: "44403261"
 
 ### <a name="update-an-existing-payment-method"></a>기존 결제 방법 업데이트
 
-1. 관리 센터에서 **청구**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">금액 & 지불</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">금액 & 지불</a> 페이지로 이동 합니다.
 
-2. 기존 결제 방법을 편집 하려면 목록에서 해당 방법을 선택 합니다.
+2. **결제 방법** 탭의 목록에서 기존 결제 방법을 선택 합니다.
 
 3. 오른쪽 창에서 **편집**을 선택 합니다. 보안 코드, 만료 날짜, 카드의 이름 및 주소를 변경할 수 있습니다.
 
@@ -115,20 +115,20 @@ ms.locfileid: "44403261"
 
 ### <a name="add-a-new-payment-method"></a>새 결제 방법 추가
 
-1. 관리 센터에서 **청구**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">금액 & 지불</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">금액 & 지불</a> 페이지로 이동 합니다.
 
-2. **결제 방법 추가를**선택 합니다.
+2. **결제 방법** 탭에서 **결제 방법 추가**를 선택 합니다.
 
 3. **지불 방법 추가** 창에서 새 지불 방법에 대 한 정보를 입력 하 고 **추가**를 선택 합니다.
 
 ## <a name="view-your-invoices"></a>송장 보기
 
-1. 관리 센터에서 **청구**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">금액 & 지불</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">금액 & 지불</a> 페이지로 이동 합니다.
 
-2. **송장** 아래에서 보려는 송장을 선택 합니다.
+2. **송장** 탭에서 보려는 송장을 선택 합니다. 송장이 표시 되지 않으면 **지난 3 개월 동안** 지난 **6 개월** 동안 또는 **날짜 범위 지정**으로 변경 합니다.
 
 ## <a name="need-help-contact-us"></a>도움이 필요하신가요? 문의처.
 
 셀프 서비스 구매에 대 한 일반적인 질문은 [셀프 서비스 구매 FAQ](self-service-purchase-faq.md)를 참조 하세요.
 
-궁금한 사항이 있거나 셀프 서비스 구매에 도움이 필요한 경우 [고객 지원에 문의 하세요](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+궁금한 사항이 있거나 셀프 서비스 구매에 도움이 필요한 경우 [고객 지원에 문의 하세요](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).

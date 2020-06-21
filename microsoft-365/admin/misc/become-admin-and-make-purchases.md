@@ -20,22 +20,22 @@ search.appverid:
 - MOE150
 ms.assetid: 48b26596-9e5b-4e5a-a64f-7430eb2a1e45
 description: '관리자가 되 고 조직에 대 한 Microsoft 365 구독을 받는 방법을 알아봅니다. '
-ms.openlocfilehash: 7d1e5673e6c995d007603d364b22ad81638d1782
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 5ecfde457cc04e28ef544701fe623a53a8e610b1
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399461"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780040"
 ---
 # <a name="become-the-admin-and-purchase-microsoft-365-for-your-organization"></a>관리자 되 고 조직에 대 한 Microsoft 365을 구입 합니다.
 
 Microsoft는 조직 내 사용자가 IT 부서의 공식 배포를 기다리지 않고 간단히 생산성 도구 및 서비스를 등록하고 사용할 수 있게 합니다.
   
-조직에서는 사용자가 이러한 서비스를 "있는 그대로" 계속 사용하도록 할 수 있습니다. 그러나 사용자가 Skype 모임을 이러한 서비스 중 하나로 등록한 경우 비즈니스용 Skype, Office 응용 프로그램, 파일 저장소, 공유 등을 업그레이드하고 이를 통해 더 복잡한 모임 솔루션을 이용할 수 있도록 하는 관리자를 할당할 수 있습니다.
+Your organization can let people continue to use these services "as is." But if people signed up for Skype Meetings as one of those services, you can assign an admin to upgrade and get a more complete meeting solution with Skype for Business and Office applications, file storage and sharing, and more.
   
 ## <a name="why-become-the-admin-and-buy-microsoft-365-for-your-organization"></a>관리자가 되 고 조직에 대해 Microsoft 365을 구입 하는 이유는 무엇 인가요?
 
-직원이 해당 회사 계정으로 Skype 모임을 등록하면 서비스를 관리할 수 없습니다. 또한 가장 기본적인 기능만 사용할 수 있습니다. 즉, 무제한으로 모임을 할 수 있지만 참가자 수는 10명 이하로만 가능합니다(60일 후에는 최대 참가자 수가 3명임). 
+When an employee signs up for Skype Meetings with their work account, they can't manage the service. And they get only the most basic features: they can have unlimited meetings but only with 10 or fewer participants (after 60 days, the maximum participants is three people). 
   
 서비스에 대 한 관리자를 설정 하 고 사용자를 위해 Microsoft 365을 구입 하면 고급 기능을 사용할 수 있습니다. 또한 서비스 관리 기능을 사용할 수 있으므로 정책을 적용하고 새 사용자를 추가할 수 있습니다.
   
@@ -87,9 +87,9 @@ Microsoft는 조직 내 사용자가 IT 부서의 공식 배포를 기다리지 
 |:-----|:-----|
 |라이선스 추가 또는 제거  <br/> |Microsoft 365을 사용 하지 않는 사용자의 [라이선스를 더 추가](../../commerce/licenses/buy-licenses.md) 하거나, 조직의 Microsoft 365 비즈니스 에디션 구독을 사용 하지 않으려는 [사용자의 라이선스를 제거할](../manage/remove-licenses-from-users.md) 수 있습니다.  <br/> |
 |이미 등록한 다른 사용자에게 연락  <br/> |다른 사용자에 게 연락 하 여 Microsoft 365 구독을 관리 하 고 업그레이드 되었음을 알려 줍니다. [이러한 단계에 따라](../add-users/add-users.md) **활성 사용자** 및 해당 전자 메일 주소 목록을 표시합니다.  <br/> |
-|Microsoft 365 사용 시작  <br/> |[Office 365 학습 센터](https://support.office.com/learn/office365-for-business)를 방문하여 로그인, 전자 메일 확인, 문서 공유 등의 방법을 알아보세요. 귀하와 사용자는이 사이트를 사용 하 여 Microsoft 365을 시작할 수 있습니다.  <br/> |
+|Microsoft 365 사용 시작  <br/> |[Office 365 학습 센터](https://support.microsoft.com/training)를 방문하여 로그인, 전자 메일 확인, 문서 공유 등의 방법을 알아보세요. 귀하와 사용자는이 사이트를 사용 하 여 Microsoft 365을 시작할 수 있습니다.  <br/> |
 |Microsoft 365 구독 관리  <br/> |[Microsoft 365 Admin help center](../admin-home.md) 를 방문 하 여 사용자 추가 및 제거, 암호 재설정 및 모바일 장치 설정과 같은 일반적인 관리 작업에 대해 알아보세요.  <br/> |
 
-## <a name="still-need-help"></a>여전히 도움이 필요하세요?
+## <a name="still-need-help"></a>아직 해결되지 않았습니까?
 
 [Microsoft 지원 서비스에 문의](../contact-support-for-business-products.md)

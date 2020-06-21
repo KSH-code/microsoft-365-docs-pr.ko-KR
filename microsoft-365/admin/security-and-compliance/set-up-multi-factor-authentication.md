@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: 조직에 대해 multi-factor authentication을 설정 하는 방법을 알아봅니다.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 9218e81aaf016c379c6ba8c7ae846a2a2132cf35
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: a8e84746a577b95307d325047f0822e8eb3786f0
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515810"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779944"
 ---
 # <a name="set-up-multi-factor-authentication"></a>다단계 인증 설정
   
@@ -80,10 +80,10 @@ ms.locfileid: "44515810"
 다음과 같이 직원 들이 이해할 수 있도록 전자 메일 알림, hallway 포스터, 팀 회의 또는 공식적인 교육을 사용 합니다.
 
 - 로그인에 MFA가 필요한 이유
-- [추가 확인 방법에 등록 하는 방법](https://support.office.com/article/set-up-your-microsoft-365-sign-in-for-multi-factor-authentication-ace1d096-61e5-449b-a875-58eb3d74de14?ui=en-US&rs=en-001&ad=US)
-- [등록 후 로그인 하는 방법](https://support.office.com/article/sign-in-to-microsoft-365-with-multi-factor-authentication-2b856342-170a-438e-9a4f-3c092394d3cb)
-- [추가 확인 방법을 변경 하는 방법](https://support.office.com/article/change-how-you-do-additional-verification-956ec8d0-7081-4518-a701-f8414cc20831)
-- [새 smart 전화와 같은 상황을 처리 하는 방법](https://support.office.com/article/fix-common-problems-with-multi-factor-authentication-6951be76-af50-49a4-847f-21391eaa59f2)
+- [추가 확인 방법에 등록 하는 방법](https://support.microsoft.com/office/ace1d096-61e5-449b-a875-58eb3d74de14)
+- [등록 후 로그인 하는 방법](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb)
+- [추가 확인 방법을 변경 하는 방법](https://support.microsoft.com/office/956ec8d0-7081-4518-a701-f8414cc20831)
+- [새 smart 전화와 같은 상황을 처리 하는 방법](https://support.microsoft.com/office/6951be76-af50-49a4-847f-21391eaa59f2)
 
 가장 중요 한 점은 ***MFA 요구 사항을*** 예기치 않게 설정 하는 경우 직원이이를 이해 하 고 있는지 확인 하는 것입니다.
 
@@ -120,6 +120,6 @@ Azure portal의 azure Active Directory (Azure AD)에 대 한 **속성** 창에�
 
 직원이 MFA에 등록 하 고 로그인을 시작할 때 IT 전문가, IT 부서 또는 지원 자가 질문에 답하고 문제를 빠르게 해결할 수 있도록 합니다.
 
-[MFA 로그인 문제 해결에 대 한 자세한 내용은](https://support.office.com/article/fix-common-problems-with-multi-factor-authentication-6951be76-af50-49a4-847f-21391eaa59f2)이 문서를 참조 하세요. 
+[MFA 로그인 문제 해결에 대 한 자세한 내용은](https://support.microsoft.com/office/6951be76-af50-49a4-847f-21391eaa59f2)이 문서를 참조 하세요. 
 
 

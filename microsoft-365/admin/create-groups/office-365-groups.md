@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 그룹에 대해 알아봅니다.
-ms.openlocfilehash: e677a5206a17f22900007fc4eeffc6e665186f8e
-ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
+ms.openlocfilehash: 14bc1211aaa65fb2daeebdb22729fce10154f204
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44419139"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780412"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>관리자를 위한 Microsoft 365 그룹 개요
 
@@ -80,7 +80,7 @@ Microsoft 365 그룹에는 다음과 같은 제한이 적용 됩니다.
 |파일 저장소|1 테라바이트 + 10 g b 구독 된 사용자 당 및 구매한 추가 저장소를 사용 합니다. 무제한의 추가 저장소를 구입할 수 있습니다.|
 |그룹 사서함 크기|50GB|
 
-조직에서 사용할 수 있는 Microsoft 365 그룹의 기본 최대 개수는 50만 이지만 요청에 따라 증가 될 수 있습니다. Microsoft 365 그룹 제한에 대 한 자세한 내용은 [microsoft 365 groups-Admin help](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)를 참조 하십시오.
+조직에서 사용할 수 있는 Microsoft 365 그룹의 기본 최대 개수는 50만 이지만 요청에 따라 증가 될 수 있습니다. Microsoft 365 그룹 제한에 대 한 자세한 내용은 [microsoft 365 groups-Admin help](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)를 참조 하십시오.
 
 그룹 사용에 대 한 정보를 사용할 수 있는 경우 Microsoft 365 그룹을 관리 하는 것이 보다 효율적입니다. Microsoft 365 관리 센터에는 저장소 사용, 보유 하 고 있는 활성 그룹 수 및 사용자가 그룹을 사용 하는 방법에 대 한 작업을 볼 수 있는 보고 도구가 있습니다. 자세한 내용은 [관리 센터의 Microsoft 365 보고서](../activity-reports/office-365-groups.md) 를 참조 하세요.
 
@@ -116,7 +116,7 @@ Microsoft 365 groups는 AAD (Azure Active Directory)를 사용 하 여 작동 �
 
 ## <a name="related-articles"></a>관련 문서
 
-[Microsoft 365 그룹에 대 한 자세한 정보](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+[Microsoft 365 그룹에 대 한 자세한 정보](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 [Microsoft 365 그룹으로 메일 그룹 업그레이드](../manage/upgrade-distribution-lists.md)
 

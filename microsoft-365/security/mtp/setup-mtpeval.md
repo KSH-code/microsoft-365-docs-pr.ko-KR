@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 117681bd4722615e870594e46d6896e9128d0d0c
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 6cba773d0c4bea259db151d5a8f1d8e03954a045
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209226"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717298"
 ---
 # <a name="set-up-your-microsoft-threat-protection-trial-lab-environment"></a>Microsoft Threat Protection 평가판 랩 환경 설정 
 
@@ -110,7 +110,7 @@ Microsoft 365 E5 라이선스를 등록 하는 데 사용할 수 있는 *onmicro
 <br>![이미지 of_Office 365 E5 전자 메일 메시지를 마이그레이션할지 여부를 설정할 수 있습니다.](../../media/mtp-eval-20.png) <br>
  
 13. 온라인 서비스를 선택 합니다. **Exchange** 를 선택 하 고 **다음**을 클릭 합니다. 
-<br>![Image of_Office 365 E5 Exchangem 비즈니스용 Skype 또는 Mibile 장치 관리 (Office 365)와 같은 온라인 서비스를 선택할 수 있습니다.](../../media/mtp-eval-21.png) <br>
+<br>![온라인 서비스를 선택할 수 있는 365 E5 이미지 of_Office](../../media/mtp-eval-21.png) <br>
 
 14. 도메인에 MX, CNAME 및 TXT 레코드를 추가 합니다. 완료 되 면 **확인**을 선택 합니다.
 <br>![Image of_Office 365 E5 여기에서 DNS 레코드를 추가할 수 있습니다.](../../media/mtp-eval-22.png) <br>
@@ -149,4 +149,6 @@ Microsoft 365 E5 라이선스를 등록 하는 데 사용할 수 있는 *onmicro
 
 
 ## <a name="next-step"></a>다음 단계
-||| |:-------|:-----| config-onboard) <br>[3 단계: & 구성 (온보드](config-mtpeval.md) |) Microsoft Threat Protection 평가판 테스트 환경에 대 한 각 Microsoft Threat Protection을 구성 하 고 끝점을 온보드 합니다.
+|||
+|:-------|:-----|
+|![3 단계: 온보드 & 구성](../../media/config-onboard.png) <br>[3 단계: 온보드 & 구성](config-mtpeval.md) | Microsoft Threat Protection 평가 랩에서 각 Microsoft Threat Protection을 구성 하 고 끝점을 등록 합니다.

@@ -23,12 +23,12 @@ search.appverid:
 - BEA160
 ms.assetid: b6c18a9b-2aed-4c84-9d75-af709160258c
 description: '새 Microsoft 365 파트너를 찾거나 이전에 작업 한 파트너에 대 한 연락처 정보를 가져오는 방법을 알아봅니다. '
-ms.openlocfilehash: b116fc77f41efa2e73bfa50bb187897d167d9998
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: fad16990df7783908f59a6e3dd59cb0a1a13572e
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515798"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780112"
 ---
 # <a name="find-your-partner-or-reseller"></a>파트너 또는 대리점 찾기
 
@@ -61,6 +61,6 @@ ms.locfileid: "44515798"
   
  **Microsoft 파트너**
   
-[파트너를 위한 도움말](https://support.office.com/article/ae811622-b838-4f62-b7e9-659627374963.aspx)
+[파트너를 위한 도움말](https://support.microsoft.com/office/ae811622-b838-4f62-b7e9-659627374963)
   
 

@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: '랜 섬 웨어, 피싱 및 악의적 첨부 파일을 포함 하 여 사이버 위협 으로부터 비즈니스 전자 메일 및 데이터를 보호 합니다. '
-ms.openlocfilehash: 9a9b6c01d979f4a5bb055f907dc0292a33f40993
-ms.sourcegitcommit: 1f3101326e8a54b9bda4ba0324eae00fafcf5e7b
+ms.openlocfilehash: 79ff8642170a5e45f67d95d7993632fd66252208
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44405182"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779956"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Microsoft 365 비즈니스 계획을 보호 하는 10 가지 주요 방법
 
@@ -64,7 +64,7 @@ Microsoft의 비즈니스 계획 중 하나를 사용 하는 중소 규모의 �
 다단계 인증을 사용 하는 것은 조직의 보안을 강화 하는 가장 쉽고 효율적인 방법 중 하나입니다. 사용자가 로그인 하는 것 보다 더 쉬운 기능, 다단계 인증은 사용자가 휴대폰에서 코드를 입력 하 여 Microsoft 365에 액세스 하는 것을 의미 합니다. 이렇게 하면 해커가 사용자의 암호를 알고 있는 경우에는이를 방지할 수 있습니다. Multi-factor authentication은 2 단계 확인이 라고도 합니다. 사용자는 대부분의 계정에 대해 2 단계 인증을 사용자의 Google 또는 Microsoft 계정에 쉽게 추가할 수 있습니다. [두 단계 인증을 개인 Microsoft 계정에 추가](https://go.microsoft.com/fwlink/?linkid=2016403&amp;clcid=0x409)하는 방법은 다음과 같습니다.
   
 Microsoft 365을 사용 하는 회사의 경우 사용자가 다단계 인증을 사용 하 여 로그인 해야 하는 설정을 추가 합니다. 이 변경 작업을 수행 하면 사용자가 다음에 로그인 할 때 전화를 2 단계 인증으로 설정 하 라는 메시지가 표시 됩니다.
-MFA를 설정 하는 방법 및 사용자가 설정을 완료 하는 방법에 대 한 교육 비디오를 보려면 [설정 업 mfa](https://support.office.com/article/e12187b8-216a-4490-9e3b-df34a06fb787) 및 [사용자 설정](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)를 참조 하세요.
+MFA를 설정 하는 방법 및 사용자가 설정을 완료 하는 방법에 대 한 교육 비디오를 보려면 [설정 업 mfa](https://support.microsoft.com/office/e12187b8-216a-4490-9e3b-df34a06fb787) 및 [사용자 설정](https://support.microsoft.com/office/a32541df-079c-420d-9395-9d59354f7225)를 참조 하세요.
   
 다단계 인증을 설정 하려면 다음을 수행 합니다.
 
@@ -79,7 +79,7 @@ MFA를 설정 하는 방법 및 사용자가 설정을 완료 하는 방법에 �
 5. 팝업 창에서 **Multi-factor Authentication 사용**을 선택 합니다.
 
 
-조직에 대한 다단계 인증을 설정한 후에는 사용자가 장치에서 2단계 인증을 설정해야 합니다. 자세한 내용은 [Set up 2-step 확인-Microsoft 365](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14)를 참조 하세요.
+조직에 대한 다단계 인증을 설정한 후에는 사용자가 장치에서 2단계 인증을 설정해야 합니다. 자세한 내용은 [Set up 2-step 확인-Microsoft 365](https://support.microsoft.com/office/ace1d096-61e5-449b-a875-58eb3d74de14)를 참조 하세요.
   
 모든 세부 정보 및 권장 사항에 대 한 자세한 내용은 [사용자에 대 한 다단계 인증 설정을](set-up-multi-factor-authentication.md)참조 하십시오.
   
@@ -88,7 +88,7 @@ MFA를 설정 하는 방법 및 사용자가 설정을 완료 하는 방법에 �
 
 Harvard Kennedy School [Cybersecurity 캠페인 안내서](https://go.microsoft.com/fwlink/?linkid=2015598&amp;clcid=0x409) 에서는 피싱 공격을 식별 하기 위한 교육 사용자를 포함 하 여 조직 내에서 보안을 보다 강력 하 게 인식 하는 방법을 제공 합니다. 
   
-이 지침 외에도, 사용자가 [해커 및 맬웨어로부터 계정 및 장치를 보호](https://support.office.com/article/066d6216-a56b-4f90-9af3-b3a1e9a327d6.aspx)하는이 문서에서 설명 하는 작업을 수행 하는 것이 좋습니다. 이러한 작업은 다음과 같습니다.
+이 지침 외에도, 사용자가 [해커 및 맬웨어로부터 계정 및 장치를 보호](https://support.microsoft.com/office/066d6216-a56b-4f90-9af3-b3a1e9a327d6)하는이 문서에서 설명 하는 작업을 수행 하는 것이 좋습니다. 이러한 작업은 다음과 같습니다.
   
 - 강력한 암호 사용
     
@@ -98,7 +98,7 @@ Harvard Kennedy School [Cybersecurity 캠페인 안내서](https://go.microsoft.
     
 또한 사용자는 다음 문서에서 권장 하는 작업을 수행 하 여 개인 전자 메일 계정을 보호 하는 것이 좋습니다.
   
-- [Outlook.com 전자 메일 계정 보호](https://support.microsoft.com/en-us/office/help-protect-your-outlook-com-email-account-a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
+- [Outlook.com 전자 메일 계정 보호](https://support.microsoft.com/office/a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
     
 - [2 단계 인증을 사용 하 여 Gmail 계정 보호](https://go.microsoft.com/fwlink/?linkid=2015688&amp;clcid=0x409)
     
@@ -116,7 +116,7 @@ Microsoft 365 환경을 관리 하는 데 사용 하는 관리 계정에 상승 
 ## <a name="4-raise-the-level-of-protection-against-malware-in-mail"></a>4: 메일에서 맬웨어에 대 한 보호 수준을 올립니다.
 <a name="malware"> </a>
 
-Microsoft 365 환경에는 맬웨어에 대 한 보호 기능이 포함 되어 있지만 일반적으로 맬웨어에 사용 되는 파일 형식을 사용 하면이 보호 기능을 향상 시킬 수 있습니다. 전자 메일에서 맬웨어 보호를 강화 하려면 [간단한 교육 비디오](https://support.office.com/article/02b5783a-eea0-42e8-8856-62440718c3f0)를 보거나 다음 단계를 완료 합니다.
+Microsoft 365 환경에는 맬웨어에 대 한 보호 기능이 포함 되어 있지만 일반적으로 맬웨어에 사용 되는 파일 형식을 사용 하면이 보호 기능을 향상 시킬 수 있습니다. 전자 메일에서 맬웨어 보호를 강화 하려면 [간단한 교육 비디오](https://support.microsoft.com/office/02b5783a-eea0-42e8-8856-62440718c3f0)를 보거나 다음 단계를 완료 합니다.
   
 1. 으로 이동 하 [https://protection.office.com](https://protection.office.com) 고 관리자 계정 자격 증명으로 로그인 합니다. 
     
@@ -143,7 +143,7 @@ Microsoft 365 환경에는 맬웨어에 대 한 보호 기능이 포함 되어 �
     
 - 랜 섬 웨어 또는 기타 악성 코드가 포함 될 수 있는 파일 형식을 차단 합니다. 다음 표에 나열 된 것 처럼 일반적인 실행 파일 목록을 사용 하 여 시작 합니다. 조직에서 이러한 실행 유형 중 하나를 사용 하는 경우 해당 유형이 전자 메일로 전송 될 것으로 예상 되 면이를 이전 규칙 (사용자에 게 경고)에 추가 합니다.
     
-메일 전송 규칙을 만들려면 [간단한 교육 비디오](https://support.office.com/article/a9ecca03-42a6-4867-b9fd-38e3f6bb06ad)를 보거나 다음 단계를 완료 합니다.
+메일 전송 규칙을 만들려면 [간단한 교육 비디오](https://support.microsoft.com/office/a9ecca03-42a6-4867-b9fd-38e3f6bb06ad)를 보거나 다음 단계를 완료 합니다.
   
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a>로 이동합니다.
 
@@ -172,7 +172,7 @@ Microsoft 365 환경에는 맬웨어에 대 한 보호 기능이 포함 되어 �
   
 - [랜 섬 웨어를 처리 하는 방법](https://go.microsoft.com/fwlink/?linkid=2016501&amp;clcid=0x409)
     
-- [OneDrive 복원](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15.aspx)
+- [OneDrive 복원](https://support.microsoft.com/office/fa231298-759d-41cf-bcd0-25ac53eb8a15)
     
 ## <a name="6-stop-auto-forwarding-for-email"></a>6: 전자 메일에 대 한 자동 전달 중지
 <a name="forwarding"> </a>
@@ -231,7 +231,7 @@ Outlook.com에서 전자 메일에서 **보호** 를 선택 합니다. 기본 �
   
 받는 사람이 Gmail 또는 Yahoo와 같은 다른 전자 메일 클라이언트나 전자 메일 계정을 사용 하는 경우에는 로그인 하 여 전자 메일 메시지를 읽거나 일회용 암호를 요청 하 여 웹 브라우저에서 메시지를 볼 수 있는 링크가 표시 됩니다. 사용자가 전자 메일을 받지 못하는 경우 스팸 또는 정크 폴더를 확인 하도록 합니다. 
   
-자세한 내용은 [Outlook FOR PC에서 암호화 된 메시지 보내기, 보기 및 회신을](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980)참조 하세요.
+자세한 내용은 [Outlook FOR PC에서 암호화 된 메시지 보내기, 보기 및 회신을](https://support.microsoft.com/office/eaa43495-9bbb-4fca-922a-df90dee51980)참조 하세요.
   
 ## <a name="8-protect-your-email-from-phishing-attacks"></a>8. 피싱 공격 으로부터 전자 메일을 보호 합니다.
 <a name="phishing"> </a>
@@ -242,7 +242,7 @@ Microsoft 365 환경에 대해 하나 이상의 사용자 지정 도메인을 �
   
 ![ATP 피싱 방지 정책 만들기](../../media/security-and-compliance-center.png)
   
-ATP 피싱 방지 정책을 만들려면 [간단한 교육 비디오](https://support.office.com/article/86c425e1-1686-430a-9151-f7176cce4f2c)를 보거나 다음 단계를 완료 합니다.
+ATP 피싱 방지 정책을 만들려면 [간단한 교육 비디오](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)를 보거나 다음 단계를 완료 합니다.
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다. 
     
@@ -276,7 +276,7 @@ ATP 피싱 방지 정책을 만들려면 [간단한 교육 비디오](https://su
 
 사용자가 문서, 프레젠테이션, 스프레드시트 등의 첨부 파일을 정기적으로 보내고 받고 공유 합니다. 전자 메일 메시지를 확인 하기만 하면 첨부 파일이 안전한 지 또는 악의적 임을 쉽게 알 수 있습니다. Office 365 Advanced Threat Protection은 ATP Safe 첨부 파일 보호를 포함 하지만이 보호 기능은 기본적으로 설정 되어 있지 않습니다. 이 보호 기능을 사용 하기 시작 하는 새 규칙을 만드는 것이 좋습니다. 이 보호는 SharePoint, OneDrive 및 Microsoft 팀의 파일로 확장 됩니다.
   
-ATP 안전한 첨부 파일 정책을 만들려면 [간단한 교육 비디오](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)를 보거나 다음 단계를 완료 하세요.
+ATP 안전한 첨부 파일 정책을 만들려면 [간단한 교육 비디오](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)를 보거나 다음 단계를 완료 하세요.
   
 1. 으로 이동 하 [https://protection.office.com](https://protection.office.com) 고 관리자 계정으로 로그인 합니다. 
     
@@ -315,7 +315,7 @@ ATP 안전한 첨부 파일 정책을 만들려면 [간단한 교육 비디오](
     
 - 도메인의 모든 받는 사람을 대상으로 하는 새 정책을 추가 합니다.
     
-ATP 안전한 링크를 보려면 [간단한 교육 비디오](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa)를 보거나 다음 단계를 완료 하세요.
+ATP 안전한 링크를 보려면 [간단한 교육 비디오](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)를 보거나 다음 단계를 완료 하세요.
   
 1. 으로 이동 하 [https://protection.office.com](https://protection.office.com) 고 관리자 계정으로 로그인 합니다. 
     

@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Microsoft에서는 자체 지원 및 보조 지원을 비롯하여 다양한 방법 및 위치에서 EOP에 대한 도움말을 제공합니다.
-ms.openlocfilehash: 277c48a8ac9503681eb695fba3697ddd16e49b88
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 7d1c62bd6ddef44e86e47b894e2d386dd8c0bd55
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588243"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755191"
 ---
 # <a name="help-and-support-for-eop"></a>EOP에 대한 도움말 및 지원
 
@@ -33,7 +33,7 @@ Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (exchange online
 
 [Microsoft 365 커뮤니티](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
 
-[Microsoft 지원 및 복구 도우미 (SaRA)](https://support.office.com/article/e90bb691-c2a7-4697-a94f-88836856c72f)
+[Microsoft 지원 및 복구 도우미 (SaRA)](https://support.microsoft.com/office/e90bb691-c2a7-4697-a94f-88836856c72f)
 
 [메일 흐름 문제 해결사](https://aka.ms/FixEmail)
 
@@ -43,7 +43,7 @@ Microsoft 365 관리 센터에서 새 서비스 요청을 시작 하거나 전�
 
 ### <a name="support-for-microsoft-premier-support-subscribers"></a>Microsoft 프리미어 지원 구독자에 대한 지원
 
-EOP 고객이면서 Microsoft 프리미어 지원 계약도 보유하고 있는 경우 일반 Microsoft 프리미어 지원 채널을 통해 지원을 받을 수 있습니다. 이를 통해 프리미어 TAM(기술 담당 관리자) 및 서비스 케이스 제출과 같은 프리미어 지원 고객이 사용할 수 있는 모든 프로세스 및 리소스에 액세스할 수 있습니다. Microsoft Online Services에 대한 프리미어 지원은 프리미어 지원 프레임워크를 온-프레미스 제품을 넘어 온라인 서비스까지 확장하여 모든 제품 및 서비스 전체에서 통합 지원 환경을 제공합니다. 이 서비스는 고객이 신속하게 문제를 해결할 수 있도록 하며 IT 인프라의 다양한 구성 요소에 대한 지원 관리 작업을 간소화합니다.
+If you are an EOP customer and also have a Microsoft Premier Support contract, you can get support through the normal Microsoft Premier Support channels. This allows you to receive access to all processes and resources available to Premier Support customers, such as a Premier Technical Account Manager (TAM) and case submission. Premier Support for Microsoft Online Services extends the Premier Support framework beyond on-premises products to online services, providing you with a unified support experience across all products and services. This service helps ensure that customers can resolve issues quickly and simplifies the task of managing support for different components of an IT infrastructure.
 
 프리미어 지원이 조직의 IT 투자 가치를 극대화 하는 데 도움이 되는 방식에 대 한 자세한 내용은 [Premier support for](https://partner.microsoft.com/support/microsoft-services-premier-support)partner을 참조 하십시오.
 

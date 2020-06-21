@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 35c24153bdacbdc0d07d65b508e66878bd0045e4
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: e0e5c003ed78b78c5f259eae7e08478d523b5b12
+ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43029831"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773790"
 ---
 # <a name="device-configuration"></a>장치 구성
 
@@ -33,7 +33,7 @@ ms.locfileid: "43029831"
 
 정책 | 설명
 --- | ---
-보안 초기 계획 | MDM 용 [microsoft 보안 기준은](https://docs.microsoft.com/windows/device-security/windows-security-baselines) 모든 Microsoft 관리 데스크톱 장치에 대해 구성 됩니다. 이 기준은 업계 표준 구성입니다. 이 기능은 공개적으로 출시 되 고 테스트 되었으며 microsoft의 관리 되는 데스크톱 장치 및 앱을 최신 회사에서 안전 하 게 유지 하기 위해 마이크로소프트 보안 전문가가 검토 하 고 있습니다. <br><br>지속적으로 진화 하는 보안 위협 요소에서 위협을 완화 하기 위해 Microsoft 보안 기준은 각 Windows 10 기능 업데이트를 사용 하 여 Microsoft Managed Desktop 장치에 배포 됩니다.<br><br>자세한 내용은 [Windows 10에 대 한 보안 기준을](https://blogs.technet.microsoft.com/secguide/2017/10/18/security-baseline-for-windows-10-fall-creators-update-v1709-final/)참조 하십시오.
+보안 초기 계획 | MDM 용 [microsoft 보안 기준은](https://docs.microsoft.com/windows/device-security/windows-security-baselines) 모든 Microsoft 관리 데스크톱 장치에 대해 구성 됩니다. 이 기준은 업계 표준 구성입니다. 이 기능은 공개적으로 출시 되 고 테스트 되었으며 microsoft의 관리 되는 데스크톱 장치 및 앱을 최신 회사에서 안전 하 게 유지 하기 위해 마이크로소프트 보안 전문가가 검토 하 고 있습니다. <br><br>지속적으로 진화 하는 보안 위협 요소에서 위협을 완화 하기 위해 Microsoft 보안 기준은 각 Windows 10 기능 업데이트를 사용 하 여 Microsoft Managed Desktop 장치에 배포 됩니다.<br><br>자세한 내용은 [Windows 보안 기준을](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines)참조 하십시오.
 Microsoft Managed Desktop 권장 보안 서식 파일 | 보안 기준이 사용자 환경을 최적화 하는 권장 변경 사항 집합입니다.  이러한 변경 내용은 [보안 추 록](#security-addendum)에 설명 되어 있습니다. 추 록 정책에 대 한 업데이트는 필요한 기준에 따라 발생 합니다.  
 업데이트 배포 | 비즈니스용 Windows 업데이트를 사용 하 여 소프트웨어 업데이트의 점진적 배포를 수행 합니다. IT 관리자는 배포 그룹 정책에 대 한 설정을 수정할 수 없습니다. 그룹 기반 배포에 대 한 자세한 내용은 [Microsoft Managed Desktop에서 업데이트를 처리 하는 방법을](updates.md)참조 하세요.
 데이터 통신 연결 | 기본적으로 LTE 네트워크와 같은 유료 연결을 통한 업데이트는 사용 되지 않지만 각 사용자는 **고급 옵션 > 업데이트 > 설정**에 독립적으로이 기능을 켤 수 있습니다. 모든 사용자가 데이터 통신 연결을 통해 업데이트를 사용 하도록 허용 하려면 모든 장치에 대해이 설정을 사용 하는 [변경 요청을 제출](../working-with-managed-desktop/admin-support.md)합니다.

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: eb926624-018b-4486-bf11-5fba6ee4d645
 description: 비즈니스를 위해 Microsoft 365을 설정 하기 위해 수행 해야 하는 작업에 대해 알아봅니다.
-ms.openlocfilehash: 7c329e8f4df5076a9f4826d18e8a82bcc7cd6dd8
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 7509e2c4801adbca492e5f5446c5b97eae31dccf
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398849"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44778952"
 ---
 # <a name="plan-your-setup-of-microsoft-365-for-business"></a>비즈니스를 위한 Microsoft 365의 설정 계획
 
@@ -72,7 +72,7 @@ ms.locfileid: "44398849"
 
     1. [Microsoft 365에 직원을 추가](../add-users/add-users.md) 하 여 Office 앱을 다운로드 하 고 설치할 수 있도록 합니다.
 
-    2. [Office 앱을 다운로드 및 설치](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx)하여 컴퓨터와 장치에서 Word, Excel 및 PowerPoint를 사용합니다.
+    2. [Office 앱을 다운로드 및 설치](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)하여 컴퓨터와 장치에서 Word, Excel 및 PowerPoint를 사용합니다.
 
     3. 모임에 사용할 [Microsoft 팀을 설정](#plan-for-teams) 합니다.
 
@@ -111,9 +111,9 @@ ms.locfileid: "44398849"
 
 ## <a name="plan-for-file-storage-and-migration"></a>파일 저장소 및 마이그레이션 계획
 
-Microsoft 365에서는 개인, 소규모 조직 및 기업을 위한 클라우드 저장소를 제공 합니다. 위치를 저장 하는 방법에 대 한 지침은 [Microsoft 365에서 문서를 저장할 수 있는 위치](https://support.office.com/article/c7c20284-bc94-47f4-9728-d28e9daf0790.aspx)를 참조 하세요.
+Microsoft 365에서는 개인, 소규모 조직 및 기업을 위한 클라우드 저장소를 제공 합니다. 위치를 저장 하는 방법에 대 한 지침은 [Microsoft 365에서 문서를 저장할 수 있는 위치](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790)를 참조 하세요.
   
-- **수백 개의 파일** 을 [OneDrive](https://support.office.com/article/45114744-6D42-45CD-8975-F9617819BDEB.aspx) 로 이동 하거나 [SharePoint 팀 사이트로](https://support.office.com/article/da549fb1-1fcb-4167-87d0-4693e93cb7a0.aspx#__toc384119242)이동할 수 있습니다. You can upload 100 files at a time. Avoid uploading files larger than 2GB, which is the maximum file size by default.
+- **수백 개의 파일** 을 [OneDrive](https://support.microsoft.com/office/45114744-6D42-45CD-8975-F9617819BDEB) 로 이동 하거나 [SharePoint 팀 사이트로](https://support.microsoft.com/office/da549fb1-1fcb-4167-87d0-4693e93cb7a0#__toc384119242)이동할 수 있습니다. You can upload 100 files at a time. Avoid uploading files larger than 2GB, which is the maximum file size by default.
   
 - **수천 개의 파일** 을 Microsoft 365 저장소로 이동 하려는 경우 [SharePoint Online 제한을](https://go.microsoft.com/fwlink/p/?LinkID=856113)검토 하세요. 마이그레이션 도구를 사용하거나 마이그레이션을 도와줄 [파트너](https://go.microsoft.com/fwlink/?linkid=391089)를 고용하는 것이 좋습니다. 많은 수의 파일을 마이그레이션하는 방법에 대한 자세한 내용은 [SharePoint Online 및 OneDrive 마이그레이션 사용자 가이드](https://go.microsoft.com/fwlink/?LinkId=723574)를 참조하세요.
   

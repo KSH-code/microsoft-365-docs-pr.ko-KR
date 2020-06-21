@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b1ffe755-59e5-4369-826d-825f145a8400
 description: 메일 (목록)을 만들어 개별 받는 사람의 이름을 입력 하지 않고도 사용자 그룹에 전자 메일을 보낼 수 있습니다.
-ms.openlocfilehash: cf06d408363a71e43f1a850bf108d667a141af3a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: eaa1051c83f64a6a20d3f27eb17f2a0fef5f2b12
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398969"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779896"
 ---
 # <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 메일 그룹 만들기
   
@@ -69,7 +69,7 @@ ms.locfileid: "44398969"
     
 6. 메일 그룹에 사용자를 추가 하려면 [메일 그룹에 사용자 또는 연락처 추가](../email/add-user-or-contact-to-distribution-list.md)를 참조 하세요.
     
-[Outlook 항목의 대화 상대 그룹 사용 (이전 메일 목록)](https://support.office.com/article/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39.aspx) 에서 outlook 2016 및 웹용 outlook에서 그룹을 사용 하는 방법을 확인 하세요. 
+[Outlook 항목의 대화 상대 그룹 사용 (이전 메일 목록)](https://support.microsoft.com/office/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39) 에서 outlook 2016 및 웹용 outlook에서 그룹을 사용 하는 방법을 확인 하세요. 
   
 메일 그룹 문제에 대 한 도움말은 [메일 그룹 문제](https://docs.microsoft.com/office365/troubleshoot/groups/distribution-list-issues) 를 확인 하세요. 
   

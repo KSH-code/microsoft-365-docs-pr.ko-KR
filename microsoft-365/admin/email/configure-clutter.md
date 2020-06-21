@@ -20,19 +20,19 @@ search.appverid:
 - MOE150
 ms.assetid: 832276bd-d024-47b6-a80a-a6b884907a5b
 description: 'Exchange PowerShell을 사용 하 여 조직의 모든 또는 특정 사용자에 대해 낮은 우선 순위 기능을 사용 하거나 사용 하지 않도록 설정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 069cf7569ebb3654e979100291f6754693b24def
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 67267b0865dfcfd6c0ba66d59ce1d0d111d59325
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400139"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780280"
 ---
 # <a name="configure-clutter-for-your-organization"></a>조직에 대 한 복잡 한 구성
 
 > [!TIP]
 > [중요 받은 편지함](../setup/configure-focused-inbox.md) 에서 낮은 우선 순위를 대체 합니다. 자세한 내용은 [중요 받은 편지함에 대 한 업데이트 및 낮은 계획에 대 한 요금제](https://techcommunity.microsoft.com/t5/Outlook-Blog/Update-on-Focused-Inbox-and-our-plans-for-Clutter/ba-p/136448) 를 확인 하세요.
   
-관리자는 Microsoft 365에서 낮은 우선 순위 기능을 관리 해야 할 수 있습니다. 조직의 사용자에 대해 낮은 우선 순위 기능을 설정/해제 하려면 Exchange PowerShell을 사용 해야 합니다. 사용자는 다음 [지침을 사용](https://support.office.com/article/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c.aspx)하 여이 기능을 설정/해제할 수 있습니다. 
+관리자는 Microsoft 365에서 낮은 우선 순위 기능을 관리 해야 할 수 있습니다. 조직의 사용자에 대해 낮은 우선 순위 기능을 설정/해제 하려면 Exchange PowerShell을 사용 해야 합니다. 사용자는 다음 [지침을 사용](https://support.microsoft.com/office/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c)하 여이 기능을 설정/해제할 수 있습니다.
   
 Exchange PowerShell 사용에 대 한 자세한 내용은 [Exchange online에서 PowerShell을 사용](https://go.microsoft.com/fwlink/?LinkID=402831) 하 고 Exchange [Online PowerShell에 연결](https://go.microsoft.com/fwlink/?LinkID=722415) 을 참조 하세요. 적어도 Exchange 서비스 관리자 역할을 가진 계정 및 PowerShell을 사용 하 여 Exchange Online에 연결 하는 기능이 있어야 합니다. 
   
@@ -99,10 +99,10 @@ PowerShell을 사용 하 여 사용자를 대량으로 만드는 경우에는 �
 ## <a name="related-articles"></a>관련 문서
 <a name="bkmk_onoff"> </a>
 
-[간단 하 게 Outlook에서 낮은 우선 순위 메시지 정렬](https://support.office.com/article/use-clutter-to-sort-low-priority-messages-in-outlook-7b50c5db-7704-4e55-8a1b-dfc7bf1eafa0)
+[간단 하 게 Outlook에서 낮은 우선 순위 메시지 정렬](https://support.microsoft.com/office/7b50c5db-7704-4e55-8a1b-dfc7bf1eafa0)
     
-[간단 하 게 OWA에서 낮은 우선 순위의 메시지 정렬](https://support.office.com/article/fe4d64ca-bf73-48f1-91b4-9a659e008bce.aspx)
+[간단 하 게 OWA에서 낮은 우선 순위의 메시지 정렬](https://support.microsoft.com/office/fe4d64ca-bf73-48f1-91b4-9a659e008bce)
     
-[Outlook에서 혼란을 끕니다.](https://support.office.com/article/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c.aspx)
+[Outlook에서 혼란을 끕니다.](https://support.microsoft.com/office/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c)
     
 

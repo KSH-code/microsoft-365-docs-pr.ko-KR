@@ -20,12 +20,12 @@ ms.custom:
 - AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: 사용자를 최신 Office 클라이언트로 업그레이드 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 22fe8e12e4aff4f9afe52e913ad57d37866dbb95
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: fb2513b2112dd8427222d43d14184895df3b594b
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398813"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44778880"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>비즈니스 사용자를 위한 Microsoft 365를 최신 Office 클라이언트로 업그레이드
 
@@ -45,7 +45,7 @@ Office 2010는 2020 년 10 월 13 일에 지원 종료에 도달 합니다. Offi
   
  조직의 Microsoft 365 for business 구독을 담당 하는 관리자 인 경우 올바른 위치에 있습니다. 관리자는 일반적으로 사용자 관리, 암호 다시 설정, Office 설치 관리, 라이선스 추가 또는 제거와 같은 작업을 담당 합니다.
 
- 관리자가 아닌 경우 [Microsoft 365](https://support.office.com/article/28cbc8cf-1332-4f04-9123-9b660abb629e.aspx#BKMK_OfficePlans) 제품을 사용 하는 경우 office 업그레이드에 대 한 자세한 내용을 확인 [하는 방법을](https://support.office.com/article/ee68f6cf-422f-464a-82ec-385f65391350.aspx) 참조 하세요.
+ 관리자가 아닌 경우 [Microsoft 365](https://support.microsoft.com/office/28cbc8cf-1332-4f04-9123-9b660abb629e#BKMK_OfficePlans) 제품을 사용 하는 경우 office 업그레이드에 대 한 자세한 내용을 확인 [하는 방법을](https://support.microsoft.com/office/ee68f6cf-422f-464a-82ec-385f65391350) 참조 하세요.
 
 ## <a name="get-ready-to-upgrade"></a>업그레이드 준비
 
@@ -102,9 +102,9 @@ Office를 포함 하는 구독으로 전환 합니다. [다른 Microsoft 365 for
 
 ### <a name="select-the-version-of-office-you-want-to-uninstall"></a>제거 하려는 Office 버전을 선택 합니다.
 
-- [PC에서](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx)
+- [PC에서](https://support.microsoft.com/office/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8)
 
-- [Mac에서](https://support.office.com/article/eefa1199-5b58-43af-8a3d-b73dc1a8cae3.aspx)
+- [Mac에서](https://support.microsoft.com/office/eefa1199-5b58-43af-8a3d-b73dc1a8cae3)
   
 ### <a name="known-issues-trying-to-reinstall-older-versions-of-office-after-an-uninstall"></a>제거 후 이전 버전의 Office를 다시 설치 하려고 할 때의 알려진 문제
 
@@ -114,7 +114,7 @@ Office를 포함 하는 구독으로 전환 합니다. [다른 Microsoft 365 for
 
  **지원 되지 않는 구독** Office 365 Small Business Premium 또는 Office 365 중간급 기업과 같이 단종 된 구독을 통해 Office 복사본을 구입한 경우 구독에 제공 된 제품 키가 없으면 이전 버전의 Office를 설치할 수 없게 됩니다.
 
-최신 버전을 사용 하 여 이전 버전의 Office를 설치 하려는 경우에는이 기능이 지원 되는 버전 목록을 확인 하 고 [동일한 PC에 다른 버전의 Office를 설치 하 고 사용할](https://support.office.com/article/6ebb44ce-18a3-43f9-a187-b78c513788bf.aspx)수 있습니다. 예를 들어 이전 버전의 Office에서 사용 중인 타사 추가 기능을 설치한 경우 아직 최신 버전과 호환 되지 않는 경우에는 side-by-side 설치를 선택 하는 것이 적절 합니다.
+최신 버전을 사용 하 여 이전 버전의 Office를 설치 하려는 경우에는이 기능이 지원 되는 버전 목록을 확인 하 고 [동일한 PC에 다른 버전의 Office를 설치 하 고 사용할](https://support.microsoft.com/office/6ebb44ce-18a3-43f9-a187-b78c513788bf)수 있습니다. 예를 들어 이전 버전의 Office에서 사용 중인 타사 추가 기능을 설치한 경우 아직 최신 버전과 호환 되지 않는 경우에는 side-by-side 설치를 선택 하는 것이 적절 합니다.
 
 ## <a name="step-4---assign-office-licenses-to-users"></a>4 단계-사용자에 게 Office 라이선스 할당
 
@@ -122,7 +122,7 @@ Office를 설치 해야 하는 조직의 모든 사용자에 게 라이선스를
   
 ## <a name="step-5---install-office"></a>5 단계-Office 설치
 
-모든 사용자에 게 라이선스를 업그레이드할지 확인 한 후에는 [PC 또는 Mac에 office를 설치 하거나 다운로드 및 설치 또는 다시](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx)설치를 참조 하세요.
+모든 사용자에 게 라이선스를 업그레이드할지 확인 한 후에는 [PC 또는 Mac에 office를 설치 하거나 다운로드 및 설치 또는 다시](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)설치를 참조 하세요.
   
 > [!TIP]
 > 사용자가 Office를 설치 하지 못하도록 하려면 [office 365에서 소프트웨어 다운로드 설정 관리](https://docs.microsoft.com/DeployOffice/manage-software-download-settings-office-365)를 참조 하세요. [Office 배포 도구](https://docs.microsoft.com/DeployOffice/overview-office-deployment-tool) 를 사용 하 여 로컬 네트워크에 office 소프트웨어를 다운로드 한 다음 일반적으로 사용 하는 소프트웨어 배포 방법을 사용 하 여 office를 배포할 수 있습니다.

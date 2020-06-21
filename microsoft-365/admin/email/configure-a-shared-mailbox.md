@@ -1,5 +1,5 @@
 ---
-title: 공유 사서함 구성
+title: 공유 사서함 설정 구성
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,14 +21,14 @@ search.appverid:
 - MET150
 - MOE150
 description: 공유 사서함을 만든 후에는 전자 메일 전달 및 자동 회신 같은 사용자에 대 한 일부 설정을 구성 해야 합니다. 나중에 사서함 이름이 나 구성원 등의 다른 설정을 변경할 수 있습니다.
-ms.openlocfilehash: 7c88ffa3276f40ea983f9060658f4e4091e36280
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3bde856f4db80192f5ed058a18c7942aa6a724b2
+ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400151"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44739206"
 ---
-# <a name="configure-a-shared-mailbox"></a>공유 사서함 구성
+# <a name="configure-shared-mailbox-settings"></a>공유 사서함 설정 구성
 
 [공유 사서함을 만든](create-a-shared-mailbox.md)후에는 전자 메일 전달 및 자동 회신과 같은 사서함 사용자에 대 한 일부 설정을 구성 해야 합니다. 나중에 사서함 이름, 구성원 또는 구성원 권한과 같은 다른 설정을 변경할 수 있습니다. 
 
@@ -118,7 +118,7 @@ ms.locfileid: "44400151"
 
 ## <a name="allow-everyone-to-see-the-sent-email-the-replies"></a>모든 사람이 보낸 전자 메일(회신)을 볼 수 있도록 허용
 
-기본적으로 공유 사서함에서 보낸 메시지는 공유 사서함의 보낸 편지함 폴더에 저장되지 않습니다. 대신, 메시지를 보낸 사람의 보낸 편지함 폴더에 저장됩니다.
+By default, messages sent from the shared mailbox aren't saved to the Sent Items folder of the shared mailbox. Instead, they are saved to the Sent Items folder of the person who sent the message.
 
 모든 사용자가 보낸 전자 메일을 볼 수 있도록 하려면 관리 센터에서 공유 사서함 설정을 편집 하 고 **보낸 항목** \> **편집**을 선택 합니다.
 

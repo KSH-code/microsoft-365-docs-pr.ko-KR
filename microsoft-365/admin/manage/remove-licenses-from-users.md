@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 9b497c85-d0a4-4735-80fa-d3565bc05bd1
 description: 사용자 계정에서 라이선스를 제거 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 18fd23ab2eeb471f29be28cd03daae808c9eccf1
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 2918d8263318e9b6ce14076fb121e898249b5c48
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432234"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780076"
 ---
 # <a name="unassign-licenses-from-users"></a>사용자의 라이선스 할당 취소
 
@@ -57,7 +57,7 @@ ms.locfileid: "44432234"
 
 ::: moniker range="o365-worldwide"
   
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. **활성 사용자** 페이지에서 라이선스를 할당 해제할 사용자의 행을 선택 합니다.
 
@@ -69,7 +69,7 @@ ms.locfileid: "44432234"
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 라이선스의 할당을 취소할 사용자를 선택 합니다.
 
@@ -99,7 +99,7 @@ ms.locfileid: "44432234"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 라이선스를 할당 하지 않을 사용자의 이름 옆에 있는 원을 선택 합니다.
 
@@ -113,7 +113,7 @@ ms.locfileid: "44432234"
 
 ::: moniker range="o365-germany"
   
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 모든 라이선스의 할당을 취소할 사용자의 이름 옆에 있는 상자를 선택 합니다.
 
@@ -127,7 +127,7 @@ ms.locfileid: "44432234"
 
 ::: moniker range="o365-21vianet"
   
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 모든 라이선스의 할당을 취소할 사용자의 이름 옆에 있는 상자를 선택 합니다.
 
@@ -145,7 +145,7 @@ ms.locfileid: "44432234"
 
 - [Office 365 PowerShell로 사용자 계정에서 라이선스를 제거](https://go.microsoft.com/fwlink/p/?linkid=848428)할 수 있습니다.
 
-- 다른 사용자가 라이선스를 사용할 수 있도록 라이선스가 할당된 [사용자 계정을 삭제](../add-users/delete-a-user.md)할 수도 있습니다. 사용자 계정을 삭제하면 해당 라이선스를 즉시 다른 사람에게 할당할 수 있습니다.
+- You can also [delete user accounts](../add-users/delete-a-user.md) that have been assigned a license to make their license available to other users. When you delete a user account, their license is immediately available to be assigned to someone else.
 
 - 사용자가 라이선스를 제거 하면 해당 계정과 연결 된 데이터가 30 일 동안 보관 됩니다. 30 일 유예 기간이 지나면 데이터는 삭제 되며 복구할 수 없습니다.
 
@@ -157,7 +157,7 @@ ms.locfileid: "44432234"
 
 - 라이선스가 제거 된 후 Microsoft 365 데이터에 대 한 사용자의 액세스를 차단 하는 방법 및 나중에 데이터에 액세스 하는 방법에 대 한 자세한 내용은 [이전 직원 제거](../add-users/remove-former-employee.md)를 참조 하세요.
 
-- 사용자의 라이선스를 제거 해도 여전히 Office가 설치 되어 있으면 Office를 사용할 때 [허가 되지 않은 제품 알림이](https://support.office.com/article/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx) 표시 됩니다.
+- 사용자의 라이선스를 제거 해도 여전히 Office가 설치 되어 있으면 Office를 사용할 때 [허가 되지 않은 제품 알림이](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380) 표시 됩니다.
 
 ## <a name="related-articles"></a>관련 문서
 

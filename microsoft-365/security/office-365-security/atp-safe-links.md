@@ -25,12 +25,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 이 문서에서는 안전한 링크를 사용 하 여 피싱 및 기타 공격 으로부터 조직을 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: 5cd5e1331bb16b27cd036d20458355448ee32ae2
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 07ec9611a2dca7dff7daf3726b94b0aec638b17c
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616769"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754751"
 ---
 # <a name="atp-safe-links"></a>ATP 안전한 링크
 
@@ -47,7 +47,7 @@ ATP 안전한 링크 정책이 마련 되 면 전역 관리자, 보안 관리자
 
 ## <a name="how-to-get-atp-safe-links-protection"></a>ATP 안전한 링크 보호를 가져오는 방법
 
-**먼저 구독에 [Office 365 Advanced Threat Protection](office-365-atp.md) 이 포함 되어 있는지 확인** 합니다. 계획 1 또는 계획 2 Office 365 ATP는 [microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business), office 365 Enterprise E5, office 365 교육 A5 등의 구독에 포함 되어 있습니다. 조직에서 Office 365 ATP를 포함 하지 않는 Microsoft 365 구독을 사용 하는 경우 ATP를 추가 기능으로 구매할 수 있습니다. 자세한 내용은 다음 리소스를 참조하십시오.
+**먼저 구독에 [Office 365 Advanced Threat Protection](office-365-atp.md) 이 포함 되어 있는지 확인** 합니다. 계획 1 또는 계획 2 Office 365 ATP는 [microsoft 365 Enterprise e5](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business), office 365 Enterprise E5, office 365 교육 A5 등의 구독에 포함 되어 있습니다. 조직에서 Office 365 ATP를 포함 하지 않는 Microsoft 365 구독을 사용 하는 경우 ATP를 추가 기능으로 구매할 수 있습니다. 자세한 내용은 다음 리소스를 참조하십시오. 
 
 - [Office 365 Advanced Threat Protection 계획 및 가격 책정](https://products.office.com/exchange/advance-threat-protection)
 
@@ -59,7 +59,7 @@ ATP 안전한 링크 정책이 마련 되 면 전역 관리자, 보안 관리자
 
 - Microsoft 365 클라이언트 앱은 최신 인증을 사용 하도록 구성 됩니다 (Office 문서에서 ATP 안전한 링크 보호를 위한 기능). ( [Office 2016의 최신 인증을](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016)참조 하세요.)
 
-- 사용자가 회사 또는 학교 계정을 사용 하 여 로그인 한 경우 ( [Office 또는 office 365에 로그인을](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426)참조 하세요.)
+- 사용자가 회사 또는 학교 계정을 사용 하 여 로그인 한 경우 ( [Office에 로그인을](https://support.microsoft.com/office/b9582171-fd1f-4284-9846-bdd72bb28426)참조 하세요.)
 
 - 조직의 전자 메일은 Exchange Online Protection을 통해 전달 됩니다.
 
@@ -81,7 +81,7 @@ ATP 안전한 링크 정책이 마련 되 면 조직의 보안 팀은 [Advanced 
 
 다음 표에서는 ATP 안전한 링크 보호가 발생할 수도 있고 그렇지 않을 수도 있는 경우의 몇 가지 예를 설명 합니다. 이러한 모든 경우에는 조직에 Office 365 Enterprise E5가 있다고 가정 합니다.
 
-|**시나리오 예**|**이 경우 ATP 안전한 링크 보호가 적용 됩니까?**|
+|시나리오 예|이 경우 ATP 안전한 링크 보호가 적용 됩니까?|
 |:-----|:-----|
 |Jean은 전자 메일 및 Office 문서의 Url을 포함 하는 ATP 안전한 링크 정책이 있는 그룹의 구성원입니다. Jean에서 다른 사용자가 보낸 PowerPoint 프레젠테이션을 열고 프레젠테이션에서 URL을 클릭 합니다.|예. 정의 된 ATP Safe Links 정책은 Jean가 로그인 하 고 Windows, iOS 또는 Android 장치에서 Microsoft 365 앱을 사용 하 여 Jean에서 열리는 Jean 그룹, Jean의 전자 메일 및 Word, Excel, PowerPoint 또는 Visio 문서에 적용 됩니다.|
 |Chris의 조직에서는 모든 글로벌 또는 보안 관리자가 ATP 안전한 링크 정책을 아직 정의 하지 않았습니다. Chris에 게 악성 웹 사이트에 대 한 URL을 포함 하는 전자 메일을 받습니다. 이 URL은 악성이 고 링크를 클릭 하는 것을 알 수 있습니다.|아니요. 조직의 모든 사용자에 대 한 Url을 포함 하는 기본 정책은 보호를 적용 하기 위해 정의 해야 합니다.|

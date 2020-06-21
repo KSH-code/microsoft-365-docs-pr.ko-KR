@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 공유 사서함은 여러 사용자가 같은 사서함에 액세스 해야 하는 경우에 사용 됩니다. 공유 사서함을 만들기 전에 알아야 할 사항에 대해 알아봅니다.
-ms.openlocfilehash: 6d9b7f59840b8eb4ce38822945066e14d9a86a4d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 8ca942d35d54fc8cc635e401c250ce409b9af0dd
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400211"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780316"
 ---
 # <a name="about-shared-mailboxes"></a>공유 사서함 정보
 
@@ -42,7 +42,7 @@ ms.locfileid: "44400211"
 
 - **외부 사용자:** 회사 외부의 사용자 (예: Gmail 계정을 가진 사용자)에 게 공유 사서함에 대 한 액세스 권한을 부여할 수 없습니다. 이렇게 하려면 대신 Outlook용 그룹을 만드는 것이 좋습니다. 자세한 내용은 [관리 센터에서 Microsoft 365 그룹 만들기](../create-groups/create-groups.md)를 참조 하세요.
 
--  **Outlook에서 사용:** 브라우저에서 웹에 있는 Outlook을 사용 하 여 공유 사서함에 액세스 하는 것 외에도 iOS 용 Outlook 앱 또는 Android 용 Outlook 사용 앱을 사용할 수도 있습니다. 자세한 내용은 <a href="https://support.office.com/article/f866242c-81b2-472e-8776-6c49c5473c9f" target="_blank">Outlook mobile에 공유 사서함을 추가</a>합니다 .를 참조 하십시오. 또 다른 옵션으로는 공유 사서함에 대 한 그룹을 만들 수 있습니다. 자세한 내용은 [그룹 비교](../create-groups/compare-groups.md)를 참조 하십시오.  
+-  **Outlook에서 사용:** 브라우저에서 웹에 있는 Outlook을 사용 하 여 공유 사서함에 액세스 하는 것 외에도 iOS 용 Outlook 앱 또는 Android 용 Outlook 사용 앱을 사용할 수도 있습니다. 자세한 내용은 <a href="https://support.microsoft.com/office/f866242c-81b2-472e-8776-6c49c5473c9f" target="_blank">Outlook mobile에 공유 사서함을 추가</a>합니다 .를 참조 하십시오. 또 다른 옵션으로는 공유 사서함에 대 한 그룹을 만들 수 있습니다. 자세한 내용은 [그룹 비교](../create-groups/compare-groups.md)를 참조 하십시오.  
 
 - **암호화:** 공유 사서함에서 보낸 전자 메일은 암호화할 수 없습니다. 공유 사서함에는 키를 할당할 수 없도록 하는 자체 보안 컨텍스트 (사용자 이름/암호)가 없기 때문입니다. 두 명 이상이 구성원 인 경우 해당 사용자가 자신의 키를 사용 하 여 암호화 된 전자 메일을 전송/수신 하는 경우에는 다른 구성원이 메일을 암호화 한 공개 키에 따라 전자 메일이 읽기 어려울 수 있습니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "44400211"
 
 - **사용자가 너무 많음:** 공유 사서함에 동시에 액세스 하는 지정 된 사용자가 너무 많으면 일시적으로이 사서함에 연결 하지 못할 수 있습니다. 이 경우 사용자 수를 줄이거나 Microsoft 365 그룹 또는 공용 폴더와 같은 다른 작업을 사용 하는 것을 고려할 수 있습니다.
 
-- **메시지 삭제:** 아쉽게도 공유 사서함에서 메시지를 삭제 하는 것을 방지할 수는 없습니다. 이 문제를 해결 하는 유일한 방법은 공유 사서함 대신 Microsoft 365 그룹을 만드는 것입니다. Outlook의 그룹은 공유 사서함과 같습니다. 이 둘을 비교 하려면 [그룹 비교](../create-groups/compare-groups.md)를 참조 하세요. 그룹에 대 한 자세한 내용은 [그룹에 대 한 자세한](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx)정보를 참조 하십시오.
+- **메시지 삭제:** 아쉽게도 공유 사서함에서 메시지를 삭제 하는 것을 방지할 수는 없습니다. 이 문제를 해결 하는 유일한 방법은 공유 사서함 대신 Microsoft 365 그룹을 만드는 것입니다. Outlook의 그룹은 공유 사서함과 같습니다. 이 둘을 비교 하려면 [그룹 비교](../create-groups/compare-groups.md)를 참조 하세요. 그룹에 대 한 자세한 내용은 [그룹에 대 한 자세한](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)정보를 참조 하십시오.
 
 ## <a name="related-articles"></a>관련 문서
 

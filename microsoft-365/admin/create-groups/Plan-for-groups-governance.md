@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - BSA160
 description: Microsoft 365 그룹 거 버 넌 스를 계획 하는 방법을 알아봅니다.
-ms.openlocfilehash: f61d07bbb4434b493ffede47df401da6304d0063
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 37d243b56de363985ecb9463dfe5eb182d9e40b1
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44388188"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780496"
 ---
 # <a name="plan-for-governance-in-groups"></a>그룹의 거 버 넌 스 계획
 
@@ -51,16 +51,16 @@ Microsoft 365 그룹에서 지 원하는 주요 통신 방법에는 세 가지�
 > SharePoint, Planner 또는 Stream과 같은 다른 팀 작업 응용 프로그램을 통해 새 그룹을 만들면 Outlook 받은 편지함 및 Microsoft 팀에 연결 하는 기능을 사용 하 여 그룹을 만들 수 있습니다.
 
 그룹을 만든 위치에 따라 다음과 같은 특정 리소스가 자동으로 프로 비전 됩니다.
-- [받은 편지함](https://support.microsoft.com/en-us/office/have-a-group-conversation-in-outlook-a0482e24-a769-4e39-a5ba-a7c56e828b22) -그룹 구성원 간의 전자 메일 대화에 사용 됩니다. 이 받은 편지함에는 전자 메일 주소가 있으며, 기존 메일 그룹과 같이 그룹 외부에 있는 사람이 나 조직 외부의 메시지를 수락 하도록 설정할 수 있습니다.
- - [일정](https://support.office.com/article/schedule-a-meeting-on-a-group-calendar-in-outlook-0cf1ad68-1034-4306-b367-d75e9818376a) -그룹과 관련 된 이벤트 예약
-- [SharePoint 팀 사이트](https://support.office.com/article/what-is-a-sharepoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e) -그룹에 관련 된 정보, 링크 및 콘텐츠를 위한 중앙 리포지토리입니다.
-- [SharePoint 문서 라이브러리](https://support.microsoft.com/en-us/office/share-group-files-in-outlook-749bc73b-90c9-4760-9b6f-9aa1cf01b403) -그룹이 파일을 저장 하 고 공유할 수 있는 중앙 위치입니다.
-- [OneNote 전자 필기장](https://support.office.com/article/get-started-with-onenote-e768fafa-8f9b-4eac-8600-65aa10b2fe97) -아이디어, 리서치 및 정보를 수집 합니다.
-- [Planner](https://support.office.com/article/microsoft-planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc) -그룹 구성원 간에 프로젝트 작업을 할당 하 고 관리 하기 위한 것입니다.
-- [Yammer 그룹](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) -대화 및 공유 정보를 저장할 수 있는 일반적인 장소입니다.
+- [받은 편지함](https://support.microsoft.com/office/a0482e24-a769-4e39-a5ba-a7c56e828b22) -그룹 구성원 간의 전자 메일 대화에 사용 됩니다. 이 받은 편지함에는 전자 메일 주소가 있으며, 기존 메일 그룹과 같이 그룹 외부에 있는 사람이 나 조직 외부의 메시지를 수락 하도록 설정할 수 있습니다.
+ - [일정](https://support.microsoft.com/office/0cf1ad68-1034-4306-b367-d75e9818376a) -그룹과 관련 된 이벤트 예약
+- [SharePoint 팀 사이트](https://support.microsoft.com/office/75545757-36c3-46a7-beed-0aaa74f0401e) -그룹에 관련 된 정보, 링크 및 콘텐츠를 위한 중앙 리포지토리입니다.
+- [SharePoint 문서 라이브러리](https://support.microsoft.com/office/749bc73b-90c9-4760-9b6f-9aa1cf01b403) -그룹이 파일을 저장 하 고 공유할 수 있는 중앙 위치입니다.
+- [OneNote 전자 필기장](https://support.microsoft.com/office/e768fafa-8f9b-4eac-8600-65aa10b2fe97) -아이디어, 리서치 및 정보를 수집 합니다.
+- [Planner](https://support.microsoft.com/office/4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc) -그룹 구성원 간에 프로젝트 작업을 할당 하 고 관리 하기 위한 것입니다.
+- [Yammer 그룹](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2) -대화 및 공유 정보를 저장할 수 있는 일반적인 장소입니다.
 - Microsoft 팀-Microsoft 365의 채팅 기반 작업 영역
 
-각 그룹에 대해 만들어지는 리소스에 대 한 자세한 내용은 [Microsoft 365 그룹에 대 한](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)자세한 정보를 참조 하세요.
+각 그룹에 대해 만들어지는 리소스에 대 한 자세한 내용은 [Microsoft 365 그룹에 대 한](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)자세한 정보를 참조 하세요.
 
 > [!NOTE]
 > Yammer 또는 팀을 통해 새 Microsoft 365 그룹을 만들 때 해당 사용자 간의 기본 통신은 해당 클라이언트에서 발생 하므로 Outlook 또는 주소록에 그룹이 표시 되지 않습니다. Yammer 그룹은 Microsoft 팀에 연결할 수 없습니다.
@@ -82,7 +82,7 @@ Microsoft 365 내에 대화를 할 수 있는 위치가 여러 개 있습니다.
 
 - Outlook 그룹: 최신 DL (전자 메일 기반 공동 작업)
   - 대상 정보 교환에 대 한 장소
-  - Dl을 Microsoft 365 Groups로 업그레이드 하 고 [업그레이드 해야 하는 이유는 무엇 인가요?](https://support.microsoft.com/office/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188)
+  - Dl을 Microsoft 365 Groups로 업그레이드 하 고 [업그레이드 해야 하는 이유는 무엇 인가요?](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)
 
 - SharePoint-모든 Microsoft 365 그룹에 대 한 핵심 콘텐츠 공동 작업 환경
   - 모든 그룹은 연결 된 SharePoint 팀 사이트를 가져옵니다.
@@ -135,7 +135,7 @@ Microsoft 365 그룹에는 조직에 필요한 거 버 넌 스 기능을 구현 
 #### <a name="resources"></a>*리소스*
 - [Microsoft 365 그룹을 만들 수 있는 사용자 관리](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups?view=o365-worldwide)
 - [개체 특성에 따라 동적으로 그룹 채우기](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-groups-with-advanced-rules)
-- [Outlook 용 Microsoft 365 그룹의 기본 설정을 공용 또는 개인으로 변경 하는 방법](https://support.office.com/article/office-365-groups-in-outlook-private-by-default-36236e39-26d3-420b-b0ac-8072d2d2bedc)
+- [Outlook 용 Microsoft 365 그룹의 기본 설정을 공용 또는 개인으로 변경 하는 방법](https://support.microsoft.com/office/36236e39-26d3-420b-b0ac-8072d2d2bedc)
 - [보안 그룹과 팀 멤버 자격 동기화](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Syncing-Security-Groups-with-team-membership/ba-p/241959)
 
 ### <a name="group-soft-delete-and-restore"></a><a name="group-soft-delete-and-restore"></a>그룹 일시 삭제 및 복원
@@ -152,7 +152,7 @@ Microsoft 365 그룹을 삭제 한 경우에는 기본적으로 30 일 동안 �
 |![이미지 desc](../../media/next_steps.png)|다음 단계|<ul><li>사용자에 게 예상 되는 동작을 알리기 위해 삭제 및 복원 정책 전달 및 게시 </li><li> 조직 요구 사항을 문서화 하 여 삭제 된 그룹을 모니터링 합니다.</li><li>그룹 구축의 일부로 이러한 요구 사항을 구현할 계획입니다.</li></ul>|
 
 > [!Important]
->"소프트 삭제" 기간 동안 사용자가 사이트에 액세스를 시도하는 경우 403 금지 메시지가 표시됩니다. 이 기간 이후에 사용자가 사이트에 액세스하려고 하면 404 찾을 수 없음 메시지가 표시됩니다.
+>During the "soft-delete" period if a user tries to access the site they will get a 403 forbidden message. After this period if the user tries to access the site they will get a 404 not found message.
 
 #### <a name="resources"></a>*리소스*
 - [삭제 된 Microsoft 365 그룹 복원](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group?ui=en-US&rs=en-001&ad=US)
@@ -208,7 +208,7 @@ Microsoft 365 그룹을 삭제 한 경우에는 기본적으로 30 일 동안 �
 >만료 정책을 변경 하면 서비스에서 각 그룹의 만료 날짜를 다시 계산 합니다. 항상 그룹을 만든 날짜부터 계산을 시작 하 고 새 만료 정책을 적용 합니다.
 
 #### <a name="resources"></a>*리소스*
-- [Microsoft 365 그룹 만료 정책](https://support.office.com/article/Office-365-Group-Expiration-Policy-8d253fe5-0e09-4b3c-8b5e-f48def064733?ui=en-US&rs=en-US&ad=US)
+- [Microsoft 365 그룹 만료 정책](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)
 - [Microsoft 365 그룹에 대 한 만료 정책 구성](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)
 
 ### <a name="group-guest-access"></a><a name="group-guest-access"></a>그룹 게스트 액세스
@@ -227,7 +227,7 @@ Microsoft 365 그룹을 삭제 한 경우에는 기본적으로 30 일 동안 �
 #### <a name="resources"></a>*리소스*
 - [조직 외부의 사용자와 공동 작업](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 - [Microsoft 365 그룹에서 게스트 액세스 관리](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups)
-- [Microsoft 365 그룹의 게스트 액세스](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)
+- [Microsoft 365 그룹의 게스트 액세스](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 - [Azure AD 액세스 검토](https://docs.microsoft.com/azure/active-directory/active-directory-azure-ad-controls-perform-access-review)
 - [Azure Active Directory 사용 약관 기능](https://docs.microsoft.com/azure/active-directory/active-directory-tou)
 - [Google Federation](https://docs.microsoft.com/azure/active-directory/b2b/google-federation)
@@ -328,7 +328,7 @@ Microsoft 365 그룹은 조직에서 요구할 수 있는 다양 한 거 버 넌
 | 단계 | 설명 |
 | --------------- | ------------------------------------------------------------ |
 | 지침 |<ul><li>오픈 또는 IT-led 프로 비전 모델을 결정 합니다.</li><li> 부서와 같은 Azure AD 특성을 기반으로 [동적 멤버 자격 규칙](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) 에 연결 되는 특정 그룹을 만들 수 있습니다.</li><li> 조직 내에서 분류를 정의 합니다 (예: 고도의 기밀, 기밀 (기본값), 일반).</li><li>  보존 및 민감도와 같은 분류에 따라 정책을 정의 합니다.</li><li> SharePoint는 모든 Microsoft 365 그룹에 대 한 콘텐츠 서비스입니다. 세 가지 보호 계층 (기준, 중요 및 고도의 기밀) [에 대 한 SharePoint Online 사이트를](https://docs.microsoft.com/office365/enterprise/deploy-sharepoint-online-sites-for-three-tiers-of-protection) 디자인 하 고 배포 하는 방법을 고려 합니다. 이러한 3계층 보호에 대한 자세한 내용은 [SharePoint Online 사이트 및 파일 보호](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files)를 참조하세요.</li><li> 공용 및 개인 그룹은 기본적으로 GAL에 나열 됩니다. Microsoft 팀 외부에서 만들어진 GAL 전용 그룹에 표시할 그룹을 결정 합니다.  [Remove-unifiedgroup](https://technet.microsoft.com/library/mt238274(v=exchg.160).aspx) cmdlet의 "HiddenFromAddressListsEnabled" 또는 "HidefromExchangeClients"를 사용 하 여 특정 그룹을 숨깁니다.</li></ul> |
-| 다음 단계      |<ul><li>그룹을 효과적으로 유지 하는 데 도움이 되는 모범 사례를 사용자에 게 교육 하 고 내부 콘텐츠 정책에 대해 교육 하기 위한 [사용 지침](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets) 을 정의 합니다. 예를 들어 분류, 정책 및 절차에 대해 설명 합니다. </li><li>그룹을 갱신 하거나 삭제 하는 만료 정책에 해당 그룹의 수명 주기 기간을 정의 합니다.</li><li>다음 사용자 지정 작업을 만들어 분류에 따라 정책을 구현 하는 것이 좋습니다.</li><li>개인 정보를 비공개로 설정 합니다.</li><li>외부 구성원/공유를 사용 하지 않도록 설정 합니다. </li><li>[소유자가 없는](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732)그룹을 그룹 구성원에 게 알리기 위한 전자 메일</li><li>소유권 정책 적용 (최소 2 명의 소유자)</li><li> 분류를 기반으로 그룹에 대 한 보존 정책을 정의 합니다. </li><li>보존 정책 개요</li><li>Powershell을 사용 하 여 분류 및 [new-retentioncompliancepolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy?view=exchange-ps)을 사용 하 여 그룹 식별</li><li>[JSON 스키마 참조](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-json-schema)에 정의 된 작업을 사용 하 여 컨트롤을 정의 하려면 사이트 디자인 및 사이트 스크립트를 사용 하는 것이 좋습니다.</li><li>사이트 디자인 및 Microsoft 흐름 [을 사용 하 여 간단한 사이트 디렉터리를 작성 하는](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-trigger-flow-tutorial) 것이 좋습니다. 이 사이트 디자인을 사용 하 여 사이트를 만들 때마다 사이트의 세부 정보를 캡처하여 목록에 씁니다. </li></ul>|
+| 다음 단계      |<ul><li>그룹을 효과적으로 유지 하는 데 도움이 되는 모범 사례를 사용자에 게 교육 하 고 내부 콘텐츠 정책에 대해 교육 하기 위한 [사용 지침](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets) 을 정의 합니다. 예를 들어 분류, 정책 및 절차에 대해 설명 합니다. </li><li>그룹을 갱신 하거나 삭제 하는 만료 정책에 해당 그룹의 수명 주기 기간을 정의 합니다.</li><li>다음 사용자 지정 작업을 만들어 분류에 따라 정책을 구현 하는 것이 좋습니다.</li><li>개인 정보를 비공개로 설정 합니다.</li><li>외부 구성원/공유를 사용 하지 않도록 설정 합니다. </li><li>[소유자가 없는](https://support.microsoft.com/office/86bb3db6-8857-45d1-95c8-f6d540e45732)그룹을 그룹 구성원에 게 알리기 위한 전자 메일</li><li>소유권 정책 적용 (최소 2 명의 소유자)</li><li> 분류를 기반으로 그룹에 대 한 보존 정책을 정의 합니다. </li><li>보존 정책 개요</li><li>Powershell을 사용 하 여 분류 및 [new-retentioncompliancepolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy?view=exchange-ps)을 사용 하 여 그룹 식별</li><li>[JSON 스키마 참조](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-json-schema)에 정의 된 작업을 사용 하 여 컨트롤을 정의 하려면 사이트 디자인 및 사이트 스크립트를 사용 하는 것이 좋습니다.</li><li>사이트 디자인 및 Microsoft 흐름 [을 사용 하 여 간단한 사이트 디렉터리를 작성 하는](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-trigger-flow-tutorial) 것이 좋습니다. 이 사이트 디자인을 사용 하 여 사이트를 만들 때마다 사이트의 세부 정보를 캡처하여 목록에 씁니다. </li></ul>|
 
 ### <a name="regulated-or-enterprise"></a>규제 또는 기업
 위의 권장 사항 외에, Azure Active Directory Premium P1/P2 라이선스를 사용 하 여 최소한 엔터프라이즈 E3/E5를 사용 하 여 Office 365을 배포한 정부, 금융 서비스 또는 의료과 같은 고도로 규제 또는 대규모 입력 환경에 대해 다음을 고려해 야 합니다.

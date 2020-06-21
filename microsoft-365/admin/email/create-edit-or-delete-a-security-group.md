@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: 보안 그룹을 만들거나 편집 하거나 삭제 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 49fe9b941564f26268045f6e57af329900476b90
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: c7c8d57037d972cd89dad45358dc5a7aa3fb86e8
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432280"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780244"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 보안 그룹 만들기, 편집 또는 삭제
 
@@ -41,7 +41,7 @@ Microsoft 365 **Groups** 페이지에서는 SharePoint ONLINE 및 CRM online에 
 전자 메일을 보내거나 사용자 그룹에 사용 권한을 할당하는 데 사용할 수 있는 [Exchange Online 및 SharePoint Online의 그룹](#groups-in-exchange-online-and-sharepoint-online), 그리고 사이트 및 사이트 모음에 대한 사용자 권한 및 액세스 권한을 부여하는 [Exchange Online 및 SharePoint Online의 그룹](#groups-in-exchange-online-and-sharepoint-online)도 있습니다. 
   
 > [!IMPORTANT]
->  사이트 사서함을 사용할 계획이신가요? 개별적으로 추가되지 않고 보안 그룹을 통해 SharePoint 사이트에 추가되는 모든 사용자는 SharePoint를 통해서만 사이트 사서함을 사용할 수 있습니다. 이러한 사용자는 Outlook에서 사이트 사서함에 액세스할 수 없습니다. 자세한 내용은 [사이트 사서함 대신 Microsoft 365 그룹 사용](https://support.office.com/article/737d6b1f-67cc-41fe-8db8-f2d09dd1673b.aspx)을 참조 하십시오. 
+>  사이트 사서함을 사용할 계획이신가요? 개별적으로 추가되지 않고 보안 그룹을 통해 SharePoint 사이트에 추가되는 모든 사용자는 SharePoint를 통해서만 사이트 사서함을 사용할 수 있습니다. 이러한 사용자는 Outlook에서 사이트 사서함에 액세스할 수 없습니다. 자세한 내용은 [사이트 사서함 대신 Microsoft 365 그룹 사용](https://support.microsoft.com/office/737d6b1f-67cc-41fe-8db8-f2d09dd1673b)을 참조 하십시오. 
   
 ## <a name="manage-security-groups-in-the-admin-center"></a>관리 센터에서 보안 그룹 관리
 

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
 description: 변경 관리에서 Microsoft 365 메시지 센터 및 해당 역할에 대 한 개요를 볼 수 있습니다.
-ms.openlocfilehash: c243bb551d98cb0ea3c177cf098cccd035243a06
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+ms.openlocfilehash: f4d99bedaab6efb4dfeccf7610e54bb5f8effeb7
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44694962"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780088"
 ---
 # <a name="message-center"></a>메시지 센터
 
@@ -55,7 +55,7 @@ ms.locfileid: "44694962"
 또한 모바일 장치에서 [Microsoft 365 Admin 앱](https://go.microsoft.com/fwlink/p/?linkid=627216) 을 사용 하 여 메시지 센터를 볼 수 있으며,이는 푸시 알림을 최신 상태로 유지 하는 데 유용한 방법입니다. 
   
   
-### <a name="frequently-asked-questions"></a>자주하는 질문
+### <a name="frequently-asked-questions"></a>질문과 대답
 
 |**질문**|**응답**|
 |:-----|:-----|
@@ -164,7 +164,7 @@ ms.locfileid: "44694962"
 기계 번역을 사용 하 여 기본 언어로 메시지를 자동으로 표시 합니다. 언어를 설정 하는 방법에 대 한 자세한 내용은 [메시지 센터 게시물에 대 한 언어 번역](language-translation-for-message-center-posts.md) 읽기를 참조 하세요.
   
 > [!NOTE]
-> 매주 다이제스트와 전자 메일로 전송 되는 모든 게시물은 영어로만 보내집니다. 받는 사람은 [Outlook에 번역기](https://support.office.com/article/3d7e12ed-99d6-406e-a453-b9db0d9653fa.aspx) 를 사용 하 여 기본 설정 언어로 메시지를 읽을 수 있습니다. 
+> 매주 다이제스트와 전자 메일로 전송 되는 모든 게시물은 영어로만 보내집니다. 받는 사람은 [Outlook에 번역기](https://support.microsoft.com/office/3d7e12ed-99d6-406e-a453-b9db0d9653fa) 를 사용 하 여 기본 설정 언어로 메시지를 읽을 수 있습니다. 
   
 ### <a name="admin-roles-that-dont-have-access-to-the-message-center"></a>메시지 센터에 액세스할 수 없는 관리자 역할
 

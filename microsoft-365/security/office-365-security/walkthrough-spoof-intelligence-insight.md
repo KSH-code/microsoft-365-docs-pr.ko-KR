@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 승인 되지 않은 전자 메일을 합법적으로 전송 하는 보낸 사람을 빠르게 확인 하는 방법을 포함 하 여 스푸핑 인텔리전스 통찰력의 작동 방식을 확인할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1b97d36c3434e7410f4cb3d19ef8eaee6f37e601
-ms.sourcegitcommit: 86705d15231c987be2fcf5a295b9b6239fc46077
+ms.openlocfilehash: 1f04baca3761e44acfd26c09cdc0d5283db13697
+ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44566707"
+ms.lasthandoff: 06/13/2020
+ms.locfileid: "44726510"
 ---
 # <a name="walkthrough---atp-spoof-intelligence-insight-in-microsoft-365"></a>Microsoft 365의 연습-ATP 스푸핑 인텔리전스 정보
 
@@ -35,11 +35,16 @@ Microsoft 365 조직에서 ATP (Advanced Threat Protection)를 사용 하는 경
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **보안 대시보드** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/searchandinvestigation/dashboard> 합니다.
+- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. **보안 대시보드** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/searchandinvestigation/dashboard> 합니다.
 
   보안 & 준수 센터에서 둘 이상의 대시보드에서 스푸핑 인텔리전스 정보를 볼 수 있습니다. 현재 보고 있는 대시보드에 상관 없이, 통찰력은 동일한 세부 정보를 제공 하며 동일한 작업을 빠르게 수행할 수 있도록 합니다.
 
-- 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 스푸핑 인텔리전스 통찰력을 사용 하려면 **조직 관리**, **보안 관리자**또는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
+- 이 항목의 절차를 수행 하려면 먼저 사용 권한을 할당 받아야 합니다. 스푸핑 인텔리전스 이해를 사용 하려면 다음 역할 그룹 중 하나의 구성원 이어야 합니다.
+
+  - [보안 & 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **조직 관리** 또는 **보안 관리자**
+  - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **조직 관리** 또는 **바이러스 관리**
+  - 보안 [& 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **보안 독자**
+  - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 입니다.
 
 - ATP 피싱 방지 정책에서 스푸핑 인텔리전스를 사용 하도록 설정 하 고 사용 하지 않도록 설정 합니다. 자세한 내용은 [Microsoft 365에서 ATP 피싱 방지 정책 구성을](configure-atp-anti-phishing-policies.md)참조 하세요.
 

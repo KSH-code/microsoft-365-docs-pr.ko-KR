@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: f70f997b1f3b2ef47cfc647178c1836893bc3e66
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a1cf21fdd53ca90218370fb9c87547c64e867cd8
+ms.sourcegitcommit: bad47f9c69025d76d1e161519640cf7e238bd3b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632842"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44735517"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 네트워크 구성
 
@@ -53,7 +53,7 @@ Microsoft 관리 되는 데스크톱 장치가 해당 Microsoft 서비스와 통
 
 Microsoft 서비스 | 설명서 원본-허용 목록에 필요한 Url
 --- | ---
-비즈니스용 Windows 업데이트를 포함 하는 windows 10 Enterprise | [Windows 10의 연결 끝점 관리, 버전 1803](https://docs.microsoft.com/windows/privacy/manage-windows-1803-endpoints)<br><br>[Windows 10의 연결 끝점 관리, 버전 1809](https://docs.microsoft.com/windows/privacy/manage-windows-1809-endpoints)<br><br>[Windows 10의 연결 끝점 관리, 버전 1903](https://docs.microsoft.com/windows/privacy/manage-windows-1903-endpoints)<br><br>time.windows.com
+비즈니스용 Windows 업데이트를 포함 하는 windows 10 Enterprise | [Windows 10의 연결 끝점 관리, 버전 1803](https://docs.microsoft.com/windows/privacy/manage-windows-1803-endpoints)<br><br>[Windows 10의 연결 끝점 관리, 버전 1809](https://docs.microsoft.com/windows/privacy/manage-windows-1809-endpoints)<br><br>[Windows 10의 연결 끝점 관리, 버전 1903](https://docs.microsoft.com/windows/privacy/manage-windows-1903-endpoints)<br><br>[Windows 10의 연결 끝점 관리, 버전 2004](https://docs.microsoft.com/windows/privacy/manage-windows-2004-endpoints)<br><br>time.windows.com
 배달 최적화 | [Windows 10 업데이트에 대 한 배달 최적화 구성](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization)
 Microsoft 365 | [Microsoft 365 URL 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
 Azure Active Directory | [하이브리드 id 필수 포트 및 프로토콜](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) , [Active Directory 및 Active Directory 도메인 서비스 포트 요구 사항](https://aka.ms/AA26ygm) 

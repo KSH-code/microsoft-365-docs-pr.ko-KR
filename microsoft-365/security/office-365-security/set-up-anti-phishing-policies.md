@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection) 및 Office 365 Advanced Threat Protection (Office 365 ATP)에서 사용할 수 있는 피싱 방지 정책에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 4cf727cd7d232baac13f44e008a509934f55d895
-ms.sourcegitcommit: efd4dd29af0ea2b71b674534de3b2dcbfd7482db
+ms.openlocfilehash: a61123e3d90a4125bf5a8303654973e1b478fc4c
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689281"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754667"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Microsoft 365의 피싱 방지 정책
 
@@ -95,7 +95,7 @@ ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 
     - 보낸 사람의 사진에 있는 물음표의 경우 SPF 또는 DKIM이 가장 중요 합니다.
     - Via 태그의 경우 DKIM 서명에서 도메인을 확인 하거나 보낸 **사람 주소에서** from 주소에 있는 도메인을 검색 합니다 (또는 하위 도메인의 하위 도메인이 됨).
 
-  자세한 내용은 [Outlook.com 및 웹용 Outlook에서 의심 스러운 메시지 식별](https://support.office.com/article/3d44102b-6ce3-4f7c-a359-b623bec82206) 을 참조 하세요.
+  자세한 내용은 [Outlook.com 및 웹용 Outlook에서 의심 스러운 메시지 식별](https://support.microsoft.com/office/3d44102b-6ce3-4f7c-a359-b623bec82206) 을 참조 하세요.
 
 ## <a name="exclusive-settings-in-atp-anti-phishing-policies"></a>ATP 피싱 방지 정책에서 배타적 설정
 

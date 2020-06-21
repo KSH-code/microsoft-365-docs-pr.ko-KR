@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365을 사용한 보안 공동 작업 설정
+title: Microsoft 365를 사용하여 안전한 공동 작업 설정
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -13,14 +13,14 @@ ms.collection:
 ms.custom: ''
 f1.keywords: NOCSH
 description: 해당 민감도에 따라 데이터를 보호 하도록 팀을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 8704c3a0a271c247652d611e963ff1d26308dcdb
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 8978c8602a00dd9c7caecc30ea4746a01680a236
+ms.sourcegitcommit: 92f641cad63379bf16417854a43b16b48a71a30a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159470"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44724798"
 ---
-# <a name="set-up-secure-collaboration-with-microsoft-365"></a>Microsoft 365을 사용한 보안 공동 작업 설정
+# <a name="set-up-secure-collaboration-with-microsoft-365"></a>Microsoft 365를 사용하여 안전한 공동 작업 설정
 
 조직의 성공적인 공유를 방지 하면서 적절 한 사람들과 쉽게 정보를 공유할 수 있습니다. 여기에는 액세스 권한이 있는 사람만 중요 한 데이터를 안전 하 게 공유할 수 있는 권한이 포함 됩니다. 프로젝트에 따라 중요 한 데이터를 조직 외부의 사용자와 공유 하는 것이 여기에 포함 될 수 있습니다.
 
@@ -57,7 +57,16 @@ Microsoft 365에서는 다음과 같은 다양 한 구성을 사용 하 여 팀�
 
 위에 언급 된 모든 시나리오에 대해 Microsoft 팀의 팀을 사용 하 여 정보를 저장, 공유 및 공동 작업할 수 있습니다. 
 
-## <a name="using-teams-for-all-kinds-of-data"></a>모든 종류의 데이터에 대 한 팀 사용
+보안 collabration를 구성 하기 위해 이러한 Microsoft 365 기능과 기능을 사용 합니다.
+
+| 제품 또는 구성 요소 | 기능 또는 특징 | 라이선싱 |
+|:-------|:-----|:-------|
+| Office 365 Advanced Threat Protection | ATP SPO, OneDrive 및 팀에 대 한 안전한 첨부 파일 ATP 안전한 문서 ATP가 팀에 대 한 안전한 링크    | Microsoft 365 E1, E3 및 E5 |
+| SharePoint    | 사이트 및 파일 공유 정책, 사이트 공유 권한, 공유 링크, 액세스 요청, 사이트 게스트 공유 설정 | Microsoft 365 E1, E3 및 E5 |
+| Microsoft Teams   | 게스트 액세스, 개인 팀, 개인 채널 | Microsoft 365 E1, E3 및 E5 |
+| Microsoft 365 규정 준수  | 민감도 레이블    | Microsoft 365 E3 및 E5 |
+
+### <a name="using-teams-for-all-kinds-of-data"></a>모든 종류의 데이터에 대 한 팀 사용
 
 다른 sensitivities 정보에 대 한 액세스를 관리 하기 위해 [팀에서 세 가지 다른 수준의 보호](configure-teams-three-tiers-protection.md)를 개발 했습니다. 이러한 계층을 사용자 지정 하 여 요구 사항 또는 비즈니스에 보다 적합 한 주소를 지정할 수 있습니다. 
 
@@ -91,7 +100,7 @@ Microsoft 365에서는 다음과 같은 다양 한 구성을 사용 하 여 팀�
 
 조직 내 에서도 공유 기능을 추가로 보호 해야 하는 중요 한 프로젝트가 있는 경우 해당 민감도 레이블을 사용 하 여 팀 구성원만 읽을 수 있도록 파일을 암호화 하는 팀을 구성할 수 있습니다. 자세한 내용은 [보안 격리를 사용 하 여 팀 구성을](secure-teams-security-isolation.md) 참조 하세요.
 
-## <a name="sharing-with-people-outside-your-organization"></a>조직 외부의 사용자와 공유
+### <a name="sharing-with-people-outside-your-organization"></a>조직 외부의 사용자와 공유
 
 [조직 외부의 사용자와의 민감도 정보를 공유](collaborate-with-people-outside-your-organization.md)해야 할 수 있습니다. 이는 단일 문서를 공유 하 여 대규모 파트너 조직이 나 전 세계의 freelancers 주요 프로젝트에서 공동 작업을 수행할 수 있는 범위입니다. Microsoft 365에서이 범위 외부 공유는 중요 한 정보를 보호 하는 데 적합 한 적절 한 보호책을 사용 하 여 쉽게 수행할 수 있습니다.
 
@@ -108,6 +117,12 @@ Microsoft 365에서는 다음과 같은 다양 한 구성을 사용 하 여 팀�
 - [보안 게스트 공유 환경 만들기](create-secure-guest-sharing-environment.md)
 
 파트너 조직이 포함 된 주요 프로젝트인 경우 Azure 권한 관리를 사용 하 여 프로젝트에 대해 설정한 팀의 해당 조직에서 게스트를 관리할 수 있습니다. 자세한 내용은 [관리 되는 게스트를 사용 하 여 B2B 엑스트라넷 만들기](b2b-extranet.md) 를 참조 하세요.
+
+## <a name="deploy-the-secure-collaboration-solution"></a>보안 공동 작업 솔루션 배포
+
+이 솔루션을 배포할 준비가 되 면 다음 단계를 계속 진행 합니다.
+1. 세 가지 [다른 유형의 팀 보호](configure-teams-three-tiers-protection.md)를 구성 합니다.
+2. [조직 외부의 사용자와의 모든 민감도 정보 공유](collaborate-with-people-outside-your-organization.md)에 대 한 설정을 구성 합니다.
 
 ## <a name="see-also"></a>참고 항목
 

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 description: 구성원이 microsoft 365 그룹으로 전자 메일을 보내거나 Microsoft 365 그룹을 대신 하 여 전자 메일을 보낼 수 있도록 하는 방법을 알아봅니다.
-ms.openlocfilehash: a4d8cb65feab3fca69824adc8f7b4ef10e705d8c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3a93dda83b10d7c38c8c6e7d8fd484b37df565d0
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44388140"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780472"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>구성원이 그룹을 대신 하거나 다른 사람 이름으로 보내기 허용
 
@@ -39,7 +39,7 @@ ms.locfileid: "44388140"
 > 특정 사용자에 대해 **다른 사람 이름으로 보내기** 또는 **대신 보내기** 를 구성할 수 있습니다. 둘 다를 구성 하는 경우 기본적 **으로로 보내기가**설정 됩니다.
 
 > [!TIP]
-> Outlook 및 웹용 Outlook을 사용 하 여 그룹에서 전자 메일을 보내는 방법에 대 한 자세한 내용은 [Microsoft 365 그룹에서 전자 메일 보내기를](https://support.office.com/article/0f4964af-aec6-484b-a65c-0434df8cdb6b.aspx) 참조 하십시오.
+> Outlook 및 웹용 Outlook을 사용 하 여 그룹에서 전자 메일을 보내는 방법에 대 한 자세한 내용은 [Microsoft 365 그룹에서 전자 메일 보내기를](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b) 참조 하십시오.
     
 ## <a name="allow-members-to-send-email-as-a-group"></a>구성원이 그룹으로 전자 메일을 보낼 수 있도록 허용
 
@@ -79,7 +79,7 @@ ms.locfileid: "44388140"
 
 ## <a name="related-articles"></a>관련 문서
 
-[Microsoft 365 그룹에 대 한 자세한 정보](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+[Microsoft 365 그룹에 대 한 자세한 정보](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 [Add-recipientpermission 추가](https://go.microsoft.com/fwlink/p/?LinkId=723960)
 

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 그룹 만료 정책에 대해 자세히 알아봅니다.
-ms.openlocfilehash: 00dfb09cdf4fe3f70344152444e7433c1de8a8c2
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 8def757241dec28f5a54c76dc81614fd52fe85e5
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400728"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780424"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Microsoft 365 그룹 만료 정책
 
@@ -84,6 +84,6 @@ Microsoft 365 그룹의 사용이 증가 함에 의해 관리자와 사용자는
 
 [보존 정책 개요](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)
 
-[분리된 그룹에 새 소유자 할당](https://support.microsoft.com/en-us/office/assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732)
+[분리된 그룹에 새 소유자 할당](https://support.microsoft.com/office/86bb3db6-8857-45d1-95c8-f6d540e45732)
 
 [Microsoft 365 그룹 만료 구성](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal) '

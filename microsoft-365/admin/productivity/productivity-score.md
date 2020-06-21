@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 생산성 점수 개요
-ms.openlocfilehash: 52a520e36c6b121984aef650ffba1867f4d3e8c9
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: cf8747f38442c0dbef6178dc2cbd4ce32d59c5c6
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399185"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754799"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Microsoft 생산성 점수 (미리 보기)
 
@@ -134,6 +134,22 @@ Microsoft는 다음과 같은 두 가지 분야에서 데이터, 통찰력 및 �
 모바일 기능에 대 한 주요 이해는 파일에 액세스 하 고 여러 플랫폼에서 전자 메일 및 채팅을 사용 하는 사용자 수입니다. 영업 역할, 상급 관리자, 컨설턴트 및 사무실에서 작업을 수행 해야 하는 사용자는 업무를 진행 하기 위해 원하는 장치에서 어떤 위치에서 든 작업을 수행할 수 있어야 합니다. 이러한 작업 자가 향상 된 기능은 크게 영향을 받습니다. 
 
 Microsoft는 데스크톱, 모바일 및 웹을 비롯 하 여 둘 이상의 플랫폼에서 적어도 한 대의 마이크로소프트 365 생산성 앱을 사용 하는 사용자의 백분율 및 절대 수를 측정 합니다. 측정 되는 생산성 앱은 Outlook, 팀, Word, Excel, PowerPoint, OneNote, Yammer 및 Skype입니다. 사용자에 게 측정 해야 하는 enterprise, Exchange, Yammer, Skype 또는 팀 라이선스에 대 한 Microsoft 365 앱이 있어야 합니다. 
+
+## <a name="business-continuity-special-report"></a>비즈니스 연속성 특별 보고서
+
+비즈니스 연속성 보고서는 이러한 까다로운 시간 동안 조직을 안내할 수 있도록 모든 Microsoft 365 고객에 게 제공 되는 제한 된 작업 공간 인텔리전스 보고서입니다.  
+
+비즈니스 리더가 이해 하는 데 도움이 되는 보고서는 다음과 같습니다. 
+
+- 공동 작업 및 통신이 원격 작업의 영향을 받는 방법입니다. 
+
+- 사용자가 집에서 작업을 조정 하는 작업 수명 잔액이 미치는 영향 
+
+- 사용자가 모임을 효과적으로 사용 하는 경우 
+
+[비즈니스 연속성 보고서에 대해 자세히 알아보기](https://aka.ms/bcrps)
+
+[Microsoft Graph에 대해 자세히 알아보기](https://docs.microsoft.com/graph/)
 
 ## <a name="we-want-to-hear-from-you"></a>사용자의 의견을 듣고 싶습니다.
 

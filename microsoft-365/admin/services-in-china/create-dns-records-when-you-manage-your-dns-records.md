@@ -21,12 +21,12 @@ ms.assetid: 0669bf14-414d-4f51-8231-6b710ce7980b
 ROBOTS: NOINDEX
 description: 'DNS 레코드 관리 시 21Vianet에서 운영 하는 Office 365에 대 한 DNS 레코드를 만드는 방법에 대해 알아봅니다. '
 monikerRange: o365-21vianet
-ms.openlocfilehash: 478f3d48a8d94d0a42d6501df8f0c32efc41e902
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: c05dc1c84465ea06572021610744f0cbe5aa9fea
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399077"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779908"
 ---
 # <a name="create-dns-records-for-office-365-when-you-manage-your-dns-records"></a>DNS 레코드를 관리할 때 Office 365에 대 한 DNS 레코드 만들기
 
@@ -37,7 +37,7 @@ ms.locfileid: "44399077"
       
 -  사용 중인 도메인의 DNS 호스팅 공급자 또는 도메인 등록 기관을 모르는 경우 [도메인 등록자 또는 DNS 호스팅 공급자 찾기](../get-help-with-domains/find-your-domain-registrar.md)를 참조하세요. DNS 레코드가 수행 하는 작업에 대 한 설명은 [dns 기본 사항을](../get-help-with-domains/dns-basics.md)참조 하세요.
     
--  일부 DNS 호스팅 공급자는 필요한 모든 레코드 형식을 만들 수 없으므로 [호스팅 공급자가 SRV, CNAME, TXT 또는 리디렉션을 지원 하지 않는 경우 서비스 제한이](https://support.office.com/article/dfbb03e3-08c1-4c4e-b2f0-891665b29b77)발생 합니다. 공급자가 SRV, TXT 또는 CNAME 레코드를 지원 하지 않는 경우에는 [필요한 모든 레코드 종류를 지 원하는 공급자](https://support.office.com/article/dfbb03e3-08c1-4c4e-b2f0-891665b29b77)에 게 [도메인을 전송](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/buy-a-domain-name) 하는 것이 좋습니다. 
+-  일부 DNS 호스팅 공급자는 필요한 모든 레코드 형식을 만들 수 없으므로 [호스팅 공급자가 SRV, CNAME, TXT 또는 리디렉션을 지원 하지 않는 경우 서비스 제한이](https://support.microsoft.com/office/dfbb03e3-08c1-4c4e-b2f0-891665b29b77)발생 합니다. 공급자가 SRV, TXT 또는 CNAME 레코드를 지원 하지 않는 경우에는 [필요한 모든 레코드 종류를 지 원하는 공급자](https://support.microsoft.com/office/dfbb03e3-08c1-4c4e-b2f0-891665b29b77)에 게 [도메인을 전송](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/buy-a-domain-name) 하는 것이 좋습니다. 
     
 - 필요한 DNS 레코드를 확인 하 고 전자 메일에 대 한 MX 레코드를 포함 하 여 각 레코드에 사용할 값을 찾으려면 [Office 365 DNS 레코드를 만드는 데 필요한 정보 수집](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/information-for-dns-records)을 참조 하십시오. DNS 레코드가 수행 하는 작업에 대 한 설명은 [dns 기본 사항을](../get-help-with-domains/dns-basics.md)참조 하세요.
     

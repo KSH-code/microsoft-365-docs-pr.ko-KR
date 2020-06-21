@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 1062115d-e312-482a-bb5a-765235990f41
 ROBOTS: NOINDEX
 description: 새 비즈니스 id로 데이터를 이동 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 03a8ff6b3cfab43d80401a10825a1c274e278ed9
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: ebbb680baf36386d7f2dafae61fb262bf0220e69
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399329"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780004"
 ---
 # <a name="move-email-and-data-to-microsoft-365-business-standard"></a>전자 메일 및 데이터를 Microsoft 365 Business Standard로 이동
 
@@ -57,24 +57,24 @@ Microsoft 365 Business Standard로 업그레이드 하면 새로운 *비즈니�
 4. **업로드** 를 선택 하 여 OneDrive 파일을 복사한 하드 드라이브의 파일을 복사 합니다. 
   
     > [!NOTE]
-    >  개별 파일 및 파일 그룹(예: 특정 폴더의 모든 파일)을 한 번에 업로드할 수 있지만 비즈니스용 OneDrive로 폴더를 복사할 수는 없습니다. 대신, 비즈니스용 OneDrive에 원하는 폴더 구조를 만들어야 합니다. >  4단계에서 만든 폴더로 파일을 복사하려는 경우 파일을 업로드하기 전에 해당 폴더를 엽니다. 그렇지 않은 경우 파일이 루트 폴더에 업로드됩니다. 파일을 업로드한 후 비즈니스용 OneDrive의 폴더 간에 파일을 이동할 수도 있습니다. 
+    >  You can upload individual files and groups of files (such as all files in a particular folder) at one time but you cannot copy a folder to OneDrive for Business. Instead, you'll need to create the folder structure you want on OneDrive for business. >  If you want to copy files to a folder that you created in step 4, open that folder before you upload the files. Otherwise, the files will be uploaded to the root folder. You can also move your files between folders in OneDrive for Business after you've uploaded them. 
   
 ## <a name="outlookemail"></a>[Outlook/전자 메일](#tab/Outlook)
   
  **Outlook 데이터 파일로 Outlook 2013 정보 내보내기**
-1. Outlook 데이터 파일(.pst)을 만들려면 먼저 Outlook 정보를 내보낼 계정이 이미 데스크톱 버전의 Outlook에 추가되어 있어야 합니다. Outlook 2013 이상에 계정을 추가하는 방법에 대한 내용은 [(Windows용) Outlook에서 전자 메일 설정](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) 또는 [Outlook for Mac 2011에서 전자 메일 설정](https://support.microsoft.com/en-us/office/set-up-email-in-mac-os-x-mail-de372dc4-9648-4044-a76c-e8a60e178d54)을 참조하세요.
+1. Before you can create your Outlook data file (.pst), the account that you want to export Outlook information from must already be added to the desktop version of Outlook. For information about how to add an account to Outlook 2013 or higher, see [Set up email in Outlook (for Windows)](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) or [Set up email in Outlook for Mac 2011](https://support.microsoft.com/office/de372dc4-9648-4044-a76c-e8a60e178d54).
     
-2. 각 사용자는 [전자 메일, 연락처 및 일정을 Outlook .pst 파일로 내보내기 또는 백업](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx)의 단계를 완료해야 합니다.
+2. 각 사용자는 [전자 메일, 연락처 및 일정을 Outlook .pst 파일로 내보내기 또는 백업](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91)의 단계를 완료해야 합니다.
     
  **Outlook에서 새 전자 메일 계정 설정**
 1. 각 사용자는 Microsoft 365 for business 구독과 함께 제공 된 새 전자 메일 계정을 설정 해야 합니다. 이렇게 하려면 새 전자 메일 계정의 주소가 필요합니다. 각 사용자의 전자 메일 계정은 비즈니스를 위해 Microsoft 365에 로그인 하는 데 사용 하는 사용자 이름과 동일 합니다. 예를 들면 sue@contoso.onmicrosoft.com 또는 david@contoso.com과 비슷합니다.
     
-2. 전자 메일 계정을 Outlook에 추가하도록 각 사용자에게 요청하세요. 자세한 내용은 [(Windows용) Outlook에서 전자 메일 설정](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) 또는 [Outlook for Mac 2011에서 전자 메일 설정](https://support.microsoft.com/en-us/office/set-up-email-in-mac-os-x-mail-de372dc4-9648-4044-a76c-e8a60e178d54)을 참조하세요.
+2. Ask each user to add their email account to Outlook. To learn how, see [Set up email in Outlook (for Windows)](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) or [Set up email in Outlook for Mac 2011](https://support.microsoft.com/office/de372dc4-9648-4044-a76c-e8a60e178d54).
     
  **Outlook 데이터 파일에서 정보 가져오기**
 1. 이렇게 하면 PST 파일에 저장 된 전자 메일, 일정, 작업 및 연락처가 비즈니스용 Microsoft 365에 전자 메일 계정으로 병합 됩니다.
     
-2. PST 파일에 저장 된 정보를 업무용 전자 메일 계정에 대 한 Microsoft 365로 가져오려면 각 사용자에 게 [Outlook .pst 파일에서 전자 메일, 연락처 및 일정 가져오기](https://support.office.com/article/431a8e9a-f99f-4d5f-ae48-ded54b3440ac.aspx)의 단계를 완료 하도록 합니다.
+2. PST 파일에 저장 된 정보를 업무용 전자 메일 계정에 대 한 Microsoft 365로 가져오려면 각 사용자에 게 [Outlook .pst 파일에서 전자 메일, 연락처 및 일정 가져오기](https://support.microsoft.com/office/431a8e9a-f99f-4d5f-ae48-ded54b3440ac)의 단계를 완료 하도록 합니다.
     
 ---
 

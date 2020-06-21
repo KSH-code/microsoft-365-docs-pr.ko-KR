@@ -27,12 +27,12 @@ search.appverid:
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
 description: 'Gmail 또는 다른 전자 메일 공급자에서 Microsoft 365로 연락처, 일정, 전자 메일을 가져오는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 6fa8ff991bf9c02743b81d7947d9486e8f7b7b0f
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 4cc7a68929bdcc4cb79f3c7b78e07023a8952f81
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398873"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779012"
 ---
 # <a name="migrate-email-and-contacts-to-microsoft-365"></a>Microsoft 365로 전자 메일 및 연락처 마이그레이션
 
@@ -46,11 +46,11 @@ Gmail 또는 다른 전자 메일 공급자에서 Microsoft 365으로 전자 메
 
 다음 단계에 따라 Gmail에서 전자 메일, 연락처 및 일정을 Microsoft 365로 Outlook으로 가져옵니다.
   
-- [Outlook에 Gmail 가져오기](https://support.office.com/article/20fdb8f2-fed8-4b14-baf0-bf04b9c44bf7.aspx)
+- [Outlook에 Gmail 가져오기](https://support.microsoft.com/office/20fdb8f2-fed8-4b14-baf0-bf04b9c44bf7)
     
-- [Outlook으로 연락처 가져오기](https://support.office.com/article/bb796340-b58a-46c1-90c7-b549b8f3c5f8.aspx)
+- [Outlook으로 연락처 가져오기](https://support.microsoft.com/office/bb796340-b58a-46c1-90c7-b549b8f3c5f8)
     
-- [Google 캘린더 가져오기](https://support.office.com/article/098ed60c-936b-41fb-83d6-7e3786437330)
+- [Google 캘린더 가져오기](https://support.microsoft.com/office/098ed60c-936b-41fb-83d6-7e3786437330)
     
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c1e45708-9a92-475b-910b-f5aa40614d92?autoplay=false]
   
@@ -58,15 +58,15 @@ Gmail 또는 다른 전자 메일 공급자에서 Microsoft 365으로 전자 메
 
 다음 단계에 따라 Outlook에서 전자 메일, 연락처 및 일정을 .pst 파일로 내보낸 다음 해당 파일을 Microsoft 365을 사용 하 여 Outlook으로 가져옵니다.
   
-1. [전자 메일, 연락처 및 일정 내보내기](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91)
+1. [전자 메일, 연락처 및 일정 내보내기](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91)
     
-2. [메일, 연락처 및 일정 가져오기](https://support.office.com/article/431a8e9a-f99f-4d5f-ae48-ded54b3440ac)
+2. [메일, 연락처 및 일정 가져오기](https://support.microsoft.com/office/431a8e9a-f99f-4d5f-ae48-ded54b3440ac)
     
 연락처만 추가 하려면 다음 단계를 수행 합니다.
   
-1. [Outlook에서 연락처 내보내기](https://support.office.com/article/10f09abd-643c-4495-bb80-543714eca73f.aspx)
+1. [Outlook에서 연락처 내보내기](https://support.microsoft.com/office/10f09abd-643c-4495-bb80-543714eca73f)
     
-2. [Outlook으로 연락처 가져오기](https://support.office.com/article/bb796340-b58a-46c1-90c7-b549b8f3c5f8.aspx)
+2. [Outlook으로 연락처 가져오기](https://support.microsoft.com/office/bb796340-b58a-46c1-90c7-b549b8f3c5f8)
     
 프로세스를 시작 하려면 Outlook을 열고 **파일** \> **열기 &amp; ** \> **/내보내기 가져오기/내보내기를**선택 합니다.
   
@@ -82,9 +82,9 @@ Outlook에서 Gmail, Yahoo 또는 Live.com와 같은 다른 공급자의 전자 
   
 - Outlook을 연 다음 **파일** \> **계정 추가**로 이동 합니다.
     
-좀 더 자세한 단계가 필요 한가요? [계정 추가](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b)를 참조 하세요.
+좀 더 자세한 단계가 필요 한가요? [계정 추가](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b)를 참조 하세요.
   
-[![Backstage 보기의 Outlook 계정 정보 페이지를 보여 주는 스크린샷](../../media/6a7fa106-1077-4351-9fe2-8eb00918b40a.png)](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx)
+[![Backstage 보기의 Outlook 계정 정보 페이지를 보여 주는 스크린샷](../../media/6a7fa106-1077-4351-9fe2-8eb00918b40a.png)](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b)
   
 ## <a name="multiple-mailboxes-admins-can-bulk-import-email-contacts-and-calendars-to-microsoft-365"></a>여러 사서함: 관리자는 전자 메일, 연락처 및 일정을 Microsoft 365로 대량 가져올 수 있습니다.
 

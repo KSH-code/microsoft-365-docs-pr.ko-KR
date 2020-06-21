@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 현재 조직이 Microsoft 365 환경에 직면 하 게 되는 가장 일반적인 위협과 공격 시나리오로, 이러한 위험을 완화 하기 위한 권장 작업을 소개 합니다.
-ms.openlocfilehash: c153b94b450b834687e83f39fc7179e0dda1a21f
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 894486951deac7e9c157409af8da5e813b53343b
+ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943570"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44739227"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>BDMs (비즈니스 의사 결정권자 용 Microsoft 365 Security)
 
@@ -95,7 +95,7 @@ Microsoft는 테 넌 트 내에서 보안 점수 도구를 제공 하 여 정기
 추가 권장 사항:
 - TLS를 사용 하는 전자 메일과 같은 보안 파트너 채널 통신
 - 팀 페더레이션은 통신 하는 파트너 에게만 열려 있습니다.
-- 보낸 사람 도메인, 개별 보낸 사람 또는 원본 Ip를 사용 하 여 스팸 및 맬웨어 검사를 우회 하는 것이 가능 하므로, 고객은 자신의 허용 도메인을 허용 목록이 전자 메일 흐름 문제가 보고 될 수 있는 다른 여러 도메인을 사용 하는 것이 허용 목록. 스팸 및 연결 필터링 목록에 도메인을 추가 하지 않으므로 모든 스팸 검사가 무시 될 수 있습니다. 
+- 보낸 사람 도메인, 개별 보낸 사람 또는 원본 Ip를 허용 목록에 추가 하지 않음이는 스팸 및 맬웨어 검사를 우회 하는 것을 허용 하 고, 고객은 자신의 허용 도메인을 추가 하는 일반적인 방법이 나 전자 메일 흐름 문제가 허용 목록에 보고 되었을 수 있는 기타 여러 도메인을 추가할 수 있습니다. 스팸 및 연결 필터링 목록에 도메인을 추가 하지 않으므로 모든 스팸 검사가 무시 될 수 있습니다. 
 - 아웃 바운드 스팸 알림 사용-지원 센터 또는 IT 관리 팀에 내부적으로 메일 그룹에 대 한 아웃 바운드 스팸 알림을 사용 하도록 설정 하 여 내부 사용자가 외부에서 스팸 메일을 보내는 경우 보고 합니다. 이는 계정이 손상 되었음을 나타내는 지표로 표시 될 수 있습니다.
 - 모든 사용자에 대해 원격 PowerShell 사용 안 함-원격 PowerShell은 주로 관리자가 관리 목적 또는 프로그래밍 API 액세스용으로 서비스에 액세스 하는 데 사용 됩니다. 관리자가 아닌 사용자에 게는이 옵션을 사용 하지 않는 것이 좋습니다. 
 - 관리자가 아닌 모든 사람에 대 한 Microsoft Azure 관리 포털 액세스를 차단 합니다. 관리자를 제외 하 고 모든 사용자를 차단 하는 조건부 액세스 규칙을 만들어이 작업을 수행할 수 있습니다. 
@@ -117,7 +117,7 @@ Microsoft 365 information protection 기능은 보유 한 정보, 저장 위치 
 |**제로 트러스트 네트워크에 대 한 목표에 맞게 조건부 액세스 및 관련 정책을 검토 하 고 최적화**합니다. 알려진 위협 으로부터 보호 하려면 [권장 되는 정책](../enterprise/microsoft-365-policies-configurations.md)집합을 구현 하는 것이 포함 됩니다. 이러한 정책의 구현을 검토 하 여 네트워크에 대 한 액세스 권한을 얻은 해커 로부터 앱 및 데이터를 보호 하 고 있는지 확인 합니다. Windows 10 용 권장 Intune 앱 보호 정책에는 WIP (Windows Information Protection)가 사용 됩니다. WIP는 전자 메일, 소셜 미디어, 공용 클라우드 등의 앱 및 서비스를 통해 조직 데이터를 실수로 누설 하지 않도록 보호 합니다. |         |![녹색 확인 표시](../media/green-check-mark.png)|
 |**외부 전자 메일 전달을 사용 하지 않도록 설정**합니다. 사용자의 사서함에 대 한 액세스 권한을 획득 하는 해커는 전자 메일을 자동으로 전달 하도록 사서함을 설정 하 여 메일을 도용할 수 있습니다. 사용자의 인식이 없어도이 문제가 발생할 수 있습니다. 메일 흐름 규칙을 구성 하 여 이러한 상황이 발생 하지 않도록 할 수 있습니다.|![녹색 확인 표시](../media/green-check-mark.png) |![녹색 확인 표시](../media/green-check-mark.png)|
 |**익명 외부 일정 공유를 사용 하지 않도록 설정**합니다. 기본적으로 외부 익명 일정 공유를 사용할 수 있습니다. [일정 공유를 사용 하지 않도록 설정](https://docs.microsoft.com/exchange/sharing/sharing-policies/modify-a-sharing-policy) 하 여 중요 한 정보의 잠재적 누출을 줄입니다.|![녹색 확인 표시](../media/green-check-mark.png) |![녹색 확인 표시](../media/green-check-mark.png)|
-|**중요 한 데이터에 대 한 데이터 손실 방지 정책을 구성**합니다. 보안 &amp; 및 준수 센터에서 데이터 손실 방지 정책을 만들어 신용 카드 번호, 주민 등록 번호 및 은행 계좌 번호와 같은 중요 한 데이터를 검색 하 고 보호 합니다. Microsoft 365에는 데이터 손실 방지 정책에서 사용할 수 있는 미리 정의 된 중요 한 정보 유형이 많이 포함 되어 있습니다. 또한 환경에 사용자 지정 된 중요 한 데이터에 대 한 중요 한 정보 유형을 직접 만들 수도 있습니다. |![녹색 확인 표시](../media/green-check-mark.png)|![녹색 확인 표시](../media/green-check-mark.png)|
+|**중요 한 데이터에 대 한 데이터 손실 방지 정책을 구성**합니다. 보안 및 준수 센터에서 데이터 손실 방지 정책을 만들어 &amp; 신용 카드 번호, 주민 등록 번호 및 은행 계좌 번호와 같은 중요 한 데이터를 검색 하 고 보호 합니다. Microsoft 365에는 데이터 손실 방지 정책에서 사용할 수 있는 미리 정의 된 중요 한 정보 유형이 많이 포함 되어 있습니다. 또한 환경에 사용자 지정 된 중요 한 데이터에 대 한 중요 한 정보 유형을 직접 만들 수도 있습니다. |![녹색 확인 표시](../media/green-check-mark.png)|![녹색 확인 표시](../media/green-check-mark.png)|
 |**데이터 분류 및 정보 보호 정책을 구현**합니다. 민감도 레이블을 구현 하 고이를 사용 하 여 중요 한 데이터에 보호 기능을 분류 하 고 적용 합니다. 데이터 손실 방지 정책 에서도 이러한 레이블을 사용할 수 있습니다. Azure Information Protection 레이블을 사용 하는 경우에는 다른 관리 센터에서 새 레이블을 만드는 것을 피하는 것이 좋습니다.|         |![녹색 확인 표시](../media/green-check-mark.png)|
 |**Cloud App Security를 사용 하 여 타사 앱 및 서비스의 데이터를 보호**합니다. Cloud App Security 정책을 구성 하 여 Salesforce, Box 또는 Dropbox와 같은 타사 클라우드 앱에서 중요 한 정보를 보호 합니다. 클라우드 앱 보안 정책에서 만든 민감도 레이블과 중요 한 정보 유형을 사용 하 고이를 SaaS 앱 전체에 적용할 수 있습니다. <br><br>Microsoft Cloud App Security를 사용 하면 다양 한 범위의 자동화 된 프로세스를 적용할 수 있습니다. 지속적인 준수 검사, 법적 eDiscovery 작업, 중요 한 콘텐츠에 대해 공유 되는 DLP를 제공 하는 정책을 설정할 수 있습니다. Cloud App Security에서는 20 개 이상의 메타 데이터 필터 (예: 액세스 수준, 파일 형식)를 기반으로 모든 파일 형식을 모니터링할 수 있습니다. |         |![녹색 확인 표시](../media/green-check-mark.png)|
 |** [MICROSOFT Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/information-protection-in-windows-overview) 를 사용 하 여 사용자가 Windows 장치에 중요 한 정보를 저장 하는지 확인**합니다. |         |![녹색 확인 표시](../media/green-check-mark.png)|

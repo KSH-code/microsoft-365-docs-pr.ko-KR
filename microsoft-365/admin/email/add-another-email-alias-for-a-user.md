@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Microsoft 365 for business 계정에 연결 된 전자 메일 주소를 두 개 이상 사용할 수 있는 방법을 알아봅니다. '
-ms.openlocfilehash: bab4ace6d497bac8892a29c76b6f2d05c4fa018f
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: c0e71ef150ccf592ea4f808a5e6609e1675767a4
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432328"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780292"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>사용자의 다른 전자 메일 별칭 추가
 
@@ -59,7 +59,7 @@ Microsoft 365의 기본 전자 메일 주소는 일반적으로 계정을 만들
   
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. **활성 사용자** 페이지에서 **전자 메일 별칭 관리**> 사용자를 선택 합니다. 사용자에 게 라이선스가 할당 되어 있지 않은 경우에는이 옵션이 표시 되지 않습니다. 
     
@@ -89,7 +89,7 @@ Microsoft 365의 기본 전자 메일 주소는 일반적으로 계정을 만들
 
 ::: moniker range="o365-germany"
     
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
     
     
 2. **활성 사용자** 페이지에서 편집할 사용자 이름을 선택합니다.
@@ -120,7 +120,7 @@ Microsoft 365의 기본 전자 메일 주소는 일반적으로 계정을 만들
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
 
     
 2. **활성 사용자** 페이지에서 편집할 사용자 이름을 선택합니다.
@@ -162,7 +162,7 @@ GoDaddy 또는 다른 파트너로부터 구독을 구입한 경우 새 별칭�
   
 ## <a name="related-articles"></a>관련 문서
 
-[다른 주소에서 전자 메일 보내기](https://support.office.com/article/ccba89cb-141c-4a36-8c56-6d16a8556d2e.aspx)
+[다른 주소에서 전자 메일 보내기](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e)
 
 [사용자 이름 및 이메일 주소 변경](../add-users/change-a-user-name-and-email-address.md)
   

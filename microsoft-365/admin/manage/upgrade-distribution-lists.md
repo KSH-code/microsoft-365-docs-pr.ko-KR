@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: Outlook에서 하나 이상의 메일 그룹을 Microsoft 365 그룹으로 업그레이드 하는 방법 및 PowerShell을 사용 하 여 여러 메일 그룹을 동시에 업그레이드 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: cac0232b721c07ce8e07c7b101e0313eb9cd91df
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f5748c293d18943c94c3610c0e3c5c33848eb521
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399497"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780028"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Outlook에서 Microsoft 365 그룹으로 메일 그룹 업그레이드
 
-Outlook을 사용 하 여 Microsoft 365 그룹으로 메일 그룹을 업그레이드할 수 있습니다. 이 방법을 통해 조직의 메일 그룹에 Microsoft 365 그룹의 모든 기능과 기능을 제공할 수 있습니다. [Outlook에서 배포 목록을 그룹으로 업그레이드해야 하는 이유](https://support.microsoft.com/en-us/office/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188)
+Outlook을 사용 하 여 Microsoft 365 그룹으로 메일 그룹을 업그레이드할 수 있습니다. 이 방법을 통해 조직의 메일 그룹에 Microsoft 365 그룹의 모든 기능과 기능을 제공할 수 있습니다. [Outlook에서 배포 목록을 그룹으로 업그레이드해야 하는 이유](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)
 
 Dl은 한 번에 하나씩 또는 여러 개 동시에 업그레이드할 수 있습니다.
 
@@ -52,7 +52,7 @@ Dl은 한 번에 하나씩 또는 여러 개 동시에 업그레이드할 수 �
 7. 업그레이드할 DL을 선택 했지만 업그레이드 하는 데 사용할 수 있는 페이지에 여전히 표시 되는 경우 업그레이드에 실패 합니다. [업그레이드가 작동 하지 않는 경우 수행할 작업을](#what-to-do-if-the-upgrade-doesnt-work)확인 합니다.
 
 > [!NOTE]
-> 그룹 다이제스트 전자 메일을 사용 하는 경우에는 사용자가 담당자로 적합 한 메일 그룹을 업그레이드할 수 있도록 하는 경우를 예로 들 수 있습니다. 다이제스트 전자 메일에 대 한 자세한 내용은 [Outlook에서 그룹 대화 포함를](https://support.microsoft.com/en-us/office/have-a-group-conversation-in-outlook-a0482e24-a769-4e39-a5ba-a7c56e828b22) 참조 하세요.
+> 그룹 다이제스트 전자 메일을 사용 하는 경우에는 사용자가 담당자로 적합 한 메일 그룹을 업그레이드할 수 있도록 하는 경우를 예로 들 수 있습니다. 다이제스트 전자 메일에 대 한 자세한 내용은 [Outlook에서 그룹 대화 포함를](https://support.microsoft.com/office/a0482e24-a769-4e39-a5ba-a7c56e828b22) 참조 하세요.
 
 
 ## <a name="what-to-do-if-the-upgrade-doesnt-work"></a>업그레이드가 작동 하지 않는 경우 수행할 작업
@@ -156,7 +156,7 @@ DL이 적합 한지 여부를 확인 하려면 다음 명령을 실행 하면 �
 
 - Outlook: 사용자가 마이그레이션 후 Microsoft 365 그룹 이름을 입력 하 여 Outlook에서 전자 메일을 보내려고 하면 받는 사람이 그룹 대신 메일 목록으로 확인 됩니다. 받는 사람의 연락처 카드는 메일 그룹 대화 상대 카드로 표시 됩니다. 이는 받는 사람 캐시 또는 nick 이름 캐시가 Outlook에 있기 때문입니다. 전자 메일을 그룹으로 전송 하지만 보낸 사람에 게 혼란을 줄 수 있습니다.<br/>이 항목의 단계를 수행 하 여 캐시를 다시 설정 하는 [Outlook 자동 완성 목록에 대 한 정보](https://go.microsoft.com/fwlink/?LinkID=798736) 로이 문제를 해결할 수 있습니다.
 
-- 웹용 Outlook의 경우: 웹용 Outlook의 경우 메일 그룹 받는 사람은 여전히 캐시에 남아 있게 됩니다. [자동 완성 목록에서 제안 된 이름 또는 전자 메일 주소 제거](https://support.office.com/article/9E1419D9-E88F-445B-B07F-F558B8A37C58.aspx) 의 단계를 수행 하 여 캐시를 새로 고쳐 그룹 대화 상대 카드를 볼 수 있습니다.
+- 웹용 Outlook의 경우: 웹용 Outlook의 경우 메일 그룹 받는 사람은 여전히 캐시에 남아 있게 됩니다. [자동 완성 목록에서 제안 된 이름 또는 전자 메일 주소 제거](https://support.microsoft.com/office/9E1419D9-E88F-445B-B07F-F558B8A37C58) 의 단계를 수행 하 여 캐시를 새로 고쳐 그룹 대화 상대 카드를 볼 수 있습니다.
 
 ### <a name="do-new-group-members-get-a-welcome-email-in-their-inbox"></a>새 그룹 구성원에 게 받은 편지함에 환영 전자 메일이 전송 됩니까?
 

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
 description: 계획 또는 회사 이름을 변경 했을 때 두 Microsoft 365 계정 간에 데이터를 수동으로 전송 하거나 여러 구독을 하나로 결합 하는 방법을 알아봅니다.
-ms.openlocfilehash: 69476687915024accabdce2a603ebdd7e8b653af
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6e64872ad7e145b63eb71d89ea2d69e5d8697eb6
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399875"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780172"
 ---
 # <a name="transfer-data-manually-between-two-accounts"></a>두 계정 간에 데이터를 수동으로 전송
 
@@ -91,9 +91,9 @@ Microsoft 365에서 호스트 되는 공개 웹 사이트가 있는 경우이를
   
 - 이전 사이트를 서식 파일로 저장 하 고 서식 파일을 새 사이트로 가져올 수 있습니다.
 
-- 문서를 전송 하려면 먼저 새 사이트에서 계층 구조를 수동으로 다시 만듭니다. 그런 다음 두 SharePoint 팀 사이트를 동시에 열고 Windows 탐색기를 사용 하 여 두 문서 라이브러리를 열고 문서를 복사 하 여 붙여 넣을 수 있습니다. [비디오: Explorer에서 열기를 사용 하 여 라이브러리 파일 복사 또는 이동을](https://support.office.com/article/where-to-store-files-c7c20284-bc94-47f4-9728-d28e9daf0790)참조 하세요.
+- 문서를 전송 하려면 먼저 새 사이트에서 계층 구조를 수동으로 다시 만듭니다. 그런 다음 두 SharePoint 팀 사이트를 동시에 열고 Windows 탐색기를 사용 하 여 두 문서 라이브러리를 열고 문서를 복사 하 여 붙여 넣을 수 있습니다. [비디오: Explorer에서 열기를 사용 하 여 라이브러리 파일 복사 또는 이동을](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790)참조 하세요.
 
-- 목록 데이터를 전송 하려면 [목록 서식 파일](https://support.microsoft.com/en-us/office/manage-list-templates-c3884ad1-bc49-44b8-b3d6-3bc6a01eb393)을 저장 하 고 저장 된 서식 파일을 사용 하 여 새 사이트에 목록을 다시 만듭니다.
+- 목록 데이터를 전송 하려면 [목록 서식 파일](https://support.microsoft.com/office/c3884ad1-bc49-44b8-b3d6-3bc6a01eb393)을 저장 하 고 저장 된 서식 파일을 사용 하 여 새 사이트에 목록을 다시 만듭니다.
 
 - SharePoint Online 환경 (비즈니스용 OneDrive 또는 팀 사이트)의 문서 라이브러리 또는 목록 콘텐츠를 파일 공유 또는 로컬 컴퓨터에 저장 하려면 [Sharepoint online 콘텐츠의 수동 마이그레이션에 대 한 정보](https://support.microsoft.com/kb/2783484)를 참조 하세요.
 
@@ -101,8 +101,8 @@ Microsoft 365에서 호스트 되는 공개 웹 사이트가 있는 경우이를
 
 ### <a name="email"></a>메일 주소:
 
-새 구독을 설정한 후 사용자에 게 [전자 메일, 연락처, 작업 및 일정 정보를 이동](https://support.office.com/article/0996ece3-57c6-49bc-977b-0d1892e2aacc.aspx) 하도록 요청 합니다. Sue@contoso.onmicrosoft.com와 같은 초기 사용자 이름을 사용 하 여 이전 전자 메일에 액세스할 수 있습니다.
+새 구독을 설정한 후 사용자에 게 [전자 메일, 연락처, 작업 및 일정 정보를 이동](https://support.microsoft.com/office/0996ece3-57c6-49bc-977b-0d1892e2aacc) 하도록 요청 합니다. Sue@contoso.onmicrosoft.com와 같은 초기 사용자 이름을 사용 하 여 이전 전자 메일에 액세스할 수 있습니다.
   
 ### <a name="onedrive-for-business-data"></a>비즈니스용 OneDrive 데이터:
 
-사용자에 게 [비즈니스용 OneDrive 콘텐츠를 컴퓨터에](https://support.office.com/article/59b1de2b-519e-4d3a-8f45-51647cf291cd.aspx)복사/동기화 하도록 요청 하 고 새 구독에 다시 추가 합니다.
+사용자에 게 [비즈니스용 OneDrive 콘텐츠를 컴퓨터에](https://support.microsoft.com/office/59b1de2b-519e-4d3a-8f45-51647cf291cd)복사/동기화 하도록 요청 하 고 새 구독에 다시 추가 합니다.

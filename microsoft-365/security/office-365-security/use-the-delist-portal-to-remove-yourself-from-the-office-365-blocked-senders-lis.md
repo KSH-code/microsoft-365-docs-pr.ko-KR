@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 목록 해제 포털을 사용 하 여 Microsoft 365 수신 거부 목록에서 자신을 제거 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 239d30fec4d904af353731974435d377801be6c7
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 2d9dbba12740e62305e1bcfd193175659be34026
+ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208540"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44739235"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>목록 해제 포털을 사용하여 수신 거부 목록에서 본인 제거
 
@@ -43,7 +43,7 @@ Microsoft는 수신 거부 목록을 사용하여 스팸, 스푸핑 및 피싱 �
 
 1. 웹 브라우저에서 [https://sender.office.com](https://sender.office.com)으로 이동합니다.
 
-2. 페이지의 지시를 따릅니다. 오류 메시지가 전송된 전자 메일 주소와 오류 메시지에 지정된 IP 주소를 사용하고 있는지 확인합니다. 방문할 때마다 하나의 전자 메일 주소 및 하나의 IP 주소만 입력할 수 있습니다.
+2. Follow the instructions on the page. Ensure that you use the email address to which the error message was sent, and the IP address that is specified in the error message. You can only enter one email address and one IP address per visit.
 
 3. **전송**을 클릭합니다.
 
@@ -60,4 +60,4 @@ Microsoft는 수신 거부 목록을 사용하여 스팸, 스푸핑 및 피싱 �
     > [!NOTE]
     > 제한이 제거 되기 전에 최대 24 시간이 걸릴 수도 있고 결과가 크게 다를 수 있습니다.
 
-IP가 blacklisted 되지 않도록 하려면 EOP 및 [EOP의 아웃 바운드 스팸 방지](outbound-spam-controls.md) [에서 수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md) 를 참조 하세요.
+IP가 차단 되지 않도록 하려면 EOP 및 [EOP의 아웃 바운드 스팸 방지](outbound-spam-controls.md) [에서 수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md) 를 참조 하세요.

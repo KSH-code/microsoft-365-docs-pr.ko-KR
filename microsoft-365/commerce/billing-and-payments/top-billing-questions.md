@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 5480fc33-dd47-41e7-bcfb-b2533efdb92a
 description: '비즈니스에 대 한 Microsoft 365의 주요 구독에 대 한 답변을 확인 합니다. '
-ms.openlocfilehash: 04e2a24ced149e67899608237bdde67eac3f8bad
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: a2c25c82587752493dea6e3110e69f7075ed7b09
+ms.sourcegitcommit: 956dd3f87adb4e6173517550a662c3bacc2d2d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400764"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44741684"
 ---
 # <a name="top-billing-questions-for-microsoft-365-for-business"></a>비즈니스에 대 한 Microsoft 365에 대 한 주요 대금 청구 질문
 
@@ -121,7 +121,7 @@ ms.locfileid: "44400764"
 
 예. 청구 내역을 전자 메일 첨부 파일로 사용 하려면 다음 단계를 수행 합니다.
   
-1. Microsoft 365 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">청구 알림</a> 페이지로 이동 하거나 **대금** 청구 \> **알림을**선택 합니다.
+1. Microsoft 365 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">대금 청구 알림</a> 페이지로 이동 합니다.
 
 2. **청구서를 전자 메일 첨부 파일로 받으시겠습니까?** 아래의 토글을 **설정**으로 전환합니다.
 
@@ -200,9 +200,10 @@ ms.locfileid: "44400764"
 
 ::: moniker range="o365-worldwide"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">자재 명세서</a> 페이지에서 송장 날짜 범위를 선택 합니다.
-  
-2. 청구서의 PDF 복사본을 인쇄 하거나 저장 하려면 **송장 Pdf 다운로드**를 선택 하 고 pdf를 인쇄 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">금액 & 지불 페이지</a> 페이지로 이동 합니다.
+2. **송장** 탭에서 송장 날짜 범위를 선택 합니다.
+3. 보려는 송장을 선택 합니다.
+4. 청구서의 PDF 복사본을 인쇄 하거나 저장 하려면 **Pdf 다운로드**를 선택 하 고 pdf를 인쇄 합니다.
 
 자세한 내용은 [청구서 또는 송장 보기](view-your-bill-or-invoice.md)를 참조 하세요.
 

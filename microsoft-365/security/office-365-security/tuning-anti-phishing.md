@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: 관리자는 Microsoft 365에서 피싱 메시지를 통해 얻은 이유와 방법을 파악 하 고, 향후 피싱 메시지를 더 많이 방지 하기 위해 수행 해야 하는 작업에 대해 알아봅니다.
-ms.openlocfilehash: b7a68eb3ab3cf7dbb7156059416cca04d80bb3a8
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: ac416da714e30491f679e22909010a8c02fac843
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588443"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755055"
 ---
 # <a name="tune-anti-phishing-protection"></a>피싱 방지 보호 기능 조정
 
@@ -51,17 +51,21 @@ ATP 기능이 설정 되어 있는지 확인 합니다.
 
 - 매월 보안 [점수](../mtp/microsoft-secure-score.md) 를 실행 하 여 조직의 security 설정을 평가 합니다.
 
-- 정기적으로 [스푸핑 인텔리전스 보고서](learn-about-spoof-intelligence.md) 를 검토 하 고 의심 스러운 메시지를 사용자의 정크 메일 폴더로 배달 하지 말고 **격리** 하도록 [스푸핑 인텔리전스를 구성](set-up-anti-phishing-policies.md#spoof-settings) 합니다.
+- 실수로 격리 되거나, 허용 되는 메시지에 대해 차단 되는 메시지의 경우 [위협 탐색기 및 실시간](threat-explorer.md)검색에서 해당 메시지를 찾는 것이 좋습니다. 보낸 사람, 받는 사람 또는 메시지 ID 별로 검색할 수 있습니다. 메시지를 찾은 후 주제를 클릭 하 여 세부 정보로 이동 합니다. 격리 된 메시지의 경우 적절 한 방법으로 재정의 하는 데 사용할 수 있도록 "검색 기술"이 있던 것을 확인 합니다. 허용 되는 메시지에 대해 메시지를 허용 하는 정책을 확인 합니다. 
+
+- 스푸핑된 메일에는 ATP의 피싱로 태그가 지정 됩니다. 때로는 스푸핑이 심각 하지 않으며 사용자가 격리 하지 않을 수도 있습니다. 사용자에 게 미치는 영향을 최소화 하기 위해, 주기적으로 [스푸핑 인텔리전스 보고서](learn-about-spoof-intelligence.md)를 검토 합니다. 필요한 재정의를 검토 하 고 수행한 후에는 사용자의 정크 메일 폴더로 배달 하지 않고 의심 스러운 메시지를 **격리** 하도록 [스푸핑 인텔리전스를 구성](set-up-anti-phishing-policies.md#spoof-settings) 하는 것을 확신할 수 있습니다.
+
+- 가장 (도메인 또는 사용자)에 대해 위의 단계를 반복할 수 있습니다. 가장 보고서는 **Threat Management** \> **Dashboard** \> **Insights**에서 찾을 수 있습니다.
 
 - [위협 방지 상태 보고서](view-reports-for-atp.md#threat-protection-status-report)를 주기적으로 검토 합니다.
 
-- 일부 고객은 스팸 방지 정책의 보낸 사람 허용 또는 허용 도메인 목록에 자신의 도메인을 추가 하 여 피싱 메시지를 통과 하도록 할 수 있습니다. 이 작업을 선택 하는 경우에는 매우 주의 해야 합니다. 이 구성에서는 일부 합법적인 메시지를 허용 하지만, 일반적으로 스팸 및/또는 피싱 필터에 의해 차단 되는 악성 메시지도 허용 됩니다.
+- 일부 고객은 스팸 방지 정책의 보낸 사람 허용 또는 허용 도메인 목록에 자신의 도메인을 추가 하 여 피싱 메시지를 통과 하도록 할 수 있습니다. 이 구성에서는 일부 합법적인 메시지를 허용 하지만, 일반적으로 스팸 및/또는 피싱 필터에 의해 차단 되는 악성 메시지도 허용 됩니다. 도메인을 허용 하는 대신 근본적인 문제를 해결 해야 합니다.
 
   도메인의 보낸 사람을 포함 하는 Microsoft 365 (가양성)에 의해 차단 되는 합법적인 메시지를 처리 하는 가장 좋은 방법은 _모든_ 전자 메일 도메인의 DNS에서 SPF, DKIM 및 DMARC 레코드를 완전히 및 완전히 구성 하는 것입니다.
 
   - SPF 레코드에 도메인의 보낸 사람에 대 한 _모든_ 전자 메일 원본이 식별 되는지 확인 합니다 (타사 서비스를 잊지 마십시오.).
 
-  - \-권한 없는 보낸 사람이이를 수행 하도록 구성 된 전자 메일 시스템에 의해 거부 되도록 하려면 hard fail ()을 사용 합니다. [스푸핑 인텔리전스](learn-about-spoof-intelligence.md) 를 사용 하면 SPF 레코드에 권한이 부여 된 타사 보낸 사람을 포함할 수 있도록 도메인을 사용 중인 보낸 사람을 식별 하는 데 도움이 됩니다.
+  - \-무단 보낸 사람이이를 수행 하도록 구성 된 전자 메일 시스템에 의해 거부 되도록 하려면 하드 실패 (모두)를 사용 합니다. [스푸핑 인텔리전스](learn-about-spoof-intelligence.md) 를 사용 하면 SPF 레코드에 권한이 부여 된 타사 보낸 사람을 포함할 수 있도록 도메인을 사용 중인 보낸 사람을 식별 하는 데 도움이 됩니다.
 
   구성 지침에 대해서는 다음을 참조 하세요.
   
@@ -72,6 +76,8 @@ ATP 기능이 설정 되어 있는지 확인 합니다.
   - [DMARC를 사용하여 전자 메일의 유효성 검사](use-dmarc-to-validate-email.md)
 
 - 가능한 경우에는 항상 도메인에 대 한 전자 메일을 Microsoft 365로 직접 배달 하는 것이 좋습니다. 즉, Microsoft 365 도메인의 MX 레코드를 Microsoft 365로 가리킵니다. EOP (Exchange Online Protection)은 메일이 Microsoft 365로 직접 배달 될 때 클라우드 사용자에 게 최상의 보호를 제공할 수 있습니다. EOP 앞에 타사 전자 메일 바이러스 예방 시스템을 사용 해야 하는 경우에는 커넥터에 대 한 고급 필터링을 사용 합니다. 자세한 내용은 [Exchange Online의 커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)을 참조 하십시오.
+
+- 사용자가 Microsoft에 [메시지를 보고](enable-the-report-message-add-in.md) 하 여 시스템을 훈련 시킬 수 있도록 해야 합니다. 관리자는 [관리자 전송](admin-submission.md) 기능도 함께 활용 해야 합니다.
 
 - MFA (multi-factor authentication)는 손상 된 계정을 방지 하는 좋은 방법입니다. 모든 사용자에 대해 MFA를 사용 하도록 설정 하는 것이 좋습니다. 단계적 접근 방식에서는 모든 사용자에 대해 MFA를 사용 하도록 설정 하기 전에 가장 중요 한 사용자 (관리자, 임원 등)에 대해 MFA를 사용 하도록 설정 하는 것부터 시작 합니다. 자세한 내용은 [다단계 인증 설정을](../../admin/security-and-compliance/set-up-multi-factor-authentication.md)참조 하십시오.
 
