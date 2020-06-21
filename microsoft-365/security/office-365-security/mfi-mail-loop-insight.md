@@ -10,24 +10,26 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
+ms.custom:
+- seo-marvel-apr2020
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 메일 루프 통찰력에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: d17c698cf66be56b6a08fa5efc2aaff78aaece07
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 80767a265734c542db8e24cf58d0a1c0df469780
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082823"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819319"
 ---
-# <a name="mail-loop-insight"></a><span data-ttu-id="c111a-103">메일 루프 파악</span><span class="sxs-lookup"><span data-stu-id="c111a-103">Mail loop insight</span></span>
+# <a name="mail-loop-insight"></a><span data-ttu-id="dd12f-103">메일 루프 파악</span><span class="sxs-lookup"><span data-stu-id="dd12f-103">Mail loop insight</span></span>
 
-<span data-ttu-id="c111a-104">메일 루프는 시스템 리소스를 낭비 하 고 조직의 메일 볼륨 할당량을 소비 하며, Ndr 또는 바운스 메시지가 라고도 하는 혼동 하지 않는 보고서를 원래 보낸 사람에 게 전송 하므로 잘못 된 것입니다.</span><span class="sxs-lookup"><span data-stu-id="c111a-104">A mail loop is bad because it wastes system resources, consumes your organization's mail volume quota, and sends confusing non-delivery reports (also known as NDRs or bounce messages) to the original senders.</span></span> <span data-ttu-id="c111a-105">이 통찰력은 조직에서 메일 루프가 발견 되는 시기, 루프에 포함 된 전자 메일 도메인, 그리고 루프에 있던 이전 날짜의 메시지 수를 보고 합니다.</span><span class="sxs-lookup"><span data-stu-id="c111a-105">This insight reports when a mail loop is found in your organization, the email domains that are involved in the loop, and the number of messages from the previous day that were in the loop.</span></span>
+<span data-ttu-id="dd12f-104">메일 루프는 시스템 리소스를 낭비 하 고 조직의 메일 볼륨 할당량을 소비 하며, Ndr 또는 바운스 메시지가 라고도 하는 혼동 하지 않는 보고서를 원래 보낸 사람에 게 전송 하므로 잘못 된 것입니다.</span><span class="sxs-lookup"><span data-stu-id="dd12f-104">A mail loop is bad because it wastes system resources, consumes your organization's mail volume quota, and sends confusing non-delivery reports (also known as NDRs or bounce messages) to the original senders.</span></span> <span data-ttu-id="dd12f-105">이 통찰력은 조직에서 메일 루프가 발견 되는 시기, 루프에 포함 된 전자 메일 도메인, 그리고 루프에 있던 이전 날짜의 메시지 수를 보고 합니다.</span><span class="sxs-lookup"><span data-stu-id="dd12f-105">This insight reports when a mail loop is found in your organization, the email domains that are involved in the loop, and the number of messages from the previous day that were in the loop.</span></span>
 
 ![보안 & 준수 센터의 메일 흐름 대시보드에서 메일 루프 통찰력](../../media/c3f707cb-4c89-4e88-989c-81ce1d1d6b99.png)
 
-<span data-ttu-id="c111a-107">**세부 정보 보기** 를 클릭 하 여 플라이 아웃 창에서 세부 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c111a-107">You can click **View details** to see the details in a flyout pane.</span></span> <span data-ttu-id="c111a-108">또한 가장 일반적인 루프 시나리오를 파악 하 고 루프를 수정 하는 데 권장 되는 작업 (사용 가능한 경우)을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="c111a-108">We also identify the most common loop scenarios and provide the recommended actions (if available) to fix the loop.</span></span>
+<span data-ttu-id="dd12f-107">**세부 정보 보기** 를 클릭 하 여 플라이 아웃 창에서 세부 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dd12f-107">You can click **View details** to see the details in a flyout pane.</span></span> <span data-ttu-id="dd12f-108">또한 가장 일반적인 루프 시나리오를 파악 하 고 루프를 수정 하는 데 권장 되는 작업 (사용 가능한 경우)을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="dd12f-108">We also identify the most common loop scenarios and provide the recommended actions (if available) to fix the loop.</span></span>
 
 ![메일 흐름 대시보드에서 잘못 된 루프 통찰력에서 세부 정보 보기를 클릭 한 후 플라이 아웃 창](../../media/f7e21300-c62f-41ec-853f-4a2775cd8aa7.png)
 
-## <a name="see-also"></a><span data-ttu-id="c111a-110">참고 항목</span><span class="sxs-lookup"><span data-stu-id="c111a-110">See also</span></span>
+## <a name="related-topics"></a><span data-ttu-id="dd12f-110">관련 항목</span><span class="sxs-lookup"><span data-stu-id="dd12f-110">Related topics</span></span>
 
-<span data-ttu-id="c111a-111">메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="c111a-111">For more information about other mail flow insights in the mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
+<span data-ttu-id="dd12f-111">메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="dd12f-111">For more information about other mail flow insights in the mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>

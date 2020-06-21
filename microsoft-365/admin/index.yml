@@ -13,17 +13,23 @@ metadata:
   ms.date: 11/08/2019
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 56353a336c3f8383b93ab63898e4879276b0108d
-  ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+  ms.openlocfilehash: 9d8104660c4686b2240c292509a499a25308d9f6
+  ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/27/2020
-  ms.locfileid: "44399851"
+  ms.lasthandoff: 06/18/2020
+  ms.locfileid: "44799962"
 highlightedContent:
   items:
   - title: Office 365은 이제 Microsoft 365입니다.
     itemType: whats-new
     url: new-subscription-names.md
+  - title: Microsoft 365 관리 센터의 새로운 기능을 소개 합니다.
+    itemType: whats-new
+    url: whats-new-in-preview.md
+  - title: Microsoft 365 변경 사항 맨 위에 유지
+    itemType: how-to-guide
+    url: manage/stay-on-top-of-updates.md
 productDirectory:
   title: 시작하기
   summary: 구독 및 전자 메일을 설정 하 고, 사용자를 추가 하 고, 앱을 설치 합니다.
@@ -43,7 +49,7 @@ productDirectory:
   - title: 사용자 교육
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
     summary: 조직의 사용자가 파일을 저장 및 공유 하 고 Office 앱을 사용 하는 방법에 대해 알아봅니다.
-    url: https://support.office.com/office-training-center
+    url: https://support.microsoft.com/training
 additionalContent:
   sections:
   - title: 관리
