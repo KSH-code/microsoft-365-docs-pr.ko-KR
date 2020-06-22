@@ -33,7 +33,7 @@
         - name: Teams 배포
           href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
         - name: 모든 사용자를 위한 교육
-          href: 'https://support.office.com/office-training-center'
+          href: 'https://support.microsoft.com/training'
         - name: 내가 구독한 것은 무엇인가요?
           href: admin-overview/what-subscription-do-i-have.md
         - name: 로그인 페이지 사용자 지정
@@ -93,6 +93,8 @@
               href: manage/assign-licenses-to-users.md
             - name: 관리자 역할 할당
               href: add-users/assign-admin-roles.md
+            - name: 게스트 사용자
+              href: add-users/about-guest-users.md
             - name: Microsoft 365 그룹에 게스트 사용자 추가
               href: create-groups/manage-guest-access-in-groups.md
             - name: 사용자에서 라이선스 제거
@@ -170,7 +172,7 @@
               href: email/about-shared-mailboxes.md
             - name: 공유 사서함 만들기
               href: email/create-a-shared-mailbox.md
-            - name: 공유 사서함 설정
+            - name: 공유 사서함 설정 구성
               href: email/configure-a-shared-mailbox.md
             - name: 사용자 사서함을 공유 사서함으로 변환
               href: email/convert-user-mailbox-to-shared-mailbox.md
@@ -218,6 +220,8 @@
           href: manage/set-password-expiration-policy.md
         - name: 앱 시작 관리자 사용자 지정
           href: manage/customize-the-app-launcher.md
+        - name: 사용자를 최신 앱으로 업그레이드합니다.
+          href: setup/upgrade-users-to-latest-office-client.md
         - name: 중앙 집중식 추가 기능 배포 요구 사항
           href: manage/centralized-deployment-of-add-ins.md
         - name: 중앙 집중식 배포를 사용하여 추가 기능 설치 및 관리
@@ -320,11 +324,11 @@
         - name: 게스트 사용자와 일정 공유
           href: manage/share-calendars-with-external-users.md
         - name: 게스트 사용자와 함께 팀 만들기
-          href: 'https://support.office.com/article/11fbb083-52ee-434d-8c6e-63711fdafac7'
-        - name: 게스트와 Teams 모임 예약
-          href: 'https://support.office.com/article/c61b4f61-ee62-4a06-8bf7-0a1cd302700a?ui=en-US&rs=en-US&ad=US'
+          href: 'https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7'
+        - name: 게스트 사용자와 Teams 모임 예약
+          href: 'https://support.microsoft.com/office/c61b4f61-ee62-4a06-8bf7-0a1cd302700a'
         - name: 게스트 사용자와 Teams 모임 참가
-          href: 'https://support.office.com/article/a120c282-063d-46b8-b973-851197ab75d8?ui=en-US&rs=en-US&ad=US'
+          href: 'https://support.microsoft.com/office/a120c282-063d-46b8-b973-851197ab75d8'
     - name: 문제 해결
       href: 'https://docs.microsoft.com/office/troubleshoot/'
     - name: 지원 센터 문의
