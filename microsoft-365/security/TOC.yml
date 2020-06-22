@@ -230,7 +230,7 @@
               href: mtp/feedback.md
             - name: ServiceNow를 통해 티켓 관리
               href: ./mtp/tickets.md
-    - name: Microsoft 365 보안
+    - name: Office 365 Advanced Threat Protection
       items:
         - name: 시작하기
           items:
