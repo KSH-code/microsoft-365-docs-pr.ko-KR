@@ -17,16 +17,14 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bf4abfd6f5ab19c3bc89673b0cc2255e026d1f7a
-ms.sourcegitcommit: 9d7a14bf4c26bda18561fa45885225d95855fb5c
+ms.openlocfilehash: e6574d59fef98e026da31a21dab9189d2af4581e
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44474539"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818007"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
-
-## <a name="overview"></a>개요
 
 [사용자 지정 중요한 정보 유형](custom-sensitive-info-types.md)을 사용하면 중요한 정보를 의도하지 않거나 부적절하게 공유하는 것을 방지합니다. 관리자로서 [보안 및 준수 센터](create-a-custom-sensitive-information-type.md) 또는 [PowerShell](create-a-custom-sensitive-information-type-in-scc-powershell.md)을 사용하여 패턴, 증명( *직원*, *배지*, *ID* 등의 키워드), 문자 근접도(특정 패턴에서 증명과 문자가 근접한 정도) 및 신뢰 수준을 기반으로 사용자 지정 정보 유형을 정의할 수 있습니다. 이러한 사용자 지정 중요한 정보 유형은 대부분의 조직에 필요한 비즈니스 요구 사항을 충족합니다.
 

@@ -20,18 +20,18 @@ search.appverid:
 - MOE150
 ms.assetid: 613a845c-4b71-41de-b331-acdcf5b6625d
 description: '조직의 모든 사용자나 특정 사용자에 대해 중요 받은 편지함을 구성하는 방법을 알아봅니다. '
-ms.openlocfilehash: 3d719208caf233ebcc4825ef04647bf06c68d93e
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f56e85e79fcf17cde89ec3d6094ca757ccf0cc68
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398981"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779932"
 ---
 # <a name="configure-focused-inbox-for-everyone-in-your-organization"></a>조직의 모든 사용자에 대해 중요 받은 편지함 구성
 
-  회사의 모든 사용자에 대해 전자 메일 작동 방법을 구성해야 하는 경우 이 문서를 참조하세요. 이 문서에서는 해당 비즈니스에 맞게 이러한 구성을 사용자 지정하거나 끄는 방법을 설명하고 [자주하는 질문](#faq-for-focused-inbox)에 대답합니다.  <br/> 자신의 중요 받은 편지함을 끄려면 [중요 받은 편지함 끄기](https://support.office.com/article/f714d94d-9e63-4217-9ccb-6cb2986aa1b2.aspx)를 참조하세요.  
+  회사의 모든 사용자에 대해 전자 메일 작동 방법을 구성해야 하는 경우 이 문서를 참조하세요. 이 문서에서는 해당 비즈니스에 맞게 이러한 구성을 사용자 지정하거나 끄는 방법을 설명하고 [자주하는 질문](#faq-for-focused-inbox)에 대답합니다.  <br/> 자신의 중요 받은 편지함을 끄려면 [중요 받은 편지함 끄기](https://support.microsoft.com/office/f714d94d-9e63-4217-9ccb-6cb2986aa1b2)를 참조하세요.  
    
-사용자가 예를 들어 HR 또는 급여로부터 비즈니스 관련 전자 메일 메시지를 받을 수 있도록 하려면 이러한 메시지가 중요 보기로 오도록 중요 받은 편지함을 구성할 수 있습니다. 사서함에서 중요 받은 편지함이 조직의 사용자에게 표시되도록 할 것인지를 제어할 수도 있습니다.
+If you want to be sure that your users receive business-specific email messages, for example, from HR or payroll, you can configure Focused Inbox so these messages reach the Focused view. You can also control whether users in your organization see the Focused Inbox in their mailbox.
   
 ## <a name="turn-focused-inbox-on-or-off-in-your-organization"></a>조직의 중요 받은 편지함 켜기 또는 끄기
 
@@ -39,11 +39,11 @@ PowerShell을 사용하여 조직의 모든 사용자에 대해 중요 받은 �
   
  **중요 받은 편지함을 끄는 방법**
   
-다음 PowerShell 예제는 조직의 중요 받은 편지함을 **끕니다**. 하지만 이렇게 해도 사용자의 기능 사용 가능성은 차단되지 않습니다. 사용자가 원하는 경우 각 클라이언트에서 중요 받은 편지함을 다시 사용하도록 설정할 수 있습니다. 
+The following PowerShell example turns Focused Inbox **Off** in your organization. However, it doesn't block the availability of the feature for your users. If they want, they can still re-enable Focused Inbox again on each of their clients. 
   
 1. [원격 PowerShell을 사용하여 Exchange Online에 연결](https://go.microsoft.com/fwlink/p/?LinkId=396554)
     
-2. 이 절차를 수행하려면 사용 권한이 할당된 상태여야 합니다. 필요한 사용 권한을 확인하려면 [메시징 정책 및 규정 준수 권한](https://go.microsoft.com/fwlink/p/?LinkId=829796)의 "전송 규칙" 항목을 참조하세요.
+2. You need to be assigned permissions before you can perform this procedure or procedures. To see what permissions you need, see the "Transport rules" entry in [Messaging policy and compliance permissions](https://go.microsoft.com/fwlink/p/?LinkId=829796).
     
 3. 
             **Get-OrganizationConfig** cmdlet을 실행합니다. 
@@ -74,23 +74,23 @@ Get-OrganizationConfig
 
 ## <a name="what-do-users-see-after-i-turn-on-focused-inbox"></a>중요 받은 편지함을 켜면 사용자에게 어떻게 표시되나요? 
 
-Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표시됩니다. Outlook을 다시 시작하면 Outlook 사용자 인터페이스에 새 중요 받은 편지함을 사용하기 위한 옵션을 제공하는 팁이 표시됩니다.
+Your users will see the Focused view only after they close and restart Outlook. When they restart Outlook, they'll see a Tip in the Outlook user interface giving them to the option to use the new Focused Inbox.
   
 ![사용자가 처음으로 웹용 Outlook을 열 때 중요 받은 편지함의 이미지입니다.](../../media/f6ef79e7-0f4c-4a23-b6f0-7c15d927b5f0.png)
   
-낮은 우선 순위 메일에서 중요 받은 편지함으로 전환하는 경우 사용자가 이를 사용하도록 설정할지("사용해 보기") 또는 이 기능을 해제할지를 결정할 수 있습니다. 여러(지원되는) 클라이언트가 있는 경우 사용자는 각각에서 개별적으로 중요 받은 편지함을 사용하거나 사용하지 않도록 설정할 수 있습니다. 팁은 다음과 같습니다.
+If you're switching from Clutter to Focused Inbox, they can decide to enable it ("Try it") or dismiss the feature. If the user has multiple (supported) clients, they can enable/disable Focused Inbox individually on each one. The tip looks like this:
   
 ![중요 받은 편지함이 사용자에게 배포되고 Outlook을 다시 열었을 때 중요 받은 편지함이 어떻게 표시되는지를 보여 주는 이미지](../../media/c034f969-d650-4333-88f1-dd10ade0a94c.png)
   
-사용자가 중요 받은 편지함을 사용하기로 결정하면 낮은 우선 순위 메일이 자동으로 사용하지 않도록 설정됩니다. 낮은 우선 순위 메일 폴더는 사용자가 이름을 바꾸거나 삭제할 수 있는 표준 폴더로 변환됩니다.
+When a user decides to start using Focused Inbox, Clutter gets disabled automatically. The Clutter folder gets converted into a standard folder, that allows the user to rename or delete it.
   
 ## <a name="turn-focused-inbox-on-or-off-for-specific-users"></a>특정 사용자에 대해 중요 받은 편지함 켜기 또는 끄기
 
-이 예제에서는 Contoso 조직의 Tim Matthews에 대해 중요 받은 편지함을 **끕니다**. 하지만 이렇게 해도 Tim Matthews의 기능 사용 가능성은 차단되지 않습니다. Tim Matthews가 원하는 경우 각 클라이언트에서 중요 받은 편지함을 다시 사용하도록 설정할 수 있습니다. 
+This example turns Focused Inbox **Off** for Tim Matthews in the Contoso organization. However, it doesn't block the availability of the feature to him. If his wants, he can still re-enable Focused Inbox again on each of his clients. 
   
 1. [원격 PowerShell을 사용하여 Exchange Online에 연결](https://go.microsoft.com/fwlink/p/?LinkId=396554)
     
-2. 이 절차를 수행하려면 사용 권한이 할당된 상태여야 합니다. 필요한 사용 권한을 확인하려면 Messaging policy and compliance permissions(메시징 정책 및 규정 준수 권한) 항목에서 “Transport rules”(전송 규칙) 항목을 참조하세요.
+2. You need to be assigned permissions before you can perform this procedure or procedures. To see what permissions you need, see the "Transport rules" entry in the Messaging policy and compliance permissions topic.
     
 3. **Get-FocusedInbox** cmdlet을 실행합니다. 예를 들면 다음과 같습니다. 
     
@@ -130,7 +130,7 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
 
 1. [원격 PowerShell을 사용하여 Exchange Online에 연결](https://go.microsoft.com/fwlink/p/?LinkId=396554)
     
-2. 이 절차를 수행하려면 사용 권한이 할당된 상태여야 합니다. 필요한 사용 권한을 확인하려면 [메시징 정책 및 규정 준수 권한](https://go.microsoft.com/fwlink/p/?LinkId=829796)의 "전송 규칙" 항목을 참조하세요.
+2. You need to be assigned permissions before you can perform this procedure or procedures. To see what permissions you need, see the "Transport rules" entry in [Messaging policy and compliance permissions](https://go.microsoft.com/fwlink/p/?LinkId=829796).
 
 3. 예를 들어 다음 명령을 실행하여 "급여 부서"의 모든 메시지가 중요 받은 편지함으로 배달되도록 할 수 있습니다.
     
@@ -148,7 +148,7 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
  
 ## <a name="turn-onoff-clutter"></a>낮은 우선 순위 메일 켜기/끄기
  
-일부 사용자에서 낮은 우선 순위 메일이 갑자기 작동 중지되었다는 보고를 받았습니다. 이 경우 특정 사용자에 대해 낮은 우선 순위 메일을 다시 사용하도록 설정할 수 있습니다. [조직에 대한 낮은 우선 순위 메일 구성](../email/configure-clutter.md)을 참조하세요.
+We've received reports that Clutter suddenly stopped working for some users. If this happens, you can enable it again for specific users. See [Configure Clutter for your organization](../email/configure-clutter.md).
  
 ## <a name="faq-for-focused-inbox"></a>중요 받은 편지함에 대한 FAQ
 
@@ -156,7 +156,7 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
 
 ### <a name="can-i-control-how-i-roll-out-focused-inbox-in-my-organization"></a>조직에서 중요 받은 편지함 배포 방법을 제어할 수 있나요?
 
-예. 전체 조직에 대해 중요 받은 편지함을 켜거나 끌 수도 있고 지정된 사용자에 대해 켜거나 끌 수도 있습니다. 위 내용을 참조하세요.
+Yes. You can turn Focused Inbox on or off for your entire organization, or you can turn it on or off for specified users. See above.
   
 ### <a name="is-the-focused-inbox-feature-only-available-for-office-2016-clients"></a>중요 받은 편지함은 Office 2016 클라이언트에서만 사용할 수 있는 기능인가요?
 
@@ -168,17 +168,17 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
   
 ### <a name="what-happens-to-clutter-once-i-turn-on-focused-inbox"></a>중요 받은 편지함을 켜면 낮은 우선 순위 메일은 어떻게 나요?
 
-전환한 다음 낮은 우선 순위 메일 폴더로 더 이상 덜 실행 가능한 전자 메일이 수신되지 않습니다. 그 대신 전자 메일이 받은 편지함의 중요 및 기타 탭으로 수신됩니다. 중요 받은 편지함에는 낮은 우선 순위 메일 폴더로 항목을 이동하던 동일한 알고리즘이 적용됩니다. 즉, 낮은 우선 순위 메일로 이동되도록 설정된 모든 전자 메일이 이제는 기타로 이동됩니다. 이미 낮은 우선 순위 메일 폴더에 포함된 메시지는 사용자가 삭제하거나 이동할 때까지 해당 폴더에 남아 있습니다.
+After switching, you'll no longer receive less actionable email in the Clutter folder. Instead, email will be split between the Focused and Other tabs in your inbox. The same algorithm that moved items to the Clutter folder now powers Focused Inbox, meaning that any emails that were set to move to Clutter will now be moved to Other. Any messages already in your Clutter folder will remain there until you decide to delete or move them.
   
 Microsoft MVP인 [Tony Redmond](https://www.petri.com/author/tony-redmond)의 다음 게시물을 확인해 보세요. [How the Focused Inbox Replaces Clutter Inside Office 365](https://www.petri.com/focused-inbox-office-365)(Office 365 내에서 중요 받은 편지함이 낮은 우선 순위 메일을 대체하는 방법)
   
 ### <a name="can-i-keep-users-on-clutter-what-is-microsofts-recommendation-when-it-comes-to-using-clutter-vs-focused-inbox"></a>낮은 우선 순위 메일의 사용자를 유지할 수 있나요? 낮은 우선 순위 메일 및 중요 받은 편지함 사용에 대한 Microsoft의 권장 사항은 무엇인가요?
 
-예, 낮은 우선 순위 메일의 사용자를 유지하고 중요 받은 편지함을 사용하지 않도록 설정할 수 있습니다. 하지만 결국 낮은 우선 순위 메일이 중요 받은 편지함으로 완전히 대체되므로 Microsoft에서는 지금 바로 중요 받은 편지함으로 이동하는 것을 권장합니다. Exchange Online에서 낮은 우선 순위 메일을 사용하는 경우에 대해 자세히 알아보려면 다음 블로그 게시물을 참조하세요. [Update on Focused Inbox and our plans for Clutter](https://techcommunity.microsoft.com/t5/Outlook-Blog/Update-on-Focused-Inbox-and-our-plans-for-Clutter/ba-p/136448)(중요 받은 편지함에 대한 업데이트 및 낮은 우선 순위 메일에 대한 우리의 계획)
+Yes, you can keep users on Clutter and disable Focused Inbox, however, eventually Clutter will be fully replaced with Focused Inbox so Microsoft's recommends moving to Focused Inbox now. To learn more about when you use Clutter with Exchange Online, see this blog post: [Update on Focused Inbox and our plans for Clutter](https://techcommunity.microsoft.com/t5/Outlook-Blog/Update-on-Focused-Inbox-and-our-plans-for-Clutter/ba-p/136448).
   
 ### <a name="should-i-disable-clutter-for-my-end-users-if-we-are-going-to-move-everyone-to-focused-inbox"></a>모든 사용자가 중요 받은 편지함으로 이동하려는 경우 일반 사용자에 대해 낮은 우선 순위 메일을 사용하지 않도록 설정해야 하나요?
 
-아니요. Set-Clutter cmdlet을 실행하여 명시적으로 사서함에 대해 낮은 우선 순위 메일을 사용하지 않도록 설정할 수 있습니다. 그러나 이렇게 하면 이전에 낮은 우선 순위 메일 폴더로 리디렉션된 메시지는 해당 받은 편지함에 그대로 유지되며 중요 받은 편지함을 지원하는 버전으로 해당 클라이언트가 업그레이드될 때까지 이들 메시지를 처리해야 한다는 메시지가 사서함 소유자에게 표시됩니다. 따라서 업그레이드된 클라이언트를 사용할 수 있을 때까지 낮은 우선 순위 메일을 사용하지 않도록 설정하는 것이 가장 좋습니다.
+No. It's possible to disable Clutter for a mailbox explicitly by running the Set-Clutter cmdlet. However, if you do this, the mailbox owner will see messages that were previously redirected to the Clutter folder remain in the Inbox and they'll have to process those messages until their client is upgraded to a version that supports the Focused Inbox. It's therefore best not to disable Clutter until the upgraded clients are available.
   
 ### <a name="why-are-there-two-different-cmdlets-for-managing-focused-inbox"></a>중요 받은 편지함 관리를 위해 두 가지 cmdlet이 있는 이유는 무엇인가요?
 
@@ -190,12 +190,12 @@ Microsoft MVP인 [Tony Redmond](https://www.petri.com/author/tony-redmond)의 �
     
 ### <a name="how-does-outlook-decide-to-show-the-focused-inbox-experience-with-these-two-states"></a>Outlook에서 이러한 두 가지 상태로 중요 받은 편지함 환경 표시를 결정하는 방법은 무엇인가요?
 
-Outlook은 최신 타임스탬프가 있는 cmdlet을 선택하여 환경 표시를 결정합니다. 기본적으로 두 타임스탬프 모두 “null”이며 이런 경우에는 이 기능이 사용하도록 설정됩니다.
+Outlook decides to show the experience by choosing which cmdlet has the latest time stamp. By default, both time stamps are "null" and in this case, the feature is enabled.
   
 ### <a name="why-does-the-get-focusedinbox-cmdlet-return-true-when-ive-turned-focused-inbox-off-in-my-organization"></a>조직에서 중요 받은 편지함을 껐는데 Get-FocusedInbox cmdlet에서 “true”를 반환하는 이유는 무엇인가요?
 
-중요 받은 편지함을 제어하는 cmdlet은 두 가지입니다. 사서함에 대해 Get-FocusedInbox를 실행하면 이 기능의 사서함 수준 상태를 반환합니다. Outlook의 환경은 마지막으로 수정된 cmdlet 상태를 기반으로 선택됩니다.
+There are two cmdlets for controlling Focused Inbox. When you run Get-FocusedInbox for a mailbox, it returns the mailbox level state of the feature. The experience in Outlook is chosen based on which cmdlet state was last modified.
   
 ### <a name="can-i-run-a-script-to-see-who-has-turned-on-focused-inbox"></a>스크립트를 실행하여 중요 받은 편지함을 설정한 사용자를 확인할 수 있나요?
 
-아니요. 불가능하도록 설계되어 있습니다. 중요 받은 편지함 사용 설정은 클라이언트 쪽 설정이므로 cmdlet에서는 사용자의 사서함을 클라이언트 환경에 사용할 수 있는지만 알려 줄 수 있습니다. 동시에 어떤 클라이언트에서는 사용하도록 설정하고 어떤 클라이언트에서는 사용하지 않도록 설정할 수 있습니다. 예를 들어 Outlook 앱과 Outlook Mobile에서는 사용하지만 웹용 Outlook에서는 사용하지 않도록 설정할 수 있습니다.
+No, and this is by design. Focused Inbox enablement is a client side setting, so all the cmdlet can do is tell you if the user's mailbox is eligible for the client experience. It is possible for it to be simultaneously enabled in some clients and disabled in others, for example, enabled in Outlook app and Outlook Mobile but disabled in Outlook on the web.

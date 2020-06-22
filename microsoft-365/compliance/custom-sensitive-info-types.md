@@ -17,18 +17,16 @@ search.appverid:
 - MET150
 description: 'DLP(데이터 손실 방지)에 대한 사용자 지정 중요한 정보 유형(예: 기본 패턴, 문자 근접성, 신뢰 수준)의 개요를 확인합니다.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6bd0d0d751a7ed03b645ae3d3fce83e3b7b04073
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 6934edba6eef03bc9d4bfc5c1c69f127a7d3a0e5
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327770"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817967"
 ---
 # <a name="custom-sensitive-information-types"></a>사용자 지정 중요한 정보 유형
 
-## <a name="overview"></a>개요
-
-Microsoft 365에는 [데이터 손실 방지](data-loss-prevention-policies.md)(DLP) 또는 [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)와 같이 조직에서 사용하도록 기본으로 제공되는 많은 중요한 정보 유형이 포함되어 있습니다. 기본 제공되는 중요한 정보 유형은 정규 표현식(정규식) 또는 함수로 정의된 패턴을 기반으로 신용 카드 번호, 은행 계좌 번호, 여권 번호 등을 식별하고 보호하는 데 도움이 될 수 있습니다. 자세한 내용은 [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)를 참조하세요.
+Microsoft 365에는 [데이터 손실 방지](data-loss-prevention-policies.md)(DLP) 또는 [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)와 같이 조직에서 사용하도록 기본으로 제공되는 많은 중요한 정보 유형이 포함되어 있습니다. 기본 제공되는 중요한 정보 유형은 정규 표현식(정규식) 또는 함수로 정의된 패턴을 기반으로 신용 카드 번호, 은행 계좌 번호, 여권 번호 등을 식별하고 보호하는 데 도움이 될 수 있습니다. 자세한 내용은 [중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)을 참조하십시오.
 
 그렇지만 다른 유형의 중요한 정보, 예를 들어, 조직 고유의 형식을 사용하는 직원 ID 또는 프로젝트 번호를 식별하고 보호해야 할 경우 어떻게 하나요? 이를 위해 사용자 지정 중요한 정보 유형을 만들 수 있습니다.
 
@@ -36,15 +34,15 @@ Microsoft 365에는 [데이터 손실 방지](data-loss-prevention-policies.md)(
 
 - **기본 패턴**: 직원 ID 번호, 프로젝트 번호 등으로, 일반적으로 정규식(RegEx)으로 식별되지만, 해당 패턴이 키워드 목록일 수도 있습니다.
 
-- **추가 증거**: 9자리 직원 ID 번호를 찾고 있다고 가정해 보세요. 모든 9자리 숫자가 직원 ID 번호는 아니므로 "직원", "배지", "ID"또는 추가 정규식을 기반으로 하는 기타 텍스트 패턴과 같은 키워드를 추가로 찾아볼 수 있습니다. 이 뒷받침하는 증거(_뒷받침하는_ 또는 _확증적인_ 증거라고도 함)는 콘텐츠에 있는 9자리 숫자가 실제로 직원 ID 번호일 가능성을 높입니다.
+- **Additional evidence**: Suppose you're looking for a nine-digit employee ID number. Not all nine-digit numbers are employee ID numbers, so you can look for additional text: keywords like "employee", "badge", "ID", or other text patterns based on additional regular expressions. This supporting evidence (also known as _supporting_ or _corroborative_ evidence) increases the likelihood that nine-digit number found in content is really an employee ID number.
 
-- **문자 근접**: 기본 패턴과 뒷받침하는 증거가 서로 가까울수록 검색된 콘텐츠가 원하는 것일 확률이 높습니다. 다음 다이어그램과 같이 기본 패턴과 뒷받침하는 증거(_근접 범위_라고도 함) 사이의 문자 거리를 지정할 수 있습니다.
+- **Character proximity**: It makes sense that the closer the primary pattern and the supporting evidence are to each other, the more likely the detected content is going to be what you're looking for. You can specify the character distance between the primary pattern and the supporting evidence (also known as the _proximity window_) as shown in the following diagram:
 
     ![증거 및 근접 범위 다이어그램](../media/dc68e38e-dfa1-45b8-b204-89c8ba121f96.png)
 
-- **신뢰 수준**: 가지고 있는 증거를 뒷받침할수록, 찾고 있는 중요한 정보가 일치하는 확률이 높아집니다. 더 많은 증거를 사용하여 검색된 일치 항목에 대해 높은 수준의 신뢰도를 지정할 수 있습니다.
+- **Confidence level**: The more supporting evidence you have, the higher the likelihood that a match contains the sensitive information you're looking for. You can assign higher levels of confidence for matches that are detected by using more evidence.
 
-  결과가 충족되면 패턴은 해당 개수 및 신뢰도를 반환합니다. 이 결과를 DLP 정책의 조건에서 사용할 수 있습니다. 중요한 정보 유형을 검색하는 조건을 DLP 정책에 추가하면 다음 다이어그램에 표시된 것처럼 개수 및 신뢰도를 편집할 수 있습니다.
+  When satisfied, a pattern returns a count and confidence level, which you can use in the conditions in your DLP policies. When you add a condition for detecting a sensitive information type to a DLP policy, you can edit the count and confidence level as shown in the following diagram:
 
     ![인스턴스 개수 및 일치 정확도 옵션](../media/11d0b51e-7c3f-4cc6-96d8-b29bcdae1aeb.png)
 

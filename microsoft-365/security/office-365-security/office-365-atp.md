@@ -16,20 +16,20 @@ search.appverid:
 ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
+ms.custom:
+- seo-marvel-apr2020
 description: Office 365 Advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
-ms.openlocfilehash: 6fd860bbe860b9ed398d0f452c6ea60b41c0e225
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 52cb0d00d0c01adc34ee480f6daca9a6b509c671
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617421"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818810"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
 > [!IMPORTANT]
 > 이 문서는 [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)이 있는 비즈니스 고객을 대상으로 합니다. Outlook.com, Microsoft 365 Family 또는 Microsoft 365 Personal을 사용하고 있고 Outlook의 안전한 링크 또는 안전한 첨부 파일에 대한 정보를 찾고 있다면 [Office 365 구독자용 고급 Outlook.com 보안](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)을 참조하세요.
-
-## <a name="overview"></a>개요
 
 Office 365 ATP (Advanced Threat Protection)는 전자 메일 메시지, 링크 (URL) 및 공동 작업 도구로 인한 악의적인 위협으로부터 조직을 보호합니다. ATP는 다음을 포함합니다.
 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1dbcf12f-a9de-4d1d-b0b3-a227f8a736d8
 description: '사용자에게 다른 사용자의 사서함에 액세스할 수 있는 권한을 부여하는 방법에 대해 알아봅니다. 이를 통해 사용자에게 다른 사용자의 사서함에서 메일을 읽고 보낼 수 있는 권한을 부여합니다. '
-ms.openlocfilehash: 3fb920fb6f15a2ca48c5676e9b25afd1aa5263f1
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: dafe0f8c8f7d65b2721b70f6c132d179c461a89b
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44431668"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780604"
 ---
 # <a name="give-mailbox-permissions-to-another-user---admin-help"></a>다른 사용자에게 사서함 권한 제공 - 관리자 도움말
 
@@ -37,11 +37,11 @@ ms.locfileid: "44431668"
     
 ## <a name="looking-to-set-up-mailbox-permissions"></a>사서함 사용 권한을 설정하려고 하나요?
 
-사서함 사용 권한을 사용하여 다른 사용자에게 사서함에 대한 읽기/쓰기 권한을 부여할 수 있습니다. 아래 문서는 이 기능을 설정하고 사용하는 데 필요한 도움말을 제공할 수 있습니다.
+Mailbox permissions allow you to give read/write access to a mailbox to another user. The articles below might give you the help you need to set up and use this feature:
   
  **사용 권한 설정:**
   
-사용 권한을 설정하는 첫 번째 단계는 다른 사용자가 지정된 사서함에서 수행할 수 있도록 할 작업을 결정하는 것입니다. 사용자가 사서함에서 전자 메일을 읽고, 다른 사용자를 대신하여 전자 메일을 보내고, 해당 사서함에서 전송된 것처럼 전자 메일을 보내도록 허용할 수 있습니다. 각 사용 권한 유형을 설정하는 방법에 대해서는 다음 문서를 참조하세요.
+The first step to setting up permissions is deciding which actions you want to allow the other user to take in the given mailbox. You can allow a user to read emails from the mailbox, send emails on behalf of another user, and send emails as if they were sent from that mailbox. Refer to the following articles on how to set up each type of permissions:
   
 - [다른 사용자의 사서함에서 전자 메일 읽기](give-mailbox-permissions-to-another-user.md#read-email-in-another-users-mailbox)
     
@@ -55,7 +55,7 @@ ms.locfileid: "44431668"
   
  **사용 권한을 설정한 후 사용하는 방법:**
   
-액세스 권한이 부여된 후 사서함에 액세스하는 방법은 여러 가지가 있습니다. 이 내용에 대한 도움말은 다음 문서를 참조하세요. [다른 사용자의 사서함에 액세스](https://support.office.com/article/Access-another-person-s-mailbox-A909AD30-E413-40B5-A487-0EA70B763081.aspx)
+There are a few different ways you can access a mailbox once you've been given access. For help on this, refer to this article: [Access another person's mailbox](https://support.microsoft.com/office/A909AD30-E413-40B5-A487-0EA70B763081)
   
 ## <a name="send-email-from-another-users-mailbox"></a>다른 사용자의 사서함에서 전자 메일 보내기
 
@@ -200,8 +200,8 @@ ms.locfileid: "44431668"
 ## <a name="send-and-read-from-outlook-and-outlook-on-the-web-for-business"></a>Outlook 및 웹용 Outlook 비즈니스 에디션에서 보내기 및 읽기
 
 
-다른 사용자의 사서함에서 전자 메일을 보내는 방법을 알고 싶으세요? 다음 항목을 확인하세요.
+Want to know how to send email from another user's mailbox? Check out the following topics:
   
-- [다른 사용자의 메일 및 일정 항목 관리](https://support.office.com/article/afb79d6b-2967-43b9-a944-a6b953190af5.aspx)
+- [다른 사용자의 메일 및 일정 항목 관리](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5)
     
-- [다른 사용자 또는 그룹 이름으로 전자 메일 보내기](https://support.office.com/article/0f4964af-aec6-484b-a65c-0434df8cdb6b.aspx)
+- [다른 사용자 또는 그룹 이름으로 전자 메일 보내기](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b)

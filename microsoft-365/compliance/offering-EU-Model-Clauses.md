@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6a66a5b6f6ad2480dfc3af212e7663ad3f869d10
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: 9d678ca5ee9b8a8ebf4feadfb27826caa533967e
+ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254321"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773865"
 ---
 # <a name="european-union-model-clauses"></a>유럽 연합 모델 조항
 
@@ -86,7 +86,7 @@ Microsoft는 EU 표준을 지속적으로 평가하고 필요 시 서비스를 �
 - [EU 데이터 보호 지침](https://aka.ms/EU-DPD)
 - [유럽 데이터 보호 위원회](https://edpb.europa.eu/)
 - [Dynamics 365 및 Office 365에 대한 EU 모델 조항 FAQ](https://products.office.com/business/office-365-trust-center-eu-model-clauses-faq)
-- [Microsoft 및 EU-U.S. 프라이버시 쉴드(Privacy Shield)](https://go.microsoft.com/fwlink/p/?linkid=2099701)
+- [Microsoft 및 EU-U.S. 프라이버시 쉴드(Privacy Shield)](offering-eu-us-privacy-shield.md)
 - [Microsoft 공통 컨트롤 허브 규정 준수 프레임 워크](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)

@@ -16,17 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 보안 및 준수 센터의 그래픽 사용자 인터페이스에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정, 제거 및 테스트하는 방법을 알아봅니다.
-ms.openlocfilehash: 726f21416a3e83a9c3024d810c4335ea263b3c20
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f702582a0e2c53b0846cd0586295d9bbea657e3c
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078074"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818067"
 ---
 <!-- rename md file to match the display name -->
 # <a name="create-a-custom-sensitive-information-type-in-the-security--compliance-center"></a>보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기
-
-## <a name="summary"></a>요약
 
 이 문서를 읽고 보안 및 준수 센터([https://protection.office.com](https://protection.office.com))에서 [사용자 지정 중요한 정보 유형](custom-sensitive-info-types.md)을 만들어 보세요. 이 방법으로 만드는 사용자 지정 중요한 정보 유형은 이름이 `Microsoft.SCCManaged.CustomRulePack`인 규칙 패키지에 추가됩니다.
 
@@ -34,14 +33,14 @@ PowerShell 및 정확한 데이터 매치 기능을 사용하여 사용자 지�
 - [보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 - [정확한 데이터 매치(EDM)를 사용하여 DLP를 위한 사용자 지정 중요한 정보 유형 만들기](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
 
-## <a name="before-you-begin"></a>시작하기 전에...
+## <a name="before-you-begin"></a>시작하기 전에
 
 > [!NOTE]
 > 사용자 지정 정보 유형을 UI를 통해 작성하고, 테스트하고 배포하려면 전역 관리자 또는 준수 관리자 권한이 있어야 합니다. Office 365에서 [관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles?view=o365-worldwide)를 참조하세요.
 
 - 조직에 DLP(데이터 손실 방지)를 포함하는 구독(예: Office 365 Enterprise)이 있어야 합니다. [메시징 정책 및 규정 준수 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/messaging-policy-and-compliance-servicedesc)을 참조하세요. 
 
-- 사용자 지정 중요한 정보 유형을 위해서는 정규식(RegEx)을 잘 알고 있어야 합니다. 텍스트 처리에 사용되는 Boost.RegEx(이전에는 RegEx++라고 함) 엔진에 대한 자세한 내용은 [Boost.Regex 5.1.3](https://www.boost.org/doc/libs/1_68_0/libs/regex/doc/html/)을 참조하세요.
+- Custom sensitive information types require familiarity with regular expressions (RegEx). For more information about the Boost.RegEx (formerly known as RegEx++) engine that's used for processing the text, see [Boost.Regex 5.1.3](https://www.boost.org/doc/libs/1_68_0/libs/regex/doc/html/).
 
   Microsoft 고객 서비스 및 지원은 사용자 지정 분류 또는 정규식 패턴 만들기를 지원할 수 없습니다. 지원 엔지니어는 테스트 목적으로 샘플 정규식 패턴 제공 또는 예상대로 트리거되지 않는 기존 정규식 패턴 문제 해결 지원과 같은 기능을 제한적으로 지원할 수 있습니다. 그러나 사용자 지정 콘텐츠 일치 개발이 귀하의 요구 사항이나 의무를 충족할 것이라고 확신할 수는 없습니다.
 
@@ -65,7 +64,7 @@ PowerShell 및 정확한 데이터 매치 기능을 사용하여 사용자 지�
 
 - 선택 사항인 **지원 패턴 요소**(키워드, 정규식 또는 사전) 및 해당하는 **최소 비용** 값
 
-시나리오는 다음과 같습니다. "직원", "ID" 및 "배지"라는 키워드와 함께 콘텐츠의 9자리 직원 번호를 검색하는 사용자 지정 중요한 정보 유형이 필요합니다. 이 사용자 지정 중요한 정보 유형을 만들려면 다음 단계를 수행하세요.
+Here's a scenario: You want a custom sensitive information type that detects 9-digit employee numbers in content, along with the keywords "employee" "ID" and "badge". To create this custom sensitive information type, do the following steps:
 
 1. 보안 및 준수 센터에서 **분류** \> **중요한 정보 유형**으로 이동한 후 **만들기**를 클릭합니다.
 
@@ -85,9 +84,9 @@ PowerShell 및 정확한 데이터 매치 기능을 사용하여 사용자 지�
 
     - **다음이 포함된 콘텐츠 검색**:
  
-      a. **이 중 하나라도 포함**을 클릭하고 **정규식**을 선택합니다.
+      a. Click **Any of these** and select **Regular expression**.
 
-      b. 정규식 상자에서 `(\s)(\d{9})(\s)`(앞뒤에 공백이 있는 9자리 숫자) 스트링을 입력합니다.
+      b. In the regular expression box, enter `(\s)(\d{9})(\s)` (nine-digit numbers surrounded by white space).
   
     - **지원 요소**: **지원 요소 추가**를 클릭하고 **이 키워드 목록 포함**을 선택합니다.
 
@@ -109,7 +108,7 @@ PowerShell 및 정확한 데이터 매치 기능을 사용하여 사용자 지�
 
     ![검토 및 완료 페이지](../media/scc-cust-sens-info-type-new-review.png)
 
-5. 다음 페이지에서는 **예**를 클릭하여 새로운 사용자 지정 중요한 정보 유형을 테스트할 것을 권장합니다. 자세한 내용은 [보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 테스트](#test-custom-sensitive-information-types-in-the-security--compliance-center)를 참조하세요. 나중에 규칙을 테스트하려면 **아니요**를 클릭합니다.
+5. The next page encourages you to test the new custom sensitive information type by clicking **Yes**. For more information, see [Test custom sensitive information types in the Security & Compliance Center](#test-custom-sensitive-information-types-in-the-security--compliance-center). To test the rule later, click **No**.
 
     ![테스트 권장 사항 페이지](../media/scc-cust-sens-info-type-new-test.png)
 
@@ -119,21 +118,21 @@ PowerShell 및 정확한 데이터 매치 기능을 사용하여 사용자 지�
 
   - **분류** \> **중요한 정보 유형**으로 이동하고 새로운 사용자 지정 중요한 정보 유형이 나열되어 있는지 확인하세요.
 
-  - 새로운 사용자 지정 중요한 정보 유형을 테스트합니다. 자세한 내용은, [보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 테스트](#test-custom-sensitive-information-types-in-the-security--compliance-center)를 참조하세요.
+  - Test the new custom sensitive information type. For more information, see [Test custom sensitive information types in the Security & Compliance Center](#test-custom-sensitive-information-types-in-the-security--compliance-center).
 
 ## <a name="modify-custom-sensitive-information-types-in-the-security--compliance-center"></a>보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 수정
 
 **참고:**
 <!-- check to see if this note contradicts the guidance in "customize a built in sensitive information type customize-a-built-in-sensitive-information-type it sure seems like it does-->
-- 사용자 지정 중요한 정보 유형만 수정할 수 있습니다. 기본 제공 중요한 정보 유형은 수정할 수 없습니다. 그러나 PowerShell을 사용하여 기본 제공 사용자 지정 중요한 정보 유형을 내보낸 후 사용자 지정하고 사용자 지정 중요한 정보 유형으로 가져올 수 있습니다. 자세한 내용은 [기본 중요한 정보 유형 사용자 지정](customize-a-built-in-sensitive-information-type.md)을 참조하세요.
+- You can only modify custom sensitive information types; you can't modify built-in sensitive information types. But you can use PowerShell to export built-in custom sensitive information types, customize them, and import them as custom sensitive information types. For more information, see [Customize a built-in sensitive information type](customize-a-built-in-sensitive-information-type.md).
 
-- UI에서 만든 사용자 지정 중요한 정보 유형만 수정할 수 있습니다. [PowerShell 프로시저](create-a-custom-sensitive-information-type-in-scc-powershell.md)를 사용하여 사용자 지정 중요한 정보 유형 규칙 패키지를 가져오면 오류가 발생합니다.
+- You can only modify custom sensitive information types that you created in the UI. If you used the [PowerShell procedure](create-a-custom-sensitive-information-type-in-scc-powershell.md) to import a custom sensitive information type rule package, you'll get an error.
 
 보안 및 준수 센터에서 **분류** \> **중요한 정보 유형**으로 이동하고, 수정할 사용자 지정 중요한 정보 유형을 선택한 후 **편집**을 클릭합니다.
 
   ![중요한 정보 유형 및 편집 단추 위치](../media/scc-cust-sens-info-type-edit.png)
 
-보안 및 준수 센터에서 사용자 지정 중요한 정보 유형을 만들 때와 동일한 옵션을 사용할 수 있습니다. 자세한 내용은 [보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기](#create-custom-sensitive-information-types-in-the-security--compliance-center)를 참조하세요.
+The same options are available here as when you created the custom sensitive information type in the Security & Compliance Center. For more information, see [Create custom sensitive information types in the Security & Compliance Center](#create-custom-sensitive-information-types-in-the-security--compliance-center).
 
 ### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
@@ -141,7 +140,7 @@ PowerShell 및 정확한 데이터 매치 기능을 사용하여 사용자 지�
 
   - **분류** \> **중요한 정보 유형**으로 이동하고 수정한 사용자 지정 중요한 정보 유형의 속성을 확인합니다. 
 
-  - 수정한 사용자 지정 중요한 정보 유형을 테스트합니다. 자세한 내용은, [보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 테스트](#test-custom-sensitive-information-types-in-the-security--compliance-center)를 참조하세요.
+  - Test the modified custom sensitive information type. For more information, see [Test custom sensitive information types in the Security & Compliance Center](#test-custom-sensitive-information-types-in-the-security--compliance-center).
 
 ## <a name="remove-custom-sensitive-information-types-in-the-security--compliance-center"></a>보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 제거 
 
@@ -167,7 +166,7 @@ PowerShell 및 정확한 데이터 매치 기능을 사용하여 사용자 지�
 
 1. 보안 및 준수 센터에서 **분류** \> **중요한 정보 유형**으로 이동합니다.
 
-2. 테스트할 하나 이상의 사용자 지정 중요한 정보 유형을 선택합니다. 플라이아웃이 열리면 **유형 테스트**(두 개 이상을 선택한 경우 **중요한 정보 유형 테스트**)를 클릭합니다.
+2. Select one or more custom sensitive information types to test. In the fly-out that opens, click **Test type** (or **Test sensitive info types** if you selected more than one).
 
     ![중요한 정보 유형 및 유형 테스트 단추 위치](../media/scc-cust-sens-info-type-test.png)
 

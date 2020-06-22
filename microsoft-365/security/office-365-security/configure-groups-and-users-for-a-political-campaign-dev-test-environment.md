@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: '요약: 정치적 캠페인 개발/테스트 환경의 사용자 및 그룹을 사용하여 Office 365 및 EMS(Enterprise Mobility + Security) 평가판 구독을 만듭니다.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d1cd4812cdb8a58062d7c64e73049c080f8b906f
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 2d8c315364e9a00a49ad825ef2652ff4e8a7476b
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588467"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755275"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에 대해 그룹 및 사용자 구성
 
@@ -39,14 +39,13 @@ ms.locfileid: "44588467"
 
 다음으로, EMS E5 평가판 구독을 등록하고 평가판 구독과 동일한 조직에 추가합니다.
 
-1. 필요한 경우 평가판 구독의 전역 관리자 계정 자격 증명으로 관리 센터에 로그인합니다. 도움을 받으려면 [로그인하는 위치](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하십시오.
+1. 필요한 경우 평가판 구독의 전역 관리자 계정 자격 증명으로 관리 센터에 로그인합니다. 도움을 받으려면 [로그인하는 위치](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하십시오.
 
 2. **관리** 타일을 클릭합니다.
 
 3. 브라우저의 **Microsoft 365 관리 센터** 탭에 있는 왼쪽 탐색 영역에서 **대금 청구 > 서비스 구매**를 차례로 클릭합니다.
 
-4. 
-            **구매 서비스** 페이지에서 **Enterprise Mobility + Security E5** 항목을 찾습니다. 마우스 포인터를 가져간 후 **평가판 시작**을 클릭합니다.
+4. On the **Purchase services** page, find the **Enterprise Mobility + Security E5** item. Hover your mouse pointer over it and click **Start free trial**.
 
 5. **주문 확인** 페이지에서 **지금 평가판 사용**을 클릭합니다.
 
@@ -66,7 +65,7 @@ ms.locfileid: "44588467"
 
 먼저 Azure Portal을 사용하여 일반적인 정치적 캠페인에 대한 그룹 집합을 만듭니다.
 
-1. 브라우저의 별도 탭에서 Azure Portal([https://portal.azure.com](https://portal.azure.com))로 이동합니다. 필요한 경우 Office 365 E5 평가판 구독에 대한 전역 관리자 계정의 자격 증명으로 로그인합니다.
+1. On a separate tab in your browser, go to the Azure portal at [https://portal.azure.com](https://portal.azure.com). If needed, sign in with the credentials of the global administrator account for your Office 365 E5 trial subscription.
 
 2. Azure Portal에서 **Azure Active Directory > 사용자 및 그룹 > 모든 그룹**을 클릭합니다.
 
@@ -167,7 +166,7 @@ foreach ($element in $userNames){ New-AzureADUser -DisplayName $element -Passwor
 ```
 
 > [!IMPORTANT]
-> 여기서는 개발/테스트 환경의 자동화 및 편리한 구성을 위해 공통된 암호를 사용합니다. 프로덕션 구독에서는 이 방식이 권장되지 않습니다. 이러한 각각의 새 사용자 계정으로 로그인하면 암호를 변경하라는 메시지가 표시됩니다.
+> The use of a common password here is for automation and ease of configuration for a dev/test environment. This is not recommended for production subscriptions. As you sign in with each of these new user accounts, you will be prompted to change the password.
 
 다음 단계를 사용하여 동적 그룹 멤버 자격 및 그룹 기반 라이선스가 올바르게 작동하는지 확인합니다.
 
