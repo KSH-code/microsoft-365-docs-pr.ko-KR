@@ -2,6 +2,8 @@
   href: index.yml
 - name: 시작하기
   items:
+    - name: 규정 준수를 시작하기 위한 빠른 작업
+      href: compliance-quick-tasks.md
     - name: 준수 센터의 새로운 기능
       href: whats-new.md
     - name: 규정 준수 콘텐츠의 최신 업데이트
@@ -155,6 +157,8 @@
       href: encryption.md
     - name: Office 365 서비스 암호화
       href: office-365-service-encryption.md
+    - name: Office 365의 암호화에 대한 기술 관련 세부 정보
+      href: technical-reference-details-about-encryption.md
     - name: 고객 키
       items:
         - name: Office 365의 고객 키를 사용한 서비스 암호화
@@ -198,8 +202,6 @@
           href: exchange-online-secures-email-secrets.md
         - name: Office 365의 전자 메일 연결 보안을 위해 Exchange Online에서 TLS를 사용하는 방법
           href: exchange-online-uses-tls-to-secure-email-connections.md
-        - name: Office 365의 암호화에 대한 기술 관련 세부 정보
-          href: technical-reference-details-about-encryption.md
         - name: 암호화에 대한 BitLocker 및 분산 키 관리자(DKM)
           href: office-365-bitlocker-and-distributed-key-manager-for-encryption.md
         - name: 레거시 OME
@@ -533,7 +535,7 @@
               href: add-data-to-review-set-from-another-review-set.md
         - name: 사례 데이터 검토
           items:
-            - name: 검토 집합 대시보드 사용(미리 보기)
+            - name: 검토 집합 대시보드 사용
               href: advanced-ediscovery-dashboard.md
             - name: 검토 집합에서 문서 보기
               href: view-documents-in-review-set.md
