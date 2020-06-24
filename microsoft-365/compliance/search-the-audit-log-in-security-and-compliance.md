@@ -18,16 +18,15 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자와 관리자 활동을 확인합니다. '
-ms.openlocfilehash: 7602042c0bd8fb46b497bdf0fc16bb6b02809074
-ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 83eb4c453b3a11cb037e62e43525199fa247c3f5
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2020
-ms.locfileid: "44726525"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818988"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
-
-## <a name="introduction"></a>소개
 
 사용자가 특정 문서를 보았는지 또는 사서함에서 항목을 제거했는지 확인해야 하나요? 그렇다면 보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자와 관리자 활동을 확인합니다. 통합된 감사 로그를 사용하는 이유는 무엇일까요? Office 365에서 다음과 같은 유형의 [사용자 및 관리자 활동](#audited-activities)을 검색할 수 있기 때문입니다.
 
@@ -65,7 +64,7 @@ ms.locfileid: "44726525"
 
 - SharePoint Online 또는 Microsoft Teams를 사용하는 사이트의 민감도 레이블에 대한 사용자 및 관리자 활동
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="requirements-to-search-the-audit-log"></a>감사 로그를 검색하는 데 필요한 요구 사항
 
 감사 로그의 검색을 시작하기 전에 반드시 아래 내용을 읽어보세요.
 
@@ -916,7 +915,7 @@ Exchange Online, SharePoint Online, 비즈니스용 OneDrive, Azure Active Direc
 
 **이벤트가 발생한 후 감사 레코드를 사용하는 데 시간이 얼마나 걸리나요?**
 
-대부분의 감사 데이터는 30분 이내에 사용 가능하지만 이벤트가 발생한 후 해당 감사 로그 항목이 검색 결과에 표시되기까지 최대 24시간이 걸릴 수 있습니다. 이 문서의 [시작하기 전에](#before-you-begin) 섹션에서 다른 서비스의 이벤트를 사용하는 데 걸리는 시간을 보여 주는 표를 참조하세요.
+대부분의 감사 데이터는 30분 이내에 사용 가능하지만 이벤트가 발생한 후 해당 감사 로그 항목이 검색 결과에 표시되기까지 최대 24시간이 걸릴 수 있습니다. 이 문서의 [감사 로그를 검색하는 데 필요한 요구 사항](#requirements-to-search-the-audit-log) 섹션에서 다른 서비스의 이벤트를 사용하는 데 걸리는 시간을 보여 주는 표를 참조하세요.
 
 **감사 레코드는 얼마나 오래 보존되나요?**
 
@@ -932,7 +931,7 @@ Exchange Online, SharePoint Online, 비즈니스용 OneDrive, Azure Active Direc
 
 **감사 로그를 캡처하려는 각 서비스에서 개별적으로 감사를 사용하도록 설정해야 하나요?**
 
-대부분의 서비스에서(이 문서의 [시작하기 전에](#before-you-begin) 섹션에 설명된 대로) 조직에 대한 감사를 처음 켜면 기본적으로 감사가 사용되도록 설정되어 있습니다.
+대부분의 서비스에서(이 문서의 [감사 로그를 검색하는 데 필요한 요구 사항](#requirements-to-search-the-audit-log) 섹션에 설명된 대로) 조직에 대한 감사를 처음 켜면 기본적으로 감사가 사용되도록 설정되어 있습니다.
 
 **감사 서비스에서 레코드 중복 제거를 지원하나요?**
 

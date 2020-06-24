@@ -14,33 +14,40 @@ search.appverid:
 ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
 ms.collection:
 - M365-security-compliance
-description: 관리자는 메시지와 메시지 처리 방법에 대한 정보를 제공하기 위해 Exchange Online Protection에서 메시지에 추가하는 헤더 필드에 대해 알아봅니다.
+description: 관리자는 Exchange Online Protection(EOP)에서 메시지에 추가한 헤더 필드에 대해 알아볼 수 있습니다. 이러한 헤더 필드는 메시지와 해당 메시지가 처리되는 방법에 대한 정보를 제공합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d63d173b90ffd868cfbeac212f2c9d5a6ee125c6
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 8ce0b906bb627a7de11e5a8a6db02c9c6f330a62
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208225"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755359"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Microsoft 365의 스팸 방지 메시지 헤더
 
 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직의 경우, EOP에서 **X-Forefront-Antispam-Report** 헤더를 검색하여 각 인바운드 전자 메일 메시지에 삽입합니다. 관리자는 이 헤더의 필드를 통해 메시지 및 메시지 처리 방법에 대한 정보를 확인할 수 있습니다. **X-Microsoft-Antispam** 헤더의 필드는 대량 메일 및 피싱에 대한 추가 정보를 제공합니다. 이러한 두 헤더 외에도, Exchange Online Protection은 **Authentication-results** 헤더에서 처리하는 각 메시지의 전자 메일 인증 결과를 삽입합니다.
 
-다양한 전자 메일 클라이언트에서 전자 메일 메시지 헤더를 보는 방법에 대한 자세한 내용은 [Outlook에서 인터넷 메시지 헤더 보기](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c)를 참조하세요.
+다양한 전자 메일 클라이언트에서 전자 메일 메시지 헤더를 보는 방법에 대한 자세한 내용은 [Outlook에서 인터넷 메시지 헤더 보기](https://support.microsoft.com/office/cd039382-dc6e-4264-ac74-c048563d212c)를 참조하세요.
 
 > [!TIP]
-> 메시지 헤더의 내용을 복사하여 [메시지 분석기](https://testconnectivity.microsoft.com/?tabid=mha) 도구에 붙여 넣을 수 있습니다. 이 도구는 헤더를 구문 분석하여 더 판독하기 쉬운 형식으로 삽입합니다.
+> 메시지 헤더의 내용을 복사하여 [메시지 헤더 분석기](https://mha.azurewebsites.net/) 도구에 붙여 넣을 수 있습니다. 이 도구는 헤더를 구문 분석하여 더 판독하기 쉬운 형식으로 삽입합니다.
 
 ## <a name="x-forefront-antispam-report-message-header-fields"></a>X-Forefront-Antispam-Report 메시지 헤더 필드
 
-메시지 헤더 정보에 액세스한 후 **X-X-Forefront-Antispam-Report**를 검색하여 이 필드를 찾습니다. 이 헤더의 다른 필드는 Microsoft 스팸 방지 팀에서 진단용으로만 사용합니다.
+메시지 헤더 정보를 받은 후 **X-Forefront-Antispam-Report** 헤더를 찾습니다. 이 헤더에는 세미콜론(;)으로 구분된 여러 헤더 필드와 값 쌍이 있습니다. 예시:
+
+`...CTRY:;LANG:hr;SCL:1;SRV:;IPV:NLI;SFV:NSPM;PTR:;CAT:NONE;SFTY:;...`
+
+개별 필드 및 값에 대해 설명이 다음 표에 설명되어 있습니다.
+
+> [!NOTE]
+> **X-Forefront-Antispam-Report** 헤더는 여러 가지 헤더 필드와 값을 포함합니다. 표에 설명되어 있지 않은 이 헤더의 다른 필드는 Microsoft 스팸 방지 팀에서 진단용으로만 사용합니다.
 
 |||
 |---|---|
 |**헤더 필드**|**설명**|
 |ARC|ARC 프로토콜에는 다음과 같은 헤더가 있습니다. <ul><li>AAR: DMARC의 인증 결과 헤더의 내용을 기록합니다.</li><li>AMS: 이 헤더는 메시지 암호화 서명을 포함합니다.</li><li>AS: 메시지 헤더의 암호화 서명을 포함합니다. 이 헤더에는 체인 유효성 검사의 결과를 **none**, **pass** 또는 **fail**로 포함하는 "cv ="라는 체인 유효성 검사 태그가 포함되어 있습니다.</li></ul>|
-|CAT:|메시지에 적용 되는 보호 정책의 범주: <ul><li>BULK: 대량</li><li>DIMP: 도메인 가장</li><li>GIMP: 사서함 인텔리전스</li><li>HPHSH 또는 HPHISH: 신뢰도가 높은 피싱 </li><li>HSPM: 높은 정확도의 스팸</li><li>MALW: 맬웨어</li><li>PHSH: 피싱</li><li>SPM: 스팸</li><li>SPOOF: 스푸핑</li><li>UIMP: 사용자 가장</li></ul><br/>인바운드 메시지는 여러 유형의 보호 및 다중 검색 검사에 의해 플래그가 지정될 수 있습니다. 정책의 우선 순위가 다르기 때문에 우선 순위가 가장 높은 정책이 먼저 적용됩니다. 자세한 내용을 알고 싶다면 [전자 메일에 여러 보호 방법과 검색 검사가 실행될 때 어떤 정책이 적용되는지](how-policies-and-protections-are-combined.md)를 확인합니다.|
+|CAT:|메시지에 적용 되는 보호 정책의 범주: <ul><li>BULK: 대량</li><li>DIMP: 도메인 가장</li><li>GIMP: 사서함 인텔리전스 기반 가장</li><li>HPHSH 또는 HPHISH: 신뢰도가 높은 피싱</li><li>HSPM: 높은 정확도의 스팸</li><li>MALW: 맬웨어</li><li>PHSH: 피싱</li><li>SPM: 스팸</li><li>SPOOF: 스푸핑</li><li>UIMP: 사용자 가장</li><li>AMP: 맬웨어 방지</li><li>SAP: 안전한 첨부 파일</li><li>OSPM: 아웃바운드 스팸</li></ul><br/>인바운드 메시지는 여러 유형의 보호 및 다중 검색 검사에 의해 플래그가 지정될 수 있습니다. 정책의 우선 순위가 다르기 때문에 우선 순위가 가장 높은 정책이 먼저 적용됩니다. 자세한 내용을 알고 싶다면 [전자 메일에 여러 보호 방법과 검색 검사가 실행될 때 어떤 정책이 적용되는지](how-policies-and-protections-are-combined.md)를 확인합니다.|
 |CIP: \[IP 주소\]|연결할 IP 주소. IP 허용 목록 또는 IP 차단 목록에 이 IP 주소를 사용할 수 있습니다. 자세한 내용은 [연결 필터링 구성](configure-the-connection-filter-policy.md)을 참조하십시오.|
 |CTRY|연결 IP 주소(원래 메시지를 보낸 IP 주소와 다를 수도 있음)를 통해 확인되는 원본 국가입니다.|
 |H:\[helostring\]|연결 전자 메일 서버의 HELO 또는 EHLO 문자열입니다.|

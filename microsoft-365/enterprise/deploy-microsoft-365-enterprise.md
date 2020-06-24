@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: seo-marvel-apr2020
 description: 조직에서 엔터프라이즈용 Microsoft 365를 배포하는 데 사용할 수 있는 다양한 리소스에 대해 알아봅니다.
-ms.openlocfilehash: 42b193683a2e0c5efce73b62b00747b20baec05a
-ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
+ms.openlocfilehash: c076a3f96c7943d9e37c2d5bd7d6ce17d27ca3d6
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268336"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819331"
 ---
 # <a name="deploy-microsoft-365-for-enterprise"></a>엔터프라이즈용 Microsoft 365 배포
 
@@ -59,7 +59,7 @@ FastTrack [여기](https://fasttrack.microsoft.com/microsoft365)를 사용하여
 
   **소규모 혹은 신생 조직인 경우**, 조직적으로 인프라를 구축하기 위해 필요한 단계를 따르십시오.
 
-  그러나 현재 인프라와 통합하고 IT 계획 및 리소스에 적합하며 비즈니스 요구사항을 충족하기 위해 필요한 순서대로 [순차적으로 또는 병렬로](deployment-strategies-microsoft-365-enterprise.md) 이 인프라의 단계를 배포할 수 있습니다. 비 엔터프라이즈에 대한 배포를 단순화하려면 [여기](deploy-foundation-infrastructure-non-enterprises.md)를 클릭하세요.
+  그러나 현재 인프라와 통합하고 IT 계획 및 리소스에 적합하며 비즈니스 요구사항을 충족하기 위해 필요한 순서대로 [순차적으로 또는 병렬로](deployment-strategies-microsoft-365-enterprise.md) 이 인프라의 단계를 배포할 수 있습니다. 엔터프라이즈가 아닌 조직을 위한 간단한 배포의 경우에는 [비엔터프라이즈용 기초 인프라](deploy-foundation-infrastructure-non-enterprises.md)로 이동하세요.
 
   **Enterprise 조직인 경우**, 규정된 경로 보다는 IT 인프라 단계를 살펴보십시오. 그리고 조직 전체에서 각 레이어의 요구 사항을 최종적으로 준수하는 가장 효과적인 방법을 결정하십시오.
 
@@ -71,7 +71,7 @@ FastTrack [여기](https://fasttrack.microsoft.com/microsoft365)를 사용하여
 
 워크로드는 기초 인프라의 위에서 운영됩니다. 그러나 생산성 및 협업을 위한 워크로드를 사용하기 위해 모든 기초 인프라 단계가 구축되어야 하는 것은 아닙니다.
 
-[여기](deploy-foundation-infrastructure.md)에서 사용하여 종단 간 배포의 첫걸음을 직접 시작해보십시오.
+[엔터프라이즈용 Microsoft 365 기본 인프라](deploy-foundation-infrastructure.md)에서 엔드투엔드 배포 과정을 직접 시작하세요.
 
 ## <a name="take-a-test-drive"></a>드라이브를 테스트 하십시오.
 

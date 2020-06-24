@@ -14,13 +14,16 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Microsoft 365의 레코드 관리를 사용하여 조직의 특정 보존 일정을 파일 플랜에 적용하여 전체 콘텐츠 수명 주기를 지원하는 보존, 레코드 선언, 처리를 관리할 수 있습니다.
-ms.openlocfilehash: b7c2febafdfe0b234bedf439236a6a7bd2aec549
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-jun2020
+description: Microsoft 365의 레코드 관리를 사용하여 보존 일정을 파일 플랜에 적용하여 보존, 레코드 선언, 처리를 관리할 수 있습니다.
+ms.openlocfilehash: 48705ac6d0c271ca2646de7c058a340ee3f736ae
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432349"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818958"
 ---
 # <a name="records-management-in-microsoft-365"></a>Microsoft 365의 레코드 관리
 

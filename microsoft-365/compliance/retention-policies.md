@@ -16,19 +16,20 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체 또는 특정 위치 또는 사용자에게 단일 정책을 적용할 수 있고 모든 콘텐츠 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: 377c5e1f21938204123de298e620a3d0d2bb9755
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+description: 보존 정책을 사용하여 콘텐츠를 보존하거나 삭제하는 방법과 전체 조직 또는 특정 위치나 사용자에게 단일 정책을 적용하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: ffd7b644f33e7f432c62c182e2d69e07c8bce730
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695141"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818928"
 ---
-# <a name="learn-about-retention-policies"></a>보존 정책에 대해 자세히 알아보기
+# <a name="learn-about-retention-policies"></a>보존 정책에 대한 자세한 정보
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
-대부분의 조직에서는 전자 메일, 문서, 인스턴트 메시지 등을 비롯하여 데이터의 양과 복잡성이 계속해서 매일 증가하고 있습니다. 이러한 정보를 효과적으로 관리하거나 제어하는 일은 다음 작업을 수행해야 하므로 중요합니다.
+For most organizations, the volume and complexity of their data is increasing daily—email, documents, instant messages, and more. Effectively managing or governing this information is important because you need to:
   
 - 최소 기간 동안 콘텐츠를 보존하도록 요구하는 **산업 규정 및 내부 정책을 사전에 준수**합니다. 예를 들어 Sarbanes-Oxley Act는 7년 동안 특정 유형의 콘텐츠를 보존하도록 요구할 수 있습니다. 
     
@@ -36,7 +37,7 @@ ms.locfileid: "44695141"
     
 - **조직에서 효과적이면서 좀 더 민첩하게 지식을 공유하도록 지원** - 사용자가 관련이 있는 최신 콘텐츠만 사용하도록 합니다. 
     
-보존 정책은 이러한 모든 목표를 달성하는 데 도움을 줄 수 있습니다. 일반적으로 콘텐츠를 관리하려면 다음 두 가지 작업이 필요합니다.
+A retention policy can help you achieve all of these goals. Managing content commonly requires two actions:
   
 - **보존** - 콘텐츠가 보존 기간이 끝나기 전에 영구적으로 삭제되지 않도록 보존합니다. 
     
@@ -50,7 +51,7 @@ ms.locfileid: "44695141"
     
 - 모든 콘텐츠 또는 특정 조건을 충족하는 콘텐츠(예: 특정 키워드 또는 [특정 유형의 중요 정보](what-the-sensitive-information-types-look-for.md)를 포함하는 콘텐츠)에 정책을 적용합니다.
     
-콘텐츠가 보존 정책을 따르는 경우라도 콘텐츠는 원래 위치에 그대로 보존되므로 아무 것도 변경되지 않는 것과 같이, 계속해서 콘텐츠를 편집하고 사용할 수 있습니다. 그러나 보존 정책을 따르는 콘텐츠를 다른 사용자가 편집 또는 삭제한 경우에는 해당 콘텐츠에 대한 보존 정책이 적용되는 동안 원본 콘텐츠의 복사본이 보존되는 안전한 위치에 저장됩니다. 자세한 내용은 해당 페이지에서 [보존 정책이 원래 위치의 콘텐츠에 적용되는 방식](#how-a-retention-policy-works-with-content-in-place) 섹션을 참조하세요.
+When content is subject to a retention policy, people can continue to edit and work with the content as if nothing's changed. The content is retained in place, in its original location. But if someone edits or deletes content that's subject to the retention policy, a copy of the original content is saved to a secure location where it's retained while the retention policy for that content is in effect. For more information, see the [How a retention policy works with content in place](#how-a-retention-policy-works-with-content-in-place) section on this page
   
 또한 일부 조직에서는 SEC(증권 거래 위원회) 규칙 17a-4와 같은 규정을 준수해야 합니다. 해당 규정은 보존 정책이 설정된 후에 해제되거나 제한이 거의 없도록 설정될 수 없습니다. 해당 요구 사항을 위해서는 **보존 잠금**을 사용할 수 있습니다. 정책을 잠그면 관리자를 비롯한 어느 누구도 보존 정책을 해제하거나 제한이 거의 없도록 설정할 수 없습니다. 자세한 내용은 해당 페이지에서 [보존 잠금을 사용하여 규정 요구 사항 준수](#use-preservation-lock-to-comply-with-regulatory-requirements) 섹션을 참조하세요.
 

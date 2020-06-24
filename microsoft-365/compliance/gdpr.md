@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fb89a24e48dbdadd9a1af863cb8c44ded46435b1
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 5d1e6730d215fcef6bd0cad6244c82b960ed39ce
+ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036211"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44800023"
 ---
 # <a name="general-data-protection-regulation-summary"></a>일반 데이터 보호 규정 요약
 
@@ -296,7 +296,6 @@ GDPR은 '개인 데이터'의 수집, 저장, 사용 및 공유를 규제합니�
 - 납세 번호
 - 회사 주소
 - 신용 카드/직불 카드 번호
-- 소셜 미디어 게시물
 - 소셜 미디어 게시물
 - IP 주소(EU 지역)
 - 위치/GPS 데이터

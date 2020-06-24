@@ -18,13 +18,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
-description: Office 365의 보안 및 규정 준수 센터를 사용하면 조직의 메시지 보존, 전자 검색 및 보유 요구 사항을 지원하기 위해 보관 사서함을 사용할 수 있습니다.
-ms.openlocfilehash: f544e739bc28b2383492baec5465be1502a08d0d
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.custom: seo-marvel-apr2020
+description: Office 365의 보안 및 준수 센터를 사용하여 조직의 메시지 보존, eDiscovery 및 보유 요구 사항을 지원하기 위해 보관 사서함을 사용하는 방법을 알아봅니다.
+ms.openlocfilehash: d3f8cc292419cce258b750b77c1f1802accd5f21
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166019"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817847"
 ---
 # <a name="enable-archive-mailboxes-in-the-security--compliance-center"></a>보안 및 준수 센터에서 보관 사서함 사용
   
@@ -33,7 +34,7 @@ Office 365(내부 보관이라고도 함)의 보관은 사용자에게 추가 �
 > [!NOTE]
 > Office 365의 자동 확장 보관 기능은 보관 사서함에 추가 저장소를 제공합니다. 자동 확장 보관 기능이 켜져 있고 사용자 보관 사서함의 초기 저장소 할당량에 도달하면 Office 365가 자동으로 추가 저장 공간을 추가합니다. 즉, 사용자가 사서함 저장 공간을 모두 소모하지 않으므로 처음에 보관 사서함을 사용하도록 설정하고 조직의 자동 확장 보관을 설정한 후에는 아무 것도 관리할 필요가 없습니다. 자세한 내용은 [Office 365 무제한 보관의 개요](unlimited-archiving.md)를 참조하세요. 
   
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="get-the-necessary-permissions"></a>필요한 사용 권한 얻기
 
 보관 사서함을 사용하거나 사용하지 않도록 설정하려면 Exchange Online에서 메일받는 사람 역할을 할당받아야합니다. 기본적으로 이 역할은 Exchange 관리 센터의 **사용 권한** 페이지에서 받는 사람 관리 및 조직 관리 역할 그룹에 할당됩니다. 보안 및 준수 센터의 **보관** 페이지가 보이지 않으면 관리자에게 필요한 권한을 할당해 줄 것을 요청하십시오. 
   

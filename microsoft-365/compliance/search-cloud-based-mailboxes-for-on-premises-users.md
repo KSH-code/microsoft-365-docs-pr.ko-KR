@@ -16,13 +16,14 @@ search.appverid:
 - MST160
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
-description: Exchange 하이브리드 배포에서 보안 및 준수 센터의 콘텐츠 검색 도구를 사용하여 온-프레미스 사용자의 MicrosoftTeams 채팅 데이터(1xN 채팅이라고 함)를 검색하고 내보냅니다.
-ms.openlocfilehash: ab523c0d2d334d3d2366711e241b3bafa2e0002f
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+description: 보안 및 준수 센터의 콘텐츠 검색 도구를 사용하여 Exchange 하이브리드 배포에서 온-프레미스 사용자의 Teams 채팅 데이터를 검색하고 내보낼 수 있습니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 159c9c674feca4b01618289b194dd162c9020d59
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352121"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818887"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users"></a>온-프레미스 사용자의 클라우드 기반 사서함 검색
 
