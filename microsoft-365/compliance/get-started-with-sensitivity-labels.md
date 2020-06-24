@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블 구현을 시작할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
-ms.openlocfilehash: 2fbb54cadaa1681ace4e04dade4fd5a0784360eb
-ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
+ms.openlocfilehash: d68ba3b4ee1c0de8fa5262c3b59e8f53ebc2d3d2
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44739056"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844660"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
@@ -58,9 +58,11 @@ ms.locfileid: "44739056"
 
 민감도 레이블을 생성할 규정 준수 팀의 구성원은 Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 보안 및 규정 준수 센터에 대한 사용 권한이 필요합니다. 
 
-기본적으로 테넌트에 대한 전역 관리자는 이러한 관리 센터에 액세스할 수 있으며, 규정 준수 관리자와 기타 사용자에게 테넌트 관리자의 모든 사용 권한을 부여하지 않고도 액세스를 가능하게 할 수 있습니다. 이러한 위임된 제한적 관리 액세스를 부여하려면 이들 관리 센터 중 하나의 **사용 권한** 페이지로 이동한 다음 **규정 준수 데이터 관리자**, **규정 준수 관리자** 또는 **보안 관리자** 역할 그룹에 구성원을 추가합니다.
+기본적으로 테넌트에 대한 전역 관리자는 이러한 관리 센터에 액세스할 수 있으며, 규정 준수 관리자와 기타 사용자에게 테넌트 관리자의 모든 사용 권한을 부여하지 않고도 액세스 권한을 부여할 수 있습니다. 이러한 위임된 제한적 관리 액세스 권한을 부여하려면 사용자를 **규정 준수 데이터 관리자**, **규정 준수 관리자** 또는 **보안 관리자** 역할 그룹에 추가합니다. 
 
-역할을 사용하는 대신 새 역할 그룹을 만들고 **민감도 레이블 관리자** 또는 **조직 구성**을 역할을 이 그룹에 추가할 수 있습니다. 읽기 전용 역할의 경우 **민감도 레이블 리더**를 사용하세요. [사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center)를 참조하세요.
+기본 역할을 사용하는 대신 새 역할 그룹을 만들고 **민감도 레이블 관리자** 또는 **조직 구성** 역할을 이 그룹에 추가할 수 있습니다. 읽기 전용 역할의 경우 **민감도 레이블 리더**를 사용하세요. 
+
+기본 역할에 사용자를 추가하거나 고유의 역할 그룹을 만드는 방법에 대한 지침은 [사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center)를 참조하세요.
 
 이러한 사용 권한은 민감도 레이블과 해당 레이블 정책을 만들고 구성하는 데만 필요합니다. 앱이나 서비스에서 레이블을 적용하는 것은 필요하지 않습니다. 민감도 레이블과 관련된 특정 구성에 대해 추가 사용 권한이 필요한 경우 해당 사용 권한은 해당하는 문서 지침에 나열되어 있습니다.
 

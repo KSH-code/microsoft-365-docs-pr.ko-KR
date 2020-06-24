@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체 또는 특정 위치 또는 사용자에게 단일 정책을 적용할 수 있고 모든 콘텐츠 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: 35c93ed6ee942f9553e196d3f15634e53c0bf25d
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 12b0c15186a27a1583403214a657367c1dd3b1a9
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352235"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844754"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -34,7 +34,7 @@ ms.locfileid: "44352235"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-보존 정책을 만들고 관리할 규정 준수 팀의 구성원에게는 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에 대한 권한이 필요합니다. 기본적으로 테넌트 관리자는 이 위치에 액세스할 수 있으며, 규정 준수 책임자와 기타 사용자에게 테넌트 관리를 위한 모든 권한을 부여하지는 않으면서 액세스 권한을 부여할 수 있습니다. 이 작업을 수행하기 위해서는 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)의 **권한** 페이지로 이동한 후 **규정 준수** 관리자 역할을 편집하고 해당 역할 그룹에 구성원을 추가할 것을 권장합니다. 
+보존 정책을 만들고 관리할 규정 준수 팀의 구성원에게는 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에 대한 권한이 필요합니다. 기본적으로 테넌트 관리자(전역 관리자)는 이 위치에 액세스할 수 있으며, 규정 준수 책임자와 기타 사용자에게 테넌트 관리자의 모든 권한을 부여하지는 않으면서 액세스 권한을 부여할 수 있습니다. 이 제한적 관리를 위한 권한을 부여하기 위해서는 사용자를 **규정 준수 관리자** 관리 역할 그룹에 추가할 것을 권장합니다. 지침은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center)를 참조하세요.
 
 이러한 권한은 보존 정책을 생성하고 적용할 때만 필요합니다. 보존 정책을 구성하는 사용자는 콘텐츠에 액세스할 필요가 없습니다.
 
@@ -78,7 +78,7 @@ Exchange 전자 메일과 달리, Skype 위치의 상태는 간단히 설정으�
   
 ![Skype 사용자 선택 페이지](../media/f1742493-741a-4142-a564-d7d41ab0236a.png)
   
-Outlook의 **대화 내용** 폴더는 Skype 보관과 아무 관계가 없는 기능입니다. **대화 내용**은 최종 사용자가 해제할 수 있지만 Skype 보관은 사용자는 액세스할 수 없고 eDiscovery에서 사용할 수 있는 숨겨진 폴더에 Skype 대화 사본을 저장하여 수행됩니다.
+Note that **Conversation History**, a folder in Outlook, is a feature that has nothing to do with Skype archiving. **Conversation History** can be turned off by the end user, but archiving for Skype is done by storing a copy of Skype conversations in a hidden folder that is inaccessible to the user but available to eDiscovery.
 
 
 ## <a name="settings-for-retaining-and-deleting-content"></a>콘텐츠를 보존 및 삭제하기 위한 설정
@@ -113,7 +113,7 @@ Outlook의 **대화 내용** 폴더는 Skype 보관과 아무 관계가 없는 �
   
 예를 들어, 3년이 지난 콘텐츠를 삭제하는 보존 정책을 만든 다음 해당 정책을 모든 OneDrive 계정에 적용한다고 가정하겠습니다. 이때 OneDrive 계정에는 4~5년 전에 생성된 콘텐츠가 매우 많습니다. 이 경우 보존 정책을 최초로 적용한 뒤 얼마 지나지 않아 다량의 콘텐츠가 삭제되게 됩니다. 이러한 이유로 인해 콘텐츠를 삭제하는 보존 정책은 콘텐츠에 상당한 영향을 주게 됩된다는 것을 이해하는 것이 중요합니다.. 
   
-따라서 처음으로 사이트 모음에 보존 정책을 할당하기 전에 먼저 콘텐츠의 사용 기간과 정책이 기존 콘텐츠에 어떤 영향을 줄 수 있는지 고려해야 합니다. 또한 새 정책을 할당하기 전에 사용자에게 미리 알려, 가능한 영향을 평가할 시간을 줄 수도 있습니다. 보존 정책을 만들기 바로 전에 해당 설정을 검토할 때 나타나는 다음 경고에 유의하세요.
+Therefore, before you assign a retention policy to a site collection for the first time, you should first consider the age of the existing content and how the policy may impact that content. You may also want to communicate the new policy to your users before assigning it, to give them time to assess the possible impact. Note this warning that appears when you review the settings for your retention policy just before creating it.
   
 ![콘텐츠 삭제 경고](../media/59c26b19-3628-4cc1-9a73-a05127a8e81b.png)
   
@@ -135,7 +135,7 @@ Outlook의 **대화 내용** 폴더는 Skype 보관과 아무 관계가 없는 �
   
 ### <a name="identify-content-that-contains-sensitive-information"></a>중요한 정보가 포함된 콘텐츠 식별
 
-[특정 유형의 중요 정보](what-the-sensitive-information-types-look-for.md)를 포함하는 콘텐츠에만 보존 정책을 적용할 수도 있습니다. 예를 들어, 납세자 ID 번호, 주민 등록 번호 또는 여권 번호 등 PII(개인 식별이 가능한 정보)를 포함하는 콘텐츠에만 고유한 보존 요구 사항을 적용하도록 선택할 수 있습니다.
+You can also apply a retention policy only to content that contains [specific types of sensitive information](what-the-sensitive-information-types-look-for.md). For example, you can choose to apply unique retention requirements only to content that contains personally identifiable information (PII) such as taxpayer identification numbers, social security numbers, or passport numbers.
   
 ![중요한 정보 유형 페이지](../media/8b104819-d185-4d58-b6b3-d06e82686a05.png)
   
