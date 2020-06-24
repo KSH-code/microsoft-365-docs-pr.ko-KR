@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f63c59403e84e79d1a4a5cf2b8a5544f5646781c
-ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
+ms.openlocfilehash: c64adf870d3669b983e11093196f59c82b1f59e0
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44773854"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844909"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Microsoft 위협 방지 필수 구성 요소
 
@@ -60,7 +60,7 @@ Microsoft 365 관리 센터 ([admin.microsoft.com](https://admin.microsoft.com/)
 > 라이선스 정보를 보려면 [AZURE AD의](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) **청구 관리자** 또는 **전역 독자** 역할을 할당 받아야 합니다. 액세스 문제가 발생하는 경우 전역 관리자에게 문의하세요.
 
 ## <a name="required-permissions"></a>필요한 사용 권한
-필요한 역할 목록과 데이터 액세스를 규제 하는 방법을 보려면 [Microsoft Threat Protection에 대 한 액세스 관리](mtp-permissions.md)를 참조 하세요.
+Microsoft Threat Protection을 켜려면 **전역 관리자** 이거나 Azure Active Directory의 **보안 관리자** 여야 합니다. Microsoft Threat Protection을 사용 하는 데 필요한 역할 목록과 데이터에 대 한 액세스를 규정 하는 방법에 대 한 자세한 내용은 [Microsoft Threat protection에 대 한 액세스 관리](mtp-permissions.md)를 참조 하세요.
 
 ## <a name="browser-requirements"></a>브라우저 요구 사항
 Microsoft Edge, Internet Explorer 11 또는 HTML 5와 호환 되는 웹 브라우저를 사용 하 여 microsoft 365 보안 센터의 Microsoft 위협 보호에 액세스 합니다.

@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: ba603f3703a7d4b6df567f8299af9f1804e42b96
-ms.sourcegitcommit: 3274b65a3932288721541d2b3fa5ecbf4c51e1ab
+ms.openlocfilehash: 60d0383f3acae73c36383b65daaac405a4e20bd3
+ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702573"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854367"
 ---
 # <a name="configure-microsoft-threat-protection-pillars-for-your-trial-lab-environment"></a>평가판 랩 환경용 Microsoft Threat Protection 핵심 요소로 구성
 
@@ -237,7 +237,7 @@ Microsoft Threat Protection은 핵심 요소로 4 개로 구성 됩니다. 한 �
 16. 아래로 스크롤한 후 **기본 설정 저장** 을 클릭 하 여 새 통합을 확인 합니다.
 <br>![클릭 해야 하는 이미지 of_Save 기본 설정 단추](../../media/mtp-eval-72.png) <br>
 
-## <a name="turn-on-microsoft-threat-protection"></a>Microsoft Threat Protection 사용 설정
+## <a name="start-the-microsoft-threat-protection-service"></a>Microsoft Threat Protection 서비스 시작
 >[!NOTE]
 >2020 년 6 월 1 일부 부터는 Microsoft에서 모든 적격 테 넌 트에 대해 Microsoft Threat Protection 기능을 자동으로 사용 하도록 설정 합니다. 자세한 내용은 [라이선스 자격에 대 한 Microsoft 기술 커뮤니티 문서를](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/microsoft-threat-protection-will-automatically-turn-on-for/ba-p/1345426) 참조 하세요. 
 <br>
@@ -245,7 +245,10 @@ Microsoft Threat Protection은 핵심 요소로 4 개로 구성 됩니다. 한 �
 [Microsoft 365 보안 센터로](https://security.microsoft.com/homepage)이동 합니다. **설정** 으로 이동한 후 **Microsoft Threat Protection**을 선택 합니다.
 <br>![이미지 of_Microsoft 위협 보호 옵션 스크린샷 (Microsoft 365 보안 센터 설정 페이지)](../../media/mtp-eval-72b.png) <br>
 
+보다 포괄적인 지침을 보려면 [Microsoft Threat Protection 설정을](mtp-enable.md)참조 하십시오. 
+
 축하합니다! Microsoft Threat Protection 평가판 테스트 환경을 방금 만들었습니다. 이제 공격을 시뮬레이트하고 외적 기능에서 검색 하는 방법을 확인 하 고, 알림을 생성 하 고, 끝점에서 fileless 공격에 자동으로 응답할 수 있습니다.
+
 
 ## <a name="next-steps"></a>다음 단계
 [테스트 경고를 생성](generate-test-alert.md)합니다.

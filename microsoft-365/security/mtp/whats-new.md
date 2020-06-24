@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 4fc56caa9be59d1a29032ee6e4f32e50918294fe
-ms.sourcegitcommit: 3119b2246001ba06af8264508785352dfb894166
+ms.openlocfilehash: f4e733cf7196668fb1c3d1830ead15c6262a635e
+ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44820551"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854297"
 ---
 # <a name="whats-new-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 새로운 기능
 
@@ -30,6 +30,9 @@ RSS 피드: 다음 URL을 복사 하 여 피드 판독기에 붙여 넣어이 �
 ```http
 https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+Threat+Protection%22&locale=en-us
 ```
+## <a name="june-2020"></a>2020년 6월
+- Twitter 피드 <br> 대시보드 내에서 최신 보안 연구, 위협 인텔리전스, 제품 소식 등을 확인 하세요.
+
 ## <a name="february-2020"></a>2020년 2월
 - [인시던트](incidents-overview.md) <br> 공격이 시작 된 위치와 공격 범위를 확인 하는 데 도움이 되는 기타 세부 정보를 정확히 파악 합니다.
 - [자동화된 조사 및 응답](mtp-autoir.md) <br> AIR을 사용하면 보안 운영팀에서 보안 경고와 인시던트를 처리하는 조직의 용량을 획기적으로 늘릴 수 있습니다.

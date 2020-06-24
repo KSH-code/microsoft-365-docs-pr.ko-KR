@@ -5,7 +5,7 @@ author: brendacarter
 f1.keywords:
 - NOCSH
 manager: laurawi
-ms.date: 06/09/2020
+ms.date: 06/22/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -16,20 +16,37 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: 보안 및 서비스 인프라를 구성 하 여 정보를 보호 하 고 데이터 개인 정보 규정을 준수 합니다.
-ms.openlocfilehash: 35ccfb21accd969c2a2cbdddde9a4ec1c7eeed64
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+ms.openlocfilehash: ea0f5ead93dc631a28577a61f33bca3b601406f4
+ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695113"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854338"
 ---
 # <a name="deploy-information-protection-for-data-privacy-regulations-with-microsoft-365"></a>Microsoft 365을 사용 하 여 데이터 개인 정보 보호 규정에 대 한 information protection 배포
 
-이 솔루션은 Microsoft 365 services에 저장 된 개인 데이터를 계획 하 고 보호 하는 방법에 대 한 지침을 제공 하며, 유럽 연합의 GDPR (일반 데이터 보호 규정)과 같은 데이터 개인 정보 규정을 준수할 수 있습니다. 이 솔루션은 데이터를 파악 하는 데 도움이 되는 microsoft 정보 보호 및 준수 기능, Microsoft 준수 점수 및 평가 도구에 중점을 두어야 합니다. 
- 
-데이터 개인 정보 요구 사항에 대 한 Microsoft id, 장치 및 위협 보호 컨트롤을 사용 하 고 데이터 인시던트 검색 및 응답 도구 에서도 추가 정보를 제공 합니다. 
+조직에서 온-프레미스와 클라우드를 모두 포함 하 여 IT 인프라에 저장 된 개인 정보를 보호, 관리 및 제어 해야 하는 지역별 데이터 개인 정보 규정을 준수할 수 있습니다. 데이터 개인 정보 취급 규정의 가장 좋은 예는 유럽 연합의 GDPR (일반 데이터 보호 규정)입니다. 데이터 개인 정보 규정을 준수 하지 않으면 상당한 벌금과 될 수 있습니다.
 
-## <a name="organization-of-this-guidance-material"></a>이 가이드 자료의 구성
+Microsoft 365의 데이터 형식에는 Microsoft 팀의 채팅 세션, Exchange의 전자 메일 및 SharePoint 및 OneDrive의 파일 등이 포함 됩니다. 이 솔루션은 데이터 개인 정보 규정을 준수 하는 Microsoft 365 services에 저장 된 개인 데이터에 대 한 데이터 개인 정보 인시던트를 식별, 검색, 보호, 제어 및 대응 하는 방법에 대 한 지침을 제공 합니다.
+
+![데이터 개인 정보 규정을 위한 정보 보호 배포](../media/information-protection-deploy/information-protection-deploy-big-picture.png)
+
+데이터 개인 정보 요구 사항에 대해 Microsoft 365 id, 장치 및 위협 방지 컨트롤을 사용 하는 경우에도 추가 정보가 제공 됩니다. 
+
+데이터 개인 정보 규정 준수를 위해 정보를 보호 하기 위한 기준을 충족 하려면 이러한 Microsoft 365 기능을 사용 합니다.
+
+| 기능 또는 특징 | 설명 | 라이선싱 |
+|:-------|:-----|:-------|
+| 준수 관리자 | Microsoft Service Trust Portal의이 워크플로 기반 위험 평가 도구를 사용 하 여 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 관리 합니다. | Microsoft 365 E3 및 E5 |
+| 준수 점수(미리 보기) | 현재 준수 구성의 전체 점수와 Microsoft 365 준수 센터에서이를 개선 하기 위한 권장 사항을 참조 하세요. | Microsoft 365 E3 및 E5 |
+| Office ATP (Advanced Threat Protection) | Microsoft 365 앱 및 데이터 (예: 전자 메일 메시지, Office 문서 및 공동 작업 도구)를 공격 으로부터 보호 합니다. | Microsoft 365 E3 및 E5 | 
+| 민감도 레이블 | 전자 메일, 파일 또는 사이트에 다양 한 수준의 보호를 제공 하 여 사용자의 생산성과 공동 작업을 hindering 않고 조직의 데이터를 분류 하 고 보호 합니다. | Microsoft 365 E3 및 E5 |
+| DLP (데이터 손실 방지) | 내부 및 외부적으로 개인 정보를 포함 하는 데이터를 공유 하는 등 위험, 실수로 또는 부적절 한 공유를 감지, 경고 및 부적합 하 게 차단 합니다. | Microsoft 365 E3 및 E5 | 
+| 데이터 보존 레이블 및 정책 | 조직의 정책 또는 데이터 규정을 준수 하기 위해 고객의 개인 데이터 저장소에 대 한 데이터 및 요구 사항을 유지 하는 기간 같은 정보 관리 방식 제어를 구현 합니다. | Microsoft 365 E3 및 E5 |
+| 전자 메일 암호화 | 고객의 개인 데이터와 같은 규정 된 데이터를 포함 하는 조직 내부 및 외부의 사용자 간에 암호화 된 전자 메일 메시지를 보내고 받습니다. | Microsoft 365 E3 및 E5 |
+||||
+
+## <a name="organization-of-the-guidance-in-this-solution"></a>이 솔루션의 지침 구성
 
 하나 이상의 개인 정보 관련 규정에 따라 개인 데이터를 식별, 관리, 제어 및 모니터링 하는 데 사용할 수 있는 Microsoft 365 도구를 이해 하는 데 도움이 되도록이 지침은 섹션으로 구성 되어 있습니다.
  

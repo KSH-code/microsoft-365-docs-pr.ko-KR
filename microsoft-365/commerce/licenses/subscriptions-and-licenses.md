@@ -24,18 +24,20 @@ description: '비즈니스에 대 한 Microsoft 365의 구독 및 라이선스�
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: 5ed1925fd51dd1798d4c6ab275494fde01535177
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f83b2069bd1b4c86e2198252a54ed2e8e5c55a04
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402405"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844683"
 ---
 # <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>비즈니스에 대 한 Microsoft 365의 구독 및 라이선스 이해
 
 이 문서에서는 구독 및 라이선스 간의 관계에 대해 설명 하 고, 라이선스를 [할당할 수 있는 사람](#find-out-who-can-assign-licenses), 사용자 [에 게 라이선스를 할당할 때 수행 되는 작업](#understand-what-happens-when-you-assign-a-license-to-someone)및 [사용자가 Office를 설치할 수 있는 장치 개수](#how-many-devices-can-people-install-office-on)에 대 한 추가 정보를 제공 합니다. 또한 [비 사용자 사서함의 라이선스 이해](#understand-licenses-for-non-user-mailboxes)에 대 한 링크와 [라이선스 관리에 대 한 문서](#articles-about-managing-licenses)도 포함 되어 있습니다.
   
 비즈니스를 위해 Microsoft 365 구독을 구입 하는 경우 매달 또는 연간 기준으로 지불 하는 응용 프로그램 및 서비스 집합에 등록 합니다. 구독의 일부로 수신 하는 응용 프로그램 및 서비스는 구입한 제품 (예: 비즈니스용 Microsoft 365 Apps 또는 Microsoft 365 Business Standard)에 따라 달라 집니다. [Microsoft 365 구입 페이지](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1)에서 각 제품과 함께 제공 되는 내용을 검토할 수 있습니다. 
+
+[중소 규모 기업을 위해 Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb) 에서 제공 되는 다양 한 라이선스 옵션을 검토할 수 있습니다.
 
 구독을 구입할 때 조직의 사용자 수를 기준으로 필요한 라이선스 수를 지정합니다. 구입을 완료한 후 사용자 계정을 만들고 각 사용자에게 라이선스를 할당합니다. 조직의 요구 사항이 변경 되 면 새 사용자를 수용할 수 있는 라이선스를 추가로 구입 하거나 다른 사용자에 게 라이선스를 다시 할당 합니다. 
 
@@ -44,7 +46,7 @@ ms.locfileid: "44402405"
   
 ## <a name="find-out-who-can-assign-licenses"></a>라이선스를 할당할 수 있는 사용자 찾기
 
-여러 유형의 관리자가 해당 역할에 따라 서로 다른 방법으로 라이선스를 사용할 수 있습니다. 다음 표에는 가장 일반적인 옵션이 나열되어 있습니다. 관리자 역할 및 권한의 전체 목록은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+Different types of admins can work with licenses in different ways, depending on their roles. The following table lists the most common options. For a complete list of admin roles and privileges, see [About admin roles](../../admin/add-users/about-admin-roles.md).
   
 |**관리자 역할**|**라이선스 할당**|**라이선스 제거**|**추가 라이선스 구입**|**계정 삭제**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -81,7 +83,7 @@ ms.locfileid: "44402405"
     
 ## <a name="understand-licenses-for-non-user-mailboxes"></a>비사용자 사서함의 라이선스 이해
 
-리소스 사서함, 대화방 사서함, 공유 사서함이 50GB(기가바이트)의 저장소 할당량을 초과할 경우를 제외하고, 해당 사서함에 라이선스를 할당할 필요가 없습니다. 비사용자 사서함에 대해서는 다음 문서를 참조하세요.
+You don't need to assign licenses to resource mailboxes, room mailboxes, and shared mailboxes, except when they are over their storage quota of 50 gigabytes (GB). For more about non-user mailboxes, see the following articles:
   
 - [공유 사서함 만들기](../../admin/email/create-a-shared-mailbox.md)
     

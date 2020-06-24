@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: bbc7d5d434765b94b0b2707605be2edfbbc8e423
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: e19e5758f4d42799c96ecec51fd6295e3da19f9b
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661984"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844921"
 ---
 # <a name="troubleshoot-microsoft-threat-protection-service-issues"></a>Microsoft Threat Protection 서비스 문제 트러블슈팅
 
@@ -44,12 +44,7 @@ ms.locfileid: "41661984"
 
 자세한 내용은 [Azure ATP integration](https://docs.microsoft.com/cloud-app-security/aatp-integration)을 확인하세요. 
 
-## <a name="is-microsoft-threat-protection-available-for-us-government-community-cloud-gcc-or-gcc-high"></a>GCC(미국 정부 커뮤니티 클라우드)나 GCC High에서 Microsoft Threat Protection을 사용할 수 있나요?
-현재는 사용불가합니다. 
-
 ## <a name="where-is-the-settings-page-for-turning-the-service-on"></a>서비스를 켜는 설정 페이지는 어디에 있나요?
 Microsoft Threat Protection을 설정 하려면 Microsoft 365 보안 센터의 탐색 창에서 **설정** 에 액세스 합니다. 이 탐색 항목은 [필수 사용 권한 및 라이선스가](mtp-enable.md#check-license-eligibility-and-required-permissions)있는 경우에만 표시 됩니다.
-
-## <a name="can-i-use-an-add-on-instead-of-the-required-e5-licenses"></a>필수 E5 라이선스 대신 추가 기능을 사용할 수 있나요?
-현재 Microsoft Threat Protection에 대 한 추가 기능은 없습니다. [라이선스 요구 사항 참조](prerequisites.md) 
+ 
 
