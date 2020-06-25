@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: 48d8cf5bc618f4f1e840872c4369bc5cdda19727
-ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
+ms.openlocfilehash: 633e54dc2b3c83d0d6778176318512b03bd073a8
+ms.sourcegitcommit: aab8b94ea8a9d4f7c6b911d6dc5cde70722e00e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44262560"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44869859"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 
@@ -34,9 +34,9 @@ ms.locfileid: "44262560"
 
 랩은 도메인 가입 데스크톱 클라이언트, 도메인 컨트롤러, 인터넷 게이트웨이 및 완전히 구성된 구성 매니저 인스턴스를 포함하여 자동으로 프로비저닝된 가상 랩 환경을 제공합니다. 랩에는 다음 제품의 최신 평가판 버전이 포함되어 있습니다.
 
-  - Windows 10 Enterprise
+  - 새로운 기능! Windows 10 Enterprise, 버전 2004
   - Windows 7 Enterprise
-  - Microsoft Endpoint Configuration Manager
+  - 새로운 기능! Microsoft Endpoint Configuration Manager, 버전 2002
   - Windows 10용 Windows 평가 및 배포 키트
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization(App-V)
@@ -113,7 +113,7 @@ ms.locfileid: "44262560"
 
 [Windows 및 Office 배포 랩 키트 다운로드](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
-*광대역폭을 통해 이 콘텐츠를 다운로드하여 다운로드 환경을 개선하고 자동 프로비전을 위해 30-45분을 허용하세요. 이 랩 환경에는 최소 16GB의 사용 가능한 메모리와 150GB의 사용 가능한 디스크 공간이 필요합니다. 최적의 성능을 위해 32GB의 사용 가능한 공간이 있는 것이 좋습니다. 이 랩은 2020년 7월 5일에 만료됩니다. 만료 전에 새 버전이 게시됩니다.*
+*광대역폭을 통해 이 콘텐츠를 다운로드하여 다운로드 환경을 개선하고 자동 프로비전을 위해 30-45분을 허용하세요. 이 랩 환경에는 최소 16GB의 사용 가능한 메모리와 150GB의 사용 가능한 디스크 공간이 필요합니다. 최적의 성능을 위해 32GB의 사용 가능한 메모리가 있는 것이 좋습니다. 이 랩은 2020년 9월 12일에 만료됩니다. 만료 전에 새 버전이 게시됩니다.*
 
 ## <a name="additional-guidance"></a>추가 안내
 
