@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
-ms.openlocfilehash: 9a2cda171de2b81acdabc2180fe53d8ed4e0f900
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 4ec5f7c8779e9d6b6709c8fc3311ec9c0e99b680
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616481"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754847"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 
@@ -104,7 +104,7 @@ Microsoft 365로의 연결 상태를 유지하여 구성을 *검증*합니다.
 1. 다음 명령을 실행합니다.
 
    ```powershell
-   Get-DkimSigningConfig | Format-List
+   Get-DkimSigningConfig -Identity {Domain for which the configuration was set} | Format-List
    ```
 
 > [!TIP]
@@ -140,7 +140,7 @@ CNAME 레코드에는 다음 형식을 사용합니다.
 > [!IMPORTANT]
 > 사용자가 GCC High 고객인 경우 _domainGuid_를 다르게 계산합니다! _domainGuid_를 계산하기 위해 _initialDomain_에 대한 MX 레코드를 조회하는 대신 사용자 정의된 도메인에서 직접 계산합니다. 예를 들어, 사용자 지정 도메인이 "contoso.com"인 경우 domainGuid는 "contoso-com"이되고 마침표는 대시로 바뀝니다. 따라서 initialDomain이 가리키는 MX 레코드와 상관없이 항상 위의 방법을 사용하여 CNAME 레코드에서 사용할 domainGuid를 계산합니다.
 
-```text
+```console
 Host name:            selector1._domainkey
 Points to address or value:    selector1-<domainGUID>._domainkey.<initialDomain>
 TTL:                3600
@@ -162,7 +162,7 @@ TTL:                3600
 
 예를 들어 cohovineyardandwinery.onmicrosoft.com이라는 초기 도메인과 cohovineyard.com 및 cohowinery.com이라는 두 개의 사용자 지정 도메인이 있는 경우 추가 도메인마다 총 두 개의 CNAME 레코드를 설정해야 합니다 (총 네 개의 CNAME 레코드).
 
-```text
+```console
 Host name:            selector1._domainkey
 Points to address or value:    selector1-cohovineyard-com._domainkey.cohovineyardandwinery.onmicrosoft.com
 TTL:                3600
@@ -193,7 +193,7 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
 
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-through-the-admin-center"></a>관리 센터를 통해 사용자 지정 도메인에 DKIM 서명 사용
 
-1. 회사 또는 학교 계정으로 [Microsoft 365에 로그인](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4)합니다.
+1. 회사 또는 학교 계정으로 [Microsoft 365에 로그인](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)합니다.
 
 2. 왼쪽 위에서 앱 시작 관리자 아이콘을 선택하고 **관리자**를 선택합니다.
 
@@ -229,11 +229,11 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
 
 - 테스트 목적으로 aol.com 계정을 사용하지 마세요. SPF 검사가 통과되면 AOL에서 DKIM 검사를 건너뛸 수 있습니다. 이렇게 하면 테스트가 무효화 됩니다.
 
-- 메시지를 열고 머리글을 확인합니다. 메시지 머리글 보기에 대한 지침은 메시징 클라이언트에 따라 다릅니다. Outlook에서 메시지 머리글을 보는 방법은 [전자 메일 메시지 머리글보기](https://support.office.com/article/CD039382-DC6E-4264-AC74-C048563D212C)를 참조하세요.
+- 메시지를 열고 머리글을 확인합니다. 메시지 머리글 보기에 대한 지침은 메시징 클라이언트에 따라 다릅니다. Outlook에서 메시지 머리글을 보는 방법은 [Outlook에서 인터넷 메시지 머리글 보기](https://support.microsoft.com/office/cd039382-dc6e-4264-ac74-c048563d212c)를 참조하세요.
 
   DKIM 서명 메시지에는 CNAME 항목을 게시할 때 정의한 호스트 이름과 도메인이 포함됩니다. 메시지가 다음 예제와 같이 표시됩니다. 
 
-  ```text
+  ```console
     From: Example User <example@contoso.com>
     DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
         s=selector1; d=contoso.com; t=1429912795;
@@ -293,7 +293,7 @@ DKIM을 사용하지 않도록 설정하면 Microsoft 365는 기본 도메인에
 
 다음 예제에서는 fabrikam.com용 DKIM이 도메인 관리자가 아닌 Microsoft 365에서 활성화되었다고 가정합니다. 이는 필수적인 CNAME이 DNS에 존재하지 않음을 의미합니다. 이 도메인의 전자 메일에 대한 DKIM 서명은 다음과 같습니다.
 
-```text
+```console
 From: Second Example <second.example@fabrikam.com>
 DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
     s=selector1-fabrikam-com; d=contoso.onmicrosoft.com; t=1429912795;
@@ -311,7 +311,7 @@ DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
 
 contoso.com 및 bulkemailprovider.com에 대해 올바르게 구성된 DKIM을 보여주는 메시지의 예는 다음과 같습니다.
 
-```text
+```console
 Return-Path: <communication@bulkemailprovider.com>
  From: <sender@contoso.com>
  DKIM-Signature: s=s1024; d=contoso.com

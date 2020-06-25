@@ -16,13 +16,14 @@ ms.assetid: 7ff0c040-b25c-4378-9904-b1b50210d00e
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-description: 새 Office 365 메시지 암호화 기능은 Azure Information Protection을 바탕으로 하여 구현되었고, 이 기능을 사용하면 조직 내부나 조직 외부의 사람과 보호된 전자 메일을 사용하여 통신할 수 있습니다. 새 OME 기능은 다른 조직, Outlook.com, Gmail 및 기타 전자 메일 서비스와 함께 작동합니다.
-ms.openlocfilehash: 95ac1528c59dc3f59e0d0e923d78ffb7138456d5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 조직 내부나 조직 외부의 사람과 보호된 전자 메일을 사용하여 통신할 수 있게 하는 새 Office 365 메시지 암호화 기능에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6d6e37da7456cfbb0b7cbf8d986b54615aca60f0
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635470"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819188"
 ---
 # <a name="set-up-new-message-encryption-capabilities"></a>새 메시지 암호화 기능 설정하기
 

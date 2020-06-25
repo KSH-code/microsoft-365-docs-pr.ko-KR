@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 Office 365의 제한된 사용자 포털에서 사용자를 제거 하는 방법을 알아볼 수 있습니다. 사용자는 일반적으로 계정 손상의 결과로 아웃바운드 스팸 전송을 위해 제한된 사용자 포털에 추가됩니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b9e28550c67e20466b18b17d8b49fb1b68997cc4
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 43312ee6eff9b56ac4faf8173666a1ba79b9e067
+ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617365"
+ms.lasthandoff: 06/13/2020
+ms.locfileid: "44726736"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Office 365의 제한된 사용자 포털에서 차단된 사용자 제거
 
@@ -42,7 +42,17 @@ ms.locfileid: "44617365"
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
-- 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 제한된 사용자 포털에서 사용자를 제거하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원이어야 합니다. 제한된 사용자 포털에 대한 읽기 전용 액세스를 위해서는 **보안 읽기 권한자** 역할 그룹의 구성원이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
+- 이 항목의 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다.
+
+  - 제한된 사용자 포털에서 사용자를 제거하려면 다음 역할 그룹 중 하나의 구성원이어야 합니다.
+
+    - [보안 및 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **조직 관리** 또는 **보안 관리자**
+    - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **조직 관리** 및 **예방 조치 관리**
+
+  - 제한된 사용자 포털에 대한 읽기 전용 엑세스를 위해서는 다음 역할 그룹 중 하나의 구성원이어야 합니다.
+
+    - [보안 및 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **보안 읽기**
+    - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리**
 
 - 아웃바운드 전자 메일 제한을 초과 하는 보낸 사람은 손상된 계정을 나타냅니다. 제한된 사용자 포털에서 사용자를 제거하기 전에 해당 계정을 다시 제어하기 위해 필요한 단계를 수행해야 합니다. 자세한 내용은 [Office 365에서 손상된 전자 메일 계정에 응답](responding-to-a-compromised-email-account.md)을 참조하세요.
 

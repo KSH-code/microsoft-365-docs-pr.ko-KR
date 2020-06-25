@@ -20,18 +20,18 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: 사용할 수 있는 그룹 유형에 대해 알아봅니다.
-ms.openlocfilehash: b81bb09efedc503b49d2ed4aa10b1e7153116f14
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 333d929e72647421951eefa50508c23dddc196ac
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44388032"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780460"
 ---
 # <a name="compare-groups"></a>그룹 비교
 
 Microsoft 365 관리 센터의 **Groups** 구역에서 다음과 같은 유형의 그룹을 만들고 관리할 수 있습니다. 
 
-- **Microsoft 365 그룹**은 회사 내부 및 외부의 사용자 간의 공동 작업에 사용됩니다.
+- **Microsoft 365 그룹**(이전 Office 365 그룹)은 회사 내부 및 외부의 사용자 간의 공동 작업에 사용됩니다.
 - **메일 그룹**은 사용자 그룹에 알림을 보내는 데 사용됩니다.
 - **보안 그룹**은 SharePoint 사이트와 같은 리소스에 대한 액세스 권한을 부여하는 데 사용됩니다.
 - **메일 사용이 가능한 보안 그룹**은 SharePoint와 같은 리소스에 대한 액세스 권한을 부여하고 해당 사용자에게 전자 메일로 알림을 보내는 데 사용됩니다.
@@ -81,4 +81,4 @@ Microsoft 365 그룹은 iOS용 Outlook 및 Android용 Outlook과 같은 모바�
 
 ## <a name="related-articles"></a>관련 문서
 
-[Microsoft 365 그룹에 대해 자세히 알아보세요.](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+[Microsoft 365 그룹에 대해 자세히 알아보세요.](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)

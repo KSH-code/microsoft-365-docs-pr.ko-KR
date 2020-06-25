@@ -69,29 +69,20 @@
               href: mtp/setup-mtpeval.md
             - name: 구성 및 온보드
               href: mtp/config-mtpeval.md
-            - name: Microsoft Threat Protection 사용 설정
-              href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#turn-on-microsoft-threat-protection'
+            - name: Microsoft Threat Protection 서비스 시작
+              href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#start-the-microsoft-threat-protection-service'
             - name: 테스트 알림 생성
               href: mtp/generate-test-alert.md
         - name: 사용 방법 가이드
           items:
             - name: 평가판 랩 환경 만들기
               href: mtp/mtp-evaluation.md
-              items:
-                - name: 준비
-                  href: mtp/prepare-mtpeval.md
-                - name: 설정
-                  href: mtp/setup-mtpeval.md
-                - name: 구성 및 온보드
-                  href: mtp/config-mtpeval.md
-                - name: Microsoft Threat Protection 사용 설정
-                  href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#turn-on-microsoft-threat-protection'
-                - name: 테스트 알림 생성
-                  href: mtp/generate-test-alert.md
             - name: 지원 서비스 사용
               href: mtp/deploy-supported-services.md
             - name: Microsoft Threat Protection 사용 설정
               href: mtp/mtp-enable.md
+            - name: FAQ 사용 설정
+              href: mtp/mtp-enable-faq.md
             - name: 인시던트
               items:
                 - name: 개요
@@ -196,14 +187,10 @@
                       href: mtp/custom-detections-overview.md
                     - name: 검색 규칙 만들기 및 관리
                       href: mtp/custom-detection-rules.md
-            - name: 보안 점수
+            - name: Microsoft 보안 점수
               items:
-                - name: 보안 점수(신규)
-                  href: mtp/microsoft-secure-score-new.md
-                - name: 보안 점수(이전 반복)
+                - name: 보안 점수 개요
                   href: mtp/microsoft-secure-score.md
-                - name: 보안 점수(미리 보기)
-                  href: mtp/microsoft-secure-score-preview.md
                 - name: 향후 계획
                   href: mtp/microsoft-secure-score-whats-coming.md
             - name: 보고서
@@ -324,6 +311,8 @@
                   href: ./office-365-security/safety-tips-in-office-365.md
                 - name: 목록 해제 포털을 사용하여 수신 거부 목록에서 본인 제거
                   href: ./office-365-security/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md
+                - name: 테넌트 허용/차단 목록의 URL과 파일 관리
+                  href: ./office-365-security/tenant-allow-block-list.md
             - name: 피싱 방지 보호 기능
               href: ./office-365-security/anti-phishing-protection.md
               items:
