@@ -1,7 +1,7 @@
 ---
 title: 고급 구하기 스키마의 DeviceInfo 테이블
 description: 고급 구하기 스키마의 DeviceInfo 테이블에 있는 OS, 컴퓨터 이름 및 기타 컴퓨터 정보에 대해 자세히 알아봅니다.
-keywords: 고급 구하기, 위협 검색, 사이버 위협 사냥, microsoft threat protection, microsoft 365, mtp, m365, search, query, 원격 분석, 스키마 참조, kusto, table, column, data type, DeviceInfo, device, machine, OS, 플랫폼 , 사용자
+keywords: 고급 구하기, 위협 검색, 사이버 위협 사냥, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, description, DeviceInfo, device, machine, OS, 플랫폼, 사용자
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 71bd9e9ff1dfb17e4a9266d9ee351799e18888c9
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 526e210a472862593f2652e9b2b21957702c48f0
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235027"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899282"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -53,7 +53,7 @@ ms.locfileid: "42235027"
 | `MachineGroup` | 문자열 | 컴퓨터의 컴퓨터 그룹입니다. 역할 기반 액세스 제어에서이 그룹을 사용 하 여 컴퓨터에 대 한 액세스를 확인 합니다. |
 
 ## <a name="related-topics"></a>관련 항목
-- [사전 대응식 위협 탐지](advanced-hunting-overview.md)
+- [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
 - [여러 장치 및 전자 메일에서 위협을 탐지](advanced-hunting-query-emails-devices.md)

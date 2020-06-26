@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: f340a34b3c88f1caba83861c4d36ce140846d495
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 0f565e7584a961fcbc48e6a421419cd48a20a963
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617177"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899330"
 ---
 # <a name="deviceevents"></a>DeviceEvents
 
@@ -86,7 +86,7 @@ ms.locfileid: "44617177"
 | `AppGuardContainerId` | 문자열 | 응용 프로그램 가드가 브라우저 활동을 격리 하는 데 사용 하는 가상화 된 컨테이너의 식별자입니다. |
 
 ## <a name="related-topics"></a>관련 항목
-- [사전 대응식 위협 탐지](advanced-hunting-overview.md)
+- [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
 - [여러 장치 및 전자 메일에서 위협을 탐지](advanced-hunting-query-emails-devices.md)

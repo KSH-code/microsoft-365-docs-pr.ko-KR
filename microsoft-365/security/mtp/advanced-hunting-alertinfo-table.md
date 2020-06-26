@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: e4d7ec213a4b4d1108c06784fb5e6675c79429c1
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: a1290ee415073a9cb3948bc4b0cc6bb3ae13285b
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42929519"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899020"
 ---
 # <a name="alertinfo"></a>AlertInfo
 
@@ -31,7 +31,7 @@ ms.locfileid: "42929519"
 
 
 
-`AlertInfo` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 Microsoft Defender ATP, Office 365 ATP, microsoft Cloud APP Security 및 Azure ATP의 알림에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+`AlertInfo` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 microsoft Defender atp, Office 365 ATP, Microsoft Cloud App SECURITY 및 Azure ATP의 알림에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 
@@ -47,7 +47,7 @@ ms.locfileid: "42929519"
 | `AttackTechniques` | 문자열 | 경고를 트리거한 활동에 연결 된 MITRE AT&T&접시 헤드 기술 |
 
 ## <a name="related-topics"></a>관련 항목
-- [사전 대응식 위협 탐지](advanced-hunting-overview.md)
+- [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
 - [여러 장치 및 전자 메일에서 위협을 탐지](advanced-hunting-query-emails-devices.md)

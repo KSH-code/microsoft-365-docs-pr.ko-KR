@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: be86f446e05952f7e88dc32e12a6a0d05e380afd
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: eefd6848e5ae0ddb077db576d55aaf9555e33729
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515858"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44898996"
 ---
 # <a name="emailevents"></a>EmailEvents
 
@@ -65,7 +65,7 @@ ms.locfileid: "44515858"
 | `EmailLanguage` | 문자열 | 검색된 전자 메일 콘텐츠의 언어 |
 
 ## <a name="related-topics"></a>관련 항목
-- [사전 대응식 위협 탐지](advanced-hunting-overview.md)
+- [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
 - [여러 장치 및 전자 메일에서 위협을 탐지](advanced-hunting-query-emails-devices.md)

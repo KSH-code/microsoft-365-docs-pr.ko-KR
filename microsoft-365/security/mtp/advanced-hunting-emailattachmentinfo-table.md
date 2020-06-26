@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 5cfda9a581e03c91815bdcbd2508fcc6c52d2652
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c396689942a72a03120f0acd41d0d76abb720702
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633634"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899402"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
@@ -49,7 +49,7 @@ ms.locfileid: "43633634"
 | `MalwareDetectionMethod` | 문자열 | 전자 메일에서 맬웨어를 검색하는 데 사용하는 방법: Antimalware engine, File reputation, ATP Safe Attachments |
 
 ## <a name="related-topics"></a>관련 항목
-- [사전 대응식 위협 탐지](advanced-hunting-overview.md)
+- [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
 - [여러 장치 및 전자 메일에서 위협을 탐지](advanced-hunting-query-emails-devices.md)

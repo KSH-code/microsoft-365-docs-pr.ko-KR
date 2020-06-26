@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 12f8d0995d00daffe8a1ca1c2c8d9dfe25a11581
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: b384e76439ae706520725e7193fa64224b724be0
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209778"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44898960"
 ---
 # <a name="identityinfo"></a>IdentityInfo
 
@@ -56,7 +56,7 @@ ms.locfileid: "44209778"
 | `IsAccountEnabled` | 부울 | 계정을 사용할 수 있는지 여부를 나타냅니다. |
 
 ## <a name="related-topics"></a>관련 항목
-- [사전 대응식 위협 탐지](advanced-hunting-overview.md)
+- [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
 - [여러 장치 및 전자 메일에서 위협을 탐지](advanced-hunting-query-emails-devices.md)

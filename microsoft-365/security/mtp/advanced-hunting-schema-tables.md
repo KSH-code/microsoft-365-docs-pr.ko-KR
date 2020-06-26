@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 2ed89a676525b91f6b0923cf39be5b014638e93e
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: 032368e35cdfc991df4c01643e49cee538549f39
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515846"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899366"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>고급 헌팅 스키마 이해
 
@@ -63,9 +63,6 @@ ms.locfileid: "44515846"
 | **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | Azure Active Directory를 비롯 한 다양 한 원본의 계정 정보 |
 | **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | Active Directory 및 기타 Microsoft online services를 통해 기록 되는 인증 이벤트 |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Active Directory 개체에 대해 수행 되는 쿼리 작업 (예: 사용자, 그룹, 장치 및 도메인) |
-
-
-
 
 ## <a name="related-topics"></a>관련 항목
 - [고급 헌팅 개요](advanced-hunting-overview.md)

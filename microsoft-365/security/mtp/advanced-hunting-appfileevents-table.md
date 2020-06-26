@@ -1,7 +1,7 @@
 ---
-title: 고급 구하기 스키마의 IdentityQueryEvents 테이블
-description: 고급 검색 스키마의 IdentityQueryEvents 테이블에 있는 Active Directory 쿼리 이벤트에 대해 자세히 알아보기
-keywords: 고급 구하기, 위협 검색, 사이버 위협 요소 검색, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, column, IdentityQueryEvents, Azure AD, Active Directory, Azure ATP, id, LDAP 쿼리
+title: 고급 구하기 스키마의 AppFileEvents 테이블
+description: 고급 구하기 스키마의 AppFileEvents 테이블에 있는 클라우드 앱 및 서비스와 연결 된 파일 관련 이벤트에 대해 자세히 알아봅니다.
+keywords: 고급 구하기, 위협 검색, 사이버 위협 검색, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, column, data type, description, AppFileEvents, Cloud App Security, MCAS
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: bec7f13d49e2ccf4e3a9121d5e5a2fecd1b10aa2
+ms.openlocfilehash: da3b331d4f607aa0961e275db9444aadbec4fcf2
 ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899116"
+ms.locfileid: "44899342"
 ---
-# <a name="identityqueryevents"></a>IdentityQueryEvents
+# <a name="appfileevents"></a>AppFileEvents
 
 **적용 대상:**
 - Microsoft 위협 방지
 
-`IdentityQueryEvents` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 Active Directory 개체 (예: 사용자, 그룹, 장치 및 도메인)에 대해 수행 된 쿼리에 대 한 정보가 포함 됩니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+`AppFileEvents` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 Microsoft cloud App Security에서 모니터링 하는 클라우드 앱 및 서비스의 파일 관련 작업에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 
@@ -38,16 +38,14 @@ ms.locfileid: "44899116"
 | `Timestamp` | datetime | 이벤트가 기록된 날짜와 시간 |
 | `ActionType` | 문자열 | 이벤트를 트리거한 작업의 유형입니다. |
 | `Application` | 문자열 | 기록 된 작업을 수행한 응용 프로그램 |
-| `Query` | 문자열 | 쿼리 유형: QueryGroup, Querygroup 또는 EnumerateUsers |
-| `QueryObject` | 문자열 | 쿼리 중인 사용자, 그룹, 장치, 도메인 또는 기타 모든 엔터티 유형의 이름입니다. |
-| `Protocol` | 문자열 | 통신 중에 사용 되는 프로토콜 |
+| `FileName` | 문자열 | 기록된 조치가 적용된 파일의 이름 |
+| `FolderPath` | 문자열 | 기록 된 작업이 적용 된 파일을 포함 하는 폴더 |
+| `PreviousFileName` | 문자열 | 동작의 결과로 이름이 바뀐 파일의 원래 이름입니다. |
 | `AccountName` | 문자열 | 계정의 사용자 이름입니다. |
 | `AccountDomain` | 문자열 | 계정의 도메인 |
 | `AccountUpn` | 문자열 | 계정의 UPN (사용자 계정 이름) |
-| `AccountSid` | 문자열 | 계정의 SID (보안 식별자) |
 | `AccountObjectId` | 문자열 | Azure AD의 계정에 대 한 고유 식별자입니다. |
 | `AccountDisplayName` | 문자열 | 주소록에 표시 되는 계정 사용자의 이름입니다. 일반적으로 주어진 이름이 나 이름, 중간 시작, 성 또는 성의 조합입니다. |
-| `DeviceName` | 문자열 | 끝점의 FQDN (정규화 된 도메인 이름) |
 | `IPAddress` | 문자열 | 끝점에 할당 되 고 관련 네트워크 통신 중에 사용 되는 IP 주소 |
 | `Location` | 문자열 | 이벤트와 관련 된 구/군/시, 국가 또는 기타 지리적 위치 |
 

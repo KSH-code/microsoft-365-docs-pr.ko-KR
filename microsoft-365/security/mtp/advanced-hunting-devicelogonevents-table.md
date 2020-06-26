@@ -1,7 +1,7 @@
 ---
 title: 고급 구하기 스키마의 DeviceLogonEvents 테이블
 description: 고급 구하기 스키마의 DeviceLogonEvents 테이블에 있는 인증 또는 로그인 이벤트에 대해 자세히 알아보기
-keywords: 고급 구하기, 위협 검색, 사이버 위협 사냥, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, column, data type, description, logonevents, DeviceLogonEvents, authentication 로그온, 로그인
+keywords: 고급 구하기, 위협 사냥, 사이버 위협 검색, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, column, data type, description, logonevents, DeviceLogonEvents, authentication, logon, 로그인
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 7c7f1bba23379b25ccecc427b2aa866a1105396d
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 07b2c2301784f378075e3c9803cebc5bcabf9cb0
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235017"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899270"
 ---
 # <a name="devicelogonevents"></a>DeviceLogonEvents
 
@@ -72,7 +72,7 @@ ms.locfileid: "42235017"
 | `IsLocalAdmin` | 부울 | 사용자가 컴퓨터의 로컬 관리자 인지 여부를 나타내는 부울 표시기입니다. |
 
 ## <a name="related-topics"></a>관련 항목
-- [사전 대응식 위협 탐지](advanced-hunting-overview.md)
+- [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
 - [여러 장치 및 전자 메일에서 위협을 탐지](advanced-hunting-query-emails-devices.md)

@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: da6e84725aa391e4cb6056fadd327fdba2436214
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: a0f2ae36752a4415da7c1bc39ce35bd7f744a764
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617089"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899354"
 ---
 # <a name="alertevidence"></a>AlertEvidence
 
@@ -53,7 +53,7 @@ ms.locfileid: "44617089"
 | `AdditionalFields` | 문자열 | JSON 배열 형식의 이벤트에 대 한 추가 정보 |
 
 ## <a name="related-topics"></a>관련 항목
-- [사전 대응식 위협 탐지](advanced-hunting-overview.md)
+- [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
 - [여러 장치 및 전자 메일에서 위협을 탐지](advanced-hunting-query-emails-devices.md)
