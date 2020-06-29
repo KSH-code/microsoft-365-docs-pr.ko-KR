@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: 관리 센터에서 특정 작업을 수행할 수 있도록 비즈니스의 사용자 또는 여러 사용자에 게 관리자 역할을 할당 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 59fc2211051aa4f122462186753e7f626715722f
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: cd50faf5db5e674e865e0913cae14a68a202bd1f
+ms.sourcegitcommit: 2e9e309ec09e5275ac6b3b425fba48a9ffce8eb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780640"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44900779"
 ---
 # <a name="assign-admin-roles"></a>관리자 역할 할당
 
@@ -46,7 +46,7 @@ Microsoft 비즈니스 구독을 구매한 사용자는 전역 관리자입니�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
 
 ## <a name="assign-admin-roles"></a>관리자 역할 할당 
 
@@ -110,9 +110,9 @@ PowerShell을 알고 [있는 경우 powershell을 사용 하 여 사용자 계�
 ::: moniker range="o365-worldwide"
 
 
-## <a name="didnt-work-for-you"></a>문제가 있나요?
+## <a name="check-your-permissions"></a>사용 권한 확인
 
-올바른 사용 권한이 없기 때문에 다른 사용자에 게 관리자 역할을 할당할 수 있는 권한이 없는 것일 수 있습니다. 다른 관리자에게 역할을 할당해 달라고 요청하세요.
+다른 사용자에 게 관리자 역할을 할당할 수 있는 올바른 사용 권한이 없을 수 있습니다. 올바른 사용 권한이 있는지 확인 하 고 다른 관리자에 게 사용자에 게 역할을 할당 하도록 요청 합니다.
 
 ::: moniker-end
 
@@ -120,8 +120,8 @@ PowerShell을 알고 [있는 경우 powershell을 사용 하 여 사용자 계�
 
 [Microsoft 365 관리자 역할 정보](about-admin-roles.md)
 
+[Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)
+
 [PowerShell을 사용 하 여 사용자 계정에 역할 할당](https://docs.microsoft.com/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)
 
 [파트너 관계 권한 부여 또는 제거](../misc/add-partner.md)
-
-[Exchange 관리 센터를 사용 하 여 대체 전자 메일 주소 추가](https://docs.microsoft.com/Exchange/recipients/user-mailboxes/email-addresses?view=exchserver-2019#add-an-email-address-to-a-user-mailbox)

@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: 필요한 데이터는 유지하고, 불필요한 데이터는 삭제하고, 콘텐츠를 레코드로 표시하여 데이터를 관리하는 보존 레이블에 대한 자세한 정보를 알아보세요.
-ms.openlocfilehash: b7797c55c95845b35fc3d67275bf64920fa59574
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: dc6048fed07f6312d192cde5260b180605e3d4f2
+ms.sourcegitcommit: 92a6595b482396f44675c22221500703a5649dab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817443"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44879309"
 ---
 # <a name="learn-about-retention-labels"></a>보존 레이블에 대한 자세한 정보
 
@@ -347,9 +347,9 @@ It's possible or even likely that content might have several retention policies 
 
 사용자가 콘텐츠에 보존 레이블을 할당하거나 레이블이 자동 적용된 후에 콘텐츠 검색을 사용하여 특정 보존 레이블로 분류된 모든 콘텐츠를 찾을 수 있습니다.
   
-콘텐츠 검색을 만들 때 **규정 준수 태그** 조건을 선택한 다음 보존 레이블 이름을 전체 또는 일부만 입력하고 와일드카드를 사용합니다. 자세한 내용은 [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)을 참조하세요.
+콘텐츠 검색을 만들 때 **규정 준수 레이블** 조건을 선택한 다음 보존 레이블 이름을 전체 또는 일부만 입력하고 와일드 카드를 사용합니다. 자세한 내용은 [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)을 참조하세요.
   
-![준수 태그 조건](../media/82d6af16-59f8-462f-babb-c894b2917018.png)
+![규정 준수 레이블 조건](../media/compliance-label-condition.png)
   
 ## <a name="use-retention-labels-instead-of-older-features"></a>이전 기능 대신 보존 레이블 사용하기
 

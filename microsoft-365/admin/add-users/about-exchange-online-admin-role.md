@@ -21,35 +21,35 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Exchange online 관리자는 조직의 전자 메일 및 사서함을 관리 합니다. 예를 들어 사용자 사서함에서 삭제 된 항목을 복구 합니다. '
-ms.openlocfilehash: 6d5596bd572d6fa5d43c79c34f174528fbfb3f1d
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: d69ec803c8321c6417f587feafb2730de1d1e7b3
+ms.sourcegitcommit: 7f765670cb6970fdf7ddbad464ed3f8fe704bfaf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432138"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "44909255"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>Exchange Online 관리자 역할 정보
 
-Microsoft 365을 관리 하는 데 도움이 되도록 사용자에 게 [Exchange 관리 센터](https://go.microsoft.com/fwlink/p/?LinkID=271807)에서 조직의 전자 메일 및 사서함을 관리 하기 위한 사용 권한을 [할당할](assign-admin-roles.md) 수 있습니다. 이렇게 하려면 Exchange 관리 역할에 해당 사용자를 할당 합니다. 
+Microsoft 365을 관리 하는 데 도움이 되도록 사용자에 게 [Exchange 관리 센터](https://go.microsoft.com/fwlink/p/?LinkID=271807)에서 조직의 전자 메일 및 사서함을 관리 하기 위한 사용 권한을 [할당할](assign-admin-roles.md) 수 있습니다. 이렇게 하려면 Exchange 관리 역할에 해당 사용자를 할당 합니다.
   
- **팁**: 사용자를 Exchange 관리 역할에 할당 하는 경우 서비스 관리자 역할에 자신을 할당 하기도 합니다. 이러한 방식으로 Microsoft 365 관리 센터에서 Exchange Online 서비스의 상태와 같은 중요 한 정보를 확인 하 고 알림 변경 및 릴리스 알림을 받을 수 있습니다. 
+ **팁**: 사용자를 Exchange 관리 역할에 할당 하는 경우 서비스 관리자 역할에 자신을 할당 하기도 합니다. 이러한 방식으로 Microsoft 365 관리 센터에서 Exchange Online 서비스의 상태와 같은 중요 한 정보를 확인 하 고 알림 변경 및 릴리스 알림을 받을 수 있습니다.
   
-다음은 사용자가 Exchange 관리 역할에 할당 될 때 수행할 수 있는 몇 가지 주요 작업입니다. 
+다음은 사용자가 Exchange 관리 역할에 할당 될 때 수행할 수 있는 몇 가지 주요 작업입니다.
   
 - [사용자 사서함에서 지운 편지함 복구 - 관리자 도움말](https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox)
     
 - [조직의 사서함에 대 한 보관 및 삭제 정책을 설정](https://docs.microsoft.com/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes)합니다.
     
-- 사서함 공유 정책과 같은 사서함 기능 설정: 사용자가 조직 외부의 다른 사용자와 일정 및 연락처 정보를 공유 하는 방법입니다. 
+- 사서함 공유 정책과 같은 사서함 기능 설정: 사용자가 조직 외부의 다른 사용자와 일정 및 연락처 정보를 공유 하는 방법입니다.
     
 - 다른 사용자의 사서함에 대해 "[다른 사람 이름으로 보내기](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)" 및 "[전자 메일 보내기](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)" 대리인을 설정 합니다. 예를 들어 중역은 도우미가 자신을 대신 하 여 메일을 보낼 수 있도록 할 수 있습니다. 
-    
-- 사용자 그룹이 일반 전자 메일 주소에서 전자 메일을 모니터링 하 고 보낼 수 있도록 [공유 사서함을 만듭니다](../email/create-a-shared-mailbox.md) . 
-    
-- 조직에 대 한 [스팸 방지 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-protection) 및 맬웨어 필터를 전자 메일로 전송 합니다. 
-    
+
+- 사용자 그룹이 일반 전자 메일 주소에서 전자 메일을 모니터링 하 고 보낼 수 있도록 [공유 사서함을 만듭니다](../email/create-a-shared-mailbox.md) .
+
+- 조직에 대 한 [스팸 방지 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-protection) 및 맬웨어 필터를 전자 메일로 전송 합니다.
+
 - Microsoft 365 그룹 관리
-    
+
 ## <a name="exchange-online-role-groups"></a>Exchange Online 역할 그룹
 
 대규모 조직이 있는 경우 Exchange 관리자가 Exchange 역할 그룹에 사용자를 할당 하려고 할 수 있습니다. 관리자가 역할 그룹에 사용자를 추가 하면 사용자는 해당 그룹의 구성원만 수행할 수 있는 특정 비즈니스 기능을 수행 하는 권한을 얻습니다.
@@ -63,3 +63,5 @@ Microsoft 365을 관리 하는 데 도움이 되도록 사용자에 게 [Exchang
 - [SharePoint Online 관리자 역할 정보](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)
 
 - [비즈니스용 Skype 관리자 역할 정보](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online)
+
+- [Microsoft 팀 관리자 역할 사용](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles) 

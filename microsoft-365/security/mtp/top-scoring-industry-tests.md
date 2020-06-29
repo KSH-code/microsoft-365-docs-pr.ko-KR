@@ -2,7 +2,7 @@
 title: 업계 테스트의 최고의 점수 (AV-테스트, AV 비교급과 최상급, SE Labs, MITRE AT&T&접시 머리)
 ms.reviewer: ''
 description: Microsoft Defender ATP는 독립 테스트에서 높은 점수를 지속적으로 달성 합니다. 최신 점수 및 분석을 확인 합니다.
-keywords: Windows Defender 바이러스 백신, av 검토, 바이러스 검사 테스트, av 테스트, 최신 av 점수, 검색 점수, 보안 제품 테스트, 보안 업계 테스트 업계 바이러스 백신 테스트, 가장 좋은 바이러스 백신, av-테스트, av-비교급과 최상급, SE, MITRE AT&T&접시, 끝점 보호 플랫폼, EPP, 끝점 검색 및 응답, EDR, Windows 10, Microsoft Defender Antivirus, WDAV, MDATP, Microsoft Threat Protection, 보안, 맬웨어, av, 바이러스 백신, 점수, 점수, 차세대 보호, 순위, 성공
+keywords: Microsoft Defender 바이러스 백신, Windows Defender 바이러스 백신, av 검토, 바이러스 백신 테스트, av 테스트, 최신 av 점수, 검색 점수, 보안 제품 테스트, 보안 업계 테스트 업계 바이러스 백신 테스트, 가장 좋은 바이러스 백신, av-테스트, av-비교급과 최상급, SE, MITRE AT&T&접시, 끝점 보호 플랫폼, EPP, 끝점 검색 및 응답, EDR, Windows 10, Microsoft Defender Antivirus, WDAV, MDATP, Microsoft Threat Protection, 보안, 맬웨어, av, 바이러스 백신, 점수, 점수, 차세대 보호, 순위, 성공
 ms.prod: w10
 ms.mktglfcycl: secure
 ms.sitesec: library
@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 10999a23ccaf3fbf5ee372cfdfe67428a5d1f74f
-ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
+ms.openlocfilehash: 6a3263154794ef8638c5c3c96709b61e67b9ec5a
+ms.sourcegitcommit: 7f765670cb6970fdf7ddbad464ed3f8fe704bfaf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44292685"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "44909279"
 ---
 # <a name="top-scoring-in-industry-tests"></a>업계 최고의 점수 테스트
 
@@ -41,20 +41,22 @@ MITRE의 테스트 접근 방식에 대 한 핵심은 실제 공격을 에뮬레
 
 ## <a name="next-generation-protection"></a>차세대 보호
 
-[Windows Defender 바이러스 백신](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10) 은 독립 된 테스트를 일관성 있게 수행 하며, 바이러스 백신 업계에서이 옵션이 최상위 선택 되는 방식을 표시 합니다. 이 테스트에서는 바이러스 백신에 대 한 결과만 제공 하며 추가 보안 보호에 대해서는 테스트 하지 않습니다.
+[Microsoft Defender 바이러스 백신](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) 은 독립 된 테스트를 일관성 있게 수행 하며, 바이러스 백신 업계에서이 옵션이 최상위 선택 되는 방식을 표시 합니다. 이 테스트에서는 바이러스 백신에 대 한 결과만 제공 하며 추가 보안 보호에 대해서는 테스트 하지 않습니다.
 
-Windows Defender 바이러스 백신은 현재 최신 및 가장 정교한 위협을 해결 하는 [Microsoft DEFENDER ATP Windows 10 보안 스택의](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) [차세대 보호](https://www.youtube.com/watch?v=Xy3MOxkX_o4) 기능입니다. 경우에 따라 [캠페인을 시작한 후](https://cloudblogs.microsoft.com/microsoftsecure/2018/03/07/behavior-monitoring-combined-with-machine-learning-spoils-a-massive-dofoil-coin-mining-campaign)에서는 사이버 공격과는 ms가 중단 되었기 때문에 고객은 보호 된 것으로 확인 되지 않을 수 있습니다. 이는 Windows Defender 바이러스 백신 및 기타 [endpoint protection platform (EPP)](https://www.microsoft.com/security/blog/2019/08/23/gartner-names-microsoft-a-leader-in-2019-endpoint-protection-platforms-magic-quadrant/) 기능이 [기계 학습](https://cloudblogs.microsoft.com/microsoftsecure/2018/06/07/machine-learning-vs-social-engineering), [인공 지능](https://cloudblogs.microsoft.com/microsoftsecure/2018/02/14/how-artificial-intelligence-stopped-an-emotet-outbreak), 행동 분석 및 기타 고급 기술로 처음으로 시야에서 맬웨어를 감지 하 고 중지 하기 때문입니다.
+Microsoft Defender 바이러스 백신은 현재 최신 및 가장 정교한 위협을 해결 하는 [Microsoft DEFENDER ATP Windows 10 보안 스택의](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) [차세대 보호](https://www.youtube.com/watch?v=Xy3MOxkX_o4) 기능입니다. 경우에 따라 [캠페인을 시작한 후](https://cloudblogs.microsoft.com/microsoftsecure/2018/03/07/behavior-monitoring-combined-with-machine-learning-spoils-a-massive-dofoil-coin-mining-campaign)에서는 사이버 공격과는 ms가 중단 되었기 때문에 고객은 보호 된 것으로 확인 되지 않을 수 있습니다. Microsoft defender 바이러스 백신 및 기타 [EPP (endpoint protection platform)](https://www.microsoft.com/security/blog/2019/08/23/gartner-names-microsoft-a-leader-in-2019-endpoint-protection-platforms-magic-quadrant/) 기능이 [기계 학습](https://cloudblogs.microsoft.com/microsoftsecure/2018/06/07/machine-learning-vs-social-engineering), [인공 지능](https://cloudblogs.microsoft.com/microsoftsecure/2018/02/14/how-artificial-intelligence-stopped-an-emotet-outbreak), 행동 분석 및 기타 고급 기술로 처음으로 시야에서 맬웨어를 감지 하 고 중지 하기 때문입니다.
 <br><br>
 
-**최신 투명도 보고서 다운로드: [업계 테스트 결과 검사, 11 월 2019](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4kagp)**
+**최신 투명도 보고서 다운로드: [AVT 테스트 결과 검토, 1 월-2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4AwWZ)**
 
 ### <a name="av-test-protection-score-of-5560-in-the-latest-test"></a>AV-테스트: 최신 테스트에서 5.5/6.0의 보호 점수
 
 AV 테스트 제품 검토 및 인증 보고서는 보호, 성능 및 유용성의 세 가지 범주를 테스트 합니다. 다음 점수는 실제 테스트와 AV-테스트 참조 집합 ("자주 사용 되는 맬웨어") 이라는 두 가지 점수가 있는 보호 범주에 대 한 것입니다.
 
-- 1 월 2020 — AV-테스트 비즈니스 사용자 테스트: [보호 점수 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/) <sup>**최신**</sup>
+- 3 월-2020 AV-테스트 비즈니스 사용자 테스트: [보호 점수 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/) <sup>**최신**</sup>
 
-    Windows Defender 바이러스 백신은 21008 맬웨어 샘플을 사용 하 여 5.5/6.0의 전체 보호 점수를 획득 했습니다.
+    Microsoft Defender 바이러스 백신은 20540 맬웨어 샘플을 사용 하 여 5.5/6.0의 전체 보호 점수를 획득 했습니다.
+
+- 1 월 2020 — AV-테스트 비즈니스 사용자 테스트: [보호 점수 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4AwWZ)
 
 - 11 월 2019 AV-테스트 비즈니스 사용자 테스트: [보호 점수 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/december-2019/microsoft-windows-defender-antivirus-4.18-195015/)
 
@@ -64,15 +66,15 @@ AV 테스트 제품 검토 및 인증 보고서는 보호, 성능 및 유용성�
 
 - 5 월 2019 AV-테스트 비즈니스 사용자 테스트: [보호 점수 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/june-2019/microsoft-windows-defender-antivirus-4.18-192415/)  |  [분석](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
 
-- 3 월-2019 AV-테스트 비즈니스 사용자 테스트: [보호 점수 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/april-2019/microsoft-windows-defender-antivirus-4.18-191517/)  |  [분석](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
-
-### <a name="av-comparatives-protection-rating-of-996-in-the-latest-test"></a>AV-비교급과 최상급: 최신 테스트에서 99.6%의 보호 평점
+### <a name="av-comparatives-protection-rating-of-995-in-the-latest-test"></a>AV-비교급과 최상급: 최신 테스트에서 99.5%의 보호 평점
 
 비즈니스 보안 테스트는 온라인 맬웨어 공격을 모방 하는 실제 보호 테스트, 맬웨어가 인터넷 외부에서 시스템에 들어간 맬웨어 보호 테스트, 시스템 성능에 미치는 영향을 확인 하는 성능 테스트의 세 가지 주요 부분으로 구성 됩니다.
 
-- 비즈니스 보안 테스트 2019 (8 월-11 월): [실제 보호 속도 99.6%](https://www.av-comparatives.org/tests/business-security-test-2019-august-november/) <sup>**최신**</sup>
+- Business Security Test 2020 Factsheet (3 월 — 4 월): [실제 보호 속도 99.5%](https://www.av-comparatives.org/tests/business-security-test-march-april-2020-factsheet/) <sup>**최신**</sup>
 
-    Windows Defender 바이러스 백신은 지난 해 동안의 실제 보호 속도에서 지속적으로 높은 점수를 획득 했으며, 99.6%는 최신 테스트를 진행 하 고 있습니다.
+    Microsoft Defender Antivirus는 지난 해 동안의 실제 보호 속도에서 지속적으로 높은 점수를 획득 했으며, 99.5%는 최신 테스트를 진행 합니다.
+
+- 비즈니스 보안 테스트 2019 (8 월-11 월): [실제 보호 속도 99.6%](https://www.av-comparatives.org/tests/business-security-test-2019-august-november/) 
 
 - 비즈니스 보안 테스트 2019 Factsheet (9 월): [실제 보호 속도 99.9%](https://www.av-comparatives.org/tests/business-security-test-august-september-2019-factsheet/)  |  [분석](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4kagp)
 
@@ -110,7 +112,7 @@ MITRE는 대상 공격 그룹 APT3 (Boron 또는 UPS 라고도 함)에서 일반
 
 독립적인 보안 업계 테스트는 가장 적합 한 바이러스 백신 및 보안 제품을 비편향 방식으로 평가 하기 위한 것입니다. 그러나 Microsoft는이 항목에 강조 표시 된 평가에서 테스트 한 것 보다 더 광범위 하 고 광범위 한 위협 집합을 보게 된다는 점을 유의 해야 합니다. 예를 들어 Microsoft의 보안 제품에서 1억 개 이상의 새로운 위협을 식별 합니다. 독립 테스터가 이러한 위협의 1%를 획득 하 고 테스트할 수도 있지만,이는 20 개 또는 30 개 제품에서 100만 가지 테스트를 한 것입니다. 즉, 맬웨어 가로의 vastness 실제 위협 으로부터 보호 품질을 평가 하기가 매우 어려워집니다.
 
-Microsoft Defender ATP 내의 기능은 업계 바이러스 백신 테스트에 포함 되지 않는 [추가 보호 계층](https://cloudblogs.microsoft.com/microsoftsecure/2017/12/11/detonating-a-bad-rabbit-windows-defender-antivirus-and-layered-machine-learning-defenses) 을 제공 하며, 최신 및 가장 복잡 한 위협 중 일부를 해결 합니다. Microsoft의 나머지에서 AV를 격리 하면 실제 보안 스택이 작동 하는 방식에 대 한 부분 그림이 생성 됩니다. 예를 들어 공격 노출 영역 절감 및 끝점 검색 & 응답 기능은 맬웨어가 장치에 저장 되지 않도록 하는 데 도움이 될 수 있습니다. [Microsoft DEFENDER ATP 구성 요소](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2ouJA) 는 이러한 업계 테스트에서 Windows Defender 바이러스 백신이 누락 된 샘플을 포착 하며 microsoft의 보안 제품군이 실제로 실제 고객을 보호 하는 방법에 대해 자세히 설명 합니다.
+Microsoft Defender ATP 내의 기능은 업계 바이러스 백신 테스트에 포함 되지 않는 [추가 보호 계층](https://cloudblogs.microsoft.com/microsoftsecure/2017/12/11/detonating-a-bad-rabbit-windows-defender-antivirus-and-layered-machine-learning-defenses) 을 제공 하며, 최신 및 가장 복잡 한 위협 중 일부를 해결 합니다. Microsoft의 나머지에서 AV를 격리 하면 실제 보안 스택이 작동 하는 방식에 대 한 부분 그림이 생성 됩니다. 예를 들어 공격 노출 영역 절감 및 끝점 검색 & 응답 기능은 맬웨어가 장치에 저장 되지 않도록 하는 데 도움이 될 수 있습니다. [Microsoft DEFENDER ATP 구성 요소](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2ouJA) 는 이러한 업계 테스트에서 Microsoft Defender 바이러스 백신이 누락 된 샘플을 포착 하며 microsoft의 보안 제품군이 실제로 실제 고객을 보호 하는 방법에 대해 자세히 설명 합니다.
 
 Microsoft defender atp에 대해 자세히 [알아보고](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) [microsoft defender atp에서 90 일 평가판](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp)에 등록 하거나 [기존 테 넌 트에서 미리 보기 기능을 사용 하도록 설정](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/preview)하 여 자체 네트워크에서 평가 합니다.
 
