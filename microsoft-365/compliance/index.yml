@@ -3,7 +3,7 @@ title: Microsoft 365 규정 준수 설명서
 summary: 조직에서 법률 또는 규제 표준을 준수해야 하는 경우 Microsoft 365의 준수에 대해 자세히 알아보려면 여기를 시작하세요.
 metadata:
   title: Microsoft 365 규정 준수 설명서
-  description: 이 페이지에는 Microsoft 365 준수 기능과 관련 된 몇 가지 중요 한 항목에 대 한 링크가 포함 되어 있습니다. Microsoft 365의 준수에 대해 자세히 알아보려면 여기에서 시작 합니다.
+  description: 이 페이지에는 Microsoft 365 규정 준수 기능과 관련한 몇 가지 중요한 링크가 포함되어 있습니다. Microsoft 365의 규정 준수에 대한 자세한 내용은 여기에서 시작 하세요.
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -15,7 +15,7 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: 7346a0d1abf0f8b643716d138efaaa269f35a2c5
   ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ko-KR
   ms.lasthandoff: 06/19/2020
   ms.locfileid: "44817557"
