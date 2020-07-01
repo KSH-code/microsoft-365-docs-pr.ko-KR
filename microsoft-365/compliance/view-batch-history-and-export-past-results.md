@@ -15,57 +15,57 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 35d52b41-75ab-4144-9edf-31e11453bd5d
-description: '선택 된 내보내기 배치 세션에 대 한 자세한 정보를 확인 하는 방법과 Advanced eDiscovery에서 마지막 내보내기 세션을 실행 취소 하는 방법에 대해 알아봅니다.  '
+description: 선택 된 내보내기 배치 세션에 대 한 자세한 정보를 확인 하는 방법과 Advanced eDiscovery에서 마지막 내보내기 세션을 실행 취소 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 498cd5d0fbeea4902a0992e8210666884a308f72
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: b142c5d582b9a7bb84dd518325369e4b1adccf69
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819058"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936191"
 ---
-# <a name="view-batch-history-and-export-past-results-in-advanced-ediscovery-classic"></a><span data-ttu-id="ecc56-103">고급 eDiscovery에서 일괄 처리 기록 보기 및 이전 결과 내보내기 (클래식)</span><span class="sxs-lookup"><span data-stu-id="ecc56-103">View batch history and export past results in Advanced eDiscovery (classic)</span></span>
+# <a name="view-batch-history-and-export-past-results-in-advanced-ediscovery-classic"></a><span data-ttu-id="99d72-103">고급 eDiscovery에서 일괄 처리 기록 보기 및 이전 결과 내보내기 (클래식)</span><span class="sxs-lookup"><span data-stu-id="99d72-103">View batch history and export past results in Advanced eDiscovery (classic)</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ecc56-104">Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization.</span><span class="sxs-lookup"><span data-stu-id="ecc56-104">Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization.</span></span> <span data-ttu-id="ecc56-105">If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).</span><span class="sxs-lookup"><span data-stu-id="ecc56-105">If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).</span></span> 
+> <span data-ttu-id="99d72-104">Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization.</span><span class="sxs-lookup"><span data-stu-id="99d72-104">Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization.</span></span> <span data-ttu-id="99d72-105">If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).</span><span class="sxs-lookup"><span data-stu-id="99d72-105">If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).</span></span> 
   
-<span data-ttu-id="ecc56-106">다음 섹션에서는 고급 eDiscovery의 데이터 일괄 보기 및 내보내기에 대 한 추가 옵션을 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="ecc56-106">The following section describes additional options for batch viewing and export of data in Advanced eDiscovery.</span></span> 
+<span data-ttu-id="99d72-106">다음 섹션에서는 고급 eDiscovery의 데이터 일괄 보기 및 내보내기에 대 한 추가 옵션을 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="99d72-106">The following section describes additional options for batch viewing and export of data in Advanced eDiscovery.</span></span> 
   
-## <a name="viewing-export-batch-history-and-exporting-previous-batches"></a><span data-ttu-id="ecc56-107">내보내기 배치 내역 보기 및 이전 일괄 처리 내보내기</span><span class="sxs-lookup"><span data-stu-id="ecc56-107">Viewing Export batch history and exporting previous batches</span></span>
+## <a name="viewing-export-batch-history-and-exporting-previous-batches"></a><span data-ttu-id="99d72-107">내보내기 배치 내역 보기 및 이전 일괄 처리 내보내기</span><span class="sxs-lookup"><span data-stu-id="99d72-107">Viewing Export batch history and exporting previous batches</span></span>
 
-<span data-ttu-id="ecc56-108">내보내기 기록 대화 상자에는 선택한 배치 내보내기 세션에 대 한 자세한 정보와 마지막 세션을 실행 취소 하는 기능도 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ecc56-108">The Export history dialog provides detailed information of selected export batch sessions and also provides the ability to undo the last session.</span></span>
+<span data-ttu-id="99d72-108">내보내기 기록 대화 상자에는 선택한 배치 내보내기 세션에 대 한 자세한 정보와 마지막 세션을 실행 취소 하는 기능도 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="99d72-108">The Export history dialog provides detailed information of selected export batch sessions and also provides the ability to undo the last session.</span></span>
   
-1. <span data-ttu-id="ecc56-109">**내보내기 \> 설정**의 **내보내기 일괄 처리** 드롭다운 목록에서 일괄 처리 이름을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ecc56-109">In **Export \> Setup**, select the batch name from the **Export batch** drop-down list.</span></span> 
+1. <span data-ttu-id="99d72-109">**내보내기 \> 설정**의 **내보내기 일괄 처리** 드롭다운 목록에서 일괄 처리 이름을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="99d72-109">In **Export \> Setup**, select the batch name from the **Export batch** drop-down list.</span></span> 
     
-2. <span data-ttu-id="ecc56-110">내보내기 일괄 처리 이름 오른쪽에 있는 **일괄 처리 기록** 아이콘을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ecc56-110">To the right of the export batch name, select the **Batch history** icon:</span></span> 
+2. <span data-ttu-id="99d72-110">내보내기 일괄 처리 이름 오른쪽에 있는 **일괄 처리 기록** 아이콘을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="99d72-110">To the right of the export batch name, select the **Batch history** icon:</span></span> 
     
     ![내보내기 배치 내역 아이콘](../media/a14f6ef9-0c3c-4851-b65d-9380f2d8a38a.gif)
   
-    <span data-ttu-id="ecc56-112">일괄 처리 기록 대화 상자가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ecc56-112">The Batch history dialog is displayed.</span></span>
+    <span data-ttu-id="99d72-112">일괄 처리 기록 대화 상자가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="99d72-112">The Batch history dialog is displayed.</span></span>
     
     ![내보내기 배치 내역](../media/04c5b75c-348c-491d-b4fe-716659333890.png)
   
-3. <span data-ttu-id="ecc56-114">이전 세션을 롤백하는 데 필요한 경우 **마지막 세션 실행 취소**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="ecc56-114">If it is necessary to roll back a previous session, click **Undo last session**.</span></span> <span data-ttu-id="ecc56-115">롤백을 여러 번 수행 하 여 마지막 세션을 취소할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ecc56-115">Rollback can be performed multiple times, which cancels the last session.</span></span>
+3. <span data-ttu-id="99d72-114">이전 세션을 롤백하는 데 필요한 경우 **마지막 세션 실행 취소**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="99d72-114">If it is necessary to roll back a previous session, click **Undo last session**.</span></span> <span data-ttu-id="99d72-115">롤백을 여러 번 수행 하 여 마지막 세션을 취소할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="99d72-115">Rollback can be performed multiple times, which cancels the last session.</span></span>
     
-4. <span data-ttu-id="ecc56-116">이전에 실행 한 내보내기 일괄 처리 세션에서 언제 든 지 데이터를 다운로드 하려면 **Download** ![ ](../media/de69b920-a6ac-4ddb-b93e-e1cc5888e6c4.gif) 내보낼 원하는 내보내기 일괄 처리 옆에 있는 다운로드 아이콘 내보내기 다운로드 아이콘을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="ecc56-116">If you want to download data at any time from a previously executed export batch session, click the **Download** icon ![Export batch history download icon](../media/de69b920-a6ac-4ddb-b93e-e1cc5888e6c4.gif) next to the desired export batch to be exported.</span></span> 
+4. <span data-ttu-id="99d72-116">이전에 실행 한 내보내기 일괄 처리 세션에서 언제 든 지 데이터를 다운로드 하려면 **Download** ![ ](../media/de69b920-a6ac-4ddb-b93e-e1cc5888e6c4.gif) 내보낼 원하는 내보내기 일괄 처리 옆에 있는 다운로드 아이콘 내보내기 다운로드 아이콘을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="99d72-116">If you want to download data at any time from a previously executed export batch session, click the **Download** icon ![Export batch history download icon](../media/de69b920-a6ac-4ddb-b93e-e1cc5888e6c4.gif) next to the desired export batch to be exported.</span></span> 
     
-5. <span data-ttu-id="ecc56-117">**공유 액세스 서명** 대화 상자가 표시 되 면 **클립보드에 복사** 를 클릭 하 여 내보내기 세션 데이터를 로컬 컴퓨터로 복사한 다음 **닫기를**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="ecc56-117">When the **Shared access signature** dialog is displayed, click **Copy to clipboard** to copy the export session data to the local machine, and then click **Close**.</span></span> <span data-ttu-id="ecc56-118">보안 및 &amp; 준수 센터 **EDiscovery 내보내기 도구** 대화 상자가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ecc56-118">The Security &amp; Compliance Center **eDiscovery Export Tool** dialog is displayed.</span></span> 
+5. <span data-ttu-id="99d72-117">**공유 액세스 서명** 대화 상자가 표시 되 면 **클립보드에 복사** 를 클릭 하 여 내보내기 세션 데이터를 로컬 컴퓨터로 복사한 다음 **닫기를**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="99d72-117">When the **Shared access signature** dialog is displayed, click **Copy to clipboard** to copy the export session data to the local machine, and then click **Close**.</span></span> <span data-ttu-id="99d72-118">보안 및 &amp; 준수 센터 **EDiscovery 내보내기 도구** 대화 상자가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="99d72-118">The Security &amp; Compliance Center **eDiscovery Export Tool** dialog is displayed.</span></span> 
     
     ![EDiscovery 대화 내보내기](../media/01f79d2d-6da0-45e6-9c6f-ab12347572cb.gif)
   
-6. <span data-ttu-id="ecc56-120">**EDiscovery 내보내기 도구** 대화 상자에서 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="ecc56-120">In the **eDiscovery Export Tool** dialog:</span></span> 
+6. <span data-ttu-id="99d72-120">**EDiscovery 내보내기 도구** 대화 상자에서 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="99d72-120">In the **eDiscovery Export Tool** dialog:</span></span> 
     
-1. <span data-ttu-id="ecc56-121">**원본에 연결 하는 데 사용할 공유 액세스 서명 붙여넣기**에서 이전에 클립보드에 복사 된 **공유 액세스** 서명 값을 붙여 넣습니다.</span><span class="sxs-lookup"><span data-stu-id="ecc56-121">In **Paste the Shared Access Signature that will be used to connect to the source**, paste the **Shared access signature** value, which was previously copied to the clipboard.</span></span> 
+1. <span data-ttu-id="99d72-121">**원본에 연결 하는 데 사용할 공유 액세스 서명 붙여넣기**에서 이전에 클립보드에 복사 된 **공유 액세스** 서명 값을 붙여 넣습니다.</span><span class="sxs-lookup"><span data-stu-id="99d72-121">In **Paste the Shared Access Signature that will be used to connect to the source**, paste the **Shared access signature** value, which was previously copied to the clipboard.</span></span> 
     
-2. <span data-ttu-id="ecc56-122">**찾아보기를** 클릭 하 여 다운로드 한 내보내기 파일을 로컬 컴퓨터에 저장할 대상 위치를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ecc56-122">Click **Browse** to select the target location for storing the downloaded export files on a local machine.</span></span> 
+2. <span data-ttu-id="99d72-122">**찾아보기를** 클릭 하 여 다운로드 한 내보내기 파일을 로컬 컴퓨터에 저장할 대상 위치를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="99d72-122">Click **Browse** to select the target location for storing the downloaded export files on a local machine.</span></span> 
     
-3. <span data-ttu-id="ecc56-123">**시작**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="ecc56-123">Click **Start**.</span></span> <span data-ttu-id="ecc56-124">내보내기 파일이 로컬 컴퓨터로 다운로드 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ecc56-124">The export files are downloaded to the local machine.</span></span> 
+3. <span data-ttu-id="99d72-123">**시작**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="99d72-123">Click **Start**.</span></span> <span data-ttu-id="99d72-124">내보내기 파일이 로컬 컴퓨터로 다운로드 됩니다.</span><span class="sxs-lookup"><span data-stu-id="99d72-124">The export files are downloaded to the local machine.</span></span> 
     
-## <a name="related-topics"></a><span data-ttu-id="ecc56-125">관련 항목</span><span class="sxs-lookup"><span data-stu-id="ecc56-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="99d72-125">관련 항목</span><span class="sxs-lookup"><span data-stu-id="99d72-125">Related topics</span></span>
 
-[<span data-ttu-id="ecc56-126">고급 eDiscovery (클래식)</span><span class="sxs-lookup"><span data-stu-id="ecc56-126">Advanced eDiscovery (classic)</span></span>](office-365-advanced-ediscovery.md)
+[<span data-ttu-id="99d72-126">고급 eDiscovery (클래식)</span><span class="sxs-lookup"><span data-stu-id="99d72-126">Advanced eDiscovery (classic)</span></span>](office-365-advanced-ediscovery.md)
   
-[<span data-ttu-id="ecc56-127">결과 내보내기</span><span class="sxs-lookup"><span data-stu-id="ecc56-127">Exporting results </span></span>](export-results-in-advanced-ediscovery.md)
+[<span data-ttu-id="99d72-127">결과 내보내기</span><span class="sxs-lookup"><span data-stu-id="99d72-127">Exporting results </span></span>](export-results-in-advanced-ediscovery.md)
 
-[<span data-ttu-id="ecc56-128">보고서 필드 내보내기</span><span class="sxs-lookup"><span data-stu-id="ecc56-128">Export report fields</span></span>](export-report-fields-in-advanced-ediscovery.md)
+[<span data-ttu-id="99d72-128">보고서 필드 내보내기</span><span class="sxs-lookup"><span data-stu-id="99d72-128">Export report fields</span></span>](export-report-fields-in-advanced-ediscovery.md)
 
