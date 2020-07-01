@@ -14,18 +14,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 03cc4387-2c7d-4058-8a44-0deefb58f011
-description: '고급 eDiscovery에 태그를 지정 하는 동안 관련 파일을 식별 하는 데 도움이 되는 사용자 정의 키워드와 관련성을 추가 하는 방법을 설명 하 고 비용 매개 변수  '
-ms.openlocfilehash: b36032c148e5819440bc31cbf4692db51abf1add
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 고급 eDiscovery에 태그를 지정 하는 동안 관련 파일을 식별 하는 데 도움이 되는 사용자 정의 키워드와 관련성을 추가 하는 방법을 설명 하 고 비용 매개 변수
+ms.openlocfilehash: 61ec74109f13d8056047e0aaf14aaa87c846e17f
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630555"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936457"
 ---
 # <a name="define-highlighted-keywords-and-advanced-options-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 강조 표시 된 키워드 및 고급 옵션 정의 (클래식)
 
 > [!NOTE]
-> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 고급 eDiscovery에서는 태그를 지정 하는 동안 관련 파일을 식별 하는 데 도움이 되도록 사용자 정의 키워드를 관련성에 추가할 수 있습니다. 키워드는 **관련성 \> 태그**의 지정 된 색에 표시 됩니다. 
   
@@ -36,7 +36,7 @@ ms.locfileid: "43630555"
   
 ## <a name="adding-highlighted-keywords"></a>강조 표시 된 키워드 추가
 
-1. ** \> 관련성 관련성 설정** 탭에서 **강조 표시 된 키워드**를 선택 합니다.
+1. **관련성 \> 관련성 설정** 탭에서 **강조 표시 된 키워드**를 선택 합니다.
     
 2. 키워드를 **+** 추가 하려면 아이콘을 클릭 합니다. **새 키워드 추가** 대화 상자가 표시 됩니다. 
     
@@ -54,7 +54,7 @@ ms.locfileid: "43630555"
     
     ![관련성 설정 키워드 목록](../media/a05d5ec0-8bde-470d-97e2-456b169281d6.png)
   
-사용자 정의 키워드는 관련성 \> 태그의 지정 된 색에 표시 됩니다. 
+사용자 정의 키워드는 관련성 태그의 지정 된 색에 표시 됩니다 \> . 
   
 ## <a name="specifying-relevance-setup-advanced-settings"></a>관련성 설정 고급 설정 지정
 

@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 39815140d223d95275e03b0e85b931699bd69f7e
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: d35179d38277ada22db9bc7ad879f1f7405a9aec
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919715"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936863"
 ---
 # <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-exchange-and-yammer-communications"></a>사례 연구-Contoso는 Microsoft 팀, Exchange 및 Yammer 통신에 대 한 비속어 (공격적인 언어 정책)를 빠르게 구성 합니다.
 
@@ -39,7 +39,7 @@ Contoso Corporation은 공격적인 언어를 모니터링 하도록 정책을 �
 - 3 단계-필수 구성 요소 구성 및 통신 준수 정책 만들기
 - 4 단계-알림 조사 및 업데이트 관리
 
-## <a name="step-1---planning-for-communication-compliance"></a>1 단계-통신 준수 계획
+## <a name="step-1-planning-for-communication-compliance"></a>1 단계: 통신 준수 계획
 
 Contoso IT administrators 및 규정 준수 전문가는 Microsoft 365의 규정 준수 솔루션에 대 한 온라인 웹 세미나 통신 준수 정책을 통해 작업 공간 harassment를 줄이기 위한 업데이트 된 회사 정책 요구 사항을 충족 하도록 했습니다. 공동 작업에서는 Microsoft 팀, 개인 메시지 및 커뮤니티 대화, 그리고 Exchange Online에서 전송 되는 전자 메일 메시지에서 보낸 채팅에 대 한 악의적인 언어를 모니터링 하는 통신 준수 정책을 만들고 사용 하도록 설정 하는 계획을 개발 했습니다. 계획에는 다음이 포함 됩니다.
 
@@ -71,7 +71,7 @@ Contoso IT administrators 및 규정 준수 전문가는 Microsoft 365의 규정
 
 Contoso IT 관리자는 다음 단계를 수행 하 여 Contoso에 대 한 라이선스 지원을 확인 합니다.
 
-1. IT 관리자가 **microsoft 365 관리 센터** [https://admin.microsoft.com) ](https://admin.microsoft.com) 에 로그인 하 고 **microsoft 365 관리 센터** > **청구** > **라이선스로**이동 합니다.
+1. IT 관리자가 **microsoft 365 관리 센터** [ https://admin.microsoft.com) ](https://admin.microsoft.com) 에 로그인 하 고 **microsoft 365 관리 센터**  >  **청구**  >  **라이선스로**이동 합니다.
 
 2. 여기서는 통신 준수에 대 한 지원을 포함 하는 [라이선스 옵션](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure?view=o365-worldwide#before-you-begin) 중 하나가 있는지 확인 합니다.
 
@@ -81,7 +81,7 @@ Contoso IT 관리자는 다음 단계를 수행 하 여 Contoso에 대 한 라�
 
 기본적으로 전역 관리자는 통신 준수 기능에 액세스할 수 없습니다. Contoso IT 관리자 및 준수 전문가가 통신 준수에 액세스할 수 있도록 [사용 권한을 구성 해야 합니다](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure?view=o365-worldwide#step-1-required-enable-permissions-for-communication-compliance) .
 
-1. Contoso IT 관리자는 **Office 365 보안 및 준수 센터** 사용 권한 페이지 (전역 관리자 계정의 자격 증명을 사용 하 여 [)https://protection.office.com/permissions) ](https://protection.office.com/permissions) 에 로그인 하 고 Microsoft 365에서 역할을 확인 하 고 관리 하는 링크를 선택 합니다.
+1. Contoso IT 관리자는 **Office 365 보안 및 준수 센터** 사용 권한 페이지 (전역 관리자 계정의 자격 증명을 사용 하 여 [) https://protection.office.com/permissions) ](https://protection.office.com/permissions) 에 로그인 하 고 Microsoft 365에서 역할을 확인 하 고 관리 하는 링크를 선택 합니다.
 2. Create ( **만들기**)를 선택 하면 새 역할 그룹에 "*통신 준수*" 라는 이름이 지정 되 고 **Next (다음**)가 선택 됩니다.
 3. **역할 선택을** 선택한 다음 **추가**를 선택 합니다. *관리 검토 관리자*, *사례 관리*, *준수 관리자*및 *검토*에 대 한 확인란을 선택 하 여 필요한 역할을 추가한 후에 **추가**, **완료,** **다음**을 차례로 선택 합니다.
 
@@ -92,7 +92,7 @@ Contoso IT 관리자는 다음 단계를 수행 하 여 Contoso에 대 한 라�
 
 ![통신 준수 검토](../media/communication-compliance-case-review.png)
 
-## <a name="step-2---accessing-communication-compliance-in-microsoft-365"></a>2 단계-Microsoft 365의 통신 준수에 액세스
+## <a name="step-2-accessing-communication-compliance-in-microsoft-365"></a>2 단계: Microsoft 365의 통신 준수에 액세스
 
 통신 준수에 대 한 사용 권한을 구성 하 고 나면 새 역할 그룹에 정의 된 Contoso IT 관리자 및 준수 전문가가 Microsoft 365의 통신 준수 솔루션에 액세스할 수 있습니다. Contoso IT 관리자 및 준수 전문가는 통신 준수에 액세스 하 고 새 정책 만들기를 시작할 수 있는 몇 가지 방법을 제공 합니다.
 
@@ -103,13 +103,13 @@ Contoso IT 관리자는 다음 단계를 수행 하 여 Contoso에 대 한 라�
 
 ### <a name="starting-directly-from-the-communication-compliance-solution"></a>통신 준수 솔루션에서 직접 시작
 
-솔루션에 액세스 하는 가장 빠른 방법은 **Communication 준수** (<https://compliance.microsoft.com/supervisoryreview>) 솔루션에 직접 로그인 하는 것입니다. 이 링크를 사용 하 여 Contoso IT 관리자 및 준수 전문가는 알림 상태를 빠르게 검토 하 고 미리 정의 된 템플릿에서 새 정책을 만들 수 있는 통신 준수 개요 대시보드로 향합니다.
+솔루션에 액세스 하는 가장 빠른 방법은 **Communication 준수** () 솔루션에 직접 로그인 하는 것입니다 <https://compliance.microsoft.com/supervisoryreview> . 이 링크를 사용 하 여 Contoso IT 관리자 및 준수 전문가는 알림 상태를 빠르게 검토 하 고 미리 정의 된 템플릿에서 새 정책을 만들 수 있는 통신 준수 개요 대시보드로 향합니다.
 
 ![통신 준수 개요](../media/communication-compliance-case-overview.png)
 
 ### <a name="starting-from-the-microsoft-365-compliance-center"></a>Microsoft 365 준수 센터에서 시작
 
-Contoso IT 관리자 및 준수 전문가가 통신 준수 솔루션에 액세스 하는 또 다른 쉬운 방법은 **Microsoft 365 준수 센터** [()https://compliance.microsoft.com)](https://compliance.microsoft.com)에 직접 로그인 하는 것입니다. 로그인 한 후에는 모든 준수 솔루션을 표시 하려면 **모두 표시** 컨트롤을 선택 하 고 시작 하려면 **통신 준수** 솔루션을 선택 하기만 하면 됩니다.
+Contoso IT 관리자 및 준수 전문가가 통신 준수 솔루션에 액세스 하는 또 다른 쉬운 방법은 **Microsoft 365 준수 센터** [() https://compliance.microsoft.com) ](https://compliance.microsoft.com)에 직접 로그인 하는 것입니다. 로그인 한 후에는 모든 준수 솔루션을 표시 하려면 **모두 표시** 컨트롤을 선택 하 고 시작 하려면 **통신 준수** 솔루션을 선택 하기만 하면 됩니다.
 
 ![준수 센터](../media/communication-compliance-case-center.png)
 
@@ -121,7 +121,7 @@ Contoso IT 관리자 및 규정 준수 전문가는 Microsoft 365 솔루션 카�
 
 ### <a name="starting-from-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 시작
 
-Microsoft 365 [관리 센터에서https://admin.microsoft.com) ](https://admin.microsoft.com) 시작할 때의 통신 준수에 액세스 하려면 Contoso IT 관리자 및 준수 전문가가 microsoft 365 관리 센터에 로그인 하 고 **microsoft 365 관리 센터** > **규정 준수**로 이동 합니다.
+Microsoft 365 [관리 센터 https://admin.microsoft.com) 에서](https://admin.microsoft.com) 시작할 때의 통신 준수에 액세스 하려면 Contoso IT 관리자 및 준수 전문가가 microsoft 365 관리 센터에 로그인 하 고 **microsoft 365 관리 센터**  >  **규정 준수**로 이동 합니다.
 
 ![통신 준수 링크](../media/communication-compliance-case-compliance-link.png)
 
@@ -137,7 +137,7 @@ Microsoft 365 [관리 센터에서https://admin.microsoft.com) ](https://admin.m
 
 ![통신 준수 개요](../media/communication-compliance-case-overview.png)
 
-## <a name="step-3---configuring-prerequisites-and-creating-a-communication-compliance-policy"></a>3 단계-필수 구성 요소 구성 및 통신 준수 정책 만들기
+## <a name="step-3-configuring-prerequisites-and-creating-a-communication-compliance-policy"></a>3 단계: 필수 구성 요소 구성 및 통신 준수 정책 만들기
 
 통신 준수 정책을 시작 하려면 Contoso IT 관리자가 공격적인 언어를 모니터링 하기 위해 새 정책을 설정 하기 전에 구성 해야 하는 몇 가지 필수 구성 요소가 있습니다. 이러한 필수 구성 요소가 완료 되 면 Contoso IT 관리자 및 준수 전문가가 새 정책을 구성 하 고, 규정 준수 전문가는 조사를 시작 하 고 생성 된 모든 경고를 수정 수 있습니다.
 
@@ -159,12 +159,12 @@ Contoso 준수 전문가가 공격적인 언어를 모니터링할 통신 정책
 
 모든 Contoso 직원을 포함 하기 위해 새 그룹을 만들어야 하는 경우 다음 단계를 수행 해야 합니다.
 
-1. Contoso it 관리자는 **microsoft 365 관리 센터** [https://admin.microsoft.com) ](https://admin.microsoft.com) 에 로그인 하 고 **microsoft 365 관리 센터** > **그룹** > **그룹**으로 이동 합니다.
+1. Contoso it 관리자는 **microsoft 365 관리 센터** [ https://admin.microsoft.com) ](https://admin.microsoft.com) 에 로그인 하 고 **microsoft 365 관리 센터**  >  **그룹**  >  **그룹**으로 이동 합니다.
 2. **그룹 추가** 를 선택 하 고 마법사를 완료 하 여 새 *Microsoft 365 그룹* 또는 *메일 그룹*을 만듭니다.
 
 ![그룹](../media/communication-compliance-case-all-employees.png)
 
-3. 새 그룹을 만든 후에는 모든 Contoso 사용자를 새 그룹에 추가 해야 합니다. **Exchange 관리 센터** [https://outlook.office365.com/ecp) 를 열고](https://outlook.office365.com/ecp) **exchange 관리 센터** > **받는 사람** > **그룹**으로 이동 합니다. Contoso IT 관리자는 구성원 영역 및 새로 만든 *모든 직원* 그룹을 선택 하 고 **편집** 컨트롤을 선택 하 여 마법사에서 새 그룹에 모든 Contoso 직원을 추가 합니다.
+3. 새 그룹을 만든 후에는 모든 Contoso 사용자를 새 그룹에 추가 해야 합니다. **Exchange 관리 센터** [ https://outlook.office365.com/ecp) 를 열고](https://outlook.office365.com/ecp) **exchange 관리 센터**  >  **받는 사람**  >  **그룹**으로 이동 합니다. Contoso IT 관리자는 구성원 영역 및 새로 만든 *모든 직원* 그룹을 선택 하 고 **편집** 컨트롤을 선택 하 여 마법사에서 새 그룹에 모든 Contoso 직원을 추가 합니다.
 
 ![Exchange 관리 센터](../media/communication-compliance-case-eac.png)
 
@@ -181,7 +181,7 @@ Contoso 준수 전문가가 공격적인 언어를 모니터링할 통신 정책
 
 ![원하지 않는 통신 준수 언어 마법사](../media/communication-compliance-case-wizard.png)
 
-## <a name="step-4--investigate-and-remediate-alerts"></a>4 단계-알림 조사 및 수정
+## <a name="step-4-investigate-and-remediate-alerts"></a>4 단계: 알림 검사 및 수정
 
 이제 공격적인 언어를 모니터링 하기 위한 통신 준수 정책이 구성 되었으므로 Contoso 준수 전문가의 다음 단계는 정책에 의해 생성 된 경고를 조사 하 고 수정 하는 것입니다. 정책이 모든 통신 원본 채널의 통신을 완벽 하 게 처리 하 고 경고 **대시보드에**경고가 표시 되는 데 최대 24 시간이 소요 됩니다.
 

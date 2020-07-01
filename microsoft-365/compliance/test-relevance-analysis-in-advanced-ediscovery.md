@@ -15,18 +15,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 1b092f7c-ea55-44f5-b419-63f3458fd7e0
-description: 'Advanced eDiscovery의 일괄 계산 후 테스트 탭을 사용 하 여 전체 처리 품질을 테스트 및 비교 하 고 유효성을 검사 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: 67b480ea340dace4cab0b038d678b6d005bf545b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Advanced eDiscovery의 일괄 계산 후 테스트 탭을 사용 하 여 전체 처리 품질을 테스트 및 비교 하 고 유효성을 검사 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: c5a885b3483b9ce319fffefa55037c0c2c8f3c85
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637202"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936211"
 ---
 # <a name="test-relevance-analysis-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 관련성 분석 테스트 (클래식)
 
 > [!NOTE]
-> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 고급 eDiscovery의 테스트 탭에서는 전체 처리 품질을 테스트 및 비교 하 고 유효성을 검사할 수 있습니다. 이러한 테스트는 일괄 계산 후에 수행 됩니다. 전문가는 컬렉션의 파일에 태그를 지정 하 여 태그 있는 각 파일이 실제로 대/소문자와 관련성이 있는지 여부를 최종 판단 합니다. 
   
@@ -62,7 +62,7 @@ ms.locfileid: "43637202"
     
 9. **태그 지정 시작**을 클릭 합니다. 테스트 샘플이 생성 됩니다.
     
-10. ** \> 관련성 태그** 탭에서 각 파일을 검토 하 고 태그를 만들었으면 완료 되 면 **계산**을 클릭 합니다.
+10. **관련성 \> 태그** 탭에서 각 파일을 검토 하 고 태그를 만들었으면 완료 되 면 **계산**을 클릭 합니다.
     
 11. 테스트 탭에서 **결과 보기** 를 클릭 하 여 테스트 결과를 볼 수 있습니다. 다음 그림에 예가 나와 있습니다. 
     
@@ -106,7 +106,7 @@ ms.locfileid: "43637202"
     
 9. **태그 지정 시작**을 클릭 합니다. 테스트 샘플이 생성 됩니다.
     
-10. ** \> 관련성 태그** 탭에서 각 파일을 검토 하 고 태그를 만들었으면 완료 되 면 **계산**을 클릭 합니다. 
+10. **관련성 \> 태그** 탭에서 각 파일을 검토 하 고 태그를 만들었으면 완료 되 면 **계산**을 클릭 합니다. 
     
 11. 테스트 탭에서 **결과 보기** 를 클릭 하 여 테스트 결과를 볼 수 있습니다. 
     

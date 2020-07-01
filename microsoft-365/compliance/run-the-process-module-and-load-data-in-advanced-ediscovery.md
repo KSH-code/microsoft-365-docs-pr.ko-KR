@@ -15,14 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: c87bb0e5-301c-4d1d-958e-aabeb7990f44
-description: '보안 및 준수 센터를 사용 하 여 &amp; Advanced eDiscovery에 액세스 하 고 서비스 케이스에 대해 프로세스 모듈을 실행 하는 방법을 알아봅니다.  '
+description: 보안 및 준수 센터를 사용 하 여 &amp; Advanced eDiscovery에 액세스 하 고 서비스 케이스에 대해 프로세스 모듈을 실행 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 47614e8bc25a376f9b51068c151a71e025e2f264
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 011a8448c36ac9f4726f13471c548b7bb2427000
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818907"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936161"
 ---
 # <a name="run-the-process-module-and-load-data-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 프로세스 모듈 실행 및 데이터 로드 (클래식)
 

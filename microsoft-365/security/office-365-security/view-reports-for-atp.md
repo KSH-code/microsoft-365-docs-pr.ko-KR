@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 보안 및 준수 센터에서 Office 365 Advanced Threat Protection에 대 한 보고서를 찾아서 사용 &amp; 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3e6f6e3f2fd5820f280ab47f3ffdde11bd9da72e
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: c71bef11e574593d821b992f3a5037dbf127d5d2
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44613363"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936998"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection에 대 한 보고서 보기
 
@@ -51,9 +51,9 @@ ATP 보고서에는 다음이 포함 됩니다.
 
 |||
 |---|---|
-|검색 유형별|이러한 위협을 파악 하는 데 도움이 되는 정책은 무엇입니까?|
+|정책 유형별|이러한 위협을 파악 하는 데 도움이 되는 정책은 무엇입니까?|
 |검색 기술|어떤 기본 Microsoft 기술이 위협을 포착 했습니까?|
-|배달 상태별|위협으로 검색 된 전자 메일 메시지는 어떻게 되었습니까?|
+|배달 상태별|위협으로 검색 된 전자 메일 메시지의 최종 배달 상태는 무엇 인가요?|
 |
 
 > [!TIP]
@@ -65,7 +65,8 @@ ATP 보고서에는 다음이 포함 됩니다.
 
 ![이 그래픽은 맬웨어 보기 메뉴의 옵션으로 내보내기, 만들기 일정 및 요청 보고서 간의 오른쪽을 보여 줍니다.](../../media/tp-threatProtectStatRpt-BreakDownByExport.png)
 
-**참고**: **피싱** 및 **맬웨어에** 대해 내보낼 수 있는 최대 항목 수는 1만에 불과합니다. 보기를 내보낼 경우 가장 최근 1만 항목만 내보내집니다.
+> [!NOTE]
+> **피싱** 및 **맬웨어에** 대해 내보낼 수 있는 최대 항목 수는 1만에 불과합니다. 보기를 내보낼 경우 가장 최근 1만 항목만 내보내집니다. 내보낸 데이터에서 _메시지 수_ 열은 검색 기술 및 정책 유형에 의해 검색 된 메시지 수를 나타냅니다.    
 
 개요 및 전자 메일 보기에는 24 시간 (요청 다시)이 아닌 처리 시간 내에 정보가 표시 됩니다. 여기에서 속도 향상은 명확한 신호입니다.
 
@@ -80,7 +81,7 @@ ATP 보고서에는 다음이 포함 됩니다.
 
 ![ATP 위협 방지 상태 데이터 (일)](../../media/d5c2c6ad-c002-4985-a032-c866e46fdea8.png)
 
-기본적으로 위협 방지 상태 보고서에는 최근 7 일간의 데이터가 표시 됩니다. 그러나 **필터** 를 선택 하 고 날짜 범위를 변경 하 여 데이터를 최대 90 일까 지 확인할 수 있습니다. 평가판 구독을 사용 하는 경우에는 30 일간의 데이터를 제한할 수 있습니다.
+기본적으로 위협 방지 상태 보고서에는 최근 7 일간의 데이터가 표시 됩니다. 그러나 **필터링** 을 선택 하 고 날짜 범위를 변경 하 여 집계 보기에 대 한 데이터를 최대 90 일까 지 확인 하 고 세부 정보 보기의 경우 30 일을 표시할 수 있습니다. 평가판 구독을 사용 하는 경우에는 30 일간의 데이터를 제한할 수 있습니다.
 
 ![ATP 위협 방지 상태 필터](../../media/4f703369-642b-402b-9758-b9c828283410.png)
 
@@ -111,7 +112,7 @@ ATP 보고서에는 다음이 포함 됩니다.
 
 ![ATP 파일 형식 보고서](../../media/6e3f5d33-79aa-4b2d-938c-6ef135d9e54c.png)
   
-특정 날짜를 가리키면 [ATP 안전한 첨부 파일](atp-safe-attachments.md) 및 [스팸 방지 맬웨어 방지 &amp; 보호](anti-spam-and-anti-malware-protection.md)에서 검색 된 악의적인 파일의 유형을 확인할 수 있습니다.
+특정 날짜를 가리키면 [ATP 안전한 첨부 파일](atp-safe-attachments.md) 및 [스팸 방지 맬웨어 방지 &amp; 보호](anti-spam-and-anti-malware-protection.md)에서 검색 된 악의적인 파일의 유형을 확인할 수 있습니다. 보고서의 집계 보기에서 90 일의 필터링을 허용 하 고 세부 정보 보기에서는 필터링을 10 일 동안만 허용 합니다. 
   
 ![ATP 파일 형식 하루에 대 한 보고서 데이터](../../media/10d18428-699a-41d2-a73e-be3a8214ada1.png)
 

@@ -15,18 +15,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 3ab1e2c3-28cf-4bf5-b0a8-c0222f32bdf5
-description: 'Advanced eDiscovery에서 사례 문제에 대 한 관련성 교육 상태 및 결과를 보고 해석 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: 7cf75607743ce752f8b23e286afc4681a1798a1f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Advanced eDiscovery에서 사례 문제에 대 한 관련성 교육 상태 및 결과를 보고 해석 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: bf1fe2fc6c0f3ff80fd7e53d55149a61009e2b32
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636621"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936221"
 ---
 # <a name="track-relevance-analysis-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 관련성 분석 추적 (클래식)
 
 > [!NOTE]
-> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 고급 eDiscovery에서 관련성 추적 탭에는 태그 탭에서 수행 되는 관련성 학습의 계산 된 유효성이 표시 되며, 반복적인 교육 프로세스를 관련성이 있는 다음 단계를 나타냅니다. 
   
@@ -84,7 +84,7 @@ ms.locfileid: "43636621"
 파일 태그에 불일치가 있으면 분석에 영향을 줄 수 있습니다. 고급 eDiscovery 태그 지정 일관성 프로세스는 결과가 최적이 아니거나 일관성이 의심 스 러 우면 사용할 수 있습니다. 사용 가능한 일관 되지 않은 태그가 지정 된 파일 목록이 반환 되 고 필요에 따라 검토 하 고 다시 태그를 지정할 수 있습니다.
   
 > [!NOTE]
-> 7 개 이상의 교육이 다음 **평가를 내림** \> 하면 관련 **트랙** \> **문제** \> **세부 결과** \> **교육 진행 상황**에서 태그 지정 일관성을 볼 수 있습니다. 이 검토는 한 번에 한 가지 문제에 대해 수행 됩니다. 
+> 7 개 이상의 교육이 다음 **평가를 내림** 하면 \> **Track** \> **관련 트랙 문제** \> **세부 결과** \> **교육 진행 상황**에서 태그 지정 일관성을 볼 수 있습니다. 이 검토는 한 번에 한 가지 문제에 대해 수행 됩니다. 
   
 1. **관련성 \> 추적**에서 문제점의 행을 확장 합니다.
     

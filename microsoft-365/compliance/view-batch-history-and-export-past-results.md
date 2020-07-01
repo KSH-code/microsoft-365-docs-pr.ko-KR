@@ -15,14 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 35d52b41-75ab-4144-9edf-31e11453bd5d
-description: '선택 된 내보내기 배치 세션에 대 한 자세한 정보를 확인 하는 방법과 Advanced eDiscovery에서 마지막 내보내기 세션을 실행 취소 하는 방법에 대해 알아봅니다.  '
+description: 선택 된 내보내기 배치 세션에 대 한 자세한 정보를 확인 하는 방법과 Advanced eDiscovery에서 마지막 내보내기 세션을 실행 취소 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 498cd5d0fbeea4902a0992e8210666884a308f72
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: b142c5d582b9a7bb84dd518325369e4b1adccf69
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819058"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936191"
 ---
 # <a name="view-batch-history-and-export-past-results-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 일괄 처리 기록 보기 및 이전 결과 내보내기 (클래식)
 

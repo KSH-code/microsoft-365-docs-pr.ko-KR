@@ -15,24 +15,24 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: c6f016cb-409f-4ae9-911c-1395cf0c86ea
-description: '작업 상태 및 프로세스 요약을 포함 하 여 고급 eDiscovery에서 실행 되는 프로세스 모듈의 결과를 찾는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: b7b88ed291236330c87c96d24fa6f1c22fb3d773
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 작업 상태 및 프로세스 요약을 포함 하 여 고급 eDiscovery에서 실행 되는 프로세스 모듈의 결과를 찾는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 26ef87c762fc5c77f2374978bf4a425940dd5f37
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626314"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936171"
 ---
 # <a name="view-process-module-results-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 프로세스 모듈 결과 보기 (클래식)
 
 **준비** \> **프로세스가** 시작 되 면 진행률과 결과를 볼 수 있습니다. 
   
 > [!NOTE]
-> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 ## <a name="process-task-status"></a>프로세스 작업 상태
 
-**준비** \> **Process** 프로세스 \> **결과**에서 페이지에는 현재 상태가 (프로세스가 현재 실행 중인 경우) 또는 다음 예제와 같이 마지막 프로세스 상태 작업 상태가 표시 됩니다.
+**준비** \> **프로세스** \> **결과**에서 페이지에는 현재 상태가 (프로세스가 현재 실행 중인 경우) 또는 다음 예제와 같이 마지막 프로세스 상태 작업 상태가 표시 됩니다.
   
 ![프로세스 모듈 작업 상태](../media/9430f9e7-a4dd-47c7-ac2e-2c6a60fc948b.png)
   
@@ -64,7 +64,7 @@ ms.locfileid: "43626314"
   
 ## <a name="process-summary"></a>프로세스 요약
 
-프로세스 \> \> 결과 \> 준비 프로세스 요약에서는 파일 처리 성공 및 오류 결과에 따라 로드 된 파일 결과를 분석 하 여 표시 합니다.
+\>프로세스 결과 준비 \> \> 프로세스 요약에서는 파일 처리 성공 및 오류 결과에 따라 로드 된 파일 결과를 분석 하 여 표시 합니다.
   
 이 창은 다음과 같이 가져온 파일 통계를 그래픽으로 표시 합니다.
   
@@ -104,7 +104,7 @@ ms.locfileid: "43626314"
     
 ## <a name="last-process-errors"></a>마지막 프로세스 오류
 
-준비 \> 프로세스 \> 결과 \> 에서 마지막 프로세스 오류가 발생 하면 마지막 세션에 있는 오류 또는 수행 된 작업에 대 한 세부 정보가 표시 됩니다.
+준비 \> 프로세스 \> 결과에서 \> 마지막 프로세스 오류가 발생 하면 마지막 세션에 있는 오류 또는 수행 된 작업에 대 한 세부 정보가 표시 됩니다.
   
 ![프로세스 모듈 오류](../media/4771d0f4-4217-445a-9ba4-8b6541c5ad09.png)
   

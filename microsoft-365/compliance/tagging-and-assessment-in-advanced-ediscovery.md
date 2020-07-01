@@ -15,24 +15,24 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: b5c82de7-ed2f-4cc6-becd-db403faf4d18
-description: '태그 파일을 포함 하 여 평가 교육을 수행 하는 단계를 검토 하 고 Advanced eDiscovery에서 평가 결과를 검토 합니다. '
-ms.openlocfilehash: ef09268da8f76a4775fa6209a11d9c670abe0f94
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 태그 파일을 포함 하 여 평가 교육을 수행 하는 단계를 검토 하 고 Advanced eDiscovery에서 평가 결과를 검토 합니다.
+ms.openlocfilehash: 57e4e8da0dbeec5e1dba384ae0e62ffb6b3bb03a
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630695"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936695"
 ---
 # <a name="tagging-and-assessment-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 태그 지정 및 평가 (클래식)
 
 > [!NOTE]
-> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 이 섹션에서는 고급 eDiscovery 관련성 평가 모듈의 절차에 대해 설명 합니다. 
   
 ## <a name="performing-assessment-training-and-analysis"></a>평가 교육 및 분석 수행
 
-1. ** \> 관련성 추적** 탭에서 **평가** 를 클릭 하 여 사례 평가를 시작 합니다. 
+1. **관련성 \> 추적** 탭에서 **평가** 를 클릭 하 여 사례 평가를 시작 합니다. 
     
     이 절차의 목적을 예로 들면, 500 파일의 샘플 평가 집합을 만들고 태그 지정 패널, 표시 된 파일 콘텐츠 및 기타 태그 지정 옵션을 포함 하는 **Tag** 탭이 표시 됩니다. 
     
@@ -121,7 +121,7 @@ ms.locfileid: "43630695"
 통계적으로 기반 하는 안정화가 없으면 더 낮은 수준의 정확성과 신뢰 수준이 적용 됩니다. 그러나 찾은 관련 파일의 비율을 알 필요가 없는 경우 이러한 결과를 사용 하 여 관련 파일을 찾을 수 있습니다. 마찬가지로이 상태를 사용 하 여 특정 문제와 관련 된 파일에 대 한 액세스를 가속화 하는 낮은 다양성의 문제를 교육할 수 있습니다.
   
 > [!TIP]
-> **관련성 \> 트랙** 탭에 확장 된 문제가 표시 되 면 다음 보기 옵션을 사용할 수 있습니다. 다음 단계 (문제에 따라 **태그** 를 무시할 수 있음): 오른쪽에 있는 **수정** 단추를 클릭 한 후 **다음 단계**에서 다른 단계를 선택 하 여 해당 하는 다음 단계를 > 합니다. 평가 진행률 표시기가 완료 되지 않은 경우 평가는 다음 옵션을 통해 더 많은 평가 파일에 태그를 추가 하 고 통계 정확성을 높이는 것이 좋습니다. > **수정**, 확인을 차례로 클릭 하 고 **평가 수준 대화 상자**에서 **회수 예측에 대 한 대상 오류 여백을**변경 하 고 **값 업데이트**를 클릭 하 여 오류 여백을 변경 하 고 해당 영향을 평가할 수 있습니다. 또한이 대화 상자 **에서 고급을**클릭 하 여 고급 옵션을 볼 수 있습니다. > **보기**를 클릭 하 여 추가 평가 수준 통계 및 해당 영향을 볼 수 있습니다. 표시 된 세부 결과 대화 상자에서 최소 500 태그가 지정 된 평가 파일이 있고 최소 18 개 파일에 문제에 대 한 태그가 지정 된 경우 문제 당 통계를 사용할 수 있습니다. 
+> **관련성 \> 트랙** 탭에 확장 된 문제가 표시 되 면 다음 보기 옵션을 사용할 수 있습니다. 다음 단계 (문제에 따라 태그를 무시할 수 있음) **:** 오른쪽에 있는 **수정** 단추를 클릭 한 후 **다음 단계**에서 다른 단계를 선택 하 여 해당 하는 다음 단계를 > 합니다. 평가 진행률 표시기가 완료 되지 않은 경우 평가는 다음 옵션을 통해 더 많은 평가 파일에 태그를 추가 하 고 통계 정확성을 높이는 것이 좋습니다. > **수정**, 확인을 차례로 클릭 하 고 **평가 수준 대화 상자**에서 **회수 예측에 대 한 대상 오류 여백을**변경 하 고 **값 업데이트**를 클릭 하 여 오류 여백을 변경 하 고 해당 영향을 평가할 수 있습니다. 또한이 대화 상자 **에서 고급을**클릭 하 여 고급 옵션을 볼 수 있습니다. > **보기**를 클릭 하 여 추가 평가 수준 통계 및 해당 영향을 볼 수 있습니다. 표시 된 세부 결과 대화 상자에서 최소 500 태그가 지정 된 평가 파일이 있고 최소 18 개 파일에 문제에 대 한 태그가 지정 된 경우 문제 당 통계를 사용할 수 있습니다. 
   
 ## <a name="see-also"></a>참고 항목
 

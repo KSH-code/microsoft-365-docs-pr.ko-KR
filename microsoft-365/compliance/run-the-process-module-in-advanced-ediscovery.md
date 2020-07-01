@@ -15,20 +15,20 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: dbc1e251-0596-443b-ac9b-f398ba955b73
-description: '고급 eDiscovery를 사용 하 여 분석을 위해 데이터 사례 파일을 준비 하기 위한 지침을 알아봅니다.  '
-ms.openlocfilehash: c0c0b8c3477f8c3fdbe0437659a88f14fbcad1cd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 고급 eDiscovery를 사용 하 여 분석을 위해 데이터 사례 파일을 준비 하기 위한 지침을 알아봅니다.
+ms.openlocfilehash: 5130bea7da8922fd7e98d07696ffde3930d2ce41
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626464"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936201"
 ---
 # <a name="run-the-process-module-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 프로세스 모듈 실행 (클래식)
 
-사례 파일은 **준비** \> **프로세스**중에 고급 eDiscovery에 로드 됩니다. 
+사례 파일은 **준비** 프로세스 중에 고급 eDiscovery에 로드 됩니다 \> **Process**. 
   
 > [!NOTE]
-> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 ## <a name="guidelines-preparing-data-for-advanced-ediscovery"></a>지침: 고급 eDiscovery에 대 한 데이터 준비
 
@@ -42,7 +42,7 @@ ms.locfileid: "43626464"
     
 - **파일 형식 및 이름**:
     
-  - 고급 eDiscovery에서는 다양 한 형식의 파일을 처리 하 고 로드 된 원시 파일을와 \*같은 표준 형식으로 추출할 수 있습니다. TXT, HTML 또는입니다. L. 텍스트 파일의 처리가 기본 파일 보다 빠릅니다. 추출 된 텍스트 파일은 사례 폴더에 저장 됩니다.
+  - 고급 eDiscovery에서는 다양 한 형식의 파일을 처리 하 고 로드 된 원시 파일을와 같은 표준 형식으로 추출할 수 있습니다 \* . TXT, HTML 또는입니다. L. 텍스트 파일의 처리가 기본 파일 보다 빠릅니다. 추출 된 텍스트 파일은 사례 폴더에 저장 됩니다.
     
   - 시스템 파일이 나 그래픽 이미지와 같이 추출할 수 없는 파일을 로드 하지 않습니다. 이러한 파일은 처리 지연 될 수 있습니다.
     

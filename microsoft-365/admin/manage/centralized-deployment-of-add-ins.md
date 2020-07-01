@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: 중앙 집중식 배포를 사용 하 여 Office 추가 기능을 배포할 수 있도록 테 넌 트 및 사용자가 요구 사항을 충족 하는지 확인 합니다.
-ms.openlocfilehash: 4b9ca7213f36440114d39ef491fe934f13ca96ea
-ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
+ms.openlocfilehash: 4ad2f504c26fcc1f01c958bebf448718500a95b7
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44717276"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936446"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 맞게 작동 하는지 확인
 
@@ -40,16 +40,12 @@ ms.locfileid: "44717276"
 
 중앙 집중식 배포는 다음을 지원하지 않습니다.
   
-- Office 2013에서 Word, Excel 또는 PowerPoint를 대상으로 하는 추가 기능
-    
+- Office 2013에서 Word, Excel 또는 PowerPoint를 대상으로 하는 추가 기능 
 - 온-프레미스 디렉터리 서비스
-    
+- Exchange 온-프레미스 사서함에 대 한 추가 기능 배포
 - SharePoint에 대한 추가 기능 배포  
-
 - 팀 앱
-   
 - COM(구성 요소 개체 모델) 또는 VSTO(Visual Studio Tools for Office) 추가 기능의 배포
-    
 - 비즈니스를 위한 Microsoft 365 앱과 같은 Exchange를 포함 하지 않는 Microsoft 365 배포
 
 ### <a name="office-requirements"></a>Office 요구 사항

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: bd9162316bd5c180210040f0820eb8d1cc46dc6c
-ms.sourcegitcommit: efd4dd29af0ea2b71b674534de3b2dcbfd7482db
+ms.openlocfilehash: 844ae00b1881851dc50c68329a999263c09bdbed
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689246"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936787"
 ---
 # <a name="communication-compliance-feature-reference"></a>통신 준수 기능 참조
 
@@ -70,10 +70,16 @@ Microsoft 365 준수 센터에서 Microsoft 365 조 직에 대 한 통신 준수
 
 통신 준수 정책을 사용 하 여 다음 통신 플랫폼 중 하나 이상의 메시지를 그룹으로 또는 독립 실행형 소스로 검색 하도록 선택할 수 있습니다. 이러한 플랫폼에서 캡처된 통신은 사용자가 조직과 사서함을 삭제 한 경우에도 기본적으로 각 정책에 대해 7 년 동안 보존 됩니다.
 
-- **Microsoft 팀**: 채팅 통신 및 공개 및 개인 Microsoft 팀 채널과 개별 채팅 모두에 연결 된 첨부 파일을 검색할 수 있습니다. 통신 준수 정책 조건과 일치 하는 팀 채팅 및 첨부 파일 처리에 최대 24 시간이 걸릴 수 있습니다. 다음 그룹 관리 구성을 사용 하 여 팀에서 개별 사용자 채팅 및 채널 통신을 감독할 수 있습니다.
+- **Microsoft 팀**: 공개 및 개인 Microsoft 팀 채널과 개별 채팅 모두에서 채팅 통신을 검색할 수 있습니다. 사용자가 Microsoft 팀 검사를 선택한 상태에서 통신 준수 정책에 할당 되 면 사용자에 대 한 채팅 통신은 사용자가 구성원 인 모든 Microsoft 팀에서 자동으로 모니터링 됩니다. Microsoft 팀 검사는 미리 정의 된 정책 템플릿에 자동으로 포함 되며 사용자 지정 정책 템플릿에서 기본적으로 선택 됩니다. 팀 대화방 일치 통신 준수 정책 조건과 처리 하는 데 최대 24 시간이 걸릴 수 있습니다. 다음 그룹 관리 구성을 사용 하 여 팀에서 개별 사용자 채팅 및 채널 통신을 감독할 수 있습니다.
 
     - **팀 채팅 통신의 경우:** 개별 사용자를 할당 하거나 [메일 그룹](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) 을 통신 준수 정책에 할당 합니다. 이 설정은 일대일 또는 일대다 사용자/채팅 관계에 대 한 것입니다.
     - **팀 채널 통신의 경우:** 특정 사용자가 포함 된 검색 하려는 모든 Microsoft 팀 채널 또는 Microsoft 365 그룹을 통신 준수 정책에 할당 합니다. 다른 Microsoft 팀 채널 또는 Microsoft 365 그룹에 동일한 사용자를 추가 하는 경우 이러한 새 채널과 그룹을 통신 준수 정책에 추가 해야 합니다.
+    - **하이브리드 전자 메일 환경을 사용한 팀 채팅 통신**: 통신 준수는 Exchange 온-프레미스 배포를 사용 하는 조직이 나 Microsoft 팀을 사용 하는 외부 전자 메일 공급자가 있는 조직의 사용자를 위해 채팅 메시지를 모니터링할 수 있습니다. 온-프레미스 또는 모니터링할 외부 사서함을 사용 하는 사용자에 대 한 메일 그룹을 만들어야 합니다. 통신 준수 정책을 만들 때 정책 마법사에서이 메일 그룹을 **감독 된 사용자 및 그룹** 으로 지정 합니다.
+
+    >[!IMPORTANT]
+    >조직이 보안 & 준수 센터의 그래픽 사용자 인터페이스를 사용 하 여 온-프레미스 사용자에 대 한 팀 채팅 데이터를 검색할 수 있도록 하려면 Microsoft Support에 대 한 요청을 파일 해야 합니다. 자세한 내용은 [온-프레미스 사용자를 위해 클라우드 기반 사서함 검색](search-cloud-based-mailboxes-for-on-premises-users.md)을 참조 하세요.
+
+조직에서 보안 및 준수 센터의 그래픽 사용자 인터페이스를 사용하여 온-프레미스 사용자의 클라우드 기반 사서함에서 Teams 채팅 데이터를 검색할 수 있도록 하려면 Microsoft 지원에 요청을 제출해야 합니다.
 
 - **Exchange 전자 메일**: Microsoft 365 또는 Office 365 구독의 일부로 exchange Online에서 호스트 되는 사서함은 모두 메시지를 검색 하는 데 적합 합니다. Exchange 전자 메일 메시지 및 통신 준수 정책 조건과 일치 하는 첨부 파일을 처리 하는 데 최대 24 시간이 걸릴 수 있습니다. 통신 준수를 위해 지원 되는 첨부 파일 유형은 [Exchange 메일 흐름 규칙 콘텐츠 검사에 대해 지원 되는 파일 형식과](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection)동일 합니다.
 

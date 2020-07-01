@@ -1,7 +1,7 @@
 ---
 title: HITECH의 상태 보험 이식성 및 책임 (HIPAA) &
 description: Microsoft는 책임 업무 비즈니스 연결 동의 (BAAs)를 & 건강 보험 이식성을 제공 합니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 47343d3e4ae3224556cc22874687da4bea864e8a
-ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
+ms.openlocfilehash: 825d8bac0d20534310864801b1d8eaef32c9b417
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44773719"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936353"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>HITECH의 상태 보험 이식성 및 책임 (HIPAA) &
 
@@ -92,13 +92,13 @@ Microsoft 서비스가 모든 고객에 대해 일관성이 있으므로 microso
 
 **감사자 보고서의 복사본은 어떻게 얻을 수 있나요?**
 
-[서비스 보안 포털](https://www.microsoft.com/trustcenter/STP/default.aspx)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 이 포털을 사용 하 여 감사자가 Microsoft의 클라우드 서비스 결과와 사용자의 법적 및 규정 요구 사항을 비교할 수 있도록 감사 보고서를 요청할 수 있습니다.
+[Service Trust Portal](https://www.microsoft.com/trustcenter/STP/default.aspx)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 이 포털을 사용 하 여 감사자가 Microsoft의 클라우드 서비스 결과와 사용자의 법적 및 규정 요구 사항을 비교할 수 있도록 감사 보고서를 요청할 수 있습니다.
 
 **HIPAA 및 HITECH Act 준수에 대 한 자세한 내용은 어떻게 확인할 수 있나요?**
 
 이 작업을 고객에 게 지원 하기 위해 Microsoft는 다음 가이드를 게시 했습니다.
 
-- *HIPAA/HITECH Act 구현 지침* [Azure](https://aka.ms/azurehipaaguidance) 및 [Dynamics 365 및 Office 365](https://go.microsoft.com/fwlink/?LinkID=257510)에 대해 설명 합니다. 개인 정보, 보안 및 준수 관리자 및 HIPAA 및 HITECH Act 구현을 담당 하는 다른 사용자를 위해 작성 되었으며, 조직에서 준수를 유지 관리 하기 위해 취할 수 있는 구체적인 단계를 설명 합니다.
+- *HIPAA/HITECH Act 구현 지침* [Azure](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/) 및 [Dynamics 365 및 Office 365](https://go.microsoft.com/fwlink/?LinkID=257510)에 대해 설명 합니다. 개인 정보, 보안 및 준수 관리자 및 HIPAA 및 HITECH Act 구현을 담당 하는 다른 사용자를 위해 작성 되었으며, 조직에서 준수를 유지 관리 하기 위해 취할 수 있는 구체적인 단계를 설명 합니다.
 - [Microsoft Azure를 사용 하 여 보안 상태 솔루션을 디자인 하는 실용적인 가이드](https://aka.ms/azureindustrysecurity) 를 통해 안전한 방식으로 클라우드 서비스를 성공적으로 채택 하는 데 필요한 정보를 보다 효율적으로 파악할 수 있습니다.
 - [Microsoft 클라우드에서 HIPAA 보안 및 개인 정보 요구 사항을 해결](https://smb.blob.core.windows.net/smbproduction/Content/Microsoft_Cloud_Healthcare_HIPAA_Security_Privacy.pdf) 하면 규정 요구 사항에 대 한 간략 한 개요를 제공 합니다. 또한 이러한 요구 사항에 매핑되는 방법론을 사용 하 여 Microsoft 클라우드 서비스가 구축 된 방식 및 준수 준비 솔루션을 구축 하는 방법에 대 한 자세한 분석을 제공 합니다.
 

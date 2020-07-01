@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 모든 사용자에 대해 격리 된 메시지를 확인 하 고 관리 하는 방법을 확인할 수 있습니다. Office 365 Advanced Threat Protection (Office 365 ATP)을 사용 하는 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀에서 격리 된 파일을 관리할 수도 있습니다.
-ms.openlocfilehash: bf5b532b3830333fb42e2371d48e37991385e5f4
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: d3dadeb4035d55fa60785c7a752737cc83038730
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616825"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936974"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>EOP에서 관리자 권한으로 격리된 메시지 및 파일 관리하기
 
@@ -228,7 +228,7 @@ Office 365, 고급 위협 방지 (Office 365 ATP)를 사용 하는 조직의 관
 > [!NOTE]
 > 이 섹션에서 격리 된 파일의 절차는 ATP 계획 1 및 계획 2 구독자만 사용할 수 있습니다.
 
-ATP가 있는 조직에서는 관리자가 격리 된 파일을 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀에서 관리할 수 있습니다.
+ATP가 있는 조직에서는 관리자가 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀에서 격리 된 파일을 관리할 수 있습니다.
 
 ### <a name="view-quarantined-files"></a>격리 된 파일 보기
 

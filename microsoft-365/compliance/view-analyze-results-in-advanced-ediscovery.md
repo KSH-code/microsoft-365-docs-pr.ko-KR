@@ -15,24 +15,24 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 5974f3c2-89fe-4c5f-ac7b-57f214437f7e
-description: '화면에 표시 된 작업 옵션의 정의를 포함 하 여 고급 eDiscovery에서 분석 프로세스의 결과를 볼 수 있는 위치를 파악 합니다.  '
-ms.openlocfilehash: 09bb682e753730a4c01581e71f05b5b8ef3d4779
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 화면에 표시 된 작업 옵션의 정의를 포함 하 여 고급 eDiscovery에서 분석 프로세스의 결과를 볼 수 있는 위치를 파악 합니다.
+ms.openlocfilehash: 24a4b0685ec5dc82aff0b1f0de81080a62e49776
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626364"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936951"
 ---
 # <a name="view-analyze-results-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 결과 분석 보기 (클래식)
 
 > [!NOTE]
-> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 Advanced eDiscovery에서는 아래에 설명 된 것 처럼 다양 한 표시에서 분석 프로세스의 진행률과 결과를 볼 수 있습니다.
   
 ## <a name="view-analyze-task-status"></a>작업 상태 분석 보기
 
-문제 ** \> 분석 \> \> 결과 작업 상태**에서 분석 프로세스 실행 중 및 이후 상태가 표시 됩니다. 
+문제 ** \> 분석 \> 결과 \> 작업 상태**에서 분석 프로세스 실행 중 및 이후 상태가 표시 됩니다. 
   
 ![작업 상태를 분석 합니다.](../media/d0372978-ce08-4f4e-a1fc-aa918ae44364.png)
   

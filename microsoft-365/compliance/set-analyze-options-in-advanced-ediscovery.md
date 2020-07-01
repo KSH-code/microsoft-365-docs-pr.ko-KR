@@ -15,14 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: f6cd6588-f6b6-424a-a9ab-3782b842faee
-description: '유사 항목 복제, 전자 메일 스레드 및 테마를 포함 하 여 고급 eDiscovery의 분석 프로세스에 대 한 옵션을 설정 하는 단계를 검토 합니다.  '
+description: 유사 항목 복제, 전자 메일 스레드 및 테마를 포함 하 여 고급 eDiscovery의 분석 프로세스에 대 한 옵션을 설정 하는 단계를 검토 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 091eb75bea0312e5a06cc60ca915612efc820e6e
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: d622e06cdfe9a46f470be46d1a5b9df98347cc0a
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819228"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936885"
 ---
 # <a name="set-analyze-options-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 분석 옵션 설정 (클래식)
 

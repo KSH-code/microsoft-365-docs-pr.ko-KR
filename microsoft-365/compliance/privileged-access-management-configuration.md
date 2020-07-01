@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ''
 description: 이 문서를 사용 하 여 Office 365에서 권한이 부여 된 액세스 관리를 사용 하도록 설정 하 고 구성 하는 방법을 자세히 알아보세요.
-ms.openlocfilehash: cbb38c2edff0c85e24855e3f6a1613ad8a92043e
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 4bae6d311b3447534165ee803d7094e5797a9b1c
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036423"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936323"
 ---
 # <a name="get-started-with-privileged-access-management"></a>권한이 부여된 액세스 관리 시작
 
@@ -81,7 +81,7 @@ ms.locfileid: "44036423"
 
 1. 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
 
-2. 관리 센터에서 그룹으로 **이동** > 하 여 그룹을**추가**합니다.
+2. 관리 센터에서 그룹으로 **이동 하 여**  >  **그룹을 추가**합니다.
 
 3. **메일 사용이 가능한 보안 그룹** 을 선택 하 고 새 그룹에 대 한 **이름**, **그룹 전자 메일 주소**및 **설명** 필드를 입력 합니다.
 
@@ -99,7 +99,7 @@ ms.locfileid: "44036423"
 
 1. 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
 
-2. 관리 센터에서 **설정 > 설정 > Security & 개인 정보** > **권한 부여 액세스**로 이동 합니다.
+2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스**로 이동 합니다.
 
 3. 권한 있는 **작업에 대 한 승인 필요** 컨트롤을 사용 하도록 설정 합니다.
 
@@ -134,7 +134,7 @@ Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com'
 
 1. 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
 
-2. 관리 센터에서 **설정** > **보안 & 개인 정보** > **권한이 부여 된 액세스**로 이동 합니다.
+2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스**로 이동 합니다.
 
 3. **액세스 정책 및 요청 관리를**선택 합니다.
 
@@ -180,7 +180,7 @@ New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType 
 
 1. 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
 
-2. 관리 센터에서 **설정** > **보안 & 개인 정보** > **권한이 부여 된 액세스**로 이동 합니다.
+2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스**로 이동 합니다.
 
 3. **액세스 정책 및 요청 관리를**선택 합니다.
 
@@ -220,7 +220,7 @@ New-ElevatedAccessRequest -Task 'Exchange\New-MoveRequest' -Reason 'Attempting t
 
 1. 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
 
-2. 관리 센터에서 **설정** > **보안 & 개인 정보** > **권한이 부여 된 액세스**로 이동 합니다.
+2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스**로 이동 합니다.
 
 3. **액세스 정책 및 요청 관리를**선택 합니다.
 
@@ -248,7 +248,7 @@ Get-ElevatedAccessRequest -Identity 28560ed0-419d-4cc3-8f5b-603911cbd450 | selec
 
 1. 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
 
-2. 관리 센터에서 **설정** > **보안 & 개인 정보** > **권한이 부여 된 액세스**로 이동 합니다.
+2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스**로 이동 합니다.
 
 3. **액세스 정책 및 요청 관리를**선택 합니다.
 
@@ -290,7 +290,7 @@ Deny-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comm
 
 1. 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
 
-2. 관리 센터에서 **설정** > **보안 & 개인 정보** > **권한이 부여 된 액세스**로 이동 합니다.
+2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스**로 이동 합니다.
 
 3. **액세스 정책 및 요청 관리를**선택 합니다.
 
@@ -316,7 +316,7 @@ Remove-ElevatedAccessApprovalPolicy -Identity <identity GUID of the policy you w
 
 1. 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
 
-2. 관리 센터에서 **설정** > **보안 & 개인 정보** > **권한이 부여 된 액세스**로 이동 합니다.
+2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스**로 이동 합니다.
 
 3. 권한 있는 **액세스 제어에 대 한 승인 필요** 를 사용 하도록 설정 합니다.
 

@@ -15,18 +15,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 66ca9993-75f4-4724-aea2-5a0719b660c1
-description: '사례 로그, 데이터 지우기, 프로세스 오류, 수정 관련성 및 투명도 분석을 포함 하 여 고급 eDiscovery의 유틸리티에 대해 알아봅니다.  '
-ms.openlocfilehash: d4495920110916fdd5b07201d50080605ba177b1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 사례 로그, 데이터 지우기, 프로세스 오류, 수정 관련성 및 투명도 분석을 포함 하 여 고급 eDiscovery의 유틸리티에 대해 알아봅니다.
+ms.openlocfilehash: 4283bc7bea509c8a01fb45c433964230a5256f8a
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633393"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936621"
 ---
 # <a name="use-advanced-ediscovery-classic-utilities"></a>Advanced eDiscovery(클래식) 유틸리티 사용
 
 > [!NOTE]
-> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 고급 eDiscovery에서 표시 되 고 사용할 수 있는 유틸리티는 컨텍스트 및 사용자 역할에 따라 다릅니다.
   
@@ -38,7 +38,7 @@ ms.locfileid: "43633393"
   
 1. 메뉴 모음에서 **Cogwheel** 아이콘을 클릭 합니다. 
     
-2. **설정 및 유틸리티 \> 유틸리티** 탭에서 ** \> 사례 로그 설치**를 선택 합니다.
+2. **설정 및 유틸리티 \> 유틸리티** 탭에서 **사례 로그 \> 설치**를 선택 합니다.
     
 3. **로그 수준을** 다음과 같이 선택 합니다. 
     
@@ -57,7 +57,7 @@ ms.locfileid: "43633393"
   
 1. 메뉴 모음에서 **Cogwheel** 아이콘을 클릭 합니다. 
     
-2. **설정 및 유틸리티 \> 유틸리티** 탭에서 ** \> 데이터 설치 지우기**를 선택 합니다.
+2. **설정 및 유틸리티 \> 유틸리티** 탭에서 **데이터 \> 설치 지우기**를 선택 합니다.
     
 3. 초기화할 정보에 대 한 옵션을 선택 합니다.
     
@@ -99,7 +99,7 @@ ms.locfileid: "43633393"
   
 1. 메뉴 모음에서 **Cogwheel** 아이콘을 클릭 합니다. 
     
-2. **설정 및 유틸리티 \> 유틸리티** 탭에서 ** \> 투명 분석 설정을**선택 합니다.
+2. **설정 및 유틸리티 \> 유틸리티** 탭에서 **투명 분석 \> 설정을**선택 합니다.
     
 3. * * 파일 ID * *에서 처리할 파일의 파일 ID를 입력 합니다.
     

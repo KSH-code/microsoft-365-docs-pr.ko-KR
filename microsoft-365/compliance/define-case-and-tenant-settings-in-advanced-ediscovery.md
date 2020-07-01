@@ -14,18 +14,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 383809de-7f5e-4a1d-9098-c525f67b7a9a
-description: '고급 eDiscovery의 사례 수준에서 정의할 수 있는 레이블, 모듈 간 및 테 넌 트 설정에 대해 알아봅니다.  '
-ms.openlocfilehash: b4092c7fd60b9ae82e4f97edcfa7f4aaf60ac622
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 고급 eDiscovery의 사례 수준에서 정의할 수 있는 레이블, 모듈 간 및 테 넌 트 설정에 대해 알아봅니다.
+ms.openlocfilehash: 6b0030e30e5e3a4f4c77fbcb5fcbd75bf63c1ea8
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630565"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936425"
 ---
 # <a name="define-case-and-tenant-settings-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 사례 및 테 넌 트 설정 정의 (클래식)
 
 > [!NOTE]
-> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 고급 eDiscovery 사례 및 테 넌 트 설정은이 항목에 설명 되어 있습니다.
   
@@ -44,7 +44,7 @@ ms.locfileid: "43630565"
     
 - 파일 표시 이름: 파일 제목/경로 또는 전자 메일 제목의 고급 eDiscovery 표시 이름 대신 파일을 식별 하기 위해 고급 eDiscovery 전체에서 표시 되는 파일 식별자입니다.
     
-1. **Cogwheel** 아이콘을 클릭 하 여 **설정 및 유틸리티** 를 엽니다. **설정 및 유틸리티 \> 사례 설정 탭** \> 을 **모듈 간에**엽니다. 
+1. **Cogwheel** 아이콘을 클릭 하 여 **설정 및 유틸리티** 를 엽니다. **설정 및 유틸리티 \> 사례 설정** 탭을 \> **모듈 간에**엽니다. 
     
 2. **로그인 옵션 후 기본 페이지** 에서를 선택 합니다. 
     
@@ -76,7 +76,7 @@ ms.locfileid: "43630565"
     
   - 열 순서를 수정 하려면 열 머리글을 클릭 하 고 끕니다.
     
-  - 로그 페이지 간 이동 하려면 및 **\>** **\<** 아이콘을 클릭 합니다. 
+  - 로그 페이지 간 이동 하려면 **\>** 및 아이콘을 클릭 **\<** 합니다. 
     
 ### <a name="system-information"></a>시스템 정보
 

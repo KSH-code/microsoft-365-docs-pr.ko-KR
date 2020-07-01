@@ -15,18 +15,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 0e0a9d04-294f-4f54-8bf1-b32d81345126
-description: '고급 eDiscovery에서 관련성 있는 교육을 수행 하기 전에 가져온 파일을 마지막으로 정의한 로드 또는 일괄 파일에 추가 하는 단계를 검토 합니다.  '
-ms.openlocfilehash: 7914013d21cfd7bba0e474a0e8d831bcfad0239d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 고급 eDiscovery에서 관련성 있는 교육을 수행 하기 전에 가져온 파일을 마지막으로 정의한 로드 또는 일괄 파일에 추가 하는 단계를 검토 합니다.
+ms.openlocfilehash: fc05111d9193a935158b4b00a14717877ae148a7
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636296"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936819"
 ---
 # <a name="set-up-loads-to-add-imported-files-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 가져온 파일을 추가 하도록 로드 설정 (클래식)
 
 > [!NOTE]
-> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 고급 eDiscovery에서는 사례에 추가 된 새 파일 배치가 로드 됩니다. 기본적으로 하나의 부하가 정의 되 고 가져온 모든 파일이 추가 됩니다. 관련성 있는 학습을 수행 하기 전에 가져온 파일을 로드에 추가 해야 합니다. 
   
@@ -97,7 +97,7 @@ ms.locfileid: "43636296"
 
 1. **관련성 \> 관련성 설정** 탭에서 **로드**를 선택 합니다.
     
-2. 부하 **management**에서 **+** 아이콘을 클릭 하 여 로드를 추가 합니다. 확인 메시지가 표시 됩니다. 
+2. 부하 **management**에서 아이콘을 클릭 **+** 하 여 로드를 추가 합니다. 확인 메시지가 표시 됩니다. 
     
 3. 계속하려면 **예**를 클릭합니다. **새 부하 추가** 대화 상자가 표시 됩니다. 
     

@@ -15,18 +15,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
-description: 'Advanced eDiscovery의 관련성 있는 성향 습득 단계에서 40 파일의 교육 샘플에 태그를 지정한 다음 작업을 수행 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: 8d03061401cab2014d33e9e3238af42a4d01738a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Advanced eDiscovery의 관련성 있는 성향 습득 단계에서 40 파일의 교육 샘플에 태그를 지정한 다음 작업을 수행 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 56ce30754e04d4a2adcf854093e603f93be5ae36
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636266"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936674"
 ---
 # <a name="tagging-and-relevance-training-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 태그 지정 및 관련성 교육 (클래식)
 
 > [!NOTE]
-> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 이 항목에서는 Advanced eDiscovery 관련성 학습 모듈을 사용 하 여 작업 하는 절차에 대해 설명 합니다. 
   
@@ -54,7 +54,7 @@ ms.locfileid: "43636266"
    
   - 파일에 여러 문제가 있는 경우 한 가지 문제에 태그를 지정 하면 선택 항목이 다음 문제 (있는 경우)로 이동 합니다. 
     
-  - 키워드 (관련성 설정 \> 강조 표시 된 키워드)를 강조 표시할 때 관리자 또는 사례 관리자가 정의한 키워드는 태그 지정 중에 관련 파일을 식별 하는 데 도움이 되도록 지정한 색으로 표시 됩니다. 키워드에 이중 밑줄이 있으면 키워드 설명을 클릭 하 여 도구 팁을 표시할 수 있습니다. 
+  - 키워드 (관련성 설정 강조 표시 된 키워드)를 강조 표시할 때 관리자 또는 사례 관리자가 정의한 키워드는 \> 태그 지정 중에 관련 파일을 식별 하는 데 도움이 되도록 지정한 색으로 표시 됩니다. 키워드에 이중 밑줄이 있으면 키워드 설명을 클릭 하 여 도구 팁을 표시할 수 있습니다. 
     
     필요한 경우 **태그** 탭에서 **태그 설정을** 클릭 하 여 다음 옵션을 설정 합니다. 
     

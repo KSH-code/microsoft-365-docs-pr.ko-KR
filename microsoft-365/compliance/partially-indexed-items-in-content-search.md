@@ -20,13 +20,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: d1691de4-ca0d-446f-a0d0-373a4fc8487b
-description: '보안 & 준수 센터를 통해 실행 되는 콘텐츠 검색에 포함할 수 있는 Exchange 및 SharePoint의 인덱싱되지 않은 항목에 대해 알아봅니다. '
-ms.openlocfilehash: 534f0014a448b4ef280586a724067f1a4f820693
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+description: 보안 & 준수 센터를 통해 실행 되는 콘텐츠 검색에 포함할 수 있는 Exchange 및 SharePoint의 인덱싱되지 않은 항목에 대해 알아봅니다.
+ms.openlocfilehash: 587f887a7ecd8e7393b2f6852a070dd040ff1bda
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214214"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936343"
 ---
 # <a name="partially-indexed-items-in-content-search"></a>콘텐츠 검색에서 부분적으로 인덱싱된 항목
 

@@ -20,12 +20,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 Microsoft 365 사서함으로 타사 데이터를 가져오는 방법에 대해 알아봅니다.
-ms.openlocfilehash: fab3147b5226b2d69a8dac6d214da7efdd26def6
-ms.sourcegitcommit: e6e704cbd9a50fc7db1e6a0cf5d3f8c6cbb94363
+ms.openlocfilehash: 658c71ec05078f745584a63e9a503775b957ff08
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44564993"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936551"
 ---
 # <a name="archive-third-party-data"></a>타사 데이터 보관
 
@@ -40,8 +40,10 @@ Microsoft 365에서는 관리자가 데이터 커넥터를 사용 하 여 소셜
 
 |타사 데이터  |소송 보존|eDiscovery  |보존 정책  |레코드 관리  |커뮤니케이션 규정 준수  |내부자 위험 관리  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|
+|[Bloomberg 메시지](archive-bloomberg-message-data.md)     |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||||
 |[Facebook](archive-facebook-data-with-sample-connector.md)     |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
 |[HR 데이터](import-hr-data.md) ||||||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|[얼음 채팅](archive-icechat-data.md)     |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||||
 |[인스턴트 Bloomberg](archive-instant-bloomberg-data.md)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |[LinkedIn](archive-linkedin-data.md)   |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
 |[Twitter](archive-twitter-data-with-sample-connector.md)     |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||

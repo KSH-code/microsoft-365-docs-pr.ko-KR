@@ -15,14 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: a797682f-ad85-4c08-a354-3850ba2237ee
-description: '고급 eDiscovery의 분석 프로세스에 대 한 중복 항목, 전자 메일 스레드 및 테마를 포함 하 여 고급 설정을 구성 하는 방법을 알아봅니다. '
+description: 고급 eDiscovery의 분석 프로세스에 대 한 중복 항목, 전자 메일 스레드 및 테마를 포함 하 여 고급 설정을 구성 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b596ffa4061909ccb5c149553ac8fac169b7fd77
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 39d99609cfff92dcd6e6d2f4483076b8bfe808be
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819238"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936755"
 ---
 # <a name="set-analyze-advanced-settings-in-advanced-ediscovery"></a>고급 eDiscovery에서 분석 고급 설정에 대 한 설정
 

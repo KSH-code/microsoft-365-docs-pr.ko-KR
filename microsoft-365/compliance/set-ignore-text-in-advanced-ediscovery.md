@@ -15,18 +15,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 44055727-56e8-42d7-9dc3-fb942f3901cc
-description: 'Advanced eDiscovery에서 Analyze 및 Process 모듈을 사용할 때 특정 텍스트를 무시 하는 규칙을 정의 하는 방법을 알아봅니다.  '
-ms.openlocfilehash: cd425c71c06074b5d12851dd126692c914b95489
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Advanced eDiscovery에서 Analyze 및 Process 모듈을 사용할 때 특정 텍스트를 무시 하는 규칙을 정의 하는 방법을 알아봅니다.
+ms.openlocfilehash: fd7b1f3236c88faf792a97146bbed35802f6c695
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631255"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936895"
 ---
 # <a name="set-ignore-text-option-for-analyze-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 분석에 대 한 텍스트 무시 옵션 설정 (클래식)
 
 > [!NOTE]
-> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 텍스트 무시 기능은 분석 (거의 중복, 전자 메일 스레드, 테마) 및 관련성에 따라 다음과 같은 고급 eDiscovery 모듈 전체 또는 일부에 적용할 수 있습니다. 무시 된 텍스트는 관련성이 있는 파일에 표시 되지 않으며, 분석/계산은 무시 되는 텍스트를 무시 합니다.
   
@@ -62,7 +62,7 @@ ms.locfileid: "43631255"
     
     **두 번째 문장이 며 두 번째 줄이 됩니다. "**
     
-    정규식 first (.\*) $의 결과는 다음과 같습니다.
+    정규식 first (. \* ) $의 결과는 다음과 같습니다.
     
     **"이는**
     
@@ -76,7 +76,7 @@ ms.locfileid: "43631255"
     
     예를 들어 다음 정규식은 Begin 및 End 문자열 사이에 있는 전자 메일 스레드에 있는 고 지 사항 및 법률 자문을 제거 합니다.
     
-    **이 메시지에는 기밀 정보 (. | \s)\*확인이 필요한 경우 하드 카피 버전을 요청 하세요.**
+    **이 메시지에는 기밀 정보 (. | \s) \* 확인이 필요한 경우 하드 카피 버전을 요청 하세요.**
     
 - 고 지 사항 (특수 문자 포함)을 제거 하려면 
     
@@ -90,11 +90,11 @@ ms.locfileid: "43631255"
     
     위의 부인 내용을 제거 하는 정규식은 다음과 같습니다. 
     
-    **\/\\*\\이 메시지에는 기밀\.정보 (. | \s)\* 확인이 필요한 경우 하드 카피 버전\. 을 요청 하세요.\/\\*\\**
+    **\/\\*\\이 메시지에는 기밀 정보 \. (. | \s) \* 확인이 필요한 경우 하드 카피 버전 \. 을 요청 하세요.\/\\*\\**
     
 - 정규식 규칙:
     
-  - 공백을 제외 하 고 알파벳의 일부가 아닌 모든 문자, "_" 및 "-"은 앞에 "가와 야 합니다\".
+  - 공백을 제외 하 고 알파벳의 일부가 아닌 모든 문자, "_" 및 "-"은 앞에 "가와 야 합니다 \" .
     
   - 일반 eExpression 필드의 길이에는 제한이 없습니다.
     
@@ -103,7 +103,7 @@ ms.locfileid: "43631255"
   
 ## <a name="define-ignore-text-rule"></a>무시 텍스트 규칙 정의
 
-1. 분석 ** \> 분석 옵션 \> 관리** 탭의 **텍스트 무시** 섹션에서 **+** 아이콘을 클릭 하 여 규칙을 추가 합니다. 
+1. 분석 ** \> \> 분석 옵션 관리** 탭의 **텍스트 무시** 섹션에서 아이콘을 클릭 **+** 하 여 규칙을 추가 합니다. 
     
 2. **Ignore 텍스트 추가** 대화 상자의 **이름** 필드에 무시 텍스트 규칙의 이름을 입력 합니다. 
     

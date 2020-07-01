@@ -20,14 +20,14 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 44ba7a1c877580f31ca858f7fefcc502e0bb8beb
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: 23938dc78c498af76267233c8ad38dd909d56400
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844627"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936632"
 ---
-# <a name="microsoft-secure-score"></a>Microsoft Secure Score
+# <a name="microsoft-secure-score"></a>Microsoft 보안 점수
 
 Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 많은 향상 작업이 수행 되었음을 나타냅니다. 이 도구 https://security.microsoft.com/securescore 는 [Microsoft 365 보안 센터](overview-security-center.md)에서 찾을 수 있습니다.
 
@@ -56,6 +56,19 @@ Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 
 ### <a name="products-included-in-secure-score"></a>안전한 점수에 포함 된 제품
 
 현재 Microsoft 365 (Exchange Online 포함), Azure AD, Microsoft Defender ATP, Azure ATP 및 Cloud App Security에 대 한 권장 사항이 있습니다. 다른 보안 제품에 대 한 권장 사항은 곧 제공 될 예정입니다. 권장 사항은 각 제품과 연결 된 모든 공격 표면을 다루지는 않지만 좋은 기준이 됩니다. 또한 제 3 자 또는 다른 완화 조치로 인 한 향상 작업을 표시할 수도 있습니다.
+
+### <a name="security-defaults"></a>보안 기본값
+
+Microsoft 보안 점수에는 [Azure Active Directory에서 보안 기본값](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)을 지원 하기 위해 개선 작업이 업데이트 되었으며, 일반적인 공격에 대 한 미리 구성 된 보안 설정을 사용 하 여 조직을 보다 쉽게 보호할 수 있습니다.
+
+보안 기본값을 설정 하면 다음과 같은 개선 작업에 대 한 전체 점수가 부여 됩니다.
+
+- 모든 사용자가 보안 액세스에 대 한 다단계 인증을 완료할 수 있는지 확인 (9 포인트)
+- 관리 역할에 대 한 MFA 필요 (10 포인트)
+- 정책을 사용 하 여 레거시 인증을 차단 합니다 (7 포인트).
+
+>[!IMPORTANT]
+>보안 기본값에는 "로그인 위험 정책" 및 "사용자 위험 정책" 개선 작업에 비슷한 보안 기능을 제공 하는 보안 기능이 포함 되어 있습니다. 보안 기본값에서 이러한 정책을 설정 하는 대신, 상태를 "대안 완화"로 업데이트 하는 것이 좋습니다.
 
 ## <a name="required-permissions"></a>필요한 사용 권한
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 description: Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는 항상 발전 하 고 있습니다. 이번 달의 새로운 기능과 업데이트 된 기능에 대해 알아보세요.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3bba8d0bbd68c6d28d72bcf32abdc798d7125250
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: b3305a2d6fe2d25730b6d39891723675e7243f50
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818968"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936151"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Microsoft 365 준수 콘텐츠에 대 한 최신 업데이트
 
@@ -112,7 +112,7 @@ Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는
 [민감도 레이블을 사용 하 여 Microsoft 팀, microsoft 365 그룹 및 SharePoint 사이트의 콘텐츠 보호 (공개 미리 보기)](sensitivity-labels-teams-groups-sites.md) (업데이트 됨)<br>변경 내용은 다음과 같습니다.
 
 - Azure ad 지침이 제거 되었으며 [AZURE ad 권한 정보](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels)에 연결 됩니다.
-- 새 **없음** 옵션을 비롯 하 여 **Office 365 그룹에 연결 된 팀 사이트** 설정에 대 한 정보로 [민감도 레이블 섹션을 만들거나 편집할 때 사이트 및 그룹 설정을 구성 하는 방법이](sensitivity-labels-teams-groups-sites.md#how-to-configure-site-and-group-settings-when-you-create-or-edit-sensitivity-labels) 업데이트 되었습니다.
+- 새 **없음** 옵션을 비롯 하 여 **Office 365 그룹에 연결 된 팀 사이트** 설정에 대 한 정보를 사용 하 여 [사이트 및 그룹 설정 구성](sensitivity-labels-teams-groups-sites.md#how-to-configure-site-and-group-settings) 섹션을 업데이트 했습니다.
 - 사용자가 팀, 그룹 및 사이트를 만들 때 사이트 및 그룹 설정을 포함 하는 레이블만 선택할 수 있는 방법을 설명 하는 참고 사항이 추가 되었습니다. 이 기능은 조직에 점진적으로 롤아웃 됩니다.
 
 [민감도 레이블을 사용 하 여 암호화를 적용 하 여 콘텐츠에 대 한 액세스 제한](encryption-sensitivity-labels.md) (업데이트 됨)<br>문서 및 전자 메일을 보호 하기 위해 가장 일반적으로 사용 되는 일부 구성에 대 한 예제 암호화 설정이 포함 된 [새 섹션](encryption-sensitivity-labels.md#example-configurations-for-the-encryption-settings) 입니다.
