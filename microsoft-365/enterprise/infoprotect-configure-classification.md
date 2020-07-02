@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에서 데이터를 분류하는 다양한 방법을 이해하고 구성합니다.
-ms.openlocfilehash: e8c40ca4c419edc2d59a060dfd4fe8918cf4e784
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 57d4c692630826f371ea825d86fc64b959b71df2
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633476"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005813"
 ---
 # <a name="step-2-configure-classification-for-your-environment"></a>2단계: 사용자 환경에 대한 분류 구성
 
@@ -92,7 +92,7 @@ Azure Information Protection 레이블 및 보호를 계획하고 배포하려�
 
 기존 Azure Information Protection 레이블은 민감도 레이블과 원활하게 작동합니다. 예를 들어, 기존 Azure Information Protection 레이블과 문서 및 이메일에 적용되는 레이블을 유지할 수 있습니다.
 
-민감도 및 Azure 정보 보호 레이블이 모두 있는 경우 [Azure Information Protection 레이블을 민감도 레이블로 마이그레이션](https://docs.microsoft.com/office365/securitycompliance/sensitivity-labels#how-sensitivity-labels-work-with-existing-azure-information-protection-labels)해야합니다.
+민감도 및 Azure 정보 보호 레이블이 모두 있는 경우 [Azure Information Protection 레이블을 민감도 레이블로 마이그레이션](https://docs.microsoft.com/office365/securitycompliance/sensitivity-labels#sensitivity-labels-and-azure-information-protection)해야합니다.
 
 ## <a name="example-classification-for-gdpr"></a>예: GDPR에 대한 분류
 

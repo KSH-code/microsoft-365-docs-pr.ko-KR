@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e6574d59fef98e026da31a21dab9189d2af4581e
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: b29ff790dbfafb281325879904fe5bfa71fdcf17
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818007"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45023339"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -469,7 +469,7 @@ Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $us
 
 5.  **위치 선택** 탭에서 **특정 위치 선택 허용**을 선택하고 **다음**을 선택합니다.
 
-6.  **상태** 열에서 **Exchange 전자 메일, OneDrive 계정, Teams 채팅 및 채널 메시지** 를 선택하고  **다음**을 선택합니다. (참고: EDM은 현재 SharePoint 사이트에서 지원되지 않으며 DLP 정책은 EDM용 Sharepoint에서 파일을 검색하지 않습니다.)
+6.  **상태** 열에서 **Exchange 전자 메일, OneDrive 계정, Teams 채팅 및 채널 메시지** 를 선택하고  **다음**을 선택합니다.
 
 7.  **정책 설정** 탭에서 **고급 설정 사용**을 선택하고 **다음**을 선택합니다.
 
@@ -506,7 +506,3 @@ Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $us
 [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)
 
 [New-DlpEdmSchema](https://docs.microsoft.com/powershell/module/exchange/new-dlpedmschema?view=exchange-ps)
-
-## <a name="feedback"></a>피드백
-
-GitHub 피드백을 사용할 수 있지만, 공개 사이트에서만 문제를 추가할 수 있습니다.

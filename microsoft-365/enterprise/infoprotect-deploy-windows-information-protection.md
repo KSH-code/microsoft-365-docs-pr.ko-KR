@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365에서 WIP(Windows Information Protection) 이해 및 배포
-ms.openlocfilehash: 66c9e10772edb0782096ba120858e895684255b2
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c7b76ef28d41810d6e9e45e98adb7a94cf8ae2f4
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631648"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005725"
 ---
 # <a name="step-4-configure-windows-information-protection"></a>4단계: WIP(Windows Information Protection) 구성
 
@@ -37,11 +37,14 @@ Microsoft 365 Enterprise에서, WIP는 구독에 포함된 Windows 10 Enterprise
 Microsoft 365 Enterprise와 함께 조직에 WIP를 배포하려면 다음을 수행합니다.
 
 1. Intune에 Windows 장치를 등록합니다. [5단계: 모바일 장치 관리](mobility-infrastructure.md)에서 이 작업을 했어야 합니다.
-2. [WIP용 Intune 정책](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure)을 만듭니다.
-  - 제한된 앱 목록을 작성했는지 확인합니다.
-  - WIP 보호 수준을 선택합니다.
 
-[Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/overview-create-wip-policy-sccm)에서 WIP를 사용할 수도 있습니다. 
+2. [WIP용 Intune 정책](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure)을 만듭니다.
+
+   -    제한된 앱 목록을 작성했는지 확인합니다.
+  
+   - WIP 보호 수준을 선택합니다.
+
+[Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-configmgr)에서 WIP를 사용할 수도 있습니다. 
 
 자세한 내용은 [WIP 모범 사례]( https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/guidance-and-best-practices-wip)를 참조하세요.
 
