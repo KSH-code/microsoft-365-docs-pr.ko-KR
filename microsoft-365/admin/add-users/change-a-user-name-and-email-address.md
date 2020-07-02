@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: '전역 관리자가 사용자의 전자 메일 주소 및 표시 이름을 변경하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 76a2124c7fc73e40650a18985a5aa10acf57737a
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 0c94114a50ce369ffb809e8f41060994f635a36c
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780628"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936530"
 ---
 # <a name="change-a-user-name-and-email-address"></a>사용자 이름 및 전자 메일 주소 변경
 
@@ -50,7 +50,7 @@ ms.locfileid: "44780628"
     
 2. 사용자 이름을 선택한 다음 **계정** 탭에서 **사용자 이름 관리**를 선택합니다.
     
-3. 첫 번째 상자에 새 전자 메일 주소의 첫 부분을 입력합니다. Office 365에 고유 도메인을 추가한 경우 드롭다운 목록을 사용하여 새 전자 메일의 도메인을 선택할 수 있습니다. 
+3. 첫 번째 상자에 새 전자 메일 주소의 첫 부분을 입력합니다. Office 365에 본인의 도메인을 추가한 경우 드롭다운 목록을 사용하여 새로운 전자 메일 별칭의 도메인을 선택합니다. 
 
 4. **변경 내용 저장**을 선택합니다.
 
@@ -99,17 +99,17 @@ ms.locfileid: "44780628"
   
 4. 사용자의 로그인 정보를 변경하려 한다는 큰 노란색 경고가 표시됩니다. **저장**을 선택한 다음 **닫기**를 선택합니다.
     
-5. 사용자에게 다음과 같은 정보를 알립니다.
+5. 사용자에게 다음과 같은 정보를 표시합니다.
  
-  - 변경 내용이 적용되는 데 시간이 걸릴 수 있습니다.
+  - 이 변경 내용을 적용하는 데 시간이 걸릴 수 있습니다.
   
-  - What their new username is. They'll need it to sign in to Office 365.
+  - Their new username. They'll need it to sign in to Microsoft 365.
     
-  - 사용자가 비즈니스용 Skype Online을 사용 중인 경우 사용자에게 모든 비즈니스용 Skype Online 모임의 일정을 조정하고 해당 외부 연락처에 이전 연락처 정보를 업데이트하도록 알려야 한다고 알립니다.
+  - 사용자가 비즈니스용 Skype Online을 사용하는 경우 본인이 구성한 비즈니스용 Skype Online 모임의 일정을 조정하고 해당 외부 연락처에 그 연락처 정보를 업데이트하도록 지시해야 합니다.
 
-  - 해당 사용자가 OneDrive를 사용하는 경우에 이 위치에 대한 URL이 변경되었음을 알립니다. OneDrive에 OneNote 전자 필기장이 있는 경우 OneNote에서 전자 필기장을 닫았다가 다시 열어야 할 수 있습니다. OneDrive의 공유 파일이 있는 경우 파일에 대한 링크가 작동하지 않을 수 있고 사용자가 다시 공유할 수 있습니다.    
+  - 해당 사용자가 Microsoft OneDrive를 사용하는 경우 이 위치의 URL이 변경되었습니다. OneDrive에 OneNote 전자 필기장이 있는 경우 OneNote에서 전자 필기장을 닫았다가 다시 열어야 할 수 있습니다. OneDrive의 파일을 공유한 경우 파일 링크가 작동하지 않을 수 있고 사용자는 다시 공유할 수 있습니다.    
   
-  - 해당 암호도 변경된 경우 사용자에게 모바일 장치에서 새 암호를 입력하라는 메시지가 표시되며 새 암호를 입력하지 않으면 모바일 장치가 동기화되지 않는다고 알립니다.
+  - 해당 암호도 변경된 경우 사용자에게 모바일 장치에서 새 암호를 입력하라는 메시지가 표시되고 새 암호를 입력하지 않으면 모바일 장치가 동기화되지 않습니다.
   
 ::: moniker-end
 
@@ -181,7 +181,7 @@ ms.locfileid: "44780628"
 
     “**사용자를 편집할 수 없습니다. 사용자 정보를 검토하고 다시 시도하세요.** 가 표시되는 경우 [오류 메시지 해결](#resolve-error-messages)을 참조하세요.
 
-It might take up to 24 hours for this change to take effect across all services. After the change has taken effect, the person will have to sign in to Outlook, Skype for Business and SharePoint with their updated username, so be sure to tell them about this change.
+It might take up to 24 hours for this change to take effect across all services. After the change has taken effect, the person will have to sign in to Outlook, Skype for Business and SharePoint with their updated username.
 
 ::: moniker-end
 
@@ -217,7 +217,7 @@ It might take up to 24 hours for this change to take effect across all services.
 
 ### <a name="a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>"매개 변수 이름 'EmailAddresses와 일치하는 매개 변수를 찾을 수 없습니다.”
 
-If you get the error message " **A parameter cannot be found that matches parameter name 'EmailAddresses**" it means that it's taking a bit longer to finish setting up your tenant, or your custom domain if you recently added one. The setup process can take up to 4 hours to complete. Wait a while so the set up process has time to finish, and then try again. If the problem persists, call Support and they will do a full sync for you.
+If you get the error message " **A parameter cannot be found that matches parameter name 'EmailAddresses**" it means that it's taking a bit longer to finish setting up your tenant, or your custom domain if you recently added one. The setup process can take up to 4 hours to complete. Wait a while so the set up process has time to finish, and then try again. If the problem persists, call [support](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products) and ask them to do a full sync for you.
   
 ### <a name="were-sorry-the-user-couldnt-be-edited-review-the-user-information-and-try-again"></a>“죄송합니다. 사용자를 편집할 수 없습니다. 사용자 정보를 검토하고 다시 시도하세요."
 
@@ -228,13 +228,13 @@ If you get the error message " **A parameter cannot be found that matches parame
 
 A person's previous primary email address is retained as an additional email address. **We strongly recommend that you don't remove the old email address.**
   
-Some people will likely continue to send email to the person's old email address and deleting it may result in NDR failures. Microsoft will automatically route it to the new one. Also, do not reuse old SMTP email addresses and apply them to new accounts. This can also cause NDR failures or delivery to an unintended mailbox.
+Some people might continue to send email to the person's old email address and deleting it may result in NDR failures. Microsoft automatically routes it to the new one. Also, do not reuse old SMTP email addresses and apply them to new accounts. This can also cause NDR failures or delivery to an unintended mailbox.
    
 ## <a name="what-if-the-persons-offline-address-book-wont-sync-with-the-global-address-list"></a>사용자의 오프라인 주소록이 전체 주소 목록과 동기화되지 않으면 어떻게 되나요?
 
-If they are using Exchange Online or if their account is linked with your organization's on-premises Exchange environment, you may see this error when you try to change a username and email address: "This user is synchronized with your local Active Directory. Some details can be edited only through your local Active Directory."
+If they are using Exchange Online or if their account is linked with your organization's on-premises Exchange environment, you might see this error when you try to change a username and email address: "This user is synchronized with your local Active Directory. Some details can be edited only through your local Active Directory."
   
-This is due to the Microsoft Online Email Routing Address (MOERA). The MOERA is constructed from the person's  _userPrincipalName_ attribute in Active Directory and is automatically assigned to the cloud account during the initial sync and once created, it cannot be modified or removed in Office 365. You can subsequently change the username in the Active Directory, but it will not change the MOERA and you may run into issues displaying the newly changed name in the Global Address List. 
+This is due to the Microsoft Online Email Routing Address (MOERA). The MOERA is constructed from the person's  _userPrincipalName_ attribute in Active Directory and is automatically assigned to the cloud account during the initial sync and once created, it cannot be modified or removed in Office 365. You can subsequently change the username in the Active Directory, but it doesn't change the MOERA and you may run into issues displaying the newly changed name in the Global Address List. 
   
 이 문제를 해결하려면 Microsoft 365 관리자 자격 증명으로 [PowerShell용 Azure Active Directory 모듈]( https://go.microsoft.com/fwlink/?LinkId=823193)에 로그인합니다. 그리고 다음 구문을 사용합니다. 
   
