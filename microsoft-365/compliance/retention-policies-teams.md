@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Teams에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: 709d4414ebb01081172aff932899146c06d05a19
-ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
+ms.openlocfilehash: 869f457ddb64e5d828dcb5f1244ba779f889e8c9
+ms.sourcegitcommit: e3900c818877c2cdcd227917ec975c03e828c7ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268282"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44861165"
 ---
 # <a name="learn-about-retention-policies-for-microsoft-teams"></a>Microsoft Teams의 보존 정책에 대해 자세히 알아보기
 
@@ -77,7 +77,7 @@ Teams 채팅 및 채널 메시지는 사용자 또는 그룹 사서함에 대해
 
 ## <a name="files-in-teams"></a>Teams의 파일
 
-Teams의 채팅에서 공유되는 파일은 파일을 공유하는 사용자의 OneDrive 계정에 저장됩니다. 채널에 업로드된 파일은 해당 팀의 SharePoint 사이트에 저장됩니다. 즉, Teams에서 파일을 유지하거나 삭제하려면 Teams에 대해 구성한 보존 정책 외에도 **OneDrive 계정** 및 **SharePoint 사이트**에 적용되는 하나 이상의 보존 정책을 구성해야 합니다. 이러한 위치에서 보존 정책이 작동하는 방법에 대한 자세한 내용은 [SharePoint 및 OneDrive의 보존 정책에 대해 알아보기](retention-policies-sharepoint.md)를 참조하세요.
+Teams의 채팅에서 공유되는 파일은 파일을 공유하는 사용자의 OneDrive 계정에 저장됩니다. 채널에 업로드된 파일은 해당 팀의 SharePoint 사이트에 저장됩니다. 즉, Teams에서 파일을 유지하거나 삭제하려면 Teams에 대해 구성한 보존 정책 외에도 OneDrive 계정 및 SharePoint에 적용되는 하나 이상의 보존 정책을 구성해야 합니다. 이러한 위치에서 보존 정책이 작동하는 방법에 대한 자세한 내용은 [SharePoint 및 OneDrive의 보존 정책에 대해 알아보기](retention-policies-sharepoint.md)를 참조하세요.
 
 > [!NOTE]
 > Teams 채널 메시지 또는 Teams 채팅을 포함하는 보존 정책에는 Teams 위치만 포함될 수 있습니다. 따라서 Teams에서 이러한 파일을 유지하거나 삭제하려면 별도의 보존 정책을 만들어야합니다.
@@ -98,6 +98,12 @@ SharePoint 또는 OneDrive에 적용되는 보존 정책은 해당 메시지가 
 
 - 외부 사용자가 다른 Microsoft 365 조직의 계정을 사용하여 참여하는 경우 보존 정책은 이 사용자의 메시지가 다른 테넌트의 해당 사용자의 사서함에 저장되어 있기 때문에 해당 사용자의 메시지를 삭제할 수 없습니다. 그러나 동일한 모임의 경우 보존 정책이 사용자의 메시지를 삭제할 수 있습니다.
 
+
+## <a name="when-a-user-leaves-the-organization"></a>사용자가 조직을 떠나는 경우 
+
+사용자가 조직을 떠나 Office 365 계정이 삭제된 경우 보존이 적용되는 해당 사용자의 채팅 메시지는 비활성 사서함에 저장됩니다. 채팅 메시지는 비활성화 상태로 변경되기 전에 사서함에 적용된 보존 정책의 적용을 받으며, 콘텐츠 또한 eDiscovery 검색에서 사용될 수 있습니다. 자세한 내용은 [Exchange Online에서 비활성 사서함](inactive-mailboxes-in-office-365.md)을 참조하세요. 
+
+사용자가 Teams에 저장한 파일이 있다면 SharePoint 및 OneDrive의 경우 [해당 섹션](retention-policies-sharepoint.md#when-a-user-leaves-the-organization)을 참조하세요.
 
 ## <a name="limitations"></a>제한 사항
 
@@ -123,12 +129,9 @@ Microsoft는 Teams에서 보존 기능을 최적화하기 위해 지속적으로
     
     - **Teams 채팅** 위치에 대해 **사용자 선택**을 선택하면 게스트 및 사서함이 아닌 사용자가 표시될 수 있습니다. 보존 정책은 이러한 사용자를 위해 설계되지 않았으므로 선택하지 마세요.
 
-
 ## <a name="how-to-configure-a-retention-policy-for-microsoft-teams"></a>Microsoft Teams에 보존 정책을 구성하는 방법
 
-[보존 정책 만들기 및 구성하기](create-retention-policies.md)를 참조하세요.
-
-마법사의 **위치 선택** 페이지에서 다음 옵션을 선택하세요.
+[보존 정책 만들기](create-retention-policies.md) 및 구성 지침에 따라 마법사의 **위치 선택** 페이지에서 다음 옵션을 선택합니다.
 
 - **** > **Teams 채널 메시지** 및 **Teams 채팅**에서 특정 위치를 선택할 수 있습니다.
 

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365에서 사용자 지정 도메인과 함께 SPF(Sender Policy Framework)를 사용할 수 있도록 DNS(도메인 이름 서비스) 레코드를 업데이트하는 방법을 알아봅니다.
-ms.openlocfilehash: 6061cd9ea52f4ed4073f510dcba60fba9b4fd23c
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 93356799967932813252e7db27e7ac796e46cbc6
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588079"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936940"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>스푸핑을 방지할 수 있도록 SPF 설정
 
@@ -59,7 +59,7 @@ DNS에서 TXT 레코드를 업데이트하기 전에 먼저 정보를 수집하�
 
 ### <a name="to-add-or-update-your-spf-txt-record"></a>SPF TXT 레코드를 추가하거나 업데이트하려면
 
-1. 다음 표에서는 SFP 구문을 잘 알고 있어야 합니다.
+1. 다음 표에서는 SPF 구문을 잘 알고 있어야 합니다.
 
    ||**다음를 사용하는 경우...**|**고객에게 일반적인가요?**|**이것을 추가하세요...**|
    |:-----|:-----|:-----|:-----|
