@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: 비즈니스에 대 한 Microsoft 365, 비즈니스를 설정 하는 방법, 그리고 Microsoft 365 for business에서 보호 되는 사용자의 장치 및 Pc를 준비 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 48a103333e101d545d562e7f2e9dd7329686f107
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+ms.openlocfilehash: 08a956cc7e68bbba74d29bafaab77065be1321ce
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786157"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45022120"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Microsoft 365 for business 시작
 
@@ -65,7 +65,7 @@ Microsoft 365 for business setup의 개요를 보려면이 비디오를 시청 �
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
 
   
 ### <a name="1-set-up-microsoft-365-for-business-admin"></a>1: Microsoft 365 for business (Admin)를 설정 합니다.
@@ -84,7 +84,7 @@ Microsoft 365 for business setup의 개요를 보려면이 비디오를 시청 �
     
     - 디렉터리 동기화 마법사를 사용 하 여 사용자를 클라우드와 동기화 합니다. [Microsoft 365에 대 한 디렉터리 동기화 설정](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) 의 단계에 따라이 프로세스를 완료 합니다. 사용자를 클라우드에 동기화 한 후 [에는 Office 365에 대 한 디렉터리 동기화를 해제](https://docs.microsoft.com/office365/enterprise/turn-off-directory-synchronization)해야 합니다.
     
-    또한이 방식으로 추가 된 각 사용자에 게 Microsoft 365에 대 한 라이선스를 제공 해야 합니다. [설치 마법사](set-up.md) 에서이 작업을 수행 하거나 [Microsoft 365에서 비즈니스용 사용자에 게 라이선스를 할당할](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)수 있습니다.
+    또한이 방식으로 추가 된 각 사용자에 게 Microsoft 365에 대 한 라이선스를 제공 해야 합니다. [설치 마법사](set-up.md) 에서이 작업을 수행 하거나 [사용자에 게 라이선스를 할당할](../admin/manage/assign-licenses-to-users.md)수 있습니다.
     
 ### <a name="2-prepare-mobile-devices"></a>2: 모바일 장치 준비
 

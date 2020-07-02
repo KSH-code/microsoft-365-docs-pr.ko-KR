@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구인 Microsoft 준수 관리자에 대해 알아봅니다.
-ms.openlocfilehash: 79f3145e2512bfb174339ef2cde9a2594b116004
-ms.sourcegitcommit: 56772bed89516cebc5eb370e292ccfbb4889cb38
+ms.openlocfilehash: 514ee0e032e378c407713254d5d11fcd41a8d91c
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44330748"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45016131"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Microsoft 준수 관리자 (미리 보기)
 
@@ -31,7 +31,7 @@ ms.locfileid: "44330748"
 
 **이 문서의**내용:이 문서를 읽으면 준수 관리자가 무엇 이며 주요 구성 요소를 이해 하 고 있습니다.
 
-**업데이트에 대 한 자세한**내용은 4 월 2020 공용 미리 보기 릴리스에서 몇 가지 업데이트를 게시 했습니다. [준수 관리자 릴리스 정보](compliance-manager-release-notes.md) 를 방문 하 여 새로운 기능과 알려진 문제를 확인 합니다.
+**업데이트에 대 한 자세한**내용은 [준수 관리자 릴리스 정보](compliance-manager-release-notes.md) 를 방문 하 여 새로운 기능 및 알려진 문제를 확인 하세요.
 
 ## <a name="what-is-compliance-manager"></a>준수 관리자 란?
 
@@ -53,7 +53,7 @@ Microsoft [준수 관리자 (미리 보기)](https://servicetrust.microsoft.com/
 
 [Microsoft 규정 준수 점수 (미리 보기)](compliance-score.md) 는 조직의 규정 준수 상황에 대 한 최상위 보기를 제공 하는 microsoft 365 준수 센터의 기능입니다. 데이터 보호 및 규정 표준에 대 한 위험을 줄이는 데 도움이 되는 작업 완료의 진행 상태를 측정 하는 위험 기반 점수를 계산 합니다. 전체 준수 점수를 알면 조직에서 규정 준수를 이해 하 고 관리할 수 있습니다. [준수 점수가 계산 되는 방식을](compliance-score-methodology.md)이해 합니다.
 
-준수 관리자는 준수 점수를 사용 하 여 동일한 백엔드를 공유 합니다. 두 도구에 대 한 공용 미리 보기 단계에서 준수 관리자는 평가 및 사용자 지정 컨트롤 구현을 관리 합니다. [준수 점수와 준수 관리자 간의 관계](compliance-score-release-notes.md#compliance-score-relationship-to-compliance-manager)에 대해 자세히 알아보세요.
+준수 관리자는 준수 점수를 사용 하 여 동일한 백엔드를 공유 합니다. 두 도구에 대 한 공용 미리 보기 단계에서 준수 관리자는 사용자 지정 컨트롤 구현을 관리 합니다. [준수 점수와 준수 관리자 간의 관계](compliance-score-release-notes.md#compliance-score-relationship-to-compliance-manager)에 대해 자세히 알아보세요.
 
 ## <a name="compliance-manager-components"></a>준수 관리자 구성 요소
 
@@ -129,7 +129,7 @@ Microsoft [준수 관리자 (미리 보기)](https://servicetrust.microsoft.com/
 
 준수 점수에 있는 **향상 작업** 은 준수 관리자의 **작업 항목과** 동일 합니다.
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 준수 관리자는 역할 기반 액세스 제어 사용 권한 모델을 사용합니다. 사용자 역할이 할당된 사용자만 준수 관리자에 액세스할 수 있으며, 각 사용자가 허용하는 작업은 역할 유형에 따라 제한됩니다. 각 권한에 대해 허용 되는 작업을 보여 주는 [테이블을 봅니다](working-with-compliance-manager.md#permissions) .
 

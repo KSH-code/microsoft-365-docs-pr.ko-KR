@@ -21,12 +21,12 @@ description: Microsoft 365 관리 센터-이 달에 추가 된 기능에 대해 
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: d0c32c7f7ac3b2824cd48c0e10085e3d59a16c69
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 0bb0955e08c187ae7b425228f435566bcd8e01d7
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780710"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45015996"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운 기능
 
@@ -349,7 +349,7 @@ Microsoft 365 관리 센터의 새로운 기능 Ignite Edition에 오신 것을 
 
 - **즐겨찾기** -즐겨찾기 또는 가장 많이 사용 하는 역할에 별을 추가 하 여 열을 정렬 하거나 필터를 만들어 쉽게 찾을 수 있습니다.
 - **활성 사용자**  >  **역할 관리** -역할이 변경 내용에 맞게 업데이트 되었습니다. 역할 목록과 마찬가지로 기본 역할 목록의 범위를 가장 유용 하 게 지정 했지만 **범주별로 모두 표시**를 확장 하 여 모든 역할을 볼 수 있습니다.
-- **전역 독자 역할** -사용자에 게 요청 되었습니다. 바로 그거야! [전역 독자](add-users/about-admin-roles.md#azure-ad-roles-available-in-the-microsoft-365-admin-center) 역할!
+- **전역 독자 역할** -사용자에 게 요청 되었습니다. 바로 그거야! [전역 독자](add-users/about-admin-roles.md) 역할!
 
 ### <a name="report-an-issue"></a>문제 보고
 

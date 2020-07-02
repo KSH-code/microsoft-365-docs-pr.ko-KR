@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 여러 사용자를 추가할 때 템플릿을 만들고 사용 하 여 시간을 절약 하 고 설정을 표준화할 수 있습니다.
-ms.openlocfilehash: cbe61c87bec40196ffd7a8e9868ea4611e4c259e
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 29953eb97476799d74e883ed8b20bd5f3382cbf4
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44431812"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45022148"
 ---
 # <a name="create-and-use-a-template-to-add-users"></a>서식 파일을 만들고 사용하여 사용자 추가
 
@@ -89,7 +89,7 @@ ms.locfileid: "44431812"
 
 ## <a name="related-articles"></a>관련 문서
 
-[사용자를 개별적으로 또는 대량으로 Microsoft 365에 추가](add-users.md)
+[사용자 추가 및 동시에 라이선스 할당](add-users.md)
 
 [Microsoft 365에서 이전 직원을 제거 합니다.](remove-former-employee.md)
   

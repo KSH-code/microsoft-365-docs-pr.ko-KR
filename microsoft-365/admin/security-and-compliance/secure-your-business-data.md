@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: '랜 섬 웨어, 피싱 및 악의적 첨부 파일을 포함 하 여 사이버 위협 으로부터 비즈니스 전자 메일 및 데이터를 보호 합니다. '
-ms.openlocfilehash: 79ff8642170a5e45f67d95d7993632fd66252208
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 12a8d036a043cfdd162b5aa47e1d6d5023a42c81
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44779956"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005633"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Microsoft 365 비즈니스 계획을 보호 하는 10 가지 주요 방법
 
@@ -44,15 +44,15 @@ Microsoft의 비즈니스 계획 중 하나를 사용 하는 중소 규모의 �
 ||**작업**|**Microsoft 365 Business Standard**|**Microsoft 365 Business Premium**|
 |:-----|:-----|:-----|:-----|
 |1   <br/> |[다단계 인증 설정](secure-your-business-data.md#setup) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|2  <br/> |[사용자 교육](secure-your-business-data.md#train) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|3(sp3)  <br/> |[전용 관리자 계정 사용](secure-your-business-data.md#admin) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|2   <br/> |[사용자 교육](secure-your-business-data.md#train) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|3   <br/> |[전용 관리자 계정 사용](secure-your-business-data.md#admin) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |4   <br/> |[메일에서 맬웨어에 대 한 보호 수준 올리기](secure-your-business-data.md#malware) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |5   <br/> |[랜섬웨어로부터 보호](secure-your-business-data.md#ransomware) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |6   <br/> |[전자 메일에 대 한 자동 전달 중지](secure-your-business-data.md#forwarding) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |7   <br/> |[Office 메시지 암호화 사용](secure-your-business-data.md#encryption) <br/> ||![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |8   <br/> |[피싱 공격 으로부터 전자 메일을 보호 합니다.](secure-your-business-data.md#phishing) <br/> ||![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |9   <br/> |[ATP 안전한 첨부 파일을 사용 하 여 악의 있는 첨부 파일과 파일을 보호 합니다.](secure-your-business-data.md#atp) <br/> ||![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|10    <br/> |[ATP 안전한 링크를 통한 피싱 공격 으로부터 보호](secure-your-business-data.md#phishingatp) <br/> ||![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|10   <br/> |[ATP 안전한 링크를 통한 피싱 공격 으로부터 보호](secure-your-business-data.md#phishingatp) <br/> ||![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
    
 시작 하기 전에 Microsoft 365 보안 센터에서 [microsoft 365 보안 점수](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) 를 확인 하세요. 중앙 집중식 대시보드에서 Microsoft 365 id, 데이터, 앱, 장치 및 인프라에 대 한 보안을 모니터링 하 고 향상 시킬 수 있습니다. 권장 되는 보안 기능을 구성 하 고, 보고서 보기와 같은 보안 관련 작업을 수행 하거나, 타사 응용 프로그램 또는 소프트웨어를 사용 하 여 권장 주소를 지정 하기 위한 사항이 제공 됩니다. 보다 광범위 한 Microsoft 제품 및 서비스 집합에 대 한 추가 통찰력과 가시성을 통해 조직의 보안 상태에 대 한 보고를 받을 수 있습니다.
   
@@ -325,15 +325,17 @@ ATP 안전한 링크를 보려면 [간단한 교육 비디오](https://support.m
     
 기본 정책을 수정 하려면 다음을 수행 합니다.
   
-1. 안전한 링크 페이지의 **전체 조직에 적용 되는 정책**에서 **기본** 정책을 선택 합니다. 
+1. 안전한 링크 페이지의 **전체 조직에 적용 되는 정책**에서 **기본** 정책을 두 번 클릭 합니다. 
     
-2. **전자 메일을 제외 하 고 콘텐츠에 적용 되는 설정**아래에서 **Microsoft 365 앱 For enterprise, iOS 및 Android 용 Office를**선택 합니다.
+2. **Office 365에서 콘텐츠에 적용 되는 설정**아래에서 차단 될 URL (예: _example.com_)을 입력 하 고을 선택 **+** 합니다.
+
+3. **전자 메일을 제외 하 고 콘텐츠에 적용 되는 설정**에서 **Office 365 응용 프로그램**을 선택 하 고, **사용자가 안전한 링크를 클릭 하면 추적 안 함**, 사용자가 안전한 링크를 사용 하 여 **원본 URL로 클릭 하도록 허용 하지**않음
     
-3. **저장**을 선택합니다. 
+4. **저장**을 선택합니다. 
     
 도메인의 모든 받는 사람을 대상으로 하는 새 정책을 만들려면 다음을 수행 합니다.
   
-1. 안전한 링크 페이지의 **전체 조직에 적용 되는 정책**에서 **+** 새 정책을 만들도록 선택 합니다. 
+1. 안전한 링크 페이지의 **특정 받는 사람에 게 적용 되는 정책**에서 **+** 새 정책을 만들도록 선택 합니다. 
     
 2. 다음 표에 나와 있는 설정을 적용 합니다.
     
@@ -343,7 +345,7 @@ ATP 안전한 링크를 보려면 [간단한 교육 비디오](https://support.m
 |:-----|:-----|
 |이름  <br/> |도메인의 모든 받는 사람에 대 한 안전한 링크 정책  <br/> |
 |메시지에서 알 수 없는 잠재적 악성 Url에 대 한 작업 선택  <br/> |**Url 선택-사용자가 링크를 클릭할 때 알려진 악성 링크 목록에 대해 다시 작성 및 확인**합니다.  <br/> |
-|다운로드 가능한 콘텐츠를 검색 하기 위해 안전한 첨부 파일 사용  <br/> |이 상자를 선택 합니다.  <br/> |
+|의심 스러운 링크에 대 한 실시간 URL 검사 및 파일을 가리키는 링크를 적용 합니다.  <br/> |이 상자를 선택 합니다.  <br/> |
 |적용 대상  <br/> |받는 사람 도메인은입니다. . . 도메인을 선택 합니다.  <br/> |
 |
    

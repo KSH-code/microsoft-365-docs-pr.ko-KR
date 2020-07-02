@@ -22,12 +22,12 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Microsoft 365에서 비즈니스 평가판 또는 유료 구독을 취소 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3f60792446b468aaa5c85d03ab761fd75e607b8b
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: da9a86973c271fce8a9552cfc0ce1b287f7debc8
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818522"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45023372"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
 
@@ -144,10 +144,12 @@ ms.locfileid: "44818522"
 
 ### <a name="uninstall-office-optional"></a>Office 제거 (선택 사항)
 
-구독을 취소 했 고 사용자를 Microsoft 365이 포함 된 다른 구독으로 이동 하지 않은 경우 Microsoft 365는 기능 제한 모드로 실행 됩니다. 이 경우 사용자는 문서를 읽고 인쇄할 수 있을 뿐 이며, Microsoft 365 응용 프로그램은 허가 되지 않은 [제품 알림을](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx)표시 합니다. 혼동을 방지하기 위해 사용자가 해당 컴퓨터에서 [Office를 제거](https://support.microsoft.com/office/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx)하도록 하세요.
+구독을 취소 했 고 사용자를 Microsoft 365이 포함 된 [다른 구독으로 이동](move-users-different-subscription.md) 하지 않은 경우 microsoft 365는 기능 제한 모드로 실행 됩니다. 이 경우 사용자는 문서를 읽고 인쇄할 수 있을 뿐 이며, Microsoft 365 응용 프로그램은 허가 되지 않은 [제품 알림을](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx)표시 합니다. 혼동을 방지하기 위해 사용자가 해당 컴퓨터에서 [Office를 제거](https://support.microsoft.com/office/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx)하도록 하세요.
 
 ## <a name="related-articles"></a>관련 문서
 
 [구독 갱신](renew-your-subscription.md)
 
 [구독 다시 활성화](reactivate-your-subscription.md)
+
+[다른 구독으로 사용자 이동](move-users-different-subscription.md)

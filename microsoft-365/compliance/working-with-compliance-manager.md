@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 준수 관리자를 사용 하 여 Microsoft 제품과 관련 된 규정 준수 활동을 추적, 할당 및 확인 하는 방법을 알아봅니다.
-ms.openlocfilehash: fe7b04fe7687bc91e6f96fb2c3994a6536cec314
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: e12250c6f78759b2298bfb5ebba6ae79918a0fd9
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817085"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45023395"
 ---
 # <a name="working-with-microsoft-compliance-manager-preview"></a>Microsoft 준수 관리자 사용 (미리 보기)
 
@@ -41,7 +41,10 @@ Microsoft Service Trust Portal에서 준수 관리자에 액세스할 수 있습
 
 ## <a name="administration"></a>관리
 
-전역 관리자만 사용할 수 있으며 전역 관리자 계정으로 로그인 한 경우에만 표시 되는 특정 관리 기능이 있습니다. 전역 관리자는 사용자 권한을 할당 하 고 자동 보안 점수 업데이트를 설정할 수 있습니다.
+전역 관리자만 사용할 수 있으며 전역 관리자 계정으로 로그인 한 경우에만 표시 되는 특정 관리 기능이 있습니다. 전역 관리자는 다음을 수행할 수 있습니다.
+- [사용자 역할 할당](#assigning-compliance-manager-roles-to-users)
+- [자동 보안 점수 업데이트 설정 및 해제](#controlling-automatic-secure-score-updates)
+- [사용자 개인 정보 설정 구성](#configuring-user-privacy-settings)
   
 ### <a name="assigning-compliance-manager-roles-to-users"></a>사용자에게 준수 관리자 역할 할당
 
@@ -94,6 +97,92 @@ Microsoft Service Trust Portal에서 준수 관리자에 액세스할 수 있습
 8. **저장을 선택 합니다.** 이제 해당 작업에 대 한 보안 점수 지속적인 모니터링이 설정 됩니다.
 
 **참고:** 전역 관리자만 모든 작업에 대해 자동 업데이트를 설정 하거나 해제할 수 있습니다. 준수 관리자 관리자는 개별 작업에 대해 자동 업데이트를 설정할 수 있지만 모든 작업에 대해 전역적으로 수행 되지 않습니다.
+
+### <a name="configuring-user-privacy-settings"></a>사용자 개인 정보 설정 구성
+
+특정 규정에 따라 조직이 사용자 기록 데이터를 삭제할 수 있어야 합니다. 이를 위해 **사용자 개인 정보 설정** 기능을 통해 다음을 수행할 수 있습니다.
+  
+- [사용자 검색](#search-for-a-user)
+
+- [계정 데이터 기록의 보고서 내보내기](#export-a-report-of-account-data-history)
+
+- [작업 항목 다시 할당](#reassign-action-items)
+
+- [사용자 데이터 기록 삭제](#delete-user-data-history)
+    
+![준수 관리자의 관리자 — 사용자 개인 정보 설정 기능](../media/067d6c6a-712a-4dc2-9b99-de2fa4417dc3.png)
+  
+#### <a name="search-for-a-user"></a>사용자 검색
+
+사용자 계정을 검색하려면
+  
+1. 별칭(@ 기호 왼쪽에 있는 정보)을 입력하고 오른쪽의 도메인 접미사 목록을 클릭해 도메인 이름을 선택하여 사용자 전자 메일 주소를 입력합니다. 조직에 등록 된 도메인이 여러 개인 경우 전자 메일 주소 도메인 이름 접미사를 다시 확인 하 여 올바른 도메인 인지 확인할 수 있습니다.
+    
+2. 사용자 이름을 올바르게 입력 한 경우 **검색**을 선택 합니다.
+    
+3. 사용자 계정을 찾을 수 없으면 페이지에 ' 사용자를 찾을 수 없습니다. ' 라는 오류 메시지가 표시 됩니다. 사용자의 전자 메일 주소 정보를 확인 하 고, 필요에 따라 수정 하 고, **검색** 을 선택 하 여 다시 시도 합니다.
+    
+4. 사용자 계정이 있으면 단추 텍스트가 **검색**에서 **지우기**로 바뀌어 반환된 사용자 계정이 아래 표시될 추가 기능에 대한 작동 상황이고, 이러한 기능을 실행하면 이 사용자 계정이 적용될 것임을 나타냅니다.
+    
+5. 검색 결과를 지우고 다른 사용자를 검색 하려면 **지우기를**선택 합니다.
+    
+#### <a name="export-a-report-of-account-data-history"></a>계정 데이터 기록의 보고서 내보내기
+
+사용자 계정이 식별된 후에는 이 계정에 연결된 존재하는 종속성의 보고서를 생성할 수 있습니다. 이 정보를 사용하여 미해결 작업 항목을 다시 할당하거나 이전에 업로드한 증거에 액세스할 수 있습니다.
+  
+ 보고서를 생성하고 내보내려면:
+  
+1. 반환 된 사용자 계정에 현재 할당 된 준수 관리자 제어 작업 항목 및 해당 사용자가 업로드 한 문서 목록에 대 한 보고서를 생성 하 고 다운로드 하려면 **내보내기를** 선택 합니다. 작업을 할당 하거나 업로드 한 문서가 없는 경우 오류 메시지에 "이 사용자에 대 한 데이터가 없습니다."가 표시 됩니다.
+
+2. 보고서가 활성 브라우저 창의 백그라운드에서 다운로드 됩니다. 다운로드 팝업이 표시 되지 않으면 브라우저 다운로드 기록을 확인 합니다.
+
+3. 문서를 열어 보고서 데이터를 검토합니다.
+
+> [!NOTE]
+> This is not a historical report that retains and displays state changes to action item assignment history. The generated report is a snapshot of the control action items assigned at the time that the report is run (date and time stamp written into the report). For instance, any subsequent reassignment of action items will result in different snapshot report data if this report is generated again for the same user.
+  
+#### <a name="reassign-action-items"></a>작업 항목 다시 할당
+
+This function enables an organization to remove any active or outstanding dependencies on the user account by reassigning all action item ownership (which includes both active and completed action items) from the returned user account to a new user selected below. This action does not change document upload history for the returned user account.
+  
+ 다른 사용자에게 작업 항목을 다시 할당하려면
+  
+1. 입력 상자를 클릭하여 반환된 사용자의 작업 항목을 할당할 조직 내의 다른 사용자를 검색한 후 선택합니다.
+    
+2. **바꾸기**를 선택하여 반환된 사용자의 모든 컨트롤 작업 항목을 새로 선택한 사용자에게 다시 할당합니다.
+    
+3. 그러면 현재 사용자의 모든 컨트롤 작업 항목이 선택한 사용자에 게 다시 할당 된다는 확인 대화 상자가 나타납니다. 이 작업은 취소할 수 없습니다. 계속하시겠습니까?”라는 확인 대화 상자가 표시됩니다.
+    
+4. 계속 하려면 **확인**을 선택 하 고 그렇지 않으면 **취소**를 선택 합니다.
+    
+> [!NOTE]
+> All action items (both active and completed) will be assigned to the newly selected user. However, this action does not affect the document upload history; any documents uploaded by the previously assigned user will still show the date/time and name of the previously assigned user. 
+  
+Changing the document upload history to remove the previously assigned user will have to be done as a manual process. In that case, the administrator will need to:
+  
+1. 이전에 다운로드한 내보내기 보고서를 엽니다.
+  
+2. 원하는 컨트롤 작업 항목을 확인한 후 해당 항목으로 이동합니다.
+  
+3. **문서 관리** 를 선택 하 여 해당 컨트롤에 대 한 증거 리포지토리로 이동 합니다.
+  
+4. 문서를 다운로드합니다.
+  
+5. 증거 리포지토리에서 문서를 삭제합니다.
+  
+6. 문서를 다시 업로드 합니다. 이제 문서에 새 업로드 날짜, 시간 및 "업로드 한 사람" 사용자 이름이 포함 됩니다.
+  
+#### <a name="delete-user-data-history"></a>사용자 데이터 기록 삭제
+
+This sets control action items to 'unassigned' for all action items assigned to the returned user. This also sets uploaded by value to 'user removed' for any documents uploaded by the returned user
+  
+ 사용자 계정 작업 항목 및 문서 업로드 기록을 삭제하려면
+  
+1. **삭제**를 선택합니다.
+
+2. "이 작업은 선택한 사용자에 대 한 모든 컨트롤 동작 항목 할당 및 문서 업로드 기록을 제거 합니다. 이 작업은 취소할 수 없습니다. 계속하시겠습니까?”라는 확인 대화 상자가 표시됩니다.
+    
+3. 계속 하려면 **확인**을 선택 하 고 그렇지 않으면 **취소**를 선택 합니다.
 
 ## <a name="groups"></a>그룹
 
@@ -196,6 +285,9 @@ Microsoft Service Trust Portal에서 준수 관리자에 액세스할 수 있습
 ## <a name="assessments"></a>평가
 
 이 섹션에서는 새 평가를 추가 하 고, 내보내고, 기존 평가에서 정보를 복사 하 고, 버전 관리를 통해 업데이트 된 상태로 유지 하는 방법을 포함 하 여 검토를 보고 작업 하는 방법에 대해 설명 합니다.
+
+> [!NOTE]
+> 이제 준수 점수에 평가를 만들 수 있습니다. [지침 및 지침 보기](compliance-score-assessments.md)
 
 ### <a name="view-an-assessment-and-action-details"></a>평가 및 작업 세부 정보 보기
   
@@ -408,13 +500,16 @@ Microsoft Service Trust Portal에서 준수 관리자에 액세스할 수 있습
 
 다음과 같은 세 가지 방법으로 템플릿을 사용 하 여 평가를 만들 수 있습니다.
 
-1. Microsoft에서 제공 하는 미리 구성 된 서식 파일 중 하나를 사용 합니다.
-2. 확장 프로세스를 통해 사용자 고유의 동작과 컨트롤을 사용 하 여 미리 구성 된 서식 파일을 사용자 지정 합니다.
+1. 다음 중 하나를 사용 하 여 Microsoft에서 제공 하는 서식 파일을 사용 합니다.
+2. 확장 프로세스를 통해 자신만의 작업 및 컨트롤을 사용 하 여 서식 파일을 사용할 수 있도록 준비를 사용자 지정 합니다.
 3. 고유한 서식 파일을 만들어 준수 관리자에 게 가져옵니다.
 
-#### <a name="use-a-microsoft-pre-configured-template"></a>Microsoft 미리 구성 된 서식 파일 사용
+> [!NOTE]
+> 준수 관리자에 게 서식 파일을 업로드 하는 경우에는 관리자 역할을 보유 한 두 명의 사용자가 해당 템플릿을 게시 하 고 사용할 수 있도록 승인 해야 합니다.
 
-미리 구성 된 서식 파일은 **서식 파일** 대시보드에서 사용할 수 있습니다. 새 서식 파일을 사용할 수 있을 때마다 업데이트 되는 현재 [서식 파일 목록을](compliance-manager-overview.md#templates)확인 합니다.
+#### <a name="use-a-ready-to-use-template"></a>사용 준비 서식 파일 사용
+
+**템플릿 대시보드를** 사용 하 여 서식 파일을 사용할 수 있습니다. 새 서식 파일을 사용할 수 있을 때마다 업데이트 되는 현재 [서식 파일 목록을](compliance-score-templates.md)확인 합니다.
 
 #### <a name="customize-a-template-through-the-extension-process"></a>확장 프로세스를 통해 템플릿 사용자 지정
 
@@ -423,21 +518,23 @@ Microsoft Service Trust Portal에서 준수 관리자에 액세스할 수 있습
 3. 드롭다운 메뉴에서 확장할 템플릿을 선택 합니다.
 4. Excel에서 서식 파일 데이터를 아직 포맷 하지 않은 경우 Excel 파일을 다운로드 하려면 플라이 아웃 창에서 링크를 선택 합니다. 아래 Excel 지침을 사용 하 여 [서식 파일 가져오기 데이터](#import-template-data-with-excel) 에 따라 스프레드시트를 작성 하 고 로컬 드라이브에 저장 합니다.
 5. **찾아보기를** 선택 하 여 Excel 파일을 업로드 하는 방법으로 사용자 지정 된 서식 파일 데이터를 가져옵니다.
-6. **대시보드에 추가를**선택 합니다. 그러면 새 템플릿이 **Templates** 대시보드에 추가 되는 것을 볼 수 있습니다.
+6. **대시보드에 추가를**선택 합니다.
+7. 서식 파일을 변경 하면 관리자 역할을 보유 하는 두 명의 사용자에 대 한 승인이 필요 합니다. 이러한 사용자에 게는 서식 파일 업데이트에 대 한 알림이 표시 됩니다. 두 관리자가 변경한 내용 중 하나는 **서식** 파일 대시보드의 업데이트 된 서식 파일을 볼 수 있습니다.
 
 #### <a name="create-your-own-template-and-import-it-into-compliance-manager"></a>고유한 서식 파일을 만들어 준수 관리자에 게 가져오기
 
 1. **서식 파일** 대시보드를 열고 **+ 서식 파일 추가**를 선택 합니다.
 2. 서식 파일 플라이 아웃 창에서 **새 서식 파일 만들기**를 선택 합니다.
 3. **찾아보기를** 선택 하 여 데이터를 포함 하는 excel 파일을 업로드 하 여 서식 파일 데이터를 가져옵니다 (아래 [Excel에서 템플릿 데이터 가져오기](#import-template-data-with-excel) 참조).
-4. **대시보드에 추가를**선택 합니다. 그러면 새 템플릿이 **Templates** 대시보드에 추가 되는 것을 볼 수 있습니다.
+4. **대시보드에 추가를**선택 합니다.
+5. 새 서식 파일을 사용 하려면 관리자 역할을 보유 하는 두 명의 사용자에 대 한 승인이 필요 합니다. 이러한 사용자는 새 서식 파일을 승인할 준비가 되었다는 알림을 받습니다. 두 관리자가 서식 파일을 승인 하는 **경우 서식 파일 대시보드의 새** 서식 파일을 볼 수 있습니다.
 
 #### <a name="import-template-data-with-excel"></a>Excel을 사용 하 여 서식 파일 데이터 가져오기
 
 서식 파일을 수정 하거나 서식 파일을 직접 만들려면 [Excel 스프레드시트](https://go.microsoft.com/fwlink/?linkid=2124865) 를 사용 하 여 필요한 데이터를 캡처 하 고 준수 관리자에 게 업로드 합니다. 이 스프레드시트 서식 파일은 사용 해야 하는 특정 형식 및 스키마를 포함 하거나 준수 관리자로 가져오지 않습니다.
 
 > [!IMPORTANT]
-> 이전에 준수 관리자에서 템플릿을 만들거나 사용자 지정한 경우 **이 프로세스는** 준수 관리자의 4 월 2020 릴리스 (미리 보기)의 일부로 업데이트 되었습니다. **이 섹션을 신중 하 게 검토 하세요.**
+> 이전에 준수 관리자에서 템플릿을 만들거나 사용자 지정한 경우 **이 프로세스가 최근에 업데이트 된 것입니다. 이 섹션을 신중 하 게 검토 하세요.**
 
 스프레드시트에는 다음과 같은 세 개의 탭이 있습니다.
 
@@ -496,7 +593,7 @@ Microsoft Service Trust Portal에서 준수 관리자에 액세스할 수 있습
 
 - **Actiondescription**: 작업에 대 한 설명을 제공 합니다. 굵은 텍스트 및 하이퍼링크와 같은 서식을 적용할 수 있습니다. 필수 필드입니다.
 
-- **차원-작업 용도**: 선택적 필드입니다. 이를 포함 하는 경우 헤더에는 "dimension-" 접두사를 포함 해야 합니다. 여기에 포함 된 모든 차원은 [준수 점수에서 필터로](compliance-score-setup.md#filtering-your-dashboard-view) 사용 되며 [준수 점수의 개선 작업 세부 정보 페이지](working-with-compliance-score.md#view-your-improvement-actions)에 표시 됩니다.
+- **차원-작업 용도**: 선택적 필드입니다. 이를 포함 하는 경우 헤더에는 "dimension-" 접두사를 포함 해야 합니다. 여기에 포함 된 모든 차원은 [준수 점수에서 필터로](compliance-score-setup.md#filtering-your-dashboard-view) 사용 되며 준수 점수의 개선 작업 세부 정보 페이지에 표시 됩니다.
 
 ##### <a name="dimensions-tab"></a>차원 탭
 

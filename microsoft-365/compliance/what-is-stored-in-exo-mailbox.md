@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 365에서 클라우드 기반 앱에 의해 생성 된 데이터는 사용자의 Exchange Online 사서함에 저장 되거나 연결 됩니다.
-ms.openlocfilehash: 946ad069a57e411c20d9b0a723d28dc03a4b094f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: dc8588008194b5ea9e414efd1354d835e6bb7a63
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626284"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45016301"
 ---
 # <a name="content-stored-in-exchange-online-mailboxes"></a>Exchange Online 사서함에 저장 된 콘텐츠
 
@@ -32,7 +32,7 @@ Exchange Online의 사서함은 주로 메시지, 일정 항목, 작업 및 메�
 
 |Microsoft 365 앱|설명|
 |:---------|:---------|
-|양식|양식 (PDF 파일로 저장)과 양식 (CSV 파일에 저장 됨)에 대 한 응답은 전자 메일 메시지에 첨부 되 고 양식을 만든 사용자의 사서함에 있는 숨겨진 폴더에 저장 됩니다. PST 파일의 양식에서 콘텐츠를 내보낼 때이 데이터 **는 다음과 같은**guid (globally unique identification)가 지정 된 하위 폴더의 **ApplicationDataRoot** 폴더에 있습니다.|
+|Forms|양식에 대 한 양식 및 응답은 전자 메일 메시지에 첨부 되 고 양식을 만든 사용자의 사서함에 있는 숨겨진 폴더에 저장 되는 파일에 저장 됩니다. 4 월 2020 이전에 만든 양식은 PDF 파일로 저장 됩니다. 2020 이후에 만든 양식은 JSON 파일로 저장 됩니다.  양식에 대 한 응답은 CSV 파일에 저장 됩니다. PST 파일의 양식에서 콘텐츠를 내보낼 때이 데이터 **는 다음과 같은**guid (globally unique identification)가 지정 된 하위 폴더의 **ApplicationDataRoot** 폴더에 있습니다.|
 |Microsoft 365 그룹|전자 메일 메시지, 일정 항목, 연락처 (사용자), 메모 및 작업은 Microsoft 365 그룹과 연결 된 사서함에 저장 됩니다.|
 |Outlook/Exchange Online|전자 메일 메시지, 일정 항목, 연락처 (사용자), 메모 및 작업은 사용자의 사서함에 저장 됩니다.|
 |사람|사용자 앱 (Outlook에서 액세스할 수 있는 연락처와 같은 대화 상대 응용 프로그램)의 대화 상대는 user의 사서함에 저장 됩니다.|

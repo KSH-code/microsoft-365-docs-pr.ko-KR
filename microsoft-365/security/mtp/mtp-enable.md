@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 0badae0d81b52b89c47f950b889109d4b9d35dda
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: b6ac30f7e32bbec80952ad4f2104032886b11503
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844600"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45016346"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Microsoft Threat Protection 사용 설정
 
@@ -61,10 +61,12 @@ Microsoft Threat Protection을 설정 하려면 **Microsoft Threat Protection �
 >탐색 창에 **설정이** 표시 되지 않거나 페이지에 액세스할 수 없는 경우 사용 권한 및 라이선스를 확인 합니다.
 
 ### <a name="data-center-location"></a>데이터 센터 위치
-Microsoft Threat Protection은 [Microsoft DEFENDER ATP에서 사용 하는 것과 동일한 위치](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)에 데이터를 저장 하 고 처리 합니다. Microsoft Defender ATP가 없는 경우에는 활성 Microsoft 365 보안 서비스의 위치에 따라 새 데이터 센터 위치가 자동으로 선택 됩니다. 선택한 데이터 센터 위치가 화면에 표시 됩니다.
+Microsoft Threat Protection은 [Microsoft DEFENDER ATP에서 사용 하는 것과 동일한 위치](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)에 데이터를 저장 하 고 처리 합니다. Microsoft Defender ATP가 없는 경우에는 활성 Microsoft 365 보안 서비스의 위치에 따라 새 데이터 센터 위치가 자동으로 선택 됩니다. 선택한 데이터 센터 위치가 화면에 표시 됩니다. 
+
+Microsoft 기술 지원 서비스에 문의 하 여 microsoft Threat Protection을 다른 데이터 센터 위치에 프로 비전 하는 방법에 연결 하 365는 **데 도움이 필요 하세요?** 를 선택 합니다. 
 
 >[!NOTE]
->Microsoft 기술 지원 서비스에 문의 하 여 다른 데이터 센터 위치에 Microsoft Threat Protection 프로 비전에 대 한 자세한 내용을 365 **확인** 하십시오. 
+>Azure 보안 센터를 통해 설정 하는 경우 Microsoft Defender ATP는 EU (유럽 연합) 데이터 센터를 자동으로 프로 비전 합니다. Microsoft Threat Protection은 이러한 방식으로 Microsoft Defender ATP를 프로 비전 한 고객을 위해 동일한 EU 데이터 센터를 자동으로 프로 비전 합니다. 
 
 ### <a name="confirm-that-the-service-is-on"></a>서비스가 켜져 있는지 확인합니다.
 서비스를 프로비전하면 다음이 추가됩니다.

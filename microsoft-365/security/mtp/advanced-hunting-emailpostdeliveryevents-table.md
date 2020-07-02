@@ -17,19 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: f5c226b6028c845acc674ec0a0536727386c2380
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: 5a9bc0a28f8c9f360975325adbdd50ad22b0afc5
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899390"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005701"
 ---
 # <a name="emailpostdeliveryevents"></a>EmailPostDeliveryEvents
 
 **적용 대상:**
 - Microsoft 위협 방지
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 `EmailPostDeliveryEvents` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 Microsoft 365에서 처리 되는 전자 메일 메시지에 대해 수행 된 배달 후 작업에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 

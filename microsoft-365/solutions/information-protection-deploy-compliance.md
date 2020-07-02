@@ -16,12 +16,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Complance 점수 및 준수 관리자를 사용 하 여 개인 데이터의 보호 수준을 향상 시키는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 0d95c663030cf63fb83dfd40c7f3605c1c0b6f8f
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+ms.openlocfilehash: 4a45f24d66d08c2c0f17d75d897f523ef074936c
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695176"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45016370"
 ---
 # <a name="use-compliance-score-and-compliance-manager-to-manage-improvement-actions"></a>준수 점수 및 준수 관리자를 사용 하 여 개선 작업 관리
 
@@ -109,7 +109,7 @@ Microsoft 규정 준수 점수 및 준수 관리자를 함께 사용 하 여 유
 
 ## <a name="compliance-score"></a>준수 점수
 
-규정 준수 관리자에서 평가 및 검토 사양을 수행한 후에는 [준수 점수](../compliance/working-with-compliance-score.md) 도구로 이동 하 여 점수 및 조각화를 검토 하 고 데이터를 제어 영역에 포함 하 여 더 자세히 검토할 수 있습니다.
+규정 준수 관리자에서 평가 및 검토 사양을 수행한 후에는 [준수 점수](../compliance/compliance-score.md) 도구로 이동 하 여 점수 및 조각화를 검토 하 고 데이터를 제어 영역에 포함 하 여 더 자세히 검토할 수 있습니다.
 
 Microsoft 365 준수 관리 센터의 준수 점수 도구는 준수 관리자 및 다양 한 Microsoft 365 서비스에서 얻은 준수 데이터를 검토 하 고 필터링 하는 여러 가지 방법을 제공 합니다. 이 도구는 다양 한 구성 설정이 구현 되 고 Microsoft 보안 점수를 공유 하 여 다양 한 개선 작업이 두 가지 점수에 모두 표시 되도록 자동으로 업데이트 됩니다. 
  
@@ -141,7 +141,7 @@ Microsoft 규정 준수 점수 계산 문서에 나와 있는 것 처럼 예방�
 
 - 각 데이터 개인 정보 규정에는 기술 컨트롤, 문서 사양, 운영, 프로세스 및 보고 요구 사항의 조합이 포함 되어 있습니다. 이러한 모든 기능을 향상 작업에 표시 합니다. 
 
-- 이 문서에서는 준수 관리자 및 준수 점수의 데이터 개인 정보 보호를 위해 지정 된 기술 컨트롤의 하위 집합에 대해 중점적으로 설명 합니다. 기술 외 관리 컨트롤에 대 한 자세한 내용은 준수 관리자 도구 및 [설명서](../compliance/working-with-compliance-score.md) 를 참조 하세요.
+- 이 문서에서는 준수 관리자 및 준수 점수의 데이터 개인 정보 보호를 위해 지정 된 기술 컨트롤의 하위 집합에 대해 중점적으로 설명 합니다. 기술 외 관리 컨트롤에 대 한 자세한 내용은 준수 관리자 도구 및 [설명서](../compliance/compliance-score.md) 를 참조 하세요.
 
 - 해당 영역에 개선 작업 보기를 집중 시키려면 준수 점수 관리자의 **솔루션** 탭에서 작업 유형별로 필터링 할 수 있습니다.
 

@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 14de9d84ef19be3dcf1e630b2814a6060bfe7f27
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 250d19a09d79fc5fd8c69f2ebd24abadc642fafc
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036502"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005849"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>고급 헌팅 쿼리 언어 알아보기
 
@@ -66,7 +66,7 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 // Finds PowerShell execution events that could involve a download
 ```
 
-일반적으로 쿼리 자체는 표 이름으로 시작하고 다음으로 파이프(`|`)로 시작되는 일련의 요소가 옵니다. 이 예제에서는 먼저 두 개의 테이블 `DeviceProcessEvents` `DeviceNetworkEvents`을 통합 하 고 필요에 따라 파이프 된 요소를 추가 합니다.
+일반적으로 쿼리 자체는 표 이름으로 시작하고 다음으로 파이프(`|`)로 시작되는 일련의 요소가 옵니다. 이 예제에서는 먼저 두 개의 테이블을 통합 하 고 `DeviceProcessEvents` `DeviceNetworkEvents` 필요에 따라 파이프 된 요소를 추가 합니다.
 
 ```kusto
 union DeviceProcessEvents, DeviceNetworkEvents
@@ -81,7 +81,7 @@ union DeviceProcessEvents, DeviceNetworkEvents
 ### <a name="check-specific-processes"></a>특정 프로세스 확인
 시간 범위 바로 뒤에 PowerShell 응용 프로그램을 나타내는 프로세스 파일 이름을 검색 합니다.
 
-```
+```kusto
 // Pivoting on PowerShell processes
 | where FileName in~ ("powershell.exe", "powershell_ise.exe")
 ```
@@ -102,7 +102,7 @@ union DeviceProcessEvents, DeviceNetworkEvents
 ```
 
 ### <a name="customize-result-columns-and-length"></a>결과 열 및 길이 사용자 지정 
-쿼리에서 찾으려고 하는 데이터를 명확하게 식별하므로 결과 모양을 정의하는 요소를 추가할 수 있습니다. `project`특정 열을 반환 하 `top` 고 결과 수를 제한 합니다. 이러한 연산자를 사용 하면 결과의 형식이 적절 하 고 상당히 크고 프로세스를 간편 하 게 수행할 수 있습니다.
+쿼리에서 찾으려고 하는 데이터를 명확하게 식별하므로 결과 모양을 정의하는 요소를 추가할 수 있습니다. `project`특정 열을 반환 하 고 `top` 결과 수를 제한 합니다. 이러한 연산자를 사용 하면 결과의 형식이 적절 하 고 상당히 크고 프로세스를 간편 하 게 수행할 수 있습니다.
 
 ```kusto
 | project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine, 

@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 70a62f09-45ea-4968-8482-43cddfb8cc01
 description: 이 문서에서는 파일 저장 및 공유를 위해 팀 사이트를 사용자 지정, 구성 및 관리 하는 방법을 알아봅니다.
-ms.openlocfilehash: 5eb95ffc1ec687920b4499a9876ce3186e678062
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: e7c3364332a127b5a398d3b08843ea7dd04679b5
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44779872"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45022172"
 ---
 # <a name="customize-your-team-site-for-file-storage-and-sharing"></a>파일 저장 및 공유를 위해 팀 사이트 사용자 지정
 
@@ -104,7 +104,7 @@ SharePoint에는 링크 목록, 일정, 연락처 또는 작업 등 사이트에
   
 [그룹을 이해 하 고 관리](https://support.microsoft.com/office/9c1037b7-de0b-41cd-b8f0-79a95aac854d)하는 그룹의 비디오를 봅니다. 
   
-Microsoft 365 그룹에 사용자를 추가 하려면 [add users or bulk To microsoft 365-Admin Help](../add-users/add-users.md)를 참조 하십시오.
+Microsoft 365 그룹에 사용자를 추가 하려면 [사용자 추가 및 동시에 라이선스 할당](../add-users/add-users.md)을 참조 하세요.
   
 [설정 및 관리 액세스 요청](https://support.microsoft.com/office/94B26E0B-2822-49D4-929A-8455698654B3)을 사용 하 여 액세스 요청을 처리 하는 방법을 알아봅니다.
   

@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 인바운드 메시지를 허용 하는 데 사용할 수 있는 옵션 및 기본 설정에 대해 알아봅니다.
-ms.openlocfilehash: c9f444483afea82db1fbbe3b5be98751d42c2f5e
-ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
+ms.openlocfilehash: 9ca1fc3911dd3417304d0d1de6923408373bc33c
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44545949"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005861"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>EOP에서 수신 허용-보낸 사람 목록 만들기
 
@@ -126,7 +126,7 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 메시
 
 - `5322.From`주소는 blueyonder@news.blueyonderairlines.com, 즉 Outlook에서 볼 수 있습니다.
 
-EOP의 스팸 방지 정책에서 수신 허용-보낸 사람 목록 및 안전한 도메인 목록은 두 주소를 모두 검사 `5321.MailFrom` `5322.From` 합니다. Outlook 수신 허용-보낸 사람만 `5322.From` 주소를 사용 합니다.
+스팸 방지 정책의 수신 허용-보낸 사람 목록 및 안전한 도메인 목록 EOP에서 주소만 검사 `5322.From` 이는 주소를 사용 하는 Outlook 수신 허용-보낸 사람과 유사 `5322.From` 합니다.
 
 이 메시지가 필터링 되지 않도록 하려면 다음 단계를 수행 하면 됩니다.
 

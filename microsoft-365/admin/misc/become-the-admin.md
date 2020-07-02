@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
 description: Microsoft 365에서 관리 되지 않는 테 넌 트를 사용 하도록 전자 메일 및 도메인 소유권을 확인 하는 방법을 알아봅니다.
-ms.openlocfilehash: 4c2dcdb0f6c4f6b795d9579c8796e9668ed2ed05
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 1eb54a6c34c9700bda09a660c71d2b1222fcdb8c
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399449"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45022160"
 ---
 # <a name="perform-an-internal-admin-takeover"></a>내부 관리 인수 수행
 
@@ -64,7 +64,7 @@ ms.locfileid: "44399449"
 4. 사용자가 등록자 사이트에 TXT 레코드를 추가 했으면 마법사로 돌아간 다음 확인을 선택 하 **여 레코드를 추가 했다고 가정**합니다.
     
 > [!NOTE]
-> 섀도 테 넌 트를 이용 해도 기존 정보나 서비스에는 영향을 주지 않습니다. 그러나 도메인의 사용자가 라이선스를 요구 하는 서비스에 등록 된 경우 관리자 역할을 수행 하는 동안 라이선스를 구입 하 라는 메시지가 표시 됩니다. 관리자 설정 프로세스가 완료 되 면 라이선스를 추가 하거나 제거할 수 있습니다. 
+> 섀도 테 넌 트를 이용 해도 기존 정보나 서비스에는 영향을 주지 않습니다. 그러나 도메인의 사용자가 라이선스를 요구 하는 서비스에 등록 된 경우 관리자 역할을 수행 하는 동안 라이선스를 구입 하 라는 메시지가 표시 됩니다. 관리자 설정 프로세스가 완료 되 면 라이선스를 구입 하거나 제거할 수 있습니다.
   
 ## <a name="related-articles"></a>관련 문서
 

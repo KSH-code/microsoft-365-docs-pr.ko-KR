@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9cdfa29d-7681-4af2-a79d-3e72e7ab9778
 description: 전자 메일, Skype 및 Office 앱에 대해 비즈니스용 Microsoft 365에 새 직원을 추가 합니다.
-ms.openlocfilehash: bd0ed77954c7b7baa60e50473818577ec9ae7f76
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: de647b926a3e1a82aaed4928b96101bd59df07ff
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780676"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45022136"
 ---
 # <a name="add-a-new-employee-to-microsoft-365"></a>Microsoft 365에 새 직원 추가
 
@@ -50,7 +50,7 @@ ms.locfileid: "44780676"
 ## <a name="step-1-create-a-microsoft-365-account-for-the-employee"></a>1 단계: 직원에 대 한 Microsoft 365 계정 만들기
 
 
-자세한 내용은 [사용자를 개별적으로 또는 대량으로 Microsoft 365-관리자 도움말을 추가](add-users.md)합니다 .를 참조 하세요. 새 직원을 설정할 때 직원의 개인 계정에 로그인 정보를 보내도록 선택할 수 있습니다. 이러한 방식으로 microsoft Online 서비스 팀이 전자 메일을 받게 되며, 이러한 메시지에 사용자에 게 이러한 365 로그인을 알리는 방법이 나와 있습니다.
+자세한 내용은 [사용자 추가 및 라이선스 할당을 동시에](add-users.md)참조 하십시오. 새 직원을 설정할 때 직원의 개인 계정에 로그인 정보를 보내도록 선택할 수 있습니다. 이러한 방식으로 microsoft Online 서비스 팀이 전자 메일을 받게 되며, 이러한 메시지에 사용자에 게 이러한 365 로그인을 알리는 방법이 나와 있습니다.
   
 ## <a name="step-2-give-the-employee-their-user-id-and-password"></a>2 단계: 직원에 게 사용자 ID 및 암호 제공
 
@@ -85,12 +85,8 @@ Facebook, Amazon 또는 Gmail과 마찬가지로 직원은 Microsoft 365을 사�
 |비즈니스용 OneDrive 교육 완료 클라우드에서 문서, 프레젠테이션 및 스프레드시트를 저장 하 고 구성 하는 방법을 파악 하는 데 도움이 됩니다.  <br/> |비즈니스용 OneDrive를 사용 하 여 클라우드에서 비즈니스 관련 문서를 보관 합니다. 다른 컴퓨터에서 Microsoft 365에 로그인 한 경우에도 언제 든 지 콘텐츠를 가져올 수 있습니다. [비즈니스용 OneDrive를 사용 하는 방법을 알아보려면 동영상을 시청 하세요.](https://support.microsoft.com/office/b30da4eb-ddd2-44b6-943b-e6fbfc6b8dde) <br/><br/> **교육:** [비즈니스용 onedrive 교육](https://support.microsoft.com/office/1f608184-b7e6-43ca-8753-2ff679203132) (비즈니스용 onedrive 선택)  <br/> |
 |SharePoint Online 교육을 완료 하 여 동료와 공동으로 작업 하 고 콘텐츠를 공유 합니다.  <br/> |동료 들이 액세스할 문서를 보관 하는 가장 좋은 위치는 SharePoint Online입니다.  <br/> <br/>**교육:** [비디오: SharePoint Online을 사용 하 여 팀 콘텐츠와 공동 작업](https://support.microsoft.com/office/c17b6824-cc22-478f-8757-497cc6b57121) <br/><br/> **찾기:** 조직에서 SharePoint Online을 사용 하는 방법과 여기에 저장 되는 문서 유형을 확인 하세요. 또한 비즈니스용 OneDrive에 저장 된 문서를 확인할 수 있습니다.  <br/> |
 
-   
 ## <a name="related-articles"></a>관련 문서
-
 
 [Microsoft 365에서 이전 직원을 제거 합니다.](remove-former-employee.md)
   
-[사용자를 개별적으로 또는 대량으로 Microsoft 365에 추가](add-users.md)
-  
-
+[같은 time65에 사용자 추가 및 라이선스 할당](add-users.md)

@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 0dc55430-98d6-4cbe-ba69-1a4ad29a967d
 ROBOTS: NOINDEX
 description: '관리 센터의 사용자 유형에 대해 자세히 알아봅니다. '
-ms.openlocfilehash: 4e28715674360dbbed7ef398207e39e45b1fec81
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b0b0638ee9fb258cfd84bafdc1c09ab691a1d060
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399221"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45022206"
 ---
 # <a name="quick-help-types-of-users"></a>빠른 도움말: 사용자의 종류
 
@@ -46,12 +46,12 @@ Microsoft 365 관리 센터의 **활성 사용자** 페이지에서 다음 유�
 |전역 관리자  <br/> |이러한 사용자는 모든 관리 기능에 액세스할 수 있습니다. Microsoft 365에 등록 하는 사람은 전역 관리자가 되지만, 원하는 경우 둘 이상의 사용자가 있을 수 있습니다. 전역 관리자는 관리자 역할을 다른 사용자에 게 할당할 수 있는 유일한 관리자입니다.  <br/> |
 |암호 관리자  <br/> |사용자를 대신하여 암호를 재설정하고 서비스 요청을 관리하고 서비스 상태를 모니터링할 수 있는 사용자입니다.  <br/> |
 |서비스 관리자  <br/> |사용자를 대신하여 서비스 요청을 관리하고 서비스 상태를 모니터링할 수 있는 사용자입니다.  <br/> |
-|사용자 관리 관리자  <br/> |암호를 재설정하고 서비스 상태를 모니터링하고 사용자 계정, 사용자 그룹 및 서비스 요청을 관리할 수 있는 사용자입니다. 전역 관리자를 삭제하거나 다른 관리자 역할을 만들거나 청구 관리자, 전역 관리자 및 서비스 관리자의 암호를 재설정할 수 없습니다.  <br/> |
+|사용자 관리 관리자  <br/> |These users can reset passwords, monitor service health, manage user accounts, user groups, and service requests. They can't delete a global admin, create other admin roles, or reset passwords for billing, global, and service admins.  <br/> |
 |사용자 지정 필터 추가  <br/> |이 옵션을 사용 하 여 사용자 지정 필터를 만들어 Microsoft 365 비즈니스 계획에 있는 사용자와 같은 기본 설정의 특정 사용자 유형만 볼 수 있습니다. [빠른 도움말: 사용자 필터링](https://docs.microsoft.com/microsoft-365/admin/add-users/create-edit-or-delete-a-custom-user-view)  <br/> |
    
 ## <a name="related-articles"></a>관련 문서
 
-[Microsoft 365에서 사용자 추가](../add-users/add-users.md)
+[사용자 추가 및 동시에 라이선스 할당](../add-users/add-users.md)
     
 [비즈니스를 위해 Microsoft 365의 사용자에 게 라이선스 할당](../manage/assign-licenses-to-users.md)
     

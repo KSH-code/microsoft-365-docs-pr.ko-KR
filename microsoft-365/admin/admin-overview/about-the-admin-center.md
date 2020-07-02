@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: 관리 센터를 사용하여 클라우드에서의 조직 설정, 사용자 관리, 구독 관리를 수행합니다. 관리자 권한으로 계정에 로그인하여 시작하세요.
-ms.openlocfilehash: 9295d16f19ebaabdd9960331f1d875f436156b79
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: e4b1570afd8572df31af970fb168b6d22deee979
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780556"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45022184"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 정보
 
@@ -89,7 +89,7 @@ ms.locfileid: "44780556"
    
 ## <a name="common-tasks-in-the-admin-center"></a>관리 센터의 일반적인 작업
 
-- 사용자 관리 [사용자를 개별적으로 추가](../add-users/add-users.md)하거나, [사용자를 삭제 또는 복원](../add-users/delete-a-user.md)[사용자의 암호를 재설정](../add-users/reset-passwords.md)합니다.
+- 사용자 관리: 사용자 [추가 및 라이선스 할당](../add-users/add-users.md)을 동시에 수행 하거나, [사용자를 삭제 또는 복원](../add-users/delete-a-user.md)하거나, [사용자의 암호를 다시 설정](../add-users/reset-passwords.md)합니다.
 
 - 청구와 관련된 관리자 도움말 보기: [청구](../../commerce/index.yml)
 

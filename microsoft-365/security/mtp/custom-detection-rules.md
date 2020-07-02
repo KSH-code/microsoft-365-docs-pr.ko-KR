@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 1a84c568d1411cf21c23e59cabad955c40c18ac6
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+ms.openlocfilehash: 7afcf16a42824ff234e53412a0cbd44f997fcaf9
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44498366"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005713"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>사용자 지정 검색 규칙 만들기 및 관리
 
@@ -118,8 +118,8 @@ DeviceEvents
 
 #### <a name="actions-on-devices"></a>장치에 대 한 작업
 이러한 작업은 쿼리 결과 열에 있는 장치에 적용 됩니다 `DeviceId` .
-- **장치 격리** -MICROSOFT Defender ATP를 사용 하 여 전체 네트워크 격리를 적용 하 여 장치가 어떤 응용 프로그램 또는 서비스에도 연결 되지 않도록 합니다. [Microsoft Defender ATP 컴퓨터 격리에 대해 자세히 알아보기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-machines-from-the-network)
-- **수집 조사 패키지** -ZIP 파일의 장치 정보를 수집 합니다. [Microsoft Defender ATP 조사 패키지에 대해 자세히 알아보기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-machines)
+- **장치 격리** -MICROSOFT Defender ATP를 사용 하 여 전체 네트워크 격리를 적용 하 여 장치가 어떤 응용 프로그램 또는 서비스에도 연결 되지 않도록 합니다. [Microsoft Defender ATP 컴퓨터 격리에 대해 자세히 알아보기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-devices-from-the-network)
+- **수집 조사 패키지** -ZIP 파일의 장치 정보를 수집 합니다. [Microsoft Defender ATP 조사 패키지에 대해 자세히 알아보기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices)
 - **바이러스 검사 실행** -장치에서 전체 Windows Defender 바이러스 검사를 수행 합니다.
 - **시작 조사** -장치에 대 한 [자동화 된 조사](mtp-autoir.md) 시작
 - **앱 실행 제한** -Microsoft에서 발급 한 인증서로 서명 된 파일만 실행 하도록 장치에 대 한 제한을 설정 합니다. [앱 제한에 대 한 자세한 내용은 Microsoft Defender ATP를 확인 하십시오.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#restrict-app-execution)
