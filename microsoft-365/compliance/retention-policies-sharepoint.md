@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: SharePoint 및 OneDrive에 적용되는 보존 정책에 대한 자세한 정보
-ms.openlocfilehash: f3c7d805309a86f05cdea8769693ec6de9c1bf51
-ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
+ms.openlocfilehash: e7a265d39b3cca2ffb9c403cf2c87f287a9325b2
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44292499"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45016249"
 ---
 # <a name="learn-about-retention-policies-for-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive의 보존 정책에 대한 자세한 정보
 
@@ -53,7 +53,7 @@ ms.locfileid: "44292499"
     > [!NOTE]
     > 실수로 데이터가 손실되는 것을 방지하기 위해 더 이상 보존 라이브러리의 콘텐츠를 영구적으로 삭제하지 않습니다. 대신 휴지통에서 콘텐츠를 영구적으로 삭제합니다. 이제는 보존 라이브러리의 모든 콘텐츠가 2단계 휴지통을 거칩니다.
     
-2. 보존 기간 동안 **콘텐츠가 수정되거나 삭제되지 않으면** 타이머 작업은 해당 콘텐츠를 보존 기간의 종료 시점에 1단계 휴지통으로 이동시킵니다. 여기에서 사용자가 콘텐츠를 삭제하거나 휴지통을 비우면 문서가 2단계 휴지통으로 이동됩니다. 1단계 휴지통과 2단계 휴지통을 포함하여 총 93일 간의 보존 기간이 적용됩니다. 93일이 지나면 1단계 휴지통 또는 2단계 휴지통에서 문서가 영구적으로 삭제됩니다. 휴지통이 인덱싱되지 않으므로 검색할 수 없습니다. 따라서 eDiscovery 검색에서 보류할 휴지통 콘텐츠를 찾을 수 없습니다.
+2. 보존 기간 동안 **콘텐츠가 수정되거나 삭제되지 않으면** 타이머 작업은 해당 콘텐츠를 보존 기간의 종료 시점에 1단계 휴지통으로 이동시킵니다. 여기에서 사용자가 콘텐츠를 삭제하거나 휴지통을 비우면 문서가 2단계 휴지통으로 이동됩니다. 1단계 휴지통과 2단계 휴지통을 포함하여 총 93일간의 보존 기간이 적용됩니다. 93일이 지나면 1단계 휴지통 또는 2단계 휴지통에서 문서가 영구적으로 삭제됩니다. 휴지통이 인덱싱되지 않으므로 검색할 수 없습니다. 따라서 eDiscovery 검색에서 보류할 휴지통 콘텐츠를 찾을 수 없습니다.
 
 보유 정책이 보유 전용 또는 삭제 전용인 경우 컨텐츠 경로는 보유 및 삭제의 변형입니다.
 
@@ -75,14 +75,14 @@ ms.locfileid: "44292499"
   
 보존 전용 정책은 SharePoint 사이트 모음 또는 OneDrive 계정에 있는 문서의 모든 버전을 보존합니다. 보류 또는 보존 전용 정책이 적용되는 문서를 처음 편집하면 원본 문서의 버전이 자료 보존 라이브러리에 복사됩니다. 버전 관리가 설정된 경우, 보류 또는 보존 정책이 적용되는 문서가 삭제될 때 버전 관리 기능을 사용하도록 설정한 경우, 모든 버전이 자료 보존 라이브러리에 복사됩니다. 보존 보류 라이브러리의 각 문서 버전은 자체 보존 기간이 있는 별도의 항목으로 존재합니다.
   
-- 보존 정책이 콘텐츠가 만들어진 시점을 기준으로 하는 경우 각 버전은 원본 문서와 동일한 만료 날짜를 갖습니다. 따라서 원본 문서 및 해당 버전은 동시에 만료됩니다.
+- If the retention policy is based on when the content was created, each version has the same expiration date as the original document. The original document and its versions all expire at the same time.
     
-- 보존 정책이 콘텐츠가 마지막으로 수정된 시점을 기준으로 하는 경우 각 버전은 원본 문서가 해당 버전을 만들기 위해 수정된 시점을 기준으로 하는 자체 만료 날짜를 가집니다. 따라서 원본 문서와 해당 버전는 별도로 만료됩니다.
+- If the retention policy is based on when the content was last modified, each version has its own expiration date based on when the original document was modified to create that version. The original documents and its versions expire independently of each other.
 
 > [!NOTE]
 > 보존된 버전의 SharePoint 및 OneDrive 문서는 eDiscovery 도구로 검색할 수 없습니다.
 
-### <a name="when-a-user-leaves-the-organization"></a>사용자가 조직을 떠나는 경우 
+## <a name="when-a-user-leaves-the-organization"></a>사용자가 조직을 떠나는 경우 
 
 **SharePoint**:
 
@@ -94,19 +94,13 @@ ms.locfileid: "44292499"
 
 ## <a name="how-to-configure-a-retention-policy-for-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에 보존 정책을 구성하는 방법
 
-[보존 정책 만들기 및 구성하기](create-retention-policies.md)를 참조하세요.
-
-마법사의 **위치 선택** 페이지에서 다음 옵션 중 하나를 선택하세요.
+[보존 정책 만들기](create-retention-policies.md) 및 구성 지침에 따라 마법사의 **위치 선택** 페이지에서 다음 옵션 중 하나를 선택합니다.
 
 - **Exchange 전자 메일, 공용 폴더, Office 365 그룹, OneDrive 및 SharePoint 문서에 있는 콘텐츠에만 정책 적용하기**
 
-- **특정 위치를 직접 선택** > **SharePoint 사이트** 또는 **OneDrive 계정**
+- **특정 위치를 직접 선택** > **SharePoint 사이트**, **OneDrive 계정** 또는 **Office 365 그룹**
 
-### <a name="sharepoint-locations"></a>SharePoint 위치 
-
-보존 정책을 사용하여 SharePoint 커뮤니케이션 사이트, Office 365 그룹에서 연결되지 않는 팀 사이트 및 클래식 사이트에서 콘텐츠를 보존할 수 있습니다. Office 365 그룹에서 연결된 팀 사이트는 이 옵션에서 지원되지 않으며 대신 **Office 365 그룹** 위치를 사용합니다. 
-
-지원되지 않는 사이트를 지정하는 경우, 해당 사이트는 보존 정책에 따라 무시됩니다. 
+**SharePoint 사이트** 위치를 선택할 때 보존 정책을 사용하여 SharePoint 커뮤니케이션 사이트, Office 365 그룹에서 연결되지 않는 팀 사이트 및 클래식 사이트에서 콘텐츠를 보존할 수 있습니다. Office 365 그룹에서 연결된 팀 사이트는 이 옵션에서 지원되지 않으며 대신 해당 그룹의 사서함, 사이트 및 파일에 있는 콘텐츠에 적용되는 **Office 365 그룹** 위치를 사용합니다. 
 
 SharePoint 사이트의 위치를 지정하는 경우, 사이트에 액세스할 수 있는 권한이 필요하지 않으며 **위치 편집** 페이지에서 URL을 지정하는 시점에 유효성 검사가 수행되지 않습니다. 그러나 사이트를 색인화해야 하며 마법사 종료 시 지정한 사이트가 존재하는지 검사합니다. 
 
