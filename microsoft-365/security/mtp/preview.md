@@ -19,48 +19,46 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 8a3e4b8979a346266336e2729d18465d391c28f9
-ms.sourcegitcommit: efd4dd29af0ea2b71b674534de3b2dcbfd7482db
+ms.openlocfilehash: 6287e7c56f79b09a79c75d7e8b8273dbd5569057
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689269"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005893"
 ---
-# <a name="microsoft-threat-protection-preview-features"></a><span data-ttu-id="8a147-104">Microsoft Threat Protection 미리 보기 기능</span><span class="sxs-lookup"><span data-stu-id="8a147-104">Microsoft Threat Protection preview features</span></span>
+# <a name="microsoft-threat-protection-preview-features"></a><span data-ttu-id="2876b-104">Microsoft Threat Protection 미리 보기 기능</span><span class="sxs-lookup"><span data-stu-id="2876b-104">Microsoft Threat Protection preview features</span></span>
 
-<span data-ttu-id="8a147-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="8a147-105">**Applies to:**</span></span>
-- <span data-ttu-id="8a147-106">Microsoft 위협 방지</span><span class="sxs-lookup"><span data-stu-id="8a147-106">Microsoft Threat Protection</span></span>
-
-
-<span data-ttu-id="8a147-107">Microsoft Threat Protection 서비스는 새로운 기능 향상 및 기능을 포함 하도록 지속적으로 업데이트 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8a147-107">The Microsoft Threat Protection service is constantly being updated to include new feature enhancements and capabilities.</span></span>
-
-<span data-ttu-id="8a147-108">미리 보기 환경을 설정 하 여 Microsoft Threat Protection preview 릴리스의 새로운 기능과 첫 번째 기능에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="8a147-108">Learn about new features in the Microsoft Threat Protection preview release and be among the first to try upcoming features by turning on the preview experience.</span></span>
-
-<span data-ttu-id="8a147-109">일반 공급되는 새 기능에 대한 자세한 내용은 [Microsoft 위협 방지의 새 기능](whats-new.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="8a147-109">For more information on new capabilities that are generally available, see [What's new in Microsoft Threat Protection](whats-new.md).</span></span>
-
-## <a name="turn-on-preview-features"></a><span data-ttu-id="8a147-110">미리 보기 기능 설정</span><span class="sxs-lookup"><span data-stu-id="8a147-110">Turn on preview features</span></span>
-<span data-ttu-id="8a147-111">일반적으로 기능을 사용할 수 있으려면 전체 환경을 개선 하는 데 도움이 되는 피드백을 제공할 수 있는 예정 된 기능에 대 한 액세스 권한이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8a147-111">You'll have access to upcoming features which you can provide feedback on to help improve the overall experience before features are generally available.</span></span>
-
-<span data-ttu-id="8a147-112">미리 보기 환경 설정을 첫 번째로 설정 하 여 예정 된 기능을 시도해 봅니다.</span><span class="sxs-lookup"><span data-stu-id="8a147-112">Turn on the preview experience setting to be among the first to try upcoming features.</span></span>
-
-1. <span data-ttu-id="8a147-113">탐색 창에서 **설정을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="8a147-113">In the navigation pane, select **Settings**.</span></span>
-
-2. <span data-ttu-id="8a147-114">**Microsoft Threat Protection**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="8a147-114">Select **Microsoft Threat Protection**.</span></span>
+<span data-ttu-id="2876b-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="2876b-105">**Applies to:**</span></span>
+- <span data-ttu-id="2876b-106">Microsoft 위협 방지</span><span class="sxs-lookup"><span data-stu-id="2876b-106">Microsoft Threat Protection</span></span>
 
 
-3. <span data-ttu-id="8a147-115">**미리 보기 기능**을 선택 하 여  >  **미리 보기 기능을 켭니다**.</span><span class="sxs-lookup"><span data-stu-id="8a147-115">Select **Preview features** > **Turn on preview features**.</span></span> 
+<span data-ttu-id="2876b-107">Microsoft Threat Protection 서비스는 새로운 기능 향상 및 기능을 포함 하도록 지속적으로 업데이트 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2876b-107">The Microsoft Threat Protection service is constantly being updated to include new feature enhancements and capabilities.</span></span>
 
-3. <span data-ttu-id="8a147-116">**저장**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="8a147-116">Select **Save**.</span></span>
+<span data-ttu-id="2876b-108">미리 보기 환경을 설정 하 여 Microsoft Threat Protection preview 릴리스의 새로운 기능과 첫 번째 기능에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="2876b-108">Learn about new features in the Microsoft Threat Protection preview release and be among the first to try upcoming features by turning on the preview experience.</span></span>
 
-<span data-ttu-id="8a147-117">**미리 보기 기능 켜기** 확인란이 선택 되어 있으면 미리 보기 기능이 설정 되어 있는 것을 알 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8a147-117">You'll know you have preview features turned on when you see that the **Turn on preview features** check box is selected.</span></span> 
+<span data-ttu-id="2876b-109">일반 공급되는 새 기능에 대한 자세한 내용은 [Microsoft 위협 방지의 새 기능](whats-new.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="2876b-109">For more information on new capabilities that are generally available, see [What's new in Microsoft Threat Protection](whats-new.md).</span></span>
 
-## <a name="preview-features"></a><span data-ttu-id="8a147-118">미리 보기 기능</span><span class="sxs-lookup"><span data-stu-id="8a147-118">Preview features</span></span>
-<span data-ttu-id="8a147-119">현재 미리 보기에서는 다음과 같은 기능을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8a147-119">The following features and enhancements are currently available on preview:</span></span>
+## <a name="turn-on-preview-features"></a><span data-ttu-id="2876b-110">미리 보기 기능 설정</span><span class="sxs-lookup"><span data-stu-id="2876b-110">Turn on preview features</span></span>
+<span data-ttu-id="2876b-111">일반적으로 기능을 사용할 수 있으려면 전체 환경을 개선 하는 데 도움이 되는 피드백을 제공할 수 있는 예정 된 기능에 대 한 액세스 권한이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2876b-111">You'll have access to upcoming features which you can provide feedback on to help improve the overall experience before features are generally available.</span></span>
 
-- <span data-ttu-id="8a147-120">**[Id 및 앱 테이블](advanced-hunting-schema-tables.md)** -고급 구하기 스키마에서 [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md), [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)및 [appfileevents](advanced-hunting-appfileevents-table.md) 테이블을 사용 하 여 인증 이벤트, Active Directory 쿼리 및 앱 관련 작업에 대 한 가시성을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="8a147-120">**[Identity and app tables](advanced-hunting-schema-tables.md)** — get visibility into authentication events, Active Directory queries, and app-related activity with the [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md), [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md), and [AppFileEvents](advanced-hunting-appfileevents-table.md) tables in the advanced hunting schema.</span></span>
+<span data-ttu-id="2876b-112">미리 보기 환경 설정을 첫 번째로 설정 하 여 예정 된 기능을 시도해 봅니다.</span><span class="sxs-lookup"><span data-stu-id="2876b-112">Turn on the preview experience setting to be among the first to try upcoming features.</span></span>
 
-- <span data-ttu-id="8a147-121">**[헌트](advanced-hunting-go-hunt.md)** -쿼리 기반 [고급 구하기](advanced-hunting-overview.md) 기능을 사용 하 여 특정 이벤트, 사용자, 장치 또는 기타 엔터티 유형을 검사 하는 인시던트 조사에서 빠르게 피벗 합니다.</span><span class="sxs-lookup"><span data-stu-id="8a147-121">**[Go hunt](advanced-hunting-go-hunt.md)** — quickly pivot from investigating an incident to inspecting a specific event, a user, a device, or other entity types using query-based [advanced hunting](advanced-hunting-overview.md) capabilities.</span></span>
+1. <span data-ttu-id="2876b-113">탐색 창에서 **설정을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2876b-113">In the navigation pane, select **Settings**.</span></span>
 
-- <span data-ttu-id="8a147-122">**[EmailPostDeliveryEvents 테이블](advanced-hunting-emailpostdeliveryevents-table.md)** -이 표를 사용 하 여 받는 사람 사서함으로 배달 된 후 전자 메일에 대해 수행 되는 작업을 확인 하는 [고급 구하기](advanced-hunting-overview.md) 쿼리를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8a147-122">**[EmailPostDeliveryEvents table](advanced-hunting-emailpostdeliveryevents-table.md)** — use this table to create [advanced hunting](advanced-hunting-overview.md) queries that check for actions taken on emails after they have been delivered to recipient mailboxes.</span></span>
+2. <span data-ttu-id="2876b-114">**Microsoft Threat Protection**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2876b-114">Select **Microsoft Threat Protection**.</span></span>
 
-- <span data-ttu-id="8a147-123">**[Fileprofile () 함수](advanced-hunting-fileprofile-function.md)** - [고급 구하기](advanced-hunting-overview.md) 쿼리에서 포괄적인 파일 정보를 통합 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8a147-123">**[FileProfile() function](advanced-hunting-fileprofile-function.md)** — use in your [advanced hunting](advanced-hunting-overview.md) queries to incorporate comprehensive file information.</span></span>
+
+3. <span data-ttu-id="2876b-115">**미리 보기 기능**을 선택 하 여  >  **미리 보기 기능을 켭니다**.</span><span class="sxs-lookup"><span data-stu-id="2876b-115">Select **Preview features** > **Turn on preview features**.</span></span> 
+
+3. <span data-ttu-id="2876b-116">**저장**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="2876b-116">Select **Save**.</span></span>
+
+<span data-ttu-id="2876b-117">**미리 보기 기능 켜기** 확인란이 선택 되어 있으면 미리 보기 기능이 설정 되어 있는 것을 알 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2876b-117">You'll know you have preview features turned on when you see that the **Turn on preview features** check box is selected.</span></span> 
+
+## <a name="preview-features"></a><span data-ttu-id="2876b-118">미리 보기 기능</span><span class="sxs-lookup"><span data-stu-id="2876b-118">Preview features</span></span>
+<span data-ttu-id="2876b-119">현재 미리 보기에서는 다음과 같은 기능을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2876b-119">The following features and enhancements are currently available on preview:</span></span>
+
+- <span data-ttu-id="2876b-120">**[Id 및 앱 테이블](advanced-hunting-schema-tables.md)** -고급 구하기 스키마에서 [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md), [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)및 [appfileevents](advanced-hunting-appfileevents-table.md) 테이블을 사용 하 여 인증 이벤트, Active Directory 쿼리 및 앱 관련 작업에 대 한 가시성을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="2876b-120">**[Identity and app tables](advanced-hunting-schema-tables.md)** — get visibility into authentication events, Active Directory queries, and app-related activity with the [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md), [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md), and [AppFileEvents](advanced-hunting-appfileevents-table.md) tables in the advanced hunting schema.</span></span>
+
+- <span data-ttu-id="2876b-121">**[헌트](advanced-hunting-go-hunt.md)** -쿼리 기반 [고급 구하기](advanced-hunting-overview.md) 기능을 사용 하 여 특정 이벤트, 사용자, 장치 또는 기타 엔터티 유형을 검사 하는 인시던트 조사에서 빠르게 피벗 합니다.</span><span class="sxs-lookup"><span data-stu-id="2876b-121">**[Go hunt](advanced-hunting-go-hunt.md)** — quickly pivot from investigating an incident to inspecting a specific event, a user, a device, or other entity types using query-based [advanced hunting](advanced-hunting-overview.md) capabilities.</span></span>
+
+- <span data-ttu-id="2876b-122">**[Fileprofile () 함수](advanced-hunting-fileprofile-function.md)** - [고급 구하기](advanced-hunting-overview.md) 쿼리에서 포괄적인 파일 정보를 통합 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2876b-122">**[FileProfile() function](advanced-hunting-fileprofile-function.md)** — use in your [advanced hunting](advanced-hunting-overview.md) queries to incorporate comprehensive file information.</span></span>
