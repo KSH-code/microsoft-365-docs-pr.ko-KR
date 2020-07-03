@@ -19,18 +19,20 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: 암호 공격으로부터 조직을 더 안전하게 보호하는 방법과 일반적인 암호를 금지하고 위험 기반 다단계 인증을 사용해야 하는 이유를 알아봅니다.
-ms.openlocfilehash: b4437f2af409fa3040894a1b0f802140df169635
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 1d6e399acb83751ec6a45eb0c811dedec394127e
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399317"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45015926"
 ---
 # <a name="password-policy-recommendations"></a>권장 암호 정책
  
 조직의 관리자는 조직의 사용자에 대한 암호 정책을 설정할 책임이 있습니다. 암호 정책의 설정은 복잡하고 혼동될 수 있습니다. 이 문서에서는 조직을 암호 공격으로부터 더 안전하게 보호하기 위한 권장 사항을 제공합니다.
   
 조직의 Microsoft 365 암호 만료 주기를 확인하려면 [Microsoft 365 암호 만료 정책 설정](../manage/set-password-expiration-policy.md)을 참조하세요.
+
+Microsoft 365 암호에 대한 자세한 내용은[관련 문서](#related-articles)를 참조 하세요.
   
 ## <a name="understanding-password-recommendations"></a>암호 권장 사항 이해
 
@@ -131,3 +133,13 @@ ms.locfileid: "44399317"
 - [2015년 최악의 비밀번호](https://go.microsoft.com/fwlink/p/?linkid=861020)
 
 - [웹에서 파일 다운로드](https://go.microsoft.com/fwlink/p/?linkid=861029)
+
+## <a name="related-articles"></a>관련 문서
+
+[암호 초기화](https://docs.microsoft.com/microsoft-365/admin/add-users/reset-passwords)
+
+[개별 사용자 암호가 만료되지 않도록 설정](https://docs.microsoft.com/microsoft-365/admin/add-users/set-password-to-never-expire)
+
+[사용자가 암호를 직접 재설정할 수 있도록 허용](https://docs.microsoft.com/microsoft-365/admin/add-users/let-users-reset-passwords)
+
+[사용자 암호 다시 보내기 - 관리자 도움말](https://docs.microsoft.com/microsoft-365/admin/add-users/resend-user-password)

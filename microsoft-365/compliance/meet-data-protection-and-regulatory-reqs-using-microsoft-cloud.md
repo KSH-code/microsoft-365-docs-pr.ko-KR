@@ -16,17 +16,17 @@ search.appverid:
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: Microsoft Service Trust Portal에서 준수 관리자를 사용해 데이터 보호와 규정 요구 사항을 충족하는 방법을 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 071da43244f2afae3df29ec84ae98713ed0dc2d7
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: aedadc682bd45f363f1e97599383dd901c3eae7f
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44815599"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45016259"
 ---
 # <a name="microsoft-compliance-manager-classic"></a>Microsoft 준수 관리자(기본)
 
 > [!NOTE]
-> 이 문서는 이 제품의 이전 버전을 설명합니다. 사용자는 이 버전의 준수 관리자를 사용하지 말고 대신 새로운 [Microsoft 준수 점수](compliance-score.md)를 사용하는 것이 좋습니다.
+> 이 문서는 이 제품의 이전 버전을 설명합니다. 사용자는 *이 버전의 준수 관리자를 사용하지 않는 것이 좋습니다*. **준수 관리자의 현재 미리보기 버전을 사용하는 경우, [준수 관리자 (미리 보기) 문서](working-with-compliance-manager.md)를 참조 하세요.**
 
  *준수 관리자는 21Vianet, Office 365 Germany, Office 365 미국 GCC(Government Community High) 또는 Office 365 미국방부에서 운영하는 Office 365에서 사용할 수 없습니다.*
   
@@ -227,7 +227,7 @@ Compliance Manager uses a risk-based scoring methodology with a scale from 1-10 
   
  **위협**
   
-||||
+|<br>|<br>|<br>|
 |:-----|:-----|:-----|
 ||**필수** <br/> |**사용자 지정** <br/> |
 |**예방용** <br/> |높은 위험  <br/> |중간 위험  <br/> |
@@ -244,7 +244,7 @@ Compliance Manager uses a risk-based scoring methodology with a scale from 1-10 
     
 A failure of any of these characteristics is considered a compromise of the system as a whole. Threats can come from both internal and external sources, and an actor's intent can be accidental or malicious. These factors are estimated in a threat matrix that assigns threat levels of either High, Moderate, or Low to each combination of scenarios.
 
-||**내부**<br/>||**외부**:<br/>||||
+|<br>|**내부**<br/>|<br>|**외부**:<br/>|<br>|<br>|<br>|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 ||*악의적*<br/>|*우발적*<br/>|*악의적*<br/>|*우발적*<br/>|||
 |**기밀성**<br/>|(H, M 또는 L)  <br/> |(H, M 또는 L)  <br/> |(H, M 또는 L)  <br/> |(H, M 또는 L)|
