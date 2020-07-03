@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
 description: Office 365에서 암호화에 사용 되는 다양 한 인증서, 기술 및 TLS 암호 제품군에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 298d73551b5eb3d7ad7121075b086ee4630562f4
-ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
+ms.openlocfilehash: 91fa21fff12c429032af6468ff3024acfc6ca2ab
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44739109"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024544"
 ---
 # <a name="technical-reference-details-about-encryption"></a>암호화에 대 한 기술 참조 세부 정보
 
@@ -56,10 +56,9 @@ TLS 버전 1.3 (TLS 1.3)은 현재 지원 되지 않습니다.
 
 이는 Office 365이 TLS 1.0 및 1.1 연결을 차단 한다는 것을 의미 하지는 않습니다.
 
-TLS 1.0 및 TLS 1.1는 이러한 날짜에 공식적으로 더 이상 사용 되지 않습니다.
+처음에는 6 월 2020 1 일을 설정 했지만 전 세계 및 GCC 환경에서 tls 1.0 및 TLS 1.1가 중단 되는 경우에는이 날짜가 더 이상 유효 하지 않습니다. 이는 COVID-19로 인해 발생 한 것입니다. 이 새로운 날짜가 있으면 여기에 게시 합니다. 
 
-- 전 세계 및 GCC 환경의 2020 년 6 월 1 일
-- GCC High 및 DoD 환경에서 2020 년 1 월 15 일
+GCC High 및 DoD 환경에서는 공식적인 고가 2020 년 1 월 15 일에 발생 합니다.
 
 모든 클라이언트 서버와 브라우저 서버 조합에서 TLS 1.2 및 최신 암호 그룹을 사용 하 여 Office 365 및 Microsoft 365 서비스에 대 한 안전한 연결을 유지 하도록 해야 합니다. 특정 클라이언트-서버 및 브라우저-서버 조합을 업데이트해야 할 수 있습니다. 이를 통해 영향을 주는 방법에 대 한 자세한 내용은 [Office 365에서 TLS 1.2의 필수 사용 준비](https://support.microsoft.com/help/4057306/preparing-for-tls-1-2-in-office-365)를 참조 하세요.
   

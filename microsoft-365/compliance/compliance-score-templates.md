@@ -14,18 +14,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 점수 (preview)에서 평가를 설정 하는 데 사용할 준비가 된 모든 템플릿을 검토 합니다.
-ms.openlocfilehash: 4bb4bd95bb9df98f081b2e7a60ae21a86dfdc048
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 9e40527b44bc5b9a7a926a32f6e5d107c257b7b7
+ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45016592"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "45035623"
 ---
 # <a name="compliance-score-preview-templates"></a>준수 점수 (미리 보기) 서식 파일
 
 ## <a name="templates-overview"></a>서식 파일 개요
 
-규정 준수 점수 **평가를 만들기 위한 포괄적인 템플릿**집합을 제공 합니다. 이러한 템플릿을 사용 하면 조직에서 데이터의 수집 및 사용을 관리 하는 국가, 지역별 및 업계 관련 요구 사항을 준수 하는 데 도움이 될 수 있습니다. 규정이 위임 및 업데이트 됨에 따라 새 템플릿이 추가 됩니다.
+[규정 준수 점수](compliance-score.md) **평가를 만들기 위한 포괄적인 템플릿**집합을 제공 합니다. 이러한 템플릿을 사용 하면 조직에서 데이터의 수집 및 사용을 관리 하는 국가, 지역별 및 업계 관련 요구 사항을 준수 하는 데 도움이 될 수 있습니다. 규정이 위임 및 업데이트 됨에 따라 새 템플릿이 추가 됩니다.
 
 조직의 필요에 맞게 아래에서 원하는 서식 파일을 수정할 수 있습니다. 고유한 템플릿을 만들어 사용자 지정 평가를 만들 수도 있습니다. 
 

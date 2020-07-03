@@ -17,55 +17,54 @@ search.appverid:
 ms.assetid: ''
 description: 고급 eDiscovery의 기본 제공 custodian 관리 도구를 사용 하 여 워크플로를 조정 하 고 사례에서 관련 데이터 원본을 식별 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: adf5df3bba1956ab1bb658590c1fcf9d4f5a814d
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 5b64bb288e94c345cc373b0d800bc0349895f7d3
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818615"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024710"
 ---
 # <a name="add-custodians-to-an-advanced-ediscovery-case"></a>고급 eDiscovery 사례에 custodians 추가
 
 고급 eDiscovery의 기본 제공 custodian 관리 도구를 사용 하 여 custodians 관리를 위한 워크플로를 조정 하 고 사례와 연결 된 관련 custodial 데이터 원본을 식별 합니다. Custodian를 추가 하면 시스템에서 Exchange 사서함 및 비즈니스용 OneDrive 계정을 자동으로 식별 하 고 유지 합니다. 조사 프로세스를 진행 하는 동안 custodian에서 액세스 하거나 참여 하는 추가 데이터 원본 (예: 사서함, 사이트 또는 팀)을 식별할 수도 있습니다. 이러한 상황에서는 custodian 관리 도구를 사용 하 여 해당 데이터 원본을 특정 custodian에 연결할 수 있습니다. Custodians를 사례에 추가 하 고 다른 데이터 원본을 이러한 원본과 연결한 후에는 데이터를 빠르게 보존 하 고 custodial 데이터를 검색할 수 있습니다.
 
-고급 eDiscovery 사례에서 custodians을 추가 하 고 관리 하려면 다음 워크플로를 사용 합니다. 
+고급 eDiscovery 사례에서 custodians을 추가 하 고 관리 하려면 다음 워크플로를 사용 합니다.
 
-![Custodian 관리 탭](../media/CustodianMgtPage.png)
+![Advanced eDiscovery 사례의 원본 탭](../media/AeD-Sources-Tab.png)
 
 ## <a name="make-sure-you-have-the-necessary-permissions"></a>필요한 사용 권한이 있는지 확인
 
 Custodians를 사례에 추가 하려면 eDiscovery 관리자 역할 그룹의 구성원 이어야 합니다. 이렇게 하면 custodians를 사례에 추가 하 고 custodial 데이터 원본에 대 한 보류를 수행 하는 데 필요한 권한이 제공 됩니다.
-
 
 ## <a name="step-1-add-potential-custodians"></a>1 단계: 잠재 custodians 추가
 
 첫 번째 단계는 custodians를 식별 하 고 사례에 추가 하는 것입니다.
 
 1. **고급 eDiscovery** 홈 페이지에서 custodians를 추가할 사례를 클릭 합니다. 
- 
-2. **Custodians** 탭을 클릭 하 고 **+ 추가 Custodians**를 클릭 합니다.
+
+2. **원본** 탭을 클릭 한 다음 **custodians 추가**를 클릭 합니다.
 
 3. 사례에 추가할 custodians를 찾습니다. 조직의 Azure Active Directory에서 사용자를 표시 하려면 사용자 이름의 첫 부분을 입력 합니다. 올바른 사용자를 찾았으면 이름을 클릭 하 여 목록에 추가 합니다.
 
    ![잠재 Custodians 확인](../media/AddCustodianStep1.png)
- 
+
 4. 관련 custodians를 모두 추가한 후 **다음** 을 클릭 하 여 custodians의 기본 데이터 원본을 선택 합니다.
   
 ## <a name="step-2-select-custodian-data-sources"></a>2 단계: custodian 데이터 원본 선택
 
 Custodians을 추가한 후에는 custodian 도구를 통해 각 custodian에서 소유한 기본 데이터 원본을 식별할 수 있습니다. 이러한 데이터 위치는 custodian의 Exchange 사서함 및 OneDrive 계정입니다. 
 
-Custodian 데이터 원본을 확인 하려면 다음을 수행 합니다. 
+Custodian 데이터 원본을 확인 하려면 다음을 수행 합니다.
 
 1. 모든 custodians에 대 한 Exchange 사서함을 선택 하려면 열 맨 위에 있는 **exchange** 확인란을 선택 합니다. 그런 다음 특정 custodian에 대 한 확인란의 선택을 취소 하 여 사서함을 custodial 위치로 제거할 수 있습니다. 또는 열 위쪽에 있는 **Exchange** 확인란을 선택 하지 않은 채로 둔 다음 개별 custodians에 대 한 확인란을 선택할 수 있습니다. 
- 
+
    ![Custodial 데이터 원본 선택](../media/AddCustodianStep2.png)
- 
+
 2. Custodians의 OneDrive 계정에 대해 동일한 작업을 반복 합니다. 
 
     Custodian 데이터 원본을 선택한 후에는 시스템에서 이러한 데이터 원본을 자동으로 식별 하 고 확인 한 다음 custodians와 연결 된 데이터 원본으로이를 사례에 추가 합니다.
- 
-4. **다음** 을 클릭 하 여 대/소문자를 구분 하 여 추가 데이터 원본을 custodians에 연결 합니다.
+
+3. **다음** 을 클릭 하 여 대/소문자를 구분 하 여 추가 데이터 원본을 custodians에 연결 합니다.
 
 ## <a name="step-3-associate-additional-data-sources-to-a-custodian"></a>3 단계: 추가 데이터 원본을 custodian에 연결
 
@@ -101,8 +100,8 @@ Custodian 데이터 원본을 확인 하려면 다음을 수행 합니다.
 
 Custodians 및 데이터 원본을 보류 하려면 다음을 수행 합니다.
 
-1. **선택한 custodians** 페이지를 유지 하려면 열 위쪽에 있는 **보류** 확인란을 선택 하 여 모든 custodians를 보류 상태로 설정 합니다. 그런 다음 특정 custodian에 대 한 확인란의 선택을 취소 하 여 보류에서 제거할 수 있습니다. 선택 하지 않은 열 위에 있는 **보류** 확인란을 선택 하지 않은 상태로 둔 다음 개별 custodians에 대 한 확인란을 선택할 수도 있습니다. 
- 
+1. **선택한 custodians** 페이지를 유지 하려면 열 위쪽에 있는 **보류** 확인란을 선택 하 여 모든 custodians를 보류 상태로 설정 합니다. 그런 다음 특정 custodian에 대 한 확인란의 선택을 취소 하 여 보류에서 제거할 수 있습니다. 선택 하지 않은 열 위에 있는 **보류** 확인란을 선택 하지 않은 상태로 둔 다음 개별 custodians에 대 한 확인란을 선택할 수도 있습니다.
+
    ![위치 유지](../media/AddCustodianStep5.PNG)
 
 2. Custodian 보류 선택 사항을 확인 하 고 **완료**를 클릭 합니다.
@@ -114,4 +113,3 @@ Custodian가 보존 된 후에는 모든 custodial 원본이 포함 된 custodia
 1. 사례 **홈** 페이지에서 **보류** 탭을 클릭 한 다음 **CustodianHold**를 클릭 합니다.  
 
 2. 플라이 아웃 페이지에서 **보류 편집** 을 클릭 하 여 보류 된 모든 custodian 데이터 원본을 확인 합니다.
-

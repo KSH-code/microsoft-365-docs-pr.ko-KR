@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: 대량 추가 도구를 사용 하면 고급 eDiscovery에서 여러 custodians 및 연결 된 데이터 원본을 사례에 빠르게 추가할 수 있습니다.
-ms.openlocfilehash: 921d4a1616d97f2adde7e40baa5c73f607c849b6
-ms.sourcegitcommit: 956dd3f87adb4e6173517550a662c3bacc2d2d79
+ms.openlocfilehash: ab9626be01814fa95a959141433b431df9bf7724
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44741637"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024668"
 ---
 # <a name="bulk-add-custodians-to-an-advanced-ediscovery-case"></a>고급 eDiscovery 사례에 custodians 대량 추가
 
@@ -37,14 +37,15 @@ ms.locfileid: "44741637"
 
 4. CSV 파일에 custodial 정보를 추가 하 고 로컬 컴퓨터에 저장 합니다. CSV 파일의 속성에 대 한 자세한 내용은 다음 섹션을 참조 하십시오.
 
-5. **원본** 탭에서 **Custodians 가져오기를** 다시 클릭 합니다. 
+5. **원본** 탭에서 **Custodians 가져오기를** 다시 클릭 합니다.
+
 6. 플라이 아웃 페이지에서 **찾아보기를** 클릭 하 고 CSV 파일을 업로드 합니다.
 
    CSV 파일이 업로드 된 후에는 BulkAddCustodian 작업이 만들어지고 **작업** 탭에 표시 됩니다. 이 작업은 custodians의 해당 하는 데이터 원본에 대 한 유효성을 검사 한 다음 케이스의 **원본** 페이지에 있는 **custodians** 탭에 추가 합니다.
 
 ## <a name="custodian-csv-file"></a>Custodian CSV 파일
 
-CSV 서식 파일을 다운로드 한 후에는 각 행에 custodians 및 해당 데이터 원본을 추가할 수 있습니다. 머리글 행의 열 이름은 변경 하지 않도록 합니다.
+CSV 서식 파일을 다운로드 한 후에는 각 행에 custodians 및 해당 데이터 원본을 추가할 수 있습니다. 머리글 행의 열 이름은 변경 하지 마십시오.
 
 | 열 이름|설명|
 |:------- |:------------------------------------------------------------|

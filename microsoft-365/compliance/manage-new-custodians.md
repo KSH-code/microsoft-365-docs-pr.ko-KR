@@ -17,16 +17,16 @@ search.appverid:
 ms.assetid: ''
 description: 고급 eDiscovery 사례에서 자세한 정보를 확인 하 고, 편집 하 고, custodians 목록을 대량 편집 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 895383f72259fa5e46a46df35925bcc73f62e3a5
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 95b7a7dbec5656a1ac0692ed465eb5a99d7ca11a
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034180"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024808"
 ---
 # <a name="manage-custodians-in-an-advanced-ediscovery-case"></a>Advanced eDiscovery 사례에서 custodians 관리
 
-Advanced eDiscovery의 Custodians 탭에는 사례에 추가 된 모든 Custodians의 목록이 포함 되어 있습니다. Custodians를 사례에 추가 하 고 나면 각 custodian에 대 한 세부 정보는 Azure Active Directory에서 자동으로 수집 되며 고급 eDiscovery로 볼 수 있습니다.
+고급 eDiscovery 사례의 **원본** 탭에 있는 Custodians 페이지에는 사례에 추가 된 모든 Custodians의 목록이 포함 되어 있습니다. Custodians를 사례에 추가 하 고 나면 각 custodian에 대 한 세부 정보는 Azure Active Directory에서 자동으로 수집 되며 고급 eDiscovery로 볼 수 있습니다.
 
 ![Custodians 관리](../media/CustodianDetails.PNG)
 
@@ -79,9 +79,9 @@ Custodian와 연결 된 데이터 원본을 업데이트 하려면 다음을 수
 
 1. **Ediscovery > Advanced ediscovery** 로 이동 하 여 사례를 엽니다.
   
-2. **Custodians** 탭을 클릭 합니다.
+2. **원본** 탭을 클릭 합니다.
   
-3. 목록에서 custodian를 선택 하 고 플라이 아웃 페이지에서 **편집** 을 클릭 합니다.
+3. **Custodians** 페이지의 목록에서 custodian를 선택 하 고 플라이 아웃 페이지에서 **편집** 을 클릭 합니다.
 
     ![데이터 원본 편집](../media/EditCustodianDataSource.PNG)
   
@@ -103,9 +103,11 @@ Custodian가 사례에 추가 되 면 custodian와 연결 된 데이터 원본�
 
 1. **Ediscovery > Advanced ediscovery** 로 이동 하 여 사례를 엽니다.
 
-2. **Custodians 탭**을 클릭 한 다음 데이터를 reindexed 해야 하는 custodian을 선택 합니다. 
+2. **원본** 탭을 클릭 합니다.
 
-3. 플라이 아웃 페이지에서 **인덱스 업데이트**를 클릭 합니다.
+3. **Custodians** 페이지에서 해당 데이터를 reindexed 해야 하는 custodian을 선택 합니다.
+
+4. 플라이 아웃 페이지에서 **인덱스 업데이트**를 클릭 합니다.
 
    인덱스 작업을 만들었기를 알리는 대화 상자가 표시 됩니다.
 
@@ -127,9 +129,9 @@ Custodian를 해제 하려면 다음을 수행 합니다.
 
 1. **Ediscovery > Advanced ediscovery** 로 이동 하 여 사례를 엽니다.
 
-2.    **Custodians** 탭으로 이동 합니다.
+2. **원본** 탭을 클릭 합니다.
 
-3.    **Custodians 탭**을 클릭 한 다음 사례에서 출시 되는 custodian을 선택 합니다.
+3. **Custodians** 페이지에서 사례 로부터 출시 되는 custodian을 선택 합니다.
 
 4. 플라이 아웃 페이지에서 **Custodian 릴리스**를 클릭 합니다.
 

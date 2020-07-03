@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: 사용자가 업로드 하 고 사용자가 파일을 다운로드 하거나 동기화 하지 못하게 하는 파일에서 SharePoint Online이 바이러스를 감지 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6a47f52a30f90d7a19cc01dc9e14eb9b534ec244
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 60d696769ea402e6e2d0e52a1f6633e7962b8329
+ms.sourcegitcommit: f2275d2fbc17a8b5b5da723c7353d3f36c6fb2a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034953"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45029611"
 ---
 # <a name="virus-detection-in-sharepoint-online"></a>SharePoint Online에서의 바이러스 탐지
 
@@ -62,4 +62,10 @@ Microsoft 365에서는 일반적인 바이러스 검색 엔진을 사용 합니�
 
 ## <a name="what-happens-when-the-onedrive-sync-client-tries-to-sync-an-infected-file"></a>OneDrive 동기화 클라이언트가 감염 된 파일을 동기화 하려고 할 때 수행 되는 작업
 
-사용자가 새 OneDrive 동기화 클라이언트 (excel.exe) 또는 이전 비즈니스용 OneDrive 동기화 클라이언트 (Groove)를 사용 하 여 파일을 동기화 하는지 여부에 관계 없이 파일에 바이러스가 포함 되어 있으면 동기화 클라이언트에서 다운로드 하지 않습니다. 동기화 클라이언트에서는 파일을 동기화 할 수 없다는 알림을 표시 합니다.
+사용자가 새 OneDrive 동기화 클라이언트 (OneDrive.exe) 또는 이전 비즈니스용 OneDrive 동기화 클라이언트 (Groove.exe)를 사용 하 여 파일을 동기화 하는지 여부에 관계 없이 파일에 바이러스가 포함 되어 있으면 동기화 클라이언트에서 다운로드 하지 않습니다. 동기화 클라이언트에서는 파일을 동기화 할 수 없다는 알림을 표시 합니다.
+
+## <a name="more-information"></a>추가 정보
+
+SharePoint Online 바이러스 백신을 구성 하는 방법에 대 한 자세한 내용은 [위협 으로부터 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide#requirements) 하 고 [, sharepoint, OneDrive 및 MICROSOFT 팀에서 ATP를 켜십시오](https://docs.microsoft.com/microsoft-365/security/office-365-security/turn-on-atp-for-spo-odb-and-teams?view=o365-worldwide) .를 참조 하세요.
+
+

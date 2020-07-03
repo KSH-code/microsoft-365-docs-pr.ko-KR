@@ -14,14 +14,13 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
-description: 고급 eDiscovery 사례에 custodial 되지 않은 데이터 원본을 추가 하 고 데이터 원본을 유지할 수 있습니다. Custodial가 아닌 데이터 원본은 다시 인덱싱되 며 부분적으로 인덱싱된 콘텐츠가 완전히 처리 되 고 신속 하 게 검색 가능 하도록 하기 위해 다시 처리할 수 있습니다.
-ms.openlocfilehash: 618d39bfb7be6cd260c88cdf4c57501747f440f1
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+description: 고급 eDiscovery 사례에 custodial 되지 않은 데이터 원본을 추가 하 고 데이터 원본을 유지할 수 있습니다. Custodial이 아닌 데이터 원본은 reindexed 이므로 부분적으로 인덱싱된 콘텐츠가 완전히 검색 가능 하도록 다시 처리 됩니다.
+ms.openlocfilehash: 2009a8cc82dc9407e9871409e85cdcd321ea9bb0
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695507"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024748"
 ---
 # <a name="add-non-custodial-data-sources-to-an-advanced-ediscovery-case"></a>고급 eDiscovery 사례에 비 custodial 데이터 원본 추가
 
@@ -47,7 +46,7 @@ ms.locfileid: "44695507"
 
    추가한 각 custodial 데이터 원본이 **데이터 원본** 페이지에 나열 됩니다.
 
-   또한 대/소문자를 구분 **하는 작업 탭에** *custodial 되지 않은 데이터 다시 인덱싱* 작업을 만들고 표시 합니다. 작업을 만든 후에는 초기화 된 고급 인덱싱 프로세스와 데이터 원본을 다시 인덱싱합니다.
+   또한, 대/소문자를 구분 **하는 작업 탭에** 는 *Custodial 데이터 다시 인덱스* 라는 작업이 만들어지고 표시 됩니다. 작업을 만든 후에는 초기화 된 고급 인덱싱 프로세스와 데이터 원본의 reindexed 됩니다.
 
 ## <a name="managing-the-hold-on-non-custodial-data-sources"></a>비 custodial 데이터 원본에 대 한 보류 관리
 

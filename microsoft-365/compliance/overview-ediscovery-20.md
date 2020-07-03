@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 이 문서에서는 내부 및 외부 조사 도구인 Microsoft 365의 고급 eDiscovery에 대 한 개요를 제공 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 84fbf3bbdc4a4ee08901001f7898355e4c8b2705
-ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
+ms.openlocfilehash: 5adf2a62aad5e7da476c2713fa18f9e8b6ab9329
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44322043"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024790"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Microsoft 365의 고급 eDiscovery 솔루션 개요
 
@@ -59,13 +59,13 @@ Microsoft 365의 고급 eDiscovery 솔루션은 Office 365의 기존 eDiscovery 
 
 다음 섹션에서는 고급 eDiscovery에서 기본 제공 워크플로의 각 단계에 대해 설명 합니다. 다음 스크린샷에서는 *제품 책임 2019002*라는 사례에 대 한 **홈** 탭을 보여 줍니다. 참고 페이지 맨 위에 있는 워크플로 탭은 EDRM 프로세스에 맞게 시퀀싱 됩니다. 
 
-Advanced eDiscovery의 종단 간 워크플로에 대 한 자세한 내용은이 [Microsoft 메커니즘 비디오](https://go.microsoft.com/fwlink/?linkid=2066133)를 참조 하세요. 
+Advanced eDiscovery의 종단 간 워크플로에 대 한 자세한 내용은이 [Microsoft 메커니즘 비디오](https://go.microsoft.com/fwlink/?linkid=2066133)를 참조 하세요.
 
 ![고급 eDiscovery의 탭은 EDRM 워크플로를 따릅니다.](../media/aedisco-homepage-1.png)
 
-## <a name="managing-custodians"></a>Custodians 관리
+## <a name="managing-custodians-and-non-custodial-data-sources"></a>Custodians 및 비 custodial 데이터 원본 관리
 
-**Custodians** 탭을 사용 하 여 대/소문자에서 원하는 사람으로 식별 된 사용자를 추가 하 고 관리 합니다. Custodians를 추가 하는 경우 custodian 데이터 원본에 법적 보존을 배치 하 고 custodians와 통신 하 고 custodian 데이터 원본을 검색 하 여 사례와 관련 된 콘텐츠를 수집 하는 것과 같은 관련 작업을 빠르게 수행할 수 있습니다. 사례가 진행 됨에 따라 custodians에서 새 custodians를 추가 하거나 릴리스를 쉽게 추가할 수 있습니다. 자세한 내용은 [Advanced eDiscovery에서 custodians 사용](managing-custodians.md)을 참조 하십시오.
+Sources ( **원본** ) 탭을 사용 하 여 custodian와 연결 되지 않을 수도 있는 다른 데이터 원본 및 사례에서 관심 있는 사람으로 식별 된 사용자를 추가 하 고 관리 합니다. Custodians 또는 비 custodial 데이터 원본을 추가 하는 경우 custodian 및 비 custodial 데이터 원본에 법적 보존 기능을 배치 하 고, custodians, 검색 custodian 및 비-custodial 데이터 원본을 사용 하 여 사례와 관련 된 콘텐츠를 수집 하는 등의 작업을 빠르게 수행할 수 있습니다. 사례가 진행 됨에 따라 새 custodians 또는 비 custodial 날짜 원본을 추가 하거나 사례에서 릴리스 하기가 쉽습니다. 자세한 내용은 [Advanced eDiscovery에서 custodians 사용](managing-custodians.md)을 참조 하십시오.
 
 ## <a name="managing-legal-hold-notifications"></a>법적 보존 알림 관리
 

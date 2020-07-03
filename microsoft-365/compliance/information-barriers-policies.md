@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: Microsoft 팀에서 정보 장벽에 대 한 정책을 정의 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 88ff728f00709707233b97586d1220ead76eca8c
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: a9f8635f65867eb9d9543cc23b984f181030a7f9
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817547"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024698"
 ---
 # <a name="define-information-barrier-policies"></a>정보 장벽 정책 정의
 
@@ -161,7 +161,7 @@ ms.locfileid: "44817547"
 |---------|---------|
 |`New-OrganizationSegment -Name "LocalFTE" -UserGroupFilter "Location -eq 'Local'" -and "Position -ne 'Temporary'"` |<p>이 예에서는 로컬에 있고 위치가 *임시*로 나열 되지 않은 사용자를 포함 하는 *LocalFTE* 라는 세그먼트를 정의 했습니다.    |
  |`New-OrganizationSegment -Name "Segment1" -UserGroupFilter "MemberOf -eq 'group1@contoso.com'' -and MemberOf -ne 'group3@contoso.com'"`|  <p>이 예에서는 group3@contoso.com의 구성원이 아니라 group1@contoso.com의 구성원 인 사용자를 포함 하는 *Segment1* 라는 세그먼트를 정의 했습니다.
-|`New-OrganizationSegment -Name "Segment2" -UserGroupFilter "MemberOf -eq 'group2@contoso.com'' -or MemberOf -ne 'group3@contoso.com'"` | 이 예에서는 group3@contoso.com의 구성원이 아니라 group2@contoso.com의 구성원 인 사용자를 포함 하는 *Segment2* 라는 세그먼트를 정의 했습니다.
+|`New-OrganizationSegment -Name "Segment2" -UserGroupFilter "MemberOf -eq 'group2@contoso.com' -or MemberOf -ne 'group3@contoso.com'"` | 이 예에서는 group3@contoso.com의 구성원이 아니라 group2@contoso.com의 구성원 인 사용자를 포함 하는 *Segment2* 라는 세그먼트를 정의 했습니다.
 |`New-OrganizationSegment -Name "Segment1and2" -UserGroupFilter "(MemberOf -eq 'group1@contoso.com' -or MemberOf -eq 'group2@contoso.com') -and MemberOf -ne 'group3@contoso.com'"`|  이 예에서는 group3@contoso.com의 구성원이 아닌 group1@contoso.com 및 group2@contoso.com의 구성원을 포함 하는 *Segment1and2* 라는 세그먼트를 정의 했습니다.
 
 

@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 고급 eDiscovery Custodian 관리 도구를 사용 하 여 사례 내에서 custodians에 대 한 활동을 쉽게 액세스 하 고 검색할 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 29aee2498b21cc4535ffa82f91fdba05125c4d18
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: f9e96d0b5dd3bf42dbba56a6e1be91014485ce98
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819048"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024768"
 ---
 # <a name="view-custodian-audit-activity"></a>Custodian 감사 작업 보기
 
@@ -39,9 +39,9 @@ ms.locfileid: "44819048"
 
 1. **Ediscovery > Advanced ediscovery** 로 이동 하 여 사례를 엽니다.
   
-2. **Custodians** 탭을 클릭 합니다.
+2. **원본** 탭을 클릭 합니다.
   
-3. 목록에서 custodian를 선택 하 고 플라이 아웃 페이지에서 **custodian 활동 보기** 를 클릭 합니다.
+3. **Custodians** 페이지의 목록에서 custodian를 선택 하 고 플라이 아웃 페이지에서 **custodian 활동 보기** 를 클릭 합니다.
 
     Custodian 작업 검색 페이지가 표시 됩니다. 참고 이전 단계에서 선택한 custodian이 **custodian** 드롭다운 상자에 표시 됩니다. 드롭다운 상자에서 다른 custodians을 선택할 수 있지만 한 번에 한 custodian에 대 한 활동만 검색할 수 있습니다.
 
@@ -49,15 +49,15 @@ ms.locfileid: "44819048"
    
 4. 다음과 같은 검색 조건을 구성합니다. 
       
-   a. **활동** -드롭다운 목록을 클릭 하 여 검색할 수 있는 활동을 표시 합니다. 검색을 실행 한 후에는 선택한 활동에 대 한 감사 레코드만 표시 됩니다. **모든 작업에 대해 결과 표시** 를 선택 하면 custodian에서 수행 하는 모든 작업에 대해 다른 검색 조건과 일치 하는 결과가 표시 됩니다.
+   1. **활동** -드롭다운 목록을 클릭 하 여 검색할 수 있는 활동을 표시 합니다. 검색을 실행 한 후에는 선택한 활동에 대 한 감사 레코드만 표시 됩니다. **모든 작업에 대해 결과 표시** 를 선택 하면 custodian에서 수행 하는 모든 작업에 대해 다른 검색 조건과 일치 하는 결과가 표시 됩니다.
 
       ![활동 목록](../media/CustodianActivityAudit.PNG)
       
-      b. **시작 날짜 및 종료 날짜** -해당 기간 내에 발생 한 이벤트를 표시 하려면 날짜 및 시간 범위를 선택 합니다. 지난 7 일이 기본적으로 선택 됩니다. 날짜 및 시간은 UTC(협정 세계시) 형식으로 표시됩니다. 지정할 수 있는 최대 날짜 범위는 1 년입니다.
+   1. **시작 날짜 및 종료 날짜** -해당 기간 내에 발생 한 이벤트를 표시 하려면 날짜 및 시간 범위를 선택 합니다. 지난 7 일이 기본적으로 선택 됩니다. 날짜 및 시간은 UTC(협정 세계시) 형식으로 표시됩니다. 지정할 수 있는 최대 날짜 범위는 1 년입니다.
       
-      c. 이 상자를 **Custodians** 클릭 한 다음 특정 custodian을 선택 하 여 검색 결과를 표시 합니다. 이 상자에서 선택한 사용자가 수행한 선택한 작업에 대 한 감사 레코드가 결과 목록에 표시 됩니다.
+   1. 이 상자를 **Custodians** 클릭 한 다음 특정 custodian을 선택 하 여 검색 결과를 표시 합니다. 이 상자에서 선택한 사용자가 수행한 선택한 작업에 대 한 감사 레코드가 결과 목록에 표시 됩니다.
       
-   5. 이   ![검색 단추](../media/SearchButton.PNG)  검색 조건을 사용 하 여 검색을 실행 하려면 검색 결과가 로드 되 고 몇 분 후에 Custodian 작업 검색 페이지에서 결과 아래에 표시 됩니다. 
+5. 이 ![검색 단추](../media/SearchButton.PNG)  검색 조건을 사용 하 여 검색을 실행 하려면 검색 결과가 로드 되 고 몇 분 후에 Custodian 작업 검색 페이지에서 결과 아래에 표시 됩니다. 
 
 ## <a name="step-2-view-the-audit-log-search-results"></a>2 단계: 감사 로그 검색 결과 보기
 

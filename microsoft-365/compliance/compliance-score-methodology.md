@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 description: Microsoft 규정 준수 점수가 위험을 해결 하 고 준수 상태를 개선 하기 위해 수행한 조치에 따라 개인 설정 점수를 계산 하는 방법을 이해 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 552f2f85c4659ec24bc717d41c71733764d898ed
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
+ms.openlocfilehash: 69b631dc355ff497d0f6042e0cce6aff3d70e557
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/02/2020
-ms.locfileid: "45023249"
+ms.locfileid: "45024678"
 ---
 # <a name="compliance-score-preview-calculation"></a>규정 준수 점수 (미리 보기) 계산
 
@@ -74,7 +74,7 @@ ms.locfileid: "45023249"
 
  - **필수 작업** 은 고의적으로 또는 실수로 건너뛸 수 없습니다. 예를 들어 암호 길이, 복잡성 및 만료에 대 한 요구 사항을 설정 하는 중앙 집중식으로 관리 되는 암호 정책이 있습니다. 사용자는 이러한 요구 사항을 준수 하 여 시스템에 액세스 해야 합니다.
   
- - **임의 작업** 은 사용자에 게 정책을 이해 하 고 그에 따라 조치를 취할 수 있도록 합니다. 예를 들어 사용자가 자신의 컴퓨터를 사용 하는 경우 사용자에 게 의존 하므로 임의의 컨트롤을 잠그려고 하는 정책이 필요 합니다.
+ - **임의 작업** 은 사용자에 게 정책을 이해 하 고 그에 따라 조치를 취할 수 있도록 합니다. 예를 들어 사용자가 자신의 컴퓨터에서 작업을 수행 하는 데 사용 하는 정책입니다.
   
 ### <a name="preventative-detective-and-corrective-actions"></a>예방적, 예방용 인지 및 정정 작업
   

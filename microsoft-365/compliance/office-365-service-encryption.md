@@ -14,21 +14,21 @@ search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: '요약: Microsoft Office 365의 데이터 복구 기능을 이해 합니다.'
-ms.openlocfilehash: e69d35f08070e1fe092ca8a9b4aef6d179711121
-ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
+ms.openlocfilehash: 4759cfda13ab5044ddf5980d7e61004e9e7626fa
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44717349"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024778"
 ---
 # <a name="service-encryption"></a>서비스 암호화
 
 볼륨 수준 암호화, Exchange Online, 비즈니스용 Skype, SharePoint Online 및 비즈니스용 OneDrive를 사용 하는 것 외에도 서비스 암호화를 사용 하 여 고객 데이터를 암호화 합니다. 서비스 암호화를 사용 하면 다음과 같은 두 가지 주요 관리 옵션을 사용할 수 있습니다.
 
-## <a name="microsoft-managed-keys"></a>Microsoft 관리 키: 
+## <a name="microsoft-managed-keys"></a>Microsoft 관리 키
 Microsoft는 서비스 암호화를 위한 루트 키를 포함 하 여 모든 암호화 키를 관리 합니다. 이 옵션은 현재 SharePoint Online 및 비즈니스용 OneDrive에서 사용할 수 있습니다. 이 옵션은 현재 Exchange Online에 대해 롤아웃 됩니다. Microsoft 관리 키는 고객 키를 사용 하 여 온보드를 결정 하지 않은 경우 기본 서비스 암호화를 제공 합니다. 나중에 데이터 제거 경로를 팔 로우 하지 않고 고객 키를 사용 하지 않도록 결정 한 경우 Microsoft 관리 되는 키를 사용 하 여 사용자의 데이터 암호화가 유지 됩니다. 데이터는 최소한이 기본 수준에서 항상 암호화 됩니다. 
 
-## <a name="customer-key"></a>고객 키: 
+## <a name="customer-key"></a>고객 키
 서비스 암호화에 사용 되는 루트 키를 제공 하 고 Azure 키 자격 증명 모음을 사용 하 여 이러한 키를 관리 합니다. Microsoft는 다른 모든 키를 관리 합니다. 이 옵션은 고객 키 라고 하며, 현재 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive에 사용할 수 있습니다. 이전에는 고급 암호화 라고 합니다. 원래 공지 사항을 보려면 [Office 365 고객을 위해 투명도 및 컨트롤 향상](https://blogs.office.com/2015/04/21/enhancing-transparency-and-control-for-office-365-customers/) 을 참조 하세요.
 
 서비스 암호화는 여러 가지 이점을 제공 합니다. 예를 들면 고객 키:

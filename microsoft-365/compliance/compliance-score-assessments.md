@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 디자인 사용자 지정 조직의 규정 준수를 관리 하는 데 도움이 되는 평가를 만들어 Microsoft 규정 준수 점수를 확인 합니다.
-ms.openlocfilehash: 45a5e76aa4f6581146ded510f75d772c202751ee
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
+ms.openlocfilehash: 8b27267461e226a6db2173158d2d35238c0d5a5e
+ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45023311"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "45035633"
 ---
 # <a name="customize-compliance-score-preview-with-assessments"></a>평가를 통해 규정 준수 점수 (미리 보기) 사용자 지정
 
@@ -35,7 +35,7 @@ ms.locfileid: "45023311"
 
 ## <a name="data-protection-baseline-default-assessment"></a>데이터 보호 기준 기본 평가
 
-시작 하기 위해 Microsoft는 Microsoft 365 데이터 보호 기준을 포함 하는 규정 준수 점수의 **기본** 평가를 제공 합니다. 이 기준은 데이터 보호 및 일반 데이터 관리를 위한 주요 규정 및 표준을 포함 하는 컨트롤 집합입니다. 이 기준은 기본적으로 NIST CSF (표준 및 기술 Cybersecurity 프레임 워크) 및 ISO (국제 표준화 기구)를 비롯 하 여 FedRAMP (연방 위험 및 권한 부여 관리 프로그램) 및 GDPR (유럽 연합의 일반 데이터 보호 규정)의 요소를 그립니다.
+시작 하기 위해 Microsoft는 Microsoft 365 데이터 보호 기준이 포함 된 규정 준수 점수의 **기본** 평가를 제공 합니다. 이 기준은 데이터 보호 및 일반 데이터 관리를 위한 주요 규정 및 표준을 포함 하는 컨트롤 집합입니다. 이 기준은 기본적으로 NIST CSF (표준 및 기술 Cybersecurity 프레임 워크) 및 ISO (국제 표준화 기구)를 비롯 하 여 FedRAMP (연방 위험 및 권한 부여 관리 프로그램) 및 GDPR (유럽 연합의 일반 데이터 보호 규정)의 요소를 그립니다.
 
 이 평가는 다른 평가를 구성 하기 전에 먼저 규정 준수 점수에 도달 했을 때 초기 점수를 계산 하는 데 사용 됩니다. 준수 점수는 Microsoft 365 솔루션의 초기 신호를 수집 합니다. 주요 데이터 보호 표준 및 규정을 기준으로 조직이 수행 하는 방법을 한눈에 확인 하 고 고려해 야 할 개선 작업을 확인할 수 있습니다.
 
@@ -46,7 +46,7 @@ ms.locfileid: "45023311"
 평가는 다음과 같은 세 가지 방법으로 설정할 수 있습니다.
 
 1. 평가를 사용할 준비가 되었습니다 .를 선택 합니다.
-2. 사용자의 요구에 맞게 평가 서식 파일을 수정 합니다.
+2. 사용자의 요구에 맞게 [평가 서식 파일](compliance-score-templates.md) 을 수정 합니다.
 3. 고유한 사용자 지정 평가를 만듭니다.
 
 사용자는 평가를 만들거나 수정 하기 위해 전역 관리자, 준수 관리자, 준수 데이터 관리자 또는 보안 관리자의 역할을 보유 하 고 있어야 합니다. [역할 및 사용 권한에](compliance-score-setup.md#set-user-permissions-and-assign-roles)대해 자세히 알아보세요.

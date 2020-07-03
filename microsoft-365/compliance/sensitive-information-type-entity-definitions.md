@@ -1,5 +1,5 @@
 ---
-title: 중요 한 정보 유형 엔터티 정의
+title: 중요한 정보 유형 엔터티 정의
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -16,14 +16,14 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 보안 및 준수 센터의 DLP (데이터 손실 방지)에는 &amp; dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다.
-ms.openlocfilehash: acfec3d92f3f3f3207819a2fe0988e45ae56ae02
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: a91459652d785f6536cb50e381ab139057a3eae8
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327286"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024646"
 ---
-# <a name="sensitive-information-type-entity-definitions"></a>중요 한 정보 유형 엔터티 정의
+# <a name="sensitive-information-type-entity-definitions"></a>중요한 정보 유형 엔터티 정의
 
 준수 센터의 DLP (데이터 손실 방지)에는 DLP 정책에서 사용할 수 있는 중요 한 정보 유형이 많이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다. 중요한 정보 유형은 정규식이나 함수로 식별될 수 있는 패턴으로 정의됩니다. 또한 키워드 및 체크섬과 같은 확증적인 증거를 사용하여 중요한 정보 유형을 식별할 수 있습니다. 이러한 평가 프로세스에서 신뢰 수준 및 근접성도 사용됩니다.
   
@@ -4902,7 +4902,7 @@ EU 드라이버의 라이선스 번호 중요 한 정보 유형에 서 해당 �
 - [불가리아](#bulgaria-drivers-license-number)
 - [크로아티아](#croatia-drivers-license-number)
 - [키프로스](#cyprus-drivers-license-number)
-- [체코어](#czech-drivers-license-number)
+- [Czech](#czech-drivers-license-number)
 - [덴마크](#denmark-drivers-license-number)
 - [에스토니아](#estonia-drivers-license-number)
 - [핀란드](#finland-drivers-license-number)
@@ -4934,7 +4934,7 @@ EU 국가 식별 번호 중요 한 정보 유형의 엔터티입니다.
 - [불가리아](#bulgaria-national-identification-number)
 - [크로아티아](#croatia-identity-card-number)
 - [키프로스](#cyprus-national-identification-number)
-- [체코어](#czech-personal-identity-number)
+- [Czech](#czech-personal-identity-number)
 - [덴마크](#denmark-personal-identification-number)
 - [에스토니아](#estonia-national-identification-number)
 - [핀란드](#finland-national-identification-number)
@@ -4966,7 +4966,7 @@ EU 국가 식별 번호 중요 한 정보 유형의 엔터티입니다.
 - [불가리아](#bulgaria-passport-number)
 - [크로아티아](#croatia-passport-number)
 - [키프로스](#cyprus-passport-number)
-- [체코어](#czech-passport-number)
+- [Czech](#czech-passport-number)
 - [덴마크](#denmark-passport-number)
 - [에스토니아](#estonia-passport-number)
 - [핀란드](#finland-passport-number)
@@ -4997,7 +4997,7 @@ EU 국가 식별 번호 중요 한 정보 유형의 엔터티입니다.
 - [오스트리아](#austria-social-security-number-or-equivalent-identification)
 - [벨기에](#belgium-social-security-number-or-equivalent-identification)
 - [크로아티아](#croatia-social-security-number-or-equivalent-identification)
-- [체코어](#czech-social-security-number-or-equivalent-identification)
+- [Czech](#czech-social-security-number-or-equivalent-identification)
 - [덴마크](#denmark-social-security-number-or-equivalent-identification)
 - [핀란드](#finland-social-security-number-or-equivalent-identification)
 - [프랑스](#france-social-security-number-insee-or-equivalent-identification)
@@ -5017,7 +5017,7 @@ hese 엔터티는 EU 세금 식별 번호 중요 한 정보 유형입니다.
 - [불가리아](#bulgaria-tax-identification-number)
 - [크로아티아](#croatia-tax-identification-number)
 - [키프로스](#cyprus-tax-identification-number)
-- [체코어](#czech-tax-identification-number)
+- [Czech](#czech-tax-identification-number)
 - [덴마크](#denmark-tax-identification-number)
 - [에스토니아](#estonia-tax-identification-number)
 - [핀란드](#finland-tax-identification-number)
@@ -6300,6 +6300,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyword_hong_kong_id_card"></a>Keyword_hong_kong_id_card
 
+- hkid
 - 홍콩 특별 식별자 카드
 - HKIDC
 - id card

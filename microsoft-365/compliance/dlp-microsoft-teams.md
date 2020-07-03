@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 이제 Microsoft 팀 채팅 및 채널에 DLP 정책을 적용할 수 있습니다. 이 문서를 읽으면 작동 방식에 대해 자세히 알아볼 수 있습니다.
-ms.openlocfilehash: 2e65800f747b4e6eae4e19e9da92ad2589ac0d4e
-ms.sourcegitcommit: 8d9509e617ede7cc5ba933c54fb9300d2d1c6344
+ms.openlocfilehash: 58a96cea3a45fb640b06e09debd35dd005b15a32
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "44347857"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024728"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft 팀
 
@@ -113,8 +113,8 @@ ms.locfileid: "44347857"
 
 5. **위치 선택** 탭에서 모든 위치의 기본 설정을 유지 하거나, **특정 위치 선택 허용**을 선택 하 고 **다음**을 선택 합니다.<br/>특정 위치를 선택 하는 경우 DLP 정책에 대해이를 선택한 후 **다음**을 선택 합니다.<br/>![DLP 정책 위치](../media/dlp-teams-selectlocationsnewpolicy.png)<br/>
     > [!NOTE]
-    > 중요 한 정보가 포함 된 문서가 잘못 공유 되지 않도록 하려면 **팀 채팅 및 채널 메시지**와 함께 **SharePoint 사이트** 와 **OneDrive 계정이** 설정 되어 있는지 확인 합니다.
-    > Microsoft 팀의 채널은 Exchange Online 기능에 따라 강력 하 게 작동 합니다. 채널 콘텐츠에 적용 해야 하는 정책에 대해 **Exchange 전자 메일** 위치도 사용 하도록 설정 되어 있는지 확인 합니다.  
+    > 중요 한 정보가 포함 된 문서가 팀에서 잘못 공유 되지 않도록 하려면 **팀 채팅 및 채널 메시지**와 함께 **SharePoint 사이트** 와 **OneDrive 계정이** 설정 되어 있는지 확인 합니다.
+
 <br/>
 
 6. **정책 설정** 탭의 **보호 하려는 콘텐츠 형식 사용자 지정**에서 기본 설정을 유지 하거나 **고급 설정 사용**을 선택 하 고 **다음**을 선택 합니다. 고급 설정을 선택 하는 경우 정책에 대 한 규칙을 만들거나 편집할 수 있습니다. 이에 대 한 도움말을 보려면 [단순 설정 및 고급 설정을](data-loss-prevention-policies.md#simple-settings-vs-advanced-settings)참조 하세요.
