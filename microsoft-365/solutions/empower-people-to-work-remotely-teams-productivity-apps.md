@@ -1,5 +1,5 @@
 ---
-title: 4단계. 원격 작업자 생산성 앱 및 서비스 배포
+title: 5단계. 원격 작업자 생산성 앱 및 서비스 배포
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -17,14 +17,14 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: 사용자가 Teams, Exchange, SharePoint 및 기타 Microsoft 365 서비스를 사용하여 생산성을 향상시킬 수 있도록 합니다.
-ms.openlocfilehash: 1c621ae797f32cd5b98af4c1eb7a341d0f976938
-ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
+ms.openlocfilehash: 274780d2b9ea4310eb2cd8c9114bb61c326d33fe
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44560450"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005965"
 ---
-# <a name="step-4-deploy-remote-worker-productivity-apps-and-services"></a>4단계. 원격 작업자 생산성 앱 및 서비스 배포
+# <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>5단계. 원격 작업자 생산성 앱 및 서비스 배포
 
 생산성을 높이려면 사용자가 서로 통신하고 공동 작업을 해야 합니다. 사용자들은 만나고, 음성 및 텍스트로 채팅하 고, 새 콘텐츠를 만들고, 정보 및 파일을 공유 하고, 전자 메일을 교환하고, 일정 및 작업을 관리해야 합니다. Microsoft 365는 다음과 같은 모든 주요 기능에 대한 클라우드 기반 서비스를 제공합니다.
 
@@ -90,9 +90,9 @@ Microsoft 365 앱은 언제 어디에서나 사용자들이 원활하게 함께 
 
 ## <a name="user-training-resources-for-productivity-apps-and-services"></a>생산성 앱과 서비스에 대한 사용자 교육 리소스
 
-- [Office 및 Office 365에 대한 사용자 교육](https://support.office.com/article/train-your-users-on-office-and-microsoft-365-7cba3c97-7f19-46ed-a1c6-763971a26c2)
+- [Office 및 Microsoft 365에 대한 사용자 교육](https://support.microsoft.com/office/train-your-users-on-office-and-microsoft-365-7cba3c97-7f19-46ed-a1c6-763971a26c27)
 - [웹용 Office 사용](https://support.microsoft.com/office/get-started-with-office-for-the-web-in-microsoft-365-5622c7c9-721d-4b3d-8cb9-a7276c2470e5)
 
 ## <a name="next-step"></a>다음 단계
 
-[5단계](empower-people-to-work-remotely-communication-venues.md)를 계속 진행하여 원격 작업자에게 서비스를 제공하는 추가 통신 장소를 만듭니다.
+[6단계](empower-people-to-work-remotely-train-monitor-usage.md)로 계속하여 사용자를 교육하고 사용자의 성공을 모니터링합니다.
