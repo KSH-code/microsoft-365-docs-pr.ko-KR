@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 11/18/2019
+ms.date: 06/17/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,18 +15,18 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: 대표적인 가상 글로벌 조직이 Microsoft 365 Enterprise를 채택한 방법
-ms.openlocfilehash: e623e4a95172432dc790f345b1758afed63e144c
-ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
+ms.openlocfilehash: dd9bf2dcb7a8bff453746a0084faaf69650bf6fd
+ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268425"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854261"
 ---
 # <a name="microsoft-365-enterprise-for-the-contoso-corporation"></a>Contoso Corporation의 Microsoft 365 Enterprise
 
 Microsoft 365 Enterprise는 로컬 및 클라우드 기반 생산성 응용 프로그램 및 서비스를 Windows 10 Enterprise 및 고급 보안 기능과 결합하여 모든 사람이 창의적이고 안전하게 공동 작업할 수있는 지능형 솔루션으로 통합 된 Microsoft의 최고의 클라우드 서비스입니다. 
 
-Contoso Corporation는 프랑스, 파리에 본사가 있는 가상의 대표적 글로벌 제조 대기업입니다. Contoso는 Microsoft 365 Enterprise를 배포했으며 네트워킹, ID, Windows 10 Enterprise, Microsoft Office 365 ProPlus, 모바일 장치 관리, 정보 보호 및 보안에 대한 중요 디자인 결정 및 구현 세부 사항을 진행하고 있습니다. 
+The Contoso Corporation is a fictional but representative global manufacturing conglomerate with its headquarters in Paris, France. Contoso has deployed Microsoft 365 Enterprise and addressed major design decisions and implementation details for networking, identity, Windows 10 Enterprise, Microsoft 365 Apps for enterprise, mobile device management, information protection, and security. 
 
 Microsoft 365 Enterprise에 대한 Contoso의 전반적인 목표는 클라우드 서비스를 사용하여 직원, 파트너 및 프로세스를 통합함으로써 디지털 혁신을 가속화하여 디지털 우선 세계에서 고객 가치를 창출하고 경쟁적 우위를 점유하는 것입니다.
 
@@ -71,6 +71,10 @@ Microsoft 365 Enterprise에 대한 Contoso의 전반적인 목표는 클라우�
 - [극비 프로젝트를 위한 팀](../solutions/contoso-team-for-top-secret-project.md)
 
   극비 프로젝트를 위한 안전한 공동 작업 환경을 만들기 위해 Contoso는 보안 격리를 갖춘 팀을 사용했습니다.
+
+- [Teams 음성 마이그레이션 개요](https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview)
+
+  Contoso가 통합 커뮤니케이션, 공동 작업 및 음성 기능을 위해 Teams로 온-프레미스 사용자를 마이그레이션하는 방법에 대해 알아보세요.
 
 ## <a name="next-step"></a>다음 단계
 

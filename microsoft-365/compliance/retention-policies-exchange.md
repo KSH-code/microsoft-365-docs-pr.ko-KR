@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Exchange 전자 메일과 Exchange 공용 폴더에만 적용되는 보존 동작에 대해 알아봅니다.
-ms.openlocfilehash: db39ab0f1eca1cc03dd0bbb5ffb500658695247a
-ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
+ms.openlocfilehash: 2ecf709c8b2bdd166cd64024ef332a2e0b26b7be
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44292536"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45016281"
 ---
 # <a name="learn-about-retention-policies-for-exchange"></a>Exchange의 보존 정책에 대해 자세히 알아보기
 
@@ -34,7 +34,7 @@ ms.locfileid: "44292536"
 
 공용 폴더의 경우 사서함 수준이 아닌 폴더 수준에서 보존 정책이 적용됩니다. 
 
-사서함 및 공용 폴더 모두 항목을 보존하기 위해 복구 가능한 항목 폴더를 사용합니다. eDiscovery 권한을 할당 받은 사용자만 다른 사용자의 복구 가능한 항목 폴더에서 항목을 볼 수 있습니다.
+사서함 및 공용 폴더 모두 항목을 보존하기 위해 [복구 가능한 항목 폴더](https://docs.microsoft.com/exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder)를 사용합니다. eDiscovery 권한을 할당 받은 사용자만 다른 사용자의 복구 가능한 항목 폴더에서 항목을 볼 수 있습니다.
   
 사용자가 지운 편지함 폴더 이외의 폴더에서 메시지를 삭제하면 기본적으로 해당 메시지는 지운 편지함 폴더로 이동됩니다. 사용자가 지운 편지함 폴더에서 항목을 삭제하면 해당 메시지는 복구할 수 있는 항목 폴더로 이동합니다. 그러나 사용자는 모든 폴더에서 Shift+Delete로 항목을 일시적으로 삭제할 수 있습니다. 이 경우 항목이 지운 편지함 폴더를 무시하고 복구할 수 있는 항목 폴더로 바로 이동합니다.
   
@@ -70,22 +70,22 @@ ms.locfileid: "44292536"
 
 ## <a name="excluding-specific-types-of-exchange-items-from-a-retention-policy"></a>보존 정책에서 특정 유형의 Exchange 항목 제외
 
-PowerShell을 사용하여 보존 정책에서 특정 유형의 Exchange 항목을 제외할 수 있습니다. 예를 들어 사서함에서 음성 사서함 메시지, IM 대화 및 기타 비즈니스용 Skype Online 콘텐츠를 제외할 수 있습니다. 일정, 메모 및 작업 항목도 제외할 수 있습니다. 이 기능은 PowerShell을 통해서만 사용할 수 있으며, Microsoft 365 규정 준수 센터에서 마법사를 사용하여 보존 정책을 만들 때는 사용할 수 없습니다.
+보존 설정이 보존 전용인 경우 PowerShell을 사용하여 보존 정책에서 특정 유형의 Exchange 항목을 제외할 수 있습니다. 예를 들어 사서함에서 음성 사서함 메시지, IM 대화 및 기타 비즈니스용 Skype Online 콘텐츠를 제외할 수 있습니다. 일정, 메모 및 작업 항목도 제외할 수 있습니다. 이 기능은 PowerShell을 통해서만 사용할 수 있으며, Microsoft 365 규정 준수 센터에서 마법사를 사용하여 보존 정책을 만들 때는 사용할 수 없습니다.
   
-보존 정책에서 Exchange 항목에서 선택한 유형을 제외하려면 `New-RetentionComplianceRule` 및 `Set-RetentionComplianceRule` cmdlet과 `ExcludedItemClasses` 매개 변수를 사용하세요.
+보존 정책에서 Exchange 항목에 대해 선택한 유형을 제외하려면 [RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancerule) 및 [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancerule) cmdlet로 `ExcludedItemClasses` 매개 변수를 사용하세요.
 
+보존 정책 cmdlet을 사용하려면 먼저 [보안 및 준수 센터 Powershell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps)해야 합니다.
 
-### <a name="when-a-user-leaves-the-organization"></a>사용자가 조직을 떠나는 경우 
+## <a name="when-a-user-leaves-the-organization"></a>사용자가 조직을 떠나는 경우 
 
-조직에서 나간 사용자의 사서함이 보존 정책에 포함되어 있는 경우, 사용자의 Office 365 계정이 삭제되면 해당 사서함이 비활성화됩니다. 비활성화된 사서함의 콘텐츠 또한 비활성화 상태로 변경되기 전에 사서함에 적용된 보존 정책의 적용을 받으며, 콘텐츠 또한 eDiscovery 검색에서 사용될 수 있습니다. 자세한 내용은 [Exchange Online에서 비활성 사서함](inactive-mailboxes-in-office-365.md)을 참조하세요. 
+조직에서 나간 사용자의 사서함이 보존 정책에 포함되어 있는 경우, 사용자의 Microsoft 365 계정이 삭제되면 해당 사서함이 비활성화됩니다. 비활성화된 사서함의 콘텐츠 또한 비활성화 상태로 변경되기 전에 사서함에 적용된 보존 정책의 적용을 받으며, 콘텐츠 또한 eDiscovery 검색에서 사용될 수 있습니다. 자세한 내용은 [Exchange Online에서 비활성 사서함](inactive-mailboxes-in-office-365.md)을 참조하세요. 
 
 ## <a name="how-to-configure-a-retention-policy-for-exchange"></a>Exchange에 보존 정책을 구성하는 방법
 
-[보존 정책 만들기 및 구성하기](create-retention-policies.md)를 참조하세요.
+[보존 정책 만들기](create-retention-policies.md) 및 구성 지침에 따라 마법사의 **위치 선택** 페이지에서 다음 옵션 중 하나를 선택합니다.
 
-마법사의 **위치 선택** 페이지에서 다음 옵션 중 하나를 선택하세요.
+- **Exchange 전자 메일, 공용 폴더, Office 365 그룹, OneDrive 및 SharePoint 문서에 있는 콘텐츠에만 정책 적용하기**
 
-- **Exchange 전자 메일, 공용 폴더, Office 365 그룹, OneDrive와 SharePoint 문서에 있는 콘텐츠에만 정책 적용하기**
+- **특정 위치 선택 허용** > **Exchange 전자 메일**, **Exchange 공용 폴더** 및 **Office 365 그룹**. 
 
-- **특정 위치 선택 허용** > **Exchange 전자 메일** 및 **Exchange 공용 폴더**
-
+Microsoft 365 그룹이 Exchange 사서함을 보유하고 있더라도 전체 **Exchange 전자 메일** 위치를 포함하는 보존 정책이 Microsoft 365 그룹 사서함의 콘텐츠를 포함하지는 않습니다. 이러한 사서함의 콘텐츠를 보존하려면 **Office 365 그룹** 위치를 선택하세요.
