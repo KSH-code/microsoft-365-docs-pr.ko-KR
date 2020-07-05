@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자와 관리자 활동을 확인합니다. '
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 83eb4c453b3a11cb037e62e43525199fa247c3f5
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: bf008ed20e1dd56061004f63a24124488487af17
+ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818988"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "45035663"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
@@ -335,7 +335,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |준수 정책 레이블 삭제됨|ComplianceRecordDelete|레코드로 분류된 문서가 삭제되었습니다. 문서에 콘텐츠를 레코드로 분류하는 보존 레이블이 적용된 경우 문서는 레코드로 간주됩니다.|
 |발견된 문서 민감도 불일치|DocumentSensitivityMismatchDetected|사용자는 민감도 레이블로 보호된 사이트에 문서를 업로드하고 문서는 사이트에 적용된 민감도 레이블보다 우선 순위 민감도 레이블을 갖습니다. 예를 들어 기밀 이라는 레이블이 지정된 문서가 일반 사이트에 업로드됩니다. <br/><br/> 이 이벤트는 사이트에 적용된 민감도 레이블 보다 문서에 적용된 민감도 레이블이 우선 순위가 낮은 경우 트리거되지 않습니다. 예를 들어 일반이라는 레이블이 지정된 문서가 기밀 사이트에 업로드됩니다. 민감도 레이블 우선 순위에 대한 자세한 정보는 [라벨 우선 순위(순서 중요)](sensitivity-labels.md#label-priority-order-matters)를 참조하십시오.|
 |파일에서 맬웨어 검색됨|FileMalwareDetected|SharePoint 바이러스 백신 엔진이 파일에서 맬웨어를 검색합니다.|
-|파일 체크 아웃 취소됨|FileCheckOutDiscarded|User discards (or undos) a checked out file. That means any changes they made to the file when it was checked out are discarded, and not saved to the version of the document in the document library.|
+|파일 체크 아웃 취소됨|FileCheckOutDiscarded|User discards (or undoes) a checked out file. That means any changes they made to the file when it was checked out are discarded, and not saved to the version of the document in the document library.|
 |다운로드한 파일|FileDownloaded|사용자가 사이트에서 문서를 다운로드합니다.|
 |파일 수정됨|FileModified|사용자 또는 시스템 계정이 사이트에 있는 문서의 콘텐츠 또는 속석을 수정합니다.|
 |(없음)|FileModifiedExtended|“파일 수정됨"(FileModified) 활동과 관련이 있습니다. FileModifiedExtended 이벤트는 동일한 사용자가 장시간(최대 3시간) 지속적으로 파일을 수정할 때 기록됩니다. <br/><br/> FileModifiedExtended 이벤트 로깅의 목적은 파일이 지속적으로 수정될 때 기록되는 FileModified 이벤트의 수를 줄이는 것입니다. 이렇게 하면 기본적으로 무엇이 동일한 사용자 활동인지에 대한 여러 FileModified 레코드의 노이즈를 줄일 수 있으며 초기( 및 중요한) FileModified 이벤트에 집중할 수 있습니다.|
@@ -368,7 +368,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 - 규정 준수 기능 관리자가 보존 정책과 같은 컴플라이언스 기능을 구현할 때 eDiscovery가 유지되고 감도 레이블이 자동으로 적용됩니다.
 
-이러한 시나리오 및 기타 시나리오에서는 app@sharepoint가 지정된 사용자인 여러 개의 감사 레코드가 매우 짧은 시간 내에, 종종 몇 초 이내에 생성되었음을 알 수 있습니다. 이는 또한 동일한 사용자 시작 작업에 의해 트리거되었을 수 있음을 나타냅니다. 또한 감사 레코드의 ApplicationDisplayName 및 EventData 필드는 이벤트를 트리거한 시나리오 또는 응용 프로그램을 식별하는 데 도움이 될 수 있습니다.
+이러한 시나리오 및 기타 시나리오에서는 app@sharepoint가 지정된 사용자인 여러 개의 감사 레코드가 짧은 시간 내에, 종종 몇 초 이내에 생성되었음을 알 수 있습니다. 이는 또한 동일한 사용자 시작 작업에 의해 트리거되었을 수 있음을 나타냅니다. 또한 감사 레코드의 ApplicationDisplayName 및 EventData 필드는 이벤트를 트리거한 시나리오 또는 응용 프로그램을 식별하는 데 도움이 될 수 있습니다.
 
 ### <a name="folder-activities"></a>폴더 활동
 
@@ -704,34 +704,7 @@ Workplace Analytics는 조직에서 그룹이 공동으로 작업하는 방법�
 
 ### <a name="microsoft-teams-activities"></a>Microsoft Teams 활동
 
-다음 표에서는 Microsoft Teams에서 감사 로그에 기록되는 사용자 및 관리자 활동을 보여 줍니다. Microsoft 팀은 Office 365에서 채팅 중심의 작업 영역입니다. Microsoft Teams를 사용하면 팀의 대화, 모임, 파일 및 메모를 모두 한곳에서 관리할 수 있습니다. 자세한 내용과 도움말 항목에 대한 링크는 다음을 참조하세요.
-
-- [Microsoft Teams에 대한 질문과 대답 – 관리 도움말](https://docs.microsoft.com/MicrosoftTeams/teams-overview)
-
-- [Microsoft Teams 도움말](https://support.office.com/teams)
-
-|**친숙한 이름**|**작업**|**설명**|
-|:-----|:-----|:-----|
-|팀에 봇이 추가됨|BotAddedToTeam|사용자가 팀에 봇을 추가합니다.|
-|채널 추가됨|ChannelAdded|사용자가 팀에 채널을 추가합니다.|
-|커넥터 추가됨|ConnectorAdded|사용자가 채널에 커넥터를 추가합니다.|
-|구성원이 추가됨|MemberAdded|팀 소유자가 팀, 채널 또는 그룹 채팅에 구성원을 추가합니다.|
-|탭 추가됨|TabAdded|사용자가 채널에 탭을 추가합니다.|
-|채널 설정 변경함|ChannelSettingChanged|ChannelSettingChanged 작업은 팀 구성원이 다음 활동을 수행하는 경우 로깅됩니다. 각 활동에 대해 감사 로그 검색 결과의 **항목** 열에 변경된 설정에 대한 설명(아래에서 괄호 안에 표시된 내용)이 표시됩니다. <br/><br/>• 팀 채널의 이름을 변경합니다(**채널 이름**). <br/><br/>• 팀 채널의 설명을 변경합니다(**채널 설명**).|
-|조직 설정 변경함|TeamsTenantSettingChanged|TeamsTenantSettingChanged 작업은 Microsoft 365 관리 센터를 사용하여 전역 관리자가 다음 활동을 수행할 때 기록됩니다. 이러한 활동은 조직 전체의 Microsoft Teams 설정에 영향을 미칩니다. 자세한 내용은 [Microsoft Teams의 관리자 설정](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365)을 참조하세요. <br/> 각 활동에 대해 감사 로그 검색 결과의 **항목** 열에 변경된 설정에 대한 설명(아래에서 괄호 안에 표시된 내용)이 표시됩니다. <br/><br/>• 조직에서 Microsoft Teams를 사용하거나 사용하지 않도록 설정합니다(**Microsoft Teams**). <br/><br/>• 조직에서 Microsoft Teams과 비즈니스용 Skype 사이의 상호 운용성을 사용하거나 사용하지 않도록 설정합니다(**비즈니스용 Skype 상호 운용성**). <br/><br/>• Microsoft Teams 클라이언트에서 조직도 보기를 사용하거나 사용하지 않습니다(조직도 보기 **). <br/><br/>• 팀 구성원이 비공개 모임을 예약할 수 있는 기능을사용하거나 사용하지 않도록 설정합니다(** 비공개 모임 예약 **). <br/><br/>• 팀 구성원이 채널 모임을 예약하는 기능을 사용하거나 사용하지 않도록 설정합니다(채널 모임 예약**). <br/><br/>• 팀 회의에서 비디오 통화를 사용하거나 사용하지 않도록 설정합니다(Skype 모임용 비디오 **). <br/><br/>• 조직의 Microsoft Teams 모임에서 화면 공유를 사용하거나 사용하지 않도록 설정합니다(** Skype 모임의 화면 공유 **). <br/><br/>• 팀 대화(애니메이션 이미지**)에 애니메이션 이미지(Giphys라고 함)를 추가하는 기능을 사용하거나 사용하지 않도록 설정합니다. <br/><br/>• 조직의 콘텐츠 등급 설정을 변경합니다(**콘텐츠 등급**). 콘텐츠 등급으로 인해 대화에 표시될 수 있는 애니메이션 이미지의 유형이 제한됩니다. <br/><br/>• 팀 구성원이 인터넷에서 팀 대화에 사용자 지정한 이미지(사용자 지정 밈)를 추가하는 것을 허용하거나 허용하지 않습니다(인터넷에서 얻은 사용자 지정 이미지 **). <br/><br/> 팀 구성원이 편집 가능한 이미지(스티커)를 팀 대화에 추가할 수 있도록 허용하거나 허용하지 않습니다(** 편집 가능한 이미지 **).<br/><br/> 팀 구성원이 Microsoft Teams 채팅이나 채널에서 봇을 사용하도록 허용하거나 허용하지 않습니다(조직적 봇). <br/><br/> Microsoft Teams를 위한 특정 봇 사용을 허용합니다. 조직에서 봇 사용이 허용된 경우 Teams에게 제공되는 도우미 봇인 T-봇은 표함되지 않습니다(** 개별 봇 **) <br/><br/> 팀 구성원이 확장이나 탭을 추가하는 것을 허용하거나 허용하지 않습니다(** 확장 혹은 탭 **) <br/><br/> Microsoft Teams가 보유한 봇의 측면 부하를 허용하거나 허용하지 않습니다(** 봇의 측면 부하 **). <br/><br/> 사용자가 Microsoft Teams 채널에 이메일 메시지를 보내는 것을 허용하거나 허용하지 않습니다.(** 채널 이메일**).|
-|팀의 구성원 역할이 변경됨|MemberRoleChanged|팀 소유자가 팀의 구성원 역할을 변경합니다. 다음 값은 사용자에게 할당된 역할 유형을 나타냅니다. <br/><br/> **1** - 소유자 역할을 나타냅니다.<br/>**2** - 구성원 역할을 나타냅니다. <br/>**3** - 게스트 역할을 나타냅니다. <br/><br/> 구성원 속성에는 조직의 이름 및 구성원의 전자 메일 주소도 포함됩니다.|
-|팀 설정 변경함|TeamSettingChanged|TeamSettingChanged 작업은 팀 소유자가 다음 활동을 수행하는 경우 로깅됩니다. 각 활동에 대해 감사 로그 검색 결과의 **항목** 열에 변경된 설정에 대한 설명(아래에서 괄호 안에 표시된 내용)이 표시됩니다. <br/><br/>• 팀의 액세스 유형을 변경합니다. 팀은 비공개 또는 공개로 설정될 수 있습니다(**팀 액세스 유형**). 비공개 팀(기본값)은 초대받은 사용자만 액세스할 수 있습니다. 공개 팀은 누구나 검색할 수 있습니다. <br/><br/>• 팀의 정보 분류를 변경합니다(**팀 분류**). <br/> 예를 들어, 팀 데이터는 높은 비즈니스 영향, 중간 비즈니스 영향 또는 낮은 비즈니스 영향으로 분류될 수 있습니다.<br/><br/>• 팀의 이름을 변경합니다(**팀 이름**). <br/><br/>• 팀 설명을 변경합니다(팀 설명**). <br/><br/>• 팀 설정에 대한 변경 사항입니다. 팀 소유자는 팀을 마우스 오른쪽 단추로 클릭하고 **팀 관리**를 클릭한 다음 **설정** 탭을 클릭하여 Teams 클라이언트에서 이러한 설정에 액세스할 수 있습니다. 이러한 활동에 대해 변경된 설정의 이름이 감사 로그 검색 결과의 **항목** 열에 표시됩니다.|
-|팀 생성됨|TeamCreated|사용자가 팀을 만듭니다.|
-|채널 삭제됨|ChannelDeleted|사용자는 팀에서 채널을 삭제합니다.|
-|팀 삭제됨|TeamDeleted|팀 소유자가 팀을 삭제합니다.|
-|팀에서 봇이 제거됨|BotRemovedFromTeam|사용자가 팀에서 봇을 제거합니다.|
-|커넥터 제거됨|ConnectorRemoved|사용자가 채널에 커넥터를 제거합니다.|
-|구성원이 제거됨|MemberRemoved|팀 소유자가 팀, 채널 또는 그룹 채팅에서 구성원을 제거합니다.|
-|탭 제거됨|TabRemoved|사용자는 채널에서 탭을 제거합니다.|
-|커넥터가 업데이트됨|ConnectorUpdated|사용자가 채널의 커넥터를 수정했습니다.|
-|탭이 업데이트됨|TabUpdated|사용자가 채널의 탭을 수정했습니다.|
-|사용자가 Teams에 로그인함|TeamsSessionStarted|사용자가 Microsoft Teams 클라이언트에 로그인합니다. 이 이벤트는 토큰 새로 고침 활동을 캡처하지 않습니다.|
-||||
+Microsoft Teams에서 사용자 및 관리자 활동에 대한 감사 로그를 검색할 수 있습니다. Teams는 Office 365에서 채팅 중심의 작업 영역입니다. Microsoft Teams를 사용하면 팀의 대화, 모임, 파일 및 메모를 모두 한곳에서 관리할 수 있습니다. 감사되는 Teams 활동에 관한 설명은 [Microsoft Teams에서 이벤트 감사 로그 검색](https://docs.microsoft.com/microsoftteams/audit-log-events#teams-activities)을 참조하세요.
 
 ### <a name="microsoft-teams-healthcare-activities"></a>Microsoft Teams 보건 활동
 
@@ -813,7 +786,7 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 아래의 설명에서 언급된 것과 같이, 일부 작업은 추가 활동 매개 변수를 포함합니다.
 
 > [!NOTE]
-> 공동 작성자 또는 익명 응답자가 Forms 활동을 수행하는 경우에는 조금 다르게 기록됩니다. 자세한 내용은 [공동 작성자 및 익명 응답자가 수행하는 Forms 활동](#forms-activities-performed-by-co-authors-and-anonymous-responders) 섹션을 참조하세요.
+> 공동 작성자 또는 익명 응답자가 Forms 활동을 수행하는 경우에는 조금 다르게 기록됩니다. 자세한 내용은 [공동 작성자 및 익명 응답자가 수행하는 Forms 활동](#forms-activities-performed-by-coauthors-and-anonymous-responders) 섹션을 참조하세요.
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
@@ -846,7 +819,7 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 |응답이 제출됨|SubmitResponse|사용자가 양식에 응답을 제출합니다. <br><br>속성 IsInternalForm: 부울은 응답자가 양식 소유자와 동일한 조직 내에 있는지를 나타냅니다.|
 ||||
 
-#### <a name="forms-activities-performed-by-co-authors-and-anonymous-responders"></a>공동 작성자 및 익명 응답자가 수행하는 Forms 활동
+#### <a name="forms-activities-performed-by-coauthors-and-anonymous-responders"></a>공동 작성자 및 익명 응답자가 수행하는 Forms 활동
 
 Forms는 양식을 설계할 때와 응답을 분석할 때 공동 작업을 지원합니다. 양식 협력자는 *공동 작성자*라고 합니다. 공동 작성자는 양식을 삭제하거나 이동하는 것을 제외하고 양식 소유자가 할 수 있는 모든 작업을 수행할 수 있습니다. Forms를 사용하면 익명으로 응답할 수 있는 양식을 만들 수도 있습니다. 즉, 응답자는 조직에 로그인하지 않아도 양식에 응답할 수 있습니다. 
 
