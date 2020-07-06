@@ -93,14 +93,12 @@
               href: manage/assign-licenses-to-users.md
             - name: 관리자 역할 할당
               href: add-users/assign-admin-roles.md
+            - name: 사용자의 라이선스 할당 취소
+              href: manage/remove-licenses-from-users.md
             - name: 게스트 사용자
               href: add-users/about-guest-users.md
             - name: Microsoft 365 그룹에 게스트 사용자 추가
               href: create-groups/manage-guest-access-in-groups.md
-            - name: 사용자에서 라이선스 제거
-              href: manage/remove-licenses-from-users.md
-            - name: 라이선스 충돌 해결
-              href: manage/resolve-license-conflicts.md
             - name: 사용자 이름 및 전자 메일 주소 변경
               href: add-users/change-a-user-name-and-email-address.md
             - name: 이전 직원 제거
