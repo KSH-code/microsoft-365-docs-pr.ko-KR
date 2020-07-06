@@ -13,12 +13,12 @@ ms.custom: ''
 localization_priority: Priority
 description: Microsoft 365에서 어떤 방식으로 데이터와 시스템을 보호하고 규정을 준수하도록 지원하며, 금융 서비스를 최신 공동 작업 플랫폼으로 전환하는지 알아봅니다.
 f1.keywords: NOCSH
-ms.openlocfilehash: 24177c6e878116b8d60d8f38be77d0b52141699a
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: 6c6b1c6bbd62e632b79629638aa78630974823df
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214699"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432430"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>미국 은행 및 자본 시장에 대한 주요 규정 준수 및 보안 고려 사항
 

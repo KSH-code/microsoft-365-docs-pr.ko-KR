@@ -13,24 +13,25 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자가 Microsoft 365 서비스를 사용하는 방식에 대한 주기적인 보고를 받을 수 있습니다. 사용 현황 개요 대시보드를 사용하면 각 차트에 대한 세부 정보를 확인할 수 있습니다.
-ms.openlocfilehash: 665512e322eadd2f590fb5109fd6f1a9e7706e61
-ms.sourcegitcommit: b458277f0a9937555bc6c5b3fb2a41613f7cc9a9
+ms.openlocfilehash: f1902c71b167d6293530eae61fa6c57d63c5f06c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "43794020"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387804"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
-회사의 사용자가 Microsoft 365 서비스를 사용하는 방식을 쉽게 확인할 수 있습니다. 예를 들어 서비스를 많이 사용하여 할당량에 도달하는 사용자나 Microsoft 365 라이선스가 전혀 필요하지 않은 사용자를 파악할 수 있습니다.
+You can easily see how people in your business are using Microsoft 365 services. For example, you can identify who is using a service a lot and reaching quotas, or who may not need an Microsoft 365 license at all.
   
-지난 7일, 30일, 90일 및 180일에 대한 보고서를 사용할 수 있습니다. 모든 보고 기간에 해당하는 데이터가 바로 준비되지는 않습니다. 보고서는 48시간 내에 사용할 수 있습니다.
+Reports are available for the last 7 days, 30 days, 90 days, and 180 days. Data won't exist for all reporting periods right away. The reports become available within 48 hours.
   
 개요에 대한 비디오를 시청하세요. 보고서를 사용하는 방법에 대해 알아봅니다.
   
@@ -97,6 +98,8 @@ ms.locfileid: "43794020"
 - [이메일 앱 사용 현황](email-apps-usage.md)
 
 - [양식 활동](forms-activity.md)
+
+- [Forms Pro 활동](forms-pro-activity.md)
   
 - [Microsoft 365 그룹](office-365-groups.md)
   
@@ -156,7 +159,7 @@ ms.locfileid: "43794020"
   
 ## <a name="how-to-view-usage-information-for-a-specific-user"></a>특정 사용자에 대한 사용 현황 정보를 보는 방법
 
-서비스 보고서를 사용하여 특정 사용자가 서비스를 얼마나 사용하고 있는지를 조사할 수 있습니다. 예를 들어 특정 사용자가 사용한 사서함 저장소의 양을 확인하려면 사서함 사용량 보고서를 열고 이름을 기준으로 사용자를 정렬합니다. 사용자가 수천 명인 경우 보고서를 Excel로 내보내서 목록을 빠르게 필터링할 수 있습니다.
+Use the service reports to research how much a specific user is using the service. For example, to find out how much mailbox storage a specific user has consumed, open the Mailbox usage report, and sort the users by name. If you have thousands of users, export the report to Excel so you filter through the list quickly.
   
 사용자의 계정을 입력한 다음 사용자가 사용 중인 서비스와 서비스의 양이 포함된 목록을 얻는 보고서는 생성할 수 없습니다.
   
@@ -174,7 +177,7 @@ ms.locfileid: "43794020"
   
 ![보고서 - 익명 사용자 목록](../../media/2ed99bce-4978-4ee3-9ea2-4a8db26eef02.png)
   
-보고서 대시보드의 보고서에 효과가 적용되려면 몇 분 정도 소요됩니다. 이 설정은 보고서 API에도 적용됩니다.
+It'll take a few minutes for these changes to take effect on the reports in the reports dashboard. This setting also applies to the reports API.
   
 ## <a name="what-happens-to-usage-data-when-a-user-account-is-closed"></a>사용자 계정을 닫으면 사용 현황 데이터는 어떻게 되나요?
 

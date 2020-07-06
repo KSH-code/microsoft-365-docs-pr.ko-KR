@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/20/2019
+ms.date: 05/26/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -20,18 +20,18 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 65a6d687-a16a-4415-9fd5-011ba9c5fd80
 description: '요약: Microsoft 365 테스트 환경에 대한 페더레이션 인증을 구성합니다.'
-ms.openlocfilehash: b0aa967570c3d12554cdb273a8b39b8931af1fbd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: efe2e196b95feff2aab1577f8e5d3ee29b5e39ba
+ms.sourcegitcommit: 330e9baf02b5bc220d61f777c2338814459626ec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634101"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44385059"
 ---
 # <a name="federated-identity-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에 대한 페더레이션 ID
 
 *이 테스트 랩 가이드는 Microsoft 365 Enterprise와 Office 365 Enterprise 테스트 환경 모두에서 사용할 수 있습니다.*
 
-Microsoft 365는 페더레이션 ID를 지원합니다. 즉, 자격 증명 자체의 유효성 검사를 수행하는 대신, Microsoft 365는 Microsoft 365가 신뢰하는 페더레이션 인증 서버에 사용자를 연결하는 것을 의미합니다. 사용자의 자격 증명이 올바른 경우 페더레이션 인증 서버는 보안 토큰을 발급하며, 그런 후에 클라이언트는 인증의 증거로 해당 보안 토큰을 Microsoft 365로 전송합니다. 페더레이션 ID를 사용하면 Microsoft 365 구독과 고급 인증 및 보안 시나리오의 부하 부담을 줄이고 강화할 수 있습니다.
+Microsoft 365 supports federated identity. This means that instead of performing the validation of credentials itself, Microsoft 365 refers the connecting user to a federated authentication server that Microsoft 365 trusts. If the user's credentials are correct, the federated authentication server issues a security token that the client then sends to Microsoft 365 as proof of authentication. Federated identity allows for the offloading and scaling up of authentication for a Microsoft 365 subscription and advanced authentication and security scenarios.
   
 이 문서에서는 Microsoft 365 또는 Office 365 테스트 환경에 대한 페더레이션 인증을 구성하여 다음과 같은 결과를 얻는 방법을 설명합니다.
 
@@ -41,7 +41,7 @@ Microsoft 365는 페더레이션 ID를 지원합니다. 즉, 자격 증명 자�
   
 - Microsoft 365 E5, Office 365 E5 평가판 또는 프로덕션 구독.
     
-- 인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network의 하위 집합에 있는 5개의 가상 머신(DC1, APP1, CLIENT1, ADFS1 및 PROXY1)으로 구성되어 있습니다. Azure AD Connect가 APP1에서 실행되며 AD DS(Active Directory Domain Services) 도메인의 계정 목록을 Office 365와 동기화합니다. PROXY1은 들어오는 인증 요청을 수신합니다. ADFS1은 DC1을 사용하여 자격 증명이 유효한지 검사하고 보안 토큰을 발급합니다.
+- A simplified organization intranet connected to the Internet, consisting of five virtual machines on a subnet of an Azure virtual network (DC1, APP1, CLIENT1, ADFS1, and PROXY1). Azure AD Connect runs on APP1 to synchronize the list of accounts in the Active Directory Domain Services domain to Office 365. PROXY1 receives the incoming authentication requests. ADFS1 validates credentials with DC1 and issues security tokens.
     
 이 테스트 환경의 5가지 주요 설정 단계는 다음과 같습니다.
   
@@ -60,7 +60,7 @@ Microsoft 365는 페더레이션 ID를 지원합니다. 즉, 자격 증명 자�
   
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>1단계: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 구성
 
-[Microsoft 365에 대한 암호 해시 동기화](password-hash-sync-m365-ent-test-environment.md) 지침을 따릅니다. 결과 구성은 다음과 같습니다.
+Follow the instructions in [password hash synchronization for Microsoft 365](password-hash-sync-m365-ent-test-environment.md). Here is your resulting configuration.
   
 ![암호 해시 동기화 테스트 환경으로 시뮬레이트된 엔터프라이즈](../media/federated-identity-for-your-office-365-dev-test-environment/federated-tlg-phase1.png)
   
@@ -141,7 +141,7 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 > [!NOTE]
 > PROXY1은 이 머신을 가리키는 공용 DNS 레코드를 만들게 되고, PROXY1 가상 머신을 다시 시작할 때 변경되지 않아야 하므로 고정 공용 IP 주소가 할당됩니다. 
   
-다음으로, CorpNet 서브넷에 대한 네트워크 보안 그룹에 인터넷에서 PROXY1의 개인 IP 주소 및 TCP 포트 443으로의 요청되지 않은 인바운드 트래픽을 허용하는 규칙을 추가합니다. 로컬 컴퓨터의 Azure PowerShell 명령 프롬프트에서 다음 명령을 실행합니다.
+Next, add a rule to the network security group for the CorpNet subnet to allow unsolicited inbound traffic from the Internet to PROXY1's private IP address and TCP port 443. Run these commands at the Azure PowerShell command prompt on your local computer.
   
 ```powershell
 $rgName="<the resource group name of your Base Configuration>"
@@ -166,7 +166,7 @@ Restart-Computer
 Write-Host (Get-AzPublicIpaddress -Name "PROXY1-PIP" -ResourceGroup $rgName).IPAddress
 ```
 
-다음으로, 공용 DNS 공급자를 사용하고, **Write-Host** 명령에 의해 표시되는 IP 주소로 확인되는 **fs.testlab.**\<DNS 호스트 이름>에 대한 새 공용 DNS A 레코드를 만듭니다. **fs.testlab.**\<DNS 도메인 이름>을 이제부터 *페더레이션 서비스 FQDN*이라고 합니다.
+Next, work with your public DNS provider and create a new public DNS A record for **fs.testlab.**\<your DNS domain name> that resolves to the IP address displayed by the **Write-Host** command. The **fs.testlab.**\<your DNS domain name> is hereafter referred to as the  *federation service FQDN*.
   
 다음으로, [Azure Portal](https://portal.azure.com)에서 CORP\\User1 자격 증명을 사용하여 DC1 가상 머신에 연결하고 관리자 수준 Windows PowerShell 명령 프롬프트에서 다음 명령을 실행합니다.
   
@@ -191,9 +191,9 @@ Add-DnsServerResourceRecordA -Name "fs" -ZoneName corp.contoso.com -AllowUpdateA
 ```powershell
 New-ADUser -SamAccountName ADFS-Service -AccountPassword (read-host "Set user password" -assecurestring) -name "ADFS-Service" -enabled $true -PasswordNeverExpires $true -ChangePasswordAtLogon $false
 ```
-이 명령은 계정 암호를 묻는 메시지를 표시합니다. 강력한 암호를 선택하고 안전한 위치에 기록해둡니다. 이 단계와 5단계에서 해당 암호가 필요합니다.
+Note that this command prompts you to supply the account password. Choose a strong password and record it in a secured location. You will need it for this phase and Phase 5.
   
-[Azure Portal](https://portal.azure.com)에서 CORP\\User1 자격 증명을 사용하여 ADFS1 가상 머신에 연결합니다. ADFS1에서 관리자 수준 Windows PowerShell 명령 프롬프트를 열고 페더레이션 서비스 FQDN을 입력한 후 다음 명령을 실행하여 자체 서명된 인증서를 만듭니다.
+Use the [Azure portal](https://portal.azure.com) to connect to the ADFS1 virtual machine using the CORP\\User1 credentials. Open an administrator-level Windows PowerShell command prompt on ADFS1, fill in your federation service FQDN, and then run these commands to create a self-signed certificate:
   
 ```powershell
 $fedServiceFQDN="<federation service FQDN>"
@@ -230,7 +230,7 @@ New-SmbShare -name Certs -path c:\Certs -changeaccess CORP\User1
     
 13. **내보낼 파일** 페이지에서 **다음**을 클릭합니다.
     
-14. **인증서 내보내기 마법사 완료** 페이지에서 **마침**을 클릭합니다. 메시지가 표시되면 **확인**을 클릭합니다.
+14. On the **Completing the Certificate Export Wizard** page, click **Finish**. When prompted, click **OK**.
     
 다음으로, ADFS1의 Windows PowerShell 명령 프롬프트에서 다음 명령을 사용하여 AD FS 서비스를 설치합니다.
   
@@ -278,7 +278,7 @@ Install-WindowsFeature ADFS-Federation -IncludeManagementTools
     
 [Azure Portal](https://portal.azure.com)에서 CORP\\User1 계정 자격 증명을 사용하여 PROXY1에 연결합니다.
   
-그런 후 다음 단계를 사용하여 자체 서명된 인증서를 설치하고 PROXY1을 구성합니다.
+그런 후 다음 단계를 사용하여 **PROXY1과 APP1 모두**에 자체 서명된 인증서를 설치합니다.
   
 1. **시작**을 클릭하고 **mmc.exe**를 입력한 후 **Enter** 키를 누릅니다.
     
@@ -387,13 +387,13 @@ Install-WindowsFeature Web-Application-Proxy -IncludeManagementTools
   
 1. 로컬 컴퓨터에서 브라우저의 새 개인 인스턴스를 열고 [https://admin.microsoft.com](https://admin.microsoft.com)으로 이동합니다.
     
-2. 로그인 자격 증명으로 **user1@**\<1단계에서 만든 도메인>을 입력합니다. 
+2. 로그인 자격 증명의 경우 **user1@**\<the domain created in Phase 1>를 입력합니다. 
     
-    예를 들어, 테스트 도메인이 **testlab.contoso.com**이면 user1@testlab.contoso.com을 입력합니다. Tab 키를 누르거나 Microsoft 365에서 사용자를 자동으로 리디렉션하도록 합니다.
+    For example, if your test domain is **testlab.contoso.com**, you would type "user1@testlab.contoso.com". Press TAB or allow Microsoft 365 to automatically redirect you.
     
-    이제 **연결이 비공개가 아닙니다.** 페이지가 표시됩니다. 데스크톱 컴퓨터에서 유효한지 확인할 수 없는 자체 서명된 인증서를 ADFS1에 설치했으므로 이 메시지가 표시되는 것입니다. 페더레이션 인증의 프로덕션 배포에서 신뢰할 수 있는 인증 기관에서 발급한 인증서를 사용하면 사용자에게 이 페이지가 표시되지 않습니다.
+    You should now see a **Your connection is not private** page. You are seeing this because you installed a self-signed certificate on ADFS1 that your desktop computer cannot validate. In a production deployment of federated authentication, you would use a certificate from a trusted certification authority and your users would not see this page.
     
-3. **연결이 비공개가 아닙니다.** 페이지에서 **고급**을 클릭하고 **\<페더레이션 서비스 FQDN>으로 이동**을 클릭합니다. 
+3. **연결이 비공개가 아닙니다.** 페이지에서 **고급**을 클릭하고 **\<your federation service FQDN>(으)로 이동**을 클릭합니다. 
     
 4. 가상의 조직 이름이 표시된 페이지에서 다음을 사용하여 로그인합니다.
     
@@ -403,7 +403,7 @@ Install-WindowsFeature Web-Application-Proxy -IncludeManagementTools
     
     **Microsoft Office 홈** 페이지가 표시됩니다.
     
-이 절차에서는 평가판 구독이 DC1에 호스트된 AD DS corp.contoso.com 도메인과 페더레이션되는 방법을 보여줍니다. 다음은 인증 프로세스의 기본 사항입니다.
+This procedure demonstrates that your trial subscription is federated with the AD DS corp.contoso.com domain hosted on DC1. Here are the basics of the authentication process:
   
 1. 1단계에서 만든 페더레이션 도메인을 로그인 계정 이름 내에서 사용할 경우 Microsoft 365는 페더레이션 서비스 FQDN 및 PROXY1으로 브라우저를 리디렉션합니다.
     
@@ -417,7 +417,7 @@ Install-WindowsFeature Web-Application-Proxy -IncludeManagementTools
     
 6. Microsoft 365는 보안 토큰이 ADFS1에서 생성되었는지 확인하고 액세스를 허용합니다.
     
-이제 평가판 구독이 페더레이션 인증으로 구성됩니다. 고급 인증 시나리오에 대해 이 개발/테스트 환경을 사용할 수 있습니다.
+Your trial subscription is now configured with federated authentication. You can use this dev/test environment for advanced authentication scenarios.
   
 ## <a name="next-step"></a>다음 단계
 
