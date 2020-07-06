@@ -17,81 +17,86 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 05/15/2020
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 83ae99a75e3c3aa8d109766418abcf0888b8cbf4
-ms.sourcegitcommit: 76edb413cbd7436252075ea7e314f5e1d07d8d55
+ms.openlocfilehash: 09e2f69eb5999ea104c62c807d348ca26b9236cf
+ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44267170"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45039403"
 ---
-# <a name="whats-new-in-office-365-atp"></a><span data-ttu-id="08885-104">Office 365 ATP의 새로운 기능</span><span class="sxs-lookup"><span data-stu-id="08885-104">What's new in Office 365 ATP</span></span>
+# <a name="whats-new-in-office-365-atp"></a><span data-ttu-id="92440-104">Office 365 ATP의 새로운 기능</span><span class="sxs-lookup"><span data-stu-id="92440-104">What's new in Office 365 ATP</span></span>
 
-<span data-ttu-id="08885-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="08885-105">**Applies to:**</span></span>
+<span data-ttu-id="92440-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="92440-105">**Applies to:**</span></span>
 
-- [<span data-ttu-id="08885-106">Office 365 Advanced Threat Protection (Office 365 ATP)</span><span class="sxs-lookup"><span data-stu-id="08885-106">Office 365 Advanced Threat Protection (Office 365 ATP)</span></span>](office-365-atp.md)
+- [<span data-ttu-id="92440-106">Office 365 Advanced Threat Protection (Office 365 ATP)</span><span class="sxs-lookup"><span data-stu-id="92440-106">Office 365 Advanced Threat Protection (Office 365 ATP)</span></span>](office-365-atp.md)
 
-<span data-ttu-id="08885-107">이 문서에서는 최신 Office 365 ATP 버전의 새로운 기능을 소개 합니다.</span><span class="sxs-lookup"><span data-stu-id="08885-107">This article lists new features in the latest release of Office 365 ATP.</span></span> <span data-ttu-id="08885-108">현재 미리 보기 상태인 기능은 **(미리 보기)** 로 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="08885-108">Features that are currently in preview are denoted with **(preview)**.</span></span>
+<span data-ttu-id="92440-107">이 문서에서는 최신 Office 365 ATP 버전의 새로운 기능을 소개 합니다.</span><span class="sxs-lookup"><span data-stu-id="92440-107">This article lists new features in the latest release of Office 365 ATP.</span></span> <span data-ttu-id="92440-108">현재 미리 보기 상태인 기능은 **(미리 보기)** 로 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="92440-108">Features that are currently in preview are denoted with **(preview)**.</span></span>
 
 > [!TIP]
-> <span data-ttu-id="08885-109">아직 Office 365 ATP가 없습니까?</span><span class="sxs-lookup"><span data-stu-id="08885-109">Don't have Office 365 ATP yet?</span></span> <span data-ttu-id="08885-110">[영업 담당자에 게 문의 하 여 평가판을 시작](https://go.microsoft.com/fwlink/p/?LinkId=518644)합니다.</span><span class="sxs-lookup"><span data-stu-id="08885-110">[Contact sales to start a trial](https://go.microsoft.com/fwlink/p/?LinkId=518644).</span></span>
+> <span data-ttu-id="92440-109">아직 Office 365 ATP가 없습니까?</span><span class="sxs-lookup"><span data-stu-id="92440-109">Don't have Office 365 ATP yet?</span></span> <span data-ttu-id="92440-110">[영업 담당자에 게 문의 하 여 평가판을 시작](https://go.microsoft.com/fwlink/p/?LinkId=518644)합니다.</span><span class="sxs-lookup"><span data-stu-id="92440-110">[Contact sales to start a trial](https://go.microsoft.com/fwlink/p/?LinkId=518644).</span></span>
 
-## <a name="marchapril-2020"></a><span data-ttu-id="08885-111">3 월/4 월 2020</span><span class="sxs-lookup"><span data-stu-id="08885-111">March/April 2020</span></span>
+## <a name="marchapril-2020"></a><span data-ttu-id="92440-111">3 월/4 월 2020</span><span class="sxs-lookup"><span data-stu-id="92440-111">March/April 2020</span></span>
 
-- <span data-ttu-id="08885-112">이제 [자동 조사 및 응답을 통해 손상 된 사용자 계정을 처리할](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) 수 있는 기능이 일반적으로 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="08885-112">The ability to [address compromised user accounts with automated investigation and response](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) is now generally available.</span></span>
+- <span data-ttu-id="92440-112">이제 [자동 조사 및 응답을 통해 손상 된 사용자 계정을 처리할](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) 수 있는 기능이 일반적으로 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="92440-112">The ability to [address compromised user accounts with automated investigation and response](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) is now generally available.</span></span>
 
-## <a name="januaryfebruary-2020"></a><span data-ttu-id="08885-113">1 월/2 월 2020 일</span><span class="sxs-lookup"><span data-stu-id="08885-113">January/February 2020</span></span>
+## <a name="januaryfebruary-2020"></a><span data-ttu-id="92440-113">1 월/2 월 2020 일</span><span class="sxs-lookup"><span data-stu-id="92440-113">January/February 2020</span></span>
 
-- [<span data-ttu-id="08885-114">Office 365 ATP의 일반 캠페인 보기 가용성</span><span class="sxs-lookup"><span data-stu-id="08885-114">General Availability of Campaign Views in Office 365 ATP</span></span>](campaigns.md)
-- <span data-ttu-id="08885-115">보안 운영 팀이 [전자 메일을 조사](investigate-malicious-email-that-was-delivered.md)하는 동안 여러 필드를 검색 및 필터링 할 수 있도록 [위협 탐색기](threat-explorer.md) 가 향상 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="08885-115">Enhancements to [Threat Explorer](threat-explorer.md) to enable security operations teams to search and filter on multiple fields while [investigating email](investigate-malicious-email-that-was-delivered.md):</span></span>
-    - <span data-ttu-id="08885-116">배달 위치 및 특수 작업</span><span class="sxs-lookup"><span data-stu-id="08885-116">Delivery location and special actions</span></span>
-    - <span data-ttu-id="08885-117">방향성 (인바운드, 아웃 바운드 또는 조직 내)</span><span class="sxs-lookup"><span data-stu-id="08885-117">Directionality (inbound, outbound, or intra-org)</span></span>
-    - <span data-ttu-id="08885-118">재정의 (사용자 차단 또는 허용)</span><span class="sxs-lookup"><span data-stu-id="08885-118">Overrides (user blocking or allowing)</span></span>
-    - <span data-ttu-id="08885-119">URL 위협 (맬웨어, 피싱, 스팸 또는 없음)</span><span class="sxs-lookup"><span data-stu-id="08885-119">URL threat (malware, phish, spam, or none)</span></span>
-    - <span data-ttu-id="08885-120">고급 필터 (포함 하지 않는 고급 필터링 옵션, 포함 하지 않음 등)</span><span class="sxs-lookup"><span data-stu-id="08885-120">Advanced NOT filters (these are advanced filtering options that include does not contain, does not include, etc.)</span></span>
-    - <span data-ttu-id="08885-121">자세한 시간 필터 (일, 시간, 30 분)</span><span class="sxs-lookup"><span data-stu-id="08885-121">Granular time filters (day, hour, half-hour)</span></span> 
+- [<span data-ttu-id="92440-114">Office 365 ATP의 일반 캠페인 보기 가용성</span><span class="sxs-lookup"><span data-stu-id="92440-114">General Availability of Campaign Views in Office 365 ATP</span></span>](campaigns.md)
+- <span data-ttu-id="92440-115">보안 운영 팀이 [전자 메일을 조사](investigate-malicious-email-that-was-delivered.md)하는 동안 여러 필드를 검색 및 필터링 할 수 있도록 [위협 탐색기](threat-explorer.md) 가 향상 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="92440-115">Enhancements to [Threat Explorer](threat-explorer.md) to enable security operations teams to search and filter on multiple fields while [investigating email](investigate-malicious-email-that-was-delivered.md):</span></span>
+    - <span data-ttu-id="92440-116">배달 위치 및 특수 작업</span><span class="sxs-lookup"><span data-stu-id="92440-116">Delivery location and special actions</span></span>
+    - <span data-ttu-id="92440-117">방향성 (인바운드, 아웃 바운드 또는 조직 내)</span><span class="sxs-lookup"><span data-stu-id="92440-117">Directionality (inbound, outbound, or intra-org)</span></span>
+    - <span data-ttu-id="92440-118">재정의 (사용자 차단 또는 허용)</span><span class="sxs-lookup"><span data-stu-id="92440-118">Overrides (user blocking or allowing)</span></span>
+    - <span data-ttu-id="92440-119">URL 위협 (맬웨어, 피싱, 스팸 또는 없음)</span><span class="sxs-lookup"><span data-stu-id="92440-119">URL threat (malware, phish, spam, or none)</span></span>
+    - <span data-ttu-id="92440-120">고급 필터 (포함 하지 않는 고급 필터링 옵션, 포함 하지 않음 등)</span><span class="sxs-lookup"><span data-stu-id="92440-120">Advanced NOT filters (these are advanced filtering options that include does not contain, does not include, etc.)</span></span>
+    - <span data-ttu-id="92440-121">자세한 시간 필터 (일, 시간, 30 분)</span><span class="sxs-lookup"><span data-stu-id="92440-121">Granular time filters (day, hour, half-hour)</span></span> 
 
-- <span data-ttu-id="08885-122">**문제** 위젯은 이제 **동작 센터** 위젯입니다.</span><span class="sxs-lookup"><span data-stu-id="08885-122">The **Incidents** widget is now the **Action Center** widget.</span></span> <span data-ttu-id="08885-123">보안 위젯을 보려면 보안 & 준수 센터에서 **위협 관리**  >  로 이동 합니다. **검토**합니다.</span><span class="sxs-lookup"><span data-stu-id="08885-123">(To view your security widgets, in the Security & Compliance Center, go to **Threat management** > **Review**.)</span></span>
+- <span data-ttu-id="92440-122">**문제** 위젯은 이제 **동작 센터** 위젯입니다.</span><span class="sxs-lookup"><span data-stu-id="92440-122">The **Incidents** widget is now the **Action Center** widget.</span></span> <span data-ttu-id="92440-123">보안 위젯을 보려면 보안 & 준수 센터에서 **위협 관리**  >  로 이동 합니다. **검토**합니다.</span><span class="sxs-lookup"><span data-stu-id="92440-123">(To view your security widgets, in the Security & Compliance Center, go to **Threat management** > **Review**.)</span></span>
 
-- <span data-ttu-id="08885-124">[Microsoft 365의 안전한 문서](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(미리 보기)**</span><span class="sxs-lookup"><span data-stu-id="08885-124">[Safe Documents in Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(preview)**</span></span>
+- <span data-ttu-id="92440-124">[Microsoft 365의 안전한 문서](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(미리 보기)**</span><span class="sxs-lookup"><span data-stu-id="92440-124">[Safe Documents in Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(preview)**</span></span>
 
-## <a name="december-2019"></a><span data-ttu-id="08885-125">2019년 12월</span><span class="sxs-lookup"><span data-stu-id="08885-125">December 2019</span></span>
+## <a name="december-2019"></a><span data-ttu-id="92440-125">2019년 12월</span><span class="sxs-lookup"><span data-stu-id="92440-125">December 2019</span></span>
 
-- <span data-ttu-id="08885-126">[URL 내보내기 오프 라인 분석을 위한 데이터 클릭](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (OFFICE 365 ATP 계획 1 또는 계획 2)</span><span class="sxs-lookup"><span data-stu-id="08885-126">[Export URL click data for offline analysis](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Office 365 ATP Plan 1 or Plan 2)</span></span>
+- <span data-ttu-id="92440-126">[URL 내보내기 오프 라인 분석을 위한 데이터 클릭](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (OFFICE 365 ATP 계획 1 또는 계획 2)</span><span class="sxs-lookup"><span data-stu-id="92440-126">[Export URL click data for offline analysis](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Office 365 ATP Plan 1 or Plan 2)</span></span>
 
-- [<span data-ttu-id="08885-127">Office 365 ATP에서 캠페인 보기 사용 (**미리 보기**)</span><span class="sxs-lookup"><span data-stu-id="08885-127">Use Campaign Views in Office 365 ATP (**preview**)</span></span>](campaigns.md)
+- [<span data-ttu-id="92440-127">Office 365 ATP에서 캠페인 보기 사용 (**미리 보기**)</span><span class="sxs-lookup"><span data-stu-id="92440-127">Use Campaign Views in Office 365 ATP (**preview**)</span></span>](campaigns.md)
 
-## <a name="november-2019"></a><span data-ttu-id="08885-128">2019년 11월</span><span class="sxs-lookup"><span data-stu-id="08885-128">November 2019</span></span>
+## <a name="july-2020"></a><span data-ttu-id="92440-128">7 월 2020 일</span><span class="sxs-lookup"><span data-stu-id="92440-128">July 2020</span></span> 
+ 
+- [<span data-ttu-id="92440-129">사냥 경험 향상</span><span class="sxs-lookup"><span data-stu-id="92440-129">Experience Improvements to Hunting Experience</span></span>](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections)
 
-- <span data-ttu-id="08885-129">[새로운 손상 된 사용자 검색 및 응답 기능](address-compromised-users-quickly.md) (**미리 보기**) (Office 365 ATP 계획 2)을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="08885-129">[Check out new compromised user detection and response capabilities](address-compromised-users-quickly.md) (**preview**) (Office 365 ATP Plan 2)</span></span>
 
-## <a name="september-2019"></a><span data-ttu-id="08885-130">2019년 9월</span><span class="sxs-lookup"><span data-stu-id="08885-130">September 2019</span></span>
+## <a name="november-2019"></a><span data-ttu-id="92440-130">2019년 11월</span><span class="sxs-lookup"><span data-stu-id="92440-130">November 2019</span></span>
 
-- <span data-ttu-id="08885-131">[자동화 된 조사 및 응답 기능](automated-investigation-response-office.md) 사용 (OFFICE 365 ATP 계획 2)</span><span class="sxs-lookup"><span data-stu-id="08885-131">[Employ automated investigation and response capabilities](automated-investigation-response-office.md) (Office 365 ATP Plan 2)</span></span>
+- <span data-ttu-id="92440-131">[새로운 손상 된 사용자 검색 및 응답 기능](address-compromised-users-quickly.md) (**미리 보기**) (Office 365 ATP 계획 2)을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="92440-131">[Check out new compromised user detection and response capabilities](address-compromised-users-quickly.md) (**preview**) (Office 365 ATP Plan 2)</span></span>
 
-- <span data-ttu-id="08885-132">Office [365 관리 활동 API를 사용 하는 office 365 atp 자동 조사 및 응답 이벤트와 통합](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) (OFFICE 365 ATP 계획 2)</span><span class="sxs-lookup"><span data-stu-id="08885-132">[Integrate with Office 365 ATP automated investigation and response events using the Office 365 Management Activity API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) (Office 365 ATP Plan 2)</span></span>
+## <a name="september-2019"></a><span data-ttu-id="92440-132">2019년 9월</span><span class="sxs-lookup"><span data-stu-id="92440-132">September 2019</span></span>
 
-- <span data-ttu-id="08885-133">[전자 메일 머리글 보기 및 전자 메일 본문 다운로드](investigate-malicious-email-that-was-delivered.md) (OFFICE 365 ATP 계획 1 또는 계획 2)</span><span class="sxs-lookup"><span data-stu-id="08885-133">[View the email headers and download the email body](investigate-malicious-email-that-was-delivered.md) (Office 365 ATP Plan 1 or Plan 2)</span></span>
+- <span data-ttu-id="92440-133">[자동화 된 조사 및 응답 기능](automated-investigation-response-office.md) 사용 (OFFICE 365 ATP 계획 2)</span><span class="sxs-lookup"><span data-stu-id="92440-133">[Employ automated investigation and response capabilities](automated-investigation-response-office.md) (Office 365 ATP Plan 2)</span></span>
 
-## <a name="august-2019"></a><span data-ttu-id="08885-134">2019년 8월</span><span class="sxs-lookup"><span data-stu-id="08885-134">August 2019</span></span>
+- <span data-ttu-id="92440-134">Office [365 관리 활동 API를 사용 하는 office 365 atp 자동 조사 및 응답 이벤트와 통합](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) (OFFICE 365 ATP 계획 2)</span><span class="sxs-lookup"><span data-stu-id="92440-134">[Integrate with Office 365 ATP automated investigation and response events using the Office 365 Management Activity API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) (Office 365 ATP Plan 2)</span></span>
 
-- <span data-ttu-id="08885-135">[전자 메일의 시간 표시 막대 보기](investigate-malicious-email-that-was-delivered.md#view-the-timeline-of-your-email) (OFFICE 365 ATP 계획 1 또는 계획 2)</span><span class="sxs-lookup"><span data-stu-id="08885-135">[View the timeline of email](investigate-malicious-email-that-was-delivered.md#view-the-timeline-of-your-email) (Office 365 ATP Plan 1 or Plan 2)</span></span>
+- <span data-ttu-id="92440-135">[전자 메일 머리글 보기 및 전자 메일 본문 다운로드](investigate-malicious-email-that-was-delivered.md) (OFFICE 365 ATP 계획 1 또는 계획 2)</span><span class="sxs-lookup"><span data-stu-id="92440-135">[View the email headers and download the email body](investigate-malicious-email-that-was-delivered.md) (Office 365 ATP Plan 1 or Plan 2)</span></span>
 
-## <a name="july-2019"></a><span data-ttu-id="08885-136">2019년 7월</span><span class="sxs-lookup"><span data-stu-id="08885-136">July 2019</span></span>
+## <a name="august-2019"></a><span data-ttu-id="92440-136">2019년 8월</span><span class="sxs-lookup"><span data-stu-id="92440-136">August 2019</span></span>
 
-- <span data-ttu-id="08885-137">[배달 작업 및 전자 메일 메시지의 위치 확인](investigate-malicious-email-that-was-delivered.md#check-the-delivery-action-and-location) (OFFICE 365 ATP 계획 1 또는 2)</span><span class="sxs-lookup"><span data-stu-id="08885-137">[Check the delivery action and location of email messages](investigate-malicious-email-that-was-delivered.md#check-the-delivery-action-and-location) (Office 365 ATP Plan 1 or 2)</span></span>
+- <span data-ttu-id="92440-137">[전자 메일의 시간 표시 막대 보기](investigate-malicious-email-that-was-delivered.md#view-the-timeline-of-your-email) (OFFICE 365 ATP 계획 1 또는 계획 2)</span><span class="sxs-lookup"><span data-stu-id="92440-137">[View the timeline of email](investigate-malicious-email-that-was-delivered.md#view-the-timeline-of-your-email) (Office 365 ATP Plan 1 or Plan 2)</span></span>
 
-## <a name="june-2019"></a><span data-ttu-id="08885-138">2019년 6월</span><span class="sxs-lookup"><span data-stu-id="08885-138">June 2019</span></span>
+## <a name="july-2019"></a><span data-ttu-id="92440-138">2019년 7월</span><span class="sxs-lookup"><span data-stu-id="92440-138">July 2019</span></span>
 
-- <span data-ttu-id="08885-139">[피싱 url에 대 한 데이터를 보고 결과](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) (OFFICE 365 ATP 계획 1 또는 계획 2)를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="08885-139">[View data about phishing URLs and click verdict](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) (Office 365 ATP Plan 1 or Plan 2)</span></span>
+- <span data-ttu-id="92440-139">[배달 작업 및 전자 메일 메시지의 위치 확인](investigate-malicious-email-that-was-delivered.md#check-the-delivery-action-and-location) (OFFICE 365 ATP 계획 1 또는 2)</span><span class="sxs-lookup"><span data-stu-id="92440-139">[Check the delivery action and location of email messages](investigate-malicious-email-that-was-delivered.md#check-the-delivery-action-and-location) (Office 365 ATP Plan 1 or 2)</span></span>
 
-## <a name="office-365-atp-plan-1-and-plan-2"></a><span data-ttu-id="08885-140">Office 365 ATP 플랜 1 및 플랜 2</span><span class="sxs-lookup"><span data-stu-id="08885-140">Office 365 ATP Plan 1 and Plan 2</span></span>
+## <a name="june-2019"></a><span data-ttu-id="92440-140">2019년 6월</span><span class="sxs-lookup"><span data-stu-id="92440-140">June 2019</span></span>
 
-<span data-ttu-id="08885-141">Office 365 ATP를 두 가지 요금제로 사용할 수 있다는 사실을 알고 계십니까?</span><span class="sxs-lookup"><span data-stu-id="08885-141">Did you know that Office 365 ATP is available in two plans?</span></span> <span data-ttu-id="08885-142">[각 계획에 포함 된 내용에 대해 자세히 알아보세요](office-365-atp.md#office-365-atp-plan-1-and-plan-2).</span><span class="sxs-lookup"><span data-stu-id="08885-142">[Learn more about what each plan includes](office-365-atp.md#office-365-atp-plan-1-and-plan-2).</span></span>
+- <span data-ttu-id="92440-141">[피싱 url에 대 한 데이터를 보고 결과](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) (OFFICE 365 ATP 계획 1 또는 계획 2)를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="92440-141">[View data about phishing URLs and click verdict](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) (Office 365 ATP Plan 1 or Plan 2)</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="08885-143">참고 항목</span><span class="sxs-lookup"><span data-stu-id="08885-143">See also</span></span>
+## <a name="office-365-atp-plan-1-and-plan-2"></a><span data-ttu-id="92440-142">Office 365 ATP 플랜 1 및 플랜 2</span><span class="sxs-lookup"><span data-stu-id="92440-142">Office 365 ATP Plan 1 and Plan 2</span></span>
 
-[<span data-ttu-id="08885-144">Microsoft 365 로드맵</span><span class="sxs-lookup"><span data-stu-id="08885-144">Microsoft 365 roadmap</span></span>](https://www.microsoft.com/microsoft-365/roadmap)
+<span data-ttu-id="92440-143">Office 365 ATP를 두 가지 요금제로 사용할 수 있다는 사실을 알고 계십니까?</span><span class="sxs-lookup"><span data-stu-id="92440-143">Did you know that Office 365 ATP is available in two plans?</span></span> <span data-ttu-id="92440-144">[각 계획에 포함 된 내용에 대해 자세히 알아보세요](office-365-atp.md#office-365-atp-plan-1-and-plan-2).</span><span class="sxs-lookup"><span data-stu-id="92440-144">[Learn more about what each plan includes](office-365-atp.md#office-365-atp-plan-1-and-plan-2).</span></span>
 
-[<span data-ttu-id="08885-145">Office 365 ATP 서비스 설명</span><span class="sxs-lookup"><span data-stu-id="08885-145">Office 365 ATP Service Description</span></span>](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
+## <a name="see-also"></a><span data-ttu-id="92440-145">참고 항목</span><span class="sxs-lookup"><span data-stu-id="92440-145">See also</span></span>
 
-[<span data-ttu-id="08885-146">Microsoft Threat Protection의 자동화된 조사 및 대응</span><span class="sxs-lookup"><span data-stu-id="08885-146">Automated investigation and response in Microsoft Threat Protection</span></span>](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+[<span data-ttu-id="92440-146">Microsoft 365 로드맵</span><span class="sxs-lookup"><span data-stu-id="92440-146">Microsoft 365 roadmap</span></span>](https://www.microsoft.com/microsoft-365/roadmap)
+
+[<span data-ttu-id="92440-147">Office 365 ATP 서비스 설명</span><span class="sxs-lookup"><span data-stu-id="92440-147">Office 365 ATP Service Description</span></span>](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
+
+
