@@ -17,20 +17,19 @@ ms.collection:
 - M365-security-compliance
 description: 보안 및 준수 센터에서 Explorer 및 실시간 검색을 사용 하 여 위협에 효과적이 고 효율적으로 대응 하는 방법에 대해 알아봅니다 &amp; .
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1aaff0662e549de3ea27db01df02ff34d192a96d
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: cf932db30feb3210b8980b95e666972cd3436dd0
+ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44613447"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45039545"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
 조직에 [office 365 Advanced Threat Protection](office-365-atp.md) (OFFICE 365 ATP)이 있고 [필요한 사용 권한이](#required-licenses-and-permissions)있는 경우에는 **Explorer** 또는 **실시간** 검색 (이전에는 [새로운 기능을 참조 하세요](#new-features-in-threat-explorer-and-real-time-detections) *.)을* 수행 해야 합니다. 보안 & 준수 센터에서 **위협 관리**로 이동한 다음 **Explorer** _또는_ **실시간**검색을 선택 합니다.
 
-|||
+| ATP 계획 2를 사용 하는 경우 다음을 확인할 수 있습니다. | ATP 계획 1을 사용 하는 경우 다음을 확인할 수 있습니다. |
 |---|---|
-|**ATP 계획 2를 사용 하는 경우 다음을 확인할 수 있습니다.**|**ATP 계획 1을 사용 하는 경우 다음을 확인할 수 있습니다.**|
 |![위협 탐색기](../../media/threatmgmt-explorer.png)|![실시간 탐지](../../media/threatmgmt-realtimedetections.png)|
 |
 
@@ -44,6 +43,43 @@ Explorer (또는 실시간 검색)를 사용 하는 경우 보안 운영 팀이 
 - [피싱 Url에 대 한 데이터를 확인 하 고 결과를 클릭 합니다.](#view-data-about-phishing-urls-and-click-verdict)
 - [탐색기에서 보기 로부터 자동화 된 조사 및 응답 프로세스 시작](#start-automated-investigation-and-response) (ATP 요금제 2에만 해당)
 - ... [악성 전자 메일을 조사 하 고 더 많은 방법을 확인해](#more-ways-to-use-explorer-or-real-time-detections)보세요.
+
+## <a name="experience-improvements-to-threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색 기능이 향상 되었습니다.
+
+검색 프로세스를 개선 하는 과정에서 위협 탐색기 및 실시간 검색에 대 한 몇 가지 업데이트를 수행 했습니다. 이러한 기능은 개선 된 경험을 보다 일관성 있게 만드는 데 중점을 둔 ' 경험 ' 향상 기능입니다. 이러한 변경 내용은 아래에 설명 되어 있습니다. 
+
+- [향상 된 표준 시간대](#timezone-improvements)
+- [새로 고침 프로세스의 업데이트](#update-in-the-refresh-process)
+- [필터에 추가할 차트 드릴 다운](#chart-drilldown-to-add-to-filters)
+- [제품 정보 업데이트](#in-product-information-updates)
+
+### <a name="timezone-improvements"></a>향상 된 표준 시간대 
+
+또한 포털 내의 전자 메일 레코드에 대 한 표준 시간대와 내보낸 데이터에 대 한 정보를 표시 합니다. 표준 시간대는 전자 메일 표, 세부 정보 플라이 아웃, 전자 메일 일정 및 유사한 전자 메일 같은 경험을 통해 표시 되므로 결과 집합에 대 한 표준 시간대가 사용자에 게 분명 하 게 제공 됩니다. 
+
+![탐색기에서 표준 시간대 보기](../media/TimezoneImprovements.png)
+
+### <a name="update-in-the-refresh-process"></a>새로 고침 프로세스의 업데이트 
+
+자동 새로 고침을 사용한 혼동에 대 한 의견을 들었습니다 (예: 날짜를 변경 하는 즉시, 페이지를 새로 고치는 작업) 및 수동 새로 고침 (기타 필터에 대 한 경우). 마찬가지로, 필터를 제거 하면 자동 새로 고침이 실행 되므로 쿼리를 수정 하는 동안 다른 필터를 변경 하면 검색 환경이 일치 하지 않을 수 있습니다. 이를 해결 하기 위해 수동 필터링 메커니즘으로 이동 하 고 있습니다.
+경험 측면에서 볼 때 사용자는 필터 집합 및 날짜에서 서로 다른 필터 범위를 적용 하 고 제거할 수 있으며, 새로 고침 단추를 눌러 쿼리 정의 작업을 완료 한 후에 결과를 필터링 할 수도 있습니다. 화면에서 명확 하 게 전화를 걸기 위해 새로 고침 단추도 업데이트 되었습니다. 또한이 변경 사항에 대 한 도구 설명 및 제품 설명서도 업데이트 되었습니다. 
+
+![새로 고침을 클릭 하 여 결과를 필터링 합니다.](../media/ManualRefresh.png)
+
+### <a name="chart-drilldown-to-add-to-filters"></a>필터에 추가할 차트 드릴 다운
+
+이제 차트 범례 값을 클릭 하 여 해당 값을 필터로 추가할 수 있습니다. 위에서 설명한 변경 내용의 일부로 결과를 필터링 하려면 새로 고침 단추를 클릭 해야 합니다.
+
+![차트에서 필터링으로 드릴 다운](../media/ChartDrilldown.png)
+
+### <a name="in-product-information-updates"></a>제품 정보 업데이트 
+
+제품 내에 추가 정보도 표시 해야 합니다. 예를 들어 표 내에 있는 총 검색 결과 수 (아래 참조)와 레이블 주위의 향상 된 기능, 필터, 검색 환경 및 결과 집합에 대 한 자세한 정보를 제공 하기 위해 오류 메시지와 도구 설명이 표시 됩니다. 
+
+![제품 내 정보 보기](../media/ProductInfo.png)
+
+
+## <a name="new-features-in-real-time-detections"></a>실시간 검색의 새로운 기능
 
 ## <a name="new-features-in-threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색의 새로운 기능
 
@@ -68,20 +104,22 @@ Explorer (또는 실시간 검색)를 사용 하는 경우 보안 운영 팀이 
 
 배달 작업은 기존 정책 또는 검색으로 인해 전자 메일에 대해 수행 되는 작업입니다. 다음은 전자 메일에 사용할 수 있는 작업입니다.
 
-|||||
+|배달  |Junked  |수준  |바뀌면  |
+|---------|---------|---------|---------|
+|전자 메일이 사용자의 받은 편지함 또는 폴더에 배달 되었으며 사용자가 직접 액세스할 수 있습니다.    | 사용자의 정크 폴더 또는 삭제 된 폴더에 전자 메일이 전송 되 고 해당 폴더의 전자 메일에 대 한 액세스 권한이 사용자에 게 있습니다.       | 격리 되거나, 실패 했거나, 삭제 된 전자 메일입니다. 사용자가이를 완전히 액세스할 수 없습니다.     | 첨부 파일이 악성 인 .txt 파일로 악의적 첨부 파일이 교체 되는 모든 전자 메일     |
+    
+
+| 배달 | Junked | 수준 | 바뀌면 |
 |---|---|---|---|
-|**배달**|**Junked**|**수준**|**바뀌면**|
 |전자 메일이 사용자의 받은 편지함 또는 다른 폴더로 배달 되었으며 사용자가 직접 액세스할 수 있습니다.| 사용자의 정크 폴더 또는 삭제 된 폴더로 전자 메일이 전송 되 고 해당 폴더의 전자 메일 메시지에 대 한 액세스 권한이 사용자에 게 있습니다.| 격리 되거나, 실패 했거나, 삭제 되었으며 사용자가 액세스할 수 없는 전자 메일 메시지가 표시 됩니다.| 첨부 파일이 악성 인 .txt 파일로 악의적 첨부 파일을 바꾼 전자 메일 메시지|
 |
 
 다음은 사용자가 볼 수 있는 것과 그렇지 않은 항목입니다.
 
-|||
+| 최종 사용자가 액세스할 수 있음 | 최종 사용자가 액세스할 수 없음 |
 |---|---|
-|**최종 사용자가 액세스할 수 있음**|**최종 사용자가 액세스할 수 없음**|
 |배달|수준|
 |Junked|바뀌면|
-|
 
 배달 위치는 배달 후 실행 되는 정책 및 검색의 결과를 표시 합니다. 배달 작업에 연결 됩니다. 이 필드는 문제 메일을 찾은 경우 수행 되는 작업에 대 한 통찰력을 제공 하기 위해 추가 되었습니다. 배달 위치의 가능한 값은 다음과 같습니다.
 
@@ -114,7 +152,7 @@ Explorer (또는 실시간 검색)를 사용 하는 경우 보안 운영 팀이 
 > [!TIP]
 > Network Message ID는 네트워크 메시지 ID를 통해 탐색기나 연결 된 타사 도구를 검색할 때 클릭을 특정 메일에 다시 매핑합니다. 네트워크 메시지 ID를 통해 검색 하면 관리자가 클릭 결과와 연결 된 특정 전자 메일을 제공 합니다. 내보낼 때 네트워크 메시지 ID의 일치 확인을 통해 더 빠르고 강력한 분석이 가능 합니다.
 
-![tp_ExportClickResultAndNetworkID .png](../../media/tp_ExportClickResultAndNetworkID.png)
+![tp_ExportClickResultAndNetworkID.png](../../media/tp_ExportClickResultAndNetworkID.png)
 
 ## <a name="see-malware-detected-in-email-by-technology"></a>기술 별로 전자 메일에서 발견 된 맬웨어를 참조 하세요.
 
@@ -205,6 +243,7 @@ Microsoft 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 �
 - [배달된 악성 전자 메일 찾기 및 조사](investigate-malicious-email-that-was-delivered.md)
 - [SharePoint Online, OneDrive 및 Microsoft 팀에서 검색 된 악의적인 파일 보기](malicious-files-detected-in-spo-odb-or-teams.md)
 - [위협 탐색기 및 실시간 검색의 보기에 대 한 개요 보기](threat-explorer-views.md)
+- [Microsoft Threat Protection의 자동화된 조사 및 대응](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 
@@ -242,3 +281,4 @@ Explorer 또는 실시간 검색을 하려면 [Office 365 ATP](office-365-atp.md
 - **위협 탐색기**에는 추가 필터링 기능 및 사용 가능한 작업이 포함 되어 있습니다.
 
 자세한 내용은 [Office 365 Atp 서비스 설명: atp (Advanced Threat Protection) 계획에서의 기능 사용 가능 여부](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)를 참조 하세요.
+

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 문서 또는 전자 메일에 레이블을 자동으로 할당하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 6521bd9c23d8596adb8c86b73a82c3e8aecb85fb
-ms.sourcegitcommit: 03da5464943ef4b9a51644601a229897955dcbb2
+ms.openlocfilehash: c9b7782c39582deec3d42eb0c9dd1083519c805e
+ms.sourcegitcommit: 5e8901e7e571f20ede04f460bd3e7077dda004ca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44658357"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874918"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>민감도 레이블을 콘텐츠에 자동으로 적용
 
@@ -54,16 +54,19 @@ ms.locfileid: "44658357"
     구성 지침은 이 페이지에서 [SharePoint, OneDrive 및 Exchange에 대한 자동 레이블 지정 정책을 구성하는 방법](#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)을 참조하세요.
     
     SharePoint 및 OneDrive에 대한 자동 레이블 지정에만 해당:
-    - 테넌트에서 하루 최대 25,000개의 자동 레이블 지정 파일 수(Word, PowerPoint 또는 Excel)
-    - 모든 정책에서 최대 10개의 사이트 모음 수
-    - 모든 테넌트에서 최대 10개의 정책 수
-    - 수정된 날짜는 시뮬레이션 모드와 레이블이 적용되는 경우 모두 자동 레이블 지정 정책의 결과로 변경되지 않습니다.
+    - Word, PowerPoint 및 Excel용 Office 파일이 지원됩니다.
+    - 테넌트에서 하루 최대 25,000개의 자동 레이블 지정 파일 수.
+    - 모든 정책에서 최대 10개의 사이트 모음 수.
+    - 모든 테넌트에서 최대 10개의 정책 수.
+    - 시뮬레이션 모드 및 레이블 적용 시 둘 다의 경우 자동 레이블링 정책의 결과로 수정됨, 수정자 및 날짜에 대한 기존 값은 변경되지 않습니다.
+    - 레이블이 암호화를 적용하는 경우 [권한 관리 발행자 및 권한 관리 소유자](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)는 민감도 레이블을 만든 사람입니다.
 
     Exchange 자동 레이블 지정에만 해당:
-    - Office 앱의 수동 레이블 지정 또는 자동 레이블 지정과 달리, 자동 레이블 지정 정책에서 사용자가 지정한 조건에 대해 Office 첨부 파일도 검사됩니다. 일치하는 항목이 있는 경우 전자 메일에 레이블이 표시되지만 첨부 파일에는 표시되지 않습니다.
+    - Office 앱을 사용하여 수동 레이블 지정 또는 자동 레이블 기능과 달리 Office 첨부 파일 (Word, Excel 및 PowerPoint 파일) 및 PDF 첨부 파일도 자동 레이블 지정 정책에서 지정한 조건에 대해 검사합니다. 일치하는 항목이 있는 경우 전자 메일에 레이블이 표시되지만 첨부 파일에는 표시되지 않습니다.
     - IRM 암호화를 적용하는 Exchange 메일 흐름 규칙 또는 DLP(데이터 손실 방지) 정책이 있는 경우: 이러한 규칙 또는 정책과 자동 레이블 지정 정책으로 콘텐츠를 식별하면 레이블이 적용됩니다. 해당 레이블이 암호화를 적용하면 Exchange 메일 흐름 규칙 또는 DLP 정책의 IRM 설정이 무시됩니다. 그러나 해당 레이블에 암호화가 적용되지 않으면 레이블과 더불어 메일 흐름 규칙 또는 DLP 정책의 IRM 설정이 적용됩니다.
     - 레이블이 없는 IRM 암호화를 포함하는 전자 메일은 자동 레이블 지정을 사용하여 일치하는 항목이 있는 경우 모든 암호화 설정이 있는 레이블로 대체됩니다.
     - 자동 레이블 지정 조건과 일치하는 경우 받는 전자 메일에 레이블이 지정됩니다. 그러나 레이블이 암호화로 구성되면 암호화가 적용되지 않습니다.
+    - 레이블이 암호화를 적용하는 경우 [권한 관리 발행자 및 권한 관리 소유자](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)는 전자 메일을 보낸 사람입니다.
     
 
 ## <a name="compare-auto-labeling-for-office-apps-with-auto-labeling-policies"></a>자동 레이블 지정 정책과 Office 앱에 대한 자동 레이블 지정 비교
@@ -88,7 +91,7 @@ ms.locfileid: "44658357"
 
 ## <a name="how-multiple-conditions-are-evaluated-when-they-apply-to-more-than-one-label"></a>두 개 이상 레이블에 적용했을 때 여러 조건의 평가 방식
 
-레이블은 정책에서 지정한 위치에 따라 평가되도록 정렬됩니다. 먼저 배치된 레이블은 가장 낮은 위치에 있고(가장 민감하지 않음) 마지막에 위치한 레이블은 가장 높은 위치에 배치됩니다(가장 민감합니다). 우선 순위에 대한 자세한 내용은 [레이블 우선 순위 (순서 관련 문제)](sensitivity-labels.md#label-priority-order-matters)를 참조하십시오.
+The labels are ordered for evaluation according to their position that you specify in the policy: The label positioned first has the lowest position (least sensitive) and the label positioned last has the highest position (most sensitive). For more information on priority, see [Label priority (order matters)](sensitivity-labels.md#label-priority-order-matters).
 
 ## <a name="dont-configure-a-parent-label-to-be-applied-automatically-or-recommended"></a>상위 레이블이 자동으로 적용되거나 권장되도록 구성하지 않음
 
@@ -100,7 +103,7 @@ ms.locfileid: "44658357"
 
 ## <a name="how-to-configure-auto-labeling-for-office-apps"></a>Office 앱에 대한 자동 레이블 지정을 구성하는 방법
 
-Windows용 Office 앱의 자동 레이블 지정은 Azure Information Protection 통합 레이블 클라이언트에서 지원됩니다. Office 앱에서 기본 제공되는 레이블 지정 기능은 [일부 앱에서 미리 볼 수 있습니다.](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps)
+Windows용 Office 앱의 자동 레이블 지정은 Azure Information Protection 통합 레이블 클라이언트에서 지원됩니다. Office 앱에서 기본 제공되는 레이블 지정은 [앱마다 사용 가능 단계가 다릅니다](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps).
 
 [민감도 레이블을 만들거나 편집](create-sensitivity-labels.md)하는 경우, Office 앱에 대한 자동 레이블 지정 설정을 사용할 수 있습니다. 중요한 정보가 감지되는 경우 자동으로 민감도 레이블을 콘텐츠에 적용하도록 선택할 수 있습니다. 중요한 정보 유형 또는 교육 가능한 분류자 목록에서 선택합니다.
 
@@ -188,20 +191,20 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 
 - 시뮬레이션 모드:
     - Microsoft 365에 대한 감사가 설정되어 있어야 합니다. 감사를 설정해야 하거나 감사가 이미 설정되어 있는지 확실하지 않은 경우에는 [감사 로그 검색 켜기 또는 끄기](turn-audit-log-search-on-or-off.md)를 참조하세요.
-    - 원본 보기에서 파일 콘텐츠를 보려면(전자 메일에 대해 지원되지 않음), 사용자가 전역 관리자가 아닌 경우 **콘텐츠 탐색기 콘텐츠 뷰어** 역할을 보유하고 있어야 합니다. 이 권한이 없는 경우, **일치 하는 항목** 탭에서 항목을 선택할 때 미리 보기 창이 표시되지 않습니다.
+    - 원본 보기에서 파일 콘텐츠를 보려면 사용자가 전역 관리자가 아닌 경우 **콘텐츠 탐색기 콘텐츠 뷰어** 역할을 보유하고 있어야 합니다. 이 권한이 없는 경우, **일치하는 항목** 탭에서 항목을 선택할 때 미리 보기 창이 표시되지 않습니다.
 
 - SharePoint 및 OneDrive에서 파일에 자동 레이블을 지정하려면 다음을 수행합니다.
     - [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블을 사용하도록 설정](sensitivity-labels-sharepoint-onedrive-files.md)합니다.
-    - 자동 레이블 지정 정책이 실행될 때 다른 프로세스나 사용자가 파일을 열면 안됩니다.
+    - 자동 레이블 지정 정책이 실행될 때 다른 프로세스나 사용자가 파일을 열면 안됩니다. 편집을 위해 체크 아웃된 파일은 이 범주로 분류됩니다.
 
 - 기본 제공 민감도 유형이 아닌 [사용자 지정 민감도 정보 유형](custom-sensitive-info-types.md)을 사용하려는 경우: 
     - 사용자 지정 민감도 정보 유형은 사용자 지정 민감도 정보 유형을 저장한 후 생성되는 콘텐츠에 대해 평가됩니다. 
     - 새로운 사용자 지정 민감도 정보 유형을 테스트하려면 자동 레이블 지정 정책을 만들기 전에 해당 유형을 만든 다음 테스트용 샘플 데이터가 포함된 새 문서를 만듭니다.
 
 - 자동 레이블 지정 정책에 대해 선택할 수 있는 하나 이상의 민감도 레이블이 [생성 및 게시](create-sensitivity-labels.md)(적어도 한 명의 사용자에게) 됩니다. 이러한 레이블의 경우:
-    - 소개에 설명된 대로 레이블 설정은 자동 레이블 지정 정책을 보완하기 때문에 Office 앱 레이블 설정의 자동 레이블 지정 설정이 켜져 있는지 여부는 중요하지 않습니다. 
+    - 소개에 설명된 대로 레이블 설정은 자동 레이블 지정 정책을 보완하기 때문에 Office 앱 레이블 설정의 자동 레이블 지정 설정이 켜져 있는지 여부는 중요하지 않습니다.
     - 자동 레이블에 사용하려는 레이블이 시각적 표시(머리글, 바닥글, 워터 마크)를 사용하도록 구성된 경우 문서에는 적용되지 않습니다.
-    - 레이블이 암호화를 적용하는 경우 **지금 권한 할당** 설정에 대해 구성해야 합니다.
+    - 레이블이 [암호화](encryption-sensitivity-labels.md)를 적용하는 경우 **지금 권한 할당** 설정에 대해 구성해야 합니다.
 
 ### <a name="learn-about-simulation-mode"></a>시뮬레이션 모드에 대해 알아보기
 
@@ -294,6 +297,8 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
     ![자동 레이블 지정 정책 옵션 편집](../media/auto-labeling-edit.png)
     
     시뮬레이션없이 정책을 실행할 준비가 되면 **정책 켜기** 옵션을 선택합니다.
+
+자동 정책은 삭제될 때까지 계속 실행됩니다. 예를 들어 새 문서와 수정된 문서는 현재 정책 설정에 포함됩니다.
 
 적절한 [권한](data-classification-content-explorer.md#permissions)이 있는 경우 [콘텐츠 탐색기](data-classification-content-explorer.md)를 사용하여 자동 레이블 지정 정책의 결과를 볼 수도 있습니다.
 - **콘텐츠 탐색기 목록 뷰어**를 사용하면 파일의 콘텐츠가 아닌 파일의 레이블을 볼 수 있습니다.

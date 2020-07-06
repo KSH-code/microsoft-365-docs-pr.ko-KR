@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 05/15/2020
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 83ae99a75e3c3aa8d109766418abcf0888b8cbf4
-ms.sourcegitcommit: 76edb413cbd7436252075ea7e314f5e1d07d8d55
+ms.openlocfilehash: 09e2f69eb5999ea104c62c807d348ca26b9236cf
+ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44267170"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45039403"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Office 365 ATP의 새로운 기능
 
@@ -60,6 +60,11 @@ ms.locfileid: "44267170"
 
 - [Office 365 ATP에서 캠페인 보기 사용 (**미리 보기**)](campaigns.md)
 
+## <a name="july-2020"></a>7 월 2020 일 
+ 
+- [사냥 경험 향상](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections)
+
+
 ## <a name="november-2019"></a>2019년 11월
 
 - [새로운 손상 된 사용자 검색 및 응답 기능](address-compromised-users-quickly.md) (**미리 보기**) (Office 365 ATP 계획 2)을 확인 합니다.
@@ -94,4 +99,4 @@ Office 365 ATP를 두 가지 요금제로 사용할 수 있다는 사실을 알�
 
 [Office 365 ATP 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 
-[Microsoft Threat Protection의 자동화된 조사 및 대응](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+

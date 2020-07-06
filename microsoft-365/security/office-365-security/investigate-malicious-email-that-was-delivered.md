@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 위협 조사 및 응답 기능을 사용 하 여 악성 전자 메일을 찾고 조사 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 917534670485327de73f62852af3d8010fd49e40
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 0ac44ab06aaff1618df2dfc1485d15a68458f385
+ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034259"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45039415"
 ---
 # <a name="investigate-and-remediate-malicious-email-that-was-delivered-in-office-365"></a>Office 365에서 제공 된 악성 전자 메일 조사 및 재구성
 
@@ -39,7 +39,7 @@ ms.locfileid: "44034259"
     
 - 조직에 스팸 방지, 맬웨어 방지, 피싱 방지 등을 위한 정책이 정의 되어 있습니다. [Office 365에서 위협 으로부터 보호를](protect-against-threats.md)참조 하세요.
     
-- 전역 관리자 이거나 보안 관리자 이거나 보안 &amp; 및 준수 센터에서 검색 및 제거 역할을 할당 받아야 합니다. [보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요. 일부 작업의 경우 새 미리 보기 역할이 할당 되어 있어야 합니다. 
+- 전역 관리자 이거나 보안 관리자 이거나 보안 및 준수 센터에서 검색 및 제거 역할을 할당 받아야 합니다 &amp; . [보안 및 &amp; 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요. 일부 작업의 경우 새 미리 보기 역할이 할당 되어 있어야 합니다. 
 
 #### <a name="preview-role-permissions"></a>미리 보기 역할 권한
 
@@ -52,7 +52,7 @@ ms.locfileid: "44034259"
 |위협 탐색기를 사용 하 여 머리글 보기 및 사서함으로 배달 된 전자 메일 메시지 다운로드     |전역 관리자 <br>보안 관리자 <br> 보안 읽기 권한자 <br> 미리 보기   |   예      |
 
 > [!NOTE]
-> *미리 보기* 는 역할 그룹이 아니라 역할입니다. 미리 보기 역할은 Office 365의 기존 역할 그룹에 추가 해야 합니다. 전역 관리자 역할은 Microsoft 365 관리 센터 ([https://admin.microsoft.com](https://admin.microsoft.com))에 할당 되며 보안 관리자 및 보안 독자 역할은 보안 & 준수 센터 ([https://protection.office.com](https://protection.office.com))에 할당 됩니다. 역할 및 사용 권한에 대 한 자세한 내용은 [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
+> *미리 보기* 는 역할 그룹이 아니라 역할입니다. 미리 보기 역할은 Office 365의 기존 역할 그룹에 추가 해야 합니다. 전역 관리자 역할은 Microsoft 365 관리 센터 ()에 할당 되며 보안 [https://admin.microsoft.com](https://admin.microsoft.com) 관리자 및 보안 독자 역할은 보안 & 준수 센터 ()에 할당 됩니다 [https://protection.office.com](https://protection.office.com) . 역할 및 사용 권한에 대 한 자세한 내용은 [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
 ## <a name="find-and-delete-suspicious-email-that-was-delivered"></a>배달 된 의심 스러운 전자 메일 찾기 및 삭제
 
@@ -61,7 +61,7 @@ ms.locfileid: "44034259"
 > [!NOTE]
 > 탐색기의 기본 검색에는 Zapped 항목이 포함 되어 있지 않습니다.  이는 맬웨어 또는 피싱 보기와 같은 모든 보기에 적용 됩니다. Zapped 항목을 포함 하려면 ' 삭제에 의해 제거 '를 포함 하도록 설정 된 ' 배달 작업 ' 집합을 추가 해야 합니다. 모든 옵션을 포함 하는 경우 Zapped 항목을 포함 하 여 모든 배달 작업 결과가 표시 됩니다.
 
-1. **위협 탐색기** [https://protection.office.com](https://protection.office.com) 로 이동 하 여 회사 또는 Office 365의 학교 계정을 사용 하 여 로그인 합니다. 이렇게 하면 보안 &amp; 및 준수 센터로 이동 합니다.
+1. **위협 탐색기로**이동 하 [https://protection.office.com](https://protection.office.com) 여 회사 또는 Office 365의 학교 계정을 사용 하 여 로그인 합니다. 이렇게 하면 보안 및 &amp; 준수 센터로 이동 합니다.
 
 2. 왼쪽 탐색 빠른 실행에서 **위협 관리** \> **탐색기**를 선택 합니다.
 
@@ -88,7 +88,7 @@ ms.locfileid: "44034259"
 
 5. **고급 필터**: 이러한 필터를 사용 하 여 복잡 한 쿼리를 작성 하 고 데이터 집합을 필터링 할 수 있습니다. *고급 필터* 를 클릭 하면 옵션이 포함 된 플라이 아웃이 열립니다.
 
-   고급 필터링은 검색 기능에 매우 유용 합니다. *받는 사람*, *보낸* 사람 및 *보낸 사람 도메인* 에 부울 **NOT** filter가 도입 되어 관리자는 값을 제외 하 여 조사할 수 있습니다. 이 옵션은 selection 매개 변수에 *없음이 포함*됩니다. **NOT** 관리자는 알림 사서함, 기본 회신 사서함을 조사에서 제외 하는 것을 허용 하지 않으며, 관리자가 특정 주체 (subject = "주의")를 검색 하 여 받는 사람을 *defaultMail@contoso.com*으로 설정할 수 없는 경우에 유용 합니다. 이 값은 정확한 검색입니다.
+   고급 필터링은 검색 기능에 매우 유용 합니다. *받는 사람*, *보낸* 사람 및 *보낸 사람 도메인* 에 부울 **NOT** filter가 도입 되어 관리자는 값을 제외 하 여 조사할 수 있습니다. 이 옵션은 selection 매개 변수에 *없음이 포함*됩니다. **NOT** 관리자는 알림 사서함, 기본 회신 사서함을 조사에서 제외 하 고, 관리자가 특정 주체 (subject = "주의")를 사용 하 여 받는 사람을 *defaultmail \@ contoso.com*로 설정할 수 있는 경우에 유용 합니다. 이 값은 정확한 검색입니다.
 
    ![받는 사람-'에는 어떤 고급 필터도 포함 되어 있지 않습니다.](../../media/tp-InvestigateMalEmail-AdvancedFilter.png)
 
