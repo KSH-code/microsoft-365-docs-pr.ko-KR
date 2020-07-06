@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: 도메인 관리에 도움이 되는 도메인 및 관련 DNS 레코드에 대해 알아봅니다.
-ms.openlocfilehash: 3a3a03c408d480b5d4678fde25c8830e063b1310
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: c9fee3488f7de3c0cc4b93be15ff49bd01469495
+ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780184"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "45035612"
 ---
 # <a name="dns-basics"></a>DNS 기본 사항
 
@@ -43,7 +43,7 @@ ms.locfileid: "44780184"
 
 ::: moniker range="o365-germany"
 
-도메인 이름(예: contoso.com)은 전 세계 도메인 등록 기관 및 데이터베이스 시스템을 사용하여 관리됩니다. DNS(Domain Name System)는 사람이 읽을 수 있는 컴퓨터 호스트 이름과 네트워킹 장비에서 사용하는 IP 주소 간의 매핑을 제공합니다. DNS 및 도메인 등록 기관 기본 사항을 이해하면 Office 365에서 도메인을 관리하는 데 도움이 될 수 있습니다.
+도메인 이름(예: contoso.com)은 전 세계 도메인 등록 기관 및 데이터베이스 시스템을 사용하여 관리됩니다. DNS(Domain Name System)는 사람이 읽을 수 있는 컴퓨터 호스트 이름과 네트워킹 장비에서 사용하는 IP 주소 간의 매핑을 제공합니다. DNS 및 도메인 등록 기관 기본 사항을 이해하면 도메인을 관리하는 데 도움이 될 수 있습니다.
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c005f2a4-90ad-46fe-b1ab-90f41f2a9d53?autoplay=false]
   
@@ -51,7 +51,7 @@ ms.locfileid: "44780184"
 
 ::: moniker range="o365-21vianet"
 
-도메인 이름(예: contoso.com)은 전 세계 도메인 등록 기관 및 데이터베이스 시스템을 사용하여 관리됩니다. DNS(Domain Name System)는 사람이 읽을 수 있는 컴퓨터 호스트 이름과 네트워킹 장비에서 사용하는 IP 주소 간의 매핑을 제공합니다. DNS 및 도메인 등록 기관 기본 사항을 이해하면 관리자가 21Vianet에서 운영하는 Office 365의 도메인을 관리하는 데 도움이 됩니다.
+도메인 이름(예: contoso.com)은 전 세계 도메인 등록 기관 및 데이터베이스 시스템을 사용하여 관리됩니다. DNS(Domain Name System)는 사람이 읽을 수 있는 컴퓨터 호스트 이름과 네트워킹 장비에서 사용하는 IP 주소 간의 매핑을 제공합니다. DNS 및 도메인 등록 기관 기본 사항을 이해하면 관리자가 도메인을 관리하는 데 도움이 됩니다.
   
 ::: moniker-end
 
@@ -65,30 +65,30 @@ ms.locfileid: "44780184"
     
 - **mail**은 세 번째 수준 도메인입니다. 
     
-세 번째 수준 도메인을 사용하는 이유는 무엇일까요? 사용자가 마케팅 또는 블로그에 다른 도메인 이름을 원할 수 있습니다. 예를 들어 blog.contoso.com입니다. 일반적으로 Office 365에서 사용할 수 있는 contoso.com와 같은 두 번째 수준 도메인을 추가 하지만, 원한다면 세 번째 수준 도메인을 사용할 수도 있습니다.
+세 번째 수준 도메인을 사용하는 이유는 무엇일까요? 사용자가 마케팅 또는 블로그에 다른 도메인 이름을 원할 수 있습니다. 예를 들어 blog.contoso.com입니다. 일반적으로 Microsoft에서 사용하도록 contoso.com과 같은 두 번째 수준 도메인을 추가하지만, 원한다면 세 번째 수준 도메인을 사용할 수도 있습니다.
   
-제품별 사용할 수 있는 도메인 유형에 대한 자세한 내용은 [Office 365 도메인에 대한 서비스 설명](https://go.microsoft.com/fwlink/?LinkId=402693)을 참조하세요.
+각 제품 유형에 따라 도메인에서 수행할 수 있는 기능에 대한 자세한 내용은 [Microsoft 365 및 Office 365 플랫폼 서비스 설명](https://go.microsoft.com/fwlink/?LinkId=402693)을 참조하세요.
   
 ## <a name="understand-dns-record-types"></a>DNS 레코드 종류 이해
 
-도메인의 DNS 호스트에 저장된 DNS 레코드는 도메인의 트래픽을 전달하는 데 사용됩니다. 다음 표에서는 자주 사용하는 DNS 레코드와 이러한 레코드가 Office 365에서 사용되는 방식에 대해 설명합니다.
+도메인의 DNS 호스트에 저장된 DNS 레코드는 도메인의 트래픽을 전달하는 데 사용됩니다. 다음 표에서는 자주 사용하는 DNS 레코드와 이러한 레코드를 사용하는 방식에 대해 설명합니다.
   
-|**NS(이름 서버) 레코드**|**특정 도메인에 대해 "신뢰할 수 있는 이름 서버"를 식별합니다. 도메인의 이름 서버를 변경하면 DNS 레코드가 관리되는 위치 및 DNS 시스템이 메일 서버 등에 관한 정보를 찾는 위치가 변경됩니다. Office 365에는 자체 이름 서버가 있지만, 도메인에 이미 설정되어 있는 이름 서버를 계속 사용할 수도 있습니다.**|
+|**NS(이름 서버) 레코드**|**특정 도메인에 대해 "신뢰할 수 있는 이름 서버"를 식별합니다. 도메인의 이름 서버를 변경하면 DNS 레코드가 관리되는 위치 및 DNS 시스템이 메일 서버 등에 관한 정보를 찾는 위치가 변경됩니다. Microsoft에는 자체 이름 서버가 있지만, 도메인에 이미 설정되어 있는 이름 서버를 계속 사용할 수도 있습니다.**|
 |:-----|:-----|
 |레코드(주소 레코드)  <br/> |IP 주소와 도메인 이름을 연결합니다.  <br/> |
 |CNAME(별칭 또는 정식 이름) 레코드  <br/> |DNS 시스템에서 한 도메인을 다른 도메인으로 리디렉션합니다. 이름 서버가 도메인을 조회하여 CNAME 레코드가 있다는 것을 발견하면 첫 번째 도메인 이름을 CNAME으로 대체하고 새 이름을 조회합니다.  <br/> |
 |MX(메일 교환기) 레코드  <br/> |전자 메일을 보낼 위치를 가리킵니다. 여기에는 우선 순위 필드도 있어 우선 순위대로 여러 서버에 메일을 전송할 수 있습니다.  <br/> |
 |SPF(Sender Policy Framework) 레코드  <br/> |전자 메일 스푸핑 및 피싱을 방지하는 데 도움이 되는 TXT 레코드입니다.  <br/> |
-|SRV(서비스) 레코드  <br/> |비즈니스용 Skype Online 및 Exchange Online에서 Office 365 서비스 간의 정보 흐름을 조정하는 데 사용됩니다. 예를 들어 SRV 레코드는 Outlook Web App에서 현재 상태를 확인하고 비즈니스용 Skype Online, Skype 또는 다른 회사의 사용자와 기타 인스턴트 메시징 도구를 사용하는 데 필요합니다.  <br/> |
+|SRV(서비스) 레코드  <br/> |비즈니스용 Skype Online 및 Exchange Online에서 Microsoft 서비스 간의 정보 흐름을 조정하는 데 사용됩니다. 예를 들어 SRV 레코드는 Outlook Web App에서 현재 상태를 확인하고 비즈니스용 Skype Online, Skype 또는 다른 회사의 사용자와 기타 인스턴트 메시징 도구를 사용하는 데 필요합니다.  <br/> |
 |TTL(time-to-live)  <br/> |이름 서버가 업데이트된 버전을 찾기 전에 서버에서 DNS 레코드가 유지되는 시간입니다.  <br/> |
    
 ## <a name="how-does-dns-work"></a>DNS의 작동 방식
 
-Office 365와 같은 클라우드 서비스를 사용하여 도메인을 설정하는 과정에는 도메인에 대 한 [DNS 레코드](dns-basics.md)를 변경하거나 추가하는 작업이 포함됩니다. 인터넷이 DNS(Domain Name System) 및 도메인 이름과 작동하는 방식 때문에, 전자 메일 및 웹 사이트 등 항목을 보내거나 찾을 위치를 파악하기 위해 이러한 변경 작업이 필요합니다. 
+Microsoft 365와 같은 클라우드 서비스를 사용하여 도메인을 설정하는 과정에는 도메인에 대한 [DNS 레코드](dns-basics.md)를 변경하거나 추가하는 작업이 포함됩니다. 인터넷이 DNS(Domain Name System) 및 도메인 이름과 작동하는 방식 때문에, 전자 메일 및 웹 사이트 등 항목을 보내거나 찾을 위치를 파악하기 위해 이러한 변경 작업이 필요합니다. 
   
 인터넷은 DNS(Domain Name System)를 사용하도록 설정되어 있기 때문에, 실제로는 IP(인터넷 프로토콜) 주소라고 하는 외우기 힘든 숫자로 된 특정 인터넷 위치를 사용자는 contoso.com과 같은 친숙한 이름을 사용하여 찾을 수 있는 것입니다. IP 주소는 70.42.241.42와 같은 형식입니다. 따라서 도메인 이름을 사용하여 전자 메일 호스트 및 웹 사이트 등의 위치를 식별하는 것이 훨씬 더 쉽습니다.
   
-즉, DNS 레코드는 전자 메일을 보낼 위치(예: joe@contoso.com) 또는 도메인 이름을 사용하는 웹 사이트를 찾을 위치(예: www.contoso.com)를 인터넷에 알려줍니다. 올바른 정보를 도메인의 올바른 DNS 레코드에 입력하면 DNS 시스템이 모든 것을 정확하게 라우팅하여 사용자의 전자 메일이 다른 곳이 아닌 Office 365에 도착하도록 합니다.
+즉, DNS 레코드는 전자 메일을 보낼 위치(예: joe@contoso.com) 또는 도메인 이름을 사용하는 웹 사이트를 찾을 위치(예: www.contoso.com)를 인터넷에 알려줍니다. 올바른 정보를 도메인의 올바른 DNS 레코드에 입력하면 DNS 시스템이 모든 것을 정확하게 라우팅하므로 사용자의 전자 메일이 다른 곳이 아닌 Microsoft 365에 도착합니다.
   
 도메인의 DNS 레코드는 다른 방법으로도 유용할 수 있습니다.  예를 들어 Exchange는 Outlook이 올바른 Exchange 서버에 대한 연결을 자동으로 설정할 수 있게 하는 DNS 레코드를 확인합니다.
   
@@ -96,11 +96,11 @@ Office 365와 같은 클라우드 서비스를 사용하여 도메인을 설정�
 
 위에서 설명했듯이, DNS는 기본적으로 트래픽을 인터넷으로 전달하여 외우기 어려운 IP 주소에 친숙한 도메인 이름을 매핑합니다. MX 레코드라고 하는 DNS 레코드는 특히 전자 메일을 올바른 호스트에 보내는 레코드입니다.
   
-DNS 레코드는 도메인에 대한 정보의 데이터베이스와 유사합니다. 레코드 및 해당 값은 영역 파일이라는 항목에 보관되며 여기에는 도메인에 대한 각 레코드 목록과 해당 값이 포함됩니다. 도메인 등록 기관과 기타 DNS 호스팅 회사는 사용자의 도메인 영역 파일에서 레코드를 편집할 수 있도록 웹 사이트에 UI를 제공합니다. 이는 도메인에 대한 MX 레코드를 업데이트하여 전자 메일 메시지를 Office 365에 보내도록 하는 곳입니다.
+DNS 레코드는 도메인에 대한 정보의 데이터베이스와 유사합니다. 레코드 및 해당 값은 영역 파일이라는 항목에 보관되며 여기에는 도메인에 대한 각 레코드 목록과 해당 값이 포함됩니다. 도메인 등록 기관과 기타 DNS 호스팅 회사는 사용자의 도메인 영역 파일에서 레코드를 편집할 수 있도록 웹 사이트에 UI를 제공합니다. 이는 도메인에 대한 MX 레코드를 업데이트하여 전자 메일 메시지가 Microsoft 365로 전송되도록 하는 곳입니다.
   
- *다음 단계에서 도메인의 MX 레코드를 업데이트하여 전자 메일을 Office 365로 변경하면 해당 도메인으로 전송된 모든 전자 메일이 Office 365로 배달되기 시작합니다.*  다른 사용자가 해당 도메인을 전자 메일에 사용하는 경우 각 사용자에 대해 Office 365 사서함을 설정해야 합니다. 
+ *다음 단계에서 도메인의 MX 레코드를 업데이트하여 전자 메일을 Microsoft 365로 변경하면 해당 도메인으로 전송된 모든 전자 메일이 Microsoft 365로 배달되기 시작합니다.*  다른 사용자가 해당 도메인을 전자 메일에 사용하는 경우 해당 사용자 각각에 대해 Microsoft 365 사서함을 설정해야 합니다. 
   
-복잡하게 보이나요? 그럴 수도 있지만 Office 365 도메인 설정에서 각 단계가 자세히 안내됩니다.
+복잡하게 보이나요? 그럴 수도 있지만 Microsoft 도메인 설정의 단계별로 자세히 안내됩니다.
   
 ### <a name="dns-tells-the-internet-where-to-look-for-websites-too"></a>DNS는 또한 인터넷에 웹 사이트를 찾을 위치를 알립니다.
 
@@ -108,23 +108,23 @@ DNS 레코드는 도메인에 대한 정보의 데이터베이스와 유사합�
   
 ::: moniker range="o365-worldwide"
 
-Contoso.com의 NS 레코드에 "godaddy.com"이 있다고 가정해 보겠습니다. 이제 인터넷은 contoso.com에 대한 다른 모든 DNS 레코드를 나열하는 영역 파일을 찾을 위치가 GoDaddy.com이라는 것을 알고 있습니다. 이러한 DNS 레코드에는 contoso.com 및 기타 레코드에 대한 전자 메일을 보낼 위치를 나타내는 MX 레코드가 포함됩니다. MX 레코드에 "Office 365로 전자 메일 보내기"라는 값(기술적 용어로)이 있는 경우에는 contoso.com 전자 메일 주소(예: joe@contoso.com)로 전송된 모든 전자 메일 메시지가 그 곳으로 전송됩니다. 그런 다음 해당 위치에 "joe" 라는 사서함이 있으면 전자 메일이 전송됩니다.
+Contoso.com의 NS 레코드에 "godaddy.com"이 있다고 가정해 보겠습니다. 이제 인터넷은 contoso.com에 대한 다른 모든 DNS 레코드를 나열하는 영역 파일을 찾을 위치가 GoDaddy.com이라는 것을 알고 있습니다. 이러한 DNS 레코드에는 contoso.com 및 기타 레코드에 대한 전자 메일을 보낼 위치를 나타내는 MX 레코드가 포함됩니다. MX 레코드에 "Microsoft 365로 전자 메일 보내기"를 설정(기술적 용어로)하는 값이 있는 경우에는 contoso.com 전자 메일 주소(예: joe@contoso.com)로 전송된 모든 전자 메일 메시지가 Microsoft 365로 전송됩니다. 그런 다음 해당 위치에 "joe" 라는 사서함이 있으면 전자 메일이 전송됩니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Contoso.com의 NS 레코드에 "godaddy.com"이 있다고 가정해 보겠습니다. 이제 인터넷은 contoso.com에 대한 다른 모든 DNS 레코드를 나열하는 영역 파일을 찾을 위치가 GoDaddy.com이라는 것을 알고 있습니다. 이러한 DNS 레코드에는 contoso.com 및 기타 레코드에 대한 전자 메일을 보낼 위치를 나타내는 MX 레코드가 포함됩니다. MX 레코드에 "Office 365로 전자 메일 보내기"라는 값(기술적 용어로)이 있는 경우에는 contoso.com 전자 메일 주소(예: joe@contoso.com)로 전송된 모든 전자 메일 메시지가 그 곳으로 전송됩니다. 그런 다음 해당 위치에 "joe" 라는 사서함이 있으면 전자 메일이 전송됩니다.
+Contoso.com의 NS 레코드에 "godaddy.com"이 있다고 가정해 보겠습니다. 이제 인터넷은 contoso.com에 대한 다른 모든 DNS 레코드를 나열하는 영역 파일을 찾을 위치가 GoDaddy.com이라는 것을 알고 있습니다. 이러한 DNS 레코드에는 contoso.com 및 기타 레코드에 대한 전자 메일을 보낼 위치를 나타내는 MX 레코드가 포함됩니다. MX 레코드에 "Microsoft 365로 전자 메일 보내기"를 설정(기술적 용어로)하는 값이 있는 경우에는 contoso.com 전자 메일 주소(예: joe@contoso.com)로 전송된 모든 전자 메일 메시지가 Microsoft 365로 전송됩니다. 그런 다음 해당 위치에 "joe" 라는 사서함이 있으면 전자 메일이 전송됩니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-Contoso.com의 NS 레코드에 "hichina.com."이 있다고 가정해 보겠습니다. 이제 인터넷은 contoso.com에 대한 다른 모든 DNS 레코드를 나열하는 영역 파일을 찾을 위치가 hichina.com이라는 것을 알고 있습니다. 이러한 DNS 레코드에는 contoso.com 및 기타 레코드에 대한 전자 메일을 보낼 위치를 나타내는 MX 레코드가 포함됩니다. MX 레코드에 "Office 365로 전자 메일 보내기"라는 값(기술적 용어로)이 있는 경우에는 contoso.com 전자 메일 주소(예: joe@contoso.com)로 전송된 모든 전자 메일 메시지가 그 곳으로 전송됩니다. 그런 다음 해당 위치에 "joe" 라는 사서함이 있으면 전자 메일이 전송됩니다.
+Contoso.com의 NS 레코드에 "hichina.com."이 있다고 가정해 보겠습니다. 이제 인터넷은 contoso.com에 대한 다른 모든 DNS 레코드를 나열하는 영역 파일을 찾을 위치가 hichina.com이라는 것을 알고 있습니다. 이러한 DNS 레코드에는 contoso.com 및 기타 레코드에 대한 전자 메일을 보낼 위치를 나타내는 MX 레코드가 포함됩니다. MX 레코드에 "Microsoft 365로 전자 메일 보내기"를 설정(기술적 용어로)하는 값이 있는 경우에는 contoso.com 전자 메일 주소(예: joe@contoso.com)로 전송된 모든 전자 메일 메시지가 Microsoft 365로 전송됩니다. 그런 다음 해당 위치에 "joe" 라는 사서함이 있으면 전자 메일이 전송됩니다.
 
 ::: moniker-end
 
-도메인을 설정할 때 Office 365에서 모든 작업을 수행하기 위해 입력해야 하는 실제 값이 도메인 설정 단계에서 사용자에게 표시됩니다. 수동으로 설정하는 경우 값을 복사하여 DNS 호스트(이는 도메인 등록 기관이 될 수 있지만, 꼭 그럴 필요는 없습니다)의 올바른 DNS 레코드(MX 레코드, CNAME 레코드 등)에 붙여넣습니다.
+Microsoft 365에서 이러한 모든 설정이 제대로 작동하기 위해 입력해야 하는 실제 값이 도메인을 설정할 때 도메인 설정 단계에서 사용자에게 표시됩니다. 수동으로 설정하는 경우 값을 복사하여 DNS 호스트(이는 도메인 등록 기관이 될 수 있지만, 꼭 그럴 필요는 없습니다)의 올바른 DNS 레코드(MX 레코드, CNAME 레코드 등)에 붙여넣습니다.
   
 ::: moniker range="o365-worldwide"
 
@@ -145,21 +145,21 @@ Contoso.com의 NS 레코드에 "hichina.com."이 있다고 가정해 보겠습�
 ::: moniker-end
 
 > [!NOTE]
-> [Microsoft에서 DNS 레코드를 설정하고 관리](../setup/domains-faq.md#how-does-office-365-manage-my-dns-records)하도록 Office 365에서 도메인을 설정하는 경우, 설정 과정에서 [DNS 관리를 Office 365로 변경](../setup/domains-faq.md#change-dns-management-to-office-365)합니다. 
+> [Microsoft에서 사용자의 DNS 레코드를 설정하고 관리](../setup/domains-faq.md#how-does-office-365-manage-my-dns-records)하도록 Microsoft 365에서 도메인을 설정하는 경우, 설정 과정에서 [DNS 관리를 Microsoft 365로 변경](../setup/domains-faq.md#change-dns-management-to-office-365)합니다. 
  
 
 ::: moniker range="o365-worldwide"
 ## <a name="why-add-a-domain-in-office-365"></a>Office 365에서 도메인을 추가해야 하는 이유
 
 
-사용자 지정 도메인(예: fourthcoffee.com)을 Office 365에 추가하면 서비스에서 더 짧고 친숙한 전자 메일 주소와 사용자 ID를 사용할 수 있습니다. Office 365 계정에 가입할 때 [사용할 도메인이 제공](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)되지만, 여기에는 "onmicrosoft.com"이 포함됩니다. 많은 사용자가 전자 메일에 Office 365를 사용하려는 경우 조직 또는 비즈니스 도메인을 추가하는 것을 선호합니다. 
+사용자 지정 도메인(예: fourthcoffee.com)을 Microsoft 365에 추가하면 서비스에서 더 짧고 친숙한 전자 메일 주소와 사용자 ID를 사용할 수 있습니다. Microsoft 365 계정에 가입할 때 [사용할 도메인이 제공](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)되지만, 여기에는 "onmicrosoft.com"이 포함됩니다. 많은 사용자가 전자 메일에 Microsoft 365를 사용하려는 경우 조직 또는 비즈니스 도메인을 추가하는 것을 선호합니다. 
   
 > [!NOTE]
 > Outlook 또는 Word 등의 Microsoft 앱을 다운로드하고 사용하려는 경우에는 도메인을 추가할 필요가 없습니다. [PC 또는 Mac에 Office를 설치](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)하기만 하면 됩니다. 
   
-Office 365에서는 전자 메일, 공개 웹 사이트 및 메신저 주소에 사용자의 도메인 이름을 사용할 수 있습니다.
+전자 메일, 공개 웹 사이트 및 메신저 주소에 Microsoft 365의 사용자 도메인 이름을 사용할 수 있습니다.
   
-- **전자 메일:** 도메인 이름을 사용하면 전자 메일을 사용자 지정할 수 있으므로 계정과 함께 제공되는 [초기 onmicrosoft.com 전자 메일 주소](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)보다 더 짧고 기억하기 쉬운 주소를 사용할 수 있습니다. 따라서 joe@contoso.onmicrosoft.com 대신 전자 메일 주소(Office 365에 로그인하는 데 사용하는 회사 계정)는 joe@contoso.com이 될 수 있습니다. 
+- **전자 메일:** 도메인 이름을 사용하면 전자 메일을 사용자 지정할 수 있으므로 계정과 함께 제공되는 [초기 onmicrosoft.com 전자 메일 주소](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)보다 더 짧고 기억하기 쉬운 주소를 사용할 수 있습니다. 따라서 전자 메일 주소(Microsoft 365에 로그인하는 데 사용하는 회사 계정으로도 사용됨)가 joe@contoso.onmicrosoft.com 대신 joe@contoso.com으로 될 수 있습니다. 
     
 - **웹 사이트:** Microsoft 365 구독에 SharePoint Online 공개 웹 사이트(더 이상 구입할 수 없음)가 포함된 경우 공개 웹 사이트에는 contoso-public.sharepoint.com과 같은 초기 주소가 제공됩니다. 비즈니스를 위한 웹 사이트를 설정한 경우 www.contoso.com과 같이 사용자 지정 도메인 이름을 사용하여 웹 사이트 주소의 이름을 바꿀 수 있습니다. 
     
@@ -168,17 +168,17 @@ Office 365에서는 전자 메일, 공개 웹 사이트 및 메신저 주소에 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-## <a name="why-add-a-domain-in-office-365"></a>Office 365에서 도메인을 추가해야 하는 이유
+## <a name="why-add-a-domain-in-microsoft-365"></a>Microsoft 365에서 도메인을 추가해야 하는 이유
 
 
-사용자 지정 도메인(예: fourthcoffee.com)을 Office 365에 추가하면 서비스에서 더 짧고 친숙한 전자 메일 주소와 사용자 ID를 사용할 수 있습니다. Office 365 계정에 가입할 때 [사용할 도메인이 제공](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)되지만, 여기에는 "onmicrosoft.com"이 포함됩니다. 많은 사용자가 전자 메일에 Office 365를 사용하려는 경우 조직 또는 비즈니스 도메인을 추가하는 것을 선호합니다. 
+사용자 지정 도메인(예: fourthcoffee.com)을 Microsoft 365에 추가하면 서비스에서 더 짧고 친숙한 전자 메일 주소와 사용자 ID를 사용할 수 있습니다. Microsoft 365 계정에 가입할 때 [사용할 도메인이 제공](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)되지만, 여기에는 "onmicrosoft.com"이 포함됩니다. 많은 사용자가 전자 메일에 Microsoft 365를 사용하려는 경우 조직 또는 비즈니스 도메인을 추가하는 것을 선호합니다. 
   
 > [!NOTE]
-> Outlook 또는 Word 등의 Office 365 앱을 다운로드하고 사용하려는 경우 도메인을 추가할 필요가 없습니다. [PC 또는 Mac에 Office를 설치](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)하기만 하면 됩니다. 
+> Outlook 또는 Word 등의 Microsoft 365 앱만을 다운로드하고 사용하려는 경우에는 도메인을 추가할 필요가 없습니다. [PC 또는 Mac에 Office를 설치](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)하기만 하면 됩니다. 
   
-Office 365에서는 전자 메일, 공개 웹 사이트 및 메신저 주소에 사용자의 도메인 이름을 사용할 수 있습니다.
+전자 메일, 공개 웹 사이트 및 메신저 주소에 Microsoft 365의 사용자 도메인 이름을 사용할 수 있습니다.
   
-- **전자 메일:** 도메인 이름을 사용하면 전자 메일을 사용자 지정할 수 있으므로 계정과 함께 제공되는 [초기 onmicrosoft.com 전자 메일 주소](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)보다 더 짧고 기억하기 쉬운 주소를 사용할 수 있습니다. 따라서 joe@contoso.onmicrosoft.com 대신 전자 메일 주소(Office 365에 로그인하는 데 사용하는 회사 계정)는 joe@contoso.com이 될 수 있습니다. 
+- **전자 메일:** 도메인 이름을 사용하면 전자 메일을 사용자 지정할 수 있으므로 계정과 함께 제공되는 [초기 onmicrosoft.com 전자 메일 주소](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)보다 더 짧고 기억하기 쉬운 주소를 사용할 수 있습니다. 따라서 전자 메일 주소(Microsoft 365에 로그인하는 데 사용하는 회사 계정으로도 사용됨)가 joe@contoso.onmicrosoft.com 대신 joe@contoso.com으로 될 수 있습니다. 
     
 - **웹 사이트:** 구독에 SharePoint Online 공개 웹 사이트(더 이상 구입할 수 없음)가 포함된 경우 공개 웹 사이트에는 contoso-public.sharepoint.com과 같은 초기 주소가 제공됩니다. 비즈니스를 위한 웹 사이트를 설정한 경우 www.contoso.com과 같이 사용자 지정 도메인 이름을 사용하여 웹 사이트 주소의 이름을 바꿀 수 있습니다. 
     
@@ -186,20 +186,17 @@ Office 365에서는 전자 메일, 공개 웹 사이트 및 메신저 주소에 
     
 ::: moniker-end
 
-## <a name="the-dns-records-required-for-office-365"></a>Office 365에 필요한 DNS 레코드
+## <a name="the-dns-records-required-for-microsoft-365"></a>Microsoft 365에 필요한 DNS 레코드
 
-Office 365에서 도메인이 작동하려면 많은 DNS 레코드가 필요합니다. Office 365에 전자 메일이 전송되도록 도메인의 MX 레코드를 설정하는 것 외에, Outlook을 올바른 Exchange Server에 자동으로 연결하고, 메신저를 설정하고, 스팸 메일을 방지하는 등의 작업에 유용한 레코드도 있습니다.
+Microsoft 365에서 도메인이 작동하려면 많은 DNS 레코드가 필요합니다. Microsoft 365로 전자 메일이 전송되도록 도메인의 MX 레코드를 설정하는 것 외에, Outlook을 올바른 Exchange Server에 자동으로 연결하고, 메신저를 설정하고, 스팸 메일을 방지하는 등의 작업에 유용한 레코드도 있습니다.
   
 도메인을 설정하기 위한 [값 목록을 찾을](information-for-dns-records.md) 수 있습니다. Microsoft 365 관리 센터에 바로 포함되어 있습니다. 
   
-또는 배포를 계획하고 있는 경우 Office 365에 필요한 모든 DNS 레코드, 해당 기능, 예시 값을 검토할 수 있습니다. [Office 365에 대한 외부 Domain Name System 레코드](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records)를 참조하세요.
+또는 배포를 계획하고 있는 경우 Microsoft 365에 필요한 모든 DNS 레코드, 해당 기능, 예시 값 목록을 검토해 볼 수 있습니다. [Microsoft 365에 대한 외부 Domain Name System 레코드](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records)를 참조하세요.
   
 ## <a name="how-can-i-learn-more"></a>자세한 내용을 알고 싶은 경우
 
 다음 중 하나를 확인하세요. 
   
 - 도메인이 어디에 등록되어 있는지 잘 모르시나요? [도메인 등록 기관 찾기 도움말을 확인하세요.](find-your-domain-registrar.md)
-    
-- Office 365에서 도메인을 사용하기 전에 먼저 [마법사 단계를 완료해야 하는 이유](../setup/add-domain.md)를 알아보세요. 
-    
-
+- Microsoft 365에서 도메인을 사용하기 전에 먼저 [마법사 단계를 완료해야 하는 이유](../setup/add-domain.md)를 알아보세요.
