@@ -17,12 +17,11 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 250d19a09d79fc5fd8c69f2ebd24abadc642fafc
-ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
-ms.translationtype: MT
+ms.openlocfilehash: 26b376fe3e804a3ebaa478e484807bea4c33d38b
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45005849"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049701"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>고급 헌팅 쿼리 언어 알아보기
 
@@ -151,7 +150,16 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 ## <a name="get-help-as-you-write-queries"></a>쿼리 작성시 도움말 보기
 다음 기능을 활용하여 쿼리를 더 빠르게 작성하세요.
 - **Autosuggest** -쿼리를 작성할 때 고급 사냥은 IntelliSense의 추천 단어를 제공 합니다. 
-- **스키마 참조** — 테이블 및 해당 열 목록이 포함된 스키마 참조가 작업 영역 옆에 제공됩니다. 자세한 내용을 보려면 항목 위로 마우스를 가져갑니다. 항목을 두 번 클릭하여 쿼리 편집기에 삽입합니다.
+- **스키마 트리** -테이블 및 해당 열 목록이 포함 된 스키마 표현이 작업 영역 옆에 제공 됩니다. 자세한 내용을 보려면 항목 위로 마우스를 가져갑니다. 항목을 두 번 클릭하여 쿼리 편집기에 삽입합니다.
+- **[스키마 참조](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** -테이블 및 열 설명과 관련 된 포털 내 참조 및 지원 되는 이벤트 유형 ( `ActionType` 값) 및 예제 쿼리
+
+## <a name="work-with-multiple-queries-in-the-editor"></a>편집기에서 여러 쿼리 작업
+쿼리 편집기는 여러 쿼리를 실험 하기 위해 스크래치 pad로 사용할 수 있습니다. 여러 쿼리를 사용 하려면 다음을 수행 합니다.
+
+- 각 쿼리를 빈 줄로 구분 합니다.
+- 쿼리를 실행 하기 전에 쿼리 부분에 커서를 놓고 선택 합니다. 이렇게 하면 선택한 쿼리만 실행 됩니다. 다른 쿼리를 실행 하려면 그에 따라 커서를 이동 하 고 **쿼리 실행**을 선택 합니다.
+
+![쿼리가 여러 개 있는 쿼리 편집기 이미지](../../media/mtp-ah/ah-multi-query.png)
 
 ## <a name="use-sample-queries"></a>샘플 쿼리 사용
 

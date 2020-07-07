@@ -17,12 +17,11 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 032368e35cdfc991df4c01643e49cee538549f39
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
-ms.translationtype: MT
+ms.openlocfilehash: 0cb275584acfc2ea0d2a2969694ee189f48a875d
+ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899366"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45046051"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>고급 헌팅 스키마 이해
 
@@ -31,10 +30,22 @@ ms.locfileid: "44899366"
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-[고급 헌팅](advanced-hunting-overview.md) 스키마는 이벤트 정보나 컴퓨터 및 엔터티에 대한 정보를 제공하는 여러 표로 구성됩니다. 여러 표를 포괄하는 쿼리를 효과적으로 작성하려면 고급 헌팅 스키마에서 표 및 열을 이해해야 합니다.
+[고급 구하기](advanced-hunting-overview.md) 스키마는 이벤트 정보나 장치, 경고, id 및 기타 엔터티 유형에 대 한 정보를 제공 하는 여러 테이블로 구성 됩니다. 여러 표를 포괄하는 쿼리를 효과적으로 작성하려면 고급 헌팅 스키마에서 표 및 열을 이해해야 합니다.
+
+## <a name="get-schema-information-in-the-security-center"></a>보안 센터에서 스키마 정보 가져오기
+쿼리를 구성 하는 동안 기본 제공 스키마 참조를 사용 하 여 스키마의 각 테이블에 대 한 다음 정보를 빠르게 확인할 수 있습니다.
+
+- **테이블 설명** — 테이블에 포함 된 데이터 형식 및 해당 데이터의 원본
+- **열** -테이블의 모든 열입니다.
+- **작업 유형** - `ActionType` 표에서 지원 되는 이벤트 유형을 나타내는 열의 가능한 값입니다. 이는 이벤트 정보가 포함 된 테이블에 대해서만 제공 됩니다.
+- **예제 쿼리** -테이블을 사용 하는 방법을 설명 하는 쿼리를 예로 들 수 있습니다.
+
+### <a name="access-the-schema-reference"></a>스키마 참조 액세스
+스키마 참조에 빠르게 액세스 하려면 스키마 표현의 테이블 이름 옆에 있는 **참조 보기** 작업을 선택 합니다. **스키마 참조** 를 선택 하 여 테이블을 검색할 수도 있습니다.   
+
+![포털에서 스키마 참조에 액세스 하는 방법을 보여 주는 이미지 ](../../media/mtp-ah/ah-reference.png) 
 
 ## <a name="schema-tables"></a>스키마 표
-
 다음 참조는 스키마에서 모든 표를 나열합니다. 각 표 이름은 해당 표의 열 이름을 설명하는 페이지에 연결됩니다. 표 및 열 이름은 고급 헌팅 화면에서 스키마 표현의 일부로 보안 센터에도 나열됩니다.
 
 | 테이블 이름 | 설명 |
@@ -47,7 +58,7 @@ ms.locfileid: "44899366"
 | **[DeviceFileEvents](advanced-hunting-devicefileevents-table.md)** | 파일 생성, 수정 및 기타 파일 시스템 이벤트 |
 | **[DeviceImageLoadEvents](advanced-hunting-deviceimageloadevents-table.md)** | DLL 로딩 이벤트 |
 | **[DeviceInfo](advanced-hunting-deviceinfo-table.md)** | 컴퓨터 정보(OS 정보 포함) |
-| **[DeviceLogonEvents](advanced-hunting-devicelogonevents-table.md)** | 로그인 및 기타 인증 이벤트 |
+| **[DeviceLogonEvents](advanced-hunting-devicelogonevents-table.md)** | 장치에 대 한 로그인 및 기타 인증 이벤트 |
 | **[DeviceNetworkEvents](advanced-hunting-devicenetworkevents-table.md)** | 네트워크 연결 및 관련 이벤트 |
 | **[DeviceNetworkInfo](advanced-hunting-devicenetworkinfo-table.md)** | 연결된 네트워크 및 도메인뿐만 아니라 어댑터, IP 및 MAC 주소를 비롯한 컴퓨터의 네트워크 속성 |
 | **[DeviceProcessEvents](advanced-hunting-deviceprocessevents-table.md)** | 프로세스 생성 및 관련 이벤트 |
@@ -61,7 +72,7 @@ ms.locfileid: "44899366"
 | **[EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** | Microsoft 365이 전자 메일을 받는 사람 사서함으로 배달 한 후 배달 후 발생 하는 보안 이벤트 |
 | **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | 전자 메일의 Url에 대 한 정보 |
 | **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | Azure Active Directory를 비롯 한 다양 한 원본의 계정 정보 |
-| **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | Active Directory 및 기타 Microsoft online services를 통해 기록 되는 인증 이벤트 |
+| **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | Active Directory 및 Microsoft online services의 인증 이벤트 |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Active Directory 개체에 대해 수행 되는 쿼리 작업 (예: 사용자, 그룹, 장치 및 도메인) |
 
 ## <a name="related-topics"></a>관련 항목

@@ -17,19 +17,18 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 17e12e9095219b7ad7923f7b5664946fff6ce724
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
-ms.translationtype: MT
+ms.openlocfilehash: 2116d8f6f1006f5acf9d468006fa07a04e13087b
+ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899378"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45046031"
 ---
 # <a name="identitylogonevents"></a>IdentityLogonEvents
 
 **적용 대상:**
 - Microsoft 위협 방지
 
-`IdentityLogonEvents` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 Azure Active Directory 및 기타 Microsoft 클라우드 앱 및 서비스에 의해 기록 되는 인증 작업에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+`IdentityLogonEvents` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 Azure ATP가 캡처한 온-프레미스 Active Directory를 통해 작성 된 인증 작업 및 Microsoft Cloud App Security에서 캡처한 microsoft online services와 관련 된 인증 작업에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 

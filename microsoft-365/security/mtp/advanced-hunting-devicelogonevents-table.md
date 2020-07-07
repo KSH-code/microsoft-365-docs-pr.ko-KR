@@ -17,12 +17,11 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 07b2c2301784f378075e3c9803cebc5bcabf9cb0
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
-ms.translationtype: MT
+ms.openlocfilehash: 67fa551fd7c2add815d5698a22b5eb3ae607f716
+ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899270"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45048282"
 ---
 # <a name="devicelogonevents"></a>DeviceLogonEvents
 
@@ -31,7 +30,7 @@ ms.locfileid: "44899270"
 
 
 
-`DeviceLogonEvents` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 사용자 로그온 및 기타 인증 이벤트에 대 한 정보가 포함 됩니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+`DeviceLogonEvents` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 사용자 로그온 및 장치에 대 한 기타 인증 이벤트에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 

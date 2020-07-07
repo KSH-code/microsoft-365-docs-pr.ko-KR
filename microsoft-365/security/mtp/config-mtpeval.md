@@ -15,12 +15,11 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 60d0383f3acae73c36383b65daaac405a4e20bd3
-ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
-ms.translationtype: MT
+ms.openlocfilehash: 8a435b220343bd0353f2e0ef85ddf856ebf3e8aa
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854367"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049943"
 ---
 # <a name="configure-microsoft-threat-protection-pillars-for-your-trial-lab-environment"></a>평가판 랩 환경용 Microsoft Threat Protection 핵심 요소로 구성
 
@@ -247,8 +246,9 @@ Microsoft Threat Protection은 핵심 요소로 4 개로 구성 됩니다. 한 �
 
 보다 포괄적인 지침을 보려면 [Microsoft Threat Protection 설정을](mtp-enable.md)참조 하십시오. 
 
-축하합니다! Microsoft Threat Protection 평가판 테스트 환경을 방금 만들었습니다. 이제 공격을 시뮬레이트하고 외적 기능에서 검색 하는 방법을 확인 하 고, 알림을 생성 하 고, 끝점에서 fileless 공격에 자동으로 응답할 수 있습니다.
+축하합니다! Microsoft Threat Protection 평가판 테스트 환경을 방금 만들었습니다. 이제 Microsoft Threat Protection 사용자 인터페이스를 이해 하는 데 도움이 될 수 있습니다. 일상적인 보안 작업을 위해 각 대시보드를 사용 하는 방법을 확인할 수 있는 방법을 확인 하 고 [Microsoft Threat Protection 대화형 가이드](https://aka.ms/MTP-Interactive-Guide)를 참조 하세요.
 
+다음으로, 공격을 시뮬레이트하고 상호 제품 기능 검색 방법, 알림을 만들고 끝점에 대 한 fileless 공격에 자동으로 대응 하는 방법을 확인할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [테스트 경고를 생성](generate-test-alert.md)합니다.

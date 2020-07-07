@@ -21,12 +21,11 @@ search.appverid:
 - GEA150
 ms.assetid: 28343f3a-dcee-41b6-9b97-5b0f4999b7ef
 description: Office 365의 전자 메일, 웹 사이트 및 계정에 대 한 고유한 도메인 사용을 시작 하세요. 도메인에 대해 알아보고 도메인을 변경 하 고, 전자 메일 및 웹 사이트를 통합 하 고, 도구 및 팁을 확인 하세요.
-ms.openlocfilehash: 1d3e7fb12f497d512693b8289f072106173356bb
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
-ms.translationtype: MT
+ms.openlocfilehash: 5586744707580bee18e179a35a5ffd042ebe7579
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399923"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049681"
 ---
 # <a name="get-help-with-office-365-domains"></a>Office 365 도메인에 대한 도움말 보기
 
@@ -158,7 +157,6 @@ ms.locfileid: "44399923"
                             <p><a href="information-for-dns-records.md">DNS 레코드를 만드는 데 필요한 정보 수집</a></p>
                             <p><a href="find-your-domain-registrar.md">도메인 등록 기관 찾기</a></p>
                             <p><a href="buy-a-domain-name.md">도메인 이름 구입</a></p>
-                            <p><a href="../setup/domains-faq.md#how-to-set-up-an-office-365-pilot">회사의 일부 사용자에 대해 사용자 지정 도메인으로 파일럿 설정</a></p>
                             <p><a href="domain-connect.md">Office 365에 GoDaddy 도메인을 빠르게 추가</a></p>
                             <p><a href="create-dns-records-at-any-dns-hosting-provider.md">Office 365 서비스에 대해 필요한 DNS 레코드 추가</a>에 대한 단계별 도움말 확인</p>
                             <p><a href="https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization">디렉터리 동기화를 위해 라우팅할 수 없는 도메인(예: .local 도메인)을 준비하는 방법</a></p>
@@ -208,8 +206,7 @@ ms.locfileid: "44399923"
                         <h3>변경</h3>
                             <p><a href="find-and-fix-issues.md">도메인 이름 또는 DNS 레코드를 변경한 후 문제 찾기 및 해결</a></p>
                             <p><a href="../dns/add-or-edit-custom-dns-records.md">Office 365에서 사용자 지정 DNS 레코드 추가 또는 편집</a></p>
-                            <p><a href="../setup/domains-faq.md#can-i-add-custom-subdomains-or-multiple-domains-to-office-365">Office 365에서 사용자 지정 하위 도메인 또는 여러 도메인 추가</a></p>
-                            <p><a href="../setup/domains-faq.md#how-do-i-change-how-my-dns-records-are-managed-in-office-365">Office 365에서 도메인의 DNS를 관리하는 방법 변경</a></p>
+                            <p><a href="../setup/domains-faq.md#can-i-add-custom-subdomains-or-multiple-domains-to-microsoft-365">Microsoft 365에서 사용자 지정 하위 도메인 또는 여러 도메인 추가</a></p>
                             <p><a href="remove-a-domain.md">도메인 제거</a></p>
                             <p><a href="https://docs.microsoft.com/office365/enterprise/office-365-integration">도메인을 사용하여 온-프레미스 전자 메일과 통합(예: 디렉터리 서비스 사용)</a></p>
                             <p><a href="../contact-support-for-business-products.md">추가 질문이 있으신가요? 지원 서비스에 문의 또는 지원 티켓 열기</a></p>

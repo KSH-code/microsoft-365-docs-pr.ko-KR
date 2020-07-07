@@ -23,12 +23,11 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: 조직에 대해 multi-factor authentication을 설정 하는 방법을 알아봅니다.
 monikerRange: o365-worldwide
-ms.openlocfilehash: a8e84746a577b95307d325047f0822e8eb3786f0
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
-ms.translationtype: MT
+ms.openlocfilehash: b0fd16fc74319c88a6f91bf56ac96346915c35ac
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44779944"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049763"
 ---
 # <a name="set-up-multi-factor-authentication"></a>다단계 인증 설정
   
@@ -40,10 +39,8 @@ ms.locfileid: "44779944"
 
 - AD FS (Active Directory Federation Services)와 타사 디렉터리 서비스를 사용 하는 경우에는 Azure MFA 서버를 설정 합니다. 자세한 내용은 [Azure Multi-factor Authentication 및 타사 VPN 솔루션의 고급 시나리오](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-nps-vpn) 를 참조 하세요.
 
-
 필요한 경우 다른 모든 사용자들은 추가 인증을 수행하라는 요청을 받습니다. 자세한 내용은 [2 단계 인증 방법 및 설정을](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-manage-settings#turn-on-two-factor-verification-prompts-on-a-trusted-device)참조 하세요.
 
-=======
 ## <a name="step-1-decide-on-the-method-of-requiring-your-users-to-use-mfa"></a>1 단계: 사용자에 게 MFA를 사용 하도록 요구 하는 방법 결정
 
 > [!NOTE]

@@ -22,12 +22,11 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Microsoft 365에서 비즈니스 평가판 또는 유료 구독을 취소 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: da9a86973c271fce8a9552cfc0ce1b287f7debc8
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
-ms.translationtype: MT
+ms.openlocfilehash: 746060596010fd80816e19dece093d91fe850c30
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45023372"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049751"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
 
@@ -132,7 +131,7 @@ ms.locfileid: "45023372"
 
 도메인을 설정할 때 NS 레코드를 전환 하지 않은 경우 MX 레코드를 변경 하면 메일이 바로 새 주소로 이동 됩니다.
 
-자세한 내용은 [How To Microsoft 365에서 내 DNS 레코드를 관리 하는 방법을](../../admin/setup/domains-faq.md#how-does-office-365-manage-my-dns-records)참조 하세요. NS 레코드를 변경 하려면 [도메인 제거](../../admin/get-help-with-domains/remove-a-domain.md)를 참조 하십시오.
+NS 레코드를 변경 하려면 [도메인 제거](../../admin/get-help-with-domains/remove-a-domain.md)를 참조 하십시오.
 
 ### <a name="save-your-data"></a>데이터 저장
 

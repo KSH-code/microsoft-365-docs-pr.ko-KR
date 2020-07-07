@@ -19,12 +19,11 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 6287e7c56f79b09a79c75d7e8b8273dbd5569057
-ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
-ms.translationtype: MT
+ms.openlocfilehash: 45bc42e825c55ca228b13e8d308f9a1384301d07
+ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45005893"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45048270"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Microsoft Threat Protection 미리 보기 기능
 
@@ -56,6 +55,8 @@ Microsoft Threat Protection 서비스는 새로운 기능 향상 및 기능을 �
 
 ## <a name="preview-features"></a>미리 보기 기능
 현재 미리 보기에서는 다음과 같은 기능을 사용할 수 있습니다.
+
+- **[포털에서 스키마 참조](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** -보안 센터에서 직접 사용할 수 있는 스키마 테이블에 대 한 정보입니다. 이 참조는 테이블 및 열 설명 외에도 지원 되는 이벤트 유형 ( `ActionType` 값) 및 예제 쿼리에 대 한 정보를 제공 합니다.  
 
 - **[Id 및 앱 테이블](advanced-hunting-schema-tables.md)** -고급 구하기 스키마에서 [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md), [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)및 [appfileevents](advanced-hunting-appfileevents-table.md) 테이블을 사용 하 여 인증 이벤트, Active Directory 쿼리 및 앱 관련 작업에 대 한 가시성을 가져옵니다.
 

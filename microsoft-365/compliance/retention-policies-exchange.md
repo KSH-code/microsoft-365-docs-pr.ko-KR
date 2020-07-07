@@ -17,12 +17,11 @@ search.appverid:
 - MOE150
 - MET150
 description: Exchange 전자 메일과 Exchange 공용 폴더에만 적용되는 보존 동작에 대해 알아봅니다.
-ms.openlocfilehash: 2ecf709c8b2bdd166cd64024ef332a2e0b26b7be
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
-ms.translationtype: HT
+ms.openlocfilehash: aa4142db2114b2b58cc391429f1389c6b9fad52d
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45016281"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049896"
 ---
 # <a name="learn-about-retention-policies-for-exchange"></a>Exchange의 보존 정책에 대해 자세히 알아보기
 
@@ -51,7 +50,7 @@ ms.locfileid: "45016281"
 ![전자 메일과 공용 폴더의 보존 흐름 다이어그램](../media/88f174cc-bbf4-4305-93d7-0515f496c8f9.png)
 
 1. 사용자가 보존 기간 내에 **항목을 수정하거나 영구적으로 삭제하면**(SHIFT+DELETE를 사용하거나 삭제된 항목에서 삭제하는 경우) 항목이 복구 가능한 항목 폴더로 이동(또는 편집한 경우 복사)됩니다. 여기에서 타이머 작업이 주기적으로 실행되며 보존 기간이 만료된 항목을 식별합니다. 식별된 항목은 보존 기간 종료일로부터 14일 이내에 영구적으로 삭제됩니다. 14일은 기본값이며, 최대 30일로 설정할 수 있습니다.
-    
+
 2. 보존 기간 내에 **항목이 수정되거나 삭제되지 않으면** 사서함의 모든 폴더에서 동일한 프로세스가 주기적으로 실행되며 보존 기간이 만료된 항목을 식별합니다. 식별된 항목은 보존 기간 종료일로부터 14일 이내에 영구적으로 삭제됩니다. 14일은 기본값이며, 최대 30일로 설정할 수 있습니다. 
 
 보존 설정이 보존 전용 또는 삭제 전용인 경우 컨텐츠 경로는 보존 및 삭제의 변형입니다.

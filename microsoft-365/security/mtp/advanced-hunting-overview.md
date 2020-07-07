@@ -18,12 +18,11 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3e8f83b943e83c37ecf13af1221c043d413bd6b5
-ms.sourcegitcommit: 8d9509e617ede7cc5ba933c54fb9300d2d1c6344
-ms.translationtype: MT
+ms.openlocfilehash: 48850c76176d79e4f90581bfbab804f4649998cc
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "44347834"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049635"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 고급 헌팅을 통한 위협에 대한 사전 대응
 
@@ -47,17 +46,13 @@ Microsoft 365 보안 센터에서 고급 구하기는 장치, 전자 메일, 앱
 | **언어에 대한 느낌을 받아보세요.** | 고급 헌팅은 [Kusto 쿼리 언어](https://docs.microsoft.com/azure/kusto/query/)을 기반으로 하며, 동일한 구문 및 연산자를 지원합니다. 첫 번째 쿼리를 실행하여 쿼리 언어 학습을 시작합니다. | [쿼리 언어 개요](advanced-hunting-query-language.md) |
 | **쿼리 결과 사용 방법 알아보기** | 결과를 보거나 내보낼 수 있는 다양 한 방법과 차트에 대해 알아봅니다. 쿼리를 신속 하 게 조정 하 고 드릴 다운 하 여 보다 다양 한 정보를 얻을 수 있는 방법을 알아봅니다. | [쿼리 결과 작업](advanced-hunting-query-results.md) |
 | **스키마의 이해** | 스키마와 해당 열에 있는 테이블에 대한 이해를 높이세요. 이는 데이터를 찾을 위치와 쿼리를 구성하는 방법을 결정하는 데 도움이 됩니다. | [스키마 참조](advanced-hunting-schema-tables.md) |
-| **미리 정의 된 쿼리 활용** | 다양한 위협 헌팅 시나리오를 다루는 미리 정의된 쿼리 모음을 탐색합니다. | [공유 쿼리 사용](advanced-hunting-shared-queries.md) |
+| **미리 정의 된 쿼리 활용** | 다양한 위협 헌팅 시나리오를 다루는 미리 정의된 쿼리 모음을 탐색합니다. | - [공유 쿼리 사용](advanced-hunting-shared-queries.md)<br>- [헌트](advanced-hunting-go-hunt.md) |
 | **쿼리 최적화** | 전자 메일 및 장치에서 데이터를 결합하는 효율적인 쿼리 및 쿼리를 만드는 방법에 대해 알아봅니다. | - [쿼리 모범 사례](advanced-hunting-shared-queries.md) <br>- [장치 및 전자 메일 간 헌트](advanced-hunting-best-practices.md) |
 | **사용자 지정 검색 규칙 만들기** | 고급 구하기 쿼리를 사용 하 여 알림을 트리거하고 응답 작업을 자동으로 적용 하는 방법을 이해 합니다. | - [사용자 지정 검색 개요](custom-detections-overview.md)<br>- [사용자 지정 검색 규칙](custom-detection-rules.md) |
 
 ## <a name="get-access"></a>액세스 권한
 고급 구하기 또는 기타 [Microsoft 위협 방지](microsoft-threat-protection.md) 기능을 사용 하려면 Azure AD에서 적절 한 역할을 할당 받아야 합니다. 끝점 데이터에 대 한 액세스는 Microsoft Defender ATP에서 역할 기반 액세스 제어 설정의 영향을 받습니다. [Microsoft Threat Protection 액세스 관리에 대해 자세히 알아봅니다.](mtp-permissions.md)
 
-## <a name="get-help-as-you-write-queries"></a>쿼리 작성시 도움말 보기
-다음 기능을 활용하여 쿼리를 더 빠르게 작성하세요.
-- **Autosuggest** -쿼리를 작성할 때 고급 사냥은 IntelliSense의 추천 단어를 제공 합니다. 
-- **스키마 참조** — 테이블 및 해당 열 목록이 포함된 스키마 참조가 작업 영역 옆에 제공됩니다. 자세한 내용을 보려면 항목 위로 마우스를 가져갑니다. 항목을 두 번 클릭하여 쿼리 편집기에 삽입합니다.
 
 ## <a name="related-topics"></a>관련 항목
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)

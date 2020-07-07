@@ -17,12 +17,11 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 0e51e52db4e569716954aada1c5cea35ddc6dd0a
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
-ms.translationtype: MT
+ms.openlocfilehash: b11daf1cc6921e4be87b1bd3965adc2d76d0a0dd
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528372"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049931"
 ---
 # <a name="microsoft-threat-protection"></a>Microsoft 위협 방지
 
@@ -45,6 +44,9 @@ Microsoft Threat Protection은 끝점, id, 전자 메일 및 응용 프로그램
 </table>
 <br>
 
+
+>[!TIP]
+>이 [Microsoft Threat Protection 대화형 가이드](https://aka.ms/MTP-Interactive-Guide)를 확인 하세요.
 
 
 Microsoft Threat Protection suite는 다음을 보호 합니다. 
@@ -77,7 +79,7 @@ Microsoft Threat Protection의 제품 간 기능은 다음과 같습니다.
 - **제품 간 위협 사냥** -보안 팀은 다양 한 보호 제품에서 수집한 원시 데이터에 대 한 고유한 사용자 지정 쿼리를 만들어 해당 조직의 고유한 정보를 활용 하 여 손상의 징후를 검색할 수 있습니다. Microsoft Threat Protection은 끝점 및 Office 365 ATP 데이터를 통해 30 일 동안 기록 된 원시 신호 및 경고 데이터에 대 한 쿼리 기반 액세스를 제공 합니다. 
 
 
-## <a name="get-started"></a>시작
+## <a name="get-started"></a>시작하기
 Microsoft Threat Protection 라이선스 요구 사항을 충족 해야 [security.microsoft.com](https://security.microsoft.com)의 microsoft 365 보안 센터에서 서비스를 사용 하도록 설정할 수 있습니다. 자세한 내용은 다음을 참조 하세요.
 - [라이선스 요구 사항](prerequisites.md#licensing-requirements)
 - [Microsoft 위협 방지 설정](mtp-enable.md)

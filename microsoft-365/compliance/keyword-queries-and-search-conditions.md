@@ -22,12 +22,11 @@ ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 보안 & 준수 센터에서 검색할 수 있는 전자 메일 및 파일 속성에 대해 알아봅니다.
-ms.openlocfilehash: 9fa68257519860311ffe330eed23bd95468856c4
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
-ms.translationtype: MT
+ms.openlocfilehash: 89d3f0c25694f8f3c89fbc27ee857c58cc5937fd
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817517"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049806"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건
 
@@ -87,7 +86,7 @@ ms.locfileid: "44817517"
 |:-----|:-----|:-----|:-----|
 |만든 이|문서를 복사하는 경우 유지되는 Office 문서의 만든 이 필드입니다. 예를 들어 사용자가 문서를 만들고이를 다른 사람에 게 전자 메일로 업로드 한 경우이 문서는 원래 작성자를 계속 유지 합니다. 이 속성에는 사용자의 표시 이름을 사용 해야 합니다.|`author:"Garth Fort"`|Garth Fort가 만든 모든 문서입니다.|
 |ContentType|항목, 문서, 비디오 등의 SharePoint 콘텐츠 형식입니다.|`contenttype:document`|모든 문서가 반환됩니다.|
-|만든 날짜|항목을 만든 날짜입니다.|`created\>=06/01/2016`|2016 년 6 월 1 일 이후에 만들어진 모든 항목입니다.|
+|만든 날짜|항목을 만든 날짜입니다.|`created>=06/01/2016`|2016 년 6 월 1 일 이후에 만들어진 모든 항목입니다.|
 |CreatedBy|항목을 만들었거나 업로드한 사람입니다. 이 속성에는 사용자의 표시 이름을 사용 해야 합니다.|`createdby:"Garth Fort"`|Garth Fort가 만들었거나 업로드한 모든 항목입니다.|
 |DetectedLanguage|항목의 언어입니다.|`detectedlanguage:english`|영어로된 모든 항목입니다.|
 |DocumentLink|SharePoint 또는 비즈니스용 OneDrive 사이트에 있는 특정 폴더의 경로 (URL)입니다. 이 속성을 사용 하는 경우에는 지정한 폴더가 있는 사이트를 검색 해야 합니다.  <br/> Documentlink 속성에 대해 지정한 폴더의 하위 폴더에 있는 항목을 반환 하려면 지정 된 폴더의 URL을 추가/제거 해야 합니다 ( \* 예:`documentlink: "https://contoso.sharepoint.com/Shared Documents/*"`  <br/> <br/>Documentlink 속성을 검색 하 고 스크립트를 사용 하 여 특정 사이트의 폴더에 대 한 documentlink Url을 가져오는 방법에 대 한 자세한 내용은 using [Content Search for collections](use-content-search-for-targeted-collections.md)to를 참조 하십시오.|`documentlink:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/Documents/Private"`  <br/> `documentlink:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/Documents/Shared with Everyone/*" AND filename:confidential`|첫 번째 예에서는 지정 된 비즈니스용 OneDrive 폴더에 있는 모든 항목을 반환 합니다. 두 번째 예에서는 파일 이름에 "기밀" 이라는 단어가 포함 된 지정 된 사이트 폴더 및 모든 하위 폴더의 문서를 반환 합니다.|

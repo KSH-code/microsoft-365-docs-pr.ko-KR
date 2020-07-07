@@ -22,12 +22,11 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: 도메인 관리에 도움이 되는 도메인 및 관련 DNS 레코드에 대해 알아봅니다.
-ms.openlocfilehash: c9fee3488f7de3c0cc4b93be15ff49bd01469495
-ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
-ms.translationtype: HT
+ms.openlocfilehash: 2fc581968a4cec3c6e9b5c51f717a8cfa78cd6a3
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "45035612"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049657"
 ---
 # <a name="dns-basics"></a>DNS 기본 사항
 
@@ -143,10 +142,6 @@ Microsoft 365에서 이러한 모든 설정이 제대로 작동하기 위해 입
 도메인 영역 파일이 도메인 등록 기관 이외의 다른 곳에 있을 수 있는 이유는 무엇인가요? HiChina와 같은 도메인 등록 기관에 도메인 이름을 등록할 수 있지만, DNS 레코드는 별도의 DNS 호스팅 회사나 웹 호스팅 회사 등 다른 곳에서 관리될 수 있습니다. 도메인의 NS 레코드는 해당 정보를 저장하므로 모든 DNS 서버가 검색할 위치를 알 수 있습니다.
 
 ::: moniker-end
-
-> [!NOTE]
-> [Microsoft에서 사용자의 DNS 레코드를 설정하고 관리](../setup/domains-faq.md#how-does-office-365-manage-my-dns-records)하도록 Microsoft 365에서 도메인을 설정하는 경우, 설정 과정에서 [DNS 관리를 Microsoft 365로 변경](../setup/domains-faq.md#change-dns-management-to-office-365)합니다. 
- 
 
 ::: moniker range="o365-worldwide"
 ## <a name="why-add-a-domain-in-office-365"></a>Office 365에서 도메인을 추가해야 하는 이유
