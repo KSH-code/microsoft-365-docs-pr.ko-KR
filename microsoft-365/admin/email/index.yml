@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: 전자 메일 및 일정 관리
-summary: 일반 작업을 관리 하는 데 도움이 되는 다음 리소스를 확인 하거나, 전체 목록에 대해서는 왼쪽의 탐색 창을 참조 하세요.
+summary: 이러한 리소스를 확인하여 일반적인 작업을 수행하는 관리자를 돕거나 왼쪽의 탐색 창에서 전체 목록을 확인
 metadata:
   title: 전자 메일 및 일정 관리
-  description: 전자 메일 설정, 메일 그룹, 보안 설정 및 공유 사서함 설정 관리
+  description: 전자 메일 설정, 배포 그룹, 보안 설정을 관리하고 공유 편지함 설정
   ms.service: O365-administration
   ms.topic: landing-page
   author: sirkkuw
@@ -13,7 +13,7 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: c35874ec774b0e8753b0bfacb2dd795a4f000188
   ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ko-KR
   ms.lasthandoff: 06/17/2020
   ms.locfileid: "44780220"
@@ -34,7 +34,7 @@ landingContent:
       url: change-email-address.md
     - text: 전자 메일 전달 설정
       url: configure-email-forwarding.md
-    - text: 보안 그룹에 대 한 작업
+    - text: 보안 그룹 관련 작업
       url: create-edit-or-delete-a-security-group.md
     - text: Microsoft 365로 전자 메일 및 연락처 마이그레이션
       url: ../setup/migrate-email-and-contacts-admin.md
@@ -54,21 +54,21 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Outlook에서 일정 및 연락처 관리
+    - text: Outlook 에서 일정 및 연락처 관리
       url: https://support.microsoft.com/office/631a182a-21e0-4e41-8fa2-0d83e55da02d
   - linkListType: video
     links:
     - text: 공유 일정 만들기
       url: https://support.microsoft.com/office/8385667b-d758-4489-a53f-f542dd01e6ff
-- title: 전자 메일 연결 및 배달 문제 해결
+- title: 전자 메일 연결 및 전달 문제 해결
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: 전자 메일 전송 문제 찾기 및 해결
+    - text: 전자 메일 전달 문제 찾기 및 수정
       url: https://docs.microsoft.com/exchange/troubleshoot/mail-delivery/email-delivery-issues
     - text: 도메인 또는 DNS 레코드를 추가한 후 문제 해결 및 찾기
       url: ../get-help-with-domains/find-and-fix-issues.md
-    - text: 사용자 사서함에서 삭제 된 전자 메일 복구
+    - text: 사용자 편지함에서 삭제된 전자 메일 복구
       url: https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox
     - text: Microsoft 365 및 Exchange Online의 Outlook 연결 문제 해결
       url: https://support.microsoft.com/office/e90bb691-c2a7-4697-a94f-88836856c72f
