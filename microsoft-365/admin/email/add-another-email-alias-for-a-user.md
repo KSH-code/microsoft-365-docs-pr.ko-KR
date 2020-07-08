@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Microsoft 365 for business 계정에 연결 된 전자 메일 주소를 두 개 이상 사용할 수 있는 방법을 알아봅니다. '
-ms.openlocfilehash: c0e71ef150ccf592ea4f808a5e6609e1675767a4
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 030d8022a8503f6b383d03b0dd97720f66d8f2f6
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780292"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080018"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>사용자의 다른 전자 메일 별칭 추가
 
@@ -73,12 +73,12 @@ Microsoft 365의 기본 전자 메일 주소는 일반적으로 계정을 만들
     > GoDaddy 또는 다른 파트너로부터 구독을 구입한 경우 새 별칭을 기본으로 설정하려면 GoDaddy/파트너 관리 콘솔로 이동해야 합니다. 
   
     > [!TIP]
-    > 전자 메일 별칭은 드롭다운 목록의 도메인으로 끝나야 합니다. 목록에 다른 도메인 이름을 추가 하려면 [add a domain To Office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)을 참조 하십시오. 
+    > 전자 메일 별칭은 드롭다운 목록의 도메인으로 끝나야 합니다. 목록에 다른 도메인 이름을 추가 하려면 [add a domain To Microsoft 365을](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)참조 하십시오. 
   
      
 5. 작업을 마치면 **변경 내용 저장**을 선택 합니다.
     
-6. Office 365 전체를 새 별칭으로 채울 때까지 24시간을 기다립니다.
+6. Microsoft 365 전반에 새 별칭이 채워 되도록 24 시간을 기다립니다.
     
     이제 사용자에 게 기본 주소와 별칭이 표시 됩니다. 예를 들어 메일이 지 민의 Hoffman의 기본 주소, Eliza@NodPublishers.com 및 별칭, Sales@NodPublishers.com 등으로 전송 되는 모든 메일은 메일이 지 민의의 받은 편지 함으로 이동 합니다.
     
@@ -99,17 +99,17 @@ Microsoft 365의 기본 전자 메일 주소는 일반적으로 계정을 만들
     > [!Important] 
     > "**매개 변수 이름 ' EmailAddresses와 일치 하는 매개 변수를 찾을 수 없습니다**." 라는 오류 메시지가 표시 되 면 테 넌 트 설정을 완료 하는 데 약간 시간이 걸리고, 최근에 추가한 경우 사용자 지정 도메인을 사용 하는 것입니다. 설정 프로세스를 완료하는 데 최대 4시간이 걸릴 수 있습니다. 설정 프로세스가 완료될 때까지 기다린 후 다시 시도하세요. 문제가 계속되는 경우 고객 지원에 문의하면 전체 동기화를 수행해 드립니다.
 
-4. **별칭**아래의 텍스트 상자에 새 전자 메일 별칭의 첫 부분을 입력 합니다. Office 365에 고유 도메인을 추가한 경우 드롭다운 목록을 사용하여 새 전자 메일의 도메인을 선택할 수 있습니다. 그런 다음 **추가**를 선택합니다.
+4. **별칭**아래의 텍스트 상자에 새 전자 메일 별칭의 첫 부분을 입력 합니다. Microsoft 365에 자체 도메인을 추가한 경우 드롭다운 목록을 사용 하 여 새 전자 메일 별칭의 도메인을 선택할 수 있습니다. 그런 다음 **추가**를 선택합니다.
 
     > [!IMPORTANT]
     > GoDaddy 또는 다른 파트너로부터 구독을 구입한 경우 새 별칭을 기본으로 설정하려면 GoDaddy/파트너 관리 콘솔로 이동해야 합니다. 
   
     > [!TIP]
-    > 전자 메일 별칭은 드롭다운 목록의 도메인으로 끝나야 합니다. 목록에 다른 도메인 이름을 추가 하려면 [add a domain To Office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)을 참조 하십시오. 
+    > 전자 메일 별칭은 드롭다운 목록의 도메인으로 끝나야 합니다. 목록에 다른 도메인 이름을 추가 하려면 [add a domain To Microsoft 365을](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)참조 하십시오. 
 
-5. 작업을 마치면 **Save (저장**)를 선택 합니다.
+5. 작업을 마치면 **저장**을 선택합니다.
 
-6. Office 365 전체를 새 별칭으로 채울 때까지 24시간을 기다립니다. 
+6. Microsoft 365 전반에 새 별칭이 채워 되도록 24 시간을 기다립니다. 
     
     이제 사용자에 게 기본 주소와 별칭이 표시 됩니다. 예를 들어 메일이 지 민의 Hoffman의 기본 주소, Eliza@NodPublishers.com 및 별칭, Sales@NodPublishers.com 등으로 전송 되는 모든 메일은 메일이 지 민의의 받은 편지 함으로 이동 합니다.
     
@@ -130,17 +130,17 @@ Microsoft 365의 기본 전자 메일 주소는 일반적으로 계정을 만들
     > [!Important] 
     > "**매개 변수 이름 ' EmailAddresses와 일치 하는 매개 변수를 찾을 수 없습니다**." 라는 오류 메시지가 표시 되 면 테 넌 트 설정을 완료 하는 데 약간 시간이 걸리고, 최근에 추가한 경우 사용자 지정 도메인을 사용 하는 것입니다. 설정 프로세스를 완료하는 데 최대 4시간이 걸릴 수 있습니다. 설정 프로세스가 완료될 때까지 기다린 후 다시 시도하세요. 문제가 계속되는 경우 고객 지원에 문의하면 전체 동기화를 수행해 드립니다.
 
-4. **별칭**아래의 텍스트 상자에 새 전자 메일 별칭의 첫 부분을 입력 합니다. Office 365에 고유 도메인을 추가한 경우 드롭다운 목록을 사용하여 새 전자 메일의 도메인을 선택할 수 있습니다. 그런 다음 **추가**를 선택합니다.
+4. **별칭**아래의 텍스트 상자에 새 전자 메일 별칭의 첫 부분을 입력 합니다. Microsoft 365에 자체 도메인을 추가한 경우 드롭다운 목록을 사용 하 여 새 전자 메일 별칭의 도메인을 선택할 수 있습니다. 그런 다음 **추가**를 선택합니다.
 
     > [!IMPORTANT]
     > GoDaddy 또는 다른 파트너로부터 구독을 구입한 경우 새 별칭을 기본으로 설정하려면 GoDaddy/파트너 관리 콘솔로 이동해야 합니다. 
   
     > [!TIP]
-    > 전자 메일 별칭은 드롭다운 목록의 도메인으로 끝나야 합니다. 목록에 다른 도메인 이름을 추가 하려면 [add a domain To Office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)을 참조 하십시오. 
+    > 전자 메일 별칭은 드롭다운 목록의 도메인으로 끝나야 합니다. 목록에 다른 도메인 이름을 추가 하려면 [add a domain To Microsoft 365을](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)참조 하십시오. 
 
-5. 작업을 마치면 **Save (저장**)를 선택 합니다.
+5. 작업을 마치면 **저장**을 선택합니다.
 
-6. Office 365 전체를 새 별칭으로 채울 때까지 24시간을 기다립니다. 
+6. Microsoft 365 전반에 새 별칭이 채워 되도록 24 시간을 기다립니다. 
     
     이제 사용자에 게 기본 주소와 별칭이 표시 됩니다. 예를 들어 메일이 지 민의 Hoffman의 기본 주소, Eliza@NodPublishers.com 및 별칭, Sales@NodPublishers.com 등으로 전송 되는 모든 메일은 메일이 지 민의의 받은 편지 함으로 이동 합니다.
     

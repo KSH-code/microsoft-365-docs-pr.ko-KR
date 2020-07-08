@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Outlook을 사용 하 여 암호화 된 전자 메일을 보내는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5318fbe045c909e3b7f81d195a8e6b4d5eb96dc1
-ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
+ms.openlocfilehash: b9d5d32b61c49dcffaab83fb13e46d32f2166552
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44322150"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080030"
 ---
 # <a name="encrypt-or-label-your-sensitive-email"></a>중요 한 전자 메일 암호화 또는 레이블 지정
 
@@ -52,7 +52,7 @@ ms.locfileid: "44322150"
 
 ## <a name="admin-settings"></a>관리 설정
 
-전자 메일 암호화 설정에 대 한 자세한 내용은 [Office 365의 전자 메일 암호화](https://docs.microsoft.com/microsoft-365/compliance/email-encryption)를 통해 확인할 수 있습니다.
+전자 메일 암호화 설정에 대 한 자세한 내용은 [Microsoft 365의 전자 메일 암호화](https://docs.microsoft.com/microsoft-365/compliance/email-encryption)를 통해 확인할 수 있습니다.
 
 ### <a name="automatically-encrypt-email-messages"></a>자동으로 전자 메일 메시지 암호화
 
@@ -60,11 +60,11 @@ ms.locfileid: "44322150"
 
 메일 흐름 규칙을 만들어 새 Office 365 메시지 암호화 (OME) 기능을 사용 하 여 전자 메일 메시지를 암호화 합니다. EAC (Exchange 관리 센터)를 사용 하 여 새 OME 기능으로 메시지 암호화를 트리거하는 메일 흐름 규칙을 정의 합니다. 
 
-1. 웹 브라우저에서 전역 관리자 권한이 부여 된 회사 또는 학교 계정을 사용 하 여 Office 365에 로그인 합니다. 
+1. 웹 브라우저에서 전역 관리자 권한이 부여 된 회사 또는 학교 계정을 사용 하 여 로그인 합니다. 
 2. 관리 타일을 선택 합니다. 
 3. 관리 센터에서 **관리 센터 > Exchange**를 선택 합니다. 
 
-자세한 내용은 [Office 365에서 전자 메일 메시지를 암호화 하는 메일 흐름 규칙 정의](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)를 참조 하세요.
+자세한 내용은 메일 [흐름 규칙 정의를 참조 하 여 전자 메일 메시지를 암호화](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)합니다.
 
 ### <a name="brand-your-encryption-messages"></a>암호화 메시지 브랜드
 

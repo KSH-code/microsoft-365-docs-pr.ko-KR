@@ -1,5 +1,5 @@
 ---
-title: Office 365에 도메인 추가
+title: Microsoft 365에 도메인 추가
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -25,13 +25,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
-description: DNS 호스트에서 DNS 레코드를 추가 하 여 Microsoft 365 관리 센터에서 Office 365에 도메인을 추가 합니다. 설치 마법사가 프로세스를 안내 합니다.
-ms.openlocfilehash: b5ad21174c0a2ebb3466072ef43fb1ba284d3b59
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: DNS 호스트에서 DNS 레코드를 추가 하 여 Microsoft 365 관리 센터에서 Microsoft 365에 도메인을 추가 합니다. 설치 마법사가 프로세스를 안내 합니다.
+ms.openlocfilehash: ccebd7dd5e78663b7fd1d5318b17dfbc09bd8fb0
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398993"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079728"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Microsoft 365에 도메인 추가
 
@@ -94,7 +94,7 @@ ms.locfileid: "44398993"
     1. Office에서 DNS를 자동으로 구성 하도록 하려면 **dns 레코드 추가** 를 선택 합니다. 
     
   
-    2. 특정 Office 365 서비스만 도메인에 연결 하거나 지금 건너뛰고 나중에이 작업을 수행 하려는 경우에 **는 직접 DNS 레코드를 추가** 합니다 .를 선택 합니다. **무엇을 할지 정확히 아는 경우에만 이 옵션을 선택하세요.**
+    2. 특정 Microsoft 365 서비스만 도메인에 연결 하거나 지금이를 건너뛰고 나중에이 작업을 수행 하려는 경우에 **는 직접 DNS 레코드를 추가** 합니다 .를 선택 합니다. **무엇을 할지 정확히 아는 경우에만 이 옵션을 선택하세요.**
     
 7. *DNS 레코드를 직접 추가* 하도록 선택한 경우에는 **다음** 을 선택 하 고 도메인을 설정 하기 위해 등록 기관 웹 사이트에 추가 해야 하는 모든 레코드가 포함 된 페이지를 볼 수 있습니다. 
     
@@ -149,7 +149,7 @@ ms.locfileid: "44398993"
 
 ### <a name="what-happens-to-my-email-and-website"></a>전자 메일 및 웹 사이트는 어떻게 되나요?
 
-설치를 마친 후에는 도메인에 대 한 MX 레코드가 Microsoft 365를 가리키도록 업데이트 되 고 도메인의 모든 전자 메일이 Microsoft 365로 시작 됩니다. 해당 도메인에서 전자 메일을 받는 모든 사용자에 대해 Office 365에서 사용자를 추가하고 사서함을 설정했는지 확인합니다.
+설치를 마친 후에는 도메인에 대 한 MX 레코드가 Microsoft 365를 가리키도록 업데이트 되 고 도메인의 모든 전자 메일이 Microsoft 365로 시작 됩니다. 도메인에 전자 메일을 보내는 모든 사용자에 대해 사용자를 추가 하 고 Microsoft 365에 사서함을 설정 했는지 확인 합니다.
   
 업무에 사용하는 웹 사이트가 있는 경우 어디에 있든 작동이 유지됩니다. 도메인 연결 설정 단계는 웹 사이트에 영향을 주지 않습니다.
 
@@ -159,7 +159,7 @@ ms.locfileid: "44398993"
 
 [도메인이 무엇인가요?](../get-help-with-domains/what-is-a-domain.md)
 
-[Office 365에서 도메인 이름 구입](../get-help-with-domains/buy-a-domain-name.md)
+[Microsoft 365에서 도메인 이름 구입하기](../get-help-with-domains/buy-a-domain-name.md)
 
 [도메인 설정(호스트별 지침)](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md)
 

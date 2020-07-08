@@ -1,5 +1,5 @@
 ---
-title: 도메인 사용자를 Microsoft 365에 동기화
+title: 도메인 사용자를 Microsoft 365와 동기화
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -23,18 +23,18 @@ search.appverid:
 - MET150
 - MOE150
 description: 도메인 제어 사용자를 비즈니스용 Microsoft 365와 동기화 합니다.
-ms.openlocfilehash: a22e567fa99456b35742fcf40c07193c96c83cf0
-ms.sourcegitcommit: e6e704cbd9a50fc7db1e6a0cf5d3f8c6cbb94363
+ms.openlocfilehash: af9cb7c9b2b639edc2375679a73ab41c4cf6de71
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44565690"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080062"
 ---
-# <a name="synchronize-domain-users-to-microsoft-365"></a>도메인 사용자를 Microsoft 365에 동기화
+# <a name="synchronize-domain-users-to-microsoft-365"></a>도메인 사용자를 Microsoft 365와 동기화
 
 ## <a name="1-prepare-for-directory-synchronization"></a>1. 디렉터리 동기화 준비 
 
-로컬 Active Directory 도메인에서 사용자 및 컴퓨터를 동기화 하기 전에 [Office 365에 대 한 디렉터리 동기화 준비](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization)를 검토 합니다. 특히 다음을 수행 합니다.
+로컬 Active Directory 도메인에서 사용자 및 컴퓨터를 동기화 하기 전에 [디렉터리 동기화를 Microsoft 365에 대해 준비](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization)를 검토 합니다. 특히 다음을 수행 합니다.
 
    - 디렉터리에 **mail**, **proxyAddresses**및 **userPrincipalName**특성에 대 한 중복이 없는지 확인 합니다. 이러한 값은 고유 해야 하며 모든 중복 항목을 제거 해야 합니다.
    
@@ -59,7 +59,7 @@ ms.locfileid: "44565690"
  5. 마법사의 단계에 따라 Azure AD Connect를 다운로드 하 고이를 사용 하 여 도메인 제어 사용자를 Microsoft 365와 동기화 합니다.
 
 
-자세한 내용은 [Office 365에 대 한 디렉터리 동기화 설정](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) 를 참조 하세요.
+자세한 내용은 [Microsoft 365에 대 한 디렉터리 동기화 설정](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) 를 참조 하세요.
 
 Azure AD Connect에 대 한 옵션을 구성 하는 경우 **암호 동기화**, **원활한 Single sign-on**및 **암호 쓰기 저장** 기능을 사용 하도록 설정 하는 것이 좋습니다 (비즈니스용 Microsoft 365 에서도 지원 됨).
 

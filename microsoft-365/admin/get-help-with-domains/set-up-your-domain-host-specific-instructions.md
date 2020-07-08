@@ -23,23 +23,23 @@ search.appverid:
 - GEA150
 ms.assetid: ae950c9e-e8d9-4108-b0cb-449156998580
 description: 자체 DNS 레코드를 관리 하는 방법 또는 Microsoft에서 DNS 레코드를 관리 하도록 하는 방법을 알아봅니다.
-ms.openlocfilehash: 1b82fd40556b1bf828f9f367aa1175f21723cc8c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: ac026ce0dba4eefff2c837da71c18b08aca12ea6
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399887"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079776"
 ---
 # <a name="set-up-your-domain-host-specific-instructions"></a>도메인 설정(호스트별 지침)
 
-Office 365에서 사용자 지정 도메인 (contoso.com)을 사용 하기 시작 하려면 도메인을 확인 하 고 도메인의 DNS 레코드를 구성 해야 합니다. 
+Microsoft 365에서 사용자 지정 도메인 (contoso.com)을 사용 하기 시작 하려면 도메인을 확인 하 고 도메인의 DNS 레코드를 구성 해야 합니다. 
   
 도메인 호스트에서 관리 도구를 사용 하 여 DNS 레코드를 추가 및 관리할 수 있으며, 도메인 레코드에 대 한 제어 권한을 부여 하 고 사용자를 위해이를 설정 합니다.
   
 정확한 단계를 보려면 아래에서 도메인 호스트를 선택 하십시오. 호스트를 잘 모르는 경우 [domain 등록자 찾기를](find-your-domain-registrar.md)참조 하세요.
   
 
-## <a name="let-office-365-manage-your-dns-records"></a>Office 365에서 DNS 레코드를 관리 하도록 허용
+## <a name="let-microsoft-365-manage-your-dns-records"></a>Microsoft 365에서 DNS 레코드를 관리 하도록 허용
 
 ||
 |---|---|
@@ -52,7 +52,7 @@ Office 365에서 사용자 지정 도메인 (contoso.com)을 사용 하기 시�
 |[Namecheap](../dns/change-nameservers-at-namecheap.md)|
 |[Network Solutions](../dns/change-nameservers-at-network-solutions.md) |  
 
-아니면 [도메인 등록 기관에서 이름 서버를 변경 하 여 Office 365을 설정](change-nameservers-at-any-domain-registrar.md)하는 방법을 알아보세요.
+또는 이름 서버를 변경 하 여 [도메인 등록 기관에 Microsoft 365을 설정](change-nameservers-at-any-domain-registrar.md)하는 방법을 알아보세요.
 
 ## <a name="manage-your-own-dns-records"></a>자체 DNS 레코드 관리
 
@@ -68,7 +68,7 @@ Office 365에서 사용자 지정 도메인 (contoso.com)을 사용 하기 시�
 |[DNSMadeEasy](../dns/create-dns-records-at-dnsmadeeasy.md) | [네트워크 솔루션](../dns/create-dns-records-at-network-solutions.md) |
 |[Dreamhost](../dns/create-dns-records-at-dreamhost.md)  | [OVH](../dns/create-dns-records-at-ovh.md) |
 |  [Dyn.com](../dns/create-dns-records-at-dyn-com.md) | [Register.com](../dns/create-dns-records-at-register-com.md) |
-| [eNomCentral](../dns/create-dns-records-at-enomcentral.md)| [R 365 for Office 365](../dns/create-dns-records-at-register365.md)  |
+| [eNomCentral](../dns/create-dns-records-at-enomcentral.md)| [Microsoft 365 용 r 365](../dns/create-dns-records-at-register365.md)  |
 | [Freenom](../dns/create-dns-records-at-freenom.md) | [web.com](../dns/create-dns-records-at-web-com.md)|
 |[GoDaddy](../dns/create-dns-records-at-godaddy.md)|[Windows 기반 DNS](../dns/create-dns-records-using-windows-based-dns.md)   |
 | [Google 도메인](../dns/create-dns-records-at-google-domains.md) |[Wix](../dns/create-dns-records-at-wix.md) |

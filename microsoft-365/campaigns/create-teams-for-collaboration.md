@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 팀과 함께 팀을 위한 공동 작업 공간을 확보 합니다.
-ms.openlocfilehash: a89d7a87a18431dfef72c6f7ca4d6c7fbce21f7c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c5c484b2787bf3e819a723a3b5648106dcf75602
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635651"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079788"
 ---
 # <a name="create-teams-for-collaboration-in-microsoft-teams"></a>Microsoft 팀에서 공동 작업을 위한 팀 만들기
 
@@ -85,5 +85,5 @@ Microsoft 팀의 Microsoft 팀 [기술 설명서](https://docs.microsoft.com/mic
 
 ## <a name="admin-settings"></a>관리 설정
 
-조직 차원의 팀을 만들려면 관리자 여야 합니다. 자세한 내용은 [Office 365의 관리자 란?](https://support.office.com/article/what-is-an-admin-e123627e-4892-4461-b9aa-1b6d57a5cfa4?ui=en-US&rs=en-US&ad=US)를 참조 하세요.
+조직 차원의 팀을 만들려면 관리자 여야 합니다. 자세한 내용은 [Microsoft 365의 관리자 란?](https://support.office.com/article/what-is-an-admin-e123627e-4892-4461-b9aa-1b6d57a5cfa4?ui=en-US&rs=en-US&ad=US)를 참조 하세요.
   

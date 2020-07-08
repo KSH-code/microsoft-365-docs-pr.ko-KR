@@ -24,11 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: 도메인에 대 한 자세한 내용은 질문과 대답을 확인 하세요.
-ms.openlocfilehash: 093125d1652355fbd9b624e1f15b5858fd586301
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: c588586ddd3d57fdbe78d7751131f61e6aa53eba
+ms.sourcegitcommit: dc5de2064706137256307f100b8dc61e9797bd1c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049739"
+ms.locfileid: "45068106"
 ---
 # <a name="domains-faq"></a>도메인 FAQ
 
@@ -45,15 +46,15 @@ ms.locfileid: "45049739"
 
 이 문서의 내용
 
-[MX 우선 순위는 무엇입니까?](#what-is-mx-priority) 
- [내 도메인에 대 한 SPF 레코드를 확인 하려면 어떻게 하나요?](#how-can-i-validate-spf-records-for-my-domain) 
- [도메인 이름 이란?](#what-is-a-domain-name) 
- [DNS 공급자가 특정 레코드 종류를 지원 하지 않으면 어떻게 되나요?](#what-happens-if-my-dns-provider-doesnt-support-certain-record-types) 
- [Microsoft 365에서 기본 도메인을 설정 하거나 변경 하려면 어떻게 하나요?](#how-do-i-set-or-change-the-default-domain-in-microsoft-365) 
- [사용자 지정 하위 도메인 또는 여러 도메인을 Microsoft 365에 추가할 수 있나요?](#can-i-add-custom-subdomains-or-multiple-domains-to-microsoft-365) 
- ["Onmicrosoft.com" 도메인을 보유 하는 이유는 무엇 인가요?](#why-do-i-have-an-onmicrosoftcom-domain) 
- ["Onmicrosoft.de" 도메인을 보유 하는 이유는 무엇 인가요?](#why-do-i-have-an-onmicrosoftde-domain) 
- [비영리 또는 학력 상태를 확인 하려면 어떻게 해야 하나요?](#how-do-i-verify-my-nonprofit-or-education-status)
+- [MX 우선 순위란?](#what-is-mx-priority)
+- [내 도메인에 대 한 SPF 레코드를 확인 하려면 어떻게 하나요?](#how-can-i-validate-spf-records-for-my-domain)
+- [도메인 이름 이란?](#what-is-a-domain-name)
+- [DNS 공급자가 특정 레코드 종류를 지원 하지 않으면 어떻게 되나요?](#what-happens-if-my-dns-provider-doesnt-support-certain-record-types)
+- [Microsoft 365에서 기본 도메인을 설정 하거나 변경 하려면 어떻게 하나요?](#how-do-i-set-or-change-the-default-domain-in-microsoft-365)
+- [사용자 지정 하위 도메인 또는 여러 도메인을 Microsoft 365에 추가할 수 있나요?](#can-i-add-custom-subdomains-or-multiple-domains-to-microsoft-365)
+- ["Onmicrosoft.com" 도메인을 보유 하는 이유는 무엇 인가요?](#why-do-i-have-an-onmicrosoftcom-domain)
+- ["Onmicrosoft.de" 도메인을 보유 하는 이유는 무엇 인가요?](#why-do-i-have-an-onmicrosoftde-domain)
+- [비영리 또는 학력 상태를 확인 하려면 어떻게 해야 하나요?](#how-do-i-verify-my-nonprofit-or-education-status)
     
 ## <a name="what-is-mx-priority"></a>MX 우선 순위란?
 

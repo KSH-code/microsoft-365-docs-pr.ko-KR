@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: 중국의 안전 하 고 안정적 이며 확장 가능한 클라우드 서비스에 대 한 요구를 충족 하도록 설계 된 21Vianet에서 운영 하는 Office 365에 대해 자세히 알아봅니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 7c8459c8c3da67ac4cc80ac2912e368f23cd8e10
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 133df44635927d185e72c7981953e07162d458a9
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44779920"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079740"
 ---
 # <a name="office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365
 
@@ -57,7 +57,7 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
 |:-----|:-----|
 |사용자 지정 도메인  <br/> |관리자는 중국어 (번체) 도메인 공급자를 통해 등록 된 사용자 지정 도메인을 만들거나 사용할 수 있습니다. 사용자 지정 도메인이 없는 경우 도메인 이름 등록 기관에서 [도메인 이름을 구입 하는 방법을](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/buy-a-domain-name) 사용할 수 있습니다. 이미 하나가 있는 경우 [도메인 등록 기관 또는 DNS 호스팅 공급자를 찾습니다](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/find-your-domain-registrar).  <br/> 또한 Office 365 SharePoint Online 서비스를 사용 하 여 공개 웹 사이트를 만드는 경우 중국 인터넷 규정 준수 정책에서는 ICP (인터넷 콘텐츠 공급자) 번호를 받아야 합니다.  **참고:** 사용자 지정 도메인 이름의 허용 되지 않은 단어에 대 한 자동 유효성 검사를 사용할 수 없습니다.           |
 |구독, 청구 및 기술 지원  <br/> |21Vianet에서 제공 합니다. 지원 서비스에 문의 하는 방법에 대 한 자세한 내용은 [Office 365 for business support](../contact-support-for-business-products.md)를 참조 하세요.  <br/> |
-|셀프 서비스 암호 재설정  <br/> |관리자만 사용할 수 있습니다. 자세한 내용은 [21vianet에서 운영 하는 Microsoft 365에서 암호 변경 또는 재설정](https://support.microsoft.com/office/d8eb5b62-9d0e-4267-a9bf-2aa491ee6d0b)을 참조 하세요.  <br/> |
+|셀프 서비스 암호 재설정  <br/> |관리자만 사용할 수 있습니다. 자세한 내용은 [21vianet에서 운영 하는 Office 365에서 암호 변경 또는 재설정](https://support.microsoft.com/office/d8eb5b62-9d0e-4267-a9bf-2aa491ee6d0b)을 참조 하세요.  <br/> |
 |보안, 개인 정보, 규정 준수 및 지원 수준에 대 한 세부 정보  <br/> |21Vianet에서 제공 합니다.  <br/> |
 |Office 데스크톱 설정  <br/> |Office 2010 및 Office 2007에서는 office 데스크톱 설치를 사용할 수 없습니다. 그러나 관리자는 [office 365에서 작동 하도록 현재 office 데스크톱 응용 프로그램을 구성할](https://support.microsoft.com/office/85646aba-7e6c-4e24-a047-8fd9ce4f9d2e)수 있습니다.  <br/> |
 |모바일 및 장치 지원\*  <br/> | 출시 예정 모바일 기능은 다음과 같습니다.  <br/>  MDM (모바일 장치 관리)  <br/>  Blackberry CS (Business Cloud Services)를 사용할 수는 없지만 Exchange ActiveSync 장치 또는 동작 (테두리, BlackBerry 무선 전자 메일 솔루션)에서 리서치의 제공을 사용 하 여 Blackberry Enterprise Server (BES)를 실행할 수 있습니다.  <br/>  모바일 지원에 대 한 자세한 내용은 [사용자에 대 한 모바일 액세스 설정 및 관리](https://support.microsoft.com/office/01fff219-4492-40f2-82d3-fd2ffc0ad802)를 참조 하세요.  <br/> |
