@@ -20,12 +20,11 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: 일반적으로 레코드 관리 솔루션의 일부는 사용자가 식별하는 이벤트에 기반하여 보존 기간을 시작하는 보존 레이블을 구성할 수 있습니다.
-ms.openlocfilehash: 29cf69930cdd99d3023a65e55e1186990a650e85
-ms.sourcegitcommit: 2e9e309ec09e5275ac6b3b425fba48a9ffce8eb2
-ms.translationtype: HT
+ms.openlocfilehash: f2cf60eac1197ed7be3fd8cbbe69e41a37614f86
+ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44900802"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45048293"
 ---
 # <a name="overview-of-event-driven-retention"></a>이벤트 구동 보존 개요
 

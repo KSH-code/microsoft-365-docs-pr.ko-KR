@@ -115,6 +115,8 @@
                   href: mtp/advanced-hunting-overview.md
                 - name: 쿼리 언어 배우기
                   href: mtp/advanced-hunting-query-language.md
+                - name: 쿼리 모범 사례 적용
+                  href: mtp/advanced-hunting-best-practices.md
                 - name: 쿼리 결과 작업
                   href: mtp/advanced-hunting-query-results.md
                 - name: 공유 쿼리 사용
@@ -179,8 +181,6 @@
                   items:
                     - name: FileProfile()
                       href: mtp/advanced-hunting-fileprofile-function.md
-                - name: 쿼리 모범 사례 적용
-                  href: mtp/advanced-hunting-best-practices.md
                 - name: 사용자 지정 검색
                   items:
                     - name: 사용자 지정 검색 개요

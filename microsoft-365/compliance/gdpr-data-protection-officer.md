@@ -16,12 +16,11 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 334c6bfaf041b189a127d34e3eacd8997b349394
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
-ms.translationtype: HT
+ms.openlocfilehash: 885055aa0684dc0ad0788a7e056c51b6cfd4c587
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817697"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049774"
 ---
 # <a name="microsofts-data-protection-officer"></a>Microsoft의 데이터 보호 관리자
 
@@ -49,8 +48,8 @@ South County Business Park<br>
 Leopardstown<br>
 Dublin 18<br>
 D18 P521<br>
-Ireland<br>
-전화: +353 (0) 1 295-3826<br>
+아일랜드<br>
+전화: +353 1 706 3117<br>
 
 데이터 보호 관리자의 세부 연락처가 Microsoft의 관리 기관에 전달되었습니다.
 

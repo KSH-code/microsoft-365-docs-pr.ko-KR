@@ -17,12 +17,11 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Teams에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: 869f457ddb64e5d828dcb5f1244ba779f889e8c9
-ms.sourcegitcommit: e3900c818877c2cdcd227917ec975c03e828c7ea
-ms.translationtype: HT
+ms.openlocfilehash: ead16cf4d89b5dbea2fee4a6669f537a0338984e
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44861165"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049852"
 ---
 # <a name="learn-about-retention-policies-for-microsoft-teams"></a>Microsoft Teams의 보존 정책에 대해 자세히 알아보기
 
@@ -62,7 +61,7 @@ Teams 채팅 및 채널 메시지는 사용자 또는 그룹 사서함에 대해
 
 2. 보존 기간 동안 **항목이 수정되거나 삭제되지 않은 경우**: 보존 기간 전후에는 아무 것도 발생하지 않습니다. 메시지는 원래 위치에 남아 있습니다.
 
-#### <a name="content-paths-for-delete-only-retention-policy"></a>삭제 전용 보존 정책의 컨텐츠 경로
+### <a name="content-paths-for-delete-only-retention-policy"></a>삭제 전용 보존 정책의 컨텐츠 경로
 
 1. 보존 기간 동안 **메시지가 삭제되지 않은 경우**: 보존 기간이 끝나면 메시지가 SubstrateHolds 폴더로 이동됩니다. 
 
@@ -98,7 +97,6 @@ SharePoint 또는 OneDrive에 적용되는 보존 정책은 해당 메시지가 
 
 - 외부 사용자가 다른 Microsoft 365 조직의 계정을 사용하여 참여하는 경우 보존 정책은 이 사용자의 메시지가 다른 테넌트의 해당 사용자의 사서함에 저장되어 있기 때문에 해당 사용자의 메시지를 삭제할 수 없습니다. 그러나 동일한 모임의 경우 보존 정책이 사용자의 메시지를 삭제할 수 있습니다.
 
-
 ## <a name="when-a-user-leaves-the-organization"></a>사용자가 조직을 떠나는 경우 
 
 사용자가 조직을 떠나 Office 365 계정이 삭제된 경우 보존이 적용되는 해당 사용자의 채팅 메시지는 비활성 사서함에 저장됩니다. 채팅 메시지는 비활성화 상태로 변경되기 전에 사서함에 적용된 보존 정책의 적용을 받으며, 콘텐츠 또한 eDiscovery 검색에서 사용될 수 있습니다. 자세한 내용은 [Exchange Online에서 비활성 사서함](inactive-mailboxes-in-office-365.md)을 참조하세요. 
@@ -109,11 +107,11 @@ SharePoint 또는 OneDrive에 적용되는 보존 정책은 해당 메시지가 
 
 Microsoft는 Teams에서 보존 기능을 최적화하기 위해 지속적으로 노력하고 있습니다. 그동안에는 다음과 같은 몇 가지 제한 사항을 알고 있어야 합니다.
   
-- **Teams에는 별도의 보존 정책이 필요합니다**. 보존 정책을 만들고 Teams 위치를 켜면 다른 모든 위치는 꺼집니다. Teams를 포함하는 보존 정책은 Teams만 포함할 수 있고 다른 위치는 포함할 수 없습니다. 
-    
-- **Teams는 조직 전체 정책에 포함되지 않습니다**. Teams에는 별도 보존 정책 필요하므로 조직 전체 정책을 만들어도 여기에 포함되지 않습니다. 
-    
-- **Teams는 고급 보존을 지원하지 않습니다**. 보존 정책을 만들 때 [특정 조건을 만족하는 콘텐츠를 식별하기 위해 고급 설정](create-retention-policies.md#advanced-settings-to-identify-content-that-meets-specific-conditions)을 선택하면 Teams 위치를 사용할 수 없습니다. 현재 Teams에서 보존은 해당 위치를 선택할 때 모든 채팅 및 채널 메시지 내용에 적용됩니다. 
+- **Teams에는 별도의 보존 정책이 필요합니다**. 보존 정책을 만들고 Teams 위치를 켜면 다른 모든 위치는 꺼집니다. Teams를 포함하는 보존 정책은 Teams만 포함할 수 있고 다른 위치는 포함할 수 없습니다.
+
+- **Teams는 조직 전체 정책에 포함되지 않습니다**. Teams에는 별도 보존 정책 필요하므로 조직 전체 정책을 만들어도 여기에 포함되지 않습니다.
+
+- **Teams는 고급 보존을 지원하지 않습니다**. 보존 정책을 만들 때 [특정 조건을 만족하는 콘텐츠를 식별하기 위해 고급 설정](create-retention-policies.md#advanced-settings-to-identify-content-that-meets-specific-conditions)을 선택하면 Teams 위치를 사용할 수 없습니다. 현재 Teams에서 보존은 해당 위치를 선택할 때 모든 채팅 및 채널 메시지 내용에 적용됩니다.
 
 - **개인 채널의 Teams 메시지는 Teams 채널 메시지에 대한 보존 정책을 구성할 때 포함되지 않습니다**. 대신 개인 채널의 메시지는 **Teams 채팅** 옵션을 사용하여 그룹 채팅으로 사용자에게 포함됩니다. 
     
@@ -124,7 +122,7 @@ Microsoft는 Teams에서 보존 기능을 최적화하기 위해 지속적으로
 
 - **Outlook에서 잘못된 표시 문제가 발생했습니다**. Skype 또는 Teams 위치에 대한 보존 정책을 만드는 경우 사용자가 Outlook 데스크톱 클라이언트에서 사서함 폴더의 속성을 볼 때 해당 정책 중 하나가 기본 폴더 정책으로 표시됩니다. 이것은 Outlook의 잘못된 표시 문제이며 [알려진 문제](https://support.microsoft.com/help/4491013/outlook-client-displays-teams-or-skype-for-business-retention-policies)입니다. 기본 폴더 정책으로 표시되어야 하는 것은 폴더에 적용되는 사서함 보존 정책입니다. Skype 또는 Teams 보존 정책은 사용자의 사서함에 적용되지 않습니다.
 
-- **구성 문제** 
+- **구성 문제**
     - **Teams 채널 메시지 위치**에 **팀 선택**을 선택하면 Teams가 아닌 Office 365 그룹이 표시될 수 있습니다. 이 그룹을 선택하지 마세요.
     
     - **Teams 채팅** 위치에 대해 **사용자 선택**을 선택하면 게스트 및 사서함이 아닌 사용자가 표시될 수 있습니다. 보존 정책은 이러한 사용자를 위해 설계되지 않았으므로 선택하지 마세요.

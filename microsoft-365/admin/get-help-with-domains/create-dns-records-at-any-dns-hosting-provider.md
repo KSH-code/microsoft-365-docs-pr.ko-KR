@@ -20,12 +20,11 @@ description: Microsoft 365용 모든 DNS 호스팅 공급자에서 도메인을 
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: a9809dda90bc9eb4a8241f94f48f7f7842df9af9
-ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
-ms.translationtype: HT
+ms.openlocfilehash: d3a9e3787afc30b33122edf91c1cf9e3dd84b847
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44419127"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049669"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>DNS 레코드를 추가하여 도메인 연결하기
 
@@ -127,7 +126,7 @@ SPF는 스푸핑 차단을 돕지만 SPF가 방어할 수 없는 스푸핑 기�
 
 레코드를 저장합니다.
 
-#### <a name="srv-record-feild-restrictions-and-workarounds"></a>SRV 레코드 필드 제한 사항 및 해결 방법
+#### <a name="srv-record-field-restrictions-and-workarounds"></a>SRV 레코드 필드 제한 사항 및 해결 방법
 일부 호스팅 공급자는 SRV 레코드 내에서 필드 값에 제한을 둡니다. 이러한 제한 사항에 대한 몇 가지 일반적인 해결 방법은 다음과 같습니다.
 
 ##### <a name="name"></a>이름

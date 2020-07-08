@@ -15,12 +15,11 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: 633e54dc2b3c83d0d6778176318512b03bd073a8
-ms.sourcegitcommit: aab8b94ea8a9d4f7c6b911d6dc5cde70722e00e5
-ms.translationtype: HT
+ms.openlocfilehash: 7090a9fcc279f9bedc5f86b43952a12e988069e1
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44869859"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049919"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 
@@ -52,12 +51,13 @@ ms.locfileid: "44869859"
 
 ## <a name="step-by-step-labs"></a>단계별 랩
 
-자세한 랩 가이드는 여러 배포 및 관리 시나리오를 안내합니다. 최신 버전의 Intune 및 Configuration Manager(버전 1910)에 대한 labs가 업데이트되었습니다. 
+자세한 랩 가이드는 여러 배포 및 관리 시나리오를 안내합니다. 최신 버전의 Intune 및 Configuration Manager에 대한 랩이 업데이트되었습니다. 
 
 ### <a name="device-and-app-readiness"></a>장치 및 앱 준비
 
   - Desktop Analytics
   - 새로운 기능! 새 Microsoft Edge 배포 및 업데이트 
+  - 새로운 기능! CMG(클라우드 관리 게이트웨이) 설치 및 구성 
   - Internet Explorer 모드 
   - Application Guard 
 
@@ -92,6 +92,7 @@ ms.locfileid: "44869859"
   - Windows Defender Exploit Guard
   - Windows Defender Application Control
   - Windows Defender Advanced Threat Protection
+  - 새로운 기능! 끝점 보안 
 
 ### <a name="os-deployment-and-feature-updates"></a>운영 체제 배포 및 기능 업데이트
 
@@ -105,6 +106,8 @@ ms.locfileid: "44869859"
   - 그룹 정책을 사용하여 Windows 업데이트 관리
   - 구성 관리자 및 Intune으로 Windows 10 서비스
   - Configuration Manager를 사용하여 엔터프라이즈용 Microsoft 365 앱 제공
+  - 새로운 기능! Configuration Manager 및 Intune을 사용하여 Office 업데이트
+  - 새로운 기능! Microsoft Teams 설치 
 
 ### <a name="new-windows-virtual-desktop"></a>새로운 기능! Windows Virtual Desktop
   - Windows 가상 데스크톱: 준비, 배포, 최적화 
