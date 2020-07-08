@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 02/24/2020
+ms.date: ''
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 Advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
-ms.openlocfilehash: 52cb0d00d0c01adc34ee480f6daca9a6b509c671
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: ffde9288338f14ea23fa39990ccd9363c7fd2a84
+ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818810"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45039381"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -45,9 +45,8 @@ Office 365 ATP (Advanced Threat Protection)는 전자 메일 메시지, 링크 (
 
 다음 표에는 각 계획에 포함된 항목이 요약되어 있습니다.
 
-|||
+| Office 365 ATP 계획 1 | Office 365 ATP 계획 2 |
 |---|---|
-|**Office 365 ATP 플랜 1**|**Office 365 ATP 플랜 2**|
 |구성, 보호 및 검색 기능:<br/>• [안전한 첨부 파일](atp-safe-attachments.md)<br/>• [안전한 링크](atp-safe-links.md)<br/>• [SharePoint, OneDrive 및 Microsoft Teams용 ATP](atp-for-spo-odb-and-teams.md)<br/>• [ATP 피싱 방지 보호 기능](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)<br/>• [실시간 탐지](threat-explorer.md)|Office 365 ATP 계획 1 기능<br/>--- 추가 ---<br/>자동화, 조사, 수정 및 교육 기능:<br/>• [위협 추적기](threat-trackers.md)<br/>• [위협 탐색기](threat-explorer.md)<br/>• [자동 조사 및 응답](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>• [공격 시뮬레이터](attack-simulator.md)|
 |
 
@@ -56,6 +55,8 @@ Office 365 ATP (Advanced Threat Protection)는 전자 메일 메시지, 링크 (
 - Office 365 ATP 계획 1은 Microsoft 365 Business Premium에 포함되어 있습니다.
 
 - Office 365 ATP 계획 1과 Office 365 ATP 계획 2는 특정 구독의 추가 기능으로 사용할 수 있습니다. 자세한 내용은 [ATP 계획에서의 기능 가용성](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)을 참조하세요.
+
+- [안전한 문서](safe-docs.md) 기능은 Microsoft 365 E5 또는 Microsoft 365 E5 보안 라이선스가 있는 사용자만 사용할 수 있습니다(Office 365 ATP 계획에는 미포함).
 
 - 현재 구독에 Office 365 ATP가 포함되어 있지 않은 경우 [평가판을 시작하고 ATP가 조직에 대해 작동하는 방법을 알아보려면 영업 담당자에게 문의](https://go.microsoft.com/fwlink/p/?LinkId=518644)하세요.
 
