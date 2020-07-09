@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: 유효한 회사 또는 학교 계정으로 로그인 한 사용자는 Office 365의 엔터프라이즈 수준 개인 정보, 보안 및 준수 약속을 충족 하는 Microsoft 365 환경에서 Cortana를 사용 하 여 클라우드 기반 지원 서비스를 받을 수 있습니다.
-ms.openlocfilehash: 6c1eb42ad54c0cfb25f84b9f584171eb7d198bb9
-ms.sourcegitcommit: 21977f5cb6b01aee5cae54979717530b2a31a46a
+ms.openlocfilehash: 7b8f60f5138de63234520f18d6de0973b74482ed
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44411004"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083553"
 ---
 # <a name="cortana-in-microsoft-365"></a>Microsoft 365의 Cortana
 
@@ -33,7 +33,7 @@ Cortana, 개인 생산성 도우미는 시간을 절약 하 고 가장 중요 �
 
 개인적인 생산성 도우미는 Cortana가 전자 메일, 파일, 채팅 등의 Office 365 데이터를 안전 하 고 안전 하 게 처리 하 고 이유를 제공 하 여 시간을 절약 하 고 효율성을 높이 며 사용자의 생산성을 향상 시킬 수 있도록 디자인 되었습니다.
 
-앞으로는 엔터프라이즈 생산성에 Cortana가 초점을 맞추어 진행 되 고 있습니다.
+앞으로는 엔터프라이즈 생산성에 Cortana가 초점을 맞추어 진행 되 고 있습니다. 
 
 - 다른 Office 365 서비스와 마찬가지로 Cortana 엔터프라이즈 서비스는 [온라인 서비스 약관 (OST)](https://www.microsoft.com/licensing/product-licensing/products)에 반영 된 것과 같은 엔터프라이즈 수준의 개인 정보, 보안 및 규정 준수를 충족 합니다.
 
@@ -80,6 +80,26 @@ Windows 10의 cortana (버전 2004 이상 [)에서는 온라인 서비스 약관
 Windows 10, 버전 2004 부터는 Cortana가 Windows에 미리 설치 되어 있는 UWP (유니버설 Windows 플랫폼) 앱 이며 Microsoft Store를 통해 정기적으로 업데이트 됩니다. Cortana에 대 한 최신 업데이트를 받으려면 [Microsoft Store를 통해 업데이트를 사용 하도록 설정](https://docs.microsoft.com/windows/configuration/stop-employees-from-using-microsoft-store)해야 합니다.
 
 [Windows 10의 Cortana에 대 한 자세한 정보](https://docs.microsoft.com/windows/configuration/cortana-at-work/cortana-at-work-overview)
+
+### <a name="cortana-voice-assistance-in-teams"></a>팀의 Cortana 음성 지원
+
+팀 모바일 앱의 Cortana 음성 지원을 사용 하면 Microsoft 365 Enterprise 사용자가 음성 자연어를 사용 하 여 통신, 공동 작업 및 모임 관련 작업을 간소화할 수 있습니다. 사용자는 팀 모바일 앱 오른쪽 위에 있는 마이크 단추를 클릭 하 여 Cortana에 대화할 수 있습니다. 이동 중에는 "call Megan" 또는 "다음 모임에 메시지 보내기"와 같은 음성 쿼리를 수행 하는 동안 다른 사용자와 연결할 수 있습니다. 사용자는 "다음 모임에 참가"를 말하고 음성 지원을 사용 하 여 파일을 공유 하 고, 일정 등을 확인 하 여 모임에 참가할 수도 있습니다. 이러한 음성 도움말은 [OST (온라인 서비스 약관)](https://www.microsoft.com/licensing/product-licensing/products)에 반영 된 대로 Office 365의 개인 정보 보호, 보안 및 규정 준수를 완벽 하 게 준수 하는 Cortana 엔터프라이즈 등급 서비스를 사용 하 여 제공 됩니다.
+
+**관리 제어**
+
+Cortana 음성 지원은 테 넌 트에 대해 기본적으로 사용 하도록 설정 됩니다. 관리자는 테 넌 트의 사용자가 정책 (TeamsCortanaPolicy)을 통해 팀에서 Cortana 음성 지원을 사용할 수 있도록 제어할 수 있습니다. 이 정책은 사용자 계정 수준 또는 테 넌 트 수준 중 하나로 설정 될 수 있습니다. 또한 관리자는이 정책 제어의 CortanaVoiceInvocationMode 필드를 사용 하 여 Cortana가 사용 하지 않도록 설정 되어 있는지, 밀어넣기 단추를 사용 하는 경우에도 사용할 수 있거나, 절전 모드 해제 단어 호출과 함께 사용 하도록 설정할지를 결정 합니다. 영어 (미국)에서 Microsoft 365 Enterprise 사용자의 초기 릴리스가 출시 되 면 팀 모바일 앱은 절전 모드 해제 단어 정품 인증을 지원 하지 않지만 나중에 지원 될 예정입니다.
+
+**사용자 정의 컨트롤**
+
+개별 사용자는 마이크 단추를 클릭 하 여 팀 모바일 앱에서 Cortana 음성 지원을 시도할 수 있습니다. 또한 팀 모바일 앱의 설정을 통해 팀의 Cortana가 장치에 대해 사용 하도록 설정 되는지 여부도 제어할 수 있습니다. 
+
+1. 팀 모바일 앱을 엽니다.
+
+2. **설정**으로 이동 합니다.
+
+3. **Cortana**를 선택 합니다.
+
+4. 이 장치에서 Cortana 음성 지원을 사용할지 여부에 따라 설정/해제로 이동 합니다.
 
 ### <a name="play-my-emails"></a>내 전자 메일 재생
 

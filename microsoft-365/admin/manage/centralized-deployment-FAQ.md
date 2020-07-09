@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 관리 센터에서 중앙 집중식 배포에 대해 자주 묻는 질문에 대 한 대답을 검토 합니다.
-ms.openlocfilehash: 0d0f2163982042f7b8f868a36f5cc115a17295a2
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 2d9a3c6f2cfe9418cc83cbd0f29537e5533c4257
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399827"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083565"
 ---
 # <a name="centralized-deployment-faq"></a>중앙 집중식 배포 FAQ
 
@@ -36,7 +36,7 @@ ms.locfileid: "44399827"
  
 온라인 사서함에 대해서만 중앙 집중식 배포가 지원 됩니다. 온-프레미스 Exchange 사서함에 대 한 배포는 지원 되지 않습니다.
  
-[Office 365 중앙 집중식 배포 호환성 검사](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker)   를 사용 하 여 구독에 대 한 자격이 있는지 확인할 수 있습니다. 
+[중앙 집중식 배포 호환성 검사](centralized-deployment-of-add-ins.md#centralized-deployment-compatibility-checker)   를 사용 하 여 구독에 대 한 자격이 있는지 확인할 수 있습니다. 
   
 ## <a name="how-do-you-target-add-in-user-assignments-with-centralized-deployment"></a>중앙 집중식 배포를 사용 하 여 추가 기능 사용자 지정을 대상으로 하는 방법은 무엇 인가요?  
 

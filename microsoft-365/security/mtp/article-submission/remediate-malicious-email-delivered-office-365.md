@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 위협 수정
 appliesto:
 - Microsoft Threat Protection
-ms.openlocfilehash: 6c05eac80c6de546a30f9abe29360178bcbcfcf8
-ms.sourcegitcommit: dc5de2064706137256307f100b8dc61e9797bd1c
+ms.openlocfilehash: eb86c0b8e5368a42daa1002de5ac361613037090
+ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45068220"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086694"
 ---
 # <a name="remediate-malicious-email-that-was-delivered-in-office-365"></a>Office 365에서 제공 된 악성 전자 메일 재구성
 
@@ -77,8 +77,6 @@ ms.locfileid: "45068220"
 각 업데이트 관리 항목에 대 한 세부 정보를 볼 수 있습니다. 업데이트 관리 항목을 열면 기본 재구성 정보, 재구성 이름, 만든 날짜, 설명, 위협 심각도 및 상태가 표시 됩니다. 두 개의 탭도 표시 됩니다. 
 
 1. **메일 전송 탭**: 위협 탐색기나 자동화 된 조사를 통해 전송 되는 전자 메일 수입니다. 이러한 전자 메일은 다음이 될 수 있습니다.
-
-:::image type="content" source="../../../media/tp-RemediationArticle5.png" alt-text="작동 가능한 위협 및 조치를 취할 수 있는 작업 센터":::
 
 **실행 가능**: 다음 클라우드 사서함 위치에 있는 전자 메일은 작업을 수행 하 고 이동할 수 있습니다 (예: remediable 범주 내의 모든 전자 메일이 한 위치에서 다른 위치로 이동 가능).
   - 받은 편지함 

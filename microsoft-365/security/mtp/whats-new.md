@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: f4e733cf7196668fb1c3d1830ead15c6262a635e
-ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
+ms.openlocfilehash: e19a5528a4ccc250c981ab21d7644783ad1b0b8b
+ms.sourcegitcommit: c51dd4c659f763ae46c188d3fae90aab8d1d7e88
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854297"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45084158"
 ---
 # <a name="whats-new-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 새로운 기능
 
@@ -32,6 +32,11 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 ```
 ## <a name="june-2020"></a>2020년 6월
 - Twitter 피드 <br> 대시보드 내에서 최신 보안 연구, 위협 인텔리전스, 제품 소식 등을 확인 하세요.
+- [EmailPostDeliveryEvents schema 테이블](advanced-hunting-emailpostdeliveryevents-table.md) <br> 고급 구하기 쿼리의 전자 메일 메시지에 대해 수행 된 배달 후 작업에 대 한 정보를 통합 합니다.
+- [고급 구하기에서 레코드 검사](advanced-hunting-query-results.md#drill-down-from-query-results) <br> 새 세부 정보 패널을 사용 하 여 쿼리 결과의 레코드를 빠르게 검사 합니다.
+
+## <a name="may-2020"></a>2020년 5월
+- [사용자 지정 검색](custom-detections-overview.md) <br> 고급 검색 쿼리를 사용 하 여 보안 이벤트 및 시스템 상태에 대해 자동으로 모니터링 하 고 응답 하는 사용자 지정 검색 규칙을 만듭니다.
 
 ## <a name="february-2020"></a>2020년 2월
 - [인시던트](incidents-overview.md) <br> 공격이 시작 된 위치와 공격 범위를 확인 하는 데 도움이 되는 기타 세부 정보를 정확히 파악 합니다.
@@ -39,7 +44,6 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 - [고급 구하기 향상](advanced-hunting-overview.md) <br> 현재 작업 영역에서 Kusto 쿼리 언어 및 보안 최적화 스키마를 통해 위협을 사전에 사냥 합니다.
 
 ## <a name="march-2019"></a>2019년 3월
-
 - 고급 헌팅 <br> 전자 메일 및 데이터, 장치 및 id에 영향을 주는 위협을 사전에 찾을 수 있게 해 주는 다양 한 검색 기능에 대 한 랜딩 페이지입니다.
 - [Microsoft 보안 점수](microsoft-secure-score.md) <br> 더 많은 향상 작업을 나타내는 더 높은 번호를 사용 하 여 조직의 보안 상황 측정 보안 점수 권장 사항을 따르면 위협 으로부터 조직을 보호할 수 있습니다. 
 - [보고서](monitoring-and-reporting.md) <br>  기능은 보안 분석가와 관리자가 일상 작업의 일부로 추적 하는 다양 한 영역을 다루는 카드의 호스트입니다.

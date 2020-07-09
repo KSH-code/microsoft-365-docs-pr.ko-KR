@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: Outlook에서 하나 이상의 메일 그룹을 Microsoft 365 그룹으로 업그레이드 하는 방법 및 PowerShell을 사용 하 여 여러 메일 그룹을 동시에 업그레이드 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f5748c293d18943c94c3610c0e3c5c33848eb521
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: a1fb974be4838ebe98c2c55fe8694e89e27d636e
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780028"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083577"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Outlook에서 Microsoft 365 그룹으로 메일 그룹 업그레이드
 
@@ -71,11 +71,15 @@ PowerShell을 사용 하 고 있는 경우에는 UI를 사용 하는 대신이 �
 
 단일 DL을 업그레이드 하려면 다음 명령을 실행 합니다.
 
-`Upgrade-DistributionGroup -DlIdentities \<Dl SMTP address\>`
+```PowerShell
+Upgrade-DistributionGroup -DlIdentities \<Dl SMTP address\>`
+```
 
 예를 들어 SMTP 주소 dl1@contoso.com를 사용 하 여 Dl을 업그레이드 하려면 다음 명령을 실행 합니다.
 
-`Upgrade-DistributionGroup -DlIdentities dl1@contoso.com`
+```PowerShell
+Upgrade-DistributionGroup -DlIdentities dl1@contoso.com`
+```
 
 > [!NOTE]
 > [Remove-unifiedgroup](https://go.microsoft.com/fwlink/?LinkID=786379) PowerShell cmdlet을 사용 하 여 단일 메일 그룹을 Microsoft 365 group으로 업그레이드할 수도 있습니다.
@@ -84,9 +88,8 @@ PowerShell을 사용 하 고 있는 경우에는 UI를 사용 하는 대신이 �
 
 여러 Dl을 일괄적으로 전달 하 고 함께 업그레이드할 수도 있습니다.
 
-```
+```PowerShell
 Upgrade-DistributionGroup -DlIdentities \<DL SMTP address1\>, \< DL SMTP address2\>,
-
 \< DL SMTP address3\>, \< DL SMTP address 4\>
 ```
 
@@ -103,7 +106,7 @@ Upgrade-DistributionGroup -DlIdentities \<DL SMTP address1\>, \< DL SMTP address
 
 1. 테 넌 트에서 적격 Dl을 가져오고 upgrade 명령을 사용 하 여 업그레이드 합니다.
 
-```
+```PowerShell
 Get-EligibleDistributionGroupForMigration | Foreach-Object{
     Upgrade-DistributionGroup -DlIdentities $_.PrimarySMTPAddress
 }
@@ -111,7 +114,7 @@ Get-EligibleDistributionGroupForMigration | Foreach-Object{
 
 2. 모든 Dl의 목록을 가져오고 적격 Dl만 업그레이드 합니다.
 
-```
+```PowerShell
 Get-DistributionGroup| Foreach-Object{
     Upgrade-DistributionGroup -DlIdentities $_.PrimarySMTPAddress
 }

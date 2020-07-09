@@ -1,5 +1,5 @@
 ---
-title: 보안 &amp; 준수 계획
+title: 보안 준수 계획 &amp;
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -17,14 +17,14 @@ ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: 이 랜딩 페이지에서는 Office 365의 보안 및 규정 준수를 위한 링크 및 계획 정보를 제공 합니다.
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0f3bb6499de2ddd6fb613834b98e46d453d739a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: e4eae4dddb90983b811e0856a09dae79af83d226
+ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034898"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086659"
 ---
-# <a name="plan-for-security-amp-compliance"></a>보안 &amp; 준수 계획
+# <a name="plan-for-security-amp-compliance"></a>보안 준수 계획 &amp;
 
 보안 및 규정 준수를 관리 하는 것은 파트너 관계입니다. Microsoft 여러분에서는 Microsoft 365 서비스를 보호 하는 동시에 데이터, id 및 장치를 보호 해야 합니다. Microsoft 365 및 EMS (Enterprise Mobility + Security)를 함께 사용 하 여 조직에 적절 한 수준의 보호를 구현할 수 있습니다.
   
@@ -32,7 +32,7 @@ ms.locfileid: "44034898"
 
 Office 365 포스터에 대 한 정보 보호의 정보 보호 기능을 직접 소개 합니다. 
   
-[PDF](https://download.microsoft.com/download/2/3/D/23D91386-8349-4F7A-9470-FD5AED861F16/MSFT_cloud_architecture_informationprotection.pdf) | [Visio](https://download.microsoft.com/download/2/3/D/23D91386-8349-4F7A-9470-FD5AED861F16/MSFT_cloud_architecture_informationprotection.vsd)
+[Microsoft 365을 사용 하 여 데이터 개인 정보 보호 규정에 대 한 information protection 배포](https://docs.microsoft.com/microsoft-365/solutions/information-protection-deploy?view=o365-worldwide)
   
 ## <a name="step-2-check-your-secure-score"></a>2 단계: 보안 점수 확인
 
@@ -56,15 +56,15 @@ Microsoft 365 데이터 및 서비스에 대 한 액세스를 보호 하는 것�
   
 [PDF](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
   
-## <a name="step-5-leverage-the-microsoft-365-security-amp-compliance-center"></a>5 단계: Microsoft 365 보안 &amp; 및 준수 센터 활용
+## <a name="step-5-leverage-the-microsoft-365-security-amp-compliance-center"></a>5 단계: Microsoft 365 보안 및 &amp; 준수 센터 활용
 
-보안 &amp; 및 준수 센터에서는 위협 관리, 데이터 거 버 넌 스, 검색 및 조사를 비롯 한 Microsoft 365 보안의 스펙트럼을 관리 하는 데 사용할 수 있는 컨트롤을 단일 보기로 제공 합니다. 
+보안 및 &amp; 준수 센터에서는 위협 관리, 데이터 거 버 넌 스, 검색 및 조사를 비롯 한 Microsoft 365 보안의 스펙트럼을 관리 하는 데 사용할 수 있는 컨트롤을 단일 보기로 제공 합니다. 
   
-- [보안 &amp; 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)
+- [보안 및 &amp; 준수 센터로 이동](go-to-the-securitycompliance-center.md)
     
-- [보안 &amp; 및 준수 센터의 사용 권한](~/security/office-365-security/protect-against-threats.md)
+- [보안 및 준수 센터의 사용 권한 &amp;](~/security/office-365-security/protect-against-threats.md)
     
-- [사용자에 게 보안 &amp; 및 준수 센터에 대 한 액세스 권한 부여](~/security/office-365-security/grant-access-to-the-security-and-compliance-center.md)
+- [사용자에 게 보안 및 준수 센터에 대 한 액세스 권한 부여 &amp;](~/security/office-365-security/grant-access-to-the-security-and-compliance-center.md)
     
 ## <a name="step-6-use-end-to-end-security-scenarios-as-starting-points"></a>6 단계: 시작 점으로 종단 간 보안 시나리오 사용
 
@@ -78,7 +78,7 @@ Microsoft 365 데이터 및 서비스에 대 한 액세스를 보호 하는 것�
 
 Microsoft 365 환경을 보호 하기 위해 이러한 관리 센터 및 대시보드에서 보안 및 규정 준수 설정 구성
   
-|**구독은**|**관리 URL**|**대시보드 및 관리 센터**|
+|**구독**|**관리 URL**|**대시보드 및 관리 센터**|
 |:-----|:-----|:-----|
 |Microsoft 365  <br/> |`https://admin.microsoft.com`  <br/> | Microsoft 365 관리 센터  <br/>  Security &amp; Compliance Center  <br/>  Exchange 관리 센터  <br/>  SharePoint 관리 센터 및 비즈니스용 OneDrive 관리 센터  <br/> |
 |Enterprise Mobility + Security  <br/> |`https://portal.azure.com`  <br/> | Azure Active Directory  <br/>  Microsoft 모바일 응용 프로그램 관리  <br/>  Microsoft Intune  <br/> |

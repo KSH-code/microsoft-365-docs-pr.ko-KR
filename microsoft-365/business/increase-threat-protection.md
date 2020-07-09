@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Office 365 Advanced Threat Protection을 설정 하 고 피싱, 맬웨어 및 기타 위협 으로부터 중요 한 데이터를 보호 합니다.
-ms.openlocfilehash: d5510cdc082781fd9a1776e86b1bab1d8a2723d6
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+ms.openlocfilehash: 0e6cb7ed13a0851ef249e1f599d17e03c052414a
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786209"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083605"
 ---
 # <a name="increase-threat-protection"></a>위협 방지 강화
 
@@ -137,7 +137,7 @@ ATP 피싱 방지 정책을 만들려면 [이 간략 한 교육 비디오](https
     
 4. **피싱 방지** 페이지에서 **+ 만들기**를 선택 합니다. 피싱 방지 정책을 정의 하는 과정을 안내 하는 마법사가 시작 됩니다.
     
-5. 다음 표에 나와 있는 것 처럼 정책에 대 한 이름, 설명 및 설정을 지정 합니다. 자세한 내용은 [ATP 피싱 방지 정책 옵션에 대 한](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#learn-about-atp-anti-phishing-policy-options)정보를 참조 하세요. 
+5. 다음 표에 나와 있는 것 처럼 정책에 대 한 이름, 설명 및 설정을 지정 합니다. 자세한 내용은 [ATP 피싱 방지 정책 옵션에 대 한](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies)정보를 참조 하세요. 
     
 6. 설정을 검토 한 후에는 **이 정책 만들기** 또는 적절 한 **저장**을 선택 합니다.
     
