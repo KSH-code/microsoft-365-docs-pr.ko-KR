@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title: Microsoft 365 Business Premium 리소스
-summary: 'Microsoft 365 Business Premium(이전 명칭: Microsoft 365 Business)은 직원의 수가 300명 미만인 비즈니스를 위한 포괄적인 구독 서비스입니다. 즐겨 사용 하는 Office 생산성 앱 및 서비스와 공동 작업 도구는 Microsoft 팀과 같은 고급 보안 및 장치 관리 기능을 통합 합니다.'
+summary: 'Microsoft 365 Business Premium(이전 명칭: Microsoft 365 Business)은 직원의 수가 300명 미만인 비즈니스를 위한 포괄적인 구독 서비스입니다. 좋아하는 Office 생산성 앱 및 서비스와 Microsoft Teams와 같은 공동 작업 도구를 고급 보안 및 장치 관리 기능과 통합합니다.'
 brand: m365
 metadata:
   title: Microsoft 365 Business Premium 리소스
@@ -14,24 +14,24 @@ metadata:
   ms.date: 10/01/2019
   ms.openlocfilehash: fe849499da31b3be4ab52144d1a39f8a1bc7a212
   ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ko-KR
   ms.lasthandoff: 06/18/2020
   ms.locfileid: "44786193"
 productDirectory:
-  title: Microsoft 365 Business Premium을 통한 원격 작업 보안
+  title: Microsoft 365 Business Premium을 사용하여 원격 작업을 보안
   items:
   - title: 읽기
     imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
-    summary: 보안 원격 작업을 Microsoft 365 Business Premium에서 사용 하도록 설정 하는 최상의 방법입니다.
+    summary: Microsoft 365 Business Premium을 사용하여 안전한 원격 작업을 가능하게 하는 최상의 방법
     url: https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/using-microsoft-365-business-to-secure-your-remote-workforce/ba-p/1298623
   - title: 무료 파트너 키트 받기
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
-    summary: 원격 작업에 대 한 보안을 유지 하기 위한 실질적인 지침 및 시장 리소스로 이동 합니다.
+    summary: 원격 작업을 보호하는 데 도움이 되는 실용적인 지침 및 시장 리소스를 참조하세요.
     url: https://www.microsoft.com/microsoft-365/partners/videos/secure-your-smb-customers-as-they-cope-with-covid-19
   - title: 어떠한 새로운 기능이 있나요?
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
-    summary: Azure AD Premium P1은 Microsoft 365 Business Premium에 제공 됩니다!
+    summary: Azure AD Premium P1이 Microsoft 365 Business Premium과 호환될 예정입니다!
     url: https://aka.ms/aadp1smbblog
 conceptualContent:
   items:
@@ -82,7 +82,7 @@ conceptualContent:
       text: 기술 기본 사항
     - url: https://www.microsoft.com/microsoft-365/partners/resources/securing-remote-work-checklist
       itemType: download
-      text: 원격 작업 보안 검사 목록
+      text: 원격 작업 보안에 대한 검사 목록
   - title: 사용자 관리
     links:
     - url: https://docs.microsoft.com/microsoft-365/business/add-users-m365b
@@ -189,7 +189,7 @@ conceptualContent:
     links:
     - url: sign-up.md
       itemType: get-started
-      text: Microsoft 365 Business Premium에 등록
+      text: Microsoft 365 Business Premium에 가입
     - url: migrate-to-microsoft-365-business.md
       itemType: how-to-guide
       text: Microsoft 365 Business Standard에서 마이그레이션
