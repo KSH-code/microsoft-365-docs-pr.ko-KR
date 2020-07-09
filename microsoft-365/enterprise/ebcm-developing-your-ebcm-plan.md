@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 클라우드 인식 비즈니스 연속성 계획을 개발할 때 고려해야 할 사항.
-ms.openlocfilehash: f8518a96461d33093b9d736f890f6166dc6b3c97
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 35aa5fb74b8281a089ef0b58998cd297507cc46f
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601095"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083515"
 ---
 # <a name="developing-your-continuity-plan"></a>연속성 계획 개발
 
@@ -80,6 +80,8 @@ ms.locfileid: "41601095"
 
 비즈니스 프로세스를 인벤토리에 포함하고 다른 프로세스 및 기술에 대한 관계를 매핑한 후 모든 프로세스에 대한 유효성 검사 시나리오를 작성해야 합니다. 기본적으로 비즈니스 프로세스 연속성 계획의 유효성을 검사하는 방법에 대해 알아보세요. 일부는 다른 것보다 더 중요하므로, 그에 대해 우선 순위를 지정하는 것이 좋습니다.
 계획이 수립되면 사고 대응 및 연속성 조치에 대한 직원 교육을 정기적으로 실시하는 것이 중요합니다. 사후 검토를 사용하여 각 유효성 검사 또는 테스트의 학습을 통합하여 복원력 전략을 강화해야 합니다.
+
+![기능 유효성 검사 visio](../media/ebcm/capability-validation-visio.png)
 
 ## <a name="incident-coordination-and-communication"></a>사고 조정 및 통신
 
