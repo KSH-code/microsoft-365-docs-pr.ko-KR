@@ -20,6 +20,7 @@ description: 보존 정책을 사용하여 콘텐츠를 보존하거나 삭제�
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: ffd7b644f33e7f432c62c182e2d69e07c8bce730
 ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/19/2020
 ms.locfileid: "44818928"

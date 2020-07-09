@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 항목에서는 Microsoft 365 REST API를 사용하여 이벤트를 통한 보존을 자동화하는 비즈니스 프로세스 흐름을 설정하는 방법에 대해 설명합니다.
-ms.openlocfilehash: 15d2dd8417cf0a22b8db63f64c0bbb288e74880c
-ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
+ms.openlocfilehash: c97106597733460caeab8d1d398ff81e23dd2727
+ms.sourcegitcommit: dc5de2064706137256307f100b8dc61e9797bd1c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45046066"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45068117"
 ---
 # <a name="automate-event-based-retention"></a>이벤트 기반 보존 자동화
 
@@ -159,10 +159,10 @@ Rest API는 서비스 자원에 대한 작성/검색/갱신/삭제 액세스를 
 
 ##### <a name="create-an-event"></a>이벤트 만들기
 
-REST API를 호출하는 샘플 코드
+REST API를 호출하는 샘플 코드:
 
 - **메서드**: POST
-- **URL**: https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent
+- **URL**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent`
 - **헤더**: Key = Content-Type, Value = application/atom+xml
 - **Body**:
     
@@ -298,7 +298,7 @@ REST API를 호출하는 샘플 코드
 | 401               | 인증 실패                                 |
 | 403               | 인증 실패                                |
 
-#### <a name="using-powershell-ver6-or-higher-or-any-http-client"></a>PowerShell(ver.6 이상) 또는 HTTP 클라이언트 사용
+#### <a name="using-powershell-version-6-or-later-or-any-http-client"></a>PowerShell(버전 6 이상) 또는 모든 HTTP 클라이언트를 사용
 
 1단계: PowerShell에 연결합니다.
 
@@ -452,7 +452,9 @@ ERP(Enterprise Resource Planning) 시스템은 Microsoft 365 및 Microsoft Flow�
 
 ### <a name="using-redirect-302-response-results-to-call-the-rest-api"></a>Redirect 302 응답 결과를 이용하여 REST API 호출
 
-1. REST API URL <https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent>을(를) 사용하여 POST 보존 이벤트 호출 호출 (전역 관리자 권한 필요)
+1. REST API URL `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent`을(를) 사용하여 POST 보존 이벤트 호출을 실행합니다.
+    
+    전역 관리자 권한이 필요합니다.
 
 2. 응답코드를 확인하십시오. URL이 302인 경우 응답 헤더의 위치 속성에서 리디렉션된 URL을 가져옵니다.
 

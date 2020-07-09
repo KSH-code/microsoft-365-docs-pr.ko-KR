@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 03083fdf-bc52-409a-b2ac-2a5f5c308fa0
 description: 이 문서에서는 사용자를 위한 설정을 관리하는 방법에 대한 정보를 제공합니다.
-ms.openlocfilehash: 5fa8674b8e188605ba3f6339fd6384c37630c917
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: ca57d536794ffde4865ec86f34c8dc644ff3c1f1
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780208"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080006"
 ---
 # <a name="user-email-settings"></a>사용자 전자 메일 설정
 
@@ -44,4 +44,4 @@ ms.locfileid: "44780208"
 
 > [!NOTE]
 >
-> <sup>1</sup> Office 365에서 완전히 호스트되는 사서함에 대한 전자 메일 앱만 관리할 수 있습니다. 온 프레미스에서 호스트되는 사서함에 대한 전자 메일 앱을 관리하기 위해 이 기능을 사용할 수 없습니다.
+> <sup>1</sup> Microsoft 365에서 완전히 호스트되는 사서함에 대한 전자 메일 앱만 관리할 수 있습니다. 온 프레미스에서 호스트되는 사서함에 대한 전자 메일 앱을 관리하기 위해 이 기능을 사용할 수 없습니다.

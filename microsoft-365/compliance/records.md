@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에서 레코드 관리 솔루션을 구현하는 데 도움이 되는 레코드에 대해 알아봅니다.
-ms.openlocfilehash: 6807f8b8f76b2bc85835edf0d4402b98ea217037
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.openlocfilehash: 35d1becad78cdb01402ba50ba44b277f8c511567
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470583"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080105"
 ---
 # <a name="learn-about-records"></a>레코드에 대해 알아보기
 
@@ -62,7 +62,7 @@ Microsoft 365의 레코드 관리를 통해 조직은 회사 정책 및 법적 �
 
     SharePoint 및 OneDrive 폴더에 보존 레이블을 적용하는 방법에 대한 자세한 내용은 [ SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 콘텐츠에 기본 보존 레이블 적용](labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set)을 참조하세요.
 
-  - **레코드는 삭제될 수 없습니다**. 사용자가 Exchange에서 기록을 삭제하려고 하면 [보존 정책이 Exchange 위치와 작동하는 방식](retention-policies-exchange.md#how-a-retention-policy-works-with-exchange-locations)에 설명된 것처럼 항목이 복구 가능한 항목 폴더로 이동됩니다.
+  - **레코드는 삭제될 수 없습니다**. 사용자가 Exchange에서 기록을 삭제하려고 하면 [보존 정책이 Exchange와 작동하는 방식](retention-policies-exchange.md#how-a-retention-policy-works-with-exchange)에 설명된 것처럼 항목이 복구 가능한 항목 폴더로 이동됩니다.
 
     SharePoint에서 레코드를 삭제하려고 하면 항목이 삭제되지 않았다는 오류 메시지가 표시되고 항목은 라이브러리에 남아 있습니다.
 

@@ -17,21 +17,24 @@ search.appverid:
 - MOE150
 - MET150
 description: Exchange 전자 메일과 Exchange 공용 폴더에만 적용되는 보존 동작에 대해 알아봅니다.
-ms.openlocfilehash: aa4142db2114b2b58cc391429f1389c6b9fad52d
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: 57f0bf7737522b0435b076fee46edd1736efd856
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049896"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080095"
 ---
 # <a name="learn-about-retention-policies-for-exchange"></a>Exchange의 보존 정책에 대해 자세히 알아보기
 
 이 문서의 정보는 Exchange와 관련된 정보를 포함하므로 [보존 정책에 대해 자세히 알아보기](retention-policies.md)를 보완합니다.
 
-## <a name="how-a-retention-policy-works-with-exchange-locations"></a>보존 정책이 Exchange 위치와 작동하는 방식
+## <a name="how-a-retention-policy-works-with-exchange"></a>Exchange에서 보존 정책 작동 원리
 
-사용자의 메일, 일정 및 기타 항목의 경우 보존 정책은 사서함 수준에서 적용됩니다.
+사용자의 메일, 일정 및 기타 사서함 항목의 경우 보존 정책은 사서함 수준에서 적용됩니다.
 
-공용 폴더의 경우 사서함 수준이 아닌 폴더 수준에서 보존 정책이 적용됩니다. 
+공용 폴더의 경우 보존 정책은 폴더 또는 사서함 수준이 아닌 모든 공용 폴더에 적용됩니다.
+
+해당 위치에 대한 보존 정책을 구성하면 전자 메일 메시지(임시 보관함 포함)와 첨부 파일, 작업 및 일정 항목이 끝나는 날짜, 메모가 포함된 메일 메시지에 다음 메일 항목이 포함됩니다. 종료 날짜가 없는 모든 작업 및 일정 항목은 포함되지 않습니다. Skype 및 Teams에 저장된 메시지와 같이 사서함에 저장된 다른 항목은 별도의 보존 정책에 포함되어 있습니다.
 
 사서함 및 공용 폴더 모두 항목을 보존하기 위해 [복구 가능한 항목 폴더](https://docs.microsoft.com/exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder)를 사용합니다. eDiscovery 권한을 할당 받은 사용자만 다른 사용자의 복구 가능한 항목 폴더에서 항목을 볼 수 있습니다.
   
@@ -73,7 +76,7 @@ ms.locfileid: "45049896"
   
 보존 정책에서 Exchange 항목에 대해 선택한 유형을 제외하려면 [RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancerule) 및 [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancerule) cmdlet로 `ExcludedItemClasses` 매개 변수를 사용하세요.
 
-보존 정책 cmdlet을 사용하려면 먼저 [보안 및 준수 센터 Powershell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps)해야 합니다.
+보존 정책 cmdlet을 사용하려면 먼저 [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps)해야 합니다.
 
 ## <a name="when-a-user-leaves-the-organization"></a>사용자가 조직을 떠나는 경우 
 

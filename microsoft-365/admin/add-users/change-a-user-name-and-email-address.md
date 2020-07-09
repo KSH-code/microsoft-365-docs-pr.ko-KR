@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: '전역 관리자가 사용자의 전자 메일 주소 및 표시 이름을 변경하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 0c94114a50ce369ffb809e8f41060994f635a36c
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: fedc1532bfec246392180d386a6960dbb08bd137
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936530"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079716"
 ---
 # <a name="change-a-user-name-and-email-address"></a>사용자 이름 및 전자 메일 주소 변경
 
@@ -50,7 +50,7 @@ ms.locfileid: "44936530"
     
 2. 사용자 이름을 선택한 다음 **계정** 탭에서 **사용자 이름 관리**를 선택합니다.
     
-3. 첫 번째 상자에 새 전자 메일 주소의 첫 부분을 입력합니다. Office 365에 본인의 도메인을 추가한 경우 드롭다운 목록을 사용하여 새로운 전자 메일 별칭의 도메인을 선택합니다. 
+3. 첫 번째 상자에 새 전자 메일 주소의 첫 부분을 입력합니다. Microsoft 365에 본인의 도메인을 추가한 경우 드롭다운 목록을 사용하여 새로운 전자 메일 별칭의 도메인을 선택합니다. 
 
 4. **변경 내용 저장**을 선택합니다.
 
@@ -63,7 +63,7 @@ ms.locfileid: "44936530"
 
 2. 사용자를 선택합니다. 플라이아웃 창에서 **사용자 이름/전자 메일** 옆에 있는 **편집**을 선택합니다.
 
-3. 첫 번째 상자에 새 전자 메일 주소의 첫 부분을 입력합니다. Office 365에 고유 도메인을 추가한 경우 드롭다운 목록을 사용하여 새 전자 메일의 도메인을 선택할 수 있습니다.
+3. 첫 번째 상자에 새 전자 메일 주소의 첫 부분을 입력합니다. Microsoft 365에 고유 도메인을 추가한 경우 드롭다운 목록을 사용하여 새 전자 메일의 도메인을 선택할 수 있습니다.
 
 4. **저장**을 선택합니다.
 
@@ -75,7 +75,7 @@ ms.locfileid: "44936530"
 
 2. 사용자를 선택합니다. 플라이아웃 창에서 **사용자 이름/전자 메일** 옆에 있는 **편집**을 선택합니다.
 
-3. 첫 번째 상자에 새 전자 메일 주소의 첫 부분을 입력합니다. Office 365에 고유 도메인을 추가한 경우 드롭다운 목록을 사용하여 새 전자 메일의 도메인을 선택할 수 있습니다.
+3. 첫 번째 상자에 새 전자 메일 주소의 첫 부분을 입력합니다. Microsoft 365에 고유 도메인을 추가한 경우 드롭다운 목록을 사용하여 새 전자 메일의 도메인을 선택할 수 있습니다.
 
 4. **저장**을 선택합니다.
 
@@ -93,7 +93,7 @@ ms.locfileid: "44936530"
 
 3. 해당 사용자의 기본 전자 메일 주소로 설정할 전자 메일 주소에 대해 **기본으로 설정**을 선택합니다. 
     
-    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Office 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
+    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
     
     또한 전역 관리자인 경우에만 이 옵션이 표시됩니다. 이 옵션이 표시되지 않으면 사용자의 이름과 기본 전자 메일 주소를 변경할 수 있는 권한이 없는 것입니다.
   
@@ -121,7 +121,7 @@ ms.locfileid: "44936530"
 
 3. 해당 사용자의 기본 전자 메일 주소로 설정할 전자 메일 주소에 대해 **기본으로 설정**을 선택합니다. 
     
-    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Office 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
+    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
     
     또한 전역 관리자인 경우에만 이 옵션이 표시됩니다. 이 옵션이 표시되지 않으면 사용자의 이름과 기본 전자 메일 주소를 변경할 수 있는 권한이 없는 것입니다.
   
@@ -131,7 +131,7 @@ ms.locfileid: "44936530"
  
   - 변경 내용이 적용되는 데 시간이 걸릴 수 있습니다.
   
-  - What their new username is. They'll need it to sign in to Office 365.
+  - What their new username is. They'll need it to sign in to Microsoft 365.
     
   - 사용자가 비즈니스용 Skype Online을 사용 중인 경우 사용자에게 모든 비즈니스용 Skype Online 모임의 일정을 조정하고 해당 외부 연락처에 이전 연락처 정보를 업데이트하도록 알려야 한다고 알립니다.
 
@@ -149,7 +149,7 @@ ms.locfileid: "44936530"
 
 3. 해당 사용자의 기본 전자 메일 주소로 설정할 전자 메일 주소에 대해 **기본으로 설정**을 선택합니다. 
     
-    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Office 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
+    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
     
     또한 전역 관리자인 경우에만 이 옵션이 표시됩니다. 이 옵션이 표시되지 않으면 사용자의 이름과 기본 전자 메일 주소를 변경할 수 있는 권한이 없는 것입니다.
   
@@ -159,7 +159,7 @@ ms.locfileid: "44936530"
  
   - 변경 내용이 적용되는 데 시간이 걸릴 수 있습니다.
   
-  - What their new username is. They'll need it to sign in to Office 365.
+  - What their new username is. They'll need it to sign in to Microsoft 365.
     
   - 사용자가 비즈니스용 Skype Online을 사용 중인 경우 사용자에게 모든 비즈니스용 Skype Online 모임의 일정을 조정하고 해당 외부 연락처에 이전 연락처 정보를 업데이트하도록 알려야 한다고 알립니다.
 
@@ -234,7 +234,7 @@ Some people might continue to send email to the person's old email address and d
 
 If they are using Exchange Online or if their account is linked with your organization's on-premises Exchange environment, you might see this error when you try to change a username and email address: "This user is synchronized with your local Active Directory. Some details can be edited only through your local Active Directory."
   
-This is due to the Microsoft Online Email Routing Address (MOERA). The MOERA is constructed from the person's  _userPrincipalName_ attribute in Active Directory and is automatically assigned to the cloud account during the initial sync and once created, it cannot be modified or removed in Office 365. You can subsequently change the username in the Active Directory, but it doesn't change the MOERA and you may run into issues displaying the newly changed name in the Global Address List. 
+This is due to the Microsoft Online Email Routing Address (MOERA). The MOERA is constructed from the person's  _userPrincipalName_ attribute in Active Directory and is automatically assigned to the cloud account during the initial sync and once created, it cannot be modified or removed in Microsoft 365. You can subsequently change the username in the Active Directory, but it doesn't change the MOERA and you may run into issues displaying the newly changed name in the Global Address List. 
   
 이 문제를 해결하려면 Microsoft 365 관리자 자격 증명으로 [PowerShell용 Azure Active Directory 모듈]( https://go.microsoft.com/fwlink/?LinkId=823193)에 로그인합니다. 그리고 다음 구문을 사용합니다. 
   

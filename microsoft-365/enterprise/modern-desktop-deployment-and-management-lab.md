@@ -15,17 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: 7090a9fcc279f9bedc5f86b43952a12e988069e1
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: a52d2ef1570509150aa1b44c7d7d767287e308f1
+ms.sourcegitcommit: 020b89b0d558a866ea68d35b5170db76f6d8d74d
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049919"
+ms.locfileid: "45052728"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 
 이 랩은 Windows 10 Enterprise 및 엔터프라이즈용 Microsoft 365 앱을 실행하는 데스크톱의 배포 및 관리를 계획, 테스트 및 검증하는 데 도움을 주기 위해 만들어졌습니다. 이 랩에서는 Microsoft Endpoint Configuration Manager, Desktop Analytics, Office 사용자 지정 도구, OneDrive, Windows Autopilot 등의 데스크톱 배포 도구에 설명된 단계와 도구를 다룹니다.
 
-이 교육은 Windows 7 사용 종료를 준비하는 조직에 권장되며 현재 Windows 10 및 Office 365 Plus 또는 Office 2019를 사용 중인 경우에도 적용됩니다. 또한 격리된 환경으로서 랩은 배포 도구 업데이트를 탐색하고 배포 관련 자동화를 테스트하는 데 적합합니다.
+이 교육은 Windows 7 사용 종료를 준비하는 조직에 권장되며 현재 Windows 10 및 엔터프라이즈용 Microsoft 365 앱(이전 Office 365 ProPlus) 또는 Office 2019를 사용 중인 경우에도 적용됩니다. 또한 격리된 환경으로서 랩은 배포 도구 업데이트를 탐색하고 배포 관련 자동화를 테스트하는 데 적합합니다.
 
 [Windows 및 Office 배포 랩 키트 다운로드](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
@@ -73,6 +74,7 @@ ms.locfileid: "45049919"
   - 구성 관리자 및 Microsoft Intune을 사용한 엔터프라이즈 관리 배포
   - Microsoft Intune을 사용하여 응용 프로그램 배포 및 관리
   - 비즈니스용 Microsoft Store를 사용하여 앱 배포 및 셀프 서비스 설치
+  - 새로운 기능! Microsoft Teams 설치 
 
 ### <a name="user-file-and-settings-migration"></a>사용자 파일 및 설정 마이그레이션
 
@@ -107,8 +109,7 @@ ms.locfileid: "45049919"
   - 구성 관리자 및 Intune으로 Windows 10 서비스
   - Configuration Manager를 사용하여 엔터프라이즈용 Microsoft 365 앱 제공
   - 새로운 기능! Configuration Manager 및 Intune을 사용하여 Office 업데이트
-  - 새로운 기능! Microsoft Teams 설치 
-
+  
 ### <a name="new-windows-virtual-desktop"></a>새로운 기능! Windows Virtual Desktop
   - Windows 가상 데스크톱: 준비, 배포, 최적화 
 
