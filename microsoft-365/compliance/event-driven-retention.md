@@ -20,11 +20,12 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: 일반적으로 레코드 관리 솔루션의 일부는 사용자가 식별하는 이벤트에 기반하여 보존 기간을 시작하는 보존 레이블을 구성할 수 있습니다.
-ms.openlocfilehash: f2cf60eac1197ed7be3fd8cbbe69e41a37614f86
-ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
+ms.openlocfilehash: a0e0025d23bda36d8b9e6315cb932e58d4237a5c
+ms.sourcegitcommit: dc5de2064706137256307f100b8dc61e9797bd1c
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45048293"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45068127"
 ---
 # <a name="overview-of-event-driven-retention"></a>이벤트 구동 보존 개요
 
@@ -104,17 +105,19 @@ Event-driven retention is typically used as part of a records-management process
 레이블 설정에서 **이벤트** 기반의 레이블을 설정을 위한 옵션을 선택하면 **이벤트 유형 선택** 옵션이 표시됩니다. 이벤트 유형은 레이블을 연결할 이벤트에 대한 일반적인 설명입니다.
   
 예를 들어, 제품 수명이라는 이벤트 유형을 만드는 경우 레이블을 적용하려는 콘텐츠의 형식을 설명하는 이름(예: “제품 개발 파일” 또는 “제품 비즈니스 결정 기록”)을 사용하여 이벤트 기반 보존 레이블을 만듭니다.
-  
+
+기본 제공된 이벤트 유형 중 하나를 선택하거나 직접 이벤트 유형을 만들고 선택합니다.
+
 이벤트 유형을 선택하고 보존 레이블을 저장한 후에는 이벤트 유형을 변경할 수 없습니다.
   
 ![이벤트 유형을 만들거나 선택하는 옵션](../media/8b7afe79-72cb-462e-81d4-b5ddbe899dbc.png)
   
 ### <a name="step-3-publish-or-auto-apply-the-event-based-retention-labels"></a>3단계: 이벤트 기반 보존 레이블 게시 혹은 자동 적용
 
-다른 보존 레이블과 마찬가지로 이벤트 기반 레이블을 [게시하거나 자동 적용](create-retention-labels.md)해야만 콘텐츠에 수동 또는 자동으로 적용됩니다.
+다른 보존 레이블과 마찬가지로 이벤트 기반 레이블을 [게시하거나 자동 적용](create-retention-labels.md)해야만 문서 또는 전자 메일에 적용될 수 있습니다.
 
 > [!NOTE]
-> **레코드 관리** > **파일 계획** 탭 혹은 **데이터 관리** > **레이블** 탭에서 이벤트 중심의 보존 레이블을 선택하는 경우, **레이블 자동 적용** 단추를 사용할 수 없습니다.
+> **레코드 관리** > **파일 계획** 탭 또는 **데이터 관리** > **레이블** 탭에서 이벤트 기반 보존 레이블을 선택하는 경우 **레이블 자동 적용** 단추를 사용할 수 없습니다.
 > 
 > 이 단추 대신 다음 위치 중 하나에서 레이블 또는 정책 목록 위에 있는 **레이블 자동 적용** 옵션을 사용합니다.
 > - **레코드 관리** > **레이블 정책** 탭
@@ -125,7 +128,7 @@ Event-driven retention is typically used as part of a records-management process
 
 ### <a name="step-4-enter-an-asset-id"></a>4단계: 자산 ID 입력
 
-After an event-driven label is applied to content, you can enter an asset ID for each item. For example, your organization might use:
+이벤트 기반 레이블이 콘텐츠에 적용된 후 각 항목의 자산 ID를 입력할 수 있습니다. 예를 들어 사용자의 조직은 다음을 사용할 수 있습니다.
   
 - 특정 제품에 대한 콘텐츠만 보존하는 데 사용할 수 있는 제품 코드
     
@@ -133,13 +136,13 @@ After an event-driven label is applied to content, you can enter an asset ID for
     
 - 특정 사람에 대한 콘텐츠만 보존하는 데 사용할 수 있는 직원 ID
     
-자산 ID는 SharePoint 및 OneDrive의 또 다른 문서 속성입니다. 조직에서 이미 다른 문서 속성 및 ID를 사용하여 콘텐츠를 분류하고 있을 수 있습니다. 이 경우에는 이벤트를 작성할 때 해당 속성 및 값을 사용할 수도 있습니다. 아래 6단계를 참조하세요. 중요한 점은 조직이 문서 속성에서 일부 특성:값 조합을 사용하여 해당 항목을 이벤트 유형과 연결시켜야 한다는 것입니다.
+자산 ID는 SharePoint 및 OneDrive에서 사용할 수 있는 또 다른 문서 속성입니다. 조직에서 이미 다른 문서 속성 및 ID를 사용하여 콘텐츠를 분류하고 있을 수 있습니다. 이 경우에는 이벤트를 작성할 때 해당 속성 및 값을 사용할 수도 있습니다. 아래 6단계를 참조하세요. 중요한 점은 사용자가 문서 속성에서 일부 *속성:값* 조합을 사용하여 해당 항목을 이벤트 유형과 연결시켜야 한다는 것입니다.
   
 ![자산 ID를 입력하기 위한 텍스트 상자](../media/6d31628e-7162-4370-a8d7-de704aafa350.png)
   
 ### <a name="step-5-create-an-event"></a>5단계: 이벤트 만들기
 
-해당 이벤트 유형의 특정 인스턴스가 발생하면(예: 제품이 수명 종료에 도달) Microsoft 365 규정 준수 센터의 **레코드 관리** > **이벤트** 페이지로 가서 이벤트를 만듭니다. 이벤트를 만들어 수동으로 트리거해야 합니다.
+해당 이벤트 유형의 특정 인스턴스가 발생하면(예: 제품이 수명 종료에 도달) Microsoft 365 규정 준수 센터의 **레코드 관리** > **이벤트** 페이지로 가서 이벤트를 만듭니다. 이벤트를 만들어 트리거해야 합니다.
   
 ### <a name="step-6-choose-the-same-event-type-used-by-the-label-in-step-2"></a>6단계: 2단계에서 레이블에 사용된 것과 동일한 이벤트 유형 선택
 
@@ -149,20 +152,19 @@ After an event-driven label is applied to content, you can enter an asset ID for
   
 ### <a name="step-7-enter-keywords-or-an-asset-id"></a>7단계: 키워드 또는 자산 ID 입력
 
-Now you narrow the scope of the content by specifying asset IDs for SharePoint and OneDrive content or keywords for Exchange content. For asset IDs, retention will be enforced only on content with the specified property:value pair. If an asset ID is not entered, **all content** with labels of that event type get the same retention date applied to them. 
+이제 SharePoint 및 OneDrive 콘텐츠의 자산 ID 또는 Exchange 콘텐츠의 키워드를 지정하여 콘텐츠 범위를 좁힐 수 있습니다. 자산 ID의 경우 지정된 *속성:값* 쌍을 가진 콘텐츠에 대해서만 보존이 강제 적용됩니다. 자산 ID가 입력되지 않은 경우 해당 이벤트 유형의 레이블을 가진 모든 콘텐츠는 동일한 보존 날짜가 적용됩니다.
+
+예를 들어 자산 ID 속성을 사용하는 경우 아래 표시된 자산 ID 상자에 `ComplianceAssetID:<value>`을(를) 입력합니다.
   
-자산 ID는 SharePoint 및 OneDrive의 또 다른 문서 속성입니다. 자산 ID 속성을 사용하는 경우, 아래 표시된 자산 ID 상자에 `ComplianceAssetID:<value>`를 입력합니다.
+조직에서 이 이벤트 유형과 관련된 문서에 다른 속성 및 ID를 적용했을 수 있습니다. 예를 들어, 특정 제품의 레코드를 발견해야 하는 경우 ID는 사용자 지정 속성 ProductID와 "XYZ" 값의 조합일 수 있습니다. 이 경우 아래 그림에 표시된 자산 ID 상자에 `ProductID:XYZ`을(를) 입력했습니다.
   
-조직에서 이 이벤트 유형과 관련된 문서에 다른 속성 및 ID를 적용했을 수 있습니다. 예를 들어, 특정 제품의 레코드를 발견해야 하는 경우 ID는 사용자 지정 속성 ProductID와 "XYZ" 값의 조합일 수 있습니다. 이 경우 아래 표시된 자산 ID 상자에 `ProductID:XYZ`를 입력했습니다.
+Exchange 항목의 경우 키워드를 사용합니다. 검색 연산자(예: AND, OR 및 NOT)를 사용하여 쿼리를 사용할 수 있습니다. 자세한 내용은 [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)을 참조하세요.
   
-For Exchange items, you can include keywords. You can refine your query by using search operators like AND, OR, and NOT. For more information on operators, see [Keyword queries and search conditions for Content Search](keyword-queries-and-search-conditions.md).
-  
-마지막으로 이벤트가 발생한 날짜를 선택합니다. 이 날짜는 보존 기간의 시작 날짜로 사용됩니다. 이벤트를 작성한 후, 이벤트 날짜는 해당 이벤트 유형, 자산 ID 및 키워드의 보존 레이블이 있는 모든 콘텐츠와 동기화됩니다. 모든 보존 레이블과 마찬가지로 이 동기화는 7일 정도 걸릴 수 있습니다.
+마지막으로 이벤트가 발생한 날짜를 선택합니다. 이 날짜는 보존 기간의 시작 날짜로 사용됩니다. 이벤트를 작성한 후, 이벤트 날짜는 해당 이벤트 유형, 자산 ID 및 키워드의 보존 레이블이 있는 모든 콘텐츠와 동기화됩니다. 모든 보존 레이블과 마찬가지로 이 동기화는 최대 7일 정도 걸릴 수 있습니다.
   
 ![이벤트 설정 페이지](../media/40d3c9db-f624-49a5-b38a-d16bcce20231.png)
 
-> [!NOTE]
-> 이벤트를 만든 후 보존 설정은 이미 레이블이 지정되고 인덱싱된 콘텐츠에 적용됩니다. 이벤트를 만든 후 새 콘텐츠에 보존 레이블을 추가한 경우에는 동일한 세부 정보를 사용하여 새 이벤트를 만들어야 합니다.
+이벤트를 만든 후 보존 설정은 이미 레이블이 지정되고 인덱싱된 콘텐츠에 적용됩니다. 이벤트를 만든 후 새 콘텐츠에 보존 레이블을 추가한 경우에는 동일한 세부 정보를 사용하여 새 이벤트를 만들어야 합니다.
 
 이벤트를 삭제해도 이미 레이블이 지정된 콘텐츠에 적용되는 보존 설정은 취소되지 않습니다. 보존 설정을 취소하려면 동일한 세부 정보를 사용하여 새 이벤트를 만들되 날짜를 비워 두세요. 
 
@@ -186,7 +188,7 @@ To get access to the **Events** page, reviewers must be members of a role group 
 
 Microsoft 365 규정 준수 센터에서는 이벤트를 수동으로 만들 수 있으며, 이벤트가 발생할 때 이벤트를 자동으로 트리거하는 기능을 지원하지 않습니다. 그러나 Rest API를 사용하여 이벤트를 자동으로 트리거할 수 있습니다. 자세한 내용은 [이벤트 기반 보존 자동화하기](automate-event-driven-retention.md)를 참조하세요.
 
-PowerShell 스크립트를 사용하여 비즈니스 응용 프로그램에서 이벤트 기반 보존을 자동화할 수도 있습니다. 이벤트 구동 보존에 다음 PowerShell cmdlet을 사용할 수 있습니다.
+PowerShell 스크립트를 사용하여 비즈니스 응용 프로그램에서 이벤트 기반 보존을 자동화할 수도 있습니다. 이벤트 기반 보존에 다음 PowerShell cmdlet을 사용할 수 있습니다.
   
 - [Get-ComplianceRetentionEventType](https://go.microsoft.com/fwlink/?linkid=873002)
     

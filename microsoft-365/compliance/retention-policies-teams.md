@@ -17,11 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Teams에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: ead16cf4d89b5dbea2fee4a6669f537a0338984e
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: cf689ec8a0c41528ab97e1ff588a4a50944b8f4e
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049852"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080073"
 ---
 # <a name="learn-about-retention-policies-for-microsoft-teams"></a>Microsoft Teams의 보존 정책에 대해 자세히 알아보기
 
@@ -70,20 +71,27 @@ Teams 채팅 및 채널 메시지는 사용자 또는 그룹 사서함에 대해
 
 ## <a name="skype-for-business-and-teams-interop-chats"></a>비즈니스용 Skype 및 팀 상호 운용 채팅
 
-비즈니스용 Skype 및 Teams interop 채팅에도 동일한 흐름이 적용됩니다. 비즈니스용 Skype 채팅이 Teams로 이동하는 경우 해당 채팅은 Teams 채팅 스레드에서 메시지가 되고 해당 사서함에 수집됩니다. Teams 보존 정책은 이러한 메시지를 Teams 스레드에서 삭제합니다. 
+비즈니스용 Skype 및 Teams interop 채팅에도 동일한 흐름이 적용됩니다. 비즈니스용 Skype 채팅이 Teams로 이동하는 경우 해당 채팅은 Teams 채팅 스레드에서 메시지가 되고 해당 사서함에 수집됩니다. Teams 보존 정책은 이러한 메시지를 Teams 스레드에서 적용합니다. 
 
-그러나 비즈니스용 Skype 및 비즈니스용 Skype 클라이언트 쪽에서 대화 기록을 사용하도록 설정한 경우 기록이 사서함에 저장되는 경우 해당 Teams의 보존 정책이 해당 채팅 데이터를 처리하지 않습니다.
+그러나 비즈니스용 Skype 및 비즈니스용 Skype 클라이언트 쪽에서 대화 기록을 사용하도록 설정한 경우 기록이 사서함에 저장되는 경우 해당 Teams의 보존 정책이 해당 채팅 데이터를 처리하지 않습니다. 이 콘텐츠의 경우 비즈니스용 Skype에 대해 구성된 보존 정책을 사용합니다.
 
-## <a name="files-in-teams"></a>Teams의 파일
+## <a name="additional-retention-policies-needed-to-support-teams"></a>Teams 지원에 필요한 추가 보존 정책
 
-Teams의 채팅에서 공유되는 파일은 파일을 공유하는 사용자의 OneDrive 계정에 저장됩니다. 채널에 업로드된 파일은 해당 팀의 SharePoint 사이트에 저장됩니다. 즉, Teams에서 파일을 유지하거나 삭제하려면 Teams에 대해 구성한 보존 정책 외에도 OneDrive 계정 및 SharePoint에 적용되는 하나 이상의 보존 정책을 구성해야 합니다. 이러한 위치에서 보존 정책이 작동하는 방법에 대한 자세한 내용은 [SharePoint 및 OneDrive의 보존 정책에 대해 알아보기](retention-policies-sharepoint.md)를 참조하세요.
+Teams는 채팅 및 채널 메시지 그 이상입니다. Microsoft 365 그룹에서 만든 팀(이전에는 Office 365 그룹)을 가진 경우 **Office 365 그룹** 위치를 사용하여 Microsoft 365 그룹을 포함하는 보존 정책을 추가적으로 구성해야 합니다. 이 보존 정책은 그룹의 사서함, 사이트 및 파일의 콘텐츠에 적용됩니다.
+
+팀 사이트가 Microsoft 365 그룹에 연결되어 있지 않은 경우 Teams에서 파일을 보존하고 삭제하려면 **SharePoint 사이트** 또는 **OneDrive 계정** 위치를 포함하는 보존 정책이 필요합니다.
+
+- 채팅에서 공유되는 파일은 해당 파일을 공유하는 사용자의 OneDrive 계정에 저장됩니다. 
+
+- 채널에 업로드된 파일은 해당 팀의 SharePoint 사이트에 저장됩니다.
+
+> [!TIP]
+> 특정 팀의 SharePoint 사이트 및 특정 팀 사용자의 OneDrive 계정을 선택하여 Microsoft 365 그룹에 연결되어 있지 않으면 해당 팀의 파일에 보존 정책을 적용할 수 있습니다.
+
+Microsoft 365 그룹, SharePoint 사이트 또는 OneDrive 계정에 적용되는 보존 정책은 해당 메시지가 삭제되기 전에 Teams 채팅 또는 채널 메시지에서 참조되는 파일을 삭제할 수 있습니다. 이 시나리오에서는 파일이 Teams 메시지에 여전히 표시되지만 사용자가 파일을 선택하면 "파일을 찾을 수 없음" 오류가 발생합니다. 이 동작은 보존 정책에만 국한된 것이 아니며 사용자가 SharePoint 또는 OneDrive에서 파일을 수동으로 삭제하는 경우에도 발생할 수 있습니다.
 
 > [!NOTE]
-> Teams 채널 메시지 또는 Teams 채팅을 포함하는 보존 정책에는 Teams 위치만 포함될 수 있습니다. 따라서 Teams에서 이러한 파일을 유지하거나 삭제하려면 별도의 보존 정책을 만들어야합니다.
-> 
-> 특정 팀의 파일에 보존 정책을 적용하려면 해당 팀의 SharePoint 사이트 및 해당 팀 사용자의 OneDrive 계정을 선택할 수 있습니다.
-
-SharePoint 또는 OneDrive에 적용되는 보존 정책은 해당 메시지가 삭제되기 전에 Teams 채팅 또는 채널 메시지에서 참조되는 파일을 삭제할 수 있습니다. 이 시나리오에서는 파일이 Teams 메시지에 여전히 표시되지만, 사용자가 파일을 클릭하면 "파일을 찾을 수 없음" 오류가 발생합니다. 이 동작은 보존 정책에만 국한된 것이 아니며 사용자가 SharePoint 또는 OneDrive에서 파일을 수동으로 삭제하는 경우에도 발생할 수 있습니다.
+> Teams 채널 메시지 또는 Teams 채팅을 포함하는 보존 정책에는 Teams 위치만 포함될 수 있습니다. 따라서 Teams에서 지원하는 다른 콘텐츠를 보존하거나 삭제하려면 별도의 보존 정책을 만들어야 합니다.
 
 ## <a name="meetings-and-external-users"></a>모임 및 외부 사용자
 
@@ -99,7 +107,7 @@ SharePoint 또는 OneDrive에 적용되는 보존 정책은 해당 메시지가 
 
 ## <a name="when-a-user-leaves-the-organization"></a>사용자가 조직을 떠나는 경우 
 
-사용자가 조직을 떠나 Office 365 계정이 삭제된 경우 보존이 적용되는 해당 사용자의 채팅 메시지는 비활성 사서함에 저장됩니다. 채팅 메시지는 비활성화 상태로 변경되기 전에 사서함에 적용된 보존 정책의 적용을 받으며, 콘텐츠 또한 eDiscovery 검색에서 사용될 수 있습니다. 자세한 내용은 [Exchange Online에서 비활성 사서함](inactive-mailboxes-in-office-365.md)을 참조하세요. 
+사용자가 조직을 떠나 Microsoft 365 계정이 삭제된 경우 보존이 적용되는 해당 사용자의 채팅 메시지는 비활성 사서함에 저장됩니다. 채팅 메시지는 비활성화 상태로 변경되기 전에 사서함에 적용된 보존 정책의 적용을 받으며, 콘텐츠 또한 eDiscovery 검색에서 사용될 수 있습니다. 자세한 내용은 [Exchange Online에서 비활성 사서함](inactive-mailboxes-in-office-365.md)을 참조하세요. 
 
 사용자가 Teams에 저장한 파일이 있다면 SharePoint 및 OneDrive의 경우 [해당 섹션](retention-policies-sharepoint.md#when-a-user-leaves-the-organization)을 참조하세요.
 
@@ -114,16 +122,16 @@ Microsoft는 Teams에서 보존 기능을 최적화하기 위해 지속적으로
 - **Teams는 고급 보존을 지원하지 않습니다**. 보존 정책을 만들 때 [특정 조건을 만족하는 콘텐츠를 식별하기 위해 고급 설정](create-retention-policies.md#advanced-settings-to-identify-content-that-meets-specific-conditions)을 선택하면 Teams 위치를 사용할 수 없습니다. 현재 Teams에서 보존은 해당 위치를 선택할 때 모든 채팅 및 채널 메시지 내용에 적용됩니다.
 
 - **개인 채널의 Teams 메시지는 Teams 채널 메시지에 대한 보존 정책을 구성할 때 포함되지 않습니다**. 대신 개인 채널의 메시지는 **Teams 채팅** 옵션을 사용하여 그룹 채팅으로 사용자에게 포함됩니다. 
+
+- **Teams에서 만료된 메시지를 정리하는 데 최대 7일이 걸릴 수 있습니다.** Teams에 적용되는 보존 정책은 보존 기간이 만료되면 채팅 및 채널 메시지를 삭제합니다. 그러나 이 메시지를 정리하고 영구적으로 삭제하는 데 3일~7일이 걸릴 수 있습니다. 또한 보존 기간이 만료된 후 및 메시지가 영구적으로 삭제된 경우 eDiscovery 도구를 사용하여 채팅 및 채널 메시지를 검색할 수 있습니다.
     
-- **Teams에서 만료된 메시지를 정리하는 데 최대 3 일이 걸릴 수 있습니다**. Teams에 적용되는 보존 정책은 보존 기간이 만료되면 채팅 및 채널 메시지를 삭제합니다. 그러나 이 메시지를 정리하고 영구적으로 삭제하는 데 최대 3일이 걸릴 수 있습니다. 또한 보존 기간이 만료된 후 및 메시지가 영구적으로 삭제된 경우 eDiscovery 도구를 사용하여 채팅 및 채널 메시지를 검색할 수 있습니다.
-    
-   > [!NOTE]
-   > 전에는 보존 정책으로 30일이 지나지 않은 Teams 콘텐츠를 삭제할 수 없었지만 이 제한을 제거했습니다. 이제 Teams 콘텐츠의 보존 기간은 원하는 일수이며 단 하루에 그칠 수도 있습니다. 보존 기간이 하루인 경우 보존 기간이 만료 된 후 메시지가 영구적으로 삭제되기까지 최대 3일이 소요됩니다.
+    > [!NOTE]
+    > 전에는 보존 정책으로 30일이 지나지 않은 Teams 콘텐츠를 삭제할 수 없었지만 이 제한을 제거했습니다. 이제 Teams 콘텐츠의 보존 기간은 원하는 일수이며 단 하루에 그칠 수도 있습니다. 보존 기간이 하루인 경우 보존 기간이 만료 된 후 메시지가 영구적으로 삭제되기까지 최대 7일이 소요됩니다.
 
 - **Outlook에서 잘못된 표시 문제가 발생했습니다**. Skype 또는 Teams 위치에 대한 보존 정책을 만드는 경우 사용자가 Outlook 데스크톱 클라이언트에서 사서함 폴더의 속성을 볼 때 해당 정책 중 하나가 기본 폴더 정책으로 표시됩니다. 이것은 Outlook의 잘못된 표시 문제이며 [알려진 문제](https://support.microsoft.com/help/4491013/outlook-client-displays-teams-or-skype-for-business-retention-policies)입니다. 기본 폴더 정책으로 표시되어야 하는 것은 폴더에 적용되는 사서함 보존 정책입니다. Skype 또는 Teams 보존 정책은 사용자의 사서함에 적용되지 않습니다.
 
-- **구성 문제**
-    - **Teams 채널 메시지 위치**에 **팀 선택**을 선택하면 Teams가 아닌 Office 365 그룹이 표시될 수 있습니다. 이 그룹을 선택하지 마세요.
+- **구성 문제** 
+    - **Teams 채널 메시지** 위치에 **팀 선택**을 선택하면 팀이 아닌 Microsoft 365 그룹이 표시될 수 있습니다. 이 그룹을 선택하지 마세요.
     
     - **Teams 채팅** 위치에 대해 **사용자 선택**을 선택하면 게스트 및 사서함이 아닌 사용자가 표시될 수 있습니다. 보존 정책은 이러한 사용자를 위해 설계되지 않았으므로 선택하지 마세요.
 

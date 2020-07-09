@@ -15,7 +15,7 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: a7d2dfe479d51d67c526dbe1bed2bc3dc5c56546
   ms.sourcegitcommit: 7f765670cb6970fdf7ddbad464ed3f8fe704bfaf
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ko-KR
   ms.lasthandoff: 06/27/2020
   ms.locfileid: "44909291"
@@ -54,7 +54,7 @@ additionalContent:
       summary: 대규모 조직을 위해 설계되었습니다. Office 앱, Windows 10, Enterprise Mobility + Security를 사용하여 비즈니스를 보호하고 업무 방식을 혁신하세요.
       url: ./enterprise/index.yml
     - title: Microsoft 365 솔루션 및 아키텍처 센터
-      summary: 조직에 적합 한 솔루션 및 아키텍처를 디자인 하는 방법을 이해 합니다.
+      summary: 조직에 적합한 솔루션 및 아키텍처를 설계하는 방법 이해
       url: ./solutions/index.yml
     - title: Microsoft 365 Education
       summary: 강사들이 교육용으로 디자인된 저렴한 단일 솔루션에서 독창성을 발휘하고, 팀 작업을 촉진하고, 간편하고 안전한 환경을 제공하도록 설계되었습니다.
