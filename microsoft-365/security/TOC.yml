@@ -215,8 +215,12 @@
               href: mtp/device-profile.md
             - name: 피드백 제공
               href: mtp/feedback.md
-            - name: ServiceNow를 통해 티켓 관리
-              href: ./mtp/tickets.md
+            - name: ServiceNow 티켓 및 작업 만들기
+              items:
+                - name: ServiceNow 통합 개요
+                  href: ./mtp/tickets.md
+                - name: 보안 센터의 ServiceNow 티켓
+                  href: ./mtp/tickets-security-center.md
     - name: Microsoft 365 보안
       items:
         - name: 시작하기

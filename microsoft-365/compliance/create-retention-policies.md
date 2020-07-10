@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체 또는 특정 위치 또는 사용자에게 단일 정책을 적용할 수 있고 모든 콘텐츠 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: 12b0c15186a27a1583403214a657367c1dd3b1a9
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: ab6a61e0cedfd91d642823f0c459a5a1699df000
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844754"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083620"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -52,7 +52,7 @@ ms.locfileid: "44844754"
     
     Microsoft Teams의 경우: 
     - Teams 채널 메시지 또는 Teams 채팅을 삭제하거나 유지하려면 특정 위치를 선택하는 옵션을 선택해야 합니다. 이러한 옵션 중 하나를 위치로 선택하면 이 Teams 데이터를 포함하는 보존 정책에 다른 위치를 포함할 수 없으므로 다른 위치는 자동으로 제외됩니다. 
-    - **Teams 채널 메시지**의 경우 표준 채널이지만 [비공개 채널](https://docs.microsoft.com/microsoftteams/private-channels)의 메시지는 포함되지 않습니다. 개인 채널의 메시지는 **Teams 채팅** 위치를 선택할 때 그룹 채팅으로 사용자에 게 제공됩니다.
+    - **Teams 채널 메시지**의 경우 표준 채널이지만 [비공개 채널](https://docs.microsoft.com/microsoftteams/private-channels)의 메시지는 포함되지 않습니다. 현재 개인 채널은 보존 정책에서 지원 되지 않습니다.
     
     조직 또는 특정 위치에 대한 보존 정책을 선택하는 방법에 대한 자세한 내용은 이 페이지의 [전체 조직 또는 특정 위치에 보존 정책 적용](#applying-a-retention-policy-to-an-entire-organization-or-specific-locations)을 참조하세요.
     
@@ -238,9 +238,11 @@ You can also apply a retention policy only to content that contains [specific ty
     ![PowerShell의 보존 정책 목록](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
     
 3. 보존 정책에 유지 잠금을 적용하려면 `RestrictiveRetention` 매개 변수가 true로 설정된 `Set-RetentionCompliancePolicy`를 실행합니다. 예시:
-    
-        Set-RetentionCompliancePolicy -Identity "<Name of Policy>" – RestrictiveRetention $true
-    
+
+   ```powershell
+   Set-RetentionCompliancePolicy -Identity "<Name of Policy>" – RestrictiveRetention $true
+   ```
+   
     ![PowerShell의 RestrictiveRetention 매개 변수](../media/retention-policy-preservation-lock-restrictiveretention.PNG)
     
     이 cmdlet을 실행한 후 **모두 예**를 선택합니다.

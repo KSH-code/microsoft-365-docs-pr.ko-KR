@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 조직의 요구 사항에 맞는 규칙을 사용할 수 있도록 해주는 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 7c9be91de796ed06ca2bdd71e9e4de0462a92358
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 6e9fb0295f8958584878921c1fac362dc511be8f
+ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817937"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086615"
 ---
 # <a name="customize-a-built-in-sensitive-information-type"></a>기본 제공 중요한 정보 유형 사용자 지정
 
@@ -37,23 +37,24 @@ XML을 내보내려면 [원격 PowerShell을 통해 보안 및 준수 센터에 
   
 1. In the PowerShell, type the following to display your organization's rules on screen. If you haven't created your own, you'll only see the default, built-in rules, labeled "Microsoft Rule Package."
 
-```powershell
-Get-DlpSensitiveInformationTypeRulePackage
-```    
+   ```powershell
+   Get-DlpSensitiveInformationTypeRulePackage
+   ```
+
 2. Store your organization's rules in a variable by typing the following. Storing something in a variable makes it easily available later in a format that works for remote PowerShell commands.
 
-```powershell    
-$ruleCollections = Get-DlpSensitiveInformationTypeRulePackage
-```
+   ```powershell    
+   $ruleCollections = Get-DlpSensitiveInformationTypeRulePackage
+   ```
     
 3. Make a formatted XML file with all that data by typing the following. ( `Set-content` is the part of the cmdlet that writes the XML to the file.) 
-    
-```powershell
-Set-Content -path C:\custompath\exportedRules.xml -Encoding Byte -Value $ruleCollections.SerializedClassificationRuleCollection
-```
 
-> [!IMPORTANT]
-> Make sure that you use the file location where your rule pack is actually stored.  `C:\custompath\` is a placeholder. 
+   ```powershell
+   Set-Content -path C:\custompath\exportedRules.xml -Encoding Byte -Value $ruleCollections.SerializedClassificationRuleCollection
+   ```
+
+   > [!IMPORTANT]
+   > Make sure that you use the file location where your rule pack is actually stored.  `C:\custompath\` is a placeholder. 
   
 ## <a name="find-the-rule-that-you-want-to-modify-in-the-xml"></a>XML에서 수정하려는 규칙 찾기
 
@@ -63,21 +64,21 @@ The cmdlets above exported the entire *rule collection*, which includes the defa
     
 2. Scroll down to the  `<Rules>` tag, which is the start of the section that contains the DLP rules. Because this XML file contains the information for the entire rule collection, it contains other information at the top that you need to scroll past to get to the rules.
     
-3. Look for *Func_credit_card* to find the Credit Card Number rule definition. In the XML, rule names can't contain spaces, so the spaces are usually replaced with underscores, and rule names are sometimes abbreviated. An example of this is the U.S. Social Security number rule, which is abbreviated "SSN." The Credit Card Number rule XML should look like the following code sample.
+3. Look for *Func_credit_card* to find the Credit Card Number rule definition. In the XML, rule names can't contain spaces, so the spaces are usually replaced with underscores, and rule names are sometimes abbreviated. An example of this is the U.S. Social Security number rule, which is abbreviated _SSN_. The Credit Card Number rule XML should look like the following code sample.
     
-  ```xml
-  <Entity id="50842eb7-edc8-4019-85dd-5a5c1f2bb085"
-         patternsProximity="300" recommendedConfidence="85">
-        <Pattern confidenceLevel="85">
-         <IdMatch idRef="Func_credit_card" />
-          <Any minMatches="1">
-            <Match idRef="Keyword_cc_verification" />
-            <Match idRef="Keyword_cc_name" />
-            <Match idRef="Func_expiration_date" />
-          </Any>
-        </Pattern>
-      </Entity>
-  ```
+   ```xml
+   <Entity id="50842eb7-edc8-4019-85dd-5a5c1f2bb085"
+          patternsProximity="300" recommendedConfidence="85">
+         <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_credit_card" />
+           <Any minMatches="1">
+             <Match idRef="Keyword_cc_verification" />
+             <Match idRef="Keyword_cc_name" />
+             <Match idRef="Func_expiration_date" />
+           </Any>
+         </Pattern>
+       </Entity>
+   ```
 
 Now that you have located the Credit Card Number rule definition in the XML, you can customize the rule's XML to meet your needs. For a refresher on the XML definitions, see the [Term glossary](#term-glossary) at the end of this topic.
   
@@ -204,18 +205,20 @@ You might want to require corroborative evidence but want different or additiona
     
 3. PowerShell에서 다음을 입력합니다.
 
-```powershell    
-New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path "C:\custompath\MyNewRulePack.xml" -Encoding Byte).
-```
-> [!IMPORTANT]
-> Make sure that you use the file location where your rule pack is actually stored.  `C:\custompath\` is a placeholder. 
+   ```powershell    
+   New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path "C:\custompath\MyNewRulePack.xml" -Encoding Byte)
+   ```
+   
+   > [!IMPORTANT]
+   > Make sure that you use the file location where your rule pack is actually stored.  `C:\custompath\` is a placeholder. 
   
 4. 확인하려면 Y를 입력하고 **Enter** 키를 누릅니다.
+
 5. 새 규칙이 업로드 되었으며 다음을 입력하여 표시 이름을 확인합니다.
 
-```powershell
-Get-DlpSensitiveInformationType
-```
+   ```powershell
+   Get-DlpSensitiveInformationType
+   ```
 
 To start using the new rule to detect sensitive information, you need to add the rule to a DLP policy. To learn how to add the rule to a policy, see [Create a DLP policy from a template](create-a-dlp-policy-from-a-template.md).
   
