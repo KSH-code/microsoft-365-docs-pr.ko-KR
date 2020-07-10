@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 9959d41cf112c1ebcc88a8dd0335cae5a5537059
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: d4c2ed423743bb0f7a9c4550421c5266cc5d08b0
+ms.sourcegitcommit: a4926e98b6594bbee68bfca90438c9c764499255
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327864"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45091958"
 ---
 # <a name="insider-risk-management-cases"></a>참가자 위험 관리 사례
 
@@ -103,7 +103,7 @@ ms.locfileid: "44327864"
 
 ### <a name="content-explorer"></a>콘텐츠 탐색기
 
-위험 분석가 및 investigators가 위험 알림과 관련 된 모든 개별 파일 및 전자 메일 메시지의 복사본을 검토할 수 있도록 하는 **콘텐츠 탐색기** 탭입니다. 예를 들어 직원이 SharePoint Online에서 USB 장치로 수백 개의 파일을 다운로드 하 고 해당 활동에서 정책 경고가 발생 하는 경우 경고에 대 한 다운로드 된 파일은 모두 캡처 및 원래 저장소 원본의 참가자 위험 관리 사례로 복사 됩니다.
+위험 분석가 및 investigators가 위험 알림과 관련 된 모든 개별 파일 및 전자 메일 메시지의 복사본을 검토할 수 있도록 하는 **콘텐츠 탐색기** 탭입니다. 예를 들어 직원이 SharePoint Online에서 수백 개의 파일을 다운로드 하 고 활동에서 정책 경고를 트리거하는 경우 경고가 생성 되 면 모든 다운로드 된 파일이 원본 저장소 원본의 참가자 위험 관리 사례로 캡처되고 복사 됩니다.
 
 Content Explorer는 기본 및 고급 검색 및 필터링 기능을 제공 하는 강력한 도구입니다. 콘텐츠 탐색기를 사용 하는 방법에 대 한 자세한 내용은 [Insider 위험성이 Management Content Explorer](insider-risk-management-content-explorer.md)를 참조 하십시오.
 

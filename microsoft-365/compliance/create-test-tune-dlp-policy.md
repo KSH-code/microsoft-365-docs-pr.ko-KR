@@ -19,16 +19,16 @@ ms.custom:
 - seo-marvel-mar2020
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: 이 문서에서는 조직의 요구 사항에 따라 DLP 정책을 만들고 테스트 하 고 조정 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 9f5f1b1f84ba44dbf52366d30b0e26bbf310e9fe
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 3405fc99f4d12715972b1fd18a9c20dd9334382b
+ms.sourcegitcommit: a4926e98b6594bbee68bfca90438c9c764499255
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352225"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45092008"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>DLP 정책 만들기, 테스트 및 조정
 
-DLP (데이터 손실 방지)는 조직에서 원치 않는 사용자에 게 중요 한 정보가 고의적 이거나 실수로 노출 되지 않도록 하는 데 도움이 되는 규정 준수 기능입니다. DLP는 Exchange Server 및 Exchange Online의 루트를 포함 하며 SharePoint Online 및 비즈니스용 OneDrive 에서도 사용할 수 있습니다.
+DLP (데이터 손실 방지)는 조직에서 원치 않는 사용자에 게 중요 한 정보가 실수로 노출 되는 것을 방지할 수 있도록 설계 된 규정 준수 기능입니다. DLP는 Exchange Server 및 Exchange Online의 루트를 포함 하며 SharePoint Online 및 비즈니스용 OneDrive 에서도 사용할 수 있습니다.
 
 DLP는 콘텐츠 분석 엔진을 사용 하 여 전자 메일 메시지 및 파일의 내용을 검토 하 고 신용 카드 번호 및 PII (개인 식별 정보)와 같은 중요 한 정보를 검색 합니다. 중요 한 정보는 전자 메일 메시지를 암호화 하는 등의 추가 단계를 수행 하지 않고 전자 메일로 보내거나 문서에 포함 되지 않아야 합니다. DLP를 사용 하 여 중요 한 정보를 검색 하 고 다음과 같은 작업을 수행할 수 있습니다.
 

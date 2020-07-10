@@ -1,11 +1,12 @@
 ---
-title: 악성 전자 메일 찾기 및 조사
+title: Office 365에서 제공 된 악성 전자 메일을 조사 하 고 악성 전자 메일을 찾고 조사 합니다.
 keywords: TIMailData-Inline, Security 인시던트, 인시던트, ATP PowerShell, 전자 메일 맬웨어, 손상 된 사용자, 전자 메일 피싱, 전자 메일 맬웨어, 읽기 전자 메일 머리글, 읽기 헤더, 공개 전자 메일 헤더
 f1.keywords:
 - NOCSH
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
+ms.date: 07/09/2020
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -18,18 +19,21 @@ ms.collection:
 - M365-security-compliance
 description: 위협 조사 및 응답 기능을 사용 하 여 악성 전자 메일을 찾고 조사 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0ac44ab06aaff1618df2dfc1485d15a68458f385
-ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
+ms.openlocfilehash: 747b6b875a3b7ebc8125ac27ed00c9a300845427
+ms.sourcegitcommit: a4926e98b6594bbee68bfca90438c9c764499255
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45039415"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45091964"
 ---
-# <a name="investigate-and-remediate-malicious-email-that-was-delivered-in-office-365"></a>Office 365에서 제공 된 악성 전자 메일 조사 및 재구성
+# <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Office 365에서 제공 된 악성 전자 메일 조사
 
 [Office 365 Advanced Threat Protection](office-365-atp.md) 을 사용 하면 조직에 사용자를 추가 하 고 조직을 보호 하기 위한 작업을 수행 하는 활동을 조사할 수 있습니다. 예를 들어 조직의 보안 팀에 속한 경우 배달 된 의심 스러운 전자 메일 메시지를 찾아서 조사할 수 있습니다. [위협 탐색기 (또는 실시간 검색)](threat-explorer.md)를 사용 하 여이 작업을 수행할 수 있습니다.
+
+> [!NOTE]
+> [여기](https://docs.microsoft.com/microsoft-365/security/mtp/article-submission/remediate-malicious-email-delivered-office-365?view=o365-21vianet&branch=pr-en-us-4258)에서 업데이트 관리 문서로 이동 합니다.
   
-## <a name="before-you-begin"></a>시작하기 전에...
+## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
 
 다음 조건이 충족되었는지 확인하세요.
   
@@ -177,6 +181,9 @@ ms.locfileid: "45039415"
   
      **전자 메일 시간 표시 막대** 는 보안 운영 팀에서 더 쉽게 찾을 수 있도록 하는 위협 탐색기의 필드입니다. 전자 메일에서 여러 이벤트가 발생 하거나 같은 시간에 발생할 경우 이러한 이벤트는 시간 표시 막대 보기에 표시 됩니다. 전자 메일로 배달 후 발생 하는 일부 이벤트는 **특수 작업** 열에 캡처됩니다. 전자 메일 메시지의 시간 표시 막대와 정보를 결합 하 여 배달 후 발생 하는 모든 특수 작업을 통해 관리자는 정책 및 위협 처리 (예: 메일을 라우팅된 위치, 일부 경우에는 최종 평가)를 파악할 수 있습니다.
 
+> [!IMPORTANT]
+> [여기](https://docs.microsoft.com/microsoft-365/security/mtp/article-submission/remediate-malicious-email-delivered-office-365?view=o365-worldwide)에서 수정 항목으로 이동 합니다.
+
 <!-- Reference material
 
 1. **Navigate to Threat Explorer**: Go to [https://protection.office.com](https://protection.office.com) and sign in using your work or school account for Office 365. This takes you to the Security &amp; Compliance Center. 
@@ -254,6 +261,8 @@ To access your message header and email download options, follow these steps:
 -->
 
 ## <a name="related-topics"></a>관련 항목
+
+[Office 365에서 제공 되는 악성 전자 메일 재구성](https://docs.microsoft.com/microsoft-365/security/mtp/article-submission/remediate-malicious-email-delivered-office-365?view=o365-worldwide)
 
 [Office 365 Advanced Threat Protection](office-365-ti.md)
   

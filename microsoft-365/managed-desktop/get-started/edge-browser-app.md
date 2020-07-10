@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: d11fd8f29e3232472f9457ba1fc288a5084429e9
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: f4bc5f85b21148c5a923ca1fc18879a193191c4b
+ms.sourcegitcommit: 09a500a44d8723f8f2be87d9ad4ce7e453c5192b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936140"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45094789"
 ---
 # <a name="new-microsoft-edge-app"></a>새 Microsoft Edge 앱
 
@@ -86,7 +86,7 @@ Microsoft Managed Desktop은이 정책을 설정 하 여 Chrome 확장이 관리
 
 **기본값:** 있지
 
-연결 된 보안 위험으로 인해 Flash를 사용 하지 않는 것이 좋습니다. 여전히 Flash에 의존 하는 프로세스를 사용 하는 경우에는 **[PluginsAllowedForUrls](https://docs.microsoft.com/deployedge/microsoft-edge-policies#pluginsallowedforurls)** 정책을 설정 하 여 해당 프로세스가 필요한 사이트에서 flash를 활성화 합니다. Flash를 사용할 수 있도록 허용 된 사이트 목록을 유지 관리할 수 없는 경우에는 변경 요청을 수행 하 여 클릭 하 여 **재생**하도록 값을 변경 하면 사용자가 Flash를 실행 하는 것이 적합할 때를 선택할 수 있습니다.
+연결 된 보안 위험으로 인해 Flash를 사용 하지 않는 것이 좋습니다. 여전히 Flash에 의존 하는 프로세스를 사용 하는 경우에는 **[PluginsAllowedForUrls](https://docs.microsoft.com/deployedge/microsoft-edge-policies#pluginsallowedforurls)** 정책을 설정 하 여 해당 프로세스가 필요한 사이트에서 flash를 활성화 합니다. Flash를 사용할 수 있도록 허용 된 사이트 목록을 유지 관리할 수 없는 경우에는 변경 요청을 수행 하 여 **클릭**하 여 재생 하도록 값을 변경 하면 사용자가 Flash를 실행 하는 것이 적절할 때를 선택할 수 있습니다.
 
 ### <a name="password-manager"></a>암호 관리자
 

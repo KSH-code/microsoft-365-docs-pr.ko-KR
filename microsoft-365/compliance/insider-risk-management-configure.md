@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: e8c8783a570fe1b747ba8d2cf07f7d7f6f2fe39f
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: 000f5ee96587aeb055db783e11833aefa6335a14
+ms.sourcegitcommit: a4926e98b6594bbee68bfca90438c9c764499255
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515765"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45091924"
 ---
 # <a name="get-started-with-insider-risk-management"></a>내부자 위험 관리 시작
 
@@ -28,7 +28,7 @@ ms.locfileid: "44515765"
 
 사용자의 참가자 위험 정책을 통해 조직의 위험을 관리 하는 방법에 대 한 자세한 내용은 [Microsoft 365의 참가자 위험 관리](insider-risk-management.md)를 참조 하세요.
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
 
 참가자 위험 관리를 시작 하기 전에 [Microsoft 365 구독](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) 및 모든 추가 기능을 확인 해야 합니다. 참가자 위험 관리에 액세스 하 고 사용 하려면 조직에 다음 구독 또는 추가 기능 중 하나가 있어야 합니다.
 
@@ -60,7 +60,7 @@ Microsoft 365 Enterprise E5 요금제가 아직 없는 경우 microsoft 365을 �
 
 사용자를 참가자 위험 관리 역할 그룹에 추가 하려면 다음 단계를 완료 합니다.
 
-1. [https://protection.office.com/permissions](https://protection.office.com/permissions)Microsoft 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. "" "" "" ""
+1. [https://protection.office.com/permissions](https://protection.office.com/permissions)Microsoft 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
 
 2. 보안 &amp; 및 준수 센터에서 **사용 권한**으로 이동 합니다. Office 365에서 역할을 보고 관리 하는 링크를 선택 합니다.
 

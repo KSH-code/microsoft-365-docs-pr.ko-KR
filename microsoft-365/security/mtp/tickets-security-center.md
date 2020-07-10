@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: 48512cf2fff802509ebaa14ca69d3ca02908902e
-ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
+ms.openlocfilehash: 16ee37b1c7bf33c902db35af2d29744f42830ea7
+ms.sourcegitcommit: 09a500a44d8723f8f2be87d9ad4ce7e453c5192b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45087936"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45094837"
 ---
 # <a name="create-and-track-servicenow-tickets-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터에서 ServiceNow 티켓 만들기 및 추적
 
@@ -54,9 +54,7 @@ Microsoft 365 보안 센터 홈 페이지로 이동 하 여 ServiceNow 연결 �
 
 ## <a name="create-a-task-and-share-it-to-servicenow"></a>작업 만들기 및 ServiceNow에 공유
 
-통합이 설정 되 면 특정 Microsoft 보안 점수 향상 작업을 기반으로 ServiceNow 작업을 만듭니다. Microsoft 365 보안 센터 포털의 보안 점수에 있는 개선 작업으로 이동한 후 "공유" 아이콘을 선택 합니다. 드롭다운 옵션 중 하나는 ServiceNow입니다.
-
-![보안 점수의 ServiceNow 공유](../../media/servicenow-share.png)
+통합이 설정 되 면 특정 [Microsoft 보안 점수](microsoft-secure-score.md) 향상 작업을 기반으로 ServiceNow 작업을 만듭니다. Microsoft 365 보안 센터 포털의 보안 점수에 있는 개선 작업으로 이동한 후 **공유**를 선택 합니다. 드롭다운 옵션 중 하나는 ServiceNow입니다.
 
 우선 순위를 설정 하 고 이름, 설명 또는 기한을 편집할 수 있는 작업이 생성 됩니다. 필수 필드를 모두 입력 한 후에는 해당 작업을 ServiceNow로 보냅니다.
 
