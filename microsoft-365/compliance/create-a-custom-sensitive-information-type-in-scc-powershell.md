@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보안 및 준수 센터에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고 가져오는 방법을 알아보세요.
-ms.openlocfilehash: 25b2d972214410df96d3dedbe204b75b6cd0b1d9
-ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
+ms.openlocfilehash: e0b2cbdad49c19e34237095b7825b4a3496fd570
+ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45039392"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086625"
 ---
 # <a name="create-a-custom-sensitive-information-type-in-security--compliance-center-powershell"></a>보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기
 
@@ -49,7 +49,7 @@ Here's the sample XML of the rule package that we'll create in this topic. Eleme
   
 ```xml
 <?xml version="1.0" encoding="UTF-16"?>
-<RulePackage xmlns="https://schemas.microsoft.com/office/2011/mce">
+<RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
 <RulePack id="DAD86A92-AB18-43BB-AB35-96F7C594ADAA">
     <Version build="0" major="1" minor="0" revision="0"/>
     <Publisher id="619DD8C3-7B80-4998-A312-4DF0402BAC04"/>
@@ -166,7 +166,7 @@ An entity is a sensitive information type, such as a credit card number, that ha
 <!-- why isn't the following in procedure format? -->
 Add the Rules and Entity elements. Then add a comment that contains the name of your custom entity - in this example, Employee ID. Later, you'll add the entity name to the localized strings section, and that name is what appears in the UI when you create a DLP policy.
   
-Next, generate a GUID for your entity. There are several ways to generate GUIDs, but you can do it easily in PowerShell by typing [guid]::NewGuid(). Later, you'll also add the entity GUID to the localized strings section.
+Next, generate a GUID for your entity. There are several ways to generate GUIDs, but you can do it easily in PowerShell by typing **[guid]::NewGuid()**. Later, you'll also add the entity GUID to the localized strings section.
   
 ![Rules 및 Entity 보여 주는 XML 태그 요소](../media/c46c0209-0947-44e0-ac3a-8fd5209a81aa.png)
   
@@ -302,7 +302,7 @@ The Pattern element has a required confidenceLevel attribute. You can think of t
   
 ![다른 confidenceLevel 특성 값을 갖는 Pattern 요소를 보여 주는 XML 태그](../media/301e0ba1-2deb-4add-977b-f6e9e18fba8b.png)
   
-In addition to confidenceLevel for each Pattern, the Entity has a recommendedConfidence attribute. The recommended confidence attribute can be thought of as the default confidence level for the rule. When you create a rule in a DLP policy, if you don't specify a confidence level for the rule to use, that rule will match based on the recommended confidence level for the entity.
+Entity는 각 Pattern에 대핸 confidenceLevel 외에도 recommendedConfidence 속성을 갖습니다. 권장 신뢰도 속성은 규칙의 신뢰도 수준 기본값이라고 생각하면 됩니다. DLP 정책에서 규칙을 만들 때 규칙에서 사용할 신뢰도 수준을 지정하지 않은 경우에는 규칙이 해당 엔터티의 권장 신뢰도 수준을 사용하여 매치를 수행합니다. RecommendedConfidence 속성은 규칙 패키지의 각 Entity ID에 대한 필수 항목입니다. 이 값이 없는 경우 중요한 정보 유형을 사용 하는 정책을 저장하지 못할 수 있습니다. 
   
 ## <a name="do-you-want-to-support-other-languages-in-the-ui-of-the-security-amp-compliance-center-localizedstrings-element"></a>Do you want to support other languages in the UI of the Security &amp; Compliance Center? [LocalizedStrings element]
 
@@ -326,7 +326,7 @@ The Version element is also important. When you upload your rule package for the
   
 ```xml
 <?xml version="1.0" encoding="utf-16"?>
-<RulePackage xmlns="https://schemas.microsoft.com/office/2011/mce">
+<RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
   <RulePack id=". . .">
     <Version major="1" minor="0" build="0" revision="0" />
     <Publisher id=". . ." /> 
@@ -568,8 +568,8 @@ Set-DlpSensitiveInformationTypeRulePackage -FileData ([Byte[]]$(Get-Content -Pat
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:mce="https://schemas.microsoft.com/office/2011/mce"
-           targetNamespace="https://schemas.microsoft.com/office/2011/mce"
+<xs:schema xmlns:mce="http://schemas.microsoft.com/office/2011/mce"
+           targetNamespace="http://schemas.microsoft.com/office/2011/mce"
            xmlns:xs="https://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
