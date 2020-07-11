@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 생산성 점수 개요
-ms.openlocfilehash: cf8747f38442c0dbef6178dc2cbd4ce32d59c5c6
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: a93ceef3833e1e55f6e3bb979fd93aa3d90ded37
+ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754799"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45101650"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Microsoft 생산성 점수 (미리 보기)
 
@@ -145,7 +145,7 @@ Microsoft는 데스크톱, 모바일 및 웹을 비롯 하 여 둘 이상의 플
 
 - 사용자가 집에서 작업을 조정 하는 작업 수명 잔액이 미치는 영향 
 
-- 사용자가 모임을 효과적으로 사용 하는 경우 
+- 원격 회의에서 효과적인 의사 결정을 지 원하는 경우
 
 [비즈니스 연속성 보고서에 대해 자세히 알아보기](https://aka.ms/bcrps)
 

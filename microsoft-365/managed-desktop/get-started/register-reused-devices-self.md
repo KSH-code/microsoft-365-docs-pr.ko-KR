@@ -7,12 +7,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: a971d8dc413e7794aa48c0b39cc0f42e511739ed
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: abe9e63eb4fcd31993bd26822dc445ff0e48e369
+ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250448"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45101488"
 ---
 # <a name="register-existing-devices-yourself"></a>직접 기존의 장치 등록
 
@@ -21,7 +21,7 @@ ms.locfileid: "42250448"
 
 파트너에 대 한 프로세스는 [파트너가 장치를 등록 하기 위한 단계](register-devices-partner.md)에 설명 되어 있습니다.
 
-Microsoft Managed Desktop은 새로운 장치에서 작동 하거나 이미 사용 중인 장치를 다시 사용할 수 있습니다 (다시 이미지 해야 함). Azure Portal에서 Microsoft Managed Desktop을 사용 하 여 장치를 등록할 수 있습니다.
+Microsoft Managed Desktop은 새로운 장치에서 작동 하거나 이미 사용 중인 장치를 다시 사용할 수 있습니다 (다시 이미지 해야 함). Microsoft Managed Desktop 관리 포털을 사용 하 여 장치를 등록할 수 있습니다.
 
 ## <a name="prepare-to-register-existing-devices"></a>기존 장치 등록 준비
 
@@ -60,7 +60,7 @@ Microsoft Endpoint Configuration Manager를 사용 하 여 Microsoft Managed Des
     - **설명:** 보고서에 대 한 설명을 지정 합니다. 
     - **서버:** 이 보고서를 만들 보고서 서버의 이름을 표시 합니다. 
     - **경로:** **찾아보기를** 선택 하 여 보고서를 저장할 폴더를 지정 합니다. 
-5.  Select **Next**.  
+5. **다음**을 선택합니다. 
 6. **요약** 페이지에서 설정을 검토 합니다. 설정을 변경 하거나 **다음** 을 선택 하 여 Configuration Manager에서 보고서를 만들려면 **이전** 을 선택 합니다. 
 7. **완료** 페이지에서 **닫기를** 선택 하 여 마법사를 종료 하 고 보고서 **작성기** 를 열어 보고서 설정을 입력 합니다. 메시지가 표시 되 면 사용자 계정 및 암호를 입력 하 고 확인을 선택 **합니다.** 장치에 Report Builder가 설치 되어 있지 않으면 설치 하 라는 메시지가 표시 됩니다. 보고서를 수정 하 고 만드는 데 필요한 **Report Builder를 설치 하려면 실행을**선택 합니다. 
 
@@ -106,7 +106,7 @@ FROM   Fn_rbac_gs_computer_system(@UserSIDs) comp
 2. **데이터 집합 선택**에서 **이 보고서 또는 공유 데이터 집합의 기존 데이터 집합 선택을**선택 합니다.  
 3. **DataSet0** (기본값)를 선택 하 고 **다음**을 선택 합니다.
 4. **제조업체**, **모델**및 **일련 번호** 를 **행 그룹** 상자에 끌어다 놓습니다. **HardwareHash** 을 **값** 상자에 끌어 놓고 **다음**을 선택 합니다.
-5. **부분합과 총합계 표시** 확인란의 선택을 취소 하 고 **그룹을 확장/축소**합니다.  Select **Next**. 
+5. **부분합과 총합계 표시** 확인란의 선택을 취소 하 고 **그룹을 확장/축소**합니다. **다음**을 선택합니다.
 6. Select **Finish**.
 7. **실행** 을 선택 하 여 보고서를 실행 합니다. 보고서에서 예상 되는 정보를 제공 하는지 확인 합니다. 필요한 경우 **디자인** 을 선택 하 여 디자인 보기로 돌아간 다음 보고서를 수정 합니다.
 8. **저장** 을 클릭 하 여 보고서를 보고서 서버에 저장 합니다. 모니터링 작업 영역의 보고서 노드에서 새 보고서를 실행할 수 있습니다. 
@@ -124,12 +124,12 @@ FROM   Fn_rbac_gs_computer_system(@UserSIDs) comp
 > [!IMPORTANT]
 > 구성 관리자의 쿼리는 내보낸 열 이름에 공백을 사용할 수 없습니다. 이러한 이유는 "Serial_Number" 및 "HardwareHash"를 입력 하는 단계입니다. 내보낸 CSV 파일이 있으므로 여기에 표시 된 것 처럼 *일련 번호* 및 *하드웨어 해시* 를 읽도록 보고서 헤더를 편집 해야 device registration을 계속 진행할 수 있습니다.
 
-이제 [Azure Portal을 사용 하 여 장치 등록](#register-devices-by-using-the-azure-portal)을 계속할 수 있습니다.
+이제 [관리 포털을 사용 하 여 장치 등록](#register-devices-by-using-the-admin-portal)을 계속할 수 있습니다.
 
 
 #### <a name="active-directory-powershell-script-method"></a>Active Directory PowerShell 스크립트 메서드
 
-Active Directory 환경에서는 `Get-MMDRegistrationInfo` PowerShell cmdlet을 사용 하 여 WinRM을 사용 하 여 Active Directory 그룹의 장치에서 정보를 원격으로 수집할 수 있습니다. 또한이 `Get-AD Computer` cmdlet을 사용 하 여 카탈로그에 포함 된 특정 하드웨어 모델 이름에 대 한 필터링 된 결과를 얻을 수 있습니다. 이 작업을 수행 하려면 먼저 다음 필수 구성 요소를 확인 한 다음 단계를 진행 합니다.
+Active Directory 환경에서는 PowerShell cmdlet을 사용 하 여 `Get-MMDRegistrationInfo` WinRM을 사용 하 여 Active Directory 그룹의 장치에서 정보를 원격으로 수집할 수 있습니다. 또한이 cmdlet을 사용 하 여 `Get-AD Computer` 카탈로그에 포함 된 특정 하드웨어 모델 이름에 대 한 필터링 된 결과를 얻을 수 있습니다. 이 작업을 수행 하려면 먼저 다음 필수 구성 요소를 확인 한 다음 단계를 진행 합니다.
 
 - WinRM을 사용 하도록 설정 합니다.
 - 등록 하려는 장치가 네트워크에서 활성 상태 (즉, 연결이 끊어지거나 꺼져 있지 않음)입니다.
@@ -168,7 +168,7 @@ Set-ExecutionPolicy powershell -ExecutionPolicy Unrestricted Get-MMDRegistration
 3. 실행`Save-Script -Name Get-MMDRegistrationInfo -Path <pathToUsb>`
 4. 등록 중인 디바이스를 켜면 *설치 환경이 시작 되지*않습니다. 실수로 설치 환경을 시작한 경우 장치를 초기화 하거나 다시 이미지로 만들어야 합니다.
 5. USB 드라이브를 삽입 한 다음 SHIFT + F10 키를 누릅니다.
-6. 관리 권한으로 PowerShell 프롬프트를 열고를 실행 `cd <pathToUsb>`합니다.
+6. 관리 권한으로 PowerShell 프롬프트를 열고를 실행 `cd <pathToUsb>` 합니다.
 7. 실행`Set-ExecutionPolicy -ExecutionPolicy Unrestricted`
 8. 실행`.\Get-MMDRegistrationInfo -OutputFile <path>\hardwarehash.csv`
 9. USB 드라이브를 제거한 다음 다음을 실행 하 여 장치를 종료 합니다.`shutdown -s -t 0`
@@ -206,9 +206,9 @@ Set-ExecutionPolicy powershell -ExecutionPolicy Unrestricted Get-MMDRegistration
 >[!NOTE]
 >예제 데이터를 변경 하는 것을 잊은 경우에는 등록이 실패 합니다.
 
-#### <a name="register-devices-by-using-the-azure-portal"></a>Azure Portal을 사용 하 여 장치 등록
+#### <a name="register-devices-by-using-the-admin-portal"></a>관리 포털을 사용 하 여 장치 등록
 
-Microsoft Managed Desktop [Azure Portal](https://aka.ms/mmdportal)의 왼쪽 탐색 창에서 **장치** 를 선택 합니다. **+ 장치 등록**을 선택 합니다. 날아오기는 다음과 같이 열립니다.
+Microsoft Managed Desktop [관리 포털](https://aka.ms/mmdportal)의 왼쪽 탐색 창에서 **장치** 를 선택 합니다. **+ 장치 등록**을 선택 합니다. 날아오기는 다음과 같이 열립니다.
 
 [![등록 장치를 선택한 후 날아오기, 할당 된 사용자, 일련 번호, 상태, 마지막으로 표시 된 날짜 및 연령에 해당 하는 열이 있는 장치 나열](../../media/register-devices-flyin-sterile.png)](../../media/register-devices-flyin-sterile.png)
 

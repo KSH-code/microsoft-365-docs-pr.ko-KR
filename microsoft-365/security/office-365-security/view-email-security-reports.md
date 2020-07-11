@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 조직의 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 & 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6fbaa0b57c888f5eaf90a2a30d1850a145c33a80
-ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
+ms.openlocfilehash: 26dfa8ec046122dce28582fb3d7b395843572a88
+ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "45035793"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "45102918"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>보안 및 준수 센터의 전자 메일 보안 보고서 보기
 
@@ -38,6 +38,8 @@ ms.locfileid: "45035793"
 
 **손상 된 사용자** 보고서에는 최근 7 일 이내에 **의심** 또는 **제한** 된 것으로 표시 된 사용자 계정 수가 표시 됩니다. 이러한 두 가지 상태의 계정은 문제가 있거나 심지어도 손상 됩니다. 자주 사용 하는 경우 보고서를 사용 하 여 의심 스러운 또는 제한 된 계정의 스파이크 및 추세를 볼 수 있습니다. 사용자 손상에 대 한 자세한 내용은 [손상 된 전자 메일 계정에 응답](responding-to-a-compromised-email-account.md)을 참조 하세요.
 
+![보고서 대시보드의 손상 된 사용자 위젯](../../media/compromised-users-report-widget.png)
+
 집계 보기는 최근 90 일 동안의 데이터를 표시 하 고, 자세히 보기에는 지난 30 일 동안의 데이터가 표시 됩니다.
 
 보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 다음 **손상 된 사용자**를 선택 합니다. 보고서로 직접 이동 하려면를 엽니다 <https://protection.office.com/reportv2?id=CompromisedUsers> .
@@ -50,7 +52,7 @@ ms.locfileid: "45035793"
 
 - **제한**: 사용자 계정이 의심 스러운 높은 패턴으로 인해 전자 메일을 보내지 못하도록 제한 되었습니다.
 
-![손상 된 사용자가 Microsoft 365에 표시 되는 대로 보고 됨](../../media/tp-threatProtectStatRpt-CompromisedUserRpt.png)
+![손상 된 사용자 보고서의 보고서 보기](../../media/compromised-users-report-activity-view.png)
 
 **세부 정보 테이블 보기**를 클릭 하면 다음 세부 정보를 확인할 수 있습니다.
 
@@ -62,7 +64,7 @@ ms.locfileid: "45035793"
 
 ## <a name="encryption-report"></a>암호화 보고서
 
-**암호화 보고서** 는 EOP (exchange online의 사서함과 exchange online 사서함이 없는 독립 실행형 EOP 구독)에서 사용할 수 있습니다. 조직의 보안 팀은이 보고서의 정보를 사용 하 여 패턴을 식별 하 고 중요 한 전자 메일 메시지에 대 한 정책을 사전에 적용 하거나 조정할 수 있습니다. 예:
+**암호화 보고서** 는 EOP (exchange online의 사서함과 exchange online 사서함이 없는 독립 실행형 EOP 구독)에서 사용할 수 있습니다. 조직의 보안 팀은이 보고서의 정보를 사용 하 여 패턴을 식별 하 고 중요 한 전자 메일 메시지에 대 한 정책을 사전에 적용 하거나 조정할 수 있습니다. 예시는 다음과 같습니다:
 
 - 사용자가 암호화 한 전자 메일 메시지가 많은 경우 특정 사용 사례에 대 한 암호화를 자동화 하는 암호화 정책을 추가 하는 것이 좋습니다. 자세한 내용은 [Microsoft 365에서 전자 메일 메시지를 암호화 하는 메일 흐름 규칙 정의](../../compliance/define-mail-flow-rules-to-encrypt-email.md)를 참조 하십시오.
 

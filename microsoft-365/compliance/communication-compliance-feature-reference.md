@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 844ae00b1881851dc50c68329a999263c09bdbed
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 017946c08bb1c44f31bbcb87b3ce46571ab8b480
+ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936787"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45101609"
 ---
 # <a name="communication-compliance-feature-reference"></a>통신 준수 기능 참조
 
@@ -92,10 +92,8 @@ Microsoft 365 준수 센터에서 Microsoft 365 조 직에 대 한 통신 준수
 - 타사 **원본**: Microsoft 365 조직의 사서함으로 가져온 데이터에 대 한 타사 원본의 통신을 검색할 수 있습니다. 커넥터는 다음과 같은 타사 리소스를 지원 합니다.
 
     - [인스턴트 Bloomberg](archive-instant-bloomberg-data.md)
-    - [Facebook](archive-facebook-data-with-sample-connector.md)
-    - [LinkedIn](archive-linkedin-data.md)
-    - [Twitter](archive-twitter-data-with-sample-connector.md)
-    - [사용자 지정 데이터 커넥터](archiving-third-party-data.md)
+    - [Bloomberg 메시지](archive-bloomberg-message-data.md)
+    - [얼음 채팅](archive-icechat-data.md)
 
 통신 준수 정책에 커넥터를 할당 하려면 먼저 Microsoft 365 조 직에 대 한 타사 커넥터를 구성 해야 합니다. 통신 준수 정책 마법사의 제 **3 자 원본** 섹션에는 현재 구성 된 타사 커넥터도 표시 됩니다.
 
@@ -155,7 +153,7 @@ Microsoft 365의 분류자에 대 한 자세한 내용은 [분류자](classifier
 ### <a name="conditional-settings"></a>조건부 설정
 <a name="ConditionalSettings"> </a>
 
-정책에 대해 선택 하는 조건은 Facebook 또는 DropBox와 같이 조직의 전자 메일 및 타사 소스 모두 로부터의 통신에 적용 됩니다.
+정책에 대해 선택 하는 조건은 인스턴트 Bloomberg 또는 DropBox와 같이 조직의 전자 메일 및 타사 소스를 통한 통신에 적용 됩니다.
 
 다음 표에는 각 조건에 대 한 자세한 설명이 나와 있습니다.
   
@@ -178,7 +176,7 @@ Microsoft 365의 분류자에 대 한 자세한 내용은 [분류자](classifier
 쉼표로 구분 하 여 입력 한 각 단어를 개별적으로 적용 합니다 (전자 메일 또는 첨부 파일에 적용할 정책 조건에 한 단어씩 적용 해야 함). 예를 **들어 다음**조건을 사용 하 여 메시지에 "banker", "기밀" 및 "참가자 거래" 라는 키워드를 쉼표로 구분 하 여 허용 합니다. 이 정책은 "banker", "기밀" 또는 "참가자 거래" 라는 단어가 포함 된 모든 메시지에 적용 됩니다. 이 정책 조건을 적용 하려면 이러한 단어 또는 구문 중 하나만 발생 해야 합니다. 메시지 또는 첨부 파일의 단어는 입력 한 내용과 정확히 일치 해야 합니다.
 
 >[!IMPORTANT]
->사용자 지정 사전 파일을 가져올 때는 각 단어나 구를 캐리지 리턴과 별도의 줄에 구분 해야 합니다. <br> 예시: <br><br>
+>사용자 지정 사전 파일을 가져올 때는 각 단어나 구를 캐리지 리턴과 별도의 줄에 구분 해야 합니다. <br> 예시는 다음과 같습니다: <br><br>
 >*banker* <br>
 >*기밀로* <br>
 >*insider 사업*

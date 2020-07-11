@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 모든 사용자에 대해 격리 된 메시지를 확인 하 고 관리 하는 방법을 확인할 수 있습니다. Office 365 Advanced Threat Protection (Office 365 ATP)을 사용 하는 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀에서 격리 된 파일을 관리할 수도 있습니다.
-ms.openlocfilehash: d3dadeb4035d55fa60785c7a752737cc83038730
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 5e7c594669cf910404badd85c35671c284d4d91e
+ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936974"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45101684"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>EOP에서 관리자 권한으로 격리된 메시지 및 파일 관리하기
 
@@ -218,6 +218,9 @@ Office 365, 고급 위협 방지 (Office 365 ATP)를 사용 하는 조직의 관
 목록에서 격리된 메시지를 여러 개(최대 100개) 선택하면 다음 **대량 전자 메일 작업** 플라이아웃 창이 나타나 다음 작업을 수행할 수 있습니다.
 
 - **메시지 해제하기**:이 옵션은 **특정 받는사람에게 메시지 해제하기**를 선택할 수 없는 점을 제외하고 메시지를 하나만 해제할 때와 동일합니다. **모든 받는 사람에게 메시지 해제하기** 또는 **다른 사람에게 메시지 해제하기**만 선택할 수 있습니다.
+
+  > [!NOTE]
+  > John@gmail.com에서 faith@contoso.com 및 john@subsidiary.contoso.com에 메시지를 전송 하는 시나리오를 살펴보겠습니다. Gmail 분기가 수행이 메시지는 모두 Microsoft의 피싱으로 격리로 라우팅되는 두 개의 복사본으로 전달 됩니다. 관리자가 이러한 메시지를 모두 admin@contoso.com에 게 릴리스 합니다. 관리자 사서함에 도달 하는 첫 번째로 릴리스된 메시지가 배달 됩니다. 두 번째로 릴리스된 메시지는 중복 배달으로 식별 되며 건너 뜁니다. 메시지 ID가 같고 시간이 받은 경우 메시지는 중복 항목으로 식별 됩니다.
 
 - **메시지 삭제하기**: 표시되는 경고에서 **예**를 클릭하면 메시지는 원래 받는 사람에게 보내지지 않고 즉시 삭제됩니다.
 

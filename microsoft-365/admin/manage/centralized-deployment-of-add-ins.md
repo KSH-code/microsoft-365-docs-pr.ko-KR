@@ -20,17 +20,27 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: 중앙 집중식 배포를 사용 하 여 Office 추가 기능을 배포할 수 있도록 테 넌 트 및 사용자가 요구 사항을 충족 하는지 확인 합니다.
-ms.openlocfilehash: 4ad2f504c26fcc1f01c958bebf448718500a95b7
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: fbf6ce702cfe0fa3c85b634996a38cc4857190b6
+ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936446"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "45102875"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 맞게 작동 하는지 확인
 
-중앙 집중식 배포는 대부분의 고객이 조직 내의 사용자 및 그룹에 Office 추가 기능을 배포 하는 데 권장 되 고 대부분의 기능을 많이 사용 하는 방법입니다. 관리자 인 경우이 지침을 사용 하 여 테 넌 트 및 사용자가 요구 사항을 충족 하는지 확인 하 여 중앙 집중식 배포를 사용할 수 있도록 합니다.
+중앙 집중식 배포는 대부분의 고객이 조직 내의 사용자 및 그룹에 Office 추가 기능을 배포 하는 데 권장 되 고 대부분의 기능을 많이 사용 하는 방법입니다. 관리자 인 경우이 지침을 사용 하 여 조직 및 사용자가 요구 사항을 충족 하는지 여부를 확인 하 고 중앙 집중식 배포를 사용할 수 있습니다.
+
+중앙 집중식 배포는 다음과 같은 이점을 제공합니다.
+  
+- 전역 관리자는 추가 기능을 사용자에 게 직접 할당 하거나, 그룹을 통해 여러 사용자에 게 또는 조직의 모든 사람에 게 할당할 수 있습니다.
+    
+- 관련 Office 응용 프로그램이 시작 되 면 추가 기능이 자동으로 다운로드 됩니다. 추가 기능이 추가 기능 명령을 지 원하는 경우 Office 응용 프로그램의 리본 메뉴에 추가 기능이 자동으로 표시 됩니다.
+    
+- 관리자가 추가 기능을 해제 하거나 삭제 하거나, 사용자가 Azure Active Directory 또는 추가 기능이 할당 된 그룹에서 제거 되는 경우 사용자에 게 더 이상 추가 기능이 나타나지 않습니다.
+
 중앙 집중식 배포는 세 가지 데스크톱 플랫폼 Windows, Mac 및 온라인 Office 앱을 지원 합니다. 또한 중앙 집중식 배포는 iOS 및 Android를 지원 합니다 (Outlook 모바일 추가 기능만 해당).
+
 모든 사용자의 클라이언트에 대해 추가 기능을 표시 하는 데 최대 24 시간이 걸릴 수 있습니다.
   
 ## <a name="requirements"></a>요구 사항
@@ -96,19 +106,19 @@ Check with your organization's Exchange admin to find out which configuration is
     
 2. 다음 명령을 실행합니다.
 
-```powershell
-Import-Module O365CompatibilityChecker
-```
+   ```powershell
+   Import-Module O365CompatibilityChecker
+   ```
     
 3. **CompatabilityCheck** 명령을 실행 합니다.
 
-```powershell
-Invoke-CompatibilityCheck
-```
-   여기에는 *_Tenantdomain_* 을 묻는 메시지가 표시 됩니다 (예: *TailspinToysIncorporated. </span> com*) 및 *_TenantAdmin_* 자격 증명 (전역 관리자 자격 증명 사용)을 선택한 다음 동의를 요청 합니다.
+   ```powershell
+   Invoke-CompatibilityCheck
+   ```
+   이 명령은 *_Tenantdomain_* (예: *TailspinToysIncorporated microsoft </span> )을 입력 하 라는 메시지를 표시 합니다. com*) 및 *_TenantAdmin_* 자격 증명 (전역 관리자 자격 증명 사용)을 선택한 다음 동의를 요청 합니다.
     
-> [!NOTE]
-> 테넌트의 사용자 수에 따라 검사를 완료하는 데 몇 분 또는 몇 시간이 걸릴 수 있습니다. 
+   > [!NOTE]
+   > 테넌트의 사용자 수에 따라 검사를 완료하는 데 몇 분 또는 몇 시간이 걸릴 수 있습니다. 
   
 도구 실행이 완료되면 쉼표로 구분된(.csv) 형식으로 출력 파일이 생성됩니다. 이 파일은 기본적으로에 지 해당 **system32** 에 저장 됩니다. 출력 파일에는 다음 정보가 포함되어 있습니다.
   

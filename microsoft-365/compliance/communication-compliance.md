@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 0200ec0491104222545becb6c42d51b935fd2df1
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 71e0a631afa596e9cedf939cf3dcb13eec599d5d
+ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936541"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45101673"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Microsoft 365의 통신 준수
 
@@ -101,7 +101,7 @@ Microsoft 365의 통신 준수 기능은 새로운 몇 가지 향상 된 [Office
 - **Exchange online**: Microsoft 365 조 직의 [exchange online](https://docs.microsoft.com/Exchange/exchange-online) 에서 호스트 되는 모든 사서함이 검색에 적합 합니다. 통신 준수 정책 조건과 일치 하는 전자 메일 및 첨부 파일은 모니터링 및 준수 보고서에서 즉시 사용할 수 있습니다. Exchange Online은 이제 선택적 원본 채널이 며 통신 준수 정책에 더 이상 필요 하지 않습니다.
 - **Yammer**: [yammer](https://docs.microsoft.com/yammer/yammer-landing-page) 의 개인 메시지 및 공용 커뮤니티 대화는 통신 준수 정책에서 지원 됩니다. Yammer는 선택적 채널 이며, 메시지 및 첨부 파일의 검색을 지원 하려면 [기본 모드](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) 에 있어야 합니다.
 - 비즈니스용 **Skype online**: 통신 준수 정책은 [비즈니스용 skype Online](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)에서 채팅 통신 및 관련 첨부 파일의 검색을 지원 합니다.
-- 타사 **원본**: Microsoft 365 조직의 사서함으로 가져온 데이터를 타사 [원본의](archiving-third-party-data.md) 메시지를 검색할 수 있습니다. 통신 준수는 인스턴트 Bloomberg, Facebook, Twitter 등의 여러 인기 플랫폼에 대 한 연결을 지원 합니다.
+- 타사 **원본**: Microsoft 365 조직의 사서함으로 가져온 데이터를 타사 [원본의](archiving-third-party-data.md) 메시지를 검색할 수 있습니다. 통신 준수는 인스턴트 Bloomberg 및 기타를 비롯 한 여러 인기 플랫폼에 대 한 연결을 지원 합니다.
 
 통신 준수 정책의 메시징 채널 지원에 대 한 자세한 내용은 [지원 되는 통신 유형](communication-compliance-feature-reference.md#supported-communication-types)을 참조 하십시오.
 

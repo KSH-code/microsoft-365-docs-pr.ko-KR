@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 관리 센터에서 중앙 집중식 배포에 대해 자주 묻는 질문에 대 한 대답을 검토 합니다.
-ms.openlocfilehash: 2d9a3c6f2cfe9418cc83cbd0f29537e5533c4257
-ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
+ms.openlocfilehash: b1b5ccbb5373bf5d536208efdfe487bc0c872f25
+ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083565"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "45102887"
 ---
 # <a name="centralized-deployment-faq"></a>중앙 집중식 배포 FAQ
 
@@ -35,7 +35,7 @@ ms.locfileid: "45083565"
 추가 기능의 중앙 집중식 배포에서는 사용자가 엔터프라이즈에 대해 Microsoft 365 앱을 사용 하 고 조직 로그인 자격 증명을 사용 하 여 Office에 로그인 하 고 Exchange Online 사서함이 있어야 합니다. 구독 디렉터리는 Azure Active Directory에 있거나 페더레이션 해야 합니다.  
  
 온라인 사서함에 대해서만 중앙 집중식 배포가 지원 됩니다. 온-프레미스 Exchange 사서함에 대 한 배포는 지원 되지 않습니다.
- 
+
 [중앙 집중식 배포 호환성 검사](centralized-deployment-of-add-ins.md#centralized-deployment-compatibility-checker)   를 사용 하 여 구독에 대 한 자격이 있는지 확인할 수 있습니다. 
   
 ## <a name="how-do-you-target-add-in-user-assignments-with-centralized-deployment"></a>중앙 집중식 배포를 사용 하 여 추가 기능 사용자 지정을 대상으로 하는 방법은 무엇 인가요?  
@@ -54,7 +54,9 @@ ms.locfileid: "45083565"
 
 사용자, 그룹 또는 전체 조직에 추가 기능을 쉽게 배포할 수 있도록 관리자에 게 중앙 집중식 배포를 사용 하는 것이 좋습니다.
 
-사용자 액세스를 관리 하는 방법에 대 한 자세한 내용은 다음을 참조 하십시오. </br>[Outlook을 제외한 모든 클라이언트로부터 Office 스토어를 꺼서 추가 기능 다운로드를 금지](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide#prevent-add-in-downloads-by-turning-off-the-office-store-across-all-clients-except-outlook) 하 고 </br>[Outlook 용 추가 기능을 설치 및 관리할 수 있는 관리자 및 사용자를 지정](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins?redirectedfrom=MSDN)합니다.
+사용자 액세스를 관리 하는 방법에 대 한 자세한 내용은 다음을 참조 하십시오.
+ - [모든 클라이언트로부터 Office 스토어를 꺼서 추가 기능 다운로드 방지 (Outlook 제외)](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center#prevent-add-in-downloads-by-turning-off-the-office-store-across-all-clients-except-outlook)
+ - [관리자 및 설치 하 고 Outlook 용 추가 기능을 관리할 수 있는 사용자 지정](https://docs.microsoft.com/Exchange/specify-who-can-install-and-manage-add-ins-2013-help)
 
 ## <a name="will-centralized-deployment-provide-admins-the-flexibility-to-choose-the-deployment-method-for-outlook-add-ins"></a>중앙 집중식 배포가 관리자에 게 Outlook 추가 기능에 대 한 배포 방법을 선택할 수 있는 유연성을 제공 하나요?  
 
@@ -62,7 +64,7 @@ ms.locfileid: "45083565"
 
 **Fixed (기본값)**   추가 기능은 지정 된 사용자에 게 자동으로 배포 되며 제거할 수 없습니다.  
  
-**사용 가능** 사용자는 관리자 관리 > 추가 기능 더 보기를 > 선택 하 여 Outlook에서 추가 기능을 설치할 수 있습니다.   
+**사용 가능** 사용자는 **관리자 관리 > 추가 기능 더 보기를 >** 선택 하 여 Outlook에서 추가 기능을 설치할 수 있습니다.
  
 **선택 사항** 추가 기능은 할당 된 사용자에 게 자동으로 배포 되지만 제거할 수도 있습니다.  
     
@@ -70,19 +72,19 @@ ms.locfileid: "45083565"
 
 예. 관리자가 새 매니페스트 파일을 업로드 하 여 관리자가 배포한 LOB 추가 기능의 메타 데이터 변경 내용을 지원할 수 있습니다. 다음에 Office 응용 프로그램이 시작 될 때 추가 기능이 업데이트 됩니다. 웹 응용 프로그램은 언제든지 변경될 수 있습니다.  
  
-자세한 내용은 lob ( [기간 업무) 추가 기능](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide#security-of-office-add-ins)을 참조 하십시오.  
+자세한 내용은 lob ( [기간 업무) 추가 기능](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center#more-about-office-add-ins-security)을 참조 하십시오.  
 
 ## <a name="can-admins-turn-off-add-ins"></a>관리자가 추가 기능을 끌 수 있습니까?  
 
 예. 관리자는 Microsoft 관리 센터에서 모든 사용자에 대해 배포 하는 추가 기능을 설정 하거나 해제할 수 있습니다.
 
-자세한 내용은 [추가 기능 상태](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide#add-in-states)를 참조 하세요.  
+자세한 내용은 [추가 기능 상태](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center#add-in-states)를 참조 하세요.  
 
 ##  <a name="can-admins-delete-or-remove-add-ins"></a>관리자가 추가 기능을 삭제 하거나 제거할 수 있나요?
 
 예. 관리자는 Microsoft 관리 센터에서 모든 사용자에 대해 배포 된 추가 기능을 삭제할 수 있습니다.
 
-자세한 내용은 [Delete the add in](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide#delete-the-add-in)을 참조 하십시오. 
+자세한 내용은 [추가 기능 삭제](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center#delete-an-add-in)를 참조 하세요. 
   
 ## <a name="can-admins-deploy-paid-add-ins-from-the-office-store-using-centralized-deployment"></a>관리자가 중앙 집중식 배포를 사용 하 여 Office 스토어에서 유료 추가 기능을 배포할 수 있나요? 
 
