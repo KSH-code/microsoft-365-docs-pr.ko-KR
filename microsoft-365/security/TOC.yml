@@ -191,6 +191,10 @@
               items:
                 - name: 보안 점수 개요
                   href: mtp/microsoft-secure-score.md
+                - name: 보안 상태에 가시성 확보
+                  href: mtp/microsoft-secure-score-improvement-actions.md
+                - name: 점수 기록을 추적하고 목표를 달성
+                  href: mtp/microsoft-secure-score-history-metrics-trends.md
                 - name: 향후 계획
                   href: mtp/microsoft-secure-score-whats-coming.md
             - name: 보고서
@@ -411,8 +415,10 @@
                   href: ./office-365-security/air-custom-reporting.md
             - name: 손상된 사용자 계정을 신속하게 탐지 및 해결
               href: ./office-365-security/address-compromised-users-quickly.md
-            - name: 악성 전자 메일 조사 및 치료
+            - name: 악성 전자 메일 조사
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
+            - name: 악성 전자 메일 교정
+              href: ./office-365-security/remediate-malicious-email-delivered-office-365.md
             - name: ATP 보고서 보기 및 읽기
               href: ./office-365-security/view-reports-for-atp.md
             - name: 위협 분석을 통해 최신 공격 이해하기

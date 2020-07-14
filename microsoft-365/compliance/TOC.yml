@@ -161,6 +161,10 @@
       href: technical-reference-details-about-encryption.md
     - name: Office 365용 TLS 1.0 및 1.1 사용 중단
       href: tls-1.0-and-1.1-deprecation-for-office-365.md
+    - name: Office 365 GCC High and DoD의 TLS 1.0 및 1.1 사용 중단
+      href: tls-1-2-in-office-365-gcc.md
+    - name: Office 365의 TLS 1.2
+      href: prepare-tls-1.2-in-office-365.md
     - name: 고객 키
       items:
         - name: Office 365의 고객 키를 사용한 서비스 암호화
@@ -488,15 +492,19 @@
           href: overview-ediscovery-20.md
         - name: Advanced eDiscovery 시작
           href: get-started-with-advanced-ediscovery.md
-        - name: 보유자와 작업
+        - name: 보유자 및 비관리 데이터 원본과 작업
           href: managing-custodians.md
           items:
             - name: 보유자를 사례에 추가
               href: add-custodians-to-case.md
+            - name: 보유자를 사례에 일괄 추가
+              href: bulk-add-custodians.md
             - name: 보유자 관리
               href: manage-new-custodians.md
             - name: 보유자 활동 보기
               href: view-custodian-activity.md
+            - name: 비관리 데이터 원본을 사례에 추가
+              href: non-custodial-data-sources.md
         - name: 커뮤니케이션을 통한 작업
           href: managing-custodian-communications.md
           items:
@@ -809,28 +817,28 @@
   items:
     - name: Microsoft 서비스 보안 포털
       href: get-started-with-service-trust-portal.md
-    - name: 준수 점수 및 준수 관리자
+    - name: 준수 점수 및 준수 관리자(미리 보기)
       items:
         - name: 준수 점수(미리 보기)
           href: compliance-score.md
-        - name: 준수 점수 설정(미리 보기)
+        - name: 준수 점수 설정
           href: compliance-score-setup.md
-        - name: 준수 점수 작업(미리 보기)
-          href: working-with-compliance-score.md
-        - name: 준수 점수 계산(미리 보기)
+        - name: 평가로 준수 점수 사용자 지정
+          href: compliance-score-assessments.md
+        - name: 개선 조치로 업무 할당 및 수행
+          href: compliance-score-improvement-actions.md
+        - name: 점수 계산 방법
           href: compliance-score-methodology.md
-        - name: 준수 점수 릴리스 정보(미리 보기)
-          href: compliance-score-release-notes.md
-        - name: 준수 점수 FAQ(미리 보기)
+        - name: 질문과 대답(FAQ)
           href: compliance-score-faq.md
-        - name: 규정 준수 관리자(미리 보기)
+        - name: 준수 관리자(미리 보기)
           href: compliance-manager-overview.md
           items:
             - name: 준수 관리자의 새로운 기능(미리 보기)
               href: compliance-manager-release-notes.md
             - name: 준수 관리자로 작업하기(미리 보기)
               href: working-with-compliance-manager.md
-            - name: 규정 준수 관리자(기본)
+            - name: 준수 관리자(기본)
               href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
     - name: GDPR 데이터 주체 요청 도구
       href: manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md

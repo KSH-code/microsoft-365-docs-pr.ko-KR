@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Teams에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: cf689ec8a0c41528ab97e1ff588a4a50944b8f4e
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: 8e163aa9f5072e0b2685521fcae37f130d132473
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/08/2020
-ms.locfileid: "45080073"
+ms.locfileid: "45083496"
 ---
 # <a name="learn-about-retention-policies-for-microsoft-teams"></a>Microsoft Teams의 보존 정책에 대해 자세히 알아보기
 
@@ -121,9 +121,9 @@ Microsoft는 Teams에서 보존 기능을 최적화하기 위해 지속적으로
 
 - **Teams는 고급 보존을 지원하지 않습니다**. 보존 정책을 만들 때 [특정 조건을 만족하는 콘텐츠를 식별하기 위해 고급 설정](create-retention-policies.md#advanced-settings-to-identify-content-that-meets-specific-conditions)을 선택하면 Teams 위치를 사용할 수 없습니다. 현재 Teams에서 보존은 해당 위치를 선택할 때 모든 채팅 및 채널 메시지 내용에 적용됩니다.
 
-- **개인 채널의 Teams 메시지는 Teams 채널 메시지에 대한 보존 정책을 구성할 때 포함되지 않습니다**. 대신 개인 채널의 메시지는 **Teams 채팅** 옵션을 사용하여 그룹 채팅으로 사용자에게 포함됩니다. 
+- **개인 채널의 Teams 메시지는 Teams 채널 메시지에 대한 보존 정책을 구성할 때 포함되지 않습니다**. 현재 개인 채널은 보존 정책에서 지원되지 않습니다. 
 
-- **Teams에서 만료된 메시지를 정리하는 데 최대 7일이 걸릴 수 있습니다.** Teams에 적용되는 보존 정책은 보존 기간이 만료되면 채팅 및 채널 메시지를 삭제합니다. 그러나 이 메시지를 정리하고 영구적으로 삭제하는 데 3일~7일이 걸릴 수 있습니다. 또한 보존 기간이 만료된 후 및 메시지가 영구적으로 삭제된 경우 eDiscovery 도구를 사용하여 채팅 및 채널 메시지를 검색할 수 있습니다.
+- **Teams에서 만료된 메시지를 정리하는 데 최대 7일이 걸릴 수 있습니다**. Teams에 적용되는 보존 정책은 보존 기간이 만료되면 채팅 및 채널 메시지를 삭제합니다. 그러나 이 메시지를 정리하고 영구적으로 삭제하는 데 3일~7일이 걸릴 수 있습니다. 또한 보존 기간이 만료된 후 및 메시지가 영구적으로 삭제된 경우 eDiscovery 도구를 사용하여 채팅 및 채널 메시지를 검색할 수 있습니다.
     
     > [!NOTE]
     > 전에는 보존 정책으로 30일이 지나지 않은 Teams 콘텐츠를 삭제할 수 없었지만 이 제한을 제거했습니다. 이제 Teams 콘텐츠의 보존 기간은 원하는 일수이며 단 하루에 그칠 수도 있습니다. 보존 기간이 하루인 경우 보존 기간이 만료 된 후 메시지가 영구적으로 삭제되기까지 최대 7일이 소요됩니다.
