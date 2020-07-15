@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
 description: Salesforce Chatter, Yahoo Messenger 또는 Yammer와 같은 데이터 원본에서 타사 데이터를 가져오도록 사용자 지정 커넥터를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: f76ceda12bf48d26454a47e4b0b5d6ad42fbe55d
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: c3b824909ae1243e2dd1f12b799e53d00d9615ca
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817043"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126657"
 ---
 # <a name="work-with-a-partner-to-archive-third-party-data"></a>타사 데이터를 저장하는 데 파트너와 협력
 
@@ -499,7 +499,7 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
     
       - [사서함을 소송 자료 보존으로 설정](https://go.microsoft.com/fwlink/p/?LinkId=404420)
     
-      - [보존 정책 개요](retention-policies.md)
+      - [보존 정책 및 보존 레이블에 대 한 자세한 정보](retention.md)
     
     - 타사 데이터 사서함에 대 한 소유자, 대리인 및 관리자 액세스에 대 한 사서함 감사 로깅을 사용 하도록 설정 합니다. [사서함 감사 사용](enable-mailbox-auditing.md)을 참조 하십시오. 이렇게 하면 타사 데이터 사서함에 대 한 액세스 권한이 있는 모든 사용자가 수행한 모든 작업을 감사할 수 있습니다.
 
@@ -513,7 +513,7 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
     
     - [사서함을 소송 자료 보존으로 설정](https://go.microsoft.com/fwlink/p/?LinkId=404420)
     
-    - [보존 정책 개요](retention-policies.md)
+    - [보존 정책 및 보존 레이블에 대 한 자세한 정보](retention.md)
     
     앞서 언급한 것처럼 사서함을 보존하면 타사 데이터 원본의 항목을 보존하는 기간을 설정하거나 항목을 무기한 보존하도록 선택할 수 있습니다.
 

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft 365 Compliance
-ms.openlocfilehash: 0729530537e1d01f2e58633bf67a968a6ae2717b
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 5ba6f86ca44fbddf5fb603c5312c9fedebfad225
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352295"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127315"
 ---
 # <a name="supervision-policies"></a>감독 정책
 
@@ -177,7 +177,7 @@ Office 365의 감독 정보에 대 한 자세한 내용은 [Microsoft 365 로드
 |:-----|:-----|
 | **다음 도메인에서 메시지를 받음** <br><br> **다음 도메인에서 메시지를 받지 않음** | 받은 메시지에 특정 도메인 또는 전자 메일 주소를 포함 하거나 제외 하려면 정책을 적용 합니다. 각 도메인 또는 전자 메일 주소를 입력 하 고 쉼표를 사용 하 여 여러 도메인 또는 전자 메일 주소를 구분 합니다. 입력 한 각 도메인 또는 전자 메일 주소는 개별적으로 적용 되며, 메시지에 적용할 정책에 대해 도메인 또는 전자 메일 주소를 하나만 적용 해야 합니다. <br><br> 특정 도메인의 모든 전자 메일을 모니터링 하지만 검토 하지 않아도 되는 메시지 (뉴스레터, 공지 사항 등)를 제외 하려는 경우에는 전자 메일 주소 (예: "newsletter@contoso.com")를 제외 하는 **이러한 도메인 조건에서 메시지가 수신 되지** 않는 조건을 구성 해야 합니다. |
 | **다음 도메인으로 메시지 전송** <br><br> **다음 도메인으로 메시지가 전송 되지 않음** | 보낸 메시지에 특정 도메인 또는 전자 메일 주소를 포함 하거나 제외 하려면 정책을 적용 합니다. 각 도메인 또는 전자 메일 주소를 입력 하 고 쉼표를 사용 하 여 여러 도메인 또는 전자 메일 주소를 구분 합니다. 각 도메인 또는 전자 메일 주소는 개별적으로 적용 되며, 메시지에 적용할 정책에 대해 도메인 또는 전자 메일 주소를 하나만 적용 해야 합니다. <br><br> 특정 도메인에 전송 된 모든 전자 메일을 모니터링 하지만 검토가 필요 하지 않은 보낸 메시지를 제외 하려면 다음 두 가지 조건을 구성 해야 합니다. <br> -도메인 ("contoso.com")을 정의 하는 **이러한 도메인 조건에 메시지가 전송 되** 고 <br> -전자 메일 주소 ("subscriptions@contoso.com")를 제외 하는 **이러한 도메인 조건에 메시지가 전송 되지 않습니다** . |
-| **메시지가 다음 레이블로 분류 됨** <br><br> **메시지가 다음 레이블로 분류 되지 않음** | 특정 보존 레이블이 메시지에 포함 되거나 제외 되는 경우 정책을 적용 하려는 경우 보존 레이블을 개별적으로 구성 하 고 구성 된 레이블을이 조건의 일부로 선택 해야 합니다. 선택한 각 레이블은 따로 적용 됩니다 (메시지에 적용할 정책에는 이러한 레이블 중 하나만 적용 해야 함). 보존 레이블 구성에 대 한 자세한 내용은 [Overview (보존 레이블](labels.md))를 참조 하십시오.|
+| **메시지가 다음 레이블로 분류 됨** <br><br> **메시지가 다음 레이블로 분류 되지 않음** | 특정 보존 레이블이 메시지에 포함 되거나 제외 되는 경우 정책을 적용 하려는 경우 보존 레이블을 개별적으로 구성 하 고 구성 된 레이블을이 조건의 일부로 선택 해야 합니다. 선택한 각 레이블은 따로 적용 됩니다 (메시지에 적용할 정책에는 이러한 레이블 중 하나만 적용 해야 함). 보존 레이블에 대 한 자세한 내용은 [보존 정책 및 보존 레이블에 대 한](retention.md)자세한 정보를 참조 하십시오.|
 | **메시지에 다음 단어 포함** <br><br> **메시지에 다음 단어 포함 안 함** | 특정 단어나 구가 메시지에 포함 되거나 제외 되는 경우 정책을 적용 하려면 각 단어나 구를 입력 하 고 쉼표로 구분 합니다. 입력 한 각 단어가 별도로 적용 됩니다 (메시지에 적용할 정책에는 한 단어씩 적용 해야 함). 단어 또는 구를 입력 하는 방법에 대 한 자세한 내용은 [전자 메일 또는 첨부 파일에 단어 및 구를 일치 시키는](supervision-policies.md#Matchwords)다음 섹션을 참조 하십시오.|
 | **첨부 파일에 다음 단어 포함** <br><br> **첨부 파일에 다음 단어 포함 안 함** | 특정 단어나 구가 메시지 첨부 파일에 포함 되거나 제외 되는 경우 (예: Word 문서) 정책을 적용 하려면 각 단어나 구를 입력 하 고 쉼표로 구분 합니다. 입력 한 각 단어가 별도로 적용 됩니다 (해당 첨부 파일에 적용할 정책에는 한 단어씩 적용 해야 함). 단어 또는 구를 입력 하는 방법에 대 한 자세한 내용은 [전자 메일 또는 첨부 파일에 단어 및 구를 일치 시키는](supervision-policies.md#Matchwords)다음 섹션을 참조 하십시오.|
 | **첨부 파일이 다음 파일 형식 중 하나입니다.** <br><br> **첨부 파일이 다음 파일 형식에 없음** | 특정 유형의 첨부 파일을 포함 하거나 제외 하는 통신을 감독할 파일 확장명 (예: .exe 또는 .pdf)을 입력 합니다. 여러 파일 확장명을 포함 하거나 제외 하려면 별도의 줄에 다음을 입력 합니다. 정책을 적용 하려면 하나의 첨부 파일 확장명만 일치 해야 합니다.|
@@ -289,7 +289,7 @@ Office 365의 감독 정보에 대 한 자세한 내용은 [Microsoft 365 로드
 
 다음 감독 정책 활동은 감사 되어 통합 된 감사 로그에서 사용 가능 합니다.
 
-|**활동**|**연결 된 명령**|
+|**작업**|**연결 된 명령**|
 |:-----|:-----|
 | **정책 만들기** | [Remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/new-supervisoryreviewpolicyv2) <br> [Set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/new-supervisoryreviewrule) |
 | **정책 편집** | [Remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/set-supervisoryreviewpolicyv2) <br> [Set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/set-supervisoryreviewrule) |

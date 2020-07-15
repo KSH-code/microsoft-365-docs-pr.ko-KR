@@ -20,12 +20,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 Microsoft 365 사서함으로 타사 데이터를 가져오는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a8dc69e7e4c7061e048fe49d1e51fd8867654454
-ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
+ms.openlocfilehash: da6b412796bbfc4d5c0d5ed177335e6f3fba9f87
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45101639"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126637"
 ---
 # <a name="archive-third-party-data"></a>타사 데이터 보관
 
@@ -38,7 +38,7 @@ Microsoft 365에서는 관리자가 데이터 커넥터를 사용 하 여 소셜
 > [!TIP]
 > 타사 **데이터** 열의 링크를 클릭 하 여 해당 데이터 형식에 대 한 커넥터를 만들기 위한 단계별 지침을 참조 하십시오.
 
-|타사 데이터  |소송 보존|eDiscovery  |보존 정책  |레코드 관리  |커뮤니케이션 규정 준수  |내부자 위험 관리.  |
+|타사 데이터  |소송 보존|eDiscovery  |보존 정책  |레코드 관리  |커뮤니케이션 규정 준수  |내부자 위험 관리  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|
 |[Bloomberg 메시지](archive-bloomberg-message-data.md)     |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |[Facebook](archive-facebook-data-with-sample-connector.md)     |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
@@ -73,7 +73,7 @@ Microsoft 365의 세 가지 기본 eDiscovery 도구는 콘텐츠 검색, 핵심
 
 ### <a name="retention-policies"></a>보존 정책
 
-보존 기간이 만료 된 후에는 사용자 사서함에 [보존 정책을](retention-policies.md) 적용 하 여 타사 데이터 및 기타 사서함 콘텐츠를 유지 하 고 삭제할 수 있습니다. 보존 정책을 사용 하 여 특정 기간의 타사 데이터를 삭제 하거나 보존 기간이 만료 되 면 처리 검토를 트리거할 수도 있습니다.
+보존 기간이 만료 된 후에는 사용자 사서함에 [보존 정책을](retention.md) 적용 하 여 타사 데이터 및 기타 사서함 콘텐츠를 유지 하 고 삭제할 수 있습니다. 보존 정책을 사용 하 여 특정 기간의 타사 데이터를 삭제 하거나 보존 기간이 만료 되 면 처리 검토를 트리거할 수도 있습니다.
 
 ### <a name="records-management"></a>레코드 관리
 
@@ -83,7 +83,7 @@ Microsoft 365의 [레코드 관리](records-management.md) 기능을 사용 하�
 
 [통신 준수](communication-compliance.md) 를 사용 하 여 타사 데이터를 검사 하 고 조직의 데이터 표준과 호환 되는지 확인할 수 있습니다. 조직의 부적절 한 메시지에 대 한 검색, 캡처 및 재구성 작업을 수행 하 여이 작업을 수행할 수 있습니다. 예를 들어 원하지 않는 언어, 중요 한 정보 및 규정 준수를 위해 가져오는 타사 데이터를 모니터링할 수 있습니다.
 
-### <a name="insider-risk-management"></a>내부자 위험 관리.
+### <a name="insider-risk-management"></a>내부자 위험 관리
 
 선택적 HR 데이터와 같은 타사 데이터의 신호를 [참가자 위험 관리](insider-risk-management.md) 솔루션에서 사용 하 여 조직에서 위험한 활동을 감지, 조사 및 처리할 수 있는 방법으로 내부 위험을 최소화 합니다. 예를 들어 HR 데이터 커넥터에서 가져오는 데이터는 departing 직원 데이터 절도를 검색 하는 데 도움이 되는 위험 표시기로 사용 됩니다.
 

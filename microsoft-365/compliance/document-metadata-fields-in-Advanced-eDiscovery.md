@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365의 Advanced eDiscovery에서 사례에 대 한 검토 집합의 문서에 대 한 메타 데이터 필드를 정의 합니다.
-ms.openlocfilehash: 19a8b4968ea4b1d82cd6a9e9278530e6c155ef3f
-ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
+ms.openlocfilehash: e419cb14d1b0adbebd6d45aaa5120933b060bdf9
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2020
-ms.locfileid: "44726454"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126955"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>고급 eDiscovery의 문서 메타 데이터 필드
 
@@ -46,7 +46,7 @@ ms.locfileid: "44726454"
 |만든 이|만든 이|Doc_authors|문서 메타 데이터의 작성자|
 |대상|대상|Email_bcc|메시지 유형에 대 한 숨은 참조 필드입니다. 형식은 **DisplayName \<SMTPAddress> **입니다.|
 |참조란|참조란|Email_cc|메시지 유형에 대 한 참조 필드입니다. 형식은 **DisplayName \<SMTPAddress> **입니다.|
-|준수 레이블|ComplianceLabels|Compliance_labels|Office 365의 콘텐츠에 적용 되는 [보존 레이블](labels.md)|
+|준수 레이블|ComplianceLabels|Compliance_labels|Office 365의 콘텐츠에 적용 되는 [보존 레이블](retention.md)|
 |컴파운드 경로|CompoundPath|Compound_path|항목의 원본을 설명 하는 사람이 읽을 수 있는 경로입니다.|
 |콘텐츠|콘텐츠||추출 된 항목의 텍스트입니다.|
 |대화 본문|대화 본문||항목의 대화 본문입니다.|

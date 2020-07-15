@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 40829b57-793c-4d41-b171-e9270129173d
 ms.custom: seo-marvel-apr2020
 description: 관리자는 PST 파일을 하드 드라이브로 복사한 다음 Microsoft로 발송 하 여 PST 파일을 Microsoft 365 사서함으로 대량 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: dd97b4734fafbd6126d58997f4fd70eff43d082a
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: e94a59b19271af275f74a08355a017533f8ef45d
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819088"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127345"
 ---
 # <a name="use-drive-shipping-to-import-your-organizations-pst-files"></a>드라이브 전달을 사용 하 여 조직의 PST 파일 가져오기
 
@@ -460,7 +460,7 @@ Azure 저장소 탐색기를 설치하고 Azure 저장소 영역에 연결하려
     
   - Microsoft [eDiscovery 도구](search-for-content.md) 를 사용 하 여 데이터를 검색 합니다. 
     
-  - [Microsoft 365 보존 정책을](retention-policies.md) 적용 하 여 데이터가 보존 되는 기간을 제어 하 고 보존 기간이 만료 된 후에 수행할 작업을 제어할 수 있습니다. 
+  - [Microsoft 365 보존 정책을](retention.md) 적용 하 여 데이터가 보존 되는 기간을 제어 하 고 보존 기간이 만료 된 후에 수행할 작업을 제어할 수 있습니다. 
     
   - 이 데이터와 관련 된 이벤트에 대 한 [감사 로그](search-the-audit-log-in-security-and-compliance.md) 를 검색 합니다. 
     

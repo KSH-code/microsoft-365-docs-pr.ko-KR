@@ -20,12 +20,12 @@ ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365의 비활성 사서함 기능을 사용 하 여 삭제 된 사서함의 콘텐츠를 유지 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: c2a17a4ce4bf8fb175382fb236bbad6c1bbf2336
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
+ms.openlocfilehash: 286c1b363f7ceae42d7eaef13635ccf037bb4b21
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45023361"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127545"
 ---
 # <a name="create-and-manage-inactive-mailboxes"></a>비활성 사서함 만들기 및 관리
 
@@ -42,7 +42,7 @@ Microsoft 365을 사용 하면 삭제 된 사서함의 콘텐츠를 보존할 �
 
 - 소송 보존 또는 콘텐츠를 보존 하 고 유지 하 고 삭제 하도록 구성 된 보관 정책이 삭제 되기 전에 사서함에 적용 되지 않은 경우에는 사서함의 내용이 보존 되거나 검색 되지 않습니다. 그러나 삭제 된 사서함은 삭제 후 30 일 이내에 복구할 수 있지만 사서함과 해당 콘텐츠는 복구 되지 않은 경우 30 일 후 영구적으로 삭제 됩니다.
 
-- 소송 보존에 대 한 자세한 내용은 원본 [위치 유지 및 소송 보존](https://go.microsoft.com/fwlink/p/?LinkId=846124)을 참조 하세요. 보존 정책에 대 한 자세한 내용은 [Microsoft 365의 보존 정책 개요](retention-policies.md)를 참조 하세요.
+- 소송 보존에 대 한 자세한 내용은 원본 [위치 유지 및 소송 보존](https://go.microsoft.com/fwlink/p/?LinkId=846124)을 참조 하세요. 보존 정책에 대 한 자세한 내용은 [보존 정책 및 보존 레이블에 대 한](retention.md)자세한 정보를 참조 하십시오.
   
 ## <a name="create-an-inactive-mailbox"></a>비활성 사서함 만들기
 
@@ -58,7 +58,7 @@ Microsoft 365을 사용 하면 삭제 된 사서함의 콘텐츠를 보존할 �
   
 - [사서함을 소송 자료 보존으로 설정](https://go.microsoft.com/fwlink/?linkid=856286)
     
-- [Office 365의 보존 정책 개요](retention-policies.md)
+- [Office 365의 보존 정책 및 보존 레이블에 대 한 자세한 정보](retention.md)
     
 > [!NOTE]
 > 소송 보유 및 보존 정책에 대해 무기한 보류 또는 시간 기반 유지를 만들 수 있습니다. 무기한 유지에서는 비활성 사서함의 내용이 영구적으로 보존 되거나 보류가 제거 되거나 보존 기간이 변경 될 때까지 유지 됩니다. 보류 또는 보존 정책이 제거 된 후 (사서함이 30 일을 초과 하 여 삭제 된 것으로 가정) 비활성 사서함이 영구적으로 삭제 되도록 표시 되 고 사서함의 내용이 더 이상 보존 되거나 검색 가능 하지 않게 됩니다. 시간 기반 보류 또는 보존 정책에서는 보류의 기간을 지정 합니다. 이 기간은 항목별로 지정되며 사서함 항목을 받거나 만든 날짜로부터 계산됩니다. 사서함 항목에 대 한 보류가 만료 되 고 해당 항목이 비활성 사서함의 복구할 수 있는 항목 폴더에 이동 된 후에는 삭제 된 항목 보존 기간이 만료 되 면 비활성 사서함에서 항목이 영구적으로 삭제 (제거) 됩니다. 

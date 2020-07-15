@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Exchange Online의 원본 위치 eDiscovery 및 원본 위치 유지 및 해당 PowerShell cmdlet은 2020의 처음 절반에서 만료 됩니다. 또한 검색 사서함 cmdlet 및 Advanced eDiscovery v 1.0은 동일한 기간 내에 폐기 됩니다.
-ms.openlocfilehash: 8b428b0d90442c937e08d4dc9ca23fb345553178
-ms.sourcegitcommit: 589f78fc0f39aff9109959ded48d146cc32fc3c5
+ms.openlocfilehash: 12de88fe3c9de7806b12bd610e0dbeeb404524ca
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761688"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126945"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>eDiscovery 도구의 사용 중지
 
@@ -124,7 +124,7 @@ Microsoft 365 준수 센터에서 새롭게 향상 된 eDiscovery 기능을 사�
 <p>Exchange Online, SharePoint Online, 비즈니스용 OneDrive, 비즈니스용 Skype, Microsoft 팀 및 Office 365 그룹 등의 특정 콘텐츠 위치에 정책 적용</p></li>
 <li>
 <p>특정 사용자에 게 정책 적용</p></li></ul>
-<p>자세한 내용은 <a href="https://docs.microsoft.com/microsoft-365/compliance/retention-policies">보존 정책 개요</a>를 참조 하세요.</td>
+<p>자세한 내용은 <a href="https://docs.microsoft.com/microsoft-365/compliance/retention-policies">보존 정책 및 보존 레이블에 대 한</a>자세한 정보를 참조 하세요.</td>
 </tr>
 <tr class="odd">
 <td>검토를 위해 전자 메일 검색 결과를 검색 사서함으로 복사</td><td>Advanced eDiscovery v 2.0에서 집합 검토</td>

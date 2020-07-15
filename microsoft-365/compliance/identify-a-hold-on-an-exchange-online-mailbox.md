@@ -17,12 +17,12 @@ ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365에서 Exchange Online 사서함에 추가할 수 있는 다양 한 유형의 보존을 식별 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a1629e96352a8b98d1122e9b31b968cdce9efa33
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: ea7beb34107fb5eaf61c56ece7bde8070e6467a6
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817607"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126809"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Exchange Online 사서함의 보류 유형을 식별하는 방법
 
@@ -36,7 +36,7 @@ Microsoft 365에서는 조직에서 사서함 콘텐츠가 영구적으로 삭�
 
 - 원본 ** [위치 유지](https://docs.microsoft.com/Exchange/security-and-compliance/create-or-remove-in-place-holds):** Exchange Online의 Exchange 관리 센터에서 원본 위치 eDiscovery & 유지 도구를 사용 하 여 사용자 사서함에 적용 되는 보류입니다.
 
-- ** [Microsoft 365 보존 정책](retention-policies.md):** Exchange Online의 사용자 사서함과 Microsoft 365 그룹 및 Microsoft 팀의 해당 사서함에 있는 콘텐츠를 보존 (또는 보존 했다가 다시 삭제) 하도록 구성할 수 있습니다. 또한 사용자 사서함에 저장 되는 비즈니스용 Skype 대화를 보존 하는 보존 정책을 만들 수 있습니다.
+- ** [Microsoft 365 보존 정책](retention.md):** Exchange Online의 사용자 사서함과 Microsoft 365 그룹 및 Microsoft 팀의 해당 사서함에 있는 콘텐츠를 보존 (또는 보존 했다가 다시 삭제) 하도록 구성할 수 있습니다. 또한 사용자 사서함에 저장 되는 비즈니스용 Skype 대화를 보존 하는 보존 정책을 만들 수 있습니다.
 
   사서함에 할당할 수 있는 Microsoft 365 보존 정책에는 두 가지 유형이 있습니다.
 
@@ -46,7 +46,7 @@ Microsoft 365에서는 조직에서 사서함 콘텐츠가 영구적으로 삭�
     
   자세한 내용은 [전체 조직이 나 특정 위치에 보존 정책 적용](create-retention-policies.md#applying-a-retention-policy-to-an-entire-organization-or-specific-locations) 섹션을 참조 하십시오.
 
-- **[Microsoft 365 보존 레이블](labels.md):** 사용자가 microsoft 365 보존 레이블 (콘텐츠를 보존 하 고 유지 한 다음 콘텐츠를 보존 하 고 사서함의 *항목에 저장)을 적용* 하는 경우 사서함이 소송 보존 상태로 설정 되거나 Microsoft 365 보관 정책에 할당 된 것 처럼 보류 됩니다. 자세한 내용은이 문서의 [폴더 또는 항목 섹션에 보존 레이블이 적용 되었기 때문에 보류 중인 사서함 확인](#identifying-mailboxes-on-hold-because-a-retention-label-has-been-applied-to-a-folder-or-item) 을 참조 하십시오.
+- **[Microsoft 365 보존 레이블](retention.md):** 사용자가 microsoft 365 보존 레이블 (콘텐츠를 보존 하 고 유지 한 다음 콘텐츠를 보존 하 고 사서함의 *항목에 저장)을 적용* 하는 경우 사서함이 소송 보존 상태로 설정 되거나 Microsoft 365 보관 정책에 할당 된 것 처럼 보류 됩니다. 자세한 내용은이 문서의 [폴더 또는 항목 섹션에 보존 레이블이 적용 되었기 때문에 보류 중인 사서함 확인](#identifying-mailboxes-on-hold-because-a-retention-label-has-been-applied-to-a-folder-or-item) 을 참조 하십시오.
 
 보류 중인 사서함을 관리 하려면 대기 시간 변경, 일시적으로 또는 영구 제거 또는 Microsoft 365 보존 정책에서 사서함을 제외 하는 등의 작업을 수행할 수 있도록 사서함에 저장 된 보류 유형을 확인 해야 할 수 있습니다. 이러한 경우 첫 번째 단계는 사서함에 적용 된 보류 유형을 식별 하는 것입니다. 또한 단일 사서함에 여러 보류 (및 서로 다른 형식 보존)을 적용할 수 있으므로 보류를 제거 하거나 변경 하려는 경우에는 사서함에 저장 된 모든 보류를 식별 해야 합니다.
 
@@ -100,7 +100,7 @@ Get-OrganizationConfig | FL InPlaceHolds
 |Exchange 사서함, Exchange 공용 폴더 및 팀 대화방에 적용 되는 Microsoft 365 보존 정책    |      `mbx7cfb30345d454ac0a989ab3041051209:2`   |   Exchange 사서함, Exchange 공용 폴더 및 1xN 채팅에 적용 되는 조직 차원의 보존 정책은 접두사를 사용 하 여 시작 되는 Guid로 식별 됩니다 `mbx` . 참고 1xN 채팅은 개별 채팅 참가자의 사서함에 저장 됩니다.      |
 |Microsoft 365 그룹 및 팀 채널 메시지에 적용 되는 microsoft 365 보존 정책     |   `grp1a0a132ee8944501a4bb6a452ec31171:3`      |    Microsoft 팀의 Microsoft 365 그룹 및 채널 메시지에 적용 되는 조직 차원의 보존 정책은 접두사로 시작 되는 Guid로 식별 됩니다 `grp` . 참고 채널 메시지는 Microsoft 팀과 연결 된 그룹 사서함에 저장 됩니다.     |
 
-Microsoft 팀에 적용 되는 자세한 정보 보존 정책은 "팀 위치" 섹션의 [보존 정책 개요](create-retention-policies.md#applying-a-retention-policy-to-an-entire-organization-or-specific-locations)를 참조 하세요.
+Microsoft 팀에 적용 된 보존 정책에 대 한 자세한 내용은 [Microsoft 팀의 보존 정책에 대](retention-policies-teams.md)한 자세한 정보를 참조 하십시오.
 
 ### <a name="understanding-the-format-of-the-inplaceholds-value-for-retention-policies"></a>보존 정책에 대 한 InPlaceHolds 값의 형식 이해
 
@@ -120,7 +120,7 @@ InPlaceHolds 속성의 항목을 Microsoft 365 보존 정책으로 식별 하는
 |**2**    |    항목을 포함 하도록 보존 정책이 구성 되어 있음을 나타냅니다. 보존 기간이 만료 된 후에는 정책이 항목을 삭제 하지 않습니다.     |
 |**3(sp3)**     |   보존 정책이 항목을 보관 하도록 구성 되어 있고 보존 기간이 만료 된 후에 삭제 됨을 나타냅니다.      |
 
-보존 작업에 대 한 자세한 내용은 [보존 정책 개요](create-retention-policies.md#retaining-content-for-a-specific-period-of-time)의 "특정 기간 동안 콘텐츠 보존" 섹션을 참조 하십시오.
+보존 작업에 대 한 자세한 내용은 일정 [기간 동안 콘텐츠 보존](create-retention-policies.md#retaining-content-for-a-specific-period-of-time) 섹션을 참조 하십시오.
    
 ## <a name="step-2-use-the-guid-to-identify-the-hold"></a>2 단계: GUID를 사용 하 여 보류 식별
 
@@ -179,7 +179,7 @@ Get-RetentionCompliancePolicy <hold GUID without prefix or suffix> -Distribution
 Get-Mailbox <username> |FL ComplianceTagHoldApplied
 ```
 
-보존 레이블에 대 한 자세한 내용은 Overview For [Microsoft 365 보존 레이블](labels.md)를 참조 하세요.
+보존 레이블에 대 한 자세한 내용은 [보존 레이블을](retention.md#retention-labels)참조 하십시오.
 
 ## <a name="managing-mailboxes-on-delay-hold"></a>지연 보류 시 사서함 관리
 

@@ -18,12 +18,12 @@ description: CFTC 규칙 1.31(c)-(d), FINRA 규칙 4511, SEC 규칙 17a-4의 규
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 6dc53ec9dd016a2423ca96886bba400e2f17e17a
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 769e13951ce15fb698131860fa78f25fa133e327
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819078"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127305"
 ---
 # <a name="use-exchange-online-and-the-security--compliance-center-to-comply-with-sec-rule-17a-4"></a>SEC Rule 17a-4를 준수하기 위해 Exchange Online과 보안 및 준수 센터 사용
 
@@ -56,7 +56,7 @@ Highly regulated industries are often required to store electronic communication
 - 보존 기간을 줄이면 보존할 수 있지만 보존 기간만 연장됩니다.
 - 불변이란 필요한 보존 기간동안 해당 레코드를 덮어 쓰거나 지우거나 변경할 수 없음을 의미합니다.
 
-In Exchange Online, when a [retention policy](retention-policies.md) is applied to a user's mailbox, all the user's content will be retained based on the criteria of the policy. In fact, if a user attempts to delete or modify an email, a copy of the email before the change is made will be preserved in a secure, hidden location in the user's mailbox. Retention policies can help ensure that an organization retains electronic communications, but those policies can be modified.
+In Exchange Online, when a [retention policy](retention.md) is applied to a user's mailbox, all the user's content will be retained based on the criteria of the policy. In fact, if a user attempts to delete or modify an email, a copy of the email before the change is made will be preserved in a secure, hidden location in the user's mailbox. Retention policies can help ensure that an organization retains electronic communications, but those policies can be modified.
 
 By placing a Preservation Lock on a retention policy, an organization ensures that the policy cannot be modified. In fact, after a Preservation Lock is applied to a retention policy, the following actions are restricted:
 
@@ -68,7 +68,7 @@ By placing a Preservation Lock on a retention policy, an organization ensures th
 
 ## <a name="how-to-set-up-preservation-lock"></a>보존 잠금을 설정하는 방법
 
-PowerShell을 사용하여 보존 정책을 잠글 수 있습니다. 자세한 내용은 [보존 잠금을 사용하여 규정 요구 사항 준수](retention-policies.md#use-preservation-lock-to-comply-with-regulatory-requirements)를 참조하세요.
+PowerShell을 사용하여 보존 정책을 잠글 수 있습니다. 자세한 내용은 [보존 잠금을 사용하여 규정 요구 사항 준수](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements)를 참조하세요.
 
 ## <a name="known-limitations"></a>알려진 제한
 

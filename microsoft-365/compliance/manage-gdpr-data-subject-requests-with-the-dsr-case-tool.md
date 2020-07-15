@@ -19,12 +19,12 @@ ms.collection:
 ms.assetid: ce9eb942-3589-42cb-88fd-1576ecb09c5c
 description: DSR 사례 도구를 사용 하 여 EU의 GDPR (일반 데이터 보호 규정) 데이터 주체 요청을 관리 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 79d4ff2fb7a83f5c094b4d4f74e68918c2bd5fff
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 3327618a1a297bb6d4afbbe45baa709f0638ee39
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44815455"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126779"
 ---
 # <a name="manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-security--compliance-center"></a>보안 & 준수 센터에서 DSR 사례 도구를 사용 하 여 GDPR 데이터 주체 요청 관리
 
@@ -247,7 +247,7 @@ participants:"ina@contoso.com" OR author:"Ina Leonte" OR createdby:"Ina Leonte"
     
 - **메시지 유형 ( `kind` )** – 검색할 전자 메일 항목의 유형을 지정 합니다. 예를 들어 `kind:email OR kind:im` Microsoft 팀에서 전자 메일 메시지 및 비즈니스용 Skype 대화 또는 일대일 채팅만 반환 하는 구문을 사용할 수 있습니다. 
     
-- **준수 태그 ( `compliancetag` )** – 전자 메일 메시지 또는 문서에 할당 되는 레이블을 지정 합니다. 이 조건은 특정 레이블로 분류 된 항목을 반환 합니다. 레이블은 데이터 거 버 넌 스와 전자 메일 및 문서를 분류 하 고 레이블에 의해 정의 된 분류에 따라 보존 규칙을 적용 하는 데 사용 됩니다. 조직에서 레이블을 사용 하 여 데이터 개인 정보 보호와 관련 된 콘텐츠를 분류 하거나 개인 데이터 또는 중요 한 정보를 포함 하 고 있을 수 있으므로이 방법은 DSR 조사에 유용한 조건입니다. 이 조건의 값으로는 전체 레이블 이름 또는 레이블 이름의 첫 부분을 와일드 카드와 함께 사용 합니다. 자세한 내용은 [Office 365의 레이블 개요](labels.md)를 참조 하세요.
+- **준수 태그 ( `compliancetag` )** – 전자 메일 메시지 또는 문서에 할당 되는 레이블을 지정 합니다. 이 조건은 특정 레이블로 분류 된 항목을 반환 합니다. 레이블은 데이터 거 버 넌 스와 전자 메일 및 문서를 분류 하 고 레이블에 의해 정의 된 분류에 따라 보존 규칙을 적용 하는 데 사용 됩니다. 조직에서 레이블을 사용 하 여 데이터 개인 정보 보호와 관련 된 콘텐츠를 분류 하거나 개인 데이터 또는 중요 한 정보를 포함 하 고 있을 수 있으므로이 방법은 DSR 조사에 유용한 조건입니다. 이 조건의 값으로는 전체 레이블 이름 또는 레이블 이름의 첫 부분을 와일드 카드와 함께 사용 합니다. 자세한 내용은 [Office 365의 보존 정책 및 보존 레이블에 대 한](retention.md)정보를 참조 하세요.
     
 DSR 사례 도구에서 사용할 수 있는 모든 조건에 대 한 목록 및 설명을 보려면 "콘텐츠 검색에 대 한 키워드 쿼리 및 검색 조건" 문서의 [검색 조건을](keyword-queries-and-search-conditions.md#search-conditions) 참조 하십시오. 
   

@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용 하 든, 구성 된 설정에 따라 콘텐츠를 자동으로 삭제할지 여부에 관계 없이 콘텐츠 삭제를 모니터링 하 고 관리 합니다.
-ms.openlocfilehash: 56eed956e4488932b7bf0f29eb3810964b8cb425
-ms.sourcegitcommit: 3274b65a3932288721541d2b3fa5ecbf4c51e1ab
+ms.openlocfilehash: 5c8c8c4e99edbc32bbca4b3efbe79325f53a3380
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702562"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127015"
 ---
 # <a name="disposition-of-content"></a>콘텐츠 처리
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
 Microsoft 365 준수 센터의 **레코드 관리** 에서 **처리** 탭을 사용 하 여 처리 검토를 관리 하 고 보존 기간이 끝나면 자동으로 삭제 된 [레코드](records.md) 를 확인 합니다. 
 
@@ -86,11 +86,11 @@ Microsoft 365 준수 센터의 **처리** 탭에 성공적으로 액세스 하�
 
 ### <a name="workflow-for-a-disposition-review"></a>처리 검토를 위한 워크플로
 
-보존 레이블을 게시 한 다음 사용자가 수동으로 적용 하는 경우의 처리 검토에 대 한 기본 워크플로입니다. 또한 처리 검토를 위해 구성 된 보존 레이블을 콘텐츠에 자동으로 적용할 수 있습니다.
+다음 다이어그램에서는 보존 레이블을 게시 한 다음 사용자가 수동으로 적용 하는 경우의 처리 검토에 대 한 기본 워크플로를 보여 줍니다. 또한 처리 검토를 위해 구성 된 보존 레이블을 콘텐츠에 자동으로 적용할 수 있습니다.
   
 ![처리가 작동 하는 방식 흐름을 보여 주는 차트](../media/5fb3f33a-cb53-468c-becc-6dda0ec52778.png)
   
-보존 기간이 끝날 때 처리 검토를 트리거하는 것은 [보존 레이블과](labels.md)함께 사용할 수 있는 구성 옵션입니다. 보존 정책에서는이 옵션을 사용할 수 없습니다.
+보존 기간이 끝날 때 처리 검토를 트리거하는 것은 보존 레이블과 함께 사용할 수 있는 구성 옵션입니다. 보존 정책에는이 옵션을 사용할 수 없습니다. 이러한 두 가지 보존 솔루션에 대 한 자세한 내용은 [보존 정책 및 보존 레이블에 대 한](retention.md)자세한 정보를 참조 하십시오.
   
 ![레이블에 대 한 보존 설정](../media/a16dd202-8862-40ac-80ff-6fee974de5da.png)
  
@@ -119,7 +119,7 @@ Microsoft 365 준수 센터의 **처리** 탭에 성공적으로 액세스 하�
   
 ### <a name="how-long-until-disposed-content-is-permanently-deleted"></a>삭제 된 콘텐츠가 영구적으로 삭제 될 때 까지의 기간
 
-처리 검토를 기다리는 콘텐츠는 검토자가 콘텐츠를 영구적으로 삭제 하도록 선택한 후에만 삭제 됩니다. 검토자가이 옵션을 선택 하면 SharePoint 사이트 또는 OneDrive 계정의 콘텐츠가 [보존 정책이 현재 위치에 있는 콘텐츠에 작동 하는 방식](retention-policies.md#how-a-retention-policy-works-with-content-in-place)에 설명 된 표준 정리 프로세스를 수행할 수 있게 됩니다.
+처리 검토를 기다리는 콘텐츠는 검토자가 콘텐츠를 영구적으로 삭제 하도록 선택한 후에만 삭제 됩니다. 검토자가이 옵션을 선택 하면 SharePoint 사이트 또는 OneDrive 계정의 콘텐츠가 [보존 설정에서 콘텐츠 작업을 수행 하는 방식](retention.md#how-retention-settings-work-with-content-in-place)에 설명 된 표준 정리 프로세스를 수행할 수 있게 됩니다.
 
 ## <a name="disposition-of-records"></a>레코드 처리
 

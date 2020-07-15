@@ -20,12 +20,12 @@ ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 사서함이 비활성 상태가 되 면 비활성 사서함에 할당 된 보류 또는 Office 365 보존 정책의 기간을 변경 합니다.
-ms.openlocfilehash: 113a3af38d83eabef2e3022f47952c2db70f47a9
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 675e6eb36f762a50c3caafce07d09fda9ba9d98e
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818407"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126379"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox"></a>비활성 사서함의 보존 기간 변경
 
@@ -60,9 +60,6 @@ Get-Mailbox -InactiveMailboxOnly | FL DisplayName,Name,IsInactiveMailbox,Litigat
 
 **LitigationHoldEnabled** 속성의 **True** 값은 비활성 사서함이 소송 보존 상태를 나타냅니다. 원본 위치 유지, eDiscovery 보류 또는 Microsoft 365 보존 정책이 비활성 사서함에 배치 되 면 보류 또는 보존 정책에 대 한 GUID가 **InPlaceHolds** 속성의 값으로 표시 됩니다. 예를 들어 다음은 5 개의 비활성 사서함에 대 한 결과를 보여 줍니다. 
   
-||
-|:-----|
-|
 ```text
 DisplayName           : Ann Beebe
 Name                  : annb
@@ -110,7 +107,7 @@ InPlaceHolds          : {UniH7d895d48-7e23-4a8d-8346-533c3beac15d}
 |에이 옛 아들  <br/> |특정 사서함에 적용 되는 보안 & 준수 센터의 Microsoft 365 보존 정책  <br/> |*InPlaceHolds* 속성은 비활성 사서함에 적용 되는 Microsoft 365 보존 정책의 GUID를 포함 합니다. GUID는 접두사로 시작 되므로 특정 사서함에 적용 되는 보존 정책 임을 확인할 수 있습니다 `mbx` . 비활성 사서함에 적용 된 보존 정책의 GUID가 `skp` 접두사로 시작 되 면 보존 정책이 비즈니스용 Skype 대화에 적용 됨을 나타냅니다.  <br/><br/> 비활성 사서함에 적용 되는 Microsoft 365 보존 정책을 식별 하려면 Security & 준수 센터 PowerShell에서 다음 명령을 실행 합니다.<br/><br/> `Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name` <br/><br/>`mbx` `skp` 이 명령을 실행할 때 or 접두사를 제거 해야 합니다.  <br/> |
 |Abraham McMahon  <br/> |보안 & 준수 센터의 eDiscovery 사례 보류  <br/> |*InPlaceHolds* 속성은 비활성 사서함에 저장 된 eDiscovery 사례 보류의 GUID를 포함 합니다. GUID는 접두사로 시작 되므로 eDiscovery 사례 보류 임을 확인할 수 있습니다 `UniH` .  <br/> `Get-CaseHoldPolicy`보안 & 준수 센터 PowerShell에서 cmdlet을 사용 하 여 비활성 사서함의 보류가 연결 된 eDiscovery 사례에 대 한 정보를 확인할 수 있습니다. 예를 들어 명령을 실행 `Get-CaseHoldPolicy <hold GUID without prefix> | FL Name` 하 여 비활성 사서함에 대 한 사례 보류의 이름을 표시할 수 있습니다. `UniH`이 명령을 실행할 때 접두사를 제거 해야 합니다.  <br/><br/> 비활성 사서함의 보류가 연결 된 eDiscovery 사례를 식별 하려면 다음 명령을 실행 합니다.  <br/><br/> `$CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>`<br/><br/> `Get-ComplianceCase $CaseHold.CaseId | FL Name`<br/><br/><br/> **참고:** 비활성 사서함에 대해서는 eDiscovery 보류를 사용 하지 않는 것이 좋습니다. That's because eDiscovery cases are intended for specific, time-bound cases related to a legal issue. 특정 시점에 법적 사례가 종료 되 고 사례와 관련 된 보류가 제거 되 고 eDiscovery 사례가 닫히거나 삭제 됩니다. 실제로 비활성 사서함에 있는 보류가 eDiscovery 사례와 연결 되 고 보류가 해제 되거나 eDiscovery 사례가 종료 되거나 삭제 되 면 비활성 사서함이 영구적으로 삭제 됩니다. 
 
-Microsoft 365 보존 정책에 대 한 자세한 내용은 [Overview의 보존 정책 개요](retention-policies.md)를 참조 하세요.
+Microsoft 365 보존 정책에 대 한 자세한 내용은 [보존 정책 및 보존 레이블에 대 한](retention.md)자세한 정보를 참조 하십시오.
   
 ## <a name="step-2-change-the-hold-duration-for-an-inactive-mailbox"></a>2 단계: 비활성 사서함에 대 한 보존 기간 변경
 

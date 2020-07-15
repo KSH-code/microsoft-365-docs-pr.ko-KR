@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 97e06a7a-ef9a-4ce8-baea-18b9e20449a3
 description: 비활성 사서함의 내용을 Office 365의 기존 사서함으로 복원 하거나 병합 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ae3927aaaba64711cdcc3362399b109f228cb12
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 34965832c32bfd4139f4b9a54d3999313aace476
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818938"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127455"
 ---
 # <a name="restore-an-inactive-mailbox"></a>비활성 사서함 복원
 
@@ -104,7 +104,7 @@ ms.locfileid: "44818938"
   Get-Mailbox -InactiveMailboxOnly | FL Name,PrimarySMTPAddress,DistinguishedName,ExchangeGUID,LegacyExchangeDN,ArchiveStatus
   ```
 
-- **소송 보류 또는 Microsoft 365 보존 정책을 사용 하 여 비활성 사서함 콘텐츠를 보존 합니다.** 비활성 사서함을 복원한 후 상태를 유지 하려면 비활성 사서함을 복원 하기 전에 대상 사서함을 [소송](https://go.microsoft.com/fwlink/?linkid=856286) 보존으로 설정 하거나 [Microsoft 365 보관 정책을](retention-policies.md) 적용할 수 있습니다. 이렇게 하면 대상 사서함으로 복원 된 후 비활성 사서함의 항목이 영구적으로 삭제 되는 것을 방지할 수 있습니다.
+- **소송 보류 또는 Microsoft 365 보존 정책을 사용 하 여 비활성 사서함 콘텐츠를 보존 합니다.** 비활성 사서함을 복원한 후 상태를 유지 하려면 비활성 사서함을 복원 하기 전에 대상 사서함을 [소송](https://go.microsoft.com/fwlink/?linkid=856286) 보존으로 설정 하거나 [Microsoft 365 보관 정책을](retention.md) 적용할 수 있습니다. 이렇게 하면 대상 사서함으로 복원 된 후 비활성 사서함의 항목이 영구적으로 삭제 되는 것을 방지할 수 있습니다.
 
 - **비활성 사서함을 복원 하기 전에 대상 사서함에 대해 보존을 사용 하도록 설정 합니다.** 비활성 사서함의 사서함 항목은 오래 되었을 수 있으므로 비활성 사서함을 복원 하기 전에 대상 사서함에 대해 보존을 사용 하도록 설정할 수 있습니다. 사서함을 보존 상태로 전환할 때 할당 된 보존 정책은 보존 상태가 제거 될 때까지 또는 보존 기간이 만료 될 때까지 처리 되지 않습니다. 이렇게 하면 대상 사서함 시간 소유자가 비활성 사서함에서 오래 된 메시지를 관리할 수 있습니다. 그렇지 않으면 보존 정책이 대상 사서함에 대해 구성 된 보존 설정에 따라 오래 된 항목을 삭제 하거나 (사용 하도록 설정 된 경우 보관 사서함으로 항목을 이동) 할 수 있습니다. 자세한 내용은 [Exchange Online에서 사서함을 보존 상태로 유지](https://go.microsoft.com/fwlink/?linkid=856300)를 참조 하세요.
 

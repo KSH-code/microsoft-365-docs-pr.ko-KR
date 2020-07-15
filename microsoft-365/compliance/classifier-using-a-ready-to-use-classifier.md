@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에는 조직 전체에서 콘텐츠를 식별 하 고 레이블을 지정 하는 데 사용할 수 있는 다양 한 기본 제공 분류자가 제공 됩니다. 이 항목에서는 이러한 분류자 사용을 준비 하는 방법을 보여 줍니다.
-ms.openlocfilehash: 2652df8d79b06d6614e2478843195e67de0a8ebb
-ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
+ms.openlocfilehash: 82155b1dee9ab04dad593ce9ec2da97d3e796e99
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "44371410"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126317"
 ---
 # <a name="testing-built-in-classifiers-using-retention-labels-preview"></a>보존 레이블을 사용 하 여 기본 제공 분류자 테스트 (미리 보기)
 
@@ -71,9 +71,9 @@ Microsoft 365에는 다음과 같이 권장 되는 5 가지 기본 제공 분류
 
 5. `Choose a label to auto-apply`을 선택 합니다.
 
-6. `Create new labels`이 테스트에만 사용할 레이블을 선택 하 고 만듭니다. 이 경우 `Retention` 로를로 설정 `off` 합니다. 보존 또는 기타 작업을 설정 하지 않으려고 합니다. 이 경우에는 작업을 적용 하지 않고 보존 레이블을 단순히 텍스트 레이블로 사용 합니다. 예를 들어 작업 없이 "SourceCode 분류자 test" 라는 보존 레이블을 만든 다음 해당 보존 레이블을 조건으로 소스 코드 분류자가 있는 콘텐츠에 자동으로 적용할 수 있습니다. 보존 레이블 만들기에 대 한 자세한 내용은 [Overview (보존 레이블](labels.md))를 참조 하십시오.
+6. `Create new labels`이 테스트에만 사용할 레이블을 선택 하 고 만듭니다. 이 경우 `Retention` 로를로 설정 `off` 합니다. 보존 또는 기타 작업을 설정 하지 않으려고 합니다. 이 경우에는 작업을 적용 하지 않고 보존 레이블을 단순히 텍스트 레이블로 사용 합니다. 예를 들어 작업 없이 "SourceCode 분류자 test" 라는 보존 레이블을 만든 다음 해당 보존 레이블을 조건으로 소스 코드 분류자가 있는 콘텐츠에 자동으로 적용할 수 있습니다. 보존 레이블에 대 한 자세한 내용은 [보존 정책 및 보존 레이블에 대 한](retention.md)자세한 내용을 참조 하십시오.
   
-7. `Auto-apply a label`을 선택 하 고을 클릭 `Choose a label to auto-apply` 합니다. 조건 기반 자동 적용 레이블을 사용 하는 방법에 대 한 자세한 내용은 [조건에 따라 보존 레이블 정책 자동 적용](labels.md#applying-a-retention-label-automatically-based-on-conditions)을 참조 하십시오.
+7. `Auto-apply a label`을 선택 하 고을 클릭 `Choose a label to auto-apply` 합니다. 조건 기반 자동 적용 레이블을 사용 하는 방법에 대 한 자세한 내용은 [자동 적용 보존 레이블에 대 한 조건 구성을](apply-retention-labels-automatically.md#configuring-conditions-for-auto-apply-retention-labels)참조 하십시오.
 
 8. 목록에서 테스트 레이블을 선택 하 고를 선택 `Next` 합니다.
 
@@ -106,5 +106,5 @@ Microsoft 365에는 다음과 같이 권장 되는 5 가지 기본 제공 분류
 참고 항목:
 
 - [학습 가능한 분류자 시작하기(미리 보기)](classifier-getting-started-with.md)
-- [보존 레이블 개요](labels.md)
-- [조건에 따라 보존 레이블 정책 자동 적용](labels.md#applying-a-retention-label-automatically-based-on-conditions)
+- [보존 정책 및 보존 레이블에 대 한 자세한 정보](retention.md)
+- [콘텐츠를 보존 하거나 삭제 하는 보존 레이블 자동 적용](apply-retention-labels-automatically.md)

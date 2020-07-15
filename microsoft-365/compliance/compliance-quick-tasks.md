@@ -12,12 +12,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: Normal
 description: Microsoft 365에서 규정 준수를 빠르게 시작 하는 데 도움이 되는 작업에 대해 알아봅니다.
-ms.openlocfilehash: 87dfa73c52473b0695c496826572ab9b5180dfca
-ms.sourcegitcommit: 92bd1631a2bb6df8683aa6da45a116090b338bb1
+ms.openlocfilehash: a946d4711111089ba6074b2c264b8edd36a01315
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44732492"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126617"
 ---
 # <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Microsoft 365 준수를 시작 하기 위한 빠른 작업
 
@@ -83,7 +83,7 @@ To get their work done, people in your organization collaborate with others both
 
 ## <a name="task-7-configure-a-retention-policy"></a>작업 7: 보존 정책 구성
 
-[보존 정책을](retention-policies.md) 사용 하면 콘텐츠를 유지할지, 삭제할지 또는 둘 다를 사전에 결정할 수 있으며 지정 된 보존 기간이 끝나면 콘텐츠를 보존 했다가 삭제 합니다. 이러한 작업은 업계 규정 및 내부 정책을 준수 하는 데 필요할 수 있으며 소송 또는 보안 침해 발생 시 위험을 줄일 수 있습니다.
+[보존 정책을](retention.md) 사용 하면 콘텐츠를 유지할지, 삭제할지 또는 둘 다를 사전에 결정할 수 있으며 지정 된 보존 기간이 끝나면 콘텐츠를 보존 했다가 삭제 합니다. 이러한 작업은 업계 규정 및 내부 정책을 준수 하는 데 필요할 수 있으며 소송 또는 보안 침해 발생 시 위험을 줄일 수 있습니다.
 
 콘텐츠가 보존 정책이 적용 되는 경우 사용자는 아무 것도 변경 되지 않은 것 처럼 계속 해 서 콘텐츠를 편집 하 고 작업할 수 있습니다. 콘텐츠가 원래 위치에서 현재 위치에 유지 됩니다. 그러나 보존 정책이 적용 되는 콘텐츠를 편집 하거나 삭제 하는 경우 해당 콘텐츠에 대 한 보존 정책이 적용 되는 동안 원본 콘텐츠의 복사본이 보존 되는 안전한 위치에 저장 됩니다.
 
@@ -107,11 +107,15 @@ Microsoft 365 환경의 여러 위치 (Exchange 메일 및 공용 폴더, ShareP
 
 ### <a name="configure-retention-labels"></a>보존 레이블 구성
 
-보존 정책은 컨테이너 수준에서 SharePoint 사이트 및 Exchange 사서함 같은 위치에 적용 되지만 보존 [레이블은](labels.md) 보존 및 삭제 정책에 대 한 구체적인 대상을 허용 합니다. 예를 들어 최종 사용자가 관리자의 자동 응용 프로그램 외에도 수동으로 적용할 수 있는 문서 또는 전자 메일 메시지 수준 SharePoint의 문서 라이브러리, 폴더 또는 문서 집합에 보존 레이블을 적용 하 여 해당 위치에 저장 된 모든 문서가 기본 보존 레이블을 상속 하도록 할 수도 있습니다.
+보존 정책은 컨테이너 수준에서 SharePoint 사이트 및 Exchange 사서함 같은 위치에 적용 되지만 보존 [레이블은](retention.md#retention-labels) 보존 및 삭제 정책에 대 한 구체적인 대상을 허용 합니다. 예를 들어 최종 사용자가 관리자의 자동 응용 프로그램 외에도 수동으로 적용할 수 있는 문서 또는 전자 메일 메시지 수준 SharePoint의 문서 라이브러리, 폴더 또는 문서 집합에 보존 레이블을 적용 하 여 해당 위치에 저장 된 모든 문서가 기본 보존 레이블을 상속 하도록 할 수도 있습니다.
 
 또한 보존 레이블은 [레코드 관리](records-management.md) 를 지원 하 여 콘텐츠를 레코드로 표시 합니다. 이 경우 레이블을 변경하거나 제거할 수 없고, 콘텐츠를 편집하거나 삭제할 수 없습니다. 이러한 제한은 조직이 규정 요구 사항을 준수 하는 데 도움이 될 수 있습니다.
 
-보존 레이블을 만들고 게시 하는 단계별 지침을 보려면 [create, publish 및 자동 적용 보존 레이블](create-retention-labels.md)를 참조 하세요. 레코드 관리 라이선스 정보에 대 한 자세한 내용은 [보안 & 준수에 대 한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management)을 참조 하세요.
+보존 레이블을 만들고 게시 하는 단계별 지침은 다음 지침을 참조 하십시오.
+- [보존 레이블을 만들고 앱에 적용](create-apply-retention-labels.md)
+- [콘텐츠에 자동으로 보존 레이블 적용](apply-retention-labels-automatically.md)
+
+레코드 관리 라이선스 정보에 대 한 자세한 내용은 [보안 & 준수에 대 한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management)을 참조 하세요.
 
 ### <a name="identify-and-define-sensitive-information-types"></a>중요 한 정보 유형 식별 및 정의
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 description: Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는 항상 발전 하 고 있습니다. 이번 달의 새로운 기능과 업데이트 된 기능에 대해 알아보세요.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fca455540ed3b01af3b9b4d2a6cd1053535f75b7
-ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
+ms.openlocfilehash: 3060cadb5752d8420667105113e23e235ab6f306
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "45035643"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127515"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Microsoft 365 준수 콘텐츠에 대 한 최신 업데이트
 
@@ -202,7 +202,7 @@ Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는
 
 ### <a name="records-management"></a>레코드 관리
 
-[보존 레이블 개요](labels.md) (업데이트 됨)<br>현재 조건을 기반으로 보존 레이블을 적용 하는 섹션에는 trainable 분류자를 사용 하는 옵션이 포함 되어 있습니다.
+[보존 레이블 개요](retention.md) (업데이트 됨)<br>현재 조건을 기반으로 보존 레이블을 적용 하는 섹션에는 trainable 분류자를 사용 하는 옵션이 포함 되어 있습니다.
 
 ### <a name="sensitivity-labels"></a>민감도 레이블
 

@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: 사서함이 법적 보존 상태로 설정 된 경우에도 사용자의 복구 가능한 항목 폴더에서 Exchange Online 사서함의 항목을 삭제 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d7babf231efba31a6f4cb1638d98669a9b938f9
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 9b4338784602826694b4683f3d000391592547a8
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817877"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127025"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>보류에서 클라우드 기반 사서함의 복구 가능한 항목 폴더에 있는 항목 삭제-관리자 도움말
 
@@ -52,7 +52,7 @@ Exchange Online 사서함에 대 한 복구 가능한 항목 폴더는 실수로
 
 - 이 문서에서 설명 하는 절차는 비활성 사서함에서는 지원 되지 않습니다. 보류 (또는 보존 정책)를 제거한 후에 비활성 사서함에 다시 적용할 수 없기 때문입니다. 비활성 사서함에서 보류를 제거 하면 일시 삭제 된 일반 사서함으로 변경 되 고 관리 되는 폴더 도우미에 의해 처리 된 후 조직에서 영구적으로 삭제 됩니다.
 
-- 보존 잠금으로 잠긴 보호 정책에 할당 된 사서함에 대해서는이 절차를 수행할 수 없습니다. 이는 보존 잠금 때문에 사서함에 대 한 관리 되는 폴더 도우미를 사용 하지 않도록 설정 하는 것을 방지 하기 때문입니다. 보존 정책 잠금에 대 한 자세한 내용은 [Use 보존이 Lock을 사용 하 여 규정 요구 사항 준수](retention-policies.md#use-preservation-lock-to-comply-with-regulatory-requirements)를 참조 하세요.
+- 보존 잠금으로 잠긴 보호 정책에 할당 된 사서함에 대해서는이 절차를 수행할 수 없습니다. 이는 보존 잠금 때문에 사서함에 대 한 관리 되는 폴더 도우미를 사용 하지 않도록 설정 하는 것을 방지 하기 때문입니다. 보존 정책 잠금에 대 한 자세한 내용은 [Use 보존이 Lock을 사용 하 여 규정 요구 사항 준수](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements)를 참조 하세요.
 
 - 사서함이 보류 되지 않거나 단일 항목 복구를 사용 하도록 설정 되지 않은 경우 복구 가능한 항목 폴더에서 항목을 삭제할 수 있습니다. 이 작업을 수행 하는 방법에 대 한 자세한 내용은 [조직에서 전자 메일 메시지 검색 및 삭제](https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization)를 참조 하세요.
   
@@ -224,7 +224,7 @@ Get-Mailbox <username> |FL ComplianceTagHoldApplied
 
 폴더 또는 항목에 보존 레이블이 적용 되므로 사서함이 보류 중인 것을 확인 한 후에는 보안 및 준수 센터의 콘텐츠 검색 도구를 사용 하 여 New-compliancetag 검색 조건을 사용 하 여 레이블이 지정 된 항목을 검색할 수 있습니다. 자세한 내용은 [키워드 쿼리 및 검색 조건에서 콘텐츠 검색에 대 한](keyword-queries-and-search-conditions.md#conditions-for-common-properties)"검색 조건" 섹션을 참조 하십시오.
 
-레이블에 대한 자세한 내용은 [레이블 개요](labels.md)를 참조하세요.
+레이블에 대 한 자세한 내용은 [보존 정책 및 보존 레이블에 대 한](retention.md)자세한 정보를 참조 하십시오.
 
  ### <a name="ediscovery-holds"></a>eDiscovery 보류
   

@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 35d0ecdb-7cb0-44be-ad5c-69df2f8f8b25
 ms.custom: seo-marvel-apr2020
 description: 비활성 사서함의 콘텐츠를 포함 하는 새 사서함으로 변환 하 여 Office 365에서 비활성화 된 사서함의 내용을 복구 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e5ac5a5e5e9e73d118ea1872bf36476ee1e1965a
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 077355d31c3159b4970b00ee9c461d6a77cd3cf7
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818948"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127465"
 ---
 # <a name="recover-an-inactive-mailbox"></a>비활성 사서함 복구
 
@@ -81,7 +81,7 @@ ms.locfileid: "44818948"
   
      - 원본 **위치 유지** 원본 위치 유지는 복구 된 사서함에서 제거 됩니다. 이는 복구 된 사서함이 원본 위치 유지 또는 현재 위치 eDiscovery 검색에서 소스 사서함으로 제거 되었음을 의미 합니다.
      
-     - **보존 잠금을 사용 하는 Microsoft 365 보존 정책** 비활성 사서함에 보존 잠금 ( *잠긴 보존 정책*이라고 함)이 할당 된 경우에는 복구 된 사서함이 동일한 잠긴 보존 정책에 할당 됩니다. 잠긴 보존 정책에 대 한 자세한 내용은 [보존 정책에 대 한](retention-policies.md#use-preservation-lock-to-comply-with-regulatory-requirements)자세한 정보를 참조 하십시오.
+     - **보존 잠금을 사용 하는 Microsoft 365 보존 정책** 비활성 사서함에 보존 잠금 ( *잠긴 보존 정책*이라고 함)이 할당 된 경우에는 복구 된 사서함이 동일한 잠긴 보존 정책에 할당 됩니다. 잠긴 보존 정책에 대 한 자세한 내용은 [Use 보존이 Lock을 사용 하 여 규정 요구 사항 준수](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements)를 참조 하세요.
   
      - **보존 잠금 없이 Microsoft 365 보존 정책을 사용 합니다.** 비활성 사서함은 해당에 적용 된 잠기지 않은 모든 Microsoft 365 보존 정책에서 제거 됩니다. 그러나 특정 기간 보다 오래 된 콘텐츠를 삭제 하는 조직 차원의 보존 정책을 기반으로 사서함 콘텐츠 삭제를 방지 하기 위해 복구 된 사서함에서 소송 보존을 사용 하도록 설정 됩니다. 소송 보존을 유지 하거나 제거할 수 있습니다. 자세한 내용은 [소송 보존 만들기](create-a-litigation-hold.md)를 참조 하세요.
 
