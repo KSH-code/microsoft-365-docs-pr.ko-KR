@@ -16,12 +16,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Microsoft 365 보안 및 규정 준수 기능을 배포 하 고 개인 정보를 보호 합니다.
-ms.openlocfilehash: 2ec8d280d650606921becb6120546b52253620f4
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: 99ac0f9e29c161ffa26362976f83584c9b168026
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844695"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126455"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>데이터 개인 정보 규정의 영향을 받는 정보 보호
 
@@ -33,6 +33,8 @@ ms.locfileid: "44844695"
 - DLP(데이터 손실 방지)
 - OME (Office 메시지 암호화)
 - 팀 및 사이트 액세스 제어
+
+![데이터 개인 정보 규정에 따라 개인 정보가 보호 되는 주요 서비스](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-grid.png)
 
 >[!Note]
 >이 솔루션은 데이터 개인 정보 규정의 영향을 받는 정보를 보호 하는 보안 및 규정 준수 기능을 설명 합니다. Microsoft 365의 전체 보안 기능 목록에 대 한 자세한 내용은 [microsoft 365 보안 설명서](https://docs.microsoft.com/microsoft-365/security/)를 참조 하십시오. Microsoft 365의 준수 기능에 대 한 전체 목록은 [microsoft 365 준수 설명서](https://docs.microsoft.com/microsoft-365/compliance/)를 참조 하세요.
@@ -94,7 +96,7 @@ Microsoft Information Protection framework의 민감도 레이블을 사용 하�
 
 1. 다음 사항을 이해 해야 합니다.
    - **비즈니스 요구 사항** 기업에서 민감도 레이블을 적용 하기 위한 비즈니스 이유를 설정 합니다. 정보 보호를 위한 데이터 프라이버시 요구 사항을 예로 들 있습니다.
-   - **민감도 레이블 기능** 민감도 labelling은 복잡할 수 있으므로 시작 하기 전에 [민감도 레이블 설명서](../compliance/sensitivity-labels.md) 를 읽으십시오.
+   - **민감도 레이블 기능** 민감도 레이블은 복잡할 수 있으므로 먼저 [민감도 레이블 설명서](../compliance/sensitivity-labels.md) 를 참조 하세요.
    - **주의할 주요 사항** 민감도 레이블은 Microsoft 준수 관리 센터에서 관리 되지만 대상 및 응용 프로그램 옵션은 매우 다양 합니다.
       - 컨테이너 수준에서 사이트, 그룹 및 팀에 대 한 민감도 레이블이 있습니다 (이 설정은 컨테이너 내의 콘텐츠에는 적용 되지 않음). 이러한 항목은 사이트, 그룹 또는 팀이 프로 비전 될 때 적용 되는 사용자 및 그룹에 게시 됩니다.
       - 활성 콘텐츠에 대 한 민감도 레이블이 있습니다. 이러한 항목은 사용자 또는 그룹에도 게시 되며, 수동으로 적용 하거나 다음 경우에 자동으로 적용 됩니다.
@@ -102,14 +104,14 @@ Microsoft Information Protection framework의 민감도 레이블을 사용 하�
         - 전자 메일이 초안 되 고 전송 됩니다.
       - 자동 응용 프로그램에 대 한 민감도 레이블은 SharePoint 및 OneDrive의 나머지 파일과 Exchange를 통한 전송 되는 전자 메일에도 제공 됩니다. 이러한 항목은 모든 사이트 또는 특정 위치를 대상으로 하며, 이러한 환경에서 휴지 상태의 파일에 자동으로 적용 됩니다.
 
-2. 합리화 현재 민감도 labelling (이전의 또는 대안 방법 포함)
+2. 합리화 현재 민감도 레이블 (이전의 또는 대체 방법 포함)
 
    - Azure Information Protection
 
-      현재 민감도 labelling 구성표는 기존 [Azure Information Protection](../compliance/sensitivity-labels.md#sensitivity-labels-and-azure-information-protection) 레이블 구현과 함께 조정 해야 할 수 있습니다.
+      현재 민감도 레이블 구성표는 기존의 [Azure Information Protection](../compliance/sensitivity-labels.md#sensitivity-labels-and-azure-information-protection) 레이블 구현과 함께 조정 해야 할 수 있습니다.
    - OME
 
-      전자 메일 보호를 위해 최신 민감도 labelling을 사용 하 고 OME와 같은 기존 전자 메일 암호화 방법을 사용할 계획인 경우에는이를 적용할 수 있지만,이 경우에는이를 적용 해야 하는 시나리오를 이해 해야 합니다. OME 기반 보호를 통해 현대 민감도 레이블 유형 보호를 비교 하는 표를 포함 하는 [Office 365 메시지 암호화 OME (새 기능)](#office-365-message-encryption-ome-new-capabilities)를 참조 하세요.
+      전자 메일 보호에 최신 민감도 레이블을 사용 하도록 계획 하는 경우 OME와 같은 기존 전자 메일 암호화 방법을 사용할 수 있지만이를 적용 해야 하는 시나리오를 이해 해야 합니다. OME 기반 보호를 통해 현대 민감도 레이블 유형 보호를 비교 하는 표를 포함 하는 [Office 365 메시지 암호화 OME (새 기능)](#office-365-message-encryption-ome-new-capabilities)를 참조 하세요.
 
 3. 보다 광범위 한 정보 보호 구성표로 통합을 계획 합니다. OME과 함께 사용 하는 경우에는 현재 민감도 레이블을 Microsoft 365 DLP (데이터 손실 방지) 및 Microsoft Cloud App Security와 같은 측면에서 사용할 수 있습니다. 데이터 프라이버시 관련 정보 보호 목표를 달성 하려면 [민감도 레이블 및 Microsoft Cloud App Security](../compliance/sensitivity-labels.md#sensitivity-labels-and-microsoft-cloud-app-security) 를 참조 하세요.
 
@@ -174,7 +176,7 @@ Microsoft 365 준수 센터에서 민감도 레이블을 게시 한 후에는 �
 - 모든 콘텐츠를 올바르게 분류하기 위해 사용자에게 의존할 필요가 없습니다.
 - 사용자가 더 이상 정책을 알아야 할 필요가 없으며, 그 대신 업무에 집중할 수 있습니다.
 
-자동 labelling 레이블을 자동으로 적용 하 고 사용자에 게 레이블을 추천 하도록 지원 합니다. 그러나 두 경우 모두 사용자가 레이블을 수락할지 또는 거부할지 결정하여 내용에 올바른 레이블을 지정할 수 있도록 합니다.
+자동 레이블 지정은 사용자에 대 한 레이블 권장 및 레이블을 자동으로 적용 하도록 지원 합니다. 그러나 두 경우 모두 사용자가 레이블을 수락할지 또는 거부할지 결정하여 내용에 올바른 레이블을 지정할 수 있도록 합니다.
 
 이 클라이언트 쪽 레이블에는 문서가 저장되기 전에 레이블을 지정할 수 있으므로 문서에 대한 지연 시간이 최소화됩니다. 그러나 일부 클라이언트 앱에서는 자동 레이블 지정을 지원하지 않습니다. 이 기능은 Azure Information Protection 통합 레이블 클라이언트 및 [일부 Office 앱 버전](../compliance/sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps)에서 지원 됩니다.
 
@@ -235,7 +237,7 @@ DLP는 상태 레코드가 포함 된 문서 또는 전자 메일을 식별 한 
 
 - 지속적인 DLP 정책 관리-조직의 누군가가 중요 한 정보 유형, 보존 레이블, 규정 및 준수 정책의 변경 사항에 대 한 정책을 운영 하 고 조정 해야 합니다.
 
-민감도 레이블은 DLP 정책 조건에서 사용할 수 없지만 중요 한 정보 유형을 기반으로 자동 적용 될 수 있는 민감도 레이블만 사용 하 여 액세스를 차단 하는 특정 보호 시나리오를 사용할 수 있습니다. 견고한 민감도 labelling가 적절 한 경우에는 다음과 같은 이유로 DLP를 사용 하 여 보호를 강화 해야 하는지 여부를 고려해 야 합니다.
+민감도 레이블은 DLP 정책 조건에서 사용할 수 없지만 중요 한 정보 유형을 기반으로 자동 적용 될 수 있는 민감도 레이블만 사용 하 여 액세스를 차단 하는 특정 보호 시나리오를 사용할 수 있습니다. 강력한 민감도 레이블을 지정 하는 경우에는 다음과 같은 이유로 DLP를 사용 하 여 보호를 강화 해야 하는지 여부를 고려해 야 합니다.
 
   - DLP는 파일 공유를 방지할 수 있습니다. 민감도 레이블은 액세스를 금지할 수 있습니다.
 
@@ -279,7 +281,7 @@ DLP 정책을 만들고 적용 하는 방법에 대 한 자세한 내용은 [이
 3. 요구 사항을 해결 하 고 데이터 개인 정보 핫스팟을 보호 및 제어 하기 위한 전체 전략이 설정 됩니다.
 4. 데이터 개인 정보 제어 전략을 해결 하기 위한 단계별 작업 계획은 현재 위치에 배치 됩니다.
 
-이러한 요소가 결정 되 면 중요 한 정보 유형, 민감도 labelling 분류 및 DLP 정책을 함께 사용할 수 있습니다. 다음 그림에서는 예제를 보여 줍니다.
+이러한 요소가 결정 되 면 중요 한 정보 유형, 민감도 레이블 분류 및 DLP 정책을 함께 사용할 수 있습니다. 다음 그림에서는 예제를 보여 줍니다.
 
 ![DLP로 작업 하는 민감도 레이블의 예](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-sensitivity-lables-dlp.png)
 
@@ -319,7 +321,7 @@ DLP 정책을 만들고 적용 하는 방법에 대 한 자세한 내용은 [이
 | 외부 파티 <br> 외부/소비자 사용자와 안전 하 게 통신 및 공동 작업 | 예 (레이블에서 받는 사람 미리 정의) | 받는 사람을 기준으로 just-in-time 보호 권장 |
 | 내부 + 파트너 (만료/해지 있음) <br> 내부 사용자 및 만료 및 해지와 함께 트러스트 된 파트너를 사용 하 여 메일 및 콘텐츠 액세스 제어 | 액세스 기간을 사용 하 여 완전히 사용자 지정 된 보호 권장-사용자가 수동으로 파일을 추적 하 고 해지할 수 있음 | No-내부 메일에 대 한 해지 또는 만료 없음 |
 | 만료/해지가 적용 된 외부 파티 <br> 만료 및 해지와 함께 외부/소비자 사용자에 게 메일 및 콘텐츠에 대 한 액세스 제어 | 예-사용자가 수동으로 파일을 추적할 수 있습니다. | 권장 (E5)-관리자가 보안 & 준수 센터에서 메일을 해지할 수 있음 |
-| 자동 labelling <br> 조직에서 특정 중요 한 콘텐츠 및/또는 특정 받는 사람에 대 한 메일/첨부 파일을 자동으로 보호 하려고 합니다. | 권장 (E5)-Exchange 및 Outlook 클라이언트에서 자동 레이블 지정, 메일 흐름 규칙 및 DLP 정책 보강 | 예-메일 흐름 규칙 및 암호화만 사용 하는 DLP 정책 및 전달 방지 |
+| 자동 레이블 지정 <br> 조직에서 특정 중요 한 콘텐츠 및/또는 특정 받는 사람에 대 한 메일/첨부 파일을 자동으로 보호 하려고 합니다. | 권장 (E5)-Exchange 및 Outlook 클라이언트에서 자동 레이블 지정, 메일 흐름 규칙 및 DLP 정책 보강 | 예-메일 흐름 규칙 및 암호화만 사용 하는 DLP 정책 및 전달 방지 |
 ||||
 
 또한 최종 사용자와 관리자가 이러한 두 가지 방법 사이의 차이가 있습니다.

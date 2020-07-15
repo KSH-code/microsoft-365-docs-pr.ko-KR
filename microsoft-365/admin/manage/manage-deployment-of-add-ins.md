@@ -1,5 +1,5 @@
 ---
-title: 관리 센터에 추가 기능 배포
+title: 관리 센터에서 추가 기능 배포
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 관리 센터에서 중앙 집중식 배포를 사용 하 여 조직의 사용자 및 그룹에 추가 기능을 배포 하는 방법을 알아봅니다.
-ms.openlocfilehash: 51db2bf7b618bddf2c6de417b7f5e53c91a64a1b
-ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
+ms.openlocfilehash: 4e9a3a4b7182bfd452c63abd03836623dc77260c
+ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "45102863"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138247"
 ---
-# <a name="deploy-add-ins-in-the-admin-center"></a>관리 센터에 추가 기능 배포
+# <a name="deploy-add-ins-in-the-admin-center"></a>관리 센터에서 추가 기능 배포
 
 ::: moniker range="o365-21vianet"
 
@@ -116,9 +116,9 @@ Office add-ins combine an XML manifest file that contains some metadata about th
     
 - 사용자 문서에서 데이터를 읽고 기록하여 해당 사용자에게 값을 제공합니다.
     
-Office 추가 기능의 유형 및 기능에 대한 자세한 내용은 [Office 추가 기능 플랫폼 개요](https://go.microsoft.com/fwlink/p/?linkid=846362)에서, 특히 "Office 추가 기능 분석" 섹션을 참조하세요.
+Office 추가 기능의 유형 및 기능에 대한 자세한 내용은 [Office 추가 기능 플랫폼 개요](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)에서, 특히 "Office 추가 기능 분석" 섹션을 참조하세요.
   
-To interact with the user's document, the add-in needs to declare what permission it needs in the manifest. A five-level JavaScript API access-permissions model provides the basis for privacy and security for users of task pane add-ins. The majority of the add-ins in the Office Store are level ReadWriteDocument with almost all add-ins supporting at least the ReadDocument level. For more information about the permission levels, see [Requesting permissions for API use in content and task pane add-ins](https://go.microsoft.com/fwlink/p/?linkid=848863).
+To interact with the user's document, the add-in needs to declare what permission it needs in the manifest. A five-level JavaScript API access-permissions model provides the basis for privacy and security for users of task pane add-ins. The majority of the add-ins in the Office Store are level ReadWriteDocument with almost all add-ins supporting at least the ReadDocument level. For more information about the permission levels, see [Requesting permissions for API use in content and task pane add-ins](https://docs.microsoft.com/office/dev/add-ins/develop/requesting-permissions-for-api-use-in-content-and-task-pane-add-ins).
   
 When updating a manifest, the typical changes are to an add-in's icon and text. Occasionally, add-in commands change. However, the permissions of the add-in do not change. The web application where all the code and logic for the add-in runs can change at any time, which is the nature of web applications.
   
@@ -133,9 +133,9 @@ When updating a manifest, the typical changes are to an add-in's icon and text. 
   
 ## <a name="learn-more"></a>자세한 정보
 
-[Office 추가 기능](https://go.microsoft.com/fwlink/p/?linkid=846362) 만들기 및 구축
-
 [관리 센터에서 추가 기능 관리](manage-addins-in-the-admin-center.md)
+
+[Office 추가 기능 작성](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins-fundamentals)
 
 [미성년자가을 사용 하 여 스토어에서 추가 기능 가져오기](minors-and-acquiring-addins-from-the-store.md)
   

@@ -5,7 +5,7 @@ author: brendacarter
 f1.keywords:
 - NOCSH
 manager: laurawi
-ms.date: 06/09/2020
+ms.date: 07/13/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -15,19 +15,21 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365solutions
 ms.custom: ''
-description: Complance 점수 및 준수 관리자를 사용 하 여 개인 데이터의 보호 수준을 향상 시키는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 4a45f24d66d08c2c0f17d75d897f523ef074936c
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+description: 준수 점수 및 준수 관리자를 사용 하 여 개인 데이터에 대 한 보호 수준을 향상 시키는 방법을 알아봅니다.
+ms.openlocfilehash: d3730f7a91876befc05f749497540fbe9abe9641
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45016370"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126554"
 ---
 # <a name="use-compliance-score-and-compliance-manager-to-manage-improvement-actions"></a>준수 점수 및 준수 관리자를 사용 하 여 개선 작업 관리
 
 Microsoft 규정 준수 점수 및 준수 관리자를 함께 사용 하 여 유럽 연합의 [일반 데이터 보호 규정 (GDPR)](../compliance/gdpr.md), [캘리포니아 소비자 보호 Act CCPA)](../compliance/ccpa-faq.md), HIPAA-HITECH (미국 의료 보험 개인 정보 취급 방침), LGPD (브라질 data Protection act)와 같은 데이터 개인 정보 규정에 관련 된 개선 사항을 관리할 수 있습니다. 
 
 이 문서에서는 데이터 개인 정보 보호를 위해 이러한 도구를 사용 하는 방법에 대 한 지침을 제공 합니다.
+
+![개선 작업을 관리 하는 준수 점수 및 준수 관리자](../media/information-protection-deploy-compliance/information-protection-deploy-compliance-grid.png)
 
 >[!Note]
 >준수 관리자에 제공 되는 고객 작업은 권장 사항입니다. 구현 하기 전에 규정 환경에서 이러한 권장 사항의 효과를 평가 하는 것은 사용자의 결정입니다. 준수 관리자 권장 사항은 준수 보장으로 해석 되어서는 안 됩니다.

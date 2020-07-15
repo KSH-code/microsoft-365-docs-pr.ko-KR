@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Office 생산성 앱과 사이버 위협으로부터 비즈니스를 보호하는 고급 보호 기능을 포함하는 구독 서비스인 Microsoft 365 Business Premium에 대해 알아봅니다.
-ms.openlocfilehash: 6cff2fe62111e0d3ee99f406d0be83db0a119b09
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+ms.openlocfilehash: 50b1fec21593bd22577e07e000cedb89dfd90f66
+ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786177"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138231"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Microsoft 365 Business Premium 개요
 
@@ -110,11 +110,6 @@ Microsoft 365 Business Premium은 다음을 통해 **위협으로부터 보호�
 - 파트너가 있다면 파트너가 Microsoft 365 Business Premeum을 제공합니다([Microsoft 파트너 센터에서 Microsoft 365 Business Premium 받기)](get-microsoft-365-business.md).
 
 - 파트너 없이 Microsoft 365 Business Premium을 받으려면 [여기에서 구매](https://www.microsoft.com/microsoft-365/business)하고 [가입](sign-up.md) 지침을 따르세요.
-
-- [Microsoft Store](https://www.microsoft.com/store/locations/find-a-store?icid=gm_fy18_hol_bopis_feature3&CustomerIntent=Consumer)로 이동하여 Microsoft 365 Business Premium을 구매하고 설정 도움말을 받을 수도 있습니다.
-
-    > [!NOTE]
-    > 이 링크는 미국 Microsoft Store 전용입니다.
 
 ## <a name="see-also"></a>참고 항목
 

@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: '랜 섬 웨어, 피싱 및 악의적 첨부 파일을 포함 하 여 사이버 위협 으로부터 비즈니스 전자 메일 및 데이터를 보호 합니다. '
-ms.openlocfilehash: 12a8d036a043cfdd162b5aa47e1d6d5023a42c81
-ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
+ms.openlocfilehash: cffc922aec3ca46543b5b1608fa37e6fa0acfa23
+ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45005633"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138293"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Microsoft 365 비즈니스 계획을 보호 하는 10 가지 주요 방법
 
@@ -252,7 +252,7 @@ ATP 피싱 방지 정책을 만들려면 [간단한 교육 비디오](https://su
     
 4. 피싱 방지 페이지에서 **+ 만들기**를 선택 합니다. 피싱 방지 정책을 정의 하는 과정을 안내 하는 마법사가 시작 됩니다.
     
-5. 아래 차트에서 권장 하는 대로 정책에 대 한 이름, 설명 및 설정을 지정 합니다. 자세한 내용은 [ATP 피싱 방지 정책 옵션에 대 한](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409) 정보를 참조 하세요. 
+5. 아래 차트에서 권장 하는 대로 정책에 대 한 이름, 설명 및 설정을 지정 합니다. 자세한 내용은 [ATP 피싱 방지 정책 옵션에 대 한](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies) 정보를 참조 하세요. 
     
 6. 설정을 검토 한 후에는 **이 정책 만들기** 또는 적절 한 **저장**을 선택 합니다.
 
@@ -269,7 +269,7 @@ ATP 피싱 방지 정책을 만들려면 [간단한 교육 비디오](https://su
 |적용 대상  <br/> |**받는 사람의 도메인이 다음과 같음**을 선택합니다. **이러한 항목 모두** 아래에서 **선택**을 선택합니다. **+ 추가**를 선택합니다. 목록에서 도메인 이름 (예: contoso.com) 옆에 있는 확인란을 선택 하 고 **추가**를 선택 합니다. **완료**를 선택합니다.  <br/> |
 |
    
-자세한 내용은 [Set Up Office 365 ATP 피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409)를 참조 하세요.
+자세한 내용은 [Set Up Office 365 ATP 피싱 방지 정책](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-atp-anti-phishing-policies)를 참조 하세요.
   
 ## <a name="9-protect-against-malicious-attachments-and-files-with-atp-safe-attachments"></a>9: ATP 안전한 첨부 파일을 사용 하 여 악의 있는 첨부 파일과 파일을 보호 합니다.
 <a name="atp"> </a>
@@ -302,7 +302,7 @@ ATP 안전한 첨부 파일 정책을 만들려면 [간단한 교육 비디오](
 |적용 대상  <br/> |받는 사람 도메인은입니다. . . 도메인을 선택 합니다.  <br/> |
 |
    
-자세한 내용은 [Set Up Office 365 ATP 피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409)를 참조 하세요.
+자세한 내용은 [Set Up Office 365 ATP 피싱 방지 정책](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-atp-anti-phishing-policies)를 참조 하세요.
   
 ## <a name="10-protect-against-phishing-attacks-with-atp-safe-links"></a>10: ATP 안전한 링크를 통한 피싱 공격 으로부터 보호
 <a name="phishingatp"> </a>
