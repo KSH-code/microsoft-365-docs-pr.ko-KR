@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: '관리자: 네트워크 업로드를 사용하여 Microsoft 365의 사용자 사서함으로 여러 PST 파일을 대량으로 가져오는 방법에 대해 알아봅니다.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d35a6c77379c528d10510c1959df53c8d81a989
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: b7c8621859d04f44b58719a86b4c159f8379b961
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819068"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127335"
 ---
 # <a name="use-network-upload-to-import-your-organizations-pst-files-to-microsoft-365"></a>네트워크 업로드를 사용하여 조직의 PST 파일을 Microsoft 365로 가져오기
 
@@ -150,7 +150,7 @@ Microsoft 365 사서함으로 PST 파일을 가져오려면 1단계를 한 번�
     |:-----|:-----|:-----|
     | `/Source:` <br/> |조직에서 Office 365로 업로드될 PST 파일이 들어 있는 원본 디렉터리를 지정합니다.  <br/> 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> | `/Source:"\\FILESERVER01\PSTs"` <br/> |
     | `/Dest:` <br/> |1단계에서 획득한 SAS URL을 지정합니다.  <br/> 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.<br/><br/>**참고:** 스크립트나 배치 파일에서 SAS URL을 사용하는 경우 이스케이프해야 하는 특정 문자가 있는지 주의해야 합니다. 예를 들어 `%`를 `%%`로 변경하고 `&`을 `^&`로 변경해야 합니다.<br/><br/>**팁:** (선택 사항) Azure 저장소 위치에서 하위 폴더를 지정하여 PST 파일을 업로드 할 수 있습니다. SAS URL에서 하위 폴더 위치("ingestiondata" 뒤에)를 추가하면 됩니다. 첫 번째 예제에서는 하위 폴더를 지정하지 않습니다. 즉, PST가 Azure 저장소 위치의 루트(*ingestiondata*)에 업로드 됩니다. 두 번째 예제에서는 PST 파일을 Azure 저장소 위치의 루트에 있는 하위 폴더(*PSTFiles*)로 업로드 합니다.  <br/> | `/Dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D"` <br/> 또는  <br/>  `/Dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata/PSTFiles?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D"` <br/> |
-    | `/V:` <br/> |Outputs verbose status messages into a log file. By default, the verbose log file is named AzCopyVerbose.log in %LocalAppData%\Microsoft\Azure\AzCopy. If you specify an existing file location for this option, the verbose log will be appended to that file.  <br/> 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> | `/V:"c:\Users\Admin\Desktop\Uploadlog.log"` <br/> |
+    | `/V:` <br/> |자세한 상태 메시지를 로그 파일에 출력합니다. 기본적으로 자세한 로그 파일은 %LocalAppData%\Microsoft\Azure\AzCopy의 AzCopyVerbose.log로 지정됩니다. 이 옵션에 대한 기존 파일 위치를 지정하면 해당 파일에 자세한 로그 파일이 추가됩니다.  <br/> 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> | `/V:"c:\Users\Admin\Desktop\Uploadlog.log"` <br/> |
     | `/S` <br/> |이 선택적 스위치는 AzCopy 도구가 `/Source:` 매개 변수로 지정된 원본 디렉터리의 하위 폴더에 있는 PST 파일을 복사하도록 반복 모드를 지정합니다.  <br/> **참고:** 이 스위치를 포함하면 하위 폴더의 PST 파일은 업로드 된 후에 Azure 저장소 위치에서 다른 파일 경로 이름을 갖게 됩니다. 4단계에서 만드는 CSV 파일의 정확한 파일 경로 이름을 지정해야 합니다.  <br/> | `/S` <br/> |
     | `/Y` <br/> |이 필수 스위치를 사용하면 PST 파일을 Azure 저장소 위치에 업로드할 때 쓰기 전용 SAS 토큰을 사용할 수 있습니다. 1단계에서 획득한(및 `/Dest:` 매개 변수에서 지정) SAS URL은 쓰기 전용 SAS URL이므로 이 스위치를 포함시켜야 합니다. 쓰기 전용 SAS URL을 사용하면 Azure 저장소 탐색기를 사용하여 Azure 저장소 위치에 업로드 된 PST 파일 목록을 볼 수 있습니다.  <br/> | `/Y` <br/> |
 
@@ -160,7 +160,7 @@ Microsoft 365 사서함으로 PST 파일을 가져오려면 1단계를 한 번�
   AzCopy.exe /Source:"\\FILESERVER1\PSTs" /Dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D" /V:"c:\Users\Admin\Desktop\AzCopy1.log" /Y
 ```
 
-After you run the command, status messages are displayed that show the progress of uploading the PST files. A final status message shows the total number of files that were successfully uploaded.
+이 명령을 실행하면 PST 파일의 업로드 진행률을 보여 주는 상태 메시지가 표시됩니다. 마지막 상태 메시지에는 성공적으로 업로드된 파일의 총 수가 표시됩니다.
 
 > [!TIP]
 > AzCopy.exe 명령을 성공적으로 실행하고 모든 매개 변수가 올바른지 확인한 후에는 명령줄 구문 복사본을 1단계에서 획득한 정보를 복사한 것과 동일한(보안) 파일에 저장합니다. 그런 후 AzCopy.exe 도구를 실행하여 PST 파일을 Office 365에 업로드하려고 할 때마다 명령 프롬프트에서 이 명령을 복사한 후 붙여넣을 수 있습니다. 변경해야 하는 유일한 값은 `/Source:` 매개 변수에 대한 값뿐입니다. 이 값은 PST 파일이 있는 원본 디렉터리에 따라 다릅니다.
@@ -206,7 +206,7 @@ PST 파일을 조직의 Azure Storage 위치에 업로드한 후에는 PST 파�
   
 1. [PST 가져오기 매핑 파일의 사본을 다운로드](https://go.microsoft.com/fwlink/p/?LinkId=544717).
 
-2. Open or save the CSV file to your local computer. The following example shows a completed PST Import mapping file (opened in NotePad). It's much easier to use Microsoft Excel to edit the CSV file.
+2. CSV 파일을 열거나 로컬 컴퓨터에 저장합니다. 다음 예에서는 완료된 PST 가져오기 매핑 파일(메모장에서 열림)을 보여 줍니다. CSV 파일을 편집할 경우 Microsoft Excel을 사용하는 것이 훨씬 더 쉽습니다.
 
     ```text
     Workload,FilePath,Name,Mailbox,IsArchive,TargetRootFolder,ContentCodePage,SPFileContainer,SPManifestContainer,SPSiteUrl
@@ -336,7 +336,7 @@ PST 파일을 조직의 Azure Storage 위치에 업로드한 후에는 PST 파�
     
   - Microsoft [eDiscovery 도구](search-for-content.md)를 사용하여 가져온 데이터를 검색합니다. 
     
-  - [Microsoft 365 보존 정책](retention-policies.md)을 사용하여 가져온 데이터가 보존되는 기간 및 보존 기간이 만료된 후 수행할 작업을 제어합니다. 
+  - [Microsoft 365 보존 정책](retention.md)을 사용하여 가져온 데이터가 보존되는 기간 및 보존 기간이 만료된 후 수행할 작업을 제어합니다. 
     
   - 가져온 데이터에 영향을 주는 사서함 관련 이벤트에 대한 [감사 로그](search-the-audit-log-in-security-and-compliance.md)를 검색합니다. 
     

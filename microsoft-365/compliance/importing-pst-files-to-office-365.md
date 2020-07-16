@@ -20,12 +20,12 @@ ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 ms.custom:
 - seo-marvel-apr2020
 description: 보안 및 준수 센터에서 가져오기 서비스를 사용하여 전자 메일 데이터 (PST 파일)를 사용자 사서함에 대량으로 가져오는 방법에 대해 알아보세요.
-ms.openlocfilehash: e0d0c8c0a963e8660cac09abe68e6824dd7e1d3c
-ms.sourcegitcommit: a4926e98b6594bbee68bfca90438c9c764499255
+ms.openlocfilehash: fd369a8cde1284c19f9eb3cb38cf8bfe39dbc4ee
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45091944"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127163"
 ---
 # <a name="overview-of-importing-your-organizations-pst-files"></a>조직의 PST 파일을 가져오기 개요
 
@@ -99,7 +99,7 @@ ms.locfileid: "45091944"
     
   - [eDiscovery 사례](ediscovery-cases.md)를 사용하여 조직의 법적 조사를 관리합니다. 
     
-  - 보안 & 준수 센터의 [보존 정책](retention-policies.md)을 사용하여 사서함 콘텐츠의 보존 기간을 제어하고, 보존 기간이 만료되면 콘텐츠를 삭제합니다. 
+  - 보안 & 준수 센터의 [보존 정책](retention.md)을 사용하여 사서함 콘텐츠의 보존 기간을 제어하고, 보존 기간이 만료되면 콘텐츠를 삭제합니다. 
 
   - [커뮤니케이션 규정 준수 정책](communication-compliance.md)을 사용하여 메시지 표준을 준수하는지 확인하고 분류 유형을 추가합니다.
     
@@ -146,7 +146,7 @@ PST 파일을 Microsoft 365 사서함으로 가져오려면 Exchange Online에�
   
  **네트워크 업로드는 어디에서 사용할 수 있나요?**
   
-Network upload is currently available in these regions: United States, Canada, Brazil, the United Kingdom, France, Germany, Europe, India, East Asia, Southeast Asia, Japan, Republic of Korea, Australia, and United Arab Emirates (UAE). Network upload will be available in more regions soon.
+네트워크 업로드는 현재 다음 지역에서 사용할 수 있습니다. 미국, 캐나다, 브라질, 영국, 프랑스, 독일, 유럽, 인도, 동아시아, 동남아시아, 일본, 대한민국, 호주, 아랍에미리트(UAE)입니다. 네트워크 업로드는 더 많은 지역에서 곧 사용할 수 있습니다.
   
  **네트워크 업로드를 사용하여 PST 파일을 가져오는 경우 그 가격은 얼마인가요?**
   
@@ -186,7 +186,7 @@ PST 가져오기 프로세스는 중복 항목을 확인하고 대상 사서함 
   
  **사서함으로 가져오려는 PST 파일의 폴더 계층 구조에서 레벨 수에 제한이 있나요?**
   
-Yes. You can't import a PST file that has 300 or more levels of nested folders.
+예. 300개 이상의 중첩 폴더 레벨이 있는 PST 파일을 가져올 수 없습니다.
   
  **Office 365의 비활성 사서함에 PST 파일을 가져오기 위해 네트워크 업로드를 사용할 수 있나요?**
   
@@ -245,7 +245,7 @@ Office 365 가져오기 서비스에서는 2.5인치 SSD(반도체 드라이브)
   
  **하드 드라이브를 배송한 후 Microsoft 데이터 센터에 가져오는 데 얼마나 걸리나요?**
   
-That depends on a few things, such as your proximity to the Microsoft data center and what kind of shipping option you used to ship your hard drive (such as, next-day delivery, two-day delivery, or ground-delivery). With most shippers, you can use the tracking number to track the status of your delivery.
+해당 기간은 Microsoft 데이터 센터에 대한 근접성, 하드 드라이브를 배송하는 데 사용한 배송 옵션 종류(예: 익일 배송, 2일 배송 또는 육로 배송) 등의 몇 가지 요인에 따라 다릅니다. 대부분의 운송업체에서, 추적 번호를 사용하여 배송 상태를 추적할 수 있습니다.
   
  **하드 드라이브가 Microsoft 데이터 센터에 도착하면 내 PST 파일을 Azure에 업로드하는 데 얼마나 걸리나요?**
   
@@ -283,7 +283,7 @@ PST 가져오기 프로세스는 중복 항목을 확인하고 대상 사서함 
   
  **사서함으로 가져오려는 PST 파일의 폴더 계층 구조에서 레벨 수에 제한이 있나요?**
   
-Yes. You can't import a PST file that has 300 or more levels of nested folders.
+예. 300개 이상의 중첩 폴더 레벨이 있는 PST 파일을 가져올 수 없습니다.
   
  **Microsoft 365의 비활성 사서함으로 PST 파일을 가져오기 위해 드라이브 배송을 사용할 수 있나요?**
   
@@ -299,19 +299,19 @@ Yes. You can't import a PST file that has 300 or more levels of nested folders.
   
  **Microsoft에서 나에게 다시 배송하기 전에 내 하드 드라이브를 초기화할 수 있나요?**
   
-No, Microsoft can't wipe hard drives before shipping them back to customers. Hard drives are returned to you in the same state they were in when they were received by Microsoft.
+아니요. Microsoft는 하드 드라이브를 고객에게 다시 보내기 전에 해당 드라이브를 지울 수 없습니다. 하드 드라이브는 Microsoft에서 받은 것과 동일한 상태로 고객에게 반환됩니다.
   
  **Microsoft에서 내 하드 드라이브를 나에게 다시 배송하는 대신 폐기할 수 있나요?**
   
-No, Microsoft can't destroy your hard drive. Hard drives are returned to you in the same state they were in when they were received by Microsoft.
+아니요, Microsoft에서는 고객의 하드 드라이브를 파괴할 수 없습니다. 하드 드라이브는 Microsoft에서 받을 때와 동일한 상태로 고객에게 반환됩니다.
   
  **반환 배송에 어떤 택배 서비스를 사용할 수 있나요?**
   
-If you're a customer in the United States or Europe, Microsoft uses FedEx to return your hard drive. For all other regions, Microsoft uses DHL.
+미국 또는 유럽 고객인 경우 Microsoft에서는 FedEx를 통해 하드 드라이브를 반환합니다. 다른 모든 지역에서는 DHL을 이용합니다.
   
  **반환 배송 비용은 얼마인가요?**
   
-Return shipping costs vary, depending on your proximity to the Microsoft data center that you shipped your hard drive to. Microsoft will bill your FedEx or DHL account to return your hard drive. The cost of return shipping is your responsibility.
+반환 배송 비용은 고객이 하드 드라이브를 배송한 Microsoft 데이터 센터와의 근접성에 따라 다릅니다. Microsoft는 FedEx 또는 DHL 계정으로 하드 드라이브 반환 비용을 청구합니다. 반환 배송의 비용은 고객이 부담해야 합니다.
   
  **Microsoft로 하드 드라이브를 배송하는 데 FedEx Custom Shipping과 같은 사용자 지정 택배 배송 서비스를 이용할 수 있나요?**
   
@@ -319,4 +319,4 @@ Return shipping costs vary, depending on your proximity to the Microsoft data ce
   
  **하드 드라이브를 다른 국가로 하드 드라이브를 배송해야 하는 경우 내가 해야 할 일이 있나요?**
   
-The hard drive that you ship to Microsoft might have to cross international borders. If this is the case, you're responsible for ensuring that the hard drive and the data it contains are imported and/or exported in accordance with the applicable laws. Before shipping a hard drive, check with your advisors to verify that your drive and data can legally be shipped to the specified Microsoft data center. This will help to ensure that it reaches Microsoft in a timely manner.
+Microsoft에 배송하는 하드 드라이브가 국경을 통과해야 하는 경우도 있습니다. 이런 경우 하드 드라이브와 해당 하드 드라이브에 포함된 데이터를 해당 법규에 따라 가져오거나 내보내는 것은 고객의 책임입니다. 하드 드라이브를 배송하기 전에 드라이브 및 데이터를 지정된 Microsoft 데이터 센터로 합법적으로 배송할 수 있는지 고문 담당자와 확인하세요. 이렇게 하면 적시에 Microsoft로 도착할 수 있습니다.
