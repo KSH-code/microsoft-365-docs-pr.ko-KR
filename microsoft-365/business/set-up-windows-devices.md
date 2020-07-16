@@ -67,7 +67,7 @@ Windows 10 Pro 크리에이터 업데이트를 실행하는 새로운 장치 또
     
 3. Windows 10 장치 설정을 완료합니다.
     
-   Once you're done, the user will be connected to your organization's Azure AD. See [Verify the device is connected to Azure AD](#verify-the-device-is-connected-to-azure-ad) to make sure. 
+   설정을 완료하면 사용자가 조직의 Azure AD에 연결됩니다. [장치가 Azure AD에 연결되었는지 확인](#verify-the-device-is-connected-to-azure-ad)을 참조하여 연결을 확인하세요. 
   
 ### <a name="for-a-device-already-set-up-and-running-windows-10-pro"></a>Windows 10 Pro를 이미 설치하여 운영 중인 장치의 경우
 
@@ -97,7 +97,7 @@ Windows 10 Pro 크리에이터 업데이트를 실행하는 새로운 장치 또
   
 6. **조직** 확인 페이지에서 정보가 올바른지 확인 하 고 **참가**를 클릭 합니다.
   
-   On the **You're all set!** page, click **Done**.
+   **완료되었습니다!** 페이지에서 **완료**를 클릭합니다.
   
    ![On the Make sure this is your organization screen, click Join](../media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
   

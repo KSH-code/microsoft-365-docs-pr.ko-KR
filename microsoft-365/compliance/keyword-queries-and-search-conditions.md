@@ -61,13 +61,13 @@ ms.locfileid: "45127183"
 |Folderid|특정 사서함 폴더의 폴더 ID (GUID)입니다. 이 속성을 사용 하는 경우에는 지정 된 폴더가 있는 사서함을 검색 해야 합니다. 지정한 폴더만 검색 됩니다. 폴더에 있는 모든 하위 폴더는 검색 되지 않습니다. 하위 폴더를 검색 하려면 Folderid 속성을 사용 하 여 검색을 수행 해야 합니다.  <br/> Folderid 속성을 검색 하 고 스크립트를 사용 하 여 특정 사서함에 대 한 폴더 Id를 가져오는 방법에 대 한 자세한 내용은 using [Content Search for about collections](use-content-search-for-targeted-collections.md)를 참조 하십시오.|`folderid:4D6DD7F943C29041A65787E30F02AD1F00000000013A0000`  <br/> `folderid:2370FB455F82FC44BE31397F47B632A70000000001160000 AND participants:garthf@contoso.com`|첫 번째 예에서는 지정 된 사서함 폴더의 모든 항목을 반환 합니다. 두 번째 예에서는 garthf@contoso.com에서 보내거나 받은 지정 된 사서함 폴더의 모든 항목을 반환 합니다.|
 |From|전자 메일 메시지의 보낸 사람입니다. <sup>1</sup>|`from:pilarp@contoso.com`  <br/> `from:contoso.com`|지정된 사용자가 보냈거나 지정된 도메인에서 보낸 메시지입니다.|
 |HasAttachment|메시지에 첨부 파일이 있는지 여부를 나타냅니다. **True** 또는 **false**값을 사용 합니다.|`from:pilar@contoso.com AND hasattachment:true`|첨부 파일이 있는 지정 된 사용자가 보낸 메시지입니다.|
-|얼마나|The importance of an email message, which a sender can specify when sending a message. By default, messages are sent with normal importance, unless the sender sets the importance as **high** or **low**.|`importance:high`  <br/> `importance:medium`  <br/> `importance:low`|높음 중요도, 보통 중요도 또는 낮은 중요도로 표시된 메시지입니다.|
+|얼마나|보낸 사람이 메시지를 보낼 때 지정할 수 있는 전자 메일 메시지의 중요도입니다. 기본적으로 보낸 사람이 중요도를 **높음** 또는 **낮음**으로 설정하지 않았다면 메시지는 보통 중요도로 전송됩니다.|`importance:high`  <br/> `importance:medium`  <br/> `importance:low`|높음 중요도, 보통 중요도 또는 낮은 중요도로 표시된 메시지입니다.|
 |IsRead|메시지를 읽었는지 여부를 나타냅니다. **True** 또는 **false**값을 사용 합니다.|`isread:true`  <br/> `isread:false`|첫 번째 예에서는 IsRead 속성이 **True**로 설정 된 메시지를 반환 합니다. 두 번째 예에서는 IsRead 속성이 **False**로 설정 된 메시지를 반환 합니다.|
 |ItemClass|이 속성을 사용 하 여 조직에서 Office 365로 가져온 특정 타사 데이터 형식을 검색 합니다. 이 속성에는 다음 구문을 사용 합니다.`itemclass:ipm.externaldata.<third-party data type>*`|`itemclass:ipm.externaldata.Facebook* AND subject:contoso`  <br/> `itemclass:ipm.externaldata.Twitter* AND from:"Ann Beebe" AND "Northwind Traders"`|첫 번째 예에서는 Subject 속성에 "contoso" 라는 단어가 포함 된 Facebook 항목을 반환 합니다. 두 번째 예에서는 Ann Beebe에서 게시 되었으며 키워드 구 "Northwind Traders"를 포함 하는 Twitter 항목을 반환 합니다.  <br/> ItemClass 속성의 타사 데이터 형식에 사용할 값의 전체 목록은 [Office 365로 가져온 타사 데이터를 검색 하려면 사용 콘텐츠 검색](use-content-search-to-search-third-party-data-that-was-imported.md)을 참조 하십시오.|
 |정도의| 검색할 전자 메일 메시지의 유형입니다. 사용 가능한 값:  <br/>  연락처만  <br/>  docs  <br/>  메일 주소  <br/>  externaldata  <br/>  못한  <br/>  메시징을  <br/>  저널이  <br/>  모임의  <br/>  microsoftteams (Microsoft 팀의 채팅, 모임 및 통화에서 항목을 반환 합니다.)  <br/>  notes  <br/>  게시물  <br/>  rssfeeds  <br/>  작업과  <br/>  음성 메일|`kind:email`  <br/> `kind:email OR kind:im OR kind:voicemail`  <br/> `kind:externaldata`|첫 번째 예에서는 검색 조건을 충족 하는 전자 메일 메시지를 반환 합니다. 두 번째 예에서는 전자 메일 메시지, 인스턴트 메시징 대화 (Microsoft 팀의 비즈니스용 Skype 대화 및 채팅 포함)를 반환 하 고, 검색 조건을 충족 하는 음성 메시지입니다. 세 번째 예에서는 검색 조건을 충족 하는 Twitter, Facebook 및 Cisco Jabber과 같은 타사 데이터 원본에서 Microsoft 365의 사서함으로 가져온 항목을 반환 합니다. 자세한 내용은 [Office 365에서 타사 데이터 보관](https://www.microsoft.com/?ref=go)을 참조 하세요.|
-|할당|전자 메일 메시지의 모든 사람 필드입니다. 이 필드는 From, To, Cc 및 Bcc입니다.<sup>1</sup>|`participants:garthf@contoso.com`  <br/> `participants:contoso.com`|Messages sent by or sent to garthf@contoso.com. The second example returns all messages sent by or sent to a user in the contoso.com domain.|
+|할당|전자 메일 메시지의 모든 사람 필드입니다. 이 필드는 From, To, Cc 및 Bcc입니다.<sup>1</sup>|`participants:garthf@contoso.com`  <br/> `participants:contoso.com`|garthf@contoso.com에서 보냈거나 이 사이트로 보낸 메시지입니다. 두 번째 예제에서는 contoso.com 도메인의 사용자가 보냈거나 이 사용자에게로 보낸 모든 메시지를 반환합니다.|
 |수신됨|받는 사람이 전자 메일 메시지를 받은 날짜입니다.|`received:04/15/2016`  <br/> `received>=01/01/2016 AND received<=03/31/2016`|2016 년 4 월 15 일에 받은 메시지 두 번째 예에서는 2016 년 1 월 2 일과 2016 년 3 월 31 일 사이에 수신 된 모든 메시지를 반환 합니다.|
-|받는 사람|전자 메일 메시지의 모든 받는 사람 필드입니다. 이 필드는 받는 사람, 참조 및 숨은 참조입니다.<sup>1</sup>|`recipients:garthf@contoso.com`  <br/> `recipients:contoso.com`|Messages sent to garthf@contoso.com. The second example returns messages sent to any recipient in the contoso.com domain.|
+|받는 사람|전자 메일 메시지의 모든 받는 사람 필드입니다. 이 필드는 받는 사람, 참조 및 숨은 참조입니다.<sup>1</sup>|`recipients:garthf@contoso.com`  <br/> `recipients:contoso.com`|garthf@contoso.com으로 보낸 메시지입니다. 두 번째 예제에서는 contoso.com 도메인에 있는 모든 받는 사람에게 전송된 메시지를 반환합니다.|
 |전송할|보낸 사람이 전자 메일 메시지를 보낸 날짜입니다.|`sent:07/01/2016`  <br/> `sent>=06/01/2016 AND sent<=07/01/2016`|지정된 날짜 또는 지정된 날짜 범위 내에서 전송된 메시지입니다.|
 |크기|항목의 크기(바이트)입니다.|`size>26214400`  <br/> `size:1..1048567`|25 보다 큰 메시지 정도의. 두 번째 예제에서는 1 ~ 1,048,567바이트(1MB) 크기의 메시지를 반환합니다.|
 |제목|전자 메일 메시지 제목 줄의 텍스트입니다.  <br/> **참고:** 쿼리에서 Subject 속성을 사용 하면 검색에서 제목 줄에 검색 중인 텍스트가 포함 된 모든 메시지가 반환 됩니다. 즉, 쿼리는 정확 하 게 일치 하는 메시지만 반환 하지는 않습니다. 예를 들어를 검색 하는 경우 `subject:"Quarterly Financials"` 결과에는 제목이 "분기별 Financials 2018" 인 메시지가 포함 됩니다.|`subject:"Quarterly Financials"`  <br/> `subject:northwind`|제목 줄의 텍스트에 "분기별 Financials" 이라는 구가 포함 된 메시지 두 번째 예제에서는 제목 줄에 단어 northwind가 포함된 모든 메시지를 반환합니다.|
@@ -92,13 +92,13 @@ ms.locfileid: "45127183"
 |DetectedLanguage|항목의 언어입니다.|`detectedlanguage:english`|영어로된 모든 항목입니다.|
 |DocumentLink|SharePoint 또는 비즈니스용 OneDrive 사이트에 있는 특정 폴더의 경로 (URL)입니다. 이 속성을 사용 하는 경우에는 지정한 폴더가 있는 사이트를 검색 해야 합니다.  <br/> Documentlink 속성에 대해 지정한 폴더의 하위 폴더에 있는 항목을 반환 하려면 지정 된 폴더의 URL을 추가/제거 해야 합니다 ( \* 예:`documentlink: "https://contoso.sharepoint.com/Shared Documents/*"`  <br/> <br/>Documentlink 속성을 검색 하 고 스크립트를 사용 하 여 특정 사이트의 폴더에 대 한 documentlink Url을 가져오는 방법에 대 한 자세한 내용은 using [Content Search for collections](use-content-search-for-targeted-collections.md)to를 참조 하십시오.|`documentlink:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/Documents/Private"`  <br/> `documentlink:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/Documents/Shared with Everyone/*" AND filename:confidential`|첫 번째 예에서는 지정 된 비즈니스용 OneDrive 폴더에 있는 모든 항목을 반환 합니다. 두 번째 예에서는 파일 이름에 "기밀" 이라는 단어가 포함 된 지정 된 사이트 폴더 및 모든 하위 폴더의 문서를 반환 합니다.|
 |Fileextension)|파일의 확장명입니다. 예를 들면 .docx, one, .pptx 또는 .xlsx가 있습니다.|`fileextension:xlsx`|모든 Excel 파일 (Excel 2007 이상)|
-|이름을|파일의 이름입니다.|`filename:"marketing plan"`  <br/> `filename:estimate`|The first example returns files with the exact phrase "marketing plan" in the title. The second example returns files with the word "estimate" in the file name.|
+|이름을|파일의 이름입니다.|`filename:"marketing plan"`  <br/> `filename:estimate`|첫 번째 예제에서는 제목에 "marketing plan"이 정확히 포함된 제목을 반환합니다. 두 번째 예제에서는 파일 이름에 "estimate"라는 단어가 들어 있는 파일을 반환합니다.|
 |LastModifiedTime|항목을 마지막으로 변경한 날짜입니다.|`lastmodifiedtime>=05/01/2016`  <br/> `lastmodifiedtime>=05/10/2016 AND lastmodifiedtime<=06/1/2016`|첫 번째 예에서는 5 월 1 일, 2016 이후 변경 된 항목을 반환 합니다. 두 번째 예에서는 5 월 1 일, 2016 년 6 월 1 일 사이에 변경 된 항목 2016을 반환 합니다.|
 |ModifiedBy|항목을 마지막으로 변경한 사람입니다. 이 속성에는 사용자의 표시 이름을 사용 해야 합니다.|`modifiedby:"Garth Fort"`|Garth Fort가 마지막으로 변경한 모든 항목입니다.|
 |경로|SharePoint 또는 비즈니스용 OneDrive 사이트에 있는 특정 사이트의 경로 (URL)입니다.  <br/> Path 속성에 지정한 사이트의 폴더에 있는 항목을 반환 하려면 지정 된 사이트의 URL을 추가/제거 해야 합니다 ( \* 예:`path: "https://contoso.sharepoint.com/Shared Documents/*"`  <br/> <br/> **참고:** 이 속성을 사용 하 여 `Path` OneDrive 위치를 검색 하면 검색 결과에 .png, tiff 또는 .wav 파일 같은 미디어 파일이 반환 되지 않습니다. 검색 쿼리에서 다른 사이트 속성을 사용 하 여 OneDrive 폴더에서 미디어 파일을 검색 합니다. <br/>|`path:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/"`  <br/> `path:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/*" AND filename:confidential`|첫 번째 예에서는 지정 된 비즈니스용 OneDrive 사이트의 모든 항목을 반환 합니다. 두 번째 예에서는 파일 이름에 "기밀" 이라는 단어가 포함 된 지정 된 사이트 (및 사이트의 폴더)의 문서를 반환 합니다.|
 |SharedWithUsersOWSUser|지정 된 사용자와 공유 되었으며 사용자의 비즈니스용 OneDrive 사이트에 있는 **공유** 항목 페이지에 표시 되는 문서입니다. 조직의 다른 사용자가 지정 된 사용자와 명시적으로 공유 하는 문서입니다. SharedWithUsersOWSUser 속성을 사용 하는 검색 쿼리와 일치 하는 문서를 내보내면 지정한 사용자에 게 문서를 공유한 사용자의 원래 콘텐츠 위치에서 문서가 내보내집니다. 자세한 내용은 [조직 내에서 공유 되는 사이트 콘텐츠 검색](#searching-for-site-content-shared-within-your-organization)을 참조 하세요.|`sharedwithusersowsuser:garthf`  <br/> `sharedwithusersowsuser:"garthf@contoso.com"`|두 예 모두 Garth 요새와 명시적으로 공유 된 모든 내부 문서를 반환 하며 Garth 요새의 비즈니스용 OneDrive 계정에 있는 **공유** 에 있는 페이지에 표시 됩니다.|
 |사이트|조직의 사이트 또는 사이트 그룹의 URL입니다.|`site:"https://contoso-my.sharepoint.com"`  <br/> `site:"https://contoso.sharepoint.com/sites/teams"`|첫 번째 예에서는 조직 내 모든 사용자의 비즈니스용 OneDrive 사이트에서 항목을 반환 합니다. 두 번째 예제에서는 모든 팀 사이트의 항목을 반환합니다.|
-|크기|항목의 크기(바이트)입니다.|`size>=1`  <br/> `size:1..10000`|The first example returns items larger than 1 byte. The second example returns items from 1 through 10,000 bytes in size.|
+|크기|항목의 크기(바이트)입니다.|`size>=1`  <br/> `size:1..10000`|첫 번째 예제에서는 1바이트 보다 큰 항목을 반환합니다. 두 번째 예제에서는 1부터 10,000바이트 크기의 항목을 반환합니다.|
 |제목|문서의 제목입니다. Title 속성은 Microsoft Office 문서에 지정 된 메타 데이터입니다. 문서의 파일 이름과 다릅니다.|`title:"communication plan"`|Office 문서의 Title 메타데이터 속성에 "communication plan"이 포함된 문서입니다.|
 |||||
    
@@ -230,18 +230,18 @@ SharePoint 및 비즈니스용 OneDrive 사이트에서 문서를 검색할 때 
   
 ### <a name="operators-used-with-conditions"></a>조건과 함께 사용되는 연산자
 
-When you add a condition, you can select an operator that is relevant to type of property for the condition. The following table describes the operators that are used with conditions and lists the equivalent that is used in the search query.
+조건을 추가할 때 조건에 대한 속성 유형과 관련된 연산자를 선택할 수 있습니다. 다음 표에서는 조건과 함께 사용되는 연산자를 설명하고 검색 쿼리에 사용되는 것과 동일한 연산자를 제공합니다.
   
 |**연산자**|**연산자와 동일한 쿼리**|**설명**|
 |:-----|:-----|:-----|
-|마치면|`property>date`|Used with date conditions. Returns items that were sent, received, or modified after the specified date.|
-|Before|`property<date`|Used with date conditions. Returns items that were sent, received, or modified before the specified date.|
+|마치면|`property>date`|날짜 조건과 함께 사용됩니다. 지정된 날짜 이후에 전송, 수신 또는 수정된 항목을 반환합니다. |
+|Before|`property<date`|날짜 조건과 함께 사용됩니다. 지정된 날짜 이전에 전송, 수신 또는 수정된 항목을 반환합니다.|
 |간의|`date..date`|날짜 및 크기 조건과 함께 사용됩니다. 날짜 조건과 함께 사용될 경우 지정된 날짜 범위 내에서 전송, 수신 또는 수정된 항목을 반환합니다. 크기 조건과 함께 사용될 경우 해당 크기가 지정된 범위 내에 속하는 항목을 반환합니다.|
 |Contains any of|`(property:value) OR (property:value)`|문자열 값을 지정하는 속성에 대한 조건과 함께 사용됩니다. 하나 이상의 지정된 문자열 값의 일부를 포함하는 항목을 반환합니다.|
 |Doesn't contain any of|`-property:value`  <br/> `NOT property:value`|문자열 값을 지정하는 속성에 대한 조건과 함께 사용됩니다. 지정된 문자열 값의 어떤 부분도 포함하지 않는 항목을 반환합니다.|
-|Doesn't equal any of|`-property=value`  <br/> `NOT property=value`|Used with conditions for properties that specify a string value. Returns items that don't contain the specific string.|
+|Doesn't equal any of|`-property=value`  <br/> `NOT property=value`|문자열 값을 지정하는 속성에 대한 조건과 함께 사용됩니다. 특정 문자열을 포함하지 않는 항목을 반환합니다.|
 |내년|`size=value`|지정 된 크기와 같은 항목을 반환 합니다. <sup>1</sup>|
-|Equals any of|`(property=value) OR (property=value)`|Used with conditions for properties that specify a string value. Returns items that are an exact match of one or more specified string values.|
+|Equals any of|`(property=value) OR (property=value)`|문자열 값을 지정하는 속성에 대한 조건과 함께 사용됩니다. 하나 이상의 지정된 문자열 값과 정확히 일치하는 항목을 반환합니다.|
 |넘을|`size>value`|지정한 속성이 지정한 값 보다 큰 항목을 반환 합니다. <sup>1</sup>|
 |Greater or equal|`size>=value`|지정한 속성이 지정한 값 보다 크거나 같은 항목을 반환 합니다. <sup>1</sup>|
 |줄일|`size<value`|특정 값 보다 크거나 같은 항목을 반환 합니다. <sup>1</sup>|
@@ -277,7 +277,7 @@ When you add a condition, you can select an operator that is relevant to type of
     ![동일한 속성에 대한 여러 검색 조건](../media/1e63d37d-6d8d-4c9b-a509-a7e1c3a05193.gif)
   
 > [!TIP]
-> If a condition accepts multiple values, we recommend that you use a single condition and specify multiple values (separated by commas or semi-colons). This helps ensure the query logic that's applied is what you intend. 
+> 조건이 여러 값을 허용하는 경우 단일 조건을 사용하고 여러 값(쉼표나 세미콜론으로 구분)을 지정하는 것이 좋습니다. 이렇게 하면 적용되는 쿼리 논리가 사용자의 의도와 맞는지 확인하는 데 도움이 됩니다. 
   
 ### <a name="examples-of-using-conditions-in-search-queries"></a>예제
 
@@ -301,7 +301,7 @@ When you add a condition, you can select an operator that is relevant to type of
   
 #### <a name="example-2"></a>예제 2
 
-This example returns email items or documents that contain the keyword "report", that were sent or created before April 1, 2105, and that contain the word "northwind" in the subject field of email messages or in the title property of documents. The query excludes Web pages that meet the other search criteria.
+이 예제에서는 키워드 "report"를 포함하고, 2015년 4월 1일 이전에 전송되었거나 생성되었고, 전자 메일 메시지의 제목 필드나 문서의 제목 속성에 단어 "northwind"가 포함된 전자 메일 항목 또는 문서를 반환합니다. 이 쿼리는 다른 검색 조건에 맞는 웹 페이지를 제외합니다. 
   
  **GUI**
   
@@ -416,7 +416,7 @@ kind:im AND subject:conversation AND (received=startdate..enddate)
 
 - 형식과 일치 하는 구문을 사용 `property:value` 합니다. 값은 대/소문자를 구분 하지 않으며 연산자 뒤에 공백을 사용할 수 없습니다. 공백이 있는 경우에는 원하는 값이 전체 텍스트 검색이 됩니다. 예를 들어 `to: pilarp` pilarp로 전송 된 메시지 대신 키워드로 "pilarp"을 검색 합니다. 
 
-- When searching a recipient property, such as To, From, Cc, or Recipients, you can use an SMTP address, alias, or display name to denote a recipient. For example, you can use pilarp@contoso.com, pilarp, or "Pilar Pinilla".
+- 받는 사람 속성(예: To, From, Cc 또는 Recipients)을 검색하는 경우 SMTP 주소, 별칭 또는 표시 이름을 사용하여 받는 사람을 나타낼 수 있습니다. 예를 들어, pilarp@contoso.com, pilarp, 또는 "Pilar Pinilla"를 사용할 수 있습니다.
 
 - 접두사 와일드 카드 검색만 사용할 수 있습니다. 예를 들면 **cat \* ** 또는 **set \* **입니다. ** \* Cat**(접미사 검색), 중 위 검색 (**c \* t**) 및** \* cat \* **(하위 문자열 검색)은 지원 되지 않습니다.
 

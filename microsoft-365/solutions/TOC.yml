@@ -19,12 +19,12 @@
           href: empower-people-to-work-remotely-secure-sign-in.md
         - name: 2단계. 원격 액세스 제공
           href: empower-people-to-work-remotely-remote-access.md
-        - name: 3단계. 보안 및 규정 준수 배포
-          href: empower-people-to-work-remotely-security-compliance.md
-        - name: 4단계. 끝점 관리 기능 배포
+        - name: 3단계. 끝점 관리 기능 배포
           href: empower-people-to-work-remotely-manage-endpoints.md
-        - name: 5단계. 생산성 앱 및 서비스 배포
+        - name: 4단계. 생산성 앱 및 서비스 배포
           href: empower-people-to-work-remotely-teams-productivity-apps.md
+        - name: 5단계. 소통 공간 만들기
+          href: empower-people-to-work-remotely-communication-venues.md
         - name: 6단계. 원격 작업자 교육
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Microsoft 365를 사용하여 안전한 공동 작업 설정
@@ -139,8 +139,6 @@
           href: contoso-case-study-solutions.md
         - name: 극비 프로젝트를 위해 격리된 팀
           href: contoso-team-for-top-secret-project.md
-        - name: Teams 음성 마이그레이션
-          href: 'https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: 테스트 랩 가이드
       items:
         - name: 솔루션 및 시나리오에 대한 테스트 랩 가이드

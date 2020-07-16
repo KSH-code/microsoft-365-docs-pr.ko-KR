@@ -139,11 +139,11 @@ Microsoft Service Trust Portal에서 준수 관리자에 액세스할 수 있습
 3. 문서를 열어 보고서 데이터를 검토합니다.
 
 > [!NOTE]
-> This is not a historical report that retains and displays state changes to action item assignment history. The generated report is a snapshot of the control action items assigned at the time that the report is run (date and time stamp written into the report). For instance, any subsequent reassignment of action items will result in different snapshot report data if this report is generated again for the same user.
+> 이 보고서는 작업 항목 할당 기록에 대한 상태 변경을 유지 및 표시하는 기록 보고서가 아닙니다. 생성된 보고서는 보고서가 실행되었을 때 할당된 컨트롤 작업 항목의 스냅숏입니다(보고서에 날짜 및 시간 스탬프가 기록됨). 예를 들어 이후에 작업 항목을 다시 할당한 후에 같은 사용자에 대해 이 보고서를 다시 생성하면 다른 스냅숏 보고서 데이터가 생성됩니다.
   
 #### <a name="reassign-action-items"></a>작업 항목 다시 할당
 
-This function enables an organization to remove any active or outstanding dependencies on the user account by reassigning all action item ownership (which includes both active and completed action items) from the returned user account to a new user selected below. This action does not change document upload history for the returned user account.
+이 기능을 사용하면 조직에서 반환된 사용자 계정의 모든 작업 항목 소유권(활성 및 완료된 작업 항목 모두 포함)을 아래에서 선택한 새 사용자에게 다시 할당하여 사용자 계정에 대한 활성 또는 보류 상태의 종속성을 모두 제거할 수 있습니다. 이 작업을 수행해도 반환된 사용자 계정에 대한 문서 업로드 기록은 변경되지 않습니다.
   
  다른 사용자에게 작업 항목을 다시 할당하려면
   
@@ -156,9 +156,9 @@ This function enables an organization to remove any active or outstanding depend
 4. 계속 하려면 **확인**을 선택 하 고 그렇지 않으면 **취소**를 선택 합니다.
     
 > [!NOTE]
-> All action items (both active and completed) will be assigned to the newly selected user. However, this action does not affect the document upload history; any documents uploaded by the previously assigned user will still show the date/time and name of the previously assigned user. 
+> 모든 작업 항목(활성 및 완료된 항목 모두)이 새로 선택된 사용자에게 할당됩니다. 그러나 이 작업은 문서 업로드 기록에는 영향을 주지 않습니다. 이전에 할당된 사용자가 업로드한 모든 문서는 이전에 할당된 사용자의 날짜/시간 및 이름을 계속 표시합니다. 
   
-Changing the document upload history to remove the previously assigned user will have to be done as a manual process. In that case, the administrator will need to:
+문서 업로드 기록을 변경하여 이전에 할당된 사용자를 제거하려면 수동 프로세스로 진행해야 합니다. 이 경우 관리자는 다음을 수행해야 합니다.
   
 1. 이전에 다운로드한 내보내기 보고서를 엽니다.
   
@@ -174,7 +174,7 @@ Changing the document upload history to remove the previously assigned user will
   
 #### <a name="delete-user-data-history"></a>사용자 데이터 기록 삭제
 
-This sets control action items to 'unassigned' for all action items assigned to the returned user. This also sets uploaded by value to 'user removed' for any documents uploaded by the returned user
+이 작업을 수행하면 컨트롤 작업 항목이 반환된 사용자에게 할당된 모든 작업 항목에 대해 ‘할당되지 않음’으로 설정됩니다. 또한 반환된 사용자가 업로드한 모든 문서의 업로드한 사용자 값이 ‘사용자가 제거함’으로 설정됩니다.
   
  사용자 계정 작업 항목 및 문서 업로드 기록을 삭제하려면
   

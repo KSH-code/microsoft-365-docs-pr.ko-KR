@@ -75,7 +75,7 @@ Microsoft는 관리자 권한 남용, 맬웨어 활동, 잠재적 외부 및 내
 
 ## <a name="task-6-classify-and-protect-sensitive-data"></a>작업 6: 중요 한 데이터 분류 및 보호
 
-To get their work done, people in your organization collaborate with others both inside and outside the organization. This means that content no longer stays behind a firewall—it can roam everywhere, across devices, apps, and services. And when it roams, you want it to do so in a secure, protected way that meets your organization's business and compliance policies.
+작업을 완료하기 위해 조직의 사용자는 조직 내부 및 외부의 다른 사용자와 공동으로 작업합니다. 이는 콘텐츠가 더 이상 방화벽 뒤에 있지 않으며 장치, 앱 및 서비스를 비롯한 모든 위치에서 로밍할 수 있음을 의미합니다. 또한 사용자는 로밍 중에는 조직의 비즈니스 및 준수 정책을 충족하는 안전하고 보호된 방식으로 진행하는 것이 좋습니다.
 
 [민감도 레이블을](sensitivity-labels.md) 사용 하면 조직의 데이터를 분류 하 고 보호할 수 있을 뿐 아니라, 사용자 생산성과 공동 작업 능력이 방해 작업이 수행 되지 않습니다. 민감도 레이블을 사용 하 여 암호화 및 사용 제한을 적용 하면 시각적 표시가 적용 되며, 온-프레미스 및 클라우드에서 모든 플랫폼과 장치에서 정보를 보호할 수 있습니다.
 

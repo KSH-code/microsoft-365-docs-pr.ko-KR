@@ -2,10 +2,10 @@
 title: 보안 및 준수 센터의 전자 메일 보안 보고서 보기
 f1.keywords:
 - NOCSH
-ms.author: chrisda
-author: chrisda
+ms.author: tracyp
+author: msfttracyp
 manager: dansimp
-ms.date: ''
+ms.date: 01/16/2020
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -18,454 +18,198 @@ ms.collection:
 - M365-security-compliance
 description: 조직의 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 & 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 26dfa8ec046122dce28582fb3d7b395843572a88
-ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
+ms.openlocfilehash: dfee1fa2c6e515bfc10ed7a633584c54763fdec4
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "45102918"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819464"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>보안 및 준수 센터의 전자 메일 보안 보고서 보기
 
-[보안 & 준수 센터](https://protection.office.com) 에서 다양 한 보고서를 사용할 수 있으며, Microsoft 365의 스팸 방지, 맬웨어 방지 및 암호화 기능과 같은 전자 메일 보안 기능이 조직을 보호 하는 방법을 확인 하는 데 도움이 됩니다. [필요한 권한이](#what-permissions-are-needed-to-view-these-reports)있는 경우 **보고서** 대시보드로 이동 하 여 보안 & 준수 센터에서 이러한 보고서를 볼 수 있습니다 \> **Dashboard**. 보고서 대시보드로 직접 이동 하려면를 엽니다 <https://protection.office.com/insightdashboard> .
+[보안 & 준수 센터](https://protection.office.com) 에서 다양 한 보고서를 사용할 수 있으며, Microsoft 365의 스팸 방지, 맬웨어 방지 및 암호화 기능과 같은 전자 메일 보안 기능이 조직을 보호 하는 방법을 확인 하는 데 도움이 됩니다. [필요한 권한이](#what-permissions-are-needed-to-view-these-reports)있는 경우 **보고서** 대시보드로 이동 하 여 보안 & 준수 센터에서 이러한 보고서를 볼 수 있습니다 \> **Dashboard**.
 
 ![보안 & 준수 센터의 보고서 대시보드](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
+전자 메일 보안 보고서에는 다음이 포함 됩니다.
+
+- [URL 위협 방지 보고서](#url-threat-protection-report-new) (**신규!**)
+- [손상 된 사용자 보고서](#compromised-users-report)
+- [암호화 보고서](#encryption-report)
+- [위협 방지 상태 보고서](#threat-protection-status-report)
+- [맬웨어 감지 보고서](#malware-detections-report)
+- [주요 맬웨어 보고서](#top-malware-report)
+- [상위 보낸 사람 및 받는 사람 보고서](#top-senders-and-recipients-report)
+- [스푸핑 감지 보고서](#spoof-detections-report)
+- [스팸 감지 보고서](#spam-detections-report)
+- [보내고 받은 전자 메일 보고서](#sent-and-received-email-report)
+- [사용자가 보고 한 메시지 보고서](#user-reported-messages-report)
+
+## <a name="url-threat-protection-report-new"></a>URL 위협 방지 보고서 (**신규!**)
+
+URL 위협 방지 보고서는 다음 사용자에 게 제공 됩니다.
+
+- Exchange Online Protection *및* Advanced Threat protection 추가 기능 (계획 1 *또는* 계획 2)
+- Microsoft 365 E5 구독
+
+두 개의 집계 된 보기가 있는 ' 클릭 중심 ' 보고서입니다.
+
+1. 첫 번째 보기는 테 넌 트 내의 사용자에의 한 URL 클릭 수와 클릭 결과를 표시 하는 데 초점을 맞춘 *URL 클릭 방지 작업*입니다. 여기에서 클릭은 사용자가 악성 웹 사이트에 대 한 차단 페이지를 클릭 한 것을 나타냅니다 (안전한 링크 정책 내의 관리자가이 기능을 사용 하지 않도록 설정할 수 있음).
+
+2. 두 번째 보기는 *url 클릭 응용 프로그램*, 즉 전자 메일 클라이언트나 Microsoft Word 등에서 현재 안전한 링크를 지 원하는 여러 응용 프로그램에서 클릭 합니다. 두 집계 보기의 데이터는 모두 4 시간 마다 한 번씩 새로 고쳐집니다.
+
+URL Threat Protection 보고서의 details table은 테 넌 트 내에서 일어나는 모든 클릭에 대 한 거의 실시간 보기를 제공 하며, *사용자 이름*, *URL*, *네트워크 메시지 ID* (URL이 전자 메일에서 클릭 한 경우), 조사 및 분석에 유용한 기타 정보를 포함 하는 조사 정보
+
+기본적으로 보고서에는 안전한 링크에 의해 차단 된 Url의 클릭에 대 한 데이터만 표시 되지만, 필터에서 *허용 되는 url* 선택을 통해 모든 URL을 클릭 하는 데 필요한 정보도 볼 수 있습니다.
+
+이 보고서에는 적용 된 안전한 링크 정책이 사용자가 클릭 하 여 *추적 하지 않음* 옵션을 선택한 경우 사용자의 클릭 데이터는 포함 되지 않습니다.
+
+![실행 중인 URL 위협 방지 보고서의 그래픽입니다.](../../media/tp-URLThreatProRpt1.PNG)
+
 ## <a name="compromised-users-report"></a>손상 된 사용자 보고서
 
-> [!NOTE]
-> 이 보고서는 Microsoft 365 조직에서 Exchange Online 사서함을 사용 하는 경우에 사용할 수 있습니다. Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protection) 조직에서는이 기능을 사용할 수 없습니다.
+Exchange Online Protection을 사용 하는 모든 사용자가 사용할 수 있는이 보고서에는 의심 스러운 사용자나 제한 된 사용자로 표시 되는, 데이터가 특히 계정으로 사용 하면 사용자 계정을 나타내는 상태 중 일부를 입력 하는 것이 좋습니다. 자주 사용 하는 경우에는 손상 된 사용자 보고서가 스파이크를 볼 수 있으며, 의심 스러운 또는 제한 상태인 계정으로 증거를 제공 하면 보안 및 테 넌 트의 wellness에 문제가 있을 수 있습니다.
 
-**손상 된 사용자** 보고서에는 최근 7 일 이내에 **의심** 또는 **제한** 된 것으로 표시 된 사용자 계정 수가 표시 됩니다. 이러한 두 가지 상태의 계정은 문제가 있거나 심지어도 손상 됩니다. 자주 사용 하는 경우 보고서를 사용 하 여 의심 스러운 또는 제한 된 계정의 스파이크 및 추세를 볼 수 있습니다. 사용자 손상에 대 한 자세한 내용은 [손상 된 전자 메일 계정에 응답](responding-to-a-compromised-email-account.md)을 참조 하세요.
-
-![보고서 대시보드의 손상 된 사용자 위젯](../../media/compromised-users-report-widget.png)
-
-집계 보기는 최근 90 일 동안의 데이터를 표시 하 고, 자세히 보기에는 지난 30 일 동안의 데이터가 표시 됩니다.
-
-보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 다음 **손상 된 사용자**를 선택 합니다. 보고서로 직접 이동 하려면를 엽니다 <https://protection.office.com/reportv2?id=CompromisedUsers> .
-
-**필터** 를 클릭 하 고 다음 값 중 하나 이상을 선택 하 여 차트 및 세부 정보 테이블을 모두 필터링 할 수 있습니다.
-
-- **시작 날짜** 및 **끝 날짜**
-
-- **의심 스러운**: 사용자 계정에서 의심 스러운 전자 메일을 보냈지만 전자 메일을 보낼 수 없게 되는 위험에 노출 됩니다.
-
-- **제한**: 사용자 계정이 의심 스러운 높은 패턴으로 인해 전자 메일을 보내지 못하도록 제한 되었습니다.
-
-![손상 된 사용자 보고서의 보고서 보기](../../media/compromised-users-report-activity-view.png)
-
-**세부 정보 테이블 보기**를 클릭 하면 다음 세부 정보를 확인할 수 있습니다.
-
-- **만든 시간**
-- **사용자 ID**
-- **작업**
-
-보고서 보기로 돌아가려면 **보고서 보기**를 클릭 합니다.
+![손상 된 사용자가 Microsoft 365에 표시 되는 것으로 보고 됩니다.](../../media/tp-threatProtectStatRpt-CompromisedUserRpt.png)
 
 ## <a name="encryption-report"></a>암호화 보고서
 
-**암호화 보고서** 는 EOP (exchange online의 사서함과 exchange online 사서함이 없는 독립 실행형 EOP 구독)에서 사용할 수 있습니다. 조직의 보안 팀은이 보고서의 정보를 사용 하 여 패턴을 식별 하 고 중요 한 전자 메일 메시지에 대 한 정책을 사전에 적용 하거나 조정할 수 있습니다. 예시는 다음과 같습니다:
+**암호화 보고서** 에는 조직의 정책 또는 최종 사용자 컨트롤을 통해 암호화 된 전자 메일 메시지에 대 한 정보가 표시 됩니다. 조직의 보안 팀은이 보고서의 정보를 사용 하 여 패턴을 식별 하 고 중요 한 전자 메일 메시지에 대 한 정책을 사전에 적용 하거나 조정할 수 있습니다.
 
-- 사용자가 암호화 한 전자 메일 메시지가 많은 경우 특정 사용 사례에 대 한 암호화를 자동화 하는 암호화 정책을 추가 하는 것이 좋습니다. 자세한 내용은 [Microsoft 365에서 전자 메일 메시지를 암호화 하는 메일 흐름 규칙 정의](../../compliance/define-mail-flow-rules-to-encrypt-email.md)를 참조 하십시오.
+이 보고서를 보려면 보안 & 준수 센터에서 **보고서** \> **대시보드** \> **암호화 보고서**로 이동 합니다.
 
-- 사용할 수 있는 암호화 서식 파일의 수가 여러 개 있지만 아무도 사용 하지 않는 경우에는 사용자가 기능 교육을 필요로 하는지 여부를 탐색할 수 있습니다.
+![암호화 보고서](../../media/encryptionreport-defaultview.png)
 
-집계 보기는 최근 90 일에 대 한 필터링을 허용 하 고 세부 정보 보기는 10 일 동안 필터링을 허용 합니다.
+보고서를 처음 열면 전자 메일 메시지에 사용 되는 암호화 방법에 대 한 데이터가 이전의 7 일 (7)로 표시 됩니다. 화면 오른쪽 위 모서리에 있는 **필터** 를 클릭 하 여 보고서에 표시 되는 날짜 범위 및 세부 정보를 변경할 수 있습니다.
 
-보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 다음 **암호화 보고서**를 선택 합니다. 보고서로 직접 이동 하려면를 엽니다 <https://protection.office.com/reportv2?id=EncryptionReport> .
+![암호화 보고서 필터](../../media/encryptionreport-filters.png)
 
-암호화에 대 한 자세한 내용은 [Microsoft 365의 전자 메일 암호화](../../compliance/email-encryption.md)를 참조 하세요.
+또한 **아래로 나누기** 메뉴를 사용 하 여 암호화 서식 파일 (또는 방법)을 통해 데이터를 볼 수도 있습니다.
 
-### <a name="report-view-for-the-encryption-report"></a>암호화 보고서에 대 한 보고서 보기
+![암호화 방법 또는 서식 파일](../../media/encryptionreport-breakdownby.png)
 
-차트에서 다음 필터를 사용할 수 있습니다.
+또한 **데이터 보기 기준** 메뉴를 사용 하 여 상위 5 개 받는 사람 도메인에 대 한 암호화 된 메시지 수를 확인 하기 위해 보기를 변경할 수 있습니다.
 
-- **데이터 보기 기준: 메시지 암호화 보고서** 및 **아래로 나누기: 암호화 방법**: 다음과 같은 암호화 방법을 사용할 수 있습니다.
+![암호화 보고서 데이터 보기 별 메뉴](../../media/encryptionreport-viewdataby.png)
 
-  - **사용자별 암호화**
-  - **정책에의 한 암호화**
+새 암호화 보고서를 유연 하 게 사용 하 여 추세를 확인 하 고 적절 한 조치를 취할 수 있습니다. 예를 들어 사용자가 암호화 한 전자 메일 메시지가 많은 경우 특정 사용 사례에 대 한 암호화를 자동화 하는 암호화 정책을 추가할 수 있습니다. 이에 대 한 도움말을 보려면 [Microsoft 365에서 전자 메일 메시지를 암호화 하기 위한 메일 흐름 규칙 정의](../../compliance/define-mail-flow-rules-to-encrypt-email.md)를 참조 하세요. 또 다른 예로, 사용할 수 있는 암호화 서식 파일이 있지만 아무도 사용 하지 않는 경우에는 사용자가 해당 기능에 대 한 교육을 받아야 하는지 여부를 탐색할 수 있습니다.
 
-  **필터**를 클릭 하면 다음 필터를 사용 하 여 차트를 수정할 수 있습니다.
-
-  - **시작 날짜** 및 **끝 날짜**
-  - 암호화 방법
-  - 암호화 서식 파일
-
-- **데이터 보기 기준: 메시지 암호화 보고서** 및 **아래로 나누기: 암호화 서식 파일**: 다음과 같은 암호화 방법을 사용할 수 있습니다.
-
-  - **전달 금지**
-  - **암호화만**
-  - **이전 OME**
-  - **사용자 지정**
-
-  **필터**를 클릭 하면 다음 필터를 사용 하 여 차트를 수정할 수 있습니다.
-
-  - **시작 날짜** 및 **끝 날짜**
-  - 암호화 방법
-  - 암호화 서식 파일
-
-- **데이터 보기 기준: 상위 5 개 받는 사람 도메인**:이 보기에는 상위 5 개 받는 사람 도메인에 대 한 보낸 메시지 수가 표시 되는 원형 차트가 나타납니다.
-
-  **필터**를 클릭 하면 **시작 날짜** 와 **끝 날짜**를 선택할 수 있습니다.
-
-### <a name="details-table-view-for-the-encryption-report"></a>암호화 보고서에 대 한 세부 정보 테이블 보기
-
-**세부 정보 표 보기**를 클릭 하면 표시 되는 정보는 보고 있는 차트에 따라 달라 집니다.
-
-- **아래로 나누기: 암호화 방법** 또는 **아래로 나누기: 암호화 서식 파일**: 다음 정보가 표시 됩니다.
-
-  - **날짜**
-  - **보낸 사람 주소**
-  - **암호화 서식 파일**
-  - **암호화 방법**
-  - **받는 사람 주소**
-  - **제목**
-
-- **데이터 보기 기준: 상위 5 개 받는 사람 도메인**:
-
-  - **날짜**
-  - **받는 사람 도메인**
-  - **메시지 수**
-  
-세부 정보 표 보기에서 **필터** 를 클릭 하면 다음 필터를 사용 하 여 결과를 수정할 수 있습니다.
-
-- **시작 날짜** 및 **끝 날짜**
-- 암호화 방법
-- 암호화 서식 파일
-
-보고서 보기로 돌아가려면 **보고서 보기**를 클릭 합니다.
-
-## <a name="mailflow-status-report"></a>메일 흐름 상태 보고서
-
-**메일 흐름 status 보고서** 에는 맬웨어, 스팸, 피싱 및에 지 차단 된 메시지에 대 한 정보가 포함 되어 있습니다. 자세한 내용은 [메일 흐름 status report](view-mail-flow-reports.md#mailflow-status-report)를 참조 하십시오.
-
-## <a name="malware-detection-in-email-report"></a>전자 메일 보고서의 맬웨어 검색
-
-**전자 메일 보고서에서** 검색 된 맬웨어는 들어오는 및 보내는 전자 메일 메시지의 맬웨어 감지에 대 한 정보를 표시 합니다 (Exchange Online PROTECTION 또는 EOP에서 감지한 맬웨어). EOP의 맬웨어 보호에 대 한 자세한 내용은 [EOP의 맬웨어 방지 보호](anti-malware-protection.md)를 참조 하세요.
-
- 집계 보기 필터는 90 일을 허용 하 고 세부 정보 테이블 필터는 10 일 동안만 허용 합니다.
-
-보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 후 **전자 메일로 맬웨어 감지**를 선택 합니다. 보고서로 직접 이동 하려면를 엽니다 <https://protection.office.com/reportv2?id=MalwareDetections> .
-
-![보고서 대시보드의 전자 메일 위젯에 있는 맬웨어 감지](../../media/malware-detections-widget.png)
-
-**필터** 를 클릭 하 고 다음을 선택 하 여 차트 및 세부 정보 테이블을 모두 필터링 할 수 있습니다.
-
-- **시작 날짜** 및 **끝 날짜**
-- **인바운드**
-- **아웃 바운드**
-
-![전자 메일 보고서의 맬웨어 검색에서 보고서 보기](../../media/malware-detections-report-view.png)
-
-**세부 정보 테이블 보기**를 클릭 하면 다음 세부 정보를 확인할 수 있습니다.
-
-- **날짜**
-- **보낸 사람 주소**
-- **받는 사람 주소**
-- **메시지 ID**
-- **제목**
-- **파일 이름**
-- **맬웨어 이름**
-
-보고서 보기로 돌아가려면 **보고서 보기**를 클릭 합니다.
-
-## <a name="sent-and-received-email-report"></a>보내고 받은 전자 메일 보고서
-
-**Sent and received 전자 메일** 보고서에는 맬웨어, 스팸, 메일 흐름 규칙 (전송 규칙이 라고도 함) 및 고급 맬웨어 검색 후 서비스가 서비스를 시작한 후에 대 한 정보가 포함 됩니다. 자세한 내용은 [Sent and received email report](view-mail-flow-reports.md#sent-and-received-email-report)를 참조 하세요.
-
-## <a name="spam-detections-report"></a>스팸 검색 보고서
-
-**스팸 감지** 보고서에는 EOP에 의해 차단 된 스팸 전자 메일 메시지가 표시 됩니다. 메시지는 받는 사람이 아닌 개별 단위로 계산 됩니다. 예를 들어 조직에서 100 받는 사람에 게 동일한 스팸 메시지를 전송 하면 하나의 메시지로 계산 됩니다.
-
-집계 보기는 90 일 필터링을 허용 하지만 details 테이블은 10 일 필터링을 허용 합니다.
-
-보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 후 **스팸 감지**를 선택 합니다. 보고서로 직접 이동 하려면를 엽니다 <https://protection.office.com/reportv2?id=SpamDetections> .
-
-![보고서 대시보드의 스팸 감지 위젯](../../media/spam-detections-report-widget.png)
-
-스팸 방지 보호 기능에 대 한 자세한 내용은 [EOP의 스팸 방지 보호](anti-spam-protection.md)를 참조 하세요.
-
-### <a name="report-view-for-the-spam-detections-report"></a>스팸 감지 보고서에 대 한 보고서 보기
-
-보고서 보기에서는 다음과 같은 차트를 사용할 수 있습니다.
-
-- **아래로 나누기: 작업**: 다음 이벤트 유형이 표시 됩니다.
-
-  - **스팸 콘텐츠 필터링 됨**
-  - **스팸 IP 차단**
-  - **스팸 봉투 블록**
-  - **스팸 DBEB 필터**: dbeb (디렉터리 기반 edge 차단)
-
-  차트의 날짜 (데이터 요소)를 가리키면 해당 항목이 분류 되는 방식과 해당 일이 차단 된 항목의 수를 볼 수도 있습니다.
-
-  ![스팸 감지 보고서의 작업 보기](../../media/spam-detections-report-action-view.png)
-
-- **나누기: 방향**: 다음 지침을 표시 합니다.
-
-  - **인바운드**
-  - **아웃 바운드**
-
-  ![스팸 감지 보고서의 방향 보기](../../media/spam-detections-report-direction-view.png)
-
-보고서 보기에서 **필터** 를 클릭 하면 다음 필터를 사용 하 여 결과를 수정할 수 있습니다.
-
-- **시작 날짜** 및 **끝 날짜**
-- 방향 값
-- 이벤트 유형 값
-
-### <a name="details-table-view-for-the-spam-detections-report"></a>스팸 감지 보고서에 대 한 세부 정보 테이블 보기
-
-모든 보고서 보기에서 **세부 정보 테이블 보기** 를 클릭 하면 다음과 같은 정보가 표시 됩니다.
-
-- **날짜**
-- **보낸 사람 주소**
-- **받는 사람 주소**
-- **이벤트 유형**
-- **작업**
-- **제목**
-
-세부 정보 테이블에서 **필터** 를 클릭 하면 다음 필터를 사용 하 여 결과를 수정할 수 있습니다.
-
-- **시작 날짜** 및 **끝 날짜**
-- 방향 값
-- 이벤트 유형 값
-
-보고서 보기로 돌아가려면 **보고서 보기**를 클릭 합니다.
-
-## <a name="spoof-detections-report"></a>스푸핑 감지 보고서
-
-**스푸핑** 감지 보고서에는 얼마나 많은 스푸핑 메일 메시지가 검색 되었는지, 즉 합법적인 비즈니스 이유로 인해 스푸핑 메일을 "양호" 한 것으로 간주 되는 메시지 들이 표시 됩니다. 스푸핑에 대 한 자세한 내용은 [EOP에서 스푸핑 방지 보호](anti-spoofing-protection.md)를 참조 하세요.
-
-보고서의 집계 보기에서 90 일의 필터링을 허용 하 고 세부 정보 보기에서는 필터링을 10 일 동안만 허용 합니다.
-
-보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 후 검색을 **스푸핑**합니다 .를 선택 합니다. 보고서로 직접 이동 하려면를 엽니다 <https://protection.office.com/reportv2?id=SpoofMailReport> .
-
-![보고서 대시보드의 스푸핑 감지 위젯](../../media/spoof-detections-widget.png)
-
-차트에서 일 (데이터 요소)을 가리키면 위장 메일 메시지의 수를 확인할 수 있습니다.
-
-**필터** 를 클릭 하 고 다음 값 중 하나 이상을 선택 하 여 차트 및 세부 정보 테이블을 모두 필터링 할 수 있습니다.
-
-- **시작 날짜** 및 **끝 날짜**
-
-- **좋은 메일**
-
-- **스팸으로 감지**
-
-![스푸핑 감지 보고서의 보고서 보기](../../media/spoof-detections-report-view.png)
-
-**세부 정보 테이블 보기**를 클릭 하면 다음 세부 정보를 확인할 수 있습니다.
-
-- **날짜**
-- **스푸핑된 보낸 사람**
-- **True 보낸 사람**
-- **보낸 사람 IP**
-- **작업**
-- **메시지 수**
-
-보고서 보기로 돌아가려면 **보고서 보기**를 클릭 합니다.
+이 보고서를 사용 하면 조직의 보안 및 규정 준수 팀이 메시지 암호화를 사용 하는 방법과 추가 작업이 필요한 지 여부를 모니터링할 수 있습니다. 암호화에 대 한 자세한 내용은 [Microsoft 365의 전자 메일 암호화](../../compliance/email-encryption.md)를 참조 하세요.
 
 ## <a name="threat-protection-status-report"></a>위협 방지 상태 보고서
 
-**위협 방지 상태** 보고서는 EOP 및 OFFICE 365 ATP에서 모두 사용할 수 있습니다. 그러나 보고서에는 다양 한 데이터가 포함 됩니다. 예를 들어 EOP 고객은 전자 메일로 감지 되었지만 [SharePoint Online, OneDrive 또는 Microsoft 팀에서 검색 된 악성 파일](atp-for-spo-odb-and-teams.md)에 대 한 정보는 볼 수 없습니다. Office 365 ATP 보고서에 대 한 자세한 내용은 [View reports For office 365 Advanced Threat Protection](view-reports-for-atp.md)를 참조 하세요.
+**위협 방지 상태** 보고서는 Exchange Online Protection에서 검색 하 여 차단한 악성 전자 메일을 보여 주는 스마트 보고서입니다. 이 보고서는 맬웨어 또는 시간에 따른 피싱 시도 (최대 90 일)로 식별 된 전자 메일을 확인 하는 데 유용 하며, 보안 관리자가 경향을 식별 하거나 정책 조정이 필요한 지 여부를 결정할 수 있습니다.
 
-검색 및 차단 된 악성 전자 메일을 보여 주는 smart 보고서 이며, 보안 관리자가 경향을 식별 하거나 조직 정책 조정이 필요한 지 여부를 결정할 수 있습니다.
+> [!NOTE]
+> [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) 또는 [Exchange Online Protection](exchange-online-protection-overview.md) (EOP)이 있는 고객은 위협 보호 상태 보고서를 사용할 수 있습니다. 그러나 ATP 고객에 대 한 위협 방지 상태 보고서에 표시 되는 정보에는 고객에 게 표시 될 수 있는 것과 다른 데이터가 포함 될 가능성이 EOP. 예를 들어 EOP 고객은 전자 메일로 검색 된 맬웨어에 대 한 정보를 볼 수 있지만, [SharePoint Online, OneDrive 또는 Microsoft 팀에서 검색 된 악성 파일](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)에 대 한 정보는 ATP 관련 기능입니다. [ATP 보고서에 대해 자세히 알아보세요](https://docs.microsoft.com/microsoft-365/security/office-365-security/view-reports-for-atp).
 
-보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 다음 **위협 방지 상태**를 선택 합니다. 보고서로 직접 이동 하려면를 엽니다 <https://protection.office.com/reportv2?id=ATPV2AggregateReport> .
+이 보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드** \> **위협 보호 상태로**이동 합니다.
 
-![보고서 대시보드의 위협 보호 상태 위젯](../../media/threat-protection-status-report-widget.png)
+![위협 방지 상태 보고서](../../media/0ff86e12-c2b2-4d89-92a5-cefb054dc070.png)
 
-기본적으로이 차트에는 최근 7 일간의 데이터가 표시 됩니다. **필터**를 클릭 하면 90 일 날짜 범위 (평가판 구독을 30 일로 제한할 수 있음)를 선택할 수 있습니다. 세부 정보 테이블 보기에서는 30 일간 필터링을 사용할 수 있습니다.
+위협 방지 상태 보고서를 처음 열면 보고서에는 기본적으로 이전의 7 일간의 데이터가 표시 됩니다. 그러나 **필터** 를 클릭 하 고 날짜 범위를 최대 90 일 정도 변경할 수 있습니다. 평가판 구독을 사용 하는 경우에는 30 일간의 데이터를 제한할 수 있습니다.
 
-### <a name="report-view-for-the-threat-protection-status-report"></a>위협 보호 상태 보고서에 대 한 보고서 보기
+이 보고서는 조직의 [Exchange Online 보호 기능과](https://docs.microsoft.com/microsoft-365/security/office-365-security/eop-features)장기적인 추세에 대 한 영향을 확인 하는 데 유용 합니다.
 
-다음 보기를 사용할 수 있습니다.
+![위협 보호 상태 보고서 필터](../../media/ab6b6b8d-e97a-4c3a-8fb1-c4940dcb7a07.png)
 
-- **데이터 보기 기준: 개요**: 다음 검색 정보가 표시 됩니다.
+또한 해로운 것으로 확인 된 전자 메일, 피싱 시도로 식별 되는 전자 메일 또는 맬웨어로 식별 된 전자 메일에 대 한 데이터를 볼 수도 있습니다.
 
-  - **전자 메일 맬웨어**
-  - **전자 메일 피싱**
-  - **콘텐츠 맬웨어**
+![위협 보호 상태 보고서 보기 옵션](../../media/d429ecd7-cb7a-4c99-8d27-79a2832cf467.png)
 
-  ![위협 보호 상태 보고서의 개요 보기](../../media/threat-protection-status-report-overview-view.png)
+## <a name="malware-detections-report"></a>맬웨어 감지 보고서
 
-- **데이터 보기 기준: 콘텐츠 \> 맬웨어**<sup>1</sup>: Office 365 ATP 조직에 대해 다음과 같은 정보가 표시 됩니다.
+**맬웨어 감지** 보고서에는 조직에 대 한 맬웨어를 포함 하는 것으로 검색 된 수신 및 발신 메시지의 수가 표시 됩니다.
 
-  - **맬웨어 방지 엔진**
-  - **파일 샌드 박싱**
+이 보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드** \> **맬웨어 감지**로 이동 합니다.
 
-  ![위협 방지 상태 보고서의 콘텐츠 맬웨어 보기](../../media/threat-protection-status-report-content-malware-view.png)
+![맬웨어 감지 보고서 예](../../media/a1ba61a3-565a-46d6-b0d5-6a6cff6b31d7.png)
 
-- **아래로 나누기: 기술** 및 **데이터 보기 기준: 전자 메일 \> 피싱**: 다음 정보가 표시 됩니다.
-
-  - **ATP 생성 URL 신뢰도**<sup>1</sup>
-  - **고급 피싱 필터**
-  - **스푸핑 방지: DMARC 오류**
-  - **스푸핑 방지: 조직 내**
-  - **스푸핑 방지: 외부 도메인**
-  - **브랜드 가장**
-  - **도메인 가장**<sup>1</sup>
-  - **EOP URL 신뢰도**
-  - **일반 피싱 필터**
-  - **상대**
-  - **피싱 ZAP**<sup>2</sup>
-  - **URL 샌드 박싱**<sup>1</sup>
-  - **사용자 가장**<sup>1</sup>
-
-  ![위협 방지 상태 보고서의 피싱 전자 메일에 대 한 검색 기술 보기](../../media/threat-protection-status-report-phishing-detection-tech-view.png)
-
-- **아래로 나누기: 기술** 및 **데이터 보기 By: 전자 메일 \> 맬웨어**: 다음 정보가 표시 됩니다.
-
-  - **ATP 생성 파일 신뢰도**<sup>1</sup>
-  - **맬웨어 방지 엔진**<sup>1</sup>
-  - **맬웨어 방지 정책 파일 형식 블록**
-  - **파일 샌드 박싱**<sup>1</sup>
-  - **악의적인 파일 신뢰도**
-  - **맬웨어 ZAP**<sup>2</sup>
-  - **상대**
-
-  ![위협 방지 상태 보고서의 맬웨어 검색 기술 보기](../../media/threat-protection-status-report-malware-detection-tech-view.png)
-
-- **아래로 나누기: 정책 유형** 및 **보기 데이터를 다음으로 표시: 전자 메일 \> 피싱** 또는 **데이터 보기: 전자 메일 \> 맬웨어**: 다음 정보가 표시 됩니다.
-
-  - **맬웨어 방지**
-  - **안전한 첨부 파일**<sup>1</sup>
-  - **피싱**
-  - **스팸 방지**
-  - **메일 흐름 규칙** (전송 규칙이 라고도 함)
-  - **상대**
-
-  ![위협 보호 상태 보고서의 피싱 전자 메일에 대 한 정책 유형 보기입니다.](../../media/threat-protection-status-report-phishing-policy-type-view.png)
-
-- **아래로 나누기: 배달 상태** 및 **데이터 보기 기준: 전자 메일 \> 피싱** 또는 **데이터 보기: 전자 메일 \> 맬웨어**: 다음 정보가 표시 됩니다.
-
-  - **배달 실패**
-  - **끊김**
-  - **받습니다**
-  - **호스팅된 사서함: 사용자 지정 폴더**
-  - **호스팅된 사서함: 삭제 된 항목**
-  - **호스팅된 사서함: 받은 편지함**
-  - **호스팅된 사서함: 정크**
-  - **온-프레미스 서버: 배달 됨**
-  - **격리**
-
-  ![위협 보호 상태 보고서의 피싱 전자 메일에 대 한 배달 상태 보기](../../media/threat-protection-status-report-phishing-delivery-status-view.png)
-
-<sup>1</sup> OFFICE 365 ATP 전용
-
-<sup>2</sup> 개 시간 자동 제거 (ZAP)는 독립 실행형 EOP에서 사용할 수 없습니다 (Exchange Online 사서함 에서만 작동 함).
-
-**필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.
-
-- **시작 날짜** 및 **끝 날짜**
-- 검색 값
-- **보호** (OFFICE 365 ATP만 해당): **ATP** 또는 **EOP**. 이 필터링 가능 속성은 **데이터 보기: 콘텐츠 \> 맬웨어로부터**사용할 수 없습니다.
-
-### <a name="details-table-view-for-the-threat-protection-status-report"></a>위협 보호 상태 보고서에 대 한 세부 정보 테이블 보기
-
-**세부 정보 표 보기**를 클릭 하면 표시 되는 정보는 보고 있는 차트에 따라 달라 집니다.
-
-- **데이터 보기 기준: 콘텐츠 \> 맬웨어**:
-
-  - **날짜**
-  - **위치**
-  - **보낸 사람**
-  - **맬웨어 이름**
-
-- **데이터 보기 기준: 개요**: **뷰 정보 테이블** 단추를 사용할 수 없습니다.
-
-- 기타 모든 차트:
-
-  - **날짜**
-  - **제목**
-  - **보낸 사람**
-  - **받는 사람**
-  - **검색 기준**
-  - **배달 상태**
-  - **손상 원본**
-
-**필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.
-
-- **시작 날짜** 및 **끝 날짜**
-- 검색 값
-- **보호** (OFFICE 365 ATP만 해당): **ATP** 또는 **EOP**. 이 필터링 가능 속성은 **데이터 보기: 콘텐츠 \> 맬웨어로부터**사용할 수 없습니다.
+[위협 방지 상태 보고서](#threat-protection-status-report)와 같은 다른 보고서와 마찬가지로 보고서에는 최근 7 일간의 데이터가 기본적으로 표시 됩니다. 그러나 **필터** 를 선택 하 여 날짜 범위를 변경할 수는 있습니다.
 
 ## <a name="top-malware-report"></a>주요 맬웨어 보고서
 
-**주요 맬웨어** 보고서에는 [EOP의 맬웨어 방지 보호](anti-malware-protection.md)기능에서 검색 된 다양 한 유형의 맬웨어가 나와 있습니다.
+**주요 맬웨어** 보고서에는 [Exchange Online](https://docs.microsoft.com/microsoft-365/security/office-365-security/eop-features)에서 검색 된 다양 한 유형의 맬웨어가 표시 됩니다.
 
-보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 후에 **상위 맬웨어**를 선택 합니다. 보고서로 직접 이동 하려면를 엽니다 <https://protection.office.com/reportv2?id=TopMalware> .
+이 보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드** \> **최상위 맬웨어로**이동 합니다.
 
-![보고서 대시보드의 최상위 맬웨어 위젯](../../media/top-malware-report-widget.png)
+![SCC-EOP 최상위 맬웨어](../../media/763330b3-f56e-4ba4-b0bb-051500ae950a.png)
 
 원형 차트의 쐐기형 위에 마우스를 가져가면 맬웨어 종류와 해당 맬웨어가 있는 것으로 검색 된 메시지의 수를 볼 수 있습니다.
 
-![주요 맬웨어 보고서 보기](../../media/top-malware-report-view.png)
+보고서를 클릭 하거나 탭 하 여 새 브라우저 창에서 보고서를 열 수 있습니다.
 
-**세부 정보 테이블 보기**를 클릭 하면 다음 세부 정보를 확인할 수 있습니다.
+![이 보고서에는 조직에 대해 검색 된 최상위 맬웨어가 표시 됩니다.](../../media/3fded224-fb31-4713-86f2-8afce5ce2991.png)
 
-- **주요 맬웨어**
-- **개수**
+이 차트 아래에는 검색 된 맬웨어 목록과 해당 맬웨어가 있는 것으로 검색 한 메시지 수가 표시 됩니다.
 
-보고서 보기 또는 세부 정보 테이블 보기에서 **필터** 를 클릭 하면 **시작 날짜** 및 **종료 날짜**와 함께 날짜 범위를 지정할 수 있습니다.
+## <a name="top-senders-and-recipients-report"></a>상위 보낸 사람 및 받는 사람 보고서
 
-## <a name="url-threat-protection-report"></a>URL 위협 방지 보고서
+**상위 보낸 사람 및 받는 사람** 보고서는 상위 전자 메일 보낸 사람을 표시 하는 원형 차트입니다.
 
-> [!NOTE]
-> 이 보고서는 Office 365 ATP (Advanced Threat Protection) 에서만 사용할 수 있습니다. 예를 들어 Microsoft 365 E5 subscription 또는 ATP 요금제 1 또는 ATP 요금제 2 추가 기능을 예로 들 있습니다.
+이 보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드** \> **최상위 보낸 사람 및 받는 사람**으로 이동 합니다.
 
-**Url threat protection 보고서** 는 [ATP Safe 링크](atp-safe-links.md)의 일부로 url 클릭에 대해 검색 되는 위협 및 작업에 대 한 요약 및 추세 보기를 제공 합니다. 이 보고서는 적용 된 안전한 링크 정책이 사용자의 클릭으로 **추적 하지 않음** 옵션을 선택한 경우에는 사용자의 데이터를 클릭할 수 없습니다.
+![이 보고서를 보려면 보안 & 준수 센터에서 보고서 \> 대시보드 \> 최상위 보낸 사람 및 받는 사람으로 이동 합니다.](../../media/b5506b5c-2420-4a5a-9ea3-d654294ac838.png)
 
-보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 후 **URL 보호**를 선택 합니다. 보고서로 직접 이동 하려면를 엽니다 <https://protection.office.com/reportv2?id=URLProtectionActionReport> .
+원형 차트의 쐐기형 위에 마우스를 올리면 보내거나 받은 메시지 수가 표시 됩니다.
 
-### <a name="report-view-for-the-url-threat-protection-report"></a>URL 위협 방지 보고서에 대 한 보고서 보기
+보고서를 클릭 하거나 탭 하 여 새 브라우저 창에서 보고서를 열 수 있습니다.
 
-**URL threat protection** 보고서에는 최근 90 일 동안의 데이터를 표시 하는 4 시간 마다 한 번씩 새로 고쳐지는 두 가지 보기가 있습니다.
+**데이터 표시** 순서 목록을 사용 하 여 상위 보낸 사람, 받는 사람, 스팸 및 맬웨어 받는 사람에 대 한 데이터를 볼 지 여부를 선택 합니다. [Exchange Online Protection](exchange-online-protection-overview.md)에서 검색 된 맬웨어를 받은 사용자도 볼 수 있습니다.
 
-- **URL 보호 작업 클릭**: 조직의 사용자가 클릭 한 URL의 수를 표시 하 고 해당 결과를 선택 합니다.
+![데이터 표시 목록을 사용 하 여 특정 정보 보기](../../media/bd91449f-7d42-4749-8666-7b44044049b8.png)
 
-  - **수준**
-  - **차단 및 클릭**
-  - **검색 중에 클릭**
+차트 아래에는 지정 된 기간 동안 보내거나 받은 메시지 수와 함께 맨 위에 있는 전자 메일 보낸 사람 또는 받는 사람이 표시 되는 사람을 볼 수 있습니다.
 
-  클릭은 사용자가 악성 웹 사이트에 대 한 차단 페이지를 클릭 했음을 나타냅니다 (관리자가 안전한 링크 정책에서 클릭을 사용 하지 않도록 설정할 수 있음).
+## <a name="spoof-detections-report"></a>스푸핑 감지 보고서
 
-  **필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.
+**스푸핑** 감지 보고서에는 얼마나 많은 스푸핑 메일 메시지가 검색 되었는지, 즉 합법적인 비즈니스 이유로 인해 스푸핑 메일을 "양호" 한 것으로 간주 되는 메시지 들이 표시 됩니다.
 
-  - **시작 날짜** 및 **끝 날짜**
-  - 사용 가능한 클릭 보호 작업과 모든 URL 클릭 (차단 된 클릭만이 아님)에 대 한 **정보를 볼 수 있는 값을** 함께 사용할 수 있습니다.
+이 보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드** \> **스푸핑 메일로**이동 합니다.
 
-  ![URL URL 위협 방지 보고서에서 보호 작업 보기를 클릭 합니다.](../../media/url-threat-protection-report-url-click-protection-action-view.png)
+![보안 & 준수 센터에서 보고서 \> 대시보드 위장 메일로 이동 합니다 \> .](../../media/0427e85c-9e40-4225-a0f0-e21a4e8b0e44.png)
 
-- **Url 클릭 응용 프로그램**: OFFICE 365 ATP 안전한 링크를 지 원하는 응용 프로그램에서 클릭 한 url의 수를 표시 합니다.
+차트에서 특정 날짜를 마우스로 가리키면 위장 메일 메시지의 수를 확인할 수 있습니다.
 
-  - **전자 메일 클라이언트**
-  - **PowerPoint**
-  - **Word**
-  - **Excel**
-  - **OneNote**
-  - **Visio**
-  - **Teams**
-  - **기타**
+보고서를 클릭 하거나 탭 하 여 새 브라우저 창에서 보고서를 열 수 있습니다. 스푸핑 방지 보호에 대 한 자세한 내용은 [Microsoft 365에서 스푸핑 방지 보호](anti-spoofing-protection.md)를 참조 하세요.
 
-  **필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.
+## <a name="spam-detections-report"></a>스팸 감지 보고서
 
-  - **시작 날짜** 및 **끝 날짜**
-  - 사용 가능한 응용 프로그램입니다.
+**스팸 감지** 보고서에는 Exchange Online에서 차단 된 모든 스팸 콘텐츠가 표시 됩니다. 메시지는 받는 사람이 아닌 메시지당 계산 됩니다. 예를 들어 조직에서 100 받는 사람에 게 전자 메일 메시지를 보낸 경우에는 하나의 메시지로 계산 됩니다.
 
-### <a name="details-table-view-for-the-threat-protection-report"></a>위협 방지 보고서에 대 한 세부 정보 테이블 보기
+이 보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드** \> **스팸 감지**로 이동 합니다.
 
-**세부 정보 테이블 보기**를 클릭 하면 보고서에서 다음 세부 정보를 사용 하 여 지난 7 일간 조직 내에서 발생 하는 모든 클릭에 대 한 거의 실시간 보기를 제공 합니다.
+![이 보고서를 보려면 보안 & 준수 센터에서 보고서 \> 대시보드 \> EOP 스팸 감지로 이동 합니다.](../../media/028cff3c-79ce-4ec0-8f0f-ec32ac28243a.png)
 
-- **클릭 시간**
-- **사용자**
-- **URL**
-- **작업**
-- **앱**
+차트에서 특정 날짜를 가리키면 해당 항목을 분류 한 방법 뿐 아니라 해당 요일이 차단 된 항목의 개수를 확인할 수 있습니다. 예를 들어 필터링 된 스팸 메시지 수와 IP (인터넷 프로토콜) 주소에서 가져온 항목 수를 확인할 수 있습니다.
 
-세부 정보 테이블 보기에서 **필터** 를 클릭 하면 보고서 보기에서와 같은 조건과 쉼표로 구분 된 **도메인** 또는 **받는 사람** 을 기준으로 필터링 할 수 있습니다.
+보고서를 클릭 하거나 탭 하 여 새 브라우저 창에서 보고서를 열 수 있습니다.
 
-보고서 보기로 돌아가려면 **보고서 보기**를 클릭 합니다.
+![스팸 감지 보고서는 차단 되거나 필터링 된 스팸 메시지의 수를 알려 줍니다.](../../media/370ec67d-eb30-4863-bfcf-68a41be02295.png)
+
+차트 아래에 검색 된 스팸 항목 목록이 표시 됩니다. 항목을 선택 하 여 스팸 항목이 인바운드 인지, 아웃 바운드 인지, 메시지 ID 및 받는 사람과 같은 추가 정보를 확인 합니다. 스팸 방지 보호 기능에 대 한 자세한 내용은 [Office 365 전자 메일 스팸 방지 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-and-anti-malware-protection)를 참조 하세요.
+
+## <a name="sent-and-received-email-report"></a>보내고 받은 전자 메일 보고서
+
+**Sent and received email** 보고서는 스팸 감지, 맬웨어 및 "양호"로 식별 된 전자 메일을 포함 하 여 수신 및 발신 전자 메일에 대 한 정보를 표시 하는 스마트 보고서입니다.
+
+이 보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드** \> **보내기 및 받기 전자 메일로**이동 합니다.
+
+![이 보고서를 보려면 보안 & 준수 센터에서 보고서 \> 대시보드 \> 보내기 및 받기 전자 메일로 이동 합니다.](../../media/0e710ed0-1b0e-4dac-8796-94a01a710f3a.png)
+
+차트에서 특정 날짜를 가리키면 메시지 수와 해당 메시지가 분류 되는 방식을 볼 수 있습니다. 예를 들어 맬웨어가 있는 것으로 검색 된 메시지의 수와 스팸으로 식별 된 횟수를 확인할 수 있습니다.
+
+보고서를 클릭 하거나 탭 하 여 새 브라우저 창에서 보고서를 열 수 있습니다.
+
+**아래로 나누기** 목록을 사용 하 여 유형별로 정보를 보거나 방향 (수신 및 송신)을 기준으로 볼 수 있습니다.
+
+![문자 또는 방향에 따라 정보를 보려면 아래로 나누기 목록을 사용 합니다.](../../media/a5b30c94-d75f-4bfc-851a-cb155685b177.png)
+
+차트 아래에는 **GoodMail**, **spamcontentfiltered**등의 전자 메일 범주 목록이 표시 됩니다. 맬웨어에 대해 수행 된 작업과 같은 추가 정보와 전자 메일이 들어오거나 나가는 지를 보려면 범주를 선택 합니다.
+
+![이 보고서는 맬웨어 방지, 스팸 방지 및 기타 메시지 감지에 대해 알려줍니다.](../../media/9ea4b606-f27a-46ee-97a7-be018e2b839c.png)
+
+전자 메일 인텔리전스에 대 한 자세한 내용은 [Mail flow intelligence In Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/mail-flow-intelligence-in-office-365)을 참조 하십시오.
 
 ## <a name="user-reported-messages-report"></a>사용자가 보고 한 메시지 보고서
 
@@ -488,26 +232,28 @@ ms.locfileid: "45102918"
 
 ## <a name="what-permissions-are-needed-to-view-these-reports"></a>이러한 보고서를 표시 하는 데 필요한 사용 권한은 무엇입니까?
 
-보고서를 보고 사용 하려면 보안 & 준수 센터 **및** Exchange Online에서 지정 된 역할 그룹의 구성원 이어야 합니다.
+이 문서에서 설명 하는 보고서를 보고 사용 하려면 **보안 & 준수 센터와 Exchange 관리 센터 둘 다에 대해 적절 한 역할이 할당 되어 있어야 합니다**.
 
-- 보안 & 준수 센터에서 다음 역할 그룹 중 하나의 구성원 이어야 합니다.
+- 보안 & 준수 센터에는 다음 역할 중 하나가 할당 되어 있어야 합니다.
 
-  -조직 관리-보안 관리자 ( [Azure Active Directory 관리 센터](https://aad.portal.azure.com) 에서이 작업을 수행할 수도 있음)-보안 독자
+  -조직 관리-보안 관리자 (Azure Active Directory 관리 센터에서 할당할 수 있음 [https://aad.portal.azure.com](https://aad.portal.azure.com) )-보안 독자
 
-  자세한 내용은 [보안 및 준수 센터의 사용 권한](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)을 참조하세요.
+- Exchange Online의 경우 Exchange 관리 센터 ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) 또는 PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)참조)에서 다음 역할 중 하나를 할당 받아야 합니다.
 
-- Exchange Online에서 다음 역할 그룹 중 하나의 구성원 이어야 합니다.
+  -조직 관리-보기 전용 조직 관리-보기 권한만 있는 받는 사람 역할-준수 관리
 
-  -조직 관리-보기 전용 조직 관리-보기 전용 받는 사람-준수 관리
+자세한 내용은 다음 리소스를 참조하세요.
 
-자세한 내용은 exchange online의 [사용 권한](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo) 및 [exchange online에서 역할 그룹 관리](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)를 참조 하세요.
+- [보안 및 준수 센터의 사용 권한](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)
+ 
+- [Exchange Online의 기능 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>보고서에 데이터가 표시 되지 않으면 어떻게 하나요?
 
-보고서에 데이터가 표시 되지 않는 경우 정책이 올바르게 설정 되어 있는지 다시 확인 합니다. 자세한 내용은 [위협 으로부터 보호](protect-against-threats.md)를 참조 하세요.
+보고서에 데이터가 표시 되지 않는 경우 정책이 올바르게 설정 되어 있는지 다시 확인 합니다. 자세한 내용은 [Microsoft 365에서 위협 으로부터 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)를 참조 하세요.
 
 ## <a name="related-topics"></a>관련 항목
 
-[EOP의 스팸 방지 및 맬웨어 방지 보호 기능](anti-spam-and-anti-malware-protection.md)
+[Microsoft 365 전자 메일 스팸 방지 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-and-anti-malware-protection)
 
-[보안 및 준수 센터의 스마트 보고서 및 인사이트](reports-and-insights-in-security-and-compliance.md)
+[보안 & 준수 센터의 보고서 및 정보](https://docs.microsoft.com/microsoft-365/security/office-365-security/reports-and-insights-in-security-and-compliance)
