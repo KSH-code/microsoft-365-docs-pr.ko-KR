@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체 또는 특정 위치 또는 사용자에게 단일 정책을 적용할 수 있고 모든 콘텐츠 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: b509c1581f3b4120e9cf70e7603e56da86126539
-ms.sourcegitcommit: a4926e98b6594bbee68bfca90438c9c764499255
+ms.openlocfilehash: 9974bebef9809647e7fb87f98f9d2f505baca4f3
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45091998"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126509"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -30,41 +30,125 @@ ms.locfileid: "45091998"
 
 콘텐츠를 보존할지, 삭제할지, 아니면 보존했다가 삭제할지를 사전에 결정하기 위해 보존 정책을 사용합니다. 
 
-보존 정책이 작동하는 방식에 대한 자세한 내용은 [보존 정책 정보](retention-policies.md)를 참조하세요.
+보존 정책을 사용하면 사이트 또는 사서함 수준에서 위치별로 콘텐츠의 보존 설정을 동일하게 할당하여 효율적으로 이 작업을 수행할 수 있습니다. 보존 정책 또는 보존 레이블을 사용해야 할지 확실하지 않다면 [보존 정책 및 보존 레이블](retention.md#retention-policies-and-retention-labels)을 참조하세요.
+
+보존 정책과 보존이 작동하는 방식에 대한 자세한 내용은 [보존에 대해 알아보기](retention.md)를 참조하세요.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-보존 정책을 만들고 관리할 규정 준수 팀의 구성원에게는 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에 대한 권한이 필요합니다. 기본적으로 테넌트 관리자(전역 관리자)는 이 위치에 액세스할 수 있으며, 규정 준수 책임자와 기타 사용자에게 테넌트 관리자의 모든 권한을 부여하지는 않으면서 액세스 권한을 부여할 수 있습니다. 이 제한적 관리를 위한 권한을 부여하기 위해서는 사용자를 **규정 준수 관리자** 관리 역할 그룹에 추가할 것을 권장합니다. 지침은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center)를 참조하세요.
+조직의 전역 관리자는 보존 정책을 만들고 편집할 수 있는 모든 권한을 가지고 있습니다. 전역 관리자로 로그인하지 않은 경우 [보존 정책 및 보존 레이블을 만들고 관리하는 데 필요한 권한](get-started-with-retention.md#permissions-required-to-create-and-manage-retention-policies-and-retention-labels)을 참조하세요.
 
-이러한 권한은 보존 정책을 생성하고 적용할 때만 필요합니다. 보존 정책을 구성하는 사용자는 콘텐츠에 액세스할 필요가 없습니다.
+## <a name="create-and-configure-a-retention-policy"></a>보존 정책 만들기 및 구성하기
 
-## <a name="create-and-configure-a-retention-policy"></a>보존 정책 만들기 및 구성
+보존 정책은 여러 위치를 지원할 수 있지만 지원되는 모든 위치를 포함하는 단일 보존 정책을 만들 수는 없습니다.
+- Exchange 전자 메일
+- SharePoint 사이트
+- OneDrive 계정
+- Microsoft 365 그룹
+- 비즈니스용 Skype
+- Exchange 공용 폴더
+- Teams 채널 메시지
+- Teams 채팅
 
-1. [Microsoft 365 준수 센터](https://compliance.microsoft.com/)에서 **정책** > **보존**을 선택합니다.
+보존 정책을 만들 때 Teams 위치 중 하나를 선택하면 다른 위치는 자동으로 제외됩니다. 따라서, 따라야 하는 지침은 Teams 위치를 포함해야 하는지에 따라 다릅니다.
 
-2. **새 보존 정책**을 선택하거나 기존 보존 정책 편집을 선택합니다.
+- [Teams 위치 보존 정책에 대한 지침](#retention-policy-for-teams-locations)
+- [Teams 이외의 위치 보존 정책에 대한 지침](#retention-policy-for-locations-other-than-teams)
 
-3. **설정**에서 먼저 컨텐츠 유지 및 삭제에 대한 구성 옵션을 지정하세요. 삭제하지 않고 콘텐츠를 유지하거나 지정된 기간 후에 콘텐츠를 유지한 다음 삭제하거나 지정된 기간 후에 콘텐츠를 삭제하는 보존 정책을 만들 수 있습니다. 자세한 내용은 이 페이지에서 [콘텐츠를 보존하고 삭제하는 방법에 대한 설정](#settings-for-retaining-and-deleting-content)을 참조하세요.
+보존 정책이 두 개 이상이고 보존 레이블도 사용하는 경우에는 여러 보존 설정이 동일한 콘텐츠에 적용되는 경우의 결과를 이해하기 위해 [보존 원칙 또는 우선하는 항목](retention.md#the-principles-of-retention-or-what-takes-precedence)을 참조하세요.
+
+### <a name="retention-policy-for-teams-locations"></a>Teams 위치 보존 정책
+
+1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 **정책** > **보존**을 선택합니다.
+
+2. **새 보존 정책**을 선택하여 새 보존 정책을 만듭니다.
+
+3. **콘텐츠를 유지, 삭제 또는 둘 다 수행할지 결정** 마법사 페이지에서 컨텐츠 유지 및 삭제에 대한 구성 옵션을 지정하세요. 
+    
+    삭제하지 않고 콘텐츠를 유지하거나 지정된 기간 후에 콘텐츠를 유지한 다음 삭제하거나 지정된 기간 후에 콘텐츠를 삭제하는 보존 정책을 만들 수 있습니다. 자세한 내용은 이 페이지에서 [콘텐츠를 보존하고 삭제하기 위한 설정](#settings-for-retaining-and-deleting-content)을 참조하세요.
+    
+    이 옵션은 Teams 위치에서 지원되지 않으므로 **고급 보존 설정 사용**을 선택하지 마세요. 
+
+4. **위치 선택** 페이지에서 **특정 위치 선택 허용**을 선택합니다. 그런 다음 Teams 위치(**Teams 채널 메시지** 및 **Teams 채팅**) 중 하나 또는 둘 다를 설정합니다.
+     
+    **Teams 채널 메시지**의 경우, 표준 채널이지만 [비공개 채널](https://docs.microsoft.com/microsoftteams/private-channels)의 메시지는 포함되지 않습니다. 현재 개인 채널은 보존 정책에서 지원되지 않습니다.
+    
+    기본적으로 모든 팀이 선택되어 있지만, 포함할 팀 또는 제외할 팀을 지정하여 이를 세분화할 수 있습니다.
+
+5. 마법사를 완료하여 설정을 저장합니다.
+
+Teams 보존 정책에 대한 자세한 내용은 Teams 설명서에서 [Microsoft Teams의 보존 정책](https://docs.microsoft.com/microsoftteams/retention-policies)을 참조하세요.
+
+#### <a name="additional-retention-policy-needed-to-support-teams"></a>Teams 지원에 필요한 추가 보존 정책
+
+Teams는 채팅 및 채널 메시지 그 이상입니다. Microsoft 365 그룹에서 만든 팀(이전에는 Office 365 그룹)을 가진 경우 **Office 365 그룹** 위치를 사용하여 Microsoft 365 그룹을 포함하는 보존 정책을 추가적으로 구성해야 합니다. 이 보존 정책은 그룹의 사서함, 사이트 및 파일의 콘텐츠에 적용됩니다.
+
+Microsoft 365 그룹에 연결되어 있지 않은 팀 사이트가 있는 경우, Teams에서 파일을 보존하고 삭제하려면 **SharePoint 사이트** 또는 **OneDrive 계정** 위치를 포함하는 보존 정책이 필요합니다.
+
+- 채팅에서 공유되는 파일은 해당 파일을 공유하는 사용자의 OneDrive 계정에 저장됩니다. 
+
+- 채널에 업로드된 파일은 해당 팀의 SharePoint 사이트에 저장됩니다.
+
+> [!TIP]
+> 특정 팀의 SharePoint 사이트 및 특정 팀 사용자의 OneDrive 계정을 선택하여 Microsoft 365 그룹에 연결되어 있지 않으면 해당 팀의 파일에 보존 정책을 적용할 수 있습니다.
+
+Microsoft 365 그룹, SharePoint 사이트 또는 OneDrive 계정에 적용되는 보존 정책은 해당 메시지가 삭제되기 전에 Teams 채팅 또는 채널 메시지에서 참조되는 파일을 삭제할 수 있습니다. 이 시나리오에서는 파일이 Teams 메시지에 여전히 표시되지만 사용자가 파일을 선택하면 "파일을 찾을 수 없음" 오류가 발생합니다. 이 동작은 보존 정책에만 국한된 것이 아니며 사용자가 SharePoint 또는 OneDrive에서 파일을 수동으로 삭제하는 경우에도 발생할 수 있습니다.
+
+
+### <a name="retention-policy-for-locations-other-than-teams"></a>Teams 이외의 위치 보존 정책
+
+1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 **정책** > **보존**을 선택합니다.
+
+2. **새 보존 정책**을 선택하여 새 보존 정책을 만듭니다.
+
+3. **콘텐츠를 유지, 삭제 또는 둘 다 수행할지 결정** 마법사 페이지에서 컨텐츠 유지 및 삭제에 대한 구성 옵션을 지정하세요. 
+    
+    삭제하지 않고 콘텐츠를 유지하거나 지정된 기간 후에 콘텐츠를 유지한 다음 삭제하거나 지정된 기간 후에 콘텐츠를 삭제하는 보존 정책을 만들 수 있습니다. 자세한 내용은 이 페이지에서 [콘텐츠를 보존하고 삭제하기 위한 설정](#settings-for-retaining-and-deleting-content)을 참조하세요.
     
     그런 다음 보존 정책을 모든 콘텐츠 또는 특정 조건을 충족하는 콘텐츠에 적용할지 결정합니다. 이러한 고급 보존 설정에 대한 자세한 내용은 이 페이지의 [특정 조건을 충족하는 콘텐츠를 식별하는 고급 설정](#advanced-settings-to-identify-content-that-meets-specific-conditions)을 참조하세요. 
 
 4. **위치 선택** 페이지에서 보존 정책을 조직 전체에서 지원되는 모든 위치에 적용할 것인지 또는 위치를 지정할 것인지 선택하세요. 특정 위치를 선택하면 포함 및 제외를 지정할 수도 있습니다. 
     
-    Microsoft Teams의 경우: 
-    - Teams 채널 메시지 또는 Teams 채팅을 삭제하거나 유지하려면 특정 위치를 선택하는 옵션을 선택해야 합니다. 이러한 옵션 중 하나를 위치로 선택하면 이 Teams 데이터를 포함하는 보존 정책에 다른 위치를 포함할 수 없으므로 다른 위치는 자동으로 제외됩니다. 
-    - **Teams 채널 메시지**의 경우 표준 채널이지만 [비공개 채널](https://docs.microsoft.com/microsoftteams/private-channels)의 메시지는 포함되지 않습니다. 현재 개인 채널은 보존 정책에서 지원 되지 않습니다.
-    
     조직 또는 특정 위치에 대한 보존 정책을 선택하는 방법에 대한 자세한 내용은 이 페이지의 [전체 조직 또는 특정 위치에 보존 정책 적용](#applying-a-retention-policy-to-an-entire-organization-or-specific-locations)을 참조하세요.
     
-    **Office 365 그룹** 및 **비즈니스용 Skype**에 대한 자세한 내용은 [Microsoft 365 그룹의 구성 정보](#configuration-information-for-microsoft-365-groups) 및 [비즈니스용 Skype의 구성 정보](#configuration-information-for-skype-for-business) 섹션을 참조하세요.
+    위치 관련 정보:
+    - [Exchange 전자 메일 및 Exchange 공용 폴더](#configuration-information-for-exchange-email-and-exchange-public-folders)
+    - [SharePoint 사이트 및 OneDrive 계정](#configuration-information-for-sharepoint-sites-and-onedrive-accounts)
+    - [Office 365 그룹](#configuration-information-for-microsoft-365-groups)
+    - [비즈니스용 Skype](#configuration-information-for-skype-for-business)
 
 5. 마법사를 완료하여 설정을 저장합니다.
 
-보존 정책이 두 개 이상인 경우 [보존 원칙 또는 우선 순위](retention-policies.md#the-principles-of-retention-or-what-takes-precedence)를 참조하세요.
+
+#### <a name="configuration-information-for-exchange-email-and-exchange-public-folders"></a>Exchange 전자 메일 및 Exchange 공용 폴더에 대한 구성 정보
+
+**Exchange 전자 메일** 위치는 사서함 수준에서 보존 설정을 적용하여 사용자의 전자 메일, 일정 및 기타 사서함 항목에 대한 보존을 지원합니다.
+
+다음 메일 항목 포함: 첨부 파일, 작업 및 일정 항목이 끝나는 날짜, 메모가 포함된 메일 메시지(임시 보관함 포함) 종료 날짜가 없는 모든 작업 및 일정 항목은 포함되지 않습니다. Skype 및 Teams에 저장된 메시지와 같이 사서함에 저장된 다른 항목은 이 위치에 포함되지 않습니다. 이러한 항목은 자체 보존 위치가 있습니다.
+
+Microsoft 365 그룹이 Exchange 사서함을 보유하고 있더라도 전체 **Exchange 전자 메일** 위치를 포함하는 보존 정책이 Microsoft 365 그룹 사서함의 콘텐츠를 포함하지는 않습니다. 이러한 사서함의 콘텐츠를 보존하려면 **Office 365 그룹** 위치를 선택하세요.
+
+**Exchange 공용 폴더** 위치는 보존 설정을 모든 공용 폴더에 적용하며 폴더 또는 사서함 수준에서 적용될 수 없습니다.
+
+#### <a name="configuration-information-for-sharepoint-sites-and-onedrive-accounts"></a>SharePoint 사이트 및 OneDrive 계정에 대한 구성 정보
+
+**SharePoint 사이트** 위치를 선택할 때 보존 정책을 사용하여 SharePoint 커뮤니케이션 사이트, Office 365 그룹으로 연결되지 않는 팀 사이트 및 클래식 사이트에서 문서를 보존하고 삭제할 수 있습니다. Office 365 그룹에서 연결된 팀 사이트는 이 옵션에서 지원되지 않으며 대신 해당 그룹의 사서함, 사이트 및 파일에 있는 콘텐츠에 적용되는 **Office 365 그룹** 위치를 사용합니다.
+
+보존 정책이 사이트 수준에서 적용되더라도 보존 설정은 문서에만 적용됩니다. 보존 설정은 사이트 내의 라이브러리, 목록 및 폴더를 포함하는 구성 구조에 적용되지 않습니다. 
+
+SharePoint 사이트 또는 OneDrive 계정의 위치를 지정하는 경우, 사이트에 액세스할 수 있는 권한이 필요하지 않으며 **위치 편집** 페이지에서 URL을 지정하는 시점에 유효성 검사가 수행되지 않습니다. 그러나 SharePoint 사이트를 색인화해야 하며 마법사 종료 시 지정한 사이트가 존재하는지 검사합니다.
+
+이 검사에 실패하는 경우, 입력한 URL에 대한 유효성 검사에 실패했다는 메시지가 표시되고 유효성 검사가 통과한 후에 마법사에서 보존 정책이 만들어집니다. 이 메시지가 표시되는 경우, 마법사에서 돌아가서 URL을 변경하거나 보존 정책에서 사이트를 제거합니다.
+
+포함하거나 제외할 개별 OneDrive 계정을 지정하려면 URL은 `https://<tenant name>-my.sharepoint.com/personal/<user_name>_<tenant name>_com` 형식이어야 합니다.
+
+예를 들어, "rsimone"라는 사용자 이름을 보유한 Contoso 테넌트에 있는 사용자의 경우: `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`
+
+테넌트의 구문을 확인하고 사용자 URL을 확인하려면, [조직에 있는 모든 사용자 OneDrive URL 목록 가져오기](https://docs.microsoft.com/onedrive/list-onedrive-urls)를 참조하세요.
 
 ### <a name="configuration-information-for-microsoft-365-groups"></a>Microsoft 365 그룹에 대한 구성 정보
 
-Microsoft 365 그룹(과거 Office 365 그룹)에 대한 콘텐츠를 유지하거나 삭제하려면 보존 정책의 위치를 선택할 때 **Office 365 그룹** 위치를 선택하세요. Microsoft 365 그룹이 Exchange 사서함을 보유하고 있더라도 전체 **Exchange 전자 메일** 위치를 포함하는 보존 정책이 Microsoft 365 그룹 사서함의 콘텐츠를 포함하지는 않습니다. 또한 **Exchange 전자 메일** 위치에서 처음에 포함하거나 제외할 그룹 사서함을 지정할 수 있지만 보존 정책을 저장하려고 하면 "RemoteGroupMailbox"가 Exchange 위치에 대해 올바른 선택이 아니라는 오류가 발생합니다.
+Microsoft 365 그룹(이전 이름: Office 365 그룹)의 콘텐츠를 보존하거나 삭제하려면 **Office 365 그룹** 위치를 사용합니다. Microsoft 365 그룹이 Exchange 사서함을 보유하고 있더라도 전체 **Exchange 전자 메일** 위치를 포함하는 보존 정책이 Microsoft 365 그룹 사서함의 콘텐츠를 포함하지는 않습니다. 또한 **Exchange 전자 메일** 위치에서 처음에 포함하거나 제외할 그룹 사서함을 지정할 수 있지만 보존 정책을 저장하려고 하면 "RemoteGroupMailbox"가 Exchange 위치에 대해 올바른 선택이 아니라는 오류가 발생합니다.
 
 Microsoft 365 그룹에 적용되는 보존 정책에는 그룹 사서함과 사이트가 모두 포함됩니다. Microsoft 365 그룹에 적용된 보존 정책은 Microsoft Teams를 포함하여 Microsoft 365 그룹에서 생성한 리소스를 보호합니다.
 
@@ -78,7 +162,7 @@ Exchange 전자 메일과 달리, Skype 위치의 상태는 간단히 설정으�
   
 ![Skype 사용자 선택 페이지](../media/f1742493-741a-4142-a564-d7d41ab0236a.png)
   
-Note that **Conversation History**, a folder in Outlook, is a feature that has nothing to do with Skype archiving. **Conversation History** can be turned off by the end user, but archiving for Skype is done by storing a copy of Skype conversations in a hidden folder that is inaccessible to the user but available to eDiscovery.
+Outlook의 **대화 내용** 폴더는 Skype 보관과 아무 관계가 없는 기능입니다. **대화 내용**은 최종 사용자가 해제할 수 있지만 Skype 보관은 사용자는 액세스할 수 없고 eDiscovery에서 사용할 수 있는 숨겨진 폴더에 Skype 대화 사본을 저장하여 수행됩니다.
 
 
 ## <a name="settings-for-retaining-and-deleting-content"></a>콘텐츠를 보존 및 삭제하기 위한 설정
@@ -113,7 +197,7 @@ Note that **Conversation History**, a folder in Outlook, is a feature that has n
   
 예를 들어, 3년이 지난 콘텐츠를 삭제하는 보존 정책을 만든 다음 해당 정책을 모든 OneDrive 계정에 적용한다고 가정하겠습니다. 이때 OneDrive 계정에는 4~5년 전에 생성된 콘텐츠가 매우 많습니다. 이 경우 보존 정책을 최초로 적용한 뒤 얼마 지나지 않아 다량의 콘텐츠가 삭제되게 됩니다. 이러한 이유로 인해 콘텐츠를 삭제하는 보존 정책은 콘텐츠에 상당한 영향을 주게 됩된다는 것을 이해하는 것이 중요합니다.. 
   
-Therefore, before you assign a retention policy to a site collection for the first time, you should first consider the age of the existing content and how the policy may impact that content. You may also want to communicate the new policy to your users before assigning it, to give them time to assess the possible impact. Note this warning that appears when you review the settings for your retention policy just before creating it.
+따라서 처음으로 사이트 모음에 보존 정책을 할당하기 전에 먼저 콘텐츠의 사용 기간과 정책이 기존 콘텐츠에 어떤 영향을 줄 수 있는지 고려해야 합니다. 또한 새 정책을 할당하기 전에 사용자에게 미리 알려, 가능한 영향을 평가할 시간을 줄 수도 있습니다. 보존 정책을 만들기 바로 전에 해당 설정을 검토할 때 나타나는 다음 경고에 유의하세요.
   
 ![콘텐츠 삭제 경고](../media/59c26b19-3628-4cc1-9a73-a05127a8e81b.png)
   
@@ -135,7 +219,7 @@ Therefore, before you assign a retention policy to a site collection for the fir
   
 ### <a name="identify-content-that-contains-sensitive-information"></a>중요한 정보가 포함된 콘텐츠 식별
 
-You can also apply a retention policy only to content that contains [specific types of sensitive information](what-the-sensitive-information-types-look-for.md). For example, you can choose to apply unique retention requirements only to content that contains personal information, such as taxpayer identification numbers, social security numbers, or passport numbers.
+[특정 유형의 중요 정보](what-the-sensitive-information-types-look-for.md)를 포함하는 콘텐츠에만 보존 정책을 적용할 수도 있습니다. 예를 들어, 납세자 ID 번호, 주민 등록 번호 또는 여권 번호 등 개인 정보를 포함하는 콘텐츠에만 고유한 보존 요구 사항을 적용하도록 선택할 수 있습니다.
   
 ![중요한 정보 유형 페이지](../media/8b104819-d185-4d58-b6b3-d06e82686a05.png)
   
@@ -159,7 +243,7 @@ You can also apply a retention policy only to content that contains [specific ty
     
 - OneDrive 계정
     
-- Microsoft 365 그룹(그룹의 사서함 및 관련 SharePoint 사이트의 콘텐츠에 적용됩니다.)
+- Microsoft 365 그룹
     
 - Exchange 공용 폴더
     
@@ -202,36 +286,11 @@ You can also apply a retention policy only to content that contains [specific ty
 
 일반적으로 이 업데이트는 아주 간단하지만 며칠이 걸릴 수 있습니다. Microsoft 365 위치에서 정책 복제가 완료되면 Microsoft 365 준수 센터의 보존 정책 상태가 **켜기(보류)** 에서 **켜기(성공)** 으로 변경됩니다.
 
-## <a name="find-the-powershell-cmdlets-for-retention-policies"></a>보존 정책에 대한 PowerShell cmdlet 찾기
-
-보존 정책 cmdlet을 사용하려면 다음을 수행합니다.
-  
-1. [Office 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
-    
-2. 다음 Office 365 보안 및 준수 센터 cmdlet 사용:
-    
-    - [Get-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/get-retentioncompliancepolicy)
-    
-    - [New-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancepolicy)
-    
-    - [Remove-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/remove-retentioncompliancepolicy)
-    
-    - [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy)
-    
-    - [Get-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/get-retentioncompliancerule)
-    
-    - [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancerule)
-    
-    - [Remove-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/remove-retentioncompliancerule)
-    
-    - [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancerule)
-
-
 ## <a name="lock-a-retention-policy-by-using-powershell"></a>PowerShell을 사용하여 보존 정책 잠금
 
-규정 요구 사항을 준수하기 위해 [보존 잠금](retention-policies.md#use-preservation-lock-to-comply-with-regulatory-requirements)을 사용해야 하는 경우 PowerShell을 사용해야 합니다.
+규정 요구 사항을 준수하기 위해 [보존 잠금](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements)을 사용해야 하는 경우 PowerShell을 사용해야 합니다.
 
-1. [Office 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
+1. [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)합니다.
 
 2. 보존 정책을 나열하고 `Get-RetentionCompliancePolicy`을(를) 실행하여 잠그려는 정책의 이름을 찾으세요.
     
