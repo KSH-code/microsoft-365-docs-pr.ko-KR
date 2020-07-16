@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에는 조직 전체에서 콘텐츠를 식별 하 고 레이블을 지정 하는 데 사용할 수 있는 다양 한 기본 제공 분류자가 제공 됩니다. 이 항목에서는 이러한 분류자 사용을 준비 하는 방법을 보여 줍니다.
-ms.openlocfilehash: 82155b1dee9ab04dad593ce9ec2da97d3e796e99
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 1d645cc79075c41ce94b0f9b4fc347450a8df8c6
+ms.sourcegitcommit: 9af890ef1b1c95bfc7cc52f7f4e395b62dc5263f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126317"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45146222"
 ---
 # <a name="testing-built-in-classifiers-using-retention-labels-preview"></a>보존 레이블을 사용 하 여 기본 제공 분류자 테스트 (미리 보기)
 
@@ -38,7 +38,7 @@ Microsoft 365에는 다음과 같이 권장 되는 5 가지 기본 제공 분류
 - **다시 시작**: 지원자 개인, 교육, 전문가 자격, 작업 환경 및 기타 개인 식별 정보에 대 한 텍스트 계정인 항목을 검색 합니다.
 - **소스 코드**: GitHub에서 상위 25 용으로 사용 되는 컴퓨터 프로그래밍 언어에 작성 된 지침 및 문 집합이 포함 되어 있는 항목을 검색 합니다.
 
-  |언어 이름|||||
+  |**언어 이름**|||||
   |---------|---------|---------|---------|---------|
   |ActionScript|C        |& #       |C + +     |Clojure  |
   |CoffeeScript|시트     |갈       |Haskell |HTML     |

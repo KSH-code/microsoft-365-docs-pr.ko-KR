@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 143b3ab8-8cb0-4036-a5fc-6536d837bfce
 description: Microsoft 365에서는 Exchange 사서함, SharePoint 및 비즈니스용 OneDrive 사이트, Microsoft 365 그룹, 비즈니스용 Skype 대화 등 다양 한 위치에서 찾은 콘텐츠를 검색 하 고 유지 하는 데 사용할 수 있는 다양 한 eDiscovery 도구를 제공 합니다.
-ms.openlocfilehash: 4d373f2d5e6c0c64fcce6e0ef097e28f0950cb39
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 2f18d3a9559293e071b7060f0e4a01a7352097c1
+ms.sourcegitcommit: 94f2f8e3e6bc3946d8b3cf798b3eb77a49ffd12a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943433"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45148128"
 ---
 # <a name="ediscovery-in-microsoft-365"></a>Microsoft 365의 eDiscovery
 
@@ -88,3 +88,7 @@ Microsoft 365의 고급 eDiscovery 솔루션 ( *Advanced ediscovery v 2.0*이 �
 |[검토 집합의 데이터 분석](analyzing-data-in-review-set.md)|검토 집합에서 문서에 대 한 분석을 실행 하는 방법에 대해 알아봅니다. 분석 실행 결과에는 근거리 복제 검색, 전자 메일 스레딩 및 테마 id가 포함 됩니다.|
 |[사례 데이터 내보내기](exporting-data-ediscover20.md)|외부 검토를 위해 사례에서 데이터를 내보내는 방법에 대해 알아봅니다.|
 |||
+
+## <a name="roadmap"></a>로드맵
+
+실행 되었거나 배포 중이 던 eDiscovery 기능을 확인 하려면 [Microsoft 365 로드맵을](https://aka.ms/eDiscoRoadMap)방문 하세요.

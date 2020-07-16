@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b8f7e3bbb6d2348c3f19e8df251d700d8adf8e33
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: f711cc2ff38f15dfd22097e37a1dec42719eb5aa
+ms.sourcegitcommit: 94f2f8e3e6bc3946d8b3cf798b3eb77a49ffd12a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235087"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45148117"
 ---
 # <a name="manage-incidents-in-microsoft-threat-protection"></a>Microsoft 위협 방지의 인시던트 관리
 
@@ -44,7 +44,16 @@ ms.locfileid: "42235087"
 
 ## <a name="edit-incident-name"></a>인시던트 이름 편집
 기본적으로 인시던트에 번호가 할당됩니다. 기본 명명 규칙에 맞게 인시던트 이름을 수정할 수 있습니다.
- 
+
+> [!TIP]
+> 현재 공개 미리 보기를 통해 눈에 띄게 자동 인시던트를 표시 하는 경우 영향을 받는 끝점 수, 영향을 받는 사용자, 검색 원본 또는 종류 등의 경고 특성에 따라 인시던트 이름을 생성 합니다. 이를 통해 사고의 범위를 빠르게 파악할 수 있습니다.
+>
+> 예를 들어 *여러 출처에서 보고 하는 여러 끝점에 대 한 다단계 인시던트가 있습니다.*
+>
+> 자동 인시던트 이름 지정 롤아웃 이전에 존재 했던 인시던트는 이름을 변경할 수 없습니다.
+>
+> [미리 보기 기능 설정](preview.md#turn-on-preview-features)에 대해 더 자세히 알아보세요.
+
 ## <a name="assign-incidents"></a>인시던트 할당
 아직 인시던트가 할당되지 않은 경우 **나에게 할당**을 선택하여 인시던트를 자신에게 할당할 수 있습니다. 이렇게 하면 인시던트뿐만 아니라, 관련된 모든 알림의 소유권을 가정합니다.
 
@@ -68,4 +77,3 @@ ms.locfileid: "42235087"
 
 ## <a name="add-incident-tags"></a>인시던트 태그 추가
 예를 들어 인시던트 그룹에 공통 특성을 플래그 지정하기 위해, 사용자 지정 태그를 인시던트에 추가할 수 있습니다. 나중에 특정 태그가 포함된 모든 인시던트의 인시던트 큐를 필터링할 수 있습니다.
-
