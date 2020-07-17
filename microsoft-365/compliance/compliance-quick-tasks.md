@@ -12,12 +12,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: Normal
 description: Microsoft 365에서 규정 준수를 빠르게 시작 하는 데 도움이 되는 작업에 대해 알아봅니다.
-ms.openlocfilehash: a946d4711111089ba6074b2c264b8edd36a01315
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 26d10840382d044e8126745daec32948571a1be9
+ms.sourcegitcommit: e891c7c25f351f10f250af3f483f68594976ddc9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126617"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45153691"
 ---
 # <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Microsoft 365 준수를 시작 하기 위한 빠른 작업
 
@@ -101,6 +101,34 @@ Microsoft 365 환경의 여러 위치 (Exchange 메일 및 공용 폴더, ShareP
 
 통신 준수를 계획 하 고 구성 하는 단계별 지침은 통신 준수 [계획](communication-compliance-plan.md) 및 [통신 준수 시작](communication-compliance-configure.md)을 참조 하십시오. 통신 준수 라이선스 정보는 [보안 & 준수에 대 한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#communication-compliance)을 참조 하세요.
 
+## <a name="task-9-see-whats-happening-with-your-sensitive-items"></a>작업 9: 중요 한 항목의 진행 상황 확인
+
+민감도 레이블, 중요 한 정보 유형, 보존 레이블 및 정책 및 trainable 분류자는 이전 작업에서 보았던 것 처럼 Exchange, SharePoint 및 OneDrive에서 중요 한 항목을 분류 하 고 레이블을 지정 하는 데 사용할 수 있습니다. 빠른 작업으로 이동 하는 마지막 단계에서는 레이블이 지정 된 항목과 사용자가 해당 중요 한 항목에 대해 수행 하는 작업을 확인 합니다. [콘텐츠 탐색기](data-classification-content-explorer.md) 및 [활동 탐색기](data-classification-activity-explorer.md) 에서 이러한 표시가 제공 됩니다.
+
+### <a name="content-explorer"></a>콘텐츠 탐색기
+ Content explorer를 사용 하면 중요 한 정보 유형으로 분류 된 모든 항목을 볼 수 있으며, 민감도 또는 보존 레이블이 적용 된 모든 항목도 trainable 분류자에 의해 특정 분류에 속합니다.
+
+콘텐츠 탐색기를 사용 하는 단계별 지침은 [데이터-데이터 분류 개요](data-classification-overview.md)를 확인 하 고 [content explorer를 시작](data-classification-content-explorer.md)합니다 .를 참조 하십시오.
+
+### <a name="activity-explorer"></a>활동 탐색기
+작업 탐색기에서는 다음과 같이 분류 되 고 중요 한 항목으로 표시 되는 작업을 모니터링 하는 데 도움이 됩니다.
+- SharePoint
+- Exchange
+- OneDrive
+
+사용할 수 있는 30개가 넘는 여러 가지 필터가 있습니다. 예를 들면:
+
+- 날짜 범위
+- 활동 유형
+- 위치
+- 사용자
+- 민감도 레이블
+- 보존 레이블
+- 파일 경로
+- DLP 정책
+
+작업 탐색기를 사용 하는 단계별 지침은 [Get a activity explorer 시작](data-classification-activity-explorer.md)을 참조 하십시오.
+
 ## <a name="next-steps"></a>다음 단계
 
 조직의 준수 관리에 대 한 기본 사항을 구성 했으므로 이제 중요 한 정보를 보호 하 고 추가 참가자 위험을 감지 하 고 작업 하는 데 도움이 되는 Microsoft 365의 다음 준수 솔루션을 고려해 야 합니다.
@@ -112,8 +140,8 @@ Microsoft 365 환경의 여러 위치 (Exchange 메일 및 공용 폴더, ShareP
 또한 보존 레이블은 [레코드 관리](records-management.md) 를 지원 하 여 콘텐츠를 레코드로 표시 합니다. 이 경우 레이블을 변경하거나 제거할 수 없고, 콘텐츠를 편집하거나 삭제할 수 없습니다. 이러한 제한은 조직이 규정 요구 사항을 준수 하는 데 도움이 될 수 있습니다.
 
 보존 레이블을 만들고 게시 하는 단계별 지침은 다음 지침을 참조 하십시오.
-- [보존 레이블을 만들고 앱에 적용](create-apply-retention-labels.md)
-- [콘텐츠에 자동으로 보존 레이블 적용](apply-retention-labels-automatically.md)
+- [보존 레이블을 만들고 앱에 적용하기](create-apply-retention-labels.md)
+- [보존 레이블을 콘텐츠에 자동으로 적용하기](apply-retention-labels-automatically.md)
 
 레코드 관리 라이선스 정보에 대 한 자세한 내용은 [보안 & 준수에 대 한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management)을 참조 하세요.
 
@@ -125,7 +153,7 @@ Microsoft 365 환경의 여러 위치 (Exchange 메일 및 공용 폴더, ShareP
 
 ### <a name="prevent-data-loss"></a>데이터 손실 방지
 
-[DLP (데이터 손실 방지) 정책을](data-loss-prevention-policies.md) 사용 하면 Microsoft 365 조직에서 중요 한 정보를 식별, 모니터링 및 자동으로 보호할 수 있습니다. DLP 정책을 사용 하 여 Microsoft 서비스에서 중요 한 정보를 식별 하 고, 중요 한 정보가 실수로 공유 되지 않도록 하 고, 사용자가 워크플로를 중단 하지 않고 준수 상태를 유지 하는 방법을 알아봅니다.
+[DLP (데이터 손실 방지) 정책을](data-loss-prevention-policies.md) 사용 하면 Microsoft 365 조직에서 중요 한 정보를 식별, 모니터링 및 자동으로 보호할 수 있습니다. DLP 정책을 사용 하 여 Microsoft 서비스에서 중요 한 항목을 식별 하 고, 중요 한 항목이 실수로 공유 되지 않도록 하 고, 사용자가 워크플로를 중단 하지 않고 준수 상태를 유지 하는 방법을 알아봅니다.
 
 DLP 정책을 구성 하는 단계별 지침은 [dlp 정책 권장 사항 시작](get-started-with-dlp-policy-recommendations.md) 및 [기본 DLP 정책을 사용](get-started-with-the-default-dlp-policy.md)하 여 시작을 참조 하십시오. 데이터 손실 관리 라이선스 정보에 대 한 자세한 내용은 [보안 & 준수에 대 한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#office-365-data-loss-prevention-for-exchange-online-sharepoint-online-and-onedrive-for-business)을 참조 하세요.
 

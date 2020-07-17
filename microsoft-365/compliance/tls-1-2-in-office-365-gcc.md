@@ -1,35 +1,33 @@
 ---
 title: 방식 TLS 1.0 및 1.1 in Office 365 GCC High 및 DoD
 description: Microsoft가 Office 365의 GCC High 및 DoD 환경에서 TLS 1.1 및 1.0에 대 한 지원을 중단 하 고 TLS 1.2 사용을 준비 하는 방법에 대해 설명 합니다.
-author: simonxjx
-manager: dcscontentpm
+author: workshay
+manager: laurawi
 localization_priority: Normal
 search.appverid:
 - MET150
 audience: ITPro
-ms.service: O365-seccomp
+ms.collection: M365-security-compliance
+ms.service: information-protection
 ms.topic: article
-ms.author: v-six
-ms.reviewer: lobrion
+ms.reviewer: krowley
+ms.author: shmehta
 appliesto:
 - Office 365 Business
-ms.openlocfilehash: f61c0a809c4666981ee0f2d67eea21474b83a675
-ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
+ms.openlocfilehash: 76e9b203e58ba7fa23942ea42810456e3bee377d
+ms.sourcegitcommit: 42b618231e9f608f3ae7226a313b0366601d0ea2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45024828"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158883"
 ---
 # <a name="deprecating-tls-10-and-11-in-office-365-gcc-high-and-dod"></a>방식 TLS 1.0 및 1.1 in Office 365 GCC High 및 DoD
 
-> [!IMPORTANT]
-> 전 세계에 전염병이 유행하고 있으며 Microsoft는 이로 인해 고객과 파트너가 영향을 받는다는 사실을 인지하고 있습니다. 상용 고객의 부담을 덜기 위해 TLS 1.0 및 1.1에 대한 지원 중단을 일시적으로 중단했습니다. 현재의 위기가 안정화된 후에 개정된 일정에 따라 업데이트가 전송됩니다. (이 문서는 변경 사항을 반영하기 위해 개정되었습니다.)
-
 ## <a name="summary"></a>요약
 
-FedRAMP (미 연방 위험 및 권한 부여 관리 프로그램)에 대 한 최신 준수 표준을 준수 하기 위해, GCC High 및 DoD 환경에 대해 Microsoft Office 365의 TLS (사용 중지 Transport Layer Security) 버전 1.1 및 1.0로 이동 합니다. 이 변경 사항에 [대 한 자세한 내용을 보려면 Office 365에서 TLS 1.2의 필수 사용을 준비 하기 위한](https://support.microsoft.com/help/4057306/preparing-for-tls-1-2-in-office-365)Microsoft 지원 서비스를 통해 이전에 발표 되었습니다.
+FedRAMP (미 연방 위험 및 권한 부여 관리 프로그램)에 대 한 최신 준수 표준을 준수 하기 위해 방식은 GCC High 및 DoD 환경에 대해 Microsoft Office 365에서 TLS (전송 계층 보안) 버전 1.1 및 1.0를 제공 합니다. 이 변경 사항에 [대 한 자세한 내용을 보려면 Office 365에서 TLS 1.2의 필수 사용을 준비 하기 위한](https://support.microsoft.com/help/4057306/preparing-for-tls-1-2-in-office-365)Microsoft 지원 서비스를 통해 이전에 발표 되었습니다.
 
-데이터 보안이 중요 하다는 것을 이해 했으며, 서비스 사용에 영향을 줄 수 있는 변경 사항에 대 한 투명성을 반영 합니다.
+데이터 보안은 중요 하며, 서비스 사용에 영향을 줄 수 있는 변경 사항에 대 한 투명성을 반영 합니다.
 
 [MICROSOFT TLS 1.0 구현](https://support.microsoft.com/help/3117336) 에는 알려진 보안 취약점이 없더라도 FedRAMP 준수 표준에 대 한 커밋된 상태로 유지 됩니다. 따라서 사용 중지는 GCC High 및 DoD 환경에서 2020, 1 월 15 일에 시작 하는 TLS 1.1 및 365 1.0을 제공 합니다. TLS 1.1 및 1.0 종속성을 제거 하는 방법에 대 한 자세한 내용은 다음 백서를 참조 하십시오.
 
