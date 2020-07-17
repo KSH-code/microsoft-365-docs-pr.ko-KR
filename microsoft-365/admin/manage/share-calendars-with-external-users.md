@@ -36,7 +36,7 @@ ms.locfileid: "44780064"
 일정 공유는 전역 설정으로, 관리자가 테 넌 트의 모든 사용자에 대해 사용 하도록 설정할 수 있습니다. 공유가 설정되면 사용자는 Outlook Web App을 사용하여 자신의 일정을 조직 안팎의 모든 사람과 공유할 수 있습니다. 조직 내 사람들은 공유된 일정을 자신의 일정과 나란히 볼 수 있습니다. 조직 외부의 사람들은 일정을 보는 데 사용할 수 있는 URL을 받게 됩니다. 사용자는 공유 시기, 공유 수준, 일정을 비공개로 유지할 기간을 결정합니다.
   
 > [!NOTE]
-> If you want to share calendars with an organization that uses Exchange Server 2013 (an on-premises solution), the Exchange administrator will need to set up an authentication relationship with the cloud. This is known as "federation" and must meet minimum software requirements. See [Sharing](https://technet.microsoft.com/library/dd638083%28v=exchg.150%29.aspx) for more information. 
+> Exchange Server 2013(온-프레미스 솔루션)을 사용하는 조직과 일정을 공유하려면 Exchange 관리자가 클라우드와의 인증 관계를 설정해야 합니다. 이를 "페더레이션"이라고 하며 최소 소프트웨어 요구 사항을 충족해야 합니다. 자세한 내용은 [공유](https://technet.microsoft.com/library/dd638083%28v=exchg.150%29.aspx)를 참조하세요. 
   
 ## <a name="enable-calendar-sharing-using-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터를 사용 하 여 일정 공유를 사용 하도록 설정
 
@@ -53,5 +53,5 @@ ms.locfileid: "44780064"
     
 ## <a name="invite-people-to-access-calendars"></a>일정에 액세스할 수 있도록 사용자 초대
 
-Once sharing is enabled for the tenant, calendar owners can extend invitations to specific users. See [Sharing your calendar in Outlook Web App](https://support.microsoft.com/office/7ecef8ae-139c-40d9-bae2-a23977ee58d5) for instructions. 
+테넌트에 공유가 설정되면 일정 소유자는 특정 사용자로 초대를 확장할 수 있습니다. 자세한 내용은 [Outlook Web App에서 일정 공유](https://support.microsoft.com/office/7ecef8ae-139c-40d9-bae2-a23977ee58d5)를 참고하세요. 
   

@@ -32,7 +32,7 @@ ms.locfileid: "44779884"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>조직 차원의 서명 및 부인 만들기
 
- You can add an email signature, legal disclaimer, or disclosure statement to the email messages that enter or leave your organization. You can set it up to apply to all incoming and outgoing messages as shown below. Or you can apply it to certain messages like those containing specific words or text patterns.
+ 조직에 들어오거나 조직에서 나가는 전자 메일 메시지에 전자 메일 서명, 법적 고지 사항 또는 공개 성명을 추가할 수 있습니다. 아래에 표시된 것처럼 모든 수신 및 발신 메시지에 적용하도록 설정할 수 있습니다. 특정 단어나 텍스트 패턴이 포함된 메시지처럼 특정 메시지에 적용할 수도 있습니다.
 
  회사 차원의 전자 메일 서명을 만드는 방법에 대 한 간단한 비디오를 시청 하세요. <br><br>
   
@@ -89,7 +89,7 @@ ms.locfileid: "44779884"
 
 9. **하나 선택을** 선택 하 고 대체 항목으로 **줄 바꿈** 옵션을 선택 합니다. 그런 다음, **확인**을 선택합니다. 암호화 또는 다른 메일 설정 때문에 고지 사항을 추가할 수 없는 경우 메시지 봉투에 래핑된다는 의미입니다.
     
-10. Leave **Audit this rule with severity level** selected. Then choose **Low**, **Medium**, or **High** to be used in the message log. 
+10. **심각도 수준으로 이 규칙 감사**를 선택된 채로 둡니다. 그런 다음, 메시지 로그에 사용될 **낮음**, **중간** 또는 **높음**을 선택합니다. 
     
 11. 먼저 테스트하지 않고 고지 사항을 즉시 설정하려면 **적용**을 선택합니다. 
     

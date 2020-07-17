@@ -104,18 +104,18 @@ PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-Azu
 > [!NOTE]
 > 전역 관리자는 직원을 삭제 하 고, 전자 메일을 전달 하 고, 새로운 안내가 제공 되는 환경을 사용 하 여 OneDrive 콘텐츠로 수행할 작업을 선택할 수 있습니다. 자세한 내용은 [전역 관리자: 사용자 삭제](remove-former-employee.md)를 참조 하세요. 그러나 직원에 게 회사 데이터에 대 한 액세스 권한이 없는지 확인 하려면 여기에 나열 된 추가 단계를 모두 완료 하는 것이 좋습니다. 
   
-Here's a quick overview. Each step is explained in detail in this article.
+간략한 개요는 다음과 같습니다. 각 단계는 이 문서에 자세히 설명되어 있습니다.
   
 |||
 |:-----|:-----|
 |**단계** <br/> |**이렇게 하는 이유** <br/> |
 |1. [이전 직원 사서함의 콘텐츠 저장](#save-the-contents-of-a-former-employees-mailbox) <br/> |해당 직원의 업무를 인수하는 사람에게 또는 소송이 발생하는 경우 유용합니다.  <br/> |
-|2. [이전 직원의 전자 메일을 다른 직원에게 전달 또는 공유 사서함으로 변환](#forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox) <br/> |This lets you keep the former employee's email address active. If you have customers or partners still sending email to the former employee's address, this gets them to the person taking over the work.  <br/> |
+|2. [이전 직원의 전자 메일을 다른 직원에게 전달 또는 공유 사서함으로 변환](#forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox) <br/> |이렇게 하면 이전 직원의 전자 메일 주소를 활성 상태로 유지할 수 있습니다. 이전 직원의 주소로 여전히 전자 메일을 보내는 고객 또는 파트너가 있는 경우 업무를 인수하는 사람에게 전자 메일이 전달됩니다.  <br/> |
 |3. [이전 직원의 모바일 장치 초기화 및 차단](#wipe-and-block-a-former-employees-mobile-device) <br/> |휴대폰 또는 태블릿에서 비즈니스 데이터를 제거합니다.  <br/> |
 |4. [Microsoft 365 데이터에 대 한 이전 직원의 액세스 차단](#block-a-former-employees-access-to-microsoft-365-data)<br/> |이를 통해 사용자가 이전 Microsoft 365 사서함 및 데이터에 액세스 하지 못합니다.  <br/><br/> **팁**: 사용자의 액세스를 차단 해도 해당 라이선스에 대 한 비용을 지불 하 고 있습니다. 라이선스 비용 지불을 중지하려면 구독에서 라이선스를 삭제(5단계)해야 합니다.           |
-|5. [직원의 OneDrive 콘텐츠 이동](get-access-to-and-back-up-a-former-user-s-data.md) <br/> |사용자의 라이선스만 제거하고 계정을 삭제하지 않으면 30일이 지난 후에도 사용자의 OneDrive에 있는 콘텐츠에 계속 액세스할 수 있습니다.  <br/><br/> Before you delete the account, you should move the content of their OneDrive to another location that's easy for you to access. After you delete an employee's account, the content in their OneDrive is retained for **30** days. During that 30 days, however, you can restore the user's account, and gain access to their OneDrive content. If you restore the user's account, the OneDrive content will remain accessible to you even after 30 days.  <br/> |
-|5a. What if the person used their personal computer to access OneDrive and SharePoint?  <br/> |회사에서 발급한 컴퓨터 대신 개인용 컴퓨터를 사용하여 OneDrive 및 SharePoint에서 파일을 다운로드하는 경우 저장한 파일을 지울 방법이 없습니다.  <br/><br/> 컴퓨터와 동기화된 모든 파일에 계속 액세스할 수 있습니다.  <br/> |
-|6. [이전 직원의 Microsoft 365 라이선스 제거 및 삭제](#remove-and-delete-the-microsoft-365-license-from-a-former-employee)<br/> |When you remove a license, you can assign it to someone else. Or, you can delete the license so you don't pay for it until you hire another person.  <br/><br/> When you remove or delete a license, the user's old email, contacts, and calendar are retained for **30 days**, then permanently deleted. If you remove or delete a license but don't delete the account, the content in the user's OneDrive will remain accessible to you even after 30 days.  <br/> |
+|5. [직원의 OneDrive 콘텐츠 이동](get-access-to-and-back-up-a-former-user-s-data.md) <br/> |사용자의 라이선스만 제거하고 계정을 삭제하지 않으면 30일이 지난 후에도 사용자의 OneDrive에 있는 콘텐츠에 계속 액세스할 수 있습니다.  <br/><br/> 계정을 삭제하기 전에 OneDrive의 콘텐츠를 액세스하기 쉬운 다른 위치로 이동해야 합니다. 직원의 계정을 삭제하면 해당 OneDrive의 콘텐츠는 **30** 일 동안 보관됩니다. 그러나 이 기간 동안 사용자의 계정을 복원하고 OneDrive 콘텐츠에 대한 액세스 권한을 얻을 수 있습니다. 사용자의 계정을 복원하는 경우에는 30일이 지난 후에도 OneDrive 콘텐츠에 계속 액세스할 수 있습니다.  <br/> |
+|5a. 사용자가 개인용 컴퓨터를 사용하여 OneDrive 및 SharePoint에 액세스하는 경우 어떻게 해야 하나요?  <br/> |회사에서 발급한 컴퓨터 대신 개인용 컴퓨터를 사용하여 OneDrive 및 SharePoint에서 파일을 다운로드하는 경우 저장한 파일을 지울 방법이 없습니다.  <br/><br/> 컴퓨터와 동기화된 모든 파일에 계속 액세스할 수 있습니다.  <br/> |
+|6. [이전 직원의 Microsoft 365 라이선스 제거 및 삭제](#remove-and-delete-the-microsoft-365-license-from-a-former-employee)<br/> |라이선스를 제거하면 다른 사람에게 해당 라이선스를 할당할 수 있습니다. 또는 다른 사람을 고용할 때까지 라이선스 비용을 지불하지 않도록 라이선스를 삭제할 수 있습니다.  <br/><br/> 라이선스를 제거하거나 삭제하면 사용자의 이전 전자 메일, 연락처 및 일정이 **30일** 간 보존된 후 영구적으로 삭제됩니다. 라이선스를 제거하거나 삭제하되 계정은 삭제하지 않으면 30일이 지난 후에도 사용자의 OneDrive에 있는 콘텐츠에 계속 액세스할 수 있습니다.  <br/> |
 |7. [이전 직원의 사용자 계정 삭제](#delete-a-former-employees-user-account)<br/> |이렇게 하면 관리 센터에서 계정이 제거 됩니다. 깔끔하게 정리됩니다.  <br/> |
    
 ## <a name="save-the-contents-of-a-former-employees-mailbox"></a>이전 직원 사서함의 콘텐츠 저장
@@ -123,11 +123,11 @@ Here's a quick overview. Each step is explained in detail in this article.
 
 이전 직원 사서함의 콘텐츠를 저장하는 방법은 다음과 같은 두 가지가 있습니다.
   
-1. Add the former employee's email address to your version of Outlook 2013 or 2016, and then export the data to a .pst file. You can import the data to another email account as needed. To learn how to do this, see [Get access to and back up a former user's data](get-access-to-and-back-up-a-former-user-s-data.md).
+1. Outlook 2013 또는 2016 버전에 이전 직원의 전자 메일 주소를 추가한 다음 데이터를 .pst 파일로 내보냅니다. 필요에 따라 다른 전자 메일 계정으로 데이터를 가져올 수 있습니다. 이 작업을 수행하는 방법을 알아보려면 [이전 사용자의 데이터 액세스 및 백업](get-access-to-and-back-up-a-former-user-s-data.md)을 참조하세요.
     
     또는
     
-2. Place a Litigation Hold or In-Place Hold on the mailbox before the deleting the user account. This is much more complicated than the first option but worth doing if: your Enterprise plan includes archiving and legal hold, litigation is a possibility, and you have a technically strong IT department.
+2. 사용자 계정을 삭제하기 전에 사서함에 대해 소송 보존 또는 원본 위치 유지를 적용합니다. 이 옵션은 첫 번째 옵션보다 훨씬 더 복잡하지만, Enterprise 요금제에 보관 및 법적 보존이 포함되어 있고 소송 가능성이 있으며 기술적으로 강력한 IT 부서가 있는 경우 수행할 가치가 있습니다.
     
     사서함을 "비활성 사서함"으로 전환하면 관리자, 준수 관리자 또는 레코드 관리자가 Exchange Online의 원본 위치 eDiscovery 도구를 사용하여 콘텐츠에 액세스하고 콘텐츠를 검색할 수 있습니다.
     
@@ -140,9 +140,9 @@ Here's a quick overview. Each step is explained in detail in this article.
 
 이 단계에서는 이전 직원의 전자 메일 주소를 다른 직원에게 할당하거나 [사용자의 사서함을 공유 사서함](../email/convert-user-mailbox-to-shared-mailbox.md)으로 변환합니다. 
   
-- Creating a shared mailbox is the less expensive way to go because you won't have to pay for a license **as long as the mailbox is smaller than 50GB**. Over 50GB and you'll need to assign a license to it. 
+- **사서함이 50GB보다 작은 한** 라이선스 비용을 지불할 필요가 없으므로 공유 사서함을 만드는 것이 비용이 덜 드는 방법입니다. 50GB 이상이면 사서함에 라이선스를 할당해야 합니다. 
     
-- If you convert the mailbox to a shared mailbox, all the old email will be available, too. This can take up a lot of space.
+- 사서함을 공유 사서함으로 변환한 경우 이전 전자 메일을 모두 사용할 수 있습니다. 이렇게 하면 공간을 많이 차지할 수 있습니다.
     
 - 전자 메일 전달을 설정한 경우 이제 이전 직원에게 전송되는  *새*  전자 메일만 현재 직원에게 전송됩니다. 
     
@@ -159,7 +159,7 @@ Here's a quick overview. Each step is explained in detail in this article.
 
 3. **전자 메일 전달**에서 **전자 메일 전달 관리**를 선택 합니다.
 
-4. Turn on **Forward all email sent to this mailbox**. In the **Forwarding address** box, type the email address of the current employee (or shared mailbox) who's going to get the email. 
+4. **이 사서함으로 전송된 모든 전자 메일을 전달** 을 켭니다. **전달 주소** 상자에 전자 메일을 받게 될 현재 직원(또는 공유 사서함)의 전자 메일 주소를 입력합니다. 
   
 5. **저장**을 선택합니다. 
     
@@ -175,7 +175,7 @@ Here's a quick overview. Each step is explained in detail in this article.
 
 3. **전자 메일 전달**옆에 있는 **편집**을 선택 합니다.
 
-4. Turn on **Forward all email sent to this mailbox**. In the **Forwarding address** box, type the email address of the current employee (or shared mailbox) who's going to get the email. 
+4. **이 사서함으로 전송된 모든 전자 메일을 전달** 을 켭니다. **전달 주소** 상자에 전자 메일을 받게 될 현재 직원(또는 공유 사서함)의 전자 메일 주소를 입력합니다. 
   
 5. **저장**을 선택합니다. 
     
@@ -191,7 +191,7 @@ Here's a quick overview. Each step is explained in detail in this article.
 
 3. **전자 메일 전달**옆에 있는 **편집**을 선택 합니다.
 
-4. Turn on **Forward all email sent to this mailbox**. In the **Forwarding address** box, type the email address of the current employee (or shared mailbox) who's going to get the email. 
+4. **이 사서함으로 전송된 모든 전자 메일을 전달** 을 켭니다. **전달 주소** 상자에 전자 메일을 받게 될 현재 직원(또는 공유 사서함)의 전자 메일 주소를 입력합니다. 
   
 5. **저장**을 선택합니다. 
     
@@ -217,7 +217,7 @@ Here's a quick overview. Each step is explained in detail in this article.
     
 6. **저장**을 선택합니다. 
     
-    **Tip**: Be sure you remove or disable the user from your on-premises Blackberry Enterprise Service. You should also disable any Blackberry devices for the user. Refer to the Blackberry Business Cloud Services Administration Guide if you need specific steps on how to disable the user. 
+    **팁**: 온-프레미스 Blackberry Enterprise Service에서 사용자를 제거하거나 사용하지 않도록 설정해야 합니다. 또한 사용자에 대해 Blackberry 장치를 사용하지 않도록 설정해야 합니다. 사용자를 사용하지 않도록 설정하는 방법에 대한 구체적인 단계가 필요한 경우 Blackberry Business Cloud Services Administration Guide를 참조하세요. 
     
 ## <a name="block-a-former-employees-access-to-microsoft-365-data"></a>Microsoft 365 데이터에 대 한 이전 직원의 액세스 차단
 <a name="bkmk_block"> </a>
@@ -340,16 +340,16 @@ Microsoft 365 구독의 일부로 전자 메일이 있는 경우 다음 단계�
 ## <a name="how-the-deleted-employee-account-affects-skype-for-business"></a>삭제된 직원 계정이 비즈니스용 Skype에 영향을 미치는 방식
 <a name="bkmk_remove"> </a>
 
-When you remove a user's license from Office 365, the PSTN calling number associated with the user will be released. You can assign it to another user.
+Office 365에서 사용자 라이선스를 제거하면 사용자와 연결된 PSTN 호출 번호가 해제됩니다. 이 PSTN 호출 번호를 다른 사용자에게 할당할 수 있습니다.
   
-If the user belongs to a queue group, they will no longer be a viable target of the call queue agents. So, we recommend also removing the user from the groups associated with the call queue. 
+사용자가 큐 그룹에 속하는 경우 더 이상 통화 큐 에이전트의 실행 가능한 대상이 아닙니다. 따라서 통화 큐와 연결된 그룹에서도 사용자를 제거하는 것이 좋습니다. 
   
 ## <a name="delete-a-former-employees-user-account"></a>이전 직원의 사용자 계정 삭제
 <a name="bkmk_delete"> </a>
 
 이전 직원의 모든 사용자 데이터에 액세스하여 저장한 후에는 이전 직원의 계정을 삭제할 수 있습니다.
   
-Don't delete the account if you've set up email forwarding or converted it to a shared mailbox. Both need the account to anchor the forwarding or shared mailbox.
+전자 메일 전달을 설정했거나 공유 사서함으로 변환한 경우 계정을 삭제하지 마세요. 전달 또는 공유 사서함의 기준 위치가 되는 계정이 필요합니다.
 
 ::: moniker range="o365-worldwide"
 
@@ -381,7 +381,7 @@ Don't delete the account if you've set up email forwarding or converted it to a 
 
 ::: moniker-end
 
-When you delete a user, the account becomes inactive for approximately 30 days. You have until then to restore the account before it is permanently deleted.
+사용자를 삭제하면 해당 계정은 약 30일간 비활성 상태가 됩니다. 이 기간에 계정을 복원하지 않으면 영구적으로 삭제됩니다.
   
 ### <a name="does-your-organization-use-active-directory"></a>조직에서 Active Directory를 사용하나요?
 
@@ -400,8 +400,8 @@ Azure Active Directory를 사용하는 경우 [Remove-MsolUser](https://go.micro
 |:-----|:-----|
 |**실행할 수 있는 작업** <br/> |**방법** <br/> |
 |세션(예: 웹용 Outlook, Outlook, Exchange Active Sync 등) 종료 및 새 세션 열기  <br/> |암호 재설정  <br/> |
-|세션 종료 및 향후 세션에 대한 액세스 차단(모든 프로토콜에 대해)  <br/> |Disable the account. For example (in the Exchange admin center or using PowerShell):  <br/>  `Set-Mailbox user@contoso.com -AccountDisabled:$true` <br/> |
-|특정 프로토콜(예: ActiveSync)에 대한 세션 종료  <br/> |Disable the protocol. For example (in the Exchange admin center or using PowerShell):  <br/>  `Set-CASMailbox user@contoso.com -ActiveSyncEnabled:$false` <br/> |
+|세션 종료 및 향후 세션에 대한 액세스 차단(모든 프로토콜에 대해)  <br/> |계정을 사용하지 않도록 설정합니다. 예(Exchange 관리 센터에서 또는 PowerShell을 사용하는 경우):  <br/>  `Set-Mailbox user@contoso.com -AccountDisabled:$true` <br/> |
+|특정 프로토콜(예: ActiveSync)에 대한 세션 종료  <br/> |프로토콜을 사용하지 않도록 설정합니다. 예(Exchange 관리 센터에서 또는 PowerShell을 사용하는 경우):  <br/>  `Set-CASMailbox user@contoso.com -ActiveSyncEnabled:$false` <br/> |
    
 위 작업은 다음 세 위치에서 수행할 수 있습니다.
   
@@ -414,9 +414,9 @@ Azure Active Directory를 사용하는 경우 [Remove-MsolUser](https://go.micro
    
 ### <a name="how-to-get-fastest-response-for-account-termination"></a>계정 종료에 대해 가장 빠른 응답을 받는 방법
 
- **Fastest**: Use the Exchange admin center (use PowerShell) or Azure Active Directory admin center. In an on-premises environment, it can take several hours to sync the change through DirSync. 
+ **가장 빠름**: Exchange 관리 센터(PowerShell 사용) 또는 Azure Active Directory 관리 센터를 사용합니다. 온-프레미스 환경에서 DirSync를 통해 변경 내용을 동기화하는 데 몇 시간이 걸릴 수 있습니다. 
   
- **Fastest for a user with presence on-premises and in the Exchange Datacenter**: Terminate the session using Azure Active Directory admin center/Exchange admin center AND make the change in the on-premises environment as well. Otherwise, the change in Azure Active Directory admin center/Exchange admin center will be overwritten by DirSync. 
+ **온 - 프레미스 및 Exchange Datacenter에 있는 사용자에게 가장 빠름**: Azure Active Directory 관리 센터/Exchange 관리 센터를 사용하여 세션을 종료하고 온 - 프레미스 환경에서도 변경합니다. 그렇지 않으면 Azure Active Directory 관리 센터/Exchange 관리 센터의 변경 사항이 DirSync에 의해 덮어 쓰여집니다. 
   
 ## <a name="related-articles"></a>관련 문서
 

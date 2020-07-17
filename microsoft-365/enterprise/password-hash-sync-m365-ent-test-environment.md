@@ -16,14 +16,15 @@ ms.collection:
 ms.custom:
 - TLG
 - Ent_TLGs
+- seo-marvel-apr2020
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 및 로그인을 구성하고 보여 줍니다.'
-ms.openlocfilehash: 7b1ba549a9ac9d3faec8b717a0f76cca1200352b
-ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
+ms.openlocfilehash: 2d5fbd3ed2a2afb994fc36f5ba3a15a8c55a274e
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "44371443"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819391"
 ---
 # <a name="password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 해시 동기화
 
@@ -39,7 +40,7 @@ ms.locfileid: "44371443"
 2. APP1에 Azure AD Connect를 설치 및 구성합니다.
     
 > [!TIP]
-> [여기](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
+> Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인하려면 [Microsoft 365 Enterprise 테스트 랩 가이드 스택](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)으로 이동하세요.
   
 ## <a name="phase-1-create-the-microsoft-365-simulated-enterprise-test-environment"></a>1단계: Microsoft 365 시뮬레이트된 엔터프라이즈 테스트 환경을 만들기
 
@@ -50,40 +51,40 @@ ms.locfileid: "44371443"
 이 구성은 다음으로 이루어집니다. 
   
 - Microsoft 365 E5, Office 365 E5 평가판 또는 유료 구독.
-- 인터넷에 연결된 간소화된 조직 인트라넷: Azure 가상 네트워크에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. DC1은 testlab.\<공용 도메인 이름> AD DS 도메인의 도메인 컨트롤러입니다. 2단계: 테스트 랩 도메인 만들기 및 등록
+- 인터넷에 연결된 간소화된 조직 인트라넷: Azure 가상 네트워크에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. DC1은 testlab.\<your public domain name> AD DS 도메인의 도메인 컨트롤러입니다.
 
-## <a name="phase-2-create-and-register-the-testlab-domain"></a>이 단계에서 공용 DNS 도메인을 추가하고 구독에 추가합니다.
+## <a name="phase-2-create-and-register-the-testlab-domain"></a>2단계: 테스트 랩 도메인 만들기 및 등록
 
-First, work with your public DNS registration provider to create a new public DNS domain name based on your current domain name and add it to your subscription.
+이 단계에서 공용 DNS 도메인을 추가하고 구독에 추가합니다.
 
-먼저, 공용 DNS 등록 공급자와 협력하여 공용 DNS 등록 공급자 현재 도메인 이름에 따라 새 공용 DNS 도메인 이름을 만든 후 구독에 추가합니다. 이름 **testlab.**\<공용 도메인>을 사용하는 것이 좋습니다. 예를 들어, 공용 도메인 이름이 **<span>contoso</span>.com**이면 공용 도메인 이름 **<span>testlab</span>.contoso.com**을 추가합니다.
+먼저 공용 DNS 등록 공급자와 협력하여 현재 도메인 이름을 기반으로 하는 새 공용 DNS 도메인 이름을 만든 다음 구독에 추가합니다. **testlab.**\<your public domain> 이름을 사용하는 것이 좋습니다. 예를 들어, 공용 도메인 이름이 **<span>contoso</span>.com**인 경우 공용 도메인 이름 **<span>testlab</span>.contoso.com**을 추가합니다.
   
-이것은 **테스트랩**\<에 추가 DNS 레코드를 추가하는 것으로 구성됩니다. 공개 도메인> 도메인. 자세한 내용은 [Office 365에 도메인 추가](https://docs.microsoft.com/office365/admin/setup/add-domain)를 참조하세요. 구성 결과는 다음과 같습니다. 테스트 랩 도메인 이름 등록 이 구성은 다음으로 이루어집니다. 
+그런 다음 도메인 등록 프로세스를 통해 **테스트랩**\<your public domain> 도메인을 Microsoft 365 또는 Office 365 평가판 또는 유료 구독에 추가합니다. 이 프로세스는 추가 DNS 레코드를 **testlab.**\<your public domain> 도메인에 추가하는 것으로 구성됩니다. 자세한 내용은 [Office 365에 도메인 추가](https://docs.microsoft.com/office365/admin/setup/add-domain)를 참조하세요. 
 
-Microsoft 365 E5, Office 365 E5 평가판 또는 유료 구독(DNS 도메인 Test Lab 포함).\<공용 도메인 이름> 등록됨.
+구성 결과는 다음과 같습니다.
   
-![인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다.](../media/password-hash-sync-m365-ent-test-environment/Phase2.png)
+![테스트 랩 도메인 이름 등록](../media/password-hash-sync-m365-ent-test-environment/Phase2.png)
   
-testlab.\<공용 도메인 이름>에 대해 현재 다음 작업이 어떻게 진행되는지 확인합니다.
+이 구성은 다음으로 이루어집니다.
 
-- 공용 DNS 레코드에서 지원도비니다. Microsoft 365 구독에 등록되었습니다.
+- DNS 도메인 testlab.\<your public domain name>이 등록된 Microsoft 365 E5 또는 Office 365 E5 평가판 또는  유료 구독.
+- 인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다.
+
+testlab.\<your public domain name>은 현재:
+
+- 공용 DNS 레코드에서 지원도비니다.
+- Microsoft 365 구독에 등록되었습니다.
 - 시뮬레이트된 인트라넷의 AD DS 도메인입니다.
-
-사용자 이름 및 암호를 지정하라는 메시지가 표시되면 <strong>user1@testlab.</strong>\<사용자의 도메인 이름> 및 User1 암호를 입력합니다. User1으로 잘 로그인되어야 합니다.
-
-- 먼저 APP1에 Azure AD Connect 설치 및 구성합니다.
-- [Azure Portal](https://portal.azure.com)에서 전역 관리자 계정으로 로그인한 후 TESTLAB\\User1 계정을 사용하여 APP1에 연결합니다.
-- APP1의 바탕 화면에서 관리자 수준 Windows PowerShell 명령 프롬프트를 열고 다음 명령을 실행하여 Internet Explorer 강화 보안을 사용하지 않습니다.
      
-## <a name="phase-3-install-azure-ad-connect-on-app1"></a>작업 표시줄에서 **Internet Explorer**를 클릭하고 [https://aka.ms/aadconnect](https://aka.ms/aadconnect)로 이동합니다.
+## <a name="phase-3-install-azure-ad-connect-on-app1"></a>3단계: APP1에 Azure AD Connect 설치
 
-Microsoft Azure Active Directory Connect 페이지에서 **다운로드**를 클릭하고 **실행**을 클릭합니다.
+이 단계에서는 APP1에서 Azure AD Connect 도구를 설치 및 구성한 후 잘 작동하는지 확인합니다.
   
-**Azure AD Connect 시작** 페이지에서 **동의**를 클릭하고 **계속**을 클릭합니다.
+먼저 APP1에 Azure AD Connect 설치 및 구성합니다.
 
-1. **기본 설정** 페이지에서 **기본 설정 사용**을 클릭합니다.
+1. [Azure Portal](https://portal.azure.com)에서 전역 관리자 계정으로 로그인한 후 TESTLAB\\User1 계정을 사용하여 APP1에 연결합니다.
     
-2. **Azure AD에 연결** 페이지에서 **사용자 이름**에 전역 관리자 계정 이름을 입력하고 **암호**에 해당 암호를 입력한 후 **다음 **을 클릭합니다.
+2. APP1의 바탕 화면에서 관리자 수준 Windows PowerShell 명령 프롬프트를 열고 다음 명령을 실행하여 Internet Explorer 강화 보안을 사용하지 않습니다.
     
    ```powershell
    Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Active Setup\Installed Components\{A509B1A7-37EF-4b3f-8CFC-4F3A74704073}" -Name "IsInstalled" -Value 0
@@ -91,62 +92,62 @@ Microsoft Azure Active Directory Connect 페이지에서 **다운로드**를 클
    Stop-Process -Name Explorer -Force
    ```
 
-3. **AD DS에 연결** 페이지에서 **사용자 이름**에 **TESTLAB\\User1**을 입력하고 **암호**에 암호를 입력한 후 **다음**을 클릭합니다.
+3. 작업 표시줄에서 **Internet Explorer**를 클릭하고 [https://aka.ms/aadconnect](https://aka.ms/aadconnect)로 이동합니다.
     
-4. **구성 준비 완료** 페이지에서 **설치**를 클릭합니다.
+4. Microsoft Azure Active Directory Connect 페이지에서 **다운로드**를 클릭하고 **실행**을 클릭합니다.
     
-5. **구성 완료** 페이지에서 **끝내기**를 클릭합니다.
+5. **Azure AD Connect 시작** 페이지에서 **동의**를 클릭하고 **계속**을 클릭합니다.
     
-6. Internet Explorer에서 Microsoft 365 관리 센터([https://portal.microsoft.com](https://portal.microsoft.com))로 이동합니다.
+6. **기본 설정** 페이지에서 **기본 설정 사용**을 클릭합니다.
     
-7. 왼쪽 탐색에서 **사용자 > 활성화된 사용자**를 클릭합니다.
+7. **Azure AD에 연결** 페이지에서 **사용자 이름**에 전역 관리자 계정 이름을 입력하고 **암호**에 해당 암호를 입력한 후 **다음 **을 클릭합니다.
     
-8. **User1**이라는 계정을 유의합니다.
+8. **AD DS에 연결** 페이지에서 **사용자 이름**에 **TESTLAB\\User1**을 입력하고 **암호**에 암호를 입력한 후 **다음**을 클릭합니다.
     
-9. 이 계정은 TESTLAB AD DS 도메인의 계정이며 디렉터리 동기화가 성공했다는 증거입니다.
+9. **구성 준비 완료** 페이지에서 **설치**를 클릭합니다.
     
-10. **User1** 계정을 클릭한 다음 **라이선스 및 앱**을 클릭합니다.
+10. **구성 완료** 페이지에서 **끝내기**를 클릭합니다.
     
-11. **제품 라이선스**에서 위치를 선택하고 (필요한 경우) **Office 365 E5** 라이선스를 해제 하고 **Microsoft 365 E5** 라이선스를 실행합니다.
+11. Internet Explorer에서 Microsoft 365 관리 센터([https://portal.microsoft.com](https://portal.microsoft.com))로 이동합니다.
     
-12. 페이지 아래쪽에서 **저장**을 클릭하고 **닫기**를 클릭합니다.
+12. 왼쪽 탐색에서 **사용자 > 활성화된 사용자**를 클릭합니다.
     
-    다음으로, user1 계정의 <strong>user1@testlab.</strong>\<사용자의 도메인 이름> 사용자 이름으로 구독에 로그인하는 기능을 테스트합니다. APP1에서 로그아웃했다가 다른 계정을 지정하여 다시 로그인합니다.
+    **User1**이라는 계정을 유의합니다. 이 계정은 TESTLAB AD DS 도메인의 계정이며 디렉터리 동기화가 성공했다는 증거입니다.
     
-13. When prompted for a user name and password, specify <strong>user1@testlab.</strong>\<your domain name> and the User1 password.
+13. **User1** 계정을 클릭한 다음 **라이선스 및 앱**을 클릭합니다.
     
-14. You should successfully sign in as User1. 
+14. **제품 라이선스**에서 위치를 선택하고 (필요한 경우) **Office 365 E5** 라이선스를 해제 하고 **Microsoft 365 E5** 라이선스를 실행합니다. 
 
-15. User1에 TESTLAB AD DS 도메인에 대한 도메인 관리자 권한이 있더라도 전역 관리자는 아닙니다.
+15. 페이지 아래쪽에서 **저장**을 클릭하고 **닫기**를 클릭합니다.
     
-따라서 **관리자** 아이콘이 옵션으로 표시되지 않습니다. 구성 결과는 다음과 같습니다.
+다음으로, User1 계정의 <strong>user1@testlab.</strong>\<your domain name> 사용자 이름으로 구독에 로그인하는 기능을 테스트합니다.
 
-1. 암호 해시 동기화 테스트 환경으로 시뮬레이트된 엔터프라이즈
+1. APP1에서 로그아웃한 다음 다른 계정을 지정하여 다시 로그인합니다.
 
-2. 이 구성은 다음으로 이루어집니다. Microsoft 365 E5, Office 365 E5 평가판 또는 유료 구독(DNS 도메인 Test Lab 포함).\<도메인 이름> 등록됨. 인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. 
+2. 사용자 이름 및 암호를 입력하라는 메시지가 표시되면 <strong>user1@testlab.</strong>\<your domain name> 및 User1 암호를 입력합니다. User1으로 성공적으로 로그인해야 합니다. 
  
-Azure AD Connect는 TESTLAB AD DS 도메인을 Microsoft 365 구독의 Azure AD 테넌트와 주기적으로 동기화하기 위해 APP1에서 실행됩니다. TESTLAB AD DS 도메인의 User1 계정이 Azure AD 테넌트와 동기화되었습니다. 
+User1에 TESTLAB AD DS 도메인에 대한 도메인 관리자 권한이 있더라도 전역 관리자는 아닙니다. 따라서 **관리자** 아이콘이 옵션으로 표시되지 않습니다. 
 
-다음 단계
+구성 결과는 다음과 같습니다.
 
-![테스트 환경에서 추가 [ID](m365-enterprise-test-lab-guides.md#identity) 기능도 알아봅니다.](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
+![암호 해시 동기화 테스트 환경으로 시뮬레이트된 엔터프라이즈](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
 
-참고 항목 
+이 구성은 다음으로 이루어집니다. 
   
-- [Microsoft 365 Enterprise 테스트 랩 가이드](m365-enterprise-test-lab-guides.md) [Microsoft 365 Enterprise 배포](deploy-microsoft-365-enterprise.md)
-- [Microsoft 365 Enterprise 설명서](https://docs.microsoft.com/microsoft-365-enterprise/) Azure AD Connect runs on APP1 to synchronize the TESTLAB AD DS domain to the Azure AD tenant of your Microsoft 365 subscription periodically.
-- The User1 account in the TESTLAB  AD DS domain has been synchronized with the Azure AD tenant.
+- DNS 도메인 TESTLAB.\<your domain name>이 등록된 Microsoft 365 E5 또는 Office 365 E5 평가판 또는  유료 구독.
+- 인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. Azure AD Connect는 TESTLAB AD DS 도메인을 Microsoft 365 구독의 Azure AD 테넌트와 주기적으로 동기화하기 위해 APP1에서 실행됩니다.
+- TESTLAB AD DS 도메인의 User1 계정이 Azure AD 테넌트와 동기화되었습니다.
 
-## <a name="next-step"></a>Next step
+## <a name="next-step"></a>다음 단계
 
-Explore additional <bpt id="p1">[</bpt>identity<ept id="p1">](m365-enterprise-test-lab-guides.md#identity)</ept> features and capabilities in your test environment.
+테스트 환경에서 추가 [ID](m365-enterprise-test-lab-guides.md#identity) 기능도 알아봅니다.
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a>참고 항목
 
-<bpt id="p1">[</bpt>Microsoft 365 Enterprise Test Lab Guides<ept id="p1">](m365-enterprise-test-lab-guides.md)</ept>
+[Microsoft 365 Enterprise 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
 
-<bpt id="p1">[</bpt>Deploy Microsoft 365 Enterprise<ept id="p1">](deploy-microsoft-365-enterprise.md)</ept>
+[Microsoft 365 Enterprise 배포](deploy-microsoft-365-enterprise.md)
 
-<bpt id="p1">[</bpt>Microsoft 365 Enterprise documentation<ept id="p1">](https://docs.microsoft.com/microsoft-365-enterprise/)</ept>
+[Microsoft 365 Enterprise 설명서](https://docs.microsoft.com/microsoft-365-enterprise/)
 
 

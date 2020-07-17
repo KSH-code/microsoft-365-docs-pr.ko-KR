@@ -17,6 +17,7 @@ ms.collection:
 - M365-security-compliance
 ms.openlocfilehash: bfadeae0f4f0b01197f58f0610d1040da3080922
 ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/02/2020
 ms.locfileid: "45023634"
@@ -33,9 +34,9 @@ Windows용 Microsoft 데이터 프로세서 서비스는 GDPR(일반 데이터 �
 |**단계**|**설명**|
 | ------- | ------------- |
 | ***1-감지*** | 잠재적인 인시던트의 최초 지표 |
-| ***2-평가*** | An on-call incident response team member assesses the impact and severity of the event. Based on evidence, the assessment may or may not result in further escalation to the security response team. |
+| ***2-평가*** | 출장 인시던트 대응 팀 구성원이 이벤트의 영향 및 심각도를 평가합니다. 이러한 평가는 증거에 따라 보안 대응 팀을 향한 추가 에스컬레이션으로 이어질 수도 있고 그렇지 않을 수도 있습니다. |
 | ***3-진단*** | 보안 응답 전문가가 해당 기술 또는 법정 조사를 수행하고, 방지, 완화 및 해결 전략을 파악합니다. 보안 팀에서 고객 데이터가 불법적이거나 허가되지 않은 개인에게 노출되었을 수 있다고 판단할 경우 고객 인시던트 알림 프로세스가 동시에 실행될 수 있습니다. |
-| ***4 - 안정화 및 복구*** | The incident response team creates a recovery plan to mitigate the issue. Crisis containment steps such as quarantining impacted systems may occur immediately and in parallel with diagnosis. Longer term mitigations may be planned which occur after the immediate risk has passed. |
+| ***4 - 안정화 및 복구*** | 인시던트 대응 팀이 문제를 완화하기 위한 복구 계획을 세웁니다. 영향을 받은 시스템을 격리하는 것과 같은 위기 방지 단계가 즉시 진행되거나 진단과 동시에 수행될 수 있습니다. 즉각적인 위험이 지나간 후에 좀 더 장기적인 완화를 계획할 수 있습니다. |
 | ***5 - 종료 및 사후 평가*** | 인시던트 대응 팀은 정책, 절차 및 프로세스를 수정하여 이벤트 재발을 방지하기 위해 인시던트의 세부 정보를 대략적으로 설명하는 사후 평가를 만듭니다. |
 
 Windows용 Microsoft 데이터 프로세서 서비스에서 사용하는 감지 프로세스는 Windows용 데이터 프로세서 서비스의 기밀성, 무결성 및 가용성을 침해하는 이벤트를 검색하도록 고안되었습니다. 다음과 같은 일부 이벤트가 조사를 트리거할 수 있습니다. 
@@ -65,11 +66,11 @@ Windows용 Microsoft 데이터 프로세서 서비스에서 사용하는 감지 
  - **CRSI(고객 보고 가능 보안 인시던트):** Microsoft의 시스템, 장비 또는 시설을 불법적으로 또는 허가 없이 액세스하거나 사용하여 고객 데이터를 공개, 수정 또는 손실하는 경우입니다. 
  - **개인 정보 보호 위반:** 개인 데이터와 관련된 보안 인시던트의 하위 유형입니다. 처리 절차는 보안 인시던트와 다르지 않습니다. 
 
- For a CRSI to be declared, Microsoft must determine that unauthorized access to customer data has or has very likely occurred and/or that there is a legal or contractual commitment that notification must occur. It is desired, but not required, that specific customer impact, resource access, and repair steps be known. An incident is generally declared a CRSI after the conclusion of the Diagnose stage of a security incident; however, the declaration may happen at any point that all pertinent information is available. The security incident manager must establish evidence beyond reasonable doubt that a reportable event has occurred to begin execution of the Customer Incident Notification Process. 
+ CRSI가 선언되려면, Microsoft가 고객 데이터에 대한 무단 액세스가 발생했거나 발생했을 가능성이 높고, 알림이 진행되어야 하는 법적 또는 계약 조항이 있음을 확인해야 합니다. 구체적인 고객 영향, 리소스 액세스 및 복구 단계가 공개되면 좋지만 반드시 그럴 필요는 없습니다.인시던트는 일반적으로 보안 인시던트의 진단 단계가 끝난 후에 CRSI로 선언됩니다. 그렇지만 모든 관려 정보를 사용할 수 있게 되는 언제든지 이러한 선언이 진해욀 수 있습니다. 보안 인시던트 관리자는 고객 인시던트 알림 프로세스를 실행하기 전에, 보고 가능한 이벤트가 발생했을 것이라는 합리적인 추측을 넘어서는 명확한 증거를 확보해야 합니다. 
 
-Throughout the investigation, the security response team works closely with global legal advisors to help ensure that forensics are performed in accordance with legal obligations and commitments to customers. There are also significant restrictions on system and customer data viewing and handling in various operating environments. Sensitive or confidential data, as well as Customer Data, are not transferred out of the production environment without explicit written approval from the Incident Manager recorded in the corresponding incident ticket. 
+조사 과정 전반에서, 보안 대응 팀은 전역 법률 자문과 긴밀히 협의하면서 법률적 의무 및 고객과의 약정에 따라 법정 조치가 수행되도록 합니다. 또한 다양한 운영 환경에서 시스템 및 고객 데이터를 보고 처리하는 데 중요한 제한 사항이 적용됩니다. 고객 데이터뿐만 아니라 중요한 데이터 또는 기밀 데이터는 해당 인시던트 티켓에 기록된 인시던트 관리자의 명시적인 서면 동의 없이 프로덕션 환경 외부로 전송되지 않습니다. 
 
-Microsoft verifies that customer and business risk is successfully contained, and that corrective measures are implemented. If necessary, emergency mitigation steps to resolve immediate security risks associated with the event are taken. 
+Microsoft는 고객 및 비즈니스 위험이 성공적으로 방지되고, 수정 조치가 구현되는지 확인합니다. 필요한 경우 이벤트와 연결된 즉각적인 보안 위험을 해결하기 위한 긴급 완화 단계가 수행됩니다. 
 
 Microsoft는 또한 데이터 유출을 위한 내부 사후 평가을 완료합니다. 이 연습의 일환으로 응답 및 운영 절차의 충분성이 평가되고 보안 사고 대응 SOP 또는 관련 프로세스에 필요한 업데이트가 식별되고 구현됩니다. 데이터 유출에 대한 내부 사후 평가는 고객이 이용할 수 없는 극비 기록입니다. 그러나 사후 평가는 요약되어 다른 고객 이벤트 통지에 포함될 수 있습니다. 이 보고서는 Windows 정기 감사 주기에 대한 데이터 프로세서 서비스의 일부로 검토를 위해 외부 감사인에게 제공됩니다. 
 
@@ -79,7 +80,7 @@ Windows용 Microsoft 데이터 프로세서 서비스는 필요한 경우 데이
 
 CRSI를 선언한 후에는 빠르게 이동하는 보안 위험을 계속 고려하면서 최대한 신속하게 알림 프로세스가 수행됩니다. 일반적으로 인시던트 조사가 진행되는 동안에 알림 작성 프로세스가 수행됩니다. 고객 알림은 다음 상황을 제외하고 위반을 선언한 시점으로부터 72시간 이내에 전달됩니다. 
 
- - Microsoft believes the act of performing a notification will increase the risk to other customers. For example, the act of notifying may tip off an adversary causing an inability to remediate. 
+ - Microsoft가 알림을 진행할 때 다른 고객에 대한 위험이 증가할 수 있다고 판단한 경우, 예를 들어 알림이 진행될 경우 공격자가 알게 되어 수정 기회를 높일 수 있습니다. 
  - Microsoft의 법률 부서 CELA(회사 외부 업무 및 법률 담당) 및 인시던트 책임 관리자가 기타 비정상적이거나 극단적인 상황을 조사한 경우. 
 
  Windows용 Microsoft 데이터 프로세서 서비스는 알림 프로세스를 과도하게 지연시키지 않으면서 내부 조사를 수행할 수 있도록 하고 최종 사용자 약정을 충족하도록 지원할 수 있는 자세한 정보를 고객에게 제공합니다. 

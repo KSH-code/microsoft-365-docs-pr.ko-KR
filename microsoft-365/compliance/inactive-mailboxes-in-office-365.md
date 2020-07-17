@@ -89,7 +89,7 @@ EDiscovery 사례 및 보류에 대 한 자세한 내용은 [ediscovery 사례](
 
 ## <a name="inactive-mailboxes-and-exchange-mrm-retention-policies"></a>비활성 사서함과 Exchange MRM 보존 정책
 
-If an Exchange retention policy (the Messaging Records Management, or MRM, feature in Exchange Online) was applied to mailbox when it was made inactive, any deletion policies (which are retention tags configured with a **Delete** retention action) will continue to be processed on the inactive mailbox. That means items that are tagged with a deletion policy will be moved to the Recoverable Items folder when the retention period expires. Those items are purged from the inactive mailbox when the hold duration expires. If a hold duration isn't specified for the inactive mailbox, items in the Recover Items folder will be retained indefinitely. 
+Exchange 보존 정책 ( Exchange Online 의 메시징 레코드 관리 또는 MRM, 기능) 비활성 이었습니다 때 사서함에 적용 된, (하는 보존 태그를 **삭제** 하는 보존 작업을 사용 하 여 구성 된) 모든 삭제 정책 계속 비활성 사서함에서 처리할 수 있습니다. 즉, 삭제 정책을 사용 하 여 태그가 지정 된 항목 보존 기간이 만료 되 면 복구 가능한 항목 폴더를 이동 됩니다. 이러한 항목은 보존 기간이 만료 될 때 비활성 사서함에서 제거 됩니다. 를 비활성 사서함에 대 한 보존 기간을 지정 하지 않으면 복구할 항목 폴더에서 항목을 무기한 유지 됩니다. 
   
 이와 반대로 비활성 사서함에 할당 된 보존 정책에 포함 된 모든 보관 정책 (인, **보관 폴더로 이동** 보존 작업을 사용 하 여 구성 하는 보존 태그)은 무시 됩니다. 즉, 보존 기간이 만료 되 면 보관 정책으로 태그가 지정 된 비활성 사서함의 항목이 기본 사서함에 남아 있습니다. 보관 사서함으로 또는 보관 사서함의 복구 가능한 항목 폴더를 이동 하지는 합니다. 무기한 유지 됩니다. 
   

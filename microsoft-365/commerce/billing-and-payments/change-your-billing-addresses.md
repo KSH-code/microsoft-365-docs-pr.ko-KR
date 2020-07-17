@@ -47,9 +47,9 @@ ms.locfileid: "44817032"
 
 - **청구지 주소** 청구 담당 부서의 주소로, 대개 **구매자** 주소와 동일합니다.
 
-- **Service Usage Address** The address where the service is being used, usually the same as the **Sold-To** address. If your organization has remote users or multiple offices, use the address where the majority of your users are located.
+- **서비스 사용 주소** 서비스를 사용 중인 주소로, 대개 **구매자** 주소와 동일합니다. 조직에 원격 사용자나 여러 사무실이 있는 경우 대다수의 사용자가 있는 주소를 사용합니다.
 
-In most cases, these addresses are the same. If you need to change one or more of the addresses, you can do that. You can also provide an alternate email address to receive billing notifications, and change the alternate email address for other admins.
+대부분의 경우 이러한 주소는 동일합니다. 하나 이상의 주소를 변경해야 하는 경우 변경할 수 있습니다. 청구 알림을 받을 대체 전자 메일 주소를 제공하고 다른 관리자의 대체 전자 메일 주소를 변경할 수도 있습니다.
   
 ::: moniker range="o365-worldwide"
 

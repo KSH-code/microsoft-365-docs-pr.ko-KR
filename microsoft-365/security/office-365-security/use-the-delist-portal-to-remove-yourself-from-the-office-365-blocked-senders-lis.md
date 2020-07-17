@@ -43,7 +43,7 @@ Microsoft는 수신 거부 목록을 사용하여 스팸, 스푸핑 및 피싱 �
 
 1. 웹 브라우저에서 [https://sender.office.com](https://sender.office.com)으로 이동합니다.
 
-2. Follow the instructions on the page. Ensure that you use the email address to which the error message was sent, and the IP address that is specified in the error message. You can only enter one email address and one IP address per visit.
+2. 페이지의 지시를 따릅니다. 오류 메시지가 전송된 전자 메일 주소와 오류 메시지에 지정된 IP 주소를 사용하고 있는지 확인합니다. 방문할 때마다 하나의 전자 메일 주소 및 하나의 IP 주소만 입력할 수 있습니다.
 
 3. **전송**을 클릭합니다.
 

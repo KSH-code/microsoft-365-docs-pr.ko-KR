@@ -88,9 +88,9 @@ Microsoft는 도메인 구입과 함께 무료 도메인 개인 정보 구독을
    
 ### <a name="transfer-your-domain-to-a-different-domain-registrar"></a>다른 도메인 등록 기관으로 도메인 전송
 
-If your domain is managed by a provider that doesn't support all the necessary DNS records, you can transfer it to a different registrar. When you transfer the domain, you change who you send payments to in order to renew and keep your domain name.
+도메인이 필요한 모든 DNS 레코드를 지원하지 않는 공급자에서 관리되는 경우 해당 도메인을 다른 등록 기관으로 전송할 수 있습니다. 도메인을 전송하면 도메인 이름을 갱신하고 유지하기 위해 비용을 지불하는 대상이 변경됩니다.
   
-Request the transfer at the registrar that you want to move your domain to. Look on their website for an option such as **Transfer DNS**. Be aware that after they make the changes, it can take a few days update across the Internet.
+도메인을 이동하려는 등록 기관에서 전송을 요청합니다. 해당 웹 사이트에서 **DNS 전송** 등의 옵션을 확인합니다. 변경한 후 인터넷에서 업데이트되는 데에는 며칠이 걸릴 수 있다는 점에 유의하세요.
  
 
 
@@ -100,7 +100,7 @@ Request the transfer at the registrar that you want to move your domain to. Look
 
 
 
-If you don't already have your own domain, you can easily buy one online at a domain name registrar, domain reseller, or even at your current Internet provider. You get a domain name when you sign up for Office 365 operated by 21Vianet, for example, contoso.partner.onmschina.cn. But you may want to use a custom domain name, like fourthcoffee.com.
+고유한 도메인이 아직 없다면 도메인 이름 등록 기관이나 도메인 판매자 또는 현재 인터넷 제공업체에서 온라인으로 손쉽게 도메인을 구입할 수 있습니다. 21Vianet에서 운영하는 Office 365에 등록하면 contoso.partner.onmschina.cn 같은 도메인 이름이 제공됩니다. 하지만 fourthcoffee.com 같은 사용자 지정 도메인 이름도 사용할 수 있습니다.
   
 Microsoft 365에서 도메인을 설정 하려면 도메인을 소유 하 고 도메인의 일부 DNS 레코드를 변경 해야 합니다.
   

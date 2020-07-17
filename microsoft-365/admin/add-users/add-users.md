@@ -78,7 +78,7 @@ ms.locfileid: "45015890"
     - **연락처 정보** 확장하여 휴대폰 번호, 주소 등을 입력합니다.
     - **암호** 자동 생성 된 암호를 사용 하거나 확장 하 여 사용자에 대 한 강력한 암호를 지정 합니다. 90 일 후에는 암호를 변경 해야 합니다. 또는 **사용자가 처음 로그인할 때 암호를 변경하도록 설정**할 수도 있습니다.
     - **역할** 사용자를 관리자로 설정해야 하는 경우 확장합니다.
-    - **Product licenses** Expand this section and select the appropriate license. If you don't have any licenses available, you can still add a user and buy additional licenses.
+    - **제품 라이선스** 이 섹션을 확장하여 적절한 라이선스를 선택합니다. 사용 가능한 라이선스가 없어도 사용자를 추가하고 추가 라이선스를 구입할 수 있습니다.
 
 ::: moniker-end
 
@@ -92,7 +92,7 @@ ms.locfileid: "45015890"
     - **연락처 정보** 확장하여 휴대폰 번호, 주소 등을 입력합니다.
     - **암호** 자동 생성 된 암호를 사용 하거나 확장 하 여 사용자에 대 한 강력한 암호를 지정 합니다. 90 일 후에는 암호를 변경 해야 합니다. 또는 **사용자가 처음 로그인할 때 암호를 변경하도록 설정**할 수도 있습니다.
     - **역할** 사용자를 관리자로 설정해야 하는 경우 확장합니다.
-    - **Product licenses** Expand this section and select the appropriate license. If you don't have any licenses available, you can still add a user and buy additional licenses.
+    - **제품 라이선스** 이 섹션을 확장하여 적절한 라이선스를 선택합니다. 사용 가능한 라이선스가 없어도 사용자를 추가하고 추가 라이선스를 구입할 수 있습니다.
 
 ::: moniker-end
 

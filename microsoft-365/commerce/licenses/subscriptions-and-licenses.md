@@ -62,7 +62,7 @@ ms.locfileid: "45015962"
 
 ## <a name="understand-licenses-for-non-user-mailboxes"></a>비사용자 사서함의 라이선스 이해
 
-You don't need to assign licenses to resource mailboxes, room mailboxes, and shared mailboxes, except when they are over their storage quota of 50 gigabytes (GB). For more about non-user mailboxes, see the following articles:
+리소스 사서함, 대화방 사서함, 공유 사서함이 50GB(기가바이트)의 저장소 할당량을 초과할 경우를 제외하고, 해당 사서함에 라이선스를 할당할 필요가 없습니다. 비사용자 사서함에 대해서는 다음 문서를 참조하세요.
   
 - [공유 사서함 만들기](../../admin/email/create-a-shared-mailbox.md)
 - [공유 사서함에서 라이선스 제거](../../admin/email/remove-license-from-shared-mailbox.md)
@@ -72,7 +72,7 @@ You don't need to assign licenses to resource mailboxes, room mailboxes, and sha
 
 ## <a name="who-can-assign-licenses"></a>라이선스를 할당할 수 있는 사용자
 
-Different types of admins can work with licenses in different ways, depending on their roles. The following table lists the most common options. For a complete list of admin roles and privileges, see [About admin roles](../../admin/add-users/about-admin-roles.md).
+여러 유형의 관리자가 해당 역할에 따라 서로 다른 방법으로 라이선스를 사용할 수 있습니다. 다음 표에는 가장 일반적인 옵션이 나열되어 있습니다. 관리자 역할 및 권한의 전체 목록은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
   
 |**관리자 역할**|**라이선스 할당**|**라이선스 할당 해제**|**추가 라이선스 구입**|**계정 삭제**|
 |:-----|:-----|:-----|:-----|:-----|

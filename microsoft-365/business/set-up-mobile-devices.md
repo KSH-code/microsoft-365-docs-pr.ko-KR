@@ -100,7 +100,7 @@ Play 스토어에서 Intune 회사 포털을 설치 합니다.
   
 ![Screenshot that shows the install button for Intune Company Portal in Google Play Store](../media/5e0408f2-3f37-44dd-80ed-13ca2ac6df0c.png)
   
-Open Outlook again, and enter and confirm a PIN. Your Outlook app is now ready for use.
+Outlook을 다시 열어 PIN을 입력하고 확인합니다. 이제 Outlook 앱을 사용할 준비가 되었습니다.
   
 ![Set  PIN for Outlook app in Android](../media/edb91afb-f1ed-451a-bc6b-8ccba664e055.png)
 

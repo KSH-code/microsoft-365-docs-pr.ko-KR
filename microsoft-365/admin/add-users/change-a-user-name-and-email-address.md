@@ -93,7 +93,7 @@ ms.locfileid: "45079716"
 
 3. 해당 사용자의 기본 전자 메일 주소로 설정할 전자 메일 주소에 대해 **기본으로 설정**을 선택합니다. 
     
-    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
+    **중요**: GoDaddy 또는 관리 콘솔을 제공하는 다른 파트너 서비스에서 Microsoft 365를 구매한 경우 이 기본으로 설정 옵션이 표시되지 않습니다. 대신 GoDaddy/파트너 관리 콘솔에 로그인하여 기본 별칭을 설정하세요. 
     
     또한 전역 관리자인 경우에만 이 옵션이 표시됩니다. 이 옵션이 표시되지 않으면 사용자의 이름과 기본 전자 메일 주소를 변경할 수 있는 권한이 없는 것입니다.
   
@@ -103,7 +103,7 @@ ms.locfileid: "45079716"
  
   - 이 변경 내용을 적용하는 데 시간이 걸릴 수 있습니다.
   
-  - Their new username. They'll need it to sign in to Microsoft 365.
+  - 새 사용자 이름. Microsoft 365에 로그인하는 데 필요합니다.
     
   - 사용자가 비즈니스용 Skype Online을 사용하는 경우 본인이 구성한 비즈니스용 Skype Online 모임의 일정을 조정하고 해당 외부 연락처에 그 연락처 정보를 업데이트하도록 지시해야 합니다.
 
@@ -121,7 +121,7 @@ ms.locfileid: "45079716"
 
 3. 해당 사용자의 기본 전자 메일 주소로 설정할 전자 메일 주소에 대해 **기본으로 설정**을 선택합니다. 
     
-    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
+    **중요**: GoDaddy 또는 관리 콘솔을 제공하는 다른 파트너 서비스에서 Microsoft 365를 구매한 경우 이 기본으로 설정 옵션이 표시되지 않습니다. 대신 GoDaddy/파트너 관리 콘솔에 로그인하여 기본 별칭을 설정하세요. 
     
     또한 전역 관리자인 경우에만 이 옵션이 표시됩니다. 이 옵션이 표시되지 않으면 사용자의 이름과 기본 전자 메일 주소를 변경할 수 있는 권한이 없는 것입니다.
   
@@ -131,7 +131,7 @@ ms.locfileid: "45079716"
  
   - 변경 내용이 적용되는 데 시간이 걸릴 수 있습니다.
   
-  - What their new username is. They'll need it to sign in to Microsoft 365.
+  - 새로운 사용자명이 무엇인가요. Microsoft 365에 로그인하려면 해당 정보가 필요합니다.
     
   - 사용자가 비즈니스용 Skype Online을 사용 중인 경우 사용자에게 모든 비즈니스용 Skype Online 모임의 일정을 조정하고 해당 외부 연락처에 이전 연락처 정보를 업데이트하도록 알려야 한다고 알립니다.
 
@@ -149,7 +149,7 @@ ms.locfileid: "45079716"
 
 3. 해당 사용자의 기본 전자 메일 주소로 설정할 전자 메일 주소에 대해 **기본으로 설정**을 선택합니다. 
     
-    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
+    **중요**: GoDaddy 또는 관리 콘솔을 제공하는 다른 파트너 서비스에서 Microsoft 365를 구매한 경우 이 기본으로 설정 옵션이 표시되지 않습니다. 대신 GoDaddy/파트너 관리 콘솔에 로그인하여 기본 별칭을 설정하세요. 
     
     또한 전역 관리자인 경우에만 이 옵션이 표시됩니다. 이 옵션이 표시되지 않으면 사용자의 이름과 기본 전자 메일 주소를 변경할 수 있는 권한이 없는 것입니다.
   
@@ -159,7 +159,7 @@ ms.locfileid: "45079716"
  
   - 변경 내용이 적용되는 데 시간이 걸릴 수 있습니다.
   
-  - What their new username is. They'll need it to sign in to Microsoft 365.
+  - 새로운 사용자명이 무엇인가요. Microsoft 365에 로그인하려면 해당 정보가 필요합니다.
     
   - 사용자가 비즈니스용 Skype Online을 사용 중인 경우 사용자에게 모든 비즈니스용 Skype Online 모임의 일정을 조정하고 해당 외부 연락처에 이전 연락처 정보를 업데이트하도록 알려야 한다고 알립니다.
 
@@ -181,7 +181,7 @@ ms.locfileid: "45079716"
 
     “**사용자를 편집할 수 없습니다. 사용자 정보를 검토하고 다시 시도하세요.** 가 표시되는 경우 [오류 메시지 해결](#resolve-error-messages)을 참조하세요.
 
-It might take up to 24 hours for this change to take effect across all services. After the change has taken effect, the person will have to sign in to Outlook, Skype for Business and SharePoint with their updated username.
+이 변경 내용이 서비스 전체에 적용되기까지 최대 24시간이 걸릴 수 있습니다. 변경 내용이 적용된 후 사용자는 업데이트된 사용자 이름을 사용해 Outlook, 비즈니스용 Skype 및 SharePoint에 로그인해야 합니다.
 
 ::: moniker-end
 
@@ -195,7 +195,7 @@ It might take up to 24 hours for this change to take effect across all services.
 
     “**사용자를 편집할 수 없습니다. 사용자 정보를 검토하고 다시 시도하세요.** 가 표시되는 경우 [오류 메시지 해결](#resolve-error-messages)을 참조하세요.
 
-It might take up to 24 hours for this change to take effect across all services. After the change has taken effect, the person will have to sign in to Outlook, Skype for Business and SharePoint with their updated username, so be sure to tell them about this change.
+이 변경 내용이 서비스 전체에 적용되기까지 최대 24시간이 걸릴 수 있습니다. 변경 내용이 적용된 후 사용자는 Outlook, 비즈니스용 Skype 및 SharePoint에 업데이트된 사용자 이름으로 로그인해야 하므로 이 변경 내용에 대해 사용자에게 알려야 합니다.
 
 ::: moniker-end
 
@@ -209,7 +209,7 @@ It might take up to 24 hours for this change to take effect across all services.
 
     “**사용자를 편집할 수 없습니다. 사용자 정보를 검토하고 다시 시도하세요.** 가 표시되는 경우 [오류 메시지 해결](#resolve-error-messages)을 참조하세요.
 
-It might take up to 24 hours for this change to take effect across all services. After the change has taken effect, the person will have to sign in to Outlook, Skype for Business and SharePoint with their updated username, so be sure to tell them about this change.
+이 변경 내용이 서비스 전체에 적용되기까지 최대 24시간이 걸릴 수 있습니다. 변경 내용이 적용된 후 사용자는 Outlook, 비즈니스용 Skype 및 SharePoint에 업데이트된 사용자 이름으로 로그인해야 하므로 이 변경 내용에 대해 사용자에게 알려야 합니다.
 
 ::: moniker-end
 
@@ -217,7 +217,7 @@ It might take up to 24 hours for this change to take effect across all services.
 
 ### <a name="a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>"매개 변수 이름 'EmailAddresses와 일치하는 매개 변수를 찾을 수 없습니다.”
 
-If you get the error message " **A parameter cannot be found that matches parameter name 'EmailAddresses**" it means that it's taking a bit longer to finish setting up your tenant, or your custom domain if you recently added one. The setup process can take up to 4 hours to complete. Wait a while so the set up process has time to finish, and then try again. If the problem persists, call [support](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products) and ask them to do a full sync for you.
+"**A parameter cannot be found that matches parameter name 'EmailAddresses**"(매개 변수 이름 'EmailAddresses와 일치하는 매개 변수를 찾을 수 없습니다.) 오류 메시지가 표시되는 경우 테넌트 또는 최근에 추가한 사용자 지정 도메인 설정을 완료하는 데 시간이 더 소요됨을 의미합니다. 설정 프로세스를 완료하는 데 최대 4시간이 걸릴 수 있습니다. 설정 프로세스가 완료될 때까지 기다린 후 다시 시도하세요. 문제가 계속되는 경우 [고객 지원](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)에 연락하여 사용자를 대신해 전체 동기화를 수행하도록 요청하세요.
   
 ### <a name="were-sorry-the-user-couldnt-be-edited-review-the-user-information-and-try-again"></a>“죄송합니다. 사용자를 편집할 수 없습니다. 사용자 정보를 검토하고 다시 시도하세요."
 
@@ -226,15 +226,15 @@ If you get the error message " **A parameter cannot be found that matches parame
 
 ## <a name="what-to-do-with-old-email-addresses"></a>기존 전자 메일 주소로 수행할 작업
 
-A person's previous primary email address is retained as an additional email address. **We strongly recommend that you don't remove the old email address.**
+사용자의 이전 기본 전자 메일 주소는 추가 전자 메일로 보존됩니다. **이전 전자 메일 주소를 제거하지 않는 것이 좋습니다.**
   
-Some people might continue to send email to the person's old email address and deleting it may result in NDR failures. Microsoft automatically routes it to the new one. Also, do not reuse old SMTP email addresses and apply them to new accounts. This can also cause NDR failures or delivery to an unintended mailbox.
+일부 사람들은 계속 사용자의 이전 전자 메일 주소로 전자 메일을 보낼 수도 있어 이전 전자 메일 주소를 삭제하면 NDR 오류가 발생할 수 있습니다. Microsoft에서는 자동으로 전자 메일을 새 전자 메일 주소로 라우팅합니다. 또한 이전 SMTP 전자 메일 주소를 다시 사용하지 말고 해당 주소를 새 계정에 적용하지 마세요. 이렇게 할 경우에도 NDR 오류가 발생하거나 의도하지 않은 사서함으로 전송될 수 있습니다.
    
 ## <a name="what-if-the-persons-offline-address-book-wont-sync-with-the-global-address-list"></a>사용자의 오프라인 주소록이 전체 주소 목록과 동기화되지 않으면 어떻게 되나요?
 
-If they are using Exchange Online or if their account is linked with your organization's on-premises Exchange environment, you might see this error when you try to change a username and email address: "This user is synchronized with your local Active Directory. Some details can be edited only through your local Active Directory."
+사용자가 Exchange Online을 사용 중이거나 해당 계정이 조직의 온-프레미스 Exchange 환경과 연결된 경우 사용자 이름 및 전자 메일 주소를 변경하려고 하면 다음의 오류가 표시될 수 있습니다. "이 사용자가 로컬 Active Directory와 동기화되었습니다. 일부 세부 정보는 로컬 Active Directory를 통해서만 편집할 수 있습니다."
   
-This is due to the Microsoft Online Email Routing Address (MOERA). The MOERA is constructed from the person's  _userPrincipalName_ attribute in Active Directory and is automatically assigned to the cloud account during the initial sync and once created, it cannot be modified or removed in Microsoft 365. You can subsequently change the username in the Active Directory, but it doesn't change the MOERA and you may run into issues displaying the newly changed name in the Global Address List. 
+이 오류는 MOERA(Microsoft Online Email Routing Address) 때문에 발생합니다. MOERA는 Active Directory에서 사용자의  _userPrincipalName_ 특성에서 생성되고 초기 동기화 중에 클라우드 계정에 자동으로 할당되며 만들어진 후에는 Microsoft 365에서 수정하거나 제거할 수 없습니다. 나중에 Active Directory에서 사용자 이름을 변경할 수 있지만, MOERA는 변경되지 않고 전체 주소 목록에 새로 변경된 이름을 표시하는 데 문제가 발생할 수 있습니다. 
   
 이 문제를 해결하려면 Microsoft 365 관리자 자격 증명으로 [PowerShell용 Azure Active Directory 모듈]( https://go.microsoft.com/fwlink/?LinkId=823193)에 로그인합니다. 그리고 다음 구문을 사용합니다. 
   

@@ -55,7 +55,7 @@ DLP에는 다양 한 로캘에 대 한 다양 한 사용 가능 정책 템플릿
     
 4. **소송** 보존 대화 상자의 소송 보존 **기간** 필드에 소송 보존 기간을 지정할 수 있습니다. 무기한 유지 하려면 필드를 비워 둡니다. 메모를 추가 하 고 사서함 소유자에 게 소송 보존에 대 한 자세한 내용을 설명 해야 할 수 있는 웹 사이트로 지시할 수도 있습니다. \>**저장**을 합니다.
     
-**Retention:** You can enable customized retention policies, for example, to preserve for a specific amount of time or delete content permanently at the end of the retention period. To learn more, see [Overview of retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies).
+**보존:** 특정 기간 동안 보존하거나 보존 기간이 끝나면 영구적으로 콘텐츠를 삭제하는 것과 같은 사용자 지정된 보존 정책을 사용하도록 설정할 수 있습니다. 자세한 내용은 [보존 정책 개요](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)를 참조하세요.
 
 ## <a name="set-up-sensitivity-labels"></a>민감도 레이블 설정
 

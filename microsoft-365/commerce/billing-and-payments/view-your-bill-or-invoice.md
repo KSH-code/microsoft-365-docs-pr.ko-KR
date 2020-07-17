@@ -37,7 +37,7 @@ ms.locfileid: "44817000"
 ---
 # <a name="view-your-bill-or-invoice"></a>청구서 또는 송장 보기
 
-This article is for people who have a Microsoft 365 for business subscription. You must be a global admin or billing admin to do the steps described in this article.
+이 문서는 비즈니스용 Microsoft 365 구독을 사용하는 사용자용입니다. 이 문서에 설명된 단계를 수행하려면 전역 관리자 또는 대금 청구 관리자여야 합니다.
   
 청구서에 표시된 요금 내용을 해석하는 데 도움이 필요한 경우 [결제 내역 또는 청구서 이해](understand-your-invoice2.md)에서 자세한 지침을 참조하세요.
   

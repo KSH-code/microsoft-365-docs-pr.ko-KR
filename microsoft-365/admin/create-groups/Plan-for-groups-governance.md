@@ -152,7 +152,7 @@ Microsoft 365 그룹을 삭제 한 경우에는 기본적으로 30 일 동안 �
 |![이미지 desc](../../media/next_steps.png)|다음 단계|<ul><li>사용자에 게 예상 되는 동작을 알리기 위해 삭제 및 복원 정책 전달 및 게시 </li><li> 조직 요구 사항을 문서화 하 여 삭제 된 그룹을 모니터링 합니다.</li><li>그룹 구축의 일부로 이러한 요구 사항을 구현할 계획입니다.</li></ul>|
 
 > [!Important]
->During the "soft-delete" period if a user tries to access the site they will get a 403 forbidden message. After this period if the user tries to access the site they will get a 404 not found message.
+>"소프트 삭제" 기간 동안 사용자가 사이트에 액세스를 시도하는 경우 403 금지 메시지가 표시됩니다. 이 기간 이후에 사용자가 사이트에 액세스하려고 하면 404 찾을 수 없음 메시지가 표시됩니다.
 
 #### <a name="resources"></a>*리소스*
 - [삭제 된 Microsoft 365 그룹 복원](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group?ui=en-US&rs=en-001&ad=US)

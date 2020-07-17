@@ -220,47 +220,47 @@ ms.locfileid: "44819268"
 |사우디아라비아 PII: 외부 공유 콘텐츠 검색 - 낮은 수  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  사우디 아라비아 국가 코드 — 최소 개수 1, 최대 개수 9  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> |알림 보내기  <br/> |
 |사우디아라비아 PII: 외부 공유 콘텐츠 검색 - 높은 수  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  사우디 아라비아 국가 코드 — 최소 개수 10, 최대 개수 모두  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> | 콘텐츠에 대한 액세스 차단  <br/>  알림 보내기  <br/>  재정의 허용  <br/>  업무 정당성 필요  <br/>  사고 보고서 보내기  <br/> |
    
-## <a name="uk-access-to-medical-reports-act"></a>U.K. Access to Medical Reports Act
+## <a name="uk-access-to-medical-reports-act"></a>영국 의료 보고 접근 규제법
 
 |**규칙 이름**|**조건 <br/> (중요 한 정보 유형 포함)**|**작업**|
 |:-----|:-----|:-----|
-|U.K. AMRA: Scan content shared outside - low count  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  영국 국가 의료 서비스 번호-최소 개수 1, 최대 개수 9  <br/>  영국 국가 보험 번호 (NINO)-최소 개수 1, 최대 개수 9  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> |알림 보내기  <br/> |
-|U.K. AMRA: Scan content shared outside - high count  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  영국 국가 의료 서비스 번호-최소 개수 10, 최대 개수 모두  <br/>  영국 국가 보험 번호 (NINO)-최소 개수 10, 최대 개수 모두  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> | 콘텐츠에 대한 액세스 차단  <br/>  알림 보내기  <br/>  재정의 허용  <br/>  업무 정당성 필요  <br/>  사고 보고서 보내기  <br/> |
+|영국 AMRA: 외부 공유 콘텐츠 검색 - 낮은 수  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  영국 국가 의료 서비스 번호-최소 개수 1, 최대 개수 9  <br/>  영국 국가 보험 번호 (NINO)-최소 개수 1, 최대 개수 9  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> |알림 보내기  <br/> |
+|영국 AMRA: 외부 공유 콘텐츠 검색 - 높은 수  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  영국 국가 의료 서비스 번호-최소 개수 10, 최대 개수 모두  <br/>  영국 국가 보험 번호 (NINO)-최소 개수 10, 최대 개수 모두  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> | 콘텐츠에 대한 액세스 차단  <br/>  알림 보내기  <br/>  재정의 허용  <br/>  업무 정당성 필요  <br/>  사고 보고서 보내기  <br/> |
    
-## <a name="uk-data-protection-act"></a>U.K. Data Protection Act
+## <a name="uk-data-protection-act"></a>영국 데이터 보호법
 
 |**규칙 이름**|**조건 <br/> (중요 한 정보 유형 포함)**|**작업**|
 |:-----|:-----|:-----|
-|U.K. DPA: Scan content shared outside - low count  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  U.K. National Insurance Number (NINO) — Min count 1, Max count 9  <br/>  미국/영국 여권 번호-최소 개수 1, 최대 개수 9  <br/>  SWIFT 코드 — 최소 개수 1, 최대 개수 9  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> |알림 보내기  <br/> |
-|U.K. DPA: Scan content shared outside - high count  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  U.K. National Insurance Number (NINO) — Min count 10, Max count any  <br/>  미국/영국 여권 번호-최소 개수 10, 최대 개수 모두  <br/>  SWIFT 코드 — 최소 개수 10, 최대 개수 모두  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> | 콘텐츠에 대한 액세스 차단  <br/>  알림 보내기  <br/>  재정의 허용  <br/>  업무 정당성 필요  <br/>  사고 보고서 보내기  <br/> |
+|영국 DPA: 외부 공유 콘텐츠 검색 - 낮은 수  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  영국 NINO(국민 보험 번호) - 최소 개수 1, 최대 개수 9  <br/>  미국/영국 여권 번호-최소 개수 1, 최대 개수 9  <br/>  SWIFT 코드 — 최소 개수 1, 최대 개수 9  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> |알림 보내기  <br/> |
+|영국 DPA: 외부 공유 콘텐츠 검색 - 높은 수  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  영국 NINO(국민 보험 번호) - 최소 개수 10, 최대 개수 모두  <br/>  미국/영국 여권 번호-최소 개수 10, 최대 개수 모두  <br/>  SWIFT 코드 — 최소 개수 10, 최대 개수 모두  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> | 콘텐츠에 대한 액세스 차단  <br/>  알림 보내기  <br/>  재정의 허용  <br/>  업무 정당성 필요  <br/>  사고 보고서 보내기  <br/> |
    
-## <a name="uk-financial-data"></a>U.K. Financial Data
+## <a name="uk-financial-data"></a>영국 재무 데이터
 
 |**규칙 이름**|**조건 <br/> (중요 한 정보 유형 포함)**|**작업**|
 |:-----|:-----|:-----|
-|U.K. Financial: Scan content shared outside - low count  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  신용 카드 번호 - 최소 개수 1, 최대 개수 9  <br/>  유럽 직불 카드 번호 - 최소 개수 1, 최대 개수 9  <br/>  SWIFT 코드 — 최소 개수 1, 최대 개수 9  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> |알림 보내기  <br/> |
-|U.K. Financial: Scan content shared outside - high count  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  신용 카드 번호 - 최소 개수 10, 최대 개수 모두  <br/>  유럽 직불 카드 번호 - 최소 개수 10, 최대 개수 모두  <br/>  SWIFT 코드 — 최소 개수 10, 최대 개수 모두  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> | 콘텐츠에 대한 액세스 차단  <br/>  알림 보내기  <br/>  재정의 허용  <br/>  업무 정당성 필요  <br/>  사고 보고서 보내기  <br/> |
+|영국 재무: 외부 공유 콘텐츠 검색 - 낮은 수  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  신용 카드 번호 - 최소 개수 1, 최대 개수 9  <br/>  유럽 직불 카드 번호 - 최소 개수 1, 최대 개수 9  <br/>  SWIFT 코드 — 최소 개수 1, 최대 개수 9  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> |알림 보내기  <br/> |
+|영국 재무: 외부 공유 콘텐츠 검색 - 높은 수  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  신용 카드 번호 - 최소 개수 10, 최대 개수 모두  <br/>  유럽 직불 카드 번호 - 최소 개수 10, 최대 개수 모두  <br/>  SWIFT 코드 — 최소 개수 10, 최대 개수 모두  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> | 콘텐츠에 대한 액세스 차단  <br/>  알림 보내기  <br/>  재정의 허용  <br/>  업무 정당성 필요  <br/>  사고 보고서 보내기  <br/> |
    
-## <a name="uk-personal-information-online-code-of-practice-piocp"></a>U.K. Personal Information Online Code of Practice (PIOCP)
+## <a name="uk-personal-information-online-code-of-practice-piocp"></a>영국 PIOCP(Personal Information Online Code of Practice)
 
 |**규칙 이름**|**조건 <br/> (중요 한 정보 유형 포함)**|**작업**|
 |:-----|:-----|:-----|
-|U.K. PIOCP: Scan content shared outside - low count  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  U.K. National Insurance Number (NINO) — Min count 1, Max count 9  <br/>  U.K. National Health Service Number — Min count 1, Max count 9  <br/>  SWIFT 코드 — 최소 개수 1, 최대 개수 9  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> |알림 보내기  <br/> |
-|U.K. PIOCP: Scan content shared outside - high count  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  U.K. National Insurance Number (NINO) — Min count 10, Max count any  <br/>  U.K. National Health Service Number — Min count 10, Max count any  <br/>  SWIFT 코드 — 최소 개수 10, 최대 개수 모두  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> | 콘텐츠에 대한 액세스 차단  <br/>  알림 보내기  <br/>  재정의 허용  <br/>  업무 정당성 필요  <br/>  사고 보고서 보내기  <br/> |
+|영국 PIOCP: 외부 공유 콘텐츠 검색 - 낮은 수  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  영국 NINO(국민 보험 번호) - 최소 개수 1, 최대 개수 9  <br/>  영국 국립 보건 서비스 번호 - 최소 개수 1, 최대 개수 9  <br/>  SWIFT 코드 — 최소 개수 1, 최대 개수 9  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> |알림 보내기  <br/> |
+|영국 PIOCP: 외부 공유 콘텐츠 검색 - 높은 수  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  영국 NINO(국민 보험 번호) - 최소 개수 10, 최대 개수 모두  <br/>  영국 국립 보건 서비스 번호 - 최소 개수 10, 최대 개수 모두  <br/>  SWIFT 코드 — 최소 개수 10, 최대 개수 모두  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> | 콘텐츠에 대한 액세스 차단  <br/>  알림 보내기  <br/>  재정의 허용  <br/>  업무 정당성 필요  <br/>  사고 보고서 보내기  <br/> |
    
-## <a name="uk-personally-identifiable-information-pii-data"></a>U.K. Personally Identifiable Information (PII) Data
+## <a name="uk-personally-identifiable-information-pii-data"></a>영국 PII(개인 식별 정보) 데이터
 
 |**규칙 이름**|**조건 <br/> (중요 한 정보 유형 포함)**|**작업**|
 |:-----|:-----|:-----|
-|U.K. PII: Scan content shared outside - low count  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  U.K. National Insurance Number (NINO) — Min count 1, Max count 9  <br/>  U.S. / U.K. Passport Number — Min count 1, Max count 9  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> |알림 보내기  <br/> |
-|U.K. PII: Scan content shared outside - high count  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  U.K. National Insurance Number (NINO) — Min count 10, Max count any  <br/>  U.S. / U.K. Passport Number — Min count 10, Max count any  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> | 콘텐츠에 대한 액세스 차단  <br/>  알림 보내기  <br/>  재정의 허용  <br/>  업무 정당성 필요  <br/>  사고 보고서 보내기  <br/> |
+|영국 PII: 외부 공유 콘텐츠 검색 - 낮은 수  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  영국 NINO(국민 보험 번호) - 최소 개수 1, 최대 개수 9  <br/>  미국/영국 여권 번호 - 최소 개수 1, 최대 개수 9  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> |알림 보내기  <br/> |
+|영국 PII: 외부 공유 콘텐츠 검색 - 높은 수  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  영국 NINO(국민 보험 번호) - 최소 개수 10, 최대 개수 모두  <br/>  미국/영국 여권 번호 - 최소 개수 10, 최대 개수 모두  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> | 콘텐츠에 대한 액세스 차단  <br/>  알림 보내기  <br/>  재정의 허용  <br/>  업무 정당성 필요  <br/>  사고 보고서 보내기  <br/> |
    
-## <a name="uk-privacy-and-electronic-communications-regulations"></a>U.K. Privacy and Electronic Communications Regulations
+## <a name="uk-privacy-and-electronic-communications-regulations"></a>영국 개인 정보 보호 및 전자 통신 규정
 
 |**규칙 이름**|**조건 <br/> (중요 한 정보 유형 포함)**|**작업**|
 |:-----|:-----|:-----|
-|U.K. PECR: Scan content shared outside - low count  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  SWIFT 코드 — 최소 개수 1, 최대 개수 9  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> |알림 보내기  <br/> |
-|U.K. PECR: Scan content shared outside - high count  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  SWIFT 코드 — 최소 개수 10, 최대 개수 모두  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> | 콘텐츠에 대한 액세스 차단  <br/>  알림 보내기  <br/>  재정의 허용  <br/>  업무 정당성 필요  <br/>  사고 보고서 보내기  <br/> |
+|영국 PECR: 외부 공유 콘텐츠 검색 - 낮은 수  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  SWIFT 코드 — 최소 개수 1, 최대 개수 9  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> |알림 보내기  <br/> |
+|영국 PECR: 외부 공유 콘텐츠 검색 - 높은 수  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  SWIFT 코드 — 최소 개수 10, 최대 개수 모두  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> | 콘텐츠에 대한 액세스 차단  <br/>  알림 보내기  <br/>  재정의 허용  <br/>  업무 정당성 필요  <br/>  사고 보고서 보내기  <br/> |
    
 ## <a name="us-federal-trade-commission-ftc-consumer-rules"></a>미국 FTC(Federal Trade Commission) 소비자 규약
 
@@ -300,8 +300,8 @@ ms.locfileid: "44819268"
 
 |**규칙 이름**|**조건 <br/> (중요 한 정보 유형 포함)**|**작업**|
 |:-----|:-----|:-----|
-|미국 PII: 외부 공유 콘텐츠 검색 - 낮은 수  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  미국 ITIN(개인 납세자 번호) - 최소 개수 1, 최대 개수 9  <br/>  미국 SSN(사회 보험 번호) - 최소 개수 1, 최대 개수 9  <br/>  U.S. / U.K. Passport Number — Min count 1, Max count 9  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> |알림 보내기  <br/> |
-|미국 PII: 외부 공유 콘텐츠 검색 - 높은 수  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  미국 ITIN(개인 납세자 번호) - 최소 개수 10, 최대 개수 모두  <br/>  미국 SSN(사회 보험 번호) - 최소 개수 10, 최대 개수 모두  <br/>  U.S. / U.K. Passport Number — Min count 10, Max count any  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> | 콘텐츠에 대한 액세스 차단  <br/>  알림 보내기  <br/>  재정의 허용  <br/>  업무 정당성 필요  <br/>  사고 보고서 보내기  <br/> |
+|미국 PII: 외부 공유 콘텐츠 검색 - 낮은 수  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  미국 ITIN(개인 납세자 번호) - 최소 개수 1, 최대 개수 9  <br/>  미국 SSN(사회 보험 번호) - 최소 개수 1, 최대 개수 9  <br/>  미국/영국 여권 번호 - 최소 개수 1, 최대 개수 9  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> |알림 보내기  <br/> |
+|미국 PII: 외부 공유 콘텐츠 검색 - 높은 수  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  미국 ITIN(개인 납세자 번호) - 최소 개수 10, 최대 개수 모두  <br/>  미국 SSN(사회 보험 번호) - 최소 개수 10, 최대 개수 모두  <br/>  미국/영국 여권 번호 - 최소 개수 10, 최대 개수 모두  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> | 콘텐츠에 대한 액세스 차단  <br/>  알림 보내기  <br/>  재정의 허용  <br/>  업무 정당성 필요  <br/>  사고 보고서 보내기  <br/> |
    
 ## <a name="us-state-breach-notification-laws"></a>미국 개인 정보 침해 고지법
 

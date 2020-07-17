@@ -26,11 +26,11 @@ ms.locfileid: "44819288"
 ---
 # <a name="use-your-free-azure-active-directory-subscription"></a>무료 Azure Active Directory 구독 사용하기
 
-If your organization has a paid subscription to Microsoft 365, Microsoft Dynamics CRM Online, Enterprise Mobility Suite, or other Microsoft services, you have a free subscription to Microsoft Azure Active Directory. You and other admins can use Azure AD to create and manage user and group accounts. To use Azure AD, just go to the Azure portal and sign in to your account.
+조직에 Microsoft 365, Microsoft Dynamics CRM Online, Enterprise Mobility Suite 또는 기타 Microsoft 서비스에 대한 유료 구독이 있는 경우 Microsoft Azure Active Directory 무료 구독이 제공됩니다. 사용자와 다른 관리자는 Azure AD를 사용하여 사용자 및 그룹 계정을 만들고 관리할 수 있습니다. Azure AD를 사용하려면 Azure Portal로 이동하여 계정에 로그인하기만 하면 됩니다.
 
 ## <a name="open-a-private-browsing-session"></a>비공개 검색 세션 열기
 
-Use a private browsing session (not a regular session) to access the Azure portal (in step 1 below) because this prevents the credentials that you're currently logged on with from being passed to Azure. To open an private browsing session:
+비공개 브라우징 세션(일반 세션이 아님)을 사용하여 (아래의 1단계에서) Azure 포털에 액세스하면 현재 로그온한 자격 증명이 Azure에 전달되지 않으므로 비공개 브라우징 세션을 사용하세요.
 
 - Microsoft Edge(레거시 버전), Internet Explorer 또는 Mozilla FireFox에서 `CTRL+SHIFT+P`을(를) 누릅니다.
 

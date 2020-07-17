@@ -19,6 +19,7 @@ search.appverid:
 description: SharePoint 및 OneDrive에 적용되는 보존 정책에 대한 자세한 정보
 ms.openlocfilehash: db0dfdbddc620bfc7449397bad02463b02c270bd
 ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/07/2020
 ms.locfileid: "45049886"
@@ -74,9 +75,9 @@ ms.locfileid: "45049886"
   
 보존 전용 정책은 SharePoint 사이트 모음 또는 OneDrive 계정에 있는 문서의 모든 버전을 보존합니다. 보류 또는 보존 전용 정책이 적용되는 문서를 처음 편집하면 원본 문서의 버전이 자료 보존 라이브러리에 복사됩니다. 버전 관리가 설정된 경우, 보류 또는 보존 정책이 적용되는 문서가 삭제될 때 버전 관리 기능을 사용하도록 설정한 경우, 모든 버전이 자료 보존 라이브러리에 복사됩니다. 보존 보류 라이브러리의 각 문서 버전은 자체 보존 기간이 있는 별도의 항목으로 존재합니다.
   
-- If the retention policy is based on when the content was created, each version has the same expiration date as the original document. The original document and its versions all expire at the same time.
+- 보존 정책이 콘텐츠가 만들어진 시점을 기준으로 하는 경우 각 버전은 원본 문서와 동일한 만료 날짜를 갖습니다. 따라서 원본 문서 및 해당 버전은 동시에 만료됩니다.
 
-- If the retention policy is based on when the content was last modified, each version has its own expiration date based on when the original document was modified to create that version. The original documents and its versions expire independently of each other.
+- 보존 정책이 콘텐츠가 마지막으로 수정된 시점을 기준으로 하는 경우 각 버전은 원본 문서가 해당 버전을 만들기 위해 수정된 시점을 기준으로 하는 자체 만료 날짜를 가집니다. 따라서 원본 문서와 해당 버전는 별도로 만료됩니다.
 
 > [!NOTE]
 > 보존된 버전의 SharePoint 및 OneDrive 문서는 eDiscovery 도구로 검색할 수 없습니다.

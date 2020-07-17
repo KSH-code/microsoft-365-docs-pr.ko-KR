@@ -66,7 +66,7 @@ ms.locfileid: "44778892"
 
 ## <a name="install-office"></a>Office 설치
 
-Once you've created accounts for other people in your business, you and your team members will be able to install the full desktop version of Office (Word, Excel, Outlook, etc.). Each person can install Office on up to 5 PCs or Macs.
+회사의 다른 사용자를 위해 계정을 만들었으면 사용자와 팀 구성원이 정식 데스크톱 버전의 Office(Word, Excel, Outlook 등)를 설치할 수 있습니다. 각 사용자는 최대 5대의 PC 또는 Mac에 Office를 설치할 수 있습니다.
   
 ::: moniker range="o365-worldwide"
 
@@ -100,9 +100,9 @@ Office 365 Germany를 사용하는 경우 [https://portal.office.de/OLS/MySoftwa
   
 ## <a name="store-files-online"></a>온라인에 파일 저장
 
-Microsoft makes online file storage easy. To learn which storage locations are best for your business, see [Where you can store files in Office 365](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790).
+Microsoft를 사용하면 간편하게 온라인에 파일을 저장할 수 있습니다. 내 비즈니스에 꼭 맞는 저장소 위치를 확인하려면 [Office 365에서 문서를 저장할 수 있는 위치](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790)를 참조하세요.
   
-Everyone gets a **OneDrive** cloud storage location automatically when you create Microsoft accounts for them. With OneDrive, you can access files across your computers, phones, and tablets.
+관리자가 사용자의 Microsoft 계정을 만들면 해당 사용자에게 자동으로 **OneDrive** 클라우드 저장소 위치가 제공됩니다. OneDrive를 사용하면 컴퓨터, 휴대폰 및 태블릿에서 파일에 액세스할 수 있습니다.  
   
 1. 컴퓨터에서 파일 탐색기를 사용하여 OneDrive를 엽니다. 또는 [Office 365](https://www.office.com)를 통해 앱 시작 관리자에서 **OneDrive**를 엽니다.
 

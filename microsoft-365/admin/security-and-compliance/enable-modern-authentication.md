@@ -36,7 +36,7 @@ Office 2013이 설치되어 있는 Windows 장치에 대해 최신 인증을 사
 > [!NOTE]
 > Office 2016 클라이언트에 대해 이미 최신 인증이 사용되고 있는 경우 Office 2016에 대해 레지스트리 키를 설정할 필요가 없습니다. 
   
-To enable modern authentication for any devices running Windows (for example on laptops and tablets), that have Microsoft Office 2013 installed, you need to set the following registry keys. The keys have to be set on each device that you want to enable for modern authentication:
+Microsoft Office 2013이 설치되었고 Windows를 실행 중인 장치(예: 노트북 및 태블릿)에 대해 최신 인증을 사용하려면 다음 레지스트리 키를 설정해야 합니다. 최신 인증을 사용할 각 장치에서 키를 설정해야 합니다.
   
 |**레지스트리 키**|**유형**|**값** |
 |:-------|:------:|--------:|
@@ -45,7 +45,7 @@ To enable modern authentication for any devices running Windows (for example on 
    
 레지스트리 키를 설정한 후에는 Microsoft 365와 함께 [MFA (다단계 인증)](set-up-multi-factor-authentication.md) 를 사용 하도록 Office 2013 장치 앱을 설정할 수 있습니다. 
   
-If you're currently signed-in with any of the client apps, you need to sign out and sign back in for the change to take effect. Otherwise, the MRU and roaming settings will be unavailable until the ADAL identity is established.
+현재 클라이언트 앱에 로그인한 경우 변경 내용을 적용하려면 로그아웃 후 다시 로그인해야 합니다. 그러지 않으면 ADAL ID가 설정될 때까지 MRU 및 로밍 설정을 사용할 수 없습니다.
   
 ## <a name="disable-modern-authentication-on-devices"></a>장치에서 최신 인증을 사용하지 않음
 

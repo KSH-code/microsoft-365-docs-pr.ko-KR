@@ -40,7 +40,7 @@ Exchange Online 관리자로 서 조직의 사서함에 대해 S/MIME 기반 보
 
 이러한 각 끝점에 대해 S/MIME을 설정 하기 위해 수행 하는 단계는 약간 다릅니다. 일반적으로는 다음 단계를 수행 해야 합니다.
 
-1. Install a Windows-based Certification Authority and set up a public key infrastructure to issue S/MIME certificates. Certificates issued by third-party certificate providers are also supported. For details, see [Active Directory Certificate Services Overview](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831740(v=ws.11)).
+1. S/MIME 인증서를 발급하도록 Windows 기반 인증 기관을 설치하고 공개 키 인프라를 설정합니다. 타사 인증서 공급자가 발급한 인증서도 지원됩니다. 자세한 내용은 [Active Directory 인증서 서비스 개요](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831740(v=ws.11))를 참조하세요.
 
 2. **UserSMIMECertificate** 및/또는 **UserCertificate** 특성의 온-프레미스 AD DS 계정에 사용자 인증서를 게시 합니다.
 

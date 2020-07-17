@@ -115,9 +115,9 @@ Microsoft 365 for business 요금제를 선택 하는 방법에 대 한 간단�
 
 - **구독을 위한 주소 및 연락처 정보:**
 
-  - **Country** where the services will be used. You **won't** be able to change this later, even during the sign up process; you'll have to re-start the sign up wizard.
+  - 서비스를 사용하는 **국가**. 이 항목은 등록 프로세스 중이라도 나중에 변경하는 것이 **불가능** 하므로 등록 마법사를 다시 시작해야 합니다.
 
-  - **Email** and **phone number** so we can contact you if needed about your subscription. For example, if you forget your password, we would use this information to send you a temporary one. We also send your billing information to the email address you specify.
+  - 필요한 경우 구독에 대해 연락받을 수 있는 **전자 메일** 및 **전화 번호**. 예를 들어 암호를 잊어버린 경우 Microsoft는 이 정보를 사용하여 임시 암호를 보내 드립니다. 또한 지정한 전자 메일 주소로 청구 정보도 보내 드립니다.
 
     > [!NOTE]
     > 여기에 입력 하는 전자 메일 주소는 Microsoft 365 전자 메일 주소 (아래의 로그인 이름)와 다릅니다. 이 주소로 청구 정보도 전송되므로, 비즈니스 전자 메일을 받기에 적합한 주소를 사용하는 것이 좋습니다.

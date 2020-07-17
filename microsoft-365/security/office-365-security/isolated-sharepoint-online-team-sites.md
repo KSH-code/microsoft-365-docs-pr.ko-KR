@@ -29,9 +29,9 @@ ms.locfileid: "44819536"
 
  **요약:** 격리된 SharePoint Online 팀 사이트의 용도에 대해 알아봅니다.
   
-SharePoint Online team sites are an easy way to quickly create a space for collaboration of notes, documents, articles, a calendar, and other resources in Microsoft Office 365. SharePoint Online team sites are based on a Microsoft 365 group and have a simplified administration model to allow open collaboration with a private set of group members or the entire organization. A default SharePoint Online team site allows members of the Microsoft 365 group to invite other users and control permissions settings.
+SharePoint Online 팀 사이트는 Microsoft Office 365에서 노트, 문서, 기사, 일정 및 기타 리소스의 공동 작업 공간을 신속하게 만들 수 있는 편리한 방법입니다. SharePoint Online 팀 사이트는 Microsoft 365 그룹을 기준으로 하며, 그룹 구성원의 개인 집합이나 전체 조직과 오픈해서 공동 작업할 수 있도록 하는 간편한 관리 모델을 제공합니다. 기본 SharePoint Online 팀 사이트는 Office 365 그룹 구성원이 다른 사용자를 초대하고 사용 권한 설정을 제어할 수 있도록 합니다.
   
-However, in some cases, you want to create a SharePoint Online team site for collaboration where the permissions of that site are more tightly controlled through group membership and SharePoint Online permission levels, which are only managed by SharePoint administrators. We call this an isolated site, which is isolated to the set of users that are either collaborating, viewing its contents, or administering the site. You might need an isolated site for the following:
+그러나 경우에 따라 하려는 그룹 멤버 자격 및 SharePoint에 의해만 관리 되는 사용 권한 수준, SharePoint Online을 통해 해당 사이트의 사용 권한을 제어 더욱 긴밀 하 게 됩니다 공동 작업에 대 한 SharePoint Online 팀 사이트 만들기 관리자가 있습니다. 오늘은이 있는 격리 된 사이트를 사용자는 사이트나 공동 작업, 해당 내용 보기 사이트 관리 하는 집합에 격리 됩니다. 다음에 대해 격리된 사이트가 필요할 수 있습니다.
   
 - 조직 내의 비밀 프로젝트
     
@@ -47,9 +47,9 @@ However, in some cases, you want to create a SharePoint Online team site for col
     
 - 사이트의 구성원은 팀 사이트에 다른 구성원을 초대할 수 없습니다.
     
-- Users who are not members of the isolated site cannot request access to the site. They will receive an access denied web page when they attempt to access any URL associated with the site.
+- 격리된 사이트의 구성원이 아닌 사용자는 사이트에 대한 액세스를 요청할 수 없습니다. 해당 사이트와 연결된 모든 URL에 액세스하려고 하면 액세스 거부됨 웹 페이지가 수신됩니다.
     
-The tradeoff of requiring centralized access control and custom permissions by SharePoint Online administrators is that the site remains isolated over time. For example, current members cannot, either intentionally or accidentally, invite or configure custom permissions for other users within the Microsoft 365 subscription who should not be members of the site.
+SharePoint Online 관리자가 중앙 집중식 액세스 제어 및 사용자 지정 권한을 요구하면 시간이 지나면서 사이트가 격리되는 문제가 발생합니다. 예를 들어, 현재 구성원은 의도적으로나 실수로 사이트의 구성원이 아닌 Microsoft 365 구독 내의 다른 사용자를 초대하거나 해당 사용자에 대한 사용자 지정 권한을 구성할 수 없습니다.
   
 격리된 사이트를 다음과 같은 기타 기능과 함께 사용할 수 있습니다.
   

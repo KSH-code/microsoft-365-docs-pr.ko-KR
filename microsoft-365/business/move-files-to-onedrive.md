@@ -50,7 +50,7 @@ ms.locfileid: "44785915"
     
 3. 메뉴 모음에서 **업로드**![Upload](../media/d9b963b8-10af-42e2-953d-360301b83d3c.png)를 선택하고 저장하려는 파일을 찾습니다. 
     
-To transfer the user profile and important files, you can also use a third-party tool, such as ForensiT. You should upload the resulting files in OneDrive for Business also.
+사용자 프로필과 중요 파일을 전송하려면 ForensiT과 같은 타사 도구를 사용할 수도 있습니다. 결과 파일도 비즈니스용 OneDrive에서 업로드해야 합니다.
   
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>비즈니스를 위한 Microsoft 365 설정 및 사용에 대 한 자세한 내용은
 

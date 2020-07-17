@@ -97,7 +97,7 @@ ms.locfileid: "44817757"
 5. 세부 정보 창에서 **컴퓨터에 결과 내보내기** 아래의 **내보내기 시작**을 클릭합니다.
     
     > [!NOTE]
-    > If the results for a search are older than 7 days, you are prompted to update the search results. If this happens, cancel the export, click **Update search results** in the details pane for the selected search, and then start the export again after the results are updated. 
+    > 검색 결과 7 일 보다 오래 된 경우 검색 결과 업데이트 하 라는 메시지가 표시. 이런 경우 내보내기를 취소 클릭 합니다 **업데이트 검색 결과** 선택한 검색 한 다음 시작 결과 후 다시 내보내기에 대 한 세부 정보 창에서 업데이트 됩니다.  
   
 6. **검색 결과 내보내기** 페이지의 **출력 옵션**에서 다음 옵션 중 하나를 선택 합니다.
     

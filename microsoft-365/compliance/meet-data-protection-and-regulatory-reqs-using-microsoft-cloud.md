@@ -48,16 +48,16 @@ Microsoft [Service Trust Portal](https://docs.microsoft.com/microsoft-365/compli
 
     
 > [!IMPORTANT]
-> Compliance Manager is a dashboard that provides a summary of your data protection and compliance stature and recommendations to improve data protection and compliance. The Customer Actions provided in Compliance Manager are recommendations; it is up to each organization to evaluate the effectiveness of these recommendations in their respective regulatory environment prior to implementation. Recommendations found in Compliance Manager should not be interpreted as a guarantee of compliance.
+> 준수 관리자는 데이터 보호 및 규정 준수를 향상시키기 위해 데이터 보호 및 준수 수준과 권장 사항의 요약을 제공하는 대시보드입니다. 준수 관리자에 제공되는 고객 작업은 권장 사항입니다. 따라서 이러한 권장 사항을 구현하기 전에 해당 규제 환경에서 이러한 권장 사항의 결과를 미리 평가하는 것은 각 조직의 책임입니다. 준수 관리자에 제공된 권장 사항을 수행한다고 해서 규정 준수가 보장되는 것으로 해석하면 안 됩니다.
 
     
 ## <a name="what-is-compliance-manager"></a>준수 관리자란?
 
-Compliance Manager is a workflow-based risk assessment tool designed to help you manage regulatory compliance within the shared responsibility model of the cloud. Compliance Manager provides you with a dashboard view of standards and regulations and assessments that contain Microsoft's control implementation details and test results and customer control implementation guidance and tracking for your organization to enter. Compliance Manager provides certification assessment control definitions, guidance on implementation and testing of controls, risk-weighted scoring of controls, role-based access management, and an in-place control action assignment workflow to track control implementation, testing status and evidence management. Compliance Manager optimizes compliance workload by enabling customers to logically group assessments together and apply assessment control testing to identical or related controls, reducing the duplication of effort that might otherwise be required to satisfy identical control requirements across different certifications.
+준수 관리자는 클라우드 공유 책임 모델 내에서 규정 준수를 관리하는 데 도움이 되도록 디자인된 워크플로 기반 위험 평가 도구입니다. 준수 관리자는 조직의 Microsoft 컨트롤 구현 세부 정보 및 테스트 결과와 고객 컨트롤 구현 지침 및 추적을 포함하는 표준 및 규정과 평가의 대시보드 보기를 제공합니다. 준수 관리자는 컨트롤 구현, 테스트 상태 및 증가 관리를 추적하기 위한 인증 평가 제어 정의, 컨트롤 구현 및 테스트 지침, 위험별로 가중치를 부여한 컨트롤 점수, 역할 기반 액세스 평가, 전체 컨트롤 작업 할당 워크플로를 제공합니다. 준수 관리자는 고객이 그룹 평가를 논리적으로 그룹화하고 동일하거나 관련된 컨트롤에 평가 컨트롤 테스트를 적용하여 준수 워크로드를 최적화하므로, 다른 인증에 대해 동일한 컨트롤 요구를 충족할 필요가 없어집니다.
 
 ## <a name="assessments-in-compliance-manager"></a>준수 관리자의 평가
 
-The core component of Compliance Manager is called an *Assessment*. An Assessment is an assessment of a Microsoft service against a certification standard or data protection regulation (such as ISO 27001:2013, and the GDPR). Assessments help you to discern your organization's data protection and compliance posture against the selected industry standard for the selected Microsoft cloud service. Assessments are completed by the implementation of the controls that map to the certification standard being assessed. 
+준수 관리자의 핵심 구성 요소를 *평가*라고 합니다. 평가는 인증 표준 또는 데이터 보호 규정(예: ISO 27001:2013 및 GDPR)에 대한 Microsoft 서비스의 평가입니다. 평가는 선택한 Microsoft 클라우드 서비스에 대해 선택한 업계 표준으로 조직의 데이터 보호 및 준수 상태를 식별하는 데 도움이 됩니다. 평가는 평가 중인 인증 표준에 매핑되는 컨트롤의 구현으로 완료됩니다. 
   
 평가의 구조는 클라우드에서 보안 및 준수 위험을 평가하고 준수 표준, 데이터 보호 표준, 규정 또는 법률로 지정된 데이터 보호 수단을 구현하기 위해 Microsoft와 조직 간이 공유되는 책임을 기준으로 합니다.
   
@@ -65,13 +65,13 @@ The core component of Compliance Manager is called an *Assessment*. An Assessmen
   
 - **범위 내 서비스** - 각 평가는 범위 내 클라우드 서비스 섹션에 나열되는 특정 Microsoft 서비스 집합에 적용 됩니다. 
     
-- **Microsoft-Managed Controls** - For each cloud service, Microsoft implements and manages a set of  *controls*  as part of Microsoft's compliance with various standards and regulations. These controls are organized into  *control families*  that align with the structure from the corresponding certification or regulation that the Assessment is aligned to. For each Microsoft-managed control, Compliance Manager provides details about how Microsoft implemented the control, along with how and when that implementation was tested and validated by an independent third-party auditor. 
+- **Microsoft 관리 컨트롤** - 각 클라우드 서비스에 대해 Microsoft의 다양한 표준 및 규정 준수의 일부로 *컨트롤* 집합을 구현하고 관리합니다. 이러한 컨트롤은 평가의 기준이 되는 해당 인증 또는 규정의 구조를 기준으로 하는 *컨트롤 패밀리*로 구성됩니다. 각 Microsoft 관리 컨트롤에 대해, 준수 관리자는 Microsoft에서 컨트롤을 구현한 방식, 독립적인 제3자 감사자를 통해 구현이 테스트되고 유효성이 검사된 방법과 시기에 대한 세부 정보를 제공합니다. 
     
     Office 365 및 GDPR의 평가에 포함된 **보안** 컨트롤 패밀리의 3가지 Microsoft 관리 컨트롤 예제는 다음과 같습니다. 
 
     ![준수 관리자의 Microsoft 관리 컨트롤 세부 정보](../media/d1351212-1ebf-424e-91b8-930c2b2edef1.png)
   
-  a. Specifies the following information from the certification or regulation that maps to the Microsoft-managed control.
+  a. Microsoft에 관리 컨트롤에 매핑되는 인증 또는 규정에서 다음 정보를 지정합니다.
 
   - **컨트롤 ID** - 컨트롤이 매핑되는 인증 또는 규정의 섹션 또는 문서 번호입니다.
     
@@ -81,15 +81,15 @@ The core component of Compliance Manager is called an *Assessment*. An Assessmen
     
   - **설명** - 선택한 Microsoft 관리 컨트롤에 매핑되는 표준 또는 규정 텍스트입니다.
 
-  b. The Compliance Score for the control, which indicates the level of risk (due to non-compliance or control failure) associated with each Microsoft-managed control. See [Understanding the Compliance Score](#understanding-the-compliance-score) for more information. Note that Compliance Scores are rated from 1 to 10 and are color-coded. Yellow indicates low risk controls, orange indicates medium-risk controls, and red indicated high-risk controls. 
+  b. 각 Microsoft 관리 컨트롤에 연결된 위험 수준(비준수 또는 컨트롤 오류로 인한)을 나타내는 컨트롤의 준수 점수. 자세한 내용은 [준수 점수 이해](#understanding-the-compliance-score)를 참조하세요. 준수 점수는 1~10까지이며 색상으로 구분됩니다. 노란색은 낮은 위험 컨트롤을 나타내고, 주황색은 중간 위험 컨트롤을 나타내고, 빨간색은 높은 위험 컨트롤을 나타냅니다. 
     
-  c. Information about the implementation status of a control, the date the control was tested, who performed the test, and the test result.
+  c. 컨트롤의 구현 상태, 컨트롤이 테스트된 날짜, 테스트를 수행한 사람 및 테스트 결과에 대한 정보
     
-  d. For each control, you can click **More** to see additional information, including details about Microsoft's implementation of the control and details about how the control was tested and validated by an independent third-party auditor. 
+  d. 각 컨트롤에 대해 **자세히**를 클릭하여 Microsoft의 컨트롤 구현 및 컨트롤이 독립적인 제3자 감사자에 의해 테스트 및 유효성 검사된 방법에 대한 세부 정보를 포함하는 추가 정보를 확인할 수 있습니다. 
     
-- **Customer-Managed Controls** - This is the collection of controls that are managed by your organization. Your organization is responsible for implementing these controls as part of your compliance process for a given standard or regulation. Customer-managed controls are also organized into control families for the corresponding certification or regulation. Use the customer-managed controls to implement the recommended actions suggested by Microsoft as part of your compliance activities. Your organization can use the prescriptive guidance and recommended Customer Actions in each customer-managed control to manage the implementation and assessment process for that control.
+- **고객 관리 컨트롤** - 조직이 관리하는 컨트롤의 모음입니다. 조직은 지정된 표준 또는 규정에 대한 준수 프로세스의 일환으로 이러한 컨트롤을 구현해야 합니다. 고객 관리 컨트롤 또한 해당 인증 또는 규정에 대한 컨트롤 패밀리로 구성됩니다. 고객 관리 컨트롤을 사용하여 준수 활동의 일환으로 Microsoft가 제안한 권장 작업을 구현합니다. 조직은 각 고객 관리 컨트롤에서 규정 지침 및 권장 고객 작업을 사용하여 해당 컨트롤에 대한 구현 및 평가 프로세스를 관리합니다.
     
-    Customer-managed controls in Assessments also have built-in workflow management functionality that you can use to manage and track your organization's progress towards completing the Assessment. For example, a Compliance Officer in your organization can assign an Action Item to an IT admin who has the responsibility and necessary permissions to perform the actions that are recommended for the control. When that work is complete, the IT admin can upload evidence of their implementation tasks (for example, screenshots of configuration or policy settings) and then assign the Action Item back to the Compliance Officer to evaluate the collected evidence, test the implementation of the control, and record the implementation date and test results in Compliance Manager. For more information, see the [Managing the assessment process](#managing-the-assessment-process) section in the article. 
+    평가의 고객 관리 컨트롤에는 평가 완료에 대한 조직 진행 상황을 관리하고 추적하는 데 사용할 수 있는 기본 제공 워크플로 관리 기능도 있습니다. 예를 들어 조직의 준수 책임자는 해당 컨트롤에 대해 권장되는 작업을 수행하는 데 필요한 권한 및 책임이 있는 IT 관리자에게 작업 항목을 할당할 수 있습니다. 해당 작업이 완료되면 IT 관리자는 구현 태스크 증거를 업로드한 후(예를 들어 구성 또는 정책 설정의 스크린샷) 수집한 증거를 평가하고, 컨트롤 구현을 테스트하고, 구현 날짜 및 테스트 결과를 준수 관리자에서 기록할 수 있도록 작업 항목을 준수 책임자에게 다시 할당할 수 있습니다. 자세한 내용은 이 문서의 [평가 프로세스 관리](#managing-the-assessment-process) 섹션을 참조하세요. 
   
 ## <a name="permissions-and-role-based-access-control"></a>권한 및 역할 기반 액세스 제어
 
@@ -97,7 +97,7 @@ The core component of Compliance Manager is called an *Assessment*. An Assessmen
   
 더 이상 기본 **게스트 액세스** 역할이 없음을 참고하세요. 각 사용자에게는 준수 관리자로 액세스하고 작업을 하기 위해 역할이 할당되어야 합니다.
   
-The following table describes each Compliance Manager permission and what it allows the user do. The table also indicates the role that each permission is assigned to.
+다음 표에는 각 준수 관리자 사용 권한 및 허용되는 사용자 작업이 설명되어 있습니다. 또한 각 사용 권한이 할당된 역할도 제공됩니다.
   
 ||**준수 관리자 읽기 권한자**|**준수 관리자 참가자**|**준수 관리자 평가자**|**준수 관리자의 관리자**|**포털 관리자**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -105,7 +105,7 @@ The following table describes each Compliance Manager permission and what it all
 |**데이터 편집** - 사용자는 테스트 결과 및 테스트 날짜 필드를 제외한 모든 필드를 편집할 수 있습니다.  <br/> ||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
 |**테스트 결과 편집** - 사용자는 테스트 결과 및 테스트 날짜 필드를 편집할 수 있습니다.  <br/> ||<br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
 |**평가 관리** - 사용자는 평가를 만들고 보관하고 삭제할 수 있습니다.  <br/> |||<br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
-|**Manage users** - Users can add other users in their organization to the Reader, Contributor, Assessor, and Administrator roles. Only those users with the Global Administrator role in your organization can add or remove users from the Portal Admin role.  <br/> ||||<br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
+|**사용자 관리** - 사용자는 읽기 권한자, 참가자, 평가자, 관리자 역할에 조직의 다른 사용자를 추가할 수 있습니다. 조직에서 전역 관리자 역할이 있는 사용자만 포털 관리자 역할에서 사용자를 추가 또는 제거할 수 있습니다.  <br/> ||||<br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
    
 ## <a name="understanding-the-compliance-score"></a>준수 점수 이해하기
 
@@ -125,17 +125,17 @@ The following table describes each Compliance Manager permission and what it all
   
 ![준수 관리자 - 평가 컨트롤 낮은 심각도 - 점수 3](../media/11749f20-5f22-40c2-bbc1-eaccbf29e2ae.png)
   
-The Compliance Manager assigns a default severity ranking to each control. Risk rankings are calculated based on the following criteria:
+준수 관리자는 각 컨트롤에 기본 심각도 순위를 할당합니다. 위험 수준은 다음과 같은 조건을 기준으로 계산됩니다.
   
 - 컨트롤이 사고가 발생하는 것을 방지 (최고 순위) 하는지, 발생한 사고를 감지하는지 혹은 사고가 미치는 영향 (최저 순위)을 수정하는지의 여부. 심각도 순위와 관련하여 위협을 방지하는 필수적 컨트롤에는 가장 높은 점수가 할당되며, 필수인지 사용자 지정인지에 관계없이 감지 또는 수정 기능이 있는 컨트롤에는 가장 낮은 점수가 할당됩니다.
     
 - (구현된) 컨트롤이 필수이므로 사용자가 우회할 수 없는지(예를 들어 사용자가 암호 다시 설정하고 암호 길이 및 문자 요구 사항을 충족해야 함) 또는 사용자 지정이 가능하므로 사용자가 우회할 수 있는지(예를 들어 컴퓨터가 무인 방식으로 작동될 때 사용자에게 화면을 잠그도록 요구하는 비즈니스 규칙)
     
-- Controls related to risks to data confidentiality, integrity, and availability, whether these risks come from internal or external threats, and whether the threat is malicious or accidental. For example, controls that would help prevent an external attacker from breaching that network and gaining access to personally identifiable information would be assigned more points than a control related to preventing an employee from accidentally mis-configuring a network router setting that results in a network outage).
+- 데이터 기밀성, 무결성 및 가용성에 미치는 위험과 관련된 컨트롤인지, 이러한 위험이 내부 또는 외부 위협에서 온 것인지, 위험이 악의적인지 부수적으로 발생한 것인지. 예를 들어 외부 공격자가 해당 네트워크의 보안을 침해하여 개인 식별 가능 정보에 액세스하지 못하도록 하는 데 도움이 되는 컨트롤은 직원이 네트워크 라우터 설정을 실수로 잘못 구성하여 네트워크를 중단시키는 일이 없도록 방지하는 컨트롤보다 더 많은 포인트가 할당됩니다.
     
 - 각 컨트롤에 대한 법률 및 외부 요인(예: 계약, 규정 및 공개 약정)
     
-The displayed Compliance Score values for the control are applied  *in their entirety*  to the Total Compliance Score on a pass/fail basis--either the control is implemented and passes the subsequent assessment test or it does not; there is no partial credit for a partial implementation. Only when the control has its **Implementation Status** set to **Implemented** or **Alternative Implementation** and the **Test Result** is set to **Passed** are the assigned points added to the Total Compliance Score. 
+컨트롤에 대해 표시되는 준수 점수 값은 통과/실패(컨트롤이 구현되고 후속 평가 테스트를 통과하는지 여부)에 따라 준수 총점에 *전체적으로* 적용됩니다. 즉, 부분적으로 구현되면 부분 크레딧이 적용되지 않습니다. 컨트롤의 해당 **구현 상태**가 **구현됨**으로 설정되거나 **대체 구현** 및 **테스트 결과**가 **통과**로 설정된 경우에만 할당된 포인트가 준수 총점에 추가됩니다. 
   
 무엇보다도 준수 점수는 컨트롤 관련 오류가 있는 경우 잠재적 위험이 더 높은 컨트롤을 표시하여 구현을 위해 집중할 컨트롤의 우선 순위를 지정하는 데 도움이 됩니다. 위험 기반 우선 순위 지정뿐 아니라 평가 컨트롤이 (동일한 평가 또는 동일한 평가 그룹화에 있는 다른 평가 내의) 다른 컨트롤과 연관되어 있어 하나의 컨트롤을 성공적으로 완료하면 컨트롤 테스트 결과의 동기화에 기반하여 상당한 수고를 줄일 수 있습니다.
   
@@ -145,7 +145,7 @@ The displayed Compliance Score values for the control are applied  *in their ent
   
 평가 내에서 GDPR 컨트롤 7.5.5는 5가지 다른 컨트롤(7.4.1, 7.4.3, 7.4.4, 7.4.8, 7.4.9)과 관련이 있으며, 각각 보통에서 높은 심각도 위험 등급 점수인 6 또는 8을 갖습니다. 평가 필터를 통해 이러한 컨트롤을 모두 선택하여 평가 보기에 표시했으며, 해당 컨트롤이 하나도 평가되지 않은 것을 아래에서 확인할 수 있습니다. 
   
-![준수 관리자 - 평가 보기 - 필터 컨트롤, 평가 없음](../media/b2ae7120-2d7a-4247-b0a9-f5f65433395f.jpg) As those 6 controls are related, the completion of any one them will result in a synchronization of those test results across the related controls within this assessment (just as it will for any related controls in an assessment that is in the same assessment grouping). Upon completion of the implementation and testing of GDPR control 7.5.5, the control detail area refreshes to show that all 6 controls have been assessed, with a corresponding increase in the number of assessed controls to 57 and 51% assessed, and a change in total Compliance Score of +40. 
+![준수 관리자 - 평가 보기 - 필터 컨트롤, 평가 없음](../media/b2ae7120-2d7a-4247-b0a9-f5f65433395f.jpg) 이러한 6개의 컨트롤이 관련되어 있으므로 하나가 완료되면 이 평가 내에서 관련 컨트롤 간에 해당 테스트 결과가 동기화됩니다(같은 평가 그룹에 있는 평가의 모든 관련 컨트롤의 경우와 같음). GDPR 컨트롤 7.5.5의 구현 및 테스트가 완료되면 컨트롤 세부 정보 영역이 새로 고쳐지면서 6개의 컨트롤이 모두 평가되었음이 표시되고, 평가된 컨트롤 수가 57개까지 증가하면서 51%가 평가된 것으로 표시되고 준수 총점은 +40씩 변경되어 표시됩니다. 
   
 ![준수 관리자 평가 보기 - 컨트롤 결과가 동기화됨](../media/e9da2b30-053a-4d40-ace9-ae1b39cdaf66.jpg)
   
@@ -154,16 +154,16 @@ The displayed Compliance Score values for the control are applied  *in their ent
 ![준수 관리자 평가 - 관련 컨트롤 업데이트 확인 대화 상자](../media/8be25bd2-1aee-455f-8aa4-10b1184ca4c3.png)
   
 > [!NOTE]
-> Currently, only Assessments for Office 365 cloud services include a Compliance Score. Assessments for Azure and Dynamics show an assessment status. 
+> 현재, Office 365 클라우드 서비스에 대한 평가에만 준수 점수가 포함됩니다. Azure 및 Dynamics 평가는 평가 상태를 표시합니다. 
 
 ## <a name="compliance-score-methodology"></a>준수 점수 방법론
 
 Microsoft 보안 점수와 같은 준수 점수는 다른 동작 기반 점수 지정 시스템과 비슷합니다. 즉, 조직은 데이터 보호, 개인 정보 보호 및 보안 관련 활동을 수행하면 해당 활동의 준수 점수가 증가할 수 있습니다.
   
 > [!NOTE]
-> The Compliance Score does not express an absolute measure of organizational compliance with any particular standard or regulation. It expresses the extent to which you have adopted controls which can reduce the risks to personal data and individual privacy. No service can guarantee that you are compliant with a standard or regulation, and the Compliance Score should not be interpreted as a guarantee in any way. 
+> 준수 점수는 특정 표준 및 규정에 대해 조직 차원의 규정 준수에 대한 절대 측정 결과를 나타내지 않습니다. 개인 데이터 및 개별 개인 정보 보호에 대한 위험을 줄일 수 있는 컨트롤 채택 수준을 나타냅니다. 사용자의 표준 또는 규정 준수를 보장하는 서비스는 없으며, 준수 점수는 어떤 경우든 준수 보장으로 해셕되면 안 됩니다. 
   
-Assessments in Compliance Manager are based on the shared responsibility model for cloud computing. In the shared responsibility model, Microsoft and each customer share responsibility for the protection of the customer's data when that data is stored in our cloud.
+준수 관리자의 평가는 클라우드 컴퓨팅에 대한 공유 책임 모델을 기준으로 합니다. 공유 책임 모델에서 Microsoft와 모든 고객은 고객 데이터가 클라우드에서 보호될 때 해당 데이터 보호에 대한 책임을 공유합니다.
   
 아래의 Office 365 GDPR 평가에 표시된 대로 Microsoft 및 고객은 평가되는 표준 또는 규제의 요구 사항을 충족하도록 설계된 다양한 작업을 각각 수행할 책임이 있습니다. 요구 사항의 합리화 및 이해 다양한 표준 및 규정 전반에 걸친 작업에 대해, 준수 관리자는 제어 프레임워크인 것처럼 모든 표준 및 규정을 처리합니다. 따라서 각 평가에 대해 Microsoft 및 고객이 수행하는 작업은 다양한 컨트롤의 구현 및 유효성 검사를 수반합니다.
   
@@ -171,7 +171,7 @@ Assessments in Compliance Manager are based on the shared responsibility model f
   
 일반적인 작업에 대한 기본 워크플로는 다음과 같습니다.
   
-1. The Compliance, Risk, Privacy, and/or Data Protection Officer of an organization assigns the task to someone in the organization to implement a control. That person could be:
+1. 조직의 준수, 위험, 개인 정보 보호 및/또는 데이터 보호 관리자는 조직에서 컨트롤을 구현하는 사람에게 태스크를 할당합니다. 해당 사람은 다음일 수 있습니다.
 
     - 비즈니스 정책 소유자
     
@@ -179,7 +179,7 @@ Assessments in Compliance Manager are based on the shared responsibility model f
     
     - 태스크 수행 책임이 있는 조직의 다른 사람
     
-2. That individual performs the tasks necessary to implement the control, uploads evidence of implementation into Compliance Manager, and marks the control(s) tied to the Action as implemented. Once these tasks are completed, they assign the Action to an Assessor for validation. Assessors can be:
+2. 해당 개인은 컨트롤을 구현하는 데 필요한 태스크를 수행하고, 준수 관리자에 구현 증거를 업로드하고, 작업과 연결된 컨트롤을 구현된 컨트롤로 표시합니다. 이러한 태스크가 완료되면 유효성 검사를 위해 평가자에게 작업을 할당합니다. 평가자는 다음을 수행할 수 있습니다.
     
     - 조직 내에서 컨트롤의 유효성 검사를 수행하는 내부 평가자
     
@@ -189,13 +189,13 @@ Assessments in Compliance Manager are based on the shared responsibility model f
     
 평가와 연결된 모든 컨트롤이 평가디면 평가는 완료로 간주됩니다.
   
-Every Assessment in Compliance Manager comes pre-loaded with information that provides details about the Actions taken by Microsoft to satisfy the requirements of the controls for which Microsoft is responsible. This information includes details about how Microsoft has implemented each control and how and when Microsoft's implementation was assessed and verified by a third-party auditor. For this reason, the Microsoft Managed Controls for each Assessment are marked as Assessed, and the Compliance Score for the Assessment reflects this.
+준수 관리자의 모든 평가에는 Microsoft가 담당하는 컨트롤의 요구 사항을 충족 하기 위해 수행한 작업에 대한 세부 정보를 제공하는 정보가 미리 로드됩니다. 이 정보에는 Microsoft가 각 컨트롤을 구현한 방식 및 Microsoft의 구현이 제3자 감사자에 의해 평가되고 확인된 방법과 시기에 대한 세부 정보가 포함됩니다. 이러한 이유로, 각 평가에 대한 Microsoft 관리 컨트롤은 평가됨으로 표시되고 평가에 대한 준수 점수에 이 사실이 반영됩니다.
   
-Each Assessment includes a total Compliance Score based on the shared responsibility model. Microsoft's implementation and testing of controls for Office 365 contributes a portion of the total possible points associated with a GDPR assessment. As the customer implements and tests each of the customer Actions, the Compliance Score for the Assessment will increase by the value assigned to the control. 
+각 평가에는 책임 공유 모델을 기준으로 하는 준수 총점이 포함됩니다. Office 365에 대한 Microsoft의 컨트롤 구현 및 테스트 결과가 GDPR 평가와 연결된 가능한 전체 포인트에 반영됩니다. 고객이 각 고객 작업을 구현하고 테스트하면 평가에 대한 준수 점수가 컨트롤에 할당된 값만큼 늘어납니다. 
   
  ### <a name="risk-based-scoring-methodology"></a>위험 기반 점수 지정 방법론
   
-Compliance Manager uses a risk-based scoring methodology with a scale from 1-10 that assigns a higher value to controls that represent a higher risk in the event the control fails or is non-compliant. The scoring system used by Compliance Score is based on several key factors, such as:
+준수 관리자는 1~10으로 구분되는 위험 기반 점수 지정 방법을 사용합니다. 이 방법에서 컨트롤이 실패하거나 규정을 준수하지 않을 때 더 높은 위험을 나타내는 더 높은 값이 컨트롤에 할당됩니다. 준수 점수에 사용되는 점수 지정 시스템은 다음과 같은 몇 가지 핵심 요소을 기준으로 합니다.
   
 - 컨트롤의 필수성
     
@@ -211,17 +211,17 @@ Compliance Manager uses a risk-based scoring methodology with a scale from 1-10 
   
  ### <a name="mandatory-or-discretionary"></a>필수 또는 사용자 지정
   
- *Mandatory controls*  are controls that cannot be bypassed either intentionally or accidentally. An example of a common mandatory control is a centrally-managed password policy that sets requirements for password length, complexity, and expiration. Users must comply with these requirements in order to access the system. 
+ *필수 컨트롤* - 의도적으로 또는 우연히 우회할 수 없는 컨트롤입니다. 일반적인 필수 컨트롤의 예는 암호 길이, 복잡성 및 만료에 대한 요구 사항을 설정하는 중앙에서 관리되는 암호 정책입니다. 사용자는 시스템에 액세스하기 위해 이러한 요구 사항을 준수해야 합니다. 
   
- *Discretionary controls*  rely upon users to understand policy and act accordingly. For example, a policy requiring users to lock their computer when they leave it is a discretionary control because it relies on the user. 
+ *사용자 지정 컨트롤* - 정책을 이해하기 위해 사용자에게 의존하고, 그에 따라 작동합니다. 예를 들어, 사용자가 자리를 비울 때 컴퓨터를 잠그도록 요구하는 정책은 사용자에게 의존하기 때문에 사용자 지정 컨트롤입니다. 
   
  ### <a name="preventative-detective-or-corrective"></a>예방용, 감지용 또는 시정용
   
- *Preventative controls*  are those that prevent specific risks. For example, protecting information at rest using encryption is a preventative control against attacks, breaches, etc. Separation of duties is a preventative control to manage conflict of interest and to guard against fraud. 
+ *예방용 컨트롤* - 특정 위험을 방지하는 컨트롤입니다. 예를 들어, 암호화를 사용하여 미사용 정보를 보호하는 작업은 공격, 위반 등에 대한 예방용 컨트롤입니다. 업무 분할은 이해의 상충을 관리하고 사기로부터 보호하기 위한 예방용 컨트롤입니다. 
   
- *Detective controls*  are those that actively monitor systems to identify irregular conditions or behaviors that represent risk or that can be used to detect intrusions or determine if a breach has occurred. System access auditing and privileged administrative actions auditing are types of detective monitoring controls; regulatory compliance audits are a type of detective control used to find process issues. 
+ *감지용 컨트롤* - 위험을 나타내는 불규칙한 조건이나 동작을 식별하기 위해 시스템을 적극적으로 모니터링하거나, 침입을 감지하거나 위반이 발생했는지를 확인하는 데 사용될 수 있는 컨트롤입니다. 시스템 액세스 감사 및 권한 있는 관리 작업 감사는 감지용 모니터링 컨트롤 유형입니다. 규정 준수 감사는 프로세스 문제를 찾아내는 데 사용되는 감지용 컨트롤의 한 유형입니다. 
   
- *Corrective controls*  are those that try to keep the adverse effects of a security incident to a minimum, take corrective action to reduce the immediate effect, and reverse the damage, if possible. Privacy incident response is a corrective control to limit damage and restore systems to an operational state after a breach. 
+ *시정용 컨트롤* - 보안 인시던트가 미치는 부정적인 효과를 최소로 유지하고, 즉각적인 효과를 줄이는 시정 작업을 수행하고, 가능한 경우 손상을 복구하려고 하는 컨트롤입니다. 개인 정보 보호 인시던트 응답은 위반 후에 손상을 제한하고 시스템을 작동 상태로 복원하기 위한 시정용 컨트롤입니다. 
   
 이러한 요소를 통해 각 컨트롤을 평가하여 컨트롤의 필수성을 확인하고, 위험을 기준으로 컨트롤이 나타내는 상대적인 가치를 할당합니다.
   
@@ -242,7 +242,7 @@ Compliance Manager uses a risk-based scoring methodology with a scale from 1-10 
     
 - 사용성은 높은 수준의 서비스 품질을 사용하여 정보에 쉽게 액세스할 수 있음을 의미합니다.
     
-A failure of any of these characteristics is considered a compromise of the system as a whole. Threats can come from both internal and external sources, and an actor's intent can be accidental or malicious. These factors are estimated in a threat matrix that assigns threat levels of either High, Moderate, or Low to each combination of scenarios.
+이러한 특성 중 하나라도 충족하지 못할 경우 시스템 보안이 전체적으로 위반된 것으로 간주됩니다. 위협은 내부 및 외부 원본에서 발생할 수 있으며 행위자의 위도는 우발적이거나 악의적일 수 있습니다. 이러한 요소는 각 시나리오 조합에 높음, 보통 또는 낮음 위협 수준을 할당하는 위협 매트릭스에서 평가됩니다.
 
 |<br>|**내부**<br/>|<br>|**외부**:<br/>|<br>|<br>|<br>|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -274,13 +274,13 @@ CIA/위협 및 법적/외부 요인으로 표시되는 15가지의 가능한 위
   
 ### <a name="summary-of-scoring-methodology"></a>점수 지정 방법 요약
   
-The Compliance Score is a core component of the way that Compliance Manager helps organizations understand and manage their compliance. The Compliance Score for an assessment is an expression of the company's compliance with a given standard or regulation as a number, where the higher the score (up to the maximum number of points allocated for the Assessment), the better the company's compliance posture. Understanding the compliance scoring methodology in which assessment controls are assigned risk severity values between 1- 10 (low to high), and how completed control assessments add to the total compliance score is crucial to organizations for prioritizing their actions.
+준수 점수는 준수 관리자가 조직이 준수 상태를 이해하고 관리하는 데 도움을 주는 방식의 핵심 구성 요소입니다. 평가의 준수 점수는 지정된 표준 또는 규정에 대한 회사 준수 상태를 숫자로 나타낸 것으로, 점수가 높을수록(평가에 할당된 최대 포인트 수 이내에서) 회사의 준수 태세가 좋은 것입니다. 조직은 평가 컨트롤에 1~10(낮음~높음)의 위험 심각도 값이 할당되는 준수 점수 지정 방법과 준수 총점에 완료된 컨트롤 평가가 추가되는 방식을 제대로 이해해야만 작업 우선 순위를 적절히 지정할 수 있습니다.
 
 ## <a name="grouping-assessments"></a>평가 그룹화
 
 새 평가를 만들면 평가를 할당할 그룹을 만들거나 기존 그룹에 평가를 할당하라는 메시지가 표시됩니다. 그룹을 사용하면 평가를 논리적으로 구성하고 동일하거나 관련된 고객 관리 컨트롤이 있는 평가 간에 일반 정보 및 워크플로 작업을 공유할 수 있습니다.
   
-For example, you could group Assessments by year or teams, departments, or agencies within your organization or group them by year. Here are some examples of groups and the Assessments they might contain.
+예를 들어, 연도 또는 조직 내의 팀, 부서, 기관별로 또는 연도별로 평가를 그룹화할 수 있습니다. 그룹 및 포함될 수 있는 평가 예는 다음과 같습니다.
   
 - GDPR 평가 — 2018
     
@@ -315,7 +315,7 @@ For example, you could group Assessments by year or teams, departments, or agenc
   
 - 그룹 이름(*그룹 ID라고도 함)은 조직 내에서 고유해야 합니다. 
     
-- Groups can contain Assessments for the same certification/regulation, but each group can only contain one Assessment for a specific cloud service/certification pair. For example, a group can't contain two Assessments for Office 365 and GDPR. Similarly, a group can contain multiple Assessments for the same cloud service as long as the corresponding certification/regulation for each one is different.
+- 그룹에는 동일한 인증/규정에 대한 평가가 포함될 수 있지만 각 그룹은 특정 클라우드 서비스/인증 쌍에 대한 평가만 포함할 수 있습니다. 예를 들어, 하나의 그룹에 Office 365 및 GDPR에 대한 2개의 평가가 포함될 수는 없습니다. 마찬가지로, 하나의 그룹은 각가에 대한 해당 인증/규정이 다르기만 하면 동일한 클라우드 서비스에 대한 여러 평가를 포함할 수 있습니다.
     
 평가가 평가 그룹화에 추가된 후에는 그룹화를 변경할 수 없습니다. 평가 그룹의 이름을 바꿀 수 있으며, 이 경우 해당 그룹과 연관된 모든 평가에서 평가 그룹화 이름이 변경됩니다. 평가와 새 평가 그룹을 만들고 기존 평가에서 정보를 복사할 수 있으며, 이 경우 사실상 다른 평가 그룹에 해당 평가의 복제본이 생성됩니다. 평가를 보관하면 해당 평가와 평가 그룹 사이의 관계도 끊어집니다. 다른 관련 평가에 대한 추가 업데이트는 더 이상 보관된 평가에 반영되지 않습니다.
   
@@ -346,11 +346,11 @@ For example, you could group Assessments by year or teams, departments, or agenc
 테넌트 관리자 계정만 사용할 수 있고, 전역 관리자로 로그인한 경우에만 볼 수 있는 특정 관리 함수가 있습니다.
   
 > [!NOTE]
-> The Access to Restricted Documents permission in the drop-down list will allow administrators to give users access to restricted documents that Microsoft shares on the Service Trust Portal. The Restricted Documents feature isn't available, but is coming soon. 
+> 드롭다운 목록에서 제한된 문서에 대한 액세스 권한은 관리자가 Service Trust Portal에서 Microsoft가 공유하는 제한된 문서에 대한 액세스 권한을 사용자에게 부여할 수 있도록 합니다. 제한된 문서 기능은 사용할 수 없지만 곧 제공될 예정입니다. 
   
 ### <a name="assigning-compliance-manager-roles-to-users"></a>사용자에게 준수 관리자 역할 할당
 
-Each Compliance Manager role has slightly different permissions. You can view the permissions assigned to each role, see which users are in which roles, and add or remove users from that role through the Service Trust Portal by selecting the **Admin** menu item, and then choosing **Settings**. 
+각 준수 관리자 역할은 약간 다른 권한을 갖습니다. 각 역할에 할당된 권한을 보고, 어떤 역할에 어떤 사용자가 속하는지 확인하고, Service Trust Portal에서 **관리자** 메뉴 항목을 선택한 후 **설정**을 선택하여 해당 역할에서 사용자를 추가하거나 제거할 수 있습니다. 
   
 ![STP 관리자 메뉴 — 설정이 선택됨](../media/65a82b1b-d462-452f-988b-7e4263bd638e.png)
   
@@ -366,7 +366,7 @@ Each Compliance Manager role has slightly different permissions. You can view th
     
 5. 각 역할에 추가된 사용자는 **역할 선택** 페이지에 표시됩니다. 
     
-6. To add users to this role, click **Add**. In the **Add Users** dialog, click the user field. You can scroll through the list of available users or begin typing the user name to filter the list based on your search term. Click the user to add that account to the **Add Users** list to be provisioned with that role. If you would like to add multiple users concurrently, begin typing a user name to filter the list, and then click the user to add to the list. Click **Save** to provision the selected role to these users. 
+6. 이 역할에 사용자를 추가하려면 **추가**를 클릭합니다. **사용자 추가** 대화 상자에서 사용자 필드를 클릭합니다. 사용할 수 있는 사용자의 목록을 스크롤하거나 사용자 이름을 입력하여 검색어에 따라 목록을 필터링할 수 있습니다. 사용자를 클릭하여 해당 역할을 프로비전할 계정을 **사용자 추가** 목록에 추가합니다. 여러 사용자를 동시에 추가하려면 사용자 이름을 입력하여 목록을 필터링한 후 목록에 추가할 사용자를 클릭합니다. **저장**을 클릭하여 선택한 역할을 이러한 사용자에게 프로비전합니다. 
     
     ![준수 관리자 — 역할 프로비전 — 사용자 추가](../media/2f386f82-2bf8-4e95-ab41-1724b752b508.png)
   
@@ -376,7 +376,7 @@ Each Compliance Manager role has slightly different permissions. You can view th
  
 ## <a name="user-privacy-settings"></a>사용자 개인 정보 설정
 
-Certain regulations require that an organization must be able to delete user history data. To enable this, Compliance Manager provides the **User Privacy Settings** functions, that allow administrators to: 
+특정 규정을 준수하기 위해서는 조직이 사용자 기록 데이터를 삭제할 수 있어야 합니다. 이를 사용하도록 설정하기 위해 준수 관리자는 관리자가 다음을 수행할 수 있도록 하는 **사용자 개인 정보 설정** 기능을 제공합니다. 
   
 - [사용자 검색](#search-for-a-user)
 
@@ -396,7 +396,7 @@ Certain regulations require that an organization must be able to delete user his
     
 2. 사용자 이름을 올바르게 입력한 경우 **검색**을 클릭합니다. 
     
-3. If the user account is not found, the error message 'User not found' will be displayed on the page. Check the user's email address information, make corrections as necessary and click **Search** to try again. 
+3. 사용자 계정이 없으면 페이지에 ‘사용자 찾을 수 없음’ 오류 메시지가 표시됩니다. 사용자의 전자 메일 주소 정보를 확인하고 필요에 따라 수정한 후 **검색**을 클릭하여 다시 시도합니다. 
     
 4. 사용자 계정이 있으면 단추 텍스트가 **검색**에서 **지우기**로 바뀌어 반환된 사용자 계정이 아래 표시될 추가 기능에 대한 작동 상황이고, 이러한 기능을 실행하면 이 사용자 계정이 적용될 것임을 나타냅니다. 
     
@@ -415,11 +415,11 @@ Certain regulations require that an organization must be able to delete user his
 3. 문서를 열어 보고서 데이터를 검토합니다.
     
 > [!NOTE]
-> This is not a historical report that retains and displays state changes to action item assignment history. The generated report is a snapshot of the control action items assigned at the time that the report is run (date and time stamp written into the report). For instance, any subsequent reassignment of action items will result in different snapshot report data if this report is generated again for the same user. 
+> 이 보고서는 작업 항목 할당 기록에 대한 상태 변경을 유지 및 표시하는 기록 보고서가 아닙니다. 생성된 보고서는 보고서가 실행되었을 때 할당된 컨트롤 작업 항목의 스냅숏입니다(보고서에 날짜 및 시간 스탬프가 기록됨). 예를 들어 이후에 작업 항목을 다시 할당한 후에 같은 사용자에 대해 이 보고서를 다시 생성하면 다른 스냅숏 보고서 데이터가 생성됩니다. 
   
 ### <a name="reassign-action-items"></a>작업 항목 다시 할당
 
-This function enables an organization to remove any active or outstanding dependencies on the user account by reassigning all action item ownership (which includes both active and completed action items) from the returned user account to a new user selected below. This action does not change document upload history for the returned user account. 
+이 기능을 사용하면 조직에서 반환된 사용자 계정의 모든 작업 항목 소유권(활성 및 완료된 작업 항목 모두 포함)을 아래에서 선택한 새 사용자에게 다시 할당하여 사용자 계정에 대한 활성 또는 보류 상태의 종속성을 모두 제거할 수 있습니다. 이 작업을 수행해도 반환된 사용자 계정에 대한 문서 업로드 기록은 변경되지 않습니다. 
   
  다른 사용자에게 작업 항목을 다시 할당하려면
   
@@ -432,9 +432,9 @@ This function enables an organization to remove any active or outstanding depend
 4. 계속하려면 **확인**을 클릭하고, 그렇지 않은 경우 **취소**를 클릭합니다. 
     
 > [!NOTE]
-> All action items (both active and completed) will be assigned to the newly selected user. However, this action does not affect the document upload history; any documents uploaded by the previously assigned user will still show the date/time and name of the previously assigned user. 
+> 모든 작업 항목(활성 및 완료된 항목 모두)이 새로 선택된 사용자에게 할당됩니다. 그러나 이 작업은 문서 업로드 기록에는 영향을 주지 않습니다. 이전에 할당된 사용자가 업로드한 모든 문서는 이전에 할당된 사용자의 날짜/시간 및 이름을 계속 표시합니다. 
   
-Changing the document upload history to remove the previously assigned user will have to be done as a manual process. In that case, the administrator will need to:
+문서 업로드 기록을 변경하여 이전에 할당된 사용자를 제거하려면 수동 프로세스로 진행해야 합니다. 이 경우 관리자는 다음을 수행해야 합니다.
   
 1. 이전에 다운로드한 내보내기 보고서를 엽니다.
   
@@ -446,17 +446,17 @@ Changing the document upload history to remove the previously assigned user will
   
 5. 증거 리포지토리에서 문서를 삭제합니다.
   
-6. Re-upload the document. The document will now have a new upload date, time and Uploaded By username. 
+6. 문서를 다시 업로드합니다. 이제 문서에는 새 업로드 날짜, 시간 및 업로드한 사용자 이름이 표시됩니다. 
   
 ### <a name="delete-user-data-history"></a>사용자 데이터 기록 삭제
 
-This sets control action items to 'unassigned' for all action items assigned to the returned user. This also sets uploaded by value to 'user removed' for any documents uploaded by the returned user
+이 작업을 수행하면 컨트롤 작업 항목이 반환된 사용자에게 할당된 모든 작업 항목에 대해 ‘할당되지 않음’으로 설정됩니다. 또한 반환된 사용자가 업로드한 모든 문서의 업로드한 사용자 값이 ‘사용자가 제거함’으로 설정됩니다.
   
  사용자 계정 작업 항목 및 문서 업로드 기록을 삭제하려면
   
 1. **삭제**를 클릭합니다. 
 
-    A confirmation dialog will be displayed, stating "This will remove all control action item assignments and the document upload history for the selected user. This action cannot be undone. Are you sure you want to continue?"
+    “이 작업을 수행하면 선택한 사용자의 모든 컨트롤 작업 항목 할당 및 문서 업로드 기록이 제거됩니다. 이 작업은 취소할 수 없습니다. 계속하시겠습니까?”라는 확인 대화 상자가 표시됩니다.
     
 3. 계속하려면 **확인**을 클릭하고, 그렇지 않은 경우 **취소**를 클릭합니다. 
   
@@ -468,7 +468,7 @@ This sets control action items to 'unassigned' for all action items assigned to 
 
 ## <a name="accessing-compliance-manager"></a>준수 관리자 액세스
 
-You access Compliance Manager from the Service Trust Portal. Anyone with a Microsoft account or Azure Active Directory organizational account can access Compliance Manager.
+Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Microsoft 계정이 나 Azure Active Directory 조직 계정을 가진 사용자라면 누구나 준수 관리자에 액세스할 수 있습니다.
   
 ![준수 관리자 — STP 메뉴에서 준수 관리자 액세스](../media/14be4cac-2380-49bc-9b36-210da8cafdfa.png)
   
@@ -478,7 +478,7 @@ You access Compliance Manager from the Service Trust Portal. Anyone with a Micro
     
 3. Service Trust Portal에서 **준수 관리자**를 클릭합니다. 
     
-4. When the Non-Disclosure Agreement is displayed, read it, and then click **Agree** to continue. You'll only have to do this once, and then the Compliance Manager dashboard is displayed. 
+4. 비밀 유지 계약이 표시되면 읽고 **동의함**을 클릭하여 계속합니다. 이 작업은 한 번만 수행하면 되며, 이 작업을 수행하면 준수 관리자 대시보드가 표시됩니다. 
 
     시작하기 위해 기본적으로 다음과 같은 평가를 추가했습니다.
     
@@ -498,7 +498,7 @@ You access Compliance Manager from the Service Trust Portal. Anyone with a Micro
     
 2. **작업 항목** 링크를 클릭하면 사용자에게 할당된 작업 항목을 표시하도록 페이지가 새로 고쳐집니다. 
     
-    By default, all action items are shown. If you have action items across multiple certifications, the names of the certifications will be listed in tabs across the top of the assessment control. To see the action items for a specific certification, click that tab.
+    기본적으로 모든 작업 항목이 표시됩니다. 여러 인증에 걸쳐 있는 작업 항목이 있는 경우 인증 이름이 평가 컨트롤 위쪽의 탭에 나열됩니다. 특정 인증에 대한 작업 항목을 보려면 해당 탭을 클릭합니다.
 
 ## <a name="adding-an-assessment"></a>평가 추가
 
@@ -506,7 +506,7 @@ You access Compliance Manager from the Service Trust Portal. Anyone with a Micro
   
 1. 준수 관리자 대시보드에서 ![추가 아이콘](../media/ITPro-EAC-AddIcon.gif) **평가 추가**를 클릭합니다. 
     
-2. In the **Add an Assessment** window, you can create a new group to add the Assessment to or you can add it to an existing group (the built-in group is named "Initial Group".) Depending on the option you choose, either type the name of a new group or select an existing group from the drop-down list. For more information, see [Grouping Assessments](#grouping-assessments).
+2. **평가 추가** 창에서 평가를 추가할 새 그룹을 만들거나, 기존 그룹에 평가를 추가할 수 있습니다(기본 제공 그룹 이름은 "초기 그룹"임). 선택하는 옵션에 따라 새 그룹의 이름을 입력하거나 드롭다운 선택 하는 옵션에 따라 새 그룹의 이름을 입력하거나 드롭다운 목록에서 기존 그룹을 선택합니다. 자세한 내용은 [평가 그룹화](#grouping-assessments)를 참조하세요.
     
     그룹을 만드는 경우 기존 그룹의 정보를 새 평가로 복사할 수도 있습니다. 즉, 복사하려는 그룹의 평가에서 고객 관리 컨트롤의 구현 세부 정보와 테스트 계획 및 관리자 응답 필드에 추가된 모든 정보가 새 평가의 동일하거나 관련된 고객 관리 컨트롤에 복사됩니다. 기존 그룹에 새 평가를 추가하는 경우 해당 그룹의 평가에서 일반적인 정보가 새 평가에 복사됩니다. 자세한 내용은 [기존 평가에서 정보 복사](#copying-information-from-existing-assessments)를 참조하세요.
     
@@ -532,7 +532,7 @@ You access Compliance Manager from the Service Trust Portal. Anyone with a Micro
   
 고객의 다음 정보를 새 평가에 복사할 수 있습니다.
   
-- Assessment Users. An Assessment user is a user who the control is assigned to.
+- 평가 사용자. 평가 사용자는 컨트롤이 할당된 사용자입니다.
     
 - 상태, 테스트 날짜 및 테스트 결과
     
@@ -548,7 +548,7 @@ You access Compliance Manager from the Service Trust Portal. Anyone with a Micro
   
 1. 이 섹션에는 평가 요약 정보를 평가 그룹, 제품, 평가 이름, 평가 컨트롤 수를 포함하는 평가 요약 정보가 표시됩니다.
     
-2. This section shows the Assessment Filter controls. For a more detailed explanation of how to use the Assessment Filter controls see the [Managing the assessment process](#managing-the-assessment-process) section. 
+2. 이 섹션에는 평가 필터 컨트롤이 표시됩니다. 평가 필터 컨트롤을 사용하는 방법에 대한 자세한 설명을 보려면 [평가 프로세스 관리](#managing-the-assessment-process) 섹션을 참조하세요. 
     
 3. 이 섹션에는 평가 범위 내에 있는 개별 클라우드 서비스가 표시됩니다.
     
@@ -584,19 +584,19 @@ You access Compliance Manager from the Service Trust Portal. Anyone with a Micro
     
     - **테스트 결과** - 선택된 테스트 결과를 갖는 컨트롤 목록을 반환합니다. 
     
-    As you apply filter conditions, the view of applicable controls will change to correspond to your filter conditions. Expand the control family sections to show the control details below. 
+    필터 조건을 적용할 때 해당 컨트롤의 보기가 필터 조건에 맞게 변경됩니다. 컨트롤 패밀리 섹션을 확장하여 아래에 컨트롤 세부 정보를 표시합니다. 
     
     ![준수 관리자 평가 보기 - 문서 결과 필터링](../media/e6485d45-d47f-4b25-8b1c-b3c2ee4a8328.png)
   
-2. If after selecting the desired filters no results are shown, that means there are no controls that correspond to the specified filter conditions. For instance, if you select a particular **Assigned User** and then choose a **Control** name that does correspond to the control assigned to that user, no assessments will be shown in the page below. 
+2. 원하는 필터를 선택한 후에 결과가 표시되지 않으면 지정된 필터 조건에 해당 하는 컨트롤이 없는 것입니다. 예를 들어, 특정 **할당 된 사용자**를 선택한 후 해당 사용자에게 할당된 커트롤에 해당하는 **컨트롤** 이름을 선택하면 아래 페이지에 평가가 표시되지 않습니다. 
     
-3. **Assign an Action Item to a user** - You can assign an Action Item to a person to implement the requirements of a certification/regulation, or to test, verify, and document your organization's implementation requirements. When you assign an Action Item, you can choose to send an email to the person that contains details including the recommended Customer Actions and the Action Item priority. You can also unassign or reassign an Action Item to a different person. 
+3. **사용자에게 작업 항목 할당** - 인증/규정의 요구 사항을 구현하거나, 조직의 구현 요구 사항을 테스트, 확인 및 문서화하기 위해 사용자에게 작업 항목을 할당할 수 있습니다. 작업 항목을 할당할 때 권장되는 고객 작업 및 작업 항목 우선 순위를 포함하는 세부 정보가 포함된 전자 메일을 해당 사용자에게 보내도록 선택할 수 있습니다. 작업 항목을 할당 취소한 후 다른 사용자에게 다시 할당할 수도 있습니다. 
     
 4. **문서 관리**고객 관리 컨트롤에는 구현 작업 수행과 테스트 및 유효성 검사 작업 수행과 관련된 문서를 관리할 수 있는 위치도 있습니다. 준수 관리자에서 데이터를 편집할 수 있는 권한이 있는 모든 사용자는 **문서 관리**를 클릭하여 문서를 업로드할 수 있습니다. 문서가 업로드된 후 **문서 관리**를 클릭하여 파일을 보고 다운로드할 수 있습니다. 
     
 5. **구현 및 테스트 세부 정보 제공** - 모든 고객 관리 컨트롤에는 사용자가 해당 조직이 인증/규정 요구 사항을 충족하고 조직이 이러한 요구 사항을 충족시키는 방법이 유효한지 검사하고 문서화하기 위해 수행한 단계를 문서화하는 구현 세부 정보를 추가할 수 있는 편집 가능한 필드가 있습니다.
     
-6. **Set Status** - Set the Status for each item as part of the assessment process. Available status values are **Implemented**, **Alternative Implementation**, **Planned**, and **Not in Scope**. 
+6. **상태 설정** - 평가 프로세스의 일환으로 각 항목에 대한 상태를 설정합니다. 사용 가능한 상태 값은 **구현됨**, **대체 구현**, **계획됨** 및 **범위에 없음**입니다. 
     
 7. **테스트 날짜 및 테스트 결과 입력** - 준수 관리자의 평가자 역할이 있는 사용자는 적절한 테스트가 수행되었는지 확인하고 구현 세부 정보, 테스트 계획, 테스트 결과 및 업로드된 모든 증거를 검토한 다음 테스트 날짜 및 테스트 결과를 설정할 수 있습니다. 사용 가능한 테스트 결과 값은 **통과**, **실패 위험 낮음**, **실패 위험 보통** 및 **실패 위험 높음**입니다. 
 
@@ -604,7 +604,7 @@ You access Compliance Manager from the Service Trust Portal. Anyone with a Micro
 
 조직에서 평가 프로세스에 관련된 사용자는 준수 관리자를 사용하여 관련이 있는 모든 평가에서 고객 관리 컨트롤을 검토할 수 있습니다. 사용자가 준수 관리자에 로그인하여 **작업 항목** 대시보드를 열면 할당된 작업 항목 목록이 표시됩니다. 사용자에게 할당된 준수 관리자 역할에 따라 구현 또는 테스트 세부 정보를 제공하거나, 상태를 업데이트하거나, 작업 항목을 할당할 수 있습니다. 
   
-As certification controls are generally implemented by one person and tested by another, the control action item can be initially assigned to one person for implementation, and once that is complete, that person can reassign the control action item to the next person for control testing and uploading of evidence. This assignment/reassignment of control actions can be performed by any users who have a Compliance Manager role with sufficient permissions, allowing for central management of control assignments, or decentralized routing of control action items, from implementer to tester as appropriate.
+일반적으로 한 사람이 인증 컨트롤을 구현하고, 다른 사람이 테스트하는 경우, 컨트롤 작업 항목이 처음에는 구현을 위해 한 사람에게 할당되고, 구현이 완료된 후 해당 사람이 컨트롤 테스트 및 증거 업로드를 위해 다음 사람에게 컨트롤 작업 항목을 다시 할당할 수 있습니다. 컨트롤 작업의 이러한 할당/재할당은 충분한 권한이 있는 준수 관리자 역할의 모든 사용자가 수행할 수 있으며, 컨트롤 할당의 중앙 관리 또는 구현자로부터 테스터까지 컨트롤 작업 항목의 분산 라우팅이 허용됩니다.
   
 작업 항목을 할당하려면
   
@@ -616,7 +616,7 @@ As certification controls are generally implemented by one person and tested by 
     
 4. **할당된 사용자** 열 아래에서 **할당**을 클릭합니다. 
     
-5. In the Assign Action Item dialog box, click the **Assign To** field to populate the list of users to whom the action can be assigned. You can scroll through the list to find the target user or start typing in the field to search for the username. 
+5. 작업 항목 할당 대화 상자에서 **할당 대상** 필드를 클릭하여 작업을 할당할 수 있는 사용자 목록을 채웁니다. 목록을 따라 스크롤하여 대상 사용자를 찾거나 필드에 입력하여 사용자 이름을 검색할 수 있습니다. 
     
 6. 이 작업 항목을 할당할 사용자를 클릭합니다.
     
@@ -626,7 +626,7 @@ As certification controls are generally implemented by one person and tested by 
  
     사용자는 각 작업 항목 할당 및 메모가 포함된 알림을 받게 됩니다.
     
-The notes that are associated with the action item are persisted in the notes section, available for the next time the action item is assigned. These notes are not read-only, can be edited, replaced or removed by the person assigning the action item.
+작업 항목에 연결된 메모는 메모 섹션에 저장되고, 다음번에 작업 항목이 할당될 때 사용할 수 있게 됩니다. 이러한 메모는 읽기 전용이 아니므로 작업 항목을 할당하는 사용자가 편집, 대체 또는 제거할 수 있습니다.
 
 ## <a name="exporting-information-from-an-assessment"></a>평가의 정보 내보내기
 
@@ -640,14 +640,14 @@ The notes that are associated with the action item are persisted in the notes se
     
 - 평가 세부 정보 페이지를 보고 있는 경우 페이지 오른쪽 위 모서리에서 평가 준수 점수 위에 있는 **Excel로 내보내기** 단추를 클릭합니다.
     
-The assessment report will be downloaded in your browser session. If you don't see a popup informing you of this, you may wish to check your browser's downloads folder.
+평가 보고서는 브라우저 세션에서 다운로드됩니다. 이 사실을 알리는 팝업이 표시되지 않으면 브라우저의 다운로드 폴더를 확인할 수 있습니다.
 
 ## <a name="archiving-an-assessment"></a>평가 보관
 
-When you have completed an Assessment and no longer need it for compliance purposes, you can archive it. When an Assessment is archived, it is removed from Assessments dashboard.
+평가를 완료했으며 준수 목적으로 더 이상 필요하지 않은 경우 보관할 수 있습니다. 평가가 보관되면 평가 대시보드에서 제거됩니다.
   
 > [!NOTE]
-> When an Assessment is Archived, it cannot be 'unarchived' or restored to a read-write in progress state. Please note that Archived Assessments do not retain their links to uploaded evidence documents, so it is highly recommended that you perform an Export of the Assessment before archiving it, as the exported assessment report will contain links to the evidence documents, enabling you to continue to access them. 
+> 평가가 보관되면 진행 상태에서 ‘보관 취소’하거나 읽기-쓰기로 복원할 수 없습니다. 보관된 평가는 업로드된 증거 문서에 대한 링크를 유지하지 않으므로 반드시 보관하기 전에 평가 내보내기를 수행하도록 합니다. 내보낸 평가 보고서에는 증가 문서에 대한 링크가 포함되어 있으므로 계속 액세스할 수 있습니다. 
   
 평가를 보관하려면
   
@@ -673,9 +673,9 @@ When you have completed an Assessment and no longer need it for compliance purpo
 
 ![Service Trust Portal - 검색 입력 필드](../media/7c5cd817-3d62-420b-adb4-76e33fef941f.png)
   
-Click the magnifying glass in the upper right-hand corner of the page by to expand the Search input field, enter your search terms and press Enter. The Search control will appear, with the search term in the search pane input field, and search results will appear beneath.
+페이지의 오른쪽 위 모서리에 있는 돋보기를 클릭하여 검색 입력 필드를 확장하고, 검색 용어를 입력한 후 Enter 키를 누릅니다. 검색 컨트롤이 나타나고, 검색 창 입력 필드에는 검색 용어가 표시되며 아래에 검색 결과가 표시됩니다.
   
-By default, Search returns Document results, and you can use the Filter By dropdown lists to refine the list of documents displayed, to add or remove search results from view. You can use multiple filter attributes at the same time to narrow the returned documents to specific cloud services, categories of compliance or security practices, regions of the world, or industries. Click the document name link to download the document.
+기본적으로 검색은 문서 결과를 반환하며, 필터 기준 드롭다운 목록을 사용하여 표시되는 문서 목록을 구체화하고, 보기에서 검색 결과를 추가 또는 제거할 수 있습니다. 여러 필터 특성을 동시에 사용하여 반환되는 문서의 범위를 특정 클라우드 서비스, 준수 또는 보안 조치 범주, 지역 또는 산업 분야로 좁힐 수 있습니다. 문서를 다운로드하려면 문서 이름 링크를 클릭합니다.
   
 ![Service Trust Portal - 필터를 적용하여 문서 검색](../media/86b754e1-c63c-4514-89ac-d014bf334140.png)
   
@@ -688,7 +688,7 @@ By default, Search returns Document results, and you can use the Filter By dropd
  
 ## <a name="localization-support"></a>지역화 지원
 
-Service Trust Portal enables you to view the page content in different languages. To change the page language, simply click on the globe icon in the lower left corner of the page and select the language of your choice. 
+Service Trust Portal에서 다양한 언어로 페이지 콘텐츠를 볼 수 있습니다. 페이지 언어를 변경하려면 페이지의 왼쪽 아래 모서리에서 지구본 아이콘을 클릭 하고 원하는 언어를 선택합니다. 
   
 ![Service Trust Portal - 지역화된 콘텐츠 옵션](../media/b50c677e-a886-4267-9eca-915d880ead7a.png)
 
@@ -697,9 +697,9 @@ Service Trust Portal enables you to view the page content in different languages
 
 준수 관리자는 클라우드 서비스의 변경 내용뿐 아니라 규정 요구 사항의 변경 내용에 맞춰 정기적으로 업데이트되도록 설계되었습니다. 이러한 업데이트에는 고객 관리 컨트롤의 변경 내용이 포함됩니다. 추가 또는 변경되는 콘텐츠의 세부 정보와 변경이 기존 평가에 미치는 영향에 대한 지침을 포함하여 이러한 변경의 영향 이해를 돕기 위해 변경 로그가 제공됩니다. 일반적으로 두 가지 유형의 변경이 있습니다.
   
-- A **Major** change is a significant change to a Customer Action, such as the addition or removal of a control or specific numbered steps, or a change in the guidance around responsibilities, recommendations, or evidence. For Major changes, we recommend that you re-evaluate your implementation and/or assessment of the affected control.
+- **중요한** 변경은 컨트롤 또는 번호가 매겨진 특정 단계의 추가나 제거 또는 책임, 권장 사항 또는 증거에 대한 지침 변경 등, 고객 작업에 대한 중요한 변경을 나타냅니다. 중요한 변경의 경우 영향을 받는 컨트롤의 구현 및/또는 평가를 다시 평가하는 것이 좋습니다.
     
-- A **Minor** change is an insignificant change to a Customer Actions, such as fixing a typo or formatting issues, or updating or correcting hyperlinks. Minor changes generally do not require the control to be re-evaluated; however, we do recommend that you review the updated Customer Action.
+- **사소한** 변경은 철자 또는 서긱 문제의 수정 또는 하이퍼링크의 업데이트나 수정 같은 고객 작업에 대한 사소한 변경을 나타냅니다. 사소한 변경의 경우 일반적으로 컨트롤을 다시 평가할 필요가 없으며, 업데이트된 고객 작업을 검토하는 것이 좋습니다.
   
 ### <a name="customer-managed-controls---change-log-for-july-2018"></a>고객 관리 컨트롤 - 2018년 7월 변경 로그
 

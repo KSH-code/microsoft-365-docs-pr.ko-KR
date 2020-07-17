@@ -26,7 +26,7 @@ ms.locfileid: "44854261"
 
 Microsoft 365 Enterprise는 로컬 및 클라우드 기반 생산성 응용 프로그램 및 서비스를 Windows 10 Enterprise 및 고급 보안 기능과 결합하여 모든 사람이 창의적이고 안전하게 공동 작업할 수있는 지능형 솔루션으로 통합 된 Microsoft의 최고의 클라우드 서비스입니다. 
 
-The Contoso Corporation is a fictional but representative global manufacturing conglomerate with its headquarters in Paris, France. Contoso has deployed Microsoft 365 Enterprise and addressed major design decisions and implementation details for networking, identity, Windows 10 Enterprise, Microsoft 365 Apps for enterprise, mobile device management, information protection, and security. 
+Contoso Corporation는 프랑스, 파리에 본사가 있는 가상의 대표적 글로벌 제조 대기업입니다. Contoso는 Microsoft 365 Enterprise를 배포했으며 네트워킹, ID, Windows 10 Enterprise, Microsoft Office 365 ProPlus, 모바일 장치 관리, 정보 보호 및 보안에 대한 중요 디자인 결정 및 구현 세부 사항을 진행하고 있습니다. 
 
 Microsoft 365 Enterprise에 대한 Contoso의 전반적인 목표는 클라우드 서비스를 사용하여 직원, 파트너 및 프로세스를 통합함으로써 디지털 혁신을 가속화하여 디지털 우선 세계에서 고객 가치를 창출하고 경쟁적 우위를 점유하는 것입니다.
 

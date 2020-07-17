@@ -26,7 +26,7 @@ ms.locfileid: "44936221"
 # <a name="track-relevance-analysis-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 관련성 분석 추적 (클래식)
 
 > [!NOTE]
-> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
   
 고급 eDiscovery에서 관련성 추적 탭에는 태그 탭에서 수행 되는 관련성 학습의 계산 된 유효성이 표시 되며, 반복적인 교육 프로세스를 관련성이 있는 다음 단계를 나타냅니다. 
   

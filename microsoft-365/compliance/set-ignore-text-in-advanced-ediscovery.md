@@ -26,7 +26,7 @@ ms.locfileid: "44936895"
 # <a name="set-ignore-text-option-for-analyze-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 분석에 대 한 텍스트 무시 옵션 설정 (클래식)
 
 > [!NOTE]
-> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
   
 텍스트 무시 기능은 분석 (거의 중복, 전자 메일 스레드, 테마) 및 관련성에 따라 다음과 같은 고급 eDiscovery 모듈 전체 또는 일부에 적용할 수 있습니다. 무시 된 텍스트는 관련성이 있는 파일에 표시 되지 않으며, 분석/계산은 무시 되는 텍스트를 무시 합니다.
   

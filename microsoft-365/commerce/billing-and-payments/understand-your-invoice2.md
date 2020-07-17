@@ -36,7 +36,7 @@ ms.locfileid: "44909267"
 
 매월 또는 매년 (구독을 구입할 때 선택한 옵션에 따라 다름)을 사용 하 여 새 청구 문을 관리 센터에서 사용할 수 있음을 알리는 전자 메일을 받을 수 있습니다. [청구서 또는 송장을 찾아서 보는 방법을 알아봅니다](view-your-bill-or-invoice.md).
   
-Your invoice contains two pages. Page 1 is the invoice summary, and contains general information about the invoice, order, amount due, how to make a payment, and how to contact support.
+송장은 두 페이지로 되어 있습니다. 1페이지는 송장 요약으로, 송장, 주문, 지불 금액, 납부 방법, 지원 서비스 문의 방법에 대한 일반 정보가 나와 있습니다.
   
 ![Page 1 of a sample invoice.](../../media/b2f2cf85-a005-4f8a-a7b7-bea231372025.png)
   
@@ -62,7 +62,7 @@ Your invoice contains two pages. Page 1 is the invoice summary, and contains gen
   
 ## <a name="invoice-field-glossary"></a>송장 필드 용어
 
-The following table describes the fields you might see on your invoice. Some fields listed here might not appear in your invoice, depending on whether you pay by invoice or by credit card or bank account.
+다음 표에는 송장에 있을 수 있는 필드가 설명되어 있습니다. 결제 방법이 송장인지 또는 신용 카드나 은행 계좌인지에 따라 여기에 나열된 필드 중 일부가 송장에 없을 수도 있습니다.
   
 > [!NOTE]
 > 은행 계좌로 결제하는 방법은 일부 국가 또는 지역에서 사용할 수 없습니다.
@@ -70,30 +70,30 @@ The following table describes the fields you might see on your invoice. Some fie
 |**이름**|**설명**|
 |:-----|:-----|
 |연간 가격|구독은 월간 또는 연간으로 비용이 청구됩니다. 구독 구매 시 연간 청구를 선택한 경우 연간 라이선스 가격이 송장에 반영 됩니다. 청구 주기를 변경하려면 구독을 취소하고 새 청구 주기로 다시 구매해야 합니다.|
-|대금 청구 기간|Billing Period is the time period since the last invoice date. Service Period is the time period during which you are charged to use the service.|
+|대금 청구 기간|대금 청구 기간은 마지막 송장 날짜 이후의 기간입니다. 서비스 기간은 서비스 이용에 대한 요금이 청구되는 기간입니다.|
 |청구지|청구 담당 부서의 주소로, 대개 구매자 주소와 동일합니다. 청구지 주소를 업데이트 하려면 [청구 주소 변경을](change-your-billing-addresses.md)참조 하세요.|
-|요금|Page 1 of your invoice summarizes all charges for the invoice Billing Period. Page 2 shows the detailed charges for each subscription.|
-|수표|If you pay by invoice and check payment is offered in your country, the bottom of page 1 includes information about where to send your payment. Please reference the invoice number on your check.|
-|크레딧|Page 1 of your invoice summarizes all credits for the invoice Billing Period. Page 2 shows the detailed credits for each subscription.|
-|고객 PO 번호|Your Purchase Order (PO) number. If you update the PO number, future invoices will include it. [Change your purchase order number](#change-your-purchase-order-number). <br/> **참고 사항** 기존 송장에는 PO 번호를 추가할 수 없습니다.           |
-|일수|Each billing transaction is associated with a Service Period. The Days column indicates the number of days in that service period.|
-|할인|Page 1 of your invoice summarizes all discounts for the invoice Billing Period. Page 2 shows the detailed discounts for each subscription.|
-|기한|The date when payment is due for the invoice. If your subscription is paid with a credit card or bank account, we will charge your credit card or banking account the day after the Invoice Date. <br/> **참고 사항** 은행 계좌를 통한 결제는 일부 국가나 지역에서는 사용할 수 없습니다.           |
+|요금|송장 1페이지에 송장 청구 기간에 해당하는 모든 요금이 요약되어 있습니다. 2페이지에는 각 구독에 대한 자세한 요금 내역이 나와 있습니다.|
+|수표|지불 방식이 송장일 때 사용자 국가에서 수표 지불이 가능하면 1페이지 하단에 지불 금액을 보낼 곳에 대한 정보가 나와 있습니다. 수표에 송장 번호를 기입하세요.|
+|크레딧|송장 1페이지에 송장 청구 기간에 해당하는 모든 크레딧이 요약되어 있습니다. 2페이지에는 각 구독에 대한 자세한 크레딧 내역이 나와 있습니다.|
+|고객 PO 번호|PO(구매 주문) 번호입니다. PO 번호를 업데이트하면 이후 송장에는 새 번호가 포함됩니다. [구매 주문 번호 변경](#change-your-purchase-order-number).  <br/> **참고 사항** 기존 송장에는 PO 번호를 추가할 수 없습니다.           |
+|일수|각 청구 거래는 서비스 기간과 연결됩니다. 일수 열은 해당 서비스 기간의 일수를 나타냅니다.|
+|할인|송장 1페이지에 송장 청구 기간의 모든 할인이 요약되어 있습니다. 2페이지에는 각 구독에 대한 자세한 할인 내역이 나와 있습니다.|
+|기한|송장 금액을 결제해야 하는 날짜입니다. 신용 카드 또는 은행 계좌로 구독 비용을 결제하는 경우 송장 날짜 다음날에 신용 카드 또는 은행 계좌로 비용이 청구됩니다.<br/> **참고 사항** 은행 계좌를 통한 결제는 일부 국가나 지역에서는 사용할 수 없습니다.           |
 |전자 자금 이체|구독 결제 방법으로 "송장"을 선택한 경우 1 페이지에는 전자 (전선, ACH, SEPA 등) 지불에 대 한 Microsoft 은행 계좌 정보가 들어 있습니다. 일반적으로 은행에는 지불 금액을 보낼 때 작성하는 기입 필드가 있습니다. 표시된 송장 번호를 이 필드에 기입하세요.|
 |총합계|이 행에는 전체 요금, 할인, 크레딧, 소계, 세금에 대한 각 합계와 송장에 나열된 모든 구독에 대한 합계 열이 있습니다.|
-|청구 날짜|The date the invoice was created. The invoice date is the day after the end of your Billing Period. For example, if your Billing Period is Jan 15 - Feb 14, your Invoice Date is Feb 15.|
-|송장 번호|The unique number assigned to your invoice. Please reference the Invoice Number with your payment.|
+|청구 날짜|송장을 만든 날짜입니다. 송장 날짜는 청구 기간 마지막 날의 그 다음날입니다. 예를 들어 대금 청구 기간이 1월 15일 ~ 2월 14일이면 송장 날짜는 2월 15일입니다.|
+|송장 번호|송장에 할당된 고유 번호입니다. 지불 금액과 함께 송장 번호를 기입하세요.|
 |월별 가격|구독은 월간 또는 연간으로 비용이 청구됩니다. 구독 구매 중에 월별 청구를 선택한 경우 월별 라이선스 가격이 송장에 반영 됩니다. 청구 주기를 변경하려면 구독을 취소하고 새 청구 주기로 다시 구매해야 합니다.|
-|주문 번호|Every time you buy a new subscription, an order is created. Every month, you'll receive an invoice for each order.|
-|지불 관련 지침|If you pay by credit card, you'll see "Do not pay - charged to credit card on file." If you pay by invoice, you'll see instructions for paying by Electronic Funds Transfer (EFT) and check (if applicable).|
-|지불 기간|The number of days from the Invoice Date when payment is due. The standard is 30 days.|
-|제품|On page 1 of your invoice, "Online Services" is the generic term used to describe your subscriptions. On page 2 , you'll see the individual subscription names.|
+|주문 번호|새 구독을 구매할 때마다 주문이 생성됩니다. 매월 각 주문에 대한 송장을 받게 됩니다.|
+|지불 관련 지침|신용 카드로 지불하는 경우 "지불하지 마십시오. 기록된 신용 카드로 청구됩니다."라고 표시되어 있습니다. 송장으로 지불하는 경우 전자 자금 이체(EFT)와 수표(해당하는 경우)로 지불하는 방법에 대한 지침이 나와 있습니다.|
+|지불 기간|송장 날짜로부터 남은 지불 기한 일수입니다. 일반적으로 30일입니다.|
+|제품|송장 1페이지에 나오는 "온라인 서비스"는 구독을 설명하기 위한 일반 용어입니다. 2페이지에는 개별 구독 이름이 나와 있습니다.|
 |수량|서비스 기간 동안 구매한 라이선스 수입니다.|
-|서비스 기간|Service Period is the time period during which you are charged to use the service. A Billing Period is the time period since the last invoice date.|
+|서비스 기간|서비스 기간은 서비스 이용에 대한 요금이 청구되는 기간입니다. 대금 청구 기간은 마지막 송장 날짜 이후의 기간입니다.|
 |서비스 사용 주소|서비스를 사용 중인 주소로, 대개 구매자 주소와 동일합니다. 서비스 사용 주소를 업데이트 하려면 [청구 주소 변경을](change-your-billing-addresses.md)참조 하세요.|
-|구매자|Your company name and address. To update this information, see [Change your organization's address, technical contact email, and other information](../../admin/manage/change-address-contact-and-more.md).|
+|구매자|회사명과 주소입니다. 이 정보를 업데이트하려면 [Change your organization's address, technical contact email, and other information](../../admin/manage/change-address-contact-and-more.md)(조직 주소, 기술 담당자 전자 메일 및 기타 정보 변경)을 참조하세요.  |
 |부분합과|송장에 나열된 각 구독에는 모든 요금, 할인, 크레딧, 소계, 세금에 대한 별도의 소계 열과 해당 구독에 대한 합계 열이 있습니다.|
-|세금|Page 1 of your invoice shows the total tax. Page 2 shows the tax rate applied, and the total tax amount for each line item. If your invoice contains taxes and your company is tax exempt, please [contact support](../../admin/contact-support-for-business-products.md).|
+|세금|송장의 1페이지에는 총 세금이 나와 있습니다. 2페이지에는 적용한 세율과 각 품목에 대한 총 세금이 나와 있습니다. 송장에 세금이 포함되어 있는데 회사가 세금 면제 대상이라면 [지원 서비스에 문의](../../admin/contact-support-for-business-products.md)하세요.  |
 |합계|송장 청구 기간에 지급해야 할 금액입니다.|
 
 ## <a name="change-your-purchase-order-number"></a>구매 주문 번호 변경
@@ -101,7 +101,7 @@ The following table describes the fields you might see on your invoice. Some fie
 송장 단위로 결제하는 경우 구독에 대한 PO(구매 주문) 번호를 추가하거나 변경할 수 있습니다.
   
 > [!NOTE]
-> You can't add a PO number to an existing invoice. The PO number will appear on all future invoices.
+> 기존 송장에는 PO 번호를 추가할 수 없습니다. PO 번호는 이후의 모든 송장에 표시됩니다.
 
 ::: moniker range="o365-worldwide"
 

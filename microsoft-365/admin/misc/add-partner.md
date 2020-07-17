@@ -56,7 +56,7 @@ ms.locfileid: "45005689"
 
 ::: moniker range="o365-germany"
 
-The partner you choose depends on the Office 365 services you use and the country or region where you'll use those services. If you are adding a partner, or changing the partner for your subscription, first you need to get the partner's Microsoft Partner ID by asking the partner for it.
+사용하는 Office 365 서비스와 이 서비스를 사용할 국가 또는 지역에 따라 선택할 수 있는 파트너가 달라집니다. 구독 파트너를 추가하거나 변경하려면 먼저 파트너에게 Microsoft 파트너 ID를 문의해야 합니다.
 
 ::: moniker-end
 
@@ -79,7 +79,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
     
 4. 이미 파트너가 있는 경우 체크 아웃 마법사의 두 번째 단계에서 오른쪽 창의 파트너 정보 아래에 있는 **추가**를 선택 합니다.
 
-5. Type the Microsoft Partner ID for the partner you're adding. You can get the partner's Microsoft Partner ID by asking the partner for it.
+5. 추가할 파트너의 Microsoft 파트너 ID를 입력합니다. 해당 파트너에게 문의하면 Microsoft 파트너 ID를 얻을 수 있습니다.
 
 6. 마법사의 나머지 단계를 완료하여 구독 구입을 마칩니다. 
     
@@ -98,7 +98,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
     
 4. 이미 파트너가 있는 경우 체크 아웃 마법사의 두 번째 단계에서 오른쪽 창의 파트너 정보 아래에 있는 **추가**를 선택 합니다.
 
-5. Type the Microsoft Partner ID for the partner you're adding. You can get the partner's Microsoft Partner ID by asking the partner for it.
+5. 추가할 파트너의 Microsoft 파트너 ID를 입력합니다. 해당 파트너에게 문의하면 Microsoft 파트너 ID를 얻을 수 있습니다.
 
 6. 마법사의 나머지 단계를 완료하여 구독 구입을 마칩니다. 
     
@@ -127,7 +127,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
   
 3. 오른쪽의 구독 비용 아래에 있는 **추가 작업** 에서 > **레코드 파트너 추가**를 선택 합니다.
 
-4. Type the Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.
+4. 추가할 파트너의 Microsoft 파트너 ID를 입력하고 **ID 검사**를 선택한 다음 **제출**을 선택합니다. 해당 파트너에게 문의하면 Microsoft 파트너 ID를 얻을 수 있습니다.
 
 5. 파트너 ID가 **구독** 페이지에 표시됩니다.
     
@@ -159,7 +159,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
     
 3. **파트너 ID**에서 **레코드의 파트너 편집**을 선택합니다.
   
-4. Type the new Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.
+4. 추가할 파트너의 새 Microsoft 파트너 ID를 입력하고 **ID 검사**를 선택한 다음 **제출**을 선택합니다. 해당 파트너에게 문의하면 Microsoft 파트너 ID를 얻을 수 있습니다.
   
 ::: moniker-end
 
@@ -171,7 +171,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
     
 3. **파트너 ID**에서 **레코드의 파트너 편집**을 선택합니다.
   
-4. Type the new Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.   
+4. 추가할 파트너의 새 Microsoft 파트너 ID를 입력하고 **ID 검사**를 선택한 다음 **제출**을 선택합니다. 해당 파트너에게 문의하면 Microsoft 파트너 ID를 얻을 수 있습니다.   
 
 ::: moniker-end
 
@@ -183,7 +183,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
     
 3. **파트너 ID**에서 **레코드의 파트너 편집**을 선택합니다.
   
-4. Type the new Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.   
+4. 추가할 파트너의 새 Microsoft 파트너 ID를 입력하고 **ID 검사**를 선택한 다음 **제출**을 선택합니다. 해당 파트너에게 문의하면 Microsoft 파트너 ID를 얻을 수 있습니다.   
 
 ::: moniker-end
 

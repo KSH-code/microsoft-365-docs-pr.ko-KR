@@ -108,12 +108,12 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
  Exchange 2013 누적 업데이트 CU5)의 새로운 기능, 온-프레미스 Exchange 2013 조 직 및 Office 365 서비스 간의 완전 한 기능의 하이브리드 배포가 이제 지원 됩니다. 하이브리드 구성 마법사의 새로운 기능을 활용 하 여 Exchange 2013 CU5에서는 온-프레미스 조직과 Exchange Online 조직 간의 다음과 같은 하이브리드 기능을 지원 합니다.  
 
 - 온-프레미스 조직과 Exchange Online 조직 간의 보안 메일 라우팅 
-- Mail routing with a shared domain namespace. For example, both on-premises and Exchange Online organizations use the @contoso.com SMTP domain. 
+- 공유 도메인 네임스페이스를 사용한 메일 라우팅. 예를 들어 온-프레미스 조직과 Exchange Online 조직 모두 @contoso.com SMTP 도메인을 사용합니다. 
 - "공유 주소록"이라고도 하는 통합 GAL(전체 주소 목록)  
 - 온-프레미스 조직과 Exchange Online 조직 간에 약속 있음/없음 및 일정 공유  
-- Centralized control of inbound and outbound mail flow. You can configure all inbound and outbound Exchange Online messages to be routed through the on-premises Exchange organization. 
+- 중앙 집중식 인바운드 및 아웃바운드 메일 흐름 제어. 모든 인바운드 및 아웃바운드 Exchange Online 메시지를 온-프레미스 Exchange 조직을 통해 라우팅되도록 구성할 수 있습니다. 
 - 온-프레미스 조직과 Exchange Online 조직 모두에 대 한 단일 Office Outlook Web App URL  
-- The ability to move existing on-premises mailboxes to the Exchange Online organization. Exchange Online mailboxes can also be moved back to the on-premises organization if needed.  
+- 기존 온-프레미스 사서함을 Exchange Online 조직으로 이동할 수 있는 기능 필요한 경우 Exchange Online 사서함을 온-프레미스 조직으로 되돌릴 수도 있습니다.  
 - 온-프레미스 EAC(Exchange 관리 센터)를 사용한 중앙 집중식 사서함 관리.  
 - 메일 설명, Outlook 연락처에 대 한 HD 사진 지원 및 온-프레미스 조직과 Exchange Online 조직 간의 여러 사서함 검색 
 - 온-프레미스 Exchange 사서함의 클라우드 기반 메시지 보관. 

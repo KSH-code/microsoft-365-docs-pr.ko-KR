@@ -118,7 +118,7 @@ ms.locfileid: "44739206"
 
 ## <a name="allow-everyone-to-see-the-sent-email-the-replies"></a>모든 사람이 보낸 전자 메일(회신)을 볼 수 있도록 허용
 
-By default, messages sent from the shared mailbox aren't saved to the Sent Items folder of the shared mailbox. Instead, they are saved to the Sent Items folder of the person who sent the message.
+기본적으로 공유 사서함에서 보낸 메시지는 공유 사서함의 보낸 편지함 폴더에 저장되지 않습니다. 대신, 메시지를 보낸 사람의 보낸 편지함 폴더에 저장됩니다.
 
 모든 사용자가 보낸 전자 메일을 볼 수 있도록 하려면 관리 센터에서 공유 사서함 설정을 편집 하 고 **보낸 항목** \> **편집**을 선택 합니다.
 

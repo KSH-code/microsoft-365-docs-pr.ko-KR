@@ -26,7 +26,7 @@ ms.locfileid: "44936695"
 # <a name="tagging-and-assessment-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 태그 지정 및 평가 (클래식)
 
 > [!NOTE]
-> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
   
 이 섹션에서는 고급 eDiscovery 관련성 평가 모듈의 절차에 대해 설명 합니다. 
   

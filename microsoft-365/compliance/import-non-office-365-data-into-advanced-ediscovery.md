@@ -28,7 +28,7 @@ ms.locfileid: "44817597"
 고급 eDiscovery를 사용 하 여 분석을 수행 하는 데 필요한 모든 문서는 Microsoft 365에서 살고 있습니다. 고급 eDiscovery의 타사 365 콘텐츠 가져오기 기능을 사용 하 여 PST 파일을 제외한 Microsoft 365에 없는 문서를 연결 된 Azure storage blob에 업로드 하 고 고급 eDiscovery로 분석할 수 있습니다. 이 절차에서는 Microsoft 이외의 365 문서를 분석을 위해 고급 eDiscovery로 가져오는 방법을 설명 합니다.
   
 > [!NOTE]
-> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
   
 > [!NOTE]
 > Microsoft 제품이 아닌 365 콘텐츠에 대 한 고급 eDiscovery 데이터 저장소 추가 기능 구독을 구입할 수 있습니다. 이 기능은 고급 eDiscovery를 사용 하 여 분석 되는 콘텐츠에 대해서만 사용할 수 있습니다. [비즈니스용 Microsoft 365에 대 한 추가 기능 구입 또는 편집](https://docs.microsoft.com/microsoft-365/commerce/buy-or-edit-an-add-on) 의 단계를 따르고, 고급 eDiscovery 저장소 추가 기능을 구입 합니다. 

@@ -24,6 +24,7 @@ ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Microsoft 365에서 비즈니스 평가판 또는 유료 구독을 취소 하는 방법에 대해 알아봅니다.
 ms.openlocfilehash: 746060596010fd80816e19dece093d91fe850c30
 ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/07/2020
 ms.locfileid: "45049751"

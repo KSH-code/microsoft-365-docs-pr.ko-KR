@@ -28,7 +28,7 @@ ms.locfileid: "44936201"
 사례 파일은 **준비** 프로세스 중에 고급 eDiscovery에 로드 됩니다 \> **Process**. 
   
 > [!NOTE]
-> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
   
 ## <a name="guidelines-preparing-data-for-advanced-ediscovery"></a>지침: 고급 eDiscovery에 대 한 데이터 준비
 

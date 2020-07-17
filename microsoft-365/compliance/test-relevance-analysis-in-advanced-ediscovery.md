@@ -26,7 +26,7 @@ ms.locfileid: "44936211"
 # <a name="test-relevance-analysis-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 관련성 분석 테스트 (클래식)
 
 > [!NOTE]
-> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
   
 고급 eDiscovery의 테스트 탭에서는 전체 처리 품질을 테스트 및 비교 하 고 유효성을 검사할 수 있습니다. 이러한 테스트는 일괄 계산 후에 수행 됩니다. 전문가는 컬렉션의 파일에 태그를 지정 하 여 태그 있는 각 파일이 실제로 대/소문자와 관련성이 있는지 여부를 최종 판단 합니다. 
   

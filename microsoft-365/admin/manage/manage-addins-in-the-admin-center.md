@@ -128,7 +128,7 @@ Office 추가 기능은 문서를 개인 설정 하 고 웹에서 정보에 액�
 
 추가 기능을 배포한 후에는 최종 사용자가 Office 응용 프로그램에서 사용을 시작할 수 있습니다 ( [Office 추가 기능 사용 시작](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)참조). 추가 기능에서 지 원하는 모든 플랫폼에 추가 기능이 표시 됩니다.
   
-If the add-in supports add-in commands, the commands appear on the Office ribbon. In the following example, the command **Search Citation** appears for the **Citations** add-in. 
+추가 기능이 추가 기능 명령을 지원하는 경우 명령은 Office 리본에 나타납니다. 다음 예에서는 **인용 검색** 명령이 **인용** 추가 기능에 나타납니다. 
 
 ![검색 인용이 있는 Office 리본 메뉴](../../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png)
   

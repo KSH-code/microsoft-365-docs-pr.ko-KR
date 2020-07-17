@@ -71,7 +71,7 @@ EOP (독립 실행형 Exchange Online Protection)에 대해 직접 설정 하 �
 
 비즈니스 요구를 충족 하기 위해 메일 흐름 규칙 (전송 규칙이 라고도 함) 또는 사용자 지정 필터를 만듭니다.
 
-When you deploy a new rule to production, select one of the test modes first to see the effect of the rule. Once you are satisfied that the rule is working in the manner intended, change the rule mode to **Enforce**.
+새 규칙을 프로덕션 환경으로 배포할 때는 먼저 테스트 모드 중 하나를 선택하여 규칙의 효과를 확인합니다. 규칙이 원하는 방식으로 작동하면 규칙 모드를 **적용**으로 변경합니다.
 
 새 규칙을 배포할 때는 적용된 규칙을 모니터링하기 위해 **문제 보고서 생성** 동작을 추가할 수 있습니다.
 

@@ -24,18 +24,18 @@ search.appverid:
 - BEA160
 ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
 description: 구독 페이지로 이동 하 여 조직에 있는 구독을 확인 하는 방법을 알아봅니다.
-ms.openlocfilehash: 0e2ff42ad75e2006470c441c6c3403fcfd127e93
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+ms.openlocfilehash: fff76f1a9ac127d061460767a41941f4daf2ea32
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44431608"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780508"
 ---
 # <a name="what-subscription-do-i-have"></a>내가 구독한 것은 무엇인가요?
 
 관리자 인 경우 관리 센터로 이동 하 여 조직에 있는 구독을 확인할 수 있습니다.
   
- **관리자가 아니세요?** [사용 중인 비즈니스 제품 또는 라이선스에 대 한 Microsoft 365를 확인 하세요](https://support.office.com/article/f8ab5e25-bf3f-4a47-b264-174b1ee925fd.aspx) .
+ **관리자가 아니세요?** [사용 중인 비즈니스 제품 또는 라이선스에 대 한 Microsoft 365를 확인 하세요](https://support.microsoft.com/office/f8ab5e25-bf3f-4a47-b264-174b1ee925fd) .
 
 ::: moniker range="o365-worldwide"
 

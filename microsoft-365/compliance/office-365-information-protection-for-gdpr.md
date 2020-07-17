@@ -29,7 +29,7 @@ ms.locfileid: "44818701"
 
  **요약:** 이 솔루션에서는 Office 365 서비스에 저장되어 있는 중요한 데이터를 보호하는 방법을 보여 줍니다.
   
-This solution includes prescriptive recommendations for discovering, classifying, protecting, and monitoring personal data. This solution uses General Data Protection Regulation (GDPR) as an example, but you can apply the same process to achieve compliance with many other regulations.
+이 솔루션에는 개인 데이터를 검색, 분류, 보호 및 모니터링하기 위한 규정된 권장 사항이 포함되어 있습니다. 이 솔루션에서는 GDPR(일반 데이터 보호 규정)을 예제로 사용하지만, 동일한 프로세스를 적용하여 여러 다른 규정을 준수할 수 있습니다.
 
 [![GDPR에 대한 Office 365 정보 보호 포스터의 축소판 그림입니다.](../media/InfoProtectGDPR-Poster/o365infoprotectforgdpr-thumb.png)](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.pdf)
 

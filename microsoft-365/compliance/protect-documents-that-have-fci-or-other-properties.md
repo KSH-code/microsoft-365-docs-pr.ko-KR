@@ -34,7 +34,7 @@ Microsoft 365에서는 DLP (데이터 손실 방지) 정책을 사용 하 여 �
   
 예를 들어 조직에서 Windows Server FCI를 사용하여 주민 등록 번호와 같은 PII(개인 식별이 가능한 정보)를 사용하여 문서를 식별한 다음, 문서에 나오는 PII의 종류 및 횟수에 따라 **개인 식별 정보** 속성을 **높음**, **보통**, **낮음**, **공용** 또는 **PII 아님**으로 설정하여 문서를 분류할 수 있습니다. Microsoft 365에서는 해당 속성이 **High** 및 **Medium**과 같은 특정 값으로 설정 된 문서를 식별 하는 DLP 정책을 만든 다음 해당 파일에 대 한 액세스를 차단 하는 등의 작업을 수행할 수 있습니다. 해당 속성이 **낮음**으로 설정된 경우에는 전자 메일 알림 전송 등의 다른 작업을 수행하는 다른 규칙을 동일한 정책에 만들 수도 있습니다. 이러한 방식으로 DLP는 Windows Server FCI와 통합 되며, Windows Server 기반 파일 서버에서 Microsoft 365로 업로드 되거나 공유 되는 Office 문서를 보호 하는 데 도움이 될 수 있습니다.
   
-A DLP policy simply looks for a specific property name/value pair. Any document property can be used, as long as the property has a corresponding managed property for SharePoint search. For example, a SharePoint site collection might use a content type named **Trip Report** with a required field named **Customer**. Whenever a person creates a trip report, they must enter the customer name. This property name/value pair can also be used in a DLP policy — for example, if you want a rule that blocks access to the document for external users when the **Customer** field contains **Contoso**.
+DLP 정책은 단순히 특정 속성 이름/값 쌍을 찾습니다. 문서 속성에 SharePoint 검색에 대한 해당 관리 속성이 있으면 어떤 속성도 사용할 수 있습니다. 예를 들어 SharePoint 사이트 모음에서 **고객** 필수 필드가 있는 **출장 보고서**라는 콘텐츠 형식을 사용할 수 있습니다. 사용자는 출장 보고서를 만들 때마다 고객 이름을 입력해야 합니다. 이 속성 이름/값 쌍을 DLP 정책에서도 사용할 수 있습니다. 예를 들어 **고객** 필드에 **Contoso**가 포함되어 있을 때 외부 사용자의 문서 액세스를 차단하는 규칙을 원할 수 있습니다.
   
 특정 Microsoft 365 레이블이 있는 콘텐츠에 DLP 정책을 적용 하려는 경우에는 여기에 나와 있는 단계를 수행 하지 않는 것이 좋습니다. 대신 [보존 레이블을 DLP 정책의 조건으로 사용](data-loss-prevention-policies.md#using-a-retention-label-as-a-condition-in-a-dlp-policy)하는 방법에 대해 알아보세요.
   
@@ -42,7 +42,7 @@ A DLP policy simply looks for a specific property name/value pair. Any document 
 
 DLP 정책에서 Windows Server FCI 속성 또는 기타 속성을 사용하려면 먼저 SharePoint 관리 센터에서 관리 속성을 만들어야 합니다. 그 이유는 다음과 같습니다.
   
-In SharePoint Online and OneDrive for Business, the search index is built up by crawling the content on your sites. The crawler picks up content and metadata from the documents in the form of crawled properties. The search schema helps the crawler decide what content and metadata to pick up. Examples of metadata are the author and the title of a document. However, to get the content and metadata from the documents into the search index, the crawled properties must be mapped to managed properties. Only managed properties are kept in the index. For example, a crawled property related to author is mapped to a managed property related to author.
+예제
   
 DLP는 검색 크롤러를 사용 하 여 사이트에서 중요 한 정보를 식별 하 고 분류 한 다음 중요 한 정보를 검색 인덱스의 안전한 부분에 저장 하는 것이 중요 합니다. Office 365로 문서를 업로드하는 경우 SharePoint는 문서 속성을 기준으로 크롤링된 속성을 자동으로 만듭니다. 그러나 FCI 또는 DLP 정책의 다른 속성을 사용하려면 해당 속성을 갖는 콘텐츠가 인덱스에 보관될 수 있게 크롤링된 속성이 관리 속성에 매핑되어야 합니다.
   
@@ -66,7 +66,7 @@ DLP는 검색 크롤러를 사용 하 여 사이트에서 중요 한 정보를 �
     
     ![관리 속성 페이지에서 새 관리 속성 단추가 강조 표시 된](../media/b161c764-414c-4037-83ed-503a49fb4410.png)
   
-5. Enter a name and description for the property. This name is what will appear in your DLP policies.
+5. 속성의 이름 및 설명을 입력합니다. 이 이름은 DLP 정책에 표시되는 이름입니다.
     
 6. **형식**에서 **텍스트**를 선택합니다. 
     
@@ -128,7 +128,7 @@ New-DlpComplianceRule -Name FCI_PII_content-High,Moderate -Policy FCI_PII_policy
 
 이전 섹션의 단계를 수행 하면 해당 속성을 사용 하 여 콘텐츠를 빠르게 검색할 DLP 정책이 생성 되지만 콘텐츠가 새로 업로드 되는 경우 (콘텐츠가 인덱싱되지 않도록), 해당 콘텐츠가 이전에 편집 된 경우에만 콘텐츠가 다시 인덱싱되는 것을 확인할 수 있습니다.
   
-To detect content with that property everywhere, you may want to manually request that your library, site, or site collection be re-indexed, so that the DLP policy is aware of all the content with that property. In SharePoint Online, content is automatically crawled based on a defined crawl schedule. The crawler picks up content that has changed since the last crawl and updates the index. If you need your DLP policy to protect content before the next scheduled crawl, you can take these steps.
+모든 위치에서 해당 속성을 갖는 콘텐츠를 검색하려는 경우 DLP 정책이 해당 속성의 모든 콘텐츠를 인식할 수 있게 라이브러리, 사이트 또는 사이트 모음을 다시 인덱싱하도록 수동으로 요청할 수 있습니다. SharePoint Online에서 콘텐츠는 정의된 크롤링 일정에 따라 자동으로 크롤링됩니다. 크롤러는 마지막 크롤링 이후에 변경된 콘텐츠를 선택하고 인덱스를 업데이트합니다. 예약된 다음 크롤링 전에 DLP 정책을 통해 콘텐츠를 보호해야 할 경우 다음 단계를 수행할 수 있습니다.
   
 > [!CAUTION]
 > 사이트를 다시 인덱싱하면 검색 시스템에서 대량의 부하가 발생할 수 있습니다. 시나리오에서 절대적으로 필요한 경우가 아니면 사이트를 다시 인덱싱하지 마세요. 

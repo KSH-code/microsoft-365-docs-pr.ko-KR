@@ -26,7 +26,7 @@ ms.locfileid: "44817907"
 # <a name="decision-based-on-the-results-in-advanced-ediscovery-classic"></a>고급 eDiscovery의 결과를 기반으로 결정 (클래식)
 
 > [!NOTE]
-> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
   
  고급 eDiscovery에서 결정 탭은 사례 파일의 검토 집합 크기를 결정 하는 데 필요한 의사 결정 통계를 보고 사용 하는 데 필요한 추가 정보를 제공 합니다. 
   

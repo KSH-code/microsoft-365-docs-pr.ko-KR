@@ -92,7 +92,7 @@ DLP 정책을 만들 때 **사용자 알림을**사용 하도록 설정할 수 �
 
 DLP 정책의 각 규칙에 대해 다음 작업을 수행할 수 있습니다.
   
-- Send the notification to the people you choose. These people can include the owner of the content, the person who last modified the content, the owner of the site where the content is stored, or a specific user.
+- 선택한 사람에게 알림을 보냅니다. 이러한 사용자에는 콘텐츠의 소유자, 콘텐츠를 마지막으로 수정한 사람, 콘텐츠가 저장된 사이트의 소유자 또는 특정 사용자가 포함될 수 있습니다.
     
 - HTML 또는 토큰을 사용 하 여 알림에 포함 되는 텍스트를 사용자 지정 합니다. 자세한 내용은 아래 섹션을 참조하세요.
     
@@ -107,13 +107,13 @@ DLP 정책의 각 규칙에 대해 다음 작업을 수행할 수 있습니다.
   
 ![알림 메시지](../media/35813d40-5fd8-425f-9624-55655e74fa6b.png)
   
-By default, notifications display text similar to the following for an item on a site. The notification text is configured separately for each rule, so the text that's displayed differs depending on which rule is matched.
+기본적으로 알림에는 사이트의 항목에 대해 다음과 비슷한 텍스트가 표시됩니다. 알림 텍스트는 각 규칙에 대해 별도로 구성되므로 일치하는 규칙에 따라 표시되는 텍스트가 달라집니다.
 
 |**DLP 정책 규칙이 수행하는 작업...**|**그런 다음 SharePoint 또는 비즈니스용 OneDrive 문서에 대 한 기본 알림에는 다음과 같은 메시지가 표시 됩니다.**|**Outlook 메시지에 대 한 기본 알림에는 다음과 같은 메시지가 표시 됩니다.**|
 |:-----|:-----|:-----|
 |알림을 보내지만 재정의를 허용 하지 않습니다.  <br/> |이 항목이 조직의 정책과 충돌합니다.  <br/> |전자 메일 메시지가 조직의 정책과 충돌 합니다.  <br/> |
 |액세스를 차단하고, 알림을 보내고, 재정의를 허용합니다.  <br/> |이 항목이 조직의 정책과 충돌합니다. 이 충돌을 해결 하지 않으면이 파일에 대 한 액세스가 차단 될 수 있습니다.  <br/> |전자 메일 메시지가 조직의 정책과 충돌 합니다. 메시지가 모든 받는 사람에 게 배달 되지 않았습니다.  <br/> |
-|액세스를 차단하고 알림을 보냅니다.  <br/> |This item conflicts with a policy in your organization. Access to this item is blocked for everyone except its owner, last modifier, and the primary site collection administrator.  <br/> |전자 메일 메시지가 조직의 정책과 충돌 합니다. 메시지가 모든 받는 사람에 게 배달 되지 않았습니다.  <br/> |
+|액세스를 차단하고 알림을 보냅니다.  <br/> |이 항목이 조직의 정책과 충돌합니다. 소유자, 마지막 수정자 및 주 사이트 모음 관리자를 제외한 모든 사람의 이 항목 액세스가 차단됩니다.  <br/> |전자 메일 메시지가 조직의 정책과 충돌 합니다. 메시지가 모든 받는 사람에 게 배달 되지 않았습니다.  <br/> |
    
 ### <a name="custom-email-notification"></a>사용자 지정 전자 메일 알림
 
@@ -139,17 +139,17 @@ DLP 정책의 각 규칙에 대해 다음을 수행하도록 정책을 구성할
     
   - 사용자에게 정책을 재정의하기 위한 업무 정당성을 입력하도록 요구합니다. 이 정보는 기록 되며 보안 및 준수 센터의 **보고서** 섹션에 있는 DLP 보고서에서 볼 수 있습니다 &amp; . 
     
-  - Allow the person to report a false positive and override the DLP policy. This information is also logged for reporting, so that you can use false positives to fine tune your rules.
+  - 가양성을 보고하고 DLP 정책을 재정의할 수 있도록 허용합니다. 이 정보 또한 보고를 위해 기록되므로 가양성을 사용하여 규칙을 미세 조정할 수 있습니다.
     
 ![정책 팁 옵션](../media/0d2f2c68-028a-4900-afe6-1d9fce5303ef.png)
   
 예를 들어 PII (개인 식별 정보)를 검색 하는 비즈니스용 OneDrive 사이트에 DLP 정책이 적용 될 수 있으며,이 정책에는 다음과 같은 세 가지 규칙이 있습니다.
   
-1. First rule: If fewer than five instances of this sensitive information are detected in a document, and the document is shared with people inside the organization, the **Send a notification** action displays a policy tip. For policy tips, no override options are necessary because this rule is simply notifying people and not blocking access. 
+1. 첫 번째 규칙: 문서에서 이 중요한 정보의 인스턴스가 5개 미만으로 검색되었으며 문서가 조직 내부의 사용자와 공유될 경우 **알림 보내기** 작업이 정책 팁을 표시합니다. 이 규칙은 단순히 사용자에게 알리고 액세스를 차단하지는 않으므로 정책 팁에 대해 재정의 옵션은 필요하지 않습니다. 
     
 2. 두 번째 규칙: 문서에서 이 중요한 정보의 인스턴스가 6개 이상으로 검색되었으며 문서가 조직 내부의 사용자와 공유될 경우 **콘텐츠에 대한 액세스 차단** 작업은 파일에 대한 사용 권한을 제한하고, **알림 보내기** 작업은 사용자가 업무 정당성을 제공하여 이 규칙의 작업을 재정의할 수 있도록 합니다. 조직의 비즈니스에서 내부 사용자가 PII 데이터를 공유 해야 하 고, DLP 정책이이 작업을 차단 하지 않도록 해야 하는 경우가 있습니다. 
     
-3. Third rule: If greater than five instances of this sensitive information are detected in a document, and the document is shared with people outside the organization, the **Block access to content** action restricts the permissions for the file, and the **Send a notification** action does not allow people to override the actions in this rule because the information is shared externally. Under no circumstances should people in your organization be allowed to share PII data outside the organization. 
+3. 세 번째 규칙: 문서에서 이 중요한 정보의 인스턴스가 6개 이상으로 검색되었으며 문서가 조직 외부의 사용자와 공유될 경우 **콘텐츠에 대한 액세스 차단** 작업은 파일에 대한 사용 권한을 제한하고, 이 정보가 외부로 공유될 수 있으므로 **알림 보내기** 작업은 사용자가 이 규칙의 작업을 재정의할 수 없도록 합니다. 어떠한 경우에도 조직의 사용자가 PII 데이터를 조직 외부와 공유하도록 허용하면 안 됩니다. 
     
 다음을 통해 정책 팁을 사용하여 규칙을 재정의하는 방법을 보다 잘 이해할 수 있습니다.
   
@@ -177,17 +177,17 @@ DLP 정책의 각 규칙에 대해 다음을 수행하도록 정책을 구성할
   
 ![무시 하는 옵션을 사용 하 여 정책 설명](../media/e250bff9-41d5-4ce4-82ea-1dc2d043fab1.png)
   
-DLP policies are synced to sites and contented is evaluated against them periodically and asynchronously, so there may be a short delay between the time you create the DLP policy and the time you begin to see policy tips. There may be a similar delay from when you resolve or override a policy tip to when the icon on the document on the site goes away.
+DLP 정책은 사이트와 동기화되고 정책을 기준으로 콘텐츠가 주기적으로 비동기적으로 평가되므로 DLP 정책을 만들고 빠른 시간 내에 정책 팁이 제공될 수 있습니다. 마찬가지로 정책 팁을 해결하거나 재정의한 다음 얼마 되지 않아 사이트에 있는 문서에서 해당 아이콘이 없어집니다.
   
 ### <a name="default-text-for-policy-tips-on-sites"></a>사이트의 정책 팁 기본 텍스트
 
-By default, policy tips display text similar to the following for an item on a site. The notification text is configured separately for each rule, so the text that's displayed differs depending on which rule is matched.
+기본적으로 정책 팁에는 사이트의 항목에 대해 다음과 비슷한 텍스트가 표시됩니다. 알림 텍스트는 각 규칙에 대해 별도로 구성되므로 일치하는 규칙에 따라 표시되는 텍스트가 달라집니다.
 
 |**DLP 정책 규칙이 수행하는 작업...**|**기본 정책 팁에 표시되는 내용...**|
 |:-----|:-----|
 |알림을 보내지만 재정의를 허용 하지 않습니다.  <br/> |이 항목이 조직의 정책과 충돌합니다.  <br/> |
 |액세스를 차단하고, 알림을 보내고, 재정의를 허용합니다.  <br/> |이 항목이 조직의 정책과 충돌합니다. 이 충돌을 해결 하지 않으면이 파일에 대 한 액세스가 차단 될 수 있습니다.  <br/> |
-|액세스를 차단하고 알림을 보냅니다.  <br/> |This item conflicts with a policy in your organization. Access to this item is blocked for everyone except its owner, last modifier, and the primary site collection administrator.  <br/> |
+|액세스를 차단하고 알림을 보냅니다.  <br/> |이 항목이 조직의 정책과 충돌합니다. 소유자, 마지막 수정자 및 주 사이트 모음 관리자를 제외한 모든 사람의 이 항목 액세스가 차단됩니다.  <br/> |
    
 ### <a name="custom-text-for-policy-tips-on-sites"></a>사이트의 정책 팁에 대 한 사용자 지정 텍스트
 
@@ -266,7 +266,7 @@ DLP 정책의 정책 팁이 이러한 옵션으로 구성되어 있는 경우 �
   
 ### <a name="default-text-for-policy-tips-in-excel-2016-powerpoint-2016-and-word-2016"></a>Excel 2016, PowerPoint 2016 및 Word 2016 정책 팁에 대한 기본 텍스트
 
-By default, policy tips display text similar to the following on the Message Bar and Backstage view of an open document. The notification text is configured separately for each rule, so the text that's displayed differs depending on which rule is matched.
+기본적으로 열린 문서의 메시지 표시줄 및 Backstage 보기에 다음과 비슷한 텍스트가 정책 팁으로 표시됩니다. 알림 텍스트는 각 규칙에 대해 별도로 구성되므로 일치하는 규칙에 따라 표시되는 텍스트가 달라집니다.
 
 |**DLP 정책 규칙이 수행하는 작업...**|**기본 정책 팁에 표시되는 내용...**|
 |:-----|:-----|

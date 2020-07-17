@@ -29,7 +29,7 @@ ms.locfileid: "44755239"
 
  **요약:** 정치적 캠페인 개발/테스트 환경에서 공용, 개인, 중요 및 극비 SharePoint Online 팀 사이트를 만듭니다. 
   
-Use the instructions in this article to create a dev/test environment that includes the four different types of SharePoint Online team sites for the [Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md) solution. These sites are described in detail on Topic 10, titled **SharePoint and OneDrive for Business**.
+이 문서의 지침을 사용하여 [정치적 캠페인, 비영리 조직 및 기타 기밀 조직에 대한 Microsoft 보안 지침](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md) 솔루션에 대한 4가지 다른 유형의 SharePoint Online 팀 사이트가 포함된 개발/테스트 환경을 만듭니다. 이러한 사이트는 **SharePoint 및 비즈니스용 OneDrive** 제목의 항목 10에 자세히 설명되어 있습니다.
   
 ## <a name="phase-1-create-your-political-campaign-devtest-environment"></a>1단계: 정치적 캠페인 개발/테스트 환경 만들기
 
@@ -213,7 +213,7 @@ Use the instructions in this article to create a dev/test environment that inclu
     
 4. **설정 - 레이블 적용**에서 **중요**를 선택하고 **저장**을 클릭합니다.
     
-Next, configure a data loss prevention (DLP) policy that notifies users when they share a document on a SharePoint Online team site with the Sensitive label outside the organization. This DLP policy will apply to resources in the Campaign marketing site.
+그런 다음, SharePoint Online 팀 사이트의 문서를 조직 외부의 중요 레이블과 공유할 때 사용자에게 알리는 DLP(데이터 손실 방지) 정책을 구성합니다. 이 DLP 정책은 캠페인 마케팅 사이트의 리소스에 적용됩니다.
   
 1. 브라우저의 **Microsoft Office 홈** 탭에서 **보안 및 준수** 타일을 클릭합니다.
     
@@ -245,7 +245,7 @@ Next, configure a data loss prevention (DLP) policy that notifies users when the
     
 15. 텍스트 상자에 다음을 입력하거나 붙여넣습니다.
     
-  - To share with a user outside the organization, download the file and then open it. Click File, then Protect Document, and then Encrypt with Password, and then specify a strong password. Send the password in a separate email or other means of communication.
+  - 조직 외부의 사용자와 공유하려면 파일을 다운로드한 다음 파일을 엽니다. 파일, 문서 보호, 암호 설정을 차례로 클릭한 다음 강력한 암호를 지정합니다. 암호를 별도의 전자 메일 또는 다른 통신 수단으로 보냅니다.
     
 16. **확인**을 클릭합니다.
     
@@ -309,7 +309,7 @@ Next, configure a data loss prevention (DLP) policy that notifies users when the
     
 - 구성원은 사이트 수준 권한을 수정할 수 없습니다(이 작업은 **캠페인 전략 - 소유자** 그룹의 구성원만 수행할 수 있음).
     
-- Other user accounts cannot access the site or its resources or request access to the site. Additional permissions to the site must be done by the global administrator or by a member of the **Campaign strategy-Owners** group.
+- 다른 사용자 계정은 사이트 또는 해당 리소스에 액세스하거나 사이트에 대한 액세스를 요청할 수 없습니다. 사이트에 대한 추가 권한은 전역 관리자 또는 **캠페인 전략 - 소유자** 그룹의 구성원이 수행해야 합니다.
     
 그런 다음, 극비 레이블에 대한 캠페인 전략 팀 사이트의 문서 폴더를 구성합니다.
   
@@ -321,7 +321,7 @@ Next, configure a data loss prevention (DLP) policy that notifies users when the
     
 4. **설정 - 레이블 적용**에서 **극비**를 선택하고 **저장**을 클릭합니다.
     
-Next, configure a DLP policy that blocks users when they share a document on a SharePoint Online team site with the Highly Confidential label outside the organization. This DLP policy will apply to resources in the Campaign strategy site.
+그런 다음, SharePoint Online 팀 사이트의 문서를 조직 외부의 극비 레이블과 공유할 때 사용자를 차단하는 DLP 정책을 구성합니다. 이 DLP 정책은 캠페인 전략 사이트의 리소스에 적용됩니다.
   
 1. 필요한 경우 로컬 컴퓨터에서 브라우저를 사용하여 보안 관리자 또는 회사 관리자 역할이 있는 계정으로 관리 센터([https://admin.microsoft.com](https://admin.microsoft.com))에 로그인합니다.
     
@@ -355,7 +355,7 @@ Next, configure a DLP policy that blocks users when they share a document on a S
     
 16. 텍스트 상자에 다음을 입력하거나 붙여넣습니다.
     
-  - To share with a user outside the organization, download the file and then open it. Click File, then Protect Document, and then Encrypt with Password, and then specify a strong password. Send the password in a separate email or other means of communication.
+  - 조직 외부의 사용자와 공유하려면 파일을 다운로드한 다음 파일을 엽니다. 파일, 문서 보호, 암호 설정을 차례로 클릭한 다음 강력한 암호를 지정합니다. 암호를 별도의 전자 메일 또는 다른 통신 수단으로 보냅니다.
     
 17. **확인**을 클릭합니다.
     
@@ -405,7 +405,7 @@ Next, configure a DLP policy that blocks users when they share a document on a S
     
 19. **선택 > 확인**을 클릭합니다.
 
-20. Click **Add or remove labels**. In the **Policy: Add or remove labels** pane, click **CampaignStrategy**, and then click **OK**.   
+20. **레이블 추가 또는 제거**를 클릭합니다. **정책: 레이블 추가 또는 제거** 창에서 **캠페인 전략**을 클릭하고 **확인**을 클릭합니다.   
 
 21. **저장**을 클릭한 다음 **확인**을 클릭합니다.
   

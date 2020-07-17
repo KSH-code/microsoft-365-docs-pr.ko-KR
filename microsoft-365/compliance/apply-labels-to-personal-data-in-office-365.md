@@ -72,27 +72,27 @@ Cloud App Security에서는 현재 보존 레이블을 지원하지 않지만, M
 <tbody>
 <tr class="odd">
 <td align="left">보존 레이블, 예제: 개인, 공용, 고객 데이터, HR 데이터, 기밀, 극비</td>
-<td align="left"><p>Auto apply this label . . .</p>
+<td align="left"><p>다음 . . .</p>
 <p>고객 데이터</p>
-<p>. . . to documents that match these sensitive information types . . .</p>
+<p>. . . 레이블을 다음의 중요한 정보 유형과 일치하는 문서에 자동으로 적용 . . .</p>
 <p>&lt;중요한 정보 유형 예제 목록&gt;</p></td>
-<td align="left"><p>Apply this protection . . .</p>
+<td align="left"><p>다음 . . .</p>
 <p>&lt;보호 정의&gt;</p>
-<p>. . . to documents with this label . . .</p>
+<p>. . . 보호를 다음 레이블의 문서에 적용 . . .</p>
 <p>고객 데이터</p></td>
-<td align="left"><p>Alert when files with these attributes . . .</p>
+<td align="left"><p>승인된 SaaS 앱에서 다음 . . .</p>
 <p>미리 정의된 PII 특성, Microsoft 365 중요한 정보 유형, 민감도 레이블(AIP), 사용자 지정 식 중 하나 이상의 특성을 선택합니다.</p>
 <p>. . . 특성을 가진 파일이 조직 외부에서 공유될 때 경고 발생</p><p>참고: 현재 Cloud App Security에서 보존 레이블이 지원되지 않습니다.</td>
 </tr>
 <tr class="even">
-<td align="left">Sensitive information types. Examples: Belgium National Number, Credit Card Number, Croatia Identity Cart Number, Finland National ID</td>
-<td align="left"><p>Publish these labels for users to manually apply . . .</p>
+<td align="left">중요한 정보 유형. 예: 벨기에 국가 번호, 신용 카드 번호, 크로아티아 ID 카트 번호, 핀란드 국가 ID</td>
+<td align="left"><p>사용자에 대해 다음 . . .</p>
 <p>&lt;레이블 선택&gt;</p>
-<p>. . . to these locations . . .</p>
+<p>. . . 레이블을 다음 위치에 수동으로 적용 . . .</p>
 <p>&lt;모든 위치 또는 특정 위치 선택&gt;</p></td>
-<td align="left"><p>Apply this protection . . .</p>
+<td align="left"><p>다음 . . .</p>
 <p>&lt;보호 정의&gt;</p>
-<p>. . . to documents that match these sensitive information types&gt;</p></td>
+<p>. . . 레이블을 다음의 중요한 정보 유형과 일치하는 문서에 자동으로 적용&gt;</p></td>
 <td align="left"></td>
 </tr>
 </tbody>
@@ -100,9 +100,9 @@ Cloud App Security에서는 현재 보존 레이블을 지원하지 않지만, M
 
 ## <a name="prioritize-auto-apply-label-policies"></a>자동 적용 레이블 정책의 우선 순위 지정
 
-For personal data that is subject to GDPR, Microsoft recommends auto-applying labels by using the sensitive information types you curated for your environment. It is important that auto-apply label policies are well designed and tested to ensure the intended behavior occurs.
+GDPR이 적용되는 개인 데이터의 경우, 사용자 환경을 위해 조정한 중요한 정보 유형을 사용하여 레이블을 자동 적용하는 것이 좋습니다. 자동 적용 레이블 정책을 잘 디자인하고 테스트하여 의도한 대로 작동하는지 확인하는 것이 중요합니다.
 
-The order that auto-apply policies are created and whether users are also applying these labels affect the result. So, it's important to carefully plan the roll-out. Here's what you need to know.
+자동 적용 정책이 만들어지는 순서와 사용자가 이러한 레이블을 적용하는지 여부도 결과에 영향을 미칩니다. 따라서 롤아웃을 신중하게 계획하는 것이 중요합니다. 알아야 할 사항은 다음과 같습니다.
 
 ### <a name="one-label-at-a-time"></a>한 번에 하나의 레이블 할당
 
@@ -110,11 +110,11 @@ The order that auto-apply policies are created and whether users are also applyi
 
 ### <a name="older-auto-apply-policies-win"></a>오래된 정책이 먼저 자동으로 적용
 
-If there are multiple rules that assign an auto-apply label and content meets the conditions of multiple rules, the label for the oldest rule is assigned. For this reason, it's important to plan the label policies carefully before configuring them. If an organization requires a change to the priority of the label policies, they'll need to delete and recreate them.
+자동 적용 레이블을 할당하는 규칙이 여러 개 있고 콘텐츠가 여러 규칙의 조건을 충족하는 경우, 가장 오래된 규칙에 대한 레이블이 할당됩니다. 이러한 이유로, 레이블 정책을 구성하기 전에 신중하게 계획하는 것이 중요합니다. 조직은 레이블 정책의 우선 순위를 변경해야 하는 경우 삭제한 후 다시 만들어야 합니다.
 
 ### <a name="manual-user-applied-labels-trump-auto-applied-labels"></a>수동 사용자 적용 레이블이 자동 적용 레이블보다 우선함
 
-Manual user applied labels trump auto-applied labels. Auto-apply policies can't replace a label that is already applied by a user. Users can replace labels that are auto-applied.
+수동 사용자 적용 레이블은 자동 적용 레이블보다 우선합니다. 자동 적용 정책은 사용자가 이미 적용한 레이블을 대체할 수 없습니다. 사용자는 자동 적용된 레이블을 바꿀 수 있습니다.
 
 ### <a name="auto-assigned-labels-can-be-updated"></a>자동 할당 레이블을 업데이트할 수 있음
 
@@ -124,7 +124,7 @@ Manual user applied labels trump auto-applied labels. Auto-apply policies can't 
 
 - 자동 적용 정책이 만들어지는 순서에 우선 순위 지정
 
-- Allowing enough time for labels to be automatically applied before rolling these out for users to manually apply. It can take up to seven days for the labels to be applied to all content that matches the conditions.
+- 사용자가 수동으로 적용하기 위해 레이블을 롤아웃하기 전에 레이블이 자동으로 적용될 수 있는 충분한 시간 허용. 레이블이 조건과 일치하는 모든 콘텐츠에 적용되는 데는 최대 7일이 걸릴 수 있습니다.
 
 ### <a name="example-priority-for-creating-the-auto-apply-policies"></a>자동 적용 정책 만들기 우선 순위 예제
 
@@ -181,7 +181,7 @@ Manual user applied labels trump auto-applied labels. Auto-apply policies can't 
 <tbody>
 <tr class="odd">
 <td align="left"><p>규정 준수 팀의 구성원에게 권한을 부여합니다.</p></td>
-<td align="left"><p>Members of your compliance team who will create labels need permissions to use the security center and/or the compliance center. Go to Permissions in the security center or the compliance center and modify the members of the Compliance Administrator group.</p>
+<td align="left"><p>레이블을 만드는 규정 준수 팀의 구성원에게는 의 보안 및/또는 규정 준수 센터를 사용할 수 있는 권한이 있어야 합니다. 보안 및 규정 준수 센터의 사용 권한으로 이동한 후, 규정 준수 관리자 그룹의 구성원을 수정합니다.</p>
 <p><a href="https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center">사용자에게 보안 및/또는 규정 준수 센터에 대한 액세스 권한 부여</a>를 참조하세요.</p></td>
 </tr>
 <tr class="even">
@@ -190,7 +190,7 @@ Manual user applied labels trump auto-applied labels. Auto-apply policies can't 
 </tr>
 <tr class="odd">
 <td align="left"><p>레이블에 대한 자동 적용 정책을 만듭니다.</p></td>
-<td align="left">Go to Classification in security center or the compliance center, choose Label policies, and create the policies for auto-applying labels. Be sure to create these policies in the prioritized order.</td>
+<td align="left">보안 센터 또는 규정 준수 센터에서 분류를 선택하고, 레이블 정책을 선택한 후 레이블을 자동 적용하기 위한 정책을 만듭니다. 이러한 정책을 우선 순위대로 만들어야 합니다.</td>
 </tr>
 </tbody>
 </table>

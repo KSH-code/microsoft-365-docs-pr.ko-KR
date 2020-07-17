@@ -32,7 +32,7 @@ ms.locfileid: "44936261"
   
 ## <a name="accessing-a-case-in-advanced-ediscovery"></a>Advanced eDiscovery에서 사례에 액세스
 
-You access Advanced eDiscovery from the Security &amp; Compliance Center. You have to be a member of an eDiscovery case in the Security &amp; Compliance Center to access the case in Advanced eDiscovery. For instructions about assigning eDiscovery case permissions and adding users to an eDiscovery case, see [Manage eDiscovery cases in Office 365](ediscovery-cases.md). 
+보안 및 준수 센터에서 Advanced eDiscovery에 액세스합니다. Advanced eDiscovery에서 사례에 액세스하려면 보안 및 준수 센터에서 eDiscovery 사례의 구성원이어야 합니다. eDiscovery 사례 권한 할당 및 eDiscovery 사례에 사용자를 추가하는 방법에 대한 지침은 [Office 365에서 eDiscovery 사례 관리](ediscovery-cases.md)를 참조하세요. 
   
 Advanced eDiscovery에서 사례로 이동하려면 
   
@@ -44,7 +44,7 @@ Advanced eDiscovery에서 사례로 이동하려면
     
 4. 사례에 대한 **홈** 페이지에서 **Advanced eDiscovery로 전환**을 클릭합니다.
     
-    The **Connecting to Advanced eDiscovery** progress bar is displayed. When you're connected, the case is opened in Advanced eDiscovery. 
+    **Advanced eDiscovery에 연결** 진행률 표시줄이 표시됩니다. 연결되면 Advanced eDiscovery에서 사례가 열립니다. 
     
 ## <a name="workflow"></a>워크플로
 
@@ -52,15 +52,15 @@ Advanced eDiscovery에서 사례로 이동하려면
   
 ![다이어그램은 사용자 &amp; 사례 설정, 사례 데이터 식별, 내보내기 및 처리를 포함하는 4가지 설정 단계와 분석 및 로컬 시스템으로 내보내기 단계를 포함하는 Advanced eDiscovery 워크플로를 표시합니다.](../media/76589ccc-789d-4581-b3a8-98d339b05979.png)
   
-This setup section describes the first four steps in the workflow. For a description of the other steps in the workflow, see the following.
+이 설정 섹션에서는 워크플로의 처음 4가지 단계를 설명합니다. 워크플로의 다른 단계에 대한 설명은 다음을 참조하세요.
   
 ## <a name="analyze"></a>분석
 
-[Analyzing case data](analyze-case-data-with-advanced-ediscovery.md) Identifies and organizes the files by various parameters, enables the use of Themes, and displays the results. Analyze functionality can be customized by the user in order to achieve enhanced results. 
+[사례 데이터 분석](analyze-case-data-with-advanced-ediscovery.md) 다양한 매개 변수에 따라 파일은 식별 및 구성하고, 테마를 사용할 수 있도록 하고, 결과를 표시합니다. 사용자는 향상된 결과를 얻기 위해 분석 기능을 사용자 지정할 수 있습니다. 
   
 ## <a name="relevance-setup-and-relevance"></a>관련성 설정 및 관련성
 
-[Relevance Setup](manage-relevance-setup-in-advanced-ediscovery.md) and [Using the Relevance module](use-relevance-in-advanced-ediscovery.md) Enables assessment and relevance training based on a random sample of files and uses them to apply decisions to the predictive coding process. Calculates and displays interim results while monitoring statistical validity of the process. Displays the results to facilitate in making review decisions. 
+[관련성 설정](manage-relevance-setup-in-advanced-ediscovery.md) 및 [관련성 모듈 사용](use-relevance-in-advanced-ediscovery.md) 무작위 파일 샘플에 따라 평가 및 관련성 학습을 수행하도록 하고, 이러한 항목을 사용하여 예측 코딩 프로세스에 의사 결정을 적용합니다. 프로세스의 통계적 유의성을 모니터링하는 동안 임시 결과를 계산하고 표시합니다. 의사 결정을 보다 용이하게 검토할 수 있도록 결과를 표시합니다. 
   
 ## <a name="export"></a>내보내기
 

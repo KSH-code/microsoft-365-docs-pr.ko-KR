@@ -44,7 +44,7 @@ ms.locfileid: "44780568"
   
 ## <a name="let-users-reset-their-own-passwords"></a>사용자가 암호를 직접 재설정할 수 있도록 허용
 
-We strongly recommend that you set up self-service password reset. This way you don't have to manually reset passwords for your users. To learn how, see [Let users reset their own passwords in Office 365](let-users-reset-passwords.md).
+셀프 서비스 암호 재설정을 설정하는 것이 좋습니다. 이 방법을 사용하면 사용자의 암호를 수동으로 재설정할 필요가 없습니다. 그 방법을 알고 싶으면 [Office 365에서 사용자가 암호를 직접 재설정할 수 있도록 허용](let-users-reset-passwords.md)을 참조하세요.
   
 ## <a name="reset-a-business-password-for-someone-else"></a>다른 사람에 대 한 회사 암호 다시 설정
 
@@ -118,7 +118,7 @@ We strongly recommend that you set up self-service password reset. This way you 
 ## <a name="reset-business-passwords-in-bulk"></a>대량으로 비즈니스 암호 다시 설정
 <a name="bkmk_forgot"> </a>
 
-Use PowerShell! Check out this post by Eyal Doron: [Managing passwords with PowerShell](https://go.microsoft.com/fwlink/?linkid=853696).
+PowerShell을 사용하세요! Eyal Doron이 작성한 게시물을 확인하세요. [PowerShell을 사용하여 암호 관리](https://go.microsoft.com/fwlink/?linkid=853696)
   
 관련된 문서는 다음과 같습니다. [여러 사용자 계정의 암호 설정](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
   
