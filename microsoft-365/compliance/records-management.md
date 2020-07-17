@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Microsoft 365의 레코드 관리를 사용하여 보존 일정을 파일 플랜에 적용하여 보존, 레코드 선언, 처리를 관리할 수 있습니다.
-ms.openlocfilehash: 48705ac6d0c271ca2646de7c058a340ee3f736ae
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 0179f208f10921293c164516b26440f5bd043517
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818958"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127485"
 ---
 # <a name="records-management-in-microsoft-365"></a>Microsoft 365의 레코드 관리
 
@@ -33,11 +33,11 @@ ms.locfileid: "44818958"
 
 Microsoft 365의 레코드 관리는 다음과 같은 기능을 제공합니다.
 
-- **콘텐츠를 레코드로 레이블** 콘텐츠를 [레코드](records.md)로 표시하여 최종 사용자가 적용하거나 중요한 정보, 키워드 또는 콘텐츠 유형을 식별하여 [자동으로 적용](labels.md#applying-a-retention-label-automatically-based-on-conditions)할 수 있는 보존 레이블을 작성하고 게시합니다.
+- **콘텐츠를 레코드로 레이블** 콘텐츠를 [레코드](records.md)로 표시하여 최종 사용자가 적용하거나 중요한 정보, 키워드 또는 콘텐츠 유형을 식별하여 [자동으로 적용](apply-retention-labels-automatically.md)할 수 있는 보존 레이블을 작성하고 게시합니다.
 
 - **파일 계획을 사용하여 보존 요구 사항을 마이그레이션하고 관리합니다**. [파일 계획](file-plan-manager.md)을 사용하여 기존 보존 계획을 Microsoft 365으로 가져오거나 개선된 관리 기능을 위해 새 계획을 작성할 수 있습니다.
 
-- **레코드 레이블 내에 보존 및 삭제 정책을 설정합니다**. 마지막으로 수정 또는 생성된 날짜를 비롯하여 다양한 요소를 기반으로 [보존](create-retention-policies.md#retaining-content-for-a-specific-period-of-time) 및 [처리](create-retention-policies.md#deleting-content-thats-older-than-a-specific-age) 기간을 정의합니다.
+- **보존 레이블을 사용하여 보존 및 삭제 설정을 구성**합니다. 마지막으로 수정 또는 생성된 날짜를 비롯한 다양한 요소를 기반으로 보존 기간 및 작업을 정의합니다.
 
 - [이벤트 기반 보존](event-driven-retention.md)을 통해 **이벤트 기반 보존을 트리거**합니다.
 
@@ -48,6 +48,10 @@ Microsoft 365의 레코드 관리는 다음과 같은 기능을 제공합니다.
 - 조직 레코드 관리자 기능의 **특정 권한을 설정**하여 [올바른 액세스 권한을 보유](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)합니다.
 
 Microsoft 365의 레코드 관리 솔루션을 사용하여 조직의 보존 일정을 파일 플랜에 반영하여 콘텐츠의 전체 수명 주기를 지원하는 보존, 레코드 선언, 처리를 관리할 수 있습니다.
+
+## <a name="additional-resources"></a>추가 리소스
+
+레코드 관리에 대한 [웨비나 녹음](https://aka.ms/MIPC/Video-RecordsManagementWebinar) 및 [FAQ를 포함한 데크](https://aka.ms/MIPC/Blog-RecordsManagementWebinar)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
