@@ -65,6 +65,8 @@
     - name: Microsoft Managed Desktop 시작
       href: get-started/index.md
       items:
+        - name: 관리 포털 액세스
+          href: get-started/access-admin-portal.md
         - name: 관리 포털에서 관리자 연락처 추가 및 확인
           href: get-started/add-admin-contacts.md
         - name: 조건부 액세스 조정

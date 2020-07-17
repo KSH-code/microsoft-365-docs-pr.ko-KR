@@ -1,7 +1,7 @@
 ---
-title: 업계 테스트의 최고의 점수 (AV-테스트, AV 비교급과 최상급, SE Labs, MITRE AT&T&접시 머리)
+title: 업계 최고의 성과를 테스트 하는 경우-Microsoft Threat Protection
 ms.reviewer: ''
-description: Microsoft Defender ATP는 독립 테스트에서 높은 점수를 지속적으로 달성 합니다. 최신 점수 및 분석을 확인 합니다.
+description: 독립 테스트에서 높은 점수를 일관 되 게 하는 Microsoft Threat Protection의 최신 점수와 분석 (AV-테스트, AV 비교급과 최상급, SE Lab, MITRE AT&T&접시 헤드)을 확인 합니다. 최신 점수 및 분석을 확인 합니다.
 keywords: Microsoft Defender 바이러스 백신, Windows Defender 바이러스 백신, av 검토, 바이러스 백신 테스트, av 테스트, 최신 av 점수, 검색 점수, 보안 제품 테스트, 보안 업계 테스트 업계 바이러스 백신 테스트, 가장 좋은 바이러스 백신, av-테스트, av-비교급과 최상급, SE, MITRE AT&T&접시, 끝점 보호 플랫폼, EPP, 끝점 검색 및 응답, EDR, Windows 10, Microsoft Defender Antivirus, WDAV, MDATP, Microsoft Threat Protection, 보안, 맬웨어, av, 바이러스 백신, 점수, 점수, 차세대 보호, 순위, 성공
 ms.prod: w10
 ms.mktglfcycl: secure
@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 6a3263154794ef8638c5c3c96709b61e67b9ec5a
-ms.sourcegitcommit: 7f765670cb6970fdf7ddbad464ed3f8fe704bfaf
+ms.openlocfilehash: 279376288f28e99d5881e5e482470407111c4add
+ms.sourcegitcommit: 42b618231e9f608f3ae7226a313b0366601d0ea2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "44909279"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158872"
 ---
 # <a name="top-scoring-in-industry-tests"></a>업계 최고의 점수 테스트
 
