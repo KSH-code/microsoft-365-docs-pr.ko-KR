@@ -17,11 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Microsoft 365 보안 및 규정 준수 서비스를 사용하여 원격 작업자를 위한 애플리케이션, 데이터 및 장치를 보호할 수 있습니다.
-ms.openlocfilehash: d8419c00bc4d8b99d9456abafbd5869ca26f4556
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: 5ba60a04cf6717f8f9261ed72336445c8d7876bc
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049871"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127080"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-remote-workers"></a>3단계: 원격 작업자를 위한 보안 및 규정 준수 구현
 
@@ -53,6 +54,8 @@ Microsoft 365의 이러한 보안 기능으로 애플리케이션과 데이터�
 | Azure AD ID 보호  | ID 기반 리스크의 감지 및 해결 작업을 자동화합니다. <br><br>위험 기반 조건부 액세스 정책을 만들어 위험 로그인에 대한 MFA(다단계 인증)를 요구합니다. | Azure AD Premium P2 라이선스를 포함한 Microsoft 365 E5 또는 E3 |
 ||||
 
+자세한 내용은 [Microsoft 365 준수 시작을 위한 빠른 작업](../compliance/compliance-quick-tasks.md)을 참조하세요.
+
 ## <a name="compliance"></a>규정 준수
 
 Microsoft 365의 이러한 규정 준수 기능을 사용하여 내부 정책 또는 규정 요구 사항을 준수합니다.
@@ -63,10 +66,12 @@ Microsoft 365의 이러한 규정 준수 기능을 사용하여 내부 정책 �
 | 데이터 손실 방지(DLP). | 개인 정보가 포함된 데이터 공유와 같은 위험하거나 부주의하거나 부적절한 공유를 내외부적으로 탐지, 경고 및 차단합니다. | Microsoft 365 E3 및 E5 | 
 | 조건부 액세스 앱 컨트롤. | 중요한 데이터가 사용자의 개인 기기에 다운로드되지 않도록 합니다. | Microsoft 365 E3 및 E5 |
 | 데이터 보존 레이블 및 정책. | 조직의 정책 또는 데이터 규정을 준수하기 위해 고객의 개인 데이터 스토리지에 대한 데이터 및 요구사항을 보관하는 기간과 같은 정보 거버넌스 제어를 구현합니다. | Microsoft 365 E3 및 E5 |
-| 전자 메일 암호화 | 고객의 개인 데이터와 같이 규제 데이터가 들어 있는 조직 내외부의 사용자 간에 암호화된 전자 메일 메시지를 주고 받습니다. | Microsoft 365 E3 및 E5 |
+| OME(Office 메시지 암호화) | 고객의 개인 데이터와 같이 규제 데이터가 들어 있는 조직 내외부의 사용자 간에 암호화된 전자 메일 메시지를 주고 받습니다. | Microsoft 365 E3 및 E5 |
 | 규정 관리자 | Microsoft 서비스 신뢰 포털에서 이 워크플로우 기반 위험 평가 도구를 사용하여 Microsoft 클라우드 서비스와 관련된 규정 준수 활동을 관리합니다. | Microsoft 365 E3 및 E5 |
 | 준수 점수(미리 보기) | Microsoft 365 Compliance Center에서 현재 규정 준수 구성의 전체 점수와 이를 개선하기 위한 권장 사항을 확인합니다. | Microsoft 365 E3 및 E5 |
 ||||
+
+자세한 내용은 [보안 팀이 재택 근무를 지원하는 상위 12가지 작업](../security/top-security-tasks-for-remote-work.md)을 참조하세요.
 
 ## <a name="results-of-step-3"></a>3단계의 결과
 

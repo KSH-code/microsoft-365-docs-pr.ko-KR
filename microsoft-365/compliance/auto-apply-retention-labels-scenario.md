@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 솔루션 시나리오에서는 보존 레이블을 사용하여 SharePoint Online에 저장된 제품 관련 문서의 수명 주기를 관리하는 방법을 설명합니다. 이 작업은 문서 메타 데이터를 사용하여 콘텐츠를 분류하고, 특히 보존 레이블을 자동으로 적용하며 이벤트 기반 보존을 구성하여 수행됩니다.
-ms.openlocfilehash: 9c8a7044dccdb60f8e579d6dcad64310d1dda0d5
-ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
+ms.openlocfilehash: 8edd7ea1b64a5f7bf499892dcd32b945307c9668
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44419104"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126479"
 ---
 # <a name="manage-the-lifecycle-of-sharepoint-documents-with-retention-labels"></a>보존 레이블을 사용하여 SharePoint 문서의 수명 주기 관리
 
@@ -108,11 +108,11 @@ ms.locfileid: "44419104"
 
 - **보존 기간:** 5년 (1,825일)
 
-- **레코드 레이블**: 콘텐츠를 [레코드](labels.md#using-retention-labels-for-records-management)로 분류하기 위해 보존 레이블을 구성합니다. (레코드로 분류된 문서는 사용자가 수정하거나 삭제할 수 없음)
+- **레코드 레이블**: 콘텐츠를 [레코드](records.md)로 분류하기 위해 보존 레이블을 구성합니다. (레코드로 분류된 문서는 사용자가 수정하거나 삭제할 수 없음)
 
 - **파일 계획 설명자:** (시나리오 단순화를 위해 파일 설명자가 제공되지 않음)
 
-다음 스크린샷은 보안 및 준수 센터에서 제품 사양 [보존 레이블](labels.md)을 만들 때의 설정을 보여줍니다. 보존 레이블을 만들 때 **제품 중단** 이벤트 유형을 만들 수 있습니다. 아래 단계를 참조하세요.
+다음 스크린샷은 보안 및 준수 센터에서 제품 사양 [보존 레이블](retention.md#retention-labels)을 만들 때의 설정을 보여줍니다. 보존 레이블을 만들 때 **제품 중단** 이벤트 유형을 만들 수 있습니다. 아래 단계를 참조하세요.
 
 ![제품 사양 보존 레이블 설정](../media/SPRetention5.png)
 
@@ -144,7 +144,7 @@ ms.locfileid: "44419104"
 
 ## <a name="classifying-content-by-auto-applying-retention-labels"></a>보존 레이블을 자동 적용하여 콘텐츠 분류
 
-KQL (키워드 쿼리 언어)을 사용하여 이 시나리오를 위해 만든 보존 레이블을 [자동 적용](labels.md#applying-a-retention-label-automatically-based-on-conditions)합니다. KQL은 검색 쿼리를 작성하는 데 사용되는 언어입니다. KQL에서는 키워드 또는 관리 속성을 사용하여 검색할 수 있습니다. KQL에 대한 자세한 내용은 <https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference>을 참조하세요.
+KQL (키워드 쿼리 언어)을 사용하여 이 시나리오를 위해 만든 보존 레이블을 [자동 적용](apply-retention-labels-automatically.md)합니다. KQL은 검색 쿼리를 작성하는 데 사용되는 언어입니다. KQL에서는 키워드 또는 관리 속성을 사용하여 검색할 수 있습니다. KQL에 대한 자세한 내용은 <https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference>을 참조하세요.
 
 개략적으로 Microsoft 365에 "**최종** **상태** 및 **문서 유형**이 **제품 사양**인 모든 문서에 **제품 사양** 보존 레이블을 적용"하라고 주문하고 싶습니다. **상태** 및 **문서 유형**은 [정보 아키텍처](#information-architecture) 섹션에서 제품 문서 콘텐츠 유형에 대해 이전에 정의했던 사이트 열입니다. 이를 위해서는 검색 스키마를 구성해야 합니다.
 
@@ -268,7 +268,7 @@ KQL 쿼리를 사용하여 올바른 보존 레이블을 제품 문서 내용에
 
 이제 보존 레이블이 자동으로 적용되었으므로 특정 제품의 생산 종료를 나타내는 이벤트에 중점을 두겠습니다. 이 이벤트가 발생하면 문서에 자동으로 적용된 보존 레이블에 정의된 보존 기간의 시작을 트리거합니다. 예를 들어 제품 사양 문서의 경우 "생산 종료" 이벤트가 트리거되면 5년의 보존 기간이 시작됩니다.
 
-**레코드 관리** > **이벤트**로 이동하여 이벤트 유형을 선택한 후 올바른 자산 ID를 설정하고 이벤트 날짜를 입력하여 보안 및 준수 센터에서 이벤트를 수동으로 만들 수 있습니다. 자세한 내용은 [이벤트 기반 보존의 개요](event-driven-retention.md)를 참조하세요.
+**레코드 관리** > **이벤트**로 이동하여 이벤트 유형을 선택한 후 올바른 자산 ID를 설정하고 이벤트 날짜를 입력하여 보안 및 준수 센터에서 이벤트를 수동으로 만들 수 있습니다. 자세한 내용은 [이벤트가 발생할 때 보존 시작하기](event-driven-retention.md)를 참조하세요.
 
 이 시나리오에서는 외부 생산 시스템에서 이벤트를 생성하여 자동으로 작성합니다. 이 경우 이벤트를 생성하는 시스템은 제품이 생산 중인지 여부를 나타내는 간단한 SharePoint 목록 및 그과 관련된 [Microsoft Flow](https://docs.microsoft.com/flow/getting-started)이며, 이것이 이벤트를 트리거합니다. 실제 시나리오에서는 HR 또는 CRM 시스템과 같이 이벤트를 생성하는 모든 시스템이 될 수 있습니다. Flow에는 Exchange, SharePoint, Teams 및 Dynamics 365와 같은 Microsoft 365 워크로드뿐만 아니라 Twitter, Box, Salesforce 및 Workdays와 같은 타사 앱을 위한 다양하고 즉시 사용 가능한 상호 작용 및 구성 요소가 포함되어 있습니다. 따라서 Flow를 이러한 시스템과 쉽게 통합할 수 있습니다. 자세한 내용은 [이벤트 기반 보존의 자동화](automate-event-driven-retention.md)를 참조하세요.
 
@@ -333,7 +333,7 @@ KQL 쿼리를 사용하여 올바른 보존 레이블을 제품 문서 내용에
 
 ### <a name="more-about-asset-ids"></a>자산 ID에 대한 자세한 정보
 
-[이벤트 기반 보존 개요](event-driven-retention.md)에서 설명했듯이 이벤트 유형, 레이블, 이벤트 및 자산 ID간의 관계를 이해하는 것이 중요합니다. 자산 ID는 SharePoint 및 OneDrive의 또 다른 문서 속성입니다. 이를 통해 이벤트에 의해 보존 기간이 시작되는 문서를 추가로 식별하는 데 도움이 됩니다. 기본적으로 SharePoint에는 이벤트 기반 보존에 사용할 수 있는 자산 ID 속성이 있습니다.
+[이벤트가 발생할 때 보존 시작하기](event-driven-retention.md) 문서에 설명된 대로 이벤트 유형, 보존 레이블, 이벤트 및 자산 ID 간의 관계를 이해하는 것이 중요합니다. 자산 ID는 SharePoint 및 OneDrive의 또 다른 문서 속성입니다. 이를 통해 이벤트에 의해 보존 기간이 시작되는 문서를 추가로 식별하는 데 도움이 됩니다. 기본적으로 SharePoint에는 이벤트 기반 보존에 사용할 수 있는 자산 ID 속성이 있습니다.
 
 ![문서 속성 세부 정보 페이지에서 표시되는 자산 ID 속성](../media/SPRetention26.png)
 

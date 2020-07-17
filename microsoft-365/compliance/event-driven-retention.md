@@ -1,5 +1,5 @@
 ---
-title: 이벤트 구동 보존 개요
+title: 이벤트가 발생할 때 보존 시작
 f1.keywords:
 - NOCSH
 ms.author: cabailey
@@ -20,18 +20,18 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: 일반적으로 레코드 관리 솔루션의 일부는 사용자가 식별하는 이벤트에 기반하여 보존 기간을 시작하는 보존 레이블을 구성할 수 있습니다.
-ms.openlocfilehash: a0e0025d23bda36d8b9e6315cb932e58d4237a5c
-ms.sourcegitcommit: dc5de2064706137256307f100b8dc61e9797bd1c
+ms.openlocfilehash: 15330c5be34d0cd482b83b4aab5f229cecf2a447
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45068127"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126861"
 ---
-# <a name="overview-of-event-driven-retention"></a>이벤트 구동 보존 개요
+# <a name="start-retention-when-an-event-occurs"></a>이벤트가 발생할 때 보존 시작
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
 
-When you retain content, the retention period is often based on the age of the content. For example, you might retain documents for seven years after they're created and then delete them. But when you configure [retention labels](labels.md), you can also base a retention period on when a specific type of event occurs. The event triggers the start of the retention period, and all content with a retention label applied for that type of event get the label's retention actions enforced on them.
+콘텐츠를 보존할 때 보존 기간은 대개 콘텐츠의 사용 기간을 기준으로 합니다. 예를 들어, 문서를 만들고 7년 동안 보존한 후 삭제할 수 있습니다. 그렇지만 [보존 레이블](labels.md)을 구성할 때 특정 유형의 이벤트가 발생하는 경우를 기준으로 보존 기간을 지정할 수도 있습니다. 이벤트는 보존 기간의 시작을 트리거하며, 해당 유형의 이벤트에 적용된 보존 레이블이 있는 모든 콘텐츠에 대해 레이블 보존 작업이 적용됩니다.
   
 이벤트 구동 보존 사용 예제:
   
@@ -39,17 +39,18 @@ When you retain content, the retention period is often based on the age of the c
     
 - **계약 만료** 예를 들어, 계약과 관련된 모든 레코드를 계약이 만료되는 시간으로부터 5년 동안 유지해야 합니다. 5년 보존 기간을 트리거하는 이벤트는 계약 만료입니다. 
     
-- **Product lifetime** Your organization might have retention requirements related to the last manufacturing date of products for content such as technical specifications. In this case, the last manufacturing date is the event that triggers the retention period. 
+- **제품 수명** 조직은 기술 사양과 같은 콘텐츠에 대해 제품의 마지막 제조일과 관련된 보존 요구 사항을 유지할 수 있습니다. 이 경우 마지막 제조일이 보존 기간을 트리거하는 이벤트가 됩니다. 
     
-Event-driven retention is typically used as part of a records-management process. This means that:
+이벤트 구동 보존은 일반적으로 기록 관리 프로세스의 일부로 사용됩니다. 이것은 다음을 의미합니다.
   
 - 이벤트 기반의 레이블은 대개 콘텐츠를 레코드로 분류합니다. 자세한 내용은 [레코드에 대해 자세히 알아보기](records.md)를 참조하세요.
-    
+
 - 레코드로 분류되었으나 해당 이벤트 트리거가 아직 발생하지 않은 문서는 문서의 보존 기간을 트리거하는 이벤트가 발생할 때까지 무기한 보존됩니다(기록을 영구히 삭제할 수 없음).
     
 - 이벤트 기반의 보존 레이블은 일반적으로 보존 기간이 끝나면 처리 검토를 트리거하므로 레코드 관리자는 콘텐츠를 수동으로 검토 및 처리할 수 있습니다. 자세한 내용은 [콘텐츠 처리](disposition.md)를 참조하세요.
     
-이벤트 기반의 보존 레이블은 Microsoft 365의 모든 보존 레이블과 같은 기능을 제공합니다. 자세한 내용은 [보존 레이블에 대해 자세히 알아보기](labels.md)를 참조하세요.
+
+이벤트 기반의 레이블은 Office 365의 모든 보존 레이블과 같은 기능을 제공합니다. 자세한 내용은 [보존 정책 및 보존 레이블에 대해 알아보기](retention.md)를 참조하세요.
 
 ## <a name="understanding-the-relationship-between-event-types-labels-events-and-asset-ids"></a>이벤트 유형, 레이블, 이벤트 및 자산 ID 간 관계 이해
 
@@ -63,13 +64,13 @@ Event-driven retention is typically used as part of a records-management process
     
 2. 사용자(일반적으로 레코드 관리자)는 해당 보존 레이블을 콘텐츠에 적용하고, SharePoint 및 OneDrive 문서의 경우에는 각 항목에 대해 자산 ID를 입력합니다. 이 예에서 자산 ID는 조직에서 사용하는 제품 이름 또는 코드입니다. 따라서 각 제품의 레코드에는 보존 레이블이 할당되고 각 레코드는 자산 ID가 포함된 특성을 가집니다. 다이어그램은 조직의 모든 제품 레코드에 대한 **모든 콘텐츠**를 표시하며 각 항목은 레코드가 있는 제품의 자산 ID를 가집니다. 
     
-3. Product Lifetime is the event type; a specific product reaching end of life is an event. When an event of that event type occurs - in this case, when a product reaches its end of life - you create an event that specifies:
+3. 제품 수명은 이벤트 유형입니다. 특정 제품이 제품 수명에 도달하는 것이 이벤트입니다. 해당 이벤트 유형의 이벤트가 발생할 때(이 경우 제품이 수명 종료에 도달) 다음을 지정하는 이벤트를 만듭니다.
     
   - 자산 ID(SharePoint 및 OneDrive 문서 관련)
     
-  - Keywords (for Exchange items). In this example, the organization uses a product code in messages containing product records, so the keyword for Exchange items is the same as the asset ID for SharePoint and OneDrive documents.
+  - 키워드(Exchange 항목 관련). 이 예제에서 조직은 Exchange 항목에 대한 키워드가 SharePoint 및 OneDrive 문서에 대한 자산 ID와 동일하도록 제품 레코드를 포함하는 메시지에 제품 코드를 사용 합니다.
     
-  - The date when the event occurred. This date is used as the start of the retention period. This date can be the current, a past, or a future date.
+  - 이벤트가 발생한 날짜. 이 날짜는 보존 기간의 시작 날짜로 사용됩니다. 이 날짜는 현재, 과거 또는 미래의 날짜가 될 수 있습니다.
     
 4. 이벤트를 작성한 후, 해당 이벤트 날짜는 해당 이벤트 유형의 보존 레이블이 있으며 지정된 자산 ID 또는 키워드를 포함하는 모든 콘텐츠와 동기화됩니다. 모든 보존 레이블과 마찬가지로 이 동기화는 7일 정도 걸릴 수 있습니다. 이전 다이어그램에서 빨간색 원으로 둘러싸인 모든 항목에는 이 이벤트를 통해 트리거되는 보존 기간이 있습니다. 즉, 이 제품이 수명의 끝에 도달하면 해당 이벤트는 해당 제품의 레코드에 대한 보존 기간을 트리거합니다.
     
@@ -114,7 +115,10 @@ Event-driven retention is typically used as part of a records-management process
   
 ### <a name="step-3-publish-or-auto-apply-the-event-based-retention-labels"></a>3단계: 이벤트 기반 보존 레이블 게시 혹은 자동 적용
 
-다른 보존 레이블과 마찬가지로 이벤트 기반 레이블을 [게시하거나 자동 적용](create-retention-labels.md)해야만 문서 또는 전자 메일에 적용될 수 있습니다.
+다른 보존 레이블과 마찬가지로 이벤트 기반 레이블을 게시하거나 자동 적용해야만 콘텐츠에 수동 또는 자동으로 적용됩니다.
+- [보존 레이블을 만들고 앱에 적용하기](create-apply-retention-labels.md)
+- [보존 레이블을 콘텐츠에 자동으로 적용하기](apply-retention-labels-automatically.md)
+
 
 > [!NOTE]
 > **레코드 관리** > **파일 계획** 탭 또는 **데이터 관리** > **레이블** 탭에서 이벤트 기반 보존 레이블을 선택하는 경우 **레이블 자동 적용** 단추를 사용할 수 없습니다.
@@ -180,7 +184,7 @@ Exchange 항목의 경우 키워드를 사용합니다. 검색 연산자(예: AN
   
 ## <a name="permissions"></a>사용 권한
 
-To get access to the **Events** page, reviewers must be members of a role group with the **Disposition Management** role and the **View-Only Audit Logs** role. We recommend creating a new role group called Disposition Reviewers, adding these two roles to that role group, and then adding members to the role group. 
+**이벤트** 페이지에 액세스하기 위해 검토자는 **처리 관리** 역할 및 **보기 전용 감사 로그** 역할이 있는 역할 그룹의 구성원이어야 합니다. 처리 검토자라는 새 역할 그룹을 만들고, 이러한 두 역할을 해당 역할 그룹에 추가한 후 역할 그룹에 구성원을 추가하는 것이 좋습니다. 
   
 자세한 내용은 [사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
   

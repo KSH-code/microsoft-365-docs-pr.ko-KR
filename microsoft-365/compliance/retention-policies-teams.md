@@ -1,5 +1,5 @@
 ---
-title: Teams의 보존 정책에 대해 알아보기
+title: Teams의 보존에 대해 알아보기
 f1.keywords:
 - NOCSH
 ms.author: cabailey
@@ -17,24 +17,24 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Teams에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: 8e163aa9f5072e0b2685521fcae37f130d132473
-ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
+ms.openlocfilehash: 11e374dac4e1e0a13d3bdbc642922dca1b8954f4
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083496"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127385"
 ---
-# <a name="learn-about-retention-policies-for-microsoft-teams"></a>Microsoft Teams의 보존 정책에 대해 자세히 알아보기
+# <a name="learn-about-retention-for-microsoft-teams"></a>Microsoft Teams의 보존에 대해 알아보기
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
 
-이 문서의 정보는 Microsoft Teams와 관련된 정보를 포함하므로 [보존 정책에 대해 자세히 알아보기](retention-policies.md)를 보완합니다.
+이 문서의 정보는 Microsoft Teams와 관련된 정보를 포함하므로 [보존에 대해 알아보기](retention.md)를 보완합니다.
 
-## <a name="how-a-retention-policy-works-with-microsoft-teams"></a>보존 정책이 Microsoft Teams에 작동하는 방식
+## <a name="how-retention-works-with-microsoft-teams"></a>보존이 Microsoft Teams에 작동하는 방식
 
 보존 정책을 사용하여 Teams에서 채팅 및 채널 메시지를 보존할 수 있습니다. Teams 채팅은 채팅에 포함된 각 사용자의 사서함에 있는 숨겨진 폴더에 저장되고, Teams 채널 메시지는 Teams의 그룹 사서함에 있는 유사한 숨겨진 폴더에 저장됩니다. 
 
-Teams에서 역시 이 데이터를 저장하는 Azure 기반 채팅 서비스를 사용하고, 기본적으로 이 서비스에서는 데이터를 무제한적으로 저장한다는 사실을 이해하는 것이 중요합니다. 이러한 이유로 Teams 위치를 사용하여 Teams 데이터를 보존 및 삭제하는 것이 좋습니다. Teams 위치를 사용하면 Exchange 사서함 및 기본 Azure 기반 채팅 서비스 모두에서 데이터가 영구적으로 삭제됩니다. 자세한 내용은 [Microsoft Teams의 보안 및 규정 준수](https://go.microsoft.com/fwlink/?linkid=871258) 및 특히 [정보 보호 아키텍처](https://docs.microsoft.com/MicrosoftTeams/security-compliance-overview#information-protection-architecture) 섹션을 참조하세요.
+Teams에서 역시 이 데이터를 저장하는 Azure 기반 채팅 서비스를 사용하고, 기본적으로 이 서비스에서는 데이터를 무제한적으로 저장한다는 사실을 이해하는 것이 중요합니다. 이러한 이유로 Teams 위치를 사용하여 Teams 데이터를 보존 및 삭제하는 보존 정책을 만드는 것이 좋습니다. 이 보존 정책은 Exchange 사서함 및 기본 Azure 기반 채팅 서비스 모두에서 데이터를 영구적으로 삭제할 수 있습니다. 자세한 내용은 [Microsoft Teams의 보안 및 규정 준수](https://go.microsoft.com/fwlink/?linkid=871258) 및 특히 [정보 보호 아키텍처](https://docs.microsoft.com/MicrosoftTeams/security-compliance-overview#information-protection-architecture) 섹션을 참조하세요.
 
 Teams 채팅 및 채널 메시지는 사용자 또는 그룹 사서함에 대해 구성된 보존 정책의 영향을받지 않습니다. Teams 채팅 및 채널 메시지가 Exchange에 저장되어 있어도이 Teams 데이터는 **Teams 채널 메시지** 및 **Teams 채팅** 위치에 대해 구성된 보존 정책에 의해서만 포함됩니다.
 
@@ -71,27 +71,9 @@ Teams 채팅 및 채널 메시지는 사용자 또는 그룹 사서함에 대해
 
 ## <a name="skype-for-business-and-teams-interop-chats"></a>비즈니스용 Skype 및 팀 상호 운용 채팅
 
-비즈니스용 Skype 및 Teams interop 채팅에도 동일한 흐름이 적용됩니다. 비즈니스용 Skype 채팅이 Teams로 이동하는 경우 해당 채팅은 Teams 채팅 스레드에서 메시지가 되고 해당 사서함에 수집됩니다. Teams 보존 정책은 이러한 메시지를 Teams 스레드에서 적용합니다. 
+비즈니스용 Skype 채팅이 Teams로 이동하는 경우 해당 채팅은 Teams 채팅 스레드에서 메시지가 되고 해당 사서함에 수집됩니다. Teams 보존 정책은 이러한 메시지를 Teams 스레드에서 적용합니다. 
 
 그러나 비즈니스용 Skype 및 비즈니스용 Skype 클라이언트 쪽에서 대화 기록을 사용하도록 설정한 경우 기록이 사서함에 저장되는 경우 해당 Teams의 보존 정책이 해당 채팅 데이터를 처리하지 않습니다. 이 콘텐츠의 경우 비즈니스용 Skype에 대해 구성된 보존 정책을 사용합니다.
-
-## <a name="additional-retention-policies-needed-to-support-teams"></a>Teams 지원에 필요한 추가 보존 정책
-
-Teams는 채팅 및 채널 메시지 그 이상입니다. Microsoft 365 그룹에서 만든 팀(이전에는 Office 365 그룹)을 가진 경우 **Office 365 그룹** 위치를 사용하여 Microsoft 365 그룹을 포함하는 보존 정책을 추가적으로 구성해야 합니다. 이 보존 정책은 그룹의 사서함, 사이트 및 파일의 콘텐츠에 적용됩니다.
-
-팀 사이트가 Microsoft 365 그룹에 연결되어 있지 않은 경우 Teams에서 파일을 보존하고 삭제하려면 **SharePoint 사이트** 또는 **OneDrive 계정** 위치를 포함하는 보존 정책이 필요합니다.
-
-- 채팅에서 공유되는 파일은 해당 파일을 공유하는 사용자의 OneDrive 계정에 저장됩니다. 
-
-- 채널에 업로드된 파일은 해당 팀의 SharePoint 사이트에 저장됩니다.
-
-> [!TIP]
-> 특정 팀의 SharePoint 사이트 및 특정 팀 사용자의 OneDrive 계정을 선택하여 Microsoft 365 그룹에 연결되어 있지 않으면 해당 팀의 파일에 보존 정책을 적용할 수 있습니다.
-
-Microsoft 365 그룹, SharePoint 사이트 또는 OneDrive 계정에 적용되는 보존 정책은 해당 메시지가 삭제되기 전에 Teams 채팅 또는 채널 메시지에서 참조되는 파일을 삭제할 수 있습니다. 이 시나리오에서는 파일이 Teams 메시지에 여전히 표시되지만 사용자가 파일을 선택하면 "파일을 찾을 수 없음" 오류가 발생합니다. 이 동작은 보존 정책에만 국한된 것이 아니며 사용자가 SharePoint 또는 OneDrive에서 파일을 수동으로 삭제하는 경우에도 발생할 수 있습니다.
-
-> [!NOTE]
-> Teams 채널 메시지 또는 Teams 채팅을 포함하는 보존 정책에는 Teams 위치만 포함될 수 있습니다. 따라서 Teams에서 지원하는 다른 콘텐츠를 보존하거나 삭제하려면 별도의 보존 정책을 만들어야 합니다.
 
 ## <a name="meetings-and-external-users"></a>모임 및 외부 사용자
 
@@ -113,11 +95,11 @@ Microsoft 365 그룹, SharePoint 사이트 또는 OneDrive 계정에 적용되�
 
 ## <a name="limitations"></a>제한 사항
 
-Microsoft는 Teams에서 보존 기능을 최적화하기 위해 지속적으로 노력하고 있습니다. 그동안에는 다음과 같은 몇 가지 제한 사항을 알고 있어야 합니다.
+Microsoft는 Teams에서 보존 기능을 최적화하기 위해 지속적으로 노력하고 있습니다. 그 동안 Teams 채널 메시지와 채팅에 대한 보존을 사용할 때는 다음 몇 가지 제한 사항에 유의해야 합니다.
   
 - **Teams에는 별도의 보존 정책이 필요합니다**. 보존 정책을 만들고 Teams 위치를 켜면 다른 모든 위치는 꺼집니다. Teams를 포함하는 보존 정책은 Teams만 포함할 수 있고 다른 위치는 포함할 수 없습니다.
 
-- **Teams는 조직 전체 정책에 포함되지 않습니다**. Teams에는 별도 보존 정책 필요하므로 조직 전체 정책을 만들어도 여기에 포함되지 않습니다.
+- **Teams는 조직 전체 정책에 포함되지 않습니다**. Teams 채널 메시지 및 Teams 채팅에는 별도의 보존 정책이 필요하므로 조직 전체 정책을 만들어도 여기에 포함되지 않습니다.
 
 - **Teams는 고급 보존을 지원하지 않습니다**. 보존 정책을 만들 때 [특정 조건을 만족하는 콘텐츠를 식별하기 위해 고급 설정](create-retention-policies.md#advanced-settings-to-identify-content-that-meets-specific-conditions)을 선택하면 Teams 위치를 사용할 수 없습니다. 현재 Teams에서 보존은 해당 위치를 선택할 때 모든 채팅 및 채널 메시지 내용에 적용됩니다.
 
@@ -135,14 +117,6 @@ Microsoft는 Teams에서 보존 기능을 최적화하기 위해 지속적으로
     
     - **Teams 채팅** 위치에 대해 **사용자 선택**을 선택하면 게스트 및 사서함이 아닌 사용자가 표시될 수 있습니다. 보존 정책은 이러한 사용자를 위해 설계되지 않았으므로 선택하지 마세요.
 
-## <a name="how-to-configure-a-retention-policy-for-microsoft-teams"></a>Microsoft Teams에 보존 정책을 구성하는 방법
+## <a name="configuration-guidance"></a>구성 지침
 
-[보존 정책 만들기](create-retention-policies.md) 및 구성 지침에 따라 마법사의 **위치 선택** 페이지에서 다음 옵션을 선택합니다.
-
-- **** > **Teams 채널 메시지** 및 **Teams 채팅**에서 특정 위치를 선택할 수 있습니다.
-
-Teams에 적용되는 보존 정책은 보존 이유로 필요할 수 있는 [보존 잠금](retention-policies.md#use-preservation-lock-to-comply-with-regulatory-requirements)을 사용할 수 있습니다.
-
-## <a name="related-information"></a>관련 정보
-
-[Microsoft Teams의 보존 정책](https://docs.microsoft.com/microsoftteams/retention-policies)
+Microsoft 365에서 보존을 구성할 준비가 되면 [보존 정책 및 보존 레이블 시작하기](get-started-with-retention.md)를 참조하세요.

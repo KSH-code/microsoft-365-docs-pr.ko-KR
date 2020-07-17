@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 데이더 분류에 대한 릴리스 정보입니다.
-ms.openlocfilehash: bbef6729680db2c9a6aec4caa9036ec23fad6949
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 71d8e8e4fffddc4c9373a2bdd37d4509337ec231
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327615"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127143"
 ---
 # <a name="data-classification-release-notes"></a>데이터 분류 릴리스 정보
 
@@ -48,6 +48,6 @@ SharePoint 검색은 `-` 또는 `_`이(가) 포함된 보존 레이블 이름을
 - [데이터 분류 시작(미리 보기)](data-classification-overview.md)
 - [레이블 활동 보기(미리 보기)](data-classification-activity-explorer.md)
 - [레이블이 지정된 콘텐츠 보기(미리 보기)](data-classification-content-explorer.md)
-- [민감도 레이블](sensitivity-labels.md)
-- [보존 레이블](labels.md)
+- [민감도 레이블에 대해 알아보기](sensitivity-labels.md)
+- [보존 정책 및 보존 레이블에 대해 알아보기](retention.md)
 - [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)

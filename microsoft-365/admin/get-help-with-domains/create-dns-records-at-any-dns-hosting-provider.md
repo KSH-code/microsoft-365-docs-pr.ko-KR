@@ -20,11 +20,12 @@ description: Microsoft 365용 모든 DNS 호스팅 공급자에서 도메인을 
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: d3a9e3787afc30b33122edf91c1cf9e3dd84b847
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: 01bcffe37d9c38d91eff25d9df58f848f4ee1a82
+ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049669"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138259"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>DNS 레코드를 추가하여 도메인 연결하기
 
@@ -36,7 +37,9 @@ ms.locfileid: "45049669"
 
 원하는 정보를 찾지 못한 경우 [도메인 FAQ를 확인](../setup/domains-faq.md)하세요.
 
-## <a name="step-1-add-a-txt-record-to-verify-you-own-the-domain"></a>1단계: TXT 레코드를 추가하여 도메인을 소유하고 있는지 확인하기
+## <a name="step-1-add-a-txt-or-mx-record-to-verify-you-own-the-domain"></a>1단계: TXT 또는 MX 레코드를 추가하여 도메인을 소유하고 있는지 확인하기
+
+### <a name="recommended-verify-with-a-txt-record"></a>권장: TXT 레코드로 확인
 
 먼저 Microsoft 365에 추가하려는 도메인을 소유하고 있다는 사실을 증명해야 합니다.
 
@@ -55,6 +58,25 @@ ms.locfileid: "45049669"
 
 Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
 
+### <a name="verify-with-an-mx-record"></a>MX 레코드로 확인
+
+등록 기관에서 TXT 레코드 추가를 지원하지 않으면 MX 레코드를 추가하여 확인할 수 있습니다.
+
+1. [Microsoft 365 관리 센터](https://admin.microsoft.com/)에 로그인하고 **모두 보기** > **설정** > **도메인**을 선택합니다.
+2. 새 브라우저 탭 또는 창에서 내 DNS 호스팅 공급자에 로그인한 다음 DNS 설정 관리 위치(예: 영역 파일 설정, 도메인 관리, 도메인 관리자, DNS 관리자)를 찾습니다.
+3. 공급자의 DNS 관리자 페이지로 이동하고 관리 센터에 표시된 MX 레코드를 도메인에 추가합니다.
+
+이 MX 레코드의 **우선 순위**는 도메인에 대한 모든 기존 MX 레코드의 최상위여야 합니다. 그렇지 않으면 전자 메일 보내기와 받기를 방해할 수 있습니다. 도메인 확인이 완료되면 즉시 이 레코드를 삭제해야 합니다.
+
+필드가 다음 값으로 설정되어 있는지 확인합니다.
+
+- 레코드 종류: `MX`
+- 우선순위: 사용 가능한 가장 높은 값(일반적으로 `0`)으로 설정됩니다.
+- 호스트 이름: `@`
+- 대상 주소: 관리 센터에서 값을 복사하여 여기에 붙여넣습니다.
+- TTL: `3600‎`(또는 공급자 기본값)
+
+Microsoft에서 올바른 MX 레코드를 찾으면 도메인이 확인된 것입니다.
 
 ## <a name="step-2-add-dns-records-to-connect-microsoft-services"></a>2단계: DNS 레코드를 추가하여 Microsoft 서비스 연결하기
 

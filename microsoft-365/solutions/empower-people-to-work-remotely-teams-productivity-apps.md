@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 06/03/2020
+ms.date: 07/13/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: 사용자가 Teams, Exchange, SharePoint 및 기타 Microsoft 365 서비스를 사용하여 생산성을 향상시킬 수 있도록 합니다.
-ms.openlocfilehash: 274780d2b9ea4310eb2cd8c9114bb61c326d33fe
-ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
+ms.openlocfilehash: a5c1d27afdb7afd8b4ee3052f745c4c986299a2e
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45005965"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127100"
 ---
 # <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>5단계. 원격 작업자 생산성 앱 및 서비스 배포
 
@@ -67,11 +67,18 @@ Outlook을 사용하면 원격 작업자는 연결 상태를 유지하고 전자
 
 최신 인증 및 조건부 액세스를 지원하는 조직의 전자 메일 및 메일 클라이언트를 보호하는 권장 ID와 정책은 [이 문서](../enterprise/secure-email-recommended-policies.md)를 참조하세요.
 
-## <a name="store-and-collaborate-on-files-with-sharepoint-online-and-onedrive"></a>SharePoint Online 및 OneDrive를 사용한 파일 저장 및 공동 작업
+## <a name="store-and-collaborate-on-files-with-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive를 사용한 파일 저장 및 공동 작업
 
-콘텐츠 공동 작업의 경우 원격 작업자는 SharePoint Online 및 OneDrive 폴더를 클라우드의 중앙 위치로 사용하여 파일을 저장하고, 공동 작성하고, 통신하고 공동 작업을 수행할 수 있습니다. 원격 작업자는 웹 브라우저, Teams 그리고 Office 앱을 통해 어디에서나 안전하게 작업을 수행할 수 있습니다.
+콘텐츠 공동 작업의 경우 원격 작업자는 SharePoint 및 OneDrive 폴더를 클라우드의 중앙 위치로 사용하여 파일을 저장하고, 공동 작성하고, 통신하고 공동 작업을 수행할 수 있습니다. 원격 작업자는 웹 브라우저, Teams 그리고 Office 앱을 통해 어디에서나 안전하게 작업을 수행할 수 있습니다.
 
-SharePoint Online 및 비즈니스용 OneDrive를 보호하기 위한 권장 ID 및 장치 액세스 정책은 [이 문서](../enterprise/sharepoint-file-access-policies.md)를 참조하세요.
+다음에서 문서를 SharePoint 또는 OneDrive로 마이그레이션해야 할 수 있습니다.
+
+- [SharePoint Server Team 사이트](https://docs.microsoft.com/sharepointmigration/sp-teams-sites-migration-guide)
+- [MySites](https://docs.microsoft.com/sharepointmigration/mysites-to-onedrive-migration-guide)
+- [파일 공유](https://docs.microsoft.com/sharepointmigration/fileshare-to-odsp-migration-guide)
+- [Box](https://docs.microsoft.com/sharepointmigration/box-to-onedrive-and-sharepoint-migration-guide)
+
+SharePoint 및 OneDrive를 보호하기 위해 권장 ID 및 장치 액세스 정책에 대해 [이 문서](../enterprise/sharepoint-file-access-policies.md)를 참조하세요.
 
 ## <a name="create-and-collaborate-on-content-with-microsoft-365-apps"></a>Microsoft 365 앱을 사용한 콘텐츠 만들기 및 공동 작업
 
