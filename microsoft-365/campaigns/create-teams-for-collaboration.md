@@ -30,60 +30,60 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 07/08/2020
 ms.locfileid: "45079788"
 ---
-# <a name="create-teams-for-collaboration-in-microsoft-teams"></a><span data-ttu-id="60e55-103">Microsoft 팀에서 공동 작업을 위한 팀 만들기</span><span class="sxs-lookup"><span data-stu-id="60e55-103">Create teams for collaboration in Microsoft Teams</span></span>
+# <a name="create-teams-for-collaboration-in-microsoft-teams"></a><span data-ttu-id="8868e-103">Microsoft 팀에서 공동 작업을 위한 팀 만들기</span><span class="sxs-lookup"><span data-stu-id="8868e-103">Create teams for collaboration in Microsoft Teams</span></span>
 
-<span data-ttu-id="60e55-104">Microsoft 팀은 모든 장치에서 직원 들의 구성을 유지 하 고 대화를 나눌 수 있도록 하는 공동 작업 앱입니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-104">Microsoft Teams is a collaboration app that helps your staff stay organized and have conversations, from any device.</span></span> <span data-ttu-id="60e55-105">Microsoft 팀을 사용 하 여 직원의 구성원이 나 조직 외부의 게스트를 즉시 대화할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-105">You can use Microsoft Teams to have instant conversations with members of your staff or guests outside your organization.</span></span> <span data-ttu-id="60e55-106">전화를 걸고, 모임을 호스트 하 고, 파일을 공유할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-106">You can also make phone calls, host meetings, and share files.</span></span>
+<span data-ttu-id="8868e-104">Microsoft 팀은 모든 장치에서 직원 들의 구성을 유지 하 고 대화를 나눌 수 있도록 하는 공동 작업 앱입니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-104">Microsoft Teams is a collaboration app that helps your staff stay organized and have conversations, from any device.</span></span> <span data-ttu-id="8868e-105">Microsoft 팀을 사용 하 여 직원의 구성원이 나 조직 외부의 게스트를 즉시 대화할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-105">You can use Microsoft Teams to have instant conversations with members of your staff or guests outside your organization.</span></span> <span data-ttu-id="8868e-106">전화를 걸고, 모임을 호스트 하 고, 파일을 공유할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-106">You can also make phone calls, host meetings, and share files.</span></span>
 
-## <a name="best-practices"></a><span data-ttu-id="60e55-107">모범 사례</span><span class="sxs-lookup"><span data-stu-id="60e55-107">Best practices</span></span>
+## <a name="best-practices"></a><span data-ttu-id="8868e-107">모범 사례</span><span class="sxs-lookup"><span data-stu-id="8868e-107">Best practices</span></span>
 
-<span data-ttu-id="60e55-108">예를 들어 캠페인은 다음과 같은 팀을 만들어 안전 하 게 통신 하 고 공동으로 작업할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-108">As an example, campaigns can create the following teams to communicate and collaborate securely:</span></span>
+<span data-ttu-id="8868e-108">예를 들어 캠페인은 다음과 같은 팀을 만들어 안전 하 게 통신 하 고 공동으로 작업할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-108">As an example, campaigns can create the following teams to communicate and collaborate securely:</span></span>
 
-1. <span data-ttu-id="60e55-109">**캠페인 팀장 팀:** 주요 캠페인 구성원만 데이터에 액세스 하 고 잠재적으로 중요 한 관심사를 논의할 수 있도록이를 개인 팀으로 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-109">**A Campaign Leads team:** Set this up as a private team so that only your key campaign members can access it and discuss potentially sensitive concerns.</span></span>
-2. <span data-ttu-id="60e55-110">**일반 캠페인 팀:** 이 작업은 모든 사용자가 하루 종일 통신을 수행 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-110">**A general Campaign team:** This is for everyone to use for day to day communications and work.</span></span> <span data-ttu-id="60e55-111">개인, 그룹 또는 committees이 팀에서 채널을 설정 하 여 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-111">Individuals, groups, or committees can set up channels in this team to do their work.</span></span> <span data-ttu-id="60e55-112">예를 들어 이벤트 계획 사용자는 캠페인 이벤트에 대 한 물류 및 조정에 대 한 채널을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-112">For example, the event planning people can set up a channel to chat and coordinate logistics for campaign events.</span></span>
-3. <span data-ttu-id="60e55-113">**파트너 팀:** 이 팀은 공급 업체, 파트너 또는 지원자와 협력 하 여 모든 사항을 중요 하 게 허용 하지 않고이를 조정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-113">**A partners team:** This is a team where you can coordinate with your vendors, partners, or volunteers without allowing them into anything sensitive.</span></span>
+1. <span data-ttu-id="8868e-109">**캠페인 팀장 팀:** 주요 캠페인 구성원만 데이터에 액세스 하 고 잠재적으로 중요 한 관심사를 논의할 수 있도록이를 개인 팀으로 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-109">**A Campaign Leads team:** Set this up as a private team so that only your key campaign members can access it and discuss potentially sensitive concerns.</span></span>
+2. <span data-ttu-id="8868e-110">**일반 캠페인 팀:** 이 작업은 모든 사용자가 하루 종일 통신을 수행 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-110">**A general Campaign team:** This is for everyone to use for day to day communications and work.</span></span> <span data-ttu-id="8868e-111">개인, 그룹 또는 committees이 팀에서 채널을 설정 하 여 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-111">Individuals, groups, or committees can set up channels in this team to do their work.</span></span> <span data-ttu-id="8868e-112">예를 들어 이벤트 계획 사용자는 캠페인 이벤트에 대 한 물류 및 조정에 대 한 채널을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-112">For example, the event planning people can set up a channel to chat and coordinate logistics for campaign events.</span></span>
+3. <span data-ttu-id="8868e-113">**파트너 팀:** 이 팀은 공급 업체, 파트너 또는 지원자와 협력 하 여 모든 사항을 중요 하 게 허용 하지 않고이를 조정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-113">**A partners team:** This is a team where you can coordinate with your vendors, partners, or volunteers without allowing them into anything sensitive.</span></span>
 
-<span data-ttu-id="60e55-114">또한 특정 프로젝트에 대 한 팀을 만들고 포함 해야 하는 사람을 기준으로 적절 한 수준의 보호를 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-114">You can also create teams for specific projects and apply the right amount of protection based on who should be included.</span></span> 
+<span data-ttu-id="8868e-114">또한 특정 프로젝트에 대 한 팀을 만들고 포함 해야 하는 사람을 기준으로 적절 한 수준의 보호를 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-114">You can also create teams for specific projects and apply the right amount of protection based on who should be included.</span></span> 
 
 ![보안 통신 및 공동 작업을 허용 하는 세 개의 개별 팀이 포함 된 Microsoft 팀 창 다이어그램](../media/m365-democracy-teams-collab.png)
 
-<span data-ttu-id="60e55-116">팀을 만들 때는 다음 작업을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-116">When you create a team, here's what else gets created:</span></span>
+<span data-ttu-id="8868e-116">팀을 만들 때는 다음 작업을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-116">When you create a team, here's what else gets created:</span></span>
 
-- <span data-ttu-id="60e55-117">새 [Microsoft 365 그룹](https://docs.microsoft.com/MicrosoftTeams/office-365-groups)</span><span class="sxs-lookup"><span data-stu-id="60e55-117">A new [Microsoft 365 group](https://docs.microsoft.com/MicrosoftTeams/office-365-groups)</span></span>
-- <span data-ttu-id="60e55-118">팀 파일을 저장 하는 [SharePoint Online](https://docs.microsoft.com/MicrosoftTeams/sharepoint-onedrive-interact) 사이트 및 문서 라이브러리</span><span class="sxs-lookup"><span data-stu-id="60e55-118">A [SharePoint Online](https://docs.microsoft.com/MicrosoftTeams/sharepoint-onedrive-interact) site and document library to store team files</span></span>
-- <span data-ttu-id="60e55-119">[Exchange Online](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact) 공유 사서함 및 일정</span><span class="sxs-lookup"><span data-stu-id="60e55-119">An [Exchange Online](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact) shared mailbox and calendar</span></span>
-- <span data-ttu-id="60e55-120">OneNote 전자 필기장</span><span class="sxs-lookup"><span data-stu-id="60e55-120">A OneNote notebook</span></span>
-- <span data-ttu-id="60e55-121">Planner 및 Power BI와 같은 다른 Office 365 앱에 동률</span><span class="sxs-lookup"><span data-stu-id="60e55-121">Ties into other Office 365 apps such as Planner and Power BI</span></span>
+- <span data-ttu-id="8868e-117">새 [Microsoft 365 그룹](https://docs.microsoft.com/MicrosoftTeams/office-365-groups)</span><span class="sxs-lookup"><span data-stu-id="8868e-117">A new [Microsoft 365 group](https://docs.microsoft.com/MicrosoftTeams/office-365-groups)</span></span>
+- <span data-ttu-id="8868e-118">팀 파일을 저장 하는 [SharePoint Online](https://docs.microsoft.com/MicrosoftTeams/sharepoint-onedrive-interact) 사이트 및 문서 라이브러리</span><span class="sxs-lookup"><span data-stu-id="8868e-118">A [SharePoint Online](https://docs.microsoft.com/MicrosoftTeams/sharepoint-onedrive-interact) site and document library to store team files</span></span>
+- <span data-ttu-id="8868e-119">[Exchange Online](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact) 공유 사서함 및 일정</span><span class="sxs-lookup"><span data-stu-id="8868e-119">An [Exchange Online](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact) shared mailbox and calendar</span></span>
+- <span data-ttu-id="8868e-120">OneNote 전자 필기장</span><span class="sxs-lookup"><span data-stu-id="8868e-120">A OneNote notebook</span></span>
+- <span data-ttu-id="8868e-121">Planner 및 Power BI와 같은 다른 Office 365 앱에 동률</span><span class="sxs-lookup"><span data-stu-id="8868e-121">Ties into other Office 365 apps such as Planner and Power BI</span></span>
 
-<span data-ttu-id="60e55-122">Microsoft 팀 내에서 다음을 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-122">Inside Microsoft Teams, you can find:</span></span>
-1. <span data-ttu-id="60e55-123">**팀:** 자신에 게 속하거나 직접 만들 채널을 찾습니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-123">**Teams:** Find channels to belong to or create your own.</span></span> <span data-ttu-id="60e55-124">채널 내부 모임, 대화 및 공유 파일을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-124">Inside channels you can hold on-the-spot meetings, have conversations, and share files.</span></span>
+<span data-ttu-id="8868e-122">Microsoft 팀 내에서 다음을 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-122">Inside Microsoft Teams, you can find:</span></span>
+1. <span data-ttu-id="8868e-123">**팀:** 자신에 게 속하거나 직접 만들 채널을 찾습니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-123">**Teams:** Find channels to belong to or create your own.</span></span> <span data-ttu-id="8868e-124">채널 내부 모임, 대화 및 공유 파일을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-124">Inside channels you can hold on-the-spot meetings, have conversations, and share files.</span></span>
 
-2. <span data-ttu-id="60e55-125">**모임:** 해당 요일이 나 주 동안 줄이 나오는 모든 항목을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-125">**Meetings:** See everything you've got lined up for the day or week.</span></span> <span data-ttu-id="60e55-126">또는 모임을 예약 합니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-126">Or, schedule a meeting.</span></span> <span data-ttu-id="60e55-127">이 일정은 Outlook 일정과 동기화 됩니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-127">This calendar syncs with your Outlook calendar.</span></span>
+2. <span data-ttu-id="8868e-125">**모임:** 해당 요일이 나 주 동안 줄이 나오는 모든 항목을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-125">**Meetings:** See everything you've got lined up for the day or week.</span></span> <span data-ttu-id="8868e-126">또는 모임을 예약 합니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-126">Or, schedule a meeting.</span></span> <span data-ttu-id="8868e-127">이 일정은 Outlook 일정과 동기화 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-127">This calendar syncs with your Outlook calendar.</span></span>
  
-3. <span data-ttu-id="60e55-128">**통화:** 조직에서 설정 하는 경우 Microsoft 팀을 사용 하 고 있지 않더라도 Microsoft 팀에서 모든 사용자에 게 전화를 걸 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-128">**Calls:** In some cases, if your organization has it set up, you can call anyone from Microsoft Teams, even if they're not using Microsoft Teams.</span></span>
+3. <span data-ttu-id="8868e-128">**통화:** 조직에서 설정 하는 경우 Microsoft 팀을 사용 하 고 있지 않더라도 Microsoft 팀에서 모든 사용자에 게 전화를 걸 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-128">**Calls:** In some cases, if your organization has it set up, you can call anyone from Microsoft Teams, even if they're not using Microsoft Teams.</span></span>
 
-4. <span data-ttu-id="60e55-129">**활동:** 읽지 않은 메시지, @mentions, 회신 등을 모두 파악 합니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-129">**Activity:** Catch up on all your unread messages, @mentions, replies, and more.</span></span> 
+4. <span data-ttu-id="8868e-129">**활동:** 읽지 않은 메시지, @mentions, 회신 등을 모두 파악 합니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-129">**Activity:** Catch up on all your unread messages, @mentions, replies, and more.</span></span> 
 
-<span data-ttu-id="60e55-130">맨 위에 있는 명령 상자를 사용 하 여 특정 항목 또는 사용자를 검색 하 고, 빠른 작업을 수행 하 고, 앱을 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-130">Use the command box at the top to search for specific items or people, take quick actions, and launch apps.</span></span>
-
-
-## <a name="set-it-up"></a><span data-ttu-id="60e55-131">설정하기</span><span class="sxs-lookup"><span data-stu-id="60e55-131">Set it up</span></span>
+<span data-ttu-id="8868e-130">맨 위에 있는 명령 상자를 사용 하 여 특정 항목 또는 사용자를 검색 하 고, 빠른 작업을 수행 하 고, 앱을 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-130">Use the command box at the top to search for specific items or people, take quick actions, and launch apps.</span></span>
 
 
-<span data-ttu-id="60e55-132">캠페인 관리자 및 이와 같은 후보로 개인 팀을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-132">Create a private team for just the campaign manager and candidate like this.</span></span> 
+## <a name="set-it-up"></a><span data-ttu-id="8868e-131">설정하기</span><span class="sxs-lookup"><span data-stu-id="8868e-131">Set it up</span></span>
+
+
+<span data-ttu-id="8868e-132">캠페인 관리자 및 이와 같은 후보로 개인 팀을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-132">Create a private team for just the campaign manager and candidate like this.</span></span> 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWeqWA]
 
-<span data-ttu-id="60e55-133">캠페인의 모든 사용자가 파일을 전달 하 고 공유 하는 데 사용할 수 있는 조직 차원의 팀을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-133">Create an organization-wide team that everyone in the campaign can use to communicate and share files.</span></span>
+<span data-ttu-id="8868e-133">캠페인의 모든 사용자가 파일을 전달 하 고 공유 하는 데 사용할 수 있는 조직 차원의 팀을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-133">Create an organization-wide team that everyone in the campaign can use to communicate and share files.</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2GCG9]
 
-<span data-ttu-id="60e55-134">캠페인 외부의 게스트와 공유 하는 팀 (예: 융자 광고)을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-134">Create a team that you share with guests outside the campaign, such as advertising of financing.</span></span>
+<span data-ttu-id="8868e-134">캠페인 외부의 게스트와 공유 하는 팀 (예: 융자 광고)을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-134">Create a team that you share with guests outside the campaign, such as advertising of financing.</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FQMp]
 
-<span data-ttu-id="60e55-135">Microsoft 팀의 Microsoft 팀 [기술 설명서](https://docs.microsoft.com/microsoftteams/microsoft-teams) 에 대 한 자세한 정보</span><span class="sxs-lookup"><span data-stu-id="60e55-135">Learn more about Microsoft Teams at [Microsoft Teams technical documentation](https://docs.microsoft.com/microsoftteams/microsoft-teams)</span></span>
+<span data-ttu-id="8868e-135">Microsoft 팀의 Microsoft 팀 [기술 설명서](https://docs.microsoft.com/microsoftteams/microsoft-teams) 에 대 한 자세한 정보</span><span class="sxs-lookup"><span data-stu-id="8868e-135">Learn more about Microsoft Teams at [Microsoft Teams technical documentation](https://docs.microsoft.com/microsoftteams/microsoft-teams)</span></span>
 
-## <a name="admin-settings"></a><span data-ttu-id="60e55-136">관리 설정</span><span class="sxs-lookup"><span data-stu-id="60e55-136">Admin settings</span></span>
+## <a name="admin-settings"></a><span data-ttu-id="8868e-136">관리 설정</span><span class="sxs-lookup"><span data-stu-id="8868e-136">Admin settings</span></span>
 
-<span data-ttu-id="60e55-137">조직 차원의 팀을 만들려면 관리자 여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="60e55-137">You must be an admin to create an organization-wide team.</span></span> <span data-ttu-id="60e55-138">자세한 내용은 [Microsoft 365의 관리자 란?](https://support.office.com/article/what-is-an-admin-e123627e-4892-4461-b9aa-1b6d57a5cfa4?ui=en-US&rs=en-US&ad=US)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="60e55-138">For more information, see [What is an Admin in Microsoft 365?](https://support.office.com/article/what-is-an-admin-e123627e-4892-4461-b9aa-1b6d57a5cfa4?ui=en-US&rs=en-US&ad=US).</span></span>
+<span data-ttu-id="8868e-137">조직 차원의 팀을 만들려면 관리자 여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8868e-137">You must be an admin to create an organization-wide team.</span></span> <span data-ttu-id="8868e-138">자세한 내용은 [Microsoft 365의 관리자 란?](https://support.office.com/article/what-is-an-admin-e123627e-4892-4461-b9aa-1b6d57a5cfa4?ui=en-US&rs=en-US&ad=US)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="8868e-138">For more information, see [What is an Admin in Microsoft 365?](https://support.office.com/article/what-is-an-admin-e123627e-4892-4461-b9aa-1b6d57a5cfa4?ui=en-US&rs=en-US&ad=US).</span></span>
   

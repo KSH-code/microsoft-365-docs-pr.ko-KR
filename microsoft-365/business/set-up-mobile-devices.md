@@ -32,80 +32,80 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 06/18/2020
 ms.locfileid: "44785875"
 ---
-# <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a><span data-ttu-id="afadf-103">Microsoft 365 for business 사용자를 위한 모바일 장치 설정</span><span class="sxs-lookup"><span data-stu-id="afadf-103">Set up mobile devices for Microsoft 365 for business users</span></span>
+# <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a><span data-ttu-id="d8c95-103">Microsoft 365 for business 사용자를 위한 모바일 장치 설정</span><span class="sxs-lookup"><span data-stu-id="d8c95-103">Set up mobile devices for Microsoft 365 for business users</span></span>
 
-<span data-ttu-id="afadf-104">iPhone 또는 Android 휴대폰에서 Office를 설치하려면 탭의 지침을 따르세요.</span><span class="sxs-lookup"><span data-stu-id="afadf-104">Follow the instructions in the tabs to install Office on an iPhone or an Android phone.</span></span> <span data-ttu-id="afadf-105">이러한 단계를 수행한 후에는 Office 앱에서 만든 작업 파일이 비즈니스용 Microsoft 365에 의해 보호 됩니다.</span><span class="sxs-lookup"><span data-stu-id="afadf-105">After you follow these steps, your work files created in Office apps will be protected by Microsoft 365 for business.</span></span>
+<span data-ttu-id="d8c95-104">iPhone 또는 Android 휴대폰에서 Office를 설치하려면 탭의 지침을 따르세요.</span><span class="sxs-lookup"><span data-stu-id="d8c95-104">Follow the instructions in the tabs to install Office on an iPhone or an Android phone.</span></span> <span data-ttu-id="d8c95-105">이러한 단계를 수행한 후에는 Office 앱에서 만든 작업 파일이 비즈니스용 Microsoft 365에 의해 보호 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d8c95-105">After you follow these steps, your work files created in Office apps will be protected by Microsoft 365 for business.</span></span>
 
-<span data-ttu-id="afadf-106">다음은 Outlook에 대한 단계를 보여주는 예제이지만 설치하려는 모든 Office 앱에 적용되는 내용입니다.</span><span class="sxs-lookup"><span data-stu-id="afadf-106">The example is for Outlook, but applies for any other Office apps you want to install also.</span></span>
+<span data-ttu-id="d8c95-106">다음은 Outlook에 대한 단계를 보여주는 예제이지만 설치하려는 모든 Office 앱에 적용되는 내용입니다.</span><span class="sxs-lookup"><span data-stu-id="d8c95-106">The example is for Outlook, but applies for any other Office apps you want to install also.</span></span>
   
-## <a name="set-up-mobile-devices"></a><span data-ttu-id="afadf-107">모바일 장치 설정</span><span class="sxs-lookup"><span data-stu-id="afadf-107">Set up mobile devices</span></span>
+## <a name="set-up-mobile-devices"></a><span data-ttu-id="d8c95-107">모바일 장치 설정</span><span class="sxs-lookup"><span data-stu-id="d8c95-107">Set up mobile devices</span></span>
 
-## <a name="iphone"></a>[<span data-ttu-id="afadf-108">iPhone</span><span class="sxs-lookup"><span data-stu-id="afadf-108">iPhone</span></span>](#tab/iPhone)
+## <a name="iphone"></a>[<span data-ttu-id="d8c95-108">iPhone</span><span class="sxs-lookup"><span data-stu-id="d8c95-108">iPhone</span></span>](#tab/iPhone)
   
-<span data-ttu-id="afadf-109">Microsoft 365 for business를 사용 하 여 iOS 장치에서 Office 앱을 설정 하는 방법에 대 한 간단한 비디오를 시청 하세요.</span><span class="sxs-lookup"><span data-stu-id="afadf-109">Watch a short video on how to set up Office apps on iOS devices with Microsoft 365 for business.</span></span><br><br>
+<span data-ttu-id="d8c95-109">Microsoft 365 for business를 사용 하 여 iOS 장치에서 Office 앱을 설정 하는 방법에 대 한 간단한 비디오를 시청 하세요.</span><span class="sxs-lookup"><span data-stu-id="d8c95-109">Watch a short video on how to set up Office apps on iOS devices with Microsoft 365 for business.</span></span><br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWee2n] 
 
-<span data-ttu-id="afadf-110">이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="afadf-110">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
+<span data-ttu-id="d8c95-110">이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="d8c95-110">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
 
-<span data-ttu-id="afadf-111">**App store**로 이동하여 검색 필드에 Microsoft Outlook을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="afadf-111">Go to **App store**, and in the search field type in Microsoft Outlook.</span></span>
+<span data-ttu-id="d8c95-111">**App store**로 이동하여 검색 필드에 Microsoft Outlook을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="d8c95-111">Go to **App store**, and in the search field type in Microsoft Outlook.</span></span>
   
 ![Go to the iPhone App Store](../media/886913de-76e5-4883-8ed0-4eb3ec06188f.png)
   
-<span data-ttu-id="afadf-113">구름 아이콘을 탭하여 Outlook을 설치합니다.</span><span class="sxs-lookup"><span data-stu-id="afadf-113">Tap the cloud icon to install Outlook.</span></span>
+<span data-ttu-id="d8c95-113">구름 아이콘을 탭하여 Outlook을 설치합니다.</span><span class="sxs-lookup"><span data-stu-id="d8c95-113">Tap the cloud icon to install Outlook.</span></span>
   
 ![Tap the cloud icon to install Outlook](../media/665e1620-948a-4ab8-b914-dca49530142c.png)
   
-<span data-ttu-id="afadf-115">설치가 완료되면 **열기** 단추를 탭하여 Outlook을 연 다음 **시작**을 탭합니다.</span><span class="sxs-lookup"><span data-stu-id="afadf-115">When the installation is done, tap the **Open** button to open Outlook and then tap **Get Started**.</span></span>
+<span data-ttu-id="d8c95-115">설치가 완료되면 **열기** 단추를 탭하여 Outlook을 연 다음 **시작**을 탭합니다.</span><span class="sxs-lookup"><span data-stu-id="d8c95-115">When the installation is done, tap the **Open** button to open Outlook and then tap **Get Started**.</span></span>
   
 ![Screenshot of Outlook with Get Started button](../media/005bedec-ae50-4d75-b3bb-e7cef9e2561c.png)
   
-<span data-ttu-id="afadf-117">**전자 메일 계정 추가** 화면에 회사 전자 메일 주소를 입력 하 \> 고 **계정 추가**를 클릭 한 다음 Microsoft 365 for business credentials \> **로그인**을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="afadf-117">Enter your work email address on the **Add Email Account** screen \> **Add Account**, and then enter your Microsoft 365 for business credentials \> **Sign in**.</span></span>
+<span data-ttu-id="d8c95-117">**전자 메일 계정 추가** 화면에 회사 전자 메일 주소를 입력 하 \> 고 **계정 추가**를 클릭 한 다음 Microsoft 365 for business credentials \> **로그인**을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="d8c95-117">Enter your work email address on the **Add Email Account** screen \> **Add Account**, and then enter your Microsoft 365 for business credentials \> **Sign in**.</span></span>
   
 ![Sign in to your work account](../media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png)
   
-<span data-ttu-id="afadf-119">조직이 앱에서 파일을 보호 하는 경우에는 조직에서 이제 앱의 데이터를 보호 하 고 앱을 다시 시작 하 여 계속 사용할 수 있음을 알리는 대화 상자가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="afadf-119">If your organization is protecting files in apps, you'll see a dialog stating that your organization is now protecting the data in the app and you need to restart the app to continue to use it.</span></span> <span data-ttu-id="afadf-120">**확인**을 탭하고 Outlook을 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="afadf-120">Tap **OK** and close Outlook.</span></span> 
+<span data-ttu-id="d8c95-119">조직이 앱에서 파일을 보호 하는 경우에는 조직에서 이제 앱의 데이터를 보호 하 고 앱을 다시 시작 하 여 계속 사용할 수 있음을 알리는 대화 상자가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d8c95-119">If your organization is protecting files in apps, you'll see a dialog stating that your organization is now protecting the data in the app and you need to restart the app to continue to use it.</span></span> <span data-ttu-id="d8c95-120">**확인**을 탭하고 Outlook을 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="d8c95-120">Tap **OK** and close Outlook.</span></span> 
   
 ![조직을 보여 주는 스크린샷 현재 Outlook 앱을 보호 하 고 있습니다.](../media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
   
-<span data-ttu-id="afadf-122">iPhone에서 Outlook을 찾아 다시 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="afadf-122">Locate Outlook on the iPhone, and restart it.</span></span> <span data-ttu-id="afadf-123">메시지가 표시 되 면 PIN을 입력 하 고 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="afadf-123">When prompted, enter a PIN and verify it.</span></span> <span data-ttu-id="afadf-124">이제 iPhone에서 Outlook을 사용할 준비가 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="afadf-124">Outlook on your iPhone is now ready to be used.</span></span>
+<span data-ttu-id="d8c95-122">iPhone에서 Outlook을 찾아 다시 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="d8c95-122">Locate Outlook on the iPhone, and restart it.</span></span> <span data-ttu-id="d8c95-123">메시지가 표시 되 면 PIN을 입력 하 고 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="d8c95-123">When prompted, enter a PIN and verify it.</span></span> <span data-ttu-id="d8c95-124">이제 iPhone에서 Outlook을 사용할 준비가 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="d8c95-124">Outlook on your iPhone is now ready to be used.</span></span>
   
 ![Set a PIN to access your organization's data](../media/64f2630b-3164-47a4-9dd6-ca0c29ed5fb3.png)
   
-## <a name="android"></a>[<span data-ttu-id="afadf-126">Android</span><span class="sxs-lookup"><span data-stu-id="afadf-126">Android</span></span>](#tab/Android)
+## <a name="android"></a>[<span data-ttu-id="d8c95-126">Android</span><span class="sxs-lookup"><span data-stu-id="d8c95-126">Android</span></span>](#tab/Android)
   
-<span data-ttu-id="afadf-127">Android 장치에 Outlook 및 Office를 설치 하는 방법에 대 한 비디오를 시청 하세요.</span><span class="sxs-lookup"><span data-stu-id="afadf-127">Watch a video about installing Outlook and Office on Android devices.</span></span><br><br>
+<span data-ttu-id="d8c95-127">Android 장치에 Outlook 및 Office를 설치 하는 방법에 대 한 비디오를 시청 하세요.</span><span class="sxs-lookup"><span data-stu-id="d8c95-127">Watch a video about installing Outlook and Office on Android devices.</span></span><br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ecc2e9c0-bc7e-4f26-8b14-91d84dbcfef0] 
 
-<span data-ttu-id="afadf-128">이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="afadf-128">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
+<span data-ttu-id="d8c95-128">이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="d8c95-128">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
 
-<span data-ttu-id="afadf-129">Android 휴대폰에서 설치 프로그램을 시작 하려면 Play 스토어로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="afadf-129">To begin setup on your Android phone, go to the Play Store.</span></span>
+<span data-ttu-id="d8c95-129">Android 휴대폰에서 설치 프로그램을 시작 하려면 Play 스토어로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="d8c95-129">To begin setup on your Android phone, go to the Play Store.</span></span>
   
 ![On the Android home screen, tap Play Store](../media/93df88e7-c778-40e1-b35e-868ca6e97f6c.png)
   
-<span data-ttu-id="afadf-131">Google Play 검색 상자에 Microsoft Outlook을 입력 하 고 **설치**를 탭 합니다.</span><span class="sxs-lookup"><span data-stu-id="afadf-131">Enter Microsoft Outlook in the Google Play search box and tap **Install**.</span></span> <span data-ttu-id="afadf-132">설치가 완료 되 면 **열기**를 누릅니다.</span><span class="sxs-lookup"><span data-stu-id="afadf-132">Once Outlook is done installing, tap **Open**.</span></span>
+<span data-ttu-id="d8c95-131">Google Play 검색 상자에 Microsoft Outlook을 입력 하 고 **설치**를 탭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d8c95-131">Enter Microsoft Outlook in the Google Play search box and tap **Install**.</span></span> <span data-ttu-id="d8c95-132">설치가 완료 되 면 **열기**를 누릅니다.</span><span class="sxs-lookup"><span data-stu-id="d8c95-132">Once Outlook is done installing, tap **Open**.</span></span>
   
 ![Tap Open to open Outlook app](../media/8b4c5937-8875-4b5a-a5b6-b8c6c9cd6240.png)
   
-<span data-ttu-id="afadf-134">Outlook 앱에서 **시작**을 탭 하 고 비즈니스용 Microsoft 365 for business 전자 메일 계정을 \> **계속**추가한 다음 조직 자격 증명을 사용 하 여 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="afadf-134">In the Outlook app, tap **Get Started**, then add your Microsoft 365 for business email account \> **Continue**, and sign in with your organization credentials.</span></span>
+<span data-ttu-id="d8c95-134">Outlook 앱에서 **시작**을 탭 하 고 비즈니스용 Microsoft 365 for business 전자 메일 계정을 \> **계속**추가한 다음 조직 자격 증명을 사용 하 여 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="d8c95-134">In the Outlook app, tap **Get Started**, then add your Microsoft 365 for business email account \> **Continue**, and sign in with your organization credentials.</span></span>
   
 ![Sign in to your organizational account in Outlook](../media/18f67c66-4bab-4b99-94bd-080839312e29.png)
   
-<span data-ttu-id="afadf-136">Intune 회사 포털 앱 설치를 안내하는 대화 상자에서 **스토어로 이동**을 탭합니다.</span><span class="sxs-lookup"><span data-stu-id="afadf-136">In the dialog that states you must install the Intune Company Portal app, tap **Go to store**.</span></span>
+<span data-ttu-id="d8c95-136">Intune 회사 포털 앱 설치를 안내하는 대화 상자에서 **스토어로 이동**을 탭합니다.</span><span class="sxs-lookup"><span data-stu-id="d8c95-136">In the dialog that states you must install the Intune Company Portal app, tap **Go to store**.</span></span>
   
 ![Tap on Go to store to get Intune Company Portal app](../media/a702d712-5622-45dd-a511-b1adaee63071.png)
   
-<span data-ttu-id="afadf-138">Play 스토어에서 Intune 회사 포털을 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="afadf-138">In Play Store, install Intune Company Portal.</span></span>
+<span data-ttu-id="d8c95-138">Play 스토어에서 Intune 회사 포털을 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="d8c95-138">In Play Store, install Intune Company Portal.</span></span>
   
 ![Screenshot that shows the install button for Intune Company Portal in Google Play Store](../media/5e0408f2-3f37-44dd-80ed-13ca2ac6df0c.png)
   
-<span data-ttu-id="afadf-140">Open Outlook again, and enter and confirm a PIN.</span><span class="sxs-lookup"><span data-stu-id="afadf-140">Open Outlook again, and enter and confirm a PIN.</span></span> <span data-ttu-id="afadf-141">Your Outlook app is now ready for use.</span><span class="sxs-lookup"><span data-stu-id="afadf-141">Your Outlook app is now ready for use.</span></span>
+<span data-ttu-id="d8c95-p105">Outlook을 다시 열어 PIN을 입력하고 확인합니다. 이제 Outlook 앱을 사용할 준비가 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="d8c95-p105">Open Outlook again, and enter and confirm a PIN. Your Outlook app is now ready for use.</span></span>
   
 ![Set  PIN for Outlook app in Android](../media/edb91afb-f1ed-451a-bc6b-8ccba664e055.png)
 
-## <a name="see-also"></a><span data-ttu-id="afadf-143">참고 항목</span><span class="sxs-lookup"><span data-stu-id="afadf-143">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d8c95-143">참고 항목</span><span class="sxs-lookup"><span data-stu-id="d8c95-143">See also</span></span>
 
-[<span data-ttu-id="afadf-144">Microsoft 365 Business 교육 비디오</span><span class="sxs-lookup"><span data-stu-id="afadf-144">Microsoft 365 for business training videos</span></span>](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[<span data-ttu-id="d8c95-144">Microsoft 365 Business 교육 비디오</span><span class="sxs-lookup"><span data-stu-id="d8c95-144">Microsoft 365 for business training videos</span></span>](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
 
 ---
