@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365에서 조직의 중요한 정보를 자동으로 식별하고 모니터링하고 보호하는 방법을 알아봅니다.
-ms.openlocfilehash: 93d0eaf882569b6645c98699f83ad19a25af4864
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 8d507a32a6f36555eabfa0216febdb167ad4241c
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817947"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127535"
 ---
 # <a name="overview-of-data-loss-prevention"></a>데이터 손실 방지 개요
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -337,11 +337,11 @@ DLP 정책을 만들고 설정한 후에 다음과 같은 문제가 발생하기
     
 ## <a name="using-a-retention-label-as-a-condition-in-a-dlp-policy"></a>보존 레이블을 DLP 정책의 조건으로 사용
 
-DLP 정책에서 이전에 생성 및 게시 된 [보존 레이블](labels.md)을 조건으로 사용하는 경우 다음 사항에 유의해야 합니다.
+DLP 정책에서 이전에 생성 및 게시 된 [보존 레이블](retention.md#retention-labels)을 조건으로 사용하는 경우 다음 사항에 유의해야 합니다.
 
-- 보존 레이블을 DLP 정책의 조건으로 사용하기 전에 보존 레이블을 미리 작성, 게시 및 적용해야 합니다.
-- 보존 레이블은 생성 및 게시된 후 자동으로 적용되려면 하루가 소요되고 최대 7일이 소요될 수 있습니다. 자세한 정보는 [보존 레이블이 적용되는 데 걸리는 시간](create-retention-labels.md#how-long-it-takes-for-retention-labels-to-take-effect)을 참조하세요.
-- 정책에서 보존 레이블을 사용하는 것은 ***SharePoint Online 및 비즈니스 용 OneDrive 항목***에만 지원됩니다.
+- DLP 정책의 조건으로 사용하기 전 미리 보존 레이블을 작성 및 게시해야 합니다.
+- 게시한 보존 레이블이 동기화되기까지 1일에서 7일까지 걸릴 수 있습니다. 자세한 내용은 보존 정책 형태로 게시되는 보존 레이블에 대한 [보존 레이블을 적용할 수 있게 되는 때](create-apply-retention-labels.md#when-retention-labels-become-available-to-apply) 및 자동 게시되는 보존 레이블에 대한 [보존 레이블이 유효해지는 데 걸리는 시간](apply-retention-labels-automatically.md#how-long-it-takes-for-retention-labels-to-take-effect)을 참조하세요.
+- 정책** 형태로 보존 레이블 사용하기는 SharePoint 및 OneDrive***의 항목에 한해 지원됩니다.
 
   ![조건으로서의 레이블](../media/5b1752b4-a129-4a88-b010-8dcf8a38bb09.png)
 
@@ -360,7 +360,7 @@ DLP 정책에서 이전에 생성 및 게시 된 [보존 레이블](labels.md)�
 
 중요한 정보를 포함하는 콘텐츠에 다음과 같은 몇 가지 기능을 적용할 수 있습니다:
   
-- [보존 레이블](labels.md#applying-a-retention-label-automatically-based-on-conditions) 및 [보존 정책](retention-policies.md)은 둘 다 해당 콘텐츠에 **보존** 작업을 적용할 수 있습니다. 
+- [보존 레이블 및 보존 정책](retention.md) 모두 해당 콘텐츠에서 **보존** 작업을 적용할 수 있습니다. 
     
 - DLP 정책은 해당 콘텐츠에 **보호** 작업을 적용할 수 있습니다. 또한 이러한 작업을 적용하기 전에 DLP 정책은 레이블을 포함하는 콘텐츠 외에 다른 조건이 충족되도록 요구할 수 있습니다. 
     

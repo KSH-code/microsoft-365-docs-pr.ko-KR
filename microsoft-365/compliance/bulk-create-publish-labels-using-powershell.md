@@ -1,5 +1,5 @@
 ---
-title: PowerShell을 사용하여 보존 레이블 대량 생성 및 게시
+title: PowerShell을 사용하여 보존 레이블 만들기 및 게시
 f1.keywords:
 - NOCSH
 ms.author: cabailey
@@ -17,43 +17,52 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: PowerShell을 사용하여 Office 365 보존 레이블을 사용하여 조직의 보존 일정을 구현하는 방법을 알아봅니다.
-ms.openlocfilehash: 01ec0758abc0580aadb6f0fce623e449ec31c853
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: PowerShell을 사용하여 Microsoft 365 준수 센터와 별개로 명령줄에서 보존 레이블을 만들고 게시하는 방법을 알아봅니다.
+ms.openlocfilehash: 416746bb849020d76bcf950d397768239d17baf1
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035536"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126369"
 ---
-# <a name="bulk-create-and-publish-retention-labels-by-using-powershell"></a>PowerShell을 사용하여 보존 레이블 대량 생성 및 게시
+# <a name="create-and-publish-retention-labels-by-using-powershell"></a>PowerShell을 사용하여 보존 레이블 만들기 및 게시
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
 
-Office 365에서 보존 레이블을 사용하여 조직의 보존 일정을 구현할 수 있습니다. 레코드 관리자 또는 준수 담당자는 수백 개의 보존 레이블을 만들고 게시해야 할 수 있습니다. 보안 &amp; 준수 센터에서 UI를 통해 이 작업을 수행할 수 있지만, 한 번에 하나씩 보존 레이블을 만드는 경우 시간이 오래 걸리고 비효율적입니다.
+Microsoft 365에서 문서 및 전자 메일을 유지하거나 삭제하게 해주는 [보존 레이블](retention.md)을 사용하기로 결정한 후에 최대 수백 개에 이르는 여러 개의 보존 레이블을 만들고 게시할 수 있음을 깨달았을 수 있습니다. 대량으로 보존 레이블을 만드는 권장 방법은 Microsoft 365 준수 센터에서 [파일 계획](file-plan-manager.md)을 사용하는 것입니다. 그렇지만 [PowerShell](retention.md#powershell-cmdlets-for-retention-policies-and-retention-labels)을 사용할 수도 있습니다.
   
-아래에 제공된 스크립트와 .csv 파일을 사용하면 보존 레이블을 대량으로 만들고 및 보존 레이블 정책을 게시할 수 있습니다. 먼저 Excel에서 보존 레이블 목록과 보존 레이블 정책 목록을 만든 다음 PowerShell을 사용하여 해당 목록에 보존 레이블 및 보존 레이블 정책을 대량으로 만듭니다. 이렇게 하면 보존 일정에 필요한 모든 보존 레이블을 한 번에 더 쉽게 만들고 게시할 수 있습니다.
-  
-보존 레이블에 대한 자세한 내용은 [레이블 개요](labels.md)를 참조하세요.
+보존 레이블을 일괄적으로 만들어 보존 레이블 정책의 형태로 게시할 수 있도록 이 문서의 정보, 서식 파일과 예제, 스크립트를 사용합니다. 그런 다음 [관리자 및 사용자가 보존 레이블을 적용](create-apply-retention-labels.md#how-to-apply-published-retention-labels)할 수 있습니다.
+
+제공된 지침은 자동 적용된 보존 레이블과는 관련이 없습니다.
+
+개요: 
+
+1. Excel에서 보존 레이블의 목록과 보존 레이블 정책의 목록을 작성합니다.
+
+2. PowerShell을 사용하여 해당 목록에 있는 보존 레이블과 보존 레이블 정책을 만듭니다.
   
 ## <a name="disclaimer"></a>고지 사항
 
-이 항목에서 제공된 샘플 스크립트는 Microsoft 표준 지원 프로그램 또는 서비스에서는 지원되지 않습니다. 샘플 스크립트는 어떠한 보증도 없이 "있는 그대로" 제공됩니다. Microsoft는 묵시적인 모든 보증(상품성 또는 특정 목적에의 적합성에 대한 묵시적인 보증을 포함하되 이에 제한되지 않음)을 부인합니다. 샘플 스크립트 및 문서의 사용 또는 수행으로 인해 발생하는 모든 위험은 사용자의 책임입니다. 어떠한 경우에도 Microsoft, 스크립트 작성자 또는 스크립트의 작성, 생산 또는 제공과 관련된 사람은 누구나 샘플 스크립트 또는 문서의 사용 또는 사용 불가능으로 인해 발생하는 모든 손해(수익에 대한 손실, 비즈니스 중단, 비즈니스 정보 손실 또는 기타 금전상의 손실을 포함하되 이에 제한되지 않음)에 대해 책임지지 않습니다. 이는 Microsoft가 이러한 손해가 발생할 가능성에 대해 알고 있었더라고 마찬가지입니다.
+이 문서에 제공된 샘플 스크립트는 Microsoft 표준 지원 프로그램 또는 서비스에서 지원되지 않습니다. 샘플 스크립트는 어떠한 보증도 없이 "있는 그대로" 제공됩니다. 또한 Microsoft는 묵시적인 모든 보증(상품성 또는 특정 목적에의 적합성에 대한 묵시적인 보증을 포함하되 이에 제한되지 않음)을 부인합니다. 샘플 스크립트 및 문서의 사용 또는 수행으로 인해 발생하는 모든 위험은 사용자의 책임입니다. 어떠한 경우에도 Microsoft, 스크립트 작성자 또는 그외 스크립트의 작성, 생산 또는 제공과 관련된 사람은 누구나 샘플 스크립트 또는 문서의 사용 또는 사용할 수 없음으로 인해 발생하는 모든 손해(수익 손실, 비즈니스 중단, 비즈니스 정보 손실 또는 기타 금전상의 손실을 포함하되 이에 제한되지 않음)에 대해 책임지지 않습니다. 이는 Microsoft가 이러한 손해가 발생할 가능성에 대해 알았더라도 마찬가지입니다.
   
-## <a name="step-1-create-a-csv-file-for-creating-the-retention-labels"></a>1단계: 보존 레이블을 만들기 위한 .csv 파일 만들기
+## <a name="step-1-create-a-csv-file-for-the-retention-labels"></a>1단계: 보존 레이블에 대한 .csv 파일 만들기
 
-먼저 보존 레이블 목록과 해당 설정이 포함된 .csv 파일을 만듭니다. 아래 샘플을 Excel에 복사하고 텍스트를 열로 변환(Excel \> **데이터** 탭 \> **텍스트 나누기** \> **구분** \> **쉼표** \> **일반**)한 다음 워크시트를 찾기 쉬운 위치에 .csv 파일로 저장하면 이 샘플을 서식 파일로 사용할 수 있습니다.
-  
-이 cmdlet의 매개 변수 값에 대한 자세한 내용은 [New-ComplianceTag](https://go.microsoft.com/fwlink/?linkid=866511)를 참조하세요.
+1. 서식 파일에 대한 아래의 샘플 .csv 파일 및 서로 다른 네 개의 보존 레이블에 대한 예제 항목을 복사하여 Excel에 붙여넣습니다. 
+
+2. 텍스트를 열로 변환: **데이터** 탭 \> **텍스트를 열로 구분** \> **구분** \> **쉼표** \> **일반**
+
+2. 예제를 사용자가 직접 작성한 보존 레이블 및 설정 항목으로 대체합니다. 매개 변수 값에 대한 자세한 내용은 [New-ComplianceTag](https://go.microsoft.com/fwlink/?linkid=866511)를 참조하세요.
+
+3. 워크시트를 이후의 단계에서 쉽게 찾을 수 있는 위치에 .csv 파일로 저장합니다. 예: C:\>Scripts\Labels.csv
+
   
 참고:
-  
-- 보존 레이블을 만들기 위한 원본 파일을 제공하지 않으면 스크립트가 그대로 진행하여 보존 레이블을 게시하기 위한 원본 파일을 묻는 메시지를 표시하고(다음 섹션 참조) 기존 보존 레이블만 게시합니다.
-    
+
 - 이미 존재하는 보존 레이블과 동일한 이름을 가진 보존 레이블이 .csv 파일에 있을 경우 스크립트에서 해당 보존 레이블 생성을 건너뜁니다. 중복 보존 레이블은 생성되지 않습니다.
     
-- 열 머리글을 변경하거나 이름을 바꾸면 스크립트가 실패합니다. 여기에 제공된 형식의 .csv 파일이 스크립트에 필요합니다.
+- 제공된 샘플 .csv 파일에서 열 머리글을 변경하거나 이름을 바꾸지 마세요. 바꿀 경우 스크립트에 오류가 발생합니다.
     
-### <a name="sample-csv-file"></a>샘플 .csv 파일
+### <a name="sample-csv-file-for-retention-labels"></a>보존 레이블에 대한 샘플 .csv 파일
 
 ```
 Name (Required),Comment (Optional),IsRecordLabel (Required),RetentionAction (Optional),RetentionDuration (Optional),RetentionType (Optional),ReviewerEmail (Optional)
@@ -63,23 +72,24 @@ LabelName_t_3,5 year delete,$false,Delete,1825,TaggedAgeInDays,
 LabelName_t_4,Record label tag - financial,$true,Keep,730,CreationAgeInDays,
 ```
 
-## <a name="step-2-create-a-csv-file-for-publishing-the-labels"></a>레이블을 게시하기 위한 .csv 파일 만들기
+## <a name="step-2-create-a-csv-file-for-the-retention-label-policies"></a>2단계: 보존 레이블 정책에 대한 .csv 파일 만들기
 
-보존 레이블 정책 목록과 해당 위치 및 기타 설정이 포함된 .csv 파일을 만듭니다. 아래 샘플을 Excel에 복사하고 텍스트를 열로 변환(Excel \> **데이터** 탭 \> **텍스트 나누기** \> **구분** \> **쉼표** \> **일반**)한 다음 워크시트를 찾기 쉬운 위치에 .csv 파일로 저장하면 이 샘플을 서식 파일로 사용할 수 있습니다.
-  
-이 cmdlet의 매개 변수 값에 대한 자세한 내용은 [New-RetentionCompliancePolicy](https://go.microsoft.com/fwlink/?linkid=866512)를 참조하세요.
-  
+1. 서식 파일에 대한 아래의 샘플 .csv 파일 및 서로 다른 세 개의 보존 레이블 정책에 대한 예제 항목을 복사하여 Excel에 붙여넣습니다. 
+
+2. 텍스트를 열로 변환: **데이터** 탭 \> **텍스트를 열로 구분** \> **구분** \> **쉼표** \> **일반**
+
+2. 예제를 사용자가 직접 작성한 보존 레이블 정책 및 그 설정에 대한 입력으로 대체합니다. 이 cmdlet의 매개 변수 값에 대한 자세한 내용은 [New-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancepolicy)를 참조하세요.
+
+3. 워크시트를 이후의 단계에서 쉽게 찾을 수 있는 위치에 .csv 파일로 저장합니다. 예: `<path>Policies.csv`
+
+
 참고:
   
-- 보존 레이블을 게시하기 위한 원본 파일을 제공하지 않으면 스크립트에서 보존 레이블을 만들지만(이전 섹션 참조) 게시하지는 않습니다.
-    
 - 이미 존재하는 보존 레이블 정책과 동일한 이름을 가진 보존 레이블 정책이 .csv 파일에 있을 경우 스크립트에서 해당 보존 레이블 정책 생성을 건너뜁니다. 중복 보존 레이블 정책은 생성되지 않습니다.
     
-- 스크립트는 수동으로 콘텐츠에 적용된 보존 레이블만 게시합니다. 이 스크립트는 콘텐츠에 자동 적용된 보존 레이블을 지원하지 않습니다.
+- 제공된 샘플 .csv 파일에서 열 머리글을 변경하거나 이름을 바꾸지 마세요. 바꿀 경우 스크립트에 오류가 발생합니다.
     
-- 열 머리글을 변경하거나 이름을 바꾸면 스크립트가 실패합니다. 여기에 제공된 형식의 .csv 파일이 스크립트에 필요합니다.
-    
-### <a name="sample-csv-file"></a>샘플 .csv 파일
+### <a name="sample-csv-file-for-retention-policies"></a>보존 정책에 대한 샘플 .csv 파일
 
 ```
 Policy Name (Required),PublishComplianceTag (Required),Comment (Optional),Enabled (Required),ExchangeLocation (Optional),ExchangeLocationException (Optional),ModernGroupLocation (Optional),ModernGroupLocationException (Optional),OneDriveLocation (Optional),OneDriveLocationException (Optional),PublicFolderLocation (Optional),SharePointLocation (Optional),SharePointLocationException (Optional),SkypeLocation (Optional),SkypeLocationException (Optional)
@@ -90,20 +100,30 @@ Publishing Policy Yellow1,"LabelName_t_3, LabelName_t_4",N/A,$false,All,,,,,,,,,
 
 ## <a name="step-3-create-the-powershell-script"></a>3단계: PowerShell 스크립트 만들기
 
-아래 PowerShell 스크립트를 복사하여 메모장에 붙여넣습니다. 파일 이름 접미사 .ps1을 사용하여 찾기 쉬운 위치에 파일을 저장합니다(예: \<경로\>CreateRetentionSchedule.ps1).
-  
+1. 다음 PowerShell 스크립트를 복사하여 메모장에 붙여넣습니다.
+
+2. 쉽게 찾을 수 있는 위치에 **.ps1**이라는 파일 이름 확장명을 사용하여 파일을 저장합니다. 예: `<path>CreateRetentionSchedule.ps1`
+
+참고:
+
+- 스크립트에 이전의 두 단계에서 만든 두 개의 원본 파일을 제공하라는 메시지가 표시됩니다.
+    - 보존 레이블을 만들 원본 파일을 지정하지 않으면 스크립트가 보존 레이블 정책 만들기로 넘어갑니다. 
+    - 보존 레이블 정책을 만들 원본 파일을 지정하지 않으면 스크립트에서 보존 레이블만 만들어집니다.
+
+- 스크립트를 실행하면 수행한 각 작업과 작업 성공 또는 실패 여부를 기록하는 로그 파일이 생성됩니다. 이 로그 파일을 찾는 방법에 대한 지침은 최종 단계를 참조하세요.
+
 ### <a name="powershell-script"></a>PowerShell 스크립트
 
-```
+```Powershell
 <#
-. Steps: Import and Publish Compliance Tag
-    ○ Load compliance tag csv file 
+. Steps: Import and publish retention labels
+    ○ Load retention labels csv file 
     ○ Validate csv file input
-    ○ Create compliance tag
-    ○ Create compliance policy
-    ○ Publish compliance tag for the policy
-    ○ Generate the log for tags creation
-    ○ Generate the csv result for the tags created and published
+    ○ Create retention labels
+    ○ Create retention policies
+    ○ Publish retention labels for the policies
+    ○ Generate the log for retention labels and policies creation
+    ○ Generate the csv result for the labels and policies created
 . Syntax
     .\Publish-ComplianceTag.ps1 [-LabelListCSV <string>] [-PolicyListCSV <string>] 
 . Detailed Description
@@ -714,33 +734,29 @@ if ($ResultCSV)
 
 ```
 
-## <a name="step-4-connect-to-security-amp-compliance-center-powershell"></a>4단계: 보안 및 준수 센터 PowerShell에 연결
+## <a name="step-4-run-the-powershell-script"></a>4단계: PowerShell 스크립트 실행하기
 
-아래 단계를 따릅니다.
+먼저 [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps)합니다.
+
+그런 다음 보존 레이블을 만들고 게시하는 스크립트를 실행합니다.
   
-- [보안 &amp;준수 센터 PowerShell에 연결하기](https://go.microsoft.com/fwlink/?linkid=799771)
+1. 보안 및 준수 센터 PowerShell 세션에서 경로, 이어서 `.\` 문자와 스크립트의 파일 이름을 입력한 다음 Enter 키를 눌러 스크립트를 실행합니다. 예제:
     
-## <a name="step-5-run-the-powershell-script-to-create-and-publish-the-retention-labels"></a>5단계: PowerShell 스크립트를 실행하여 보존 레이블 만들기 및 게시
+    ```powershell
+    <path>.\CreateRetentionSchedule.ps1
+    ```
 
-보안 &amp; 준수 센터 PowerShell에 연결한 후 보존 레이블을 만들고 게시하는 스크립트를 실행합니다.
-  
-1. 보안 및 준수 센터 PowerShell 세션에서 경로 뒤에 .\ 문자와 스크립트의 파일 이름을 입력한 다음 Enter 키를 눌러 스크립트를 실행합니다. 예를 들면 다음과 같습니다.
+2. 스크립트에 이전 단계에서 만든 .csv 파일의 위치를 묻는 메시지가 표시됩니다. 경로, 이어서 `.\` 문자와 .csv 파일의 파일 이름을 입력한 다음 Enter 키를 누릅니다. 예를 들어 첫 번째 프롬프트의 경우 다음을 실행합니다.
     
-  ```
-  <path>.\CreateRetentionSchedule.ps1
-  ```
+    ```powershell
+    <path>.\Labels.csv
+    ```
 
-    위에서 만든 .csv 파일의 위치를 묻는 메시지가 표시됩니다.
-    
-2. 경로 뒤에 .\ 문자와 .csv 파일의 파일 이름을 입력한 다음 Enter 키를 누릅니다. 예를 들면 다음과 같습니다.
-    
-  ```
-  <path>.\LabelsToCreate.csv
-  ```
+## <a name="step-5-view-the-log-file-with-the-results"></a>5단계: 결과가 포함된 로그 파일 보기
 
-## <a name="step-6-view-the-log-file-with-the-results"></a>6단계: 결과가 포함된 로그 파일 보기
+스크립트로 생성된 로그 파일을 사용하여 결과를 확인하고 해결해야 하는 오류를 식별합니다.
 
-스크립트를 실행하면 수행된 각 작업과 작업 성공 또는 실패 여부를 기록하는 로그 파일이 생성됩니다. 로그 파일에는 생성된 보존 레이블과 게시된 보존 레이블에 대한 모든 메타데이터가 포함됩니다. 이 위치에서 로그 파일을 찾을 수 있습니다. 파일 이름의 숫자는 각기 다릅니다.
+다음 위치에서 로그 파일을 찾을 수 있습니다. 단, 파일 이름 예제의 숫자는 각기 다릅니다.
   
 ```
 <path>.\Log_Publish_Compliance_Tag_01112018_151239.txt
