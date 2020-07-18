@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 팀 사용자 활동 보고서를 가져오고 조직의 팀 활동에 대 한 정보를 파악 하는 방법을 알아봅니다.
-ms.openlocfilehash: 6c4f8a2ae9e6e88a17b65e61547e03583d116fbd
-ms.sourcegitcommit: 42b618231e9f608f3ae7226a313b0366601d0ea2
+ms.openlocfilehash: 734a4dfd62160c2f4d29b8faffb3268a1962fe4f
+ms.sourcegitcommit: a50260b7c5be7374e8e2bea19cc08406ef51ac47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158848"
+ms.locfileid: "45167344"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity--preview"></a>관리 센터의 microsoft 365 보고서-Microsoft 팀 사용자 활동-미리 보기
 
@@ -51,9 +51,9 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
 |총 모임   <br/> |지정 된 기간에 사용자가 참여 한 온라인 모임 수입니다.  <br/> |
 |1:1 통화   <br/> | 지정 된 기간에 사용자가 참여 한 1:1 통화 수입니다.  <br/> |
 |마지막 활동 날짜 (UTC)  <br/> |사용자가 Microsoft 팀 활동에 참여 한 마지막 날짜입니다.<br/> |
-|참가 한 임시 모임   <br/> | 지정 된 기간에 사용자가 참여 한 임시 모임 수입니다.  <br/> |
-|임시로 구성 된 모임 <br/> |지정 된 기간에 사용자가 구성한 임시 모임 수입니다. <br/>|
+|참가 한 임시 모임   <br/> | 지정 된 기간에 사용자가 참여 한 일정에 예약 되지 않은 모임 수입니다.  <br/> |
+|임시로 구성 된 모임 <br/> |지정 된 기간에 사용자가 구성한 일정에 예약 되지 않은 모임 수입니다. <br/>|
 |예약 된 모임  <br/> |지정 된 기간에 사용자가 구성한 예약 된 모임 수입니다.  <br/> |
 |사용이 허가 됨 |사용자에 게 팀 사용이 허가 된 경우 선택 됩니다.|
-|기타 활동|사용자의 기타 팀 활동 수입니다. |
+|기타 활동|사용자는 활성으로 간주 되지만 채팅 메시지, 1:1 통화, 채널 메시지, 총 모임 및 모임 구성에 대 한 값이 0으로 표시 됩니다. 예를 들어 Microsoft 팀 클라이언트를 포그라운드로 활성화 한 경우 작성 메시지 영역에서 작업이 수행 되 고 Microsoft 팀 클라이언트에는 알림이, 배너는 Microsoft 팀 클라이언트에 표시 됩니다. |
 |||

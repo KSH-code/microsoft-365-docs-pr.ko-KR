@@ -4,14 +4,18 @@ description: ''
 keywords: 브라우저, Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
+manager: laurawi
+audience: ITpro
+ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: f4bc5f85b21148c5a923ca1fc18879a193191c4b
-ms.sourcegitcommit: 09a500a44d8723f8f2be87d9ad4ce7e453c5192b
+ms.openlocfilehash: 916ddaea2bc91c56944d4561771c1e807447d604
+ms.sourcegitcommit: 63887d742c59cc660fc85537b335e98a9dc66fbe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45094789"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "45170674"
 ---
 # <a name="new-microsoft-edge-app"></a>새 Microsoft Edge 앱
 
@@ -38,7 +42,7 @@ Microsoft Managed Desktop devices의 Microsoft Edge에 대 한 보안 기준선�
 #### <a name="extension-installation-blocklist"></a>확장 설치 blocklist
 **기본값:** 모든
 
-Microsoft Managed Desktop은이 정책을 설정 하 여 Chrome 확장이 관리 되는 종점에 설치 되는 것을 방지 합니다. 데이터 손실 방지, 개인 정보 보호 및 장치를 손상 시킬 수 있는 기타 위험을 포함 하 여 Chromium extension 모델에 알려진 risksassociated가 있습니다. 
+Microsoft Managed Desktop은이 정책을 설정 하 여 Chrome 확장이 관리 되는 종점에 설치 되는 것을 방지 합니다. 데이터 손실 방지, 개인 정보 보호 및 장치를 손상 시킬 수 있는 기타 위험을 비롯 하 여 Chromium 확장 모델과 연결 된 알려진 위험 요소가 있습니다. 
 
 #### <a name="allow-user-level-native-messaging-hosts-installed-without-admin-permissions"></a>사용자 수준 기본 메시징 호스트 허용 (관리자 권한 없이 설치 됨)
 
@@ -119,7 +123,7 @@ Microsoft Managed Desktop은 기본 또는 다이제스트 인증 체계를 지�
 
 ## <a name="settings-you-manage"></a>관리 하는 설정
 
-이전에 Microsoft Intune에서 관리 템플릿 프로필을 사용 하 여 설명한 것이 아니라 마이크로 Sft Edge 설정을 배포할 수 있습니다. 자세한 내용은 [Microsoft Intune을 사용 하 여 Microsoft Edge 정책 설정 구성을](https://docs.microsoft.com/deployedge/configure-edge-with-intune)참조 하십시오. Intune에서 Microsoft Edge 관리 템플릿에 현재 포함 되어 있지 않은 정책을 평가 하려는 경우 Intune에서 Windows 10 장치에 대 한 사용자 지정 설정을 사용할 수 있습니다.
+이전에 Microsoft Intune의 관리 템플릿 프로필을 사용 하 여 설명 하지 않은 Microsoft Edge 설정을 배포할 수 있습니다. 자세한 내용은 [Microsoft Intune을 사용 하 여 Microsoft Edge 정책 설정 구성을](https://docs.microsoft.com/deployedge/configure-edge-with-intune)참조 하십시오. Intune에서 Microsoft Edge 관리 템플릿에 현재 포함 되어 있지 않은 정책을 평가 하려는 경우 Intune에서 Windows 10 장치에 대 한 사용자 지정 설정을 사용할 수 있습니다.
 
 ### <a name="enabling-specific-chrome-extensions"></a>특정 크롬 확장 사용
 

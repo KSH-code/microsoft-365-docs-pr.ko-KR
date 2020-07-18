@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 보고서를 통해 마이크로소프트의 앱 사용 현황 보고서를 가져와 조직에서 사용 되는 Microsoft 팀 앱에 대 한 정보를 습득 합니다.
-ms.openlocfilehash: 3599ba24e8df9406b5e0bc93d934604880ca4c39
-ms.sourcegitcommit: 42b618231e9f608f3ae7226a313b0366601d0ea2
+ms.openlocfilehash: 4945e74d91e12c1e846de3e4bd8393220349d608
+ms.sourcegitcommit: a50260b7c5be7374e8e2bea19cc08406ef51ac47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158860"
+ms.locfileid: "45167356"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-device-usage---preview"></a>관리 센터의 microsoft 365 보고서-Microsoft 팀 장치 사용-미리 보기
 
@@ -57,5 +57,4 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
 |Web  <br/> |사용자가 장치의 팀 웹 클라이언트에서 활성 상태 였던 경우 선택 됩니다.|
 |마지막 활동 날짜 (UTC)  <br/> |사용자가 팀 활동에 참여 한 마지막 날짜 (UTC)입니다.  <br/> |
 |사용이 허가 됨|사용자에 게 팀 사용이 허가 된 경우 선택 됩니다.|
-|총 팀 활동|선택한 기간 동안의 총 팀 활동 수입니다. |
 |||
