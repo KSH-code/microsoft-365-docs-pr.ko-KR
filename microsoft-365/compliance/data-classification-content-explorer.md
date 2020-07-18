@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠 탐색기를 사용하여 레이블이 지정된 항목을 원래 상태로 볼 수 있습니다.
-ms.openlocfilehash: 731ae51a02e4a6fbd35b5be7c0bf083c814ddfd3
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: e5041f82d22b62e8b343c62136251e2c69ca9e47
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327854"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127045"
 ---
 # <a name="get-started-with-content-explorer"></a>콘텐츠 탐색기 시작하기
 
@@ -92,7 +92,7 @@ ms.locfileid: "44327854"
 
 ### <a name="retention-labels"></a>보존 레이블
 
-[보존 레이블](labels.md)을 사용하여 레이블이 부착된 항목이 보관되는 기간 및 삭제하기 전에 수행해야 할 단계를 정의할 수 있습니다. 이들은 수동으로 또는 자동으로 정책을 통해 적용됩니다. 이들은 조직이 법적 그리고 규제적 요구 사항을 계속 준수하는데 도움이 되는 역할을 할 수 있습니다.
+[보존 레이블](retention.md)을 사용하여 레이블이 부착된 항목이 보관되는 기간 및 삭제하기 전에 수행해야 할 단계를 정의할 수 있습니다. 이들은 수동으로 또는 자동으로 정책을 통해 적용됩니다. 이들은 조직이 법적 그리고 규제적 요구 사항을 계속 준수하는데 도움이 되는 역할을 할 수 있습니다.
 
 ### <a name="how-to-use-content-explorer"></a>콘텐츠 탐색기를 사용하는 방법
 
@@ -139,8 +139,7 @@ Exchange 폴더나 SharePoint 또는 OneDrive 사이트와 같은 위치로 드�
 
 ## <a name="see-also"></a>참고 항목
 
-- [민감도 레이블](sensitivity-labels.md)
-- [보존 레이블](labels.md)
+- [민감도 레이블에 대해 알아보기](sensitivity-labels.md)
+- [보존 정책 및 보존 레이블에 대해 알아보기](retention.md)
 - [중요한 정보 유형 엔터티 정의.md](sensitive-information-type-entity-definitions.md)
-- [보존 정책 개요](retention-policies.md)
 - [데이터 손실 방지의 개요](data-loss-prevention-policies.md)

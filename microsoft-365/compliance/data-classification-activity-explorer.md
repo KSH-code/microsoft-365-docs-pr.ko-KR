@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 활동 탐색기는 사용자가 레이블이 지정된 콘텐츠에 대해 수행하는 작업을 확인하고 필터링하여 데이터 분류 기능을 자세히 설명합니다.
-ms.openlocfilehash: 5cb6a8dbfa570b3b0e0d1ce39648d12050d2af81
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 63ecb84c0ae658b0fd3463dba10d56059352910b
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327844"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126647"
 ---
 # <a name="get-started-with-activity-explorer"></a>활동 탐색기 시작하기
 
@@ -75,7 +75,7 @@ Microsoft 365는 SharePoint Online, OneDrive에서 다음과 같은 유형의 �
 > 현재 활동 탐색기에서는 Exchange Online의 보존 활동을 모니터링하고 있지 않습니다.
 
 ## <a name="see-also"></a>참고 항목
-- [민감도 레이블](sensitivity-labels.md)
-- [보존 레이블](labels.md)
+- [민감도 레이블에 대해 알아보기](sensitivity-labels.md)
+- [보존 정책 및 보존 레이블에 대해 알아보기](retention.md)
 - [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)
-- [보존 정책 개요](retention-policies.md)
+

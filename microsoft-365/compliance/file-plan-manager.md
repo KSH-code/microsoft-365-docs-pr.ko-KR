@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: 파일 계획은 보존 라벨에 대한 고급 관리 기능을 제공한다.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 85160a859469a5c2dcb1aec8100eed6e25bd7597
-ms.sourcegitcommit: 5e8901e7e571f20ede04f460bd3e7077dda004ca
+ms.openlocfilehash: 96150005421f6c2e28183c6e4417edd64b80a814
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44874908"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126881"
 ---
 # <a name="use-file-plan-to-manage-retention-labels"></a>파일 계획을 사용하여 보존 레이블 관리
 
@@ -42,7 +42,7 @@ Microsoft 365 규정 준수 센터의 **정보 거버넌스**에서 보존 레�
 
 ![파일 계획 페이지](../media/compliance-file-plan.png)
 
-보존 레이블의 정의와 사용 방법에 대한 자세한 내용은 [보존 레이블에 대해 알아보기](labels.md)를 참조하세요.
+보존 레이블의 정의와 사용 방법에 대한 자세한 내용은 [보존 정책 및 보존 레이블에 대해 알아보기](retention.md)를 참조하세요.
 
 ## <a name="accessing-file-plan"></a>파일 계획 액세스
 
@@ -182,4 +182,6 @@ Microsoft 365 규정 준수 센터의 **정보 거버넌스**에서 보존 레�
 
 ## <a name="next-steps"></a>다음 단계
 
-보존 레이블 및 해당 정책을 만들고 편집하는 방법에 대한 자세한 내용은 [보존 레이블 만들기, 게시 및 자동 적용](create-retention-labels.md)을 참조하세요.
+보존 레이블 및 해당 정책을 만들고 편집하는 방법에 대한 자세한 내용은 다음 지침을을 참조하세요.
+- [보존 레이블을 만들고 앱에 적용하기](create-apply-retention-labels.md)
+- [보존 레이블을 콘텐츠에 자동으로 적용하기](apply-retention-labels-automatically.md)

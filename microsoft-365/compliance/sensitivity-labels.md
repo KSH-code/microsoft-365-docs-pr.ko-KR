@@ -20,12 +20,12 @@ description: 암호화 및 워터마크로 중요한 콘텐츠를 분류하고 �
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: d15152257f9be222420d63ed53a5921c74dc184f
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: d5b8e3c540c133ce4e04a434d03ef4bdb16b6f32
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936797"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127365"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -72,7 +72,7 @@ Microsoft Information Protection 프레임 워크의 민감도 레이블을 사�
 
 Office 앱의 경우, 민감도 레이블이 전자 메일 또는 문서에서 사용자에게 태그와 같이 표시됩니다.
 
-각 콘텐츠 항목에 단일 민감도 레이블을 적용할 수 있습니다. 하나의 항목에 단일 민감도 레이블과 단일 [보존 레이블](labels.md)을 모두 적용할 수 있습니다.
+각 콘텐츠 항목에 단일 민감도 레이블을 적용할 수 있습니다. 하나의 항목에 단일 민감도 레이블과 단일 [보존 레이블](retention.md#retention-labels)을 모두 적용할 수 있습니다.
 
 > [!div class="mx-imgBorder"]
 > ![민감도 레이블이 적용된 전자 메일](../media/Sensitivity-label-on-email.png)
@@ -181,7 +181,7 @@ Office 앱의 경우, 민감도 레이블이 전자 메일 또는 문서에서 �
 
 ![민감도 레이블 정책에 대한 페이지에서 옵션 이동](../media/sensitivity-label-policy-priority.png)
 
-민감도 레이블 외에 보존 레이블을 사용하는 경우 우선 순위는 민감도 레이블 정책에 중요하지만 [유지 레이블 정책](labels.md#the-principles-of-retention-or-what-takes-precedence)에는 중요하지 않음을 기억해야합니다.
+민감도 레이블 외에 보존 레이블을 사용하는 경우 우선 순위는 민감도 레이블 정책에 중요하지만 [보존 레이블](retention.md#the-principles-of-retention-or-what-takes-precedence)에는 중요하지 않음을 기억해야합니다.
 
 ## <a name="sensitivity-labels-and-azure-information-protection"></a>민감도 레이블 및 Azure Information Protection
 

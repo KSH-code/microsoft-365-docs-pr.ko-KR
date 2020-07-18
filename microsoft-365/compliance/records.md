@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에서 레코드 관리 솔루션을 구현하는 데 도움이 되는 레코드에 대해 알아봅니다.
-ms.openlocfilehash: 35d1becad78cdb01402ba50ba44b277f8c511567
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: aa5952b26549f9ba9b1c584eb55e203fd53c50e5
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45080105"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127505"
 ---
 # <a name="learn-about-records"></a>레코드에 대해 알아보기
 
@@ -38,7 +38,7 @@ Microsoft 365의 레코드 관리를 통해 조직은 회사 정책 및 법적 �
 
 - 보존 기간 종료 시에 삭제되는 경우 처리 증명을 가집니다.
 
-[보존 레이블](labels.md)을 사용하여 콘텐츠를 레코드로 표시합니다. 레코드를 선언하는 보존 레이블을 만든 후 사용자 및 관리자가 콘텐츠에 직접 적용할 수 있도록 해당 레이블을 게시하거나 레코드로 표시하기를 원하는 콘텐츠에 해당 레이블을 자동으로 적용할 수 있습니다. 그 지침은 [보존 레이블 만들기, 게시 및 자동 적용](create-retention-labels.md)을 참조하세요.
+[보존 레이블](retention.md#retention-labels)을 사용하여 콘텐츠를 레코드로 표시합니다. 레코드를 선언하는 보존 레이블을 만든 후 사용자 및 관리자가 콘텐츠에 직접 적용할 수 있도록 해당 레이블을 게시하거나 레코드로 표시하기를 원하는 콘텐츠에 해당 레이블을 자동으로 적용할 수 있습니다.
 
 보존 레이블을 사용하여 레코드를 선언하면 Microsoft 365 환경에서 일관된 단일 레코드 관리 전략을 구현할 수 있습니다.
 
@@ -60,15 +60,15 @@ Microsoft 365의 레코드 관리를 통해 조직은 회사 정책 및 법적 �
 
     또한 폴더(SharePoint 및 OneDrive)에 적용되는 레코드 레이블을 콘텐츠를 레코드로 선언하지 않는 보존 레이블로 변경하면 해당 폴더의 항목에는 기존 레코드 레이블이 유지됩니다.
 
-    SharePoint 및 OneDrive 폴더에 보존 레이블을 적용하는 방법에 대한 자세한 내용은 [ SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 콘텐츠에 기본 보존 레이블 적용](labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set)을 참조하세요.
+    SharePoint 및 OneDrive 폴더에 보존 레이블을 적용하는 방법에 대한 자세한 내용은 [ SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 콘텐츠에 기본 보존 레이블 적용](create-apply-retention-labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set)을 참조하세요.
 
-  - **레코드는 삭제될 수 없습니다**. 사용자가 Exchange에서 기록을 삭제하려고 하면 [보존 정책이 Exchange와 작동하는 방식](retention-policies-exchange.md#how-a-retention-policy-works-with-exchange)에 설명된 것처럼 항목이 복구 가능한 항목 폴더로 이동됩니다.
+  - **레코드는 삭제될 수 없습니다**. 사용자가 Exchange에서 레코드를 삭제하려고 하면 [Exchange에서 보존이 작동하는 방식](retention-policies-exchange.md#how-retention-works-for-exchange)에 설명된 것처럼 해당 항목이 복구 가능한 항목 폴더로 이동됩니다.
 
     SharePoint에서 레코드를 삭제하려고 하면 항목이 삭제되지 않았다는 오류 메시지가 표시되고 항목은 라이브러리에 남아 있습니다.
 
     ![SharePoint에서 항목이 삭제되지 않았다는 메시지](../media/d0020726-1593-4a96-b07c-89b275e75c49.png)
 
-    OneDrive에서 레코드를 삭제하려고 하면 [보존 정책이 SharePoint 및 OneDrive와 작동하는 방식](retention-policies-sharepoint.md#how-a-retention-policy-works-with-sharepoint-and-onedrive)에 설명된 것처럼 항목이 자료 보존 라이브러리로 이동됩니다.
+    OneDrive에서 레코드를 삭제하려고 하면 [SharePoint 및 OneDrive에서 보존이 작동하는 방식](retention-policies-sharepoint.md#how-retention-works-for-sharepoint-and-onedrive)에 설명된 것처럼 해당 항목이 자료 보존 라이브러리로 이동됩니다.
 
   - **레코드 레이블은 제거할 수 없습니다.** 레코드 레이블이 항목에 적용되면 해당 위치의 관리자만(예: SharePoint 사이트의 사이트 모음 관리자) 해당 레코드 레이블을 제거할 수 있습니다.
 
@@ -82,7 +82,11 @@ Microsoft 365의 레코드 관리를 통해 조직은 회사 정책 및 법적 �
     
    ![레이블을 사용하여 콘텐츠를 레코드로 분류 확인란을 클릭합니다.](../media/recordversioning6.png)
 
-3. SharePoint 사이트 및/또는 OneDrive 계정에 대한 보존 레이블을 [게시](labels.md#how-retention-labels-work-with-retention-label-policies)하거나 [자동 적용](labels.md#applying-a-retention-label-automatically-based-on-conditions)합니다.
+3. SharePoint 사이트 및 OneDrive 계정에 보존 레이블 적용하기:
+    
+    - [보존 레이블을 만들고 앱에 적용하기](create-apply-retention-labels.md)
+    
+    - [보존 레이블을 콘텐츠에 자동으로 적용하기](apply-retention-labels-automatically.md)
 
 
 ### <a name="applying-a-retention-label-to-content"></a>콘텐츠에 보존 레이블 적용
@@ -167,4 +171,6 @@ SharePoint 사이트 또는 OneDrive 계정에서 문서에 레코드 레이블�
 
 ## <a name="next-steps"></a>다음 단계
 
-콘텐츠를 레코드로 표시하는 설정을 포함하는 보존 레이블을 만들고 게시하는 방법에 대한 자세한 내용은 [보존 레이블 만들기, 게시 및 자동 적용](create-retention-labels.md)을 참조하세요.
+아직 레코드 관리에 사용할 보존 레이블이 아직 없는 경우 [보존 정책 및 보존 레이블 시작하기](get-started-with-retention.md)를 참조하세요.
+
+레코드 관리 구성 및 사용과 관련된 비디오를 보려면 [YouTube에서 데이터 거버넌스 선택](https://go.microsoft.com/fwlink/?linkid=867039)을 참조하세요.
