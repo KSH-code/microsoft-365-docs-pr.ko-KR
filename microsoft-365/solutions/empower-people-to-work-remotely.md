@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 06/08/2020
+ms.date: 07/14/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: 직원들이 언제 어디서나 원격으로 작업할 수 있도록 하는 보안 및 서비스 인프라를 구성합니다.
-ms.openlocfilehash: d4dded6c08e665a2756c45659f179e8252fcacc1
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: 58915d80d9eb81009632971bbfc84a7b681e125e
+ms.sourcegitcommit: 42b618231e9f608f3ae7226a313b0366601d0ea2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844873"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158902"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Microsoft 365를 사용하여 원격 작업자의 역량 강화하기
 
@@ -68,6 +68,12 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 | Windows Autopilot | 새 Windows 10 장치를 업무용으로 사용하도록 설정하고 사전 구성합니다.   | Microsoft 365 E3 및 E5 |
 | Microsoft Teams, Exchange Online, SharePoint Online 및 OneDrive, Microsoft 365 Apps, Microsoft Power Platform, Yammer, Power Apps | 만들고, 소통하며, 공동 작업합니다. | Microsoft 365 E3 및 E5 |
 ||||
+
+<a name="poster"></a> 이 시나리오의 2페이지 요약은 [원격 작업자 지원 포스터](../downloads/empower-remote-workers.pdf)를 참조하세요..
+
+[![원격 작업자 지원](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](../downloads/empower-remote-workers.pdf)
+
+이 포스터를 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf)나 [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pptx) 형식으로 다운로드할 수 있고 편지형, 법률형, 타블로이드(11 x 17) 크기 용지에 인쇄할 수도 있습니다.
 
 다음 단계를 사용하여 조직의 서버, 데이터 및 클라우드 서비스에 대한 액세스를 보호하고 최적화하며 최대 작업자 생산성을 설정합니다.
 
