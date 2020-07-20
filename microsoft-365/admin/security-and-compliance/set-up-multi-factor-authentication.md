@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: 조직에 대한 다단계 인증을 설정하는 방법에 대해 알아 보십시오.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 597d8383166e0ddae0984573d77ba75cf54dafdd
-ms.sourcegitcommit: 9af890ef1b1c95bfc7cc52f7f4e395b62dc5263f
+ms.openlocfilehash: 34133f4204c1ee305b0a249a0ff8e0e9edaf5599
+ms.sourcegitcommit: e891c7c25f351f10f250af3f483f68594976ddc9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/16/2020
-ms.locfileid: "45146233"
+ms.locfileid: "45153680"
 ---
 # <a name="set-up-multi-factor-authentication"></a>다단계 인증 설정
   
@@ -77,6 +77,8 @@ Azure 포털의 Azure Active Directory(Azure AD)에 대해 **속성** 창에서 
 조건부 액세스는 Azure AD Premium P1 또는 이를 포함하는 라이선스(예: Microsoft 365 Business Premium 및 Microsoft 365 E3)를 구매한 고객이 사용할 수 있습니다. 자세한 내용은 [조건부 액세스 정책 만들기](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-azure-mfa)를 참조하세요.
 
 위험 기반 조건부 액세스는 Azure AD Premium P2 라이선스 또는 Microsoft 365 E5와 같이 이를 포함하는 라이선스를 통해 사용할 수 있습니다. 자세한 내용은 [위험에 기반한 조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk)를 참조하세요.
+
+Azure AD P1 및 P2에 대한 자세한 내용은 [Azure Active Directory 가격](https://azure.microsoft.com/pricing/details/active-directory/)을 참조하세요.
 
 ### <a name="turn-on-modern-authentication-for-your-organization"></a>조직에 대한 최신 인증 설정하기
 
