@@ -1,5 +1,5 @@
 ---
-title: Microsoft 보안 점수를 통한 보안 상황에 대 한 가시성 획득
+title: Microsoft 보안 점수를 통해 보안 상황 평가
 description: Microsoft 365 보안 센터에서 Microsoft 보안 점수를 개선 하기 위한 조치를 취하는 방법에 대해 설명 합니다.
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 점수, 보안 센터, 개선 작업
 ms.prod: microsoft-365-enterprise
@@ -20,14 +20,14 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 0ae1a196f11f383c1d3f9fd2056d5d19e7cdd6da
-ms.sourcegitcommit: 09a500a44d8723f8f2be87d9ad4ce7e453c5192b
+ms.openlocfilehash: 469056bbae4627e0b013bfc0f2e965586fd15175
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45095074"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45200065"
 ---
-# <a name="gain-visibility-into-your-security-posture-through-microsoft-secure-score"></a>Microsoft 보안 점수를 통한 보안 상황에 대 한 가시성 획득
+# <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Microsoft 보안 점수를 사용 하 여 보안 상황 평가
 
 Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 많은 향상 작업이 수행 되었음을 나타냅니다. 이 도구 https://security.microsoft.com/securescore 는 [Microsoft 365 보안 센터](overview-security-center.md)에서 찾을 수 있습니다.
 
@@ -40,7 +40,7 @@ Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 
 * 인프라 (지금은 향상 작업 없음)
 
 >[!NOTE]
->Microsoft 보안 점수가 최근 릴리스에서는 Microsoft 보안 점수가 Id 보안 점수 및 그래프 API와 일시적으로 호환 되지 않는 향상 된 점수 매기기 모델이 출시 되었습니다. [자세히 보기](microsoft-secure-score.md#incompatibility-with-identity-secure-score-and-graph-api)
+>Microsoft 보안 점수가 최근 릴리스에서는 Microsoft 보안 점수가 Id 보안 점수 및 그래프 API와 일시적으로 호환 되지 않는 향상 된 점수 매기기 모델이 출시 되었습니다. [자세히 보기](microsoft-secure-score-whats-new.md)
 
 Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간의 점수가 분할 되는 방식과 사용할 수 있는 지점을 볼 수 있습니다. 개요 페이지는 또한 전체 점수에 대 한 모든 보기, 벤치 마크 비교를 사용한 보안 점수의 역사적 추세 및 점수를 높이기 위해 수행할 수 있는 향상 작업의 우선 순위를 지정 하는 위치를 제공 합니다.
 
@@ -121,3 +121,4 @@ Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간의 점수가
 - [Microsoft 보안 점수 개요](microsoft-secure-score.md)
 - [Microsoft 보안 점수 기록 및 목표를 충족 하는 추적](microsoft-secure-score-history-metrics-trends.md)
 - [향후 계획](microsoft-secure-score-whats-coming.md)
+- [새로운 기능](microsoft-secure-score-whats-new.md)

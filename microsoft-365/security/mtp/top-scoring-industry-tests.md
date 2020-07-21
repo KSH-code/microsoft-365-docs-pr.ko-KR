@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 279376288f28e99d5881e5e482470407111c4add
-ms.sourcegitcommit: 42b618231e9f608f3ae7226a313b0366601d0ea2
+ms.openlocfilehash: 64197133386748695fbef5a33c09022ae41f75d3
+ms.sourcegitcommit: 5f980a9eb5aca61cf3662ef0bc65dec215e21656
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158872"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "45185995"
 ---
 # <a name="top-scoring-in-industry-tests"></a>업계 최고의 점수 테스트
 
@@ -44,19 +44,18 @@ MITRE의 테스트 접근 방식에 대 한 핵심은 실제 공격을 에뮬레
 [Microsoft Defender 바이러스 백신](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) 은 독립 된 테스트를 일관성 있게 수행 하며, 바이러스 백신 업계에서이 옵션이 최상위 선택 되는 방식을 표시 합니다. 이 테스트에서는 바이러스 백신에 대 한 결과만 제공 하며 추가 보안 보호에 대해서는 테스트 하지 않습니다.
 
 Microsoft Defender 바이러스 백신은 현재 최신 및 가장 정교한 위협을 해결 하는 [Microsoft DEFENDER ATP Windows 10 보안 스택의](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) [차세대 보호](https://www.youtube.com/watch?v=Xy3MOxkX_o4) 기능입니다. 경우에 따라 [캠페인을 시작한 후](https://cloudblogs.microsoft.com/microsoftsecure/2018/03/07/behavior-monitoring-combined-with-machine-learning-spoils-a-massive-dofoil-coin-mining-campaign)에서는 사이버 공격과는 ms가 중단 되었기 때문에 고객은 보호 된 것으로 확인 되지 않을 수 있습니다. Microsoft defender 바이러스 백신 및 기타 [EPP (endpoint protection platform)](https://www.microsoft.com/security/blog/2019/08/23/gartner-names-microsoft-a-leader-in-2019-endpoint-protection-platforms-magic-quadrant/) 기능이 [기계 학습](https://cloudblogs.microsoft.com/microsoftsecure/2018/06/07/machine-learning-vs-social-engineering), [인공 지능](https://cloudblogs.microsoft.com/microsoftsecure/2018/02/14/how-artificial-intelligence-stopped-an-emotet-outbreak), 행동 분석 및 기타 고급 기술로 처음으로 시야에서 맬웨어를 감지 하 고 중지 하기 때문입니다.
-<br><br>
-
-**최신 투명도 보고서 다운로드: [AVT 테스트 결과 검토, 1 월-2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4AwWZ)**
 
 ### <a name="av-test-protection-score-of-5560-in-the-latest-test"></a>AV-테스트: 최신 테스트에서 5.5/6.0의 보호 점수
 
 AV 테스트 제품 검토 및 인증 보고서는 보호, 성능 및 유용성의 세 가지 범주를 테스트 합니다. 다음 점수는 실제 테스트와 AV-테스트 참조 집합 ("자주 사용 되는 맬웨어") 이라는 두 가지 점수가 있는 보호 범주에 대 한 것입니다.
 
+**최신 투명도 보고서 다운로드: [AV-테스트 결과 검토, 1 월-2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)**
+
 - 3 월-2020 AV-테스트 비즈니스 사용자 테스트: [보호 점수 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/) <sup>**최신**</sup>
 
     Microsoft Defender 바이러스 백신은 20540 맬웨어 샘플을 사용 하 여 5.5/6.0의 전체 보호 점수를 획득 했습니다.
 
-- 1 월 2020 — AV-테스트 비즈니스 사용자 테스트: [보호 점수 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4AwWZ)
+- 1 월 2020 — AV-테스트 비즈니스 사용자 테스트: [보호 점수 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)
 
 - 11 월 2019 AV-테스트 비즈니스 사용자 테스트: [보호 점수 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/december-2019/microsoft-windows-defender-antivirus-4.18-195015/)
 
@@ -84,7 +83,9 @@ AV 테스트 제품 검토 및 인증 보고서는 보호, 성능 및 유용성�
 
 SE Labs는 제품 및 서비스가 끝점 소프트웨어, 네트워크 장비 및 클라우드 서비스를 포함 하 여 공격을 감지 및 보호 하기 위해 사용 하는 솔루션 범위를 테스트 합니다.
 
-- 엔터프라이즈 끝점 보호 1 월, 2020 년 3 월, [AAA 표](https://selabs.uk/download/enterprise/essp/2020/mar-2020-essp.pdf) <sup>**pdf**</sup>
+**최신 투명도 보고서 다운로드: [1 월 2020부터 실행 하는 경우의 테스트 결과를 검사](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq) 합니다.**
+
+- 엔터프라이즈 끝점 보호 1 월 2020: [AAA 표](https://selabs.uk/download/enterprise/essp/2020/mar-2020-essp.pdf) <sup>**pdf**</sup>  |  [분석](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)
 
     Microsoft의 차세대 보호는 선두적인 제품 중 하나로 이름이 지정 되었으며, 모든 대상 공격과 공격을 중지 하 고 공개 위협을 하나 해결 했습니다.
 

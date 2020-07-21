@@ -12,18 +12,18 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 92844691cba4adf39c7b4eee30de97ccff9d0890
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.openlocfilehash: 0211eefe3c4a946bbaa4ad4c8c66e5df7b37091e
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179089"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45199495"
 ---
 # <a name="insider-risk-management-notice-templates"></a>참가자 위험 관리 알림 서식 파일
 
-참가자 위험 관리 알림 서식 파일을 사용 하면 활동에서 정책 일치 및 알림을 생성 하는 경우 직원에 게 전자 메일 메시지를 보낼 수 있습니다. 대부분의 경우 경고를 생성 하는 직원 작업은 실수로 인 한 실수 또는 실수로 인 한 의도 없이 작업을 수행 합니다. 통지는 직원 들에 게 보다 주의 하거나, 리프레셔 교육 또는 회사 정책 리소스에 대 한 링크나 정보를 제공 하기 위한 간단한 미리 알림 역할을 합니다. 알림은 내부 준수 교육 프로그램의 중요 한 일부일 수 있으며, 위험 활동이 반복 되는 직원에 대 한 문서화 된 감사 내역을 만드는 데 도움이 될 수 있습니다.
+참가자 위험 관리 알림 서식 파일을 사용 하면 활동에서 정책 일치 및 알림을 생성 하는 경우 사용자에 게 전자 메일 메시지를 보낼 수 있습니다. 대부분의 경우 경고를 생성 하는 사용자 작업은 실수로 인 한 실수 또는 실수로 인 한 의도 없이 작업의 결과입니다. 고 지 사항에 대 한 정보에 대 한 링크를 제공 하거나 회사 정책 리소스를 사용 하 여 사용자에 게 주의를 기울여야 하는 간단한 미리 알림 역할을 합니다. 알림은 내부 준수 교육 프로그램의 중요 한 일부일 수 있으며, 되풀이 되는 위험 활동이 있는 사용자에 대해 문서화 된 감사 내역을 만드는 데 도움이 될 수 있습니다.
 
-문제 해결 프로세스의 일부로 서 사용자에 게 정책 일치에 대 한 전자 메일 미리 알림 알림을 보내려면 공지 템플릿 만들기를 선택 합니다. 검토 중인 특정 경고와 연결 된 직원 전자 메일 주소로만 알림을 보낼 수 있습니다. 정책 일치에 적용할 알림 서식 파일을 선택 하는 경우에는 서식 파일에 정의 된 필드 값을 그대로 사용 하거나 필요에 따라 필드를 덮어쓸 수 있습니다.
+문제 해결 프로세스의 일부로 서 사용자에 게 정책 일치에 대 한 전자 메일 미리 알림 알림을 보내려면 공지 템플릿 만들기를 선택 합니다. 검토 중인 특정 경고와 연결 된 사용자 전자 메일 주소로만 알림을 보낼 수 있습니다. 정책 일치에 적용할 알림 서식 파일을 선택 하는 경우에는 서식 파일에 정의 된 필드 값을 그대로 사용 하거나 필요에 따라 필드를 덮어쓸 수 있습니다.
 
 ## <a name="notice-templates-dashboard"></a>공지 템플릿 대시보드
 
@@ -39,9 +39,9 @@ ms.locfileid: "42179089"
 <!DOCTYPE html>
 <html>
 <body>
-<h2>Action Required: Contoso Employee Code of Conduct Policy Training</h2>
-<p>A recent activity you've performed has generated a risk alert prohibited by the Contoso Employee <a href='https://www.contoso.com'>Code of Conduct Policy</a>.</p>
-<p>You are required to attend the Contoso Employee Code of Conduct <a href='https://www.contoso.com'>training</a> within the next 14 days. Please contact <a href='mailto:hr@contoso.com'>Human Resources</a> with any questions about this training request.</p>
+<h2>Action Required: Contoso User Code of Conduct Policy Training</h2>
+<p>A recent activity you've performed has generated a risk alert prohibited by the Contoso User <a href='https://www.contoso.com'>Code of Conduct Policy</a>.</p>
+<p>You are required to attend the Contoso User Code of Conduct <a href='https://www.contoso.com'>training</a> within the next 14 days. Please contact <a href='mailto:hr@contoso.com'>Human Resources</a> with any questions about this training request.</p>
 <p>Thank you,</p>
 <p><em>Human Resources</em></p>
 </body>
@@ -61,7 +61,7 @@ ms.locfileid: "42179089"
 2. **공지 템플릿 만들기** 를 선택 하 여 알림 마법사를 엽니다.
 3. **새 공지 서식 파일 만들기** 페이지에서 다음 필드를 작성 합니다.
     - **서식 파일 이름**: 알림의 이름을 입력 합니다. 이 이름은 상황에 따라 알림을 보낼 때 공지 대시보드의 공지 사항 목록 및 공지 선택 목록에 표시 됩니다.
-    - **전송 원본**: 알림의 보낸 사람 전자 메일 주소를 입력 합니다. 이 주소는 대/소문자 로부터 알림을 보낼 때 변경 되지 않는 한 직원에 게 전송 되는 모든 주의 사항에 있는 **보낸 사람:** 필드에 표시 됩니다.
+    - **전송 원본**: 알림의 보낸 사람 전자 메일 주소를 입력 합니다. 이 주소는 대/소문자 로부터 알림을 보낼 때 변경 되지 않은 경우 사용자에 게 전송 되는 모든 주의 메시지의 **보낸 사람:** 필드에 표시 됩니다.
     - **참조 및 숨은 참조** 필드: 구독에 대 한 Active Directory에서 선택한 정책 일치에 대 한 알림을 받을 사용자 또는 그룹 (선택 사항)입니다.
     - **제목**: 메시지의 제목 줄에 표시 되는 정보는 텍스트 문자를 지원 합니다.
     - **메시지 본문**: 메시지 본문에 표시 되는 정보는 텍스트 또는 HTML 값을 지원 합니다.
@@ -76,7 +76,7 @@ ms.locfileid: "42179089"
 3. 알림 세부 정보 페이지에서 **편집** 을 선택 합니다.
 4. **편집** 페이지에서는 다음 필드를 편집할 수 있습니다.
     - **서식 파일 이름**: 알림의 새 이름을 입력 합니다. 이 이름은 상황에 따라 알림을 보낼 때 공지 대시보드의 공지 사항 목록 및 공지 선택 목록에 표시 됩니다.
-    - **전송 원본**: 알림의 보낸 사람 전자 메일 주소를 업데이트 합니다. 이 주소는 대/소문자 로부터 알림을 보낼 때 변경 되지 않는 한 직원에 게 전송 되는 모든 주의 사항에 있는 **보낸 사람:** 필드에 표시 됩니다.
+    - **전송 원본**: 알림의 보낸 사람 전자 메일 주소를 업데이트 합니다. 이 주소는 대/소문자 로부터 알림을 보낼 때 변경 되지 않은 경우 사용자에 게 전송 되는 모든 주의 메시지의 **보낸 사람:** 필드에 표시 됩니다.
     - **참조 및 숨은 참조** 필드: 구독에 대 한 Active Directory에서 선택한 정책 일치에 대 한 알림을 받을 수 있는 선택적 사용자 또는 그룹을 업데이트 합니다.
     - **제목**: 메시지의 제목 줄에 표시 되는 업데이트 정보는 텍스트 문자를 지원 합니다.
     - **메시지 본문**: 메시지 본문에 표시 되는 업데이트 정보는 텍스트 또는 HTML 값을 지원 합니다.

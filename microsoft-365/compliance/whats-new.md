@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Microsoft 365 준수 센터에 지속적으로 새로운 기능을 추가 하 고 있습니다. 이번 달에 제공 된 내용을 확인 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2a48a47c631b0fd3c7e785d98b7221a0c3550c79
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 29d99e0af5f161c91b8a192b9d6f1545a13c7c80
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126911"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45199468"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>Microsoft 365 준수 센터의 새로운 기능
 
@@ -42,7 +42,7 @@ ms.locfileid: "45126911"
 - [Microsoft 365 E5](https://go.microsoft.com/fwlink/?linkid=2120431) (유료 또는 평가판)
 - [Microsoft](https://go.microsoft.com/fwlink/?linkid=2120432) 365 Enterprise E3 구독을 포함 합니다.
 
-[새 역할 그룹과](insider-risk-management-configure.md#step-1-required-enable-permissions-for-insider-risk-management) [솔루션 수준 설정을](insider-risk-management-configure.md#step-4-required-configure-insider-risk-settings)비롯 하 여 preview 릴리스 이후 몇 가지 향상 된 기능을 제공 했습니다.
+[새 역할 그룹과](insider-risk-management-configure.md#step-1-enable-permissions-for-insider-risk-management) [솔루션 수준 설정을](insider-risk-management-configure.md#step-4-configure-insider-risk-settings)비롯 하 여 preview 릴리스 이후 몇 가지 향상 된 기능을 제공 했습니다.
 
 계속 해 서 개선할 수 있도록 항상 솔루션을 사용할 때 피드백을 남겨 두세요.
 
@@ -171,14 +171,14 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 |데이터 손실 방지|데이터 손실 방지 <br/> https://protection.office.com/datalossprevention |데이터 손실 방지 <br/> https://compliance.microsoft.com/datalossprevention |[데이터 손실 방지의 개요](data-loss-prevention-policies.md)|
 |데이터 주체 요청 |데이터 개인 정보 > 데이터 주체 요청 <br/> https://protection.office.com/dsrcases |데이터 주체 요청 <br/> https://compliance.microsoft.com/datasubjectrequest |[DSR 사례 도구를 사용 하 여 GDPR 데이터 주체 요청 관리](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)|
 |eDiscovery|eDiscovery > eDiscovery <br/> https://protection.office.com/ediscoveryv1 |eDiscovery > 코어 <br/> https://compliance.microsoft.com/classicediscovery |[eDiscovery 사례 관리](ediscovery-cases.md) |
-|이벤트|레코드 관리 > 이벤트 <br/> https://protection.office.com/events |레코드 관리 > 이벤트 탭 <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[이벤트가 발생할 때 보존 시작](event-driven-retention.md)|
+|이벤트|레코드 관리 > 이벤트 <br/> https://protection.office.com/events |레코드 관리 > 이벤트 탭 <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[이벤트가 발생할 때 보존 시작하기](event-driven-retention.md)|
 |파일 플랜|파일 계획 > 레코드 관리 <br/> https://protection.office.com/fileplan |레코드 관리 > 파일 계획 탭 <br/> https://compliance.microsoft.com/recordsmanagement?viewid=fileplan |[파일 계획을 사용하여 보존 레이블 관리](file-plan-manager.md)|
 |PST 파일 가져오기|정보 거 버 넌 스 > 가져오기 PST 파일 <br/> https://protection.office.com/importV2 |정보 거 버 넌 스 > 가져오기 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=import |[조직의 PST 파일을 가져오기 개요](importing-pst-files-to-office-365.md)|
 |레이블 활동 탐색기|정보 거 버 넌 스 > 레이블 활동 탐색기 <br/> https://protection.office.com/labelexplorer |데이터 분류 > 활동 탐색기 탭 <br/> https://compliance.microsoft.com/dataclassification?viewid=activitiesexplorer |[레이블이 지정된 콘텐츠의 활동 보기(미리 보기)](data-classification-activity-explorer.md)|
 |보존 레이블 및 레이블 정책 |분류 > 보존 레이블 > 레이블 및 레이블 정책 탭 <br/> https://protection.office.com/retentionlabels |정보 거 버 넌 스 > 레이블 및 레이블 정책 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=labels <br/> https://compliance.microsoft.com/informationgovernance?viewid=labelpolicies | [보존 레이블 개요](retention.md)|
-|보존 정책|정보 거 버 넌 스 > 보존 <br/> https://protection.office.com/retention |정보 거 버 넌 스 > 보존 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=retention |[보존 정책 및 보존 레이블에 대 한 자세한 정보](retention.md)|
+|보존 정책|정보 거 버 넌 스 > 보존 <br/> https://protection.office.com/retention |정보 거 버 넌 스 > 보존 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=retention |[보존 정책 및 보존 레이블에 대해 알아보기](retention.md)|
 |중요 한 정보 유형|분류 > 중요 한 정보 유형 <br/> https://protection.office.com/sensitivetypes |데이터 분류 > 중요 한 정보 유형 탭 <br/> https://compliance.microsoft.com/dataclassification?viewid=sensitiveinfotypes |[중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)|
-|민감도 레이블 및 레이블 정책|분류 > 민감도 레이블 > 레이블 및 레이블 정책 탭 <br/> https://protection.office.com/sensitivity |정보 보호 > 레이블 및 레이블 정책 탭 <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabels <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabelpolicies |[민감도 레이블 알아보기](sensitivity-labels.md) |
+|민감도 레이블 및 레이블 정책|분류 > 민감도 레이블 > 레이블 및 레이블 정책 탭 <br/> https://protection.office.com/sensitivity |정보 보호 > 레이블 및 레이블 정책 탭 <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabels <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabelpolicies |[민감도 레이블에 대해 알아보기](sensitivity-labels.md) |
 |서비스 보증|서비스 보증 <br/> https://protection.office.com/serviceassurance/dashboard |현재 서비스 보증 리소스는 Office 365 보안 & 준수 센터 에서만 액세스할 수 있습니다. |[보안 및 준수 센터의 서비스 보증](service-assurance.md)|
 |감독|감독 <br/> https://protection.office.com/supervisoryreviewv2 |커뮤니케이션 규정 준수 <br/> https://compliance.microsoft.com/supervisoryreview |[Microsoft 365의 통신 준수 (미리 보기)](communication-compliance.md) |
 

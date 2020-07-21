@@ -13,12 +13,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business Premium, Microsoft 365, SMB, FAQ, 질문과 대답, 답변, 비즈니스
 ms.date: 06/08/2018
-ms.openlocfilehash: a2feb91ddcd2d95da28c3363d983b382cf2aa6dc
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 30437825a896acb470b23cb8f68ea36235ee80c8
+ms.sourcegitcommit: 5f980a9eb5aca61cf3662ef0bc65dec215e21656
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403453"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "45185979"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Microsoft 365 Business Premium 자주 묻는 질문
 
@@ -137,9 +137,9 @@ Microsoft 365 Business Premium의 전체 기능을 체험하고자 하는 고객
 예. Microsoft 365 Business Premium 구독자에게는 iOS, Android, MacOS 및 기타 크로스 플랫폼 디바이스 관리에 대한 전체 Intune 기능을 사용할 수 있는 라이선스가 부여됩니다. Microsoft 365 Business Premium의 간소화된 관리 콘솔에서 사용할 수 없는 기능(예: 타사 앱 관리 및 WiFi 프로필 구성, VPN 인증서)을 전체 Intune 콘솔에서 관리할 수 있습니다. 
   
 
-### <a name="does-azure-active-directory-azure-ad-premium-p1-come-with-microsoft-365-business"></a>Azure Active Directory(Azure AD) Premium P1이 Microsoft 365 Business와 함께 제공되나요? 
+### <a name="does-azure-active-directory-azure-ad-premium-p1-come-with-microsoft-365-business-premium"></a>Azure Active Directory (Azure AD) Premium P1은 Microsoft 365 Business Premium과 함께 제공 되나요? 
 
-이전의 Microsoft 365 Business에는 조건부 액세스, 셀프 서비스 암호 재설정, 다단계 인증 등의 Azure AD Premium 플랜 1 기능의 하위 집합이 포함되어 있습니다. 현재 전체 Azure AD Premium P1 라이선스를 Microsoft 365 Business 구독자에게 배포하고 있습니다. 처음에 새 고객에게 배포한 후 현재 구독자에게 배포합니다. 자세한 내용은 [Microsoft 365 Business 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) 및 이 [블로그](https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/azure-active-directory-premium-p1-is-coming-to-microsoft-365/ba-p/1275496)를 참조하세요.
+예, Azure AD Premium P1은 Microsoft Business Premium에 포함 되어 있습니다.
  
  
 ### <a name="does-microsoft-365-business-premium-allow-customers-to-manage-macs"></a>Microsoft 365 Business Premium을 통해 Mac을 관리할 수 있나요? 

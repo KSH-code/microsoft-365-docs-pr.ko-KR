@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 SharePoint 및 OneDrive에서 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용 하도록 설정할 수 있습니다.
-ms.openlocfilehash: ee6f89db7758140ac8e4c2752d8a2883cc0990db
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 8530e3d82fd670eedde9a874b0a87a0bad523fe5
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780721"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45199528"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
 
 SharePoint 및 OneDrive에서 Office 파일에 대해 민감도 레이블을 사용 하도록 설정 하기 전에 Office의 웹에 [민감도 레이블을](sensitivity-labels.md) 적용할 수 없습니다. 리본 메뉴에 **민감도** 단추가 표시 되지 않거나 상태 표시줄에 레이블 이름이 적용 됩니다. 또한 데스크톱 앱을 사용 하 여 파일에 레이블을 지정 하 고 SharePoint 또는 OneDrive에 저장 하는 경우에는 레이블에서 암호화를 적용 한 경우 이러한 파일의 내용을 처리할 수 없습니다. 이러한 상황에서는 공동 작성, eDiscovery, 데이터 손실 방지, 검색 및 기타 공동 작업 기능이 작동 하지 않습니다.
 
@@ -164,17 +164,18 @@ SharePoint 및 OneDrive에서 Office 파일의 민감도 레이블을 사용 하
     ```
 3. Microsoft 365 다중 사용자의 경우 남은 각 지리적 위치에 대해 1 ~ 2 단계를 반복 합니다.
 
-## <a name="schedule-roll-out-after-you-create-or-change-a-sensitivity-label"></a>민감도 레이블을 만들거나 변경한 후 일정 롤업
+## <a name="publishing-and-changing-sensitivity-labels"></a>민감도 레이블 게시 및 변경
 
-Microsoft 365 준수 센터에서 민감도 레이블을 만들거나 변경한 후에는 스테이지에 게시 합니다. 완전히 동기화 되지 않은 레이블을 게시 하면 사용자가 파일에 레이블을 적용 하 여 SharePoint에 업로드 하는 경우 Office 앱의 웹 버전에서는 파일을 열 수 없습니다. 검색 및 eDiscovery도 파일에 대해 작동 하지 않습니다.
+SharePoint 및 OneDrive에서 민감도 레이블을 사용 하는 경우 새 민감도 레이블을 게시 하거나 기존 민감도 레이블을 업데이트할 때 복제 시간을 허용 해야 합니다. 이는 암호화를 적용 하는 새 레이블에서 특히 중요 합니다.
 
-다음 단계를 따르는 것이 좋습니다.
+예를 들어, 암호화를 적용 하 고 사용자의 데스크톱 앱에 매우 빠르게 표시 되는 새 민감도 레이블을 만들고 게시 합니다. 사용자가 문서에이 레이블을 적용 한 다음 SharePoint 또는 OneDrive에 업로드 합니다. 서비스에 대해 레이블 복제가 완료 되지 않은 경우 업로드 시 해당 문서에 새 기능이 적용 되지 않습니다. 따라서 문서가 검색 또는 eDiscovery에 반환 되지 않으며, 웹의 Office에서 문서를 열 수 없습니다.
 
-1. 새 민감도 레이블을 한 명 또는 두 사람에 게 게시 합니다.
+- 다음 변경 내용은 1 시간 내에 복제 되며, 새 민감도 레이블 및 민감도 레이블 정책 설정에 따라 정책에 포함 됩니다.
 
-2. 초기 발행물 이후 24 시간 이상 기다립니다. 레이블이 완전히 동기화 되었는지 확인 합니다.
+- 24 시간 이내에 다음과 같은 변경 사항이 복제 됩니다.
 
-3. 레이블을 보다 광범위 하 게 게시 합니다.
+이제 새 민감도 레이블에 대 한 복제 지연은 1 시간 이므로이 예제의 시나리오에서는 실행 되지 않을 수 있습니다. 하지만 보호 수단으로는 소수의 테스트 사용자 에게만 새 레이블을 게시 하 고 한 시간 정도 기다린 다음 SharePoint 및 OneDrive에서 레이블 동작을 확인 하는 것이 좋습니다. 마지막 단계로 기존 레이블 정책에 더 많은 사용자를 추가 하 여 더 많은 사용자가 레이블을 사용할 수 있도록 하거나 표준 사용자의 기존 레이블 정책에 레이블을 추가 합니다. 표준 사용자가 레이블을 볼 때 이미 SharePoint 및 OneDrive와 동기화 되었습니다.
+
 
 ## <a name="sharepoint-information-rights-management-irm-and-sensitivity-labels"></a>SharePoint IRM (정보 권한 관리) 및 민감도 레이블
 
