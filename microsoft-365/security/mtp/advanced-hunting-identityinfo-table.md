@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: b384e76439ae706520725e7193fa64224b724be0
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: e922fc7930d645a7024a0ffc73359277c4b637e4
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44898960"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204926"
 ---
 # <a name="identityinfo"></a>IdentityInfo
 
@@ -50,7 +50,7 @@ ms.locfileid: "44898960"
 | `AccountName` | 문자열 | 계정의 사용자 이름입니다. |
 | `AccountDomain` | 문자열 | 계정의 도메인 |
 | `EmailAddress` | 문자열 | 계정의 SMTP 주소입니다. |
-| `SipProxyAddress` | 문자열 | 계정의 SIP (over IP) session (세션 시작 프로토콜) 주소 |
+| `SipProxyAddress` | 문자열 | 계정의 SIP (Voice over IP) session (세션 시작 프로토콜) 주소 |
 | `City` | 문자열 | 계정 사용자가 있는 구/군/시 |
 | `Country` | 문자열 | 계정 사용자가 있는 국가/지역 |
 | `IsAccountEnabled` | 부울 | 계정을 사용할 수 있는지 여부를 나타냅니다. |

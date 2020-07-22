@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: e19a5528a4ccc250c981ab21d7644783ad1b0b8b
-ms.sourcegitcommit: c51dd4c659f763ae46c188d3fae90aab8d1d7e88
+ms.openlocfilehash: fca4889167dd7eb5f57d4980c4b033e0903209eb
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45084158"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204938"
 ---
 # <a name="whats-new-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 새로운 기능
 
@@ -30,6 +30,10 @@ RSS 피드: 다음 URL을 복사 하 여 피드 판독기에 붙여 넣어이 �
 ```http
 https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+Threat+Protection%22&locale=en-us
 ```
+## <a name="july-2020"></a>2020년 7월
+- [FileProfile () 함수](advanced-hunting-fileprofile-function.md) <br> [고급 구하기](advanced-hunting-overview.md) 쿼리에서이 함수를 사용 하 여 광범위 한 파일 정보가 포함 된 결과를 보강 합니다.
+- [Identity 및 app 테이블](advanced-hunting-schema-tables.md)<br> 고급 구하기 스키마에서 [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md), [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)및 [appfileevents](advanced-hunting-appfileevents-table.md) 테이블을 사용 하 여 인증 이벤트, Active Directory 쿼리 및 앱 관련 작업에 대 한 가시성을 확인할 수 있습니다.
+
 ## <a name="june-2020"></a>2020년 6월
 - Twitter 피드 <br> 대시보드 내에서 최신 보안 연구, 위협 인텔리전스, 제품 소식 등을 확인 하세요.
 - [EmailPostDeliveryEvents schema 테이블](advanced-hunting-emailpostdeliveryevents-table.md) <br> 고급 구하기 쿼리의 전자 메일 메시지에 대해 수행 된 배달 후 작업에 대 한 정보를 통합 합니다.

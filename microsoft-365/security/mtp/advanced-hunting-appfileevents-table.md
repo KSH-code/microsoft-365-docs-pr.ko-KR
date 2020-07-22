@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: da3b331d4f607aa0961e275db9444aadbec4fcf2
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: 663dc2a3de676fa2daeab3d9621254e956d42fc4
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899342"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204758"
 ---
 # <a name="appfileevents"></a>AppFileEvents
 
@@ -41,13 +41,23 @@ ms.locfileid: "44899342"
 | `FileName` | 문자열 | 기록된 조치가 적용된 파일의 이름 |
 | `FolderPath` | 문자열 | 기록 된 작업이 적용 된 파일을 포함 하는 폴더 |
 | `PreviousFileName` | 문자열 | 동작의 결과로 이름이 바뀐 파일의 원래 이름입니다. |
+| `PreviousFolderPath` | 문자열 | 기록 된 작업을 적용 하기 전의 파일을 포함 하는 원래 폴더 |
+| `Protocol` | 문자열 | 사용 되는 네트워크 프로토콜 |
 | `AccountName` | 문자열 | 계정의 사용자 이름입니다. |
 | `AccountDomain` | 문자열 | 계정의 도메인 |
 | `AccountUpn` | 문자열 | 계정의 UPN (사용자 계정 이름) |
 | `AccountObjectId` | 문자열 | Azure AD의 계정에 대 한 고유 식별자입니다. |
 | `AccountDisplayName` | 문자열 | 주소록에 표시 되는 계정 사용자의 이름입니다. 일반적으로 주어진 이름이 나 이름, 중간 시작, 성 또는 성의 조합입니다. |
+| `DeviceName` | 문자열 | 장치의 FQDN (정규화 된 도메인 이름) |
+| `DeviceType` | 문자열 | 장치 유형 | 
+| `OSPlatform` | 문자열 | 장치에서 실행 되는 운영 체제의 플랫폼입니다. 이는 Windows 10 및 Windows 7과 같이 동일한 제품군 내의 변형을 포함하여 특정 운영 체제를 나타냅니다. |
 | `IPAddress` | 문자열 | 끝점에 할당 되 고 관련 네트워크 통신 중에 사용 되는 IP 주소 |
+| `DestinationDeviceName` | 문자열 | 기록 된 작업을 처리 한 서버 응용 프로그램을 실행 하는 장치의 이름입니다. |
+| `DestinationIPAddress` | 문자열 | 기록 된 작업을 처리 한 서버 응용 프로그램을 실행 하는 장치의 IP 주소 |
 | `Location` | 문자열 | 이벤트와 관련 된 구/군/시, 국가 또는 기타 지리적 위치 |
+| `Isp` | 문자열 | 끝점 IP 주소와 연결 된 ISP (인터넷 서비스 공급자) |
+| `ReportId` | long | 이벤트에 대 한 고유 식별자입니다. |
+| `AdditionalFields` | 문자열 | 엔터티 또는 이벤트에 대 한 추가 정보 |
 
 ## <a name="related-topics"></a>관련 항목
 - [고급 헌팅 개요](advanced-hunting-overview.md)

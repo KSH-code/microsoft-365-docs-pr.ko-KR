@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 45bc42e825c55ca228b13e8d308f9a1384301d07
-ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
+ms.openlocfilehash: 4dde4d1b30fe5bcbe4d3bc63c4d998c804b0ce69
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45048270"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204830"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Microsoft Threat Protection 미리 보기 기능
 
@@ -59,8 +59,4 @@ Microsoft Threat Protection 서비스는 새로운 기능 향상 및 기능을 �
 
 - **[포털에서 스키마 참조](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** -보안 센터에서 직접 사용할 수 있는 스키마 테이블에 대 한 정보입니다. 이 참조는 테이블 및 열 설명 외에도 지원 되는 이벤트 유형 ( `ActionType` 값) 및 예제 쿼리에 대 한 정보를 제공 합니다.  
 
-- **[Id 및 앱 테이블](advanced-hunting-schema-tables.md)** -고급 구하기 스키마에서 [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md), [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)및 [appfileevents](advanced-hunting-appfileevents-table.md) 테이블을 사용 하 여 인증 이벤트, Active Directory 쿼리 및 앱 관련 작업에 대 한 가시성을 가져옵니다.
-
 - **[헌트](advanced-hunting-go-hunt.md)** -쿼리 기반 [고급 구하기](advanced-hunting-overview.md) 기능을 사용 하 여 특정 이벤트, 사용자, 장치 또는 기타 엔터티 유형을 검사 하는 인시던트 조사에서 빠르게 피벗 합니다.
-
-- **[Fileprofile () 함수](advanced-hunting-fileprofile-function.md)** - [고급 구하기](advanced-hunting-overview.md) 쿼리에서 포괄적인 파일 정보를 통합 하는 데 사용 됩니다.

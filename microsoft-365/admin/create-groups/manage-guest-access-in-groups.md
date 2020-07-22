@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Microsoft 365 그룹에 게스트를 추가 하 고, 게스트 사용자를 보고, PowerShell을 사용 하 여 게스트 액세스를 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: 0322bd269f1c5637627461d136b40f6af4fc9540
-ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
+ms.openlocfilehash: a56d9599824ac1436c6f875661bcd573c1f6b1ca
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854249"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204746"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>Microsoft 365 그룹에서 게스트 액세스 관리
 
@@ -114,7 +114,7 @@ Get-AzureADObjectSetting -TargetObjectId $groupID -TargetType Groups | fl Values
 
 ## <a name="add-guests-to-the-global-address-list"></a>전체 주소 목록에 게스트 추가
 
-기본적으로 게스트는 Exchange 전체 주소 목록에 표시 되지 않습니다. 아래에 나와 있는 단계를 사용 하 여 게스트가 전체 주소 목록에 표시 되도록 합니다.
+기본적으로 게스트는 Exchange 전체 주소 목록에 표시 되지 않습니다. 아래에 나와 있는 단계를 사용 하 여 게스트가 전체 주소 목록에 표시 되도록 합니다. Exchange Online 관리 센터에서 게스트를 볼 수 있어야 합니다. 새 게스트가 추가 된 후 표시 되는 데는 약간의 시간이 걸릴 수 있습니다.
 
 다음을 실행 하 여 게스트 사용자의 ObjectID를 찾습니다.
 

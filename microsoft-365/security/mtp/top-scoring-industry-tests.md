@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 64197133386748695fbef5a33c09022ae41f75d3
-ms.sourcegitcommit: 5f980a9eb5aca61cf3662ef0bc65dec215e21656
+ms.openlocfilehash: 0ee31ef55c78457ee2b9d3db7b702ada2f55a639
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "45185995"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204962"
 ---
 # <a name="top-scoring-in-industry-tests"></a>업계 최고의 점수 테스트
 
@@ -100,6 +100,8 @@ SE Labs는 제품 및 서비스가 끝점 소프트웨어, 네트워크 장비 �
 ## <a name="endpoint-detection--response"></a>끝점 검색 & 응답
 
 Microsoft Defender ATP [끝점 검색 및 응답](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response) 기능은 실시간이 고 실행 가능한 고급 공격 감지를 제공 합니다. 보안 분석가는 알림에 효과적으로 우선 순위를 지정하고, 침해의 전체 범위에 대한 가시성을 확보하고 위협을 수정하기 위한 대응 조치를 취할 수 있습니다.
+
+Microsoft Defender ATP의 EDR 및 endpoint protection 기능을 통해 업계 테스트 및 게시에서 긍정적인 결과가 수신 되었습니다. [SC lab 평가 끝점이](https://www.scmagazine.com/home/reviews/sc-product-reviews-endpoint-security/) 2020 년 6 월 보안 도구 이며 MICROSOFT Defender ATP [5/5 별](https://www.scmagazine.com/review/microsoft-defender-advanced-threat-protection/)이 제공 되었습니다. 또한 전체 보안 기능 집합을 사용 하 여 조직에서 최신 위협 요소를 보호 하 고 끝점 보안 솔루션을 전체적이 고 통합으로 식별 하는 Microsoft Defender ATP 기능이 라고도 합니다. 또한 공격 체인은 이제 솔루션에 의해 완전히 포함 되기 때문에 끝점 보호 및 응답 기능의 수렴을 인정 받습니다.
 
 ### <a name="mitre-industry-leading-optics-and-detection-capabilities"></a>MITRE: 업계 최고의 광학 및 검색 기능
 

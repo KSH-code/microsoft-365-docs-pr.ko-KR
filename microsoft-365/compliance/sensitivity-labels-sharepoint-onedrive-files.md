@@ -17,20 +17,20 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 SharePoint 및 OneDrive에서 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용 하도록 설정할 수 있습니다.
-ms.openlocfilehash: 8530e3d82fd670eedde9a874b0a87a0bad523fe5
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: a6826be5cccf89d3b2e48e0e37df9a9263e4a8a7
+ms.sourcegitcommit: fe20f5ed07f38786c63df0f73659ca472e69e478
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199528"
+ms.locfileid: "45201512"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
 SharePoint 및 OneDrive에서 Office 파일에 대해 민감도 레이블을 사용 하도록 설정 하기 전에 Office의 웹에 [민감도 레이블을](sensitivity-labels.md) 적용할 수 없습니다. 리본 메뉴에 **민감도** 단추가 표시 되지 않거나 상태 표시줄에 레이블 이름이 적용 됩니다. 또한 데스크톱 앱을 사용 하 여 파일에 레이블을 지정 하 고 SharePoint 또는 OneDrive에 저장 하는 경우에는 레이블에서 암호화를 적용 한 경우 이러한 파일의 내용을 처리할 수 없습니다. 이러한 상황에서는 공동 작성, eDiscovery, 데이터 손실 방지, 검색 및 기타 공동 작업 기능이 작동 하지 않습니다.
 
-SharePoint 및 OneDrive에서 Office 파일에 대해 민감도 레이블을 사용 하도록 설정 하면 이러한 모든 기능이 사용 되도록 설정 됩니다. 다음과 같이 민감도 레이블을 사용자에 게 표시 하는 것 외에, 클라우드 기반 키를 사용 하 여 암호화를 포함 하는 민감도 레이블이 적용 된 파일 및 변경 내용에 대해 다음을 수행 합니다.
+SharePoint 및 OneDrive에서 Office 파일에 대해 민감도 레이블을 사용 하도록 설정 하면 이러한 모든 기능이 사용 되도록 설정 됩니다. 민감도 레이블을 사용자에 게 표시 하는 것 외에, 클라우드 기반 키를 사용 하 여 암호화를 포함 하는 우편물 종류 레이블이 적용 된 새 파일과 변경 되는 파일에 대해 [이중 키 암호화](double-key-encryption.md)를 사용 하지 않습니다.
 
 - Word, Excel 및 PowerPoint 파일의 경우 SharePoint에서 레이블을 인식 하며, 이제 암호화 된 파일의 내용을 처리할 수 있습니다.
 
@@ -45,7 +45,7 @@ SharePoint 및 OneDrive에서 Office 파일에 대해 민감도 레이블을 사
 - Office 365 eDiscovery는 이러한 파일에 대 한 전체 텍스트 검색을 지원 합니다. DLP (데이터 손실 방지) 정책은 이러한 파일의 콘텐츠를 지원 합니다.
 
 > [!NOTE]
-> 암호화가 클라우드 기반 키와 함께 온-프레미스 키가 적용 되지 않은 경우 키 관리 토폴로지에서 흔히 파일 콘텐츠를 처리 하는 데 사용 되는 SharePoint 동작이 변경 되지 않습니다.
+> 온-프레미스 키를 사용 하 여 암호화를 적용 한 경우 키 관리 토폴로지에서 흔히 "사용자의 키를 사용 하 고 있습니다." (HYOK) 또는 [이중 키 암호화](double-key-encryption.md)를 사용한 경우 파일 콘텐츠 처리에 대 한 SharePoint 동작이 변경 되지 않습니다.
 >
 > 또한 sharepoint의 기존 레이블이 지정 되 고 암호화 된 파일에 대해서도 변경 되지 않습니다. 이러한 파일을 새 기능의 혜택을 얻으려면 다운로드 및 업로드 하거나 SharePoint 및 OneDrive에 대해 민감도 레이블을 사용 하도록 설정 하는 명령을 실행 한 후에 편집 해야 합니다. 그러면 SharePoint에서 이러한 파일을 처리할 수 있습니다. 예를 들어 검색 및 eDiscovery 결과에서 반환 됩니다.
 
@@ -70,17 +70,18 @@ Windows 및 버전 19.002.0107.0008 이상에서 OneDrive 동기화 앱 버전 1
 
 ## <a name="limitations"></a>제한 사항
 
-- SharePoint에서는 이미 Azure Information Protection 레이블을 사용 하 여 암호화 한 기존 파일에 민감도 레이블을 자동으로 적용 하지 않습니다. 대신 SharePoint 및 OneDrive에서 Office 파일에 대해 민감도 레이블을 사용 하도록 설정한 후에 작동 하는 기능을 얻으려면 다음 작업을 완료 하세요.
+- SharePoint에서는 이미 Azure Information Protection 레이블을 사용 하 여 암호화 한 기존 파일에 민감도 레이블을 자동으로 적용 하지 않습니다. 대신 SharePoint 및 OneDrive에서 Office 파일에 대해 민감도 레이블을 사용 하도록 설정 하 고 나면 기능이 작동 하도록 하려면 다음 작업을 완료 하세요.
     
     1. [Azure Information Protection 레이블을](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) 민감도 레이블로 마이그레이션하고 Microsoft 365 준수 센터 또는 레이블 관리 센터에서 [게시](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) 했는지 확인 합니다.
     
     2. 파일을 다운로드 한 다음 SharePoint에 업로드 합니다.
 
-- 암호화를 적용 한 레이블에서 암호화 [에 대 한 다음 구성](encryption-sensitivity-labels.md#configure-encryption-settings)중 하나를 수행 하면 SharePoint에서 암호화 된 파일을 처리할 수 없습니다.
+- 암호화를 적용 한 레이블에 암호화 [에 대 한 다음 구성](encryption-sensitivity-labels.md#configure-encryption-settings)중 하나가 있는 경우에는 암호화 된 파일을 처리할 수 없습니다.
     - 사용자가 **Word, PowerPoint 및 Excel에서 사용 권한을 지정할** **때 사용 권한을 할당할 수** 있습니다. 이 설정을 "사용자 정의 권한"이 라고도 합니다.
     - **콘텐츠에 대 한 사용자 액세스 만료** 는 **Never**이외의 값으로 설정 됩니다.
+    - **이중 키 암호화** 가 선택 됩니다.
     
-    이러한 암호화 구성 중 하나가 있는 레이블의 경우에는 웹에서 Office 사용자에 게 레이블이 표시 되지 않습니다. 또한 이러한 암호화 설정이 이미 있는 레이블이 지정 된 문서에는 새 기능을 사용할 수 없습니다. 예를 들어 이러한 문서는 업데이트 되더라도 검색 결과에 반환 되지 않습니다.
+    이러한 암호화 구성이 적용 된 레이블의 경우에는 웹에서 Office 사용자에 게 레이블이 표시 되지 않습니다. 또한 이러한 암호화 설정이 이미 있는 레이블이 지정 된 문서에는 새 기능을 사용할 수 없습니다. 예를 들어 이러한 문서는 업데이트 되더라도 검색 결과에 반환 되지 않습니다.
 
 - 사용자에 게 편집 권한을 부여 하는 암호화 된 문서에서는 Office 앱의 웹 버전에서 복사를 차단할 수 없습니다.
 
@@ -96,6 +97,7 @@ Windows 및 버전 19.002.0107.0008 이상에서 OneDrive 동기화 앱 버전 1
 
 - 다음과 같은 방법으로 암호화 된 문서는 웹에서 Office에서 열 수 없습니다.
     - 온-프레미스 키를 사용 하는 암호화 ("자체 키를 포함" 또는 HYOK)
+    - [이중 키 암호화](double-key-encryption.md) 를 사용 하 여 적용 한 암호화 
     - 예를 들어 권한 관리 보호 서식 파일을 직접 적용 하는 경우와 같이 레이블과 독립적으로 적용 되는 암호화
 
 - 해당 레이블 정책에서 레이블을 제거 하지 않고 SharePoint의 문서에 적용 된 레이블을 삭제 하는 경우에는 다운로드 시 문서를 레이블이 지정 되거나 암호화 되지 않습니다. 비교에서 레이블이 지정 된 문서가 SharePoint 외부에 저장 된 경우 레이블이 삭제 되 면 문서는 암호화 된 상태로 유지 됩니다. 테스트 단계에서 레이블을 삭제할 수는 있지만 프로덕션 환경에서는 레이블을 삭제 하는 것이 거의 발생 하지 않습니다.

@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 7ab2b0ddaa7bc1c8ed4109affb2ef5ff11a7420b
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: a31ee6de305cf9226a8b605f75bb71406f78fd70
+ms.sourcegitcommit: fe20f5ed07f38786c63df0f73659ca472e69e478
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/21/2020
-ms.locfileid: "45200257"
+ms.locfileid: "45201424"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>참가자 위험 관리 설정 시작
 
@@ -74,7 +74,7 @@ ms.locfileid: "45200257"
 
 ![참가자 위험 관리 사용자 지정 지표 설정](../media/insider-risk-custom-indicators.png)
 
-- 첫 번째 일별 이벤트 수준에서는 이벤트에 대 한 위험 점수에 대 한 영향을 낮추고 하루 중에 이벤트에 대 한 위험 성과에 영향을 주는 *20* 개 이상의 이벤트가 발생 하는 것을 최소화 하기 위해 하루 중 하나 이상의 *이벤트* 에 임계값을 더 작게 설정*하 고 이벤트* 에 대 한 위험 점수에 높은 *영향을 줄* 수 있습니다. 이러한 설정은 다음을 의미 합니다.
+첫 번째 일별 이벤트 수준에서는 이벤트에 대 한 위험 점수에 대 한 영향을 낮추고 하루 중에 이벤트에 대 한 위험 성과에 영향을 주는 *20* 개 이상의 이벤트가 발생 하는 것을 최소화 하기 위해 하루 중 하나 이상의 *이벤트* 에 임계값을 더 작게 설정 *하 고 이벤트* 에 대 한 위험 점수에 높은 영향을 줄 수 있습니다. 이러한 설정은 다음을 의미 합니다.
 
 - 이벤트를 트리거한 후 발생 하는 SharePoint 이벤트가 1-9 위험 점수가 최소한 영향을 받게 되며 경고를 생성 하지 않는 경향이 있습니다.
 - 트리거 이벤트 후 발생 하는 SharePoint 이벤트가 10-19에 해당 하는 경우 위험 점수가 본질적으로 낮고 경고 심각도 수준이 낮은 수준으로 유지 되는 경향이 있습니다.

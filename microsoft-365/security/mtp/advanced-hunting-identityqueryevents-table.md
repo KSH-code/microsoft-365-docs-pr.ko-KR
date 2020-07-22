@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: bec7f13d49e2ccf4e3a9121d5e5a2fecd1b10aa2
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: 436c4d7306f9f5febd614489090a0a10929ba3c9
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899116"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204878"
 ---
 # <a name="identityqueryevents"></a>IdentityQueryEvents
 
@@ -38,8 +38,9 @@ ms.locfileid: "44899116"
 | `Timestamp` | datetime | 이벤트가 기록된 날짜와 시간 |
 | `ActionType` | 문자열 | 이벤트를 트리거한 작업의 유형입니다. |
 | `Application` | 문자열 | 기록 된 작업을 수행한 응용 프로그램 |
-| `Query` | 문자열 | 쿼리 유형: QueryGroup, Querygroup 또는 EnumerateUsers |
-| `QueryObject` | 문자열 | 쿼리 중인 사용자, 그룹, 장치, 도메인 또는 기타 모든 엔터티 유형의 이름입니다. |
+| `QueryType` | 문자열 | 쿼리 유형 (예: QueryGroup, Querygroup 또는 EnumerateUsers) |
+| `QueryTarget` | 문자열 | 쿼리 중인 사용자, 그룹, 장치, 도메인 또는 기타 모든 엔터티 유형의 이름입니다. |
+| `Query` | 문자열 | 쿼리를 실행 하는 데 사용 되는 문자열 |
 | `Protocol` | 문자열 | 통신 중에 사용 되는 프로토콜 |
 | `AccountName` | 문자열 | 계정의 사용자 이름입니다. |
 | `AccountDomain` | 문자열 | 계정의 도메인 |
@@ -49,7 +50,14 @@ ms.locfileid: "44899116"
 | `AccountDisplayName` | 문자열 | 주소록에 표시 되는 계정 사용자의 이름입니다. 일반적으로 주어진 이름이 나 이름, 중간 시작, 성 또는 성의 조합입니다. |
 | `DeviceName` | 문자열 | 끝점의 FQDN (정규화 된 도메인 이름) |
 | `IPAddress` | 문자열 | 끝점에 할당 되 고 관련 네트워크 통신 중에 사용 되는 IP 주소 |
+| `DestinationDeviceName` | 문자열 | 기록 된 작업을 처리 한 서버 응용 프로그램을 실행 하는 장치의 이름입니다. |
+| `DestinationIPAddress` | 문자열 | 기록 된 작업을 처리 한 서버 응용 프로그램을 실행 하는 장치의 IP 주소 |
+| `TargetDeviceName` | 문자열 | 기록 된 작업을 적용 한 장치의 FQDN (정규화 된 도메인 이름)입니다. |
+| `TargetAccountUpn` | 문자열 | 기록 된 작업이 적용 된 계정의 UPN (사용자 계정 이름) |
+| `TargetAccountDisplayName` | 문자열 | 기록 된 작업이 적용 된 계정의 표시 이름입니다. |
 | `Location` | 문자열 | 이벤트와 관련 된 구/군/시, 국가 또는 기타 지리적 위치 |
+| `ReportId` | long | 이벤트에 대 한 고유 식별자입니다. |
+| `AdditionalFields` | 문자열 | 엔터티 또는 이벤트에 대 한 추가 정보 |
 
 ## <a name="related-topics"></a>관련 항목
 - [고급 헌팅 개요](advanced-hunting-overview.md)
