@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: b67320af6f388386d7b7723bbe3f645b46eed8e7
-ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
+ms.openlocfilehash: 35a8a7a00c8374dd938a3c05e3ffe0c3c85fd347
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138216"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45199620"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -237,9 +237,9 @@ Exchange 공용 폴더, Skype, Teams 채널 메시지 및 채팅은 보존 레�
 
 사용자가 콘텐츠에 보존 레이블을 할당하거나 레이블이 자동 적용된 후에 콘텐츠 검색을 사용하여 특정 보존 레이블로 분류된 모든 콘텐츠를 찾을 수 있습니다.
   
-콘텐츠 검색을 만들 때 **규정 준수 레이블** 조건을 선택한 다음 보존 레이블 이름을 전체 또는 일부만 입력하고 와일드 카드를 사용합니다. 자세한 내용은 [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)을 참조하세요.
+콘텐츠 검색을 만들 때 **보존 레이블** 조건을 선택한 다음 보존 레이블 이름을 전체 또는 일부만 입력하고 와일드 카드를 사용합니다. 자세한 내용은 [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)을 참조하세요.
   
-![규정 준수 레이블 조건](../media/compliance-label-condition.png)
+![보존 레이블 조건](../media/retention-label-condition.png)
 
 
 ## <a name="compare-capabilities-for-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블의 기능 비교하기

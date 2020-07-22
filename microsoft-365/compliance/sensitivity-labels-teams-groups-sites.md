@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: 7e4b12310d05ecbceb9df2eac5fe4d48e9275bb8
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: b9168320b5764a3d7ed4e1570c32f0f35ccbc44d
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936929"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45199628"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기
 
@@ -109,11 +109,13 @@ ms.locfileid: "44936929"
 
 ### <a name="creating-and-publishing-labels-that-are-configured-for-sites-and-groups"></a>사이트 및 그룹에 대해 구성된 레이블 만들기 및 게시하기
 
-민감도 레이블이 만들어지고 게시된 후 레이블이 팀, 그룹 및 사이트의 사용자에게 표시될 때까지는 최대 24시간이 걸릴 수 있습니다. 사이트 및 그룹 설정에 대해 레이블이 구성된 경우 다음 지침에 따라 사용자 레이블을 게시하세요.
+새 민감도 레이블을 만들고 게시하면 팀, 그룹 및 사이트의 사용자가 한 시간 내에 볼 수 있습니다. 그러나 기존 레이블을 수정하는 경우 최대 24시간이 소요될 수 있습니다. 사이트 및 그룹 설정에 대해 레이블이 구성된 경우 다음 지침에 따라 사용자 레이블을 게시하세요.
 
 1. 민감도 레이블을 만들고 구성한 후에는 소수의 테스트 사용자에게만 적용되는 레이블 정책에 이 레이블을 추가합니다.
 
-2. 24시간을 기다립니다.
+2. 변경 내용이 복제될 때까지 기다립니다.
+    - 새 레이블: 1시간 동안 기다립니다.
+    - 기존 레이블: 24시간 동안 기다립니다.
 
 3. 이 대기 시간이 지나면 테스트 사용자 계정 중 하나를 사용하여 1단계에서 만든 레이블이 있는 팀, Microsoft 365 그룹 또는 SharePoint 사이트를 만듭니다.
 
@@ -121,7 +123,7 @@ ms.locfileid: "44936929"
 
 ### <a name="modifying-published-labels-that-are-configured-for-sites-and-groups"></a>사이트 및 그룹에 대해 구성된 게시된 레이블 수정하기
 
-가장 좋은 방법은 여러 팀, 그룹 또는 사이트에 민감도 레이블을 적용한 후 레이블의 사이트와 그룹 설정을 변경하지 않는 것입니다. 이 경우 레이블이 적용된 모든 컨테이너에 변경 내용이 복제될 때까지 최대 3일을 기다립니다. 
+가장 좋은 방법은 여러 팀, 그룹 또는 사이트에 민감도 레이블을 적용한 후 레이블의 사이트와 그룹 설정을 변경하지 않는 것입니다. 그럴 경우 변경 내용이 레이블이 적용된 모든 컨테이너에 복제될 때까지 24시간 동안 기다려야 합니다. 
 
 또한 변경 내용에 **외부 사용자 액세스** 설정이 포함된 경우:
 
@@ -136,7 +138,7 @@ ms.locfileid: "44936929"
 
 1. 레이블이 포함된 모든 레이블 정책에서 민감도 레이블을 제거합니다.
 
-2. 48시간을 기다립니다.
+2. 1시간 동안 기다립니다.
 
 3. 이 대기 시간이 지나면 팀, 그룹 또는 사이트 만들기를 시도해보고 해당 레이블이 더 이상 표시되지 않는지 확인합니다.
 
