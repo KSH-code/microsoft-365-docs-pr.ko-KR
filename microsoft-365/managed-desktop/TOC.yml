@@ -38,6 +38,8 @@
           href: service-description/operations-and-monitoring.md
         - name: 응용 프로그램의 요구 사항
           href: service-description/mmd-app-requirements.md
+        - name: 응용 프로그램 제어
+          href: service-description/app-control.md
         - name: 서비스 변경 및 커뮤니케이션
           href: service-description/servicechanges.md
         - name: 서비스 계획에 대한 예외
@@ -89,6 +91,8 @@
               href: get-started/register-reused-devices-self.md
         - name: 사용자들이 장치를 사용할 수 있도록 준비시키기
           href: get-started/get-started-devices.md
+        - name: 앱 제어 시작하기
+          href: get-started/get-started-app-control.md
         - name: 앱 배포
           href: get-started/deploy-apps.md
           items:
@@ -116,6 +120,8 @@
           href: working-with-managed-desktop/end-user-support.md
         - name: 앱 관리
           href: working-with-managed-desktop/manage-apps.md
+        - name: 앱 제어 작업
+          href: working-with-managed-desktop/work-with-app-control.md
         - name: 구성 가능한 설정
           href: working-with-managed-desktop/config-setting-overview.md
           items:
