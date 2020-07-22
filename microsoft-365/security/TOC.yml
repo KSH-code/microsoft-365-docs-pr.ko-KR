@@ -37,6 +37,18 @@
           href: ../enterprise/secure-email-recommended-policies.md
         - name: 권장 SharePoint Online 액세스 정책
           href: ../enterprise/sharepoint-file-access-policies.md
+    - name: Microsoft 보안 점수
+      items:
+        - name: 보안 점수 개요
+          href: mtp/microsoft-secure-score.md
+        - name: 보안 상태 평가
+          href: mtp/microsoft-secure-score-improvement-actions.md
+        - name: 점수 기록을 추적하고 목표를 달성
+          href: mtp/microsoft-secure-score-history-metrics-trends.md
+        - name: 향후 계획
+          href: mtp/microsoft-secure-score-whats-coming.md
+        - name: 새로운 기능
+          href: mtp/microsoft-secure-score-whats-new.md
     - name: Microsoft 위협 방지
       items:
         - name: 개요
@@ -187,16 +199,6 @@
                       href: mtp/custom-detections-overview.md
                     - name: 검색 규칙 만들기 및 관리
                       href: mtp/custom-detection-rules.md
-            - name: Microsoft 보안 점수
-              items:
-                - name: 보안 점수 개요
-                  href: mtp/microsoft-secure-score.md
-                - name: 보안 상태에 가시성 확보
-                  href: mtp/microsoft-secure-score-improvement-actions.md
-                - name: 점수 기록을 추적하고 목표를 달성
-                  href: mtp/microsoft-secure-score-history-metrics-trends.md
-                - name: 향후 계획
-                  href: mtp/microsoft-secure-score-whats-coming.md
             - name: 보고서
               items:
                 - name: 보고서 모니터링 및 보기
