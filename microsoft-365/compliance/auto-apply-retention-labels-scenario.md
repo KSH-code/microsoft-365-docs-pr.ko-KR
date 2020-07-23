@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 솔루션 시나리오에서는 보존 레이블을 사용하여 SharePoint Online에 저장된 제품 관련 문서의 수명 주기를 관리하는 방법을 설명합니다. 이 작업은 문서 메타 데이터를 사용하여 콘텐츠를 분류하고, 특히 보존 레이블을 자동으로 적용하며 이벤트 기반 보존을 구성하여 수행됩니다.
-ms.openlocfilehash: 8edd7ea1b64a5f7bf499892dcd32b945307c9668
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: a2e7a3887f9402cecb70ec60d4ff4e47f6a55ee9
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126479"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45199861"
 ---
 # <a name="manage-the-lifecycle-of-sharepoint-documents-with-retention-labels"></a>보존 레이블을 사용하여 SharePoint 문서의 수명 주기 관리
 
@@ -112,7 +112,7 @@ ms.locfileid: "45126479"
 
 - **파일 계획 설명자:** (시나리오 단순화를 위해 파일 설명자가 제공되지 않음)
 
-다음 스크린샷은 보안 및 준수 센터에서 제품 사양 [보존 레이블](retention.md#retention-labels)을 만들 때의 설정을 보여줍니다. 보존 레이블을 만들 때 **제품 중단** 이벤트 유형을 만들 수 있습니다. 아래 단계를 참조하세요.
+다음 스크린샷은 Microsoft 365 준수 센터에서 제품 시방서 [보존 레이블](retention.md#retention-labels)을 만들 때 설정을 보여줍니다. 보존 레이블을 만들 때 **제품 중단** 이벤트 유형을 만들 수 있습니다. 아래 단계를 참조하세요.
 
 ![제품 사양 보존 레이블 설정](../media/SPRetention5.png)
 
@@ -181,7 +181,7 @@ SharePoint 관리 센터에서 검색 구성을 열고 **검색 스키마 관리
 
 KQL은 검색 쿼리에서 크롤링된 속성을 사용할 수 없습니다. 관리 속성을 사용해야 합니다. 일반적인 검색 시나리오에서는 관리 속성을 만들어 필요한 크롤링된 속성에 매핑합니다. 그러나 자동 적용된 보존 레이블의 경우 사용자 지정 관리 속성이 아닌 KQL 사전 정의 관리 속성에서만 지정할 수 있습니다. 문자열 RefinableString00에서 RefinableString199까지 사용할 수 있도록 시스템에 이미 사전 정의된 관리 속성 집합이 있습니다. 전체 목록은 [기본 미사용 관리 속성](https://docs.microsoft.com/sharepoint/manage-search-schema#default-unused-managed-properties)을 참조하세요. 이러한 기본 관리 속성은 일반적으로 검색 구체화를 정의하는 데 사용됩니다.
 
-KQL 쿼리를 사용하여 올바른 보존 레이블을 제품 문서 내용에 자동으로 적용하기 위해 크롤링된 속성 **ows\_문서\_x0020\_유형**과 **ows\_\_상태**를 두 개의 정의 가능한 관리 속성에 맵핑합니다. 이 시나리오의 테스트 환경에서는 **RefinableString00** 및 **RefinableString01**은 사용되지 않습니다. 이를 위해 SharePont 관리 센터의 **검색 스키마 관리**에서 **관리 속성**을 살펴보았습니다.
+KQL 쿼리를 사용하여 올바른 보존 레이블을 제품 문서 내용에 자동으로 적용하기 위해 크롤링된 속성 **ows\_문서\_x0020\_유형**과 **ows\_\_상태**를 두 개의 정의 가능한 관리 속성에 맵핑합니다. 이 시나리오의 테스트 환경에서는 **RefinableString00** 및 **RefinableString01**은 사용되지 않습니다. SharePoint 관리 센터의 **검색 스키마 관리**에서 **관리 속성**을 보고 결정합니다.
 
 ![검색 스키마의 관리 속성](../media/SPRetention12.png)
 
@@ -217,7 +217,7 @@ KQL 쿼리를 사용하여 올바른 보존 레이블을 제품 문서 내용에
 
 이제 KQL 쿼리가 올바르게 작동하는지 확인했으므로 KQL 쿼리를 사용하여 제품 사양 보존 레이블을 해당 문서에 자동으로 적용하는 레이블 정책을 작성하겠습니다.
 
-1. [보안 및 준수 센터](https://protection.office.com)에서 **분류** > **보존 레이블**로 이동한 다음 **레이블 자동 적용**을 선택합니다. 
+1. [준수 센터](https://compliance.microsoft.com/homepage)에서 **기록 관리** > **레이블 정책**으로 이동하여 **레이블 자동 적용**을 선택합니다. 
 
    ![레이블 페이지에서 레이블 자동 적용을 선택합니다.](../media/SPRetention16.png)
 
@@ -252,9 +252,7 @@ KQL 쿼리를 사용하여 올바른 보존 레이블을 제품 문서 내용에
 
 ### <a name="verifying-the-retention-label-was-automatically-applied"></a>보존 레이블이 자동으로 적용되었는지 확인
 
-7일 후, 보안 및 준수 센터에서 [레이블 활동 탐색기](view-label-activity-for-documents.md)를 사용하여 앞서 작성한 레이블 정책이 이 시나리오의 보존 레이블을 제품 문서에 자동으로 적용했는지 확인합니다. 이 문서에서 이러한 보존 레이블과 레이블 정책 만들기에 대해 설명하지는 않았지만 다음 스크린샷에서 제품 계약과 사용자 매뉴얼에도 보존 레이블이 적용되었음을 알 수 있습니다.
-
-![레이블 활동 탐색기를 사용하여 레이블이 자동 적용되었는지 확인합니다.](../media/SPRetention20.png)
+7일 후에 준수 센터에서 [레이블 활동 탐색기](view-label-activity-for-documents.md)를 사용하여 생성된 레이블 정책이 시나리오에서 제품 문서에 보존 정책을 자동 적용 했는지를 확인합니다. 
 
 또 다른 확인 단계는 문서 라이브러리의 문서 속성을 확인하는 것입니다. 정보 패널에서 보존 레이블이 선택된 문서에 적용되어 있음을 확인할 수 있습니다.
 

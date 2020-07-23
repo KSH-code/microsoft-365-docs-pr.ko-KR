@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 문서 또는 전자 메일에 레이블을 자동으로 할당하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 9e02df52c6b95fef087b8056501ffda7c3ddad14
-ms.sourcegitcommit: 09a500a44d8723f8f2be87d9ad4ce7e453c5192b
+ms.openlocfilehash: 92811aff70e48992088abf221536684dcff794b8
+ms.sourcegitcommit: e6bf1af2d5cf54c3fcc3fa916abe268fc96bdd4e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45094848"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45189513"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>민감도 레이블을 콘텐츠에 자동으로 적용
 
@@ -47,7 +47,7 @@ ms.locfileid: "45094848"
 
 - **콘텐츠가 이미 저장되었거나(SharePoint 또는 OneDrive) 전자 메일로 전송(Exchange Online에서 처리됨)된 경우 서비스쪽 레이블 지정**: 자동 레이블 지정 정책을 사용합니다. 
     
-    이 방법을 민감도 레이블이 있는 자동 분류라고 합니다. 또한 유휴 데이터(SharePoint 및 OneDrive의 문서) 및 전송 중인 데이터(Exchange에서 보내거나 받은 전자 메일)에 대한 자동 레이블 지정이라고 부르는 경우도 있습니다. Exchange의 경우 유휴 전자 메일(사서함)은 포함되지 않습니다. 
+    또한 유휴 데이터(SharePoint 및 OneDrive의 문서) 및 전송 중인 데이터(Exchange에서 보내거나 받은 전자 메일)에 대한 자동 레이블 지정이라고 부르는 경우도 있습니다. Exchange의 경우 유휴 전자 메일(사서함)은 포함되지 않습니다. 
     
     이 레이블 지정은 응용 프로그램이 아닌 서비스에서 적용되므로 사용자에게 어떤 버전의 앱이 있는지 걱정할 필요가 없습니다. 따라서 이 기능은 조직 전체에서 즉시 사용할 수 있으며 대규모로 레이블을 지정하는 데 적합합니다. 자동 레이블 지정 정책은 사용자가 레이블 지정 프로세스와 상호 작용하지 않기 때문에 권장되는 레이블 지정을 지원하지 않습니다. 대신 관리자가 시뮬레이션 모드에서 정책을 실행하여 실제로 레이블을 적용하기 전에 콘텐츠의 올바른 레이블을 확인합니다.
     
@@ -127,6 +127,8 @@ Windows용 Office 앱의 자동 레이블 지정은 Azure Information Protection
 
 ### <a name="configuring-trainable-classifiers-for-a-label"></a>레이블에 교육 가능한 분류자 구성하기
 
+이 옵션은 현재 미리 보기로 제공됩니다.
+
 **교육 가능한 분류자** 옵션을 선택하는 경우, Microsoft의 기본 제공 교육 가능 분류자를 하나 이상 선택합니다. 사용자 지정 교육 가능 분류자를 만든 경우, 다음의 사항 또한 선택할 수 있습니다.
 
 ![교육 가능한 분류자 및 민감도 레이블에 대한 옵션](../media/sensitivity-labels-classifers.png)
@@ -136,9 +138,9 @@ Windows용 Office 앱의 자동 레이블 지정은 Azure Information Protection
 
 이러한 분류자에 대한 자세한 내용은[교육 가능한 분류자 시작하기(미리 보기)](classifier-getting-started-with.md)를 참조하세요.
 
-미리 보기 기간 동안 다음 앱이 민감도 레이블에 대한 교육 가능한 분류자를 지원합니다.
+이 옵션의 미리 보기 기간 동안 다음 앱이 민감도 레이블에 대한 교육 가능한 분류자를 지원합니다.
 
-- [베타 채널](https://office.com/insider)([이전 Office 참가자](https://docs.microsoft.com/deployoffice/update-channels-changes))에서 받은 Windows용 엔터프라이즈용 Microsoft 365 앱([이전 Office 365 ProPlus](https://docs.microsoft.com/deployoffice/name-change))
+- Windows 엔터프라이즈용 Microsoft 365 앱([구 Office 365 ProPlus](https://docs.microsoft.com/deployoffice/name-change))가 버전 2006 이후에서 [현재 채널](https://docs.microsoft.com/deployoffice/overview-update-channels#current-channel-overview)로 배포됩니다.
     - Word
     - Excel
     - PowerPoint

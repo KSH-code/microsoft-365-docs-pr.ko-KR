@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: '모든 Microsoft Information Protection 솔루션에 대한 요구 사항: 조직의 문서와 전자 메일을 분류하고 보호하기 위해 민감도 레이블을 생성, 구성 및 게시합니다.'
-ms.openlocfilehash: 465da9f5a3265de01b1108944cd8c6dcfae7912d
-ms.sourcegitcommit: 0b59339167bdc3a69b3d91ae6252dc96bdde7cfe
+ms.openlocfilehash: 61f6a27172e97cdc3f7890b813a9e2f67a8d3d9a
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44907017"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45200030"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책 생성 및 구성
 
@@ -168,7 +168,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 이 단추를 선택하면 포함할 레이블과 레이블 설정을 편집할 수 있는 **정책 만들기** 마법사가 시작됩니다. 마법사를 완료하면 변경 내용이 선택된 사용자 및 서비스로 자동 복제됩니다.
 
-일반적으로 사용자에게 몇 시간 내 Office 앱의 레이블이 표시됩니다. 그러나 레이블 정책 및 변경 사항이 모든 사용자 및 서비스에 복제될 때까지 최대 24시간이 소요됩니다.
+사용자는 한시간 이내에 Office 앱에서 새 레이블을 확인 할 수 있습니다. 그러나 변경 사항이 모든 사용자 및 서비스에 복제되려면 최대 24시간이 소요됩니다.
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>보안 및 준수 센터 PowerShell를 이용한 추가 레이블 정책 설정
 
@@ -195,6 +195,8 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 - 데스크톱 앱의 경우: 메타데이터의 레이블 정보는 유지되지만, 레이블 ID와 이름 매핑은 더 이상 사용할 수 없기 때문에 사용자에게 적용된 레이블 이름이 표시되지 않으므로 사용자가 해당 콘텐츠에 레이블이 지정되지 않은 것으로 가정합니다. 레이블에서 암호화를 적용하는 경우, 암호화가 유지되며 콘텐츠를 여는 경우 사용자에게 지금 보관된 보호 서식 파일의 이름과 설명이 계속 표시됩니다.
 
 - 웹용 Office의 경우: 사용자에게 상태 표시줄이나 **민감도** 열에 레이블 이름이 표시되지 않습니다. 해당 레이블에 암호화가 적용되지 않은 경우에만 메타데이터의 레이블 정보가 유지됩니다. 레이블에서 암호화를 적용하고 [SharePoint 및 OneDrive용 민감도 레이블](sensitivity-labels-sharepoint-onedrive-files.md)을 사용하도록 설정한 경우, 메타데이터의 레이블 정보가 제거되고 암호화가 제거됩니다. 
+
+레이블 정책에서 민감도 레이블을 제거 하거나 민감도 레이블을 삭제하는 경우, 이 변경 사항은 모든 사용자 및 서비스에 복제 하는데 최대 1시간이 걸릴 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
