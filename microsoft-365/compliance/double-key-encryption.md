@@ -12,44 +12,40 @@ ms.reviewer: esaggese
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 47fc4bc47831970ef7a7f2087cf6c86b6fefb8c2
-ms.sourcegitcommit: fe20f5ed07f38786c63df0f73659ca472e69e478
+ms.openlocfilehash: d9ed155576d69889e53e4e4d1ce03e4233fd08ff
+ms.sourcegitcommit: 4789b261eb029d7c965421a1260acc110e6385db
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201726"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45387445"
 ---
 # <a name="double-key-encryption-dke"></a>DKE (이중 암호화)
 
-> *적용 대상: [Microsoft 365 준수](https://www.microsoft.com/microsoft-365/business/compliance-management), [Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection)*
+> *적용 대상: Microsoft 365 공개 미리 보기, [microsoft 365 준수](https://www.microsoft.com/microsoft-365/business/compliance-management), [Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection) 에 대 한 이중 암호화*
 >
 > *지침: [Azure Information Protection 통합 레이블 클라이언트 Windows](https://docs.microsoft.com/azure/information-protection/faqs.md#whats-the-difference-between-the-azure-information-protection-classic-and-unified-labeling-clients)*
 >
 > *서비스 설명: [Microsoft 365 준수](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
 
-이 공용 미리 보기 버전의 DKE (이중 암호화)를 사용 하 여 Azure Information Protection 통합 레이블 클라이언트를 통해 중요 한 콘텐츠를 보호 하 고 키를 완전히 제어할 수 있습니다.
-
-이중 키 암호화에는 함께 사용 하 여 보호 된 콘텐츠에 액세스 하는 두 개의 키가 필요 합니다. Microsoft Azure에 하나의 키를 저장 하 고 다른 키를 보유 하 고 있습니다.
+DKE (이중 암호화)에서는 보호 된 콘텐츠에 액세스 하기 위해 두 개의 키를 함께 사용 합니다. Microsoft Azure에 하나의 키를 저장 하 고 다른 키를 보유 하 고 있습니다. Azure Information Protection 통합 레이블 클라이언트는 중요 한 콘텐츠를 보호 하지만 키 중 하나에 대 한 모든 권한을 유지 합니다.
 
 이중 키 암호화는 클라우드 및 온-프레미스 배포를 모두 지원 합니다. 이러한 배포를 통해 보호 된 데이터를 저장할 때마다 암호화 된 데이터를 불투명 하 게 유지할 수 있습니다.
 
 클라우드 기반 테 넌 트 루트 키의 기본에 대 한 자세한 내용은 [Azure Information Protection 테 넌 트 키 계획 및 구현](https://docs.microsoft.com/azure/information-protection/plan-implement-tenant-key)를 참조 하세요.
 
-이중 키 암호화는 액세스 권한을 얻기 위해 은행 키와 고객 키를 둘 다 필요로 하는 안전 금고와 비슷합니다. 보호 된 콘텐츠의 암호를 해독 하려면 Microsoft 관리 되는 키와 고객 소유 키를 모두 사용 해야 합니다.
-
 다음 비디오에서는 이중 키 암호화가 콘텐츠를 보호 하는 방법을 보여 줍니다.
+
+> [!VIDEO https://msit.microsoftstream.com/embed/video/f466a1ff-0400-a936-221c-f1eab45dc756]
 
 조직에 다음과 같은 요구 사항이 있는 경우 DKE를 사용 하 여 콘텐츠를 안전 하 게 보호할 수 있습니다.
 
 - 모든 상황에서 보호 된 콘텐츠의 암호를 *해독할 수 있도록* 해야 합니다.
 - Microsoft가 보호 된 데이터에 자체 액세스 하지 못하도록 하려는 경우
-- 지리적 경계 내에 키를 포함 하기 위한 규정 요구 사항이 있습니다. 데이터 암호화 및 암호 해독을 위한 모든 고객 보유 키가 데이터 센터에 유지 됩니다.
-
-> [!VIDEO https://msit.microsoftstream.com/embed/video/f466a1ff-0400-a936-221c-f1eab45dc756]
+- 지리적 경계 내에 키를 포함 하기 위한 규정 요구 사항이 있습니다. 데이터 암호화 및 암호 해독을 위해 보유 하는 모든 키가 데이터 센터에 유지 됩니다.
 
 ## <a name="system-and-licensing-requirements-for-dke"></a>DKE에 대 한 시스템 및 라이선스 요구 사항
 
-Microsoft 365에 대 한 이중 키 암호화의이 공개 미리 보기 릴리스는 Microsoft 365 E5 및 Office 365 E5의 일부로 사용할 수 있습니다. Microsoft 365 E5 라이선스가 없는 경우 [평가판](https://aka.ms/M365E5ComplianceTrial)에 등록할 수 있습니다. 이러한 라이선스에 대 한 자세한 내용은 [보안 & 준수에 대 한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)을 참조 하세요.
+Microsoft 365 E5 및 Office 365 e 5의 Microsoft 365 부분에 대 한 이중 암호화를 사용할 때 Microsoft 365 E5 라이선스가 없는 경우 [평가판](https://aka.ms/M365E5ComplianceTrial)에 등록할 수 있습니다. 이러한 라이선스에 대 한 자세한 내용은 [보안 & 준수에 대 한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)을 참조 하세요.
 
 **Office 참가자** 공개 미리 보기를 사용 하려면 Office 참가자 프로그램의 구성원 이어야 합니다. Office 참가자에 게 연결 하려면로 이동 [https://insider.office.com](https://insider.office.com) 합니다. 구성원 인 경우 조직에 적합 한 배포 방법을 선택 하 여 Office 참가자 빌드를 배포할 수 있도록 환경을 준비 합니다. 자세한 내용은 [Office 참가자 빌드 배포 시작](https://insider.office.com/business/deploy)을 참조 하세요.
 
@@ -63,15 +59,19 @@ Microsoft 365에 대 한 이중 키 암호화의이 공개 미리 보기 릴리�
 
 ## <a name="about-this-public-preview-article"></a>이 공개 미리 보기 문서 정보
 
-몇 가지 단계를 완료 하 여 이중 암호화를 배포할 수도 있습니다. 이 문서에서는 숙련 된 관리자가 서비스를 성공적으로 배포 하는 데 필요한 자세한 지침을 제공 합니다. 이 문서에서 설명 하는 배포 방법에 의해 공유 되는 git과 같은 일반적인 기술에 대 한 경험이 있는 경우에는 사용자가 직접 메서드를 사용 하도록 선택할 수 있습니다.
+몇 가지 단계를 완료 하 여 이중 암호화를 배포할 수도 있습니다. 이 문서에서는 숙련 된 관리자가 서비스를 성공적으로 배포 하는 데 필요한 자세한 지침을 제공 합니다. 이렇게 하는 것이 어려우면 사용자가 직접 메서드를 사용 하도록 선택할 수 있습니다.
 
-공개 미리 보기에서는 Azure에 이중 키 암호화 서비스를 배포 하는 방법에 대 한 단계별 지침이 포함 되어 있습니다. 이 시나리오는 프로덕션 환경에서 발생할 수 있는 것이 아닙니다. Azure를 사용한 공개 미리 보기는 바로 배포 하 여 이중 키 암호화 사용을 시작할 수 있도록 하는 빠른 방법입니다.
+이 문서에서는 Azure에 이중 키 암호화 서비스를 배포 하는 방법에 대 한 단계별 지침을 제공 합니다. 이 시나리오는 프로덕션 환경에서 발생할 수 있는 것이 아닙니다. 공개 미리 보기의 경우 Azure를 사용 하는 것이 DKE를 빠르게 배포 하는 방법입니다. Azure에 배포 하면 이중 키 암호화를 바로 사용할 수 있습니다.
 
-네트워크에 로컬로 있든 다른 공급자를 사용 하 든 관계 없이 원하는 경우에 서비스를 배포할 수 있습니다. 해당 위치에 적합 한 방법을 사용 하 여 키 저장소를 게시 해야 합니다.
+서비스를 네트워크에 로컬로 배포 하거나 다른 공급자와 함께 배포할 수 있습니다. 해당 위치에 적합 한 방법을 사용 하 여 키 저장소를 게시 해야 합니다.
 
 ## <a name="deploy-double-key-encryption"></a>이중 암호화 배포
 
-이러한 일반적인 단계를 수행 하 여 조직에 대 한 이중 암호화를 설정 합니다. 이 문서의 예제에서는 Azure를 DKE 서비스의 배포 대상으로 사용 합니다. 다른 위치에 배포 하는 경우에는 고유한 값을 제공 해야 합니다.
+이 문서와 배포 동영상은 Azure를 DKE 서비스의 배포 대상으로 사용 합니다. 다른 위치에 배포 하는 경우에는 고유한 값을 제공 해야 합니다.
+
+[이중 키 암호화 배포 비디오](https://msit.microsoftstream.com/video/cfdda3ff-0400-a521-1579-f1eacc37fc7e) 를 시청 문서의 개념에 대 한 단계별 개요를 확인 하세요. 완료 하는 데 약 18 분 정도 걸립니다.
+
+이러한 일반적인 단계를 수행 하 여 조직에 대 한 이중 암호화를 설정 합니다.
 
 1. [소프트웨어 필수 구성 요소 설치](#install-software-prerequisites)
 1. [이중 키 암호화 GitHub 리포지토리 복제](#clone-the-dke-github-repository)
@@ -134,11 +134,11 @@ Microsoft는 GitHub 리포지토리에 DKE 원본 파일을 제공 합니다. �
 
 1. 화면 오른쪽 방향으로 **코드**를 선택 합니다. 사용자의 UI 버전에 **복제 또는 다운로드** 단추가 표시 될 수 있습니다. 그런 다음 표시 되는 드롭다운 목록에서 복사 아이콘을 선택 하 여 클립보드에 URL을 복사 합니다.
 
-    예를 들어 다음과 같은 가치를 제공해야 합니다.
+    예시:
 
     :::image type="content" source="../media/dke-clone.png" alt-text="GitHub에서 이중 키 암호화 서비스 리포지토리 복제":::
 
-3. Visual Studio Code에서 **View** \> **명령 색상표** 보기를 선택 하 고 **Git: 클론**을 선택 합니다. 목록에서 옵션으로 이동 하려면 입력을 시작 하 여 `git: clone` 항목을 필터링 한 다음 드롭다운에서 선택 합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+3. Visual Studio Code에서 **View** \> **명령 색상표** 보기를 선택 하 고 **Git: 클론**을 선택 합니다. 목록에서 옵션으로 이동 하려면 입력을 시작 하 여 `git: clone` 항목을 필터링 한 다음 드롭다운에서 선택 합니다. 예시:
 
     :::image type="content" source="../media/dke-vscode-clone.png" alt-text="Visual Studio Code GIT: Clone 옵션":::
 
@@ -146,13 +146,13 @@ Microsoft는 GitHub 리포지토리에 DKE 원본 파일을 제공 합니다. �
 
 5. **폴더 선택** 대화 상자가 나타나면 저장소를 저장할 위치를 찾아 선택 합니다. 프롬프트에서 **열기**를 선택 합니다.
 
-    Visual Studio Code에서 리포지토리를 열고 왼쪽 아래에 현재 Git 분기를 표시 합니다. 현재 분기는 **마스터**여야 합니다.
+    Visual Studio Code에서 리포지토리를 열고 왼쪽 아래에 현재 Git 분기를 표시 합니다. 분기는 **마스터**여야 합니다.
 
-    예를 들어 다음과 같은 가치를 제공해야 합니다.
+    예시:
 
     :::image type="content" source="../media/dke-vscode-master.png" alt-text="Visual Studio 코드 마스터 분기":::
 
-6. Word **마스터를** 선택한 다음 분기 목록에서 **public_preview** 를 선택 합니다. 
+6. Word **마스터를** 선택한 다음 분기 목록에서 **public_preview** 를 선택 합니다.
 
    > [!IMPORTANT]
    > Public_preview 분기를 선택 하면 프로젝트를 빌드하는 데 올바른 파일이 있는지 확인할 수 있습니다. 올바른 분기를 선택 하지 않으면 배포가 실패 합니다.
@@ -178,41 +178,79 @@ DKE 서비스를 배포 하려면 다음 유형의 응용 프로그램 설정을
 
 - **역할 권한 부여** 조직에서 Active Directory 그룹을 기반으로 하는 키에 대 한 액세스 권한을 부여 하 고, 웹 서비스가 LDAP를 쿼리할 수 있도록 해야 합니다.
 
-DKE에 대 한 키 액세스 설정을 설정 하려면 다음을 수행 합니다.
+**전자 메일 인증을 사용 하 여 DKE에 대 한 키 액세스 설정을 설정 하려면**
 
-1. 파일 **의appsettings.js** 에서 다음 설정 중 하나만 정의 합니다.
+1. 파일 **에서appsettings.js** 열고 `AuthorizedEmailAddress` 설정을 찾습니다.
 
-   - 전자 메일 인증을 위해 **AuthorizedEmailAddresses** 설정을 찾습니다. 권한을 부여 하려는 전자 메일 주소를 추가 합니다. 여러 전자 메일 주소는 큰따옴표와 쉼표로 구분 합니다. 예: **"' AuthorizedEmailAddresses '": ["email1@company.com", "email2@company.com", email3@company.com]**
+2. 권한을 부여 하려는 전자 메일 주소를 추가 합니다. 여러 전자 메일 주소는 큰따옴표와 쉼표로 구분 합니다. 예시:
 
-   :::image type="content" source="../media/dke-email-accesssetting.png" alt-text="전자 메일 인증 방법을 보여 주는 파일에appsettings.js":::
+   ```json
+   "AuthorizedEmailAddress": ["email1@company.com", "email2@company.com ", "email3@company.com"]
+   ```
 
-   - 역할 권한 부여에 대해 **AuthorizedRoles** 설정을 찾습니다. 권한을 부여 하려는 ActiveDirectory 그룹 이름을 사용 하 여 정의 합니다. 예: **"AuthorizedRoles": ["group1", "group2", "group3"]**
+3. 설정을 찾고 `LDAPPath` 큰따옴표 사이에 있는 텍스트를 제거 `If role authorization is used then this is the LDAP path` 합니다. 큰따옴표를 자리에 둡니다. 작업이 완료 되 면 설정은 다음과 같습니다.
+
+   ```json
+   "LDAPPath": ""
+   ```
+
+4. 설정을 찾아서 `AuthorizedRoles` 전체 줄을 삭제 합니다.
+
+이 이미지는 전자 메일 권한 부여를 위해 올바르게 형식이 지정 된 파일 **의appsettings.js** 를 보여 줍니다.
+
+   :::image type="content" source="../media/dke-email-accesssetting.png" alt-text="전자 메일 인증 방법을 보여 주는 appsettings.js파일":::
+
+**역할 인증을 사용 하 여 DKE에 대 한 키 액세스 설정을 설정 하려면**
+
+1. 파일 **에서appsettings.js** 열고 `AuthorizedRoles` 설정을 찾습니다.
+
+2. 권한을 부여 하려는 Active Directory 그룹 이름을 추가 합니다. 여러 그룹 이름은 큰따옴표와 쉼표로 구분 합니다. 예시:
+
+   ```json
+   "AuthorizedRoles": ["group1", "group2", "group3"]
+   ```
+
+3. 설정을 찾고 `LDAPPath` Active Directory 도메인을 추가 합니다. 예시:
+
+   ```json
+   "LDAPPath": "contoso.com"
+   ```
+
+4. 설정을 찾아서 `AuthorizedEmailAddress` 전체 줄을 삭제 합니다.
+
+이 이미지는 역할 권한 부여를 위해 올바르게 형식이 지정 된 파일 **의appsettings.js** 를 보여 줍니다.
 
    :::image type="content" source="../media/dke-role-accesssetting.png" alt-text="역할 인증 방법을 보여 주는 파일의appsettings.js":::
 
-2. 선택한 인증 방법에 해당 하지 않는 설정을 제거 합니다.
-
 #### <a name="tenant-and-key-settings"></a>테 넌 트 및 키 설정
 
-DKE 테 넌 트 및 키 설정은 파일 **의appsettings.js** 및 **startup.cs** 파일에 있습니다.
+DKE 테 넌 트 및 키 설정은 파일 **의appsettings.js** 에 있습니다.
 
-파일의 **appsettings.js** 에서 다음 값을 수정 합니다.
+**DKE에 대 한 테 넌 트 및 키 설정을 구성 하려면**
 
-- **ValidIssuers** `<tenantid>`테 넌 트 GUID로 대체 합니다.
-- **JwtAudience** `<yourhostname>`DKE 서비스가 실행 될 컴퓨터의 호스트 이름으로 대체 합니다.
+1. 파일 **에서appsettings.js** 엽니다.
+
+2. 설정을 찾은 `ValidIssuers` 후 `<tenantid>` 테 넌 트 ID로 바꿉니다. Azure 포털로 이동 하 여 [테 넌 트 속성](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties)을 확인 하 여 테 넌 트 ID를 찾을 수 있습니다. 예시:
+
+   ```json
+   "ValidIssuers": [
+     "https://sts.windows.net/9c99431e-b513-44be-a7d9-e7b500002d4b/"
+   ]
+   ```
+
+를 찾습니다 `JwtAudience` . `<yourhostname>`DKE 서비스가 실행 될 컴퓨터의 호스트 이름으로 대체 합니다. 예시:
+
+
 
   > [!IMPORTANT]
-  > JwtAudience의 값은 호스트의 이름과 *정확히*일치 해야 합니다. 디버깅 하는 동안 **localhost: 5000** 을 사용할 수 있습니다. 그러나 디버깅이 완료 되 면이 값을 서버의 호스트 이름으로 업데이트 해야 합니다.
+  > 값은 `JwtAudience` 호스트 이름과 *정확히*일치 해야 합니다. 디버깅 하는 동안 **localhost: 5001** 을 사용할 수 있습니다. 그러나 디버깅이 완료 되 면이 값을 서버의 호스트 이름으로 업데이트 해야 합니다.
 
-- **LDAPPath** 값을 다음과 같이 설정 합니다.
+- `TestKeys:Name`. 키의 이름을 입력 합니다. 예: `TestKey1`
+- `TestKeys:Id`. GUID를 만들어 값으로 입력 `TestKeys:ID` 합니다. 예를 들면 `DCE1CC21-FF9B-4424-8FF4-9914BD19A1BE`와 같습니다. [온라인 Guid 생성기](https://guidgenerator.com/) 와 같은 사이트를 사용 하 여 GUID를 임의로 생성할 수 있습니다.
 
-  - 역할 인증을 사용 중인 경우에는 LDAP 도메인을 입력 합니다.
-  - 전자 메일 권한 부여를 사용 중인 경우에는이 값을 비워 둡니다.
+**appsettings.js**의 테 넌 트 및 키 설정에 대 한 올바른 형식을 표시 하는 이미지입니다. `LDAPPath`역할 인증에 대해 구성 됩니다.
 
-   자세한 내용은 [키 액세스 설정을](#key-access-settings)참조 하십시오.
-
-- **Testkeys: 이름**입니다. 키의 이름을 입력 합니다. 예: **TestKey1**
-- **Testkeys: Id** GUID를 만들고 **Testkeys: ID** 값으로 입력 합니다. 예: **DCE1CC21-FF9B-4424-8FF4-9914BD19A1BE**. [온라인 Guid 생성기](https://guidgenerator.com/) 와 같은 사이트를 사용 하 여 GUID를 임의로 생성할 수 있습니다.
+:::image type="content" source="../media/dke-appsettingsjson-tenantkeysettings.png" alt-text="파일의 appsettings.js에 있는 DKE에 대 한 올바른 테 넌 트 및 키 설정을 표시 합니다.":::
 
 ### <a name="generate-test-keys"></a>테스트 키 생성
 
@@ -242,16 +280,18 @@ DKE 테 넌 트 및 키 설정은 파일 **의appsettings.js** 및 **startup.cs*
    openssl rsa -in key.pem -pubout > pubkeyonly.pem
    ```
 
-1. 텍스트 편집기에서 **pubkeyonly**를 엽니다. 첫 번째 및 마지막 줄을 제외한 **pubkeyonly. pem** 파일의 모든 콘텐츠를 파일 **의appsettings.js** **publicpem** 섹션에 복사 합니다.
+1. 텍스트 편집기에서 **pubkeyonly**를 엽니다. 파일의appsettings.js섹션에 있는 첫 번째 행과 마지막 줄을 제외한 **pubkeyonly pem** 파일의 모든 콘텐츠를 복사 합니다. `PublicPem` **appsettings.json**
 
-1. 텍스트 편집기에서 **privkeynopass**를 엽니다. **Privkeynopass** 파일에서 첫 번째 줄을 제외한 모든 콘텐츠를 파일의 **appsettings.js** **PrivatePem** 섹션에 복사 합니다.
+1. 텍스트 편집기에서 **privkeynopass**를 엽니다. **Privkeynopass** 파일에서 첫 번째 줄을 제외한 모든 콘텐츠를 `PrivatePem` 파일 **의appsettings.js** 섹션에 복사 합니다.
 
-1. **Publicpem** 및 **PrivatePem** 섹션에서 공백 및 newlines를 모두 제거 합니다.
+1. 및 섹션 모두에서 공백 및 newlines를 모두 `PublicPem` 제거 `PrivatePem` 합니다.
 
     > [!IMPORTANT]
     > 이 콘텐츠를 복사할 때는 PEM 데이터를 삭제 하지 마십시오.
 
-1. **Startup.cs** 파일을 열고 다음 줄을 찾습니다.
+1. Visual Studio Code에서 **Startup.cs** 파일을 찾습니다. 이 파일은 DoubleKeyEncryptionService\src\customer-key-store\.에서 로컬로 복제 한 DoubleKeyEncryptionService 저장소에 있습니다.
+
+2. 다음 줄을 찾습니다.
 
    ```c#
         #if USE_TEST_KEYS
@@ -261,13 +301,13 @@ DKE 테 넌 트 및 키 설정은 파일 **의appsettings.js** 및 **startup.cs*
         #endif
    ```
 
-1. 다음 텍스트를이 줄로 바꿉니다.
+3. 다음 텍스트를이 줄로 바꿉니다.
 
    ```csharp
    services.AddSingleton<ippw.IKeyStore, ippw.TestKeyStore>();
    ```
 
-   최종 결과는 다음 그림과 같이 표시 됩니다.
+   최종 결과는 다음과 같습니다.
 
    :::image type="content" source="../media/dke-startupcs-usetestkeys.png" alt-text="공용 미리 보기용 startup.cs 파일":::
 
@@ -305,11 +345,13 @@ DKE 테 넌 트 및 키 설정은 파일 **의appsettings.js** 및 **startup.cs*
 
    빨간색 오류가 있으면 콘솔 출력을 확인 합니다. 이전 단계를 모두 올바르게 완료 했으며 올바른 빌드 버전이 있는지 확인 합니다.
 
-1. **실행** \> **디버깅을 시작** 하 여 프로세스를 디버깅 합니다. 환경을 선택 하 라는 메시지가 표시 되 면 **.net core**를 선택 합니다.
+2. **Run** \> **디버깅 시작** 을 선택 하 여 프로세스를 디버깅 합니다. 환경을 선택 하 라는 메시지가 표시 되 면 **.net core**를 선택 합니다.
 
-일반적으로 .NET 핵심 디버거가 시작 **https://localhost:5001** 됩니다. 테스트 키를 보려면으로 이동 하 여 **https://localhost:5001** 슬래시 (/)와 키 이름을 추가 합니다.
+일반적으로 .net 핵심 디버거는 ' ' '를 시작 하 https://localhost:5001 `. To view your test key, go to ` https://localhost:5001 고 슬래시 (/)와 키 이름을 추가 합니다. 예시:
 
-예를 들어:**https://localhost:5001/TestKey1**
+```https
+https://localhost:5001/TestKey1
+```
 
 키가 JSON 형식으로 표시 되어야 합니다.
 
@@ -317,9 +359,9 @@ DKE 테 넌 트 및 키 설정은 파일 **의appsettings.js** 및 **startup.cs*
 
 ### <a name="publish-the-key-store"></a>키 저장소 게시
 
-다음 단계에서는 Azure App Service 인스턴스를 만들어 DKE 배포를 호스팅하고, 생성 된 키를 Azure에 게시 하는 방법에 대해 설명 합니다.
+키 저장소를 게시 하려면 DKE 배포를 호스트 하는 Azure App Service 인스턴스를 만듭니다. 다음에는 생성 된 키를 Azure에 게시 합니다.
 
-DKE 배포를 호스트 하는 Azure Web App 인스턴스를 만들려면:
+**DKE 배포를 호스트 하는 Azure Web App 인스턴스를 만들려면**
 
 1. 브라우저에서 [Microsoft Azure 포털](https://ms.portal.azure.com)에 로그인 하 고 **앱 서비스**  >  **추가**로 이동 합니다.
 
@@ -329,7 +371,7 @@ DKE 배포를 호스트 하는 Azure Web App 인스턴스를 만들려면:
 
     - **게시**에서 **코드**를 선택 하 고 **런타임 스택을**보려면 **.net Core 3.1**를 선택 합니다.
 
-    예를 들어 다음과 같은 가치를 제공해야 합니다.
+    예시:
 
     :::image type="content" source="../media/dke-azure-add-app-service.png" alt-text="앱 서비스 추가":::
 
@@ -376,7 +418,7 @@ DKE가 배포 되었으며 만든 테스트 키로 이동할 수 있습니다. �
 
 1. 로컬 파일에 표시 되는 연결 문자열을 복사 합니다. 이러한 문자열을 사용 하 여 웹 앱 서비스에 연결 하 고 FTP를 통해 파일을 업로드 합니다.
 
-    예를 들어 다음과 같은 가치를 제공해야 합니다.
+    예시:
 
     :::image type="content" source="../media/dke-ftp-dashboard.png" alt-text="FTP 대시보드에서 연결 문자열 복사":::
 
@@ -404,7 +446,7 @@ DKE가 배포 되었으며 만든 테스트 키로 이동할 수 있습니다. �
 
 src\customer-key-store\scripts\key_store_tester.ps1 mykeymykey url/
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예시:
 
 key_store_tester.ps1https://mycustomerkeystore.com/mykey
 
@@ -424,7 +466,7 @@ key_store_tester.ps1https://mycustomerkeystore.com/mykey
 
     사용자 지정 하지 않은 도메인 (예: **onmicrosoft.com**)에서 Microsoft Azure를 사용 하는 경우 **에는이 조직 디렉터리의 계정만 선택 합니다 (Microsoft only 단일 테 넌 트).**
 
-    예를 들어 다음과 같은 가치를 제공해야 합니다.
+    예시:
 
     :::image type="content" source="../media/dke-app-registration.png" alt-text="새 앱 등록":::
 
@@ -436,7 +478,7 @@ key_store_tester.ps1https://mycustomerkeystore.com/mykey
  
 7. **플랫폼 구성** 팝업에서 **웹**을 선택 합니다.
  
-8. **리디렉션 uri** 에서 이중 키 암호화 서비스의 URI를 입력 합니다. 호스트 이름 및 도메인을 포함 하 여 앱 서비스 URL을 입력 합니다.
+8. **리디렉션 uri**에서 이중 키 암호화 서비스의 URI를 입력 합니다. 호스트 이름 및 도메인을 포함 하 여 앱 서비스 URL을 입력 합니다.
 
     예: https://mycustomerkeystoretest.com
 
@@ -444,7 +486,7 @@ key_store_tester.ps1https://mycustomerkeystore.com/mykey
     - Visual Studio를 사용 하 여 로컬로 테스트 하는 경우를 사용 **https://localhost:5001** 합니다.
     - 모든 경우에 스키마는 **https**여야 합니다.
 
-    호스트 이름이 앱 서비스 호스트 이름과 정확히 일치 하는지 확인 합니다. 빌드 문제를 해결 하기 위해 localhost로 변경 했을 수 있습니다. appsettings.js에서이는 JwtAudience 설정에 대 한 값으로 식별 된 호스트 이름입니다.
+    호스트 이름이 앱 서비스 호스트 이름과 정확히 일치 하는지 확인 합니다. 빌드 문제를 해결 하기 위해 변경 했을 수 있습니다 `localhost` . **appsettings.js**설정에서이 값은 설정한 호스트 이름입니다 `JwtAudience` .
 
 6. **암시적 권한 부여**에서 **ID 토큰** 확인란을 선택 합니다.
 
@@ -480,11 +522,9 @@ key_store_tester.ps1https://mycustomerkeystore.com/mykey
 
 ## <a name="create-labels-using-dke"></a>DKE을 사용 하 여 레이블 만들기
 
-키 저장소를 등록 한 후에는 Microsoft 365 준수 센터에서 민감도 레이블을 설정 하 고 레이블에 이중 키 암호화를 적용 합니다.
+Microsoft 365 준수 센터에서 새 민감도 레이블을 만들고 암호화를 다른 방법으로 적용 합니다. **이중 키 암호화 사용** 을 선택 하 고 키에 대 한 끝점 URL을 입력 합니다.
 
-레이블 생성 UI에서 **이중 키 암호화 사용** 옵션을 선택 하 고 키에 대 한 끝점 URL을 입력 합니다.
-
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예시:
 
 :::image type="content" source="../media/dke-use-dke.png" alt-text="Microsoft 365 준수 센터에서 이중 키 암호화 사용을 선택 합니다.":::
 

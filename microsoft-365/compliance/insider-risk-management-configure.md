@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: c53bfa58e36b2723d5227c38805482dcb629d864
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: b968de12a2dee9d6b820558af05f99c7be29763c
+ms.sourcegitcommit: b3316b947059d3a2e31acbf0ab57d2e000b662ff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199692"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45255343"
 ---
 # <a name="get-started-with-insider-risk-management"></a>내부자 위험 관리 시작
 
@@ -54,7 +54,7 @@ Microsoft 365 Enterprise E5 요금제가 아직 없는 경우 microsoft 365을 �
 | **참가자 위험 관리** | 이 역할 그룹을 사용 하 여 단일 그룹에서 조직의 참가자 위험 관리를 관리 합니다. 지정 된 관리자, 분석가 및 investigators에 대 한 모든 사용자 계정을 추가 하 여 단일 그룹에서 참가자 위험 관리 권한을 구성할 수 있습니다. 이 역할 그룹에는 모든 참가자 위험 관리 권한 역할이 포함 되어 있습니다. 이 구성은 개별 사용자 그룹에 대해 정의 된 별도의 사용 권한이 필요 하지 않은 조직에 적합 하며, 참가자 위험 관리를 빠르게 시작할 수 있는 가장 쉬운 방법입니다.|
 | **참가자 위험 관리 관리자** | 이 역할 그룹을 사용 하 여 처음에 참가자 위험 관리를 구성 하 고 참가자 위험 관리자를 정의 된 그룹으로 세분 합니다.  이 역할 그룹의 사용자는 참가자 위험 관리 정책, 전역 설정 및 역할 그룹 할당을 만들고, 읽고, 업데이트 하 고, 삭제할 수 있습니다. |
 | **참가자 위험 관리 분석가** | 이 그룹을 사용 하 여 참가자 위험 사례 분석가 역할을 하는 사용자에 게 사용 권한을 할당 합니다. 이 역할 그룹의 사용자는 모든 참가자 위험 관리 알림, 사례 및 알림 서식 파일에 액세스할 수 있습니다. 사용자는 참가자 위험 콘텐츠 탐색기에 액세스할 수 없습니다. |
-| **참가자 위험 관리 Investigators** | 이 그룹을 사용 하 여 사용자의 참가자 위험 데이터 investigators 작동할 수 있는 권한을 할당 합니다. 이 역할 그룹의 사용자는 모든 참가자 위험 관리 알림, 사례, 알림 서식 파일 및 콘텐츠 탐색기에 모든 경우에 액세스할 수 있습니다. |
+| **참가자 위험 관리 Investigators** | 이 그룹을 사용 하 여 사용자의 참가자 위험 데이터 investigators 작동할 수 있는 권한을 할당 합니다. 이 역할 그룹의 사용자는 모든 참가자 위험 관리 알림, 사례, 알림 서식 파일 및 콘텐츠 탐색기에 액세스할 수 있습니다. |
 
 ### <a name="add-users-to-an-insider-risk-management-role-group"></a>사용자를 참가자 위험 관리 역할 그룹에 추가
 
