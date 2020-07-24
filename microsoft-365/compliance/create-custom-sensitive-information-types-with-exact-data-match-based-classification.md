@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b29ff790dbfafb281325879904fe5bfa71fdcf17
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
+ms.openlocfilehash: 7eb19698cc3dd2d56e05dfbca8759de178f3fc2a
+ms.sourcegitcommit: c4a7b227f7d9abd666dfb93e3ded78ba8288e649
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45023339"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229418"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -39,7 +39,7 @@ ms.locfileid: "45023339"
 
 ![EDM 기반 분류](../media/EDMClassification.png)
 
-EDM 기반 분류를 사용하면 중요한 정보 데이터베이스의 정확한 값을 참조하는 사용자 지정 중요한 정보 유형을 만들 수 있습니다. 데이터베이스는 매일 또는 매주 새로 고칠 수 있으며 최대 1000만 개의 데이터 행을 포함할 수 있습니다. 직원, 환자 또는 고객이 계속 이동하고 기록이 변경됨에 따라 사용자 지정 중요한 정보 유형을 적절하고 최신인 상태로 유지합니다. 또한 EDM 기반 분류를 [데이터 손실 방지 정책(DLP)](data-loss-prevention-policies.md) 또는 [Microsoft Cloud App Security 파일 정책](https://docs.microsoft.com/cloud-app-security/data-protection-policies) 등의 정책과 사용할 수 있습니다.
+EDM 기반 분류를 사용하면 중요한 정보 데이터베이스의 정확한 값을 참조하는 사용자 지정 중요한 정보 유형을 만들 수 있습니다. 데이터베이스는 매일 또는 매주 새로 고칠 수 있으며 최대 1억 개의 데이터 행을 포함할 수 있습니다. 직원, 환자 또는 고객이 계속 이동하고 기록이 변경됨에 따라 사용자 지정 중요한 정보 유형을 적절하고 최신인 상태로 유지합니다. 또한 EDM 기반 분류를 [데이터 손실 방지 정책(DLP)](data-loss-prevention-policies.md) 또는 [Microsoft Cloud App Security 파일 정책](https://docs.microsoft.com/cloud-app-security/data-protection-policies) 등의 정책과 사용할 수 있습니다.
 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 
@@ -67,7 +67,7 @@ EDM 기반 분류를 설정하고 구성하려면 중요한 데이터를 .csv �
 #### <a name="define-the-schema-for-your-database-of-sensitive-information"></a>중요한 정보 데이터베이스의 스키마 정의
 
 1. 사용하려는 중요한 정보를 식별합니다. Microsoft Excel과 같은 앱에 데이터를 내보내고 .csv 형식으로 파일을 저장합니다. 데이터 파일에는 최대 다음을 포함할 수 있습니다.
-      - 최대 1000만 개의 중요한 데이터 행
+      - 최대 1억 개의 중요한 데이터 행
       - 데이터 원본당 최대 32개의 열(필드)
       - 검색 가능으로 표시된 최대 5개의 열(필드)
 

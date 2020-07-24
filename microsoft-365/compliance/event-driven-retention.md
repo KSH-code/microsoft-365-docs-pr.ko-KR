@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: 일반적으로 레코드 관리 솔루션의 일부는 사용자가 식별하는 이벤트에 기반하여 보존 기간을 시작하는 보존 레이블을 구성할 수 있습니다.
-ms.openlocfilehash: 5a04e97b341c66a78010e7255554be72aa073593
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: a3760feafa5307c8c71e83dcc72b988258b94a2a
+ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199732"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391510"
 ---
 # <a name="start-retention-when-an-event-occurs"></a>이벤트가 발생할 때 보존 시작
 
@@ -66,16 +66,16 @@ ms.locfileid: "45199732"
     
 3. 제품 수명은 이벤트 유형입니다. 특정 제품이 제품 수명에 도달하는 것이 이벤트입니다. 해당 이벤트 유형의 이벤트가 발생할 때(이 경우 제품이 수명 종료에 도달) 다음을 지정하는 이벤트를 만듭니다.
     
-  - 자산 ID(SharePoint 및 OneDrive 문서 관련)
+   - 자산 ID(SharePoint 및 OneDrive 문서 관련)
     
-  - 키워드(Exchange 항목 관련). 이 예제에서 조직은 Exchange 항목에 대한 키워드가 SharePoint 및 OneDrive 문서에 대한 자산 ID와 동일하도록 제품 레코드를 포함하는 메시지에 제품 코드를 사용 합니다.
+   - 키워드(Exchange 항목 관련). 이 예제에서 조직은 Exchange 항목에 대한 키워드가 SharePoint 및 OneDrive 문서에 대한 자산 ID와 동일하도록 제품 레코드를 포함하는 메시지에 제품 코드를 사용 합니다.
     
-  - 이벤트가 발생한 날짜. 이 날짜는 보존 기간의 시작 날짜로 사용됩니다. 이 날짜는 현재, 과거 또는 미래의 날짜가 될 수 있습니다.
-    
+   - 이벤트가 발생한 날짜. 이 날짜는 보존 기간의 시작 날짜로 사용됩니다. 이 날짜는 현재, 과거 또는 미래의 날짜가 될 수 있습니다.
+
 4. 이벤트를 작성한 후, 해당 이벤트 날짜는 해당 이벤트 유형의 보존 레이블이 있으며 지정된 자산 ID 또는 키워드를 포함하는 모든 콘텐츠와 동기화됩니다. 모든 보존 레이블과 마찬가지로 이 동기화는 7일 정도 걸릴 수 있습니다. 이전 다이어그램에서 빨간색 원으로 둘러싸인 모든 항목에는 이 이벤트를 통해 트리거되는 보존 기간이 있습니다. 즉, 이 제품이 수명의 끝에 도달하면 해당 이벤트는 해당 제품의 레코드에 대한 보존 기간을 트리거합니다.
-    
+
 이벤트에 대해 자산 ID 또는 키워드를 지정하지 않으면 해당 이벤트 유형의 레이블이 있는 **모든 콘텐츠**가 이벤트에 의해 트리거된 보존 기간을 갖게 됩니다. 이는 위의 다이어그램에서 모든 콘텐츠가 유지되기 시작한다는 것을 의미합니다. 이는 원치 않는 일일 수 있습니다. 
-  
+
 마지막으로 각 보존 레이블에는 별도의 보존 설정이 있습니다. 이 예에서는 모든 레이블이 10년을 지정하지만 각 레이블의 보존 기간이 다른 경우 이벤트가 보존 레이블을 트리거할 수 있습니다.
   
 ## <a name="how-to-set-up-event-driven-retention"></a>이벤트 구동 보존 설정 방법
@@ -190,9 +190,7 @@ Exchange 항목의 경우 키워드를 사용합니다. 검색 연산자(예: AN
   
 ## <a name="automate-events-by-using-powershell"></a>PowerShell을 사용하여 이벤트 자동화
 
-Microsoft 365 규정 준수 센터에서는 이벤트를 수동으로 만들 수 있으며, 이벤트가 발생할 때 이벤트를 자동으로 트리거하는 기능을 지원하지 않습니다. 그러나 Rest API를 사용하여 이벤트를 자동으로 트리거할 수 있습니다. 자세한 내용은 [이벤트 기반 보존 자동화하기](automate-event-driven-retention.md)를 참조하세요.
-
-PowerShell 스크립트를 사용하여 비즈니스 응용 프로그램에서 이벤트 기반 보존을 자동화할 수도 있습니다. 이벤트 기반 보존에 다음 PowerShell cmdlet을 사용할 수 있습니다.
+PowerShell 스크립트를 사용하여 비즈니스 응용 프로그램에서 이벤트 기반 보존을 자동화할 수 있습니다. 이벤트 기반 보존에 다음 PowerShell cmdlet을 사용할 수 있습니다.
   
 - [Get-ComplianceRetentionEventType](https://go.microsoft.com/fwlink/?linkid=873002)
     
@@ -206,4 +204,257 @@ PowerShell 스크립트를 사용하여 비즈니스 응용 프로그램에서 �
     
 - [New-ComplianceRetentionEvent](https://go.microsoft.com/fwlink/?linkid=873003)
     
+
+## <a name="automate-events-by-using-a-rest-api"></a>REST API를 사용하여 이벤트 자동화하기
+
+REST API를 사용하여 보존 시간 시작을 트리거하는 이벤트를 자동으로 만들 수 있습니다.
+
+REST API는 서비스 자원에 대한 액세스를 생성/검색/갱신/삭제하는 HTTP 조작(메소드) 세트를 지원하는 서비스 엔드포인트입니다. 자세한 정보는 [REST API 요청/응답 구성 요소](https://docs.microsoft.com/rest/api/gettingstarted/#components-of-a-rest-api-requestresponse)를 참조하세요. Microsoft 365 REST API를 사용하여 POST 및 GET 메서드를 사용하여 이벤트를 만들고 검색할 수 있습니다.
+
+REST API를 사용할 수 있는 옵션은 다음과 같이 두 가지가 있습니다.
+
+- 이벤트 발생을 자동으로 트리거하는 **Microsoft Power Automate 또는 유사한 응용 프로그램** Microsoft Power Automate는 다른 시스템에 연결하기 위한 조정자이므로 사용자 지정 솔루션을 작성할 필요가 없습니다. 자세한 내용은 [Power Automate 웹 사이트](https://flow.microsoft.com/ko-KR/)를 참조하세요.
+
+- 사용자 지정 솔루션의 일부인 PowerShell(버전 6 이상)을 사용하여 이벤트를 생성하기 위해 **REST API를 호출하는 PowerShell 또는 HTTP 클라이언트**
+
+전역 관리자로서 REST API를 사용하기 전에 보존 이벤트 호출에 사용할 URL을 확인합니다. 확인하려면 다음 REST API URL을 사용하여 POST 보존 이벤트 호출을 실행합니다.
+
+```console
+https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent
+```
+
+응답코드를 확인하세요. 302인 경우 응답 헤더의 위치 속성에서 리디렉션 URL을 가져오고 다음 지침에 `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent` 대신 해당 URL을 사용하세요.
+
+자동으로 생성되는 이벤트는 Microsoft 365 규정 준수 센터 > **레코드 관리** >  **이벤트**에서 보고 확인할 수 있습니다.
+
+### <a name="use-microsoft-power-automate-to-create-the-event"></a>Microsoft Power Automate를 사용하여 이벤트 만들기
+
+Microsoft 365 REST API를 사용하여 이벤트를 생성하는 흐름을 만듭니다.
+
+![Flow를 사용해 이벤트 만들기](../media/automate-event-driven-retention-flow-1.png)
+
+![Flow를 사용해 REST API 호출하기](../media/automate-event-driven-retention-flow-2.png)
+
+#### <a name="create-an-event"></a>이벤트 만들기
+
+REST API를 호출하는 샘플 코드:
+
+- **메서드**: POST
+- **URL**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent`
+- **헤더**: Key = Content-Type, Value = application/atom+xml
+- **Body**:
+    
+    ```xml
+    <?xml version='1.0' encoding='utf-8' standalone='yes'?>
+    
+    <entry xmlns:d='http://schemas.microsoft.com/ado/2007/08/dataservices'
+    
+    xmlns:m='http://schemas.microsoft.com/ado/2007/08/dataservices/metadata'
+    
+    xmlns='http://www.w3.org/2005/Atom'>
+    
+    <category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent' />
+    
+    <updated>9/9/2017 10:50:00 PM</updated>
+    
+    <content type='application/xml'>
+    
+    <m:properties>
+    
+    <d:Name>Employee Termination </d:Name>
+    
+    <d:EventType>99e0ae64-a4b8-40bb-82ed-645895610f56</d:EventType>
+    
+    <d:SharePointAssetIdQuery>1234</d:SharePointAssetIdQuery>
+    
+    <d:EventDateTime>2018-12-01T00:00:00Z </d:EventDateTime>
+    
+    </m:properties>
+    
+    </content>
+    
+    </entry>
+    ```
+    
+- **인증**: 기본
+- **사용자 이름**: "Complianceuser"
+- **암호**: "Compliancepassword"
+
+
+##### <a name="available-parameters"></a>사용 가능한 매개 변수
+
+
+|매개 변수|설명|참고|
+|--- |--- |--- |
+|<d:Name></d:Name>|이벤트에 대해 고유한 이름을 제공하고,|후행 공백 또는 문자 % * \ & < \> \| # ?를 사용할 수 없습니다. , : ;|
+|<d:EventType></d:EventType>|이벤트 유형 이름(또는 Guid)을 입력합니다.|예제: "직원 퇴사." 이벤트 유형은 보존 레이블과 관련되어야 합니다.|
+|<d:SharePointAssetIdQuery></d:SharePointAssetIdQuery>|“ComplianceAssetId:” + 직원 ID 입력|예제: "ComplianceAssetId:12345"|
+|<d:EventDateTime></d:EventDateTime>|이벤트 날짜 및 시간|형식: yyyy-MM-ddTHH:mm:ssZ, 예제: 2018-12-01T00:00:00Z
+|
+
+###### <a name="response-codes"></a>응답코드
+
+| 응답코드 | 설명       |
+| ----------------- | --------------------- |
+| 302               | 리디렉션              |
+| 201               | 만든 날짜               |
+| 403               | 인증 실패  |
+| 401               | 인증 실패 |
+
+##### <a name="get-events-based-on-a-time-range"></a>이벤트를 시간 범위를 기준으로 가져오기
+
+- **메서드**: GET
+
+- **URL**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent?BeginDateTime=2019-01-11&EndDateTime=2019-01-16`
+
+- **헤더**: Key = Content-Type, Value = application/atom+xml
+
+- **인증**: 기본
+
+- **사용자 이름**: "Complianceuser"
+
+- **암호**: "Compliancepassword"
+
+
+###### <a name="response-codes"></a>응답코드
+
+| 응답코드 | 설명                   |
+| ----------------- | --------------------------------- |
+| 200               | 확인, atom + xml의 이벤트 목록 |
+| 404               | 찾을 수 없음                         |
+| 302               | 리디렉션                          |
+| 401               | 인증 실패              |
+| 403               | 인증 실패             |
+
+##### <a name="get-an-event-by-id"></a>이벤트 ID로 가져오기
+
+- **메서드**: GET
+
+- **URL**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent('174e9a86-74ff-4450-8666-7c11f7730f66')`
+
+- **헤더**: Key = Content-Type, Value = application/atom+xml
+
+- **인증**: 기본
+
+- **사용자 이름**: "Complianceuser"
+
+- **암호**: "Compliancepassword"
+
+###### <a name="response-codes"></a>응답코드
+
+| 응답코드 | 설명                                      |
+| ----------------- | ---------------------------------------------------- |
+| 200               | 확인, 응답 본문에 atom + xml 이벤트가 포함되어 있습니다. |
+| 404               | 찾을 수 없음                                            |
+| 302               | 리디렉션                                             |
+| 401               | 인증 실패                                 |
+| 403               | 인증 실패                                |
+
+##### <a name="get-an-event-by-name"></a>이벤트 이름으로 받기
+
+- **메서드**: GET
+
+- **URL**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent`
+
+- **헤더**: Key = Content-Type, Value = application/atom+xml
+
+- **인증**: 기본
+
+- **사용자 이름**: "Complianceuser"
+
+- **암호**: "Compliancepassword"
+
+
+###### <a name="response-codes"></a>응답코드
+
+| 응답코드 | 설명                                      |
+| ----------------- | ---------------------------------------------------- |
+| 200               | 확인, 응답 본문에 atom + xml 이벤트가 포함되어 있습니다. |
+| 404               | 찾을 수 없음                                            |
+| 302               | 리디렉션                                             |
+| 401               | 인증 실패                                 |
+| 403               | 인증 실패                                |
+
+### <a name="use-powershell-or-any-http-client-to-create-the-event"></a>PowerShell 또는 HTTP 클라이언트를 사용하여 이벤트 만들기
+
+PowerShell은 버전 6 이상이어야 합니다.
+
+PowerShell 세션에서 다음 스크립트를 실행합니다.
+
+```powershell
+param([string]$baseUri)
+
+$userName = "UserName"
+
+$password = "Password"
+
+$securePassword = ConvertTo-SecureString $password -AsPlainText -Force
+
+$credentials = New-Object System.Management.Automation.PSCredential($userName, $securePassword)
+
+$EventName="EventByRESTPost-$(([Guid]::NewGuid()).ToString('N'))"
+
+Write-Host "Start to create an event with name: $EventName"
+
+$body = "<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+
+<entry xmlns:d='http://schemas.microsoft.com/ado/2007/08/dataservices'
+
+xmlns:m='http://schemas.microsoft.com/ado/2007/08/dataservices/metadata'
+
+xmlns='http://www.w3.org/2005/Atom'>
+
+<category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent' />
+
+<updated>7/14/2017 2:03:36 PM</updated>
+
+<content type='application/xml'>
+
+<m:properties>
+
+<d:Name>$EventName</d:Name>
+
+<d:EventType>e823b782-9a07-4e30-8091-034fc01f9347</d:EventType>
+
+<d:SharePointAssetIdQuery>'ComplianceAssetId:123'</d:SharePointAssetIdQuery>
+
+</m:properties>
+
+</content>
+
+</entry>"
+
+$event = $null
+
+try
+
+{
+
+$event = Invoke-RestMethod -Body $body -Method 'POST' -Uri "$baseUri/ComplianceRetentionEvent" -ContentType "application/atom+xml" -Authentication Basic -Credential $credentials -MaximumRedirection 0
+
+}
+
+catch
+
+{
+
+$response = $_.Exception.Response
+
+if($response.StatusCode -eq "Redirect")
+
+{
+
+$url = $response.Headers.Location
+
+Write-Host "redirected to $url"
+
+$event = Invoke-RestMethod -Body $body -Method 'POST' -Uri $url -ContentType "application/atom+xml" -Authentication Basic -Credential $credentials -MaximumRedirection 0
+
+}
+
+}
+
+$event | fl *
+
+```
 
