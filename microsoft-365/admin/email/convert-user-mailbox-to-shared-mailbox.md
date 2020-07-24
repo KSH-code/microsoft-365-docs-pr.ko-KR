@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
 description: '개인 사서함을 여러 사용자가 액세스할 수 있는 공유 사서함으로 변환 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: c4f71f12b430e239f5ea5791ba5b98a3109452b0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 7ae00c1d9c901378798f063554a44a3e5b741442
+ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400115"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391533"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>사용자 사서함을 공유 사서함으로 변환
 
@@ -95,6 +95,9 @@ ms.locfileid: "44400115"
     
 공유 사서함에 대해 알아야 할 다른 모든 작업은 [공유](about-shared-mailboxes.md) 사서함 및 [공유 사서함 만들기](create-a-shared-mailbox.md)를 참조 하세요.
 
+> [!NOTE]
+> 공유 사서함에는 별도의 라이선스가 필요하지 않습니다. 그러나 원본 위치 보관을 사용하도록 설정하거나 공유 사서함에 원본 위치 유지 또는 소송 보존을 적용하려는 경우 Exchange Online Archiving이 있는 Exchange Online 계획 1 또는 Exchange Online 계획 2 라이선스를 사서함에 할당해야 입니다.
+
 
 ## <a name="convert-the-mailbox-of-a-deleted-user"></a>삭제 된 사용자의 사서함 변환
 
@@ -113,6 +116,7 @@ ms.locfileid: "44400115"
 6. 이 작업을 완료 한 후에는 사용자의 사서함에서 라이선스를 제거할 수 있습니다. 사용자의 이전 사서함은 삭제 하지 마세요. 공유 사서함에는 기준 위치가 필요 합니다.
     
 7. 공유 사서함에 구성원을 추가 합니다.
+
 
 ## <a name="convert-a-shared-mailbox-back-to-a-users-private-mailbox"></a>공유 사서함을 사용자의 (개인) 사서함으로 다시 변환
 

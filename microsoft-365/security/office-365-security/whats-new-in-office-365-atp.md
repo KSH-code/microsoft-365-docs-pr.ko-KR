@@ -15,14 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 05/15/2020
+ms.date: 07/23/2020
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1d8bd316b847502f9e4b1c94afbf67a0472015a6
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 92ad1b644dd0b3cac04657d01f70cfb274b7e517
+ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126412"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391557"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Office 365 ATP의 새로운 기능
 
@@ -37,7 +37,8 @@ ms.locfileid: "45126412"
 
 ## <a name="julyaugust-2020"></a>7 월/8 월 2020 
 
-- [사냥 경험 향상](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections)
+- [사냥 경험의 향상 된 경험](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections)
+- [미리 설정 된 보안 정책을 사용 하 여 권장 설정을 쉽게 적용](preset-security-policies.md)
 
 ## <a name="marchapril-2020"></a>3 월/4 월 2020
 
@@ -63,11 +64,6 @@ ms.locfileid: "45126412"
 - [URL 내보내기 오프 라인 분석을 위한 데이터 클릭](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (OFFICE 365 ATP 계획 1 또는 계획 2)
 
 - [Office 365 ATP에서 캠페인 보기 사용 (**미리 보기**)](campaigns.md)
-
-## <a name="july-2020"></a>7 월 2020 일 
- 
-- [사냥 경험 향상](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections)
-
 
 ## <a name="november-2019"></a>2019년 11월
 

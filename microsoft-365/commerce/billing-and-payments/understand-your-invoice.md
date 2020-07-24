@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 description: Microsoft 비즈니스 제품에 대 한 청구서 또는 송장을 읽고 이해 하는 방법에 대해 알아보세요.
 keywords: 청구 계정, 조직 정보, 송장
-ms.openlocfilehash: 17cfba93e8d892081900f6fcefb4504fb553b5bf
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f0575683cdcaf0ac76de80c93e0d7573e8c63bae
+ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402645"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391521"
 ---
 # <a name="understand-your-bill-or-invoice"></a>청구서 또는 송장 이해하기
 
@@ -79,11 +79,11 @@ Microsoft 365 구독만 있는 경우 [microsoft 365 for business의 청구서 �
 
 라인 항목 세부 정보는 요금이 부과 되는 제품 유형에 따라 달라 집니다. 예를 들어 Azure 제품의 경우 적용 된 Azure 크레딧 양이 표시 됩니다. 좌석 기반 제품은 단가와 수량을 표시 합니다. 송장 세부 정보에는 구매한 제품, 할인 또는 제작진, 세금 급여 및 금액, 품목 합계가 표시 됩니다.
 
-    `Total = Charges - Azure Credit + Tax`
+> Total = 청구 금액-Azure Credit + 세금
 
 각 서비스 제품군의 총 금액은 크레딧/요금에서 Azure 제작진을 빼서 세금을 추가 하 여 계산 됩니다.
 
-    `Total = Charges/Credits - Azure Credit + Tax`
+> Total = 청구/제작진-Azure Credit + 세금
 
 송장에 자세한 정보를 보려는 Azure 요금이 있는 경우 [Microsoft 고객 계약 송장 검토](https://docs.microsoft.com/azure/cost-management-billing/understand/review-customer-agreement-bill)를 참조 하세요.
 

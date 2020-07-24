@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: tracyp
 author: MSFTTracyP
-ms.date: 12/12/2019
+ms.date: ''
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -16,18 +16,20 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection) 및 ATP (Advanced Threat Protection) 보안 설정에 대 한 모범 사례 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 ATP (Advanced Threat Protection)를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: e6ed4e204ef3cdf66fb065af4621f176bb33cad9
-ms.sourcegitcommit: 9af890ef1b1c95bfc7cc52f7f4e395b62dc5263f
+ms.openlocfilehash: 542dce4d2abe9a40fcc5eef57502be5c37a34d57
+ms.sourcegitcommit: 688d62a8c52e4fb0feb721bb92b535effc278f54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45146245"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45389848"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>EOP 및 Office 365 ATP 보안에 대 한 권장 설정
 
 **EOP (Exchange Online Protection)** 는 Microsoft 365 구독의 보안 핵심으로, 악성 전자 메일이 직원의 받은 편지함에 도달 하지 못하도록 합니다. 하지만 매일 보다 정교한 공격이 새로 등장 하면서도 향상 된 보호 기능은 대개 필요 합니다. **Office 365 ATP (Advanced Threat Protection)** ATP 계획 1 또는 ATP 계획 2에는 관리자가 더 많은 보안, 제어 및 조사 계층을 제공 하는 추가 기능이 포함 되어 있습니다.
 
 보안 관리자는 보안 설정을 사용자 지정할 수 있도록 하지만 EOP 및 Office 365 ATP에는 **표준** 및 **Strict**의 두 가지 보안 수준이 권장 됩니다. 각 고객의 환경과 요구 사항은 서로 다르지만, 이러한 수준의 메일 필터링 구성은 대부분의 상황에서 원치 않는 메일이 직원의 받은 편지함에 도달 하지 못하도록 방지 하는 데 도움이 됩니다.
+
+사용자에 게 표준 또는 엄격한 설정을 자동으로 적용 하려면 [EOP 및 Office 365 ATP에서 미리 설정 된 보안 정책을](preset-security-policies.md)참조 하세요.
 
 > [!IMPORTANT]
 > 필터링이 제대로 작동 하려면 사서함에서 정크 메일 규칙을 사용 하도록 설정 해야 합니다. 이 기능은 기본적으로 사용 하도록 설정 되어 있지만 필터링이 작동 하지 않는 것 처럼 보이는 경우에는 확인 해야 합니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함에 대한 정크 메일 설정 구성하기](configure-junk-email-settings-on-exo-mailboxes.md)를 참조하세요.
@@ -45,7 +47,7 @@ ms.locfileid: "45146245"
 
 스팸 방지 정책을 만들고 구성 하려면 [Office 365에서 스팸 방지 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
 
-| 보안 기능 이름 | 표준을 | 항등 | 댓글 |
+|보안 기능 이름|표준을|항등|댓글|
 |---|---|---|---|
 |**스팸** 검색 작업 <br/><br/> _SpamAction_|**정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**메시지 격리** <br/><br/> `Quarantine`||
 |**높은 정확도 스팸** 검색 작업 <br/><br/> _HighConfidenceSpamAction_|**메시지 격리** <br/><br/> `Quarantine`|**메시지 격리** <br/><br/> `Quarantine`||
@@ -70,7 +72,7 @@ ms.locfileid: "45146245"
 
 이러한 ASF 설정은 **표준** 및 **Strict** 수준에 대해 모두 **해제** 하는 것이 좋습니다. ASF 설정에 대 한 자세한 내용은 [Office 365의 asf (Advanced 스팸 필터) 설정을](advanced-spam-filtering-asf-options.md)참조 하십시오.
 
-| 보안 기능 이름 | 댓글 |
+|보안 기능 이름|댓글|
 |---|---|
 |**원격 사이트에 대 한 이미지 링크** (_IncreaseScoreWithImageLinks_)||
 |**URL의 숫자 IP 주소** (_IncreaseScoreWithNumericIps_)||
@@ -95,7 +97,7 @@ ms.locfileid: "45146245"
 
 서비스의 기본 전송 제한에 대 한 자세한 내용은 [제한 보내기](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-1) 를 참조 하십시오.
 
-| 보안 기능 이름 | 표준을 | 항등 | 댓글 |
+|보안 기능 이름|표준을|항등|댓글|
 |---|---|---|---|
 |**사용자 당 최대 받는 사람 수: 외부 시간 제한** <br/><br/> _RecipientLimitExternalPerHour_|500|400||
 |**사용자 당 최대 받는 사람 수: 내부 시간 제한** <br/><br/> _RecipientLimitInternalPerHour_|1000|800||
@@ -107,7 +109,7 @@ ms.locfileid: "45146245"
 
 맬웨어 방지 정책을 만들고 구성 하려면 [Office 365에서 맬웨어 방지 정책 구성을](configure-anti-malware-policies.md)참조 하세요.
 
-| 보안 기능 이름 | 표준을 | 항등 | 댓글 |
+|보안 기능 이름|표준을|항등|댓글|
 |---|---|---|---|
 |**메시지가 격리 된 경우 받는 사람에 게 알릴지 여부** <br/><br/> _작업_|아니요 <br/><br/> _DeleteMessage_|아니요 <br/><br/> _DeleteMessage_|전자 메일 첨부 파일에서 맬웨어가 검색 되 면 메시지가 격리 되며 관리자만 해제할 수 있습니다.|
 |**일반 첨부 파일 형식 필터** <br/><br/> _EnableFileFilter_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|이 설정은 첨부 파일 내용에 상관 없이 설정별 첨부 파일이 들어 있는 메시지의 형식을 설정 합니다.|
@@ -120,7 +122,7 @@ ms.locfileid: "45146245"
 
 이러한 설정에 대 한 자세한 내용은 [스푸핑 설정](set-up-anti-phishing-policies.md#spoof-settings)항목을 참조 하십시오. 이러한 설정을 구성 하려면 [EOP에서 피싱 방지 정책 구성을](configure-anti-phishing-policies-eop.md)참조 하십시오.
 
-| 보안 기능 이름 | 표준을 | 항등 | 댓글 |
+|보안 기능 이름|표준을|항등|댓글|
 |---|---|---|---|
 |**스푸핑 방지 보호 사용** <br/><br/> _EnableAntispoofEnforcement_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
 |**인증 되지 않은 보낸 사람 사용** <br/><br/> _EnableUnauthenticatedSender_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|알 수 없는 스푸핑된 보낸 사람에 대 한 Outlook의 보낸 사람 사진에 물음표 (?)를 추가 합니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md)참조 하십시오.|
@@ -146,7 +148,7 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 이러한 설정에 대 한 자세한 내용은 [ATP 피싱 방지 정책에서 가장 설정을](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies)참조 하십시오. 이러한 설정을 구성 하려면 [ATP 피싱 방지 정책 구성을](configure-atp-anti-phishing-policies.md)참조 하십시오.
 
-| 보안 기능 이름 | 표준을 | 항등 | 댓글 |
+|보안 기능 이름|표준을|항등|댓글|
 |---|---|---|---|
 |보호 된 사용자: **보호를 위해 사용자 추가** <br/><br/> _EnableTargetedUserProtection_ <br/><br/> _TargetedUsersToProtect_|켜짐 <br/><br/> `$true` <br/><br/> \<list of users\>|켜짐 <br/><br/> `$true` <br/><br/> \<list of users\>|조직에 따라 다르지만 주요 역할에 사용자를 추가 하는 것이 좋습니다. 내부적으로는 CEO, CFO 및 기타 선임 리더가 될 수 있습니다. 외부에는 council 구성원 또는 이사회의 보드가 포함 될 수 있습니다.|
 |보호 된 도메인: **내가 소유한 도메인을 자동으로 포함** <br/><br/> _EnableOrganizationDomainsProtection_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
@@ -167,7 +169,7 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 이러한 설정은 [EOP의 스팸 방지 정책 설정](#eop-anti-spam-policy-settings)에서 사용할 수 있는 설정과 동일 합니다.
 
-| 보안 기능 이름 | 표준을 | 항등 | 댓글 |
+|보안 기능 이름|표준을|항등|댓글|
 |---|---|---|---|
 |**스푸핑 방지 보호 사용** <br/><br/> _EnableAntispoofEnforcement_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
 |**인증 되지 않은 보낸 사람 사용** <br/><br/> _EnableUnauthenticatedSender_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|알 수 없는 스푸핑된 보낸 사람에 대 한 Outlook의 보낸 사람 사진에 물음표 (?)를 추가 합니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md)참조 하십시오.|
@@ -178,7 +180,7 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 이 설정에 대 한 자세한 내용은 [ATP 피싱 방지 정책에서 Advanced 피싱 임계값](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-atp-anti-phishing-policies)을 참조 하십시오. 이 설정을 구성 하려면 [ATP 피싱 방지 정책 구성을](configure-atp-anti-phishing-policies.md)참조 하십시오.
 
-| 보안 기능 이름 | 표준을 | 항등 | 댓글 |
+|보안 기능 이름|표준을|항등|댓글|
 |---|---|---|---|
 |**고급 피싱 임계값** <br/><br/> _PhishThresholdLevel_|**2-적극적인** <br/><br/> `2`|**3-적극적인** <br/><br/> `3`||
 
@@ -190,7 +192,7 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 **참고**: PowerShell에서는 이러한 설정에 대해 [AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange/set-atppolicyforo365) cmdlet을 사용 합니다.
 
-| 보안 기능 이름 | 표준을 | 항등 | 댓글 |
+|보안 기능 이름|표준을|항등|댓글|
 |---|---|---|---|
 |**에서 안전한 링크 사용: Office 365 응용 프로그램** <br/><br/> _EnableSafeLinksForO365Clients_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|Office 365 Apps, iOS 및 Android의 ATP 안전한 링크를 사용 합니다.|
 |**사용자가 안전 링크를 클릭 하는 경우 추적 안 함** <br/><br/> _가을 클릭 하면_|해제 <br/><br/> `$true`|해제 <br/><br/> `$true`||
@@ -199,9 +201,9 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 #### <a name="safe-links-policy-settings-in-custom-policies-for-specific-users"></a>특정 사용자에 대 한 사용자 지정 정책의 안전한 링크 정책 설정
 
-**참고**: PowerShell에서는 [Get-safelinkspolicy](https://docs.microsoft.com/powershell/module/exchange/new-safelinkspolicy) 및 [get-safelinkspolicy] ( https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicycmdlet 이러한 설정에 대 한 cmdlet)을 사용 합니다.
+**참고**: PowerShell에서는 이러한 설정에 대해 [Get-safelinkspolicy](https://docs.microsoft.com/powershell/module/exchange/new-safelinkspolicy) 및 [get-safelinkspolicy] (] cmdlet을 사용 https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy 합니다.
 
-| 보안 기능 이름 | 표준을 | 항등 | 댓글 |
+|보안 기능 이름|표준을|항등|댓글|
 |---|---|---|---|
 |**메시지에서 알 수 없는 잠재적 악성 Url에 대 한 작업 선택** <br/><br/> _IsEnabled_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
 |**Microsoft 팀 내에서 알 수 없거나 잠재적으로 악성 Url에 대 한 작업 선택** <br/><br/> _EnableSafeLinksForTeams_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
@@ -220,7 +222,7 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 **참고**: PowerShell에서는 이러한 설정에 대해 [AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange/set-atppolicyforo365) cmdlet을 사용 합니다.
 
-| 보안 기능 이름 | 표준을 | 항등 | 댓글 |
+|보안 기능 이름|표준을|항등|댓글|
 |---|---|---|---|
 |**SharePoint, OneDrive 및 Microsoft Teams의 ATP 켜기** <br/><br/> _EnableATPForSPOTeamsODB_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
 |**Office 클라이언트에 대 한 안전 문서 설정**<bt/><br/> _EnableSafeDocs_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||이 설정은 Microsoft 365 E5 또는 Microsoft 365 E5 보안 라이선스 에서만 사용할 수 있습니다. 자세한 내용은 [Office 365 Advanced Threat Protection의 안전한 문서](safe-docs.md)를 참조 하세요.|
@@ -231,7 +233,7 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 **참고**: PowerShell에서는 이러한 설정에 대해 [get-safeattachmentpolicy](https://docs.microsoft.com/powershell/module/exchange/new-safeattachmentpolicy) 및 [get-safeattachmentpolicy](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy) cmdlet을 사용 합니다.
 
-| 보안 기능 이름 | 표준을 | 항등 | 댓글 |
+|보안 기능 이름|표준을|항등|댓글|
 |---|---|---|---|
 |**안전한 첨부 파일 알 수 없는 맬웨어 응답** <br/><br/> _작업_|정책의 <br/><br/> `Block`|정책의 <br/><br/> `Block`||
 |**검색 시 첨부 파일 리디렉션** : **리디렉션 사용** <br/><br/> _리디렉션_ <br/><br/> _RedirectAddress_|전자 메일 주소를 지정 합니다. <br/><br/> `$true` <br/><br/> 전자 메일 주소|전자 메일 주소를 지정 합니다. <br/><br/> `$true` <br/><br/> 전자 메일 주소|검토를 위해 보안 관리자에 게 메시지를 리디렉션합니다.|
