@@ -13,12 +13,12 @@ ms.collection:
 - SPO_Content
 ms.custom: ''
 description: 조직 전체에서 SharePoint를 계획하고 배포하며 가치를 창출하는 프로세스를 안내합니다.
-ms.openlocfilehash: 6b0483073a836f29b1faa5a30018848ef7b2df34
-ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
+ms.openlocfilehash: 77beb26065a9ecfd37acf976e7415cc870ff8ea4
+ms.sourcegitcommit: fe20f5ed07f38786c63df0f73659ca472e69e478
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268212"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201501"
 ---
 # <a name="deploy-sharepoint-and-onedrive-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise용 SharePoint 및 OneDrive 배포
 
@@ -85,12 +85,11 @@ SharePoint 사이트에 대한 액세스를 보호하려면 [ID 및 장치 액�
 
 사용자 고유의 계획을 수행하거나 FastTrack과 연계해서 작업하는 경우, 네트워크 및 조직이 SharePoint를 사용할 준비가 되어 있는지 확인해야 합니다.  특히, SharePoint 기반 문서의 추가 트래픽 성능을 극대화하기 위해 인터넷 대역폭, 처리량 및 트래픽 지연에 중점을 두고 기본 인프라의 [네트워킹에 대한 종료 조건](networking-exit-criteria.md)을 충족해야 합니다.
 
-Sharepoint의 출시를 준비하려면 [Migrate to SharePoint](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online)을 사용합니다. 
+Sharepoint의 출시를 준비하려면 [Migrate to SharePoint](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online)을 사용합니다.
 
 SharePoint의 보안을 보다 잘 이해하려면 다음 리소스를 검토하세요.
-
--     [SharePoint 및 OneDrive가 클라우드에서 데이터를 보호하는 방법](https://docs.microsoft.com/sharepoint/safeguarding-your-data)
--     [OneDrive 및 SharePoint의 데이터 암호화](https://docs.microsoft.com/microsoft-365/compliance/data-encryption-in-odb-and-spo)
+- [SharePoint 및 OneDrive가 클라우드에서 데이터를 보호하는 방법](https://docs.microsoft.com/sharepoint/safeguarding-your-data)
+- [OneDrive 및 SharePoint의 데이터 암호화](https://docs.microsoft.com/microsoft-365/compliance/data-encryption-in-odb-and-spo)
 
 #### <a name="result"></a>결과
 
