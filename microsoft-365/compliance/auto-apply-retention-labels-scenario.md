@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 솔루션 시나리오에서는 보존 레이블을 사용하여 SharePoint Online에 저장된 제품 관련 문서의 수명 주기를 관리하는 방법을 설명합니다. 이 작업은 문서 메타 데이터를 사용하여 콘텐츠를 분류하고, 특히 보존 레이블을 자동으로 적용하며 이벤트 기반 보존을 구성하여 수행됩니다.
-ms.openlocfilehash: a2e7a3887f9402cecb70ec60d4ff4e47f6a55ee9
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 98e8b7fbe7a62af25797f813e2cefe1be2c39840
+ms.sourcegitcommit: 4789b261eb029d7c965421a1260acc110e6385db
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199861"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45387455"
 ---
 # <a name="manage-the-lifecycle-of-sharepoint-documents-with-retention-labels"></a>보존 레이블을 사용하여 SharePoint 문서의 수명 주기 관리
 
@@ -124,10 +124,10 @@ ms.locfileid: "45199861"
 1. 드롭다운 목록의 **콘텐츠를 보존 또는 삭제**에서 **이벤트**를 선택합니다.
 
 2. **이벤트 유형 선택**을 선택합니다.
+    
+    ![제품 사양 레이블에 대한 새 이벤트 유형 만들기](../media/SPRetention6.png)
 
-   ![제품 사양 레이블에 대한 새 이벤트 유형 만들기](../media/SPRetention6.png)
-
-3. **이벤트 유형 선택** 페이지에서, **여기에서 새 이벤트 유형을 만들 수 있습니다**를 선택합니다.
+3. **이벤트 유형 선택**을 선택합니다. 그리고 나서 **이벤트 유형 선택** 페이지에서, **새 이벤트 유형 만들기**를 선택합니다.
 
 4. **제품 중단**이라는 이벤트 유형을 만들고 설명을 입력한 후 **완료**를 선택하여 만듭니다. 
 
@@ -252,7 +252,7 @@ KQL 쿼리를 사용하여 올바른 보존 레이블을 제품 문서 내용에
 
 ### <a name="verifying-the-retention-label-was-automatically-applied"></a>보존 레이블이 자동으로 적용되었는지 확인
 
-7일 후에 준수 센터에서 [레이블 활동 탐색기](view-label-activity-for-documents.md)를 사용하여 생성된 레이블 정책이 시나리오에서 제품 문서에 보존 정책을 자동 적용 했는지를 확인합니다. 
+7일 후에 준수 센터에서 [활동 탐색기](data-classification-activity-explorer.md)를 사용하여 생성된 레이블 정책이 시나리오에서 제품 문서에 보존 정책을 자동 적용 했는지를 확인합니다. 
 
 또 다른 확인 단계는 문서 라이브러리의 문서 속성을 확인하는 것입니다. 정보 패널에서 보존 레이블이 선택된 문서에 적용되어 있음을 확인할 수 있습니다.
 
