@@ -311,6 +311,8 @@
                       href: ./office-365-security/use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md
                     - name: 맬웨어 및 비 맬웨어를 Microsoft에 제출
                       href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
+                - name: 보안 정책 미리조정
+                  href: ./office-365-security/preset-security-policies.md
                 - name: 스팸 방지 메시지 헤더
                   href: ./office-365-security/anti-spam-message-headers.md
                 - name: 정책 및 보호 조치의 결합 방식
