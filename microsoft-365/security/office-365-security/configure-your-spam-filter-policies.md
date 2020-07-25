@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online Protection(EOP)에서 스팸 방지 정책을 보고, 만들고 수정하고 삭제하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: c129ca73da516a5b4c420136abf0b5068e19e195
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.openlocfilehash: 60b53e21978867321f6fe824da35db683dc76663
+ms.sourcegitcommit: a53af7a228bb1f58cb8128a69a19da49f9e28700
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45204866"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45372564"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>EOP에서 스팸 방지 정책 구성하기
 
@@ -357,7 +357,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서는 스�
      > [!NOTE]
      > 이전 주기 중에 알림이 누락되면 다음 주기가 알림을 푸시합니다. 이로 인해 당일에 여러 알림이 표시될 수 있습니다.
 
-   - **알림 언어**: 드롭다운을 클릭하고. 목록에서 사용 가능한 언어를 선택합니다. 기본값은 클라우드 기반 조직의 기본 언어를 의미 하는 **기본값**입니다.
+   - **알림 언어**: 드롭다운을 클릭하고. 목록에서 사용 가능한 언어를 선택합니다. 기본적인 값은 **기본값**이고 이는 영어를 의미합니다.
 
    작업을 마쳤으면 **저장**을 클릭합니다.
 

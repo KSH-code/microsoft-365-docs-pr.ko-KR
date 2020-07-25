@@ -1,5 +1,5 @@
 ---
-title: GDPR 및 CCPA에 대한 Windows 데이터 주체 요청용 데이터 프로세서 서비스
+title: GDPR 및 CCPA에 대한 Windows 엔터프라이즈 데이터 주체 요청용 데이터 프로세서 서비스
 description: Microsoft 제품, 서비스 및 관리 도구를 사용하여 개인 데이터를 찾아서 작업을 하여 DSR에 응답하는 방법을 알아봅니다.
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
 localization_priority: Priority
@@ -15,17 +15,17 @@ audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: 525b8b0783886a7449be72c89a2aa624afda9929
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
+ms.openlocfilehash: bc88f8911f44c9c7b8aad8fbecbbeb073fdcb9ba
+ms.sourcegitcommit: 209a9963719f1ca85ca2075c02721e1a318a7a13
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45023614"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45374804"
 ---
-# <a name="data-processor-service-for-windows-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Windows 데이터 주체 요청용 데이터 프로세서 서비스 
+# <a name="data-processor-service-for-windows-enterprise-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Windows 엔터프라이즈 데이터 주체 요청용 데이터 프로세서 서비스 
 
 >[!NOTE]
->이 항목은 Windows 미리 보기 프로그램용 데이터 프로세서 서비스 참여자를 대상으로 하며 특정 사용 약관을 수락해야 합니다. 프로그램에 대해 자세히 알아보고 사용 조건에 동의하려면 [https://aka.ms/dpswpublicpreview](https://aka.ms/dpswpublicpreview)을(를) 참조하시기 바랍니다.
+>이 항목은 Windows Enterprise 미리 보기 프로그램 데이터 프로세서 서비스 참여자를 대상으로 하며 특정 사용 약관을 수락해야 합니다. 프로그램에 대해 자세히 알아보고 사용 조건에 동의하려면 [https://aka.ms/WindowsEnterprisePublicPreview](https://aka.ms/WindowsEnterprisePublicPreview)을(를) 참조하세요.
 
 ## <a name="introduction-to-data-subject-requests-dsrs"></a>DSR(데이터 주체 요청) 소개 
 EU GDPR(일반 데이터 보호 규정)은 사람들(규정에서 _데이터 주체_)에게 고용주 또는 다른 유형의 기관이나 조직(_데이터 컨트롤러_ 또는 간단하게 _컨트롤러_)에 의해 수집된 개인 데이터를 관리할 권한을 제공합니다. GDPR에서 개인 데이터는 식별되거나 식별 가능한 자연인에 관련된 모든 데이터로 매우 광범위하게 정의됩니다. GDPR은 데이터 주체에게 개인 데이터에 대한 특정 권한을 제공합니다. 이러한 권한에는 개인 데이터의 복사본을 얻거나, 수정을 요청하거나, 처리를 제한하거나, 삭제하거나, 다른 관리자에게 전달할 수 있도록 전자 형식으로 개인 데이터를 수신할 권한이 포함됩니다. 데이터 주체가 개인 데이터에 대한 작업을 수행하도록 관리자에게 공식적으로 요청하는 것을 DSR(_Data Subject Request_)이라고 합니다. 
@@ -57,11 +57,11 @@ CCPA 하에서 개인 정보는 식별된 또는 식별 가능한 개인과 관�
 
 ## <a name="how-to-use-this-guide"></a>이 가이드를 사용하는 방법 
 
-Windows 등록 장치에 데이터 프로세서 서비스를 사용하면 Windows에서 서비스를 제공하기 위해 Windows 진단 데이터라고 하는 일부 정보를 생성합니다.
+Windows 엔터프라이즈 등록 장치에 데이터 프로세서 서비스를 사용하면 Windows에서 서비스를 제공하기 위해 Windows 진단 데이터라고 하는 일부 정보를 생성합니다.
 
 ## <a name="windows-diagnostic-data"></a>Windows 진단 데이터 
 
-Microsoft는 사용자의 Windows용 데이터 프로세서 서비스 사용과 관련된 Windows 진단 데이터에 액세스, 삭제 및 내보낼 수 있는 기능을 제공합니다.
+Microsoft는 사용자의 Windows 엔터프라이즈용 데이터 프로세서 서비스 사용과 관련된 Windows 진단 데이터에 액세스, 삭제 및 내보낼 수 있는 기능을 제공합니다.
 
 >[!IMPORTANT]
 >Windows 진단 데이터를 수정하는 기능은 지원되지 않습니다. Windows 진단 데이터는 Windows 내에서 수행되는 사실상의 작업으로, 이러한 데이터를 수정하면 작업 기록의 기록이 손상되어 보안 위험이 증가하고 신뢰성이 저하됩니다. 이 문서에서 다루는 모든 데이터는 Windows 진단 데이터로 간주됩니다. 
@@ -72,7 +72,7 @@ Microsoft는 Azure Portal을 통해 기존 API(응용 프로그램 프로그래�
 
 ### <a name="step-1-access"></a>1단계: 액세스 
 
-테넌트 관리자는 조직 내에서 특정 사용자의 Windows 등록 장치용 데이터 프로세서 서비스 사용과 관련된 Windows 진단 데이터에 액세스할 수 있는 유일한 사용자입니다. 액세스 요청에 대해 검색된 데이터는 내보내기를 통해 시스템에서 읽을 수 있는 형식으로 제공되며, 사용자가 데이터와 연결된 장치 및 서비스를 알 수 있는 파일로 제공됩니다. 위에서 설명한 것처럼 검색된 데이터에는 Windows 장치의 보안이나 안정성을 해칠 수 있는 데이터가 포함되지 않습니다. 
+테넌트 관리자는 조직 내에서 특정 사용자의 Windows 엔터프라이즈 등록 장치용 데이터 프로세서 서비스 사용과 관련된 Windows 진단 데이터에 액세스할 수 있는 유일한 사용자입니다. 액세스 요청에 대해 검색된 데이터는 내보내기를 통해 시스템에서 읽을 수 있는 형식으로 제공되며, 사용자가 데이터와 연결된 장치 및 서비스를 알 수 있는 파일로 제공됩니다. 위에서 설명한 것처럼 검색된 데이터에는 Windows 장치의 보안이나 안정성을 해칠 수 있는 데이터가 포함되지 않습니다. 
 
 Microsoft는 기업 고객의 테넌트 관리자에게 DSR 액세스 요청을 관리할 수 있는 기능을 제공하는 포털 환경을 제공합니다. [Azure DSR, 2부, 3단계: 내보내기](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure#step-3-export)에서는 내보내기를 통해 Azure Portal을 통해 DSR 액세스 요청을 실행하는 방법을 설명합니다.
 
@@ -91,7 +91,7 @@ Microsoft는 사용자를 삭제할 수 있는 기능을 제공하며, 이 기�
 
 ### <a name="step-3-export"></a>3단계: 내보내기 
 
-테넌트 관리자는 조직 내에서 특정 사용자의 Windows 등록 장치용 데이터 프로세서 서비스 사용과 관련된 Windows 진단 데이터에 액세스할 수 있는 유일한 사용자입니다. 내보내기 요청에 대해 검색된 데이터는 시스템에서 읽을 수 있는 형식으로 제공되며 사용자가 해당 데이터와 연결된 장치 및 서비스를 알 수 있는 파일로 제공됩니다. 위에서 설명한 것처럼 검색된 데이터에는 Windows 장치의 보안이나 안정성을 해칠 수 있는 데이터가 포함되지 않습니다. [Azure DSR, 2부, 3단계: 내보내기](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure#step-3-export)는 Azure Portal을 통해 DSR 내보내기 요청을 실행하는 방법을 설명합니다. 
+테넌트 관리자는 조직 내에서 특정 사용자의 Windows 엔터프라이즈 등록 장치용 데이터 프로세서 서비스 사용과 관련된 Windows 진단 데이터에 액세스할 수 있는 유일한 사용자입니다. 내보내기 요청에 대해 검색된 데이터는 시스템에서 읽을 수 있는 형식으로 제공되며 사용자가 해당 데이터와 연결된 장치 및 서비스를 알 수 있는 파일로 제공됩니다. 위에서 설명한 것처럼 검색된 데이터에는 Windows 장치의 보안이나 안정성을 해칠 수 있는 데이터가 포함되지 않습니다. [Azure DSR, 2부, 3단계: 내보내기](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure#step-3-export)는 Azure Portal을 통해 DSR 내보내기 요청을 실행하는 방법을 설명합니다. 
 
 Microsoft는 기존 API(응용 프로그램 프로그래밍 인터페이스)를 통해 고객 데이터를 직접 내보낼 수 있는 기능을 제공합니다. 자세한 내용은 [API 참조 설명서](https://docs.microsoft.com/graph/api/user-exportpersonaldata?view=graph-rest-1.0)에 설명되어 있습니다.
 
