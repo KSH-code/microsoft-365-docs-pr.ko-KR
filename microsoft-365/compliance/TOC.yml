@@ -315,14 +315,10 @@
           href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
         - name: PowerShell을 사용하여 보존 레이블 만들기
           href: bulk-create-publish-labels-using-powershell.md
-        - name: 이벤트 기반 보존 사용
-          items:
-            - name: 이벤트가 발생할 때 보존 시작
-              href: event-driven-retention.md
-            - name: 이벤트 기반 보존 자동화
-              href: automate-event-driven-retention.md
-            - name: SharePoint 문서의 수명 주기 관리
-              href: auto-apply-retention-labels-scenario.md
+        - name: 이벤트가 발생할 때 보존 시작
+          href: event-driven-retention.md
+        - name: SharePoint 문서의 수명 주기 관리
+          href: auto-apply-retention-labels-scenario.md
     - name: 데이터 폐기
       href: disposition.md
     - name: 비활성 사서함 관리
