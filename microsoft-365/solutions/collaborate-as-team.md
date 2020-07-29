@@ -2,7 +2,7 @@
 title: 게스트와 팀으로 공동 작업하기
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: 팀에서 게스트를 공동 작업용으로 설정 하는 데 필요한 Microsoft 365 구성 단계에 대해 설명 합니다.
-ms.openlocfilehash: 6742409732e1ef9b466dae6854768c3843f33bd0
-ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
+ms.openlocfilehash: 2a412502af16ff95bf0f1f912ac57d00eb1d382a
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "44371497"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430390"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>게스트와 팀으로 공동 작업하기
 
@@ -82,7 +82,7 @@ Teams 게스트 액세스를 설정하려면 다음을 수행합니다.
 Microsoft 365 그룹 게스트 설정을 설정 하려면
 
 1. Microsoft 365 관리 센터의 왼쪽 탐색 영역에서 **설정을**확장 합니다.
-2. **서비스 & 추가 기능**을 클릭 합니다.
+2. **조직 설정을**클릭 합니다.
 3. 목록에서 **Microsoft 365 그룹**을 클릭 합니다.
 4. **조직 외부 구성원이 그룹 콘텐츠에 액세스** 하 고 그룹 **소유자가 조직 외부의 사람을 그룹에 추가** 하도록 허용 확인란을 모두 선택 했는지 확인 합니다.
 5. 변경한 경우 **변경 내용 저장**을 클릭 합니다.

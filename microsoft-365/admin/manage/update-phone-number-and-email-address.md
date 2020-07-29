@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
 description: 관리 센터에서 관리자 전화 번호 및 전자 메일 주소를 업데이트 합니다. 자신의 관리자 암호를 다시 설정 하려면이 정보가 필요 합니다.
-ms.openlocfilehash: bd8ee28cbc7982ea5b057fecb34d362557a5d5a9
-ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
+ms.openlocfilehash: ed7e8152ffdf05d94068e6bdb81697dee737ea01
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407923"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429957"
 ---
 # <a name="update-your-admin-phone-number-and-email-address"></a>관리자 전화 번호 및 전자 메일 주소 업데이트
 
@@ -41,13 +41,13 @@ ms.locfileid: "44407923"
   
 ## <a name="to-update-your-name-phone-number-and-email-address"></a>이름, 전화 번호 및 전자 메일 주소를 업데이트하려면
 
-**개인 정보** 페이지에서 이름, 휴대폰 번호 및 대체 전자 메일 주소를 변경할 수 있습니다. 대체 전자 메일 주소는 관리자 암호 (컴퓨터 관리자 암호 아님)를 다시 설정 하는 것과 같은 중요 한 알림에 사용 됩니다. 
+**설정 및 개인 정보** 페이지를 사용 하 여 이름, 휴대폰 번호 및 대체 전자 메일 주소를 변경 합니다. 대체 전자 메일 주소는 관리자 암호 (컴퓨터 관리자 암호 아님)를 다시 설정 하는 것과 같은 중요 한 알림에 사용 됩니다. 
   
 1. Microsoft 365 관리 센터로 이동 합니다.
 
-2. 헤더에서 프로필 아이콘 \> **내 계정** \> **개인 정보**를 선택 합니다.
+2. 헤더에서 프로필 아이콘 \> **내 계정** \> **설정 및 개인 정보**를 선택 합니다.
 
-3. **연락처 세부 정보** 섹션에서 편집을 선택 합니다. 휴대폰 번호 및 대체 전자 메일 주소를 업데이트 합니다. 대체 전자 메일 주소에 대해 Microsoft 전자 메일 주소와 다른 항목을 사용 하 고 있는지 확인 합니다.
+3. **연락처 기본 설정** 섹션에서 **연락처 기본 설정 관리 및 확장**을 선택 합니다. 휴대폰 번호 및 대체 전자 메일 주소를 업데이트 합니다. 대체 전자 메일 주소에 대해 Microsoft 전자 메일 주소와 다른 항목을 사용 하 고 있는지 확인 합니다.
 
     > [!IMPORTANT]
     > 대체 전자 메일 주소와 휴대폰 번호는 관리자 암호 (컴퓨터 관리자 암호 아님)를 다시 설정 하는 데 필요 합니다.

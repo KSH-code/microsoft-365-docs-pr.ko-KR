@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 조직의 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 & 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 26dfa8ec046122dce28582fb3d7b395843572a88
-ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
+ms.openlocfilehash: 762903428245797ecdc0357dc485e8fe25d2203e
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "45102918"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434258"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>보안 및 준수 센터의 전자 메일 보안 보고서 보기
 
@@ -34,7 +34,7 @@ ms.locfileid: "45102918"
 ## <a name="compromised-users-report"></a>손상 된 사용자 보고서
 
 > [!NOTE]
-> 이 보고서는 Microsoft 365 조직에서 Exchange Online 사서함을 사용 하는 경우에 사용할 수 있습니다. Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protection) 조직에서는이 기능을 사용할 수 없습니다.
+> 이 보고서는 Microsoft 365 조직에서 Exchange Online 사서함을 사용 하는 경우에 사용할 수 있습니다. 독립 실행형 EOP (Exchange Online Protection) 조직에서는이 기능을 사용할 수 없습니다.
 
 **손상 된 사용자** 보고서에는 최근 7 일 이내에 **의심** 또는 **제한** 된 것으로 표시 된 사용자 계정 수가 표시 됩니다. 이러한 두 가지 상태의 계정은 문제가 있거나 심지어도 손상 됩니다. 자주 사용 하는 경우 보고서를 사용 하 여 의심 스러운 또는 제한 된 계정의 스파이크 및 추세를 볼 수 있습니다. 사용자 손상에 대 한 자세한 내용은 [손상 된 전자 메일 계정에 응답](responding-to-a-compromised-email-account.md)을 참조 하세요.
 
@@ -64,7 +64,7 @@ ms.locfileid: "45102918"
 
 ## <a name="encryption-report"></a>암호화 보고서
 
-**암호화 보고서** 는 EOP (exchange online의 사서함과 exchange online 사서함이 없는 독립 실행형 EOP 구독)에서 사용할 수 있습니다. 조직의 보안 팀은이 보고서의 정보를 사용 하 여 패턴을 식별 하 고 중요 한 전자 메일 메시지에 대 한 정책을 사전에 적용 하거나 조정할 수 있습니다. 예시는 다음과 같습니다:
+**암호화 보고서** 는 EOP (exchange online의 사서함과 exchange online 사서함이 없는 독립 실행형 EOP 구독)에서 사용할 수 있습니다. 조직의 보안 팀은이 보고서의 정보를 사용 하 여 패턴을 식별 하 고 중요 한 전자 메일 메시지에 대 한 정책을 사전에 적용 하거나 조정할 수 있습니다. 예제:
 
 - 사용자가 암호화 한 전자 메일 메시지가 많은 경우 특정 사용 사례에 대 한 암호화를 자동화 하는 암호화 정책을 추가 하는 것이 좋습니다. 자세한 내용은 [Microsoft 365에서 전자 메일 메시지를 암호화 하는 메일 흐름 규칙 정의](../../compliance/define-mail-flow-rules-to-encrypt-email.md)를 참조 하십시오.
 
@@ -139,7 +139,7 @@ ms.locfileid: "45102918"
 
 **메일 흐름 status 보고서** 에는 맬웨어, 스팸, 피싱 및에 지 차단 된 메시지에 대 한 정보가 포함 되어 있습니다. 자세한 내용은 [메일 흐름 status report](view-mail-flow-reports.md#mailflow-status-report)를 참조 하십시오.
 
-## <a name="malware-detection-in-email-report"></a>전자 메일 보고서의 맬웨어 검색
+## <a name="malware-detections-in-email-report"></a>전자 메일 보고서에서 맬웨어 감지
 
 **전자 메일 보고서에서** 검색 된 맬웨어는 들어오는 및 보내는 전자 메일 메시지의 맬웨어 감지에 대 한 정보를 표시 합니다 (Exchange Online PROTECTION 또는 EOP에서 감지한 맬웨어). EOP의 맬웨어 보호에 대 한 자세한 내용은 [EOP의 맬웨어 방지 보호](anti-malware-protection.md)를 참조 하세요.
 
@@ -162,7 +162,7 @@ ms.locfileid: "45102918"
 - **날짜**
 - **보낸 사람 주소**
 - **받는 사람 주소**
-- **메시지 ID**
+- **메시지 id**: 메시지 헤더의 **메시지 id** 헤더 필드에서 사용할 수 있으며 고유 해야 합니다. 예를 들면 `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` 꺾쇠 괄호를 참고 하십시오.
 - **제목**
 - **파일 이름**
 - **맬웨어 이름**
@@ -267,11 +267,14 @@ ms.locfileid: "45102918"
 
 ## <a name="threat-protection-status-report"></a>위협 방지 상태 보고서
 
-**위협 방지 상태** 보고서는 EOP 및 OFFICE 365 ATP에서 모두 사용할 수 있습니다. 그러나 보고서에는 다양 한 데이터가 포함 됩니다. 예를 들어 EOP 고객은 전자 메일로 감지 되었지만 [SharePoint Online, OneDrive 또는 Microsoft 팀에서 검색 된 악성 파일](atp-for-spo-odb-and-teams.md)에 대 한 정보는 볼 수 없습니다. Office 365 ATP 보고서에 대 한 자세한 내용은 [View reports For office 365 Advanced Threat Protection](view-reports-for-atp.md)를 참조 하세요.
+**위협 방지 상태** 보고서는 EOP 및 OFFICE 365 ATP에서 모두 사용할 수 있습니다. 그러나 보고서에는 다양 한 데이터가 포함 됩니다. 예를 들어 EOP 고객은 전자 메일로 감지 되었지만 [SharePoint Online, OneDrive 또는 Microsoft 팀에서 검색 된 악성 파일](atp-for-spo-odb-and-teams.md)에 대 한 정보는 볼 수 없습니다.
 
-검색 및 차단 된 악성 전자 메일을 보여 주는 smart 보고서 이며, 보안 관리자가 경향을 식별 하거나 조직 정책 조정이 필요한 지 여부를 결정할 수 있습니다.
+이 보고서는 맬웨어 방지 엔진에 의해 차단 된 파일 또는 웹 사이트 주소 (Url)와 같은 악성 콘텐츠가 포함 된 고유한 전자 메일 메시지의 집계 된 개수를 제공 합니다 [(0 시간 자동 제거 (ZAP)](zero-hour-auto-purge.md)및 Atp [safe Links](atp-safe-links.md), [Atp 안전한 첨부 파일](atp-safe-attachments.md)및 [atp](set-up-anti-phishing-policies.md)기능). 이 정보를 사용 하 여 경향을 식별 하거나 조직 정책 조정이 필요한 지 여부를 결정할 수 있습니다.
 
-보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 다음 **위협 방지 상태**를 선택 합니다. 보고서로 직접 이동 하려면를 엽니다 <https://protection.office.com/reportv2?id=ATPV2AggregateReport> .
+보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 다음 **위협 방지 상태**를 선택 합니다. 보고서로 직접 이동 하려면 다음 Url 중 하나를 엽니다.
+
+- Office 365 ATP: <https://protection.office.com/reportv2?id=ATPV2AggregateReport> 입니다.
+- EOP<https://protection.office.com/reportv2?id=ATPAggregateLightReport>
 
 ![보고서 대시보드의 위협 보호 상태 위젯](../../media/threat-protection-status-report-widget.png)
 
@@ -411,61 +414,7 @@ ms.locfileid: "45102918"
 
 ## <a name="url-threat-protection-report"></a>URL 위협 방지 보고서
 
-> [!NOTE]
-> 이 보고서는 Office 365 ATP (Advanced Threat Protection) 에서만 사용할 수 있습니다. 예를 들어 Microsoft 365 E5 subscription 또는 ATP 요금제 1 또는 ATP 요금제 2 추가 기능을 예로 들 있습니다.
-
-**Url threat protection 보고서** 는 [ATP Safe 링크](atp-safe-links.md)의 일부로 url 클릭에 대해 검색 되는 위협 및 작업에 대 한 요약 및 추세 보기를 제공 합니다. 이 보고서는 적용 된 안전한 링크 정책이 사용자의 클릭으로 **추적 하지 않음** 옵션을 선택한 경우에는 사용자의 데이터를 클릭할 수 없습니다.
-
-보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 후 **URL 보호**를 선택 합니다. 보고서로 직접 이동 하려면를 엽니다 <https://protection.office.com/reportv2?id=URLProtectionActionReport> .
-
-### <a name="report-view-for-the-url-threat-protection-report"></a>URL 위협 방지 보고서에 대 한 보고서 보기
-
-**URL threat protection** 보고서에는 최근 90 일 동안의 데이터를 표시 하는 4 시간 마다 한 번씩 새로 고쳐지는 두 가지 보기가 있습니다.
-
-- **URL 보호 작업 클릭**: 조직의 사용자가 클릭 한 URL의 수를 표시 하 고 해당 결과를 선택 합니다.
-
-  - **수준**
-  - **차단 및 클릭**
-  - **검색 중에 클릭**
-
-  클릭은 사용자가 악성 웹 사이트에 대 한 차단 페이지를 클릭 했음을 나타냅니다 (관리자가 안전한 링크 정책에서 클릭을 사용 하지 않도록 설정할 수 있음).
-
-  **필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.
-
-  - **시작 날짜** 및 **끝 날짜**
-  - 사용 가능한 클릭 보호 작업과 모든 URL 클릭 (차단 된 클릭만이 아님)에 대 한 **정보를 볼 수 있는 값을** 함께 사용할 수 있습니다.
-
-  ![URL URL 위협 방지 보고서에서 보호 작업 보기를 클릭 합니다.](../../media/url-threat-protection-report-url-click-protection-action-view.png)
-
-- **Url 클릭 응용 프로그램**: OFFICE 365 ATP 안전한 링크를 지 원하는 응용 프로그램에서 클릭 한 url의 수를 표시 합니다.
-
-  - **전자 메일 클라이언트**
-  - **PowerPoint**
-  - **Word**
-  - **Excel**
-  - **OneNote**
-  - **Visio**
-  - **Teams**
-  - **기타**
-
-  **필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.
-
-  - **시작 날짜** 및 **끝 날짜**
-  - 사용 가능한 응용 프로그램입니다.
-
-### <a name="details-table-view-for-the-threat-protection-report"></a>위협 방지 보고서에 대 한 세부 정보 테이블 보기
-
-**세부 정보 테이블 보기**를 클릭 하면 보고서에서 다음 세부 정보를 사용 하 여 지난 7 일간 조직 내에서 발생 하는 모든 클릭에 대 한 거의 실시간 보기를 제공 합니다.
-
-- **클릭 시간**
-- **사용자**
-- **URL**
-- **작업**
-- **앱**
-
-세부 정보 테이블 보기에서 **필터** 를 클릭 하면 보고서 보기에서와 같은 조건과 쉼표로 구분 된 **도메인** 또는 **받는 사람** 을 기준으로 필터링 할 수 있습니다.
-
-보고서 보기로 돌아가려면 **보고서 보기**를 클릭 합니다.
+**URL 위협 방지 보고서** 는 OFFICE 365 ATP (Advanced threat protection)에서 사용할 수 있습니다. 자세한 내용은 [URL threat protection report](view-reports-for-atp.md#url-threat-protection-report)를 참조 하십시오.
 
 ## <a name="user-reported-messages-report"></a>사용자가 보고 한 메시지 보고서
 
@@ -511,3 +460,7 @@ ms.locfileid: "45102918"
 [EOP의 스팸 방지 및 맬웨어 방지 보호 기능](anti-spam-and-anti-malware-protection.md)
 
 [보안 및 준수 센터의 스마트 보고서 및 인사이트](reports-and-insights-in-security-and-compliance.md)
+
+[보안 & 준수 센터에서 메일 흐름 보고서 보기](view-mail-flow-reports.md)
+
+[Office 365 Advanced Threat Protection에 대 한 보고서 보기](view-reports-for-atp.md)

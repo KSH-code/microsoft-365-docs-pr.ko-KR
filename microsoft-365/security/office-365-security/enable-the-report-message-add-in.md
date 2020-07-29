@@ -16,12 +16,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: 개별 사용자 또는 전체 조직에 대해 Outlook 및 웹용 outlook 용 보고서 메시지 추가 기능을 사용 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 0b900fe00dc590b69755b54f8103688042026df0
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 2b074d1bd260f5c95d138577e259aee14ec9e8d7
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588231"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430510"
 ---
 # <a name="enable-the-report-message-add-in"></a>보고서 메시지 추가 기능을 사용하도록 설정
 
@@ -40,7 +40,7 @@ Outlook 및 웹용 Outlook에 대 한 보고서 메시지 추가 기능 (이전�
 
 전역 관리자 또는 Exchange Online 관리자이 고 Exchange가 OAuth 인증을 사용 하도록 구성 된 경우 [조직에 대 한 보고서 메시지 추가 기능을 사용 하도록 설정할](#get-and-enable-the-report-message-add-in-for-your-organization)수 있습니다. 이제 [중앙 집중식 배포](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins)를 통해 보고서 메시지 추가 기능을 사용할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - 보고서 메시지 추가 기능 이란 대부분의 Microsoft 365 구독과 다음 제품에서 작동 합니다.
 
@@ -49,10 +49,7 @@ Outlook 및 웹용 Outlook에 대 한 보고서 메시지 추가 기능 (이전�
   - Mac용 Outlook 2016
   - Microsoft 365 for Enterprise 앱에 포함 된 Outlook
 
-- 보고서 메시지 추가 기능은 현재 사용할 수 없습니다.
-
-  - 온-프레미스 Exchange 조직의 사서함
-  - GCC, GCC HIGH 또는 DoD 구독
+- 온-프레미스 Exchange 조직의 사서함에 대해서는 보고서 메시지 추가 기능을 사용할 수 없습니다.
 
 - 보고 된 메시지가 사용자가 지정한 사서함으로 복사 되거나 리디렉션되도록 구성할 수 있습니다. 자세한 내용은 [Exchange Online의 스팸 및 피싱 메시지에 대 한 사용자 제출을 위한 사서함 지정](user-submission.md)을 참조 하세요.
 

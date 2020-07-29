@@ -19,12 +19,12 @@ description: Advanced eDiscovery에서 오류 수정을 위해 비 Office 365 �
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: 0185c179039b7aec72bc400709225ef42489f620
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: caec3011c89e027f1b78991a3dad842ff4b8c8aa
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819148"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434281"
 ---
 # <a name="troubleshoot-azcopy-in-advanced-ediscovery"></a>Advanced eDiscovery에서 AzCopy 문제 해결
 
@@ -42,7 +42,7 @@ ms.locfileid: "44819148"
 
 AzCopy가 설치 되어 있지 않거나 기본 설치 위치 (is) 이외의 위치에 설치 되어 있는 경우 `%ProgramFiles(x86)%` AzCopy 명령을 실행 하면 다음 오류 메시지가 표시 될 수 있습니다.
 
-    The system cannot find the path specified.
+> 시스템이 지정한 경로를 찾을 수 없습니다.
 
 AzCopy가 로컬 컴퓨터에 설치 되어 있지 않은 경우 [Windows의 AzCopy v 8.1을 사용 하 여 전송 데이터](https://docs.microsoft.com/previous-versions/azure/storage/storage-use-azcopy)에서 설치 정보를 확인할 수 있습니다. 기본 위치에 설치 해야 합니다.
 

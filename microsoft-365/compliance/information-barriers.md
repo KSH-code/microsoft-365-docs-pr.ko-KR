@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: 정보 장애물을 사용 하 여 조직 내에서 Microsoft 팀을 사용 하 여 통신을 준수 하는지 확인 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 41b9eb1378a585a22bbd747edb395b79cfe761ca
-ms.sourcegitcommit: c51dd4c659f763ae46c188d3fae90aab8d1d7e88
+ms.openlocfilehash: f723885a366e6f92f29faccfb632677c6e0028c8
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45084147"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430226"
 ---
 # <a name="information-barriers"></a>정보 장벽
 
@@ -64,10 +64,11 @@ Microsoft 클라우드 서비스에는 강력한 통신 및 공동 작업 기능
 
 정보 장애물은 지금 롤아웃 되며 다음과 같은 구독에 포함 됩니다.
 
-- Microsoft 365 E5
-- Office 365 E5
+- Microsoft 365 E5/A5
+- Office 365 E5/A5
 - Office 365 Advanced Compliance
-- Microsoft 365 준수 E5
+- Microsoft 365 준수 E5/A5
+- Microsoft 365 참가자 위험 관리
 
 자세한 내용은 [준수 솔루션](https://products.office.com/business/security-and-compliance/compliance-solutions)을 참조 하십시오.
 

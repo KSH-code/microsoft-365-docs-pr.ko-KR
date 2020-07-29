@@ -1,5 +1,5 @@
 ---
-title: Microsoft Managed Desktop에 대 한 네트워크 구성
+title: Microsoft Managed Desktop의 네트워크 구성
 description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
@@ -9,14 +9,14 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: a1cf21fdd53ca90218370fb9c87547c64e867cd8
-ms.sourcegitcommit: bad47f9c69025d76d1e161519640cf7e238bd3b2
+ms.openlocfilehash: 61ee024cc483f9be172063a256cedd3827d6807a
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44735517"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430498"
 ---
-#  <a name="network-configuration-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 네트워크 구성
+#  <a name="network-configuration-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 네트워크 구성
 
 <!--Proxy config -->
 
@@ -33,32 +33,33 @@ Microsoft Managed Desktop은 클라우드 관리 서비스입니다. Microsoft M
 
 프록시 또는 방화벽은 TLS 1.2를 지원 해야 합니다. 그렇지 않으면 프로토콜 검색을 사용 하지 않도록 설정할 수 있습니다.
 
-### <a name="endpoints-allowed---specific-for-microsoft-managed-desktop"></a>허용 되는 Microsoft Managed Desktop에 관련 된 끝점
+### <a name="endpoints-allowed-that-are-necessary-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 필요한 끝점
 
-Microsoft Managed Desktop은 Azure Portal을 사용 하 여 웹 콘솔을 호스팅합니다. Microsoft 관리 되는 데스크톱 장치가 Microsoft 서비스와 통신할 수 있도록 아래 표에 나와 있는 다음 Url을 프록시 및 방화벽의 허용 목록에 두어야 합니다.  
+Microsoft Managed Desktop은 Azure Portal을 사용 하 여 웹 콘솔을 호스팅합니다. Microsoft 관리 되는 데스크톱 장치가 Microsoft 서비스와 통신할 수 있도록 다음 Url은 허용 되는 프록시 및 방화벽 목록에 있어야 합니다.  
 
-아래의 Microsoft Managed Desktop URL은 고객 API에서 서비스가 실행 되는 모든 용도로 사용 됩니다. 회사 네트워크에서이 URL에 항상 액세스할 수 있는지 확인 해야 합니다.
+Microsoft Managed Desktop URL은 고객 API에서 서비스가 실행 되는 모든 용도로 사용 됩니다. 회사 네트워크에서이 URL에 항상 액세스할 수 있는지 확인 해야 합니다.
 
 Microsoft 서비스  | 허용 목록에 필요한 Url 
---- | --- | ---
+--- | ---
 Microsoft Managed Desktop | prod-mwaas-services-customerapi.azurewebsites.net
 도움말 보기 | \*. support.services.microsoft.com  <br>inprod.support.services.microsoft.com  <br>supportchannels.services.microsoft.com  <br>graph.windows.net  <br>login.windows.net  <br>prod-mwaas-services-customerapi.azurewebsites.net
 빠른 지원 | remoteassistance.support.services.microsoft.com <br>relay.support.services.microsoft.com <br>channelwebsdks.azureedge.net  <br>web.vortex.data.microsoft.com  <br>gateway.channelservices.microsoft.com <br>\*. lync.com
 Microsoft 지원 및 복구 도우미 | \*. apibasic.diagnostics.office.com  <br>\*. api.diagnostics.office.com
  
 
-### <a name="endpoints-allowed---other-microsoft-products"></a>끝점 허용-기타 Microsoft 제품
+### <a name="endpoints-allowed-used-by-other-microsoft-products"></a>다른 Microsoft 제품에서 사용 되는 끝점
 
 Microsoft 관리 되는 데스크톱 장치가 해당 Microsoft 서비스와 통신할 수 있도록 몇 가지 Microsoft 제품의 Url이 허용 목록에 있어야 합니다. 각 제품에 대 한 전체 목록을 보려면 링크를 사용 합니다. 
 
-Microsoft 서비스 | 설명서 원본-허용 목록에 필요한 Url
+Microsoft 서비스 | 설명서
 --- | ---
-비즈니스용 Windows 업데이트를 포함 하는 windows 10 Enterprise | [Windows 10의 연결 끝점 관리, 버전 1803](https://docs.microsoft.com/windows/privacy/manage-windows-1803-endpoints)<br><br>[Windows 10의 연결 끝점 관리, 버전 1809](https://docs.microsoft.com/windows/privacy/manage-windows-1809-endpoints)<br><br>[Windows 10의 연결 끝점 관리, 버전 1903](https://docs.microsoft.com/windows/privacy/manage-windows-1903-endpoints)<br><br>[Windows 10의 연결 끝점 관리, 버전 2004](https://docs.microsoft.com/windows/privacy/manage-windows-2004-endpoints)<br><br>time.windows.com
+비즈니스용 Windows 업데이트를 포함 하는 windows 10 Enterprise | [Windows 10의 연결 끝점 관리, 버전 1803](https://docs.microsoft.com/windows/privacy/manage-windows-1803-endpoints)<br><br>[Windows 10의 연결 끝점 관리, 버전 1809](https://docs.microsoft.com/windows/privacy/manage-windows-1809-endpoints)<br><br>[Windows 10의 연결 끝점 관리, 버전 1903](https://docs.microsoft.com/windows/privacy/manage-windows-1903-endpoints)<br><br>[Windows 10의 연결 끝점 관리, 버전 2004](https://docs.microsoft.com/windows/privacy/manage-windows-2004-endpoints)
 배달 최적화 | [Windows 10 업데이트에 대 한 배달 최적화 구성](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization)
 Microsoft 365 | [Microsoft 365 URL 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
-Azure Active Directory | [하이브리드 id 필수 포트 및 프로토콜](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) , [Active Directory 및 Active Directory 도메인 서비스 포트 요구 사항](https://aka.ms/AA26ygm) 
+Azure Active Directory Domain Services | [하이브리드 id 필수 포트 및 프로토콜](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) , [Active Directory 및 Active Directory 도메인 서비스 포트 요구 사항](https://aka.ms/AA26ygm) 
 Microsoft Intune | [Intune 네트워크 구성 요구 사항](https://docs.microsoft.com/intune/network-bandwidth-use)<br>[Microsoft Intune의 네트워크 끝점](https://docs.microsoft.com/mem/intune/fundamentals/intune-endpoints)
 Microsoft Defender ATP (Advanced Threat Protection) | [Microsoft Defender ATP 끝점](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)
+Windows Autopilot | [Windows Autopilot 네트워킹 요구 사항](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot-requirements#networking-requirements)
 
 <!---
 Microsoft service  | URLs required on allow list | Documentation source

@@ -1,5 +1,5 @@
 ---
-title: 미리 설정 된 보안 정책
+title: 보안 정책 미리조정
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: 관리자는 EOP (Exchange Online Protection) 및 Office 365 Advanced Threat Protection (ATP)의 보호 기능을 통해 표준 및 엄격한 정책 설정을 적용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 34445c617d2dda59a65b197db2f42324d0085ab3
-ms.sourcegitcommit: 688d62a8c52e4fb0feb721bb92b535effc278f54
+ms.openlocfilehash: dd730639aa15709bafd600d4cc2706befb143cd4
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45389879"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430402"
 ---
 # <a name="preset-security-policies-in-eop-and-office-365-atp"></a>EOP 및 Office 365 ATP의 미리 설정 된 보안 정책
 
@@ -88,9 +88,10 @@ ATP 보호와는 다른 사용자에 게 EOP 보호를 적용할 수 있습니�
 
 1. **엄격한 보호** 사전 설정 보안 정책
 2. **표준 보호** 사전 설정 보안 정책
-3. 기타 모든 관련 정책
+3. 사용자 지정 보안 정책
+4. 기본 보안 정책
 
-즉, **엄격한 보호** 정책 설정은 다른 관련 정책의 설정을 재정의 하는 **표준 보호** 정책의 설정을 재정의 합니다.
+즉, **엄격한 보호** 정책 설정은 기본 정책의 설정을 재정의 하는 사용자 지정 정책의 설정을 재정의 하는 **표준 보호** 정책의 설정을 재정의 합니다.
 
 ## <a name="assign-preset-security-policies-to-users"></a>사용자에 게 미리 설정 된 보안 정책 할당
 

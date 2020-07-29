@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft 365 Compliance
-ms.openlocfilehash: 5ba6f86ca44fbddf5fb603c5312c9fedebfad225
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 009ea920854cfb88082d1c59ba78ac3531d253cf
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127315"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46502929"
 ---
 # <a name="supervision-policies"></a>감독 정책
 
@@ -286,14 +286,6 @@ Office 365의 감독 정보에 대 한 자세한 내용은 [Microsoft 365 로드
 ## <a name="audit"></a>감사
 
 경우에 따라 규정 또는 준수 감사자에 정보를 제공 하 여 직원 활동 및 통신에 대 한 감독을 증명 해야 합니다. 이 정보는 정의 된 정책과 관련 된 모든 관리 활동 또는 감독 정책이 언제 든 지 변경 될 수 있습니다. 감독 정책에는 내부 또는 외부 감사에 대 한 전체 준비 상태에 대 한 감사 기록이 기본 제공 됩니다. 감독 정책에 의해 모니터링 되는 모든 작업의 자세한 감사 기록이 관리 절차를 제공 합니다.
-
-다음 감독 정책 활동은 감사 되어 통합 된 감사 로그에서 사용 가능 합니다.
-
-|**작업**|**연결 된 명령**|
-|:-----|:-----|
-| **정책 만들기** | [Remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/new-supervisoryreviewpolicyv2) <br> [Set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/new-supervisoryreviewrule) |
-| **정책 편집** | [Remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/set-supervisoryreviewpolicyv2) <br> [Set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/set-supervisoryreviewrule) |
-| **정책 삭제** | [Remove-supervisoryreviewpolicyv2을 제거 합니다.](https://docs.microsoft.com/powershell/module/exchange/remove-supervisoryreviewpolicyv2) |
 
 통합 감사 로그 또는 [Search-unifiedauditlog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) PowerShell cmdlet을 사용 하 여 감사 작업을 확인 합니다.
 

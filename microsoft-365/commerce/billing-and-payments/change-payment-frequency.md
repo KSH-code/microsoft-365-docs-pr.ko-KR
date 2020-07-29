@@ -1,5 +1,5 @@
 ---
-title: 결제 빈도 변경
+title: 대금 청구 주기 변경
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,14 +21,14 @@ ms.custom:
 search.appverid:
 - MET150
 description: 비즈니스 구독에 대해 대금을 청구할 빈도를 변경 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 321bf660caf53a39a85ad45b20bd7ed2267c8748
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 439e5b9c7e3c628b2b0834b624696e6c2ae19bb6
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402657"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430005"
 ---
-# <a name="change-your-payment-frequency"></a>결제 빈도 변경
+# <a name="change-your-billing-frequency"></a>대금 청구 주기 변경
 
 ::: moniker range="o365-21vianet"
 
@@ -37,7 +37,7 @@ ms.locfileid: "44402657"
 
 ::: moniker-end
 
-구독을 구입할 때 월별 또는 연간 대금 청구를 선택 합니다. 구독에 대 한 요금 청구 빈도를 변경 하려면 다음 단계를 사용 합니다.
+구독을 구입할 때 월별 또는 연간 대금 청구를 선택 합니다. 구독에 대해 청구 되는 빈도를 변경 하려면 다음 단계를 사용 합니다.
 
 1. 관리 센터에서 **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 청구 페이지로 이동 합니다.
 

@@ -9,16 +9,16 @@ ms.topic: article
 audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: b6310849f27200adbbcbcb1584903011fbdf6145
-ms.sourcegitcommit: 9af890ef1b1c95bfc7cc52f7f4e395b62dc5263f
+ms.openlocfilehash: 17696b18b4109b568bb1d616813ba40e2a9dccdc
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45146274"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430474"
 ---
 # <a name="access-the-admin-portal"></a>관리 포털 액세스
 
-Microsoft Managed Desktop service에 대 한 게이트웨이는 Microsoft [Azure portal](https://portal.azure.com)입니다. Azure portal 환경을 사용 하 고 사용자 지정 하는 방법에 대 한 자세한 내용은 [azure portal 설명서](https://docs.microsoft.com/azure/azure-portal/)를 참조 하세요. 
+Microsoft Managed Desktop service에 대 한 게이트웨이는 Microsoft [Azure portal](https://portal.azure.com)입니다. Azure portal 환경을 사용 하 고 사용자 지정 하는 방법에 대 한 자세한 내용은 [azure portal 설명서](https://docs.microsoft.com/azure/azure-portal/)를 참조 하세요. 지금 미리 보기에서 사용할 수 있음 [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)에서 Microsoft Managed Desktop도 찾을 수 있습니다. 장치 관리에 대 한이 포털의 기능에 익숙하지 않은 경우 [Microsoft Endpoint Manager 설명서](https://docs.microsoft.com/mem/)를 참조 하세요.
 
 관리 계정에는 Microsoft Managed Desktop Admin 포털에 액세스 하기 위한 특정 권한이 필요 합니다. RBAC (역할 기반 액세스 제어)를 사용 하 여 조직 내에서 이러한 기능에 대 한 관리자 액세스를 관리할 수 있습니다. Azure Active Directory 역할에 대 한 자세한 내용은 [Azure Active directory에서 관리자 역할 권한을](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)참조 하세요.
 

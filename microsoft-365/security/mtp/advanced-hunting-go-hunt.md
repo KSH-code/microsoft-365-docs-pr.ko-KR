@@ -17,19 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 89d592368d49d767d76865d299ab74a41a052b2f
-ms.sourcegitcommit: efd4dd29af0ea2b71b674534de3b2dcbfd7482db
+ms.openlocfilehash: b9afecb3d0efce93ae5d5725bba71d8d9719d17f
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689429"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430414"
 ---
 # <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a>이동 헌트로 엔터티나 이벤트 정보를 빠르게 사냥
 
 **적용 대상:**
 - Microsoft 위협 방지
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 *이동 헌트* 작업을 사용 하면 강력한 쿼리 기반 [고급 구하기](advanced-hunting-overview.md) 기능을 사용 하 여 이벤트 및 다양 한 엔터티 유형을 빠르게 조사할 수 있습니다. 이 작업을 수행 하면 고급 검색 쿼리를 자동으로 실행 하 여 선택한 이벤트 또는 엔터티에 대 한 관련 정보를 찾습니다.
 

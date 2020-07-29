@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,20 +15,17 @@ ms.collection:
 - Adm_TOC
 - commerce
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
 description: '다른 지역의 Microsoft 365 비즈니스 에디션 구독에 대해 부과할 세금을 확인할 수 있습니다. '
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: 72939c40ad340e751be30aecc6e102570ea42eb0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: de5f05b50138606cd60e8c6ab1999a7ed2090dce
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401753"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434064"
 ---
 # <a name="tax-information"></a>세금 정보
 
@@ -122,7 +119,7 @@ Microsoft를 통해 구입한 Microsoft 365 관리 센터에 대한 세금은 �
 
 3. **& 작업 설정** 섹션에서 **서비스 사용 주소 편집**을 선택 합니다.
 
-4. **서비스 사용 주소 편집** 페이지의 **vat 번호** 상자에 vat ID를 입력 한 다음 **저장**을 선택 합니다.
+4. **서비스 사용 주소 편집** 페이지의 **vat 번호** 상자에 접두사를 포함 한 vat ID와 공백 없이 입력 합니다. **저장**을 선택합니다.
 
 ::: moniker-end
 
@@ -134,7 +131,7 @@ Microsoft를 통해 구입한 Microsoft 365 관리 센터에 대한 세금은 �
 
 2. 구독 이름을 선택 하 고 **기타 작업** 을 선택 하 여 \> **VAT 번호를 편집**합니다.
   
-3. **서비스 사용 주소 편집** 페이지의 **vat 번호** 상자에 vat ID를 입력 한 다음 **제출을**선택 합니다.
+3. **서비스 사용 주소 편집** 페이지의 **vat 번호** 상자에 접두사를 포함 한 vat ID와 공백 없이 입력 합니다. **저장**을 선택합니다.
 
 ::: moniker-end
 
@@ -162,7 +159,7 @@ Microsoft Corporation에서 대금 청구를 수행 하는 경우 ([청구서 �
 
 판매 세금이 단가를 기준으로 계산 된 다음 집계 됩니다.
 
-예를 들면 다음과 같습니다.
+예제:
 
 >*(단가 X 세금 비율) X 수량 = 총 판매액 세금*
 
@@ -184,8 +181,7 @@ Microsoft Corporation에서 대금 청구를 수행 하는 경우 ([청구서 �
 | 세금 면제를 포함 하는 국제 조직 | 로컬 세금 기관의 인증/편지 확인 |
 | 푸에르토리코 | Ras Exentas Certificado |
   
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
   
-[청구서 또는 송장 보기](view-your-bill-or-invoice.md)
-  
-[청구서 또는 송장 이해하기](understand-your-invoice.md)
+[청구서 또는 송장 보기](view-your-bill-or-invoice.md) (문서) \
+[청구서 또는 송장 이해](understand-your-invoice.md) (문서)

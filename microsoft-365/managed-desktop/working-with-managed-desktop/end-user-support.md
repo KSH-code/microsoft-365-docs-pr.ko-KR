@@ -6,14 +6,14 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 3e74f644457057eafe61235c874ca6290bfae6a3
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 6c23d2ffa70cf4931823fafa1918e7fd5eefa0b8
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327895"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430438"
 ---
-# <a name="getting-help-for-end-users"></a>최종 사용자를 위한 도움말 보기
+# <a name="getting-help-for-end-users"></a>최종 사용자를 위한 도움말
 
 조직의 사용자는 Microsoft 관리 되는 데스크톱 장치에 대 한 도움을 받을 수 있는 두 가지 방법이 있습니다 (도움말 앱 또는 전화 지원 **받기** ). 이러한 지원 옵션은 하루 24 시간 내내 사용자에 게 제공 됩니다.
  
@@ -37,7 +37,7 @@ ms.locfileid: "44327895"
 - Microsoft managed desktop [장치 설정](../get-started/set-up-devices.md)의 방법 중 하나를 사용 하 여 장치를 Microsoft managed desktop에 등록 해야 합니다 (예: [새 장치를 직접 등록](../get-started/register-devices-self.md)).
 - 장치에 대 한 표시 언어는 en-us, en-us, en-us, en-us, ko 또는 en ca 중 하나로 설정 해야 합니다.
 - Get Help app이 최신 상태 여야 합니다. 이를 확인 하려면 Microsoft Store에서 앱 업데이트를 확인 하세요.
-- 장치에서 특정 [끝점](../get-ready/network.md#endpoints-allowed---specific-for-microsoft-managed-desktop) 에 액세스할 수 있어야 합니다.
+- 장치에서 특정 [끝점](../get-ready/network.md#endpoints-allowed-that-are-necessary-for-microsoft-managed-desktop) 에 액세스할 수 있어야 합니다.
 
 > [!NOTE]
 > Get Help app는 장치가 완전 한 기능으로 배포 된 후 최대 1 시간까지 소요 될 수 있습니다.

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 문서 또는 전자 메일에 레이블을 자동으로 할당하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 92811aff70e48992088abf221536684dcff794b8
-ms.sourcegitcommit: e6bf1af2d5cf54c3fcc3fa916abe268fc96bdd4e
+ms.openlocfilehash: 4bebf282f9bdd8f6b785c17c944b145814c80572
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45189513"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46503029"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>민감도 레이블을 콘텐츠에 자동으로 적용
 
@@ -74,7 +74,7 @@ ms.locfileid: "45189513"
 다음 표를 사용하면 두 가지 보완적인 자동 레이블 지정 방법의 동작이 어떻게 차이나는지 알아볼 수 있습니다.
 
 |기능 또는 동작|레이블 지정 설정: Office 앱에 대한 자동 레이블 지정 |정책: 자동 레이블 지정|
-|:-----|:-----|:-----|:-----|
+|:-----|:-----|:-----|
 |앱 종속성|[예](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps) |아니요 |
 |위치별 제한|아니오 |예 |
 |조건: 훈련 가능한 분류자|예 |아니요 |

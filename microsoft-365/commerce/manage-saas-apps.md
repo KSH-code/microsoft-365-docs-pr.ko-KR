@@ -14,14 +14,16 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Microsoft 365 관리 센터에서 타사 앱을 활성화 하 고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ed1a88345ae5cc135a43f4297ce518b444eaabe7
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: c8d2764dfa7795707712cbd9ce212f78c4d43d45
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402585"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429993"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>조직에 대 한 타사 앱 구독 관리
+
+새 Microsoft 365 관리 센터에서 타사 앱에 대 한 라이선스 및 대금 청구를 관리할 수 있습니다. 업데이트 된 기능으로는 향상 되는 구독 관리, 대금 청구 정보에 대 한 액세스 향상, 비용 관리 유연성 향상 등이 있습니다. 구독 관리는 Microsoft의 업데이트 된 상거래 플랫폼을 기반으로 합니다. 이는 고객이 직접 구입 하거나 타사 공급자가 제공 하는 소프트웨어 as-서비스 앱에 적용 됩니다.
 
 ::: moniker range="o365-21vianet"
 
@@ -31,6 +33,7 @@ ms.locfileid: "44402585"
 ::: moniker-end
 
 미리 보기 모드를 설정한 상태에서 Microsoft 365 관리 센터의 타사 앱에 대 한 라이선스 및 대금 청구를 관리할 수 있습니다. 업데이트 된 기능으로는 향상 되는 구독 관리, 대금 청구 정보에 대 한 액세스 향상, 비용 관리 유연성 향상 등이 있습니다. 구독 관리는 Microsoft의 업데이트 된 상거래 플랫폼을 기반으로 합니다. 이는 고객이 직접 구입 하거나 타사 공급자 로부터 제공 하는 서비스와 동일한 소프트웨어에 적용 됩니다.
+
 
 ## <a name="how-to-get-software-as-a-service-apps"></a>서비스를 제공 하는 소프트웨어 앱을 가져오는 방법
 

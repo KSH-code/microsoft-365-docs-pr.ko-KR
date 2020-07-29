@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection) 및 ATP (Advanced Threat Protection) 보안 설정에 대 한 모범 사례 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 ATP (Advanced Threat Protection)를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: 542dce4d2abe9a40fcc5eef57502be5c37a34d57
-ms.sourcegitcommit: 688d62a8c52e4fb0feb721bb92b535effc278f54
+ms.openlocfilehash: f34c4e0aad2413fdeb082c37f980e6e4548db6b3
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45389848"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430378"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>EOP 및 Office 365 ATP 보안에 대 한 권장 설정
 
@@ -194,7 +194,8 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 |보안 기능 이름|표준을|항등|댓글|
 |---|---|---|---|
-|**에서 안전한 링크 사용: Office 365 응용 프로그램** <br/><br/> _EnableSafeLinksForO365Clients_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|Office 365 Apps, iOS 및 Android의 ATP 안전한 링크를 사용 합니다.|
+|**에서 안전한 링크 사용: Office 365 응용 프로그램** <br/><br/> _EnableSafeLinksForO365Clients_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|Office 365 desktop 및 mobile (iOS 및 Android) 클라이언트에서 ATP 안전한 링크를 사용 합니다.|
+|**에서 안전한 링크 사용: Office Web Access 버전** <br/><br/> _EnableSafeLinksForWebAccessCompanion_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|Office Web Apps에서 ATP 안전한 링크를 사용 합니다.|
 |**사용자가 안전 링크를 클릭 하는 경우 추적 안 함** <br/><br/> _가을 클릭 하면_|해제 <br/><br/> `$true`|해제 <br/><br/> `$true`||
 |**사용자가 원본 URL에 대 한 안전한 링크를 클릭 하는 것을 허용 하지 않음** <br/><br/> _AllowClickThrough 광고_|켜짐 <br/><br/> `$false`|켜짐 <br/><br/> `$false`||
 |

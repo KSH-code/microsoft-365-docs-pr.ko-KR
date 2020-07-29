@@ -1,5 +1,5 @@
 ---
-title: 보안 & 준수 센터에서 메일 흐름 보고서 보기
+title: 보안 및 준수 센터에서 메일 흐름 보고서 보기
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 description: 조직에 대 한 메일 흐름 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 메일 흐름 보고서는 보안 & 준수 센터에서 사용할 수 있습니다.
 ms.custom: ''
-ms.openlocfilehash: 70c96bb4f43edb80f98fdc98aa173fed9e54e7d7
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: e891d9373b169dc01cfd89f114e31b23e1bd8480
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44937260"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434182"
 ---
-# <a name="view-mail-flow-reports-in-the-security--compliance-center"></a>보안 & 준수 센터에서 메일 흐름 보고서 보기
+# <a name="view-mail-flow-reports-in-the-security--compliance-center"></a>보안 및 준수 센터에서 메일 흐름 보고서 보기
 
 보안 & 준수 센터에서 사용할 수 있는 [메일 흐름 정보](mail-flow-insights-v2.md) 이외에, Microsoft 365 조직을 모니터링 하는 데 도움이 되는 다양 한 메일 흐름 보고서도 사용할 수 있습니다. [필요한 권한이](#what-permissions-are-needed-to-view-these-reports)있는 경우 <https://office.protection.com> **보고서** 대시보드로 이동 하 여 보안 & 준수 센터에서 이러한 보고서를 볼 수 있습니다 \> **Dashboard**. 보고서 대시보드로 직접 이동 하려면를 엽니다 <https://office.protection.office.com/insightdashboard> .
 
@@ -237,7 +237,7 @@ ms.locfileid: "44937260"
 데이터 테이블에는 다음과 같은 정보가 포함 됩니다.
 
 - **방향**
-- **유형**
+- **Type(종류)**
 - **24시간**
 - **3 일**
 - **7일**
@@ -310,7 +310,7 @@ ms.locfileid: "44937260"
 
   ![보내고 받은 전자 메일 보고서의 방향 보기](../../media/sent-and-received-email-report-direction-view.png)
 
-- **드릴 다운 기준** \> **맬웨어 (맬웨어 방지)**:이 옵션을 선택 하면 [전자 메일 보고서의 맬웨어 감지](view-email-security-reports.md#malware-detection-in-email-report)로 이동 됩니다.
+- **드릴 다운 기준** \> **맬웨어 (맬웨어 방지)**:이 옵션을 선택 하면 [전자 메일 보고서에서 맬웨어가 탐지](view-email-security-reports.md#malware-detections-in-email-report)됩니다.
 
 - **드릴 다운 기준** \> **스팸 검색)**:이 옵션을 선택 하면 [스팸 감지 보고서](view-email-security-reports.md#spam-detections-report)가 사용 됩니다.
 
@@ -327,7 +327,7 @@ ms.locfileid: "44937260"
 **아래로 나누기: 방향** 보기 또는 **아래로 나누기 기준: 방향** 보기로 **자세히 표 보기** 를 클릭 하면 다음과 같은 정보가 표시 됩니다.
 
 - **날짜 (UTC)**
-- **유형**
+- **Type(종류)**
 - **방향**
 - **메시지 수**
 

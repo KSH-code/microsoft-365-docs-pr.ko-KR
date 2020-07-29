@@ -1,5 +1,5 @@
 ---
-title: 앱 컨트롤 시작
+title: 앱 제어 시작하기
 description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
@@ -10,14 +10,14 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 12df7b074019ea47f2e293b71c6b0b25fe46f66f
-ms.sourcegitcommit: 63887d742c59cc660fc85537b335e98a9dc66fbe
+ms.openlocfilehash: 431e6cb3b8d7ab7e1dd317918fab4821889c7d4e
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170712"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430462"
 ---
-# <a name="get-started-with-app-control"></a>앱 컨트롤 시작
+# <a name="get-started-with-app-control"></a>앱 제어 시작하기
 
 사용자 환경에서 앱 컨트롤을 사용 하도록 설정 하기 전에 [Microsoft Managed Desktop이이를 구현 하는 방법](../service-description/app-control.md) 및 사용자의 역할과 책임을 검토 하 고 이해 해야 합니다.
 
@@ -26,6 +26,19 @@ Microsoft Managed Desktop은 보안 기본 정책 가져오기에 대 한 보다
 ## <a name="initial-deployment-of-apps"></a>초기 앱 배포
 
 앱을 처음 배포할 때 Microsoft Managed Desktop은 현재 동작을 평가 해야 합니다. 앱 컨트롤을 사용 하도록 설정 하는 정확한 단계는 장치를 환경에 이미 배포 했는지 여부에 따라 달라 집니다.
+
+### <a name="devices-not-yet-in-use"></a>아직 사용 되지 않은 장치
+
+아직 사용 중인 장치가 없는 경우 앱 제어권을 켜시겠습니까 Microsoft Managed Desktop 작업을 사용 하 여 서비스 티켓을 엽니다. 작업에서는 다음 일정에 따라 배포 그룹에 정책을 점진적으로 배포 합니다.
+
+|배포 그룹  |정책 유형  |출시 시기  |
+|---------|---------|---------|
+|테스트     |  감사       |  일 0       |
+|가장     | Enforced        | 1일        |
+|신속한     | Enforced        |  2일       |
+|폭     | Enforced        |  3일       |
+
+롤아웃 중에 언제 든 지이 배포의 일부를 일시 중지 하거나 롤백하는 다른 서비스 요청을 열 수 있습니다.
 
 ### <a name="devices-already-in-use"></a>장치가 이미 사용 중입니다.
 
@@ -39,21 +52,10 @@ Microsoft Managed Desktop은 보안 기본 정책 가져오기에 대 한 보다
 |---------|---------|---------|
 |테스트     |  감사       |  일 0       |
 |가장     | Enforced        | 1일        |
-|신속한     | Enforced        |  3일       |
-|폭     | Enforced        |  7일       |
+|신속한     | Enforced        |  일시 중지 됨, 요청 시 롤아웃       |
+|폭     | Enforced        |  일시 중지 됨, 요청 시 롤아웃       |
 
 롤아웃 중에 언제 든 지이 배포의 일부를 일시 중지 하거나 롤백하는 다른 서비스 요청을 열 수 있습니다.
 
-### <a name="devices-not-yet-in-use"></a>아직 사용 되지 않은 장치
 
-아직 사용 중인 장치가 없는 경우 앱 제어권을 켜시겠습니까 Microsoft Managed Desktop 작업을 사용 하 여 서비스 티켓을 엽니다. 작업에서는 다음 일정에 따라 배포 그룹에 정책을 점진적으로 배포 합니다.
-
-|배포 그룹  |정책 유형  |출시 시기  |
-|---------|---------|---------|
-|테스트     |  감사       |  일 0       |
-|가장     | Enforced        | 1일        |
-|신속한     | Enforced        |  3일       |
-|폭     | Enforced        |  7일       |
-
-롤아웃 중에 언제 든 지이 배포의 일부를 일시 중지 하거나 롤백하는 다른 서비스 요청을 열 수 있습니다.
 

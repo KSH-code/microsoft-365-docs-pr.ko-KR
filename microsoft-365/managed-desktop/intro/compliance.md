@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 31844ee413f89992babd2b1917fcb89d20db6804
-ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
+ms.openlocfilehash: e2a60bba348e4f19eaa56805b509e4472c9fd215
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44322020"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434292"
 ---
 # <a name="compliance"></a>규정 준수
 
@@ -38,7 +38,7 @@ Microsoft Managed Desktop은 다음과 같은 인증을 얻은 것입니다.
 제어 및 기술 요구 사항을 비롯 한 적절 한 정보 [(STP)](https://servicetrust.microsoft.com/)는 Microsoft 클라우드 서비스 제공에 대 한 이러한 정보를 확인할 수 있는 중앙 리포지토리입니다. STP의 [감사 보고서](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide) 섹션에서 감사자 보고서, 준수 인증서 등을 다운로드할 수 있습니다.
 
 > [!NOTE]
-> Microsoft Managed Desktop은 Azure에서 실행 되므로 일반적으로 관련 문서에는 파일 이름 (예: "Microsoft Azure, Dynamics 365 및 기타 온라인 서비스")이 있습니다. 이러한 문서에서는 일반적으로 "Monitoring + Management" 범주 아래에서 Microsoft Managed Desktop을 찾을 수 있습니다.
+> Microsoft Managed Desktop은 Azure에서 실행 되므로 일반적으로 관련 문서에는 파일 이름 (예: "Microsoft Azure, Dynamics 365 및 기타 온라인 서비스")이 있습니다. 이러한 문서에서는 일반적으로 "Microsoft Online Services" 또는 "Monitoring + Management" 범주에서 Microsoft Managed Desktop을 찾을 수 있습니다.
 
 ## <a name="shared-responsibility"></a>공유 책임
 
