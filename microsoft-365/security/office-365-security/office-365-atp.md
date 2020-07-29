@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 Advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
-ms.openlocfilehash: ffde9288338f14ea23fa39990ccd9363c7fd2a84
-ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
+ms.openlocfilehash: d8a8ab2f5c7de5d57f50ec6b1c26e0fc71ac6616
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45039381"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434052"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -87,9 +87,9 @@ Office 365 ATP에는 ATP 성능을 모니터링하는 고급 [보고 대시보�
 
 - [위협 방지 상태 보고서](view-reports-for-atp.md#threat-protection-status-report)
 
-- [ATP 파일 형식 보고서](view-reports-for-atp.md#atp-file-types-report)
+- [Advanced Threat Protection 유형 보고서](view-reports-for-atp.md#advanced-threat-protection-file-types-report)
 
-- [ATP 메시지 폐기 보고서](view-reports-for-atp.md#atp-message-disposition-report)
+- [Advanced Threat Protection 메시지 폐기 보고서](view-reports-for-atp.md#advanced-threat-protection-message-disposition-report)
 
 - ... 그리고 그 외에 몇 가지가 더 있습니다.
 

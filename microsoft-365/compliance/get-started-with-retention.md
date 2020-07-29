@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 관리하도록 보존 정책 및 보존 레이블 구현을 시작할 준비가 되었지만, 어디서부터 시작해야 할지 모르겠나요? 시작을 도와주는 실질적인 지침을 읽어 보세요.
-ms.openlocfilehash: 415313ac31fe4ad56f9a476576f14b90d7dd97f4
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 4bf8499cc8f29438da407c6dfcdaa53533fea467
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127581"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430236"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블 시작하기
 
@@ -60,16 +60,17 @@ ms.locfileid: "45127581"
 
 |필요|설명서|
 |----------------|---------------|
-|조직 또는 위치별로 효율적으로 보관 및 삭제 작업 설정: <br />-  Exchange  <br />- SharePoint  <br />- OneDrive  <br />- Microsoft 365 그룹 <br />- 비즈니스용 Skype  <br />- Teams  |[보존 정책 만들기 및 구성하기](create-retention-policies.md)|
+|조직 또는 Microsoft 365 서비스별로 효율적으로 보관 및 삭제 작업 설정 <br />-  Exchange  <br />- SharePoint  <br />- OneDrive  <br />- Microsoft 365 그룹 <br />- 비즈니스용 Skype  <br />- Microsoft Teams  |[보존 정책 만들기 및 구성하기](create-retention-policies.md)|
 |관리자와 사용자가 문서 및 전자 메일에 대한 보존 및 삭제 동작 집합을 수동으로 적용하도록 허용: <br />-  SharePoint <br />- OneDrive <br />- Outlook 및 웹용 Outlook|[보존 레이블을 만들고 앱에 적용하기](create-apply-retention-labels.md)|
 |사이트 관리자가 SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 콘텐츠에 기본 보존 레이블을 설정하도록 허용|[보존 레이블을 만들고 앱에 적용하기](create-apply-retention-labels.md)|
 |사용자가 Outlook 규칙을 사용하여 자동으로 전자 메일에 보존 레이블을 적용할 수 있도록 허용|[보존 레이블을 만들고 앱에 적용하기](create-apply-retention-labels.md)|
 |문서 및 전자 메일에 대한 보존 및 삭제 동작 집합을 자동으로 적용 |[보존 레이블을 콘텐츠에 자동으로 적용하기](apply-retention-labels-automatically.md)|
 |다음과 같은 이벤트가 발생할 때 보존 기간 시작:  <br />- 직원 퇴사 <br />- 계약 만료 <br />- 제품 수명 주기 종료| [이벤트가 발생할 때 보존 시작하기](event-driven-retention.md)|
+|SharePoint에서 다른 문서 유형 수명 주기 관리| [보존 레이블을 사용하여 SharePoint 문서의 수명 주기 관리](auto-apply-retention-labels-scenario.md)|
 |문서 및 전자 메일에 단일 레코드 관리 솔루션 사용 |[Microsoft 365의 레코드 관리하기](records-management.md) |
 |SEC 규칙 17a-4 준수|[SEC Rule 17a-4를 준수하기 위해 Exchange Online과 보안 및 준수 센터 사용하기](use-exchange-online-to-comply-with-sec-rule-17a-4.md) |
 |보존 기간 종료 시 콘텐츠를 삭제하기 전에 누군가가 검토하고 승인하도록 하세요.|[처리 검토](disposition.md#disposition-reviews) |
-|보존 기간 종료 시 삭제되는 콘텐츠에 대한 처리 증명을 보유합니다.|[콘텐츠 처분](disposition.md#disposition-of-records) |
+|보존 기간 종료시 삭제되는 콘텐츠에 대한 처리 증명을 보유합니다.|[콘텐츠 처분](disposition.md#disposition-of-records) |
 
 ## <a name="end-user-documentation-for-retention-labels"></a>보존 레이블에 대한 최종 사용자 설명서
 

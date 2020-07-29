@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 환경에서 장치 및 앱 준비 상태를 평가하는 방법을 알아봅니다.
-ms.openlocfilehash: 8596d23356fd8eda733938ad3a6fc0fbe81fcce3
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 2389dcfe70108e261208191bd3674eced702b4c6
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011666"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434160"
 ---
 # <a name="step-1-device-and-app-readiness"></a>1단계: 장치 및 앱 준비
 
@@ -35,9 +35,8 @@ ms.locfileid: "44011666"
 </thead>
 </table>
 
->[!NOTE]
->장치 및 앱 준비는 응용 프로그램 및 하드웨어 호환성의 전체적인 측면을 점검하는 데 권장되는 배포 프로세스 사이클의 첫 번째 단계입니다. 전체 데스크톱 배포 프로세스를 보려면 [데스크톱 배포 센터](https://aka.ms/HowToShift)를 방문하세요.
->
+> [!NOTE]
+> 장치 및 앱 준비는 응용 프로그램 및 하드웨어 호환성의 전체적인 측면을 점검하는 데 권장되는 배포 프로세스 사이클의 첫 번째 단계입니다. 전체 데스크톱 배포 프로세스를 보려면 [데스크톱 배포 센터](https://aka.ms/HowToShift)를 방문하세요.
 
 과거에 사용자의 데스크톱을 업그레이드할 때 발생하는 주요 장애물은 응용 프로그램과 하드웨어 호환성입니다. Windows 10 및 엔터프라이즈용 Microsoft 365 앱으로의 전환을 계획할 경우 지난 10년 동안 작성한 응용 프로그램을 전환할 때만 이점이 있으며, 조직에서 Office 2010 이후의 Office 버전에서 사용한 COM 추가 기능 및 VBA 매크로는 수정 없이도 최신 버전의 Office에서 계속 작동됩니다.
 
@@ -47,11 +46,13 @@ ms.locfileid: "44011666"
 
 ## <a name="windows-10-compatibility-scan"></a>Windows 10 호환성 검사
 
-Windows 10을 배포하기 전에 Windows 7 또는 8 / 8.1을 실행하는 기존 장치의 준비 상태를 확인하는 것이 좋습니다. Windows 10 설치 미디어는 setup.exe에 대한 명령줄 스위치를 지원하여 업그레이드를 실행하지만 실제로 업그레이드를 수행하는 것이 아니라 호환성을 확인하기만 합니다. ScanOnly는 스크립팅 된 배치 파일로 실행되거나 Microsoft Endpoint Configuration Manager 작업 시퀀스에 통합될 수 있습니다. 또한 네트워크에서 직접 ScanOnly를 실행하여 Windows 10 설치 미디어가 로컬 장치로 스트리밍되지 않도록 할 수 있습니다. ScanOnly가 완료되면 Setup.EXE에 의해 생성된 로그 파일의 반환 코드를 통해 결과가 반환됩니다.   
+Windows 10을 배포하기 전에 Windows 7 또는 8 / 8.1을 실행하는 기존 장치의 준비 상태를 확인하는 것이 좋습니다. Windows 10 설치 미디어는 setup.exe에 대한 명령줄 스위치를 지원하여 업그레이드를 실행하지만 실제로 업그레이드를 수행하는 것이 아니라 호환성을 확인하기만 합니다. ScanOnly는 스크립팅 된 배치 파일로 실행되거나 Microsoft Endpoint Configuration Manager 작업 시퀀스에 통합될 수 있습니다. 또한 네트워크에서 직접 ScanOnly를 실행하여 Windows 10 설치 미디어가 로컬 장치로 스트리밍되지 않도록 할 수 있습니다. ScanOnly가 완료되면 Setup.EXE에 의해 생성된 로그 파일의 반환 코드를 통해 결과가 반환됩니다.
 
 호환성 검색을 자동으로 완료하는 샘플 ScanOnly 명령줄은 아래와 같습니다.
 
-    Setup.EXE /Auto Upgrade /Quiet /NoReboot /Compat ScanOnly
+```dos
+Setup.EXE /Auto Upgrade /Quiet /NoReboot /Compat ScanOnly
+```
 
 ScanOnly 및 기타 Windows 설치 명령 스위치에 대한 자세한 내용은 [Windows 설치 명령줄 옵션](https://aka.ms/setupswitches)을 참조합니다.
 
@@ -61,7 +62,7 @@ Desktop Analytics 기존 데스크톱 관리 시스템에 비해 많은 이점�
 
 Desktop Analytics를 설정하려면 먼저 Azure 구독을 설정하고 Azure Log Analytics 작업 공간을 포함시켜야 합니다. Desktop Analytics 서비스가 실행되면 그룹 정책 설정을 통해 인터넷에 연결된 Windows 7 SP1 또는 최신 장치를 손쉽게 등록할 수 있습니다. 배포 에이전트가 없이, Desktop Analytics의 시각적 워크플로는 파일럿 배포에서 프로덕션 배포로 안내합니다. 원하는 경우 Desktop Analytics에서 Microsoft Endpoint Configuration Manager(현재 분기)와 같은 소프트웨어 배포 도구로 데이터를 내보낼 수 있으므로 PC를 직접 대상으로하고 배포 준비가 된 컬렉션을 구축 할 수 있습니다.
 
-현재, 환경에 대해 Desktop Analytics를 설치하지 않았거나 평가판을 등록하려는 경우 Desktop Analytics 페이지](https://www.aka.ms/desktopanalytics)로 이동한 후 시작할 수 있습니다.
+현재, 환경에 대해 Desktop Analytics를 설치하지 않았거나 평가판을 등록하려는 경우 [Desktop Analytics 페이지](https://www.aka.ms/desktopanalytics)로 이동한 후 시작할 수 있습니다.
 
 ## <a name="device-and-app-readiness-process"></a>장치 및 앱 준비 프로세스
 
@@ -103,10 +104,9 @@ Desktop Analytics를 사용하여 브라우저 기반 호환성 문제를 평가
 
 ### <a name="configuration-manager-software-inventory-for-application-prioritization"></a>응용 프로그램 우선 순위 지정을 위한 Configuration Manager 소프트웨어 인벤토리
 
-Configuration Manager 소프트웨어 인벤토리는 장치 및 응용 프로그램 준비에 클라우드 기반 분석 솔루션 사용의 대안으로 사용할 수 있습니다. 설치 횟수 및 특정 컴퓨터를 조사하여 호환성 테스트 및 유효성 검사의 우선 순위를 지정하고 패키지 설정을 통해 Windows 10과 호환되는 응용 프로그램 패키지를 설정할 수 있습니다. 이 옵션은 Microsoft의 분석 서비스와 알려진 호환성 정보를 비교하는 기능을 제공하지는 않지만 우선 순위가 지정된 앱들을 더 작은 집합의 대상으로 하는 수동 테스트에 효과적인 솔루션이 될 수 있습니다. 
+Configuration Manager 소프트웨어 인벤토리는 장치 및 응용 프로그램 준비에 클라우드 기반 분석 솔루션 사용의 대안으로 사용할 수 있습니다. 설치 횟수 및 특정 컴퓨터를 조사하여 호환성 테스트 및 유효성 검사의 우선 순위를 지정하고 패키지 설정을 통해 Windows 10과 호환되는 응용 프로그램 패키지를 설정할 수 있습니다. 이 옵션은 Microsoft의 분석 서비스와 알려진 호환성 정보를 비교하는 기능을 제공하지는 않지만 우선 순위가 지정된 앱들을 더 작은 집합의 대상으로 하는 수동 테스트에 효과적인 솔루션이 될 수 있습니다.
 
 자세한 내용은 [Configuration Manager의 소프트웨어 인벤토리 소개](https://docs.microsoft.com/mem/configmgr/core/clients/manage/inventory/introduction-to-software-inventory) 및 [Configuration Manager의 패키지 및 프로그램](https://docs.microsoft.com/mem/configmgr/apps/deploy-use/packages-and-programs)에서 응용 프로그램 패키지의 플랫폼 요구 사항 설정을 참조하세요.
-
 
 ## <a name="app-assure"></a>App Assure
 
@@ -116,6 +116,6 @@ Windows 10 및 엔터프라이즈용 Microsoft 365 앱 호환성을 지원하는
 
 Desktop Analytics는 단지 Windows 10 및 엔터프라이즈용 Microsoft 365 앱으로의 전환을 도와주기 위한 도구가 아닙니다. Windows 10 및 Office 365에서 데스크톱을 실행하는 경우 이 도구를 사용하여 배포를 유지 관리하고 반기 기능 업데이트를 관리하여 최신 상태를 유지할 수 있습니다.
 
-## <a name="next-step"></a>다음 단계 
+## <a name="next-step"></a>다음 단계
 
 ## <a name="step-2-directory-and-network-readiness"></a>[2단계: 디렉터리 및 네트워크 준비](https://aka.ms/mdd2)

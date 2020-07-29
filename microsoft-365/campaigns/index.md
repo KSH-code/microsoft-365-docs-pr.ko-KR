@@ -5,9 +5,8 @@ f1.keywords:
 ms.author: samanro
 author: samanro
 manager: scotv
-layout: LandingPage
 ms.audience: Admin
-ms.topic: landing-page
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -24,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 캠페인을 위한 Microsoft 365
-ms.openlocfilehash: 167b265676d3c3bc9025a0c0e998379f72bb9e52
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+ms.openlocfilehash: d936b05c7668b2fcdeb976e547cde8694b304c27
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "43632038"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429981"
 ---
 <a name="microsoft-365-for-campaigns"></a>캠페인을 위한 Microsoft 365
 ===========================
@@ -57,125 +56,28 @@ ms.locfileid: "43632038"
 포함된 항목에 대한 자세한 내용은 [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business)을 참조하시기 바랍니다. 
 
 
-<a name="get-started"></a>시작
+<a name="get-started"></a>시작하기
 --------------------------
 
-<ul class="panelContent cardsJ">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-blue.svg" alt="Roadmap" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <p><b>시작하려면 다음 단계를 따릅니다.</b></p>
-                        <P><a href="get-microsoft-365-campaigns.md">Microsoft 365 캠페인을 가져오기</a></p>
-                        <P><a href="m365-campaigns-users.md">사용자가 Microsoft 365에서 작업하는 방법 배우기</a></p>
-                        <P><a href="microsoft-365-campaigns-setup-overview.md">Microsoft 365 캠페인을 설치</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
+![로드맵](https://docs.microsoft.com/office/media/icons/walkthrough-map-blue.png) **시작하려면 다음 단계를 따릅니다.**  
+
+- [Microsoft 365 캠페인을 가져오기](get-microsoft-365-campaigns.md)
+- [사용자가 Microsoft 365에서 작업하는 방법 배우기](m365-campaigns-users.md)
+- [Microsoft 365 캠페인을 설치](microsoft-365-campaigns-setup-overview.md)
+
+
 
 <a name="solutions-for-your-campaign-or-small-business"></a>캠페인 또는 소기업을 위한 솔루션
 --------------------------
 
 보안 Microsoft 365 환경을 설정한 후 다음 솔루션을 사용하여 작업할 수 있습니다.
 
-<ul class="panelContent cardsW cols cols2">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/sm-m365-democracy-teams-collab.png" alt="a SharePoint communications site" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>협업을 위한 팀 생성</h3>
-                        <p>주요 직원, 모든 직원, Microsoft 팀과의 파트너 또는 공급업체를 위해 특정 팀과 소통하고 협업할 수 있는 공간을 만듭니다.</p>
-                        <p><a href="create-teams-for-collaboration.md">팀 만들기</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/m365-democracy-teams-meetings.png" alt="an online meeting" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>온라인 모임를 설정합니다.</h3>
-                        <p>오디오, 비디오 및 Microsoft 팀과의 공유로 미팅 일정을 잡습니다.</p>
-                        <p><a href="set-up-meetings.md">모임을 설정합니다</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/sm-m365-campaign-email-encrypt.png" alt="Encrypted and labeled email" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>중요한 전자 메일을 암호화하거나 레이블을 지정합니다.</h3>
-                        <p>암호화 및 민감도 레이블을 사용하여 기밀 또는 중요한 정보가 포함된 전자 메일을 보호합니다.</p>
-                        <p><a href="send-encrypted-email.md">암호화된 전자 메일을 보냅니다</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/sm-m365-democracy-comms-site.png" alt="a SharePoint communications site" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>통신 사이트를 만듭니다.</h3>
-                        <p>SharePoint로 작성된 내부 통신 사이트에서 팀과 이벤트, 메시지, 이미지 등을 공유할 수 있습니다.</p>
-                        <p><a href="create-communications-site.md">사이트 만들기</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/m365-democracy-teams-sharefiles.png" alt="sharing a file in Microsoft Teams" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>파일 및 동영상 공유</h3>
-                        <p>파일 및 비디오를 클라우드에 저장하여 모든 담당자가 사용할 수 있도록 합니다.</p>
-                        <p><a href="share-files-and-videos.md">공유 시작</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
+|               |               |
+| ------------- | ------------- |
+| ![SharePoint 커뮤니케이션 사이트](../media/sm-m365-democracy-teams-collab.png) | ![온라인 모임](../media/m365-democracy-teams-meetings.png) |
+| **협업 팀 만들기**  주요 직원, 모든 직원, Microsoft Teams의 파트너 또는 공급 업체를 위해 특정 팀과 소통하고 협업할 수 있는 공간을 만듭니다. [팀 만들기](create-teams-for-collaboration.md) | **온라인 모임 설정**  오디오, 비디오 및 Microsoft Teams와의 공유로 미팅 일정을 잡습니다. [모임을 설정합니다](set-up-meetings.md) |
+| ![암호화 되고 레이블이 지정 된 전자 메일](../media/sm-m365-campaign-email-encrypt.png) | ![SharePoint 커뮤니케이션 사이트](../media/sm-m365-democracy-comms-site.png) |
+| **민감한 전자 메일 암호화 및 레이블 지정**  암호화 및 민감도 레이블을 사용하여 기밀 또는 중요한 정보가 포함된 전자 메일을 보호합니다. [암호화된 전자 메일을 보냅니다](send-encrypted-email.md) | **커뮤니케이션 사이트 만들기**  SharePoint로 만들어진 내부 통신 사이트에서 팀과 이벤트, 메시지, 이미지 등을 공유할 수 있습니다. [사이트 만들기](create-communications-site.md) |
+| ![Microsoft Teams에서 파일 공유](../media/m365-democracy-teams-sharefiles.png) | |
+| **파일 및 비디오 공유**파일 및 비디오를 클라우드에 저장하여 모든 담당자가 사용할 수 있도록 합니다. [공유 시작](share-files-and-videos.md) | |
+

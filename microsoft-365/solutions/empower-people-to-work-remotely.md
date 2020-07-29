@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 07/14/2020
+ms.date: 07/23/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: 직원들이 언제 어디서나 원격으로 작업할 수 있도록 하는 보안 및 서비스 인프라를 구성합니다.
-ms.openlocfilehash: 58915d80d9eb81009632971bbfc84a7b681e125e
-ms.sourcegitcommit: 42b618231e9f608f3ae7226a313b0366601d0ea2
+ms.openlocfilehash: 37306a4e4e820d1a21d83eeabf3712a7f6abc99e
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158902"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429887"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Microsoft 365를 사용하여 원격 작업자의 역량 강화하기
 
@@ -36,8 +36,7 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 
 ![Microsoft 365를 사용하여 원격 작업자의 역량 강화하기](../media/empower-people-to-work-remotely/2-m365-remoteworker-solution-businessoverview.png)
 
-
-| | |
+| 주요 기능 | 설명 |
 |:-------|:-----|
 | 연결 | 원격 작업자는 전 세계 어디서나 언제든지 다음 항목에 액세스할 수 있습니다. <ul><li>Microsoft 365 구독의 클라우드 기반 서비스 및 데이터 </li><li>온-프레미스 응용 프로그램 데이터 센터에서 제공하는 그러한 조직 리소스</li></ul> |
 | 보안 | 로그인이 다단계 인증(MFA)으로 보안되며 Microsoft 365 및 Windows 10의 기본 제공 보안 기능은 맬웨어, 악의적인 공격 및 데이터 손실로부터 보호할 수 있습니다. |
@@ -53,21 +52,23 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 
 | 기능 또는 특징 | 설명 | 라이선싱 |
 |:-------|:-----|:-------|
-| 보안 기본값을 사용하여 MFA 실행   | 로그인에 대한 보조 인증을 요구함으로써 손상된 ID와 장치로부터 보호합니다. 보안 기본값은 모든 사용자 계정에 대해 MFA를 요구합니다.   | Microsoft 365 E3 및 E5 |
-| 조건부 액세스로 MFA 실행| 조건부 액세스 정책을 포함한 로그인 속성을 기반으로 하는 MFA가 필요합니다.    | Microsoft 365 E3 및 E5 | 
+| 보안 기본값을 사용하여 MFA 실행   | 로그인에 대한 보조 인증을 요구함으로써 손상된 ID와 장치로부터 보호합니다. 보안 기본값은 모든 사용자 계정에 대해 MFA를 요구합니다.   | Microsoft 365 E3 혹은 E5 |
+| 조건부 액세스로 MFA 실행| 조건부 액세스 정책을 포함한 로그인 속성을 기반으로 하는 MFA가 필요합니다.    | Microsoft 365 E3 혹은 E5 | 
 | 위험 기반 조건부 액세스로 MFA 실행   | Azure Advanced Threat Protection을 포함한 사용자 로그인에 대한 위험을 기반으로 하는 MFA가 필요합니다. | Azure AD Premium P2 라이선스를 포함한 Microsoft 365 E5 또는 E3 | 
-| 셀프 서비스 암호 재설정(SSPR)    | 사용자가 암호 또는 계정을 다시 설정하거나 잠금 해제할 수 있습니다.  | Microsoft 365 E3 및 E5 |
+| 셀프 서비스 암호 재설정(SSPR)    | 사용자가 암호 또는 계정을 다시 설정하거나 잠금 해제할 수 있습니다.  | Microsoft 365 E3 혹은 E5 |
 | Azure AD 응용 프로그램 프록시    | 인트라넷 서버에서 호스트되는 웹 기반 응용 프로그램에 대한 보안 원격 액세스를 제공합니다.   | 별도의 유료 Azure 구독 필요 |
 | Azure 지점 및 사이트 간 VPN   | Azure 가상 네트워크를 통해 원격 작업자의 장치에서 인트라넷으로의 연결을 안전하게 만듭니다.   | 별도의 유료 Azure 구독 필요 |
 | Windows Virtual Desktop   | 가상 데스크톱이 Azure에서 실행되는 관리되지 않는 개인 장치만 사용할 수 있는 원격 작업자를 지원합니다. | 별도의 유료 Azure 구독 필요 |
-| 원격 데스크톱 서비스(RDS) | 직원이 인트라넷의 Windows 기반 컴퓨터에 연결하도록 허용합니다. | Microsoft 365 E3 및 E5 | 
+| 원격 데스크톱 서비스(RDS) | 직원이 인트라넷의 Windows 기반 컴퓨터에 연결하도록 허용합니다. | Microsoft 365 E3 혹은 E5 | 
 | 원격 데스크톱 서비스 게이트웨이   | 통신을 암호화하고 RDS 호스트가 인터넷에 직접 노출되지 않도록 합니다. | 별도의 Windows Server 라이선스 필요 |
-| Microsoft Intune | 장치 및 응용 프로그램을 관리합니다.   | Microsoft 365 E3 및 E5 | 
-| Configuration Manager | 장치의 소프트웨어 설치, 업데이트 및 설정 관리 | 별도의 Configuration Manager 라이선스 필요 |
+| Microsoft Intune | 장치 및 응용 프로그램을 관리합니다.   | Microsoft 365 E3 혹은 E5 | 
+| 기능이며 | 장치의 소프트웨어 설치, 업데이트 및 설정 관리 | 별도의 Configuration Manager 라이선스 필요 |
 | Desktop Analytics | Windows 클라이언트의 업데이트 준비 상태를 확인합니다.   | 별도의 Configuration Manager 라이선스 필요 |
-| Windows Autopilot | 새 Windows 10 장치를 업무용으로 사용하도록 설정하고 사전 구성합니다.   | Microsoft 365 E3 및 E5 |
-| Microsoft Teams, Exchange Online, SharePoint Online 및 OneDrive, Microsoft 365 Apps, Microsoft Power Platform, Yammer, Power Apps | 만들고, 소통하며, 공동 작업합니다. | Microsoft 365 E3 및 E5 |
+| Windows Autopilot | 새 Windows 10 장치를 업무용으로 사용하도록 설정하고 사전 구성합니다.   | Microsoft 365 E3 혹은 E5 |
+| Microsoft Teams, Exchange Online, SharePoint Online 및 OneDrive, Microsoft 365 Apps, Microsoft Power Platform, Yammer, Power Apps | 만들고, 소통하며, 공동 작업합니다. | Microsoft 365 E3 혹은 E5 |
 ||||
+
+원격 작업자의 보안 및 규정 준수 기준에 대한 내용은 [원격 작업자에 대한 보안 및 규정 준수 배포](empower-people-to-work-remotely-security-compliance.md)를 참조하세요.
 
 <a name="poster"></a> 이 시나리오의 2페이지 요약은 [원격 작업자 지원 포스터](../downloads/empower-remote-workers.pdf)를 참조하세요..
 

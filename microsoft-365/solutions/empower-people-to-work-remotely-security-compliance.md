@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 06/22/2020
+ms.date: 07/23/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Microsoft 365 보안 및 규정 준수 서비스를 사용하여 원격 작업자를 위한 애플리케이션, 데이터 및 장치를 보호할 수 있습니다.
-ms.openlocfilehash: 5ba60a04cf6717f8f9261ed72336445c8d7876bc
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 82c86ae2ab53c642a1fcdb64a9bbb75e04d5f6fc
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127080"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429903"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-remote-workers"></a>3단계: 원격 작업자를 위한 보안 및 규정 준수 구현
 
@@ -47,8 +47,8 @@ Microsoft 365의 이러한 보안 기능으로 애플리케이션과 데이터�
 
 | 기능 또는 특징 | 설명 | 라이선싱 |
 |:-------|:-----|:-------|
-| Office 365 Advanced Threat Protection (ATP) | 전자 메일 메시지, 사무실 문서 및 협업 도구와 같은 Microsoft 365 앱과 데이터를 공격으로부터 보호합니다. <br><br> Office ATP는 보안 위험을 탐지, 조사 및 교정하기 위해 앱에서 보내는 신호를 수집 및 분석하고 전자 메일 메시지, 링크(URL) 및 협업 도구로 인해 발생하는 악의적인 위협으로부터 조직을 보호합니다. | Microsoft 365 E3 및 E5 | 
-| 악성 프로그램 차단 | Windows Defender Antivirus and Device Guard는 장치 기반 악성 프로그램 보호 기능을 제공합니다. <br><br> 쉐어포인트 온라인에서는 알려진 악성 프로그램이 있는지 파일 업로드를 자동으로 검색합니다. ‎<br><br> EOP(Exchange Online Protection)는 클라우드 편지함을 보호합니다. | Microsoft 365 E3 및 E5 |
+| Office 365 Advanced Threat Protection (ATP) | 전자 메일 메시지, 사무실 문서 및 협업 도구와 같은 Microsoft 365 앱과 데이터를 공격으로부터 보호합니다. <br><br> Office ATP는 보안 위험을 탐지, 조사 및 교정하기 위해 앱에서 보내는 신호를 수집 및 분석하고 전자 메일 메시지, 링크(URL) 및 협업 도구로 인해 발생하는 악의적인 위협으로부터 조직을 보호합니다. | Microsoft 365 E3 혹은 E5 | 
+| 악성 프로그램 차단 | Microsoft Defender Antivirus 및 Device Guard는 장치 기반 말웨어 방지 기능을 제공합니다. <br><br> 쉐어포인트 온라인에서는 알려진 악성 프로그램이 있는지 파일 업로드를 자동으로 검색합니다. ‎<br><br> EOP(Exchange Online Protection)는 클라우드 편지함을 보호합니다. | Microsoft 365 E3 혹은 E5 |
 | Microsoft Defender ATP | 사이버 위협 및 데이터 침해로부터 조직의 장치보호하고 지능적 위협을 탐지, 조사 및 대응합니다. | Microsoft 365 E5 |
 | 클라우드 앱 보안 | Microsoft 365 및 기타 SaaS 애플리케이션 모두 클라우드 기반 서비스를 공격으로부터 보호합니다. | Microsoft 365 E5 또는 개별 클라우드 앱 보안 라이선를 선택합니다. |
 | Azure AD ID 보호  | ID 기반 리스크의 감지 및 해결 작업을 자동화합니다. <br><br>위험 기반 조건부 액세스 정책을 만들어 위험 로그인에 대한 MFA(다단계 인증)를 요구합니다. | Azure AD Premium P2 라이선스를 포함한 Microsoft 365 E5 또는 E3 |
@@ -62,13 +62,15 @@ Microsoft 365의 이러한 규정 준수 기능을 사용하여 내부 정책 �
 
 | 기능 또는 특징 | 설명 | 라이선싱 |
 |:-------|:-----|:-------|
-| 민감도 레이블 | 전자 메일, 파일 또는 사이트에 다양한 수준의 보호 기능을 갖춘 레이블을 배치하여 사용자의 생산성과 협업 능력을 저해하지 않고 조직의 데이터를 분류하고 보호합니다. | Microsoft 365 E3 및 E5 |
-| 데이터 손실 방지(DLP). | 개인 정보가 포함된 데이터 공유와 같은 위험하거나 부주의하거나 부적절한 공유를 내외부적으로 탐지, 경고 및 차단합니다. | Microsoft 365 E3 및 E5 | 
-| 조건부 액세스 앱 컨트롤. | 중요한 데이터가 사용자의 개인 기기에 다운로드되지 않도록 합니다. | Microsoft 365 E3 및 E5 |
-| 데이터 보존 레이블 및 정책. | 조직의 정책 또는 데이터 규정을 준수하기 위해 고객의 개인 데이터 스토리지에 대한 데이터 및 요구사항을 보관하는 기간과 같은 정보 거버넌스 제어를 구현합니다. | Microsoft 365 E3 및 E5 |
-| OME(Office 메시지 암호화) | 고객의 개인 데이터와 같이 규제 데이터가 들어 있는 조직 내외부의 사용자 간에 암호화된 전자 메일 메시지를 주고 받습니다. | Microsoft 365 E3 및 E5 |
-| 규정 관리자 | Microsoft 서비스 신뢰 포털에서 이 워크플로우 기반 위험 평가 도구를 사용하여 Microsoft 클라우드 서비스와 관련된 규정 준수 활동을 관리합니다. | Microsoft 365 E3 및 E5 |
-| 준수 점수(미리 보기) | Microsoft 365 Compliance Center에서 현재 규정 준수 구성의 전체 점수와 이를 개선하기 위한 권장 사항을 확인합니다. | Microsoft 365 E3 및 E5 |
+| 민감도 레이블 | 전자 메일, 파일 또는 사이트에 다양한 수준의 보호 기능을 갖춘 레이블을 배치하여 사용자의 생산성과 협업 능력을 저해하지 않고 조직의 데이터를 분류하고 보호합니다. | Microsoft 365 E3 혹은 E5 |
+| 데이터 손실 방지(DLP). | 개인 정보가 포함된 데이터 공유와 같은 위험하거나 부주의하거나 부적절한 공유를 내외부적으로 탐지, 경고 및 차단합니다. | Microsoft 365 E3 혹은 E5 | 
+| 조건부 액세스 앱 컨트롤. | 중요한 데이터가 사용자의 개인 기기에 다운로드되지 않도록 합니다. | Microsoft 365 E3 혹은 E5 |
+| 데이터 보존 레이블 및 정책. | 조직의 정책 또는 데이터 규정을 준수하기 위해 고객의 개인 데이터 스토리지에 대한 데이터 및 요구사항을 보관하는 기간과 같은 정보 거버넌스 제어를 구현합니다. | Microsoft 365 E3 혹은 E5 |
+| OME(Office 메시지 암호화) | 고객의 개인 데이터와 같이 규제 데이터가 들어 있는 조직 내외부의 사용자 간에 암호화된 전자 메일 메시지를 주고 받습니다. | Microsoft 365 E3 혹은 E5 |
+| 규정 관리자 | Microsoft 서비스 신뢰 포털에서 이 워크플로우 기반 위험 평가 도구를 사용하여 Microsoft 클라우드 서비스와 관련된 규정 준수 활동을 관리합니다. | Microsoft 365 E3 혹은 E5 |
+| 준수 점수(미리 보기) | Microsoft 365 Compliance Center에서 현재 규정 준수 구성의 전체 점수와 이를 개선하기 위한 권장 사항을 확인합니다. | Microsoft 365 E3 혹은 E5 |
+| 커뮤니케이션 규정 준수  | 조직에 부적합한 메시지를 탐지하고, 캡쳐하여, 수정하는 작업을 수행합니다. | 규정 준수 혹은 내부자 위험 관리 추가 기능을 사용하는 Microsoft 365 E5 또는 Microsoft 365 E3 |
+| 내부자 위험 관리 |  조직의 악의적이고 부주의한 활동을 감지하고, 조사하고 조치를 취합니다. Microsoft 365는 직원들이 관리되지 않는 장치를 사용하는 경우에도 이러한 활동을 감지할 수 있습니다. | 규정 준수 혹은 내부자 위험 관리 추가 기능을 사용하는 Microsoft 365 E5 또는 Microsoft 365 E3 |
 ||||
 
 자세한 내용은 [보안 팀이 재택 근무를 지원하는 상위 12가지 작업](../security/top-security-tasks-for-remote-work.md)을 참조하세요.
