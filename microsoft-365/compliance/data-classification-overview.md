@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 데이터 분류 대시보드에서는 조직에서 검색 및 분류한 중요한 데이터의 양을 시각적으로 파악할 수 있습니다.
-ms.openlocfilehash: a9c7a275a0f3f2db7d931be5af77b00291cdad83
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: ca08f292bae70d121a3ef157a482a09590bd7ba1
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127223"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430331"
 ---
 # <a name="know-your-data---data-classification-overview"></a>데이터 파악 - 데이터 분류 개요
 
@@ -132,8 +132,8 @@ Microsoft 365 또는 AIP(Azure Information Protection)를 통해 항목에 민�
 
 ## <a name="see-also"></a>참고 항목
 
-- [레이블 활동 보기(미리 보기)](data-classification-activity-explorer.md)
-- [레이블이 지정된 콘텐츠 보기(미리 보기)](data-classification-content-explorer.md)
+- [레이블 활동 보기](data-classification-activity-explorer.md)
+- [레이블 지정된 콘텐츠 보기](data-classification-content-explorer.md)
 - [민감도 레이블에 대해 알아보기](sensitivity-labels.md)
 - [보존 정책 및 보존 레이블에 대해 알아보기](retention.md)
 - [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)
