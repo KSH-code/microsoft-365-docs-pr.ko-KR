@@ -7,57 +7,38 @@ author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 5889a4e80f44349b4f149ee4f2a631f12b32251e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 94d51d7b28922a05c892eb4ffc14aee813a9069c
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637855"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46522028"
 ---
-# <a name="microsoft-managed-desktop-app-requirements"></a><span data-ttu-id="92e74-103">Microsoft Managed Desktop 응용 프로그램 요구 사항</span><span class="sxs-lookup"><span data-stu-id="92e74-103">Microsoft Managed Desktop app requirements</span></span>
+# <a name="microsoft-managed-desktop-app-requirements"></a><span data-ttu-id="dc799-103">Microsoft Managed Desktop 응용 프로그램 요구 사항</span><span class="sxs-lookup"><span data-stu-id="dc799-103">Microsoft Managed Desktop app requirements</span></span>
 
 <!--This topic is the target for aka.ms/app-req. This is aka link is used from EA agreement for MMD. do not delete.-->
 
 <!--Application addendum -->
  
-<span data-ttu-id="92e74-104">Microsoft Managed Desktop 장치에 대 한 성능, 안정성 및 서비스 용이성을 보장 하기 위해 고객의 lob 앱은 최종 사용자 환경에 심각한 영향을 주지 않거나 보안 태세를 수정 하지 않아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="92e74-104">In order to guarantee the performance, reliability, and serviceability of Microsoft Managed Desktop devices a customer’s line of business apps must not seriously impact end user experience or modify the security stance.</span></span> <span data-ttu-id="92e74-105">따라서 Microsoft Managed Desktop 장치에 배포 하려는 기간 업무 (lob) 응용 프로그램은이 항목의 요구 사항을 충족 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="92e74-105">Consequently, line of business applications that you want to deploy to Microsoft Managed Desktop devices must meet the requirements in this topic.</span></span>
-
-## <a name="application-condition"></a><span data-ttu-id="92e74-106">응용 프로그램 조건</span><span class="sxs-lookup"><span data-stu-id="92e74-106">Application condition</span></span>
-
-<span data-ttu-id="92e74-107">응용 프로그램이 Microsoft Managed Desktop 환경에 악영향을 미치지 않는 것이 중요 합니다.</span><span class="sxs-lookup"><span data-stu-id="92e74-107">It’s important that applications don’t adversely impact the Microsoft Managed Desktop environment.</span></span> <span data-ttu-id="92e74-108">응용 프로그램에서 배포 하기 위해 충족 해야 하는 요구 사항은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="92e74-108">The following are the requirements that an application must meet for an application to be deployed.</span></span> <span data-ttu-id="92e74-109">지정 된 응용 프로그램 또는 드라이버의 경우 Microsoft는 여기에 제공 된 모든 요구 사항을 waive 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92e74-109">For any given application or driver, Microsoft may waive any requirement provided herein.</span></span> <span data-ttu-id="92e74-110">Microsoft는 Microsoft 관리 데스크톱 장치의 성능 및 안정성에 부정적인 영향을 주는 응용 프로그램 또는 드라이버를 제거 하는 것을 결정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92e74-110">Microsoft may decide to remove any application or driver that negatively impacts performance and reliability of Microsoft Managed Desktop devices.</span></span>
-
-## <a name="centrally-managed-apps"></a><span data-ttu-id="92e74-111">중앙 집중식으로 관리 되는 앱</span><span class="sxs-lookup"><span data-stu-id="92e74-111">Centrally managed apps</span></span>
-
-<span data-ttu-id="92e74-112">Microsoft 관리 장치에 설치 된 모든 응용 프로그램 및 드라이버는 Microsoft Intune, Microsoft Store 또는 비즈니스용 Microsoft Store를 통해 배포 해야 합니다. 사용 가능한 경우 Windows Update 서비스를 통해 드라이버도 배포 됩니다.</span><span class="sxs-lookup"><span data-stu-id="92e74-112">All applications and drivers installed on Microsoft Managed Devices must be deployed through Microsoft Intune, the Microsoft Store, or the Microsoft Store for Business; if available, drivers will also be deployed through the Windows Update service.</span></span> 
-
-## <a name="prohibited-app-classes"></a><span data-ttu-id="92e74-113">금지 되는 앱 클래스</span><span class="sxs-lookup"><span data-stu-id="92e74-113">Prohibited app classes</span></span>
-
-<span data-ttu-id="92e74-114">특정 응용 프로그램 유형은 Microsoft Managed Desktop 장치에서 허용 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="92e74-114">Certain application types are not permitted on Microsoft Managed Desktop devices:</span></span>
-- <span data-ttu-id="92e74-115">타사 바이러스 백신, 보안 또는 감사 소프트웨어</span><span class="sxs-lookup"><span data-stu-id="92e74-115">3rd party anti-virus, security, or audit software</span></span>
-- <span data-ttu-id="92e74-116">Microsoft 365 for enterprise 앱 이전 버전의 Microsoft Office</span><span class="sxs-lookup"><span data-stu-id="92e74-116">Versions of Microsoft Office prior to Microsoft 365 Apps for enterprise</span></span>
-- <span data-ttu-id="92e74-117">다른 타사 소프트웨어를 설치 하거나 번들 하는 응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="92e74-117">Applications that install or bundle other 3rd party software</span></span>
-
-## <a name="restricted-app-behaviors"></a><span data-ttu-id="92e74-118">제한 된 앱 동작</span><span class="sxs-lookup"><span data-stu-id="92e74-118">Restricted app behaviors</span></span>
-
-<span data-ttu-id="92e74-119">특정 앱 동작은 사용자 환경에 부정적인 영향을 주거나 Microsoft 관리 되는 데스크톱 장치에 보안 위험을 줄 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92e74-119">Certain app behaviors can negatively impact the user experience or may present a security risk to Microsoft Managed Desktop devices.</span></span> <span data-ttu-id="92e74-120">다음 동작이 적용 되는 앱은 microsoft와 관련 없는 Microsoft Managed Desktop environment에서 실행할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="92e74-120">Apps with the following behaviors are not permitted to run in the Microsoft Managed Desktop environment without a specific  from Microsoft.</span></span>
-
-<span data-ttu-id="92e74-121">사용자 환경:</span><span class="sxs-lookup"><span data-stu-id="92e74-121">User Experience:</span></span>
-- <span data-ttu-id="92e74-122">백그라운드 서비스 설치</span><span class="sxs-lookup"><span data-stu-id="92e74-122">Install background services</span></span>
-- <span data-ttu-id="92e74-123">Windows 시작 경로에 자신 추가</span><span class="sxs-lookup"><span data-stu-id="92e74-123">Add itself to the Windows startup path</span></span>
-- <span data-ttu-id="92e74-124">드라이버에 종속 된 응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="92e74-124">Applications dependent on drivers</span></span>
-- <span data-ttu-id="92e74-125">타사 웹 브라우저</span><span class="sxs-lookup"><span data-stu-id="92e74-125">3rd party web browsers</span></span>
-
-<span data-ttu-id="92e74-126">보안:</span><span class="sxs-lookup"><span data-stu-id="92e74-126">Security:</span></span>
-- <span data-ttu-id="92e74-127">최종 사용자의 권한 상승</span><span class="sxs-lookup"><span data-stu-id="92e74-127">Elevate the end user’s privileges</span></span>
-- <span data-ttu-id="92e74-128">앱 스토어 역할을 하거나 기본 제공 확장 관리자를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="92e74-128">Act as an app store or have a built-in extension manager</span></span>
-- <span data-ttu-id="92e74-129">알려진 보안 취약성</span><span class="sxs-lookup"><span data-stu-id="92e74-129">Have known security vulnerabilities</span></span>
-- <span data-ttu-id="92e74-130">최종 사용자 데이터에 대 한 액세스 암호화 또는 제한</span><span class="sxs-lookup"><span data-stu-id="92e74-130">Encrypt or restrict access to end-user data</span></span>
-- <span data-ttu-id="92e74-131">서명 되지 않았거나 신뢰할 수 있는 루트에 롤업 하지 않는 인증서를 사용 하 여 서명 됨</span><span class="sxs-lookup"><span data-stu-id="92e74-131">Is unsigned or is signed using a certificate which doesn’t roll up to a trusted root</span></span>
+<span data-ttu-id="dc799-104">Microsoft Managed Desktop에서는 장치에 대 한 성능, 안정성 및 서비스 편리성을 보장 하기 위해 특정 방법을 사용 하 여 장치를 관리 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="dc799-104">Microsoft Managed Desktop requires that we manage devices using a specific approach to guarantee the performance, reliability, and serviceability of devices.</span></span> <span data-ttu-id="dc799-105">아래 영역에 대해 Microsoft Managed Desktop이 사용 하는 방식이 제대로 작동 하지 않는 경우에는 [서비스 계획에](customizing.md)대 한 예외를 요청할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dc799-105">If you’re sure that the approach taken by Microsoft Managed Desktop for the areas below will not work for you, you can request an [exception to the service plan](customizing.md).</span></span>
 
 
-## <a name="driver-deployment"></a><span data-ttu-id="92e74-132">드라이버 배포</span><span class="sxs-lookup"><span data-stu-id="92e74-132">Driver deployment</span></span>
+|<span data-ttu-id="dc799-106">관리 영역</span><span class="sxs-lookup"><span data-stu-id="dc799-106">Management area</span></span>  |<span data-ttu-id="dc799-107">Microsoft Managed Desktop 접근 방식</span><span class="sxs-lookup"><span data-stu-id="dc799-107">Microsoft Managed Desktop approach</span></span>  |
+|---------|---------|
+|<span data-ttu-id="dc799-108">장치 구성 또는 정책 관리</span><span class="sxs-lookup"><span data-stu-id="dc799-108">Device configuration or policy management</span></span>     |  <span data-ttu-id="dc799-109">Microsoft Intune</span><span class="sxs-lookup"><span data-stu-id="dc799-109">Microsoft Intune</span></span>       |
+|<span data-ttu-id="dc799-110">응용 프로그램 관리 </span><span class="sxs-lookup"><span data-stu-id="dc799-110">Application management</span></span>     | <span data-ttu-id="dc799-111">Microsoft Intune 및 회사 포털</span><span class="sxs-lookup"><span data-stu-id="dc799-111">Microsoft Intune and Company Portal</span></span>        |
+|<span data-ttu-id="dc799-112">드라이버 배포</span><span class="sxs-lookup"><span data-stu-id="dc799-112">Driver deployment</span></span>     |  <span data-ttu-id="dc799-113">장치, Windows Update 또는 Intune에 포함 되는 드라이버</span><span class="sxs-lookup"><span data-stu-id="dc799-113">Drivers included with the device, Windows Update, or Intune</span></span>       |
+|<span data-ttu-id="dc799-114">장치 보안</span><span class="sxs-lookup"><span data-stu-id="dc799-114">Device security</span></span>     | <span data-ttu-id="dc799-115">[장치 보안](security.md#device-security) 참조</span><span class="sxs-lookup"><span data-stu-id="dc799-115">See [Device security](security.md#device-security)</span></span>      |
+|<span data-ttu-id="dc799-116">ID 및 액세스 관리</span><span class="sxs-lookup"><span data-stu-id="dc799-116">Identity and access management</span></span>     | <span data-ttu-id="dc799-117">[Id 및 액세스 관리](security.md#identity-and-access-management) 참조</span><span class="sxs-lookup"><span data-stu-id="dc799-117">See [Identity and access management](security.md#identity-and-access-management)</span></span>        |
+|<span data-ttu-id="dc799-118">네트워크 보안</span><span class="sxs-lookup"><span data-stu-id="dc799-118">Network security</span></span>     | <span data-ttu-id="dc799-119">[네트워크 보안](security.md#network-security) 참조</span><span class="sxs-lookup"><span data-stu-id="dc799-119">See [Network security](security.md#network-security)</span></span>        |
+|<span data-ttu-id="dc799-120">정보 보안</span><span class="sxs-lookup"><span data-stu-id="dc799-120">Information security</span></span>     |  <span data-ttu-id="dc799-121">[정보 보안](security.md#information-security) 참조</span><span class="sxs-lookup"><span data-stu-id="dc799-121">See [Information security](security.md#information-security)</span></span>       |
+|<span data-ttu-id="dc799-122">데이터 복구</span><span class="sxs-lookup"><span data-stu-id="dc799-122">Data recovery</span></span>     | <span data-ttu-id="dc799-123">비즈니스용 OneDrive</span><span class="sxs-lookup"><span data-stu-id="dc799-123">OneDrive for Business</span></span>        |
+|<span data-ttu-id="dc799-124">핵심 생산성</span><span class="sxs-lookup"><span data-stu-id="dc799-124">Core productivity</span></span>     | <span data-ttu-id="dc799-125">엔터프라이즈용 Microsoft 365 앱</span><span class="sxs-lookup"><span data-stu-id="dc799-125">Microsoft 365 Apps for enterprise</span></span>    |
+|<span data-ttu-id="dc799-126">브라우저</span><span class="sxs-lookup"><span data-stu-id="dc799-126">Browser</span></span>     | <span data-ttu-id="dc799-127">Microsoft Edge</span><span class="sxs-lookup"><span data-stu-id="dc799-127">Microsoft Edge</span></span>        |
 
-<span data-ttu-id="92e74-133">Microsoft Managed Desktop은 Microsoft 관리 장치를 사용 하 여 Windows Update 또는 설치 된 받은 편지함을 통해 제공 되는 장치 드라이버만 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="92e74-133">Microsoft Managed Desktop only supports device drivers that are available through Windows Update or installed inbox with the Microsoft Managed Device.</span></span> 
 
-<span data-ttu-id="92e74-134">응용 프로그램에서 실행 해야 하는 특정 드라이버가 필요한 경우에는 제한 된 응용 프로그램으로 간주 되므로 Microsoft Managed Desktop에 배포 하기 전에 예외가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="92e74-134">If an application requires a specific driver(s) to run it is considered a Restricted Application and requires an exception before being deployed to Microsoft Managed Desktop.</span></span> 
+
+
+<span data-ttu-id="dc799-128">Microsoft Managed Desktop은 관리 되는 장치에서 실행 되는 다른 소프트웨어를 모니터링할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dc799-128">Microsoft Managed Desktop might monitor other software running on managed devices.</span></span> <span data-ttu-id="dc799-129">시스템 보안, 성능 또는 안정성에 부정적인 영향을 주는 경우 서비스 계획에 대 한 예외를 요청 해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dc799-129">If it negatively impacts system security, performance, or reliability, you might be required to request an exception to the service plan.</span></span>
+
 

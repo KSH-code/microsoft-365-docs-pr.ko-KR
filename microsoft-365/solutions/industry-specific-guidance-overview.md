@@ -10,16 +10,15 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-- M365solutions
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 081385ebe93423b210561b2e34ea0f06796efe71
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 7eb8418f19782e8b3a0d7d00fa8fb3082a6443c9
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160126"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521268"
 ---
-# <a name="microsoft-365-industry-specific-guidance-overview"></a><span data-ttu-id="8c77f-103">Microsoft 365 업계 관련 지침 개요</span><span class="sxs-lookup"><span data-stu-id="8c77f-103">Microsoft 365 industry-specific guidance overview</span></span>
+# <a name="microsoft-365-industry-specific-guidance-overview"></a><span data-ttu-id="9be78-103">Microsoft 365 업계 관련 지침 개요</span><span class="sxs-lookup"><span data-stu-id="9be78-103">Microsoft 365 industry-specific guidance overview</span></span>
 
-<span data-ttu-id="8c77f-104">![모범 사례 리본](https://docs.microsoft.com/office/media/icons/best-practices-blue.png) **업계 별 지침은** 업계 재무, 의료 및 교육에 대 한 모범 사례를 찾습니다.</span><span class="sxs-lookup"><span data-stu-id="8c77f-104">![Best practices ribbon](https://docs.microsoft.com/office/media/icons/best-practices-blue.png) **Industry-specific guidance**  Find best practices for your industry - finance, healthcare, and education.</span></span>
+<span data-ttu-id="9be78-104">![모범 사례 리본 ](https://docs.microsoft.com/office/media/icons/best-practices-blue.png) **업계 별 지침은** 업계 재무, 의료 및 교육에 대 한 모범 사례를 찾습니다.</span><span class="sxs-lookup"><span data-stu-id="9be78-104">![Best practices ribbon](https://docs.microsoft.com/office/media/icons/best-practices-blue.png) **Industry-specific guidance**  Find best practices for your industry - finance, healthcare, and education.</span></span>
