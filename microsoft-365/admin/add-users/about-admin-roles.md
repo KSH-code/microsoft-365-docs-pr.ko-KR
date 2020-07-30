@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다. 예를 들어 서비스 관리자는 Microsoft로 지원 티켓을 엽니다.
-ms.openlocfilehash: e76024f1d13e9210b74e2f6c4fc63c9992615099
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 361c6599dfccbe7a80fa520bcd1fa988a1fae536
+ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45015914"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506288"
 ---
 # <a name="about-admin-roles"></a>관리자 역할 정보
 
@@ -61,7 +61,7 @@ Microsoft 365 관리 센터에서 **역할**로 이동한 다음 아무 역할�
 
 ::: moniker-end
 
-조직에서 다음 역할을 할당하기만 하면 됩니다. 기본적으로 Microsoft에서는 대부분의 조직에서 사용하는 역할을 먼저 보여줍니다. 역할을 찾을 수없는 경우 목록 맨 아래로 이동하여 **역할 더보기**를 선택하십시오. (역할에 연결된 cmdlet을 포함한 자세한 내용은 [Azure Active Directory에서 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)을 참조하세요.)
+조직에서 다음 역할을 할당하기만 하면 됩니다. 기본적으로 Microsoft에서는 대부분의 조직에서 사용하는 역할을 먼저 보여줍니다. 역할을 찾을 수 없는 경우 목록 맨 아래로 이동하여 **모든 범주 보기**를 선택하세요. (역할에 연결된 cmdlet을 포함한 자세한 내용은 [Azure Active Directory에서 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)을 참조하세요.)
 
 |관리자 역할     |이 역할에는 누가 할당되어야 하나요?  |
 |---------|---------|

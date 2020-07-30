@@ -15,12 +15,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: 이 문서에서는 Microsoft 365에서 안전한 게스트 공유 환경을 만드는 데 사용할 수 있는 옵션에 대해 알아봅니다.
-ms.openlocfilehash: 4d7c036cccade88bfcd013fe4b31bf4cd02b7b34
-ms.sourcegitcommit: a50260b7c5be7374e8e2bea19cc08406ef51ac47
+ms.openlocfilehash: b720b701ca25dd6b341d4ac5ac696b51af890de5
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45167368"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46502918"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>보안 게스트 공유 환경 만들기
 
@@ -101,6 +101,9 @@ Azure AD 사용 약관을 만들려면
 12. **새로 만들기** 블레이드의 **정책 사용**에서 **설정**을 클릭한 후 **만들기**를 클릭합니다.
 
 이제 게스트 사용자가 처음으로 콘텐츠나 조직의 팀 또는 사이트에 액세스하려고 하면 사용 약관을 수락해야 합니다.
+
+> [!NOTE]
+> 조건부 액세스를 사용 하려면 Azure AD Premium P1 라이선스가 필요합니다. 자세한 내용은 [조건부 액세스는 무엇인가요](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)를 참조하세요.
 
 ### <a name="more-information"></a>추가 정보
 [Azure Active Directory 사용 약관](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use)

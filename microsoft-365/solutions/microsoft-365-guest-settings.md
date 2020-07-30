@@ -15,12 +15,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: 조직 외부 사용자와의 공유에 영향을 줄 수 있는 Microsoft 365에서 사용할 수 있는 게스트 공유 설정에 대해 알아봅니다.
-ms.openlocfilehash: 35a1a20e65eccddcb1117f9def09bd4fdfc7f161
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 05cd46be7b7dd81d04fa65d89b47f19e6dbb2493
+ms.sourcegitcommit: f3a02584c9354a46c082f8f948b34a177adf65bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44679147"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46514792"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 게스트 공유 설정 참조
 
@@ -37,7 +37,7 @@ Azure Active Directory는 Microsoft 365에서 사용하는 디렉터리 서비�
 
 ### <a name="organizational-relationships-settings"></a>조직 관계 설정
 
-**탐색:** [Azure Active Directory 관리 센터](https://aad.portal.azure.com) > Azure Active Directory > 조직 관계 > 설정
+**탐색:** [Azure Active Directory 관리 센터](https://aad.portal.azure.com) > Azure Active Directory > 외부 ID > 외부 공동 작업 설정
 
 ![Azure Active Directory 조직 관계 설정 페이지 스크린샷](../media/azure-ad-organizational-relationships-settings.png)
 
@@ -60,7 +60,7 @@ Microsoft 365 관리 센터에는 공유 및 Microsoft 365 그룹에 대한 조�
 
 ### <a name="sharing"></a>공유
 
-**탐색:** [Microsoft 365 관리 센터](https://admin.microsoft.com) > 설정 > 설정 > 보안&개인 정보 보호 탭 > 공유
+**탐색:** [Microsoft 365 관리 센터](https://admin.microsoft.com) > 설정 > 조직 설정 > 보안 및 개인 정보 보호 탭 > 공유
 
 ![Microsoft 365 관리 센터의 보안 및 개인 정보 게스트 공유 설정 스크린샷](../media/sharepoint-security-privacy-sharing-setting.png)
 

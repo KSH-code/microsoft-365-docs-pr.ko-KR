@@ -4,7 +4,7 @@ ms.reviewer: arvaradh
 f1.keywords: CSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: 사용할 수 있는 그룹 유형에 대해 알아봅니다.
-ms.openlocfilehash: 333d929e72647421951eefa50508c23dddc196ac
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: ee8d14035ed9eb8296c54510b8fe1d374c9dc2b2
+ms.sourcegitcommit: f3a02584c9354a46c082f8f948b34a177adf65bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780460"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46514770"
 ---
 # <a name="compare-groups"></a>그룹 비교
 
@@ -55,6 +55,8 @@ Microsoft 365 그룹은 iOS용 Outlook 및 Android용 Outlook과 같은 모바�
 
 메일 그룹은 "A 빌딩의 사용자" 또는 "Contoso의 모든 사용자"와 같은 사용자 그룹 집합에 정보를 브로드캐스팅하는 경우에 가장 적합합니다.
 
+배포 그룹은 [Microsoft 365 groups로 업그레이드](https://docs.microsoft.com/microsoft-365/admin/manage/upgrade-distribution-lists) 할 수 있습니다.
+
 ## <a name="security-groups"></a>보안 그룹
 
 [보안 그룹](../email/create-edit-or-delete-a-security-group.md)은 SharePoint와 같은 Microsoft 365 리소스에 대한 액세스 권한을 부여하는 데 사용됩니다. 각 리소스에 사용자를 개별적으로 추가하는 것이 아니라 그룹을 관리하기만 하면 되므로 관리를 더 쉽게 수행할 수 있습니다.
@@ -82,3 +84,5 @@ Microsoft 365 그룹은 iOS용 Outlook 및 Android용 Outlook과 같은 모바�
 ## <a name="related-articles"></a>관련 문서
 
 [Microsoft 365 그룹에 대해 자세히 알아보세요.](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+
+[Outlook에서 배포 목록을 그룹으로 업그레이드해야 하는 이유](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)
