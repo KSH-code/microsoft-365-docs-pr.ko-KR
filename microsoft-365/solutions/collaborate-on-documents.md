@@ -9,18 +9,19 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
-- M365solutions
+- m365solution-3tiersprotection
+- m365solution-securecollab
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
 description: 이 문서에서는 SharePoint 및 OneDrive의 문서에서 게스트로 공동 작업 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 82b9d6356144d6d465c7c94f58ec60fe96a1397a
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: cb3c527304f0d286b4a1a0147d07537b0fae4eda
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159994"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527921"
 ---
 # <a name="collaborate-with-guests-on-a-document"></a>게스트와 문서에서 공동 작업하기
 
@@ -42,7 +43,7 @@ Microsoft 365의 공유는 Azure Active Directory의 조직 관계 설정에 따
 
 조직 관계 설정을 설정 하려면
 
-1. Microsoft Azure에 로그인 [https://portal.azure.com](https://portal.azure.com)합니다.
+1. Microsoft Azure에 로그인 [https://portal.azure.com](https://portal.azure.com) 합니다.
 2. 왼쪽 탐색 창에서 **Azure Active Directory**를 클릭 합니다.
 3. **개요** 창에서 **조직 관계**를 클릭 합니다.
 4. **조직 관계** 창에서 **설정을**클릭 합니다.

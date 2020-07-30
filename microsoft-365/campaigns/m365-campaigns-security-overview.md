@@ -14,6 +14,7 @@ ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - MiniMaven
@@ -23,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 캠페인에 대 한 Microsoft 365을 사용 하 여 보안을 강화 하 여 캠페인을 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: f2d57fe0cbc6765b359a759c3d33c6482d86bb06
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0be3a3ef766686c830ffffc8aaee451b67c0b81f
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594789"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527093"
 ---
 # <a name="bump-up-security-protection-for-your-campaign"></a>캠페인에 대 한 보안 보호 강화
 

@@ -5,21 +5,40 @@ keywords: 변경 내용
 ms.prod: m365-md
 ms.sitesec: library
 author: jaimeo
+ms.topic: article
+audience: ITPro
+manager: laurawi
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 1402cd8c03baa233ece1051a0ab9d7dc3b96b965
-ms.sourcegitcommit: ada2f1c6ca79177cae975d887107ff8884358e8a
+ms.openlocfilehash: 809f94e6355b7c0fe9155734fd548c9cb466cbe7
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "45107602"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46528039"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 문서 변경 기록
 
 이 문서에서는 [Microsoft Managed Desktop 설명서](index.yml)의 새로운 문서와 업데이트 된 문서가 나와 있습니다. "업데이트 된" 문서에는 재료가 추가 되거나 수정 된 문서가 포함 되며, 오타, 스타일 또는 서식 문제를 수정 하는 것과 같은 사소한 수정 사항이 나열 되지 않습니다. [GitHub의 리포지토리](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop)를 방문 하 여 언제 든 지 변경 세부 정보를 비롯 하 여 특정 커밋 기록을 볼 수 있습니다.
+
+
+## <a name="july-2020"></a>2020년 7월
+새로 만들기 또는 변경 된 문서 | 설명
+--- | ---
+[Microsoft Managed Desktop 응용 프로그램 요구 사항](service-description/mmd-app-requirements.md) | 업데이트된 문서
+[규정 준수](intro/compliance.md) | 업데이트된 문서
+[앱 제어 시작하기](get-started/get-started-app-control.md) | 업데이트된 문서
+[앱 제어 작업](working-with-managed-desktop/work-with-app-control.md) | 업데이트된 문서
+[Microsoft Managed Desktop의 필수 구성 요소](get-ready/prerequisites.md) | 업데이트된 문서
+[앱 컨트롤](service-description/app-control.md) | 업데이트된 문서
+[Microsoft Managed Desktop의 네트워크 구성](get-ready/network.md) | 업데이트된 문서
+[새 Microsoft Edge 앱](get-started/edge-browser-app.md) | 업데이트된 문서
+[관리 포털 액세스](get-started/access-admin-portal.md) | 새 문서
+[앱 컨트롤](service-description/app-control.md) | 새 문서
+[Microsoft Managed Desktop 장치에 Microsoft Project 또는 Microsoft Visio 설치](get-started/project-visio.md) | 업데이트된 문서
 
 ## <a name="june-2020"></a>2020년 6월
 새로 만들기 또는 변경 된 문서 | 설명

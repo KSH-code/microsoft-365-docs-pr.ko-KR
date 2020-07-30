@@ -9,18 +9,19 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
-- M365solutions
+- m365solution-3tiersprotection
+- m365solution-securecollab
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
 description: 게스트가 포함 된 공동 작업을 위해 SharePoint 사이트를 설정 하는 데 필요한 Microsoft 365 구성 단계에 대해 설명 합니다.
-ms.openlocfilehash: 1f53fa43b6abdfaf21d938bc69db384d173d660e
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 320fb21f19c9616e78f56e519cb804e3e03b2b45
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160006"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527909"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>게스트와 현장에서 공동 작업하기
 
@@ -44,7 +45,7 @@ Microsoft 365의 공유는 Azure Active Directory의 조직 관계 설정에 따
 
 조직 관계 설정을 설정 하려면
 
-1. Microsoft Azure에 로그인 [https://portal.azure.com](https://portal.azure.com)합니다.
+1. Microsoft Azure에 로그인 [https://portal.azure.com](https://portal.azure.com) 합니다.
 2. 왼쪽 탐색 창에서 **Azure Active Directory**를 클릭 합니다.
 3. **개요** 창에서 **조직 관계**를 클릭 합니다.
 4. **조직 관계** 창에서 **설정을**클릭 합니다.

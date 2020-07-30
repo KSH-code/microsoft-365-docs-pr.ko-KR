@@ -13,6 +13,7 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -23,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 캠페인에 대 한 Microsoft 365에 대 한 단계별 등록입니다. Cybersecurity 위협 으로부터 전자 메일, 데이터 및 통신으로 캠페인을 보호 합니다.
-ms.openlocfilehash: 34d5b3103666b9cead1c2dfc09400a9eca5e3e40
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0628ac1a2e8bf6d12bd4a196df11775ebcc2d583
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632782"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527117"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>캠페인에 대 한 Microsoft 365 등록 
 
@@ -80,7 +81,7 @@ Microsoft 365 Business Standard와 같이 microsoft 365 비즈니스에 대 한 
 2. 시작 화면에서 사용자에 게 **확인** 하 시겠습니까? 페이지에서이 항목을 **기존 구독에 추가 하려면 클릭 하거나 탭 하세요. 로그인**합니다.
     
     ![오른쪽 위 모서리에서 로그인을 선택 합니다.](../media/addtoexisting.png)
-3. 로그인 페이지에서 기존 구독에 대 한 관리자 별칭 (예: *<span></span>Alice@VoteContoso*)을 입력 하 고 **다음**을 선택 하 고 암호를 입력 한 다음 **로그인**을 선택 합니다.
+3. 로그인 페이지에서 기존 구독에 대 한 관리자 별칭 (예: Alice@VoteContoso)을 입력 하 고 **다음**을 선택 하 고 암호를 입력 한 다음 **로그인**을 선택 합니다. * <span></span> *
 4. 모양을 어떻게 **확인 하 시겠습니까?** 사용자 수를 입력 하 고 **다음**을 선택 합니다. 홍보 코드는 이미 초대 URL에 포함 되어 있으므로 여기에 입력 하지 않아도 됩니다.
 5. **어떻게 결제** 하 시겠습니까? 페이지에서 결제 방법을 입력 하 고 **주문 하기**를 선택 합니다.
 

@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
-- M365solutions
+- m365solution-infoprotection
 ms.custom: ''
 description: Microsoft 365 보안 및 규정 준수 기능을 배포 하 고 개인 정보를 보호 합니다.
-ms.openlocfilehash: 99ac0f9e29c161ffa26362976f83584c9b168026
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 8e7d037218b4d67e9ba7f450bd1a5235b1ae164f
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126455"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46520996"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>데이터 개인 정보 규정의 영향을 받는 정보 보호
 
@@ -31,7 +31,7 @@ ms.locfileid: "45126455"
 
 - 민감도 레이블
 - DLP(데이터 손실 방지)
-- OME (Office 메시지 암호화)
+- OME(Office 메시지 암호화)
 - 팀 및 사이트 액세스 제어
 
 ![데이터 개인 정보 규정에 따라 개인 정보가 보호 되는 주요 서비스](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-grid.png)

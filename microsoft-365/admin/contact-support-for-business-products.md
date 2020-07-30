@@ -1,10 +1,10 @@
 ---
-title: 비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말
+title: 비즈니스용 제품에 대한 고객 지원 센터 문의 방법 - 관리자 도움말
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -17,44 +17,44 @@ ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
-- GEA150
-ms.assetid: 32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
-description: 해당 국가 또는 지역 전화 번호를 사용하거나 온라인으로 서비스 요청을 제출하거나 Microsoft store를 방문하여 기술 및 청구 지원을 받습니다.
+description: 해당 국가 또는 지역 전화 번호를 사용하거나 온라인으로 서비스 요청을 제출하여 기술 및 청구 지원을 받거나 가상 소비자 지원을 위해 Microsoft Store에 문의하세요.
 feedback_system: None
-ms.openlocfilehash: 80fa10e01934e98f16fa36403268229409638d68
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 4ee5a8adc17bb01a58ba79ccb53714c75af7de99
+ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44388248"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506312"
 ---
-# <a name="contact-support-for-business-products---admin-help"></a>비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말
+# <a name="ways-to-contact-support-for-business-products---admin-help"></a>비즈니스용 제품에 대한 고객 지원 센터 문의 방법 - 관리자 도움말
 
 ::: moniker range="o365-worldwide"
 
-## <a name="online-support"></a>[온라인 지원](#tab/online)
+> [!IMPORTANT]
+> 이러한 지원 방법을 사용하려면 비즈니스 구독의 관리자여야 합니다. 비즈니스 관리자가 아닌 경우 [이 지원 페이지](https://support.microsoft.com/help/contactus)를 사용하세요.
 
-온라인으로 서비스 요청을 시작하여 시간을 절약하세요. 해결 방법을 찾거나 전자 메일 또는 전화로 전문가에게 연락할 수 있도록 도와드립니다. [초기 응답 시간를 참조하세요](https://go.microsoft.com/fwlink/p/?LinkId=518251).
+[서비스의 현재 상태를 봅니다](https://docs.microsoft.com/office365/enterprise/view-service-health)로 시작하기. <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">서비스 상태 대시보드</a>에서 현재와 과거의 문제에 대한 자세한 정보를 볼 수 있습니다. 목록에 없는 문제가 발생하는 경우 다음 방법 중 하나로 지원을 받을 수 있습니다.
+
+## <a name="online-support"></a>온라인 지원
+
+온라인으로 서비스 요청을 시작하여 시간을 절약하세요. 해결 방법을 찾거나 기술 지원에 연결할 수 있도록 도와 드리겠습니다.
 
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다. 해당 페이지에 액세스 또는 해당 작업 수행에 대한 권한이 없습니다라는 메시지가 나타나는 경우, 관리자가 아닙니다. [내 비즈니스에서 관리자 권한을 가진 사용자를 알아보세요.](admin-overview/admin-overview.md#who-has-admin-permissions-in-my-business)
 
 2. **도움이 필요하신가요?** 버튼을 선택합니다.
 
-3. **도움이 필요하신가요?** 창에서 도움이 필요한 사항을 설명하고 Enter를 누릅니다.
+3. **도움이 필요하신가요?** 창에서 도움이 필요한 사항을 설명하고 **Enter**를 누릅니다.
 
 4. 결과가 도움이 되지 않으면 **지원 팀에 문의하기**를 선택합니다.
 
-5. 원하는 경우 설명을 입력하고, 연락 번호와 전자 메일 주소를 확인합니다. 선호하는 연락 방법을 선택하고 **연락 받기**를 선택합니다. 예상 대기 시간은 **도움이 필요하신가요?** 창에 표시됩니다.
+5. 원하는 경우 문제 설명을 입력하고, 연락 번호와 전자 메일 주소를 확인합니다. 선호하는 연락 방법을 선택하고 **연락 받기**를 선택합니다. 예상 대기 시간은 **도움이 필요하신가요?** 창에 표시됩니다.
 
-## <a name="phone-support"></a>[전화 지원 ](#tab/phone)
+## <a name="phone-support"></a>전화 지원
 
 청구 지원은 월요일~금요일 오전 9시부터 오후 5시까지(오스트레일리아의 경우 오전 9시부터 오후 6시까지) 영어로 제공됩니다.\
 기술 지원은 24시간 연중 무휴로 영어로 제공됩니다.\
-전화하는 관리자는 계정 정보를 준비하세요.\
+전화하는 관리자는 계정 정보를 준비하세요.
 
 - **미국에서는 1 800 865 9408로 전화하십시오.**
 
@@ -64,23 +64,17 @@ ms.locfileid: "44388248"
 
 - **영국에서는 0800 032 6417로 전화하십시오.**
 
-비즈니스용 Microsoft 365 지원 전화번호가 위에 나타나지 않으면 아래 드롭다운 메뉴를 사용하여 국가 또는 지역을 선택하세요.
+### <a name="phone-numbers-for-other-countries"></a>다른 국가 전화번호
+
+지원 전화 번호가 위의 목록에 없으면, 아래 드롭다운 목록을 사용하여 국가 또는 지역 번호를 선택하세요.
 
 [!INCLUDE [country-region-support-dropdown-list](includes/country-region-support-dropdown-list.md)]
 
-서비스 요청을 여는 방법에 대한 자세한 내용은 위의 **Online 지원** 탭을 선택합니다.
+## <a name="virtual-support-from-the-microsoft-store"></a>Microsoft Store에서 가상 지원
 
-## <a name="in-store-support"></a>[스토어 내 지원](#tab/instore)
+Microsoft Store 판매 및 고객 지원에 문의하여 Answer Desk 전문가와 논의하여 Microsoft 365에서 발생하는 문제 해결에 도움을 받을 수 있습니다.
 
-이제 Microsoft 365 문제를 해결하도록 도울 수 있는 Answer Desk 전문가가 있는 Microsoft Store에서 약속을 잡을 수 있습니다.
-
-1. [Microsoft Store 예약](https://go.microsoft.com/fwlink/?LinkID=2041482) 페이지로 이동하여 **예약하기**를 선택합니다.
-
-2. 사용자의 현재 위치를 입력하고 가까운 Microsoft Store를 찾습니다.
-
-3. 매장을 선택한 다음, **지금 서비스 예약하기**를 선택합니다.
-
----
+[Microsoft Store 지원 문의](https://support.microsoft.com/help/28808/microsoft-store-contact-support?icid=bm_support_5292020) 페이지로 이동하여 빠른 도움 링크나 전화 번호를 받습니다.
 
 ::: moniker-end
 
@@ -92,15 +86,15 @@ ms.locfileid: "44388248"
 
 21Vianet이 운영하는 Office 365 기술 지원 팀은 21Vianet에서 운영하는 Office 365와 관련된 문제만 해결합니다. 고객 네트워크에서 발생하는 문제는 Office 365 지원 범위를 벗어납니다. 이러한 경우 고객은 해당 네트워킹 팀에 지원을 요청해야 합니다.
 
-### <a name="community-and-self-service-support-options"></a>커뮤니티 및 셀프 서비스 지원 옵션
+## <a name="community-and-self-service-support-options"></a>커뮤니티 및 셀프 서비스 지원 옵션
 
 셀프 서비스 지원은 21Vianet 사용자가 운영하는 모든 Office 365에 대해 제공되며 문제 해결 도구/비디오, 도움말 문서/비디오 및 [Office 365 커뮤니티](https://go.microsoft.com/fwlink/p/?linkid=842838)의 포럼/Wiki를 포함합니다. 셀프 서비스 지원 리소스에 대한 자세한 내용은 [21Vianet에서 운영하는 Office 365 알아보기](services-in-china/services-in-china.md)를 참조하세요.
 
-### <a name="pre-sales-support"></a>사전 판매 지원
+## <a name="pre-sales-support"></a>사전 판매 지원
 
 21Vianet에서 운영하는 Office 365에 대한 사전 판매 지원을 통해 구독 기능/혜택, 계획 비교, 가격/라이선스에 대한 지원이 제공되며 고객의 비즈니스 요구에 맞는 적합한 솔루션을 파악할 수 있습니다. 또한 사전 판매 지원을 통해 파트너 검색, 구입 및 평가판 등록에 대한 지원을 받을 수 있습니다. 현지 업무 시간(월요일~금요일) 중에 전화를 통해 지원을 받을 수 있습니다. 기술 지원과 동일한 전화 번호를 사용하여 사전 판매 지원에 액세스할 수 있습니다. 자세한 내용은 [고객 지원 센터 문의](#contact-support)를 참조하세요.
 
-### <a name="billing-and-subscription-management-support"></a>대금 청구 및 구독 관리 지원
+## <a name="billing-and-subscription-management-support"></a>대금 청구 및 구독 관리 지원
 
 온라인을 이용하거나 중국 업무 시간(월요일 ~ 금요일/베이징 표준시 기준) 중에 전화를 통해 대금 청구 및 구독 관리 문제에 대한 지원을 받을 수 있습니다. 기술 지원과 동일한 전화 번호 및 온라인 서비스 요청 프로세스를 사용하여 대금 청구 및 구독 관리 지원에 액세스할 수 있습니다. 21Vianet에서 운영하는 Office 365 포털에서 지원 전화 번호를 찾을 수 있습니다. 자세한 내용은 [지원 센터 문의](#contact-support)를 참조하세요.
 
@@ -118,7 +112,7 @@ ms.locfileid: "44388248"
 
 - 유료 구독 취소
 
-### <a name="technical-support"></a>기술 지원
+## <a name="technical-support"></a>기술 지원
 
 21Vianet에서 운영하는 Office 365 구독에 대한 기술 지원을 통해 기본 설치, 설정 및 일반 기술 사용에 대한 지원이 제공됩니다. 이러한 문제의 몇 가지 예가 다음 표에 나와 있습니다.
 
@@ -130,7 +124,7 @@ ms.locfileid: "44388248"
 > [!NOTE]
 > 여기서 기술 지원 서비스에 문의하는 방법을 확인할 수 있습니다. [지원 센터 문의](#contact-support)를 참조하세요. 기술 지원에는 타사 서비스 또는 추가 기능 문제 해결이 포함되어 있지 않습니다. [커뮤니티](https://go.microsoft.com/fwlink/p/?linkid=842838)에서 다른 고객의 답변 찾기에 대해 자세히 알아보세요.
 
-### <a name="technical-support-case-handling"></a>기술 지원 사례 처리
+## <a name="technical-support-case-handling"></a>기술 지원 사례 처리
 
 21Vianet에서는 문제 유형 및 고객 영향의 평가에 따라 사례가 열릴 때 사례의 심각도 수준을 지정합니다. 다음 표에는 문제 유형 및 심각도 수준의 예가 나와 있습니다.
 
@@ -140,7 +134,7 @@ ms.locfileid: "44388248"
 | Sev B(높음) | 이 서비스를 사용할 수 있지만 기능이 제한적입니다. 이 상황은 비즈니스에 중간 정도의 영향을 미치며 업무 시간 중에 처리될 수 있습니다. 단일 사용자, 고객 또는 서비스가 부분적으로 영향을 받습니다. | <ul><li>Outlook의 보내기 단추가 잘못 표시됩니다.</li> <li>EAC(Exchange 관리 센터)에서는 설정할 수 없지만 Windows PowerShell에서 설정할 수 있습니다.</li></ul> |
 | Sev C(중요하지 않음) | 이 상황은 비즈니스에 최소한의 영향을 미칩니다. 이 문제는 중요하지만 고객에 대한 현재 서비스나 생산성에 큰 영향을 미치지 않습니다. 단일 사용자에게 부분적인 중단이 발생하지만 적절한 해결 방법이 있습니다. | <ul><li>만료되지 않는 사용자 암호 설정하는 방법입니다.</li> <li>Exchange Online의 연락처 정보를 삭제할 수 없습니다.</li></ul> |
 
-### <a name="technical-support-initial-response-times"></a>기술 지원 초기 응답 시간
+## <a name="technical-support-initial-response-times"></a>기술 지원 초기 응답 시간
 
 초기 응답 시간은 위에서 설명한 심각도에 따라 달라집니다. 21Vianet 고객 서비스 팀은 심각도에 따라 합리적인 수준에서 후속으로 조사 및 고객 소통을 실시합니다. 또한 21Vianet은 고객이 합리적인 수준에서 적절하게 협업할 것입니다.
 
@@ -154,22 +148,22 @@ ms.locfileid: "44388248"
 
 <sup>2</sup> 심각도 A는 영업 계정 관리자를 통해 21Vianet과 고급 온라인 서비스 계약을 체결한 고객만 사용할 수 있습니다. 심각도 A는 기술 지원에만 제공됩니다. 청구 및 구독 관리 지원의 경우 가장 높은 심각도는 B입니다.
 
-### <a name="technical-support-working-hours"></a>기술 지원 업무 시간
+## <a name="technical-support-working-hours"></a>기술 지원 업무 시간
 
 심각도 A: 24\*7 지속적인 서비스
 
 심각도 B/C: 일일 9:00 ~24:00(베이징 표준시 기준), 365일.
 
-### <a name="contact-support"></a>지원 센터 문의
+## <a name="contact-support"></a>지원 센터 문의
 
 > [!NOTE]
 > 지원 옵션은 Office 365 구독 조직의 관리자만 사용할 수 있습니다. Office 365를 사용하지만 관리자가 아닌 경우에도 커뮤니티 포럼이나 관리자에게 문의하여 지원을 받을 수 있습니다.
 
-#### <a name="open-an-online-request"></a>온라인 요청 열기
+### <a name="open-an-online-request"></a>온라인 요청 열기
 
 온라인으로 서비스 요청을 시작하여 시간을 절약하세요. Microsoft 365 관리 센터에서 **지원** \> **새 서비스 요청**을 선택합니다.
 
-#### <a name="call-support"></a>지원 서비스 문의
+### <a name="call-support"></a>지원 서비스 문의
 
 지원 서비스에 문의합니다. 온라인 요청에 문제가 발생하면 (86) 400-089-0365으로 전화 지원을 요청할 수 있습니다.
 
@@ -177,7 +171,7 @@ ms.locfileid: "44388248"
 
 21Vianet는 자격 있는 전문가로부터 시기 적절한 기술 지원을 받는 것이 클라우드 서비스의 주요 특징이라고 이해하고 있습니다. 고객의 IT 부서가 해당 사용자 지원 시 수행하는 중요 역할도 똑같이 중요합니다.
 
-#### <a name="administrator-roles-and-responsibilities"></a>관리자 역할 및 책임
+### <a name="administrator-roles-and-responsibilities"></a>관리자 역할 및 책임
 
 관리자 역할의 사용자는 고객의 조직에서, 21Vianet 포털이 운영하는 Office 365의 관리 섹션에 액세스하고 Office 365 서비스 요청에 대해 21Vianet과 직접 통신할 수 있는 권한을 갖습니다.
 
@@ -203,7 +197,7 @@ Office 365를 사용할 경우 서로 다른 기능을 수행하는 다양한 �
 
 관리자는 고객의 사용자에 대한 초기 지원을 제공해야 합니다. 그러나 관리자가 셀프 서비스 지원 리소스를 사용하여 문제를 해결할 수 없는 경우에는 [지원 센터 문의](#contact-support)에 문의해야 합니다.
 
-#### <a name="21vianet-support-role"></a>21Vianet 고객지원 역할
+### <a name="21vianet-support-role"></a>21Vianet 고객지원 역할
 
 21Vianet 고객지원 역할:
 
@@ -221,11 +215,11 @@ Office 365를 사용할 경우 서로 다른 기능을 수행하는 다양한 �
 
 - 설문 조사를 통해 서비스를 개선하는 방법에 대한 고객 피드백을 지속적으로 수집합니다.
 
-### <a name="feature-availability"></a>기능 가용성
+## <a name="feature-availability"></a>기능 가용성
 
 Office 365 계획 간의 기능 가용성을 확인하려면 [Office 365 서비스 설명](https://go.microsoft.com/fwlink/p/?linkid=846911)을 참조하세요.
 
-### <a name="follow-us-on-wechat"></a>WeChat에서 팔로우:
+## <a name="follow-us-on-wechat"></a>WeChat에서 팔로우:
 
 이 QR 코드를 스캔하여 WeChat에서 팔로우하면 21Vianet에서 운영하는 Office 365에 대한 최신 업데이트를 받을 수 있습니다.
 
@@ -242,7 +236,7 @@ Office 365 Germany의 관리자는 Microsoft 전문 지원 에이전트로부터
 > [!NOTE]
 > 아래의 모든 지원 옵션은 Microsoft 클라우드 Germany에 대한 것입니다. 사용자가 Microsoft 지원에 문의할 때 제공하는 데이터를 Microsoft에서 사용하는 방법에 대한 자세한 내용은 [개인정보처리방침](https://go.microsoft.com/fwlink/p/?LinkId=512132)을 참조하세요.
 
-### <a name="get-assisted-support"></a>보조 지원 받기
+## <a name="get-assisted-support"></a>보조 지원 받기
 
 지원 옵션은 Office 365 Germany 구독 조직의 관리자만 사용할 수 있습니다. 직장이나 학교에서 Office 365 Germany를 사용하지만 관리자가 아닌 경우에도 커뮤니티 포럼이나 관리자 또는 IT 부서에 문의하여 지원을 받을 수 있습니다.
 
@@ -252,10 +246,10 @@ Office 365 Germany의 관리자는 Microsoft 전문 지원 에이전트로부터
 
 | 지역 | 전화 번호 | 시간 |
 |-----------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 독일 | 0800 589 2330 | 요금 청구 지원: 독일어  월-금 9-5 베를린 영어: 월-금 9-5 베를린 기술 지원: 독일어: 24시간 연중 무휴 영어: 24시간 연중 무휴 대체 전화 번호: 069 380 789 305(시내 전화 요금 적용) |
-| 유럽 경제 지역 내의 다른 모든 시장 | +49 69 380 789 305 | 청구 지원: 독일어: 월~금 9~5시 베를린(UTC+1) 영어: 월~금 9~5시 베를린(UTC +1) 기술 지원: 독일어: 24시간 연중 무휴 영어: 24시간 연중 무휴 전화 지원은 독일 국제 전화를 통해 가능합니다. 국제 전화 요금이 적용됩니다. 관리 센터를 통해 지원 티켓을 제출하여 전화 요금이 발생하지 않게 할 수 있습니다. |
+| 독일 | 0800&nbsp;589&nbsp;2330 | 청구 지원: <ul><li>독일어: 월-금 9-5 베를린</li><li>영어: 월-금 9-5 베를린</li></ul>기술 지원: <ul><li>독일어: 연중무휴 24시간</li><li>영어: 연중무휴 24시간</li></ul>대체 전화 번호: 069 380 789 305(시내 전화 요금 적용) |
+| 유럽 경제 지역 내의 다른 모든 시장 | +49&nbsp;69&nbsp;380&nbsp;789&nbsp;305 | 청구 지원: <ul><li>독일어: 월-금 9-5 베를린(UTC+1)</li><li>영어: 월-금 9-5 베를린(UTC+1)</li></ul>기술 지원: <ul><li>독일어: 연중무휴 24시간</li><li>영어: 연중무휴 24시간</li></ul>전화 지원은 독일로의 국제 전화를 통해 제공됩니다. 국제 전화 요금이 적용됩니다. 관리 센터를 통해 지원 티켓을 제출하여 전화 요금이 발생하지 않게 할 수 있습니다. |
 
-### <a name="let-our-community-help"></a>커뮤니티에서 도움 받기
+## <a name="let-our-community-help"></a>커뮤니티에서 도움 받기
 
 또한 [비즈니스용 Microsoft 365 커뮤니티 포럼을 검색](https://go.microsoft.com/fwlink/p/?LinkId=518605)하여 알려진 문제점 및 인기 주제를 찾거나 새로운 질문을 게시할 수 있습니다. 커뮤니티 포럼은 문제를 해결할 수 있는 교육을 받은 Microsoft 지원 에이전트가 모니터링합니다.
 
