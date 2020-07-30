@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: ca0c557de24320692d903a1136fc434d635f0507
-ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
+ms.openlocfilehash: e0f76f6a232edeac350d08eeeb47188535ffe688
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955594"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46502940"
 ---
 # <a name="remediation-actions-following-automated-investigations-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 자동화 된 조사에 따라 수정 작업 수행
 
@@ -39,7 +39,7 @@ Microsoft Threat Protection에 대 한 자동화 된 조사 중 및 후에는 �
 
 |장치 (끝점) 재구성 작업  |전자 메일 수정 작업  |
 |---------|---------|
-|파일 격리<br/>레지스트리 키 추가<br/>프로세스 중단 <br/>서비스 중지 <br/>드라이버 해제 <br/>예약된 작업 제거      |전자 메일 메시지 또는 클러스터의 일시 삭제<br/>차단 URL(클릭 시간)<br/>외부 메일 전달 해제          |
+|-수집 조사 패키지 <br/>-장치 격리 (이 작업을 실행 취소할 수 있음)<br/>-Offboard 컴퓨터 <br/>-릴리스 코드 실행 <br/>-격리에서 릴리스 <br/>-요청 샘플 <br/>-코드 실행 제한 (이 작업을 실행 취소할 수 있음) <br/>-바이러스 검사 실행 <br/>-중지 및 격리      |-블록 URL (시간 클릭)<br/>-소프트 삭제 전자 메일 메시지 또는 클러스터<br/>-격리 전자 메일<br/>-전자 메일 첨부 파일 격리<br/>-외부 메일 전달을 해제 합니다.          |
 
 승인 보류 중 이거나 이미 완료 되었는지 여부에 관계 없이 수정 작업은 [알림 센터](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center)에서 볼 수 있습니다.
 

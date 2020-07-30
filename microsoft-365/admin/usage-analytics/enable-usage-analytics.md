@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Power BI의 Microsoft 365 사용 현황 분석 서식 파일 앱을 사용 하 여 테 넌 트에 대 한 데이터 수집을 시작 하는 방법을 알아봅니다.
-ms.openlocfilehash: fa0973521f5a5e7e8b9b0fda161a5b4779d64c68
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 20228b0e2070065834ce203e22af619480311367
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401509"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46502952"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석을 사용하도록 설정
 
@@ -36,7 +36,7 @@ ms.locfileid: "44401509"
 
 ::: moniker-end
 
-Microsoft 365 사용 현황 분석은 Microsoft 365 US 정부 커뮤니티 에서도 사용할 수 있습니다.
+Microsoft 365 US 정부 커뮤니티에서는 microsoft 365 사용 현황 분석을 아직 사용할 수 없습니다.
   
 ## <a name="steps-to-enable-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석을 사용 하도록 설정 하는 단계
 

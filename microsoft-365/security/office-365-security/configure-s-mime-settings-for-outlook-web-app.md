@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 description: Exchange Online 관리자가 웹에서 Outlook의 S/MIME 설정을 보고 구성 하기 위해 수행 해야 하는 작업에 대 한 간략 한 설명입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2c1496025124717688cc812e22e0d8fe3a441112
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: b9f4e6c33369640ad66956568959dd02b01c4fb9
+ms.sourcegitcommit: df59c83174d845b8ddec48b9be2659fbfb58bb7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616625"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46517488"
 ---
 # <a name="configure-smime-settings-in-exchange-online-for-outlook-on-the-web"></a>웹용 Outlook에 대 한 Exchange Online의 S/MIME 설정 구성
 
@@ -31,7 +31,7 @@ Exchange Online 관리자는 웹에서 Outlook (이전의 Outlook Web App)을 �
 
 ## <a name="considerations-for-new-microsoft-edge-chromium-based"></a>새 Microsoft Edge에 대 한 고려 사항 (Chromium 기반)
 
-새 [Microsoft edge](https://www.microsoft.com/windows/microsoft-edge) 웹 브라우저에서 웹의 Outlook에서 S/mime을 사용 하려면 사용자 (또는 다른 관리자)가 새 microsoft Edge에 microsoft S/MIME 확장명을 설치 하도록 **Extensioninstallforcelist** 라는 microsoft edge 브라우저 정책을 설정 하 고 구성 해야 합니다. 정책 값은 `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx` 입니다. 또한이 정책을 적용 하려면 도메인에 가입 된 컴퓨터가 필요 하므로 새 Microsoft Edge 브라우저에서 S/MIME을 사용 하려면 도메인에 가입한 컴퓨터가 필요 합니다.
+새 [Microsoft edge](https://www.microsoft.com/windows/microsoft-edge) 웹 브라우저에서 웹의 Outlook에서 S/mime을 사용 하려면 사용자 (또는 다른 관리자)가 새 microsoft Edge에 microsoft S/MIME 확장명을 설치 하도록 **Extensioninstallforcelist** 라는 microsoft edge 브라우저 정책을 설정 하 고 구성 해야 합니다. 정책 값은 `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx` 입니다. 또한이 정책을 적용 하려면 도메인에 가입 된 장치 또는 Azure AD 조인한 장치가 필요 하므로 새 Microsoft Edge 브라우저에서 S/MIME을 사용 하려면 도메인에 가입 하거나 Azure AD에 가입한 장치가 필요 합니다.
 
 **Extensioninstallforcelist** 정책에 대 한 자세한 내용은 [extensioninstallforcelist](https://docs.microsoft.com/DeployEdge/microsoft-edge-policies#extensioninstallforcelist)를 참조 하십시오.
 

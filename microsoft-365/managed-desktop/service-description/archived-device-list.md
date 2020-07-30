@@ -8,12 +8,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: ca6bc91ebf300afe47326985cc923d929b2cd412
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: 4c7ce4e8fd9c41f9ae9417f546e14e7bf8beda5c
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45080084"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46503070"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Microsoft Managed Desktop 보관 장치
 
@@ -43,6 +43,9 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 |HP EliteBook x360 1030 G3| 256 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 |**5 월 14 일 2023** |
 |HP EliteBook x360 1040 G5| 256 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 | **2023 년 10 월 23 일** |
 |HP ProBook x360 440 G1| 128 GB/Intel i3/8gb RAM | 5VS04AV, IR 카메라 또는 지문 판독기가 필요한 SKU | **7 월 6 일 2023** |
+|HP EliteDesk 800 G4 DM | 128 GB/Intel i3/8gb RAM | 5VS04AV를 사용한 SKU | **7 월 18 일 2023** |
+|HP EliteDesk 800 G4 SFF | 128 GB/Intel i3/8gb RAM | 5VS04AV를 사용한 SKU | **7 월 18 일 2023** |
+|AIO HP EliteOne 800 G4 23.8 |128 GB/Intel i3/8gb RAM |5VS04AV를 사용한 SKU| **7 월 18 일 2023** |
 |Surface Book 2| 256 GB/Intel i5/8gb RAM | 없음 | **2022 년 11 월 16 일** |
 |표면 이동| 128 GB/Intel 4415Y/8GB RAM | 없음 | **8 월 2 일, 2023** |
 |Surface 랩탑| 256 GB/Intel i5/8gb RAM | 없음 | **5 월 20 일, 2022** |

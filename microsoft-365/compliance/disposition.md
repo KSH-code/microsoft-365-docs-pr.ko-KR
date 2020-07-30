@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용 하 든, 구성 된 설정에 따라 콘텐츠를 자동으로 삭제할지 여부에 관계 없이 콘텐츠 삭제를 모니터링 하 고 관리 합니다.
-ms.openlocfilehash: 5c8c8c4e99edbc32bbca4b3efbe79325f53a3380
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 2ce0478602fa6b833e53b0b3a41a89b7a0fad03b
+ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127015"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506323"
 ---
 # <a name="disposition-of-content"></a>콘텐츠 처리
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
 
 Microsoft 365 준수 센터의 **레코드 관리** 에서 **처리** 탭을 사용 하 여 처리 검토를 관리 하 고 보존 기간이 끝나면 자동으로 삭제 된 [레코드](records.md) 를 확인 합니다. 
 
@@ -79,7 +79,7 @@ Microsoft 365 준수 센터의 **처리** 탭에 성공적으로 액세스 하�
 
 ![레코드 관리 개요에서 보류 중인 dispositions](../media/dispositions-overview.png)
 
-**보류 중인 모든 Dispositions 보기**를 선택 하면 **처리** 페이지로 이동 됩니다. 예시:
+**보류 중인 모든 Dispositions 보기**를 선택 하면 **처리** 페이지로 이동 됩니다. 예제:
 
 ![Microsoft 365 준수 센터의 Dispositions 페이지](../media/disposition-tab.png)
 
@@ -121,16 +121,16 @@ Microsoft 365 준수 센터의 **처리** 탭에 성공적으로 액세스 하�
 
 처리 검토를 기다리는 콘텐츠는 검토자가 콘텐츠를 영구적으로 삭제 하도록 선택한 후에만 삭제 됩니다. 검토자가이 옵션을 선택 하면 SharePoint 사이트 또는 OneDrive 계정의 콘텐츠가 [보존 설정에서 콘텐츠 작업을 수행 하는 방식](retention.md#how-retention-settings-work-with-content-in-place)에 설명 된 표준 정리 프로세스를 수행할 수 있게 됩니다.
 
-## <a name="disposition-of-records"></a>레코드 처리
+## <a name="disposition-of-records"></a>콘텐츠 처분
 
 > [!NOTE]
-> 처리 검토 없이 자동으로 삭제 된 레코드를 확인 하는 기능은 4 2020 월 중에 테 넌 트로 서서히 롤아웃 되므로이 환경이 즉시 표시 되지 않을 수 있습니다.
+> 처리 검토 없이 자동으로 삭제 된 레코드를 확인 하는 기능은 여전히 테 넌 트로 롤아웃 되므로이 롤아웃 기간 동안에는 삭제 한 항목이 모두 표시 되지 않을 수 있습니다.
 
-**레코드 관리** 페이지의 **처리** 탭을 사용 하 여 자동으로 삭제 되는 레코드를 식별 합니다. 이러한 항목은 **형식** 열에서 **삭제 된 레코드** 를 표시 합니다. 예시:
+**레코드 관리** 페이지의 **처리** 탭을 사용 하 여 자동으로 삭제 되는 레코드를 식별 합니다. 이러한 항목은 **형식** 열에서 **삭제 된 레코드** 를 표시 합니다. 예제:
 
 ![처리 검토 없이 삭제 된 항목](../media/records-disposed2.png)
 
-레코드 레이블에 대 한 삭제 된 **항목** 탭에 표시 되는 항목은 항목을 삭제 한 후 최대 7 년 동안 유지 되며 해당 기간에 대 한 레코드 당 항목 제한은 100만 개입니다. 이 100만에 도달 **하 고 레코드** 에 대 한 처리 증거를 요구 하는 경우에는 [Microsoft 지원](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)서비스에 문의 하십시오.
+레코드 레이블에 대 한 삭제 된 **항목** 탭에 표시 되는 항목은 항목을 삭제 한 후 최대 7 년 동안 유지 되며 해당 기간에 대해 레코드 당 항목 제한은 100만 개입니다. 이 100만에 도달 **하 고 레코드** 에 대 한 처리 증거를 요구 하는 경우에는 [Microsoft 지원](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)서비스에 문의 하십시오.
 
 > [!NOTE]
 > 이 기능은 [통합 된 감사 로그](search-the-audit-log-in-security-and-compliance.md) 의 정보를 기반으로 하므로 해당 이벤트가 캡처될 수 있도록 감사를 [사용 하도록 설정 하 고 검색](turn-audit-log-search-on-or-off.md) 해야 합니다.

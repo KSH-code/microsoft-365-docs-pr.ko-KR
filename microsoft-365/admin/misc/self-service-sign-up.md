@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -17,18 +17,15 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_SMB
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
 ms.assetid: 4f8712ff-9346-4c6c-bb63-a21ad7a62cbd
-description: Microsoft 365 셀프 서비스에 제공 되는 microsoft Power Apps, Microsoft Flow 및 Dynamics 365 (Financials)과 같은 사용 가능한 셀프 서비스 프로그램에 대해 알아봅니다.
-ms.openlocfilehash: d2d4d23eeb3ddeda0dc5b66acfe072a66f4ce267
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Microsoft 365 셀프 서비스에 제공 되는 microsoft Power Apps, Microsoft Flow 및 Dynamics 365 같은 금융 관련 셀프 서비스 프로그램에 대해 알아봅니다.
+ms.openlocfilehash: 4a95c4b98821100d0a5164b87c1afe02b854608b
+ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399293"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506300"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>조직에서 셀프 서비스 등록 사용
 
@@ -67,4 +64,5 @@ Microsoft에서 의견을 듣고 조직의 사용자가 마이크로소프트의
 |**Minecraft 교육 에디션** <br/> |학습을 위한 플랫폼으로 Minecraft을 사용 하 여, 교육자는 모든 학생이 동기를 inspire 하 고 학습을 위한 열정을 ignite 수 있습니다. 교육 전문가 커뮤니티에 참여 Minecraft을 사용 하 여 학생의 잠재력을 해제 하는 방법을 알아봅니다.  <br/> |[Minecraft 교육 에디션](https://go.microsoft.com/fwlink/p/?linkid=841480) <br/> |[Minecraft 교육 에디션](https://go.microsoft.com/fwlink/p/?linkid=841471) <br/> |
 |**Microsoft Stream** <br/> |조직 전체에서 비디오를 업로드 하 고 공유 하 여 통신, 참여 및 학습을 개선 합니다.  <br/> |[&amp;하루 종일 알림 신청](https://go.microsoft.com/fwlink/p/?linkid=841472) <br/> |[Microsoft Stream](https://go.microsoft.com/fwlink/p/?linkid=841473) <br/> |
 |**전원 자동화** <br/> |전원 자동화는 즐겨 찾는 앱과 서비스 간에 자동화 된 워크플로를 설정 하 여 파일을 동기화 하 고, 알림을 가져오고, 데이터를 수집 하는 데 도움이 되는 제품입니다.  <br/> |[등록 및 로그인 하 여 전원 자동화](https://docs.microsoft.com/power-automate/sign-up-sign-in) <br/> |[전원 자동화](https://go.microsoft.com/fwlink/p/?linkid=841465) <br/> |
-|**Power Virtual Agents** <br/> |파워 가상 에이전트를 사용 하면 팀이 데이터 과학자 나 개발자 없이도 코딩 된 비 코드 그래픽 인터페이스를 통해 강력한 인공 지능을 쉽게 만들 수 있습니다. 파워 가상 에이전트는 현재 업계에서 bot 건물을 사용 하는 수많은 주요 문제를 해결 합니다. 이를 통해 주제별 전문가와 인공 지능 개발 팀 간의 차이와 문제점을 인식 하 고 문제를 해결 하기 위해 인공으로 업데이트 하는 팀 간의 긴 대기 시간을 없앨 수 있습니다.  <br/> |[라이선스 및 액세스 세부 정보](https://go.microsoft.com/fwlink/?linkid=2113708) <br/> |[파워 가상 에이전트 등록](https://aka.ms/TryPVA) <br/> |
+|**파워 가상 에이전트** <br/> |파워 가상 에이전트를 사용 하면 팀이 데이터 과학자 나 개발자 없이도 코딩 된 비 코드 그래픽 인터페이스를 통해 강력한 인공 지능을 쉽게 만들 수 있습니다. 파워 가상 에이전트는 현재 업계에서 bot 건물을 사용 하는 수많은 주요 문제를 해결 합니다. 이를 통해 주제별 전문가와 인공 지능 개발 팀 간의 차이와 문제점을 인식 하 고 문제를 해결 하기 위해 인공으로 업데이트 하는 팀 간의 긴 대기 시간을 없앨 수 있습니다.  <br/> |[라이선스 및 액세스 세부 정보](https://go.microsoft.com/fwlink/?linkid=2113708) <br/> |[파워 가상 에이전트 등록](https://aka.ms/TryPVA) <br/> |
+|**Azure AD B2B** <br/> |Azure Active Directory (Azure AD) B2B (business to business) 공동 작업을 사용 하 여 외부 사용자 (또는 "게스트 사용자")를 유료 Azure AD services에 초대할 수 있습니다. 일부 기능은 무료로 제공 되지만 유료 Azure AD 기능에서는 사용자가 소유 하 고 있는 각 Azure AD edition 라이선스에 대해 최대 5 명의 게스트 사용자를 초대할 수 있습니다. <br/> |[Azure AD B2B 공동 작업 등록을 위한 셀프 서비스](https://docs.microsoft.com/azure/active-directory/b2b/self-service-portal) <br/> |[Azure Active Directory B2B 공동 작업 라이선스 지침](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) <br/> |

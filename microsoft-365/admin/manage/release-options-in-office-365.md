@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Microsoft 365 관리 센터에서 새 제품 및 기능 업데이트에 대 한 릴리스 옵션을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 4b26a3e95b11feb5c6a5894702b86e74f82bde03
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3baec050f33893357b25c832552643cf3a6d10d0
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399695"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46502882"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>표준 또는 대상 지정 된 릴리스 옵션 설정
 
@@ -42,6 +42,9 @@ Microsoft 365에서는 몇 년 마다 비용이 많이 드는 업데이트를 �
   
 > [!IMPORTANT]
 > 이 문서에서 설명 하는 Microsoft 365 업데이트는 Microsoft 365, SharePoint Online 및 Exchange Online에 적용 됩니다. 비즈니스용 Skype 및 관련 서비스에는 적용되지 않습니다. 이러한 릴리스 옵션은 Microsoft 365에 대 한 변경 사항을 릴리스할 수 있는 최상의 방법 이지만 항상 또는 모든 업데이트에 대해 보장할 수 없습니다. 
+
+> [!NOTE]
+> 응용 프로그램의 업데이트 채널에 대 한 자세한 내용은 [Overview for update 채널 For Microsoft 365 Apps](https://docs.microsoft.com/deployoffice/overview-update-channels)를 참조 하세요. 
   
 ## <a name="how-it-works---release-validation"></a>방법 - 릴리스 유효성 검사
 
@@ -114,6 +117,6 @@ Microsoft 365에서는 몇 년 마다 비용이 많이 드는 업데이트를 �
 
 
   
-## <a name="learn-more"></a>자세한 정보
+## <a name="learn-more"></a>자세히 알아보기
 
 [Microsoft 365 메시지 센터](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter) 에서 [메시지를 관리](https://docs.microsoft.com/office365/admin/manage/message-center) 하 여 예정 된 Microsoft 365 업데이트 및 릴리스에 대 한 알림을 받는 방법을 알아봅니다.
