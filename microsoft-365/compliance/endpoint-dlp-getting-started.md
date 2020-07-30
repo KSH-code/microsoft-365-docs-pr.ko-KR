@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 Endpoint 데이터 손실 방지를 설정하여 파일 활동을 모니터링하고 해당 파일에 대한 보호 작업을 엔드포인트에 구현합니다.
-ms.openlocfilehash: ee276c81a0ebfbf44dd77f6016172f9bf7ed3022
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 67bd00a83314590d1ca1ab71c32d5a325686dc46
+ms.sourcegitcommit: f3a02584c9354a46c082f8f948b34a177adf65bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45200008"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46514781"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention-preview"></a>Endpoint 데이터 손실 방지(미리 보기) 시작하기
 
@@ -81,7 +81,7 @@ Endpoint DLP의 데이터는 [활동 탐색기](data-classification-activity-exp
 Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 사항을 충족하는지 확인하세요.
 
 1. Windows 10 빌드 1809 이상을 실행해야 합니다.
-2. 모든 장치가 [AAD(Azure Active Directory)에 가입](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)되어 있어야 합니다.
+2. 모든 장치가 [AAD(Azure Active Directory)에 가입](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)되어 있거나 Hybrid Azure AD에 가입되어 있어야 합니다.
 3. 엔드포인트 장치에 Microsoft Chromium Edge 브라우저를 설치하여 클라우드로 업로드 활동에 대한 정책 작업을 적용하세요. [Chromium 기반 새 Microsoft Edge 다운로드하기](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)를 참조하세요.
 
 ## <a name="onboarding-devices-into-device-management"></a>장치 관리에 장치 온보딩
@@ -159,7 +159,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 - [Endpoint 데이터 손실 방지(미리 보기)에 대한 자세한 정보](endpoint-dlp-learn-about.md)
 - [Endpoint 데이터 손실 방지(미리 보기) 사용하기](endpoint-dlp-using.md)
 - [데이터 손실 방지 개요](data-loss-prevention-policies.md)
-- [DLP 정책 만들기, 테스트 및 조정하기](create-test-tune-dlp-policy.md)
+- [DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)
 - [Microsoft Defender Advanced Threat Protection(Microsoft Defender ATP)](https://docs.microsoft.com/windows/security/threat-protection/)
 - [Windows 10 컴퓨터용 온보딩 도구 및 방법](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
