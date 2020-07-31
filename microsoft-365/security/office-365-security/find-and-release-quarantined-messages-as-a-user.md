@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 사용자에게 전달되었어야 하는 EOP(Exchange Online Protection)에 격리된 메시지를 보고 관리하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 01125b7aa0a89c27cdc8abc5ebb46da4b11ac504
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 37392034f6aef3b40dd70ceb10ec41c20abfacbf
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936986"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527461"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>EOP에서 사용자 권한으로 격리된 메시지 찾기 및 해제하기
 
@@ -38,9 +38,9 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 - 관리자는 메시지를 영구적으로 삭제하기 전에 얼마나 오래 메시지를 격리할지 구성할 수 있습니다(스팸 방지 정책). 격리에서 만료되는 메시지는 복구할 수 없습니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
-- 관리자는 스팸 방지 정책에서 [최종 사용자 스팸 알림을 사용하도록 설정](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)할 수도 있습니다. 사용자는 스팸 격리된 메시지를 해제할 수 있지만 이 알림에서 피싱 격리된 메시지를 직접 해제할 수 없습니다. 자세한 내용은 [EOP에서 최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)을 참조하세요.
+- 관리자는 스팸 방지 정책에서 [최종 사용자 스팸 알림을 사용하도록 설정](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)할 수도 있습니다. 사용자는 격리된 스팸 메시지를 해제할 수 있지만 이 알림에서 격리된 피싱 메시지를 직접 해제할 수 없습니다. 자세한 내용은 [EOP에서 최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)을 참조하세요.
 
-- 신뢰도가 높은 피싱, 맬웨어 또는 메일 흐름 규칙(전송 규칙이라고도 함)에 의해 격리된 메시지는 관리자만 볼 수 있습니다. 피싱 메시지는 사용자가 검토하고 릴리스할 수 있습니다. 자세한 내용은 [EOP에서 관리자로 격리된 메시지 관리하기](manage-quarantined-messages-and-files.md)를 참조하세요.
+- 신뢰도가 높은 피싱, 맬웨어 또는 메일 흐름 규칙(전송 규칙이라고도 함)에 의해 격리된 메시지는 관리자만 볼 수 있습니다. 피싱 메시지는 관리자가 릴리스할 뿐 아니라 사용자가 검토할 수 있습니다. 자세한 내용은 [EOP에서 관리자로 격리된 메시지 관리하기](manage-quarantined-messages-and-files.md)를 참조하세요.
 
 - 메시지를 해제하고 가양성으로(정크 아님) 한 번만 보고할 수 있습니다.
 

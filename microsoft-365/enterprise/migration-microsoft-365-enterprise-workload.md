@@ -2,7 +2,7 @@
 title: Microsoft 365 Enterprise로 마이그레이션
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/23/2019
+ms.date: 07/29/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,14 +12,20 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에서 Microsoft Office, Office 서버 및 Windows 버전을 Microsoft 365 Enterprise로 마이그레이션하는 프로세스를 단계별로 안내합니다.
-ms.openlocfilehash: 6830b4627eea799e18d32d3f9150617df339d7d4
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 05654e4714d2328f2f5853ed49df83a907e580f6
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011798"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46528063"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Microsoft 365 Enterprise로 마이그레이션
+
+
+>[!Note]
+>*콘텐츠*를 Microsoft 365로 마이그레이션할 도구를 찾고 계십니까?  사용자의 요구에 맞는 무료 마이그레이션 도구로 네트워크 파일 공유, SharePoint Server 또는 다른 클라우드 공급자의 콘텐츠를 마이그레이션할 수 있습니다. 무료 마이그레이션 도구에 대한 자세한 내용은 다음을 참고하세요.
+>
+>[콘텐츠를 Microsoft 365로 마이그레이션](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online)
 
 대부분의 엔터프라이즈 조직은 여러 릴리스의 운영 체제, 클라이언트 소프트웨어 및 서버 소프트웨어가 섞여 있는 이기종 환경을 사용하고 있습니다. Microsoft 365 Enterprise에는 클라우드 기술을 활용하도록 고안된 생산성 기능과 이러한 IT 인프라의 가장 안전한 핵심 구성 요소 버전이 포함되어 있습니다.
 
