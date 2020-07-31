@@ -18,12 +18,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365의 고급 eDiscovery 도구에서 다양 한 데이터 형식을 처리 하는 방법에 대 한 개요를 읽으십시오.
-ms.openlocfilehash: f9940318ba7355303e8afed1c83bb314d98b86cf
-ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
+ms.openlocfilehash: 0725b38af00ec787869090c5a57f5a865fb421e7
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45024758"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527408"
 ---
 # <a name="work-with-processing-errors-in-advanced-ediscovery"></a>Advanced eDiscovery에서의 처리 오류 작업
 

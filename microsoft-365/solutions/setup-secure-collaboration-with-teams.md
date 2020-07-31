@@ -9,16 +9,17 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-- M365solutions
+- m365solution-securecollab
+- m365solution-overview
 ms.custom: ''
 f1.keywords: NOCSH
 description: 해당 민감도에 따라 데이터를 보호 하도록 팀을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 8978c8602a00dd9c7caecc30ea4746a01680a236
-ms.sourcegitcommit: 92f641cad63379bf16417854a43b16b48a71a30a
+ms.openlocfilehash: ef49e788805139bf82fa5b1b43d2a87323640820
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44724798"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527711"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Microsoft 365를 사용하여 안전한 공동 작업 설정
 
@@ -78,12 +79,12 @@ Microsoft 365에서는 다음과 같은 다양 한 구성을 사용 하 여 팀�
 ||**기본 계층**|**중요 계층**|**높은 중요 계층**|
 |:--|:-----------|:------------|:-------------------|
 |공용 또는 비공개 팀|일|개인|개인|
-|인증되지 않은 공유|수준|수준|수준|
-|파일 공유|있도록|있도록|팀 소유자만 공유할 수 있습니다.|
+|인증되지 않은 공유|차단됨|차단됨|차단됨|
+|파일 공유|허용됨|허용됨|팀 소유자만 공유할 수 있습니다.|
 |팀 구성원|모든 사용자가 공용 팀에 참가할 수 있습니다.<br>비공개 팀에 참가 하는 데 필요한 팀 소유자 승인|참가 하는 데 필요한 팀 소유자 승인입니다.|참가 하는 데 필요한 팀 소유자 승인입니다.|
 |문서 암호화|||민감도 레이블 사용 가능|
-|게스트 공유|있도록|허용 하거나 차단할 수 있습니다.|허용 하거나 차단할 수 있습니다.|
-|관리 되지 않는 장치|제한 없음|웹 전용 액세스|수준|
+|게스트 공유|허용됨|허용 하거나 차단할 수 있습니다.|허용 하거나 차단할 수 있습니다.|
+|관리 되지 않는 장치|제한 없음|웹 전용 액세스|차단됨|
 
 이러한 계층 구성에는 다음이 포함 됩니다.
 

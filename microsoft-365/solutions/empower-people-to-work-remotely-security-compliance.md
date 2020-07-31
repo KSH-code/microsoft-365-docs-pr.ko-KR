@@ -14,15 +14,15 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
-- M365solutions
+- m365solution-remotework
 ms.custom: ''
 description: Microsoft 365 보안 및 규정 준수 서비스를 사용하여 원격 작업자를 위한 애플리케이션, 데이터 및 장치를 보호할 수 있습니다.
-ms.openlocfilehash: 82c86ae2ab53c642a1fcdb64a9bbb75e04d5f6fc
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: 7483075767b7ffaf269899d83a0ab6e5f5759e99
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45429903"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521508"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-remote-workers"></a>3단계: 원격 작업자를 위한 보안 및 규정 준수 구현
 

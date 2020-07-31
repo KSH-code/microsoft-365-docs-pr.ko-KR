@@ -19,27 +19,27 @@ search.appverid:
 ms.assetid: 5f4f8206-2d6a-4cb2-bbc6-7a0698703cc0
 description: 이 문서의 콘텐츠 검색 및 스크립트를 사용 하 여 사용자 그룹에 대 한 사서함 및 비즈니스용 OneDrive 사이트를 검색할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 714574739256f98353f01478fb9216432f3dcb47
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 90aab661992ae2f0c19d18939191230dc0469eaa
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818978"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527364"
 ---
 # <a name="use-content-search-to-search-the-mailbox-and-onedrive-for-business-site-for-a-list-of-users"></a>콘텐츠 검색을 사용하여 사용자 목록에 대 한 사서함 및 비즈니스용 OneDrive 검색
 
-보안 & 준수 센터는 시간이 오래 걸리는 eDiscovery 관련 작업을 자동화 하는 데 사용할 수 있는 다양 한 Windows PowerShell cmdlet을 제공 합니다. 현재, 보안 & 준수 센터에서 콘텐츠 검색을 만들어 많은 수의 custodian 콘텐츠 위치를 검색 하려면 시간과 준비를 수행 해야 합니다. 검색을 만들기 전에 각 비즈니스용 OneDrive 사이트에 대 한 URL을 수집한 다음 각 사서함과 비즈니스용 OneDrive 사이트를 검색에 추가 해야 합니다. 향후 릴리스에서는 보안 & 준수 센터에서이 작업을 수행 하기가 더 쉽습니다. 그때까지이 문서의 스크립트를 사용 하 여이 프로세스를 자동화할 수 있습니다. 이 스크립트는 조직의 내 사이트 도메인 (예: URL의 **contoso** , https://contoso-my.sharepoint.com) 사용자 전자 메일 주소 목록, 새 콘텐츠 검색의 이름, 사용할 검색 쿼리)의 이름을 입력 하 라는 메시지를 표시 합니다. 이 스크립트는 목록에 있는 각 사용자의 비즈니스용 OneDrive URL을 가져온 다음, 사용자가 제공한 검색 쿼리를 사용 하 여 목록에 있는 각 사용자별로 사서함 및 비즈니스용 OneDrive 사이트를 검색 하는 콘텐츠 검색을 만들고 시작 합니다. 
+보안 & 준수 센터는 시간이 오래 걸리는 eDiscovery 관련 작업을 자동화 하는 데 사용할 수 있는 다양 한 Windows PowerShell cmdlet을 제공 합니다. 현재, 보안 & 준수 센터에서 콘텐츠 검색을 만들어 많은 수의 custodian 콘텐츠 위치를 검색 하려면 시간과 준비를 수행 해야 합니다. 검색을 만들기 전에 각 비즈니스용 OneDrive 사이트에 대 한 URL을 수집한 다음 각 사서함과 비즈니스용 OneDrive 사이트를 검색에 추가 해야 합니다. 향후 릴리스에서는 보안 & 준수 센터에서이 작업을 수행 하기가 더 쉽습니다. 그때까지이 문서의 스크립트를 사용 하 여이 프로세스를 자동화할 수 있습니다. 이 스크립트는 조직의 내 사이트 도메인 (예: URL의 **contoso** `https://contoso-my.sharepoint.com` ), 사용자 전자 메일 주소 목록, 새 콘텐츠 검색의 이름, 사용할 검색 쿼리 등을 묻는 메시지를 표시 합니다. 이 스크립트는 목록에 있는 각 사용자의 비즈니스용 OneDrive URL을 가져온 다음, 사용자가 제공한 검색 쿼리를 사용 하 여 목록에 있는 각 사용자별로 사서함 및 비즈니스용 OneDrive 사이트를 검색 하는 콘텐츠 검색을 만들고 시작 합니다.
   
 ## <a name="permissions-and-script-information"></a>사용 권한 및 스크립트 정보
 
 - 3 단계에서 스크립트를 실행 하려면 Security & 준수 센터 및 SharePoint Online 전역 관리자에서 eDiscovery Manager 역할 그룹의 구성원 이어야 합니다.
-    
+
 - 2 단계에서 만든 사용자 목록과 3 단계의 스크립트를 같은 폴더에 저장 해야 합니다. 이를 통해 스크립트를 보다 쉽게 실행할 수 있습니다.
-    
-- 스크립트에 최소 오류 처리가 포함 되어 있습니다. 기본 목적은 사서함과 각 사용자의 비즈니스용 OneDrive 사이트를 빠르고 쉽게 검색 하는 것입니다.
-    
-- 이 항목에서 제공 하는 예제 스크립트는 Microsoft standard 지원 프로그램 또는 서비스에서 지원 되지 않습니다. 예제 스크립트는 어떤 종류의 보증도 없이 있는 그대로 제공 됩니다. Microsoft [https://go.microsoft.com/fwlink/p/?LinkId=517283](https://go.microsoft.com/fwlink/p/?LinkId=517283) 는 상품성 또는 특정 목적에의 적합성에 대 한 묵시적 보증을 제한 없이 포함 하 여 모든 i mplied 보증을 배제 합니다. 예제 스크립트 및 설명서의 사용 또는 성능으로 인해 발생 하는 전체 위험은 사용자에 게 남아 있습니다. No 이벤트가 발생 하는 경우 Microsoft, 작성자는 또는 스크립트의 만들기, 프로덕션 또는 배달에 관여 하는 다른 모든 사용자에 게는 샘플 스크립트 또는 설명서를 사용 하는 것이 불가능 한 경우 (예: 제한 사항, 비즈니스 중단, 비즈니스 정보 손실 또는 기타 pecuniary 손실)에 대 한 책임을 지 며, Microsoft에서 이러한 손해에 대 한 권고를 받은 경우에도 권장 됩니다.
-    
+
+- 스크립트에 최소 오류 처리가 포함 되어 있습니다. 이 기본 목적은 각 사용자의 사서함 및 비즈니스용 OneDrive 사이트를 빠르고 쉽게 검색 하는 것입니다.
+
+- 이 항목에서 제공된 샘플 스크립트는 Microsoft 표준 지원 프로그램 또는 서비스에서는 지원되지 않습니다. 샘플 스크립트는 어떠한 보증도 없이 "있는 그대로" 제공됩니다. Microsoft는 묵시적인 모든 보증(상품성 또는 특정 목적에의 적합성에 대한 묵시적인 보증을 포함하되 이에 제한되지 않음)을 부인합니다. 샘플 스크립트 및 문서의 사용 또는 수행으로 인해 발생하는 모든 위험은 사용자의 책임입니다. 어떠한 경우에도 Microsoft, 스크립트 작성자 또는 스크립트의 작성, 생산 또는 제공과 관련된 사람은 누구나 샘플 스크립트 또는 문서의 사용 또는 사용 불가능으로 인해 발생하는 모든 손해(수익에 대한 손실, 비즈니스 중단, 비즈니스 정보 손실 또는 기타 금전상의 손실을 포함하되 이에 제한되지 않음)에 대해 책임지지 않습니다. 이는 Microsoft가 이러한 손해가 발생할 가능성에 대해 알고 있었더라고 마찬가지입니다.
+
 ## <a name="step-1-install-the-sharepoint-online-management-shell"></a>1단계: SharePoint Online 관리 셸 설치
 
 첫 번째 단계는 SharePoint Online 관리 셸을 설치 하는 것입니다. 이 절차에서 셸을 사용할 필요는 없지만 3 단계에서 실행 하는 스크립트에 필요한 필수 구성 요소를 포함 하기 때문에 설치 해야 합니다. 이러한 필수 구성 요소를 통해 스크립트가 SharePoint Online과 통신 하 여 비즈니스용 OneDrive 사이트용 Url을 가져올 수 있습니다.

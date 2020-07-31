@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 미국 정부 클라우드의 관리자는 조직의 HR (인사) 시스템에서 직원 데이터를 Microsoft 365로 가져오는 데이터 커넥터를 설정할 수 있습니다. 이를 통해 참가자 위험 관리 정책에 HR 데이터를 사용 하 여 조직에 내부적인 위협을 초래할 수 있는 특정 사용자의 작업을 검색 하는 데 도움을 받을 수 있습니다.
-ms.openlocfilehash: 8023ffda8a9d367736ec8f7fc781bde5d6f1e1f5
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.openlocfilehash: e14f1a23097cddf3b187d4394d5fa5e3afe06d01
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45205032"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527646"
 ---
 # <a name="set-up-a-connector-to-import-hr-data-in-us-government-preview"></a>US 정부 (미리 보기)에서 HR 데이터를 가져올 커넥터 설정
 
@@ -87,7 +87,7 @@ CSV 파일의 첫 번째 행 또는 머리글 행에는 필요한 열 이름이 
 
    b. HR 커넥터의 이름을 입력 합니다.
 
-5. **파일 매핑** 페이지에서 열 머리글 이름 3 개 (해당 하는 각 상자에 2 단계에서 만든 CSV 파일의 *매개 변수* 라고도 함)를 입력 합니다. 이름은 대/소문자를 구분 하지 않습니다. 앞에서 설명한 것 처럼 이러한 상자에 입력 하는 이름은 CSV 파일의 매개 변수 이름과 일치 해야 합니다. 예를 들어 다음 스크린샷에서는 2 단계에 표시 된 예제 CSV 파일 예제에 나와 있는 매개 변수 이름을 보여 줍니다.
+5. **파일 매핑** 페이지에서 해당 하는 각 상자에서 2 단계에서 만든 CSV 파일에 있는 세 개의 열 머리글 ( *매개 변수*라고도 함)의 이름을 입력 합니다. 이름은 대/소문자를 구분 하지 않습니다. 앞에서 설명한 것 처럼 이러한 상자에 입력 하는 이름은 CSV 파일의 매개 변수 이름과 일치 해야 합니다. 예를 들어 다음 스크린샷에서는 2 단계에 표시 된 예제 CSV 파일 예제에 나와 있는 매개 변수 이름을 보여 줍니다.
 
    ![열 머리글 이름이 CSV 파일의 이름과 일치 합니다.](../media/HRConnectorWizard3.png)
 

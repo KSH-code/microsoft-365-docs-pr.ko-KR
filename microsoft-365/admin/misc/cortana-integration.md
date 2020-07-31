@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: 유효한 회사 또는 학교 계정으로 로그인 한 사용자는 Office 365의 엔터프라이즈 수준 개인 정보, 보안 및 준수 약속을 충족 하는 Microsoft 365 환경에서 Cortana를 사용 하 여 클라우드 기반 지원 서비스를 받을 수 있습니다.
-ms.openlocfilehash: 7b8f60f5138de63234520f18d6de0973b74482ed
-ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
+ms.openlocfilehash: 5707fb5966e77787b609c20b204602318627d350
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083553"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521280"
 ---
 # <a name="cortana-in-microsoft-365"></a>Microsoft 365의 Cortana
 
@@ -33,7 +33,7 @@ Cortana, 개인 생산성 도우미는 시간을 절약 하 고 가장 중요 �
 
 개인적인 생산성 도우미는 Cortana가 전자 메일, 파일, 채팅 등의 Office 365 데이터를 안전 하 고 안전 하 게 처리 하 고 이유를 제공 하 여 시간을 절약 하 고 효율성을 높이 며 사용자의 생산성을 향상 시킬 수 있도록 디자인 되었습니다.
 
-앞으로는 엔터프라이즈 생산성에 Cortana가 초점을 맞추어 진행 되 고 있습니다. 
+앞으로는 엔터프라이즈 생산성에 Cortana가 초점을 맞추어 진행 되 고 있습니다.
 
 - 다른 Office 365 서비스와 마찬가지로 Cortana 엔터프라이즈 서비스는 [온라인 서비스 약관 (OST)](https://www.microsoft.com/licensing/product-licensing/products)에 반영 된 것과 같은 엔터프라이즈 수준의 개인 정보, 보안 및 규정 준수를 충족 합니다.
 
@@ -159,7 +159,7 @@ Cortana가 사용자가 설정한 브리핑 전자 메일을 **완료** 됨으�
 
 1. Microsoft 365 관리 센터에서 **Settings**  >  **조직 설정** 설정을 선택 하 고 **Cortana**를 선택 합니다.
 
-2. **이러한 cortana 연결 환경에서 조직의 Microsoft hosted 데이터를 사용 하** 여 cortana 연결 환경을 사용 하지 않도록 설정 하려면 확인란을 선택 취소 합니다.
+2. **Windows 10 (버전 1909 이상)의 Cortana 허용과 iOS 및 Android의 cortana 앱** 에 대 한 확인란의 선택을 취소 하 여 조직의 사용자 대신 Microsoft에서 호스트 하는 데이터에 액세스 하 여 cortana 연결 환경을 사용 하지 않도록 설정 합니다.
 
 3. **변경 내용 저장**을 선택합니다.
 

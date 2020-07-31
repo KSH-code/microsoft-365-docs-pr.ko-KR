@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
-- M365solutions
+- m365solution-infoprotection
 ms.custom: ''
 description: Microsoft 365 보존 레이블 및 정책을 사용 하 여 Microsoft 365 환경에서 개인 데이터를 관리 합니다.
-ms.openlocfilehash: 4c65eafa167d7224c4022d5634ce089952fada19
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+ms.openlocfilehash: a7a0d6e00d29d80dfd0cb72ba217177aa6029a2c
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695164"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46522304"
 ---
 # <a name="govern-information-subject-to-data-privacy-regulation"></a>데이터 개인 정보 규정의 영향을 받는 정보 제어
 

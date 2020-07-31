@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 고급 인덱싱을 사용 하 여 검색에서 조사 하려는 모든 데이터를 캡처 하는지 확인 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dc7d73c233aa48b88e9dce32fad613ccc5e19333
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 6e72ec4a41d5b32ef3837e52f21836207c6f66e1
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035064"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527580"
 ---
 # <a name="advanced-indexing-of-data-for-an-investigation"></a>조사를 위한 데이터의 고급 인덱싱
 
@@ -40,7 +40,7 @@ ms.locfileid: "44035064"
 
 ## <a name="viewing-advanced-indexing-results"></a>고급 인덱싱 결과 보기
 
-고급 인덱싱 프로세스가 완료 되 면 다시 처리할 때의 효과를 이해 하는 데 도움이 될 수 있습니다.  관심 있는 사용자 보기에서 그래프에는 *하이브리드 인덱스*에 추가 된 모든 항목이 나열 됩니다.  하이브리드 인덱스는 데이터 조사 (미리 보기)에 다시 처리 된 콘텐츠가 저장 되는 위치입니다.
+고급 인덱싱 프로세스가 완료 되 면 다시 처리 효율성을 파악할 수 있습니다.  관심 있는 사용자 보기에서 그래프에는 *하이브리드 인덱스*에 추가 된 모든 항목이 나열 됩니다.  하이브리드 인덱스는 데이터 조사 (미리 보기)가 다시 처리 된 콘텐츠를 저장 합니다.
 
 또한 그래프에는 수정이 필요한 항목 수와 파일 형식별로 다른 오류 그래프가 포함 되어 있습니다. 자세한 내용은 [데이터를 처리할 때 오류 수정을](error-remediation.md)참조 하십시오.
 

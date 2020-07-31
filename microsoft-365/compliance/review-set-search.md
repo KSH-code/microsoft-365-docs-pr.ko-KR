@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 고급 eDiscovery 사례에서 보다 효율적인 검토를 위해 데이터를 구성 하기 위해 검토 집합에서 쿼리를 만들고 실행 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1bf4d86ea4aecb33cbb2e7ad7b617cd58a5c086d
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 871630af4b8b19e5fad1a062129782e36b9706f5
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034602"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527438"
 ---
 # <a name="query-the-data-in-a-review-set"></a>검토 집합에서 데이터 쿼리
 

@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -24,14 +25,14 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Outlook을 사용 하 여 암호화 된 전자 메일을 보내는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b9d5d32b61c49dcffaab83fb13e46d32f2166552
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: f5184de55ce07d5e669e98afb6e627833071c4ba
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45080030"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526879"
 ---
-# <a name="encrypt-or-label-your-sensitive-email"></a>중요 한 전자 메일 암호화 또는 레이블 지정
+# <a name="encrypt-or-label-your-sensitive-email"></a>중요한 전자 메일을 암호화하거나 레이블을 지정합니다.
 
 데이터 및 캠페인 정보가 중요 하 고 기밀을 유지 하는 경우가 많습니다. 사용자와 전자 메일 받는 사람이 해당 정보를 필요한 민감도로 취급할 수 있도록 암호화 및 민감도 레이블을 사용 하 여 이러한 중요 한 정보를 보호 합니다.
 

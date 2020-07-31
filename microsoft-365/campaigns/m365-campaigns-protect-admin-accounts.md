@@ -13,6 +13,7 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - MiniMaven
@@ -21,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 관리자 계정을 설정 하 고 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: 2104697320308b329f9fde1b6984c15f9814f9ef
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: dc5f72cda0255641d7d2407d266a6ae584560733
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633656"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527189"
 ---
 # <a name="protect-your-administrator-accounts"></a>관리자 계정 보호
 
@@ -67,7 +68,7 @@ Microsoft 365에 등록 하 고 정보를 입력 하면 자동으로 전역 관�
 
 ## <a name="create-a-user-account-for-yourself"></a>자신을 위한 사용자 계정 만들기
 
-사용자 계정을 사용 하 여 메일 검사를 포함 하 여 조직과 공동 작업에 참여 합니다. 즉, 관리자 자격 증명은 *Chavez<span></span>@Contoso* 와 유사할 수 있으며 일반 사용자 계정은 *alice<span></span>@Contoso*와 비슷할 수 있습니다.
+사용자 계정을 사용 하 여 메일 검사를 포함 하 여 조직과 공동 작업에 참여 합니다. 즉, 관리자 자격 증명은 *Chavez <span></span> @Contoso* 와 유사할 수 있으며 일반 사용자 계정은 *alice <span></span> @Contoso*와 비슷할 수 있습니다.
 
 새 사용자 계정을 만들려면 다음을 수행 합니다.
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">관리 센터로</a> 이동한 후 왼쪽 탐색 창에서 **사용자** \> **활성 사용자** 를 선택 합니다.

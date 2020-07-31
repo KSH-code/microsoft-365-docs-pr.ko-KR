@@ -14,14 +14,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: aed65bcd-0a4f-43e9-b5e5-b98cc376bdf8
-description: 'Microsoft 365 Advanced eDiscovery의 결정 탭에서 사례 파일의 검토 집합에 대 한 올바른 크기를 결정 하는 데 도움이 되는 데이터를 제공 하는 방법에 대해 알아봅니다. '
+description: 고급 eDiscovery의 결정 탭에서 사례 파일의 검토 집합에 대 한 올바른 크기를 결정 하는 데 도움이 되는 데이터를 제공 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0139bc0505150a4d27aaca97b9b253f2043d649f
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 04c6f0c8fede315f175e0ed6ae265c7463405a62
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817907"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46528008"
 ---
 # <a name="decision-based-on-the-results-in-advanced-ediscovery-classic"></a>고급 eDiscovery의 결과를 기반으로 결정 (클래식)
 
@@ -34,11 +34,11 @@ ms.locfileid: "44817907"
 
 ![관련성을 결정](../media/f32fed89-f3b5-404a-90c7-ea25d2eb58a9.png)
   
-이 탭에는 다음 항목이 포함 됩니다.
+이 탭에는 다음과 같은 구성 요소가 포함 됩니다.
   
 - **문제**: 여기서 필요한 문제를 목록에서 선택할 수 있습니다. 
     
-- **검토-회수 비율**: 관련성 성적에 따른 고급 eDiscovery 검토의 비교입니다. 차트의 구분 지점은 검토 중 이며 관련성 점수에 매핑되는 파일의 비율을 나타냅니다. 이는 관련성 테스트 단계 및 culling의 내보내기 임계값으로 사용 됩니다. 검토할 파일 수에 대 한 기본 구분 지점은 재호출 및 정밀도 간의 균형이 가장 적합 한 시점입니다. 실제 구분 지점은 목표 및 비용 급여 (% review) 및 위험 (% 회수)에 따라 사용자가 결정 해야 합니다. 슬라이더를 사용 하 여 구분 지점을 조정 하 고 그래프 및 매개 변수에 대 한 영향을 확인 하 고, 검색할 관련 파일의 비율을 조정 하 고, 의사 결정을 확인 하기 전에 결과를 확인할 수 있습니다.
+- **검토-회수 비율**: 관련성 성적에 따라 Advanced eDiscovery 검토를 비교 합니다. 차트의 구분 지점은 검토 중 이며 관련성 점수에 매핑되는 파일의 비율을 나타냅니다. 이는 관련성 테스트 단계 및 culling의 내보내기 임계값으로 사용 됩니다. 검토할 파일 수에 대 한 기본 구분 지점은 재호출 및 정밀도 간의 균형이 가장 적합 한 시점입니다. 실제 구분 지점은 목표 및 비용 급여 (% review) 및 위험 (% 회수)에 따라 사용자가 결정 해야 합니다. 슬라이더를 사용 하 여 구분 지점을 조정 하 고 그래프 및 매개 변수에 대 한 영향을 확인 하 고, 검색할 관련 파일의 비율을 조정 하 고, 의사 결정을 확인 하기 전에 결과를 확인할 수 있습니다.
     
 - **매개 변수**: Review, 회수, Next 관련성이 있는 and Total cost 매개 변수는 전체 사례에 대 한 컬렉션과 관련 하 여 검토 집합과 관련 된 누적 계산 통계입니다. 이러한 매개 변수에 대 한 정의는 다음과 같습니다.
     

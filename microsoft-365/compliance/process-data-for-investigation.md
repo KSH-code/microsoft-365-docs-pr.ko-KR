@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 8f5ef193a895bce51b733eaa98817d7c119217d0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 데이터 조사를 위한 데이터를 처리 합니다.
+ms.openlocfilehash: 0516c6e41caf33fad457754b613e12b7f23701aa
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632233"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527428"
 ---
 # <a name="process-data-for-an-investigation"></a>조사를 위한 데이터 처리
 
@@ -34,4 +34,5 @@ ms.locfileid: "43632233"
 자세한 내용은 다음 문서를 참조 하세요.
 
 - [조사를 위한 데이터의 고급 인덱싱](index-data-people-of-interest.md)
+
 - [데이터를 처리할 때 오류 수정](error-remediation.md)

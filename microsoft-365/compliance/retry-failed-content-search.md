@@ -16,19 +16,20 @@ search.appverid:
 ms.assetid: ''
 description: 조사 중에 다시 시도 단추를 사용 하 여 콘텐츠 위치 오류가 있는 콘텐츠 검색을 확인할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6b2d26cd51c30f2c273abb59199cf4a89f5b7a37
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 55ef7ff59bfc58809d0e00ff1f2edf7a8455ba13
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034632"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527636"
 ---
 # <a name="retry-a-content-search-to-resolve-a-content-location-error"></a>콘텐츠 검색을 다시 시도 하 여 콘텐츠 위치 오류 해결
 
-보안 및 준수 센터에서 콘텐츠 검색을 사용 하 여 많은 수의 사서함을 검색 하는 경우 다음과 유사한 검색 오류를 가져올 수 있습니다.
+보안 및 준수 센터에서 콘텐츠 검색을 사용 하 여 많은 수의 사서함을 검색 하는 경우 오류와 유사한 검색 오류를 가져올 수 있습니다.
 
 ```text
 Error
+
 
 The search on the following locations failed:
 
@@ -66,6 +67,6 @@ User2@contoso.com: Application error occurred. Please try again later. (CS012-00
 
 - 동시에 같은 사서함에서 너무 많은 검색을 수행 하 고 있습니다. 가능한 경우 한 사서함에서 한 번에 하나씩 검색을 실행 해 봅니다.
 
-- 단일 검색에서 너무 많은 사서함을 검색 하는 경우 매우 많은 수의 사서함을 검색할 때 콘텐츠 위치 오류의 발생 가능성이 증가 합니다. 가능한 경우 각 검색에 조직에 있는 사서함의 하위 집합이 포함 되도록 여러 검색을 실행 해 봅니다.
+- 단일 검색에서 너무 많은 사서함을 검색 하는 경우 많은 수의 사서함을 검색할 때 콘텐츠 위치 오류가 발생할 가능성이 증가 합니다. 가능한 경우 각 검색에 조직에 있는 사서함의 하위 집합이 포함 되도록 여러 검색을 실행 해 봅니다.
 
 - 사서함에서 필요한 유지 관리 작업을 수행 하 고 있습니다. 이 문제가 가끔 발생 하는 것은 아니지만 콘텐츠 위치 오류를 받은 후에 잠시 기다린 후에 검색을 다시 시도 하세요.

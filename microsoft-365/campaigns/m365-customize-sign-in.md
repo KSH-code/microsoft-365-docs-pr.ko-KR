@@ -13,6 +13,7 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - MiniMaven
@@ -21,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 캠페인에 대 한 Microsoft 365에 대 한 개인 정보 보호 및 승인 공지와 함께 로그인 페이지를 사용자 지정 합니다.
-ms.openlocfilehash: 22ce3d1c2198c0bbf045cb4534b7074e318b86bc
-ms.sourcegitcommit: a53af7a228bb1f58cb8128a69a19da49f9e28700
+ms.openlocfilehash: 27d9ee496290c091c7bcdef4c59e0cc8df46b9b7
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45372512"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526961"
 ---
 # <a name="customize-your-sign-in-page-with-a-privacy-and-consent-notice"></a>개인 정보 보호 및 동의 알림을 사용 하 여 로그인 페이지 사용자 지정
 

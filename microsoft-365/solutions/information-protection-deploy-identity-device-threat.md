@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
-- M365solutions
+- m365solution-infoprotection
 ms.custom: ''
 description: Microsoft 365의 id, 장치 및 위협 보호 서비스를 통해 개인 데이터 위반을 방지 합니다.
-ms.openlocfilehash: 74894037ef2fe56aeb5bc44340cd8a946863baff
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+ms.openlocfilehash: a309b5d0ba5f939cf89a31d7ac91ca3aac25ce0d
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695082"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46520984"
 ---
 # <a name="use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>데이터 개인 정보 규정에 대 한 id, 장치 및 위협 보호 사용
 
@@ -48,7 +48,7 @@ Microsoft 365에서는 조직에서 데이터 개인 정보 관련 규정 준수
 다음과 같은 작업을 수행할 수 있는 id 및 **제어 액세스** 범주에 [azure Active DIRECTORY (azure AD)](https://azure.microsoft.com/services/active-directory/) 를 사용 합니다.
 
 - Replay 방지 인증 구현 ("중간자" 공격을 막기 위해)
-- 레거시 인증을 차단 합니다.
+- 레거시 인증을 차단합니다.
 - 사용자 위험 및 사용자 로그인 위험 정책을 구성 합니다.
 - 관리자 및 비관리자를 위해 조건부 액세스 및 MFA (multi-factor authentication)를 사용 하도록 설정 합니다.
 - 암호 정책을 구성 하 고 적용 합니다.

@@ -7,18 +7,17 @@ audience: ITPro
 ms.topic: article
 ms.collection:
 - M365-security-compliance
-- M365solutions
 ms.prod: microsoft-365-enterprise
 ms.custom: ''
 localization_priority: Priority
 description: Microsoft 365에서 어떤 방식으로 데이터와 시스템을 보호하고 규정을 준수하도록 지원하며, 금융 서비스를 최신 공동 작업 플랫폼으로 전환하는지 알아봅니다.
 f1.keywords: NOCSH
-ms.openlocfilehash: 30e9888a50f4a6ce28597e29760f3a7e7ba4c847
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 1aac8fec923adb896f96bdfe428dda7ebcebf596
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160497"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521186"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>미국 은행 및 자본 시장에 대한 주요 규정 준수 및 보안 고려 사항
 

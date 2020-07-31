@@ -14,6 +14,7 @@ ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - MiniMaven
@@ -23,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 for 캠페인을 통해 피싱 및 기타 공격 으로부터 보호 합니다.
-ms.openlocfilehash: 0cd96cb73ad3d0b38ab1e5ff31c913d97528c2d4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3e0c6a52209c56e75c6ff1210f26e6926e4d7d32
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632794"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527141"
 ---
 # <a name="protect-unmanaged-windows-10-pcs-and-macs"></a>관리 되지 않는 Windows 10 Pc 및 Mac 보호
 

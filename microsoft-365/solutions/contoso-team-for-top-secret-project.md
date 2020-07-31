@@ -14,15 +14,14 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-- M365solutions
 ms.custom: Ent_Architecture
 description: '요약: Contoso에서 최상위 비밀 프로젝트에 대해 보안 격리를 적용 하 여 팀을 사용 하 여 새로운 제품 및 서비스 제품군을 개발 하는 방법을 설명 합니다.'
-ms.openlocfilehash: 1083c9d3db3be9ca528b2eee40f072aa17c7431e
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: f7b38a7ef43cdb50b46f3e37f855f490dc32cfdf
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159458"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521628"
 ---
 # <a name="isolated-team-for-a-top-secret-project-of-the-contoso-corporation"></a>Contoso Corporation의 최상위 비밀 프로젝트에 대 한 격리 된 팀
 

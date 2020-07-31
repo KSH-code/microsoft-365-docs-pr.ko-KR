@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
 description: 이 문서에는 Microsoft 365의 데이터 조사 (미리 보기) 도구에 대 한 변경 내용 및 새로운 기능이 포함 된 릴리스 정보가 나와 있습니다.
-ms.openlocfilehash: 9567e9d83c6fc952e61271e665b96fad8fc6b69a
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 40d441aff8da69b4ead0ab2f49fbe93589aa709c
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352285"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46528028"
 ---
 # <a name="release-notes-for-data-investigations-preview-in-microsoft-365"></a>Microsoft 365의 데이터 조사 (미리 보기)에 대 한 릴리스 정보
 
@@ -44,7 +44,7 @@ Microsoft 365의 새 데이터 조사 (미리 보기) 도구를 사용 하 여 �
 
 - 문서를 검토할 때 텍스트 교정 **, 태그 지정 및 주석 달기** /태그 적용 및 주석 만들기
   
-- **고급 인덱싱** -부분적으로 인덱싱된 항목이 있으면 모든 데이터를 검색할 수 있도록 요청 시 해당 항목을 다시 인덱싱합니다.
+- **고급 인덱싱** -부분적으로 인덱싱된 항목이 있으면 모든 데이터를 검색할 수 있도록 요청 시 reindexed 됩니다.
 
 - **오류** 해결 방법-처리 오류를 수정 하거나 다운로드 합니다. 여기에는 큰 파일 형식, 암호로 보호 된 파일 및 인덱싱 오류와 관련 된 기타 문제에 대 한 재구성 지원이 포함 됩니다. 
 

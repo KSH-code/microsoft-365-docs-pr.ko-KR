@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9e8ceac6-8d20-4d28-837a-d766ae99cbd1
 description: 무료 평가판을 얻는 방법 또는 Microsoft 365 용 구독을 구입 하는 방법을 알아봅니다.
-ms.openlocfilehash: 28ec622d32c3218238edf9c171b1eb0566a93c60
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6400f8a05a0e1b8fd8d7200af90a0b232b288895
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403141"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526843"
 ---
 # <a name="try-or-buy-a-microsoft-365-subscription"></a>Microsoft 365 구독 체험 또는 구매
 
@@ -40,7 +40,9 @@ Microsoft 365는 고급 보안 및 장치 관리를 포함 하 여 Office 365 �
   
 - Microsoft 365 Business Premium
 
-- Office 365 Enterprise E3
+- Microsoft 365 E5
+
+- Microsoft 365 E3
 
 - Office 365 Enterprise E5
 

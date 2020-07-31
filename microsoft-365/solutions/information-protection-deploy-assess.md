@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
-- M365solutions
+- m365solution-infoprotection
 ms.custom: ''
 description: Microsoft 365 환경에 있는 데이터 개인 정보 규정, 관련 시나리오, 준비 및 중요 한 정보 유형을 결정 합니다.
-ms.openlocfilehash: 0cfa9f8a22810027e1a31ce2ace8b42f26ef9eb2
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: ba47a43c7af8d97af852e0a3ef417cdc1dbab46a
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126603"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521376"
 ---
 # <a name="assess-data-privacy-risks-and-identify-sensitive-items-with-microsoft-365"></a>데이터 개인 정보 위험 평가 및 Microsoft 365의 중요 한 항목 확인
 

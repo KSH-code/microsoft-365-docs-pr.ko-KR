@@ -10,15 +10,14 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-- M365solutions
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 49d58c8d489906519f0c5e3aab4cec8183a5fe5d
-ms.sourcegitcommit: a3ec91423c352cd5fbf79b46ccd9c169455a03ba
+ms.openlocfilehash: a0dabc7694c925f35a98d9ca0c9855bd85bf6c53
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44664553"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521388"
 ---
 # <a name="microsoft-365-foundation-solutions-overview"></a>Microsoft 365 Foundation 솔루션 개요
 
@@ -28,4 +27,4 @@ ms.locfileid: "44664553"
 - [원격 작업자에 권리 부여](empower-people-to-work-remotely.md)
 - [팀, 그룹 및 사이트에서 안전 하 게 공동 작업](setup-secure-collaboration-with-teams.md)
 - [조직 전체에서 위협 방지 및 사이버 보안 설정](deploy-threat-protection.md)
-- [데이터 개인 정보 규정에 대 한 정보 보호 배포](information-protection-deploy.md)
+- [데이터 개인 정보 규정을 위한 정보 보호 배포](information-protection-deploy.md)

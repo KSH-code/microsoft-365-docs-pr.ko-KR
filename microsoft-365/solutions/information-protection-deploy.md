@@ -13,15 +13,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
-- M365solutions
+- m365solution-infoprotection
+- m365solution-overview
 ms.custom: ''
 description: 보안 및 서비스 인프라를 구성 하 여 정보를 보호 하 고 데이터 개인 정보 규정을 준수 합니다.
-ms.openlocfilehash: ea0f5ead93dc631a28577a61f33bca3b601406f4
-ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
+ms.openlocfilehash: 640ce075515c687c037cb0e4ab3e03e3beda81dc
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854338"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46522292"
 ---
 # <a name="deploy-information-protection-for-data-privacy-regulations-with-microsoft-365"></a>Microsoft 365을 사용 하 여 데이터 개인 정보 보호 규정에 대 한 information protection 배포
 
@@ -37,13 +38,13 @@ Microsoft 365의 데이터 형식에는 Microsoft 팀의 채팅 세션, Exchange
 
 | 기능 또는 특징 | 설명 | 라이선싱 |
 |:-------|:-----|:-------|
-| 준수 관리자 | Microsoft Service Trust Portal의이 워크플로 기반 위험 평가 도구를 사용 하 여 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 관리 합니다. | Microsoft 365 E3 및 E5 |
-| 준수 점수(미리 보기) | 현재 준수 구성의 전체 점수와 Microsoft 365 준수 센터에서이를 개선 하기 위한 권장 사항을 참조 하세요. | Microsoft 365 E3 및 E5 |
-| Office ATP (Advanced Threat Protection) | Microsoft 365 앱 및 데이터 (예: 전자 메일 메시지, Office 문서 및 공동 작업 도구)를 공격 으로부터 보호 합니다. | Microsoft 365 E3 및 E5 | 
-| 민감도 레이블 | 전자 메일, 파일 또는 사이트에 다양 한 수준의 보호를 제공 하 여 사용자의 생산성과 공동 작업을 hindering 않고 조직의 데이터를 분류 하 고 보호 합니다. | Microsoft 365 E3 및 E5 |
-| DLP (데이터 손실 방지) | 내부 및 외부적으로 개인 정보를 포함 하는 데이터를 공유 하는 등 위험, 실수로 또는 부적절 한 공유를 감지, 경고 및 부적합 하 게 차단 합니다. | Microsoft 365 E3 및 E5 | 
-| 데이터 보존 레이블 및 정책 | 조직의 정책 또는 데이터 규정을 준수 하기 위해 고객의 개인 데이터 저장소에 대 한 데이터 및 요구 사항을 유지 하는 기간 같은 정보 관리 방식 제어를 구현 합니다. | Microsoft 365 E3 및 E5 |
-| 전자 메일 암호화 | 고객의 개인 데이터와 같은 규정 된 데이터를 포함 하는 조직 내부 및 외부의 사용자 간에 암호화 된 전자 메일 메시지를 보내고 받습니다. | Microsoft 365 E3 및 E5 |
+| 규정 관리자 | Microsoft 서비스 신뢰 포털에서 이 워크플로우 기반 위험 평가 도구를 사용하여 Microsoft 클라우드 서비스와 관련된 규정 준수 활동을 관리합니다. | Microsoft 365 E3 및 E5 |
+| 준수 점수(미리 보기) | Microsoft 365 Compliance Center에서 현재 규정 준수 구성의 전체 점수와 이를 개선하기 위한 권장 사항을 확인합니다. | Microsoft 365 E3 및 E5 |
+| Office ATP (Advanced Threat Protection) | 전자 메일 메시지, 사무실 문서 및 협업 도구와 같은 Microsoft 365 앱과 데이터를 공격으로부터 보호합니다. | Microsoft 365 E3 및 E5 | 
+| 민감도 레이블 | 전자 메일, 파일 또는 사이트에 다양한 수준의 보호 기능을 갖춘 레이블을 배치하여 사용자의 생산성과 협업 능력을 저해하지 않고 조직의 데이터를 분류하고 보호합니다. | Microsoft 365 E3 및 E5 |
+| 데이터 손실 방지(DLP). | 개인 정보가 포함된 데이터 공유와 같은 위험하거나 부주의하거나 부적절한 공유를 내외부적으로 탐지, 경고 및 차단합니다. | Microsoft 365 E3 및 E5 | 
+| 데이터 보존 레이블 및 정책. | 조직의 정책 또는 데이터 규정을 준수하기 위해 고객의 개인 데이터 스토리지에 대한 데이터 및 요구사항을 보관하는 기간과 같은 정보 거버넌스 제어를 구현합니다. | Microsoft 365 E3 및 E5 |
+| 전자 메일 암호화 | 고객의 개인 데이터와 같이 규제 데이터가 들어 있는 조직 내외부의 사용자 간에 암호화된 전자 메일 메시지를 주고 받습니다. | Microsoft 365 E3 및 E5 |
 ||||
 
 ## <a name="organization-of-the-guidance-in-this-solution"></a>이 솔루션의 지침 구성

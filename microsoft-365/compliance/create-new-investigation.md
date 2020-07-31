@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Microsoft 365 준수 센터의 데이터 조사 (미리 보기)에서 새 조사를 작성, 구성 및 저장 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 62166f1fb820c33e1e8981b31c5fc9a48e54390a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 1dae733a2e6dacfc2cc871cc9b589927d306599a
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035780"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526914"
 ---
 # <a name="create-a-new-investigation-in-data-investigations-preview"></a>데이터 조사에서 새 조사 만들기 (미리 보기)
 

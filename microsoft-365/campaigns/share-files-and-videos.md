@@ -14,6 +14,7 @@ ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -24,12 +25,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 캠페인 내부에서 Microsoft 팀과 SharePoint로 파일 및 비디오를 공유 합니다.
-ms.openlocfilehash: b67b6f834fd9333814f1807567776644dd2826e7
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b3ca070152a19841ff2c934f04d0d147e3387db0
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080422"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526903"
 ---
 # <a name="share-files-and-videos"></a>파일 및 동영상 공유
 

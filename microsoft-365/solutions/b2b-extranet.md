@@ -9,17 +9,18 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
-- M365solutions
+- m365solution-3tiersprotection
+- m365solution-securecollab
 ms.custom: ''
 localization_priority: Normal
 f1.keywords: NOCSH
 description: 파트너 조직에서 관리 되는 게스트 사용자가 포함 된 B2B 엑스트라넷 사이트 또는 팀을 만드는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f01a558d55f497952494676f0148a1e3e4f06b35
-ms.sourcegitcommit: b18949de721c6eef3521d5f8286d9b926ad4aabe
+ms.openlocfilehash: 4f8eb33ad9b41f552975d4158a61ec4cedcfa9cc
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44342526"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526985"
 ---
 # <a name="create-a-b2b-extranet-with-managed-guests"></a>관리 대상 게스트와 B2B 엑스트라넷 작성
 

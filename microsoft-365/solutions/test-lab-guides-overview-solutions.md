@@ -1,5 +1,5 @@
 ---
-title: 솔루션 및 시나리오에 대 한 테스트 랩 가이드
+title: 솔루션 및 시나리오에 대한 테스트 랩 가이드
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,18 +14,17 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-- M365solutions
 ms.custom:
 - Ent_Architecture
 description: 테스트 랩 가이드를 사용 하 여 개발/테스트 환경에서 Microsoft 365 솔루션 및 시나리오를 구축 합니다.
-ms.openlocfilehash: 38b06678df46189f49b40a5752803786a94784fe
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 7254596da5b2b8b32a01468d3ff1f34d4efd8db8
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159446"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521304"
 ---
-# <a name="test-lab-guides-for-solutions-and-scenarios"></a>솔루션 및 시나리오에 대 한 테스트 랩 가이드
+# <a name="test-lab-guides-for-solutions-and-scenarios"></a>솔루션 및 시나리오에 대한 테스트 랩 가이드
 
 TLS(테스트 랩 가이드)는 Microsoft 제품을 빠르게 알아보도록 지원합니다. 그리고 간소하지만 대표적인 테스트 환경을 구성하기 위한 지침을 제공합니다. 평가 기간 또는 유료 구독 기간 동안 데모, 사용자 지정 또는 복잡한 개념 증명 생성을 위해 이러한 환경을 사용할 수 있습니다. 
 
