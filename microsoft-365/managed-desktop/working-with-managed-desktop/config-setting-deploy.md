@@ -6,64 +6,67 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: e6946c138cb6fde15e35374b447038d5c302187e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: b731422e6d981b12ea576ed26b841e7c679266ae
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085769"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530262"
 ---
-# <a name="deploy-and-track-configurable-settings---microsoft-managed-desktop"></a><span data-ttu-id="8446b-104">구성 가능한 설정 배포 및 추적-Microsoft Managed Desktop</span><span class="sxs-lookup"><span data-stu-id="8446b-104">Deploy and track configurable settings - Microsoft Managed Desktop</span></span>
+# <a name="deploy-and-track-configurable-settings---microsoft-managed-desktop"></a><span data-ttu-id="affec-104">구성 가능한 설정 배포 및 추적-Microsoft Managed Desktop</span><span class="sxs-lookup"><span data-stu-id="affec-104">Deploy and track configurable settings - Microsoft Managed Desktop</span></span>
 
-<span data-ttu-id="8446b-105">설정 범주를 변경 하 고 배포를 준비 했으면 배포 상태 페이지에서 그룹에 대 한 설정을 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-105">After you make changes to your setting categories and stage a deployment, the Deployment status page allows you to begin deploying your settings to groups.</span></span> <span data-ttu-id="8446b-106">이 페이지에는 구성 가능한 각 설정에 대 한 요약이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-106">This page shows a summary of each configurable setting.</span></span> <span data-ttu-id="8446b-107">설정 범주를 열면 설정을 그룹에 배포 하 고 해당 배포의 진행 상태를 추적할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-107">By opening a setting category you can deploy settings to groups and track the progress of these deployments.</span></span>
+<span data-ttu-id="affec-105">설정 범주를 변경 하 고 배포를 준비 했으면 배포 상태 페이지에서 그룹에 대 한 설정을 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="affec-105">After you make changes to your setting categories and stage a deployment, the Deployment status page allows you to begin deploying your settings to groups.</span></span> <span data-ttu-id="affec-106">이 페이지에는 구성 가능한 각 설정에 대 한 요약이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="affec-106">This page shows a summary of each configurable setting.</span></span> <span data-ttu-id="affec-107">설정 범주를 열면 설정을 그룹에 배포 하 고 해당 배포의 진행 상태를 추적할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="affec-107">By opening a setting category you can deploy settings to groups and track the progress of these deployments.</span></span>
 
-## <a name="deployment-statuses"></a><span data-ttu-id="8446b-108">배포 상태</span><span class="sxs-lookup"><span data-stu-id="8446b-108">Deployment statuses</span></span> 
+## <a name="deployment-statuses"></a><span data-ttu-id="affec-108">배포 상태</span><span class="sxs-lookup"><span data-stu-id="affec-108">Deployment statuses</span></span> 
 
-<span data-ttu-id="8446b-109">각 배포에 대해 표시 되는 상태는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-109">These are the statuses you’ll see for each deployment.</span></span>
+<span data-ttu-id="affec-109">각 배포에 대해 표시 되는 상태는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="affec-109">These are the statuses you’ll see for each deployment.</span></span>
 
-<span data-ttu-id="8446b-110">상태</span><span class="sxs-lookup"><span data-stu-id="8446b-110">Status</span></span>  | <span data-ttu-id="8446b-111">설명</span><span class="sxs-lookup"><span data-stu-id="8446b-111">Explanation</span></span> 
+<span data-ttu-id="affec-110">상태</span><span class="sxs-lookup"><span data-stu-id="affec-110">Status</span></span>  | <span data-ttu-id="affec-111">설명</span><span class="sxs-lookup"><span data-stu-id="affec-111">Explanation</span></span> 
 --- | --- 
-<span data-ttu-id="8446b-112">배포</span><span class="sxs-lookup"><span data-stu-id="8446b-112">Deploy</span></span> | <span data-ttu-id="8446b-113">변경 내용이이 그룹에 배포 되기를 기다리는 중입니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-113">Your change is waiting to be deployed to this group.</span></span>
-<span data-ttu-id="8446b-114">진행 중</span><span class="sxs-lookup"><span data-stu-id="8446b-114">In progress</span></span> | <span data-ttu-id="8446b-115">변경 내용이이 그룹의 활성 장치에 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-115">The change is being applied to active devices in this group.</span></span> 
-<span data-ttu-id="8446b-116">작업이</span><span class="sxs-lookup"><span data-stu-id="8446b-116">Complete</span></span> | <span data-ttu-id="8446b-117">이 그룹의 모든 활성 장치에서 변경 내용이 완료 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-117">The change completed on all active devices in this group.</span></span> 
-<span data-ttu-id="8446b-118">Failed</span><span class="sxs-lookup"><span data-stu-id="8446b-118">Failed</span></span> | <span data-ttu-id="8446b-119">그룹의 활성 장치 중 10%에서 변경이 실패 하 여 배포가 중지 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-119">The change failed on a 10 percent of active devices in the group, so the deployment was stopped.</span></span><br><br> <span data-ttu-id="8446b-120">배포 문제를 해결 하기 위해 Microsoft Managed Desktop 작업을 사용 하 여 지원 요청이 자동으로 열립니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-120">A support request will be automatically opened with Microsoft Managed Desktop operations to troubleshoot the deployment.</span></span> 
-<span data-ttu-id="8446b-121">되돌아갑니다</span><span class="sxs-lookup"><span data-stu-id="8446b-121">Reverted</span></span> | <span data-ttu-id="8446b-122">변경 내용이 모든 배포 그룹에 성공적으로 배포 된 마지막 변경 내용으로 되돌아갔습니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-122">The change was reverted to the last change that was successfully deployed to all deployment groups.</span></span>
+<span data-ttu-id="affec-112">배포</span><span class="sxs-lookup"><span data-stu-id="affec-112">Deploy</span></span> | <span data-ttu-id="affec-113">변경 내용이이 그룹에 배포 되기를 기다리는 중입니다.</span><span class="sxs-lookup"><span data-stu-id="affec-113">Your change is waiting to be deployed to this group.</span></span>
+<span data-ttu-id="affec-114">진행 중</span><span class="sxs-lookup"><span data-stu-id="affec-114">In progress</span></span> | <span data-ttu-id="affec-115">변경 내용이이 그룹의 활성 장치에 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="affec-115">The change is being applied to active devices in this group.</span></span> 
+<span data-ttu-id="affec-116">작업이</span><span class="sxs-lookup"><span data-stu-id="affec-116">Complete</span></span> | <span data-ttu-id="affec-117">이 그룹의 모든 활성 장치에서 변경 내용이 완료 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="affec-117">The change completed on all active devices in this group.</span></span> 
+<span data-ttu-id="affec-118">Failed</span><span class="sxs-lookup"><span data-stu-id="affec-118">Failed</span></span> | <span data-ttu-id="affec-119">그룹의 활성 장치 중 10%에서 변경이 실패 하 여 배포가 중지 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="affec-119">The change failed on a 10 percent of active devices in the group, so the deployment was stopped.</span></span><br><br> <span data-ttu-id="affec-120">배포 문제를 해결 하기 위해 Microsoft Managed Desktop 작업을 사용 하 여 지원 요청이 자동으로 열립니다.</span><span class="sxs-lookup"><span data-stu-id="affec-120">A support request will be automatically opened with Microsoft Managed Desktop operations to troubleshoot the deployment.</span></span> 
+<span data-ttu-id="affec-121">되돌아갑니다</span><span class="sxs-lookup"><span data-stu-id="affec-121">Reverted</span></span> | <span data-ttu-id="affec-122">변경 내용이 모든 배포 그룹에 성공적으로 배포 된 마지막 변경 내용으로 되돌아갔습니다.</span><span class="sxs-lookup"><span data-stu-id="affec-122">The change was reverted to the last change that was successfully deployed to all deployment groups.</span></span>
 
-## <a name="deploy-changes"></a><span data-ttu-id="8446b-123">변경 내용 배포</span><span class="sxs-lookup"><span data-stu-id="8446b-123">Deploy changes</span></span>
+## <a name="deploy-changes"></a><span data-ttu-id="affec-123">변경 내용 배포</span><span class="sxs-lookup"><span data-stu-id="affec-123">Deploy changes</span></span>
 
-<span data-ttu-id="8446b-124">이 지침에서는 바탕 화면 배경 그림을 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-124">We’ll show Desktop background picture in these instructions.</span></span> <span data-ttu-id="8446b-125">배포를 단계적으로 완료 한 후 배포 상태 페이지에서 변경 내용을 배포 합니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-125">After you’ve staged a deployment, you deploy changes from the Deployment status page.</span></span> 
+<span data-ttu-id="affec-124">이 지침에서는 바탕 화면 배경 그림을 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="affec-124">We’ll show Desktop background picture in these instructions.</span></span> <span data-ttu-id="affec-125">배포를 단계적으로 완료 한 후 배포 상태 페이지에서 변경 내용을 배포 합니다.</span><span class="sxs-lookup"><span data-stu-id="affec-125">After you’ve staged a deployment, you deploy changes from the Deployment status page.</span></span> 
 
-<span data-ttu-id="8446b-126">**변경 내용을 배포 하려면**</span><span class="sxs-lookup"><span data-stu-id="8446b-126">**To deploy changes**</span></span>
+<span data-ttu-id="affec-126">**변경 내용을 배포 하려면**</span><span class="sxs-lookup"><span data-stu-id="affec-126">**To deploy changes**</span></span>
 
-1. <span data-ttu-id="8446b-127">[Microsoft Managed Desktop administration 포털](https://aka.ms/mwaasportal) 에 로그인</span><span class="sxs-lookup"><span data-stu-id="8446b-127">Sign in to [Microsoft Managed Desktop Admin portal](https://aka.ms/mwaasportal)</span></span>
-2. <span data-ttu-id="8446b-128">**설정**아래에서 **보안 계정 구성**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-128">Under **Settings**, select **Configurable**.</span></span>
-3. <span data-ttu-id="8446b-129">**배포 상태** 작업 영역에서 배포할 설정을 선택 하 고 배포할 미리 구성 된 배포를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-129">In **Deployment status** workspace, select the setting you want to deploy, and then select the staged deployment to deploy.</span></span>
-4. <span data-ttu-id="8446b-130">배포 **를 선택 하** 여 배치 그룹 중 하나에 변경 내용을 배포 합니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-130">Select **Deploy** to deploy the change to one of the deployment groups.</span></span>
+1. <span data-ttu-id="affec-127">[Microsoft Managed Desktop administration 포털](https://aka.ms/mwaasportal) 에 로그인</span><span class="sxs-lookup"><span data-stu-id="affec-127">Sign in to [Microsoft Managed Desktop Admin portal](https://aka.ms/mwaasportal)</span></span>
+2. <span data-ttu-id="affec-128">**설정**아래에서 **보안 계정 구성**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="affec-128">Under **Settings**, select **Configurable**.</span></span>
+3. <span data-ttu-id="affec-129">**배포 상태** 작업 영역에서 배포할 설정을 선택 하 고 배포할 미리 구성 된 배포를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="affec-129">In **Deployment status** workspace, select the setting you want to deploy, and then select the staged deployment to deploy.</span></span>
+4. <span data-ttu-id="affec-130">배포 **를 선택 하** 여 배치 그룹 중 하나에 변경 내용을 배포 합니다.</span><span class="sxs-lookup"><span data-stu-id="affec-130">Select **Deploy** to deploy the change to one of the deployment groups.</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="8446b-131">주황색 주의 아이콘은 배포에 사용 가능한 이전 그룹이 순서 대로 롤아웃 된다는 것을 나타내는 것을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-131">The orange caution icon indicates there is a previous group available for deployment as it’s recommended to roll out in order.</span></span> 
+> <span data-ttu-id="affec-131">주황색 주의 아이콘은 배포에 사용 가능한 이전 그룹이 순서 대로 롤아웃 된다는 것을 나타내는 것을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="affec-131">The orange caution icon indicates there is a previous group available for deployment as it’s recommended to roll out in order.</span></span> 
 
-<span data-ttu-id="8446b-132">![배포 상태 작업 영역입니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-132">![Deployment status workspace.</span></span> <span data-ttu-id="8446b-133">오른쪽의 신뢰할 수 있는 사이트 창입니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-133">Trusted sites pane on the right.</span></span> <span data-ttu-id="8446b-134">배포 그룹 섹션에는 배포 그룹, 장치 및 상태의 세 가지 열이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-134">In the Deployment groups section are three columns: deployment groups, devices, and status.</span></span> <span data-ttu-id="8446b-135">상태 열에서 "배포"가 강조 표시 됩니다.](../../media/1deployedit.png)</span><span class="sxs-lookup"><span data-stu-id="8446b-135">In the status column, "deploy" is highlighted.](../../media/1deployedit.png)</span></span>
-<span data-ttu-id="8446b-136">Test, First, Fast, 폭넓은 순서로 배포 그룹에 배포 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-136">We recommend deploying to deployment groups in this order: Test, First, Fast, and then Broad.</span></span> 
+<span data-ttu-id="affec-132">![배포 상태 작업 영역입니다.</span><span class="sxs-lookup"><span data-stu-id="affec-132">![Deployment status workspace.</span></span> <span data-ttu-id="affec-133">오른쪽의 신뢰할 수 있는 사이트 창입니다.</span><span class="sxs-lookup"><span data-stu-id="affec-133">Trusted sites pane on the right.</span></span> <span data-ttu-id="affec-134">배포 그룹 섹션에는 배포 그룹, 장치 및 상태의 세 가지 열이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="affec-134">In the Deployment groups section are three columns: deployment groups, devices, and status.</span></span> <span data-ttu-id="affec-135">상태 열에서 "배포"가 강조 표시 됩니다.](../../media/1deployedit.png)</span><span class="sxs-lookup"><span data-stu-id="affec-135">In the status column, "deploy" is highlighted.](../../media/1deployedit.png)</span></span>
+<span data-ttu-id="affec-136">Test, First, Fast, 폭넓은 순서로 배포 그룹에 배포 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="affec-136">We recommend deploying to deployment groups in this order: Test, First, Fast, and then Broad.</span></span> 
 
-<span data-ttu-id="8446b-137">각 그룹에서 변경 내용이 완료 되 면 상태가 **완료**로 변경 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-137">When changes complete in each group, the status changes to **Complete**.</span></span>
+<span data-ttu-id="affec-137">각 그룹에서 변경 내용이 완료 되 면 상태가 **완료**로 변경 됩니다.</span><span class="sxs-lookup"><span data-stu-id="affec-137">When changes complete in each group, the status changes to **Complete**.</span></span>
 
 ![업데이트, 버전, 테스트, 처음, 빠르게, 광범위 한 열이 포함 된 배포 상태 작업 영역입니다.](../../media/2completeedit.png)
 
-## <a name="revert-deployment"></a><span data-ttu-id="8446b-140">배포 되돌리기</span><span class="sxs-lookup"><span data-stu-id="8446b-140">Revert deployment</span></span>
+## <a name="revert-deployment"></a><span data-ttu-id="affec-140">배포 되돌리기</span><span class="sxs-lookup"><span data-stu-id="affec-140">Revert deployment</span></span>
 
-<span data-ttu-id="8446b-141">변경 내용을 배포한 후에는 **배포 상태**를 되돌릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-141">After you’ve deployed a change, you can revert from **Deployment status**.</span></span> <span data-ttu-id="8446b-142">**진행** 중이거나 **완료**된 변경 내용을 되돌리면 현재 배포가 중지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-142">When you revert a change that is **In progress** or **Complete**, the current deployment stops.</span></span> <span data-ttu-id="8446b-143">이 설정은 모든 그룹에 배포 된 마지막 버전으로 돌아갑니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-143">The setting will revert to the last version that was deployed to all groups.</span></span> 
+<span data-ttu-id="affec-141">변경 내용을 배포한 후에는 **배포 상태**를 되돌릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="affec-141">After you’ve deployed a change, you can revert from **Deployment status**.</span></span> <span data-ttu-id="affec-142">**진행** 중이거나 **완료**된 변경 내용을 되돌리면 현재 배포가 중지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="affec-142">When you revert a change that is **In progress** or **Complete**, the current deployment stops.</span></span> <span data-ttu-id="affec-143">이 설정은 모든 그룹에 배포 된 마지막 버전으로 돌아갑니다.</span><span class="sxs-lookup"><span data-stu-id="affec-143">The setting will revert to the last version that was deployed to all groups.</span></span> 
 
-<span data-ttu-id="8446b-144">예를 들어 데스크톱 배경 그림을 사용 하 여 변경 내용을 되돌리는 단계를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-144">We’ll show the steps to revert a change using the Desktop background picture as an example.</span></span> 
+<span data-ttu-id="affec-144">예를 들어 데스크톱 배경 그림을 사용 하 여 변경 내용을 되돌리는 단계를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="affec-144">We’ll show the steps to revert a change using the Desktop background picture as an example.</span></span> 
 
-<span data-ttu-id="8446b-145">**변경 내용을 되돌리려면**</span><span class="sxs-lookup"><span data-stu-id="8446b-145">**To revert a change**</span></span>
-1. <span data-ttu-id="8446b-146">[Microsoft Managed Desktop administration 포털](https://aka.ms/mwaasportal) 에 로그인</span><span class="sxs-lookup"><span data-stu-id="8446b-146">Sign in to [Microsoft Managed Desktop Admin portal](https://aka.ms/mwaasportal)</span></span>
-2. <span data-ttu-id="8446b-147">**설정**아래에서 **보안 계정 구성**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-147">Under **Settings**, select **Configurable**.</span></span>
-3. <span data-ttu-id="8446b-148">**배포 상태** 작업 영역에서 되돌리려는 설정을 선택 하 고 되돌릴 미리 구성 된 배포를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-148">In **Deployment status** workspace, select the setting you want to revert, and then select the staged deployment to revert.</span></span>
-4. <span data-ttu-id="8446b-149">**이 변경 내용을 되돌릴 필요가 있습니까?** 에서 **배포 되돌리기를**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="8446b-149">Under **Need to revert this change?**, select **Revert deployment**.</span></span>
+<span data-ttu-id="affec-145">**변경 내용을 되돌리려면**</span><span class="sxs-lookup"><span data-stu-id="affec-145">**To revert a change**</span></span>
+1. <span data-ttu-id="affec-146">[Microsoft Managed Desktop administration 포털](https://aka.ms/mwaasportal) 에 로그인</span><span class="sxs-lookup"><span data-stu-id="affec-146">Sign in to [Microsoft Managed Desktop Admin portal](https://aka.ms/mwaasportal)</span></span>
+2. <span data-ttu-id="affec-147">**설정**아래에서 **보안 계정 구성**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="affec-147">Under **Settings**, select **Configurable**.</span></span>
+3. <span data-ttu-id="affec-148">**배포 상태** 작업 영역에서 되돌리려는 설정을 선택 하 고 되돌릴 미리 구성 된 배포를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="affec-148">In **Deployment status** workspace, select the setting you want to revert, and then select the staged deployment to revert.</span></span>
+4. <span data-ttu-id="affec-149">**이 변경 내용을 되돌릴 필요가 있습니까?** 에서 **배포 되돌리기를**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="affec-149">Under **Need to revert this change?**, select **Revert deployment**.</span></span>
 
 ![배포 상태 작업 영역입니다.](../../media/3revert.png) 
 
-## <a name="additional-resources"></a><span data-ttu-id="8446b-153">추가 리소스</span><span class="sxs-lookup"><span data-stu-id="8446b-153">Additional resources</span></span>
-- [<span data-ttu-id="8446b-154">구성 가능한 설정 개요</span><span class="sxs-lookup"><span data-stu-id="8446b-154">Configurable settings overview</span></span>](config-setting-overview.md)
-- [<span data-ttu-id="8446b-155">구성 가능한 설정 참조</span><span class="sxs-lookup"><span data-stu-id="8446b-155">Configurable settings reference</span></span>](config-setting-ref.md) 
+## <a name="additional-resources"></a><span data-ttu-id="affec-153">추가 리소스</span><span class="sxs-lookup"><span data-stu-id="affec-153">Additional resources</span></span>
+- [<span data-ttu-id="affec-154">구성 가능한 설정 개요</span><span class="sxs-lookup"><span data-stu-id="affec-154">Configurable settings overview</span></span>](config-setting-overview.md)
+- [<span data-ttu-id="affec-155">구성 가능한 설정 참조</span><span class="sxs-lookup"><span data-stu-id="affec-155">Configurable settings reference</span></span>](config-setting-ref.md) 
