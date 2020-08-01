@@ -1,19 +1,22 @@
 ---
-title: 배터리 정보
+title: 배터리 정보 활용
 description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 434f62d5ddfc8bc75c54de422aafc8c6325c4086
-ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: f339fc98ea94c291c533045e9906f626f4b74e2a
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170598"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529842"
 ---
-# <a name="battery-insights"></a>배터리 정보
+# <a name="battery-insights"></a>배터리 정보 활용
 이 보기는 Microsoft 관리 데스크톱 장치에 대 한 전원, 배터리 및 앱 사용 메트릭을 제공 합니다. 이러한 용도의 앱은 실행 중이 고 포커스가 있는 경우 "사용 중"으로 간주 됩니다.
 
 사용 현황 데이터를 보려면 **배터리** 탭을 선택 합니다.
@@ -38,7 +41,7 @@ ms.locfileid: "42170598"
  각 앱에 대해 색 세그먼트는 다음 범주 중에서 앱의 에너지 사용 분포를 보여 줍니다.
 
 - CPU
-- 디스플레이
+- 표시
 - 네트워크
 - 기타
 

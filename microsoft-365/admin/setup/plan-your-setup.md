@@ -19,19 +19,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: eb926624-018b-4486-bf11-5fba6ee4d645
-description: 비즈니스를 위해 Microsoft 365을 설정 하기 위해 수행 해야 하는 작업에 대해 알아봅니다.
-ms.openlocfilehash: 7509e2c4801adbca492e5f5446c5b97eae31dccf
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+description: 비즈니스를 위해 Microsoft 365으로 이사 하기 위한 요구 사항 및 고려 사항에 대해 알아봅니다.
+ms.openlocfilehash: b7d815da012e1c104561d5fccfb9e1704ac5c447
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44778952"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529663"
 ---
 # <a name="plan-your-setup-of-microsoft-365-for-business"></a>비즈니스를 위한 Microsoft 365의 설정 계획
 
 이 문서는 Microsoft 365 for business 요금제를 구독 한 사용자를 위한 것입니다.
   
-조직을 Microsoft 365으로 이동 하기 전에 결정 해야 할 몇 가지 사항 및 정보를 제공 해야 합니다.
+Microsoft 365로 조직을 이동 하기 전에 충족 해야 하는 요구 사항,이에 따라 필요한 정보 및 의사 결정을 내려야 합니다.
+
+
   
 ## <a name="info-to-have-on-hand-before-you-run-the-setup-wizard"></a>설치 마법사를 실행 하기 전에 정보를 전달 해야 합니다.
 

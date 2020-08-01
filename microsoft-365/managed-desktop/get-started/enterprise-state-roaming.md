@@ -1,17 +1,20 @@
 ---
-title: 엔터프라이즈 상태 로밍 사용
+title: Enterprise State Roaming 사용
 description: ''
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: a817e96d899564c3f46ea68088455210480989e3
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 8b9c4a96c3697ed7cfc13872de01ff31c0ec3894
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012498"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530202"
 ---
 # <a name="enable-enterprise-state-roaming"></a>엔터프라이즈 상태 로밍 사용
 
@@ -21,7 +24,7 @@ Microsoft Managed Desktop의 최상의 환경을 위해 사용자가 클라우�
 
 엔터프라이즈 상태 로밍에 어려움이 있으면 관리자 [지원](../working-with-managed-desktop/admin-support.md)에 문의 하세요.
 
-## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작 하기 위한 단계
+## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작하기 위한 단계
 
 1. [관리 포털에서 관리자 연락처 추가 및 확인](add-admin-contacts.md)
 2. [조건부 액세스 조정](conditional-access.md)

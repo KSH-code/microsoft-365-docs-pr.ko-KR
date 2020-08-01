@@ -16,12 +16,13 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 4ffc6a8771a93e0aea4583dce092109afe57175d
-ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
+- m365solution-identitydevice
+ms.openlocfilehash: 1a16fa9a26ab20065d213857614b06fdde6c0af1
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44222330"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530274"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
@@ -33,7 +34,7 @@ Microsoft는 일부 조직이 고유한 환경 요구 사항이 나 복잡성을
 
 ## <a name="intended-audience"></a>대상 그룹
 
-이러한 권장 사항은 [Office 365](https://technet.microsoft.com/library/dn127064(v=office.14).aspx) 및 [microsoft Enterprise Mobility + Security](https://microsoft.com/ems)에 익숙하고, azure Active Directory (Identity), microsoft Intune (장치 관리) 및 azure Information protection (데이터 보호)을 포함 하는 엔터프라이즈 설계자 및 IT 전문가를 위한 것입니다.
+이러한 권장 사항은 [Office 365](https://docs.microsoft.com/microsoft-365/admin) 및 [microsoft Enterprise Mobility + Security](https://microsoft.com/ems)에 익숙하고, azure Active Directory (Identity), microsoft Intune (장치 관리) 및 azure Information protection (데이터 보호)을 포함 하는 엔터프라이즈 설계자 및 IT 전문가를 위한 것입니다.
 
 ### <a name="customer-environment"></a>고객 환경
 
@@ -45,7 +46,7 @@ Enterprise Mobility + Security E5 라이선스가 없는 조직의 경우에는 
 
 ### <a name="caveats"></a>유의할
 
-조직은 이러한 권장 구성에서 분기 하는 정책을 적용 해야 하는 특정 권장 사항을 비롯 하 여 규정 또는 기타 준수 요구 사항이 적용 될 수 있습니다. 이러한 구성은 지금까지 사용할 수 없었던 사용 제어를 권장합니다. 이러한 제어를 권장하는 이유는 보안과 생산성 간의 균형을 나타내는 것으로 생각하기 때문입니다.  
+조직은 이러한 권장 구성에서 분기 하는 정책을 적용 해야 하는 특정 권장 사항을 비롯 하 여 규정 또는 기타 준수 요구 사항이 적용 될 수 있습니다. 이러한 구성은 지금까지 사용할 수 없었던 사용 제어를 권장합니다. 이러한 컨트롤은 보안과 생산성 간의 균형을 나타내는 것으로 생각 되므로 권장 합니다.  
 
 다양 한 조직의 보호 요구 사항을 고려 하는 것이 가장 좋지만, 이러한 모든 요구 사항을 고려 하거나 조직의 모든 고유한 측면에 대해 설명할 수는 없습니다.
 
@@ -57,7 +58,7 @@ Enterprise Mobility + Security E5 라이선스가 없는 조직의 경우에는 
 
 - **기본 보호**: 데이터를 보호 하는 데 필요한 최소 표준과 데이터에 액세스 하는 id 및 장치를 설정 하는 것이 좋습니다. 이러한 기본 권장 사항을 따르면 많은 조직의 요구를 충족 하는 강력한 기본 보호 기능을 제공할 수 있습니다.
 - **중요 보호**: 일부 고객에 게는 높은 수준으로 보호 해야 하는 데이터의 하위 집합이 있거나, 모든 데이터가 더 높은 수준으로 보호 되어야 할 수 있습니다. Microsoft 365 환경에서 모든 또는 특정 데이터 집합에 대해 향상 된 보호를 적용할 수 있습니다. 중요 데이터에 액세스하는 ID와 장치를 유사한 보안 수준으로 보호하는 것이 좋습니다.  
-- **높은 규제**: 일부 조직에는 고도로 분류 되거나 consititutes 영업 비밀이 있거나 데이터를 규제 하는 적은 양의 데이터가 있을 수 있습니다. Microsoft는 ID와 장치에 대한 추가된 보호를 포함하여 조직이 이러한 요구 사항을 충족하는 데 도움이 되는 기능을 제공합니다.
+- **높은 규제**: 일부 조직에는 고도로 분류 되 고 영업 비밀이 구성 되거나 데이터를 규제 하는 소량의 데이터가 있을 수 있습니다. Microsoft는 ID와 장치에 대한 추가된 보호를 포함하여 조직이 이러한 요구 사항을 충족하는 데 도움이 되는 기능을 제공합니다.
 
 ![보안 원뿔형-일부 고객이 특정 고객을 > > 모든 고객입니다. 특정 응용 프로그램에 대 한 광범위 한 응용 프로그램](../media/M365-idquality-threetiers.png)
 
@@ -94,7 +95,7 @@ Microsoft 365 Enterprise는 대규모 조직을 위해 설계 되었으며 Offic
 
 Azure AD는 id 관리 기능을 완벽 하 게 제공 합니다. 액세스 보안을 위해 다음과 같은 기능을 사용 하는 것이 좋습니다.
 
-- **[SSPR (셀프 서비스 암호 다시 설정)](/azure/active-directory/authentication/concept-sspr-howitworks)**: 관리자가 제어할 수 있는 여러 인증 방법에 대 한 확인을 제공 하 여 사용자가 헬프데스크 개입 없이 암호를 안전 하 게 다시 설정할 수 있도록 합니다.
+- **[SSPR (셀프 서비스 암호 다시 설정)](/azure/active-directory/authentication/concept-sspr-howitworks)**: 관리자가 제어할 수 있는 여러 인증 방법에 대 한 확인을 제공 하 여 사용자가 지원 없이 암호를 안전 하 게 다시 설정할 수 있습니다.
 
 - **[Mfa (multi-factor authentication)](/azure/active-directory/authentication/concept-mfa-howitworks)**: mfa를 사용 하려면 사용자 암호와 Microsoft 인증자 앱 또는 전화 통화의 알림과 같은 두 가지 유형의 확인을 제공 해야 합니다. MFA는 도난당 한 id가 사용자 환경에 액세스 하는 데 사용할 수 있는 위험을 크게 줄여줍니다.
 

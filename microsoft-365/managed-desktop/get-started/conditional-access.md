@@ -6,18 +6,21 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1bc5d937616cba60c5af43fe22a7c4dccf89a55e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 8844c50f5faba609b3f5f53adc5ab45ba1dbaa74
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085810"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529686"
 ---
 # <a name="adjust-conditional-access"></a>조건부 액세스 조정
 
 조직에서 [조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) 정책을 사용 하는 경우에는 Microsoft Managed Desktop이 제대로 작동할 수 있도록 사용자가 특정 계정을 제외 하도록 설정 해야 합니다.
 
-이렇게 하려면 다음 단계를 따르세요.
+이렇게 하려면 다음과 같이 하십시오.
 
 1. [방법: Azure Active Directory에서 조건부 액세스 배포 계획](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access#rollback-steps)의 "롤백 단계" 섹션을 참조 하세요.
 2. 이 단계에 따라 모든 정책에 대 한 *최신 직장의 작업 공간 서비스 계정* 그룹을 제외 합니다.

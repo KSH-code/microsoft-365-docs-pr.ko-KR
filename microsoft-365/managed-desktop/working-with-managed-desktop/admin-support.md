@@ -1,19 +1,22 @@
 ---
-title: Microsoft Managed Desktop에 대 한 관리자 지원
+title: Microsoft Managed Desktop의 관리자 지원
 description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: c3137c25de9f8fe941f62e5c53b1006c5009e222
-ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: a29fa11e43e9be5c8175118ad5b54817c463e929
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42266094"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529902"
 ---
-# <a name="admin-support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 관리자 지원
+# <a name="admin-support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 관리자 지원
 
 Microsoft Managed Desktop 관리 포털을 사용 하 여 Microsoft에 지원 티켓 또는 피드백 요청을 제출할 수 있습니다. 사용자 의견 전송과 관련 하 여 지원 요청이 항상 우선 순위를 갖습니다. 지원 요청은 [심각도 정의 테이블](#sev)에 나와 있는 심각도에 따라 심사 되 고 관리 됩니다. 의견을 검토 하 고 요청 된 경우 제공 되는 응답입니다. 
 
@@ -51,7 +54,7 @@ Microsoft Managed Desktop 관리 포털을 사용 하 여 Microsoft에 지원 �
 - **응용 프로그램 호환성** -응용 프로그램 호환성 문제를 고려해 야 하는 경우 이전 버전과 현재 버전의 Windows 또는 Office 사이에 동일한 버전의 응용 프로그램에 대 한 reproduceable 오류가 발생 해야 합니다. 응용 프로그램 호환성 문제를 해결 하기 위해 Microsoft에서는 사용자의 연락처를 사용 해야 합니다. 이 문제를 조사 하 고 해결 하려면 개인이 빠른 추적 팀과 직접 작업을 해야 합니다.
 - **고객 응답 시간** 고객이 예상 되는 응답 요구 사항을 충족할 수 없는 경우 Microsoft는 심각도 수준 1 개 이상으로 요청을 다운 그레이드 합니다. 고객이 작업 요청에 응답 하지 않으면 Microsoft는 마지막 요청의 48 시간 이내에 지원 요청을 완화 하 고 닫습니다.
 
-## <a name="provide-feedback"></a>의견 제공
+## <a name="provide-feedback"></a>피드백 제공
 
 사용자 의견을 보내주셔서 감사 하 고이를 사용 하 여 관리자 지원 환경을 개선 합니다.
 

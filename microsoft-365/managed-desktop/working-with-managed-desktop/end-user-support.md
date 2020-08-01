@@ -6,12 +6,15 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 6c23d2ffa70cf4931823fafa1918e7fd5eefa0b8
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 5d296c9e690421fdd98fba22b21b44a87157b36f
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430438"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529758"
 ---
 # <a name="getting-help-for-end-users"></a>최종 사용자를 위한 도움말
 
@@ -44,7 +47,7 @@ ms.locfileid: "45430438"
 
 이러한 필수 구성 요소를 확인 했지만 Get Help app가 여전히 작동 하지 않는 경우 IT 관리자는 [지원 요청](admin-support.md)을 받아야 합니다.
 
-## <a name="phone-support"></a>전화 지원 
+## <a name="phone-support"></a>전화 지원
 
 또한 Microsoft Managed Desktop 장치를 사용 하는 최종 사용자는 전화를 걸 수 있는 무료 전화 번호에 액세스할 수도 있습니다. 이는 도움말 보기를 사용할 수 없는 경우에 사용 됩니다. 예를 들어 장치에 로그인 할 수 없거나 장치가 손상 된 경우입니다. 다음은 전화 지원에 대 한 전화 번호입니다.
 

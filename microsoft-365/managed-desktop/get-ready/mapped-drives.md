@@ -7,16 +7,18 @@ author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 8bdbbefb1fc3bfff324787eedb497afe781184f0
-ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: e6311c0ad11d68c870b0c8185974b8913735e2a2
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42280176"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530178"
 ---
 #  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 매핑된 드라이브 준비
 
-대부분의 엔터프라이즈 환경에서는 사용자 또는 팀이 파일을 공유 및 저장 하거나 온-프레미스 응용 프로그램을 사용할 수 있도록 매핑된 드라이브에 대 한 레거시 요구 사항이 있습니다. Microsoft 관리 데스크톱에서는 매핑된 드라이브를 사용 하지 않는 것이 좋습니다. 대신 다음과 같이 yor 파일 액세스 솔루션을 modernize 것이 좋습니다.
+대부분의 엔터프라이즈 환경에서는 사용자 또는 팀이 파일을 공유 및 저장 하거나 온-프레미스 응용 프로그램을 사용할 수 있도록 매핑된 드라이브에 대 한 레거시 요구 사항이 있습니다. Microsoft 관리 데스크톱에서는 매핑된 드라이브를 사용 하지 않는 것이 좋습니다. 대신 파일 액세스 솔루션을 다음과 같이 modernize 것이 좋습니다.
   
 - 개별 사용자가 사용 하는 매핑된 드라이브를 비즈니스용 OneDrive로 마이그레이션합니다. 
 - 팀에서 SharePoint Online으로 파일을 공유 하는 데 사용 하는 매핑된 드라이브를 마이그레이션합니다. 
@@ -34,7 +36,7 @@ ms.locfileid: "42280176"
 - 이러한 파일 공유 위치에 액세스 해야 하는 사용자 그룹 
 - 할당 해야 하는 특정 드라이브 문자 (필요한 경우)
 
-예:
+예제:
 
 | 드라이브 문자 | UNC 경로 | 사용자 그룹 |
 |--------------|----------|------------|

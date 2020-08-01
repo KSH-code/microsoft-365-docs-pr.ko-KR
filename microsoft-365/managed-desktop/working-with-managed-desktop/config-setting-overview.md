@@ -5,16 +5,18 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서, 설정
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 2/14/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: d8ebe4519d169db5500c55a3337836ca2d0986c0
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 1af320ee6151036000e4e8c6fedc4d9152411283
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390725"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530238"
 ---
-# <a name="configurable-settings---microsoft-managed-desktop"></a>구성 가능 설정-Microsoft Managed Desktop
+# <a name="configurable-settings---microsoft-managed-desktop"></a>구성 가능한 설정-Microsoft 관리형 데스크톱
 
 Microsoft Managed Desktop은 Microsoft Managed Desktop이 관리 하는 모든 장치에 적용 되는 설정 및 정책을 배포 합니다. 자세한 내용은 [장치 구성을](../service-description/device-policies.md)참조 하세요.
 
@@ -41,7 +43,7 @@ Microsoft Managed Desktop의 구성 가능한 설정은 IT 관리자에 게 조�
 
 각 설정 범주를 사용자 지정 하 고 직접 배포할 수 있습니다. 동시에 여러 설정 범주에 대 한 변경 내용을 배포할 수 있지만 한 번에 하나의 변경만 설정 범주에 배포할 수 있습니다.
 
-예를 들면 다음과 같습니다.
+예제:
 - 데스크톱 배경 그림 및 신뢰할 수 있는 사이트에 대 한 변경 내용을 각 사용자에 게 동시에 배포할 수 있습니다. 
 - 두 개의 배포를 브라우저 시작 페이지에 동시에 배포할 수는 없습니다. 가장 최근 배포에서는 아직 진행 중인 이전 배포를 중지 합니다.
 

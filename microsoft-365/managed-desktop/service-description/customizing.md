@@ -6,12 +6,15 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 9dca53ac9e99fd9bc68ee42f78de6a2bc009e42c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 826710bf59acd88494adf1f154e5657d1e039af7
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636187"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529938"
 ---
 # <a name="exceptions-to-the-service-plan"></a>서비스 계획에 대한 예외
 
@@ -21,13 +24,13 @@ Microsoft Managed Desktop은 맞게 조정 된 장치 목록, [표준 장치 설
 
 Microsoft Managed Desktop 기본 구성에 대 한 예외를 추가 하거나 변경할 수는 없습니다. 예를 들면 USB 포트 구성에서 새 장치 드라이버를 배포 하기 위한 범위입니다. 다양 한 예외를 그룹화 하는 방법은 다음과 같습니다.
 
-|형식  |설명  |
+|유형  |설명  |
 |---------|---------|
 |생산성 소프트웨어     |  최종 사용자에 게 필요한 포그라운드 소프트웨어 ( [응용 프로그램 요구 사항](mmd-app-requirements.md) 에 의해 제한 됨)       |
 |Vpn & 보안 에이전트     |  장치 또는 네트워크의 동작을 보호, 모니터링 또는 변경 하는 데 사용 되는 소프트웨어       |
 |디지털 환경 모니터링     |  사용자의 장치에서 데이터를 추적 하는 데 사용 되는 소프트웨어       |
 |하드웨어 또는 소프트웨어 드라이버     |   장치 드라이버 ( [응용 프로그램 요구 사항](mmd-app-requirements.md) 에 따라 제한 됨)      |
-|정책도     | 관리 되는 장치의 엔터프라이즈 설정에 대 한 Windows 10 또는 Microsoft 365 앱        |
+|정책     | 관리 되는 장치의 엔터프라이즈 설정에 대 한 Windows 10 또는 Microsoft 365 앱        |
 |장치     | Microsoft Managed Desktop [장치 목록](device-list.md) 에 없는 장치        |
 |기타     |  다른 영역에 포함 되지 않는 모든 사항       |
  

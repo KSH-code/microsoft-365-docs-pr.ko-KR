@@ -6,12 +6,15 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 4e83983ae7b8b936b639382f025f1f88eeca0762
-ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 371656168f32db86ff32f187736d59dbd5dbe749
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699678"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529698"
 ---
 # <a name="install-intune-company-portal-on-on-devices"></a>장치에 Intune 회사 포털 설치
 
@@ -44,7 +47,7 @@ Microsoft Managed Desktop에서 지원 요청을 제출 하는 방법에 대 한
 - 회사 포털에서 응용 프로그램을 설치 하는 단계 자세한 내용은 [장치에 앱 설치 및 공유](https://docs.microsoft.com/intune-user-help/install-apps-cpapp-windows)를 참조 하세요.
 - 현재 사용할 수 없는 응용 프로그램에 대 한 요청을 IT 관리자에 게 보내는 방법 자세한 내용은 [회사 또는 학교에 대 한 앱 요청](https://docs.microsoft.com/intune-user-help/install-apps-cpapp-windows#request-an-app-for-work-or-school)을 참조 하세요.  
 
-## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작 하기 위한 단계
+## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작하기 위한 단계
 
 1. [관리 포털에서 관리자 연락처 추가 및 확인](add-admin-contacts.md)
 2. [조건부 액세스 조정](conditional-access.md)

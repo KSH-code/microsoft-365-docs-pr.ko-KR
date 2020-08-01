@@ -5,14 +5,16 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 09/24/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 02a0b11a1a210367d76e73c75ac5c1fc7a66f94f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 85e352ec657da435e435311b2ad48beb6a0487ee
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636211"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529998"
 ---
 # <a name="microsoft-managed-desktop-roles-and-responsibilities"></a>Microsoft Managed Desktop 역할 및 책임
 
@@ -37,7 +39,7 @@ Microsoft Managed Desktop 서비스 지원 | Microsoft는 Microsoft 관리 데�
 
 ## <a name="your-roles-and-responsibilities"></a>사용자의 역할 및 책임
 
-다음은 Microsoft에서 제공 하지 않지만 성공적인 배포를 위해 필요한 추가 일반적인 역할 및 책임 집합입니다. 이 기능은 포괄적이 지는 않지만 대부분의 조직에 적용 됩니다. Microsoft와 고객이 공유 하는 몇 가지 항목이 responsibilties 있습니다. 
+다음은 Microsoft에서 제공 하지 않지만 성공적인 배포를 위해 필요한 추가 일반적인 역할 및 책임 집합입니다. 이 기능은 포괄적이 지는 않지만 대부분의 조직에 적용 됩니다. Microsoft와 고객을 공유 하는 몇 가지 항목은 다음과 같습니다. 
 
 역할 또는 책임 | 설명
 --- | ---

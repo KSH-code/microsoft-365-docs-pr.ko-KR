@@ -9,12 +9,14 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 61ee024cc483f9be172063a256cedd3827d6807a
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: fb5a73782650cee36ffdfb95a9bf6efd9464435f
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430498"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529484"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 네트워크 구성
 
@@ -56,7 +58,7 @@ Microsoft 서비스 | 설명서
 비즈니스용 Windows 업데이트를 포함 하는 windows 10 Enterprise | [Windows 10의 연결 끝점 관리, 버전 1803](https://docs.microsoft.com/windows/privacy/manage-windows-1803-endpoints)<br><br>[Windows 10의 연결 끝점 관리, 버전 1809](https://docs.microsoft.com/windows/privacy/manage-windows-1809-endpoints)<br><br>[Windows 10의 연결 끝점 관리, 버전 1903](https://docs.microsoft.com/windows/privacy/manage-windows-1903-endpoints)<br><br>[Windows 10의 연결 끝점 관리, 버전 2004](https://docs.microsoft.com/windows/privacy/manage-windows-2004-endpoints)
 배달 최적화 | [Windows 10 업데이트에 대 한 배달 최적화 구성](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization)
 Microsoft 365 | [Microsoft 365 URL 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
-Azure Active Directory Domain Services | [하이브리드 id 필수 포트 및 프로토콜](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) , [Active Directory 및 Active Directory 도메인 서비스 포트 요구 사항](https://aka.ms/AA26ygm) 
+Azure Active Directory | [하이브리드 id 필수 포트 및 프로토콜](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) , [Active Directory 및 Active Directory 도메인 서비스 포트 요구 사항](https://aka.ms/AA26ygm) 
 Microsoft Intune | [Intune 네트워크 구성 요구 사항](https://docs.microsoft.com/intune/network-bandwidth-use)<br>[Microsoft Intune의 네트워크 끝점](https://docs.microsoft.com/mem/intune/fundamentals/intune-endpoints)
 Microsoft Defender ATP (Advanced Threat Protection) | [Microsoft Defender ATP 끝점](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)
 Windows Autopilot | [Windows Autopilot 네트워킹 요구 사항](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot-requirements#networking-requirements)

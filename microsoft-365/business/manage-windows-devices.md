@@ -24,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Microsoft 365에서 일부 단계만 수행 하 여 Active Directory에 가입 된 로컬 Windows 10 장치를 보호 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 857651081fb10856d28dd419333ebef655388407
-ms.sourcegitcommit: e6e704cbd9a50fc7db1e6a0cf5d3f8c6cbb94363
+ms.openlocfilehash: 2eaf5aa76cae1680b93af008af615ae872e4fb20
+ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44564952"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533788"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Microsoft 365 Business Premium에서 관리할 도메인에 가입 된 Windows 10 장치를 사용 하도록 설정
 
@@ -77,44 +77,32 @@ Microsoft Intune 페이지에서 **장치 등록** 을 선택 하 고 **개요**
         -  Azure AD에서 동기화 되는 원하는 도메인 사용자를 [보안 그룹](../admin/create-groups/create-groups.md)에 추가 합니다.
         -  **그룹 선택을** 선택 하 여 해당 보안 그룹에 대 한 MDM 사용자 범위를 사용 하도록 설정 합니다.
 
-## <a name="4-set-up-service-connection-point-scp"></a>4. SCP (서비스 연결 지점) 설정
+## <a name="4-create-the-required-resources"></a>4. 필요한 리소스 만들기 
 
-이러한 단계는 [하이브리드 AZURE AD 조인 구성](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#configure-hybrid-azure-ad-join)에서 간소화 되었습니다. Azure AD Connect와 Microsoft 365 Business Premium 전역 관리자 및 Active Directory 관리자 암호를 사용 하는 데 필요한 단계를 완료 합니다.
+[Secmgmt](https://www.powershellgallery.com/packages/SecMgmt) PowerShell 모듈에 있는 [SecMgmtHybirdDeviceEnrollment](https://github.com/microsoft/secmgmt-open-powershell/blob/master/docs/help/Initialize-SecMgmtHybirdDeviceEnrollment.md) cmdlet을 사용 하 여 [하이브리드 Azure AD join을 구성](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#configure-hybrid-azure-ad-join) 하기 위해 필요한 작업을 수행 하는 과정을 간소화 했습니다. 이 cmdlet을 호출 하면 필요한 서비스 연결 지점 및 그룹 정책이 생성 되 고 구성 됩니다.
 
-1.  Azure AD Connect를 시작한 다음 **구성을**선택 합니다.
-2.  **추가 작업** 페이지에서 **장치 옵션 구성을**선택 하 고 **다음**을 선택 합니다.
-3.  **개요** 페이지에서 **다음**을 선택 합니다.
-4.  **AZURE AD에 연결** 페이지에서 Microsoft 365 Business Premium에 대 한 전역 관리자의 자격 증명을 입력 합니다.
-5.  **장치 옵션** 페이지에서 **하이브리드 Azure AD 조인 구성을**선택 하 고 **다음**을 선택 합니다.
-6.  **Scp** 페이지에서 Azure AD CONNECT가 scp를 구성 하도록 하려는 각 포리스트에 대해 다음 단계를 완료 하 **고 다음을 선택 합니다**.
-    - 포리스트 이름 옆의 확인란을 선택 합니다. 포리스트는 AD 도메인 이름 이어야 합니다.
-    - **인증 서비스** 열에서 드롭다운을 열고 일치 하는 도메인 이름을 선택 합니다 (하나만 옵션 하나만 있어야 함).
-    - **추가** 를 선택 하 여 도메인 관리자 자격 증명을 입력 합니다.  
-7.  **장치 운영** 체제 페이지에서 Windows 10 이상 도메인 가입 장치만을 선택 합니다.
-8.  **구성 준비 완료** 페이지에서 **구성을**선택 합니다.
-9.  **구성 완료** 페이지에서 **끝내기**를 선택 합니다.
+PowerShell 인스턴스에서 다음을 호출 하 여이 모듈을 설치할 수 있습니다.
 
-
-## <a name="5-create-a-gpo-for-intune-enrollment--admx-method"></a>5. Intune 등록을 위한 GPO 만들기 – ADMX 메서드
-
-하십시오. ADMX 서식 파일
-
-1.  AD server에 로그온 하 고 **서버 관리자**  >  **도구**  >  **그룹 정책 관리**를 검색 하 고 엽니다.
-2.  **Domains** (도메인)에서 도메인 이름을 선택 하 고 **그룹 정책 개체** 를 마우스 오른쪽 단추로 클릭 하 여 **새로 만들기**를 선택 합니다.
-3.  새 GPO 이름 (예: "*Cloud_Enrollment*")을 지정 하 고 **확인**을 선택 합니다.
-4.  **그룹 정책 개체** 아래의 새 GPO를 마우스 오른쪽 단추로 클릭 하 고 **편집**을 선택 합니다.
-5.  **그룹 정책 관리 편집기**에서 **컴퓨터 구성**  >  **정책**  >  **관리 템플릿**  >  **Windows 구성 요소**  >  **MDM**으로 이동 합니다.
-6. **기본 Azure AD 자격 증명을 사용 하 여 자동 MDM 등록 사용** 을 마우스 오른쪽 단추로 클릭 한 다음 확인 **사용**을 선택  >  **OK**합니다. 편집기 창을 닫습니다.
+```powershell
+Install-Module SecMgmt
+```
 
 > [!IMPORTANT]
-> **기본 AZURE AD 자격 증명을 사용 하 여 자동 MDM 등록**정책이 표시 되지 않는 경우 [에는 최신 관리 템플릿 가져오기를](#get-the-latest-administrative-templates)참조 하세요.
+> Azure AD Connect를 실행 하는 Windows 서버에이 모듈을 설치 하는 것이 좋습니다.
 
-## <a name="6-deploy-the-group-policy"></a>6. 그룹 정책 배포
+필요한 서비스 연결 지점 및 그룹 정책을 만들려면 [SecMgmtHybirdDeviceEnrollment](https://github.com/microsoft/secmgmt-open-powershell/blob/master/docs/help/Initialize-SecMgmtHybirdDeviceEnrollment.md) cmdlet을 호출 합니다. 이 작업을 수행 하는 경우 Microsoft 365 Business Premium global 관리자 자격 증명이 필요 합니다. 리소스를 만들 준비가 되 면 다음을 호출 합니다.
 
-1.  서버 관리자의 **도메인** > 그룹 정책 개체 아래에서 위의 3 단계에서 GPO를 선택 합니다 (예: "Cloud_Enrollment").
-2.  GPO의 **범위** 탭을 선택 합니다.
-3.  GPO의 범위 탭에서 **링크**아래의 도메인에 대 한 링크를 마우스 오른쪽 단추로 클릭 합니다.
-4.  GPO를 배포 하려면 **적용** 을 선택 하 고 확인 화면에서 **확인** 을 클릭 합니다.
+```powershell
+PS C:\> Connect-SecMgmtAccount
+PS C:\> Initialize-SecMgmtHybirdDeviceEnrollment -GroupPolicyDisplayName 'Device Management'
+```
+
+첫 번째 명령은 Microsoft 클라우드와의 연결을 설정 하 고 메시지가 표시 되 면 Microsoft 365 Business Premium 전역 관리자 자격 증명을 지정 합니다.
+
+## <a name="5-link-the-group-policy"></a>5. 그룹 정책 연결
+
+1. GPMC (그룹 정책 관리 콘솔)에서 정책을 연결할 위치를 마우스 오른쪽 단추로 클릭 하 고 상황에 맞는 메뉴에서 *기존 GPO 연결* ...을 선택 합니다.
+2. 위의 단계에서 만든 정책을 선택 하 고 **확인**을 클릭 합니다.
 
 ## <a name="get-the-latest-administrative-templates"></a>최신 관리 템플릿 가져오기
 
@@ -129,4 +117,3 @@ Microsoft Intune 페이지에서 **장치 등록** 을 선택 하 고 **개요**
 6.  정책을 사용 하려면 주 도메인 컨트롤러를 다시 시작 합니다. 이 절차는 이후 버전 에서도 작동 합니다.
 
 이제 사용 가능한 **기본 AZURE AD 자격 증명을 사용 하 여 자동 MDM 등록** 정책을 볼 수 있어야 합니다.
-

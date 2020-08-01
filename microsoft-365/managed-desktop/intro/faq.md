@@ -1,18 +1,20 @@
 ---
-title: 질문과 대답
+title: FAQ
 description: ''
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 09/24/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: b7acc4a145f4eda34a30bfd5ba83e05869254046
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: d38414aed1270c239c9e8075a654c29d875b7a69
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390745"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529723"
 ---
 # <a name="faq-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 FAQ
 

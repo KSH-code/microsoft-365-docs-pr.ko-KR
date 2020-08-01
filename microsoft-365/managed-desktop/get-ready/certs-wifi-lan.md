@@ -9,18 +9,20 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 0c3edda92e28b45b7f7b48c1d5002014f71116f6
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: c7c57861986d275165484ae726140720a75da88e
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596575"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530034"
 ---
 # <a name="prepare-certificates-and-network-profiles-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비  
  
 인증서 기반 인증은 Microsoft Managed Desktop을 사용 하는 고객에 게 일반적인 요구 사항입니다. Wi-fi 또는 LAN에 액세스 하거나, VPN 솔루션에 연결 하거나, 조직의 내부 리소스에 액세스 하려면 인증서가 필요할 수 있습니다.   
  
-Microsoft Managed Desktop 장치는 Azure Active Directory (Azure AD)에 연결 되 고 Microsoft Intune에서 관리 되므로 단순 SCEP (인증서 등록 프로토콜) 또는 PKCS (공개 키 암호화 표준)를 사용 하 여 해당 인증서를 배포 해야 합니다. Intune과 통합 된 인증서 인프라    
+Microsoft Managed Desktop 장치는 Azure Active Directory (Azure AD)에 연결 되 고 Microsoft Intune에서 관리 되므로 Intune과 통합 된 단순 인증서 등록 프로토콜 (SCEP) 또는 PKCS (공개 키 암호화 표준) 인증서 인프라를 사용 하 여 이러한 인증서를 배포 해야 합니다.    
  
 ## <a name="certificate-requirements"></a>인증서 요구 사항 
  
@@ -37,7 +39,7 @@ Microsoft Managed Desktop에 SCEP 또는 PKCS 인증서를 배포 하기 전에 
   
 ## <a name="wi-fi-connectivity-requirements"></a>Wi-fi 연결 요구 사항
 
-엔터프라이즈 네트워크에 필요한 Wi-fi 구성을 사용 하 여 장치를 자동으로 제공 하려면 Wi-fi 구성 프로필이 필요할 수 있습니다. Microsoft Managed Desktop을 구성 하 여 장치에 이러한 프로필을 배포할 수 있습니다. 네트워크 보안에 따라 장치가 로컬 도메인에 포함 되어야 하는 경우에는 Wi-fi 네트워크 인프라를 평가 하 여 Microsoft Managed desktop devices와 호환 되도록 해야 할 수도 있습니다 (Microsoft Managed Desktop devices가 Azure AD에 가입 되었는지 확인 함). 전용)입니다. 
+엔터프라이즈 네트워크에 필요한 Wi-fi 구성을 사용 하 여 장치를 자동으로 제공 하려면 Wi-fi 구성 프로필이 필요할 수 있습니다. Microsoft Managed Desktop을 구성 하 여 장치에 이러한 프로필을 배포할 수 있습니다. 네트워크 보안이 로컬 도메인에 포함 되어야 하는 경우에는 Wi-fi 네트워크 인프라를 평가 하 여 Microsoft 관리 되는 데스크톱 장치와 호환 되도록 해야 할 수도 있습니다 (Microsoft Managed Desktop devices = Azure AD에만 가입 됨). 
  
 Microsoft Managed Desktop 장치에 Wi-fi 구성을 배포 하기 전에 각 Wi-fi 네트워크에 대 한 조직의 요구 사항을 수집 해야 합니다. 이를 보다 쉽게 수행 하려면이 [WiFi 프로필 템플릿을](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/WiFi-profile-template.xlsx)사용 하면 됩니다.
  
@@ -53,7 +55,7 @@ Microsoft Managed Desktop 장치에 Wi-fi 구성을 배포 하기 전에 각 Wi-
 2. 관리 자격 증명을 사용 하 여 명령 프롬프트를 엽니다. 
 3. **Netsh interface show interface**를 실행 하 여 LAN 인터페이스 이름을 찾습니다. 
 4. **Netsh lan export profile folder =를 실행 하 여 LAN 프로필 XML을 내보냅니다.  Interface = "interface_name"** 
-5. 내보낸 프로필을 Microsoft Managed Desktop 장치에서 테스트 해야 하는 경우에는 **netsh lan add profile filename = "PATH_AND_FILENAME .xml" interface = "INTERFACE_NAME"** 를 실행 합니다. 
+5. 내보낸 프로필을 Microsoft Managed Desktop 장치에서 테스트 해야 하는 경우에는 **netsh lan add profile filename = "PATH_AND_FILENAME.xml" interface = "INTERFACE_NAME"** 를 실행 합니다. 
  
  
 ## <a name="deploy-certificate-infrastructure"></a>인증서 인프라 배포  
@@ -85,6 +87,6 @@ LAN 프로필을 내보낸 후에는 다음 단계를 수행 하 여 Microsoft M
 2. 각 SCEP 또는 PKCS 인증서에 대 한 프로필 만들기 ( [scep 인증서 프로필](https://docs.microsoft.com/intune/protect/certificates-scep-configure#create-a-scep-certificate-profile) 만들기 또는 [Pkcs 인증서 프로필 만들기](https://docs.microsoft.com/intune/protect/certficates-pfx-configure#create-a-pkcs-certificate-profile)참조) 각 프로필에는 만료 날짜를 DD/MM/YYYY 형식으로 포함 하는 설명이 있어야 합니다. **만료 날짜가 없는 인증서 프로필은 배포 되지 않습니다.**
 3. 각 회사 WiFi 네트워크에 대 한 프로필을 만듭니다 ( [Windows 10 이상 장치에 대 한 wi-fi 설정](https://docs.microsoft.com/intune/wi-fi-settings-windows)참조).
 4. 각 회사 VPN에 대 한 프로필을 만듭니다 ( [Intune을 사용 하 여 VPN 연결을 추가 하려면 windows 10 및 Windows Holographic 장치 설정](https://docs.microsoft.com/intune/vpn-settings-windows-10)참조).
-5. Microsoft Managed Desktop Administration portal을 사용 하 여 Microsoft Managed Desktop IT 작업에 "인증서 배포" 또는 "Wi-fi 프로필 배포" 라는 지원 요청을 제출 하 여 구성 프로필을 검토 하 고 "최신 작업 공간 장치-테스트"로 배포 합니다. ". Microsoft Managed Desktop IT 작업을 통해 관리자 포털의 지원 요청을 통해 요청이 완료 된 시기를 알 수 있습니다. 
+5. Microsoft Managed Desktop Administration portal을 사용 하 여 Microsoft Managed Desktop IT 작업에 "인증서 배포" 또는 "Wi-fi 프로필 배포" 라는 지원 요청을 제출 하 여 구성 프로필을 검토 하 고 "최신 직장 회사 장치-테스트"로 배포 합니다. Microsoft Managed Desktop IT 작업을 통해 관리자 포털의 지원 요청을 통해 요청이 완료 된 시기를 알 수 있습니다. 
  
  

@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 Advanced Threat Protection을 사용 하 여 조직에 대해 차단 된 Url 목록을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 5c5253aabf5d5235e31f24624fd9e1b3f4adb184
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 288aea848836a56108872c0e4d36d01f4d59ec42
+ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617267"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533814"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-atp-safe-links"></a>ATP 안전한 링크를 사용 하 여 차단 된 사용자 지정 Url 목록 설정
 
@@ -84,6 +84,10 @@ ATP 정책을 편집 하거나 정의 하려면 다음 표에 설명 된 역할 
 |`https://contoso.com/a`|사이트를 차단 `https://contoso.com/a` 하지만 추가 하위 경로는 제외 합니다.`https://contoso.com/a/b`|
 |`https://contoso.com/a*`|사이트 `https://contoso.com/a` 및 추가 하위 경로를 차단 합니다.`https://contoso.com/a/b`|
 |`https://toys.contoso.com*`|하위 도메인 (이 경우 "장난감")을 차단 하지만 클릭은 다른 도메인 Url (예 `https://contoso.com` , 또는 `https://home.contoso.com` )을 허용 합니다.|
+
+
+> [!NOTE]
+> 기본적으로 Office 365 ATP 안전한 링크 기본 정책의 차단 된 URL 목록에는 500 Url만 추가할 수 있습니다.
 
 ## <a name="how-to-define-exceptions-for-certain-users-in-an-organization"></a>조직의 특정 사용자에 대 한 예외를 정의 하는 방법
 

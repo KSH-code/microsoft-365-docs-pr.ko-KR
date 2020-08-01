@@ -6,12 +6,15 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: dd50e5d7291589d12261396aac62e4d07b06909f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: bcb47a7d5e5dc0880ade6a7e5900d1019e13a8d7
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250428"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529770"
 ---
 # <a name="work-with-insights"></a>인사이트를 활용한 작업
 
@@ -34,7 +37,7 @@ Microsoft 365 관리 센터에서 이러한 보기에 액세스 하려면 **Repo
 
 
 
-## <a name="usage-insights"></a>인사이트 활용
+## <a name="usage-insights"></a>사용 현황 정보 활용
 이 보기는 Microsoft 관리 데스크톱 장치에 대 한 사용 메트릭을 제공 합니다. 
 
 사용 현황 데이터를 보려면 **사용 현황** 탭을 선택 합니다.
@@ -46,12 +49,12 @@ Microsoft 365 관리 센터에서 이러한 보기에 액세스 하려면 **Repo
 
 자세한 내용은 [안정성 정보](reliability-insights.md)를 확인 하세요.
 
-## <a name="battery-insights"></a>배터리 정보
+## <a name="battery-insights"></a>배터리 정보 활용
 이 보기에는 해당 환경의 장치에 대 한 예상 배터리 수명 및 앱의 에너지 소비량에 대 한 정보가 표시 됩니다. 이 정보를 보려면 **배터리** 탭을 선택 합니다.
 
 자세한 내용은 [배터리 정보](battery-insights.md)를 확인 하세요.
 
-## <a name="windows-security-update-insights"></a>Windows 보안 업데이트 insights
+## <a name="windows-security-update-insights"></a>Windows 보안 업데이트 정보 활용
 
 이 보기에는 Microsoft Managed Desktop 장치에 대 한 보안 업데이트 상태에 대 한 정보가 표시 됩니다. 이 정보를 보려면 **Windows 보안 udates** 탭을 선택 합니다.
 
