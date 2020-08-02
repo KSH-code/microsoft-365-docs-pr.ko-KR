@@ -5,12 +5,15 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 61bf3b54b5499321288793acea9552b48d7bd492
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 335fd660a2e132944a25e129b2f2fe03b51fda21
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "43790614"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529496"
 ---
 # <a name="get-ready-for-enrollment-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 등록 준비
 
@@ -18,7 +21,7 @@ ms.locfileid: "43790614"
 
 - [Microsoft Managed Desktop의 필수 구성 요소](prerequisites.md)
 - [Microsoft Managed Desktop의 네트워크 구성](network.md)
-- [Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비](network.md)
+- [Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비](authentication.md)
 - [Microsoft Managed Desktop의 매핑된 드라이브 준비](mapped-drives.md)
 - [Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비](certs-wifi-lan.md)
 - [Microsoft Managed Desktop의 인쇄 리소스 준비](printing.md)

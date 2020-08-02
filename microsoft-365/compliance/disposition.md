@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용 하 든, 구성 된 설정에 따라 콘텐츠를 자동으로 삭제할지 여부에 관계 없이 콘텐츠 삭제를 모니터링 하 고 관리 합니다.
-ms.openlocfilehash: 938d530447d1a798e5a2d6d4c2f622a04827bf1c
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 55b57891732f50eba09425fce4d2be34c94740f3
+ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529603"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533825"
 ---
 # <a name="disposition-of-content"></a>콘텐츠 처리
 
@@ -79,7 +79,7 @@ Microsoft 365 준수 센터의 **처리** 탭에 성공적으로 액세스 하�
 
 ![레코드 관리 개요에서 보류 중인 dispositions](../media/dispositions-overview.png)
 
-**보류 중인 모든 Dispositions 보기**를 선택 하면 **처리** 페이지로 이동 됩니다. 다음의 예를 참조하십시오.
+**보류 중인 모든 Dispositions 보기**를 선택 하면 **처리** 페이지로 이동 됩니다. 예제:
 
 ![Microsoft 365 준수 센터의 Dispositions 페이지](../media/disposition-tab.png)
 
@@ -124,11 +124,11 @@ Microsoft 365 준수 센터의 **처리** 탭에 성공적으로 액세스 하�
 ## <a name="disposition-of-records"></a>콘텐츠 처분
 
 > [!NOTE]
->SharePoint 및 OneDrive의 레코드에 대 한 삭제 증명 롤아웃이 완료 되었습니다. 콘텐츠가 Microsoft 365 준수 센터의 레코드 관리 페이지에 있는 처리 섹션에 SharePoint 및 OneDrive의 레코드로 표시 된 보존 레이블 목록이 표시 됩니다. 이러한 레이블에서는 자동으로 삭제 되거나 폐기 검토 후에 SharePoint 및 OneDrive의 항목 목록을 볼 수 있습니다.
+> SharePoint 및 OneDrive의 레코드에 대 한 삭제 증명 롤아웃이 완료 되었습니다. 콘텐츠가 Microsoft 365 준수 센터의 레코드 관리 페이지에 있는 처리 섹션에 SharePoint 및 OneDrive의 레코드로 표시 된 보존 레이블 목록이 표시 됩니다. 이러한 레이블에서는 자동으로 삭제 되거나 폐기 검토 후에 SharePoint 및 OneDrive의 항목 목록을 볼 수 있습니다.
+>
+> Exchange의 레코드에 대 한 삭제 증명은 아직 활성화 되어 있지 않습니다. 이 롤아웃이 시작 되 고 완료 되 면이 참고 사항이 업데이트 됩니다.
 
-Exchange의 레코드에 대 한 삭제 증명은 아직 활성화 되어 있지 않습니다. 이 롤아웃이 시작 되 고 완료 되 면이 참고 사항이 업데이트 됩니다.
-
-**레코드 관리** 페이지의 **처리** 탭을 사용 하 여 자동으로 삭제 되는 레코드를 식별 합니다. 이러한 항목은 **형식** 열에서 **삭제 된 레코드** 를 표시 합니다. 다음의 예를 참조하십시오.
+**레코드 관리** 페이지의 **처리** 탭을 사용 하 여 자동으로 삭제 되는 레코드를 식별 합니다. 이러한 항목은 **형식** 열에서 **삭제 된 레코드** 를 표시 합니다. 예제:
 
 ![처리 검토 없이 삭제 된 항목](../media/records-disposed2.png)
 

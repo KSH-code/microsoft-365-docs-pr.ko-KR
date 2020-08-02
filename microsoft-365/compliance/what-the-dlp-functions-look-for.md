@@ -1,5 +1,5 @@
 ---
-title: DLP 기능이 찾는 항목
+title: DLP (데이터 손실 방지) 함수에서 찾을 대상
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -17,19 +17,19 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: 미리 정의 된 중요 한 정보 유형의 작동 방식을 이해 하는 데 도움이 되도록 DLP (데이터 손실 방지) 함수가 찾는 내용을 알아봅니다.
-ms.openlocfilehash: 838277b2e30696cd00cfc30df49c1d5a29149d92
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: DLP (데이터 손실 방지) 함수에서 찾는 사항에 대해 알아봅니다.
+ms.openlocfilehash: ef87be7dde83b1e5ba12456e7801e0554bceb6ea
+ms.sourcegitcommit: cfb0c50f1366736cdf031a75f0608246b5640d93
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819278"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46536313"
 ---
 # <a name="what-the-dlp-functions-look-for"></a>DLP 기능이 찾는 항목
 
-DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카드 번호 및 EU 직불 카드 번호와 같은 중요한 정보 유형이 포함됩니다. 이러한 중요한 정보 유형은 특정 패턴을 찾은 후 서식이 올바른지 확인하고, 체크섬을 적용하고, 관련된 키워드 또는 기타 정보를 찾아 완전하게 확인합니다. 이 기능 중 일부는 내부 함수에 의해 수행됩니다. 예를 들어 신용 카드 번호 중요한 정보 유형은 만료일과 같은 형식의 날짜를 찾는 함수를 사용하여 숫자가 신용 카드 번호임을 입증하는 데 도움을 줍니다.
+DLP (데이터 손실 방지)에는 DLP 정책에서 사용할 준비가 된 신용 카드 번호 및 EU 직불 카드 번호와 같은 중요 한 정보 유형이 포함 됩니다. 이러한 중요한 정보 유형은 특정 패턴을 찾은 후 서식이 올바른지 확인하고, 체크섬을 적용하고, 관련된 키워드 또는 기타 정보를 찾아 완전하게 확인합니다. 이 기능 중 일부는 내부 함수에 의해 수행됩니다. 예를 들어 신용 카드 번호 중요한 정보 유형은 만료일과 같은 형식의 날짜를 찾는 함수를 사용하여 숫자가 신용 카드 번호임을 입증하는 데 도움을 줍니다.
   
-이 항목에는 이러한 함수가 찾는 대상이 설명되어 있어 미리 정의된 중요한 정보 유형이 작동하는 방식을 이해할 수 있습니다. 자세한 내용은 [중요 한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md) 를 참조 하세요.
+이 문서에서는 미리 정의 된 중요 한 정보 유형의 작동 방식을 이해 하는 데 도움이 되도록 이러한 함수가 찾는 항목에 대해 설명 합니다. 자세한 내용은 [중요 한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md) 를 참조 하세요.
   
 ## <a name="func_us_date"></a>Func_us_date
 
@@ -61,7 +61,7 @@ DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카
     
 ## <a name="func_eu_date"></a>Func_eu_date
 
-이 함수는 유럽 연합(및 미국 이외의 대부분의 지역)에서 일반적으로 사용되는 형식의 날짜를 찾습니다. 여기에는 "일/월/년", "일-월-년" 및 "일 월 년" 형식이 포함됩니다. 월 이름 또는 약어는 대/소문자를 구분하지 않습니다.
+이 함수는 E.U.에서 일반적으로 사용 되는 형식의 날짜를 찾습니다. "일/월/년", "일/월/년" 및 "일 년"과 같이 미국 이외의 위치에 해당 합니다. 월 이름 또는 약어는 대/소문자를 구분하지 않습니다.
   
 예제:
   
@@ -183,7 +183,7 @@ DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카
     
   - januari, februari, maart, April, mei, juni, juli, augustus, September, ocktober, October, November, December
     
-  - jan 1 월 maart 년 9 월 8 일
+  - 1 월 2 일 maart 2007 년 9 월 8 월 9 시, 08 년 11 월
     
 ## <a name="func_expiration_date"></a>Func_expiration_date
 
@@ -201,7 +201,7 @@ DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카
     
 다음 형식은 YY 또는 YYYY를 지원합니다.
   
-- Month-YYYY -- 예를 들어 Jan-2010, january-2010, Jan-10 또는 january-10
+- Month--1 월-2010 또는 1 월-2010 또는 Jan-10 년 1 월-일 예
     
 - Month YYYY -- 예를 들어 'january 2010', 'Jan 2010', 'january 10' 또는 'Jan 10'
     
@@ -219,7 +219,7 @@ DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카
     
 ## <a name="func_us_address"></a>Func_us_address
 
-이 함수는 우편 주소에 사용되는 것과 같이 미국 주 이름 또는 주 약어와 유효한 우편 번호를 찾습니다. 우편 번호는 미국 주 이름 또는 약어와 관련된 올바른 우편 번호 중 하나여야 합니다. 미국 주 이름과 우편 번호를 문장 부호나 문자로 구분할 수 없습니다.
+이 함수는 우편 주소에서 사용 되는 것 처럼 미국 시/도 이름 또는 우편 약자를 찾은 다음 유효한 우편 번호를 찾습니다. 우편 번호는 미국 주 이름 또는 약어와 관련된 올바른 우편 번호 중 하나여야 합니다. 미국 주 이름과 우편 번호를 문장 부호나 문자로 구분할 수 없습니다.
   
 예제:
   
