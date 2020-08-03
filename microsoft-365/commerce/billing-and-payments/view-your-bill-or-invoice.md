@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -26,69 +26,57 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - AdminSurgePortfolio
-ms.assetid: 2ae3ea58-4fce-4592-91d6-46e9ae3ec218
 description: Microsoft 365 관리 센터에서 송장 또는 청구서를 찾으십시오. 청구서 복사본을 저장하고 인쇄할 수도 있습니다.
-ms.openlocfilehash: 7360f2bb73f78450143d5f1428ae90aa5bc0e0a1
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 81c3a03207fd8f35c975026ebd2a9a0334fc9407
+ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817000"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533616"
 ---
-# <a name="view-your-bill-or-invoice"></a><span data-ttu-id="e4904-104">청구서 또는 송장 보기</span><span class="sxs-lookup"><span data-stu-id="e4904-104">View your bill or invoice</span></span>
+# <a name="view-your-bill-or-invoice"></a><span data-ttu-id="1f8c0-104">청구서 또는 송장 보기</span><span class="sxs-lookup"><span data-stu-id="1f8c0-104">View your bill or invoice</span></span>
 
-<span data-ttu-id="e4904-p102">이 문서는 비즈니스용 Microsoft 365 구독을 사용하는 사용자용입니다. 이 문서에 설명된 단계를 수행하려면 전역 관리자 또는 대금 청구 관리자여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e4904-p102">This article is for people who have a Microsoft 365 for business subscription. You must be a global admin or billing admin to do the steps described in this article.</span></span>
+<span data-ttu-id="1f8c0-105">이 문서는 비즈니스용 Microsoft 365 구독을 사용하는 사용자용입니다.</span><span class="sxs-lookup"><span data-stu-id="1f8c0-105">This article is for people who have a Microsoft 365 for business subscription.</span></span>
   
-<span data-ttu-id="e4904-107">청구서에 표시된 요금 내용을 해석하는 데 도움이 필요한 경우 [결제 내역 또는 청구서 이해](understand-your-invoice2.md)에서 자세한 지침을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="e4904-107">If you need help interpreting the charges you see on your bill, see [Understand your bill or invoice](understand-your-invoice2.md) for a detailed walkthrough.</span></span>
+<span data-ttu-id="1f8c0-106">청구서에 표시된 요금 내용을 해석하는 데 도움이 필요한 경우 [결제 내역 또는 청구서 이해](understand-your-invoice2.md)에서 자세한 지침을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="1f8c0-106">If you need help with interpreting the charges you see on your bill, see [Understand your bill or invoice](understand-your-invoice2.md) for a detailed walkthrough.</span></span>
   
- <span data-ttu-id="e4904-108">**관리자가 아니세요?**</span><span class="sxs-lookup"><span data-stu-id="e4904-108">**Not an admin?**</span></span> <span data-ttu-id="e4904-109">IT 관리자에게 지원을 문의하세요.</span><span class="sxs-lookup"><span data-stu-id="e4904-109">Contact your IT administrator for help.</span></span> 
+<span data-ttu-id="1f8c0-107">**청구서에 문제가 있나요?**</span><span class="sxs-lookup"><span data-stu-id="1f8c0-107">**Have a problem with your bill?**</span></span> <span data-ttu-id="1f8c0-108">[비즈니스 제품에 대해서는 고객 지원 센터에 문의하세요](../../admin/contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="1f8c0-108">[Contact support for business products](../../admin/contact-support-for-business-products.md).</span></span>
+
+## <a name="before-you-begin"></a><span data-ttu-id="1f8c0-109">시작하기 전에</span><span class="sxs-lookup"><span data-stu-id="1f8c0-109">Before you begin</span></span>
+
+<span data-ttu-id="1f8c0-110">이 문서에 설명된 단계를 수행하려면 전역 또는 대금 청구 관리자여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1f8c0-110">You must be a Global or Billing admin to do the steps described in this article.</span></span>
   
- <span data-ttu-id="e4904-110">**청구서에 문제가 있나요?**</span><span class="sxs-lookup"><span data-stu-id="e4904-110">**Have a problem with your bill?**</span></span> <span data-ttu-id="e4904-111">[비즈니스 제품에 대해서는 고객 지원 센터에 문의하세요](../../admin/contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="e4904-111">[Contact support for business products](../../admin/contact-support-for-business-products.md).</span></span>
+## <a name="view-a-bill-or-invoice"></a><span data-ttu-id="1f8c0-111">청구서 또는 송장 보기</span><span class="sxs-lookup"><span data-stu-id="1f8c0-111">View a bill or invoice</span></span>
 
- <span data-ttu-id="e4904-112">청구서 또는 송장 보기에 대한 짧은 비디오를 시청하십시오 (사용자의 송장은 비디오와 다를 수 있음).</span><span class="sxs-lookup"><span data-stu-id="e4904-112">Watch a short video about viewing your bill or invoice (note that your invoice may appear different from the one in the video).</span></span> <br><br>
+1. <span data-ttu-id="1f8c0-112">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">청구서 및 결제</a> 페이지로 이동하십시오.</span><span class="sxs-lookup"><span data-stu-id="1f8c0-112">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Bills & payments</a> page.</span></span>
+    - <span data-ttu-id="1f8c0-113">사용 중인 경우 Office 365 Germany이 <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">청구서 및 결제</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="1f8c0-113">If you're using Office 365 Germany, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Bills & payments</a> page.</span></span>
+    - <span data-ttu-id="1f8c0-114">사용 중인 경우 21Vianet에서 운영하는 Office 365이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">청구 및 결제</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="1f8c0-114">If you're using Office 365 operated by 21Vianet, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">Bills & payments</a> page.</span></span>
+2. <span data-ttu-id="1f8c0-115">**송장** 탭의 드롭 다운 목록에서 날짜 범위를 선택한 다음 보려는 순서를 선택하십시오.</span><span class="sxs-lookup"><span data-stu-id="1f8c0-115">On the **Invoices** tab, select a date range from the drop-down list, and then choose the order that you want to view.</span></span>
+3. <span data-ttu-id="1f8c0-116">요약 페이지에서는 인보이스의 모든 품목에 대한 품목, 수량, 가격, 할인 및 총액을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1f8c0-116">On the summary page, you can see the items, quantity, price, discount, and total for all items in the invoice.</span></span>
+4. <span data-ttu-id="1f8c0-117">송장의 PDF 복사본을 인쇄하거나 저장하려면 **다운로드 PDF**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="1f8c0-117">To print or save a PDF copy of the invoice, select **Download PDF**.</span></span>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FGmo] 
+## <a name="receive-a-copy-of-your-billing-statement-in-email"></a><span data-ttu-id="1f8c0-118">전자 메일로 청구서 사본 받기</span><span class="sxs-lookup"><span data-stu-id="1f8c0-118">Receive a copy of your billing statement in email</span></span>
 
-<span data-ttu-id="e4904-113">이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="e4904-113">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
-  
-## <a name="view-a-bill-or-invoice"></a><span data-ttu-id="e4904-114">청구서 또는 송장 보기</span><span class="sxs-lookup"><span data-stu-id="e4904-114">View a bill or invoice</span></span>
+<span data-ttu-id="1f8c0-p103">청구서 사본을 전자 메일 첨부 파일로 받도록 선택할 수 있습니다. 이 경우 다음 사항에 유의하세요.</span><span class="sxs-lookup"><span data-stu-id="1f8c0-p103">You can choose to receive a copy of your billing statement as an email attachment. If you do, be aware that:</span></span>
 
-::: moniker range="o365-worldwide"
+- <span data-ttu-id="1f8c0-121">전자 메일은 알림 수신자로 나열된 모든 사용자의 기본 및 대체 전자 메일 주소로 전송됩니다.</span><span class="sxs-lookup"><span data-stu-id="1f8c0-121">An email is sent to both the primary and alternate email address for every person listed as a notification recipient.</span></span>
+- <span data-ttu-id="1f8c0-122">청구서가 준비되었음을 알리고 관리 센터에 로그온하는 지침이 포함된 전자 메일과 청구서가 첨부 파일로 포함된 두 번째 전자 메일 등 두 개의 별도 전자 메일을 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1f8c0-122">You receive two separate emails: one that lets you know that your bill is ready, with instructions to sign in to the admin center to view it, and a second email that contains the billing statement as an attachment.</span></span>
 
-1. <span data-ttu-id="e4904-115">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">청구서 및 결제</a> 페이지로 이동하십시오.</span><span class="sxs-lookup"><span data-stu-id="e4904-115">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Bills & payments</a> page.</span></span>
+### <a name="to-receive-your-billing-statement-in-email"></a><span data-ttu-id="1f8c0-123">전자 메일로 청구서를 받으려면</span><span class="sxs-lookup"><span data-stu-id="1f8c0-123">To receive your billing statement in email</span></span>
 
-::: moniker-end
+1. <span data-ttu-id="1f8c0-124">관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">대금 청구 알림</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="1f8c0-124">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Billing notifications</a> page.</span></span>
+    - <span data-ttu-id="1f8c0-125">사용 중인 경우 Office 365 Germany이 <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">청구 알림</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="1f8c0-125">If you're using Office 365 Germany, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">Billing notifications</a> page.</span></span>
+    - <span data-ttu-id="1f8c0-126">사용 중인 경우 21Vianet에서 운영하는 Office 365이 <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">청구 알림</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="1f8c0-126">If you're using Office 365 operated by 21Vianet, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">Billing notifications</a> page.</span></span>
+1. <span data-ttu-id="1f8c0-127">**청구서를 전자 메일 첨부 파일로 받으시겠습니까?** 아래의 토글을 **설정**으로 전환합니다.</span><span class="sxs-lookup"><span data-stu-id="1f8c0-127">Under **Receive billing statement as email attachment?** switch the toggle to **On**.</span></span>
 
-::: moniker range="o365-germany"
+    <span data-ttu-id="1f8c0-128">언제든지 토글을 **해제**로 전환하여 청구서 전자 메일 수신을 중지할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1f8c0-128">You can stop receiving the billing statement emails at any time by switching the toggle to **Off**.</span></span>
 
-1. <span data-ttu-id="e4904-116">관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">청구서 및 결제</a> 페이지로 이동하십시오.</span><span class="sxs-lookup"><span data-stu-id="e4904-116">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Bills & payments</a> page.</span></span>
+## <a name="next-steps"></a><span data-ttu-id="1f8c0-129">다음 단계</span><span class="sxs-lookup"><span data-stu-id="1f8c0-129">Next steps</span></span>
 
-::: moniker-end
+<span data-ttu-id="1f8c0-130">잔액이 있는 경우 이를 온라인으로 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1f8c0-130">If you have a balance and would like to pay it, you can do that online.</span></span> <span data-ttu-id="1f8c0-131">방법에 대한 자세한 내용은 [구독에 대한 결제](pay-for-your-subscription.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="1f8c0-131">To learn how, see [Pay for your subscription](pay-for-your-subscription.md).</span></span>
 
-::: moniker range="o365-21vianet"
+## <a name="related-content"></a><span data-ttu-id="1f8c0-132">관련 콘텐츠</span><span class="sxs-lookup"><span data-stu-id="1f8c0-132">Related content</span></span>
 
-1. <span data-ttu-id="e4904-117">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">청구서 및 결제</a> 페이지로 이동하십시오.</span><span class="sxs-lookup"><span data-stu-id="e4904-117">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">Bills & payments</a> page.</span></span>
-
-::: moniker-end
-
-2. <span data-ttu-id="e4904-118">**송장** 탭의 드롭 다운 목록에서 날짜 범위를 선택한 다음 보려는 순서를 선택하십시오.</span><span class="sxs-lookup"><span data-stu-id="e4904-118">On the **Invoices** tab, select a date range from the drop-down list, and then choose the order that you want to view.</span></span>
-
-3. <span data-ttu-id="e4904-119">요약 페이지에서 다음을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e4904-119">On the summary page, you can see the following:</span></span>
-
-    - <span data-ttu-id="e4904-120">총액, 현재 지불 예정액, 지불 기한, 최근 지불액, 송장을 받은 날짜.</span><span class="sxs-lookup"><span data-stu-id="e4904-120">The total balance, the current amount due, the payment due date, the amount of the last payment, and the date it was received.</span></span>
-
-    - <span data-ttu-id="e4904-121">지불 관련 지침.</span><span class="sxs-lookup"><span data-stu-id="e4904-121">Payment instructions.</span></span>
-
-    - <span data-ttu-id="e4904-122">과거 지불 날짜 및 지불액에 대한 기록.</span><span class="sxs-lookup"><span data-stu-id="e4904-122">A record of past payment dates, and the amounts paid.</span></span>
-
-    - <span data-ttu-id="e4904-123">주문 생성 날짜 및 주문 번호.</span><span class="sxs-lookup"><span data-stu-id="e4904-123">The order creation date, and the order number.</span></span>
-
-4. <span data-ttu-id="e4904-124">송장의 PDF 복사본을 인쇄하거나 저장하려면 **다운로드 PDF**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e4904-124">To print or save a PDF copy of the invoice, select **Download PDF**.</span></span>
-
-## <a name="related-articles"></a><span data-ttu-id="e4904-125">관련 문서</span><span class="sxs-lookup"><span data-stu-id="e4904-125">Related articles</span></span>
-
-[<span data-ttu-id="e4904-126">송장, 신용 카드 또는 은행 계좌로 결제</span><span class="sxs-lookup"><span data-stu-id="e4904-126">Pay by invoice, credit card, or bank account</span></span>](pay-for-your-subscription.md)
-  
-[<span data-ttu-id="e4904-127">결제 방법 관리</span><span class="sxs-lookup"><span data-stu-id="e4904-127">Manage payment methods</span></span>](manage-payment-methods.md)
-
-[<span data-ttu-id="e4904-128">Minecraft: Education Edition 결제 옵션</span><span class="sxs-lookup"><span data-stu-id="e4904-128">Minecraft: Education Edition payment options</span></span>](https://go.microsoft.com/fwlink/p/?linkid=838761)
+<span data-ttu-id="1f8c0-133">[송장, 신용 카드 또는 은행 계좌로 결제](pay-for-your-subscription.md)(문서) </span><span class="sxs-lookup"><span data-stu-id="1f8c0-133">[Pay by invoice, credit card, or bank account](pay-for-your-subscription.md) (article) </span></span>\
+<span data-ttu-id="1f8c0-134">[결제 방법 관리](manage-payment-methods.md) (문서) </span><span class="sxs-lookup"><span data-stu-id="1f8c0-134">[Manage payment methods](manage-payment-methods.md) (article) </span></span>\
+<span data-ttu-id="1f8c0-135">[Minecraft: Education Edition 결제 옵션](https://go.microsoft.com/fwlink/p/?linkid=838761) (문서)</span><span class="sxs-lookup"><span data-stu-id="1f8c0-135">[Minecraft: Education Edition payment options](https://go.microsoft.com/fwlink/p/?linkid=838761) (article)</span></span>

@@ -315,6 +315,8 @@
                       href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
                 - name: 보안 정책 미리조정
                   href: ./office-365-security/preset-security-policies.md
+                - name: 사전 설정 보안 정책에 대 한 구성 분석기
+                  href: ./office-365-security/configuration-analyzer-for-security-policies.md
                 - name: 스팸 방지 메시지 헤더
                   href: ./office-365-security/anti-spam-message-headers.md
                 - name: 정책 및 보호 조치의 결합 방식
