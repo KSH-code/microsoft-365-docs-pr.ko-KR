@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: 공유 사서함을 만들어 회사의 여러 사용자가 하나의 주소로 전송된 전자 메일을 읽고 답장하는 업무를 나눌 수 있습니다.
-ms.openlocfilehash: 3ffe24cc263c6f58899b3c293793aa231132e411
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 47690e1295b67c01f86429d97e0fc8d82ad58d6f
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780268"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529638"
 ---
 # <a name="create-a-shared-mailbox"></a>공유 사서함 만들기 
 
@@ -159,6 +159,9 @@ Outlook의 공유 사서함에 대한 자세한 내용은 다음을 참조하세
 - 브라우저를 열고 로그인한 다음 웹용 Outlook으로 이동합니다. 웹용 Outlook에서 공유 사서함에 액세스할 수 있습니다.
 
     자세한 내용은 <a href="https://support.microsoft.com/office/98b5a90d-4e38-415d-a030-f09a4cd28207" target="_blank">웹용 Outlook에 공유 사서함 추가</a>를 참조하세요.
+    
+> [!NOTE]
+> 공유 사서함은 Outlook for iOS 앱 또는 Outlook for Android 모바일 앱에만 추가할 수 있습니다.
 
 ## <a name="use-the-shared-calendar"></a>공유 일정 사용
 
