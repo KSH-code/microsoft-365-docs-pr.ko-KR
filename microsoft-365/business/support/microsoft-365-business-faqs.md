@@ -13,12 +13,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business Premium, Microsoft 365, SMB, FAQ, 질문과 대답, 답변, 비즈니스
 ms.date: 07/21/2020
-ms.openlocfilehash: 520009d26d0133a2c53c6149fe4938bea9db5a32
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.openlocfilehash: 614da177df9250045ca3cc18c0b071e0aa43b7ec
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46503002"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560802"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Microsoft 365 Business Premium 자주 묻는 질문
 
@@ -154,7 +154,7 @@ Windows AutoPilot은 새로운 Windows 10 PC의 배포를 간소화하는 서비
 Microsoft 365 Business Standard에 추가할 수 있는 모든 추가 기능을 Microsoft 365 Business Premium에 추가할 수 있습니다. 즉, Office 365 Cloud App Security, Advanced 준수, 위협 인텔리전스, MyAnalytics, Power BI Pro 및 Audio 회의를 구입할 수 있습니다. 
  
 ### <a name="can-i-add-phone-system-and-calling-plans-to-microsoft-365-business-premium"></a>Microsoft 365 Business Premium에 전화 시스템 및 통화 요금제를 추가할 수 있습니까? 
-아니요, 전화 시스템 및 통화 요금제는 보다 고급 요구 사항의 고객을 위해 마련된 것입니다. 이러한 기능을 필요로 하는 고객은 Microsoft 365 Enterprise 제품을 확인하세요. 
+예, 비즈니스 음성 구독을 구매할 수 있습니다. [비즈니스 음성](https://docs.microsoft.com/microsoftteams/business-voice/whats-business-voice) 은 전화 시스템, 오디오 회의, 국내 통화 계획 등을 구성 하는 최대 300 사용자의 중소 기업에 맞게 설계 된 전화 통신 솔루션입니다. 음성 메일, 발신자 ID, 통화 대기, 착신 전환, 자동 전화 교환, 통화 큐 등의 전화 시스템 기능을 사용할 수 있습니다. <br> 사용자의 국가나 지역에서 비즈니스 음성을 사용할 수 있는지 여부를 확인 하려면 [country and region availability For Business voice](https://docs.microsoft.com/microsoftteams/business-voice/country-region-availability)를 참조 하세요. 가격 정보에 대 한 자세한 내용은 [비즈니스 Voice 가격 산정](https://go.microsoft.com/fwlink/?linkid=2127221)을 참조 하세요.
  
 ### <a name="can-microsoft-365-business-premium-customers-use--microsoft-defender-advanced-threat-protection"></a>Microsoft 365 Business Premium 고객은 Microsoft Defender Advanced Threat Protection을 사용할 수 있나요? 
 예, microsoft Defender Advanced Threat Protection을 Microsoft 365 Business Premium 고객에 게 추가 기능으로 사용할 수 있습니다.

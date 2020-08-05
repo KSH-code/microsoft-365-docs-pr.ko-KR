@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: b11daf1cc6921e4be87b1bd3965adc2d76d0a0dd
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: afeef8de09e0ee7a727372041791871712ca4e0d
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049931"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560898"
 ---
 # <a name="microsoft-threat-protection"></a>Microsoft 위협 방지
 
@@ -50,11 +50,13 @@ Microsoft Threat Protection은 끝점, id, 전자 메일 및 응용 프로그램
 >이 [Microsoft Threat Protection 대화형 가이드](https://aka.ms/MTP-Interactive-Guide)를 확인 하세요.
 
 
-Microsoft Threat Protection suite는 다음을 보호 합니다. 
+Microsoft Threat Protection 제품군은 다음의 사항을 보호하고 있습니다. 
 - **Microsoft DEFENDER atp가 있는 끝점** -MICROSOFT defender atp는 예방적 보호, 위반 감지, 자동화 된 조사 및 응답을 위한 통합 끝점 플랫폼입니다. 
 - **전자 메일 및 공동 작업 office 365 atp** -OFFICE 365 atp는 전자 메일 메시지, 링크 (url) 및 공동 작업 도구로 인해 야기 되는 악의적인 위협 으로부터 조직을 보호 합니다. 
 - Azure **atp 및 AZURE AD Id 보호를 사용 하는 id** -azure Atp는 Active Directory 신호를 사용 하 여 조직에서 진행 되는 고급 위협, 손상 된 id 및 악의적인 참가자 작업을 식별, 감지 및 조사 합니다. 
 - **Microsoft Cloud app security를 사용 하는 응용 프로그램** -Microsoft cloud app security는 클라우드 앱에 대 한 심층 가시성, 강력한 데이터 제어 및 향상 된 위협 보호를 가져오는 포괄적인 공동 SaaS 솔루션입니다. 
+
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Bzww] 
 
 Microsoft Threat Protection의 고유한 교차 제품 계층은 다음과 같은 기능을 위해 개별 제품군 구성 요소를 보완 합니다.
 - 공격 으로부터 보호 하 고 신호 공유 및 자동화 된 작업을 통해 도구 모음 전체의 방어 응답을 조정 합니다.

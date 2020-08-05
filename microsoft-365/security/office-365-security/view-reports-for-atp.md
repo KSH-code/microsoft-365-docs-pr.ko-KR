@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 보안 및 준수 센터에서 Office 365 Advanced Threat Protection에 대 한 보고서를 찾아서 사용 &amp; 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4210ea30457215f9adc2984f24f161dc94985873
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: a2225cbbd9233199e0ce1fc0baf0be5fe59bd258
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434098"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560300"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection에 대 한 보고서 보기
 
@@ -31,7 +31,7 @@ Office 365 ATP (Advanced Threat Protection) 조직 (예: Microsoft 365 E5 구독
 
 ![보안 & 준수 센터의 보고서 대시보드](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
-## <a name="advanced-threat-protection-file-types-report"></a>Advanced Threat Protection 파일 형식 보고서
+## <a name="advanced-threat-protection-file-types-report"></a>Advanced Threat Protection 유형 보고서
 
 **Advanced Threat Protection 파일 형식 보고서** 보고서에는 [ATP 안전한 첨부](atp-safe-attachments.md)파일에 의해 악의적으로 검색 된 파일 유형이 표시 됩니다.
 
@@ -115,7 +115,7 @@ Office 365 ATP (Advanced Threat Protection) 조직 (예: Microsoft 365 E5 구독
 
 보고서 보기로 돌아가려면 **보고서 보기**를 클릭 합니다.
 
-## <a name="advanced-threat-protection-message-disposition-report"></a>Advanced Threat Protection 메시지 처리 보고서
+## <a name="advanced-threat-protection-message-disposition-report"></a>Advanced Threat Protection 메시지 폐기 보고서
 
 **ATP 메시지 처리** 보고서에는 악성 콘텐츠가 있는 것으로 검색 된 전자 메일 메시지에 대해 수행 된 작업이 표시 됩니다.
 
@@ -218,7 +218,7 @@ Office 365 ATP (Advanced Threat Protection) 조직 (예: Microsoft 365 E5 구독
 
 - **URL 보호 작업 클릭**: 조직의 사용자가 클릭 한 URL의 수를 표시 하 고 해당 결과를 선택 합니다.
 
-  - **차단됨**
+  - **차단** (사용자가 URL로 이동할 수 없도록 차단 됨)
   - **차단 및 클릭**
   - **검색 중에 클릭**
 
@@ -227,7 +227,7 @@ Office 365 ATP (Advanced Threat Protection) 조직 (예: Microsoft 365 E5 구독
   **필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.
 
   - **시작 날짜** 및 **끝 날짜**
-  - 사용 가능한 클릭 보호 작업과 모든 URL 클릭 (차단 된 클릭만이 아님)에 대 한 **정보를 볼 수 있는 값을** 함께 사용할 수 있습니다.
+  - 사용 가능한 클릭 보호 작업과 **허용 되** 는 값 (사용자가 URL로 이동할 수 있음)을 함께 사용할 수 있습니다.
 
   ![URL URL 위협 방지 보고서에서 보호 작업 보기를 클릭 합니다.](../../media/url-threat-protection-report-url-click-protection-action-view.png)
 

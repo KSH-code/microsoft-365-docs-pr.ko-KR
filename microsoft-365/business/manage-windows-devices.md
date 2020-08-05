@@ -24,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Microsoft 365에서 일부 단계만 수행 하 여 Active Directory에 가입 된 로컬 Windows 10 장치를 보호 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 2eaf5aa76cae1680b93af008af615ae872e4fb20
-ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
+ms.openlocfilehash: 6275c6c4be9cd9631ab095f8b0e1b39683022bb2
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533788"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560846"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Microsoft 365 Business Premium에서 관리할 도메인에 가입 된 Windows 10 장치를 사용 하도록 설정
 
@@ -50,8 +50,7 @@ ms.locfileid: "46533788"
 
 ## <a name="1-verify-mdm-authority-in-intune"></a>1. Intune에서 MDM 기관 확인
 
-Portal.azure.com로 이동 하 여 Intune 페이지 검색을 시작 합니다.
-Microsoft Intune 페이지에서 **장치 등록** 을 선택 하 고 **개요** 페이지에서 **MDM 기관이** **Intune**인지 확인 합니다.
+[Endpoint Manager](https://endpoint.microsoft.com/#blade/Microsoft_Intune_Enrollment/EnrollmentMenu/overview) 로 이동 하 여 Microsoft Intune 페이지에서 **장치 등록**을 선택한 다음 **개요** 페이지에서 **MDM 기관이** **Intune**인지 확인 합니다.
 
 - **Mdm 기관이** **없는 경우** **Mdm 기관을** 클릭 하 여 **Intune**으로 설정 합니다.
 - **MDM 기관이** **Microsoft office 365**인 경우 **장치**  >  **등록 장치** 를 열고 오른쪽에 있는 **mdm 인증** 추가 대화 상자를 사용 하 여 **Intune mdm** 기관을 추가 합니다 (mdm 기관이 Microsoft Office 365로 설정 된 경우 **MDM Authority** 에만 **mdm 기관 추가** 대화 상자를 사용할 수 있음).

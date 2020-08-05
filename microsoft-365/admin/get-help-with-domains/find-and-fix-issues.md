@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: DNS 레코드가 올바르게 설정 되어 있는지 확인 하 여 사용자 지정 도메인을 설정 하는 동안 실행 한 문제를 추적 하는 방법을 설명 합니다.
-ms.openlocfilehash: e3c66e10a673d840cfddad81a057739b6dfac721
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 0a315be243395940146479e05de2c7044a5a36ab
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399947"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560254"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records"></a>도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결
 
@@ -88,7 +88,7 @@ Microsoft 365에 도메인을 추가 하면 일반적으로 Microsoft 365을 가
 Microsoft에서는 도메인의 DNS 설정 문제를 해결할 수 있도록 지원합니다. Microsoft 365의 도메인 문제 해결사는 문제를 해결 해야 하는 레코드와 레코드를 설정 해야 하는 항목을 정확히 보여 줍니다. 
 
 > [!TIP]
-> DNS를 올바르게 설정했지만 데스크톱의 Outlook에서 메일이 작동하지 않나요? [Microsoft 365와 함께 제공 될 수 있는 다른 메일 흐름 시나리오](https://www.microsoft.com/?ref=go) 를 확인 하 여 비즈니스에 맞게 올바르게 설정 되었는지 확인 합니다. 또는 전자 메일과 관련된 추가 문제 해결 도움말을 [Outlook 문제 해결](https://docs.microsoft.com/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues)에서 확인합니다. 
+> DNS를 올바르게 설정했지만 데스크톱의 Outlook에서 메일이 작동하지 않나요? [Microsoft 365와 함께 제공 될 수 있는 다른 메일 흐름 시나리오](https://docs.microsoft.com/exchange/mail-flow-best-practices/mail-flow-best-practices) 를 확인 하 여 비즈니스에 맞게 올바르게 설정 되었는지 확인 합니다. 또는 전자 메일과 관련된 추가 문제 해결 도움말을 [Outlook 문제 해결](https://docs.microsoft.com/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues)에서 확인합니다. 
   
 ## <a name="accessing-your-website-isnt-working"></a>웹 사이트에 액세스할 수 없나요?
 <a name="BKMK_Website"> </a>

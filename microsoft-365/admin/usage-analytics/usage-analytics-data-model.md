@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
 description: '사용 현황 분석을 통해 API에 연결 하 고 다양 한 Microsoft 365 서비스의 사용에 대 한 월별 추세를 제공 하는 방법을 알아봅니다.  '
-ms.openlocfilehash: 28dc51f76ac2e6bba00ecea853bc79419500508d
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+ms.openlocfilehash: 1fa1cb842b603a920665ec1b59ca18f586b5d181
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695094"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560862"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Microsoft 365 사용 현황 분석 데이터 모델
 
@@ -140,6 +140,9 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출 하�
 |SFB_P2PSummary  <br/> |이 사용자가 참여한 피어 투 피어 세션 수입니다.  <br/> |
 |SFB_ConfOrgSummary  <br/> |이 사용자가 구성한 회의 세션 수입니다.  <br/> |
 |SFB_ConfPartSummary  <br/> |이 사용자가 참여한 회의 세션 수입니다.  <br/> |
+
+> [!NOTE]
+> Teams_HasOtherAction 사용자는 활성으로 간주 되지만 채팅 메시지, 1:1 통화, 채널 메시지, 전체 모임 및 구성 된 모임에 대 한 값은 0으로 표시 됩니다.
    
 ### <a name="data-table---tenant-product-usage"></a>데이터 테이블 - 테넌트 제품 사용 현황
 

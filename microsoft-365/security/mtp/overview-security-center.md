@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: d25ecb72ebdd9415c6745910f9e3fb04d6f078dc
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+ms.openlocfilehash: f7357c204105772ef1780ef94f211e9d711ec735
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43516914"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560886"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터 개요
 
@@ -29,7 +29,9 @@ Microsoft 365 보안 센터 (microsoft id, 데이터, 장치, 앱 및 인프라 
 
 새로운 Microsoft 365 보안 센터와 [Microsoft 365 준수 센터](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) 는 보안 팀 및 규정 준수 팀의 요구를 충족 하기 위해 설계 된 특수 한 작업 영역입니다. 이러한 솔루션은 Microsoft 365 서비스에 통합 되어 있으며 위험을 줄이고 디지털 공간을 보호 하는 데 도움이 되는 정보를 제공 합니다.
 
-Microsoft 365 보안 센터를 방문 [https://security.microsoft.com](https://security.microsoft.com)합니다. 
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4BmvV]
+
+Microsoft 365 보안 센터를 방문 [https://security.microsoft.com](https://security.microsoft.com) 합니다. 
 
 > [!NOTE]
 > Microsoft 365 보안 센터에 액세스 하려면 전역 관리자, 보안 관리자, 보안 운영자 또는 Azure Active Directory의 보안 판독기와 같은 적절 한 역할을 할당 받아야 합니다.
@@ -54,7 +56,7 @@ Microsoft 365 보안 센터는 다음을 포함합니다.
 * **정책** - 정책을 설정하여 장치를 관리하고 위협으로부터 보호하며 조직에서 다양한 활동에 대해 알림을 받을 수 있습니다.
 * **사용 권한** - 조직에서 Microsoft 365 보안 센터에 액세스할 수 있는 사용자를 관리하여 콘텐츠를 검토하고 작업을 수행할 수 있습니다. Azure AD 포털에서 Microsoft 365 사용 권한을 할당할 수 있습니다.
 
-## <a name="learn-more"></a>자세한 정보 
+## <a name="learn-more"></a>자세히 알아보기 
 
 보안 요구 사항에 대 한 모니터링, 검토 및 대응에 대 한 다음 항목을 살펴봅니다.
 - [인시던트](incident-queue.md) 를 통해 경고에 점 연결

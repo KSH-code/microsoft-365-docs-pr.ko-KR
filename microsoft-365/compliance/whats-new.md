@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Microsoft 365 준수 센터에 지속적으로 새로운 기능을 추가 하 고 있습니다. 이번 달에 제공 된 내용을 확인 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 29d99e0af5f161c91b8a192b9d6f1545a13c7c80
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 77ba6f0926a1826fe6c946ff4f8c05cf913c57ed
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199468"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560265"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>Microsoft 365 준수 센터의 새로운 기능
 
@@ -32,6 +32,98 @@ ms.locfileid: "45199468"
 > [!TIP]
 > 다른 관리 센터에서 어떤 작업을 진행 하 고 싶으십니까? 다음 문서를 확인 하세요.<br>[Microsoft 365 관리 센터의 새로운 기능](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br><br>
 [Microsoft 365 로드맵을](https://www.microsoft.com/en-us/microsoft-365/roadmap) 방문 하 여 시작 되었거나, 배포 중이거나, 개발 중 이거나, 이전에 출시 된 microsoft 365 기능에 대해 알아보세요.
+
+## <a name="june-2020"></a>2020년 6월
+
+### <a name="spotlight-new-data-connectors-hit-preview"></a>스포트라이트: 새 데이터 연결선 적중 미리 보기
+
+고객의 약속을 기반으로 하 여 타사 소스에서 Microsoft 365로 데이터를 가져올 수 있도록 하기 위해 두 가지 추가 데이터 커넥터의 미리 보기 릴리스를 발표 했습니다.
+
+- [Bloomberg 메시지](archive-bloomberg-message-data.md) Bloomberg 메시지 공동 작업 도구에서 금융 서비스 전자 메일 데이터를 가져오고 보관 합니다. 데이터를 사서함에 저장 한 후에는 소송 보존, 콘텐츠 검색, 원본 위치 보관, 감사, 통신 준수 및 보존 정책과 같은 규정 준수 기능의 데이터에 액세스 하 여 사용할 수 있습니다.
+- [얼음 채팅](archive-icechat-data.md) ICE Chat 공동 작업 도구에서 금융 서비스 채팅 데이터를 가져오고 보관 합니다. 데이터를 사서함에 저장 한 후에는 소송 보존, eDiscovery, 보관, 감사, 통신 준수 및 보존 정책과 같은 규정 준수 기능의 데이터에 액세스 하 여 사용할 수 있습니다.
+
+### <a name="compliance-score--compliance-manager-the-hits-keep-coming"></a>준수 점수 & 준수 관리자: 방문 횟수 유지
+
+6 월 업데이트에는 [준수 점수](compliance-score.md)에 대 한 새로운 평가 드릴 다운 보기가 포함 되어 있습니다. 제어 진행률을 모니터링 하 고, 추가 하 고, 규정 준수 점수에서 직접 삭제 합니다.
+
+준수 점수 및 준수 관리자에 대 한 업데이트를 최신 상태로 유지 하 고 싶으십니까? [규정 준수 점수 릴리즈 정보](compliance-score-release-notes.md) 를 책갈피로 자주 확인 합니다.
+
+## <a name="may-2020"></a>2020년 5월
+
+### <a name="spotlight-data-classification-is-officially-released"></a>스포트라이트: 데이터 분류가 공식적으로 릴리스 되었습니다.
+
+데이터 분류, 즉, '[데이터 파악](data-classification-overview.md)', 기능 (분석, 콘텐츠 탐색기 및 활동 탐색기)은 미리 보기 단계에서 나눈 것 이며 모든 조직에서 사용할 수 있습니다. 강력한 통찰력 및 도구를 사용 하면 조직 전체의 콘텐츠에 중요 한 정보 및 레이블 (보존 및 민감도)을 활용 하는 방식을 검색 하 고 평가할 수 있습니다. 중요 한 정보가 포함 된 콘텐츠를 검토 하거나 레이블이 적용 되 고, Microsoft 365 위치 간 레이블 작업을 탐색 하 고, 사용자 지정 중요 한 정보 유형을 만듭니다.
+
+비디오 둘러보기 사용 ...
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vx8x]
+
+### <a name="trainable-classifiers-a-fix-and-a-feature"></a>Trainable 분류자: 수정 및 기능
+
+Trainable 분류자를 보다 향상 시킬 수 있습니다.
+
+- 사용자 의견을 기반으로 하는 수정 프로그램: 고객 지정 분류자의 초기값을 설정 하 고 학습 하면 더 이상 SharePoint 사이트 Url 및 폴더 경로를 입력 하지 않아도 됩니다. 이제 사이트 및 폴더의 미리 채우기 목록에서 선택할 수 있습니다.
+- 새 기능: 민감도 레이블을 만들고 Office 앱에 대 한 자동 레이블 설정을 구성 하는 경우 이제 trainable 분류자와 일치 하는 콘텐츠에 레이블을 자동으로 적용 하거나 사용자가 적용할 수 있도록 권장 합니다. [자세한 정보](apply-sensitivity-label-automatically.md#configuring-trainable-classifiers-for-a-label)
+
+### <a name="communication-compliance-yammer-support-is-here"></a>통신 준수: Yammer 지원이 제공 됩니다.
+
+개인 메시지 및 Yammer의 공용 커뮤니티 대화는 통신 준수 정책에서 지원 됩니다. Yammer는 선택적 채널 이며, 메시지 및 첨부 파일의 검색을 지원 하려면 [기본 모드](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) 에 있어야 합니다.
+
+### <a name="data-loss-prevention-new-sharing-restriction"></a>데이터 손실 방지: 새 공유 제한
+
+SharePoint 또는 OneDrive의 콘텐츠를 보호 하는 DLP 정책을 설정할 때 이제 "콘텐츠에 대 한 액세스 제한" 작업을 구성 하 여 '[링크를 포함 하는 사용자](https://support.microsoft.com/office/share-files-outside-your-organization-with-anyone-links-53e91027-fb8e-4a6e-a3e4-5df4be32e38a)' 옵션을 통해 콘텐츠에 대 한 액세스 권한을 부여 받은 사용자를 차단할 수 있습니다.
+
+### <a name="insider-risk-management-tailor-your-alert-volume"></a>참가자 위험 관리: 경고 볼륨을 조정 합니다.
+
+참가자 위험 정책에 따라 검색 되는 사용자 활동에는 특정 위험 점수가 할당 되며이 점수에는 경고 심각도 (낮음, 중간, 높음)가 지정 됩니다. 기본적으로 Microsoft 365에서는 특정 양의 낮음, 중간 및 높음 심각도 알림을 생성 하지만 새 [경고 볼륨 설정을](insider-risk-management-settings.md#alert-volume)사용 하 여 요구 사항에 맞게 볼륨을 올리거나 낮출 수 있습니다.
+
+### <a name="pst-import-new-region-supported"></a>PST 가져오기: 새 지역이 지원 됨
+
+이제 미국 아랍/아랍에미리트에서 네트워크 업로드를 사용할 수 있습니다.
+
+### <a name="sensitivity-labels-new-privacy-option"></a>민감도 레이블: 새 개인 정보 옵션
+
+레이블에 대해 [사이트 및 그룹 설정을](sensitivity-labels-teams-groups-sites.md#how-to-configure-site-and-group-settings) 구성 하는 경우 이제 개인 정보 옵션을 **없음-사용자가 사이트에 액세스할 수 있는 사람을 선택**하도록 설정할 수 있습니다. 이 기능은 민감도 레이블을 사용 하 여 컨테이너의 콘텐츠를 보호 하려는 경우에 유용 하지만 사용자가 개인 정보 설정을 직접 구성할 수 있도록 합니다.
+
+## <a name="april-2020"></a>2020년 4월
+
+### <a name="records-management-overhauland-a-new-addition"></a>레코드 관리: Overhaul 새 추가
+
+4 월에는 레코드 관리 솔루션에 대 한 몇 가지 주요 업데이트가 포함 되어 있습니다.
+
+- 이제 ' 레코드 관리 ' 섹션을 준수 센터에서 모두 사용할 수 있습니다. 파일 계획, 보존 레이블 및 라벨 정책, 이벤트 및 폐기에 대 한 업데이트 된 사용자 인터페이스 및 기능을 활용 합니다.
+- 처리에 대해서는 SharePoint 및 OneDrive의 레코드에 대 한 [처리 증거](disposition.md#disposition-of-records) 를 제공 하기도 합니다. 이제 자동 또는 폐기 검토 후에 해당 위치에 있는 항목의 목록을 볼 수 있습니다.
+
+:::image type="content" source="../media/mcc-records-management-page.png" alt-text="Microsoft 365 준수 센터의 레코드 관리 섹션":::
+
+### <a name="sensitivity-labels-preview-auto-labeling-policies"></a>민감도 레이블: 자동 레이블 지정 정책 미리 보기
+
+자동 레이블 정책을 사용 하 여 이미 저장 된 SharePoint 및 OneDrive 문서 (즉,의 데이터 원본) 및 이미 보내거나 받은 전자 메일 (즉, ' 전송 중 전자 메일 ')에 민감도 레이블을 자동으로 적용할 수 있습니다. 이 레이블 지정은 앱이 아닌 서비스에 의해 적용 되므로 사용자에 게 어떤 앱과 어떤 버전이 있는지 신경 쓰지 않아도 됩니다.
+
+이 기능은 민감도 레이블을 만들 때 ' Office 앱에 대 한 자동 레이블 지정 ' 설정에 이미 포함 되어 있는 기존 클라이언트 쪽 레이블을 확장 합니다. 자동 레이블 옵션을 사용 하는 경우의 차이와 이점을 최대한 활용 하려면 [업데이트 된 문서를 참조](apply-sensitivity-label-automatically.md)하세요.
+
+## <a name="march-2020"></a>2020년 3월
+
+### <a name="introducing-advanced-audit"></a>고급 감사 소개
+
+[고급 감사 Microsoft 365에서는](advanced-audit.md) 조직에서 법적 및 규정 준수 조사를 지원할 수 있는 새로운 감사 기능을 소개 합니다. 여기에는 감사 로그의 장기 보존, 사용자 지정 감사 로그 보존 정책, 새 *Mail항목 액세스* 된 사서함 감사 작업 및 새 테 넌 트 수준 제한 제한이 도입 되어 조직에서 감사 데이터에 액세스 하기 위한 자체의 완전 하 게 할당 되는 대역폭 할당량을 제공 하는 기능이 포함 됩니다.
+
+### <a name="compliance-score--compliance-manager-preview-the-latest-enhancements"></a>준수 점수 & 준수 관리자: 최신 향상 기능 미리 보기
+
+이 preview 릴리스의 주요 업데이트는 다음과 같습니다.
+
+- 템플릿을 만들고 수정 하기 위한 간소화 된 프로세스
+- 템플릿 및 작업에 대 한 버전 관리 알림 및 컨트롤
+- 그룹 간 공통 작업 동기화
+- 현재 언어 지원이 중국어 (간체), 중국어 (번체), 프랑스어, 독일어, 이탈리아어, 일본어, 한국어, 포르투갈어 (브라질), 러시아어 및 스페인어로 확장
+
+[준수 점수](compliance-score.md) 및 [준수 관리자](compliance-manager-overview.md) 에 대해 자세히 알아보기
+
+### <a name="sensitivity-labels-support-for-labeling-office-files-in-sharepoint-and-onedrive-preview"></a>민감도 레이블: SharePoint 및 OneDrive에서 Office 파일 레이블에 대 한 지원 (미리 보기)
+
+미리 보기를 사용 하면 사용자가 웹에서 Office의 민감도 레이블을 적용할 수 있습니다. 리본 메뉴의 **민감도** 단추와 상태 표시줄에 적용 된 레이블 이름을 볼 수 있습니다. 또한 데스크톱 앱을 사용 하 여 SharePoint 또는 OneDrive에 해당 파일을 레이블을 지정한 다음 저장 하면 레이블에 암호화 설정이 적용 된 경우 Microsoft 365에서 이러한 파일의 내용을 처리할 수 있습니다. 공동 작업, eDiscovery, 데이터 손실 방지, 검색 및 기타 공동 작업도 이러한 상황에서 지원 됩니다.
+
+[미리 보기를 사용 하도록 설정 하는 방법을 알아봅니다.](sensitivity-labels-sharepoint-onedrive-files.md)
 
 ## <a name="february-2020"></a>2020년 2월
 
@@ -168,10 +260,10 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 |감사 로그 검색|검색 > 감사 로그 검색 <br/> https://protection.office.com/unifiedauditlog |감사 <br/> https://compliance.microsoft.com/auditlogsearch | [보안 & 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)|
 |콘텐츠 검색|검색 > 콘텐츠 검색 <br/> https://protection.office.com/contentsearchbeta?ContentOnly=1 | 콘텐츠 검색 <br/> https://compliance.microsoft.com/contentsearch |[Office 365에서 콘텐츠 검색](search-for-content.md) |
 |데이터 커넥터|타사 데이터 보관 > 정보 관리 기능 <br/> https://protection.office.com/nativeconnector | 데이터 커넥터 <br/> https://compliance.microsoft.com/connectorlanding |[타사 데이터 보관](archiving-third-party-data.md)|
-|데이터 손실 방지|데이터 손실 방지 <br/> https://protection.office.com/datalossprevention |데이터 손실 방지 <br/> https://compliance.microsoft.com/datalossprevention |[데이터 손실 방지의 개요](data-loss-prevention-policies.md)|
+|데이터 손실 방지|데이터 손실 방지 <br/> https://protection.office.com/datalossprevention |데이터 손실 방지 <br/> https://compliance.microsoft.com/datalossprevention |[데이터 손실 방지 개요](data-loss-prevention-policies.md)|
 |데이터 주체 요청 |데이터 개인 정보 > 데이터 주체 요청 <br/> https://protection.office.com/dsrcases |데이터 주체 요청 <br/> https://compliance.microsoft.com/datasubjectrequest |[DSR 사례 도구를 사용 하 여 GDPR 데이터 주체 요청 관리](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)|
 |eDiscovery|eDiscovery > eDiscovery <br/> https://protection.office.com/ediscoveryv1 |eDiscovery > 코어 <br/> https://compliance.microsoft.com/classicediscovery |[eDiscovery 사례 관리](ediscovery-cases.md) |
-|이벤트|레코드 관리 > 이벤트 <br/> https://protection.office.com/events |레코드 관리 > 이벤트 탭 <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[이벤트가 발생할 때 보존 시작하기](event-driven-retention.md)|
+|Events|레코드 관리 > 이벤트 <br/> https://protection.office.com/events |레코드 관리 > 이벤트 탭 <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[이벤트가 발생할 때 보존 시작하기](event-driven-retention.md)|
 |파일 플랜|파일 계획 > 레코드 관리 <br/> https://protection.office.com/fileplan |레코드 관리 > 파일 계획 탭 <br/> https://compliance.microsoft.com/recordsmanagement?viewid=fileplan |[파일 계획을 사용하여 보존 레이블 관리](file-plan-manager.md)|
 |PST 파일 가져오기|정보 거 버 넌 스 > 가져오기 PST 파일 <br/> https://protection.office.com/importV2 |정보 거 버 넌 스 > 가져오기 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=import |[조직의 PST 파일을 가져오기 개요](importing-pst-files-to-office-365.md)|
 |레이블 활동 탐색기|정보 거 버 넌 스 > 레이블 활동 탐색기 <br/> https://protection.office.com/labelexplorer |데이터 분류 > 활동 탐색기 탭 <br/> https://compliance.microsoft.com/dataclassification?viewid=activitiesexplorer |[레이블이 지정된 콘텐츠의 활동 보기(미리 보기)](data-classification-activity-explorer.md)|

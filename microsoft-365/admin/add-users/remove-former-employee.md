@@ -25,14 +25,14 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: '다음 검사 목록을 따라 Microsoft 365에서 직원을 제거 하 고 데이터를 보호 합니다. '
-ms.openlocfilehash: 51fd26835cd74fa8403437397d37395fcf1c7301
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: b63866615c19ecf1d9096f0d63cbcb2008350f51
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844861"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560390"
 ---
-# <a name="remove-a-former-employee"></a>이전 직원 제거
+# <a name="remove-or-delete-a-former-employee"></a>이전 직원 제거 또는 삭제
 
 ::: moniker range="o365-21vianet"
 
@@ -59,7 +59,7 @@ ms.locfileid: "44844861"
 
 3. 새 암호를 입력 하 고 **재설정**을 선택 합니다. (여기로 보내지 않습니다.)
     
-4. 사용자 이름을 선택 하 여 해당 속성 창으로 이동 하 고 **OneDrive** 탭에서 **로그 아웃 시작**을 선택 합니다.
+4. 사용자 이름을 선택 하 여 해당 속성 창으로 이동 하 고 **계정** 탭에서 **로그 아웃 시작**을 선택 합니다.
 
 ::: moniker-end
 
@@ -71,7 +71,7 @@ ms.locfileid: "44844861"
 
 3. 새 암호를 입력 하 고 **재설정**을 선택 합니다. (여기로 보내지 않습니다.)
 
-4. 사용자를 다시 선택 하 고 **OneDrive 설정을**확장 한 후 **로그 아웃**옆에 있는 **시작** 을 선택 합니다.
+4. 사용자 이름을 선택 하 여 해당 속성 창으로 이동 하 고 **계정** 탭에서 **로그 아웃 시작**을 선택 합니다.
 
 ::: moniker-end
 
@@ -83,9 +83,12 @@ ms.locfileid: "44844861"
 
 3. 새 암호를 입력 하 고 **재설정**을 선택 합니다. (여기로 보내지 않습니다.)
 
-4. 사용자를 다시 선택 하 고 **OneDrive 설정을**확장 한 후 **로그 아웃**옆에 있는 **시작** 을 선택 합니다.
+4. 사용자 이름을 선택 하 여 해당 속성 창으로 이동 하 고 **계정** 탭에서 **로그 아웃 시작**을 선택 합니다.
 
 ::: moniker-end
+
+> [!NOTE]
+> 로그 아웃을 시작 하려면 전역 관리자 여야 합니다.
 
     
 한 시간 이내에 또는 현재 Microsoft 365 페이지에서 나간 후에 다시 로그인 하 라는 메시지가 표시 됩니다. (액세스 토큰은 한 시간 동안 유효 하므로 타임 라인은 해당 토큰에 남은 시간과 현재 웹 페이지에서 벗어나 이동 하는지 여부에 따라 달라 집니다.)
@@ -217,7 +220,8 @@ PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-Azu
     
 6. **저장**을 선택합니다. 
     
-    **팁**: 온-프레미스 Blackberry Enterprise Service에서 사용자를 제거하거나 사용하지 않도록 설정해야 합니다. 또한 사용자에 대해 Blackberry 장치를 사용하지 않도록 설정해야 합니다. 사용자를 사용하지 않도록 설정하는 방법에 대한 구체적인 단계가 필요한 경우 Blackberry Business Cloud Services Administration Guide를 참조하세요. 
+   > [!TIP]
+   > 온-프레미스 Blackberry Enterprise 서비스에서 사용자를 제거 하거나 사용 하지 않도록 설정 해야 합니다. 또한 사용자에 대해 Blackberry 장치를 사용하지 않도록 설정해야 합니다. 사용자를 사용하지 않도록 설정하는 방법에 대한 구체적인 단계가 필요한 경우 Blackberry Business Cloud Services Administration Guide를 참조하세요. 
     
 ## <a name="block-a-former-employees-access-to-microsoft-365-data"></a>Microsoft 365 데이터에 대 한 이전 직원의 액세스 차단
 <a name="bkmk_block"> </a>
@@ -343,6 +347,10 @@ Microsoft 365 구독의 일부로 전자 메일이 있는 경우 다음 단계�
 Office 365에서 사용자 라이선스를 제거하면 사용자와 연결된 PSTN 호출 번호가 해제됩니다. 이 PSTN 호출 번호를 다른 사용자에게 할당할 수 있습니다.
   
 사용자가 큐 그룹에 속하는 경우 더 이상 통화 큐 에이전트의 실행 가능한 대상이 아닙니다. 따라서 통화 큐와 연결된 그룹에서도 사용자를 제거하는 것이 좋습니다. 
+
+## <a name="set-up-call-forwarding-to-people-in-your-organization"></a>조직의 사용자에 게 착신 전환 설정
+
+종료 된 직원 전화 번호에 대 한 통화 전달을 설정 해야 하는 경우 호출 정책 아래의 착신 전환 설정에서 수신 전화를 다른 사용자에 게 전달 하거나 다른 사용자에 게 동시에 연결할 수 있는 착신 전환 기능을 설정할 수 있습니다. 자세한 내용은 [Microsoft 팀에서 정책 호출](https://docs.microsoft.com/microsoftteams/teams-calling-policy)을 참조 하십시오.
   
 ## <a name="delete-a-former-employees-user-account"></a>이전 직원의 사용자 계정 삭제
 <a name="bkmk_delete"> </a>

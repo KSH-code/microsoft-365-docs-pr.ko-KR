@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7bda309dbb1b601c77b6fb34ff9b8be14d5638d
-ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
+ms.openlocfilehash: c09047648f1d6bb6d68be78315a876be4998e595
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138281"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552437"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 고급 헌팅을 통한 위협에 대한 사전 대응
 
@@ -33,8 +33,11 @@ ms.locfileid: "45138281"
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 고급 헌팅은 최대 30일간의 원시 데이터를 탐색할 수 있는 쿼리 기반의 위협 헌팅 도구입니다. 네트워크의 이벤트를 사전에 검사하여 흥미로운 지표와 엔티티를 찾을 수 있습니다. 데이터에 대한 유연한 액세스는 알려진 위협과 잠재적 위협 모두에 대한 제한없는 헌팅을 용이하게 합니다.
+<p></p>
 
-동일한 위협 검색 쿼리를 사용 하 여 사용자 지정 검색 규칙을 만들 수 있습니다. 이러한 규칙은 의심 스러운 위반 활동 및 잘못 된 컴퓨터를 포함 하 여 다양 한 이벤트 및 시스템 상태를 확인 하 고 응답 하기 위해 자동으로 실행 됩니다.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bp7O]
+
+동일한 위협 헌팅 쿼리를 사용하여 사용자 지정 탐지 규칙을 만들 수 있습니다. 이러한 규칙은 침해 활동과 잘못 구성된 컴퓨터를 포함하여 다양한 이벤트와 시스템 상태를 확인하고 이에 응답하도록 자동으로 실행됩니다.
 
 Microsoft 365 보안 센터에서 고급 구하기는 장치, 전자 메일, 앱 및 Microsoft Defender ATP, Office 365 ATP, Microsoft Cloud App Security 및 Azure ATP의 id에 대 한 데이터를 포함 하 여 다양 한 작업 영역의 데이터를 확인 하는 쿼리를 지원 합니다. 고급 헌팅을 사용하려면 [Microsoft Threat Protection](mtp-enable.md)을 설정합니다.
 
@@ -45,7 +48,7 @@ Microsoft 365 보안 센터에서 고급 구하기는 장치, 전자 메일, 앱
 | 학습 목표 | 설명 | 리소스 |
 |--|--|--|
 | **언어에 대한 느낌을 받아보세요.** | 고급 구하기는 [Kusto 쿼리 언어](https://docs.microsoft.com/azure/kusto/query/)를 기반으로 하며 같은 구문 및 연산자를 지원 합니다. 첫 번째 쿼리를 실행하여 쿼리 언어 학습을 시작합니다. | [쿼리 언어 개요](advanced-hunting-query-language.md) |
-| **쿼리 결과 사용 방법 알아보기** | 결과를 보거나 내보낼 수 있는 다양 한 방법과 차트에 대해 알아봅니다. 쿼리를 신속 하 게 조정 하 고 드릴 다운 하 여 보다 다양 한 정보를 얻을 수 있는 방법을 알아봅니다. | [쿼리 결과 작업](advanced-hunting-query-results.md) |
+| **쿼리 결과 사용 방법 알아보기** | 결과를 보거나 내보낼 수 있는 다양 한 방법과 차트에 대해 알아봅니다. 쿼리를 빠르게 조정 하 고 드릴 다운 하 여 더 많은 정보를 얻고 응답 작업을 수행 하는 방법을 알아봅니다. | - [쿼리 결과 작업](advanced-hunting-query-results.md)<br>- [쿼리 결과에 대 한 작업 수행](advanced-hunting-take-action.md) |
 | **스키마의 이해** | 스키마와 해당 열에 있는 테이블에 대한 이해를 높이세요. 이는 데이터를 찾을 위치와 쿼리를 구성하는 방법을 결정하는 데 도움이 됩니다. | [스키마 참조](advanced-hunting-schema-tables.md) |
 | **미리 정의 된 쿼리 활용** | 다양한 위협 헌팅 시나리오를 다루는 미리 정의된 쿼리 모음을 탐색합니다. | - [공유 쿼리 사용](advanced-hunting-shared-queries.md)<br>- [헌트](advanced-hunting-go-hunt.md) |
 | **쿼리 최적화** | 전자 메일 및 장치에서 데이터를 결합하는 효율적인 쿼리 및 쿼리를 만드는 방법에 대해 알아봅니다. | - [쿼리 모범 사례](advanced-hunting-shared-queries.md) <br>- [장치 및 전자 메일 간 헌트](advanced-hunting-best-practices.md) |
@@ -63,6 +66,7 @@ Microsoft 365 보안 센터에서 고급 구하기는 장치, 전자 메일, 앱
 ## <a name="related-topics"></a>관련 항목
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [쿼리 결과 작업](advanced-hunting-query-results.md)
+- [쿼리 결과에 대 한 작업 수행](advanced-hunting-take-action.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
 - [여러 장치 및 전자 메일에서 위협을 탐지](advanced-hunting-query-emails-devices.md)
 - [스키마의 이해](advanced-hunting-schema-tables.md)

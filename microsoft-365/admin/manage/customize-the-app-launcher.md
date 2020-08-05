@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: '앱 시작 관리자에 사용자 지정 타일을 추가 하 여 전자 메일, 문서, 앱, SharePoint 사이트, 외부 사이트 및 기타 리소스에 대 한 빠른 연결을 만듭니다. '
-ms.openlocfilehash: 7220f0be8ad6605b7ad6d30000fde6411948c996
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: cebb4385e40f2cef68d3ee26dca1cb905c8d91c5
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780136"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552497"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>앱 시작 관리자에 사용자 지정 타일 추가
 
@@ -45,7 +45,7 @@ SharePoint 사이트, 외부 사이트, 레거시 앱 등을 가리키는 앱 �
   
 ## <a name="add-a-custom-tile-to-the-app-launcher"></a>앱 시작 관리자에 사용자 지정 타일 추가
 
-1. 관리 센터에서 **설정**  >  **조직 설정** 으로 이동 하 여 **조직 프로필** 탭을 선택 합니다.
+1. 전역 관리자 권한으로 관리 센터에 로그인 하 고, 설정 조직 **Settings**  >  **설정**으로 이동한 다음 **조직 프로필** 탭을 선택 합니다.
     
 2. **조직 프로필** 탭에서 **사용자 지정 앱 시작 관리자 타일**을 선택 합니다.
   
@@ -91,4 +91,3 @@ SharePoint 사이트, 외부 사이트, 레거시 앱 등을 가리키는 앱 �
 
 앱 시작 관리자에 타일을 추가 하는 것 외에, 탐색 모음에 앱 시작 관리자 타일을 추가할 수 있습니다 ([자세한 정보](https://support.microsoft.com/office/eb34a21b-52fa-4fbf-a8d5-146132242985)). 조직의 브랜드에 맞게 Microsoft 365의 모양과 느낌을 사용자 지정 하려면 [microsoft 365 테마 사용자 지정](../setup/customize-your-organization-theme.md)을 참조 하세요.
   
-

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 그룹 만료 정책에 대해 자세히 알아봅니다.
-ms.openlocfilehash: 8def757241dec28f5a54c76dc81614fd52fe85e5
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 84b7048e414fe37c89a59dd9f282a4b35e0f26c8
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780424"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560366"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Microsoft 365 그룹 만료 정책
 
@@ -78,7 +78,7 @@ Microsoft 365 그룹의 사용이 증가 함에 의해 관리자와 사용자는
 
 30 일 동안 그룹이 만료 되는 경우 그룹 소유자 (또는 소유자가 없는 그룹에 대해 지정한 전자 메일 주소)는 그룹을 쉽게 갱신할 수 있도록 전자 메일을 받습니다. 갱신 하지 않으면 만료 되기 15 일 전에 다른 갱신 전자 메일이 수신 됩니다. 아직 갱신 하지 않은 경우에는 만료 되기 전에 하루 동안 전자 메일 알림을 한 번 더 받게 됩니다.
 
-어떤 이유로 든 소유자 또는 관리자가 만료 되기 전에 그룹을 갱신 하지 않을 경우 관리자는 만료 후 최대 30 일 동안 그룹을 복원할 수 있습니다. 자세한 내용은 [삭제 된 Microsoft 365 그룹 복원을](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)참조 하십시오.
+어떤 이유로 든 소유자 또는 관리자가 만료 되기 전에 그룹을 갱신 하지 않고 그룹이 자동으로 갱신 되도록 요구 사항을 충족 하지 않아 자동 갱신이 발생 하지 않는 경우에도 관리자는 만료 후 최대 30 일 동안 그룹을 복원할 수 있습니다. 자세한 내용은 [삭제 된 Microsoft 365 그룹 복원을](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)참조 하십시오.
 
 ## <a name="related-articles"></a>관련 문서
 
@@ -86,4 +86,6 @@ Microsoft 365 그룹의 사용이 증가 함에 의해 관리자와 사용자는
 
 [분리된 그룹에 새 소유자 할당](https://support.microsoft.com/office/86bb3db6-8857-45d1-95c8-f6d540e45732)
 
-[Microsoft 365 그룹 만료 구성](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal) '
+[Microsoft 365 그룹 만료 구성](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal)
+
+[활동 기반 자동 갱신](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)

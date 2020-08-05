@@ -18,12 +18,13 @@ ms.custom: ''
 search.appverid:
 - MET150
 description: Microsoft 365 교육용 교육 기관용 가격에 대 한 학교 자격을 확인 하는 방법을 알아봅니다.
-ms.openlocfilehash: 70bc4e986a5072b7f05ae983b2e932aa804caaeb
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.date: 07/21/2020
+ms.openlocfilehash: 948d001315c44e288d9fe3e363ec6e1ddeb8ff32
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45205009"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560706"
 ---
 # <a name="verify-academic-eligibility-for-microsoft-365-education-subscriptions"></a>Microsoft 365 교육 구독에 대 한 교육 자격 확인
 
@@ -44,7 +45,7 @@ Microsoft 365 교육 평가판 구독을 사용 하 고 있는지 잘 모르는 
 
 ## <a name="verify-your-schools-academic-eligibility"></a>학교 교육 기관 자격 확인
 
-대부분의 경우 무료 평가판에 등록 하 고 자격 확인 마법사를 완료 하 여 학교 도메인을 제공 하는 경우에는 학교 자격을 즉시 승인 하거나 거부할 수 있습니다. 경우에 따라 수동 자격 검토를 완료 하기 위해 자세한 정보가 필요한 경우도 있습니다. 이 검토에는 영업일까지 최대 10 일이 소요 될 수 있습니다. 학교 자격 정보를 검토 한 후에는 학교 상태를 알리는 전자 메일을 보냅니다.
+대부분의 경우 무료 평가판에 등록 하 고 자격 확인 마법사를 완료 하 여 학교 도메인을 제공 하는 경우에는 학교 자격을 즉시 승인 하거나 거부할 수 있습니다. 일부 경우에는 수동 자격 검토를 완료 하기 위해 자세한 정보가 필요 하며,이에 대 한 질문을 완료 하는 데 도움이 됩니다. 이 검토에는 영업일까지 최대 10 일이 소요 될 수 있습니다. 학교 자격 정보를 검토 한 후에는 학교 상태를 알리는 전자 메일을 보냅니다.
 
 도메인을 입력 하기 전에 교육 확인 마법사를 닫은 후 즉시 평가판 구독 사용을 시작할 수 있습니다. 그러나 확인 프로세스를 완료 하기 전 까지는 교육 가격을 사용할 수 없습니다. 유료 구독으로 변환 하 고 계속 사용 하려면 무료 평가판을 종료 하기 전에 프로세스를 완료 해야 합니다. 이는 자유 A1 구독으로 변환 하는 경우에도 적용 됩니다.
 

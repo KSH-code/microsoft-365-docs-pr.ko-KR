@@ -12,12 +12,12 @@ ms.date: 08/28/2019
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: d1019547fb16fd4fd5669ebd5286e8c9e32668fe
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 3b4a0174e96fec1591bcac7ba58bcc7d57db8c87
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011926"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552689"
 ---
 # <a name="phase-3-windows-10-enterprise"></a>3단계: Windows 10 Enterprise
 
@@ -56,7 +56,7 @@ Windows 10 운영 체제를 배포 하 고 조직에 적합 한 시스템을 선
 ## <a name="additional-services-and-features"></a>추가 서비스 및 기능
 Windows 10 Enterprise 배포의 일환으로 이러한 추가 서비스와 기능을 추가할 수 있습니다.
 
-### <a name="windows-analytics"></a>Windows Analytics
+### <a name="desktop-analytics"></a>Desktop Analytics
 
 Windows는 진단 데이터를 사용 하 여 사용자 환경에서 Windows 10 장치의 운영 효율성과 상태를 심층적으로 파악할 수 있도록 다양 한 작업 가능 정보를 제공 합니다.
 
@@ -64,7 +64,7 @@ Windows는 진단 데이터를 사용 하 여 사용자 환경에서 Windows 10 
 * 업데이트 준수-업데이트 준수는 추가 인프라 요구 사항 없이 모든 Windows 10 장치를 전체적으로 확인 하려는 IT 관리자를 대상으로 합니다.
 * 장치 상태-장치 상태를 사용 하 여 최종 사용자에 게 영향을 주는 문제를 사전에 검색 하 고 수정할 수 있습니다.
 
-자세한 내용은 [Windows 분석 개요](https://docs.microsoft.com/windows/deployment/update/windows-analytics-overview) 를 참조 하세요.
+자세한 내용은 [데스크톱 분석 개요](https://docs.microsoft.com/mem/configmgr/desktop-analytics/overview) 를 참조 하세요.
 
 ### <a name="windows-security"></a>Windows 보안
 

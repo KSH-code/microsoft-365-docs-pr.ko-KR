@@ -14,12 +14,12 @@ ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
 description: Microsoft 정크 메일 보고 추가 기능을 설치 하 고 사용 하 여 스팸, 비 스팸 및 피싱 메시지를 Microsoft에 보고 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5c0b802bea89a0f0f62952261bf0d2864842024f
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 54b0fb634333ccb180870ab1fcc6160fd133f81e
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208830"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560524"
 ---
 # <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Microsoft Outlook 용 정크 메일 보고 추가 기능 설치 및 사용
 
@@ -30,7 +30,7 @@ Microsoft Outlook 용 정크 메일 보고 추가 기능을 사용 하면 사용
 
 이 항목에서는 정크 메일 보고 추가 기능을 설치 하 고 사용 하는 방법에 대해 설명 합니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - 정크 메일 보고 추가 기능을 설치 하려면이 항목의 뒷부분에 나오는 [정크 메일 보고 추가 기능 설치](#install-the-junk-email-reporting-add-in) 섹션을 참조 하십시오.
 
@@ -63,7 +63,12 @@ Microsoft Outlook 용 정크 메일 보고 추가 기능을 사용 하면 사용
 
    ![피싱 메일로 신고 대화 상자](../../media/junk-email-reporting-report-as-phishing-dialog.png)
 
-3. 선택한 메시지가 분석을 위해 Microsoft로 전송되고 정크 메일 폴더로 이동됩니다. 메시지가 전송되었는지 확인하려면 **보낸 편지함** 폴더를 열고 전송한 메시지를 확인합니다.
+3. 선택한 메시지는 분석을 위해 Microsoft로 전송 됩니다.
+
+   - 스팸으로 보고 된 경우 정크 메일 폴더로 이동 됩니다.
+   - 피싱 메일로 보고 된 경우 삭제 됩니다.
+   
+   메시지가 전송되었는지 확인하려면 **보낸 편지함** 폴더를 열고 전송한 메시지를 확인합니다.
 
 ## <a name="use-the-junk-email-reporting-add-in-to-report-non-spam-and-phishing-messages-from-the-junk-email-folder"></a>정크 메일 보고 추가 기능을 사용 하 여 정크 메일 폴더에서 스팸이 아닌 메시지 및 피싱 메시지가 보고 되도록 합니다.
 
@@ -87,7 +92,12 @@ Microsoft Outlook 용 정크 메일 보고 추가 기능을 사용 하면 사용
 
    ![피싱 메일로 신고 대화 상자](../../media/junk-email-reporting-report-as-phishing-dialog.png)
 
-3. 선택한 메시지가 분석을 위해 Microsoft로 전송되고 정크 메일 폴더로 이동됩니다. 메시지가 전송되었는지 확인하려면 **보낸 편지함** 폴더를 열고 전송한 메시지를 확인합니다.
+3. 선택한 메시지는 분석을 위해 Microsoft로 전송 됩니다.
+
+   - 스팸으로 보고 된 경우 정크 메일 폴더로 이동 됩니다.
+   - 피싱 메일로 보고 된 경우 삭제 됩니다.
+
+   메시지가 전송되었는지 확인하려면 **보낸 편지함** 폴더를 열고 전송한 메시지를 확인합니다.
 
 ## <a name="install-the-junk-email-reporting-add-in"></a>정크 메일 보고 추가 기능 설치
 
@@ -96,7 +106,6 @@ Microsoft Outlook 용 정크 메일 보고 추가 기능을 사용 하면 사용
 - <https://www.microsoft.com/download/details.aspx?id=18275>Office 버전의 적절 한 .msi 파일을 쉽게 찾을 수 있는 위치로 이동한 후 다운로드 합니다.
 
   - **32 비트**:`Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
-
   - **64 비트**:`Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
 
 - Outlook 2013 이상 버전의 경우에는 Microsoft .NET Framework 2.0에만 필수 구성 요소를 사용할 수 있습니다. Windows 10에서는 다운로드에서 .NET Framework 2.0을 설치 하지 않습니다.
@@ -209,7 +218,7 @@ Outlook을 닫은 후에는 다음 절차 중 하나를 사용 하 여 정크 �
 
   대화 상자가 나타나면 **Outlook 용 Microsoft 정크 메일 보고 추가 기능 제거** 를 선택 하 고 **다음**을 클릭 합니다.
 
-- **자동 모드**: 적절 한 .msi 파일을 찾거나 다운로드 합니다. 명령 프롬프트 창에서 \< pathtofile을 \> .msi 파일의 위치로 바꾸고 다음 명령 중 하나를 실행 합니다.
+- **자동 모드**: 적절 한 .msi 파일을 찾거나 다운로드 합니다. 명령 프롬프트 창에서 \<PathToFile\> .msi 파일의 위치로 대체 하 고 다음 명령 중 하나를 실행 합니다.
 
   - **32 비트**:
 
@@ -288,7 +297,7 @@ Microsoft에 메시지를 전송 하는 데 사용할 수 있는 다른 방법�
 
 #### <a name="problem-users-selected-not-to-receive-a-confirmation-prompt-when-they-report-messages-and-now-they-want-the-prompt-back"></a>문제: 사용자가 메시지를 보고 했을 때 확인 메시지를 수신 하지 않도록 선택 했으며, 다시 확인 하 고 싶습니다.
 
-1. `ConfirmReportJunk`"True" 값을 wih 레지스트리 키를 만듭니다.
+1. `ConfirmReportJunk`"True" 값을 사용 하 여 레지스트리 키를 만듭니다.
 
    ```text
    Windows Registry Editor Version 5.00
@@ -297,4 +306,4 @@ Microsoft에 메시지를 전송 하는 데 사용할 수 있는 다른 방법�
    "ConfirmReportJunk"="True"
    ```
 
-2. Outlook을 다시 시작 합니다.
+2. Outlook을 다시 시작합니다.

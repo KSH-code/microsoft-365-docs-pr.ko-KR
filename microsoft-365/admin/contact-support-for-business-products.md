@@ -20,12 +20,13 @@ search.appverid:
 - MET150
 description: 해당 국가 또는 지역 전화 번호를 사용하거나 온라인으로 서비스 요청을 제출하여 기술 및 청구 지원을 받습니다.
 feedback_system: None
-ms.openlocfilehash: c63e30aa8db9fc4a3ddb6ea394e01db635a1bc23
-ms.sourcegitcommit: ea5e2f85bd6b609658545b120c7e08789b9686fd
+ms.date: 7/28/2020
+ms.openlocfilehash: 6a7daed145294fa0e1c02ac47144d06cfdf26884
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "46536863"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552449"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>비즈니스용 제품에 대한 고객 지원 센터 문의 방법 - 관리자 도움말
 
@@ -64,12 +65,9 @@ ms.locfileid: "46536863"
 
 - **영국에서는 0800 032 6417로 전화하십시오.**
 
-### <a name="phone-numbers-for-other-countries"></a>다른 국가 전화번호
-
 지원 전화 번호가 위의 목록에 없으면, 아래 드롭다운 목록을 사용하여 국가 또는 지역 번호를 선택하세요.
 
 [!INCLUDE [country-region-support-dropdown-list](includes/country-region-support-dropdown-list.md)]
-
 
 ::: moniker-end
 

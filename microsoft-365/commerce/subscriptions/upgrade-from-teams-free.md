@@ -20,19 +20,20 @@ ms.custom: ''
 search.appverid: ''
 description: Microsoft 팀에서 새로운 Microsoft 365 비즈니스 구독을 무료로 업그레이드 하는 방법에 대해 알아봅니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6bd36987fcad4cebb217bdc89388dfae44ca30b9
-ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
+ms.date: 07/08/2020
+ms.openlocfilehash: fcd06db64f78c80e5b4a015380e672f529feb0ae
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45087943"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552461"
 ---
 # <a name="upgrade-from-microsoft-teams-free-to-microsoft-365-for-business"></a>Microsoft 팀에서 무료로 Microsoft 365으로 업그레이드
 
 > [!IMPORTANT]
 > 이 문서는 Microsoft 팀의 무료 조직에만 적용 됩니다.
 
-## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
+## <a name="before-you-begin"></a>시작하기 전에
 
 Microsoft 팀 무료 조직을 업그레이드 하려면 Microsoft 팀 무료 관리자 여야 합니다.Microsoft 팀원 무료 조직을 만든 경우 관리자가 자동으로 관리 됩니다.
 
