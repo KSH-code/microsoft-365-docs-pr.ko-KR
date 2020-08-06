@@ -1,5 +1,5 @@
 ---
-title: 큐 알림 및 큐
+title: 메일 흐름 대시보드의 큐 통찰력
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -10,68 +10,83 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
-description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드의 큐 경고 및 큐에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 7bb103bad89ee39991a5c16d7101ab4658842479
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 큐 위젯을 사용 하 여 아웃 바운드 커넥터를 통해 온-프레미스 또는 파트너 조직으로의 실패 한 메일 흐름을 모니터링 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: fdc3f44041990e3860deb04a36a69a3d506d334a
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635187"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577310"
 ---
-# <a name="queue-alerts-and-queues"></a><span data-ttu-id="aca2a-103">큐 알림 및 큐</span><span class="sxs-lookup"><span data-stu-id="aca2a-103">Queue alerts and Queues</span></span>
+# <a name="queues-insight-in-the-security--compliance-center"></a><span data-ttu-id="48811-103">보안 & 준수 센터의 큐 통찰력</span><span class="sxs-lookup"><span data-stu-id="48811-103">Queues insight in the Security & Compliance Center</span></span>
 
-## <a name="queue-alerts"></a><span data-ttu-id="aca2a-104">큐 알림</span><span class="sxs-lookup"><span data-stu-id="aca2a-104">Queue alerts</span></span>
+<span data-ttu-id="48811-104">커넥터를 사용 하 여 조직에서 온-프레미스 또는 파트너 전자 메일 서버로 메시지를 보낼 수 없는 경우 해당 메시지는 Microsoft 365에서 대기 됩니다.</span><span class="sxs-lookup"><span data-stu-id="48811-104">When messages can't be sent from your organization to your on-premises or partner email servers using connectors, the messages are queued in Microsoft 365.</span></span> <span data-ttu-id="48811-105">이러한 상황을 일으키는 일반적인 예는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="48811-105">Common examples that cause this condition are:</span></span>
 
-<span data-ttu-id="aca2a-105">커넥터를 사용 하 여 조직에서 온-프레미스 또는 파트너 전자 메일 서버로 메시지를 보낼 수 없는 경우 해당 메시지는 Office 365에서 대기 됩니다.</span><span class="sxs-lookup"><span data-stu-id="aca2a-105">When messages can't be sent from your organization to your on-premises or partner email servers using connectors, the messages are queued in Office 365.</span></span> <span data-ttu-id="aca2a-106">이러한 상황을 일으키는 일반적인 예는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="aca2a-106">Common examples that cause this condition are:</span></span>
+- <span data-ttu-id="48811-106">커넥터가 올바르게 구성 되지 않았습니다.</span><span class="sxs-lookup"><span data-stu-id="48811-106">The connector is incorrectly configured.</span></span>
+- <span data-ttu-id="48811-107">온-프레미스 환경에 네트워킹이 나 방화벽이 변경 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="48811-107">There have been networking or firewall changes in your on-premises environment.</span></span>
 
-- <span data-ttu-id="aca2a-107">커넥터가 올바르게 구성 되지 않았습니다.</span><span class="sxs-lookup"><span data-stu-id="aca2a-107">The connector is incorrectly configured.</span></span>
+<span data-ttu-id="48811-108">Microsoft 365는 24 시간 동안 배달을 계속 해 서 다시 시도 합니다.</span><span class="sxs-lookup"><span data-stu-id="48811-108">Microsoft 365 will continue to retry to delivery for 24 hours.</span></span> <span data-ttu-id="48811-109">24 시간 후에는 메시지가 만료 되어 배달 못 함 보고서 (Ndr 또는 바운스 메시지로도 알려짐)의 보낸 사람에 게 반환 됩니다.</span><span class="sxs-lookup"><span data-stu-id="48811-109">After 24 hours, the messages will expire and will be returned to the senders in non-delivery reports (also known as a NDRs or bounce messages).</span></span>
 
-- <span data-ttu-id="aca2a-108">온-프레미스 환경에 네트워킹이 나 방화벽이 변경 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="aca2a-108">There have been networking or firewall changes in your on-premises environment.</span></span>
+<span data-ttu-id="48811-110">대기 중인 전자 메일 볼륨이 미리 정의 된 임계값을 초과 하는 경우 (기본값은 200 메시지), 다음 위치에서 정보를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="48811-110">If the queued email volume exceeds the pre-defined threshold (the default value is 200 messages), the information is available in the following locations:</span></span>
 
-<span data-ttu-id="aca2a-109">Microsoft 365는 24 시간 동안 배달을 계속 해 서 다시 시도 합니다.</span><span class="sxs-lookup"><span data-stu-id="aca2a-109">Microsoft 365 will continue to retry to delivery for 24 hours.</span></span> <span data-ttu-id="aca2a-110">24 시간 후에는 메시지가 만료 되어 배달 못 함 보고서 (Ndr 또는 바운스 메시지로도 알려짐)의 보낸 사람에 게 반환 됩니다.</span><span class="sxs-lookup"><span data-stu-id="aca2a-110">After 24 hours, the messages will expire and will be returned to the senders in non-delivery reports (also known as a NDRs or bounce messages).</span></span>
+- <span data-ttu-id="48811-111">**큐** 는 보안 & 준수 센터의 [메일 흐름 대시보드에](mail-flow-insights-v2.md) 있습니다.</span><span class="sxs-lookup"><span data-stu-id="48811-111">The **Queues** insight in the [Mail flow dashboard](mail-flow-insights-v2.md) in the Security & Compliance Center.</span></span> <span data-ttu-id="48811-112">자세한 내용은이 항목의 [메일 흐름 대시보드 섹션에 있는 큐 통찰력](#queues-insight-in-the-mail-flow-dashboard) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="48811-112">For more information, see the [Queues insight in the Mail flow dashboard](#queues-insight-in-the-mail-flow-dashboard) section in this topic.</span></span>
+  
+- <span data-ttu-id="48811-113">경고가 **최근 경고** 에 표시 됨 [보안 & 준수 센터](https://protection.office.com) (**경고** \> **대시보드** 또는)의 알림 대시보드 <https://protection.office.com/alertsdashboard></span><span class="sxs-lookup"><span data-stu-id="48811-113">An alert is displayed in **Recent alerts** the Alerts dashboard in the [Security & Compliance Center](https://protection.office.com) (**Alerts** \> **Dashboard** or <https://protection.office.com/alertsdashboard>).</span></span>
 
-<span data-ttu-id="aca2a-111">큐에 대기 중인 전자 메일 볼륨이 미리 정의 된 임계값을 초과 하는 경우 (기본값은 2000 메시지), 메시지는 **최근 경고**에서 메일 흐름 대시보드에서 사용할 수 있으며 관리자는 전자 메일 알림을 받는 사람 전자 메일 주소로 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="aca2a-111">If the queued email volume exceeds the pre-defined threshold (the default value is 2000 messages), the alerts will be available in the mail flow dashboard at **Recent alerts**, and admins will receive an email notification (to their alternative email address).</span></span> <span data-ttu-id="aca2a-112">경고 임계값, 일별 알림 제한 및/또는 받는 사람을 구성 하려면 아래의 **큐 경고 사용자 지정** 섹션을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="aca2a-112">To configure the alert threshold, daily notification limit, and/or recipients of the alert, see the **Customize queue alerts** section below.</span></span>
+  ![보안 & 준수 센터의 알림 대시보드의 최근 경고](../../media/mfi-queued-messages-alert.png)
 
-![보안 & 준수 센터에서 메일 흐름 대시보드의 최근 경고 영역에 있는 큐 알림](../../media/5fc4a51c-6118-4270-960b-c6b176ef94ae.png)
+- <span data-ttu-id="48811-115">관리자는 **메시지가 지연**된 기본 경고 정책의 구성에 따라 전자 메일 알림을 받습니다.</span><span class="sxs-lookup"><span data-stu-id="48811-115">Admins will receive an email notification based on the configuration of the default alert policy named **Messages have been delayed**.</span></span> <span data-ttu-id="48811-116">이 경고에 대 한 알림 설정을 구성 하려면 다음 섹션을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="48811-116">To configure the notification settings for this alert, see the next section.</span></span>
 
-## <a name="customize-queue-alerts"></a><span data-ttu-id="aca2a-114">큐 알림 사용자 지정</span><span class="sxs-lookup"><span data-stu-id="aca2a-114">Customize queue alerts</span></span>
+  <span data-ttu-id="48811-117">경고 정책에 대 한 자세한 내용은 [Security & 준수 센터의 경고 정책](../../compliance/alert-policies.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="48811-117">For more information about alert policies, see [Alert policies in the Security & Compliance Center](../../compliance/alert-policies.md).</span></span>
 
-<span data-ttu-id="aca2a-115">메일 흐름 정보 **만들기 경고 정책에서** \> **Alert Policies**찾은 메시지 (아래 예제 스크린샷의 **전자 메일 알림 보내기** 확인란) **가 지연 되었습니다** .</span><span class="sxs-lookup"><span data-stu-id="aca2a-115">Mail flow insights create an alert policy named **Messages have been delayed** (the **Send email notifications** check box in the example screen shot below) found in **Alerts** \> **Alert Policies**.</span></span> <span data-ttu-id="aca2a-116">정책을 클릭 하 여 임계값 및 알림 받는 사람을 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="aca2a-116">You can modify the threshold and alert recipients by clicking on the policy.</span></span>
+## <a name="customize-queue-alerts"></a><span data-ttu-id="48811-118">큐 알림 사용자 지정</span><span class="sxs-lookup"><span data-stu-id="48811-118">Customize queue alerts</span></span>
 
-![알림 탐색](../../media/efb95976-9e0b-484e-a2fd-093c5bc7a40f.png)
+1. <span data-ttu-id="48811-119">[보안 & 준수 센터](https://protection.office.com)에서 **알림** \> **경고 정책** 으로 이동 하거나 엽니다 <https://protection.office.com/alertpolicies> .</span><span class="sxs-lookup"><span data-stu-id="48811-119">In the [Security & Compliance Center](https://protection.office.com), go to **Alerts** \> **Alert policies** or open <https://protection.office.com/alertpolicies>.</span></span>
 
-<span data-ttu-id="aca2a-118">이제 **정책 편집**을 클릭 하 여 새 정책 정보 블레이드에서 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="aca2a-118">You'll see a new policy information blade, you can now click **Edit Policy**.</span></span>
+2. <span data-ttu-id="48811-120">**경고 정책** 페이지에서 **메시지가 지연**된 정책을 찾아서 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="48811-120">On the **Alert policies** page, find and select the policy named **Messages have been delayed**.</span></span>
 
-![정책 편집 ](../../media/ed2aceae-3ee2-4849-a17e-87915987a7dd.png)
+3. <span data-ttu-id="48811-121">메시지의 플라이 아웃이 **지연 된** 경우 알림을 켜거나 끄고 알림 설정을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="48811-121">In the **Message have been delayed** flyout that opens, you can turn the alert on or off and configure the notification settings.</span></span>
 
-<span data-ttu-id="aca2a-120">정보 블레이드에서 **편집 정책**으로 변경 됩니다.</span><span class="sxs-lookup"><span data-stu-id="aca2a-120">The information blade will change to the **Edit Policy**.</span></span> <span data-ttu-id="aca2a-121">이제 경고 전자 메일에 대 한 받는 사람, 하루에 전송 되는 알림 수에 대 한 제한 및 경고를 트리거하기 위한 최소 임계값 (200 이상)을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="aca2a-121">You can now change the recipients for the alert email, the limit on the number of notifications sent per day, and the minimum threshold to trigger the alert (200 or more).</span></span>
+   ![메시지가 지연 됨 경고 정책 세부 정보 보안 & 준수 센터](../../media/mfi-queued-messages-alert-policy.png)
 
-![정책 블레이드 편집](../../media/c657cc74-7867-474c-b2c9-dc478449f990.png)
+   - <span data-ttu-id="48811-123">**상태**: 알림을 설정 하거나 해제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="48811-123">**Status**: You can toggle the alert on or off.</span></span>
 
-## <a name="queue-alert-details"></a><span data-ttu-id="aca2a-123">큐 알림 세부 정보</span><span class="sxs-lookup"><span data-stu-id="aca2a-123">Queue alert details</span></span>
+   - <span data-ttu-id="48811-124">**전자 메일 받는 사람** 및 **일별 알림 제한**: **편집** 을 클릭 하 여 다음 설정을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="48811-124">**Email recipients** and **Daily notification limit**: Click **Edit** to configure the following settings:</span></span>
 
-<span data-ttu-id="aca2a-124">알림을 클릭 하면 알림 세부 정보가 플라이 아웃 창에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="aca2a-124">When you click the alert, the alert details appear in a flyout pane.</span></span>
+4. <span data-ttu-id="48811-125">알림 설정을 구성 하려면 **편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="48811-125">To configure the notification settings, click **Edit**.</span></span> <span data-ttu-id="48811-126">표시 되는 정책 플라이 아웃 **편집** 에서 다음 설정을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="48811-126">In the **Edit policy** flyout that appears, configure the following settings:</span></span>
 
-![보안 & 준수 센터에서 메일 흐름 대시보드의 최근 경고 영역에 있는 큐 알림 선택](../../media/1f6b0e96-5b2c-41ef-9684-9d813b3fabe6.png)
+   - <span data-ttu-id="48811-127">**전자 메일 알림 보내기**: 기본값은 on입니다.</span><span class="sxs-lookup"><span data-stu-id="48811-127">**Send email notifications**: The default value is on.</span></span>
+   - <span data-ttu-id="48811-128">**전자 메일 받는 사람**: 기본값은 **tenantadmins**입니다.</span><span class="sxs-lookup"><span data-stu-id="48811-128">**Email recipients**: The default value is **TenantAdmins**.</span></span>
+   - <span data-ttu-id="48811-129">**일별 알림 제한**: 기본값은 **제한이 없습니다**.</span><span class="sxs-lookup"><span data-stu-id="48811-129">**Daily notification limit**: The default value is **No limit**.</span></span>
+   - <span data-ttu-id="48811-130">**임계값**: 기본값은 200입니다.</span><span class="sxs-lookup"><span data-stu-id="48811-130">**Threshold**: The default value is 200.</span></span>
 
-![보안 & 준수 센터의 큐 알림 세부 정보 플라이 아웃](../../media/105c8fff-912f-4763-8806-2740ebdecd4b.png)
+   ![메시지의 알림 설정이 지연 됨 경고 정책 세부 정보 보안 & 준수 센터](../../media/mfi-queued-messages-alert-policy-notification-settings.png)
 
-<span data-ttu-id="aca2a-127">알림 세부 정보에서 **큐 보기** 를 클릭 하 여 큐 세부 정보, 문제 및 새 플라이 아웃 창에서 사용 가능한 수정 사항에 대 한 링크를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="aca2a-127">You can click **View queue** in the alert details to see the queue details, problems, and links to the available fixes in a new flyout pane.</span></span>
+5. <span data-ttu-id="48811-132">작업이 완료 되 면 **저장** 후 **닫기를**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="48811-132">When you're finished, click **Save** and **Close**.</span></span>
 
-![보안 & 준수 센터의 큐 알림 세부 정보 플라이 아웃](../../media/8ff60955-55ef-4f32-a966-85e02cb608d1.png)
+## <a name="queues-insight-in-the-mail-flow-dashboard"></a><span data-ttu-id="48811-133">메일 흐름 대시보드의 큐 통찰력</span><span class="sxs-lookup"><span data-stu-id="48811-133">Queues insight in the Mail flow dashboard</span></span>
 
-![알림 세부 정보의 큐 보기](../../media/4eb088fe-5dd9-4bf4-b959-c1bb2545c515.png)
+<span data-ttu-id="48811-134">대기 중인 메시지 볼륨이 임계값을 초과 하지 않고 경고가 생성 된 경우에도 [메일 흐름 대시보드에](mail-flow-insights-v2.md) **큐** 통찰력을 사용 하 여 1 시간 이상 대기 된 메시지를 확인 하 고 대기 중인 메시지 수가 너무 커지지 않으면 조치를 취할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="48811-134">Even if the queued message volume hasn't exceeded the threshold and generated an alert, you can still use the **Queues** insight in the [Mail flow dashboard](mail-flow-insights-v2.md) to see messages that have been queued for more than one hour, and take action before the number of queued messages becomes too large.</span></span>
 
-## <a name="queues"></a><span data-ttu-id="aca2a-130">큐</span><span class="sxs-lookup"><span data-stu-id="aca2a-130">Queues</span></span>
+![보안 & 준수 센터의 메일 흐름 대시보드의 큐 위젯](../../media/mfi-queues-widget.png)
 
-<span data-ttu-id="aca2a-131">대기 중인 메시지 볼륨이 임계값을 초과 하지 않은 경우에도 메일 흐름 대시보드의 **queue (큐** ) 영역을 사용 하 여 1 시간 이상 대기 된 메시지를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="aca2a-131">Even if the queued message volume hasn't exceeded the threshold, you can still use the **Queues** area of the mail flow dashboard to see messages that have been queued for more than one hour.</span></span> <span data-ttu-id="aca2a-132">**큐** 영역을 사용 하 여 대기 중인 메시지 수를 모니터링 하 고 (값은 메일 흐름이 양호 함을 나타냄) 대기 중인 메시지 수가 너무 커지지 않도록 조치를 취할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="aca2a-132">You can use the **Queues** area to monitor the number of queued messages (the value 0 indicates mail flow is OK) and take action before the number of queued messages becomes too large.</span></span>
+<span data-ttu-id="48811-136">위젯의 메시지 수를 클릭 하면 다음 정보와 함께 **대기 중인 메시지** 플라이 아웃이 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="48811-136">If you click the number of messages on the widget, a **Messages queued** flyout appears with the following information:</span></span>
 
-![보안 & 준수 센터의 메일 흐름 대시보드의 큐](../../media/0ef6e2ef-dd22-4363-9d4a-b20a00babc9f.png)
+- <span data-ttu-id="48811-137">**대기 중인 메시지 수**</span><span class="sxs-lookup"><span data-stu-id="48811-137">**Number of queued messages**</span></span>
+- <span data-ttu-id="48811-138">**커넥터 이름**: Exchange 관리 센터 (EAC)에서 커넥터를 관리 하려면 커넥터 이름을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="48811-138">**Connector name**: Click on the connector name to manage the connector in the Exchange admin center (EAC).</span></span>
+- <span data-ttu-id="48811-139">**큐 시작 시간**</span><span class="sxs-lookup"><span data-stu-id="48811-139">**Queue started time**</span></span>
+- <span data-ttu-id="48811-140">**가장 오래 된 메시지가 만료 됨**</span><span class="sxs-lookup"><span data-stu-id="48811-140">**Oldest messages expired**</span></span>
+- <span data-ttu-id="48811-141">**대상 서버**</span><span class="sxs-lookup"><span data-stu-id="48811-141">**Destination server**</span></span>
+- <span data-ttu-id="48811-142">**마지막 IP 주소**</span><span class="sxs-lookup"><span data-stu-id="48811-142">**Last IP address**</span></span>
+- <span data-ttu-id="48811-143">**마지막 오류**</span><span class="sxs-lookup"><span data-stu-id="48811-143">**Last error**</span></span>
+- <span data-ttu-id="48811-144">**해결 방법**: 일반적인 문제 및 해결 방법을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="48811-144">**How to fix**: Common issues and solutions are available.</span></span> <span data-ttu-id="48811-145">**지금 해결** 방법을 사용할 수 있는 경우에는이 링크를 클릭 하 여 문제를 해결 합니다.</span><span class="sxs-lookup"><span data-stu-id="48811-145">If is a **Fix it now** link is available, click it to fix the problem.</span></span> <span data-ttu-id="48811-146">그렇지 않으면 사용 가능한 링크를 클릭 하 여 오류 및 가능한 해결 방법에 대 한 자세한 내용을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="48811-146">Otherwise, click on any available links for more information about the error and possible solutions.</span></span>
 
-<span data-ttu-id="aca2a-134">**큐**에서 대기 중인 메시지 수를 클릭 하면 문제를 해결 하는 방법에 대 한 큐 세부 정보 및 지침이 플라이 아웃 창 (큐 경고의 세부 정보에서 **큐 보기** 를 클릭 하면 표시 되는 동일한 플라이 아웃)에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="aca2a-134">When you click the number of queued messages in **Queues**, the queue details and guidance for how to fix the issue will appear in a flyout pane (the same flyout that appears after you click **View queue** in the details of a queue alert).</span></span>
+![메일 흐름 대시보드에서 큐 통찰력을 클릭 한 후의 세부 정보](../../media/mfi-queues-details.png)
 
-![큐 세부 정보](../../media/4eb088fe-5dd9-4bf4-b959-c1bb2545c515.png)
+<span data-ttu-id="48811-148">메시지 세부 정보에서 **큐 보기** 를 클릭 하 여 경고를 **지연** 한 후에 동일한 플라이 아웃이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="48811-148">The same flyout is displayed after you click **View queue** in the details of a **Messages have been delayed** alert.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="aca2a-136">참고 항목</span><span class="sxs-lookup"><span data-stu-id="aca2a-136">See also</span></span>
+![보안 & 준수 센터에서 메시지의 알림 세부 정보가 지연 되었습니다.](../../media/mfi-queued-messages-alert-details.png)
 
-<span data-ttu-id="aca2a-137">메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="aca2a-137">For more information about other mail flow insights in the mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
+## <a name="see-also"></a><span data-ttu-id="48811-150">기타 참고 항목</span><span class="sxs-lookup"><span data-stu-id="48811-150">See also</span></span>
+
+<span data-ttu-id="48811-151">메일 흐름 대시보드의 다른 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="48811-151">For information about other insights in the Mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>

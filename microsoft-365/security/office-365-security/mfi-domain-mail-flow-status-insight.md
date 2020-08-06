@@ -1,5 +1,5 @@
 ---
-title: 최상위 도메인 메일 흐름 상태 정보
+title: 메일 흐름 대시보드의 상위 도메인 메일 흐름 상태 이해
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,28 +12,34 @@ localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에 있는 최상위 도메인 메일 흐름 상태에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 22b0f8cefe8baacac682550126de55dcbf880d73
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 최상위 도메인 메일 흐름 상태 정보를 사용 하 여 전자 메일 도메인의 MX 레코드와 관련 된 메일 흐름 문제를 해결 하는 방법을 확인할 수 있습니다.
+ms.openlocfilehash: 6366e3aee0ab50096f1396776397c80fabc8aaf2
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818594"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577753"
 ---
-# <a name="top-domain-mail-flow-status-insight"></a><span data-ttu-id="bbab5-103">최상위 도메인 메일 흐름 상태 정보</span><span class="sxs-lookup"><span data-stu-id="bbab5-103">Top domain mail flow status insight</span></span>
+# <a name="top-domain-mail-flow-status-insight-in-the-security--compliance-center"></a><span data-ttu-id="543c5-103">보안 & 준수 센터의 상위 도메인 메일 흐름 상태 이해</span><span class="sxs-lookup"><span data-stu-id="543c5-103">Top domain mail flow status insight in the Security & Compliance Center</span></span>
 
-<span data-ttu-id="bbab5-104">**최상위 도메인 메일 흐름 상태** 정보를 통해 메일 흐름 측면에서 조직의 도메인에 대 한 현재 상태를 알 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bbab5-104">The **Top domain mail flow status** insight gives you the current status for your organization's domains in terms of mail flow.</span></span> <span data-ttu-id="bbab5-105">이러한 통찰력은 ***메일 흐름에 영향*** 을 주는 (예: 외부 전자 메일을 받을 수 없음), 특히 도메인 만료 또는 잘못 된 MX 레코드가 있는 도메인의 문제를 파악 하 고 문제를 해결 하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bbab5-105">This insight helps you identify and troubleshoot domains that are experiencing ***mail flow impacting*** issues (for example, unable to receive external email), especially domain expirations or domains with incorrect MX records.</span></span>
+<span data-ttu-id="543c5-104">보안 & 준수 센터의 [메일 흐름 대시보드의](mail-flow-insights-v2.md) **최상위 도메인 메일 흐름 상태** 정보는 메일 흐름 측면에서 조직의 도메인에 대 한 현재 상태를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="543c5-104">The **Top domain mail flow status** insight in the [Mail flow dashboard](mail-flow-insights-v2.md) in the Security & Compliance Center gives you the current status for your organization's domains in terms of mail flow.</span></span> <span data-ttu-id="543c5-105">이러한 통찰력은 ***메일 흐름에 영향*** 을 주는 (예: 외부 전자 메일을 받을 수 없음), 특히 도메인 만료 또는 잘못 된 MX 레코드가 있는 도메인의 문제를 파악 하 고 문제를 해결 하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="543c5-105">This insight helps you identify and troubleshoot domains that are experiencing ***mail flow impacting*** issues (for example, unable to receive external email), especially domain expirations or domains with incorrect MX records.</span></span>
 
-![보안 & 준수 센터의 메일 흐름 대시보드에서 가장 중요 한 도메인 흐름 상태를 파악 합니다.](../../media/domain-mail-flow-status-selected.png)
+![보안 & 준수 센터의 메일 흐름 대시보드의 상위 도메인 흐름 상태 위젯](../../media/mfi-top-domain-mail-flow-status-widget.png)
 
-<span data-ttu-id="bbab5-107">**자세한 내용은 자세히 보기** 를 클릭 하면 각 도메인의 상태에 대 한 세부 정보를 보여 주는 플라이 아웃이 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="bbab5-107">When you click **View details** in the insight, a flyout appears that shows you more details for the status of each domain.</span></span>
+<span data-ttu-id="543c5-107">위젯에 있는 **세부 정보 보기** 를 클릭 하면 각 도메인의 상태에 대 한 세부 정보를 보여 주는 **도메인 상태** 플라이 아웃이 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="543c5-107">When you click **View details** in the widget, a **Domain status** flyout appears that shows you more details for the status of each domain:</span></span>
 
-<span data-ttu-id="bbab5-108">도메인에 대 한 녹색 확인 표시는 현재 MX 레코드 (메일 흐름 insights 대시보드를 탐색할 때)가 레코드에 포함 된 값과 일치 하 고, 지난 2 시간 동안 도메인에서 전자 메일을 받은 것을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="bbab5-108">A green check mark for a domain indicates the current MX record (when you browsed to the mail flow insights dashboard) matches the value we have on record, and that the domain has received email during the past two hours.</span></span>
+- <span data-ttu-id="543c5-108">**도메인**</span><span class="sxs-lookup"><span data-stu-id="543c5-108">**Domain**</span></span>
+- <span data-ttu-id="543c5-109">**이전 MX 레코드**</span><span class="sxs-lookup"><span data-stu-id="543c5-109">**Previous MX record**</span></span>
+- <span data-ttu-id="543c5-110">**현재 MX 레코드**</span><span class="sxs-lookup"><span data-stu-id="543c5-110">**Current MX record**</span></span>
+- <span data-ttu-id="543c5-111">**전자 메일 수신 상태**</span><span class="sxs-lookup"><span data-stu-id="543c5-111">**Email receiving status**</span></span>
+- <span data-ttu-id="543c5-112">**도메인 상태**: 녹색 확인 표시는 현재 MX 레코드 (위젯을 클릭 한 시점)가 record에 대해 수행한 값과 일치 하 고, 지난 2 시간 동안 도메인에서 전자 메일을 받았는지 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="543c5-112">**Domain status**: A green check mark indicates the current MX record (at the time you clicked on the widget) matches the value we have on record, and that the domain has received email during the past two hours.</span></span>
 
-<span data-ttu-id="bbab5-109">도메인에 대 한 빨간색 x는 MX 레코드가 변경 되었으며 도메인에서 지난 6 시간 동안 전자 메일을 받지 못했음을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="bbab5-109">A red x for a domain indicates the MX record has been changed, and that the domain has received no email during the past 6 hours.</span></span> <span data-ttu-id="bbab5-110">이는 사용자의 도메인이 만료 되었거나 MX 레코드가 잘못 업데이트 되었음을 나타내는 것일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bbab5-110">This likely indicates that your domain has expired, or that the MX record has been incorrectly updated.</span></span> <span data-ttu-id="bbab5-111">도메인 등록 기관 또는 DNS 호스팅 서비스에 문의 하 여 도메인의 사용 기간이 만료 되었는지 여부 또는 도메인의 MX 레코드가 올바르지 않은 지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="bbab5-111">Check with your domain registrar or DNS hosting service to see if the domain has expired, or if the domain's MX record is incorrect.</span></span>
+  <span data-ttu-id="543c5-113">빨간색 X는 MX 레코드가 변경 되었으며 도메인에서 지난 6 시간 동안 전자 메일을 받지 못했음을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="543c5-113">A red X indicates the MX record has been changed, and that the domain has received no email during the past 6 hours.</span></span> <span data-ttu-id="543c5-114">이는 사용자의 도메인이 만료 되었거나 MX 레코드가 잘못 업데이트 되었음을 나타내는 것일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="543c5-114">This likely indicates that your domain has expired, or that the MX record has been incorrectly updated.</span></span> <span data-ttu-id="543c5-115">도메인 등록 기관 또는 DNS 호스팅 서비스에 문의 하 여 도메인의 사용 기간이 만료 되었는지 여부 또는 도메인의 MX 레코드가 올바르지 않은 지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="543c5-115">Check with your domain registrar or DNS hosting service to see if the domain has expired, or if the domain's MX record is incorrect.</span></span>
 
-![최상위 도메인 흐름 상태 이해의 세부 정보 플라이 아웃](../../media/domain-mail-flow-status-flyout.png)
+<span data-ttu-id="543c5-116">더 많은 도메인에 대 한 동일한 정보를 보려면 **자세히 보기** 를 클릭 하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="543c5-116">You can click **View more** to see the same information for more domains.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="bbab5-113">관련 항목</span><span class="sxs-lookup"><span data-stu-id="bbab5-113">Related topics</span></span>
+![상위 도메인 메일 흐름 상태 이해의 세부 정보 플라이 아웃](../../media/mfi-top-domain-mail-flow-status-view-details.png)
 
-<span data-ttu-id="bbab5-114">메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="bbab5-114">For more information about other mail flow insights in the mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
+## <a name="related-topics"></a><span data-ttu-id="543c5-118">관련 항목</span><span class="sxs-lookup"><span data-stu-id="543c5-118">Related topics</span></span>
+
+<span data-ttu-id="543c5-119">메일 흐름 대시보드의 다른 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="543c5-119">For information about other insights in the Mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
