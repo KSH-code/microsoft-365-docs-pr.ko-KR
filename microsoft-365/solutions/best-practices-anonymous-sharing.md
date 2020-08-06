@@ -2,7 +2,7 @@
 title: 인증되지 않은 공유에 대한 모범 사례
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: 이 문서에서는 인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례를 알아봅니다.
-ms.openlocfilehash: 72da93a457b91ec7a25e88a0ac2aa8e64b6fe385
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: cea60152f06e8fbd242c9641b962bc9a96fdd019
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526937"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560478"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례
 
@@ -46,6 +46,8 @@ ms.locfileid: "46526937"
 4. 상자에 일 수를 입력한 다음 **저장**을 클릭합니다.
 
 *모든 사용자* 링크가 만료되면 파일이나 폴더를 새 *모든 사용자* 링크와 다시 공유할 수 있습니다.
+
+[Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite)를 사용하여 특정 사이트 또는 OneDrive에 대한 *모든 사용자* 링크 만료를 설정할 수 있습니다.
 
 ## <a name="set-link-permissions"></a>링크 사용 권한 설정
 
