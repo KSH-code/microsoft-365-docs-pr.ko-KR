@@ -317,7 +317,7 @@
           href: bulk-create-publish-labels-using-powershell.md
         - name: 이벤트가 발생할 때 보존 시작
           href: event-driven-retention.md
-        - name: SharePoint 문서의 수명 주기 관리
+        - name: 보존 레이블로 문서의 수명 주기 관리
           href: auto-apply-retention-labels-scenario.md
         - name: 데이터 폐기 관리
           href: disposition.md
