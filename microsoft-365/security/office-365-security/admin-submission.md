@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 보안 & 준수 센터에서 전송 포털을 사용 하 여 의심 스러운 전자 메일, 의심 되는 피싱 메일, 스팸 및 기타 해로운 메시지, Url 및 파일을 검색을 위해 Microsoft에 제출 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 18941c1400917291f8924331fd19827e476db914
-ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
+ms.openlocfilehash: 4d0737d881334db9cc4aeda43037ab89d7444618
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2020
-ms.locfileid: "44726856"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577873"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>관리자 제출을 사용하여 의심스러운 스팸, 피싱, URL 및 파일을 Microsoft에 제출
 
@@ -34,19 +34,19 @@ Exchange Online의 사서함이 있는 Microsoft 365 조 직에서는 관리자�
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. **제출** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/reportsubmission> 합니다.
+- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **제출** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/reportsubmission> 합니다.
 
-- 이 항목의 절차를 수행 하려면 먼저 사용 권한을 할당 받아야 합니다.
+- 이 항목의 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다.
 
   - 메시지 및 파일을 Microsoft에 전송 하려면 다음 역할 그룹 중 하나의 구성원 이어야 합니다.
 
-    - [보안 & 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **조직 관리** 또는 **보안 관리자**
-    - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **조직 관리** 또는 **바이러스 관리**
+    - [보안 및 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **조직 관리** 또는 **보안 관리자**
+    - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **조직 관리** 및 **예방 조치 관리**
 
   - 서브 미션 포털에 대 한 읽기 전용 액세스를 위해서는 다음 역할 그룹 중 하나의 구성원 이어야 합니다.
 
-    - 보안 [& 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **보안 독자**
-    - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 입니다.
+    - [보안 및 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **보안 읽기**
+    - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리**
 
 - 사용자가 메시지 및 파일을 Microsoft에 전송 하는 방법에 대 한 자세한 내용은 [Report messages and files In microsoft를](report-junk-email-messages-to-microsoft.md)참조 하십시오.
 
@@ -118,7 +118,7 @@ Exchange Online의 사서함이 있는 Microsoft 365 조 직에서는 관리자�
 
 2. **제출** 페이지가 나타나면 **관리자 제출** 탭이 선택 되어 있는지 확인 합니다.
 
-페이지 맨 위에 있는 시작 날짜와 끝 날짜를 입력할 수 있으며, 기본적으로 상자에 값을 입력 하 고 새로 고침 단추를 클릭 하 여 **제출 ID** 를 기준으로 필터링 할 수 있습니다 ![ ](../../media/scc-quarantine-refresh.png) . Update
+페이지 맨 위에 있는 시작 날짜와 끝 날짜를 입력할 수 있으며, 기본적으로 상자에 값을 입력 하 고 새로 고침 단추를 클릭 하 여 **전송 ID** (모든 전송에 할당 된 GUID 값)를 기준으로 필터링 할 수 있습니다 ![ ](../../media/scc-quarantine-refresh.png) . Update
 
 필터 조건을 변경 하려면 **제출 ID** 단추를 클릭 하 고 다음 값 중 하나를 선택 합니다.
 
@@ -141,7 +141,7 @@ Exchange Online의 사서함이 있는 Microsoft 365 조 직에서는 관리자�
 페이지 아래쪽에 있는 **열 옵션** 단추를 클릭 하 여 보기에서 열을 추가 하거나 제거할 수 있습니다.
 
 - **날짜**
-- **전송 ID**
+- **전송 ID**: 모든 전송에 할당 되는 GUID 값입니다.
 - **제출한 사람**<sup>\*</sup>
 - **제목**<sup>\*</sup>
 - **보낸 사람**

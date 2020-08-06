@@ -18,12 +18,12 @@ description: CFTC 규칙 1.31(c)-(d), FINRA 규칙 4511, SEC 규칙 17a-4의 규
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 769e13951ce15fb698131860fa78f25fa133e327
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: bba51bed4409bfb933b577419f48ab6963d4f7d6
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127305"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577118"
 ---
 # <a name="use-exchange-online-and-the-security--compliance-center-to-comply-with-sec-rule-17a-4"></a>SEC Rule 17a-4를 준수하기 위해 Exchange Online과 보안 및 준수 센터 사용
 
@@ -70,12 +70,3 @@ Exchange Online에서 [보존 정책](retention.md)이 사용자의 사서함에
 
 PowerShell을 사용하여 보존 정책을 잠글 수 있습니다. 자세한 내용은 [보존 잠금을 사용하여 규정 요구 사항 준수](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements)를 참조하세요.
 
-## <a name="known-limitations"></a>알려진 제한
-
-현재 Exchange Online에는 몇 가지 제한 사항이 있습니다.
-
-- 팀 채팅 및 채널 메시지의 경우 스레드 통신을 사용할 수 없습니다.
-- 팀 채팅 및 채널 메시지에 좋아요는 포함되어 있지 않습니다.
-
-> [!NOTE]
-> 이제 Microsoft 365 그룹 사서함에 대해 항목 수준 감사를 사용할 수 있습니다. 자세한 내용은 [사서함 감사 관리](enable-mailbox-auditing.md)를 참조하세요.

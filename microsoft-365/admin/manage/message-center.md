@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
 description: 변경 관리에서 Microsoft 365 메시지 센터 및 해당 역할에 대 한 개요를 볼 수 있습니다.
-ms.openlocfilehash: f4d99bedaab6efb4dfeccf7610e54bb5f8effeb7
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: cec60a7ae5df1af01625f8feef84ff258d798659
+ms.sourcegitcommit: 48f3c002678906189bfba079bbf055d67d08a60f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780088"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46564028"
 ---
 # <a name="message-center"></a>메시지 센터
 
@@ -55,7 +55,7 @@ ms.locfileid: "44780088"
 또한 모바일 장치에서 [Microsoft 365 Admin 앱](https://go.microsoft.com/fwlink/p/?linkid=627216) 을 사용 하 여 메시지 센터를 볼 수 있으며,이는 푸시 알림을 최신 상태로 유지 하는 데 유용한 방법입니다. 
   
   
-### <a name="frequently-asked-questions"></a>질문과 대답
+### <a name="frequently-asked-questions"></a>자주하는 질문
 
 |**질문**|**응답**|
 |:-----|:-----|
@@ -178,3 +178,9 @@ ms.locfileid: "44780088"
 - Intune 서비스 관리자
 - 권한 있는 역할 관리자
 - 보고서 읽기 권한자
+
+## <a name="unsubscribe-from-message-center-emails"></a>메시지 센터 전자 메일 구독 취소
+
+1. 다이제스트 전자 메일은 기본적으로 설정 되며 기본 전자 메일 주소로 전송 됩니다. 주간 다이제스트 수신을 중지 하려면 **내 메시지의 주간 다이제스트 보내기** 설정을 **해제**로 변경 합니다. <br/><br/>주요 업데이트에 대 한 전자 메일 알림은 별도의 컨트롤입니다. 중요 한 업데이트에 대 한 전자 메일 알림을 받지 않으려면 **주요 업데이트가 있을 경우 전자 메일이 전송** 되지 않았는지 확인 **Off**합니다.  <br/><br/>데이터 개인 정보 메시지에 대 한 전자 메일 알림을 받지 않으려면 **데이터 개인 정보 메시지에 대 한 전자 메일이 전송** **되지 않았는지**확인 합니다.  데이터 개인 정보 메시지는 주별 다이제스트에 포함 되지 않습니다.<br/><br/>
+
+2. **저장** 을 선택 하 여 변경 내용을 유지 합니다.<br/>

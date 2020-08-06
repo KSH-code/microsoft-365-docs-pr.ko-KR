@@ -1,5 +1,5 @@
 ---
-title: 보안 및 준수 센터에서 메일 흐름 보고서 보기
+title: 보고서 대시보드에서 메일 흐름 보고서 보기
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,18 +16,20 @@ search.appverid:
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: 조직에 대 한 메일 흐름 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 메일 흐름 보고서는 보안 & 준수 센터에서 사용할 수 있습니다.
+description: 관리자는 보안 & 준수 센터의 보고서 대시보드에서 사용할 수 있는 메일 흐름 보고서에 대해 알아볼 수 있습니다.
 ms.custom: ''
-ms.openlocfilehash: e891d9373b169dc01cfd89f114e31b23e1bd8480
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: 69b2c3383862860b4616d95c2a6a1bb3a525d842
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434182"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46578021"
 ---
-# <a name="view-mail-flow-reports-in-the-security--compliance-center"></a>보안 및 준수 센터에서 메일 흐름 보고서 보기
+# <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>보안 & 준수 센터의 보고서 대시보드에서 메일 흐름 보고서 보기
 
-보안 & 준수 센터에서 사용할 수 있는 [메일 흐름 정보](mail-flow-insights-v2.md) 이외에, Microsoft 365 조직을 모니터링 하는 데 도움이 되는 다양 한 메일 흐름 보고서도 사용할 수 있습니다. [필요한 권한이](#what-permissions-are-needed-to-view-these-reports)있는 경우 <https://office.protection.com> **보고서** 대시보드로 이동 하 여 보안 & 준수 센터에서 이러한 보고서를 볼 수 있습니다 \> **Dashboard**. 보고서 대시보드로 직접 이동 하려면를 엽니다 <https://office.protection.office.com/insightdashboard> .
+보안 & 준수 센터의 [메일 흐름 대시보드에서](mail-flow-insights-v2.md) 사용할 수 있는 메일 흐름 보고서 외에도, Microsoft 365 조직을 모니터링 하는 데 도움이 되도록 보고서 대시보드에서 다양 한 추가 메일 흐름 보고서를 사용할 수 있습니다.
+
+[필요한 권한이](#what-permissions-are-needed-to-view-these-reports)있는 경우 **보고서** 대시보드로 이동 하 여 [보안 & 준수 센터](https://office.protection.com) 에서 이러한 보고서를 볼 수 있습니다 \> **Dashboard**. 보고서 대시보드로 직접 이동 하려면를 엽니다 <https://office.protection.office.com/insightdashboard> .
 
 ![보안 & 준수 센터의 보고서 대시보드](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
@@ -237,7 +239,7 @@ ms.locfileid: "45434182"
 데이터 테이블에는 다음과 같은 정보가 포함 됩니다.
 
 - **방향**
-- **Type(종류)**
+- **Type**
 - **24시간**
 - **3 일**
 - **7일**
@@ -327,7 +329,7 @@ ms.locfileid: "45434182"
 **아래로 나누기: 방향** 보기 또는 **아래로 나누기 기준: 방향** 보기로 **자세히 표 보기** 를 클릭 하면 다음과 같은 정보가 표시 됩니다.
 
 - **날짜 (UTC)**
-- **Type(종류)**
+- **Type**
 - **방향**
 - **메시지 수**
 
@@ -404,26 +406,22 @@ ms.locfileid: "45434182"
 
 - 보안 & 준수 센터에서 다음 역할 그룹 중 하나의 구성원 이어야 합니다.
 
-  -조직 관리
-
-  -보안 관리자 ( [Azure Active Directory 관리 센터](https://aad.portal.azure.com) 에서이 작업을 수행할 수도 있음)-보안 독자
+  -조직 관리-보안 관리자 ( [Azure Active Directory 관리 센터](https://aad.portal.azure.com) 에서이 작업을 수행할 수도 있음)-보안 독자
 
   자세한 내용은 [보안 및 준수 센터의 사용 권한](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)을 참조하세요.
 
 - Exchange Online에서 다음 역할 그룹 중 하나의 구성원 이어야 합니다.
 
-  -조직 관리
-
-  -보기 전용 조직 관리
-
-  -보기 전용 받는 사람
-
-  -준수 관리
+  -조직 관리-보기 전용 조직 관리-보기 전용 받는 사람-준수 관리
 
 자세한 내용은 exchange online의 [사용 권한](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo) 및 [exchange online에서 역할 그룹 관리](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)를 참조 하세요.
 
 ## <a name="related-topics"></a>관련 항목
 
-[보안 및 준수 센터의 똑똑한 보고서 및 분석](reports-and-insights-in-security-and-compliance.md)
+[보안 및 준수 센터의 스마트 보고서 및 인사이트](reports-and-insights-in-security-and-compliance.md)
+
+[보안 및 준수 센터의 메일 흐름 파악](mail-flow-insights-v2.md)
 
 [보안 및 준수 센터의 전자 메일 보안 보고서 보기](view-email-security-reports.md)
+
+[Office 365 Advanced Threat Protection에 대 한 보고서 보기](view-reports-for-atp.md)

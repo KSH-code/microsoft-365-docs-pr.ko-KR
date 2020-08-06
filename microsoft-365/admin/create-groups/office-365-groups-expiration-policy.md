@@ -4,7 +4,7 @@ ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 그룹 만료 정책에 대해 자세히 알아봅니다.
-ms.openlocfilehash: 84b7048e414fe37c89a59dd9f282a4b35e0f26c8
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: bda4bfbbef4e0d145c55b2a49b4d1203c6a7b1f0
+ms.sourcegitcommit: 4f82fa7270e7ec6c6dd80329f28612e1f3289b22
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560366"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572142"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Microsoft 365 그룹 만료 정책
 
@@ -68,17 +68,25 @@ Microsoft 365 그룹의 사용이 증가 함에 의해 관리자와 사용자는
 
 ![Azure Active Directory의 그룹 만료 설정 스크린샷](../../media/azure-groups-expiration-settings.png)
 
-## <a name="how-expiry-works-with-the-retention-policy"></a>보존 정책에서 만료 작동 방식
+## <a name="how-expiration-and-renewal-work"></a>만료 및 갱신 작동 방식
 
-그룹에 대 한 보안 및 준수 센터의 설치 보존 정책을 사용 하는 경우 만료 정책이 보존 정책과 함께 원활 하 게 작동 합니다. 그룹이 만료 되 면 메일 상자의 그룹 대화와 그룹 사이트의 파일은 보존 정책에 정의 된 특정 기간 (일) 동안 보존 컨테이너에 보존 됩니다. 그러나 만료 후에는 사용자에 게 그룹이 나 해당 콘텐츠가 표시 되지 않습니다.
+만료 정책은 다음과 같이 작동 합니다. 
 
-## <a name="how-and-when-a-group-owner-learns-if-their-groups-are-going-to-expire"></a>그룹이 만료 되는 경우 그룹 소유자가 학습 하는 방식 및 시기
+- 만료 되기 전까지 시스템은 그룹이 만들어지거나 현재 갱신 주기가 시작 된 이후 그룹 활동이 발생 한 것을 확인 합니다.
 
-그룹 소유자는 전자 메일을 통해서만 알림을 받습니다. Planner, SharePoint 또는 다른 앱을 통해 그룹을 만든 경우에는 항상 전자 메일을 통해 만료 알림이 제공 됩니다. 팀을 통해 그룹을 만든 경우 그룹 소유자는 활동 섹션을 통해 갱신 하 라는 알림을 받게 됩니다. 그룹 소유자에 게 유효한 전자 메일 주소가 없는 경우에는 그룹에서 만료를 사용 하지 않는 것이 좋습니다.
+- 이전 활동이 감지 되 면 해당 시간에 만료 정책에 지정 된 일 수 만큼 만료 날짜가 진행 됩니다.
 
-30 일 동안 그룹이 만료 되는 경우 그룹 소유자 (또는 소유자가 없는 그룹에 대해 지정한 전자 메일 주소)는 그룹을 쉽게 갱신할 수 있도록 전자 메일을 받습니다. 갱신 하지 않으면 만료 되기 15 일 전에 다른 갱신 전자 메일이 수신 됩니다. 아직 갱신 하지 않은 경우에는 만료 되기 전에 하루 동안 전자 메일 알림을 한 번 더 받게 됩니다.
+- 이전 활동이 검색 되지 않으면 시스템은 만료 날짜까지 활동을 계속 조사 합니다. 활동이 감지 되 면 해당 시간에 지정 된 양만큼 만료 날짜가 전환 됩니다.
+
+30 일 동안 그룹이 만료 되는 경우 그룹 소유자 (또는 소유자가 없는 그룹에 대해 지정한 전자 메일 주소)는 그룹을 쉽게 갱신할 수 있도록 전자 메일을 받습니다. 갱신 하지 않으면 만료 되기 15 일 전에 다른 갱신 전자 메일이 수신 됩니다. 아직 갱신 하지 않은 경우에는 만료 되기 전에 하루 동안 전자 메일 알림을 한 번 더 받게 됩니다. 그룹이 갱신 되 면 추가 전자 메일 미리 알림이 새 만료 날짜 로부터 30 일 전에 전송 되지 않습니다.
+
+전자 메일을 통해 그룹 소유자에 게 알림을 보냅니다. Planner, SharePoint 또는 다른 앱을 통해 그룹을 만든 경우에는 항상 전자 메일을 통해 만료 알림이 제공 됩니다. 팀을 통해 그룹을 만든 경우 그룹 소유자는 활동 섹션을 통해 갱신 하 라는 알림을 받게 됩니다. 그룹 소유자에 게 유효한 전자 메일 주소가 없는 경우에는 그룹에서 만료를 사용 하지 않는 것이 좋습니다.
 
 어떤 이유로 든 소유자 또는 관리자가 만료 되기 전에 그룹을 갱신 하지 않고 그룹이 자동으로 갱신 되도록 요구 사항을 충족 하지 않아 자동 갱신이 발생 하지 않는 경우에도 관리자는 만료 후 최대 30 일 동안 그룹을 복원할 수 있습니다. 자세한 내용은 [삭제 된 Microsoft 365 그룹 복원을](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)참조 하십시오.
+
+## <a name="how-expiry-works-with-retention-policies"></a>만료와 보존 정책이 작동 하는 방식
+
+그룹에 대 한 보안 및 준수 센터의 설치 보존 정책을 사용 하는 경우 만료 정책이 보존 정책과 함께 원활 하 게 작동 합니다. 그룹이 만료 되 면 메일 상자의 그룹 대화와 그룹 사이트의 파일은 보존 정책에 정의 된 특정 기간 (일) 동안 보존 컨테이너에 보존 됩니다. 그러나 만료 후에는 사용자에 게 그룹이 나 해당 콘텐츠가 표시 되지 않습니다.
 
 ## <a name="related-articles"></a>관련 문서
 

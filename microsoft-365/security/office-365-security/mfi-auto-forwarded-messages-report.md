@@ -1,5 +1,5 @@
 ---
-title: 자동 전달 메시지 보고서
+title: 자동 전달 메시지 이해
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -11,31 +11,47 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에 있는 자동 전달 메시지 보고서에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: ceeff0c6033cb2610c09a80ddbddcda90ff63b05
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 05e3f62610c32bc95caf579ef4dd46bf1ed90275
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635307"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577822"
 ---
-# <a name="auto-forwarded-messages-report"></a>자동 전달 메시지 보고서
+# <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>보안 & 준수 센터에 대 한 자동 전달 메시지 이해
 
-메일 흐름 대시보드의 **자동 전달 메시지** 보고서에는 조직에서 외부 도메인의 받는 사람에 게 자동으로 전달 되는 메시지에 대 한 정보가 표시 됩니다.
+보안 & 준수 센터의 [메일 흐름 대시보드의](mail-flow-insights-v2.md) **자동 전달 메시지** 이해 조직에서 외부 도메인의 받는 사람에 게 자동으로 전달 되는 메시지에 대 한 정보를 표시 합니다.
 
-![보안 & 준수 센터에 대 한 자동 전달 메시지 이해](../../media/8bc2600b-71c3-4b37-b4d0-9435fe0cfc8d.png)
-
-![보안 & 준수 센터의 메일 흐름 대시보드의 자동 전달 메시지 보고서](../../media/8bc2600b-71c3-4b37-b4d0-9435fe0cfc8d.png)
+![보안 & 준수 센터에서 메시지 위젯 자동 전달](../../media/mfi-auto-forwarded-messages.png)
 
 ## <a name="auto-forwarded-messages-details"></a>자동 전달 메시지 세부 정보
 
-위젯의 메시지 수를 클릭 하면 자동 전달 메시지 상태를 보여주는 플라이 아웃 창이 표시 됩니다. **전달 보고서** 링크를 클릭 하 여 세부 정보를 볼 수 있습니다.
+위젯의 메시지 수를 클릭 하면 자동 전달 메시지에 대 한 자세한 내용을 보여주는 플라이 아웃 창이 표시 됩니다.
 
-![보안 & 준수 센터의 자동 전달 메시지 보고서에 대 한 세부 정보 플라이 아웃](../../media/87d0fb1e-d2ef-4901-b17c-ec32d23a539e.png)
+- **전달 메서드를 사용 하 여 메시지 자동 전달**:
+
+  - **메일 흐름 규칙에 따라**
+  - **받은 편지함 규칙에 따라**
+  - **SMTP 전달**
+  - 자세한 내용은 [전달 보고서](view-mail-flow-reports.md#forwarding-report) 에 대 한 링크를 참조 하십시오.
+
+- **도메인 및 사용자가 자동으로 메시지를 전달 하는**경우:
+
+  - **다음에 전달 된 상위 5 개 도메인**
+  - **새 도메인 (지난 주)**
+  - **상위 5 개 사용자 전달**
+  - **새 사용자 (지난 주)**
+  - 자세한 내용은 [전달 수정 보고서](mfi-new-users-forwarding-email.md#forwarding-modifications-report) 에 대 한 링크를 참조 하세요.
+
+![보안 & 준수 센터의 자동 전달 메시지 보고서에 대 한 세부 정보 플라이 아웃](../../media/mfi-auto-forwarded-messages-details.png)
 
 ## <a name="insights"></a>인사이트
 
-보고서 데이터를 기반으로 하 여 **새 전달 사용자** 및 **새 전달 도메인**이라는 두 개의 insights가 생성 됩니다. 각 통찰력은 새로운 **전달 보고서** 에 대 한 링크를 포함 하는 새 전달자 또는 도메인의 수에 대 한 요약을 제공 하 여 두 가지 유형의 데이터에 대 한 세부 정보를 제공 합니다. **새 전달 보고서** 는 새 활동의 시간 표시 막대 보기를 표시 하 고 세부 정보 테이블에는 전달을 시작한 사용자 및 해당 도메인을 식별 합니다.
+보고서 데이터를 기반으로 두 개의 정보가 생성 됩니다.
 
-## <a name="see-also"></a>참고 항목
+- [전자 메일을 전달 하는 새 사용자](mfi-new-users-forwarding-email.md)
+- [전달 되는 새 도메인 전자 메일](mfi-new-domains-being-forwarded-email.md)
 
-메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.
+## <a name="see-also"></a>기타 참고 항목
+
+메일 흐름 대시보드의 다른 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.

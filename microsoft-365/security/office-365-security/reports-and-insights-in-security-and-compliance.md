@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 보안 & 준수 센터에서 사용할 수 있는 스마트 보고서 및 정보 및이를 사용 하 여 데이터를 보고 탐색 하 고 바로 작업을 수행 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 407fee494b0fbb93b76e669c150e20136064454b
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: 1f38ed081ce73af737b58a38692ac2fa0519972d
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434314"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577189"
 ---
 # <a name="smart-reports-and-insights-in-the-security--compliance-center"></a>보안 및 준수 센터의 똑똑한 보고서 및 분석
 
@@ -41,7 +41,7 @@ ms.locfileid: "45434314"
 
 보안 & 준수 센터에서 다양 한 보고서를 사용할 수 있습니다. ( **보고서** \> 로 이동 **대시보드** -모든 보기를 가져옵니다.) 다음 표에는 자세한 내용을 확인할 수 있는 링크가 포함 된 사용 가능한 보고서가 나와 있습니다.
   
-|**정보 유형**|**이동 방법**|**자세한 정보를 얻을 수 있는 위치**|
+|정보 유형|이동 방법|자세한 정보를 얻을 수 있는 위치|
 |---|---|---|
 |**보안 & 준수 센터 보고서** (모두)  <br/> 주요 정보 보호법 및 권장 사항 및 데이터 손실 방지 보고서, 레이블, 전자 메일 보안 보고서, Advanced Threat Protection 보고서 등을 포함 하 여 보안 & 준수 보고서에 대 한 링크|보안 & 준수 센터에서 **보고서** \> **대시보드로** 이동 합니다.|[Microsoft 365 보안 센터에서 보고서 모니터링 및 보기](../mtp/monitoring-and-reporting.md)|
 |**데이터 손실 방지** <br/> 데이터 손실 방지 정책 일치, 긍정 오류 및 재정의,정책을 생성하거나 편집하는 링크|보안 & 준수 센터에서 **데이터 손실 방지** \> **정책** 으로 이동 합니다.|[데이터 손실 방지에 대한 보고서 보기](../../compliance/view-the-dlp-reports.md)|

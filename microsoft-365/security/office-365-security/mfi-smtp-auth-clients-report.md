@@ -1,5 +1,5 @@
 ---
-title: SMTP 인증 클라이언트 보고서
+title: SMTP 인증 클라이언트의 메일 흐름 대시보드 이해 및 보고
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,46 +12,79 @@ localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 SMTP 인증 클라이언트 보고서에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 90d008bf775c692431fb5b832652ceb97f9fd760
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 SMTP 인증 통찰력 및 보고서를 사용 하 여 인증 된 SMTP (SMTP 인증)를 사용 하는 조직의 전자 메일 보낸 사람을 모니터링 하 여 전자 메일 메시지를 보내는 방법을 확인할 수 있습니다.
+ms.openlocfilehash: afdcf01260dd6dfcaf6b53d107e5addd007b1fb3
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818822"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577238"
 ---
-# <a name="smtp-auth-clients-report"></a>SMTP 인증 클라이언트 보고서
+# <a name="smtp-auth-clients-insight-and-report-in-the-security--compliance-center"></a>SMTP 인증 클라이언트에서 보안 & 준수 센터의 통찰력 및 보고
 
-**Smtp 인증 클라이언트** 보고서는 조직의 사용자 또는 시스템 계정으로 smtp 인증 클라이언트 전송 프로토콜을 사용 하는 것을 강조 합니다. 끝점 smtp.office365.com를 사용 하는이 레거시 프로토콜은 기본 인증만 제공 하며 손상 된 계정에서 전자 메일을 보내기 위해 사용 하는 것이 취약 합니다.  이 보고서를 사용 하면 비정상적인 활동을 확인할 수 있습니다. 또한 SMTP 인증을 사용 하는 클라이언트나 장치에 대 한 TLS 사용 현황 데이터를 보여줍니다.
+[메일 흐름 대시보드의](mail-flow-insights-v2.md) **smtp 인증 클라이언트** 와 관련 [smtp 인증 클라이언트 보고서](#smtp-auth-clients-report) 에는 조직의 사용자 또는 시스템 계정에의 한 smtp 인증 클라이언트 전송 프로토콜 사용이 강조 표시 됩니다. 끝점 smtp.office365.com를 사용 하는이 레거시 프로토콜은 기본 인증만 제공 하며 손상 된 계정에서 전자 메일을 보내기 위해 사용 하는 것이 취약 합니다. 통찰력 및 보고서를 사용 하면 SMTP 인증 전자 메일 전송에 대 한 비정상적인 활동을 확인할 수 있습니다. 또한 SMTP 인증을 사용 하는 클라이언트나 장치에 대 한 TLS 사용 현황 데이터를 보여줍니다.
 
-메일 흐름 대시보드에 표시 되는 위젯은 지난 7 일 이내에 SMTP 인증 프로토콜을 사용한 사용자 또는 서비스 계정 수를 나타냅니다.
+위젯은 지난 7 일 이내에 SMTP 인증 프로토콜을 사용한 사용자 또는 서비스 계정 수를 나타냅니다.
 
-![보안 & 준수 센터의 메일 흐름 대시보드에서 SMTP 인증 클라이언트가 보고 됩니다.](../../media/smtp-auth-clients-report-selected.png)
+![보안 & 준수 센터의 메일 흐름 대시보드에 있는 SMTP 인증 클라이언트 위젯](../../media/mfi-smtp-auth-clients-report-widget.png)
 
-위젯을 클릭 하면 지난 주에 대 한 TLS 사용 및 볼륨의 집계 된 보기를 제공 하는 플라이 아웃이 열립니다.
+위젯의 메시지 수를 클릭 하면 **SMTP 인증 클라이언트** 플라이 아웃이 나타납니다. 플라이 아웃은 지난 주에 대 한 TLS 사용 및 볼륨의 집계 된 보기를 제공 합니다.
 
-![SMTP 인증 클라이언트 보고서의 플라이 아웃](../../media/smtp-auth-clients-flyout.png)
+![메일 흐름 대시보드에서 SMTP 인증 클라이언트 위젯을 클릭 한 후의 세부 정보 플라이 아웃](../../media/mfi-smtp-auth-clients-report-details.png)
 
-**SMTP 인증 클라이언트 보고서** 링크를 클릭 하면 두 개의 기본 데이터 피벗 및 두 개의 데이터 보기가 표시 됩니다. 데이터 피벗은 **보내는 볼륨과** **TLS 사용**입니다. 데이터 보기는 차트 및 세부 정보 테이블입니다.
+**Smtp 인증 클라이언트 보고서** 링크를 클릭 하 여 다음 섹션에 설명 된 대로 smtp 인증 클라이언트 보고서로 이동할 수 있습니다.
 
-**보내는 볼륨** 보기에는 지정 된 시간 범위 동안 SMTP 인증을 사용 하 여 보낸 메시지 수가 표시 됩니다. **필터**를 클릭 하 여 범위를 조정할 수 있습니다. 차트가 보낸 사람 도메인으로 구성 됩니다. 드롭다운 **에 대 한 데이터 표시** 에서 도메인을 선택 하 여 각 도메인에 대해 개별 데이터를 볼 수 있습니다.
+## <a name="smtp-auth-clients-report"></a>SMTP 인증 클라이언트 보고서
 
-![SMTP 인증 클라이언트 보고서의 보내는 볼륨](../../media/smtp-auth-clients-report-sending-volume.png)
+### <a name="report-view-for-the-smtp-auth-clients-report"></a>SMTP 인증 클라이언트 보고서에 대 한 보고서 보기
 
-**세부 정보 표 보기**를 클릭 하 여 보낸 사람 및 해당 메시지 수에 대 한 자세한 정보를 볼 수 있습니다. 차트로 돌아가려면 **보고서 보기**를 클릭 합니다.
+기본적으로 보고서에는 최근 7 일 동안의 데이터가 표시 되지만 최근 90 일 동안 데이터를 사용할 수 있습니다.
 
-![SMTP 인증 클라이언트 보고서의 전송 볼륨에 대 한 정보 테이블](../../media/smtp-auth-clients-report-details-sending-volume.png)
+Overview (개요) 섹션에는 다음 차트가 포함 됩니다.
 
-**Tls 사용** 피벗은 Office 365에서 tls 1.0 및 tls 1.1의 출시로 인해 중요 한 역할을 합니다. 대부분의 레거시 장치 및 응용 프로그램은 SMTP 인증에서 TLS 1.0을 사용할 수 있는 경우에만 전자 메일을 보낼 수 있습니다. 이 피벗은 이전 버전의 TLS를 사용 하는 사용자 및 시스템 계정을 식별 하 고이에 대 한 작업을 수행할 수 있도록 합니다.
+- **데이터 보기 기준: 보내는 볼륨**: 기본적으로 차트에는 모든 도메인에서 전송 된 SMTP 인증 클라이언트 메시지의 수가 표시 됩니다 (기본적으로**모든 보낸 사람 도메인** 을 선택 합니다. 드롭다운 목록에서 **데이터 표시** 를 클릭 하 고 보낸 사람 도메인을 선택 하 여 결과를 특정 보낸 사람 도메인으로 필터링 할 수 있습니다. 특정 데이터 요소 (일)를 가리키면 메시지 수가 표시 됩니다.
 
-![SMTP 인증 클라이언트 보고서의 TLS 사용](../../media/smtp-auth-clients-report-tls-usage.png)
+  ![보안 & 준수 센터의 SMTP 인증 클라이언트 보고서에서 보내는 볼륨 보기](../../media/mfi-smtp-auth-clients-report-sending-volume-view.png)
 
-보낸 사람에 대 한 자세한 정보, SMTP 인증을 사용 하는 TLS 버전, 그리고 **정보 테이블 보기**를 클릭 하 여 해당 메시지 개수를 볼 수 있습니다. 차트로 돌아가려면 **보고서 보기**를 클릭 합니다.
+- **데이터 보기 기준: TLS 사용**: 차트에는 선택한 기간 동안 모든 SMTP 인증 클라이언트 메시지의 TLS 사용 백분율이 표시 됩니다. 이 차트에서는 이전 버전의 TLS를 계속 사용 하는 사용자 및 시스템 계정을 식별 하 고 작업을 수행할 수 있습니다.
 
-보고서 요청을 클릭 하 여 자세한 보고서 버전을 다운로드할 수도 있습니다.
+  ![보안 & 준수 센터의 SMTP 인증 클라이언트 보고서의 TLS 사용 보기](../../media/mfi-smtp-auth-clients-report-tls-usage-view.png)
 
-![SMTP 인증 클라이언트 보고서의 TLS 사용에 대 한 정보 테이블](../../media/smtp-auth-clients-report-details-tls-usage.png)
+보고서 보기에서 **필터** 를 클릭 하면 **시작 날짜** 및 **종료 날짜**와 함께 날짜 범위를 지정할 수 있습니다.
+
+자세한 보고서 버전을 전자 메일 메시지로 받으려면 **요청 보고서** 를 클릭 합니다. 보고서를 받을 날짜 범위 및 받는 사람을 지정할 수 있습니다.
+
+### <a name="details-table-view-for-the-smtp-auth-clients-report"></a>SMTP 인증 클라이언트 보고서에 대 한 세부 정보 테이블 보기
+
+**세부 정보 표 보기**를 클릭 하면 표시 되는 정보는 보고 있는 차트에 따라 달라 집니다.
+
+- **데이터 보기 기준: 보내는 볼륨**: 다음 정보가 테이블에 표시 됩니다.
+
+  - **보낸 사람 주소**
+  - **메시지 수**
+
+  행을 선택 하면 같은 세부 정보가 플라이 아웃에 표시 됩니다.
+
+- **데이터 보기 기준: TLS 사용**: 테이블에 다음 정보가 표시 됩니다.
+
+  - **보낸 사람 주소**
+  - **TLS 1.0%**<sup>\*</sup>
+  - **TLS 1.1%**<sup>\*</sup>
+  - **TLS 1.2%**<sup>\*</sup>
+  - **메시지 수**
+
+  <sup>\*</sup>이 열에는 보낸 사람의 메시지 비율과 수와 개수가 모두 표시 됩니다.
+
+세부 정보 표 보기에서 **필터** 를 클릭 하면 **시작 날짜** 및 **종료 날짜**와 함께 날짜 범위를 지정할 수 있습니다.
+
+행을 선택 하는 경우 플라이 아웃에 다음과 유사한 세부 정보가 표시 됩니다.
+
+![SMTP 인증 클라이언트 보고서의 TLS 사용 보기 세부 정보 테이블에서 정보 플라이 아웃](../../media/mfi-smtp-auth-clients-report-tls-usage-view-view-details-table-details.png)
+
+자세한 보고서 버전을 전자 메일 메시지로 받으려면 **요청 보고서** 를 클릭 합니다. 보고서를 받을 날짜 범위 및 받는 사람을 지정할 수 있습니다.
+
+보고서 보기로 돌아가려면 **보고서 보기**를 클릭 합니다.
 
 ## <a name="related-topics"></a>관련 항목
 
-메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.
+메일 흐름 대시보드의 다른 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.
