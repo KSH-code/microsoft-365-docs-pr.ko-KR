@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 'Microsoft 365 관리 센터에서 조직에 대한 암호 만료 정책을 설정하는 방법을 알아봅니다. '
-ms.openlocfilehash: a4d5f5240a6d4cca686b4809d05970b5e18b897f
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: eec6231d2c6b5d51b25f42c401e367743fdb19ea
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399581"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560874"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>조직의 암호 만료 정책 설정
 
@@ -75,13 +75,17 @@ ms.locfileid: "44399581"
     
 ## <a name="prevent-last-password-from-being-used-again"></a>마지막 암호가 다시 사용되지 않도록 방지
 
-사용자가 이전 암호를 다시 사용하지 못하도록 하면 Azure AD에서도 이전 암호를 다시 사용할 수 없습니다. [암호 기록 적용](https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/enforce-password-history)을 참조하세요.
-
-또한 직원이 모바일 장치를 사용하여 Microsoft 365에 액세스하는 경우 해당 장치를 초기화하여 암호가 더 이상 저장 및 재사용되지 않도록 할 수 있습니다. 자세한 내용은 [이전 직원의 모바일 장치 초기화 및 차단](https://docs.microsoft.com/office365/admin/add-users/remove-former-employee?view=o365-worldwide#wipe-and-block-a-former-employees-mobile-device)을 참조하세요.
-
+사용자가 기존 암호를 재활용하지 못하도록 하려면 Azure AD에 암호 기록을 적용하여 이 작업을 수행할 수 있습니다. [사용자 지정 암호 정책 만들기](https://docs.microsoft.com/azure/active-directory-domain-services/password-policy#create-a-custom-password-policy)를 참조하세요.
 
 ## <a name="synchronize-user-passwords-hashes-from-an-on-premises-active-directory-to-azure-ad-microsoft-365"></a>온-프레미스 Active Directory Domain Services의 사용자 암호 해시를 Azure AD로 동기화(Microsoft 365)
 
 이 문서는 클라우드 전용 사용자 (Azure AD)에 대한 만료 정책을 설정하기 위한 것입니다. 암호 해시 동기화, 통과 인증 또는 ADFS와 같은 온-프레미스 페더레이션을 사용하는 하이브리드 ID 사용자에게는 적용되지 않습니다.
   
 온-프레미스 AD에서 Azure AD로 사용자 암호 해시를 동기화하는 방법을 알아보려면 [Azure AD Connect 동기화를 사용하여 암호 해시 동기화 구현](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization)을 참조하세요.
+
+
+## <a name="update-password-policy"></a>암호 정책 업데이트
+
+MsolPasswordPolicy cmdlet은 지정된 도메인 또는 테넌트의 암호 정책을 업데이트합니다. 두 가지 설정이 필요합니다. 첫 번째는 암호 변경 전까지 유효 기간을 표시하고 두 번째는 사용자가 만료 예정에 대한 미리 알림을 처음 받는 암호 만료일 전 일 수를 표시하는 것입니다.
+
+특정 도메인 또는 테넌트에 대한 암호 정책을 업데이트하는 방법에 대한 자세한 내용은 [Set-MsolPasswordPolicy](https://docs.microsoft.com/powershell/module/msonline/set-msolpasswordpolicy?view=azureadps-1.0)를 참조하세요.

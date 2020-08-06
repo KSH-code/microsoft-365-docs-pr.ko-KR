@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: '모든 Microsoft Information Protection 솔루션에 대한 요구 사항: 조직의 문서와 전자 메일을 분류하고 보호하기 위해 민감도 레이블을 생성, 구성 및 게시합니다.'
-ms.openlocfilehash: 61f6a27172e97cdc3f7890b813a9e2f67a8d3d9a
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 77d0f99a3e35a62b001395d7491f45d84e95cbd3
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45200030"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560513"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책 생성 및 구성
 
@@ -89,9 +89,15 @@ ms.locfileid: "45200030"
 
 추가 레이블 설정은 [보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps)에서 [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label?view=exchange-ps) cmdlet으로 사용할 수 있습니다.
 
-사용자가 로컬 언어로 레이블 이름과 도구 설명을 확인하기 위한 다국적 배포에는 *LocaleSettings* 매개 변수를 사용합니다. 예제 구성에 대한 자세한 내용은 다음 섹션을 참조하세요. 
+예시:
 
-이 cmdlet을 사용하여 Azure Information Protection 통합 레이블 클라이언트에 대한 [고급 설정](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)을 지정할 수도 있습니다. 이 고급 설정에는 레이블 색상 설정이 포함되며, 레이블이 적용된 경우에는 사용자 지정 속성 적용이 포함됩니다. 전체 목록을 확인하려면 [레이블 정책에 대해 사용 가능한 고급 설정](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-label-policies)을 참조하세요. 
+- 사용자가 로컬 언어로 레이블 이름과 도구 설명을 확인하기 위한 다국적 배포에는 *LocaleSettings* 매개 변수를 사용합니다. [다음 섹션](#example-configuration-to-configure-a-sensitivity-label-for-different-languages)에는 프랑스어, 이탈리아어, 독일어에 대한 레이블 이름 및 도구 설명 텍스트를 지정하는 예제 구성이 있습니다.
+
+- *ApplyContentMarkingFooterFontName* 매개 변수를 사용하여 지정된 바닥글의 글꼴을 선택합니다. 맑은 고딕은 머리글, 바닥글 및 워터마크 텍스트의 기본 글꼴입니다. 레이블을 표시하는 서비스나 장치에서 대체 글꼴 이름을 사용할 수 없는 경우, 글꼴이 맑은 고딕으로 돌아갑니다.
+
+- *ApplyContentMarkingHeaderFontColor* 매개 변수를 사용하여 빨간색, 녹색 및 파란색(RGB) 구성 요소에 대한 16진수 코드를 사용하여 지정된 머리글에 대한 사용자 지정 색 선택을 지정합니다. 예를 들어, #40e0d0은 옥색의 RGB 16진수 값입니다. 그림을 편집하는 여러 응용 프로그램에서 이러한 코드를 찾을 수 있습니다. 예를 들어, Microsoft 그림판을 사용하면 팔레트에서 사용자 지정 색을 선택할 수 있고 RGB 값이 자동으로 표시되므로 이를 복사할 수 있습니다.
+
+Azure Information Protection 통합 레이블 클라이언트의 경우, 레이블 색 설정과 레이블이 적용된 경우 사용자 지정 속성 적용을 포함하는 [고급 설정](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)을 지정할 수 있습니다. 전체 목록을 보려면 이 클라이언트의 관리자 가이드에서 [레이블의 사용 가능한 고급 설정](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-labels)을 참조하세요.
 
 #### <a name="example-configuration-to-configure-a-sensitivity-label-for-different-languages"></a>다양한 언어로 민감도 레이블을 구성하는 예제 구성입니다.
 
@@ -172,11 +178,22 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>보안 및 준수 센터 PowerShell를 이용한 추가 레이블 정책 설정
 
-추가 레이블 정책 설정은 [보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps)에서 [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label?view=exchange-ps) cmdlet으로 사용할 수 있습니다.
+추가 레이블 정책 설정은 [보안 및 규정 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps)에서 [Set-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-labelpolicy?view=exchange-ps) cmdlet으로 사용할 수 있습니다.
 
-이 cmdlet을 사용하여 Azure Information Protection 통합 레이블 클라이언트에 대한 [고급 설정](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)을 지정할 수 있습니다. 이 고급 설정에는 Outlook에 다른 기본 레이블 설정이 포함되어 있으며, Outlook에서 보내는 전자 메일에 대해 경고, 정렬 또는 차단하는 팝업 메시지를 구현합니다. 전체 목록을 확인하려면 [레이블에 대해 사용 가능한 고급 설정](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-labels)을 참조하세요. 
+Azure Information Protection 통합 레이블 지정 클라이언트의 경우에만, Outlook에 대해 다양한 기본 레이블 설정이 포함된 [고급 설정](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)을 지정하고, Outlook에서 보내는 전자 메일에 대해 경고, 정렬 또는 차단하는 팝업 메시지를 구현할 수 있습니다. 전체 목록을 보려면 이 클라이언트의 관리자 가이드에서 [레이블 정책에 사용 가능한 고급 설정](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-label-policies)을 참조하세요.
 
-이 cmdlet을 사용하여 레이블 정책에서 레이블을 추가하거나 제거할 수도 있습니다.
+## <a name="use-powershell-for-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책에 PowerShell 사용
+
+이제 [보안 및 규정 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps)에서 레이블 지정 관리 센터에 표시되는 모든 설정을 만들고 구성할 수 있습니다. 레이블 지정 관리 센터에서 사용할 수 없는 설정에 대해 PowerShell을 사용하는 것 외에, 이제 민감도 레이블 및 민감도 레이블 정책의 만들기 및 유지 보수를 전체적으로 스크립팅할 수 있습니다.  
+
+지원되는 매개 변수와 값에 대한 자세한 내용은 다음 문서를 참조하세요.
+
+- [New-Label](https://docs.microsoft.com/powershell/module/exchange/new-label?view=exchange-ps)
+- [New-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/new-labelpolicy?view=exchange-ps)
+- [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label?view=exchange-ps)
+- [Set-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-labelpolicy?view=exchange-ps)
+
+민감도 레이블 또는 민감도 레이블 정책의 삭제를 스크립팅해야 하는 경우에는 [Remove-Label](https://docs.microsoft.com/powershell/module/exchange/remove-label?view=exchange-ps) 및 [Remove-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-labelpolicy?view=exchange-ps)를 사용할 수 있습니다. 그러나 민감도 레이블을 삭제하기 전에 다음 섹션을 참조하세요.
 
 ## <a name="removing-and-deleting-labels"></a>레이블 제거 및 삭제
 

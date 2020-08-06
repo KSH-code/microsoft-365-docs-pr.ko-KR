@@ -20,12 +20,12 @@ description: 암호화 및 워터마크로 중요한 콘텐츠를 분류하고 �
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 2943de329bd42aca64d9d3d583b7f6c354780d0d
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: 55f3f9a37d8ce51c263c3b83cf31d838204c285a
+ms.sourcegitcommit: 48f3c002678906189bfba079bbf055d67d08a60f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552700"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46564049"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -39,9 +39,12 @@ Microsoft Information Protection 프레임 워크의 민감도 레이블을 사�
 
 ![Excel 리본 및 상태 표시줄의 민감도 레이블](../media/Sensitivity-label-in-Excel.png)
 
-민감도 레이블은 전역(공용) 클라우드의 테넌트에 한해서만 지원됩니다. 현재, [국가별 클라우드](https://docs.microsoft.com/azure/active-directory/develop/authentication-national-cloud)와 같은 그 외의 클라우드의 테넌트에 대해서는 민감도 레이블이 지원되지 않습니다.
+민감도 레이블을 적용하려면 Microsoft 365 회사 또는 학교 계정으로 로그인해야 합니다.
 
-민감도 레이블을 적용하려면 사용자가 회사 또는 학교 계정으로 Office에 로그인해야 합니다.
+> [!NOTE]
+> 미국 정부 기관(GCC 및 GCC-HC) 테넌트의 경우, 민감도 레이블은 현재 Azure Information Protection 통합 레이블 지정 클라이언트 및 스캐너용으로만 지원됩니다. 
+> 
+> 자세한 내용은 블로그 게시물 [GCC 및 GCC-H 환경의 통합 레이블 지정에 대한 일반 가용성 발표](https://techcommunity.microsoft.com/t5/azure-information-protection/announcing-general-availability-of-unified-labeling-in-gcc-and/ba-p/1563215)를 참조하세요.
 
 민감도 레이블을 사용하여 다음을 수행할 수 있습니다.
   

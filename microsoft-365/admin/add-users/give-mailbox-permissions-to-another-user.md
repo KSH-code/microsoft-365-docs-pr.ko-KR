@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1dbcf12f-a9de-4d1d-b0b3-a227f8a736d8
 description: '사용자에게 다른 사용자의 사서함에 액세스할 수 있는 권한을 부여하는 방법에 대해 알아봅니다. 이를 통해 사용자에게 다른 사용자의 사서함에서 메일을 읽고 보낼 수 있는 권한을 부여합니다. '
-ms.openlocfilehash: dafe0f8c8f7d65b2721b70f6c132d179c461a89b
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 0b6977efbd6041a11c67ed66c9b7ecc72a38bde4
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780604"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560378"
 ---
 # <a name="give-mailbox-permissions-to-another-user---admin-help"></a>다른 사용자에게 사서함 권한 제공 - 관리자 도움말
 
@@ -55,7 +55,10 @@ ms.locfileid: "44780604"
   
  **사용 권한을 설정한 후 사용하는 방법:**
   
-액세스 권한이 부여된 후 사서함에 액세스하는 방법은 여러 가지가 있습니다. 이 내용에 대한 도움말은 다음 문서를 참조하세요. [다른 사용자의 사서함에 액세스](https://support.microsoft.com/office/A909AD30-E413-40B5-A487-0EA70B763081)
+액세스 권한이 부여된 후 사서함에 액세스하는 방법은 여러 가지가 있습니다. 이 내용에 대한 도움말은 [다른 사용자의 사서함에 액세스](https://support.microsoft.com/office/A909AD30-E413-40B5-A487-0EA70B763081) 문서를 참조하세요.
+
+> [!NOTE]
+> 권한은 현재 조직 테넌트 내에서만 설정할 수 있습니다. 테넌트 외 사용자로는 사서함 사용 권한을 설정할 수 없습니다.
   
 ## <a name="send-email-from-another-users-mailbox"></a>다른 사용자의 사서함에서 전자 메일 보내기
 
