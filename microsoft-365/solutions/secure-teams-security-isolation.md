@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 보안을 위한 고유한 민감도 레이블이 있는 팀을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: b16133a02c82c2b2ab0e56a5545e19b160933664
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: f540c1fce1c525ab49037ea27b139f10fac76f33
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560234"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577965"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>보안 격리를 사용하여 팀 구성하기
 
@@ -28,7 +28,7 @@ ms.locfileid: "46560234"
 
 개인 액세스를 넘어서, 이 문서에서는 높은 규제 대상 데이터를 저장하는 데 필요한 추가 보안을 위해 팀 채널의 **파일** 섹션에서 액세스할 수 있는 연결된 SharePoint 사이트를 구성하는 방법을 설명합니다.
 
-높은 규제 대상 데이터의 구성 요소는 다음과 같습니다.
+보안 격리 팀을 위한 구성 요소는 다음과 같습니다.
 
 - 비공개 팀
 - 팀의 연결된 SharePoint 사이트에 대한 추가 보안 기능은 다음과 같습니다.
@@ -42,9 +42,9 @@ ms.locfileid: "46560234"
 > [!IMPORTANT]
 > 이 문서의 단계를 진행하기 전에 [Microsoft Teams, Office 365 그룹 및 SharePoint 사이트에서 콘텐츠를 보호할 수 있도록 민감도 레이블](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)을 사용하도록 설정했는지 확인하세요.
 
-<a name="poster"></a>이 시나리오에 대 한 2페이지 요약을 보려면 [보안 격리 포스터를 사용한 Microsoft 팀](../downloads/team-security-isolation-poster.pdf)를 참조하세요.
+<a name="poster"></a>이 시나리오에 대 한 2페이지 요약을 보려면 [보안 격리 포스터를 사용한 Microsoft Teams](../downloads/team-security-isolation-poster.pdf)를 참조하세요.
 
-[![보안 격리를 사용하여 Microsoft 팀 구성하기](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
+[![보안 격리를 사용하여 Microsoft Teams 구성하기](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
 
 이 포스터를 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf)나 [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pptx) 형식으로 다운로드할 수 있고 편지형, 법률형, 타블로이드(11 x 17) 크기 용지에 인쇄할 수도 있습니다.
 
@@ -226,7 +226,7 @@ Microsoft 365에서는 콘텐츠를 보호하기 위한 추가 방법을 제공�
 
 팀이 준비되면 팀 구성원에게 팀과 추가 보안 기능의 채택을 유도할 시점입니다.
 
-## <a name="train-your-users"></a>사용자 교육하기
+### <a name="train-your-users"></a>사용자 교육하기
 
 팀의 구성원은 채팅, 모임 및 기타 앱을 포함하여 팀과 모든 리소스에 액세스할 수 있습니다. 채널의 **파일** 섹션에서 파일에 대한 작업을 하는 경우, 팀의 구성원은 만든 파일에 민감도 레이블을 할당해야 합니다.
 
