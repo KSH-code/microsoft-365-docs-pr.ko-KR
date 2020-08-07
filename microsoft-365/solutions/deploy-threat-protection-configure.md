@@ -1,8 +1,8 @@
 ---
 title: Microsoft 365에서 위협 보호 기능을 구성 하는 단계
 description: Microsoft 365 E5에서 위협 보호 서비스 및 기능을 배포 하는 방법을 알아봅니다.
-ms.author: bcarter
-author: brendacarter
+ms.author: deniseb
+author: denisebmsft
 manager: dansimp
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 30ecb25ca68b23278aa8b2905c5f3aa8703cb7f1
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 2bbbe1d1af36333ced4209d889c19e7bad7195d6
+ms.sourcegitcommit: b812771805c8b9e92b64deb1928e265e60d80405
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522088"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46588231"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Microsoft 365에서 위협 보호 기능 구성
 
@@ -95,9 +95,8 @@ Microsoft Threat Protection은 작업 (Azure ATP, Office 365 ATP, Microsoft Defe
 
 [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) (OFFICE 365 ATP)은 전자 메일 메시지 (첨부 파일 및 url), Office 문서 및 공동 작업 도구에서 악의적인 위협 으로부터 조직을 보호 합니다. 다음 표에는 Microsoft 365 E5에 포함 된 Office 365 ATP 기능과 기능이 나와 있습니다.
 
-|||
-|---|---|
 |구성, 보호 및 검색 기능|자동화, 조사, 수정 및 교육 기능|
+|---|---|
 |[안전한 첨부 파일](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br/>[안전한 링크](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)<br/>[안전한 문서](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)<br/>[SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)<br/>[ATP 피싱 방지 보호 기능](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#exclusive-settings-in-atp-anti-phishing-policies)|[위협 트래커](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-trackers)<br/>[위협 탐색기](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)<br/>[자동화된 조사 및 응답](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>[공격 시뮬레이터](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulator)|
 |
 
@@ -186,7 +185,7 @@ Microsoft 365에서는 조직에서 사용자에 게 알릴 수 있도록 다음
 |---------|---------|
 |Microsoft 365     |[사용자 지정 가능한 학습 경로](https://docs.microsoft.com/office365/customlearning/) <p>이러한 리소스를 통해 조직의 최종 사용자에 게 교육을 추가 하는 데 도움이 될 수 있습니다.        |
 |Microsoft 365 보안 |[학습 모듈: 기본 제공 되는 Microsoft 365의 지능형 보안을 사용 하 여 조직 보호](https://docs.microsoft.com/learn/modules/security-with-microsoft-365) <p>이 모듈을 사용 하 여 Microsoft 365 보안 기능이 함께 작동 하는 방식에 대해 설명 하 고 이러한 보안 기능의 이점을 구체화할 수 있습니다. |
-|다단계 인증     | [2 단계 인증: 추가 확인 페이지 란?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>이 문서에서는 최종 사용자가 다단계 인증을 이해 하 고 조직에서이를 사용 하는 이유를 파악 하는 데 도움이 됩니다.    |
+|Multi-Factor Authentication     | [2 단계 인증: 추가 확인 페이지 란?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>이 문서에서는 최종 사용자가 다단계 인증을 이해 하 고 조직에서이를 사용 하는 이유를 파악 하는 데 도움이 됩니다.    |
 
 이 지침 외에도, 사용자가 [해커 및 맬웨어로부터 계정 및 장치를 보호](https://support.office.com/article/066d6216-a56b-4f90-9af3-b3a1e9a327d6.aspx)하는이 문서에서 설명 하는 작업을 수행 하는 것이 좋습니다. 이러한 작업은 다음과 같습니다.
 - 강력한 암호 사용
