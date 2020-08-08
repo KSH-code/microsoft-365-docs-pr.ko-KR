@@ -1,5 +1,5 @@
 ---
-title: 보존 레이블을 사용하여 SharePoint에 저장된 제품 문서의 수명주기 관리
+title: 보존 레이블로 SharePoint에 저장된 문서의 수명 주기 관리
 f1.keywords:
 - NOCSH
 ms.author: cabailey
@@ -15,19 +15,19 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 이 자료에는 보존 레이블을 사용하여 SharePoint에서 제품 관련 문서의 수명주기를 관리하는 방법이 나와 있습니다. 이 프로세스는 문서 메타데이터를 사용하여 내용을 분류하고, 보존 레이블을 자동으로 적용하며, 이벤트 기반 보존을 구성합니다.
-ms.openlocfilehash: b3b71757d887781a12c71f2c105409827230f33c
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+description: 메타데이터를 사용하여 내용을 분류하고 레이블을 자동으로 적용하며 이벤트 기반 보존을 사용하여 보존 기간을 시작하여 SharePoint 에서 문서의 라이프사이클을 관리하는 방법입니다.
+ms.openlocfilehash: 250bf182c26616a3a2f9253471469d2cecbd8d2b
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552530"
+ms.locfileid: "46560671"
 ---
-# <a name="manage-the-lifecycle-of-product-documents-stored-in-sharepoint-with-retention-labels"></a>보존 레이블을 사용하여 SharePoint에 저장된 제품 문서의 수명주기 관리
+# <a name="use-retention-labels-to-manage-the-lifecycle-of-documents-stored-in-sharepoint"></a>보존 레이블로 SharePoint에 저장된 문서의 수명 주기 관리
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
-이 문서에서는 자동으로 적용된 보존 레이블을 사용하고 이벤트 기반 보존을 구성하여 SharePoint에 저장된 제품 관련 문서의 라이프사이클을 관리하는 방법에 대해 설명합니다.
+이 문서에서는 자동으로 적용된 보존 레이블과 이벤트 기반 보존을 사용하여 SharePoint에 저장된 문서의 라이프사이클을 관리하는 방법에 대해 설명합니다.
 
 자동 적용 기능은 문서 분류에 SharePoint 메타데이터를 사용합니다. 이 문서의 예는 제품 관련 문서에 대한 것이지만 다른 시나리오에서도 동일한 개념을 사용할 수 있습니다. 예를 들어, 석유 및 가스 산업에서 석유 플랫폼, 웰 로그 또는 생산 라이센스와 같은 물리적 자산에 대한 문서의 라이프사이클을 관리하는 데 사용할 수 있습니다. 금융 서비스 산업에서는 은행 계좌, 담보 대출 또는 보험 계약 문서를 관리할 수 있습니다. 공공 부문에서는 건축 허가서나 세금 양식을 관리할 수 있습니다.
 
@@ -80,10 +80,8 @@ ms.locfileid: "46552530"
 | 제품 사양      | 생산 중단 후 5년  | 삭제                                       |
 | 제품 계약서          | 생산이 중단된 후 10년 | 검토                                       |
 | 사용자 설명서                | 생산 중단 후 5년  | 삭제                                       |
-| 다른 모든 유형의 문서 | 능동적으로 유지하지 않음  | 문서가 3년보다 오래된 경우 삭제<sup>\*</sup>  |
+| 다른 모든 유형의 문서 | 능동적으로 유지하지 않음  | 문서가 3년보다 오래된 경우 삭제 <br /><br /> 지난 3년 동안 수정하지 않은 문서는 3년이 지난 것으로 간주됩니다. |
 |||
-
-   <sup>\*</sup> 지난 3년 동안 수정하지 않은 문서는 3년이 지난 것으로 간주됩니다.
 
 Microsoft 365 규중 준수 센터를 사용하여 다음 [보존 레이블](retention.md#retention-labels)을 생성합니다.
 
