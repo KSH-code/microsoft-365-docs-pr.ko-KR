@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 데이터 분류 대시보드에서는 조직에서 검색 및 분류한 중요한 데이터의 양을 시각적으로 파악할 수 있습니다.
-ms.openlocfilehash: ca08f292bae70d121a3ef157a482a09590bd7ba1
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: 3198a1981ed7d4d5428452b55aeb22b234712354
+ms.sourcegitcommit: b812771805c8b9e92b64deb1928e265e60d80405
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430331"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46588220"
 ---
 # <a name="know-your-data---data-classification-overview"></a>데이터 파악 - 데이터 분류 개요
 
@@ -99,12 +99,12 @@ Microsoft 365 또는 AIP(Azure Information Protection)를 통해 항목에 민�
 ![민감도 레이블 분류에 따른 콘텐츠 분석 자리 표시자 스크린샷](../media/data-classification-top-sensitivity-labels-applied.png)
 
 > [!NOTE]
-> 민감도 레이블을 생성 또는 게시하지 않았거나 민감도 레이블이 적용된 콘텐츠가 없는 경우 이 카드에 “검색된 민감도 레이블이 없음” 메시지가 표시됩니다. 레이블을 시작하려면 다음을 참조하세요.
->- [민감도 레이블](sensitivity-labels.md) 또는 AIP의 경우 [Azure Information Protection 정책 구성](https://docs.microsoft.com/azure/information-protection/configure-policy)
+> 민감도 레이블을 생성 또는 게시하지 않았거나 민감도 레이블이 적용된 콘텐츠가 없는 경우 이 카드에 “검색된 민감도 레이블이 없음” 메시지가 표시됩니다. 민감도 레이블을 시작하려면 다음을 참조하세요.
+>- [민감도 레이블](get-started-with-sensitivity-labels.md) 또는 AIP [구성 Azure 정보 보호 정책](https://docs.microsoft.com/azure/information-protection/configure-policy) 시작하기
 
 ## <a name="top-retention-labels-applied-to-content"></a>콘텐츠에 적용되는 상위 보존 레이블
 
-보존 레이블은 조직에서 콘텐츠의 처리를 관리하는 데 사용됩니다. 이러한 레이블을 적용하면 문서가 삭제 전에 보관되는 기간, 삭제 전에 검토해야 하는지 여부, 보존 기간이 만료되는 시기 또는 절대 삭제할 수 없는 레코드로 표시해야 하는지 여부 등을 제어하는 데 사용될 수 있습니다. 자세한 내용은 [보존 정책 및 보존 레이블에 대해 알아보기](retention.md)를 참조하세요.
+보존 레이블은 조직에서 콘텐츠의 보존과 처리를 관리하는데 사용됩니다. 적용되면 보존 기간 만료 후 삭제 전에 검토 되어야 하는지 및 기록으로 표시 되어야 하는지 여부 등 삭제 전 항목이 어떻게 저장 되는지 관리하는데 사용됩니다. 자세한 내용은 [보존 정책 및 보존 레이블에 대해 알아보기](retention.md)를 참조하세요.
 
 적용되는 상위 보존 레이블 카드에는 보존 레이블이 지정된 항목 수가 표시됩니다.
 
