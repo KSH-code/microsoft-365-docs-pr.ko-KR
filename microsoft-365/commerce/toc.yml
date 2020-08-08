@@ -4,14 +4,10 @@
   href: ../admin/index.yml
 - name: 체험 또는 구매
   items:
-    - name: Microsoft 365에 평가판 등록
-      href: sign-up-for-office-365-trial.md
     - name: Microsoft 365 체험 또는 구매
       href: try-or-buy-microsoft-365.md
     - name: 평가판 연장
       href: extend-your-trial.md
-    - name: 다른 구독 구입
-      href: buy-another-subscription.md
     - name: 추가 기능 구입 또는 편집
       href: buy-or-edit-an-add-on.md
     - name: 저장 공간 추가

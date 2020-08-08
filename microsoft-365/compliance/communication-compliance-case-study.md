@@ -19,18 +19,18 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: d35179d38277ada22db9bc7ad879f1f7405a9aec
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 79948e514009d3adffcead87aafc18ab2f1e3b25
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936863"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597637"
 ---
 # <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-exchange-and-yammer-communications"></a>사례 연구-Contoso는 Microsoft 팀, Exchange 및 Yammer 통신에 대 한 비속어 (공격적인 언어 정책)를 빠르게 구성 합니다.
 
-Microsoft 365의 통신 준수 기능은 조직의 부적절 한 메시지에 대 한 검색, 캡처 및 수정 작업 수행을 지원 하 여 통신 위험을 최소화 하는 데 도움이 됩니다. 미리 정의 된 정책 및 사용자 지정 정책을 사용 하면 정책 일치에 대 한 내부 및 외부 통신을 검색 하 여 지정한 검토자가 검사할 수 있습니다. 검토자는 조직에서 스캔 한 전자 메일, Microsoft 팀, Yammer 또는 타사 통신을 조사 하 고 적절 한 교정 작업을 수행 하 여 조직의 메시지 표준을 준수 하도록 할 수 있습니다.
+Microsoft 365의 통신 준수는 조직에서 부적절 한 메시지를 감지, 캡처 및 관리 하 여 통신 위험을 최소화 하는 데 도움이 됩니다. 미리 정의 된 정책 및 사용자 지정 정책을 사용 하면 정책 일치에 대 한 내부 및 외부 통신을 검색 하 여 지정한 검토자가 검사할 수 있습니다. 검토자는 조직에서 스캔 한 전자 메일, Microsoft 팀, Yammer 또는 타사 통신을 조사 하 고 적절 한 교정 작업을 수행 하 여 조직의 메시지 표준을 준수 하도록 할 수 있습니다.
 
-Contoso Corporation은 공격적인 언어를 모니터링 하도록 정책을 빠르게 구성 해야 하는 가상 조직입니다. Microsoft 365은 주로 전자 메일, Microsoft 팀 및 Yammer 지원에 대해 사용 되었지만 작업 공간 harassment에 회사 정책을 적용 하기 위한 새로운 요구 사항이 있습니다. Contoso IT 관리자 및 준수 전문가는 Microsoft 365의 기본 작업에 대 한 기본적인 지식을 이해 하 고 있으며, 통신 준수를 빠르게 시작 하는 방법에 대 한 종단 간 지침을 찾고 있습니다.
+Contoso Corporation은 공격적인 언어를 모니터링 하도록 정책을 빠르게 구성 해야 하는 가상 조직입니다. Microsoft 365은 주로 전자 메일, Microsoft 팀 및 Yammer 지원을 위해 사용 되었지만 작업 공간 harassment에 회사 정책을 적용 하기 위한 새로운 요구 사항이 있습니다. Contoso IT 관리자 및 준수 전문가는 Microsoft 365의 기본 작업에 대 한 기본적인 지식을 이해 하 고 있으며, 통신 준수를 빠르게 시작 하는 방법에 대 한 종단 간 지침을 찾고 있습니다.
 
 이 사례 연구에서는 악의적인 언어에 대 한 통신을 모니터링 하기 위한 통신 준수 정책을 빠르게 구성 하는 기본 사항을 다룹니다. 이 지침에는 다음이 포함 됩니다.
 
@@ -79,18 +79,30 @@ Contoso IT 관리자는 다음 단계를 수행 하 여 Contoso에 대 한 라�
 
 ### <a name="permissions-for-communication-compliance"></a>통신 준수에 대 한 사용 권한
 
-기본적으로 전역 관리자는 통신 준수 기능에 액세스할 수 없습니다. Contoso IT 관리자 및 준수 전문가가 통신 준수에 액세스할 수 있도록 [사용 권한을 구성 해야 합니다](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure?view=o365-worldwide#step-1-required-enable-permissions-for-communication-compliance) .
+통신 준수 기능을 관리 하기 위한 권한을 구성 하는 데 사용 되는 역할에는 다섯 가지가 있습니다. 통신 준수를 Microsoft 365 준수 센터에서 메뉴 옵션으로 사용할 수 있도록 하 고 이러한 구성 단계를 계속 하려면 Contoso 관리자에 게 *통신 준수 관리자* 역할이 할당 되어 있어야 합니다.
+
+Contoso는 custome 역할 그룹을 하나 만들고 모든 통신 준수 역할을 해당 그룹에 할당 하기로 결정 합니다. 이렇게 하면 Contoso에서 더 쉽게 작업을 수행 하 고 준수 관리 요구 사항에 적합 합니다.
+
+Contoso는 다음의 모든 통신 준수 역할을 포함 하는 역할 그룹을 하나 만듭니다.
+
+|**역할**|**역할 권한**|
+|:-----|:-----|
+| **통신 준수 관리자** | 이 역할이 할당 된 사용자는 통신 준수 정책, 전역 설정 및 역할 그룹 할당을 만들고, 읽고, 업데이트 하 고, 삭제할 수 있습니다. 이 역할이 할당 된 사용자는 메시지 알림을 볼 수 없습니다. |
+| **통신 준수 분석** | 이 역할이 할당 된 사용자는 검토자로 할당 되는 정책, 메시지 메타 데이터를 보거나, 추가 검토자에 게 승격 하거나, 사용자에 게 알림을 보낼 수 있습니다. 분석가가 보류 중인 알림을 확인할 수 없습니다. |
+| **통신 준수 조사** | 이 역할이 할당 된 사용자는 메시지 메타 데이터와 콘텐츠를 보고, 추가 검토자에 게 승격 하 고, 고급 eDiscovery 사례로 에스컬레이션 하 고, 사용자에 게 알림을 보내며, 경고를 해결할 수 있습니다. |
+| **통신 준수 뷰어** | 이 역할이 할당 된 사용자는 통신 준수 홈 페이지의 모든 보고 widget에 액세스할 수 있으며 모든 통신 준수 보고서를 볼 수 있습니다. |
+| **통신 준수 사례 관리** | 이 역할이 할당 된 사용자는 사례를 관리 하 고 알림에 대해 작동할 수 있습니다. 이 역할은 관리자, 분석가 및 investigators에 대 한 사용자 지정 역할 그룹을 만들 때 필요 합니다. 뷰어에 대 한 사용자 지정 그룹에는이 역할이 할당 되지 않습니다. |
 
 1. Contoso IT 관리자는 **Office 365 보안 및 준수 센터** 사용 권한 페이지 (전역 관리자 계정의 자격 증명을 사용 하 여 [) https://protection.office.com/permissions) ](https://protection.office.com/permissions) 에 로그인 하 고 Microsoft 365에서 역할을 확인 하 고 관리 하는 링크를 선택 합니다.
 2. Create ( **만들기**)를 선택 하면 새 역할 그룹에 "*통신 준수*" 라는 이름이 지정 되 고 **Next (다음**)가 선택 됩니다.
-3. **역할 선택을** 선택한 다음 **추가**를 선택 합니다. *관리 검토 관리자*, *사례 관리*, *준수 관리자*및 *검토*에 대 한 확인란을 선택 하 여 필요한 역할을 추가한 후에 **추가**, **완료,** **다음**을 차례로 선택 합니다.
+3. **역할 선택을** 선택한 다음 **추가**를 선택 합니다. *통신 준수 관리*, *통신 준수 분석*, 통신 *준수 조사* *, 통신 준수*확인 및 *통신 준수 사례 관리*에 대 한 확인란을 선택 하 여 필요한 역할을 추가한 다음 **추가**, **완료,** **다음**을 차례로 선택 합니다.
 
-![통신 준수 역할](../media/communication-compliance-case-roles.png)
+    ![통신 준수 역할](../media/communication-compliance-case-roles.png)
 
 4. 다음으로, IT 관리자가 **구성원 선택** 을 선택한 다음 **추가**를 선택 합니다. 정책을 만들고 정책과 일치 하는 메시지를 관리할 모든 사용자 및 그룹의 확인란을 선택 합니다. IT 관리자, 규정 준수 전문가 및 다른 동료를 초기 계획에서 식별 한 법률 부서에 추가 하 고 **추가**, **완료**, **다음**을 차례로 선택 합니다.
 5. IT 관리자는 사용 권한을 마무리 하 여 마칠 **역할 그룹 만들기** 를 선택 합니다. Contoso의 Microsoft 365 서비스에서 역할이 효과적일 때까지 약 30 분이 소요 됩니다.
 
-![통신 준수 검토](../media/communication-compliance-case-review.png)
+    ![통신 준수 검토](../media/communication-compliance-case-review.png)
 
 ## <a name="step-2-accessing-communication-compliance-in-microsoft-365"></a>2 단계: Microsoft 365의 통신 준수에 액세스
 
@@ -125,7 +137,7 @@ Microsoft 365 [관리 센터 https://admin.microsoft.com) 에서](https://admin.
 
 ![통신 준수 링크](../media/communication-compliance-case-compliance-link.png)
 
-이렇게 하면 **Office 365 보안 및 준수 센터가**열리고 페이지 맨 위에 있는 배너에 제공 된 **Microsoft 365 준수 센터** 에 대 한 링크를 선택 해야 합니다.
+이 작업을 수행 하면 **Office 365 보안 및 준수 센터가**열리고 페이지 맨 위에 있는 배너에 제공 된 **Microsoft 365 준수 센터** 에 대 한 링크를 선택 해야 합니다.
 
 ![Office 365 보안 및 준수 센터](../media/communication-compliance-case-scc.png)
 
@@ -151,22 +163,22 @@ Contoso IT 관리자는 감사를 설정 하는 단계별 [지침](https://docs.
 
 통신 규정을 준수 하려면 조직에 대 한 Yammer 테 넌 트를 전용 모드로 사용 하 여 비공개 메시지 및 공용 커뮤니티 대화에서 비속어를 모니터링 해야 합니다.
 
-Contoso IT 관리자는 [microsoft 365의 Yammer 기본 모드 개요](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) 에 나와 있는 정보를 검토 하 고 [Microsoft 365 용 기본 모드에 대 한 yammer 네트워크 구성](https://docs.microsoft.com/yammer/configure-your-yammer-network/native-mode) 항목에서 마이그레이션 도구를 실행 하는 단계를 수행 합니다.
+Contoso IT 관리자는 [microsoft 365 문서의 Yammer 기본 모드 개요](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) 에 나와 있는 정보를 검토 하 고 [Microsoft 365 용 기본 모드에 대 한 yammer 네트워크 구성](https://docs.microsoft.com/yammer/configure-your-yammer-network/native-mode) 항목에서 마이그레이션 도구를 실행 하는 단계를 수행 하는 방법을 확인 해야 합니다.
 
 ### <a name="setting-up-a-group-for-in-scope-users"></a>범위 내 사용자에 대 한 그룹 설정
 
-Contoso 준수 전문가가 공격적인 언어를 모니터링할 통신 정책에 모든 직원을 추가 하려고 합니다. 각 직원 사용자 계정을 개별적으로 정책에 추가할지 결정 했지만,이를 통해 더 쉽게 작업할 수 있도록 결정 했으며이 정책에 대 한 사용자의 **모든 직원** 메일 그룹을 사용 하는 데 많은 시간이 걸립니다.
+Contoso 준수 전문가는 모든 사용자에 게 공격적인 언어를 모니터링할 통신 정책에 추가 하려고 합니다. 각 사용자 계정을 개별적으로 정책에 추가할지 결정 했지만이 정책에 대 한 사용자의 **모든 사용자** 메일 그룹을 사용 하는 데 필요한 시간을 단축 합니다.
 
-모든 Contoso 직원을 포함 하기 위해 새 그룹을 만들어야 하는 경우 다음 단계를 수행 해야 합니다.
+모든 Contoso 사용자를 포함 하도록 새 그룹을 만들어야 하는 경우 다음 단계를 수행 해야 합니다.
 
 1. Contoso it 관리자는 **microsoft 365 관리 센터** [ https://admin.microsoft.com) ](https://admin.microsoft.com) 에 로그인 하 고 **microsoft 365 관리 센터**  >  **그룹**  >  **그룹**으로 이동 합니다.
 2. **그룹 추가** 를 선택 하 고 마법사를 완료 하 여 새 *Microsoft 365 그룹* 또는 *메일 그룹*을 만듭니다.
 
-![그룹](../media/communication-compliance-case-all-employees.png)
+    ![그룹](../media/communication-compliance-case-all-employees.png)
 
-3. 새 그룹을 만든 후에는 모든 Contoso 사용자를 새 그룹에 추가 해야 합니다. **Exchange 관리 센터** [ https://outlook.office365.com/ecp) 를 열고](https://outlook.office365.com/ecp) **exchange 관리 센터**  >  **받는 사람**  >  **그룹**으로 이동 합니다. Contoso IT 관리자는 구성원 영역 및 새로 만든 *모든 직원* 그룹을 선택 하 고 **편집** 컨트롤을 선택 하 여 마법사에서 새 그룹에 모든 Contoso 직원을 추가 합니다.
+3. 새 그룹을 만든 후에는 모든 Contoso 사용자를 새 그룹에 추가 해야 합니다. **Exchange 관리 센터** [ https://outlook.office365.com/ecp) 를 열고](https://outlook.office365.com/ecp) **exchange 관리 센터**  >  **받는 사람**  >  **그룹**으로 이동 합니다. Contoso IT 관리자는 구성원 영역 및 새로 만든 *모든 직원* 그룹을 선택 하 고 **편집** 컨트롤을 선택 하 여 마법사에서 새 그룹에 모든 Contoso 사용자를 추가 합니다.
 
-![Exchange 관리 센터](../media/communication-compliance-case-eac.png)
+    ![Exchange 관리 센터](../media/communication-compliance-case-eac.png)
 
 ### <a name="creating-the-policy-to-monitor-for-offensive-language"></a>공격적인 언어에 대해 모니터링할 정책 만들기
 
@@ -174,12 +186,12 @@ Contoso 준수 전문가가 공격적인 언어를 모니터링할 통신 정책
 
 1. Contoso IT 관리자 및 준수 전문가가 **Microsoft 365 준수 센터** 에 로그인 하 고 왼쪽 탐색 창에서 **통신 준수** 를 선택 합니다. 이 작업을 수행 하면 통신 준수 정책 서식 파일에 대 한 빠른 링크가 있는 **개요** 대시보드가 열립니다. 서식 파일에 대해 **시작** 을 선택 하 여 **공격적인 언어 서식 파일에 대 한 모니터** 를 선택 합니다.
 
-![공격에 적합 한 통신 준수 언어 서식 파일](../media/communication-compliance-case-template.png)
+    ![공격에 적합 한 통신 준수 언어 서식 파일](../media/communication-compliance-case-template.png)
 
 2. 정책 서식 파일 마법사에서 Contoso IT 관리자 및 준수 전문가가 공동 작업을 통해 **정책 이름**, **사용자 또는 그룹 감독할**및 **검토자**의 세 가지 필수 필드를 완성 합니다.
-3. 정책 마법사에서 정책 이름을 이미 제안 했으므로 IT 관리자 및 준수 전문가가 제안 된 이름을 유지 하 고 나머지 필드에 포커스를 둡니다. **감독할 사용자 또는 그룹** 에 대 한 *모든 직원* 그룹을 선택 하 고 **검토자** 필드에 대 한 정책 알림을 조사 및 수정 해야 하는 준수 전문가를 선택 합니다. 정책을 구성 하 고 경고 정보 수집을 시작 하는 마지막 단계는 **정책 만들기**를 선택 하는 것입니다.
+3. 정책 마법사에서 정책 이름을 이미 제안 했으므로 IT 관리자 및 준수 전문가가 제안 된 이름을 유지 하 고 나머지 필드에 포커스를 둡니다. **감독할 사용자 또는 그룹** 에 대 한 *모든 사용자* 그룹을 선택 하 고 **검토자** 필드에 대 한 정책 알림을 조사 및 수정 해야 하는 준수 전문가를 선택 합니다. 정책을 구성 하 고 경고 정보 수집을 시작 하는 마지막 단계는 **정책 만들기**를 선택 하는 것입니다.
 
-![원하지 않는 통신 준수 언어 마법사](../media/communication-compliance-case-wizard.png)
+    ![원하지 않는 통신 준수 언어 마법사](../media/communication-compliance-case-wizard.png)
 
 ## <a name="step-4-investigate-and-remediate-alerts"></a>4 단계: 알림 검사 및 수정
 

@@ -1,5 +1,5 @@
 ---
-title: 통신 준수 계획
+title: 커뮤니케이션 규정 준수 계획
 description: 조직의 통신 준수 사용 계획에 대해 설명 합니다.
 f1.keywords:
 - NOCSH
@@ -18,14 +18,14 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 214c5376d4c074525253707e181eee69cefff85e
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 4c44610f4d74fe9ebf3c8e549692d9cc7cc6cb34
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045857"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597425"
 ---
-# <a name="plan-for-communication-compliance"></a>통신 준수 계획
+# <a name="plan-for-communication-compliance"></a>커뮤니케이션 규정 준수 계획
 
 조직의 [통신 준수](communication-compliance.md) 를 시작 하기 전에 정보 기술 및 준수 관리 팀에서 검토 해야 하는 중요 한 계획 작업 및 고려 사항이 있습니다. 다음 영역에서 배포를 철저히 이해 하 고 계획 하는 것은 통신 준수 기능의 구현과 사용이 원활 하 게 진행 되 고 솔루션에 대 한 모범 사례와 부합 되도록 하는 데 도움이 됩니다.
 
@@ -38,11 +38,23 @@ ms.locfileid: "44045857"
 - 개인 정보
 - 보안
 - 인사부
-- 법무
+- 법률 정보
 
 ## <a name="plan-for-the-investigation-and-remediation-workflow"></a>조사 및 업데이트 관리 워크플로 계획
 
-[Microsoft 365 준수 센터](https://compliance.microsoft.com/)에서 일반 흐름에 대 한 경고를 모니터링 하 고 검토 하려면 전용 검토자를 선택 합니다. **관리 검토 관리자**, **사례 관리**, **준수 관리자**및 **검토** 역할을 사용 하 여 검토자에 게 사용 권한을 사용 하도록 설정 하려면 [새 역할 그룹을 만들어야](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance) 합니다.
+[Microsoft 365 준수 센터](https://compliance.microsoft.com/)에서 일반 흐름에 대 한 경고 및 사례를 모니터링 하 고 검토 하려면 전용 관련자를 선택 합니다. 조직의 관련자에 게 서로 다른 통신 준수 역할을 할당 하는 방법을 이해 하 고 있어야 합니다.
+
+통신 정책 및 알림을 관리 하는 방법에 따라 관리자, 검토자 및 investigators에 대 한 새 역할 그룹을 하나 이상 만들어야 합니다. 사용자를 특정 역할 그룹에 할당 하 여 서로 다른 통신 준수 기능 집합을 관리할 수 있습니다. 또는 역할 그룹을 하나 만들어서 모든 통신 준수 역할을 해당 그룹에 할당할 수 있습니다. 준수 관리 요구 사항에 가장 적합 한 단일 역할 그룹 또는 여러 그룹을 만듭니다.
+
+통신 준수 역할 그룹을 구성할 때 이러한 역할 옵션 중에서 선택 하도록 계획 합니다.
+
+|**역할**|**역할 권한**|
+|:-----|:-----|
+| **통신 준수 관리자** | 이 역할이 할당 된 사용자는 통신 준수 정책, 전역 설정 및 역할 그룹 할당을 만들고, 읽고, 업데이트 하 고, 삭제할 수 있습니다. 이 역할이 할당 된 사용자는 메시지 알림을 볼 수 없습니다. |
+| **통신 준수 분석** | 이 역할이 할당 된 사용자는 검토자로 할당 되는 정책, 메시지 메타 데이터를 보거나, 추가 검토자에 게 승격 하거나, 사용자에 게 알림을 보낼 수 있습니다. 분석가가 보류 중인 알림을 확인할 수 없습니다. |
+| **통신 준수 조사** | 이 역할이 할당 된 사용자는 메시지 메타 데이터와 콘텐츠를 보고, 추가 검토자에 게 승격 하 고, 고급 eDiscovery 사례로 에스컬레이션 하 고, 사용자에 게 알림을 보내며, 경고를 해결할 수 있습니다. |
+| **통신 준수 뷰어** | 이 역할이 할당 된 사용자는 통신 준수 홈 페이지의 모든 보고 widget에 액세스할 수 있으며 모든 통신 준수 보고서를 볼 수 있습니다. |
+| **통신 준수 사례 관리** | 이 역할이 할당 된 사용자는 사례를 관리 하 고 알림에 대해 작동할 수 있습니다. 이 역할은 관리자, 분석가 및 investigators에 대 한 사용자 지정 역할 그룹을 만들 때 필요 합니다. 뷰어에 대 한 사용자 지정 그룹에는이 역할이 할당 되지 않습니다. |
 
 ## <a name="plan-for-policies"></a>정책 계획
 
