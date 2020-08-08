@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,18 +18,14 @@ ms.custom:
 - SaRA
 - AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
-- GEA150
-description: 새 구독으로 업그레이드 하는 방법을 알아봅니다.
-ms.openlocfilehash: 2a0dcff5b4326fc75b4e8e4154ee73e0ac17897d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: 다른 요금제로 업그레이드 하는 방법을 알아봅니다.
+ms.openlocfilehash: 55667646637cfd2ad6dd56e2361b0c41b136a79e
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403177"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597622"
 ---
 # <a name="upgrade-to-a-different-plan"></a>다른 플랜으로 업그레이드
 
@@ -78,6 +74,10 @@ ms.locfileid: "44403177"
 
 서비스가 적을수록 계획으로 이동 하려는 경우에는 [계획을 수동으로 변경](change-plans-manually.md)하거나 지원 서비스에 문의 하 여 도움을 [받을](../../admin/contact-support-for-business-products.md) 수 있습니다.
 
+## <a name="i-only-want-to-upgrade-some-of-my-users-how-do-i-do-that"></a>일부 사용자만 업그레이드 하려고 합니다. 어떻게 해야 합니까?
+
+일부 사용자를 다른 요금제로 업그레이드 하 고 새 구독을 먼저 구입 해야 하는 경우에는 [요금제를 수동으로 변경](change-plans-manually.md)합니다 .를 참조 하세요. 사용자를 업그레이드 하려는 구독이 이미 있는 경우 [다른 구독으로 사용자 이동을](move-users-different-subscription.md)참조 하세요.
+
 ## <a name="why-some-changes-take-longer"></a>일부 변경 사항을 더 많이 수행 하는 이유
 
 **할당 된 사용자 수:** 할당 된 사용자 수가 많은 경우 업그레이드를 수행 하 여 새 계획으로 이동 하는 데 시간이 오래 걸립니다.
@@ -88,7 +88,7 @@ ms.locfileid: "44403177"
 
 **업그레이드** 탭에 계획이 표시 되지 않으면 요금제가 자동으로 업그레이드 되지 않음을 의미 합니다. 경우에 따라 업그레이드할 수 있는 요금제를 볼 수 있도록 문제를 해결할 수 있거나, 대신 수동으로 계획을 업그레이드 하거나 변경할 수도 있습니다.
 
- ### <a name="why-are-there-no-plans-listed-to-upgrade"></a>업그레이드에 대 한 계획이 나열 되지 않는 이유는 무엇 인가요?
+### <a name="why-are-there-no-plans-listed-to-upgrade"></a>업그레이드에 대 한 계획이 나열 되지 않는 이유는 무엇 인가요?
 
 #### <a name="you-cant-upgrade-subscriptions-now-because-you-have-more-users-than-licenses"></a>라이선스 보다 더 많은 사용자가 있으므로 지금 구독을 업그레이드할 수 없습니다.
 

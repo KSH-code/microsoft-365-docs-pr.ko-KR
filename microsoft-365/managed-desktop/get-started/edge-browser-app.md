@@ -10,12 +10,12 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 916ddaea2bc91c56944d4561771c1e807447d604
-ms.sourcegitcommit: 63887d742c59cc660fc85537b335e98a9dc66fbe
+ms.openlocfilehash: 95bf8ca693ac4b45be569870ff732c4053be39d2
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170674"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597500"
 ---
 # <a name="new-microsoft-edge-app"></a>새 Microsoft Edge 앱
 
@@ -25,11 +25,18 @@ ms.locfileid: "45170674"
 
 Microsoft Managed Desktop devices를 새 Microsoft Edge 브라우저로 마이그레이션하려면 Microsoft Managed Desktop Portal을 통해 IT 지원 티켓을 파일에 제공 해야 합니다. 티켓을 사용할 때에는에 지 안정적인 채널을 테스트 그룹에 배포 하 고 각 후속 배포 그룹에서 24 시간 마다이를 배포 합니다. 배포를 일시 중지 하려면 보류할 작업을 요청 하는 다른 티켓을 파일에 저장 합니다.
 
+[베타 채널] ( https://docs.microsoft.com/deployedge/microsoft-edge-channels#beta-channel) 조직 내에서의 대표 유효성 검사 요청에도 사용할 수 있음) Microsoft Managed Desktop은 이러한 모든 사용자가 안정적인 채널 외에도 베타 채널을 사용할 수 있도록 테스트 및 첫 번째 그룹에 필요한 대로 응용 프로그램을 배포 합니다. 베타 채널에 액세스 해야 하는 모든 추가 사용자에 대해 **최신 회사에 지 베타 사용자** 그룹에 추가 하 고 회사 포털에서 설치 하도록 하려면 다음을 수행 하세요.
+
 ## <a name="updates-to-microsoft-edge"></a>Microsoft Edge 업데이트
 
-Microsoft Managed Desktop은 6 주 마다 자동으로 업데이트 되는 Microsoft Edge의 [안정적인 채널](https://docs.microsoft.com/deployedge/microsoft-edge-channels#stable-channel) 을 배포 합니다. 고객에 게 가장 적합 한 환경을 보장 하기 위해 안정적인 채널의 업데이트가 Microsoft Edge 제품 그룹에 의해 [점진적](https://docs.microsoft.com/deployedge/microsoft-edge-update-progressive-rollout) 으로 롤오버 됩니다. Microsoft Edge 베타 채널을 현재 사용할 수 없습니다.
+Microsoft Managed Desktop은 6 주 마다 자동으로 업데이트 되는 Microsoft Edge의 [안정적인 채널](https://docs.microsoft.com/deployedge/microsoft-edge-channels#stable-channel) 을 배포 합니다. 고객에 게 가장 적합 한 환경을 보장 하기 위해 안정적인 채널의 업데이트가 Microsoft Edge 제품 그룹에 의해 [점진적](https://docs.microsoft.com/deployedge/microsoft-edge-update-progressive-rollout) 으로 롤오버 됩니다. 
+
+[베타 채널]은 https://docs.microsoft.com/deployedge/microsoft-edge-channels#beta-channel) 조직 내에서 대표적인 유효성 검사를 위해 테스트 및 첫 번째 그룹의 장치에 배포 됩니다. 이 채널은 완벽 하 게 지원 되며 6 주 간격으로 새로운 기능을 자동으로 업데이트 합니다.
 
 Microsoft Edge가 제대로 업데이트 되도록 하려면 Microsoft Edge [업데이트 정책을](https://docs.microsoft.com/deployedge/microsoft-edge-update-policies)수정 하지 마십시오.
+
+### <a name="microsoft-edge-beta-channel"></a>Microsoft Edge 베타 채널
+
 
 ## <a name="settings-managed-by-microsoft-managed-desktop"></a>Microsoft Managed Desktop에서 관리 하는 설정
 
@@ -66,19 +73,19 @@ Microsoft Managed Desktop은이 정책을 설정 하 여 Chrome 확장이 관리
 
 ### <a name="microsoft-defender-smart-screen"></a>Microsoft Defender Smart 화면
 
-#### <a name="configure-microsoft-defender-smartscreen"></a>Microsoft Defender SmartScreen 구성
+#### <a name="configure-windows-defender-smartscreen"></a>Windows Defender SmartScreen 구성
 
 **기본값:** 된
 
 최종 사용자를 보호 하기 위해 기본적으로 사용 하도록 설정 됩니다.
 
-#### <a name="microsoft-defender-smartscreen-prompts-for-sites"></a>사이트에 대 한 Microsoft Defender SmartScreen 음성 안내
+#### <a name="windows-defender-smartscreen-prompts-for-sites"></a>사이트에 대 한 Windows Defender SmartScreen 음성 안내
 
 **기본값:** 된
 
 이 설정은 사용자가 경고를 무시 하 고 잠재적으로 악성 사이트로 이동할 수 있도록 하는 것 이므로이 설정을 사용 하지 않는 것이 좋습니다.
 
-#### <a name="prevent-bypassing-of-microsoft-defender-smartscreen-warnings-about-downloads"></a>다운로드에 대 한 Microsoft Defender SmartScreen 경고 바이패스 방지
+#### <a name="prevent-bypassing-of-windows-defender-smartscreen-warnings-about-downloads"></a>다운로드에 대 한 Windows Defender SmartScreen 경고 바이패스 방지
 
 **기본값:** 된
 
@@ -99,6 +106,19 @@ Microsoft Managed Desktop은이 정책을 설정 하 여 Chrome 확장이 관리
 **기본값:** 있지
 
 최종 사용자가 자신의 장치에 암호를 저장 하도록 허용 하지 않는 것이 좋습니다.
+
+### <a name="internet-explorer-mode-in-microsoft-edge"></a>Microsoft Edge의 Internet Explorer 모드
+Microsoft Edge의 IE 모드를 사용 하면 조직에서 요구 하는 모든 사이트를 단일 브라우저에서 쉽게 사용할 수 있습니다. 이 기능은 Chromium 렌더링 엔진과 호환 되는 사이트에 대해 통합 Chromium 엔진을 사용 하며, IE 기능에 대 한 종속성이 없는 사이트의 경우 Internet Explorer 11 (IE11)에서 Trident MSHTML 엔진을 사용 합니다. [자세한 정보] (https://docs.microsoft.com/DeployEdge/edge-ie-mode) 
+
+Microsoft Managed Desktop은 기본적으로 장치에 대해 Internet Explorer 모드를 사용 하도록 설정 합니다. 
+
+#### <a name="internet-explorer-mode-integration"></a>Internet Explorer 모드 통합
+**기본값:** Internet Explorer 모드
+
+기본적으로 장치는 Internet Explorer 모드를 사용 하도록 설정 되지만 대신 독립 실행형 Internet Explorer 11 창에서 사이트가 열리도록 설정할 수 있습니다. 이를 변경 하려면 지원 요청을 파일 합니다.
+
+#### <a name="add-sites-to-the-enterprise-mode-site-list"></a>엔터프라이즈 모드 사이트 목록에 사이트 추가
+사이트가 Internet Explorer 모드에서 열리도록 하려면 [엔터프라이즈 사이트 목록](https://docs.microsoft.com/DeployEdge/edge-ie-mode-sitelist)에 사이트를 포함 해야 합니다. 엔터프라이즈 사이트 목록을 유지 관리 하 고 배포 하는 것은 사용자의 책임입니다. 자세한 내용은 configure [Enterprise Mode Site List policy using](https://docs.microsoft.com/DeployEdge/edge-ie-mode-policies#configure-using-the-configure-the-enterprise-mode-site-list-policy) 을 참조 하십시오.
 
 ### <a name="other-settings"></a>기타 설정
 
@@ -132,6 +152,9 @@ Microsoft Managed Desktop은 기본 또는 다이제스트 인증 체계를 지�
 ### <a name="install-extensions-silently"></a>자동으로 내선 번호 설치
 
 관리 템플릿을 사용 하 여 Microsoft Edge가 사용자에 게 경고를 표시 하지 않고 확장을 설치 하도록 설정할 수도 있습니다. **Microsoft Edge > extensions > 컴퓨터 구성에서 찾을 수 있으며, 자동으로 설치 되는 확장명을 제어할 >**.
+
+### <a name="microsoft-edge-update-policies"></a>Microsoft Edge 업데이트 정책
+Microsoft Edge가 제대로 업데이트 되도록 하려면 Microsoft Edge [업데이트 정책을](https://docs.microsoft.com/deployedge/microsoft-edge-update-policies)수정 하지 마십시오.
 
 ### <a name="other-common-enterprise-policies"></a>기타 일반 엔터프라이즈 정책
 

@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 0a4dd8c3c93402409863b18b400184d4e60eeee6
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 427d266ea46c184a87b8b0b4fbe242adfb8deff1
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521044"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597546"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Id 및 그 외의 설계자 관점
 
@@ -26,7 +26,7 @@ ms.locfileid: "46521044"
 
 ## <a name="about-the-author"></a>만든 이 정보
 
-:::image type="content" source="../media/solutions-architecture-center/identity-and-beyond-alex-shteynberg.jpg" alt-text="Alex Shteynberg photo":::
+![Alex Shteynberg photo](../media/solutions-architecture-center/identity-and-beyond-alex-shteynberg.jpg)
 
 저는 뉴욕 [Microsoft 기술 센터](https://www.microsoft.com/mtc?rtc=1)의 기본 기술 설계자입니다. 대부분의 고객 및 복잡 한 요구 사항에 대 한 작업을 수행 하 고 있습니다. 내 관점과 의견은 이러한 상호 작용을 기반으로 하며 모든 상황에 적용 되지 않을 수 있습니다. 하지만 필자의 환경에서 가장 복잡 한 문제를 해결 하는 데 도움이 될 수 있는 경우 모든 고객에 게 도움이 될 수 있습니다. 
 
@@ -106,7 +106,8 @@ XYZ SaaS는 JIT (Just-in-time) 프로 비전을 지원 하며, 동기화 해야 
 
 고객은 클라이언트 인증 흐름을 통해 일부 misconceptions를 명확 하 게 설명 하는 경우가 많습니다. 결과는 아래 그림과 같이 표시 되며,이는 대화형 프로세스에 적합 하지 않습니다.
 
-:::image type="content" source="../media/solutions-architecture-center/identity-beyond-whiteboard-example.png" alt-text="화이트 보드 대화 예":::
+
+![화이트 보드 대화 예](../media/solutions-architecture-center/identity-beyond-whiteboard-example.png)
 
 이 유형의 화이트 보드 드로잉은 인증 요청 흐름 내에서 보안 정책이 적용 되는 위치를 보여 줍니다. 이 예에서는 AD FS (Active Directory Federation Service)를 통해 적용 되는 정책이 첫 번째 서비스 요청에 적용 되지만 후속 서비스 요청에는 해당 되지 않습니다. 이는 보안 제어를 클라우드로 최대한 이동 하는 하나 이상의 이유입니다.
 
@@ -122,7 +123,7 @@ Microsoft는 여러분이 기억이 가능 하기만 하면 sso ( [single sign-o
 
 Azure AD의 정책 엔진은 [조건부 액세스 정책을](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)사용 하 여 구현 됩니다. 이 시스템은 다양 한 위협 감지 시스템의 정보에 따라 동적인 결정을 내립니다. 간단한 보기는 다음 그림과 같습니다.
 
-:::image type="content" source="../media/solutions-architecture-center/identity-and-beyond-illustration-3.png" alt-text="Azure AD의 정책 엔진":::
+![Azure AD의 정책 엔진](../media/solutions-architecture-center/identity-and-beyond-illustration-3.png)
 
 이러한 모든 신호를 함께 조합 하면 다음과 같은 동적 정책이 허용 됩니다.
 - 장치에서 위협이 검색 되 면 데이터에 대 한 액세스는 다운로드 기능 없이 웹으로 제한 됩니다.
@@ -149,12 +150,11 @@ Azure AD에는 자세한 [감사 및 보고](https://docs.microsoft.com/azure/ac
 
 당황하지 마! Exchange가 더 이상 사용 되지 않는 것은 아닙니다 (또는 SharePoint 등). 여전히 핵심 서비스입니다. 지금까지 설명 했을 때 기술 공급자는 UX (사용자 환경)를 전환 하 여 여러 서비스의 구성 요소를 포함 하 고 있다는 것을 의미 합니다. Microsoft 365에서는 전자 메일에 첨부 파일을 SharePoint Online 또는 비즈니스용 OneDrive에 저장 하는 "[최신 첨부 파일](https://support.office.com/article/Attach-files-or-insert-pictures-in-Outlook-email-messages-BDFAFEF5-792A-42B1-9A7B-84512D7DE7FC)"을 예로 들 수 있습니다. 
 
-:::image type="content" source="../media/solutions-architecture-center/modern-attachments.png" alt-text="전자 메일에 파일 첨부":::
-
+![전자 메일에 파일 첨부](../media/solutions-architecture-center/modern-attachments.png)
 
 Outlook 클라이언트를 살펴보면 Exchange 뿐만 아니라이 환경의 일부로 "연결 된" 여러 서비스가 표시 될 수 있습니다. 여기에는 Azure AD, Microsoft 검색, 앱, 프로필, 준수 및 Office 365 그룹이 포함 됩니다. 
 
-:::image type="content" source="../media/solutions-architecture-center/identity-and-beyond-conceptual-screenshot.png" alt-text="설명선이 있는 Outlook 인터페이스":::
+![설명선이 있는 Outlook 인터페이스](../media/solutions-architecture-center/identity-and-beyond-conceptual-screenshot.png)
 
 예정 된 기능의 미리 보기에 대 한 자세한 내용은 [Microsoft 유체 Framework](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-ignite-blog-microsoft-fluid-framework-preview/ba-p/978268) 를 참조 하세요. 지금 미리 보기에서는 Outlook에서 팀에 직접 대화를 읽고 회신할 수 있습니다. 실제로 [팀 클라이언트](https://products.office.com/microsoft-teams/download-app) 는이 전략의 보다 두드러진 예 중 하나입니다. 
 
@@ -307,7 +307,7 @@ Azure AD, Azure 및 SaaS 사이에 높은 권한 역할을 분리 하는 방법�
 
 Azure RBAC (역할 기반 액세스 제어)를 사용 하면 Azure에 세분화 된 액세스 관리를 사용할 수 있습니다. RBAC를 사용 하면 사용자에 게 작업을 수행 하는 데 필요한 최소한의 사용 권한을 부여 하 여 리소스에 대 한 액세스를 관리할 수 있습니다. 세부 정보는이 문서의 범위를 벗어나지만 RBAC에 대 한 자세한 내용은 [Azure의 rbac (역할 기반 액세스 제어](https://docs.microsoft.com/azure/role-based-access-control/overview) ) 란?를 참조 하세요. RBAC는 중요 하지만 Azure에 대 한 거 버 넌 스 고려 사항 중 일부에 불과합니다. [클라우드 채택 프레임 워크](https://docs.microsoft.com/azure/cloud-adoption-framework/govern/) 는 더 자세히 알아볼 수 있는 좋은 출발점입니다. 내 친구와 Res Ravinet가 방법을 결정 하기 위해 다양 한 구성 요소를 통해 고객을 단계별로 안내 합니다. 다음은 실제 고객 모델에 액세스할 수 있는 프로세스 만큼 좋은 것이 아니라 다양 한 요소에 대 한 높은 수준의 보기입니다.
 
-:::image type="content" source="../media/solutions-architecture-center/identity-beyond-illustration-5.png" alt-text="위임 된 관리를 위한 Azure 구성 요소의 고급 보기":::
+![위임 된 관리를 위한 Azure 구성 요소의 고급 보기](../media/solutions-architecture-center/identity-beyond-illustration-5.png)
 
 위의 그림에서 볼 수 있듯이 대부분의 다른 서비스는 디자인의 일부로 간주 해야 합니다 (예: [Azure 정책](https://docs.microsoft.com/azure/governance/policy/overview), [azure 청사진](https://docs.microsoft.com/azure/governance/blueprints/overview), [관리 그룹](https://docs.microsoft.com/azure/governance/management-groups/)등).
 

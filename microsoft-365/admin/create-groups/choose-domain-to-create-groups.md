@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7cf5655d-e523-4bc3-a93b-3ccebf44a01a
 description: 'PowerShell을 사용 하 여 전자 메일 주소 정책을 구성 하 여 Microsoft 365 그룹을 만들 때 사용할 도메인을 선택 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 5569f42f15835be02a20166e64ce09a08b146dd7
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 19caa4f4dfdef4895fa58f8bf5c198269844044f
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44388212"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597380"
 ---
 # <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a>Microsoft 365 그룹을 만들 때 사용할 도메인 선택
 
@@ -103,7 +103,7 @@ EAP를 변경 해도 이미 프로 비전 된 그룹에는 영향을 주지 않�
   
 ## <a name="hybrid-requirements"></a>하이브리드 요구 사항
 
-조직이 하이브리드 시나리오에서 구성 된 경우 [에는 온-프레미스 Exchange 하이브리드를 사용 하 여 microsoft 365 그룹 구성을](https://go.microsoft.com/fwlink/p/?LinkId=785430) 확인 하 여 조직이 microsoft 365 그룹을 만드는 데 필요한 요구 사항을 충족 하는지 확인 합니다. 
+조직이 하이브리드 시나리오에서 구성 된 경우 [에는 온-프레미스 Exchange 하이브리드를 사용 하 여 microsoft 365 그룹 구성을](https://docs.microsoft.com/exchange/hybrid-deployment/set-up-microsoft-365-groups) 확인 하 여 조직이 microsoft 365 그룹을 만드는 데 필요한 요구 사항을 충족 하는지 확인 합니다. 
   
 ## <a name="additional-info-about-using-email-address-policies-groups"></a>전자 메일 주소 정책 그룹 사용에 대 한 추가 정보:
 

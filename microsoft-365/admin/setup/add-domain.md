@@ -26,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: DNS 호스트에서 DNS 레코드를 추가 하 여 Microsoft 365 관리 센터에서 Microsoft 365에 도메인을 추가 합니다. 설치 마법사가 프로세스를 안내 합니다.
-ms.openlocfilehash: ccebd7dd5e78663b7fd1d5318b17dfbc09bd8fb0
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: 8b70466e5cf82d9cf5be67162263f28ab5bd0d5d
+ms.sourcegitcommit: 20c219332270f1013d48b39773dd0e48dabad9e4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45079728"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46592301"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Microsoft 365에 도메인 추가
 
@@ -139,6 +139,7 @@ ms.locfileid: "45079728"
 
 - [1 &amp; 1gb 이상 os](https://www.1and1.com/)
 - [123Reg](https://www.123-reg.co.uk/)
+- [Cloudflare](https://www.cloudflare.com/)
 - [GoDaddy](https://www.godaddy.com/)
 - [WordPress](https://wordpress.com/)
 - [Plesk](https://www.plesk.com/)

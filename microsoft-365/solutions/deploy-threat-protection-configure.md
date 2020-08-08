@@ -13,12 +13,12 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 2bbbe1d1af36333ced4209d889c19e7bad7195d6
-ms.sourcegitcommit: b812771805c8b9e92b64deb1928e265e60d80405
+ms.openlocfilehash: fb1290a0f0b884fdbc630cbfcd10cd1102c8acae
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46588231"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597512"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Microsoft 365에서 위협 보호 기능 구성
 
@@ -156,7 +156,7 @@ Microsoft [Defender Advanced Threat Protection](https://docs.microsoft.com/windo
 
 위협 방지 서비스와 기능을 설정 하 고 배포한 후에는 위협 검색을 모니터링 하 고 적절 한 조치를 취해야 합니다. 가장 좋은 출발점은 Microsoft 365 보안 센터 () 이며 [https://security.microsoft.com](https://security.microsoft.com) ,이를 통해 마이크로소프트 id, 데이터, 장치, 앱 및 인프라에서 보안을 모니터링 하 고 관리할 수 있습니다. 
 
-:::image type="content" source="../media/solutions-architecture-center/m365-security-center.png" alt-text="Microsoft 365 보안 센터":::
+![Microsoft 365 보안 센터](../media/solutions-architecture-center/m365-security-center.png)
 
 Microsoft 365 보안 센터는 특히 보안 관리자 및 보안 운영 팀을 위한 것입니다. Microsoft 365 보안 센터에서는 다음을 수행할 수 있습니다.
 - [보안 점수](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score)를 사용 하 여 조직의 전반적인 보안 상태를 확인 합니다.
