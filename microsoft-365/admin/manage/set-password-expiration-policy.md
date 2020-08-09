@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 'Microsoft 365 관리 센터에서 조직에 대한 암호 만료 정책을 설정하는 방법을 알아봅니다. '
-ms.openlocfilehash: eec6231d2c6b5d51b25f42c401e367743fdb19ea
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 053b3214862d477cbd122ff6336a6b53a98e5421
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560874"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597368"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>조직의 암호 만료 정책 설정
 
@@ -75,7 +75,9 @@ ms.locfileid: "46560874"
     
 ## <a name="prevent-last-password-from-being-used-again"></a>마지막 암호가 다시 사용되지 않도록 방지
 
-사용자가 기존 암호를 재활용하지 못하도록 하려면 Azure AD에 암호 기록을 적용하여 이 작업을 수행할 수 있습니다. [사용자 지정 암호 정책 만들기](https://docs.microsoft.com/azure/active-directory-domain-services/password-policy#create-a-custom-password-policy)를 참조하세요.
+사용자가 기존 암호를 재사용하지 못하도록 하려면 온-프레미스 AD(Active Directory)에 암호 기록을 적용하여 수행할 수 있습니다. [사용자 지정 암호 정책 만들기](https://docs.microsoft.com/azure/active-directory-domain-services/password-policy#create-a-custom-password-policy)를 참조하세요.
+
+Azure AD에서 사용자가 암호를 변경하는 경우 지난 암호를 다시 사용할 수 없습니다. 암호 정책은 Azure AD에서 직접 만들고 관리되는 모든 사용자 계정에 적용됩니다. 기본 정책은 수정할 수 없습니다. [Azure AD 암호 정책](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts)을 참조하세요.
 
 ## <a name="synchronize-user-passwords-hashes-from-an-on-premises-active-directory-to-azure-ad-microsoft-365"></a>온-프레미스 Active Directory Domain Services의 사용자 암호 해시를 Azure AD로 동기화(Microsoft 365)
 
