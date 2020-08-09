@@ -12,12 +12,12 @@ ms.custom: ''
 localization_priority: Priority
 description: Microsoft 365에서 어떤 방식으로 데이터와 시스템을 보호하고 규정을 준수하도록 지원하며, 금융 서비스를 최신 공동 작업 플랫폼으로 전환하는지 알아봅니다.
 f1.keywords: NOCSH
-ms.openlocfilehash: ccb6243df9030188129c6f2be7b34f467b09781d
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 24355518219830d815ce027ec75bb72ee0675a32
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521210"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597524"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>미국 은행 및 자본 시장에 대한 주요 규정 준수 및 보안 고려 사항
 
@@ -66,7 +66,7 @@ Teams는 중요한 클라이언트 데이터를 안전하게 저장하고 팀 �
 
 또 다른 일반적인 시나리오는 문서를 안전하게 공동 작업하고 저장하며 관리하는 것을 포함하여 Teams를 "가상 데이터 룸"으로 사용하는 것입니다. 투자 은행, 자산 관리 또는 사모펀드 회사의 팀 구성원과 신디케이트는 거래 또는 투자에 안전하게 협업할 수 있습니다. 부서간 팀은 이러한 거래를 계획하고 처리하는 데 관여하는 경우가 많으며, 데이터를 안전하게 공유하고 대화를 수행하는 능력이 핵심적인 요구 사항입니다. 관련 문서를 외부 투자자와 안전하게 공유하는 것도 핵심 요구 사항입니다. Teams는 투자 데이터를 중앙에 저장, 보호 및 공유할 수 있으며 안전하고 완전한 감사가 가능한 위치를 제공합니다.
 
-:::image type="content" source="../media/m365cO19-ent-dell-latitude13-5951.jpg" alt-text="모임에 참석한 여러 직원들이 큰 화면의 이미지에 대해 논의합니다.":::
+![모임에 참석한 여러 직원들이 큰 화면의 이미지에 대해 논의합니다.](../media/m365cO19-ent-dell-latitude13-5951.jpg)
  
 ### <a name="teams-improve-collaboration-and-reduce-compliance-risk"></a>Teams: 공동 작업 개선 및 규정 준수 위험 감소
 
@@ -156,7 +156,7 @@ ID 보호는 Microsoft가 Azure AD를 사용하는 조직, Microsoft 계정을 �
 
 조직은 ID 보호를 통해 Microsoft 에코시스템 전반에 걸쳐 UEBA(휴리스틱, 사용자 및 엔터티 동작 분석) 및 ML(머신 러닝)을 기반으로 하는 고급 탐지를 통해 제공되는 클라우드 인텔리전스를 활용하여 ID 유출을 자동으로 방지할 수 있습니다.
 
-:::image type="content" source="../media/win17-15021-00-n9.jpg" alt-text="다섯 명의 정보부서 직원이 다른 직원의 프레젠테이션을 보고 있습니다.":::
+![다섯 명의 정보부서 직원이 다른 직원의 프레젠테이션을 보고 있습니다.](../media/win17-15021-00-n9.jpg)
  
 ## <a name="identify-sensitive-data-and-prevent-data-loss"></a>중요한 데이터 식별 및 데이터 손실 방지
 모든 조직은 Microsoft 365를 사용하여 이 다음을 포함한 강력한 기능의 조합을 통해 조직 내의 중요한 데이터를 식별할 수 있습니다.
@@ -178,7 +178,7 @@ ID 보호에 의해 생성되고 전달되는 신호는 액세스 결정을 내�
 
 조직은 ID 보호를 통해 Microsoft 에코시스템 전반에 걸쳐 휴리스틱, 사용자 및 엔터티 동작 분석 및 머신 러닝을 기반으로 하는 고급 탐지를 통해 제공되는 클라우드 인텔리전스를 활용하여 ID 유출을 자동으로 방지할 수 있습니다.
 
-:::image type="content" source="../media/clo1718-portrait-006.jpg" alt-text="정보부서 직원이 대규모로 배열된 모니터 앞에 있습니다.":::
+![정보부서 직원이 대규모로 배열된 모니터 앞에 있습니다.](../media/clo1718-portrait-006.jpg)
 
 ## <a name="defend-the-fortress"></a>정보 요새 방어
 
@@ -199,7 +199,7 @@ Microsoft 365의 보안 서비스는 지능형 보안 그래프를 통해 제공
 * 킬체인에서 수상한 사용자 활동과 고급 공격을 식별하고 조사합니다.
 * 빠른 분류를 위해 간단한 시간 표시 막대에 명확한 인시던트 정보를 제공합니다.
 
-:::image type="content" source="../media/clo1717-corporate-office-021.jpg" alt-text="사무실 직원들이 작은 회의실에서 모임에 참여합니다. 한 명은 프레젠테이션을 진행하고 있습니다.":::
+![사무실 직원들이 작은 회의실에서 모임에 참여합니다. 한 명은 프레젠테이션을 진행하고 있습니다.](../media/clo1717-corporate-office-021.jpg)
  
 ## <a name="govern-data-and-manage-records"></a>데이터 제어 및 레코드 관리
 
@@ -285,7 +285,7 @@ Microsoft 365의 정보 장벽은 Teams의 대화 및 파일을 지원합니다.
  
 * [FINRA 규칙 3120(감독 통제 시스템)](https://www.finra.org/rules-guidance/rulebooks/finra-rules/3120)은 기업이 규칙 3110에 정의된 서면 감독 절차를 검증하는 SCP(감독 통제 정책 및 절차) 시스템을 갖추도록 요구합니다. 회사는 WSP를 보유해야 할 뿐만 아니라 매년 해당 절차를 테스트하여 해당 증권법 및 규정을 준수하는지 확인하는 정책을 갖추어야 합니다. 위험 기반 방법론 및 샘플링을 사용하여 테스트 범위를 정의할 수 있습니다. 다양한 요건 중에서도 이 규칙은 기업이 고위 경영진에게 테스트 결과 요약 및 테스트 결과에 대한 중요한 예외 또는 수정된 절차를 포함하는 연례 보고서를 제공하도록 합니다.
 
-:::image type="content" source="../media/wco18-desk-work-002.jpg" alt-text="사무실 직원이 화면에서 차트와 표를 보고 직원의 뒤로는 사람들이 만나고 있습니다.":::
+![사무실 직원이 화면에서 차트와 표를 보고 직원의 뒤로는 사람들이 만나고 있습니다.](../media/wco18-desk-work-002.jpg)
  
 ### <a name="communication-compliance"></a>커뮤니케이션 규정 준수
 
@@ -296,7 +296,7 @@ Microsoft 365의 커뮤니케이션 규정 준수를 통해 조직은 권한 있
 
 FINRA 규칙을 준수하는 것 외에도. 조직은 커뮤니케이션 규정 준수를 통해 다른 법적 요건, 회사 정책 및 윤리적 표준 준수를 위해 커뮤니케이션을 모니터링할 수 있습니다. 커뮤니케이션 규정 준수는 커뮤니케이션을 검토할 때 가양성을 줄이는 데 도움이 되는 위협, 괴롭힘 및 욕설 분류자를 기본으로 제공하여 조사 및 개선 프로세스에서 검토자의 시간을 절약합니다. 또한 조직은 인수 합병 또는 리더십 교체와 같은 중요한 변화가 있을 때 커뮤니케이션을 모니터링하여 위험을 줄일 수 있습니다.
 
-:::image type="content" source="../media/msc16-slalom-004.jpg" alt-text="정보부서 직원이 화면에 집중하고 있습니다.":::
+![정보부서 직원이 화면에 집중하고 있습니다.](../media/msc16-slalom-004.jpg)
  
 ## <a name="protect-against-data-exfiltration-and-insider-risk"></a>데이터 유출 및 내부 위험으로부터 보호
 
@@ -312,14 +312,14 @@ Microsoft 365는 최근 Microsoft 365 서비스 전반의 신호를 상호 연�
 
 Microsoft 365의 내부자 위험 관리는 조직이 내부자 위험을 모니터링하고 조사할 수 있는 능력을 크게 향상시키는 동시에 데이터 개인 정보 보호 규정을 준수하고 사례가 더 높은 수준의 조치를 요구할 때 확립된 이관 절차를 따를 수 있도록 합니다.
 
-:::image type="content" source="../media/clo17-call-center-006.jpg" alt-text="콜센터 직원이 칸막이 책상에서 화면을 보고 있습니다.":::
+![콜센터 직원이 칸막이 책상에서 화면을 보고 있습니다.](../media/clo17-call-center-006.jpg)
  
 ### <a name="tenant-restrictions"></a>테넌트 제한
 중요한 데이터를 다루고 보안에 중점을 둔 조직에서는 일반적으로 사용자가 액세스할 수 있는 온라인 리소스를 제어하려고 합니다. 동시에 Office 365와 같은 온라인 서비스를 통해 공동 작업을 안전하게 수행하고자 합니다. 그 결과, 회사 이외의 Office 365 환경을 사용하여 회사 장치에서 실수로 또는 악의적으로 데이터를 유출함에 따라 사용자가 액세스할 수 있는 Office 365 환경을 제어하는 것이 어려워졌습니다. 일반적으로 조직에서는 사용자가 회사 장치에서 액세스할 수 있는 도메인 또는 IP 주소를 제한합니다. 하지만 사용자가 Office 365 서비스에 올바르게 액세스해야 하는 클라우드 우선 환경에서는 효과가 없습니다.
 
 Microsoft 365에서는 이 문제를 해결하는 테넌트 [제한](https://docs.microsoft.com/azure/active-directory/manage-apps/tenant-restrictions) 기능을 제공합니다. 악성 ID(회사 디렉터리에 속하지 않는 ID)를 사용하는 외부 Office 365 엔터프라이즈 테넌트에 대해 직원 액세스를 제한하도록 테넌트 제한을 구성할 수 있습니다. 현재 테넌트 전반에 걸쳐 테넌트 제한이 적용되어, 사용자가 구성한 목록에 표시되는 테넌트에만 액세스할 수 있습니다. Microsoft는 이 솔루션을 계속 개발하여 제어를 세분화하고, 제공하는 보호 기능을 향상하고 있습니다.
 
-:::image type="content" source="../media/clo1717-corporate-office-001.jpg" alt-text="그래픽":::
+![그래픽](../media/clo1717-corporate-office-001.jpg)
  
 ## <a name="conclusion"></a>결론
 
