@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 점수 (preview)에서 평가를 설정 하는 데 사용할 준비가 된 모든 템플릿을 검토 합니다.
-ms.openlocfilehash: 9e40527b44bc5b9a7a926a32f6e5d107c257b7b7
-ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
+ms.openlocfilehash: e95e58aaa046ff48fed721881b8486f0ef5267b3
+ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "45035623"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46612694"
 ---
 # <a name="compliance-score-preview-templates"></a>준수 점수 (미리 보기) 서식 파일
 
@@ -41,6 +41,6 @@ ms.locfileid: "45035623"
 | :---: |:---:|:---:|:---:|
 |[CSA (cloud Security 제휴) 3.0.1 (CCM)](offering-csa-star-attestation.md) | [FedRAMP 보통](offering-fedramp.md)| [연방 금융 기관 검사 Council (FFIEC) 정보 보안 소책자](offering-ffiec-us.md) |[브라질 LGPD (일반 데이터 보호 법)](https://go.microsoft.com/fwlink/?linkid=2115387) |
 |[ISO 27001:2013](https://go.microsoft.com/fwlink/?linkid=2109073) | [NIST 800-53 Rev. 4](https://go.microsoft.com/fwlink/?linkid=2109075) | [HIPAA/HITECH](offering-hipaa-hitech.md) | [캘리포니아 CCPA (소비자 개인 정보 보호 Act)](offering-ccpa.md) (preview)
-|[ISO 27001:2019](offering-iso-27701.md)  | [NIST 800-171](offering-nist-sp-800-171.md)|  | [DGISR (두바이 Information Security Resolution)](https://go.microsoft.com/fwlink/?linkid=2131193) |
-| [ISO 27018:2014](offering-iso-27018.md) | [NIST Cybersecurity Framework (CSF)](offering-nist-csf.md) |  |[유럽 연합 GDPR](gdpr.md) |
+|[ISO 27018:2014](offering-iso-27018.md)  | [NIST 800-171](offering-nist-sp-800-171.md)|  | [DGISR (두바이 Information Security Resolution)](https://go.microsoft.com/fwlink/?linkid=2131193) |
+| [ISO 27701:2019](offering-iso-27701.md) | [NIST Cybersecurity Framework (CSF)](offering-nist-csf.md) |  |[유럽 연합 GDPR](gdpr.md) |
 | [Microsoft 365 데이터 보호 초기 계획](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline) | [SOC 1 & 2](offering-soc.md) |  | [Irap/오스트레일리아 정부 ISM](offering-ccsl-irap-australia.md) (미리 보기) |

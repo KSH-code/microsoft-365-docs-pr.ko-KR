@@ -12,12 +12,12 @@ ms.reviewer: esaggese
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 7f54832001f80418ffb09bc45da8f32c79f3df53
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.openlocfilehash: 0c66afa22c8712455a875bc8ca4ddcad1678e2e7
+ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46503039"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46602001"
 ---
 # <a name="double-key-encryption-dke"></a>DKE (이중 암호화)
 
@@ -138,11 +138,11 @@ Microsoft는 GitHub 리포지토리에 DKE 원본 파일을 제공 합니다. �
 
     예제:
 
-    :::image type="content" source="../media/dke-clone.png" alt-text="GitHub에서 이중 키 암호화 서비스 리포지토리 복제":::
+   ![GitHub에서 이중 키 암호화 서비스 리포지토리 복제](../media/dke-clone.png)
 
 3. Visual Studio Code에서 **View** \> **명령 색상표** 보기를 선택 하 고 **Git: 클론**을 선택 합니다. 목록에서 옵션으로 이동 하려면 입력을 시작 하 여 `git: clone` 항목을 필터링 한 다음 드롭다운에서 선택 합니다. 예제:
 
-    :::image type="content" source="../media/dke-vscode-clone.png" alt-text="Visual Studio Code GIT: Clone 옵션":::
+   ![Visual Studio Code GIT: Clone 옵션](../media/dke-vscode-clone.png)
 
 4. Git에서 복사한 URL을 텍스트 상자에 붙여넣고 **GitHub에서 복제**를 선택 합니다.
 
@@ -152,7 +152,7 @@ Microsoft는 GitHub 리포지토리에 DKE 원본 파일을 제공 합니다. �
 
     예제:
 
-    :::image type="content" source="../media/dke-vscode-master.png" alt-text="Visual Studio 코드 마스터 분기":::
+   ![Visual Studio 코드 마스터 분기](../media/dke-vscode-master.png)
 
 6. Word **마스터를** 선택한 다음 분기 목록에서 **public_preview** 를 선택 합니다.
 
@@ -170,7 +170,7 @@ DKE 서비스를 배포 하려면 다음 유형의 응용 프로그램 설정을
 
 파일의 appsettings.js에서 응용 프로그램 설정을 수정 합니다. 이 파일은 DoubleKeyEncryptionService\src\customer-key-store.에서 로컬로 복제 한 DoubleKeyEncryptionService 저장소에 있습니다. 예를 들어 Visual Studio Code에서는 다음 그림과 같이 파일을 탐색할 수 있습니다.
 
-:::image type="content" source="../media/dke-appsettingsjson.png" alt-text="DKE 용 파일에서 appsettings.js찾기":::
+![DKE 용 파일에서 appsettings.js찾기](../media/dke-appsettingsjson.png)
 
 #### <a name="key-access-settings"></a>키 액세스 설정
 
@@ -200,7 +200,7 @@ DKE 서비스를 배포 하려면 다음 유형의 응용 프로그램 설정을
 
 이 이미지는 전자 메일 권한 부여를 위해 올바르게 형식이 지정 된 파일 **의appsettings.js** 를 보여 줍니다.
 
-   :::image type="content" source="../media/dke-email-accesssetting.png" alt-text="전자 메일 인증 방법을 보여 주는 appsettings.js파일":::
+   ![전자 메일 인증 방법을 보여 주는 appsettings.js파일](../media/dke-email-accesssetting.png)
 
 **역할 인증을 사용 하 여 DKE에 대 한 키 액세스 설정을 설정 하려면**
 
@@ -222,7 +222,7 @@ DKE 서비스를 배포 하려면 다음 유형의 응용 프로그램 설정을
 
 이 이미지는 역할 권한 부여를 위해 올바르게 형식이 지정 된 파일 **의appsettings.js** 를 보여 줍니다.
 
-   :::image type="content" source="../media/dke-role-accesssetting.png" alt-text="역할 인증 방법을 보여 주는 파일의appsettings.js":::
+   ![역할 인증 방법을 보여 주는 파일의 appsettings.js](../media/dke-role-accesssetting.png)
 
 #### <a name="tenant-and-key-settings"></a>테 넌 트 및 키 설정
 
@@ -252,7 +252,7 @@ DKE 테 넌 트 및 키 설정은 파일 **의appsettings.js** 에 있습니다.
 
 **appsettings.js**의 테 넌 트 및 키 설정에 대 한 올바른 형식을 표시 하는 이미지입니다. `LDAPPath`역할 인증에 대해 구성 됩니다.
 
-:::image type="content" source="../media/dke-appsettingsjson-tenantkeysettings.png" alt-text="파일의 appsettings.js에 있는 DKE에 대 한 올바른 테 넌 트 및 키 설정을 표시 합니다.":::
+![파일의 appsettings.js에 있는 DKE에 대 한 올바른 테 넌 트 및 키 설정을 표시 합니다.](../media/dke-appsettingsjson-tenantkeysettings.png)
 
 ### <a name="generate-test-keys"></a>테스트 키 생성
 
@@ -311,7 +311,7 @@ DKE 테 넌 트 및 키 설정은 파일 **의appsettings.js** 에 있습니다.
 
    최종 결과는 다음과 같습니다.
 
-   :::image type="content" source="../media/dke-startupcs-usetestkeys.png" alt-text="공용 미리 보기용 startup.cs 파일":::
+   ![공용 미리 보기용 startup.cs 파일](../media/dke-startupcs-usetestkeys.png)
 
 이제 [DKE 프로젝트를 빌드할](#build-the-project)준비가 되었습니다.
 
@@ -325,15 +325,15 @@ DKE 테 넌 트 및 키 설정은 파일 **의appsettings.js** 에 있습니다.
 
    빌드 작업을 찾을 수 없는 경우에는 **빌드 작업 구성을** 선택 하 고 다음과 같이 .net core에 대해 create build tasks를 만듭니다.
 
-   :::image type="content" source="../media/dke-configurebuildtask.png" alt-text=".NET에 대 한 누락 된 빌드 작업 구성":::
+   ![.NET에 대 한 누락 된 빌드 작업 구성](../media/dke-configurebuildtask.png)
 
    1. **서식 파일에서 tasks.js만들기**를 선택 합니다.
 
-   :::image type="content" source="../media/dke-createtasksjsonfromtemplate.png" alt-text="DKE 템플릿의 파일에서 tasks.js만들기":::
+   ![DKE 템플릿의 파일에서 tasks.js만들기](../media/dke-createtasksjsonfromtemplate.png)
 
    2. 템플릿 유형 목록에서 **.Net Core**를 선택 합니다.
 
-   :::image type="content" source="../media/dke-tasksjsontemplate.png" alt-text="DKE 템플릿의 파일에서 tasks.js만들기":::
+   ![DKE 템플릿의 파일에서 tasks.js만들기](../media/dke-tasksjsontemplate.png)
 
    3. 빌드 섹션에서 **customerkeystore** 파일의 경로를 찾습니다. 여기에 해당 하지 않으면 다음 줄을 추가 합니다.
 
@@ -375,7 +375,7 @@ https://localhost:5001/TestKey1
 
     예제:
 
-    :::image type="content" source="../media/dke-azure-add-app-service.png" alt-text="앱 서비스 추가":::
+   ![앱 서비스 추가](../media/dke-azure-add-app-service.png)
 
 1. 페이지 맨 아래에서 **검토 + 만들기**를 선택한 다음 **추가**를 선택 합니다.
 
@@ -422,7 +422,7 @@ DKE가 배포 되었으며 만든 테스트 키로 이동할 수 있습니다. �
 
     예제:
 
-    :::image type="content" source="../media/dke-ftp-dashboard.png" alt-text="FTP 대시보드에서 연결 문자열 복사":::
+   ![FTP 대시보드에서 연결 문자열 복사](../media/dke-ftp-dashboard.png)
 
 1. 키 저장소의 코드 베이스에서 **customer-key-store\src\customer-key-store 디렉터리로**이동 합니다.
 
@@ -444,7 +444,7 @@ DKE가 배포 되었으며 만든 테스트 키로 이동할 수 있습니다. �
 
 위에 설명 된 방법 중 하나를 사용 하 여 DKE를 배포한 후에는 배포 및 키 저장소 설정의 유효성을 검사 합니다.
 
-를 실행합니다.
+을 실행합니다.
 
 src\customer-key-store\scripts\key_store_tester.ps1 mykeymykey url/
 
@@ -470,7 +470,7 @@ key_store_tester.ps1https://mycustomerkeystore.com/mykey
 
     예제:
 
-    :::image type="content" source="../media/dke-app-registration.png" alt-text="새 앱 등록":::
+   ![새 앱 등록](../media/dke-app-registration.png)
 
 4. 페이지 맨 아래에서 **등록** 을 선택 하 여 새 앱 등록을 만듭니다.
 
@@ -528,7 +528,7 @@ Microsoft 365 준수 센터에서 새 민감도 레이블을 만들고 암호화
 
 예제:
 
-:::image type="content" source="../media/dke-use-dke.png" alt-text="Microsoft 365 준수 센터에서 이중 키 암호화 사용을 선택 합니다.":::
+![Microsoft 365 준수 센터에서 이중 키 암호화 사용을 선택 합니다.](../media/dke-use-dke.png)
 
 추가 하는 모든 DKE 레이블은 최신 버전의 Microsoft 365 Apps for enterprise의 사용자에 게 표시 되기 시작 합니다.
 
