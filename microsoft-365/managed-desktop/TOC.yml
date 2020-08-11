@@ -103,6 +103,13 @@
     - name: Microsoft Managed Desktop 사용
       href: working-with-managed-desktop/index.md
       items:
+        - name: 보고서 작업
+          href: working-with-managed-desktop/reports.md
+          items:
+            - name: 장치 규정 준수 보고서
+              href: working-with-managed-desktop/device-compliance-report.md
+            - name: 디바이스 인벤토리
+              href: working-with-managed-desktop/device-inventory-report.md
         - name: 인사이트를 활용한 작업
           href: working-with-managed-desktop/insights.md
           items:

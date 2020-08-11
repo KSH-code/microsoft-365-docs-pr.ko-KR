@@ -15,12 +15,12 @@ ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 ms.collection:
 - M365-security-compliance
 description: 사용자의 조직에서 보낸 메시지의 유효성을 검사하기 위해 도메인 기반 메시지 인증, 보고 및 적합성(DMARC)을 구성하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: adc213ec5c47184f997a812425e53a61d7ac2da3
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 56e557a3ca970540288c00d5fb8a30549c252776
+ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45016329"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46601876"
 ---
 # <a name="use-dmarc-to-validate-email"></a>DMARC를 사용하여 전자 메일의 유효성 검사
 
@@ -227,7 +227,7 @@ contoso.com     3600   IN  MX  10 contoso-com.mail.protection.outlook.com
 
 모든 또는 대부분의 전자 메일은 기본 MX인 mail.contoso.com으로 먼저 경로 지정된 다음, 메일은 EOP로 경로 지정됩니다. 경우에 따라 EOP를 MX 레코드로 전혀 나열하지 않고 단순히 커넥터를 연결하여 전자 메일을 경로 지정할 수도 있습니다. DMARC 유효성 검사를 수행하기 위해 EOP가 첫 번째 항목일 필요는 없습니다. 모든 온-프레미스/비O365 서버가 DMARC 검사를 수행할 것이라고 확신할 수 없기 때문에 이는 유효성 검사만을 보장합니다.  DMARC TXT 레코드를 설정할 때 DMARC는 고객의 도메인 (서버가 아님)에 대해 수행될 수 있지만, 실제로 수행을 적용하는 것은 수신 서버에 달려 있습니다.  수신 서버로 EOP를 설정하면 EOP가 DMARC 검사를 수행합니다.
 
-:::image type="content" source="../../media/Tp_DMARCTroublehoot.png" alt-text="DMARC에 대한 문제 해결 그래픽, Daniel Mande 제공":::
+![DMARC에 대한 문제 해결 그래픽, Daniel Mande 제공](../../media/Tp_DMARCTroublehoot.png)
 
 ## <a name="for-more-information"></a>자세한 내용
 
