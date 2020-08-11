@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능에 대 한 개요를 확인 하세요.
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: d62d24a8f4cbd0541099ece91e46a23d3fbc786c
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: c977aa3f57c981cdc29037ca6f9f7803b7accd03
+ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208914"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46601900"
 ---
 # <a name="an-overview-of-automated-investigation-and-response-air-in-microsoft-365"></a>Microsoft 365의 자동화 된 조사 및 응답 (AIR)에 대 한 개요
 
@@ -127,11 +127,11 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 예를 들어 위협 탐색기에서 **맬웨어** 보기를 사용 한다고 가정해 보겠습니다. 차트 아래 탭을 사용 하 여 **전자 메일** 탭을 선택 합니다. 목록에서 항목을 하나 이상 선택 하면 **+ Actions** 단추가 활성화 됩니다. 
 
-:::image type="content" source="../../media/Explorer-Malware-Email-ActionsInvestigate.png" alt-text="선택한 메시지가 있는 탐색기":::
+![선택한 메시지가 있는 탐색기](../../media/Explorer-Malware-Email-ActionsInvestigate.png)
 
 **동작** 메뉴를 사용 하 여 **트리거 조사**를 선택할 수 있습니다.
 
-:::image type="content" source="../../media/explorer-malwareview-selectedemails-actions.jpg" alt-text="선택한 메시지에 대 한 동작 메뉴":::
+![선택한 메시지에 대 한 동작 메뉴](../../media/explorer-malwareview-selectedemails-actions.jpg)
 
 경고로 트리거되는 playbook와 마찬가지로, 탐색기의 보기에서 트리거되는 자동 조사에는 루트 조사, 위협의 식별 및 상관 지정, 위협 완화를 위한 권장 작업 등이 포함 됩니다.
 

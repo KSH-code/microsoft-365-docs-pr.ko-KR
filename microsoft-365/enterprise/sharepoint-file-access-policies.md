@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 6429c3dee32087d6e82a427b2f374ec49bab5cac
-ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
+ms.openlocfilehash: 784a4d617d74916ae7b0ec4b431cc298ce45531e
+ms.sourcegitcommit: d6b641d0ef92f4176da9f4a98d3d5aa3d4f2e184
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44222688"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46617189"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>SharePoint 사이트 및 파일을 보호 하기 위한 정책 권장 사항
 
@@ -29,13 +29,13 @@ ms.locfileid: "44222688"
 
 이러한 권장 사항은 **기본**, **중요**및 **높은 규제**의 요구 사항에 따라 적용할 수 있는 SharePoint 파일에 대 한 세 가지 보안 및 보호 계층을 기반으로 합니다. 이러한 보안 계층 및 권장 되는 클라이언트 운영 체제에 대 한 자세한 내용은 [개요](microsoft-365-policies-configurations.md)의 이러한 권장 사항을 참조 하세요.
 
-이 지침을 구현 하는 것 외에도 중요 한 콘텐츠와 고도로 규제 된 콘텐츠에 대 한 적절 한 사용 권한을 설정 하는 것을 포함 하 여 SharePoint 사이트를 올바른 보호 수준으로 구성 해야 합니다. 기준, 중요 및 고도로 규제 된 보호를 위한 사이트를 만드는 방법에 대 한 자세한 내용은 [SharePoint Online 사이트 및 파일 보호](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files)를 참조 하세요.
+이 지침을 구현 하는 것 외에도 중요 한 콘텐츠와 고도로 규제 된 콘텐츠에 대 한 적절 한 사용 권한을 설정 하는 것을 포함 하 여 SharePoint 사이트를 올바른 보호 수준으로 구성 해야 합니다.
 
 ## <a name="updating-common-policies-to-include-sharepoint-and-onedrive-for-business"></a>SharePoint 및 비즈니스용 OneDrive를 포함 하도록 일반 정책 업데이트
 
 다음 다이어그램에서는 SharePoint Online 및 비즈니스용 OneDrive에서 파일을 보호 하기 위한 권장 정책 집합을 보여 줍니다. SharePoint Online 및 비즈니스용 OneDrive에 대 한 보호를 추가 하기 위해 업데이트 하거나 새로 만들어야 하는 정책을 나타냅니다.
 
-![SharePoint Online 및 OneDrive에 대 한 정책 요약](../media/identity-access-ruleset-sharepoint.png)
+[![SharePoint Online 및 OneDrive ](../media/identity-access-ruleset-sharepoint.png) 에 대 한 정책 요약](../media/identity-access-ruleset-sharepoint.png#lightbox)
 
 공용 정책을 만들 때 SharePoint Online을 포함 한 경우에는 새 정책만 만들면 됩니다. 조건부 액세스 규칙을 구성 하는 경우 SharePoint Online에 비즈니스용 OneDrive가 포함 됩니다.
 
@@ -45,7 +45,7 @@ ms.locfileid: "44222688"
 
 |보호 수준|정책|추가 정보|
 |:---------------|:-------|:----------------|
-|**기준선**|[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 SharePoint Online 포함|
+|**기준**|[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 SharePoint Online 포함|
 |        |[최신 인증을 지원하지 않는 클라이언트 차단](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|클라우드 앱 할당에 SharePoint Online 포함|
 |        |[앱 데이터 보호 정책 적용](identity-access-policies.md#apply-app-data-protection-policies)|모든 권장 앱이 앱 목록에 포함 되어 있는지 확인해 보십시오. 각 플랫폼의 정책 (iOS, Android, Windows)을 업데이트 해야 합니다.|
 |        |[호환 PC 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|클라우드 앱 목록에 SharePoint Online 포함|
@@ -77,7 +77,7 @@ SharePoint 사이트 사용 권한은 일반적으로 사이트에 대 한 액�
 
 다음 그림에서는 SharePoint 장치 액세스 정책이 사이트에 대 한 액세스를 보호 하는 방법의 예를 보여 줍니다.
 
-![SharePoint 장치 액세스 정책에서 사이트를 보호 하는 방법](../media/SharePoint-rules-scenario.png)
+[![SharePoint 장치 액세스 정책에서 사이트 ](../media/SharePoint-rules-scenario.png) 를 보호 하는 방법](../media/SharePoint-rules-scenario.png#lightbox)
 
 이 그림의 내용
 
@@ -86,6 +86,4 @@ SharePoint 사이트 사용 권한은 일반적으로 사이트에 대 한 액�
 - James가 중요 한 사이트에 액세스 하는 경우, 기본 사용자에 게 허용 되는 관리 되지 않는 휴대폰을 사용 하는 구성원 인 경우이 사이트에 대해 구성 된 장치 액세스 정책으로 인해 중요 한 사이트에 대 한 브라우저 전용 액세스 권한이 부여 됩니다.
 - James가 관리 되지 않는 휴대폰을 사용 하는 구성원 인 고도로 규제 된 사이트에 액세스 하는 경우이 사이트에 대해 구성 된 액세스 정책으로 인해 차단 됩니다. 관리 및 준수 PC를 사용 해야만이 사이트에 액세스할 수 있습니다.
 
-## <a name="next-steps"></a>다음 단계
 
-[SharePoint Online 사이트 및 파일 보호](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files)

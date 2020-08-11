@@ -8,15 +8,15 @@ audience: admin
 ms.topic: article
 ms.service: ''
 search.appverid: ''
-localization_priority: Normal
+localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: SharePoint 문서 라이브러리에 게시 된 모델을 적용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7e5f3f02c2679769515b27026918a15c901c896e
-ms.sourcegitcommit: ea5e2f85bd6b609658545b120c7e08789b9686fd
+ms.openlocfilehash: 0658710704273ed04e9f2067413d1141773ef4aa
+ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "46537615"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46612683"
 ---
 # <a name="apply-a-document-understanding-model-preview"></a>문서 이해 모델 적용 (미리 보기)
 

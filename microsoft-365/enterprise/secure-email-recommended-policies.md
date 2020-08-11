@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: e469f0d1c0be85aeb5f98a4f2e6e2758cddd8450
-ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
+ms.openlocfilehash: c2eabd160cf221f7e2bb7b81f07c205135476cc9
+ms.sourcegitcommit: d6b641d0ef92f4176da9f4a98d3d5aa3d4f2e184
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44222700"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46617177"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>메일을 보호하기 위한 정책 권장 사항
 
@@ -37,11 +37,13 @@ ms.locfileid: "44222700"
 
 ![전자 메일을 보호 하기 위한 정책 업데이트 요약](../media/identity-access-ruleset-mail.png)
 
+[이 이미지의 더 큰 버전 보기](https://raw.githubusercontent.com/MicrosoftDocs/microsoft-365-docs/public/microsoft-365/media/identity-access-ruleset-mail.png)
+
 정책을 설정할 때 정책 범위에 Exchange Online과 Outlook을 포함 한 경우에는 ActiveSync 클라이언트를 차단 하는 새 정책만 만들면 됩니다. 다음 표에 나와 있는 정책 들을 검토 하 고 권장 되는 추가 내용을 확인 하거나 이미 포함 되어 있는 것을 확인 합니다. 각 규칙은 [일반 id 및 장치 액세스 정책](identity-access-policies.md) 문서의 관련 구성 지침에 연결 됩니다.
 
 |보호 수준|정책|추가 정보|
 |:---------------|:-------|:----------------|
-|**기준선**|[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 Exchange Online 포함|
+|**기준**|[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 Exchange Online 포함|
 |        |[최신 인증을 지원하지 않는 클라이언트 차단](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|클라우드 앱 할당에 Exchange Online 포함|
 |        |[앱 데이터 보호 정책 적용](identity-access-policies.md#apply-app-data-protection-policies)|Outlook이 앱 목록에 포함 되어 있어야 합니다. 각 플랫폼의 정책 (iOS, Android, Windows)을 업데이트 해야 합니다.|
 |        |[승인 된 앱 및 앱 보호 필요](identity-access-policies.md#require-approved-apps-and-app-protection)|클라우드 앱 목록에 Exchange Online 포함|

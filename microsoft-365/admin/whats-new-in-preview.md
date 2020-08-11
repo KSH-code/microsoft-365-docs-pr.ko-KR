@@ -21,12 +21,12 @@ description: Microsoft 365 관리 센터-이 달에 추가 된 기능에 대해 
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 0bb0955e08c187ae7b425228f435566bcd8e01d7
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 11a48ecf78c09c8e597d94821f747bf6ebd7e444
+ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45015996"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46602012"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운 기능
 
@@ -102,7 +102,7 @@ Microsoft 365 관리 센터에 몇 가지 새로운 Azure Active Directory 관�
 
 잘 하셨습니다. 두 번째 단계를 통합 된 역할 환경으로 이동 했으며 이제 Microsoft 365 관리 센터에서 Intune 역할을 관리할 수 있습니다. 역할을 검색 하 고 역할 권한을 보기 위한 기능과 같은 기능을 활용할 수도 있습니다. 즉, Microsoft 365 및 Intune에 대 한 역할을 관리 하는 두 가지 별도의 도구가 필요 하지 않습니다. Microsoft 365 관리 센터에 로그인 할 때 역할 페이지에는 Azure AD에 대해 하나씩, Intune 용으로는 두 개의 피벗이 표시 됩니다.
 
-:::image type="content" source="../media/MAC-WN-IntuneRoles.png" alt-text="Intune 피벗이 선택 된 역할 페이지":::
+![Intune 피벗이 선택 된 역할 페이지](../media/MAC-WN-IntuneRoles.png)
 
 ### <a name="sync-message-center-posts-to-planner"></a>Planner에 메시지 센터 게시물 동기화
 
@@ -173,19 +173,19 @@ Microsoft 지원 에이전트는 집에서 작업 하는 동안 고객의 사례
 
 사용자를 추가할 때 라이선스를 할당 하는 것이 얼마나 어려운 지 관리자 로부터 많은 의견이 수신 되었습니다. 이 수정 프로그램에 대 한 첫 번째 업데이트를 수행 했으며, 이러한 요청을 처리 하기 위해 보다 신뢰할 수 있는 백그라운드 서비스를 마이그레이션 했습니다. 문제가 발생 하면 나중에 다시 시도할 수 있는 오류 메시지가 표시 됩니다.
 
-:::image type="content" source="../media/MAC-WN-ImprovedLicensing.png" alt-text="오류가 있는 사용자 확인 페이지를 추가 합니다.":::
+![오류가 있는 사용자 확인 페이지를 추가 합니다.](../media/MAC-WN-ImprovedLicensing.png)
 
 ### <a name="microsoft-teams-home-page-card"></a>Microsoft 팀 홈 페이지 카드
 
 팀 사용에서의 uptick을 사용 하는 경우 일부 조직을에서 고정 된 대시보드 카드를 가져와 더 쉽게 검색할 수 있도록 설정 합니다. 또한이 카드에는 조직에서 원격 작업으로 전환 하는 데 도움이 되는 교육 및 문서에 대 한 링크도 포함 되어 있습니다. **홈** 페이지로 이동 하 여 새 카드를 확인 하세요.
 
-:::image type="content" source="../media/MAC-WN-TeamsCard.PNG" alt-text="Microsoft 팀 홈 페이지 카드":::
+![Microsoft 팀 홈 페이지 카드](../media/MAC-WN-TeamsCard.PNG)
 
 ### <a name="customize-your-organizations-sharepoint-mobile-app-theme"></a>조직의 SharePoint 모바일 앱 테마 사용자 지정
 
 Microsoft 365 관리 센터를 사용 하 여 이제 SharePoint 모바일 앱 for iOS 및 SharePoint 모바일 앱 for Android에서 조직의 테마를 사용자 지정할 수 있습니다. 이 기능은 이동 중에 직원 들에 게 SharePoint Online을 일치 시킬 수 있는 모바일 인트라넷 앱 환경을 간편 하 게 제공 합니다. 테마 사용자 지정에는 로고 이미지, 탐색 모음 색, 텍스트 및 아이콘 색, 강조 색 등이 포함 되어 쉽게 인식할 수 있습니다.
 
-:::image type="content" source="../media/MAC-WN-CustThemeSP.png" alt-text="관리 센터 설정을 모바일 앱에 매핑하는 다이어그램입니다.":::
+![관리 센터 설정을 모바일 앱에 매핑하는 다이어그램입니다.](../media/MAC-WN-CustThemeSP.png)
 
 ### <a name="improvements-to-the-add-a-group-wizard"></a>"그룹 추가" 마법사의 향상 된 기능
 
@@ -403,7 +403,7 @@ Ignite 2019의 몇 가지 흥미로운 기능 릴리스에 대 한 램프는 몇
 이번 달에는 다음과 같은 청구 및 구독 업데이트가 있습니다.
 
 - 장치 기반 구독: Microsoft 365 관리 센터의 장치에 **대해 교육 (장치) 라이선스에 대 한 Microsoft 365 앱** 을 할당 하거나 할당 해제할 수 있습니다. **Microsoft 365 교육용 앱 (장치)** 은 장치에 라이선스를 할당 하는 데 사용할 수 있는 추가 기능 라이선스입니다. 제품 **대금 청구**로 이동 하 여  >  **Your products** 라이선스를 찾고 구입 합니다.
-- 사용자 기반 라이선스 관리: **사용자**  >  **활성 사용자** 의 라이선스를 새 스타일에 할당 하는 방법을 업데이트 했습니다. 자세한 내용은 다음을 참조하세요.
+- 사용자 기반 라이선스 관리: **사용자**  >  **활성 사용자** 의 라이선스를 새 스타일에 할당 하는 방법을 업데이트 했습니다. 자세한 내용은 다음을 참조하십시오.
   - [사용자에게 라이선스 할당](manage/assign-licenses-to-users.md)
   - [사용자의 라이선스 할당 취소](manage/remove-licenses-from-users.md)
 

@@ -8,15 +8,15 @@ audience: admin
 ms.topic: article
 ms.service: ''
 search.appverid: ''
-localization_priority: Normal
+localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: 항목 센터에서 사용자에 게 작업을 수행할 수 있는 권한을 부여 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 0e4e05d0addfdb754459e67acfdff3f61c7c812e
-ms.sourcegitcommit: ea5e2f85bd6b609658545b120c7e08789b9686fd
+ms.openlocfilehash: 2b7c745146b0386ff7f8bc2dcaf126a530b77598
+ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "46537856"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46612575"
 ---
 # <a name="give-user-permissions-to-the-topic-center-preview"></a>항목 센터에 사용자 권한 부여 (미리 보기)
 

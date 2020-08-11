@@ -8,15 +8,15 @@ audience: admin
 ms.topic: article
 ms.service: ''
 search.appverid: ''
-localization_priority: Normal
+localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Project Cortex의 양식 처리에 대해 알아봅니다.
-ms.openlocfilehash: 9709c8170f5dc6ce0edbeb2d90cb4e1f6d759c64
-ms.sourcegitcommit: 3a47efcbdf3d2b39caa2798ea5be806839b05ed1
+ms.openlocfilehash: dbea06cdf2dbb232a7ea48c78d7ea968dd18b9c0
+ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "46540061"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46612729"
 ---
 # <a name="form-processing-overview-preview"></a>양식 처리 개요 (미리 보기)
 > [!Note]
