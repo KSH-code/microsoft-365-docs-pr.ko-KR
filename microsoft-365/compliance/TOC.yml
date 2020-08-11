@@ -261,20 +261,22 @@
       items:
         - name: 타사 데이터 보관 개요
           href: archiving-third-party-data.md
-        - name: Bloomberg 메시지 데이터 보관 (미리 보기)
-          href: archive-bloomberg-message-data.md
-        - name: Facebook 데이터 보관(미리 보기)
-          href: archive-facebook-data-with-sample-connector.md
-        - name: HR 데이터 가져오기(미리 보기)
-          href: import-hr-data.md
-        - name: ICE 채팅 데이터 보관 (미리 보기)
-          href: archive-icechat-data.md
-        - name: Instant Bloomberg 데이터 보관
-          href: archive-instant-bloomberg-data.md
-        - name: LinkedIn 데이터 보관
-          href: archive-linkedin-data.md
-        - name: Twitter 데이터 보관(미리 보기)
-          href: archive-twitter-data-with-sample-connector.md
+        - name: Microsoft 데이터 커넥터
+          items:
+            - name: 블룸버그 메시지
+              href: archive-bloomberg-message-data.md
+            - name: Facebook Business
+              href: archive-facebook-data-with-sample-connector.md
+            - name: HR 데이터
+              href: import-hr-data.md
+            - name: ICE 채팅
+              href: archive-icechat-data.md
+            - name: Instant Bloomberg
+              href: archive-instant-bloomberg-data.md
+            - name: LinkedIn
+              href: archive-linkedin-data.md
+            - name: Twitter
+              href: archive-twitter-data-with-sample-connector.md
         - name: 타사 데이터를 저장하는 데 파트너와 협력
           href: work-with-partner-to-archive-third-party-data.md
         - name: 타사 데이터 검색
