@@ -13,45 +13,27 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: 6dc99bbfb674c3119fb1926abe5690381a3d78cd
-  ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+  ms.openlocfilehash: 648b9a3256aaca8eaabba80af1edee3beccf1ac2
+  ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 07/29/2020
-  ms.locfileid: "46521198"
+  ms.lasthandoff: 08/12/2020
+  ms.locfileid: "46641622"
 landingContent:
-- title: 정보 보호 관리
+- title: 정보 보호 및 거버넌스 관리
   linkLists:
   - linkListType: overview
     links:
-    - text: 민감도 레이블
-      url: sensitivity-labels.md
-    - text: DLP(데이터 손실 방지)
-      url: data-loss-prevention-policies.md
-    - text: 중요한 정보 유형
-      url: custom-sensitive-info-types.md
-    - text: 전자 메일 암호화
-      url: email-encryption.md
-    - text: 고객 키
-      url: customer-key-overview.md
-- title: 정보 거버넌스 관리
-  linkLists:
-  - linkListType: overview
-    links:
-    - text: 보존 정책 및 레이블
-      url: retention.md
-    - text: 레코드 관리
-      url: records-management.md
-    - text: 파일 플랜 관리자
-      url: file-plan-manager.md
-    - text: 이벤트 기반 보존
-      url: event-driven-retention.md
-    - text: PST 가져오기
-      url: importing-pst-files-to-office-365.md
-    - text: 타사 데이터 커넥터
-      url: archiving-third-party-data.md
-    - text: 데이터 거버넌스 보고서
-      url: view-the-data-governance-reports.md
+    - text: 사용자 데이터 파악
+      url: protect-information.md#know-your-data
+    - text: 사용자 데이터 보호
+      url: protect-information.md#protect-your-data
+    - text: 데이터 손실 방지
+      url: protect-information.md#prevent-data-loss
+    - text: 사용자 데이터 관리
+      url: manage-information-governance.md
+    - text: '학습 경로: 정보 보호 및 관리'
+      url: /learn/paths/m365-compliance-information
 - title: 참가자 위험 관리
   linkLists:
   - linkListType: overview

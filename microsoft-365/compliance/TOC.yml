@@ -243,7 +243,7 @@
   items:
     - name: 정보 거버넌스 관리
       href: manage-information-governance.md
-    - name: 데이터 가져오기
+    - name: 사서함 데이터 가져오기
       items:
         - name: PST 파일 가져오기 개요
           href: importing-pst-files-to-office-365.md
@@ -251,8 +251,6 @@
           href: use-network-upload-to-import-pst-files.md
         - name: 드라이브 발송을 사용하여 PST 파일 가져오기
           href: use-drive-shipping-to-import-pst-files-to-office-365.md
-        - name: 'PST 수집 도구를 사용하여 PST 파일 찾기, 복사 및 삭제'
-          href: find-copy-and-delete-pst-files-in-your-organization.md
         - name: PST 파일을 가져올 때 데이터 필터링
           href: filter-data-when-importing-pst-files.md
         - name: PST 파일 가져오기에 대한 FAQ
