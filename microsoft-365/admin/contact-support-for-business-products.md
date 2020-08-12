@@ -21,12 +21,12 @@ search.appverid:
 description: 해당 국가 또는 지역 전화 번호를 사용하거나 온라인으로 서비스 요청을 제출하여 기술 및 청구 지원을 받습니다.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 6a7daed145294fa0e1c02ac47144d06cfdf26884
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: 1db89882db693c2102ca5c8dcb28f7ceb3ebf12e
+ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552449"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46641588"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>비즈니스용 제품에 대한 고객 지원 센터 문의 방법 - 관리자 도움말
 
@@ -56,6 +56,9 @@ ms.locfileid: "46552449"
 청구 지원은 월요일~금요일 오전 9시부터 오후 5시까지(오스트레일리아의 경우 오전 9시부터 오후 6시까지) 영어로 제공됩니다.\
 기술 지원은 24시간 연중 무휴로 영어로 제공됩니다.\
 전화하는 관리자는 계정 정보를 준비하세요.
+
+> [!NOTE]
+> 조직을 보다 효과적으로 보호하기 위해 기존 전화 기반 검증 프로세스에 PIN 기반 검증 단계를 추가했습니다. 조직 프로필에 등록되지 않은 번호로 연락하면 Microsoft 지원 담당자가 Microsoft 365 관리 센터 프로필에 등록된 전자 메일 또는 전화 번호로 확인 코드를 보냅니다. 지원 담당자에게 조직의 계정에 대한 액세스 권한을 부여하려면 이 코드를 제공해야 합니다.
 
 - **미국에서는 1 800 865 9408로 전화하십시오.**
 
