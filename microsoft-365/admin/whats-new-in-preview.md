@@ -21,12 +21,12 @@ description: Microsoft 365 관리 센터-이 달에 추가 된 기능에 대해 
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 11a48ecf78c09c8e597d94821f747bf6ebd7e444
-ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
+ms.openlocfilehash: 84932e13a336d225894683f9e328cb44df8c0e78
+ms.sourcegitcommit: 6319e73b3690b4cf1b7932f2b9f51c2c99e70eaa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46602012"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46635025"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운 기능
 
@@ -52,6 +52,17 @@ Microsoft 365 관리 센터에 로그인 할 때 항상 새 관리 센터로 이
 - [Microsoft Threat Protection의 새로운 기능](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)
 - [SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
 - [Office 업데이트](https://docs.microsoft.com/OfficeUpdates/)
+
+## <a name="june-2020"></a>2020년 6월
+
+### <a name="keeping-up-with-office-whats-new-management"></a>Office의 새로운 기능 관리
+
+몇 달 전에 [사용자의 Office 앱에 표시 되는 새 메시지](#office-whats-new-management)를 관리 하는 데 사용할 수 있는 설정을 추가 했습니다. 이번 달에는 신속 하 게 작업 하 고 조직의 사용자에 게 표시할 **새** 메시지를 추적 하는 데 도움이 되는 새 홈 페이지 카드를 출시 했습니다.
+
+### <a name="docs-training-and-videos-june"></a>문서, 교육 및 비디오 (6 월)
+
+- [팀 시작](https://support.microsoft.com/office/184f1aba-2f91-43f0-86e1-9fae607e24f6)
+
 
 ## <a name="may-2020"></a>2020년 5월
 
@@ -403,7 +414,7 @@ Ignite 2019의 몇 가지 흥미로운 기능 릴리스에 대 한 램프는 몇
 이번 달에는 다음과 같은 청구 및 구독 업데이트가 있습니다.
 
 - 장치 기반 구독: Microsoft 365 관리 센터의 장치에 **대해 교육 (장치) 라이선스에 대 한 Microsoft 365 앱** 을 할당 하거나 할당 해제할 수 있습니다. **Microsoft 365 교육용 앱 (장치)** 은 장치에 라이선스를 할당 하는 데 사용할 수 있는 추가 기능 라이선스입니다. 제품 **대금 청구**로 이동 하 여  >  **Your products** 라이선스를 찾고 구입 합니다.
-- 사용자 기반 라이선스 관리: **사용자**  >  **활성 사용자** 의 라이선스를 새 스타일에 할당 하는 방법을 업데이트 했습니다. 자세한 내용은 다음을 참조하십시오.
+- 사용자 기반 라이선스 관리: **사용자**  >  **활성 사용자** 의 라이선스를 새 스타일에 할당 하는 방법을 업데이트 했습니다. 자세한 내용은 다음을 참조하세요.
   - [사용자에게 라이선스 할당](manage/assign-licenses-to-users.md)
   - [사용자의 라이선스 할당 취소](manage/remove-licenses-from-users.md)
 

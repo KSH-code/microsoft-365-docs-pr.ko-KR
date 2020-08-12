@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: a08d07f574c1cd5463772c803be0d4b3850144f4
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 7701932cdd41b673dcc665c71983df9f4d244a8b
+ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199545"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46632177"
 ---
 # <a name="insider-risk-management-policies"></a>참가자 위험 관리 정책
 
@@ -75,7 +75,7 @@ ms.locfileid: "45199545"
 
 ### <a name="data-leaks-by-priority-users-preview"></a>우선 순위 사용자의 데이터 누수 (미리 보기)
 
-데이터를 보호 하 고 조직의 사용자에 대 한 데이터 누출을 방지 하는 일은 해당 위치, 중요 한 정보에 대 한 액세스 수준 또는 위험 기록에 따라 달라질 수 있습니다. 데이터 누수는 조직 외부의 중요 한 정보를 실수로 과도 하 게 공유 하거나 악의적인 의도로 데이터를 도용 하는 것을 포함할 수 있습니다. 할당 된 DLP (데이터 손실 방지) 정책과 함께이 서식 파일은 의심 스러운 활동의 실시간 검색을 평가 하 고 더 높은 심각도 수준으로 인해 참가자 위험 경고 및 경고의 발생 가능성을 증대 시킵니다. 우선 순위 사용자는 참가자 위험 관리 설정 영역에 구성 된 우선 순위 사용자 그룹에 정의 됩니다. 링크 추가
+데이터를 보호 하 고 조직의 사용자에 대 한 데이터 누출을 방지 하는 일은 해당 위치, 중요 한 정보에 대 한 액세스 수준 또는 위험 기록에 따라 달라질 수 있습니다. 데이터 누수는 조직 외부의 중요 한 정보를 실수로 과도 하 게 공유 하거나 악의적인 의도로 데이터를 도용 하는 것을 포함할 수 있습니다. 할당 된 DLP (데이터 손실 방지) 정책과 함께이 서식 파일은 의심 스러운 활동의 실시간 검색을 평가 하 고 더 높은 심각도 수준으로 인해 참가자 위험 경고 및 경고의 발생 가능성을 증대 시킵니다. 우선 순위 사용자는 참가자 위험 관리 설정 영역에 구성 된 [우선 순위 사용자 그룹](insider-risk-management-settings.md#priority-user-groups-preview) 에 정의 됩니다.
 
 **일반 데이터 누수 템플릿과**마찬가지로 조직의 심각도가 높은 경고에 대 한 참가자 위험 정책의 지표를 트리거하기 위해 DLP 정책을 할당 해야 합니다. 이 템플릿을 사용 하 여 정책을 만들 때 위의 데이터 누수 정책 지침을 따릅니다. 또한 **참가자 위험 관리**  >  **설정**  >  **우선 순위 사용자 그룹** 에서 만든 우선 순위 사용자 그룹을 정책에 할당 해야 합니다.
 

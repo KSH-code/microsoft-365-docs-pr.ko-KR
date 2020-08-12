@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 보안 & 준수 센터의 보고서 대시보드에서 사용할 수 있는 메일 흐름 보고서에 대해 알아볼 수 있습니다.
 ms.custom: ''
-ms.openlocfilehash: 69b2c3383862860b4616d95c2a6a1bb3a525d842
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: acf74136fc61d38ea9aac47f36d96aa51a7b9905
+ms.sourcegitcommit: 6319e73b3690b4cf1b7932f2b9f51c2c99e70eaa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46578021"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46635037"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>보안 & 준수 센터의 보고서 대시보드에서 메일 흐름 보고서 보기
 
@@ -206,8 +206,7 @@ ms.locfileid: "46578021"
 
 ## <a name="mailflow-status-report"></a>메일 흐름 상태 보고서
 
-**메일 흐름 status 보고서** 는 edge에서 허용 되거나 차단 되는 전자 메일에 대 한 추가 정보가 포함 된 [보낸 날짜 및 받은 전자 메일 보고서](#sent-and-received-email-report)와 유사 합니다. 이 보고서는 edge 보호 정보를 포함 하며, EOP (Exchange Online Protection)에서 평가를 위해 서비스에 허용 되기 전에 차단 되는 전자 메일의 양을 보여 줍니다.
-
+**메일 흐름 status 보고서** 는 edge에서 허용 되거나 차단 되는 전자 메일에 대 한 추가 정보가 포함 된 [보낸 날짜 및 받은 전자 메일 보고서](#sent-and-received-email-report)와 유사 합니다. 이 보고서는 edge 보호 정보를 포함 하며, EOP (Exchange Online Protection)에서 평가를 위해 서비스에 허용 되기 전에 차단 되는 전자 메일의 양을 보여 줍니다. 메시지가 5 명의 받는 사람에 게 전송 되는 경우 메시지가 한 명의 메시지와 다르게 계산 된다는 것을 이해 하는 것이 중요 합니다.  
 보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 다음 **메일 흐름 status report**를 선택 합니다. **메일 흐름 상태 보고서**로 바로 이동 하려면을 엽니다 <https://protection.office.com/mailflowStatusReport> .
 
 ![보고서 대시보드의 메일 흐름 상태 보고서 위젯](../../media/mail-flow-status-report-widget.png)
@@ -221,7 +220,7 @@ ms.locfileid: "46578021"
 
   - **인바운드**
   - **아웃 바운드**
-  - **조직 내** ( **인바운드** 및 **아웃 바운드**와 별도로 계산 됨)
+  - **조직 내**:이 수는 테 넌 트 내의 메시지에 대 한 것입니다. 보낸 사람 abc@domain.com이 받는 사람 xyz@domain.com에 게 전송 합니다 ( **인바운드** 및 **아웃 바운드**와 별도로 계산 됨).
 
 - 다음을 **입력**합니다.
 

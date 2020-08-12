@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 7afcf16a42824ff234e53412a0cbd44f997fcaf9
-ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
+ms.openlocfilehash: cea4dbcb42833a14980d092bd0ff168ca97e5934
+ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45005713"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46632154"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>사용자 지정 검색 규칙 만들기 및 관리
 
@@ -51,6 +51,10 @@ ms.locfileid: "45005713"
 ### <a name="1-prepare-the-query"></a>1. 쿼리를 준비 합니다.
 
 Microsoft 365 보안 센터에서 **고급 구하기** 로 이동 하 여 기존 쿼리를 선택 하거나 새 쿼리를 만듭니다. 새 쿼리를 사용할 때 쿼리를 실행 하 여 오류를 식별 하 고 가능한 결과를 파악 합니다.
+
+>[!IMPORTANT]
+>서비스가 너무 많은 경고를 반환 하지 못하게 하기 위해 각 규칙은 실행 될 때마다 100 경고만 생성 하도록 제한 됩니다. 규칙을 만들기 전에 일상적인 활동에 대 한 경고를 방지 하기 위해 쿼리를 조정 합니다.
+
 
 #### <a name="required-columns-in-the-query-results"></a>쿼리 결과의 필수 열
 사용자 지정 검색 규칙을 만들려면 쿼리가 다음 열을 반환 해야 합니다.
@@ -85,6 +89,7 @@ DeviceEvents
 | summarize Timestamp = max(Timestamp), count() by DeviceId, SHA1, InitiatingProcessAccountObjectId 
 | where count_ > 5
 ```
+
 ### <a name="2-create-new-rule-and-provide-alert-details"></a>2. 새 규칙을 만들고 알림 세부 정보를 제공 합니다.
 
 쿼리 편집기에서 쿼리를 사용 하 여 **검색 규칙 만들기** 를 선택 하 고 다음 알림 세부 정보를 지정 합니다.

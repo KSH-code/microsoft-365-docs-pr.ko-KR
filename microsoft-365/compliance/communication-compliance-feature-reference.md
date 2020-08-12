@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 76cae3cc8f578206790eb2f6caaa96aed24b5a2b
-ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
+ms.openlocfilehash: d8025f6abe9f1b68dea0856b2a53139a711198c6
+ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597557"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46632131"
 ---
 # <a name="communication-compliance-feature-reference"></a>통신 준수 기능 참조
 
@@ -72,7 +72,7 @@ Microsoft 365 준수 센터에서 Microsoft 365 조 직에 대 한 통신 준수
 
 ## <a name="reviewers"></a>가
 
-통신 준수 정책을 만들 때는 감독 된 사용자의 메시지를 검토 하는 사람을 결정 해야 합니다. 정책에서 사용자 전자 메일 주소는 감독 된 통신을 검토할 개인 또는 사용자 그룹을 식별 합니다. 모든 검토자는 Exchange Online에서 호스트 되는 사서함을 포함 해야 하며, *통신 준수 분석* 또는 *통신 준수 조사* 역할에 할당 되어야 합니다. 검토자 (분석가 또는 investigators)에 게는 *통신 준수 사례 관리* 역할이 할당 되어 있어야 합니다. 검토자가 정책에 추가 되 면 사용자에 게 정책 할당을 알리는 전자 메일 메시지를 자동으로 받게 되며 검토 프로세스에 대 한 정보에 대 한 링크를 제공 합니다.
+통신 준수 정책을 만들 때는 감독 된 사용자의 메시지를 검토 하는 사람을 결정 해야 합니다. 정책에서 사용자 전자 메일 주소는 감독 된 통신을 검토할 개인 또는 사용자 그룹을 식별 합니다. 모든 검토자에 게는 Exchange Online에서 호스트 되는 사서함이 있어야 하며 *통신 준수 분석* 또는 *통신 준수 조사* 역할에 할당 되어야 합니다. 검토자 (분석가 또는 investigators)에 게는 *통신 준수 사례 관리* 역할이 할당 되어 있어야 합니다. 검토자가 정책에 추가 되 면 사용자에 게 정책 할당을 알리는 전자 메일 메시지를 자동으로 받게 되며 검토 프로세스에 대 한 정보에 대 한 링크를 제공 합니다.
 
 ## <a name="groups-for-supervised-users-and-reviewers"></a>감독 되는 사용자 및 검토자를 위한 그룹
 
@@ -107,9 +107,9 @@ Microsoft 365 준수 센터에서 Microsoft 365 조 직에 대 한 통신 준수
 
 - 타사 **원본**: Microsoft 365 조직의 사서함으로 가져온 데이터에 대 한 타사 원본의 통신을 검색할 수 있습니다. 커넥터는 다음과 같은 타사 리소스를 지원 합니다.
 
-    - [인스턴트 Bloomberg](archive-instant-bloomberg-data.md)
-    - [Bloomberg 메시지](archive-bloomberg-message-data.md)
-    - [얼음 채팅](archive-icechat-data.md)
+    - [Instant Bloomberg](archive-instant-bloomberg-data.md)
+    - [블룸버그 메시지](archive-bloomberg-message-data.md)
+    - [ICE 채팅](archive-icechat-data.md)
 
 통신 준수 정책에 커넥터를 할당 하려면 먼저 Microsoft 365 조 직에 대 한 타사 커넥터를 구성 해야 합니다. 통신 준수 정책 마법사의 제 **3 자 원본** 섹션에는 현재 구성 된 타사 커넥터도 표시 됩니다.
 
@@ -246,13 +246,13 @@ Microsoft 365의 trainable 분류자에 대 한 자세한 내용은 [trainable �
 ```HTML
 <!DOCTYPE html>
 <html>
-<body>
-<h2>Action Required: Contoso Employee Code of Conduct Policy Training</h2>
-<p>A recent message you've sent has generated a policy alert for the Contoso Employee <a href='https://www.contoso.com'>Code of Conduct Policy</a>.</p>
-<p>You are required to attend the Contoso Employee Code of Conduct <a href='https://www.contoso.com'>training</a> within the next 14 days. Please contact <a href='mailto:hr@contoso.com'>Human Resources</a> with any questions about this training request.</p>
-<p>Thank you,</p>
-<p><em>Human Resources</em></p>
-</body>
+    <body>
+        <h2>Action Required: Contoso Employee Code of Conduct Policy Training</h2>
+        <p>A recent message you've sent has generated a policy alert for the Contoso Employee <a href='https://www.contoso.com'>Code of Conduct Policy</a>.</p>
+        <p>You are required to attend the Contoso Employee Code of Conduct <a href='https://www.contoso.com'>training</a> within the next 14 days. Please contact <a href='mailto:hr@contoso.com'>Human Resources</a> with any questions about this training request.</p>
+        <p>Thank you,</p>
+        <p><em>Human Resources</em></p>
+    </body>
 </html>
 ```
 
@@ -268,7 +268,7 @@ Microsoft 365의 trainable 분류자에 대 한 자세한 내용은 [trainable �
 | **날짜** | 조직의 사용자가 메시지를 보내거나 받은 날짜입니다. |
 | **File 클래스** | 메시지 유형, *메시지* 또는 *첨부 파일*중 하나를 기준으로 메시지의 클래스입니다. |
 | **첨부 파일 있음** | 메시지에 있는 첨부 파일의 현재 상태입니다. |
-| **Item 클래스** | 메시지 유형, 전자 메일, Microsoft 팀 채팅, Bloonmberg 등을 기준으로 메시지 원본입니다. 일반 항목 형식 및 메시지 클래스에 대 한 자세한 내용은 [항목 형식 및 메시지 클래스](https://docs.microsoft.com/office/vba/outlook/concepts/forms/item-types-and-message-classes)를 참조 하십시오. |
+| **Item 클래스** | 메시지 유형, 전자 메일, Microsoft 팀 채팅, Bloomberg 등을 기준으로 메시지 원본입니다. 일반 항목 형식 및 메시지 클래스에 대 한 자세한 내용은 [항목 형식 및 메시지 클래스](https://docs.microsoft.com/office/vba/outlook/concepts/forms/item-types-and-message-classes)를 참조 하십시오. |
 | **받는 사람 도메인** | 메시지를 보낸 도메인입니다. 이 도메인은 대개 기본적으로 Microsoft 365 구독 도메인입니다. |
 | **받는 사람** | 메시지를 보낸 사용자입니다. |
 | **보낸 사람** | 메시지를 보낸 사람입니다. |

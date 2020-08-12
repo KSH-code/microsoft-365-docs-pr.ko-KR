@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: 보안 및 준수 센터에서 Explorer 및 실시간 검색을 사용 하 여 위협에 효과적이 고 효율적으로 대응 하는 방법에 대해 알아봅니다 &amp; .
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 42cb7d2ef4fd04875c4bedc5f783e87cc99c13f5
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 635f7f32d16f18f49aa1920d82efd77bf27dc328
+ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577549"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46641644"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
@@ -207,6 +207,20 @@ Microsoft 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 �
 
    > [!NOTE]
    > URL 플라이 아웃 대화 상자에서 전자 메일 메시지에 대 한 필터링이 제거 되어 사용자 환경에 표시 되는 URL의 전체 보기를 보여 줍니다. 이를 통해 탐색기의 전자 메일 메시지를 관심 있는 항목으로 필터링 하 고, 잠재적인 위협이 되는 특정 Url을 찾은 다음, url 필터 대화 상자를 통해 해당 환경의 URL 노출에 대 한 이해를 탐색기 보기 자체에 추가 하지 않아도 됩니다.
+
+
+**다른 클릭 verdicts 해석**
+
+전자 메일 또는 URL flyouts에서 위쪽 클릭을 비롯 하 여 필터링 환경 내에서 찾기 환경의 일부로 다른 클릭 값이 표시 됩니다. 다음은 Verdicts 클릭 가능한 값과 해석 방법입니다.
+
+- **없음**: URL에 대 한 결과를 캡처할 수 없습니다. 사용자가 URL을 클릭 했을 수 있습니다.
+- **허용**: 사용자가 URL로 이동할 수 있습니다.
+- **차단 됨**: 사용자가 URL로 이동할 수 없도록 차단 되었습니다.
+- **보류 중인 결과**: 사용자에 게 샌드 박싱 Pending 페이지와 함께 제공 됩니다.
+- **차단 된 재정의**: 사용자가 URL로 이동할 수 없도록 차단 되었습니다. 그러나 사용자가이 블록에서 URL로 이동 하는 것을 중단 했습니다.
+- **결과 바이패스 보류**: 사용자에 게 샌드 박싱 페이지와 함께 제공 됩니다. 그러나 사용자가 페이지를 제거 하 여 URL로 이동할 수 있습니다.
+- **오류**: 사용자에 게 오류 페이지가 표시 됩니다. 또한 결과를 캡처하는 중에 오류가 발생 했을 수 있습니다.
+- **실패**: 결과를 캡처하는 동안 알 수 없는 예외가 발생 했습니다. 사용자가 URL을 클릭 했을 수 있습니다. 
 
 ## <a name="review-email-messages-reported-by-users"></a>사용자가 보고 한 전자 메일 메시지 검토
 

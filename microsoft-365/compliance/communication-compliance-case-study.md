@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 79948e514009d3adffcead87aafc18ab2f1e3b25
-ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
+ms.openlocfilehash: 9e16e96989fd3e2312129f9633bd298181839cf0
+ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597637"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46632089"
 ---
 # <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-exchange-and-yammer-communications"></a>사례 연구-Contoso는 Microsoft 팀, Exchange 및 Yammer 통신에 대 한 비속어 (공격적인 언어 정책)를 빠르게 구성 합니다.
 
@@ -81,7 +81,7 @@ Contoso IT 관리자는 다음 단계를 수행 하 여 Contoso에 대 한 라�
 
 통신 준수 기능을 관리 하기 위한 권한을 구성 하는 데 사용 되는 역할에는 다섯 가지가 있습니다. 통신 준수를 Microsoft 365 준수 센터에서 메뉴 옵션으로 사용할 수 있도록 하 고 이러한 구성 단계를 계속 하려면 Contoso 관리자에 게 *통신 준수 관리자* 역할이 할당 되어 있어야 합니다.
 
-Contoso는 custome 역할 그룹을 하나 만들고 모든 통신 준수 역할을 해당 그룹에 할당 하기로 결정 합니다. 이렇게 하면 Contoso에서 더 쉽게 작업을 수행 하 고 준수 관리 요구 사항에 적합 합니다.
+Contoso는 사용자 지정 역할 그룹 하나를 만들고 모든 통신 준수 역할을 해당 그룹에 할당 하기로 결정 합니다. 이렇게 하면 Contoso에서 더 쉽게 작업을 수행 하 고 준수 관리 요구 사항에 적합 합니다.
 
 Contoso는 다음의 모든 통신 준수 역할을 포함 하는 역할 그룹을 하나 만듭니다.
 
