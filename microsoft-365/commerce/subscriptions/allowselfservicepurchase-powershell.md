@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,108 +16,112 @@ search.appverid:
 - MET150
 description: AllowSelfServicePurchase PowerShell cmdlet을 사용 하 여 셀프 서비스 구매를 설정 하거나 해제 하는 방법을 알아봅니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b35b62a97f8dc269be5db232e163391a8ce50658
-ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
+ms.openlocfilehash: 79ee2d96fa1ae6f49f0402f49ddec34e69257082
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45391545"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653716"
 ---
-# <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a><span data-ttu-id="760da-103">MSCommerce PowerShell 모듈에 대해 AllowSelfServicePurchase 사용</span><span class="sxs-lookup"><span data-stu-id="760da-103">Use AllowSelfServicePurchase for the MSCommerce PowerShell module</span></span>
+# <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a><span data-ttu-id="6b29c-103">MSCommerce PowerShell 모듈에 대해 AllowSelfServicePurchase 사용</span><span class="sxs-lookup"><span data-stu-id="6b29c-103">Use AllowSelfServicePurchase for the MSCommerce PowerShell module</span></span>
 
-<span data-ttu-id="760da-104">이제 [Powershell 갤러리](https://aka.ms/allowselfservicepurchase-powershell-gallery)에서 **MSCommerce** powershell 모듈을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="760da-104">The **MSCommerce** PowerShell module is now available on [PowerShell Gallery](https://aka.ms/allowselfservicepurchase-powershell-gallery).</span></span> <span data-ttu-id="760da-105">이 모듈에는 조직의 사용자가 셀프 서비스 구매를 수행할 수 있는지 여부를 제어 하는 **AllowSelfServicePurchase** 에 대 한 **policyid** 매개 변수 값이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="760da-105">The module includes a **PolicyID** parameter value for **AllowSelfServicePurchase** that lets you control whether users in your organization can make self-service purchases.</span></span>
+<span data-ttu-id="6b29c-104">이제 [Powershell 갤러리](https://aka.ms/allowselfservicepurchase-powershell-gallery)에서 **MSCommerce** powershell 모듈을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-104">The **MSCommerce** PowerShell module is now available on [PowerShell Gallery](https://aka.ms/allowselfservicepurchase-powershell-gallery).</span></span> <span data-ttu-id="6b29c-105">이 모듈에는 조직의 사용자가 셀프 서비스 구매를 수행할 수 있는지 여부를 제어 하는 **AllowSelfServicePurchase** 에 대 한 **policyid** 매개 변수 값이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-105">The module includes a **PolicyID** parameter value for **AllowSelfServicePurchase** that lets you control whether users in your organization can make self-service purchases.</span></span>
 
-<span data-ttu-id="760da-106">**MSCommerce** PowerShell 모듈을 사용 하 여 다음을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="760da-106">You can use the **MSCommerce** PowerShell module to:</span></span>
+<span data-ttu-id="6b29c-106">**MSCommerce** PowerShell 모듈을 사용 하 여 다음을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-106">You can use the **MSCommerce** PowerShell module to:</span></span>
 
-- <span data-ttu-id="760da-107">사용 하거나 사용 하지 않도록 설정 되었는지 여부에 관계 없이 **AllowSelfServicePurchase** 매개 변수 값의 기본 상태를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="760da-107">View the default state of the **AllowSelfServicePurchase** parameter value — whether it's enabled or disabled</span></span>
-- <span data-ttu-id="760da-108">해당 하는 제품 목록 및 셀프 서비스 구매가 사용 하도록 설정 되었는지 여부 확인</span><span class="sxs-lookup"><span data-stu-id="760da-108">View a list of applicable products and whether self-service purchase is enabled or disabled</span></span>
-- <span data-ttu-id="760da-109">특정 제품에 대 한 현재 설정을 보거나 수정 하 여 사용 하거나 사용 하지 않도록 설정</span><span class="sxs-lookup"><span data-stu-id="760da-109">View or modify the current setting for a specific product to either enable or disable it</span></span>
+- <span data-ttu-id="6b29c-107">사용 하거나 사용 하지 않도록 설정 되었는지 여부에 관계 없이 **AllowSelfServicePurchase** 매개 변수 값의 기본 상태를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-107">View the default state of the **AllowSelfServicePurchase** parameter value — whether it's enabled or disabled</span></span>
+- <span data-ttu-id="6b29c-108">해당 하는 제품 목록 및 셀프 서비스 구매가 사용 하도록 설정 되었는지 여부 확인</span><span class="sxs-lookup"><span data-stu-id="6b29c-108">View a list of applicable products and whether self-service purchase is enabled or disabled</span></span>
+- <span data-ttu-id="6b29c-109">특정 제품에 대 한 현재 설정을 보거나 수정 하 여 사용 하거나 사용 하지 않도록 설정</span><span class="sxs-lookup"><span data-stu-id="6b29c-109">View or modify the current setting for a specific product to either enable or disable it</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="760da-110">요구 사항</span><span class="sxs-lookup"><span data-stu-id="760da-110">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="6b29c-110">요구 사항</span><span class="sxs-lookup"><span data-stu-id="6b29c-110">Requirements</span></span>
 
-<span data-ttu-id="760da-111">**MSCommerce** PowerShell 모듈을 사용 하려면 다음이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="760da-111">To use the **MSCommerce** PowerShell module, you need:</span></span>
+<span data-ttu-id="6b29c-111">**MSCommerce** PowerShell 모듈을 사용 하려면 다음이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-111">To use the **MSCommerce** PowerShell module, you need:</span></span>
 
-- <span data-ttu-id="760da-112">Windows 10 장치</span><span class="sxs-lookup"><span data-stu-id="760da-112">A Windows 10 device</span></span>
-- <span data-ttu-id="760da-113">장치에 대 한 관리자 권한</span><span class="sxs-lookup"><span data-stu-id="760da-113">Administrator permission for the device</span></span>
-- <span data-ttu-id="760da-114">테 넌 트에 대 한 전역 또는 대금 청구 관리자 역할</span><span class="sxs-lookup"><span data-stu-id="760da-114">Global or Billing Admin role for your tenant</span></span>
+- <span data-ttu-id="6b29c-112">Windows 10 장치</span><span class="sxs-lookup"><span data-stu-id="6b29c-112">A Windows 10 device</span></span>
+- <span data-ttu-id="6b29c-113">장치에 대 한 관리자 권한</span><span class="sxs-lookup"><span data-stu-id="6b29c-113">Administrator permission for the device</span></span>
+- <span data-ttu-id="6b29c-114">테 넌 트에 대 한 전역 또는 대금 청구 관리자 역할</span><span class="sxs-lookup"><span data-stu-id="6b29c-114">Global or Billing Admin role for your tenant</span></span>
 
-## <a name="install-the-mscommerce-powershell-module"></a><span data-ttu-id="760da-115">MSCommerce PowerShell 모듈 설치</span><span class="sxs-lookup"><span data-stu-id="760da-115">Install the MSCommerce PowerShell module</span></span>
+## <a name="install-the-mscommerce-powershell-module"></a><span data-ttu-id="6b29c-115">MSCommerce PowerShell 모듈 설치</span><span class="sxs-lookup"><span data-stu-id="6b29c-115">Install the MSCommerce PowerShell module</span></span>
 
-<span data-ttu-id="760da-116">Windows 10 장치에 **MSCommerce** PowerShell 모듈을 한 번 설치 하 고 시작한 각 powershell 세션으로 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="760da-116">You install the **MSCommerce** PowerShell module on your Windows 10 device once and then import it into each PowerShell session you start.</span></span> <span data-ttu-id="760da-117">[Powershell 갤러리](https://aka.ms/allowselfservicepurchase-powershell-gallery)에서 **MSCommerce** PowerShell 모듈을 다운로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="760da-117">Download the **MSCommerce** PowerShell module from the [PowerShell Gallery](https://aka.ms/allowselfservicepurchase-powershell-gallery).</span></span>
+<span data-ttu-id="6b29c-116">Windows 10 장치에 **MSCommerce** PowerShell 모듈을 한 번 설치 하 고 시작한 각 powershell 세션으로 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-116">You install the **MSCommerce** PowerShell module on your Windows 10 device once and then import it into each PowerShell session you start.</span></span> <span data-ttu-id="6b29c-117">[Powershell 갤러리](https://aka.ms/allowselfservicepurchase-powershell-gallery)에서 **MSCommerce** PowerShell 모듈을 다운로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-117">Download the **MSCommerce** PowerShell module from the [PowerShell Gallery](https://aka.ms/allowselfservicepurchase-powershell-gallery).</span></span>
 
-<span data-ttu-id="760da-118">**PowerShellGet**을 사용 하 여 **MSCommerce** PowerShell 모듈을 설치 하려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="760da-118">To install the **MSCommerce** PowerShell module with **PowerShellGet**, run the following command:</span></span>
+<span data-ttu-id="6b29c-118">**PowerShellGet**을 사용 하 여 **MSCommerce** PowerShell 모듈을 설치 하려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-118">To install the **MSCommerce** PowerShell module with **PowerShellGet**, run the following command:</span></span>
 
 ```powershell
 Install-Module -Name MSCommerce
 ```
 
-## <a name="import-mscommerce-into-the-powershell-session"></a><span data-ttu-id="760da-119">PowerShell 세션으로 MSCommerce 가져오기</span><span class="sxs-lookup"><span data-stu-id="760da-119">Import MSCommerce into the PowerShell session</span></span>
+## <a name="import-mscommerce-into-the-powershell-session"></a><span data-ttu-id="6b29c-119">PowerShell 세션으로 MSCommerce 가져오기</span><span class="sxs-lookup"><span data-stu-id="6b29c-119">Import MSCommerce into the PowerShell session</span></span>
 
-<span data-ttu-id="760da-120">Windows 10 장치에 모듈을 설치한 후에는이를 시작 하는 각 PowerShell 세션으로 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="760da-120">After you install the module on your Windows 10 device, you then import it into each PowerShell session that you start.</span></span> <span data-ttu-id="760da-121">이를 PowerShell 세션으로 가져오려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="760da-121">To import it into a PowerShell session, run the following command:</span></span>
+<span data-ttu-id="6b29c-120">Windows 10 장치에 모듈을 설치한 후에는이를 시작 하는 각 PowerShell 세션으로 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-120">After you install the module on your Windows 10 device, you then import it into each PowerShell session that you start.</span></span> <span data-ttu-id="6b29c-121">이를 PowerShell 세션으로 가져오려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-121">To import it into a PowerShell session, run the following command:</span></span>
 
 ```powershell
 Import-Module -Name MSCommerce
 ```
 
-## <a name="connect-to-mscommerce-with-your-credentials"></a><span data-ttu-id="760da-122">자격 증명을 사용 하 여 MSCommerce에 연결</span><span class="sxs-lookup"><span data-stu-id="760da-122">Connect to MSCommerce with your credentials</span></span>
+## <a name="connect-to-mscommerce-with-your-credentials"></a><span data-ttu-id="6b29c-122">자격 증명을 사용 하 여 MSCommerce에 연결</span><span class="sxs-lookup"><span data-stu-id="6b29c-122">Connect to MSCommerce with your credentials</span></span>
 
-<span data-ttu-id="760da-123">자격 증명을 사용 하 여 PowerShell 모듈에 연결 하려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="760da-123">To connect to the PowerShell module with your credentials, run the following command.</span></span>
+<span data-ttu-id="6b29c-123">자격 증명을 사용 하 여 PowerShell 모듈에 연결 하려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-123">To connect to the PowerShell module with your credentials, run the following command.</span></span>
 
 ```powershell
 Connect-MSCommerce
 ```
 
-<span data-ttu-id="760da-124">이 명령은 현재 PowerShell 세션을 Azure Active Directory 테 넌 트에 연결 합니다.</span><span class="sxs-lookup"><span data-stu-id="760da-124">This command connects the current PowerShell session to an Azure Active Directory tenant.</span></span> <span data-ttu-id="760da-125">이 명령은 연결 하려는 테 넌 트의 사용자 이름과 암호를 입력 하 라는 메시지를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="760da-125">The command prompts you for a username and password for the tenant you want to connect to.</span></span> <span data-ttu-id="760da-126">자격 증명에 multi-factor authentication을 사용 하도록 설정 된 경우 대화형 옵션을 사용 하 여 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="760da-126">If multi-factor authentication is enabled for your credentials, you use the interactive option to log in.</span></span>
+<span data-ttu-id="6b29c-124">이 명령은 현재 PowerShell 세션을 Azure Active Directory 테 넌 트에 연결 합니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-124">This command connects the current PowerShell session to an Azure Active Directory tenant.</span></span> <span data-ttu-id="6b29c-125">이 명령은 연결 하려는 테 넌 트의 사용자 이름과 암호를 입력 하 라는 메시지를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-125">The command prompts you for a username and password for the tenant you want to connect to.</span></span> <span data-ttu-id="6b29c-126">자격 증명에 multi-factor authentication을 사용 하도록 설정 된 경우 대화형 옵션을 사용 하 여 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-126">If multi-factor authentication is enabled for your credentials, you use the interactive option to log in.</span></span>
 
-## <a name="view-details-for-allowselfservicepurchase"></a><span data-ttu-id="760da-127">AllowSelfServicePurchase에 대 한 세부 정보 보기</span><span class="sxs-lookup"><span data-stu-id="760da-127">View details for AllowSelfServicePurchase</span></span>
+## <a name="view-details-for-allowselfservicepurchase"></a><span data-ttu-id="6b29c-127">AllowSelfServicePurchase에 대 한 세부 정보 보기</span><span class="sxs-lookup"><span data-stu-id="6b29c-127">View details for AllowSelfServicePurchase</span></span>
 
-<span data-ttu-id="760da-128">조직에 따라 **AllowSelfServicePurchase** 매개 변수 값 및 기본 상태에 대 한 설명을 보려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="760da-128">To view a description of the **AllowSelfServicePurchase** parameter value and the default status, based on your organization, run the following command:</span></span>
+<span data-ttu-id="6b29c-128">조직에 따라 **AllowSelfServicePurchase** 매개 변수 값 및 기본 상태에 대 한 설명을 보려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-128">To view a description of the **AllowSelfServicePurchase** parameter value and the default status, based on your organization, run the following command:</span></span>
 
 ```powershell
 Get-MSCommercePolicy -PolicyId AllowSelfServicePurchase
 ```
 
-## <a name="view-a-list-of-self-service-purchase-products-and-their-status"></a><span data-ttu-id="760da-129">셀프 서비스 구매 제품 및 해당 상태 목록 보기</span><span class="sxs-lookup"><span data-stu-id="760da-129">View a list of self-service purchase products and their status</span></span>
+## <a name="view-a-list-of-self-service-purchase-products-and-their-status"></a><span data-ttu-id="6b29c-129">셀프 서비스 구매 제품 및 해당 상태 목록 보기</span><span class="sxs-lookup"><span data-stu-id="6b29c-129">View a list of self-service purchase products and their status</span></span>
 
-<span data-ttu-id="760da-130">사용 가능한 모든 셀프 서비스 구매 제품의 목록과 각 상태를 보려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="760da-130">To view a list of all available self-service purchase products and the status of each, run the following command:</span></span>
+<span data-ttu-id="6b29c-130">사용 가능한 모든 셀프 서비스 구매 제품의 목록과 각 상태를 보려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-130">To view a list of all available self-service purchase products and the status of each, run the following command:</span></span>
 
 ```powershell
 Get-MSCommerceProductPolicies -PolicyId AllowSelfServicePurchase
 ```
 
-<span data-ttu-id="760da-131">다음 표에는 사용 가능한 제품 및 해당 **ProductId**가 나와 있습니다.</span><span class="sxs-lookup"><span data-stu-id="760da-131">The following table lists the available products and their **ProductId**.</span></span>
+<span data-ttu-id="6b29c-131">다음 표에는 사용 가능한 제품 및 해당 **ProductId**가 나와 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-131">The following table lists the available products and their **ProductId**.</span></span>
 
-| <span data-ttu-id="760da-132">제품</span><span class="sxs-lookup"><span data-stu-id="760da-132">Product</span></span> | <span data-ttu-id="760da-133">제품</span><span class="sxs-lookup"><span data-stu-id="760da-133">ProductId</span></span> |
+| <span data-ttu-id="6b29c-132">제품</span><span class="sxs-lookup"><span data-stu-id="6b29c-132">Product</span></span> | <span data-ttu-id="6b29c-133">제품</span><span class="sxs-lookup"><span data-stu-id="6b29c-133">ProductId</span></span> |
 |-----------------------------|--------------|
-| <span data-ttu-id="760da-134">사용자 당 전원 앱</span><span class="sxs-lookup"><span data-stu-id="760da-134">Power Apps per user</span></span> | <span data-ttu-id="760da-135">CFQ7TTC0KP0P</span><span class="sxs-lookup"><span data-stu-id="760da-135">CFQ7TTC0KP0P</span></span> |
-| <span data-ttu-id="760da-136">사용자 당 전원 자동화</span><span class="sxs-lookup"><span data-stu-id="760da-136">Power Automate per user</span></span> | <span data-ttu-id="760da-137">CFQ7TTC0KP0N</span><span class="sxs-lookup"><span data-stu-id="760da-137">CFQ7TTC0KP0N</span></span> |
-| <span data-ttu-id="760da-138">Power BI Pro</span><span class="sxs-lookup"><span data-stu-id="760da-138">Power BI Pro</span></span> | <span data-ttu-id="760da-139">CFQ7TTC0L3PB</span><span class="sxs-lookup"><span data-stu-id="760da-139">CFQ7TTC0L3PB</span></span> |
+| <span data-ttu-id="6b29c-134">사용자 당 전원 앱</span><span class="sxs-lookup"><span data-stu-id="6b29c-134">Power Apps per user</span></span> | <span data-ttu-id="6b29c-135">CFQ7TTC0KP0P</span><span class="sxs-lookup"><span data-stu-id="6b29c-135">CFQ7TTC0KP0P</span></span> |
+| <span data-ttu-id="6b29c-136">사용자 당 전원 자동화</span><span class="sxs-lookup"><span data-stu-id="6b29c-136">Power Automate per user</span></span> | <span data-ttu-id="6b29c-137">CFQ7TTC0KP0N</span><span class="sxs-lookup"><span data-stu-id="6b29c-137">CFQ7TTC0KP0N</span></span> |
+| <span data-ttu-id="6b29c-138">Power BI Pro</span><span class="sxs-lookup"><span data-stu-id="6b29c-138">Power BI Pro</span></span> | <span data-ttu-id="6b29c-139">CFQ7TTC0L3PB</span><span class="sxs-lookup"><span data-stu-id="6b29c-139">CFQ7TTC0L3PB</span></span> |
+| <span data-ttu-id="6b29c-140">프로젝트 계획 1</span><span class="sxs-lookup"><span data-stu-id="6b29c-140">Project Plan 1</span></span> | <span data-ttu-id="6b29c-141">CFQ7TTC0KXND</span><span class="sxs-lookup"><span data-stu-id="6b29c-141">CFQ7TTC0KXND</span></span> |
+| <span data-ttu-id="6b29c-142">프로젝트 계획 3</span><span class="sxs-lookup"><span data-stu-id="6b29c-142">Project Plan 3</span></span> | <span data-ttu-id="6b29c-143">CFQ7TTC0KXNC</span><span class="sxs-lookup"><span data-stu-id="6b29c-143">CFQ7TTC0KXNC</span></span> |
+| <span data-ttu-id="6b29c-144">Visio 계획 1</span><span class="sxs-lookup"><span data-stu-id="6b29c-144">Visio Plan 1</span></span> | <span data-ttu-id="6b29c-145">CFQ7TTC0KXN9</span><span class="sxs-lookup"><span data-stu-id="6b29c-145">CFQ7TTC0KXN9</span></span> |
+| <span data-ttu-id="6b29c-146">Visio 계획 2</span><span class="sxs-lookup"><span data-stu-id="6b29c-146">Visio Plan 2</span></span> | <span data-ttu-id="6b29c-147">CFQ7TTC0KXN8</span><span class="sxs-lookup"><span data-stu-id="6b29c-147">CFQ7TTC0KXN8</span></span> |
 
-## <a name="view-or-set-the-status-for-allowselfservicepurchase"></a><span data-ttu-id="760da-140">AllowSelfServicePurchase의 상태를 보거나 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="760da-140">View or set the status for AllowSelfServicePurchase</span></span>
+## <a name="view-or-set-the-status-for-allowselfservicepurchase"></a><span data-ttu-id="6b29c-148">AllowSelfServicePurchase의 상태를 보거나 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-148">View or set the status for AllowSelfServicePurchase</span></span>
 
-<span data-ttu-id="760da-141">셀프 서비스 구매에 사용할 수 있는 제품 목록을 확인 한 후에는 특정 제품에 대 한 설정을 보거나 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="760da-141">After you view the list of products available for self-service purchase, you can view or modify the setting for a specific product.</span></span>
+<span data-ttu-id="6b29c-149">셀프 서비스 구매에 사용할 수 있는 제품 목록을 확인 한 후에는 특정 제품에 대 한 설정을 보거나 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-149">After you view the list of products available for self-service purchase, you can view or modify the setting for a specific product.</span></span>
 
-<span data-ttu-id="760da-142">특정 제품에 대 한 정책 설정을 가져오려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="760da-142">To get the policy setting for a specific product, run the following command:</span></span>
+<span data-ttu-id="6b29c-150">특정 제품에 대 한 정책 설정을 가져오려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-150">To get the policy setting for a specific product, run the following command:</span></span>
 
 ```powershell
 Get-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId CFQ7TTC0KP0N
 ```
 
-<span data-ttu-id="760da-143">특정 제품에 대 한 정책 설정을 사용 하도록 설정 하려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="760da-143">To enable the policy setting for a specific product, run the following command:</span></span>
+<span data-ttu-id="6b29c-151">특정 제품에 대 한 정책 설정을 사용 하도록 설정 하려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-151">To enable the policy setting for a specific product, run the following command:</span></span>
 
 ```powershell
 Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId CFQ7TTC0KP0N -Enabled $True
 ```
 
-<span data-ttu-id="760da-144">특정 제품에 대 한 정책 설정을 사용 하지 않도록 설정 하려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="760da-144">To disable the policy setting for a specific product, run the following command:</span></span>
+<span data-ttu-id="6b29c-152">특정 제품에 대 한 정책 설정을 사용 하지 않도록 설정 하려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-152">To disable the policy setting for a specific product, run the following command:</span></span>
 
 ```powershell
 Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId CFQ7TTC0KP0N -Enabled $False
 ```
 
-## <a name="example-script-to-disable-allowselfservicepurchase"></a><span data-ttu-id="760da-145">AllowSelfServicePurchase을 사용 하지 않도록 설정 하는 스크립트 예제</span><span class="sxs-lookup"><span data-stu-id="760da-145">Example script to disable AllowSelfServicePurchase</span></span>
+## <a name="example-script-to-disable-allowselfservicepurchase"></a><span data-ttu-id="6b29c-153">AllowSelfServicePurchase을 사용 하지 않도록 설정 하는 스크립트 예제</span><span class="sxs-lookup"><span data-stu-id="6b29c-153">Example script to disable AllowSelfServicePurchase</span></span>
 
-<span data-ttu-id="760da-146">다음은 **MSCommerce** 모듈을 가져오고, 계정으로 로그인 하 고, 전원 자동화를 위해 제품 **일련번호** 를 가져온 후 해당 제품에 대해 **AllowSelfServicePurchase** 를 사용 하지 않도록 설정 하는 방법을 보여 주는 예제입니다.</span><span class="sxs-lookup"><span data-stu-id="760da-146">The following example walks you through how to import the **MSCommerce** module, sign in with your account, get the **ProductId** for Power Automate, and then disable **AllowSelfServicePurchase** for that product.</span></span>
+<span data-ttu-id="6b29c-154">다음은 **MSCommerce** 모듈을 가져오고, 계정으로 로그인 하 고, 전원 자동화를 위해 제품 **일련번호** 를 가져온 후 해당 제품에 대해 **AllowSelfServicePurchase** 를 사용 하지 않도록 설정 하는 방법을 보여 주는 예제입니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-154">The following example walks you through how to import the **MSCommerce** module, sign in with your account, get the **ProductId** for Power Automate, and then disable **AllowSelfServicePurchase** for that product.</span></span>
 
 ```powershell
 Import-Module -Name MSCommerce
@@ -126,19 +130,19 @@ $product = Get-MSCommerceProductPolicies -PolicyId AllowSelfServicePurchase | wh
 Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId $product.ProductID -Enabled $false
 ```
 
-## <a name="troubleshooting"></a><span data-ttu-id="760da-147">문제 해결</span><span class="sxs-lookup"><span data-stu-id="760da-147">Troubleshooting</span></span>
+## <a name="troubleshooting"></a><span data-ttu-id="6b29c-155">문제 해결</span><span class="sxs-lookup"><span data-stu-id="6b29c-155">Troubleshooting</span></span>
 
-<span data-ttu-id="760da-148">**데**</span><span class="sxs-lookup"><span data-stu-id="760da-148">**Problem**</span></span>
+### <a name="problem"></a><span data-ttu-id="6b29c-156">데</span><span class="sxs-lookup"><span data-stu-id="6b29c-156">Problem</span></span>
 
-<span data-ttu-id="760da-149">다음과 같은 오류 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="760da-149">You see the following error message:</span></span>
+<span data-ttu-id="6b29c-157">다음과 같은 오류 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-157">You see the following error message:</span></span>
 
-> <span data-ttu-id="760da-150">HandleError: PolicyId가 ' AllowSelfServicePurchase ' 인 정책을 검색 하지 못했습니다. ErrorMessage-기본 연결이 닫혔습니다. 보내기에서 예기치 않은 오류가 발생 했습니다.</span><span class="sxs-lookup"><span data-stu-id="760da-150">HandleError : Failed to retrieve policy with PolicyId 'AllowSelfServicePurchase', ErrorMessage - The underlying connection was closed: An unexpected error occurred on a send.</span></span>
+> <span data-ttu-id="6b29c-158">HandleError: PolicyId가 ' AllowSelfServicePurchase ' 인 정책을 검색 하지 못했습니다. ErrorMessage-기본 연결이 닫혔습니다. 보내기에서 예기치 않은 오류가 발생 했습니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-158">HandleError : Failed to retrieve policy with PolicyId 'AllowSelfServicePurchase', ErrorMessage - The underlying connection was closed: An unexpected error occurred on a send.</span></span>
 
-<span data-ttu-id="760da-151">이전 버전의 TLS (전송 계층 보안)로 인 한 것일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="760da-151">This may be due to an older version of Transport Layer Security (TLS).</span></span> <span data-ttu-id="760da-152">이 서비스에 연결 하려면 TLS 1.2 이상을 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="760da-152">To connect this service you need to use TLS 1.2 or greater</span></span>
+<span data-ttu-id="6b29c-159">이전 버전의 TLS (전송 계층 보안)로 인 한 것일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-159">This may be due to an older version of Transport Layer Security (TLS).</span></span> <span data-ttu-id="6b29c-160">이 서비스에 연결 하려면 TLS 1.2 이상을 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6b29c-160">To connect this service you need to use TLS 1.2 or greater</span></span>
 
-<span data-ttu-id="760da-153">**해결 방법**</span><span class="sxs-lookup"><span data-stu-id="760da-153">**Solution**</span></span>
+### <a name="solution"></a><span data-ttu-id="6b29c-161">해결 방법</span><span class="sxs-lookup"><span data-stu-id="6b29c-161">Solution</span></span>
 
-<span data-ttu-id="760da-154">TLS 1.2으로 업그레이드 합니다.[https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2)</span><span class="sxs-lookup"><span data-stu-id="760da-154">Upgrade to TLS 1.2: [https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2)</span></span>
+<span data-ttu-id="6b29c-162">TLS 1.2으로 업그레이드 합니다.[https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2)</span><span class="sxs-lookup"><span data-stu-id="6b29c-162">Upgrade to TLS 1.2: [https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2)</span></span>
 
 <!--
 ## Uninstall the MSCommerce module
