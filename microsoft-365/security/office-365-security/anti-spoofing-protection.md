@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: 관리자는 스푸핑된 보낸 사람 및 도메인의 피싱 공격을 완화하는 데 도움이 되며 EOP(Exchange Online Protection)에서 사용할 수 있는 스푸핑 방지 기능에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: b9d8d3b0118083886f2a5d18f64b5d12e1d432af
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 25e1c73a58ffc89ecf4723fbb7cb872ff7d16071
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577851"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653416"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>EOP의 스푸핑 방지 보호 기능
 
@@ -129,8 +129,7 @@ Office 365 ATP 조직은 보안 & 준수 센터의 위협 탐색기를 사용하
 
 예를 들어 Gabriela Laureano(glaureano@contoso.com)는 새 관찰에 관심이 있고 birdwatchers@fabrikam.com이라는 메일 그룹에 참여하여 그룹에 다음 메일을 전송합니다.
 
-> **보낸 사람:** "Gabriela Laureano" \<glaureano@contoso.com\> <br/> **대상: Birdwatcher의 토론 목록**\<birdwatchers@fabrikam.com\> <br/> 
-**제목:** 산 정상에서 바라보는 파란색 제비의 장관 레이니어 이번 주 <br/><br/>이번 주에 레이니어 산에서 이 광경을 확인하고 싶은  사람이 있습니까?
+> **보낸 사람:** "Gabriela Laureano" \<glaureano@contoso.com\> <br/> **대상: Birdwatcher의 토론 목록**\<birdwatchers@fabrikam.com\> <br/> **제목:** 산 정상에서 바라보는 파란색 제비의 장관 레이니어 이번 주 <br/><br/>이번 주에 레이니어 산에서 이 광경을 확인하고 싶은  사람이 있습니까?
 
 메일 그룹 서버에서 메시지를 수신하고, 내용을 수정하며, 목록 구성원에게 재생합니다. 재생된 메시지의 보낸 사람 주소(glaureano@contoso.com)는 같지만 제목 줄에 태그가 추가되고 메일의 맨 아래에 바닥글이 추가되었습니다. 이러한 수정 유형은 메일 그룹에서 일반적이며 스푸핑 오탐지를 초래할 수 있습니다.
 

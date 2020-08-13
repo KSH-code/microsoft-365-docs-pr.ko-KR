@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
 description: Office 365에서 암호화에 사용 되는 다양 한 인증서, 기술 및 TLS 암호 제품군에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 91fa21fff12c429032af6468ff3024acfc6ca2ab
-ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
+ms.openlocfilehash: c9bc61a7c7a35d84d5e4ff338927ead98a932d9d
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45024544"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649099"
 ---
 # <a name="technical-reference-details-about-encryption"></a>암호화에 대 한 기술 참조 세부 정보
 
@@ -52,13 +52,7 @@ TLS 버전 1.3 (TLS 1.3)은 현재 지원 되지 않습니다.
   
 ## <a name="support-for-tls-10-and-11-deprecation-and-what-this-means-for-you"></a>TLS 1.0 및 1.1의 사용을 지원 하 고이에 대 한 지원을 제공 합니다.
 
-2018는 Office 365에서 더 이상 TLS 1.0 및 1.1을 지원 하지 않으므로 10 월 31 일 이후로 발생 합니다. 즉 Microsoft는 TLS 1.0 및 1.1을 사용하여 Office 365와 연결되는 클라이언트, 장치 또는 서비스에서 발견된 새로운 문제를 수정하지 않을 것입니다.
-
-이는 Office 365이 TLS 1.0 및 1.1 연결을 차단 한다는 것을 의미 하지는 않습니다.
-
-처음에는 6 월 2020 1 일을 설정 했지만 전 세계 및 GCC 환경에서 tls 1.0 및 TLS 1.1가 중단 되는 경우에는이 날짜가 더 이상 유효 하지 않습니다. 이는 COVID-19로 인해 발생 한 것입니다. 이 새로운 날짜가 있으면 여기에 게시 합니다. 
-
-GCC High 및 DoD 환경에서는 공식적인 고가 2020 년 1 월 15 일에 발생 합니다.
+2018는 Office 365에서 더 이상 TLS 1.0 및 1.1을 지원 하지 않으므로 10 월 31 일 이후로 발생 합니다. 즉 Microsoft는 TLS 1.0 및 1.1을 사용하여 Office 365와 연결되는 클라이언트, 장치 또는 서비스에서 발견된 새로운 문제를 수정하지 않을 것입니다. GCC High 및 DoD 환경에 대 한 공식적인 중단은 2020 년 1 월 15 일에 시작 됩니다. 전 세계 및 GCC 환경에 대 한 TLS 1.0 및 1.1의 중단은 2020 년 10 월 15 일에 시작 됩니다. 
 
 모든 클라이언트 서버와 브라우저 서버 조합에서 TLS 1.2 및 최신 암호 그룹을 사용 하 여 Office 365 및 Microsoft 365 서비스에 대 한 안전한 연결을 유지 하도록 해야 합니다. 특정 클라이언트-서버 및 브라우저-서버 조합을 업데이트해야 할 수 있습니다. 이를 통해 영향을 주는 방법에 대 한 자세한 내용은 [Office 365에서 TLS 1.2의 필수 사용 준비](https://support.microsoft.com/help/4057306/preparing-for-tls-1-2-in-office-365)를 참조 하세요.
   
@@ -76,19 +70,30 @@ GCC High 및 DoD 환경에서는 공식적인 고가 2020 년 1 월 15 일에 �
 
 > [!IMPORTANT]
 > TLS 버전은 사용 중지, 더 이상 사용 되지 않는 버전은 최신 버전을 사용할 수 있는 경우 *사용 하지 않도록 해야* 합니다. TLS 1.3은 현재 지원 되지 않습니다. 레거시 서비스에 TLS 1.0 또는 1.1가 필요 하지 않은 경우에는 사용 하지 않도록 설정 해야 합니다.
-  
-|**프로토콜**|**암호 그룹 이름**|**키 교환 알고리즘/강도**|**전달 완전 완벽 지원**|**인증 알고리즘/강도**|**암호화/강도**|
+
+| 암호 제품군 | 키 교환 알고리즘/강도 | 전달 완전 보안 | 암호화/강도 | 인증 알고리즘 |
+|:-----|:-----|:-----|:-----|:-----|
+|TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 <br/>     |ECDH/192 <br/>|예 <br/>|AES/256 <br/>|RSA/112 <br/> |
+|TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 <br/>     |ECDH/128 <br/>|예 <br/>|AES/128 <br/>|RSA/112 <br/> |
+|TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 <br/>     |ECDH/192 <br/>|예 <br/>|AES/256 <br/>|RSA/112 <br/> |
+|TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 <br/>     |ECDH/128 <br/>|예 <br/>|AES/128 <br/>|RSA/112 <br/> |
+|TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA <br/>        |ECDH/192 <br/>|예 <br/>|AES/256 <br/>|RSA/112 <br/> |
+|TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA <br/>        |ECDH/128 <br/>|예 <br/>|AES/128 <br/>|RSA/112 <br/> |
+|TLS_RSA_WITH_AES_256_GCM_SHA384 <br/>           |RSA/112 <br/> |아니요 <br/> |AES/256 <br/>|RSA/112 <br/> |
+|TLS_RSA_WITH_AES_128_GCM_SHA256 <br/>           |RSA/112 <br/> |아니요 <br/> |AES/256 <br/>|RSA/112 <br/> |
+|TLS_RSA_WITH_AES_256_CBC_SHA256 <br/>           |RSA/112 <br/> |아니요 <br/> |AES/256 <br/>|RSA/112 <br/> |
+|TLS_RSA_WITH_AES_128_CBC_SHA256 <br/>           |RSA/112 <br/> |아니요 <br/> |AES/128 <br/>|RSA/112 <br/> |
+|TLS_RSA_WITH_AES_256_CBC_SHA <br/>              |RSA/112 <br/> |아니요 <br/> |AES/256 <br/>|RSA/112 <br/> |
+|TLS_RSA_WITH_AES_128_CBC_SHA <br/>              |RSA/112 <br/> |아니요 <br/> |AES/128 <br/>|RSA/112 <br/> |
+
+이러한 암호 제품군은 여전히 해당 기간 동안 TLS 1.0 및 1.1 프로토콜을 지원 합니다. 해당 출시 날짜가 1 월 15 일, 2020, 그리고 해당 날짜가 10 월 15 2020 일에 해당 하는 전 세계 및 GCC 환경에 해당 하는 GCC High 및 DoD 환경의 경우
+
+| 프로토콜 | 암호 그룹 이름 | 키 교환 알고리즘/강도 | 전달 완전 완벽 지원 | 인증 알고리즘/강도 | 암호화/강도 |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384  <br/> |ECDH/192  <br/> |예  <br/> |RSA/112  <br/> |AES/256  <br/> |
-|TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256  <br/> |ECDH/128  <br/> |예  <br/> |RSA/112  <br/> |AES/128  <br/> |
-|TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384  <br/> |ECDH/192  <br/> |예  <br/> |RSA/112  <br/> |AES/256  <br/> |
-|TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256  <br/> |ECDH/128  <br/> |예  <br/> |RSA/112  <br/> |AES/128  <br/> |
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA_P384  <br/> |ECDH/192  <br/> |예  <br/> |RSA/112  <br/> |AES/256  <br/> |
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA_P256  <br/> |ECDH/128  <br/> |예  <br/> |RSA/112  <br/> |AES/128  <br/> |
-|TLS 1.2  <br/> |TLS_RSA_WITH_AES_256_CBC_SHA256  <br/> |RSA/112  <br/> |아니요  <br/> |RSA/112  <br/> |AES/256  <br/> |
-|TLS 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA256  <br/> |RSA/112  <br/> |아니요  <br/> |RSA/112  <br/> |AES/128  <br/> |
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_256_CBC_SHA  <br/> |RSA/112  <br/> |아니요  <br/> |RSA/112  <br/> |AES/256  <br/> |
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA  <br/> |RSA/112  <br/> |아니요  <br/> |RSA/112  <br/> |AES/128  <br/> |
+|TLS 1.0, 1.1, 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA  <br/> |ECDH/192  <br/> |예  <br/> |RSA/112  <br/> |AES/256  <br/> |
+|TLS 1.0, 1.1, 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA  <br/> |ECDH/128  <br/> |예  <br/> |RSA/112  <br/> |AES/128  <br/> |
+|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_256_CBC_SHA        <br/> |RSA/112  <br/>  |아니요  <br/>  |RSA/112  <br/> |AES/256  <br/> |
+|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA        <br/> |RSA/112  <br/>  |아니요  <br/>  |RSA/112  <br/> |AES/128  <br/> |
    
 ## <a name="related-topics"></a>관련 항목
 [Windows 10 v1903의 TLS 암호 그룹](https://docs.microsoft.com/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v1903)
@@ -101,5 +106,4 @@ GCC High 및 DoD 환경에서는 공식적인 고가 2020 년 1 월 15 일에 �
   
 [TLS/SSL 암호화 향상 (Windows IT 센터)](https://technet.microsoft.com/library/cc766285%28v=ws.10%29.aspx)
   
- [Office 365 및 Office 365 GCC에서 TLS 1.2 준비](https://docs.microsoft.com/office365/troubleshoot/security/prepare-tls-1.2-in-office-365)
-
+[Office 365 및 Office 365 GCC에서 TLS 1.2 준비](https://docs.microsoft.com/office365/troubleshoot/security/prepare-tls-1.2-in-office-365)

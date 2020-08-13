@@ -18,17 +18,17 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 보안 & 준수 센터에서 키워드 사전을 만드는 기본 단계를 알아봅니다.
-ms.openlocfilehash: 38a92aaf7e72ab79243c547ff48fa156e26b6ee6
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: a2b56d013b452f02a26ea956da19e5644bf9d44a
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818057"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648731"
 ---
 # <a name="create-a-keyword-dictionary"></a>키워드 사전 만들기
 
-DLP (데이터 손실 방지)는 중요 한 정보를 식별, 모니터링 및 보호할 수 있습니다. 중요 한 정보 식별 간혹 키워드를 찾으려는 경우, 특히 일반 콘텐츠 (예: 의료 관련 통신)를 식별 하거나 부적절 한 언어나 명시적 언어를 사용 해야 하는 경우가 있습니다. 키워드 목록은 중요 한 정보 유형으로 만들 수 있지만 키워드 목록은 크기를 제한 하며 XML을 수정 하 여 만들거나 편집 해야 합니다. 키워드 사전은 보다 간단 하 게 키워드를 관리할 수 있도록 하 여 사전 당 최대 10만 용어를 지원 합니다.
-  
+DLP (데이터 손실 방지)는 중요 한 정보를 식별, 모니터링 및 보호할 수 있습니다. 중요 한 정보 식별 간혹 키워드를 찾으려는 경우, 특히 일반 콘텐츠 (예: 의료 관련 통신)를 식별 하거나 부적절 한 언어나 명시적 언어를 사용 해야 하는 경우가 있습니다. 키워드 목록은 중요 한 정보 유형으로 만들 수 있지만 키워드 목록은 크기를 제한 하며 XML을 수정 하 여 만들거나 편집 해야 합니다. 키워드 사전은 보다 간단 하 게 키워드를 관리 하 고, 사전 당 최대 10만 용어를 지원 하 고 모든 언어를 지원할 수 있습니다.
+
 ## <a name="basic-steps-to-creating-a-keyword-dictionary"></a>키워드 사전을 만드는 기본 단계
 
 사전의 키워드는 다양한 원본, 서비스 또는 PowerShell cmdlet에서 가져온 파일(예:.csv 또는 .txt 목록)(대부분의 경우), PowerShell cmdlet에 사용자가 직접 입력한 목록 또는 기존 사전에서 가져올 수 있습니다. 키워드 사전을 만들 때 다음과 같은 동일한 핵심 단계를 따르세요.

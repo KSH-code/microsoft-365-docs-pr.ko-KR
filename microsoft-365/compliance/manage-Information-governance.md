@@ -14,14 +14,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365의 정보 거 버 넌 스에 대해 알아봅니다.
-ms.openlocfilehash: d8e0c252bfe0b5b5c3361e67b8327d04951eb9c5
-ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
+ms.openlocfilehash: 526f91eb70ec2e249d2f8b83c4238f0f43584db1
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/12/2020
-ms.locfileid: "46641611"
+ms.locfileid: "46649145"
 ---
 # <a name="manage-information-governance"></a>정보 거버넌스 관리
+
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
 Microsoft 정보 거 버 넌 스 기능을 사용 하 여 규정 준수 또는 규제 요구 사항에 맞게 데이터를 제어 합니다.
 
