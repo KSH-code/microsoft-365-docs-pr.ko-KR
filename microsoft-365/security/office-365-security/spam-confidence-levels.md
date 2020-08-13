@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 메시지에 적용 되는 SCL (스팸 지 수)에 대해 알아봅니다.
-ms.openlocfilehash: bc3a1e7e4b3e5f737b8861c14e0fd2c3d0841940
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 7e8d706f89c5b16bd34ad074498e011dc5d74093
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208015"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656542"
 ---
 # <a name="spam-confidence-level-scl-in-eop"></a>EOP의 SCL (스팸 지 수)
 
@@ -31,9 +31,10 @@ Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (독립 실행�
 
 SCL의 의미와 메시지에 대해 수행 되는 기본 작업에 대 한 설명은 다음 표에 나와 있습니다. 스팸 필터링 결과을 기반으로 하는 메시지에 대해 수행할 수 있는 작업에 대 한 자세한 내용은 [Configure 스팸 방지 정책 EOP](configure-your-spam-filter-policies.md)을 참조 하십시오.
 
-||||
+****
+
+|SCL|정의|기본 작업|
 |:---:|---|---|
-|**SCL**|**정의**|**기본 작업**|
 |-1|메시지가 스팸 필터링을 건너뛰었습니다. 예를 들어 수신 허용-보낸 사람에 게 전송 된 메시지 이거나, 수신 하는 전자 메일 서버에서 온 것은 아닙니다. 자세한 내용은 [EOP에서 수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조 하십시오.|받는 사람의 받은 편지 함으로 메시지를 배달 합니다.|
 |0, 1|스팸 필터링에서 메시지가 스팸으로 확인 되었습니다.|받는 사람의 받은 편지 함으로 메시지를 배달 합니다.|
 |5, 6|스팸 필터링에서 메시지를 **스팸으로** 표시|받는 사람의 정크 메일 폴더로 메시지를 배달 합니다.|
@@ -46,6 +47,6 @@ SCL 2, 3, 4, 7, 8은 스팸 필터링에서 사용 되지 않는다는 것을 �
 
 SCL과 마찬가지로, BCL (bulk 불만 수준)은 잘못 된 대량 전자 메일 ( _회색 메일이_라고도 함)을 식별 합니다. BCL이 많을 수록 대량 메일 메시지가 불만을 창출 하는 것 이며, 따라서 스팸으로 발생할 가능성이 높습니다. 스팸 방지 정책에서 BCL 임계값을 구성 합니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성](configure-your-spam-filter-policies.md), [EOP의 BCL (대량 불만 수준](bulk-complaint-level-values.md)) 및 [정크 메일 및 대량 전자 메일의 차이점](what-s-the-difference-between-junk-email-and-bulk-email.md)을 참조 하세요.
 
-||
-|:-----|
+|<!-- -->|
+|---|
 |![LinkedIn에 대 한 짧은 아이콘은 ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Microsoft 365를 처음으로 학습 하나요?** LinkedIn 학습을 통해 제공 되는 **Microsoft 365 관리자 및 IT 전문가**를 위한 무료 비디오 과정을 소개 합니다.|

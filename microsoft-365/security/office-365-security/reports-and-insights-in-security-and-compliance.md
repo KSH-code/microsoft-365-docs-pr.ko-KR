@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 보안 & 준수 센터에서 사용할 수 있는 스마트 보고서 및 정보 및이를 사용 하 여 데이터를 보고 탐색 하 고 바로 작업을 수행 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1f38ed081ce73af737b58a38692ac2fa0519972d
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 5d100aca53f3683d477fd15469ae53ecb7a2901b
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577189"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46652780"
 ---
 # <a name="smart-reports-and-insights-in-the-security--compliance-center"></a>보안 및 준수 센터의 똑똑한 보고서 및 분석
 
@@ -40,7 +40,9 @@ ms.locfileid: "46577189"
 ## <a name="types-of-reports-in-the-security--compliance-center"></a>보안 & 준수 센터의 보고서 유형
 
 보안 & 준수 센터에서 다양 한 보고서를 사용할 수 있습니다. ( **보고서** \> 로 이동 **대시보드** -모든 보기를 가져옵니다.) 다음 표에는 자세한 내용을 확인할 수 있는 링크가 포함 된 사용 가능한 보고서가 나와 있습니다.
-  
+
+****
+
 |정보 유형|이동 방법|자세한 정보를 얻을 수 있는 위치|
 |---|---|---|
 |**보안 & 준수 센터 보고서** (모두)  <br/> 주요 정보 보호법 및 권장 사항 및 데이터 손실 방지 보고서, 레이블, 전자 메일 보안 보고서, Advanced Threat Protection 보고서 등을 포함 하 여 보안 & 준수 보고서에 대 한 링크|보안 & 준수 센터에서 **보고서** \> **대시보드로** 이동 합니다.|[Microsoft 365 보안 센터에서 보고서 모니터링 및 보기](../mtp/monitoring-and-reporting.md)|
@@ -53,6 +55,7 @@ ms.locfileid: "46577189"
 |**GDPR 규정 준수** <br/> 데이터 주제, 레이블 추세 및 활성 & 닫힌 사례에 대 한 링크를 포함 하 여 GDPR 준수에 대 한 정보|보안 & 준수 센터에서 **데이터 개인 정보** \> **gdpr 대시보드로** 이동 합니다.|[GDPR에 대한 Office 365 정보 보호](https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr)|
 |**감사 로그** <br/> Microsoft 365 활동, 사용자, 파일 또는 폴더 등에 대한 정보|보안 & 준수 센터에서 **검색 & 조사** \> **감사 로그 검색** 으로 이동 합니다.|[보안 & 준수 센터에서 감사 로그 검색](../../compliance/search-the-audit-log-in-security-and-compliance.md)|
 |**준수 보고서** <br/> FedRAMP 보고서, 거버넌스, 위험 및 규정 준수 보고서, ISO 정보 보안 관리 보고서 및 Service Organization Controls(SOC) 감사 및 평가 보고서|보안 & 준수 센터에서 **서비스 보증** \> **준수 보고서** 로 이동 합니다.|[Office 365의 보안 & 준수 계획](../../compliance/plan-for-security-and-compliance.md)|
+|
 
 ## <a name="related-topics"></a>관련 항목
 

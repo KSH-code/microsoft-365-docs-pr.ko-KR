@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 Microsoft 365의 위협 보호에 대해 알아보고 조직에서이를 사용 하는 방법을 구성할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 54500500095392ebfc3d93080701fa4715fc8448
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 8c2786ebda18b5730e1cbe93316f0d6cc319f6a9
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617399"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656635"
 ---
 # <a name="protect-against-threats"></a>위협으로부터 보호
 
@@ -36,11 +36,12 @@ Microsoft 365에는 다양 한 위협 보호 기능이 포함 되어 있습니�
 
 ### <a name="subscriptions"></a>구독
 
-위협 보호 기능은 모든 Microsoft 365 구독에 포함 되어 있습니다. 그러나 일부 구독에는 고급 기능이 포함 되어 있습니다. 다음 표에는이 문서에 포함 된 모든 보호 기능과 최소 구독 요구 사항이 나와 있습니다.<br/>
+위협 보호 기능은 모든 Microsoft 365 구독에 포함 되어 있습니다. 그러나 일부 구독에는 고급 기능이 포함 되어 있습니다. 다음 표에는이 문서에 포함 된 모든 보호 기능과 최소 구독 요구 사항이 나와 있습니다.
 
-|||
+****
+
+|보호 유형|구독 요구 사항|
 |---|---|
-|**보호 유형**|**구독 요구 사항**|
 |맬웨어 방지 보호 기능|EOP ( [Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) )|
 |전자 메일 및 Office 문서의 악성 Url 및 파일 로부터 보호|[Office 365 ATP (Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) )|
 |피싱 방지 보호 기능|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
@@ -54,8 +55,10 @@ Microsoft 365에는 다양 한 위협 보호 기능이 포함 되어 있습니�
 
 [보안 & 준수 센터](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)에서 정책을 구성 하려면 적절 한 역할을 할당 받아야 합니다. 다음 표에 몇 가지 예제가 나와 있습니다.
 
+****
+
 |역할 또는 역할 그룹|자세한 정보|
-|---------|---------|
+|---|---|
 |전역 관리자|[Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
 |보안 관리자|[Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Exchange Online 조직 관리|[Exchange Online의 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>및<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
@@ -221,9 +224,10 @@ Microsoft 365에는 다양 한 위협 보호 기능이 포함 되어 있습니�
 
 위협 방지 기능을 구성한 후에는 이러한 기능이 작동 하는 방식을 모니터링 하 고, 필요에 따라 정책을 검토 및 수정 하 고, 새로운 기능 및 서비스 업데이트를 시청 해야 합니다.
 
-|||
+****
+
+|수행할 작업|자세한 정보를 알아볼 수 있는 리소스|
 |---|---|
-|**수행할 작업**|**자세한 정보를 알아볼 수 있는 리소스**|
 |보고서를 확인 하 여 조직에서 위협 방지 기능을 사용 하는 방법 보기|[보안 대시보드](security-dashboard.md)<br/>[전자 메일 보안 보고서](view-email-security-reports.md)<br/>[Office 365 ATP에 대 한 보고서](view-reports-for-atp.md)<br/>[위협 탐색기](threat-explorer.md)|
 |필요에 따라 위협 보호 정책 주기적으로 검토 및 수정|[Secure Score](../mtp/microsoft-secure-score.md)<br/>[스마트 보고서 및 통찰력](reports-and-insights-in-security-and-compliance.md)<br/>[Microsoft 365 위협 조사 및 응답 기능](keep-users-safe-with-office-365-ti.md)|
 |새로운 기능 및 서비스 업데이트 조사|[표준 및 대상 지정 된 릴리스 옵션](https://docs.microsoft.com/microsoft-365/admin/manage/release-options-in-office-365)<br/>[메시지 센터](https://docs.microsoft.com/microsoft-365/admin/manage/message-center)<br/>[Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|

@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 Advanced Threat Protection 계획의 위협 조사 및 응답 기능에 대해 알아봅니다.
-ms.openlocfilehash: 61b08dc2b77c874e255547b2bcaef596ee017bf4
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 6c009a756b30d4b35159b98b145b19b72c9ab541
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033941"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656674"
 ---
 # <a name="threat-investigation-and-response"></a>위협 조사 및 응답
 
@@ -34,14 +34,14 @@ ms.locfileid: "44033941"
 - 보안 작업에 도움이 되는 통찰력 및 지식을 제공 하 여 조직에 대 한 고 사이버 공격 방지
 - 중요 전자 메일 기반 위협에 대 한 [Office 365의 자동화 된 조사 및 응답](automated-investigation-response-office.md) 채택
     
-위협 조사 및 응답 기능은 보안 &amp; 및 준수 센터에서 사용할 수 있는 위협 및 관련 된 응답 작업에 대 한 정보를 제공 합니다. 이러한 통찰력은 조직의 보안 팀이 전자 메일 또는 파일 기반 공격 으로부터 사용자를 보호 하는 데 도움이 될 수 있습니다. 이 기능은 사용자 활동, 인증, 전자 메일, 손상 된 Pc 및 보안 인시던트와 같은 여러 원본의 데이터를 수집 하 고 신호를 모니터링 하는 데 도움이 됩니다. 비즈니스 의사 결정권자 및 보안 운영 팀은이 정보를 사용 하 여 조직에 대 한 위협을 파악 하 고 대응 하 고 지적 재산을 보호할 수 있습니다.
+위협 조사 및 응답 기능은 보안 및 준수 센터에서 사용할 수 있는 위협 및 관련 된 응답 작업에 대 한 정보를 제공 &amp; 합니다. 이러한 통찰력은 조직의 보안 팀이 전자 메일 또는 파일 기반 공격 으로부터 사용자를 보호 하는 데 도움이 될 수 있습니다. 이 기능은 사용자 활동, 인증, 전자 메일, 손상 된 Pc 및 보안 인시던트와 같은 여러 원본의 데이터를 수집 하 고 신호를 모니터링 하는 데 도움이 됩니다. 비즈니스 의사 결정권자 및 보안 운영 팀은이 정보를 사용 하 여 조직에 대 한 위협을 파악 하 고 대응 하 고 지적 재산을 보호할 수 있습니다.
 
 ## <a name="get-acquainted-with-threat-investigation-and-response-tools"></a>위협 조사 및 응답 도구 익히기
 
 보안 & 준수 센터의 위협 조사 및 응답 기능으로, 다음을 비롯 한 도구 및 응답 워크플로 집합으로 제공 됩니다.
 
 - [위협 대시보드](#threat-dashboard)
-- [Explorer](#threat-explorer)
+- [탐색기](#threat-explorer)
 - [인시던트](#incidents)
 - [공격 시뮬레이터](#attack-simulator)
 - [자동화된 조사 및 응답](automated-investigation-response-office.md)
@@ -52,7 +52,7 @@ ms.locfileid: "44033941"
   
 ![위협 대시보드](../../media/ce013a31-3f80-4d09-bb95-bfb7623b8bc4.png)
   
-이 대시보드 &amp; 를 보고 사용 하려면 보안 및 준수 센터에서 **위협 관리** \> **대시보드로**이동 합니다.
+이 대시보드를 보고 사용 하려면 보안 및 &amp; 준수 센터에서 **위협 관리** \> **대시보드로**이동 합니다.
   
 ### <a name="threat-explorer"></a>위협 탐색기
 
@@ -60,7 +60,7 @@ ms.locfileid: "44033941"
 
 ![위협 탐색기](../../media/7a7cecee-17f0-4134-bcb8-7cee3f3c3890.png)
   
-이 보고서 &amp; 를 보고 사용 하려면 보안 및 준수 센터에서 **위협 관리** \> **탐색기**로 이동 합니다.
+이 보고서를 보고 사용 하려면 보안 및 &amp; 준수 센터에서 **위협 관리** \> **탐색기**로 이동 합니다.
   
 ### <a name="incidents"></a>인시던트
 
@@ -70,7 +70,7 @@ ms.locfileid: "44033941"
 
 조직의 현재 인시던트 목록을 보려면 보안 & 준수 센터에서 **위협 관리** \> **검토** \> **인시던트**로 이동 합니다.
 
-![보안 & 준수 센터에서 위협 관리 \> 검토를 선택 합니다.](../../media/e0f46454-fa38-40f0-a120-b595614d1d22.png)
+![보안 & 준수 센터에서 위협 관리 검토를 선택 합니다. \>](../../media/e0f46454-fa38-40f0-a120-b595614d1d22.png)
 
 ### <a name="attack-simulator"></a>공격 시뮬레이터
 
@@ -96,19 +96,22 @@ Office 365 Advanced Threat Protection은 역할 기반 액세스 제어를 사�
 
 > [!TIP]
 > 보안 관리자와 같은 일부 역할은 보안 & 준수 센터에서 할당할 수 있지만 대신 Microsoft 365 관리 센터 또는 Azure Active Directory를 사용 하는 것이 좋습니다. 역할, 역할 그룹 및 권한에 대 한 자세한 내용은 다음 리소스를 참조 하십시오.
-> - [보안 &amp; 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)
+>
+> - [보안 및 준수 센터의 사용 권한 &amp;](permissions-in-the-security-and-compliance-center.md)
+>
 > - [Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
 
+****
 
-|활동 |역할 및 사용 권한 |  
-|:-----|:-----|
-|위협 대시보드 (또는 새 [보안 대시보드](security-dashboard.md)) 사용<br/> <br/>최근 또는 현재 위협에 대 한 정보 보기  <br/> |다음 중 하나가 필요합니다. <br/>- **전역 관리자**  <br/> - **보안 관리자** <br/>- **보안 독자** <br/> <br/>이러한 역할은 Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) 또는 Microsoft 365 관리 센터 ([https://admin.microsoft.com](https://admin.microsoft.com))에서 할당할 수 있습니다. |
-|[위협 탐색기 (및 실시간 검색)](threat-explorer.md) 를 사용 하 여 위협 분석  <br/> |다음 중 하나가 필요합니다. <br/>- **전역 관리자**  <br/> - **보안 관리자** <br/>- **보안 독자** <br/> <br/>이러한 역할은 Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) 또는 Microsoft 365 관리 센터 ([https://admin.microsoft.com](https://admin.microsoft.com))에서 할당할 수 있습니다. |
-|인시던트 보기 (조사가 라고도 함) <br/> 인시던트에 전자 메일 메시지 추가  <br/> |다음 중 하나가 필요합니다. <br/>- **전역 관리자**  <br/> - **보안 관리자** <br/>- **보안 독자** <br/> <br/>이러한 역할은 Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) 또는 Microsoft 365 관리 센터 ([https://admin.microsoft.com](https://admin.microsoft.com))에서 할당할 수 있습니다.  |
-|인시던트에서 전자 메일 작업 트리거 <br/> <br/> 의심 스러운 전자 메일 메시지 찾기 및 삭제  <br/> |다음 중 하나가 필요합니다. <br/>- **전역 관리자**  <br/> - **보안 관리자** 와 **검색 및 제거** 역할<br/><br/>**전역 관리자** 및 **보안 관리자** 역할은 Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) 또는 Microsoft 365 관리 센터 ([https://admin.microsoft.com](https://admin.microsoft.com))에서 할당 될 수 있습니다. <br/><br/>**검색 및 제거** 역할은 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))에서 할당 되어야 합니다. |
-|Microsoft Defender Advanced Threat Protection과 Office 365 Advanced Threat Protection 계획 2 통합  <br/><br/> SIEM 서버를 사용 하 여 Office 365 Advanced Threat Protection 계획 2 통합  <br/> |Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) 또는 Microsoft 365 관리 센터 ([https://admin.microsoft.com](https://admin.microsoft.com))에서 할당 된 **전역 관리자** 또는 **보안 관리자** 역할입니다.<br/>--- **기호** ---<br/>추가 응용 프로그램에서 할당 되는 적절 한 역할 (예: [Microsoft Defender Security Center](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles) 또는 siem server)  |
-   
-    
+|활동|역할 및 사용 권한|
+|---|---|
+|위협 대시보드 (또는 새 [보안 대시보드](security-dashboard.md)) 사용<br/> <br/>최근 또는 현재 위협에 대 한 정보 보기|다음 중 하나가 필요합니다. <br/>- **전역 관리자**  <br/> - **보안 관리자** <br/>- **보안 독자** <br/> <br/>이러한 역할은 Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) 또는 Microsoft 365 관리 센터 ()에서 할당할 수 있습니다 [https://admin.microsoft.com](https://admin.microsoft.com) .|
+|[위협 탐색기 (및 실시간 검색)](threat-explorer.md) 를 사용 하 여 위협 분석|다음 중 하나가 필요합니다. <br/>- **전역 관리자**  <br/> - **보안 관리자** <br/>- **보안 독자** <br/> <br/>이러한 역할은 Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) 또는 Microsoft 365 관리 센터 ()에서 할당할 수 있습니다 [https://admin.microsoft.com](https://admin.microsoft.com) .|
+|인시던트 보기 (조사가 라고도 함) <br/> 인시던트에 전자 메일 메시지 추가|다음 중 하나가 필요합니다. <br/>- **전역 관리자**  <br/> - **보안 관리자** <br/>- **보안 독자** <br/> <br/>이러한 역할은 Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) 또는 Microsoft 365 관리 센터 ()에서 할당할 수 있습니다 [https://admin.microsoft.com](https://admin.microsoft.com) .|
+|인시던트에서 전자 메일 작업 트리거 <br/> <br/> 의심 스러운 전자 메일 메시지 찾기 및 삭제|다음 중 하나가 필요합니다. <br/>- **전역 관리자**  <br/> - **보안 관리자** 와 **검색 및 제거** 역할<br/><br/>**전역 관리자** 및 **보안 관리자** 역할은 Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) 또는 Microsoft 365 관리 센터 ()에서 할당 될 수 있습니다 [https://admin.microsoft.com](https://admin.microsoft.com) . <br/><br/>**검색 및 제거** 역할은 Security & 준수 센터 ()에서 할당 되어야 합니다 [https://protection.office.com](https://protection.office.com) .|
+|Microsoft Defender Advanced Threat Protection과 Office 365 Advanced Threat Protection 계획 2 통합  <br/><br/> SIEM 서버를 사용 하 여 Office 365 Advanced Threat Protection 계획 2 통합|Azure Active Directory () 또는 Microsoft 365 관리 센터 ()에서 할당 된 **전역 관리자** 또는 **보안 관리자** 역할 [https://portal.azure.com](https://portal.azure.com) [https://admin.microsoft.com](https://admin.microsoft.com) 입니다.<br/>--- **기호** ---<br/>추가 응용 프로그램에서 할당 되는 적절 한 역할 (예: [Microsoft Defender Security Center](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles) 또는 siem server)|
+|
+
 ## <a name="next-steps"></a>다음 단계
 
 - [위협 추적기에 대해 알아보기-신규 및 중요](threat-trackers.md)

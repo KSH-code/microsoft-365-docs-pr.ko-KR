@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: 사용자가 업로드 하 고 사용자가 파일을 다운로드 하거나 동기화 하지 못하게 하는 파일에서 SharePoint Online이 바이러스를 감지 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f6bfc23ca4120122ecfa44ad4d39795fed22af84
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: 0e58fa8dc8b30c5bc6ff5db1508d8b7f9189b73a
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45429923"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653512"
 ---
 # <a name="virus-detection-in-sharepoint-online-onedrive-and-microsoft-teams"></a>SharePoint Online, OneDrive 및 Microsoft 팀의 바이러스 검색
 
@@ -58,9 +58,9 @@ Microsoft 365에서는 일반적인 바이러스 검색 엔진을 사용 합니�
 2. 사용자에 게 바이러스가 감지 되었음을 알리는 경고가 표시 됩니다. 사용자에 게 파일을 다운로드 하 고 자체 바이러스 백신 소프트웨어를 사용 하 여 복구를 시도할 수 있는 옵션이 제공 됩니다.
 
 > [!NOTE]
-> 
+>
 > SharePoint Online PowerShell에서 [set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant) Cmdlet의 *DisallowInfectedFileDownload* 매개 변수를 사용 하 여 바이러스 백신 경고 창 에서도 사용자가 감염 된 파일을 다운로드 하지 못하도록 할 수 있습니다.
-> 
+>
 > 또한 *DisallowInfectedFileDownload* 매개 변수를 사용 하도록 설정 하는 즉시 검색 된/차단 된 파일에 대 한 액세스 권한이 사용자 및 관리자에 대해 완전히 차단 됩니다.
 
 ## <a name="what-happens-when-the-onedrive-sync-client-tries-to-sync-an-infected-file"></a>OneDrive 동기화 클라이언트가 감염 된 파일을 동기화 하려고 할 때 수행 되는 작업

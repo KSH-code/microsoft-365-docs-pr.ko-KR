@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)의 스팸 방지 정책에서 사용할 수 있는 ASF (고급 스팸 필터) 설정에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 691539b8abd4fcd2e749c71d7fd337b0105d66ae
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: b314b8b2a2de72987d9acff688602df0e0947293
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352479"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653344"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-eop"></a>EOP의 ASF (고급 스팸 필터) 설정
 
@@ -33,7 +33,12 @@ ms.locfileid: "44352479"
 Exchange online 사서함이 없는 Microsoft 365 조직, EOP (독립 실행형 Exchange Online Protection) 조직의 ASF (고급 스팸 필터) 설정 (스팸 필터 정책 또는 콘텐츠 필터 정책이 라고도 함)을 사용 하면 관리자가 특정 메시지 속성을 기반으로 메시지를 스팸으로 표시할 수 있습니다. ASF는 일반적으로 스팸에서 발견 되므로 이러한 속성을 대상으로 합니다. 속성에 따라 ASF 검색은 메시지를 **스팸** 또는 **높은 신뢰도 스팸으로**표시 합니다.
 
 > [!NOTE]
-> 하나 이상의 ASF 설정을 사용 하도록 설정 하는 것이 스팸 필터링에 적극적인 방법입니다. ASF로 필터링 된 메시지는 가양성으로 보고할 수 없습니다. 다음과 같은 방법으로 ASF로 필터링 된 메시지를 확인할 수 있습니다. <ul><li>주기적인 최종 사용자 스팸 격리 알림</li><li>필터링 된 메시지가 격리 상태에 있는지 여부</li><li>`X-CustomSpam:`이 항목에 설명 된 대로 메시지에 추가 되는 특정 X-헤더 필드입니다.</li></ul>
+> 하나 이상의 ASF 설정을 사용 하도록 설정 하는 것이 스팸 필터링에 적극적인 방법입니다. ASF로 필터링 된 메시지는 가양성으로 보고할 수 없습니다. 다음과 같은 방법으로 ASF로 필터링 된 메시지를 확인할 수 있습니다.
+> - 주기적인 최종 사용자 스팸 격리 알림
+>
+> - 필터링 된 메시지가 격리 상태에 있는지 여부
+>
+> - `X-CustomSpam:`이 항목에 설명 된 대로 메시지에 추가 되는 특정 X-헤더 필드입니다.
 
 다음 섹션에서는 보안 & 준수 센터의 스팸 방지 정책 및 Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell ([get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/new-hostedcontentfilterpolicy) 및 [get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/set-hostedcontentfilterpolicy))에서 사용할 수 있는 ASF 설정 및 옵션에 대해 설명 합니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
@@ -53,14 +58,12 @@ Exchange online 사서함이 없는 Microsoft 365 조직, EOP (독립 실행형 
 
   - **Bcc 메시지 보내기 (*Bccmessage*)**: 지정 된 전자 메일 주소 (PowerShell의 *TestModeBccToRecipients* 매개 변수 값)가 메시지의 숨은 참조 필드에 추가 되 고 해당 메시지는 숨은 참조 받는 사람에 게 배달 됩니다. 보안 & 준수 센터에서는 여러 전자 메일 주소를 세미콜론 (;)으로 구분 합니다. PowerShell에서는 여러 전자 메일 주소를 쉼표로 구분 합니다.
 
-  **참고:**
+  **참고**:
 
   - 다음 ASF 설정에는 테스트 모드를 사용할 수 없습니다.
 
     - **조건부 보낸 사람 ID 필터링: 하드 실패** (*MarkAsSpamFromAddressAuthFail*)
-
     - **NDR 백 분산**(*MarkAsSpamNdrBackscatter*)
-
     - **SPF 레코드: 하드 실패** (*MarkAsSpamSpfRecordHardFail*)
 
   - **테스트**하도록 설정 된 *모든* ASF 설정에 동일한 테스트 모드 작업이 적용 됩니다. 서로 다른 ASF 설정에 대해 서로 다른 테스트 모드 작업을 구성할 수 없습니다.
@@ -69,9 +72,10 @@ Exchange online 사서함이 없는 Microsoft 365 조직, EOP (독립 실행형 
 
 다음 ASF 설정은 검색 된 메시지의 SCL (스팸 지 수)을 5 또는 6으로 설정 하며,이는 스팸 **필터 결과** 에 해당 하 고 스팸 방지 정책에서 해당 작업에 해당 합니다.
 
-||||
+****
+
+|스팸 방지 정책 설정|설명|X-헤더 추가 됨|
 |---|---|---|
-|**스팸 방지 정책 설정**|**설명**|**X-헤더 추가 됨**|
 |**원격 사이트에 대한 이미지 링크** <br/><br/> *IncreaseScoreWithImageLinks*|`<Img>`Http를 사용 하는 등의 원격 사이트에 대 한 HTML 태그를 포함 하는 메시지는 스팸으로 표시 됩니다.|`X-CustomSpam: Image links to remote sites`|
 |**다른 포트로 URL 리디렉션** <br/><br/> *IncreaseScoreWithRedirectToOtherPort*|80 (HTTP), 8080 (대체 HTTP) 또는 443 (HTTPS) 이외의 TCP 포트로 리디렉션되는 하이퍼링크를 포함 하는 메시지는 스팸으로 표시 됩니다.|`X-CustomSpam: URL redirect to other port`|
 |**URL의 숫자 IP 주소** <br/><br/> *IncreaseScoreWithNumericIps*|숫자 기반 Url (대개 IP 주소)이 포함 된 메시지는 스팸으로 표시 됩니다.|`X-CustomSpam: Numeric IP in URL`|
@@ -82,9 +86,10 @@ Exchange online 사서함이 없는 Microsoft 365 조직, EOP (독립 실행형 
 
 다음 ASF 설정은 검색 된 메시지의 SCL을 전자 스팸 방지 정책 결과 및 해당 작업에 해당 **하는 9** 로 설정 합니다.
 
-||||
+****
+
+|스팸 방지 정책 설정|설명|X-헤더 추가 됨|
 |---|---|---|
-|**스팸 방지 정책 설정**|**설명**|**X-헤더 추가 됨**|
 |**빈 메시지** <br/><br/> *MarkAsSpamEmptyMessages*|제목이 없고 메시지 본문에 콘텐츠가 없으며, 첨부 파일이 높은 신뢰도 스팸으로 표시 되지 않은 메시지입니다.|`X-CustomSpam: Empty Message`|
 |**HTML의 JavaScript 또는 VBScript** <br/><br/> *MarkAsSpamJavaScriptInHtml*|HTML에서 JavaScript 또는 Visual Basic Script Edition을 사용 하는 메시지는 신뢰도가 높은 스팸으로 표시 됩니다. <br/><br/> 이러한 스크립팅 언어는 특정 동작이 자동으로 발생 하도록 하는 전자 메일 메시지에 사용 됩니다.|`X-CustomSpam: Javascript or VBscript tags in HTML`|
 |**HTML의 Frame 또는 IFrame 태그** <br><br/> *MarkAsSpamFramesInHtml*|또는 HTML 태그를 포함 하는 메시지 `<frame>` `<iframe>` 는 신뢰도가 높은 스팸으로 표시 됩니다. <br/><br/> 이러한 태그는 전자 메일 메시지에서 텍스트나 그래픽을 표시 하도록 페이지 서식을 지정 하는 데 사용 됩니다.|`X-CustomSpam: IFRAME or FRAME in HTML`|

@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: 다음 표에는 EOP(Exchange 온라인 보호) 호스팅 전자 메일 필터링 서비스에서 사용할 수 있는 기능 목록이 나와 있습니다.
-ms.openlocfilehash: 820f635e679be9d579ba94fc3288830dc6996a0e
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 5a882edd91e8502d7340bf86f74e8114be9cd07b
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617045"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46652876"
 ---
 # <a name="eop-features"></a>EOP 기능
 
@@ -26,9 +26,10 @@ ms.locfileid: "44617045"
 > [!TIP]
 > [Microsoft 365 for business 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) 은 예정 된 새로운 기능에 대 한 정보를 확인할 수 있는 좋은 리소스입니다. 여러 EOP 구독 계획에서 사용할 수 있는 기능에 대한 폭넓은 정보는 [Exchange 온라인 보호 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)에서 확인할 수 있습니다.
 
-|||
+****
+
+|기능|설명|
 |---|---|
-|**기능**|**설명**|
 |**스팸 방지 보호 기능**||
 |인바운드 스팸 검색|자세한 내용은 [Microsoft 365의 스팸 방지 보호](anti-spam-protection.md)를 참조 하세요. <br/><br/> EOP로 온-프레미스 Exchange 사서함을 보호하는 독립 실행형 EOP 환경에서는 EOP 스팸 필터링 결과를 변환하여 정크 메일 규칙에 따라 메시지를 정크 메일 폴더로 이동하기 위해 온-프레미스 Exchange에서 메일 흐름 규칙(전송 규칙이라고도 함)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성를](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) 참조 하세요.|
 |아웃바운드 스팸 검색|아웃 바운드 메일을 보내는 데 서비스를 사용 하는 경우 아웃 바운드 스팸 방지 보호는 항상 사용 하도록 설정 됩니다. 자세한 내용은 [아웃 바운드 스팸 보호](outbound-spam-controls.md)를 참조 하세요.|
@@ -93,3 +94,4 @@ ms.locfileid: "44617045"
 |지역 중복 글로벌 서버 네트워크|EOP는 최상의 가용성을 제공하도록 설계된 데이터 센터의 전 세계 네트워크에서 실행됩니다. 자세한 내용은 [Exchange Online Protection 개요](exchange-online-protection-overview.md)에서 "EOP 데이터 센터" 섹션을 참조하세요.  |
 |온-프레미스 서버가 메일을 수락할 수 없는 경우 메시지 큐 대기|지연 상태인 메시지는 하루 동안 큐에 남아 있습니다. 메시지 다시 시도는 받는 사람의 메일 시스템에서 다시 수신된 오류를 기반으로 합니다. 평균적으로 5분마다 메시지가 다시 시도됩니다. 자세한 내용은 [EOP 대기, 지연 및 반송 메시지 FAQ](eop-queued-deferred-and-bounced-messages-faq.md)를 참조하세요.|
 |추가 서비스로 사용할 수 있는 Office 365 메시지 암호화|자세한 내용은 [Office 365의 암호화](../../compliance/encryption.md)를 참조하세요.|
+|

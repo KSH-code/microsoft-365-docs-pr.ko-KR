@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Attack 시뮬레이터를 사용 하 여 Microsoft 365 E5 또는 ATP 계획 2 조 직에서 시뮬레이트된 피싱 및 암호 공격을 실행 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 166a8ab9f6ef08ca089bc8924b686e392e870526
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 6aa1d2027915caeffe2c20ba8f75f3658c336dbe
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44587571"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653224"
 ---
 # <a name="attack-simulator-in-atp"></a>ATP의 공격 시뮬레이터
 
@@ -114,7 +114,10 @@ Attack 시뮬레이터에서는 다음과 같은 두 가지 유형의 스피어 
      - <http://portal.salarytoolint.net>
 
      > [!NOTE]
-     > <ul><li>모든 Url은 https가 아닌 고의로 http입니다.</li><li>URL 신뢰도 서비스가 이러한 Url 중 하나 이상을 안전 하지 않은 것으로 식별할 수 있습니다. 피싱 캠페인에서 URL을 사용 하기 전에 지원 되는 웹 브라우저에서 URL의 가용성을 확인 합니다.</li></ul>
+     >
+     > - 모든 Url은 https가 아닌 고의로 http입니다.
+     >
+     > - URL 신뢰도 서비스가 이러한 Url 중 하나 이상을 안전 하지 않은 것으로 식별할 수 있습니다. 피싱 캠페인에서 URL을 사용 하기 전에 지원 되는 웹 브라우저에서 URL의 가용성을 확인 합니다.
 
    - **사용자 지정 랜딩 페이지 URL**: 사용자가 피싱 링크를 클릭 하 고 해당 자격 증명을 입력할 수 있는 선택적 랜딩 페이지를 입력 합니다. 이 링크는 기본 랜딩 페이지를 대체 합니다. 예를 들어 내부 인식 교육이 있는 경우 여기에서 해당 URL을 지정할 수 있습니다.
 
@@ -188,7 +191,12 @@ Attack 시뮬레이터에서는 다음과 같은 두 가지 유형의 스피어 
      - <http://portal.salarytoolint.net>
 
      > [!NOTE]
-     > <ul><li>모든 Url은 https가 아닌 고의로 http입니다.</li><li>URL 신뢰도 서비스가 이러한 Url 중 하나 이상을 안전 하지 않은 것으로 식별할 수 있습니다. 피싱 캠페인에서 URL을 사용 하기 전에 지원 되는 웹 브라우저에서 URL의 가용성을 확인 합니다.</li><li>URL을 선택 해야 합니다. <b>스피어 피싱 (첨부 파일)</b> 캠페인의 경우 다음 단계에서 메시지 본문의 링크를 제거할 수 있습니다 (그렇지 않으면 메시지에 링크 <b>와</b> 첨부 파일이 모두 포함 됨).</li></ul>
+     >
+     > - 모든 Url은 https가 아닌 고의로 http입니다.
+     >
+     > - URL 신뢰도 서비스가 이러한 Url 중 하나 이상을 안전 하지 않은 것으로 식별할 수 있습니다. 피싱 캠페인에서 URL을 사용 하기 전에 지원 되는 웹 브라우저에서 URL의 가용성을 확인 합니다.
+     >
+     > - URL을 선택 해야 합니다. **스피어 피싱 (첨부 파일)** 캠페인의 경우 다음 단계에서 메시지 본문의 링크를 제거할 수 있습니다 (그렇지 않으면 메시지에 링크 **와** 첨부 파일이 모두 포함 됨).
 
    - **첨부 파일 형식**:이 설정은 **스피어 피싱 (첨부 파일)** 캠페인 에서만 사용할 수 있습니다. 드롭다운을 클릭 하 고를 선택 **합니다. .DOCX** 또는 **. **목록에서 PDF를 표시 합니다.
 

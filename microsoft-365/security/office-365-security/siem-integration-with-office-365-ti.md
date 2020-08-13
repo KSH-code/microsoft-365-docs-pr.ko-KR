@@ -18,20 +18,20 @@ ms.collection:
 - M365-security-compliance
 description: Office 365 활동 관리 API에서 조직의 SIEM server를 Office 365 Advanced Threat Protection 및 관련 위협 이벤트와 통합 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0527a998e7049960df840c7756ef5deaafaf5ade
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: b3ed2efd2b59397853623ffcec93e8011793ab43
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035275"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656602"
 ---
 # <a name="siem-integration-with-advanced-threat-protection"></a>Advanced Threat Protection과의 SIEM 통합
 
-조직에서 SIEM (보안 인시던트 및 이벤트 관리) 서버를 사용 하는 경우 Office 365 Advanced Threat Protection을 SIEM 서버와 통합할 수 있습니다. SIEM 통합을 사용 하면 SIEM server reports에서 Office 365 고급 보호를 통해 검색 된 맬웨어 또는 피싱 같은 정보를 볼 수 있습니다. SIEM 통합을 설정 하려면 [Office 365 활동 관리 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 사용 합니다. 
+조직에서 SIEM (보안 인시던트 및 이벤트 관리) 서버를 사용 하는 경우 Office 365 Advanced Threat Protection을 SIEM 서버와 통합할 수 있습니다. SIEM 통합을 사용 하면 SIEM server reports에서 Office 365 고급 보호를 통해 검색 된 맬웨어 또는 피싱 같은 정보를 볼 수 있습니다. SIEM 통합을 설정 하려면 [Office 365 활동 관리 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 사용 합니다.
 
-Office 365 활동 관리 API는 조직의 Microsoft 365 비즈니스 및 Azure Active Directory 활동 로그에서 사용자, 관리자, 시스템 및 정책 작업 및 이벤트에 대 한 정보를 검색 합니다. [Office 365 Advanced Threat protection 스키마](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) 는 Advanced threat protection과 함께 작동 하므로 조직에 Office 365 Advanced Threat protection 계획 1 또는 계획 2 또는 Office 365 E5가 있는 경우에도이 API를 사용 하 여 siem 서버 통합에 사용할 수 있습니다. 
+Office 365 활동 관리 API는 조직의 Microsoft 365 비즈니스 및 Azure Active Directory 활동 로그에서 사용자, 관리자, 시스템 및 정책 작업 및 이벤트에 대 한 정보를 검색 합니다. [Office 365 Advanced Threat protection 스키마](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) 는 Advanced threat protection과 함께 작동 하므로 조직에 Office 365 Advanced Threat protection 계획 1 또는 계획 2 또는 Office 365 E5가 있는 경우에도이 API를 사용 하 여 siem 서버 통합에 사용할 수 있습니다.
 
-최근 업데이트의 일환으로 Office 365 관리 활동 API 내에서 Office 365 ATP 계획 2의 자동화 된 조사 및 응답 기능의 이벤트가 추가 되었습니다. ID, 이름 및 상태와 같은 핵심 조사 세부 정보에 대 한 데이터를 포함 하는 것 외에도 조사 작업 및 엔터티에 대 한 높은 수준의 정보도 포함 되어 있습니다.   
+최근 업데이트의 일환으로 Office 365 관리 활동 API 내에서 Office 365 ATP 계획 2의 자동화 된 조사 및 응답 기능의 이벤트가 추가 되었습니다. ID, 이름 및 상태와 같은 핵심 조사 세부 정보에 대 한 데이터를 포함 하는 것 외에도 조사 작업 및 엔터티에 대 한 높은 수준의 정보도 포함 되어 있습니다.
 
 SIEM 서버 또는 기타 유사한 시스템에서 **감사의 일반적인** 작업을 폴링하여 검색 이벤트에 액세스 해야 합니다. 자세한 내용은 [Office 365 관리 api 시작](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)을 참조 하세요. 또한 다음 **AuditLogRecordType** 값은 OFFICE 365 ATP 이벤트와 관련이 있습니다.
 
@@ -39,13 +39,15 @@ SIEM 서버 또는 기타 유사한 시스템에서 **감사의 일반적인** �
 
 #### <a name="auditlogrecordtype"></a>AuditLogRecordType
 
+****
+
 |값|멤버 이름|설명|
-|:-----|:-----|:-----|
+|---|---|---|
 |28@@|ThreatIntelligence|Exchange Online Protection 및 Office 365 Advanced Threat Protection의 피싱 및 맬웨어 이벤트|
 |41|ThreatIntelligenceUrl|ATP Safe 링크는 Office 365 Advanced Threat Protection에서 차단 및 차단 이벤트 차단을 방지 하 고 무시 합니다.|
 |47|ThreatIntelligenceAtpContent|SharePoint Online, 비즈니스용 OneDrive 및 Office 365 Advanced Threat Protection의 파일에 대 한 피싱 및 맬웨어 이벤트입니다.|
 |64|방송 조사|검사 세부 정보 및 Office 365 Advanced Threat Protection 계획 2의 관련 아티팩트와 같은 자동화 된 조사 및 응답 이벤트|
-
+|
 
 > [!IMPORTANT]
 > Office 365 Advanced Threat Protection과 함께 SIEM 통합을 설정 하려면 전역 관리자 이거나 보안 & 준수 센터에 대 한 보안 관리자 역할이 할당 되어 있어야 합니다.<br/>Microsoft 365 환경에 대해 감사 로깅을 켜야 합니다. 이에 대 한 도움말을 보려면 [Turn 감사 로그 검색 켜기 또는 끄기를](../../compliance/turn-audit-log-search-on-or-off.md)참조 하세요.
@@ -58,7 +60,6 @@ SIEM 서버 또는 기타 유사한 시스템에서 **감사의 일반적인** �
 
 [Office 365 Advanced Threat Protection](office-365-atp.md)
 
-[보안 &amp; 및 준수 센터의 Smart reports 및 통찰력](reports-and-insights-in-security-and-compliance.md)
-  
-[보안 &amp; 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)
-  
+[보안 및 준수 센터의 Smart reports 및 통찰력 &amp;](reports-and-insights-in-security-and-compliance.md)
+
+[보안 및 준수 센터의 사용 권한 &amp;](permissions-in-the-security-and-compliance-center.md)

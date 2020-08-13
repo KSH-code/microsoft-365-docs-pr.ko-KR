@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)의 보호에 대 한 응용 프로그램 순서와 보호 정책의 우선 순위 값이 적용 되는 정책을 결정 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 176d39a240d49e0118b4bb8e8cee52a6e7c61b0e
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 7775f0a37751289e7f0116575e2f6b2733683b6b
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209442"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653681"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>전자 메일 보호의 순서 및 우선 순위
 
@@ -33,20 +33,21 @@ Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (독립 실행�
 
 - **전자 메일 보호 유형의 우선 순위**:이 순서는 구성할 수 없으며 다음 표에 설명 되어 있습니다.
 
-  |||||
+  ****
+
+  |우선 순위|전자 메일 보호|Category|관리할 위치|
   |---|---|---|---|
-  |**Priority(우선 순위)**|**전자 메일 보호**|**범주**|**관리할 위치**|
   |개|맬웨어|CAT: MALW|[EOP에서 맬웨어 방지 정책 구성](configure-anti-malware-policies.md)|
-  |2|피싱|CAT: PHSH|[EOP에서 스팸 방지 정책 구성](configure-your-spam-filter-policies.md)|
-  |3(sp3)|높은 정확도 스팸|CAT: HSPM|[EOP에서 스팸 방지 정책 구성](configure-your-spam-filter-policies.md)|
+  |2|피싱|CAT: PHSH|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
+  |3(sp3)|높은 정확도 스팸|CAT: HSPM|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
   |4 |스푸핑|CAT: 스푸핑|[EOP에서 스푸핑 인텔리전스 구성](learn-about-spoof-intelligence.md)|
-  |5 |스팸|CAT: SPM|[EOP에서 스팸 방지 정책 구성](configure-your-spam-filter-policies.md)|
-  |6 |대량|CAT: 대량|[EOP에서 스팸 방지 정책 구성](configure-your-spam-filter-policies.md)|
+  |5 |스팸|CAT: SPM|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
+  |6 |대량|CAT: 대량|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
   |연중<sup>\*</sup>|도메인 가장 (보호 된 사용자)|DIMP|[ATP 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)|
   |8<sup>\*</sup>|사용자 가장 (보호 된 도메인)|UIMP|[ATP 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)|
   |
 
-  <sup>\*</sup>이러한 기능은 ATP 피싱 방지 정책 에서만 사용할 수 있습니다.
+  <sup>\*</sup> 이러한 기능은 ATP 피싱 방지 정책 에서만 사용할 수 있습니다.
 
 - **정책의 우선 순위**: 각 보호 유형 (스팸 방지, 맬웨어 방지, 피싱 방지 등)에 대해 모든 사용자에 게 적용 되는 기본 정책이 있지만 특정 사용자에 게 적용 되는 사용자 지정 정책을 만들 수 있습니다. 각 사용자 지정 정책에는 정책이 적용 되는 순서를 결정 하는 우선 순위 값이 있습니다. 기본 정책은 항상 마지막으로 적용 됩니다.
 
@@ -54,9 +55,10 @@ Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (독립 실행�
 
 예를 들어 **동일한 사용자에 게 적용 되**는 다음 ATP 피싱 방지 정책 및 사용자 가장 및 스푸핑으로 식별 되는 메시지를 고려해 야 합니다.
 
-  |||||
+  ****
+
+  |ATP 피싱 방지 정책|우선 순위|사용자 가장|스푸핑 방지|
   |---|---|---|---|
-  |**ATP 피싱 방지 정책**|**Priority(우선 순위)**|**사용자 가장**|**스푸핑 방지**|
   |정책 A|개|켜짐|해제|
   |정책 B|2|해제|켜짐|
   |

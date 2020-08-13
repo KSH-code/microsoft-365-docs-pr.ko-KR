@@ -14,12 +14,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.date: 02/25/2020
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능을 사용 하 여 공격에 노출 된 사용자 계정을 검색 하 고 해결 하는 프로세스를 빠르게 진행 하는 방법을 알아봅니다.
-ms.openlocfilehash: 60e9009ff77ebb58794ad7feaf522e1c6efc3039
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5a1dd64a0b30bb230af0d96432ae9542ce0370d8
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635775"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656912"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>자동 조사 및 응답을 통해 손상 된 사용자 계정 처리
 
@@ -31,7 +31,7 @@ ms.locfileid: "43635775"
 
 - 손상 된 사용자 계정 감지 속도 향상
 
-- 계정이 손상 되는 경우 위반 범위를 제한 합니다. 한 
+- 계정이 손상 되는 경우 위반 범위를 제한 합니다. 한
 
 - 손상 된 사용자에 게 보다 효율적이 고 효율적으로 응답 합니다.
 
@@ -60,27 +60,29 @@ ms.locfileid: "43635775"
 
 ### <a name="view-and-investigate-restricted-users"></a>제한 된 사용자 보기 및 조사
 
-제한 된 사용자 목록으로 이동 하기 위한 몇 가지 옵션을 사용할 수 있습니다. 예를 들어 보안 & 준수 센터에서는 **위협 관리** > **검토** > **제한 된 사용자**로 이동할 수 있습니다. 다음 절차에서는 **알림** 대시보드를 사용 하 여 탐색에 대해 설명 하므로 트리거된 것일 수 있는 다양 한 종류의 경고를 확인 하는 데 유용 합니다.
+제한 된 사용자 목록으로 이동 하기 위한 몇 가지 옵션을 사용할 수 있습니다. 예를 들어 보안 & 준수 센터에서는 **위협 관리**  >  **검토**  >  **제한 된 사용자**로 이동할 수 있습니다. 다음 절차에서는 **알림** 대시보드를 사용 하 여 탐색에 대해 설명 하므로 트리거된 것일 수 있는 다양 한 종류의 경고를 확인 하는 데 유용 합니다.
 
 1. [https://protection.office.com](https://protection.office.com)으로 이동하여 로그인합니다.
 
-2. 탐색 창에서 **경고** > **대시보드**를 선택 합니다.
+2. 탐색 창에서 **경고**  >  **대시보드**를 선택 합니다.
 
-3. **다른 경고** 위젯에 **제한 된 사용자**를 선택 합니다.<br/>
-   ![기타 알림 위젯](/microsoft-365/media/office365atp-otheralertswidget.jpg)<br/>
-   이렇게 하면 제한 된 사용자 목록이 열립니다.<br/>![Office 365의 제한 된 사용자](/microsoft-365/media/office365atp-restrictedusers.jpg) 
+3. **다른 경고** 위젯에 **제한 된 사용자**를 선택 합니다.
 
-4. 목록에서 사용자 계정을 선택 하 여 세부 정보를 확인 하 고 [제한 된 사용자 해제](https://docs.microsoft.com/microsoft-365/security/office-365-security/removing-user-from-restricted-users-portal-after-spam)와 같은 작업을 수행 합니다. 
+   ![기타 알림 위젯](/microsoft-365/media/office365atp-otheralertswidget.jpg)
+
+   이렇게 하면 제한 된 사용자 목록이 열립니다.<br/>![Office 365의 제한 된 사용자](/microsoft-365/media/office365atp-restrictedusers.jpg)
+
+4. 목록에서 사용자 계정을 선택 하 여 세부 정보를 확인 하 고 [제한 된 사용자 해제](https://docs.microsoft.com/microsoft-365/security/office-365-security/removing-user-from-restricted-users-portal-after-spam)와 같은 작업을 수행 합니다.
 
 ### <a name="view-details-about-automated-investigations"></a>자동화 된 조사에 대 한 세부 정보 보기
 
-자동 조사가 시작 되 면 보안 & 준수 센터에서 해당 세부 정보와 결과를 볼 수 있습니다. **위협 관리** > **조사**로 이동한 다음 조사를 선택 하 여 세부 정보를 확인 합니다.
+자동 조사가 시작 되 면 보안 & 준수 센터에서 해당 세부 정보와 결과를 볼 수 있습니다. **위협 관리**  >  **조사**로 이동한 다음 조사를 선택 하 여 세부 정보를 확인 합니다.
 
 자세한 내용은 [조사의 세부 정보 보기](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results)를 참조 하세요.
 
 ## <a name="keep-the-following-points-in-mind"></a>다음 사항에 유의 하세요.
 
-- **알림 맨 위에 유지**합니다. 알고 있는 것 처럼 더 긴 손상이 감지 되지 않으면 조직, 고객 및 파트너에 게 광범위 하 게 영향을 줄 수 있고 비용이 더 커집니다. 위협을 완화 하려면 조기 검색 및 적시 응답이 중요 하며, 특히 사용자의 계정이 손상 되는 경우에는 그렇습니다. 
+- **알림 맨 위에 유지**합니다. 알고 있는 것 처럼 더 긴 손상이 감지 되지 않으면 조직, 고객 및 파트너에 게 광범위 하 게 영향을 줄 수 있고 비용이 더 커집니다. 위협을 완화 하려면 조기 검색 및 적시 응답이 중요 하며, 특히 사용자의 계정이 손상 되는 경우에는 그렇습니다.
 
 - **자동화는 보안 운영 팀을 지원 하지만 대체 하지는 않습니다**. 자동화 된 조사 및 응답 기능은 공격에 참여 한 사용자를 일찍 검색할 수 있지만, 보안 운영 팀에서 이러한 문제를 해결 하 고 몇 가지 조사 및 관리를 수행 해야 할 수도 있습니다. 이에 대 한 도움이 필요 하세요? [작업 검토 및 승인를](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air#review-and-approve-actions)참조 하세요.
 

@@ -14,12 +14,12 @@ ms.assetid: 212e68ac-6330-47e9-a169-6cf5e2f21e13
 ms.custom:
 - seo-marvel-apr2020
 description: EOP (독립 실행형 Exchange Online Protection) 조직의 관리자는 EAC (Exchange 관리 센터) 및 EOP (독립 실행형 Exchange Online Protection) PowerShell에서 메일 그룹을 만들고, 수정 하 고, 제거 하는 방법을 알 수 있습니다.
-ms.openlocfilehash: 42086b67e22df4725bf07bf227853c070f936f24
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 813735d4024c3b8424a6bbac51ebef7b4c53e590
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616505"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653656"
 ---
 # <a name="manage-groups-in-eop"></a>EOP에서 그룹 관리
 
@@ -30,11 +30,14 @@ Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protec
 - **메일 사용이 가능한 보안 그룹**: 관리 역할에 대 한 액세스 권한이 필요한 메일 사용자 및 기타 보안 그룹 모음입니다. 예를 들어 특정 사용자 그룹에 게 스팸 방지 및 맬웨어 방지 설정을 구성할 수 있도록 관리자 권한을 부여할 수 있습니다.
 
     > [!NOTE]
-    > <ul><li>기본적으로 새로운 메일 사용이 가능한 보안 그룹은 인증 되지 않은 외부 보낸 사람의 메시지를 거부 합니다.</li><li>메일 사용이 가능한 보안 그룹에 메일 그룹을 추가 하지 마세요.</li></ul>.
+    >
+    > - 기본적으로 새로운 메일 사용이 가능한 보안 그룹은 인증 되지 않은 외부 보낸 사람의 메시지를 거부 합니다.
+    >
+    > - 메일 사용이 가능한 보안 그룹에 메일 그룹을 추가 하지 마세요.
 
 EAC (Exchange 관리 센터) 및 독립 실행형 EOP PowerShell에서 그룹을 관리할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - Exchange 관리 센터를 열려면 [독립 실행형 EOP에서 exchange 관리 센터](exchange-admin-center-in-exchange-online-protection-eop.md)를 참조 하세요.
 
@@ -157,7 +160,7 @@ Get-DistributionGroupMember -Identity <GroupIdentity>
 New-EOPDistributionGroup -Name "<Unique Name>" -ManagedBy @("UserOrGroup1","UserOrGroup2",..."UserOrGroupN">) [-Alias <text>] [-DisplayName "<Descriptive Name>"] [-Members @("UserOrGroup1","UserOrGroup2",..."UserOrGroupN">)] [-Notes "<Optional Text>"] [-PrimarySmtpAddress <SmtpAddress>] [-Type <Distribution | Security>]
 ```
 
-**참고:**
+**참고**:
 
 - _Name_ 매개 변수는 필수 이며, 최대 길이는 64 자 이며 고유 해야 합니다. _DisplayName_ 매개 변수를 사용하지 않는 경우에는 _Name_ 매개 변수의 값이 표시 이름에 사용됩니다.
 

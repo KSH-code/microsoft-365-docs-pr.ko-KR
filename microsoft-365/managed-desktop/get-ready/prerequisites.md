@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: c958101e1f3268c706c27df6fc9e21e9914b3f46
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 041e7dc89ddd42326ce0a5040364306e26fd2413
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530286"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653392"
 ---
 # <a name="prerequisites-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 필수 구성 요소
 
@@ -48,7 +48,7 @@ Microsoft Managed Desktop을 작동 하려면 특정 라이선스 옵션이 필�
 
 |라이선스 옵션 |다음 라이선스 *제품에서 사용* 가능 |Microsoft Managed Desktop이 사용 하는 방법|
 |-------------|-------------|-------------|
-|Azure Active Directory Premium P1     |-Microsoft 365 E5<br>-Microsoft 365 E3 + Microsoft 365 *E5* 보안 추가 기능<br>-Enterprise Mobility + Security E5<br>-Enterprise Mobility + Security E3<br>-Azure Active Directory Premium P1|  Microsoft 클라우드 서비스에 대 한 액세스를 제공 합니다. AutoPilot에서 장치를 등록할 수 있도록 허용      |
+|Azure Active Directory Premium P2     |-Microsoft 365 E5<br>-Microsoft 365 E3 + Microsoft 365 *E5* 보안 추가 기능<br>-Enterprise Mobility + Security E5<br>-Enterprise Mobility + Security E3<br>-Azure Active Directory Premium P2|  Microsoft 클라우드 서비스에 대 한 액세스를 제공 합니다. AutoPilot에서 장치를 등록할 수 있도록 허용      |
 |Microsoft Intune | -Microsoft 365 E5<br>-Microsoft 365 E3 + Microsoft 365 *E5* 보안 추가 기능<br>-Enterprise Mobility + Security E5<br>-Enterprise Mobility + Security E3<br>-Microsoft Intune  |  장치를 등록 하 고, 업데이트를 배포 하 고, 장치를 관리 하는 데 필요       |
 |Windows 10 Enterprise  |-Microsoft 365 E5<br>-Microsoft 365 E3 + Microsoft 365 *E5* 보안 추가 기능<br>-Windows 10 Enterprise E3<br>-Windows 10 Enterprise E5 | Windows 10의 엔터프라이즈 기능을 제공 합니다.       |
 |Microsoft Defender Advanced Threat Protection | -Microsoft 365 E5<br>-Microsoft 365 E3 + Microsoft 365 *E5* 보안 추가 기능<br>-Windows 10 Enterprise E5<br>-Microsoft Defender Advanced Threat Protection   |  검색, 모니터링, 경고 및 위협에 대 한 대응 제공  |

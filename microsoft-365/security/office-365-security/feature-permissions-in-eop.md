@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 34674847-a6b7-4a7e-9eaa-b64f22bc150d
 description: 독립 실행형 Exchange Online Protection의 작업에 필요한 사용 권한에 대해 알아봅니다.
-ms.openlocfilehash: 0c3074789e439c3923667d37446733665fa79d88
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 2f653fbae49087b8fc1ebc3a97586512965df970
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588255"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46652900"
 ---
 # <a name="permissions-in-standalone-eop"></a>독립 실행형 EOP의 사용 권한
 
@@ -43,9 +43,10 @@ Microsoft 365의 사용 권한에 대 한 자세한 내용은 [관리 역할 정
 
 독립 실행형 EOP에서 사용할 수 있는 역할 그룹은 다음 표에 설명 되어 있습니다.
 
-||||
+****
+
+|역할 그룹|설명|할당 된 기본 역할|
 |---|---|---|
-|**역할 그룹**|**설명**|**할당 된 기본 역할**|
 |ComplianceManagement|구독에 DLP 기능이 있는 경우 DLP (데이터 손실 방지)를 포함 하 여 조직 내에서 규정 준수 설정을 구성 하 고 관리 합니다. <br/><br/> Azure AD에서 [규정 준수 관리자](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#compliance-administrator) 역할의 구성원은이 역할 그룹의 사용 권한을 자동으로 부여 합니다.|감사 로그 <br/><br/> 준수 관리 <br/><br/> 정보 권한 관리 <br/><br/> 보존 관리 <br/><br/> 보기 전용 감사 로그 <br/><br/> 보기 전용 구성 <br/><br/> 보기 전용 받는 사람|
 |ContentExplorerContentViewer|사용되지 않습니다.|데이터 분류 콘텐츠 뷰어|
 |ContentExplorerListViewer|사용되지 않습니다.|데이터 분류 목록 뷰어|
@@ -70,9 +71,10 @@ Exchange Online의 기본 제공 역할 그룹이 관리자의 작업 기능과 
 
 독립 실행형 EOP에서 사용할 수 있는 기본 제공 역할은 다음 표에 설명 되어 있습니다.
 
-||||
+****
+
+|역할 * *|설명|기본 역할 그룹 할당|
 |---|---|---|
-|**역할**|**설명**|**기본 역할 그룹 할당**|
 |프로그램이|맬웨어 방지 기능에 대 한 구성 및 보고서를 보고 수정 합니다.|OrganizationManagement <br/><br/> 보안 관리자|
 |스팸 방지|스팸 방지 기능에 대 한 구성 및 보고서를 보고 수정 합니다.|OrganizationManagement <br/><br/> 보안 관리자|
 |감사 로그|관리자 감사 로그를 검색 하 여 결과를 확인 합니다.|ComplianceManagement <br/><br/> OrganizationManagement <br/><br/> 보안 관리자|
@@ -123,9 +125,10 @@ Microsoft 365 관리 센터에서 사용자를 만들 때 전역 관리자, 서�
 
 다음 표에서는 Microsoft 365 역할 및 해당 역할과 해당 역할이 해당 하는 독립 실행형 EOP 역할 그룹을 보여 줍니다. 이러한 역할에 대 한 자세한 내용은 [관리 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)를 참조 하십시오.
 
-|||
+****
+
+|Microsoft 365 역할|EOP 역할 그룹|
 |---|---|
-|**Microsoft 365 역할**|**EOP 역할 그룹**|
 |Exchange 관리자|OrganizationManagement|
 |전역 관리자|OrganizationManagement <br/><br/> **참고**: 전역 관리자 역할 및 OrganizationManagement 역할 그룹은 특수 회사 관리자 역할 그룹을 사용 하 여 서로 연결 됩니다. 회사 관리자 역할 그룹은 내부적으로 관리 되며 직접 수정할 수 없습니다.|
 |암호 관리자|HelpDesk|

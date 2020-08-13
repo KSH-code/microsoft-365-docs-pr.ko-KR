@@ -19,12 +19,12 @@ ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 ms.custom:
 - seo-marvel-apr2020
 description: 이 항목에서는 Microsoft 365 환경의 보안에 영향을 주는 테 넌 트 수준 설정에 대 한 권장 구성을 안내 합니다.
-ms.openlocfilehash: 5e02a871385deb2bae9e788eacd772c08af1d972
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 821221e9a7602b7eaaf6850284468abd486cf501
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588055"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653560"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>보안 강화를 위해 Microsoft 365 테 넌 트 구성
 
@@ -38,9 +38,10 @@ Office 365 안전한 점수는 정기 활동 및 보안 설정에 따라 조직�
 
 Microsoft 365 보안 센터에는 환경을 보호 하는 기능이 포함 되어 있습니다. 또한 작업을 모니터링 하 고 수행 하는 데 사용할 수 있는 보고서 및 대시보드가 포함 되어 있습니다. 일부 영역에는 기본 정책 구성이 제공 됩니다. 일부 영역에는 기본 정책이 나 규칙이 포함 되지 않습니다. 위협 관리에서 이러한 정책을 방문 하 여 보다 안전한 환경에 대 한 위협 관리 설정을 조정 합니다.
 
-||||
+****
+
+|영역|기본 정책 포함|권장 사항|
 |---|---|---|
-|**영역**|**기본 정책 포함**|**권장 사항**|
 |**피싱 방지**|예|사용자 지정 도메인이 있는 경우 기본 피싱 방지 정책을 구성 하 여 CEO와 같은 가장 귀중 한 사용자의 전자 메일 계정을 보호 하 고 도메인을 보호 합니다. [Office 365에서 피싱 방지 정책을](set-up-anti-phishing-policies.md) 검토 하 고 [EOP에서 피싱 방지 정책 구성을](configure-anti-phishing-policies-eop.md) 참조 하거나 [Office 365에서 ATP 피싱 방지 정책을 구성](configure-atp-anti-phishing-policies.md)합니다.|
 |**맬웨어 방지 엔진**|예| 기본 정책을 편집 합니다. <br/> &ensp;&ensp;* 일반 첨부 파일 유형 필터-선택 <br/><br/> 사용자 지정 맬웨어 필터 정책을 만들어 조직의 지정 된 사용자, 그룹 또는 도메인에 적용할 수도 있습니다. <br/><br/> 추가 정보: <br/> &ensp;&ensp;* [맬웨어 방지 보호 기능](anti-malware-protection.md) <br/> &ensp;&ensp;* [맬웨어 방지 정책 구성](configure-anti-malware-policies.md)|
 |**ATP 안전한 첨부 파일**|아니요| 안전한 첨부 파일의 기본 페이지에서 다음 확인란을 선택 하 여 SharePoint, OneDrive 및 Microsoft 팀의 파일을 보호 합니다. <br/> &ensp;&ensp;* SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP 켜기 <br/><br/> 다음 설정을 사용 하 여 새 안전 첨부 파일 정책을 추가 합니다. <br/> &ensp;&ensp;* 차단-검색 된 맬웨어로부터 현재 및 앞으로의 전자 메일 및 첨부 파일 차단 (이 옵션 선택) <br/> &ensp;&ensp;* 리디렉션 사용 — (이 상자를 선택 하 고 관리자 또는 격리 계정과 같은 전자 메일 주소를 입력 합니다.) <br/> &ensp;&ensp;* 첨부 파일에 대 한 맬웨어 검사 시간이 초과 되거나 오류가 발생 하는 경우 위의 선택을 적용 합니다 (선택 사항). <br/> &ensp;&ensp;* 적용 대상-받는 사람 도메인 (도메인 선택) <br/><br/>추가 정보: [Office 365 ATP 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md)|
@@ -56,9 +57,10 @@ Microsoft 365 보안 센터에는 환경을 보호 하는 기능이 포함 되�
 
 다음 보고서 및 대시보드를 방문 하 여 환경의 상태에 대해 자세히 알아보세요. 조직에서 Office 365 서비스를 사용 하는 동안 이러한 보고서의 데이터는 더 풍부 하 게 됩니다. 지금은 모니터링 하 고 조치를 취할 수 있는 기능에 대해 익숙해져야 합니다. 자세한 내용은 [Microsoft 365 보안 및 준수 센터의 보고서](../../compliance/reports-in-security-and-compliance.md)를 참조 하세요.
 
-|||
+****
+
+|대시보드|설명|
 |---|---|
-|**Dashboard**|**설명**|
 |[위협 관리 대시보드](security-dashboard.md)|보안 센터의 **threat management** 섹션에서이 대시보드를 사용 하 여 이미 처리 된 위협을 확인 하 고, 비즈니스 보안을 위해 이미 수행 된 위협 조사 및 응답 기능에 대 한 편리한 도구로 비즈니스 의사 결정권자에 게 보고 합니다.|
 |[위협 탐색기 (또는 실시간 검출)](threat-explorer.md)|이는 보안 센터의 **위협 관리** 섹션에도 있습니다. 테 넌 트에 대 한 공격을 조사 하거나 발생 하는 경우 Explorer (또는 실시간 검색)를 사용 하 여 위협을 분석 합니다. Explorer 및 실시간 검색 보고서에는 시간에 따른 공격 량이 표시 되며 위협 계열, 침입자 인프라 등을 통해이 데이터를 분석할 수 있습니다. 인시던트 목록에 대해 의심 스러운 전자 메일을 표시할 수도 있습니다.|
 |보고서-대시보드|보안 센터의 **Reports (보고서** ) 섹션에서 SharePoint Online 및 Exchange Online 조직에 대 한 감사 보고서를 봅니다. **보고서 보기** 페이지에서 azure Ad (Active Directory) 사용자 로그인 보고서, 사용자 활동 보고서 및 azure ad audit 로그에 액세스할 수도 있습니다.|
@@ -70,9 +72,10 @@ Microsoft 365 보안 센터에는 환경을 보호 하는 기능이 포함 되�
 
 Exchange 관리 센터의 보안 및 보호를 위한 대부분의 컨트롤은 보안 센터에도 포함 되어 있습니다. 두 위치에서 모두 구성 하지 않아도 됩니다. 다음은 권장 되는 몇 가지 추가 설정입니다.
 
-||||
+****
+
+|영역|기본 정책 포함|권장 사항|
 |---|---|---|
-|**영역**|**기본 정책 포함**|**권장 사항**|
 |**메일 흐름** (전송 규칙이 라고도 함)|아니요|매크로가 포함 된 Office 파일 형식이 나 실행 파일 형식을 차단 하 여 랜 섬 웨어를 보호할 수 있는 메일 흐름 규칙을 추가 합니다. 자세한 내용은 [메일 흐름 규칙을 사용 하 여 Exchange Online의 메시지 첨부 파일 검사](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments)를 참조 하세요. <br/><br/> 다음 추가 항목을 참조 하세요. <br/>* [랜 섬 웨어 로부터 보호](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/secure-your-business-data#ransomware)<br/>* [Office 365의 맬웨어 및 랜 섬 웨어 보호](https://docs.microsoft.com/Office365/Enterprise/office-365-malware-and-ransomware-protection) <br/>* [Office 365에서 랜 섬 웨어 공격 으로부터 복구](recover-from-ransomware.md) <br/><br/> 메일 흐름 규칙을 만들어 외부 도메인으로 전자 메일을 자동 전달 하지 못하게 합니다. 자세한 내용은 [보안 점수를 사용한 클라이언트 외부 전달 규칙 완화](https://docs.microsoft.com/archive/blogs/office365security/mitigating-client-external-forwarding-rules-with-secure-score)를 참조 하세요. <br/><br/> 추가 정보: [Exchange Online의 메일 흐름 규칙 (전송 규칙)](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)|
 |**최신 인증 사용**|아니요|최신 인증은 MFA (multi-factor authentication)를 사용 하기 위한 필수 구성 요소입니다. 전자 메일을 비롯 한 클라우드 리소스 액세스를 보호 하려면 MFA를 사용 하는 것이 좋습니다. <br/><br/> 다음 항목을 참조 하세요. <br/>* [Exchange Online에서 최신 인증을 사용 하거나 사용 하지 않도록 설정](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) <br/>* [비즈니스용 Skype Online: 최신 인증용으로 테 넌 트를 사용 하도록 설정](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx) <br/><br/> 최신 인증은 Office 2016 클라이언트, SharePoint Online 및 비즈니스용 OneDrive에 기본적으로 사용 하도록 설정 되어 있습니다. <br/><br/> 추가 정보: [office 2013 및 office 2016 클라이언트 앱에 대 한 최신 인증이 작동 하는 방식](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016)|
 |
@@ -85,9 +88,10 @@ Exchange 관리 센터의 보안 및 보호를 위한 대부분의 컨트롤은 
 
 기준 보호를 위한 목표를 지원 하려면 여기에서 권장 하는 대로 테 넌 트 수준 공유 정책을 구성 합니다. 개별 사이트에 대 한 공유 설정은이 테 넌 트 차원 정책 보다 더 제한적일 수 있지만 허용은 더 제한적입니다.
 
-||||
+****
+
+|영역|기본 정책 포함|권장 사항|
 |---|---|---|
-|**영역**|**기본 정책 포함**|**권장 사항**|
 |**공유** (SharePoint Online 및 비즈니스용 OneDrive)|예|외부 공유는 기본적으로 사용 하도록 설정 됩니다. 다음 설정을 권장 합니다. <br/>* 인증 된 외부 사용자에 대 한 공유를 허용 하 고 익명 액세스 링크를 사용 합니다 (기본 설정). <br/> * 다음 며칠에 익명 액세스 링크가 만료 됩니다. 원하는 경우 숫자를 입력 합니다 (예: 30 일). <br/>* 기본 링크 유형-내부 (조직의 사용자만)를 선택 합니다. 익명 링크를 사용 하 여 공유 하려는 사용자는 공유 메뉴에서이 옵션을 선택 해야 합니다. <br/><br/> 추가 정보: [외부 공유 개요](https://docs.microsoft.com/sharepoint/external-sharing-overview)|
 |
 

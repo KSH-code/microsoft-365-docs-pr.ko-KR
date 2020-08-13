@@ -17,12 +17,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection의 캠페인 보기에 대해 알아보세요.
-ms.openlocfilehash: fe443c43fa5cea8ec6e3e1c0bc5ee5307b5c28f6
-ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
+ms.openlocfilehash: b7078188d8e01f27e6941c3f61f4ef20a004606c
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45039480"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653236"
 ---
 # <a name="campaign-views-in-atp"></a>ATP의 캠페인 보기
 
@@ -221,11 +221,12 @@ Microsoft Defender ATP 구독을 사용 하는 경우에는 **Wdatp** 를 클릭
 
 - **Filter verdicts**: 이러한 값은 [스팸 방지 메시지 헤더](anti-spam-message-headers.md)에 설명 된 대로 사용 가능한 피싱 및 스팸 필터링 verdicts와 관련이 있습니다. 사용 가능한 값은 다음 표에 설명 되어 있습니다.
 
-  ||||
+  ****
+
+  |값|스팸 필터 결과|설명|
   |---|---|---|
-  |**값**|**스팸 필터 결과**|**설명**|
-  |**있도록**|`SFV:SKN` <br/><br/> `SFV:SKI`|스팸 필터링 (예: 전송 규칙이 라고도 하는 메일 흐름 규칙)에 의해 메시지가 스팸이 아닌 것으로 표시 되 고 필터링이 생략 되는 것으로 확인 되었습니다.<br/><br/>다른 이유로 인해 메시지는 스팸 필터링을 건너뛰었습니다 (예: 보낸 사람 및 받는 사람이 같은 조직에 있는 것 처럼 보이는 경우).|
-  |**수준**|`SFV:SKS`|메시지가 스팸 필터링 (예: 메일 흐름 규칙)을 통해 평가 되기 전에 스팸으로 표시 되었습니다.|
+  |**허용됨**|`SFV:SKN` <br/><br/> `SFV:SKI`|스팸 필터링 (예: 전송 규칙이 라고도 하는 메일 흐름 규칙)에 의해 메시지가 스팸이 아닌 것으로 표시 되 고 필터링이 생략 되는 것으로 확인 되었습니다.<br/><br/>다른 이유로 인해 메시지는 스팸 필터링을 건너뛰었습니다 (예: 보낸 사람 및 받는 사람이 같은 조직에 있는 것 처럼 보이는 경우).|
+  |**차단됨**|`SFV:SKS`|메시지가 스팸 필터링 (예: 메일 흐름 규칙)을 통해 평가 되기 전에 스팸으로 표시 되었습니다.|
   |**감지함**|`SFV:SPM`|메시지가 스팸 필터링에 의해 스팸으로 표시되었습니다.|
   |**검색 되지 않음**|`SFV:NSPM`|메시지가 스팸 필터링에 의해 스팸으로 표시 되지 않습니다.|
   |**해제할**|`SFV:SKQ`|메시지가 격리에서 해제 되었기 때문에 스팸 필터링을 건너뛰었습니다.|
@@ -263,7 +264,7 @@ Microsoft Defender ATP 구독을 사용 하는 경우에는 **Wdatp** 를 클릭
 
 사용자가 피싱 메시지에서 페이로드 URL을 클릭 하면 해당 작업이 캠페인 세부 정보 보기에 있는 다이어그램의 **URL 클릭** 영역에 표시 됩니다.
 
-- **있도록**
+- **허용됨**
 
 - **Blockpage**: 받는 사람이 페이로드 URL을 클릭 했지만, 악의적인 웹 사이트에 대 한 액세스 권한이 조직의 [ATP 안전한 링크](atp-safe-links.md) 정책에 의해 차단 되었습니다.
 

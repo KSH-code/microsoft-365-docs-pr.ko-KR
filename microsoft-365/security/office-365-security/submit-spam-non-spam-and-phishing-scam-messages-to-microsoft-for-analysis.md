@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자 및 최종 사용자는 분석을 위해 Microsoft에 전자 메일 메시지 (잘못 되었거나 잘못 된 메일을 허용 하는 것으로 표시 된 좋은 메일)를 확인할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6973330c4504bd6478265205f60798b3b7c1875
-ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
+ms.openlocfilehash: e90382b39b0cebb70568a53ac5aaeb40ac935f92
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44811041"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653596"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>분석을 위해 Microsoft에 수동으로 메시지 전송
 
@@ -45,14 +45,19 @@ ms.locfileid: "44811041"
 
 1. 다음 받는 사람 중 하 나와의 비어 있는 새 전자 메일 메시지를 만듭니다.
 
-   - **정크 메일**:`junk@office365.microsoft.com`
+   - **정크 메일**: `junk@office365.microsoft.com`
 
-   - **피싱**:`phish@office365.microsoft.com`
+   - **피싱**: `phish@office365.microsoft.com`
 
 2. 정크 또는 피싱 메시지를 새 메시지에 끌어서 놓습니다. 이렇게 하면 정크 또는 피싱 메시지가 새 메시지에 첨부 파일로 저장 됩니다. 메시지의 내용을 복사 하 여 붙여넣거나 메시지를 전달 하지 않습니다 (메시지 헤더를 검사할 수 있도록 원본 메시지가 필요 함).
 
    > [!NOTE]
-   > <ul><li>새 메시지에 여러 메시지를 첨부할 수 있습니다. 모든 메시지의 유형 (피싱 사기 메시지 또는 정크 메일 메시지)이 동일한 지 확인 합니다.</li><li>새 메시지의 본문은 비워 둡니다.</li><li>첨부 된 메시지의 형식은 .msg (기본 Outlook 형식) 또는 .eml (기본 outlook 형식) 중 하나를 사용 합니다.</li></ul>
+   >
+   > - 새 메시지에 여러 메시지를 첨부할 수 있습니다. 모든 메시지의 유형 (피싱 메시지 또는 정크 메일 메시지)이 동일한 지 확인 합니다.
+   >
+   > - 새 메시지의 본문은 비워 둡니다.
+   >
+   > - 첨부 된 메시지의 형식은 .msg (기본 Outlook 형식) 또는 .eml (기본 outlook 형식) 중 하나를 사용 합니다.
 
 3. 작업이 완료 되 면 **보내기를**클릭 합니다.
 
@@ -71,7 +76,12 @@ ms.locfileid: "44811041"
 2. 잘못 식별 되어 메시지를 끌어서 새 메시지에 놓습니다. 이렇게 하면 잘못 식별 되어 메시지가 새 메시지에 첨부 파일로 저장 됩니다. 메시지의 내용을 복사 하 여 붙여넣거나 메시지를 전달 하지 않습니다 (메시지 헤더를 검사할 수 있도록 원본 메시지가 필요 함).
 
    > [!NOTE]
-   > <ul><li>새 메시지에 여러 메시지를 첨부할 수 있습니다. 모든 메시지의 유형 (피싱 메시지 또는 정크 메일 메시지)이 동일한 지 확인 합니다.</li><li>새 메시지의 본문은 비워 둡니다.</li><li>첨부 된 메시지의 형식은 .msg (기본 Outlook 형식) 또는 .eml (기본 outlook 형식) 중 하나를 사용 합니다.</li></ul>
+   >
+   > - 새 메시지에 여러 메시지를 첨부할 수 있습니다. 모든 메시지의 유형 (피싱 메시지 또는 정크 메일 메시지)이 동일한 지 확인 합니다.
+   >
+   > - 새 메시지의 본문은 비워 둡니다.
+   >
+   > - 첨부 된 메시지의 형식은 .msg (기본 Outlook 형식) 또는 .eml (기본 outlook 형식) 중 하나를 사용 합니다.
 
 3. 작업이 완료 되 면 **보내기를**클릭 합니다.
 

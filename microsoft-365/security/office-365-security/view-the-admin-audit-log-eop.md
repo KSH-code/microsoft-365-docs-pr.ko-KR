@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
 description: 관리자는 독립 실행형 EOP (Exchange Online Protection)에서 관리자 감사 로그를 보고 검색 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: e8c12f622c4dc382b11d03424e45c33e3afe3cbf
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 171f3ec531b232ca796232ab26caefbee8afc75c
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44613327"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653500"
 ---
 # <a name="view-the-admin-audit-log-in-standalone-eop"></a>독립 실행형 EOP에서 관리자 감사 로그 보기
 
@@ -26,9 +26,14 @@ Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protec
 관리자 감사 로그에는 관리 권한이 할당 된 관리자 및 사용자가 수행 하는 독립 실행형 EOP PowerShell cmdlet을 기반으로 하는 특정 작업이 기록 됩니다. 관리자 감사 로그의 항목은 실행 된 cmdlet, 사용 된 매개 변수, cmdlet을 실행 한 사용자 및 영향을 받은 개체에 대 한 정보를 제공 합니다.
 
 > [!NOTE]
-> <ul><li>관리자 감사 로깅은 기본적으로 사용 하도록 설정 되어 있으며 사용 하지 않도록 설정할 수 없습니다.</li><li>관리자 감사 로그는 동사 **Get**, **Search**또는 **Test**로 시작 하는 cmdlet을 기반으로 작업을 기록 하지 않습니다.</li><li>감사 로그 항목은 90 일 동안 유지 됩니다. 항목이 90 일 보다 오래 된 경우 삭제 됩니다.</li></ul>
+>
+> - 관리자 감사 로깅은 기본적으로 사용 하도록 설정 되어 있으며 사용 하지 않도록 설정할 수 없습니다.
+>
+> - 관리자 감사 로그는 동사 **Get**, **Search**또는 **Test**로 시작 하는 cmdlet을 기반으로 작업을 기록 하지 않습니다.
+>
+> - 감사 로그 항목은 90 일 동안 유지 됩니다. 항목이 90 일 보다 오래 된 경우 삭제 됩니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - Exchange 관리 센터를 열려면 [독립 실행형 EOP에서 exchange 관리 센터](exchange-admin-center-in-exchange-online-protection-eop.md)를 참조 하세요.
 
@@ -69,7 +74,7 @@ Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protec
 Search-AdminAuditLog [-Cmdlets <Cmdlet1,Cmdlet2,...CmdletN>] [-Parameters <Parameter1,Parameter2,...ParameterN>] [-StartDate <UTCDateTime>] [-EndDate <UTCDateTime>] [-UserIds <"User1","User2",..."UserN">] [-ObjectIds <"Object1","Object2",..."ObjectN">] [-IsSuccess <$true | $false>]
 ```
 
-**참고:**
+**참고**:
 
 - _Parameters_ 매개 변수만 _cmdlet_ 매개 변수와 함께 사용할 수 있습니다.
 
@@ -133,9 +138,10 @@ Search-AdminAuditLog -Cmdlets Update-RoleGroupMember -StartDate (Get-Date "08/04
 
 각 감사 로그 항목에는 다음 표에 설명된 정보가 포함되어 있습니다. 감사 로그에는 하나 이상의 감사 로그 항목이 포함되어 있습니다.
 
-|||
+****
+
+|필드|설명|
 |---|---|
-|**필드**|**설명**|
 |`RunspaceId`|이 필드는 EOP에서 내부적으로 사용 합니다.|
 |`ObjectModified`|이 필드에는 필드에 지정 된 cmdlet에 의해 수정 된 개체가 포함 `CmdletName` 됩니다.|
 |`CmdletName`|이 필드에는 필드에 사용자가 실행 한 cmdlet의 이름이 포함 `Caller` 됩니다.|

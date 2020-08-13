@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 일반 & 스피어 피싱 공격에 대 한 보호를 제공 하는 Office 365 Advanced Threat Protection의 일부인 피싱 방지 기능에 대해 알아봅니다.
-ms.openlocfilehash: dda94145dfbef7466ebd8e1fb9f01d592515f598
-ms.sourcegitcommit: 5e8901e7e571f20ede04f460bd3e7077dda004ca
+ms.openlocfilehash: 238c841ec7ba45fe2675598a29979b550c1c4fa3
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44875424"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653367"
 ---
 # <a name="atp-anti-phishing-capabilities-in-office-365"></a>Office 365의 ATP 피싱 방지 기능
 
@@ -54,12 +54,15 @@ ATP 피싱 방지 기능은 [Advanced Threat Protection](office-365-atp.md)의 �
 ATP 피싱 방지 기계 학습 모델을 특정 사용자에 대해 활성화 하려면 해당 사용자는 정의 된 [ATP 안전한 첨부 파일](atp-safe-attachments.md), [atp 안전한 링크](atp-safe-links.md)또는 atp 피싱 방지 정책의 일부 여야 합니다. 
 
 다음 표에서는 몇 가지 예제 시나리오에 대해 설명 합니다. 이러한 각 예제에서 조직은 Advanced Threat Protection이 포함 된 Office 365 Enterprise E5를 사용 하 고 있습니다.
-  
-|**시나리오 예**|**이 경우 ATP가 피싱 방지를 적용 하나요?**|
-|:-----|:-----|
+
+****
+
+|시나리오 예|이 경우 ATP가 피싱 방지를 적용 하나요?|
+|---|---|
 |Pat 조직에 Office 365 Enterprise E5가 있지만, ATP 안전한 첨부 파일, ATP 안전한 링크 또는 ATP advanced 피싱에 대 한 정책을 정의 하지 않은 경우|아니요. 이 기능을 사용할 수 있지만 ATP 기계 학습 모델이 작동 하려면 하나 이상의 ATP 정책을 정의 해야 합니다. 가장의 경우 ATP 피싱 방지 정책도 적절 하 게 수행 해야 합니다.|
 |Lee은 Contoso의 판매 부서에 있는 직원입니다. Lee의 조직에는 재무 직원 에게만 적용 되는 ATP 피싱 방지 정책이 포함 되어 있습니다.|아니요. 이 경우 ATP 피싱 방지 (시스템 모델 및 가장 보호)는 재무 직원에 게 적용 되지만 영업 부서를 비롯 한 다른 직원은이를 사용 하지 않습니다.|
 |어제 Jean 조직의 Office 365 관리자는 모든 직원에 게 적용 되는 ATP 피싱 방지 정책을 설정 합니다. 지금까지 Jean에서는 정책에 포함 된 가장을 포함 하는 전자 메일 메시지를 받습니다.|예. 이 예에서는 Jean에 Advanced Threat Protection 라이선스가 있고 Jean을 포함 하는 ATP 피싱 방지 정책이 정의 되어 있습니다. 일반적으로 새 정책이 데이터 센터 전체에 적용 되는 데 약 30 분이 걸립니다. 이 경우에는 요일이 전달 된 것 이므로 정책이 적용 되어야 합니다.|
+|
 
 ## <a name="related-topics"></a>관련 항목
 

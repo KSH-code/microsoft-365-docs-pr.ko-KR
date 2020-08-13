@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Microsoft에서는 자체 지원 및 보조 지원을 비롯하여 다양한 방법 및 위치에서 EOP에 대한 도움말을 제공합니다.
-ms.openlocfilehash: 7d1c62bd6ddef44e86e47b894e2d386dd8c0bd55
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: 959f842e05939e4a6cfc54d1b860de96bd8546e6
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755191"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656936"
 ---
 # <a name="help-and-support-for-eop"></a>EOP에 대한 도움말 및 지원
 
@@ -29,7 +29,7 @@ Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (exchange online
 
 [Exchange Online Protection에 대한 제품 개요](https://products.office.com/exchange/exchange-email-security-spam-protection)
 
-[비즈니스용 제품에 대한 고객 지원 센터 - 관리자 도움말](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+[비즈니스용 제품에 대한 고객 지원 센터 문의 - 관리자 도움말](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 
 [Microsoft 365 커뮤니티](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
 
@@ -69,8 +69,10 @@ EOP 고객이면서 Microsoft 프리미어 지원 계약도 보유하고 있는 
 
 Microsoft는 전 세계에 제품 지원을 위한 해당 지역 전화 번호나 무료 전화 번호를 제공합니다. 이러한 대부분의 지원 센터에서는 영어 지원은 연중 내내(24x7x365) 제공되며, 현지 언어는 업무 시간 동안 지원됩니다. 아래 목록에 해당 하는 위치가 표시 되지 않으면 위의 설명 대로 가상 에이전트를 사용 하 여 로컬 지원 전화 번호를 확인 합니다.
 
-|**국가 또는 지역**|**선구매 및 대금 청구 관련 질문**|**기술 지원 서비스 관련 질문**|
-|:-----|:-----|:-----|
+****
+
+|국가 또는 지역|선구매 및 대금 청구 관련 질문|기술 지원 서비스 관련 질문|
+|---|---|---|
 |브라질|무료: 08007621146 <br/> 로컬: 1147001999|동일|
 |프랑스|무료: 0805 540 594 <br/> 로컬: 01 57 32 42 97|동일|
 |독일|무료: 0800 589 2332 <br/>  로컬: 069 380 789 508|동일|
@@ -79,6 +81,7 @@ Microsoft는 전 세계에 제품 지원을 위한 해당 지역 전화 번호�
 |스페인|무료: 900 814 197 <br/> 로컬: 912 718 160|동일|
 |영국|무료: 0800 032 6417 <br/> 로컬: 0203 450 6455|동일|
 |미국|무료: 1-877-913-2707|무료: 1-800-865-9408|
+|
 
 ## <a name="for-more-information-about-eop-documentation"></a>EOP 설명서에 대한 자세한 내용
 

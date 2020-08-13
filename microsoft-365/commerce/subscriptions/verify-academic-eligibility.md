@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: Microsoft 365 교육용 교육 기관용 가격에 대 한 학교 자격을 확인 하는 방법을 알아봅니다.
 ms.date: 07/21/2020
-ms.openlocfilehash: 948d001315c44e288d9fe3e363ec6e1ddeb8ff32
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 0bfb779880b94e309e266d8f57ed0a25b749e1f2
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560706"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653728"
 ---
 # <a name="verify-academic-eligibility-for-microsoft-365-education-subscriptions"></a>Microsoft 365 교육 구독에 대 한 교육 자격 확인
 
@@ -59,7 +59,7 @@ Microsoft 365 교육 평가판 구독을 사용 하 고 있는지 잘 모르는 
 Microsoft 365 교육 평가판을 받은 후에는 언제 든 지 학교 교육 기관의 상태를 확인할 수 있습니다.
 
 1. [Microsoft 365 관리 센터로](https://go.microsoft.com/fwlink/p/?linkid=2024339)이동 합니다.
-2. 홈 페이지에서 맨 아래로 스크롤한 후 **대금 청구** 카드를 찾습니다. \
+2. 홈 페이지에서 **대금 청구** 카드를 찾습니다. \
     이 **대금 청구** 카드는 확인 프로세스의 상태를 나타냅니다. 카드에는 승인 됨, 보류 중, 거절 함 또는 도메인 추가 상태 중 하나가 표시 됩니다.
 
     > [!NOTE]

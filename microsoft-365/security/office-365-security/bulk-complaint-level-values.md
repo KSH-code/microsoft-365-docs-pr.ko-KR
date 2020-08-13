@@ -16,12 +16,12 @@ ms.assetid: a5b03b3c-37dd-429e-8e9b-2c1b25031794
 ms.collection:
 - M365-security-compliance
 description: 관리자는 EOP (Exchange Online Protection)에서 사용 되는 BCL (대량 준수 수준) 값에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 87ef0787aad12022d9034800c4ddc72e54445f5d
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 19fa7172bd242852d03822c588e163b7a13f9201
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209610"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653212"
 ---
 # <a name="bulk-complaint-level-bcl-in-eop"></a>EOP의 BCL (대량 불만 수준)
 
@@ -33,9 +33,10 @@ Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (exchange online
 
 다음 표에는 BCL 임계값에 대 한 설명이 나와 있습니다.
 
-|||
+****
+
+|BCL|설명|
 |:---:|---|
-|**BCL**|**설명**|
 |개|메시지가 대량 보낸 사람 으로부터 온 것이 아닙니다.|
 |1, 2, 3|메시지가 몇 가지 불만을 생성 하는 대량 보낸 사람의 메시지입니다.|
 |4, 5, 6, 7|이 메시지는 수많은 불만을 생성 하는 대량 보낸 사람 으로부터 온 것입니다.|

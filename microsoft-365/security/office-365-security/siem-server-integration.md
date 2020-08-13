@@ -17,12 +17,12 @@ ms.custom:
 - SIEM
 - seo-marvel-apr2020
 description: Microsoft 365 클라우드 서비스 및 응용 프로그램과의 SIEM (보안 정보 및 이벤트 관리) 서버 통합에 대 한 개요를 확인 하세요.
-ms.openlocfilehash: c52f24c6260c890b1f6d8612efacb78f9b08be86
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: d2be5e0127adf25b3884e3717caccf60d4db1d28
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035263"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653578"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Microsoft 365 서비스 및 응용 프로그램과의 SIEM (보안 정보 및 이벤트 관리) 서버 통합
 
@@ -45,9 +45,10 @@ SIEM 서버가 필요한 지 여부는 조직의 보안 요구 사항 및 데이
 
 SIEM 서버는 다양 한 Microsoft 365 서비스 및 응용 프로그램에서 데이터를 받을 수 있습니다. 다음 표에는 몇 가지 Microsoft 365 서비스와 응용 프로그램과 SIEM 서버 입력 및 리소스가 나와 있습니다.
 
-||||
+****
+
+|Microsoft 365 서비스 또는 응용 프로그램|SIEM server 입력/메서드|자세한 정보를 알아볼 수 있는 리소스|
 |---|---|---|
-|**Microsoft 365 서비스 또는 응용 프로그램**|**SIEM server 입력/메서드**|**자세한 정보를 알아볼 수 있는 리소스**|
 |[Office 365 Advanced Threat Protection](office-365-atp.md)|감사 로그|[SIEM과 Office 365 Advanced Threat Protection의 통합](siem-integration-with-office-365-ti.md)|
 |[Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/)|Azure에서 호스트 되는 HTTPS 끝점 <br/>REST API|[SIEM 도구에 대 한 알림 가져오기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem)|
 |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|로그 통합|[Microsoft Cloud App Security와의 SIEM 통합](https://docs.microsoft.com/cloud-app-security/siem)|

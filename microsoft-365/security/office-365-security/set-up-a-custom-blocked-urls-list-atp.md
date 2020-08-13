@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 Advanced Threat Protection을 사용 하 여 조직에 대해 차단 된 Url 목록을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 288aea848836a56108872c0e4d36d01f4d59ec42
-ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
+ms.openlocfilehash: 5f863a3ba61278d0bec5304034ed75d343f93c77
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533814"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656650"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-atp-safe-links"></a>ATP 안전한 링크를 사용 하 여 차단 된 사용자 지정 Url 목록 설정
 
@@ -45,11 +45,14 @@ ms.locfileid: "46533814"
 
 ATP 정책을 편집 하거나 정의 하려면 다음 표에 설명 된 역할 중 하나를 할당 받아야 합니다.
 
+****
+
 |역할|할당 된 위치/방법|
-|---------|---------|
+|---|---|
 |전역 관리자|Microsoft 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) 를 참조 하세요.|
 |보안 관리자|Azure Active Directory 관리 센터 ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
 |Exchange Online 조직 관리|Exchange 관리 센터 ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)참조)|
+|
 
 > [!TIP]
 > 역할 및 사용 권한에 대 한 자세한 내용은 [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
@@ -78,13 +81,15 @@ ATP 정책을 편집 하거나 정의 하려면 다음 표에 설명 된 역할 
 
 - URL 당 최대 3 개의 와일드 카드 별표 ()를 포함할 수 있습니다 \* . 다음 표에는 입력 가능한 항목과 해당 항목이 갖는 영향에 대 한 몇 가지 예가 나와 있습니다.
 
+****
+
 |예제 항목|수행 하는 작업|
-|:-----|:-----|
+|---|---|
 |`contoso.com` 또는 `*contoso.com*`|는과 같은 도메인, 하위 도메인과 경로를 차단 `https://www.contoso.com` `https://sub.contoso.com` 하며`https://contoso.com/abc`|
 |`https://contoso.com/a`|사이트를 차단 `https://contoso.com/a` 하지만 추가 하위 경로는 제외 합니다.`https://contoso.com/a/b`|
 |`https://contoso.com/a*`|사이트 `https://contoso.com/a` 및 추가 하위 경로를 차단 합니다.`https://contoso.com/a/b`|
 |`https://toys.contoso.com*`|하위 도메인 (이 경우 "장난감")을 차단 하지만 클릭은 다른 도메인 Url (예 `https://contoso.com` , 또는 `https://home.contoso.com` )을 허용 합니다.|
-
+|
 
 > [!NOTE]
 > 기본적으로 Office 365 ATP 안전한 링크 기본 정책의 차단 된 URL 목록에는 500 Url만 추가할 수 있습니다.

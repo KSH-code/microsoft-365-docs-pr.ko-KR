@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 연결 필터링을 구성 하 여 전자 메일 서버에서 받은 메일을 허용 하거나 차단 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e0cb5161ac33333a0f8cd5f897b4a0a85315c12e
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: 675247ba1764cb928bec967c581083c6365f635a
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755251"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656794"
 ---
 # <a name="configure-connection-filtering"></a>연결 필터링 구성
 
@@ -46,17 +46,17 @@ Exchange online 사서함이 없는 Microsoft 365 고객이 나 독립 실행형
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
-- 이 항목의 절차를 수행 하려면 먼저 사용 권한을 할당 받아야 합니다.
+- 이 항목의 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다.
 
   - 기본 연결 필터 정책을 수정 하려면 다음 역할 그룹 중 하나의 구성원 이어야 합니다.
 
-    - [보안 & 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **조직 관리** 또는 **보안 관리자**
-    - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **조직 관리** 또는 **바이러스 관리**
+    - [보안 및 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **조직 관리** 또는 **보안 관리자**
+    - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **조직 관리** 및 **예방 조치 관리**
 
   - 기본 연결 필터 정책에 대 한 읽기 전용 액세스를 위해서는 다음 역할 그룹 중 하나의 구성원 이어야 합니다.
 
-    - 보안 [& 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **보안 독자**
-    - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 입니다.
+    - [보안 및 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **보안 읽기**
+    - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리**
 
 - 허용 하거나 차단할 전자 메일 서버 (보낸 사람)의 원본 IP 주소를 찾으려면 메시지 헤더에서 연결 IP (**CIP**) 헤더 필드를 확인 하면 됩니다. 다양 한 전자 메일 클라이언트에서 메시지 헤더를 보려면 [Outlook에서 internet 메시지 헤더 보기](https://support.microsoft.com/office/cd039382-dc6e-4264-ac74-c048563d212c)를 참조 하세요.
 
@@ -108,7 +108,7 @@ Exchange online 사서함이 없는 Microsoft 365 고객이 나 독립 실행형
 Set-HostedConnectionFilterPolicy -Identity Default [-AdminDisplayName <"Optional Comment">] [-EnableSafeList <$true | $false>] [-IPAllowList <IPAddressOrRange1,IPAddressOrRange2...>] [-IPBlockList <IPAddressOrRange1,IPAddressOrRange2...>]
 ```
 
-**참고:**
+**참고**:
 
 - 유효한 IP 주소 또는 주소 범위 값은 다음과 같습니다.
 
@@ -200,6 +200,7 @@ IP 허용 목록에 있는 전자 메일 서버의 메시지는 여전히 다음
 
 ## <a name="new-to-microsoft-365"></a>Microsoft 365의 새로운 기능
 
-||
-|:-----|
+|<!-- a -->|
+|---|
 |![LinkedIn에 대 한 짧은 아이콘은 ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Microsoft 365를 처음으로 학습 하나요?** LinkedIn 학습을 통해 제공 되는 **관리자 및 IT 전문가**를 위한 무료 비디오 코스를 제공 합니다.|
+|

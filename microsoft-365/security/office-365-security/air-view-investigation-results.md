@@ -15,48 +15,51 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Microsoft 365에서 자동화 된 조사가 진행 되는 동안과 후에는 결과 및 주요 발견 사항을 볼 수 있습니다.
-ms.openlocfilehash: b109c3e8a8dc92f2aaf91e40e620da8f1574af6f
-ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
+ms.openlocfilehash: 057dcf5e6f33c789ecfb47c7e3dfb49f0e2548fc
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43804874"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656840"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Microsoft 365의 자동화 된 조사에 대 한 세부 정보 및 결과
 
-[자동 조사가](office-365-air.md) [Office 365 Advanced Threat Protection](office-365-atp.md)에서 발생 하는 경우 자동화 된 조사 프로세스 중 및 후에 해당 조사에 대 한 세부 정보를 확인할 수 있습니다. 필수 권한이있는 경우 조사 세부 정보 보기에서 해당 정보를 확인할 수 있습니다.  조사 세부정부 보기에서 최신 상태를 확인하거나 보류중인 작업을 승인할 수 있습니다. 
+[자동 조사가](office-365-air.md) [Office 365 Advanced Threat Protection](office-365-atp.md)에서 발생 하는 경우 자동화 된 조사 프로세스 중 및 후에 해당 조사에 대 한 세부 정보를 확인할 수 있습니다. 필수 권한이있는 경우 조사 세부 정보 보기에서 해당 정보를 확인할 수 있습니다.  조사 세부정부 보기에서 최신 상태를 확인하거나 보류중인 작업을 승인할 수 있습니다.
 
 ## <a name="investigation-status"></a>조사 상태
 
-조사 상태는 분석 및 작업의 진행률을 나타냅니다. 조사가 실행 되 면 상태가 변경 되어 위협이 발견 되었는지 여부와 작업이 승인 되었는지 여부를 나타냅니다. 
+조사 상태는 분석 및 작업의 진행률을 나타냅니다. 조사가 실행 되 면 상태가 변경 되어 위협이 발견 되었는지 여부와 작업이 승인 되었는지 여부를 나타냅니다.
 
-|상태  |의미  |
-|---------|---------|
-|시작 중 | 조사가 트리거된 후 실행이 시작 될 때까지 기다리는 중입니다.  |
-|부족 | 조사 프로세스가 시작 되어 진행 중입니다. 이 상태는 [보류 중인 작업이](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions) 승인 된 경우에도 발생 합니다. |
-|발견 된 위협 없음 | 조사가 완료 되었으며 위협 (사용자 계정, 전자 메일 메시지, URL 또는 파일)이 식별 되지 않았습니다. <br/><br/>**팁**: 잘못 된 것으로 의심 되는 경우 (예를 들어 가양성)에는 [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)를 사용 하 여 작업을 수행할 수 있습니다. |
-|발견 된 위협 |자동 조사에서 문제가 발견 되었지만 해당 문제를 해결 하기 위한 특정 수정 작업이 없습니다.<br/><br/> 어떤 유형의 사용자 활동이 식별 되었지만 정리 작업을 사용할 수 없는 경우 발견 되는 위협이 발생할 수 있습니다. 예를 들면 다음과 같은 사용자 작업을 포함할 수 있습니다. <br/>-DLP ( [데이터 손실 방지](https://docs.microsoft.com/Microsoft-365/compliance/data-loss-prevention-policies) ) 이벤트 <br/>-메일 전송 변칙 <br/>-보낸 맬웨어 <br/>에서 보낸 피싱<br/>검토를 통해 수정할 수 있는 악성 Url, 파일 또는 전자 메일 메시지와 수정할 사서함 활동 (예: 전달 규칙 또는 위임 해제)이 없습니다. <br/><br/>**팁**: 잘못 된 것으로 의심 되는 경우 (예를 들어 가양성)에는 [위협 탐색기](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)를 사용 하 여 검토 하 고 작업을 수행할 수 있습니다. |
-|시스템 종료 | 조사가 중지 되었습니다. 다음과 같은 여러 가지 이유로 인해 조사가 중단 될 수 있습니다.<br/>-조사의 보류 중인 작업이 만료 되었습니다. 1 주일 동안 승인 대기 한 후 보류 중인 작업 시간이 초과 됩니다. <br/>-작업이 너무 많습니다. 예를 들어 너무 많은 사용자가 악성 Url을 클릭 하는 경우 조사 기능이 모든 분석기를 실행 하는 것을 초과할 수 있으므로 조사가 중단 됩니다. <br/><br/>**팁**: 작업을 수행 하기 전에 조사가 중단 되는 경우 [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) 를 사용 하 여 위협을 찾아서 해결 해 보세요.  |
-|보류 중인 작업 | 조사 결과 악성 전자 메일, 악의적인 URL 또는 위험한 사서함 설정과 같은 위협을 발견 하 고 해당 위협이 [승인을](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions)기다리는 작업을 수정 합니다.<br/><br/>해당 하는 작업을 수행 하는 모든 위협이 발견 되 면 보류 중인 작업 상태가 트리거됩니다. 그러나 조사가 실행 됨에 따라 보류 중인 작업의 목록이 늘어날 수 있습니다. [조사 로그](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results#playbook-log) 를 확인 하 여 다른 항목의 완료가 아직 보류 중인지 확인 합니다. |
-|수정 | 조사가 완료 되 고 모든 작업이 승인 (완전히 재구성 됨) 되었습니다.<br/><br/>**참고**: 승인 된 재구성 작업은 작업이 수행 되지 않도록 하는 오류를 포함할 수 있습니다. 재구성 작업이 성공적으로 완료 되었는지 여부에 관계 없이 조사 상태는 변경 되지 않습니다. 자세한 결과는 [조사 로그](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) 를 확인 하십시오. |
-|부분 재구성 | 조사 결과 재구성 작업이 수행 되 고 일부는 승인 및 완료 된 것입니다. 다른 작업은 여전히 [보류 중](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions)입니다. |
-|실패 | 하나 이상의 조사 분석기에서 제대로 완료 되지 못한 문제가 발생 했습니다. <br/><br/>**참고**: 재구성 작업이 승인 된 후 조사가 실패 하면 재구성 작업은 여전히 성공적으로 수행 된 것입니다. 자세한 결과는 [조사 로그](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) 를 확인 하십시오. |
-|제한에 의해 대기 | 조사가 큐에 보관 됩니다. 다른 조사가 완료 되 면 대기 중인 조사가 시작 됩니다. 제한을 사용 하면 서비스 성능이 저하 되는 것을 방지할 수 있습니다. <br/><br/>**팁**: 보류 중인 작업은 새로 실행할 수 있는 조사 횟수를 제한할 수 있습니다. [보류 중인 작업을 승인 하거나 거부](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions)해야 합니다. |
-|제한에 의해 종료 됨 | 큐에 너무 오래 된 조사가 대기 중인 경우 중지 됩니다. <br/><br/>**팁**: [위협 탐색기에서 조사를 시작할](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)수 있습니다. |
+****
+
+|상태|의미|
+|---|---|
+|시작 중| 조사가 트리거된 후 실행이 시작 될 때까지 기다리는 중입니다.|
+|부족| 조사 프로세스가 시작 되어 진행 중입니다. 이 상태는 [보류 중인 작업이](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions) 승인 된 경우에도 발생 합니다.|
+|발견 된 위협 없음| 조사가 완료 되었으며 위협 (사용자 계정, 전자 메일 메시지, URL 또는 파일)이 식별 되지 않았습니다. <br/><br/>**팁**: 잘못 된 것으로 의심 되는 경우 (예를 들어 가양성)에는 [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)를 사용 하 여 작업을 수행할 수 있습니다.|
+|발견 된 위협|자동 조사에서 문제가 발견 되었지만 해당 문제를 해결 하기 위한 특정 수정 작업이 없습니다.<br/><br/> 어떤 유형의 사용자 활동이 식별 되었지만 정리 작업을 사용할 수 없는 경우 발견 되는 위협이 발생할 수 있습니다. 예를 들면 다음과 같은 사용자 작업을 포함할 수 있습니다. <br/>-DLP ( [데이터 손실 방지](https://docs.microsoft.com/Microsoft-365/compliance/data-loss-prevention-policies) ) 이벤트 <br/>-메일 전송 변칙 <br/>-보낸 맬웨어 <br/>에서 보낸 피싱<br/>검토를 통해 수정할 수 있는 악성 Url, 파일 또는 전자 메일 메시지와 수정할 사서함 활동 (예: 전달 규칙 또는 위임 해제)이 없습니다. <br/><br/>**팁**: 잘못 된 것으로 의심 되는 경우 (예를 들어 가양성)에는 [위협 탐색기](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)를 사용 하 여 검토 하 고 작업을 수행할 수 있습니다.|
+|시스템 종료| 조사가 중지 되었습니다. 다음과 같은 여러 가지 이유로 인해 조사가 중단 될 수 있습니다.<br/>-조사의 보류 중인 작업이 만료 되었습니다. 1 주일 동안 승인 대기 한 후 보류 중인 작업 시간이 초과 됩니다. <br/>-작업이 너무 많습니다. 예를 들어 너무 많은 사용자가 악성 Url을 클릭 하는 경우 조사 기능이 모든 분석기를 실행 하는 것을 초과할 수 있으므로 조사가 중단 됩니다. <br/><br/>**팁**: 작업을 수행 하기 전에 조사가 중단 되는 경우 [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) 를 사용 하 여 위협을 찾아서 해결 해 보세요.|
+|보류 중인 작업| 조사 결과 악성 전자 메일, 악의적인 URL 또는 위험한 사서함 설정과 같은 위협을 발견 하 고 해당 위협이 [승인을](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions)기다리는 작업을 수정 합니다.<br/><br/>해당 하는 작업을 수행 하는 모든 위협이 발견 되 면 보류 중인 작업 상태가 트리거됩니다. 그러나 조사가 실행 됨에 따라 보류 중인 작업의 목록이 늘어날 수 있습니다. [조사 로그](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results#playbook-log) 를 확인 하 여 다른 항목의 완료가 아직 보류 중인지 확인 합니다.|
+|수정| 조사가 완료 되 고 모든 작업이 승인 (완전히 재구성 됨) 되었습니다.<br/><br/>**참고**: 승인 된 재구성 작업은 작업이 수행 되지 않도록 하는 오류를 포함할 수 있습니다. 재구성 작업이 성공적으로 완료 되었는지 여부에 관계 없이 조사 상태는 변경 되지 않습니다. 자세한 결과는 [조사 로그](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) 를 확인 하십시오.|
+|부분 재구성| 조사 결과 재구성 작업이 수행 되 고 일부는 승인 및 완료 된 것입니다. 다른 작업은 여전히 [보류 중](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions)입니다.|
+|Failed| 하나 이상의 조사 분석기에서 제대로 완료 되지 못한 문제가 발생 했습니다. <br/><br/>**참고**: 재구성 작업이 승인 된 후 조사가 실패 하면 재구성 작업은 여전히 성공적으로 수행 된 것입니다. 자세한 결과는 [조사 로그](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) 를 확인 하십시오.|
+|제한에 의해 대기| 조사가 큐에 보관 됩니다. 다른 조사가 완료 되 면 대기 중인 조사가 시작 됩니다. 제한을 사용 하면 서비스 성능이 저하 되는 것을 방지할 수 있습니다. <br/><br/>**팁**: 보류 중인 작업은 새로 실행할 수 있는 조사 횟수를 제한할 수 있습니다. [보류 중인 작업을 승인 하거나 거부](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions)해야 합니다.|
+|제한에 의해 종료 됨| 큐에 너무 오래 된 조사가 대기 중인 경우 중지 됩니다. <br/><br/>**팁**: [위협 탐색기에서 조사를 시작할](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)수 있습니다.|
+|
 
 ## <a name="view-details-of-an-investigation"></a>조사 세부 정보 보기
 
-1. 보안 & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다.
+1. 보안 & 준수 센터 ()로 이동 [https://protection.office.com](https://protection.office.com) 하 여 로그인 합니다.
 
 2. 다음 중 하나를 수행합니다.
 
-    - **위협 관리** > **대시보드로**이동 합니다. 그러면 [보안 대시보드가](security-dashboard.md)이동 합니다. [보안 대시보드](security-dashboard.md)위쪽에 AIR widget이 표시 됩니다. **조사 요약과**같은 위젯을 선택 합니다.
+    - **위협 관리**  >  **대시보드로**이동 합니다. 그러면 [보안 대시보드가](security-dashboard.md)이동 합니다. [보안 대시보드](security-dashboard.md)위쪽에 AIR widget이 표시 됩니다. **조사 요약과**같은 위젯을 선택 합니다.
 
-    - **위협 관리** > **조사**로 이동 합니다. 
+    - **위협 관리**  >  **조사**로 이동 합니다.
 
     어느 방법을 사용 하 든 조사 목록이 표시 됩니다.
 
-    ![AIR의 주 조사 페이지](../../media/air-maininvestigationpage.png) 
+    ![AIR의 주 조사 페이지](../../media/air-maininvestigationpage.png)
 
 3. 조사 목록에서 **ID** 열의 항목을 선택 합니다. 그러면 보기의 조사 그래프부터 시작 하 여 조사 세부 정보 페이지가 열립니다.
 
@@ -68,23 +71,23 @@ ms.locfileid: "43804874"
 
 특정 유형의 경고는 Microsoft 365에서 자동화 된 조사를 트리거합니다. 자세한 내용은 [Alerts](automated-investigation-response-office.md#alerts)를 참조 하십시오. 다음 절차에 따라 자동화 된 조사에 연결 된 경고에 대 한 세부 정보를 확인 합니다.
 
-1. 보안 & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다. 
+1. 보안 & 준수 센터 ()로 이동 [https://protection.office.com](https://protection.office.com) 하 여 로그인 합니다.
 
-2. **위협 관리** > **조사**로 이동 합니다.
+2. **위협 관리**  >  **조사**로 이동 합니다.
 
-3. 조사 목록에서 **ID** 열의 항목을 선택 합니다. 
+3. 조사 목록에서 **ID** 열의 항목을 선택 합니다.
 
 4. 조사에 대 한 세부 정보를 연 상태에서 **알림** 탭을 선택 합니다. 조사를 트리거한 모든 경고가 여기에 나열 됩니다.
 
 5. 목록에서 항목을 선택 합니다. 플라이 아웃이 열리고 경고에 대 한 세부 정보와 추가 정보 및 작업에 대 한 링크가 제공 됩니다.
 
-6. 플라이 아웃에 대 한 정보를 검토 하 고, 특정 경고에 따라 사용자에 대 한 **해결**, **억제**또는 **알림**등의 작업을 수행 합니다. 
+6. 플라이 아웃에 대 한 정보를 검토 하 고, 특정 경고에 따라 사용자에 대 한 **해결**, **억제**또는 **알림**등의 작업을 수행 합니다.
 
     - **확인** 은 경고를 닫는 것과 동일 합니다.
-    
+
     - 정책이 지정 된 기간에 대해 알림을 트리거하지 **않도록 설정 합니다** .
-    
-    - **사용자에** 게 사용자의 전자 메일 주소가 이미 입력 된 전자 메일을 시작 하 고, 보안 운영 팀에서 해당 사용자에 게 메시지를 입력할 수 있도록 합니다. 이는 [위협 탐색기](threat-explorer.md)를 사용 하 여 받는 사람에 게 메시지를 보내는 것과 비슷합니다.  
+
+    - **사용자에** 게 사용자의 전자 메일 주소가 이미 입력 된 전자 메일을 시작 하 고, 보안 운영 팀에서 해당 사용자에 게 메시지를 입력할 수 있도록 합니다. 이는 [위협 탐색기](threat-explorer.md)를 사용 하 여 받는 사람에 게 메시지를 보내는 것과 비슷합니다.
 
 ## <a name="how-to-use-the-various-tabs"></a>다양 한 탭을 사용 하는 방법
 
@@ -94,13 +97,13 @@ ms.locfileid: "43804874"
 
 자동화 된 조사 페이지에 조직의 조사 및 현재 상태가 표시 됩니다.
 
-![AIR의 주 조사 페이지](../../media/air-maininvestigationpage.png) 
-  
+![AIR의 주 조사 페이지](../../media/air-maininvestigationpage.png)
+
 다음을 수행할 수 있습니다.
+
 - 조사로 직접 이동 합니다 ( **조사 ID**선택).
 - 필터를 적용 합니다. **조사 유형**, **시간 범위**, **상태**또는 이들의 조합 중에서 선택 합니다.
 - 데이터를 .csv 파일로 내보냅니다.
-
 
 ### <a name="investigation-graph"></a>조사 그래프
 
@@ -109,6 +112,7 @@ ms.locfileid: "43804874"
 ![AIR 조사 그래프 페이지](../../media/air-investigationgraphpage.png)
 
 다음을 수행할 수 있습니다.
+
 - 현재 조사에 대 한 시각적 개요를 볼 수 있습니다.
 - 조사 기간에 대 한 요약을 봅니다.
 - 시각화에서 노드를 선택 하 여 해당 노드의 세부 정보를 확인 합니다.
@@ -121,21 +125,24 @@ ms.locfileid: "43804874"
 ![AIR 알림 페이지](../../media/air-investigationalertspage.png)
 
 다음을 수행할 수 있습니다.
+
 - 현재 트리거하는 경고 및 관련 경고에 대 한 시각적 개요를 볼 수 있습니다.
 - 목록에서 알림을 선택 하 여 전체 알림 세부 정보를 표시 하는 플라이 아웃 페이지를 엽니다.
 
 ### <a name="email-investigation"></a>전자 메일 조사
 
-조사를 위해 **전자 메일** 탭에서 원본 전자 메일과 조사 과정에서 확인 된 유사 전자 메일의 클러스터를 볼 수 있습니다. 
+조사를 위해 **전자 메일** 탭에서 원본 전자 메일과 조사 과정에서 확인 된 유사 전자 메일의 클러스터를 볼 수 있습니다.
 
-조직의 사용자가 주고 받으며 전자 메일 통신 및 공격의 다중 사용자 특성을 포함 하는 전자 메일 양이 제공 되는 경우 
-- 메시지 헤더, 본문, URL 및 첨부 파일의 유사 특성에 따라 전자 메일 메시지를 클러스터링 합니다. 
-- 악성 전자 메일과 좋은 전자 메일을 구분 합니다. 한 
-- 악성 전자 메일 메시지에 대 한 작업 수행 
+조직의 사용자가 주고 받으며 전자 메일 통신 및 공격의 다중 사용자 특성을 포함 하는 전자 메일 양이 제공 되는 경우
 
-시간이 오래 걸릴 수 있습니다. 이제 AIR에서이 프로세스를 자동화 하 여 조직의 보안 팀 시간과 노력을 절약 합니다. 
+- 메시지 헤더, 본문, URL 및 첨부 파일의 유사 특성에 따라 전자 메일 메시지를 클러스터링 합니다.
+- 악성 전자 메일과 좋은 전자 메일을 구분 합니다. 한
+- 악성 전자 메일 메시지에 대 한 작업 수행
 
-전자 메일 분석 단계에서 두 가지 유형의 전자 메일 클러스터, 즉 유사성 클러스터와 지표 클러스터를 확인할 수 있습니다. 
+시간이 오래 걸릴 수 있습니다. 이제 AIR에서이 프로세스를 자동화 하 여 조직의 보안 팀 시간과 노력을 절약 합니다.
+
+전자 메일 분석 단계에서 두 가지 유형의 전자 메일 클러스터, 즉 유사성 클러스터와 지표 클러스터를 확인할 수 있습니다.
+
 - 유사성 클러스터는 유사한 보낸 사람 및 콘텐츠 특성을 가진 전자 메일에 대해 사냥으로 식별 됩니다. 이러한 클러스터는 원래 검색 결과를 기반으로 악의적인 콘텐츠를 평가 합니다. 악의적인 전자 메일 검색이 충분히 포함 된 전자 메일 클러스터가 악성으로 간주 됩니다.
 - 지표 클러스터는 원본 전자 메일에서 동일한 지표 엔티티 (파일 해시 또는 URL)에 대해 사냥으로 식별 되는 전자 메일 메시지입니다. 원본 파일/URL 엔터티가 악성으로 식별 되 면이 엔터티가 포함 된 전자 메일 메시지의 전체 클러스터에 결과 표시기가 적용 됩니다. 맬웨어로 식별 된 파일은 해당 파일을 포함 하는 전자 메일 메시지의 클러스터가 맬웨어 전자 메일 메시지로 취급 됨을 의미 합니다.
 
@@ -143,13 +150,13 @@ ms.locfileid: "43804874"
 
 **전자 메일** 탭에는 사용자가 보고 한 전자 메일 세부 정보, 보고 된 원래 전자 메일, 맬웨어/피싱로 인 한 전자 메일 메시지 등 조사와 관련 된 전자 메일 항목도 표시 됩니다 zapped.
 
-전자 메일 탭에 식별 된 전자 메일 개수는 현재 **전자 메일** 탭에 표시 되는 모든 전자 메일 메시지의 총 합계를 나타냅니다. 전자 메일 메시지는 여러 클러스터에 존재 하기 때문에, 확인 되 고 수정 작업의 영향을 받는 전자 메일 메시지의 실제 총 수는 모든 클러스터 및 원래 받는 사람의 전자 메일 메시지에 있는 고유한 전자 메일 메시지의 수입니다. 
+전자 메일 탭에 식별 된 전자 메일 개수는 현재 **전자 메일** 탭에 표시 되는 모든 전자 메일 메시지의 총 합계를 나타냅니다. 전자 메일 메시지는 여러 클러스터에 존재 하기 때문에, 확인 되 고 수정 작업의 영향을 받는 전자 메일 메시지의 실제 총 수는 모든 클러스터 및 원래 받는 사람의 전자 메일 메시지에 있는 고유한 전자 메일 메시지의 수입니다.
 
-보안 verdicts, 작업 및 배달 위치는 받는 사람 기준 마다 다르므로, 각 받는 사람에 대 한 전자 메일 메시지의 수에는 두 가지가 있습니다. 따라서 세 명의 사용자에 게 전송 되는 원래 전자 메일은 전자 메일 하나가 아닌 총 3 개의 전자 메일 메시지 수로 계산 됩니다. 참고 전자 메일이 여러 작업을 수행할 수 있고 모든 작업이 수행 되 면 전자 메일의 복사본이 여러 개 있을 수도 있으므로 전자 메일이 두 번 이상 계산 되는 경우가 있을 수 있습니다. 예를 들어 배달 시 감지 되는 맬웨어 전자 메일은 차단 된 (격리 된) 전자 메일과 바뀐 전자 메일 (위협 파일을 경고 파일로 교체 하 고 사용자의 사서함으로 전달)이 모두 발생할 수 있습니다. 시스템에 전자 메일의 복사본이 두 개 있으므로 둘 다 클러스터 수로 계산 될 수 있습니다. 
+보안 verdicts, 작업 및 배달 위치는 받는 사람 기준 마다 다르므로, 각 받는 사람에 대 한 전자 메일 메시지의 수에는 두 가지가 있습니다. 따라서 세 명의 사용자에 게 전송 되는 원래 전자 메일은 전자 메일 하나가 아닌 총 3 개의 전자 메일 메시지 수로 계산 됩니다. 참고 전자 메일이 여러 작업을 수행할 수 있고 모든 작업이 수행 되 면 전자 메일의 복사본이 여러 개 있을 수도 있으므로 전자 메일이 두 번 이상 계산 되는 경우가 있을 수 있습니다. 예를 들어 배달 시 감지 되는 맬웨어 전자 메일은 차단 된 (격리 된) 전자 메일과 바뀐 전자 메일 (위협 파일을 경고 파일로 교체 하 고 사용자의 사서함으로 전달)이 모두 발생할 수 있습니다. 시스템에 전자 메일의 복사본이 두 개 있으므로 둘 다 클러스터 수로 계산 될 수 있습니다.
 
 전자 메일 개수는 조사 시 계산 되며, 기본 쿼리를 기반으로 하 여 조사 flyouts를 열 때 몇 가지 개수가 다시 계산 됩니다. 전자 메일 탭의 전자 메일 클러스터에 대해 표시 되는 전자 메일 수와 클러스터 플라이 아웃에 표시 되는 전자 메일 수량 값은 조사 시 계산 되며 변경 되지 않습니다. 전자 메일 클러스터 플라이 아웃의 전자 메일 탭 아래쪽에 표시 되는 전자 메일 수와 탐색기에 표시 되는 전자 메일 메시지의 수에는 조사 초기 분석 후에 받은 전자 메일 메시지가 반영 됩니다. 따라서 조사 분석 단계와 관리자가 조사를 검토할 때 전자 메일 메시지가 5 개 더 도착 하면 전자 메일 목록 총 15가 표시 됩니다.  ATP P2는 평가판을 위해 7 일 후에, 유료 라이선스에 대해 30 일 후에도 이전 조사에서 표시 되는 것 보다 더 큰 수를 통해 탐색기 쿼리가 보다 많이 나오는 것으로 시작  두 가지 보기의 개수 내역 및 현재 횟수를 모두 보여 주는 것은 조사 당시에 전자 메일 영향을 나타내고 수정이 실행 될 때까지 현재 영향을 나타내도록 하기 위해 수행 됩니다.
 
-예를 들어 다음과 같은 시나리오를 가정해 봅니다. 세 개의 전자 메일 메시지 중 첫 번째 클러스터는 피싱 것으로 간주 됩니다. 이러한 항목 중 일부는 초기 검색을 수행 하는 동안 피싱으로 식별 되었기 때문에 같은 IP 및 주체를 포함 하는 비슷한 메시지의 다른 클러스터가 발견 되어 악성으로 간주 되었습니다. 
+예를 들어 다음과 같은 시나리오를 가정해 봅니다. 세 개의 전자 메일 메시지 중 첫 번째 클러스터는 피싱 것으로 간주 됩니다. 이러한 항목 중 일부는 초기 검색을 수행 하는 동안 피싱으로 식별 되었기 때문에 같은 IP 및 주체를 포함 하는 비슷한 메시지의 다른 클러스터가 발견 되어 악성으로 간주 되었습니다.
 
 ![AIR 전자 메일 조사 페이지](../../media/air-investigationemailpage.png)
 
@@ -177,22 +184,23 @@ ms.locfileid: "43804874"
 
 ### <a name="machine-investigation"></a>컴퓨터 조사
 
-**컴퓨터** 탭에서 조사 과정으로 식별 된 모든 컴퓨터를 볼 수 있습니다. 
+**컴퓨터** 탭에서 조사 과정으로 식별 된 모든 컴퓨터를 볼 수 있습니다.
 
 ![AIR 조사 컴퓨터 페이지](../../media/air-investigationmachinepage.png)
 
 일부 playbooks 일부로, AIR에서는 전자 메일 위협을 장치 (예: Zapped 맬웨어)와 연관 시킵니다. 예를 들어 조사를 통해 조사를 위해 [Microsoft DEFENDER ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
-) 에 게 악성 파일 해시를 전달 합니다. 이렇게 하면 사용자에 대 한 관련 시스템을 자동으로 조사 하 여 위협이 클라우드 및 끝점에서 모두 해결 되도록 할 수 있습니다. 
+) 에 게 악성 파일 해시를 전달 합니다. 이렇게 하면 사용자에 대 한 관련 시스템을 자동으로 조사 하 여 위협이 클라우드 및 끝점에서 모두 해결 되도록 할 수 있습니다.
 
 다음을 수행할 수 있습니다.
+
 - 발견 된 현재 컴퓨터 및 위협에 대 한 시각적 개요를 볼 수 있습니다.
 - 컴퓨터를 선택 하 여 Microsoft Defender 보안 센터에서 관련 [Microsoft DEFENDER ATP 조사](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) 로 연결 되는 보기를 엽니다.
 
 ### <a name="entity-investigation"></a>엔터티 조사
 
-조사 과정의 일부로 확인 및 분석 된 엔터티가 **엔터티** 탭에서 볼 수 있습니다. 
+조사 과정의 일부로 확인 및 분석 된 엔터티가 **엔터티** 탭에서 볼 수 있습니다.
 
-여기서는 전자 메일 메시지, 클러스터, IP 주소, 사용자 등의 엔터티 유형에 대 한 조사 된 엔터티 및 세부 정보를 볼 수 있습니다. 또한 분석 된 엔터티 수와 각 엔터티가 연결 된 위협을 볼 수 있습니다. 
+여기서는 전자 메일 메시지, 클러스터, IP 주소, 사용자 등의 엔터티 유형에 대 한 조사 된 엔터티 및 세부 정보를 볼 수 있습니다. 또한 분석 된 엔터티 수와 각 엔터티가 연결 된 위협을 볼 수 있습니다.
 
 ![AIR 조사 엔터티 페이지](../../media/air-investigationentitiespage.png)
 
@@ -204,44 +212,49 @@ ms.locfileid: "43804874"
 
 ### <a name="playbook-log"></a>Playbook 로그
 
-**로그** 탭에서는 조사 중에 발생 한 모든 playbook 단계를 볼 수 있습니다. 이 로그는 AIR의 일부로 서 Office 365 자동 조사 기능을 통해 완료 된 모든 분석기 및 작업의 전체 인벤토리를 캡처합니다. 작업 자체, 설명, 실제 시작 날짜를 포함 하 여 수행 된 모든 단계를 명확 하 게 확인할 수 있습니다. 
+**로그** 탭에서는 조사 중에 발생 한 모든 playbook 단계를 볼 수 있습니다. 이 로그는 AIR의 일부로 서 Office 365 자동 조사 기능을 통해 완료 된 모든 분석기 및 작업의 전체 인벤토리를 캡처합니다. 작업 자체, 설명, 실제 시작 날짜를 포함 하 여 수행 된 모든 단계를 명확 하 게 확인할 수 있습니다.
 
 ![AIR 조사 로그 페이지](../../media/air-investigationlogpage.png)
 
 다음을 수행할 수 있습니다.
+
 - Playbook 수행 된 단계에 대 한 시각적 개요를 참조 하세요.
 - 결과를 CSV 파일로 내보냅니다.
 - 보기를 필터링 합니다.
 
-|시키기 | 설명 |
-|-----|-----|
-|DLP 위반 조사 |DLP ( [데이터 손실 방지](../../compliance/data-loss-prevention-policies.md) )로 감지 되는 위반을 조사 합니다. |
-|전자 메일 지표 추출 |조사를 위해 전자 메일 메시지의 머리글, 본문 및 내용에서 표시기 추출 |
-|파일 해시 신뢰도 |조직의 사용자 및 컴퓨터에 대 한 파일 해시를 기반으로 예외 검색 |
-|메일 클러스터 식별 |헤더, 본문, 콘텐츠 및 Url을 기반으로 하는 전자 메일 분석 |
-|메일 클러스터 볼륨 분석 |아웃 바운드 메일 흐름 볼륨 패턴을 기반으로 하는 전자 메일 클러스터 분석 |
-|메일 위임 조사 |이 조사와 관련 된 사용자 사서함에 대 한 메일 위임 액세스를 조사 합니다. |
-|메일 전달 규칙 조사 |이 조사와 관련 된 사용자 사서함에 대 한 메일 전달 규칙을 조사 합니다. |
-|누락 된 맬웨어 감지 |조직에서 사용자의 사서함으로 배달 된 누락 된 맬웨어 검색 |
-|주문형 샌드 박싱 |전자 메일 메시지, 첨부 파일 및 Url에 대 한 주문형 샌드 박싱 트리거됨 |
-|아웃 바운드 메일 변칙 조사 |조직의 사용자에 대 한 기록 메일 흐름 전송 패턴을 기반으로 예외 검색 |
-|아웃 바운드 맬웨어 및 스팸 변칙 조사 |조직 내 사용자 로부터 보낸 조직 내 및 아웃 바운드 맬웨어, 피싱 또는 스팸 감지 |
-|보낸 사람 도메인 조사 |[Microsoft 지능형 보안 그래프](https://www.microsoft.com/security/operations/intelligence) 및 외부 위협 인텔리전스 원본의 도메인 신뢰도에 대 한 주문형 확인 |
-|보낸 사람 IP 조사 | [Microsoft 지능형 보안 그래프](https://www.microsoft.com/security/operations/intelligence) 및 외부 위협 인텔리전스 원본의 IP 신뢰도에 대 한 주문형 확인 |
-|URL 클릭 조사 | 조직의 [Office 365 ATP 안전한 링크](atp-safe-links.md) 를 클릭 하 여 사용자에 게 보호 |
-|URL 신뢰도 조사 |[Microsoft 지능형 보안 그래프](https://www.microsoft.com/security/operations/intelligence) 및 외부 위협 인텔리전스 원본의 URL 신뢰도에 대 한 주문형 확인 |
-|사용자 활동 조사 |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) 에서 사용자 활동 예외 분석 |
-|사용자가 보고 한 전자 메일 지표 추출 |조사를 위해 사용자에 게 [보고 된 전자 메일](enable-the-report-message-add-in.md) 의 머리글, 본문 및 콘텐츠에서 지표 추출 |
+****
+
+|시키기| 설명|
+|---|---|
+|DLP 위반 조사|DLP ( [데이터 손실 방지](../../compliance/data-loss-prevention-policies.md) )로 감지 되는 위반을 조사 합니다.|
+|전자 메일 지표 추출|조사를 위해 전자 메일 메시지의 머리글, 본문 및 내용에서 표시기 추출|
+|파일 해시 신뢰도|조직의 사용자 및 컴퓨터에 대 한 파일 해시를 기반으로 예외 검색|
+|메일 클러스터 식별|헤더, 본문, 콘텐츠 및 Url을 기반으로 하는 전자 메일 분석|
+|메일 클러스터 볼륨 분석|아웃 바운드 메일 흐름 볼륨 패턴을 기반으로 하는 전자 메일 클러스터 분석|
+|메일 위임 조사|이 조사와 관련 된 사용자 사서함에 대 한 메일 위임 액세스를 조사 합니다.|
+|메일 전달 규칙 조사|이 조사와 관련 된 사용자 사서함에 대 한 메일 전달 규칙을 조사 합니다.|
+|누락 된 맬웨어 감지|조직에서 사용자의 사서함으로 배달 된 누락 된 맬웨어 검색|
+|주문형 샌드 박싱|전자 메일 메시지, 첨부 파일 및 Url에 대 한 주문형 샌드 박싱 트리거됨|
+|아웃 바운드 메일 변칙 조사|조직의 사용자에 대 한 기록 메일 흐름 전송 패턴을 기반으로 예외 검색|
+|아웃 바운드 맬웨어 및 스팸 변칙 조사|조직 내 사용자 로부터 보낸 조직 내 및 아웃 바운드 맬웨어, 피싱 또는 스팸 감지|
+|보낸 사람 도메인 조사|[Microsoft 지능형 보안 그래프](https://www.microsoft.com/security/operations/intelligence) 및 외부 위협 인텔리전스 원본의 도메인 신뢰도에 대 한 주문형 확인|
+|보낸 사람 IP 조사| [Microsoft 지능형 보안 그래프](https://www.microsoft.com/security/operations/intelligence) 및 외부 위협 인텔리전스 원본의 IP 신뢰도에 대 한 주문형 확인|
+|URL 클릭 조사| 조직의 [Office 365 ATP 안전한 링크](atp-safe-links.md) 를 클릭 하 여 사용자에 게 보호|
+|URL 신뢰도 조사|[Microsoft 지능형 보안 그래프](https://www.microsoft.com/security/operations/intelligence) 및 외부 위협 인텔리전스 원본의 URL 신뢰도에 대 한 주문형 확인|
+|사용자 활동 조사|[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) 에서 사용자 활동 예외 분석|
+|사용자가 보고 한 전자 메일 지표 추출|조사를 위해 사용자에 게 [보고 된 전자 메일](enable-the-report-message-add-in.md) 의 머리글, 본문 및 콘텐츠에서 지표 추출|
+|
 
 ### <a name="recommended-actions"></a>권장 작업
 
-조사가 완료 된 후에 수정이 권장 되는 모든 playbook 작업을 **작업** 탭에서 확인할 수 있습니다. 
+조사가 완료 된 후에 수정이 권장 되는 모든 playbook 작업을 **작업** 탭에서 확인할 수 있습니다.
 
 작업은 조사 종료 시에 Microsoft에서 권장 하는 단계를 캡처합니다. 하나 이상의 작업을 선택 하 여 여기에서 수정 작업을 수행할 수 있습니다. **승인을** 클릭 하면 재구성을 시작할 수 있습니다. (적절 한 사용 권한이 필요 함-탐색기 및 AIR에서 작업을 실행 하려면 ' 검색 및 제거 ' 역할이 필요 합니다. 예를 들어 보안 독자는 작업을 볼 수 있지만 승인 하지는 않습니다. 참고: 모든 작업을 승인할 필요는 없습니다. 권장 작업에 동의 하지 않거나 조직에서 특정 유형의 작업을 선택 하지 않는 경우에는 작업을 **거부** 하거나 무시 하 고 작업을 수행 하지 않도록 선택할 수 있습니다. 모든 작업을 승인 및/또는 거부 하면 조사 완전히 닫기 (상태가 재구성 됨)를 제외 하 고, 일부 작업을 완료 하지 않고 조사 상태가 부분 재구성 됨 상태로 변경 됩니다.
 
 ![AIR 조사 작업 페이지](../../media/air-investigationactionspage.png)
 
 다음을 수행할 수 있습니다.
+
 - Playbook 권장 작업에 대 한 시각적 개요를 볼 수 있습니다.
 - 단일 작업 또는 여러 작업을 선택 합니다.
 - 설명으로 권장 작업을 승인 하거나 거부 합니다.
