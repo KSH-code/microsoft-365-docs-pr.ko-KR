@@ -135,7 +135,7 @@
                   href: mtp/advanced-hunting-take-action.md
                 - name: 공유 쿼리 사용
                   href: mtp/advanced-hunting-shared-queries.md
-                - name: 장치 및 전자 메일 헌트
+                - name: '기기, 전자 메일, 앱 및 ID를 검색합니다.'
                   href: mtp/advanced-hunting-query-emails-devices.md
                 - name: 탐색(Go hunt)
                   href: mtp/advanced-hunting-go-hunt.md

@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online Protection(EOP)에서 메시지에 추가한 헤더 필드에 대해 알아볼 수 있습니다. 이러한 헤더 필드는 메시지와 해당 메시지가 처리되는 방법에 대한 정보를 제공합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ce0b906bb627a7de11e5a8a6db02c9c6f330a62
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: 5073e0721e82e969dbeaa850cc38cb13100a7947
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755359"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653428"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Microsoft 365의 스팸 방지 메시지 헤더
 
@@ -43,9 +43,10 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange online 
 > [!NOTE]
 > **X-Forefront-Antispam-Report** 헤더는 여러 가지 헤더 필드와 값을 포함합니다. 표에 설명되어 있지 않은 이 헤더의 다른 필드는 Microsoft 스팸 방지 팀에서 진단용으로만 사용합니다.
 
-|||
+****
+
+|헤더 필드|설명|
 |---|---|
-|**헤더 필드**|**설명**|
 |ARC|ARC 프로토콜에는 다음과 같은 헤더가 있습니다. <ul><li>AAR: DMARC의 인증 결과 헤더의 내용을 기록합니다.</li><li>AMS: 이 헤더는 메시지 암호화 서명을 포함합니다.</li><li>AS: 메시지 헤더의 암호화 서명을 포함합니다. 이 헤더에는 체인 유효성 검사의 결과를 **none**, **pass** 또는 **fail**로 포함하는 "cv ="라는 체인 유효성 검사 태그가 포함되어 있습니다.</li></ul>|
 |CAT:|메시지에 적용 되는 보호 정책의 범주: <ul><li>BULK: 대량</li><li>DIMP: 도메인 가장</li><li>GIMP: 사서함 인텔리전스 기반 가장</li><li>HPHSH 또는 HPHISH: 신뢰도가 높은 피싱</li><li>HSPM: 높은 정확도의 스팸</li><li>MALW: 맬웨어</li><li>PHSH: 피싱</li><li>SPM: 스팸</li><li>SPOOF: 스푸핑</li><li>UIMP: 사용자 가장</li><li>AMP: 맬웨어 방지</li><li>SAP: 안전한 첨부 파일</li><li>OSPM: 아웃바운드 스팸</li></ul><br/>인바운드 메시지는 여러 유형의 보호 및 다중 검색 검사에 의해 플래그가 지정될 수 있습니다. 정책의 우선 순위가 다르기 때문에 우선 순위가 가장 높은 정책이 먼저 적용됩니다. 자세한 내용을 알고 싶다면 [전자 메일에 여러 보호 방법과 검색 검사가 실행될 때 어떤 정책이 적용되는지](how-policies-and-protections-are-combined.md)를 확인합니다.|
 |CIP: \[IP 주소\]|연결할 IP 주소. IP 허용 목록 또는 IP 차단 목록에 이 IP 주소를 사용할 수 있습니다. 자세한 내용은 [연결 필터링 구성](configure-the-connection-filter-policy.md)을 참조하십시오.|
@@ -75,9 +76,10 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange online 
 
 다음 표에서는 **X-Microsoft-Antispam** 메시지 헤더의 유용한 필드에 대해 설명합니다. 이 헤더의 다른 필드는 Microsoft 스팸 방지 팀에서 진단용으로만 사용합니다.
 
-|||
+****
+
+|헤더 필드|설명|
 |---|---|
-|**헤더 필드**|**설명**|
 |BCL|메시지의 BCL(대량 불만 수준)입니다. BCL이 높다는 것은 벌크 메일 메시지(_회색 메일_이라고도 함)가 불만을 야기할 가능성이 높다는 것을 의미합니다(그러므로 스팸일 가능성이 높음). 자세한 내용은 [BCL(대량 불만 수준)](bulk-complaint-level-values.md)을 참조하세요.|
 |
 
@@ -140,9 +142,10 @@ dmarc=fail action=oreject header.from=contoso.com
 
 이 표에서는 각 전자 메일 인증 확인에 대한 필드와 가능한 값에 대해 설명합니다.
 
-|||
+****
+
+|헤더 필드|설명|
 |---|---|
-|**헤더 필드**|**설명**|
 |조치|DMARC 검사 결과에 따라 스팸 필터에서 수행하는 작업을 표시합니다. 예시: <ul><li>**oreject** 또는 **o.reject**: 재정의에 대한 거부를 나타냅니다. 이 경우, Microsoft 365에서는 p=reject 정책을 사용하는 DMARC TXT 레코드의 도메인으로부터 DMARC 검사에 실패하는 메시지를 수신할 때 이 작업을 사용합니다.  메시지를 삭제하거나 거부하는 대신, Microsoft 365에서는 해당 메시지를 스팸으로 표시합니다. Microsoft 365를 이런 방식으로 구성하는 방법에 대한 자세한 내용은 [Microsoft 365에서 DMARC에 실패한 인바운드 전자 메일을 처리하는 방법](use-dmarc-to-validate-email.md#how-microsoft-365-handles-inbound-email-that-fails-dmarc)을 참조하세요.</li><li>**pct.quarantine**: DMARC를 통과하지 못하는 메시지 중 100% 미만의 백분율이 전달됨을 나타냅니다. 즉, 메시지가 DMARC에 실패하고 정책이 격리로 설정되어 있지만, pct 필드는 100%로 설정되지 않았고, 지정된 도메인의 정책에 따라, 시스템에서 DMARC 작업을 적용하지 않도록 임의로 결정했음을 의미합니다.</li><li>**pct.reject**: DMARC를 통과하지 못하는 메시지 중 100% 미만의 백분율이 전달됨을 나타냅니다. 즉, 메시지가 DMARC에 실패하고 정책이 거부로 설정되어 있지만, pct 필드는 100%로 설정되지 않았고, 지정된 도메인의 정책에 따라, 시스템에서 DMARC 작업을 적용하지 않도록 임의로 결정했음을 나타냅니다.</li><li>**permerror**: DMARC 평가 중에 영구적 오류(예: DNS에서 잘못된 형식의 DMARC TXT 레코드 발생)가 발생했습니다. 이 메시지를 다시 보내도 결과가 달라지지 않을 수 있습니다. 대신, 이 문제를 해결하기 위해 도메인 소유자에게 문의해야 합니다.</li><li>**temperror**: DMARC 평가 중에 일시적인 오류가 발생했습니다. 전자 메일을 제대로 처리할 수 있도록 보낸 사람이 메시지를 나중에 다시 보내도록 요청할 수 있습니다.</li></ul>|
 |compauth|복합 인증 결과 Microsoft 365에서 SPF, DKIM, DMARC 또는 메시지의 기타 부분과 같은 다양한 유형의 인증을 결합하여 메시지의 인증 여부를 확인하는 데 사용됩니다. 평가 기준으로 보낸 사람: 도메인을 사용합니다.|
 |dkim|메시지의 DKIM 검사 결과를 설명합니다. 가능한 값은 다음과 같습니다. <ul><li>**통과**: 통과한 메시지의 DKIM 검사를 나타냅니다.</li><li>**실패(원인)**: 실패한 메시지의 DKIM 검사와 오류를 나타냅니다. 예를 들어, 메시지에 서명이 없거나 서명이 확인되지 않은 경우입니다.</li><li>**없음**: 메시지에 서명이 없음을 나타냅니다. 이는 도메인에 DKIM 레코드가 있거나 DKIM 레코드가 결과에 대해 평가되지 않음을 의미하지 않으며, 이 메시지에 서명이 없음을 나타냅니다.</li></ul>|

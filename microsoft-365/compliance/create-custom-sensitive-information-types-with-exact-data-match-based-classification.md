@@ -67,7 +67,7 @@ EDM 기반 분류가 이 구독에 포함되어 있습니다
 |단계  |필요한 사항  |
 |---------|---------|
 |[1단계: EDM 기반 분류 설정](#part-1-set-up-edm-based-classification)<br/><br/>(필요한 대로 수행)<br/>- [데이터베이스 스키마 편집](#editing-the-schema-for-edm-based-classification) <br/>- [스키마 제거](#removing-the-schema-for-edm-based-classification) |- 중요한 데이터에 대한 읽기 액세스 권한<br/>- XML 형식의 데이터베이스 스키마(예제 제공)<br/>- XML 형식의 규칙 패키지(예제 제공)<br/>- 보안 및 준수 센터에 대한 관리자 권한(Windows PowerShell 사용) |
-|[2 부: 중요 한 데이터를 해시하고 업로드](#part-2-hash-and-upload-the-sensitive-data)<br/><br/>(필요한 대로 수행)<br/>[데이터 새로 고침](#refreshing-your-sensitive-information-database) |- 사용자 지정 보안 그룹 및 사용자 계정<br/>- EDM 업로드 에이전트가 있는 컴퓨터에 대한 로컬 관리자 액세스 권한<br/>- 중요한 데이터에 대한 읽기 액세스 권한<br/>- 데이터를 새로 고치는 프로세스 및 일정|
+|[2부: 중요 한 데이터를 해시하고 업로드](#part-2-hash-and-upload-the-sensitive-data)<br/><br/>(필요한 대로 수행)<br/>[데이터 새로 고침](#refreshing-your-sensitive-information-database) |- 사용자 지정 보안 그룹 및 사용자 계정<br/>- EDM 업로드 에이전트가 있는 컴퓨터에 대한 로컬 관리자 액세스 권한<br/>- 중요한 데이터에 대한 읽기 액세스 권한<br/>- 데이터를 새로 고치는 프로세스 및 일정|
 |[3단계: Microsoft 클라우드 서비스로 EDM 기반 분류 사용](#part-3-use-edm-based-classification-with-your-microsoft-cloud-services) |- DLP를 포함하는 Microsoft 365 구독<br/>- EDM 기반 분류 기능 사용 |
 
 ### <a name="part-1-set-up-edm-based-classification"></a>1단계: EDM 기반 분류 설정
@@ -294,7 +294,7 @@ PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의�
 > [!NOTE]
 > EDMSchema를 추가 사항으로 업데이트하는 데 10~60분이 소요될 수 있습니다. 추가 사항을 사용하는 단계를 실행하기 전에 업데이트를 완료해야 합니다.
 
-### <a name="part-2-hash-and-upload-the-sensitive-data"></a>2 부: 중요한 데이터를 해시하고 업로드
+### <a name="part-2-hash-and-upload-the-sensitive-data"></a>2부: 중요한 데이터를 해시하고 업로드
 
 이 단계에서는 사용자 지정 보안 그룹 및 사용자 계정을 설정하고 EDM 업로드 에이전트 도구를 설정합니다. 그런 다음 도구를 사용하여 중요한 데이터를 해시하고 색인화될 수 있도록 해시된 데이터를 업로드합니다.
 
@@ -353,7 +353,7 @@ PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의�
 
 > **EdmUploadAgent.exe /CreateHash /DataFile C:\\Edm\\Data\\PatientRecords.csv /HashLocation C:\\Edm\\Hash**
 
-해시 된 데이터를 업로드하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.
+해시된 데이터를 업로드하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.
 
 `EdmUploadAgent.exe /UploadHash /DataStoreName \<DataStoreName\> /HashFile \<HashedSourceFilePath\>`
 
@@ -388,7 +388,7 @@ PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의�
       > [!NOTE]
       > .csv 파일의 구조(필드 이름)를 변경하지 않은 경우 데이터를 새로 고칠 때 데이터베이스 스키마 파일을 변경하지 않아도 됩니다. 하지만 변경해야 하는 경우 데이터베이스 스키마와 규칙 패키지를 적절하게 편집해야 합니다.
 
-3.  [해시에서 2 단계와 3 단계를 자동화하고 중요한 데이터](#hash-and-upload-the-sensitive-data) 절차를 업로드하려면 [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page) 를 사용합니다. 다음과 같은 여러 방법을 사용하여 작업을 예약할 수 있습니다.
+3.  [해시에서 2단계와 3단계를 자동화하고 중요한 데이터](#hash-and-upload-the-sensitive-data) 절차를 업로드하려면 [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page) 를 사용합니다. 다음과 같은 여러 방법을 사용하여 작업을 예약할 수 있습니다.
 
       | 메서드             | 수행할 작업 |
       | ---------------------- | ---------------- |

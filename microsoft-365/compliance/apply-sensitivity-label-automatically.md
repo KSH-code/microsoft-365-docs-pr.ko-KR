@@ -54,15 +54,15 @@ ms.locfileid: "46656829"
     구성 지침은 이 페이지에서 [SharePoint, OneDrive 및 Exchange에 대한 자동 레이블 지정 정책을 구성하는 방법](#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)을 참조하세요.
     
     SharePoint 및 OneDrive에 대한 자동 레이블 지정에만 해당:
-    - Word, PowerPoint 및 Excel용 Office 파일이 지원됩니다. Open XML 형식(예: .docx 및 .xlsx)은 지원되지만, Microsoft Office 97-2003 형식(예: .doc 및 .xls)은 지원되지 않습니다.
+    - Word, PowerPoint 및 Excel용 Office 파일이 지원됩니다. Open XML 형식(예: .docx 및 .xlsx)은 지원되지만, Microsoft Office 97~2003 형식(예: .doc 및 .xls)은 지원되지 않습니다.
     - 테넌트에서 하루 최대 25,000개의 자동 레이블 지정 파일 수.
-    - 최대 10 개의 사이트 (SharePoint 또는 OneDrive)를 대상으로 하는 테넌트 당 최대 10개의 자동 레이블 정책.
+    - 최대 10개의 사이트 (SharePoint 또는 OneDrive)를 대상으로 하는 테넌트당 최대 10개의 자동 레이블 정책.
     - 시뮬레이션 모드 및 레이블 적용 시 둘 다의 경우 자동 레이블링 정책의 결과로 수정됨, 수정자 및 날짜에 대한 기존 값은 변경되지 않습니다.
     - 레이블이 암호화를 적용하는 경우 [권한 관리 발행자 및 권한 관리 소유자](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)는 민감도 레이블을 만든 사람입니다.
 
     Exchange 자동 레이블 지정에만 해당:
     - Office 앱을 사용하여 수동 레이블 지정 또는 자동 레이블 기능과 달리 Office 첨부 파일 (Word, Excel 및 PowerPoint 파일) 및 PDF 첨부 파일도 자동 레이블 지정 정책에서 지정한 조건에 대해 검사합니다. 일치하는 항목이 있는 경우 전자 메일에 레이블이 표시되지만 첨부 파일에는 표시되지 않습니다.
-        - Office 파일의 경우, Open XML 형식(예: .docx 및 .xlsx)은 지원되지만, Microsoft Office 97-2003 형식(예: .doc 및 .xls)은 지원되지 않습니다.
+        - Office 파일의 경우, Open XML 형식(예: .docx 및 .xlsx)은 지원되지만, Microsoft Office 97~2003 형식(예: .doc 및 .xls)은 지원되지 않습니다.
     - IRM 암호화를 적용하는 Exchange 메일 흐름 규칙 또는 DLP(데이터 손실 방지) 정책이 있는 경우: 이러한 규칙 또는 정책과 자동 레이블 지정 정책으로 콘텐츠를 식별하면 레이블이 적용됩니다. 해당 레이블이 암호화를 적용하면 Exchange 메일 흐름 규칙 또는 DLP 정책의 IRM 설정이 무시됩니다. 그러나 해당 레이블에 암호화가 적용되지 않으면 레이블과 더불어 메일 흐름 규칙 또는 DLP 정책의 IRM 설정이 적용됩니다.
     - 레이블이 없는 IRM 암호화를 포함하는 전자 메일은 자동 레이블 지정을 사용하여 일치하는 항목이 있는 경우 모든 암호화 설정이 있는 레이블로 대체됩니다.
     - 자동 레이블 지정 조건과 일치하는 경우 받는 전자 메일에 레이블이 지정됩니다. 그러나 레이블이 암호화로 구성되면 암호화가 적용되지 않습니다.

@@ -288,7 +288,7 @@ Outlook의 **대화 내용** 폴더는 Skype 보관과 아무 관계가 없는 �
 
 ## <a name="lock-a-retention-policy-by-using-powershell"></a>PowerShell을 사용하여 보존 정책 잠금
 
-규정 요구 사항을 준수하기 위해 [보존 잠금](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements)을 사용해야 하는 경우 PowerShell을 사용해야 합니다. 유지 잠금이 적용 된 후에는 관리자가 보존 정책을 사용하지 않도록 설정하거나 삭제할 수 없기 때문에, 이 기능을 사용하도록 설정하는 것은 잘못된 구성으로부터 보호하는 UI에서 사용할 수 없습니다.
+규정 요구 사항을 준수하기 위해 [보존 잠금](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements)을 사용해야 하는 경우 PowerShell을 사용해야 합니다. 유지 잠금이 적용된 후에는 관리자가 보존 정책을 사용하지 않도록 설정하거나 삭제할 수 없기 때문에, 이 기능을 사용하도록 설정하는 것은 잘못된 구성으로부터 보호하는 UI에서 사용할 수 없습니다.
 
 모든 구성 지원 보존 잠금이 있는 모든 보존 정책. 그러나 뒤에 나오는 PowerShell 명령을 사용하는 경우 **작업부하** 매개변수에는 정책에 구성된 실제 작업 부하를 반영하는 것이 아니라 **Exchange, SharePoint, OneDriveForBusines, Skype, ModernGroup**을 표시하는 것을 볼 수 있습니다. 이는 표시 문제일 뿐입니다.
 
@@ -298,7 +298,7 @@ Outlook의 **대화 내용** 폴더는 Skype 보관과 아무 관계가 없는 �
     
    ![PowerShell의 보존 정책 목록](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
     
-3. 보존 정책에 보존 잠금을 설정 하려면 [Set-RetentionCompliancePolicy]( ) cmdlet을 보존 정책 이름으로 실행하고 *RestrictiveRetention* 매개변수를 true로 설정합니다.
+3. 보존 정책에 보존 잠금을 설정하려면 [Set-RetentionCompliancePolicy]( ) cmdlet을 보존 정책 이름으로 실행하고 *RestrictiveRetention* 매개변수를 true로 설정합니다.
     
     ```powershell
     Set-RetentionCompliancePolicy -Identity "<Name of Policy>" –RestrictiveRetention $true
@@ -312,7 +312,7 @@ Outlook의 **대화 내용** 폴더는 Skype 보관과 아무 관계가 없는 �
     
    ![PowerShell에서 보존 정책 잠금을 원하는지 확인하는 메시지](../media/retention-policy-preservation-lock-confirmation-prompt.PNG)
 
-이제 보존 정책에 보존 잠금이 적용됩니다. 확인 하려면 `Get-RetentionCompliancePolicy` 다시 실행 하지만, 보존 정책 이름을 지정하고 정책 매개변수를 표시합니다.
+이제 보존 정책에 보존 잠금이 적용됩니다. 확인하려면 `Get-RetentionCompliancePolicy` 다시 실행 하지만, 보존 정책 이름을 지정하고 정책 매개변수를 표시합니다.
 
 ```powershell
 Get-RetentionCompliancePolicy -Identity "<Name of Policy>" |Fl

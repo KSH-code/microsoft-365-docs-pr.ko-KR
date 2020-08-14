@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 Advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
-ms.openlocfilehash: d8a8ab2f5c7de5d57f50ec6b1c26e0fc71ac6616
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: 2241f48877019cb20484aea0dd1fcf7b9e7b8bb5
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434052"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653608"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -45,9 +45,11 @@ Office 365 ATP (Advanced Threat Protection)는 전자 메일 메시지, 링크 (
 
 다음 표에는 각 계획에 포함된 항목이 요약되어 있습니다.
 
-| Office 365 ATP 계획 1 | Office 365 ATP 계획 2 |
+****
+
+|Office 365 ATP 계획 1|Office 365 ATP 계획 2|
 |---|---|
-|구성, 보호 및 검색 기능:<br/>• [안전한 첨부 파일](atp-safe-attachments.md)<br/>• [안전한 링크](atp-safe-links.md)<br/>• [SharePoint, OneDrive 및 Microsoft Teams용 ATP](atp-for-spo-odb-and-teams.md)<br/>• [ATP 피싱 방지 보호 기능](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)<br/>• [실시간 탐지](threat-explorer.md)|Office 365 ATP 계획 1 기능<br/>--- 추가 ---<br/>자동화, 조사, 수정 및 교육 기능:<br/>• [위협 추적기](threat-trackers.md)<br/>• [위협 탐색기](threat-explorer.md)<br/>• [자동 조사 및 응답](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>• [공격 시뮬레이터](attack-simulator.md)|
+|<br/>구성, 보호 및 검색 기능: <ul><li>[안전한 첨부 파일](atp-safe-attachments.md)</li><li>[안전한 링크](atp-safe-links.md)</li><li>[SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](atp-for-spo-odb-and-teams.md)</li><li>[ATP 피싱 방지 보호 기능](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)</li><li>[실시간 탐지](threat-explorer.md)</li></ul>|Office 365 ATP 계획 1 기능<br/>--- 추가 ---<br/>자동화, 조사, 수정 및 교육 기능:</li><li>[위협 트래커](threat-trackers.md)</li><li>[위협 탐색기](threat-explorer.md)</li><li>[자동화된 조사 및 응답](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)</li><li>[공격 시뮬레이터](attack-simulator.md)</li></ul>|
 |
 
 - Office 365 ATP 계획 2는 Office 365 E5, Office 365 A5 및 Microsoft 365 E5에 포함되어 있습니다.
@@ -112,11 +114,11 @@ Office 365 ATP Plan 2에는 조직의 보안팀이 악의적인 공격을 예측
 보안 및 준수 센터의 ATP 기능에 액세스하려면 적절한 역할을 할당받아야 합니다. 다음 표에 몇 가지 예제가 나와 있습니다.
 
 |역할 또는 역할 그룹|자세한 정보를 알아볼 수 있는 리소스|
-|---------|---------|
-|전역 관리자(Azure Active Directory 또는 보안 & 규정 준수 센터에서 할당할 수 있습니다.) |[Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
-|보안 관리자 (Azure Active Directory 또는 보안 & 규정 준수 센터에서 할당할 수 있습니다.) |[Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br><br/>[보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)|
+|---|---|
+|전역 관리자(Azure Active Directory 또는 보안 & 규정 준수 센터에서 할당할 수 있습니다.)|[Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
+|보안 관리자 (Azure Active Directory 또는 보안 & 규정 준수 센터에서 할당할 수 있습니다.)|[Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br><br/>[보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)|
 |Exchange Online 조직 관리(Exchange Online에서 할당합니다.)|[Exchange Online의 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)<br><br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
-|검색 및 제거(보안 & 규정 준수 센터에서만 할당합니다.) |[보안 & 규정 준수 센터의 사용 권한] (permissions-in-the-security-and-compliance-center.md|
+|검색 및 제거(보안 & 규정 준수 센터에서만 할당합니다.)|[보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)|
 
 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
