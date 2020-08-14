@@ -17,12 +17,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: 안전한 링크 정책을 설정 하 여 Word, Excel, PowerPoint, Visio 파일 및 전자 메일 메시지의 악의적인 링크 로부터 조직을 보호 합니다.
-ms.openlocfilehash: 4aa6947af114856d73c3e048b829daf8f47f0f48
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: f935002a300bd5f4553cbab429318dad4104b208
+ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46652648"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662257"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Office 365 ATP 안전한 링크 정책 설정
 
@@ -82,13 +82,13 @@ ATP Safe 링크를 사용 하도록 설정 하면 사용자가 전자 메일의 
 5. **전자 메일을 제외한 콘텐츠에 적용 되는 설정** 섹션에서 사용할 옵션을 선택 하거나 선택을 취소 합니다. (모든 옵션을 선택 하는 것이 좋습니다.)
 
 6. **저장**을 선택합니다.
+    
+## <a name="step-3-add-or-edit-atp-safe-links-policies-that-apply-to-all-or-specific-email-recipients"></a>3 단계: 모든 또는 특정 전자 메일 받는 사람에 게 적용 되는 ATP 안전한 링크 정책 추가 (또는 편집)
 
-## <a name="step-3-add-or-edit-atp-safe-links-policies-that-apply-to-specific-email-recipients"></a>3 단계: 특정 전자 메일 받는 사람에 게 적용 되는 ATP 안전한 링크 정책 추가 (또는 편집)
-
-모든 사용자에 게 적용 되는 기본 ATP 안전 링크 정책을 검토 하거나 편집한 후에는 특정 받는 사람에 게 적용 되는 추가 정책을 정의 합니다. 예를 들어 추가 정책을 정의 하 여 기본 정책에 대 한 예외를 지정할 수 있습니다.
-
-1. 으로 이동 하 여 <https://protection.office.com> 회사 또는 학교 계정으로 로그인 합니다.
-
+모든 사용자에 게 적용 되는 기본 ATP 안전 링크 정책을 검토 하거나 편집한 후에는 모든 또는 특정 전자 메일 받는 사람에 게 적용 되는 추가 정책을 정의 합니다. 예를 들어 추가 정책을 정의 하 여 기본 정책에 대 한 예외를 지정 하거나 모든 직원에 대해 보다 세분화 된 제한을 만들 수 있습니다.
+  
+1. 으로 이동 하 여 <https://protection.office.com> 회사 또는 학교 계정으로 로그인 합니다. 
+    
 2. 왼쪽 탐색 창의 **위협 관리**에서 **정책을**선택 합니다.
 
 3. **안전한 링크**를 선택 합니다.
@@ -120,7 +120,7 @@ ATP Safe 링크를 사용 하도록 설정 하면 사용자가 전자 메일의 
 6. **저장**을 선택합니다.
 
 > [!NOTE]
-> 우선 순위가 높은 ATP 안전한 링크 정책이 우선 순위를 갖습니다. 사용자에 게 둘 이상의 정책이 적용 될 경우 우선 순위가 더 높은 정책만 적용 됩니다.
+> 우선 순위가 높은 ATP 안전한 링크 정책이 우선 순위를 갖습니다. 사용자에 게 둘 이상의 정책이 적용 될 경우 우선 순위가 더 높은 정책만 적용 됩니다. 고객 정책을 우선적으로 적용 하려면 정책의 우선 순위를 올려야 합니다.
 
 ## <a name="step-4-learn-about-atp-safe-links-policy-options"></a>4 단계: ATP 안전한 링크 정책 옵션 알아보기
 

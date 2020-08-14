@@ -1,7 +1,7 @@
 ---
 title: 모든 도메인 등록 기관에서 Microsoft 365을 설정 하도록 이름 서버 변경
 f1.keywords:
-- NOCSH
+- CSH
 ms.author: pebaum
 author: pebaum
 manager: mnirkhe
@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: 전자 메일 및 비즈니스용 Skype 온라인 등의 서비스에서 고유한 도메인 이름을 사용 하도록 Microsoft 365에서 도메인을 추가 및 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 8f98e054b4fa9fc9c8746f2b3bec8b59eb04e767
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 6a99ee90db3bb71038309175b32bd4d96097aa5a
+ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560344"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662235"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>모든 도메인 등록 기관에서 Microsoft 365을 설정 하도록 이름 서버 변경
 
@@ -38,7 +38,7 @@ ms.locfileid: "46560344"
   
 먼저 [도메인 설정 (호스트 관련 지침)](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) 을 선택 하 여 등록 기관에 대 한 지침이 있는지 확인 합니다. 
   
-다음 지침에 따라 Microsoft 365에서 도메인을 추가 및 설정 하 여 전자 메일 및 비즈니스용 Skype Online과 같은 서비스에서 자체 도메인 이름을 사용 하도록 합니다. 이렇게 하려면 도메인을 확인 한 다음 올바른 DNS 레코드를 설정할 수 있도록 도메인의 이름 서버를 Microsoft 365으로 변경 합니다. 다음 문이 상황을 설명 하는 경우 다음 단계를 수행 합니다.
+다음 지침에 따라 Microsoft 365에서 도메인을 추가 및 설정 하 여 전자 메일 및 팀과 같은 서비스에서 고유한 도메인 이름을 사용 하도록 합니다. 이렇게 하려면 도메인을 확인 한 다음 올바른 DNS 레코드를 설정할 수 있도록 도메인의 이름 서버를 Microsoft 365으로 변경 합니다. 다음 문이 상황을 설명 하는 경우 다음 단계를 수행 합니다.
   
 - 사용자의 고유한 도메인을 Microsoft 365에서 사용 하도록 설정 하려고 합니다.
     
@@ -114,17 +114,19 @@ Microsoft 365에서 도메인 설정 마법사의 마지막 단계로 이동 하
   
 도메인 등록 기관 웹 사이트에서 도메인 이름 서버를 직접 변경하려면 다음 단계를 따릅니다.
   
-1. 도메인 등록 기관의 웹 사이트에서 도메인의 이름 서버를 편집할 수 있는 영역을 찾습니다.
+1. 도메인 등록 기관의 웹 사이트에서 도메인의 이름 서버를 변경 하거나 사용자 지정 이름 서버 사용할 수 있는 영역을 찾을 수 있는 영역을 찾습니다.
     
-2. 이름 서버 레코드를 두 개 만들거나 기존 이름 서버 레코드를 다음 값과 일치하도록 편집합니다.
+2. 이름 서버 레코드를 만들거나 기존 이름 서버 레코드를 다음 값과 일치 하도록 편집 합니다.
     
 |||
 |:-----|:-----|
 |첫 번째 이름 서버  <br/> |ns1.bdm.microsoftonline.com  <br/> |
 |두 번째 이름 서버  <br/> |ns2.bdm.microsoftonline.com  <br/> |
+|세 번째 이름 서버  <br/> |ns2.bdm.microsoftonline.com  <br/> |
+|네 번째 이름 서버  <br/> |ns2.bdm.microsoftonline.com  <br/> |
    
    > [!TIP]
-   > 두 개 이상의 이름 서버 레코드를 사용 해야 합니다. 나열 된 다른 이름 서버 있으면 삭제 하거나 **ns3.bdm.microsoftonline.com** 및 **ns4.bdm.microsoftonline.com**로 변경할 수 있습니다. 
+   > 이 경우 4 개의 레코드를 모두 추가 하는 것이 가장 좋지만, 등록자는 2, add **ns1.bdm.microsoftonline.com** 및 **ns2.bdm.microsoftonline.com**만 지원 합니다. 
   
 3. 변경 내용을 저장합니다.
     
