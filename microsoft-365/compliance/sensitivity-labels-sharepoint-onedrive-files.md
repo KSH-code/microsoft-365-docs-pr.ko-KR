@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 SharePoint 및 OneDrive에서 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용 하도록 설정할 수 있습니다.
-ms.openlocfilehash: a6826be5cccf89d3b2e48e0e37df9a9263e4a8a7
-ms.sourcegitcommit: fe20f5ed07f38786c63df0f73659ca472e69e478
+ms.openlocfilehash: acf440d7bc46c51a6c00b10d06619868a09e155d
+ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201512"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662246"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
 
 SharePoint 및 OneDrive에서 Office 파일에 대해 민감도 레이블을 사용 하도록 설정 하기 전에 Office의 웹에 [민감도 레이블을](sensitivity-labels.md) 적용할 수 없습니다. 리본 메뉴에 **민감도** 단추가 표시 되지 않거나 상태 표시줄에 레이블 이름이 적용 됩니다. 또한 데스크톱 앱을 사용 하 여 파일에 레이블을 지정 하 고 SharePoint 또는 OneDrive에 저장 하는 경우에는 레이블에서 암호화를 적용 한 경우 이러한 파일의 내용을 처리할 수 없습니다. 이러한 상황에서는 공동 작성, eDiscovery, 데이터 손실 방지, 검색 및 기타 공동 작업 기능이 작동 하지 않습니다.
 
@@ -42,12 +42,12 @@ SharePoint 및 OneDrive에서 Office 파일에 대해 민감도 레이블을 사
 
 - 외부 사용자는 게스트 계정을 사용 하 여 암호화로 레이블이 지정 된 문서에 액세스할 수 있습니다. 자세한 내용은 [외부 사용자에 대 한 지원 및 레이블이 지정 된 콘텐츠](sensitivity-labels-office-apps.md#support-for-external-users-and-labeled-content)를 참조 하세요. 
 
-- Office 365 eDiscovery는 이러한 파일에 대 한 전체 텍스트 검색을 지원 합니다. DLP (데이터 손실 방지) 정책은 이러한 파일의 콘텐츠를 지원 합니다.
+- Office 365 eDiscovery는 이러한 파일에 대 한 전체 텍스트 검색을 지원 하 고 DLP (데이터 손실 방지) 정책은 이러한 파일의 콘텐츠를 지원 합니다.
 
 > [!NOTE]
-> 온-프레미스 키를 사용 하 여 암호화를 적용 한 경우 키 관리 토폴로지에서 흔히 "사용자의 키를 사용 하 고 있습니다." (HYOK) 또는 [이중 키 암호화](double-key-encryption.md)를 사용한 경우 파일 콘텐츠 처리에 대 한 SharePoint 동작이 변경 되지 않습니다.
+> 암호화가 온-프레미스 키 (흔히 "사용자의 키를 사용 하는 경우" 또는 HYOK "로 지칭 되는 키 관리 토폴로지 [)를 적용](double-key-encryption.md)한 경우에는 파일 내용을 처리 하기 위한 SharePoint 동작이 변경 되지 않습니다.
 >
-> 또한 sharepoint의 기존 레이블이 지정 되 고 암호화 된 파일에 대해서도 변경 되지 않습니다. 이러한 파일을 새 기능의 혜택을 얻으려면 다운로드 및 업로드 하거나 SharePoint 및 OneDrive에 대해 민감도 레이블을 사용 하도록 설정 하는 명령을 실행 한 후에 편집 해야 합니다. 그러면 SharePoint에서 이러한 파일을 처리할 수 있습니다. 예를 들어 검색 및 eDiscovery 결과에서 반환 됩니다.
+> 또한 sharepoint 동작은 단일 Azure 기반 키를 사용 하 여 암호화로 레이블이 지정 된 SharePoint의 기존 파일에 대해서는 변경 되지 않습니다. SharePoint 및 OneDrive에서 Office 파일에 대해 민감도 레이블을 사용 하도록 설정한 후 이러한 파일을 새 기능의 혜택을 얻으려면 파일을 다운로드 하 여 다시 업로드 하거나 편집 해야 합니다. 예를 들어 검색 및 eDiscovery 결과에서 반환 됩니다.
 
 SharePoint 및 OneDrive에서 Office 파일에 대해 민감도 레이블을 사용 하도록 설정한 후 SharePoint 및 OneDrive의 문서에 적용 되는 세 가지 새 [감사 이벤트](search-the-audit-log-in-security-and-compliance.md#sensitivity-label-activities) 를 모니터링 민감도 레이블로 사용할 수 있습니다.
 - **파일에 적용된 민감도 레이블**
@@ -201,7 +201,7 @@ SharePoint 및 OneDrive에서 민감도 레이블을 사용 하는 경우 새 �
 
 ## <a name="search-for-documents-by-sensitivity-label"></a>민감도 레이블을 기준으로 문서 검색
 
-관리 속성 **InformationProtectionLabelId** 를 사용 하 여 특정 민감도 레이블이 있는 SharePoint 또는 OneDrive의 모든 문서를 찾을 수 있습니다. 다음 구문을 사용 합니다.`InformationProtectionLabelId:<GUID>`
+관리 속성 **InformationProtectionLabelId** 를 사용 하 여 특정 민감도 레이블이 있는 SharePoint 또는 OneDrive의 모든 문서를 찾을 수 있습니다. 다음 구문을 사용 합니다. `InformationProtectionLabelId:<GUID>`
 
 예를 들어 "기밀" 이라는 레이블이 지정 된 모든 문서를 검색 하 고 해당 레이블에 GUID가 "8faca7b8-8d20-48a3-8ea2-0f96310a848e" 인 경우 검색 상자에 다음을 입력 합니다.
 
