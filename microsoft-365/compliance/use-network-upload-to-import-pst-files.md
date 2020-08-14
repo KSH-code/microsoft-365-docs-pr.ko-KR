@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: '관리자: 네트워크 업로드를 사용하여 Microsoft 365의 사용자 사서함으로 여러 PST 파일을 대량으로 가져오는 방법에 대해 알아봅니다.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7c8621859d04f44b58719a86b4c159f8379b961
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 14b70c0ab219f1d6153ceef601e3b4b5b4c76d8a
+ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127335"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46641633"
 ---
 # <a name="use-network-upload-to-import-your-organizations-pst-files-to-microsoft-365"></a>네트워크 업로드를 사용하여 조직의 PST 파일을 Microsoft 365로 가져오기
 
@@ -117,16 +117,16 @@ Microsoft 365 사서함으로 PST 파일을 가져오려면 1단계를 한 번�
     
     ![데이터 가져오기 페이지에서 SAS URL을 복사하고 AzCopy 도구를 다운로드합니다.](../media/74411014-ec4b-4e25-9065-404c934cce17.png)
   
-    a. 2단계에서 **네트워크 업로드 SAS URL 표시**를 클릭합니다. SAS URL이 표시되면 **클립보드에 복사**를 클릭하고 붙여넣기한 다음 나중에 액세스할 수 있도록 파일에 저장합니다.
+    1. 2단계에서 **네트워크 업로드 SAS URL 표시**를 클릭합니다. SAS URL이 표시되면 **클립보드에 복사**를 클릭하고 붙여넣기한 다음 나중에 액세스할 수 있도록 파일에 저장합니다.
     
-    b. 3단계에서는 **Azure AzCopy 다운로드**를 클릭하여 AzCopy 도구를 다운로드하고 설치합니다. 팝업 창에서 **실행**을 클릭하여 AzCopy를 설치합니다. 
+    1. 3단계에서는 **Azure AzCopy 다운로드**를 클릭하여 AzCopy 도구를 다운로드하고 설치합니다. 팝업 창에서 **실행**을 클릭하여 AzCopy를 설치합니다. 
     
-> [!NOTE]
-> **데이터 가져오기** 페이지를 열어 두거나 (SAS URL을 다시 복사해야하는 경우 대비) 또는 **취소**를 클릭하여 페이지를 닫을 수 있습니다. 
+   > [!NOTE]
+   > **데이터 가져오기** 페이지를 열어 두거나 (SAS URL을 다시 복사해야하는 경우 대비) 또는 **취소**를 클릭하여 페이지를 닫을 수 있습니다. 
  
 ## <a name="step-2-upload-your-pst-files-to-office-365"></a>2단계: Office 365에 PST 파일 업로드
 
-이제 AzCopy.exe 도구를 사용하여 PST 파일을 Office365에 업로드할 수 있습니다. 이 도구는 Microsoft 클라우드의 Azure 저장소 위치에 PST 파일을 업로드하고 저장합니다. 앞서 설명한 것처럼 PST 파일을 업로드하는 Azure Storage 위치는 조직이 있는 동일한 지역 Microsoft 데이터 센터에 있습니다. 이 단계를 완료하려면 PST 파일이 조직의 파일 공유 또는 파일 서버에 있어야 합니다. 이 절차에서는 이것을 원본 디렉터리라고 합니다. AzCopy 도구를 실행할 때마다 다른 원본 디렉터리를 지정할 수 있습니다. 
+이제 AzCopy.exe 도구를 사용하여 PST 파일을 Office365에 업로드할 수 있습니다. 이 도구는 Microsoft 클라우드의 Azure 저장소 위치에 PST 파일을 업로드하고 저장합니다. 앞서 설명한 것처럼 PST 파일을 업로드하는 Azure 저장소 위치는 조직이 있는 동일한 지역의 Microsoft 데이터 센터에 위치해 있습니다. 이 단계를 완료하려면 PST 파일이 조직의 파일 공유 또는 파일 서버에 있어야 합니다. 이 절차에서는 이것을 원본 디렉터리라고 합니다. AzCopy 도구를 실행할 때마다 다른 원본 디렉터리를 지정할 수 있습니다. 
 
 > [!NOTE]
 > 앞서 설명한 것처럼 Azure 저장소 위치에 업로드하는 각 PST 파일의 크기는 20GB를 넘지 않는 것이 좋습니다. 20GB보다 큰 PST 파일은 6단계에서 시작하는 PST 가져오기 프로세스의 성능에 영향을 줄 수 있습니다.
@@ -146,7 +146,7 @@ Microsoft 365 사서함으로 PST 파일을 가져오려면 1단계를 한 번�
  
     다음 표에서는 AzCopy.exe 매개 변수와 해당 필수 값에 대해 설명합니다. 이전 단계에서 획득한 정보가 이러한 매개 변수의 값에 사용됩니다.
     
-    |**매개 변수**|**설명**|**예**|
+    | 매개 변수 | 설명 | 예제 |
     |:-----|:-----|:-----|
     | `/Source:` <br/> |조직에서 Office 365로 업로드될 PST 파일이 들어 있는 원본 디렉터리를 지정합니다.  <br/> 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> | `/Source:"\\FILESERVER01\PSTs"` <br/> |
     | `/Dest:` <br/> |1단계에서 획득한 SAS URL을 지정합니다.  <br/> 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.<br/><br/>**참고:** 스크립트나 배치 파일에서 SAS URL을 사용하는 경우 이스케이프해야 하는 특정 문자가 있는지 주의해야 합니다. 예를 들어 `%`를 `%%`로 변경하고 `&`을 `^&`로 변경해야 합니다.<br/><br/>**팁:** (선택 사항) Azure 저장소 위치에서 하위 폴더를 지정하여 PST 파일을 업로드 할 수 있습니다. SAS URL에서 하위 폴더 위치("ingestiondata" 뒤에)를 추가하면 됩니다. 첫 번째 예제에서는 하위 폴더를 지정하지 않습니다. 즉, PST가 Azure 저장소 위치의 루트(*ingestiondata*)에 업로드 됩니다. 두 번째 예제에서는 PST 파일을 Azure 저장소 위치의 루트에 있는 하위 폴더(*PSTFiles*)로 업로드 합니다.  <br/> | `/Dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D"` <br/> 또는  <br/>  `/Dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata/PSTFiles?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D"` <br/> |
@@ -208,7 +208,7 @@ PST 파일을 조직의 Azure Storage 위치에 업로드한 후에는 PST 파�
 
 2. CSV 파일을 열거나 로컬 컴퓨터에 저장합니다. 다음 예에서는 완료된 PST 가져오기 매핑 파일(메모장에서 열림)을 보여 줍니다. CSV 파일을 편집할 경우 Microsoft Excel을 사용하는 것이 훨씬 더 쉽습니다.
 
-    ```text
+    ```console
     Workload,FilePath,Name,Mailbox,IsArchive,TargetRootFolder,ContentCodePage,SPFileContainer,SPManifestContainer,SPSiteUrl
     Exchange,,annb.pst,annb@contoso.onmicrosoft.com,FALSE,/,,,,
     Exchange,,annb_archive.pst,annb@contoso.onmicrosoft.com,TRUE,,,,,
@@ -229,7 +229,7 @@ PST 파일을 조직의 Azure Storage 위치에 업로드한 후에는 PST 파�
 
  3. 다음 표의 정보를 사용하여 CSV 파일을 필요한 정보로 채웁니다.
 
-    |**매개 변수**|**설명**|**예**|
+    | 매개 변수 | 설명 | 예제 |
     |:-----|:-----|:-----|
     | `Workload` <br/> |데이터를 가져올 서비스를 지정합니다. PST 파일을 사용자 사서함으로 가져오려면 `Exchange`를 사용합니다.  <br/> | `Exchange` <br/> |
     | `FilePath` <br/> |2단계에서 PST 파일을 업로드한 Azure 저장소 위치에 폴더 위치를 지정합니다.  <br/> 2단계의 `/Dest:` 매개 변수에서 SAS URL에 선택적 하위 폴더 이름을 포함하지 않은 경우 CSV 파일에서 이 매개 변수를 비워 둡니다. 하위 폴더 이름을 포함한 경우 이 매개 변수에 이름을 지정합니다(두 번째 예제 참조). 이 매개 변수의 값은 대/소문자를 구분합니다.  <br/> 어느 쪽이든 `FilePath` 매개 변수 값에 "ingestiondata"를 포함하지 *마세요*.  <br/><br/> **중요:** 2단계의 `/Dest:` 매개 변수에서 SAS URL에 선택적 하위 폴더 이름을 포함한 경우에는 파일 경로 이름의 대/소문자가 사용자의 경우와 동일해야 합니다. 예를 들어 2단계에서 `PSTFiles`로 하위 폴더 이름을 사용한 다음 CSV 파일의 `FilePath` 매개 변수에서 `pstfiles`를 사용한 경우에는 PST 파일 가져오기가 실패하게 됩니다. 두 가지 경우 모두 같은 대/소문자를 사용해야 합니다.  <br/> |(공백으로 둠)  <br/> 또는  <br/>  `PSTFiles` <br/> |
@@ -306,17 +306,17 @@ PST 파일을 조직의 Azure Storage 위치에 업로드한 후에는 PST 파�
   
 3. 다음 중 하나를 수행합니다.
     
-    a. 가져온 데이터를 트리밍하려면 **예, 가져오기 전에 필터링하고 싶습니다**를 클릭합니다.
+   1. 가져온 데이터를 트리밍하려면 **예, 가져오기 전에 필터링하고 싶습니다**를 클릭합니다.
     
-    PST 파일에서 데이터를 필터링한 다음 가져오기 작업을 시작하는 방법에 대한 자세한 단계별 지침은 [PST 파일을 Office 365로 가져올 때 데이터 필터링](filter-data-when-importing-pst-files.md)을 참조합니다.
+      PST 파일에서 데이터를 필터링한 다음 가져오기 작업을 시작하는 방법에 대한 자세한 단계별 지침은 [PST 파일을 Office 365로 가져올 때 데이터 필터링](filter-data-when-importing-pst-files.md)을 참조합니다.
     
-    또는
+      또는
     
-    b. PST 파일의 모든 데이터를 가져오려면 **아니오, 모든 것을 가져오겠습니다**를 클릭하고 **다음**을 클릭합니다.
+   1. PST 파일의 모든 데이터를 가져오려면 **아니오, 모든 것을 가져오겠습니다**를 클릭하고 **다음**을 클릭합니다.
     
 4. 모든 데이터를 가져 오도록 선택한 경우 **데이터 가져오기**를 클릭하여 가져오기 작업을 시작합니다. 
     
-    가져오기 작업의 상태는 **PST 파일 가져오기** 페이지에 표시됩니다. ![새로 고침 아이콘](../media/O365-MDM-Policy-RefreshIcon.gif) **새로 고침**을 클릭하여 **상태** 열에 표시되는 상태 정보를 업데이트합니다. 가져오기 작업을 클릭하여 가져오는 각 PST 파일에 대한 상태 정보를 표시하는 상태 플라이 아웃 페이지를 표시합니다. 
+   가져오기 작업의 상태는 **PST 파일 가져오기** 페이지에 표시됩니다. ![새로 고침 아이콘](../media/O365-MDM-Policy-RefreshIcon.gif) **새로 고침**을 클릭하여 **상태** 열에 표시되는 상태 정보를 업데이트합니다. 가져오기 작업을 클릭하여 가져오는 각 PST 파일에 대한 상태 정보를 표시하는 상태 플라이 아웃 페이지를 표시합니다. 
 
 
   
@@ -346,7 +346,7 @@ PST 파일을 조직의 Azure Storage 위치에 업로드한 후에는 PST 파�
   
 - 다음은 1단계에서 획득한 SAS (공유 액세스 서명) URL의 예입니다. 이 예에서는 PST 파일을 업로드하기 위해 AzCopy.exe 도구에서 실행하는 명령 구문도 포함되어 있습니다. 암호 또는 기타 보안 관련 정보를 보호하는 것처럼 주의해서 SAS URL을 보호해야 합니다.
 
-    ```text
+    ```console
     SAS URL: https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D
 
     AzCopy.exe /Source:<Location of PST files> /Dest:<SAS URL> /V:<Log file location> /Y

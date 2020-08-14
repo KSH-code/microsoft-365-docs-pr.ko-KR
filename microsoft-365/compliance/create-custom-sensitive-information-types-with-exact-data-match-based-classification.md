@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 957bde2112d5a0cf0c20bb28a8341b6f04118fc8
-ms.sourcegitcommit: cfb0c50f1366736cdf031a75f0608246b5640d93
+ms.openlocfilehash: d08589ec9465142e772c3190954ed7f93fbc68fe
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46536323"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648753"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -66,8 +66,8 @@ EDM 기반 분류가 이 구독에 포함되어 있습니다
 
 |단계  |필요한 사항  |
 |---------|---------|
-|[1단계: EDM 기반 분류 설정](#part-1-set-up-edm-based-classification)<br/><br/>(필요한 대로 수행)<br/>- [데이터베이스 스키마 편집](#editing-the-schema-for-edm-based-classification) <br/>- [스키마 제거](#removing-the-schema-for-edm-based-classification) |- 중요한 데이터에 대한 읽기 액세스 권한<br/>- .xml 형식의 데이터베이스 스키마(예제 제공)<br/>- .xml 형식의 규칙 패키지(예제 제공)<br/>- 보안 및 준수 센터에 대한 관리자 권한(Windows PowerShell 사용) |
-|[2단계: 중요한 데이터 색인화 및 업로드](#part-2-index-and-upload-the-sensitive-data)<br/><br/>(필요한 대로 수행)<br/>[데이터 새로 고침](#refreshing-your-sensitive-information-database) |- 사용자 지정 보안 그룹 및 사용자 계정<br/>- EDM 업로드 에이전트가 있는 컴퓨터에 대한 로컬 관리자 액세스 권한<br/>- 중요한 데이터에 대한 읽기 액세스 권한<br/>- 데이터를 새로 고치는 프로세스 및 일정|
+|[1단계: EDM 기반 분류 설정](#part-1-set-up-edm-based-classification)<br/><br/>(필요한 대로 수행)<br/>- [데이터베이스 스키마 편집](#editing-the-schema-for-edm-based-classification) <br/>- [스키마 제거](#removing-the-schema-for-edm-based-classification) |- 중요한 데이터에 대한 읽기 액세스 권한<br/>- XML 형식의 데이터베이스 스키마(예제 제공)<br/>- XML 형식의 규칙 패키지(예제 제공)<br/>- 보안 및 준수 센터에 대한 관리자 권한(Windows PowerShell 사용) |
+|[2 부: 중요 한 데이터를 해시하고 업로드](#part-2-hash-and-upload-the-sensitive-data)<br/><br/>(필요한 대로 수행)<br/>[데이터 새로 고침](#refreshing-your-sensitive-information-database) |- 사용자 지정 보안 그룹 및 사용자 계정<br/>- EDM 업로드 에이전트가 있는 컴퓨터에 대한 로컬 관리자 액세스 권한<br/>- 중요한 데이터에 대한 읽기 액세스 권한<br/>- 데이터를 새로 고치는 프로세스 및 일정|
 |[3단계: Microsoft 클라우드 서비스로 EDM 기반 분류 사용](#part-3-use-edm-based-classification-with-your-microsoft-cloud-services) |- DLP를 포함하는 Microsoft 365 구독<br/>- EDM 기반 분류 기능 사용 |
 
 ### <a name="part-1-set-up-edm-based-classification"></a>1단계: EDM 기반 분류 설정
@@ -83,14 +83,14 @@ EDM 기반 분류를 설정하고 구성하려면 중요한 데이터를 .csv �
 
 2. 첫 번째 행에 EDM 기반 분류에 사용한 필드의 이름이 포함되도록 .csv 파일에 중요한 데이터를 구성합니다. .csv 파일에는 "ssn", "birthdate", "firstname", "lastname" 등의 필드 이름이 있을 수 있습니다. 열 헤더는 이름에 공백이나 밑줄을 포함할 수 없습니다. 예를 들어, .csv 파일은 *PatientRecords.csv*라고 하며 해당 열에는  *PatientID*, *MRN*, *LastName*, *FirstName*, *SSN* 등이 포함되어 있습니다.
 
-3. 중요한 정보 데이터의 스키마를 .xml 형식으로 정의합니다(아래 예제와 비슷). 이 스키마 파일의 이름을  **edm.xml**로 지정하고 데이터베이스의 각 열에 구문을 사용하는 줄이 있도록 구성합니다. 
+3. 중요한 정보 데이터의 스키마를 XML 형식으로 정의합니다(아래 예제와 비슷). 이 스키마 파일의 이름을  **edm.xml**로 지정하고 데이터베이스의 각 열에 구문을 사용하는 줄이 있도록 구성합니다. 
 
       `\<Field name="" searchable=""/\>`.
 
       -  *Field name* 값에 열 이름을 사용합니다.
       - 최대 5개의 필드까지 검색할 수 있게 하려는 필드에 *searchable="true"* 를 사용합니다. 최소 하나의 필드를 검색 가능한 항목으로 지정해야 합니다.
 
-      예를 들어 다음 .xml 파일에서는 5개의 *필드(PatientID*, *MRN*, *SSN*, *Phone* 및 *DOB*)가 검색 가능으로 지정된 환자 레코드 데이터베이스의 스키마를 정의합니다.
+      예를 들어 다음 XML 파일에서는 5개의 *필드(PatientID*, *MRN*, *SSN*, *Phone* 및 *DOB*)가 검색 가능으로 지정된 환자 레코드 데이터베이스의 스키마를 정의합니다.
 
       (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.)
 
@@ -195,7 +195,7 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
 
 ### <a name="set-up-a-rule-package"></a>규칙 패키지 설정
 
-1. 다음 예제와 같이 in .xml 형식(유니코드 인코딩 사용)에 규칙 패키지를 생성하십시오. (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.)
+1. 다음 예제와 같이 in XML 형식(유니코드 인코딩 사용)에 규칙 패키지를 생성하십시오. (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.)
 
       규칙 패키지를 설정하는 경우 .csv 파일과 **edm.xml** 파일을 정확하게 참조하도록 하십시오. (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.) 이 샘플 xml에서 EDM 중요 유형을 만들려면 다음 필드를 사용자 지정해야 합니다.
 
@@ -260,7 +260,7 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
       New-DlpSensitiveInformationTypeRulePackage -FileData $rulepack
       ```
 
-이 시점에서 EDM 기반 분류를 설정합니다. 다음 단계로는 중요한 데이터를 색인화하고 색인화된 데이터를 업로드합니다.
+이 시점에서 EDM 기반 분류를 설정합니다. 다음 단계는 중요 한 데이터를 해시한 다음 인덱싱하는 해시를 업로드하는 것입니다.
 
 PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의한 이전 절차에서 *PatientID*, *MRN*, *SSN*, *Phone* 및 *DOB*를 불러오십시오. 예제 규칙 패키지에는 해당 필드가 포함되어 있으며 검색 가능한 필드당 하나의 *ExactMatch* 항목과 함께 데이터베이스 스키마 파일(**edm.xml**)을 참조합니다. 다음의 ExactMatch 항목을 고려하십시오.
 
@@ -294,9 +294,9 @@ PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의�
 > [!NOTE]
 > EDMSchema를 추가 사항으로 업데이트하는 데 10~60분이 소요될 수 있습니다. 추가 사항을 사용하는 단계를 실행하기 전에 업데이트를 완료해야 합니다.
 
-### <a name="part-2-index-and-upload-the-sensitive-data"></a>2단계: 중요한 데이터 색인화 및 업로드
+### <a name="part-2-hash-and-upload-the-sensitive-data"></a>2 부: 중요한 데이터를 해시하고 업로드
 
-이 단계에서는 사용자 지정 보안 그룹 및 사용자 계정을 설정하고 EDM 업로드 에이전트 도구를 설정합니다. 그런 다음 이 도구를 사용하여 중요한 데이터를 색인화하고 색인화된 데이터를 업로드합니다.
+이 단계에서는 사용자 지정 보안 그룹 및 사용자 계정을 설정하고 EDM 업로드 에이전트 도구를 설정합니다. 그런 다음 도구를 사용하여 중요한 데이터를 해시하고 색인화될 수 있도록 해시된 데이터를 업로드합니다.
 
 #### <a name="set-up-the-security-group-and-user-account"></a>보안 그룹 및 사용자 계정 설정
 
@@ -319,49 +319,51 @@ PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의�
 
 1. 구독에 알맞은 [EDM 업로드 에이전트](#links-to-edm-upload-agent-by-subscription-type)를 다운로드하여 설치합니다. 기본적으로 설치 위치는  **C:\\Program Files\\Microsoft\\EdmUploadAgent**여야 합니다.
 
-> [!TIP]
-> 지원되는 명령 매개 변수에 대한 목록을 얻으려면 에이전트(인수 없음)를 실행하십시오. 예를 들어 'EdmUploadAgent'가 해당됩니다.
+   > [!TIP]
+   > 지원되는 명령 매개 변수에 대한 목록을 얻으려면 에이전트(인수 없음)를 실행하십시오. 예를 들어 'EdmUploadAgent'가 해당됩니다.
 
-> [!NOTE]
-> EDMUploadAgent를 사용하여 하루에 두 번만 지정된 데이터 저장소에 데이터를 업로드할 수 있습니다.
+   > [!NOTE]
+   > EDMUploadAgent를 사용하여 하루에 두 번만 지정된 데이터 저장소에 데이터를 업로드할 수 있습니다.
 
 2. EDM 업로드 에이전트에 권한을 부여하려면 Windows 명령 프롬프트를 열고(관리자로) 다음 명령을 실행합니다.
 
-    `EdmUploadAgent.exe /Authorize`
+   `EdmUploadAgent.exe /Authorize`
 
 3. EDM_DataUploaders 보안 그룹에 추가된 Office 365의 회사 또는 학교 계정으로 로그인합니다.
 
-다음 단계로는 EDM 업로드 에이전트를 사용하여 중요한 데이터를 색인화하고 색인화된 데이터를 업로드합니다.
+다음 단계는 EDM 업로드 에이전트를 사용하여 중요한 데이터를 해시한 다음 해시된 데이터를 업로드하는 것입니다.
 
-#### <a name="index-and-upload-the-sensitive-data"></a>중요한 데이터 색인화 및 업로드
+#### <a name="hash-and-upload-the-sensitive-data"></a>중요한 데이터를 해시하고 업로드
 
 중요한 데이터 파일(여기에서 예제는 **PatientRecords.csv**임)을 컴퓨터의 로컬 드라이브에 저장합니다. (예제 **PatientRecords.csv** 파일을  **C:\\Edm\\Data**에 저장했습니다.)
 
-중요한 데이터를 색인화하고 업로드하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.
+중요 한 데이터를 해시하고 업로드하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.
 
 `EdmUploadAgent.exe /UploadData /DataStoreName \<DataStoreName\> /DataFile \<DataFilePath\> /HashLocation \<HashedFileLocation\>`
 
 예제: **EdmUploadAgent.exe /UploadData /DataStoreName PatientRecords /DataFile C:\\Edm\\Hash\\PatientRecords.csv /HashLocation C:\\Edm\\Hash**
 
-격리된 환경에서 중요한 데이터의 인덱스를 분리하고 실행하려면 인덱스를 각각 실행하고 단계를 업로드합니다.
+격리된 환경에서 중요한 데이터를 분리하고 해시하여 실행하려면 해시와 업로드 단계를 각각 실행합니다.
 
-중요한 데이터를 색인화하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.
+중요한 데이터를 해시하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.
 
 `EdmUploadAgent.exe /CreateHash /DataFile \<DataFilePath\> /HashLocation \<HashedFileLocation\>`
 
-예시:
+예를 들어,
 
 > **EdmUploadAgent.exe /CreateHash /DataFile C:\\Edm\\Data\\PatientRecords.csv /HashLocation C:\\Edm\\Hash**
 
-색인화된 데이터를 업로드하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.
+해시 된 데이터를 업로드하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.
 
 `EdmUploadAgent.exe /UploadHash /DataStoreName \<DataStoreName\> /HashFile \<HashedSourceFilePath\>`
 
-예시:
+예를 들어,
 
 > **EdmUploadAgent.exe /UploadHash /DataStoreName PatientRecords /HashFile C:\\Edm\\Hash\\PatientRecords.EdmHash**
 
-중요한 데이터가 업로드되었는지 확인하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.
+
+중요한 데이터가 업로드 되었는지 확인하려면 명령 프롬프트 창에서 다음 명령을 실행합니다.
+
 
 `EdmUploadAgent.exe /GetDataStore`
 
@@ -381,24 +383,24 @@ PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의�
 
 1. 중요한 정보 데이터베이스를 새로 고치는 빈도(매일 또는 매주)와 프로세스를 판별합니다.
 
-2. Microsoft Excel과 같은 앱에 중요한 데이터를 다시 내보내고 .csv 형식으로 파일을 저장합니다.  [중요한 데이터 색인화 및 업로드](#index-and-upload-the-sensitive-data)에 설명된 단계를 수행할 때 사용한 파일 이름과 위치를 동일하게 유지합니다.
+2. Microsoft Excel과 같은 앱에 중요한 데이터를 다시 내보내고 .csv 형식으로 파일을 저장합니다.  [해시에 설명 된 단계를 수행하고 중요한 데이터](#hash-and-upload-the-sensitive-data)를 업로드할 때 사용한 것과 동일한 파일 이름과 위치를 유지합니다.
 
       > [!NOTE]
       > .csv 파일의 구조(필드 이름)를 변경하지 않은 경우 데이터를 새로 고칠 때 데이터베이스 스키마 파일을 변경하지 않아도 됩니다. 하지만 변경해야 하는 경우 데이터베이스 스키마와 규칙 패키지를 적절하게 편집해야 합니다.
 
-3.  [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page)를 사용하여 [중요한 데이터 색인화 및 업로드](#index-and-upload-the-sensitive-data) 절차의 2단계와 3단계를 자동화합니다. 다음과 같은 여러 방법을 사용하여 작업을 예약할 수 있습니다.
+3.  [해시에서 2 단계와 3 단계를 자동화하고 중요한 데이터](#hash-and-upload-the-sensitive-data) 절차를 업로드하려면 [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page) 를 사용합니다. 다음과 같은 여러 방법을 사용하여 작업을 예약할 수 있습니다.
 
-      | **방법**             | **수행할 작업**                                                                                                                                                                                                                                                                                                                                                                                                                     |
-      | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | 메서드             | 수행할 작업 |
+      | ---------------------- | ---------------- |
       | Windows PowerShell     |  [ScheduledTasks](https://docs.microsoft.com/powershell/module/scheduledtasks/?view=win10-ps) 문서와 이 문서에 있는 [예제 PowerShell 스크립트](#example-powershell-script-for-task-scheduler)를  참고하세요. |
       | 작업 스케줄러 API     |  [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/using-the-task-scheduler) 문서를 참조하세요.                                                                                                                                                                                                                                                                                |
       | Windows 사용자 인터페이스 | Windows에서 **시작**을 클릭하고 작업 스케줄러를 입력합니다. 그런 다음 결과 목록에서 **작업 스케줄러**를 마우스 오른쪽 단추로 클릭하고 **관리자로 실행**을 선택합니다.                                                                                                                                                                                                                                                                           |
 
 #### <a name="example-powershell-script-for-task-scheduler"></a>작업 스케줄러의 예제 Windows PowerShell 스크립트
 
-이 섹션에서는 데이터를 색인화하고 색인화된 데이터를 업로드하는 작업을 예약하는 데 사용할 수 있는 예제 Windows PowerShell 스크립트가 포함되어 있습니다.
+이 섹션에는 데이터를 해시하고 해시 데이터를 업로드하는 작업을 예약하는 데 사용할 수 있는 예제 PowerShell 스크립트가 포함되어 있습니다.
 
-##### <a name="to-schedule-index-and-upload-in-a-combined-step"></a>인덱스를 예약하고 결합된 단계에 업로드하려면
+##### <a name="to-schedule-hashing-and-upload-in-a-combined-step"></a>해시를 예약하고 결합된 단계로 업로드하려면
 
 ```powershell
 param(\[string\]$dataStoreName,\[string\]$fileLocation)
@@ -430,7 +432,7 @@ $taskName = 'EDMUpload\_' + $dataStoreName
 Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $user -Password $password
 ```
 
-#### <a name="to-schedule-index-and-upload-as-separate-steps"></a>인덱스를 예약하고 별도의 단계로 업로드하려면
+#### <a name="to-schedule-hashing-and-upload-as-separate-steps"></a>해시를 예약하고 별도의 단계로 업로드하려면
 
 ```powershell
 param(\[string\]$dataStoreName,\[string\]$fileLocation)
@@ -525,4 +527,4 @@ Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $us
 - [DLP 정책 개요](data-loss-prevention-policies.md)
 - [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)
 - [New-DlpEdmSchema](https://docs.microsoft.com/powershell/module/exchange/new-dlpedmschema?view=exchange-ps)
-- [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)합니다.
+

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: ee256271b3520011db586d42e579b64b439a6210
-ms.sourcegitcommit: b812771805c8b9e92b64deb1928e265e60d80405
+ms.openlocfilehash: ff99e61c82f0427d79d8aca99acc82a338f79b8a
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46588210"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649155"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -124,6 +124,8 @@ ms.locfileid: "46588210"
   
 > [!IMPORTANT]
 > 보존 정책을 잠그기 전에 해당 정책의 영향을 이해하고 조직에서 규정 요구 사항을 충족하는 데 해당 정책이 필요한지 여부를 확인하는 것이 중요합니다. 보존 잠금이 적용된 후에는 관리자가 보존 정책을 사용하지 않도록 설정하거나 삭제할 수 없습니다.
+
+보존 잠금은 PowerShell을 사용하여 보존 정책을 만든 후 적용하는 것입니다. 지침은 [보존 정책 만들기 및 구성하기](create-retention-policies.md)에 포함되어 있습니다.
 
 #### <a name="releasing-a-retention-policy"></a>보존 정책 해제
 

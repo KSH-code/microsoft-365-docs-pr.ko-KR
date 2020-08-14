@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 문서 또는 전자 메일에 레이블을 자동으로 할당하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 8704930b6d1de9e329d892e62fb14b2c59111830
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 112857d9778cf850613c808474051eb25df74296
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560629"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656829"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>민감도 레이블을 콘텐츠에 자동으로 적용
 
@@ -54,10 +54,9 @@ ms.locfileid: "46560629"
     구성 지침은 이 페이지에서 [SharePoint, OneDrive 및 Exchange에 대한 자동 레이블 지정 정책을 구성하는 방법](#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)을 참조하세요.
     
     SharePoint 및 OneDrive에 대한 자동 레이블 지정에만 해당:
-    - Word, PowerPoint 및 Excel용 Office 파일이 지원됩니다.
+    - Word, PowerPoint 및 Excel용 Office 파일이 지원됩니다. Open XML 형식(예: .docx 및 .xlsx)은 지원되지만, Microsoft Office 97-2003 형식(예: .doc 및 .xls)은 지원되지 않습니다.
     - 테넌트에서 하루 최대 25,000개의 자동 레이블 지정 파일 수.
-    - 각 자동 레이블 정책에 대해 최대 10개 사이트 모음
-    - 테넌트 전체에서 최대 10개의 자동 레이블 정책이 있습니다.
+    - 최대 10 개의 사이트 (SharePoint 또는 OneDrive)를 대상으로 하는 테넌트 당 최대 10개의 자동 레이블 정책.
     - 시뮬레이션 모드 및 레이블 적용 시 둘 다의 경우 자동 레이블링 정책의 결과로 수정됨, 수정자 및 날짜에 대한 기존 값은 변경되지 않습니다.
     - 레이블이 암호화를 적용하는 경우 [권한 관리 발행자 및 권한 관리 소유자](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)는 민감도 레이블을 만든 사람입니다.
 
@@ -215,15 +214,15 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 
 자동 레이블 지정 정책의 워크플로:
 
-1. 자동 레이블 지정 정책 만들기 및 구성
+1. 자동 레이블 정책 만들기 및 구성
 
-2. 시뮬레이션 모드로 정책을 실행하고 최소 24시간을 기다립니다.
+2. 시뮬레이션 모드로 정책을 실행하고 24시간을 기다리거나 시뮬레이션이 완료 될 때까지 기다립니다.
 
-3. 결과를 검토하고 필요한 경우 정책을 조정한 후 시뮬레이션 모드를 다시 실행하고 최소 24시간을 기다립니다.
+3. 결과를 검토하고 필요한 경우 정책을 구체화합니다. 시뮬레이션 모드로 재실행하고 24시간을 기다리거나 시뮬레이션이 완료될 때까지 기다립니다.
 
 4. 필요한 경우 3단계를 반복합니다.
 
-5. 프로덕션에서 배포
+5. 프로덕션에서 배포.
 
 시뮬레이션된 배포는 PowerShell의 WhatIf 매개 변수처럼 실행됩니다. 사용자가 정의한 규칙을 사용하여 자동 레이블 지정 정책이 선택한 레이블을 적용한 것처럼 보고된 결과를 볼 수 있습니다. 그런 다음 필요한 경우 규칙을 조정하고 시뮬레이션을 다시 실행할 수 있습니다. 그러나 Exchange용 자동 레이블 지정은 사서함에 저장된 전자 메일이 아닌 보내고 받는 전자 메일에 적용되기 때문에, 정확히 같은 전자 메일 메시지를 보내고 받을 수 없는 한 시뮬레이션의 전자 메일에 대한 결과가 일관되길 기대하지 않습니다.
 
