@@ -9,7 +9,7 @@ ms.date: 11/14/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
@@ -17,34 +17,34 @@ ms.custom:
 - Ent_TLGs
 - seo-marvel-apr2020
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
-description: 이 테스트 랩 가이드를 사용하여 Microsoft 365 Enterprise 테스트를 위한 간단한 테스트 환경을 만듭니다.
-ms.openlocfilehash: 7a4800d374416a1e197536bc1a867d3fbc4b1243
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
-ms.translationtype: HT
+description: 이 테스트 랩 가이드를 사용 하 여 Microsoft 365 for enterprise의 테스트를 위한 간단한 테스트 환경을 만듭니다.
+ms.openlocfilehash: 5de9e44f83d4c6bbae2b4148ce39ca371ead2d34
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818756"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686781"
 ---
 # <a name="the-lightweight-base-configuration"></a>간단한 기본 구성
 
-*이 테스트 랩 가이드는 Microsoft 365 Enterprise와 Office 365 Enterprise 테스트 환경 모두에서 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 enterprise 및 Office 365 Enterprise 테스트 환경용 Microsoft 365에 모두 사용할 수 있습니다.*
 
 이 문서에서는 Microsoft 365 E5 구독 및 Windows 10 Enterprise를 실행하는 컴퓨터에서 간소화된 환경을 만드는 방법에 대한 단계별 지침을 제공합니다. 
 
 ![간단한 Microsoft 365 Enterprise 테스트 환경](../media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
 
-결과로 나타난 환경을 사용하여 [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise)의 기능을 테스트합니다.
+결과 환경을 사용 하 여 [기업에 대 한 Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise)의 기능과 기능을 테스트 합니다.
 
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
   
 > [!TIP]
-> Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인하려면 [Microsoft 365 Enterprise 테스트 랩 가이드 스택](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)을 클릭하세요.
+> 엔터프라이즈 테스트 랩 가이드 스택의 Microsoft 365에 있는 모든 문서에 대 한 시각적 지도를 보려면 [microsoft 365 for Enterprise Test Lab Guide stack](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) 을 클릭 합니다.
 
-## <a name="phase-1-create-your-office-365-e5-subscription"></a>1단계: Office 365 E5 구독 만들기
+## <a name="phase-1-create-your-microsoft-365-e5-subscription"></a>1 단계: Microsoft 365 E5 구독 만들기
 
-Office 365 E5 평가판 구독으로 시작하여 Microsoft 365 E5 구독을 추가합니다.
+Microsoft 365 E5 평가판 구독으로 시작 하 여 Microsoft 365 E5 구독을 추가 합니다.
 
-Office 365 E5 평가판 구독을 시작하려면 먼저 가상의 회사 이름 및 새 Microsoft 계정이 필요합니다.
+Microsoft 365 E5 평가판 구독을 시작하려면 먼저 가상의 회사 이름 및 새 Microsoft 계정이 필요합니다.
   
 1. 회사 이름으로 Microsoft 샘플 콘텐츠에 사용되는 가상의 회사인 Contoso의 변형을 사용하는 것이 좋지만 필수는 아닙니다. 여기에 가상의 회사 이름을 기록하세요. ![선](../media/Common-Images/TableLine.png)
     
@@ -76,7 +76,7 @@ Microsoft 365 관리 센터가 나타납니다.
 
 이 단계에서는 추가 사용자로 구독을 구성하고 Office 365 E5 라이선스를 할당합니다.
   
-[Office 365 PowerShell에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)의 지침을 사용하여 컴퓨터에서 그래프 모듈용 Azure Active Directory PowerShell을 사용하여 구독에 연결합니다.
+PowerShell을 사용 [하 여 Microsoft 365에 연결](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module) 의 지침을 사용 하 여 컴퓨터에서 Graph 모듈에 대 한 Azure Active Directory PowerShell을 사용 하 여 구독에 연결 합니다.
     
 **Windows PowerShell 자격 증명 요청** 대화 상자에서 전역 관리자 이름(예: jdoe@contosotoycompany.onmicrosoft.com)과 암호를 입력합니다.
   
@@ -151,7 +151,7 @@ Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
 
 Office 365 테스트 환경만을 필요로 하는 경우 여기에서 중단할 수 있습니다. 
 
-Office 365 및 Microsoft 365 모두에 적용되는 추가 테스트 랩 가이드는 [Microsoft 365 Enterprise 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)를 참조하세요.
+Office 365 및 Microsoft 365에 모두 적용 되는 추가 테스트 랩 가이드는 [microsoft 365 for 엔터프라이즈 테스트 랩 가이드](m365-enterprise-test-lab-guides.md) 를 참조 하세요.
   
 ## <a name="phase-3-add-a-microsoft-365-e5-trial-subscription"></a>3단계: Microsoft 365 E5 평가판 구독 추가.
 
@@ -191,7 +191,7 @@ Office 365 및 Microsoft 365 모두에 적용되는 추가 테스트 랩 가이�
 - Microsoft 365 E5 평가판 구독.
 - 모든 해당 사용자 계정(전역 관리자만 또는 5개의 사용자 계정 모두)이 Microsoft 365 E5를 사용하도록 설정됩니다.
     
-다음에서는 구성 결과, Microsoft 365 E5를 추가하는 계정, Office 365 및 EMS(Enterprise Security + Management)를 포함하는 계정을 보여줍니다.
+Microsoft 365 E5를 추가 하는 결과 구성은 다음과 같습니다.
   
 ![Microsoft 365 Enterprise 테스트 환경 3단계](../media/lightweight-base-configuration-microsoft-365-enterprise/Phase2.png)
   
@@ -294,7 +294,7 @@ Windows 10 Enterprise가 있는 실제 또는 가상 머신을 만든 후에 로
     
 다음으로 WIN10 컴퓨터에 엔터프라이즈용 Microsoft 365 앱을 설치합니다.
   
-1. Microsoft Edge 브라우저를 열고 글로벌 관리자 계정 자격 증명으로 Office 포털에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하십시오.
+1. Microsoft Edge browser를 열고 전역 관리자 계정 자격 증명을 사용 하 여 [microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
     
 2. **Microsoft Office 홈** 탭에서 **Office 설치**를 클릭합니다.
     
@@ -312,7 +312,7 @@ Windows 10 Enterprise가 있는 실제 또는 가상 머신을 만든 후에 로
 - Microsoft Intune(EMS)에서 Azure AD 장치로 등록합니다.
 - 엔터프라이즈용 Microsoft 365 앱이 설치되었습니다.
   
-이제 [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise)의 추가 기능을 사용해볼 준비가 되었습니다.
+이제 [엔터프라이즈 용 Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise)의 추가 기능을 시험해 볼 준비가 되었습니다.
   
 ## <a name="next-steps"></a>다음 단계
 
@@ -325,8 +325,8 @@ Windows 10 Enterprise가 있는 실제 또는 가상 머신을 만든 후에 로
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 Enterprise 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
+[엔터프라이증용 Microsoft 365 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
 
-[Microsoft 365 Enterprise 배포](deploy-microsoft-365-enterprise.md)
+[엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
-[Microsoft 365 Enterprise 설명서](https://docs.microsoft.com/microsoft-365-enterprise/)
+[엔터프라이즈 설명서에 대 한 Microsoft 365](https://docs.microsoft.com/microsoft-365-enterprise/)

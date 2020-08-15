@@ -9,22 +9,22 @@ ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-identity-device-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso가 IDaaS(Identity as a Service)를 활용하고 직원을 위해 클라우드 기반 인증을 제공하고, 파트너 및 고객을 위해 페더레이션 인증을 제공하는 방법을 알아봅니다.
-ms.openlocfilehash: 77c90740fd39080ccc204552bc8407aa107e354a
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
-ms.translationtype: HT
+ms.openlocfilehash: 795fb7dcb886c792c80d3bb251c9cb5774f1bf97
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633366"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686037"
 ---
 # <a name="identity-for-the-contoso-corporation"></a>Contoso Corporation의 ID
 
-Microsoft은 Azure AD(Azure Active Directory)를 사용하는 해당 클라우드 서비스에서 IDaaS(Identity as a Service)를 제공합니다. Microsoft 365 Enterprise를 채택하기 위해 Contoso의 IDaaS 솔루션은 해당 온-프레미스 ID 공급자를 활용해야 했으며, 기존의 신뢰할 수 있는 타사 ID 공급자와 함께 페더레이션 인증을 여전히 포함합니다.
+Microsoft은 Azure AD(Azure Active Directory)를 사용하는 해당 클라우드 서비스에서 IDaaS(Identity as a Service)를 제공합니다. Microsoft 365 for enterprise를 채택 하기 위해 Contoso의 IDaaS 솔루션은 온-프레미스 id 공급자를 활용 하 고 기존의 신뢰할 수 있는 타사 id 공급자와 페더레이션 인증을 포함 해야 했습니다.
 
 ## <a name="contosos-active-directory-domain-services-forest"></a>Contoso의 Active Directory Domain Services 포리스트
 
@@ -55,7 +55,7 @@ Contoso는 이 인프라를 유지하고 고객 및 파트너 인증에만 사�
 
 Contoso는 Microsoft 365 클라우드 리소스에서 인증을 받기 위해 온-프레미스 AD DS 포리스트를 활용하려고 했습니다. 따라서 PHS(암호 해시 동기화)를 사용하기로 결정했습니다.
 
-PHS는 온-프레미스 AD DS 포리스트를 해당 Microsoft 365 Enterprise 구독의 Azure AD 테넌트와 동기화하고, 사용자 및 그룹 계정과 사용자 계정 암호의 해시된 버전을 복사합니다. 
+PHS는 온-프레미스 AD DS 포리스트와 엔터프라이즈 구독에 대 한 Microsoft 365의 Azure AD 테 넌 트를 동기화 하 고 사용자 및 그룹 계정 및 해시 버전의 사용자 계정 암호를 복사 합니다. 
 
 지속적인 디렉터리 동기화를 수행하기 위해 Contoso는 파리 데이터 센터에 있는 서버에 Azure AD Connect 도구를 배포했습니다. 
 
@@ -81,8 +81,8 @@ Contoso가 해당 Microsoft Endpoint Configuration Manager 인프라를 활용�
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 Enterprise의 ID](identity-infrastructure.md)
+[Microsoft 365에 대 한 id 로드맵](identity-roadmap-microsoft-365.md)
 
-[배포 가이드](deploy-microsoft-365-enterprise.md)
+[엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
 [테스트 랩 가이드](m365-enterprise-test-lab-guides.md)

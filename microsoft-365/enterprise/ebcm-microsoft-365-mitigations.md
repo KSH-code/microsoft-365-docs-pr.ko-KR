@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 엔터프라이즈 비즈니스 연속성 관리 완화
+title: 엔터프라이즈 비즈니스 연속성 관리 완화를 위한 Microsoft 365
 author: chrfox
 f1.keywords:
 - NOCSH
@@ -9,18 +9,18 @@ ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 서비스 인시던트 시나리오에 대한 몇 가지 샘플 완화
-ms.openlocfilehash: e5313464a45be679eaee6c4d06ca000e63c1010c
-ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
-ms.translationtype: HT
+ms.openlocfilehash: 71f2aade674d1d3f2ba95701f9d8113a8b57afeb
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086636"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686049"
 ---
 # <a name="service-incident-mitigation-strategies"></a>서비스 인시던트 완화 전략
 

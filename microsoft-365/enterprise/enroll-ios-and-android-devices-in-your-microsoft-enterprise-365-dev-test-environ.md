@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Enterprise 테스트 환경에서 iOS 및 Android 장치 등록
+title: Microsoft 365에서 엔터프라이즈 테스트 환경용 iOS 및 Android 장치 등록
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,25 +14,25 @@ ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 49c7758a-1c01-4153-9b63-5eae3f6305ce
 description: 이 테스트 랩 가이드를 사용 하 여 Microsoft 365 테스트 환경에서 장치를 등록 하 고 원격으로 관리 합니다.
-ms.openlocfilehash: ae6ff9e704fc239638b5951a95ae23c45e85b7be
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b4a95b2c7e58239c0a8d0d3b5045e7337f43de6b
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067655"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686013"
 ---
-# <a name="enroll-ios-and-android-devices-in-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에서 iOS 및 Android 장치 등록
+# <a name="enroll-ios-and-android-devices-in-your-microsoft-365-for-enterprise-test-environment"></a>Microsoft 365에서 엔터프라이즈 테스트 환경용 iOS 및 Android 장치 등록
 
-*이 테스트 랩 가이드는 Microsoft 365 Enterprise 테스트 환경에만 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 엔터프라이즈 테스트 환경용 Microsoft 365에만 사용할 수 있습니다.*
 
-이 문서에 나와 있는 지침을 수행 하 여 Microsoft 365 Enterprise 테스트 환경에서 iOS 및 Android 장치에 대 한 기본 모바일 장치 관리 기능을 등록 하 고 테스트할 수 있습니다.
+이 문서에서 설명 하는 지침에 따라 Microsoft 365 for enterprise test environment에서 iOS 및 Android 장치에 대 한 기본 모바일 장치 관리 기능을 등록 하 고 테스트할 수 있습니다.
 
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
   
 > [!TIP]
 > [여기](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
 
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>1단계: Microsoft 365 Enterprise 테스트 환경 구축
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>1 단계: 엔터프라이즈 테스트 환경용 Microsoft 365 구축
 
 최소 요구 사항에 따라 간단한 방식으로 iOS 및 Android 장치를 등록 하려는 경우에는 [간단한 기본 구성](lightweight-base-configuration-microsoft-365-enterprise.md)의 지침을 따릅니다.
   
@@ -56,7 +56,7 @@ Microsoft Intune에서는 원격 잠금 및 암호 초기화 기능을 모두 �
   
 원격으로 iOS 또는 Android 장치를 잠그려면:
 
-1. 전역 관리자 계정의 자격 증명을 [https://portal.azure.com](https://portal.azure.com) 사용 하 여 Azure portal에 로그인 합니다.
+1. 전역 관리자 계정의 자격 증명을 사용 하 여 Azure portal에 로그인 [https://portal.azure.com](https://portal.azure.com) 합니다.
 2. 브라우저의 Azure portal 탭에 있는 검색 상자에 **intune** 을 입력 한 다음 **intune**을 클릭 합니다.
 3. **모든 장치 > 장치**를 클릭 합니다.
 4. 장치 목록에서 iOS 또는 Android 장치를 클릭 한 다음 **원격 잠금** 작업을 클릭 합니다.
@@ -64,7 +64,7 @@ Microsoft Intune에서는 원격 잠금 및 암호 초기화 기능을 모두 �
     
 원격으로 암호를 초기화하려면:
 
-1. 필요한 경우 전역 관리자 계정의 자격 증명을 [https://portal.azure.com](https://portal.azure.com) 사용 하 여 Azure portal에 로그인 합니다.
+1. 필요한 경우 [https://portal.azure.com](https://portal.azure.com) 전역 관리자 계정의 자격 증명을 사용 하 여 Azure portal에 로그인 합니다.
 2. 브라우저의 Azure portal 탭에 있는 검색 상자에 **intune** 을 입력 한 다음 **intune**을 클릭 합니다.
 3. **모든 장치 > 장치**를 클릭 합니다.
 4. 관리 하는 장치 목록에서 iOS 또는 Android 장치를 클릭 하 고 ...를 선택 **합니다. 자세히** 그런 다음 암호 장치 원격 작업 **제거** 를 선택 합니다.
@@ -78,9 +78,9 @@ Microsoft Intune에서는 원격 잠금 및 암호 초기화 기능을 모두 �
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 Enterprise 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
+[엔터프라이증용 Microsoft 365 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
   
-[Microsoft 365 Enterprise 테스트 환경에 대 한 장치 준수 정책](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
+[엔터프라이즈 테스트 환경용 Microsoft 365에 대 한 장치 준수 정책](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
   
-[Microsoft 365 Enterprise 배포](deploy-microsoft-365-enterprise.md)
+[엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 

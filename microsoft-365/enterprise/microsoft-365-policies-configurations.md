@@ -1,5 +1,5 @@
 ---
-title: Id 및 장치 액세스 구성-Microsoft 365 Enterprise
+title: Id 및 장치 액세스 구성-Microsoft 365 for enterprise
 description: 보안 전자 메일, 문서 및 앱 정책 및 구성을 배포 하기 위한 Microsoft 권장 사항 및 핵심 개념에 대해 설명 합니다.
 author: brendacarter
 manager: laurawi
@@ -17,12 +17,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: 1a16fa9a26ab20065d213857614b06fdde6c0af1
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: f39b5d72de630674ea6d58c30eadf211917de10d
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530274"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686629"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
@@ -87,7 +87,7 @@ Enterprise Mobility + Security E5 라이선스가 없는 조직의 경우에는 
 
 ## <a name="services-and-concepts-for-identity-and-device-access-protection"></a>Id 및 장치 액세스 보호에 대 한 서비스 및 개념
 
-Microsoft 365 Enterprise는 대규모 조직을 위해 설계 되었으며 Office 365 Enterprise, Windows 10 Enterprise 및 EMS (Enterprise Mobility + Security)를 통합 하 여 모든 사용자가 창의적인 작업을 수행 하 고 안전 하 게 함께 작업할 수 있도록 합니다.
+엔터프라이즈에 대 한 Microsoft 365는 대규모 조직을 위해 설계 되었으며 Office 365 Enterprise, Windows 10 Enterprise 및 EMS (Enterprise Mobility + Security)를 통합 하 여 모든 사용자가 창의적인 작업을 수행 하 고 안전 하 게 함께 작업할 수 있도록 합니다.
 
 이 섹션에서는 id 및 장치 액세스에 중요 한 Microsoft 365 서비스 및 기능에 대 한 개요를 제공 합니다.
 

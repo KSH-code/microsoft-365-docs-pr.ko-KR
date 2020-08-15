@@ -9,18 +9,18 @@ ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 클라우드 인식 비즈니스 연속성 계획을 개발할 때 고려해야 할 사항.
-ms.openlocfilehash: 35aa5fb74b8281a089ef0b58998cd297507cc46f
-ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
-ms.translationtype: HT
+ms.openlocfilehash: 2292beb252aab9656d76b61d26769a8d449f56d4
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083515"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686001"
 ---
 # <a name="developing-your-continuity-plan"></a>연속성 계획 개발
 

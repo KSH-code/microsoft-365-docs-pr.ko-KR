@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Enterprise 테스트 환경에 대 한 라이선싱 및 그룹 구성원을 자동화 합니다.
+title: 엔터프라이즈 테스트 환경용 Microsoft 365에 대 한 라이선싱 및 그룹 멤버 자격 자동화
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,23 +14,23 @@ ms.collection: M365-identity-device-management
 ms.custom:
 - TLG
 - Ent_TLGs
-description: Microsoft 365 Enterprise 테스트 환경에서 그룹 기반 라이선싱 및 동적 그룹 구성원을 구성 합니다.
-ms.openlocfilehash: 266ae8cb133eccf74ea75382b400ca8241782ec5
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Microsoft 365에서 엔터프라이즈 테스트 환경용으로 그룹 기반 라이선싱 및 동적 그룹 구성원을 구성 합니다.
+ms.openlocfilehash: a25a47b81ce8c119e7aeb44660af32bb9cafb08a
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068505"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685561"
 ---
-# <a name="automate-licensing-and-group-membership-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대 한 라이선싱 및 그룹 구성원을 자동화 합니다.
+# <a name="automate-licensing-and-group-membership-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경용 Microsoft 365에 대 한 라이선싱 및 그룹 멤버 자격 자동화
 
-*이 테스트 랩 가이드는 Microsoft 365 Enterprise 테스트 환경에만 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 엔터프라이즈 테스트 환경용 Microsoft 365에만 사용할 수 있습니다.*
 
-그룹 기반 라이선스는 그룹 구성원을 기반으로 사용자 계정에 대 한 라이선스를 자동으로 할당 하거나 제거 합니다. 동적 그룹 구성원 자격은 사용자 계정 속성 (예: 부서 또는 국가)을 기반으로 그룹에 구성원을 추가 하거나 제거 합니다. 이 문서에서는 Microsoft 365 Enterprise 테스트 환경 모두에 대 한 데모를 안내 합니다.
+그룹 기반 라이선스는 그룹 구성원을 기반으로 사용자 계정에 대 한 라이선스를 자동으로 할당 하거나 제거 합니다. 동적 그룹 구성원 자격은 사용자 계정 속성 (예: 부서 또는 국가)을 기반으로 그룹에 구성원을 추가 하거나 제거 합니다. 이 문서에서는 엔터프라이즈 테스트 환경용 Microsoft 365에 대 한 데모를 단계별로 안내 합니다.
 
-Microsoft 365 Enterprise 테스트 환경에서 자동 라이선싱 및 동적 그룹 멤버 자격을 설정 하는 두 가지 단계가 있습니다.
+엔터프라이즈 테스트 환경용 Microsoft 365에서 자동 라이선싱 및 동적 그룹 멤버 자격을 설정 하는 두 가지 단계가 있습니다.
 
-1. Microsoft 365 Enterprise 테스트 환경을 만듭니다.
+1. 엔터프라이즈 테스트 환경용 Microsoft 365을 만듭니다.
 2. 동적 그룹 구성원 자격 및 자동 라이선스를 구성 하 고 테스트 합니다.
 
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
@@ -38,7 +38,7 @@ Microsoft 365 Enterprise 테스트 환경에서 자동 라이선싱 및 동적 �
 > [!TIP]
 > [여기](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
   
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>1단계: Microsoft 365 Enterprise 테스트 환경 구축
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>1 단계: 엔터프라이즈 테스트 환경용 Microsoft 365 구축
 
 최소 요구 사항에 따라 간단한 방법으로 자동 라이선싱 및 그룹 구성원을 테스트 하려는 경우에는 [간단한 기본 구성](lightweight-base-configuration-microsoft-365-enterprise.md)의 지침을 따릅니다.
   
@@ -51,11 +51,11 @@ Microsoft 365 Enterprise 테스트 환경에서 자동 라이선싱 및 동적 �
 
 먼저 새 Sales 그룹을 만들고 부서가 Sales로 설정 된 사용자 계정이 Sales 그룹에 자동으로 추가 되도록 동적 그룹 구성원 규칙을 추가 합니다.
 
-1. 인터넷 브라우저의 개인 인스턴스를 사용 하 여 Microsoft 365 E5 테스트 랩 구독의 전역 관리자 [https://portal.office.com](https://portal.office.com) 계정으로 Office 365 포털에 로그인 합니다.
-2. 브라우저의 별도 탭에서 Azure portal ()로 이동 [https://portal.azure.com](https://portal.azure.com)합니다.
+1. 인터넷 브라우저의 개인 인스턴스를 사용 하 여 microsoft 365 E5 테스트 랩 구독의 전역 관리자 계정으로 [microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
+2. 브라우저의 별도 탭에서 Azure portal ()로 이동 [https://portal.azure.com](https://portal.azure.com) 합니다.
 3. Azure portal에서 검색 상자에 **그룹** 을 입력 하 고 **그룹**을 클릭 합니다.
 4. **모든 그룹** 창에서 **새 그룹**을 클릭 합니다.
-5. **그룹 유형에**서 **Office 365**을 선택 합니다.
+5. **그룹 유형에**서 **Microsoft 365**을 선택 합니다.
 6. **그룹 이름**에 **Sales**를 입력 합니다.
 7. **멤버 자격 유형에**서 **동적 사용자**를 선택 합니다.
 8. **동적 사용자 구성원**을 클릭 합니다.
@@ -90,10 +90,10 @@ Microsoft 365 Enterprise 테스트 환경에서 자동 라이선싱 및 동적 �
 - **Sales** 그룹으로 업데이트 된 **그룹 멤버 자격** 속성
 - **Microsoft 365 E5** 라이선스로 **제품 라이선스** 속성을 업데이트 했습니다.
 
-프로덕션 환경에서 동적 그룹 구성원 자격 및 자동 라이선싱을 배포 하는 방법에 대 한 자세한 내용과 링크는 Identity 단계에서 다음 단계를 참조 하세요.
+다음 문서를 참조 하 여 프로덕션 환경에서 동적 그룹 구성원 자격 및 자동 라이선싱을 배포 합니다.
 
-- [자동 라이선싱 설정](identity-use-group-management.md#identity-group-license)
-- [동적 그룹 구성원 설정](identity-use-group-management.md#identity-dyn-groups)
+- 링크 TBD
+- 링크 TBD
 
 ## <a name="next-step"></a>다음 단계
 
@@ -101,10 +101,10 @@ Microsoft 365 Enterprise 테스트 환경에서 자동 라이선싱 및 동적 �
 
 ## <a name="see-also"></a>참고 항목
 
-[2단계: ID](identity-infrastructure.md)
+[Id 로드맵](identity-roadmap-microsoft-365.md)
 
-[Microsoft 365 Enterprise 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
+[엔터프라이증용 Microsoft 365 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
 
-[Microsoft 365 Enterprise 배포](deploy-microsoft-365-enterprise.md)
+[엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
-[Microsoft 365 Enterprise 설명서](https://docs.microsoft.com/microsoft-365-enterprise/)
+[엔터프라이즈 설명서에 대 한 Microsoft 365](https://docs.microsoft.com/microsoft-365-enterprise/)

@@ -9,22 +9,22 @@ ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 어떻게 Contoso에서 Microsoft Endpoint Configuration Manager를 사용하여 Windows 10 Enterprise의 현재 위치에서 업그레이드를 배포했는지를 이해합니다.
-ms.openlocfilehash: c66be4ad5ee383301c4fb10cf2590f7cbbed033f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
-ms.translationtype: HT
+ms.openlocfilehash: a100eb07408053fd270c26f388265696549fff9f
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630684"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686421"
 ---
 # <a name="windows-10-enterprise-deployment-for-contoso"></a>Contoso의 Windows 10 Enterprise 배포
 
-Microsoft 365 Enterprise의 광범위한 출시 전에, Contoso는 Windows 7(10%), Windows 8.1(65%) 및 Windows 10(25%)이 실행되는 Windows 호환 PC 및 장치를 보유했습니다. Contoso는 자동화된 업데이트 배포를 통해 보안을 향상시키고 IT 오버헤드를 낮추기 위해 Windows 10 Enterprise용 PC를 업그레이드하기를 원했습니다. 
+기업에 대 한 Microsoft 365을 광범위 하 게 출시 하기 전에 Contoso는 windows와 호환 되는 Pc 및 장치 (10%, Windows 8.1 (65%) 및 Windows 10 (25%)를 함께 사용 하 고 있습니다. Contoso는 Windows 10 Enterprise 용 Pc를 업그레이드 하기 위해 고급 보안을 활용 하 고 자동화 된 업데이트 배포에서 IT 오버 헤드를 절감 하려고 했습니다. 
 
 Contoso는 해당 인프라 및 비즈니스 요구를 파악한 후 다음과 같은 핵심 배포 요구 사항을 확인했습니다.
 
@@ -95,8 +95,8 @@ Contoso가 해당 구성 관리자 인프라를 활용하여 전사적으로 최
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 Enterprise용 Windows 10 Enterprise](windows10-infrastructure.md)
+[Windows 10 Enterprise](https://docs.microsoft.com/windows/deployment/)
 
-[배포 가이드](deploy-microsoft-365-enterprise.md)
+[엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
 [테스트 랩 가이드](m365-enterprise-test-lab-guides.md)

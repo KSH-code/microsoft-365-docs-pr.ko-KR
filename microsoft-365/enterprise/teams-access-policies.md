@@ -1,5 +1,5 @@
 ---
-title: 권장 팀 정책-Microsoft 365 Enterprise | Microsoft Docs
+title: 권장 팀 정책-Microsoft 365 for enterprise | Microsoft Docs
 description: 팀 통신과 파일 액세스를 보호 하는 방법에 대 한 Microsoft 권장 사항에 대 한 정책에 대해 설명 합니다.
 author: MicrosoftHeidi
 manager: serdars
@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: f1a4a4ea69efc3c68bdc8ed66aa18833a28feb94
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 41ead64a7a94dcd5afb22a311d7637326949fc7c
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636726"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685657"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>팀 대화방, 그룹 및 파일을 보호 하기 위한 정책 권장 사항
 
@@ -58,11 +58,11 @@ Microsoft 팀을 시작 하기 위해 종속 서비스를 사용 하도록 설�
 
 이 표에서는 모든 Office 응용 프로그램에 대해 더 광범위 한 규칙 집합이 포함 된 [일반 id 및 장치 액세스 정책의](identity-access-policies.md)각 정책에 대 한 링크 및 다시 확인 해야 하는 정책을 보여 줍니다.
 
-|보호 수준|정책도|팀 구현에 대 한 추가 정보|
+|보호 수준|정책|팀 구현에 대 한 추가 정보|
 |:---------------|:-------|:----------------|
-|**기준선**|[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|팀 및 종속 서비스가 앱 목록에 포함 되어 있어야 합니다. 팀에서 게스트 액세스 및 외부 액세스 규칙을 고려해 야 하는 경우이 문서의 뒷부분에 나오는 이러한 항목에 대해 자세히 알아볼 수 있습니다.|
+|**기준**|[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|팀 및 종속 서비스가 앱 목록에 포함 되어 있어야 합니다. 팀에서 게스트 액세스 및 외부 액세스 규칙을 고려해 야 하는 경우이 문서의 뒷부분에 나오는 이러한 항목에 대해 자세히 알아볼 수 있습니다.|
 |        |[최신 인증을 지원하지 않는 클라이언트 차단](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|클라우드 앱 할당에 팀 및 종속 서비스를 포함 합니다.|
-|        |[높은 위험 사용자가 암호를 변경 해야 함](identity-access-policies.md#high-risk-users-must-change-password)|계정에 대해 높은 위험 활동이 검색 되는 경우 팀 사용자가 로그인 할 때 암호를 변경 하도록 강제 적용 합니다. 팀 및 종속 서비스가 앱 목록에 포함 되어 있어야 합니다.|
+|        |[위험이 높은 사용자는 암호를 변경해야 함](identity-access-policies.md#high-risk-users-must-change-password)|계정에 대해 높은 위험 활동이 검색 되는 경우 팀 사용자가 로그인 할 때 암호를 변경 하도록 강제 적용 합니다. 팀 및 종속 서비스가 앱 목록에 포함 되어 있어야 합니다.|
 |        |[앱 데이터 보호 정책 적용](identity-access-policies.md#apply-app-data-protection-policies)|팀 및 종속 서비스가 앱 목록에 포함 되어 있어야 합니다. 각 플랫폼 (iOS, Android, Windows)에 대 한 정책을 업데이트 합니다.|
 |        |[승인 된 앱 및 앱 보호 필요](identity-access-policies.md#require-approved-apps-and-app-protection)|이 정책에 팀 및 종속 서비스를 포함 합니다.|
 |        |[장치 준수 정책 정의](identity-access-policies.md#define-device-compliance-policies)|이 정책에 팀 및 종속 서비스를 포함 합니다.|
@@ -74,7 +74,7 @@ Microsoft 팀을 시작 하기 위해 종속 서비스를 사용 하도록 설�
 
 ## <a name="teams-dependent-services-architecture"></a>팀 종속 서비스 아키텍처
 
-참조용으로 다음 다이어그램에는 서비스 팀이 의존 하는 것이 나와 있습니다. 자세한 내용 및 추가 그림은 [IT 설계자 용 microsoft 365의 Microsoft 팀 및 관련 생산성 서비스](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects)를 참조 하세요.
+참조용으로 다음 다이어그램에는 서비스 팀이 의존 하는 것이 나와 있습니다. 자세한 내용 및 추가 그림은 [IT 설계자 용 microsoft 365의 Microsoft 팀 및 관련 생산성 서비스](../solutions/productivity-illustrations.md)를 참조 하세요.
 
 ![SharePoint Online, 비즈니스용 OneDrive 및 Exchange에 대 한 팀 종속성을 보여 주는 다이어그램입니다.](../media/identity-access-logical-architecture-teams.png)
 

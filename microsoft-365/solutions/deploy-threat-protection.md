@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365에서 위협 보호 기능 배포
-description: Microsoft 365 E5에서 위협 보호 서비스 및 기능을 배포 하는 방법을 알아봅니다.
+title: Microsoft 365에서 네트워크 보안 위협 방지 배포
+description: Microsoft 365 E5에서 threat protection services 및 IT 네트워크 보안 기능을 배포 하는 방법을 알아봅니다.
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -14,18 +14,19 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 312df25bf4fe2b91bb60b4122378b4457b25723c
-ms.sourcegitcommit: b812771805c8b9e92b64deb1928e265e60d80405
+ms.openlocfilehash: 0736151f1ceacecb888c8a3eb3dd88183cc3a060
+ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46588187"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662323"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365"></a>Microsoft 365에서 위협 보호 기능 배포
 
-[맬웨어](https://docs.microsoft.com/windows/security/threat-protection/intelligence/understanding-malware)및 [fileless 위협과](https://docs.microsoft.com/windows/security/threat-protection/intelligence/fileless-threats)같은 복잡 한 고 사이버 공격 일반적으로 발생 합니다. 기업은 자신과 고객을 보호 해야 합니다. 사이버 보안 공격은 금융 woes에 대 한 신뢰 손실, 비즈니스 위협 방지 및 기타를 통해 조직에 대 한 주요 문제를 발생 시킬 수 있습니다. 위협 으로부터 보호 하는 것은 중요 하지만 조직의 시간, 노력 및 리소스에 집중할 위치를 결정 하는 것은 어려울 수 있습니다. 
+[맬웨어](https://docs.microsoft.com/windows/security/threat-protection/intelligence/understanding-malware)및 [fileless 위협과](https://docs.microsoft.com/windows/security/threat-protection/intelligence/fileless-threats)같은 복잡 한 고 사이버 공격 일반적으로 발생 합니다. 기업에서는 자신 및 고객을 효과적인 IT 네트워크 보안 기능으로 보호 해야 합니다. 이러한 공격은 금융 woes에 대 한 신뢰 손실, 비즈니스 침입 중단 시간 등 조직에 대 한 주요 문제를 발생 시킬 수 있습니다. 위협 으로부터 보호 하는 것은 중요 하지만 조직의 시간, 노력 및 리소스에 집중할 위치를 결정 하는 것은 어려울 수 있습니다. 
 
-Microsoft 보안 솔루션은 제품 및 서비스에 기본적으로 제공 됩니다. 자동화 및 기계 학습 기능을 통해 적절 한 항목의 주소가 지정 되도록 보안 팀의 부하를 줄일 수 있습니다. Microsoft 보안 솔루션의 장점은 [지능형 보안 그래프](https://cloud-platform-assets.azurewebsites.net/intelligent-security-graph)에서 매일 처리 되는 신호의 trillions를 기반으로 작성 됩니다. Microsoft 365 보안 솔루션에는 전자 메일, 데이터, 장치 및 id에 대 한 신호를 함께 제공 하 여 조직에 대 한 고급 위협 요소를 칠하는 [Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)이 포함 되어 있습니다.
+Microsoft 보안 솔루션은 제품 및 서비스에 기본적으로 제공 됩니다. 자동화 및 기계 학습 기능을 통해 적절 한 항목의 주소가 지정 되도록 보안 팀의 부하를 줄일 수 있습니다. Microsoft 네트워크 보안 솔루션의 장점은 [지능형 보안 그래프](https://cloud-platform-assets.azurewebsites.net/intelligent-security-graph)에서 매일 처리 되는 신호의 trillions를 기반으로 구축 됩니다. Microsoft 365 보안 솔루션에는 전자 메일, 데이터, 장치 및 id에 신호를 함께 제공 하 여 조직에 대 한 고급 위협 요소를 칠하는 솔루션 인 [Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)이 포함 되어 있습니다.
+
 
 배포 프로세스에 대 한 개요를 보려면이 비디오를 시청 하세요.
 
@@ -73,7 +74,7 @@ Advanced threat protection 기능을 배포 하는 즉시 Microsoft Threat Prote
 7. [상태 모니터링 및 작업 수행](deploy-threat-protection-configure.md#step-7-monitor-status-and-take-actions)
 8. [사용자 교육](deploy-threat-protection-configure.md#step-8-train-users)
 
-위협 방지 기능은 동시에 구성할 수 있으므로 서로 다른 서비스를 담당 하는 여러 보안 팀이 있는 경우에는 동시에 조직의 보호 기능을 구성할 수 있습니다. 다음 다이어그램에서는 위협 방지 기능을 배포 하기 위한 높은 수준의 프로세스를 보여 줍니다. 
+위협 방지 기능은 동시에 구성할 수 있으므로 서로 다른 서비스를 담당 하는 여러 네트워크 보안 팀이 있는 경우에는 동시에 조직의 보호 기능을 구성할 수 있습니다. 다음 다이어그램에서는 위협 방지 기능을 배포 하기 위한 높은 수준의 프로세스를 보여 줍니다. 
 
 ![위협 보호 기능 배포 프로세스](../media/solutions-architecture-center/deploy-threat-protection-across-m365-grid.png) 
 

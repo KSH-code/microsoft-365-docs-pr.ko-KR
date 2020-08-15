@@ -1,5 +1,5 @@
 ---
-title: 보안 메일 권장 정책 - Microsoft 365 Enterprise | Microsoft Docs
+title: 보안 전자 메일 권장 정책-엔터프라이즈에 대 한 Microsoft 365 | Microsoft Docs
 description: 메일 정책과 구성을 적용하는 방법에 관한 Microsoft 권장 정책을 설명합니다.
 author: brendacarter
 manager: laurawi
@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: c2eabd160cf221f7e2bb7b81f07c205135476cc9
-ms.sourcegitcommit: d6b641d0ef92f4176da9f4a98d3d5aa3d4f2e184
+ms.openlocfilehash: 39e7be86c06a471a4eefc0cacd3657c363eddae6
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46617177"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685609"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>메일을 보호하기 위한 정책 권장 사항
 

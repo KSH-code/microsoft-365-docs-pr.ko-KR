@@ -1,5 +1,5 @@
 ---
-title: Contoso Corporation의 Microsoft 365 Enterprise
+title: Contoso Corporation에 대 한 엔터프라이즈에 대 한 Microsoft 365
 author: JoeDavies-MSFT
 f1.keywords:
 - NOCSH
@@ -9,26 +9,26 @@ ms.date: 06/17/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_O365_Enterprise
 - M365-subscription-management
 ms.custom: ''
-description: 대표적인 가상 글로벌 조직이 Microsoft 365 Enterprise를 채택한 방법
-ms.openlocfilehash: dd9bf2dcb7a8bff453746a0084faaf69650bf6fd
-ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
-ms.translationtype: HT
+description: 가상의 대표적인 글로벌 조직이 엔터프라이즈에 대해 Microsoft 365을 채택한 방법입니다.
+ms.openlocfilehash: fe9003531ada50374c0447c9b05a99798f883e47
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854261"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685989"
 ---
-# <a name="microsoft-365-enterprise-for-the-contoso-corporation"></a>Contoso Corporation의 Microsoft 365 Enterprise
+# <a name="microsoft-365-for-enterprise-for-the-contoso-corporation"></a>Contoso Corporation에 대 한 엔터프라이즈에 대 한 Microsoft 365
 
-Microsoft 365 Enterprise는 로컬 및 클라우드 기반 생산성 응용 프로그램 및 서비스를 Windows 10 Enterprise 및 고급 보안 기능과 결합하여 모든 사람이 창의적이고 안전하게 공동 작업할 수있는 지능형 솔루션으로 통합 된 Microsoft의 최고의 클라우드 서비스입니다. 
+엔터프라이즈에 대 한 microsoft 365는 Windows 10 Enterprise 및 고급 보안 기능과 함께 로컬 및 클라우드 기반 생산성 앱 및 서비스를 모든 사람이 완벽 하 게 사용할 수 있도록 하는 완전 한 지능형 솔루션으로 결합 된 Microsoft의 프리미어 클라우드 제품입니다. 
 
-Contoso Corporation는 프랑스, 파리에 본사가 있는 가상의 대표적 글로벌 제조 대기업입니다. Contoso는 Microsoft 365 Enterprise를 배포했으며 네트워킹, ID, Windows 10 Enterprise, Microsoft Office 365 ProPlus, 모바일 장치 관리, 정보 보호 및 보안에 대한 중요 디자인 결정 및 구현 세부 사항을 진행하고 있습니다. 
+Contoso Corporation은 파리, 프랑스에 본사로 사용 되는 가상의 대표 글로벌 제조입니다. Contoso는 기업에 대해 Microsoft 365을 배포 했으며 네트워킹, id, Windows 10 Enterprise, Microsoft 365 Apps for enterprise, 모바일 장치 관리, 정보 보호 및 보안에 대 한 주요 디자인 결정 사항 및 구현 정보를 해결 했습니다. 
 
-Microsoft 365 Enterprise에 대한 Contoso의 전반적인 목표는 클라우드 서비스를 사용하여 직원, 파트너 및 프로세스를 통합함으로써 디지털 혁신을 가속화하여 디지털 우선 세계에서 고객 가치를 창출하고 경쟁적 우위를 점유하는 것입니다.
+엔터프라이즈에 대 한 Microsoft 365 for Contoso의 전반적인 목표는 클라우드 서비스를 사용 하 여 직원, 파트너, 데이터 및 프로세스를 함께 통해 고객 가치를 제공 하 고, 디지털 최초 세계에서 경쟁 우위를 유지 관리 하는 것입니다.
 
 자세한 내용을 보려면 다음 문서를 참조하세요.
 
@@ -62,11 +62,11 @@ Microsoft 365 Enterprise에 대한 Contoso의 전반적인 목표는 클라우�
 
 - [정보 보호](contoso-info-protect.md)
 
-  일반 및 고가치 데이터를 식별하고, 레이블을 지정하고 보안 계층에 따라 관리하기 위해 Contoso는 Microsoft 365 Enterprise 정보 보호 기능으로 해당 데이터 보안 정책을 실행합니다.
+  공통 및 높은 가치 데이터를 식별 하 고 레이블을 지정 하 고 보안 계층에 따라 Contoso에서 기업 정보 보호를 위해 Microsoft 365을 사용 하 여 데이터 보안 정책을 적용 합니다.
 
-- [Microsoft 365 엔터프라이즈 보안 요약](contoso-security-summary.md)
+- [엔터프라이즈 보안용 Microsoft 365 요약](contoso-security-summary.md)
 
-  Contoso는 ID 및 액세스 관리, 위협 방지, 정보 보호 및 보안 관리를 위해 Microsoft 365 Enterprise의 전체 보안 기능을 사용합니다.
+  Contoso는 id 및 액세스 관리, 위협 방지, 정보 보호 및 보안 관리를 위해 Microsoft 365의 전체 엔터프라이즈 보안 기능을 사용 합니다.
 
 - [극비 프로젝트를 위한 팀](../solutions/contoso-team-for-top-secret-project.md)
 
@@ -78,12 +78,12 @@ Microsoft 365 Enterprise에 대한 Contoso의 전반적인 목표는 클라우�
 
 ## <a name="next-step"></a>다음 단계
 
-Contoso Corporation, 전 세계 사무소 및 Microsoft 365 Enterprise 배포 시 제기된 디자인 고려 사항에 대해 [알아봅니다](contoso-overview.md).
+Contoso Corporation, 전 세계 사무소 및 Microsoft에 엔터프라이즈를 위한 365를 배포할 때 제기 된 디자인 고려 사항에 [대해 알아봅니다](contoso-overview.md) .
 
 
 ## <a name="see-also"></a>참고 항목
 
-[배포 가이드](deploy-microsoft-365-enterprise.md)
+[엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
 [테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
 

@@ -9,7 +9,7 @@ ms.date: 05/26/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-identity-device-management
 - Strat_O365_Enterprise
@@ -19,16 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 및 로그인을 구성하고 보여 줍니다.'
-ms.openlocfilehash: 2d5fbd3ed2a2afb994fc36f5ba3a15a8c55a274e
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
-ms.translationtype: HT
+ms.openlocfilehash: 2930d147e2ae3277b0af4d2aa81a602c73128439
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819391"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686551"
 ---
 # <a name="password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 해시 동기화
 
-*이 테스트 랩 가이드는 Microsoft 365 Enterprise와 Office 365 Enterprise 테스트 환경 모두에서 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 enterprise 및 Office 365 Enterprise 테스트 환경용 Microsoft 365에 모두 사용할 수 있습니다.*
 
 다수의 조직은 Azure AD Connect와 암호 해시 동기화를 사용하여 온-프레미스 AD DS(Active Directory Domain Services) 포리스트의 계정 집합을 Microsoft 365 구독의 Azure AD 테넌트의 계정 집합과 동기화합니다. 이 문서에서는 Microsoft 365 테스트 환경에 암호 해시 동기화를 추가하여 다음과 같은 구성을 수행하는 방법에 대해 설명합니다.
   
@@ -40,7 +40,7 @@ ms.locfileid: "44819391"
 2. APP1에 Azure AD Connect를 설치 및 구성합니다.
     
 > [!TIP]
-> Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인하려면 [Microsoft 365 Enterprise 테스트 랩 가이드 스택](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)으로 이동하세요.
+> 엔터프라이즈 테스트 랩 가이드 스택의 Microsoft 365 모든 문서에 대 한 시각적 지도를 보려면 [microsoft 365 (엔터프라이즈 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) 스택)로 이동 합니다.
   
 ## <a name="phase-1-create-the-microsoft-365-simulated-enterprise-test-environment"></a>1단계: Microsoft 365 시뮬레이트된 엔터프라이즈 테스트 환경을 만들기
 
@@ -50,7 +50,7 @@ ms.locfileid: "44819391"
   
 이 구성은 다음으로 이루어집니다. 
   
-- Microsoft 365 E5, Office 365 E5 평가판 또는 유료 구독.
+- Microsoft 365 E5 평가판 또는 유료 구독
 - 인터넷에 연결된 간소화된 조직 인트라넷: Azure 가상 네트워크에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. DC1은 testlab.\<your public domain name> AD DS 도메인의 도메인 컨트롤러입니다.
 
 ## <a name="phase-2-create-and-register-the-testlab-domain"></a>2단계: 테스트 랩 도메인 만들기 및 등록
@@ -59,7 +59,7 @@ ms.locfileid: "44819391"
 
 먼저 공용 DNS 등록 공급자와 협력하여 현재 도메인 이름을 기반으로 하는 새 공용 DNS 도메인 이름을 만든 다음 구독에 추가합니다. **testlab.**\<your public domain> 이름을 사용하는 것이 좋습니다. 예를 들어, 공용 도메인 이름이 **<span>contoso</span>.com**인 경우 공용 도메인 이름 **<span>testlab</span>.contoso.com**을 추가합니다.
   
-그런 다음 도메인 등록 프로세스를 통해 **테스트랩**\<your public domain> 도메인을 Microsoft 365 또는 Office 365 평가판 또는 유료 구독에 추가합니다. 이 프로세스는 추가 DNS 레코드를 **testlab.**\<your public domain> 도메인에 추가하는 것으로 구성됩니다. 자세한 내용은 [Office 365에 도메인 추가](https://docs.microsoft.com/office365/admin/setup/add-domain)를 참조하세요. 
+그런 다음 도메인 등록 프로세스를 통해 **테스트랩**\<your public domain> 도메인 등록 프로세스를 진행 하 여 Microsoft 365 평가판 또는 유료 구독에 대 한 도메인 이 프로세스는 추가 DNS 레코드를 **testlab.**\<your public domain> 도메인에 추가하는 것으로 구성됩니다. 자세한 내용은 [365 Microsoft에 도메인 추가](../admin/setup/add-domain.md)를 참조 하세요. 
 
 구성 결과는 다음과 같습니다.
   
@@ -67,7 +67,7 @@ ms.locfileid: "44819391"
   
 이 구성은 다음으로 이루어집니다.
 
-- DNS 도메인 testlab.\<your public domain name>이 등록된 Microsoft 365 E5 또는 Office 365 E5 평가판 또는  유료 구독.
+- DNS 도메인 testlab과 함께 Microsoft 365 E5 평가판 또는 유료 구독입니다.\<your public domain name> 유료 구독.
 - 인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다.
 
 testlab.\<your public domain name>은 현재:
@@ -144,10 +144,10 @@ User1에 TESTLAB AD DS 도메인에 대한 도메인 관리자 권한이 있더�
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 Enterprise 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
+[엔터프라이증용 Microsoft 365 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
 
-[Microsoft 365 Enterprise 배포](deploy-microsoft-365-enterprise.md)
+[엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
-[Microsoft 365 Enterprise 설명서](https://docs.microsoft.com/microsoft-365-enterprise/)
+[엔터프라이즈 설명서에 대 한 Microsoft 365](https://docs.microsoft.com/microsoft-365-enterprise/)
 
 

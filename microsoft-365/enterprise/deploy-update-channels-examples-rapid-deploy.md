@@ -9,18 +9,18 @@ ms.date: 07/21/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_O365_Enterprise
 - M365-subscription-management
 ms.custom: ''
 description: 최신 릴리스를 배포하는 조직에서 Windows 10과 Microsoft 365 앱용 채널을 사용하는 방법입니다.
-ms.openlocfilehash: 46f36a7bd26ef190aca2a63fdaa993e420988b30
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
-ms.translationtype: HT
+ms.openlocfilehash: fd1d8ddd342b2781470378c879ef70d2ba304316
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45200127"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686169"
 ---
 # <a name="example-of-broad-deployment-for-the-latest-releases"></a>최신 릴리스에 대한 광범위한 배포 예제
 
@@ -109,6 +109,6 @@ Microsoft 365 앱 배포 방법 및 전략에 대한 자세한 내용은 [Micros
 
 [배포 및 업데이트 채널 예제 구성](deploy-update-channels-examples.md)
 
-[배포 가이드](deploy-microsoft-365-enterprise.md)
+[엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
 [테스트 랩 가이드](m365-enterprise-test-lab-guides.md)

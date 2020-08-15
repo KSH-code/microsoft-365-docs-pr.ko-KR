@@ -9,18 +9,18 @@ ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Contoso 온-프레미스 IT 인프라의 기본 구조와 Microsoft 365 Enterprise로 해당 비즈니스 요구를 충족하는 방법을 이해합니다.
-ms.openlocfilehash: 3899466e6c8ad50ad3a3d97863d1368ba1d8af20
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
-ms.translationtype: HT
+description: Contoso 온-프레미스 IT 인프라의 기본 구조와 Microsoft 365 for enterprise의 비즈니스 요구 사항을 충족 하는 방법을 이해 합니다.
+ms.openlocfilehash: 3dd744a8d936307c61303bf8ba0f2f198af59d91
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011200"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685833"
 ---
 # <a name="contosos-it-infrastructure-and-business-needs"></a>Contoso의 IT 인프라 및 비즈니스 요구 사항
 
@@ -113,20 +113,20 @@ Contoso의 비즈니스 요구 사항은 다섯 가지 주요 범주로 나뉩�
 
   조직 전체에서 Windows 운영 체제 및 Microsoft 365 앱의 업데이트 설치를 자동화합니다.
 
-## <a name="mapping-contosos-business-needs-to-microsoft-365-enterprise"></a>Contoso의 비즈니스 요구 사항에 맞는 Microsoft 365 Enterprise 제품 찾기
+## <a name="mapping-contosos-business-needs-to-microsoft-365-for-enterprise"></a>Contoso의 비즈니스 요구 사항을 엔터프라이즈에 대 한 Microsoft 365로 매핑
 
 Contoso의 IT 부서는 배포 전에 Microsoft 365 E5 기능에 대한 비즈니스 요구 사항의 매핑을 다음과 같이 결정했습니다.
 
-||||
+
+| Category | 비즈니스 요구 | Enterprise 제품 또는 기능에 대 한 Microsoft 365 |
 |:-------|:-----|:-----|
-| **범주** | **비즈니스 요구** | **Microsoft 365 Enterprise 제품 또는 기능** |
 | 생산성 |  |  |
 |  | 보다 쉽게 공동으로 작업 | Microsoft Teams, SharePoint, OneDrive |
 |  | 원격 및 모바일 작업자의 생산성 향상 | Microsoft 365 워크로드 및 클라우드 기반 데이터 |
 |  | 창의성 및 혁신 증대 | Windows Ink, Cortana at Work, PowerPoint |
 | 보안 |  |  |
 |  | ID & 액세스 관리 | Azure MFA (Multi-Factor Authentication) 및 Azure PIM (Privileged Identity Management다)를 포함하는 전용 전역 관리자 계정 <BR> 모든 사용자 계정에 대한 MFA <BR> 조건부 액세스 <BR> Windows Hello <BR> Windows Credential Guard |
-|  | 위협 방지 | Advanced Threat Analytics <BR> Windows Defender <BR> Advanced Threat Protection <BR> Office 365 Advanced Threat Protection <BR> Office 365 위협 조사 및 응답 <BR> |
+|  | 위협 방지 | Advanced Threat Analytics <BR> Windows Defender <BR> Advanced Threat Protection <BR> Office 365 Advanced Threat Protection <BR> Microsoft 365 위협 조사 및 대응 <BR> |
 |  | 정보 보호 | Azure Information Protection <BR> DLP(데이터 손실 방지) <BR> WIP(Windows Information Protection) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
 |  | 보안 관리 | Azure Security Center  <BR> Windows Defender 보안 센터 |
 | 원격 및 모바일 액세스 및 비즈니스 파트너 |  |  |
@@ -134,7 +134,7 @@ Contoso의 IT 부서는 배포 전에 Microsoft 365 E5 기능에 대한 비즈�
 |  | 직원을 위한 원격 액세스 인프라 감소 | Microsoft 365 워크로드 및 클라우드 기반 데이터 |
 |  | B2B 거래에 대해 더 나은 연결 제공 및 오버헤드 감소 | 페더레이션된 인증 및 클라우드 기반 리소스 |
 | 규정 준수 |  |  |
-|  | 지역별 규정 준수 | Office 365의 GDPR 기능 |
+|  | 지역별 규정 준수 | Microsoft 365의 GDPR 기능 |
 | 관리 |  |  |
 |  | 클라이언트 업데이트 설치에 대한 IT 오버헤드 감소 | 배포 링 <BR> Windows 10 Enterprise 업데이트 <BR> Microsoft Office 365 ProPlus 업데이트 |
 ||||
@@ -145,6 +145,6 @@ Contoso Corporation의 온-프레미스 네트워크 및 이러한 네트워크�
 
 ## <a name="see-also"></a>참고 항목
 
-[배포 가이드](deploy-microsoft-365-enterprise.md)
+[엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
 [테스트 랩 가이드](m365-enterprise-test-lab-guides.md)

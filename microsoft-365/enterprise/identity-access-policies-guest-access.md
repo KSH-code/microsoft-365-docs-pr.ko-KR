@@ -1,5 +1,5 @@
 ---
-title: 게스트 및 외부 B2B 액세스를 허용 하기 위한 id 및 장치 액세스 정책-Microsoft 365 Enterprise | Microsoft Docs
+title: 게스트 및 외부 B2B 액세스를 허용 하기 위한 id 및 장치 액세스 정책 | Microsoft 365 Microsoft Docs
 description: 게스트 및 외부 사용자의 액세스를 보호 하기 위한 권장 조건부 액세스 및 관련 정책에 대해 설명 합니다.
 author: BrendaCarter
 manager: johmar
@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 8276dcf85f6c5fd61e01e67deee4fea35c1a15c4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0ab4a2d48a1ac90f48bbfee82239fc0c4c1d55d5
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067461"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686829"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>게스트 및 외부 B2B 액세스를 허용 하기 위한 정책
 이 문서에서는 B2B 계정 액세스 (게스트 및 외부 사용자)를 허용 하도록 권장 되는 일반 id 및 장치 액세스 정책을 조정 하는 방법에 대해 설명 합니다. 이 지침은 [일반 id 및 장치 액세스 정책을](identity-access-policies.md)기반으로 합니다.
@@ -37,9 +37,9 @@ B2B 사용자가 Azure AD 테 넌 트를 사용 하 여 인증할 수 있도록 
 
 다음 표에는 업데이트 하거나 새로 만드는 데 필요한 정책이 나와 있습니다. 공통 정책- [일반 id 및 장치 액세스 정책](identity-access-policies.md) 문서의 관련 구성 지침에 대 한 링크를 제공 합니다.
 
-|보호 수준|정책도|추가 정보|
+|보호 수준|정책|추가 정보|
 |:---------------|:-------|:----------------|
-|**기준선**|[게스트 및 외부 사용자에 대 한 MFA 항상 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|이 새 규칙을 만들어 게스트 및 외부 사용자 에게만 적용 합니다. 로그인 위험에서 항상 MFA를 적용 하도록 모든 옵션을 선택 하지 않은 상태로 유지 합니다.|
+|**기준**|[게스트 및 외부 사용자에 대 한 MFA 항상 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|이 새 규칙을 만들어 게스트 및 외부 사용자 에게만 적용 합니다. 로그인 위험에서 항상 MFA를 적용 하도록 모든 옵션을 선택 하지 않은 상태로 유지 합니다.|
 |        |[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|이 규칙을 수정 하 여 게스트 및 외부 사용자를 제외 합니다.|
 |        |[호환 PC 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|이 규칙을 수정 하 여 게스트 및 외부 사용자를 제외 합니다.|
 
@@ -58,7 +58,7 @@ Microsoft 팀은 게스트 사용자와 앱 내의 외부 사용자를 구분 �
 이 규칙은 홈 테 넌 트에서 MFA에 대 한 등록 여부에 관계 없이 테 넌 트에 MFA를 등록 하 라는 메시지를 표시 합니다. 테 넌 트의 리소스에 액세스할 때 게스트 및 외부 사용자는 모든 요청에 대해 MFA를 사용 해야 합니다. 
 
 ### <a name="excluding-guest-and-external-users-from-risk-based-mfa"></a>위험 기반 MFA 로부터 게스트 및 외부 사용자 제외
-조직에서 Id 보호를 사용 하 여 B2B 사용자에 게 위험 기반 정책을 적용 하는 경우에는 해당 개인의 id로 인해 리소스 디렉터리의 B2B 공동 작업 사용자에 대 한 Id 보호 구현에 제한이 있습니다. 디렉토리로. 이러한 제한으로 인해 Microsoft는 위험 기반 MFA 정책에서 게스트 사용자를 제외 하 고이 사용자가 항상 MFA를 사용 하도록 요구 하는 것이 좋습니다. 
+조직은 Id 보호를 사용 하 여 B2B 사용자에 게 위험 기반 정책을 적용할 수 있지만, 해당 홈 디렉터리에 있는 id로 인해 리소스 디렉터리의 B2B 공동 작업 사용자에 대 한 Id 보호 구현에는 제한이 있습니다. 이러한 제한으로 인해 Microsoft는 위험 기반 MFA 정책에서 게스트 사용자를 제외 하 고이 사용자가 항상 MFA를 사용 하도록 요구 하는 것이 좋습니다. 
 
 자세한 내용은 [B2B 공동 작업 사용자에 대 한 Id 보호의 제한 사항을](https://docs.microsoft.com/azure/active-directory/identity-protection/concept-identity-protection-b2b#limitations-of-identity-protection-for-b2b-collaboration-users)참조 하세요. 
 

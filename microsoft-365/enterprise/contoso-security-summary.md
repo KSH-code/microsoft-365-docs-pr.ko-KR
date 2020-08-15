@@ -1,5 +1,5 @@
 ---
-title: Contoso Corporation의 Microsoft 365 Enterprise 보안 요약
+title: Contoso Corporation의 엔터프라이즈 보안용 Microsoft 365 요약
 author: JoeDavies-MSFT
 f1.keywords:
 - NOCSH
@@ -9,22 +9,22 @@ ms.date: 10/02/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Contoso가 Microsoft 365 Enterprise에서 보안 기능을 사용하는 방법
-ms.openlocfilehash: c0f3497eb49a0490fccf6c0ec5174d932a21005e
-ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
-ms.translationtype: HT
+description: Contoso에서 기업에 대 한 Microsoft 365의 보안 기능을 사용 하는 방법
+ms.openlocfilehash: 2244f13f8e8f56edbadd40d1e85cb309d70f7744
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268401"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686443"
 ---
-# <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Contoso Corporation의 Microsoft 365 Enterprise 보안 요약
+# <a name="summary-of-microsoft-365-for-enterprise-security-for-the-contoso-corporation"></a>Contoso Corporation의 엔터프라이즈 보안용 Microsoft 365 요약
 
-IT 보안 부서에서 Microsoft 365 Enterprise 배포 작업의 승인을 얻기 위해 철저한 보안 검토가 수행되었습니다. 다음은 클라우드에 대한 Contoso의 보안 요구 사항입니다.
+IT 보안 부서에서 기업에 대 한 Microsoft 365의 배포를 승인 하려면 철저 한 보안 검토가 수행 되었습니다. 다음은 클라우드에 대 한 Contoso의 보안 요구 사항입니다.
 
 - 클라우드 리소스에 대한 직원 액세스에 가장 강력한 인증 방법을 사용합니다.
 - PC 및 모바일 장치가 안전한 방법으로 응용 프로그램을 연결하고 액세스하는지 확인합니다.
@@ -36,7 +36,7 @@ IT 보안 부서에서 Microsoft 365 Enterprise 배포 작업의 승인을 얻�
 
 ## <a name="contosos-path-to-microsoft-365-security-readiness"></a>Contoso의 Microsoft 365 보안 준비 과정
 
-Contoso는 다음 단계에 따라 Microsoft 365 Enterprise 배포에 대한 보안을 준비했습니다.
+Contoso는 다음 단계를 사용 하 여 기업에 대 한 Microsoft 365 배포를 위한 보안을 준비 했습니다.
 
 1. 클라우드용 관리자 계정 제한
 
@@ -44,13 +44,13 @@ Contoso는 다음 단계에 따라 Microsoft 365 Enterprise 배포에 대한 보
 
 2. 3개 수준으로 데이터 분류 분석 수행
 
-   Contoso는 철저한 검토를 수행한 후 3개 수준을 결정했으며, 이러한 수준을 사용하여 Contoso의 가장 중요한 데이터를 보호하기 위한 Microsoft 365 Enterprise 기능을 결정했습니다.
+   Contoso는 신중한 검토를 수행 하 고 Contoso의 가장 중요 한 데이터를 보호 하기 위해 Microsoft 365 for enterprise 기능을 결정 하는 데 사용 된 세 가지 수준을 확인 했습니다.
 
 3. 데이터 수준에 대한 액세스, 보존 및 정보 보호 정책 결정
 
    Contoso는 데이터 수준에 따라 상세 요구 사항을 결정했으며, 이러한 요구 사항을 사용하여 향후 클라우드로 이동하는 IT 작업을 선별할 예정입니다.
 
-Contoso의 보안 관리자 및 IT 부서는 보안 모범 사례 및 Microsoft 365 Enterprise 배포 요구 사항에 따라, 다음 섹션에 설명된 것과 같은 많은 보안 기능을 배포했습니다.
+보안 모범 사례 및 엔터프라이즈 배포 요구 사항에 대 한 Microsoft 365에 따라 Contoso의 보안 관리자 및 IT 부서는 다음 섹션에서 설명 하는 것 처럼 다양 한 보안 기능 및 기능을 배포 했습니다.
 
 ## <a name="identity--access-management"></a>ID 및 액세스 관리 
 

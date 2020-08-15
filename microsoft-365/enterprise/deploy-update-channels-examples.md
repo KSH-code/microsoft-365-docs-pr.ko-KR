@@ -9,18 +9,18 @@ ms.date: 07/21/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_O365_Enterprise
 - M365-subscription-management
 ms.custom: ''
 description: 예시 조직이 채널을 사용하여를 배포하고 업데이트하는 방법입니다.
-ms.openlocfilehash: eaf962d7481027b49f26c79163aaae3753fdbb9b
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
-ms.translationtype: HT
+ms.openlocfilehash: 88567fedd92f01885c4971acc273a676c3e82de8
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45200126"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686157"
 ---
 # <a name="deployment-and-update-channel-example-configurations"></a>배포 및 업데이트 채널 예제 구성
 
@@ -49,6 +49,6 @@ Windows 10 및 Microsoft 365 앱에 사용할 업데이트 채널을 선택하�
 
 ## <a name="see-also"></a>참고 항목
 
-[배포 가이드](deploy-microsoft-365-enterprise.md)
+[엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
 [테스트 랩 가이드](m365-enterprise-test-lab-guides.md)

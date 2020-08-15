@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Enterprise 테스트 환경에 대 한 데이터 분류
+title: 엔터프라이즈 테스트 환경용 Microsoft 365에 대 한 데이터 분류
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -13,26 +13,26 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
-description: 이 테스트 랩 가이드를 사용 하 여 Microsoft 365 Enterprise 테스트 환경의 문서에 보존 레이블을 만들고 사용 합니다.
-ms.openlocfilehash: 41873eba8f2d6168d68d771c6feb17a44c775f6a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 이 테스트 랩 가이드를 사용 하 여 엔터프라이즈 테스트 환경용 Microsoft 365의 문서에 보존 레이블을 만들고 사용 합니다.
+ms.openlocfilehash: 171fcb74b09a1f2e5c80f23e010640dce55660bc
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636095"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686409"
 ---
-# <a name="data-classification-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대 한 데이터 분류
+# <a name="data-classification-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경용 Microsoft 365에 대 한 데이터 분류
 
-*이 테스트 랩 가이드는 Microsoft 365 Enterprise와 Office 365 Enterprise 테스트 환경 모두에서 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 enterprise 및 Office 365 Enterprise 테스트 환경용 Microsoft 365에 모두 사용할 수 있습니다.*
 
-이 문서의 지침을 사용 하 여 Microsoft 365 Enterprise 테스트 환경에서 보존 레이블을 사용 하 여 데이터 분류를 구성 합니다.
+이 문서의 지침을 사용 하 여 엔터프라이즈 테스트 환경용 Microsoft 365의 보존 레이블을 사용 하 여 데이터 분류를 구성 합니다.
 
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
 > [여기](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
   
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>1단계: Microsoft 365 Enterprise 테스트 환경 구축
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>1 단계: 엔터프라이즈 테스트 환경용 Microsoft 365 구축
 
 최소 요구 사항에 따라 간단한 방법으로 보존 레이블을 구성 하려는 경우에는 [간단한 기본 구성](lightweight-base-configuration-microsoft-365-enterprise.md)의 지침을 따릅니다.
   
@@ -73,7 +73,7 @@ ms.locfileid: "43636095"
     
 11. **레이블 선택** 창에서 **추가** 를 클릭 하 고 네 개의 레이블을 모두 선택 합니다.
     
-12. **추가**를 클릭 한 다음 **완료**를 클릭 합니다.
+12. **추가**를 클릭한 다음 **완료**를 클릭합니다.
     
 13. **게시할 레이블 선택** 창에서 **다음**을 클릭합니다.
     
@@ -91,7 +91,7 @@ ms.locfileid: "43636095"
 
 먼저 중요 한 수준의 SharePoint Online 팀 사이트를 만듭니다.
   
-1. 브라우저의 개인 인스턴스를 사용 하 여 전역 관리자 계정을 사용 하 여 [Office 365 포털](https://portal.office.com) 에 로그인 합니다.
+1. 브라우저의 개인 인스턴스를 사용 하 여 전역 관리자 계정을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
     
 2. 타일 목록에서 **SharePoint**를 클릭합니다.
     
@@ -111,7 +111,7 @@ ms.locfileid: "43636095"
   
 1. 브라우저의 **SensitiveFiles** 탭에서 **문서**를 클릭 합니다.
     
-2. 설정 아이콘을 클릭한 다음 **라이브러리 설정**을 클릭합니다.
+2. 설정 아이콘을 클릭한 다음, **라이브러리 설정**을 클릭합니다.
     
 3. **사용 권한 및 관리**에서 **이 목록 또는 라이브러리의 항목에 레이블 적용**을 클릭 합니다. 이 옵션이 나타나지 않으면 보존 레이블이 아직 게시 되지 않은 것입니다. 나중에이 단계를 시도 하세요.
     
@@ -125,15 +125,13 @@ ms.locfileid: "43636095"
     
 3. 메뉴 모음에서 **공유 문서**를 클릭 합니다.
     
-4. **문서 .docx** 파일 이름 옆에 있는 줄임표를 클릭 한 다음 **세부 정보**를 클릭 합니다.
+4. **Document.docx** 파일 이름 옆에 있는 줄임표를 클릭 한 다음 **자세히**를 클릭 합니다.
     
 5. 오른쪽 창의 **속성** 섹션에 있는 **보존 레이블 적용**에서 문서에 **중요 한** 보존 레이블이 자동으로 적용 되어 있는지 확인 합니다.
     
 6. **모두 편집**을 클릭 합니다.
     
-7. **문서 .docx** 창의 **보존 레이블 적용**에서 **높은 기밀** 레이블을 선택한 다음 **저장**을 클릭 합니다.
-
-프로덕션 환경에서 보존 레이블을 배포 하는 방법에 대 한 자세한 내용은 **정보 보호** 단계에서 해당 [환경의 분류 구성](infoprotect-configure-classification.md) 단계를 참조 하세요.
+7. **Document.docx** 창의 **보존 레이블 적용**에서 **높은 기밀** 레이블을 선택 하 고 **저장**을 클릭 합니다.
 
 ## <a name="next-step"></a>다음 단계
 
@@ -141,10 +139,10 @@ ms.locfileid: "43636095"
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 Enterprise 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
+[엔터프라이증용 Microsoft 365 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
 
-[Microsoft 365 Enterprise 배포](deploy-microsoft-365-enterprise.md)
+[엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
-[Microsoft 365 Enterprise 설명서](https://docs.microsoft.com/microsoft-365-enterprise/)
+[엔터프라이즈 설명서에 대 한 Microsoft 365](https://docs.microsoft.com/microsoft-365-enterprise/)
 
  

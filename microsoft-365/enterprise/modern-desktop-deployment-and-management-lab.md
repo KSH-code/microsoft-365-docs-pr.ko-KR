@@ -2,31 +2,31 @@
 title: Windows 및 Office 배포 랩 키트
 f1.keywords:
 - NOCSH
-ms.author: jogruszc
-author: JGruszczyk
-manager: jemed
-ms.date: 06/10/2019
+ms.author: josephd
+author: JoeDavies-MSFT
+manager: laurawi
+ms.date: 08/10/2020
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: a52d2ef1570509150aa1b44c7d7d767287e308f1
-ms.sourcegitcommit: 020b89b0d558a866ea68d35b5170db76f6d8d74d
-ms.translationtype: HT
+ms.openlocfilehash: 751d2a04daa707049c59b9b7cabb18ca06a598d1
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45052728"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685501"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 
-이 랩은 Windows 10 Enterprise 및 엔터프라이즈용 Microsoft 365 앱을 실행하는 데스크톱의 배포 및 관리를 계획, 테스트 및 검증하는 데 도움을 주기 위해 만들어졌습니다. 이 랩에서는 Microsoft Endpoint Configuration Manager, Desktop Analytics, Office 사용자 지정 도구, OneDrive, Windows Autopilot 등의 데스크톱 배포 도구에 설명된 단계와 도구를 다룹니다.
+이러한 랩은 Windows 10 Enterprise를 실행 하는 데스크톱의 배포 및 관리를 계획, 테스트 및 확인 하는 데 도움을 주기 위한 것으로, 그리고 엔터프라이즈 용 Microsoft 365 앱을 제공 합니다. Microsoft 끝점 구성 관리자, 데스크톱 분석, Office 사용자 지정 도구, OneDrive, Windows Autopilot 등을 사용 하는 랩 표지입니다.
 
-이 교육은 Windows 7 사용 종료를 준비하는 조직에 권장되며 현재 Windows 10 및 엔터프라이즈용 Microsoft 365 앱(이전 Office 365 ProPlus) 또는 Office 2019를 사용 중인 경우에도 적용됩니다. 또한 격리된 환경으로서 랩은 배포 도구 업데이트를 탐색하고 배포 관련 자동화를 테스트하는 데 적합합니다.
+조직에서 Windows 8 업그레이드를 준비 하는 경우에는이 키트가 권장 되며, 현재 Windows 10, Microsoft 365 Apps for enterprise (이전 Office 365 ProPlus) 또는 Office 2019을 사용 하는 경우에도 적용 됩니다. 또한 격리된 환경으로서 랩은 배포 도구 업데이트를 탐색하고 배포 관련 자동화를 테스트하는 데 적합합니다.
 
 [Windows 및 Office 배포 랩 키트 다운로드](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
@@ -46,9 +46,8 @@ ms.locfileid: "45052728"
 
 또한, 랩은 다음에 대한 평가판에 연결되도록 디자인되어 있습니다. 
 
-  - Microsoft 365 E5 또는
-  - Office 365 Enterprise E5
-  - Enterprise Mobility + Security
+  - Microsoft 365 E5
+  - EMS (Enterprise Mobility + Security)를 사용한 Office 365 Enterprise E5
 
 ## <a name="step-by-step-labs"></a>단계별 랩
 
@@ -57,14 +56,14 @@ ms.locfileid: "45052728"
 ### <a name="device-and-app-readiness"></a>장치 및 앱 준비
 
   - Desktop Analytics
-  - 새로운 기능! 새 Microsoft Edge 배포 및 업데이트 
-  - 새로운 기능! CMG(클라우드 관리 게이트웨이) 설치 및 구성 
+  - 새 Microsoft Edge 배포 및 업데이트 
+  - CMG(클라우드 관리 게이트웨이) 설치 및 구성 
   - Internet Explorer 모드 
   - Application Guard 
 
 ### <a name="directory-and-network-readiness"></a>디렉터리 및 네트워크 준비
 
-  - 새로운 기능! Windows 10 업데이트 제공 최적화 
+  - Windows 10 업데이트 제공 최적화 
   - 구성 관리자 및 Microsoft Intune 공동 관리
   - 원격 액세스(VPN)
 
@@ -110,7 +109,7 @@ ms.locfileid: "45052728"
   - Configuration Manager를 사용하여 엔터프라이즈용 Microsoft 365 앱 제공
   - 새로운 기능! Configuration Manager 및 Intune을 사용하여 Office 업데이트
   
-### <a name="new-windows-virtual-desktop"></a>새로운 기능! Windows Virtual Desktop
+### <a name="windows-virtual-desktop"></a>Windows Virtual Desktop
   - Windows 가상 데스크톱: 준비, 배포, 최적화 
 
 ### <a name="download-the-windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트 다운로드
@@ -120,8 +119,6 @@ ms.locfileid: "45052728"
 *광대역폭을 통해 이 콘텐츠를 다운로드하여 다운로드 환경을 개선하고 자동 프로비전을 위해 30-45분을 허용하세요. 이 랩 환경에는 최소 16GB의 사용 가능한 메모리와 150GB의 사용 가능한 디스크 공간이 필요합니다. 최적의 성능을 위해 32GB의 사용 가능한 메모리가 있는 것이 좋습니다. 이 랩은 2020년 9월 12일에 만료됩니다. 만료 전에 새 버전이 게시됩니다.*
 
 ## <a name="additional-guidance"></a>추가 안내
-
-  - [데스크톱 배포 센터](https://www.aka.ms/howtoshift)
 
   - [Microsoft Mechanics의 데스크톱 배포 시리즈 비디오](https://www.aka.ms/watchhowtoshift)
 

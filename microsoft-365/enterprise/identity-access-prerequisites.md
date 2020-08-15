@@ -1,5 +1,5 @@
 ---
-title: Id 및 장치 액세스 정책을 구현 하기 위한 필수 작업-Microsoft 365 Enterprise | Microsoft Docs
+title: Id 및 장치 액세스 정책 구현에 대 한 작업-엔터프라이즈에 대 한 Microsoft 365 | Microsoft Docs
 description: ID 및 장치 액세스 정책과 구성을 적용하는 방법에 관한 Microsoft 권장 정책을 설명합니다.
 author: BrendaCarter
 manager: Laurawi
@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: bfbb0481670b2f957bf240c261fcbafab96717b9
-ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
+ms.openlocfilehash: 295e1c713b97740fcf40e9607e650c242a68c035
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44222592"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685881"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Id 및 장치 액세스 정책을 구현 하기 위한 필수 작업
 
@@ -91,13 +91,12 @@ BYOD Windows 장치에서는 사용자가 **회사 또는 학교 계정 추가**
 |macOS|공개 미리 보기|공개 미리 보기|해당 없음|해당 없음|지원되지 않음|
 |Linux|지원되지 않음|지원되지 않음|지원되지 않음|지원되지 않음|지원되지 않음|
 
-<sup>*</sup>자세한 내용은 [OneDrive 동기화 클라이언트](https://docs.microsoft.com/onedrive/enable-conditional-access)에서 조건부 액세스 사용을 참고 하세요.
+<sup>*</sup> 자세한 내용은 [OneDrive 동기화 클라이언트](https://docs.microsoft.com/onedrive/enable-conditional-access)에서 조건부 액세스 사용을 참고 하세요.
 
 ### <a name="microsoft-365-client-support"></a>Microsoft 365 클라이언트 지원
 클라이언트 지원에 대 한 자세한 내용은 다음 문서를 참조 하십시오.
-- [Microsoft 365 클라이언트 앱 지원-조건부 액세스](https://docs.microsoft.com/office365/enterprise/office-365-client-support-conditional-access)
-- [Microsoft 365 클라이언트 앱 지원-모바일 응용 프로그램 관리](https://docs.microsoft.com/office365/enterprise/office-365-client-support-mobile-application-management)
-- [Microsoft 365 클라이언트 앱 지원-최신 인증](https://docs.microsoft.com/office365/enterprise/office-365-client-support-modern-authentication)
+- [Microsoft 365 클라이언트 앱 지원-조건부 액세스](microsoft-365-client-support-conditional-access.md)
+- [Microsoft 365 클라이언트 앱 지원-최신 인증](microsoft-365-client-support-modern-authentication.md)
 
 ## <a name="protecting-administrator-accounts"></a>관리자 계정 보호
 Azure AD는 미리 구성 된 조건부 액세스 정책을 사용 하 여 관리자 액세스를 간단 하 게 보호할 수 있는 방법을 제공 합니다. Azure AD에서 **조건부 액세스** 로 이동 하 여이 정책 ( **기본 정책: 관리자에 게 MFA 필요 (미리 보기))** 을 확인 합니다. 이 정책을 선택 하 고 **정책 즉시 사용**을 선택 합니다. 
@@ -113,7 +112,7 @@ Azure AD는 미리 구성 된 조건부 액세스 정책을 사용 하 여 관�
 
 추가 권장 사항은 다음과 같습니다.
 - Azure AD Privileged Identity Management를 사용하여 영구 관리 계정 수를 줄입니다. [PIM 사용 시작](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-getting-started)을 참조 하세요. 
-- [Office 365의 권한이 부여 된 액세스 관리를 사용](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview) 하 여 중요 한 데이터에 대 한 액세스 권한이 나 중요 한 구성 설정에 대 한 액세스 권한이 있는 기존 권한 관리 계정을 사용 하는 위반 으로부터 조직을 보호할 수 있습니다. 
+- [권한이 부여 된 액세스 관리를 사용](../compliance/privileged-access-management-overview.md) 하 여 중요 한 데이터에 대 한 액세스 또는 중요 한 구성 설정에 대 한 액세스 권한이 있는 기존 권한 관리 계정을 사용 하는 위반 으로부터 조직을 보호할 수 있습니다. 
 - 관리에만 관리자 계정을 사용 합니다. 관리자는 일반 비 관리 사용을 위한 별도의 사용자 계정을 가져야 하며, 해당 작업 기능과 관련 된 작업을 완료 하는 데 필요한 경우에만 해당 관리자 계정을 사용 해야 합니다. [Microsoft 365 관리자](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) 역할은 microsoft 365 서비스 보다 훨씬 더 많은 권한을 가집니다.
 - 이 [문서](https://docs.microsoft.com/azure/active-directory/admin-roles-best-practices)에 설명 된 대로 Azure AD에서 권한 있는 계정 보안을 위한 모범 사례를 따릅니다.
 

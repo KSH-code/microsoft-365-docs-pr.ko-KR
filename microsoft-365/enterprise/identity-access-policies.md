@@ -1,5 +1,5 @@
 ---
-title: 일반 id 및 장치 액세스 정책-Microsoft 365 Enterprise | Microsoft Docs
+title: 일반 id 및 장치 액세스 정책-Microsoft 365 for enterprise | Microsoft Docs
 description: ID 및 장치 액세스 정책과 구성을 적용하는 방법에 관한 Microsoft 권장 정책을 설명합니다.
 author: BrendaCarter
 manager: Laurawi
@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: a91488b9bfa126b1419af7697c0ae8510ddbc149
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 676a37752e24b238117ec238bc171b9df723e247
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43625269"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685977"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
 이 문서에서는 Azure AD 응용 프로그램 프록시를 통해 게시 된 온-프레미스 응용 프로그램을 포함 하 여 클라우드 서비스에 대 한 액세스를 보호 하기 위한 일반적인 권장 정책을 설명 합니다. 
@@ -32,8 +32,8 @@ ms.locfileid: "43625269"
 
 다음 다이어그램에서는 권장 되는 정책 집합을 보여 줍니다. 각 정책이 적용 되는 보호 계층과 정책이 Pc 또는 휴대폰 및 태블릿에서 적용 되는지, 아니면 두 장치 범주 모두를 보여 줍니다. 또한 이러한 정책이 구성 되는 위치를 나타냅니다.
 
-[![Id 및 장치 액세스](../media/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png)
-를 구성 하기 위한 일반 정책[더 큰 버전의 이미지를 참조 하세요](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png) .
+[ ![ Id 및 장치 액세스를 구성 하기 위한 일반 정책](../media/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png) 
+ [더 큰 버전의 이미지를 참조 하세요](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png) .
 
 이 문서의 나머지 부분에서는 이러한 정책을 구성 하는 방법에 대해 설명 합니다. 
 
@@ -42,11 +42,11 @@ ms.locfileid: "43625269"
 이러한 작업을 완료 하는 데 필요한 시간을 제공 하려면이 표에 나열 된 순서 대로 기준 정책을 구현 하는 것이 좋습니다. 그러나 중요 및 고도로 규제 된 보호에 대 한 MFA 정책은 언제 든 지 구현 될 수 있습니다.
 
 
-|보호 수준|정책도|추가 정보|
+|보호 수준|정책|추가 정보|
 |:---------------|:-------|:----------------|
-|**기준선**|[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](#require-mfa-based-on-sign-in-risk)| |
+|**기준**|[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](#require-mfa-based-on-sign-in-risk)| |
 |        |[최신 인증을 지원하지 않는 클라이언트 차단](#block-clients-that-dont-support-modern-authentication)|최신 인증을 사용 하지 않는 클라이언트는 조건부 액세스 규칙을 무시할 수 있으므로 이러한 기능을 차단 하는 것이 중요 합니다.|
-|        |[높은 위험 사용자가 암호를 변경 해야 함](#high-risk-users-must-change-password)|계정의 높은 위험 활동이 검색 되는 경우 로그인 시 사용자가 암호를 변경 하도록 합니다.|
+|        |[위험이 높은 사용자는 암호를 변경해야 함](#high-risk-users-must-change-password)|계정의 높은 위험 활동이 검색 되는 경우 로그인 시 사용자가 암호를 변경 하도록 합니다.|
 |        |[앱 데이터 보호 정책 적용](#apply-app-data-protection-policies)|플랫폼 당 한 가지 정책 (iOS, Android, Windows) Intune 앱 (앱 보호 정책)은 수준 1부터 수준 3까지 미리 정의 된 보호 집합입니다.|
 |        |[승인 된 앱 및 앱 보호 필요](#require-approved-apps-and-app-protection)|휴대폰 및 태블릿에서 모바일 앱 보호를 적용 합니다.|
 |        |[장치 준수 정책 정의](#define-device-compliance-policies)|각 플랫폼에 대 한 정책 1 개|
@@ -105,7 +105,7 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
 
 |속성|보호 수준|값|참고|
 |:---|:---------|:-----|:----|
-|위험 수준|기준선|높음, 중간|모두 선택|
+|위험 수준|기준|높음, 중간|모두 선택|
 | |중요|높음, 중간, 낮음|세 항목 모두 선택|
 | |매우 엄격한 규제| |항상 MFA를 적용 하려면 모든 옵션을 선택 하지 않은 상태로 유지|
 
@@ -113,12 +113,12 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
 
 |유형|속성|값|참고|
 |:---|:---------|:-----|:----|
-|권한 부여|액세스 허가|참|선택됨|
+|권한 부여|액세스 허가|True|선택|
 ||MFA 필요|True|Check|
 ||장치가 호환 되는 것으로 표시 필요|거짓||
 ||하이브리드 Azure AD 가입 장치 필요|거짓||
 ||승인 된 클라이언트 앱 필요|False||
-||선택된 컨트롤이 모두 필요함|True|선택됨|
+||선택된 컨트롤이 모두 필요함|True|선택|
 
 > [!NOTE]
 > 이 정책을 사용 하도록 설정 하려면 **을 선택 하**는 것이 가능 해야 합니다. 또한 [if](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) 도구를 사용 하 여 정책을 테스트할 수도 있습니다.
@@ -150,19 +150,19 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
 
 |유형|속성|값|참고|
 |:---|:---------|:-----|:----|
-|권한 부여|액세스 차단|참|선택됨|
+|권한 부여|액세스 차단|True|선택|
 ||MFA 필요|거짓||
 ||장치가 호환 되는 것으로 표시 필요|거짓||
 ||하이브리드 Azure AD 가입 장치 필요|거짓||
 ||승인 된 클라이언트 앱 필요|False||
-||선택된 컨트롤이 모두 필요함|True|선택됨|
+||선택된 컨트롤이 모두 필요함|True|선택|
 
 > [!NOTE]
 > 이 정책을 사용 하도록 설정 하려면 **을 선택 하**는 것이 가능 해야 합니다. 또한 [if](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) 도구를 사용 하 여 정책을 테스트할 수도 있습니다.
 
 
 
-## <a name="high-risk-users-must-change-password"></a>높은 위험 사용자가 암호를 변경 해야 함
+## <a name="high-risk-users-must-change-password"></a>위험이 높은 사용자는 암호를 변경해야 함
 로그인 할 때 모든 높은 위험 사용자의 손상 된 계정이 강제로 암호 변경을 수행 하 게 하려면 다음 정책을 적용 해야 합니다.
 
 사용자의 관리자 자격 증명을 사용하여 [Microsoft Azure Portal(https://portal.azure.com)](https://portal.azure.com/)에 로그인한 다음 **Azure AD ID 보호 > 사용자 위험 정책**으로 이동합니다.
@@ -179,7 +179,7 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
 
 | 유형 | 속성 | 값                  | 참고 |
 |:-----|:-----------|:------------------------|:------|
-|      | Access     | 액세스 허용            | 참  |
+|      | 액세스     | 액세스 허용            | True  |
 |      | 액세스     | 암호 변경 필요 | True  |
 
 **검토:** 해당 없음
@@ -202,7 +202,7 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
 
 |보호 수준 |앱 보호 정책  |추가 정보  |
 |---------|---------|---------|
-|기준선     | [수준 2 향상 된 데이터 보호](https://docs.microsoft.com/mem/intune/apps/app-protection-framework#level-2-enterprise-enhanced-data-protection)        | 수준 2에 적용 된 정책 설정에는 수준 1에 대해 권장 되는 모든 정책 설정이 포함 되며, 수준 1 보다 더 복잡 한 구성을 구현 하기 위해 아래 정책 설정만 추가 하거나 업데이트 합니다.         |
+|기준     | [수준 2 향상 된 데이터 보호](https://docs.microsoft.com/mem/intune/apps/app-protection-framework#level-2-enterprise-enhanced-data-protection)        | 수준 2에 적용 된 정책 설정에는 수준 1에 대해 권장 되는 모든 정책 설정이 포함 되며, 수준 1 보다 더 복잡 한 구성을 구현 하기 위해 아래 정책 설정만 추가 하거나 업데이트 합니다.         |
 |중요     | [수준 2 향상 된 데이터 보호](https://docs.microsoft.com/mem/intune/apps/app-protection-framework#level-2-enterprise-enhanced-data-protection)        | 수준 2에 적용 된 정책 설정에는 수준 1에 대해 권장 되는 모든 정책 설정이 포함 되며, 수준 1 보다 더 복잡 한 구성을 구현 하기 위해 아래 정책 설정만 추가 하거나 업데이트 합니다.        |
 |높은 규제     | [수준 3 enterprise 높은 데이터 보호](https://docs.microsoft.com/mem/intune/apps/app-protection-framework#level-3-enterprise-high-data-protection)        | 수준 3에 적용 된 정책 설정에는 수준 1 및 2에 권장 되는 모든 정책 설정이 포함 되며, 수준 2 보다 더 복잡 한 구성을 구현 하기 위해 아래 정책 설정만 추가 하거나 업데이트 합니다.        |
 
@@ -254,7 +254,7 @@ With Conditional Access, organizations can restrict access to approved (modern a
 - Windows 8.1 이상
 - Windows 10 이상
 
-장치 준수 정책을 만들려면 관리자 자격 증명을 사용 하 여 [Microsoft Endpoint Manager 관리 센터](https://go.microsoft.com/fwlink/?linkid=2109431) 에 로그인 한 다음 **장치** > **준수 정책** > **정책**으로 이동 합니다. **정책 만들기**를 선택 합니다.
+장치 준수 정책을 만들려면 관리자 자격 증명을 사용 하 여 [Microsoft Endpoint Manager 관리 센터](https://go.microsoft.com/fwlink/?linkid=2109431) 에 로그인 한 다음 **장치**  >  **준수 정책**  >  **정책**으로 이동 합니다. **정책 만들기**를 선택 합니다.
 
 장치 준수 정책이 배포 되려면 사용자 그룹에 할당 되어야 합니다. 정책을 만들고 저장 한 후 할당 합니다. 관리 센터에서 정책을 선택한 다음 **할당**을 선택 합니다. 정책을 수신 하려는 그룹을 선택한 후 **저장** 을 선택 하 여 해당 그룹 할당을 저장 하 고 정책을 배포 합니다.
 

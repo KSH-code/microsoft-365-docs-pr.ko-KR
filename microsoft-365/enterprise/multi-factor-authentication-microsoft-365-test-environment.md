@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Enterprise 테스트 환경 다단계 인증
+title: 엔터프라이즈 테스트 환경에 대 한 Microsoft 365 (multi-factor authentication)
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -15,17 +15,17 @@ ms.custom:
 - TLG
 - Ent_TLGs
 - seo-marvel-apr2020
-description: Microsoft 365 Enterprise 테스트 환경에서 스마트 전화로 전송 되는 텍스트 메시지를 사용 하 여 다단계 인증을 구성 합니다.
-ms.openlocfilehash: e26fb7470e01397266f5f424ee45941a79a2940c
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: 엔터프라이즈 테스트 환경용 Microsoft 365에서 스마트 전화로 전송 되는 텍스트 메시지를 사용 하 여 다단계 인증을 구성 합니다.
+ms.openlocfilehash: 4ed50d37e0f4e73d5d1fc62e295df374c61b9786
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819379"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686277"
 ---
-# <a name="multi-factor-authentication-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대 한 다단계 인증
+# <a name="multi-factor-authentication-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경용 Microsoft 365에 대 한 다단계 인증
 
-*이 테스트 랩 가이드는 Microsoft 365 Enterprise와 Office 365 Enterprise 테스트 환경 모두에서 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 enterprise 및 Office 365 Enterprise 테스트 환경용 Microsoft 365에 모두 사용할 수 있습니다.*
 
 Microsoft 365 또는 구독에 대해 Azure AD 테 넌 트를 사용 하는 모든 서비스 또는 응용 프로그램에 로그인 하기 위한 추가 보안 수준에 대 한 자세한 내용은 계정을 확인 하기 위해 사용자 이름 및 암호 뿐 아니라 Azure multi-factor authentication을 사용 하도록 설정할 수 있습니다. 
 
@@ -33,9 +33,9 @@ Microsoft 365 또는 구독에 대해 Azure AD 테 넌 트를 사용 하는 모�
   
 이 문서에서는 특정 사용자 계정에 대해 텍스트 메시지 기반 인증을 사용 하 고 테스트 하는 방법에 대해 설명 합니다.
   
-Microsoft 365 Enterprise 테스트 환경에서는 계정에 대해 multi-factor authentication을 설정 하는 두 단계가 있습니다.
+엔터프라이즈 테스트 환경용 Microsoft 365의 계정에 대해 multi-factor authentication을 설정 하는 데는 두 가지 단계가 있습니다.
   
-1. Microsoft 365 Enterprise 테스트 환경을 만듭니다.
+1. 엔터프라이즈 테스트 환경용 Microsoft 365을 만듭니다.
     
 2. 사용자 2 계정에 대해 multi-factor authentication을 사용 하도록 설정 하 고 테스트 합니다.
 
@@ -44,9 +44,9 @@ Microsoft 365 Enterprise 테스트 환경에서는 계정에 대해 multi-factor
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대 한 시각적 지도를 보려면 [테스트 랩 가이드 스택으로](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) 이동 합니다.
+> 엔터프라이즈 테스트 랩 가이드 스택의 Microsoft 365에 있는 모든 문서에 대 한 시각적 지도를 보려면 [테스트 랩 가이드 스택으로](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) 이동 합니다.
   
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>1단계: Microsoft 365 Enterprise 테스트 환경 구축
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>1 단계: 엔터프라이즈 테스트 환경용 Microsoft 365 구축
 
 최소 요구 사항과 함께 경량 방식으로 multi-factor authentication을 테스트 하려는 경우에는 [간단한 기본 구성](lightweight-base-configuration-microsoft-365-enterprise.md)의 지침을 따릅니다.
   
@@ -81,7 +81,7 @@ Microsoft 365 Enterprise 테스트 환경에서는 계정에 대해 multi-factor
   
 1. 브라우저의 새 개인 인스턴스를 엽니다.
     
-2. Office 365 portal ()로 이동 [https://portal.office.com](https://portal.office.com) 하 여 사용자 2 계정 이름 및 암호를 사용 하 여 로그인 합니다.
+2. [Microsoft 365 관리 센터로](https://admin.microsoft.com) 이동 하 여 사용자 2 계정 이름 및 암호를 사용 하 여 로그인 합니다.
     
 3. 로그인 한 후에는 계정을 설정 하 라는 메시지가 표시 됩니다. **다음**을 클릭합니다.
     
@@ -105,7 +105,7 @@ Microsoft 365 Enterprise 테스트 환경에서는 계정에 대해 multi-factor
 
 ## <a name="phase-3-enable-and-test-multi-factor-authentication-with-a-conditional-access-policy"></a>3 단계: 조건부 액세스 정책을 사용 하 여 다단계 인증을 사용 하도록 설정 및 테스트
 
-*이 단계는 Microsoft 365 Enterprise 테스트 환경에만 사용할 수 있습니다.*
+*이 단계는 엔터프라이즈 테스트 환경용 Microsoft 365에만 사용할 수 있습니다.*
 
 이 단계에서는 그룹 및 조건부 액세스 정책을 사용 하 여 사용자 3 계정에 대해 multi-factor authentication을 사용 하도록 설정 합니다.
 
@@ -136,18 +136,16 @@ Microsoft 365 Enterprise 테스트 환경에서는 계정에 대해 multi-factor
 
 이 정책을 테스트 하려면 로그 아웃 하 고 사용자 3 계정으로 로그인 합니다. MFA를 구성 하 라는 메시지가 표시 되어야 합니다. 이는 MFAUsers 정책이 적용 되는 것을 보여 줍니다.
 
-프로덕션 환경에서 다단계 인증을 배포 하는 방법에 대 한 자세한 내용은 Identity 단계에서 [multi-factor Authentication 설정](identity-secure-user-sign-ins.md#identity-mfa) 단계를 참조 하세요.
-    
 ## <a name="next-step"></a>다음 단계
 
 테스트 환경에서 추가 [ID](m365-enterprise-test-lab-guides.md#identity) 기능도 알아봅니다.
 
 ## <a name="see-also"></a>참고 항목
 
-[2단계: ID](identity-infrastructure.md)
+[Id 로드맵](identity-roadmap-microsoft-365.md)
 
-[Microsoft 365 Enterprise 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
+[엔터프라이증용 Microsoft 365 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
 
-[Microsoft 365 Enterprise 배포](deploy-microsoft-365-enterprise.md)
+[엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
-[Microsoft 365 Enterprise 설명서](https://docs.microsoft.com/microsoft-365-enterprise/)
+[엔터프라이즈 설명서에 대 한 Microsoft 365](https://docs.microsoft.com/microsoft-365-enterprise/)
