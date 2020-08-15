@@ -343,8 +343,12 @@
       items:
         - name: 레코드 관리
           href: records-management.md
-        - name: 레코드
+        - name: 레코드에 대해 알아보기
           href: records.md
+        - name: 레코드 선언
+          href: declare-records.md
+        - name: 레코드 버전 관리
+          href: record-versioning.md
 - name: eDiscovery 관리
   items:
     - name: Microsoft 365의 eDiscovery
