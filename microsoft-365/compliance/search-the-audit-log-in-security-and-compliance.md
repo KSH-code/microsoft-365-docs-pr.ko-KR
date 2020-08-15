@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자와 관리자 활동을 확인합니다. '
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5bbcd7c7e3c68b5b5a23736901e5772454e9e10a
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 39c58a86b3f8e3bec2225c4a3df53120fac79eea
+ms.sourcegitcommit: 929ca8f4d5fc006c3827f7a8b7d2b43e54c1b42a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577998"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46674628"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
@@ -39,8 +39,6 @@ ms.locfileid: "46577998"
 - Azure Active Directory(Office 365용 디렉터리 서비스)의 관리자 활동
 
 - Exchange Online(Exchange 관리자 감사 로깅)의 관리자 활동
-
-- Sway의 사용자 및 관리자 활동
 
 - 보안 및 준수 센터에서 eDiscovery 활동
 
@@ -130,7 +128,6 @@ ms.locfileid: "46577998"
   |보안 및 준수 센터|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |민감도 레이블||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |SharePoint Online 및 비즈니스용 OneDrive|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Sway||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Workplace Analytics|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Yammer||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Microsoft Forms|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
@@ -305,15 +302,15 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |:-----|:-----|:-----|
 |[파일 및 페이지 활동](#file-and-page-activities)|[폴더 활동](#folder-activities)|[SharePoint 목록 활동](#sharepoint-list-activities)|
 |[공유 및 액세스 요청 활동](#sharing-and-access-request-activities)|[동기화 활동](#synchronization-activities)|[사이트 사용 권한 활동](#site-permissions-activities)|
-|[사이트 관리 활동](#site-administration-activities)|[Exchange 사서함 활동](#exchange-mailbox-activities)|[Sway 활동](#sway-activities)|
-|[사용자 관리 활동](#user-administration-activities)|[Azure AD 그룹 관리 활동](#azure-ad-group-administration-activities)|[응용 프로그램 관리 활동](#application-administration-activities)|
-|[역할 관리 활동](#role-administration-activities)|[디렉터리 관리 활동](#directory-administration-activities)|[eDiscovery 활동](#ediscovery-activities)|
-|[고급 eDiscovery 활동](#advanced-ediscovery-activities)|[Power BI 활동](#power-bi-activities)|[Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)|
-|[Microsoft Teams 활동](#microsoft-teams-activities)|[Microsoft Teams 보건 활동](#microsoft-teams-healthcare-activities)|[Microsoft Teams Shifts 활동](#microsoft-teams-shifts-activities)|
-|[Yammer 활동](#yammer-activities)|[Microsoft Power Automate 활동](#microsoft-power-automate-activities)|[Microsoft Power Apps 활동](#microsoft-power-apps-activities)|
-|[Microsoft Stream 활동](#microsoft-stream-activities)|[콘텐츠 탐색기 활동](#content-explorer-activities)|[격리 활동](#quarantine-activities)|
-|[Microsoft Forms 활동](#microsoft-forms-activities)|[민감도 레이블 및 활동](#sensitivity-label-activities)|[Exchange 관리자 활동](#exchange-admin-audit-log)|
-|[유지 정책 및 보존 레이블 활동](#retention-policy-and-retention-label-activities)|||
+|[사이트 관리 활동](#site-administration-activities)|[Exchange 사서함 활동](#exchange-mailbox-activities)|[사용자 관리 활동](#user-administration-activities)|
+|[Azure AD 그룹 관리 활동](#azure-ad-group-administration-activities)|[응용 프로그램 관리 활동](#application-administration-activities)|[역할 관리 활동](#role-administration-activities)|
+|[디렉터리 관리 활동](#directory-administration-activities)|[eDiscovery 활동](#ediscovery-activities)|[고급 eDiscovery 활동](#advanced-ediscovery-activities)|
+|[Power BI 활동](#power-bi-activities)|[Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)|[Microsoft Teams 활동](#microsoft-teams-activities)|
+|[Microsoft Teams 보건 활동](#microsoft-teams-healthcare-activities)|[Microsoft Teams Shifts 활동](#microsoft-teams-shifts-activities)|[Yammer 활동](#yammer-activities)|
+|[Microsoft Power Automate 활동](#microsoft-power-automate-activities)|[Microsoft Power Apps 활동](#microsoft-power-apps-activities)|[Microsoft Stream 활동](#microsoft-stream-activities)|
+|[콘텐츠 탐색기 활동](#content-explorer-activities)|[격리 활동](#quarantine-activities)|[Microsoft Forms 활동](#microsoft-forms-activities)|
+|[민감도 레이블 및 활동](#sensitivity-label-activities)|[유지 정책 및 보존 레이블 활동](#retention-policy-and-retention-label-activities)|[Exchange 관리자 활동](#exchange-admin-audit-log)
+|||
 
 ### <a name="file-and-page-activities"></a>파일 및 페이지 활동
 
@@ -557,28 +554,6 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |메시지 업데이트됨|업데이트|메시지 또는 해당 속성이 변경되었습니다.|
 |사용자가 사서함에 로그인함|MailboxLogin|사용자가 자신의 사서함에 로그인했습니다.|
 |메시지에 레코드로 레이블을 지정합니다.||사용자가 전자 메일 메시지에 보존 레이블을 적용했으며 해당 레이블은 항목을 레코드로 표시하도록 구성되어 있습니다. |
-||||
-
-### <a name="sway-activities"></a>Sway 활동
-
-다음 표에서는 Sway의 사용자와 관리자 활동을 보여 줍니다. Sway는 사용자가 대화형 웹 기반 캔버스에서 아이디어, 스토리 및 프레젠테이션을 수집하고, 서식을 지정하고, 공유하는 데 도움이 되는 Microsoft 365 앱입니다. 자세한 내용은 [Sway에 대한 질문과 대답 – 관리자 도움말](https://support.office.com/article/446380fa-25bf-47b2-996c-e12cb2f9d075)을 참조하세요.
-
-|이름|작업|설명|
-|:-----|:-----|:-----|
-|Sway 공유 수준 변경됨|SwayChangeShareLevel|사용자가 Sway의 공유 수준을 변경합니다. 이 이벤트는 사용자가 Sway와 연결된 공유 범위(예: 공개 및 조직 내부)를 변경하는 작업을 캡처합니다.|
-|Sway 만들어짐|SwayCreate|사용자가 Sway를 만듭니다.|
-|Sway 삭제됨|SwayDelete|사용자가 Sway를 삭제합니다.|
-|Sway 복제가 사용하지 않도록 설정됨|SwayDisableDuplication|사용자가 Sway 복제를 사용하지 않도록 설정합니다.|
-|Sway 복제됨|SwayDuplicate|사용자가 Sway를 복제합니다.|
-|Sway 편집됨|SwayEdit|사용자가 Sway를 편집합니다.|
-|Sway 복제가 사용하도록 설정됨|EnableDuplication|사용자가 Sway 복제를 사용도록 설정합니다. 사용자가 기본적으로 Sway 복제를 사용하도록 설정할 수 있습니다.|
-|Sway 공유 취소|SwayRevokeShare|사용자가 액세스 권한을 취소하여 Sway 공유를 중지합니다. 액세스 권한을 취소하면 Sway와 연결된 링크가 변경됩니다.|
-|Sway 공유됨|SwayShare|사용자가 Sway를 공유하려고 합니다. 이 이벤트는 Sway 공유 메뉴 내에서 특정 공유 대상을 클릭하는 사용자 작업을 캡처합니다. 이벤트에서 사용자가 공유 작업을 완료했는지 여부는 표시하지 않습니다.|
-|Sway 외부 공유 꺼짐|SwayExternalSharingOff|관리자가 Microsoft 365 관리 센터를 사용하여 전체 조직에 대해 외부 Sway 공유를 사용하지 않도록 설정합니다.|
-|Sway 외부 공유 켜짐|SwayExternalSharingOn|관리자가 Microsoft 365 관리 센터를 사용하여 전체 조직에 대해 외부 Sway 공유를 사용하도록 설정합니다.|
-|Sway 서비스 꺼짐|SwayServiceOff|관리자가 Microsoft 365 관리 센터를 사용하여 전체 조직에 대해 Sway를 사용하지 않도록 설정합니다.|
-|Sway 서비스 켜짐|SwayServiceOn|관리자가 Microsoft 365 관리 센터를 사용하여 전체 조직에 대해 Sway를 사용하도록 설정합니다(Sway 서비스는 기본적으로 사용됨).|
-|Sway 조회됨|SwayView|사용자가 Sway를 조회했습니다.|
 ||||
 
 ### <a name="user-administration-activities"></a>사용자 관리 활동
