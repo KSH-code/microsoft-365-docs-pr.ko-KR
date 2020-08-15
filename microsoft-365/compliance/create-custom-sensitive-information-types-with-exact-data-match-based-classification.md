@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d08589ec9465142e772c3190954ed7f93fbc68fe
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 699cea6aec6f11462aed0c08db98ca4620df519a
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648753"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686562"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -40,6 +40,23 @@ ms.locfileid: "46648753"
 ![EDM 기반 분류](../media/EDMClassification.png)
 
 EDM 기반 분류를 사용하면 중요한 정보 데이터베이스의 정확한 값을 참조하는 사용자 지정 중요한 정보 유형을 만들 수 있습니다. 데이터베이스는 매일 또는 매주 새로 고칠 수 있으며 최대 1억 개의 데이터 행을 포함할 수 있습니다. 직원, 환자 또는 고객이 계속 이동하고 기록이 변경됨에 따라 사용자 지정 중요한 정보 유형을 적절하고 최신인 상태로 유지합니다. 또한 EDM 기반 분류를 [데이터 손실 방지 정책(DLP)](data-loss-prevention-policies.md) 또는 [Microsoft Cloud App Security 파일 정책](https://docs.microsoft.com/cloud-app-security/data-protection-policies) 등의 정책과 사용할 수 있습니다.
+
+> [!NOTE]
+> Microsoft 365 Information Protection은 이제 다음에 대해 미리보기 더블 바이트 문자 집합 언어를 지원합니다.
+> - 중국어(간체)
+> - 중국어(번체)
+> - 한국어
+> - 일본어
+> 
+>이 미리 보기는 상용 클라우드에서만 실행되며 롤아웃은 다음으로 제한됩니다.
+> - 일본
+> - 한국
+> - 중국
+> - 홍콩
+> - 마카오
+> - 대만
+>
+>이 지원은 중요한 정보 유형에 대해 사용할 수 있습니다. 자세한 정보는 [더블 바이트 문자 집합 릴리스 정보(미리 보기)에 대한 정보 보호 지원](mip-dbcs-relnotes.md)을 참조하세요.
 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 
@@ -484,7 +501,7 @@ Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $us
 
 #### <a name="to-create-a-dlp-policy-with-edm"></a>EDM으로 DLP 정책 만들기
 
-1. [구독에 적합한 링크](#portal-links-for-your-subscription)를 사용하여 보안 및 컴플라이언스 센터로 이동합니다.
+1. [구독에 적합한 링크](#portal-links-for-your-subscription)를 사용하여 보안 및 규정 준수 센터로 이동합니다.
 
 2.  **데이터 손실 방지** \> **정책**을 선택합니다.
 

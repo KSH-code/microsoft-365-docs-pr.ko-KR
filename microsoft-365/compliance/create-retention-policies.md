@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체 또는 특정 위치 또는 사용자에게 단일 정책을 적용할 수 있고 모든 콘텐츠 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: 3bec74c1043e2ecfd632144647945f441433dcb2
-ms.sourcegitcommit: 12e19f9cc319f25ab9dd3b0f77ad17e227d7f0be
+ms.openlocfilehash: 4eb08eed668efb598068a7229b9312ccb6654274
+ms.sourcegitcommit: 919b5d0f33b41b4beaca5fbb06e1c75d65027b7e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672913"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46757581"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -150,7 +150,7 @@ SharePoint 사이트 또는 OneDrive 계정의 위치를 지정하는 경우, �
 
 Microsoft 365 그룹(이전 이름: Office 365 그룹)의 콘텐츠를 보존하거나 삭제하려면 **Office 365 그룹** 위치를 사용합니다. Microsoft 365 그룹이 Exchange 사서함을 보유하고 있더라도 전체 **Exchange 전자 메일** 위치를 포함하는 보존 정책이 Microsoft 365 그룹 사서함의 콘텐츠를 포함하지는 않습니다. 또한 **Exchange 전자 메일** 위치에서 처음에 포함하거나 제외할 그룹 사서함을 지정할 수 있지만 보존 정책을 저장하려고 하면 "RemoteGroupMailbox"가 Exchange 위치에 대해 올바른 선택이 아니라는 오류가 발생합니다.
 
-Microsoft 365 그룹에 적용되는 보존 정책에는 그룹 사서함과 사이트가 모두 포함됩니다. Microsoft 365 그룹에 적용된 보존 정책은 Microsoft Teams를 포함하여 Microsoft 365 그룹에서 생성한 리소스를 보호합니다.
+만약 팀 사이트가 그룹이 만들어 졌을 때 선택되었거나 혹은 나중에 그룹에 추가 된 경우, 그룹 사서함 및 팀 사이트를 포함한 Microsoft 365 그룹에 적용되는 보존 정책입니다. 팀 사이트에 저장된 파일은 이 위치에 포함되지만 자신의 보존 정책 위치가 있는 Teams 채팅 혹은 Teams 채널 메시지는 포함되지 않습니다.
 
 ### <a name="configuration-information-for-skype-for-business"></a>비즈니스용 Skype에 대한 구성 정보
 

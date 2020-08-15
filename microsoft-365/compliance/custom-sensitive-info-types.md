@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 'DLP(데이터 손실 방지)에 대한 사용자 지정 중요한 정보 유형(예: 기본 패턴, 문자 근접성, 신뢰 수준)의 개요를 확인합니다.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6934edba6eef03bc9d4bfc5c1c69f127a7d3a0e5
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 3b3e30c75641dde16726e1d98c8f12c4437b0df6
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817967"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685478"
 ---
 # <a name="custom-sensitive-information-types"></a>사용자 지정 중요한 정보 유형
 
@@ -50,11 +50,26 @@ Microsoft 365에는 [데이터 손실 방지](data-loss-prevention-policies.md)(
 
 보안 및 준수 센터에서 사용자 지정 중요한 정보 유형을 만들려면 몇 가지 옵션 중에서 선택할 수 있습니다.
 
-- **EDM 사용**(신규!) EDM(Exact Data Match) 기반 분류를 사용하여 사용자 정의 중요한 정보 유형을 설정할 수 있습니다. 이 방법을 사용하면 주기적으로 새로 고칠 수 있는 보안 데이터베이스를 사용하여 동적인 중요한 정보 유형을 만들 수 있습니다. [분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)를 참조하십시오.
+- **EDM 사용** EDM(정확한 데이터 일치) 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 설정할 수 있습니다. 이 방법을 사용하면 주기적으로 새로 고칠 수 있는 보안 데이터베이스를 사용하여 동적인 중요한 정보 유형을 만들 수 있습니다. [분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)를 참조하십시오.
 
 - **PowerShell을 사용** PowerShell을 사용하여 사용자 지정 중요한 정보 유형을 설정할 수 있습니다. 이 방법은 UI를 사용하는 것보다 복잡하지만 더 다양한 구성 옵션이 있습니다. [보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)를 참조하십시오.
 
 - **UI 사용** 보안 및 준수 센터 UI를 사용하여 사용자 지정 중요한 정보 유형을 설정할 수 있습니나. 이 방법을 사용하면 정규식, 키워드 및 키워드 사전을 사용할 수 있습니다. 자세한 내용은 [사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)을 참조하십시오.
 
-
+> [!NOTE]
+> Microsoft 365 Information Protection은 이제 다음에 대해 미리보기 더블 바이트 문자 집합 언어를 지원합니다.
+> - 중국어(간체)
+> - 중국어(번체)
+> - 한국어
+> - 일본어
+> 
+>이 미리 보기는 상용 클라우드에서만 실행되며 롤아웃은 다음으로 제한됩니다.
+> - 일본
+> - 한국
+> - 중국
+> - 홍콩
+> - 마카오
+> - 대만
+>
+>이 지원은 중요한 정보 유형에 대해 사용할 수 있습니다. 자세한 정보는 [더블 바이트 문자 집합 릴리스 정보(미리 보기)에 대한 정보 보호 지원](mip-dbcs-relnotes.md)을 참조하세요.
 

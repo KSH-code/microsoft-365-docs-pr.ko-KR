@@ -16,18 +16,18 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Microsoft 365 서비스 상태
-ms.openlocfilehash: 26a9983528072054606cc399ad871d0f99fd22fb
-ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
+ms.openlocfilehash: f7bb310452f841c04eabdd683d3ec82b4ad2b57a
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43583360"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686605"
 ---
 # <a name="microsoft-365-network-health-status"></a>Microsoft 365 네트워크 상태
 
 COVID-19 위기 동안 Microsoft 클라우드 서비스에 대한 수요가 증가함에 따라 Microsoft는 글로벌 네트워크 상태에 대한 정보와 고객에게 발생하지만 제어할 수 없는 네트워크 품질 문제에 대한 정보를 제공하고 있습니다.
 
-이 정보에는 Office 365를 포함한 서비스 제공으로서 모든 소프트웨어에 영향을 미치는 네트워크 문제가 포함됩니다.
+이 정보에는 Microsoft 365를 비롯한 서비스 오퍼링의 모든 소프트웨어에 영향을 미치는 네트워크 문제가 포함됩니다.
 
 _이 페이지의 업데이트가 지연될 수 있습니다. 보다 자동화된 솔루션을 구축하는 동안 수동으로 업데이트하고 있습니다._
 
@@ -43,6 +43,6 @@ Microsoft 글로벌 네트워크 내에서 또는 고객과 Microsoft 네트워�
 
 이러한 리소스를 사용하여 Microsoft 서비스의 네트워크 사용률을 향상시키세요.
 
-- [VPN 분할 터널링을 사용하여 원격 사용자에게 맞도록 Office 365 연결 최적화](https://docs.microsoft.com/office365/enterprise/office-365-vpn-split-tunnel)
-- [네트워크 연결의 Office 365 원칙](https://aka.ms/pnc)
+- [VPN 분할 터널링를 사용하여 원격 사용자를 위한 Microsoft 365 연결을 최적화합니다.](microsoft-365-vpn-split-tunnel.md)
+- [Microsoft 365의 네트워크 연결 원리](https://aka.ms/pnc)
 - [Azure 네트워킹 서비스를 사용하여 원격으로 작업](https://docs.microsoft.com/azure/networking/working-remotely-support)

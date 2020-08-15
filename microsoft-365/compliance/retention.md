@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: b799f35789ac113128ecb1adcbeae48aede7f847
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: b0ce412609ac9c7084c1c598a327cde7c055c101
+ms.sourcegitcommit: 919b5d0f33b41b4beaca5fbb06e1c75d65027b7e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662312"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46757571"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -58,7 +58,7 @@ ms.locfileid: "46662312"
 
 - Exchange 사서함의 경우: **복구 가능한 항목** 폴더에 사본이 보존됩니다. 
 
-- Teams 채널 및 채팅 메시지의 경우: 사본은 Exchange **복구 가능한 항목** 폴더 내의 숨겨진 폴더에 보존됩니다.
+- Teams 채널 및 채팅 메시지의 경우: 사본은 Exchange **복구 가능한 항목** 폴더 내에 하위 폴더로 **SubstrateHolds**라는 이름의 숨겨진 폴더에 보존됩니다.
 
 > [!NOTE]
 > 자료 보존 라이브러리는 사이트의 저장소 할당량에서 제외되지 않은 저장소를 사용합니다. SharePoint 및 Microsoft 365 그룹에 대한 보존 설정을 사용하는 경우 저장소를 늘려야 할 수 있습니다.

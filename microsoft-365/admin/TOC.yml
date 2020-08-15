@@ -133,20 +133,8 @@
               href: create-groups/add-or-remove-members-from-groups.md
             - name: 삭제된 그룹 복원
               href: create-groups/restore-deleted-group.md
-            - name: 그룹의 거버넌스 계획
-              href: create-groups/plan-for-groups-governance.md
-            - name: 그룹 만들기 관리
-              href: create-groups/manage-creation-of-groups.md
-            - name: 그룹에 대한 도메인 선택
-              href: create-groups/choose-domain-to-create-groups.md
-            - name: 그룹 명명 정책의 개요
-              href: create-groups/groups-naming-policy.md
-            - name: 구성원이 그룹에서 메일을 보낼 수 있도록 허용
-              href: create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md
             - name: 그룹에 대한 게스트 액세스 관리
               href: create-groups/manage-guest-access-in-groups.md
-            - name: 그룹에서 민감도 레이블 사용
-              href: ../compliance/sensitivity-labels-teams-groups-sites.md
     - name: 전자 메일 및 일정 관리
       href: email/index.yml
       items:

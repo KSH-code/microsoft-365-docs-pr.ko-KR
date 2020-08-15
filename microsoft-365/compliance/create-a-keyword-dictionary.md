@@ -9,7 +9,7 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.date: ''
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - M365-security-compliance
 search.appverid:
@@ -17,33 +17,50 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: Office 365 보안 & 준수 센터에서 키워드 사전을 만드는 기본 단계를 알아봅니다.
-ms.openlocfilehash: a2b56d013b452f02a26ea956da19e5644bf9d44a
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
-ms.translationtype: MT
+description: Office 365 보안 및 준수 센터에서 키워드 사전을 만드는 기본 단계에 대해 알아봅니다.
+ms.openlocfilehash: d3308de0138b13391a5bd8a4493cda87c4023bd8
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648731"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686640"
 ---
 # <a name="create-a-keyword-dictionary"></a>키워드 사전 만들기
 
-DLP (데이터 손실 방지)는 중요 한 정보를 식별, 모니터링 및 보호할 수 있습니다. 중요 한 정보 식별 간혹 키워드를 찾으려는 경우, 특히 일반 콘텐츠 (예: 의료 관련 통신)를 식별 하거나 부적절 한 언어나 명시적 언어를 사용 해야 하는 경우가 있습니다. 키워드 목록은 중요 한 정보 유형으로 만들 수 있지만 키워드 목록은 크기를 제한 하며 XML을 수정 하 여 만들거나 편집 해야 합니다. 키워드 사전은 보다 간단 하 게 키워드를 관리 하 고, 사전 당 최대 10만 용어를 지원 하 고 모든 언어를 지원할 수 있습니다.
+DLP(데이터 손실 방지)는 중요한 항목을 식별, 모니터링 및 보호할 수 있습니다. 중요한 항목을 식별하려면 키워드를 찾아야 하는 경우가 있으며, 특히 의료 관련 통신과 같은 일반 컨텐츠 또는 부적절하거나 명시적인 언어를 식별해야 합니다. 중요한 정보 유형에서 키워드 목록을 만들 수 있지만 키워드 목록은 크기가 제한되어 있으며, 키워드 목록을 만들거나 편집하려면 XML을 수정해야 합니다. 키워드 사전은 사전당 최대 100,000개의 용어를 지원하여 키워드를 보다 쉽게 관리할 수 있도록 지원합니다.
+  
+> [!NOTE]
+> Microsoft 365 Information Protection은 이제 다음에 대해 미리보기 더블 바이트 문자 집합 언어를 지원합니다.
+> - 중국어(간체)
+> - 중국어(번체)
+> - 한국어
+> - 일본어
+> 
+>이 미리 보기는 상용 클라우드에서만 실행되며 롤아웃은 다음으로 제한됩니다.
+> - 일본
+> - 한국
+> - 중국
+> - 홍콩
+> - 마카오
+> - 대만
+>
+>이 지원은 중요한 정보 유형에 대해 사용할 수 있습니다. 자세한 정보는 [더블 바이트 문자 집합 릴리스 정보(미리 보기)에 대한 정보 보호 지원](mip-dbcs-relnotes.md)을 참조하세요.
 
 ## <a name="basic-steps-to-creating-a-keyword-dictionary"></a>키워드 사전을 만드는 기본 단계
 
 사전의 키워드는 다양한 원본, 서비스 또는 PowerShell cmdlet에서 가져온 파일(예:.csv 또는 .txt 목록)(대부분의 경우), PowerShell cmdlet에 사용자가 직접 입력한 목록 또는 기존 사전에서 가져올 수 있습니다. 키워드 사전을 만들 때 다음과 같은 동일한 핵심 단계를 따르세요.
   
-1. **보안 & 준수 센터** ()를 사용 [https://protection.office.com](https://protection.office.com) 하거나 보안 및 ** &amp; 준수 센터 PowerShell**에 연결 합니다.
+1. **보안 및 규정 준수 센터**([https://protection.office.com](https://protection.office.com))를 사용하거나 **보안 &amp;준수 센터 PowerShell**에 연결합니다.
     
-2. **원하는 원본에서 키워드를 정의 하거나 로드**합니다. 마법사와 cmdlet은 모두 쉼표로 구분 된 키워드 목록을 사용 하 여 사용자 지정 키워드 사전을 만들기 때문에이 단계는 키워드의 출처에 따라 약간씩 다릅니다. 일단 로드되고 나면 가져오기 전에 인코딩되어 바이트 배열로 변환됩니다.
+2. **원하는 원본**에서 키워드를 정의 하거나 로드할 수 있습니다. 마법사와 cmdlet 모두 쉼표로 구분된 키워드 목록을 사용하여 사용자 정의 키워드 사전을 만들 수 있으므로 이 단계는 키워드의 출처에 따라 약간 다릅니다. 로드되면 가져오기 전에 인코딩 및 바이트 배열로 변환됩니다.
     
-3. **사전을 만듭니다**. 이름 및 설명을 선택 하 고 사전을 만듭니다.
+3. **사전을 만듭니다**. 이름과 설명을 선택하고 사전을 만듭니다.
 
-## <a name="create-a-keyword-dictionary-using-the-security--compliance-center"></a>보안 & 준수 센터를 사용 하 여 키워드 사전 만들기
+## <a name="create-a-keyword-dictionary-using-the-security--compliance-center"></a>보안 및 준수 센터를 사용하여 키워드 사전을 만듭니다.
 
 다음 단계를 따라 사용자 지정 사전에 대한 키워드를 만들고 가져오세요.
 
-1. 보안 & 준수 센터 ()에 연결 합니다 [https://protection.office.com](https://protection.office.com) .
+1. 보안 및 규정 준수 센터([https://protection.office.com](https://protection.office.com))에 연결합니다.
 
 2. **분류 > 중요한 정보 유형**으로 이동합니다.
 
@@ -69,7 +86,7 @@ DLP (데이터 손실 방지)는 중요 한 정보를 식별, 모니터링 및 �
     
 ## <a name="create-a-keyword-dictionary-from-a-file-using-powershell"></a>PowerShell을 사용하여 파일에서 키워드 사전 만들기
 
-큰 사전을 만들어야 하는 경우에는 다른 원본에서 내보낸 파일 또는 목록의 키워드를 사용 하는 것이 좋습니다. 이 경우 외부 전자 메일 화면에 부적합 한 언어 목록이 포함 된 키워드 사전을 만듭니다. 먼저 [보안 &amp; 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)해야 합니다.
+대형 사전을 작성해야 하는 경우 파일 또는 다른 원본에서 내보낸 목록의 키워드를 사용하는 경우가 많습니다. 이 경우 외부 전자 메일에서 표시하기에 부적절한 언어 목록이 포함된 키워드 사전을 만듭니다. 먼저 [보안 &amp; 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)에 연결해야 합니다.
   
 1. 키워드를 텍스트 파일에 복사합니다. 이때 각 키워드를 별도 줄에 복사해야 합니다.
     
@@ -91,7 +108,7 @@ DLP (데이터 손실 방지)는 중요 한 정보를 식별, 모니터링 및 �
 
 키워드 사전 중 하나에 있는 키워드를 수정하거나 기본 제공 사전 중 하나에서 키워드를 수정해야 할 수 있습니다. 현재는 PowerShell을 사용한 사용자 지정 사전 업데이트만 가능합니다. 
 
-예를 들어 PowerShell에서 몇 가지 용어를 수정 하 고,이 용어를 로컬로 저장 한 후 편집기에서 수정할 수 있습니다. 
+예를 들어 PowerShell에서 일부 용어를 수정하고, 용어를 수정할 수 있는 위치에 로컬로 저장한 다음 이전 용어를 제자리에 업데이트합니다. 
 
 먼저 사전 개체를 검색합니다.
   
@@ -99,9 +116,9 @@ DLP (데이터 손실 방지)는 중요 한 정보를 식별, 모니터링 및 �
 $dict = Get-DlpKeywordDictionary -Name "Diseases"
 ```
 
-인쇄 `$dict` 시 다양 한 변수가 표시 됩니다. 키워드 자체는 백 엔드에서 개체에 저장 되지만 `$dict.KeywordDictionary` 사전을 수정 하는 데 사용할 수 있는 문자열 표현이 포함 되어 있습니다. 
+`$dict`을(를) 인쇄하면 다양한 변수가 표시됩니다. 키워드 자체는 백엔드의 개체에 저장되지만 `$dict.KeywordDictionary`에는 키워드에 대한 문자열 표현이 포함되어 있어 사전을 수정하는 데 사용됩니다. 
 
-사전을 수정 하려면 메서드를 사용 하 여 용어 문자열을 다시 배열로 변환 해야 합니다 `.split(',')` . 그런 다음 메서드를 사용 하 여 키워드와 함께 사용 하는 불필요 한 공백을 정리 하 여 `.trim()` 사용할 키워드만 남겨 둡니다. 
+사전을 수정하기 전에 `.split(',')` 방법을 사용하여 용어 문자열을 어레이로 다시 변환해야 합니다. 그런 다음 `.trim()` 메서드를 사용하여 키워드 사이의 원치 않는 공백을 정리합니다. 
   
 ```powershell
 $terms = $dict.KeywordDictionary.split(',').trim()
@@ -182,7 +199,7 @@ PS> Set-DlpKeywordDictionary -Identity "Diseases" -FileData (Get-Content -Path "
   
 ## <a name="using-keyword-dictionaries-in-custom-sensitive-information-types-and-dlp-policies"></a>사용자 지정 중요한 정보 유형과 DLP 정책에서 키워드 사전 사용
 
-키워드 사전은 사용자 지정 중요 한 정보 유형 또는 중요 한 정보 유형 자체로 일치 요구 사항의 일부로 사용할 수 있습니다. 두 경우 모두 [사용자 지정 중요 한 정보 유형을](create-a-custom-sensitive-information-type-in-scc-powershell.md)만들어야 합니다. 중요 한 정보 유형을 만들려면 연결 된 문서에 설명 된 지침을 따릅니다. XML을 사용 하는 경우에는 사전의 GUID 식별자가 필요 합니다.
+키워드 사전은 사용자 정의 중요한 정보 유형에 대한 일치 요구 사항의 일부로 사용하거나 중요한 정보 유형 자체로 사용할 수 있습니다. 둘 다 [사용자 지정 중요한 정보 유형](create-a-custom-sensitive-information-type-in-scc-powershell.md)을(를) 생성해야 합니다. 링크된 문서의 지침에 따라 중요한 정보 유형을 만듭니다. XML을 사용하게 되면 사전에 사용할 GUID 식별자가 필요합니다.
   
 ```xml
 <Entity id="9e5382d0-1b6a-42fd-820e-44e0d3b15b6e" patternsProximity="300" recommendedConfidence="75">

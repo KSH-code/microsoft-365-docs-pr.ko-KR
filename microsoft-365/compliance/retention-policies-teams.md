@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Teams에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: 9c7232b5e90dd51322755220c40198a5bd077cce
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 8599774994ccabce716c1366c0ffc6e1773626e9
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577976"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685810"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Microsoft Teams의 보존에 대해 알아보기
 
@@ -66,7 +66,7 @@ Teams 채팅 및 채널 메시지는 사용자 또는 그룹 사서함에 대해
 
 1. 보존 기간 동안 **메시지가 삭제되지 않은 경우**: 보존 기간이 끝나면 메시지가 SubstrateHolds 폴더로 이동됩니다. 
 
-2. 해당 기간 동안 **항목이 사용자에 의해 삭제되면** 항목은 즉시 SubstrateHolds 폴더로 이동합니다. 사용자가 메시지를 삭제하거나 SubstrateHolds 폴더를 비우면 항목이 영구적으로 삭제됩니다. 그렇지 않으면 SubstrateHolds 폴더에 들어간 후 하루가 지나면 메시지가 영구적으로 삭제됩니다.
+2. 해당 기간 동안 **항목이 사용자에 의해 삭제되면** 항목은 즉시 SubstrateHolds 폴더로 이동합니다. 이 메시지는 SubstrateHolds 폴더에 있었던 다음 날 영구적으로 삭제됩니다.
 
 
 ## <a name="skype-for-business-and-teams-interop-chats"></a>비즈니스용 Skype 및 팀 상호 운용 채팅

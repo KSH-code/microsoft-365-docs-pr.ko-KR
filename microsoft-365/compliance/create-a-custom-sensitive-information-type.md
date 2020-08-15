@@ -17,21 +17,38 @@ search.appverid:
 - MET150
 description: 보안 및 준수 센터의 그래픽 사용자 인터페이스에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정, 제거 및 테스트하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f702582a0e2c53b0846cd0586295d9bbea657e3c
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 0c54cd9d4969c87bbd83b3048883d8a84dd9bc59
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818067"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686662"
 ---
 <!-- rename md file to match the display name -->
 # <a name="create-a-custom-sensitive-information-type-in-the-security--compliance-center"></a>보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기
 
-이 문서를 읽고 보안 및 준수 센터([https://protection.office.com](https://protection.office.com))에서 [사용자 지정 중요한 정보 유형](custom-sensitive-info-types.md)을 만들어 보세요. 이 방법으로 만드는 사용자 지정 중요한 정보 유형은 이름이 `Microsoft.SCCManaged.CustomRulePack`인 규칙 패키지에 추가됩니다.
+이 문서를 읽고 보안 및 규정 준수 센터([https://protection.office.com](https://protection.office.com))에서 사용자 지정에 중요한 정보 유형을 생성합니다. 이 방법으로 만드는 사용자 지정 중요한 정보 유형은 이름이 `Microsoft.SCCManaged.CustomRulePack`인 규칙 패키지에 추가됩니다.
 
 PowerShell 및 정확한 데이터 매치 기능을 사용하여 사용자 지정 중요한 정보 유형을 만들 수도 있습니다. 해당 방법에 대한 자세한 내용은 다음을 참조하세요.
 - [보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 - [정확한 데이터 매치(EDM)를 사용하여 DLP를 위한 사용자 지정 중요한 정보 유형 만들기](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
+
+> [!NOTE]
+> Microsoft 365 Information Protection은 이제 다음에 대해 미리보기 더블 바이트 문자 집합 언어를 지원합니다.
+> - 중국어(간체)
+> - 중국어(번체)
+> - 한국어
+> - 일본어
+> 
+>이 미리 보기는 상용 클라우드에서만 실행되며 롤아웃은 다음으로 제한됩니다.
+> - 일본
+> - 한국
+> - 중국
+> - 홍콩
+> - 마카오
+> - 대만
+>
+>이 지원은 중요한 정보 유형에 대해 사용할 수 있습니다. 자세한 정보는 [더블 바이트 문자 집합 릴리스 정보(미리 보기)에 대한 정보 보호 지원](mip-dbcs-relnotes.md)을 참조하세요.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
