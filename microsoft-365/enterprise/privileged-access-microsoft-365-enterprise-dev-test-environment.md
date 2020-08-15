@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Enterprise 테스트 환경에 대한 권한이 부여된 액세스 관리
+title: 엔터프라이즈 테스트 환경용 Microsoft 365에 대 한 권한이 부여 된 액세스 관리
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -14,26 +14,26 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-security-compliance
 ms.custom: Ent_TLGs
-description: 이 테스트 랩 가이드를 사용 하 여 Microsoft 365 Enterprise Test environment 권한 있는 액세스 관리를 사용 하도록 설정 합니다.
-ms.openlocfilehash: 1a81c62124177a328209f175262ac13455ca0899
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+description: 이 테스트 랩 가이드를 사용 하 여 권한 있는 액세스 관리 엔터프라이즈 테스트 환경용 Microsoft 365을 사용 하도록 설정 합니다.
+ms.openlocfilehash: 28fd27c3059fe25da5da8aaf8700b84c5989b408
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352525"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46695149"
 ---
-# <a name="privileged-access-management-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대한 권한이 부여된 액세스 관리
+# <a name="privileged-access-management-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경용 Microsoft 365에 대 한 권한이 부여 된 액세스 관리
 
-*이 테스트 랩 가이드는 Microsoft 365 Enterprise와 Office 365 Enterprise 테스트 환경 모두에서 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 enterprise 및 Office 365 Enterprise 테스트 환경용 Microsoft 365에 모두 사용할 수 있습니다.*
 
-이 문서의 지침을 사용 하 여 Microsoft 365 Enterprise 테스트 환경에서 보안을 강화 하도록 권한이 부여 된 액세스 관리를 구성 합니다.
+이 문서의 지침을 사용 하 여 엔터프라이즈 테스트 환경용 Microsoft 365의 보안을 강화 하도록 권한이 부여 된 액세스 관리를 구성 합니다.
 
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 >[!TIP]
 >[여기](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
   
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>1단계: Microsoft 365 Enterprise 테스트 환경 구축
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>1 단계: 엔터프라이즈 테스트 환경용 Microsoft 365 구축
 
 최소 요구 사항에 따라 간단한 방식으로 권한 있는 액세스 관리를 구성 하려는 경우에는 [간단한 기본 구성](lightweight-base-configuration-microsoft-365-enterprise.md)의 지침을 따릅니다.
   
@@ -44,17 +44,17 @@ ms.locfileid: "44352525"
 
 ## <a name="phase-2-configure-privileged-access-management"></a>2 단계: 권한 있는 액세스 관리 구성
 
-이 단계에서는 승인자 그룹을 구성 하 고 Microsoft 365 Enterprise 테스트 환경에 대해 권한이 부여 된 액세스 관리를 사용 하도록 설정 합니다. 권한 있는 액세스 관리에 대 한 자세한 내용 및 개요는 [Office 365의 권한이 부여 된 액세스 관리](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview)를 참조 하세요.
+이 단계에서는 승인자 그룹을 구성 하 고 Microsoft 365에 대해 엔터프라이즈 테스트 환경용으로 권한이 부여 된 액세스 관리를 사용 하도록 설정 합니다. 권한 있는 액세스 관리에 대 한 자세한 내용 및 개요는 [권한이 부여 된 액세스 관리](../compliance/privileged-access-management-overview.md)를 참조 하십시오.
 
 조직에서 권한 있는 액세스를 설정 및 사용 하려면 다음 단계를 수행 합니다.
 
-- [1 단계: 승인자 그룹 만들기](https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-configuration#step-1-create-an-approvers-group)
+- [1 단계: 승인자 그룹 만들기](../compliance/privileged-access-management-configuration.md#step-1-create-an-approvers-group)
 
-    권한 액세스 사용을 시작 하기 전에 권한 상승 및 권한 있는 작업에 대 한 수신 요청 액세스에 대 한 승인 기관을 사용자에 게 결정 합니다. 승인자 그룹에 속하는 모든 사용자는 액세스 요청을 승인할 수 있습니다. 이 기능은 Office 365에서 메일 사용이 가능한 보안 그룹을 만들어 사용할 수 있습니다. 테스트 환경에 "권한이 부여 된 액세스 승인자" 라는 새 보안 그룹을 만들고 이전 테스트 랩 가이드 단계에서 만든 "사용자 3"을 추가 합니다.
+    권한 액세스 사용을 시작 하기 전에 권한 상승 및 권한 있는 작업에 대 한 수신 요청 액세스에 대 한 승인 기관을 사용자에 게 결정 합니다. 승인자 그룹에 속하는 모든 사용자는 액세스 요청을 승인할 수 있습니다. 이 기능은 Microsoft 365에서 메일 사용이 가능한 보안 그룹을 만들어 사용할 수 있습니다. 테스트 환경에 "권한이 부여 된 액세스 승인자" 라는 새 보안 그룹을 만들고 이전 테스트 랩 가이드 단계에서 만든 "사용자 3"을 추가 합니다.
 
-- [2 단계: 권한 있는 액세스 사용](https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-configuration#step-2-enable-privileged-access)
+- [2 단계: 권한 있는 액세스 사용](../compliance/privileged-access-management-configuration.md#step-2-enable-privileged-access)
 
-    권한 있는 액세스는 Office 365에서 기본 승인자 그룹을 사용 하 고 권한 있는 액세스 관리 액세스 제어에서 제외할 시스템 계정 집합을 포함 하 여 명시적으로 설정 해야 합니다. 이 가이드의 3 단계를 시작 하기 전에 조직에서 권한이 부여 된 액세스를 사용 하도록 설정 해야 합니다.
+    권한 있는 액세스는 Microsoft 365에서 기본 승인자 그룹을 사용 하 고 권한 있는 액세스 관리 액세스 제어에서 제외 하려는 시스템 계정 집합을 포함 해야 합니다. 이 가이드의 3 단계를 시작 하기 전에 조직에서 권한이 부여 된 액세스를 사용 하도록 설정 해야 합니다.
 
 ## <a name="phase-3-verify-that-approval-is-required-for-elevated-and-privileged-tasks"></a>3 단계: 관리자 권한 및 권한 있는 작업에 대 한 승인이 필요한 지 확인
 
@@ -171,8 +171,8 @@ New-JournalRule -Name "JournalRule2" -Recipient user1@<your subscription domain>
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 Enterprise 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
+[엔터프라이증용 Microsoft 365 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
 
-[Microsoft 365 Enterprise 배포](deploy-microsoft-365-enterprise.md)
+[엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
-[Microsoft 365 Enterprise 설명서](https://docs.microsoft.com/microsoft-365-enterprise/)
+[엔터프라이즈 설명서에 대 한 Microsoft 365](https://docs.microsoft.com/microsoft-365-enterprise/)

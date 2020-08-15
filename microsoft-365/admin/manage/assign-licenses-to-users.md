@@ -22,13 +22,13 @@ ms.custom:
 search.appverid:
 - MET150
 description: 사용자에게 라이선스를 할당하는 방법을 알아봅니다.
-ms.date: 07/01/2020
-ms.openlocfilehash: 648a3433bf5c2bd9bb96abb90335f56ee4fb6bee
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.date: 08/14/2020
+ms.openlocfilehash: e1f28107f7774fa4eccbecb3882cbd002a6eea1a
+ms.sourcegitcommit: 919b5d0f33b41b4beaca5fbb06e1c75d65027b7e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45015950"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46757560"
 ---
 # <a name="assign-licenses-to-users"></a>사용자에게 라이선스 할당
 
@@ -160,6 +160,25 @@ ms.locfileid: "45015950"
 5. **제품 라이선스** 창의 아래쪽에서 **저장** \> **닫기** \> **닫기**를 선택합니다.
 
 ::: moniker-end
+
+## <a name="assign-a-license-to-a-guest-user"></a>게스트 사용자에게 라이선스를 할당
+
+Azure Active Directory 관리 센터에서 게스트 사용자를 조직과 공동 작업하도록 초대할 수 있습니다. 게스트 사용자에 대한 자세한 내용은 [Azure Active Directory B2B의 게스트 사용자 액세스란 무엇입니까?](https://docs.microsoft.com/azure/active-directory/external-identities/what-is-b2b)를 참조하십시오. 게스트 사용자가 없는 경우 [빠른 시작: Azure portal에서 디렉터리에 게스트 사용자 추가](https://docs.microsoft.com/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal)를 참조하세요.
+
+> [!IMPORTANT]
+> 다음 단계를 수행하려면 전역 관리자여야 합니다.
+
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2067268" target="_blank">Azure Active Directory 관리 센터</a>로 이동
+2. 탐색 창에서 **사용자**를 선택합니다.
+3. **사용자 | 모든 사용자(미리 보기)** 페이지에서 **필터 추가**를 선택합니다.
+4. **필드 선택** 메뉴에서 **사용자 유형**을 선택한 다음 **적용**을 선택합니다.
+5. 다음 메뉴에서 **게스트**를 선택합니다.
+6. 결과 목록에서 라이선스가 필요한 사용자를 선택합니다.
+7. **관리**에서 **라이선스**를 선택합니다.
+8. **과제**를 선택합니다.
+9. **라이선스 할당 업데이트** 페이지에서 라이선스를 할당하려는 제품을 선택합니다.
+10. 오른쪽에서 게스트 사용자가 액세스하지 않을 서비스에 대한 확인란의 선택을 취소합니다.
+11. **저장**을 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

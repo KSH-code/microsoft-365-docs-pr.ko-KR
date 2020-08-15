@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체 또는 특정 위치 또는 사용자에게 단일 정책을 적용할 수 있고 모든 콘텐츠 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: 3a08bd67ff705b0b11b815843041b146fbef388f
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 3bec74c1043e2ecfd632144647945f441433dcb2
+ms.sourcegitcommit: 12e19f9cc319f25ab9dd3b0f77ad17e227d7f0be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656752"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46672913"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -308,7 +308,7 @@ Outlook의 **대화 내용** 폴더는 Skype 보관과 아무 관계가 없는 �
     
     ![PowerShell의 RestrictiveRetention 매개 변수](../media/retention-policy-preservation-lock-restrictiveretention.PNG)
     
-     메시지가 표시되면 이 구성과 함께 제공되는 제한 사항을 읽고 승인한 다음 **모두 예**를 선택합니다.
+     메시지가 표시되면 이 구성과 함께 제공되는 제한 사항을 읽고 **Y**를 입력하여 승인합니다.
     
    ![PowerShell에서 보존 정책 잠금을 원하는지 확인하는 메시지](../media/retention-policy-preservation-lock-confirmation-prompt.PNG)
 

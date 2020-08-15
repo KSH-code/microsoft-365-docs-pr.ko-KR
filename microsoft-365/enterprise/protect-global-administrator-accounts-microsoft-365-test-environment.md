@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Enterprise 테스트 환경에서 전역 관리자 계정 보호
+title: 엔터프라이즈 테스트 환경용 Microsoft 365의 전역 관리자 계정 보호
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,23 +14,23 @@ ms.collection: M365-identity-device-management
 ms.custom:
 - TLG
 - Ent_TLGs
-description: 다음 단계를 사용 하 여 Microsoft 365 Enterprise 테스트 환경에서 전역 관리자 계정을 보호 합니다.
-ms.openlocfilehash: e6b93e3888873b6d78fec1802d179ed9624ffa63
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+description: 다음 단계를 사용 하 여 엔터프라이즈 테스트 환경용 Microsoft 365의 전역 관리자 계정을 보호 합니다.
+ms.openlocfilehash: fff09ca41ff0b648d46b5c33f753affc01242264
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153871"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46695185"
 ---
-# <a name="protect-global-administrator-accounts-in-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에서 전역 관리자 계정 보호
+# <a name="protect-global-administrator-accounts-in-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경용 Microsoft 365의 전역 관리자 계정 보호
 
-*이 테스트 랩 가이드는 Microsoft 365 Enterprise 테스트 환경에만 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 엔터프라이즈 테스트 환경용 Microsoft 365에만 사용할 수 있습니다.*
 
 관리자 계정이 최대한 안전한 지 확인 하 여 조직에서 디지털 공격을 방지할 수 있습니다. 이 문서에서는 Azure Active Directory (Azure AD) 조건부 액세스 정책을 사용 하 여 전역 관리자 계정을 보호 하는 방법을 설명 합니다.
 
-Microsoft 365 Enterprise 테스트 환경에서는 다음과 같은 두 가지 단계를 통해 전역 관리자 계정을 보호 합니다.
+다음과 같은 두 가지 단계를 통해 Microsoft 365에서 엔터프라이즈 테스트 환경에 대 한 전역 관리자 계정을 보호 합니다.
 
-1.  Microsoft 365 Enterprise 테스트 환경을 만듭니다.
+1.  엔터프라이즈 테스트 환경용 Microsoft 365을 만듭니다.
 2.  전용 전역 관리자 계정을 보호 합니다.
 
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
@@ -38,7 +38,7 @@ Microsoft 365 Enterprise 테스트 환경에서는 다음과 같은 두 가지 �
 > [!TIP]
 > [여기](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
 
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>1단계: Microsoft 365 Enterprise 테스트 환경 구축
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>1 단계: 엔터프라이즈 테스트 환경용 Microsoft 365 구축
 
 최소 요구 사항에 따라 간단한 방법으로 전역 관리자 계정 보호를 테스트 하려는 경우에는 [간단한 기본 구성](lightweight-base-configuration-microsoft-365-enterprise.md)의 지침을 따릅니다.
   
@@ -56,7 +56,7 @@ Microsoft 365 Enterprise 테스트 환경에서는 다음과 같은 두 가지 �
 3. **사용자 추가** 창에서 **이름**, **표시 이름**및 **사용자 이름**에 **DedicatedAdmin** 을 입력 합니다.
 4. **암호**를 클릭 하 고 **암호 만들기**를 클릭 한 다음 강력한 암호를 입력 합니다. 이 새 계정의 암호를 안전한 위치에 기록 합니다.
 5. **다음**을 클릭합니다.
-6. **제품 라이선스 할당** 창에서 **Microsoft 365 e5** 또는 **Office 365 E5**를 선택 하 고 **다음**을 클릭 합니다.
+6. **제품 라이선스 할당** 창에서 **Microsoft 365 E5**를 선택 하 고 **다음**을 클릭 합니다.
 7. **선택적 설정** 창에서 **역할**을 클릭 한 다음 **관리 센터 액세스** 및 **전역 관리자**를 선택 합니다. **다음**을 클릭 합니다.
 8. **거의 완료** 된 창에서 **추가 완료**를 클릭 한 다음 **닫기를**클릭 합니다.
 
@@ -75,7 +75,7 @@ Microsoft 365 Enterprise 테스트 환경에서는 다음과 같은 두 가지 �
 
 이 첫 번째 정책에서는 모든 전역 관리자 계정에서 MFA를 사용 해야 합니다.
 
-1. 브라우저의 새 탭에서으로 이동 [https://portal.azure.com](https://portal.azure.com)합니다.
+1. 브라우저의 새 탭에서으로 이동 [https://portal.azure.com](https://portal.azure.com) 합니다.
 2. **Azure Active Directory > 보안 > 조건부 액세스**를 클릭 합니다.
 3. **조건부 액세스 – 정책** 창에서 **기본 정책: 관리자에 게 MFA 필요 (미리 보기)** 을 클릭 합니다.
 4. **기본 정책** 창에서 **정책 즉시 사용 > 저장**을 클릭 합니다.
@@ -96,18 +96,16 @@ Microsoft 365 Enterprise 테스트 환경에서는 다음과 같은 두 가지 �
 
 첫 번째 정책을 테스트 하려면 로그 아웃 하 고 DedicatedAdmin 계정을 사용 하 여 로그인 합니다. MFA를 구성 하 라는 메시지가 표시 되어야 합니다. 이는 첫 번째 정책을 적용 하는 것을 보여 줍니다.
 
-프로덕션에서 전역 관리자 계정을 보호 하는 방법에 대 한 자세한 내용은 Identity 단계에서 [전역 관리자 계정 보호](identity-create-protect-global-admins.md#identity-global-admin) 단계를 참조 하세요.
-
 ## <a name="next-step"></a>다음 단계
 
 테스트 환경에서 추가 [ID](m365-enterprise-test-lab-guides.md#identity) 기능도 알아봅니다.
 
 ## <a name="see-also"></a>참고 항목
 
-[2단계: ID](identity-infrastructure.md)
+[Id 로드맵](identity-roadmap-microsoft-365.md)
 
-[Microsoft 365 Enterprise 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
+[엔터프라이증용 Microsoft 365 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
 
-[Microsoft 365 Enterprise 배포](deploy-microsoft-365-enterprise.md)
+[엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
-[Microsoft 365 Enterprise 설명서](https://docs.microsoft.com/microsoft-365-enterprise/)
+[엔터프라이즈 설명서에 대 한 Microsoft 365](https://docs.microsoft.com/microsoft-365-enterprise/)

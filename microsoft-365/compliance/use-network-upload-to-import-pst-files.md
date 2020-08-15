@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: '관리자: 네트워크 업로드를 사용하여 Microsoft 365의 사용자 사서함으로 여러 PST 파일을 대량으로 가져오는 방법에 대해 알아봅니다.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 14b70c0ab219f1d6153ceef601e3b4b5b4c76d8a
-ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
+ms.openlocfilehash: c126a8e00ae5182d42122fb98f95ffd585360412
+ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46641633"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662292"
 ---
 # <a name="use-network-upload-to-import-your-organizations-pst-files-to-microsoft-365"></a>네트워크 업로드를 사용하여 조직의 PST 파일을 Microsoft 365로 가져오기
 
@@ -390,4 +390,4 @@ PST 파일을 조직의 Azure Storage 위치에 업로드한 후에는 PST 파�
     
 5. **사서함으로 가져올 PST 데이터 필터링:** 가져오기 작업이 만들어지고 시작된 후 Microsoft 365에서 PST 파일의 데이터를 PST 파일에 포함된 다양한 메시지 유형과 항목의 보존 기간을 식별하는 방법으로 안전하고 꼼꼼하게 분석합니다. 분석이 완료되고 데이터를 가져올 준비가 되면 PST 파일에 포함된 모든 데이터를 가져오거나 가져올 데이터를 제어하는 필터를 설정하여 가져온 데이터를 트리밍할 수 있습니다.
     
-6. **PST 가져오기 작업 시작하기:** 가져오기 작업이 시작되면 Microsoft 365는 PST 가져오기 매핑 파일의 정보를 사용하여 Azure Storage 위치의 PST 파일을 사용자 사서함으로 가져옵니다. 가져오기 작업에 대한 상태 정보(가져오는 각 PST 파일에 대한 정보 포함)는 보안 & 준수 센터의 **PST 파일 가져오기** 페이지에 표시됩니다. 가져오기 작업이 완료되면 해당 작업의 상태가 **완료**로 설정됩니다.
+6. **PST 가져오기 작업 시작하기** - 가져오기 작업이 시작되면 Microsoft 365는 PST 가져오기 매핑 파일의 정보를 사용하여 Azure Storage 위치의 PST 파일을 사용자 사서함으로 가져옵니다. 가져오기 작업에 대한 상태 정보(가져오는 각 PST 파일에 대한 정보 포함)는 보안 & 준수 센터의 **PST 파일 가져오기** 페이지에 표시됩니다. 가져오기 작업이 완료되면 해당 작업의 상태가 **완료**로 설정됩니다.

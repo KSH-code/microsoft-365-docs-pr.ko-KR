@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: ff99e61c82f0427d79d8aca99acc82a338f79b8a
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: b799f35789ac113128ecb1adcbeae48aede7f847
+ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649155"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662312"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -115,7 +115,7 @@ ms.locfileid: "46649155"
   
 보존 정책이 잠기는 경우:
 
-- 누구도 해당 정책을 해제할 수 없습니다.
+- 아무도 끌 수 없습니다.
 - 위치는 추가할 수 있지만 제거할 수는 없습니다.
 - 보존 기간 동안에 해당 정책이 적용된 콘텐츠를 수정하거나 삭제할 수 없습니다.
 - 보존 기간을 연장할 수 있지만 줄일 수는 없습니다.

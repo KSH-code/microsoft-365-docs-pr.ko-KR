@@ -9,18 +9,18 @@ ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 Microsoft Endpoint Configuration Manager를 사용하여 엔터프라이즈용 Microsoft 365 앱을 배포하는 방식을 이해합니다.
-ms.openlocfilehash: 4a36e33a6f2ef6df880864dd852f0f63056946e6
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
-ms.translationtype: HT
+ms.openlocfilehash: de6a5348a49a490afa3c3ac632e66026966e2ef3
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44679041"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46695161"
 ---
 # <a name="microsoft-365-apps-for-enterprise-deployment-for-contoso"></a>Contoso용 엔터프라이즈용 Microsoft 365 앱 배포
 
@@ -79,12 +79,12 @@ Contoso의 엔터프라이즈용 Microsoft 365 앱 설치 및 지속적인 업�
  
 ## <a name="next-step"></a>다음 단계
 
-Contoso가 어떻게 Microsoft 365 Enterprise의 Microsoft Intune을 사용하여 조직에서 실행되는 해당 장치 및 앱을 관리하고 있는지 [알아봅니다](contoso-mdm.md).
+Contoso가 Microsoft 365의 microsoft Intune을 사용 하 여 해당 장치 및 조직에서 실행 되는 앱을 관리 하는 방법을 [알아봅니다](contoso-mdm.md) .
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 Enterprise용 엔터프라이즈용 Microsoft 365 앱](office365proplus-infrastructure.md)
+[Microsoft Office 365 ProPlus](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
 
-[배포 가이드](deploy-microsoft-365-enterprise.md)
+[엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
 [테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
