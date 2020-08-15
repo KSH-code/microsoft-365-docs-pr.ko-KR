@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: d8601538b440b5133731d67743379bdc7980d1d5
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: d10b4a7d47f849769d0a534941bddc1c3678f3a4
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522244"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46695221"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Microsoft 365 생산성 일러스트레이션
 
@@ -56,16 +56,6 @@ IT 설계자가 Microsoft 365의 그룹에 대해 알아야 하는 점
 |[![Microsoft Defender ATP 배포 전략의 축소판 이미지](../media/solutions-architecture-center/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)  \| [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.vsdx) <br>2020년 2월에 업데이트됨| 건축 자료는 다음 아키텍처의 배포를 계획하는 데 도움이 됩니다. <ul><li> 클라우드 네이티브 </li><li> 공동 관리 </li><li> 온-프레미스</li><li>평가 및 로컬 온보딩</li>
 
 
-<a name="m365foundationinfra"></a>
-### <a name="microsoft-365-enterprise-foundation-infrastructure"></a>Microsoft 365 Enterprise 기본 인프라
-
-배포를 시작하려면 Microsoft 365 Enterprise의 [기본 인프라](https://docs.microsoft.com/microsoft-365/enterprise/deploy-foundation-infrastructure)에 대한 간략한 보기를 확인하세요.
-  
-|**항목**|**설명**|
-|:-----|:-----|
-|[![Microsoft 365 Enterprise 기본 인프라 포스터의 축소판 이미지](../media/solutions-architecture-center/Microsoft365EnterpriseFoundInfra-thumb.png)](https://aka.ms/m365efoundinfraposter) <br/> [온라인으로](https://aka.ms/m365efoundinfraposter) \| [PDF 보기](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft365EnterpriseFoundInfra.pdf) <br/> 2019년 12월에 업데이트됨| 이 포스터는 목표, 기능 및 도구, 디자인 결정, 구성 결과, 온 보딩, 지속적인 모니터링 및 업데이트 측면에서 기초 인프라의 각 단계를 요약합니다. <br/>| 
-
-   
 <a name="BKMK_O365IDP"></a>
 ### <a name="identity-and-device-protection-for-office-365"></a>Office 365용 ID 및 장치 보호
 

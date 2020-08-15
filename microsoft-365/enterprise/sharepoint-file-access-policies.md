@@ -1,5 +1,5 @@
 ---
-title: 권장되는 보안 문서 정책 - Microsoft 365 Enterprise | Microsoft Docs
+title: 권장 되는 보안 문서 정책-엔터프라이즈에 대 한 Microsoft 365 | Microsoft Docs
 description: SharePoint 파일 액세스를 보호하는 방법에 관한 Microsoft 권장 정책을 설명합니다.
 author: BrendaCarter
 manager: laurawi
@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 784a4d617d74916ae7b0ec4b431cc298ce45531e
-ms.sourcegitcommit: d6b641d0ef92f4176da9f4a98d3d5aa3d4f2e184
+ms.openlocfilehash: 25f58582ae912211f72aaf17c2dab338ebb21c7e
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46617189"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46695041"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>SharePoint 사이트 및 파일을 보호 하기 위한 정책 권장 사항
 
@@ -85,5 +85,4 @@ SharePoint 사이트 사용 권한은 일반적으로 사이트에 대 한 액�
 - James가 PC를 사용 하는 구성원 인 중요 한 사이트에 액세스 하는 경우 해당 PC가 준수 하는 한 액세스 권한이 부여 됩니다.
 - James가 중요 한 사이트에 액세스 하는 경우, 기본 사용자에 게 허용 되는 관리 되지 않는 휴대폰을 사용 하는 구성원 인 경우이 사이트에 대해 구성 된 장치 액세스 정책으로 인해 중요 한 사이트에 대 한 브라우저 전용 액세스 권한이 부여 됩니다.
 - James가 관리 되지 않는 휴대폰을 사용 하는 구성원 인 고도로 규제 된 사이트에 액세스 하는 경우이 사이트에 대해 구성 된 액세스 정책으로 인해 차단 됩니다. 관리 및 준수 PC를 사용 해야만이 사이트에 액세스할 수 있습니다.
-
 
