@@ -2,220 +2,697 @@
   href: index.yml
 - name: 엔터프라이즈용 Microsoft 365 개요
   href: microsoft-365-overview.md
-- name: 엔터프라이즈용 Microsoft 365 배포
-  href: deploy-microsoft-365-enterprise.md
+- name: 네트워킹
   items:
-    - name: Foundation 인프라 배포
-      href: deploy-foundation-infrastructure.md
+    - name: 로드맵
+      href: networking-roadmap-microsoft-365.md
+    - name: 계획
       items:
-        - name: 1번째 작업 단계 - 네트워킹
-          href: networking-infrastructure.md
-          items:
-            - name: 1단계 - Microsoft 365에 맞게 네트워크 준비
-              href: networking-provide-bandwidth-cloud-services.md
-            - name: 2단계 - 각 사무실에 대해 로컬 인터넷 연결 구성
-              href: networking-dns-resolution-same-location.md
-            - name: 3단계 - 네트워크 헤어핀 방지
-              href: networking-avoid-network-hairpins.md
-            - name: 4단계 - 트래픽 바이패스 구성
-              href: networking-configure-proxies-firewalls.md
-            - name: 5단계 - 클라이언트 및 서비스 성능 최적화
-              href: networking-optimize-tcp-performance.md
-            - name: 네트워킹 종료 조건
-              href: networking-exit-criteria.md
-        - name: 2번째 작업 단계 - ID
-          href: identity-infrastructure.md
-          items:
-            - name: 1단계 - 전역 관리자 계정 생성 및 보호
-              href: identity-create-protect-global-admins.md
-            - name: 2단계 - 암호 보호
-              href: identity-secure-your-passwords.md
-            - name: 3단계 - 사용자 로그인 보안 및 관리
-              href: identity-secure-user-sign-ins.md
-            - name: 4단계 - 사용자 계정 추가
-              href: identity-add-user-accounts.md
-            - name: 5단계 - 그룹을 사용하여 관리하십시오.
-              href: identity-use-group-management.md
-            - name: 6단계 - ID 거버넌스 구성
-              href: identity-configure-identity-governance.md
-            - name: ID 종료 기준
-              href: identity-exit-criteria.md
-        - name: 3번째 작업 단계 - Windows 10 Enterprise
-          href: windows10-infrastructure.md
-          items:
-            - name: 1단계 - 조직 준비
-              href: windows10-prepare-your-org.md
-            - name: 2단계 - 현재 위치 업그레이드로 배포
-              href: windows10-deploy-inplaceupgrade.md
-            - name: 3단계 - 새 장치용으로 배포
-              href: windows10-deploy-autopilot.md
-            - name: 4단계 - 장치 상태 및 준수 모니터링
-              href: windows10-enable-windows-analytics.md
-            - name: 5단계 - 보안 기능 배포
-              href: windows10-enable-security-features.md
-            - name: Windows 10 Enterprise 종료 조건
-              href: windows10-exit-criteria.md
-        - name: 4단계 - 엔터프라이즈용 Microsoft 365 앱
-          href: office365proplus-infrastructure.md
-          items:
-            - name: 엔터프라이즈용 Microsoft 365 앱 배포 종료 기준
-              href: office365proplus-exit-criteria.md
-        - name: 5번째 작업 단계 - 모바일 장치 관리
-          href: mobility-infrastructure.md
-          items:
-            - name: 모바일 장치 관리 종료 조건
-              href: mobility-infrastructure-exit-criteria.md
-        - name: 6번째 작업 단계 - 정보 보호
-          href: infoprotect-infrastructure.md
-          items:
-            - name: 1단계 - 보안 및 정보 보호 수준 정의
-              href: infoprotect-define-sec-infoprotect-levels.md
-            - name: 2단계 - 사용자 환경에 대한 분류 구성
-              href: infoprotect-configure-classification.md
-            - name: 3단계 - Office 365에 대한 향상된 보안 구성
-              href: infoprotect-configure-increased-security-office-365.md
-            - name: 4단계 - WIP(Windows Information Protection) 구성
-              href: infoprotect-deploy-windows-information-protection.md
-            - name: 5단계 - 데이터 손실 방지 구성
-              href: infoprotect-data-loss-prevention.md
-            - name: 6단계 - 전자 메일 암호화 구성
-              href: infoprotect-email-encryption.md
-            - name: 7단계 - Office 365에 대한 권한이 부여된 액세스 관리 구성
-              href: infoprotect-configure-privileged-access-management.md
-            - name: 정보 보호 종료 기준
-              href: infoprotect-exit-criteria.md
-        - name: 배포 전략
-          href: deployment-strategies-microsoft-365-enterprise.md
-        - name: 기존 인프라를 사용하여 배포
-          href: deploy-with-existing-infrastructure.md
-        - name: 배포 및 업데이트 채널 예제 구성
-          href: deploy-update-channels-examples.md
-          items:
-            - name: 최신 릴리스에 대한 광범위한 배포
-              href: deploy-update-channels-examples-rapid-deploy.md
-        - name: 비 엔터프라이즈에 배포
-          href: deploy-foundation-infrastructure-non-enterprises.md
-    - name: 작업 부하 배포
-      href: deploy-workloads.md
+        - name: Microsoft 365 네트워킹 연결 개요
+          href: microsoft-365-networking-overview.md
+        - name: Microsoft 365 네트워크 연결 원칙
+          href: microsoft-365-network-connectivity-principles.md
+        - name: Microsoft 365 네트워크 연결 평가
+          href: assessing-network-connectivity.md
+        - name: Office 365용 ExpressRoute를 통한 네트워크 계획
+          href: network-planning-with-expressroute.md
+        - name: Microsoft 365 서비스에 연결되는 네트워크 장치 계획
+          href: plan-for-network-devices.md
+        - name: Microsoft 365의 네트워크 및 마이그레이션 계획
+          href: network-and-migration-planning.md
+    - name: 배포
       items:
-        - name: Microsoft Teams
-          href: teams-workload.md
-        - name: Exchange Online
-          href: exchangeonline-workload.md
-        - name: SharePoint 및 비즈니스용 OneDrive
-          href: sharepoint-online-onedrive-workload.md
-        - name: 마이그레이션
-          href: migration-microsoft-365-enterprise-workload.md
-    - name: 테스트 랩 가이드
-      href: m365-enterprise-test-lab-guides.md
+        - name: 도메인 추가
+          href: 'https://docs.microsoft.com/microsoft-365/admin/setup/add-domain'
+        - name: M365E 끝점 허용 목록 지정 구성
+          items:
+            - name: Office 365 IP 주소 및 URL 웹 서비스
+              href: microsoft-365-ip-web-service.md
+            - name: 웹 서비스에 포함되지 않는 추가 끝점
+              href: additional-office365-ip-addresses-and-urls.md
+        - name: SharePoint Online이 포함된 Office 365 CDN 사용
+          href: use-microsoft-365-cdn-with-spo.md
+        - name: 원격 사용자에 대한 연결 최적화
+          items:
+            - name: VPN 분할 터널링 개요
+              href: microsoft-365-vpn-split-tunnel.md
+            - name: VPN 분할 터널링 구현
+              href: microsoft-365-vpn-implement-split-tunnel.md
+            - name: 중국 사용자를 위한 Microsoft 365 최적화
+              href: microsoft-365-networking-china.md
+            - name: 기본 Windows 10 VPN 클라이언트를 사용하는 원격 작업자를 위한Microsoft 365 트래픽 최적화
+              href: 'https://docs.microsoft.com/en-us/windows/security/identity-protection/vpn/vpn-office-365-optimization'
+        - name: Office 365용 ExpressRoute
+          href: azure-expressroute.md
+          items:
+            - name: Office 365용 ExpressRoute를 사용한 라우팅
+              href: routing-with-expressroute.md
+    - name: 관리
       items:
-        - name: 기본 구성
+        - name: Office 365 끝점
           items:
-            - name: Lightweight
-              href: lightweight-base-configuration-microsoft-365-enterprise.md
-            - name: 시뮬레이트된 엔터프라이즈
-              href: simulated-ent-base-configuration-microsoft-365-enterprise.md
-        - name: ID
+            - name: Microsoft 365 끝점
+              href: microsoft-365-endpoints.md
+            - name: 전 세계 끝점
+              href: urls-and-ip-address-ranges.md
+            - name: 미국 정부 DoD 끝점
+              href: microsoft-365-u-s-government-dod-endpoints.md
+            - name: 미국 정부 GCC High 끝점
+              href: microsoft-365-u-s-government-gcc-high-endpoints.md
+            - name: 21Vianet에서 운영하는 Office 365 끝점
+              href: urls-and-ip-address-ranges-21vianet.md
+            - name: Office 365 Germany 끝점
+              href: microsoft-365-germany-endpoints.md
+        - name: 콘텐츠 배달 네트워크
+          href: content-delivery-networks.md
+        - name: Office 365 서비스의 IPv6 지원
+          href: ipv6-support.md
+        - name: NAT 지원(Office 365)
+          href: nat-support-with-microsoft-365.md
+        - name: Mac용 Office의 네트워크 요청
+          href: network-requests-in-office-2016-for-mac.md
+        - name: 네트워크 플랜 및 성능 조정
+          href: network-planning-and-performance.md
+        - name: 연결 모니터링
+          href: monitor-connectivity.md
+        - name: ExpressRoute 관리
+          href: managing-expressroute-for-connectivity.md
+    - name: Microsoft 365 네트워킹 파트너 프로그램
+      href: microsoft-365-networking-partner-program.md
+- name: 테넌트
+  items:
+    - name: 로드맵
+      href: tenant-roadmap-microsoft-365.md
+    - name: 계획
+      items:
+        - name: '구독, 라이선스, 계정 및 테넌트'
+          href: subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md
+        - name: 타사 SSL 인증서 계획
+          href: plan-for-third-party-ssl-certificates.md
+        - name: 설정 가이드
+          href: setup-guides-for-microsoft-365.md
+        - name: 통합
           items:
-            - name: 암호 해시 동기화
-              href: password-hash-sync-m365-ent-test-environment.md
-            - name: 통과 인증
-              href: pass-through-auth-m365-ent-test-environment.md
-            - name: 페더레이션 인증
-              href: federated-identity-for-your-office-365-dev-test-environment.md
-            - name: Azure AD Seamless Single Sign-on
-              href: single-sign-on-m365-ent-test-environment.md
-            - name: 다단계 인증
-              href: multi-factor-authentication-microsoft-365-test-environment.md
-            - name: 전역 관리자 계정 보호
-              href: protect-global-administrator-accounts-microsoft-365-test-environment.md
-            - name: 암호 쓰기 저장
-              href: password-writeback-m365-ent-test-environment.md
-            - name: 암호 다시 설정
-              href: password-reset-m365-ent-test-environment.md
-            - name: 자동 라이선싱 및 그룹 구성원
-              href: automate-licenses-group-membership-microsoft-365-test-environment.md
-            - name: Azure AD ID 보호
-              href: azure-ad-identity-protection-microsoft-365-test-environment.md
-            - name: ID 및 장치 액세스
-              href: identity-device-access-m365-test-environment.md
+            - name: 통합 앱 및 Azure AD
+              href: integrated-apps-and-azure-ads.md
+            - name: 온-프레미스와 통합
+              href: microsoft-365-integration.md
+            - name: Azure 통합
+              href: azure-integration.md
+            - name: Azure Express 경로
+              href: azure-expressroute.md
+            - name: Office 2013 및 Office 2016 클라이언트 앱에 대해 최신 인증이 작동하는 방법
+              href: modern-auth-for-office-2013-and-2016.md
+        - name: 테넌트 간 공동 작업
+          href: microsoft-365-inter-tenant-collaboration.md
+        - name: 클라이언트 앱 지원
+          items:
+            - name: 인증서 기반 인증
+              href: microsoft-365-client-support-certificate-based-authentication.md
+            - name: 조건부 액세스
+              href: microsoft-365-client-support-conditional-access.md
+            - name: 기본 Mobility 보안 및 Intune에서 선택
+              href: 'https://docs.microsoft.com/office365/securitycompliance/choose-between-mdm-and-intune'
+            - name: 최신 인증
+              href: microsoft-365-client-support-modern-authentication.md
+            - name: Single Sign-On
+              href: microsoft-365-client-support-single-sign-on.md
+        - name: 하이브리드 최신 인증
+          items:
+            - name: 비즈니스용 Skype 서버 및 Exchange 서버의 필수 구성 요소
+              href: hybrid-modern-auth-overview.md
+            - name: Exchange 서버 구성
+              href: configure-exchange-server-for-hybrid-modern-authentication.md
+            - name: 비즈니스용 Skype Online 구성
+              href: configure-skype-for-business-for-hybrid-modern-authentication.md
+            - name: 비즈니스용 및 Skype 및 Exchange 제거 혹은 사용 중지
+              href: remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha.md
+        - name: 업그레이드를 계획하세요.
+          href: plan-upgrade-previous-versions-office.md
+          items:
+            - name: Office 2007
               items:
-                - name: 클라우드 전용
-                  href: cloud-only-prereqs-m365-test-environment.md
-                - name: 암호 해시 동기화
-                  href: phs-prereqs-m365-test-environment.md
-                - name: 통과 인증
-                  href: pta-prereqs-m365-test-environment.md
-        - name: 모바일 장치 관리
+                - name: Office 2007 서버 및 클라이언트에서 업그레이드
+                  href: upgrade-from-office-2007-servers-and-products.md
+                - name: Office 2007 데스크톱
+                  href: 'https://docs.microsoft.com/DeployOffice/endofsupport/office-2007-end-support-roadmap'
+                - name: Exchange 2007
+                  href: exchange-2007-end-of-support.md
+                - name: SharePoint 2007
+                  href: sharepoint-2007-end-of-support.md
+                - name: Office Communications Server
+                  href: 'https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade'
+                - name: PerformancePoint Server 2007
+                  href: pps-2007-end-of-support.md
+                - name: Project Server 2007
+                  href: project-server-2007-end-of-support.md
+            - name: Office 2010
+              items:
+                - name: Office 2010 서버 및 클라이언트에서 업그레이드
+                  href: upgrade-from-office-2010-servers-and-products.md
+                - name: Office 2010 데스크톱
+                  href: 'https://docs.microsoft.com/DeployOffice/endofsupport/office-2010-end-support-roadmap'
+                - name: Exchange 2010
+                  href: exchange-2010-end-of-support.md
+                - name: SharePoint 2010
+                  href: upgrade-from-sharepoint-2010.md
+                - name: Lync Server 2010
+                  href: 'https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade'
+                - name: Project Server 2010
+                  href: project-server-2010-end-of-support.md
+        - name: Microsoft 365에서 테넌트 격리
+          href: microsoft-365-tenant-isolation-overview.md
           items:
-            - name: iOS 및 Android 장치 등록
-              href: enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md
-            - name: 장치 준수 정책
-              href: mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md
-        - name: 정보 보호
+            - name: Azure Active Directory에서 격리 및 액세스 제어
+              href: microsoft-365-isolation-in-azure-active-directory.md
+            - name: 테넌트 경계 모니터링 및 테스트
+              href: microsoft-365-monitoring-and-testing.md
+            - name: 리소스 제한 사항
+              href: microsoft-365-resource-limits.md
+            - name: 격리 및 액세스 컨트롤
+              href: microsoft-365-isolation-in-microsoft-365.md
+            - name: 검색에서 테넌트 격리
+              href: microsoft-365-isolation-in-microsoft-365-search.md
+            - name: 비디오에서 테넌트 격리
+              href: microsoft-365-isolation-in-microsoft-365-video.md
+            - name: Office Graph 및 Delve에서 테넌트 격리
+              href: microsoft-365-isolation-in-graph-and-delve.md
+        - name: 서비스 보증
           items:
-            - name: 강화된 Microsoft 365 보안
-              href: increased-o365-security-microsoft-365-enterprise-dev-test-environment.md
-            - name: 데이터 분류
-              href: data-classification-microsoft-365-enterprise-dev-test-environment.md
-            - name: 권한이 부여된 액세스 관리
-              href: privileged-access-microsoft-365-enterprise-dev-test-environment.md
-    - name: Contoso 사례 연구
-      href: contoso-case-study.md
+            - name: 보안 및 준수 센터의 서비스 보증
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/service-assurance'
+            - name: 관리 액세스 컨트롤
+              href: microsoft-365-administrative-access-controls-overview.md
+              items:
+                - name: 모니터링 및 감사 액세스 컨트롤
+                  href: microsoft-365-monitoring-and-auditing-access-controls.md
+                - name: 격리 컨트롤
+                  href: microsoft-365-isolation-controls.md
+                - name: 담당자 컨트롤
+                  href: microsoft-365-personnel-controls.md
+                - name: echnology 컨트롤
+                  href: microsoft-365-technology-controls.md
+                - name: Yammer Enterprise 액세스 컨트롤
+                  href: microsoft-365-yammer-enterprise-access-controls.md
+            - name: 감사 및 보고
+              href: microsoft-365-auditing-and-reporting-overview.md
+              items:
+                - name: 보고 기능
+                  href: microsoft-365-reporting-features.md
+                - name: eDiscovery 및 검색 기능
+                  href: microsoft-365-ediscovery-and-search-features.md
+                - name: Microsoft 365 엔지니어링에 대한 내부 로깅
+                  href: microsoft-365-internal-logging.md
+                - name: 사서함 마이그레이션
+                  href: microsoft-365-mailbox-migrations.md
+                - name: 작업 API 관리
+                  href: microsoft-365-management-activity-api.md
+            - name: 데이터 복구
+              href: microsoft-365-data-resiliency-overview.md
+              items:
+                - name: 데이터 손상 처리
+                  href: microsoft-365-dealing-with-data-corruption.md
+                - name: Exchange Online 데이터 복원
+                  href: microsoft-365-exchange-data-resiliency.md
+                - name: 맬웨어 및 랜섬웨어 보호
+                  href: microsoft-365-malware-and-ransomware-protection.md
+                - name: 모니터링 및 자동 복구
+                  href: microsoft-365-monitoring-and-self-healing.md
+            - name: '데이터 보존, 삭제 및 폐기'
+              href: microsoft-365-data-retention-deletion-and-destruction-overview.md
+              items:
+                - name: 데이터 폐기
+                  href: microsoft-365-data-destruction.md
+                - name: 불변성
+                  href: microsoft-365-data-immutability.md
+                - name: Exchange Online 데이터 삭제
+                  href: microsoft-365-exchange-online-data-deletion.md
+                - name: SharePoint Online 데이터 삭제
+                  href: microsoft-365-sharepoint-online-data-deletion.md
+                - name: 비즈니스용 Skype 데이터 삭제
+                  href: microsoft-365-skype-data-deletion.md
+            - name: 서비스 거부(Dos) 공격 방지
+              href: microsoft-365-defending-cloud-services-against-dos-attacks.md
+              items:
+                - name: Microsoft의 서비스 거부(Dos) 방어 전략
+                  href: microsoft-365-microsoft-dos-defense-strategy.md
+                - name: 서비스 거부(Dos) 공격에 대한 보안 핵심 원칙
+                  href: microsoft-365-core-principles-of-defense-against-dos-attacks.md
+            - name: Microsoft 클라우드에서 암호화
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-in-the-microsoft-cloud-overview'
+              items:
+                - name: Microsoft 365 서비스 암호화
+                  href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-service-encryption'
+                - name: 전송 중인 데이터 암호화
+                  href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-for-data-in-transit'
+                - name: 고객 관리 암호화 기능
+                  href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-customer-managed-encryption-features'
+                - name: 암호화 위험 및 보호
+                  href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-risks-and-protections'
+                - name: '비즈니스용 Skype, 비즈니스용 OneDrive, SharePoint 온라인 및 Exchange 온라인을 위한 암호화'
+                  href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-for-skype-onedrive-sharepoint-and-exchange'
+                - name: Microsoft Dynamics 365에서 암호화
+                  href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-in-microsoft-dynamics-365'
+                - name: Azure의 암호화
+                  href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-azure-encryption'
+    - name: 배포
       items:
-        - name: 개요
-          href: contoso-overview.md
-        - name: Contoso의 IT 인프라 및 요구 사항
-          href: contoso-infra-needs.md
-        - name: 네트워킹
-          href: contoso-networking.md
-        - name: ID
-          href: contoso-identity.md
-        - name: Windows 10 Enterprise
-          href: contoso-win10.md
-        - name: 엔터프라이즈용 Microsoft 365 앱
-          href: contoso-o365pp.md
-        - name: 모바일 장치 관리
-          href: contoso-mdm.md
-        - name: 정보 보호
-          href: contoso-info-protect.md
-        - name: 보안 요약
-          href: contoso-security-summary.md
-    - name: Microsoft 365 서비스 상태
-      href: microsoft-365-service-health.md
-- name: 데스크톱 배포 센터
-  href: desktop-deployment-center-home.md
+        - name: 도메인 추가
+          href: 'https://docs.microsoft.com/microsoft-365/admin/setup/add-domain'
+    - name: Multi-geo
+      items:
+        - name: Microsoft 365 Multi-Geo
+          href: microsoft-365-multi-geo.md
+        - name: OneDrive 및 SharePoint Multi-Geo
+          href: multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md
+        - name: Exchange Multi-Geo
+          href: multi-geo-capabilities-in-exchange-online.md
+        - name: 계획
+          items:
+            - name: Multi-Geo 계획
+              href: plan-for-multi-geo.md
+            - name: 관리 환경
+              href: administering-a-multi-geo-environment.md
+            - name: 사용자 환경
+              href: multi-geo-user-experience.md
+        - name: 배포
+          items:
+            - name: Multi-Geo 구성
+              href: multi-geo-tenant-configuration.md
+            - name: 기본 설정 데이터 위치 구성
+              href: /azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation?toc=/Office365/Enterprise/toc.json&bc=/office365/enterprise/breadcrumb/toc.json
+            - name: 검색 구성
+              href: configure-search-for-multi-geo.md
+        - name: 관리
+          items:
+            - name: Multi-Geo 환경 관리
+              href: administering-a-multi-geo-environment.md
+            - name: SharePoint 할당량 관리
+              href: sharepoint-multi-geo-storage-quota.md
+            - name: OneDrive 사이트 이동
+              href: move-onedrive-between-geo-locations.md
+            - name: SharePoint 사이트 이동
+              href: move-sharepoint-between-geo-locations.md
+            - name: 지역 관리자 추가 또는 제거
+              href: add-a-sharepoint-geo-admin.md
+            - name: 지리적 위치로 콘텐츠 제한
+              href: restrict-content-to-geo-location.md
+            - name: Microsoft 365 Multi-Geo eDiscovery 구성
+              href: multi-geo-ediscovery-configuration.md
+            - name: 특정 PDL로 그룹 만들기
+              href: multi-geo-add-group-with-pdl.md
+            - name: 지리적 위치 삭제
+              href: delete-a-geo-location.md
+            - name: 위성 지리적 위치에서 SharePoint Multi-Geo 사용
+              href: enabling-SP-multigeo-satellite-geolocation.md
+            - name: Exchange Multi-Geo 관리
+              href: administering-exchange-online-multi-geo.md
+    - name: 새 Microsoft 365 데이터 센터 geo로 이동
+      href: moving-data-to-new-datacenter-geos.md
+      items:
+        - name: 데이터 이동을 요청하는 방법
+          href: request-your-data-move.md
+        - name: 데이터 이동 도중 및 이후
+          href: during-and-after-your-data-move.md
+        - name: 데이터 이동 일반 FAQ
+          href: data-move-faq.md
+        - name: 'Microsoft 클라우드 독일: Office 365 마이그레이션 프로그램'
+          href: ms-cloud-germany-transition.md
+        - name: 'Microsoft 클라우드 독일: 마이그레이션을 위한 옵트인'
+          href: ms-cloud-germany-migration-opt-in.md
+        - name: 고객 데이터가 저장되는 위치
+          href: o365-data-locations.md
+- name: ID
   items:
-    - name: '시작하기 - 사용자, 프로세스 및 기술 지침'
-      href: getting-started.md
-    - name: 1단계 - 장치 및 앱 준비
-      href: step-1-device-and-app-readiness.md
-    - name: '2단계: 디렉터리 및 네트워크 준비'
-      href: step-2-directory-and-network-readiness.md
-    - name: 3단계 - Office 및 LOB 앱 배달
-      href: step-3-office-and-lob-app-delivery.md
-    - name: '4단계: 사용자 파일 및 설정'
-      href: step-4-user-files-and-settings-migration.md
-    - name: 5단계 - 보안 및 준수 고려 사항
-      href: step-5-security-and-compliance.md
-    - name: 6단계 - 운영 체제 배포 및 기능 업데이트
-      href: step-6-os-deployment-and-feature-updates.md
-    - name: 7단계 - Windows 및 Office Servicing
-      href: step-7-windows-and-office-as-a-service.md
-    - name: '8단계: 사용자 커뮤니케이션 및 교육'
-      href: step-8-user-communications-and-training.md
-    - name: Windows 7에서 Windows 10으로 수동 업그레이드
-      href: windows-7-to-windows-10-upgrade-manual.md
-    - name: Windows 7에서 Windows 10으로 자동 업그레이드
-      href: windows-7-to-windows-10-upgrade-automated.md
-    - name: Windows 및 Office 배포 및 랩 키트
-      href: modern-desktop-deployment-and-management-lab.md
-    - name: 배포 관련 도움말 찾기
-      href: find-help-for-modern-desktop-deployment.md
+    - name: 로드맵
+      href: identity-roadmap-microsoft-365.md
+    - name: 계획
+      items:
+        - name: ID 모델
+          href: about-microsoft-365-identity.md
+        - name: 하이브리드 ID
+          href: plan-for-directory-synchronization.md
+    - name: 배포
+      items:
+        - name: 전역 관리자 계정 보호
+          href: protect-your-global-administrator-accounts.md
+        - name: 클라우드 전용 ID
+          href: cloud-only-identities.md
+        - name: 하이브리드 ID
+          href: prepare-for-directory-synchronization.md
+        - name: '디렉터리 동기화를 위해 라우팅할 수 없는 도메인(예: .local 도메인) 준비'
+          href: prepare-a-non-routable-domain-for-directory-synchronization.md
+        - name: 디렉터리 동기화 설정
+          href: set-up-directory-synchronization.md
+        - name: 하이브리드 솔루션
+          items:
+            - name: 개요
+              href: hybrid-solutions.md
+            - name: Azure Active Directory를 사용하여 SharePoint Server 2016 인증
+              href: using-azure-ad-for-sharepoint-server-authentication.md
+            - name: 온-프레미스 네트워크를 Azure Virtual Network에 연결
+              href: connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md
+            - name: Azure IaaS에서 디렉터리 동기화 서버 배포
+              href: deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md
+            - name: Azure에서 Office 365용 고가용성 페더레이션 인증 배포
+              href: deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md
+              items:
+                - name: '1단계: Azure 구성'
+                  href: high-availability-federated-authentication-phase-1-configure-azure.md
+                - name: '2단계: 도메인 컨트롤러 구성'
+                  href: high-availability-federated-authentication-phase-2-configure-domain-controllers.md
+                - name: '3단계: AD FS 서버 구성'
+                  href: high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md
+                - name: '4단계: 웹 응용 프로그램 프록시 구성'
+                  href: high-availability-federated-authentication-phase-4-configure-web-application-pro.md
+                - name: '5단계: 페더레이션 인증 구성'
+                  href: high-availability-federated-authentication-phase-5-configure-federated-authentic.md
+            - name: Microsoft Azure에서 SharePoint Server 2013 재해 복구
+              href: sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md
+    - name: 관리
+      items:
+        - name: 사용자 계정에 라이선스 할당
+          href: assign-licenses-to-user-accounts.md
+        - name: Microsoft 365 도움말 센터
+          href: 'https://docs.microsoft.com/office365/admin/admin-home'
+        - name: 사용자 계정 관리 도구
+          href: manage-microsoft-365-accounts.md
+        - name: 동시에 여러 사용자 추가
+          href: add-several-users-at-the-same-time.md
+        - name: '사용자의 사서함에서 삭제된 항목 복구 '
+          href: recover-deleted-items-in-a-mailbox.md
+        - name: 디렉터리 동기화
+          items:
+            - name: 디렉터리 동기화 상태 보기
+              href: view-directory-synchronization-status.md
+            - name: 디렉터리 동기화 오류 식별
+              href: identify-directory-synchronization-errors.md
+            - name: 디렉터리 동기화 문제 해결
+              href: fix-problems-with-directory-synchronization.md
+            - name: 디렉터리 동기화 끄기
+              href: turn-off-directory-synchronization.md
+- name: 클라이언트 및 서버 소프트웨어
+  items:
+    - name: 로드맵
+      href: client-server-software-roadmap-microsoft-365.md
+    - name: 계획
+      items:
+        - name: 업그레이드를 계획하세요.
+          href: plan-upgrade-previous-versions-office.md
+    - name: 배포
+      items:
+        - name: Office 2007
+          items:
+            - name: Office 2007 서버 및 클라이언트에서 업그레이드
+              href: upgrade-from-office-2007-servers-and-products.md
+            - name: Office 2007 데스크톱
+              href: 'https://docs.microsoft.com/DeployOffice/office-2007-end-support-roadmap'
+            - name: Exchange 2007
+              href: exchange-2007-end-of-support.md
+            - name: SharePoint 2007
+              href: sharepoint-2007-end-of-support.md
+            - name: Office Communications Server
+              href: 'https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade'
+            - name: PerformancePoint Server 2007
+              href: pps-2007-end-of-support.md
+            - name: Project Server 2007
+              href: project-server-2007-end-of-support.md
+        - name: Office 2010
+          items:
+            - name: Office 2010 서버 및 클라이언트에서 업그레이드
+              href: upgrade-from-office-2010-servers-and-products.md
+            - name: Office 2010 데스크톱
+              href: 'https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap'
+            - name: Exchange 2010
+              href: exchange-2010-end-of-support.md
+            - name: SharePoint 2010
+              href: upgrade-from-sharepoint-2010.md
+            - name: Lync Server 2010
+              href: 'https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade'
+            - name: Project Server 2010
+              href: project-server-2010-end-of-support.md
+- name: 보안 및 규정 준수
+  href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap'
+- name: 클라우드 서비스
+  items:
+    - name: 로드맵
+      href: cloud-services-roadmap-microsoft-365.md
+    - name: 배포
+      items:
+        - name: 준비
+          href: configure-services-and-applications.md
+        - name: Exchange Online
+          href: 'https://docs.microsoft.com/Exchange/exchange-online'
+        - name: SharePoint
+          href: 'https://docs.microsoft.com/sharepoint/sharepoint-online'
+        - name: 비즈니스용 Skype
+          href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online'
+        - name: Microsoft Teams
+          href: 'https://docs.microsoft.com/MicrosoftTeams/Teams-overview'
+        - name: Yammer
+          href: 'https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe'
+        - name: 권한 관리 활성화
+          href: activate-rms-in-microsoft-365.md
+        - name: 릴리스 옵션 구성
+          href: 'https://support.office.com/article/365-3b3adfa4-1777-4ff0-b606-fb8732101f47'
+        - name: 사용자 교육하기
+          href: 'https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365#training-resources-for-your-users'
+    - name: 관리
+      items:
+        - name: 서비스 상태 확인 방법
+          href: view-service-health.md
+        - name: 지원 옵션
+          href: 'https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b'
+        - name: Exchange Online
+          href: 'https://docs.microsoft.com/Exchange/exchange-online'
+        - name: SharePoint
+          href: 'https://support.office.com/article/79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a'
+        - name: 비즈니스용 Skype
+          href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online'
+        - name: Microsoft Teams
+          href: 'https://docs.microsoft.com//MicrosoftTeams/quality-of-experience-review-guide'
+        - name: Yammer
+          href: 'https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe'
+        - name: 성능 및 조정
+          items:
+            - name: Microsoft 365 성능 조정
+              href: tune-microsoft-365-performance.md
+            - name: 초기 계획 및 성능 기록을 사용하여 성능 조정
+              href: performance-tuning-using-baselines-and-history.md
+            - name: Exchange Online 성능 조정
+              href: tune-exchange-online-performance.md
+            - name: SharePoint 성능 조정
+              href: tune-sharepoint-online-performance.md
+              items:
+                - name: SharePoint의 성능 조정 소개
+                  href: introduction-to-performance-tuning-for-sharepoint-online.md
+                - name: SharePoint의 성능 문제 진단
+                  href: diagnosing-performance-issues-with-sharepoint-online.md
+            - name: 비즈니스용 Skype Online 성능 조정
+              href: tune-skype-for-business-online-performance.md
+            - name: Project Online 성능 조정
+              href: 'https://docs.microsoft.com/ProjectOnline/tune-project-online-performance'
+            - name: 성능 문제 해결 계획
+              href: performance-troubleshooting-plan.md
+- name: Windows 10
+  href: 'https://docs.microsoft.com/windows/deployment/'
+- name: 엔터프라이즈용 Microsoft 365 앱
+  href: 'https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps'
+- name: 배포 및 업데이트 채널 예제 구성
+  items:
+    - name: 개요
+      href: deploy-update-channels-examples.md
+    - name: 최신 릴리스에 대한 광범위한 배포
+      href: deploy-update-channels-examples-rapid-deploy.md
+- name: 디바이스 관리
+  items:
+    - name: 로드맵
+      href: device-management-roadmap-microsoft-365.md
+- name: PowerShell로 Microsoft 365 관리
+  href: manage-microsoft-365-with-microsoft-365-powershell.md
+  items:
+    - name: TVM을 간편하게
+      href: getting-started-with-microsoft-365-powershell.md
+      items:
+        - name: PowerShell을 사용해야 하는 이유
+          href: why-you-need-to-use-microsoft-365-powershell.md
+        - name: PowerShell을 사용하여 Microsoft 365에 연결
+          href: connect-to-microsoft-365-powershell.md
+        - name: 단일 Windows PowerShell 창에서 모든 Microsoft 365 서비스에 연결
+          href: connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window.md
+        - name: PowerShell을 사용하여 보고서 만들기
+          href: use-windows-powershell-to-create-reports-in-microsoft-365.md
+        - name: Office 365 서비스에 대한 cmdlet 참조
+          href: cmdlet-references-for-microsoft-365-services.md
+        - name: PowerShell 커뮤니티 리소스
+          href: microsoft-365-powershell-community-resources.md
+    - name: 'PowerShell로 Microsoft 365 사용자 계정, 라이선스 및 그룹 관리'
+      href: manage-user-accounts-and-licenses-with-microsoft-365-powershell.md
+      items:
+        - name: 사용자 계정
+          items:
+            - name: 만들기
+              href: create-user-accounts-with-microsoft-365-powershell.md
+            - name: 보기
+              href: view-user-accounts-with-microsoft-365-powershell.md
+            - name: 속성 구성
+              href: configure-user-account-properties-with-microsoft-365-powershell.md
+            - name: 역할 할당
+              href: assign-roles-to-user-accounts-with-microsoft-365-powershell.md
+            - name: 삭제 및 복원
+              href: delete-and-restore-user-accounts-with-microsoft-365-powershell.md
+            - name: 차단
+              href: block-user-accounts-with-microsoft-365-powershell.md
+        - name: 라이선스 및 서비스
+          items:
+            - name: 보기
+              href: view-licenses-and-services-with-microsoft-365-powershell.md
+            - name: 라이선스 사용자 및 허가되지 않은 사용자 보기
+              href: view-licensed-and-unlicensed-users-with-microsoft-365-powershell.md
+            - name: 사용자 계정에 라이선스 할당
+              href: assign-licenses-to-user-accounts-with-microsoft-365-powershell.md
+            - name: 계정 라이선스 및 서비스 세부 정보 보기
+              href: view-account-license-and-service-details-with-microsoft-365-powershell.md
+            - name: 서비스에 액세스 사용 안 함
+              href: disable-access-to-services-with-microsoft-365-powershell.md
+              items:
+                - name: Sway에 액세스 사용 안 함
+                  href: disable-access-to-sway-with-microsoft-365-powershell.md
+                - name: 사용자 라이선스를 할당하는 동안 서비스에 대한 액세스 사용 안 함
+                  href: disable-access-to-services-while-assigning-user-licenses.md
+                - name: 사용자 계정에서 라이선스 제거
+                  href: remove-licenses-from-user-accounts-with-microsoft-365-powershell.md
+        - name: 그룹
+          items:
+            - name: 그룹 멤버 자격 유지 관리
+              href: maintain-group-membership-with-microsoft-365-powershell.md
+            - name: Microsoft 365 그룹 관리
+              href: manage-microsoft-365-groups-with-powershell.md
+    - name: SharePoint Online 관리
+      href: manage-sharepoint-online-with-microsoft-365-powershell.md
+      items:
+        - name: SharePoint Online 사이트 만들기 및 사용자 추가
+          href: create-sharepoint-sites-and-add-users-with-powershell.md
+        - name: SharePoint Online 사용자 및 그룹 관리
+          href: manage-sharepoint-users-and-groups-with-powershell.md
+        - name: SharePoint Online 사이트 그룹 관리
+          href: manage-sharepoint-site-groups-with-powershell.md
+    - name: Exchange Online 관리
+      href: 'https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell'
+    - name: 전자 메일용 PowerShell을 사용하여 Office 365로 마이그레이션
+      href: use-powershell-for-email-migration-to-microsoft-365.md
+      items:
+        - name: PowerShell을 사용하여 Microsoft 365로 컷오버 마이그레이션 수행
+          href: use-powershell-to-perform-a-cutover-migration-to-microsoft-365.md
+        - name: PowerShell을 사용하여 Microsoft 365로 IMAP 마이그레이션 수행
+          href: use-powershell-to-perform-an-imap-migration-to-microsoft-365.md
+        - name: PowerShell을 사용하여 Microsoft 365로 미리 구성된 마이그레이션 수행
+          href: use-powershell-to-perform-a-staged-migration-to-microsoft-365.md
+    - name: 위임된 액세스 파트너용 Windows PowerShell로 Microsoft 365 관리
+      href: manage-microsoft-365-with-windows-powershell-for-delegated-access-permissions-dap-p.md
+      items:
+        - name: 위임된 액세스 파트너용 Windows PowerShell로 Microsoft 365 테넌트 관리
+          href: manage-microsoft-365-tenants-with-windows-powershell-for-delegated-access-permissio.md
+        - name: 위임된 액세스 파트너용 Windows PowerShell을 사용하여 클라이언트 테넌트에 도메인 추가
+          href: add-a-domain-to-a-client-tenancy-with-windows-powershell-for-delegated-access-pe.md
+        - name: 위임된 액세스 파트너용 원격 Windows PowerShell을 통해 Exchange Online에 연결
+          href: connect-to-exchange-online-tenants-with-remote-windows-powershell-for-delegated.md
+        - name: 위임된 액세스 파트너용 Windows PowerShell을 통해 고객 보고 데이터 검색
+          href: retrieve-customer-tenant-reporting-data-with-windows-powershell-for-delegated-ac.md
+    - name: Microsoft Teams 관리
+      href: 'https://docs.microsoft.com/microsoftteams/teams-powershell-install'
+    - name: 비즈니스용 Skype Online 관리
+      href: manage-skype-for-business-online-with-microsoft-365-powershell.md
+      items:
+        - name: 비즈니스용 Skype Online 정책 관리
+          href: manage-skype-for-business-online-policies-with-microsoft-365-powershell.md
+        - name: 비즈니스용 Skype Online 정책에 대한 사용자 단위 할당
+          href: assign-per-user-skype-for-business-online-policies-with-microsoft-365-powershell.md
+    - name: 중앙 집중식 배포 PowerShell을 사용하여 추가 기능을 관리
+      href: use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md
+- name: 테스트 랩 가이드
+  href: m365-enterprise-test-lab-guides.md
+  items:
+    - name: 기본 구성
+      items:
+        - name: Lightweight
+          href: lightweight-base-configuration-microsoft-365-enterprise.md
+        - name: 시뮬레이트된 엔터프라이즈
+          href: simulated-ent-base-configuration-microsoft-365-enterprise.md
+    - name: ID
+      items:
+        - name: 암호 해시 동기화
+          href: password-hash-sync-m365-ent-test-environment.md
+        - name: 통과 인증
+          href: pass-through-auth-m365-ent-test-environment.md
+        - name: 페더레이션 인증
+          href: federated-identity-for-your-microsoft-365-dev-test-environment.md
+        - name: Azure AD Seamless Single Sign-on
+          href: single-sign-on-m365-ent-test-environment.md
+        - name: 다단계 인증
+          href: multi-factor-authentication-microsoft-365-test-environment.md
+        - name: 전역 관리자 계정 보호
+          href: protect-global-administrator-accounts-microsoft-365-test-environment.md
+        - name: 암호 쓰기 저장
+          href: password-writeback-m365-ent-test-environment.md
+        - name: 암호 다시 설정
+          href: password-reset-m365-ent-test-environment.md
+        - name: 자동 라이선싱 및 그룹 구성원
+          href: automate-licenses-group-membership-microsoft-365-test-environment.md
+        - name: Azure AD ID 보호
+          href: azure-ad-identity-protection-microsoft-365-test-environment.md
+        - name: ID 및 장치 액세스
+          href: identity-device-access-m365-test-environment.md
+          items:
+            - name: 클라우드 전용
+              href: cloud-only-prereqs-m365-test-environment.md
+            - name: 암호 해시 동기화
+              href: phs-prereqs-m365-test-environment.md
+            - name: 통과 인증
+              href: pta-prereqs-m365-test-environment.md
+    - name: 모바일 장치 관리
+      items:
+        - name: iOS 및 Android 장치 등록
+          href: enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md
+        - name: 장치 준수 정책
+          href: mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md
+    - name: 정보 보호
+      items:
+        - name: 강화된 Microsoft 365 보안
+          href: increased-o365-security-microsoft-365-enterprise-dev-test-environment.md
+        - name: 데이터 분류
+          href: data-classification-microsoft-365-enterprise-dev-test-environment.md
+        - name: 권한이 부여된 액세스 관리
+          href: privileged-access-microsoft-365-enterprise-dev-test-environment.md
+- name: Contoso 사례 연구
+  href: contoso-case-study.md
+  items:
+    - name: 개요
+      href: contoso-overview.md
+    - name: Contoso의 IT 인프라 및 요구 사항
+      href: contoso-infra-needs.md
+    - name: 네트워킹
+      href: contoso-networking.md
+    - name: ID
+      href: contoso-identity.md
+    - name: Windows 10 Enterprise
+      href: contoso-win10.md
+    - name: 엔터프라이즈용 Microsoft 365 앱
+      href: contoso-o365pp.md
+    - name: 모바일 장치 관리
+      href: contoso-mdm.md
+    - name: 정보 보호
+      href: contoso-info-protect.md
+    - name: 보안 요약
+      href: contoso-security-summary.md
+- name: Microsoft 365 서비스 상태
+  href: microsoft-365-service-health.md
 - name: Microsoft 365 규정 준수
   href: ../compliance/index.yml
 - name: Microsoft 365 보안
   href: ../security/index.yml
+- name: Microsoft 365 아키텍처 및 솔루션
+  href: ../solutions/index.yml
 - name: 클라우드 서비스를 사용한 엔터프라이즈 비즈니스 연속성 관리(EBCM)
   href: ebcm-understanding-ebcm-with-cloud-services.md
   items:
@@ -227,3 +704,5 @@
       href: ebcm-developing-your-ebcm-plan.md
     - name: 서비스 인시던트 완화 시나리오
       href: ebcm-microsoft-365-mitigations.md
+- name: 비즈니스용 Microsoft 365
+  href: ../admin/index.yml
