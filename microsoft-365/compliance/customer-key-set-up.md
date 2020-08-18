@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 for Exchange Online, 비즈니스용 Skype, SharePoint Online, 비즈니스용 OneDrive 및 팀 파일에 대 한 고객 키를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 158096216974691bf0caff93a1c95db54b92f6b1
-ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
+ms.openlocfilehash: 346b723a4741e18d161122edecf985a3fb8c7845
+ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44810994"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46794223"
 ---
 # <a name="set-up-customer-key"></a>고객 키 설정
 
@@ -132,12 +132,12 @@ Microsoft 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각
 
    ```powershell
    Set-AzContext -SubscriptionId <SubscriptionId>
-   Register-AzProviderFeature -FeatureName mandatoryRetentionPeriodEnabled -ProviderNamespace Microsoft.KeyVault
+   Register-AzProviderFeature -FeatureName mandatoryRetentionPeriodEnabled -ProviderNamespace Microsoft.Resources
    ```
 
 3. Microsoft에 문의 하 여 해당 프로세스를 완료 합니다. SharePoint 및 비즈니스용 OneDrive 팀의 경우 [spock@microsoft.com](mailto:spock@microsoft.com)에 문의 하세요. Exchange Online 및 비즈니스용 Skype에 대 한 자세한 내용은 [exock@microsoft.com](mailto:exock@microsoft.com)에 문의 하세요. 전자 메일에 다음을 포함 합니다.
 
-   **제목**: 다음에 대 한 고객 키\<*Your tenant's fully-qualified domain name*\>
+   **제목**: 다음에 대 한 고객 키 \<*Your tenant's fully-qualified domain name*\>
 
    **Body**: 필수 보존 기간을 완료 하려는 구독 id입니다.
    각 구독에 대 한 AzProviderFeature의 출력입니다.
@@ -195,7 +195,7 @@ Microsoft 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각
    Set-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user> -PermissionsToKeys create,import,list,get,backup,restore
    ```
 
-   예시:
+   예를 들어,
 
    ```powershell
    Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
@@ -213,9 +213,9 @@ Microsoft 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각
 
     - *vault 이름은* 만든 키 보관소의 이름입니다.
 
-    - Exchange Online 및 비즈니스용 Skype의 경우 *Office 365 appID* 를 다음으로 바꾸기`00000002-0000-0ff1-ce00-000000000000`
+    - Exchange Online 및 비즈니스용 Skype의 경우  *Office 365 appID* 를 다음으로 바꾸기 `00000002-0000-0ff1-ce00-000000000000`
 
-    - SharePoint Online, 비즈니스용 OneDrive 및 팀 파일의 경우 *Office 365 appID* 를 다음으로 바꾸기`00000003-0000-0ff1-ce00-000000000000`
+    - SharePoint Online, 비즈니스용 OneDrive 및 팀 파일의 경우  *Office 365 appID* 를 다음으로 바꾸기 `00000003-0000-0ff1-ce00-000000000000`
 
   예: Exchange Online 및 비즈니스용 Skype에 대 한 사용 권한 설정:
 
@@ -273,19 +273,19 @@ Add-AzKeyVaultKey -VaultName <vault name> -Name <key name> -Destination <HSM|Sof
   
 - HSM을 사용 하 여 키를 보호 하려면 _대상_ 매개 변수의 값으로 **HSM** 을 지정 하 고, 그렇지 않으면 **소프트웨어**를 지정 해야 합니다.
 
-For example,
+예를 들면 다음과 같습니다.
   
 ```powershell
 Add-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -Destination Software -KeyOps wrapKey,unwrapKey
 ```
 
-키 보관소로 바로 키를 가져오려면 Thales nShield 하드웨어 보안 모듈이 있어야 합니다.
+키 보관소로 바로 키를 가져오려면 nCipher nShield 하드웨어 보안 모듈이 있어야 합니다.
   
-일부 조직에서는이 방법을 선호 하 여 키의 provenance을 설정 하 고,이 방법 역시 다음을 제공 합니다.
+일부 조직에서는이 방법을 선호 하 여 키의 provenance을 설정 하 고,이 방법을 사용 하면 다음 항목도 제공 됩니다.
   
-- 가져오기에 사용 되는 도구 집합에는 Thales에서 생성 하는 키를 암호화 하는 데 사용 되는 KEK (키 교환 키)가 내보낼 수 없으며 Thales에서 제조한 정품 HSM 내에서 생성 된다는 것이 포함 되어 있습니다.
+- 가져오기에 사용 되는 도구 집합에는 nCipher에서 생성 한 키를 암호화 하는 데 사용 되는 KEK (키 교환 키)가 내보낼 수 없으며 nCipher에서 제조한 정품 HSM 내에서 생성 된다는 것이 포함 되어 있습니다.
 
-- 이 도구 집합에는 Thales에서 제조한 정품 HSM 에서도 Azure 키 자격 증명 모음 보안 세계가 생성 된 Thales의 증명이 포함 되어 있습니다. 이 증명은 Microsoft가 정품 Thales 하드웨어를 사용 하 고 있음을 증명 합니다.
+- 도구 집합에는 nCipher에서 제조한 정품 HSM에도 Azure 키 자격 증명 모음 보안 세계가 생성 된 nCipher의 증명이 포함 되어 있습니다. 이 증명은 Microsoft가 정품 nCipher 하드웨어를 사용 하 고 있음을 증명 합니다.
 
 보안 그룹을 확인 하 여 위의 attestations 필요한 지 확인 합니다. 온-프레미스 키를 만들고 키 보관소로 가져오는 자세한 단계 [는 Azure Key vault에 대해 HSM 보호 키를 생성 하 고 전송 하는 방법을](https://azure.microsoft.com/documentation/articles/key-vault-hsm-protected-keys/)참조 하세요. Azure 지침을 사용 하 여 각 키 자격 증명 모음에 키를 만듭니다.
   
@@ -319,7 +319,7 @@ Backup-AzKeyVaultKey -VaultName <vault name> -Name <key name>
 > [!TIP]
 > 출력 파일의 경우 자격 증명 모음 이름 및 키 이름을 조합 하 여 선택 합니다. 이렇게 하면 파일 이름이 자체 설명 됩니다. 또한 백업 파일 이름이 충돌 하지 않도록 해야 합니다.
   
-예시:
+예를 들어,
   
 ```powershell
 Backup-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -OutputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
@@ -356,7 +356,7 @@ Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1
   
 ```powershell
 Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365SP-NA-VaultA1
--PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName TBD
+-PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName 00000003-0000-0ff1-ce00-000000000000
 ```
 
 키에 대해 만료 날짜가 설정 되지 않았는지 확인 하려면 다음과 같이 [AzKeyVaultKey](https://docs.microsoft.com/powershell/module/az.keyvault/get-azkeyvault) cmdlet을 실행 합니다.

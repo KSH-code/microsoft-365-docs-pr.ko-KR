@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 문제가 발생 하는 경우 Microsoft 지원 엔지니어가 데이터에 액세스 하는 방법을 제어할 수 있도록 하는 고객 Lockbox 요청에 대해 알아봅니다.
-ms.openlocfilehash: 3ae04648cc89bf9871bb48e5669c620ffd7564ff
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 67662c34ed3aedb22c3462a2ba8aff9e338e07c6
+ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637790"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46794257"
 ---
 # <a name="customer-lockbox-in-office-365"></a>Office 365의 고객 Lockbox
 
@@ -72,19 +72,17 @@ ms.locfileid: "43637790"
 
 Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 사용 하도록 설정할 수 있습니다. 고객 Lockbox를 켜면 Microsoft에서 테 넌 트의 콘텐츠를 액세스 하기 전에 조직의 승인을 받아야 합니다.
 
-1. 전역 관리자 또는 **사용자 Lockbox 액세스 승인자** 역할이 할당 된 회사 또는 학교 계정을 사용 하 여로 이동 [https://admin.microsoft.com](https://admin.microsoft.com) 하 여 로그인 합니다.
+1. 전역 관리자 또는 **사용자 Lockbox 액세스 승인자** 역할이 할당 된 회사 또는 학교 계정을 사용 하 여로 이동 하 여 [https://admin.microsoft.com](https://admin.microsoft.com) 로그인 합니다.
 
-2. **설정 > 보안 & 개인 정보**를 선택 합니다.
+2. **설정 > 조직 설정을**선택 합니다.
 
-    ![관리 센터에서 고객 Lockbox 설정 편집](../media/CustomerLockbox2.png)
-
-3. **고객 Lockbox** 타일에서 **편집**을 선택 하 고 토글을 설정 또는 **해제** 로 **이동** 하 여 해당 기능을 설정 하거나 해제 합니다.
+3. **서비스**  >  **사용자 Lockbox**  >  **편집**을 선택한 다음 토글을 설정 또는 해제 **로** 이동 **Off** 하 여 기능을 설정 하거나 해제 합니다.
 
     ![Require approval for Customer Lockbox](../media/CustomerLockbox4.png)
 
 ## <a name="approve-or-deny-a-customer-lockbox-request"></a>고객 Lockbox 요청 승인 또는 거부
 
-1. 전역 관리자 또는 **사용자 Lockbox 액세스 승인자** 역할이 할당 된 회사 또는 학교 계정을 사용 하 여로 이동 [https://admin.microsoft.com](https://admin.microsoft.com) 하 여 로그인 합니다.
+1. 전역 관리자 또는 **사용자 Lockbox 액세스 승인자** 역할이 할당 된 회사 또는 학교 계정을 사용 하 여로 이동 하 여 [https://admin.microsoft.com](https://admin.microsoft.com) 로그인 합니다.
 
 2. **고객 Lockbox 요청 > 지원을**선택 합니다.
 
@@ -102,6 +100,10 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 사용 하도록 �
 
     ![고객 Lockbox 요청 승인 또는 거부](../media/CustomerLockbox8.png)
 
+> [!NOTE]
+> AccessToCustomerDataRequest cmdlet을 사용 하 여 Microsoft 지원 엔지니어가 데이터에 대 한 액세스를 제어 하는 Microsoft 365 고객 lockbox 요청을 승인, 거부 또는 취소 합니다. 자세한 내용은 [AccessToCustomerDataRequest](https://docs.microsoft.com/powershell/module/exchange/set-accesstocustomerdatarequest?view=exchange-ps)를 참조 하십시오.
+
+
 ## <a name="auditing-customer-lockbox-requests"></a>고객 Lockbox 요청 감사
 
 고객 Lockbox 요청에 해당 하는 감사 레코드가 감사 로그에 기록 됩니다. 보안 & 준수 센터에서 [감사 로그 검색 도구](search-the-audit-log-in-security-and-compliance.md) 를 사용 하 여 이러한 로그에 액세스할 수 있습니다. 고객 Lockbox 요청 수락 또는 거부와 관련 된 작업 및 Microsoft 엔지니어가 수행한 작업 (액세스 요청이 승인 된 경우)이 감사 로그에도 기록 됩니다. 이러한 감사 레코드를 검색 하 고 검토할 수 있습니다.
@@ -112,9 +114,9 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 사용 하도록 �
 
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
   
-2. 회사 또는 학교 계정을 사용 하 여 로그인 합니다.
+2. 회사 또는 학교 계정을 사용하여 로그인합니다.
 
-3. 보안 & 준수 센터의 왼쪽 창에서 **검색 & 조사** > **감사 로그 검색**을 선택 합니다.
+3. 보안 & 준수 센터의 왼쪽 창에서 **검색 & 조사**  >  **감사 로그 검색**을 선택 합니다.
 
     **감사 로그 검색** 페이지가 표시 됩니다.
 
@@ -152,7 +154,7 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 사용 하도록 �
 |:---------- |:----------|
 | 날짜       | 고객 인증 키 저장소 요청이 승인 또는 거부 된 날짜 및 시간입니다.
 | IP 주소 | 승인자가 요청을 승인 하거나 거부 하는 데 사용 하는 컴퓨터의 IP 주소입니다. |
-| 사용자       | 서비스 계정 BOXServiceAccount@\[customerforest\].            |
+| 사용자       | 서비스 계정 BOXServiceAccount@ \[ \] customerforest.            |
 | 활동   | AccessToCustomerDataRequest; 이는 고객 Lockbox 요청을 승인 하거나 거부할 때 기록 되는 감사 작업입니다.                                |
 | 항목       | 고객 Lockbox 요청의 Guid입니다.                             |
 
@@ -173,9 +175,9 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 사용 하도록 �
 | IP 주소 | Microsoft 엔지니어가 사용 하는 컴퓨터의 IP 주소입니다. |
 | 사용자       | Microsoft Operator; 이 값은이 레코드가 고객 Lockbox 요청과 관련 되어 있음을 나타냅니다.                                  |
 | 활동   | Microsoft 엔지니어가 수행한 활동의 이름입니다.|
-| 항목       | \<비운\>                                             |
+| 항목       | \<empty\>                                             |
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 #### <a name="which-microsoft-365-services-does-customer-lockbox-apply-to"></a>고객 Lockbox가 적용 되는 Microsoft 365 서비스는 무엇입니까?
 
@@ -183,7 +185,7 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 사용 하도록 �
 
 #### <a name="is-customer-lockbox-available-to-all-customers"></a>고객 Lockbox가 모든 고객에 게 제공 됩니까?
 
-고객 Lockbox는 Microsoft 365 또는 Office 365 E5 구독에 포함 되어 있으며, 정보 보호 및 규정 준수 또는 고급 준수 추가 기능 구독을 사용 하 여 다른 계획에 추가할 수 있습니다. 자세한 내용은 [요금제 및 가격 책정](https://products.office.com/business/office-365-enterprise-e5-business-software) 를 참조 하세요.
+고객 Lockbox는 Microsoft 365 또는 Office 365 E5 구독에 포함 되어 있으며, 정보 보호 및 규정 준수 또는 고급 준수 추가 기능 구독을 사용 하 여 다른 계획에 추가할 수 있습니다. 자세한 내용은 [요금제 및 가격 책정](https://products.office.com/business/office-365-enterprise-e5-business-software)를 참조 하세요   .
 
 #### <a name="what-is-customer-content"></a>고객 콘텐츠 란?
 

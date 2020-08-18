@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Office 365에서는 콘텐츠가 rest에서 암호화 되 고 가장 강력한 암호화, 프로토콜 및 기술이 제공 된 상태로 전송 됩니다. Office 365의 암호화에 대 한 개요를 가져옵니다.
-ms.openlocfilehash: 2b1f2927b5d6daeb5e83aae2521d96e329e77c43
-ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
+ms.openlocfilehash: 7a14cb1ab203ef1ee75962f4e55b4220c4ba06d9
+ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44717231"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46794177"
 ---
 # <a name="encryption"></a>암호화
 
@@ -86,3 +86,5 @@ Microsoft 365에서는 Office 365에서 볼륨 암호화, 파일 암호화 및 �
 [Microsoft 365 보안 및 정보 보호 기능 계획](plan-for-security-and-compliance.md)
 
 [Microsoft 365 비즈니스 계획을 보호 하는 10 가지 주요 방법](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide)
+
+[Microsoft Stream Video level 암호화 및 재생 흐름](https://docs.microsoft.com/stream/network-overview#video-level-encryption-and-playback-flow)

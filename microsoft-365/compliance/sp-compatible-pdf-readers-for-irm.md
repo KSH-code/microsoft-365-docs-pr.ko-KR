@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: dd197d58-5bf6-4d18-b9f8-d16db603fae2
 description: IRM (정보 권한 관리)을 사용 하 여 Microsoft SharePoint 2013에서 IRM으로 보호 된 라이브러리에 업로드 및 다운로드 되는 PDF 문서를 보호 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8f8f9e567482a2e5a6238aaefab7329d7693ae17
-ms.sourcegitcommit: 6319e73b3690b4cf1b7932f2b9f51c2c99e70eaa
+ms.openlocfilehash: e52d9e402f5ea528a0346eb4489b8eb540368cf7
+ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46635014"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46794157"
 ---
 # <a name="sharepoint-compatible-pdf-readers-that-support-microsoft-information-rights-management-services"></a>Microsoft Information Rights Management services를 지 원하는 SharePoint 호환 PDF 독자
 
@@ -32,11 +32,11 @@ Microsoft SharePoint 2013에서는 PDF 문서의 IRM (정보 권한 관리) 보�
   
 |**운영 체제**|**호환 되는 읽기 권한자**|**다운로드 링크**|
 |:-----|:-----|:-----|
-|Windows Vista  <br/> |온 xit 리더  <br/> NitroPDF  <br/> |[다운로드 프로그램](https://www.foxitsoftware.com/downloads/#Foxit-PhantomPDF-Business/) <br/> [NitroPDF 다운로드](https://www.gonitro.com/pdf-reader) <br/> |
-|Windows 7  <br/> |Azure Information Protection 앱  <br/> 온 xit 리더  <br/> NitroPDF  <br/> |[Azure Information Protection 앱 다운로드](https://go.microsoft.com/fwlink/?linkid=837797) <br/> [다운로드 프로그램](https://www.foxitsoftware.com/downloads/#Foxit-PhantomPDF-Business/) <br/> [NitroPDF 다운로드](https://www.gonitro.com/pdf-reader) <br/> |
-|Windows 8 (클래식 모드)  <br/> |Azure Information Protection 앱  <br/> 온 xit 리더  <br/> NitroPDF  <br/> |[Azure Information Protection 앱 다운로드](https://go.microsoft.com/fwlink/?linkid=837797) <br/> [다운로드 프로그램](https://www.foxitsoftware.com/downloads/#Foxit-PhantomPDF-Business/) <br/> [NitroPDF 다운로드](https://www.gonitro.com/pdf-reader) <br/> |
-|Windows 8.1  <br/> |Azure Information Protection 앱  <br/> 온 xit 리더  <br/> NitroPDF  <br/> |[Azure Information Protection 앱 다운로드](https://go.microsoft.com/fwlink/?linkid=837797) <br/> [다운로드 프로그램](https://www.foxitsoftware.com/downloads/#Foxit-PhantomPDF-Business/) <br/> [NitroPDF 다운로드](https://www.gonitro.com/pdf-reader) <br/> |
-|Windows 10  <br/> |Azure Information Protection 앱  <br/> 온 xit 리더  <br/> NitroPDF  <br/> |[Azure Information Protection 앱 다운로드](https://go.microsoft.com/fwlink/?linkid=837797) <br/> [다운로드 프로그램](https://www.foxitsoftware.com/downloads/#Foxit-PhantomPDF-Business/) <br/> [NitroPDF 다운로드](https://www.gonitro.com/pdf-reader) <br/> |
+|Windows Vista  <br/> |온 xit 리더  <br/> NitroPDF  <br/> |[다운로드 프로그램](https://go.microsoft.com/fwlink/?linkid=2139326) <br/> [NitroPDF 다운로드](https://go.microsoft.com/fwlink/?linkid=2139327) <br/> |
+|Windows 7  <br/> |Azure Information Protection 앱  <br/> 온 xit 리더  <br/> NitroPDF  <br/> |[Azure Information Protection 앱 다운로드](https://go.microsoft.com/fwlink/?linkid=837797) <br/> [다운로드 프로그램](https://go.microsoft.com/fwlink/?linkid=2139326) <br/> [NitroPDF 다운로드](https://go.microsoft.com/fwlink/?linkid=2139327) <br/> |
+|Windows 8 (클래식 모드)  <br/> |Azure Information Protection 앱  <br/> 온 xit 리더  <br/> NitroPDF  <br/> |[Azure Information Protection 앱 다운로드](https://go.microsoft.com/fwlink/?linkid=837797) <br/> [다운로드 프로그램](https://go.microsoft.com/fwlink/?linkid=2139326) <br/> [NitroPDF 다운로드](https://go.microsoft.com/fwlink/?linkid=2139327) <br/> |
+|Windows 8.1  <br/> |Azure Information Protection 앱  <br/> 온 xit 리더  <br/> NitroPDF  <br/> |[Azure Information Protection 앱 다운로드](https://go.microsoft.com/fwlink/?linkid=837797) <br/> [다운로드 프로그램](https://go.microsoft.com/fwlink/?linkid=2139326) <br/> [NitroPDF 다운로드](https://go.microsoft.com/fwlink/?linkid=2139327) <br/> |
+|Windows 10  <br/> |Azure Information Protection 앱  <br/> 온 xit 리더  <br/> NitroPDF  <br/> |[Azure Information Protection 앱 다운로드](https://go.microsoft.com/fwlink/?linkid=837797) <br/> [다운로드 프로그램](https://go.microsoft.com/fwlink/?linkid=2139326) <br/> [NitroPDF 다운로드](https://go.microsoft.com/fwlink/?linkid=2139327) <br/> |
 |Android  <br/> |Azure Information Protection 앱  <br/> RMS를 사용한 MobilePDF  <br/> |[Azure Information Protection 앱 다운로드](https://go.microsoft.com/fwlink/?linkid=836827) <br/> [It MobilePDF 구입](https://play.google.com/store/apps/details?id=com.foxit.mobile.pdf.lite) <br/> |
 |Windows Phone  <br/> |해당 없음  <br/> |해당 없음  <br/> |
 |MacOS  <br/> |해당 없음  <br/> |해당 없음  <br/> |

@@ -15,13 +15,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
+hideEdit: true
 description: 보안 및 준수 센터의 DLP (데이터 손실 방지)에는 &amp; dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다.
-ms.openlocfilehash: 9e1b1261bbb58b1ca65818a5ad304ee186561ae6
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: b302879b50c06007656aba93b38f8387557d301b
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430521"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778558"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>중요한 정보 유형 엔터티 정의
 
@@ -577,9 +578,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_austria_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당  `Regex_austria_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- From 키워드를 `Keywords_austria_eu_driver's_license_number` 찾았습니다. 
+- From 키워드를  `Keywords_austria_eu_driver's_license_number` 찾았습니다. 
     
 ```xml
 <!-- EU Driver's License Number -->
@@ -632,9 +633,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_austria_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당  `Regex_austria_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- From 키워드를 `Keywords_austria_eu_national_id_card` 찾았습니다. 
+- From 키워드를  `Keywords_austria_eu_national_id_card` 찾았습니다. 
    
 ```xml
 <!-- EU austria_eu_national_id -->
@@ -680,9 +681,9 @@ national id
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_austria_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당  `Regex_austria_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- From 키워드를 `Keywords_austria_eu_passport_number` 찾았습니다. 
+- From 키워드를  `Keywords_austria_eu_passport_number` 찾았습니다. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -726,13 +727,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_austria_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_austria_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- From 키워드를 `Keywords_austria_eu_ssn_or_equivalent` 찾았습니다. 
+- From 키워드를  `Keywords_austria_eu_ssn_or_equivalent` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_austria_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_austria_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -790,12 +791,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_austria_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_austria_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_austria_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_austria_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_austria_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_austria_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -1323,8 +1324,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_belgium_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_belgium_eu_driver's_license_number` 찾았습니다.
+- 정규식이 해당  `Regex_belgium_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_belgium_eu_driver's_license_number` 찾았습니다.
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -1480,8 +1481,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_belgium_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_belgium_eu_passport_number` 찾았습니다.
+- 정규식이 해당  `Regex_belgium_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_belgium_eu_passport_number` 찾았습니다.
 
 ```xml
  <!-- EU Passport Number -->
@@ -1523,12 +1524,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_belgium_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_belgium_eu_ssn_or_equivalent` 찾았습니다. 
+- 이 함수는 해당  `Func_belgium_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_belgium_eu_ssn_or_equivalent` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_belgium_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_belgium_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -1590,8 +1591,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_belgium_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_belgium_eu_tax_file_number` 찾았습니다. 
+- 정규식이 해당  `Regex_belgium_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_belgium_eu_tax_file_number` 찾았습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -1885,8 +1886,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_bulgaria_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_bulgaria_eu_driver's_license_number` 찾았습니다. 
+- 정규식이 해당  `Regex_bulgaria_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_bulgaria_eu_driver's_license_number` 찾았습니다. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -1942,12 +1943,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_bulgaria_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_bulgaria_national_number` 찾았습니다. 
+- 이 함수는 해당  `Func_bulgaria_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_bulgaria_national_number` 찾았습니다. 
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_bulgaria_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_bulgaria_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
 <Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
@@ -2030,8 +2031,8 @@ national id
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_bulgaria_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_bulgaria_eu_passport_number` 찾았습니다. 
+- 정규식이 해당  `Regex_bulgaria_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_bulgaria_eu_passport_number` 찾았습니다. 
 
 ```xml
  <!-- EU Passport Number -->
@@ -2069,12 +2070,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_bulgaria_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_bulgaria_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_bulgaria_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_bulgaria_eu_tax_file_number` 찾았습니다. 
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_bulgaria_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_bulgaria_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
 
 ```xml
  <!-- EU Tax File Number -->
@@ -3076,8 +3077,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_croatia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_croatia_eu_driver's_license_number` 찾았습니다. 
+- 정규식이 해당  `Regex_croatia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_croatia_eu_driver's_license_number` 찾았습니다. 
 
 ```xml
  <!-- EU Driver's License Number -->
@@ -3192,8 +3193,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_croatia_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_croatia_eu_passport_number` 찾았습니다. 
+- 정규식이 해당  `Regex_croatia_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_croatia_eu_passport_number` 찾았습니다. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -3284,12 +3285,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_croatia_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_croatia_eu_ssn_or_equivalent` 찾았습니다. 
+- 이 함수는 해당  `Func_croatia_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_croatia_eu_ssn_or_equivalent` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_croatia_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_croatia_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -3345,12 +3346,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_croatia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_croatia_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_croatia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_croatia_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_croatia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_croatia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -3418,8 +3419,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_cyprus_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_cyprus_eu_driver's_license_number` 찾았습니다.
+- 정규식이 해당  `Regex_cyprus_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_cyprus_eu_driver's_license_number` 찾았습니다.
 
 ```xml
  <!-- EU Driver's License Number -->
@@ -3467,8 +3468,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_cyprus_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_cyprus_eu_national_id_card` 찾았습니다. 
+- 정규식이 해당  `Regex_cyprus_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_cyprus_eu_national_id_card` 찾았습니다. 
     
 ```xml 
 <Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
@@ -3509,8 +3510,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_cyprus_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다.
-- From 키워드를 `Keywords_cyprus_eu_passport_number` 찾았습니다. 
+- 정규식이 해당  `Regex_cyprus_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다.
+- From 키워드를  `Keywords_cyprus_eu_passport_number` 찾았습니다. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -3554,12 +3555,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_cyprus_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_cyprus_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_cyprus_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_cyprus_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_cyprus_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_cyprus_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -3629,8 +3630,8 @@ Pattern confidenceLevel="75">
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_czech_republic_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_czech_republic_eu_driver's_license_number` 찾았습니다. 
+- 정규식이 해당  `Regex_czech_republic_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_czech_republic_eu_driver's_license_number` 찾았습니다. 
 
 ```xml
  <!-- EU Driver's License Number -->
@@ -3681,8 +3682,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_czech_republic_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_czech_republic_eu_passport_number` 찾았습니다. 
+- 정규식이 해당  `Regex_czech_republic_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_czech_republic_eu_passport_number` 찾았습니다. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -3784,12 +3785,12 @@ Keyword_czech_id_card에서 키워드가 발견 되었습니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_czech_republic_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_czech_republic_eu_ssn_or_equivalent` 찾았습니다. 
+- 이 함수는 해당  `Func_czech_republic_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_czech_republic_eu_ssn_or_equivalent` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_czech_republic_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_czech_republic_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
 
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -3845,8 +3846,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_czech_republic_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_czech_republic_eu_tax_file_number` 찾았습니다. 
+- 정규식이 해당  `Regex_czech_republic_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_czech_republic_eu_tax_file_number` 찾았습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -3919,8 +3920,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_denmark_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_denmark_eu_driver's_license_number` 찾았습니다. 
+- 정규식이 해당  `Regex_denmark_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_denmark_eu_driver's_license_number` 찾았습니다. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -3971,8 +3972,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_denmark_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_denmark_eu_passport_number` 찾았습니다. 
+- 정규식이 해당  `Regex_denmark_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_denmark_eu_passport_number` 찾았습니다. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -4107,12 +4108,12 @@ Keyword_denmark_id에서 키워드가 발견 되었습니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_denmark_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_denmark_eu_ssn_or_equivalent` 찾았습니다. 
+- 이 함수는 해당  `Func_denmark_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_denmark_eu_ssn_or_equivalent` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_denmark_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_denmark_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -4166,12 +4167,12 @@ Hyphenl를 포함 하는 10 자리 숫자:
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_denmark_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_denmark_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_denmark_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_denmark_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_denmark_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_denmark_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -4301,8 +4302,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_estonia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_estonia_eu_driver's_license_number` 찾았습니다. 
+- 정규식이 해당  `Regex_estonia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_estonia_eu_driver's_license_number` 찾았습니다. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -4357,12 +4358,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_estonia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_estonia_eu_national_id_card` 찾았습니다. 
+- 이 함수는 해당  `Func_estonia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_estonia_eu_national_id_card` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_estonia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_estonia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  
@@ -4432,8 +4433,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_estonia_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_estonia_eu_passport_number` 찾았습니다. 
+- 정규식이 해당  `Regex_estonia_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_estonia_eu_passport_number` 찾았습니다. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -4479,12 +4480,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_estonia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_estonia_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_estonia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_estonia_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_estonia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_estonia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -5055,9 +5056,9 @@ hese 엔터티는 EU 세금 식별 번호 중요 한 정보 유형입니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_finland_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당  `Regex_finland_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- From 키워드를 `Keywords_finland_eu_driver's_license_number` 찾았습니다. 
+- From 키워드를  `Keywords_finland_eu_driver's_license_number` 찾았습니다. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -5234,12 +5235,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_finland_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_finland_eu_ssn_or_equivalent` 찾았습니다. 
+- 이 함수는 해당  `Func_finland_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_finland_eu_ssn_or_equivalent` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_finland_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_finland_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -5304,12 +5305,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_finland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_finland_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_finland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_finland_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_finland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_finland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -5634,12 +5635,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_france_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_france_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_france_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_france_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_france_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_france_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -5985,12 +5986,12 @@ bnationalit
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_germany_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_germany_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_germany_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_germany_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_germany_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_germany_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -6053,8 +6054,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_greece_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_greece_eu_driver's_license_number` 찾았습니다. 
+- 정규식이 해당  `Regex_greece_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_greece_eu_driver's_license_number` 찾았습니다. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -6157,8 +6158,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_greece_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_greece_eu_passport_number` 찾았습니다. 
+- 정규식이 해당  `Regex_greece_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_greece_eu_passport_number` 찾았습니다. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -6198,9 +6199,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_greece_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당  `Regex_greece_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- From 키워드를 `Keywords_greece_eu_tax_file_number` 찾았습니다. 
+- From 키워드를  `Keywords_greece_eu_tax_file_number` 찾았습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -6350,8 +6351,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_hungary_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_hungary_eu_driver's_license_number` 찾았습니다. 
+- 정규식이 해당  `Regex_hungary_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_hungary_eu_driver's_license_number` 찾았습니다. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -6404,12 +6405,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_hungary_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_hungary_eu_national_id_card` 찾았습니다. 
+- 이 함수는 해당  `Func_hungary_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_hungary_eu_national_id_card` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_hungary_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_hungary_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
 <Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
@@ -6455,8 +6456,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_hungary_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_hungary_eu_passport_number` 찾았습니다. 
+- 정규식이 해당  `Regex_hungary_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_hungary_eu_passport_number` 찾았습니다. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -6495,12 +6496,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_hungary_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_hungary_eu_ssn_or_equivalent` 찾았습니다. 
+- 이 함수는 해당  `Func_hungary_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_hungary_eu_ssn_or_equivalent` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_hungary_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_hungary_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -6562,12 +6563,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_hungary_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_hungary_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_hungary_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_hungary_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_hungary_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_hungary_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -6963,8 +6964,8 @@ IPv6의 경우 DLP 정책은 다음과 같은 경우 이러한 유형의 중요�
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_ireland_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_ireland_eu_driver's_license_number` 찾았습니다. 
+- 정규식이 해당  `Regex_ireland_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_ireland_eu_driver's_license_number` 찾았습니다. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -7098,8 +7099,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_ireland_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_ireland_eu_passport_number` 찾았습니다. 
+- 정규식이 해당  `Regex_ireland_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_ireland_eu_passport_number` 찾았습니다. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -7216,12 +7217,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_ireland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_ireland_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_ireland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_ireland_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_ireland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_ireland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -7428,12 +7429,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_italy_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_italy_eu_national_id_card` 찾았습니다. 
+- 이 함수는 해당  `Func_italy_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_italy_eu_national_id_card` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_italy_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_italy_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
 <!-- Italy national identification number -->
@@ -7508,8 +7509,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_italy_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_italy_eu_passport_number` 찾았습니다. 
+- 정규식이 해당  `Regex_italy_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_italy_eu_passport_number` 찾았습니다. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -7562,12 +7563,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_italy_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_italy_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_italy_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_italy_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_italy_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_italy_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -7998,8 +7999,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_latvia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_latvia_eu_driver's_license_number` 찾았습니다. 
+- 정규식이 해당  `Regex_latvia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_latvia_eu_driver's_license_number` 찾았습니다. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -8053,12 +8054,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_latvia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_latvia_eu_national_id_card` 찾았습니다. 
+- 이 함수는 해당  `Func_latvia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_latvia_eu_national_id_card` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_latvia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_latvia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
 <!-- Latvia national identification number -->
@@ -8166,8 +8167,8 @@ registration number
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_latvia_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_latvia_eu_passport_number` 찾았습니다. 
+- 정규식이 해당  `Regex_latvia_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_latvia_eu_passport_number` 찾았습니다. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -8211,12 +8212,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_latvia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_latvia_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_latvia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_latvia_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_latvia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_latvia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -8321,8 +8322,8 @@ registration number
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_lithuania_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_lithuania_eu_driver's_license_number` 찾았습니다. 
+- 정규식이 해당  `Regex_lithuania_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_lithuania_eu_driver's_license_number` 찾았습니다. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -8376,12 +8377,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_lithuania_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_lithuania_eu_national_id_card` 찾았습니다. 
+- 이 함수는 해당  `Func_lithuania_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_lithuania_eu_national_id_card` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_lithuania_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_lithuania_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
 <!-- Lithuania national identification number -->
@@ -8453,8 +8454,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_lithuania_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_lithuania_eu_passport_number` 찾았습니다. 
+- 정규식이 해당  `Regex_lithuania_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_lithuania_eu_passport_number` 찾았습니다. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -8491,12 +8492,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_lithuania_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_lithuania_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_lithuania_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_lithuania_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_lithuania_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_lithuania_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -8567,8 +8568,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_luxemburg_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_luxemburg_eu_driver's_license_number` 찾았습니다. 
+- 정규식이 해당  `Regex_luxemburg_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_luxemburg_eu_driver's_license_number` 찾았습니다. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -8622,8 +8623,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_luxemburg_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_luxemburg_eu_national_id_card` 찾았습니다. 
+- 정규식이 해당  `Regex_luxemburg_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_luxemburg_eu_national_id_card` 찾았습니다. 
     
 ```xml
 <Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
@@ -8678,8 +8679,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_nation_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_nation_eu_passport_number` 찾았습니다. 
+- 정규식이 해당  `Regex_nation_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_nation_eu_passport_number` 찾았습니다. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -8719,12 +8720,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_luxemburg_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_luxemburg_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_luxemburg_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_luxemburg_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_luxemburg_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_luxemburg_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -8874,8 +8875,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_malta_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_malta_eu_driver's_license_number` 찾았습니다. 
+- 정규식이 해당  `Regex_malta_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_malta_eu_driver's_license_number` 찾았습니다. 
     
 ```xml
 <!-- EU Driver's License Number -->
@@ -8927,12 +8928,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_malta_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_malta_eu_national_id_card` 찾았습니다. 
+- 정규식이 해당  `Regex_malta_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_malta_eu_national_id_card` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 65% 신뢰합니다.
   
-- 정규식이 해당 `Regex_malta_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당  `Regex_malta_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!--Malta national identification number  -->
@@ -8986,8 +8987,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_malta_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_malta_eu_passport_number` 찾았습니다. 
+- 정규식이 해당  `Regex_malta_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_malta_eu_passport_number` 찾았습니다. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -9036,12 +9037,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_malta_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_malta_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_malta_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_malta_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 65% 신뢰합니다.
   
-- 이 함수는 해당 `Func_malta_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_malta_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -9175,8 +9176,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_netherlands_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_netherlands_eu_driver's_license_number` 찾았습니다. 
+- 정규식이 해당  `Regex_netherlands_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_netherlands_eu_driver's_license_number` 찾았습니다. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -9227,12 +9228,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_netherlands_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_netherlands_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
 - From 키워드를 찾았습니다.
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_netherlands_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_netherlands_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!--Netherland national identification number  -->
@@ -9292,8 +9293,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_netherlands_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_netherlands_eu_passport_number` 찾았습니다. 
+- 정규식이 해당  `Regex_netherlands_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_netherlands_eu_passport_number` 찾았습니다. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -9336,12 +9337,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_netherlands_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_netherlands_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_netherlands_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_netherlands_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_netherlands_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_netherlands_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -9560,8 +9561,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_poland_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_poland_eu_driver's_license_number` 찾았습니다. 
+- 정규식이 해당  `Regex_poland_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_poland_eu_driver's_license_number` 찾았습니다. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -9741,12 +9742,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_poland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_poland_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_poland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_poland_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_poland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_poland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -9877,8 +9878,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_portugal_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_portugal_eu_driver's_license_number` 찾았습니다. 
+- 정규식이 해당  `Regex_portugal_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_portugal_eu_driver's_license_number` 찾았습니다. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -9930,8 +9931,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_portugal_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_portugal_eu_passport_number` 찾았습니다. 
+- 정규식이 해당  `Regex_portugal_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_portugal_eu_passport_number` 찾았습니다. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -9968,12 +9969,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_portugal_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_portugal_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_portugal_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_portugal_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_portugal_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_portugal_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -10039,8 +10040,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_romania_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_romania_eu_driver's_license_number` 찾았습니다. 
+- 정규식이 해당  `Regex_romania_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_romania_eu_driver's_license_number` 찾았습니다. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -10089,12 +10090,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_romania_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_romania_eu_national_id_card` 찾았습니다. 
+- 이 함수는 해당  `Func_romania_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_romania_eu_national_id_card` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_romania_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_romania_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!--Romania national identification number  -->
@@ -10183,8 +10184,8 @@ national id
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_romania_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_romania_eu_passport_number` 찾았습니다. 
+- 정규식이 해당  `Regex_romania_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_romania_eu_passport_number` 찾았습니다. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -10224,8 +10225,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_romania_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_romania_eu_tax_file_number` 찾았습니다. 
+- 정규식이 해당  `Regex_romania_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_romania_eu_tax_file_number` 찾았습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -10412,8 +10413,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_slovakia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_slovakia_eu_driver's_license_number` 찾았습니다. 
+- 정규식이 해당  `Regex_slovakia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_slovakia_eu_driver's_license_number` 찾았습니다. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -10451,12 +10452,12 @@ drivers license driver 면허 드라이버의 라이선스 드라이버 라이�
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_slovakia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_slovakia_eu_national_id_card` 찾았습니다. 
+- 이 함수는 해당  `Func_slovakia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_slovakia_eu_national_id_card` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_slovakia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_slovakia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- Slovakia national identification number -->
@@ -10542,8 +10543,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_slovakia_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_slovakia_eu_passport_number` 찾았습니다. 
+- 정규식이 해당  `Regex_slovakia_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_slovakia_eu_passport_number` 찾았습니다. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -10583,8 +10584,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_slovakia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_slovakia_eu_tax_file_number` 찾았습니다. 
+- 정규식이 해당  `Regex_slovakia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_slovakia_eu_tax_file_number` 찾았습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -10668,8 +10669,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_slovenia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_slovenia_eu_driver's_license_number` 찾았습니다. 
+- 정규식이 해당  `Regex_slovenia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_slovenia_eu_driver's_license_number` 찾았습니다. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -10723,12 +10724,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_slovenia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_slovenia_eu_national_id_card` 찾았습니다. 
+- 이 함수는 해당  `Func_slovenia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_slovenia_eu_national_id_card` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_slovenia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_slovenia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- Slovenia national identification number -->
@@ -10798,8 +10799,8 @@ national id
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_slovenia_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_slovenia_eu_passport_number` 찾았습니다. 
+- 정규식이 해당  `Regex_slovenia_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_slovenia_eu_passport_number` 찾았습니다. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -10836,12 +10837,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_slovenia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_slovenia_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_slovenia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_slovenia_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_slovenia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_slovenia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -11005,8 +11006,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_spain_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_spain_eu_driver's_license_number` 찾았습니다. 
+- 이 함수는 해당  `Func_spain_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_spain_eu_driver's_license_number` 찾았습니다. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -11079,8 +11080,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_spain_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_spain_eu_national_id_card"` 찾았습니다. 
+- 정규식이 해당  `Regex_spain_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_spain_eu_national_id_card"` 찾았습니다. 
     
 ```xml
 <!-- Spain national identification number -->
@@ -11142,8 +11143,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_spain_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_spain_eu_passport_number` 찾았습니다. 
+- 정규식이 해당  `Regex_spain_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_spain_eu_passport_number` 찾았습니다. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -11255,12 +11256,12 @@ Foreigner의 Id 번호가 없는 Foreigners
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_spain_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_spain_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_spain_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_spain_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_spain_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_spain_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -11409,8 +11410,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식이 해당 `Regex_sweden_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_sweden_eu_driver's_license_number` 찾았습니다. 
+- 정규식이 해당  `Regex_sweden_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_sweden_eu_driver's_license_number` 찾았습니다. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -11574,12 +11575,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_sweden_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_sweden_eu_ssn_or_equivalent` 찾았습니다. 
+- 이 함수는 해당  `Func_sweden_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_sweden_eu_ssn_or_equivalent` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_sweden_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_sweden_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -11638,12 +11639,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당 `Func_sweden_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 `Keywords_sweden_eu_tax_file_number` 찾았습니다. 
+- 이 함수는 해당  `Func_sweden_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_sweden_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_sweden_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_sweden_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -11739,7 +11740,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - swift routing number 
 - bic number 
 - bic code 
-- bic\# 
+- bic \# 
 - bic\# 
 - bank identifier code 
 - 標準化 9362 
@@ -11751,12 +11752,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - BICコード 
 - 銀行識別コードのための国際組織 
 - Organisation internationale de normalisation 9362 
-- rapide\# 
+- rapide \# 
 - code SWIFT 
 - le numéro de swift 
 - swift numéro d'acheminement 
 - le numéro BIC 
-- \#BIC 
+- \# BIC 
 - code identificateur de banque 
    
 ## <a name="taiwan-national-identification-number"></a>대만식 국가 식별 번호
@@ -12280,9 +12281,9 @@ UTR (Unique Taxpayer Reference): 10 자리 숫자
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수는 해당 `Func_uk_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_uk_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- From 키워드를 `Keywords_uk_eu_tax_file_number` 찾았습니다. 
+- From 키워드를  `Keywords_uk_eu_tax_file_number` 찾았습니다. 
     
 ```
  <!-- EU Tax File Number -->

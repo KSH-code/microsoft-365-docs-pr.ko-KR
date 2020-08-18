@@ -12,18 +12,18 @@ ms.reviewer: esaggese
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 0c66afa22c8712455a875bc8ca4ddcad1678e2e7
-ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
+ms.openlocfilehash: f36eeeb1f228bff48088cbbf3241d6866d0b3a21
+ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46602001"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46794167"
 ---
 # <a name="double-key-encryption-dke"></a>DKE (이중 암호화)
 
 > *적용 대상: Microsoft 365 공개 미리 보기, [microsoft 365 준수](https://www.microsoft.com/microsoft-365/business/compliance-management), [Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection) 에 대 한 이중 암호화*
 >
-> *지침: [Azure Information Protection 통합 레이블 클라이언트 Windows](https://docs.microsoft.com/azure/information-protection/faqs.md#whats-the-difference-between-the-azure-information-protection-classic-and-unified-labeling-clients)*
+> *지침: [Azure Information Protection 통합 레이블 클라이언트 Windows](https://docs.microsoft.com/azure/information-protection/faqs#whats-the-difference-between-the-azure-information-protection-classic-and-unified-labeling-clients)*
 >
 > *서비스 설명: [Microsoft 365 준수](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
 
@@ -132,15 +132,15 @@ Microsoft는 GitHub 리포지토리에 DKE 원본 파일을 제공 합니다. �
 
 다음 지침은 inexperienced git 또는 Visual Studio Code 사용자에 게 적합 합니다.
 
-1. 브라우저에서 다음 위치로 이동 합니다.[https://github.com/Azure-Samples/DoubleKeyEncryptionService](https://github.com/Azure-Samples/DoubleKeyEncryptionService)
+1. 브라우저에서 다음 위치로 이동 합니다. [https://github.com/Azure-Samples/DoubleKeyEncryptionService](https://github.com/Azure-Samples/DoubleKeyEncryptionService)
 
 1. 화면 오른쪽 방향으로 **코드**를 선택 합니다. 사용자의 UI 버전에 **복제 또는 다운로드** 단추가 표시 될 수 있습니다. 그런 다음 표시 되는 드롭다운 목록에서 복사 아이콘을 선택 하 여 클립보드에 URL을 복사 합니다.
 
-    예제:
+    예를 들어,
 
    ![GitHub에서 이중 키 암호화 서비스 리포지토리 복제](../media/dke-clone.png)
 
-3. Visual Studio Code에서 **View** \> **명령 색상표** 보기를 선택 하 고 **Git: 클론**을 선택 합니다. 목록에서 옵션으로 이동 하려면 입력을 시작 하 여 `git: clone` 항목을 필터링 한 다음 드롭다운에서 선택 합니다. 예제:
+3. Visual Studio Code에서 **View** \> **명령 색상표** 보기를 선택 하 고 **Git: 클론**을 선택 합니다. 목록에서 옵션으로 이동 하려면 입력을 시작 하 여 `git: clone` 항목을 필터링 한 다음 드롭다운에서 선택 합니다. 예를 들어,
 
    ![Visual Studio Code GIT: Clone 옵션](../media/dke-vscode-clone.png)
 
@@ -150,7 +150,7 @@ Microsoft는 GitHub 리포지토리에 DKE 원본 파일을 제공 합니다. �
 
     Visual Studio Code에서 리포지토리를 열고 왼쪽 아래에 현재 Git 분기를 표시 합니다. 분기는 **마스터**여야 합니다.
 
-    예제:
+    예를 들어,
 
    ![Visual Studio 코드 마스터 분기](../media/dke-vscode-master.png)
 
@@ -182,9 +182,9 @@ DKE 서비스를 배포 하려면 다음 유형의 응용 프로그램 설정을
 
 **전자 메일 인증을 사용 하 여 DKE에 대 한 키 액세스 설정을 설정 하려면**
 
-1. 파일 **에서appsettings.js** 열고 `AuthorizedEmailAddress` 설정을 찾습니다.
+1. 파일 ** 에서appsettings.js** 열고 `AuthorizedEmailAddress` 설정을 찾습니다.
 
-2. 권한을 부여 하려는 전자 메일 주소를 추가 합니다. 여러 전자 메일 주소는 큰따옴표와 쉼표로 구분 합니다. 예제:
+2. 권한을 부여 하려는 전자 메일 주소를 추가 합니다. 여러 전자 메일 주소는 큰따옴표와 쉼표로 구분 합니다. 예를 들어,
 
    ```json
    "AuthorizedEmailAddress": ["email1@company.com", "email2@company.com ", "email3@company.com"]
@@ -198,21 +198,21 @@ DKE 서비스를 배포 하려면 다음 유형의 응용 프로그램 설정을
 
 4. 설정을 찾아서 `AuthorizedRoles` 전체 줄을 삭제 합니다.
 
-이 이미지는 전자 메일 권한 부여를 위해 올바르게 형식이 지정 된 파일 **의appsettings.js** 를 보여 줍니다.
+이 이미지는 전자 메일 권한 부여를 위해 올바르게 형식이 지정 된 파일 ** 의appsettings.js** 를 보여 줍니다.
 
    ![전자 메일 인증 방법을 보여 주는 appsettings.js파일](../media/dke-email-accesssetting.png)
 
 **역할 인증을 사용 하 여 DKE에 대 한 키 액세스 설정을 설정 하려면**
 
-1. 파일 **에서appsettings.js** 열고 `AuthorizedRoles` 설정을 찾습니다.
+1. 파일 ** 에서appsettings.js** 열고 `AuthorizedRoles` 설정을 찾습니다.
 
-2. 권한을 부여 하려는 Active Directory 그룹 이름을 추가 합니다. 여러 그룹 이름은 큰따옴표와 쉼표로 구분 합니다. 예제:
+2. 권한을 부여 하려는 Active Directory 그룹 이름을 추가 합니다. 여러 그룹 이름은 큰따옴표와 쉼표로 구분 합니다. 예를 들어,
 
    ```json
    "AuthorizedRoles": ["group1", "group2", "group3"]
    ```
 
-3. 설정을 찾고 `LDAPPath` Active Directory 도메인을 추가 합니다. 예제:
+3. 설정을 찾고 `LDAPPath` Active Directory 도메인을 추가 합니다. 예를 들어,
 
    ```json
    "LDAPPath": "contoso.com"
@@ -220,19 +220,19 @@ DKE 서비스를 배포 하려면 다음 유형의 응용 프로그램 설정을
 
 4. 설정을 찾아서 `AuthorizedEmailAddress` 전체 줄을 삭제 합니다.
 
-이 이미지는 역할 권한 부여를 위해 올바르게 형식이 지정 된 파일 **의appsettings.js** 를 보여 줍니다.
+이 이미지는 역할 권한 부여를 위해 올바르게 형식이 지정 된 파일 ** 의appsettings.js** 를 보여 줍니다.
 
    ![역할 인증 방법을 보여 주는 파일의 appsettings.js](../media/dke-role-accesssetting.png)
 
 #### <a name="tenant-and-key-settings"></a>테 넌 트 및 키 설정
 
-DKE 테 넌 트 및 키 설정은 파일 **의appsettings.js** 에 있습니다.
+DKE 테 넌 트 및 키 설정은 파일 ** 의appsettings.js** 에 있습니다.
 
 **DKE에 대 한 테 넌 트 및 키 설정을 구성 하려면**
 
-1. 파일 **에서appsettings.js** 엽니다.
+1. 파일 ** 에서appsettings.js** 엽니다.
 
-2. 설정을 찾은 `ValidIssuers` 후 `<tenantid>` 테 넌 트 ID로 바꿉니다. Azure 포털로 이동 하 여 [테 넌 트 속성](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties)을 확인 하 여 테 넌 트 ID를 찾을 수 있습니다. 예제:
+2. 설정을 찾은 `ValidIssuers` 후 `<tenantid>` 테 넌 트 ID로 바꿉니다. Azure 포털로 이동 하 여 [테 넌 트 속성](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties)을 확인 하 여 테 넌 트 ID를 찾을 수 있습니다. 예를 들어,
 
    ```json
    "ValidIssuers": [
@@ -240,7 +240,7 @@ DKE 테 넌 트 및 키 설정은 파일 **의appsettings.js** 에 있습니다.
    ]
    ```
 
-를 찾습니다 `JwtAudience` . `<yourhostname>`DKE 서비스가 실행 될 컴퓨터의 호스트 이름으로 대체 합니다. 예제:
+를 찾습니다 `JwtAudience` . `<yourhostname>`DKE 서비스가 실행 될 컴퓨터의 호스트 이름으로 대체 합니다. 예를 들어,
 
 
 
@@ -250,7 +250,7 @@ DKE 테 넌 트 및 키 설정은 파일 **의appsettings.js** 에 있습니다.
 - `TestKeys:Name`. 키의 이름을 입력 합니다. 예: `TestKey1`
 - `TestKeys:Id`. GUID를 만들어 값으로 입력 `TestKeys:ID` 합니다. 예를 들면 `DCE1CC21-FF9B-4424-8FF4-9914BD19A1BE`와 같습니다. [온라인 Guid 생성기](https://guidgenerator.com/) 와 같은 사이트를 사용 하 여 GUID를 임의로 생성할 수 있습니다.
 
-**appsettings.js**의 테 넌 트 및 키 설정에 대 한 올바른 형식을 표시 하는 이미지입니다. `LDAPPath`역할 인증에 대해 구성 됩니다.
+**appsettings.js**의 테 넌 트 및 키 설정에 대 한 올바른 형식을 표시 하는 이미지입니다. `LDAPPath` 역할 인증에 대해 구성 됩니다.
 
 ![파일의 appsettings.js에 있는 DKE에 대 한 올바른 테 넌 트 및 키 설정을 표시 합니다.](../media/dke-appsettingsjson-tenantkeysettings.png)
 
@@ -349,7 +349,7 @@ DKE 테 넌 트 및 키 설정은 파일 **의appsettings.js** 에 있습니다.
 
 2. **Run** \> **디버깅 시작** 을 선택 하 여 프로세스를 디버깅 합니다. 환경을 선택 하 라는 메시지가 표시 되 면 **.net core**를 선택 합니다.
 
-일반적으로 .net 핵심 디버거는 ' ' '를 시작 하 https://localhost:5001 `. To view your test key, go to ` https://localhost:5001 고 슬래시 (/)와 키 이름을 추가 합니다. 예제:
+일반적으로 .net 핵심 디버거는 ' ' '를 시작 하 https://localhost:5001 `. To view your test key, go to ` https://localhost:5001 고 슬래시 (/)와 키 이름을 추가 합니다. 예를 들어,
 
 ```https
 https://localhost:5001/TestKey1
@@ -369,11 +369,11 @@ https://localhost:5001/TestKey1
 
 1. 구독 및 리소스 그룹을 선택 하 고 인스턴스 세부 정보를 정의 합니다.
 
-    - DKE 서비스를 설치 하려는 컴퓨터의 호스트 이름을 입력 합니다. 파일 [**의appsettings.js**](#tenant-and-key-settings) 에서 JwtAudience 설정에 대해 정의 된 이름과 이름이 같은지 확인 합니다. 이름에 입력 하는 값은 WebAppInstanceName입니다.
+    - DKE 서비스를 설치 하려는 컴퓨터의 호스트 이름을 입력 합니다. 파일 [** 의appsettings.js**](#tenant-and-key-settings) 에서 JwtAudience 설정에 대해 정의 된 이름과 이름이 같은지 확인 합니다. 이름에 입력 하는 값은 WebAppInstanceName입니다.
 
     - **게시**에서 **코드**를 선택 하 고 **런타임 스택을**보려면 **.net Core 3.1**를 선택 합니다.
 
-    예제:
+    예를 들어,
 
    ![앱 서비스 추가](../media/dke-azure-add-app-service.png)
 
@@ -420,7 +420,7 @@ DKE가 배포 되었으며 만든 테스트 키로 이동할 수 있습니다. �
 
 1. 로컬 파일에 표시 되는 연결 문자열을 복사 합니다. 이러한 문자열을 사용 하 여 웹 앱 서비스에 연결 하 고 FTP를 통해 파일을 업로드 합니다.
 
-    예제:
+    예를 들어,
 
    ![FTP 대시보드에서 연결 문자열 복사](../media/dke-ftp-dashboard.png)
 
@@ -448,9 +448,9 @@ DKE가 배포 되었으며 만든 테스트 키로 이동할 수 있습니다. �
 
 src\customer-key-store\scripts\key_store_tester.ps1 mykeymykey url/
 
-예제:
+예를 들어,
 
-key_store_tester.ps1https://mycustomerkeystore.com/mykey
+key_store_tester.ps1 https://mycustomerkeystore.com/mykey
 
 출력에 오류가 표시 되지 않는지 확인 합니다. 준비 되 면 [키 저장소를 등록](#register-your-key-store)합니다.
 
@@ -468,7 +468,7 @@ key_store_tester.ps1https://mycustomerkeystore.com/mykey
 
     사용자 지정 하지 않은 도메인 (예: **onmicrosoft.com**)에서 Microsoft Azure를 사용 하는 경우 **에는이 조직 디렉터리의 계정만 선택 합니다 (Microsoft only 단일 테 넌 트).**
 
-    예제:
+    예를 들어,
 
    ![새 앱 등록](../media/dke-app-registration.png)
 
@@ -526,7 +526,7 @@ key_store_tester.ps1https://mycustomerkeystore.com/mykey
 
 Microsoft 365 준수 센터에서 새 민감도 레이블을 만들고 암호화를 다른 방법으로 적용 합니다. **이중 키 암호화 사용** 을 선택 하 고 키에 대 한 끝점 URL을 입력 합니다.
 
-예제:
+예를 들어,
 
 ![Microsoft 365 준수 센터에서 이중 키 암호화 사용을 선택 합니다.](../media/dke-use-dke.png)
 
