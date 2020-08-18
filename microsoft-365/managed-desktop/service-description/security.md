@@ -1,31 +1,34 @@
 ---
-title: Microsoft Managed Desktop의 보안
+title: Microsoft Managed Desktop의 보안 기술
 description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
-ms.date: 09/24/2018
-ms.openlocfilehash: 8bfd71c4a143dee54ae006c8c54d711a8785480f
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.collection: M365-modern-desktop
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: debd21a975ce209677bdd054952e31f34260e405
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470492"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778259"
 ---
-# <a name="security-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 보안
+# <a name="security-technologies-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 보안 기술
 
 <!--Security, also Onboarding doc: data handling/store, privileged account access -->
 
-Microsoft Managed Desktop은 다양 한 Microsoft 기술을 사용 하 여 관리 되는 장치 및 데이터를 안전 하 게 보호 합니다. 특히 다음 사항에 유의합니다. 
+Microsoft Managed Desktop은 다양 한 Microsoft 기술을 사용 하 여 관리 되는 장치 및 데이터를 안전 하 게 보호 합니다. 또한 Microsoft Managed Desktop Security Operations Center는 이러한 기술과 함께 다양 한 [프로세스](security-operations.md) 를 사용 합니다.
 
+특히 다음 사항에 유의합니다. 
 
 - [장치 보안](#device-security) -Microsoft Managed Desktop 장치에 대 한 보안 및 보호
 - [Id 및 액세스 관리](#identity-and-access-management) -Azure Active Directory Identity services를 통한 장치 보안 사용 관리
 - [네트워크 보안](#network-security) -VPN 정보 및 Microsoft Managed Desktop 권장 솔루션 및 설정
 - [정보 보안](#information-security) -중요 한 정보를 보다 안전 하 게 보호 하는 데 사용할 수 있는 선택적 서비스 
 
-Microsoft Managed Desktop에서 사용 되는 데이터 저장, 사용 및 보안 방법에 대 한 자세한 내용은 백서를 다운로드 하세요 [https://aka.ms/mmd-data](https://aka.ms/mmd-data) .
+Microsoft Managed Desktop에서 사용 되는 데이터 저장, 사용 및 보안 방법에 대 한 자세한 내용은 당사의 백서를 참조 하세요 [https://aka.ms/mmd-data](https://aka.ms/mmd-data) .
 
 
 ## <a name="device-security"></a>장치 보안

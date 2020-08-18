@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: 유효한 회사 또는 학교 계정으로 로그인 한 사용자는 Office 365의 엔터프라이즈 수준 개인 정보, 보안 및 준수 약속을 충족 하는 Microsoft 365 환경에서 Cortana를 사용 하 여 클라우드 기반 지원 서비스를 받을 수 있습니다.
-ms.openlocfilehash: 5707fb5966e77787b609c20b204602318627d350
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 29e04726b04fafb0b79e5ba4625dce2ae74bfc67
+ms.sourcegitcommit: 6fb2a1c404ea3c3573b0f7803bf17459a9387891
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521280"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788851"
 ---
 # <a name="cortana-in-microsoft-365"></a>Microsoft 365의 Cortana
 
@@ -37,7 +37,7 @@ Cortana, 개인 생산성 도우미는 시간을 절약 하 고 가장 중요 �
 
 - 다른 Office 365 서비스와 마찬가지로 Cortana 엔터프라이즈 서비스는 [온라인 서비스 약관 (OST)](https://www.microsoft.com/licensing/product-licensing/products)에 반영 된 것과 같은 엔터프라이즈 수준의 개인 정보, 보안 및 규정 준수를 충족 합니다.
 
-- 새 Microsoft 365 환경 (예: 브리핑 전자 메일 및 재생 내 전자 메일)은 Cortana enterprise services를 사용 하 여 사용 하도록 설정 되며 해당 약속을 완벽 하 게 준수 합니다. 이러한 기능은 미국 지역에 사서함이 있는 사용자에 대 한 영어 (미국) 시장 및 미국 기반 사서함이 있는 다국적 기업 직원에 게 현재 제공 되 고 있습니다.
+- 새 Microsoft 365 환경 (예: 브리핑 전자 메일 및 재생 내 전자 메일)은 Cortana enterprise services를 사용 하 여 사용 하도록 설정 되며 해당 약속을 완벽 하 게 준수 합니다. 이러한 기능은 미국 지역에 사서함이 있는 사용자에 대 한 영어 (미국) 시장 및 미국 기반 사서함이 있는 다국적 기업 직원에 게 현재 제공 되 고 있습니다. 사용 위치를 찾는 방법에 대 한 자세한 내용은 [계정에 대 한 추가 속성 값 보기](https://docs.microsoft.com/microsoft-365/enterprise/view-user-accounts-with-microsoft-365-powershell?view=o365-worldwide#view-additional-property-values-for-accounts)를 참조 하세요.
 
 - 사용자는 Windows 10 (버전 2004 이상)의 Cortana를 통해 여기에서 설명 하는 Cortana 엔터프라이즈 서비스에 연결할 수 있을 뿐만 아니라, 개별 사용권 조항에 따라 iOS 및 Android 용 Outlook과 같은 클라이언트 응용 프로그램을 사용할 수도 있습니다. 
 
@@ -45,7 +45,7 @@ Cortana, 개인 생산성 도우미는 시간을 절약 하 고 가장 중요 �
 
 ## <a name="what-data-is-processed-by-cortana-enterprise-services"></a>Cortana 엔터프라이즈 서비스에서 처리 되는 데이터는 무엇입니까? 
 
-Cortana enterprise services 프로세스 사용자의 요청을 수행 하는 데 필요한 Office 데이터와 서비스를 실행 하기 위해 Microsoft 시스템에서 생성 된 기타 원격 분석 등이 여기에 해당 합니다. Cortana enterprise services에서 수집한 데이터에는 사용자의 음성 쿼리 (예: 음성 인식)의 텍스트 표현이 포함 됩니다. 이 텍스트 데이터는 고객 데이터 이며, [온라인 서비스 약관](https://www.microsoft.com/licensing/product-licensing/products)에 따라 관리 됩니다. 이 기능은 온라인 서비스 조항에 맞게 기계 학습 모델을 개발 및 개선 하는 데만 사용 됩니다.
+Cortana enterprise services 프로세스 사용자의 요청을 수행 하는 데 필요한 Office 데이터와 서비스를 실행 하기 위해 Microsoft 시스템에서 생성 된 기타 원격 분석 등이 여기에 해당 합니다. Cortana enterprise services에서 수집한 데이터에는 사용자의 음성 쿼리 (예: 음성 인식)의 텍스트 표현이 포함 됩니다. 이 텍스트 데이터는 고객 데이터 이며,  [온라인 서비스 약관](https://www.microsoft.com/licensing/product-licensing/products)에 따라 관리 됩니다. 이 기능은 온라인 서비스 조항에 맞게 기계 학습 모델을 개발 및 개선 하는 데만 사용 됩니다.
 
 ## <a name="what-is-the-governance-model-for-customer-data-in-cortana-enterprise-services"></a>Cortana 엔터프라이즈 서비스의 고객 데이터에 대 한 거 버 넌 스 모델은 무엇입니까?
 
@@ -55,13 +55,13 @@ Cortana enterprise services 프로세스 사용자의 요청을 수행 하는 �
 
 아래 표에는 Cortana 엔터프라이즈 서비스에 대 한 데이터 처리에 대 한 설명이 나와 있습니다.
 
-|**이름**|**설명**|
+| 이름 | 설명 |
 |:-----|:-----|
-|**저장소**  <br/> |고객 데이터는 Office 365 클라우드 내의 Microsoft 서버에 저장 됩니다. 데이터가 테 넌 트의 일부인 경우 <br/> 음성 오디오가 보존 되지 않습니다.  <br/> |
+|**저장소**  <br/> |고객 데이터는 Office 365 클라우드 내의 Microsoft 서버에 저장 됩니다. 데이터가 테 넌 트의 일부인 경우 <br/><br/>음성 오디오가 보존 되지 않습니다.  <br/> |
 |**지리적으로 유지**  <br/> |고객 데이터는 지리적으로 Office 365 클라우드 내의 Microsoft 서버에 저장 됩니다. 데이터가 테 넌 트의 일부인 경우  <br/> |
-|**보존**  <br/> |테 넌 트 관리자가 계정을 닫을 때 또는 GDPR 데이터 주체 권한 삭제 요청이 수행 되는 경우 고객 데이터는 삭제 됩니다. <br/> 음성 오디오가 보존 되지 않습니다.  <br/> |
+|**보존**  <br/> |테 넌 트 관리자가 계정을 닫을 때 또는 GDPR 데이터 주체 권한 삭제 요청이 수행 되는 경우 고객 데이터는 삭제 됩니다. <br/><br/>음성 오디오가 보존 되지 않습니다.  <br/> |
 |**처리 및 기밀성**  <br/> |고객 데이터 및 개인 데이터 처리를 담당 하는 직원은 고객의 지침을 통해서만 이러한 데이터를 처리 하며, (ii)은 계약이 종료 된 후에도 이러한 데이터의 기밀성 및 보안을 유지 관리 해야 합니다.  <br/> |
-|**Usage**  <br/> |Microsoft는 고객 데이터를 사용 하 여 동의한 서비스와 이러한 서비스와 호환 되는 목적을 제공 합니다. 모델을 개발 하 고 개선 하기 위한 기계 학습은 이러한 목적 중 하나입니다. 컴퓨터 학습은 Office 365 클라우드 내에서 수행 되며 고객 데이터를 사용자가 보거나 검토 하거나 레이블을 지정 하지 않습니다. <br/> 데이터는 광고를 대상으로 하는 데 사용 되지 않습니다.  <br/> |
+|**Usage**  <br/> |Microsoft는 고객 데이터를 사용 하 여 동의한 서비스와 이러한 서비스와 호환 되는 목적을 제공 합니다. 모델을 개발 하 고 개선 하기 위한 기계 학습은 이러한 목적 중 하나입니다. 컴퓨터 학습은 Office 365 클라우드 내에서 수행 되며 고객 데이터를 사용자가 보거나 검토 하거나 레이블을 지정 하지 않습니다. <br/><br/>데이터는 광고를 대상으로 하는 데 사용 되지 않습니다.  <br/> |
 
 ## <a name="cortana-enterprise-services-in-microsoft-365-experiences"></a>Microsoft 365의 Cortana enterprise services 경험
 
