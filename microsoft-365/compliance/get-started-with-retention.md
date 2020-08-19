@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 관리하도록 보존 정책 및 보존 레이블 구현을 시작할 준비가 되었지만, 어디서부터 시작해야 할지 모르겠나요? 시작을 도와주는 실질적인 지침을 읽어 보세요.
-ms.openlocfilehash: 910d5b64addfeda077a5fd34eb2409a9cac2516d
-ms.sourcegitcommit: b812771805c8b9e92b64deb1928e265e60d80405
+ms.openlocfilehash: 33b2fbd40c19d1f4e2e2ef042eaa2fe21080eec1
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46588176"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778294"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블 시작하기
 
@@ -52,7 +52,7 @@ ms.locfileid: "46588176"
 
 보존 정책과 보존 레이블을 만들고 관리할 규정 준수 팀의 구성원에게는 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에 대한 권한이 필요합니다. 기본적으로 테넌트 관리자(전역 관리자)는 이 위치에 액세스할 수 있으며, 규정 준수 책임자와 기타 사용자에게 테넌트 관리자의 모든 권한을 부여하지는 않으면서 액세스 권한을 부여할 수 있습니다. 이 제한적 관리를 위한 권한을 부여하기 위해서는 사용자를 **규정 준수 관리자** 관리 역할 그룹에 추가할 것을 권장합니다. 지침은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center)를 참조하세요.
 
-이러한 권한은 보존 정책을 생성하고 적용할 때만 필요합니다. 보존 정책을 구성하는 사용자는 콘텐츠에 액세스할 필요가 없습니다.
+해당 권한은 보존 정책 및 보존 레이블을 만들고 구성하고 적용하는 경우에만 필요합니다. 해당 정책 및 레이블을 구성하는 사용자는 콘텐츠에 대한 액세스 권한이 필요하지 않습니다.
 
 ## <a name="common-scenarios-for-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대한 일반적인 시나리오
 
@@ -67,11 +67,12 @@ ms.locfileid: "46588176"
 |문서 및 전자 메일에 대한 보존 및 삭제 동작 집합을 자동으로 적용 |[보존 레이블을 콘텐츠에 자동으로 적용하기](apply-retention-labels-automatically.md)|
 |다음과 같은 이벤트가 발생할 때 보존 기간 시작:  <br />- 직원 퇴사 <br />- 계약 만료 <br />- 제품 수명 주기 종료| [이벤트가 발생할 때 보존 시작하기](event-driven-retention.md)|
 |SharePoint에서 다른 문서 유형 수명 주기 관리| [보존 레이블로 SharePoint에 저장된 문서의 수명 주기 관리](auto-apply-retention-labels-scenario.md)|
-|문서 및 전자 메일에 단일 레코드 관리 솔루션 사용 |[Microsoft 365의 레코드 관리하기](records-management.md) |
 |SEC 규칙 17a-4 준수|[SEC Rule 17a-4를 준수하기 위해 Exchange Online과 보안 및 준수 센터 사용하기](use-exchange-online-to-comply-with-sec-rule-17a-4.md) |
 |보존 기간 종료 시 콘텐츠를 삭제하기 전에 누군가가 검토하고 승인하도록 하세요.|[처리 검토](disposition.md#disposition-reviews) |
-|보존 기간 종료시 삭제되는 콘텐츠에 대한 처리 증명을 보유합니다.|[콘텐츠 처분](disposition.md#disposition-of-records) |
 | 보존 레이블이 적용 되는 방법과 위치 모니터링 | [보존 레이블 모니터링](retention.md#monitoring-retention-labels) |
+|문서 및 전자 메일에 대한 단일 레코드 관리 솔루션 사용 |[레코드 관리에 대한 자세한 정보](records-management.md) |
+
+레코드 관리에 대한 보존 레이블을 사용하는 경우 콘텐츠를 레코드로 표시하는 보존 레이블에 대해 고유한 추가 시나리오가 있습니다. [레코드 관리에 대한 일반적인 시나리오](get-started-with-records-management.md#common-scenarios-for-records-management)를 참조하세요.
 
 ## <a name="end-user-documentation-for-retention-labels"></a>보존 레이블에 대한 최종 사용자 설명서
 

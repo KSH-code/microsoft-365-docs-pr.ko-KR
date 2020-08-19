@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 메타데이터를 사용하여 내용을 분류하고 레이블을 자동으로 적용하며 이벤트 기반 보존을 사용하여 보존 기간을 시작하여 SharePoint 에서 문서의 라이프사이클을 관리하는 방법입니다.
-ms.openlocfilehash: 250bf182c26616a3a2f9253471469d2cecbd8d2b
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 8aed846c8c95aad737a9dfd56e4df7533e57a329
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560671"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778548"
 ---
 # <a name="use-retention-labels-to-manage-the-lifecycle-of-documents-stored-in-sharepoint"></a>보존 레이블로 SharePoint에 저장된 문서의 수명 주기 관리
 
@@ -107,7 +107,7 @@ Microsoft 365 규중 준수 센터를 사용하여 다음 [보존 레이블](ret
 
 - **보존 기간:** 5년 (1,825일)
 
-- **레코드 레이블**: 콘텐츠를 [*레코드*](records.md)(으)로 분류하도록 보존 레이블을 구성합니다. (*레코드*로 분류된 문서는 사용자가 수정하거나 삭제할 수 없습니다.)
+- **레코드 레이블**: 콘텐츠를 [레코드](records-management.md#records)(으)로 분류하도록 보존 레이블을 구성합니다. (*레코드*로 분류된 문서는 사용자가 수정하거나 삭제할 수 없습니다.)
 
 - **파일 계획 설명자:**(시나리오를 단순화하기 위해 파일 설명자가 제공되지 않습니다)
 

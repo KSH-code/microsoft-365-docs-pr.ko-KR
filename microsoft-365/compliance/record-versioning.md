@@ -17,18 +17,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에서 레코드 관리 솔루션을 구현하는 데 도움이 되는 레코드에 대해 알아봅니다.
-ms.openlocfilehash: 943bf3949ab57eb4603695495d7a8ca0c4b90db7
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 47a6aee128dbc8375d5860e1e8b1e4e0acc355cb
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695267"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778454"
 ---
 # <a name="use-record-versioning-to-update-records-stored-in-sharepoint-or-onedrive"></a>레코드 버전을 사용하여 SharePoint 또는 OneDrive에 저장된 레코드를 업데이트합니다.
 
 >*[보안 및 규정 준수에 대한 Microsoft 365 라이센스 지침](https://aka.ms/ComplianceSD)입니다.*
 
-문서를 [레코드](records.md)로 표시하고 레코드에서 수행할 수 있는 작업을 제한하는 기능은 모든 레코드 관리 솔루션의 필수 목표입니다. 그러나 후속 버전을 만들어야 하는 경우 공동으로 작업할 수도 있습니다.
+문서를 [레코드](records-management.md#records)로 표시하고 레코드에서 수행할 수 있는 작업을 제한하는 기능은 모든 레코드 관리 솔루션의 필수 목표입니다. 그러나 후속 버전을 만들어야 하는 경우 공동으로 작업할 수도 있습니다.
 
 예를 들어 영업 계약을 레코드로 표시한 경우 새 사용 약관으로 계약을 업데이트하고 최신 버전을 새 레코드로 표시해야 합니다. 반면 이전 버전의 레코드는 계속 보존됩니다. 해당 유형의 시나리오에서는 SharePoint 및 OneDrive가 *레코드 버전 관리*를 지원하고 있습니다. OneNote 전자 필기장 폴더는 레코드 버전 관리를 지원하지 않습니다.
 
@@ -103,6 +103,4 @@ ms.locfileid: "46695267"
 
 ## <a name="next-steps"></a>다음 단계
 
-콘텐츠를 레코드로 표시하려면 [보존 레이블을 사용하여 레코드 삭제](declare-records.md)를 참조합니다.
-
-레코드 처리에 대한 자세한 내용은 [콘텐츠 삭제](disposition.md)를 참조하세요.
+레코드 관리에서 지원되는 기타 시나리오는 [레코드 관리에 대한 일반적인 시나리오](get-started-with-records-management.md#common-scenarios-for-records-management)를 참조하세요.

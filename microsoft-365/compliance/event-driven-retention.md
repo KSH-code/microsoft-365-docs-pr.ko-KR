@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: 일반적으로 레코드 관리 솔루션의 일부는 사용자가 식별하는 이벤트에 기반하여 보존 기간을 시작하는 보존 레이블을 구성할 수 있습니다.
-ms.openlocfilehash: 03f8446d54d905665f5bf33c2f581a869dfc478e
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 7286e65be2313f5716bfc59399c1755cadb9f6d6
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560535"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778528"
 ---
 # <a name="start-retention-when-an-event-occurs"></a>이벤트가 발생할 때 보존 시작
 
@@ -43,7 +43,7 @@ ms.locfileid: "46560535"
     
 이벤트 구동 보존은 일반적으로 기록 관리 프로세스의 일부로 사용됩니다. 이것은 다음을 의미합니다.
   
-- 이벤트 기반의 레이블은 대개 콘텐츠를 레코드로 분류합니다. 자세한 내용은 [레코드에 대해 자세히 알아보기](records.md)를 참조하세요.
+- 이벤트 기반의 레이블은 보통 레코드 관리 솔루션의 일환으로 콘텐츠를 레코드로 분류합니다. 자세한 내용은 [레코드 관리에 대한 자세한 정보](records-management.md)를 참조하세요.
 
 - 레코드로 분류되었으나 해당 이벤트 트리거가 아직 발생하지 않은 문서는 문서의 보존 기간을 트리거하는 이벤트가 발생할 때까지 무기한 보존됩니다(기록을 영구히 삭제할 수 없음).
     
