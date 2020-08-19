@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: c4f7f578aef3612696a8d5ab2a76111ff16d27b7
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 63f95b281dd2284168817a8edd9777c470f01d34
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648890"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797925"
 ---
 # <a name="emailevents"></a>EmailEvents
 
@@ -32,6 +32,9 @@ ms.locfileid: "46648890"
 
 
 [고급 헌팅](advanced-hunting-overview.md) 스키마의 `EmailEvents` 표에는 Office 365 ATP에서 전자 메일의 처리를 수반하는데 이벤트에 대한 정보가 포함되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+
+>[!TIP]
+> 테이블에서 지 원하는 이벤트 유형 (값)에 대 한 자세한 내용은 `ActionType` 보안 센터에서 사용할 수 있는 [기본 제공 스키마 참조](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 를 사용 하십시오.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 
@@ -68,6 +71,6 @@ ms.locfileid: "46648890"
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
-- [장치, 전자 메일, 앱 및 id 간 헌트](advanced-hunting-query-emails-devices.md)
+- [기기, 전자 메일, 앱 및 ID를 검색합니다.](advanced-hunting-query-emails-devices.md)
 - [스키마의 이해](advanced-hunting-schema-tables.md)
 - [쿼리 모범 사례 적용](advanced-hunting-best-practices.md)

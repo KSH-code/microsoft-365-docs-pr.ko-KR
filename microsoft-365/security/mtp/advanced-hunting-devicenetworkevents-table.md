@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 892ffe59f0902938b5d248e11a967b46de9c30b3
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 00e8b30507228df41c8eb29eac88102e59d0950b
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649052"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797971"
 ---
 # <a name="devicenetworkevents"></a>DeviceNetworkEvents
 
@@ -33,6 +33,9 @@ ms.locfileid: "46649052"
 
 `DeviceNetworkEvents` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 네트워크 연결 및 관련 이벤트에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
+>[!TIP]
+> 테이블에서 지 원하는 이벤트 유형 (값)에 대 한 자세한 내용은 `ActionType` 보안 센터에서 사용할 수 있는 [기본 제공 스키마 참조](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 를 사용 하십시오.
+
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 
 | 열 이름 | 데이터 형식 | 설명 |
@@ -40,7 +43,7 @@ ms.locfileid: "46649052"
 | `Timestamp` | datetime | 이벤트가 기록된 날짜와 시간 |
 | `DeviceId` | 문자열 | 서비스에서 시스템의 고유 식별자 |
 | `DeviceName` | 문자열 | 컴퓨터의 FQDN(정규화된 도메인 이름) |
-| `ActionType` | 문자열 | 이벤트를 트리거한 작업의 유형입니다. |
+| `ActionType` | 문자열 | 이벤트를 트리거한 작업의 유형입니다. 자세한 내용은 [portal 스키마 참조](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 를 참조 하세요. |
 | `RemoteIP` | 문자열 | 연결된 IP 주소 |
 | `RemotePort` | int | 연결 된 원격 장치의 TCP 포트 |
 | `RemoteUrl` | 문자열 | 연결된 URL 또는 FQDN(정규화된 도메인 이름) |
@@ -72,6 +75,6 @@ ms.locfileid: "46649052"
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
-- [장치, 전자 메일, 앱 및 id 간 헌트](advanced-hunting-query-emails-devices.md)
+- [기기, 전자 메일, 앱 및 ID를 검색합니다.](advanced-hunting-query-emails-devices.md)
 - [스키마의 이해](advanced-hunting-schema-tables.md)
 - [쿼리 모범 사례 적용](advanced-hunting-best-practices.md)

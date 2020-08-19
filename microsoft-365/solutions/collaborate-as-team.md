@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: 팀에서 게스트를 공동 작업용으로 설정 하는 데 필요한 Microsoft 365 구성 단계에 대해 설명 합니다.
-ms.openlocfilehash: 73f9a7a1c52c8c237cccabafd8fca24abe038ff7
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: f22404ea412085ed697f76219509c1382318e7d4
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46528221"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797773"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>게스트와 팀으로 공동 작업하기
 
@@ -37,7 +37,7 @@ ms.locfileid: "46528221"
 
 ## <a name="azure-organizational-relationships-settings"></a>Azure 조직 관계 설정
 
-Microsoft 365의 공유는 Azure Active Directory의 조직 관계 설정에 따라 최상위 수준에서 관리 됩니다. Azure AD에서 게스트 공유가 사용 하지 않도록 설정 되거나 제한 되 면 Microsoft 365에서 구성한 모든 공유 설정이 재정의 됩니다.
+Microsoft 365의 공유는 [Azure Active Directory의 조직 관계 설정](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations)에 따라 최상위 수준에서 관리 됩니다. Azure AD에서 게스트 공유가 사용 하지 않도록 설정 되거나 제한 되 면 Microsoft 365에서 구성한 모든 공유 설정이 재정의 됩니다.
 
 조직 관계 설정을 확인 하 여 게스트가 공유 하는 것이 차단 되지 않는지 확인 합니다.
 
@@ -47,12 +47,14 @@ Microsoft 365의 공유는 Azure Active Directory의 조직 관계 설정에 따
 
 1. Microsoft Azure에 로그인 [https://portal.azure.com](https://portal.azure.com) 합니다.
 2. 왼쪽 탐색 창에서 **Azure Active Directory**를 클릭 합니다.
-3. **개요** 창에서 **외부 id**를 클릭 합니다.
+3. **개요** 창에서 **외부 ID**를 클릭합니다.
 4. **조직 id** 창에서 **외부 공동 작업 설정을**클릭 합니다.
 5. **Guest inviter 역할의 관리자 및 사용자가 초대** 를 하 고 **구성원은 초대** 를 할 수 있는지 확인 하 고 둘 다 **예**로 설정 합니다.
 6. 변경한 내용이 있으면 **저장**을 클릭합니다.
 
 **공동 작업 제한** 섹션의 설정을 확인 합니다. 공동 작업 하려는 게스트의 도메인이 차단 되지 않았는지 확인 합니다.
+
+여러 조직의 게스트 작업을 수행 하는 경우 디렉터리 데이터에 대 한 액세스를 제한할 수 있습니다. 이렇게 하면 디렉터리에서 게스트에 해당 하는 사람을 볼 수 없게 됩니다. 이 작업을 수행 하려면 **게스트 사용자 액세스 제한**에서 게스트 사용자는 **속성에 대 한 제한 된 액세스 및 디렉터리 개체 설정의 멤버 자격** 을 선택 하거나 **게스트 사용자 액세스를 자체 디렉터리 개체의 속성 및 구성원으로 제한**합니다.
 
 ## <a name="teams-guest-access-settings"></a>팀 게스트 액세스 설정
 

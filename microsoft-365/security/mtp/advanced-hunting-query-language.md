@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 64f0b19cfd9588e975b06cb43ca73270b00c5e26
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 15e298edfad2d04079322a070615a36bb5df64ad
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649394"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797855"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>고급 헌팅 쿼리 언어 알아보기
 
@@ -66,7 +66,7 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 // Finds PowerShell execution events that could involve a download
 ```
 
-일반적으로 쿼리 자체는 표 이름으로 시작하고 다음으로 파이프(`|`)로 시작되는 일련의 요소가 옵니다. 이 예제에서는 먼저 두 개의 테이블을 통합 하 고 `DeviceProcessEvents` `DeviceNetworkEvents` 필요에 따라 파이프 된 요소를 추가 합니다.
+일반적으로 쿼리 자체는 표 이름으로 시작하고 다음으로 파이프(`|`)로 시작되는 일련의 요소가 옵니다. 이 예제에서는 먼저 두 개의 테이블을 통합 하 고  `DeviceProcessEvents` `DeviceNetworkEvents` 필요에 따라 파이프 된 요소를 추가 합니다.
 
 ```kusto
 union DeviceProcessEvents, DeviceNetworkEvents
@@ -102,7 +102,7 @@ union DeviceProcessEvents, DeviceNetworkEvents
 ```
 
 ### <a name="customize-result-columns-and-length"></a>결과 열 및 길이 사용자 지정 
-쿼리에서 찾으려고 하는 데이터를 명확하게 식별하므로 결과 모양을 정의하는 요소를 추가할 수 있습니다. `project`특정 열을 반환 하 고 `top` 결과 수를 제한 합니다. 이러한 연산자를 사용 하면 결과의 형식이 적절 하 고 상당히 크고 프로세스를 간편 하 게 수행할 수 있습니다.
+쿼리에서 찾으려고 하는 데이터를 명확하게 식별하므로 결과 모양을 정의하는 요소를 추가할 수 있습니다. `project` 특정 열을 반환 하 고 `top` 결과 수를 제한 합니다. 이러한 연산자를 사용 하면 결과의 형식이 적절 하 고 상당히 크고 프로세스를 간편 하 게 수행할 수 있습니다.
 
 ```kusto
 | project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine, 
@@ -117,7 +117,7 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 >[!TIP]
 >쿼리 결과를 차트로 보고 필터를 빠르게 조정할 수 있습니다. 지침을 보려면 [쿼리 결과 작업에 대 한 내용을 읽어보십시오](advanced-hunting-query-results.md) .
 
-## <a name="learn-common-query-operators-for-advanced-hunting"></a>고급 헌팅에 대한 일반적인 쿼리 연산자 살펴보기
+## <a name="learn-common-query-operators"></a>일반적인 쿼리 연산자 학습
 
 첫 번째 쿼리를 실행하고 해당 구성 요소에 대한 일반적인 아이디어를 얻었으므로 약간 되돌아가서 몇 가지 기본 사항을 배울 차례입니다. 고급 헌팅에서 사용하는 Kusto 쿼리 언어는 다음을 포함하여 다양한 연산자를 지원합니다.
 
@@ -136,7 +136,7 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 
 이러한 연산자의 실제 예제를 보려면 고급 헌팅의 **시작** 섹션에서 해당 연산자를 실행합니다.
 
-## <a name="understand-data-types-and-their-query-syntax-implications"></a>데이터 형식 및 해당 쿼리 구문의 영향 이해
+## <a name="understand-data-types"></a>데이터 형식 이해
 
 고급 헌팅 표에서 데이터는 일반적으로 다음과 같은 데이터 형식으로 분류됩니다.
 
@@ -147,6 +147,8 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 | `bool` | True 또는 False |
 | `int` | 32비트 숫자 값  |
 | `long` | 64비트 숫자 값 |
+
+이러한 데이터 형식 및 해당 의미에 대해 자세히 알아보려면 [Kusto 스칼라 data types를 참조](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalar-data-types/)하세요.
 
 ## <a name="get-help-as-you-write-queries"></a>쿼리 작성시 도움말 보기
 다음 기능을 활용하여 쿼리를 더 빠르게 작성하세요.
@@ -179,6 +181,6 @@ Kusto 쿼리 언어와 지원되는 연산자에 대한 자세한 내용은 [Kus
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 결과 작업](advanced-hunting-query-results.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
-- [장치, 전자 메일, 앱 및 id 간 헌트](advanced-hunting-query-emails-devices.md)
+- [기기, 전자 메일, 앱 및 ID를 검색합니다.](advanced-hunting-query-emails-devices.md)
 - [스키마의 이해](advanced-hunting-schema-tables.md)
 - [쿼리 모범 사례 적용](advanced-hunting-best-practices.md)

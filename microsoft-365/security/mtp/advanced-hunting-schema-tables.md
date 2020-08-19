@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 308337f806d54f1beb7ae6112b2ed883707d4513
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: d9b5fd9bfe881ec1313afb26da5d19cd96054862
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649298"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797831"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>고급 헌팅 스키마 이해
 
@@ -46,7 +46,7 @@ ms.locfileid: "46649298"
 
 ![포털에서 스키마 참조에 액세스 하는 방법을 보여 주는 이미지 ](../../media/mtp-ah/ah-reference.png) 
 
-## <a name="schema-tables"></a>스키마 표
+## <a name="learn-the-schema-tables"></a>스키마 테이블 학습
 다음 참조는 스키마에서 모든 표를 나열합니다. 각 표 이름은 해당 표의 열 이름을 설명하는 페이지에 연결됩니다. 표 및 열 이름은 고급 헌팅 화면에서 스키마 표현의 일부로 보안 센터에도 나열됩니다.
 
 | 테이블 이름 | 설명 |
@@ -72,6 +72,7 @@ ms.locfileid: "46649298"
 | **[EmailEvents](advanced-hunting-emailevents-table.md)** | 전자 메일 배달 및 차단 이벤트를 비롯 한 Microsoft 365 전자 메일 이벤트 |
 | **[EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** | Microsoft 365이 전자 메일을 받는 사람 사서함으로 배달 한 후 배달 후 발생 하는 보안 이벤트 |
 | **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | 전자 메일의 Url에 대 한 정보 |
+| **[IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md)** | AD (Active Directory)를 실행 하는 온-프레미스 도메인 컨트롤러를 포함 하는 이벤트 이 표에서는 id 관련 이벤트 및 도메인 컨트롤러의 시스템 이벤트 범위를 설명 합니다. |
 | **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | Azure Active Directory를 비롯 한 다양 한 원본의 계정 정보 |
 | **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | Active Directory 및 Microsoft online services의 인증 이벤트 |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Active Directory 개체에 대해 수행 되는 쿼리 작업 (예: 사용자, 그룹, 장치 및 도메인) |
@@ -81,5 +82,5 @@ ms.locfileid: "46649298"
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [쿼리 결과 작업](advanced-hunting-query-results.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
-- [장치, 전자 메일, 앱 및 id 간 헌트](advanced-hunting-query-emails-devices.md)
+- [기기, 전자 메일, 앱 및 ID를 검색합니다.](advanced-hunting-query-emails-devices.md)
 - [쿼리 모범 사례 적용](advanced-hunting-best-practices.md)

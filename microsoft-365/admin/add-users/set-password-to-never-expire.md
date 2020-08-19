@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Windows PowerShell을 사용 하 여 일부 개별 사용자 암호가 만료 되지 않도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 6562a4092c47d9c4bf7bf294767e6050a3e0577a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f85eb2d3aaf5b19779ea8f293e2cbdc28c1535aa
+ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387012"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46804211"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>개별 사용자 암호가 만료되지 않도록 설정
 
@@ -53,7 +53,7 @@ Graph 용 Azure AD PowerShell에 대 한 자세한 내용은 [Azure Active Direc
 
 AzureAD 모듈의 AzureADUser 명령에 대 한 자세한 내용은 [AzureADUser](https://docs.microsoft.com/powershell/module/Azuread/Get-AzureADUser?view=azureadps-2.0)를 참조 문서를 참조 하세요.
 
-다음 명령 중 하나를 실행 합니다.
+다음 명령 중 하나를 실행합니다.
 
 - 단일 사용자의 암호가 만료 되지 않도록 설정 되어 있는지 확인 하려면 UPN (예: *user@contoso.onmicrosoft.com*) 또는 확인 하려는 사용자의 사용자 ID를 사용 하 여 다음 cmdlet을 실행 합니다.
 
@@ -79,7 +79,7 @@ AzureAD 모듈의 AzureADUser 명령에 대 한 자세한 내용은 [AzureADUser
      }
     ```
 
-- 이름이 **ReportPasswordNeverExpires** 인 현재 사용자의 바탕 화면에서 PasswordNeverExpires가 있는 모든 사용자의 보고서를 html로 가져오려면
+- 이름이 **ReportPasswordNeverExpires.html** 인 현재 사용자의 데스크톱에서 Html로 PasswordNeverExpires가 있는 모든 사용자의 보고서를 가져오려면
 
     ```powershell
     Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
@@ -87,7 +87,7 @@ AzureAD 모듈의 AzureADUser 명령에 대 한 자세한 내용은 [AzureADUser
     } | ConvertTo-Html | Out-File $env:userprofile\Desktop\ReportPasswordNeverExpires.html
     ```  
 
-- PasswordNeverExpires 이름이 **ReportPasswordNeverExpires** 인 현재 사용자의 데스크톱에서 csv에 있는 모든 사용자에 대 한 보고서를 가져오려면
+- 이름이 **ReportPasswordNeverExpires.csv** 인 현재 사용자의 데스크톱에서 CSV에 PasswordNeverExpires이 있는 모든 사용자의 보고서를 가져오려면
 
     ```powershell
     Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
@@ -97,7 +97,7 @@ AzureAD 모듈의 AzureADUser 명령에 대 한 자세한 내용은 [AzureADUser
 
 ### <a name="set-a-password-to-expire"></a>암호가 만료 되도록 설정
 
-다음 명령 중 하나를 실행 합니다.
+다음 명령 중 하나를 실행합니다.
 
 - 암호가 만료 되도록 한 명의 사용자에 대 한 암호를 설정 하려면 UPN 또는 사용자의 사용자 ID를 사용 하 여 다음 cmdlet을 실행 합니다.
 
@@ -113,7 +113,7 @@ AzureAD 모듈의 AzureADUser 명령에 대 한 자세한 내용은 [AzureADUser
 
 ### <a name="set-a-password-to-never-expire"></a>암호가 만료 되지 않도록 설정
 
-다음 명령 중 하나를 실행 합니다.
+다음 명령 중 하나를 실행합니다.
 
 - 한 사용자의 암호가 만료 되지 않도록 설정 하려면 사용자의 UPN 또는 사용자 ID를 사용 하 여 다음 cmdlet을 실행 합니다.
 
@@ -128,4 +128,4 @@ AzureAD 모듈의 AzureADUser 명령에 대 한 자세한 내용은 [AzureADUser
     ```
 
 > [!WARNING]
-> `-PasswordPolicies DisablePasswordExpiration`특성에 따라 암호를 여전히 age로 설정 `pwdLastSet` 합니다. 사용자 암호가 만료 되지 않도록 설정 하 고 90 일을 경과 하면 암호가 만료 됩니다. `pwdLastSet`특성을 기반으로 만료를 변경 하면 다음에 로그인 할 `-PasswordPolicies None` `pwdLastSet` 때 사용자가 해당 90 암호를 변경 해야 합니다. 이 변경으로 인해 많은 사용자에 게 영향을 줄 수 있습니다.
+> 매개 변수를 사용 하 여 구성 된 사용자 계정은 `-PasswordPolicies DisablePasswordExpiration` 사용자 계정 특성에 따라 여전히 age로 설정 `pwdLastSet` 됩니다. 예를 들어 사용자 암호가 만료 되지 않도록 설정 하 고 90 일이 하 이면 암호가 만료 됨을 유지 합니다. `pwdLastSet`사용자 계정 특성을 기반으로 매개 변수를 사용 하 여 구성 된 사용자 계정에 대해 `-PasswordPolicies None` , `pwdLastSet` 90 일 보다 오래 된 모든 암호는 사용자가 다음에 로그인 할 때 변경 해야 합니다. 이 변경으로 인해 많은 사용자에 게 영향을 줄 수 있습니다.

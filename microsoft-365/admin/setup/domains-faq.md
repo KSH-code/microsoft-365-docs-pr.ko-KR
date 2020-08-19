@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: 도메인에 대 한 자세한 내용은 질문과 대답을 확인 하세요.
-ms.openlocfilehash: c588586ddd3d57fdbe78d7751131f61e6aa53eba
-ms.sourcegitcommit: dc5de2064706137256307f100b8dc61e9797bd1c
+ms.openlocfilehash: bb949dbd4e32bb62f10dfd0323df70697fdc5404
+ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45068106"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46804199"
 ---
 # <a name="domains-faq"></a>도메인 FAQ
 
@@ -52,19 +52,20 @@ ms.locfileid: "45068106"
 - [DNS 공급자가 특정 레코드 종류를 지원 하지 않으면 어떻게 되나요?](#what-happens-if-my-dns-provider-doesnt-support-certain-record-types)
 - [Microsoft 365에서 기본 도메인을 설정 하거나 변경 하려면 어떻게 하나요?](#how-do-i-set-or-change-the-default-domain-in-microsoft-365)
 - [사용자 지정 하위 도메인 또는 여러 도메인을 Microsoft 365에 추가할 수 있나요?](#can-i-add-custom-subdomains-or-multiple-domains-to-microsoft-365)
+- [도메인을 Microsoft 365에서 다른 호스트로 어떻게 전송 하나요?]
 - ["Onmicrosoft.com" 도메인을 보유 하는 이유는 무엇 인가요?](#why-do-i-have-an-onmicrosoftcom-domain)
 - ["Onmicrosoft.de" 도메인을 보유 하는 이유는 무엇 인가요?](#why-do-i-have-an-onmicrosoftde-domain)
 - [비영리 또는 학력 상태를 확인 하려면 어떻게 해야 하나요?](#how-do-i-verify-my-nonprofit-or-education-status)
     
 ## <a name="what-is-mx-priority"></a>MX 우선 순위란?
 
-메일은 가장 낮은 기본 설정 번호 (가장 높은 우선 순위)를 사용 하 여 메일 교환 서버로 배달 되므로 메일 라우팅에 사용 하는 MX 레코드는 가장 낮은 기본 설정 번호 (일반적으로 0 또는 *높은* 우선 순위)를 가져야 합니다. 
+메일은 가장 낮은 기본 설정 번호 (가장 높은 우선 순위)를 사용 하 여 메일 교환 서버로 배달 되므로 메일 라우팅에 사용 하는 MX 레코드는 가장 낮은 기본 설정 번호 (일반적으로 0 또는  *높은*  우선 순위)를 가져야 합니다. 
   
 - MX 레코드를 만들 때 대부분의 DNS 호스팅 공급자가 기본 설정 번호를 설정 해야 합니다.
     
-- 일부 레이블은 box *기본 설정* 및 일부 레이블의 *우선 순위* 입니다. 
+- 일부 레이블은 box  *기본 설정*  및 일부 레이블의  *우선 순위*  입니다. 
     
-- 일부 필요한 경우에는 *낮음* , *중간* 또는 *높음을* 선택 하 라는 것이 좋습니다. 
+- 일부 필요한 경우에는  *낮음*  ,  *중간*  또는  *높음을*  선택 하 라는 것이 좋습니다. 
     
 - MX 레코드가 하나인 경우에는 우선 순위 또는 기본 설정에 적절 한 값을 사용할 수 있습니다.
     
@@ -82,7 +83,7 @@ ms.locfileid: "45068106"
 
 ## <a name="what-is-a-domain-name"></a>도메인 이름 이란?
 
-도메인은 전자 메일 주소에서 **@** 기호 뒤에, 그리고 웹 주소에서 **www.** 뒤에 나타나는 고유한 이름입니다. 일반적으로 *yourbusiness.com* 또는 stateuniversity.edu와 같은 표준 인터넷 접미사와 조직의 이름 형식을 사용 합니다 *.* 
+도메인은 전자 메일 주소에서 **@** 기호 뒤에, 그리고 웹 주소에서 **www.** 뒤에 나타나는 고유한 이름입니다. 일반적으로  *yourbusiness.com*  또는 stateuniversity.edu와 같은 표준 인터넷 접미사와 조직의 이름 형식을 사용 합니다  *.* 
   
 "**Rob \@ contoso.com**"과 같은 사용자 지정 도메인을 Microsoft 365와 함께 사용 하면 신용 및 브랜드를 위한 신뢰도를 구축 하는 데 도움이 될 수 있습니다. 
   
@@ -195,6 +196,14 @@ Microsoft 365에 여러 도메인을 추가 하면 추가한 도메인에서 모
 > [!NOTE]
 > Microsoft 365 구독에 contoso.com 도메인을 추가한 경우 다른 Microsoft 365 조직에 하위 도메인 xyz.contoso.com를 추가할 수도 있습니다. 하위 도메인을 추가할 때 DNS 호스팅 공급자에 TXT 레코드를 추가 하 라는 메시지가 표시 됩니다.
 
+## <a name="how-do-i-transfer-a-domain-from-microsoft-365-to-another-host"></a>도메인을 Microsoft 365에서 다른 호스트로 어떻게 전송 하나요?
+
+도메인을 전송 하는 절차는 도메인을 [Microsoft에서 다른 호스트로 전송을](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host)참조 하십시오.
+
+## <a name="pilot-microsoft-365-from-my-custom-domain"></a>사용자 지정 도메인에서 Microsoft 365 파일럿
+
+사용자 지정 도메인에서 Microsoft 365 사서함으로 Microsoft 365 전자 메일 기능을 파일럿으로 수행 하는 절차는 [사용자 지정 도메인의 파일럿 Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/misc/pilot-microsoft-365-from-my-custom-domain)를 참조 하십시오.
+
 ## <a name="why-do-i-have-an-onmicrosoftcom-domain"></a>"Onmicrosoft.com" 도메인을 보유 하는 이유는 무엇 인가요?
 
 Microsoft 365는 서비스에 등록할 때 *contoso.onmicrosoft.com*와 같은 도메인을 만듭니다. 등록할 때 만드는 사용자 ID에는 *alan@contoso.onmicrosoft.com*와 같은 도메인이 포함 됩니다. 
@@ -232,7 +241,7 @@ Microsoft 365는 서비스에 등록할 때 *contoso.onmicrosoft.de*와 같은 �
 
 1. [관리 센터](https://docs.microsoft.com/microsoft-365/admin/admin-home) 에서 **설치** 를 선택 하 여 마법사를 시작 합니다. (먼저 Microsoft 365에 로그인 해야 합니다.) 
     
-2. 학교 관리자가 되기 위해 Microsoft 365에서 **관리자로가** 는 것으로 관리 옵션을 선택 합니다. 
+2. 학교 관리자가 되기 위해 Microsoft 365에서  **관리자로가** 는 것으로 관리 옵션을 선택 합니다. 
     
 3. 도메인에 대 한 DNS 호스트 웹 사이트에 TXT DNS 레코드를 추가 하 라는 메시지가 표시 됩니다. 다음과 같은 이유 때문입니다. DNS 호스트에 로그인 하 고 도메인에 대 한 레코드를 추가 하는 경우 Microsoft 365에서 도메인 이름을 소유 하 고 있음을 증명 합니다.
     

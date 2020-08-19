@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 05/01/2020
+ms.date: 08/14/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -16,12 +16,12 @@ ms.collection:
 - remotework
 ms.custom: ''
 description: 직원이 언제 어디서나 원격으로 작업할 수 있는 보안 및 인프라를 구성하세요.
-ms.openlocfilehash: c8d56d3dd6e2c46db6ef1938dee8383b56e8966c
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 62361126ad0b843fd909b98807eeb186f13e75bb
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522256"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778345"
 ---
 # <a name="configure-a-team-with-security-isolation-in-a-devtest-environment"></a>개발/테스트 환경에서 보안 격리를 사용하여 팀 구성
 
@@ -33,15 +33,15 @@ ms.locfileid: "46522256"
   
 ## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>1단계: Microsoft 365 Enterprise 테스트 환경 구축
 
-최소 요구 사항을 사용하여 중요하고 매우 중요한 팀을 간단한 방식으로 테스트하려는 경우에는 [간단한 기반 구성](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise)의 지침을 따릅니다.
+최소 요구 사항을 사용하여 중요하고 매우 중요한 팀을 간단한 방식으로 테스트하려는 경우에는 [간단한 기반 구성](../enterprise/lightweight-base-configuration-microsoft-365-enterprise.md)의 지침을 따릅니다.
 
-시뮬레이션 된 엔터프라이즈에서 중요하고 매우 중요한 팀을 테스트하려면 [암호 해시 동기화](https://docs.microsoft.com/microsoft-365/enterprise/password-hash-sync-m365-ent-test-environment)의 지침을 따릅니다.
+시뮬레이션 된 엔터프라이즈에서 중요하고 매우 중요한 팀을 테스트하려면 [암호 해시 동기화](../enterprise/password-hash-sync-m365-ent-test-environment.md)의 지침을 따릅니다.
 
 >[!Note]
 >보안 격리를 사용하여 팀을 테스트할 때는 인터넷에 연결된 시뮬레이트된 인트라넷 및 AD DS(Active Directory 도메인 서비스) 포리스트의 디렉터리 동기화를 포함하여 시뮬레이트된 엔터프라이즈 테스트 환경이 필요하지 않습니다. 보안 격리를 사용하여 팀을 테스트하고 일반적인 조직을 나타내는 환경에서 테스트할 수 있도록 여기에 옵션으로 제공됩니다.
 >
     
-## <a name="phase-2-create-and-configure-your-azure-active-directory-ad-group-and-users"></a>2단계: Azure AD(Active Directory) 그룹 및 사용자 만들기 및 구성
+## <a name="phase-2-create-and-configure-your-azure-active-directory-azure-ad-group-and-users"></a>2단계: Azure AD(Azure Active Directory) 그룹 및 사용자 만들기 및 구성
 
 이 단계에서는 가상의 조직에 대한 Azure AD 그룹 및 사용자를 만들고 구성합니다.
   
@@ -77,7 +77,7 @@ ms.locfileid: "46522256"
     
 6. 브라우저에서 Azure Portal 탭을 닫습니다.
     
-그런 다음, [Azure Active Directory PowerShell for Graph 모듈에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)합니다.
+그런 다음, [Azure Active Directory PowerShell for Graph 모듈에 연결](../enterprise/connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)합니다.
   
 조직 이름, 사용자 위치 및 공통 암호를 입력한 다음 PowerShell 명령 프롬프트 또는 ISE(Integrated Script Environment)에서 다음 명령을 실행하여 새로운 사용자 계정을 만들고 C-제품군 그룹에 추가합니다.
   
@@ -115,7 +115,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 이 단계에서는 시니어 리더십 팀의 구성원이 회사 전략에 대해 협업할 수 있도록 보안 격리 기능이 있는 팀을 작성하고 구성합니다.
 
-먼저 [이 문서](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)의 단계를 진행하기 전에 민감도 레이블을 사용하여 Microsoft Teams, Office 365 그룹 ​​및 SharePoint 사이트의 콘텐츠를 보호하세요.
+먼저 [이 문서](../compliance/sensitivity-labels-teams-groups-sites.md)의 단계를 진행하기 전에 민감도 레이블을 사용하여 Microsoft Teams, Office 365 그룹 ​​및 SharePoint 사이트의 콘텐츠를 보호하세요.
 
 그런 다음, 팀을 만듭니다.
 
@@ -126,10 +126,16 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 5. **개인 정보 보호**에서 **비공개**를 클릭합니다.
 6. **회사 전략**을 입력한 다음 **만들기** > **닫기**를 클릭합니다.
 
-다음으로 다음 설정으로 민감도 레이블을 구성해야 합니다.
+다음으로, 회사 전략 그룹의 소유자에게 개인 채널 만들기를 제한합니다.
 
-- 레이블의 이름은 회사 전략입니다
-- 암호화를 사용하도록 설정되어 있습니다.
+1. 팀에서 **추가 옵션**을 클릭한 다음 **팀 관리**를 클릭합니다.
+2. **설정** 탭에서 **구성원 사용 권한**을 확장합니다.
+3. **구성원이 비공개 채널을 만들 수 있도록 허용** 확인란을 선택 취소합니다.
+
+다음으로, 다음 설정으로 민감도 레이블을 구성해야 합니다.
+
+- 이름을 회사 전략이라고 합니다.
+- 암호화가 사용하도록 설정됩니다.
 - 회사 전략 그룹은 공동 작성자 권한이 있습니다.
 
 다음 단계를 따릅니다.
@@ -199,10 +205,6 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 ![회사 전략 격리 팀 구성](../media/team-security-isolation-dev-test/team-security-isolation-dev-test-config.png)
 
-팀의 파일에는 회사 전략 그룹의 구성원이 지정한 회사 전략 민감도 레이블을 있을 수 있습니다. 예를 들면 다음과 같습니다.
-
-![회사 전략 민감도 레이블이 적용된 파일의 예](../media/team-security-isolation-dev-test/team-security-isolation-dev-test-config-example.png)
- 
 ## <a name="next-step"></a>다음 단계
 
-프로덕션 배포 준비가 되면 자세한 구성 정보는 [보안 격리로 팀 구성 ](secure-teams-security-isolation.md)을 참조하세요.
+프로덕션 배포 준비가 되면 [구성 지침](secure-teams-security-isolation.md)을 참조하세요.

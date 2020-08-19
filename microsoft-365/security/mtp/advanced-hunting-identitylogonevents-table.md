@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: aec5bf5dfe29dd55bf5e5df471126db46fdfcb4c
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 86212bdecb58b2e79a94d0129a0a531ef22bd6e4
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648830"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797843"
 ---
 # <a name="identitylogonevents"></a>IdentityLogonEvents
 
@@ -30,6 +30,9 @@ ms.locfileid: "46648830"
 - Microsoft 위협 방지
 
 `IdentityLogonEvents` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 Azure ATP가 캡처한 온-프레미스 Active Directory를 통해 작성 된 인증 작업 및 Microsoft Cloud App Security에서 캡처한 microsoft online services와 관련 된 인증 작업에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+
+>[!TIP]
+> 테이블에서 지 원하는 이벤트 유형 (값)에 대 한 자세한 내용은 `ActionType` 보안 센터에서 사용할 수 있는 [기본 제공 스키마 참조](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 를 사용 하십시오.
 
 >[!NOTE]
 >이 표에서는 ActiveSync 및 기타 레거시 프로토콜을 사용한 클라우드 앱 보안, 특히 대화형 로그인 및 인증 작업을 통해 추적 되는 Azure Active Directory (AD) 로그온 작업에 대해 설명 합니다. 이 표에서 사용할 수 없는 비 대화형 로그온은 Azure AD audit 로그에서 볼 수 있습니다. [Cloud App Security를 Microsoft 365에 연결 하는 방법에 대해 자세히 알아보기](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security)
@@ -39,7 +42,7 @@ ms.locfileid: "46648830"
 | 열 이름 | 데이터 형식 | 설명 |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | 이벤트가 기록된 날짜와 시간 |
-| `ActionType` | 문자열 | 이벤트를 트리거한 작업의 유형입니다. |
+| `ActionType` | 문자열 | 이벤트를 트리거한 작업의 유형입니다. 자세한 내용은 [portal 스키마 참조](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 를 참조 하세요. |
 | `LogonType` | 문자열 | 로그온 세션의 유형 (특히 다음과 같습니다.<br><br> - **대화형** -사용자가 로컬 키보드 및 화면을 사용 하 여 컴퓨터와 물리적으로 상호 작용 합니다.<br><br> - **RDP (원격 대화형) 로그온** -사용자가 원격 데스크톱, 터미널 서비스, 원격 지원 또는 기타 RDP 클라이언트를 사용 하 여 원격으로 컴퓨터와 상호 작용 합니다.<br><br> - PsExec를 사용 하 여 컴퓨터에 액세스 하거나 프린터 및 공유 폴더와 같은 컴퓨터의 공유 리소스에 액세스 하는 경우 **네트워크** 세션이 시작 됨<br><br> - 예약 된 작업에 의해 시작 되는 **일괄** 세션<br><br> - **서비스** 시작 시 서비스에 의해 시작 된 세션 |
 | `Application` | 문자열 | 기록 된 작업을 수행한 응용 프로그램 |
 | `Protocol` | 문자열 | 사용 되는 네트워크 프로토콜 |
@@ -67,6 +70,6 @@ ms.locfileid: "46648830"
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
-- [장치, 전자 메일, 앱 및 id 간 헌트](advanced-hunting-query-emails-devices.md)
+- [기기, 전자 메일, 앱 및 ID를 검색합니다.](advanced-hunting-query-emails-devices.md)
 - [스키마의 이해](advanced-hunting-schema-tables.md)
 - [쿼리 모범 사례 적용](advanced-hunting-best-practices.md)

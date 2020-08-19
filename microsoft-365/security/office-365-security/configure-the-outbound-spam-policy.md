@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 아웃 바운드 스팸 정책을 보고, 만들고, 수정 하 고, 삭제 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 8a023917443f817476986682dac136ad5c735587
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 22a809370787df1798f2f777c852d1004565d2a6
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653020"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46798285"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>EOP에서 아웃 바운드 스팸 필터링 구성
 
@@ -245,7 +245,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서는 아�
 
 ### <a name="set-the-priority-of-custom-outbound-spam-policies"></a>사용자 지정 아웃 바운드 스팸 정책의 우선 순위 설정
 
-기본적으로 아웃 바운드 스팸 정책에는 만든 순서를 기준으로 하는 우선 순위가 지정 됩니다 (최신 정책은 이전 정책 보다 낮은 우선 순위). 낮은 우선순위 번호는 정책의 높은 우선순위(0이 가장 높음)를 나타내고 정책은 우선순위 순서에 따라 처리됩니다(높은 우선순위 정책은 낮은 우선순위 정책보다 먼저 처리됨). 두 정책의 우선순위가 같을 수 없습니다.
+기본적으로 아웃 바운드 스팸 정책에는 만든 순서를 기준으로 하는 우선 순위가 지정 됩니다 (최신 정책은 이전 정책 보다 낮은 우선 순위). 낮은 우선순위 번호는 정책의 높은 우선순위(0이 가장 높음)를 나타내고 정책은 우선순위 순서에 따라 처리됩니다(높은 우선순위 정책은 낮은 우선순위 정책보다 먼저 처리됨). 두 정책이 같은 우선 순위를 가질 수 없으며 첫 번째 정책이 적용 된 후에는 정책 처리가 중지 됩니다.
 
 사용자 지정 아웃 바운드 스팸 정책은 처리 되는 순서 대로 표시 됩니다 (첫 번째 정책의 **우선 순위** 값은 0). **아웃 바운드 스팸 필터 정책** 이라는 기본 아웃 바운드 스팸 정책에서는 우선 순위 값이 **가장 낮은**것 이며,이를 변경할 수는 없습니다.
 

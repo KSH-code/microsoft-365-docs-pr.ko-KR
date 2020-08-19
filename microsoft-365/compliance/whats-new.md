@@ -1,5 +1,5 @@
 ---
-title: 준수 센터의 새로운 기능
+title: Microsoft 365 규정 준수의 새로운 기능
 f1.keywords:
 - NOCSH
 ms.author: brendonb
@@ -16,21 +16,25 @@ search.appverid:
 ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
-description: Microsoft 365 준수 센터에 지속적으로 새로운 기능을 추가 하 고 있습니다. 이번 달에 제공 된 내용을 확인 합니다.
+description: 준수 센터에 새로운 새 솔루션을 추가 하 고, 사용자 의견에 따라 기존 기능을 업데이트 하거나, 새로운 문서 및 업데이트 된 설명서를 롤아웃할 지 여부에 관계 없이 Microsoft 365에서는 지속적인 변경 준수 가로를 유지 하는 데 도움이 됩니다. 이번 달에 제공 된 내용을 확인 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 77ba6f0926a1826fe6c946ff4f8c05cf913c57ed
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 9bccaab4c1dd1ac8b4676939d848c0f1a599d86b
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560265"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46798178"
 ---
-# <a name="whats-new-in-the-microsoft-365-compliance-center"></a>Microsoft 365 준수 센터의 새로운 기능
+# <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
-[Microsoft 365 준수 센터](microsoft-365-compliance-center.md)에 지속적으로 새로운 기능을 추가 하 고, 문제를 해결 하 고, 사용자 의견에 따라 변경 사항을 적용 하 고 있습니다. 현재 사용 가능한 기능을 확인 하려면 아래를 확인 하세요. 일부 기능은 고객에 게 다양 한 속도로 롤아웃 됩니다. 아직 기능을 볼 수 없는 경우 대상 지정 된 [릴리스에](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365)자신을 추가 해 보세요.
+[Microsoft 365 준수 센터](microsoft-365-compliance-center.md)에 새로운 솔루션을 새로 추가 하거나, 사용자 의견에 따라 기존 기능을 업데이트 하거나, 최신 및 업데이트 된 설명서를 롤아웃할 지 여부에 관계 없이 microsoft 365에서는 지속적인 변화 준수 가로를 유지 하는 데 도움이 됩니다. 현재 Microsoft 365 준수의 새로운 기능을 확인 하려면 아래를 확인 하세요. 
+
+> [!NOTE]
+> 일부 준수 기능은 고객에 게 다양 한 속도로 롤아웃 됩니다. 아직 기능을 볼 수 없는 경우 대상 지정 된 [릴리스에](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365)자신을 추가 해 보세요.
+
 
 > [!TIP]
-> 다른 관리 센터에서 어떤 작업을 진행 하 고 싶으십니까? 다음 문서를 확인 하세요.<br>[Microsoft 365 관리 센터의 새로운 기능](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br><br>
+> 다른 관리 센터에서 어떤 작업을 진행 하 고 싶으십니까? 다음 문서를 확인 하세요.<br>[Microsoft 365 관리 센터의 새로운 기능](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br>[Microsoft Threat Protection의 새로운 기능](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)<br><br>
 [Microsoft 365 로드맵을](https://www.microsoft.com/en-us/microsoft-365/roadmap) 방문 하 여 시작 되었거나, 배포 중이거나, 개발 중 이거나, 이전에 출시 된 microsoft 365 기능에 대해 알아보세요.
 
 ## <a name="june-2020"></a>2020년 6월
@@ -290,7 +294,7 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 
 ### <a name="update-to-data-investigations"></a>데이터 조사에 대 한 업데이트
 
-데이터 조사를 수행할 때 이제 원래 위치에서 항목을 삭제할 수 있습니다. 즉, 조직 전체에서 Exchange 사서함, SharePoint 사이트 및 OneDrive 계정에서 항목을 삭제할 수 있습니다. 항목을 증거로 수집 했기 때문에 세부 정보 집합에 보관 된 복사본을 추가 하거나 참조로 유지 하는 것을 조사할 수 있습니다. 자세한 내용은 [Microsoft 365의 data 유출 인시던트 관리](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) 로 이동 하세요. 
+데이터 조사를 수행할 때 이제 원래 위치에서 항목을 삭제할 수 있습니다. 즉, 조직 전체에서 Exchange 사서함, SharePoint 사이트 및 OneDrive 계정에서 항목을 삭제할 수 있습니다. 항목을 증거로 수집 했기 때문에 세부 정보 집합에 보관 된 복사본을 추가 하거나 참조로 유지 하는 것을 조사할 수 있습니다. [자세한 정보](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) 데이터 조사를 수행할 때 이제 원래 위치에서 항목을 삭제할 수 있습니다. 즉, 조직 전체에서 Exchange 사서함, SharePoint 사이트 및 OneDrive 계정에서 항목을 삭제할 수 있습니다. 항목을 증거로 수집 했기 때문에 세부 정보 집합에 보관 된 복사본을 추가 하거나 참조로 유지 하는 것을 조사할 수 있습니다. 자세한 내용은 [Microsoft 365의 data 유출 인시던트 관리](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) 로 이동 하세요. 
 
 ## <a name="july-2019"></a>2019년 7월
 

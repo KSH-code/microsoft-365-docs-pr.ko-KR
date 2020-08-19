@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: 이 문서에서는 SharePoint 및 OneDrive의 문서에서 게스트로 공동 작업 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: cb3c527304f0d286b4a1a0147d07537b0fae4eda
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 98eea8fe9c613aef3e24f9e4bb6746ddc9a527ab
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527921"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46798273"
 ---
 # <a name="collaborate-with-guests-on-a-document"></a>게스트와 문서에서 공동 작업하기
 
@@ -35,7 +35,7 @@ SharePoint 또는 OneDrive의 문서를 조직 외부의 사용자와 공동으�
 
 ## <a name="azure-organizational-relationships-settings"></a>Azure 조직 관계 설정
 
-Microsoft 365의 공유는 Azure Active Directory의 조직 관계 설정에 따라 최상위 수준에서 관리 됩니다. Azure AD에서 게스트 공유가 사용 하지 않도록 설정 되거나 제한 되 면 Microsoft 365에서 구성한 모든 공유 설정이 재정의 됩니다.
+Microsoft 365의 공유는 [Azure Active Directory의 조직 관계 설정](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations)에 따라 최상위 수준에서 관리 됩니다. Azure AD에서 게스트 공유가 사용 하지 않도록 설정 되거나 제한 되 면 Microsoft 365에서 구성한 모든 공유 설정이 재정의 됩니다.
 
 조직 관계 설정을 확인 하 여 게스트가 공유 하는 것이 차단 되지 않는지 확인 합니다.
 
@@ -51,6 +51,8 @@ Microsoft 365의 공유는 Azure Active Directory의 조직 관계 설정에 따
 6. 변경한 내용이 있으면 **저장**을 클릭합니다.
 
 **공동 작업 제한** 섹션의 설정을 확인 합니다. 공동 작업 하려는 게스트의 도메인이 차단 되지 않았는지 확인 합니다.
+
+여러 조직의 게스트 작업을 수행 하는 경우 디렉터리 데이터에 대 한 액세스를 제한할 수 있습니다. 이렇게 하면 디렉터리에서 게스트에 해당 하는 사람을 볼 수 없게 됩니다. 이 작업을 수행 하려면 **게스트 사용자 액세스 제한**에서 게스트 사용자는 **속성에 대 한 제한 된 액세스 및 디렉터리 개체 설정의 멤버 자격** 을 선택 하거나 **게스트 사용자 액세스를 자체 디렉터리 개체의 속성 및 구성원으로 제한**합니다.
 
 ## <a name="sharepoint-organization-level-sharing-settings"></a>SharePoint 조직 수준 공유 설정
 
@@ -95,7 +97,7 @@ SharePoint 및 OneDrive 조직 수준 기본 링크 설정을 설정 하려면
 
 ## <a name="sharepoint-site-level-sharing-settings"></a>SharePoint 사이트 수준 공유 설정
 
-SharePoint 사이트에 있는 파일 및 fodlers를 공유 하는 경우에는 해당 사이트에 대 한 사이트 수준 공유 설정도 확인 해야 합니다.
+SharePoint 사이트에 있는 파일 및 폴더를 공유 하는 경우에는 해당 사이트에 대 한 사이트 수준 공유 설정도 확인 해야 합니다.
 
 ![SharePoint 사이트 외부 공유 설정 스크린샷](../media/sharepoint-site-external-sharing-settings.png)
 

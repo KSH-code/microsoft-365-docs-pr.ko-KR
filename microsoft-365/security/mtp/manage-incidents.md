@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f711cc2ff38f15dfd22097e37a1dec42719eb5aa
-ms.sourcegitcommit: 94f2f8e3e6bc3946d8b3cf798b3eb77a49ffd12a
+ms.openlocfilehash: 8880655ec24f20efd139b8334ab754f51146b496
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45148117"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46798213"
 ---
 # <a name="manage-incidents-in-microsoft-threat-protection"></a>Microsoft 위협 방지의 인시던트 관리
 
@@ -43,16 +43,16 @@ ms.locfileid: "45148117"
 조사 중에 한 인시던트의 알림을 다른 인시던트로 이동하려는 경우, 모든 관련된 알림이 포함된 더 크거나 작은 인시던트를 만들어 알림 탭에서 해당 작업을 수행할 수도 있습니다.
 
 ## <a name="edit-incident-name"></a>인시던트 이름 편집
-기본적으로 인시던트에 번호가 할당됩니다. 기본 명명 규칙에 맞게 인시던트 이름을 수정할 수 있습니다.
+영향 받는 끝점 수, 영향을 받는 사용자, 검색 원본 또는 범주와 같은 경고 특성에 따라 인시던트에 자동으로 이름이 할당 됩니다. 이를 통해 사고의 범위를 빠르게 파악할 수 있습니다.
 
-> [!TIP]
-> 현재 공개 미리 보기를 통해 눈에 띄게 자동 인시던트를 표시 하는 경우 영향을 받는 끝점 수, 영향을 받는 사용자, 검색 원본 또는 종류 등의 경고 특성에 따라 인시던트 이름을 생성 합니다. 이를 통해 사고의 범위를 빠르게 파악할 수 있습니다.
->
-> 예를 들어 *여러 출처에서 보고 하는 여러 끝점에 대 한 다단계 인시던트가 있습니다.*
->
-> 자동 인시던트 이름 지정 롤아웃 이전에 존재 했던 인시던트는 이름을 변경할 수 없습니다.
->
-> [미리 보기 기능 설정](preview.md#turn-on-preview-features)에 대해 더 자세히 알아보세요.
+예를 들어 *여러 출처에서 보고 하는 여러 끝점에 대 한 다단계 인시던트가 있습니다.*
+
+기본 명명 규칙에 맞게 인시던트 이름을 수정할 수 있습니다.
+
+> [!NOTE]
+> 자동 인시던트 명명 기능의 롤아웃 이전에 존재 했던 인시던트는 해당 이름을 유지 합니다.
+
+
 
 ## <a name="assign-incidents"></a>인시던트 할당
 아직 인시던트가 할당되지 않은 경우 **나에게 할당**을 선택하여 인시던트를 자신에게 할당할 수 있습니다. 이렇게 하면 인시던트뿐만 아니라, 관련된 모든 알림의 소유권을 가정합니다.

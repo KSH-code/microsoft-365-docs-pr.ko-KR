@@ -16,18 +16,18 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection) 및 Office 365 Advanced Threat Protection (Office 365 ATP)에서 사용할 수 있는 피싱 방지 정책에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: a7db287b8a8efb5c41488529fcaa8789b2f594b5
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: b492d37bea6135bccb770571f9984f9866c7cfd3
+ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46652720"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46804281"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Microsoft 365의 피싱 방지 정책
 
 피싱 방지 보호 설정을 구성 하는 정책은 Exchange Online 사서함, 독립 실행형 EOP (Exchange Online Protection), Exchange Online 사서함이 없는 조직, Office 365 Advanced Threat Protection (Office 365 ATP) 조직이 있는 Microsoft 365 조직에서 사용할 수 있습니다.
 
-ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 수 있습니다. 예시:
+ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 수 있습니다. 예제:
 
 - Microsoft 365 Enterprise E5, Microsoft 365 교육 A5 등입니다.
 - [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)
@@ -50,15 +50,37 @@ ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 
 |고급 피싱 임계값||![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |
 
-<sup>\*</sup>기본 정책에서 정책 이름과 설명은 읽기 전용이 고 (설명은 비어 있음) 정책이 적용 되는 사용자를 지정할 수 없습니다 (기본 정책은 모든 받는 사람에 게 적용 됨).
+<sup>\*</sup> 기본 정책에서 정책 이름과 설명은 읽기 전용이 고 (설명은 비어 있음) 정책이 적용 되는 사용자를 지정할 수 없습니다 (기본 정책은 모든 받는 사람에 게 적용 됨).
 
-피싱 방지 정책을 구성 하려면 다음 항목을 참조 하십시오.
+피싱 방지 정책을 구성 하려면 다음 문서를 참조 하세요.
 
 - [EOP에서 피싱 방지 정책 구성](configure-anti-phishing-policies-eop.md)
 
 - [Microsoft 365에서 ATP 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)
 
-이 항목의 나머지 부분에서는 피싱 방지 정책 및 ATP 피싱 방지 정책에서 사용할 수 있는 설정에 대해 설명 합니다.
+이 문서의 나머지 부분에서는 피싱 방지 정책 및 ATP 피싱 방지 정책에서 사용할 수 있는 설정에 대해 설명 합니다.
+
+## <a name="policy-settings"></a>정책 설정
+
+피싱 방지 정책 및 ATP 피싱 방지 정책에서는 다음과 같은 정책 설정을 사용할 수 있습니다.
+
+- **이름**: 기본 피싱 방지 정책의 이름은 바꿀 수 없지만 직접 만든 사용자 지정 정책의 이름을 바꾸거나 이름을 바꿀 수도 있습니다.
+
+- **설명** 기본 피싱 방지 정책에 설명을 추가할 수는 없지만 만든 사용자 지정 정책에 대 한 설명을 추가 및 변경할 수는 있습니다.
+
+- **적용 대상**: 피싱 방지 정책이 적용 되는 내부 받는 사람을 식별 합니다. 이 값은 사용자 지정 정책에 필요 하며 기본 정책에서는 사용할 수 없습니다 (기본 정책은 모든 받는 사람에 게 적용 됨).
+
+  조건이나 예외는 한 번만 사용할 수 있지만, 조건이나 예외에 대한 값을 여러 개 지정할 수 있습니다. 동일한 조건의 여러 값이나 예외는 OR 논리를 사용합니다(예: _\<recipient1\>_ 혹은 _\<recipient2\>_). 다양한 조건이나 예외는 AND 논리를 사용합니다(예: _\<recipient1\>_ 및 _\<member of group 1\>_).
+
+  - **받는 사람**: 조직에 있는 하나 이상의 사서함, 메일 사용자 또는 메일 연락처입니다.
+  - **받는 사람은**조직에 있는 하나 이상의 그룹의 구성원입니다.
+  - **받는 사람 도메인**: Microsoft 365에서 구성 된 허용 도메인 하나 이상입니다.
+
+  - 다음의 **경우를 제외 하**고 규칙에 대 한 예외입니다. 설정 및 동작은 다음과 같은 조건과 동일 합니다.
+
+    - **받는 사람은**
+    - **받는 사람이 다음의 구성원임**
+    - **받는 사람 도메인**
 
 ## <a name="spoof-settings"></a>스푸핑 설정
 
@@ -75,28 +97,34 @@ ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 
 
   - **정크 메일 폴더로 메시지 이동**:이 값은 기본값입니다. 메시지가 사서함에 배달 되 고 정크 메일 폴더로 이동 됩니다. Exchange Online에서 사서함에 대해 정크 메일 규칙을 사용 하도록 설정 되어 있으면 메시지가 정크 메일 폴더로 이동 됩니다 (기본적으로 사용 하도록 설정 됨). 자세한 내용은 [Microsoft 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
 
-  - **격리 메시지**: 의도 하지 않은 받는 사람 대신 메시지를 격리로 보냅니다. 격리에 대한 자세한 내용은 다음 항목을 참조하세요.
+  - **격리 메시지**: 의도 하지 않은 받는 사람 대신 메시지를 격리로 보냅니다. 격리에 대 한 자세한 내용은 다음 문서를 참조 하세요.
 
     - [Microsoft 365의 격리](quarantine-email-messages.md)
     - [Microsoft 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리](manage-quarantined-messages-and-files.md)
     - [Microsoft 365에서 사용자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-a-user.md)
 
-- **인증 되지 않은 보낸 사람**: Outlook에서 미확인 보낸 사람 id를 사용 하거나 사용 하지 않도록 설정 합니다. 특히 다음 사항에 유의합니다.
+- **인증 되지 않은 보낸 사람**: 다음 섹션의 설명을 참조 하세요.
 
-  - 메시지가 SPF 또는 DKIM **검사를 통과 하지 않고 메시지가** DMARC 또는 [복합 인증](email-validation-and-authentication.md#composite-authentication)을 통과 하지 않는 경우 보낸 사람의 사진에 물음표 (?)가 추가 됩니다.
+### <a name="unauthenticated-sender"></a>인증 되지 않은 보낸 사람
 
-  - From 태그 (chris@contoso.com <u>via</u> michelle@fabrikam.com)는 보낸 사람 주소 (전자 메일 클라이언트에 표시 되는 메시지 발신자)가 dkim 서명 또는 **메일 원본** 주소에 있는 도메인과 다른 경우에 추가 됩니다. 이러한 주소에 대 한 자세한 내용은 [전자 메일 메시지 표준 개요](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards) 를 참조 하세요.
+인증 되지 않은 보낸 사람 id는 이전 섹션에 설명 된 것 처럼 피싱 방지 정책 및 ATP 피싱 방지 정책에서 사용할 수 있는 [스푸핑 설정](#spoof-settings) 의 일부입니다.
 
-  이러한 식별자가 특정 보낸 사람의 메시지에 추가 되지 않도록 하려면 다음 옵션을 사용할 수 있습니다.
+**인증 되지 않은 보낸 사람** 설정은 Outlook에서 미확인 보낸 사람 id를 사용 하거나 사용 하지 않도록 설정 합니다. 특히 다음 사항에 유의합니다.
 
-  - 보낸 사람이 스푸핑 인텔리전스 정책에서 스푸핑할 수 있도록 허용 합니다. 자세한 내용은 [Microsoft 365에서 스푸핑 인텔리전스를 구성](learn-about-spoof-intelligence.md)합니다 .를 참조 하십시오.
+- 메시지가 SPF 또는 DKIM **검사를 통과 하지 않고 메시지가** DMARC 또는 [복합 인증](email-validation-and-authentication.md#composite-authentication)을 통과 하지 않는 경우 보낸 사람의 사진에 물음표 (?)가 추가 됩니다.
 
-  - 보낸 사람 도메인에 대 한 [전자 메일 인증을 구성](email-validation-and-authentication.md#configure-email-authentication-for-domains-you-own) 합니다.
+- From 태그 (chris@contoso.com <u>via</u> michelle@fabrikam.com)는 보낸 사람 주소 (전자 메일 클라이언트에 표시 되는 메시지 발신자)가 dkim 서명 또는 **메일 원본** 주소에 있는 도메인과 다른 경우에 추가 됩니다. 이러한 주소에 대 한 자세한 내용은 [전자 메일 메시지 표준 개요](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards) 를 참조 하세요.
+
+이러한 식별자가 특정 보낸 사람의 메시지에 추가 되지 않도록 하려면 다음 옵션을 사용할 수 있습니다.
+
+- 보낸 사람이 스푸핑 인텔리전스 정책에서 스푸핑할 수 있도록 허용 합니다. 자세한 내용은 [Microsoft 365에서 스푸핑 인텔리전스를 구성](learn-about-spoof-intelligence.md)합니다 .를 참조 하십시오.
+
+- 보낸 사람 도메인에 대 한 [전자 메일 인증을 구성](email-validation-and-authentication.md#configure-email-authentication-for-domains-you-own) 합니다.
   
-    - 보낸 사람의 사진에 있는 물음표의 경우 SPF 또는 DKIM이 가장 중요 합니다.
-    - Via 태그의 경우 DKIM 서명에서 도메인을 확인 하거나 보낸 **사람 주소에서** from 주소에 있는 도메인을 검색 합니다 (또는 하위 도메인의 하위 도메인이 됨).
+  - 보낸 사람의 사진에 있는 물음표의 경우 SPF 또는 DKIM이 가장 중요 합니다.
+  - Via 태그의 경우 DKIM 서명에서 도메인을 확인 하거나 보낸 **사람 주소에서** from 주소에 있는 도메인을 검색 합니다 (또는 하위 도메인의 하위 도메인이 됨).
 
-  자세한 내용은 [Outlook.com 및 웹용 Outlook에서 의심 스러운 메시지 식별](https://support.microsoft.com/office/3d44102b-6ce3-4f7c-a359-b623bec82206) 을 참조 하세요.
+자세한 내용은 [Outlook.com 및 웹용 Outlook에서 의심 스러운 메시지 식별](https://support.microsoft.com/office/3d44102b-6ce3-4f7c-a359-b623bec82206) 을 참조 하세요.
 
 ## <a name="exclusive-settings-in-atp-anti-phishing-policies"></a>ATP 피싱 방지 정책에서 배타적 설정
 
@@ -105,34 +133,11 @@ ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 
 > [!NOTE]
 > 기본적으로 ATP 배타적 설정은 기본 정책 에서도 구성 되거나 설정 되지 않습니다. 이러한 기능을 활용 하려면 기본 ATP 피싱 방지 정책에서 사용 하도록 설정 및 구성 하거나 사용자 지정 ATP 피싱 방지 정책을 만들고 구성 해야 합니다.
 
-### <a name="policy-settings-in-atp-anti-phishing-policies"></a>ATP 피싱 방지 정책의 정책 설정
-
-다음 정책 설정은 ATP 피싱 방지 정책 에서만 사용할 수 있습니다.
-
-- **이름**: 기본 피싱 방지 정책의 이름은 바꿀 수 없지만 직접 만든 사용자 지정 정책의 이름을 바꾸거나 이름을 바꿀 수도 있습니다.
-
-- **설명** 기본 피싱 방지 정책에 설명을 추가할 수는 없지만 만든 사용자 지정 정책에 대 한 설명을 추가 및 변경할 수는 있습니다.
-
-- **적용 대상**: ATP 피싱 방지 정책이 적용 되는 내부 받는 사람을 식별 합니다. 이 값은 사용자 지정 정책에 필요 하며 기본 정책에서는 사용할 수 없습니다 (기본 정책은 모든 받는 사람에 게 적용 됨).
-
-    조건이나 예외는 한 번만 사용할 수 있지만, 조건이나 예외에 대한 값을 여러 개 지정할 수 있습니다. 동일한 조건의 여러 값이나 예외는 OR 논리를 사용합니다(예: _\<recipient1\>_ 혹은 _\<recipient2\>_). 다양한 조건이나 예외는 AND 논리를 사용합니다(예: _\<recipient1\>_ 및 _\<member of group 1\>_).
-
-  - **받는 사람**: 조직에 있는 하나 이상의 사서함, 메일 사용자 또는 메일 연락처입니다.
-  - **받는 사람은**조직에 있는 하나 이상의 그룹의 구성원입니다.
-  - **받는 사람 도메인**: Microsoft 365에서 구성 된 허용 도메인 하나 이상입니다.
-
-  - 다음의 **경우를 제외 하**고 규칙에 대 한 예외입니다. 설정 및 동작은 다음과 같은 조건과 동일 합니다.
-
-    - **받는 사람은**
-    - **받는 사람이 다음의 구성원임**
-    - **받는 사람 도메인**
-
 ### <a name="impersonation-settings-in-atp-anti-phishing-policies"></a>ATP 피싱 방지 정책의 가장 설정
 
 가장은 메시지의 보낸 사람 또는 보낸 사람의 전자 메일 도메인이 실제 보낸 사람이 나 도메인과 비슷한 모습입니다.
 
 - 도메인 contoso.com 가장의 예는 ćóntoso.com입니다.
-
 - 사용자 michelle@contoso.com 가장의 예는 michele@contoso.com입니다.
 
 그렇지 않은 경우에는 받는 사람을 속이기 위한 것을 제외 하면 가장 된 도메인이 합법적 (등록 된 도메인, 구성 된 전자 메일 인증 레코드 등)으로 간주 될 수 있습니다.
@@ -155,7 +160,7 @@ ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 
 
   - **정크 메일 폴더로 메시지 이동**: 메시지가 사서함에 배달 되 고 정크 메일 폴더로 이동 됩니다. Exchange Online에서 사서함에 대해 정크 메일 규칙을 사용 하도록 설정 되어 있으면 메시지가 정크 메일 폴더로 이동 됩니다 (기본적으로 사용 하도록 설정 됨). 자세한 내용은 [Microsoft 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
 
-    - **격리 메시지**: 의도 하지 않은 받는 사람 대신 메시지를 격리로 보냅니다. 격리에 대한 자세한 내용은 다음 항목을 참조하세요.
+    - **격리 메시지**: 의도 하지 않은 받는 사람 대신 메시지를 격리로 보냅니다. 격리에 대 한 자세한 내용은 다음 문서를 참조 하세요.
 
     - [Microsoft 365의 격리](quarantine-email-messages.md)
     - [Microsoft 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리](manage-quarantined-messages-and-files.md)

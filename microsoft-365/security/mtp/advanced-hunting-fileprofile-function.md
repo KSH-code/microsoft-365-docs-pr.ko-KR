@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 6465821ff1b8e8ea23cc5cf6b205f65a483bbe82
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.openlocfilehash: d0fd359bb6f56f7c20b0a39b7fd45ec551e7e49e
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45204950"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797785"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
@@ -87,3 +87,4 @@ DeviceFileEvents
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [스키마의 이해](advanced-hunting-schema-tables.md)
+- [쿼리 예제 더 보기](advanced-hunting-shared-queries.md)

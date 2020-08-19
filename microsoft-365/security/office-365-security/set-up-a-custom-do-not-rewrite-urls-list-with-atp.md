@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 ATP 안전한 링크 정책의 사용자 그룹에 대 한 사용자 지정 차단 Url을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7909e91b96f8bdbc38ffdceafe11fa47f5ebe897
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 17828566769f438439eebcb4e460ecac1147a648
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656972"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46798333"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-atp-safe-links"></a>ATP 안전한 링크를 사용 하 여 사용자 지정 쓰기 방지 Url 목록 설정
 
@@ -34,6 +34,9 @@ ms.locfileid: "46656972"
 [Office 365 ATP (Advanced Threat Protection](office-365-atp.md) )를 사용 하는 경우 조직에 [사용자 지정 차단 된 url](set-up-a-custom-blocked-urls-list-atp.md)이 있을 수 있으며, 사용자가 전자 메일 메시지 또는 특정 Office 문서에서 웹 주소 (url)를 클릭할 때 이러한 url로 이동 하는 것이 방지 됩니다. 조직에서 조직의 특정 그룹에 대해 사용자 지정 "다시 쓰지 않음" 목록을 사용할 수도 있습니다. "다시 쓰지 않음" 목록을 사용 하면 일부 사용자가 [Office 365의 ATP 안전한 링크](atp-safe-links.md)에 의해 차단 되는 url을 방문할 수 있습니다.
 
 이 문서에서는 ATP 안전한 링크 검색에서 제외 되는 Url 목록과 몇 가지 중요 한 사항을 염두에 두고 있는지를 지정 하는 방법에 대해 설명 합니다.
+
+> [!NOTE]
+> 조직에서 안전한 링크 정책을 사용 하는 경우 타사 피싱 테스트에서는 "다시 쓰지 않음" 목록만 지원 되는 유일한 방법입니다.
 
 ## <a name="set-up-a-do-not-rewrite-list"></a>"다시 쓰지 않음" 목록 설정
 
@@ -90,6 +93,6 @@ ATP 정책을 편집 하거나 정의 하려면 적절 한 역할을 할당 받�
 |---|---|
 |`contoso.com`|받는 사람이 하위 도메인 또는 경로를 제외 하 고 사이트를 방문할 수 있도록 허용 `https://contoso.com` 합니다.|
 |`*.contoso.com/*`|받는 사람이,, 또는 등의 도메인, 하위 도메인과 경로를 방문할 수 있습니다 `https://www.contoso.com` `https://www.contoso.com` `https://maps.contoso.com` `https://www.contoso.com/a` . <br/><br/> 이 항목은 `*contoso.com*` 다음과 같이 잠재적으로 사기성 사이트를 포함 하지 않기 때문에 기본적으로 더 좋습니다. `https://www.falsecontoso.com``https://www.false.contoso.completelyfalse.com`|
-|`https://contoso.com/a`|특정 받는 사람이 같은 사이트를 방문 하 되 하위 경로는 볼 수 `https://contoso.com/a` 없습니다.`https://contoso.com/a/b`|
+|`https://contoso.com/a`|특정 받는 사람이 같은 사이트를 방문 하 되 하위 경로는 볼 수 `https://contoso.com/a` 없습니다. `https://contoso.com/a/b`|
 |`https://contoso.com/a/*`|특정 받는 사람이 같은 사이트와 같은 하위 경로를 방문할 수 있도록 허용 `https://contoso.com/a``https://contoso.com/a/b`|
 |

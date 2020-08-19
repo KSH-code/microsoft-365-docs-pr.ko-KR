@@ -16,13 +16,14 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 hideEdit: true
+feedback_system: None
 description: 보안 및 준수 센터의 DLP (데이터 손실 방지)에는 &amp; dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다.
-ms.openlocfilehash: b302879b50c06007656aba93b38f8387557d301b
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: 71969a58acd64c3e830da398288249cbb8610b5f
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778558"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797796"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>중요한 정보 유형 엔터티 정의
 

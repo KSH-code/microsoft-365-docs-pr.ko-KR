@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 핵심 eDiscovery 사례와 연결 된 보류를 만들어 조사와 관련이 있을 수 있는 콘텐츠를 보존할 수 있습니다.
-ms.openlocfilehash: b3a213e499a71356999367deff930ea9a04945df
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: d68ca8a15713e20184e39af447cb03ccb5c9e7d7
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127525"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46798064"
 ---
 # <a name="create-an-ediscovery-hold"></a>eDiscovery 보존 만들기
 
@@ -136,7 +136,7 @@ Microsoft 팀 채널의 일부인 대화는 Microsoft 팀과 연결 된 사서�
 팀 콘텐츠를 보존 하는 방법에 대 한 자세한 내용은 [법적 보유에 Microsoft 팀 사용자 또는 팀](https://docs.microsoft.com/MicrosoftTeams/legal-hold)소개를 참조 하세요.
     
 > [!IMPORTANT]
-> 클라우드 기반 조직에서 팀의 채팅 목록에 속하는 대화에 참가 하는 사용자에 게는 사서함을 eDiscovery 보류에 넣을 때 채팅 대화를 유지 하기 위해 Exchange Online 사서함이 있어야 합니다. 채팅 목록의 일부인 대화는 채팅 참가자의 클라우드 기반 사서함에 저장 되기 때문입니다. 채팅 참가자에 게 Exchange Online 사서함이 없으면 해당 채팅 대화를 보존할 수 없습니다. 예를 들어 Exchange 하이브리드 배포에서 온-프레미스 사서함을 사용 하는 사용자는 팀의 채팅 목록에 포함 된 대화에 참가할 수 ght 있을 수 있습니다. 그러나이 경우 이러한 사용자는 보류할 수 있는 클라우드 기반 사서함이 없기 때문에 이러한 대화의 콘텐츠를 보존할 수 없습니다.
+> 클라우드 기반 조직에서 팀의 채팅 목록에 속하는 대화에 참가 하는 사용자에 게는 사서함을 eDiscovery 보류에 넣을 때 채팅 대화를 유지 하기 위해 Exchange Online 사서함이 있어야 합니다. 채팅 목록의 일부인 대화는 채팅 참가자의 클라우드 기반 사서함에 저장 되기 때문입니다. 채팅 참가자에 게 Exchange Online 사서함이 없으면 해당 채팅 대화를 보존할 수 없습니다. 예를 들어 Exchange 하이브리드 배포에서 온-프레미스 사서함이 있는 사용자는 팀의 채팅 목록에 속하는 대화에 참가할 수 있습니다. 그러나이 경우 이러한 사용자는 보류할 수 있는 클라우드 기반 사서함이 없기 때문에 이러한 대화의 콘텐츠를 보존할 수 없습니다.
   
 모든 팀 또는 팀 채널에는 메모 작성 및 공동 작업을 위한 Wiki도 포함 되어 있습니다. Wiki 콘텐츠는 자동으로 .mht 형식의 파일에 저장됩니다. 이 파일은 팀의 SharePoint 사이트에 있는 Teams Wiki Data 문서 라이브러리에 저장됩니다. 팀의 SharePoint 사이트를 eDiscovery 보류에 추가 하 여 wiki 콘텐츠를 보존할 수 있습니다.
 

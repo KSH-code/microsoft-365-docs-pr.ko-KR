@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 3559bf3391427d6f6ae0cfc6b6f6e8ed343438fa
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: ff610cee46b2b48815af82fa86d0b30aa99f4b5c
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552665"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46798237"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Microsoft Threat Protection 미리 보기 기능
 
@@ -57,7 +57,8 @@ Microsoft Threat Protection 서비스는 새로운 기능 향상 및 기능을 �
 ## <a name="preview-features"></a>미리 보기 기능
 현재 미리 보기에서는 다음과 같은 기능을 사용할 수 있습니다.
 
+- **[Advanced 사냥의 IdentityDirectoryEvents 테이블](advanced-hunting-identitydirectoryevents-table.md)** -AD (Active Directory)를 실행 하는 온-프레미스 도메인 컨트롤러를 포함 하는 이벤트를 찾습니다. 이 표에서는 id 관련 이벤트 및 도메인 컨트롤러의 시스템 이벤트 범위를 설명 합니다.
+- **[AssignedIPAddresses () 함수](advanced-hunting-assignedipaddresses-function.md)** -고급 사냥에서이 함수를 사용 하 여 장치에 할당 된 최신 ip 주소 또는 지정 된 시점에서 가장 최근 ip 주소를 빠르게 가져옵니다.
 - **[고급 구하기에서 작업 수행](advanced-hunting-take-action.md)** - [고급 사냥](advanced-hunting-overview.md)에서 찾은 위협 또는 주소 손상 자산을 빠르게 포함 합니다.
-
 - **[포털에서 스키마 참조](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** -고급 구하기 스키마 테이블에 대 한 정보를 보안 센터에서 직접 가져옵니다. 이 편리한 참조는 테이블 및 열 설명 외에도 지원 되는 이벤트 유형 ( `ActionType` 값) 및 예제 쿼리에 대 한 정보를 제공 합니다.
 

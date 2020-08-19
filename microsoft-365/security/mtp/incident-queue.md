@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d827484a440b291bccd45b58e977fbcb280680f2
-ms.sourcegitcommit: 94f2f8e3e6bc3946d8b3cf798b3eb77a49ffd12a
+ms.openlocfilehash: a08ff27d6d33317df9bd4bf61c0c2ee4cf0ee14e
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45148139"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797761"
 ---
 # <a name="prioritize-incidents-in-microsoft-threat-protection"></a>Microsoft Threat Protection 사고 우선순위
 
@@ -45,14 +45,12 @@ Microsoft Threat Protection은 상관 관계 분석을 하고 관련된 모든 �
 
 사고 큐는 사고나 사고 관련 항목을 알려주는 커스터마이징이 가능한 열을 보여줌으로써 사고 처리 우선수위를 결정하는데 도움을 줍니다.
 
-현재 공개 미리 보기를 통해 눈에 띄게 자동 인시던트를 표시 하는 경우 영향을 받는 끝점 수, 영향을 받는 사용자, 검색 원본 또는 종류 등의 경고 특성에 따라 인시던트 이름을 생성 합니다. 이를 통해 사고의 범위를 빠르게 파악할 수 있습니다.
+보다 쉽게 확인할 수 있도록, 자동 인시던트 명명은 영향을 받는 끝점 (예: 사용자에 게 영향을 받음, 검색 원본 또는 범주)와 같은 경고 특성을 기반으로 하는 인시던트 이름을 생성 합니다. 이를 통해 사고의 범위를 빠르게 파악할 수 있습니다.
 
 예를 들어 *여러 출처에서 보고 하는 여러 끝점에 대 한 다단계 인시던트가 있습니다.*
 
 > [!NOTE]
 > 자동 인시던트 이름 지정 롤아웃 이전에 존재 했던 인시던트는 이름을 변경할 수 없습니다.
-
-[미리 보기 기능 설정](preview.md#turn-on-preview-features)에 대해 더 자세히 알아보세요.
 
 또한 사고 큐는 여러 개의 필터링 옵션을 제공 합니다. 이 옵션을 적용 하면 환경이 허용하는 모든 기존 사고에 대한 광범위 한 스위프를 수행 하도록 선택 하거나 특정 시나리오 또는 위협에 집중할 수 있도록 결정할 수 있습니다. 사고 큐 필터를 적용 하면 즉시 주의가 필요한 사고를 결정할 수 있습니다. 
 

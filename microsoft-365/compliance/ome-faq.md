@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: 새 메시지 보호 기능의 작동 방식에 대 한 질문이 있나요? 여기에서 대답을 확인 하세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5368133877921d8f5fdfa2e3de2e610c545f57ff
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 927b81c3a1ce049f1a2427bbbf1d306608be35cb
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818681"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46798190"
 ---
 # <a name="message-encryption-faq"></a>메시지 암호화 FAQ
 
@@ -102,11 +102,15 @@ Outlook 2016, outlook 2013, Windows 및 Mac 및 웹용 Outlook에서 보호 된 
 
 Microsoft 365 사용자는 Windows 및 Mac 용 Outlook (2013 및 2016), 웹용 Outlook 및 Outlook mobile (Android 및 iOS)을 읽고 응답할 수 있습니다. 조직에서 허용 하는 경우 iOS 기본 메일 클라이언트도 사용할 수 있습니다. Microsoft 365 사용자가 아닌 경우 웹 브라우저를 통해 웹에서 암호화 된 메시지를 읽고 회신할 수 있습니다.
   
+## <a name="is-there-a-size-limit-for-messages-you-can-send-with-ome"></a>OME을 사용 하 여 보낼 수 있는 메시지의 크기 제한이 있나요?
+
+예. 첨부 파일을 포함 하 여 OME에서 보낼 수 있는 최대 메시지 크기는 30mb입니다.
+
 ## <a name="what-file-types-are-supported-as-attachments-in-protected-emails-do-attachments-inherit-the-protection-policies-associated-with-protected-emails"></a>보호 된 전자 메일에서 첨부 파일로 지원 되는 파일 형식은 무엇입니까? 첨부 파일에서 보호 된 전자 메일과 연결 된 보호 정책을 상속 하나요?
 
-모든 파일 형식을 보호 된 메일에 첨부할 수 있지만 보호 정책은 [Azure Information protection 클라이언트에서 지 원하는 파일 형식](https://docs.microsoft.com/information-protection/rms-client/client-admin-guide-file-types)에 언급 된 파일 형식에만 적용 됩니다.
-  
-Word, Excel 또는 PowerPoint 파일과 같은 파일 형식이 지원 되는 경우 받는 사람이 첨부 파일을 다운로드 한 후에도 파일이 항상 보호 됩니다. 예를 들어 첨부 파일이 전달 하지 않도록 보호 되 고 원래 받는 사람이 첨부 파일을 다운로드 하 여 새 받는 사람에 게 전달 하는 경우 새 받는 사람은 보호 된 파일을 열 수 없게 됩니다.
+모든 파일 형식을 보호 된 메일에 첨부할 수 있습니다. 한 가지 예외를 제외 하 고는 보호 정책이 [Azure Information protection 클라이언트에서 지 원하는 파일 형식](https://docs.microsoft.com/information-protection/rms-client/client-admin-guide-file-types)에 언급 된 파일 형식에만 적용 됩니다. OME에서는 Word (.doc), Excel (.xls) 및 PowerPoint (.ppt)의 97-2003 버전의 Office 프로그램을 지원 하지 않습니다.
+
+Word, Excel 또는 PowerPoint 파일과 같은 파일 형식이 지원 되는 경우 받는 사람이 첨부 파일을 다운로드 한 후에도 파일이 항상 보호 됩니다. 예를 들어 첨부 파일이 전달 금지로 보호 되어 있다고 가정해 보겠습니다. 원래 받는 사람은 파일을 다운로드 하 고, 새 받는 사람에 게 메시지를 작성 하 고, 파일을 첨부 합니다. 새 받는 사람이 파일을 받으면 받는 사람은 보호 된 파일을 열 수 없게 됩니다.
   
 ## <a name="are-pdf-file-attachments-supported"></a>PDF 파일이 첨부 파일을 지원 하나요?
 
@@ -188,9 +192,19 @@ Not yet. 비즈니스용 OneDrive 첨부 파일이 지원 되지 않으며 최�
 
 현재 알려진 두 가지 제한이 있습니다.
 
-- 사용자가 공유 사서함에 직접 할당 하 여 제공 되는 액세스만 지원 합니다. 전자 메일 사용이 가능한 보안 그룹을 통한 할당은 지원 되지 않습니다.
-
 - Outlook mobile을 사용 하 여 모바일 장치에서 받은 전자 메일에 대해서는 첨부 파일을 열 수 없습니다.
+
+- 전자 메일 사용이 가능한 보안 그룹을 통한 할당은 지원 되지 않습니다. 사용자가 공유 사서함에 직접 할당 하 여 제공 되는 액세스를 지원 하며, Exchange Online에 대해 automapping을 사용 하도록 설정 되어 있습니다. Automapping은 Exchange Online에 대해 기본적으로 사용 하도록 설정 됩니다.
+
+**공유 사서함에 사용자를 할당 하려면**
+
+1. [원격 PowerShell을 사용 하 여 Exchange Online에 연결](https://technet.microsoft.com/library/jj984289?v=exchg.150%29.aspx)합니다.
+
+2. Automapping 매개 변수를 사용 하 여 Add-mailboxpermission cmdlet을 실행 합니다. 이 예에서는 지원 사서함에 대 한 Ayla 모든 액세스 권한을 부여 합니다.
+
+   ```powershell
+   Add-MailboxPermission -Identity support@contoso.onmicrosoft.com -User ayla@contoso.com -AccessRights FullAccess -AutoMapping $true
+   ```
 
 ## <a name="what-do-i-do-if-i-dont-receive-the-one-time-pass-code-after-i-requested-it"></a>요청 후 일회용 가공 패스 코드가 수신 되지 않는 경우 어떻게 해야 하나요?
 

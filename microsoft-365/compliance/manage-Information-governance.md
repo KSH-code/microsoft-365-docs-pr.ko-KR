@@ -1,31 +1,31 @@
 ---
-title: 정보 거버넌스 관리
+title: Microsoft 365의 microsoft 정보 거 버 넌 스
 f1.keywords:
 - NOCSH
-ms.author: robmazz
-author: robmazz
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
 ms.collection: m365-security-compliance
-localization_priority: Normal
+localization_priority: High
 search.appverid:
 - MOE150
 - MET150
-description: Microsoft 365의 정보 거 버 넌 스에 대해 알아봅니다.
-ms.openlocfilehash: ff7d5ebc1b656aa62bac054cfbd2784b335d03e6
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+description: Microsoft Information 관리 365 기능을 구현 하 여 규정 준수 또는 규제 요구 사항에 맞게 데이터를 제어 합니다.
+ms.openlocfilehash: b67fbe1a8336ba73d1c43ebc531657c60dd3e8d8
+ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778568"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46804246"
 ---
-# <a name="manage-information-governance"></a>정보 거버넌스 관리
+# <a name="microsoft-information-governance-in-microsoft-365"></a>Microsoft 365의 microsoft 정보 거 버 넌 스
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
 
-Microsoft 정보 거 버 넌 스 기능을 사용 하 여 규정 준수 또는 규제 요구 사항에 맞게 데이터를 제어 합니다.
+Microsoft 정보 거 버 넌 스 (MIG) 기능을 사용 하 여 규정 준수 또는 규제 요구 사항에 맞게 데이터를 제어 합니다.
 
 ## <a name="information-governance"></a>정보 거 버 넌 스
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365을 사용 하 여 정보 보호
+title: Microsoft 365의 microsoft Information Protection
 f1.keywords:
 - NOCSH
 ms.author: cabailey
@@ -9,26 +9,26 @@ ms.date: ''
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
-localization_priority: Normal
+localization_priority: High
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
-description: Microsoft 365 기능 및 지원 설명서를 확인 하 여 조직의 중요 한 데이터를 보호 하는 데 도움을 제공 합니다.
-ms.openlocfilehash: eb83655fddf5b59a7a95d2a8b9999ab683305a89
-ms.sourcegitcommit: 20c219332270f1013d48b39773dd0e48dabad9e4
+description: Microsoft 365의 Microsoft 정보 보호 (밉) 기능을 구현 하 여 중요 한 정보를 검색, 분류 및 보호 하는 데 도움이 됩니다.
+ms.openlocfilehash: 058a1b46f879b2cc4b8ada8f2a5de88717958e94
+ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46592312"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46804188"
 ---
-# <a name="protect-information-using-microsoft-365"></a>Microsoft 365을 사용 하 여 정보 보호
+# <a name="microsoft-information-protection-in-microsoft-365"></a>Microsoft 365의 microsoft Information Protection
 
 >*[Microsoft 365 보안 & 준수에 대 한 라이선스](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
 
-Microsoft Information Protection 기능을 사용 하 여 중요 한 정보를 검색, 분류 및 보호 하는 데 도움을 주고 받을 수 있습니다.
+Microsoft Information Protection (대개 밉) 기능을 사용 하 여 중요 한 정보를 검색, 분류 및 보호 하는 데 도움이 됩니다.
 
-## <a name="know-your-data"></a>데이터 파악
+## <a name="know-your-data"></a>사용자 데이터 파악
 
 데이터 가로를 이해 하 고 하이브리드 환경에서 중요 한 데이터를 확인 하려면 다음 기능을 사용 합니다.
  
@@ -38,13 +38,13 @@ Microsoft Information Protection 기능을 사용 하 여 중요 한 정보를 �
 |[Trainable 분류자 (미리 보기)](classifier-getting-started-with.md)| 기본 제공 분류자 중 하나를 사용 하 여 데이터를 분류 하거나 사용자 고유의 콘텐츠로 classier를 교육 합니다. | [Trainable 분류자 만들기 (미리 보기)](classifier-creating-a-trainable-classifier.md) |
 |[데이터 분류](data-classification-overview.md) | 민감도 레이블, 보존 레이블 또는 조직에서 중요 한 정보 유형으로 분류 된 항목 및 사용자가 작업을 수행 하는 동작을 식별 합니다.  | [콘텐츠 탐색기로 시작](data-classification-content-explorer.md)<br /><br /> [활동 탐색기로 시작](data-classification-activity-explorer.md) |
 
-## <a name="protect-your-data"></a>데이터 보호
+## <a name="protect-your-data"></a>사용자 데이터 보호
 
 암호화, 액세스 제한 및 시각적 표시를 포함 하는 유연한 보호 작업을 적용 하려면 다음 기능을 사용 합니다.
 
 |기능|어떤 문제를 해결 하나요?|시작하기|
 |:------|:------------|---------------------|:----------------------------|
-|[민감도 레이블](sensitivity-labels.md)| 조직 내부 및 외부에서 데이터를 이동 하 고 레이블을 지정 하는 응용 프로그램, 서비스 및 장치 간의 단일 솔루션 <br /><br />예제 시나리오: [POWER BI에서 민감도 레이블을 적용 및 확인 하 고 데이터를 내보낼 때 보호](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|[민감도 레이블 시작](get-started-with-sensitivity-labels.md) |
+|[민감도 레이블](sensitivity-labels.md)| 조직 내부 및 외부에서 데이터를 이동 하 고 레이블을 지정 하는 응용 프로그램, 서비스 및 장치 간의 단일 솔루션 <br /><br />예제 시나리오: [POWER BI에서 민감도 레이블을 적용 및 확인 하 고 데이터를 내보낼 때 보호](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|[ 민감도 레이블 시작](get-started-with-sensitivity-labels.md) |
 |[Azure Information Protection 통합 레이블 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)| Windows 컴퓨터의 경우 파일 탐색기 및 PowerShell에서 모든 파일 형식을 레이블 지정 하 고 보호 하는 기능을 포함 하는 추가 기능에 대 한 민감도 레이블을 확장 합니다.<br /><br /> 추가 기능 예: [Azure Information Protection 통합 레이블 클라이언트에 대 한 사용자 지정 구성](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)| [Azure Information Protection 통합 레이블 클라이언트 관리자 가이드](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide)|
 |[이중 키 암호화](double-key-encryption.md)| 모든 상황에서 보호 된 콘텐츠를 암호 해독할 수도 있고 규정 요구 사항에 대 한 경우에는 지리적 경계 내에 암호화 키를 저장 해야 합니다. | [이중 암호화 배포](double-key-encryption.md#deploy-double-key-encryption)|
 |[Office 365 메시지 암호화](ome.md) (OME)| 모든 장치에서 임의의 사용자에 게 전송 되는 전자 메일 메시지 및 첨부 문서를 암호화 하 여, 인증 된 받는 사람만 전자 메일로 정보를 읽을 수 있도록 합니다.  <br /><br />예제 시나리오: [고급 메시지 암호화로 암호화 된 전자 메일 해지](revoke-ome-encrypted-mail.md) | [Office 365 메시지 암호화 시작](set-up-new-message-encryption-capabilities.md)|
