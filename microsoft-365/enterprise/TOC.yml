@@ -30,7 +30,15 @@
               href: microsoft-365-ip-web-service.md
             - name: 웹 서비스에 포함되지 않는 추가 끝점
               href: additional-office365-ip-addresses-and-urls.md
-        - name: SharePoint Online이 포함된 Office 365 CDN 사용
+            - name: Office 365 GCC High 및 DOD에 대한 추가 네트워크 보안 요구 사항
+              href: additional-network-security-requirements-for-office-365-gcchigh-and-dod.md
+            - name: Office 365 DoD용 DNS 레코드
+              href: dns-records-for-office-365-dod.md
+            - name: Office 365 GCC High용 DNS 레코드
+              href: dns-records-for-office-365-gcc-high.md
+        - name: CDN(콘텐츠 배달 네트워크) 빠른 시작
+          href: office-365-cdn-quickstart.md
+        - name: SharePoint Online에서 CDN 사용
           href: use-microsoft-365-cdn-with-spo.md
         - name: 원격 사용자에 대한 연결 최적화
           items:
@@ -45,6 +53,8 @@
         - name: Office 365용 ExpressRoute
           href: azure-expressroute.md
           items:
+            - name: ExpressRoute 구현
+              href: implementing-expressroute.md
             - name: Office 365용 ExpressRoute를 사용한 라우팅
               href: routing-with-expressroute.md
     - name: 관리
@@ -53,6 +63,8 @@
           items:
             - name: Microsoft 365 끝점
               href: microsoft-365-endpoints.md
+            - name: Office 365 끝점 관리
+              href: managing-office-365-endpoints.md
             - name: 전 세계 끝점
               href: urls-and-ip-address-ranges.md
             - name: 미국 정부 DoD 끝점
@@ -395,6 +407,8 @@
   items:
     - name: 로드맵
       href: client-server-software-roadmap-microsoft-365.md
+    - name: 'SharePoint, Exchange, 비즈니스용 Skype 및 Lync에 대한 아키텍처 모델'
+      href: architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md
     - name: 계획
       items:
         - name: 업그레이드를 계획하세요.

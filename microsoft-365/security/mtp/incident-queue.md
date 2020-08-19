@@ -19,82 +19,80 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d827484a440b291bccd45b58e977fbcb280680f2
-ms.sourcegitcommit: 94f2f8e3e6bc3946d8b3cf798b3eb77a49ffd12a
+ms.openlocfilehash: a08ff27d6d33317df9bd4bf61c0c2ee4cf0ee14e
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45148139"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797761"
 ---
-# <a name="prioritize-incidents-in-microsoft-threat-protection"></a><span data-ttu-id="a8e8a-104">Microsoft Threat Protection 사고 우선순위</span><span class="sxs-lookup"><span data-stu-id="a8e8a-104">Prioritize incidents in Microsoft Threat Protection</span></span>
+# <a name="prioritize-incidents-in-microsoft-threat-protection"></a><span data-ttu-id="ab2d9-104">Microsoft Threat Protection 사고 우선순위</span><span class="sxs-lookup"><span data-stu-id="ab2d9-104">Prioritize incidents in Microsoft Threat Protection</span></span>
 
-<span data-ttu-id="a8e8a-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="a8e8a-105">**Applies to:**</span></span>
-- <span data-ttu-id="a8e8a-106">Microsoft Threat Protection </span><span class="sxs-lookup"><span data-stu-id="a8e8a-106">Microsoft Threat Protection</span></span>
-
-
-
-<span data-ttu-id="a8e8a-107">Microsoft Threat Protection은 상관 관계 분석을 하고 관련된 모든 알람을 수집한 뒤 각각의 다른 제품에서 발생한 알람을 하나의 사고로 조사합니다. </span><span class="sxs-lookup"><span data-stu-id="a8e8a-107">Microsoft Threat Protection applies correlation analytics and aggregates all related alerts and investigations from different products into one incident.</span></span> <span data-ttu-id="a8e8a-108">Microsoft Threat Protection 전체 항목 및 제품군 엔드 투 엔드 가시성에서 악성으로 판단된 작업에 대해서는 특별 알람을 발생시킵니다. </span><span class="sxs-lookup"><span data-stu-id="a8e8a-108">Microsoft Threat Protection also triggers unique alerts on activities that can only be identified as malicious given the end-to-end visibility that Microsoft Threat Protection has across the entire estate and suite of products.</span></span> <span data-ttu-id="a8e8a-109">Microsoft Threat Protection은 보다 광범위한 공격내용을 구연함으로써 보안 운영 분석가가 조직 전반을 위협하는 복잡한 공격을 이해하고 처리할 수 있도록 합니다. </span><span class="sxs-lookup"><span data-stu-id="a8e8a-109">By doing so, Microsoft Threat Protection narrates the broader attack story, allowing a security operations analyst to understand and deal with complex threats across the organization.</span></span>
+<span data-ttu-id="ab2d9-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="ab2d9-105">**Applies to:**</span></span>
+- <span data-ttu-id="ab2d9-106">Microsoft Threat Protection </span><span class="sxs-lookup"><span data-stu-id="ab2d9-106">Microsoft Threat Protection</span></span>
 
 
-<span data-ttu-id="a8e8a-110">**사고 큐**는 장치, 사용자 및 사서함에 대해 플래그가 지정 된 사고의 모음을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="a8e8a-110">The **Incidents queue** shows a collection of incidents that were flagged from across devices, users, and mailboxes.</span></span> <span data-ttu-id="a8e8a-111">이 기능은 사고 우선순위를 정하고 사이버 보안 반응 결정을 내리는 데 도움을 줍니다.</span><span class="sxs-lookup"><span data-stu-id="a8e8a-111">It helps you sort through incidents to prioritize and create an informed cybersecurity response decision.</span></span>
+
+<span data-ttu-id="ab2d9-107">Microsoft Threat Protection은 상관 관계 분석을 하고 관련된 모든 알람을 수집한 뒤 각각의 다른 제품에서 발생한 알람을 하나의 사고로 조사합니다. </span><span class="sxs-lookup"><span data-stu-id="ab2d9-107">Microsoft Threat Protection applies correlation analytics and aggregates all related alerts and investigations from different products into one incident.</span></span> <span data-ttu-id="ab2d9-108">Microsoft Threat Protection 전체 항목 및 제품군 엔드 투 엔드 가시성에서 악성으로 판단된 작업에 대해서는 특별 알람을 발생시킵니다. </span><span class="sxs-lookup"><span data-stu-id="ab2d9-108">Microsoft Threat Protection also triggers unique alerts on activities that can only be identified as malicious given the end-to-end visibility that Microsoft Threat Protection has across the entire estate and suite of products.</span></span> <span data-ttu-id="ab2d9-109">Microsoft Threat Protection은 보다 광범위한 공격내용을 구연함으로써 보안 운영 분석가가 조직 전반을 위협하는 복잡한 공격을 이해하고 처리할 수 있도록 합니다. </span><span class="sxs-lookup"><span data-stu-id="ab2d9-109">By doing so, Microsoft Threat Protection narrates the broader attack story, allowing a security operations analyst to understand and deal with complex threats across the organization.</span></span>
+
+
+<span data-ttu-id="ab2d9-110">**사고 큐**는 장치, 사용자 및 사서함에 대해 플래그가 지정 된 사고의 모음을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="ab2d9-110">The **Incidents queue** shows a collection of incidents that were flagged from across devices, users, and mailboxes.</span></span> <span data-ttu-id="ab2d9-111">이 기능은 사고 우선순위를 정하고 사이버 보안 반응 결정을 내리는 데 도움을 줍니다.</span><span class="sxs-lookup"><span data-stu-id="ab2d9-111">It helps you sort through incidents to prioritize and create an informed cybersecurity response decision.</span></span>
 
 
 ![사고 큐의 이미지](../../media/incidents-queue.png) 
 
-<span data-ttu-id="a8e8a-113">기본적으로 Microsoft 365 보안 센터의 큐에는\ 최근 30일 동안 발생한 사고가 표시 되며, 최신 사고가 목록의 맨 위에 표시 되어 최신 사고를 가장 먼저 확인 할 수 있습니다. </span><span class="sxs-lookup"><span data-stu-id="a8e8a-113">By default, the queue in the Microsoft 365 security center displays incidents seen in the last 30 days, with the most recent incident showing at the top of the list, helping you see the most recent incidents first.</span></span>
+<span data-ttu-id="ab2d9-113">기본적으로 Microsoft 365 보안 센터의 큐에는\ 최근 30일 동안 발생한 사고가 표시 되며, 최신 사고가 목록의 맨 위에 표시 되어 최신 사고를 가장 먼저 확인 할 수 있습니다. </span><span class="sxs-lookup"><span data-stu-id="ab2d9-113">By default, the queue in the Microsoft 365 security center displays incidents seen in the last 30 days, with the most recent incident showing at the top of the list, helping you see the most recent incidents first.</span></span>
 
-<span data-ttu-id="a8e8a-114">사고 큐는 사고나 사고 관련 항목을 알려주는 커스터마이징이 가능한 열을 보여줌으로써 사고 처리 우선수위를 결정하는데 도움을 줍니다.</span><span class="sxs-lookup"><span data-stu-id="a8e8a-114">The incident queue exposes customizable columns that give you visibility into different characteristics of the incident or the contained entities, helping you make an informed decision regarding prioritization of incidents to handle.</span></span>
+<span data-ttu-id="ab2d9-114">사고 큐는 사고나 사고 관련 항목을 알려주는 커스터마이징이 가능한 열을 보여줌으로써 사고 처리 우선수위를 결정하는데 도움을 줍니다.</span><span class="sxs-lookup"><span data-stu-id="ab2d9-114">The incident queue exposes customizable columns that give you visibility into different characteristics of the incident or the contained entities, helping you make an informed decision regarding prioritization of incidents to handle.</span></span>
 
-<span data-ttu-id="a8e8a-115">현재 공개 미리 보기를 통해 눈에 띄게 자동 인시던트를 표시 하는 경우 영향을 받는 끝점 수, 영향을 받는 사용자, 검색 원본 또는 종류 등의 경고 특성에 따라 인시던트 이름을 생성 합니다.</span><span class="sxs-lookup"><span data-stu-id="a8e8a-115">For additional visibility at-a-glance, automatic incident naming, currently in public preview, generates incident names based on alert attributes such as the number of endpoints affected, users affected, detection sources or categories.</span></span> <span data-ttu-id="a8e8a-116">이를 통해 사고의 범위를 빠르게 파악할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a8e8a-116">This allows you to quickly understand the scope of the incident.</span></span>
+<span data-ttu-id="ab2d9-115">보다 쉽게 확인할 수 있도록, 자동 인시던트 명명은 영향을 받는 끝점 (예: 사용자에 게 영향을 받음, 검색 원본 또는 범주)와 같은 경고 특성을 기반으로 하는 인시던트 이름을 생성 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab2d9-115">For additional visibility at a glance, automatic incident naming generates incident names based on alert attributes such as the number of endpoints affected, users affected, detection sources or categories.</span></span> <span data-ttu-id="ab2d9-116">이를 통해 사고의 범위를 빠르게 파악할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ab2d9-116">This allows you to quickly understand the scope of the incident.</span></span>
 
-<span data-ttu-id="a8e8a-117">예를 들어 *여러 출처에서 보고 하는 여러 끝점에 대 한 다단계 인시던트가 있습니다.*</span><span class="sxs-lookup"><span data-stu-id="a8e8a-117">For example: *Multi-stage incident on multiple endpoints reported by multiple sources.*</span></span>
+<span data-ttu-id="ab2d9-117">예를 들어 *여러 출처에서 보고 하는 여러 끝점에 대 한 다단계 인시던트가 있습니다.*</span><span class="sxs-lookup"><span data-stu-id="ab2d9-117">For example: *Multi-stage incident on multiple endpoints reported by multiple sources.*</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a8e8a-118">자동 인시던트 이름 지정 롤아웃 이전에 존재 했던 인시던트는 이름을 변경할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a8e8a-118">Incidents that existed prior the rollout of automatic incident naming will not have their name changed.</span></span>
+> <span data-ttu-id="ab2d9-118">자동 인시던트 이름 지정 롤아웃 이전에 존재 했던 인시던트는 이름을 변경할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="ab2d9-118">Incidents that existed prior the rollout of automatic incident naming will not have their name changed.</span></span>
 
-<span data-ttu-id="a8e8a-119">[미리 보기 기능 설정](preview.md#turn-on-preview-features)에 대해 더 자세히 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="a8e8a-119">Learn more about [turning on preview features](preview.md#turn-on-preview-features).</span></span>
+<span data-ttu-id="ab2d9-119">또한 사고 큐는 여러 개의 필터링 옵션을 제공 합니다. 이 옵션을 적용 하면 환경이 허용하는 모든 기존 사고에 대한 광범위 한 스위프를 수행 하도록 선택 하거나 특정 시나리오 또는 위협에 집중할 수 있도록 결정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ab2d9-119">The incident queue also exposes multiple filtering options, that when applied, enable you to choose to perform a broad sweep of all existing incidents in your environment, or decide to focus on a specific scenario or threat.</span></span> <span data-ttu-id="ab2d9-120">사고 큐 필터를 적용 하면 즉시 주의가 필요한 사고를 결정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ab2d9-120">Applying filters on the incident queue can help determine which incident requires immediate attention.</span></span> 
 
-<span data-ttu-id="a8e8a-120">또한 사고 큐는 여러 개의 필터링 옵션을 제공 합니다. 이 옵션을 적용 하면 환경이 허용하는 모든 기존 사고에 대한 광범위 한 스위프를 수행 하도록 선택 하거나 특정 시나리오 또는 위협에 집중할 수 있도록 결정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a8e8a-120">The incident queue also exposes multiple filtering options, that when applied, enable you to choose to perform a broad sweep of all existing incidents in your environment, or decide to focus on a specific scenario or threat.</span></span> <span data-ttu-id="a8e8a-121">사고 큐 필터를 적용 하면 즉시 주의가 필요한 사고를 결정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a8e8a-121">Applying filters on the incident queue can help determine which incident requires immediate attention.</span></span> 
+## <a name="available-filters"></a><span data-ttu-id="ab2d9-121">사용 가능한 필터</span><span class="sxs-lookup"><span data-stu-id="ab2d9-121">Available filters</span></span>
 
-## <a name="available-filters"></a><span data-ttu-id="a8e8a-122">사용 가능한 필터</span><span class="sxs-lookup"><span data-stu-id="a8e8a-122">Available filters</span></span>
+### <a name="status"></a><span data-ttu-id="ab2d9-122">상태</span><span class="sxs-lookup"><span data-stu-id="ab2d9-122">Status</span></span>
+<span data-ttu-id="ab2d9-123">상태에 따라 표시 되는 사고의 목록을 제한하여 활성 또는 해결 완료 된 사고를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ab2d9-123">You can choose to limit the list of incidents shown based on their status to see which ones are active or resolved.</span></span>
 
-### <a name="status"></a><span data-ttu-id="a8e8a-123">상태</span><span class="sxs-lookup"><span data-stu-id="a8e8a-123">Status</span></span>
-<span data-ttu-id="a8e8a-124">상태에 따라 표시 되는 사고의 목록을 제한하여 활성 또는 해결 완료 된 사고를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a8e8a-124">You can choose to limit the list of incidents shown based on their status to see which ones are active or resolved.</span></span>
+### <a name="severity"></a><span data-ttu-id="ab2d9-124">심각도</span><span class="sxs-lookup"><span data-stu-id="ab2d9-124">Severity</span></span>
+<span data-ttu-id="ab2d9-125">사고의 심각도는 자산에 미칠 수 있는 영향을 의미합니다. </span><span class="sxs-lookup"><span data-stu-id="ab2d9-125">The severity of an incident is indicative of the impact it can have in your assets.</span></span> <span data-ttu-id="ab2d9-126">심각도가 높아지면 영향을 크게 받게 되므로 일반적으로 가장 즉각적으로 주의 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab2d9-126">The higher the severity the bigger the impact and typically requires the most immediate attention.</span></span> 
 
-### <a name="severity"></a><span data-ttu-id="a8e8a-125">심각도</span><span class="sxs-lookup"><span data-stu-id="a8e8a-125">Severity</span></span>
-<span data-ttu-id="a8e8a-126">사고의 심각도는 자산에 미칠 수 있는 영향을 의미합니다. </span><span class="sxs-lookup"><span data-stu-id="a8e8a-126">The severity of an incident is indicative of the impact it can have in your assets.</span></span> <span data-ttu-id="a8e8a-127">심각도가 높아지면 영향을 크게 받게 되므로 일반적으로 가장 즉각적으로 주의 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a8e8a-127">The higher the severity the bigger the impact and typically requires the most immediate attention.</span></span> 
+### <a name="assigned-to-owner"></a><span data-ttu-id="ab2d9-127">담당자(소유자)</span><span class="sxs-lookup"><span data-stu-id="ab2d9-127">Assigned to (owner)</span></span>
+<span data-ttu-id="ab2d9-128">필터를 사용하여 특정 담당자에게 할당 된 목록이나 자신에게 할당된 목록을 선택할 수 있습니다. </span><span class="sxs-lookup"><span data-stu-id="ab2d9-128">You can choose to filter the list by selecting assigned to anyone or ones that are assigned to you.</span></span>
 
-### <a name="assigned-to-owner"></a><span data-ttu-id="a8e8a-128">담당자(소유자)</span><span class="sxs-lookup"><span data-stu-id="a8e8a-128">Assigned to (owner)</span></span>
-<span data-ttu-id="a8e8a-129">필터를 사용하여 특정 담당자에게 할당 된 목록이나 자신에게 할당된 목록을 선택할 수 있습니다. </span><span class="sxs-lookup"><span data-stu-id="a8e8a-129">You can choose to filter the list by selecting assigned to anyone or ones that are assigned to you.</span></span>
-
-### <a name="multiple-alerts"></a><span data-ttu-id="a8e8a-130">다중 경고 </span><span class="sxs-lookup"><span data-stu-id="a8e8a-130">Multiple alerts</span></span> 
-<span data-ttu-id="a8e8a-131">하나 이상의 경고를 포함 하는 사고만 표시 하도록 필터링 할 수 있습니다. </span><span class="sxs-lookup"><span data-stu-id="a8e8a-131">Filter to see only incidents containing more than one alert.</span></span> <span data-ttu-id="a8e8a-132">이는 보다 복잡하거나 진화된 킬체인 공격일 수 있습니다. </span><span class="sxs-lookup"><span data-stu-id="a8e8a-132">This could be an indication for an attack that is more complex or progressed in the kill chain.</span></span> 
+### <a name="multiple-alerts"></a><span data-ttu-id="ab2d9-129">다중 경고 </span><span class="sxs-lookup"><span data-stu-id="ab2d9-129">Multiple alerts</span></span> 
+<span data-ttu-id="ab2d9-130">하나 이상의 경고를 포함 하는 사고만 표시 하도록 필터링 할 수 있습니다. </span><span class="sxs-lookup"><span data-stu-id="ab2d9-130">Filter to see only incidents containing more than one alert.</span></span> <span data-ttu-id="ab2d9-131">이는 보다 복잡하거나 진화된 킬체인 공격일 수 있습니다. </span><span class="sxs-lookup"><span data-stu-id="ab2d9-131">This could be an indication for an attack that is more complex or progressed in the kill chain.</span></span> 
 
 
-### <a name="multiple-service-sources"></a><span data-ttu-id="a8e8a-133">다중 서비스 원인</span><span class="sxs-lookup"><span data-stu-id="a8e8a-133">Multiple service sources</span></span> 
-<span data-ttu-id="a8e8a-134">다중 원인(Microsoft Defender ATP, Microsoft Cloud App Security, Azure ATP, Office 365 ATP) 알림이 포함 된 사고만 표시 하도록 필터링 할 수 있습니다. </span><span class="sxs-lookup"><span data-stu-id="a8e8a-134">Filter to only see incidents that contain alerts from different sources (Microsoft Defender ATP, Microsoft Cloud App Security, Azure ATP, Office 365 ATP)</span></span>
-### <a name="service-sources"></a><span data-ttu-id="a8e8a-135">서비스 원인</span><span class="sxs-lookup"><span data-stu-id="a8e8a-135">Service sources</span></span>
-<span data-ttu-id="a8e8a-136">특정 원인을 선택 하면 해당 원인에서 최소 하나의 알림을 포함 하는 사고에 집중할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a8e8a-136">By choosing a specific source, you can focus on incidents that contain at least one alert from that chosen source.</span></span> 
+### <a name="multiple-service-sources"></a><span data-ttu-id="ab2d9-132">다중 서비스 원인</span><span class="sxs-lookup"><span data-stu-id="ab2d9-132">Multiple service sources</span></span> 
+<span data-ttu-id="ab2d9-133">다중 원인(Microsoft Defender ATP, Microsoft Cloud App Security, Azure ATP, Office 365 ATP) 알림이 포함 된 사고만 표시 하도록 필터링 할 수 있습니다. </span><span class="sxs-lookup"><span data-stu-id="ab2d9-133">Filter to only see incidents that contain alerts from different sources (Microsoft Defender ATP, Microsoft Cloud App Security, Azure ATP, Office 365 ATP)</span></span>
+### <a name="service-sources"></a><span data-ttu-id="ab2d9-134">서비스 원인</span><span class="sxs-lookup"><span data-stu-id="ab2d9-134">Service sources</span></span>
+<span data-ttu-id="ab2d9-135">특정 원인을 선택 하면 해당 원인에서 최소 하나의 알림을 포함 하는 사고에 집중할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ab2d9-135">By choosing a specific source, you can focus on incidents that contain at least one alert from that chosen source.</span></span> 
 
-### <a name="multiple-categories"></a><span data-ttu-id="a8e8a-137">다중 범주</span><span class="sxs-lookup"><span data-stu-id="a8e8a-137">Multiple categories</span></span> 
-<span data-ttu-id="a8e8a-138">킬체인의 다중 범주에 매핑된 사고 및 잠재적으로 더 큰 손상을 유발할만한 사고를 선택해서 표시할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a8e8a-138">You can choose to see only incidents that have mapped to multiple categories of the kill chain and can potentially cause more damage.</span></span> 
+### <a name="multiple-categories"></a><span data-ttu-id="ab2d9-136">다중 범주</span><span class="sxs-lookup"><span data-stu-id="ab2d9-136">Multiple categories</span></span> 
+<span data-ttu-id="ab2d9-137">킬체인의 다중 범주에 매핑된 사고 및 잠재적으로 더 큰 손상을 유발할만한 사고를 선택해서 표시할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ab2d9-137">You can choose to see only incidents that have mapped to multiple categories of the kill chain and can potentially cause more damage.</span></span> 
 
-### <a name="categories"></a><span data-ttu-id="a8e8a-139">범주</span><span class="sxs-lookup"><span data-stu-id="a8e8a-139">Categories</span></span>
-<span data-ttu-id="a8e8a-140">범주를 선택 하여 킬체인 특정 단계에 집중할 수 있습니다. </span><span class="sxs-lookup"><span data-stu-id="a8e8a-140">Choose specific categories to focus on a specific step in the kill chain</span></span>
+### <a name="categories"></a><span data-ttu-id="ab2d9-138">범주</span><span class="sxs-lookup"><span data-stu-id="ab2d9-138">Categories</span></span>
+<span data-ttu-id="ab2d9-139">범주를 선택 하여 킬체인 특정 단계에 집중할 수 있습니다. </span><span class="sxs-lookup"><span data-stu-id="ab2d9-139">Choose specific categories to focus on a specific step in the kill chain</span></span>
 
-### <a name="data-sensitivity"></a><span data-ttu-id="a8e8a-141">데이터 민감도</span><span class="sxs-lookup"><span data-stu-id="a8e8a-141">Data sensitivity</span></span>
-<span data-ttu-id="a8e8a-142">일부 공격은 민감하거나 가치있는 데이터 수집을 목적으로 합니다. </span><span class="sxs-lookup"><span data-stu-id="a8e8a-142">Some attacks focus on targeting to exfiltrate sensitive or valuable data.</span></span> <span data-ttu-id="a8e8a-143">필터를 적용하여 민감한 데이터가 사건에 연루되었는지를 확인한 후 민감 정보의 누출 여부를 결정하고 해당 사고의 우선순위를 결정할 수 있습니다.  </span><span class="sxs-lookup"><span data-stu-id="a8e8a-143">By applying a filter to see if sensitive data is involved in the incident, you can quickly determine if sensitive information has potentially been compromised and prioritize addressing those incidents.</span></span>
+### <a name="data-sensitivity"></a><span data-ttu-id="ab2d9-140">데이터 민감도</span><span class="sxs-lookup"><span data-stu-id="ab2d9-140">Data sensitivity</span></span>
+<span data-ttu-id="ab2d9-141">일부 공격은 민감하거나 가치있는 데이터 수집을 목적으로 합니다. </span><span class="sxs-lookup"><span data-stu-id="ab2d9-141">Some attacks focus on targeting to exfiltrate sensitive or valuable data.</span></span> <span data-ttu-id="ab2d9-142">필터를 적용하여 민감한 데이터가 사건에 연루되었는지를 확인한 후 민감 정보의 누출 여부를 결정하고 해당 사고의 우선순위를 결정할 수 있습니다.  </span><span class="sxs-lookup"><span data-stu-id="ab2d9-142">By applying a filter to see if sensitive data is involved in the incident, you can quickly determine if sensitive information has potentially been compromised and prioritize addressing those incidents.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="a8e8a-144">Microsoft Threat Protection이 설정 된 경우에만 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a8e8a-144">Only applicable if Microsoft Information Protection is turned on.</span></span>
+><span data-ttu-id="ab2d9-143">Microsoft Threat Protection이 설정 된 경우에만 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ab2d9-143">Only applicable if Microsoft Information Protection is turned on.</span></span>
 
 
-## <a name="next-steps"></a><span data-ttu-id="a8e8a-145">다음 단계</span><span class="sxs-lookup"><span data-stu-id="a8e8a-145">Next steps</span></span>
-<span data-ttu-id="a8e8a-146">사고의 우선순위를 결정한 뒤 사고에 대한 조사를 진행할 수 있습니다. </span><span class="sxs-lookup"><span data-stu-id="a8e8a-146">After you've determined which incident requires the highest priority, you can proceed to do further investigative work on an incident.</span></span>
-- [<span data-ttu-id="a8e8a-147">사고 조사</span><span class="sxs-lookup"><span data-stu-id="a8e8a-147">Investigate incidents</span></span>](investigate-incidents.md)
+## <a name="next-steps"></a><span data-ttu-id="ab2d9-144">다음 단계</span><span class="sxs-lookup"><span data-stu-id="ab2d9-144">Next steps</span></span>
+<span data-ttu-id="ab2d9-145">사고의 우선순위를 결정한 뒤 사고에 대한 조사를 진행할 수 있습니다. </span><span class="sxs-lookup"><span data-stu-id="ab2d9-145">After you've determined which incident requires the highest priority, you can proceed to do further investigative work on an incident.</span></span>
+- [<span data-ttu-id="ab2d9-146">사고 조사</span><span class="sxs-lookup"><span data-stu-id="ab2d9-146">Investigate incidents</span></span>](investigate-incidents.md)
 
 
-## <a name="related-topics"></a><span data-ttu-id="a8e8a-148">관련 항목</span><span class="sxs-lookup"><span data-stu-id="a8e8a-148">Related topics</span></span>
-- [<span data-ttu-id="a8e8a-149">사고 개요</span><span class="sxs-lookup"><span data-stu-id="a8e8a-149">Incidents overview</span></span>](incidents-overview.md)
-- [<span data-ttu-id="a8e8a-150">사고 조사</span><span class="sxs-lookup"><span data-stu-id="a8e8a-150">Investigate incidents</span></span>](investigate-incidents.md)
-- [<span data-ttu-id="a8e8a-151">인시던트 관리</span><span class="sxs-lookup"><span data-stu-id="a8e8a-151">Manage incidents</span></span>](manage-incidents.md)
+## <a name="related-topics"></a><span data-ttu-id="ab2d9-147">관련 항목</span><span class="sxs-lookup"><span data-stu-id="ab2d9-147">Related topics</span></span>
+- [<span data-ttu-id="ab2d9-148">사고 개요</span><span class="sxs-lookup"><span data-stu-id="ab2d9-148">Incidents overview</span></span>](incidents-overview.md)
+- [<span data-ttu-id="ab2d9-149">사고 조사</span><span class="sxs-lookup"><span data-stu-id="ab2d9-149">Investigate incidents</span></span>](investigate-incidents.md)
+- [<span data-ttu-id="ab2d9-150">인시던트 관리</span><span class="sxs-lookup"><span data-stu-id="ab2d9-150">Manage incidents</span></span>](manage-incidents.md)
