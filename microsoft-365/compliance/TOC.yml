@@ -871,10 +871,8 @@
           items:
             - name: 책임 준비 상태 검사 목록
               href: gdpr-arc.md
-            - name: Azure
-              href: gdpr-arc-azure.md
-            - name: Dynamics 365
-              href: gdpr-arc-dynamics365.md
+            - name: Azure & Dynamics 365
+              href: gdpr-arc-azure-dynamics.md
             - name: Microsoft 지원 및 전문 서비스
               href: gdpr-arc-prof-services.md
             - name: Office 365
