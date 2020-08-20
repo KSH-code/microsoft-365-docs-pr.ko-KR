@@ -24,79 +24,79 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
-description: '초기 전자 메일 주소를 tom@fourthcoffee.com와 같은 친숙 한 전자 메일 주소로 변경 합니다. 이 작업을 수행 하려면 도메인 이름을 구입 하 여 Microsoft 365에 추가 해야 합니다. '
-ms.openlocfilehash: e1ac40fb38a207cc0f19f48ac4ab7c6f34ffbb35
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: '초기 전자 메일 주소를 예를 위한 전자 메일 주소와 tom@fourthcoffee.com. 이렇게 하려면 도메인 이름을 버리한 후 Microsoft 365에 추가해야 합니다. '
+ms.openlocfilehash: dc6d418961fe29a363aa6a787d8c0bb2d11d7e97
+ms.sourcegitcommit: 167c05cc6a776f62f0a0c2de5f3ffeb68c4a27ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400163"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814483"
 ---
-# <a name="change-your-email-address-to-use-your-custom-domain"></a><span data-ttu-id="2d21c-104">사용자 지정 도메인을 사용하도록 전자 메일 주소 변경</span><span class="sxs-lookup"><span data-stu-id="2d21c-104">Change your email address to use your custom domain</span></span>
+# <a name="change-your-email-address-to-use-your-custom-domain"></a><span data-ttu-id="5539c-104">사용자 지정 도메인을 사용하도록 전자 메일 주소 변경</span><span class="sxs-lookup"><span data-stu-id="5539c-104">Change your email address to use your custom domain</span></span>
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> <span data-ttu-id="2d21c-105">관리 센터가 변경되고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-105">The admin center is changing.</span></span> <span data-ttu-id="2d21c-106">사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="2d21c-106">If your experience doesn't match the details presented here, see [About the new Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span></span>
+> <span data-ttu-id="5539c-105">관리 센터가 변경되고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5539c-105">The admin center is changing.</span></span> <span data-ttu-id="5539c-106">사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="5539c-106">If your experience doesn't match the details presented here, see [About the new Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span></span>
 
 ::: moniker-end
 
- <span data-ttu-id="2d21c-107">원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.md)** 하세요.</span><span class="sxs-lookup"><span data-stu-id="2d21c-107">**[Check the Domains FAQ](../setup/domains-faq.md)** if you don't find what you're looking for.</span></span> 
+ <span data-ttu-id="5539c-107">원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.md)** 하세요.</span><span class="sxs-lookup"><span data-stu-id="5539c-107">**[Check the Domains FAQ](../setup/domains-faq.md)** if you don't find what you're looking for.</span></span> 
   
 ::: moniker range="o365-worldwide"
 
-<span data-ttu-id="2d21c-108">Microsoft 365의 초기 전자 메일 주소에는 tom@fourthcoffee.onmicrosoft.com와 같은 onmicrosoft.com이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-108">Your initial email address in Microsoft 365 includes .onmicrosoft.com, like tom@fourthcoffee.onmicrosoft.com.</span></span> <span data-ttu-id="2d21c-109">이는 tom@fourthcoffee.com과 같이 보다 친숙한 주소로 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-109">You can change it to a friendlier address like tom@fourthcoffee.com.</span></span> <span data-ttu-id="2d21c-110">먼저 fourthcoffee.com과 같은 고유한 도메인 이름이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-110">You'll need your own domain name, like fourthcoffee.com first.</span></span> <span data-ttu-id="2d21c-111">도메인 이름이 이미 있는 경우 해당 도메인을 사용해도 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-111">If you already have one, great!</span></span> <span data-ttu-id="2d21c-112">그렇지 않은 경우 [도메인 등록 기관에서 도메인을 구입](../get-help-with-domains/buy-a-domain-name.md)하는 방법에 대해 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="2d21c-112">If not, you can learn how to [buy one from a domain registrar](../get-help-with-domains/buy-a-domain-name.md).</span></span>
+<span data-ttu-id="5539c-108">Microsoft 365의 초기 전자 메일 주소에는 .onmicrosoft.com(예: i/tom@fourthcoffee.onmicrosoft.com).</span><span class="sxs-lookup"><span data-stu-id="5539c-108">Your initial email address in Microsoft 365 includes .onmicrosoft.com, like tom@fourthcoffee.onmicrosoft.com.</span></span> <span data-ttu-id="5539c-109">이는 tom@fourthcoffee.com과 같이 보다 친숙한 주소로 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5539c-109">You can change it to a friendlier address like tom@fourthcoffee.com.</span></span> <span data-ttu-id="5539c-110">먼저 fourthcoffee.com과 같은 고유한 도메인 이름이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="5539c-110">You'll need your own domain name, like fourthcoffee.com first.</span></span> <span data-ttu-id="5539c-111">도메인 이름이 이미 있는 경우 해당 도메인을 사용해도 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5539c-111">If you already have one, great!</span></span> <span data-ttu-id="5539c-112">그렇지 않은 경우 [도메인 등록 기관에서 도메인을 구입](../get-help-with-domains/buy-a-domain-name.md)하는 방법에 대해 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="5539c-112">If not, you can learn how to [buy one from a domain registrar](../get-help-with-domains/buy-a-domain-name.md).</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-<span data-ttu-id="2d21c-113">Office 365 독일의 초기 전자 메일 주소에는 tom@fourthcoffee.onmicrosoft.de와 같은 onmicrosoft.de이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-113">Your initial email address in Office 365 Germany includes .onmicrosoft.de, like tom@fourthcoffee.onmicrosoft.de.</span></span> <span data-ttu-id="2d21c-114">Tom@fourthcoffee.de와 같은 보다 친숙 한 주소로 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-114">You can change it to a friendlier address like tom@fourthcoffee.de.</span></span> <span data-ttu-id="2d21c-115">먼저 fourthcoffee.de과 같은 고유한 도메인 이름이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-115">You'll need your own domain name, like fourthcoffee.de first.</span></span> <span data-ttu-id="2d21c-116">도메인 이름이 이미 있는 경우 해당 도메인을 사용해도 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-116">If you already have one, great!</span></span> <span data-ttu-id="2d21c-117">그렇지 않은 경우 [도메인 등록 기관에서 도메인을 구입](../get-help-with-domains/buy-a-domain-name.md)하는 방법에 대해 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="2d21c-117">If not, you can learn how to [buy one from a domain registrar](../get-help-with-domains/buy-a-domain-name.md).</span></span>
+<span data-ttu-id="5539c-113">Office 365 Germany의 초기 전자 메일 주소에는 .onmicrosoft.de(예: tom@fourthcoffee.onmicrosoft.de.</span><span class="sxs-lookup"><span data-stu-id="5539c-113">Your initial email address in Office 365 Germany includes .onmicrosoft.de, like tom@fourthcoffee.onmicrosoft.de.</span></span> <span data-ttu-id="5539c-114">리소스 업데이트를 필요한 번호와 같은 친숙한 주소로 변경할 tom@fourthcoffee.de.</span><span class="sxs-lookup"><span data-stu-id="5539c-114">You can change it to a friendlier address like tom@fourthcoffee.de.</span></span> <span data-ttu-id="5539c-115">You'll need your own domain name, like fourthcoffee.de.</span><span class="sxs-lookup"><span data-stu-id="5539c-115">You'll need your own domain name, like fourthcoffee.de first.</span></span> <span data-ttu-id="5539c-116">도메인 이름이 이미 있는 경우 해당 도메인을 사용해도 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5539c-116">If you already have one, great!</span></span> <span data-ttu-id="5539c-117">그렇지 않은 경우 [도메인 등록 기관에서 도메인을 구입](../get-help-with-domains/buy-a-domain-name.md)하는 방법에 대해 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="5539c-117">If not, you can learn how to [buy one from a domain registrar](../get-help-with-domains/buy-a-domain-name.md).</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-<span data-ttu-id="2d21c-118">21Vianet에서 운영 하는 Office 365의 초기 전자 메일 주소에는 tom@fourthcoffee.partner.onmschina.cn와 같은 partner.onmschina.cn 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-118">Your initial email address in Office 365 operated by 21Vianet includes partner.onmschina.cn, like tom@fourthcoffee.partner.onmschina.cn.</span></span> <span data-ttu-id="2d21c-119">Tom@fourthcoffee.cn와 같은 보다 친숙 한 주소로 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-119">You can change it to a friendlier address like tom@fourthcoffee.cn.</span></span> <span data-ttu-id="2d21c-120">먼저 fourthcoffee.cn과 같은 고유한 도메인 이름이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-120">You'll need your own domain name, like fourthcoffee.cn first.</span></span> <span data-ttu-id="2d21c-121">도메인 이름이 이미 있는 경우 해당 도메인을 사용해도 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-121">If you already have one, great!</span></span> <span data-ttu-id="2d21c-122">그렇지 않은 경우 [도메인 등록 기관에서 도메인을 구입](../get-help-with-domains/buy-a-domain-name.md)하는 방법에 대해 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="2d21c-122">If not, you can learn how to [buy one from a domain registrar](../get-help-with-domains/buy-a-domain-name.md).</span></span>
+<span data-ttu-id="5539c-118">21Vianet에서 운영하는 Office 365의 초기 전자 메일 주소에는 사서함이 partner.onmschina.cn 예: 위와 tom@fourthcoffee.partner.onmschina.cn.</span><span class="sxs-lookup"><span data-stu-id="5539c-118">Your initial email address in Office 365 operated by 21Vianet includes partner.onmschina.cn, like tom@fourthcoffee.partner.onmschina.cn.</span></span> <span data-ttu-id="5539c-119">You can change it to a friender address like tom@fourthcoffee.cn.</span><span class="sxs-lookup"><span data-stu-id="5539c-119">You can change it to a friendlier address like tom@fourthcoffee.cn.</span></span> <span data-ttu-id="5539c-120">You'll need your own domain name, like fourthcoffee.cn first.</span><span class="sxs-lookup"><span data-stu-id="5539c-120">You'll need your own domain name, like fourthcoffee.cn first.</span></span> <span data-ttu-id="5539c-121">도메인 이름이 이미 있는 경우 해당 도메인을 사용해도 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5539c-121">If you already have one, great!</span></span> <span data-ttu-id="5539c-122">그렇지 않은 경우 [도메인 등록 기관에서 도메인을 구입](../get-help-with-domains/buy-a-domain-name.md)하는 방법에 대해 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="5539c-122">If not, you can learn how to [buy one from a domain registrar](../get-help-with-domains/buy-a-domain-name.md).</span></span>
 
 ::: moniker-end
 
-<span data-ttu-id="2d21c-123">설치 하는 동안 도메인의 MX 레코드를 업데이트 하 여 도메인의 전자 메일을 Microsoft 365로 변경 하면 해당 도메인으로 전송 되는 모든 전자 메일이 Microsoft 365로 시작 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-123">When you change your domain's email to come to Microsoft 365, by updating your domain's MX record during setup, ALL email sent to that domain will start coming to Microsoft 365.</span></span> <span data-ttu-id="2d21c-124">MX 레코드를 변경 하기 전에 도메인에 전자 메일이 있는 모든 사용자가 Microsoft 365에서 사용자를 추가 하 고 사서함을 만들었는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-124">Make sure you've added users and created mailboxes in Microsoft 365 for everyone who has email on your domain BEFORE you change the MX record.</span></span> <span data-ttu-id="2d21c-125">도메인의 모든 사용자에 대 한 전자 메일을 Microsoft 365로 이동 하지 않으려고 하나요?</span><span class="sxs-lookup"><span data-stu-id="2d21c-125">Don't want to move email for everyone on your domain to Microsoft 365?</span></span> <span data-ttu-id="2d21c-126">[대신 몇 개의 전자 메일 주소만 사용 하 여 Microsoft 365를 파일럿 하는](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)단계를 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-126">You can take steps to [pilot Microsoft 365 with just a few email addresses instead](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).</span></span>
+<span data-ttu-id="5539c-123">설치 중 도메인의 MX 레코드를 업데이트하여 도메인의 전자 메일을 Microsoft 365로 변경하면 해당 도메인으로 전송된 모든 전자 메일이 Microsoft 365로 제공하기 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="5539c-123">When you change your domain's email to come to Microsoft 365, by updating your domain's MX record during setup, ALL email sent to that domain will start coming to Microsoft 365.</span></span> <span data-ttu-id="5539c-124">MX 레코드를 변경하기 전에 해당 도메인에 전자 메일이 있는 모든 사용자에 대해 Microsoft 365에서 사용자를 추가하고 사서함을 만들었는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="5539c-124">Make sure you've added users and created mailboxes in Microsoft 365 for everyone who has email on your domain BEFORE you change the MX record.</span></span> <span data-ttu-id="5539c-125">도메인에 있는 모든 사용자의 전자 메일을 Microsoft 365로 이동하고자 하나요?</span><span class="sxs-lookup"><span data-stu-id="5539c-125">Don't want to move email for everyone on your domain to Microsoft 365?</span></span> <span data-ttu-id="5539c-126">대신 몇 개의 전자 메일 [주소만 사용하여 Microsoft 365 시험 사용 을 스크롤하는 단계를 수행할 수 있습니다.](https://docs.microsoft.com/microsoft-365/admin/misc/pilot-microsoft-365-from-my-custom-domain?view=o365-worldwide)</span><span class="sxs-lookup"><span data-stu-id="5539c-126">You can take steps to [pilot Microsoft 365 with just a few email addresses instead](https://docs.microsoft.com/microsoft-365/admin/misc/pilot-microsoft-365-from-my-custom-domain?view=o365-worldwide).</span></span>
   
-## <a name="change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center"></a><span data-ttu-id="2d21c-127">Microsoft 365 관리 센터를 사용 하 여 사용자 지정 도메인을 사용 하도록 전자 메일 주소 변경</span><span class="sxs-lookup"><span data-stu-id="2d21c-127">Change your email address to use your custom domain using the Microsoft 365 admin center</span></span>
+## <a name="change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center"></a><span data-ttu-id="5539c-127">Microsoft 365 관리 센터를 사용하여 사용자 지정 도메인을 사용하도록 전자 메일 주소 변경</span><span class="sxs-lookup"><span data-stu-id="5539c-127">Change your email address to use your custom domain using the Microsoft 365 admin center</span></span>
 
-<span data-ttu-id="2d21c-128">이 단계를 수행 하려면 전역 관리자 계정이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-128">You must have a global admin account to perform these steps.</span></span> 
+<span data-ttu-id="5539c-128">다음 단계를 수행하려면 전역 관리자 계정이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="5539c-128">You must have a global admin account to perform these steps.</span></span> 
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="2d21c-129"><a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-129">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span></span> 
+1. <span data-ttu-id="5539c-129"><a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="5539c-129">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span></span> 
 
 ::: moniker-end
    
 ::: moniker range="o365-germany"
     
-1. <span data-ttu-id="2d21c-130"><a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a> 의 관리 센터로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-130">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>.</span></span> 
+1. <span data-ttu-id="5539c-130"><a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a> 의 관리 센터로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="5539c-130">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>.</span></span> 
     
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="2d21c-131">관리 센터 <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank"> https://portal.partner.microsoftonline.cn </a>()로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-131">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank"> https://portal.partner.microsoftonline.cn</a>.</span></span> 
+1. <span data-ttu-id="5539c-131">관리 센터로 이동합니다. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank"> https://portal.partner.microsoftonline.cn </a></span><span class="sxs-lookup"><span data-stu-id="5539c-131">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank"> https://portal.partner.microsoftonline.cn</a>.</span></span> 
 
 ::: moniker-end 
 
-2. <span data-ttu-id="2d21c-132">**Setup**  >  **도메인** 설정 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-132">Go to the **Setup** > **Domains** page.</span></span> 
+2. <span data-ttu-id="5539c-132">설정 도메인 **페이지로**  >  **이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="5539c-132">Go to the **Setup** > **Domains** page.</span></span> 
 
-3. <span data-ttu-id="2d21c-133">**도메인** 페이지에서 **도메인 추가**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-133">On the **Domains** page, select **Add domain**.</span></span>
+3. <span data-ttu-id="5539c-133">**도메인** 페이지에서 **도메인 추가**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="5539c-133">On the **Domains** page, select **Add domain**.</span></span>
     
-4. <span data-ttu-id="2d21c-134">단계를 따라 도메인 소유 여부를 확인하고 전자 메일 주소를 변경합니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-134">Follow the steps to confirm that you own your domain and to change your email address.</span></span>
+4. <span data-ttu-id="5539c-134">단계를 따라 도메인 소유 여부를 확인하고 전자 메일 주소를 변경합니다.</span><span class="sxs-lookup"><span data-stu-id="5539c-134">Follow the steps to confirm that you own your domain and to change your email address.</span></span>
     
-<span data-ttu-id="2d21c-135">Microsoft 365에서 도메인에 대 한 모든 기능을 올바르게 설정 하는 방법을 안내 합니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-135">You'll be guided to get everything set up correctly with your domain in Microsoft 365.</span></span>
+<span data-ttu-id="5539c-135">Microsoft 365에서 도메인을 올바르게 설정하는 데 필요한 모든 지침이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5539c-135">You'll be guided to get everything set up correctly with your domain in Microsoft 365.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="2d21c-136">Exchange 라이선스를 사용 하지 않는 경우에는 도메인을 사용 하 여 Microsoft 365 테 넌 트에서 전자 메일을 보내거나 받을 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="2d21c-136">If you are not using an Exchange license, you cannot use the domain to send or receive emails from the Microsoft 365 tenant.</span></span>
+> <span data-ttu-id="5539c-136">Exchange 라이선스를 사용하지 않는 경우에는 해당 도메인을 사용하여 Microsoft 365 테넌트의 전자 메일을 보내거나 받을 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="5539c-136">If you are not using an Exchange license, you cannot use the domain to send or receive emails from the Microsoft 365 tenant.</span></span>
   
-## <a name="related-articles"></a><span data-ttu-id="2d21c-137">관련 문서</span><span class="sxs-lookup"><span data-stu-id="2d21c-137">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="5539c-137">관련 문서</span><span class="sxs-lookup"><span data-stu-id="5539c-137">Related articles</span></span>
 
-[<span data-ttu-id="2d21c-138">Microsoft 365을 사용 하 여 사용자 지정 도메인 구입</span><span class="sxs-lookup"><span data-stu-id="2d21c-138">Buy a custom domain using Microsoft 365</span></span>](../get-help-with-domains/buy-a-domain-name.md)
+[<span data-ttu-id="5539c-138">Microsoft 365를 사용하여 사용자 지정 도메인 만들기</span><span class="sxs-lookup"><span data-stu-id="5539c-138">Buy a custom domain using Microsoft 365</span></span>](../get-help-with-domains/buy-a-domain-name.md)
  
