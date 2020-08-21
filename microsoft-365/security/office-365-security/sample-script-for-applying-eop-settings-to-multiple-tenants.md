@@ -1,5 +1,5 @@
 ---
-title: EOP 설정에 대 한 샘플 스크립트-여러 테 넌 트
+title: EOP 설정에 대한 샘플 스크립트 - 여러 테넌트
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -7,19 +7,19 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: e87e84e1-7be0-44bf-a414-d91d60ed8817
 ms.custom:
 - seo-marvel-apr2020
-description: 이 문서에서는 PowerShell을 사용 하 여 Microsoft EOP (Exchange Online Protection)의 테 넌 트에 구성 설정을 적용 하는 방법을 알아봅니다.
-ms.openlocfilehash: c25bafe9ece71264931d8f059dd726147a6d28a4
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+description: 이 문서에서는 PowerShell을 사용하여 EOP(엔터프라이즈 보호)에서 테넌트에 구성 설정을 Microsoft Exchange Online 알아봅니다.
+ms.openlocfilehash: 46b7c756171da7687568e5135974841d828f45bd
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209142"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827460"
 ---
 # <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a>여러 테넌트에 EOP 설정을 적용하기 위한 샘플 스크립트
 
@@ -33,7 +33,7 @@ ms.locfileid: "44209142"
 
 3. .csv 파일의 각 행에서 UserName 열에는 테넌트의 관리자 이름을 추가하고 cmdlet 열에는 해당 테넌트에 대해 실행할 cmdlet을 추가합니다. 예를 들어 admin@contoso.com 및 Get-AcceptedDomain을 사용합니다.
 
-4. [Runcmdletonmultipletenants.ps1](#runcmdletonmultipletenantsps1) 스크립트를 메모장에 복사한 다음 찾기 쉬운 위치 (예: c:\scripts)에 파일을 저장 합니다.
+4. [스크립팅 스크립트를RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) 복사한 후 찾기 전에 찾을 수 있는 위치(예: c:\scripts)에 파일을 저장합니다.
 
 5. 다음 구문을 사용하여 스크립트를 실행합니다.
 
@@ -44,12 +44,12 @@ ms.locfileid: "44209142"
    예를 들면 다음과 같습니다.
 
    ```powershell
-   & "c:\scripts\RunCmdletOnMultipleTenanats.ps1" "c:\scripts\inputfile.csv"
+   & "c:\scripts\RunCmdletOnMultipleTenants.ps1" "c:\scripts\inputfile.csv"
    ```
 
-6. 각 테 넌 트가 로그온 되 고 스크립트가 실행 됩니다.
+6. 각 테넌트에 로그온되고 스크립트가 실행됩니다.
 
-## <a name="runcmdletonmultipletenantsps1"></a>Runcmdletonmultipletenants.ps1. ps1
+## <a name="runcmdletonmultipletenantsps1"></a>RunCmdletOnMultipleTenants.ps1
 
 ```powershell
 # This script runs Windows PowerShell cmdlets on multiple tenants.

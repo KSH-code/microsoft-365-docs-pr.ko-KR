@@ -7,23 +7,23 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: troubleshooting
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9d015a0d-52a0-484d-9a08-121d04f973d3
 ms.custom:
 - seo-marvel-apr2020
-description: EOP (Exchange Online Protection) 필터링 프로세스 중에 대기, 지연 또는 반송 된 메시지에 대 한 일반적인 질문에 대 한 대답을 확인할 수 있습니다.
-ms.openlocfilehash: 38e72a04e855862c621bd2b170c11407e0d22af3
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+description: EOP(Exchange Online Protection) 필터링 프로세스 중에 대기, 지연 또는 반송된 메시지에 대한 가장 일반적인 질문에 대한 대답을 찾아보세요.
+ms.openlocfilehash: 76fe08f3a83321b6c0549dae5f1382ead5f0b3ae
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44206595"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827752"
 ---
 # <a name="eop-queued-deferred-and-bounced-messages-faq"></a>EOP 대기, 지연 및 반송 메시지 FAQ
 
-이 항목에서는 EOP (Exchange Online Protection) 필터링 프로세스 중에 대기, 지연 또는 반송 된 메시지에 대 한 질문과 대답을 제공 합니다.
+이 항목에서는 EOP(Exchange Online Protection) 필터링 프로세스 중에 대기, 지연 또는 반송된 메시지에 대한 질문과 대답을 제공합니다.
 
 ## <a name="why-is-mail-queuing"></a>메일이 큐에서 대기하는 이유는 무엇인가요?
 
@@ -35,7 +35,7 @@ ms.locfileid: "44206595"
 
 ## <a name="how-long-does-a-message-remain-in-deferral-and-what-is-the-retry-interval"></a>메시지가 지연 상태로 유지되는 기간 및 다시 시도 간격은 어떻게 되나요?
 
-지연 상태의 메시지는 큐의 1 일 동안 유지 됩니다. 메시지 다시 시도는 받는 사람의 메일 시스템에서 다시 수신된 오류를 기반으로 합니다. 처음 몇 개의 deferrals은 15 분 이내 이며 이후 다시 시도 (앞으로 1 ~ 6 일 이상 경과 함)가 경과 하는 간격을 최대 60 분까지 증가 시킵니다. 간격 기간 확장은 동적으로 큐 크기 및 내부 메시지 우선 순위와 같은 여러 가지 변수를 고려 하 여 수행 됩니다. 기본적으로 시작 하는 데 15 분 (이 하)이 소요 되며, 다음 몇 시간 동안 간격으로 확장 하 여 최대 60 분까지 진행 합니다.
+지연 메시지는 대기열에 1일까지 유지됩니다. 메시지 다시 시도는 받는 사람의 메일 시스템에서 다시 수신된 오류를 기반으로 합니다. 처음 몇 분이 지나면 지연되는 시간이 15분 이내이고 다음 번에 다시 시도(3/252년 정도+3/32/2회)하여 간격이 여러 번 다시 시도하는 최대 60분까지 늘어나는 것입니다. 기간 확장은 동적이며, 큐 크기 및 내부 메시지 우선 순위와 같은 여러 변수를 고려합니다. 기본적으로 시작하는 데는 15분 이하인 후 다음 몇 시간에서 60min까지 확장되는 것이 기본값입니다.
 
 ## <a name="after-your-email-server-is-restored-how-are-queued-messages-distributed"></a>전자 메일 서버가 복원된 경우 큐에 있는 메시지는 어떻게 배포되나요?
 

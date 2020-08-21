@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 준수 센터에서 보고서 대시보드에 사용할 수 있는 메일 흐름 보고서에 대해 & 있습니다.
 ms.custom: ''
-ms.openlocfilehash: 98b27497b758a202ccbb741f6cb10e4ec65570e9
-ms.sourcegitcommit: 167c05cc6a776f62f0a0c2de5f3ffeb68c4a27ac
+ms.openlocfilehash: 9e9249eab5d3519dac0e33acf40d600d471b7cb2
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814513"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826460"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>보안 규정 준수 센터의 보고서 대시보드에서 메일 & 보고서 보기
 
@@ -51,7 +51,7 @@ ms.locfileid: "46814513"
   - **커넥터 없이 인터넷에서**
   - **커넥터 없이 인터넷으로 연결**
   - 구성한 특정 커넥터
-  
+
   차트의 데이터를 격리하려면 컨트롤에 대한 **데이터 표시 컨트롤을** 사용하여 이러한 옵션 중 하나 또는 모든 메일 **흐름을 선택할 수 있습니다.**
 
   ![커넥터 보고서에서 메일 흐름별 데이터 보기](../../media/connector-report-view-data-by-mail-flow.png)
@@ -206,7 +206,7 @@ ms.locfileid: "46814513"
 
 ## <a name="mailflow-status-report"></a>메일 흐름 상태 보고서
 
-메일 **흐름 상태 보고서는 보낸 후** 받은 전자 메일 [보고서와](#sent-and-received-email-report)비슷하지만, Edge에서 허용하거나 차단하는 방법에 대한 추가 정보입니다. Edge 보호 정보를 포함하는 유일한 보고서이며 EOP(Exchange Online Protection)에서 평가를 위해 서비스로 허용되기 전에 차단되는 전자 메일의 양만 표시합니다. 메시지를 받는 사람 5명에게 보낼 경우 메시지 하나가 5명인 다른 메시지로 계산된다는 점을 이해해야 합니다.  
+메일 **흐름 상태 보고서는 보낸 후** 받은 전자 메일 [보고서와](#sent-and-received-email-report)비슷하지만, Edge에서 허용하거나 차단하는 방법에 대한 추가 정보입니다. Edge 보호 정보를 포함하는 유일한 보고서이며 EOP(Exchange Online Protection)에서 평가를 위해 서비스로 허용되기 전에 차단되는 전자 메일의 양만 표시합니다. 메시지를 받는 사람 5명에게 보낼 경우 메시지 하나가 5명인 다른 메시지로 계산된다는 점을 이해해야 합니다.
 보고서를 보려면 보안 센터에서 [& 만들고 보고서](https://protection.office.com) **대시보드로** \> **이동한 후 메일** 흐름 상태 **보고서를 선택합니다.** 메일 흐름 상태 보고서로 **직접 이동하려면 을**엽니다. <https://protection.office.com/mailflowStatusReport>
 
 ![보고서 대시보드의 메일 흐름 상태 보고서 위리인](../../media/mail-flow-status-report-widget.png)
@@ -300,14 +300,14 @@ ms.locfileid: "46814513"
 
 이 차트에는 다음과 같이 구성된 전자 메일 수가 표시됩니다.
 
-  - **총 전자 메일**
-  - **Edge 보호 후 전자 메일**
-  - **Email after anti-malware, file reputation, file type block**
-  - **피싱 방지, URL 신뢰도, 브랜드 가장, 스푸핑 방지 후의 전자 메일**
-  - **스팸 방지 후의 전자 메일, 대량 메일 필터링**
-  - 사용자 및 도메인 가장 1 **이후의**<sup>전자 메일</sup>
-  - **파일 및 URL 디온 1 이후의**<sup>메일</sup>
-  - **배달 후 보호 후 검색된 전자 메일(URL 클릭 시간 보호)**
+- **총 전자 메일**
+- **Edge 보호 후 전자 메일**
+- **Email after anti-malware, file reputation, file type block**
+- **피싱 방지, URL 신뢰도, 브랜드 가장, 스푸핑 방지 후의 전자 메일**
+- **스팸 방지 후의 전자 메일, 대량 메일 필터링**
+- 사용자 및 도메인 가장 1 **이후의**<sup>전자 메일</sup>
+- **파일 및 URL 디온 1 이후의**<sup>메일</sup>
+- **배달 후 보호 후 검색된 전자 메일(URL 클릭 시간 보호)**
 
 <sup>1</sup> Office 365 ATP만
 
@@ -315,15 +315,15 @@ EOP 또는 ATP를 사용하여 별도로 필터링된 전자 메일을 표시하
 
 데이터 테이블에는 내내의 날짜 순서대로 표시된 다음 정보가 포함됩니다.
 
- - **날짜**
- - **총 전자 메일**
- - **Edge 보호**
- - **맬웨어 방지, 파일 신뢰도, 파일 형식 차단**
- - **피싱 방지, URL 신뢰도, 브랜드 가장, 스푸핑 방지**
- - **스팸 방지, 대량 메일 필터링**
- - **사용자 및 도메인 가장(ATP)**
- - **파일 및 URL 디터와이션(ATP)**
- - **POST-Delivery Protection and ZAP(ATP) 또는 ZAP(ZAP)**
+- **날짜**
+- **총 전자 메일**
+- **Edge 보호**
+- **맬웨어 방지, 파일 신뢰도, 파일 형식 차단**
+- **피싱 방지, URL 신뢰도, 브랜드 가장, 스푸핑 방지**
+- **스팸 방지, 대량 메일 필터링**
+- **사용자 및 도메인 가장(ATP)**
+- **파일 및 URL 디터와이션(ATP)**
+- **POST-Delivery Protection and ZAP(ATP) 또는 ZAP(ZAP)**
 
 데이터 테이블에서 행을 선택하면 전자 메일 수에 대한 추가 분석이 플라이아웃에 표시됩니다.
 
@@ -340,7 +340,7 @@ EOP 또는 ATP를 사용하여 별도로 필터링된 전자 메일을 표시하
 
  ![메일 흐름 상태 보고서의 Funnel 보기 ](../../media/mail-flow-status-report-funnel-view.png)
 
- ### <a name="tech-view-for-the-mailflow-status-report"></a>메일 흐름 상황 보고서기술 보기
+### <a name="tech-view-for-the-mailflow-status-report"></a>메일 흐름 상황 보고서기술 보기
 
 기술 **보기는** 새로운 **보기와 비슷하며, 구성된** 위협 방지 기능에 대한 더 세부 세부 정보를 제공합니다. 차트에서 다양한 위협 방지 단계에서 메시지가 분류되는 방식을 확인할 수 있습니다.
 
@@ -360,27 +360,27 @@ EOP 또는 ATP를 사용하여 별도로 필터링된 전자 메일을 표시하
 
 이 차트에는 다음 범주로 구성된 메시지가 표시됩니다.
 
-  - **총 전자 메일**
-  - **Edge 허용, 에지 필터링**
-  - **맬웨어가 아오오고 ATP(안전한 첨부 파일 검색), 맬웨어 방지 엔진 검색, 규칙 차단**
-  - **피싱, DMARC 실패, 가장 감지, 스푸핑 탐지, 피싱 탐지**
-  - **URL 감각이 포함된 검색, URL 감지(ATP)**
-  - **스팸이 아지 지 않습니다, 스팸**
-  - **악성이 아닌 이메일, ATP(안전한 링크 검색), ZAP**
+- **총 전자 메일**
+- **Edge 허용, 에지 필터링**
+- **맬웨어가 아오오고 ATP(안전한 첨부 파일 검색), 맬웨어 방지 엔진 검색, 규칙 차단**
+- **피싱, DMARC 실패, 가장 감지, 스푸핑 탐지, 피싱 탐지**
+- **URL 감각이 포함된 검색, URL 감지(ATP)**
+- **스팸이 아지 지 않습니다, 스팸**
+- **악성이 아닌 이메일, ATP(안전한 링크 검색), ZAP**
 
 차트에서 범주 위에 위로 가리면 해당 범주의 메시지 수를 볼 수 있습니다.
 
 데이터 테이블에는 내내의 날짜 순서대로 표시된 다음 정보가 포함됩니다.
 
-  - **날짜**  
-  - **총 전자 메일**
-  - **Edge 필터링됨**
-  - **맬웨어 방지 엔진, 안전한 첨부 파일, 규칙 필터링됨**
-  - **DMARC, 가장, 스푸핑, 피싱 필터링**
-  - **URL 감지**
-  - **스팸 방지 필터링됨**
-  - **ZAP 제거됨**
-  - **안전한 링크로 검색**
+- **날짜**
+- **총 전자 메일**
+- **Edge 필터링됨**
+- **맬웨어 방지 엔진, 안전한 첨부 파일, 규칙 필터링됨**
+- **DMARC, 가장, 스푸핑, 피싱 필터링**
+- **URL 감지**
+- **스팸 방지 필터링됨**
+- **ZAP 제거됨**
+- **안전한 링크로 검색**
 
 데이터 테이블에서 행을 선택하면 전자 메일 수에 대한 추가 분석이 플라이아웃에 표시됩니다.
 

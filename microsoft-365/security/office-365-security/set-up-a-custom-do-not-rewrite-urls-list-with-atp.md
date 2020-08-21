@@ -1,12 +1,12 @@
 ---
-title: ATP 안전한 링크를 사용 하 여 사용자 지정 쓰기 방지 Url 목록 설정
+title: ATP 안전한 링크를 사용하여 사용자 지정 문서 다시 작성 방지 URL 목록 설정
 f1.keywords:
 - NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.date: ''
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -18,81 +18,81 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Office 365 ATP 안전한 링크 정책의 사용자 그룹에 대 한 사용자 지정 차단 Url을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 17828566769f438439eebcb4e460ecac1147a648
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+description: Office 365 ATP 안전한 링크 정책에서 사용자 그룹에 대한 사용자 지정 차단URL 및 재작성 안 함 URL 목록을 설정방법을 알아봅니다.
+ms.openlocfilehash: 9ec9c92e038aee33c716405916df009e3f4c60c5
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46798333"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46825236"
 ---
-# <a name="set-up-a-custom-do-not-rewrite-urls-list-using-atp-safe-links"></a>ATP 안전한 링크를 사용 하 여 사용자 지정 쓰기 방지 Url 목록 설정
+# <a name="set-up-a-custom-do-not-rewrite-urls-list-using-atp-safe-links"></a>ATP 안전한 링크를 사용하여 사용자 지정 문서 다시 작성 방지 URL 목록 설정
 
 > [!IMPORTANT]
-> 이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)이 있는 비즈니스 고객을 대상으로 합니다. Outlook의 안전한 링크에 대 한 정보를 검색 하는 개인 사용자는 [Advanced Outlook.com security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하십시오.
+> 이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)이 있는 비즈니스 고객을 대상으로 합니다. Outlook의 안전한 링크에 대한 정보를 찾고 있는 홈 사용자는 고급 [연결 Outlook.com 감사를 참조하세요.](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)
 
-[Office 365 ATP (Advanced Threat Protection](office-365-atp.md) )를 사용 하는 경우 조직에 [사용자 지정 차단 된 url](set-up-a-custom-blocked-urls-list-atp.md)이 있을 수 있으며, 사용자가 전자 메일 메시지 또는 특정 Office 문서에서 웹 주소 (url)를 클릭할 때 이러한 url로 이동 하는 것이 방지 됩니다. 조직에서 조직의 특정 그룹에 대해 사용자 지정 "다시 쓰지 않음" 목록을 사용할 수도 있습니다. "다시 쓰지 않음" 목록을 사용 하면 일부 사용자가 [Office 365의 ATP 안전한 링크](atp-safe-links.md)에 의해 차단 되는 url을 방문할 수 있습니다.
+[Office 365 ATP(Advanced Threat Protection)를](office-365-atp.md) 사용하는 경우, 조직에서 사용자의 전자 메일 메시지나 특정 Office 문서에서 웹 주소(URL)를 클릭할 때 사용자가 해당 URL로 이동할 수 없는 등의 차단된 URL을 사용할 수 있습니다. [custom blocked URLs](set-up-a-custom-blocked-urls-list-atp.md) 또한 조직의 특정 그룹에 대해 사용자 지정 "재작성 안 함"목록을 포함할 수도 있습니다. "다시 쓰지 않음" 목록을 사용하면 일부 사용자가 [Office 365에서 ATP 안전한 링크를 통해 차단한 URL을 방문할 수 있습니다.](atp-safe-links.md)
 
-이 문서에서는 ATP 안전한 링크 검색에서 제외 되는 Url 목록과 몇 가지 중요 한 사항을 염두에 두고 있는지를 지정 하는 방법에 대해 설명 합니다.
+이 문서에서는 ATP 안전한 링크 검사에서 제외되는 URL 목록 및 고려해야 할 몇 가지 중요한 사항을 명시합니다.
 
 > [!NOTE]
-> 조직에서 안전한 링크 정책을 사용 하는 경우 타사 피싱 테스트에서는 "다시 쓰지 않음" 목록만 지원 되는 유일한 방법입니다.
+> 조직에서 안전 링크 정책을 사용하는 경우 타사 피싱 테스트에 "재작성 안 함" 목록만 지원됩니다.
 
-## <a name="set-up-a-do-not-rewrite-list"></a>"다시 쓰지 않음" 목록 설정
+## <a name="set-up-a-do-not-rewrite-list"></a>"재작성 안 함" 목록 설정
 
-ATP 안전한 링크 보호에서는 조직의 차단 된 Url 목록과 "다시 쓰지 않음" 목록 등 여러 목록을 사용 합니다. 필요한 사용 권한이 있는 경우 사용자 지정 "다시 쓰지 않음" 목록을 설정할 수 있습니다. 조직의 특정 받는 사람에 게 적용 되는 안전 링크 정책을 추가 하거나 편집할 때이 작업을 수행 합니다.
+ATP 안전한 링크 보호는 조직의 차단된 URL 목록과 예외를 위해 "재쓰지 않음" 목록 등의 여러 목록을 사용합니다. 필요한 권한이 있는 경우 사용자 지정 "다시 쓰지 않습니다"라는 목록을 설정할 수 있습니다. 이는 조직의 특정 받는 사람에게 적용되는 안전 링크 정책을 추가하거나 편집할 때 수행합니다.
 
-ATP 정책을 편집 하거나 정의 하려면 적절 한 역할을 할당 받아야 합니다. 다음 표에는 몇 가지 예가 나와 있습니다. 자세한 내용은 [Security & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
+ATP 정책을 편집하거나 정의하려면 적절한 역할을 할당해야 합니다. 다음 표에 몇 가지 예제가 나와 있습니다. 자세한 내용은 보안 서비스 [및 준수 센터의 사용 & 참조하십시오.](permissions-in-the-security-and-compliance-center.md)
 
-|역할|할당 된 위치/방법|
+|역할|할당된 위치/방법|
 |---|---|
-|전역 관리자|Microsoft 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) 를 참조 하세요.|
-|보안 관리자|Azure Active Directory 관리 센터 ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
-|Exchange Online 조직 관리|Exchange 관리 센터 ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)참조)|
+|전역 관리자|기본적으로 Microsoft 365를 시작하기 위해 등록하는 사람은 전역 관리자입니다. [(자세한 내용은 Microsoft 365 관리자 역할](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) 정보를 참조하세요.)|
+|보안 관리자|Azure Active Directory 관리 [https://aad.portal.azure.com](https://aad.portal.azure.com) 센터()|
+|Exchange Online 조직 관리|Exchange 관리 [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) 센터( <br>또는 <br>  PowerShell [cmdlet(Exchange Online PowerShell 참조)](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
 |
 
 > [!TIP]
-> 역할 및 사용 권한에 대 한 자세한 내용은 [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
+> 역할 및 사용 권한에 대한 자세한 내용은 보안 [센터의 보안 그룹& 참조하세요.](permissions-in-the-security-and-compliance-center.md)
 
-### <a name="to-view-or-edit-a-custom-do-not-rewrite-urls-list"></a>사용자 지정 "다시 쓰지 않음" Url 목록을 보거나 편집 하려면
+### <a name="to-view-or-edit-a-custom-do-not-rewrite-urls-list"></a>사용자 지정 "재작성 안 함" URL 목록을 보거나 편집하려면
 
-1. 으로 이동 하 여 [https://protection.office.com](https://protection.office.com) 회사 또는 학교 계정으로 로그인 합니다.
+1. 이동하여 [https://protection.office.com](https://protection.office.com) 회사 또는 학교 계정으로 로그인합니다.
 
-2. 왼쪽 탐색 창의 **위협 관리** \> **정책** \> **안전한 링크**아래에 있습니다.
+2. 왼쪽 탐색 창에 **위협 관리 정책** \> **안전** 링크 \> **아래.**
 
-3. **특정 받는 사람에 게 적용 되는 정책** 섹션에서 **새로** 만들기 (새로 만들기 단추를 더하기 기호 ()와 유사)를 선택 **+** 하 여 새 정책을 만듭니다. 또는 기존 정책을 편집할 수 있습니다.<br/>![특정 전자 메일 받는 사람에 대 한 안전한 링크 정책을 추가 하려면 새로 만들기를 선택 합니다.](../../media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
+3. 특정 받는 **사람에게 적용되는 정책** 섹션에서 새로 만들기(새 단추는 더하기 기호( )와 유사함)을 **New** **+** 선택하여 새 정책을 만듭니다. 또는 기존 정책을 편집할 수 있습니다.<br/>![새로 만들기 선택하여 특정 메일 받는 사람에 대한 안전 링크 정책 추가](../../media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
 
-4. 정책에 대 한 이름 및 설명을 지정 합니다.
+4. 정책의 이름과 설명을 지정합니다.
 
-5. Url **켜기** 는 사용자가 링크를 클릭할 때 알려진 악성 링크 목록에 대해 다시 작성 되 고 확인 됩니다.
+5. 따라서 **ON** 사용자가 링크를 클릭할 때 알려진 악성 링크 목록과 관련하여 URL이 다시 작성되고 확인됩니다.
 
-6. **다음 url을 다시 쓰지** 않음 구역에서 **올바른 url 입력** 상자를 선택 하 고 url을 입력 한 다음 더하기 기호 (+)를 선택 합니다.
+6. 다음 **URL을 다시 쓰지 않는 URL 섹션에서** 유효한 URL 입력 상자를 선택하고 **URL을** 입력한 후에 더하기 기호(+)를 선택합니다.
 
-7. **적용 대상** 섹션에서 **받는 사람**을 선택 하 고 정책에 포함할 그룹을 선택 합니다. **추가**를 선택한 다음 **확인**을 선택 합니다.
+7. 적용 **대상 섹션에서** 받는 **사람이 구성원인지**확인한 다음 정책에 포함할 그룹을 선택합니다. **추가를**선택한 후 확인을 **선택합니다.**
 
-8. Url 추가가 완료 되 면 화면의 오른쪽 아래 모서리에서 **저장**을 선택 합니다.
+8. When you are finished adding URLs, in the lower right corner of the screen, choose **Save**.
 
 > [!NOTE]
-> 조직의 차단 된 Url의 사용자 지정 목록을 검토 해야 합니다. [ATP 안전한 링크를 사용 하 여 차단 된 사용자 지정 url 목록 설정를](set-up-a-custom-blocked-urls-list-atp.md)참조 하세요.
+> 조직의 차단된 URL 목록을 검토해야 합니다. [ATP 안전한 링크를 사용하여 차단된 사용자 지정 URL 목록을 설정하는 방법을 참조하세요.](set-up-a-custom-blocked-urls-list-atp.md)
 
-## <a name="important-points-to-keep-in-mind"></a>염두에 두어야 할 중요 사항
+## <a name="important-points-to-keep-in-mind"></a>주의해야 할 중요 사항
 
-- "다시 쓰지 않음" 목록에서 지정 하는 Url은 지정 된 받는 사람에 대 한 ATP 안전한 링크 검색에서 제외 됩니다.
+- "다시 쓰지 않습니다"목록에 지정하는 URL은 지정된 받는 사람에 대한 ATP 안전한 링크 검사에서 제외됩니다.
 
-- 일반적으로 사용 되는 내부 Url을 "다시 쓰지 않음" 목록에 추가 하 여 사용자 환경을 개선 하는 것이 좋습니다. 예를 들어 비즈니스용 Skype 또는 Sharepoint와 같은 온-프레미스 서비스를 사용 하는 경우 해당 Url을 목록에 추가 하 여 검색에서 제외할 수 있습니다.
+- 사용자 환경을 개선하기 위해 일반적으로 사용되는 내부 URL을 "재작성 안 함" 목록에 추가하는 것이 좋습니다. 예를 들어 비즈니스용 Skype, Sharepoint 등의 온-프레미스 서비스가 있는 경우 목록에 해당 URL을 추가하여 검사에서 제외할 수 있습니다.
 
-- "다시 쓰지 않음" 목록에 이미 Url 목록이 있는 경우 해당 목록을 검토 하 고 와일드 카드를 적절 하 게 추가 해야 합니다. 예를 들어 기존 목록에 항목이 있는 경우 `https://contoso.com/a` 정책에 하위 경로를 포함 하려면 `https://contoso.com/a/b` 항목에 와일드 카드를 추가 하 여 표시 `https://contoso.com/a/*` 합니다.
+- "다시 쓰지 않는" 목록에 이미 URL 목록이 있는 경우 해당 목록을 검토하고 와일드카드를 적절히 추가해야 합니다. 예를 들어 기존 목록에 입력문자가 있고 정책에 하위 경로를 포함하려면 항목에 `https://contoso.com/a` `https://contoso.com/a/b` 와일드카드를 `https://contoso.com/a/*` 추가합니다.
 
-- ATP 안전한 링크 정책에 대 한 "다시 쓰지 않음" 목록을 지정 하는 경우 최대 3 개의 와일드 카드 ()를 포함할 수 있습니다 \* . 와일드 카드에 접두사 또는 하위 도메인이 명시적으로 포함 됩니다. 예를 들어 항목은 `contoso.com` `*.contoso.com/*` `*.contoso.com/*` 지정 된 도메인의 하위 도메인과 경로를 방문 하도록 허용 하므로와는 다릅니다.
+- ATP 안전한 링크 정책에 "재작성 안 함" 목록을 지정할 때는 최대 3개의 와일드카드()를 포함할 수 \* 있습니다. 와일드카드에는 접두사 또는 하위 도메인이 명시적으로 포함됩니다. 예를 들어, 사용자가 지정한 도메인의 하위 도메인 및 경로를 방문할 `contoso.com` `*.contoso.com/*` 수 `*.contoso.com/*` 있도록 하므로 항목이 같지 않습니다.
 
-다음 표에는 입력 가능한 항목과 해당 항목이 갖는 영향에 대 한 예가 나와 있습니다.
+다음 표에는 입력할 수 있는 항목과 입력 항목의 영향에 대한 예제가 나와 있습니다.
 
 ****
 
-|예제 항목|수행 하는 작업|
+|예제 항목|속성 기능|
 |---|---|
-|`contoso.com`|받는 사람이 하위 도메인 또는 경로를 제외 하 고 사이트를 방문할 수 있도록 허용 `https://contoso.com` 합니다.|
-|`*.contoso.com/*`|받는 사람이,, 또는 등의 도메인, 하위 도메인과 경로를 방문할 수 있습니다 `https://www.contoso.com` `https://www.contoso.com` `https://maps.contoso.com` `https://www.contoso.com/a` . <br/><br/> 이 항목은 `*contoso.com*` 다음과 같이 잠재적으로 사기성 사이트를 포함 하지 않기 때문에 기본적으로 더 좋습니다. `https://www.falsecontoso.com``https://www.false.contoso.completelyfalse.com`|
-|`https://contoso.com/a`|특정 받는 사람이 같은 사이트를 방문 하 되 하위 경로는 볼 수 `https://contoso.com/a` 없습니다. `https://contoso.com/a/b`|
-|`https://contoso.com/a/*`|특정 받는 사람이 같은 사이트와 같은 하위 경로를 방문할 수 있도록 허용 `https://contoso.com/a``https://contoso.com/a/b`|
+|`contoso.com`|받는 사람이 하위 도메인 또는 경로와 `https://contoso.com` 같은 사이트만 방문할 수 있습니다.|
+|`*.contoso.com/*`|받는 사람이 , 또는 와 같은 도메인, 하위 도메인 및 경로를 `https://www.contoso.com` `https://www.contoso.com` 방문할 `https://maps.contoso.com` 수 `https://www.contoso.com/a` 있습니다. <br/><br/> 이 항목은 사기성이 있는 사이트가 포함되어 있거나 같지 않을 때보다 `*contoso.com*` 본질적으로 더 `https://www.falsecontoso.com` 좋습니다. `https://www.false.contoso.completelyfalse.com`|
+|`https://contoso.com/a`|특정 받는 사람이 사이트(예: 하위 `https://contoso.com/a` 경로는 제외)를 방문할 수 있습니다. `https://contoso.com/a/b`|
+|`https://contoso.com/a/*`|특정 받는 사람이 사이트(예: `https://contoso.com/a``https://contoso.com/a/b`|
 |

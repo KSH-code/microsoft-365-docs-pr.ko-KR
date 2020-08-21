@@ -6,7 +6,7 @@ ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online Protection(EOP)에서 메시지에 추가한 헤더 필드에 대해 알아볼 수 있습니다. 이러한 헤더 필드는 메시지와 해당 메시지가 처리되는 방법에 대한 정보를 제공합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5073e0721e82e969dbeaa850cc38cb13100a7947
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 5400bdbc9d3eef0b8005619f9820a9e71b829a5a
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653428"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46825200"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Microsoft 365의 스팸 방지 메시지 헤더
 

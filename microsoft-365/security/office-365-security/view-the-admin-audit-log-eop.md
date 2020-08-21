@@ -7,99 +7,99 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
-description: 관리자는 독립 실행형 EOP (Exchange Online Protection)에서 관리자 감사 로그를 보고 검색 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 171f3ec531b232ca796232ab26caefbee8afc75c
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+description: 관리자는 독립 실행형 EOP(Exchange Online Protection)에서 관리자 감사 로그를 보고 검색하는 방법을 볼 수 있습니다.
+ms.openlocfilehash: 8890ab8f2f2db01ed6bd22657a9bea8f77b25d08
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653500"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46825080"
 ---
 # <a name="view-the-admin-audit-log-in-standalone-eop"></a>독립 실행형 EOP에서 관리자 감사 로그 보기
 
-Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protection) 조직에서는 EAC (Exchange 관리 센터) 또는 독립 실행형 EOP PowerShell을 사용 하 여 관리자 감사 로그의 항목을 검색 하 고 볼 수 있습니다.
+Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서는 EAC(Exchange 관리 센터) 또는 독립 실행형 EOP PowerShell을 사용하여 관리자 감사 로그의 항목을 검색하고 볼 수 있습니다.
 
-관리자 감사 로그에는 관리 권한이 할당 된 관리자 및 사용자가 수행 하는 독립 실행형 EOP PowerShell cmdlet을 기반으로 하는 특정 작업이 기록 됩니다. 관리자 감사 로그의 항목은 실행 된 cmdlet, 사용 된 매개 변수, cmdlet을 실행 한 사용자 및 영향을 받은 개체에 대 한 정보를 제공 합니다.
+관리자 감사 로그에는 관리자 및 관리 권한이 할당된 사용자가 수행하는 독립 실행형 EOP PowerShell cmdlet을 기준으로 특정 작업이 기록됩니다. 관리자 감사 로그의 항목은 실행된 cmdlet, 사용된 매개 변수, cmdlet을 실행한 사용자 및 영향을 받은 개체에 대한 정보를 제공합니다.
 
 > [!NOTE]
 >
-> - 관리자 감사 로깅은 기본적으로 사용 하도록 설정 되어 있으며 사용 하지 않도록 설정할 수 없습니다.
+> - 관리자 감사 로깅은 기본적으로 사용되며 이 기능은 사용하지 않도록 설정할 수 없습니다.
 >
-> - 관리자 감사 로그는 동사 **Get**, **Search**또는 **Test**로 시작 하는 cmdlet을 기반으로 작업을 기록 하지 않습니다.
+> - 관리자 감사 로그는 동사 **가져오기,** 검색 또는 테스트로 시작하는 cmdlet을 기반으로 **작업을 기록하지** **않습니다.**
 >
-> - 감사 로그 항목은 90 일 동안 유지 됩니다. 항목이 90 일 보다 오래 된 경우 삭제 됩니다.
+> - 감사 로그 항목은 90일 동안 유지됩니다. 항목이 90일보다 오래된 경우 삭제됩니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- Exchange 관리 센터를 열려면 [독립 실행형 EOP에서 exchange 관리 센터](exchange-admin-center-in-exchange-online-protection-eop.md)를 참조 하세요.
+- Exchange 관리 센터를 열려면 독립 실행형 [EOP의 Exchange 관리 센터를 참조하십시오.](exchange-admin-center-in-exchange-online-protection-eop.md)
 
 - 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
-- 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 특히 ComplianceManagement, OrganizationManagement (global admins) 및 SecurityAdministrator 역할 그룹에 할당 되는 감사 로그 또는 보기 전용 감사 로그 역할이 기본적으로 필요 합니다. 자세한 내용은 [권한 독립 실행형 EOP의 사용 권한을](feature-permissions-in-eop.md) 참조 하 고 [EAC를 사용 하 여 역할 그룹의 구성원 목록을 수정](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)합니다.
+- 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 특히 ComplianceManagement, OrganizationManagement(전역 관리자) 및 SecurityAdministrator 역할 그룹에 할당된 감사 로그 또는 보기 전용 감사 로그 역할이 필요합니다. 자세한 내용은 독립 [실행형 EOP의 사용 권한을 참조하고](feature-permissions-in-eop.md) [EAC를 사용하여 역할 그룹의 구성원 목록을 수정합니다.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
 
-- 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대 한 자세한 내용은 [Exchange Online에서 exchange 관리 센터에 대 한 바로 가기 키](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)를 참조 하십시오.
+- 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 [Exchange Online에서 Exchange 관리 센터에 대 한 바로 가기 키를 참조 하십시오.](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)
 
 > [!TIP]
-> 문제가 있습니까? [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) 포럼에서 도움을 요청 하세요.
+> 문제가 있나요? [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) 포럼에서 도움을 요청하세요.
 
-## <a name="use-the-eac-to-view-the-admin-audit-log"></a>EAC를 사용 하 여 관리자 감사 로그 보기
+## <a name="use-the-eac-to-view-the-admin-audit-log"></a>EAC를 사용하여 관리자 감사 로그 보기
 
-1. EAC에서 **규정 준수 관리** \> **감사**로 이동한 다음 **관리자 감사 로그 보고서 실행**을 선택 합니다.
+1. EAC에서 준수 관리 **감사로** \> **이동한 후**관리자 감사 로그 보고서 **실행을 선택합니다.**
 
-2. **관리자 역할 그룹에 대 한 변경 내용 검색** 페이지에서 **시작 날짜** 와 **끝 날짜** (기본 범위는 2 주 전)를 선택 하 고 **검색**을 선택 합니다. 다음 정보를 사용 하 여 지정 된 기간 동안 변경 된 모든 구성 내용을 표시 하 고 정렬할 수 있습니다.
+2. **열리는 관리자 역할 그룹의 변경** 내용 검색 페이지에서 시작 **날짜** 및 **종료 날짜(기본값은** 지나서 2주)를 선택한 다음 검색을 **선택합니다.** 지정된 기간 동안 적용된 모든 구성 변경 내용이 표시됩니다. 이러한 변경 내용은 다음 정보를 사용하여 정렬할 수 있습니다.
 
-   - **날짜**: 구성을 변경한 날짜와 시간입니다. 날짜와 시간은 UTC(협정 세계시) 형식으로 저장됩니다.
+   - **Date**: 구성이 변경된 날짜와 시간입니다. 날짜와 시간은 UTC(협정 세계시) 형식으로 저장됩니다.
 
-   - **Cmdlet**: 구성을 변경 하는 데 사용 된 cmdlet의 이름입니다.
+   - **cmdlet:** 구성을 변경하는 데 사용된 cmdlet의 이름입니다.
 
-   - **User**: 구성을 변경한 사용자의 사용자 계정 이름입니다.
+   - **사용자:** 구성을 변경한 사용자의 사용자 계정 이름입니다.
 
      여러 페이지에 항목이 5,000개까지 표시됩니다. 결과의 범위를 좁혀야 하는 경우 날짜 범위를 더 좁게 지정하세요. 개별 검색 결과를 선택하면 세부 정보 창에 다음 추가 정보가 표시됩니다.
 
-   - **수정한 개체**: cmdlet에 의해 수정 된 개체입니다.
+   - **개체 수정됨**: cmdlet에 의해 수정된 개체입니다.
 
-   - **Parameters (매개 변수: 값)**: 사용 된 cmdlet 매개 변수 및 매개 변수와 함께 지정 된 값
+   - **매개 변수(매개 변수:값):** 사용된 cmdlet 매개 변수 및 해당 매개 변수와 함께 지정된 값입니다.
 
 3. 특정 감사 로그 항목을 인쇄하려면 세부 정보 창의 **인쇄** 단추를 선택합니다.
 
-## <a name="use-standalone-eop-powershell-to-view-the-admin-audit-log"></a>독립 실행형 EOP PowerShell을 사용 하 여 관리자 감사 로그 보기
+## <a name="use-standalone-eop-powershell-to-view-the-admin-audit-log"></a>독립 실행형 EOP PowerShell을 사용하여 관리자 감사 로그 보기
 
-독립 실행형 EOP PowerShell을 사용 하 여 지정한 기준을 충족 하는 감사 로그 항목을 검색할 수 있습니다. 다음 구문을 사용합니다.
+독립 실행형 EOP PowerShell을 사용하여 지정하는 기준을 충족하는 감사 로그 항목을 검색할 수 있습니다. 다음 구문을 사용합니다.
 
 ```PowerShell
 Search-AdminAuditLog [-Cmdlets <Cmdlet1,Cmdlet2,...CmdletN>] [-Parameters <Parameter1,Parameter2,...ParameterN>] [-StartDate <UTCDateTime>] [-EndDate <UTCDateTime>] [-UserIds <"User1","User2",..."UserN">] [-ObjectIds <"Object1","Object2",..."ObjectN">] [-IsSuccess <$true | $false>]
 ```
 
-**참고**:
+**참고:**
 
-- _Parameters_ 매개 변수만 _cmdlet_ 매개 변수와 함께 사용할 수 있습니다.
+- _Parameters_ 매개 변수는 Cmdlet 매개 변수와 함께 _사용할 수_ 있습니다.
 
-- _ObjectIds_ 매개 변수는 cmdlet에 의해 수정 된 개체를 기준으로 결과를 필터링 합니다. 유효한 값은 감사 로그에서 개체가 표시 되는 방식에 따라 달라 집니다. 예시:
+- _ObjectIds 매개_ 변수는 cmdlet에 의해 수정된 개체별로 결과를 필터링합니다. 유효한 값은 감사 로그에 개체가 표시되는 방법에 따라 달라집니다. 예를 들면 다음과 같습니다.
 
   - 이름
-  - 정식 고유 이름 (예: contoso.com/Users/Akia Al-Zuhairi)
+  - 정식별 별이름(예: contoso.com/Users/Akia 알치기)입니다.
 
-  이 cmdlet에서는 다른 필터링 매개 변수를 사용 하 여 결과의 범위를 좁히고 관심이 있는 개체의 유형을 식별 해야 합니다.
+  이 cmdlet에서 다른 필터링 매개 변수를 사용하여 결과 범위를 좁히고 관심 있는 개체의 형식을 식별해야 할 수도 있습니다.
 
-- _UserIds_ 매개 변수는 변경 작업을 수행한 사용자 (cmdlet을 실행 한 사람) 별로 결과를 필터링 합니다.
+- _UserIds 매개_ 변수는 변경을 수행한 사용자(cmdlet을 실행한 사람)별로 결과를 필터링합니다.
 
-- 날짜/시간 값을 표준 시간대 없이 지정 하면 _date 및_ _EndDate_ 매개 변수의 경우 값은 utc (협정 세계시)를 사용 합니다. 이 매개 변수에 대한 날짜/시간값을 지정하려면 다음 옵션 중 하나를 사용하십시오.
+- _StartDate 및_ _EndDate_ 매개 변수에 대해 표준 시간대가 없는 날짜/시간 값을 지정하면 해당 값은 UTC(협정 세계시)로 표시됩니다. 이 매개 변수에 대한 날짜/시간값을 지정하려면 다음 옵션 중 하나를 사용하십시오.
 
   - UTC로 날짜/시간 값 지정. 예: "2016-05-06 14:30:00z"
 
-  - 날짜/시간 값을 현지 표준 시간대의 날짜/시간을 UTC로 변환 하는 수식으로 지정 합니다 (예:) `(Get-Date "5/6/2016 9:30 AM").ToUniversalTime()` . 자세한 내용은 [Get-Date](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/get-date)를 참조하세요.
+  - 로컬 표준 시간대의 날짜/시간을 UTC로 변환하는 수식으로 날짜/시간 값을 지정합니다. 예를 들면 다음과 `(Get-Date "5/6/2016 9:30 AM").ToUniversalTime()` 같습니다. 자세한 내용은 [Get-Date](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/get-date)를 참조하세요.
 
-- 이 cmdlet은 기본적으로 최대 1000 개의 로그 항목을 반환 합니다. _Resultsize_ 매개 변수를 사용 하 여 최대 25만 개의 로그 항목을 지정할 수 있습니다. 또는 값을 사용 `Unlimited` 하 여 모든 항목을 반환 합니다.
+- 이 cmdlet은 기본적으로 최대 1,000개의 로그 항목을 반환합니다. _ResultSize 매개 변수를_ 사용하여 최대 250,000개의 로그 항목을 지정할 수 있습니다. 또는 이 값을 사용하여 모든 `Unlimited` 항목을 반환할 수 있습니다.
 
 이 예에서는 다음 기준을 사용하여 모든 감사 로그 항목을 검색합니다.
 
-- **시작 날짜**: 8 월 4 일, 2019
-- **종료 날짜**: 2019 년 10 월 3 일
-- **Cmdlet**: 업데이트-RoleGroupMember
+- **시작 날짜:** 2019년 8월 4일
+- **종료 날짜:** 2019년 10월 3일
+- **Cmdlet:** Update-RoleGroupMember
 
 ```PowerShell
 Search-AdminAuditLog -Cmdlets Update-RoleGroupMember -StartDate (Get-Date "08/04/2019").ToUniversalTime() -EndDate (Get-Date "10/03/2019").ToUniversalTime()
@@ -109,7 +109,7 @@ Search-AdminAuditLog -Cmdlets Update-RoleGroupMember -StartDate (Get-Date "08/04
 
 ### <a name="view-details-of-audit-log-entries"></a>감사 로그 항목의 상세 정보 보기
 
-**Search-adminauditlog** cmdlet은이 항목의 뒷부분에 나오는 [감사 로그 내용](#audit-log-contents) 섹션에 설명 된 필드를 반환 합니다. Cmdlet에 의해 반환 된 필드 중 두 개의 필드, **Cmdletparameters** 및 **ModifiedProperties**에는 기본적으로 반환 되지 않는 추가 정보가 포함 됩니다.
+**Search-AdminAuditLog** cmdlet은 이 항목 뒷부분에 나오는 감사 로그 [콘텐츠 섹션에서 설명하는](#audit-log-contents) 필드를 반환합니다. cmdlet에 의해 반환된 필드 **중에서 CmdletParameters와** **ModifiedProperties의**두 필드에는 기본적으로 반환되지 않는 추가 정보가 포함됩니다.
 
 **CmdletParameters** 및 **ModifiedProperties** 필드의 콘텐츠를 보려면 다음 단계를 수행합니다.
 
@@ -119,7 +119,7 @@ Search-AdminAuditLog -Cmdlets Update-RoleGroupMember -StartDate (Get-Date "08/04
     $Results = Search-AdminAuditLog <search criteria>
     ```
 
-2. 각 감사 로그 항목은 변수에 배열 요소로 저장 됩니다 `$Results` . 배열 요소 인덱스를 지정하여 배열 요소를 선택할 수 있습니다. 배열 요소 인덱스는 첫 번째 배열 요소에 대해 0에서 시작합니다. 예를 들어, 인덱스가 4인 5번째 배열 요소를 검색하려면 다음 명령을 사용합니다.
+2. 각 감사 로그 항목은 변수에 배열 요소로 `$Results` 저장됩니다. 배열 요소 인덱스를 지정하여 배열 요소를 선택할 수 있습니다. 배열 요소 인덱스는 첫 번째 배열 요소에 대해 0에서 시작합니다. 예를 들어, 인덱스가 4인 5번째 배열 요소를 검색하려면 다음 명령을 사용합니다.
 
     ```PowerShell
     $Results[4]
@@ -134,7 +134,7 @@ Search-AdminAuditLog -Cmdlets Update-RoleGroupMember -StartDate (Get-Date "08/04
 
 4. 다른 로그 항목의 **CmdletParameters** 또는 **ModifiedParameters** 필드의 콘텐츠를 보려면 배열 요소 인덱스를 변경합니다.
 
-## <a name="audit-log-contents"></a>감사 로그 내용
+## <a name="audit-log-contents"></a>감사 로그 콘텐츠
 
 각 감사 로그 항목에는 다음 표에 설명된 정보가 포함되어 있습니다. 감사 로그에는 하나 이상의 감사 로그 항목이 포함되어 있습니다.
 
@@ -142,22 +142,22 @@ Search-AdminAuditLog -Cmdlets Update-RoleGroupMember -StartDate (Get-Date "08/04
 
 |필드|설명|
 |---|---|
-|`RunspaceId`|이 필드는 EOP에서 내부적으로 사용 합니다.|
-|`ObjectModified`|이 필드에는 필드에 지정 된 cmdlet에 의해 수정 된 개체가 포함 `CmdletName` 됩니다.|
-|`CmdletName`|이 필드에는 필드에 사용자가 실행 한 cmdlet의 이름이 포함 `Caller` 됩니다.|
-|`CmdletParameters`|이 필드에는 필드의 cmdlet을 실행할 때 지정한 매개 변수가 포함 `CmdletName` 됩니다. 또한 이 매개 변수로 지정된 값(있는 경우)은 이 필드에 저장되지만 기본 출력에서 표시되지 않습니다.|
-|`ModifiedProperties`|이 필드에는 필드에서 개체에 대해 수정 된 속성이 포함 되어 있습니다 `ObjectModified` . 또한 저장된 속성의 이전 값 및 새 값은 이 필드에 저장되지만 기본 출력에서 표시되지 않습니다.|
-|`Caller`|이 필드에는 필드에서 cmdlet을 실행 한 사용자의 사용자 계정이 포함 `CmdletName` 됩니다.|
-|`ExternalAccess`|이 필드는 EOP에서 내부적으로 사용 합니다.|
-|`Succeeded`|이 필드는 필드의 cmdlet이 성공적으로 실행 되었는지 여부를 지정 합니다 `CmdletName` . 값은 `True` 또는 `False` 입니다.|
-|`Error`|이 필드에는 필드의 cmdlet이 성공적으로 완료 되지 않은 경우 생성 되는 오류 메시지가 포함 됩니다 `CmdletName` .|
-|`RunDate`|이 필드에는 필드의 cmdlet을 실행 한 날짜와 시간이 포함 `CmdletName` 됩니다. 날짜와 시간은 UTC(협정 세계시) 형식으로 저장됩니다.|
-|`OriginatingServer`|이 필드는 필드에 지정 된 cmdlet이 실행 된 서버를 나타냅니다 `CmdletName` .|
-|`ClientIP`|이 필드는 EOP에서 내부적으로 사용 합니다.|
-|`SessionId`|이 필드는 EOP에서 내부적으로 사용 합니다.|
-|`AppId`|이 필드는 EOP에서 내부적으로 사용 합니다.|
-|`ClientAppId`|이 필드는 EOP에서 내부적으로 사용 합니다.|
-|`Identity`|이 필드는 EOP에서 내부적으로 사용 합니다.|
-|`IsValid`|이 필드는 EOP에서 내부적으로 사용 합니다.|
-|`ObjectState`|이 필드는 EOP에서 내부적으로 사용 합니다.|
+|`RunspaceId`|이 필드는 EOP에서 내부적으로 사용합니다.|
+|`ObjectModified`|이 필드에는 필드에 지정된 cmdlet에 의해 수정된 개체가 포함되어 `CmdletName` 있습니다.|
+|`CmdletName`|이 필드에는 필드의 사용자가 실행한 cmdlet 이름이 포함되어 `Caller` 있습니다.|
+|`CmdletParameters`|이 필드에는 필드의 cmdlet이 실행될 때 지정된 매개 변수가 `CmdletName` 포함되어 있습니다. 또한 이 매개 변수로 지정된 값(있는 경우)은 이 필드에 저장되지만 기본 출력에서 표시되지 않습니다.|
+|`ModifiedProperties`|이 필드에는 필드의 개체에서 수정한 속성이 포함되어 `ObjectModified` 있습니다. 또한 저장된 속성의 이전 값 및 새 값은 이 필드에 저장되지만 기본 출력에서 표시되지 않습니다.|
+|`Caller`|이 필드에는 필드의 cmdlet을 실행한 사용자의 사용자 계정이 포함되어 `CmdletName` 있습니다.|
+|`ExternalAccess`|이 필드는 EOP에서 내부적으로 사용합니다.|
+|`Succeeded`|이 필드는 필드의 cmdlet이 성공적으로 `CmdletName` 실행되었는지 여부를 지정합니다. 값은 다음 또는 `True` `False` 입니다.|
+|`Error`|이 필드에는 필드의 cmdlet이 성공적으로 완료되지 못한 `CmdletName` 경우 생성된 오류 메시지가 포함되어 있습니다.|
+|`RunDate`|이 필드에는 필드에서 cmdlet을 실행한 날짜 및 `CmdletName` 시간이 포함됩니다. 날짜와 시간은 UTC(협정 세계시) 형식으로 저장됩니다.|
+|`OriginatingServer`|이 필드는 필드에 지정된 cmdlet을 실행한 서버를 `CmdletName` 나타냅니다.|
+|`ClientIP`|이 필드는 EOP에서 내부적으로 사용합니다.|
+|`SessionId`|이 필드는 EOP에서 내부적으로 사용합니다.|
+|`AppId`|이 필드는 EOP에서 내부적으로 사용합니다.|
+|`ClientAppId`|이 필드는 EOP에서 내부적으로 사용합니다.|
+|`Identity`|이 필드는 EOP에서 내부적으로 사용합니다.|
+|`IsValid`|이 필드는 EOP에서 내부적으로 사용합니다.|
+|`ObjectState`|이 필드는 EOP에서 내부적으로 사용합니다.|
 |
