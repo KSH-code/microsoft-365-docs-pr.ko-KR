@@ -610,7 +610,7 @@
         - name: 위임된 액세스 파트너용 Windows PowerShell을 사용하여 클라이언트 테넌트에 도메인 추가
           href: add-a-domain-to-a-client-tenancy-with-windows-powershell-for-delegated-access-pe.md
         - name: 위임된 액세스 파트너용 원격 Windows PowerShell을 통해 Exchange Online에 연결
-          href: connect-to-exchange-online-tenants-with-remote-windows-powershell-for-delegated.md
+          href: 'https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell'
         - name: 위임된 액세스 파트너용 Windows PowerShell을 통해 고객 보고 데이터 검색
           href: retrieve-customer-tenant-reporting-data-with-windows-powershell-for-delegated-ac.md
     - name: Microsoft Teams 관리
