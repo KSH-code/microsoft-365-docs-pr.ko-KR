@@ -6,19 +6,19 @@ ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 보안 & 준수 센터에서 메시지 추적을 사용 하 여 메시지에 대 한 변경 내용을 확인할 수 있습니다.
-ms.openlocfilehash: 7c0b87b1bb882714692a04b857bfc054305dee8c
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: c6e1f8f9280c84ab6ff6a1572d902ed1d4d4caa3
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653644"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827054"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>보안 및 준수 센터의 메시지 추적
 
@@ -133,7 +133,7 @@ ms.locfileid: "46653644"
 
 - **향상 된 요약** 또는 **확장**: 이러한 보고서는 다운로드 가능한 CSV 파일로만 제공 되며 시간 범위: **이러한 사용자**에 **대**한 다음 필터링 옵션 중 **하나 이상이 필요 합니다.** 보낸 사람 또는 받는 사람 (예: @contoso .com)에 와일드 카드를 사용할 수 있습니다 \* . 향상 된 요약 보고서는 최대 5만 개의 결과를 반환 합니다. 확장 보고서가 최대 1000 개의 결과를 반환 합니다.
 
-**참고**:
+**참고:**
 
 - 향상 된 요약 및 확장 보고서는 아카이브된 메시지 추적 데이터를 사용 하 여 준비 되며, 보고서를 다운로드 하는 데 몇 시간이 걸릴 수 있습니다. 동시에 보고서 요청을 제출한 다른 관리자의 수에 따라 대기 요청이 처리 되기 시작 하기 전에 지연이 발생할 수도 있습니다.
 
@@ -369,7 +369,7 @@ ms.locfileid: "46653644"
 
 |값|설명|
 |---|---|
-|`AMA=SUM|v=1|` 또는 `AMA=EV|v=1`|메시지에 맬웨어가 포함된 것으로 확인되었습니다. `SUM`여러 엔진에서 맬웨어를 검색할 수 있음을 나타냅니다. `EV`특정 엔진에 의해 맬웨어가 검색 되었음을 나타냅니다. 맬웨어가 엔진에서 검색되면 후속 작업이 트리거됩니다.|
+|`AMA=SUM|v=1|` 또는 `AMA=EV|v=1`|메시지에 맬웨어가 포함된 것으로 확인되었습니다. `SUM` 여러 엔진에서 맬웨어를 검색할 수 있음을 나타냅니다. `EV` 특정 엔진에 의해 맬웨어가 검색 되었음을 나타냅니다. 맬웨어가 엔진에서 검색되면 후속 작업이 트리거됩니다.|
 |`Action=r`|메시지가 대체되었습니다.|
 |`Action=p`|메시지가 무시되었습니다.|
 |`Action=d`|메시지가 지연되었습니다.|
@@ -398,7 +398,7 @@ ms.locfileid: "46653644"
 |`ETR|ruleId=<guid>`|일치된 규칙 ID입니다.|
 |`St=<datetime>`|규칙 일치가 발생 한 날짜 및 시간 (UTC)입니다.|
 |`Action=<ActionDefinition>`|적용된 작업입니다. 사용 가능한 작업 목록은 [Mail flow rule actions In Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)을 참조 하십시오.|
-|`Mode=<Mode>`|규칙의 모드입니다. 유효한 값은 다음과 같습니다. <br/>* **적용**: 규칙에 대 한 모든 작업이 적용 됩니다. <br/>* **정책 설명이 있는 테스트:**: 모든 정책 설명 작업이 전송 되지만 다른 적용 작업은 실행 되지 않습니다. <br/>* **정책 설명이 없는 테스트**: 작업이 로그 파일에 나열 되지만 보낸 사람에 게 어떤 식으로도 알림이 제공 되지 않으며 적용 작업이 실행 되지 않습니다.|
+|`Mode=<Mode>`|규칙의 모드입니다. 유효한 값은 다음과 같습니다.<ul><li>**적용**: 규칙에 대한 모든 작업이 적용됩니다.</li><li>**정책 설명이 있는 테스트:**: 모든 정책 설명 작업이 전송 되지만 다른 적용 작업은 실행 되지 않습니다.</li><li>**정책 설명이 없는 테스트**: 작업이 로그 파일에 나열 되지만 보낸 사람에 게 어떤 식으로도 알림이 제공 되지 않으며 적용 작업이 실행 되지 않습니다.</li></ul>|
 |
 
 메일 흐름 규칙의 조건과 일치 하는 메시지에 대 한 **custom_data** 값의 예는 다음과 같습니다.

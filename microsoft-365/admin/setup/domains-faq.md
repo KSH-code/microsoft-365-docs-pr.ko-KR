@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: 도메인에 대 한 자세한 내용은 질문과 대답을 확인 하세요.
-ms.openlocfilehash: bb949dbd4e32bb62f10dfd0323df70697fdc5404
-ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
+ms.openlocfilehash: fe602c45059be1b273b7ebe3a11cd91adf89a479
+ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46804199"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845847"
 ---
 # <a name="domains-faq"></a>도메인 FAQ
 
@@ -52,7 +52,7 @@ ms.locfileid: "46804199"
 - [DNS 공급자가 특정 레코드 종류를 지원 하지 않으면 어떻게 되나요?](#what-happens-if-my-dns-provider-doesnt-support-certain-record-types)
 - [Microsoft 365에서 기본 도메인을 설정 하거나 변경 하려면 어떻게 하나요?](#how-do-i-set-or-change-the-default-domain-in-microsoft-365)
 - [사용자 지정 하위 도메인 또는 여러 도메인을 Microsoft 365에 추가할 수 있나요?](#can-i-add-custom-subdomains-or-multiple-domains-to-microsoft-365)
-- [도메인을 Microsoft 365에서 다른 호스트로 어떻게 전송 하나요?]
+- [도메인을 Microsoft 365에서 다른 호스트로 어떻게 전송 하나요?](#how-do-i-transfer-a-domain-from-microsoft-365-to-another-host)
 - ["Onmicrosoft.com" 도메인을 보유 하는 이유는 무엇 인가요?](#why-do-i-have-an-onmicrosoftcom-domain)
 - ["Onmicrosoft.de" 도메인을 보유 하는 이유는 무엇 인가요?](#why-do-i-have-an-onmicrosoftde-domain)
 - [비영리 또는 학력 상태를 확인 하려면 어떻게 해야 하나요?](#how-do-i-verify-my-nonprofit-or-education-status)
