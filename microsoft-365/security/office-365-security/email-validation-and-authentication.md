@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 search.appverid:
 - MET150
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: 관리자는 EOP(Exchange Online Protection)에서 전자 메일 인증(SPF, DKIM 및 DMARC)을 사용하여 스푸핑, 피싱 및 스팸이 방지되는 방법에 대해 알아봅니다.
-ms.openlocfilehash: c79a75f1ae520a0c4f885c923b4a56cdb0f7fb87
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: cc9489a258608080118e88bf1375e4d5f35f8c77
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209502"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826652"
 ---
 # <a name="email-authentication-in-eop"></a>EOP에서 전자 메일 인증
 
@@ -41,7 +41,7 @@ ms.locfileid: "44209502"
 
 ## <a name="use-email-authentication-to-help-prevent-spoofing"></a>스푸핑을 방지하는 데 도움이 되는 전자 메일 인증의 사용
 
-DMARC는 메시지에서 **보낸** 주소 (전자 메일 클라이언트에서 사용자에게 표시되는 보낸 사람의 전자 메일 주소)를 검사하여 스푸핑을 방지합니다. 또한 대상 전자 메일 조직은 전자 메일 도메인이 SPF 또는 DKIM을 통과했음을 확인할 수 있습니다. 즉, 도메인이 인증되었기 때문에 스푸핑되지 않았습니다. 
+DMARC는 메시지에서 **보낸** 주소 (전자 메일 클라이언트에서 사용자에게 표시되는 보낸 사람의 전자 메일 주소)를 검사하여 스푸핑을 방지합니다. 또한 대상 전자 메일 조직은 전자 메일 도메인이 SPF 또는 DKIM을 통과했음을 확인할 수 있습니다. 즉, 도메인이 인증되었기 때문에 스푸핑되지 않았습니다.
 
 그러나 전자 메일 인증(통칭하여 전자 메일 인증 정책이라고 함)에 대한 DNS의 SPF, DKIM 및 DMARC 레코드가 완전히 선택되는 문제가 발생합니다. 따라서 microsoft.com 및 skype.com과 같은 강력한 전자 메일 인증 정책을 사용하는 도메인은 스푸핑으로부터 보호되지만, 전자 메일 인증 정책을 약하게 게시하거나 전혀 정책을 게시하지 않는 도메인은 스푸핑의 주요 대상이 됩니다.
 
@@ -61,7 +61,7 @@ Microsoft의 일반 공지 사항을 확인하려면 [피싱의 세계 2장 - Mi
 
 SPF, DKIM 및 DMARC는 모두 유용하지만 메시지에 명시적인 인증 레코드가 없는 경우 충분한 인증 상태를 전달하지 못합니다. 따라서 Microsoft는 여러 개의 신호를 단일 값(_복합 인증_) 또는 간단하게 compauth로 결합하는 암시적 전자 메일 인증 알고리즘을 개발했습니다. Compauth 값은 메시지 머리글에서 **Authentication-Results** 헤더로 스탬프됩니다.
 
-> Authentication-Results:<br/>&nbsp;&nbsp;&nbsp;compauth=\<fail | pass | softpass | none\> reason=\<yyy\>
+> Authentication-Results:<br/>&nbsp;&nbsp;&nbsp;compauth=\<fail | pass | softpass | none\> 사유=\<yyy\>
 
 이러한 값은 [Authentication-results 메시지 헤더](anti-spam-message-headers.md#authentication-results-message-header)에서 설명됩니다.
 

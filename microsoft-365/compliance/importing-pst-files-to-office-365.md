@@ -20,12 +20,12 @@ ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 ms.custom:
 - seo-marvel-apr2020
 description: 보안 및 준수 센터에서 가져오기 서비스를 사용하여 전자 메일 데이터 (PST 파일)를 사용자 사서함에 대량으로 가져오는 방법에 대해 알아보세요.
-ms.openlocfilehash: fd369a8cde1284c19f9eb3cb38cf8bfe39dbc4ee
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 36cf04722b13f3d1033ddae54e32307497d9194b
+ms.sourcegitcommit: 37da941919036a714da42eaa039682ccbe0da670
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127163"
+ms.lasthandoff: 08/23/2020
+ms.locfileid: "46860735"
 ---
 # <a name="overview-of-importing-your-organizations-pst-files"></a>조직의 PST 파일을 가져오기 개요
 
@@ -146,7 +146,7 @@ PST 파일을 Microsoft 365 사서함으로 가져오려면 Exchange Online에�
   
  **네트워크 업로드는 어디에서 사용할 수 있나요?**
   
-네트워크 업로드는 현재 다음 지역에서 사용할 수 있습니다. 미국, 캐나다, 브라질, 영국, 프랑스, 독일, 유럽, 인도, 동아시아, 동남아시아, 일본, 대한민국, 호주, 아랍에미리트(UAE)입니다. 네트워크 업로드는 더 많은 지역에서 곧 사용할 수 있습니다.
+네트워크 업로드는 현재 다음 지역에서 사용할 수 있습니다. 미국, 캐나다, 브라질, 영국, 프랑스, 독일, 스위스, 노르웨이, 유럽, 인도, 동아시아, 동남아시아, 일본, 대한민국, 호주, 아랍에미리트(UAE)입니다. 네트워크 업로드는 더 많은 지역에서 곧 사용할 수 있습니다.
   
  **네트워크 업로드를 사용하여 PST 파일을 가져오는 경우 그 가격은 얼마인가요?**
   
