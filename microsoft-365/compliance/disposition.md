@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용 하 든, 구성 된 설정에 따라 콘텐츠를 자동으로 삭제할지 여부에 관계 없이 콘텐츠 삭제를 모니터링 하 고 관리 합니다.
-ms.openlocfilehash: 7548ab12b72aa75047caa373efe3e7c3eb7c5d31
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: e70160ef309ad421724f9ad40db0d7c6e00df136
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778538"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46867213"
 ---
 # <a name="disposition-of-content"></a>콘텐츠 처리
 
@@ -35,18 +35,14 @@ Microsoft 365 준수 센터의 **레코드 관리** 에서 **처리** 탭을 사
 
 ### <a name="permissions-for-disposition"></a>처리 권한
 
-Microsoft 365 준수 센터의 **처리** 탭에 성공적으로 액세스 하려면 사용자에 게 **처리 관리** 역할과 **보기 전용 감사 로그** 역할이 있어야 합니다. 기본 역할 그룹에 사용자를 추가 하는 것이 표준 조언 이지만,이 경우에는 이러한 두 역할이 포함 된 **처리 검토자** 라는 새 역할 그룹을 만들고 필요에 따라이 그룹에 사용자를 추가 하는 것이 좋습니다. 단일 역할 그룹을 사용 하면 관리 오버 헤드가 줄어들고 사용자가 필요한 사용 권한을 더 쉽게 사용할 수 있습니다.
+Microsoft 365 준수 센터의 **처리** 탭에 액세스 하려면 사용자에 게 **처리 관리** 관리자 역할이 있어야 합니다. 이 역할은 기본 관리자 역할 그룹, **준수 관리자** 및 **준수 데이터 관리자**에 게 포함 됩니다.
+
+사용자에 게이 필수 처리 관리 역할을 부여 하려면이를 기본 역할 그룹 중 하나에 추가 하거나 사용자 지정 역할 그룹 (예: "처리 검토자")을 만든 다음이 그룹에 처리 관리 역할을 부여 합니다.  
 
 > [!NOTE]
-> 전역 관리자 라도 **처리 관리** 역할을 부여 받아야 합니다. 따라서 global admins가 처리 탭에 액세스 해야 하는 경우 처리 **검토자** 역할 그룹의 구성원으로 사용 됩니다. 
+> 전역 관리자 라도 **처리 관리** 역할을 부여 받아야 합니다. 
 
-**보기 전용 감사 로그** 역할에 한정 됩니다.
-
-- 감사 로그를 검색 하는 데 사용 되는 기본 cmdlet은 Exchange Online cmdlet 이므로 보안 & 준수 센터의 **사용 권한** 페이지를 사용 하는 대신 [Exchange online의 exchange 관리 센터](https://docs.microsoft.com/Exchange/exchange-admin-center)를 사용 하 여 사용자에 게이 역할을 할당 해야 합니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)를 참조 하십시오.
-
-- Microsoft 365 그룹 ([이전의 Office 365 그룹](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601))은이 역할에 대해 지원 되지 않습니다. 대신 사용자 사서함, 메일 사용자 또는 메일 사용이 가능한 보안 그룹을 할당 합니다.
-
-사용자에 게 **처리 관리** 역할을 부여 하 고 새 **처리 검토자** 역할을 만드는 방법에 대 한 지침은 [사용자에 게 Office 365 보안 및 &amp; 준수 센터에](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)대 한 액세스 권한을 부여를 참조 하세요.
+[사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
 
 ### <a name="enable-auditing"></a>감사 사용
 
@@ -79,7 +75,7 @@ Microsoft 365 준수 센터의 **처리** 탭에 성공적으로 액세스 하�
 
 ![레코드 관리 개요에서 보류 중인 dispositions](../media/dispositions-overview.png)
 
-**보류 중인 모든 Dispositions 보기**를 선택 하면 **처리** 페이지로 이동 됩니다. 예를 들어,
+**보류 중인 모든 Dispositions 보기**를 선택 하면 **처리** 페이지로 이동 됩니다. 예시:
 
 ![Microsoft 365 준수 센터의 Dispositions 페이지](../media/disposition-tab.png)
 
@@ -128,7 +124,7 @@ Microsoft 365 준수 센터의 **처리** 탭에 성공적으로 액세스 하�
 >
 > Exchange의 레코드에 대 한 삭제 증명은 아직 활성화 되어 있지 않습니다. 이 롤아웃이 시작 되 고 완료 되 면이 참고 사항이 업데이트 됩니다.
 
-**레코드 관리** 페이지의 **처리** 탭을 사용 하 여 자동으로 삭제 되는 레코드를 식별 합니다. 이러한 항목은 **형식** 열에서 **삭제 된 레코드** 를 표시 합니다. 예를 들어,
+**레코드 관리** 페이지의 **처리** 탭을 사용 하 여 자동으로 삭제 되는 레코드를 식별 합니다. 이러한 항목은 **형식** 열에서 **삭제 된 레코드** 를 표시 합니다. 예시:
 
 ![처리 검토 없이 삭제 된 항목](../media/records-disposed2.png)
 

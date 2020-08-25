@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 생산성 점수 개요
-ms.openlocfilehash: a93ceef3833e1e55f6e3bb979fd93aa3d90ded37
-ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
+ms.openlocfilehash: 66ab028282fb8c74087713083e43e22cf6708897
+ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45101650"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868858"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Microsoft 생산성 점수 (미리 보기)
 
@@ -42,9 +42,9 @@ Microsoft는 다음과 같은 두 가지 분야에서 데이터, 통찰력 및 �
 
     사용자는 온라인으로 공동 작업을 하는 경우 시간을 절약 하기 때문에 이러한 정보를 제공 합니다. 모든 장치에서 자유롭게 작업할 수 있게 되 면 생산성과 만족도가 향상 됩니다. 융통성 있는 방식으로 통신할 수 있으면 보다 효율적이 고 양식의 관계가 향상 되며 조직이 보다 통합 됩니다. 증거는 [Forrester report](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf)를 참조 하십시오.
 
-- **기술 환경:** 생산성은 안정성 및 안정적인 기술과 Microsoft 365을 효율적으로 사용 하는 방식에 따라 달라 집니다. Microsoft는 장치 설치 및 시작 시간에 대 한 정보를 제공 하 고 사용자에 게 조직에 대해 마이크로소프트 365 네트워크 연결 정보를 제공할 수 있도록 하는 끝점 분석을 제공 합니다.
+- **기술 환경:** 생산성은 안정성 및 안정적인 기술과 Microsoft 365을 효율적으로 사용 하는 방식에 따라 달라 집니다. Microsoft는 끝점 [분석](https://aka.ms/endpointanalytics)을 제공 하며, 사용자의 생산성과 끝점 하드웨어 및 소프트웨어의 성능 및 상태 문제에 대 한 영향을 받을 수 있는 방법을 이해 하는 데 도움이 됩니다. 그리고 조직에 대해 Microsoft 365 네트워크 연결 통찰력을 제공 합니다.
 
-끝점 분석에 대 한 자세한 내용은 [네트워크 연결 개요](https://docs.microsoft.com/office365/enterprise/office-365-networking-overview)를 참조 하세요.
+개요 및 필수 구성 요소 세부 정보에 대 한 [끝점 분석 이란?](https://docs.microsoft.com/mem/analytics/overview) 를 참조 하세요. Microsoft 365 network connectivity insights에 대 한 자세한 내용은 [네트워크 연결 개요](https://docs.microsoft.com/office365/enterprise/office-365-networking-overview)를 참조 하세요.
   
 
 ## <a name="how-the-score-is-calculated"></a>점수가 계산 되는 방식

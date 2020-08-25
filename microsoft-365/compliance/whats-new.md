@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 준수 센터에 새로운 새 솔루션을 추가 하 고, 사용자 의견에 따라 기존 기능을 업데이트 하거나, 새로운 문서 및 업데이트 된 설명서를 롤아웃할 지 여부에 관계 없이 Microsoft 365에서는 지속적인 변경 준수 가로를 유지 하는 데 도움이 됩니다. 이번 달에 제공 된 내용을 확인 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9bccaab4c1dd1ac8b4676939d848c0f1a599d86b
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: 95b23ccdb272c9e91ee4c525fd90679c492efc9b
+ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46798178"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868975"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -97,8 +97,6 @@ SharePoint 또는 OneDrive의 콘텐츠를 보호 하는 DLP 정책을 설정할
 
 - 이제 ' 레코드 관리 ' 섹션을 준수 센터에서 모두 사용할 수 있습니다. 파일 계획, 보존 레이블 및 라벨 정책, 이벤트 및 폐기에 대 한 업데이트 된 사용자 인터페이스 및 기능을 활용 합니다.
 - 처리에 대해서는 SharePoint 및 OneDrive의 레코드에 대 한 [처리 증거](disposition.md#disposition-of-records) 를 제공 하기도 합니다. 이제 자동 또는 폐기 검토 후에 해당 위치에 있는 항목의 목록을 볼 수 있습니다.
-
-:::image type="content" source="../media/mcc-records-management-page.png" alt-text="Microsoft 365 준수 센터의 레코드 관리 섹션":::
 
 ### <a name="sensitivity-labels-preview-auto-labeling-policies"></a>민감도 레이블: 자동 레이블 지정 정책 미리 보기
 

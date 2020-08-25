@@ -19,18 +19,18 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: 16ee37b1c7bf33c902db35af2d29744f42830ea7
-ms.sourcegitcommit: 09a500a44d8723f8f2be87d9ad4ce7e453c5192b
+ms.openlocfilehash: bd5bf8533d38337c063acdf0dda073e4961e416a
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45094837"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46867248"
 ---
 # <a name="create-and-track-servicenow-tickets-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터에서 ServiceNow 티켓 만들기 및 추적
 
 [Microsoft 365 보안 센터](overview-security-center.md) 는 ServiceNow에서 티켓을 기본적으로 만들고 추적할 수 있도록 향상 되었습니다. [ServiceNow에 대해 자세히 알아보기](https://www.servicenow.com/)
 
-보안 센터에서 보안 관리자는 [Microsoft 보안 점수](microsoft-secure-score.md) 향상 작업을 ServiceNow로 직접 전송 하 고 티켓을 만들 수 있습니다. 인시던트 관리 및 변경 관리 티켓을 모두 만들 수 있습니다. 그런 다음 보안 센터 홈 페이지 및 ServiceNow에서 추적할 수 있습니다.
+보안 센터에서 보안 관리자는 [Microsoft 보안 점수](microsoft-secure-score.md) 향상 작업을 ServiceNow로 직접 전송 하 고 티켓을 만들 수 있습니다. 인시던트 관리 및 변경 관리 티켓을 모두 만들 수 있습니다. 보안 센터 홈 페이지 및 ServiceNow의 티켓을 추적 합니다.
 
 - [**필수 구성 요소, 데이터 교환 및 문제 해결 방법 알아보기**](tickets.md)
 - **준수 센터에서 ServiceNow 티켓 관리** (출시 예정)
@@ -46,15 +46,15 @@ Microsoft 365 보안 센터 홈 페이지로 이동 하 여 ServiceNow 연결 �
 > [!NOTE]
 > Microsoft 365 보안 센터와 ServiceNow 간의 연결에 권한을 부여 하기 전에 설치 단계에서 만든 통합 사용자 로그인 및 암호를 사용 해야 합니다. 개인 자격 증명은 사용 하지 마십시오.
 
-지침을 따르고 연결에 대 한 인증을 받은 후 Microsoft 365 보안 센터 연결 페이지와 ServiceNow Microsoft 365 티켓 커넥터 앱 환경에서 연결 상태를 확인 합니다. 이제 작업 만들기를 시작 하도록 설정 되었습니다.
+지침을 따르고 연결에 대 한 인증을 받은 후에는 Microsoft 365 보안 센터 연결 페이지 및 ServiceNow Microsoft 365 티켓 커넥터 앱 환경에서 연결 상태를 확인 합니다. 이제 작업 만들기를 시작 하도록 설정 되었습니다.
 
 ### <a name="troubleshooting"></a>문제 해결
 
-[문제 해결 섹션](tickets.md#troubleshooting)에서 연결 프로세스에서 발생할 수 있는 일반적인 오류 및이를 완화 하는 방법을 알아봅니다.
+연결 프로세스에서 발생할 수 있는 일반적인 오류 및 [문제 해결 섹션](tickets.md#troubleshooting)에서이를 완화 하는 방법에 대해 알아봅니다.
 
 ## <a name="create-a-task-and-share-it-to-servicenow"></a>작업 만들기 및 ServiceNow에 공유
 
-통합이 설정 되 면 특정 [Microsoft 보안 점수](microsoft-secure-score.md) 향상 작업을 기반으로 ServiceNow 작업을 만듭니다. Microsoft 365 보안 센터 포털의 보안 점수에 있는 개선 작업으로 이동한 후 **공유**를 선택 합니다. 드롭다운 옵션 중 하나는 ServiceNow입니다.
+통합이 설정 되 면 특정 [Microsoft 보안 점수](microsoft-secure-score.md) 향상 작업을 기반으로 ServiceNow 작업을 만듭니다. Microsoft 365 보안 센터의 보안 점수 향상 작업으로 이동한 후 **공유**를 선택 합니다. 드롭다운 옵션 중 하나는 ServiceNow입니다.
 
 우선 순위를 설정 하 고 이름, 설명 또는 기한을 편집할 수 있는 작업이 생성 됩니다. 필수 필드를 모두 입력 한 후에는 해당 작업을 ServiceNow로 보냅니다.
 

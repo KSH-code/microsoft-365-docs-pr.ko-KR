@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: d258bf3ec4c04eafd22e850329ca925b4c974e94
-ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
+ms.openlocfilehash: 12ac7d0a3d07749e16443e645f50de8fda185658
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086670"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46866782"
 ---
 # <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a>ServiceNow 티켓을 Microsoft 365 보안 센터 및 준수 센터에 통합
 
@@ -37,7 +37,7 @@ Microsoft는 IT 관리자가 두 플랫폼에서 모두 티켓과 작업을 보�
 - [**보안 센터에서 ServiceNow 티켓 관리**](tickets-security-center.md)
 - **준수 센터에서 ServiceNow 티켓 관리** (출시 예정)
 
-## <a name="prerequisites"></a>전제 조건
+## <a name="prerequisites"></a>필수 구성 요소
 
 다음을 포함 하는 Microsoft 365 보안 센터 또는 준수 센터 및 ServiceNow 인스턴스에 대 한 액세스 권한이 있어야 합니다.  
 
@@ -76,7 +76,7 @@ Microsoft 365 보안 센터 또는 준수 센터에서 ServiceNow 티켓을 만�
 
 **오류 메시지**: 테이블의 범위 간 액세스 정책으로 인해 ' x_mioms_m365ticket ' 범위에서 ' oauth_entity '에 대 한 읽기 작업이 거부 되었습니다.
 
-이 앱에서는 ServiceNow 인스턴스의 관리자가 OAuth 엔터티를 만들고 읽을 수 있다고 가정 합니다. 이 오류는 ServiceNow 인스턴스의 사용자 지정으로 인해 OAuth 엔터티를 만들거나 읽을 수 있는 사용자를 제한 하는 경우에 발생할 수 있습니다.
+이 앱에서는 ServiceNow 인스턴스의 관리자가 OAuth 엔터티를 만들고 읽을 수 있다고 가정 합니다. 이 오류는 ServiceNow 인스턴스에서 OAuth 엔터티를 만들거나 읽을 수 있는 사람을 제한 하는 사용자 지정으로 인해 발생할 수 있습니다.
 
 **ServiceNow에서는 사용자가 기본 기능을 유지 하는 것이 좋습니다.**
 
@@ -89,17 +89,17 @@ Microsoft 365 보안 센터 또는 준수 센터에서 ServiceNow 티켓을 만�
 
 ### <a name="how-to-validate-the-oauth-entity-created-for-microsoft-365-security--compliance-connector"></a>Microsoft 365 보안 & 준수 커넥터에 대해 만들어진 OAuth 엔터티를 확인 하는 방법
 
-ServiceNow에서 응용 프로그램 레지스트리 (**Menu > System OAuth > Application Registry**)로 이동 하 여 사용자가 만든 OAuth 엔터티를 할당 한 이름을 사용 하 여 찾습니다.
+ServiceNow의 응용 프로그램 레지스트리 (**Menu > System OAuth > Application Registry**)로 이동 합니다. 자신에 게 할당 한 이름을 사용 하 여 만든 OAuth 엔터티를 찾습니다.
 
-### <a name="logging-in-as-the-integration-user"></a>통합 사용자로 로그인
+### <a name="signing-in-as-the-integration-user"></a>통합 사용자로 로그인
 
-Microsoft 365 보안 센터와 ServiceNow 간의 연결에 권한을 부여 하기 전에 설치 단계에서 만든 통합 사용자 로그인 및 암호를 사용 해야 합니다. 개인 자격 증명은 사용 하지 마십시오.
+Microsoft 365 보안 센터와 ServiceNow 간의 연결에 권한을 부여 하기 전에 설치 단계에서 만든 통합 사용자 로그인 및 암호를 사용 해야 합니다. 개인 자격 증명은 사용 하지 마세요.
 
 1. ServiceNow의 인증 페이지로 이동 합니다.
-2. 개인 자격 증명으로 로그인 한 경우 오른쪽 위 모서리에서 링크 **하지 않음** 을 선택 합니다.
+2. 개인 자격 증명을 사용 하 여 로그인 한 경우 오른쪽 위 모서리에서 링크 **하지 않음** 을 선택 합니다.
 3. 설치 검사 목록에서 이전에 만든 통합 사용자로 ServiceNow에 로그인 합니다.  
 4. ServiceNow 페이지에서 보안 + 준수 커넥터가 ServiceNow 계정에 연결할 수 있는지 여부를 묻는 **허용** 을 선택 합니다.
-5. 설정 단계를 진행 합니다.
+5. 설정 단계를 계속 합니다.
 
 ### <a name="how-to-validate-the-integration-user-created-with-the-installation-checklist-for-microsoft-365-security--compliance-connector"></a>Microsoft 365 보안 & 준수 커넥터에 대 한 설치 검사 목록을 사용 하 여 만든 통합 사용자의 유효성을 검사 하는 방법
 
@@ -109,18 +109,18 @@ ServiceNow에서 사용자 **> 관리 > 사용자**로 이동 하 고 자신에 
 
 회사에서 single sign-on을 사용 하도록 설정 하 고 오류가 수신 되거나 로그인이 실패 하면 두 솔루션 중 하나를 수행 합니다.
 
-#### <a name="log-into-servicenow-as-the-integration-user"></a>통합 사용자로 ServiceNow 로그인
+#### <a name="sign-in-to-servicenow-as-the-integration-user"></a>통합 사용자로 ServiceNow에 로그인
 
 1. ServiceNow에서 인증 페이지로 다시 이동 합니다.
 2. 오른쪽 위 모서리에서 링크 **하지 않음** 을 선택 합니다.
 3. 설치 검사 목록에서 이전에 만든 통합 사용자로 ServiceNow에 로그인 합니다.  
 4. ServiceNow 페이지에서 보안 + 준수 커넥터가 ServiceNow 계정에 연결할 수 있는지 여부를 묻는 **허용** 을 선택 합니다.
-5. 설정 단계를 진행 합니다.
+5. 설정 단계를 계속 합니다.
 
 #### <a name="create-a-security-admin-user"></a>보안 관리자 사용자 만들기
 
 1. Azure Active Directory에서 보안 관리자 권한을 가진 사용자를 만듭니다. 사용자는 설치 검사 목록에서 만든 통합 사용자와 이름 및 전자 메일 주소를 모두 사용 해야 합니다. 로그인 및 연결이 완료 되 면 보안 관리자 역할을 제거할 수 있습니다.
-2. 이 사용자로 Microsoft 365 보안 센터에 로그인 하 고 설치 단계를 따릅니다.
+2. 이 사용자로 Microsoft 365 보안 센터에 로그인 하 고 설정 단계를 따릅니다.
 
 ### <a name="ip-filtering"></a>IP 필터링
 

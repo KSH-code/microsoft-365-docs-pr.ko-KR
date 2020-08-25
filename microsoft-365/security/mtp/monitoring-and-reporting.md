@@ -15,18 +15,18 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 987f3a60b514874bd970b93bdcc2c08832345b4b
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 90d9fcc45e768abd5fddef948fcafdaf9e77f5fb
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033989"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46866722"
 ---
 # <a name="monitor-and-view-reports-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터에서 보고서 모니터링 및 보기
 
-Microsoft 365 보안 센터에서는 Microsoft 365 환경 전반의 보호 및 보안 상태에 대 한 요약 정보를 제공 합니다.
+Microsoft 365 보안 센터에서는 Microsoft 365 환경 전체의 보호 및 보안 상태에 대 한 요약을 제공 합니다.
 
-보안 센터에는 보안 분석가와 관리자가 일상 작업의 일부로 추적 하는 다양 한 영역을 다루는 카드 호스트가 포함 되는 **보고서** 섹션이 있습니다. 드릴 다운 시 카드는 자세한 보고서와 경우에 따라 관리 옵션을 제공 합니다.
+보안 센터에는 다양 한 영역을 다루는 카드 호스트를 포함 하는 **보고서** 섹션이 있습니다. 보안 분석가와 관리자는 일상 작업의 일부로 카드를 추적할 수 있습니다. 드릴 다운 시 카드는 자세한 보고서와 경우에 따라 관리 옵션을 제공 합니다.
 
 ## <a name="customize-views"></a>보기 사용자 지정
 
@@ -37,7 +37,7 @@ Microsoft 365 보안 센터에서는 Microsoft 365 환경 전반의 보호 및 �
 * [장치](monitor-devices.md) -컴퓨터, 휴대폰 및 기타 장치
 * [앱](monitor-apps.md) -프로그램 및 연결 된 온라인 서비스
 
-그룹화 방법 **항목**으로 전환 하 여 카드를 다시 정렬 하 고 다음으로 그룹화 합니다.
+그룹화 방법 **항목**으로 전환 하 여 카드를 다시 정렬 하 고 다음 항목으로 그룹화 합니다.
 
 * **위험** -계정 및 장치와 같이 위험에 노출 될 수 있는 엔터티를 강조 표시 하는 카드입니다. 이러한 카드는 새 위협 캠페인 및 권한이 부여 된 클라우드 앱과 같은 가능한 위험 출처를 강조 합니다.  
 * **검색 경향** -새로운 위협 감지, 예외 및 정책 위반을 강조 표시 하는 카드

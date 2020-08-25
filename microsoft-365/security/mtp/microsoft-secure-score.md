@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 862a25eddda6048349df937641914377cb25874f
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 304967a06c1fec2df6968f12be30ef3001fdb762
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45200041"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46866874"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft 보안 점수
 
@@ -45,9 +45,15 @@ Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 
 
 ## <a name="how-it-works"></a>작업 방법
 
-권장 되는 보안 기능을 구성 하 고, 보안 관련 작업을 수행 하거나, 타사 응용 프로그램 또는 소프트웨어를 사용 하 여 개선 작업을 처리 하거나, 대체 문제를 해결 하기 위한 사항이 제공 됩니다. 일부 향상 작업은 완전히 완료 된 경우에만 점수를 제공 하며 일부 장치 또는 사용자에 대해 완료 되 면 일부를 부분 포인트로 지정 합니다. 개선 작업 중 하나를 규정 하지 않으려는 경우 위험 또는 남은 위험을 수락 하도록 선택할 수 있습니다.
+다음 작업에 대 한 점수가 제공 됩니다.
 
-지원 되는 Microsoft 제품 중 하나에 대 한 라이선스가 있는 경우 해당 제품에 대 한 추천을 볼 수 있습니다. 라이선스 버전, 구독 또는 계획에 관계 없이 제품에 대 한 모든 향상 된 기능을 확인할 수 있으므로, 보안 모범 사례를 이해 하 고 점수를 높일 수도 있습니다. 절대 보안 고 지는 조직이 특정 제품에 대해 소유한 라이선스에 관계 없이 동일 하 게 유지 되는 보안 점수로 표시 됩니다. 보안은 유용성과 균형을 유지 해야 하며 모든 권장 사항이 환경에 적합 한 것은 아닙니다.
+- 권장 보안 기능 구성
+- 보안 관련 작업 수행
+- 타사 응용 프로그램 또는 소프트웨어를 사용 하 여 개선 된 작업 처리 또는 대체 문제 해결
+
+일부 향상 작업은 완전히 완료 된 경우에만 점수를 제공 합니다. 일부 장치 또는 사용자에 대해 완료 되는 경우 부분 점수를 제공 합니다. 개선 작업 중 하나를 규정 하지 않으려는 경우 위험 또는 남은 위험을 허용 하도록 선택할 수 있습니다.
+
+지원 되는 Microsoft 제품 중 하나에 대 한 라이선스가 있는 경우 해당 제품에 대 한 추천을 볼 수 있습니다. 라이선스 버전, 구독 또는 계획에 관계 없이 제품에 대 한 모든 향상 된 기능을 볼 수 있습니다. 이러한 방식으로 보안 모범 사례를 이해 하 고 점수를 높일 수 있습니다. 보안 점수가 나타내는 절대 보안 상태는 조직이 특정 제품에 대해 소유한 라이선스에 관계 없이 동일 합니다. 보안은 유용성과 균형을 유지 해야 하며 모든 권장 사항이 환경에 적합 한 것은 아닙니다.
 
 점수가 실시간으로 업데이트 되어 시각화 및 향상 작업 페이지에 제공 된 정보를 반영 합니다. 또한 보안 점수가 매일 동기화 되어 각 작업에 대 한 시스템 데이터를 수신 합니다.
 
@@ -61,11 +67,13 @@ Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 
 
 ### <a name="how-improvement-actions-are-scored"></a>개선 작업의 점수를 획득 하는 방법
 
-각 향상 작업은 10 점 이내에 가치가 있습니다. 대부분은 이진 방식으로 점수가 지정 되며, 새 정책 만들기 또는 특정 설정을 사용 하는 것과 같은 개선 작업을 구현 하는 경우에는 점수가 100% 인 점수를 얻을 수 있습니다. 다른 향상 작업의 경우 점수는 전체 구성에 대 한 비율로 제공 됩니다. 예를 들어, 향상 작업에 다단계 인증을 사용 하 여 모든 사용자를 보호 하 여 10 점을 확보 하 고 100 명의 총 사용자 50만 보호 하는 경우에는 5 개 점수 (50 protected/100 total * 10 max points = 5 포인트의 부분적인 점수)가 제공 됩니다.
+각 향상 작업은 10 포인트이 하에 해당 되며 대부분의 경우 이진 방식으로 점수가 계산 됩니다. 새 정책 만들기 또는 특정 설정 켜기와 같은 개선 작업을 구현 하는 경우에는 점수가 100% 인 점수를 얻을 수 있습니다. 다른 향상 작업의 경우 점수는 전체 구성에 대 한 비율로 제공 됩니다.
+
+예를 들어, 향상 작업의 경우 다단계 인증을 사용 하 여 모든 사용자를 보호 하 여 10 점을 얻게 됩니다. 50 100의 전체 사용자는 보호 되어 있으며, 5 포인트의 부분 점수를 얻을 수 있습니다 (50 protected/100 total * 10 최대 포인트 = 5 pt).
 
 ### <a name="products-included-in-secure-score"></a>안전한 점수에 포함 된 제품
 
-현재 Microsoft 365 (Exchange Online 포함), Azure AD, Microsoft Defender ATP, Azure ATP 및 Cloud App Security에 대 한 권장 사항이 있습니다. 다른 보안 제품에 대 한 권장 사항은 곧 제공 될 예정입니다. 권장 사항은 각 제품과 연결 된 모든 공격 표면을 다루지는 않지만 좋은 기준이 됩니다. 또한 제 3 자 또는 다른 완화 조치로 인 한 향상 작업을 표시할 수도 있습니다.
+현재 Microsoft 365 (Exchange Online 포함), Azure Active Directory, Microsoft Defender ATP, Azure ATP 및 Cloud App Security에 대 한 권장 사항이 있습니다. 다른 보안 제품에 대 한 권장 사항은 곧 제공 될 예정입니다. 이 권장 사항은 각 제품과 연결 된 모든 공격 표면을 포괄 하는 것이 좋지만 좋은 기준이 됩니다. 또한 제 3 자 또는 다른 완화 조치로 인 한 향상 작업을 표시할 수도 있습니다.
 
 ### <a name="security-defaults"></a>보안 기본값
 
@@ -107,15 +115,15 @@ Microsoft 보안 점수에 액세스할 수 있는 권한을 부여 하려면 Az
 
 ## <a name="risk-awareness"></a>위험 인식
 
-Microsoft 보안 점수는 시스템 구성, 사용자 동작 및 기타 보안 관련 측정값을 기반으로 한 보안 환경을 나타내는 수치 요약입니다. 시스템 또는 데이터를 얼마나 많이 침해 해야 하는지 절대 측정 한 것은 아닙니다. 대신 Microsoft 환경에서 보안 제어를 채택 하는 범위를 나타내므로 위반 위험을 상쇄 하는 데 도움이 될 수 있습니다. 보안 침해에의 한 온라인 서비스에는 전혀 문제가 되지 않으며 보안 점수가 보안상 침해에 대 한 보장으로 해석 되어서는 안 됩니다.
+Microsoft 보안 점수는 시스템 구성, 사용자 동작 및 기타 보안 관련 측정값을 기반으로 한 보안 상태에 대 한 수치 요약입니다. 시스템 또는 데이터를 얼마나 많이 침해 해야 하는지 절대 측정 한 것은 아닙니다. 대신 Microsoft 환경에서 보안 제어를 채택 하는 범위를 나타내므로 침해 위험을 상쇄 하는 데 도움이 될 수 있습니다. 보안 침해에의 한 온라인 서비스에는 아무런 제한이 없으며 보안 점수가 보안상 침해에 대 한 보장으로 해석 되지 않습니다.
 
 ## <a name="we-want-to-hear-from-you"></a>사용자의 의견을 듣고 싶습니다.
 
-문제가 있는 경우 [보안, 개인 정보 & 준수](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) 커뮤니티에서 게시할 때 알려주십시오. 당사는 커뮤니티를 모니터링 하 고 도움이 될 것입니다.
+문제가 있는 경우 [보안, 개인 정보 & 준수](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) 커뮤니티에 게시 하 여 알려 주세요. 당사는 커뮤니티를 모니터링 하 고 도움이 될 것입니다.
 
 ## <a name="related-resources"></a>관련 리소스
 
-- [보안 환경을 평가 합니다.](microsoft-secure-score-improvement-actions.md)
+- [보안 상태 평가](microsoft-secure-score-improvement-actions.md)
 - [Microsoft 보안 점수 기록 및 목표를 충족 하는 추적](microsoft-secure-score-history-metrics-trends.md)
 - [향후 계획](microsoft-secure-score-whats-coming.md)
 - [새로운 기능](microsoft-secure-score-whats-new.md)
