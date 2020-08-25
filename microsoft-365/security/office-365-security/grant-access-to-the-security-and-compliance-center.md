@@ -17,79 +17,73 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
-description: 사용자는 Microsoft 365 보안 및 규정 준수 & Microsoft 365 보안 정책에서 권한을 할당 받아야만 해당 보안 또는 규정 준수 기능을 관리할 수 있습니다.
+description: 사용자에 게 Microsoft 365 보안 & 준수 센터에서 해당 보안 또는 규정 준수 기능을 관리할 수 있는 권한을 할당 해야 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d21fef9458c02bd09d6d5ce2129b95571e0f8371
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: b51007221257b9adac46c31295e13b20b12342ab
+ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826604"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868924"
 ---
-# <a name="give-users-access-to-the-security--compliance-center"></a><span data-ttu-id="a16fe-103">사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여</span><span class="sxs-lookup"><span data-stu-id="a16fe-103">Give users access to the Security & Compliance Center</span></span>
+# <a name="give-users-access-to-the-security--compliance-center"></a><span data-ttu-id="d3bb4-103">사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여</span><span class="sxs-lookup"><span data-stu-id="d3bb4-103">Give users access to the Security & Compliance Center</span></span>
 
-<span data-ttu-id="a16fe-104">사용자는 보안 또는 규정 준수 기능을 & 보안 센터에서 권한을 할당 받아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a16fe-104">Users need to be assigned permissions in the Security & Compliance Center before they can manage any of its security or compliance features.</span></span> <span data-ttu-id="a16fe-105">보안 그룹 준수 센터에서 OrganizationManagement 역할 그룹의 전역 관리자 또는 & 사용자에게 이러한 사용 권한을 부여할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a16fe-105">As a global admin or member of the OrganizationManagement role group in the Security & Compliance Center, you can give these permissions to users.</span></span> <span data-ttu-id="a16fe-106">사용자는 액세스 권한을 부여 받은 보안 또는 규정 준수 기능만 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a16fe-106">Users will only be able to manage the security or compliance features that you give them access to.</span></span>
+<span data-ttu-id="d3bb4-104">사용자에 게 보안 또는 규정 준수 기능을 관리 하려면 먼저 Security & 준수 센터에서 사용 권한을 할당 받아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d3bb4-104">Users need to be assigned permissions in the Security & Compliance Center before they can manage any of its security or compliance features.</span></span> <span data-ttu-id="d3bb4-105">보안 & 준수 센터에 있는 전역 관리자 또는 OrganizationManagement 역할 그룹의 구성원 인 사용자에 게 이러한 사용 권한을 부여할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d3bb4-105">As a global admin or member of the OrganizationManagement role group in the Security & Compliance Center, you can give these permissions to users.</span></span> <span data-ttu-id="d3bb4-106">사용자는 액세스 권한을 부여 받은 보안 또는 규정 준수 기능만 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d3bb4-106">Users will only be able to manage the security or compliance features that you give them access to.</span></span>
 
-<span data-ttu-id="a16fe-107">보안 대시보드 준수 센터에서 사용자에게 부여할 수 있는 다양한 권한에 & 대한 자세한 내용은 보안 정책 [준수 센터에서 사용 권한을 & 확인하십시오.](permissions-in-the-security-and-compliance-center.md)</span><span class="sxs-lookup"><span data-stu-id="a16fe-107">For more information about the different permissions you can give to users in the Security & Compliance Center, check out [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span>
+<span data-ttu-id="d3bb4-107">보안 & 준수 센터에서 사용자에 게 부여할 수 있는 다양 한 사용 권한에 대 한 자세한 내용은 [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="d3bb4-107">For more information about the different permissions you can give to users in the Security & Compliance Center, check out [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span>
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="a16fe-108">시작하기 전에 알아야 할 내용은 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="a16fe-108">What do you need to know before you begin?</span></span>
+## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="d3bb4-108">시작하기 전에 알아야 할 내용은 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="d3bb4-108">What do you need to know before you begin?</span></span>
 
-- <span data-ttu-id="a16fe-109">이 문서의 단계를 완료하려면 보안 & 관리 센터에서 OrganizationManagement 역할 그룹의 구성원이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a16fe-109">You need to be a global admin, or a member of the OrganizationManagement role group in the Security & Compliance Center, to complete the steps in this article.</span></span>
+- <span data-ttu-id="d3bb4-109">이 문서의 단계를 완료 하려면 전역 관리자 이거나 보안 & 준수 센터에서 OrganizationManagement 역할 그룹의 구성원 이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d3bb4-109">You need to be a global admin, or a member of the OrganizationManagement role group in the Security & Compliance Center, to complete the steps in this article.</span></span>
 
-- <span data-ttu-id="a16fe-110">보안 그룹 규정 준수 센터의 & 그룹은 Exchange Online의 역할 그룹과 이름이 비슷할 수 있지만 같은 그렇지는 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a16fe-110">Role groups for the Security & Compliance Center might have similar names to the role groups in Exchange Online, but they're not the same.</span></span>
+- <span data-ttu-id="d3bb4-110">보안 & 준수 센터의 역할 그룹은 Exchange Online의 역할 그룹과 유사한 이름을 사용할 수 있지만 동일 하지는 않습니다.</span><span class="sxs-lookup"><span data-stu-id="d3bb4-110">Role groups for the Security & Compliance Center might have similar names to the role groups in Exchange Online, but they're not the same.</span></span>
 
-- <span data-ttu-id="a16fe-111">역할 그룹 구성원은 Exchange Online과 준수 센터의 보안 서비스 & 공유되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a16fe-111">Role group memberships aren't shared between Exchange Online and the Security & Compliance Center.</span></span>
+- <span data-ttu-id="d3bb4-111">역할 그룹 구성원 자격은 Exchange Online과 보안 & 준수 센터 간에 공유 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="d3bb4-111">Role group memberships aren't shared between Exchange Online and the Security & Compliance Center.</span></span>
 
-- <span data-ttu-id="a16fe-112">AOBO(관리<token>Exister On Behalf Of) 권한이 있는 DAP(위임된 액세스 권한) 파트너는 Security &amp; 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a16fe-112">Delegated Access Permission (DAP) partners with Administer On Behalf Of (AOBO) permissions can't access the Security & Compliance Center.</span></span>
+- <span data-ttu-id="d3bb4-112">(AOBO) 권한이 있는 DAP (위임 된 액세스 권한) 사용 권한을 사용 하는 경우에는 보안 & 준수 센터에 액세스할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="d3bb4-112">Delegated Access Permission (DAP) partners with Administer On Behalf Of (AOBO) permissions can't access the Security & Compliance Center.</span></span>
 
-## <a name="use-the-admin-center-to-give-another-user-access-to-the-security--compliance-center"></a><span data-ttu-id="a16fe-113">관리 센터를 사용하여 다른 사용자에게 보안 업데이트 준수 센터에 대한 액세스 권한 & 제공</span><span class="sxs-lookup"><span data-stu-id="a16fe-113">Use the admin center to give another user access to the Security & Compliance Center</span></span>
+## <a name="use-the-security--compliance-center-to-give-another-user-access-to-the-security--compliance-center"></a><span data-ttu-id="d3bb4-113">보안 & 준수 센터를 사용 하 여 다른 사용자에 게 보안 & 준수 센터에 대 한 액세스 권한 부여</span><span class="sxs-lookup"><span data-stu-id="d3bb4-113">Use the Security & Compliance Center to give another user access to the Security & Compliance Center</span></span>
 
-1. <span data-ttu-id="a16fe-114">[로그인하고 관리 센터로 이동합니다.](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center)</span><span class="sxs-lookup"><span data-stu-id="a16fe-114">[Sign in and go to the admin center](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center).</span></span>
+1. <span data-ttu-id="d3bb4-114">보안 & 준수 센터를 열고 <https://protection.office.com> **사용 권한**으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="d3bb4-114">Open the Security & Compliance Center at <https://protection.office.com> and then go to **Permissions**.</span></span> <span data-ttu-id="d3bb4-115">**사용 권한** 탭으로 바로 이동 하려면를 엽니다 <https://protection.office.com/permissions> .</span><span class="sxs-lookup"><span data-stu-id="d3bb4-115">To go directly to the **Permissions** tab, open <https://protection.office.com/permissions>.</span></span>
 
-2. <span data-ttu-id="a16fe-115">Microsoft 365 관리 센터에서 관리 **센터를 연 다음 보안** 교육 **& 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="a16fe-115">In the Microsoft 365 admin center, open **Admin centers** and then click **Security & Compliance**.</span></span>
+2. <span data-ttu-id="d3bb4-116">역할 그룹 목록에서 역할 그룹을 선택 하 고 편집 아이콘 편집을 클릭 **Edit** ![ ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) 합니다.</span><span class="sxs-lookup"><span data-stu-id="d3bb4-116">From the list of role groups, choose the role group, and then click **Edit** ![Edit icon](../../media/O365-MDM-CreatePolicy-EditIcon.gif).</span></span>
 
-3. <span data-ttu-id="a16fe-116">In the Security & Compliance Center, go to **Permissions.**</span><span class="sxs-lookup"><span data-stu-id="a16fe-116">In the Security & Compliance Center, go to **Permissions**.</span></span>
+3. <span data-ttu-id="d3bb4-117">역할 그룹의 속성 페이지 **구성원**아래에 있는 추가 아이콘 추가 **를 클릭 하** ![ ](../../media/ITPro-EAC-AddIcon.gif) 고 추가 하려는 사용자의 이름을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="d3bb4-117">In the role group's properties page under **Members**, click **Add**![Add Icon](../../media/ITPro-EAC-AddIcon.gif) and select the name of the user (or users) you want to add.</span></span>
 
-4. <span data-ttu-id="a16fe-117">목록에서 사용자를 추가할 역할 그룹을 선택하고 편집 아이콘을 **Edit** ![ ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="a16fe-117">From the list, choose the role group that you want to add the user to and click **Edit** ![Edit icon](../../media/O365-MDM-CreatePolicy-EditIcon.gif).</span></span>
+4. <span data-ttu-id="d3bb4-118">역할 그룹에 추가 하려는 모든 사용자를 선택 했으면 \*\*추가 \> \*\* 를 클릭 한 다음 **확인**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d3bb4-118">When you've selected all of the users you want to add to the role group, click **add-\>** and then **OK**.</span></span>
 
-5. <span data-ttu-id="a16fe-118">Members 아래의 역할 그룹의 속성 **Add** **페이지에서** ![ 아이콘 추가를 ](../../media/ITPro-EAC-AddIcon.gif) 클릭하고 추가할 사용자의 이름을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a16fe-118">In the role group's properties page under **Members**, click **Add**![Add Icon](../../media/ITPro-EAC-AddIcon.gif) and select the name of the user (or users) you want to add.</span></span>
+5. <span data-ttu-id="d3bb4-119">작업을 마쳤으면 **저장**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="d3bb4-119">When you're finished, click **Save**.</span></span>
 
-6. <span data-ttu-id="a16fe-119">역할 그룹에 추가할 모든 사용자를 선택한 후 추가를 클릭한 다음 \*\*확인을 \> \*\* **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="a16fe-119">When you've selected all of the users you want to add to the role group, click **add-\>** and then **OK**.</span></span>
+## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a><span data-ttu-id="d3bb4-120">보안 & 준수 센터 PowerShell을 사용 하 여 다른 사용자에 게 보안 & 준수 센터에 대 한 액세스 권한 부여</span><span class="sxs-lookup"><span data-stu-id="d3bb4-120">Use Security & Compliance Center PowerShell to give another user access to the Security & Compliance Center</span></span>
 
-7. <span data-ttu-id="a16fe-120">**저장**을 클릭하여 역할 그룹에 대한 변경 내용을 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="a16fe-120">Click **Save** to save the changes to the role group.</span></span>
+1. <span data-ttu-id="d3bb4-121">[보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)</span><span class="sxs-lookup"><span data-stu-id="d3bb4-121">[Connect to Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).</span></span>
 
-### <a name="how-do-you-know-this-worked"></a><span data-ttu-id="a16fe-121">작동 여부는 어떻게 확인합니까?</span><span class="sxs-lookup"><span data-stu-id="a16fe-121">How do you know this worked?</span></span>
+2. <span data-ttu-id="d3bb4-122">다음 구문을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="d3bb4-122">Use the following syntax:</span></span>
 
-1. <span data-ttu-id="a16fe-122">In the Security & Compliance Center, go to **Permissions.**</span><span class="sxs-lookup"><span data-stu-id="a16fe-122">In the Security & Compliance Center, go to **Permissions**.</span></span>
+   ```powershell
+   Add-RoleGroupMember -Identity <RoleGroup> -Member <UserIdentity>
 
-2. <span data-ttu-id="a16fe-123">목록에서 구성원을 볼 역할 그룹을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a16fe-123">From the list, select the role group to view the members.</span></span>
+   - _Identity_ is the role group.
+   - _Member_ is the user or universal security group (USG). You can specify only one member at a time.
 
-3. <span data-ttu-id="a16fe-124">오른쪽에 있는 역할 그룹 세부 정보에서 역할 그룹의 구성원을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a16fe-124">On the right, in the role group details, you can view the members of the role group.</span></span>
-
-## <a name="use-powershell-to-give-another-user-access-to-the-security--compliance-center"></a><span data-ttu-id="a16fe-125">PowerShell을 사용하여 다른 사용자에게 보안 서비스 응용 프로그램 준수 & 부여</span><span class="sxs-lookup"><span data-stu-id="a16fe-125">Use PowerShell to give another user access to the Security & Compliance Center</span></span>
-
-1. <span data-ttu-id="a16fe-126">[보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)합니다.</span><span class="sxs-lookup"><span data-stu-id="a16fe-126">[Connect to Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).</span></span>
-
-2. <span data-ttu-id="a16fe-127">다음 예와 같이 **Add-RoleGroupMember** 명령을 사용하여 사용자를 조직 관리 역할에 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="a16fe-127">Use the **Add-RoleGroupMember** command to add a user to the Organization Management Role, as shown in the following example.</span></span>
+   This example adds MatildaS to the Organization Management role group.
 
    ```PowerShell
    Add-RoleGroupMember -Identity "Organization Management" -Member MatildaS
    ```
 
-   <span data-ttu-id="a16fe-128">**매개 변수**:</span><span class="sxs-lookup"><span data-stu-id="a16fe-128">**Parameters**:</span></span>
+<span data-ttu-id="d3bb4-123">구문 및 매개 변수 문제에 대 한 자세한 내용은 [추가-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/add-rolegroupmember) 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="d3bb4-123">For detailed syntax and parameter issues, see [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/add-rolegroupmember)</span></span>
 
-   - <span data-ttu-id="a16fe-129">_ID는_ 구성원을 추가할 역할 그룹입니다.</span><span class="sxs-lookup"><span data-stu-id="a16fe-129">_Identity_ is the role group to add a member to.</span></span>
+### <a name="how-do-you-know-this-worked"></a><span data-ttu-id="d3bb4-124">작동 여부는 어떻게 확인하나요?</span><span class="sxs-lookup"><span data-stu-id="d3bb4-124">How do you know this worked?</span></span>
 
-   - <span data-ttu-id="a16fe-130">_구성원은_ 역할 그룹에 추가할 사서함, USG(유니버설 보안 그룹) 또는 컴퓨터입니다.</span><span class="sxs-lookup"><span data-stu-id="a16fe-130">_Member_ is the mailbox, universal security group (USG), or computer to add to the role group.</span></span> <span data-ttu-id="a16fe-131">구성원은 한 번에 하나만 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a16fe-131">You can specify only one member at a time.</span></span>
+<span data-ttu-id="d3bb4-125">보안 & 준수 센터에 대 한 액세스 권한을 부여 했는지 확인 하려면 다음 단계 중 하나를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="d3bb4-125">To verify that you've successfully granted access to the Security & Compliance Center, do either of the following steps:</span></span>
 
-<span data-ttu-id="a16fe-132">구문 및 매개 변수에 대한 자세한 내용은 [Add-RoleGroupMember를 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/Add-RoleGroupMember)</span><span class="sxs-lookup"><span data-stu-id="a16fe-132">For detailed information on syntax and parameters, see [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Add-RoleGroupMember).</span></span>
+- <span data-ttu-id="d3bb4-126">보안 & 준수 센터에서 **사용 권한** 으로 이동 하 여 역할 그룹을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="d3bb4-126">In the Security & Compliance Center, go to **Permissions** and select the role group.</span></span> <span data-ttu-id="d3bb4-127">세부 정보 플라이 아웃이 열리면 역할 그룹의 구성원을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="d3bb4-127">In the details flyout that opens, verify the members of the role group.</span></span> 
 
-### <a name="how-do-you-know-this-worked"></a><span data-ttu-id="a16fe-133">작동 여부는 어떻게 확인하나요?</span><span class="sxs-lookup"><span data-stu-id="a16fe-133">How do you know this worked?</span></span>
+- <span data-ttu-id="d3bb4-128">보안 & 준수 센터 PowerShell에서 \<RoleGroupName\> 역할 그룹의 이름으로 바꾸고 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="d3bb4-128">In Security & Compliance Center PowerShell, replace \<RoleGroupName\> with the name of the role group, and run the following command:</span></span>
 
-<span data-ttu-id="a16fe-134">사용자에게 보안 & 준수 센터에 대한 액세스 권한을 부여받을 것인지 확인하려면 다음 예와 같이 **Get-RoleGroupMember** cmdlet을 사용하여 조직 관리 역할 그룹의 구성원을 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="a16fe-134">To verify that you've given users access to the Security & Compliance Center, use the **Get-RoleGroupMember** cmdlet to view the members in the Organization Management role group, as shown in the following example.</span></span>
+  ```powershell
+  Get-RoleGroupMember -Identity "<RoleGroupName>"
+  ```
 
-```PowerShell
-Get-RoleGroupMember -Identity "Organization Management"
-```
-
-<span data-ttu-id="a16fe-135">구문과 매개 변수에 대한 자세한 내용은 [Get-RoleGroupMember를 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember)</span><span class="sxs-lookup"><span data-stu-id="a16fe-135">For detailed information on syntax and parameters, see [Get-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember).</span></span>
+  <span data-ttu-id="d3bb4-129">구문 및 매개 변수에 대 한 자세한 내용은 [Get-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="d3bb4-129">For detailed syntax and parameter information, see [Get-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember).</span></span>

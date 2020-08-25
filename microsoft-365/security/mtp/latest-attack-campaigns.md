@@ -15,17 +15,17 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c058754ff65510ffd005a4017195bf0afa85eb0
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 01a014de3de0a7433aa154d251aa8e1ad5487400
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034049"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46866910"
 ---
-# <a name="understand-the-latest-attack-campaigns-and-techniques-with-threat-analytics"></a><span data-ttu-id="f4ef0-104">위협 분석을 사용한 최신 공격 캠페인 및 기술 이해</span><span class="sxs-lookup"><span data-stu-id="f4ef0-104">Understand the latest attack campaigns and techniques with threat analytics</span></span> 
+# <a name="understand-the-latest-attack-campaigns-and-techniques-with-threat-analytics"></a><span data-ttu-id="8df4e-104">위협 분석을 사용한 최신 공격 캠페인 및 기술 이해</span><span class="sxs-lookup"><span data-stu-id="8df4e-104">Understand the latest attack campaigns and techniques with threat analytics</span></span> 
 
-<span data-ttu-id="f4ef0-105">사이버 위협은 점점 더 빈도가 높아지고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f4ef0-105">Cyber threats are becoming more frequent and sophisticated.</span></span> <span data-ttu-id="f4ef0-106">조직의 보안 상태 및 복구 력을 신속 하 게 평가 하는 것이 중요 합니다.</span><span class="sxs-lookup"><span data-stu-id="f4ef0-106">It's critical for organizations to quickly assess their security posture and resilience against specific emerging threats.</span></span>
+<span data-ttu-id="8df4e-105">사이버 위협은 점점 더 빈도가 높아지고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8df4e-105">Cyber threats are becoming more frequent and sophisticated.</span></span> <span data-ttu-id="8df4e-106">조직의 보안 상태 및 복구 력을 신속 하 게 평가 하는 것이 중요 합니다.</span><span class="sxs-lookup"><span data-stu-id="8df4e-106">It's critical for organizations to quickly assess their security posture and resilience against specific emerging threats.</span></span>
 
-<span data-ttu-id="f4ef0-107">**위협 분석** 은 새롭게 제공 되는 위협 (새로운 기술, 공격 캠페인, 맬웨어 감염)이 식별 됨에 따라 바로 게시 되는 대화형 보고서 집합입니다.</span><span class="sxs-lookup"><span data-stu-id="f4ef0-107">**Threat analytics** is a set of interactive reports published as soon as emerging threats — new techniques, attack campaigns, and malware outbreaks — are identified.</span></span> <span data-ttu-id="f4ef0-108">이 보고서를 통해 사용자 환경에 대 한 위협 영향을 평가 하 고, 필요한 권장 조치를 제공 하 고, 조직 복구를 강화 하 고, 특정 위협을 방지할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f4ef0-108">The reports help you the assess impact of threats to your environment and provides recommended actions to contain, increase organizational resilience, and prevent specific threats.</span></span>
+<span data-ttu-id="8df4e-107">**위협 분석** 은 새롭게 제공 되는 위협 (새로운 기술, 공격 캠페인, 맬웨어 감염)이 식별 됨에 따라 바로 게시 되는 대화형 보고서 집합입니다.</span><span class="sxs-lookup"><span data-stu-id="8df4e-107">**Threat analytics** is a set of interactive reports published as soon as emerging threats—new techniques, attack campaigns, and malware outbreaks—are identified.</span></span> <span data-ttu-id="8df4e-108">이 보고서를 통해 사용자 환경에 대 한 위협 영향을 평가 하 고, 필요한 권장 조치를 제공 하 고, 조직 복구를 강화 하 고, 특정 위협을 방지할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8df4e-108">The reports help you the assess impact of threats to your environment and provides recommended actions to contain, increase organizational resilience, and prevent specific threats.</span></span>
 
-<span data-ttu-id="f4ef0-109">자세한 내용은 [Microsoft DEFENDER ATP의 위협 분석을 참고](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics)하세요.</span><span class="sxs-lookup"><span data-stu-id="f4ef0-109">[Learn more about threat analytics in Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics).</span></span>  
+<span data-ttu-id="8df4e-109">자세한 내용은 [Microsoft DEFENDER ATP의 위협 분석을 참고](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics)하세요.</span><span class="sxs-lookup"><span data-stu-id="8df4e-109">[Learn more about threat analytics in Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics).</span></span>  
