@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 'Microsoft 365 관리 센터에서 조직에 대한 암호 만료 정책을 설정하는 방법을 알아봅니다. '
-ms.openlocfilehash: 053b3214862d477cbd122ff6336a6b53a98e5421
-ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
+ms.openlocfilehash: e95184bda631a5efaad0376c766ce5408c0a95e7
+ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597368"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868870"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>조직의 암호 만료 정책 설정
 
@@ -50,7 +50,7 @@ ms.locfileid: "46597368"
 > [!IMPORTANT]
 > [전역 관리자](../add-users/about-admin-roles.md)만 이러한 단계를 수행할 수 있습니다.
   
-1. 관리 센터에서 **설정** \> **설정**으로 이동합니다.
+1. 관리 센터에서 **설정** \> **조직 설정**으로 이동합니다.
 
 2. <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">보안 및 개인 정보</a> 페이지로 이동합니다.
  전역 관리자가 아닌 경우에는 보안 및 개인 정보 옵션이 표시되지 않습니다.

@@ -1,5 +1,5 @@
 ---
-title: 레코드 관리
+title: Microsoft 365의 레코드 관리하기
 f1.keywords:
 - NOCSH
 ms.author: cabailey
@@ -18,16 +18,16 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Microsoft 365의 레코드 관리를 사용하여 보존 일정을 파일 플랜에 적용하여 보존, 레코드 선언, 처리를 관리할 수 있습니다.
-ms.openlocfilehash: c2ff344d22286fcd865aa08344389dad6334d48d
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: d8ea68d8fbbf67928bae4f6d09712658f364e3ef
+ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778326"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868913"
 ---
-# <a name="learn-about-records-management"></a>레코드 관리에 대한 자세한 정보
+# <a name="learn-about-records-management-in-microsoft-365"></a>Microsoft 365의 레코드 관리하기에 대해 알아보기
 
->*[보안 및 규정 준수에 대한 Microsoft 365 라이센스 지침](https://aka.ms/ComplianceSD)입니다.*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
 모든 유형의 조직에는 레코드 관리 솔루션이 있어야 회사 데이터에서 규정, 법률 및 비즈니스에 중요한 레코드를 관리할 수 있습니다. Microsoft 365의 레코드 관리는 조직이 법적인 의무를 관리하는 데 도움이 되고, 규정 준수를 입증하는 기능을 제공하며, 비즈니스 목적에 대해 더 이상 보존할 필요가 없거나, 더 이상 가치가 없거나, 사용하지 않는 항목을 정기적으로 처리하여 효율성을 높입니다.
 
