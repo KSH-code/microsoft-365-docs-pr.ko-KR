@@ -1,13 +1,13 @@
 ---
 title: 일반 id 및 장치 액세스 정책-Microsoft 365 for enterprise | Microsoft Docs
 description: ID 및 장치 액세스 정책과 구성을 적용하는 방법에 관한 Microsoft 권장 정책을 설명합니다.
-author: BrendaCarter
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: Laurawi
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.author: bcarter
 ms.reviewer: martincoetzer
 ms.custom:
 - it-pro
@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 676a37752e24b238117ec238bc171b9df723e247
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 699bc04c8e286c004e1f47ae6825ae311434d9cb
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685977"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898119"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
 이 문서에서는 Azure AD 응용 프로그램 프록시를 통해 게시 된 온-프레미스 응용 프로그램을 포함 하 여 클라우드 서비스에 대 한 액세스를 보호 하기 위한 일반적인 권장 정책을 설명 합니다. 
@@ -250,7 +250,7 @@ With Conditional Access, organizations can restrict access to approved (modern a
 - Android Enterprise
 - iOS/iPadOS
 - macOS
-- 이 설정은 다음과 같은 유형의 장치에서 사용할 수 있습니다.
+- Windows Phone 8.1
 - Windows 8.1 이상
 - Windows 10 이상
 
@@ -282,7 +282,7 @@ Intune에서 준수 정책을 만드는 방법에 대 한 단계별 지침은 In
 |유형|속성|값|참고|
 |:---|:---------|:-----|:----|
 |암호|모바일 장치의 잠금을 해제 하는 데 암호 필요|할||
-||단순 암호|정책의||
+||단순 암호|차단||
 ||암호 유형|장치 기본값||
 ||최소 암호 길이|6 ||
 ||암호를 요구 하기 전까지 최대 비활성 시간 (분)|15 |이 설정은 Android 버전 4.0 이상 또는 KNOX 4.0 이상에 대해 지원 됩니다. IOS 장치에서는 iOS 8.0 이상에 대해 지원 됩니다.|

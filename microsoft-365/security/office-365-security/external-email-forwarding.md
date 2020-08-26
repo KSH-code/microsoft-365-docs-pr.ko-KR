@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: 88c3dae4f5a6786fe4eddea0d5e1c61dda837a87
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: 7cb2ab9c6987900f2b53a17c3eda49001bca4d84
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45080116"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898055"
 ---
 # <a name="configuring-external-email-forwarding-in-office-365"></a>Office 365에서 외부 전자 메일 전달 구성
 
@@ -43,6 +43,11 @@ Office 365에서는 받은 편지함 규칙 또는 메일 상자 구성에서 �
 > Office 365에서 외부 주소로 자동 전달을 사용 하지 않도록 설정 하는 작업은 [메시지가 센터](https://admin.microsoft.com/Adminportal/Home?source=applauncher&ref=/MessageCenter) 게시물을 통해 전달 되는 세부 정보와 함께 단계별로 진행 되 고 있습니다. 관리자가 이러한 변경 내용을 준비할 수 있도록 하기 위해 사용자에 게 중단이 발생 하지 않도록 사전에 정책을 수정 하 게 됩니다.
 
 조직에서 자동 전달 (받은 편지함 규칙 또는 SMTP 전달)을 사용 하는 사용자에 대 한 자세한 내용은 [자동 전달 메시지 보고서](https://docs.microsoft.com/microsoft-365/security/office-365-security/mfi-auto-forwarded-messages-report?view=o365-worldwide)에서 찾을 수 있습니다.
+
+## <a name="how-does-this-policy-work-with-other-automatic-forwarding-controls"></a>이 정책이 다른 자동 전달 컨트롤에서 작동 하는 방식
+
+관리자는 [원격 도메인](https://docs.microsoft.com/exchange/mail-flow-best-practices/remote-domains/remote-domains) 의 자동 전달을 차단 하 고 Etr (Exchange 전송 규칙) 사용과 같은 다른 유형의 컨트롤을 이미 배치할 수 있습니다. 원격 도메인에 대해 자동 전달을 허용 하지만 아웃 바운드 스팸 정책을 통한 자동 전달을 차단 하는 경우에는 이러한 두 컨트롤이이 특정 기능에 독립적입니다. 마찬가지로, 아웃 바운드 스팸 정책에서 자동 전달을 허용 하지만 ETR 또는 원격 도메인에서 메시지를 차단 하는 경우에는 이러한 컨트롤 중 하나에 의해 메시지가 차단 됩니다. 예를 들어 아웃 바운드 스팸 정책에서 자동 전달을 허용 하 고 원격 도메인을 이용 하 여 사용자가 메시지를 자동으로 전달할 수 있는 도메인을 제어할 수 있습니다.
+
 
 ## <a name="the-blocked-email-forwarding-message"></a>차단 된 전자 메일 전달 메시지
 

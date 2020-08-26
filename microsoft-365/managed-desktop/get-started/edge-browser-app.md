@@ -10,12 +10,12 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 95bf8ca693ac4b45be569870ff732c4053be39d2
-ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
+ms.openlocfilehash: 089d9dc79da568a43c1d5701d7bc52d9bed0f4f5
+ms.sourcegitcommit: c76c025fe75cd9c06eccbf9c7fc887b09da36659
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597500"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46903874"
 ---
 # <a name="new-microsoft-edge-app"></a>새 Microsoft Edge 앱
 
@@ -25,13 +25,13 @@ ms.locfileid: "46597500"
 
 Microsoft Managed Desktop devices를 새 Microsoft Edge 브라우저로 마이그레이션하려면 Microsoft Managed Desktop Portal을 통해 IT 지원 티켓을 파일에 제공 해야 합니다. 티켓을 사용할 때에는에 지 안정적인 채널을 테스트 그룹에 배포 하 고 각 후속 배포 그룹에서 24 시간 마다이를 배포 합니다. 배포를 일시 중지 하려면 보류할 작업을 요청 하는 다른 티켓을 파일에 저장 합니다.
 
-[베타 채널] ( https://docs.microsoft.com/deployedge/microsoft-edge-channels#beta-channel) 조직 내에서의 대표 유효성 검사 요청에도 사용할 수 있음) Microsoft Managed Desktop은 이러한 모든 사용자가 안정적인 채널 외에도 베타 채널을 사용할 수 있도록 테스트 및 첫 번째 그룹에 필요한 대로 응용 프로그램을 배포 합니다. 베타 채널에 액세스 해야 하는 모든 추가 사용자에 대해 **최신 회사에 지 베타 사용자** 그룹에 추가 하 고 회사 포털에서 설치 하도록 하려면 다음을 수행 하세요.
+[베타 채널](https://docs.microsoft.com/deployedge/microsoft-edge-channels#beta-channel) 은 조직 내에서의 대표 유효성 검사 요청에도 사용할 수 있습니다. Microsoft Managed Desktop은 이러한 모든 사용자가 안정적인 채널 외에도 베타 채널을 사용할 수 있도록 테스트 및 첫 번째 그룹에 필요한 대로 응용 프로그램을 배포 합니다. 베타 채널에 액세스 해야 하는 모든 추가 사용자에 대해 **최신 회사에 지 베타 사용자** 그룹에 추가 하 고 회사 포털에서 설치 하도록 하려면 다음을 수행 하세요.
 
 ## <a name="updates-to-microsoft-edge"></a>Microsoft Edge 업데이트
 
 Microsoft Managed Desktop은 6 주 마다 자동으로 업데이트 되는 Microsoft Edge의 [안정적인 채널](https://docs.microsoft.com/deployedge/microsoft-edge-channels#stable-channel) 을 배포 합니다. 고객에 게 가장 적합 한 환경을 보장 하기 위해 안정적인 채널의 업데이트가 Microsoft Edge 제품 그룹에 의해 [점진적](https://docs.microsoft.com/deployedge/microsoft-edge-update-progressive-rollout) 으로 롤오버 됩니다. 
 
-[베타 채널]은 https://docs.microsoft.com/deployedge/microsoft-edge-channels#beta-channel) 조직 내에서 대표적인 유효성 검사를 위해 테스트 및 첫 번째 그룹의 장치에 배포 됩니다. 이 채널은 완벽 하 게 지원 되며 6 주 간격으로 새로운 기능을 자동으로 업데이트 합니다.
+[베타 채널](https://docs.microsoft.com/deployedge/microsoft-edge-channels#beta-channel) 은 조직 내에서 대표적인 유효성 검사에 대 한 테스트 및 첫 번째 그룹의 장치에 배포 됩니다. 이 채널은 완벽 하 게 지원 되며 6 주 간격으로 새로운 기능을 자동으로 업데이트 합니다.
 
 Microsoft Edge가 제대로 업데이트 되도록 하려면 Microsoft Edge [업데이트 정책을](https://docs.microsoft.com/deployedge/microsoft-edge-update-policies)수정 하지 마십시오.
 
@@ -49,7 +49,7 @@ Microsoft Managed Desktop devices의 Microsoft Edge에 대 한 보안 기준선�
 #### <a name="extension-installation-blocklist"></a>확장 설치 blocklist
 **기본값:** 모든
 
-Microsoft Managed Desktop은이 정책을 설정 하 여 Chrome 확장이 관리 되는 종점에 설치 되는 것을 방지 합니다. 데이터 손실 방지, 개인 정보 보호 및 장치를 손상 시킬 수 있는 기타 위험을 비롯 하 여 Chromium 확장 모델과 연결 된 알려진 위험 요소가 있습니다. 
+Microsoft Managed Desktop은이 정책을 설정 하 여 Chrome 확장이 관리 되는 종점에 설치 되는 것을 방지 합니다. 데이터 손실 방지, 개인 정보 보호 및 장치를 손상 시킬 수 있는 기타 위험을 포함 하 여 Chromium 확장 모델과 관련 하 여 알려진 위험이 있습니다. 
 
 #### <a name="allow-user-level-native-messaging-hosts-installed-without-admin-permissions"></a>사용자 수준 기본 메시징 호스트 허용 (관리자 권한 없이 설치 됨)
 
@@ -71,7 +71,7 @@ Microsoft Managed Desktop은이 정책을 설정 하 여 Chrome 확장이 관리
 
 사용자가 SSL 오류가 있는 사이트를 방문할 수 있으므로이 설정을 사용 하지 않는 것이 좋습니다.
 
-### <a name="microsoft-defender-smart-screen"></a>Microsoft Defender Smart 화면
+### <a name="microsoft-defender-smartscreen"></a>Microsoft Defender SmartScreen
 
 #### <a name="configure-windows-defender-smartscreen"></a>Windows Defender SmartScreen 구성
 

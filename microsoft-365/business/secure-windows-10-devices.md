@@ -27,12 +27,12 @@ search.appverid:
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
 description: 회사 또는 학교 계정에 로그인 할 때 Windows 10 장치에서 수신 하는 기본 장치 정책의 설정을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 03ae86861ddb0cb83cd39b7834f19e01bf3e99e2
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.openlocfilehash: b586e687d6b61873b77fac8586396ab51fd90b9b
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470630"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898071"
 ---
 # <a name="secure-windows-10-devices"></a>Windows 10 장치 보안
 
@@ -51,8 +51,4 @@ ms.locfileid: "44470630"
 |Microsoft Edge에서 웹 기반 위협으로부터 PC를 보호하도록 지원  <br/> |Edge에서 사용자를 악성 사이트와 다운로드로부터 보호하는 설정을 켭니다.  <br/> |
 |이 시간 동안 유휴 상태일 때 장치 화면 끄기  <br/> |사용자가 유휴 상태일 때 회사 데이터가 안전하게 보호되도록 합니다. 사용자가 커피숍과 같은 공공장소에서 작업하다가 잠시 자리를 비우거나 다른 곳에 주의를 기울인 순간 장치가 타인들의 시선에 노출될 수 있습니다. 이 설정은 사용자가 얼마 동안 유휴 상태이면 화면이 꺼지는지 지정합니다.  <br/> |
 |사용자가 Microsoft Store에서 앱을 다운로드할 수 있도록 허용  <br/> |사용자가 Microsoft Store에서 앱을 다운로드하여 설치할 수 있도록 허용합니다. 앱에는 게임에서 생산성 도구에 이르기까지 다양한 종류가 있습니다. 따라서 기본값은 **켜기**이지만 관리자가 보안을 위해 끌 수 있습니다.  <br/> |
-|사용자가 Cortana에 액세스할 수 있도록 허용  <br/> |Cortana가 매우 유용할 수 있습니다. Cortana는 사용자에 대 한 설정을 설정 또는 해제 하 고, 약속 시간이 되었는지 확인 하 고,이 설정을 **기본적으로 유지** 하도록 합니다.  <br/> |
-|사용자가 Microsoft에서 Windows 팁 및 광고를 받을 수 있도록 허용  <br/> |Windows 팁은 새로운 기능이 출시된 경우 사용자에게 이를 안내하는 등 매우 유용하게 사용됩니다.  <br/> |
-|자동으로 Windows 10 장치를 최신 상태로 유지  <br/> |Windows 10 장치가 자동으로 최신 상태로 업데이트되도록 합니다.  <br/> |
-   
-
+|

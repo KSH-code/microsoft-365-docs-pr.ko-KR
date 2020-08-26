@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 더 이상 사용 되지 않는 데스크톱 배포 센터에 해당 하는 리소스에 액세스 하는 방법
-ms.openlocfilehash: 6db35ba51f06c7cca025112ebd1bb8d718b7842c
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 0dc5816959c5284739de4dee31dde7cc520bde55
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686133"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898019"
 ---
 # <a name="desktop-deployment-center-deprecated"></a>데스크톱 배포 센터 (더 이상 사용 되지 않음)
 
@@ -33,7 +33,7 @@ ms.locfileid: "46686133"
 
 [Microsoft 메커니즘에서 데스크톱 배포 시리즈 동영상](https://www.aka.ms/watchhowtoshift)을 볼 수도 있습니다.
 
-Microsoft 파트너 및 FastTrack 서비스에서 데스크톱 배포를 위해[도움말을 찾을 수](https://aka.ms/mddhelp) 있습니다.
+또한 Microsoft 파트너 및 [Fasttrack](https://www.microsoft.com/fasttrack/microsoft-365)에서 데스크톱 배포에 대 한 도움말을 찾을 수 있습니다.
 
 ## <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 

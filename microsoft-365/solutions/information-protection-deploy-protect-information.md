@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-infoprotection
 ms.custom: ''
 description: Microsoft 365 보안 및 규정 준수 기능을 배포 하 고 개인 정보를 보호 합니다.
-ms.openlocfilehash: 8e7d037218b4d67e9ba7f450bd1a5235b1ae164f
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 87057d7c823fc9808169efd254300f2b2f5e0487
+ms.sourcegitcommit: c76c025fe75cd9c06eccbf9c7fc887b09da36659
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46520996"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46903898"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>데이터 개인 정보 규정의 영향을 받는 정보 보호
 
@@ -73,6 +73,7 @@ Microsoft [information protection 솔루션](../compliance/protect-information.m
   - 클라이언트 쪽/콘텐츠 수준
   - SharePoint 및 OneDrive의 휴지 데이터에 대 한 자동화
 - DLP(데이터 손실 방지)
+- [Microsoft 365 Endpoint 데이터 손실 방지 (미리 보기)](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-learn-about?view=o365-worldwide)
 - [Office 365 메시지 암호화 OME (새 기능)](../compliance/ome.md) 및 OME [Advanced Message encryption](../compliance/ome-advanced-message-encryption.md)
 
 또한 사이트 및 라이브러리 수준 보호는 모든 보호 체계에 포함할 중요 한 메커니즘입니다.

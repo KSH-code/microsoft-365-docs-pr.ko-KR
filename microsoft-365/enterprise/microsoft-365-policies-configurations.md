@@ -1,14 +1,14 @@
 ---
 title: Id 및 장치 액세스 구성-Microsoft 365 for enterprise
 description: 보안 전자 메일, 문서 및 앱 정책 및 구성을 배포 하기 위한 Microsoft 권장 사항 및 핵심 개념에 대해 설명 합니다.
-author: brendacarter
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 09/11/2018
 f1.keywords:
 - NOCSH
-ms.author: bcarter
 ms.reviewer: martincoetzer
 ms.custom:
 - it-pro
@@ -17,12 +17,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: f39b5d72de630674ea6d58c30eadf211917de10d
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: e76ed8869f2e3bc3198eeff6dc4fcec777d0ce26
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686629"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898167"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
@@ -64,15 +64,14 @@ Enterprise Mobility + Security E5 라이선스가 없는 조직의 경우에는 
 
 이 가이드에서는 이러한 각 보호 계층에 대 한 id 및 장치에 대 한 보호를 구현 하는 방법을 보여 줍니다. 이 가이드를 조직의 시작 지점으로 사용 하 고 조직의 특정 요구 사항에 맞게 정책을 조정 합니다.
 
-데이터, ID 및 장치 전반에 걸쳐 일관된 보호 수준을 사용하는 것이 중요합니다. 예를 들어이 지침을 구현 하는 경우에는 비슷한 수준에서 데이터를 보호 해야 합니다. 이러한 아키텍처 모델에는 비교할 수 있는 기능이 나와 있습니다.
+데이터, ID 및 장치 전반에 걸쳐 일관된 보호 수준을 사용하는 것이 중요합니다. 예를 들어이 지침을 구현 하는 경우에는 비슷한 수준에서 데이터를 보호 해야 합니다. 
 
-**Office 365용 ID 및 디바이스 보호**<br/>
+**Office 365 아키텍처 모델에 대 한 id 및 장치 보호** 를 통해 비교 가능한 기능을 확인할 수 있습니다.
+
 ![포스터 축소판 그림 "Office 365에 대 한 Id 및 장치 보호"](../media/O365_Identity_device_protection_thumb.png)<br/>
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657) | [더 많은 언어](https://www.microsoft.com/download/details.aspx?id=55032)
 
-**Office 365의 파일 보호 솔루션**<br/>
-![포스터 축소판 그림 "Office 365의 파일 보호 솔루션"](../media/24be68b5-d852-4fdb-94ad-94491a19edd8.png)<br/>
-[PDF](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
+또한 Microsoft 365에 저장 된 정보를 보호 하기 위해 [데이터 개인 정보 보호 규정 솔루션 배포](../solutions/information-protection-deploy.md) 를 참조 하세요.
 
 ## <a name="security-and-productivity-trade-offs"></a>보안과 생산성의 절충
 
