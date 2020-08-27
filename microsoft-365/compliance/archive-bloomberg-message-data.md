@@ -7,17 +7,17 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 데이터 커넥터를 설정 하 여 Bloomberg 메시지 전자 메일 도구에서 Microsoft 365로 데이터를 가져오고 보관 합니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: 700a0619d2299fc7254628059787478cc0e168fa
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: f9793db545b5298663da7bbfa39a0878854e070d
+ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44937365"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255865"
 ---
 # <a name="set-up-a-connector-to-archive-bloomberg-message-data-preview"></a>Bloomberg 메시지 데이터를 보관 하는 커넥터 설정 (미리 보기)
 

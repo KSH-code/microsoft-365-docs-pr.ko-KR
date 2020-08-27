@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: 관리자가 데이터 커넥터를 설정 하 고 사용 하 여 인스턴트 Bloomberg 채팅 도구에서 Microsoft 365로 데이터를 가져오고 보관 하는 방법을 알아봅니다.
-ms.openlocfilehash: dbfb0c167d57b4a541c60eda253e93328c156dfc
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: 248636d1f343b1f314201ce74dacdf2ecd043e68
+ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552508"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255825"
 ---
 # <a name="set-up-a-connector-to-archive-instant-bloomberg-data"></a>Instant Bloomberg 데이터를 보관할 커넥터 설정
 

@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a1fa80d79c1802d96fc755def3b8ec15af13b0c9
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 75d709cc1f98a12bb6f5a5b6539583a33be500b6
+ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649406"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255748"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 고급 헌팅을 통한 위협에 대한 사전 대응
 
@@ -51,7 +51,7 @@ ms.locfileid: "46649406"
 | **쿼리 결과 사용 방법 알아보기** | 결과를 보거나 내보낼 수 있는 다양 한 방법과 차트에 대해 알아봅니다. 쿼리를 빠르게 조정 하 고 드릴 다운 하 여 더 많은 정보를 얻고 응답 작업을 수행 하는 방법을 알아봅니다. | - [쿼리 결과 작업](advanced-hunting-query-results.md)<br>- [쿼리 결과에 대 한 작업 수행](advanced-hunting-take-action.md) |
 | **스키마의 이해** | 스키마와 해당 열에 있는 테이블에 대한 이해를 높이세요. 이는 데이터를 찾을 위치와 쿼리를 구성하는 방법을 결정하는 데 도움이 됩니다. | [스키마 참조](advanced-hunting-schema-tables.md) |
 | **미리 정의 된 쿼리 활용** | 다양한 위협 헌팅 시나리오를 다루는 미리 정의된 쿼리 모음을 탐색합니다. | - [공유 쿼리 사용](advanced-hunting-shared-queries.md)<br>- [헌트](advanced-hunting-go-hunt.md) |
-| **쿼리 최적화** | 전자 메일 및 장치에서 데이터를 결합하는 효율적인 쿼리 및 쿼리를 만드는 방법에 대해 알아봅니다. | - [쿼리 모범 사례](advanced-hunting-shared-queries.md) <br>- [장치 및 전자 메일 간 헌트](advanced-hunting-best-practices.md) |
+| **쿼리 최적화** | 전자 메일 및 장치에서 데이터를 결합하는 효율적인 쿼리 및 쿼리를 만드는 방법에 대해 알아봅니다. | - [쿼리 모범 사례](advanced-hunting-best-practices.md) <br>- [장치 및 전자 메일 간 헌트](advanced-hunting-query-emails-devices.md) |
 | **사용자 지정 검색 규칙 만들기** | 고급 구하기 쿼리를 사용 하 여 알림을 트리거하고 응답 작업을 자동으로 적용 하는 방법을 이해 합니다. | - [사용자 지정 검색 개요](custom-detections-overview.md)<br>- [사용자 지정 검색 규칙](custom-detection-rules.md) |
 
 ## <a name="get-access"></a>액세스 권한
@@ -63,12 +63,15 @@ ms.locfileid: "46649406"
 - **이벤트 또는 활동 데이터** -경고, 보안 이벤트, 시스템 이벤트 및 루틴 평가에 대 한 표를 채웁니다. 고급 사냥은 해당 클라우드 서비스에 성공적으로 전송 하기 위해 수집한 센서 바로 다음에이 데이터를 받습니다. 예를 들어, 워크스테이션 또는 도메인 컨트롤러의 정상 센서에서 이벤트 데이터를 Microsoft Defender ATP 및 Azure ATP에서 사용할 수 있게 되는 즉시 쿼리를 시작할 수 있습니다.
 - **엔터티 데이터** -사용자 및 장치에 대 한 통합 된 정보를 사용 하 여 표를 채웁니다. 이 데이터는 Active Directory 항목과 같은 비교적 정적인 데이터 원본 모두와 이벤트 로그 같은 동적 원본에서 가져옵니다. 새로운 데이터를 제공 하기 위해 테이블은 새 정보를 사용 하 여 15 분 마다 업데이트 되며 완전히 채워지지 않을 수도 있는 행을 추가 합니다. 24 시간 마다 데이터를 통합 하 여 각 엔터티에 대 한 가장 포괄적인 최신 데이터 집합을 포함 하는 레코드를 삽입 합니다.
 
+## <a name="time-zone"></a>표준 시간대
+고급 구하기의 모든 시간 정보는 UTC 표준 시간대입니다.
+
 ## <a name="related-topics"></a>관련 항목
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [쿼리 결과 작업](advanced-hunting-query-results.md)
 - [쿼리 결과에 대한 작업 수행](advanced-hunting-take-action.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
-- [장치, 전자 메일, 앱 및 id 간 헌트](advanced-hunting-query-emails-devices.md)
+- [기기, 전자 메일, 앱 및 ID를 검색합니다.](advanced-hunting-query-emails-devices.md)
 - [스키마의 이해](advanced-hunting-schema-tables.md)
 - [쿼리 모범 사례 적용](advanced-hunting-best-practices.md)
 - [사용자 지정 검색 개요](custom-detections-overview.md)

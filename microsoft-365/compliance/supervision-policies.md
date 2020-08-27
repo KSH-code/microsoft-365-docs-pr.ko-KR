@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft 365 Compliance
-ms.openlocfilehash: eb57a60643eb6168ad9fbbca178a3baf1b26392b
-ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
+ms.openlocfilehash: 7ebb2673d1d275075cf32cd18996837ec4024622
+ms.sourcegitcommit: b144e8ba1ab0c40fa7e0e8e893b5cb44aa2d8243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46632109"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47282606"
 ---
 # <a name="supervision-policies"></a>감독 정책
 
@@ -143,7 +143,7 @@ Office 365의 감독 정보에 대 한 자세한 내용은 [Microsoft 365 로드
 
 #### <a name="custom-keyword-dictionaries"></a>사용자 지정 키워드 사전
 
-사용자 지정 키워드 사전 (또는 lexicons)을 구성 하 여 조직 또는 업계와 관련 된 키워드에 대 한 간단한 관리를 제공 합니다. 키워드 사전은 사전 당 최대 10만 개의 용어를 지원 합니다. 필요한 경우 단일 정책에 여러 사용자 지정 키워드 사전을 적용 하거나 정책 당 하나의 키워드 사전을 사용할 수 있습니다. 이러한 사전은 감독 정책에 할당 되며, 파일 (예: .csv 또는 .txt 목록) 또는 [준수 센터에서 가져올](create-a-keyword-dictionary.md)수 있는 목록에서 원본으로 사용할 수 있습니다.
+사용자 지정 키워드 사전 (또는 lexicons)을 구성 하 여 조직 또는 업계와 관련 된 키워드에 대 한 간단한 관리를 제공 합니다. 키워드 사전은 사전의 최대 = 100KB (기둥 압축)을 지원 하며 모든 언어를 지원 합니다. 또한 테 넌 트 제한은 압축 후에도 = 100KB. 필요한 경우 단일 정책에 여러 사용자 지정 키워드 사전을 적용 하거나 정책 당 하나의 키워드 사전을 사용할 수 있습니다. 이러한 사전은 감독 정책에 할당 되며, 파일 (예: .csv 또는 .txt 목록) 또는 [준수 센터에서 가져올](create-a-keyword-dictionary.md)수 있는 목록에서 원본으로 사용할 수 있습니다.
 
 #### <a name="offensive-language"></a>비속어
 

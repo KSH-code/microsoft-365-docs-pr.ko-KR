@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: 설치 방법 & Microsoft 365 준수 센터에서 커넥터를 사용 하 여 Facebook Business 페이지에서 Microsoft 365로 & 보관 데이터를 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: 79f3c3914476a20c07a1c3ab4418b918c8f22c3e
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 747f98ff084eaa8536c10b2f4edefcc20d11d7f9
+ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818467"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255855"
 ---
 # <a name="set-up-a-connector-to-archive-facebook-data-preview"></a>Facebook 데이터를 보관할 커넥터 설정 (미리 보기)
 
@@ -45,7 +45,7 @@ Microsoft 365 준수 센터에서 커넥터를 설정 및 구성 하 여 조직�
 
 - 조직에서는 Office 365 가져오기 서비스가 조직의 사서함 데이터에 액세스할 수 있도록 허용 해야 합니다. 이 요청에 동의 하려면 [이 페이지로](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent)이동 하 여 전역 관리자의 자격 증명으로 로그인 한 다음 요청을 수락 합니다.
 
-- Microsoft 365 준수 센터에서 사용자 지정 커넥터를 설정 하는 사용자 (5 단계)에는 Exchange Online의 사서함 가져오기 내보내기 역할이 할당 되어 있어야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당 한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange Online에서 역할 그룹 관리" 문서의 [역할 그룹 만들기](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) 또는 [역할 그룹 수정](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 섹션을 참조 하세요.
+- Microsoft 365 준수 센터에서 사용자 지정 커넥터를 설정 하는 사용자 (5 단계)에는 Exchange Online의 사서함 가져오기 내보내기 역할이 할당 되어 있어야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당 한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange Online에서 역할 그룹 관리" 문서의  [역할 그룹 만들기](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) 또는 [역할 그룹 수정](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 섹션을 참조 하세요.
 
 ## <a name="step-1-create-an-app-in-azure-active-directory"></a>1 단계: Azure Active Directory에 앱 만들기
 
@@ -117,6 +117,6 @@ Microsoft 365 준수 센터에서 커넥터를 설정 및 구성 하 여 조직�
 
 - AAD 응용 프로그램 ID (1 단계에서 가져옴)
 
-- Azure app service URL (1 단계에서 가져옴)-예를 들면https://fbconnector.azurewebsites.net)
+- Azure app service URL (1 단계에서 가져옴)-예를 들면 https://fbconnector.azurewebsites.net)
 
 - APISecretKey (2 단계에서 만든 것)

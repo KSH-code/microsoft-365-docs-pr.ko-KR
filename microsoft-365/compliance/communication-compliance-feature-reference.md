@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: d8025f6abe9f1b68dea0856b2a53139a711198c6
-ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
+ms.openlocfilehash: 5fe8e01e24f38ddd62649349575bd38ec37ccae4
+ms.sourcegitcommit: b144e8ba1ab0c40fa7e0e8e893b5cb44aa2d8243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46632131"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47282676"
 ---
 # <a name="communication-compliance-feature-reference"></a>통신 준수 기능 참조
 
@@ -150,7 +150,7 @@ Office 365의 감독 정보에 대 한 자세한 내용은 [Microsoft 365 로드
 
 ### <a name="custom-keyword-dictionaries"></a>사용자 지정 키워드 사전
 
-사용자 지정 키워드 사전 (또는 lexicons)을 구성 하 여 조직 또는 업계와 관련 된 키워드에 대 한 간단한 관리를 제공 합니다. 키워드 사전은 사전 당 최대 10만 개의 용어를 지원 하며 모든 언어를 지원 합니다. 필요한 경우 단일 정책에 여러 사용자 지정 키워드 사전을 적용 하거나 정책 당 하나의 키워드 사전을 사용할 수 있습니다. 이러한 사전은 통신 준수 정책에 할당 되며, 파일 (예: .csv 또는 .txt 목록)에서 또는 [준수 센터에서 가져올](create-a-keyword-dictionary.md)수 있는 목록에서 원본으로 사용할 수 있습니다. 조직 및 정책 관련 용어 또는 언어를 지원 해야 하는 경우 사용자 지정 사전을 사용 합니다.
+사용자 지정 키워드 사전 (또는 lexicons)을 구성 하 여 조직 또는 업계와 관련 된 키워드에 대 한 간단한 관리를 제공 합니다. 키워드 사전은 사전의 최대 = 100KB (기둥 압축)을 지원 하며 모든 언어를 지원 합니다. 또한 테 넌 트 제한은 압축 후에도 = 100KB. 필요한 경우 단일 정책에 여러 사용자 지정 키워드 사전을 적용 하거나 정책 당 하나의 키워드 사전을 사용할 수 있습니다. 이러한 사전은 통신 준수 정책에 할당 되며, 파일 (예: .csv 또는 .txt 목록)에서 또는 [준수 센터에서 가져올](create-a-keyword-dictionary.md)수 있는 목록에서 원본으로 사용할 수 있습니다. 조직 및 정책 관련 용어 또는 언어를 지원 해야 하는 경우 사용자 지정 사전을 사용 합니다.
 
 ### <a name="classifiers"></a>분류자
 
@@ -197,7 +197,7 @@ Microsoft 365의 trainable 분류자에 대 한 자세한 내용은 [trainable �
 쉼표로 구분 하 여 입력 한 각 단어를 개별적으로 적용 합니다 (전자 메일 또는 첨부 파일에 적용할 정책 조건에 한 단어씩 적용 해야 함). 예를 **들어 다음**조건을 사용 하 여 메시지에 "banker", "기밀" 및 "참가자 거래" 라는 키워드를 쉼표로 구분 하 여 허용 합니다. 이 정책은 "banker", "기밀" 또는 "참가자 거래" 라는 단어가 포함 된 모든 메시지에 적용 됩니다. 이 정책 조건을 적용 하려면 이러한 단어 또는 구문 중 하나만 발생 해야 합니다. 메시지 또는 첨부 파일의 단어는 입력 한 내용과 정확히 일치 해야 합니다.
 
 >[!IMPORTANT]
->사용자 지정 사전 파일을 가져올 때는 각 단어나 구를 캐리지 리턴과 별도의 줄에 구분 해야 합니다. <br> 예제: <br><br>
+>사용자 지정 사전 파일을 가져올 때는 각 단어나 구를 캐리지 리턴과 별도의 줄에 구분 해야 합니다. <br> 예시: <br><br>
 >*banker* <br>
 >*기밀로* <br>
 >*insider 사업*

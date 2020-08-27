@@ -7,19 +7,19 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: 관리자는 조직의 HR (인적 자원) 시스템에서 직원 데이터를 Microsoft 365로 가져오는 데이터 커넥터를 설정할 수 있습니다. 이를 통해 참가자 위험 관리 정책에 HR 데이터를 사용 하 여 조직에 내부적인 위협을 초래할 수 있는 특정 사용자의 작업을 검색 하는 데 도움을 받을 수 있습니다.
-ms.openlocfilehash: 0febd13003cdcb80867bd7f5b91ac482a463895a
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 49589d2e5a6a716a2e224aa28b73bd14f9048d0b
+ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527590"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255771"
 ---
 # <a name="set-up-a-connector-to-import-hr-data-preview"></a>HR 데이터를 가져오기 위한 연결선 설정 (미리 보기)
 
@@ -307,6 +307,9 @@ HR 커넥터를 설정 하는 마지막 단계에서는 1 단계에서 만든 CS
     ```
 
    업로드가 성공 하면 스크립트에서 **업로드 성공** 메시지를 표시 합니다.
+   
+   > [!NOTE]
+   > Excution 정책으로 인해 이전 명령을 실행 하는 데 문제가 있는 경우 정보 실행 정책 설정에 대 한 지침을 참조 하 고 실행 [정책](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies) 및 [설정 ExecutionPolicy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy) . 
 
 ## <a name="step-5-monitor-the-hr-connector"></a>5 단계: HR 커넥터 모니터링
 
@@ -362,7 +365,7 @@ Windows의 작업 스케줄러 응용 프로그램에서 매일 자동으로 스
 
    b. **프로그램/스크립트** 상자에서 **찾아보기를**클릭 하 고 다음 위치로 이동 하 여 경로를 상자에 표시 하도록 선택 `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe` 합니다.
 
-   c. **인수 추가 (선택 사항)** 상자에 4 단계에서 실행 한 것과 동일한 스크립트 명령을 붙여 넣습니다. 예를 들어`.\HRConnector.ps1 -tenantId "d5723623-11cf-4e2e-b5a5-01d1506273g9" -appId "c12823b7-b55a-4989-faba-02de41bb97c3" -appSecret "MNubVGbcQDkGCnn"  -jobId "e081f4f4-3831-48d6-7bb3-fcfab1581458" -csvFilePath "C:\Users\contosoadmin\Desktop\Data\employee_termination_data.csv"`
+   c. **인수 추가 (선택 사항)** 상자에 4 단계에서 실행 한 것과 동일한 스크립트 명령을 붙여 넣습니다. 예를 들어 `.\HRConnector.ps1 -tenantId "d5723623-11cf-4e2e-b5a5-01d1506273g9" -appId "c12823b7-b55a-4989-faba-02de41bb97c3" -appSecret "MNubVGbcQDkGCnn"  -jobId "e081f4f4-3831-48d6-7bb3-fcfab1581458" -csvFilePath "C:\Users\contosoadmin\Desktop\Data\employee_termination_data.csv"`
 
    d. 시작 위치 **(선택 사항)** 상자에 4 단계에서 실행 한 스크립트의 폴더를 붙여 넣습니다. 예를 들면 `C:\Users\contosoadmin\Desktop\Scripts`와 같습니다.
 

@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: 관리자가 네이티브 커넥터를 사용 하 여 LinkedIn 회사 페이지에서 Microsoft 365로 데이터를 가져오는 &를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: c7801dc7ab00f1193b05a50ae10ee67d78e11065
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 00e4d233efa6ee86111e3497063ad1276b5df041
+ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818447"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255815"
 ---
 # <a name="set-up-a-connector-to-archive-linkedin-data"></a>LinkedIn 데이터를 보관할 커넥터 설정
 
