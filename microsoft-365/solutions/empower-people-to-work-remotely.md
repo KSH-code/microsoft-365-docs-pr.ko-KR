@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-overview
 ms.custom: ''
 description: 직원들이 언제 어디서나 원격으로 작업할 수 있도록 하는 보안 및 서비스 인프라를 구성합니다.
-ms.openlocfilehash: dc1f5a540b261437a0bf94132bd41929ce5d3546
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 17cc826f5cf28ff375deaf1e6a4b192700eebf2f
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560922"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898131"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Microsoft 365를 사용하여 원격 작업자의 역량 강화하기
 
@@ -69,7 +69,7 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 | Microsoft Teams, Exchange Online, SharePoint Online 및 OneDrive, Microsoft 365 Apps, Microsoft Power Platform, Yammer, Power Apps | 만들고, 소통하며, 공동 작업합니다. | Microsoft 365 E3 혹은 E5 |
 ||||
 
-원격 작업자의 보안 및 규정 준수 기준에 대한 내용은 [원격 작업자에 대한 보안 및 규정 준수 배포](empower-people-to-work-remotely-security-compliance.md)를 참조하세요.
+보안 및 규정 준수 기준에 대한 내용은 [원격 작업자에 대한 보안 및 규정 준수 배포](empower-people-to-work-remotely-security-compliance.md)를 참조하세요.
 
 <a name="poster"></a> 이 솔루션의 2페이지 요약은 [원격 작업자 지원 포스터](../downloads/empower-remote-workers.pdf)를 참조하세요.
 

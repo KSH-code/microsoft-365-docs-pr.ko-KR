@@ -17,12 +17,12 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 description: Microsoft 365 관리 센터의 Azure 관리자 역할을 관리합니다.
-ms.openlocfilehash: d35daab57446fd2a6a052f7e0fca29af7910c5f9
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: afb025feb6e867b16be7a844a5f48ef42759b543
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432482"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898031"
 ---
 # <a name="azure-active-directory-roles-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 Azure Active Directory 역할
 
@@ -68,6 +68,7 @@ Microsoft 365 관리 센터에서 **역할**로 이동한 다음 아무 역할�
 |메시지 센터 개인정보 읽기 권한자     |    메시지 센터에서 데이터 개인 정보 메시지에 액세스하고 전자 메일 알림을 받습니다.     |
 |메시지 센터 읽기 권한자     | 메시지 센터에서 일반 메시지를 읽고 공유하며 매주 이메일 요약을 받고 사용자, 그룹, 도메인 및 구독에 대한 읽기 전용 액세스 권한을 갖습니다.     |
 |Office 앱 관리자    |   Office에 대한 클라우드 기반 정책과 사용자가 Office 앱에서 볼 수있는 새로운 기능 콘텐츠를 관리합니다.   |
+|암호 관리자    |   비관리자나 디렉터리 읽기 권한자, 게스트 초대자, 암호 관리자의 구성원인 사용자의 암호를 다시 설정합니다. 이 역할은 서비스 요청을 관리하거나 서비스 상태를 모니터링할 수 있는 권한을 부여할 수 없습니다.   |
 |Power BI 관리자    |   전원 Bl 관리 작업 전체에 액세스하고 서비스 요청을 관리하고 서비스 상태를 모니터링합니다.   |
 |파워 플랫폼 관리자     |    Microsoft Dynamics 365, PowerApp, 데이터 손실 방지 정책 및 Microsoft Flow에 대한 전체에 액세스합니다.     |
 |권한 있는 역할 관리자     |    Privileged Identity Management의 모든 액세스 제어 기능과 역할 할당을 관리합니다.     |
