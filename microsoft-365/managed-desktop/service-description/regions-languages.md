@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 58d3355788d9af4297ba454c404b4b2b920c358e
-ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
+ms.openlocfilehash: bf3d1745030561102b5b7b25611001a4d7698ef0
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "43790696"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289654"
 ---
 # <a name="microsoft-managed-desktop-supported-regions-and-languages"></a>Microsoft Managed Desktop 지원 지역 및 언어
 
@@ -19,7 +19,7 @@ ms.locfileid: "43790696"
 
 ## <a name="supported-languages"></a>지원되는 언어
 
-Microsoft Managed Desktop의 사용자가 사용할 수 있는 언어는 영어 뿐입니다. 여기에는 최종 사용자와 관리자 모두에 게 제공 되는 모든 사용자 인터페이스와 [관리자 지원](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support) 및 [최종 사용자 지원과](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/end-user-support)의 모든 상호 작용이 포함 됩니다.
+Microsoft Managed Desktop의 사용자가 사용할 수 있는 언어는 영어 뿐입니다. 여기에는 사용자와 관리자 모두에 게 제공 되는 모든 사용자 인터페이스와 [관리자 지원](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support) 및 [최종 사용자 지원과](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/end-user-support)의 모든 상호 작용이 포함 됩니다.
 
 
 Microsoft Managed Desktop service를 중단 하지 않고도 영어를 사용 하는 영역 외부에서 관리 되는 장치를 계속 사용할 수 있습니다. 예를 들어 영국을 기반으로 하는 직원은 아시아, 유럽 또는 남미 지역에서 관리 되는 장치에 대 한 업데이트를 안전 하 고 받을 수 있습니다. 
@@ -45,4 +45,4 @@ Microsoft Managed Desktop의 사용자 지원에 대 한 자세한 내용은 [Mi
 - 오스트레일리아
 - 뉴질랜드
 
-이러한 지역의 최종 사용자와 관리자 모두 해당 장치 및 관리 도구에 대해 영어를 사용 해야 합니다. 
+이러한 지역의 사용자와 관리자는 각자의 장치 및 관리 도구에 대해 영어를 사용 해야 합니다. 

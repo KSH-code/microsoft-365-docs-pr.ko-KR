@@ -1,6 +1,6 @@
 ---
 title: 새 Microsoft Edge
-description: ''
+description: 새에 지 브라우저를 배포 하 고 업데이트 하는 방법을 설명 합니다.
 keywords: 브라우저, Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: jaimeo
@@ -10,12 +10,12 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 089d9dc79da568a43c1d5701d7bc52d9bed0f4f5
-ms.sourcegitcommit: c76c025fe75cd9c06eccbf9c7fc887b09da36659
+ms.openlocfilehash: 60ffdcddcd069330d3cde2f9cc6b2635cf205a90
+ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46903874"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47294677"
 ---
 # <a name="new-microsoft-edge-app"></a>새 Microsoft Edge 앱
 
@@ -35,7 +35,6 @@ Microsoft Managed Desktop은 6 주 마다 자동으로 업데이트 되는 Micro
 
 Microsoft Edge가 제대로 업데이트 되도록 하려면 Microsoft Edge [업데이트 정책을](https://docs.microsoft.com/deployedge/microsoft-edge-update-policies)수정 하지 마십시오.
 
-### <a name="microsoft-edge-beta-channel"></a>Microsoft Edge 베타 채널
 
 
 ## <a name="settings-managed-by-microsoft-managed-desktop"></a>Microsoft Managed Desktop에서 관리 하는 설정
@@ -44,7 +43,7 @@ Microsoft Managed Desktop이 브라우저 보안을 위해 Microsoft Edge에 대
 
 ### <a name="microsoft-edge-extensions"></a>Microsoft Edge 확장
 
-Microsoft Managed Desktop devices의 Microsoft Edge에 대 한 보안 기준선은 모든 Chrome 확장을 사용 하지 않도록 설정 하 고 최종 사용자를 보호 하는 두 가지 정책을 지원 합니다. 사용자 환경에서 확장을 사용 하도록 설정 하 고 배포 하려면 관리 하는 설정을 참조 하세요. 
+Microsoft Managed Desktop devices의 Microsoft Edge에 대 한 보안 기준선은 모든 Chrome 확장과 보안 사용자를 사용 하지 않도록 설정 하는 두 가지 정책을 지원 합니다. 사용자 환경에서 확장을 사용 하도록 설정 하 고 배포 하려면 관리 하는 설정을 참조 하세요. 
 
 #### <a name="extension-installation-blocklist"></a>확장 설치 blocklist
 **기본값:** 모든
@@ -77,7 +76,7 @@ Microsoft Managed Desktop은이 정책을 설정 하 여 Chrome 확장이 관리
 
 **기본값:** 된
 
-최종 사용자를 보호 하기 위해 기본적으로 사용 하도록 설정 됩니다.
+사용자 보호를 위해 기본적으로 사용 됩니다.
 
 #### <a name="windows-defender-smartscreen-prompts-for-sites"></a>사이트에 대 한 Windows Defender SmartScreen 음성 안내
 
@@ -105,7 +104,7 @@ Microsoft Managed Desktop은이 정책을 설정 하 여 Chrome 확장이 관리
 
 **기본값:** 있지
 
-최종 사용자가 자신의 장치에 암호를 저장 하도록 허용 하지 않는 것이 좋습니다.
+사용자가 자신의 장치에 암호를 저장 하도록 허용 하지 않는 것이 좋습니다.
 
 ### <a name="internet-explorer-mode-in-microsoft-edge"></a>Microsoft Edge의 Internet Explorer 모드
 Microsoft Edge의 IE 모드를 사용 하면 조직에서 요구 하는 모든 사이트를 단일 브라우저에서 쉽게 사용할 수 있습니다. 이 기능은 Chromium 렌더링 엔진과 호환 되는 사이트에 대해 통합 Chromium 엔진을 사용 하며, IE 기능에 대 한 종속성이 없는 사이트의 경우 Internet Explorer 11 (IE11)에서 Trident MSHTML 엔진을 사용 합니다. [자세한 정보] (https://docs.microsoft.com/DeployEdge/edge-ie-mode) 

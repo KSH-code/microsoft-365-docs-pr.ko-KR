@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 7caeee6f476fea7881884cea20bd2a59db2c13d9
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 7181e81a2db94ce26fb8601f8b9156c65084c439
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530046"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289582"
 ---
 #  <a name="prepare-on-premises-resources-access-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비
 
@@ -41,8 +41,8 @@ Microsoft Managed Desktop 장치에서 UPN 및 암호를 사용 하 여 SSO (Sin
 
 - Azure AD Connect가 설정 되었으며 Windows Server 2008 R2 이상 버전을 실행 하는 온-프레미스 Active Directory 서버를 사용 하는지 확인 합니다.
 - Azure AD Connect가 지원 되는 버전을 실행 하 고 있으며 이러한 세 가지 특성을 Azure AD와 동기화 하도록 설정 되어 있는지 확인 합니다. 
-    - 온-프레미스 Active Directory의 DNS 도메인 이름 (최종 사용자가 있는 경우)
-    - 온-프레미스 Active Directory의 NetBIOS (최종 사용자가 있는 위치)
+    - 온-프레미스 Active Directory의 DNS 도메인 이름 (사용자가 있는 경우)
+    - 온-프레미스 Active Directory의 NetBIOS (사용자가 있는 위치)
     - SAM 사용자의 계정 이름
 
 

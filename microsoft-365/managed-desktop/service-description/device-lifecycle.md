@@ -8,16 +8,16 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 0dee95743e0a504330ebbcc69749e41cdc96da39
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 89dbf0e67c112743a557842bb32555d3a079743b
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529950"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289796"
 ---
 # <a name="microsoft-managed-desktop-product-lifecycle"></a>Microsoft Managed Desktop 제품 수명 주기
 
-Microsoft Managed Desktop 이점은 최종 사용자가 항상 최상의 성능, 안정성, 디자인 및 보안 기능을 제공 하는 장치 (예: Windows Hello와 같은 기능 지원)를 사용 하는 것을 보장 합니다. 이 작업을 수행 하기 위해 Microsoft Managed Desktop은 [승인 된 장치](device-list.md)를 지속적으로 업데이트 하는 짧은 카탈로그를 유지 관리 합니다. 
+Microsoft Managed Desktop 이점은 사용자가 항상 최상의 성능, 안정성, 디자인 및 보안 기능을 제공 하는 장치 (예: Windows Hello와 같은 기능 지원)를 사용 하는 것을 보장 합니다. 이 작업을 수행 하기 위해 Microsoft Managed Desktop은 [승인 된 장치](device-list.md)를 지속적으로 업데이트 하는 짧은 카탈로그를 유지 관리 합니다. 
  
 이 항목에서는 승인 된 카탈로그에서 장치가 추가 되거나 제거 될 때의 장치 수명 주기에 대해 자세히 설명 합니다. 
 

@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: a29fa11e43e9be5c8175118ad5b54817c463e929
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: fb786383e448ad3f5c78b22f3cdbf282c2c9f906
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529902"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289724"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 관리자 지원
 
@@ -65,6 +65,6 @@ Microsoft Managed Desktop 관리 포털을 사용 하 여 Microsoft에 지원 �
 
 
 ## <a name="additional-resources"></a>추가 리소스
-- [Microsoft Managed Desktop에 대 한 최종 사용자 지원을 제공](end-user-support.md)합니다. 
+- [Microsoft Managed Desktop에 대 한 사용자 지원](end-user-support.md) 
 - [Microsoft Managed Desktop에 대 한 지원](../service-description/support.md) 
 - Microsoft Managed Desktop을 이미 구독 하 고 있는 경우 microsoft managed desktop [Admin 포털](https://aka.ms/mwaasportal)의 **온라인 리소스** 섹션에 있는 Microsoft managed desktop administration 가이드에서 자세한 절차, 프로세스 흐름, 작업 지침 및 faq를 확인할 수 있습니다.

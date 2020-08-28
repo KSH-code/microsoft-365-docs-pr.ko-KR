@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 미국 정부 클라우드의 관리자는 조직의 HR (인사) 시스템에서 직원 데이터를 Microsoft 365로 가져오는 데이터 커넥터를 설정할 수 있습니다. 이를 통해 참가자 위험 관리 정책에 HR 데이터를 사용 하 여 조직에 내부적인 위협을 초래할 수 있는 특정 사용자의 작업을 검색 하는 데 도움을 받을 수 있습니다.
-ms.openlocfilehash: e14f1a23097cddf3b187d4394d5fa5e3afe06d01
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 2f41426003fcf3b6afe14d24cf7176fa4668ad44
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527646"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289819"
 ---
 # <a name="set-up-a-connector-to-import-hr-data-in-us-government-preview"></a>US 정부 (미리 보기)에서 HR 데이터를 가져올 커넥터 설정
 
@@ -38,15 +38,15 @@ Microsoft 365 준수 센터에서 데이터 커넥터를 설정 하 여 HR (인�
 
 ## <a name="step-1-create-an-app-in-azure-active-directory"></a>1 단계: Azure Active Directory에 앱 만들기
 
-첫 번째 단계는 AAD (Azure Active Directory)에서 새 앱을 만들고 등록 하는 것입니다. 이 앱은 3 단계에서 만든 HR 커넥터에 해당 합니다. 이 앱을 만들면 AAD에서 HR 커넥터를 실행 하 여 조직에 액세스 하려고 할 때 인증을 받을 수 있습니다. 이 앱은 Microsoft 클라우드로 HR 데이터를 업로드 하는 4 단계에서 실행 하는 스크립트를 인증 하는 데에도 사용 됩니다. 이 AAD 앱을 만드는 동안 다음 정보를 저장 해야 합니다. 이러한 값은 이후 단계에서 사용 됩니다.
+첫 번째 단계는 Azure Active Directory (Azure AD)에서 새 앱을 만들고 등록 하는 것입니다. 이 앱은 3 단계에서 만든 HR 커넥터에 해당 합니다. 이 앱을 만들면 Azure AD가를 실행 하 여 조직에 액세스 하려고 할 때 HR 커넥터를 인증할 수 있습니다. 이 앱은 Microsoft 클라우드로 HR 데이터를 업로드 하는 4 단계에서 실행 하는 스크립트를 인증 하는 데에도 사용 됩니다. 이 Azure AD 앱을 만드는 동안 다음 정보를 저장 해야 합니다. 이러한 값은 이후 단계에서 사용 됩니다.
 
-- AAD 응용 프로그램 ID ( *앱 id* 또는 *클라이언트 ID*라고도 함)
+- Azure AD 응용 프로그램 ID ( *앱 id* 또는 *클라이언트 ID*라고도 함)
 
-- AAD 응용 프로그램 비밀 ( *클라이언트 암호*라고도 함)
+- Azure AD 응용 프로그램 암호 ( *클라이언트 비밀이*라고도 함)
 
 - 테 넌 트 Id ( *디렉터리 Id*라고도 함)
 
-AAD에서 앱을 만드는 단계별 지침은 [Microsoft id 플랫폼을 사용 하 여 응용 프로그램 등록](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)을 참조 하세요.
+Azure AD에서 앱을 만드는 단계별 지침은 [Microsoft id 플랫폼을 사용 하 여 응용 프로그램 등록](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)을 참조 하세요.
 
 ## <a name="step-2-prepare-a-csv-file-with-your-hr-data"></a>2 단계: HR 데이터를 사용 하 여 CSV 파일 준비
 
@@ -83,7 +83,7 @@ CSV 파일의 첫 번째 행 또는 머리글 행에는 필요한 열 이름이 
 
 4. **인증 자격 증명** 페이지에서 다음을 수행한 후 **다음**을 클릭 합니다.
 
-   a. 1 단계에서 만든 Azure 앱에 대 한 AAD 응용 프로그램 ID를 입력 하거나 붙여넣습니다.
+   a. 1 단계에서 만든 Azure 앱에 대 한 Azure AD 응용 프로그램 ID를 입력 하거나 붙여넣습니다.
 
    b. HR 커넥터의 이름을 입력 합니다.
 
@@ -140,8 +140,8 @@ HR 커넥터를 설정 하는 마지막 단계는 2 단계에서 만든 CSV 파�
    |**매개 변수**|**설명**
    |:-----|:-----|:-----|
    |`tenantId`|1 단계에서 구한 Microsoft 365 조직의 Id입니다. Azure AD 관리 센터의 **개요** 블레이드에서 조직에 대 한 테 넌 트 Id를 가져올 수도 있습니다. 이는 조직을 식별 하는 데 사용 됩니다.|
-   |`appId` |이는 1 단계에서 Azure AD에 만든 앱에 대 한 AAD 응용 프로그램 Id입니다. 스크립트에서 Microsoft 365 조직에 액세스 하려고 할 때 인증을 위해 Azure AD에서 사용 됩니다. | 
-   |`appSecret`|이는 1 단계에서 Azure AD에 만든 앱에 대 한 AAD 응용 프로그램 비밀입니다. 인증에도 사용 됩니다.|
+   |`appId` |이는 1 단계에서 Azure AD에 만든 앱의 Azure AD 응용 프로그램 Id입니다. 스크립트에서 Microsoft 365 조직에 액세스 하려고 할 때 인증을 위해 Azure AD에서 사용 됩니다. |
+   |`appSecret`|이는 1 단계에서 Azure AD에 만든 앱에 대 한 Azure AD 응용 프로그램 비밀입니다. 인증에도 사용 됩니다.|
    |`jobId`|3 단계에서 만든 HR 커넥터의 작업 ID입니다. 이는 HR 커넥터를 사용 하 여 Microsoft 클라우드에 업로드 된 HR 데이터를 연결 하는 데 사용 됩니다.|
    |`csvFilePath`|2 단계에서 만든 CSV 파일 (스크립트와 같은 시스템에 저장 됨)의 파일 경로입니다. 파일 경로에 공백이 생기지 않도록 합니다. 그렇지 않으면 작은따옴표를 사용 합니다.|
    |||
@@ -153,6 +153,9 @@ HR 커넥터를 설정 하는 마지막 단계는 2 단계에서 만든 CSV 파�
     ```
 
    업로드가 성공 하면 스크립트에서 **업로드 성공** 메시지를 표시 합니다.
+
+   > [!NOTE]
+   > 실행 정책으로 인해 이전 명령을 실행 하는 데 문제가 있는 경우 [에](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies) 는 실행 정책 및 [ExecutionPolicy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy) for the execution 정책만 설정에 대 한 지침을 참조 하십시오.
 
 ## <a name="step-5-monitor-the-hr-connector"></a>5 단계: HR 커넥터 모니터링
 
@@ -208,7 +211,7 @@ Windows의 작업 스케줄러 응용 프로그램에서 매일 자동으로 스
 
    b. **프로그램/스크립트** 상자에서 **찾아보기를**클릭 하 고 다음 위치로 이동 하 여 경로를 상자에 표시 하도록 선택 `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe` 합니다.
 
-   c. **인수 추가 (선택 사항)** 상자에 4 단계에서 실행 한 것과 동일한 스크립트 명령을 붙여 넣습니다. 예를 들어`.\HRConnector.ps1 -tenantId "d5723623-11cf-4e2e-b5a5-01d1506273g9" -appId "c12823b7-b55a-4989-faba-02de41bb97c3" -appSecret "MNubVGbcQDkGCnn"  -jobId "e081f4f4-3831-48d6-7bb3-fcfab1581458" -csvFilePath "C:\Users\contosoadmin\Desktop\Data\employee_termination_data.csv"`
+   c. **인수 추가 (선택 사항)** 상자에 4 단계에서 실행 한 것과 동일한 스크립트 명령을 붙여 넣습니다. 예를 들어 `.\HRConnector.ps1 -tenantId "d5723623-11cf-4e2e-b5a5-01d1506273g9" -appId "c12823b7-b55a-4989-faba-02de41bb97c3" -appSecret "MNubVGbcQDkGCnn"  -jobId "e081f4f4-3831-48d6-7bb3-fcfab1581458" -csvFilePath "C:\Users\contosoadmin\Desktop\Data\employee_termination_data.csv"`
 
    d. 시작 위치 **(선택 사항)** 상자에 4 단계에서 실행 한 스크립트의 폴더를 붙여 넣습니다. 예를 들면 `C:\Users\contosoadmin\Desktop\Scripts`와 같습니다.
 

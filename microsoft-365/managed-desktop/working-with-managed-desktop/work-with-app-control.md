@@ -10,16 +10,16 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 9efe6ba6704b0e1633973d157c38827221316bbd
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: 0b76a14a30caeb75cfdcb8acc5715fe6710e0625
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430450"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289462"
 ---
 # <a name="work-with-app-control"></a>앱 제어 작업
 
-응용 프로그램 제어가 환경에 배포 되 면 사용자와 Microsoft의 관리 되는 데스크톱 작업에 모두 지속적인 책임이 있습니다. 예를 들어 환경에서 새 앱을 추가 하거나 신뢰할 수 있는 서명자를 추가 (또는 제거) 할 수 있습니다. 보안을 향상 시키기 위해 모든 앱은 최종 사용자에 게 릴리스하기 전에 코드 서명 되어야 합니다. 앱의 게시자 세부 정보에는 서명자에 대 한 정보가 포함 됩니다.
+응용 프로그램 제어가 환경에 배포 되 면 사용자와 Microsoft의 관리 되는 데스크톱 작업에 모두 지속적인 책임이 있습니다. 예를 들어 환경에서 새 앱을 추가 하거나 신뢰할 수 있는 서명자를 추가 (또는 제거) 할 수 있습니다. 보안을 향상 시키기 위해 모든 앱은 사용자에 게 릴리스하기 전에 코드 서명 되어야 합니다. 앱의 게시자 세부 정보에는 서명자에 대 한 정보가 포함 됩니다.
 
 
 ## <a name="add-a-new-app"></a>새 앱 추가

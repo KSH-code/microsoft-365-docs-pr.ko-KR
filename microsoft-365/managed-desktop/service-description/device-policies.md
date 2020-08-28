@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: d16f63490de8060eea7ef06a4ad6960d846f16eb
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 319b26261f623a7e19e5bb8fbcd0b5d8a50d10a8
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529388"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289712"
 ---
 # <a name="device-configuration"></a>장치 구성
 
@@ -44,7 +44,7 @@ Microsoft Managed Desktop 권장 보안 서식 파일 | 보안 기준이 사용�
 
 ## <a name="diagnostic-data"></a>진단 데이터
 
- 알려진 상업용 식별자에 따라 Microsoft에 향상 된 진단 데이터를 제공 하도록 장치가 설정 됩니다. Microsoft Managed Desktop의 일부로 IT 관리자는 이러한 설정을 변경할 수 없습니다. GDPR (일반 데이터 보호 규정) 영역에 있는 고객의 경우 최종 사용자는 제공 되는 진단 데이터의 수준을 줄일 수 있지만 서비스 감소가 감소 합니다. 예를 들어 Microsoft Managed Desktop은 성능 및 보안 요구 사항에 맞게 설정 및 정책을 반복 하는 데 필요한 데이터를 수집할 수 없습니다. 자세한 내용은 [조직에서 Windows 진단 데이터 구성](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enhanced-level) 를 참조 하세요.
+ 알려진 상업용 식별자에 따라 Microsoft에 향상 된 진단 데이터를 제공 하도록 장치가 설정 됩니다. Microsoft Managed Desktop의 일부로 IT 관리자는 이러한 설정을 변경할 수 없습니다. GDPR (일반 데이터 보호 규정) 지역에 있는 고객의 경우 사용자는 제공 되는 진단 데이터의 수준을 줄일 수 있지만 서비스 감소가 감소 합니다. 예를 들어 Microsoft Managed Desktop은 성능 및 보안 요구 사항에 맞게 설정 및 정책을 반복 하는 데 필요한 데이터를 수집할 수 없습니다. 자세한 내용은 [조직에서 Windows 진단 데이터 구성](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enhanced-level) 를 참조 하세요.
 
 ## <a name="security-addendum"></a>보안 추 록
 

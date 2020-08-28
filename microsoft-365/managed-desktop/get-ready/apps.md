@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: bc7192cf82c825a13780567663695d96a760b3ef
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: da5798b3412cb69580e5d9adc582f0ca4add1e3e
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530106"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289594"
 ---
 # <a name="apps-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 앱
 
@@ -26,7 +26,7 @@ ms.locfileid: "46530106"
 
 Microsoft에는 microsoft Managed Desktop에 참여 하는 데 필요한 Microsoft 365 E3 또는 E5 라이선스와 함께 특정 주요 앱이 포함 되어 있습니다. 그러나 이러한 앱을 제공 하더라도 완료 해야 하는 몇 가지 책임과 작업이 계속 남아 있습니다.
 
-또한 Microsoft Intune의 배포 파이프라인을 사용 하 여 회사 포털 또는 필요한 백그라운드 설치를 통해 셀프 서비스에 대 한 타사 앱을 추가 하 여 최종 사용자에 게 배포할 수 있습니다. 전문 지식을 보유 한 경우 사용자가 필요한 앱을 마이그레이션할 수 있습니다. 또는 MCS (Microsoft 컨설팅 서비스) 또는 타사 공급 업체가 사용자에 게 패키징 및 마이그레이션 프로젝트를 제공 하는 데 도움을 드립니다. MCS에서 작업 하는 방법에 대 한 자세한 내용은 [Microsoft 컨설팅 Services 사용](apps-MCS.md)을 참조 하십시오.
+Microsoft Intune의 배포 파이프라인을 사용 하 여 회사 포털 또는 필요한 백그라운드 설치를 통해 셀프 서비스용 사용자에 게 타사 앱을 추가로 배포할 수도 있습니다. 전문 지식을 보유 한 경우 사용자가 필요한 앱을 마이그레이션할 수 있습니다. 또는 MCS (Microsoft 컨설팅 서비스) 또는 타사 공급 업체가 사용자에 게 패키징 및 마이그레이션 프로젝트를 제공 하는 데 도움을 드립니다. MCS에서 작업 하는 방법에 대 한 자세한 내용은 [Microsoft 컨설팅 Services 사용](apps-MCS.md)을 참조 하십시오.
 
 
 ## <a name="apps-provided-by-microsoft"></a>Microsoft에서 제공 하는 앱
@@ -35,13 +35,13 @@ Microsoft Managed Desktop license에는 enterprise Standard 제품군 용 Micros
 
 ### <a name="what-microsoft-does-to-support-the-apps-we-provide"></a>제공 되는 앱을 지원 하기 위해 Microsoft에서 수행 하는 작업
 
-Microsoft는 엔터프라이즈 앱에 포함 된 Microsoft 365 앱에 대 한 배포, 업데이트 및 지원에 대 한 전체 서비스를 제공 합니다. 간편 실행 버전의 Microsoft Project 및 Visio는 기본적으로 포함 되어 *있지* 않지만 Microsoft Managed Desktop은 배포 그룹을 제공 하므로 IT 관리자가 라이선스를 관리 하 고 이러한 응용 프로그램을 조직에 적절 하 게 배포할 수 있습니다. Microsoft는 Microsoft 관리 데스크톱 지원 채널을 통해 이러한 응용 프로그램의 최종 사용자를 지원 합니다.
+Microsoft는 엔터프라이즈 앱에 포함 된 Microsoft 365 앱에 대 한 배포, 업데이트 및 지원에 대 한 전체 서비스를 제공 합니다. 간편 실행 버전의 Microsoft Project 및 Visio는 기본적으로 포함 되어 *있지* 않지만 Microsoft Managed Desktop은 배포 그룹을 제공 하므로 IT 관리자가 라이선스를 관리 하 고 이러한 응용 프로그램을 조직에 적절 하 게 배포할 수 있습니다. Microsoft는 Microsoft 관리 데스크톱 지원 채널을 통해 이러한 응용 프로그램의 사용자를 지원 합니다.
 
 ### <a name="what-you-need-to-do-to-support-the-apps-we-provide"></a>제공한 앱을 지원 하기 위해 수행 해야 하는 작업
 
 이러한 앱은 여전히 수행 해야 하는 작업은 다음과 같습니다.
 
-- **라이선스 할당** -최종 사용자에 게 적절 한 라이선스를 구하고 할당 하 여 Microsoft 365 앱 for enterprise를 사용할 책임이 있습니다.
+- **라이선스 할당** -Microsoft 365 앱 for enterprise 용 사용자에 게 적절 한 라이선스를 구하고 할당 해야 합니다.
 - **보안 그룹에 사용자 추가** -Microsoft 프로젝트나 Visio를 사용 하는 경우 IT 관리자가 해당 사용자를 적절 한 배포 그룹에 추가 해야 합니다. 또한 IT 관리자는 해당 사용자가 회사를 떠날 때 라이선스를 다시 확보 해야 합니다.
 - **Microsoft 365 추가 기능 배포** -엔터프라이즈 앱 용 Microsoft 365 앱에 대 한 추가 기능이 필요한 경우 다른 Windows 32 앱과 마찬가지로 중앙 집중식으로 배포 합니다. 
 

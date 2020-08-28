@@ -20,16 +20,22 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: e31389705ddd8de4854a3477012d7fa90b78c7ee
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 8b0fda2d8a0b7d9cb6b2c6a4cca2e8e34a876fec
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866898"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289426"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Microsoft 보안 점수의 새로운 기능
 
 Microsoft 보안 점수가 보안 상태를 보다 효율적으로 대표 하도록 하기 위해 몇 가지 사항을 변경 했습니다. 계획 된 변경 사항에 대 한 자세한 내용은 [Microsoft 보안 점수에서](microsoft-secure-score-whats-coming.md)제공 되는 기능을 참조 하세요.
+
+## <a name="august-2020"></a>2020년 8월
+
+### <a name="update-improvement-action-for-azure-active-directory"></a>Azure Active Directory에 대 한 업데이트 개선 작업
+
+- 정책을 사용 하 여 레거시 인증 차단
 
 ## <a name="july-2020"></a>2020년 7월
 

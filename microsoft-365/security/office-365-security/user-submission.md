@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 관리자는 사용자가 보고 하는 스팸 및 피싱 전자 메일을 수집 하도록 사서함을 구성 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: b21a95629e3b84ea77bbee5a988f84c1d55d717f
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 458938105d03cb82dfa4e9a7824f8b026fddec5d
+ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866934"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47294756"
 ---
 # <a name="specify-a-mailbox-for-user-submissions-of-spam-and-phishing-messages-in-exchange-online"></a>Exchange Online에서 스팸 및 피싱 메시지의 사용자 제출을 위한 사서함 지정
 
@@ -47,10 +47,10 @@ Exchange Online 사서함이 있는 Microsoft 365 조 직에서는 사용자가 
 
   - 사용자 전송에 대 한 구성을 수정 하려면 다음 역할 그룹 중 하나의 구성원 이어야 합니다.
 
-    - [보안 및 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **조직 관리** 또는 **보안 관리자**
+    - Azure AD 및 **조직 관리** 또는 **보안 관리자** 와 [보안 & 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **[Exchange 관리자](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)**
     - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **조직 관리** 및 **예방 조치 관리**
 
-  - 사용자 전송에 대 한 읽기 전용 액세스를 위해서는 다음 역할 그룹 중 하나의 구성원 이어야 합니다.
+  - 사용자 전송에 대 한 읽기 전용 액세스를 위해서는 다음 역할 그룹의 구성원 이어야 합니다.
 
     - [보안 및 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **보안 읽기**
     - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리**

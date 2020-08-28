@@ -9,14 +9,14 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 5d296c9e690421fdd98fba22b21b44a87157b36f
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 2d6dab7ae722b6e64b782596e51e0898ddc2cccc
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529758"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289690"
 ---
-# <a name="getting-help-for-end-users"></a>최종 사용자를 위한 도움말
+# <a name="getting-help-for-users"></a>사용자를 위한 도움말 보기
 
 조직의 사용자는 Microsoft 관리 되는 데스크톱 장치에 대 한 도움을 받을 수 있는 두 가지 방법이 있습니다 (도움말 앱 또는 전화 지원 **받기** ). 이러한 지원 옵션은 하루 24 시간 내내 사용자에 게 제공 됩니다.
  
@@ -25,17 +25,17 @@ ms.locfileid: "46529758"
 
 ## <a name="get-help-app"></a>도움말 앱 보기
 
-사용자에 게 지원을 제공 하는 기본 방법은 최종 사용자 장치에 기본적으로 제공 되는 편리한 인터페이스인 **도움말**을 사용 하는 것입니다.  
+사용자에 게 지원 서비스를 제공 하는 기본 방법은 사용 하기 쉬운 **인터페이스입니다.**  
 
 ![도움말 앱 보기 아이콘](../../media/get-help.png)
 
 이 응용 프로그램은 모든 Microsoft Managed Desktop 장치에 설치 되어 있으며 작업 표시줄에 고정 되어 있습니다. 
 
-- 최종 사용자는 제공 된 전화 번호로 전화를 다시 요청 하거나 서비스 담당자와 온라인으로 채팅할 수 있습니다.
+- 사용자는 제공 된 전화 번호로 전화를 다시 요청 하거나 서비스 담당자와 온라인으로 채팅할 수 있습니다.
 - Microsoft Managed Desktop 지원 범위를 벗어나는 요청은 전화를 통해 로컬 IT 헬프데스크로 리디렉션됩니다.
 
 ### <a name="prerequisites"></a>필수 구성 요소
-최종 사용자가 앱을 통해 도움을 받을 수 있도록 하려면 다음 필수 구성 요소가 충족 되는지 확인 합니다.
+사용자가 앱을 통해 도움을 받을 수 있도록 하려면 다음 필수 구성 요소가 충족 되는지 확인 합니다.
 
 - Microsoft managed desktop [장치 설정](../get-started/set-up-devices.md)의 방법 중 하나를 사용 하 여 장치를 Microsoft managed desktop에 등록 해야 합니다 (예: [새 장치를 직접 등록](../get-started/register-devices-self.md)).
 - 장치에 대 한 표시 언어는 en-us, en-us, en-us, en-us, ko 또는 en ca 중 하나로 설정 해야 합니다.
@@ -49,7 +49,7 @@ ms.locfileid: "46529758"
 
 ## <a name="phone-support"></a>전화 지원
 
-또한 Microsoft Managed Desktop 장치를 사용 하는 최종 사용자는 전화를 걸 수 있는 무료 전화 번호에 액세스할 수도 있습니다. 이는 도움말 보기를 사용할 수 없는 경우에 사용 됩니다. 예를 들어 장치에 로그인 할 수 없거나 장치가 손상 된 경우입니다. 다음은 전화 지원에 대 한 전화 번호입니다.
+또한 Microsoft 관리 데스크톱 장치를 사용 하는 사용자는 전화를 걸 수 있는 무료 전화 번호에 액세스할 수도 있습니다. 이는 도움말 보기를 사용할 수 없는 경우에 사용 됩니다. 예를 들어 장치에 로그인 할 수 없거나 장치가 손상 된 경우입니다. 다음은 전화 지원에 대 한 전화 번호입니다.
 
 - 미국: + 1 855 425 0216
 - 캐나다 (퀘벡 제외): + 1 855 425 0216

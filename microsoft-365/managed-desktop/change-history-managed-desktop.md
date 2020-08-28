@@ -13,12 +13,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 809f94e6355b7c0fe9155734fd548c9cb466cbe7
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 72155563a3249aa61075bc9f246b2a553e7b5191
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46528039"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289606"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 문서 변경 기록
 
@@ -33,11 +33,11 @@ ms.locfileid: "46528039"
 [앱 제어 시작하기](get-started/get-started-app-control.md) | 업데이트된 문서
 [앱 제어 작업](working-with-managed-desktop/work-with-app-control.md) | 업데이트된 문서
 [Microsoft Managed Desktop의 필수 구성 요소](get-ready/prerequisites.md) | 업데이트된 문서
-[앱 컨트롤](service-description/app-control.md) | 업데이트된 문서
+[앱 제어](service-description/app-control.md) | 업데이트된 문서
 [Microsoft Managed Desktop의 네트워크 구성](get-ready/network.md) | 업데이트된 문서
 [새 Microsoft Edge 앱](get-started/edge-browser-app.md) | 업데이트된 문서
 [관리 포털 액세스](get-started/access-admin-portal.md) | 새 문서
-[앱 컨트롤](service-description/app-control.md) | 새 문서
+[앱 제어](service-description/app-control.md) | 새 문서
 [Microsoft Managed Desktop 장치에 Microsoft Project 또는 Microsoft Visio 설치](get-started/project-visio.md) | 업데이트된 문서
 
 ## <a name="june-2020"></a>2020년 6월
@@ -51,7 +51,7 @@ ms.locfileid: "46528039"
 ## <a name="may-2020"></a>2020년 5월
 새로 만들기 또는 변경 된 문서 | 설명
 --- | ---
-[최종 사용자를 위한 도움말](working-with-managed-desktop/end-user-support.md) | 업데이트된 문서
+[사용자를 위한 도움말 보기](working-with-managed-desktop/end-user-support.md) | 업데이트된 문서
 [파트너가 장치를 등록하기 위한 단계](get-started/register-devices-partner.md) | 업데이트된 문서
 [Microsoft Managed Desktop 장치](service-description/device-list.md) | 업데이트된 문서
 [직접 새 장치 등록](get-started/register-devices-self.md) | 업데이트된 문서
@@ -121,7 +121,7 @@ ms.locfileid: "46528039"
 새로 만들기 또는 변경 된 문서 | 설명
 --- | ---
 [서비스 계획에 대 한 예외](service-description/customizing.md) | 새 문서
-[최종 사용자를 위한 도움말](working-with-managed-desktop/end-user-support.md) | 업데이트된 문서
+[사용자를 위한 도움말 보기](working-with-managed-desktop/end-user-support.md) | 업데이트된 문서
 [Microsoft Managed Desktop의 관리자 지원](working-with-managed-desktop/admin-support.md) | 업데이트된 문서
 [서비스 변경 및 커뮤니케이션](service-description/servicechanges.md) | 새 문서
 [직접 새 장치 등록](get-started/register-devices-self.md) | 업데이트된 문서
@@ -135,7 +135,7 @@ ms.locfileid: "46528039"
 새로 만들기 또는 변경 된 문서 | 설명
 --- | ---
 [Microsoft Managed Desktop 기술](intro/technologies.md) | 업데이트된 문서
-[최종 사용자를 위한 도움말](working-with-managed-desktop/end-user-support.md) | 업데이트된 문서
+[사용자를 위한 도움말 보기](working-with-managed-desktop/end-user-support.md) | 업데이트된 문서
 [Microsoft Managed Desktop 장치](service-description/device-list.md) | 업데이트된 문서
 [구성 가능한 설정 배포 및 추적-Microsoft Managed Desktop](working-with-managed-desktop/config-setting-deploy.md) | 업데이트된 문서
 [Microsoft Managed Desktop의 관리자 지원](working-with-managed-desktop/admin-support.md) | 업데이트된 문서
@@ -150,7 +150,7 @@ ms.locfileid: "46528039"
 --- | ---
 [Microsoft 컨설팅 서비스 활용](get-ready/apps-mcs.md) | 업데이트된 문서
 [Microsoft Managed Desktop의 관리자 지원](working-with-managed-desktop/admin-support.md) | 업데이트된 문서
-[최종 사용자를 위한 도움말](working-with-managed-desktop/end-user-support.md) | 업데이트된 문서
+[사용자를 위한 도움말 보기](working-with-managed-desktop/end-user-support.md) | 업데이트된 문서
 [Microsoft Managed Desktop의 필수 구성 요소](get-ready/prerequisites.md) | 업데이트된 문서
 [Microsoft Managed Desktop 기술](intro/technologies.md) | 업데이트된 문서
 
@@ -183,7 +183,7 @@ ms.locfileid: "46528039"
 [Microsoft Managed Desktop의 매핑된 드라이브 준비](get-ready/mapped-drives.md) | 새 문서
 [Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비](get-ready/certs-wifi-lan.md) | 새 문서
 [Microsoft Managed Desktop 장치 주문](get-started/devices.md) | 업데이트된 문서
-[최종 사용자를 위한 도움말](working-with-managed-desktop/end-user-support.md) | 새 문서
+[사용자를 위한 도움말 보기](working-with-managed-desktop/end-user-support.md) | 새 문서
 
 ## <a name="april-2019"></a>2019년 4월
 새로 만들기 또는 변경 된 문서 | 설명
@@ -226,7 +226,7 @@ ms.locfileid: "46528039"
 
 새로 만들기 또는 변경 된 문서 | 설명
 --- | ---
-[Microsoft Managed Desktop에 대 한 지원](service-description/support.md)<br />[Microsoft Managed Desktop에 대 한 최종 사용자 지원](working-with-managed-desktop/end-user-support.md) | 오스트레일리아를 포함 하도록 업데이트 되었습니다.
+[Microsoft Managed Desktop에 대 한 지원](service-description/support.md)<br />[Microsoft Managed Desktop에 대 한 사용자 지원](working-with-managed-desktop/end-user-support.md) | 오스트레일리아를 포함 하도록 업데이트 되었습니다.
 
 ## <a name="october-30-2018"></a>2018 년 10 월 30 일
 콘텐츠 재구성 됨: [Microsoft Managed Desktop service 설명](service-description/index.md)에 대 한 섹션이 추가 되었습니다. 

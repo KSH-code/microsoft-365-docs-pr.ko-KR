@@ -22,16 +22,18 @@ search.appverid:
 - BEA160
 ms.assetid: a1da52c9-2167-4973-9e6d-492314a79b87
 description: Microsoft 365 요금제를 변경 하기 전에 Outlook, OneDrive, Yammer 및 SharePoint 콘텐츠를 백업 합니다.
-ms.openlocfilehash: 9acc97f65bb5b471cb992d7f01cd299192b74a52
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 1158a98fc35c586ae900ef64579b52b9d64a85e6
+ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818534"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47294720"
 ---
 # <a name="back-up-data-before-switching-microsoft-365-for-business-plans"></a>Microsoft 365 for business 요금제를 전환 하기 전에 데이터 백업
 
 사용자가 더 많은 데이터 관련 서비스를 사용 하는 다른 구독으로 전환 되는 경우 또는 사용자가 조직을 떠나는 경우 Microsoft 365에 저장 된 데이터의 복사본을 새 구독으로 전환 하기 전에 다운로드할 수 있습니다.
+
+사용자를 같은 서비스가 있는 구독으로 이동 하는 경우에는 사용자 데이터를 백업할 필요가 없습니다. [다른 구독으로 사용자 이동을](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/move-users-different-subscription)참조 하세요.
   
 ## <a name="save-a-copy-of-outlook-information"></a>Outlook 정보 복사본 저장
 
@@ -62,7 +64,7 @@ ms.locfileid: "44818534"
 https://<orgDomain>/_layouts/15/start.aspx#/SitePages/Home.aspx
 ```
 
-여기서 _\<orgDomain\>_ 은 조직의 URL입니다.
+여기서  _\<orgDomain\>_ 은 조직의 URL입니다.
   
 예를 들어 조직의 도메인이 contoso.onmicrosoft.com 인 경우 팀 사이트의 직접 URL을 사용할 수 https://contoso.onmicrosoft.com/_layouts/15/start.aspx#/SitePages/Home.aspx 있습니다.
   

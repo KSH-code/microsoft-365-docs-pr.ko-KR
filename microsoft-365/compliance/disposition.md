@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용 하 든, 구성 된 설정에 따라 콘텐츠를 자동으로 삭제할지 여부에 관계 없이 콘텐츠 삭제를 모니터링 하 고 관리 합니다.
-ms.openlocfilehash: e70160ef309ad421724f9ad40db0d7c6e00df136
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 20f44244005f5a34a0d82f32f625fb067f02df20
+ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867213"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47294767"
 ---
 # <a name="disposition-of-content"></a>콘텐츠 처리
 
@@ -75,7 +75,7 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스 하려면 사용자�
 
 ![레코드 관리 개요에서 보류 중인 dispositions](../media/dispositions-overview.png)
 
-**보류 중인 모든 Dispositions 보기**를 선택 하면 **처리** 페이지로 이동 됩니다. 예시:
+**보류 중인 모든 Dispositions 보기**를 선택 하면 **처리** 페이지로 이동 됩니다. 예를 들어,
 
 ![Microsoft 365 준수 센터의 Dispositions 페이지](../media/disposition-tab.png)
 
@@ -97,7 +97,7 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스 하려면 사용자�
 
 콘텐츠를 검토할 준비가 된 전자 메일로 검토자에 게 알림을 받으면 Microsoft 365 준수 센터의 **레코드 관리** 에서 **처리** 탭으로 이동 합니다. 검토자는 처리를 위해 대기 중인 각 보존 레이블의 수를 확인 한 다음 보존 레이블을 선택 하 여 해당 레이블이 있는 모든 콘텐츠를 볼 수 있습니다.
 
-보존 레이블을 선택한 후에는 **보류 중인 처리** 탭에서 해당 레이블에 대해 보류 중인 dispositions를 모두 확인 합니다. 그런 다음 작업을 선택 하 고 사유 설명을 입력할 수 있는 항목을 하나 이상 선택 합니다.
+보존 레이블을 선택한 후에는 **보류 중인 처리** 탭에서 해당 레이블에 대 한 모든 보류 중인 dispositions을 볼 수 있습니다. 작업을 선택 하 고 사유 설명을 입력할 수 있는 항목을 하나 이상 선택 합니다.
 
 ![처리 옵션](../media/retention-disposition-options.png)
 
@@ -120,11 +120,11 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스 하려면 사용자�
 ## <a name="disposition-of-records"></a>콘텐츠 처분
 
 > [!NOTE]
-> SharePoint 및 OneDrive의 레코드에 대 한 삭제 증명 롤아웃이 완료 되었습니다. 콘텐츠가 Microsoft 365 준수 센터의 레코드 관리 페이지에 있는 처리 섹션에 SharePoint 및 OneDrive의 레코드로 표시 된 보존 레이블 목록이 표시 됩니다. 이러한 레이블에서는 자동으로 삭제 되거나 폐기 검토 후에 SharePoint 및 OneDrive의 항목 목록을 볼 수 있습니다.
+> SharePoint 및 OneDrive의 레코드에 대 한 삭제 증명 롤아웃이 완료 되었습니다.
 >
-> Exchange의 레코드에 대 한 삭제 증명은 아직 활성화 되어 있지 않습니다. 이 롤아웃이 시작 되 고 완료 되 면이 참고 사항이 업데이트 됩니다.
+> Exchange의 레코드에 대 한 삭제 증명은 방금 롤아웃을 시작 했습니다. 이 롤아웃이 완료 되 면이 노트가 업데이트 됩니다.
 
-**레코드 관리** 페이지의 **처리** 탭을 사용 하 여 자동으로 삭제 되는 레코드를 식별 합니다. 이러한 항목은 **형식** 열에서 **삭제 된 레코드** 를 표시 합니다. 예시:
+**레코드 관리** 페이지의 **처리** 탭을 사용 하 여 자동으로 또는 처리 검토 후에 삭제 된 레코드를 식별 합니다. 이러한 항목은 **형식** 열에서 **삭제 된 레코드** 를 표시 합니다. 예를 들어,
 
 ![처리 검토 없이 삭제 된 항목](../media/records-disposed2.png)
 

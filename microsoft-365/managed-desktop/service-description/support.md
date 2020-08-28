@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: c68d12ccd339c863c2dd96b2a56cfaf19e604f79
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: de113fd61fbb8fabaea64d58525a2f8aca052e90
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632004"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289784"
 ---
 # <a name="support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 지원
 
@@ -27,7 +27,7 @@ Microsoft는 사전 및 사후 대응 인시던트 관리를 제공 합니다. M
 Microsoft 관리형 데스크톱 지원에는 다음이 포함 됩니다.
 
 - Microsoft Managed Desktop 장치 전용 엔지니어 팀
-- Microsoft Managed Desktop 장치를 사용 하는 최종 사용자에 대 한 지원 옵션
+- Microsoft Managed Desktop 장치를 사용 하는 사용자를 위한 지원 옵션
 - Microsoft managed Desktop devices에 대 한 제한 된 관리 액세스 권한을 부여 합니다. 
 
 지원 되는 제품:
@@ -48,4 +48,4 @@ Microsoft 관리형 데스크톱 지원에는 다음이 포함 됩니다.
 ## <a name="related-topics"></a>관련 항목
 
 - [IT 관리자가 지원을 받을 수 있는 방법 알아보기](../working-with-managed-desktop/admin-support.md)
-- [최종 사용자가 지원을 받을 수 있는 방법 알아보기](../working-with-managed-desktop/end-user-support.md)
+- [사용자가 지원을 받을 수 있는 방법 알아보기](../working-with-managed-desktop/end-user-support.md)

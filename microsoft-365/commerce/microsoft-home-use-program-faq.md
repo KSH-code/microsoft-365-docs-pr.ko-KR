@@ -15,12 +15,12 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 description: Microsoft Home Use 프로그램에 대 한 자주 묻는 질문 (FAQ)
-ms.openlocfilehash: 9d37afb952374b3d01d3ef3212b82cfd1ccde7a7
-ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
+ms.openlocfilehash: f4848e5f84081152fb42e41887b581d7290dfe2f
+ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46903499"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47294689"
 ---
 # <a name="microsoft-home-use-program-frequently-asked-questions-faq"></a>Microsoft Home 사용 프로그램 자주 묻는 질문 (FAQ)
 
@@ -34,14 +34,13 @@ ms.locfileid: "46903499"
 
 Microsoft Home Use Program (HUP)을 사용 하면 적격 회사의 직원이 할인을 통해 Microsoft 소비자 제품을 구매할 수 있습니다. [Home Use Program 제품 페이지](https://www.microsoft.com/home-use-program)를 방문 하 여 각 제품 제공에 대 한 현재 할인을 확인할 수 있습니다.
 
-## <a name="in-which-countries-is-this-benefit-available"></a>이 혜택을 얻을 수 있는 국가
+## <a name="in-which-markets-is-the-home-use-program-offered"></a>가정용 사용 프로그램이 제공 되는 시장이 있습니까?
 
-여기에서 혜택을 정품 인증 하면 (Microsoft Store for Business) 다음을 제외 하 고는 전 세계 대부분의 국가에서 Microsoft 제품에 대 한 할인을 사용할 수 있습니다.
+Microsoft 365 제품군 및 개인 구독은 다음과 같은 예외를 사용 하 여 전 세계적으로 적격 한 회사에 게 제공 됩니다.
 
-- 러시아
-- 베네수엘라
-
-HUP 할인은 Surface devices 및 부속품을 구매할 때와 Xbox 게임 가공 패스를 사용 하는 경우에도 사용할 수 있습니다. 가용성에 대해서는 [Microsoft 365 구독](https://go.microsoft.com/fwlink/p/linkid=2139192)을 참조 하세요.
+- 마카오, 러시아 및 베네수엘라:이 혜택은이 시장에서 제공 되지 않습니다.
+- 중국 및 홍콩:이 시장에서는 1 년의 구독을 사용할 수 있습니다. 중국에서는 [중국의 Microsoft 365](https://www.microsoftstore.com.cn/home-use-program/invite)를 참조 하세요. 홍콩에 대 한 자세한 내용은 [할인 된 가격으로 Microsoft 365](https://www.microsoftestore.com.hk/partner/hup?locale=en_HK)를 참조 하세요.
+- 일본: Microsoft 365 제품군을 사용할 수 없습니다.
 
 ## <a name="how-does-an-organization-qualify-for-hup-discounts"></a>조직에서 HUP 할인을 어떻게 검증 하나요?
 
@@ -64,12 +63,6 @@ HUP 할인은 Surface devices 및 부속품을 구매할 때와 Xbox 게임 가�
 회사 도메인 (예: .com)을 소유 하 고 있음을 증명 하기 위해 DNS에서 특별 한 레코드를 만들어야 합니다.
 
 관리 되는 테 넌 트가 되기 위한 단계별 프로세스를 보려면 [관리 되지 않는 디렉터리를 Azure Active의 관리자 권한으로 사용](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover)을 참조 하세요.
-
-## <a name="where-can-i-find-marketing-materials-to-help-promote-the-program-within-my-company"></a>내 회사 내에서 프로그램을 승격 하는 데 도움이 되는 마케팅 자료는 어디에서 찾을 수 있나요?
-
-Microsoft Home Use Program 온 보 딩 재료 링크 아래의 관리 포털 _정보_ 섹션에서 회사 온 보 딩 마케팅 자료를 확인할 수 있습니다.
-
-IT/HR 관리 리소스 페이지에서 판촉 자료를 빠르게 찾을 수도 있습니다. [Home Use program home 페이지](https://www.microsoft.com/home-use-program/resources) 를 방문 하 여 페이지의 _home use program 홍보 리소스_ 섹션으로 스크롤합니다.
 
 ## <a name="what-resources-are-available-to-help-promote-the-home-use-program-benefit-to-employees"></a>직원 들의 가정용 사용 프로그램 혜택을 승격 하는 데 사용할 수 있는 리소스는 무엇입니까?
 

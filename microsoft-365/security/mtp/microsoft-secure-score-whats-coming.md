@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 4707b95c72200042b17c9e8ff9ae876933522d1f
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 596d67d4967886a2df985793f38f968b40d2c3a9
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866922"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289666"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>Microsoft 보안 점수를 보내는 대상
 
@@ -30,9 +30,8 @@ ms.locfileid: "46866922"
 
 ## <a name="proposed-changes"></a>제안된 변경 내용
 
-이러한 변경 내용은 라이선스에 따라 Microsoft 보안 점수에 곧 제공 될 수 있습니다. 최근 변경 내용에 대 한 자세한 내용은 [Microsoft 보안 점수의 새로운 기능](microsoft-secure-score-whats-new.md) 을 참조 하세요.
-
-- "정책에서 레거시 인증을 차단 하도록 설정" 이라는 Azure Active Directory 향상 작업에 대해 최대 점수를 7에서 8로 변경
+### <a name="september-2020"></a>년 9 월 2020
+- 계획 된 변경 내용 없음
 
 ## <a name="related-resources"></a>관련 리소스
 
