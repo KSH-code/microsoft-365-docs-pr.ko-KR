@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 1f82c339e8cbe4426c87eae045107d26201b0025
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: f4af346877b41b03c07750508ff93661cc642ec4
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530022"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289108"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Microsoft Managed Desktop 기술
 
@@ -30,8 +30,8 @@ Microsoft 365 Enterprise 라이선스는 모든 Microsoft 관리 되는 데스�
 ## <a name="office-365-e3-or-e5"></a>Office 365 E3 또는 E5
  |
  --- | ---
-Microsoft 365 Apps for enterprise (64 비트) | 이러한 Office 응용 프로그램은 Word, Excel, PowerPoint, Outlook, Publisher, Access, 비즈니스용 Skype, OneNote와 함께 제공 됩니다.<br><br>64 비트 정식 버전의 Microsoft Project 및 Microsoft Visio는 포함 되지 않습니다. 그러나 이러한 응용 프로그램을 설치 하는 경우 Microsoft 365 Apps for enterprise 설치에 따라 달라 지 며, Microsoft Managed Desktop은 기본 Microsoft Intune 배포 및 보안 그룹을 만든 다음 이러한 응용 프로그램을 사용이 허가 된 최종 사용자에 게 배포 하는 데 사용할 수 있습니다. 자세한 내용은 microsoft [Managed 데스크톱 장치에서 Microsoft Project 또는 Microsoft Visio 설치](../get-started/project-visio.md)를 참조 하세요.
-비즈니스용 OneDrive |Azure Active Directory Single Sign-on은 최종 사용자가 비즈니스용 OneDrive에 처음 로그인 할 때 사용 하도록 설정 됩니다.<br><br>"Desktop", "Document" 및 "Pictures" 폴더에 대해 알려진 폴더 리디렉션이 포함 됩니다. Microsoft Managed Desktop에서 사용 하도록 설정 하 고 구성 합니다. 
+Microsoft 365 Apps for enterprise (64 비트) | 이러한 Office 응용 프로그램은 Word, Excel, PowerPoint, Outlook, Publisher, Access, 비즈니스용 Skype, OneNote와 함께 제공 됩니다.<br><br>64 비트 정식 버전의 Microsoft Project 및 Microsoft Visio는 포함 되지 않습니다. 그러나 이러한 응용 프로그램의 설치는 Microsoft 365 Apps for enterprise 설치에 따라 달라 지기 때문에, Microsoft Managed Desktop은 기본 Microsoft Intune 배포 및 보안 그룹을 만든 다음이를 사용 하 여 라이선스 사용자에 게 이러한 응용 프로그램을 배포할 수 있습니다. 자세한 내용은 microsoft [Managed 데스크톱 장치에서 Microsoft Project 또는 Microsoft Visio 설치](../get-started/project-visio.md)를 참조 하세요.
+비즈니스용 OneDrive |Azure Active Directory Single Sign-on은 사용자가 비즈니스용 OneDrive에 처음 로그인 할 때 사용 하도록 설정 됩니다.<br><br>"Desktop", "Document" 및 "Pictures" 폴더에 대해 알려진 폴더 리디렉션이 포함 됩니다. Microsoft Managed Desktop에서 사용 하도록 설정 하 고 구성 합니다. 
 스토어 앱 |    Microsoft Sway 및 Power BI는 장치와 함께 제공 되지 않습니다. 이러한 앱은 Microsoft Store에서 다운로드할 수 있습니다.
 Win32 응용 프로그램 |    팀은 장치와 함께 제공 되지 않지만 microsoft에서 관리 되는 데스크톱 장치용으로 패키지화 되 고 제공 됩니다. Azure Information Protection 클라이언트는 장치와 함께 제공 되지 않지만이 패키지를 배포용으로 사용할 수 있습니다. 
 웹 응용 프로그램 |  Yammer, Office for browser, Delve, 흐름, StaffHub, PowerApps 및 Planner가 장치와 함께 제공 되지 않습니다. 사용자는 브라우저를 사용 하 여 이러한 응용 프로그램의 웹 버전에 액세스할 수 있습니다.

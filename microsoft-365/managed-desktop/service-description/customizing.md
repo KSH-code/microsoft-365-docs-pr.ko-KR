@@ -9,16 +9,16 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 826710bf59acd88494adf1f154e5657d1e039af7
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 0785d7ac12c7b027322338d9949a10ea30168b3b
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529938"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289064"
 ---
 # <a name="exceptions-to-the-service-plan"></a>서비스 계획에 대한 예외
 
-Microsoft Managed Desktop은 맞게 조정 된 장치 목록, [표준 장치 설정](device-policies.md), 응용 프로그램 요구 사항 및 [구성 가능한 특정 설정을](../working-with-managed-desktop/config-setting-overview.md)제공 하 여 최종 사용자에 게 안전 하 고 생산성을 부여 하 고 즐겁게 환경을 제공 하도록 설계 되었습니다. 항상 제공 되는 서비스를 유지 하는 것이 가장 좋습니다. 그러나 서비스의 세부 사항이 조직의 요구 사항에 정확 하 게 맞지 않을 수도 있음을 인식 하 고 있습니다. 서비스를 특정 방식으로 변경 해야 하는 경우 다음 프로세스를 따라 변경 내용을 요청 하는 것이 중요 합니다.
+Microsoft Managed Desktop은 맞게 조정 된 장치 목록, [표준 장치 설정](device-policies.md), 응용 프로그램 요구 사항 및 [구성 가능한 특정 설정을](../working-with-managed-desktop/config-setting-overview.md)제공 하 여 사용자를 위한 안전한, 생산성 및 즐겁게 환경을 제공 하도록 설계 되었습니다. 항상 제공 되는 서비스를 유지 하는 것이 가장 좋습니다. 그러나 서비스의 세부 사항이 조직의 요구 사항에 정확 하 게 맞지 않을 수도 있음을 인식 하 고 있습니다. 서비스를 특정 방식으로 변경 해야 하는 경우 다음 프로세스를 따라 변경 내용을 요청 하는 것이 중요 합니다.
  
 ## <a name="types-of-exceptions"></a>예외 유형
 
@@ -26,7 +26,7 @@ Microsoft Managed Desktop 기본 구성에 대 한 예외를 추가 하거나 �
 
 |유형  |설명  |
 |---------|---------|
-|생산성 소프트웨어     |  최종 사용자에 게 필요한 포그라운드 소프트웨어 ( [응용 프로그램 요구 사항](mmd-app-requirements.md) 에 의해 제한 됨)       |
+|생산성 소프트웨어     |  사용자에 게 필요한 포그라운드 소프트웨어 ( [응용 프로그램 요구 사항](mmd-app-requirements.md) 에 의해 제한 됨)       |
 |Vpn & 보안 에이전트     |  장치 또는 네트워크의 동작을 보호, 모니터링 또는 변경 하는 데 사용 되는 소프트웨어       |
 |디지털 환경 모니터링     |  사용자의 장치에서 데이터를 추적 하는 데 사용 되는 소프트웨어       |
 |하드웨어 또는 소프트웨어 드라이버     |   장치 드라이버 ( [응용 프로그램 요구 사항](mmd-app-requirements.md) 에 따라 제한 됨)      |
@@ -48,7 +48,7 @@ Microsoft Managed Desktop 기본 구성에 대 한 예외를 추가 하거나 �
 예외 요청을 검토할 때는 다음 순서 대로 이러한 요인을 평가 합니다.
  
 1.  Microsoft Managed Desktop이 모든 장치에 배포 되는 일부 응용 프로그램 및 정책은 negotiable 되지 않으므로 요청이 해당 사용자에 게 영향을 주지 않도록 해야 합니다. 자세한 내용은 [장치 구성](device-policies.md) 를 참조 하세요.
-2.  최종 사용자가 작업을 수행 하는 데 필요한 제한 된 생산성 소프트웨어가 승인 될 수 있습니다. 
+2.  사용자가 작업을 수행 하는 데 필요한 제한 된 생산성 소프트웨어가 승인 될 수 있습니다. 
 3.  Microsoft 기술을 사용 하 여 요구 사항을 충족 하는 경우에는 프로젝트 범위에 따라 3 ~ 12 개월의 예외 마이그레이션 기간에 대 한 요청을 승인할 수 있습니다.
 4.  Microsoft 기술을 사용 하 여 요구 사항을 충족할 수 없는 경우에는 다음 조건 중 하나를 위반 하는 경우를 제외 하 고 요청을 승인할 가능성이 높습니다.  
 

@@ -1,5 +1,5 @@
 ---
-title: Windows 10 PC에서 장치 보호 설정 설정하기
+title: Windows 10 Pc에 대 한 장치 보호 설정 편집 또는 만들기
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -22,32 +22,30 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
-description: 비즈니스용 Microsoft 365에서 사용할 수 있는 기본 및 기타 설정에 대해 설명 하 고 Windows 10 장치를 보호 합니다.
-ms.openlocfilehash: af3f58ba13a1011e65be45337c63ff714bfdaf0c
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+description: 비즈니스용 Microsoft 365에서 사용할 수 있는 설정에 대해 설명 하 고 Windows 10 장치를 보호 합니다.
+ms.openlocfilehash: bd992113403c7134fb32bc6cced5bf216843241b
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470850"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289158"
 ---
-# <a name="set-device-protection-settings-for-windows-10-pcs"></a>Windows 10 PC에서 장치 보호 설정 설정하기
+# <a name="edit-or-create-device-protection-settings-for-windows-10-pcs"></a>Windows 10 Pc에 대 한 장치 보호 설정 편집 또는 만들기
 
 이 문서는 Microsoft 365 Business Premium에 적용 됩니다.
 
-## <a name="secure-windows-10-devices"></a>Windows 10 장치 보안
+설정 페이지에서 기본 Windows 보호 설정을 구성한 후에는 모든 사용자 또는 사용자 집합에 적용 되는 새 항목을 추가할 수 있습니다. 만든 항목을 편집할 수도 있습니다.
 
-Microsoft 365 for business를 사용 하 여 Windows 10 장치를 보호 하는 방법에 대 한 비디오를 확인 하세요.
+## <a name="create-protection-settings-for-windows-10-devices"></a>Windows 10 장치에 대 한 보호 설정 만들기
+
+Microsoft 365 Business Premium을 사용 하 여 Windows 10 장치를 보호 하는 방법에 대 한 비디오를 확인 하세요.
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/a5734146-620a-4cec-8618-536b3ca37972?autoplay=false]
   
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다. 
-    
 2. 왼쪽 탐색 창에서 **장치** \> **정책** \> **추가**를 선택 합니다.
-  
 3. **정책 추가** 창에서 이 정책의 고유 이름을 입력합니다. 
-    
 4. **정책 유형**에서 **Windows 10 장치 구성**을 선택합니다.
-    
 5. Expand **Secure Windows 10 Devices** \> configure the settings how you would like. 자세한 내용은 [사용 가능한 설정을](#available-settings)참조 하십시오. 
     
     언제든지 **기본 설정 다시 설정** 링크를 사용하여 기본 설정으로 돌아갈 수 있습니다. 
@@ -55,9 +53,15 @@ Microsoft 365 for business를 사용 하 여 Windows 10 장치를 보호 하는 
     ![Add policy pane with Windows 10 Device configuration selected](../media/fa9e2dc2-7eae-4c96-af34-765a1f641ecf.png)
   
 6. Next decide **Who will get these settings?** If you don't want to use the default **All users** security group, Choose **Change**, search for the security group who will get these settings \> **Select**.
-    
 7. 마지막으로 **완료**를 선택하여 정책을 저장하고 장치를 할당합니다. 
-    
+
+## <a name="edit-windows-10-protection-settings"></a>Windows 10 보호 설정 편집
+ 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.     
+2. 왼쪽 탐색 창에서 **장치** \> **정책을** 선택 합니다.
+1. 기존 Windows 장치 정책을 선택 하 고 **편집**을 클릭 합니다.
+1. 변경할 설정 옆의 **편집** 을 선택한 다음 **저장**을 선택 합니다.
+
 ## <a name="available-settings"></a>사용 가능한 설정
 
 모든 설정의 기본값은 **켬**입니다. 다음과 같은 설정을 사용할 수 있습니다.

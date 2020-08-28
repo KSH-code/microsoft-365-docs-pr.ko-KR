@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: 'Microsoft에서 다른 등록자에 게 도메인을 전송 하는 단계를 확인 하세요. '
-ms.openlocfilehash: 7e00f5ae2c36a06803a3f7a8acd825dcab90805c
-ms.sourcegitcommit: 6fb2a1c404ea3c3573b0f7803bf17459a9387891
+ms.openlocfilehash: c5c1e98ed14c3ac975e55aadbff65e52165a6f8b
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788987"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289174"
 ---
 # <a name="transfer-a-domain-from-microsoft-to-another-host"></a>Microsoft에서 다른 호스트로 도메인 전송
 
@@ -43,7 +43,7 @@ Microsoft에서 도메인을 구매한 후 60에는 Microsoft 365 도메인을 �
 
 1. 관리 센터에서  **설정**   >  **도메인**으로 이동 합니다.
 
-2. <**도메인** 페이지에서 다른 도메인 등록 기관으로 전송 하려는 Microsoft 365 도메인을 선택한 다음 **상태 확인**을 선택 합니다.
+2. **도메인** 페이지에서 다른 도메인 등록자에 게 전송할 Microsoft 365 도메인을 선택한 다음 **상태 확인**을 선택 합니다.
 
 3. 페이지 맨 위에서 **도메인 전송을**선택 합니다.
 

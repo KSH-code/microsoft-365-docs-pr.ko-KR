@@ -1,5 +1,5 @@
 ---
-title: 앱 컨트롤
+title: 앱 제어
 description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
@@ -10,21 +10,21 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: f11c7a4aa69c96232a33c565e7bf20d04b96d1f7
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 32ed3f95ebb4299796c5ad3eb71802c949701b65
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529974"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289130"
 ---
-# <a name="app-control"></a>앱 컨트롤
+# <a name="app-control"></a>앱 제어
 
 앱 컨트롤은 클라이언트 장치에서 코드를 실행 하는 것을 제한 하는 Microsoft Managed Desktop의 선택적 보안 방법입니다. 이 컨트롤은 고객이 승인한 게시자 목록에 의해 서명 된 코드만 실행할 수 있도록 요구 하 여 맬웨어 또는 악성 스크립트의 위험을 완화 합니다. 이 컨트롤은 다양 한 보안 이점을 제공 하지만, 주로 클라이언트 기반 익스플로잇 으로부터 데이터 및 id를 보호 하는 데 목적이 있습니다.
 
 Microsoft Managed Desktop은 핵심 생산성 시나리오를 가능 하 게 하는 기본 정책을 만들어 앱 제어 정책 관리를 간소화 합니다. 해당 환경의 앱 및 스크립트와 관련 된 추가 서명자에 대 한 신뢰를 확장할 수 있습니다. 
 
 
-모든 보안 기술에는 사용자 환경, 보안 및 비용 간의 균형이 필요 합니다. 앱 컨트롤을 사용 하면 사용자 환경에서 악성 소프트웨어의 위협을 줄일 수 있지만 최종 사용자와 IT 관리자를 위한 추가 작업에는 결과가 있습니다.
+모든 보안 기술에는 사용자 환경, 보안 및 비용 간의 균형이 필요 합니다. 앱 컨트롤을 사용 하면 환경에서 악성 소프트웨어의 위협을 줄일 수 있지만 사용자 및 IT 관리자를 위한 추가 작업에 대 한 결과가 표시 됩니다.
 
 **추가 보안:**
 
@@ -73,7 +73,7 @@ Microsoft Managed Desktop은 두 가지 Microsoft Intune 정책을 사용 하 �
 ### <a name="enforced-policy"></a>적용 정책
 이 정책은 앱 또는 스크립트가 차단 될 때마다 트러스트 되지 않은 앱 및 스크립트를 실행 하 고 로그를 만들 수 없도록 차단 합니다. 적용 된 정책에 의해 표준 사용자는 사용자가 쓰기 가능한 디렉터리에 저장 되어 있는 앱 이나 스크립트를 실행할 수 없습니다.
 
-테스트 그룹의 장치에는 감사 정책이 적용 되므로 응용 프로그램에서 문제를 발생 시킬 것인지 여부를 확인 하는 데 사용할 수 있습니다. 다른 모든 그룹 (첫째, 빠르게, 광범위 함)은 적용 되는 정책을 사용 하므로 해당 그룹의 최종 사용자는 신뢰할 수 없는 앱 이나 스크립트를 실행 하지 못하게 됩니다.
+테스트 그룹의 장치에는 감사 정책이 적용 되므로 응용 프로그램에서 문제를 발생 시킬 것인지 여부를 확인 하는 데 사용할 수 있습니다. 다른 모든 그룹 (첫째, 빠르게, 광범위 함)은 적용 되는 정책을 사용 하므로 해당 그룹의 사용자는 신뢰할 수 없는 앱 이나 스크립트를 실행 하지 못할 수도 있습니다.
 
 
 

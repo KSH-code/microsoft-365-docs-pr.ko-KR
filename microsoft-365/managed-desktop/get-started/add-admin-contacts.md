@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: d8a5775d90f592aa5f64dd5f379fb37278032d87
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 8b287200b1c94ff350f7ba00cf0c4e6bc1b4a71f
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529806"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289264"
 ---
 # <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>관리 포털에서 관리자 연락처 추가 및 확인
 
@@ -42,7 +42,7 @@ Microsoft Managed Desktop 관리 포털을 사용하려면 포털에 액세스 �
 앱 패키징 | 앱 패키징 문제 해결
 장치 | 장치 상태, Microsoft Managed Desktop 장치를 사용하여 문제 해결
 보안 | Microsoft Managed Desktop 장치를 사용하여 보안 문제 해결
-IT 지원 센터 | 지원 담당자가 Microsoft Managed Desktop 지원 영역 외부에서 최종 사용자 티켓을 전달하는 경우 
+IT 지원 센터 | 지원 직원이 Microsoft 관리 되는 데스크톱 지원 영역을 벗어나는 사용자 티켓을 사용 하는 경우 
 기타 | 다른 영역에서 다루지 않는 문제
 
 **이러한 연락처로 선택한 사용자는 Microsoft Managed Desktop 환경을 결정할 수 있는 지식과 권한이 있어야 합니다.** Microsoft Managed Desktop 환경을 온보드하는 경우 로컬 지원 센터 및 보안에 대한 연락처를 추가하라는 메시지가 표시됩니다. 

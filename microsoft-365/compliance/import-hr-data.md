@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: 관리자는 조직의 HR (인적 자원) 시스템에서 직원 데이터를 Microsoft 365로 가져오는 데이터 커넥터를 설정할 수 있습니다. 이를 통해 참가자 위험 관리 정책에 HR 데이터를 사용 하 여 조직에 내부적인 위협을 초래할 수 있는 특정 사용자의 작업을 검색 하는 데 도움을 받을 수 있습니다.
-ms.openlocfilehash: 49589d2e5a6a716a2e224aa28b73bd14f9048d0b
-ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
+ms.openlocfilehash: 78832d74a7d61577e5ec49c290e19bdec758a0b3
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255771"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289253"
 ---
 # <a name="set-up-a-connector-to-import-hr-data-preview"></a>HR 데이터를 가져오기 위한 연결선 설정 (미리 보기)
 
@@ -201,15 +201,15 @@ Performance improvement plan,pillarp@contoso.com,,,2019-04-23T15:18:02.4675041+0
 
 ## <a name="step-2-create-an-app-in-azure-active-directory"></a>2 단계: Azure Active Directory에 앱 만들기
 
-다음 단계에서는 AAD (Azure Active Directory)에서 새 앱을 만들고 등록 합니다. 이 앱은 3 단계에서 만든 HR 커넥터에 해당 합니다. 이 앱을 만들면 AAD에서 HR 커넥터를 실행 하 여 조직에 액세스 하려고 할 때 인증을 받을 수 있습니다. 이 앱은 Microsoft 클라우드로 HR 데이터를 업로드 하는 4 단계에서 실행 하는 스크립트를 인증 하는 데에도 사용 됩니다. 이 AAD 앱을 만드는 동안 다음 정보를 저장 해야 합니다. 이러한 값은 3 단계와 4 단계에서 사용 됩니다.
+다음 단계에서는 Azure Active Directory (Azure AD)에서 새 앱을 만들고 등록 합니다. 이 앱은 3 단계에서 만든 HR 커넥터에 해당 합니다. 이 앱을 만들면 Azure AD가를 실행 하 여 조직에 액세스 하려고 할 때 HR 커넥터를 인증할 수 있습니다. 이 앱은 Microsoft 클라우드로 HR 데이터를 업로드 하는 4 단계에서 실행 하는 스크립트를 인증 하는 데에도 사용 됩니다. 이 Azure AD 앱을 만드는 동안 다음 정보를 저장 해야 합니다. 이러한 값은 3 단계와 4 단계에서 사용 됩니다.
 
-- AAD 응용 프로그램 ID ( *앱 id* 또는 *클라이언트 ID*라고도 함)
+- Azure AD 응용 프로그램 ID ( *앱 id* 또는 *클라이언트 ID*라고도 함)
 
-- AAD 응용 프로그램 비밀 ( *클라이언트 암호*라고도 함)
+- Azure AD 응용 프로그램 암호 ( *클라이언트 비밀이*라고도 함)
 
 - 테 넌 트 Id ( *디렉터리 Id*라고도 함)
 
-AAD에서 앱을 만드는 단계별 지침은 [Microsoft id 플랫폼을 사용 하 여 응용 프로그램 등록](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)을 참조 하세요.
+Azure AD에서 앱을 만드는 단계별 지침은 [Microsoft id 플랫폼을 사용 하 여 응용 프로그램 등록](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)을 참조 하세요.
 
 ## <a name="step-3-create-the-hr-connector"></a>3 단계: HR 커넥터 만들기
 
@@ -225,7 +225,7 @@ AAD에서 앱을 만드는 단계별 지침은 [Microsoft id 플랫폼을 사용
 
 4. **연결 설정** 페이지에서 다음을 수행한 후 **다음**을 클릭 합니다.
 
-   a. 2 단계에서 만든 Azure 앱에 대 한 AAD 응용 프로그램 ID를 입력 하거나 붙여넣습니다.
+   a. 2 단계에서 만든 Azure 앱에 대 한 Azure AD 응용 프로그램 ID를 입력 하거나 붙여넣습니다.
 
    b. HR 커넥터의 이름을 입력 합니다.
 
@@ -294,8 +294,8 @@ HR 커넥터를 설정 하는 마지막 단계에서는 1 단계에서 만든 CS
    |**매개 변수**|**설명**
    |:-----|:-----|:-----|
    |`tenantId`|이는 2 단계에서 구한 Microsoft 365 조직의 Id입니다. Azure AD 관리 센터의 **개요** 블레이드에서 조직에 대 한 테 넌 트 Id를 가져올 수도 있습니다. 이는 조직을 식별 하는 데 사용 됩니다.|
-   |`appId` |이는 2 단계에서 Azure AD에 만든 앱에 대 한 AAD 응용 프로그램 Id입니다. 스크립트에서 Microsoft 365 조직에 액세스 하려고 할 때 인증을 위해 Azure AD에서 사용 됩니다. | 
-   |`appSecret`|이는 2 단계에서 Azure AD에 만든 앱에 대 한 AAD 응용 프로그램 비밀입니다. 인증에도 사용 됩니다.|
+   |`appId` |이는 2 단계에서 Azure AD에 만든 앱의 Azure AD 응용 프로그램 Id입니다. 스크립트에서 Microsoft 365 조직에 액세스 하려고 할 때 인증을 위해 Azure AD에서 사용 됩니다. | 
+   |`appSecret`|이는 2 단계에서 Azure AD에 만든 앱에 대 한 Azure AD 응용 프로그램 비밀입니다. 인증에도 사용 됩니다.|
    |`jobId`|3 단계에서 만든 HR 커넥터의 작업 ID입니다. 이는 HR 커넥터를 사용 하 여 Microsoft 클라우드에 업로드 된 HR 데이터를 연결 하는 데 사용 됩니다.|
    |`csvFilePath`|1 단계에서 만든 CSV 파일 (스크립트와 같은 시스템에 저장 됨)의 파일 경로입니다. 파일 경로에 공백이 생기지 않도록 합니다. 그렇지 않으면 작은따옴표를 사용 합니다.|
    |||
@@ -307,9 +307,9 @@ HR 커넥터를 설정 하는 마지막 단계에서는 1 단계에서 만든 CS
     ```
 
    업로드가 성공 하면 스크립트에서 **업로드 성공** 메시지를 표시 합니다.
-   
+
    > [!NOTE]
-   > Excution 정책으로 인해 이전 명령을 실행 하는 데 문제가 있는 경우 정보 실행 정책 설정에 대 한 지침을 참조 하 고 실행 [정책](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies) 및 [설정 ExecutionPolicy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy) . 
+   > 실행 정책으로 인해 이전 명령을 실행 하는 데 문제가 있는 경우 [에](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies) 는 실행 정책 및 [ExecutionPolicy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy) for the execution 정책만 설정에 대 한 지침을 참조 하십시오.
 
 ## <a name="step-5-monitor-the-hr-connector"></a>5 단계: HR 커넥터 모니터링
 

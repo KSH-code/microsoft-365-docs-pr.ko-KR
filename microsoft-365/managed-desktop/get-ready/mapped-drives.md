@@ -9,12 +9,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: e6311c0ad11d68c870b0c8185974b8913735e2a2
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 04c3901155ecd80fad472e07e7e46620c3ddee1f
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530178"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289276"
 ---
 #  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 매핑된 드라이브 준비
 
@@ -24,7 +24,7 @@ ms.locfileid: "46530178"
 - 팀에서 SharePoint Online으로 파일을 공유 하는 데 사용 하는 매핑된 드라이브를 마이그레이션합니다. 
 - 온-프레미스 파일 공유를 사용 하는 모든 응용 프로그램을 Modernize 하거나 대체 하 여 해당 요구 사항을 제거 합니다.
   
-현대화 이러한 서비스를 사용 하면 최상의 최종 사용자 환경을 Microsoft Managed Desktop과 함께 사용할 수 있습니다. Microsoft FastTrack 서비스는 Microsoft 클라우드 서비스를 사용 하 여 환경 현대화를 지원할 수 있습니다. [적합 한 서비스 및 계획](https://docs.microsoft.com/fasttrack/m365-eligible-services-and-plans) 에서 fasttrack 서비스를 사용할 수 있는지 여부를 확인 한 다음 Microsoft Managed Desktop을 준비 하기 위해 직접 연락 해야 합니다. FastTrack 비즈니스용 OneDrive 또는 SharePoint Online 마이그레이션에 대 한 배경 정보는 [데이터 마이그레이션을](https://docs.microsoft.com/fasttrack/o365-data-migration)참조 하십시오.
+현대화 이러한 서비스를 사용 하면 Microsoft 관리 데스크톱에서 최상의 사용자 환경을 사용할 수 있습니다. Microsoft FastTrack 서비스는 Microsoft 클라우드 서비스를 사용 하 여 환경 현대화를 지원할 수 있습니다. [적합 한 서비스 및 계획](https://docs.microsoft.com/fasttrack/m365-eligible-services-and-plans) 에서 fasttrack 서비스를 사용할 수 있는지 여부를 확인 한 다음 Microsoft Managed Desktop을 준비 하기 위해 직접 연락 해야 합니다. FastTrack 비즈니스용 OneDrive 또는 SharePoint Online 마이그레이션에 대 한 배경 정보는 [데이터 마이그레이션을](https://docs.microsoft.com/fasttrack/o365-data-migration)참조 하십시오.
 
 ## <a name="mapped-drives-on-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 매핑된 드라이브
  
@@ -36,7 +36,7 @@ ms.locfileid: "46530178"
 - 이러한 파일 공유 위치에 액세스 해야 하는 사용자 그룹 
 - 할당 해야 하는 특정 드라이브 문자 (필요한 경우)
 
-예제:
+예를 들어,
 
 | 드라이브 문자 | UNC 경로 | 사용자 그룹 |
 |--------------|----------|------------|
