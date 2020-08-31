@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: 삭제 된 Microsoft 365 그룹을 복원 하는 방법을 알아봅니다.
-ms.openlocfilehash: d7cf548816af1661298458f27c704d654845075d
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 8fb2cb3afdf390efae7854a040bb56df731cceaf
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818510"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307190"
 ---
 # <a name="restore-a-deleted-group"></a>삭제 된 그룹 복원
 
@@ -70,7 +70,7 @@ Microsoft 365 그룹의 소유자 인 경우 다음 단계를 수행 하 여 웹
 
 전역 관리자 또는 그룹 관리자 인 경우 Microsoft 365 관리 센터에서 삭제 된 그룹을 복원할 수 있습니다.
 
-1. [관리 센터로](https://admin.microsoft.com)이동 합니다.
+1. [관리 센터](https://admin.microsoft.com)로 이동합니다.
 2. **그룹**을 확장 한 다음 **삭제 된 그룹**을 클릭 합니다.
 3. 복원할 그룹을 선택한 다음 **그룹 복원을**클릭 합니다.
 
@@ -104,7 +104,7 @@ Remove-AzureADMSDeletedDirectoryObject -Id <objectId>
   
 ## <a name="related-articles"></a>관련 문서
 
-[PowerShell을 사용 하 여 Microsoft 365 그룹 관리](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell)
+[PowerShell을 사용 하 여 Microsoft 365 그룹 관리](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell)
   
 [Remove-UnifiedGroup cmdlet을 사용하여 그룹 삭제](https://technet.microsoft.com/library/mt238270%28v=exchg.160%29.aspx)
   

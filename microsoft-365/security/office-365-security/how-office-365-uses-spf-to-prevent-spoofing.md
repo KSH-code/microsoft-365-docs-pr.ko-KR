@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365에서 DNS의 SPF (Sender Policy Framework) TXT 레코드를 사용 하 여 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰 하는지 확인 하는 방법을 알아봅니다.
-ms.openlocfilehash: a86087f510dca328bb5b56af6fd4802f1f42a454
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 702c5de90c53388a3d55ad752010fbaa04b5556b
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44587487"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307652"
 ---
 # <a name="how-microsoft-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Microsoft 365에서 SPF(Sender Policy Framework)를 사용하여 스푸핑을 방지하는 방법
 
@@ -131,7 +131,7 @@ v=spf1 include:spf.protection.outlook.com -all
 
 이 문서의 구문 정보를 사용 하 여 사용자 지정 도메인에 대 한 SPF TXT 레코드를 구성 합니다. 여기에 나와 있지 않은 다른 구문 옵션도 있지만 가장 일반적으로 사용 되는 옵션은 다음과 같습니다. 레코드를 구성한 후에는 도메인 등록 기관에서 레코드를 업데이트해야 합니다.
 
-Microsoft 365에 대해 포함 해야 하는 도메인에 대 한 자세한 내용은 [SPF에 필요한 외부 DNS 레코드](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records)를 참조 하세요. 도메인 등록 기관에 대 한 SPF (TXT) 레코드를 업데이트 하는 단계별 [지침](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider#add-a-txt-record-for-spf-to-help-prevent-email-spam) 을 사용 합니다.
+Microsoft 365에 대해 포함 해야 하는 도메인에 대 한 자세한 내용은 [SPF에 필요한 외부 DNS 레코드](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records)를 참조 하세요. 도메인 등록 기관에 대 한 SPF (TXT) 레코드를 업데이트 하는 단계별 [지침](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider#add-a-txt-record-for-spf-to-help-prevent-email-spam) 을 사용 합니다.
 
 ### <a name="spf-txt-record-syntax-for-microsoft-365"></a>Microsoft 365에 대 한 SPF TXT 레코드 구문
 <a name="SPFSyntaxO365"> </a>
@@ -142,7 +142,7 @@ Microsoft 365의 일반적인 SPF TXT 레코드는 다음 구문을 포함 합�
 v=spf1 [<ip4>|<ip6>:<IP address>] [include:<domain name>] <enforcement rule>
 ```
 
-예시:
+예를 들어,
 
 ```text
 v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 include:spf.protection.outlook.com -all
@@ -156,7 +156,7 @@ v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 include:spf.protection.outlook.com -all
 
 - _Ip 주소_ 는 SPF TXT 레코드에 추가 하려는 ip 주소입니다. 일반적으로 조직에 대 한 아웃 바운드 메일 서버의 IP 주소입니다. 여러 아웃 바운드 메일 서버를 나열할 수 있습니다. 자세한 내용은 [예: SPF TXT record for a outbound 온-프레미스 메일 서버 및 Microsoft 365](how-office-365-uses-spf-to-prevent-spoofing.md#ExampleSPFMultipleMailServerO365)을 참조 하세요.
 
-- _도메인 이름은_ 합법적인 보낸 사람으로 추가 하려는 도메인입니다. Microsoft 365에 대해 포함 해야 하는 도메인 이름 목록은 [SPF에 필요한 외부 DNS 레코드](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records)를 참조 하세요.
+- _도메인 이름은_ 합법적인 보낸 사람으로 추가 하려는 도메인입니다. Microsoft 365에 대해 포함 해야 하는 도메인 이름 목록은 [SPF에 필요한 외부 DNS 레코드](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records)를 참조 하세요.
 
 - 적용 규칙은 일반적으로 다음 중 하나입니다.
 
@@ -193,7 +193,7 @@ v=spf1 ip4:192.168.0.1 include:spf.protection.outlook.com -all
 ### <a name="example-spf-txt-record-for-multiple-outbound-on-premises-mail-servers-and-microsoft-365"></a>예: 여러 아웃 바운드 온-프레미스 메일 서버 및 Microsoft 365에 대 한 SPF TXT 레코드
 <a name="ExampleSPFMultipleMailServerO365"> </a>
 
-아웃 바운드 메일 서버가 여러 개인 경우에는 각 메일 서버의 IP 주소를 SPF TXT 레코드에 포함 하 고 각 IP 주소를 공백으로 구분 하 고 "ip4:" 문을 입력 합니다. 예시:
+아웃 바운드 메일 서버가 여러 개인 경우에는 각 메일 서버의 IP 주소를 SPF TXT 레코드에 포함 하 고 각 IP 주소를 공백으로 구분 하 고 "ip4:" 문을 입력 합니다. 예를 들어,
 
 ```text
 v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 ip4:192.168.0.3 include:spf.protection.outlook.com -all
@@ -211,7 +211,7 @@ SPF는 스푸핑을 방지 하는 데 도움이 되지만 SPF에서 보호할 �
 
 사용자 지정 도메인에 대해 SPF TXT 레코드를 하나만 만들 수 있습니다. 여러 레코드를 만들면 라운드 로빈 상황이 발생 하 고 SPF가 실패 합니다. 이를 방지 하기 위해 각 하위 도메인에 대해 별도의 레코드를 만들 수 있습니다. 예를 들어 contoso.com에 대 한 레코드 하나 및 bulkmail.contoso.com에 대 한 다른 레코드를 만듭니다.
 
-전자 메일 메시지가 배달 되기 전에 10 개 보다 많은 DNS 조회가 발생 하는 경우 받는 메일 서버는 _permerror_라고도 하는 영구 오류로 응답 하 고 메시지에 SPF 확인이 실패 합니다. 받는 서버는 다음과 같은 오류가 포함 된 배달 못 함 보고서 (NDR)와 함께 응답할 수도 있습니다.
+전자 메일 메시지가 배달 되기 전에 10 개 보다 많은 DNS 조회가 발생 하는 경우 받는 메일 서버는  _permerror_라고도 하는 영구 오류로 응답 하 고 메시지에 SPF 확인이 실패 합니다. 받는 서버는 다음과 같은 오류가 포함 된 배달 못 함 보고서 (NDR)와 함께 응답할 수도 있습니다.
 
 - 메시지가 홉 수를 초과 했습니다.
 

@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 8a988cb053a5869c9cb57306fc0c78cdd7ba5ccc
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 07f63fd590c5ce9f5fabee942056a1f9c261bf55
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208819"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307839"
 ---
 # <a name="accountability-readiness-checklist-for-microsoft-365"></a>Microsoft 365에 대한 책임 준비 상태 검사 목록
 
@@ -137,7 +137,7 @@ GDPR 타일의 *고객 관리 컨트롤*에서 컨트롤 ID 및 컨트롤 제목
 | 2 <a name="2"> </a> | [Office 365 보안 설명서](https://docs.microsoft.com/microsoft-365/compliance/protect-access-to-data-and-services) |
 | 3 <a name="3"> </a> | [FedRAMP Moderate FedRAMP SSP(시스템 보안 계획)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=053666de-e359-43ef-a7bb-3cf379208ed8&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_FedRAMP_Reports) |
 | 4 <a name="4"> </a> | [Microsoft 클라우드 보안 정책](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=c83d1345-0cff-4beb-a521-27b837ed271a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) |
-| 5 <a name="5"> </a> | [GDPR에 대한 Office 365 정보 보호](https://docs.microsoft.com/office365/enterprise/office-365-information-protection-for-gdpr) |
+| 5 <a name="5"> </a> | [GDPR에 대한 Office 365 정보 보호](https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr) |
 | 6 <a name="6"> </a> | [사용자 데이터에 액세스할 수 있는 사람 및 관련 약관](https://www.microsoft.com/trustcenter/Privacy/Who-can-access-your-data-and-on-what-terms) |
 | 7 <a name="7"> </a> | [하위 프로세서에 대한 계약: Microsoft와 계약](https://www.microsoft.com/procurement/supplier-contracting.aspx#SSPA) |
 | 8 <a name="8"> </a> | [GDPR에 대한 365 데이터 주체 요청](https://aka.ms/DSROffice365) |

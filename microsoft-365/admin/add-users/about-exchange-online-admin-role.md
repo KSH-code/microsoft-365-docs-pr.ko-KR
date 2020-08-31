@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Exchange online 관리자는 조직의 전자 메일 및 사서함을 관리 합니다. 예를 들어 사용자 사서함에서 삭제 된 항목을 복구 합니다. '
-ms.openlocfilehash: d69ec803c8321c6417f587feafb2730de1d1e7b3
-ms.sourcegitcommit: 7f765670cb6970fdf7ddbad464ed3f8fe704bfaf
+ms.openlocfilehash: 0b63679883e8329782700085fa0c11a0ac6585ca
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "44909255"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307436"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>Exchange Online 관리자 역할 정보
 
@@ -36,7 +36,7 @@ Microsoft 365을 관리 하는 데 도움이 되도록 사용자에 게 [Exchang
   
 다음은 사용자가 Exchange 관리 역할에 할당 될 때 수행할 수 있는 몇 가지 주요 작업입니다.
   
-- [사용자 사서함에서 지운 편지함 복구 - 관리자 도움말](https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox)
+- [사용자 사서함에서 지운 편지함 복구 - 관리자 도움말](https://docs.microsoft.com/microsoft-365/enterprise/recover-deleted-items-in-a-mailbox)
     
 - [조직의 사서함에 대 한 보관 및 삭제 정책을 설정](https://docs.microsoft.com/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes)합니다.
     

@@ -25,12 +25,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 이 문서에서는 안전한 링크를 사용 하 여 피싱 및 기타 공격 으로부터 조직을 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: 5baf18c249d67551c7ae1eeb643a401ea16d2b6c
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: d9b3c981cb282c286a5b6edcea367c8c57ffd4d3
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656984"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307640"
 ---
 # <a name="atp-safe-links"></a>ATP 안전한 링크
 
@@ -57,7 +57,7 @@ ATP 안전한 링크 정책이 마련 되 면 전역 관리자, 보안 관리자
 
 - ATP 안전한 링크 정책은 전자 메일 및 Office 문서용으로 설정 됩니다. ( [ATP 안전한 링크 정책 설정](set-up-atp-safe-links-policies.md)참조)
 
-- Microsoft 365 클라이언트 앱은 최신 인증을 사용 하도록 구성 됩니다 (Office 문서에서 ATP 안전한 링크 보호를 위한 기능). ( [Office 2016의 최신 인증을](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016)참조 하세요.)
+- Microsoft 365 클라이언트 앱은 최신 인증을 사용 하도록 구성 됩니다 (Office 문서에서 ATP 안전한 링크 보호를 위한 기능). ( [Office 2016의 최신 인증을](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016)참조 하세요.)
 
 - 사용자가 회사 또는 학교 계정을 사용 하 여 로그인 한 경우 ( [Office에 로그인을](https://support.microsoft.com/office/b9582171-fd1f-4284-9846-bdd72bb28426)참조 하세요.)
 

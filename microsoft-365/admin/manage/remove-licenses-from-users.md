@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: 사용자 계정에서 라이선스를 할당 해제 하는 방법에 대해 알아봅니다.
 ms.date: 07/01/2020
-ms.openlocfilehash: 29dbdb89550d5bd9bd13071b184ffe1ca340f2a6
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 4441fd253c4cf5304562900bf31869eb4e0f21ff
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45015938"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47306542"
 ---
 # <a name="unassign-licenses-from-users"></a>사용자의 라이선스 할당 취소
 
@@ -45,7 +45,7 @@ ms.locfileid: "45015938"
 ## <a name="before-you-begin"></a>시작하기 전에
 
 - 라이선스 할당을 취소 하려면 전역, 라이선스, 사용자 관리자 여야 합니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](../add-users/about-admin-roles.md)를 참조하세요.
-- [Office 365 PowerShell로 사용자 계정에서 라이선스를 제거](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)할 수 있습니다.
+- [Office 365 PowerShell로 사용자 계정에서 라이선스를 제거](https://docs.microsoft.com/microsoft-365/enterprise/remove-licenses-from-user-accounts-with-microsoft-365-powershell)할 수 있습니다.
 - 라이선스가 할당 된 [사용자 계정을 삭제](../add-users/delete-a-user.md) 하 여 다른 사용자가 라이선스를 사용할 수 있도록 할 수도 있습니다. 사용자 계정을 삭제 하면 해당 라이선스를 즉시 다른 사람에 게 할당할 수 있습니다.
 
 ::: moniker range="o365-worldwide"
@@ -54,7 +54,7 @@ ms.locfileid: "45015938"
 
 **라이선스** 페이지를 사용 하 여 라이선스 할당을 취소 하는 경우 최대 20 명의 사용자에 대 한 특정 제품의 라이선스 할당을 취소 합니다.
 
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지로 이동합니다.
 2. 라이선스의 할당을 취소할 제품을 선택 합니다.
 3. 라이선스의 할당을 취소할 사용자를 선택 합니다.
 4. **라이선스 할당**해제를 선택 합니다.

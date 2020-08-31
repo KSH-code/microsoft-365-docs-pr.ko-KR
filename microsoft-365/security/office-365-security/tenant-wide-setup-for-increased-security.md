@@ -19,12 +19,12 @@ ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 ms.custom:
 - seo-marvel-apr2020
 description: 이 항목에서는 Microsoft 365 환경의 보안에 영향을 주는 테 넌 트 수준 설정에 대 한 권장 구성을 안내 합니다.
-ms.openlocfilehash: 821221e9a7602b7eaaf6850284468abd486cf501
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 3a69a27aa544880e428562892832b6d33a2508e4
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653560"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308222"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>보안 강화를 위해 Microsoft 365 테 넌 트 구성
 
@@ -77,7 +77,7 @@ Exchange 관리 센터의 보안 및 보호를 위한 대부분의 컨트롤은 
 |영역|기본 정책 포함|권장 사항|
 |---|---|---|
 |**메일 흐름** (전송 규칙이 라고도 함)|아니요|매크로가 포함 된 Office 파일 형식이 나 실행 파일 형식을 차단 하 여 랜 섬 웨어를 보호할 수 있는 메일 흐름 규칙을 추가 합니다. 자세한 내용은 [메일 흐름 규칙을 사용 하 여 Exchange Online의 메시지 첨부 파일 검사](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments)를 참조 하세요. <br/><br/> 다음 추가 항목을 참조 하세요. <br/>* [랜 섬 웨어 로부터 보호](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/secure-your-business-data#ransomware)<br/>* [Office 365의 맬웨어 및 랜 섬 웨어 보호](https://docs.microsoft.com/Office365/Enterprise/office-365-malware-and-ransomware-protection) <br/>* [Office 365에서 랜 섬 웨어 공격 으로부터 복구](recover-from-ransomware.md) <br/><br/> 메일 흐름 규칙을 만들어 외부 도메인으로 전자 메일을 자동 전달 하지 못하게 합니다. 자세한 내용은 [보안 점수를 사용한 클라이언트 외부 전달 규칙 완화](https://docs.microsoft.com/archive/blogs/office365security/mitigating-client-external-forwarding-rules-with-secure-score)를 참조 하세요. <br/><br/> 추가 정보: [Exchange Online의 메일 흐름 규칙 (전송 규칙)](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)|
-|**최신 인증 사용**|아니요|최신 인증은 MFA (multi-factor authentication)를 사용 하기 위한 필수 구성 요소입니다. 전자 메일을 비롯 한 클라우드 리소스 액세스를 보호 하려면 MFA를 사용 하는 것이 좋습니다. <br/><br/> 다음 항목을 참조 하세요. <br/>* [Exchange Online에서 최신 인증을 사용 하거나 사용 하지 않도록 설정](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) <br/>* [비즈니스용 Skype Online: 최신 인증용으로 테 넌 트를 사용 하도록 설정](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx) <br/><br/> 최신 인증은 Office 2016 클라이언트, SharePoint Online 및 비즈니스용 OneDrive에 기본적으로 사용 하도록 설정 되어 있습니다. <br/><br/> 추가 정보: [office 2013 및 office 2016 클라이언트 앱에 대 한 최신 인증이 작동 하는 방식](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016)|
+|**최신 인증 사용**|아니요|최신 인증은 MFA (multi-factor authentication)를 사용 하기 위한 필수 구성 요소입니다. 전자 메일을 비롯 한 클라우드 리소스 액세스를 보호 하려면 MFA를 사용 하는 것이 좋습니다. <br/><br/> 다음 항목을 참조 하세요. <br/>* [Exchange Online에서 최신 인증을 사용 하거나 사용 하지 않도록 설정](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) <br/>* [비즈니스용 Skype Online: 최신 인증용으로 테 넌 트를 사용 하도록 설정](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx) <br/><br/> 최신 인증은 Office 2016 클라이언트, SharePoint Online 및 비즈니스용 OneDrive에 기본적으로 사용 하도록 설정 되어 있습니다. <br/><br/> 추가 정보: [office 2013 및 office 2016 클라이언트 앱에 대 한 최신 인증이 작동 하는 방식](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016)|
 |
 
 ## <a name="configure-tenant-wide-sharing-policies-in-sharepoint-admin-center"></a>SharePoint 관리 센터에서 테 넌 트 수준 공유 정책 구성

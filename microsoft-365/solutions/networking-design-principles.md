@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 778693787c3d26806b02a2ffbde57e3347326d87
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: a005d56dcca08c05eb433ef75ca3870785b39f19
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522268"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308132"
 ---
 # <a name="networking-up-to-the-cloud--one-architects-viewpoint"></a>네트워킹 업 (클라우드)-설계자의 관점 1 개
 
@@ -84,9 +84,9 @@ UDP를 사용 하는 Office 365의 서비스는 비즈니스용 Skype (곧 폐�
 ### <a name="split-tunneling-may-seem-scary"></a>분할 터널링은 무서운 것 처럼 보일 수 있음
 하지만 그렇지 않습니다. Office 365에 대 한 모든 연결은 TLS를 통해 수행 됩니다. 지금까지 상당히 많은 경우 TLS 1.2를 제공 하며, 레거시 클라이언트가 여전히이를 사용 하므로 이전 버전을 곧 사용할 수 없게 됩니다.
 
-TLS 연결을 강제 하거나 이러한 연결이 32 되기 전에 VPN을 계속 실행 하는 경우에는 서비스에서 보안을 추가 하지 않습니다. 대기 시간이 추가 되 고 전반적인 처리량이 감소 합니다. 일부 VPN 솔루션에서는 UDP가 TCP를 통해 터널링 되도록 강제 하 여 스트리밍 트래픽에 아주 부정적인 영향을 줄 수도 있습니다. 또한 TLS 검사를 수행 하는 경우가 아니면, 모든 단점은 발생 하지 않습니다. 고객 들이 아주 일반적인 주제 이며, 이제 대부분의 직원이 원격 이기 때문에, 모든 사용자가 [Office 365 끝점을 최적화](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#new-office-365-endpoint-categories)하기 위해 분할 터널링을 구성 하는 것이 아니라, 현재는 직원 들이 VPN을 사용 하 여 연결을 설정 하는 것 보다 상당한 대역폭과 성능 상의 영향을 볼 수 있다는 것입니다.
+TLS 연결을 강제 하거나 이러한 연결이 32 되기 전에 VPN을 계속 실행 하는 경우에는 서비스에서 보안을 추가 하지 않습니다. 대기 시간이 추가 되 고 전반적인 처리량이 감소 합니다. 일부 VPN 솔루션에서는 UDP가 TCP를 통해 터널링 되도록 강제 하 여 스트리밍 트래픽에 아주 부정적인 영향을 줄 수도 있습니다. 또한 TLS 검사를 수행 하는 경우가 아니면, 모든 단점은 발생 하지 않습니다. 고객 들이 아주 일반적인 주제 이며, 이제 대부분의 직원이 원격 이기 때문에, 모든 사용자가 [Office 365 끝점을 최적화](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-network-connectivity-principles#new-office-365-endpoint-categories)하기 위해 분할 터널링을 구성 하는 것이 아니라, 현재는 직원 들이 VPN을 사용 하 여 연결을 설정 하는 것 보다 상당한 대역폭과 성능 상의 영향을 볼 수 있다는 것입니다.
 
-분할 터널링을 수행 하는 쉬운 문제를 해결 하는 데 도움이 됩니다. 자세한 내용은 [VPN 분할 터널링을 사용 하 여 원격 사용자에 대 한 Office 365 연결 최적화](https://docs.microsoft.com/office365/enterprise/office-365-vpn-split-tunnel)를 참조 하십시오.
+분할 터널링을 수행 하는 쉬운 문제를 해결 하는 데 도움이 됩니다. 자세한 내용은 [VPN 분할 터널링을 사용 하 여 원격 사용자에 대 한 Office 365 연결 최적화](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel)를 참조 하십시오.
 
 
 ## <a name="the-sins-of-the-past"></a>이전의 죄
@@ -108,32 +108,32 @@ TLS 연결을 강제 하거나 이러한 연결이 32 되기 전에 VPN을 계�
 
 ## <a name="further-reading"></a>추가 정보
 
-[Office 365 네트워크 연결 원칙](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles)
+[Office 365 네트워크 연결 원칙](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)
 
-[Office 365 URL 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)
+[Office 365 URL 및 IP 주소 범위](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)
 
-[Office 365 끝점 관리](https://docs.microsoft.com/office365/enterprise/managing-office-365-endpoints)
+[Office 365 끝점 관리](https://docs.microsoft.com/microsoft-365/enterprise/managing-office-365-endpoints)
 
-[Office 365 IP 주소 및 URL 웹 서비스](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service)
+[Office 365 IP 주소 및 URL 웹 서비스](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-ip-web-service)
 
-[Office 365 네트워크 연결 평가](https://docs.microsoft.com/office365/enterprise/assessing-network-connectivity) 
+[Office 365 네트워크 연결 평가](https://docs.microsoft.com/microsoft-365/enterprise/assessing-network-connectivity) 
 
-[Office 365 네트워크 및 성능 조정](https://docs.microsoft.com/office365/enterprise/network-planning-and-performance)
+[Office 365 네트워크 및 성능 조정](https://docs.microsoft.com/microsoft-365/enterprise/network-planning-and-performance)
 
-[Office 365 네트워크 연결 평가](https://docs.microsoft.com/office365/enterprise/assessing-network-connectivity) 
+[Office 365 네트워크 연결 평가](https://docs.microsoft.com/microsoft-365/enterprise/assessing-network-connectivity) 
 
-[초기 계획 및 성능 기록을 사용하여 Office 365 성능 조정](https://docs.microsoft.com/office365/enterprise/performance-tuning-using-baselines-and-history)
+[초기 계획 및 성능 기록을 사용하여 Office 365 성능 조정](https://docs.microsoft.com/microsoft-365/enterprise/performance-tuning-using-baselines-and-history)
 
-[Office 365 성능 문제 해결 계획](https://docs.microsoft.com/office365/enterprise/performance-troubleshooting-plan)
+[Office 365 성능 문제 해결 계획](https://docs.microsoft.com/microsoft-365/enterprise/performance-troubleshooting-plan)
 
-[콘텐츠 배달 네트워크](https://docs.microsoft.com/office365/enterprise/content-delivery-networks)
+[콘텐츠 배달 네트워크](https://docs.microsoft.com/microsoft-365/enterprise/content-delivery-networks)
 
-[Microsoft 365 연결성 테스트](https://connectivity.office.com/)
+[Microsoft 365 연결 테스트](https://connectivity.office.com/)
 
-[Microsoft가 빠르고 안정적인 글로벌 네트워크를 구축 하는 방법](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)
+[Microsoft가 빠르고 안정적인 글로벌 네트워크를 구축하는 방법](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)
 
 [Office 365 네트워킹 블로그](https://techcommunity.microsoft.com/t5/office-365-networking/bd-p/Office365Networking)
 
-[VPN 분할 터널링을 사용 하는 원격 사용자에 대 한 Office 365 연결](https://docs.microsoft.com/office365/enterprise/office-365-vpn-split-tunnel)
+[VPN 분할 터널링을 사용 하는 원격 사용자에 대 한 Office 365 연결](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel)
 
 

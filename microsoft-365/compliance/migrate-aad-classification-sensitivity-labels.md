@@ -10,12 +10,12 @@ ms.topic: article
 ms.service: o365-seccomp
 localization_priority: Normal
 description: 이 문서에서는 기존 Azure Active Directory 분류 및 민감도 레이블에 대해 설명 합니다.
-ms.openlocfilehash: f11473653884392048d5f9a84f8e284dba5f6f27
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: 38a3dbe727f3d0759d427944016ae98440f2686f
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755392"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308175"
 ---
 # <a name="azure-active-directory-classification-and-sensitivity-labels-for-microsoft-365-groups"></a>Microsoft 365 그룹에 대 한 Azure Active Directory 분류 및 민감도 레이블
 
@@ -52,7 +52,7 @@ ms.locfileid: "44755392"
 > - 그러나 사용자가 그룹을 편집 하 고 민감도 레이블과 함께 그룹을 저장 하면 선택한 개인 정보 설정이 적용 된 민감도 레이블의 개인 정보 설정에 의해 재정의 됩니다.
 > 이전 버전의 Outlook 클라이언트에 대 한 사용자가 최신 버전으로 업그레이드 하는 것이 좋습니다.
 
-## <a name="scenario-2-tenant-is-already-using-classic-aad-classifications"></a>시나리오 2: 테 넌 트가 이미 클래식 AAD [분류](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization) 를 사용 하 고 있습니다.
+## <a name="scenario-2-tenant-is-already-using-classic-aad-classifications"></a>시나리오 2: 테 넌 트가 이미 클래식 AAD [분류](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell) 를 사용 하 고 있습니다.
 
 ### <a name="case-a-tenant-never-used-sensitivity-labels-for-documents-and-emails"></a>사례 A: 테 넌 트가 문서 및 전자 메일에 대 한 민감도 레이블을 사용 하지 않음
 

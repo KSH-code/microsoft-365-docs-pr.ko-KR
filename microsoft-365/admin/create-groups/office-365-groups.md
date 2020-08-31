@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 그룹에 대해 알아봅니다.
-ms.openlocfilehash: 6922e6bf8561d0600c25de9768669d90e959ff26
-ms.sourcegitcommit: 4789b261eb029d7c965421a1260acc110e6385db
+ms.openlocfilehash: 711ab7e7818b266d7cbdbe076e30355d29bc3eeb
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45387402"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307268"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>관리자를 위한 Microsoft 365 그룹 개요
 
@@ -62,7 +62,7 @@ Microsoft 365 그룹에서는 그룹에 사용자를 추가 하는 경우 그룹
 
 Microsoft 365 그룹의 수명 주기를 보다 자동화 된 방식으로 관리 하려면 만료 정책을 사용 하 여 특정 시간 간격으로 그룹을 만료 시킬 수 있습니다. 그룹 소유자는 그룹 만료를 위해 30, 15, 1 일 전에 전자 메일을 받게 되며,이는 여전히 필요한 경우 그룹을 쉽게 갱신할 수 있도록 합니다. 참고: [Microsoft 365 그룹 만료 정책](office-365-groups-expiration-policy.md)
 
-Microsoft 365 관리 센터에서 또는 [PowerShell을 사용](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell)하 여 그룹을 관리할 수 있습니다.
+Microsoft 365 관리 센터에서 또는 [PowerShell을 사용](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershel)하 여 그룹을 관리할 수 있습니다.
 
 대기업 또는 기업 등의 사용자가 많은 경우 다양 한 용도로 그룹을 만드는 사용자가 여러 명 있을 수 있습니다. 모범 사례를 보려면 [Microsoft 365 그룹의 거 버 넌 스 계획](plan-for-groups-governance.md) 을 검토 하는 것이 좋습니다.
 
@@ -120,6 +120,6 @@ Microsoft 365 groups는 AAD (Azure Active Directory)를 사용 하 여 작동 �
 
 [Microsoft 365 그룹으로 메일 그룹 업그레이드](../manage/upgrade-distribution-lists.md)
 
-[PowerShell을 사용 하 여 Microsoft 365 그룹 관리](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell)
+[PowerShell을 사용 하 여 Microsoft 365 그룹 관리](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell)
 
 [SharePoint Online 제한 사항](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)

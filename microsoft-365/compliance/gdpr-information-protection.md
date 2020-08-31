@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 196cbc0ebc05683315766b736dd9d5fc2d92afd2
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: 02dbb22ad47fbacf964308d2b4a989f34b6d6c9d
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214572"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307685"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>Microsoft 365 기능을 사용한 GDPR에 대한 정보 보호
 
@@ -32,9 +32,9 @@ Microsoft가 GDPR 준수에 도움을 주는 방식에 대한 자세한 내용�
 
 ## <a name="information-protection"></a>정보 보호
 
-Office 365는 다양한 데이터 거버넌스 기능을 제공합니다. 개인 데이터의 찾기, 분류, 보호 및 모니터링에 대한 도움말을 보려면 [GDPR에 대한 Office 365 정보 보호](https://docs.microsoft.com/office365/enterprise/office-365-information-protection-for-gdpr)를 참조하세요.
+Office 365는 다양한 데이터 거버넌스 기능을 제공합니다. 개인 데이터의 찾기, 분류, 보호 및 모니터링에 대한 도움말을 보려면 [GDPR에 대한 Office 365 정보 보호](https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr)를 참조하세요.
 
-파일 공유, SharePoint Server, Exchange Server, 비즈니스용 Skype 서버, Project Server 및 Office Online Server 등의 온-프레미스 서버에 대한 도움말은 [온-프레미스 Office 서버에 대한 GDPR](https://docs.microsoft.com/office365/enterprise/gdpr-for-office-servers)을 참조하세요. 
+파일 공유, SharePoint Server, Exchange Server, 비즈니스용 Skype 서버, Project Server 및 Office Online Server 등의 온-프레미스 서버에 대한 도움말은 [온-프레미스 Office 서버에 대한 GDPR](https://docs.microsoft.com/microsoft-365/compliance/gdpr-for-office-servers)을 참조하세요. 
 
 ## <a name="identity-and-access-management"></a>ID 및 액세스 관리
 
@@ -50,7 +50,7 @@ Azure Active Directory 및 기타 Microsoft 365 기능은 ID 및 장치로부터
 Microsoft에서는 시작점으로 사용할 수 있는 권장 구성을 제공합니다.
 
 - [ID 및 장치 액세스 구성](../enterprise/microsoft-365-policies-configurations.md): 3가지 보호 계층(기준선, 중요, 높은 규제)을 달성하기 위한 권장 정책 구성입니다. 이 가이드에는 Exchange Online 및 SharePoint Online(비즈니스용 OneDrive 포함)에 대한 권장 정책이 포함되어 있습니다.
-- [정치적 캠페인, 비영리 조직 및 긴급 구성 조직을 위한 보안 지침](https://docs.microsoft.com/office365/enterprise/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o): 여기에는 동일한 정책 집합이 포함되지만, BYOD 환경 및 B2B 계정에 대한 더 많은 지침이 제공됩니다.
+- [정치적 캠페인, 비영리 조직 및 긴급 구성 조직을 위한 보안 지침](https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o): 여기에는 동일한 정책 집합이 포함되지만, BYOD 환경 및 B2B 계정에 대한 더 많은 지침이 제공됩니다.
 
 ## <a name="threat-protection"></a>위협 방지
 

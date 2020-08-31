@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
-ms.openlocfilehash: 36e62600836c66b9e7be61ddd07a6081af4ffbeb
-ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
+ms.openlocfilehash: d2035ed0805215f1bd8e343f9edf1c557035b5c1
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46632166"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307850"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 
@@ -83,7 +83,7 @@ SPF는 메시지 봉투에 정보를 추가하지만 DKIM은 실제로 메시지
 
 1. **이미 DKIM을 구성한 경우** 다음과 같이 비트를 회전시킵니다:
 
-   1. [PowerShell을 통해 Office 365 작업 부하에 연결합니다](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window). (Cmdlet은 Exchange Online에서 제공됩니다.)
+   1. [PowerShell을 통해 Office 365 작업 부하에 연결합니다](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window). (Cmdlet은 Exchange Online에서 제공됩니다.)
    1. 다음 명령을 실행합니다.
 
       ```powershell 
@@ -92,7 +92,7 @@ SPF는 메시지 봉투에 정보를 추가하지만 DKIM은 실제로 메시지
 
 1. 또는 **DKIM의 새로운 구현의 경우**:
 
-   1. [PowerShell을 통해 Office 365 작업 부하에 연결합니다](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window). (이는 Exchange Online cmdlet입니다.)
+   1. [PowerShell을 통해 Office 365 작업 부하에 연결합니다](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window). (이는 Exchange Online cmdlet입니다.)
    1. 다음 명령을 실행합니다.
 
       ```powershell

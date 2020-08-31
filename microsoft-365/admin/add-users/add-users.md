@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: 동시에 Microsoft 365에 사용자를 추가 하 고 라이선스를 할당 하는 방법에 대해 알아봅니다.
 ms.date: 07/01/2020
-ms.openlocfilehash: 016c98fc93bfa1a92274a5b991cf8adbd1131bc9
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 6745285600b6c5a62b4327d7174b2c249ff5276c
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45015890"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307376"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>사용자 추가 및 동시에 라이선스 할당
 
@@ -41,7 +41,7 @@ ms.locfileid: "45015890"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-사용자를 추가 하 고 라이선스를 할당 하려면 전역, 라이선스 또는 사용자 관리자 여야 합니다. 자세한 내용은 [관리 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조 하세요.
+사용자를 추가 하 고 라이선스를 할당 하려면 전역, 라이선스 또는 사용자 관리자 여야 합니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 
 ## <a name="watch-add-users-in-the-admin-center"></a>시청: 관리 센터에서 사용자 추가
 
@@ -100,9 +100,9 @@ ms.locfileid: "45015890"
 
 다음 방법 중 하나를 사용 하 여 여러 사용자를 동시에 추가할 수 있습니다.
   
-- **스프레드시트를 사용 하 여 사용자를 대량으로 추가 합니다.** 동시 [에 여러 사용자 추가](https://docs.microsoft.com/office365/enterprise/add-several-users-at-the-same-time)를 참조 하세요.
-- **계정 추가 및 라이선스 할당을 자동화 합니다.** [Office 365 PowerShell을 사용 하 여 사용자 계정 만들기를](https://docs.microsoft.com/office365/enterprise/powershell/create-user-accounts-with-office-365-powershell)참조 하세요. Windows PowerShell cmdlet을 사용 하는 것이 이미 익숙한 경우이 방법을 선택 합니다.
-- **ActiveDirectory 사용** [Office 365에 대 한 디렉터리 동기화를 설정](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization)합니다. Microsoft 365에서 Azure AD Connect 도구를 사용 하 여 Active Directory 사용자 계정 및 기타 Active Directory 개체를 복제 합니다. 동기화하면 사용자 계정만 추가됩니다. 동기화 된 사용자에 게 라이선스를 할당 해야 전자 메일 및 기타 Office 앱을 사용할 수 있습니다.
+- **스프레드시트를 사용 하 여 사용자를 대량으로 추가 합니다.** 동시 [에 여러 사용자 추가](https://docs.microsoft.com/microsoft-365/enterprise/add-several-users-at-the-same-time)를 참조 하세요.
+- **계정 추가 및 라이선스 할당을 자동화 합니다.** [Microsoft 365 PowerShell을 사용 하 여 사용자 계정 만들기를](https://docs.microsoft.com/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell)참조 하세요. Windows PowerShell cmdlet을 사용 하는 것이 이미 익숙한 경우이 방법을 선택 합니다.
+- **ActiveDirectory 사용** [Microsoft 365에 대 한 디렉터리 동기화를 설정](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization)합니다. Microsoft 365에서 Azure AD Connect 도구를 사용 하 여 Active Directory 사용자 계정 및 기타 Active Directory 개체를 복제 합니다. 동기화하면 사용자 계정만 추가됩니다. 동기화 된 사용자에 게 라이선스를 할당 해야 전자 메일 및 기타 Office 앱을 사용할 수 있습니다.
 - **Exchange에서 마이그레이션 여부** [여러 전자 메일 계정을 Office 365로 마이그레이션하는 방법을](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration)참조 하세요. 두 개 이상의 사서함을 Microsoft 365로 마이그레이션하는 경우, 단계적으로 또는 하이브리드 Exchange 방법을 사용 하 여 사용자를 마이그레이션의 일부로 자동으로 추가할 수 있습니다. 마이그레이션하면 사용자 계정만 추가됩니다. 사용자에 게 라이선스를 할당 해야 전자 메일 및 기타 Office 앱을 사용할 수 있습니다. 사용자에 게 라이선스를 할당 하지 않으면 유예 기간이 30 일 후에 사서함이 사용 하지 않도록 설정 됩니다. Microsoft 365 관리 센터에서 [사용자에 게 라이선스를 할당](../manage/assign-licenses-to-users.md) 하는 방법을 알아봅니다.
 
 ## <a name="next-steps"></a>다음 단계
@@ -112,7 +112,7 @@ ms.locfileid: "45015890"
 ## <a name="related-content"></a>관련 콘텐츠
 
 [Microsoft 365에 새 직원 추가](add-new-employee.md) (문서) \
-동시에 [여러 사용자 추가 Microsoft 365](https://docs.microsoft.com/office365/enterprise/add-several-users-at-the-same-time) (문서) \
+동시에 [여러 사용자 추가 Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/add-several-users-at-the-same-time) (문서) \
 [Microsoft 365에서 사용자 복원](restore-user.md) (문서) \
 [사용자에 게 라이선스 할당](../manage/assign-licenses-to-users.md) (문서) \
 [조직에서 사용자 삭제](delete-a-user.md) (문서)

@@ -21,12 +21,12 @@ ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: Microsoft Teams에서의 파일을 보호하기 위한 구성 권장 사항입니다.
-ms.openlocfilehash: d0c3d065da912c37ca21e6ea4300a30c5e7195b8
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: aea542d92e981e286062fc07b7e559b5f36427d4
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527805"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307730"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>세 가지 보호 계층으로 Teams 구성
 
@@ -42,11 +42,8 @@ ms.locfileid: "46527805"
 
 - 매우 중요한 보호
 
-이러한 계층 및 각 계층에 권장되는 기능에 대한 자세한 내용은 다음 리소스를 참조하세요.
+각 계층에 권장되는 계층과 기능에 대한 자세한 내용은 [엔터프라이즈 설계자를 위한 Microsoft 클라우드](https://docs.microsoft.com/microsoft-365/solutions/cloud-architecture-models)를 참조하세요.
 
-- [Office 365용 ID 및 장치 보호](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#identity-and-device-protection-for-office-365)
-
-- [Office 365의 파일 보호 솔루션](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#file-protection-solutions-in-office-365)
 
 ## <a name="three-tiers-at-a-glance"></a>세 계층에 대한 간략한 정보
 

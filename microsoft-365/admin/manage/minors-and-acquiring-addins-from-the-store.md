@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 미성년자가의 개인 데이터를 제어 하는 GDPR (일반 데이터 보호 규정) 규정에 대해 알아봅니다.
-ms.openlocfilehash: dcf2c98906830e0007747e2dd90e67b9dc85a5bb
-ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
+ms.openlocfilehash: a738e22a0ac0b995c8e44fcf4cc5a2eb47375be5
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "45103121"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47306554"
 ---
 # <a name="minors-and-acquiring-add-ins-from-the-store"></a>미성년자가을 사용 하 여 스토어에서 추가 기능 가져오기
 
@@ -65,7 +65,7 @@ GDPR (일반 데이터 보호 규정)은 실제 5 월 25 일 2018이 되는 유�
   
 Windows 용 Word, Excel 및 PowerPoint 2013은 ADAL (Active Directory 인증 라이브러리)을 사용 하는 경우 동일한 미성년자가 검사를 지원 합니다. 다음에 설명 된 대로 준수에 대 한 두 가지 옵션이 있습니다.
   
-- **ADAL을 사용 하도록 설정**합니다. 이 문서에서는 Office [365](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016)2013에 대해 ADAL을 사용 하도록 설정 하는 방법에 대해 설명 합니다.<br/>또한 [Windows 장치에서 Office 2013에 대 한 최신 인증 사용](../security-and-compliance/enable-modern-authentication.md)에 설명 된 대로 ADAL을 사용 하도록 레지스트리 키를 설정 해야 합니다.<br/>또한 Office 2013에 대 한 다음 4 월 업데이트를 설치 해야 합니다.
+- **ADAL을 사용 하도록 설정**합니다. 이 문서에서는 Office [365](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016)2013에 대해 ADAL을 사용 하도록 설정 하는 방법에 대해 설명 합니다.<br/>또한 [Windows 장치에서 Office 2013에 대 한 최신 인증 사용](../security-and-compliance/enable-modern-authentication.md)에 설명 된 대로 ADAL을 사용 하도록 레지스트리 키를 설정 해야 합니다.<br/>또한 Office 2013에 대 한 다음 4 월 업데이트를 설치 해야 합니다.
     
   - [Office 2013의 보안 업데이트에 대 한 설명: 2018 년 4 월 10 일](https://support.microsoft.com/help/4018330/description-of-the-security-update-for-office-2013-april-10-2018)
     
@@ -75,7 +75,7 @@ Windows 용 Word, Excel 및 PowerPoint 2013은 ADAL (Active Directory 인증 라
 
 ## <a name="related-articles"></a>관련 문서
 
-[관리 센터에 추가 기능 배포](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)
+[관리 센터에서 추가 기능 배포](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)
 
 [관리 센터에서 추가 기능 관리](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center)
     

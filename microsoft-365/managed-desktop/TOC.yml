@@ -102,6 +102,8 @@
               href: get-started/project-visio.md
             - name: 새 Microsoft Edge
               href: get-started/edge-browser-app.md
+            - name: 엔터프라이즈용 Microsoft 365 앱
+              href: get-started/m365-apps.md
     - name: Microsoft Managed Desktop 사용
       href: working-with-managed-desktop/index.md
       items:
@@ -123,7 +125,7 @@
               href: working-with-managed-desktop/security-update-insights.md
         - name: 관리자 지원
           href: working-with-managed-desktop/admin-support.md
-        - name: 최종 사용자 지원
+        - name: 사용자 지원
           href: working-with-managed-desktop/end-user-support.md
         - name: 앱 관리
           href: working-with-managed-desktop/manage-apps.md

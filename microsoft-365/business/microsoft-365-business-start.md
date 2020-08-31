@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: 비즈니스에 대 한 Microsoft 365, 비즈니스를 설정 하는 방법, 그리고 Microsoft 365 for business에서 보호 되는 사용자의 장치 및 Pc를 준비 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: aedcf78f10707dbe6a1d1527effea7d56283dce0
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: ec50036f589cfd8497b0e7e9af6519b30d25dcd3
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45080046"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47306492"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Microsoft 365 for business 시작
 
@@ -82,7 +82,7 @@ Microsoft 365 for business setup의 개요를 보려면이 비디오를 시청 �
     
     - Exchange 2010, Exchange 2013 또는 Exchange 2016 server도 있는 경우 최소 하이브리드를 사용 하 여 [exchange 사서함을 Microsoft 365로 빠르게 마이그레이션할](https://docs.microsoft.com/Exchange/mailbox-migration/use-minimal-hybrid-to-quickly-migrate)수 있습니다. 최소 하이브리드 단계에는 Azure AD에 대 한 사용자 동기화 및 온-프레미스에서 클라우드로의 전자 메일 마이그레이션 등이 포함 됩니다. 전자 메일 마이그레이션이 완료 되 면이 방법을 사용할 때 디렉터리 동기화가 자동으로 해제 됩니다.
     
-    - 디렉터리 동기화 마법사를 사용 하 여 사용자를 클라우드와 동기화 합니다. [Microsoft 365에 대 한 디렉터리 동기화 설정](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) 의 단계에 따라이 프로세스를 완료 합니다. 사용자를 클라우드에 동기화 한 후 [에는 Microsoft 365에 대 한 디렉터리 동기화를 해제](https://docs.microsoft.com/office365/enterprise/turn-off-directory-synchronization)해야 합니다.
+    - 디렉터리 동기화 마법사를 사용 하 여 사용자를 클라우드와 동기화 합니다. [Microsoft 365에 대 한 디렉터리 동기화 설정](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization) 의 단계에 따라이 프로세스를 완료 합니다. 사용자를 클라우드에 동기화 한 후 [에는 Microsoft 365에 대 한 디렉터리 동기화를 해제](https://docs.microsoft.com/microsoft-365/enterprise/turn-off-directory-synchronization)해야 합니다.
     
     또한이 방식으로 추가 된 각 사용자에 게 Microsoft 365에 대 한 라이선스를 제공 해야 합니다. [설치 마법사](set-up.md) 에서이 작업을 수행 하거나 [사용자에 게 라이선스를 할당할](../admin/manage/assign-licenses-to-users.md)수 있습니다.
     

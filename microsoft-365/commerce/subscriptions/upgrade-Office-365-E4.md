@@ -20,12 +20,12 @@ search.appverid:
 description: Office 365 E4 구독에서 업그레이드 하는 방법을 알아봅니다.
 ms.date: 08/14/2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3ab3ac1c85dc3726585f9c414449ff4847626fc8
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 2587732a6c4092dcb7b53daf9493e7cee2f1987c
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692701"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308008"
 ---
 # <a name="upgrade-from-an-office-365-e4-subscription"></a>Office 365 E4 구독에서 업그레이드
 
@@ -130,7 +130,7 @@ ms.locfileid: "46692701"
 Microsoft 365 관리 센터를 사용 하 여 한 번에 최대 20 명의 사용자에 게 라이선스를 다시 할당할 수 있습니다. 방법을 알아보려면 [사용자를 다른 구독으로 이동을](move-users-different-subscription.md)참조 하세요.
 
 > [!TIP]
-> 사용자 수가 많은 경우 [Office 365 PowerShell을 사용 하 여 사용자 라이선스를 대량으로 할당할](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)수 있습니다.
+> 사용자 수가 많은 경우 [Office 365 PowerShell을 사용 하 여 사용자 라이선스를 대량으로 할당할](https://docs.microsoft.com/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell)수 있습니다.
 
 ### <a name="step-4-cancel-the-office-365-e4-subscription"></a>4 단계: Office 365 E4 구독 취소
 

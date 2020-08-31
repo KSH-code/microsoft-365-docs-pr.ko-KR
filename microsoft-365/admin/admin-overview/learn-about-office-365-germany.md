@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: 8a5a4bbc-667a-4cac-8769-d8ac9015db4c
 description: Office 365 독일에 대해 알아봅니다.
-ms.openlocfilehash: e17ce259837167dd4b2b0ab894b00318103f73a5
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 694f1a2ebbe3740c09cb306a26729b6482497d0b
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386796"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307280"
 ---
 # <a name="learn-about-office-365-germany"></a>독일 Office 365에 대해 알아보기
 
@@ -45,7 +45,7 @@ Office 365 독일 계획 제공은이 격리 된 환경에서 글로벌 제공�
   
 다음과 같은 서비스 및 기능을 일부 [Office 365 Germany 구독 요금제](https://go.microsoft.com/fwlink/p/?linkid=839016)에서 사용할 수 있습니다. 또한 [온라인 서비스 약관](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=46)을 참조하세요.
   
-- Microsoft 365 Apps for enterprise, Office 2016 및 Office 2013<sup>1</sup> Office 2013에서는 office [클라이언트에 office 365 최신 인증을 사용](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016)해야 합니다.
+- Microsoft 365 Apps for enterprise, Office 2016 및 Office 2013<sup>1</sup> Office 2013에서는 office [클라이언트에 office 365 최신 인증을 사용](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016)해야 합니다.
     
 - Exchange Online
     
@@ -93,7 +93,7 @@ Office 365 독일 계획 제공은이 격리 된 환경에서 글로벌 제공�
 |-----|-----|
 |포털 로그인  <br/> |[https://portal.office.de](https://portal.office.de)  <br/> |
 |구독, 청구 및 기술 지원  <br/> |독일어 및 영어로 제공 되는 독일 기반 지원, 자세한 내용은 [비즈니스 제품에 대 한 지원 문의-관리자 도움말](../contact-support-for-business-products.md)을 참조 하세요.  <br/> |
-|IP 주소 및 URL  <br/> |[Office 365 독일 끝점](https://docs.microsoft.com/office365/enterprise/office-365-germany-endpoints) 을 참조하세요.  <br/> |
+|IP 주소 및 URL  <br/> |[Office 365 독일 끝점](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-germany-endpoints) 을 참조하세요.  <br/> |
 |Yammer  <br/> |사용할 수 없습니다.  <br/> |
 |Office 2013 또는 enterprise<sup>1</sup> 용 Microsoft 365 앱 보다 오래 된 office 버전 <br/> |지원되지 않습니다.  <br/> |
 |Office Lens  <br/> |사용할 수 없습니다.  <br/> |

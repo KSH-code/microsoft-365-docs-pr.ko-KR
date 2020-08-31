@@ -17,16 +17,16 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Office 365에서 루트 인증서 및 CAs (인증 기관)의 전체 목록을 확인 합니다.
-ms.openlocfilehash: 4fa98f417968229a0ba5382b7b1e8b4067db2e36
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c0f63f6e4ebc288f8b06d608af81a485e5f71e8a
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631703"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307447"
 ---
 # <a name="encryption-chains"></a>암호화 체인
 
-Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음은 고객이 Office 365에 액세스할 때 발생할 수 있는 알려진 Office 365 루트 인증서의 전체 목록을 설명 합니다. 자체 인프라에서 설치 해야 할 수 있는 인증서에 대 한 자세한 내용은 [Office 365 용 타사 SSL 인증서 계획](https://docs.microsoft.com/office365/enterprise/plan-for-third-party-ssl-certificates)을 참조 하십시오. 다음 인증서 정보는 Office 365의 전 세계 국가 및 국내 클라우드 인스턴스에 모두 적용 됩니다.
+Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음은 고객이 Office 365에 액세스할 때 발생할 수 있는 알려진 Office 365 루트 인증서의 전체 목록을 설명 합니다. 자체 인프라에서 설치 해야 할 수 있는 인증서에 대 한 자세한 내용은 [Office 365 용 타사 SSL 인증서 계획](https://docs.microsoft.com/microsoft-365/enterprise/plan-for-third-party-ssl-certificates)을 참조 하십시오. 다음 인증서 정보는 Office 365의 전 세계 국가 및 국내 클라우드 인스턴스에 모두 적용 됩니다.
 
 >[!NOTE]
 >**DOD 및 Gcc 최고** 고객에 게 적용 되는 인증서 정보는 [Office 365 암호화 체인-DOD 및 gcc high](encryption-office-365-certificate-chains-itar.md)를 참조 하세요.
@@ -145,7 +145,7 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 
 ### <a name="entrust-root-certification-authority---g2"></a>**Entrust 루트 인증 기관-G2**
 
-| **제목** | CN = Entrust 루트 인증 기관-G2<br>OU =&quot;(c) 2009 Entrust, Inc.-권한 있는 사용에만 해당&quot;<br>OU = www.entrust.net/legal-terms 참조<br>O =&quot;Entrust, i n c.&quot;<br>C = US |
+| **제목** | CN = Entrust 루트 인증 기관-G2<br>OU = &quot; (c) 2009 Entrust, Inc.-권한 있는 사용에만 해당&quot;<br>OU = www.entrust.net/legal-terms 참조<br>O = &quot; Entrust, i n c.&quot;<br>C = US |
 | --- | --- |
 | **일련 번호** | 4A: 53:8C: 28 |
 | **공개 키 길이** | RSA 2048 비트 (e 65537) |
@@ -159,7 +159,7 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 
 ### <a name="entrustnet-certification-authority-2048"></a>**Entrust.net Certification Authority (2048)**
 
-| **제목** | CN = Entrust 인증 기관 (2048)<br>OU = (c) 1999 Entrust.net 제한 됨<br>OU = entrust/CPS\_2048 incorp ref. (s liab 제한)<br>O = Entrust |
+| **제목** | CN = Entrust 인증 기관 (2048)<br>OU = (c) 1999 Entrust.net 제한 됨<br>OU = entrust/CPS \_ 2048 incorp ref. (s liab 제한)<br>O = Entrust |
 | --- | --- |
 | **일련 번호** | 38:63: DE: F8 |
 | **공개 키 길이** | RSA 2048 비트 (e 65537) |
@@ -203,7 +203,7 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 
 ### <a name="thawte-primary-root-ca---g3"></a>**thawte Primary Root CA-G3**
 
-| **제목** | CN = thawte 기본 루트 CA-G3<br>OU =&quot;(c) 2008 thawte, Inc.-권한 있는 사용에만 해당&quot;<br>OU = 인증 서비스 디비전<br>O =&quot;thawte, i n c.&quot;<br>C = US |
+| **제목** | CN = thawte 기본 루트 CA-G3<br>OU = &quot; (c) 2008 thawte, Inc.-권한 있는 사용에만 해당&quot;<br>OU = 인증 서비스 디비전<br>O = &quot; thawte, i n c.&quot;<br>C = US |
 | --- | --- |
 | **일련 번호** | 60:01:97: B7:710: B4: EA: B4:9A: FB |
 | **공개 키 길이** | RSA 2048 비트 (e 65537) |
@@ -217,7 +217,7 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 
 ### <a name="verisign-class-3-public-primary-certification-authority---g5"></a>**VeriSign 클래스 3 공용 기본 인증 기관-G5**
 
-| **제목** | CN = VeriSign 클래스 3 공용 기본 인증 기관-G5<br>OU =&quot;(c) 2006 VeriSign, i n c.-권한 있는 사용 전용&quot;<br>OU = VeriSign 신뢰 네트워크<br>O =&quot;VeriSign, i n c.&quot;<br>C = US |
+| **제목** | CN = VeriSign 클래스 3 공용 기본 인증 기관-G5<br>OU = &quot; (c) 2006 VeriSign, i n c.-권한 있는 사용 전용&quot;<br>OU = VeriSign 신뢰 네트워크<br>O = &quot; VeriSign, i n c.&quot;<br>C = US |
 | --- | --- |
 | **일련 번호** | 18: DA: D1:9E: 26:7D: E8: BB: 4:21:58 |
 | **공개 키 길이** | RSA 2048 비트 (e 65537) |
@@ -344,9 +344,9 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 
 ### <a name="entrust-certification-authority---l1c"></a>**Entrust 인증 기관-L1C**
 
-| **제목** | CN = Entrust 인증 기관-L1C<br>OU =&quot;(c) 2009 Entrust, inc.&quot;<br>OU = entrust/rpa가 참조로 통합 됨<br>O =&quot;Entrust, i n c.&quot;<br>C = US |
+| **제목** | CN = Entrust 인증 기관-L1C<br>OU = &quot; (c) 2009 Entrust, inc.&quot;<br>OU = entrust/rpa가 참조로 통합 됨<br>O = &quot; Entrust, i n c.&quot;<br>C = US |
 | --- | --- |
-| **발급** | CN = Entrust 인증 기관 (2048)<br>OU = (c) 1999 Entrust.net 제한 됨<br>OU = entrust/CPS\_2048 incorp ref. (제한 liab)<br>O = Entrust |
+| **발급** | CN = Entrust 인증 기관 (2048)<br>OU = (c) 1999 Entrust.net 제한 됨<br>OU = entrust/CPS \_ 2048 incorp ref. (제한 liab)<br>O = Entrust |
 | **일련 번호** | 4C: 0E: 8C: 39 |
 | **공개 키 길이** | RSA 2048 비트 (e 65537) |
 | **서명 알고리즘** | sha1RSA |
@@ -362,9 +362,9 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 
 ### <a name="entrust-certification-authority---l1k"></a>**Entrust 인증 기관-L1K**
 
-| **제목** | CN = Entrust 인증 기관-L1K<br>OU =&quot;(c) 2012 Entrust, Inc.-권한 있는 사용에만 해당&quot;<br>OU = www.entrust.net/legal-terms 참조<br>O =&quot;Entrust, i n c.&quot;<br>C = US |
+| **제목** | CN = Entrust 인증 기관-L1K<br>OU = &quot; (c) 2012 Entrust, Inc.-권한 있는 사용에만 해당&quot;<br>OU = www.entrust.net/legal-terms 참조<br>O = &quot; Entrust, i n c.&quot;<br>C = US |
 | --- | --- |
-| **발급** | CN = Entrust 루트 인증 기관-G2<br>OU =&quot;(c) 2009 Entrust, Inc.-권한 있는 사용에만 해당&quot;<br>OU = www.entrust.net/legal-terms 참조<br>O =&quot;Entrust, i n c.&quot;<br>C = US |
+| **발급** | CN = Entrust 루트 인증 기관-G2<br>OU = &quot; (c) 2009 Entrust, Inc.-권한 있는 사용에만 해당&quot;<br>OU = www.entrust.net/legal-terms 참조<br>O = &quot; Entrust, i n c.&quot;<br>C = US |
 | **일련 번호** | 0E: E9:4C: 03:00:00:00:00:51: D3:77:85 |
 | **공개 키 길이** | RSA 2048 비트 (e 65537) |
 | **서명 알고리즘** | sha256RSA |
@@ -616,7 +616,7 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 
 | **제목** | CN = Symantec 클래스 3 EV SSL CA-G3<br>OU = Symantec 트러스트 네트워크<br>O = Symantec Corporation<br>C = US |
 | --- | --- |
-| **발급** | CN = VeriSign 클래스 3 공용 기본 인증 기관-G5<br>OU =&quot;(c) 2006 VeriSign, i n c.-권한 있는 사용 전용&quot;<br>OU = VeriSign 신뢰 네트워크<br>O =&quot;VeriSign, i n c.&quot;<br>C = US |
+| **발급** | CN = VeriSign 클래스 3 공용 기본 인증 기관-G5<br>OU = &quot; (c) 2006 VeriSign, i n c.-권한 있는 사용 전용&quot;<br>OU = VeriSign 신뢰 네트워크<br>O = &quot; VeriSign, i n c.&quot;<br>C = US |
 | **주체 대체 이름** | 디렉터리 주소: CN = SymantecPKI-1-533 |
 | **일련 번호** | 7E: E1:4A: 6F: 6F: EF: F2: D3:7F: ' E 3:65:4 |
 | **공개 키 길이** | RSA 2048 비트 (e 65537) |
@@ -635,7 +635,7 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 
 | **제목** | CN = Symantec 클래스 3 보안 서버 CA-G4<br>OU = Symantec 트러스트 네트워크<br>O = Symantec Corporation<br>C = US |
 | --- | --- |
-| **발급** | CN = VeriSign 클래스 3 공용 기본 인증 기관-G5<br>OU =&quot;(c) 2006 VeriSign, i n c.-권한 있는 사용 전용&quot;<br>OU = VeriSign 신뢰 네트워크<br>O =&quot;VeriSign, i n c.&quot;<br>C = US |
+| **발급** | CN = VeriSign 클래스 3 공용 기본 인증 기관-G5<br>OU = &quot; (c) 2006 VeriSign, i n c.-권한 있는 사용 전용&quot;<br>OU = VeriSign 신뢰 네트워크<br>O = &quot; VeriSign, i n c.&quot;<br>C = US |
 | **주체 대체 이름** | 디렉터리 주소: CN = SymantecPKI-1-534 |
 | **일련 번호** | 51: E 9: B9:41:38:41: M: F: 40:100:8D: 30:93 |
 | **공개 키 길이** | RSA 2048 비트 (e 65537) |
@@ -652,9 +652,9 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 
 ### <a name="thawte-sha256-ssl-ca"></a>**thawte SHA256 SSL CA**
 
-| **제목** | CN = thawte SHA256 SSL CA<br>O =&quot;thawte, i n c.&quot;<br>C = US |
+| **제목** | CN = thawte SHA256 SSL CA<br>O = &quot; thawte, i n c.&quot;<br>C = US |
 | --- | --- |
-| **발급** | CN = thawte 기본 루트 CA-G3<br>OU =&quot;(c) 2008 thawte, Inc.-권한 있는 사용에만 해당&quot;<br>OU = 인증 서비스 디비전<br>O =&quot;thawte, i n c.&quot;<br>C = US |
+| **발급** | CN = thawte 기본 루트 CA-G3<br>OU = &quot; (c) 2008 thawte, Inc.-권한 있는 사용에만 해당&quot;<br>OU = 인증 서비스 디비전<br>O = &quot; thawte, i n c.&quot;<br>C = US |
 | **주체 대체 이름** | 디렉터리 주소: CN = VeriSignMPKI-2-415 |
 | **일련 번호** | 36:34:9E: 18: C 9:9C: 26:69: B6:56:2E: 6C: E5: AD: 71; |
 | **공개 키 길이** | RSA 2048 비트 (e 65537) |

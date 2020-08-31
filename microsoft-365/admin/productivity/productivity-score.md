@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 생산성 점수 개요
-ms.openlocfilehash: 66ab028282fb8c74087713083e43e22cf6708897
-ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
+ms.openlocfilehash: 47675f37e9146586b3fe0dd8d974887fd2435bf3
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868858"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307480"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Microsoft 생산성 점수 (미리 보기)
 
@@ -44,7 +44,7 @@ Microsoft는 다음과 같은 두 가지 분야에서 데이터, 통찰력 및 �
 
 - **기술 환경:** 생산성은 안정성 및 안정적인 기술과 Microsoft 365을 효율적으로 사용 하는 방식에 따라 달라 집니다. Microsoft는 끝점 [분석](https://aka.ms/endpointanalytics)을 제공 하며, 사용자의 생산성과 끝점 하드웨어 및 소프트웨어의 성능 및 상태 문제에 대 한 영향을 받을 수 있는 방법을 이해 하는 데 도움이 됩니다. 그리고 조직에 대해 Microsoft 365 네트워크 연결 통찰력을 제공 합니다.
 
-개요 및 필수 구성 요소 세부 정보에 대 한 [끝점 분석 이란?](https://docs.microsoft.com/mem/analytics/overview) 를 참조 하세요. Microsoft 365 network connectivity insights에 대 한 자세한 내용은 [네트워크 연결 개요](https://docs.microsoft.com/office365/enterprise/office-365-networking-overview)를 참조 하세요.
+개요 및 필수 구성 요소 세부 정보에 대 한 [끝점 분석 이란?](https://docs.microsoft.com/mem/analytics/overview) 를 참조 하세요. Microsoft 365 network connectivity insights에 대 한 자세한 내용은 [네트워크 연결 개요](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-networking-overview)를 참조 하세요.
   
 
 ## <a name="how-the-score-is-calculated"></a>점수가 계산 되는 방식

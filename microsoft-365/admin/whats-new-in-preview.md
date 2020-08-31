@@ -21,27 +21,23 @@ description: Microsoft 365 관리 센터-이 달에 추가 된 기능에 대해 
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 84932e13a336d225894683f9e328cb44df8c0e78
-ms.sourcegitcommit: 6319e73b3690b4cf1b7932f2b9f51c2c99e70eaa
+ms.openlocfilehash: 7504fa085c6dd5413a1dcddbb71f3d015ded72c1
+ms.sourcegitcommit: 97ef8f846939c3d31bb0638edf07bb89463ace0b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46635025"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47300464"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운 기능
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 이 문서의 일부 정보는 21Vianet에서 운영 하는 Office 365에는 적용 되지 않을 수 있습니다.
+> 이 문서의 일부 정보는 21Vianet에서 운영 하는 Office 365에 적용 되지 않을 수 있습니다.
 
 ::: moniker-end
 
 [Microsoft 365 관리 센터](microsoft-365-admin-center-preview.md)에 지속적으로 새로운 기능을 추가 하 고, 문제를 해결 하 고, 사용자 의견을 바탕으로 변경 내용을 적용 하 고 있습니다. 현재 사용 가능한 기능을 확인 하려면 아래를 확인 하세요. 일부 기능은 고객에 게 다양 한 속도로 롤아웃 됩니다. 아직 기능을 볼 수 없는 경우 대상 지정 된 [릴리스에 자신을 추가 해 보세요](manage/release-options-in-office-365.md).
-
-> [!IMPORTANT]
-> **3 월부터 시작 하는 "클래식" 관리 센터 만료**<br><br>
-Microsoft 365 관리 센터에 로그인 할 때 항상 새 관리 센터로 이동 합니다. 또한 3 월에는 기본 관리 센터로 다시 전환 하는 기능을 사용 하지 않도록 설정 했습니다. 지금은 다시 전환할 수 있지만 새 관리 센터가 패리티에 도달 하 여이를 초과 하면 모든 조직에 대해 스위치를 해제 하 게 됩니다. <br><br> *마지막 업데이트 날짜: 5 월 11 일 2020*
 
 다른 Microsoft 클라우드 서비스의 새로운 기능을 확인 하려면 다음을 수행 하세요.
 
@@ -53,6 +49,34 @@ Microsoft 365 관리 센터에 로그인 할 때 항상 새 관리 센터로 이
 - [SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
 - [Office 업데이트](https://docs.microsoft.com/OfficeUpdates/)
 
+## <a name="july-2020"></a>2020년 7월
+
+### <a name="getting-ready-for-ignite-2020"></a>Ignite 2020 준비
+
+Microsoft에서 Ignite 계절으로 이동 하는 동안에는 세션 중에 의견을 많이 제공 하도록 많은 기능을 출시할 예정입니다. 
+
+이 문서에 대 한 다음 업데이트는 첫 번째 온라인 전용 Ignite 개시 된 날에 예정 되어 있습니다. 이번 연도에서는 참석이 가능 합니다. 파일을 체크 아웃 하 고 등록 하려면: [Microsoft Ignite 2020](https://www.microsoft.com/ignite)를 참조 하세요.
+
+### <a name="your-products"></a>제품
+
+구독 관리에서 많은 작업을 수행 하 여 페이지를 보다 빠르게 로드 하 고, 원하는 내용을 찾고, 웹 acessibility 표준 ([WCAG 2.1 지침](http://www.w3.org/TR/WCAG21/))을 충족 하도록 할 수 있습니다.
+
+- **표 재설계**: 비슷한 구독을 그룹화 할 수 있도록 테이블이 다시 디자인 되었습니다. 제품 **대금 청구**로 이동  >  **Your products**합니다.
+- **제품 정보**: 목록에서 제품을 선택 하 여 구독에 대 한 보다 자세한 정보를 제공 합니다.
+- **여기에서 모든 작업을 수행**해야 하며, 한 제품을 관리 하기 위해 여러 페이지로 이동 하지 않아도 됩니다. 예를 들어 구독을 취소 해야 하는 경우이 패널은 바로 작업을 수행 하기 위해 열립니다.
+
+![구독 취소 패널이 열려 있는 제품 페이지입니다.](../media/MAC-WN-SubscrDetails.png)
+
+### <a name="domains"></a>도메인
+
+도메인 관리 작업은 복잡할 수 있으며,이를 위해 새로운 기능을 출시 했습니다. 설정 > 도메인으로 이동한 다음 도메인을 선택 하 여 도메인 및 도메인의 상태에 대 한 자세한 정보를 확인 합니다.
+
+:::image type="content" source="../media/MAC-WN-DomainDNS.PNG" alt-text="Contoso.com의 도메인 세부 정보 페이지":::
+
+### <a name="docs-training-and-videos"></a>문서, 교육 및 비디오
+
+[Microsoft 365](https://youtu.be/m1Nu8WJgCDY) 비디오 시리즈의 새로운 기능: 이번 달에는 웹 및 모바일에 새로운 yammer 환경을 제공 하 고, Microsoft 팀을 위해 Yammer 커뮤니티 앱을 통합 하는 방법, 그리고 firstline worker 및 관리자를 지원 하기 위한 새로운 정책 패키지 등을 소개 합니다.
+
 ## <a name="june-2020"></a>2020년 6월
 
 ### <a name="keeping-up-with-office-whats-new-management"></a>Office의 새로운 기능 관리
@@ -62,7 +86,6 @@ Microsoft 365 관리 센터에 로그인 할 때 항상 새 관리 센터로 이
 ### <a name="docs-training-and-videos-june"></a>문서, 교육 및 비디오 (6 월)
 
 - [팀 시작](https://support.microsoft.com/office/184f1aba-2f91-43f0-86e1-9fae607e24f6)
-
 
 ## <a name="may-2020"></a>2020년 5월
 
@@ -100,9 +123,9 @@ Microsoft 365 관리 센터에 몇 가지 새로운 Azure Active Directory 관�
 - 업계 관련 지침
 - 엔터프라이즈 아키텍처 디자인 보안 주체
 
-### <a name="docs-training-and-videos"></a>문서, 교육 및 비디오
+### <a name="docs-training-and-videos-may"></a>문서, 교육 및 비디오 (있을 수 있음)
 
-- **Microsoft 365 비디오 시리즈의 새로운 기능**: 이번 달에는 팀 관리자 및 보안 및 준수 센터의 새로운 지원 환경, 메시지 센터와의 Planner 통합 및 Microsoft 팀의 새로운 3 중 비디오 레이아웃에 대해 다룹니다. [Microsoft 365의 새로운 기능](https://go.microsoft.com/fwlink/p/?linkid=2118096)
+- **Microsoft 365 비디오 시리즈의 새로운 기능**: 이번 달에는 팀 관리자 및 보안 및 준수 센터의 새로운 지원 환경, 메시지 센터와의 Planner 통합 및 Microsoft 팀의 새로운 3 중 비디오 레이아웃에 대해 다룹니다. 
 - 보다 빠르게 필요한 정보를 찾을 수 있도록 [Microsoft 365 관리 센터 도움말](https://docs.microsoft.com/microsoft-365/admin/) 허브 페이지가 업데이트 되었습니다. 그리고 해당 페이지를 바로 살펴보면 중요 업데이트 및 변경 사항을 알리는 카드를 추가 했습니다.
 
 ## <a name="april-2020"></a>2020년 4월
@@ -334,7 +357,7 @@ Microsoft는 [Ignite Edition 2019](#october-2019---ignite-edition)의 전역 독
 - [Microsoft 365-엔터프라이즈 배포에서 Windows 10 및 Microsoft 365 앱 for enterprise Modernize](https://docs.microsoft.com/learn/paths/m365-getmodern/)
 - [Microsoft 365를 사용하여 엔터프라이즈 배포 관리](https://docs.microsoft.com/learn/paths/manage-enterprise-deployment-m365/)
 - [IT용 Microsoft Office 대규모 업그레이드](https://docs.microsoft.com/learn/paths/m365-office-for-it/)
-- [Azure에서 Windows 가상 데스크톱을 사용 하 여 원격 데스크톱 및 앱 제공](https://docs.microsoft.com/learn/paths/m365-wvd/)
+- [Azure에서 Windows 가상 데스크톱을 사용 하 여 원격 데스크톱 및 앱 제공 ](https://docs.microsoft.com/learn/paths/m365-wvd/)
 - [비즈니스용 Microsoft 365 및 Surface를 사용하여 최신 작업 공간 만들기](https://docs.microsoft.com/learn/paths/modernize-workplace-with-m365-and-surface/)
 - [Microsoft 365로 ID와 액세스 보호](https://docs.microsoft.com/learn/paths/m365-identity/)
 - [Microsoft 365를 사용하여 엔터프라이즈 정보 보호](https://docs.microsoft.com/learn/paths/m365-information-protection/)
@@ -382,7 +405,7 @@ Office 앱에 중요 한 Office 기능을 출시할 때 사용자는 새 기능�
 
 기술적으로,이는 Microsoft 365 관리 센터의 news가 아니므로이 소식을 확인 하기 위해 여러분의 의견을 요 합니다.
 > [!IMPORTANT]
-> 이제 일반 URL을 사용 하 여 SharePoint 관리 센터에 액세스할 수 있습니다.[https://admin.microsoft.com/SharePoint](https://admin.microsoft.com/SharePoint)
+> 이제 일반 URL을 사용 하 여 SharePoint 관리 센터에 액세스할 수 있습니다. [https://admin.microsoft.com/SharePoint](https://admin.microsoft.com/SharePoint)
 
 자세한 내용은 [SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)을 참조 하세요.
 
@@ -414,7 +437,7 @@ Ignite 2019의 몇 가지 흥미로운 기능 릴리스에 대 한 램프는 몇
 이번 달에는 다음과 같은 청구 및 구독 업데이트가 있습니다.
 
 - 장치 기반 구독: Microsoft 365 관리 센터의 장치에 **대해 교육 (장치) 라이선스에 대 한 Microsoft 365 앱** 을 할당 하거나 할당 해제할 수 있습니다. **Microsoft 365 교육용 앱 (장치)** 은 장치에 라이선스를 할당 하는 데 사용할 수 있는 추가 기능 라이선스입니다. 제품 **대금 청구**로 이동 하 여  >  **Your products** 라이선스를 찾고 구입 합니다.
-- 사용자 기반 라이선스 관리: **사용자**  >  **활성 사용자** 의 라이선스를 새 스타일에 할당 하는 방법을 업데이트 했습니다. 자세한 내용은 다음을 참조하세요.
+- 사용자 기반 라이선스 관리: **사용자**  >  **활성 사용자** 의 라이선스를 새 스타일에 할당 하는 방법을 업데이트 했습니다. 자세한 내용은 다음을 참조하시기 바랍니다.
   - [사용자에게 라이선스 할당](manage/assign-licenses-to-users.md)
   - [사용자의 라이선스 할당 취소](manage/remove-licenses-from-users.md)
 

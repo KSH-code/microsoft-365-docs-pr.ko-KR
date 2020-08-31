@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Microsoft 365 보안 센터나 Microsoft 365 규정 준수 센터를 사용하여 보안 또는 규정 준수와 관련된 모든 작업에 대한 권한을 중앙에서 관리할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a7ca90bfc4a8d323b67528ca850f60059abeb12
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: c18f50fcad7b934e02c2110fa05196874ab0169a
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46652840"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307776"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터의 권한
 
@@ -101,7 +101,7 @@ Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터에 나타나�
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|사용자, 디바이스, 등록, 구성 및 애플리케이션 정보를 확인합니다. <br/><br/> Intune은 변경할 수 **없습니다**.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|관리자, 정책, 설정을 추가하고, 로그를 업로드하고, 거버넌스 작업을 수행합니다.|
 |[**Azure Security Center**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)(서비스 예정)|보안 정책을 보고, 보안 상태를 보고, 보안 정책을 편집하고, 경고 및 권장 사항을 보고, 경고 및 권장 사항을 해제합니다.|
-|[**Office 365 서비스 상태**](https://docs.microsoft.com/office365/enterprise/view-service-health)|Office 365 서비스의 상태를 확인합니다.|
+|[**Office 365 서비스 상태**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Office 365 서비스의 상태를 확인합니다.|
 |
 
 ### <a name="security-operator"></a>보안 운영자
@@ -119,7 +119,7 @@ Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터에 나타나�
 |**Windows Defender ATP 및 EDR**|보안 읽기 권한자 역할이 할 수 있는 모든 작업을 수행합니다. <br/><br/> 경고를 확인, 조사 및 대응합니다.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|사용자, 디바이스, 등록, 구성 및 애플리케이션 정보를 확인합니다. <br/><br/> Intune은 변경할 수 **없습니다**.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|보안 읽기 권한자가 할 수 있는 모든 작업 외에, 경고를 보고 해제할 수 있습니다.|
-|[**Office 365 서비스 상태**](https://docs.microsoft.com/office365/enterprise/view-service-health)|Office 365 서비스의 상태를 확인합니다.|
+|[**Office 365 서비스 상태**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Office 365 서비스의 상태를 확인합니다.|
 |
 
 ### <a name="security-reader"></a>보안 읽기 권한자
@@ -138,7 +138,7 @@ Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터에 나타나�
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|사용자, 디바이스, 등록, 구성 및 애플리케이션 정보를 확인합니다. <br/><br/> Intune은 변경할 수 **없습니다**.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|읽기 전용 권한을 사용하여 정보를 확인합니다. <br/><br/> 알림을 관리합니다.|
 |[**Azure Security Center**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)|권장 사항 및 경고를 봅니다. <br/><br/> 보안 정책을 봅니다. <br/><br/> 보안 상태를 볼 수 있지만 변경할 수는 없습니다.|
-|[**Office 365 서비스 상태**](https://docs.microsoft.com/office365/enterprise/view-service-health)|Office 365 서비스의 상태를 확인합니다.|
+|[**Office 365 서비스 상태**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Office 365 서비스의 상태를 확인합니다.|
 |
 
 ## <a name="global-administrators-can-manage-roles-in-azure-active-directory"></a>전역 관리자는 Azure Active Directory에서 역할을 관리할 수 있습니다.

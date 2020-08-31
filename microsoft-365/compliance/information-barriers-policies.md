@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: Microsoft 팀에서 정보 장벽에 대 한 정책을 정의 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: be86816c559d0ac1873618cd51baa2ac24fb2db8
-ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
+ms.openlocfilehash: 024b10f86cb38532dc441ebd9c88c050fe2839b7
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46632099"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308077"
 ---
 # <a name="define-information-barrier-policies"></a>정보 장벽 정책 정의
 
@@ -62,7 +62,7 @@ ms.locfileid: "46632099"
 - 디렉터리 데이터-조직의 구조가 디렉터리 데이터에 반영 되는지 확인 합니다. 이렇게 하려면 그룹 구성원 자격, 부서 이름 등의 사용자 계정 특성이 Azure Active Directory 또는 Exchange Online에서 올바르게 채워졌는지 확인 합니다. 자세한 내용은 다음 리소스를 참조하세요.
   - [정보 장벽 정책의 속성](information-barriers-attributes.md)
   - [Azure Active Directory를 사용 하 여 사용자 프로필 정보 추가 또는 업데이트](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
-  - [Office 365 PowerShell를 사용 하 여 사용자 계정 속성 구성](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell)
+  - [Office 365 PowerShell를 사용 하 여 사용자 계정 속성 구성](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)
 
 - 범위 디렉터리 검색 조직의 첫 번째 정보 장벽 정책을 정의 하기 전에 [Microsoft 팀에서 범위 지정 디렉터리 검색을 사용 하도록 설정](https://docs.microsoft.com/MicrosoftTeams/teams-scoped-directory-search)해야 합니다. 정보 장벽 정책을 설정 하거나 정의 하기 전에 범위 디렉터리 검색을 사용 하도록 설정한 후 24 시간 이상 기다립니다.
 
@@ -117,7 +117,7 @@ ms.locfileid: "46632099"
 세그먼트를 정의 하는 데 사용할 조직의 디렉터리 데이터 특성을 결정 합니다. *부서*, *MemberOf*또는 지원 되는 특성을 사용할 수 있습니다. 사용자에 대해 선택한 특성에 값이 있는지 확인 합니다. [정보 장벽에 대해 지원 되는 특성 목록을 참조 하세요](information-barriers-attributes.md).
 
 > [!IMPORTANT]
-> **다음 섹션을 진행 하기 전에 디렉터리 데이터에 세그먼트를 정의 하는 데 사용할 수 있는 특성 값이 있는지 확인**합니다. 사용할 특성 값이 디렉터리 데이터에 없는 경우에는 정보 장애물을 계속 하기 전에 해당 정보를 포함 하도록 사용자 계정을 업데이트 해야 합니다. 이에 대 한 도움말을 보려면 다음 리소스를 참조 하세요.<br/>- [Office 365 PowerShell을 사용 하 여 사용자 계정 속성 구성](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell)<br/>- [Azure Active Directory를 사용 하 여 사용자 프로필 정보 추가 또는 업데이트](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+> **다음 섹션을 진행 하기 전에 디렉터리 데이터에 세그먼트를 정의 하는 데 사용할 수 있는 특성 값이 있는지 확인**합니다. 사용할 특성 값이 디렉터리 데이터에 없는 경우에는 정보 장애물을 계속 하기 전에 해당 정보를 포함 하도록 사용자 계정을 업데이트 해야 합니다. 이에 대 한 도움말을 보려면 다음 리소스를 참조 하세요.<br/>- [Office 365 PowerShell을 사용 하 여 사용자 계정 속성 구성](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)<br/>- [Azure Active Directory를 사용 하 여 사용자 프로필 정보 추가 또는 업데이트](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
 ### <a name="define-segments-using-powershell"></a>PowerShell을 사용 하 여 세그먼트 정의
 
@@ -125,7 +125,7 @@ ms.locfileid: "46632099"
 
 1. 사용 하려는 [특성](information-barriers-attributes.md) 에 해당 하는 **usergroupfilter** 매개 변수와 함께 **OrganizationSegment** cmdlet을 사용 합니다.
 
-    |구문과   |예시  |
+    |구문과   |예제  |
     |---------|---------|
     |`New-OrganizationSegment -Name "segmentname" -UserGroupFilter "attribute -eq 'attributevalue'"`     |`New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"` <p>이 예제 *에서는 hr을* 사용 하 여 인사부 라는 세그먼트를 *정의 하 고* *부서* 특성에 값을 지정 합니다. Cmdlet의 **-eq** 부분은 "equals"를 참조 합니다. 또는 **-ne** 를 사용 하 여 "같지 않음"을 계산할 수도 있습니다. [세그먼트 정의에서 "같음" 및 "같지 않음" 사용](#using-equals-and-not-equals-in-segment-definitions)을 참조 하십시오.        |
 
@@ -143,21 +143,21 @@ ms.locfileid: "46632099"
 
 다음 예제에서는 "부서가 HR과 같음"을 나타내는 세그먼트를 정의 합니다. 
 
-|예시  |
+|예제  |
 |---------|
 |`New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"` <p>이 예제에서 세그먼트 정의에는 **-eq**로 표시 되는 "equals" 매개 변수가 포함 되어 있습니다. 
   |
 
 다음 표에 나와 있는 것 처럼 "같지 않음" 매개 변수를 사용 하 여 **세그먼트를 정의할**수도 있습니다.
 
-|구문과  |예시  |
+|구문과  |예제  |
 |---------|---------|
 |`New-OrganizationSegment -Name "NotSales" -UserGroupFilter "Department -ne 'Sales'"`   | <p>이 예에서는 *sales*에 없는 모든 사용자를 포함 하는 *notsales* 라는 세그먼트를 정의 했습니다. Cmdlet의 **-ne** 부분은 "같지 않음"을 참조 합니다.  |
 
 "같음" 또는 "같지 않음"을 사용 하 여 세그먼트를 정의 하는 것 외에도 "같음" 및 "같지 않음" 매개 변수를 모두 사용 하 여 세그먼트를 정의할 수 있습니다. 논리적 *AND* 및 *OR* 연산자를 사용 하 여 복잡 한 그룹 필터를 정의할 수도 있습니다.
 
 
-|구문과    |예시  |
+|구문과    |예제  |
 |---------|---------|
 |`New-OrganizationSegment -Name "LocalFTE" -UserGroupFilter "Location -eq 'Local'" -and "Position -ne 'Temporary'"` |<p>이 예에서는 로컬에 있고 위치가 *임시*로 나열 되지 않은 사용자를 포함 하는 *LocalFTE* 라는 세그먼트를 정의 했습니다.    |
  |`New-OrganizationSegment -Name "Segment1" -UserGroupFilter "MemberOf -eq 'group1@contoso.com'' -and MemberOf -ne 'group3@contoso.com'"`|  <p>이 예에서는 group3@contoso.com의 구성원이 아니라 group1@contoso.com의 구성원 인 사용자를 포함 하는 *Segment1* 라는 세그먼트를 정의 했습니다.
@@ -190,13 +190,13 @@ ms.locfileid: "46632099"
 
 1. 첫 번째 차단 정책을 정의 하려면 **InformationBarrierPolicy** Cmdlet에 **SegmentsBlocked** 매개 변수를 사용 합니다. 
 
-    |구문과  |예시  |
+    |구문과  |예제  |
     |---------|---------|
     |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsBlocked "segment2name"`     |`New-InformationBarrierPolicy -Name "Sales-Research" -AssignedSegment "Sales" -SegmentsBlocked "Research" -State Inactive` <p>    이 예에서는 *sales*라는 세그먼트에 대 한 *영업 조사* 라는 정책을 정의 했습니다. 이 정책을 사용 하면 *영업* 직원이 *조사*라는 세그먼트에 있는 사람들과 통신할 수 없습니다.         |
 
 2. 두 번째 차단 세그먼트를 정의 하려면 **SegmentsBlocked** 매개 변수와 함께 **InformationBarrierPolicy** cmdlet을 사용 하 여 세그먼트를 거꾸로 된 상태로 다시 지정 합니다.
 
-    |예시  |
+    |예제  |
     |---------|
     |`New-InformationBarrierPolicy -Name "Research-Sales" -AssignedSegment "Research" -SegmentsBlocked "Sales" -State Inactive` <p>    이 예에서는 *연구가* *영업*과의 통신을 방지 하기 위해 *research-Sales* 라는 정책을 정의 했습니다.     |
 
@@ -209,13 +209,13 @@ ms.locfileid: "46632099"
 
 1. 하나의 세그먼트가 다른 하나의 세그먼트와만 통신할 수 있도록 하려면 **SegmentsAllowed** 매개 변수와 함께 **InformationBarrierPolicy** cmdlet을 사용 합니다. 
 
-    |구문과  |예시  |
+    |구문과  |예제  |
     |---------|---------|
     |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name","segment1name"`     |`New-InformationBarrierPolicy -Name "Manufacturing-HR" -AssignedSegment "Manufacturing" -SegmentsAllowed "HR","Manufacturing" -State Inactive` <p>    이 예에서는 *manufacturing*이라는 세그먼트에 대해 *제조-HR* 이라는 정책을 정의 했습니다. 이 정책을 사용 하면 *제조* 중인 사용자가 *HR*이라는 세그먼트에 있는 사용자와만 통신할 수 있습니다. (이 경우, *Manufacturing* 은 *HR*에 속하지 않는 사용자와 통신할 수 없습니다.)         |
 
     **필요한 경우 다음 예와 같이이 cmdlet을 사용 하 여 여러 세그먼트를 지정할 수 있습니다.**
 
-    |구문과  |예시  |
+    |구문과  |예제  |
     |---------|---------|
     |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name", "segment3name","segment1name"`     |`New-InformationBarrierPolicy -Name "Research-HRManufacturing" -AssignedSegment "Research" -SegmentsAllowed "HR","Manufacturing","Research" -State Inactive` <p>이 예에서는 *조사* 세그먼트가 *HR* 및 *제조*와만 통신할 수 있도록 하는 정책을 정의 했습니다.        |
 
@@ -232,11 +232,11 @@ ms.locfileid: "46632099"
 
 1. **InformationBarrierPolicy** cmdlet을 사용 하 여 정의 된 정책 목록을 볼 수 있습니다. 각 정책의 상태 및 id (GUID)를 적어둡니다.
 
-    구문과`Get-InformationBarrierPolicy`
+    구문과 `Get-InformationBarrierPolicy`
 
 2. 정책을 활성 상태로 설정 하려면 **Identity** 매개 변수와 함께 **InformationBarrierPolicy** cmdlet을 사용 하 고 **State** 매개 변수를 **active**로 설정 합니다. 
 
-    |구문과  |예시  |
+    |구문과  |예제  |
     |---------|---------|
     |`Set-InformationBarrierPolicy -Identity GUID -State Active`     |`Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471 -State Active` <p>    이 예에서는 GUID가 *43c37853-ea10-4b90-a23d-ab8c93772471* 인 정보 장벽 정책을 active status로 설정 합니다.   |
 
@@ -244,7 +244,7 @@ ms.locfileid: "46632099"
 
 3. 정보 장벽 정책이 활성 상태로 설정 되 면 보안 & 준수 센터의 **InformationBarrierPoliciesApplication** cmdlet을 사용 합니다.
 
-    구문과`Start-InformationBarrierPoliciesApplication`
+    구문과 `Start-InformationBarrierPoliciesApplication`
 
     `Start-InformationBarrierPoliciesApplication`시스템에서 정책 적용을 시작할 때까지 30 분까지 허용을 실행 합니다. 시스템은 사용자별 정책을 사용자에 게 적용 합니다. 일반적으로 시스템은 시간당 5000 사용자 계정에 대해 프로세스를 처리 합니다.
 
@@ -254,11 +254,11 @@ PowerShell을 사용 하 여 다음 표에 나와 있는 것 처럼 사용자 �
 
 |이를 보려면  |실행할 작업  |
 |---------|---------|
-|사용자 계정     |Identity 매개 변수와 함께 **InformationBarrierRecipientStatus** cmdlet을 사용 합니다. <p>구문과`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같은 각 사용자를 고유 하 게 식별 하는 모든 값을 사용할 수 있습니다. <p>예: `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p>이 예에서는 Office 365의 두 사용자 계정 ( *Megan*용 *meganb* 및 *Alex*용 *alexw* )을 참조 합니다. <p>(단일 사용자에 대해이 cmdlet을 사용할 수도 있습니다. `Get-InformationBarrierRecipientStatus -Identity <value>` ) <p>이 cmdlet은 특성 값 및 적용 되는 정보 장벽 정책과 같은 사용자에 대 한 정보를 반환 합니다.|
-|세그먼트     |**OrganizationSegment** cmdlet을 사용 합니다.<p>구문과`Get-OrganizationSegment` <p>이렇게 하면 조직에 대해 정의 된 모든 세그먼트의 목록이 표시 됩니다.         |
-|정보 장벽 정책     |**InformationBarrierPolicy** cmdlet을 사용 합니다. <p> 구문과`Get-InformationBarrierPolicy` <p>이렇게 하면 정의 된 정보 장벽 정책 목록과 해당 상태가 표시 됩니다.       |
-|가장 최근 정보 장벽 정책 응용 프로그램     | **InformationBarrierPoliciesApplicationStatus** cmdlet을 사용 합니다. <p>구문과`Get-InformationBarrierPoliciesApplicationStatus`<p>    이렇게 하면 정책 응용 프로그램이 완료, 실패 또는 진행 중인지에 대 한 정보가 표시 됩니다.       |
-|모든 정보 장벽 정책 응용 프로그램|하십시오`Get-InformationBarrierPoliciesApplicationStatus -All $true`<p>이렇게 하면 정책 응용 프로그램이 완료, 실패 또는 진행 중인지에 대 한 정보가 표시 됩니다.|
+|사용자 계정     |Identity 매개 변수와 함께 **InformationBarrierRecipientStatus** cmdlet을 사용 합니다. <p>구문과 `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같은 각 사용자를 고유 하 게 식별 하는 모든 값을 사용할 수 있습니다. <p>예: `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p>이 예에서는 Office 365의 두 사용자 계정 ( *Megan*용 *meganb* 및 *Alex*용 *alexw* )을 참조 합니다. <p>(단일 사용자에 대해이 cmdlet을 사용할 수도 있습니다. `Get-InformationBarrierRecipientStatus -Identity <value>` ) <p>이 cmdlet은 특성 값 및 적용 되는 정보 장벽 정책과 같은 사용자에 대 한 정보를 반환 합니다.|
+|세그먼트     |**OrganizationSegment** cmdlet을 사용 합니다.<p>구문과 `Get-OrganizationSegment` <p>이렇게 하면 조직에 대해 정의 된 모든 세그먼트의 목록이 표시 됩니다.         |
+|정보 장벽 정책     |**InformationBarrierPolicy** cmdlet을 사용 합니다. <p> 구문과 `Get-InformationBarrierPolicy` <p>이렇게 하면 정의 된 정보 장벽 정책 목록과 해당 상태가 표시 됩니다.       |
+|가장 최근 정보 장벽 정책 응용 프로그램     | **InformationBarrierPoliciesApplicationStatus** cmdlet을 사용 합니다. <p>구문과 `Get-InformationBarrierPoliciesApplicationStatus`<p>    이렇게 하면 정책 응용 프로그램이 완료, 실패 또는 진행 중인지에 대 한 정보가 표시 됩니다.       |
+|모든 정보 장벽 정책 응용 프로그램|하십시오 `Get-InformationBarrierPoliciesApplicationStatus -All $true`<p>이렇게 하면 정책 응용 프로그램이 완료, 실패 또는 진행 중인지에 대 한 정보가 표시 됩니다.|
 
 <!-- IN the " The most recent information barrier policy application, add link to troubleshooting topic -->
 

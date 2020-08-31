@@ -21,12 +21,12 @@ search.appverid:
 description: 해당 국가 또는 지역 전화 번호를 사용하거나 온라인으로 서비스 요청을 제출하여 기술 및 청구 지원을 받습니다.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 1db89882db693c2102ca5c8dcb28f7ceb3ebf12e
-ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
+ms.openlocfilehash: f508607bb19a15fa089cf13eecfd7047f2e6f7bf
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46641588"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307364"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>비즈니스용 제품에 대한 고객 지원 센터 문의 방법 - 관리자 도움말
 
@@ -35,7 +35,7 @@ ms.locfileid: "46641588"
 > [!IMPORTANT]
 > 이러한 지원 방법을 사용하려면 비즈니스 구독의 관리자여야 합니다. 비즈니스 관리자가 아닌 경우 [이 지원 페이지](https://support.microsoft.com/help/contactus)를 사용하세요.
 
-[서비스의 현재 상태를 봅니다](https://docs.microsoft.com/office365/enterprise/view-service-health)로 시작하기. <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">서비스 상태 대시보드</a>에서 현재와 과거의 문제에 대한 자세한 정보를 볼 수 있습니다. 목록에 없는 문제가 발생하는 경우 다음 방법 중 하나로 지원을 받을 수 있습니다.
+[서비스의 현재 상태를 봅니다](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)로 시작하기. <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">서비스 상태 대시보드</a>에서 현재와 과거의 문제에 대한 자세한 정보를 볼 수 있습니다. 목록에 없는 문제가 발생하는 경우 다음 방법 중 하나로 지원을 받을 수 있습니다.
 
 ## <a name="online-support"></a>온라인 지원
 

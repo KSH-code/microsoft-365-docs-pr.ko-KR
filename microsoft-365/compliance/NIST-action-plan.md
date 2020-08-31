@@ -15,12 +15,12 @@ audience: itpro
 ms.collection:
 - M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fc43420b18483bc93814b2eb0e8605af86beef1c
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 355d83c4ad1e51e03f137a1342d00f3693c242e7
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034784"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308019"
 ---
 # <a name="microsoft-365-nist-800-53-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>Microsoft 365 NIST 800-53 작업 계획 - 처음 30일, 90일 및 그 이상 기간에 대한 최고 우선 순위 지정
 
@@ -74,7 +74,7 @@ Microsoft는 클라우드 보안 분야에서 업계 선두주자로 인식되�
 |:-----|:-----|
 |**영역**|**태스크**|
 |Microsoft 365 고급 도구 및 정보 보호 장치를 사용하여 장치에 대한 지속적인 제어와 회사 데이터 보호를 구현합니다.|• [Microsoft Intune](https://docs.microsoft.com/intune/)을 사용하여 모바일 장치에 저장 및 액세스되는 중요한 데이터를 보호하고 클라우드 서비스에 액세스할 때 규격 회사 장치를 사용하도록 합니다.|
-|Microsoft 365 및 기타 클라우드 응용 프로그램에서 지속적인 준수를 모니터링합니다.|•   조직의 정의된 정책 및 절차를 기준으로 성능을 평가하려면 지속적으로 [준수 점수](compliance-score.md)를 사용하여 조직의 정보 보안 정책 적용에 대해 정기적인 평가를 실시합니다.<br>•    [Azure AD Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)를 사용하여 높은 수준의 권한을 가진 모든 사용자 및 그룹(예: 권한 있는 사용자 또는 관리 사용자)의 정기적인 검토를 제어하고 수행합니다.<br>• [권한있는 액세스 관리](https://docs.microsoft.com/office365/enterprise/privileged-access-management-in-office-365)를 배포 및 구성하여 Office 365의 권한 있는 관리 작업에 대한 세부적인 액세스 제어를 제공합니다.  일단 활성화되면 사용자는 범위가 넓고 시간 제한이 높은 승인 워크 플로를 통해 승격된 권한 작업을 완료하기 위해 JIT(just-in-time) 액세스를 요청해야 합니다.<br>•  [비소유자 사서함 액세스](https://docs.microsoft.com/Exchange/policy-and-compliance/non-owner-mailbox-access-reports)를 감사하여 잠재적인 정보의 유출을 확인하고 모든 Exchange Online 사서함에 대한 비소유자의 액세스를 선제적으로 검토합니다.<br>•   [Office 365 경고 정책, 데이터 손실 방지 보고서 및 Microsoft Cloud App Security](https://docs.microsoft.com/Office365/SecurityCompliance/monitor-for-leaks-of-personal-data)를 사용하여 조직의 클라우드 응용 프로그램 사용 현황을 모니터링하고 추론 및 사용자 활동을 토대로 고급 경고 정책을 구현합니다.<br>•  [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)를 사용하여 자동으로 위험한 활동을 추적, 잠재적으로 악의적인 관리자를 식별, 데이터 침해를 조사하거나 준수 요구 사항이 충족되는지 확인합니다.|
+|Microsoft 365 및 기타 클라우드 응용 프로그램에서 지속적인 준수를 모니터링합니다.|•   조직의 정의된 정책 및 절차를 기준으로 성능을 평가하려면 지속적으로 [준수 점수](compliance-score.md)를 사용하여 조직의 정보 보안 정책 적용에 대해 정기적인 평가를 실시합니다.<br>•    [Azure AD Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)를 사용하여 높은 수준의 권한을 가진 모든 사용자 및 그룹(예: 권한 있는 사용자 또는 관리 사용자)의 정기적인 검토를 제어하고 수행합니다.<br>• [권한있는 액세스 관리](https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-overview)를 배포 및 구성하여 Office 365의 권한 있는 관리 작업에 대한 세부적인 액세스 제어를 제공합니다.  일단 활성화되면 사용자는 범위가 넓고 시간 제한이 높은 승인 워크 플로를 통해 승격된 권한 작업을 완료하기 위해 JIT(just-in-time) 액세스를 요청해야 합니다.<br>•  [비소유자 사서함 액세스](https://docs.microsoft.com/Exchange/policy-and-compliance/non-owner-mailbox-access-reports)를 감사하여 잠재적인 정보의 유출을 확인하고 모든 Exchange Online 사서함에 대한 비소유자의 액세스를 선제적으로 검토합니다.<br>•   [Office 365 경고 정책, 데이터 손실 방지 보고서 및 Microsoft Cloud App Security](https://docs.microsoft.com/Office365/SecurityCompliance/monitor-for-leaks-of-personal-data)를 사용하여 조직의 클라우드 응용 프로그램 사용 현황을 모니터링하고 추론 및 사용자 활동을 토대로 고급 경고 정책을 구현합니다.<br>•  [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)를 사용하여 자동으로 위험한 활동을 추적, 잠재적으로 악의적인 관리자를 식별, 데이터 침해를 조사하거나 준수 요구 사항이 충족되는지 확인합니다.|
 |Advanced Threat Analytics의 향상된 위협 감지 및 보호 기능을 사용하여 조직에 강력한 계층형 보안 전략을 제공합니다. 조직에서 손상된 시스템이 미치는 영향을 완화하기 위해 인시던트 대응 계획을 개발합니다.|• [Windows Advanced Threat Analytics](https://docs.microsoft.com/advanced-threat-analytics/)를 배포하고 구성하여 풍부한 분석 및 보고 기능을 활용하여 조직에서 대상으로 지정된 사용자와 악용되고 있는 사이버 공격 방법에 대한 중요한 인사이트를 얻습니다.<br>•    [Office 365 Advanced Threat Protection 보고서 및 분석](/security/office-365-security/view-reports-for-atp.md)을 활용하여 위협을 분석하여 조직 내에서 자동으로 감지되는 악의적인 콘텐츠 및 악성 전자 메일에 대한 인사이트를 얻습니다. 기본 제공 보고서 및 메시지 추적 기능을 활용하여 알려지지 않은 바이러스 또는 맬웨어에 의해 차단된 전자 메일 메시지를 조사합니다.<br>•  [Office 365 위협 인텔리전스](/security/office-365-security/office-365-ti.md)를 통해 다양한 출처의 인사이트 및 정보를 집계하여 클라우드 보안 환경에 대한 전반적인 정보를 얻습니다.<br>*    [Office 365 위협 인텔리전스 및 Windows Defender Advanced Threat Protection](/security/office-365-security/integrate-office-365-ti-with-wdatp.md)을 통합하여 Office 365에서 위협을 조사할 때 사용자의 장치가 위험 상태인지를 빠르게 알 수 있습니다.<br>• [Office 365 공격 시뮬레이터](/security/office-365-security/attack-simulator.md)를 사용하여 Office 365 환경에서 일반적인 공격 방법을 시뮬레이트합니다.  공격 시뮬레이션 결과를 검토하여 사용자에 대한 교육 기회를 파악하고, 조직의 인시던트 대응 절차가 유효한지 검사합니다.<br>•    [보안 및 준수 센터 내에서의 사용 권한](/security/office-365-security/permissions-in-the-security-and-compliance-center.md)을 구성하여 모니터링 및 감사 데이터에 대한 액세스 권한을 승인된 사용자로 제한하고 조직의 인시던트 대응 조치와 통합되도록 합니다.|
 |||
 

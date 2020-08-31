@@ -27,18 +27,18 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: 관리 센터에서 특정 작업을 수행할 수 있도록 비즈니스의 사용자 또는 여러 사용자에 게 관리자 역할을 할당 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: cd50faf5db5e674e865e0913cae14a68a202bd1f
-ms.sourcegitcommit: 2e9e309ec09e5275ac6b3b425fba48a9ffce8eb2
+ms.openlocfilehash: f5449bdb6b05e2a29393ad8e389c562953efd710
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44900779"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307322"
 ---
 # <a name="assign-admin-roles"></a>관리자 역할 할당
 
 Microsoft 비즈니스 구독을 구매한 사용자는 전역 관리자입니다. 즉, 구독에 포함 된 제품에 대 한 무제한 제어 권한이 있으며 대부분의 데이터에 액세스할 수 있습니다.
 
-자세한 내용은 [관리 역할 정보](about-admin-roles.md)를 참조 하세요.
+자세한 내용은 [관리자 역할 정보](about-admin-roles.md)를 참조하세요.
 
 새 사용자를 추가 하는 경우 관리자 역할을 할당 하지 않으면 *사용자 역할* 에 포함 되며 Microsoft 관리 센터에 대 한 관리자 권한이 없는 것입니다. 그러나 작업을 수행 하는 데 도움이 필요한 경우 사용자에 게 관리자 역할을 할당할 수 있습니다. 예를 들어 암호를 다시 설정 하는 데 도움이 되는 사용자가 필요한 경우 전역 관리자 역할에 할당 해서는 안 되며, 암호 관리자 역할에 할당 해야 합니다. 전역 관리자가 너무 많고 데이터 및 온라인 비즈니스에 무제한으로 액세스할 수 있으면 보안상 위험할 수 있습니다.
 
@@ -46,7 +46,7 @@ Microsoft 비즈니스 구독을 구매한 사용자는 전역 관리자입니�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
 
 ## <a name="assign-admin-roles"></a>관리자 역할 할당 
 
@@ -122,6 +122,6 @@ PowerShell을 알고 [있는 경우 powershell을 사용 하 여 사용자 계�
 
 [Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)
 
-[PowerShell을 사용 하 여 사용자 계정에 역할 할당](https://docs.microsoft.com/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)
+[PowerShell을 사용 하 여 사용자 계정에 역할 할당](https://docs.microsoft.com/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell)
 
 [파트너 관계 권한 부여 또는 제거](../misc/add-partner.md)

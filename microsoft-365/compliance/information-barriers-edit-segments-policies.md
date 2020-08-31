@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: 정보 장벽에 대 한 정책을 편집 하거나 제거 하는 방법을 알아봅니다.
-ms.openlocfilehash: 5690a1d7a131c006bbff3b087b1ee2983198c068
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6ac739ecff3921b4061d5d22410b2e2b1ada7af2
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637890"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307941"
 ---
 # <a name="edit-or-remove-information-barrier-policies"></a>정보 장벽 정책 편집 또는 제거
 
@@ -52,7 +52,7 @@ ms.locfileid: "43637890"
 
     |구문과  |예제  |
     |---------|---------|
-    |`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>   이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같은 각 사용자를 고유 하 게 식별 하는 모든 값을 사용할 수 있습니다. <p>   (단일 사용자에 대해이 cmdlet을 사용할 수도 있습니다. `Get-InformationBarrierRecipientStatus -Identity <value>`)      |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw`  <p>   이 예에서는 Office 365의 두 사용자 계정 ( *Megan*용 *meganb* 및 *Alex*용 *alexw* )을 참조 합니다.         |
+    |`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>   이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같은 각 사용자를 고유 하 게 식별 하는 모든 값을 사용할 수 있습니다. <p>   (단일 사용자에 대해이 cmdlet을 사용할 수도 있습니다. `Get-InformationBarrierRecipientStatus -Identity <value>` )      |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw`  <p>   이 예에서는 Office 365의 두 사용자 계정 ( *Megan*용 *meganb* 및 *Alex*용 *alexw* )을 참조 합니다.         |
 
 2. 사용자 계정 프로필에 대해 편집 하려는 특성을 결정 합니다. 자세한 [내용은 Attributes 장벽 정책의 특성](information-barriers-attributes.md) 을 참조 하세요. 
 
@@ -60,7 +60,7 @@ ms.locfileid: "43637890"
 
     - 단일 계정을 편집 하려면 [Azure Active Directory를 사용 하 여 사용자 프로필 정보 추가 또는 업데이트](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)를 참조 하세요.
 
-    - 여러 계정을 편집 하거나 PowerShell을 사용 하 여 단일 계정을 편집 하려면 [Office 365 PowerShell을 사용 하 여 사용자 계정 속성 구성을](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell)참조 하십시오.
+    - 여러 계정을 편집 하거나 PowerShell을 사용 하 여 단일 계정을 편집 하려면 [Office 365 PowerShell을 사용 하 여 사용자 계정 속성 구성을](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)참조 하십시오.
 
 ## <a name="edit-a-segment"></a>세그먼트 편집
 
@@ -68,7 +68,7 @@ ms.locfileid: "43637890"
 
 1. 모든 기존 세그먼트를 보려면 **OrganizationSegment** cmdlet을 사용 합니다.
     
-    구문과`Get-OrganizationSegment`
+    구문과 `Get-OrganizationSegment`
 
     세그먼트 유형, UserGroupFilter 값, 해당 개체를 만들거나 마지막으로 수정한 사람, GUID 등의 각 세그먼트와 세부 정보에 대 한 목록이 표시 됩니다.
 
@@ -87,15 +87,15 @@ ms.locfileid: "43637890"
 
 1. 현재 정보 장벽 정책 목록을 보려면 **InformationBarrierPolicy** cmdlet을 사용 합니다.
 
-    구문과`Get-InformationBarrierPolicy`
+    구문과 `Get-InformationBarrierPolicy`
 
     결과 목록에서 변경 하려는 정책을 식별 합니다. 정책의 GUID 및 이름을 적어둡니다.
 
 2. **InformationBarrierPolicy** Cmdlet에서 **Identity** 매개 변수를 사용 하 여 변경할 내용을 지정 합니다.
 
-    예: *연구* 세그먼트가 *영업* 및 *마케팅* 세그먼트와 통신 하지 못하도록 차단 하도록 정책이 정의 되어 있다고 가정 합니다. 이 cmdlet을 사용 하 여 정책이 정의 되었습니다.`New-InformationBarrierPolicy -Name "Research-SalesMarketing" -AssignedSegment "Research" -SegmentsBlocked "Sales","Marketing"`
+    예: *연구* 세그먼트가 *영업* 및 *마케팅* 세그먼트와 통신 하지 못하도록 차단 하도록 정책이 정의 되어 있다고 가정 합니다. 이 cmdlet을 사용 하 여 정책이 정의 되었습니다. `New-InformationBarrierPolicy -Name "Research-SalesMarketing" -AssignedSegment "Research" -SegmentsBlocked "Sales","Marketing"`
     
-    *리서치* 세그먼트의 사람들이 *HR* 세그먼트의 사용자와만 통신할 수 있도록이를 변경 하려는 경우를 가정해 보겠습니다. 이 변경 작업을 수행 하려면 다음 cmdlet을 사용 합니다.`Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471 -SegmentsAllowed "HR"`
+    *리서치* 세그먼트의 사람들이 *HR* 세그먼트의 사용자와만 통신할 수 있도록이를 변경 하려는 경우를 가정해 보겠습니다. 이 변경 작업을 수행 하려면 다음 cmdlet을 사용 합니다. `Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471 -SegmentsAllowed "HR"`
 
     이 예에서는 "SegmentsBlocked"를 "SegmentsAllowed"로 변경 하 고 *HR* 세그먼트를 지정 했습니다.
 
@@ -105,7 +105,7 @@ ms.locfileid: "43637890"
 
 1. 현재 정보 장벽 정책 목록을 보려면 **InformationBarrierPolicy** cmdlet을 사용 합니다.
 
-    구문과`Get-InformationBarrierPolicy`
+    구문과 `Get-InformationBarrierPolicy`
 
     결과 목록에서 변경 하거나 제거할 정책을 식별 합니다. 정책의 GUID 및 이름을 적어둡니다.
 
@@ -117,7 +117,7 @@ ms.locfileid: "43637890"
 
 3. 변경 내용을 적용 하려면 **InformationBarrierPoliciesApplication** cmdlet을 사용 합니다.
 
-    구문과`Start-InformationBarrierPoliciesApplication`
+    구문과 `Start-InformationBarrierPoliciesApplication`
 
     사용자가 조직에 대해 변경 내용을 적용 합니다. 대규모 조직에서는이 프로세스를 완료 하는 데 24 시간 이상 소요 될 수 있습니다. 일반적으로 5000 사용자 계정을 처리 하는 데 한 시간 정도 소요 됩니다.
 
@@ -130,7 +130,7 @@ ms.locfileid: "43637890"
 
 1. 현재 정보 장벽 정책 목록을 보려면 **InformationBarrierPolicy** cmdlet을 사용 합니다.
 
-    구문과`Get-InformationBarrierPolicy`
+    구문과 `Get-InformationBarrierPolicy`
 
     결과 목록에서 제거할 정책을 식별 합니다. 정책의 GUID 및 이름을 적어둡니다. 정책이 비활성 상태로 설정 되어 있는지 확인 합니다.
 
@@ -146,7 +146,7 @@ ms.locfileid: "43637890"
 
 4. 정책을 제거한 후에는 변경 내용을 적용 합니다. 이 작업을 수행 하려면 **InformationBarrierPoliciesApplication** cmdlet을 사용 합니다.
 
-    구문과`Start-InformationBarrierPoliciesApplication`
+    구문과 `Start-InformationBarrierPoliciesApplication`
 
     사용자가 조직에 대해 변경 내용을 적용 합니다. 대규모 조직에서는이 프로세스를 완료 하는 데 24 시간 이상 소요 될 수 있습니다.
 
@@ -156,7 +156,7 @@ ms.locfileid: "43637890"
 
 1. 가장 최근 정보 장벽 정책 응용 프로그램의 상태를 확인 하려면 **InformationBarrierPoliciesApplicationStatus** cmdlet을 사용 합니다.
 
-    구문과`Get-InformationBarrierPoliciesApplicationStatus`
+    구문과 `Get-InformationBarrierPoliciesApplicationStatus`
 
     응용 프로그램의 GUID를 확인 합니다.
 

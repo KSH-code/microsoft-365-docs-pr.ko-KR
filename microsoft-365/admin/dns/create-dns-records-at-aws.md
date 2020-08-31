@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7a2efd75-0771-4897-ba7b-082fe5bfa9da
 description: Microsoft의 AWS (Amazon Web Services)에서 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: fcc4da3a5841e9df2f6edabd540363fe70bb73ad
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: dbbf82c9c776108c4d5e34e2eb639f9c36e9f28b
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400572"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307070"
 ---
 # <a name="create-dns-records-at-amazon-web-services-aws-for-microsoft"></a>Microsoft의 AWS (Amazon Web Services)에서 DNS 레코드 만들기
 
@@ -66,7 +66,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
   
     |||||||
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |**이름** <br/> |**종류** <br/> |**별칭** <br/> |**TTL(초)** <br/> |**값** <br/> |**라우팅 정책** <br/> |
+    |**이름** <br/> |**Type(종류)** <br/> |**별칭** <br/> |**TTL(초)** <br/> |**값** <br/> |**라우팅 정책** <br/> |
     |(Leave this field empty.)  <br/> |TXT - Text  <br/> |아니요  <br/> |300  <br/> |MS=ms *XXXXXXXX*  <br/>**참고:** 이 값은 예시입니다. 여기에는 Microsoft 365의 표에 있는 특정 **주소를 지정할 대상 또는 지점** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |Simple(단순형)  <br/> |
    
 6. **만들기**를 선택합니다.
@@ -104,9 +104,9 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     (Choose the **Type** and **Routing Policy** values from the drop-down lists.) 
     
-    |**이름**|**종류**|**별칭**|**TTL(초)**|**값**|**라우팅 정책**|
+    |**이름**|**Type(종류)**|**별칭**|**TTL(초)**|**값**|**라우팅 정책**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |(이 필드는 비워 둡니다.)  <br/> |MX - Mail Exchanger(MX - 메일 교환기)  <br/> |아니요  <br/> |300  <br/> |*\<domain-key\>* mail.protection.outlook.com.  <br/> 0은 MX 우선 순위 값입니다. 이 값을 MX 값 시작 부분에 추가하고 나머지 값과 공백으로 구분합니다.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:** \<*domain-key*\>Microsoft 365 계정을 확인 하세요. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |Simple(단순형)  <br/> |
+    |(이 필드는 비워 둡니다.)  <br/> |MX - Mail Exchanger(MX - 메일 교환기)  <br/> |No(아니요)  <br/> |300  <br/> |0  *\<domain-key\>*  .mail.protection.outlook.com.  <br/> 0은 MX 우선 순위 값입니다. 이 값을 MX 값 시작 부분에 추가하고 나머지 값과 공백으로 구분합니다.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:** \<*domain-key*\> Microsoft 365 계정을 확인 하세요. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |Simple(단순형)  <br/> |
        
     ![AWS-BP-구성-2-1](../../media/94a71ce7-1b3b-4b1a-9ad3-9592db133075.png)
   
@@ -148,13 +148,13 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     (드롭다운 목록에서 **Type**(종류) 및 **Routing Policy**(라우팅 정책) 값을 선택합니다.) 
     
-    |**이름**|**종류**|**별칭**|**TTL(초)**|**값**|**라우팅 정책**|
+    |**이름**|**Type(종류)**|**별칭**|**TTL(초)**|**값**|**라우팅 정책**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |autodiscover  <br/> |CNAME - Canonical name(CNAME - 정식 이름)  <br/> |No(아니요)  <br/> |300  <br/> |autodiscover.outlook.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |Simple(단순형)  <br/> |
-    |sip  <br/> |CNAME - Canonical name(CNAME - 정식 이름)  <br/> |No(아니요)  <br/> |300  <br/> |sipdir.online.lync.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |Simple(단순형)  <br/> |
-    |lyncdiscover  <br/> |CNAME - Canonical name(CNAME - 정식 이름)  <br/> |No(아니요)  <br/> |300  <br/> |webdir.online.lync.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |Simple(단순형)  <br/> |
-    |enterpriseregistration  <br/> |CNAME - Canonical name(CNAME - 정식 이름)  <br/> |No(아니요)  <br/> |300  <br/> |enterpriseregistration.windows.net  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |Simple(기본)  <br/> |
-    |enterpriseenrollment  <br/> |CNAME - Canonical name(CNAME - 정식 이름)  <br/> |No(아니요)  <br/> |300  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |Simple(단순형)  <br/> |
+    |autodiscover  <br/> |CNAME - Canonical name(CNAME - 정식 이름)  <br/> |No(아니요)  <br/> |300  <br/> |autodiscover.outlook.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |Simple(기본)  <br/> |
+    |sip  <br/> |CNAME - Canonical name(CNAME - 정식 이름)  <br/> |No(아니요)  <br/> |300  <br/> |sipdir.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |Simple(기본)  <br/> |
+    |lyncdiscover  <br/> |CNAME - Canonical name(CNAME - 정식 이름)  <br/> |No(아니요)  <br/> |300  <br/> |webdir.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |Simple(단순형)  <br/> |
+    |enterpriseregistration  <br/> |CNAME - Canonical name(CNAME - 정식 이름)  <br/> |No(아니요)  <br/> |300  <br/> |enterpriseregistration.windows.net.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |Simple(기본)  <br/> |
+    |enterpriseenrollment  <br/> |CNAME - Canonical name(CNAME - 정식 이름)  <br/> |No(아니요)  <br/> |300  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |Simple(단순형)  <br/> |
    
     ![AWS-BP-구성-3-1](../../media/895c71bd-0e3a-425e-9681-98c1c67e714b.png)
   
@@ -172,7 +172,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는 *단일* SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 예제가 필요하세요? [Microsoft에 대한 외부 Domain Name System 레코드](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records)를 참조하세요. SPF 레코드의 유효성을 검사 하기 위해 이러한[spf 유효성 검사 도구](../setup/domains-faq.md)중 하나를 사용할 수 있습니다. 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는  *단일*  SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 예제가 필요하세요? [Microsoft에 대한 외부 Domain Name System 레코드](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records)를 참조하세요. SPF 레코드의 유효성을 검사 하기 위해 이러한[spf 유효성 검사 도구](../setup/domains-faq.md)중 하나를 사용할 수 있습니다. 
   
 1. 시작하려면 [이 링크](https://console.aws.amazon.com/route53/home)를 사용하여 AWS의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
@@ -188,7 +188,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**값:**|
     |:-----|
-    |v=spf1 include:spf.protection.outlook.com -all  <br/> (화면 지침에 필요한 물음표가 자동으로 제공됩니다. 직접 입력할 필요가 없습니다.)  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
+    |v=spf1 include:spf.protection.outlook.com -all  <br/> (화면 지침에 필요한 물음표가 자동으로 제공됩니다. 직접 입력할 필요가 없습니다.)  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
     ![AWS-BP-구성-4-2](../../media/beb3c086-eaf8-4245-9860-18512a3ff72e.png)
   
@@ -213,10 +213,10 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     (드롭다운 목록에서 **Type**(종류) 및 **Routing Policy**(라우팅 정책) 값을 선택합니다.) 
     
-    |**이름**|**종류**|**별칭**|**TTL(초)**|**값**|**라우팅 정책**|
+    |**이름**|**Type(종류)**|**별칭**|**TTL(초)**|**값**|**라우팅 정책**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip _tls|SRV - Service locator(SRV - 서비스 로케이터)|아니요|300|100 1 443 sipdir.online.lync.com. **이 값은 마침표 (.)로 끝나야 합니다.**><br> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |Simple(단순형)|
-    |_sipfederationtls _tcp|SRV - Service locator(SRV - 서비스 로케이터)|아니요|300|100 1 5061 sipfed.online.lync.com. **This value MUST end with a period (.)**<br> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |Simple(단순형)|
+    |_sip._tls|SRV - Service locator(SRV - 서비스 로케이터)|아니요|300|100 1 443 sipdir.online.lync.com. **이 값은 마침표 (.)로 끝나야 합니다.**><br> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |Simple(단순형)|
+    |_sipfederationtls._tcp|SRV - Service locator(SRV - 서비스 로케이터)|아니요|300|100 1 5061 sipfed.online.lync.com. **이 값은 마침표(.)로 끝나야 합니다.**<br> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |기본형|
    
     ![AWS-BP-구성-5-1](../../media/c3f841d3-6076-428f-bb04-e71cc5f392fa.png)
   

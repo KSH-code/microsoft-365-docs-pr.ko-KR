@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365로 전송 되는 메일 문제 해결
+title: Microsoft 365로 전송한 문제 해결 메일
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,14 +18,14 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 microsoft 365 고객에 게 대량 메일을 보내기 위한 모범 사례 & Microsoft 365의 받은 편지함에 전자 메일을 보내는 문제에 대 한 문제 해결 정보를 제공 합니다.
-ms.openlocfilehash: 0d9c1646aa7491b3da458c7cb0ddeb908873153a
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 4243f46746cb21425fc2dc7493c69818f095e71f
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208600"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307582"
 ---
-# <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Microsoft 365로 전송 되는 메일 문제 해결
+# <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Microsoft 365로 전송한 문제 해결 메일
 
 이 문서에서는 Microsoft 365의 받은 편지함에 전자 메일을 보내려고 할 때 문제가 발생 하는 보낸 사람에 대 한 문제 해결 정보를 제공 하 고 고객에 게 대량으로 메일을 보내는 데 유용한
 
@@ -79,7 +79,7 @@ IP 주소에서 의심 스러운 작업이 검색 되었으며 더 이상 평가
 
 ## <a name="i-cant-receive-email-from-senders-in-microsoft-365"></a>Microsoft 365의 보낸 사람 으로부터 전자 메일을 받을 수 없음
 
- 사용자가 보낸 메시지를 수신 하려면 네트워크에서 EOP에 사용 하는 IP 주소에서 연결을 허용 하는지 확인 합니다. 자세한 내용은 [Exchange Online PROTECTION IP 주소](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)를 참조 하세요.
+ 사용자가 보낸 메시지를 수신 하려면 네트워크에서 EOP에 사용 하는 IP 주소에서 연결을 허용 하는지 확인 합니다. 자세한 내용은 [Exchange Online PROTECTION IP 주소](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)를 참조 하세요.
 
 ## <a name="best-practices-for-bulk-emailing-to-microsoft-365-users"></a>Microsoft 365 사용자에 게 대량으로 전자 메일을 보내는 최상의 방법
 
@@ -87,7 +87,7 @@ Microsoft 365 사용자에 게 대량 전자 메일 캠페인을 자주 수행 �
 
 ### <a name="ensure-that-the-from-name-reflects-who-is-sending-the-message"></a>보낸 사람 이름에 메시지를 보내는 사람이 반영 되어 있는지 확인 합니다.
 
-제목은 메시지의 내용에 대 한 간략 한 요약으로, 메시지 본문은 명확 하 고 succinctly 제공, 서비스 또는 제품에 대 한 정보를 나타내야 합니다. 예시:
+제목은 메시지의 내용에 대 한 간략 한 요약으로, 메시지 본문은 명확 하 고 succinctly 제공, 서비스 또는 제품에 대 한 정보를 나타내야 합니다. 예를 들어,
 
 정확함:
 
@@ -101,7 +101,7 @@ Microsoft 365 사용자에 게 대량 전자 메일 캠페인을 자주 수행 �
 
 ### <a name="always-include-an-unsubscribe-option-in-campaign-emails"></a>캠페인 전자 메일에 항상 구독 취소 옵션 포함
 
-마케팅 전자 메일, 특히 뉴스레터에는 이후의 전자 메일에 대 한 구독 취소 방법이 항상 포함 되어야 합니다. 예시:
+마케팅 전자 메일, 특히 뉴스레터에는 이후의 전자 메일에 대 한 구독 취소 방법이 항상 포함 되어야 합니다. 예를 들어,
 
  `This email was sent to example@contoso.com by sender@fabrikam.com.`
 
@@ -125,7 +125,7 @@ Microsoft 365 사용자에 게 대량 전자 메일 캠페인을 자주 수행 �
 
 - 전자 메일 메시지가 받는 사람이 보낸 사람을 주소록에 추가 하도록 요청 하면 해당 작업을 수행 해도 배달이 보장 되지 않는다는 것을 명확 하 게 명시 해야 합니다.
 
-- 메시지 본문에 포함 되는 리디렉션은 유사 하 고 일관적 이어야 하며, 여러 가지 및 다양화와 다를 수 있습니다. 이 컨텍스트의 리디렉션은 링크 및 문서와 같이 메시지를 벗어나는 모든 것을 가리킵니다. 알림 또는 구독 취소 링크가 많거나 프로필 링크를 업데이트 하는 경우 모두 같은 도메인을 가리켜야 합니다. 예시:
+- 메시지 본문에 포함 되는 리디렉션은 유사 하 고 일관적 이어야 하며, 여러 가지 및 다양화와 다를 수 있습니다. 이 컨텍스트의 리디렉션은 링크 및 문서와 같이 메시지를 벗어나는 모든 것을 가리킵니다. 알림 또는 구독 취소 링크가 많거나 프로필 링크를 업데이트 하는 경우 모두 같은 도메인을 가리켜야 합니다. 예를 들어,
 
   정확함:
 

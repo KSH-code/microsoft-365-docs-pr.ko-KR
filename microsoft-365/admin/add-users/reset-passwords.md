@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: '비즈니스용 Microsoft 365에서 사용자의 암호를 다시 설정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: d1c17448a1f9993b056fa2dc428980acf8ef82b4
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 6159b62cb6c1e09cb86732cc27cc4c4c87328a42
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780568"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307292"
 ---
 # <a name="reset-passwords"></a>암호 다시 설정
 
@@ -120,7 +120,7 @@ ms.locfileid: "44780568"
 
 PowerShell을 사용하세요! Eyal Doron이 작성한 게시물을 확인하세요. [PowerShell을 사용하여 암호 관리](https://go.microsoft.com/fwlink/?linkid=853696)
   
-관련된 문서는 다음과 같습니다. [여러 사용자 계정의 암호 설정](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+관련된 문서는 다음과 같습니다. [여러 사용자 계정의 암호 설정](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-with-microsoft-365-powershell)
   
 개요에 대 한 자세한 내용은 [Microsoft 365 관리자를 위한 PowerShell](https://support.microsoft.com/office/40fdcbd4-c34f-42ab-8678-8b3751137ef1)을 참조 하십시오.
   
@@ -137,7 +137,7 @@ Microsoft MVP인 Vasil Michev의 유용한 블로그 게시물을 확인하세�
 ## <a name="related-articles"></a>관련 문서
 <a name="bkmk_forgot"> </a>
   
-[사용자가 자신의 암호를 다시 설정할 수 있도록 허용](let-users-reset-passwords.md)
+[사용자가 암호를 직접 재설정할 수 있도록 허용](let-users-reset-passwords.md)
 
 [개별 사용자 암호가 만료되지 않도록 설정](set-password-to-never-expire.md)
 

@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: 이 문서를 정보 장벽 문제 해결을 위한 지침으로 사용 하십시오.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5aa45e3e9dea5ce413b2b0e62d825003bc24e20e
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: f4e6087d0e1886d833a6cf0472ed467f8577c5d0
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352327"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307931"
 ---
 # <a name="troubleshooting-information-barriers"></a>정보 장벽 문제 해결
 
@@ -45,7 +45,7 @@ ms.locfileid: "44352327"
 
     |구문과  |예제  |
     |---------|---------|
-    | `Get-InformationBarrierRecipientStatus -Identity` <p>각 받는 사람을 고유 하 게 식별 하는 모든 id 값 (예: 이름, 별칭, DN (고유 이름), 정식 DN, 전자 메일 주소 또는 GUID)을 사용할 수 있습니다.     |`Get-InformationBarrierRecipientStatus -Identity meganb` <p>이 예제에서는 Identity 매개 변수에 별칭 (*meganb*)을 사용 합니다. 이 cmdlet은 사용자가 정보 장벽 정책의 영향을 받는지 여부를 나타내는 정보를 반환 합니다. (찾기 * ExoPolicyId: \< GUID>)         |
+    | `Get-InformationBarrierRecipientStatus -Identity` <p>각 받는 사람을 고유 하 게 식별 하는 모든 id 값 (예: 이름, 별칭, DN (고유 이름), 정식 DN, 전자 메일 주소 또는 GUID)을 사용할 수 있습니다.     |`Get-InformationBarrierRecipientStatus -Identity meganb` <p>이 예제에서는 Identity 매개 변수에 별칭 (*meganb*)을 사용 합니다. 이 cmdlet은 사용자가 정보 장벽 정책의 영향을 받는지 여부를 나타내는 정보를 반환 합니다. (* ExoPolicyId:를 찾아보십시오. \<GUID> )         |
 
     **사용자가 정보 장벽 정책에 포함 되어 있지 않은 경우 지원 서비스에 문의 하세요**. 그렇지 않으면 다음 단계를 진행 합니다.
 
@@ -94,7 +94,7 @@ ms.locfileid: "44352327"
 
     
     > [!TIP]
-    > 단일 사용자에 대해이 cmdlet을 사용할 수도 있습니다.`Get-InformationBarrierRecipientStatus -Identity <value>`
+    > 단일 사용자에 대해이 cmdlet을 사용할 수도 있습니다. `Get-InformationBarrierRecipientStatus -Identity <value>`
     
 2. 발견 된 내용을 검토 합니다. **InformationBarrierRecipientStatus** cmdlet은 특성 값 및 적용 되는 정보 장벽 정책과 같은 사용자에 대 한 정보를 반환 합니다. 
 
@@ -102,7 +102,7 @@ ms.locfileid: "44352327"
     
     |결과  |다음에 수행할 작업  |
     |---------|---------|
-    |선택한 사용자에 대 한 세그먼트가 나열 되지 않음     |다음 중 하나를 수행합니다.<br/>-Azure Active Directory에서 사용자 프로필을 편집 하 여 기존 세그먼트에 사용자를 할당 합니다. ( [Office 365 PowerShell을 사용 하 여 사용자 계정 속성 구성](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell)참조)<br/>- [정보 장벽에 대해 지원 되는 특성](information-barriers-attributes.md)을 사용 하 여 세그먼트를 정의 합니다. 그런 다음 [새 정책을 정의](information-barriers-policies.md#part-2-define-information-barrier-policies) 하거나 [기존 정책을 편집](information-barriers-edit-segments-policies.md#edit-a-policy) 하 여 해당 세그먼트를 포함 합니다.  |
+    |선택한 사용자에 대 한 세그먼트가 나열 되지 않음     |다음 중 하나를 수행합니다.<br/>-Azure Active Directory에서 사용자 프로필을 편집 하 여 기존 세그먼트에 사용자를 할당 합니다. ( [Office 365 PowerShell을 사용 하 여 사용자 계정 속성 구성](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)참조)<br/>- [정보 장벽에 대해 지원 되는 특성](information-barriers-attributes.md)을 사용 하 여 세그먼트를 정의 합니다. 그런 다음 [새 정책을 정의](information-barriers-policies.md#part-2-define-information-barrier-policies) 하거나 [기존 정책을 편집](information-barriers-edit-segments-policies.md#edit-a-policy) 하 여 해당 세그먼트를 포함 합니다.  |
     |세그먼트는 나열 되지만 해당 세그먼트에 정보 장벽 정책이 할당 되지 않음     |다음 중 하나를 수행합니다.<br/>- 문제의 각 세그먼트에 대 한 [새 정보 장벽 정책 정의](information-barriers-policies.md#part-2-define-information-barrier-policies)<br/>- [기존 정보 장벽 정책을 편집](information-barriers-edit-segments-policies.md#edit-a-policy) 하 여 올바른 세그먼트에 할당         |
     |나열 된 세그먼트는 정보 장벽 정책에 포함 되어 있습니다.     |-Cmdlet을 실행 `Get-InformationBarrierPolicy` 하 여 정보 장벽 정책이 활성 상태 인지 확인 합니다.<br/>- `Get-InformationBarrierPoliciesApplicationStatus` 정책이 적용 되었는지 확인 하는 cmdlet을 실행 합니다.<br/>- `Start-InformationBarrierPoliciesApplication` Cmdlet을 실행 하 여 모든 활성 정보 장벽 정책 적용          |
     
@@ -177,7 +177,7 @@ ms.locfileid: "44352327"
 세그먼트, 정의 된 정보 장벽 정책 및 해당 정책을 적용 하려고 한 후에는 정책이 일부 받는 사람에 게 적용 되지 않을 수 있습니다.
 Cmdlet을 실행할 때 `Get-InformationBarrierPoliciesApplicationStatus` 다음과 같은 텍스트에 대 한 출력을 검색 합니다.
 
-> 식별`<application guid>`
+> 식별 `<application guid>`
 >
 > 총 받는 사람: 81527
 >
@@ -200,7 +200,7 @@ $DetailedLogs = Search-UnifiedAuditLog -EndDate <yyyy-mm-ddThh:mm:ss>  -StartDat
 ```powershell
    $DetailedLogs[1] |fl
 ```
- 예시:
+ 예를 들어,
 
 > "UserId": User1
 > 

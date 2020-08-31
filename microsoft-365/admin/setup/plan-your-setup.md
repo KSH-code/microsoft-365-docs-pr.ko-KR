@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: eb926624-018b-4486-bf11-5fba6ee4d645
 description: 비즈니스를 위해 Microsoft 365으로 이사 하기 위한 요구 사항 및 고려 사항에 대해 알아봅니다.
-ms.openlocfilehash: b7d815da012e1c104561d5fccfb9e1704ac5c447
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 14543e3859f06e7f89cf74e2159a70483c7ec228
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529663"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307546"
 ---
 # <a name="plan-your-setup-of-microsoft-365-for-business"></a>비즈니스를 위한 Microsoft 365의 설정 계획
 
@@ -60,7 +60,7 @@ Microsoft 365로 조직을 이동 하기 전에 충족 해야 하는 요구 사�
 
 온-프레미스 환경에서 데이터 나 사용자를 마이그레이션하거나 디렉터리 동기화를 포함 하는 하이브리드 시스템을 설정 하는 두 가지 시나리오가 있습니다. 두 범주 중 하나에 해당 하는 경우 다음 문서의 지침을 따릅니다.
   
-- 온-프레미스 Active Directory를 사용 하 여 디렉터리 동기화를 설정 하려면 microsoft [365의 디렉터리 동기화 설정](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization)및 microsoft 365의 다양 한 id 모델 이해, [microsoft 365 Id 및 Azure Active directory](https://docs.microsoft.com/office365/enterprise/about-office-365-identity)를 참조 하세요.
+- 온-프레미스 Active Directory를 사용 하 여 디렉터리 동기화를 설정 하려면 microsoft [365의 디렉터리 동기화 설정](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization)및 microsoft 365의 다양 한 id 모델 이해, [microsoft 365 Id 및 Azure Active directory](https://docs.microsoft.com/microsoft-365/enterprise/about-microsoft-365-identity)를 참조 하세요.
 
 - Exchange 하이브리드를 설정하려면 다음에서 하이브리드 Exchange를 설정(DNS 레코드 설정 포함)하는 여러 다른 방법을 모두 안내하는 전체 지침 집합을 찾을 수 있습니다. [Exchange Server 배포 도우미](https://aka.ms/exdeploy)
 
@@ -127,7 +127,7 @@ Microsoft 팀을 사용 하 여 조직의 다른 사용자에 게 구독을 요�
   
 ## <a name="plan-for-integration-with-active-directory-or-other-software"></a>Active Directory 또는 다른 소프트웨어와 통합 계획
 
-- **온-프레미스 Active Directory와 통합하길 원하세요?** Azure Active Directory Connect를 사용 하 여 온-프레미스 Active Directory를 Microsoft 365에 통합할 수 있습니다. 자세한 내용은 [Set up directory synchronization For Microsoft 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization)을 참조 하십시오.
+- **온-프레미스 Active Directory와 통합하길 원하세요?** Azure Active Directory Connect를 사용 하 여 온-프레미스 Active Directory를 Microsoft 365에 통합할 수 있습니다. 자세한 내용은 [Set up directory synchronization For Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization)을 참조 하십시오.
   
 - **Microsoft 365을 다른 회사에서 만든 소프트웨어와 통합 하 시겠습니까?** Microsoft 365을 조직의 다른 소프트웨어와 통합 해야 하는 경우 배포를 도와줄 [파트너를 고용 하는](https://go.microsoft.com/fwlink/?linkid=391089) 것이 좋습니다.
   
