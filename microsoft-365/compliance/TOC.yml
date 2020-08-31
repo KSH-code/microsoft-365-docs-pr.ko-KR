@@ -78,8 +78,51 @@
     - name: 고객 Lockbox
       href: customer-lockbox-requests.md
 - name: 정보 보호 관리
-  href: protect-information.md
   items:
+    - name: '데이터를 확인하고, 데이터를 보호하고, 데이터 손실을 방지하세요.'
+      href: protect-information.md
+    - name: 중요한 정보 유형
+      items:
+        - name: 중요한 정보 유형 엔터티 정의
+          href: sensitive-information-type-entity-definitions.md
+        - name: DLP 기능이 찾는 항목
+          href: what-the-dlp-functions-look-for.md
+        - name: 사용자 지정 DLP 확장된 개요 보기
+          href: 'https://go.microsoft.com/fwlink/?linkid=852306'
+        - name: 기본 제공 중요한 정보 유형 사용자 지정
+          href: customize-a-built-in-sensitive-information-type.md
+        - name: 사용자 지정 중요한 정보 유형
+          href: custom-sensitive-info-types.md
+        - name: 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
+          href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
+        - name: 보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기
+          href: create-a-custom-sensitive-information-type.md
+        - name: 사용자 지정 중요한 정보 유형 만들기 - PowerShell
+          href: create-a-custom-sensitive-information-type-in-scc-powershell.md
+        - name: 키워드 사전 만들기
+          href: create-a-keyword-dictionary.md
+        - name: 문서 지문
+          href: document-fingerprinting.md
+        - name: 중요한 정보에 대한 DLP 기능
+          href: what-the-dlp-functions-look-for.md
+    - name: 교육 가능한 분류자
+      items:
+        - name: 학습 가능한 분류자 시작(미리 보기)
+          href: classifier-getting-started-with.md
+        - name: 기본 제공 분류자 사용(미리 보기)
+          href: classifier-using-a-ready-to-use-classifier.md
+        - name: 분류자 만들기 및 교육(미리 보기)
+          href: classifier-creating-a-trainable-classifier.md
+    - name: 데이터 분류
+      items:
+        - name: 데이터 분류 이해
+          href: data-classification-overview.md
+        - name: 콘텐츠 탐색기로 시작
+          href: data-classification-content-explorer.md
+        - name: 활동 탐색기로 시작
+          href: data-classification-activity-explorer.md
+        - name: 데이터 분류 릴리스 정보
+          href: data-classification-pub-preview-relnotes.md
     - name: 민감도 레이블
       items:
         - name: 민감도 레이블 알아보기
@@ -100,9 +143,77 @@
           href: sensitivity-labels-sharepoint-onedrive-files.md
         - name: Office 앱의 민감도 레이블 사용
           href: sensitivity-labels-office-apps.md
-    - name: DLP(데이터 손실 방지)
-      href: data-loss-prevention-policies.md
+    - name: 암호화
       items:
+        - name: 암호화 이해
+          href: encryption.md
+        - name: 이중 키 암호화(미리 보기)
+          href: double-key-encryption.md
+        - name: Office 365 서비스 암호화
+          href: office-365-service-encryption.md
+        - name: 고객 키
+          items:
+            - name: Office 365의 고객 키를 사용한 서비스 암호화
+              href: customer-key-overview.md
+            - name: Office 365의 고객 키 설정
+              href: customer-key-set-up.md
+            - name: Office 365의 고객 키 관리
+              href: customer-key-manage.md
+            - name: 고객 키 또는 가용성 키 롤 또는 회전
+              href: customer-key-availability-key-roll.md
+            - name: 고객 키에 대한 가용성 키 알아보기
+              href: customer-key-availability-key-understand.md
+        - name: 전자 메일 암호화
+          href: email-encryption.md
+          items:
+            - name: Office 365 메시지 암호화(OME)
+              href: ome.md
+            - name: 새로운 Office 365 메시지 암호화 기능 설정
+              href: set-up-new-message-encryption-capabilities.md
+            - name: Office 365에서 전자 메일 메시지를 암호화하기 위한 메일의 흐름 규정을 정의
+              href: define-mail-flow-rules-to-encrypt-email.md
+            - name: 암호화된 메시지에 조직의 브랜드 추가
+              href: add-your-organization-brand-to-encrypted-messages.md
+            - name: Office 365 메시지 암호화를 사용하여 조직에 대한 중요한 정보 형식 정책 만들기
+              href: ome-sensitive-info-types.md
+            - name: Office 365 메시지 암호화 관리
+              href: manage-office-365-message-encryption.md
+            - name: Office 365 고급 메시지 암호화
+              href: ome-advanced-message-encryption.md
+            - name: Office 365 고급 메시지 암호화로 암호화 된 전자 메일의 만료 날짜 설정
+              href: ome-advanced-expiration.md
+            - name: Office 365 고급 메시지 암호화로 암호화된 전자 메일 취소
+              href: revoke-ome-encrypted-mail.md
+            - name: OME 버전 비교
+              href: ome-version-comparison.md
+            - name: Office 365 메시지 암호화 FAQ
+              href: ome-faq.md
+            - name: Exchange Online이 전자 메일 암호를 보호하는 방법
+              href: exchange-online-secures-email-secrets.md
+            - name: Office 365의 전자 메일 연결 보안을 위해 Exchange Online에서 TLS를 사용하는 방법
+              href: exchange-online-uses-tls-to-secure-email-connections.md
+            - name: 암호화에 대한 BitLocker 및 분산 키 관리자(DKM)
+              href: office-365-bitlocker-and-distributed-key-manager-for-encryption.md
+            - name: 레거시 OME
+              items:
+                - name: Office 365 메시지 암호화 레거시 정보
+                  href: legacy-information-for-message-encryption.md
+                - name: Office 365 메시지 암호화에 대한 Azure 권한 관리 설정
+                  href: set-up-azure-rms-for-previous-version-message-encryption.md
+        - name: SharePoint IRM
+          href: set-up-irm-in-sp-admin-center.md
+        - name: 기술 참조
+          href: technical-reference-details-about-encryption.md
+        - name: Office 365용 TLS 1.0 및 1.1 사용 중단
+          href: tls-1.0-and-1.1-deprecation-for-office-365.md
+        - name: Office 365 GCC High and DoD의 TLS 1.0 및 1.1 사용 중단
+          href: tls-1-2-in-office-365-gcc.md
+        - name: Office 365의 TLS 1.2
+          href: prepare-tls-1.2-in-office-365.md
+    - name: DLP(데이터 손실 방지)
+      items:
+        - name: DLP 정보
+          href: data-loss-prevention-policies.md
         - name: DLP 및 Microsoft Teams
           href: dlp-microsoft-teams.md
         - name: 끝점 데이터 손실 방지(미리 보기)에 대한 자세한 정보
@@ -131,116 +242,42 @@
           href: form-a-query-to-find-sensitive-data-stored-on-sites.md
         - name: 보안 및 준수 센터와 Exchange 관리 센터 사이에서 DLP가 작동 하는 방식
           href: how-dlp-works-between-admin-centers.md
-    - name: 중요한 정보 유형
-      items:
-        - name: 중요한 정보 유형 엔터티 정의
-          href: sensitive-information-type-entity-definitions.md
-        - name: DLP 기능이 찾는 항목
-          href: what-the-dlp-functions-look-for.md
-        - name: 사용자 지정 DLP 확장된 개요 보기
-          href: 'https://go.microsoft.com/fwlink/?linkid=852306'
-        - name: 기본 제공 중요한 정보 유형 사용자 지정
-          href: customize-a-built-in-sensitive-information-type.md
-        - name: 사용자 지정 중요한 정보 유형
-          href: custom-sensitive-info-types.md
-        - name: 분류에 기반한 정확한 데이터 매치로 사용자 지정 중요한 정보 유형 만들기
-          href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
-        - name: 보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기
-          href: create-a-custom-sensitive-information-type.md
-        - name: PowerShell을 사용한 사용자 지정 중요한 정보 유형 만들기
-          href: create-a-custom-sensitive-information-type-in-scc-powershell.md
-        - name: 키워드 사전 만들기
-          href: create-a-keyword-dictionary.md
-        - name: 문서 지문
-          href: document-fingerprinting.md
-        - name: 중요한 정보에 대한 DLP 기능
-          href: what-the-dlp-functions-look-for.md
-    - name: Microsoft 365의 암호화
-      href: encryption.md
-    - name: Office 365 서비스 암호화
-      href: office-365-service-encryption.md
-    - name: Office 365의 암호화에 대한 기술 관련 세부 정보
-      href: technical-reference-details-about-encryption.md
-    - name: Office 365용 TLS 1.0 및 1.1 사용 중단
-      href: tls-1.0-and-1.1-deprecation-for-office-365.md
-    - name: Office 365 GCC High and DoD의 TLS 1.0 및 1.1 사용 중단
-      href: tls-1-2-in-office-365-gcc.md
-    - name: Office 365의 TLS 1.2
-      href: prepare-tls-1.2-in-office-365.md
-    - name: Microsoft 365 공개 미리 보기를 위한 이중 암호화
-      href: double-key-encryption.md
-    - name: 고객 키
-      items:
-        - name: Office 365의 고객 키를 사용한 서비스 암호화
-          href: customer-key-overview.md
-        - name: Office 365의 고객 키 설정
-          href: customer-key-set-up.md
-        - name: Office 365의 고객 키 관리
-          href: customer-key-manage.md
-        - name: 고객 키 또는 가용성 키 롤 또는 회전
-          href: customer-key-availability-key-roll.md
-        - name: 고객 키에 대한 가용성 키 알아보기
-          href: customer-key-availability-key-understand.md
-    - name: 전송 중인 데이터 암호화
-      href: office-365-encryption-for-data-in-transit.md
-    - name: 전자 메일 암호화
-      href: email-encryption.md
-      items:
-        - name: Office 365 메시지 암호화(OME)
-          href: ome.md
-        - name: 새로운 Office 365 메시지 암호화 기능 설정
-          href: set-up-new-message-encryption-capabilities.md
-        - name: Office 365에서 전자 메일 메시지를 암호화하기 위한 메일의 흐름 규정을 정의
-          href: define-mail-flow-rules-to-encrypt-email.md
-        - name: 암호화된 메시지에 조직의 브랜드 추가
-          href: add-your-organization-brand-to-encrypted-messages.md
-        - name: Office 365 메시지 암호화를 사용하여 조직에 대한 중요한 정보 형식 정책 만들기
-          href: ome-sensitive-info-types.md
-        - name: Office 365 메시지 암호화 관리
-          href: manage-office-365-message-encryption.md
-        - name: Office 365 고급 메시지 암호화
-          href: ome-advanced-message-encryption.md
-        - name: Office 365 고급 메시지 암호화로 암호화 된 전자 메일의 만료 날짜 설정
-          href: ome-advanced-expiration.md
-        - name: Office 365 고급 메시지 암호화로 암호화된 전자 메일 취소
-          href: revoke-ome-encrypted-mail.md
-        - name: OME 버전 비교
-          href: ome-version-comparison.md
-        - name: Office 365 메시지 암호화 FAQ
-          href: ome-faq.md
-        - name: Exchange Online이 전자 메일 암호를 보호하는 방법
-          href: exchange-online-secures-email-secrets.md
-        - name: Office 365의 전자 메일 연결 보안을 위해 Exchange Online에서 TLS를 사용하는 방법
-          href: exchange-online-uses-tls-to-secure-email-connections.md
-        - name: 암호화에 대한 BitLocker 및 분산 키 관리자(DKM)
-          href: office-365-bitlocker-and-distributed-key-manager-for-encryption.md
-        - name: 레거시 OME
-          items:
-            - name: Office 365 메시지 암호화 레거시 정보
-              href: legacy-information-for-message-encryption.md
-            - name: Office 365 메시지 암호화에 대한 Azure 권한 관리 설정
-              href: set-up-azure-rms-for-previous-version-message-encryption.md
-    - name: SharePoint 관리 센터에서 IRM 설정
-      href: set-up-irm-in-sp-admin-center.md
-    - name: 데이터 분류 이해
-      href: data-classification-overview.md
-      items:
-        - name: 콘텐츠 탐색기로 시작
-          href: data-classification-content-explorer.md
-        - name: 활동 탐색기로 시작
-          href: data-classification-activity-explorer.md
-        - name: 데이터 분류 릴리스 정보
-          href: data-classification-pub-preview-relnotes.md
-        - name: 학습 가능한 분류자 시작(미리 보기)
-          href: classifier-getting-started-with.md
-        - name: 기본 제공 분류자 사용(미리 보기)
-          href: classifier-using-a-ready-to-use-classifier.md
-        - name: 분류자 만들기 및 교육(미리 보기)
-          href: classifier-creating-a-trainable-classifier.md
 - name: 정보 거버넌스 관리
   items:
-    - name: 정보 거버넌스 관리
+    - name: 사용자 데이터 관리
       href: manage-information-governance.md
+    - name: 데이터 보존 및 삭제
+      items:
+        - name: 보존에 대한 자세한 정보
+          items:
+            - name: 보존 정책 및 레이블
+              href: retention.md
+            - name: SharePoint 및 OneDrive에 대한 보존
+              href: retention-policies-sharepoint.md
+            - name: Microsoft Teams에 대한 보존
+              href: retention-policies-teams.md
+            - name: Exchange에 대한 보존
+              href: retention-policies-exchange.md
+        - name: 보존 시작하기
+          href: get-started-with-retention.md
+        - name: 보존 정책 만들기
+          href: create-retention-policies.md
+        - name: 파일 계획 사용
+          href: file-plan-manager.md
+        - name: 보존 레이블을 만들고 앱에 적용
+          href: create-apply-retention-labels.md
+        - name: 보존 레이블을 콘텐츠에 자동으로 적용
+          href: apply-retention-labels-automatically.md
+        - name: SEC 규칙 17a-4 준수
+          href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
+        - name: PowerShell을 사용하여 보존 레이블 만들기
+          href: bulk-create-publish-labels-using-powershell.md
+        - name: 이벤트가 발생할 때 보존 시작
+          href: event-driven-retention.md
+        - name: 보존 레이블로 문서의 수명 주기 관리
+          href: auto-apply-retention-labels-scenario.md
+        - name: 데이터 폐기 관리
+          href: disposition.md
     - name: 사서함 데이터 가져오기
       items:
         - name: PST 파일 가져오기 개요
@@ -287,38 +324,6 @@
           href: enable-unlimited-archiving.md
         - name: 사서함에 대한 보관 및 삭제 정책 설정
           href: set-up-an-archive-and-deletion-policy-for-mailboxes.md
-    - name: 데이터 보존 및 삭제
-      items:
-        - name: 보존에 대한 자세한 정보
-          items:
-            - name: 보존 정책 및 레이블
-              href: retention.md
-            - name: SharePoint 및 OneDrive에 대한 보존
-              href: retention-policies-sharepoint.md
-            - name: Microsoft Teams에 대한 보존
-              href: retention-policies-teams.md
-            - name: Exchange에 대한 보존
-              href: retention-policies-exchange.md
-        - name: 보존 시작하기
-          href: get-started-with-retention.md
-        - name: 보존 정책 만들기
-          href: create-retention-policies.md
-        - name: 파일 계획 사용
-          href: file-plan-manager.md
-        - name: 보존 레이블을 만들고 앱에 적용
-          href: create-apply-retention-labels.md
-        - name: 보존 레이블을 콘텐츠에 자동으로 적용
-          href: apply-retention-labels-automatically.md
-        - name: SEC 규칙 17a-4 준수
-          href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
-        - name: PowerShell을 사용하여 보존 레이블 만들기
-          href: bulk-create-publish-labels-using-powershell.md
-        - name: 이벤트가 발생할 때 보존 시작
-          href: event-driven-retention.md
-        - name: 보존 레이블로 문서의 수명 주기 관리
-          href: auto-apply-retention-labels-scenario.md
-        - name: 데이터 폐기 관리
-          href: disposition.md
     - name: 비활성 사서함 관리
       items:
         - name: 비활성 사서함 개요
@@ -333,10 +338,8 @@
           href: restore-an-inactive-mailbox.md
         - name: 비활성 사서함 삭제
           href: delete-an-inactive-mailbox.md
-    - name: 데이터 거버넌스에 관한 자세한 정보
-      items:
-        - name: Microsoft 데이터 관리 팀의 비디오 보기
-          href: 'https://go.microsoft.com/fwlink/?linkid=867039'
+    - name: 데이터 관리 팀의 비디오
+      href: 'https://go.microsoft.com/fwlink/?linkid=867039'
     - name: 레코드 관리
       items:
         - name: 레코드 관리에 대한 자세한 정보

@@ -22,6 +22,8 @@
               href: setup/setup-apps-for-business.md
         - name: 설정 페이지 및 마법사 살펴보기
           href: setup/o365-setup-wizard-and-setup-page.md
+        - name: Windows 10 컴퓨터 보안
+          href: ../business/secure-win-10-pcs.md
         - name: Office 앱 설치
           href: setup/install-applications.md
         - name: Windows 장치 설정
