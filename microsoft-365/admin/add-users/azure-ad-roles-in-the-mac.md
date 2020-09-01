@@ -17,12 +17,12 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 description: Microsoft 365 관리 센터의 Azure 관리자 역할을 관리합니다.
-ms.openlocfilehash: afb025feb6e867b16be7a844a5f48ef42759b543
-ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
+ms.openlocfilehash: 2295a003fa73cb1805fad3231ff62b37930d0306
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46898031"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289096"
 ---
 # <a name="azure-active-directory-roles-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 Azure Active Directory 역할
 
@@ -62,6 +62,8 @@ Microsoft 365 관리 센터에서 **역할**로 이동한 다음 아무 역할�
 |그룹 관리자   |그룹을 만들고 관리 센터에서 모든 그룹 설정을 관리합니다.|
 |게스트 초대자     |    Azure Active Directory B2B 게스트 사용자 초대를 관리합니다.     |
 |헬프데스크 관리자     | 모든 비관리자와 일부 관리자 역할에 대해 암호를 재설정하고 다시 인증하고 서비스 요청을 관리하고 서비스 상태를 모니터링합니다.      |
+|Insights 관리자     | Microsoft 365 Insights 응용 프로그램의 모든 측면을 관리하고, Azure Active Directory 정보를 읽고, 서비스 상태를 모니터링하고 서비스 요청을 만들고 관리할 수 있습니다.      |
+|Insights 비즈니스 관리자     | Microsoft 365 Insights 응용 프로그램에서 보고서 및 정보를 읽습니다.      |
 |Intune 관리자     | Intune 전체에 액세스하고 사용자 및 장치를 관리하여 정책을 연결하고 그룹을 만들고 관리합니다.      |
 |Kaizala 관리자     |    모든 Kaizala 관리 기능 및 데이터 전체에 액세스하고 서비스 요청을 관리합니다.     |
 |라이선스 관리자     |     사용자에게 라이선스를 할당하거나 제거하고 사용 위치를 편집합니다.    |
