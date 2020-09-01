@@ -212,6 +212,8 @@
           href: manage/set-password-expiration-policy.md
         - name: 앱 시작 관리자 사용자 지정
           href: manage/customize-the-app-launcher.md
+        - name: 사용자의 앱 시작 관리자에 앱 고정
+          href: manage/pin-apps-to-app-launcher.md
         - name: 사용자를 최신 앱으로 업그레이드합니다.
           href: setup/upgrade-users-to-latest-office-client.md
         - name: 중앙 집중식 추가 기능 배포 요구 사항
@@ -220,6 +222,8 @@
           href: manage/manage-deployment-of-add-ins.md
         - name: 관리 센터에서 추가 기능 관리
           href: manage/manage-addins-in-the-admin-center.md
+        - name: Office 스크립트 설정 관리
+          href: manage/manage-office-scripts-settings.md
         - name: 중앙 집중식 배포 FAQ
           href: manage/centralized-deployment-faq.md
         - name: 파트너 또는 재판매업체 찾기
@@ -293,7 +297,7 @@
           items:
             - name: Android 또는 iOS의 설정 확인
               href: ../business/validate-settings-on-android-or-ios.md
-        - name: Windows 10 PC용 장치 보호 설정 설정하기
+        - name: Windows 10 PC를 위한 장치 보호 설정 편집 또는 생성
           href: ../business/protection-settings-for-windows-10-pcs.md
           items:
             - name: Windows 10 PC의 설정 확인
