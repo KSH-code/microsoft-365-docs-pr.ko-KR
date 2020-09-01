@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 문서 또는 전자 메일에 레이블을 자동으로 할당하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 112857d9778cf850613c808474051eb25df74296
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 5b466084701d2424aeaf9e7ee644d33861fdd5f3
+ms.sourcegitcommit: 87449335d9a1124ee82fa2e95e4745155a95a62f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656829"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47310889"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>민감도 레이블을 콘텐츠에 자동으로 적용
 
@@ -91,7 +91,7 @@ ms.locfileid: "46656829"
 
 ## <a name="how-multiple-conditions-are-evaluated-when-they-apply-to-more-than-one-label"></a>두 개 이상 레이블에 적용했을 때 여러 조건의 평가 방식
 
-레이블은 정책에서 지정한 위치에 따라 평가되도록 정렬됩니다. 먼저 배치된 레이블은 가장 낮은 위치에 있고(가장 민감하지 않음) 마지막에 위치한 레이블은 가장 높은 위치에 배치됩니다(가장 민감합니다). 우선 순위에 대한 자세한 내용은 [레이블 우선 순위 (순서 관련 문제)](sensitivity-labels.md#label-priority-order-matters)를 참조하십시오.
+레이블은 정책에서 지정한 위치에 따라 평가되도록 정렬됩니다. 먼저 배치된 레이블은 가장 낮은 위치에 있고(가장 민감하지 않음) 마지막에 위치한 레이블은 가장 높은 위치에 배치됩니다(가장 민감합니다). 우선 순위에 대한 자세한 내용은 [레이블 우선 순위 (순서 관련 문제)](sensitivity-labels.md#label-priority-order-matters)를 참조하세요.
 
 ## <a name="dont-configure-a-parent-label-to-be-applied-automatically-or-recommended"></a>상위 레이블이 자동으로 적용되거나 권장되도록 구성하지 않음
 
@@ -255,7 +255,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
     
     ![위치 선택 페이지 자동 레이블 지정 마법사 ](../media/locations-auto-labeling-wizard.png)
     
-    OneDrive의 경우 개별 계정을 지정해야 합니다. 사용자의 OneDrive에 대한 URL은 다음과 같은 형식입니다. `https://<tenant name>-my.sharepoint.com/personal/<user_name>_<tenant name>_com`
+    개별 SharePoint 사이트 및 OneDrive 계정을 지정해야 합니다. OneDrive의 경우, 사용자의 OneDrive에 대한 URL은 다음과 같은 형식입니다. `https://<tenant name>-my.sharepoint.com/personal/<user_name>_<tenant name>_com`
     
     예를 들어, "rsimone"라는 사용자 이름을 보유한 Contoso 테넌트에 있는 사용자의 경우: `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`
     
@@ -312,4 +312,44 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 
 > [!TIP]
 > 또한 콘텐츠 탐색기를 사용하여 민감한 정보가 포함된 문서가 있지만 레이블이 지정되지 않은 위치를 식별할 수도 있습니다. 이 정보를 사용하여 이러한 위치를 자동 레이블 지정 정책에 추가하고 식별된 민감한 정보 유형을 규칙으로 포함합니다.
+
+### <a name="use-powershell-for-auto-labeling-policies"></a>자동 레이블 지정 정책을 위한 PowerShell 사용
+
+이제 [보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps)을 사용하여 자동 레이블 지정 정책을 만들고 구성할 수 있습니다. 즉, 이제 자동 레이블 지정 정책의 생성 및 유지 관리를 완전히 스크립팅할 수 있으며 OneDrive 및 SharePoint 위치에 대해 여러 URL을 지정하는 보다 효율적인 방법을 제공합니다.
+
+PowerShell에서 명령을 실행하기 전에 먼저 [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)해야 합니다.
+
+새 자동 레이블 지정 정책을 생성하려면 다음을 수행하세요. 
+
+```powershell
+New-AutoSensitivityLabelPolicy -Name <AutoLabelingPolicyName> -SharePointLocation "<SharePointSiteLocation>" -ApplySensitivityLabel <Label> -Mode TestWithoutNotifications
+```
+이 명령은 지정한 SharePoint 사이트에 대한 자동 레이블 지정 정책을 만듭니다. OneDrive 위치의 경우 *OneDriveLocation* 매개 변수를 대신 사용하세요. 
+
+기존 자동 레이블 지정 정책에 사이트를 추가하려면 다음 단계를 따르세요.
+
+```powershell
+$spoLocations = @("<SharePointSiteLocation1>","<SharePointSiteLocation2>")
+Set-AutoSensitivityLabelPolicy -Identity <AutoLabelingPolicyName> -AddSharePointLocation $spoLocations -ApplySensitivityLabel <Label> -Mode TestWithoutNotifications
+```
+
+이 명령은 기존 자동 레이블 지정 정책에 추가되는 변수의 추가 SharePoint URL을 지정합니다. OneDrive 위치를 대신 추가하려면 *$OneDriveLocations*와 같은 다른 변수와 함께 *AddOneDriveLocation* 매개 변수를 사용하세요.
+
+새로운 자동 레이블 지정 정책 규칙을 만들려면 다음을 수행하세요.
+
+```powershell
+New-AutoSensitivityLabelRule -Policy <AutoLabelingPolicyName> -Name <AutoLabelingRuleName> -ContentContainsSensitiveInformation @{"name"= "a44669fe-0d48-453d-a9b1-2cc83f2cba77"; "mincount" = "2"} -Workload SharePoint
+```
+
+기존 자동 레이블 지정 정책의 경우, 이 명령은 엔터티 ID가 a44669fe-0d48-453d-a9b1-2cc83f2cba77인 **미국 사회 보장 번호(SSN)** 의 중요한 정보 유형을 감지하는 새 정책 규칙을 만듭니다. 다른 중요한 정보 유형의 엔티티 ID를 찾으려면 [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)를 참조하세요.
+
+자동 레이블 지정 정책을 지원하는 PowerShell cmdlet, 사용 가능한 매개 변수 및 몇 가지 예에 대한 자세한 내용은 다음 cmdlet 도움말을 참조하세요.
+
+- [Get-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/get-autosensitivitylabelpolicy)
+- [New-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/new-autosensitivitylabelpolicy?view=exchange-ps)
+- [New-AutoSensitivityLabelRule](https://docs.microsoft.com/powershell/module/exchange/new-autosensitivitylabelrule?view=exchange-ps)
+- [Remove-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-autosensitivitylabelpolicy?view=exchange-ps)
+- [Remove-AutoSensitivityLabelRule](https://docs.microsoft.com/powershell/module/exchange/remove-autosensitivitylabelrule?view=exchange-ps)
+- [Set-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-autosensitivitylabelpolicy?view=exchange-ps)
+- [Set-AutoSensitivityLabelRule](https://docs.microsoft.com/powershell/module/exchange/set-autosensitivitylabelrule?view=exchange-ps)
 

@@ -17,29 +17,36 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 699cea6aec6f11462aed0c08db98ca4620df519a
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: f4bbbe8726370297e9ef6317cd468789bb3b3bfe
+ms.sourcegitcommit: 97ef8f846939c3d31bb0638edf07bb89463ace0b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686562"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47300436"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
-[사용자 지정 중요한 정보 유형](custom-sensitive-info-types.md)을 사용하면 중요한 정보를 의도하지 않거나 부적절하게 공유하는 것을 방지합니다. 관리자로서 보안 및 준수 센터 또는 PowerShell을 사용하여 패턴, 증명( *직원*,  *배지*,  *ID* 등의 키워드), 문자 근접도(특정 패턴에서 증명과 문자가 근접한 정도) 및 신뢰 수준을 기반으로 사용자 지정 정보 유형을 정의할 수 있습니다. 이러한 사용자 지정 중요한 정보 유형은 대부분의 조직에 필요한 비즈니스 요구 사항을 충족합니다.
+[사용자 지정 중요한 정보 유형](custom-sensitive-info-types.md) 은 중요한 항목을 식별하는 데 사용되므로 해당 정보 유형이 실수로 또는 부적절하게 공유되는 것을 방지할 수 있습니다. 다음을 기반으로 사용자 지정 중요한 정보 유형을 정의합니다.
 
-일반적인 패턴과만 일치하는 것이 아니라 정확한 데이터 값을 사용하는 사용자 지정 중요한 정보 유형의 경우에는 어떻게 할까요? 정확한 데이터 매치(EDM) 기반 분류를 사용하여 다음과 같이 설계된 사용자 지정 중요한 정보 유형을 만들 수 있습니다.
+- 패턴
+-  *직원*, *배지*또는 *ID*와 같은 키워드 증명 정보
+- 특정 패턴의 증거에 대한 문자 근접성
+- 신뢰 수준
+
+ 이러한 사용자 지정 중요한 정보 유형은 대부분의 조직에 필요한 비즈니스 요구 사항을 충족합니다.
+
+하지만 일반적인 패턴을 기반으로 일치 항목을 찾는 대신 정확한 데이터 값을 사용하는 사용자 지정 중요한 정보 유형을 원한다면 어떻게 해야 할까요? 정확한 데이터 매치(EDM) 기반 분류를 사용하여 다음과 같이 설계된 사용자 지정 중요한 정보 유형을 만들 수 있습니다.
 
 - 동적이며 새로 고치기 가능
 - 확장성 향상
 - 가양성 수 감소
 - 구조화된 중요한 데이터 사용
 - 중요한 정보를 더 안전하게 처리
-- 여러 Microsoft 클라우드 서비스와 사용 가능.
+- 여러 Microsoft 클라우드 서비스와 함께 사용 가능
 
 ![EDM 기반 분류](../media/EDMClassification.png)
 
-EDM 기반 분류를 사용하면 중요한 정보 데이터베이스의 정확한 값을 참조하는 사용자 지정 중요한 정보 유형을 만들 수 있습니다. 데이터베이스는 매일 또는 매주 새로 고칠 수 있으며 최대 1억 개의 데이터 행을 포함할 수 있습니다. 직원, 환자 또는 고객이 계속 이동하고 기록이 변경됨에 따라 사용자 지정 중요한 정보 유형을 적절하고 최신인 상태로 유지합니다. 또한 EDM 기반 분류를 [데이터 손실 방지 정책(DLP)](data-loss-prevention-policies.md) 또는 [Microsoft Cloud App Security 파일 정책](https://docs.microsoft.com/cloud-app-security/data-protection-policies) 등의 정책과 사용할 수 있습니다.
+EDM 기반 분류를 사용하면 중요한 정보 데이터베이스의 정확한 값을 참조하는 사용자 지정 중요한 정보 유형을 만들 수 있습니다. 데이터베이스는 매일 새로 고칠 수 있으며 최대 1억 행의 데이터를 포함할 수 있습니다. 직원, 환자 또는 고객이 계속 이동하고 기록이 변경됨에 따라 사용자 지정 중요한 정보 유형을 적절하고 최신인 상태로 유지합니다. 또한 EDM 기반 분류를 [데이터 손실 방지 정책(DLP)](data-loss-prevention-policies.md) 또는 [Microsoft Cloud App Security 파일 정책](https://docs.microsoft.com/cloud-app-security/data-protection-policies) 등의 정책과 사용할 수 있습니다.
 
 > [!NOTE]
 > Microsoft 365 Information Protection은 이제 다음에 대해 미리보기 더블 바이트 문자 집합 언어를 지원합니다.
@@ -89,23 +96,30 @@ EDM 기반 분류가 이 구독에 포함되어 있습니다
 
 ### <a name="part-1-set-up-edm-based-classification"></a>1단계: EDM 기반 분류 설정
 
-EDM 기반 분류를 설정하고 구성하려면 중요한 데이터를 .csv 형식으로 저장하고, 중요한 정보의 데이터베이스 스키마를 정의하며, 규칙 패키지를 만든 다음 스키마와 규칙 패키지를 업로드해야 합니다.
+EDM 기반 분류 설정 및 구성에는 다음이 포함됩니다.
 
-#### <a name="define-the-schema-for-your-database-of-sensitive-information"></a>중요한 정보 데이터베이스의 스키마 정의
+1. [Csv 형식으로 중요한 데이터 저장](#save-sensitive-data-in-csv-format)
+2. [중요한 정보 데이터베이스 스키마 정의](#define-the-schema-for-your-database-of-sensitive-information)
+3. [규칙 패키지 만들기](#set-up-a-rule-package)
+
+
+#### <a name="save-sensitive-data-in-csv-format"></a>.csv 형식으로 중요한 데이터 저장
 
 1. 사용하려는 중요한 정보를 식별합니다. Microsoft Excel과 같은 앱에 데이터를 내보내고 .csv 형식으로 파일을 저장합니다. 데이터 파일에는 최대 다음을 포함할 수 있습니다.
       - 최대 1억 개의 중요한 데이터 행
       - 데이터 원본당 최대 32개의 열(필드)
       - 검색 가능으로 표시된 최대 5개의 열(필드)
 
-2. 첫 번째 행에 EDM 기반 분류에 사용한 필드의 이름이 포함되도록 .csv 파일에 중요한 데이터를 구성합니다. .csv 파일에는 "ssn", "birthdate", "firstname", "lastname" 등의 필드 이름이 있을 수 있습니다. 열 헤더는 이름에 공백이나 밑줄을 포함할 수 없습니다. 예를 들어, .csv 파일은 *PatientRecords.csv*라고 하며 해당 열에는  *PatientID*, *MRN*, *LastName*, *FirstName*, *SSN* 등이 포함되어 있습니다.
+2. 첫 번째 행에 EDM 기반 분류에 사용한 필드의 이름이 포함되도록 .csv 파일에 중요한 데이터를 구성합니다. .csv 파일에는 "ssn", "birthdate", "firstname", "lastname"와 같은 필드 이름이 있을 수 있습니다. 열 머리글 이름에는 공백이나 밑줄이 포함될 수 없습니다. 예를 들어, 이 문서에서 사용하는 샘플 csv 파일은  *PatientRecords.csv*라고 하며 해당 열에는  *PatientID*, *MRN*, *LastName*, *FirstName*, *SSN* 등이 포함되어 있습니다.
+
+#### <a name="define-the-schema-for-your-database-of-sensitive-information"></a>중요한 정보 데이터베이스의 스키마 정의
 
 3. 중요한 정보 데이터의 스키마를 XML 형식으로 정의합니다(아래 예제와 비슷). 이 스키마 파일의 이름을  **edm.xml**로 지정하고 데이터베이스의 각 열에 구문을 사용하는 줄이 있도록 구성합니다. 
 
       `\<Field name="" searchable=""/\>`.
 
       -  *Field name* 값에 열 이름을 사용합니다.
-      - 최대 5개의 필드까지 검색할 수 있게 하려는 필드에 *searchable="true"* 를 사용합니다. 최소 하나의 필드를 검색 가능한 항목으로 지정해야 합니다.
+      - 최대 5개의 필드까지 검색할 수 있게 하려는 필드에 *searchable="true"* 를 사용합니다. 하나 이상의 필드를 검색할 수 있어야 합니다.
 
       예를 들어 다음 XML 파일에서는 5개의 *필드(PatientID*, *MRN*, *SSN*, *Phone* 및 *DOB*)가 검색 가능으로 지정된 환자 레코드 데이터베이스의 스키마를 정의합니다.
 
@@ -147,74 +161,16 @@ EDM 기반 분류를 설정하고 구성하려면 중요한 데이터를 .csv �
       > \[Y\] 예 \[A\] 모두 예 \[N\] 아니요 \[L\] 모두 아니요 \[?\] 도움말(기본값: "Y"):
 
 > [!TIP]
-> 5단계에서 확인하지 않고 변경 사항을 적용하려면 New-DlpEdmSchema -FileData $edmSchemaXml 대신 해당 cmdlet을 사용하십시오.
+> 5단계에서 확인하지 않고 변경 사항을 적용하려면 New-DlpEdmSchema -FileData $edmSchemaXml 대신 해당 cmdlet을 사용하세요.
 
 > [!NOTE]
 > EDMSchema를 추가 사항으로 업데이트하는 데 10~60분이 소요될 수 있습니다. 추가 사항을 사용하는 단계를 실행하기 전에 업데이트를 완료해야 합니다.
 
-중요한 정보 데이터베이스에 대한 스키마가 정의되었으므로 다음 단계는 규칙 패키지를 설정하는 것입니다.  [규칙 패키지 설정하기](#set-up-a-rule-package) 섹션으로 이동하십시오.
+#### <a name="set-up-a-rule-package"></a>규칙 패키지 설정
 
-#### <a name="editing-the-schema-for-edm-based-classification"></a>EDM 기반 분류에 대한 스키마 편집
+1. 다음 예제와 같이 in XML 형식(유니코드 인코딩 사용)에 규칙 패키지를 생성하세요. (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.)
 
-EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml** 파일을 변경하려면 다음 단계를 수행하십시오.
-
-1. **edm.xml** 파일을 편집하십시오.(해당 문서의 [스키마 정의](#define-the-schema-for-your-database-of-sensitive-information) 섹션에서 다루는 파일입니다.)
-
-2. [보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)의 연결 절차를 사용하여 보안 및 준수 센터에 연결
-
-3. 데이터베이스 스키마를 업데이트하려면 다음과 같은 cmdlet을 한 번에 하나씩 실행하십시오:
-
-      ```powershell
-      $edmSchemaXml=Get-Content .\\edm.xml -Encoding Byte -ReadCount 0
-      Set-DlpEdmSchema -FileData $edmSchemaXml -Confirm:$true
-      ```
-
-      다음과 같이 확인하라는 메시지가 표시됩니다.
-
-      > 확인
-      >
-      > 이 작업을 수행하시겠습니까?
-      >
-      > 'patientrecords' 데이터 저장소의 새로운 EDM 스키마를 업데이트합니다.
-      >
-      > \[Y\] 예 \[A\] 모두 예 \[N\] 아니요 \[L\] 모두 아니요 \[?\] 도움말(기본값: "Y"):
-
-      > [!TIP]
-      > 3단계에서 확인하지 않고 변경 사항을 적용하려면 Set-DlpEdmSchema -FileData $edmSchemaXml 대신 해당 cmdlet을 사용하십시오.
-
-      > [!NOTE]
-      > EDMSchema를 추가 사항으로 업데이트하는 데 10~60분이 소요될 수 있습니다. 추가 사항을 사용하는 단계를 실행하기 전에 업데이트를 완료해야 합니다.
-
-## <a name="removing-the-schema-for-edm-based-classification"></a>EDM 기반 분류에 대한 스키마 제거
-
-(필요한 경우) EDM 기반 분류에 사용 중인 스키마를 제거하려면 다음 단계를 따르십시오:
-
-1. [보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)의 연결 절차를 사용하여 보안 및 준수 센터에 연결
-
-2. 다음의 PowerShell cmdlet을 실행하여 "patientrecords"의 데이터 저장소 이름을 제거하고자 하는 것으로 대체하십시오.
-
-      ```powershell
-      Remove-DlpEdmSchema -Identity patientrecords
-      ```
-
-      다음과 같이 확인하라는 메시지가 표시됩니다.
-
-      > 확인
-      >
-      > 이 작업을 수행하시겠습니까?
-      >
-      > 'patientrecords' 데이터 저장소의 EDM 스키마를 제거합니다.
-      >
-      > \[Y\] 예 \[A\] 모두 예 \[N\] 아니요 \[L\] 모두 아니요 \[?\] 도움말(기본값: "Y"):
-
-      > [!TIP]
-      >  2단계에서 확인하지 않고 변경 사항을 적용하려면 Remove-DlpEdmSchema -Identity patientrecords -Confirm:$false 대신 해당 cmdlet을 사용하십시오.
-
-### <a name="set-up-a-rule-package"></a>규칙 패키지 설정
-
-1. 다음 예제와 같이 in XML 형식(유니코드 인코딩 사용)에 규칙 패키지를 생성하십시오. (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.)
-
-      규칙 패키지를 설정하는 경우 .csv 파일과 **edm.xml** 파일을 정확하게 참조하도록 하십시오. (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.) 이 샘플 xml에서 EDM 중요 유형을 만들려면 다음 필드를 사용자 지정해야 합니다.
+      규칙 패키지를 설정하는 경우 .csv 파일과 **edm.xml** 파일을 정확하게 참조하도록 하세요. (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.) 이 샘플 xml에서 EDM 중요 유형을 만들려면 다음 필드를 사용자 지정해야 합니다.
 
       - **RulePack ID & ExactMatch ID**: [New-GUID](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6)를  사용하여 GUID를 생성합니다.
 
@@ -270,7 +226,7 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
       </RulePackage>
       ```
 
-1. 다음의 PowerShell cmdlet을 한 번에 하나씩 실행하여 규칙 패키지를 업로드하십시오.
+1. 다음의 PowerShell cmdlet을 한 번에 하나씩 실행하여 규칙 패키지를 업로드하세요.
 
       ```powershell
       $rulepack=Get-Content .\\rulepack.xml -Encoding Byte -ReadCount 0
@@ -279,7 +235,7 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
 
 이 시점에서 EDM 기반 분류를 설정합니다. 다음 단계는 중요 한 데이터를 해시한 다음 인덱싱하는 해시를 업로드하는 것입니다.
 
-PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의한 이전 절차에서 *PatientID*, *MRN*, *SSN*, *Phone* 및 *DOB*를 불러오십시오. 예제 규칙 패키지에는 해당 필드가 포함되어 있으며 검색 가능한 필드당 하나의 *ExactMatch* 항목과 함께 데이터베이스 스키마 파일(**edm.xml**)을 참조합니다. 다음의 ExactMatch 항목을 고려하십시오.
+PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의한 이전 절차에서 *PatientID*, *MRN*, *SSN*, *Phone* 및 *DOB*를 불러오세요. 예제 규칙 패키지에는 해당 필드가 포함되어 있으며 검색 가능한 필드당 하나의 *ExactMatch* 항목과 함께 데이터베이스 스키마 파일(**edm.xml**)을 참조합니다. 다음의 ExactMatch 항목을 고려하세요.
 
 ```xml
 <ExactMatch id = "E1CC861E-3FE9-4A58-82DF-4BD259EAB371" patternsProximity = "300" dataStore ="PatientRecords" recommendedConfidence = "65" >
@@ -300,7 +256,7 @@ PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의�
     </ExactMatch>
 ```
 
-해당 예제에서 다음과 같은 사항을 참고하십시오.
+이 예에서는 다음 사항에 유의하세요.
 
 - 데이터 저장소 이름은 이전에 생성한 .csv 파일( **데이터 저장소 = "PatientRecords"**)을 참조합니다.
 
@@ -311,9 +267,141 @@ PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의�
 > [!NOTE]
 > EDMSchema를 추가 사항으로 업데이트하는 데 10~60분이 소요될 수 있습니다. 추가 사항을 사용하는 단계를 실행하기 전에 업데이트를 완료해야 합니다.
 
+#### <a name="editing-the-schema-for-edm-based-classification"></a>EDM 기반 분류에 대한 스키마 편집
+
+EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml** 파일을 변경하려면 다음 단계를 수행하세요.
+
+1. **edm.xml** 파일을 편집하세요.(해당 문서의 [스키마 정의](#define-the-schema-for-your-database-of-sensitive-information) 섹션에서 다루는 파일입니다.)
+
+2. [보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)의 연결 절차를 사용하여 보안 및 준수 센터에 연결
+
+3. 데이터베이스 스키마를 업데이트하려면 다음과 같은 cmdlet을 한 번에 하나씩 실행하십시오:
+
+      ```powershell
+      $edmSchemaXml=Get-Content .\\edm.xml -Encoding Byte -ReadCount 0
+      Set-DlpEdmSchema -FileData $edmSchemaXml -Confirm:$true
+      ```
+
+      다음과 같이 확인하라는 메시지가 표시됩니다.
+
+      > 확인
+      >
+      > 이 작업을 수행하시겠습니까?
+      >
+      > 'patientrecords' 데이터 저장소의 새로운 EDM 스키마를 업데이트합니다.
+      >
+      > \[Y\] 예 \[A\] 모두 예 \[N\] 아니요 \[L\] 모두 아니요 \[?\] 도움말(기본값: "Y"):
+
+      > [!TIP]
+      > 3단계에서 확인하지 않고 변경 사항을 적용하려면 Set-DlpEdmSchema -FileData $edmSchemaXml 대신 해당 cmdlet을 사용하세요.
+
+      > [!NOTE]
+      > EDMSchema를 추가 사항으로 업데이트하는 데 10~60분이 소요될 수 있습니다. 추가 사항을 사용하는 단계를 실행하기 전에 업데이트를 완료해야 합니다.
+
+#### <a name="removing-the-schema-for-edm-based-classification"></a>EDM 기반 분류에 대한 스키마 제거
+
+(필요한 경우) EDM 기반 분류에 사용 중인 스키마를 제거하려면 다음 단계를 따르십시오:
+
+1. [보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)의 연결 절차를 사용하여 보안 및 준수 센터에 연결
+
+2. 다음의 PowerShell cmdlet을 실행하여 "patientrecords"의 데이터 저장소 이름을 제거하려는 저장소 이름으로 대체하세요.
+
+      ```powershell
+      Remove-DlpEdmSchema -Identity patientrecords
+      ```
+
+      다음을 확인하라는 메시지가 표시됩니다.
+
+      > 확인
+      >
+      > 이 작업을 수행하시겠습니까?
+      >
+      > 'patientrecords' 데이터 저장소의 EDM 스키마를 제거합니다.
+      >
+      > \[Y\] 예 \[A\] 모두 예 \[N\] 아니요 \[L\] 모두 아니요 \[?\] 도움말(기본값: "Y"):
+
+      > [!TIP]
+      >  2단계에서 확인하지 않고 변경 사항을 적용하려면 Remove-DlpEdmSchema -Identity patientrecords -Confirm:$false 대신 해당 cmdlet을 사용하세요.
+
+
+<!-- salt notes
+need two salting procedures, one for onestep from the externally facing and another for two step, on an internal machine then the upload from the external machine
+
+- create A  folder put the edmupload agent and, csv and salt file there, run all processes there
+- 
+- stuff you need to have first: DataStoreName, /DataFile name (csv file)  /Hashlocation
+
+- salt can be randomly generated by Microsoft or can be provided by the customer. If provided by the customer it must follow  format of 64 character, and can contain only letters or 0-9 characters.  Use a website to generate a valid salt value.
+ 
+- can run EDMuploadagent.exe from PS or Windows cmd window . tested on Windows Server 2016 or Windows 10 and dot net version 4.6.2
+
+when defiuning the schema file the searchable fields must be either an out of box SIT or custom SIT, only 5 fields )column headings) can be searchable
+
+1. From outbound access device from the cmd prompt run EdmUploadAgent.exe /Authorize -  
+2. data store schema must have already been uploaded
+3.  create hash first then do upload
+4. EdmUploadAgent.exe /CreateHash /DataFile (where the data file is ) E:\emd\test\data\schema32_1000000,csv /HashLocation  (where to store it) E:\edm\tat\hash this makes the salt file and the hash file as output
+5. next is upload EdmUploadAgent.exe /UploadHash /DataStoreName (found in the Schema file DataSore name="FOO" /HashFile (path to hash file locaztion and file name /HashLocation path to hash)  for example
+1.EdmUploadAgent/exe /UploadHash /DataStoreName schema321 /HashFile E:\edm\test\hash\schema32_10000000.EdmHash /HashLocation E:\edm\test\hash  -this one  uses MSFT generated salt, so no need to provide
+
+Salt is an optional parameter so if yo uwant to use a custom salt add /salt and the salt value if salt file not copied to the outbound machine 
+
+OR copy both files hash and salt to the same directory and the commmand will get both
+
+
+OR do it in single step hash, salt ulopad
+
+!! once they download the updated upload agent they will always have SALT, there is no going back.
+
+
+all in one step: EdmUploadAgent.exe /UploadData /DataStoreName schema321 /DataFile E:\edm\test\data\schema32_10000.csv /HashLocation E:\edm\test\hash
+
+tshooting/check status cmd
+
+
+
+Once it gets to completed the admin can start using it in the custom SIT
+
+they have to get their own custom SALT
+
+just copy SALT over in a secure fashion
+
+
+
+
+
+
+
+
+
+
+1.
+6.
+7.
+1.  
+
+
+ -->
+
 ### <a name="part-2-hash-and-upload-the-sensitive-data"></a>2부: 중요한 데이터를 해시하고 업로드
 
-이 단계에서는 사용자 지정 보안 그룹 및 사용자 계정을 설정하고 EDM 업로드 에이전트 도구를 설정합니다. 그런 다음 도구를 사용하여 중요한 데이터를 해시하고 색인화될 수 있도록 해시된 데이터를 업로드합니다.
+이 단계에서는 사용자 지정 보안 그룹 및 사용자 계정을 설정하고 EDM 업로드 에이전트 도구를 설정합니다. 그런 다음 이 도구를 사용하여 중요한 데이터를 해시하고 해시한 데이터를 업로드합니다.
+
+해시 및 업로드는 한 대의 컴퓨터를 사용하여 수행하거나 보안 강화를 위해 업로드 단계에서 해싱 단계를 분리할 수 있습니다.
+
+한 대의 컴퓨터에서 해시하고 업로드하려면 Microsoft 365 테넌트에 직접 연결할 수 있는 컴퓨터에서 수행해야 합니다. 이렇게하려면 해싱을 위해 일반 텍스트 중요 데이터 파일이 해당 컴퓨터에 있어야합니다.
+
+일반 텍스트 중요 데이터 파일을 노출하지 않으려면 안전한 위치에 있는 컴퓨터에서 해당 파일에서 해시한 다음 업로드를 위해 Microsoft 365 테넌트에 직접 연결할 수 있는 컴퓨터에 해시 파일과 솔트 파일을 복사할 수 있습니다. 이 시나리오에서는 두 컴퓨터 모두에 EDMUploadAgent가 필요합니다. 
+
+#### <a name="prerequisites"></a>필수 구성 요소
+
+- **EDM\_DataUploaders** 보안 그룹에 추가될 Microsoft 365용 회사 또는 학교 계정
+- EDMUploadAgent 실행을 위한 .NET 버전 4.6.2가있는 Windows 10 또는 Windows Server 2016 시스템
+- 다음에 대한 업로드 컴퓨터의 디렉토리 :
+    -  EDMUploadAgent
+    - 예제의 csv 형식 **PatientRecords.csv**의 중요한 항목 파일
+    -  및 출력 해시 및 솔트 파일
+    - **edm.xml** 파일의 데이터 저장소 이름(이 예에서는 `PatientRecords`)
 
 #### <a name="set-up-the-security-group-and-user-account"></a>보안 그룹 및 사용자 계정 설정
 
@@ -321,12 +409,12 @@ PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의�
 
 2. 한 명 이상의 사용자를 **EDM\_DataUploaders** 보안 그룹에 추가합니다. (이러한 사용자가 중요한 정보 데이터베이스를 관리합니다.)
 
-3. 중요한 데이터를 관리하는 각 사용자가 EDM 업로드 에이전트에 사용되는 컴퓨터에서 로컬 관리자인지 확인합니다.
+#### <a name="hash-and-upload-from-one-computer"></a>한 대의 컴퓨터에서 해시 및 업로드
 
-#### <a name="set-up-the-edm-upload-agent"></a>EDM 업로드 에이전트 설정
+이 컴퓨터는 Microsoft 365 테넌트에 직접 액세스할 수 있어야 합니다.
 
 >[!NOTE]
-> 이 절차를 시작하기 전에 **EDM\_DataUploaders** 보안 그룹의 구성원이며 컴퓨터의 로컬 관리자인지 확인합니다.
+> 이 절차를 시작하기 전에  **EDM\_ DataUploaders**  보안 그룹의 구성원인지 확인하세요.
 
 #### <a name="links-to-edm-upload-agent-by-subscription-type"></a>구독 유형별 EDM 업로드 에이전트에 대한 링크
 
@@ -334,41 +422,57 @@ PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의�
 - [GCC-High](https://go.microsoft.com/fwlink/?linkid=2137521)
 - [DoD](https://go.microsoft.com/fwlink/?linkid=2137807)
 
-1. 구독에 알맞은 [EDM 업로드 에이전트](#links-to-edm-upload-agent-by-subscription-type)를 다운로드하여 설치합니다. 기본적으로 설치 위치는  **C:\\Program Files\\Microsoft\\EdmUploadAgent**여야 합니다.
+1. EDMUploadAgent에 대한 작업 디렉터리를 만듭니다. 예를 들어, **C:\EDM\Data**. 여기에 **PatientRecords.csv** 파일을 배치하세요.
 
-   > [!TIP]
-   > 지원되는 명령 매개 변수에 대한 목록을 얻으려면 에이전트(인수 없음)를 실행하십시오. 예를 들어 'EdmUploadAgent'가 해당됩니다.
+2. 구독에 적합한 [EDM 업로드 에이전트](#links-to-edm-upload-agent-by-subscription-type)를 1단계에서 만든 디렉토리에 다운로드하여 설치합니다.
 
-   > [!NOTE]
-   > EDMUploadAgent를 사용하여 하루에 두 번만 지정된 데이터 저장소에 데이터를 업로드할 수 있습니다.
+> [!NOTE]
+> 위 링크의 EDMUploadAgent는 해시된 데이터에 솔트 값을 자동으로 추가하도록 업데이트되었습니다. 또는 자신의 솔트 값을 입력할 수 있습니다. 이 버전을 사용한 후에는 이전 버전의 EDMUploadAgent를 사용할 수 없습니다.
+>
+> EDMUploadAgent를 사용하여 하루에 두 번만 지정된 데이터 저장소에 데이터를 업로드할 수 있습니다.
 
-2. EDM 업로드 에이전트에 권한을 부여하려면 Windows 명령 프롬프트를 열고(관리자로) 다음 명령을 실행합니다.
+> [!TIP]
+> 지원되는 명령 매개 변수에 대한 목록을 얻으려면 에이전트(인수 없음)를 실행하세요. 예를 들어 'EdmUploadAgent'가 해당됩니다.
+
+2. EDM 업로드 에이전트에 권한을 부여하고 명령 프롬프트 창을 열고 (관리자 권한으로) **C:\EDM\Data** 디렉토리로 전환한 후 다음 명령을 실행합니다.
 
    `EdmUploadAgent.exe /Authorize`
 
-3. EDM_DataUploaders 보안 그룹에 추가된 Office 365의 회사 또는 학교 계정으로 로그인합니다.
+3. EDM_DataUploaders 보안 그룹에 추가된 Microsoft 365용 회사 또는 학교 계정으로 로그인합니다. 테넌트 정보는 연결을 위해 사용자 계정에서 추출됩니다.
 
-다음 단계는 EDM 업로드 에이전트를 사용하여 중요한 데이터를 해시한 다음 해시된 데이터를 업로드하는 것입니다.
-
-#### <a name="hash-and-upload-the-sensitive-data"></a>중요한 데이터를 해시하고 업로드
-
-중요한 데이터 파일(여기에서 예제는 **PatientRecords.csv**임)을 컴퓨터의 로컬 드라이브에 저장합니다. (예제 **PatientRecords.csv** 파일을  **C:\\Edm\\Data**에 저장했습니다.)
-
-중요 한 데이터를 해시하고 업로드하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.
+4. 중요한 데이터를 해시하고 업로드하려면 명령 프롬프트 창에서 다음 명령을 실행하세요.
 
 `EdmUploadAgent.exe /UploadData /DataStoreName \<DataStoreName\> /DataFile \<DataFilePath\> /HashLocation \<HashedFileLocation\>`
 
-예제: **EdmUploadAgent.exe /UploadData /DataStoreName PatientRecords /DataFile C:\\Edm\\Hash\\PatientRecords.csv /HashLocation C:\\Edm\\Hash**
+예: **EdmUploadAgent.exe /UploadData /DataStoreName PatientRecords /DataFile C:\Edm\Hash\PatientRecords.csv /HashLocation C:\Edm\Hash**
 
-격리된 환경에서 중요한 데이터를 분리하고 해시하여 실행하려면 해시와 업로드 단계를 각각 실행합니다.
+보안 강화를 위해 임의로 생성된 솔트 값을 해시에 자동으로 추가합니다. 선택에 따라, 고유한 솔트 값을 사용하려면 **/Salt <saltvalue>** 를 명령에 추가하세요. 이 값은 길이가 64자여야 하며 a-z 문자와 0-9만 포함할 수 있습니다.
 
-중요한 데이터를 해시하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.
+5. 다음 명령을 실행하여 업로드 상태를 확인하세요.
+
+`EdmUploadAgent.exe /GetSession /DataStoreName \<DataStoreName\>`
+
+예: **EdmUploadAgent.exe /GetSession /DataStoreName PatientRecords**
+
+상태가 **ProcessingInProgress**인지 확인합니다. 상태가 **완료**로 변경될 때까지 몇 분마다 다시 확인하세요. 상태가 완료되면 EDM 데이터를 사용할 수 있습니다.
+
+#### <a name="separate-hash-and-upload"></a>별도의 해시 및 업로드
+
+안전한 환경의 컴퓨터에서 해시를 수행합니다.
+
+1. 명령 프롬프트 창에서 다음 명령을 실행합니다.
 
 `EdmUploadAgent.exe /CreateHash /DataFile \<DataFilePath\> /HashLocation \<HashedFileLocation\>`
 
-예를 들어,
+예를 들면 :
 
-> **EdmUploadAgent.exe /CreateHash /DataFile C:\\Edm\\Data\\PatientRecords.csv /HashLocation C:\\Edm\\Hash**
+> **EdmUploadAgent.exe /CreateHash /DataFile C:\Edm\Data\PatientRecords.csv /HashLocation C:\Edm\Hash**
+
+**/Salt <saltvalue>** 옵션을 지정하지 않은 경우 해시 파일과 이러한 확장자를 가진 솔트 파일이 출력됩니다.
+- .EdmHash
+- .EdmSalt
+
+2. 중요한 항목 csv 파일(PatientRecords)을 테넌트에 업로드하는 데 사용할 컴퓨터에 이러한 파일을 안전한 방식으로 복사하세요.
 
 해시된 데이터를 업로드하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.
 
@@ -396,16 +500,16 @@ PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의�
 
 #### <a name="refreshing-your-sensitive-information-database"></a>중요한 정보 데이터베이스 새로 고침
 
-중요한 정보 데이터베이스를 매일 또는 매주 새로 고칠 수 있으며, EDM 업로드 도구를 사용하여 중요한 데이터를 다시 색인화한 다음 색인화된 데이터를 다시 업로드할 수 있습니다.
+중요한 정보 데이터베이스를 매일 새로 고칠 수 있으며, EDM 업로드 도구를 사용하여 중요한 데이터를 다시 색인화한 다음 색인화된 데이터를 다시 업로드할 수 있습니다.
 
 1. 중요한 정보 데이터베이스를 새로 고치는 빈도(매일 또는 매주)와 프로세스를 판별합니다.
 
-2. Microsoft Excel과 같은 앱에 중요한 데이터를 다시 내보내고 .csv 형식으로 파일을 저장합니다.  [해시에 설명 된 단계를 수행하고 중요한 데이터](#hash-and-upload-the-sensitive-data)를 업로드할 때 사용한 것과 동일한 파일 이름과 위치를 유지합니다.
+2. Microsoft Excel과 같은 앱에 중요한 데이터를 다시 내보내고 .csv 형식으로 파일을 저장합니다.  [해시에 설명 된 단계를 수행하고 중요한 데이터](#part-2-hash-and-upload-the-sensitive-data)를 업로드할 때 사용한 것과 동일한 파일 이름과 위치를 유지합니다.
 
       > [!NOTE]
       > .csv 파일의 구조(필드 이름)를 변경하지 않은 경우 데이터를 새로 고칠 때 데이터베이스 스키마 파일을 변경하지 않아도 됩니다. 하지만 변경해야 하는 경우 데이터베이스 스키마와 규칙 패키지를 적절하게 편집해야 합니다.
 
-3.  [해시에서 2단계와 3단계를 자동화하고 중요한 데이터](#hash-and-upload-the-sensitive-data) 절차를 업로드하려면 [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page) 를 사용합니다. 다음과 같은 여러 방법을 사용하여 작업을 예약할 수 있습니다.
+3.  [해시에서 2단계와 3단계를 자동화하고 중요한 데이터](#part-2-hash-and-upload-the-sensitive-data) 절차를 업로드하려면 [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page) 를 사용합니다. 다음과 같은 여러 방법을 사용하여 작업을 예약할 수 있습니다.
 
       | 메서드             | 수행할 작업 |
       | ---------------------- | ---------------- |
