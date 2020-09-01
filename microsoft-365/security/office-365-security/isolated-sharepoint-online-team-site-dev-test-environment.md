@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
 description: '요약: Microsoft 365 개발/테스트 환경에서 조직의 나머지 사람들과 격리 된 SharePoint Online 팀 사이트를 구성 합니다.'
-ms.openlocfilehash: 07f3ae349f20fd4498e7809955cf0407d8c31d8c
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 095b0e5098d86f69c21576e72439dde48a092db3
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588031"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308406"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>격리된 SharePoint Online 팀 사이트 개발/테스트 환경
 
@@ -65,7 +65,7 @@ Microsoft 365 개발/테스트 환경에서 격리 된 SharePoint Online 팀 사
 
 ## <a name="phase-2-create-user-accounts-and-access-groups"></a>2 단계: 사용자 계정 및 액세스 그룹 만들기
 
-[Office 365 PowerShell에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell) 의 지침을 사용 하 여 전역 관리자 계정으로 평가판 구독에 연결 합니다.
+[Office 365 PowerShell에 연결](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell) 의 지침을 사용 하 여 전역 관리자 계정으로 평가판 구독에 연결 합니다.
 
 - 컴퓨터 (경량 Microsoft 365 개발/테스트 환경용)
 
@@ -234,11 +234,11 @@ ProjectX에 대 한 SharePoint Online 팀 사이트를 만들려면 다음을 �
 
 11. 브라우저의 새 **Projectx-문서** 탭에서 **Word 문서 > 새로 만들기**를 클릭 합니다.
 
-12. 페이지에 텍스트를 몇 개 입력 하 고 상태를 **저장할**때까지 기다렸다가 브라우저에서 뒤로 단추를 클릭 한 다음 페이지를 새로 고칩니다. **문서** 폴더에 새 **문서 .docx** 가 표시 됩니다.
+12. 페이지에 텍스트를 몇 개 입력 하 고 상태를 **저장할**때까지 기다렸다가 브라우저에서 뒤로 단추를 클릭 한 다음 페이지를 새로 고칩니다. **문서** 폴더에 새 **Document.docx** 표시 됩니다.
 
-13. **문서 .docx** 문서의 줄임표를 클릭 한 다음 **링크 가져오기를**클릭 합니다.
+13. **Document.docx** 문서의 줄임표를 클릭 하 고 **링크 가져오기를**클릭 합니다.
 
-14. **공유의 ' 문서 .docx '** 대화 상자에 URL을 복사 하 여 메모장 이나 텍스트 편집기에서 새 줄에 붙여 넣은 다음 **공유 ' 문서 .docx '** 대화 상자를 닫습니다.
+14. **공유 ' Document.docx '** 대화 상자에 URL을 복사 하 여 메모장 이나 텍스트 편집기에서 새 줄에 붙여 넣은 다음 **공유 ' Document.docx '** 대화 상자를 닫습니다.
 
 15. 브라우저에서 **Projectx-문서** 및 **SharePoint** 탭을 닫고 **Microsoft Office 홈** 탭을 클릭 합니다.
 
@@ -252,11 +252,11 @@ ProjectX에 대 한 SharePoint Online 팀 사이트를 만들려면 다음을 �
 
 3. 브라우저의 새 **SharePoint** 탭에 있는 검색 상자에 **projectx** 를 입력 하 고 검색을 활성화 한 다음 **projectx** 팀 사이트를 클릭 합니다. ProjectX 팀 사이트에 대 한 브라우저에 새 탭이 표시 되어야 합니다.
 
-4. **문서**를 클릭 한 다음 **문서 .docx** 파일을 클릭 합니다.
+4. **문서**를 클릭 하 고 **Document.docx** 파일을 클릭 합니다.
 
-5. 브라우저의 **.docx** 탭에서 텍스트를 수정 합니다. **이 문서는 읽기 전용** 이라는 메시지가 표시 됩니다. 이는 개발 VP 사용자 계정에 사이트에 대 한 보기 권한만 있다는 이유로 예상 됩니다.
+5. 브라우저의 **Document.docx** 탭에서 텍스트를 수정 합니다. **이 문서는 읽기 전용** 이라는 메시지가 표시 됩니다. 이는 개발 VP 사용자 계정에 사이트에 대 한 보기 권한만 있다는 이유로 예상 됩니다.
 
-6. 브라우저에서 **문서 .docx**, **projectx-문서**및 **SharePoint** 탭을 닫습니다.
+6. 브라우저에서 **Document.docx** **Projectx-문서**및 **SharePoint** 탭을 닫습니다.
 
 7. **Microsoft Office 홈** 탭을 클릭 하 고 **개발 VP** 이름을 클릭 한 다음 **로그 아웃**을 클릭 합니다.
 
@@ -272,7 +272,7 @@ ProjectX에 대 한 SharePoint Online 팀 사이트를 만들려면 다음을 �
 
 5. 메모장 이나 텍스트 편집기에서 ProjectX Documents 폴더의 URL을 브라우저의 주소 표시줄에 복사 하 **고 enter 키를 누릅니다.** **액세스 거부** 페이지가 표시 됩니다.
 
-6. 메모장 이나 텍스트 편집기에서 문서 .docx 파일의 URL을 브라우저의 주소 표시줄에 복사한 다음 **enter 키를**누릅니다. **액세스 거부** 페이지가 표시 됩니다.
+6. 메모장 이나 텍스트 편집기에서 Documents.docx 파일의 URL을 브라우저의 주소 표시줄에 복사한 **다음 enter 키를 누릅니다.** **액세스 거부** 페이지가 표시 됩니다.
 
 7. 브라우저에서 **SharePoint** 탭을 닫고 **Microsoft Office 홈** 탭을 클릭 한 다음 **사용자 3** 이름을 클릭 하 고 **로그 아웃**을 클릭 합니다.
 
@@ -286,7 +286,7 @@ ProjectX에 대 한 SharePoint Online 팀 사이트를 만들려면 다음을 �
 
 [격리된 SharePoint Online 팀 사이트](isolated-sharepoint-online-team-sites.md)
 
-[클라우드 도입 TLG(테스트 랩 가이드)](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[클라우드 도입 TLG(테스트 랩 가이드)](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
 
 [시뮬레이트된 엔터프라이즈 기본 구성](https://docs.microsoft.com/microsoft-365/enterprise/simulated-ent-base-configuration-microsoft-365-enterprise)
 

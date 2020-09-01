@@ -8,8 +8,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: tracyp
+author: msfttracyp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -17,12 +17,13 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 08/27/2020
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8eda787a92228fc9705bd329f0df7203b9a1175c
-ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
+ms.reviewer: vippand
+ms.openlocfilehash: 2e6638480ec3a687b1bed9f2a176b6bf21278ef2
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47294778"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308382"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Office 365 ATP의 새로운 기능
 
@@ -39,7 +40,7 @@ ms.locfileid: "47294778"
 
 - [구성 분석기를 사용 하 여 정책 확인](configuration-analyzer-for-security-policies.md)
 - [테 넌 트 허용/차단 목록을 사용 하 여 verdicts 필터를 수동으로 재정의](tenant-allow-block-list.md)
-- [최상위 대상 사용자, 전송 규칙 및 커넥터를 포함 하는 위협 탐색기의 확장 기능](threat-explorer.md#extended-capabilities-in-Threat-Explorer.md)
+- [최상위 대상 사용자, 전송 규칙 및 커넥터를 포함 하는 위협 탐색기의 확장 기능](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections)
 - 사용자가 [위협 탐색기](threat-explorer.md) 에서 정보를 재정의 합니다 (전자 메일은 테 넌 트/사용자 정책에 의해 허용/차단 됨).
 - [위협 탐색기](threat-explorer.md) (맬웨어, 피싱, 스팸 또는 없음)의 서피싱 URL 위협
 

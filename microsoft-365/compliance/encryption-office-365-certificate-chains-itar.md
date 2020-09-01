@@ -1,5 +1,5 @@
 ---
-title: Office 365 암호화 체인-DOD 및 GCC High
+title: Office 365 암호화 체인 - DOD 및 GCC High
 f1.keywords:
 - NOCSH
 ms.author: kvice
@@ -17,16 +17,16 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Office 365에서 DOD 및 GCC 상위 루트 인증서 및 CAs (인증 기관)의 전체 목록을 확인 합니다.
-ms.openlocfilehash: 615a62b2ae2a954580ebf82f4c1b70748c991a71
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 19f164669392372c99c562f55cfb05487d9f7ed2
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951906"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308281"
 ---
-# <a name="office-365-encryption-chains---dod-and-gcc-high"></a>Office 365 암호화 체인-DOD 및 GCC High
+# <a name="office-365-encryption-chains---dod-and-gcc-high"></a>Office 365 암호화 체인 - DOD 및 GCC High
 
-Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음은 Office 365에 액세스할 때 **, DOD 및 GCC 최고 고객에 게** 발생할 수 있는 알려진 Office 365 루트 인증서의 전체 목록을 설명 합니다. 자체 인프라에서 설치 해야 할 수 있는 인증서에 대 한 자세한 내용은 [Office 365 용 타사 SSL 인증서 계획](https://docs.microsoft.com/office365/enterprise/plan-for-third-party-ssl-certificates)을 참조 하십시오.
+Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음은 Office 365에 액세스할 때 **, DOD 및 GCC 최고 고객에 게** 발생할 수 있는 알려진 Office 365 루트 인증서의 전체 목록을 설명 합니다. 자체 인프라에서 설치 해야 할 수 있는 인증서에 대 한 자세한 내용은 [Office 365 용 타사 SSL 인증서 계획](https://docs.microsoft.com/microsoft-365/enterprise/plan-for-third-party-ssl-certificates)을 참조 하십시오.
 
 다음 인증서 정보는 **모든 DOD 및 GCC 최고 고객**에 게 적용 됩니다.
 
@@ -119,7 +119,7 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 
 ### <a name="entrust-root-certification-authority"></a>**Entrust 루트 인증 기관**
 
-| **제목** | CN = Entrust 루트 인증 기관<br>OU = "(c) 2006 Entrust, Inc."<br>OU = entrust/CPS가 참조로 통합 됨<br>OU = www.entrust.net/legal-terms 참조<br>O =&quot;Entrust, i n c.&quot;<br>C = US |
+| **제목** | CN = Entrust 루트 인증 기관<br>OU = "(c) 2006 Entrust, Inc."<br>OU = entrust/CPS가 참조로 통합 됨<br>OU = www.entrust.net/legal-terms 참조<br>O = &quot; Entrust, i n c.&quot;<br>C = US |
 | --- | --- |
 | **일련 번호** | 45:6B: 50:54 |
 | **공개 키 길이** | RSA 2048 비트 (e 65537) |
@@ -133,7 +133,7 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 
 ### <a name="entrust-root-certification-authority---g2"></a>**Entrust 루트 인증 기관-G2**
 
-| **제목** | CN = Entrust 루트 인증 기관-G2<br>OU =&quot;(c) 2009 Entrust, Inc.-권한 있는 사용에만 해당&quot;<br>OU = www.entrust.net/legal-terms 참조<br>O =&quot;Entrust, i n c.&quot;<br>C = US |
+| **제목** | CN = Entrust 루트 인증 기관-G2<br>OU = &quot; (c) 2009 Entrust, Inc.-권한 있는 사용에만 해당&quot;<br>OU = www.entrust.net/legal-terms 참조<br>O = &quot; Entrust, i n c.&quot;<br>C = US |
 | --- | --- |
 | **일련 번호** | 4A: 53:8C: 28 |
 | **공개 키 길이** | RSA 2048 비트 (e 65537) |
@@ -147,7 +147,7 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 
 ### <a name="entrustnet-certification-authority-2048"></a>**Entrust.net Certification Authority (2048)**
 
-| **제목** | CN = Entrust 인증 기관 (2048)<br>OU = (c) 1999 Entrust.net 제한 됨<br>OU = entrust/CPS\_2048 incorp ref. (s liab 제한)<br>O = Entrust |
+| **제목** | CN = Entrust 인증 기관 (2048)<br>OU = (c) 1999 Entrust.net 제한 됨<br>OU = entrust/CPS \_ 2048 incorp ref. (s liab 제한)<br>O = Entrust |
 | --- | --- |
 | **일련 번호** | 38:63: DE: F8 |
 | **공개 키 길이** | RSA 2048 비트 (e 65537) |
@@ -161,9 +161,9 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 
 ### <a name="entrust-certification-authority---l1c"></a>**Entrust 인증 기관-L1C**
 
-| **제목** | CN = Entrust 인증 기관-L1C<br>OU =&quot;(c) 2009 Entrust, inc.&quot;<br>OU = entrust/rpa가 참조로 통합 됨<br>O =&quot;Entrust, i n c.&quot;<br>C = US |
+| **제목** | CN = Entrust 인증 기관-L1C<br>OU = &quot; (c) 2009 Entrust, inc.&quot;<br>OU = entrust/rpa가 참조로 통합 됨<br>O = &quot; Entrust, i n c.&quot;<br>C = US |
 | --- | --- |
-| **발급** | CN = Entrust 인증 기관 (2048)<br>OU = (c) 1999 Entrust.net 제한 됨<br>OU = entrust/CPS\_2048 incorp ref. (제한 liab)<br>O = Entrust |
+| **발급** | CN = Entrust 인증 기관 (2048)<br>OU = (c) 1999 Entrust.net 제한 됨<br>OU = entrust/CPS \_ 2048 incorp ref. (제한 liab)<br>O = Entrust |
 | **일련 번호** | 4C: 0E: 8C: 39 |
 | **공개 키 길이** | RSA 2048 비트 (e 65537) |
 | **서명 알고리즘** | sha1RSA |
@@ -179,9 +179,9 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 
 ### <a name="entrust-certification-authority---l1e"></a>**Entrust 인증 기관-L1E**
 
-| **제목** | CN = Entrust 인증 기관-L1E<br>OU =&quot;(c) 2009 Entrust, inc.&quot;<br>OU = entrust/rpa가 참조로 통합 됨<br>O =&quot;Entrust, i n c.&quot;<br>C = US |
+| **제목** | CN = Entrust 인증 기관-L1E<br>OU = &quot; (c) 2009 Entrust, inc.&quot;<br>OU = entrust/rpa가 참조로 통합 됨<br>O = &quot; Entrust, i n c.&quot;<br>C = US |
 | --- | --- |
-| **발급** | CN = Entrust 인증 기관 (2048)<br>OU = (c) 1999 Entrust.net 제한 됨<br>OU = entrust/CPS\_2048 incorp ref. (제한 liab)<br>O = Entrust |
+| **발급** | CN = Entrust 인증 기관 (2048)<br>OU = (c) 1999 Entrust.net 제한 됨<br>OU = entrust/CPS \_ 2048 incorp ref. (제한 liab)<br>O = Entrust |
 | **일련 번호** | 4C: 0E: C 9:18 |
 | **공개 키 길이** | RSA 2048 비트 (e 65537) |
 | **서명 알고리즘** | sha1RSA |
@@ -196,9 +196,9 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 
 ### <a name="entrust-certification-authority---l1k"></a>**Entrust 인증 기관-L1K**
 
-| **제목** | CN = Entrust 인증 기관-L1K<br>OU =&quot;(c) 2012 Entrust, Inc.-권한 있는 사용에만 해당&quot;<br>OU = www.entrust.net/legal-terms 참조<br>O =&quot;Entrust, i n c.&quot;<br>C = US |
+| **제목** | CN = Entrust 인증 기관-L1K<br>OU = &quot; (c) 2012 Entrust, Inc.-권한 있는 사용에만 해당&quot;<br>OU = www.entrust.net/legal-terms 참조<br>O = &quot; Entrust, i n c.&quot;<br>C = US |
 | --- | --- |
-| **발급** | CN = Entrust 루트 인증 기관-G2<br>OU =&quot;(c) 2009 Entrust, Inc.-권한 있는 사용에만 해당&quot;<br>OU = www.entrust.net/legal-terms 참조<br>O =&quot;Entrust, i n c.&quot;<br>C = US |
+| **발급** | CN = Entrust 루트 인증 기관-G2<br>OU = &quot; (c) 2009 Entrust, Inc.-권한 있는 사용에만 해당&quot;<br>OU = www.entrust.net/legal-terms 참조<br>O = &quot; Entrust, i n c.&quot;<br>C = US |
 | **일련 번호** | 0E: E9:4C: 03:00:00:00:00:51: D3:77:85 |
 | **공개 키 길이** | RSA 2048 비트 (e 65537) |
 | **서명 알고리즘** | sha256RSA |
@@ -214,9 +214,9 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 
 ### <a name="entrust-certification-authority---l1m"></a>**Entrust 인증 기관-L1M**
 
-| **제목** | CN = Entrust 인증 기관-L1M, OU =&quot;(c) 2014 Entrust, Inc.-권한 있는 사용에만 해당&quot;<br>OU = www.entrust.net/legal-terms 참조<br>O =&quot;Entrust, i n c.&quot;<br>C = US |
+| **제목** | CN = Entrust 인증 기관-L1M, OU = &quot; (c) 2014 Entrust, Inc.-권한 있는 사용에만 해당&quot;<br>OU = www.entrust.net/legal-terms 참조<br>O = &quot; Entrust, i n c.&quot;<br>C = US |
 | --- | --- |
-| **발급** | CN = Entrust 루트 인증 기관-G2<br>OU =&quot;(c) 2009 Entrust, Inc.-권한 있는 사용에만 해당&quot;<br>OU = www.entrust.net/legal-terms 참조<br>O =&quot;Entrust, i n c.&quot;<br>C = US |
+| **발급** | CN = Entrust 루트 인증 기관-G2<br>OU = &quot; (c) 2009 Entrust, Inc.-권한 있는 사용에만 해당&quot;<br>OU = www.entrust.net/legal-terms 참조<br>O = &quot; Entrust, i n c.&quot;<br>C = US |
 | **일련 번호** | 61: A1: E7: D2:00:00:00:00:51: D3:66: A6 |
 | **공개 키 길이** | RSA 2048 비트 (e 65537) |
 | **서명 알고리즘** | sha256RSA |

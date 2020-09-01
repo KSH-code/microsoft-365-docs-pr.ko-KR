@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 427d266ea46c184a87b8b0b4fbe242adfb8deff1
-ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
+ms.openlocfilehash: 7c83d3f202851008e93c3f3e9d0c7bc89c49bf20
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597546"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308370"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Id 및 그 외의 설계자 관점
 
@@ -113,7 +113,7 @@ XYZ SaaS는 JIT (Just-in-time) 프로 비전을 지원 하며, 동기화 해야 
 
 Microsoft는 여러분이 기억이 가능 하기만 하면 sso ( [single sign-on](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-single-sign-on) )의 꿈를 추적 했습니다. 일부 고객은 "right" 페더레이션 (STS) 공급자를 선택 하 여이를 달성할 수 있다고 생각 합니다. Azure AD는 SSO 기능을 [사용](https://docs.microsoft.com/azure/active-directory/manage-apps/plan-sso-deployment) 하는 데 상당히 도움이 되지만 STS는 놀라운 것이 아닙니다. 중요 한 응용 프로그램에 여전히 사용 되는 "레거시" 인증 방법이 너무 많습니다. [파트너 솔루션](https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list) 을 사용 하 여 Azure AD를 확장 하면 이러한 여러 시나리오를 처리할 수 있습니다. SSO는 전략 및 여행입니다. [응용 프로그램에 대 한 표준을](https://docs.microsoft.com/azure/active-directory/develop/v2-app-types)전환 하지 않고도이를 얻을 수 있습니다. 이 항목에는 [암호를 더 적게](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-passwordless) 사용할 수 있는데, 이러한 인증을 통해 마법의 대답이 없습니다. 
 
-현재 MFA ( [multi-factor authentication](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks) )는 필수 사항입니다 (자세한 내용은[여기](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/your-pa-word-doesn-t-matter/ba-p/731984) ). It [사용자 동작 분석](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-risk-based-sspr-mfa) 에 추가 하 고 일반적인 사이버 대부분의 공격을 방지 하는 솔루션을 보유 하 고 있습니다. 심지어 MFA를 요구 하도록 소비자 서비스도 이동 합니다. 그러나 아직 까지는 [최신 인증](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) 방법으로 이동 하지 않으려는 많은 고객을 대상으로 합니다. 가장 큰 인수는 사용자와 레거시 응용 프로그램에 영향을 줍니다. 경우에 따라 고객은 Exchange Online에서 발표 하는 온라인 [변경 사항을](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-auth-and-exchange-online-february-2020-update/ba-p/1191282)이동 하는 데 도움이 될 수 있습니다. 이제 고객이 이러한 전환을 지원 하기 위해 많은 Azure AD [보고서](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-block-legacy-authentication) 를 사용할 수 있습니다.
+현재 MFA ( [multi-factor authentication](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks) )는 필수 사항입니다 (자세한 내용은[여기](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/your-pa-word-doesn-t-matter/ba-p/731984) ). It [사용자 동작 분석](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-risk-based-sspr-mfa) 에 추가 하 고 일반적인 사이버 대부분의 공격을 방지 하는 솔루션을 보유 하 고 있습니다. 심지어 MFA를 요구 하도록 소비자 서비스도 이동 합니다. 그러나 아직 까지는 [최신 인증](https://docs.microsoft.com/microsoft-365/enterprise/hybrid-modern-auth-overview) 방법으로 이동 하지 않으려는 많은 고객을 대상으로 합니다. 가장 큰 인수는 사용자와 레거시 응용 프로그램에 영향을 줍니다. 경우에 따라 고객은 Exchange Online에서 발표 하는 온라인 [변경 사항을](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-auth-and-exchange-online-february-2020-update/ba-p/1191282)이동 하는 데 도움이 될 수 있습니다. 이제 고객이 이러한 전환을 지원 하기 위해 많은 Azure AD [보고서](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-block-legacy-authentication) 를 사용할 수 있습니다.
 
 
 
@@ -187,12 +187,12 @@ Outlook 클라이언트를 살펴보면 Exchange 뿐만 아니라이 환경의 �
 
 ### <a name="multi-geo"></a>Multi-Geo 
 
-[다중 지역](https://docs.microsoft.com/office365/enterprise/office-365-multi-geo) 으로, 다중 geo가 아니며, 이것이 질문입니다. Office 365 다중 위치를 사용 하 여 [데이터 상주](https://docs.microsoft.com/office365/enterprise/o365-data-locations) 요구 사항을 충족 하기 위해 선택한 지리적 위치에 보관 된 데이터를 구축 하 고 저장할 수 있습니다. 이 기능에 대 한 여러 misconceptions 있습니다. 다음 사항에 유의해야 합니다. 
+[다중 지역](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo) 으로, 다중 geo가 아니며, 이것이 질문입니다. Office 365 다중 위치를 사용 하 여 [데이터 상주](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations) 요구 사항을 충족 하기 위해 선택한 지리적 위치에 보관 된 데이터를 구축 하 고 저장할 수 있습니다. 이 기능에 대 한 여러 misconceptions 있습니다. 다음 사항에 유의해야 합니다. 
 - 성능상의 이점을 제공 하지는 않습니다. [네트워크 디자인이](https://aka.ms/office365networking) 올바르지 않으면 성능이 떨어질 수 있습니다. 데이터가 아닌 Microsoft 네트워크에 대 한 "근접" 장치를 가져옵니다.
 - [Gdpr 준수](https://www.microsoft.com/trust-center/privacy/gdpr-overview)에 대 한 솔루션은 아닙니다. GDPR은 데이터 소유권 또는 저장 위치에 중점을 둔 것이 아닙니다. 이에 대 한 다른 규정 준수 프레임 워크가 있습니다.
 - 관리 위임 (아래 참조) 또는 [정보 장벽](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)확인은 해결 되지 않습니다.
 - 이 파일은 다중 테 넌 트와 동일 하지 않으며 추가 [사용자 프로 비전](https:/docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation) 워크플로가 필요 합니다.
-- [테 넌 트](https://docs.microsoft.com/office365/enterprise/moving-data-to-new-datacenter-geos) (Azure AD)는 다른 지역으로 이동 하지 않습니다. 
+- [테 넌 트](https://docs.microsoft.com/microsoft-365/enterprise/moving-data-to-new-datacenter-geos) (Azure AD)는 다른 지역으로 이동 하지 않습니다. 
 
 ## <a name="delegation-of-administration"></a>관리 위임
 
@@ -202,7 +202,7 @@ Outlook 클라이언트를 살펴보면 Exchange 뿐만 아니라이 환경의 �
 
 [기본 제공 역할](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)의 길고 증가 된 목록이 있습니다. 각 역할은 특정 작업을 수행할 수 있도록 그룹화 된 역할 권한 목록과 함께 구성 됩니다. 각 역할 내의 "설명" 탭에서 이러한 사용 권한을 확인할 수 있습니다. 또는 Microsoft 365 관리 센터에서이에 해당 하는 사용자의 가독성 버전을 확인할 수 있습니다. 기본 제공 역할에 대 한 정의는 수정할 수 없습니다. 일반적으로 다음과 같은 세 가지 범주로 그룹화 합니다.
 
-- **전역 관리자** —이 "모든 강력한" 역할은 다른 시스템과 마찬가지로 [고도로 보호](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts) 되어야 합니다. 일반적인 권장 사항은 다음과 같습니다. 영구 할당이 없으며 Azure AD PIM (권한 부여 Id 관리)을 사용 합니다. 강력한 인증 기타. 흥미롭게도이 역할은 기본적으로 모든 항목에 대 한 액세스 권한을 제공 하지는 않습니다. 일반적으로 규정 준수 액세스 및 Azure 액세스에 대 한 혼동이 있는데,이에 대해서는 뒷부분에서 설명 합니다. 그러나이 역할은 항상 테 넌 트에서 다른 서비스에 대 한 액세스 권한을 할당할 수 있습니다. 
+- **전역 관리자** —이 "모든 강력한" 역할은 다른 시스템과 마찬가지로 [고도로 보호](https://docs.microsoft.com/microsoft-365/enterprise/protect-your-global-administrator-accounts) 되어야 합니다. 일반적인 권장 사항은 다음과 같습니다. 영구 할당이 없으며 Azure AD PIM (권한 부여 Id 관리)을 사용 합니다. 강력한 인증 기타. 흥미롭게도이 역할은 기본적으로 모든 항목에 대 한 액세스 권한을 제공 하지는 않습니다. 일반적으로 규정 준수 액세스 및 Azure 액세스에 대 한 혼동이 있는데,이에 대해서는 뒷부분에서 설명 합니다. 그러나이 역할은 항상 테 넌 트에서 다른 서비스에 대 한 액세스 권한을 할당할 수 있습니다. 
 - **특정 서비스 관리자** -일부 서비스 (Exchange, SharePoint, Power BI 등)는 Azure AD에서 높은 수준의 관리 역할을 사용 합니다. 이 작업은 모든 서비스에서 일관 되지 않으며 나중에 설명 하는 서비스 관련 역할도 더 많이 제공 됩니다.
 - **기능** -특정 작업 (게스트 inviter 등)에 초점을 맞춘 긴 (및 증가 하는) 역할 목록이 있습니다. 고객의 요구 사항에 따라 주기적으로 추가 됩니다.
 
@@ -248,8 +248,8 @@ Protection.office.com (보안 & 준수 센터)를 통해 현재 관리 되는 �
   + **준수 경계**  -  [https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries ](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries )
   + **고급 eDiscovery**  -  [https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 ](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 )
 - **Yammer** - [https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-admins](https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-admins) 
-- **다중 지역** - [https://docs.microsoft.com/office365/enterprise/add-a-sharepoint-geo-admin](https://docs.microsoft.com/office365/enterprise/add-a-sharepoint-geo-admin) 
-- **Dynamics 365** –[https://docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/) <br>
+- **다중 지역** - [https://docs.microsoft.com/microsoft-365/enterprise/add-a-sharepoint-geo-admin](https://docs.microsoft.com/microsoft-365/enterprise/add-a-sharepoint-geo-admin) 
+- **Dynamics 365** – [https://docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/) <br>
   참고:이 링크는 설명서의 루트에 대 한 것입니다. 관리/위임 모델에는 다양 한 유형의 서비스가 있습니다.
 - **전원 플랫폼**  -  [https://docs.microsoft.com/power-platform/admin/admin-documentation ](https://docs.microsoft.com/power-platform/admin/admin-documentation )
   + **파워 앱**  -  [https://docs.microsoft.com/power-platform/admin/wp-security ](https://docs.microsoft.com/power-platform/admin/wp-security ) <br>
