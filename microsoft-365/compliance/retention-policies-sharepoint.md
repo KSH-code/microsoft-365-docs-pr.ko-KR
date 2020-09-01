@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: SharePoint 및 OneDrive에서 보존이 작동하는 방식을 알아봅니다.
-ms.openlocfilehash: f19f452a01c093d08dbeed38a34756dcaf7a4e95
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 3c1b2564b0ba9d96d22ab9d3b78da500b54363e2
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127405"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315791"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive의 보존에 대해 자세히 알아보기
 
@@ -71,7 +71,7 @@ SharePoint 및 OneDrive 관련 정보를 포함하므로 이 문서의 정보는
 
 ## <a name="how-retention-works-with-document-versions-in-a-site-collection"></a>사이트 모음의 문서 버전에서 보존 작동 방식
 
-버전 관리는 SharePoint 및 OneDrive의 모든 문서 라이브러리의 기능입니다. 기본적으로 버전 관리에서는 최소 500개의 주요 버전이 유지되지만이 제한을 늘릴 수 있습니다. 자세한 내용은 [목록 또는 라이브러리의 버전 관리 설정 및 구성](https://support.office.com/article/1555d642-23ee-446a-990a-bcab618c7a37)을 참조하세요.
+버전 관리는 SharePoint 및 OneDrive의 모든 문서 라이브러리의 기능입니다. 기본적으로 버전 관리에서는 최소 500개의 주요 버전이 유지되지만이 제한을 늘릴 수 있습니다. 자세한 내용은 [목록 또는 라이브러리에 대한 버전 지정 사용 및 구성](https://support.office.com/article/1555d642-23ee-446a-990a-bcab618c7a37) 및 [목록 및 라이브러리에서 버전 지정 작동 방식](https://support.microsoft.com/office/how-versioning-works-in-lists-and-libraries-0f6cd105-974f-44a4-aadb-43ac5bdfd247)을 참조하세요.
   
 보존만 설정은 SharePoint 사이트 모음 또는 OneDrive 계정에 있는 문서의 모든 버전을 보존합니다. 보류 또는 보존만 보존 설정이 적용되는 문서를 처음 편집하면 원본 문서 버전이 자료 보존 라이브러리에 복사됩니다. 보류 또는 보존만 설정이 적용되는 문서를 삭제하면 버전 관리 기능을 사용하도록 설정한 경우, 모든 버전이 자료 보존 라이브러리에 복사됩니다. 자료 보존 라이브러리의 각 문서 버전은 자체 보존 기간이 있는 별도의 항목으로 존재합니다.
   
@@ -81,6 +81,10 @@ SharePoint 및 OneDrive 관련 정보를 포함하므로 이 문서의 정보는
 
 > [!NOTE]
 > 보존된 버전의 SharePoint 및 OneDrive 문서는 eDiscovery 도구로 검색할 수 없습니다.
+
+보존 정책(또는 법적 보존)이 적용되는 항목의 경우 문서의 보존 기간에 도달할 때까지 문서 라이브러리의 버전 지정 제한은 무시됩니다. 이 시나리오에서는 이전 버전이 자동으로 삭제되지 않고 사용자가 버전을 삭제할 수 없습니다.
+
+사이트에 보존 정책을 적용하지 않은 경우 보존 레이블은 그렇지 않습니다. 대신 새 버전을 수용하기 위해 이전 버전이 자동으로 삭제되도록 버전 지정 제한이 적용되지만 사용자는 여전히 버전을 삭제할 수 없습니다.
 
 ## <a name="when-a-user-leaves-the-organization"></a>사용자가 조직을 떠나는 경우
 

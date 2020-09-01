@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체 또는 특정 위치 또는 사용자에게 단일 정책을 적용할 수 있고 모든 콘텐츠 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: 6a22c1020c7e6d6c1fce4f80ce40da353b095e64
-ms.sourcegitcommit: c76c025fe75cd9c06eccbf9c7fc887b09da36659
+ms.openlocfilehash: 5b0b81d18afad9f0f9cba6ec24e157ad8f96e4ef
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46903863"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315853"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -210,9 +210,7 @@ Outlook의 **대화 내용** 폴더는 Skype 보관과 아무 관계가 없는 �
 ### <a name="identify-content-that-contains-specific-keywords"></a>특정 키워드를 포함하는 콘텐츠 식별
 
 특정 조건을 충족하는 콘텐츠에만 보존 정책을 적용하고 해당 콘텐츠에 대해서만 보존 작업을 수행할 수 있습니다. 사용 가능한 조건은 특정 단어 나 문구가 포함된 콘텐츠에 보존 정책을 적용하는 것을 지원합니다. 검색 연산자(예: AND, OR 및 NOT)를 사용하여 쿼리를 구체화할 수 있습니다. 연산자에 대한 자세한 내용은 [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)을 참조하세요.
-  
-검색 가능한 속성(예: **제목:**)을 추가하는 기능이 곧 지원될 예정입니다.
-  
+
 쿼리 기반 보존은 검색 인덱스를 사용하여 콘텐츠를 식별합니다.
   
 ![쿼리 편집기](../media/2c31b412-922e-4a88-89e4-5175c23d9b5f.png)

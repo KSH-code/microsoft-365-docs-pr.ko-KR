@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들고 자동 게시하여 레이블을 자동으로 적용하여 필요한 항목을 보존하고 필요하지 않은 항목을 삭제할 수 있습니다.
-ms.openlocfilehash: 80a5ef502450a24d9c8aeeb08d571bfcbd51a4e3
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 7528fed52ae3df1a60303c40df35a42de6bc1f31
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648807"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315821"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>보존 레이블 자동 적용하여 콘텐츠를 보존 또는 삭제하기
 
@@ -38,8 +38,8 @@ ms.locfileid: "46648807"
     
 - 사용자가 더 이상 데이터 거버넌스 정책을 알아야 할 필요가 없으며, 업무에 집중할 수 있습니다.
     
-콘텐츠에 중요한 정보, 키워드 또는 [학습 가능한 분류자](classifier-getting-started-with.md) 일치 항목이 포함된 경우 보존 레이블을 콘텐츠에 자동으로 적용할 수 있습니다.
-    
+콘텐츠에 중요한 정보, 키워드나 검색 가능한 속성 또는 [학습 가능한 분류자](classifier-getting-started-with.md) 일치 항목이 포함된 경우 보존 레이블을 콘텐츠에 자동으로 적용할 수 있습니다.
+
 다음 조건에 따라 보존 레이블을 자동으로 적용하는 프로세스:
 
 ![자동 적용 레이블의 역할 및 작업 다이어그램](../media/32f2f2fd-18a8-43fd-839d-72ad7a43e069.png)
@@ -113,7 +113,7 @@ ms.locfileid: "46648807"
 
 - [특정 중요한 정보 유형](#auto-apply-labels-to-content-with-specific-types-of-sensitive-information)
 
-- [만든 쿼리와 일치하는 특정 키워드](#auto-apply-labels-to-content-with-keywords-or-searchable-properties)
+- [만든 쿼리와 일치하는 특정 키워드 또는 검색 가능한 속성](#auto-apply-labels-to-content-with-keywords-or-searchable-properties)
 
 - [학습 가능한 분류자와 일치](#auto-apply-labels-to-content-by-using-trainable-classifiers)
 
@@ -135,30 +135,28 @@ ms.locfileid: "46648807"
   
 #### <a name="auto-apply-labels-to-content-with-keywords-or-searchable-properties"></a>키워드 또는 검색 가능 속성이 있는 콘텐츠에 레이블 자동 적용
 
-특정 조건을 충족하는 콘텐츠에 레이블을 자동으로 적용할 수 있습니다. 현재 사용 가능한 조건은 특정 단어, 구 또는 검색 가능 속성 값을 포함하는 콘텐츠에만 레이블을 적용하도록 지원합니다. AND, OR 및 NOT과 같은 검색 연산자를 사용하여 쿼리를 구체화할 수 있습니다.
+검색 가능한 속성의 특정 단어, 구 또는 값을 포함하는 쿼리를 사용하여 콘텐츠에 레이블을 자동으로 적용할 수 있습니다. AND, OR 및 NOT과 같은 검색 연산자를 사용하여 쿼리를 세분화할 수 있습니다.
 
-검색 가능한 속성에 대한 레이블을 자동 적용하는 동안에는 관리 속성에 대한 별칭이 쿼리에 사용될 수 없습니다. 관리 속성의 실제 이름(예: RefinableString01)이어야 합니다.
+![쿼리 편집기](../media/ac5b8e5e-7453-4ec7-905c-160df57298d3.png)
 
-쿼리 구문에 대한 자세한 내용은 다음을 참조하세요.
+KQL(키워드 쿼리 언어)에 대한 자세한 내용은 [KQL(키워드 쿼리 언어) 구문 참조](https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)를 참조하세요.
 
-- [KQL(키워드 쿼리 언어) 구문 참조](https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
-
-쿼리 기반 레이블은 검색 인덱스를 사용하여 콘텐츠를 식별합니다. 유효한 검색 가능 속성에 대한 자세한 내용은 다음을 참조하세요.
+쿼리 기반 레이블은 검색 인덱스를 사용하여 콘텐츠를 식별합니다. 검색 가능한 속성에 대한 자세한 내용은 다음을 참조하세요.
 
 - [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)
 - [SharePoint Server에서 크롤링 및 관리 속성의 개요](https://docs.microsoft.com/SharePoint/technical-reference/crawled-and-managed-properties-overview)
 
+> [!NOTE]
+> SharePoint 관리 속성에는 별칭이 지원되지만, 보존 레이블을 구성할 때는 사용하지 마세요. 관리 속성의 실제 이름을 항상 지정합니다(예: "RefableString01").
+
 예제 쿼리:
 
-- Exchange
-    - subject:"Quarterly Financials"
-    - recipients:garthf<!--nolink-->@contoso.com
-- SharePoint 및 OneDrive
-    - contenttype:contract
-    - site:https<!--nolink-->://contoso.sharepoint.com/sites/teams/procurement AND contenttype:contract
-
-![쿼리 편집기](../media/ac5b8e5e-7453-4ec7-905c-160df57298d3.png)
-
+| 워크로드 | 예제 |
+|:-----|:-----|
+|Exchange   | `subject:"Quarterly Financials"` |
+|Exchange   | `recipients:garthf@contoso.com` |
+|SharePoint | `contenttype:contract` |
+|SharePoint | `site:https://contoso.sharepoint.com/sites/teams/procurement AND contenttype:contract`|
 
 #### <a name="auto-apply-labels-to-content-by-using-trainable-classifiers"></a>학습 가능한 분류자를 사용하여 콘텐츠에 레이블 자동 적용
 
