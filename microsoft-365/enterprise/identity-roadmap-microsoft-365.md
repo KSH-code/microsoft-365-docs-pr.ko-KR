@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365에 대 한 id 로드맵입니다.
-ms.openlocfilehash: 206d8598bab294e6ecb9502599e5530dd4942a59
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 2eae98d891672e9fc9adb68e1fee2426fe4934dd
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692901"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315802"
 ---
 # <a name="identity-roadmap-for-microsoft-365"></a>Microsoft 365에 대 한 id 로드맵
 
@@ -42,14 +42,14 @@ ms.locfileid: "46692901"
 
 ## <a name="plan"></a>계획
 
-Id 구현의 계획 단계에서 다음을 수행 합니다.
+Id 구현을 계획 하려면 다음을 수행 합니다.
 
 - [다양 한 id 모델 이해](about-microsoft-365-identity.md)
 - [하이브리드 id 및 디렉터리 동기화 계획](plan-for-directory-synchronization.md)
 
 ## <a name="deploy"></a>배포
 
-Id 구현의 배포 단계에서 다음을 수행 합니다.
+Id 구현을 배포 하려면
 
 - [전역 관리자 계정 보호](protect-your-global-administrator-accounts.md)
 - [클라우드 전용 id 구성 및 사용](cloud-only-identities.md)
@@ -59,14 +59,14 @@ Id 구현의 배포 단계에서 다음을 수행 합니다.
 
 ### <a name="identity-and-device-access-recommendations"></a>ID 및 장치 액세스 권장 사항
 
-Microsoft에서는 직원 안전과 생산성을 유지하기 위해 [ID 및 디바이스 액세스](microsoft-365-policies-configurations.md)에 대한 권장 사항을 제공합니다. ID을 확인하려면 다음 문서의 권장 사항 및 설정과 함께 이 작업 단계의 다음 단계를 사용하세요.
+Microsoft에서는 직원 안전과 생산성을 유지하기 위해 [ID 및 디바이스 액세스](microsoft-365-policies-configurations.md)에 대한 권장 사항을 제공합니다. Id에 대해 다음 문서의 권장 사항 및 설정을 사용 합니다.
 
 - [필수 구성 요소](identity-access-prerequisites.md)
 - [일반 ID 및 장치 액세스 정책](identity-access-policies.md)
 
 ## <a name="manage"></a>관리
 
-Id 구현의 관리 단계에서 다음을 수행 합니다.
+Id 구현을 관리 하려면 다음을 수행 합니다.
 
 - [라이선스 할당 및 사용자 계정 관리](assign-licenses-to-user-accounts.md)
 - [디렉터리 동기화 모니터링](view-directory-synchronization-status.md)
@@ -83,9 +83,6 @@ Microsoft의 IT 전문가가 [ID와 보안 액세스를 관리하는 방법](htt
 
 가상의 대표적 다국적 기업인 Contoso Corporation이 Microsoft 365 클라우드 서비스를 위해 [Microsoft 용 하이브리드 ID 인프라를 구축](contoso-identity.md)한 방식을 알아봅니다.
 
-![Contoso Corporation](../media/contoso-overview/contoso-icon.png)
-
 ## <a name="next-step"></a>다음 단계
 
 [Id 모델](about-microsoft-365-identity.md)을 사용 하 여 id 계획을 시작 합니다.
-

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: 조직의 사용자에 대 한 Office 스크립트 설정을 관리 하는 방법을 알아봅니다.
-ms.openlocfilehash: 12a80f277f6d17a8e7f5228f6948e70b7a93be11
-ms.sourcegitcommit: 97ef8f846939c3d31bb0638edf07bb89463ace0b
+ms.openlocfilehash: 44e2a5c0e0577db344fdbb00a110674df3e71bdc
+ms.sourcegitcommit: 04f196528a7a91b404478553433af3fa94d7eee7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47300839"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47317496"
 ---
 # <a name="manage-office-scripts-settings"></a>Office 스크립트 설정 관리
 
@@ -80,7 +80,7 @@ Office 스크립트를 사용 하면 사용자가 웹에서 Excel에서 스크�
 
 7. **저장**을 선택합니다.
 
-    Office Script 설정 변경 사항을 적용 하려면 최대 48 시간이 걸릴 수 있습니다.
+    Office 스크립트 설정 변경 사항을 적용 하려면 최대 48 시간이 걸릴 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

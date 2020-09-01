@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365에 대 한 클라우드 서비스를 설정 하기 위한 로드맵
-ms.openlocfilehash: 2b6b69f25888305232ba93d9d738319fe5137019
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 4e9630ad84b5e442f0c8fd6ab95ca9d0c48c780a
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692707"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315768"
 ---
 # <a name="cloud-services-roadmap-for-microsoft-365"></a>Microsoft 365 용 클라우드 서비스 로드맵
 
@@ -28,11 +28,11 @@ Exchange, SharePoint 또는 비즈니스용 Skype에 대 한 기존 서버 기�
 
 ## <a name="deploy"></a>배포
 
-클라우드 서비스의 배포 단계에서 다음을 수행 합니다.
+클라우드 서비스를 배포 하려면:
 
 - [서비스 준비](configure-services-and-applications.md)
 - [온-프레미스 데이터를 Microsoft 365로 마이그레이션](migrate-data-to-office-365.md)
-- 클라우드 서비스 배포
+- 사용자를 위해 클라우드 서비스 설정
   - [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online)
   - [SharePoint Online](https://docs.microsoft.com/sharepoint/sharepoint-online)
   - [비즈니스용 Skype](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)
@@ -42,7 +42,7 @@ Exchange, SharePoint 또는 비즈니스용 Skype에 대 한 기존 서버 기�
 
 ## <a name="manage"></a>관리
 
-클라우드 서비스의 관리 단계에서 다음을 수행 합니다. 
+클라우드 서비스를 관리 하려면: 
 
 - [서비스 상태 확인](view-service-health.md)
 - [지원 옵션 이해](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

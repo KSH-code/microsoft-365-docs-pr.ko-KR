@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365에 대 한 테 넌 트를 설정 하기 위한 로드맵
-ms.openlocfilehash: db7054d1f6afc7e4835507dc6415e0b240918c1f
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 540d1bc53ac06b85d22a8a60a62e51761e10339c
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692843"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315756"
 ---
 # <a name="tenant-roadmap-for-microsoft-365"></a>Microsoft 365에 대 한 테 넌 트 로드맵
 
@@ -30,7 +30,7 @@ Microsoft 365 테 넌 트를 만들 때이를 특정 지리적 위치에 할당 
 
 ## <a name="plan"></a>계획
 
-테 넌 트 구현 계획 단계에서 다음을 수행 합니다.
+다음을 수행 하 여 테 넌 트 구현을 계획 합니다.
 
 - [구독, 라이선스 및 Azure AD (Active Directory) 테 넌 트 이해](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
 - [타사 SSL 인증서 사용 방법 이해](plan-for-third-party-ssl-certificates.md)
@@ -44,7 +44,7 @@ Microsoft 365 테 넌 트를 만들 때이를 특정 지리적 위치에 할당 
 
 ## <a name="deploy"></a>배포
 
-테 넌 트 구현의 배포 단계에서 조직의 [DNS 도메인을 추가](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) 합니다.
+테 넌 트를 배포 하려면 조직의 [DNS 도메인을 추가](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) 합니다.
 
 ## <a name="tenants-with-multiple-geographic-locations"></a>여러 지리적 위치가 있는 테 넌 트
 
@@ -52,7 +52,7 @@ Microsoft 365 Multi-Geo를 사용하면 Microsoft 365 범위를 기존 테넌트
 
 Microsoft 365 다중 Geo를 이해, 계획, 구성 및 관리 하는 작업을 [시작](microsoft-365-multi-geo.md) 합니다.
 
-## <a name="moving-a-tenants-geographic-locations"></a>테 넌 트의 지리적 위치 이동
+## <a name="move-a-tenants-geographic-locations"></a>테 넌 트의 지리적 위치 이동
 
 Microsoft는 Microsoft 365 서비스에 대 한 새로운 데이터 센터 지리적 위치 (geos)를 계속 해 서 엽니다. 이러한 새 데이터 센터 지역는 고객 요구 및 사용 증가를 지원 하기 위해 용량을 추가 하 고 리소스를 계산 합니다. 또한 새 데이터 센터 지역는 핵심 고객 데이터에 대 한 상주 데이터를 제공 합니다.
 

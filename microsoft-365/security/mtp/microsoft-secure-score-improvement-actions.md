@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: ab75e7ddbf3ada01c3f1247e58d8dc9472ecae77
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 3b913b3d53abf8c46fbcc9e053f91f512864c9d8
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866978"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315834"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Microsoft 보안 점수를 사용 하 여 보안 상황 평가
 
@@ -35,7 +35,7 @@ Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 
 
 * Id (Azure Active Directory 계정 & 역할)
 * 데이터 (Microsoft Information Protection)
-* 장치 ( [구성 점수](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configuration-score)라고 알려진 MICROSOFT Defender ATP)
+* 장치 ( [장치에 대 한 Microsoft 보안 점수](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices)라고 알려진 MICROSOFT Defender ATP)
 * 앱 (Office 365 및 Microsoft Cloud App Security)을 포함 하는 전자 메일 및 클라우드 앱
 * 인프라 (지금은 향상 작업 없음)
 
