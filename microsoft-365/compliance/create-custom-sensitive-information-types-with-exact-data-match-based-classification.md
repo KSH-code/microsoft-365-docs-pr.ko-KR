@@ -17,99 +17,113 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 699cea6aec6f11462aed0c08db98ca4620df519a
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: f4bbbe8726370297e9ef6317cd468789bb3b3bfe
+ms.sourcegitcommit: 97ef8f846939c3d31bb0638edf07bb89463ace0b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686562"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47300436"
 ---
-# <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a><span data-ttu-id="c44fe-103">분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기</span><span class="sxs-lookup"><span data-stu-id="c44fe-103">Create custom sensitive information types with Exact Data Match based classification</span></span>
+# <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a><span data-ttu-id="e04da-103">분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기</span><span class="sxs-lookup"><span data-stu-id="e04da-103">Create custom sensitive information types with Exact Data Match based classification</span></span>
 
-<span data-ttu-id="c44fe-104">[사용자 지정 중요한 정보 유형](custom-sensitive-info-types.md)을 사용하면 중요한 정보를 의도하지 않거나 부적절하게 공유하는 것을 방지합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-104">[Custom sensitive information types](custom-sensitive-info-types.md) are used to help prevent inadvertent or inappropriate sharing of sensitive information.</span></span> <span data-ttu-id="c44fe-105">관리자로서 보안 및 준수 센터 또는 PowerShell을 사용하여 패턴, 증명( *직원*,  *배지*,  *ID* 등의 키워드), 문자 근접도(특정 패턴에서 증명과 문자가 근접한 정도) 및 신뢰 수준을 기반으로 사용자 지정 정보 유형을 정의할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-105">As an administrator, you can use the Security & Compliance Center or PowerShell to define a custom sensitive information type based on patterns, evidence (keywords such as *employee*, *badge*, *ID*, and so on), character proximity (how close evidence is to characters in a particular pattern), and confidence levels.</span></span> <span data-ttu-id="c44fe-106">이러한 사용자 지정 중요한 정보 유형은 대부분의 조직에 필요한 비즈니스 요구 사항을 충족합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-106">Such custom sensitive information types meet business needs for many organizations.</span></span>
+<span data-ttu-id="e04da-104">[사용자 지정 중요한 정보 유형](custom-sensitive-info-types.md) 은 중요한 항목을 식별하는 데 사용되므로 해당 정보 유형이 실수로 또는 부적절하게 공유되는 것을 방지할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-104">[Custom sensitive information types](custom-sensitive-info-types.md) are used to help identify sensitive items so that you can prevent them from being inadvertently or inappropriately shared.</span></span> <span data-ttu-id="e04da-105">다음을 기반으로 사용자 지정 중요한 정보 유형을 정의합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-105">You define a custom sensitive information type based on:</span></span>
 
-<span data-ttu-id="c44fe-107">일반적인 패턴과만 일치하는 것이 아니라 정확한 데이터 값을 사용하는 사용자 지정 중요한 정보 유형의 경우에는 어떻게 할까요?</span><span class="sxs-lookup"><span data-stu-id="c44fe-107">But what if you wanted a custom sensitive information type that uses exact data values, instead of matching only with generic patterns?</span></span> <span data-ttu-id="c44fe-108">정확한 데이터 매치(EDM) 기반 분류를 사용하여 다음과 같이 설계된 사용자 지정 중요한 정보 유형을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-108">With Exact Data Match (EDM)-based classification, you can create a custom sensitive information type that is designed to:</span></span>
+- <span data-ttu-id="e04da-106">패턴</span><span class="sxs-lookup"><span data-stu-id="e04da-106">patterns</span></span>
+- <span data-ttu-id="e04da-107"> *직원*, *배지*또는 *ID*와 같은 키워드 증명 정보</span><span class="sxs-lookup"><span data-stu-id="e04da-107">keyword evidence such as *employee*, *badge*, or *ID*</span></span>
+- <span data-ttu-id="e04da-108">특정 패턴의 증거에 대한 문자 근접성</span><span class="sxs-lookup"><span data-stu-id="e04da-108">character proximity to evidence in a particular pattern</span></span>
+- <span data-ttu-id="e04da-109">신뢰 수준</span><span class="sxs-lookup"><span data-stu-id="e04da-109">confidence levels</span></span>
 
-- <span data-ttu-id="c44fe-109">동적이며 새로 고치기 가능</span><span class="sxs-lookup"><span data-stu-id="c44fe-109">be dynamic and refreshable;</span></span>
-- <span data-ttu-id="c44fe-110">확장성 향상</span><span class="sxs-lookup"><span data-stu-id="c44fe-110">be more scalable;</span></span>
-- <span data-ttu-id="c44fe-111">가양성 수 감소</span><span class="sxs-lookup"><span data-stu-id="c44fe-111">result in fewer false-positives;</span></span>
-- <span data-ttu-id="c44fe-112">구조화된 중요한 데이터 사용</span><span class="sxs-lookup"><span data-stu-id="c44fe-112">work with structured sensitive data;</span></span>
-- <span data-ttu-id="c44fe-113">중요한 정보를 더 안전하게 처리</span><span class="sxs-lookup"><span data-stu-id="c44fe-113">handle sensitive information more securely; and</span></span>
-- <span data-ttu-id="c44fe-114">여러 Microsoft 클라우드 서비스와 사용 가능.</span><span class="sxs-lookup"><span data-stu-id="c44fe-114">be used with several Microsoft cloud services.</span></span>
+ <span data-ttu-id="e04da-110">이러한 사용자 지정 중요한 정보 유형은 대부분의 조직에 필요한 비즈니스 요구 사항을 충족합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-110">Such custom sensitive information types meet business needs for many organizations.</span></span>
+
+<span data-ttu-id="e04da-111">하지만 일반적인 패턴을 기반으로 일치 항목을 찾는 대신 정확한 데이터 값을 사용하는 사용자 지정 중요한 정보 유형을 원한다면 어떻게 해야 할까요?</span><span class="sxs-lookup"><span data-stu-id="e04da-111">But what if you wanted a custom sensitive information type that uses exact data values, instead of one that found matches based on generic patterns?</span></span> <span data-ttu-id="e04da-112">정확한 데이터 매치(EDM) 기반 분류를 사용하여 다음과 같이 설계된 사용자 지정 중요한 정보 유형을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-112">With Exact Data Match (EDM)-based classification, you can create a custom sensitive information type that is designed to:</span></span>
+
+- <span data-ttu-id="e04da-113">동적이며 새로 고치기 가능</span><span class="sxs-lookup"><span data-stu-id="e04da-113">be dynamic and refreshable</span></span>
+- <span data-ttu-id="e04da-114">확장성 향상</span><span class="sxs-lookup"><span data-stu-id="e04da-114">be more scalable</span></span>
+- <span data-ttu-id="e04da-115">가양성 수 감소</span><span class="sxs-lookup"><span data-stu-id="e04da-115">result in fewer false-positives</span></span>
+- <span data-ttu-id="e04da-116">구조화된 중요한 데이터 사용</span><span class="sxs-lookup"><span data-stu-id="e04da-116">work with structured sensitive data</span></span>
+- <span data-ttu-id="e04da-117">중요한 정보를 더 안전하게 처리</span><span class="sxs-lookup"><span data-stu-id="e04da-117">handle sensitive information more securely</span></span>
+- <span data-ttu-id="e04da-118">여러 Microsoft 클라우드 서비스와 함께 사용 가능</span><span class="sxs-lookup"><span data-stu-id="e04da-118">be used with several Microsoft cloud services</span></span>
 
 ![EDM 기반 분류](../media/EDMClassification.png)
 
-<span data-ttu-id="c44fe-116">EDM 기반 분류를 사용하면 중요한 정보 데이터베이스의 정확한 값을 참조하는 사용자 지정 중요한 정보 유형을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-116">EDM-based classification enables you to create custom sensitive information types that refer to exact values in a database of sensitive information.</span></span> <span data-ttu-id="c44fe-117">데이터베이스는 매일 또는 매주 새로 고칠 수 있으며 최대 1억 개의 데이터 행을 포함할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-117">The database can be refreshed daily or weekly, and it can contain up to 100 million rows of data.</span></span> <span data-ttu-id="c44fe-118">직원, 환자 또는 고객이 계속 이동하고 기록이 변경됨에 따라 사용자 지정 중요한 정보 유형을 적절하고 최신인 상태로 유지합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-118">So as employees, patients, or clients come and go, and records change, your custom sensitive information types remain current and applicable.</span></span> <span data-ttu-id="c44fe-119">또한 EDM 기반 분류를 [데이터 손실 방지 정책(DLP)](data-loss-prevention-policies.md) 또는 [Microsoft Cloud App Security 파일 정책](https://docs.microsoft.com/cloud-app-security/data-protection-policies) 등의 정책과 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-119">And, you can use EDM-based classification with policies, such as [data loss prevention policies](data-loss-prevention-policies.md) (DLP) or [Microsoft Cloud App Security file policies](https://docs.microsoft.com/cloud-app-security/data-protection-policies).</span></span>
+<span data-ttu-id="e04da-120">EDM 기반 분류를 사용하면 중요한 정보 데이터베이스의 정확한 값을 참조하는 사용자 지정 중요한 정보 유형을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-120">EDM-based classification enables you to create custom sensitive information types that refer to exact values in a database of sensitive information.</span></span> <span data-ttu-id="e04da-121">데이터베이스는 매일 새로 고칠 수 있으며 최대 1억 행의 데이터를 포함할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-121">The database can be refreshed daily, and contain up to 100 million rows of data.</span></span> <span data-ttu-id="e04da-122">직원, 환자 또는 고객이 계속 이동하고 기록이 변경됨에 따라 사용자 지정 중요한 정보 유형을 적절하고 최신인 상태로 유지합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-122">So as employees, patients, or clients come and go, and records change, your custom sensitive information types remain current and applicable.</span></span> <span data-ttu-id="e04da-123">또한 EDM 기반 분류를 [데이터 손실 방지 정책(DLP)](data-loss-prevention-policies.md) 또는 [Microsoft Cloud App Security 파일 정책](https://docs.microsoft.com/cloud-app-security/data-protection-policies) 등의 정책과 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-123">And, you can use EDM-based classification with policies, such as [data loss prevention policies](data-loss-prevention-policies.md) (DLP) or [Microsoft Cloud App Security file policies](https://docs.microsoft.com/cloud-app-security/data-protection-policies).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c44fe-120">Microsoft 365 Information Protection은 이제 다음에 대해 미리보기 더블 바이트 문자 집합 언어를 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-120">Microsoft 365 Information Protection now  supports in preview double byte character set languages for:</span></span>
-> - <span data-ttu-id="c44fe-121">중국어(간체)</span><span class="sxs-lookup"><span data-stu-id="c44fe-121">Chinese (simplified)</span></span>
-> - <span data-ttu-id="c44fe-122">중국어(번체)</span><span class="sxs-lookup"><span data-stu-id="c44fe-122">Chinese (traditional)</span></span>
-> - <span data-ttu-id="c44fe-123">한국어</span><span class="sxs-lookup"><span data-stu-id="c44fe-123">Korean</span></span>
-> - <span data-ttu-id="c44fe-124">일본어</span><span class="sxs-lookup"><span data-stu-id="c44fe-124">Japanese</span></span>
+> <span data-ttu-id="e04da-124">Microsoft 365 Information Protection은 이제 다음에 대해 미리보기 더블 바이트 문자 집합 언어를 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-124">Microsoft 365 Information Protection now  supports in preview double byte character set languages for:</span></span>
+> - <span data-ttu-id="e04da-125">중국어(간체)</span><span class="sxs-lookup"><span data-stu-id="e04da-125">Chinese (simplified)</span></span>
+> - <span data-ttu-id="e04da-126">중국어(번체)</span><span class="sxs-lookup"><span data-stu-id="e04da-126">Chinese (traditional)</span></span>
+> - <span data-ttu-id="e04da-127">한국어</span><span class="sxs-lookup"><span data-stu-id="e04da-127">Korean</span></span>
+> - <span data-ttu-id="e04da-128">일본어</span><span class="sxs-lookup"><span data-stu-id="e04da-128">Japanese</span></span>
 > 
-><span data-ttu-id="c44fe-125">이 미리 보기는 상용 클라우드에서만 실행되며 롤아웃은 다음으로 제한됩니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-125">This preview is only in the commercial cloud and the rollout is limited to:</span></span>
-> - <span data-ttu-id="c44fe-126">일본</span><span class="sxs-lookup"><span data-stu-id="c44fe-126">Japan</span></span>
-> - <span data-ttu-id="c44fe-127">한국</span><span class="sxs-lookup"><span data-stu-id="c44fe-127">Korea</span></span>
-> - <span data-ttu-id="c44fe-128">중국</span><span class="sxs-lookup"><span data-stu-id="c44fe-128">China</span></span>
-> - <span data-ttu-id="c44fe-129">홍콩</span><span class="sxs-lookup"><span data-stu-id="c44fe-129">Hong Kong</span></span>
-> - <span data-ttu-id="c44fe-130">마카오</span><span class="sxs-lookup"><span data-stu-id="c44fe-130">Macau</span></span>
-> - <span data-ttu-id="c44fe-131">대만</span><span class="sxs-lookup"><span data-stu-id="c44fe-131">Taiwan</span></span>
+><span data-ttu-id="e04da-129">이 미리 보기는 상용 클라우드에서만 실행되며 롤아웃은 다음으로 제한됩니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-129">This preview is only in the commercial cloud and the rollout is limited to:</span></span>
+> - <span data-ttu-id="e04da-130">일본</span><span class="sxs-lookup"><span data-stu-id="e04da-130">Japan</span></span>
+> - <span data-ttu-id="e04da-131">한국</span><span class="sxs-lookup"><span data-stu-id="e04da-131">Korea</span></span>
+> - <span data-ttu-id="e04da-132">중국</span><span class="sxs-lookup"><span data-stu-id="e04da-132">China</span></span>
+> - <span data-ttu-id="e04da-133">홍콩</span><span class="sxs-lookup"><span data-stu-id="e04da-133">Hong Kong</span></span>
+> - <span data-ttu-id="e04da-134">마카오</span><span class="sxs-lookup"><span data-stu-id="e04da-134">Macau</span></span>
+> - <span data-ttu-id="e04da-135">대만</span><span class="sxs-lookup"><span data-stu-id="e04da-135">Taiwan</span></span>
 >
-><span data-ttu-id="c44fe-132">이 지원은 중요한 정보 유형에 대해 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-132">This support is available for sensitive information types.</span></span> <span data-ttu-id="c44fe-133">자세한 정보는 [더블 바이트 문자 집합 릴리스 정보(미리 보기)에 대한 정보 보호 지원](mip-dbcs-relnotes.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="c44fe-133">See, [Information protection support for double byte character sets release notes (preview)](mip-dbcs-relnotes.md) for more information.</span></span>
+><span data-ttu-id="e04da-136">이 지원은 중요한 정보 유형에 대해 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-136">This support is available for sensitive information types.</span></span> <span data-ttu-id="e04da-137">자세한 정보는 [더블 바이트 문자 집합 릴리스 정보(미리 보기)에 대한 정보 보호 지원](mip-dbcs-relnotes.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-137">See, [Information protection support for double byte character sets release notes (preview)](mip-dbcs-relnotes.md) for more information.</span></span>
 
-## <a name="required-licenses-and-permissions"></a><span data-ttu-id="c44fe-134">필수 라이선스 및 사용 권한</span><span class="sxs-lookup"><span data-stu-id="c44fe-134">Required licenses and permissions</span></span>
+## <a name="required-licenses-and-permissions"></a><span data-ttu-id="e04da-138">필수 라이선스 및 사용 권한</span><span class="sxs-lookup"><span data-stu-id="e04da-138">Required licenses and permissions</span></span>
 
-<span data-ttu-id="c44fe-135">이 문서에 설명된 작업을 수행하려면 전역 관리자, 준수 관리자 또는 Exchange Online 관리자여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-135">You must be a global admin, compliance administrator, or Exchange Online administrator to perform the tasks described in this article.</span></span> <span data-ttu-id="c44fe-136">DLP 권한에 관한 자세한 내용은  [사용 권한](data-loss-prevention-policies.md#permissions)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="c44fe-136">To learn more about DLP permissions, see [Permissions](data-loss-prevention-policies.md#permissions).</span></span>
+<span data-ttu-id="e04da-139">이 문서에 설명된 작업을 수행하려면 전역 관리자, 준수 관리자 또는 Exchange Online 관리자여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-139">You must be a global admin, compliance administrator, or Exchange Online administrator to perform the tasks described in this article.</span></span> <span data-ttu-id="e04da-140">DLP 권한에 관한 자세한 내용은  [사용 권한](data-loss-prevention-policies.md#permissions)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-140">To learn more about DLP permissions, see [Permissions](data-loss-prevention-policies.md#permissions).</span></span>
 
-<span data-ttu-id="c44fe-137">EDM 기반 분류가 이 구독에 포함되어 있습니다</span><span class="sxs-lookup"><span data-stu-id="c44fe-137">EDM-based classification is included in these subscriptions</span></span>
+<span data-ttu-id="e04da-141">EDM 기반 분류가 이 구독에 포함되어 있습니다</span><span class="sxs-lookup"><span data-stu-id="e04da-141">EDM-based classification is included in these subscriptions</span></span>
 
-- <span data-ttu-id="c44fe-138">Office 365 E5</span><span class="sxs-lookup"><span data-stu-id="c44fe-138">Office 365 E5</span></span>
-- <span data-ttu-id="c44fe-139">Microsoft 365 E5</span><span class="sxs-lookup"><span data-stu-id="c44fe-139">Microsoft 365 E5</span></span>
-- <span data-ttu-id="c44fe-140">Microsoft 365 E5 Compliance</span><span class="sxs-lookup"><span data-stu-id="c44fe-140">Microsoft 365 E5 Compliance</span></span>
-- <span data-ttu-id="c44fe-141">Microsoft E5/A5 Information Protection 및 거버넌스</span><span class="sxs-lookup"><span data-stu-id="c44fe-141">Microsoft E5/A5 Information Protection and Governance</span></span>
+- <span data-ttu-id="e04da-142">Office 365 E5</span><span class="sxs-lookup"><span data-stu-id="e04da-142">Office 365 E5</span></span>
+- <span data-ttu-id="e04da-143">Microsoft 365 E5</span><span class="sxs-lookup"><span data-stu-id="e04da-143">Microsoft 365 E5</span></span>
+- <span data-ttu-id="e04da-144">Microsoft 365 E5 Compliance</span><span class="sxs-lookup"><span data-stu-id="e04da-144">Microsoft 365 E5 Compliance</span></span>
+- <span data-ttu-id="e04da-145">Microsoft E5/A5 Information Protection 및 거버넌스</span><span class="sxs-lookup"><span data-stu-id="e04da-145">Microsoft E5/A5 Information Protection and Governance</span></span>
 
-## <a name="portal-links-for-your-subscription"></a><span data-ttu-id="c44fe-142">구독을 위한 포털 링크</span><span class="sxs-lookup"><span data-stu-id="c44fe-142">Portal links for your subscription</span></span>
+## <a name="portal-links-for-your-subscription"></a><span data-ttu-id="e04da-146">구독을 위한 포털 링크</span><span class="sxs-lookup"><span data-stu-id="e04da-146">Portal links for your subscription</span></span>
 
 
-|<span data-ttu-id="c44fe-143">포털</span><span class="sxs-lookup"><span data-stu-id="c44fe-143">Portal</span></span>  |<span data-ttu-id="c44fe-144">전세계/GCC</span><span class="sxs-lookup"><span data-stu-id="c44fe-144">World Wide/GCC</span></span>  |<span data-ttu-id="c44fe-145">GCC-High</span><span class="sxs-lookup"><span data-stu-id="c44fe-145">GCC-High</span></span>  |<span data-ttu-id="c44fe-146">DOD</span><span class="sxs-lookup"><span data-stu-id="c44fe-146">DOD</span></span>  |
+|<span data-ttu-id="e04da-147">포털</span><span class="sxs-lookup"><span data-stu-id="e04da-147">Portal</span></span>  |<span data-ttu-id="e04da-148">전세계/GCC</span><span class="sxs-lookup"><span data-stu-id="e04da-148">World Wide/GCC</span></span>  |<span data-ttu-id="e04da-149">GCC-High</span><span class="sxs-lookup"><span data-stu-id="e04da-149">GCC-High</span></span>  |<span data-ttu-id="e04da-150">DOD</span><span class="sxs-lookup"><span data-stu-id="e04da-150">DOD</span></span>  |
 |---------|---------|---------|---------|
-|<span data-ttu-id="c44fe-147">Office SCC</span><span class="sxs-lookup"><span data-stu-id="c44fe-147">Office SCC</span></span>     |  <span data-ttu-id="c44fe-148">protection.office.com</span><span class="sxs-lookup"><span data-stu-id="c44fe-148">protection.office.com</span></span>       |<span data-ttu-id="c44fe-149">scc.office365.us</span><span class="sxs-lookup"><span data-stu-id="c44fe-149">scc.office365.us</span></span>         |<span data-ttu-id="c44fe-150">scc.protection.apps.mil</span><span class="sxs-lookup"><span data-stu-id="c44fe-150">scc.protection.apps.mil</span></span> |
-|<span data-ttu-id="c44fe-151">Microsoft 365 보안 센터</span><span class="sxs-lookup"><span data-stu-id="c44fe-151">Microsoft 365 Security center</span></span>     |<span data-ttu-id="c44fe-152">security.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="c44fe-152">security.microsoft.com</span></span>         |<span data-ttu-id="c44fe-153">security.microsoft.us</span><span class="sxs-lookup"><span data-stu-id="c44fe-153">security.microsoft.us</span></span>         |<span data-ttu-id="c44fe-154">security.apps.mil</span><span class="sxs-lookup"><span data-stu-id="c44fe-154">security.apps.mil</span></span>|
-|<span data-ttu-id="c44fe-155">Microsoft 365 규정 준수 센터</span><span class="sxs-lookup"><span data-stu-id="c44fe-155">Microsoft 365 Compliance center</span></span>     |<span data-ttu-id="c44fe-156">compliance.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="c44fe-156">compliance.microsoft.com</span></span>         |<span data-ttu-id="c44fe-157">compliance.microsoft.us</span><span class="sxs-lookup"><span data-stu-id="c44fe-157">compliance.microsoft.us</span></span>         |<span data-ttu-id="c44fe-158">compliance.apps.mil</span><span class="sxs-lookup"><span data-stu-id="c44fe-158">compliance.apps.mil</span></span>|
+|<span data-ttu-id="e04da-151">Office SCC</span><span class="sxs-lookup"><span data-stu-id="e04da-151">Office SCC</span></span>     |  <span data-ttu-id="e04da-152">protection.office.com</span><span class="sxs-lookup"><span data-stu-id="e04da-152">protection.office.com</span></span>       |<span data-ttu-id="e04da-153">scc.office365.us</span><span class="sxs-lookup"><span data-stu-id="e04da-153">scc.office365.us</span></span>         |<span data-ttu-id="e04da-154">scc.protection.apps.mil</span><span class="sxs-lookup"><span data-stu-id="e04da-154">scc.protection.apps.mil</span></span> |
+|<span data-ttu-id="e04da-155">Microsoft 365 보안 센터</span><span class="sxs-lookup"><span data-stu-id="e04da-155">Microsoft 365 Security center</span></span>     |<span data-ttu-id="e04da-156">security.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="e04da-156">security.microsoft.com</span></span>         |<span data-ttu-id="e04da-157">security.microsoft.us</span><span class="sxs-lookup"><span data-stu-id="e04da-157">security.microsoft.us</span></span>         |<span data-ttu-id="e04da-158">security.apps.mil</span><span class="sxs-lookup"><span data-stu-id="e04da-158">security.apps.mil</span></span>|
+|<span data-ttu-id="e04da-159">Microsoft 365 규정 준수 센터</span><span class="sxs-lookup"><span data-stu-id="e04da-159">Microsoft 365 Compliance center</span></span>     |<span data-ttu-id="e04da-160">compliance.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="e04da-160">compliance.microsoft.com</span></span>         |<span data-ttu-id="e04da-161">compliance.microsoft.us</span><span class="sxs-lookup"><span data-stu-id="e04da-161">compliance.microsoft.us</span></span>         |<span data-ttu-id="e04da-162">compliance.apps.mil</span><span class="sxs-lookup"><span data-stu-id="e04da-162">compliance.apps.mil</span></span>|
 
 
-## <a name="the-work-flow-at-a-glance"></a><span data-ttu-id="c44fe-159">워크플로 한 눈에 보기</span><span class="sxs-lookup"><span data-stu-id="c44fe-159">The work flow at a glance</span></span>
+## <a name="the-work-flow-at-a-glance"></a><span data-ttu-id="e04da-163">워크플로 한 눈에 보기</span><span class="sxs-lookup"><span data-stu-id="e04da-163">The work flow at a glance</span></span>
 
-|<span data-ttu-id="c44fe-160">단계</span><span class="sxs-lookup"><span data-stu-id="c44fe-160">Phase</span></span>  |<span data-ttu-id="c44fe-161">필요한 사항</span><span class="sxs-lookup"><span data-stu-id="c44fe-161">What's needed</span></span>  |
+|<span data-ttu-id="e04da-164">단계</span><span class="sxs-lookup"><span data-stu-id="e04da-164">Phase</span></span>  |<span data-ttu-id="e04da-165">필요한 사항</span><span class="sxs-lookup"><span data-stu-id="e04da-165">What's needed</span></span>  |
 |---------|---------|
-|[<span data-ttu-id="c44fe-162">1단계: EDM 기반 분류 설정</span><span class="sxs-lookup"><span data-stu-id="c44fe-162">Part 1: Set up EDM-based classification</span></span>](#part-1-set-up-edm-based-classification)<br/><br/><span data-ttu-id="c44fe-163">(필요한 대로 수행)</span><span class="sxs-lookup"><span data-stu-id="c44fe-163">(As needed)</span></span><br/><span data-ttu-id="c44fe-164">- [데이터베이스 스키마 편집](#editing-the-schema-for-edm-based-classification)</span><span class="sxs-lookup"><span data-stu-id="c44fe-164">- [Edit the database schema](#editing-the-schema-for-edm-based-classification)</span></span> <br/><span data-ttu-id="c44fe-165">- [스키마 제거](#removing-the-schema-for-edm-based-classification)</span><span class="sxs-lookup"><span data-stu-id="c44fe-165">- [Remove the schema](#removing-the-schema-for-edm-based-classification)</span></span> |<span data-ttu-id="c44fe-166">- 중요한 데이터에 대한 읽기 액세스 권한</span><span class="sxs-lookup"><span data-stu-id="c44fe-166">- Read access to the sensitive data</span></span><br/><span data-ttu-id="c44fe-167">- XML 형식의 데이터베이스 스키마(예제 제공)</span><span class="sxs-lookup"><span data-stu-id="c44fe-167">- Database schema in XML format (example provided)</span></span><br/><span data-ttu-id="c44fe-168">- XML 형식의 규칙 패키지(예제 제공)</span><span class="sxs-lookup"><span data-stu-id="c44fe-168">- Rule package in XML format (example provided)</span></span><br/><span data-ttu-id="c44fe-169">- 보안 및 준수 센터에 대한 관리자 권한(Windows PowerShell 사용)</span><span class="sxs-lookup"><span data-stu-id="c44fe-169">- Admin permissions to the Security & Compliance Center (using PowerShell)</span></span> |
-|[<span data-ttu-id="c44fe-170">2부: 중요 한 데이터를 해시하고 업로드</span><span class="sxs-lookup"><span data-stu-id="c44fe-170">Part 2: Hash and upload the sensitive data</span></span>](#part-2-hash-and-upload-the-sensitive-data)<br/><br/><span data-ttu-id="c44fe-171">(필요한 대로 수행)</span><span class="sxs-lookup"><span data-stu-id="c44fe-171">(As needed)</span></span><br/>[<span data-ttu-id="c44fe-172">데이터 새로 고침</span><span class="sxs-lookup"><span data-stu-id="c44fe-172">Refresh the data</span></span>](#refreshing-your-sensitive-information-database) |<span data-ttu-id="c44fe-173">- 사용자 지정 보안 그룹 및 사용자 계정</span><span class="sxs-lookup"><span data-stu-id="c44fe-173">- Custom security group and user account</span></span><br/><span data-ttu-id="c44fe-174">- EDM 업로드 에이전트가 있는 컴퓨터에 대한 로컬 관리자 액세스 권한</span><span class="sxs-lookup"><span data-stu-id="c44fe-174">- Local admin access to machine with EDM Upload Agent</span></span><br/><span data-ttu-id="c44fe-175">- 중요한 데이터에 대한 읽기 액세스 권한</span><span class="sxs-lookup"><span data-stu-id="c44fe-175">- Read access to the sensitive data</span></span><br/><span data-ttu-id="c44fe-176">- 데이터를 새로 고치는 프로세스 및 일정</span><span class="sxs-lookup"><span data-stu-id="c44fe-176">- Process and schedule for refreshing the data</span></span>|
-|[<span data-ttu-id="c44fe-177">3단계: Microsoft 클라우드 서비스로 EDM 기반 분류 사용</span><span class="sxs-lookup"><span data-stu-id="c44fe-177">Part 3: Use EDM-based classification with your Microsoft cloud services</span></span>](#part-3-use-edm-based-classification-with-your-microsoft-cloud-services) |<span data-ttu-id="c44fe-178">- DLP를 포함하는 Microsoft 365 구독</span><span class="sxs-lookup"><span data-stu-id="c44fe-178">- Microsoft 365 subscription with DLP</span></span><br/><span data-ttu-id="c44fe-179">- EDM 기반 분류 기능 사용</span><span class="sxs-lookup"><span data-stu-id="c44fe-179">- EDM-based classification feature enabled</span></span> |
+|[<span data-ttu-id="e04da-166">1단계: EDM 기반 분류 설정</span><span class="sxs-lookup"><span data-stu-id="e04da-166">Part 1: Set up EDM-based classification</span></span>](#part-1-set-up-edm-based-classification)<br/><br/><span data-ttu-id="e04da-167">(필요한 대로 수행)</span><span class="sxs-lookup"><span data-stu-id="e04da-167">(As needed)</span></span><br/><span data-ttu-id="e04da-168">- [데이터베이스 스키마 편집](#editing-the-schema-for-edm-based-classification)</span><span class="sxs-lookup"><span data-stu-id="e04da-168">- [Edit the database schema](#editing-the-schema-for-edm-based-classification)</span></span> <br/><span data-ttu-id="e04da-169">- [스키마 제거](#removing-the-schema-for-edm-based-classification)</span><span class="sxs-lookup"><span data-stu-id="e04da-169">- [Remove the schema](#removing-the-schema-for-edm-based-classification)</span></span> |<span data-ttu-id="e04da-170">- 중요한 데이터에 대한 읽기 액세스 권한</span><span class="sxs-lookup"><span data-stu-id="e04da-170">- Read access to the sensitive data</span></span><br/><span data-ttu-id="e04da-171">- XML 형식의 데이터베이스 스키마(예제 제공)</span><span class="sxs-lookup"><span data-stu-id="e04da-171">- Database schema in XML format (example provided)</span></span><br/><span data-ttu-id="e04da-172">- XML 형식의 규칙 패키지(예제 제공)</span><span class="sxs-lookup"><span data-stu-id="e04da-172">- Rule package in XML format (example provided)</span></span><br/><span data-ttu-id="e04da-173">- 보안 및 준수 센터에 대한 관리자 권한(Windows PowerShell 사용)</span><span class="sxs-lookup"><span data-stu-id="e04da-173">- Admin permissions to the Security & Compliance Center (using PowerShell)</span></span> |
+|[<span data-ttu-id="e04da-174">2부: 중요 한 데이터를 해시하고 업로드</span><span class="sxs-lookup"><span data-stu-id="e04da-174">Part 2: Hash and upload the sensitive data</span></span>](#part-2-hash-and-upload-the-sensitive-data)<br/><br/><span data-ttu-id="e04da-175">(필요한 대로 수행)</span><span class="sxs-lookup"><span data-stu-id="e04da-175">(As needed)</span></span><br/>[<span data-ttu-id="e04da-176">데이터 새로 고침</span><span class="sxs-lookup"><span data-stu-id="e04da-176">Refresh the data</span></span>](#refreshing-your-sensitive-information-database) |<span data-ttu-id="e04da-177">- 사용자 지정 보안 그룹 및 사용자 계정</span><span class="sxs-lookup"><span data-stu-id="e04da-177">- Custom security group and user account</span></span><br/><span data-ttu-id="e04da-178">- EDM 업로드 에이전트가 있는 컴퓨터에 대한 로컬 관리자 액세스 권한</span><span class="sxs-lookup"><span data-stu-id="e04da-178">- Local admin access to machine with EDM Upload Agent</span></span><br/><span data-ttu-id="e04da-179">- 중요한 데이터에 대한 읽기 액세스 권한</span><span class="sxs-lookup"><span data-stu-id="e04da-179">- Read access to the sensitive data</span></span><br/><span data-ttu-id="e04da-180">- 데이터를 새로 고치는 프로세스 및 일정</span><span class="sxs-lookup"><span data-stu-id="e04da-180">- Process and schedule for refreshing the data</span></span>|
+|[<span data-ttu-id="e04da-181">3단계: Microsoft 클라우드 서비스로 EDM 기반 분류 사용</span><span class="sxs-lookup"><span data-stu-id="e04da-181">Part 3: Use EDM-based classification with your Microsoft cloud services</span></span>](#part-3-use-edm-based-classification-with-your-microsoft-cloud-services) |<span data-ttu-id="e04da-182">- DLP를 포함하는 Microsoft 365 구독</span><span class="sxs-lookup"><span data-stu-id="e04da-182">- Microsoft 365 subscription with DLP</span></span><br/><span data-ttu-id="e04da-183">- EDM 기반 분류 기능 사용</span><span class="sxs-lookup"><span data-stu-id="e04da-183">- EDM-based classification feature enabled</span></span> |
 
-### <a name="part-1-set-up-edm-based-classification"></a><span data-ttu-id="c44fe-180">1단계: EDM 기반 분류 설정</span><span class="sxs-lookup"><span data-stu-id="c44fe-180">Part 1: Set up EDM-based classification</span></span>
+### <a name="part-1-set-up-edm-based-classification"></a><span data-ttu-id="e04da-184">1단계: EDM 기반 분류 설정</span><span class="sxs-lookup"><span data-stu-id="e04da-184">Part 1: Set up EDM-based classification</span></span>
 
-<span data-ttu-id="c44fe-181">EDM 기반 분류를 설정하고 구성하려면 중요한 데이터를 .csv 형식으로 저장하고, 중요한 정보의 데이터베이스 스키마를 정의하며, 규칙 패키지를 만든 다음 스키마와 규칙 패키지를 업로드해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-181">Setting up and configuring EDM-based classification involves saving sensitive data in .csv format, defining a schema for your database of sensitive information, creating a rule package, and then uploading the schema and rule package.</span></span>
+<span data-ttu-id="e04da-185">EDM 기반 분류 설정 및 구성에는 다음이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-185">Setting up and configuring EDM-based classification involves:</span></span>
 
-#### <a name="define-the-schema-for-your-database-of-sensitive-information"></a><span data-ttu-id="c44fe-182">중요한 정보 데이터베이스의 스키마 정의</span><span class="sxs-lookup"><span data-stu-id="c44fe-182">Define the schema for your database of sensitive information</span></span>
+1. [<span data-ttu-id="e04da-186">Csv 형식으로 중요한 데이터 저장</span><span class="sxs-lookup"><span data-stu-id="e04da-186">Saving sensitive data in .csv format</span></span>](#save-sensitive-data-in-csv-format)
+2. [<span data-ttu-id="e04da-187">중요한 정보 데이터베이스 스키마 정의</span><span class="sxs-lookup"><span data-stu-id="e04da-187">Define your sensitive information database schema</span></span>](#define-the-schema-for-your-database-of-sensitive-information)
+3. [<span data-ttu-id="e04da-188">규칙 패키지 만들기</span><span class="sxs-lookup"><span data-stu-id="e04da-188">Create a rule package</span></span>](#set-up-a-rule-package)
 
-1. <span data-ttu-id="c44fe-183">사용하려는 중요한 정보를 식별합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-183">Identify the sensitive information you want to use.</span></span> <span data-ttu-id="c44fe-184">Microsoft Excel과 같은 앱에 데이터를 내보내고 .csv 형식으로 파일을 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-184">Export the data to an app, such as Microsoft Excel, and save the file in .csv format.</span></span> <span data-ttu-id="c44fe-185">데이터 파일에는 최대 다음을 포함할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-185">The data file can include a maximum of:</span></span>
-      - <span data-ttu-id="c44fe-186">최대 1억 개의 중요한 데이터 행</span><span class="sxs-lookup"><span data-stu-id="c44fe-186">Up to 100 million rows of sensitive data</span></span>
-      - <span data-ttu-id="c44fe-187">데이터 원본당 최대 32개의 열(필드)</span><span class="sxs-lookup"><span data-stu-id="c44fe-187">Up to 32 columns (fields) per data source</span></span>
-      - <span data-ttu-id="c44fe-188">검색 가능으로 표시된 최대 5개의 열(필드)</span><span class="sxs-lookup"><span data-stu-id="c44fe-188">Up to 5 columns (fields) marked as searchable</span></span>
 
-2. <span data-ttu-id="c44fe-189">첫 번째 행에 EDM 기반 분류에 사용한 필드의 이름이 포함되도록 .csv 파일에 중요한 데이터를 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-189">Structure the sensitive data in the .csv file such that the first row includes the names of the fields used for EDM-based classification.</span></span> <span data-ttu-id="c44fe-190">.csv 파일에는 "ssn", "birthdate", "firstname", "lastname" 등의 필드 이름이 있을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-190">In your .csv file, you might have field names, such as "ssn", "birthdate", "firstname", "lastname", and so on.</span></span> <span data-ttu-id="c44fe-191">열 헤더는 이름에 공백이나 밑줄을 포함할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-191">Please note that column headers can't include spaces or underscores in their names.</span></span> <span data-ttu-id="c44fe-192">예를 들어, .csv 파일은 *PatientRecords.csv*라고 하며 해당 열에는  *PatientID*, *MRN*, *LastName*, *FirstName*, *SSN* 등이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-192">As an example, our .csv file is called *PatientRecords.csv*, and its columns include *PatientID*, *MRN*, *LastName*, *FirstName*, *SSN*, and more.</span></span>
+#### <a name="save-sensitive-data-in-csv-format"></a><span data-ttu-id="e04da-189">.csv 형식으로 중요한 데이터 저장</span><span class="sxs-lookup"><span data-stu-id="e04da-189">Save sensitive data in .csv format</span></span>
 
-3. <span data-ttu-id="c44fe-193">중요한 정보 데이터의 스키마를 XML 형식으로 정의합니다(아래 예제와 비슷).</span><span class="sxs-lookup"><span data-stu-id="c44fe-193">Define the schema for the database of sensitive information in XML format (similar to our example below).</span></span> <span data-ttu-id="c44fe-194">이 스키마 파일의 이름을  **edm.xml**로 지정하고 데이터베이스의 각 열에 구문을 사용하는 줄이 있도록 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-194">Name this schema file **edm.xml**, and configure it such that for each column in the database, there is a line that uses the syntax:</span></span> 
+1. <span data-ttu-id="e04da-190">사용하려는 중요한 정보를 식별합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-190">Identify the sensitive information you want to use.</span></span> <span data-ttu-id="e04da-191">Microsoft Excel과 같은 앱에 데이터를 내보내고 .csv 형식으로 파일을 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-191">Export the data to an app, such as Microsoft Excel, and save the file in .csv format.</span></span> <span data-ttu-id="e04da-192">데이터 파일에는 최대 다음을 포함할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-192">The data file can include a maximum of:</span></span>
+      - <span data-ttu-id="e04da-193">최대 1억 개의 중요한 데이터 행</span><span class="sxs-lookup"><span data-stu-id="e04da-193">Up to 100 million rows of sensitive data</span></span>
+      - <span data-ttu-id="e04da-194">데이터 원본당 최대 32개의 열(필드)</span><span class="sxs-lookup"><span data-stu-id="e04da-194">Up to 32 columns (fields) per data source</span></span>
+      - <span data-ttu-id="e04da-195">검색 가능으로 표시된 최대 5개의 열(필드)</span><span class="sxs-lookup"><span data-stu-id="e04da-195">Up to 5 columns (fields) marked as searchable</span></span>
 
-      <span data-ttu-id="c44fe-195">`\<Field name="" searchable=""/\>`.</span><span class="sxs-lookup"><span data-stu-id="c44fe-195">`\<Field name="" searchable=""/\>`.</span></span>
+2. <span data-ttu-id="e04da-196">첫 번째 행에 EDM 기반 분류에 사용한 필드의 이름이 포함되도록 .csv 파일에 중요한 데이터를 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-196">Structure the sensitive data in the .csv file such that the first row includes the names of the fields used for EDM-based classification.</span></span> <span data-ttu-id="e04da-197">.csv 파일에는 "ssn", "birthdate", "firstname", "lastname"와 같은 필드 이름이 있을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-197">In your .csv file, you might have field names, such as "ssn", "birthdate", "firstname", "lastname".</span></span> <span data-ttu-id="e04da-198">열 머리글 이름에는 공백이나 밑줄이 포함될 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-198">The column header names can't include spaces or underscores.</span></span> <span data-ttu-id="e04da-199">예를 들어, 이 문서에서 사용하는 샘플 csv 파일은  *PatientRecords.csv*라고 하며 해당 열에는  *PatientID*, *MRN*, *LastName*, *FirstName*, *SSN* 등이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-199">For example, the sample .csv file that we use in this article is named *PatientRecords.csv*, and its columns include *PatientID*, *MRN*, *LastName*, *FirstName*, *SSN*, and more.</span></span>
 
-      - <span data-ttu-id="c44fe-196"> *Field name* 값에 열 이름을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-196">Use column names for *Field name* values.</span></span>
-      - <span data-ttu-id="c44fe-197">최대 5개의 필드까지 검색할 수 있게 하려는 필드에 *searchable="true"* 를 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-197">Use *searchable="true"* for the fields that you want to be searchable up to a maximum of 5 fields.</span></span> <span data-ttu-id="c44fe-198">최소 하나의 필드를 검색 가능한 항목으로 지정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-198">You must designate a minimum of one field as searchable.</span></span>
+#### <a name="define-the-schema-for-your-database-of-sensitive-information"></a><span data-ttu-id="e04da-200">중요한 정보 데이터베이스의 스키마 정의</span><span class="sxs-lookup"><span data-stu-id="e04da-200">Define the schema for your database of sensitive information</span></span>
 
-      <span data-ttu-id="c44fe-199">예를 들어 다음 XML 파일에서는 5개의 *필드(PatientID*, *MRN*, *SSN*, *Phone* 및 *DOB*)가 검색 가능으로 지정된 환자 레코드 데이터베이스의 스키마를 정의합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-199">As an example, the following XML file defines the schema for a patient records database, with five fields specified as searchable: *PatientID*, *MRN*, *SSN*, *Phone*, and *DOB*.</span></span>
+3. <span data-ttu-id="e04da-201">중요한 정보 데이터의 스키마를 XML 형식으로 정의합니다(아래 예제와 비슷).</span><span class="sxs-lookup"><span data-stu-id="e04da-201">Define the schema for the database of sensitive information in XML format (similar to our example below).</span></span> <span data-ttu-id="e04da-202">이 스키마 파일의 이름을  **edm.xml**로 지정하고 데이터베이스의 각 열에 구문을 사용하는 줄이 있도록 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-202">Name this schema file **edm.xml**, and configure it such that for each column in the database, there is a line that uses the syntax:</span></span> 
 
-      <span data-ttu-id="c44fe-200">(여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.)</span><span class="sxs-lookup"><span data-stu-id="c44fe-200">(You can copy, modify, and use our example.)</span></span>
+      <span data-ttu-id="e04da-203">`\<Field name="" searchable=""/\>`.</span><span class="sxs-lookup"><span data-stu-id="e04da-203">`\<Field name="" searchable=""/\>`.</span></span>
+
+      - <span data-ttu-id="e04da-204"> *Field name* 값에 열 이름을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-204">Use column names for *Field name* values.</span></span>
+      - <span data-ttu-id="e04da-205">최대 5개의 필드까지 검색할 수 있게 하려는 필드에 *searchable="true"* 를 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-205">Use *searchable="true"* for the fields that you want to be searchable up to a maximum of 5 fields.</span></span> <span data-ttu-id="e04da-206">하나 이상의 필드를 검색할 수 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-206">At least one field must be searchable.</span></span>
+
+      <span data-ttu-id="e04da-207">예를 들어 다음 XML 파일에서는 5개의 *필드(PatientID*, *MRN*, *SSN*, *Phone* 및 *DOB*)가 검색 가능으로 지정된 환자 레코드 데이터베이스의 스키마를 정의합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-207">As an example, the following XML file defines the schema for a patient records database, with five fields specified as searchable: *PatientID*, *MRN*, *SSN*, *Phone*, and *DOB*.</span></span>
+
+      <span data-ttu-id="e04da-208">(여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.)</span><span class="sxs-lookup"><span data-stu-id="e04da-208">(You can copy, modify, and use our example.)</span></span>
 
       ```xml
       <EdmSchema xmlns="http://schemas.microsoft.com/office/2018/edm">
@@ -127,108 +141,50 @@ ms.locfileid: "46686562"
       </EdmSchema>
       ```
 
-4. <span data-ttu-id="c44fe-201">[보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)의 연결 절차를 사용하여 보안 및 준수 센터에 연결</span><span class="sxs-lookup"><span data-stu-id="c44fe-201">Connect to the Security & Compliance center using the procedures in [Connect to Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).</span></span>
+4. <span data-ttu-id="e04da-209">[보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)의 연결 절차를 사용하여 보안 및 준수 센터에 연결</span><span class="sxs-lookup"><span data-stu-id="e04da-209">Connect to the Security & Compliance center using the procedures in [Connect to Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).</span></span>
 
-5. <span data-ttu-id="c44fe-202">데이터베이스 스키마를 업로드 하려면 다음과 같은 cmdlet을 한 번에 하나씩 실행하십시오:</span><span class="sxs-lookup"><span data-stu-id="c44fe-202">To upload the database schema, run the following cmdlets, one at a time:</span></span>
+5. <span data-ttu-id="e04da-210">데이터베이스 스키마를 업로드 하려면 다음과 같은 cmdlet을 한 번에 하나씩 실행하십시오:</span><span class="sxs-lookup"><span data-stu-id="e04da-210">To upload the database schema, run the following cmdlets, one at a time:</span></span>
 
       ```powershell
       $edmSchemaXml=Get-Content .\\edm.xml -Encoding Byte -ReadCount 0
       New-DlpEdmSchema -FileData $edmSchemaXml -Confirm:$true
       ```
 
-      <span data-ttu-id="c44fe-203">다음과 같이 확인하라는 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-203">You will be prompted to confirm, as follows:</span></span>
+      <span data-ttu-id="e04da-211">다음과 같이 확인하라는 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-211">You will be prompted to confirm, as follows:</span></span>
 
-      > <span data-ttu-id="c44fe-204">확인</span><span class="sxs-lookup"><span data-stu-id="c44fe-204">Confirm</span></span>
+      > <span data-ttu-id="e04da-212">확인</span><span class="sxs-lookup"><span data-stu-id="e04da-212">Confirm</span></span>
       >
-      > <span data-ttu-id="c44fe-205">이 작업을 수행하시겠습니까?</span><span class="sxs-lookup"><span data-stu-id="c44fe-205">Are you sure you want to perform this action?</span></span>
+      > <span data-ttu-id="e04da-213">이 작업을 수행하시겠습니까?</span><span class="sxs-lookup"><span data-stu-id="e04da-213">Are you sure you want to perform this action?</span></span>
       >
-      > <span data-ttu-id="c44fe-206">'patientrecords' 데이터 저장소의 새로운 EDM 스키마를 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-206">New EDM Schema for the data store 'patientrecords' will be imported.</span></span>
+      > <span data-ttu-id="e04da-214">'patientrecords' 데이터 저장소의 새로운 EDM 스키마를 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-214">New EDM Schema for the data store 'patientrecords' will be imported.</span></span>
       >
-      > <span data-ttu-id="c44fe-207">\[Y\] 예 \[A\] 모두 예 \[N\] 아니요 \[L\] 모두 아니요 \[?\] 도움말(기본값: "Y"):</span><span class="sxs-lookup"><span data-stu-id="c44fe-207">\[Y\] Yes \[A\] Yes to All \[N\] No \[L\] No to All \[?\] Help (default is "Y"):</span></span>
+      > <span data-ttu-id="e04da-215">\[Y\] 예 \[A\] 모두 예 \[N\] 아니요 \[L\] 모두 아니요 \[?\] 도움말(기본값: "Y"):</span><span class="sxs-lookup"><span data-stu-id="e04da-215">\[Y\] Yes \[A\] Yes to All \[N\] No \[L\] No to All \[?\] Help (default is "Y"):</span></span>
 
 > [!TIP]
-> <span data-ttu-id="c44fe-208">5단계에서 확인하지 않고 변경 사항을 적용하려면 New-DlpEdmSchema -FileData $edmSchemaXml 대신 해당 cmdlet을 사용하십시오.</span><span class="sxs-lookup"><span data-stu-id="c44fe-208">If you want your changes to occur without confirmation, in Step 5, use this cmdlet instead: New-DlpEdmSchema -FileData $edmSchemaXml</span></span>
+> <span data-ttu-id="e04da-216">5단계에서 확인하지 않고 변경 사항을 적용하려면 New-DlpEdmSchema -FileData $edmSchemaXml 대신 해당 cmdlet을 사용하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-216">If you want your changes to occur without confirmation, in Step 5, use this cmdlet instead: New-DlpEdmSchema -FileData $edmSchemaXml</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c44fe-209">EDMSchema를 추가 사항으로 업데이트하는 데 10~60분이 소요될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-209">It can take between 10-60 minutes to update the EDMSchema with additions.</span></span> <span data-ttu-id="c44fe-210">추가 사항을 사용하는 단계를 실행하기 전에 업데이트를 완료해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-210">The update must complete before you execute steps that use the additions.</span></span>
+> <span data-ttu-id="e04da-217">EDMSchema를 추가 사항으로 업데이트하는 데 10~60분이 소요될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-217">It can take between 10-60 minutes to update the EDMSchema with additions.</span></span> <span data-ttu-id="e04da-218">추가 사항을 사용하는 단계를 실행하기 전에 업데이트를 완료해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-218">The update must complete before you execute steps that use the additions.</span></span>
 
-<span data-ttu-id="c44fe-211">중요한 정보 데이터베이스에 대한 스키마가 정의되었으므로 다음 단계는 규칙 패키지를 설정하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-211">Now that the schema for your database of sensitive information is defined, the next step is to set up a rule package.</span></span> <span data-ttu-id="c44fe-212"> [규칙 패키지 설정하기](#set-up-a-rule-package) 섹션으로 이동하십시오.</span><span class="sxs-lookup"><span data-stu-id="c44fe-212">Proceed to the section [Set up a rule package](#set-up-a-rule-package).</span></span>
+#### <a name="set-up-a-rule-package"></a><span data-ttu-id="e04da-219">규칙 패키지 설정</span><span class="sxs-lookup"><span data-stu-id="e04da-219">Set up a rule package</span></span>
 
-#### <a name="editing-the-schema-for-edm-based-classification"></a><span data-ttu-id="c44fe-213">EDM 기반 분류에 대한 스키마 편집</span><span class="sxs-lookup"><span data-stu-id="c44fe-213">Editing the schema for EDM-based classification</span></span>
+1. <span data-ttu-id="e04da-220">다음 예제와 같이 in XML 형식(유니코드 인코딩 사용)에 규칙 패키지를 생성하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-220">Create a rule package in XML format (with Unicode encoding), similar to the following example.</span></span> <span data-ttu-id="e04da-221">(여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.)</span><span class="sxs-lookup"><span data-stu-id="e04da-221">(You can copy, modify, and use our example.)</span></span>
 
-<span data-ttu-id="c44fe-214">EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml** 파일을 변경하려면 다음 단계를 수행하십시오.</span><span class="sxs-lookup"><span data-stu-id="c44fe-214">If you want to make changes to your **edm.xml** file, such as changing which fields are used for EDM-based classification, follow these steps:</span></span>
+      <span data-ttu-id="e04da-222">규칙 패키지를 설정하는 경우 .csv 파일과 **edm.xml** 파일을 정확하게 참조하도록 하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-222">When you set up your rule package, make sure to correctly reference your .csv file and **edm.xml** file.</span></span> <span data-ttu-id="e04da-223">(여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.)</span><span class="sxs-lookup"><span data-stu-id="e04da-223">You can copy, modify, and use our example.</span></span> <span data-ttu-id="e04da-224">이 샘플 xml에서 EDM 중요 유형을 만들려면 다음 필드를 사용자 지정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-224">In this sample xml the following fields needs to be customized to create your EDM sensitive type:</span></span>
 
-1. <span data-ttu-id="c44fe-215">**edm.xml** 파일을 편집하십시오.(해당 문서의 [스키마 정의](#define-the-schema-for-your-database-of-sensitive-information) 섹션에서 다루는 파일입니다.)</span><span class="sxs-lookup"><span data-stu-id="c44fe-215">Edit your **edm.xml** file (this is the file discussed in the [Define the schema](#define-the-schema-for-your-database-of-sensitive-information) section of this article).</span></span>
+      - <span data-ttu-id="e04da-225">**RulePack ID & ExactMatch ID**: [New-GUID](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6)를  사용하여 GUID를 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-225">**RulePack id & ExactMatch id**: Use [New-GUID](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) to generate a GUID.</span></span>
 
-2. <span data-ttu-id="c44fe-216">[보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)의 연결 절차를 사용하여 보안 및 준수 센터에 연결</span><span class="sxs-lookup"><span data-stu-id="c44fe-216">Connect to the Security & Compliance center using the procedures in [Connect to Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).</span></span>
+      - <span data-ttu-id="e04da-226">**Datastore**: 이 필드는 사용할 EDM 조회 데이터 저장소를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-226">**Datastore**: This field specifies EDM lookup data store to be used.</span></span> <span data-ttu-id="e04da-227">구성된 EDM 스키마의 데이터 원본 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-227">You provide a data source name of a configured EDM Schema.</span></span>
 
-3. <span data-ttu-id="c44fe-217">데이터베이스 스키마를 업데이트하려면 다음과 같은 cmdlet을 한 번에 하나씩 실행하십시오:</span><span class="sxs-lookup"><span data-stu-id="c44fe-217">To update your database schema, run the following cmdlets, one at a time:</span></span>
+      - <span data-ttu-id="e04da-228">**idMatch**: 이 필드는 EDM의 기본 요소를 가리킵니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-228">**idMatch**: This field points to the primary element for EDM.</span></span>
+        - <span data-ttu-id="e04da-229">Matches: 정확한 조회에 사용할 필드를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-229">Matches: Specifies the field to be used in exact lookup.</span></span> <span data-ttu-id="e04da-230">데이터 저장소의 EDM 스키마에서 검색 가능한 필드 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-230">You provide a searchable field name in EDM Schema for the DataStore.</span></span>
+        - <span data-ttu-id="e04da-231">Classification: 이 필드는 EDM 조회를 트리거하는 중요한 유형 일치를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-231">Classification: This field specifies the sensitive type match that triggers EDM lookup.</span></span> <span data-ttu-id="e04da-232">기존의 기본 제공 분류 또는 사용자 지정 분류의 이름 또는 GUID를 입력할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-232">You can provide Name or GUID of an existing built-in or custom classification.</span></span>
 
-      ```powershell
-      $edmSchemaXml=Get-Content .\\edm.xml -Encoding Byte -ReadCount 0
-      Set-DlpEdmSchema -FileData $edmSchemaXml -Confirm:$true
-      ```
-
-      <span data-ttu-id="c44fe-218">다음과 같이 확인하라는 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-218">You will be prompted to confirm, as follows:</span></span>
-
-      > <span data-ttu-id="c44fe-219">확인</span><span class="sxs-lookup"><span data-stu-id="c44fe-219">Confirm</span></span>
-      >
-      > <span data-ttu-id="c44fe-220">이 작업을 수행하시겠습니까?</span><span class="sxs-lookup"><span data-stu-id="c44fe-220">Are you sure you want to perform this action?</span></span>
-      >
-      > <span data-ttu-id="c44fe-221">'patientrecords' 데이터 저장소의 새로운 EDM 스키마를 업데이트합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-221">EDM Schema for the data store 'patientrecords' will be updated.</span></span>
-      >
-      > <span data-ttu-id="c44fe-222">\[Y\] 예 \[A\] 모두 예 \[N\] 아니요 \[L\] 모두 아니요 \[?\] 도움말(기본값: "Y"):</span><span class="sxs-lookup"><span data-stu-id="c44fe-222">\[Y\] Yes \[A\] Yes to All \[N\] No \[L\] No to All \[?\] Help (default is "Y"):</span></span>
-
-      > [!TIP]
-      > <span data-ttu-id="c44fe-223">3단계에서 확인하지 않고 변경 사항을 적용하려면 Set-DlpEdmSchema -FileData $edmSchemaXml 대신 해당 cmdlet을 사용하십시오.</span><span class="sxs-lookup"><span data-stu-id="c44fe-223">If you want your changes to occur without confirmation, in Step 3, use this cmdlet instead: Set-DlpEdmSchema -FileData $edmSchemaXml</span></span>
-
-      > [!NOTE]
-      > <span data-ttu-id="c44fe-224">EDMSchema를 추가 사항으로 업데이트하는 데 10~60분이 소요될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-224">It can take between 10-60 minutes to update the EDMSchema with additions.</span></span> <span data-ttu-id="c44fe-225">추가 사항을 사용하는 단계를 실행하기 전에 업데이트를 완료해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-225">The update must complete before you execute steps that use the additions.</span></span>
-
-## <a name="removing-the-schema-for-edm-based-classification"></a><span data-ttu-id="c44fe-226">EDM 기반 분류에 대한 스키마 제거</span><span class="sxs-lookup"><span data-stu-id="c44fe-226">Removing the schema for EDM-based classification</span></span>
-
-<span data-ttu-id="c44fe-227">(필요한 경우) EDM 기반 분류에 사용 중인 스키마를 제거하려면 다음 단계를 따르십시오:</span><span class="sxs-lookup"><span data-stu-id="c44fe-227">(As needed) If you want to remove the schema you're using for EDM-based classification, follow these steps:</span></span>
-
-1. <span data-ttu-id="c44fe-228">[보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)의 연결 절차를 사용하여 보안 및 준수 센터에 연결</span><span class="sxs-lookup"><span data-stu-id="c44fe-228">Connect to the Security & Compliance center using the procedures in [Connect to Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).</span></span>
-
-2. <span data-ttu-id="c44fe-229">다음의 PowerShell cmdlet을 실행하여 "patientrecords"의 데이터 저장소 이름을 제거하고자 하는 것으로 대체하십시오.</span><span class="sxs-lookup"><span data-stu-id="c44fe-229">Run the following PowerShell cmdlets, substituting the data store name of "patientrecords" with the one you want to remove:</span></span>
-
-      ```powershell
-      Remove-DlpEdmSchema -Identity patientrecords
-      ```
-
-      <span data-ttu-id="c44fe-230">다음과 같이 확인하라는 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-230">You will be prompted to confirm, as follows:</span></span>
-
-      > <span data-ttu-id="c44fe-231">확인</span><span class="sxs-lookup"><span data-stu-id="c44fe-231">Confirm</span></span>
-      >
-      > <span data-ttu-id="c44fe-232">이 작업을 수행하시겠습니까?</span><span class="sxs-lookup"><span data-stu-id="c44fe-232">Are you sure you want to perform this action?</span></span>
-      >
-      > <span data-ttu-id="c44fe-233">'patientrecords' 데이터 저장소의 EDM 스키마를 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-233">EDM Schema for the data store 'patientrecords' will be removed.</span></span>
-      >
-      > <span data-ttu-id="c44fe-234">\[Y\] 예 \[A\] 모두 예 \[N\] 아니요 \[L\] 모두 아니요 \[?\] 도움말(기본값: "Y"):</span><span class="sxs-lookup"><span data-stu-id="c44fe-234">\[Y\] Yes \[A\] Yes to All \[N\] No \[L\] No to All \[?\] Help (default is "Y"):</span></span>
-
-      > [!TIP]
-      >  <span data-ttu-id="c44fe-235">2단계에서 확인하지 않고 변경 사항을 적용하려면 Remove-DlpEdmSchema -Identity patientrecords -Confirm:$false 대신 해당 cmdlet을 사용하십시오.</span><span class="sxs-lookup"><span data-stu-id="c44fe-235">If you want your changes to occur without confirmation, in Step 2, use this cmdlet instead: Remove-DlpEdmSchema -Identity patientrecords -Confirm:$false</span></span>
-
-### <a name="set-up-a-rule-package"></a><span data-ttu-id="c44fe-236">규칙 패키지 설정</span><span class="sxs-lookup"><span data-stu-id="c44fe-236">Set up a rule package</span></span>
-
-1. <span data-ttu-id="c44fe-237">다음 예제와 같이 in XML 형식(유니코드 인코딩 사용)에 규칙 패키지를 생성하십시오.</span><span class="sxs-lookup"><span data-stu-id="c44fe-237">Create a rule package in XML format (with Unicode encoding), similar to the following example.</span></span> <span data-ttu-id="c44fe-238">(여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.)</span><span class="sxs-lookup"><span data-stu-id="c44fe-238">(You can copy, modify, and use our example.)</span></span>
-
-      <span data-ttu-id="c44fe-239">규칙 패키지를 설정하는 경우 .csv 파일과 **edm.xml** 파일을 정확하게 참조하도록 하십시오.</span><span class="sxs-lookup"><span data-stu-id="c44fe-239">When you set up your rule package, make sure to correctly reference your .csv file and **edm.xml** file.</span></span> <span data-ttu-id="c44fe-240">(여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.)</span><span class="sxs-lookup"><span data-stu-id="c44fe-240">You can copy, modify, and use our example.</span></span> <span data-ttu-id="c44fe-241">이 샘플 xml에서 EDM 중요 유형을 만들려면 다음 필드를 사용자 지정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-241">In this sample xml the following fields needs to be customized to create your EDM sensitive type:</span></span>
-
-      - <span data-ttu-id="c44fe-242">**RulePack ID & ExactMatch ID**: [New-GUID](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6)를  사용하여 GUID를 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-242">**RulePack id & ExactMatch id**: Use [New-GUID](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) to generate a GUID.</span></span>
-
-      - <span data-ttu-id="c44fe-243">**Datastore**: 이 필드는 사용할 EDM 조회 데이터 저장소를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-243">**Datastore**: This field specifies EDM lookup data store to be used.</span></span> <span data-ttu-id="c44fe-244">구성된 EDM 스키마의 데이터 원본 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-244">You provide a data source name of a configured EDM Schema.</span></span>
-
-      - <span data-ttu-id="c44fe-245">**idMatch**: 이 필드는 EDM의 기본 요소를 가리킵니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-245">**idMatch**: This field points to the primary element for EDM.</span></span>
-        - <span data-ttu-id="c44fe-246">Matches: 정확한 조회에 사용할 필드를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-246">Matches: Specifies the field to be used in exact lookup.</span></span> <span data-ttu-id="c44fe-247">데이터 저장소의 EDM 스키마에서 검색 가능한 필드 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-247">You provide a searchable field name in EDM Schema for the DataStore.</span></span>
-        - <span data-ttu-id="c44fe-248">Classification: 이 필드는 EDM 조회를 트리거하는 중요한 유형 일치를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-248">Classification: This field specifies the sensitive type match that triggers EDM lookup.</span></span> <span data-ttu-id="c44fe-249">기존의 기본 제공 분류 또는 사용자 지정 분류의 이름 또는 GUID를 입력할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-249">You can provide Name or GUID of an existing built-in or custom classification.</span></span>
-
-      - <span data-ttu-id="c44fe-250">**Match:** 이 필드는 idMatch의 근접성에서 찾은 추가 증명을 가리킵니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-250">**Match:** This field points to additional evidence found in proximity of idMatch.</span></span>
-        - <span data-ttu-id="c44fe-251">Matches: 데이터 저장소의 EDM 스키마에 필드 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-251">Matches: You provide any field name in EDM Schema for DataStore.</span></span>
-      - <span data-ttu-id="c44fe-252">**리소스:** 이 섹션에서는 여러 로캘에서 중요한 유형의 이름과 설명을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-252">**Resource:** This section specifies the name and description for sensitive type in multiple locales.</span></span>
-        - <span data-ttu-id="c44fe-253">idRef: ExactMatch ID의 GUID를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-253">idRef: You provide GUID for ExactMatch ID.</span></span>
-        - <span data-ttu-id="c44fe-254">이름 및 설명: 필요에 따라 사용자 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-254">Name & descriptions: customize as required.</span></span>
+      - <span data-ttu-id="e04da-233">**Match:** 이 필드는 idMatch의 근접성에서 찾은 추가 증명을 가리킵니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-233">**Match:** This field points to additional evidence found in proximity of idMatch.</span></span>
+        - <span data-ttu-id="e04da-234">Matches: 데이터 저장소의 EDM 스키마에 필드 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-234">Matches: You provide any field name in EDM Schema for DataStore.</span></span>
+      - <span data-ttu-id="e04da-235">**리소스:** 이 섹션에서는 여러 로캘에서 중요한 유형의 이름과 설명을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-235">**Resource:** This section specifies the name and description for sensitive type in multiple locales.</span></span>
+        - <span data-ttu-id="e04da-236">idRef: ExactMatch ID의 GUID를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-236">idRef: You provide GUID for ExactMatch ID.</span></span>
+        - <span data-ttu-id="e04da-237">이름 및 설명: 필요에 따라 사용자 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-237">Name & descriptions: customize as required.</span></span>
 
       ```xml
       <RulePackage xmlns="http://schemas.microsoft.com/office/2018/edm">
@@ -270,16 +226,16 @@ ms.locfileid: "46686562"
       </RulePackage>
       ```
 
-1. <span data-ttu-id="c44fe-255">다음의 PowerShell cmdlet을 한 번에 하나씩 실행하여 규칙 패키지를 업로드하십시오.</span><span class="sxs-lookup"><span data-stu-id="c44fe-255">Upload the rule package by running the following PowerShell cmdlets, one at a time:</span></span>
+1. <span data-ttu-id="e04da-238">다음의 PowerShell cmdlet을 한 번에 하나씩 실행하여 규칙 패키지를 업로드하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-238">Upload the rule package by running the following PowerShell cmdlets, one at a time:</span></span>
 
       ```powershell
       $rulepack=Get-Content .\\rulepack.xml -Encoding Byte -ReadCount 0
       New-DlpSensitiveInformationTypeRulePackage -FileData $rulepack
       ```
 
-<span data-ttu-id="c44fe-256">이 시점에서 EDM 기반 분류를 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-256">At this point, you have set up EDM-based classification.</span></span> <span data-ttu-id="c44fe-257">다음 단계는 중요 한 데이터를 해시한 다음 인덱싱하는 해시를 업로드하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-257">The next step is to hash the sensitive data, and then upload the hashes for indexing.</span></span>
+<span data-ttu-id="e04da-239">이 시점에서 EDM 기반 분류를 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-239">At this point, you have set up EDM-based classification.</span></span> <span data-ttu-id="e04da-240">다음 단계는 중요 한 데이터를 해시한 다음 인덱싱하는 해시를 업로드하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-240">The next step is to hash the sensitive data, and then upload the hashes for indexing.</span></span>
 
-<span data-ttu-id="c44fe-258">PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의한 이전 절차에서 *PatientID*, *MRN*, *SSN*, *Phone* 및 *DOB*를 불러오십시오.</span><span class="sxs-lookup"><span data-stu-id="c44fe-258">Recall from the previous procedure that our PatientRecords schema defines five fields as searchable: *PatientID*, *MRN*, *SSN*, *Phone*, and *DOB*.</span></span> <span data-ttu-id="c44fe-259">예제 규칙 패키지에는 해당 필드가 포함되어 있으며 검색 가능한 필드당 하나의 *ExactMatch* 항목과 함께 데이터베이스 스키마 파일(**edm.xml**)을 참조합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-259">Our example rule package includes those fields and references the database schema file (**edm.xml**), with one *ExactMatch* items per searchable field.</span></span> <span data-ttu-id="c44fe-260">다음의 ExactMatch 항목을 고려하십시오.</span><span class="sxs-lookup"><span data-stu-id="c44fe-260">Consider the following ExactMatch item:</span></span>
+<span data-ttu-id="e04da-241">PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의한 이전 절차에서 *PatientID*, *MRN*, *SSN*, *Phone* 및 *DOB*를 불러오세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-241">Recall from the previous procedure that our PatientRecords schema defines five fields as searchable: *PatientID*, *MRN*, *SSN*, *Phone*, and *DOB*.</span></span> <span data-ttu-id="e04da-242">예제 규칙 패키지에는 해당 필드가 포함되어 있으며 검색 가능한 필드당 하나의 *ExactMatch* 항목과 함께 데이터베이스 스키마 파일(**edm.xml**)을 참조합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-242">Our example rule package includes those fields and references the database schema file (**edm.xml**), with one *ExactMatch* item per searchable field.</span></span> <span data-ttu-id="e04da-243">다음의 ExactMatch 항목을 고려하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-243">Consider the following ExactMatch item:</span></span>
 
 ```xml
 <ExactMatch id = "E1CC861E-3FE9-4A58-82DF-4BD259EAB371" patternsProximity = "300" dataStore ="PatientRecords" recommendedConfidence = "65" >
@@ -300,124 +256,272 @@ ms.locfileid: "46686562"
     </ExactMatch>
 ```
 
-<span data-ttu-id="c44fe-261">해당 예제에서 다음과 같은 사항을 참고하십시오.</span><span class="sxs-lookup"><span data-stu-id="c44fe-261">In this example, note the following:</span></span>
+<span data-ttu-id="e04da-244">이 예에서는 다음 사항에 유의하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-244">In this example, note that:</span></span>
 
-- <span data-ttu-id="c44fe-262">데이터 저장소 이름은 이전에 생성한 .csv 파일( **데이터 저장소 = "PatientRecords"**)을 참조합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-262">The dataStore name references the .csv file we created earlier: **dataStore = "PatientRecords"**.</span></span>
+- <span data-ttu-id="e04da-245">데이터 저장소 이름은 이전에 생성한 .csv 파일( **데이터 저장소 = "PatientRecords"**)을 참조합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-245">The dataStore name references the .csv file we created earlier: **dataStore = "PatientRecords"**.</span></span>
 
-- <span data-ttu-id="c44fe-263">idmatch 값은 데이터베이스 스키마 파일( **idMatch matches = "SSN"**)에 나열된 검색 가능한 필드를 참조합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-263">The idMatch value references a searchable field that is listed in the database schema file: **idMatch matches = "SSN"**.</span></span>
+- <span data-ttu-id="e04da-246">idmatch 값은 데이터베이스 스키마 파일( **idMatch matches = "SSN"**)에 나열된 검색 가능한 필드를 참조합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-246">The idMatch value references a searchable field that is listed in the database schema file: **idMatch matches = "SSN"**.</span></span>
 
-- <span data-ttu-id="c44fe-264">분류 값이 기존 또는 사용자 지정 중요한 정보 유형( **분류 = "미국 SSN(사회 보장 번호)"**)을 참조합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-264">The classification value references an existing or custom sensitive information type: **classification = "U.S. Social Security Number (SSN)"**.</span></span> <span data-ttu-id="c44fe-265">(이 경우 미국 주민 등록 번호의 기존의 중요한 정보 유형을 사용합니다.)</span><span class="sxs-lookup"><span data-stu-id="c44fe-265">(In this case, we use the existing sensitive information type of U.S. Social Security Number.)</span></span>
+- <span data-ttu-id="e04da-247">분류 값이 기존 또는 사용자 지정 중요한 정보 유형( **분류 = "미국 SSN(사회 보장 번호)"**)을 참조합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-247">The classification value references an existing or custom sensitive information type: **classification = "U.S. Social Security Number (SSN)"**.</span></span> <span data-ttu-id="e04da-248">(이 경우 미국 주민 등록 번호의 기존의 중요한 정보 유형을 사용합니다.)</span><span class="sxs-lookup"><span data-stu-id="e04da-248">(In this case, we use the existing sensitive information type of U.S. Social Security Number.)</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c44fe-266">EDMSchema를 추가 사항으로 업데이트하는 데 10~60분이 소요될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-266">It can take between 10-60 minutes to update the EDMSchema with additions.</span></span> <span data-ttu-id="c44fe-267">추가 사항을 사용하는 단계를 실행하기 전에 업데이트를 완료해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-267">The update must complete before you execute steps that use the additions.</span></span>
+> <span data-ttu-id="e04da-249">EDMSchema를 추가 사항으로 업데이트하는 데 10~60분이 소요될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-249">It can take between 10-60 minutes to update the EDMSchema with additions.</span></span> <span data-ttu-id="e04da-250">추가 사항을 사용하는 단계를 실행하기 전에 업데이트를 완료해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-250">The update must complete before you execute steps that use the additions.</span></span>
 
-### <a name="part-2-hash-and-upload-the-sensitive-data"></a><span data-ttu-id="c44fe-268">2부: 중요한 데이터를 해시하고 업로드</span><span class="sxs-lookup"><span data-stu-id="c44fe-268">Part 2: Hash and upload the sensitive data</span></span>
+#### <a name="editing-the-schema-for-edm-based-classification"></a><span data-ttu-id="e04da-251">EDM 기반 분류에 대한 스키마 편집</span><span class="sxs-lookup"><span data-stu-id="e04da-251">Editing the schema for EDM-based classification</span></span>
 
-<span data-ttu-id="c44fe-269">이 단계에서는 사용자 지정 보안 그룹 및 사용자 계정을 설정하고 EDM 업로드 에이전트 도구를 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-269">During this phase, you set up a custom security group and user account, and set up the EDM Upload Agent tool.</span></span> <span data-ttu-id="c44fe-270">그런 다음 도구를 사용하여 중요한 데이터를 해시하고 색인화될 수 있도록 해시된 데이터를 업로드합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-270">Then, you use the tool to hash the sensitive data, and upload the hashed data so it can be indexed.</span></span>
+<span data-ttu-id="e04da-252">EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml** 파일을 변경하려면 다음 단계를 수행하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-252">If you want to make changes to your **edm.xml** file, such as changing which fields are used for EDM-based classification, follow these steps:</span></span>
 
-#### <a name="set-up-the-security-group-and-user-account"></a><span data-ttu-id="c44fe-271">보안 그룹 및 사용자 계정 설정</span><span class="sxs-lookup"><span data-stu-id="c44fe-271">Set up the security group and user account</span></span>
+1. <span data-ttu-id="e04da-253">**edm.xml** 파일을 편집하세요.(해당 문서의 [스키마 정의](#define-the-schema-for-your-database-of-sensitive-information) 섹션에서 다루는 파일입니다.)</span><span class="sxs-lookup"><span data-stu-id="e04da-253">Edit your **edm.xml** file (this is the file discussed in the [Define the schema](#define-the-schema-for-your-database-of-sensitive-information) section of this article).</span></span>
 
-1. <span data-ttu-id="c44fe-272">전역 관리자로서 [구독에 대한 적절한 링크](#portal-links-for-your-subscription)를 사용하여 관리 센터로 이동하고  [EDM](https://docs.microsoft.com/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide)DataUploaders 라는 보안  **그룹 생성\_을 수행합니다.**</span><span class="sxs-lookup"><span data-stu-id="c44fe-272">As a global administrator, go to the admin center using the appropriate [link for your subscription](#portal-links-for-your-subscription) and [create a security group](https://docs.microsoft.com/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide) called **EDM\_DataUploaders**.</span></span>
+2. <span data-ttu-id="e04da-254">[보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)의 연결 절차를 사용하여 보안 및 준수 센터에 연결</span><span class="sxs-lookup"><span data-stu-id="e04da-254">Connect to the Security & Compliance center using the procedures in [Connect to Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).</span></span>
 
-2. <span data-ttu-id="c44fe-273">한 명 이상의 사용자를 **EDM\_DataUploaders** 보안 그룹에 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-273">Add one or more users to the **EDM\_DataUploaders** security group.</span></span> <span data-ttu-id="c44fe-274">(이러한 사용자가 중요한 정보 데이터베이스를 관리합니다.)</span><span class="sxs-lookup"><span data-stu-id="c44fe-274">(These users will manage the database of sensitive information.)</span></span>
+3. <span data-ttu-id="e04da-255">데이터베이스 스키마를 업데이트하려면 다음과 같은 cmdlet을 한 번에 하나씩 실행하십시오:</span><span class="sxs-lookup"><span data-stu-id="e04da-255">To update your database schema, run the following cmdlets, one at a time:</span></span>
 
-3. <span data-ttu-id="c44fe-275">중요한 데이터를 관리하는 각 사용자가 EDM 업로드 에이전트에 사용되는 컴퓨터에서 로컬 관리자인지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-275">Make sure each user who is managing the sensitive data is a local admin on the machine used for the EDM Upload Agent.</span></span>
+      ```powershell
+      $edmSchemaXml=Get-Content .\\edm.xml -Encoding Byte -ReadCount 0
+      Set-DlpEdmSchema -FileData $edmSchemaXml -Confirm:$true
+      ```
 
-#### <a name="set-up-the-edm-upload-agent"></a><span data-ttu-id="c44fe-276">EDM 업로드 에이전트 설정</span><span class="sxs-lookup"><span data-stu-id="c44fe-276">Set up the EDM Upload Agent</span></span>
+      <span data-ttu-id="e04da-256">다음과 같이 확인하라는 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-256">You will be prompted to confirm, as follows:</span></span>
+
+      > <span data-ttu-id="e04da-257">확인</span><span class="sxs-lookup"><span data-stu-id="e04da-257">Confirm</span></span>
+      >
+      > <span data-ttu-id="e04da-258">이 작업을 수행하시겠습니까?</span><span class="sxs-lookup"><span data-stu-id="e04da-258">Are you sure you want to perform this action?</span></span>
+      >
+      > <span data-ttu-id="e04da-259">'patientrecords' 데이터 저장소의 새로운 EDM 스키마를 업데이트합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-259">EDM Schema for the data store 'patientrecords' will be updated.</span></span>
+      >
+      > <span data-ttu-id="e04da-260">\[Y\] 예 \[A\] 모두 예 \[N\] 아니요 \[L\] 모두 아니요 \[?\] 도움말(기본값: "Y"):</span><span class="sxs-lookup"><span data-stu-id="e04da-260">\[Y\] Yes \[A\] Yes to All \[N\] No \[L\] No to All \[?\] Help (default is "Y"):</span></span>
+
+      > [!TIP]
+      > <span data-ttu-id="e04da-261">3단계에서 확인하지 않고 변경 사항을 적용하려면 Set-DlpEdmSchema -FileData $edmSchemaXml 대신 해당 cmdlet을 사용하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-261">If you want your changes to occur without confirmation, in Step 3, use this cmdlet instead: Set-DlpEdmSchema -FileData $edmSchemaXml</span></span>
+
+      > [!NOTE]
+      > <span data-ttu-id="e04da-262">EDMSchema를 추가 사항으로 업데이트하는 데 10~60분이 소요될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-262">It can take between 10-60 minutes to update the EDMSchema with additions.</span></span> <span data-ttu-id="e04da-263">추가 사항을 사용하는 단계를 실행하기 전에 업데이트를 완료해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-263">The update must complete before you execute steps that use the additions.</span></span>
+
+#### <a name="removing-the-schema-for-edm-based-classification"></a><span data-ttu-id="e04da-264">EDM 기반 분류에 대한 스키마 제거</span><span class="sxs-lookup"><span data-stu-id="e04da-264">Removing the schema for EDM-based classification</span></span>
+
+<span data-ttu-id="e04da-265">(필요한 경우) EDM 기반 분류에 사용 중인 스키마를 제거하려면 다음 단계를 따르십시오:</span><span class="sxs-lookup"><span data-stu-id="e04da-265">(As needed) If you want to remove the schema you're using for EDM-based classification, follow these steps:</span></span>
+
+1. <span data-ttu-id="e04da-266">[보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)의 연결 절차를 사용하여 보안 및 준수 센터에 연결</span><span class="sxs-lookup"><span data-stu-id="e04da-266">Connect to the Security & Compliance center using the procedures in [Connect to Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).</span></span>
+
+2. <span data-ttu-id="e04da-267">다음의 PowerShell cmdlet을 실행하여 "patientrecords"의 데이터 저장소 이름을 제거하려는 저장소 이름으로 대체하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-267">Run the following PowerShell cmdlets, substituting the data store name of "patient records" with the one you want to remove:</span></span>
+
+      ```powershell
+      Remove-DlpEdmSchema -Identity patientrecords
+      ```
+
+      <span data-ttu-id="e04da-268">다음을 확인하라는 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-268">You will be prompted to confirm:</span></span>
+
+      > <span data-ttu-id="e04da-269">확인</span><span class="sxs-lookup"><span data-stu-id="e04da-269">Confirm</span></span>
+      >
+      > <span data-ttu-id="e04da-270">이 작업을 수행하시겠습니까?</span><span class="sxs-lookup"><span data-stu-id="e04da-270">Are you sure you want to perform this action?</span></span>
+      >
+      > <span data-ttu-id="e04da-271">'patientrecords' 데이터 저장소의 EDM 스키마를 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-271">EDM Schema for the data store 'patientrecords' will be removed.</span></span>
+      >
+      > <span data-ttu-id="e04da-272">\[Y\] 예 \[A\] 모두 예 \[N\] 아니요 \[L\] 모두 아니요 \[?\] 도움말(기본값: "Y"):</span><span class="sxs-lookup"><span data-stu-id="e04da-272">\[Y\] Yes \[A\] Yes to All \[N\] No \[L\] No to All \[?\] Help (default is "Y"):</span></span>
+
+      > [!TIP]
+      >  <span data-ttu-id="e04da-273">2단계에서 확인하지 않고 변경 사항을 적용하려면 Remove-DlpEdmSchema -Identity patientrecords -Confirm:$false 대신 해당 cmdlet을 사용하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-273">If you want your changes to occur without confirmation, in Step 2, use this cmdlet instead: Remove-DlpEdmSchema -Identity patientrecords -Confirm:$false</span></span>
+
+
+<!-- salt notes
+need two salting procedures, one for onestep from the externally facing and another for two step, on an internal machine then the upload from the external machine
+
+- create A  folder put the edmupload agent and, csv and salt file there, run all processes there
+- 
+- stuff you need to have first: DataStoreName, /DataFile name (csv file)  /Hashlocation
+
+- salt can be randomly generated by Microsoft or can be provided by the customer. If provided by the customer it must follow  format of 64 character, and can contain only letters or 0-9 characters.  Use a website to generate a valid salt value.
+ 
+- can run EDMuploadagent.exe from PS or Windows cmd window . tested on Windows Server 2016 or Windows 10 and dot net version 4.6.2
+
+when defiuning the schema file the searchable fields must be either an out of box SIT or custom SIT, only 5 fields )column headings) can be searchable
+
+1. From outbound access device from the cmd prompt run EdmUploadAgent.exe /Authorize -  
+2. data store schema must have already been uploaded
+3.  create hash first then do upload
+4. EdmUploadAgent.exe /CreateHash /DataFile (where the data file is ) E:\emd\test\data\schema32_1000000,csv /HashLocation  (where to store it) E:\edm\tat\hash this makes the salt file and the hash file as output
+5. next is upload EdmUploadAgent.exe /UploadHash /DataStoreName (found in the Schema file DataSore name="FOO" /HashFile (path to hash file locaztion and file name /HashLocation path to hash)  for example
+1.EdmUploadAgent/exe /UploadHash /DataStoreName schema321 /HashFile E:\edm\test\hash\schema32_10000000.EdmHash /HashLocation E:\edm\test\hash  -this one  uses MSFT generated salt, so no need to provide
+
+Salt is an optional parameter so if yo uwant to use a custom salt add /salt and the salt value if salt file not copied to the outbound machine 
+
+OR copy both files hash and salt to the same directory and the commmand will get both
+
+
+OR do it in single step hash, salt ulopad
+
+!! once they download the updated upload agent they will always have SALT, there is no going back.
+
+
+all in one step: EdmUploadAgent.exe /UploadData /DataStoreName schema321 /DataFile E:\edm\test\data\schema32_10000.csv /HashLocation E:\edm\test\hash
+
+tshooting/check status cmd
+
+
+
+Once it gets to completed the admin can start using it in the custom SIT
+
+they have to get their own custom SALT
+
+just copy SALT over in a secure fashion
+
+
+
+
+
+
+
+
+
+
+1.
+6.
+7.
+1.  
+
+
+ -->
+
+### <a name="part-2-hash-and-upload-the-sensitive-data"></a><span data-ttu-id="e04da-274">2부: 중요한 데이터를 해시하고 업로드</span><span class="sxs-lookup"><span data-stu-id="e04da-274">Part 2: Hash and upload the sensitive data</span></span>
+
+<span data-ttu-id="e04da-275">이 단계에서는 사용자 지정 보안 그룹 및 사용자 계정을 설정하고 EDM 업로드 에이전트 도구를 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-275">In this phase, you set up a custom security group and user account, and set up the EDM Upload Agent tool.</span></span> <span data-ttu-id="e04da-276">그런 다음 이 도구를 사용하여 중요한 데이터를 해시하고 해시한 데이터를 업로드합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-276">Then, you use the tool to hash with salt value the sensitive data, and upload it.</span></span>
+
+<span data-ttu-id="e04da-277">해시 및 업로드는 한 대의 컴퓨터를 사용하여 수행하거나 보안 강화를 위해 업로드 단계에서 해싱 단계를 분리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-277">The hashing and uploading can be done using one computer or you can separate the hashing step from the upload step for greater security.</span></span>
+
+<span data-ttu-id="e04da-278">한 대의 컴퓨터에서 해시하고 업로드하려면 Microsoft 365 테넌트에 직접 연결할 수 있는 컴퓨터에서 수행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-278">If you want to hash and upload from one computer, you need to do it from a computer that can directly connect to your Microsoft 365 tenant.</span></span> <span data-ttu-id="e04da-279">이렇게하려면 해싱을 위해 일반 텍스트 중요 데이터 파일이 해당 컴퓨터에 있어야합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-279">This requires that your clear text sensitive data files are on that computer for hashing.</span></span>
+
+<span data-ttu-id="e04da-280">일반 텍스트 중요 데이터 파일을 노출하지 않으려면 안전한 위치에 있는 컴퓨터에서 해당 파일에서 해시한 다음 업로드를 위해 Microsoft 365 테넌트에 직접 연결할 수 있는 컴퓨터에 해시 파일과 솔트 파일을 복사할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-280">If you do not want to expose your clear text sensitive data file, you can hash it on a computer in a secure location and then copy the hash file and the salt file to a computer that can directly connect to your Microsoft 365 tenant for upload.</span></span> <span data-ttu-id="e04da-281">이 시나리오에서는 두 컴퓨터 모두에 EDMUploadAgent가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-281">In this scenario, you will need the EDMUploadAgent on both computers.</span></span> 
+
+#### <a name="prerequisites"></a><span data-ttu-id="e04da-282">필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="e04da-282">Prerequisites</span></span>
+
+- <span data-ttu-id="e04da-283">**EDM\_DataUploaders** 보안 그룹에 추가될 Microsoft 365용 회사 또는 학교 계정</span><span class="sxs-lookup"><span data-stu-id="e04da-283">a work or school account for Microsoft 365  that will be added to the **EDM\_DataUploaders** security group</span></span>
+- <span data-ttu-id="e04da-284">EDMUploadAgent 실행을 위한 .NET 버전 4.6.2가있는 Windows 10 또는 Windows Server 2016 시스템</span><span class="sxs-lookup"><span data-stu-id="e04da-284">a Windows 10 or Windows Server 2016 machine with .NET version 4.6.2 for running the EDMUploadAgent</span></span>
+- <span data-ttu-id="e04da-285">다음에 대한 업로드 컴퓨터의 디렉토리 :</span><span class="sxs-lookup"><span data-stu-id="e04da-285">a directory on your upload machine for the:</span></span>
+    -  <span data-ttu-id="e04da-286">EDMUploadAgent</span><span class="sxs-lookup"><span data-stu-id="e04da-286">EDMUploadAgent</span></span>
+    - <span data-ttu-id="e04da-287">예제의 csv 형식 **PatientRecords.csv**의 중요한 항목 파일</span><span class="sxs-lookup"><span data-stu-id="e04da-287">your sensitive item file in csv format **PatientRecords.csv** in our examples</span></span>
+    -  <span data-ttu-id="e04da-288">및 출력 해시 및 솔트 파일</span><span class="sxs-lookup"><span data-stu-id="e04da-288">and the output hash and salt files</span></span>
+    - <span data-ttu-id="e04da-289">**edm.xml** 파일의 데이터 저장소 이름(이 예에서는 `PatientRecords`)</span><span class="sxs-lookup"><span data-stu-id="e04da-289">the datastore name from the **edm.xml** file, for this example its `PatientRecords`</span></span>
+
+#### <a name="set-up-the-security-group-and-user-account"></a><span data-ttu-id="e04da-290">보안 그룹 및 사용자 계정 설정</span><span class="sxs-lookup"><span data-stu-id="e04da-290">Set up the security group and user account</span></span>
+
+1. <span data-ttu-id="e04da-291">전역 관리자로서 [구독에 대한 적절한 링크](#portal-links-for-your-subscription)를 사용하여 관리 센터로 이동하고  [EDM](https://docs.microsoft.com/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide)DataUploaders 라는 보안  **그룹 생성\_을 수행합니다.**</span><span class="sxs-lookup"><span data-stu-id="e04da-291">As a global administrator, go to the admin center using the appropriate [link for your subscription](#portal-links-for-your-subscription) and [create a security group](https://docs.microsoft.com/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide) called **EDM\_DataUploaders**.</span></span>
+
+2. <span data-ttu-id="e04da-292">한 명 이상의 사용자를 **EDM\_DataUploaders** 보안 그룹에 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-292">Add one or more users to the **EDM\_DataUploaders** security group.</span></span> <span data-ttu-id="e04da-293">(이러한 사용자가 중요한 정보 데이터베이스를 관리합니다.)</span><span class="sxs-lookup"><span data-stu-id="e04da-293">(These users will manage the database of sensitive information.)</span></span>
+
+#### <a name="hash-and-upload-from-one-computer"></a><span data-ttu-id="e04da-294">한 대의 컴퓨터에서 해시 및 업로드</span><span class="sxs-lookup"><span data-stu-id="e04da-294">Hash and upload from one computer</span></span>
+
+<span data-ttu-id="e04da-295">이 컴퓨터는 Microsoft 365 테넌트에 직접 액세스할 수 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-295">This computer must have direct access to your Microsoft 365 tenant.</span></span>
 
 >[!NOTE]
-> <span data-ttu-id="c44fe-277">이 절차를 시작하기 전에 **EDM\_DataUploaders** 보안 그룹의 구성원이며 컴퓨터의 로컬 관리자인지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-277">Before you begin this procedure, make sure that you are a member of the **EDM\_DataUploaders** security group and a local admin on your machine.</span></span>
+> <span data-ttu-id="e04da-296">이 절차를 시작하기 전에  **EDM\_ DataUploaders**  보안 그룹의 구성원인지 확인하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-296">Before you begin this procedure, make sure that you are a member of the **EDM\_DataUploaders** security group.</span></span>
 
-#### <a name="links-to-edm-upload-agent-by-subscription-type"></a><span data-ttu-id="c44fe-278">구독 유형별 EDM 업로드 에이전트에 대한 링크</span><span class="sxs-lookup"><span data-stu-id="c44fe-278">Links to EDM upload agent by subscription type</span></span>
+#### <a name="links-to-edm-upload-agent-by-subscription-type"></a><span data-ttu-id="e04da-297">구독 유형별 EDM 업로드 에이전트에 대한 링크</span><span class="sxs-lookup"><span data-stu-id="e04da-297">Links to EDM upload agent by subscription type</span></span>
 
-- [<span data-ttu-id="c44fe-279">상업용 + GCC</span><span class="sxs-lookup"><span data-stu-id="c44fe-279">Commercial + GCC</span></span>](https://go.microsoft.com/fwlink/?linkid=2088639)
-- [<span data-ttu-id="c44fe-280">GCC-High</span><span class="sxs-lookup"><span data-stu-id="c44fe-280">GCC-High</span></span>](https://go.microsoft.com/fwlink/?linkid=2137521)
-- [<span data-ttu-id="c44fe-281">DoD</span><span class="sxs-lookup"><span data-stu-id="c44fe-281">DoD</span></span>](https://go.microsoft.com/fwlink/?linkid=2137807)
+- [<span data-ttu-id="e04da-298">상업용 + GCC</span><span class="sxs-lookup"><span data-stu-id="e04da-298">Commercial + GCC</span></span>](https://go.microsoft.com/fwlink/?linkid=2088639)
+- [<span data-ttu-id="e04da-299">GCC-High</span><span class="sxs-lookup"><span data-stu-id="e04da-299">GCC-High</span></span>](https://go.microsoft.com/fwlink/?linkid=2137521)
+- [<span data-ttu-id="e04da-300">DoD</span><span class="sxs-lookup"><span data-stu-id="e04da-300">DoD</span></span>](https://go.microsoft.com/fwlink/?linkid=2137807)
 
-1. <span data-ttu-id="c44fe-282">구독에 알맞은 [EDM 업로드 에이전트](#links-to-edm-upload-agent-by-subscription-type)를 다운로드하여 설치합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-282">Download and install the appropriate [EDM Upload Agent](#links-to-edm-upload-agent-by-subscription-type) for your subscription.</span></span> <span data-ttu-id="c44fe-283">기본적으로 설치 위치는  **C:\\Program Files\\Microsoft\\EdmUploadAgent**여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-283">By default, the installation location should be **C:\\Program Files\\Microsoft\\EdmUploadAgent**.</span></span>
+1. <span data-ttu-id="e04da-301">EDMUploadAgent에 대한 작업 디렉터리를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-301">Create a working directory for the EDMUploadAgent.</span></span> <span data-ttu-id="e04da-302">예를 들어, **C:\EDM\Data**.</span><span class="sxs-lookup"><span data-stu-id="e04da-302">For example, **C:\EDM\Data**.</span></span> <span data-ttu-id="e04da-303">여기에 **PatientRecords.csv** 파일을 배치하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-303">Place the **PatientRecords.csv** file there.</span></span>
 
-   > [!TIP]
-   > <span data-ttu-id="c44fe-284">지원되는 명령 매개 변수에 대한 목록을 얻으려면 에이전트(인수 없음)를 실행하십시오.</span><span class="sxs-lookup"><span data-stu-id="c44fe-284">To a get a list out of the supported command parameters, run the agent no arguments.</span></span> <span data-ttu-id="c44fe-285">예를 들어 'EdmUploadAgent'가 해당됩니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-285">For example 'EdmUploadAgent.exe'.</span></span>
+2. <span data-ttu-id="e04da-304">구독에 적합한 [EDM 업로드 에이전트](#links-to-edm-upload-agent-by-subscription-type)를 1단계에서 만든 디렉토리에 다운로드하여 설치합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-304">Download and install the appropriate [EDM Upload Agent](#links-to-edm-upload-agent-by-subscription-type) for your subscription into the directory you created in step 1.</span></span>
 
-   > [!NOTE]
-   > <span data-ttu-id="c44fe-286">EDMUploadAgent를 사용하여 하루에 두 번만 지정된 데이터 저장소에 데이터를 업로드할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-286">You can upload data with the EDMUploadAgent to any given data store only twice per day.</span></span>
+> [!NOTE]
+> <span data-ttu-id="e04da-305">위 링크의 EDMUploadAgent는 해시된 데이터에 솔트 값을 자동으로 추가하도록 업데이트되었습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-305">The EDMUploadAgent at the above links has been updated to automatically add a salt value to the hashed data.</span></span> <span data-ttu-id="e04da-306">또는 자신의 솔트 값을 입력할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-306">Alternately, you can provide your own salt value.</span></span> <span data-ttu-id="e04da-307">이 버전을 사용한 후에는 이전 버전의 EDMUploadAgent를 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-307">Once you have used this version, you will not be able to use the previous version of the EDMUploadAgent.</span></span>
+>
+> <span data-ttu-id="e04da-308">EDMUploadAgent를 사용하여 하루에 두 번만 지정된 데이터 저장소에 데이터를 업로드할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-308">You can upload data with the EDMUploadAgent to any given data store only twice per day.</span></span>
 
-2. <span data-ttu-id="c44fe-287">EDM 업로드 에이전트에 권한을 부여하려면 Windows 명령 프롬프트를 열고(관리자로) 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-287">To authorize the EDM Upload Agent, open Windows Command Prompt (as an administrator), and then run the following command:</span></span>
+> [!TIP]
+> <span data-ttu-id="e04da-309">지원되는 명령 매개 변수에 대한 목록을 얻으려면 에이전트(인수 없음)를 실행하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-309">To a get a list out of the supported command parameters, run the agent no arguments.</span></span> <span data-ttu-id="e04da-310">예를 들어 'EdmUploadAgent'가 해당됩니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-310">For example 'EdmUploadAgent.exe'.</span></span>
+
+2. <span data-ttu-id="e04da-311">EDM 업로드 에이전트에 권한을 부여하고 명령 프롬프트 창을 열고 (관리자 권한으로) **C:\EDM\Data** 디렉토리로 전환한 후 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-311">Authorize the EDM Upload Agent, open  Command Prompt window (as an administrator), switch to the **C:\EDM\Data** directory and then run the following command:</span></span>
 
    `EdmUploadAgent.exe /Authorize`
 
-3. <span data-ttu-id="c44fe-288">EDM_DataUploaders 보안 그룹에 추가된 Office 365의 회사 또는 학교 계정으로 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-288">Sign in with your work or school account for Office 365 that was added to the EDM_DataUploaders security group.</span></span>
+3. <span data-ttu-id="e04da-312">EDM_DataUploaders 보안 그룹에 추가된 Microsoft 365용 회사 또는 학교 계정으로 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-312">Sign in with your work or school account for Microsoft 365 that was added to the EDM_DataUploaders security group.</span></span> <span data-ttu-id="e04da-313">테넌트 정보는 연결을 위해 사용자 계정에서 추출됩니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-313">Your tenant information is extracted from the user account to make the connection.</span></span>
 
-<span data-ttu-id="c44fe-289">다음 단계는 EDM 업로드 에이전트를 사용하여 중요한 데이터를 해시한 다음 해시된 데이터를 업로드하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-289">The next step is to use the EDM Upload Agent to hash the sensitive data, and then upload the hashed data.</span></span>
-
-#### <a name="hash-and-upload-the-sensitive-data"></a><span data-ttu-id="c44fe-290">중요한 데이터를 해시하고 업로드</span><span class="sxs-lookup"><span data-stu-id="c44fe-290">Hash and upload the sensitive data</span></span>
-
-<span data-ttu-id="c44fe-291">중요한 데이터 파일(여기에서 예제는 **PatientRecords.csv**임)을 컴퓨터의 로컬 드라이브에 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-291">Save the sensitive data file (recall our example is **PatientRecords.csv**) to the local drive on the machine.</span></span> <span data-ttu-id="c44fe-292">(예제 **PatientRecords.csv** 파일을  **C:\\Edm\\Data**에 저장했습니다.)</span><span class="sxs-lookup"><span data-stu-id="c44fe-292">(We saved our example **PatientRecords.csv** file to **C:\\Edm\\Data**.)</span></span>
-
-<span data-ttu-id="c44fe-293">중요 한 데이터를 해시하고 업로드하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-293">To hash and upload the sensitive data, run the following command in Windows Command Prompt:</span></span>
+4. <span data-ttu-id="e04da-314">중요한 데이터를 해시하고 업로드하려면 명령 프롬프트 창에서 다음 명령을 실행하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-314">To hash and upload the sensitive data, run the following command in Command Prompt window:</span></span>
 
 `EdmUploadAgent.exe /UploadData /DataStoreName \<DataStoreName\> /DataFile \<DataFilePath\> /HashLocation \<HashedFileLocation\>`
 
-<span data-ttu-id="c44fe-294">예제: **EdmUploadAgent.exe /UploadData /DataStoreName PatientRecords /DataFile C:\\Edm\\Hash\\PatientRecords.csv /HashLocation C:\\Edm\\Hash**</span><span class="sxs-lookup"><span data-stu-id="c44fe-294">Example: **EdmUploadAgent.exe /UploadData /DataStoreName PatientRecords /DataFile C:\\Edm\\Hash\\PatientRecords.csv /HashLocation C:\\Edm\\Hash**</span></span>
+<span data-ttu-id="e04da-315">예: **EdmUploadAgent.exe /UploadData /DataStoreName PatientRecords /DataFile C:\Edm\Hash\PatientRecords.csv /HashLocation C:\Edm\Hash**</span><span class="sxs-lookup"><span data-stu-id="e04da-315">Example: **EdmUploadAgent.exe /UploadData /DataStoreName PatientRecords /DataFile C:\Edm\Hash\PatientRecords.csv /HashLocation C:\Edm\Hash**</span></span>
 
-<span data-ttu-id="c44fe-295">격리된 환경에서 중요한 데이터를 분리하고 해시하여 실행하려면 해시와 업로드 단계를 각각 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-295">To separate and execute the hashing of sensitive data in an isolated environment, execute the hashing and upload steps separately.</span></span>
+<span data-ttu-id="e04da-316">보안 강화를 위해 임의로 생성된 솔트 값을 해시에 자동으로 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-316">This will automatically add a randomly generated salt value to the hash for greater security.</span></span> <span data-ttu-id="e04da-317">선택에 따라, 고유한 솔트 값을 사용하려면 **/Salt <saltvalue>** 를 명령에 추가하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-317">Optionally, if you want to use your own salt value, add the **/Salt <saltvalue>** to the command.</span></span> <span data-ttu-id="e04da-318">이 값은 길이가 64자여야 하며 a-z 문자와 0-9만 포함할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-318">This value must be 64 characters in length and can only contain the a-z characters and 0-9 characters.</span></span>
 
-<span data-ttu-id="c44fe-296">중요한 데이터를 해시하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-296">To hash the sensitive data, run the following command in Windows Command Prompt:</span></span>
+5. <span data-ttu-id="e04da-319">다음 명령을 실행하여 업로드 상태를 확인하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-319">Check the upload status by running this command:</span></span>
+
+`EdmUploadAgent.exe /GetSession /DataStoreName \<DataStoreName\>`
+
+<span data-ttu-id="e04da-320">예: **EdmUploadAgent.exe /GetSession /DataStoreName PatientRecords**</span><span class="sxs-lookup"><span data-stu-id="e04da-320">Example: **EdmUploadAgent.exe /GetSession /DataStoreName PatientRecords**</span></span>
+
+<span data-ttu-id="e04da-321">상태가 **ProcessingInProgress**인지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-321">Look for the status to be in **ProcessingInProgress**.</span></span> <span data-ttu-id="e04da-322">상태가 **완료**로 변경될 때까지 몇 분마다 다시 확인하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-322">Check again every few minutes until the status changes to **Completed**.</span></span> <span data-ttu-id="e04da-323">상태가 완료되면 EDM 데이터를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-323">Once the status is completed, your EDM data is ready for use.</span></span>
+
+#### <a name="separate-hash-and-upload"></a><span data-ttu-id="e04da-324">별도의 해시 및 업로드</span><span class="sxs-lookup"><span data-stu-id="e04da-324">Separate Hash and upload</span></span>
+
+<span data-ttu-id="e04da-325">안전한 환경의 컴퓨터에서 해시를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-325">Perform the hash on a computer in a secure environment.</span></span>
+
+1. <span data-ttu-id="e04da-326">명령 프롬프트 창에서 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-326">Run the following command in Command Prompt windows:</span></span>
 
 `EdmUploadAgent.exe /CreateHash /DataFile \<DataFilePath\> /HashLocation \<HashedFileLocation\>`
 
-<span data-ttu-id="c44fe-297">예를 들어,</span><span class="sxs-lookup"><span data-stu-id="c44fe-297">For example:</span></span>
+<span data-ttu-id="e04da-327">예를 들면 :</span><span class="sxs-lookup"><span data-stu-id="e04da-327">For example:</span></span>
 
-> <span data-ttu-id="c44fe-298">**EdmUploadAgent.exe /CreateHash /DataFile C:\\Edm\\Data\\PatientRecords.csv /HashLocation C:\\Edm\\Hash**</span><span class="sxs-lookup"><span data-stu-id="c44fe-298">**EdmUploadAgent.exe /CreateHash /DataFile C:\\Edm\\Data\\PatientRecords.csv /HashLocation C:\\Edm\\Hash**</span></span>
+> <span data-ttu-id="e04da-328">**EdmUploadAgent.exe /CreateHash /DataFile C:\Edm\Data\PatientRecords.csv /HashLocation C:\Edm\Hash**</span><span class="sxs-lookup"><span data-stu-id="e04da-328">**EdmUploadAgent.exe /CreateHash /DataFile C:\Edm\Data\PatientRecords.csv /HashLocation C:\Edm\Hash**</span></span>
 
-<span data-ttu-id="c44fe-299">해시된 데이터를 업로드하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-299">To upload the hashed data, run the following command in Windows Command Prompt:</span></span>
+<span data-ttu-id="e04da-329">**/Salt <saltvalue>** 옵션을 지정하지 않은 경우 해시 파일과 이러한 확장자를 가진 솔트 파일이 출력됩니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-329">This will output a hashed file and a salt file with these extensions if you didn't specify the **/Salt <saltvalue>** option:</span></span>
+- <span data-ttu-id="e04da-330">.EdmHash</span><span class="sxs-lookup"><span data-stu-id="e04da-330">.EdmHash</span></span>
+- <span data-ttu-id="e04da-331">.EdmSalt</span><span class="sxs-lookup"><span data-stu-id="e04da-331">.EdmSalt</span></span>
+
+2. <span data-ttu-id="e04da-332">중요한 항목 csv 파일(PatientRecords)을 테넌트에 업로드하는 데 사용할 컴퓨터에 이러한 파일을 안전한 방식으로 복사하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-332">Copy these files in a secure fashion to the computer you will use to upload your sensitive items csv file (PatientRecords) to your tenant.</span></span>
+
+<span data-ttu-id="e04da-333">해시된 데이터를 업로드하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-333">To upload the hashed data, run the following command in Windows Command Prompt:</span></span>
 
 `EdmUploadAgent.exe /UploadHash /DataStoreName \<DataStoreName\> /HashFile \<HashedSourceFilePath\>`
 
-<span data-ttu-id="c44fe-300">예를 들어,</span><span class="sxs-lookup"><span data-stu-id="c44fe-300">For example:</span></span>
+<span data-ttu-id="e04da-334">예를 들어,</span><span class="sxs-lookup"><span data-stu-id="e04da-334">For example:</span></span>
 
-> <span data-ttu-id="c44fe-301">**EdmUploadAgent.exe /UploadHash /DataStoreName PatientRecords /HashFile C:\\Edm\\Hash\\PatientRecords.EdmHash**</span><span class="sxs-lookup"><span data-stu-id="c44fe-301">**EdmUploadAgent.exe /UploadHash /DataStoreName PatientRecords /HashFile C:\\Edm\\Hash\\PatientRecords.EdmHash**</span></span>
+> <span data-ttu-id="e04da-335">**EdmUploadAgent.exe /UploadHash /DataStoreName PatientRecords /HashFile C:\\Edm\\Hash\\PatientRecords.EdmHash**</span><span class="sxs-lookup"><span data-stu-id="e04da-335">**EdmUploadAgent.exe /UploadHash /DataStoreName PatientRecords /HashFile C:\\Edm\\Hash\\PatientRecords.EdmHash**</span></span>
 
 
-<span data-ttu-id="c44fe-302">중요한 데이터가 업로드 되었는지 확인하려면 명령 프롬프트 창에서 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-302">To verify that your sensitive data has been uploaded, run the following command in Command Prompt window:</span></span>
+<span data-ttu-id="e04da-336">중요한 데이터가 업로드 되었는지 확인하려면 명령 프롬프트 창에서 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-336">To verify that your sensitive data has been uploaded, run the following command in Command Prompt window:</span></span>
 
 
 `EdmUploadAgent.exe /GetDataStore`
 
-<span data-ttu-id="c44fe-303">데이터 저장소 목록 및 마지막 업데이트 날짜를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-303">You'll see a list of data stores and when they were last updated.</span></span>
+<span data-ttu-id="e04da-337">데이터 저장소 목록 및 마지막 업데이트 날짜를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-337">You'll see a list of data stores and when they were last updated.</span></span>
 
-<span data-ttu-id="c44fe-304">특정 저장소에 대한 모든 데이터 업로드를 표시하려면 Windows 명령 프롬프트에서 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-304">If you want to see all the data uploads to a particular store, run the following command in a Windows command prompt:</span></span>
+<span data-ttu-id="e04da-338">특정 저장소에 대한 모든 데이터 업로드를 표시하려면 Windows 명령 프롬프트에서 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-338">If you want to see all the data uploads to a particular store, run the following command in a Windows command prompt:</span></span>
 
 `EdmUploadAgent.exe /GetSession /DataStoreName <DataStoreName>`
 
-<span data-ttu-id="c44fe-305">계속하여 [중요한 정보 데이터베이스 새로 고침](#refreshing-your-sensitive-information-database)의 프로세스 및 일정을 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-305">Proceed to set up your process and schedule for [Refreshing your sensitive information database](#refreshing-your-sensitive-information-database).</span></span>
+<span data-ttu-id="e04da-339">계속하여 [중요한 정보 데이터베이스 새로 고침](#refreshing-your-sensitive-information-database)의 프로세스 및 일정을 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-339">Proceed to set up your process and schedule for [Refreshing your sensitive information database](#refreshing-your-sensitive-information-database).</span></span>
 
-<span data-ttu-id="c44fe-306">이제 Microsoft 클라우드 서비스로 EDM 기반 분류를 사용할 준비가 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-306">At this point, you are ready to use EDM-based classification with your Microsoft cloud services.</span></span> <span data-ttu-id="c44fe-307">예를 들어 [EDM 기반 분류를 사용하여 DLP 정책을 설정](#to-create-a-dlp-policy-with-edm)할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-307">For example, you can [set up a DLP policy using EDM-based classification](#to-create-a-dlp-policy-with-edm).</span></span>
+<span data-ttu-id="e04da-340">이제 Microsoft 클라우드 서비스로 EDM 기반 분류를 사용할 준비가 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-340">At this point, you are ready to use EDM-based classification with your Microsoft cloud services.</span></span> <span data-ttu-id="e04da-341">예를 들어 [EDM 기반 분류를 사용하여 DLP 정책을 설정](#to-create-a-dlp-policy-with-edm)할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-341">For example, you can [set up a DLP policy using EDM-based classification](#to-create-a-dlp-policy-with-edm).</span></span>
 
-#### <a name="refreshing-your-sensitive-information-database"></a><span data-ttu-id="c44fe-308">중요한 정보 데이터베이스 새로 고침</span><span class="sxs-lookup"><span data-stu-id="c44fe-308">Refreshing your sensitive information database</span></span>
+#### <a name="refreshing-your-sensitive-information-database"></a><span data-ttu-id="e04da-342">중요한 정보 데이터베이스 새로 고침</span><span class="sxs-lookup"><span data-stu-id="e04da-342">Refreshing your sensitive information database</span></span>
 
-<span data-ttu-id="c44fe-309">중요한 정보 데이터베이스를 매일 또는 매주 새로 고칠 수 있으며, EDM 업로드 도구를 사용하여 중요한 데이터를 다시 색인화한 다음 색인화된 데이터를 다시 업로드할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-309">You can refresh your sensitive information database daily or weekly, and the EDM Upload Tool can re-hash the sensitive data and then reupload the hashed data.</span></span>
+<span data-ttu-id="e04da-343">중요한 정보 데이터베이스를 매일 새로 고칠 수 있으며, EDM 업로드 도구를 사용하여 중요한 데이터를 다시 색인화한 다음 색인화된 데이터를 다시 업로드할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-343">You can refresh your sensitive information database daily, and the EDM Upload Tool can reindex the sensitive data and then reupload the indexed data.</span></span>
 
-1. <span data-ttu-id="c44fe-310">중요한 정보 데이터베이스를 새로 고치는 빈도(매일 또는 매주)와 프로세스를 판별합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-310">Determine your process and frequency (daily or weekly) for refreshing the database of sensitive information.</span></span>
+1. <span data-ttu-id="e04da-344">중요한 정보 데이터베이스를 새로 고치는 빈도(매일 또는 매주)와 프로세스를 판별합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-344">Determine your process and frequency (daily or weekly) for refreshing the database of sensitive information.</span></span>
 
-2. <span data-ttu-id="c44fe-311">Microsoft Excel과 같은 앱에 중요한 데이터를 다시 내보내고 .csv 형식으로 파일을 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-311">Re-export the sensitive data to an app, such as Microsoft Excel, and save the file in .csv format.</span></span> <span data-ttu-id="c44fe-312"> [해시에 설명 된 단계를 수행하고 중요한 데이터](#hash-and-upload-the-sensitive-data)를 업로드할 때 사용한 것과 동일한 파일 이름과 위치를 유지합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-312">Keep the same file name and location you used when you followed the steps described in [Hash and upload the sensitive data](#hash-and-upload-the-sensitive-data).</span></span>
+2. <span data-ttu-id="e04da-345">Microsoft Excel과 같은 앱에 중요한 데이터를 다시 내보내고 .csv 형식으로 파일을 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-345">Re-export the sensitive data to an app, such as Microsoft Excel, and save the file in .csv format.</span></span> <span data-ttu-id="e04da-346"> [해시에 설명 된 단계를 수행하고 중요한 데이터](#part-2-hash-and-upload-the-sensitive-data)를 업로드할 때 사용한 것과 동일한 파일 이름과 위치를 유지합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-346">Keep the same file name and location you used when you followed the steps described in [Hash and upload the sensitive data](#part-2-hash-and-upload-the-sensitive-data).</span></span>
 
       > [!NOTE]
-      > <span data-ttu-id="c44fe-313">.csv 파일의 구조(필드 이름)를 변경하지 않은 경우 데이터를 새로 고칠 때 데이터베이스 스키마 파일을 변경하지 않아도 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-313">If there are no changes to the structure (field names) of the .csv file, you won't need to make any changes to your database schema file when you refresh the data.</span></span> <span data-ttu-id="c44fe-314">하지만 변경해야 하는 경우 데이터베이스 스키마와 규칙 패키지를 적절하게 편집해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-314">But if you must make changes, make sure to edit the database schema and your rule package accordingly.</span></span>
+      > <span data-ttu-id="e04da-347">.csv 파일의 구조(필드 이름)를 변경하지 않은 경우 데이터를 새로 고칠 때 데이터베이스 스키마 파일을 변경하지 않아도 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-347">If there are no changes to the structure (field names) of the .csv file, you won't need to make any changes to your database schema file when you refresh the data.</span></span> <span data-ttu-id="e04da-348">하지만 변경해야 하는 경우 데이터베이스 스키마와 규칙 패키지를 적절하게 편집해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-348">But if you must make changes, make sure to edit the database schema and your rule package accordingly.</span></span>
 
-3. <span data-ttu-id="c44fe-315"> [해시에서 2단계와 3단계를 자동화하고 중요한 데이터](#hash-and-upload-the-sensitive-data) 절차를 업로드하려면 [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page) 를 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-315">Use [Task Scheduler](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page) to automate steps 2 and 3 in the [Hash and upload the sensitive data](#hash-and-upload-the-sensitive-data) procedure.</span></span> <span data-ttu-id="c44fe-316">다음과 같은 여러 방법을 사용하여 작업을 예약할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-316">You can schedule tasks using several methods:</span></span>
+3. <span data-ttu-id="e04da-349"> [해시에서 2단계와 3단계를 자동화하고 중요한 데이터](#part-2-hash-and-upload-the-sensitive-data) 절차를 업로드하려면 [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page) 를 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-349">Use [Task Scheduler](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page) to automate steps 2 and 3 in the [Hash and upload the sensitive data](#part-2-hash-and-upload-the-sensitive-data) procedure.</span></span> <span data-ttu-id="e04da-350">다음과 같은 여러 방법을 사용하여 작업을 예약할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-350">You can schedule tasks using several methods:</span></span>
 
-      | <span data-ttu-id="c44fe-317">메서드</span><span class="sxs-lookup"><span data-stu-id="c44fe-317">Method</span></span>             | <span data-ttu-id="c44fe-318">수행할 작업</span><span class="sxs-lookup"><span data-stu-id="c44fe-318">What to do</span></span> |
+      | <span data-ttu-id="e04da-351">메서드</span><span class="sxs-lookup"><span data-stu-id="e04da-351">Method</span></span>             | <span data-ttu-id="e04da-352">수행할 작업</span><span class="sxs-lookup"><span data-stu-id="e04da-352">What to do</span></span> |
       | ---------------------- | ---------------- |
-      | <span data-ttu-id="c44fe-319">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="c44fe-319">Windows PowerShell</span></span>     | <span data-ttu-id="c44fe-320"> [ScheduledTasks](https://docs.microsoft.com/powershell/module/scheduledtasks/?view=win10-ps) 문서와 이 문서에 있는 [예제 PowerShell 스크립트](#example-powershell-script-for-task-scheduler)를  참고하세요.</span><span class="sxs-lookup"><span data-stu-id="c44fe-320">See the [ScheduledTasks](https://docs.microsoft.com/powershell/module/scheduledtasks/?view=win10-ps) documentation and the [example PowerShell script](#example-powershell-script-for-task-scheduler) in this article</span></span> |
-      | <span data-ttu-id="c44fe-321">작업 스케줄러 API</span><span class="sxs-lookup"><span data-stu-id="c44fe-321">Task Scheduler API</span></span>     | <span data-ttu-id="c44fe-322"> [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/using-the-task-scheduler) 문서를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="c44fe-322">See the [Task Scheduler](https://docs.microsoft.com/windows/desktop/TaskSchd/using-the-task-scheduler) documentation</span></span>                                                                                                                                                                                                                                                                                |
-      | <span data-ttu-id="c44fe-323">Windows 사용자 인터페이스</span><span class="sxs-lookup"><span data-stu-id="c44fe-323">Windows user interface</span></span> | <span data-ttu-id="c44fe-324">Windows에서 **시작**을 클릭하고 작업 스케줄러를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-324">In Windows, click **Start**, and type Task Scheduler.</span></span> <span data-ttu-id="c44fe-325">그런 다음 결과 목록에서 **작업 스케줄러**를 마우스 오른쪽 단추로 클릭하고 **관리자로 실행**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-325">Then, in the list of results, right-click **Task Scheduler**, and choose **Run as administrator**.</span></span>                                                                                                                                                                                                                                                                           |
+      | <span data-ttu-id="e04da-353">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="e04da-353">Windows PowerShell</span></span>     | <span data-ttu-id="e04da-354"> [ScheduledTasks](https://docs.microsoft.com/powershell/module/scheduledtasks/?view=win10-ps) 문서와 이 문서에 있는 [예제 PowerShell 스크립트](#example-powershell-script-for-task-scheduler)를  참고하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-354">See the [ScheduledTasks](https://docs.microsoft.com/powershell/module/scheduledtasks/?view=win10-ps) documentation and the [example PowerShell script](#example-powershell-script-for-task-scheduler) in this article</span></span> |
+      | <span data-ttu-id="e04da-355">작업 스케줄러 API</span><span class="sxs-lookup"><span data-stu-id="e04da-355">Task Scheduler API</span></span>     | <span data-ttu-id="e04da-356"> [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/using-the-task-scheduler) 문서를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="e04da-356">See the [Task Scheduler](https://docs.microsoft.com/windows/desktop/TaskSchd/using-the-task-scheduler) documentation</span></span>                                                                                                                                                                                                                                                                                |
+      | <span data-ttu-id="e04da-357">Windows 사용자 인터페이스</span><span class="sxs-lookup"><span data-stu-id="e04da-357">Windows user interface</span></span> | <span data-ttu-id="e04da-358">Windows에서 **시작**을 클릭하고 작업 스케줄러를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-358">In Windows, click **Start**, and type Task Scheduler.</span></span> <span data-ttu-id="e04da-359">그런 다음 결과 목록에서 **작업 스케줄러**를 마우스 오른쪽 단추로 클릭하고 **관리자로 실행**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-359">Then, in the list of results, right-click **Task Scheduler**, and choose **Run as administrator**.</span></span>                                                                                                                                                                                                                                                                           |
 
-#### <a name="example-powershell-script-for-task-scheduler"></a><span data-ttu-id="c44fe-326">작업 스케줄러의 예제 Windows PowerShell 스크립트</span><span class="sxs-lookup"><span data-stu-id="c44fe-326">Example PowerShell script for Task Scheduler</span></span>
+#### <a name="example-powershell-script-for-task-scheduler"></a><span data-ttu-id="e04da-360">작업 스케줄러의 예제 Windows PowerShell 스크립트</span><span class="sxs-lookup"><span data-stu-id="e04da-360">Example PowerShell script for Task Scheduler</span></span>
 
-<span data-ttu-id="c44fe-327">이 섹션에는 데이터를 해시하고 해시 데이터를 업로드하는 작업을 예약하는 데 사용할 수 있는 예제 PowerShell 스크립트가 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-327">This section includes an example PowerShell script you can use to schedule your tasks for hashing data and uploading the hashed data:</span></span>
+<span data-ttu-id="e04da-361">이 섹션에는 데이터를 해시하고 해시 데이터를 업로드하는 작업을 예약하는 데 사용할 수 있는 예제 PowerShell 스크립트가 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-361">This section includes an example PowerShell script you can use to schedule your tasks for hashing data and uploading the hashed data:</span></span>
 
-##### <a name="to-schedule-hashing-and-upload-in-a-combined-step"></a><span data-ttu-id="c44fe-328">해시를 예약하고 결합된 단계로 업로드하려면</span><span class="sxs-lookup"><span data-stu-id="c44fe-328">To schedule hashing and upload in a combined step</span></span>
+##### <a name="to-schedule-hashing-and-upload-in-a-combined-step"></a><span data-ttu-id="e04da-362">해시를 예약하고 결합된 단계로 업로드하려면</span><span class="sxs-lookup"><span data-stu-id="e04da-362">To schedule hashing and upload in a combined step</span></span>
 
 ```powershell
 param(\[string\]$dataStoreName,\[string\]$fileLocation)
@@ -449,7 +553,7 @@ $taskName = 'EDMUpload\_' + $dataStoreName
 Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $user -Password $password
 ```
 
-#### <a name="to-schedule-hashing-and-upload-as-separate-steps"></a><span data-ttu-id="c44fe-329">해시를 예약하고 별도의 단계로 업로드하려면</span><span class="sxs-lookup"><span data-stu-id="c44fe-329">To schedule hashing and upload as separate steps</span></span>
+#### <a name="to-schedule-hashing-and-upload-as-separate-steps"></a><span data-ttu-id="e04da-363">해시를 예약하고 별도의 단계로 업로드하려면</span><span class="sxs-lookup"><span data-stu-id="e04da-363">To schedule hashing and upload as separate steps</span></span>
 
 ```powershell
 param(\[string\]$dataStoreName,\[string\]$fileLocation)
@@ -485,63 +589,63 @@ $taskName = 'EDMUpload\_' + $dataStoreName
 Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $user -Password $password
 ```
 
-### <a name="part-3-use-edm-based-classification-with-your-microsoft-cloud-services"></a><span data-ttu-id="c44fe-330">3단계: Microsoft 클라우드 서비스로 EDM 기반 분류 사용</span><span class="sxs-lookup"><span data-stu-id="c44fe-330">Part 3: Use EDM-based classification with your Microsoft cloud services</span></span>
+### <a name="part-3-use-edm-based-classification-with-your-microsoft-cloud-services"></a><span data-ttu-id="e04da-364">3단계: Microsoft 클라우드 서비스로 EDM 기반 분류 사용</span><span class="sxs-lookup"><span data-stu-id="e04da-364">Part 3: Use EDM-based classification with your Microsoft cloud services</span></span>
 
-<span data-ttu-id="c44fe-331">이러한 위치는 지원 EDM 중요 정보 유형입니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-331">These locations are support EDM sensitive information types:</span></span>
+<span data-ttu-id="e04da-365">이러한 위치는 지원 EDM 중요 정보 유형입니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-365">These locations are support EDM sensitive information types:</span></span>
 
-- <span data-ttu-id="c44fe-332">Exchange Online용 DLP(전자 메일)</span><span class="sxs-lookup"><span data-stu-id="c44fe-332">DLP for Exchange Online (email)</span></span>
-- <span data-ttu-id="c44fe-333">비즈니스용 OneDrive(파일)</span><span class="sxs-lookup"><span data-stu-id="c44fe-333">OneDrive for Business (files)</span></span>
-- <span data-ttu-id="c44fe-334">Microsoft Teams(대화)</span><span class="sxs-lookup"><span data-stu-id="c44fe-334">Microsoft Teams (conversations)</span></span>
-- <span data-ttu-id="c44fe-335">SharePoint용 DLP(파일)</span><span class="sxs-lookup"><span data-stu-id="c44fe-335">DLP for SharePoint (files)</span></span>
-- <span data-ttu-id="c44fe-336">Microsoft Cloud App Security DLP 정책</span><span class="sxs-lookup"><span data-stu-id="c44fe-336">Microsoft Cloud App Security DLP policies</span></span>
+- <span data-ttu-id="e04da-366">Exchange Online용 DLP(전자 메일)</span><span class="sxs-lookup"><span data-stu-id="e04da-366">DLP for Exchange Online (email)</span></span>
+- <span data-ttu-id="e04da-367">비즈니스용 OneDrive(파일)</span><span class="sxs-lookup"><span data-stu-id="e04da-367">OneDrive for Business (files)</span></span>
+- <span data-ttu-id="e04da-368">Microsoft Teams(대화)</span><span class="sxs-lookup"><span data-stu-id="e04da-368">Microsoft Teams (conversations)</span></span>
+- <span data-ttu-id="e04da-369">SharePoint용 DLP(파일)</span><span class="sxs-lookup"><span data-stu-id="e04da-369">DLP for SharePoint (files)</span></span>
+- <span data-ttu-id="e04da-370">Microsoft Cloud App Security DLP 정책</span><span class="sxs-lookup"><span data-stu-id="e04da-370">Microsoft Cloud App Security DLP policies</span></span>
 
-<span data-ttu-id="c44fe-337">다음 시나리오에 대한 EDM 중요 정보 유형은 현재 개발 중이지만, 아직 사용할 수는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-337">EDM sensitive information types for following scenarios are currently in development, but not yet available:</span></span>
+<span data-ttu-id="e04da-371">다음 시나리오에 대한 EDM 중요 정보 유형은 현재 개발 중이지만, 아직 사용할 수는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-371">EDM sensitive information types for following scenarios are currently in development, but not yet available:</span></span>
 
-- <span data-ttu-id="c44fe-338">민감도 레이블과 보존 레이블의 자동 분류</span><span class="sxs-lookup"><span data-stu-id="c44fe-338">Auto-classification of sensitivity labels and retention labels</span></span>
+- <span data-ttu-id="e04da-372">민감도 레이블과 보존 레이블의 자동 분류</span><span class="sxs-lookup"><span data-stu-id="e04da-372">Auto-classification of sensitivity labels and retention labels</span></span>
 
-#### <a name="to-create-a-dlp-policy-with-edm"></a><span data-ttu-id="c44fe-339">EDM으로 DLP 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="c44fe-339">To create a DLP policy with EDM</span></span>
+#### <a name="to-create-a-dlp-policy-with-edm"></a><span data-ttu-id="e04da-373">EDM으로 DLP 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="e04da-373">To create a DLP policy with EDM</span></span>
 
-1. <span data-ttu-id="c44fe-340">[구독에 적합한 링크](#portal-links-for-your-subscription)를 사용하여 보안 및 규정 준수 센터로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-340">Go to the Security & Compliance Center using the appropriate [link for your subscription](#portal-links-for-your-subscription).</span></span>
+1. <span data-ttu-id="e04da-374">[구독에 적합한 링크](#portal-links-for-your-subscription)를 사용하여 보안 및 규정 준수 센터로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-374">Go to the Security & Compliance Center using the appropriate [link for your subscription](#portal-links-for-your-subscription).</span></span>
 
-2. <span data-ttu-id="c44fe-341"> **데이터 손실 방지** \> **정책**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-341">Choose **Data loss prevention** \> **Policy**.</span></span>
+2. <span data-ttu-id="e04da-375"> **데이터 손실 방지** \> **정책**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-375">Choose **Data loss prevention** \> **Policy**.</span></span>
 
-3. <span data-ttu-id="c44fe-342"> **정책 만들기** \> **사용자 지정** \> **다음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-342">Choose **Create a policy** \> **Custom** \> **Next**.</span></span>
+3. <span data-ttu-id="e04da-376"> **정책 만들기** \> **사용자 지정** \> **다음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-376">Choose **Create a policy** \> **Custom** \> **Next**.</span></span>
 
-4. <span data-ttu-id="c44fe-343"> **정책 이름 지정** 탭에 이름과 설명을 지정하고 **다음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-343">On the **Name your policy** tab, specify a name and description, and then choose **Next**.</span></span>
+4. <span data-ttu-id="e04da-377"> **정책 이름 지정** 탭에 이름과 설명을 지정하고 **다음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-377">On the **Name your policy** tab, specify a name and description, and then choose **Next**.</span></span>
 
-5. <span data-ttu-id="c44fe-344"> **위치 선택** 탭에서 **특정 위치 선택 허용**을 선택하고 **다음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-344">On the **Choose locations** tab, select **Let me choose specific locations**, and then choose **Next**.</span></span>
+5. <span data-ttu-id="e04da-378"> **위치 선택** 탭에서 **특정 위치 선택 허용**을 선택하고 **다음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-378">On the **Choose locations** tab, select **Let me choose specific locations**, and then choose **Next**.</span></span>
 
-6. <span data-ttu-id="c44fe-345"> **상태** 열에서 **Exchange 전자 메일, OneDrive 계정, Teams 채팅 및 채널 메시지** 를 선택하고  **다음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-345">In the **Status** column, select **Exchange email, OneDrive accounts, Teams chat and channel message** , and then choose **Next**.</span></span>
+6. <span data-ttu-id="e04da-379"> **상태** 열에서 **Exchange 전자 메일, OneDrive 계정, Teams 채팅 및 채널 메시지** 를 선택하고  **다음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-379">In the **Status** column, select **Exchange email, OneDrive accounts, Teams chat and channel message** , and then choose **Next**.</span></span>
 
-7. <span data-ttu-id="c44fe-346"> **정책 설정** 탭에서 **고급 설정 사용**을 선택하고 **다음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-346">On the **Policy settings** tab, choose **Use advanced settings**, and then choose **Next**.</span></span>
+7. <span data-ttu-id="e04da-380"> **정책 설정** 탭에서 **고급 설정 사용**을 선택하고 **다음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-380">On the **Policy settings** tab, choose **Use advanced settings**, and then choose **Next**.</span></span>
 
-8. <span data-ttu-id="c44fe-347"> **+ 새 규칙**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-347">Choose **+ New rule**.</span></span>
+8. <span data-ttu-id="e04da-381"> **+ 새 규칙**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-381">Choose **+ New rule**.</span></span>
 
-9. <span data-ttu-id="c44fe-348"> **이름** 섹션에서 규칙의 이름과 설명을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-348">In the **Name** section, specify a name and description for the rule.</span></span>
+9. <span data-ttu-id="e04da-382"> **이름** 섹션에서 규칙의 이름과 설명을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-382">In the **Name** section, specify a name and description for the rule.</span></span>
 
-10. <span data-ttu-id="c44fe-349"> **조건** 섹션의 **+ 조건 추가** 목록에서 **콘텐츠에 중요한 유형 포함**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-349">In the **Conditions** section, in the **+ Add a condition** list, choose **Content contains sensitive type**.</span></span>
+10. <span data-ttu-id="e04da-383"> **조건** 섹션의 **+ 조건 추가** 목록에서 **콘텐츠에 중요한 유형 포함**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-383">In the **Conditions** section, in the **+ Add a condition** list, choose **Content contains sensitive type**.</span></span>
 
       ![콘텐츠에 중요한 정보 유형이 포함됨](../media/edm-dlp-newrule-conditions.png)
 
-11. <span data-ttu-id="c44fe-351">규칙 패키지를 설치할 때 만든 중요한 정보 유형을 검색한 다음  **+ 추가**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-351">Search for the sensitive information type you created when you set up your rule package, and then choose **+ Add**.</span></span>  
-    <span data-ttu-id="c44fe-352">그런 다음 **완료**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-352">Then choose **Done**.</span></span>
+11. <span data-ttu-id="e04da-385">규칙 패키지를 설치할 때 만든 중요한 정보 유형을 검색한 다음  **+ 추가**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-385">Search for the sensitive information type you created when you set up your rule package, and then choose **+ Add**.</span></span>  
+    <span data-ttu-id="e04da-386">그런 다음 **완료**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-386">Then choose **Done**.</span></span>
 
-12. <span data-ttu-id="c44fe-353"> **사용자 알림**, **사용자 재정의**, **인시던트 보고서** 등의 규칙에 관한 옵션 선택을 완료한 다음 **저장**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-353">Finish selecting options for your rule, such as **User notifications**, **User overrides**, **Incident reports**, and so on, and then choose **Save**.</span></span>
+12. <span data-ttu-id="e04da-387"> **사용자 알림**, **사용자 재정의**, **인시던트 보고서** 등의 규칙에 관한 옵션 선택을 완료한 다음 **저장**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-387">Finish selecting options for your rule, such as **User notifications**, **User overrides**, **Incident reports**, and so on, and then choose **Save**.</span></span>
 
-13. <span data-ttu-id="c44fe-354"> **정책 설정** 탭에서 규칙을 검토하고 **다음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-354">On the **Policy settings** tab, review your rules, and then choose **Next**.</span></span>
+13. <span data-ttu-id="e04da-388"> **정책 설정** 탭에서 규칙을 검토하고 **다음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-388">On the **Policy settings** tab, review your rules, and then choose **Next**.</span></span>
 
-14. <span data-ttu-id="c44fe-355">정책을 바로 설정할지, 테스트할지, 아니면 설정 해제한 상태로 유지할지 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-355">Specify whether to turn on the policy right away, test it out, or keep it turned off.</span></span> <span data-ttu-id="c44fe-356">그런 후 **다음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-356">Then choose **Next**.</span></span>
+14. <span data-ttu-id="e04da-389">정책을 바로 설정할지, 테스트할지, 아니면 설정 해제한 상태로 유지할지 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-389">Specify whether to turn on the policy right away, test it out, or keep it turned off.</span></span> <span data-ttu-id="e04da-390">그런 후 **다음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-390">Then choose **Next**.</span></span>
 
-15. <span data-ttu-id="c44fe-357"> **설정 검토** 탭에서 정책을 검토합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-357">On the **Review your settings** tab, review your policy.</span></span> <span data-ttu-id="c44fe-358">필요한 대로 변경합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-358">Make any needed changes.</span></span> <span data-ttu-id="c44fe-359">준비가 되면 **만들기**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-359">When you're ready, choose **Create**.</span></span>
+15. <span data-ttu-id="e04da-391"> **설정 검토** 탭에서 정책을 검토합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-391">On the **Review your settings** tab, review your policy.</span></span> <span data-ttu-id="e04da-392">필요한 대로 변경합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-392">Make any needed changes.</span></span> <span data-ttu-id="e04da-393">준비가 되면 **만들기**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-393">When you're ready, choose **Create**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c44fe-360">새로운 DLP 정책이 데이터 센터에 적용되는 데 1시간 정도 걸립니다.</span><span class="sxs-lookup"><span data-stu-id="c44fe-360">Allow approximately one hour for your new DLP policy to work its way through your data center.</span></span>
+> <span data-ttu-id="e04da-394">새로운 DLP 정책이 데이터 센터에 적용되는 데 1시간 정도 걸립니다.</span><span class="sxs-lookup"><span data-stu-id="e04da-394">Allow approximately one hour for your new DLP policy to work its way through your data center.</span></span>
 
-## <a name="related-articles"></a><span data-ttu-id="c44fe-361">관련 문서</span><span class="sxs-lookup"><span data-stu-id="c44fe-361">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="e04da-395">관련 문서</span><span class="sxs-lookup"><span data-stu-id="e04da-395">Related articles</span></span>
 
-- [<span data-ttu-id="c44fe-362">중요한 정보 유형 엔터티 정의</span><span class="sxs-lookup"><span data-stu-id="c44fe-362">Sensitive information type-entity definitions</span></span>](sensitive-information-type-entity-definitions.md)
-- [<span data-ttu-id="c44fe-363">사용자 지정 중요한 정보 유형</span><span class="sxs-lookup"><span data-stu-id="c44fe-363">Custom sensitive information types</span></span>](custom-sensitive-info-types.md)
-- [<span data-ttu-id="c44fe-364">DLP 정책 개요</span><span class="sxs-lookup"><span data-stu-id="c44fe-364">Overview of DLP policies</span></span>](data-loss-prevention-policies.md)
-- [<span data-ttu-id="c44fe-365">Microsoft Cloud App Security</span><span class="sxs-lookup"><span data-stu-id="c44fe-365">Microsoft Cloud App Security</span></span>](https://docs.microsoft.com/cloud-app-security)
-- [<span data-ttu-id="c44fe-366">New-DlpEdmSchema</span><span class="sxs-lookup"><span data-stu-id="c44fe-366">New-DlpEdmSchema</span></span>](https://docs.microsoft.com/powershell/module/exchange/new-dlpedmschema?view=exchange-ps)
+- [<span data-ttu-id="e04da-396">중요한 정보 유형 엔터티 정의</span><span class="sxs-lookup"><span data-stu-id="e04da-396">Sensitive information type-entity definitions</span></span>](sensitive-information-type-entity-definitions.md)
+- [<span data-ttu-id="e04da-397">사용자 지정 중요한 정보 유형</span><span class="sxs-lookup"><span data-stu-id="e04da-397">Custom sensitive information types</span></span>](custom-sensitive-info-types.md)
+- [<span data-ttu-id="e04da-398">DLP 정책 개요</span><span class="sxs-lookup"><span data-stu-id="e04da-398">Overview of DLP policies</span></span>](data-loss-prevention-policies.md)
+- [<span data-ttu-id="e04da-399">Microsoft Cloud App Security</span><span class="sxs-lookup"><span data-stu-id="e04da-399">Microsoft Cloud App Security</span></span>](https://docs.microsoft.com/cloud-app-security)
+- [<span data-ttu-id="e04da-400">New-DlpEdmSchema</span><span class="sxs-lookup"><span data-stu-id="e04da-400">New-DlpEdmSchema</span></span>](https://docs.microsoft.com/powershell/module/exchange/new-dlpedmschema?view=exchange-ps)
 
