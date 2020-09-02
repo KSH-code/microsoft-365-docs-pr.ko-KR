@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: 보안 및 준수 센터에서 Explorer 및 실시간 검색을 사용 하 여 위협에 효과적이 고 효율적으로 대응 하는 방법에 대해 알아봅니다 &amp; .
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 635f7f32d16f18f49aa1920d82efd77bf27dc328
-ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
+ms.openlocfilehash: 4220c850e5ef7f830f7fc6ec57bb220cca29eaf4
+ms.sourcegitcommit: 4ac96855d7c269a0055ca8943000b762a70ca4ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46641644"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47322034"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
@@ -78,8 +78,39 @@ Explorer (또는 실시간 검색)를 사용 하는 경우 보안 운영 팀이 
 
 ![제품 내 정보 보기](../../media/ProductInfo.png)
 
+## <a name="extended-capabilities-in-threat-explorer"></a>위협 탐색기의 확장 기능
 
-## <a name="new-features-in-real-time-detections"></a>실시간 검색의 새로운 기능
+### <a name="top-targeted-users"></a>상위 대상 사용자
+
+현재는 전자 메일에 대 한 맬웨어 보기에서 가장 많이 대상으로 지정 된 사용자의 목록을 최상위 맬웨어 제품군 내에서 노출 합니다. 여기서는 피싱 및 모든 전자 메일 보기에서이 보기를 확장 하 고 해당 하는 보기에 대 한 각 사용자의 시도 횟수 (예: 피싱 보기에서 피싱 시도 횟수를 볼 수 있음)와 함께 상위 5 개 사용자를 볼 수 있습니다.
+또한 각 전자 메일 보기에 대 한 오프 라인 분석 시도 횟수와 함께 대상 사용자 목록을 최대 3000까지 내보낼 수 있습니다. 이 외에도 아니요를 선택 합니다. (예: 아래의 13 번 시도)은 위협 탐색기에서 필터링 된 보기를 열고 해당 사용자의 전자 메일 및 위협에 대 한 세부 정보를 확인할 수 있습니다. 
+
+![상위 대상 사용자](../../media/Top_Targeted_Users.png)
+
+
+### <a name="exchange-transport-rules"></a>Exchange 전송 규칙
+또한 데이터 향상의 일부로, 메시지에 적용 된 다른 전송 규칙도 모두 볼 수 있습니다. 이 정보는 전자 메일 표 보기 내에 표시 되며,이를 확인 하려면 표에서 열 옵션을 선택 하 고 표에 있는 열 옵션에서 Exchange 전송 규칙 추가와 전자 메일의 세부 정보 플라이 아웃을 함께 클릭 합니다.
+메시지에 적용 된 전송 규칙의 이름 뿐 아니라 GUID도 볼 수 있습니다. 또한 전송 규칙의 이름을 사용 하 여 메시지를 검색할 수 있습니다. 이는 ' 포함 ' 검색으로, 부분 검색을 사용 하 여 검색할 수 있다는 것을 의미 합니다. 
+
+#### <a name="important-note"></a>중요 참고 사항: 
+ETR 검색 및 이름 사용 가능 여부는 자신에 게 할당 된 특정 역할에 따라 달라 집니다. ETR 이름과 검색을 보려면 다음 역할/사용 권한 중 하나가 있어야 합니다.  사용자에 게 할당 된 다음 역할이 없는 경우 전송 규칙의 이름을 확인 하 고 ETR 이름을 사용 하 여 메시지를 검색할 수 없게 됩니다. 그러나 전자 메일 세부 정보 내에서 ETR 레이블과 GUID 정보를 볼 수 있습니다. 전자 메일 표에서 레코드를 보는 경우의 다른 경험에는 영향을 주지 않습니다 (전자 메일 flyouts, 필터 및 내보내기). 
+ 
+- EXO Only-데이터 손실 방지: 모두
+- EXO Only-O365SupportViewConfig: All
+- AAD 또는 EXO-보안 관리자: 모두
+- AAD 또는 EXO-보안 읽기 권한자: 모두
+- EXO Only-전송 규칙: 모두
+- EXO Only-보기 전용 구성: 모두
+
+전자 메일 표, 세부 정보 플라이 아웃 및 내보낸 CSV에는 아래와 같이 이름/GUID와 함께 ETRs가 표시 됩니다. 
+
+![Exchange 전송 규칙](../../media/ETR_Details.png)
+
+### <a name="inbound-connectors"></a>인바운드 커넥터 
+
+커넥터는 Microsoft 365 또는 Office 365 조 직에서 전자 메일이 들어오고 나가는 방식을 사용자 지정 하는 지침 모음으로, 보안 제한이 나 제어를 적용할 수 있습니다. 이제는 위협 탐색기 내에서 전자 메일과 관련 된 커넥터를 확인 하 고 커넥터 이름을 사용 하 여 전자 메일을 검색할 수 있습니다. 커넥터 검색은 부분적인 키워드 검색도 작동 하도록 ' 포함 ' 되어 있습니다. 기본 눈금 보기, 세부 정보 플라이 아웃 및 내보낸 CSV에서 커넥터는 아래와 같이 이름/GUID 형식으로 표시 됩니다. 
+
+![커넥터 세부 정보](../../media/Connector_Details.png)
 
 ## <a name="new-features-in-threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색의 새로운 기능
 
@@ -294,4 +325,3 @@ Explorer 또는 실시간 검색을 하려면 [Office 365 ATP](office-365-atp.md
 - **위협 탐색기**에는 추가 필터링 기능 및 사용 가능한 작업이 포함 되어 있습니다.
 
 자세한 내용은 [Office 365 Atp 서비스 설명: atp (Advanced Threat Protection) 계획에서의 기능 사용 가능 여부](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)를 참조 하세요.
-

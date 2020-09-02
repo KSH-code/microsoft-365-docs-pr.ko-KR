@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Microsoft 365 관리 센터에서 새 제품 및 기능 업데이트에 대 한 릴리스 옵션을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 648be8ca5d3c7aae93ed868972bc59b32ba87987
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 110cefa646f7c42c6979a97ca617b015a100866e
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560718"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324539"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>표준 또는 대상 지정 된 릴리스 옵션 설정
 
@@ -39,13 +39,10 @@ ms.locfileid: "46560718"
 ::: moniker-end
 
 > [!IMPORTANT]
-> 이 문서에서 설명 하는 Microsoft 365 업데이트는 Microsoft 365, SharePoint Online 및 Exchange Online에 적용 됩니다. 이러한 릴리스 옵션은 Microsoft 365에 대 한 변경 사항을 릴리스할 수 있는 최상의 방법 이지만 항상 또는 모든 업데이트에 대해 보장할 수 없습니다. 비즈니스용 Skype, Microsoft 팀 및 관련 서비스에는 적용 되지 않습니다.
+> 이 문서에서 설명 하는 Microsoft 365 업데이트는 Microsoft 365, SharePoint Online 및 Exchange Online에 적용 됩니다. 이러한 릴리스 옵션은 Microsoft 365에 대 한 변경 사항을 릴리스할 수 있는 최상의 방법 이지만 항상 또는 모든 업데이트에 대해 보장할 수 없습니다. Microsoft 365 앱, 비즈니스용 Skype, Microsoft 팀 및 관련 서비스에는 적용 되지 않습니다. Microsoft 365 앱의 릴리스 옵션에 대 한 자세한 내용은 [microsoft 365 앱에 대 한 업데이트 채널 개요](https://docs.microsoft.com/deployoffice/overview-update-channels)를 참조 하세요.
 
 Microsoft 365에서는 몇 년 마다 비용이 많이 드는 업데이트를 수행 하는 대신 새로운 제품 업데이트 및 기능을 사용할 수 있을 때 수신 합니다. 관리자는 조직에서 이러한 업데이트를 받는 방법을 관리할 수 있습니다. 예를 들어, 조직에서 먼저 업데이트를 받도록 초기 릴리스에 등록할 수 있습니다. 특정 개인만 업데이트를 받도록 지정할 수 있습니다. 또는 기본 릴리스 일정을 유지하고 나중에 업데이트를 받을 수도 있습니다. 이 문서에서는 다양 한 릴리스 옵션과 조직에서 이러한 옵션을 사용 하는 방법에 대해 설명 합니다.
 
-> [!NOTE]
-> 응용 프로그램의 업데이트 채널에 대 한 자세한 내용은 [Overview for update 채널 For Microsoft 365 Apps](https://docs.microsoft.com/deployoffice/overview-update-channels)를 참조 하세요. 
-  
 ## <a name="how-it-works---release-validation"></a>방법 - 릴리스 유효성 검사
 
 모든 새 릴리스는 먼저 기능 팀에서 테스트 하 고 유효성을 검사 한 다음 전체 Microsoft 365 기능 팀, 모든 Microsoft에 의해 수행 됩니다. 내부 테스트 및 유효성 검사 후 다음 단계는 선택한 고객에게 **대상 지정된 릴리스**(이전의 첫 번째 릴리스)입니다. 각 릴리스 링에서 Microsoft는 주요 사용 메트릭을 모니터링하여 피드백을 수집하고 품질을 더 확인합니다. 이러한 일련의 점진적인 유효성 검사는 전 세계 릴리스가 가능한 한 견고하도록 하기 위한 것입니다. 릴리스는 다음 그림과 같습니다. 

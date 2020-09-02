@@ -1,6 +1,6 @@
 ---
 title: Microsoft Managed Desktop 장치
-description: 이 항목에는 Microsoft Managed Desktop에서 사용 되는 장치 사양이 나와 있습니다.
+description: 이 항목에는 Microsoft Managed Desktop에 대해 승인 된 장치 사양이 나와 있습니다.
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
@@ -8,16 +8,16 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 44db48dc520b0e7a19aae56268cbe03314889979
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: e7d0b88542f9329d10d241e68864333ed1ec1730
+ms.sourcegitcommit: 4ac96855d7c269a0055ca8943000b762a70ca4ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529424"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47321976"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치 
 
-Microsoft Managed Desktop은 서비스에 포함할 장치를 정기적으로 평가 합니다. 이 항목에서는 Microsoft Managed Desktop에 등록할 장치에 대 한 요구 사항을 개략적으로 설명 하 고 현재 지원 되는 특정 장치를 나열 합니다.
+Microsoft Managed Desktop은 서비스에 포함할 장치를 정기적으로 평가 합니다. 이 문서에서는 Microsoft Managed Desktop에 등록할 장치에 대 한 요구 사항을 개략적으로 설명 하 고 현재 지원 되는 특정 장치를 나열 합니다.
 
 Microsoft Managed Desktop에 대 한 자세한 내용은 [Microsoft Managed desktop 설명서 및 resources](https://docs.microsoft.com/microsoft-365/managed-desktop/)를 참조 하십시오. 
 
@@ -31,8 +31,9 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 >언제 든 지이 테이블에 장치를 추가할 수 있지만 보관 또는 만료 날짜에 영향을 주는 변경 내용은 90 days를 제공 합니다. 가장 최근에 추가 된 장치는로 표시 됩니다 **\*** .
 
 
-**Microsoft Managed Desktop 장치**
+## <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치
 
+### <a name="dell"></a>Dell
 
 | 모델    | 최소 사양  | 추가 요구 사항    | 보관 날짜   | 퇴직 날짜   |
 |----------|----------------|---------------------------|----------------|--------------------|
@@ -50,6 +51,11 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 | **\*[Dell Latitude 7410 2-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-7410-business-laptop-or-2-in-1/spd/latitude-14-7410-2-in-1-laptop)** | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | 5 월 19 일, 2022 | 5 월 19 일, 2025
 | **\*[Dell Latitude 9410 2-1](https://www.dell.com/en-us/work/shop/laptops/new-14-9410-2-in-1/spd/latitude-14-9410-2-in-1-laptop)** | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | 5 월 19 일, 2022  | 5 월 19 일, 2025  |
 | [Dell Optiplex 3070](https://www.dell.com/en-us/work/shop/desktops-n-workstations/3070/spd/optiplex-3070-desktop) | 128 GB/Intel i3/8gb RAM | 없음 | 5 월 1 일, 2022  | 5 월 1 일, 2025  |
+
+### <a name="hp"></a>지
+
+| 모델    | 최소 사양  | 추가 요구 사항    | 보관 날짜   | 퇴직 날짜   |
+|----------|----------------|---------------------------|----------------|--------------------|
 | [HP EliteBook 830/840/850 G6 노트북 PC](https://store.hp.com/us/en/mdp/laptops/elitebook-840#!&tab=features) | 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
 | [HP EliteBook x360 830 G6 노트북 PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g6-notebook-pc) | 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
 | [HP 정예 x2 G4 태블릿](https://store.hp.com/us/en/mdp/laptops/hp-elite-x2-3074457345617405170--1) | 256 GB/Intel i5/8gb RAM | 5VS03AV가 포함 된 SKU | 2021 년 7 월 31 일 | 2024 년 7 월 31 일 |
@@ -58,6 +64,11 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 | [HP 정예 DragonFly](https://www8.hp.com/us/en/laptops/2-in-1s/elite-dragonfly-convertible.html) | 256 GB/Intel i5/8gb RAM | 9MZ21AV가 포함 된 SKU | 2020 년 12 월 31 일 | 2023 년 12 월 31 일 |
 | [HP Z2 미니 G4 워크스테이션](https://store.hp.com/us/en/mdp/hp-z2-mini-workstation-451004--1) | 256 GB/Intel i5/8gb RAM | 8QR48AV가 포함 된 SKU| 1 월 31 일 2021 | 1 월 31 일 2024 |
 | [HP ZBook 14u/15u G6 모바일 워크스테이션](https://store.hp.com/us/en/mdp/hp-zbook-14u-mobile-workstation) | 256 GB/Intel i5/8gb RAM | 5VS02AV를 사용한 SKU, IR 카메라 필요 | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
+
+### <a name="microsoft"></a>Microsoft
+
+| 모델    | 최소 사양  | 추가 요구 사항    | 보관 날짜   | 퇴직 날짜   |
+|----------|----------------|---------------------------|----------------|--------------------|
 | **\*[Surface Book 3](https://www.microsoft.com/p/surface-book-3-for-business/93h0mb2gqd5b?activetab=pivot%3aoverviewtab)** | 256 GB/Intel i5/8GB RAM | 없음 | 5 월 21 일, 2022 | 5 월 21 일, 2027 |
 | **\*[표면 이동 2](https://www.microsoft.com/p/surface-go-2-for-business/8wzd6dhzj7kv?activetab=pivot%3aoverviewtab)** | 128 GB/인텔 코어 M3/8GB RAM | 없음 | 5 월 21 일, 2022 | 5 월 21 일, 2027 |
 | [Surface 랩탑 2](https://www.microsoft.com/p/surface-laptop-2-for-business/8xlk0g60tlb6/hkq9?cid=msft_web_collection&CustomerIntent=Consumer) | 128 GB/Intel i5/8gb RAM | 없음 | 2020 년 10 월 16 일 | 2023 년 10 월 16 일 |

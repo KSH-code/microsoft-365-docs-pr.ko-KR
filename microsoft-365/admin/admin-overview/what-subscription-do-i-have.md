@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,18 +18,15 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
 ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
-description: 구독 페이지로 이동 하 여 조직에 있는 구독을 확인 하는 방법을 알아봅니다.
-ms.openlocfilehash: fff76f1a9ac127d061460767a41941f4daf2ea32
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+description: 제품 페이지로 이동 하 여 조직에 있는 구독을 확인 하는 방법을 알아봅니다.
+ms.openlocfilehash: bd7b7726c93ee6c5022df7ca72342d8d3b7a1c09
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780508"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324551"
 ---
 # <a name="what-subscription-do-i-have"></a>내가 구독한 것은 무엇인가요?
 
@@ -40,8 +37,9 @@ ms.locfileid: "44780508"
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
-
-2. 구독은 구독 이름, 구독에 대 한 정보 및 상태와 함께 **제품** 페이지에 표시 됩니다. 압축 된 보기를 보려면 **표 보기**를 선택 합니다.
+2. **제품** 탭에는 모든 구독이 표시 됩니다. 각 구독 줄에는 라이선스, 구독 상태 및 대금 청구에 대 한 정보가 포함 됩니다.
+3. 목록에 표시 되는 열을 변경 하려면 **열 선택을**선택 합니다. 열 선택을 변경한 다음 **저장**을 선택 합니다.
+4. 단일 구독에 대 한 자세한 내용을 보려면 해당 구독을 선택 합니다.
 
 ::: moniker-end
   

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,18 +16,15 @@ ms.collection:
 - commerce
 ms.custom: AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
 ms.assetid: 75533195-f1f6-4c2c-8ceb-0b5597790d7b
 description: 다른 30 일 동안 평가판 구독을 확장 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 50f0548ddcd2eeef36a853cfb08b279cee8095a9
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: c1c4134f944b07b177a92e03fc3e5ba2d9b362ef
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402157"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324319"
 ---
 # <a name="extend-your-trial"></a>평가판 연장
 
@@ -43,19 +40,16 @@ ms.locfileid: "44402157"
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
-
-2. **제품** 페이지에서 확장 하려는 평가판 구독을 찾습니다. **& 작업 설정** 섹션에서 **평가판 확장**을 선택 합니다.
-
-3. 내선 번호 정보를 검토 하 고 필요한 경우 결제 방법을 변경 합니다. 완료 되 면 **평가판 확장**을 선택 합니다.
+2. **제품** 탭에서 연장할 평가판 구독을 선택 합니다. 
+3. 구독 정보 페이지의 **구독 및 지불 설정** 섹션에서 **종료 날짜 확장**을 선택 합니다.
+4. **종료 날짜 확장** 창에서 확장 정보를 검토 하 고 필요한 경우 결제 방법을 선택 합니다. 완료 되 면 **평가판 확장**을 선택 합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
-
 2. **구독** 페이지에서 연장할 평가판 구독을 선택 하 고 만료 날짜 아래에서 **시험 확장**을 선택 합니다.
-
 3. 마법사의 단계를 완료합니다.
 
 ::: moniker-end
@@ -63,9 +57,7 @@ ms.locfileid: "44402157"
 ::: moniker range="o365-21vianet"
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
-
 2. **구독** 페이지에서 연장할 평가판 구독을 선택 하 고 만료 날짜 아래에서 **시험 확장**을 선택 합니다.
-
 3. 마법사의 단계를 완료합니다.
 
 ::: moniker-end

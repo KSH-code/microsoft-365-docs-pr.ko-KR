@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,18 +16,15 @@ ms.collection:
 - commerce
 ms.custom: AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
-ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Microsoft 365에서 비즈니스 평가판 또는 유료 구독을 취소 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 746060596010fd80816e19dece093d91fe850c30
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.date: ''
+ms.openlocfilehash: 9669551101243f1abe760bf336d3472b50182555
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049751"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324282"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
 
@@ -45,19 +42,22 @@ ms.locfileid: "45049751"
 > [!NOTE]
 > Microsoft 365 Business Premium과 같은 제품에 대해 여러 구독이 있는 경우 이러한 구독 중 하나를 취소 해도 구매한 라이선스 또는 다른 구독 내의 서비스에는 영향을 주지 않습니다.
 
+## <a name="before-you-begin"></a>시작하기 전에
+
+이 문서의 작업을 수행 하려면 전역 또는 대금 청구 관리자 여야 합니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+
 ## <a name="steps-to-cancel-your-subscription"></a>구독을 취소 하는 단계
 
 구독에 사용할 자체 도메인 이름을 추가한 경우 구독을 취소 하기 전에 도메인을 제거 해야 합니다. 자세한 내용은 [도메인 제거](../../admin/get-help-with-domains/remove-a-domain.md)를 참조 하세요.
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 제품 **대금 청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> 페이지로 이동한 다음 **제품** 탭을 선택 합니다.
+2. 취소할 구독을 찾습니다. **기타 작업** (점 3 개)을 선택한 다음 **구독 취소**를 선택 합니다.
+3. **구독 취소** 창에서 취소 이유를 선택 합니다. 원하는 경우 피드백을 제공 합니다.
+4. **저장**을 선택합니다.
 
-2. 취소할 구독을 찾고 **설정 & 작업**아래에서 **구독 취소**를 선택 합니다.
-
-3. 중요 날짜를 검토 하 고 취소 하는 이유에 대 한 의견을 제공한 다음 **구독 취소**를 선택 합니다.
-
-    이제 구독이 **사용 안 함** 상태로 표시 되 고 삭제 될 때까지 기능이 제한 됩니다. 유료 Microsoft 365 비즈니스 구독을 취소할 때 기대할 수 있는 사항에 대 한 자세한 내용은 [내 데이터 및 액세스에 대 한 microsoft 365 for business 구독이 종료 될 때 어떤 일이 발생 하나요?](what-if-my-subscription-expires.md) 를 참조 하세요.
+이제 구독이 **사용 안 함** 상태로 표시 되 고 삭제 될 때까지 기능이 제한 됩니다. 유료 Microsoft 365 비즈니스 구독을 취소할 때 기대할 수 있는 사항에 대 한 자세한 내용은 [내 데이터 및 액세스에 대 한 microsoft 365 for business 구독이 종료 될 때 어떤 일이 발생 하나요?](what-if-my-subscription-expires.md) 를 참조 하세요.
 
 ::: moniker-end
 
@@ -95,7 +95,9 @@ ms.locfileid: "45049751"
 
 ## <a name="what-happens-when-you-cancel-a-subscription"></a>구독을 취소 하면 수행 되는 작업
 
-기간이 끝나기 전에 구독을 취소 하면 구독이 사용 하지 않도록 설정 된 상태로 직접 이동 합니다. 대부분의 가입에서 대부분의 국가 및 지역에서 사용 하지 않도록 설정 된 상태는 90 일에 지속 됩니다. 관리자는 구독을 사용 하지 않도록 설정 되어 있는 동안에도 조직의 데이터에 액세스 하 고 백업할 수 있지만, 특히 구독 전용 인 경우 구독을 취소 하기 전에 관리자가 [데이터를 백업](back-up-data-before-switching-plans.md) 하는 것이 좋습니다. 뒤에 둔 모든 데이터는 90 일 후에 삭제 될 수 있으며 취소 후 180 일 이상 삭제 되지 않습니다.
+기간이 끝나기 전에 구독을 취소 하면 구독 상태가 사용 안 함 상태로 바로 이동 합니다. 대부분의 가입에서 대부분의 국가 및 지역에서 사용 하지 않도록 설정 된 상태는 90 일에 지속 됩니다. 관리자는 구독을 사용 하지 않도록 설정 되어 있는 동안에도 조직의 데이터에 액세스 하 고 백업할 수 있지만, 특히 구독 전용 인 경우 구독을 취소 하기 전에 관리자가 [데이터를 백업](back-up-data-before-switching-plans.md) 하는 것이 좋습니다. 관리자는 사용 하지 않도록 설정 된 상태에서 구독을 다시 활성화할 수도 있습니다.
+
+90이 표시 되 면 구독은 삭제 됨 상태로 이동 합니다. 이후에 나간 데이터는 취소 후 180 일 이상 삭제 된 90 후에 삭제할 수 있습니다. 취소 된 구독에서 삭제 됨 상태가 되 면 지불 방법을 제거할 수 없습니다.
 
 ### <a name="what-to-expect-for-you-and-your-users-if-you-cancel-a-subscription"></a>구독을 취소할 경우 관리자와 사용자에 대해 예상되는 결과는 다음과 같습니다.
   
@@ -146,10 +148,12 @@ NS 레코드를 변경 하려면 [도메인 제거](../../admin/get-help-with-do
 
 구독을 취소 했 고 사용자를 Microsoft 365이 포함 된 [다른 구독으로 이동](move-users-different-subscription.md) 하지 않은 경우 microsoft 365는 기능 제한 모드로 실행 됩니다. 이 경우 사용자는 문서를 읽고 인쇄할 수 있을 뿐 이며, Microsoft 365 응용 프로그램은 허가 되지 않은 [제품 알림을](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx)표시 합니다. 혼동을 방지하기 위해 사용자가 해당 컴퓨터에서 [Office를 제거](https://support.microsoft.com/office/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx)하도록 하세요.
 
-## <a name="related-articles"></a>관련 문서
+## <a name="next-steps"></a>다음 단계
 
-[구독 갱신](renew-your-subscription.md)
+Microsoft에서 계정을 완전히 닫으려면 [계정을 닫으십시오](../close-your-account.md).를 참조 하세요.
 
-[구독 다시 활성화](reactivate-your-subscription.md)
+## <a name="related-content"></a>관련 콘텐츠
 
-[다른 구독으로 사용자 이동](move-users-different-subscription.md)
+[구독 갱신](renew-your-subscription.md) (문서) \
+[구독 다시 활성화](reactivate-your-subscription.md) (문서) \
+[사용자를 다른 구독으로 이동](move-users-different-subscription.md) (문서)

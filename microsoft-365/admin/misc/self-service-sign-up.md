@@ -20,28 +20,25 @@ search.appverid:
 - MET150
 ms.assetid: 4f8712ff-9346-4c6c-bb63-a21ad7a62cbd
 description: Microsoft 365 셀프 서비스에 제공 되는 microsoft Power Apps, Microsoft Flow 및 Dynamics 365 같은 금융 관련 셀프 서비스 프로그램에 대해 알아봅니다.
-ms.openlocfilehash: 4a95c4b98821100d0a5164b87c1afe02b854608b
-ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
+ms.openlocfilehash: 8e8ed80cc24e3c6ec0a4a9d408d202495de52adb
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506300"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324483"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>조직에서 셀프 서비스 등록 사용
 
-Microsoft에서 의견을 듣고 조직의 사용자가 마이크로소프트의 온라인 서비스에 쉽게 등록할 수 있도록 했습니다. 사용자는 구독에 의해 지불 되는 서비스를 사용 하도록 등록할 수 있고 대신 작업을 수행할 것을 요구 하지 않고 무료 서비스를 사용 하 여이 새로운 등록 프로세스 "셀프 서비스 등록"을 호출 합니다.
+셀프 서비스 등록 기능을 사용 하면 조직의 사용자가 Microsoft의 온라인 서비스에 쉽게 등록할 수 있습니다. 사용자는 구독에 의해 지불 되는 서비스를 사용 하도록 등록할 수 있고 대신 작업을 수행할 것을 요구 하지 않고 무료 서비스를 사용 하 여 "셀프 서비스 등록"으로이 등록 프로세스를 호출 합니다.
   
 ## <a name="how-self-service-sign-up-works"></a>셀프 서비스 등록 작동 방식
 
 다음 예에서는 학교에서 자가 등록을 사용 하는 방법을 설명 합니다. 동일한 프로세스는 테 넌 트에서 셀프 서비스 프로그램이 사용 되도록 설정 된 모든 조직에 적용 됩니다.
   
-1. 학생 및 교직원 구성원은 해당 조직과 연결 되었음을 나타내는 학교 전자 메일 주소를가지고 있습니다. 예를 들어 전자 메일 주소 jakob@uw.edu는 인천 대학교의 학생을 나타낼 수 있습니다.
-
+1. 학생 및 교직원 구성원은 해당 조직과 연결 되었음을 나타내는 학교 전자 메일 주소를가지고 있습니다. 예를 들어 전자 메일 주소 jakob@uw.edu는 인천 대학교에 있는 학생을 나타낼 수 있습니다.
 2. 학생과 교사는 [웹 사이트로](https://go.microsoft.com/fwlink/p/?LinkId=536628)이동 하 고 전자 메일 주소를 사용 하 여 조직에서 제공 하는 서비스 (예: Microsoft 365 for Enterprise 용 앱)에 등록 합니다. 또한 제공 되는 다른 무료 서비스에 등록할 수도 있습니다.
-
 3. 전자 메일 주소의 유효성을 검사 한 다음 Microsoft 365, Power BI 또는 기타 서비스 사용을 바로 시작할 수 있습니다.
-
-4. 비즈니스 관리자는 관리 센터에서 **제품** 페이지를 보고 구독에 등록 한 사용자를 확인할 수 있습니다. 이 방법을 통해 테 넌 트의 서비스에 대해 새 라이선스 또는 인식할 수 없는 라이선스가 있는 경우를 확인할 수 있습니다. 사용자가 셀프 서비스 구독에 등록할 수 있는지 여부를 제어 하려면 **AllowAdHocSubscriptions** 매개 변수와 함께 [set-msolcompanysettings](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0) PowerShell cmdlet을 사용 합니다. 자세한 내용은 [How to control services settings?](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq?view=o365-worldwide) 를 참조 하십시오.
+4. 비즈니스 관리자는 Microsoft 365 관리 센터의 **라이선스** 페이지에서 구독을 선택 하 여 구독에 등록 한 사용자를 확인할 수 있습니다. 이 방법을 통해 테 넌 트의 서비스에 대해 새 라이선스 또는 인식할 수 없는 라이선스가 있는 경우를 확인할 수 있습니다. 사용자가 셀프 서비스 구독에 등록할 수 있는지 여부를 제어 하려면 **AllowAdHocSubscriptions** 매개 변수와 함께 [set-msolcompanysettings](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0) PowerShell cmdlet을 사용 합니다. 자세한 내용은 [How to control services settings?](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-self-service-signup#how-do-i-control-self-service-settings) 를 참조 하십시오.
 
 ## <a name="available-self-service-programs"></a>사용 가능한 셀프 서비스 프로그램
 
@@ -50,7 +47,7 @@ Microsoft에서 의견을 듣고 조직의 사용자가 마이크로소프트의
 |||||
 |:-----|:-----|:-----|:-----|
 |**프로그램** <br/> |**설명** <br/> |**추가 정보** <br/> |셀프 서비스 등록 웹 사이트 * * * * <br/> |
-|Office 365 A1 * * * * <br/> |학생 또는 교사는 학교 전자 메일 주소를 사용 하 여 무료 Office 365에 등록 하 고, 웹의 Office 앱, 1TB의 OneDrive 클라우드 저장소 및 SharePoint Online for a 수업용, 팀 및 프로젝트 사이트를 확인할 수 있습니다.  <br/> |[Office 365 교육 기술 FAQ](https://go.microsoft.com/fwlink/p/?LinkId=536625) <br/> |[Office 365 Education](https://go.microsoft.com/fwlink/p/?linkid=140841) <br/> |
+|Office 365 A1 * * * * <br/> |모든 학생이 나 교사는 학교 전자 메일 주소를 사용 하 여 무료 Office 365에 등록 하 고 웹 (1TB의 OneDrive 클라우드 저장소 및 SharePoint Online)에 대 한 Office 앱에서 수업, 팀 및 프로젝트 사이트를 확인할 수 있습니다.  <br/> |[Office 365 교육 기술 FAQ](https://go.microsoft.com/fwlink/p/?LinkId=536625) <br/> |[Office 365 Education](https://go.microsoft.com/fwlink/p/?linkid=140841) <br/> |
 |**Office 365 A1 Plus** <br/> |적격 학생 및 교사는 위의 모든 내용과 Microsoft 365 앱 for enterprise를 포함 하는 Office 365 A1 Plus에 등록할 수 있습니다. Microsoft 365 Business for enterprise는 데스크톱 또는 랩톱 컴퓨터에 설치 되어 있는 Word, PowerPoint, Excel, Outlook, OneNote, Publisher, Access 및 비즈니스용 Skype 등의 생산성 소프트웨어입니다.  <br/> |[Office 365 교육 기술 FAQ](https://go.microsoft.com/fwlink/p/?LinkId=536625) <br/> |[Office 365 Education](https://go.microsoft.com/fwlink/p/?linkid=140841) <br/> |
 |**Power BI** <br/> |Power BI에서는 사용자가 직관적인 새로운 방식으로 데이터를 시각화 하 고, 검색을 공유 하 고, 공동 작업을 수행할 수 있습니다. <br/> 조직에서 이미 구독을 신청한 경우 사용자에 게 고급 기능에 대 한 제한 된 무료 액세스 권한을 제공 하는 "Power BI Pro 개별 사용자 평가판"에 대 한 라이선스가 추가로 표시 될 수 있습니다.  <br/> |[조직의 Power BI](https://go.microsoft.com/fwlink/p/?LinkId=536626) <br/> |[Microsoft Power BI](https://go.microsoft.com/fwlink/p/?LinkId=536629) <br/> |
 |**RMS(Rights Management Services)** <br/> |RMS for 개인이 azure RMS (azure 권한 관리)를 통해 보호 된 중요 한 파일을 보낸 조직의 사용자에 대 한 무료 셀프 서비스 구독 이지만 IT 부서가 azure RMS (Active Directory rights management Services) 또는 AD RMS를 구현 하지 않은 경우  <br/> |[개별 및 Azure 권한 관리를 위한 RMS](https://go.microsoft.com/fwlink/p/?LinkId=536627) <br/> |[Microsoft 권한 관리 포털](https://portal.azure.com/) -지정 된 권한으로 보호 된 문서를 열 수 있는지 여부를 확인할 수 있습니다.  <br/> |

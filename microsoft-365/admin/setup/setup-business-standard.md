@@ -25,14 +25,20 @@ search.appverid:
 - MOE150
 - BEA160
 description: Microsoft 365 Business Standard 구독을 설정하는 방법을 알아보세요.
-ms.openlocfilehash: b42dd0779c708410614ea2ab0d134aa3dcf0c7e9
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: cfc198c749cfcaa76bc3fa6323e1dba8a46e7388
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44778928"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324449"
 ---
 # <a name="set-up-microsoft-business-standard"></a>Microsoft Business Standard 설정
+
+Microsoft 365 Business Standard를 설정하는 방법에 대한 간단한 비디오를 시청하세요.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ELKR]
+
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
   
  *이 단계는 **[Microsoft 365 Business Standard 요금제](https://go.microsoft.com/fwlink/p/?LinkId=627220)*** 를 보유하고 있는 비즈니스 및 [비영리 기관](https://go.microsoft.com/fwlink/p/?LinkId=627221)을 위한 것입니다.
 

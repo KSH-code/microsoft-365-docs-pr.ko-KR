@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: 비즈니스용 Microsoft 365에 대 한 대금 청구 주소를 업데이트 하는 방법을 알아봅니다. 또한 대금 청구 알림을 수신 하는 데 사용 되는 전자 메일 주소를 업데이트할 수 있습니다.
-ms.openlocfilehash: 6b2da1e947362db432bf036d9799ddef89526030
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 5e6fc2bad63c445f516ba3cd473bd40c7bfcb2e3
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817032"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324355"
 ---
 # <a name="change-your-billing-addresses"></a>대금 청구 주소 변경
 
@@ -49,7 +49,7 @@ ms.locfileid: "44817032"
 
 - **서비스 사용 주소** 서비스를 사용 중인 주소로, 대개 **구매자** 주소와 동일합니다. 조직에 원격 사용자나 여러 사무실이 있는 경우 대다수의 사용자가 있는 주소를 사용합니다.
 
-대부분의 경우 이러한 주소는 동일합니다. 하나 이상의 주소를 변경해야 하는 경우 변경할 수 있습니다. 청구 알림을 받을 대체 전자 메일 주소를 제공하고 다른 관리자의 대체 전자 메일 주소를 변경할 수도 있습니다.
+대부분의 경우 이러한 주소는 동일합니다. 하나 이상의 주소를 변경해야 하는 경우 변경할 수 있습니다. 또한 청구 알림을 수신 하는 대체 전자 메일 주소를 제공 하 고 다른 관리자의 대체 전자 메일 주소를 변경할 수도 있습니다.
   
 ::: moniker range="o365-worldwide"
 
@@ -68,7 +68,6 @@ ms.locfileid: "44817032"
 중국에서 21Vianet에서 운영 하는 Office 365을 사용 하는 경우에는 [청구서 보기 또는 Fapiaos For Office 365 For 21vianet에서 운영](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md)하는 항목을 참조 하세요.
 
 ::: moniker-end
-
 
 ## <a name="change-your-sold-to-address"></a>구매자 주소 변경
 
@@ -131,10 +130,9 @@ ms.locfileid: "44817032"
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
-
-2. 변경 하려는 구독을 찾습니다. **& 작업 설정** 섹션에서 **서비스 사용 주소 편집**을 선택 합니다.
-
-3. **서비스 사용 주소 편집** 창에서 주소를 업데이트 한 다음 **저장**을 선택 합니다.
+2. **제품** 탭에서 변경 하려는 구독을 선택 합니다.
+3. 구독 정보 페이지의 **서비스 사용 주소** 섹션에서 **서비스 사용 주소 편집**을 선택 합니다.
+4. **서비스 사용 주소 편집** 창에서 주소를 업데이트 한 다음 **저장**을 선택 합니다.
 
 ::: moniker-end
 
@@ -166,7 +164,7 @@ ms.locfileid: "44817032"
 
 기본적으로 조직의 청구 알림은 Microsoft 전자 메일 주소와 조직 내 모든 전역 및 청구 관리자의 대체 전자 메일 주소로 전송 됩니다. 각 관리자는 자신의 프로필 정보를 업데이트하여 자신의 대체 전자 메일 주소를 변경할 수 있습니다.
   
-1. 회사 또는 학교 계정을 전역 관리자로 사용 하 여 Microsoft 365에 로그인 합니다. [로그인 하는 방법을 알아봅니다](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. 회사 또는 학교 계정을 전역 관리자로 사용 하 여 Microsoft 365에 로그인 합니다. [로그인 하는 방법에 대해 알아보세요](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4).
 
 2. **사용자 아이콘**을 선택한 다음 **내 계정**을 선택 합니다.
   

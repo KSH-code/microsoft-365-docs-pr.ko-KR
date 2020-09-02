@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 생산성 점수 개요
-ms.openlocfilehash: 47675f37e9146586b3fe0dd8d974887fd2435bf3
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: a7f6fc5fef9189f7478bcc67e1d24bdf037f561d
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307480"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324437"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Microsoft 생산성 점수 (미리 보기)
 
@@ -40,9 +40,9 @@ Microsoft는 다음과 같은 두 가지 분야에서 데이터, 통찰력 및 �
 
 - **직원 환경:** 여기서는 사용자가 콘텐츠를 공동으로 작업 하는 방법, Microsoft 365 제품을 사용 하 여 통신 하는 방법, 플랫폼 간에 Microsoft 365을 사용 하는지 여부를 측정 합니다. 
 
-    사용자는 온라인으로 공동 작업을 하는 경우 시간을 절약 하기 때문에 이러한 정보를 제공 합니다. 모든 장치에서 자유롭게 작업할 수 있게 되 면 생산성과 만족도가 향상 됩니다. 융통성 있는 방식으로 통신할 수 있으면 보다 효율적이 고 양식의 관계가 향상 되며 조직이 보다 통합 됩니다. 증거는 [Forrester report](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf)를 참조 하십시오.
+    사용자는 온라인으로 공동 작업을 하는 경우 시간을 절약 하기 때문에 이러한 정보를 제공 합니다. 모든 장치에서 자유롭게 작업할 수 있으므로 생산성과 만족도가 향상 됩니다. 융통성 있는 방식으로 통신 하면 사용자가 보다 효율적이 고 양식의 관계가 향상 되며 조직이 보다 통합 됩니다. 증거는 [Forrester report](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf)를 참조 하십시오.
 
-- **기술 환경:** 생산성은 안정성 및 안정적인 기술과 Microsoft 365을 효율적으로 사용 하는 방식에 따라 달라 집니다. Microsoft는 끝점 [분석](https://aka.ms/endpointanalytics)을 제공 하며, 사용자의 생산성과 끝점 하드웨어 및 소프트웨어의 성능 및 상태 문제에 대 한 영향을 받을 수 있는 방법을 이해 하는 데 도움이 됩니다. 그리고 조직에 대해 Microsoft 365 네트워크 연결 통찰력을 제공 합니다.
+- **기술 환경:** 생산성은 안정성 및 안정적인 기술과 Microsoft 365을 효율적으로 사용 하는 방식에 따라 달라 집니다. Microsoft는 끝점 [분석](https://aka.ms/endpointanalytics)을 제공 하 여 사용자의 생산성과 종점 하드웨어 및 소프트웨어에 대 한 상태 문제에 영향을 줄 수 있는 방법을 이해 하는 데 도움이 됩니다. 또한 조직에 대 한 Microsoft 365 네트워크 연결 통찰력과 함께 수정 하는 데 필요한 권장 작업을 제공 합니다.
 
 개요 및 필수 구성 요소 세부 정보에 대 한 [끝점 분석 이란?](https://docs.microsoft.com/mem/analytics/overview) 를 참조 하세요. Microsoft 365 network connectivity insights에 대 한 자세한 내용은 [네트워크 연결 개요](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-networking-overview)를 참조 하세요.
   
@@ -66,7 +66,7 @@ Microsoft는 다음과 같은 두 가지 분야에서 데이터, 통찰력 및 �
 
 생산성 점수에는 Exchange, SharePoint, OneDrive, 팀, Word, Excel, PowerPoint, OneNote, Outlook, Yammer 및 Skype의 데이터가 포함 됩니다.
 
-점수는 매일 업데이트 되며 최근 28 일에서 완료 된 사용자 작업은 현재 날짜를 포함 하 여 180 일 이내에 반영 됩니다.
+점수가 매일 업데이트 되며 마지막 28 일 (현재 날짜 포함)에서 완료 된 사용자 작업을 반영 합니다.
 
 
 ## <a name="pre-requisites"></a>필수 구성 요소 
@@ -111,15 +111,15 @@ Microsoft는 다음과 같은 두 가지 분야에서 데이터, 통찰력 및 �
 
 ### <a name="content-collaboration-details"></a>콘텐츠 공동 작업 세부 정보
 
-콘텐츠 공동 작업에 대 한 주요 이해는 온라인에서 만들고, 읽고, 공동 작업을 수행 (편집 및 공유) 하는 사용자 수입니다. 조사에서는 사용자가 온라인 파일을 사용 하 여 공동 작업을 수행 하는 경우 각 사용자가 평균적으로 100 분 또는 약 2 시간을 저장 하므로 이러한 조치는 중요 합니다.
+콘텐츠 공동 작업에 대 한 주요 이해는 온라인에서 만들고, 읽고, 공동 작업을 수행 (편집 및 공유) 하는 사용자 수입니다. 이 측정값은 사용자가 온라인 파일을 사용 하 여 공동 작업할 때 각 사용자가 일주일에 평균 2 시간을 절약할 수 있다는 것을 보여 주므로 중요 합니다.
 
-콘텐츠 공동 작업은 Office 파일을 작성 하 고 공유 하는 한 명의 사용자로 정의 하 고, 하나 이상의 다른 사용자가 편집 합니다. 
+콘텐츠 공동 작업은 Office 파일을 작성 하 고 공유 하는 한 명의 사용자로 정의 하 고, 하나 이상의 다른 사람이이를 읽어야 합니다. 
 
-독자: OneDrive 또는 SharePoint에서 온라인 파일을 액세스 하거나 다운로드 하는 사용자입니다.
+**독자**: OneDrive 또는 SharePoint에서 온라인 파일을 액세스 하거나 다운로드 하는 사용자입니다.
 
 **작성자:** 온라인 OneDrive 또는 SharePoint 파일을 생성, 수정, 업로드, 동기화, 체크 인, 복사 또는 이동 하는 사용자입니다.
 
-협력자: OneDrive 또는 SharePoint를 사용 하 여 온라인 파일로 공동 작업 하는 사용자입니다. 두 사용자가 해당 사용자가 온라인 Word, Excel, PowerPoint, OneNote 또는 PDF 클라우드 문서를 만든 후 28 일 이내에 공동 작업을 수행 하는 경우
+**협력자**: OneDrive 또는 SharePoint를 사용 하 여 온라인 파일로 공동 작업 하는 사용자입니다. 두 사용자가 해당 사용자가 온라인 Office 앱 또는 PDF 클라우드 문서를 작성 하거나 수정한 후 28 일 이내에 공동 작업 합니다.
 
 공동 작업용으로 고려 되는 파일 형식은 Word, Excel, PowerPoint, OneNote 및 PDF 파일입니다.
 
@@ -127,7 +127,7 @@ Microsoft는 다음과 같은 두 가지 분야에서 데이터, 통찰력 및 �
 
 ### <a name="communication-details"></a>통신 정보
 
-통신에 대 한 주요 정보는 조직에서 전자 메일, 채팅 및 커뮤니티 게시물을 사용 하 여 정보를 교환 하는 빈도입니다. 이러한 통찰력은 사용자가 다양 한 실시간 통신 도구를 사용할 때 가장 효율적으로 사용할 수 있는 통신 모드를 선택할 수 있을 뿐만 아니라 여러 office 위치에서 관계를 개발 하는 데 도움이 되는 채팅 및 커뮤니티와 같은 도구를 제공 하기 때문에 중요 합니다.
+통신에 대 한 주요 정보는 조직에서 전자 메일, 채팅 및 커뮤니티 게시물을 사용 하 여 정보를 교환 하는 빈도입니다. 사용자는 다양 한 실시간 통신 도구를 사용할 때 office 위치 간의 관계를 개발 하는 데 도움이 되는 채팅 및 커뮤니티와 같은 가장 효율적인 통신 모드를 선택할 수 있습니다.
 
 ### <a name="mobility-details"></a>모바일 기능 세부 정보
 
@@ -153,4 +153,4 @@ Microsoft는 데스크톱, 모바일 및 웹을 비롯 하 여 둘 이상의 플
 
 ## <a name="we-want-to-hear-from-you"></a>사용자의 의견을 듣고 싶습니다.
 
-생산성 점수에 대 한 생각과 의견을 개선 하는 방법에 대 한 의견을 공유 하세요. 제품 내 **사용자 의견** 섹션을 사용 하거나 ProductivityScorePreview@service.microsoft.com의 생산성 점수 팀에 연락 합니다.
+생산성 점수와이를 개선 하는 방법에 대 한 의견을 공유 합니다. 제품 내 **사용자 의견** 섹션을 사용 하거나 ProductivityScorePreview@service.microsoft.com의 생산성 점수 팀에 연락 합니다.

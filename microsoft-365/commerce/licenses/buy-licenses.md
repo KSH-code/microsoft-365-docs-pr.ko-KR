@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 description: 더 많은 라이선스를 구입 하는 방법 또는 Microsoft 365 비즈니스 에디션 구독에 대 한 라이선스 수를 줄이는 방법을 알아봅니다.
 ms.date: 07/01/2020
-ms.openlocfilehash: 85861379bbce30c3c071a47529d516d7d5170e39
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: df9570649e1ba5d674f1f152afa9d4dcaee8fc5e
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45015902"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324249"
 ---
 # <a name="buy-or-remove-subscription-licenses"></a>구독 라이선스 구입 또는 제거
 
@@ -42,7 +42,7 @@ ms.locfileid: "45015902"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 라이선스를 구입 하려면 전역 관리자 또는 대금 청구 관리자 여야 합니다. 자세한 내용은 [관리 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조 하세요.
+- 이 문서의 작업을 수행 하려면 전역 관리자 또는 대금 청구 관리자 여야 합니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 - 동시 [에 사용자를 추가 하 고 라이선스를 할당할](../../admin/add-users/add-users.md)수 있습니다.
 
 ## <a name="buy-or-remove-licenses-for-your-business-subscription"></a>비즈니스 구독에 대 한 라이선스 구입 또는 제거
@@ -50,15 +50,17 @@ ms.locfileid: "45015902"
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
-2. 라이선스를 구입 하거나 제거할 구독을 찾은 다음 **라이선스 추가/제거**를 선택 합니다. [라이선스 추가/제거 링크가 표시 되지 않으면 어떻게 하나요?](#what-if-you-dont-see-the-addremove-licenses-link)
-3. **총 라이선스** 수 상자에이 구독에 사용할 라이선스의 총 개수를 입력 한 다음 **변경 제출을**선택 합니다. 예를 들어 100 라이선스가 있고 5 개를 더 추가 하려면 105를 입력 합니다. 5 개를 제거 하려면 95을 입력 합니다.
+2. **제품** 탭에서 라이선스를 구입 하거나 제거할 구독을 찾습니다. **기타 작업** (점 3 개)을 선택 하 고 **라이선스 구입**을 선택 합니다. [라이선스 추가/제거 링크가 표시되지 않으면 어떻게 하나요?](#what-if-i-dont-see-the-addremove-licenses-link)
+3. 라이선스 수를 줄이려면 **라이선스 구입** 창 위쪽에서 **라이선스 제거**를 선택 합니다.
+4. 라이선스를 구입 하거나 제거 하려면 **총 라이선스** 수 상자에 **새 수량** 에 따라이 구독에 사용할 라이선스의 총 개수를 입력 합니다. 예를 들어 100 라이선스가 있고 5 개를 더 추가 하려면 105를 입력 합니다. 5 개를 제거 하려면 95을 입력 합니다.
+5. **저장**을 선택합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
-2. **구독** 페이지에서 라이선스를 구입 하거나 제거할 구독을 선택 하 고 **라이선스 추가/제거**를 선택 합니다. [라이선스 추가/제거 링크가 표시 되지 않으면 어떻게 하나요?](#what-if-you-dont-see-the-addremove-licenses-link)
+2. **구독** 페이지에서 라이선스를 구입 하거나 제거할 구독을 선택 하 고 **라이선스 추가/제거**를 선택 합니다. [라이선스 추가/제거 링크가 표시되지 않으면 어떻게 하나요?](#what-if-i-dont-see-the-addremove-licenses-link)
 3. **총 라이선스** 수 상자에이 구독에 사용할 라이선스의 총 개수를 입력 한 다음 **Submit** \> **닫기**제출을 선택 합니다. 예를 들어 100 라이선스가 있고 5 개를 더 추가 하려면 105를 입력 합니다. 5 개의 라이선스를 제거 하려면 95을 입력 합니다.
 
 ::: moniker-end
@@ -66,7 +68,7 @@ ms.locfileid: "45015902"
 ::: moniker range="o365-21vianet"
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
-2. **구독** 페이지에서 라이선스를 구입 하거나 제거할 구독을 선택 하 고 **라이선스 추가/제거**를 선택 합니다. [라이선스 추가/제거 링크가 표시 되지 않으면 어떻게 하나요?](#what-if-you-dont-see-the-addremove-licenses-link)
+2. **구독** 페이지에서 라이선스를 구입 하거나 제거할 구독을 선택 하 고 **라이선스 추가/제거**를 선택 합니다. [라이선스 추가/제거 링크가 표시되지 않으면 어떻게 하나요?](#what-if-i-dont-see-the-addremove-licenses-link)
 3. **총 라이선스** 수 상자에이 구독에 사용할 라이선스의 총 개수를 입력 한 다음 **Submit** \> **닫기**제출을 선택 합니다. 예를 들어 100개의 라이선스가 있는데 5개를 더 추가해야 하는 경우 105를 입력합니다. 5 개를 제거 하려면 95을 입력 합니다.
 
 ::: moniker-end
@@ -74,7 +76,7 @@ ms.locfileid: "45015902"
 > [!NOTE]
 > 모든 라이선스가 현재 사용자에 게 할당 된 경우 구독에 대 한 라이선스 수를 줄일 수 없습니다. 라이선스 수를 줄이려면 먼저 [사용자 로부터 하나 이상의 라이선스 할당](../../admin/manage/remove-licenses-from-users.md)을 취소 한 다음 구독에서 라이선스를 제거 합니다.
 
-## <a name="what-if-you-dont-see-the-addremove-licenses-link"></a>라이선스 추가/제거 링크가 표시 되지 않으면 어떻게 하나요?
+## <a name="what-if-i-dont-see-the-addremove-licenses-link"></a>라이선스 추가/제거 링크가 표시되지 않으면 어떻게 하나요?
 
 이 표에서는 **라이선스 추가/제거** 링크를 사용 하지 못할 수 있는 이유와이에 대해 수행할 수 있는 작업에 대해 설명 합니다.
 
@@ -115,5 +117,5 @@ ms.locfileid: "45015902"
 ## <a name="related-content"></a>관련 콘텐츠
 
 [사용자에 게 라이선스 할당](../../admin/manage/assign-licenses-to-users.md) (문서) \
-[구독 및 라이선스 이해](subscriptions-and-licenses.md) (문서) \
+[구독 및 라이선스 이해](subscriptions-and-licenses.md) (문서)\
 [Microsoft 365 구독을 체험 하거나 구입 합니다](../try-or-buy-microsoft-365.md) (문서).
