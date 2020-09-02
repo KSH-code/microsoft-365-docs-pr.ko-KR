@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 고객 키를 설정한 후에는 AKV 키를 복원 하 고 사용 권한 및 데이터 암호화 정책을 관리 하 여이를 관리 하는 방법을 알아봅니다.
-ms.openlocfilehash: 21c1fedce1ebc09e6c33b74a1b2c035c90988e12
-ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
+ms.openlocfilehash: 8f5f23fa1b8ce8baa8fafd3f29ca5fb8905887a1
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44717309"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324260"
 ---
 # <a name="manage-customer-key"></a>고객 키 관리
 
@@ -32,7 +32,7 @@ Office 365에 대 한 고객 키를 설정한 후에는이 문서에 설명 된 
 Restore-AzKeyVaultKey -VaultName <vault name> -InputFile <filename>
 ```
 
-예시:
+예를 들어,
   
 ```powershell
 Restore-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
@@ -50,7 +50,7 @@ Restore-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O3
 Get-AzKeyVault -VaultName <vault name>
 ```
 
-예시:
+예를 들어,
 
 ```powershell
 Get-AzKeyVault -VaultName Contoso-O365EX-NA-VaultA1
@@ -62,7 +62,7 @@ Get-AzKeyVault -VaultName Contoso-O365EX-NA-VaultA1
 Remove-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user>
 ```
 
-예시:
+예를 들어,
 
 ```powershell
 Remove-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com
@@ -84,11 +84,11 @@ Get-DataEncryptionPolicy PowerShell cmdlet을 사용 하 여 Exchange Online 및
 
 2. 조직의 모든 DEPs를 반환 하려면 매개 변수를 사용 하지 않고 Get-Data과 Policy cmdlet을 실행 합니다.
 
-  ```powershell
-  Get-DataEncryptionPolicy
-  ```
+   ```powershell
+   Get-DataEncryptionPolicy
+   ```
 
-  Get-data과 Policy cmdlet에 대 한 자세한 내용은 [get-data과 policy](https://docs.microsoft.com/powershell/module/exchange/get-dataencryptionpolicy?view=exchange-ps)를 참조 하십시오.
+   Get-data과 Policy cmdlet에 대 한 자세한 내용은 [get-data과 policy](https://docs.microsoft.com/powershell/module/exchange/get-dataencryptionpolicy?view=exchange-ps)를 참조 하십시오.
 
 ### <a name="assign-a-dep-before-you-migrate-a-mailbox-to-the-cloud"></a>클라우드로 사서함을 마이그레이션하기 전에 DEP를 할당 합니다.
 
@@ -100,11 +100,11 @@ Office 365로 마이그레이션하기 전에 사서함에 DEP를 할당 하려�
 
 2. 설정-MailUser cmdlet을 실행 합니다.
 
-  ```powershell
-  Set-MailUser -Identity <GeneralMailboxOrMailUserIdParameter> -DataEncryptionPolicy <DataEncryptionPolicyIdParameter>
-  ```
+   ```powershell
+   Set-MailUser -Identity <GeneralMailboxOrMailUserIdParameter> -DataEncryptionPolicy <DataEncryptionPolicyIdParameter>
+   ```
 
-  여기서 *GeneralMailboxOrMailUserIdParameter* 는 사서함을 지정 하 고 *Dataencryptionpolicyidparameter* 는 DEP의 ID입니다. 설정-MailUser cmdlet에 대 한 자세한 내용은 [설정-MailUser](https://docs.microsoft.com/powershell/module/exchange/set-mailuser?view=exchange-ps)를 참조 하십시오.
+   여기서 *GeneralMailboxOrMailUserIdParameter* 는 사서함을 지정 하 고 *Dataencryptionpolicyidparameter* 는 DEP의 ID입니다. 설정-MailUser cmdlet에 대 한 자세한 내용은 [설정-MailUser](https://docs.microsoft.com/powershell/module/exchange/set-mailuser?view=exchange-ps)를 참조 하십시오.
 
 ### <a name="determine-the-dep-assigned-to-a-mailbox"></a>사서함에 할당 된 DEP 확인
 
@@ -167,6 +167,20 @@ Get-SPODataEncryptionPolicy -Identity <SPOAdminSiteUrl>
   - **등록 된 경우:** 고객 키 암호화가 적용 되었으며 모든 사이트의 모든 파일이 암호화 되었습니다.
 
   - **롤링:** 키 롤이 진행 중입니다. 지역 키가 롤링을 진행 하는 경우 진행률을 모니터링할 수 있도록 키 롤 작업을 완료 한 사이트 비율에 대 한 정보도 표시 됩니다.
+
+## <a name="unassign-a-dep-from-a-mailbox"></a>사서함에서 DEP 할당 해제
+
+Set-mailbox PowerShell cmdlet을 사용 하 여 사서함에서 DEP를 할당 해제 하 고 `DataEncryptionPolicy` 를로 설정 `$NULL` 합니다. 이 cmdlet을 실행 하면 현재 할당 된 DEP를 할당 하지 않으며 기본 Microsoft 관리 키와 연결 된 DEP를 사용 하 여 사서함을 다시 암호화 합니다. Microsoft 관리 키에서 사용 하는 DEP는 할당 해제할 수 없습니다. Microsoft 관리 키를 사용 하지 않으려는 경우 다른 DEP를 사서함에 할당할 수 있습니다.
+
+사서함 PowerShell cmdlet을 사용 하 여 사서함에서 DEP를 할당 해제 하려면 다음 단계를 완료 합니다.
+
+1. 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)합니다.
+
+2. Set-Mailbox cmdlet을 실행 합니다.
+
+   ```powershell
+   Set-Mailbox -Identity <mailbox> -DataEncryptionPolicy $NULL
+   ```
 
 ## <a name="revoke-your-keys-and-start-the-data-purge-path-process"></a>키 해지 및 데이터 제거 경로 프로세스 시작
 

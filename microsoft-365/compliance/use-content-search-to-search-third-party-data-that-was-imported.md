@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
 description: 콘텐츠 검색 eDiscovery 도구를 사용 하면 쿼리를 만들어 타사 데이터 원본에서 Microsoft 365의 사서함으로 가져온 항목을 검색할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 823d95d6b32a15662004bfc5d92662b130fe4a65
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 24ca63cf78b85f7b8b5181d5babd16058b641128
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527418"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324574"
 ---
 # <a name="use-content-search-to-search-third-party-data-imported-by-a-custom-partner-connector"></a>콘텐츠 검색을 사용 하 여 사용자 지정 파트너 커넥터로 가져온 타사 데이터 검색
 
@@ -35,7 +35,7 @@ ms.locfileid: "46527418"
   
 ## <a name="creating-a-query-to-search-all-third-party-data"></a>모든 타사 데이터를 검색 하기 위한 쿼리 만들기
 
-Office 365로 가져온 모든 타사 데이터 형식을 검색 하거나 보류 하려면 `kind:externaldata` 콘텐츠 검색의 키워드 상자에 메시지 속성-값 쌍을 사용 하거나 쿼리 기반 보존을 만들 때 사용할 수 있습니다. 예를 들어 모든 타사 데이터 원본에서 가져온 항목을 검색 하 고 가져온 항목의 Subject 속성에 "contoso" 라는 단어를 포함 하려면 다음 쿼리를 사용 합니다. 
+Office 365로 가져온 모든 타사 데이터 형식을 검색 하거나 보류 하려면  `kind:externaldata` 콘텐츠 검색의 키워드 상자에 메시지 속성-값 쌍을 사용 하거나 쿼리 기반 보존을 만들 때 사용할 수 있습니다. 예를 들어 모든 타사 데이터 원본에서 가져온 항목을 검색 하 고 가져온 항목의 Subject 속성에 "contoso" 라는 단어를 포함 하려면 다음 쿼리를 사용 합니다. 
   
 ```powershell
 kind:externaldata AND subject:contoso
@@ -59,7 +59,7 @@ itemclass:ipm.externaldata.<third-party data type>*
 itemclass:ipm.externaldata.Facebook* AND subject:contoso
 ```
 
-다음 표에서는 검색할 수 있는 타사 데이터 형식 및 `itemclass:` 해당 유형의 타사 데이터를 특별히 검색 하기 위해 message 속성에 사용할 값을 보여 줍니다. 쿼리 구문은 대/소문자를 구분 하지 않습니다. 
+다음 표에서는 검색할 수 있는 타사 데이터 형식 및  `itemclass:` 해당 유형의 타사 데이터를 특별히 검색 하기 위해 message 속성에 사용할 값을 보여 줍니다. 쿼리 구문은 대/소문자를 구분 하지 않습니다. 
   
 |**타사 데이터 형식**|**속성 값 `itemclass:`**|
 |:-----|:-----|
@@ -82,7 +82,7 @@ itemclass:ipm.externaldata.Facebook* AND subject:contoso
 |BlackBerry PIN  <br/> | `ipm.externaldata.BlackBerryPIN*` <br/> |
 |BlackBerry SMS  <br/> | `ipm.externaldata.BlackBerrySMS*` <br/> |
 |Bloomberg  <br/> | `ipm.externaldata.Bloomberg*` <br/> |
-|Bloomberg Mail  <br/> | `ipm.externaldata.BloombergMail*` <br/> |
+|블룸버그 메시지  <br/> | `ipm.externaldata.conversation.Bloomberg Message*` <br/> |
 |Bloomberg 메시징  <br/> | `ipm.externaldata.BloombergMessaging*` <br/> |
 |Box  <br/> | `ipm.externaldata.Box*` <br/> |
 |Cisco IM &amp; 현재 상태 서버  <br/> | `ipm.externaldata.Jabber.IM` <br/> |
@@ -102,7 +102,7 @@ itemclass:ipm.externaldata.Facebook* AND subject:contoso
 |HubConnex  <br/> | `ipm.externaldata.HubConnex*` <br/> |
 |IBM 연결  <br/> | `ipm.externaldata.Connections*` <br/> |
 |IBM SameTime  <br/> | `ipm.externaldata.Sametime*` <br/> |
-|얼음 채팅  <br/> | `ipm.externaldata.ICEChat.Chat` <br/> |
+|ICE 채팅  <br/> | `ipm.externaldata.conversation.Ice Chat*` <br/> |
 |Indii Messenger  <br/> | `ipm.externaldata.Indii*` <br/> |
 |명령이 있는 agram  <br/> | `ipm.externaldata.Instagram*` <br/> |
 |Instant Bloomberg  <br/> | `ipm.externaldata.InstantBloomberg*` <br/> |
