@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 메타데이터를 사용하여 내용을 분류하고 레이블을 자동으로 적용하며 이벤트 기반 보존을 사용하여 보존 기간을 시작하여 SharePoint 에서 문서의 라이프사이클을 관리하는 방법입니다.
-ms.openlocfilehash: 8aed846c8c95aad737a9dfd56e4df7533e57a329
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: d02c8102dc53f455c5e0620acf1f8a9a7529bf08
+ms.sourcegitcommit: 2179abfe0b7a8bea917eb1c1057ed3795bdf91e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778548"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47336693"
 ---
 # <a name="use-retention-labels-to-manage-the-lifecycle-of-documents-stored-in-sharepoint"></a>보존 레이블로 SharePoint에 저장된 문서의 수명 주기 관리
 
@@ -60,14 +60,14 @@ ms.locfileid: "46778548"
 
 각 제품에는 올바른 콘텐츠 유형을 사용하는 하나의 문서 라이브러리가 포함된 전용 SharePoint 사이트가 있습니다. 모든 문서는 이 문서 라이브러리에 저장됩니다.
 
-![제품 설명서에 대한 문서 라이브러리](../media/SPRetention3.png)
+[ ![제품 설명서에 대한 문서 라이브러리](../media/SPRetention3.png) ](../media/SPRetention3.png#lightbox)
 
 > [!NOTE]
 > 이 시나리오의 제조 회사는 제품당 SharePoint 사이트를 보유하는 대신 제품당 마이크로소프트 팀을 사용하여 지속적인 채팅을 통해 팀원 간의 협업을 지원하고 문서 관리를 위해 팀 내 **파일** 탭을 사용할 수 있습니다. 이 기사에서는 문서에만 초점을 맞추므로 사이트만 사용합니다.
 
 다음은 스피닝 위젯 제품의 문서 라이브러리 보기입니다.
 
-![스피닝 위젯 문서 라이브러리](../media/SPRetention4.png)
+[ ![스피닝 위젯 문서 라이브러리](../media/SPRetention4.png) ](../media/SPRetention4.png#lightbox)
 
 이제 문서 관리를 위한 기본 정보 아키텍처가 마련되었으므로 메타데이터를 사용하는 문서에 대한 보존 및 폐기 전략과 이러한 문서를 분류하는 방법에 대해 살펴보겠습니다.
 
@@ -75,7 +75,7 @@ ms.locfileid: "46778548"
 
 제조 회사의 규정 준수 및 데이터 거버넌스 정책은 데이터 보존 및 폐기 방법을 결정합니다. 제품 관련 서류는 제품 제조 기간과 일정한 추가 기간 동안 보관해야 합니다. 추가 기간은 제품 사양, 계약서 및 사용자 설명서에 따라 다릅니다. 다음 표는 보존 및 폐기 요구 사항을 나타냅니다.
 
-| **문서 유형**          | **보존**                          | **폐기**                              |
+|   문서 유형            |   보존                            |   폐기                                |
 | -------------------------- | -------------------------------------- | -------------------------------------------- |
 | 제품 사양      | 생산 중단 후 5년  | 삭제                                       |
 | 제품 계약서          | 생산이 중단된 후 10년 | 검토                                       |
@@ -137,8 +137,9 @@ Microsoft 365 규중 준수 센터를 사용하여 다음 [보존 레이블](ret
    ![새 제품 사양 레이블 설정](../media/SPRetention7.png)
 
 6. **이 레이블 생성**을 선택 
-> [!TIP]
-> 자세한 단계는 [을(를) 참조하십시오.유지 기간이 이벤트](event-driven-retention.md#step-1-create-a-label-whose-retention-period-is-based-on-an-event)를 기준으로 하는 레이블을 만듭니다.
+
+   > [!TIP]
+   > 자세한 단계는 [을(를) 참조하십시오.유지 기간이 이벤트](event-driven-retention.md#step-1-create-a-label-whose-retention-period-is-based-on-an-event)를 기준으로 하는 레이블을 만듭니다.
 
 이제 제품 사양 컨텐츠에 보존 라벨을 자동으로 적용하는 방법을 살펴보겠습니다.
 
@@ -183,7 +184,7 @@ KQL은 검색 쿼리에서 크롤링된 속성을 사용할 수 없습니다. �
 
 KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로 적용하기 위해 크롤링된 속성 **ows\_문서\_x0020\_유형*과 *ows\_\_상태** 를 두 개의 정의 가능한 관리 속성에 맵핑합니다. 이 시나리오의 테스트 환경에서는 **RefinableString00** 및 **RefinableString01**은 사용되지 않습니다. SharePoint 관리 센터의 **검색 스키마 관리**에서 ** 관리 속성**을(를) 확인하여 이 문제를 확인했습니다.
 
-![검색 스키마의 관리 속성](../media/SPRetention12.png)
+[ ![검색 스키마의 관리 속성](../media/SPRetention12.png) ](../media/SPRetention12.png#lightbox)
 
 이전 스크린 샷의 **매핑된 크롤링 속성** 열이 비어있는 것을 주목하세요.
 
@@ -199,7 +200,8 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 
    **맵핑된 크롤링 속성** 섹션에 다음 스크린샷과 유사한 내용이 표시됩니다.
 
-   ![매핑된 탐색 속성 섹션에서 매핑 추가를 선택합니다.](../media/SPRetention13.png)
+   [ ![매핑된 탐색 속성 섹션에서 매핑 추가를 선택합니다.](../media/SPRetention13.png) ](../media/SPRetention13.png#lightbox)
+
 
 5. 페이지 하단으로 스크롤하고 **OK**를 선택하여 매핑을 저장합니다.
 
@@ -207,7 +209,7 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 
 이제 두 개의 관리되는 속성이 두 탐색된 속성에 매핑되어야 합니다.
 
-![관리되는 속성이 탐색 속성에 매핑되어 표시됩니다.](../media/SPRetention14.png)
+[ ![관리되는 속성이 탐색 속성에 매핑되어 표시됩니다.](../media/SPRetention14.png) ](../media/SPRetention14.png#lightbox)
 
 엔터프라이즈 검색을 실행하여 설정이 올바른지 확인합니다. 브라우저에서 *https://\<your_tenant>.sharepoint.com/search*.(으)로 이동합니다. 검색 상자에 ***RefableString00:"Product Specification"*** 을 입력하고 Enter 키를 누릅니다. 이 검색에서는**문서 유형** 중 ***제품 사양***이 있는 모든 문서를 반환해야 합니다.
 
@@ -219,7 +221,7 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 
 1. [준수 센터](https://compliance.microsoft.com/homepage)에서 **기록 관리** > **레이블 정책**으로 이동하여  > **레이블 자동 적용**을 선택합니다.
 
-   ![레이블 페이지에서 "라벨 자동 적용"을 선택합니다.](../media/SPRetention16.png)
+   [ ![레이블 페이지에서 "라벨 자동 적용"을 선택합니다.](../media/SPRetention16.png) ](../media/SPRetention16.png#lightbox)
 
 2. 마법사를 **자동으로 적용할 레이블을 선택**합니다 페이지에서 **자동 적용할 레이블을 선택**합니다.
 
@@ -227,7 +229,7 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 
 4. **특정 단어나 구를 포함하는 콘텐츠에 레이블 적용**을 선택한 후 **다음**을 선택합니다.
 
-   ![특정 단어나 구 또는 속성을 포함하는 콘텐츠에 레이블 적용을 선택합니다.](../media/SPRetention17.png)
+   [ ![특정 단어나 구 또는 속성을 포함하는 콘텐츠에 레이블 적용을 선택합니다.](../media/SPRetention17.png) ](../media/SPRetention17.png#lightbox)
 
    다음 단계에서는 이전 섹션에서 테스트한 것과 동일한 KQL 검색 쿼리를 제공합니다. 이 쿼리는 상태가 *Final*인 모든 제품 사양 문서를 반환합니다. 레이블 정책에서 동일한 쿼리를 사용하면 제품 사양 보존 레이블이 일치하는 모든 문서에 자동으로 적용됩니다.
 
@@ -259,11 +261,11 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 
 문서 라이브러리에 있는 문서의 속성도 살펴봅니다. 정보 패널에서 보존 레이블이 선택된 문서에 적용되어 있음을 확인할 수 있습니다.
 
-![문서 라이브러리에서 문서 속성을 확인하여 레이블이 적용되었는지 확인합니다.](../media/SPRetention21.png)
+[ ![문서 라이브러리에서 문서 속성을 확인하여 레이블이 적용되었는지 확인합니다.](../media/SPRetention21.png) ](../media/SPRetention21.png#lightbox)
 
 보존 레이블이 문서에 자동으로 적용되었기 때문에 보존 레이블이 문서를 *레코드*로 선언하도록 구성되었기 때문에 해당 문서는 삭제되지 않도록 보호됩니다. 이러한 보호의 예로서 다음 문서 중 하나를 삭제하려고 할 때 다음 오류 메시지가 표시됩니다.
 
-![레이블이 문서가 레코드임을 선언하기 때문에 문서를 삭제할 수 없다는 오류 메시지가 표시됩니다.](../media/SPRetention22.png)
+[ ![레이블이 문서가 레코드임을 선언하기 때문에 문서를 삭제할 수 없다는 오류 메시지가 표시됩니다.](../media/SPRetention22.png) ](../media/SPRetention22.png#lightbox)
 
 ## <a name="generate-the-event-that-triggers-the-retention-period"></a>보존 기간을 트리거하는 이벤트를 생성합니다.
 
@@ -275,13 +277,13 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 
 다음 스크린샷은 이벤트를 트리거하는 데 사용되는 SharePoint 목록을 보여줍니다.
 
-![보존 이벤트를 트리거할 목록입니다.](../media/SPRetention23.png)
+[ ![보존 이벤트를 트리거할 목록입니다.](../media/SPRetention23.png) ](../media/SPRetention23.png#lightbox)
 
 **생산** 열의 ***예***에 표시된 것처럼 현재 프로덕션 중인 제품이 두 개 있습니다. 이 열의 값을 제품에 대해 ***아니요***로 설정하면 목록과 관련된 흐름에서 자동으로 이벤트를 생성합니다. 이벤트는 해당 제품 문서에 자동으로 적용된 보존 레이블의 보존 기간 시작을 트리거합니다.
 
 이 시나리오에서는 다음 흐름을 사용하여 이벤트를 트리거합니다.
 
-![이벤트를 트리거하는 흐름의 구성](../media/SPRetention24.png)
+[ ![이벤트를 트리거하는 흐름의 구성](../media/SPRetention24.png) ](../media/SPRetention24.png#lightbox)
 
 이 흐름을 만들려면 SharePoint 커넥터에서 시작하여 **항목을 만들거나 수정할 때** 트리거를 선택합니다. 사이트 주소 및 목록 이름을 지정합니다. 그런 다음 **생산 중**에서 목록 열 값이 ***아니오***(또는 조건 카드의 *허위*)로 설정된 시점을 기준으로 조건을 추가합니다. 그런 다음 기본 제공 HTTP 서식 파일을 기반으로 하는 작업을 추가합니다. 다음 섹션의 값을 사용하여 HTTP 작업을 구성합니다. 다음 섹션에서 **URI** 및 **Body** 속성의 값을 복사하여 템플릿에 붙여넣을 수 있습니다.
 
@@ -290,7 +292,7 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 - **헤더**: Key = Content-Type, Value = application/atom+xml
 - **Body**:
     
-    ```HTML
+    ```xml
     <?xml version='1.0' encoding='utf-8' standalone='yes'>
     <entry xmlns:d='http://schemas.microsoft.com/ado/2007/08/dataservices' xmlns:m='http://schemas.microsoft.com/ado/2007/08/dataservices/metadata' xmlns='https://www.w3.org/2005/Atom'>
     <category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent'>
@@ -312,7 +314,7 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 - **EventType**: 이 매개 변수의 값은 생성된 이벤트가 적용되는 이벤트 유형에 해당합니다. 이 이벤트 유형은 보존 레이블을 생성할 때 정의되었습니다. 이 시나리오의 경우 이벤트 유형은 "제품 중단"입니다."
 - **SharePointAssetIdQuery**입니다. 이 매개 변수는 이벤트에 대한 자산 ID를 정의합니다. 이벤트 기반 보존에는 문서의 고유 식별자가 필요합니다. 자산 ID를 사용하여 특정 이벤트가 적용되는 문서를 식별하거나 이 시나리오에서처럼 메타데이터 열 **제품 이름**을 식별할 수 있습니다. 이렇게 하려면 KQL 쿼리에 사용할 수 있는 새 **ProductName** 관리 속성을 생성해야 합니다. 대체적으로 새 관리 속성을 생성하는 대신 **RefableString00**를 사용할 수 있습니다. 또한 이 새로운 관리 속성을 **ows_Product_x0020_Name** 크롤링된 속성에 맵핑해야합니다. 다음은 이 관리 속성의 스크린샷입니다.
 
-    ![보존 관리 속성](../media/SPRetention25.png)
+    [ ![보존 관리 속성](../media/SPRetention25.png) ](../media/SPRetention25.png#lightbox)
 
 - **EventDateTime**: 이 매개 변수는 이벤트가 발생한 날짜를 정의합니다. 현재 날짜 형식을 사용합니다.<br/><br/>*날짜 시간(utcNow()), 'yyyy-MM-dd'* 을(를) 포맷합니다.
 
@@ -320,7 +322,7 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 
 이제 보존 라벨이 생성되고 자동으로 적용되며 흐름이 구성 및 생성됩니다. 제품 목록의 회전 위젯 제품에 대한 **실행에서 ** 열의 값이 ***예***에서 ***아니오***(으)로 변경되면 흐름이 트리거되어 이벤트를 생성합니다. 보안 및 준수 센터에서 이 이벤트를 보려면 **레코드 관리** > **이벤트**로 이동합니다.
 
-![흐름에 의해 트리거된 이벤트는 규정 준수 센터의 이벤트 페이지에 표시됩니다.](../media/SPRetention28.png)
+[ ![흐름에 의해 트리거된 이벤트는 규정 준수 센터의 이벤트 페이지에 표시됩니다.](../media/SPRetention28.png) ](../media/SPRetention28.png#lightbox)
 
 이벤트를 선택하여 플라이아웃 페이지에서 세부 정보를 봅니다. 이벤트가 생성되더라도 이벤트 상태는 처리된 SharePoint 사이트나 문서가 없음을 나타냅니다.
 
@@ -340,16 +342,10 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 
 다음 스크린샷에서 볼 수 있듯이 자산 ID 관리 속성을 **ComplianceAssetId**라고 합니다.
 
-![ComplianceAssetId 관리 속성입니다.](../media/SPRetention27.png)
+[ ![ComplianceAssetId 관리 속성](../media/SPRetention27.png) ](../media/SPRetention27.png#lightbox)
 
 이 시나리오에서와 같이 기본 **Asset Id** 속성을 사용하는 대신 다른 속성을 사용할 수 있습니다. 그러나 이벤트에 대한 자산 ID 또는 키워드를 지정하지 않으면 해당 이벤트 유형의 레이블이 있는 모든 콘텐츠는 이벤트에 의해 보존 기간이 트리거됩니다.
 
 ### <a name="using-advanced-search-in-sharepoint"></a>SharePoint에서 고급 검색을 사용합니다.
 
 이전 스크린샷에서 탐색된 속성에 매핑된 **ComplianceTag**라는 보존 레이블과 관련된 또 다른 관리 속성이 있음을 확인할 수 있습니다. **ComplianceAssetId** 관리 속성도 탐색된 속성에 매핑됩니다. 즉, 고급 검색에서 이러한 관리 속성을 사용하여 보존 레이블로 태그가 지정된 모든 문서를 검색할 수 있습니다.
-
-## <a name="credits"></a>크레딧
-
-이 시나리오의 작성자는 다음과 같습니다. 
-
-Frederic Lapierre<br/>Principal Consultant, Microsoft Services

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 액세스 및 사용을 제한하여 데이터를 보호하는 암호화를 위한 민감도 레이블을 구성합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ae9131b4cd70cfca4cc32116a651bf4642ed94f1
-ms.sourcegitcommit: c4a7b227f7d9abd666dfb93e3ded78ba8288e649
+ms.openlocfilehash: dc7f1e181fcc2ffda6cd9b36596c164f49d23452
+ms.sourcegitcommit: 6ad2e4164ed59d5a58a0df9cb8413531c1be0986
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229438"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47334861"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한 
 
@@ -211,9 +211,9 @@ ms.locfileid: "45229438"
 ### <a name="double-key-encryption"></a>이중 키 암호화
 
 > [!NOTE]
-> 이 기능은 현재 공개 미리 보기로 배포됩니다. 자세한 내용은 [Microsoft 365용 이중 키 암호화의 공개 미리 보기 발표](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-public-preview-of-double-key-encryption-for-microsoft/ba-p/1534451)를 참조하세요.
+> 이 기능은 현재 공개 미리 보기로 제공됩니다. 자세한 내용은 [Microsoft 365용 이중 키 암호화의 공개 미리 보기 발표](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-public-preview-of-double-key-encryption-for-microsoft/ba-p/1534451)를 참조하세요.
 
-이중 키 암호화 서비스를 구성한 후 이 레이블이 적용되는 문서 및 전자 메일에 대해 해당 이중 키 암호화를 사용해야 하는 경우에만 이 옵션을 선택합니다.
+이중 키 암호화 서비스를 구성한 후 이 레이블이 적용되는 파일 및 전자 메일에 대해 해당 이중 키 암호화를 사용해야 하는 경우에만 이 옵션을 선택합니다.
 
 자세한 내용, 전제 조건 및 구성 지침을 보려면 [DKE(Double Key Encryption)를](double-key-encryption.md)를 참조하세요.
 
