@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 데이터 손상 처리
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 Microsoft 365의 데이터 손상 및 데이터를 방지 하 고 복구 하기 위해 Microsoft에서 수행 하는 작업에 대해 설명 합니다.
-ms.openlocfilehash: fabecf8e368813e2f895669edc19c3f74e305c35
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 767be71bb08c49070488cc965165ac86e98836bd
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692477"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331875"
 ---
 # <a name="dealing-with-data-corruption-in-microsoft-365"></a>Microsoft 365의 데이터 손상 처리
 

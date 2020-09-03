@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 eDiscovery 및 검색 기능 개요
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: 감사 사용 및 투명성을 위한 Microsoft 365 내의 eDiscovery 기능 및 기타 검색 기능에 대 한 개요입니다.
-ms.openlocfilehash: 6a30e1aa687807d61b788bd75fcc63129ff0aa0b
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: ea7b221ab8fe2ff41d089bb344d2dce58002d0f5
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692733"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331862"
 ---
 # <a name="microsoft-365-ediscovery-and-search-features-overview"></a>Microsoft 365 eDiscovery 및 검색 기능 개요 
 
@@ -50,14 +50,14 @@ SharePoint Online 및 비즈니스용 OneDrive의 이벤트는 발생 한 30 분
 | EventSource | 이벤트가 발생 한 것을 식별 합니다. 사용할 수 있는 값은 SharePoint 및 ObjectModel입니다. |
 | ID | 보고서 항목의 ID입니다. ID는 보고서 항목을 고유 하 게 식별 합니다. |
 | 작업 | 이 사용자의 결과 표시 작업에서 선택한 값에 해당 하는 사용자 또는 활동의 이름입니다. |
-| 조직 id | 이벤트가 발생 한 조직의 Microsoft 365 서비스에 대 한 GUID입니다. |
+| OrganizationId | 이벤트가 발생 한 조직의 Microsoft 365 서비스에 대 한 GUID입니다. |
 | UserAgent | 브라우저에서 제공 하는 사용자 브라우저에 대 한 정보입니다. |
 | UserId | 작업 속성에 지정 된 작업을 실행 하 여 레코드가 기록 되는 사용자입니다. |
 | UserType | 작업을 수행한 사용자의 유형입니다. 다음 값은 사용자 형식을 나타냅니다. |
 |  | 0은 일반 사용자를 나타냅니다. |
 |  | 2는 Microsoft 365 조직의 관리자를 나타냅니다. |
 |  | 3은 Microsoft 데이터 센터 관리자 또는 데이터 센터 시스템 계정을 나타냅니다. |
-| 작업량 | 활동이 발생 한 Microsoft 365 서비스입니다. 이 속성에 사용할 수 있는 값은 다음과 같습니다. |
+| 워크로드 | 활동이 발생 한 Microsoft 365 서비스입니다. 이 속성에 사용할 수 있는 값은 다음과 같습니다. |
 |  | Exchange Online |
 |  | SharePoint Online |
 |  | 비즈니스용 OneDrive |

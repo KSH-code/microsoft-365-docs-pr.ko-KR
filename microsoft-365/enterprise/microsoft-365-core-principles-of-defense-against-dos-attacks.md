@@ -1,7 +1,7 @@
 ---
 title: 서비스 거부 공격에 대 한 방어의 Microsoft 365 핵심 원리
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -15,14 +15,14 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Microsoft가 DoS (서비스 거부) 공격에 대 한 방어에서 absorption, 검색 및 완화의 핵심 원칙을 활용 하는 방법
-ms.openlocfilehash: b04ec717f7c97e44c6ed4011156666e8c27f06c0
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: fb3446570dd8e99ccdb3005a6a7c90ca90a81aee
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692491"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331911"
 ---
-# <a name="core-principles-of-defense-against-denial-of-service-attacks"></a>서비스 거부 공격에 대 한 방어의 핵심 원칙
+# <a name="core-principles-of-defense-against-denial-of-service-attacks"></a>서비스 거부(Dos) 공격에 대한 보안 핵심 원칙
 
 네트워크 기반 DoS 공격 으로부터 방어할 때의 세 가지 핵심 원리는 Absorption, 검색 및 완화입니다. Absorption가 검색 전에 수행 되 고 완화 되기 전에 검색이 수행 됩니다. DoS 공격에 대 한 최선의 방어는 Absorption입니다. 공격을 검색할 수 없는 경우에는이를 완화할 수 없습니다. 그러나 가장 작은 DoS 공격을 수용할 수 없는 경우에도 서비스는 공격을 감지할 수 있을 정도로 오래 지속 되지 않습니다.
 

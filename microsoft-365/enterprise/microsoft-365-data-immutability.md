@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 데이터 불변성
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft 365에서 규정 준수, 내부 거 버 넌 스 요구 사항 및 소송 위험을 해결 하기 위해 검색 가능한 형태의 데이터를 보존 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2c070eea4498aca89d7cdb8fea233d9b9596491a
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: ce3b3f0f5036ab76be714747d7e95fe86139dd75
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692490"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331923"
 ---
 # <a name="immutability-in-microsoft-365"></a>Microsoft 365의 불변성
 

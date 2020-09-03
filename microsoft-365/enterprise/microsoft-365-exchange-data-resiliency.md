@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365에서 Exchange Online 데이터 복구
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 Exchange Online 및 Microsoft 365 내의 다양 한 데이터 복구 측면에 대 한 설명을 찾습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dfc53fd48a6de61cf47a0441cd2f8b0fa35a73f1
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 02a28a9099c329b943ab1f015326a674c79cf46e
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46696318"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332535"
 ---
 # <a name="exchange-online-data-resiliency-in-microsoft-365"></a>Microsoft 365에서 Exchange Online 데이터 복구
 

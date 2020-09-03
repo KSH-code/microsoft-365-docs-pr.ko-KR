@@ -1,7 +1,7 @@
 ---
 title: Azure Active Directory의 Microsoft 365 격리 및 액세스 제어
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 격리 및 액세스 제어를 사용 하 여 Azure Active Directory 내에서 서로 격리 된 여러 테 넌 트에 대 한 데이터를 유지 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 79cfa23b788342ec533ce4f8a2f9c63ee0836c20
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 198e1f37a7378d14d5a4ad28d5bce9d480b2c49e
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692769"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332415"
 ---
 # <a name="microsoft-365-isolation-and-access-control-in-azure-active-directory"></a>Azure Active Directory의 Microsoft 365 격리 및 액세스 제어
 

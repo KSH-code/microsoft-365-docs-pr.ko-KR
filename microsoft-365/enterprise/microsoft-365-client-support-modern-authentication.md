@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 클라이언트 앱 지원-최신 인증
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 Microsoft 365에 대 한 최신 인증을 지 원하는 플랫폼, 클라이언트 및 Powershell 모듈에 대해 설명 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f0357c357de2b8db355c539acda851fca7802d17
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 3e771ce5630053ffec2bf325e88b75f9a0d6baaa
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692493"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332067"
 ---
 # <a name="microsoft-365-client-app-support---modern-authentication"></a>Microsoft 365 클라이언트 앱 지원-최신 인증
 

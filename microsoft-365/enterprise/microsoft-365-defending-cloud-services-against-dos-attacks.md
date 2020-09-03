@@ -1,7 +1,7 @@
 ---
 title: 서비스 거부 공격에 대해 Microsoft 365 클라우드 서비스 방어
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 Microsoft가 해당 클라우드 서비스를 DoS (서비스 거부) 공격에 defends 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 26c3df54811ffee06797c635bc565fcbe78b58fa
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 21b38950ec06874f8c1d959eeb6a8b60179636e3
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692774"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332499"
 ---
 # <a name="defending-microsoft-365-cloud-services-against-denial-of-service-attacks"></a>서비스 거부 공격에 대해 Microsoft 365 클라우드 서비스 방어
 

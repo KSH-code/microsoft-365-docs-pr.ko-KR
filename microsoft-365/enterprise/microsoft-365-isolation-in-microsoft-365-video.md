@@ -1,7 +1,7 @@
 ---
 title: Office 365 비디오에서 테넌트 격리
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 테 넌 트 격리에서 각 테 넌 트의 저장 된 비디오를 Office 365 비디오와 별도로 유지 하는 방법에 대 한 설명을 찾습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3f46812bb2bf9432252c2de6bb46fbb47cb71221
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 626a995fc5a3ac971c48cc87bec1017134e87b88
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692619"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332247"
 ---
 # <a name="tenant-isolation-in-office-365-video"></a>Office 365 비디오에서 테넌트 격리
 

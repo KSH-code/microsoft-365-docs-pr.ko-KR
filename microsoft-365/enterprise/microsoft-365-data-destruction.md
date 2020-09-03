@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 데이터 소멸
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Microsoft 365 데이터 센터 디스크 드라이브 및 서버의 재활용, 폐기 또는 파괴에 대 한 Microsoft 정책 개요
-ms.openlocfilehash: bd5afd427f55952066bac06d2bd4e61f45a4562f
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 981903db68a79632285d7c5170aeb22014940a4a
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692496"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331852"
 ---
 # <a name="microsoft-365-data-destruction"></a>Microsoft 365 데이터 소멸
 

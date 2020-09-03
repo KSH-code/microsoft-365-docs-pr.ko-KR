@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 엔지니어링을 위한 microsoft 365 내부 로깅
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,14 +16,14 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 Microsoft 365 엔지니어링 팀의 내부 로깅이 작동 하는 방식에 대 한 설명을 찾습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b4c4b1db876a6b68ec852adbbd51afe7386a1855
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 08f87ba682a88a7efd93735b160af49bf5468ca2
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46696357"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332511"
 ---
-# <a name="internal-logging-for-microsoft-365-engineering"></a>Microsoft 365 엔지니어링에 대 한 내부 로깅
+# <a name="internal-logging-for-microsoft-365-engineering"></a>Microsoft 365 엔지니어링에 대한 내부 로깅
 
 고객에 게 제공 되는 이벤트 및 로그 데이터 뿐 아니라 Microsoft 365 엔지니어가 제공 하는 내부 로그 데이터 수집 시스템도 있습니다. 다양 한 유형의 로그 데이터가 Microsoft 365 서버에서 Cosmos 라는 내부 대규모 데이터 컴퓨팅 서비스로 업로드 됩니다. 각 서비스 팀은 집계 및 분석을 위해 각 서버의 감사 로그를 Cosmos 데이터베이스에 업로드 합니다. 이 데이터 전송은 ODL (Office Data Loader) 라는 전용 자동화 도구를 사용 하 여 특별히 승인 된 포트 및 프로토콜에 대해 FIPS 140-2 유효성 검사 TLS 연결을 통해 수행 됩니다. Microsoft 365에서 감사 레코드를 수집 하 고 처리 하는 데 사용 되는 도구는 원본 감사 레코드 콘텐츠 또는 시간 순서에 영구 또는 되돌릴 수 없는 변경을 허용 하지 않습니다.
 

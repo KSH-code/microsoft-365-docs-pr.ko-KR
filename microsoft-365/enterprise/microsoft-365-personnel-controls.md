@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 담당자 컨트롤
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 microsoft 고객을 위한 Microsoft 직원 차단 모범 사례에 365 대 한 개요를 확인할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 66155eac8ffbab1401a1d0487261b37c8a7841e3
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 65f2afdc48f08e0bb67c2c842f9160b676fcb039
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692773"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332764"
 ---
 # <a name="microsoft-365-personnel-controls"></a>Microsoft 365 담당자 컨트롤
 

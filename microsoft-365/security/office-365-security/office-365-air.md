@@ -16,18 +16,22 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능 사용을 시작 하세요.
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: c2020c3d46fcf17194e2560af53d9a26fca30629
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 14742df5d9dbd2f65a032250696dbc7c61210562
+ms.sourcegitcommit: 2179abfe0b7a8bea917eb1c1057ed3795bdf91e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327833"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47336682"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Office 365에서 자동화 된 조사 및 응답 (AIR) 사용 시작
 
 [Office 365 Advanced Threat Protection](office-365-atp.md) (OFFICE 365 ATP) 계획 2에는 보안 작업 팀의 시간과 노력을 줄일 수 있는 강력한 자동 조사 및 응답 (AIR) 기능이 포함 되어 있습니다. 알림이 트리거되면 해당 경고를 검토 하 고 우선 순위를 지정 하 고 응답 하는 보안 운영 팀이 진행 됩니다. 들어오는 알림의 볼륨을 유지 하는 것은 매우 어려울 수 있습니다. 이 중 일부를 자동화 하면 도움이 될 수 있습니다. AIR을 사용 하는 경우 보안 운영 팀은 트리거된 경고에 대 한 시야 없이 우선 순위가 더 높은 작업에 집중할 수 있습니다.
 
-이 문서에서는 [전체 공기 흐름](#the-overall-flow-of-air) , 공기를 [얻는 방법](#how-to-get-air)및 air 기능을 구성 또는 사용 하는 [데 필요한 사용](#required-permissions-to-use-air-capabilities) 에 대해 설명 합니다. 
+이 문서에는 다음 정보가 포함 되어 있습니다.
+
+- [전체 공기 흐름](#the-overall-flow-of-air)
+- [공기를 얻는 방법](#how-to-get-air)
+- AIR 기능을 구성 하거나 사용 하는 [데 필요한 사용 권한](#required-permissions-to-use-air-capabilities)
 
 ## <a name="the-overall-flow-of-air"></a>전체 공기 흐름
 

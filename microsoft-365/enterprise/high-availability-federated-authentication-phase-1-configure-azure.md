@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: Ent_Solutions
 ms.assetid: 91266aac-4d00-4b5f-b424-86a1a837792c
 description: '요약: microsoft Azure 인프라를 구성 하 여 마이크로소프트 365에 대 한 고가용성 페더레이션 인증을 호스팅합니다.'
-ms.openlocfilehash: a99259e8c60346665f76aeba3a8a440e0f9061f0
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: d2a9fe3c31468cd53576a82639e0e61901192d8e
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692802"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332343"
 ---
 # <a name="high-availability-federated-authentication-phase-1-configure-azure"></a>고가용성 페더레이션 인증 1단계: Azure 구성
 
@@ -57,7 +57,7 @@ Azure 구성 요소를 구성하기 전에 다음 테이블을 채워야 합니�
     
 2. 결과 비트를 10진수로 변환하고 이를 접두사 길이가 게이트웨이 서브넷 크기로 설정된 주소 공간으로 표현합니다.
     
-이러한 계산을 수행 하는 PowerShell 명령 블록 및 c # 또는 Python 콘솔 응용 프로그램의 경우 [Azure 게이트웨이 서브넷에 대 한 주소 공간 계산기](https://gallery.technet.microsoft.com/scriptcenter/Address-prefix-calculator-a94b6eed) 를 참조 하세요.
+이러한 계산을 수행 하는 PowerShell 명령 블록 및 c # 또는 Python 콘솔 응용 프로그램의 경우 [Azure 게이트웨이 서브넷에 대 한 주소 공간 계산기](address-space-calculator-for-azure-gateway-subnets.md) 를 참조 하세요.
   
 IT 부서에서 가상 네트워크 주소 공간의 이러한 주소 공간을 확인합니다.
   

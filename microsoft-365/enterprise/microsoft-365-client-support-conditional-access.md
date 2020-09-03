@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 클라이언트 앱 지원-조건부 액세스
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 Microsoft 365에 대 한 조건부 액세스를 지 원하는 플랫폼, 클라이언트 및 Powershell 모듈에 대해 설명 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 60e1c7e9d8208682b715007d527d39b6f9613992
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 2245b8fe9b235013bccc9ea2b80d6b6c86448a89
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692886"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332019"
 ---
 # <a name="microsoft-365-client-app-support--conditional-access"></a>Microsoft 365 클라이언트 앱 지원-조건부 액세스
 

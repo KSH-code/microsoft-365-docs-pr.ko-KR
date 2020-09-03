@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 검색에서 테넌트 격리
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 테 넌 트 격리가 Microsoft 365 검색에서 테 넌 트 데이터를 분리 하는 방법에 대 한 설명을 찾습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9b204e9c1f3ef459852900f3403a21f7ea40541f
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 3416afdeceaa7000b516ec89b4a2a1e59d8708d0
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692308"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332403"
 ---
 # <a name="tenant-isolation-in-microsoft-365-search"></a>Microsoft 365 검색에서 테넌트 격리
 

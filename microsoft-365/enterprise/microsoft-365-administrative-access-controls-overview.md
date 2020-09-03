@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365의 관리 액세스 제어
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 Microsoft 365의 관리 액세스 제어 및 데이터 분류에 대 한 개요를 제공 합니다.
-ms.openlocfilehash: b5063f89e89b6cffffda53a5df3088a80f89c242
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 817a5907566435d021fe78d89b5c9476c04318d0
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692341"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332595"
 ---
 # <a name="administrative-access-controls-in-microsoft-365"></a>Microsoft 365의 관리 액세스 제어 
 
@@ -95,7 +95,7 @@ Microsoft 365에서는 온-프레미스 환경에서 데이터를 관리 하는 
 ## <a name="related-links"></a>관련 링크
 
 - [격리 컨트롤](microsoft-365-isolation-controls.md)
-- [인적 컨트롤](microsoft-365-personnel-controls.md)
+- [담당자 컨트롤](microsoft-365-personnel-controls.md)
 - [기술 컨트롤](microsoft-365-technology-controls.md)
 - [액세스 제어 모니터링 및 감사](microsoft-365-monitoring-and-auditing-access-controls.md)
 - [Yammer Enterprise 액세스 제어](microsoft-365-yammer-enterprise-access-controls.md)

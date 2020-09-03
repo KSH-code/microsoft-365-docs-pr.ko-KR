@@ -1,7 +1,7 @@
 ---
 title: Office 365 관리 작업 API
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 Office 365 관리 활동 API 및 활동 로그에서 제공 하는 정보에 대 한 간략 한 요약을 확인할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ea08673f4c26c9ee4b7093ba420b69bed91abc81
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 8d51f27f28b0adb84ef43004664ef310567263b9
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692765"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332307"
 ---
 # <a name="office-365-management-activity-api"></a>Office 365 관리 작업 API
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 모니터링 및 자동 복구
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 Microsoft 365의 모니터링 및 자동 복구 기능에 대해 설명 합니다.
-ms.openlocfilehash: 459fdb50577c255d3cf27a31dbbbdd5768392c44
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: ec9cf3a7fa84d80acf7fdbc22b08e35f6ca3ebdc
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692857"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332271"
 ---
 # <a name="microsoft-365-monitoring-and-self-healing"></a>Microsoft 365 모니터링 및 자동 복구
 
