@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: 보안 및 준수 센터의 DLP (데이터 손실 방지)에는 &amp; dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다.
-ms.openlocfilehash: 71969a58acd64c3e830da398288249cbb8610b5f
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: 17c32ea53d860e54a7c9a8fcf70778151c28c539
+ms.sourcegitcommit: 6ad2e4164ed59d5a58a0df9cb8413531c1be0986
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46797796"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47334851"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>중요한 정보 유형 엔터티 정의
 
@@ -506,9 +506,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
       <Pattern confidenceLevel="85">
         <IdMatch idRef="Func_australian_tax_file_number" />
         <Match idRef="Keyword_Australia_Tax_File_Number" />
-        <Any minMatches="0" maxMatches="0">
-          <Match idRef="Keyword_number_exclusions" />
-        </Any>
       </Pattern>
     </Entity>
 ```
@@ -526,39 +523,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - individual tax return
 - tax file number
 - tfn
-
-#### <a name="keyword_number_exclusions"></a>Keyword_number_exclusions
-
-- 00000000
-- 11111111
-- 22222222
-- 33333333
-- 44444444
-- 55555555
-- 66666666
-- 77777777
-- 88888888
-- 99999999
-- 000000000
-- 111111111
-- 222222222
-- 333333333
-- 444444444
-- 555555555
-- 666666666
-- 777777777
-- 888888888
-- 999999999
-- 0000000000
-- 1111111111
-- 2222222222
-- 3333333333
-- 4444444444
-- 5555555555
-- 6666666666
-- 7777777777
-- 8888888888
-- 9999999999
 
 ## <a name="austria-drivers-license-number"></a>오스트리아 드라이버의 라이선스 번호
 이 중요 한 정보 유형 엔터티는 EU 드라이버의 라이선스 번호 중요 정보 유형 에서만 사용할 수 있습니다.
@@ -628,7 +592,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -676,7 +640,7 @@ national id
     
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -728,7 +692,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수는 해당  `Func_austria_eu_ssn_or_equivalent` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 함수 ' Func_austria_eu_
+
+_or_equivalent '는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 - From 키워드를  `Keywords_austria_eu_ssn_or_equivalent` 찾았습니다. 
     
@@ -1476,7 +1442,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -1586,7 +1552,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -1790,7 +1756,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Legal entity 
 - Legal entities 
 - Registration Status 
-- 비즈니스 
+- Business 
 - Company
 - CNPJ 
 - Cadastro Nacional da Pessoa Jurídica 
@@ -2864,20 +2830,28 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyword_cc_verification"></a>Keyword_cc_verification
 
-- card verification
+- 
+card verification
+
 - card identification number
 - cvn
 - cid
 - cvc2
 - cvv2
-- pin block
+- 
+pin block
 - security code
+
 - security number
+
 - security no
+
 - issue number
+
 - issue no
 - cryptogramme
-- numéro de sécurité
+- 
+numéro de sécurité
 - numero de securite
 - kreditkartenprüfnummer
 - kreditkartenprufnummer
@@ -2888,24 +2862,32 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - sicherheitsnummer
 - verfalldatum
 - codice di verifica
-- cod. sicurezza
-- cod sicurezza
+- cod.sicurezza
+- 
+cod sicurezza
 - n autorizzazione
 - código
 - codigo
-- cod. seg
-- cod seg
+- cod.seg
+- 
+cod seg
 - código de segurança
+
 - codigo de seguranca
+
 - codigo de segurança
+
 - código de seguranca
-- cód. segurança
-- cod. seguranca cod segurança
-- cód. seguranca
-- cód segurança
-- cod seguranca cod segurança
-- cód seguranca
+- cód.segurança
+- cod.seguranca
+- cod.segurança
+- cód.seguranca
+- cód segurança
+- cod seguranca
+- cod segurança
+- cód seguranca
 - número de verificação
+
 - numero de verificacao
 - ablauf
 - gültig bis
@@ -2913,54 +2895,80 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - gultig bis
 - gultigkeitsdatum
 - scadenza
-- data scad
+- 
+data scad
 - fecha de expiracion
+
 - fecha de venc
 - vencimiento
-- válido hasta
+- 
+válido hasta
 - valido hasta
 - vto
-- data de expiração
+- 
+data de expiração
 - data de expiracao
+
 - data em que expira
 - 유효한 ade
 - valor
 - vencimento
-- Venc 
+- transaction
+- 거래 번호
+- 참조 번호
+- セキュリティコード
+- セキュリティ コード
+- セキュリティナンバー
+- セキュリティ ナンバー
+- セキュリティ番号
+
 
 #### <a name="keyword_cc_name"></a>Keyword_cc_name
 
 - amex
 - american express
 - americanexpress
+- americano espresso
+
 - Visa
 - mastercard
 - master card
-- mc 
+- mc
 - mastercards
-- master cards
-- diner's Club
+- 
+master cards
+- 식사 권을의 방망이
 - diners club
 - dinersclub
+- 찾아보십시오
 - discover card
 - discovercard
 - discover cards
 - JCB
+- BrandSmart
 - japanese card bureau
+
 - carte blanche
 - carteblanche
 - credit card
 - 참조란 #
 - 참조 #:
-- expiration date
+- 
+expiration date
 - exp date
-- expiry date
-- 날짜 d'expiration
-- date d'exp
-- date expiration
+
+- 
+expiry date
+- 
+date d’expiration
+- 
+date d'exp
+- 
+date expiration
 - bank card
 - bankcard
-- card number
+- 
+card number
 - card num
 - 전화 번호
 - 시 번호
@@ -2986,14 +2994,36 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - atm cards
 - atmcards
 - enroute
-- en route
+- 
+en route
 - card type
+
+- 회원 계정
+- 회원 계정
+- Card no
+- 회사 카드
+- 회사 카드
+- 카드 유형
+- 카드 계정 번호
+- 카드 구성원 계정
+- 구성원 계정입니다.
+- card no.
+
+- 카드 번호
+- card number
+
 - carte bancaire
+
 - carte de crédit
+
 - carte de credit
+
 - numéro de carte
+
 - numero de carte
+
 - nº de la carte
+
 - nº de carte
 - kreditkarte
 - karte
@@ -3003,61 +3033,124 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - kreditkarteninstitut
 - kreditkartentyp
 - eigentümername
-- kartennr 
+- kartennr
 - kartennummer
 - kreditkartennummer
 - kreditkarten-nummer
-- carta di credito
+- 
+carta di credito
 - carta credito
-- 카 ta
+- kn.카 ta
 - n carta
-- veiligheid. 카 ta
-- nr carta
+- veiligheid.카 ta
+- 
+nr carta
 - numero carta
+
 - numero della carta
+
 - numero di carta
+
 - tarjeta credito
+
 - tarjeta de credito
-- tarjeta crédito
-- tarjeta de crédito
+
+- 
+tarjeta crédito
+- 
+tarjeta de crédito
 - tarjeta de atm
+
 - tarjeta atm
+
 - tarjeta debito
+
 - tarjeta de debito
-- tarjeta débito
-- tarjeta de débito
+
+- 
+tarjeta débito
+- 
+tarjeta de débito
 - nº de tarjeta
-- 아니요. de tarjeta
-- no de tarjeta
+- 아니요.de tarjeta
+- de tarjeta
 - numero de tarjeta
+
 - número de tarjeta
+
 - tarjeta no
 - tarjetahabiente
-- cartão de crédito
+- 
+cartão de crédito
 - cartão de credito
+
 - cartao de crédito
+
 - cartao de credito
+
 - cartão de débito
+
 - cartao de débito
+
 - cartão de debito
+
 - cartao de debito
+
 - débito automático
 - debito automatico
-- número do cartão
-- numero do cartão 
+
+- 
+número do cartão
+- numero do cartão
+
 - número do cartao
+
 - numero do cartao
+
 - número de cartão
+
 - numero de cartão
+
 - número de cartao
+
 - numero de cartao
-- nº do cartão
+
+- n º cartão
 - nº do cartao
-- n º do cartão
-- no do cartão
-- no do cartao
-- 아니요. do cartão
-- 아니요. do cartao 
+- n ºdo cartão
+- do no cartão
+- 작업 없음
+- 아니요.do cartão
+- 아니요.do cartao
+- クレジットカード番号
+- クレジットカードナンバー
+- クレジットカード＃
+- クレジットカード
+- クレジット
+- クレカ
+- カード番号
+- カードナンバー
+- カード＃
+- アメックス
+- アメリカンエクスプレス
+- アメリカン エクスプレス
+- Visaカード
+- カード
+- マスターカード
+- マスター カード
+- マスター
+- ダイナースクラブ
+- ダイナース クラブ
+- ダイナース
+- 有効期限
+- 期限
+- キャッシュカード
+- キャッシュ カード
+- カード名義人
+- カードの名義人
+- カードの名義
+- デビット カード
+- デビットカード
 
 ## <a name="croatia-drivers-license-number"></a>크로아티아 운전 면허 번호
 이 중요 한 정보 유형 엔터티는 EU 드라이버의 라이선스 번호 중요 정보 유형 에서만 사용할 수 있습니다.
@@ -3463,7 +3556,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -3550,7 +3643,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -3841,7 +3934,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -4894,7 +4987,7 @@ EU 드라이버의 라이선스 번호 중요 한 정보 유형에 서 해당 �
 - [불가리아](#bulgaria-drivers-license-number)
 - [크로아티아](#croatia-drivers-license-number)
 - [키프로스](#cyprus-drivers-license-number)
-- [Czech](#czech-drivers-license-number)
+- [체코어](#czech-drivers-license-number)
 - [덴마크](#denmark-drivers-license-number)
 - [에스토니아](#estonia-drivers-license-number)
 - [핀란드](#finland-drivers-license-number)
@@ -4926,7 +5019,7 @@ EU 국가 식별 번호 중요 한 정보 유형의 엔터티입니다.
 - [불가리아](#bulgaria-national-identification-number)
 - [크로아티아](#croatia-identity-card-number)
 - [키프로스](#cyprus-national-identification-number)
-- [Czech](#czech-personal-identity-number)
+- [체코어](#czech-personal-identity-number)
 - [덴마크](#denmark-personal-identification-number)
 - [에스토니아](#estonia-national-identification-number)
 - [핀란드](#finland-national-identification-number)
@@ -4958,7 +5051,7 @@ EU 국가 식별 번호 중요 한 정보 유형의 엔터티입니다.
 - [불가리아](#bulgaria-passport-number)
 - [크로아티아](#croatia-passport-number)
 - [키프로스](#cyprus-passport-number)
-- [Czech](#czech-passport-number)
+- [체코어](#czech-passport-number)
 - [덴마크](#denmark-passport-number)
 - [에스토니아](#estonia-passport-number)
 - [핀란드](#finland-passport-number)
@@ -4989,7 +5082,7 @@ EU 국가 식별 번호 중요 한 정보 유형의 엔터티입니다.
 - [오스트리아](#austria-social-security-number-or-equivalent-identification)
 - [벨기에](#belgium-social-security-number-or-equivalent-identification)
 - [크로아티아](#croatia-social-security-number-or-equivalent-identification)
-- [Czech](#czech-social-security-number-or-equivalent-identification)
+- [체코어](#czech-social-security-number-or-equivalent-identification)
 - [덴마크](#denmark-social-security-number-or-equivalent-identification)
 - [핀란드](#finland-social-security-number-or-equivalent-identification)
 - [프랑스](#france-social-security-number-insee-or-equivalent-identification)
@@ -5009,7 +5102,7 @@ hese 엔터티는 EU 세금 식별 번호 중요 한 정보 유형입니다.
 - [불가리아](#bulgaria-tax-identification-number)
 - [크로아티아](#croatia-tax-identification-number)
 - [키프로스](#cyprus-tax-identification-number)
-- [Czech](#czech-tax-identification-number)
+- [체코어](#czech-tax-identification-number)
 - [덴마크](#denmark-tax-identification-number)
 - [에스토니아](#estonia-tax-identification-number)
 - [핀란드](#finland-tax-identification-number)
@@ -5630,7 +5723,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -6194,7 +6287,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -6724,12 +6817,9 @@ DLP 정책은 300 Func_india_aadhaar 문자에 근접 한 경우에는이 유형
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
 - 정규식 Regex_indonesia_id_card 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 - Keyword_indonesia_id_card에서 키워드가 발견 되었습니다.
-
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- 정규식 Regex_indonesia_id_card 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 
 ```xml
 <!-- Indonesia Identity Card (KTP) Number -->
@@ -6737,10 +6827,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   <Pattern confidenceLevel="85">
      <IdMatch idRef="Regex_indonesia_id_card"/>
      <Match idRef="Keyword_indonesia_id_card"/>
-  </Pattern>
-  <Pattern confidenceLevel="75">
-     <IdMatch idRef="Regex_indonesia_id_card"/>
-  </Pattern>
 </Entity>
 ```
 
@@ -6769,7 +6855,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 각 국가의 형식은 약간 다릅니다. IBAN 중요 한 정보 유형은 다음과 같은 60 국가를 포함 합니다.
 
-ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, to, do, ee, es, fi,,, fr, gb, ge, gi, gl, gr, hr, hu, kw, il, vg,, nl-nl, tn,,,,,,,,, </c12>,,,,,,,,,,,,, rs, l, se, si,
+ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, to, do, ee, es, fi,,, fr, gb, ge, gi, gl, gr, hr, hu, kw, il, vg,, nl-nl, tn,,,,,,,,, ,,,,,,,,,,,,, rs, l, se, si,
 
 ### <a name="checksum"></a>제외
 
@@ -7212,7 +7298,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -7504,7 +7590,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -8449,7 +8535,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -8487,7 +8573,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -8618,7 +8704,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -8923,7 +9009,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -9032,7 +9118,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -9288,7 +9374,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -10220,7 +10306,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -10579,7 +10665,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -11075,7 +11161,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -11138,7 +11224,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -12258,7 +12344,16 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - 소셜 보안
 - great britain
-- 소유권
+
+- NI 번호
+- NI (아니요)
+- 니 #
+- 니 #
+- 소유권 #
+- insurancenumber
+- nationalinsurance #
+- nationalinsurancenumber
+
     
 ## <a name="uk-tax-identification-number"></a>영국 세금 식별 번호
 이 중요 한 정보 유형 엔터티는 EU 세금 식별 번호로 중요 한 정보 유형 으로만 사용할 수 있습니다.
@@ -12693,14 +12788,18 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyword_ssn"></a>Keyword_ssn
 
-- Social Security 
-- Social Security# 
-- Soc Sec 
-- SSN 
-- 있는 SSN 
-- SSN # 
-- 대비 # 
-- 생길 
+- SSA 번호
+- social security number
+- 소셜 보안 #
+- 소셜 보안 #
+- 소셜 보안 아니요
+- Social Security#
+- Soc Sec
+- SSN
+- 있는 SSN
+- SSN #
+- 대비 #
+- 생길
    
 ## <a name="us--uk-passport-number"></a>미국/영국 passport number
 영국 passport 번호 중요 한 정보 유형 엔터티는 EU 여권 번호 중요 한 정보 유형으로 제공 되며 독립 실행형 중요 한 정보 유형 엔터티로 사용할 수 있습니다.

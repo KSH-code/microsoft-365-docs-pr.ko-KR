@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 준수 센터에 새로운 새 솔루션을 추가 하 고, 사용자 의견에 따라 기존 기능을 업데이트 하거나, 새로운 문서 및 업데이트 된 설명서를 롤아웃할 지 여부에 관계 없이 Microsoft 365에서는 지속적인 변경 준수 가로를 유지 하는 데 도움이 됩니다. 이번 달에 제공 된 내용을 확인 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95b23ccdb272c9e91ee4c525fd90679c492efc9b
-ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
+ms.openlocfilehash: 750d8274faa5e68f8d36006f8ccf6d7fa55f8250
+ms.sourcegitcommit: 2179abfe0b7a8bea917eb1c1057ed3795bdf91e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868975"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47336671"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -36,6 +36,32 @@ ms.locfileid: "46868975"
 > [!TIP]
 > 다른 관리 센터에서 어떤 작업을 진행 하 고 싶으십니까? 다음 문서를 확인 하세요.<br>[Microsoft 365 관리 센터의 새로운 기능](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br>[Microsoft Threat Protection의 새로운 기능](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)<br><br>
 [Microsoft 365 로드맵을](https://www.microsoft.com/en-us/microsoft-365/roadmap) 방문 하 여 시작 되었거나, 배포 중이거나, 개발 중 이거나, 이전에 출시 된 microsoft 365 기능에 대해 알아보세요.
+
+## <a name="july-2020"></a>2020년 7월
+
+### <a name="spotlight-on-help-docs"></a>도움말 문서에 대 한 스포트라이트
+
+조직의 중요 한 데이터를 보호 하 고 제어 하는 데 사용 되는 준수 솔루션을 쉽게 이해할 수 있도록 두 개의 새 랜딩 페이지를 만든 후 관련 문서 링크를 비롯 하 여 이러한 목표를 달성 하는 방법에 대해 간략하게 설명 합니다.
+
+[Microsoft 365의 microsoft Information Protection](protect-information.md)<br>
+[Microsoft 365의 microsoft 정보 거 버 넌 스](manage-Information-governance.md)
+
+### <a name="advanced-ediscovery-add-non-custodial-data-sources-to-your-cases"></a>고급 eDiscovery: 사례에 custodial 되지 않는 데이터 원본 추가
+
+Custodian ( [비 custodial 데이터 원본](non-custodial-data-sources.md))과 연결 하지 않고 사례에 데이터를 추가 합니다. 이 custodial 데이터를 보존 해야 하는 경우 새 고급 인덱싱 기능을 사용 하 여이 작업을 수행할 수 있습니다.
+
+### <a name="data-connectors-hr-connector-enhancements"></a>데이터 커넥터: HR 커넥터 향상
+
+(미리 보기) 새 버전의 [HR 커넥터](import-hr-data.md) 를 사용 하면 작업 수준 변경, 성능 검토 및 성능 향상 계획과 관련 된 데이터를 가져올 수 있습니다. 이 데이터는 여러 가지 [참가자 위험 정책](insider-risk-management-policies.md) 에서 관련 작업을 검색 하는 데 사용할 수 있습니다.
+
+### <a name="retention-labels-new-support-for-email"></a>보존 레이블: 새 전자 메일 지원
+
+이제 메시지의 레이블이 지정 된 시기를 기반으로 전자 메일 보존을 시작 하는 [보존 레이블을](retention.md#retention-labels) 만들 수 있습니다. 이 설정은 항목 전송 시기에 따라 보존 되는 일정 항목에는 적용 되지 않습니다.
+
+### <a name="sensitivity-labels-new-feature-and-an-improvement"></a>민감도 레이블: 새로운 기능 및 개선
+
+- (미리 보기) 레이블에 대 한 암호화 설정을 구성 하는 경우 [이중 키 암호화](encryption-sensitivity-labels.md#double-key-encryption) 를 사용 하 여 레이블이 지정 된 파일 및 전자 메일을 더 보호 하기 위한 새 옵션을 찾습니다.
+- 민감도 레이블을 만들거나 삭제 하거나 레이블 정책을 만들거나 편집 하거나 삭제 하는 경우 변경 내용이 이제 1 시간 내에 모든 사용자, 앱 및 서비스와 동기화 됩니다.
 
 ## <a name="june-2020"></a>2020년 6월
 
@@ -293,20 +319,3 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 ### <a name="update-to-data-investigations"></a>데이터 조사에 대 한 업데이트
 
 데이터 조사를 수행할 때 이제 원래 위치에서 항목을 삭제할 수 있습니다. 즉, 조직 전체에서 Exchange 사서함, SharePoint 사이트 및 OneDrive 계정에서 항목을 삭제할 수 있습니다. 항목을 증거로 수집 했기 때문에 세부 정보 집합에 보관 된 복사본을 추가 하거나 참조로 유지 하는 것을 조사할 수 있습니다. [자세한 정보](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) 데이터 조사를 수행할 때 이제 원래 위치에서 항목을 삭제할 수 있습니다. 즉, 조직 전체에서 Exchange 사서함, SharePoint 사이트 및 OneDrive 계정에서 항목을 삭제할 수 있습니다. 항목을 증거로 수집 했기 때문에 세부 정보 집합에 보관 된 복사본을 추가 하거나 참조로 유지 하는 것을 조사할 수 있습니다. 자세한 내용은 [Microsoft 365의 data 유출 인시던트 관리](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) 로 이동 하세요. 
-
-## <a name="july-2019"></a>2019년 7월
-
-### <a name="new-admin-roles"></a>새 관리자 역할
-
-조직의 보안 및 규정 준수를 관리 하는 데 도움이 되는 새로운 관리자 역할이 두 개 릴리스 되었습니다. 모든 친구에 게 알리기.
-
-- **준수 데이터 관리자** 이 역할을 가진 사용자에 게는 Microsoft 365 준수 센터, Microsoft 365 관리 센터 및 Azure에서 데이터를 보호 하 고 추적할 수 있는 권한이 있습니다. 또한 Exchange 관리 센터, 준수 관리자, 팀 & 비즈니스용 Skype 관리 센터에 대 한 모든 항목을 관리 하 고 Azure 및 Microsoft 365에 대 한 지원 티켓을 만들 수 있습니다.
-- **보안 운영자**입니다. 이 역할을 가진 사용자는 경고를 관리 하 고 Microsoft 365 보안 센터, Azure Active Directory, Id 보호, 권한이 부여 된 Id 관리 및 Office 365 보안 & 준수 센터의 모든 항목을 포함 하 여 보안 관련 기능에 대 한 전역 읽기 전용 액세스 권한을 갖습니다.
-
-[이러한 역할에 대해 자세히 알아보기](https://docs.microsoft.com/microsoft-365/security//office-365-security/permissions-microsoft-365-compliance-security)
-
-### <a name="search-and-filtering-for-reports"></a>보고서 검색 및 필터링
-
-보고서의 해상로 스크롤하여 원하는 것을 찾을 수 없습니다. 이제 제목에 따라 보고서를 검색 하 고 ' 레이블 ' 및 ' 준수 ', ' Office 365 ' 및 ' Microsoft Cloud App Security '와 같은 원본 범주에 대 한 필터링을 수행할 수 있습니다.
-
-![필터가 적용 된 보고서의 검색 및 필터 단추 화면 캡처](../media/mcc_report_filtering.png)

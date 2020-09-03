@@ -13,12 +13,12 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: fb1290a0f0b884fdbc630cbfcd10cd1102c8acae
-ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
+ms.openlocfilehash: a5f3f93ad70210143cbe774c2a4e96542b1cfd34
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597512"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332679"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Microsoft 365에서 위협 보호 기능 구성
 
@@ -32,12 +32,12 @@ MFA ( [multi-factor authentication](https://docs.microsoft.com/azure/active-dire
 Microsoft는 모든 SaaS 응용 프로그램 (특히 Microsoft 365)에 대 한 액세스를 보호 하기 위한 특정 조건부 액세스 및 관련 정책 집합을 테스트 하 고 권장 합니다. 기준, 중요 및 높은 규제 된 보호에 대 한 정책은 권장 됩니다. 먼저 기준 보호에 대 한 정책을 구현 합니다. 
 
 
-[ ![ Id 및 장치 액세스를 구성 하기 위한 일반 정책](../media/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png) 
- [더 큰 버전의 이미지를 참조 하세요](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png) .
+[ ![ Id 및 장치 액세스를 구성 하기 위한 일반 정책](../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png) 
+ [더 큰 버전의 이미지를 참조 하세요](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png) .
 
 ### <a name="to-implement-baseline-protection-for-microsoft-365"></a>Microsoft 365에 대 한 기본 보호를 구현 하려면
 
-![위협 보호 기능 배포 프로세스](../media/solutions-architecture-center/deploy-threat-protection-identity-access-steps.png) 
+![기본 보호 배포 프로세스](../media/solutions-architecture-center/deploy-threat-protection-identity-access-steps.png) 
 
 1. [Azure Id 보호를 포함 한 필수 구성 요소를 구성](../enterprise/identity-access-prerequisites.md)합니다.
 2. 기본 보호에 대 한 [일반 id 및 장치 액세스 정책을 구성](../enterprise/identity-access-policies.md) 합니다.
@@ -60,7 +60,7 @@ Azure ATP에서는 하이브리드 환경의 고급 공격을 검색 하는 데 
 
 ### <a name="to-set-up-azure-atp"></a>Azure ATP를 설정 하려면
 
-![위협 보호 기능 배포 프로세스](../media/solutions-architecture-center/deploy-azure-atp-steps.png) 
+![Azure ATP 배포 프로세스](../media/solutions-architecture-center/deploy-azure-atp-steps.png) 
 
 1. [AZURE ATP를 설정](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) 하 여 기본 환경을 보호 합니다.
 2. 모든 [도메인 컨트롤러](https://docs.microsoft.com/azure-advanced-threat-protection/atp-sensor-monitoring) 와 [포리스트](https://docs.microsoft.com/azure-advanced-threat-protection/atp-multi-forest)를 보호 합니다.
@@ -80,7 +80,7 @@ Microsoft Threat Protection은 작업 (Azure ATP, Office 365 ATP, Microsoft Defe
 
 ### <a name="to-set-up-microsoft-threat-protection"></a>Microsoft Threat Protection을 설정 하려면
 
-![위협 보호 기능 배포 프로세스](../media/solutions-architecture-center/deploy-mtp-steps.png) 
+![Microsoft Threat Protection 배포 프로세스](../media/solutions-architecture-center/deploy-mtp-steps.png) 
 
 1. [필수 구성 요소를 검토](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites)합니다.
 2. [Microsoft Threat Protection을 사용 하도록 설정](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable)합니다.
@@ -104,7 +104,7 @@ Office 365 ATP를 사용 하면 조직의 사용자가 전자 메일 콘텐츠 �
 
 ### <a name="to-set-up-office-365-atp"></a>Office 365 ATP를 설정 하려면
 
-![위협 보호 기능 배포 프로세스](../media/solutions-architecture-center/deploy-office365-atp-steps.png) 
+![Office 365 ATP 배포 프로세스](../media/solutions-architecture-center/deploy-office365-atp-steps.png) 
 
 1. [Office 365 ATP 정책을 설정 하 고 구성](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)합니다.
 2. [Office 365 ATP 보고서를 보고 사용](https://docs.microsoft.com/microsoft-365/security/office-365-security/view-reports-for-atp)합니다.
@@ -122,7 +122,7 @@ Microsoft [Defender Advanced Threat Protection](https://docs.microsoft.com/windo
 
 ### <a name="set-up-microsoft-defender-atp"></a>Microsoft Defender ATP 설정
 
-![위협 보호 기능 배포 프로세스](../media/solutions-architecture-center/deploy-mdatp-steps.png) 
+![Microsoft Defender ATP 배포 프로세스](../media/solutions-architecture-center/deploy-mdatp-steps.png) 
 
 1. [Microsoft DEFENDER ATP 배포를 준비](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases)합니다.
 2. [Microsoft Defender ATP 배포 설정](https://docs.microsoft.com/windows/security/threat-protection/micros.oft-defender-atp/production-deployment)
@@ -140,7 +140,7 @@ Microsoft [Defender Advanced Threat Protection](https://docs.microsoft.com/windo
 
 ### <a name="set-up-microsoft-cloud-app-security"></a>Microsoft Cloud App Security 설정
 
-![위협 보호 기능 배포 프로세스](../media/solutions-architecture-center/deploy-mcas-steps.png) 
+![Microsoft Cloud App Security 배포 프로세스](../media/solutions-architecture-center/deploy-mcas-steps.png) 
 
 1. [포털 및 기타 기본 요구 사항을 설정](https://docs.microsoft.com/cloud-app-security/general-setup)합니다.
 2. [클라우드 검색을 설정](https://docs.microsoft.com/cloud-app-security/set-up-cloud-discovery) 하 고 [앱을 연결](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps)합니다.
@@ -185,7 +185,7 @@ Microsoft 365에서는 조직에서 사용자에 게 알릴 수 있도록 다음
 |---------|---------|
 |Microsoft 365     |[사용자 지정 가능한 학습 경로](https://docs.microsoft.com/office365/customlearning/) <p>이러한 리소스를 통해 조직의 최종 사용자에 게 교육을 추가 하는 데 도움이 될 수 있습니다.        |
 |Microsoft 365 보안 |[학습 모듈: 기본 제공 되는 Microsoft 365의 지능형 보안을 사용 하 여 조직 보호](https://docs.microsoft.com/learn/modules/security-with-microsoft-365) <p>이 모듈을 사용 하 여 Microsoft 365 보안 기능이 함께 작동 하는 방식에 대해 설명 하 고 이러한 보안 기능의 이점을 구체화할 수 있습니다. |
-|Multi-Factor Authentication     | [2 단계 인증: 추가 확인 페이지 란?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>이 문서에서는 최종 사용자가 다단계 인증을 이해 하 고 조직에서이를 사용 하는 이유를 파악 하는 데 도움이 됩니다.    |
+|다단계 인증     | [2 단계 인증: 추가 확인 페이지 란?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>이 문서에서는 최종 사용자가 다단계 인증을 이해 하 고 조직에서이를 사용 하는 이유를 파악 하는 데 도움이 됩니다.    |
 
 이 지침 외에도, 사용자가 [해커 및 맬웨어로부터 계정 및 장치를 보호](https://support.office.com/article/066d6216-a56b-4f90-9af3-b3a1e9a327d6.aspx)하는이 문서에서 설명 하는 작업을 수행 하는 것이 좋습니다. 이러한 작업은 다음과 같습니다.
 - 강력한 암호 사용

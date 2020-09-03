@@ -17,12 +17,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: 9eaea7579faedace50ca76a69997fbfd83e452bb
-ms.sourcegitcommit: 4ac96855d7c269a0055ca8943000b762a70ca4ba
+ms.openlocfilehash: 72344e1918a85de65ab7de8a60b7ace0b2629ac6
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321934"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332752"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
@@ -161,7 +161,7 @@ Pc 용으로 권장 되는 Microsoft 365 앱이 포함 된 Windows 10 Azure는 �
 ![Id 및 장치 액세스를 구성 하는 단계입니다.](../media/microsoft-365-policies-configurations/identity-device-access-steps.png)
 
 1. 필수 구성 요소 id 기능과 해당 설정을 구성할 때
-2. 가장 일반적인 id를 구성 하 고 조건부 액세스 정책에 액세스 합니다.
+2. 일반 id를 구성 하 고 조건부 액세스 정책에 액세스 합니다.
 3. 게스트 및 외부 사용자에 대 한 조건부 액세스 정책을 구성 합니다.
 4. Microsoft 팀, Exchange Online 및 SharePoint와 같은 Microsoft 365 클라우드 앱에 대 한 조건부 액세스 정책을 구성 합니다.
 

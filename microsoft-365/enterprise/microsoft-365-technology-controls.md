@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 기술 컨트롤
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 microsoft 365의 기술 제어를 위해 Microsoft에서 사용 하는 도구 및 기술에 대 한 개요를 제공 합니다.
-ms.openlocfilehash: 53b7a05dba52fbe8c3bb8502441c67bd2be1957d
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 66faac9c045dd9b6f6c0c7ea29ca1570e3ad8e19
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692301"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332703"
 ---
 # <a name="microsoft-365-technology-controls"></a>Microsoft 365 기술 컨트롤 
 
