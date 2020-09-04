@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,19 +18,15 @@ ms.custom:
 - SaRA
 - AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
-- GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
-description: '제품 키를 사용하여 비즈니스용 Microsoft 365 구독을 갱신하고 반복되는 청구 기능을 끄거나 켜는 방법을 알아봅니다. '
-ms.openlocfilehash: 8dd9697f95e238ff759b90b1fef7544be9196c85
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: 되풀이 청구를 끄거나 켜서 Microsoft 365를 갱신하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 1bf6d3957479d1cb695075e139dc4af2a09db3df
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403225"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324307"
 ---
 # <a name="renew-microsoft-365-for-business"></a>비즈니스용 Microsoft 365 갱신
 
@@ -57,18 +53,15 @@ ms.locfileid: "44403225"
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
-
 2. 되풀이 청구를 관리할 구독을 선택합니다.
-
-3. **청구**에서 **갱신일**이나 **만료일**옆의 **편집**을 선택합니다.
-
-4. 설정을 해제하려면 **되풀이 청구 설정** 창에서 **끄기**를 선택합니다. 되풀이 청구가 꺼져 있는 경우, **월별**이나 **한 번**을 선택하여 켭니다.
-
-5. **변경 내용 제출**을 선택합니다.
+3. 구독 세부 정보 페이지의 **구독 및 결제 설정**에서 **되풀이 청구 편집**을 선택합니다.
+4. **되풀이 청구 설정 편집**창에서 **켜기**, **한켜기(단, 한 번만 갱신)**, 또는 **끄기**를 선택합니다.
+5. **저장**을 선택합니다.
 
     > [!NOTE]
     > - 활성 구독에 대해서만 **되풀이 청구** 설정을 변경할 수 있습니다. 구독이 이미 만료되었거나 비활성화된 경우에는 **되풀이 청구**를 켜거나 끄기 전에 먼저 [다시 활성화](reactivate-your-subscription.md)해야 합니다.
-    > - **되풀이 청구**가 꺼지는 경우, 구독이 바로 취소되지 않습니다. 구독은 만료될 때까지 활성 상태로 유지됩니다. **내 상품**페이지에서 구독 세부 정보의**청구** 구역에서 만료 날짜를 확인할 수 있습니다.
+    > - **되풀이 청구**를 끌 경우, 구독이 바로 취소되지는 않습니다. 구독을 활성 상태로 유지하려면 청구서를 수동으로 결제해야 합니다.
+    > - **되풀이 요금 청구**를 끄면 구독이 만료될 때까지 활성 상태로 유지됩니다. **구독 및 결제 설정** 섹션의 구독 세부 정보 페이지에서 만료 날짜를 확인할 수 있습니다.
     > - 구독을 바로 취소하는 방법에 대한 자세한 내용은 [구독 취소](cancel-your-subscription.md)를 참조하세요.
 
 ::: moniker-end
