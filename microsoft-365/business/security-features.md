@@ -24,20 +24,18 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Pc, 휴대폰 및 태블릿에서 데이터를 안전 하 게 보호 하기 위해 Microsoft 365 Business Premium에 제공 되는 보안 기능에 대해 알아봅니다.
-ms.openlocfilehash: 839b5481e27591e1762a0d8eb5623f279d6d22dd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 5e16d4bf297d363b6f9b44ce854c857e7e5464ed
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402717"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357321"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Microsoft 365 Business Premium 보안 및 규정 준수 기능
 
 Microsoft 365 Business Premium은 Pc, 휴대폰 및 태블릿에서 데이터를 보호 하는 데 도움이 되는 단순화 된 보안 기능을 제공 합니다.
     
 ## <a name="microsoft-365-admin-center-security-features"></a>Microsoft 365 관리 센터 보안 기능
-
-[![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 관리 센터에서 다양 한 Microsoft 365 Business Premium 보안 기능을 관리 하 여 이러한 기능을 설정 하거나 해제할 수 있습니다. 관리 센터에서는 다음을 수행할 수 있습니다.
   
@@ -108,7 +106,7 @@ Microsoft 365 Business Premium subscription에는 준수 및 규정 표준을 �
     
 - **[민감도 레이블](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)**
 
-   Microsoft 365 Business Premium에는 [Azure Information Protection 계획 1](https://go.microsoft.com/fwlink/p/?linkid=871407)의 모든 기능이 포함 되어 있습니다. 이 요금제를 사용 하면 전자 메일 및 문서에 있는 중요 한 정보에 대 한 액세스를 제어 하는 **민감도 레이블을** 만들 수 있으며 "전달 금지" 및 "복사 하지 않음" 등의 컨트롤이 있습니다. 중요 한 정보를 "기밀"으로 분류 하 고 분류 된 정보를 비즈니스 외부 및 내부에 공유 하는 방법을 지정할 수도 있습니다. 엔터프라이즈 등급 암호화는 전자 메일 및 문서에 쉽게 적용할 수 있으며 정보를 비공개로 유지 하는 데 사용 됩니다. Office 용 Azure Information Protection 클라이언트 추가 기능을 설치할 수도 있습니다. 자세한 내용은 [Azure Information Protection 통합 레이블 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)를 참조 하세요. 민감도 레이블의 경우 AzInfoProtection_UL를 설치 합니다 **.**
+   Microsoft 365 Business Premium에는 [Azure Information Protection 계획 1](https://go.microsoft.com/fwlink/p/?linkid=871407)의 모든 기능이 포함 되어 있습니다. 이 요금제를 사용 하면 전자 메일 및 문서에 있는 중요 한 정보에 대 한 액세스를 제어 하는 **민감도 레이블을** 만들 수 있으며 "전달 금지" 및 "복사 하지 않음" 등의 컨트롤이 있습니다. 중요 한 정보를 "기밀"으로 분류 하 고 분류 된 정보를 비즈니스 외부 및 내부에 공유 하는 방법을 지정할 수도 있습니다. 엔터프라이즈 등급 암호화는 전자 메일 및 문서에 쉽게 적용할 수 있으며 정보를 비공개로 유지 하는 데 사용 됩니다. Office 용 Azure Information Protection 클라이언트 추가 기능을 설치할 수도 있습니다. 자세한 내용은 [Azure Information Protection 통합 레이블 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)를 참조 하세요. 민감도 레이블의 경우 **AzInfoProtection_UL.exe**를 설치 합니다.
 
 이러한 기능은 보안 &amp; 및 준수 센터 및 Intune 관리 센터에서 관리할 수 있습니다. 시간이 지남에 따라 간소화 된 컨트롤이 Microsoft 365 관리 센터에 추가 됩니다.
   

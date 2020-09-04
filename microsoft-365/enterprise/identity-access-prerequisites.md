@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: ca898fa76ff45fe15a6dc48e7ad8bcae3e94951c
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: 40910c00a91a1e98d01fe2e25a4f9aed828a024a
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332556"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357977"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Id 및 장치 액세스 정책을 구현 하기 위한 필수 작업
 
@@ -116,6 +116,6 @@ Microsoft 365 E3 또는 E5 또는 별도의 Azure AD Premium P1 또는 P2 라이
 
 ## <a name="next-step"></a>다음 단계
 
-![2 단계: 일반 id를 구성 하 고 조건부 액세스 정책에 액세스 합니다.](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)
+![2 단계: 일반 id 구성 및 조건부 액세스 정책 액세스](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)
 
 [일반 id 및 장치 액세스 정책 구성](identity-access-policies.md)
