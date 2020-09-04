@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 f1_keywords:
 - ms.o365.cc.CustomizeExport
 ms.service: O365-seccomp
@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: '보안 & 준수 센터의 콘텐츠 검색에서 로컬 컴퓨터로 검색 결과를 내보냅니다. 전자 메일 결과를 PST 파일로 내보냅니다. SharePoint의 콘텐츠 및 비즈니스용 OneDrive 사이트는 기본 Office 문서로 내보내집니다. '
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6fda7c103b90664fc6c31c3f0436b6d360468537
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 97073c95af986afcbe932dfc2b5bc840d5e2dc5c
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817757"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357936"
 ---
 # <a name="export-content-search-results"></a>콘텐츠 검색 결과 내보내기
 
@@ -63,13 +63,13 @@ ms.locfileid: "44817757"
     
 - 검색 결과를 내보낼 때 데이터가 로컬 컴퓨터로 다운로드 되기 전에 Microsoft 클라우드에서 Microsoft가 제공한 Azure 저장소 위치에 일시적으로 저장 됩니다. 조직이 Azure의 끝점에 연결할 수 있는지 (와일드 카드는 내보내기에 대 한 고유 식별자를 나타냄) ** \* blob.core.windows.net 합니다** . 검색 결과 데이터는 만들어진 후 2 주 후 Azure 저장소 위치에서 삭제 됩니다. 
     
-- 조직에서 프록시 서버를 사용 하 여 인터넷에 통신 하는 경우 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 프록시 서버 설정을 정의 해야 합니다 (따라서 내보내기 도구를 프록시 서버에서 인증할 수 있음). 이렇게 하려면 사용자의 Windows 버전과 일치 하는 위치에서 *machine.config* 파일을 엽니다. 
+- 조직에서 프록시 서버를 사용 하 여 인터넷에 통신 하는 경우 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 프록시 서버 설정을 정의 해야 합니다 (따라서 내보내기 도구를 프록시 서버에서 인증할 수 있음). 이렇게 하려면 사용자의 Windows 버전과 일치 하는 위치에서  *machine.config*  파일을 엽니다. 
     
   - **32 비트:**`%windir%\Microsoft.NET\Framework\[version]\Config\machine.config`
     
   - **64 비트:**`%windir%\Microsoft.NET\Framework64\[version]\Config\machine.config`
     
-    과 태그 사이의 아무 *machine.config* 파일에 다음 줄을 추가 `<configuration>` 합니다 `</configuration>` . `ProxyServer` `Port` 예를 들어,와 같이 조직의 올바른 값을 교체 해야 `proxy01.contoso.com:80` 합니다. 
+    과 태그 사이의 아무  *machine.config*  파일에 다음 줄을 추가  `<configuration>` 합니다  `</configuration>` . `ProxyServer` `Port` 예를 들어,와 같이 조직의 올바른 값을 교체 해야 `proxy01.contoso.com:80` 합니다. 
     
     ```text
     <system.net>
@@ -289,7 +289,7 @@ ms.locfileid: "44817757"
   
 - 메시지의 파일 경로 이름이 Windows의 최대 문자 제한을 초과 하는 경우 파일 경로 이름이 잘립니다. 하지만 원본 파일 경로 이름이 매니페스트 및 ResultsLog에 나열 됩니다.
     
-- 앞에서 설명한 것 처럼 전자 메일 검색 결과는 파일 시스템의 폴더로 내보내집니다. 개별 메시지의 폴더 경로는 사용자 사서함의 폴더 경로를 복제 합니다. 예를 들어 사용자의 받은 편지함에 있는 "ContosoCase101" 라는 검색 메시지는 폴더 경로에 있습니다 `~ContosoCase101\\<date of export\Exchange\user@contoso.com (Primary)\Top of Information Store\Inbox` . 
+- 앞에서 설명한 것 처럼 전자 메일 검색 결과는 파일 시스템의 폴더로 내보내집니다. 개별 메시지의 폴더 경로는 사용자 사서함의 폴더 경로를 복제 합니다. 예를 들어 사용자의 받은 편지함에 있는 "ContosoCase101" 라는 검색 메시지는 폴더 경로에 있습니다  `~ContosoCase101\\<date of export\Exchange\user@contoso.com (Primary)\Top of Information Store\Inbox` . 
     
 - 단일 폴더에 있는 모든 메시지를 포함 하는 하나의 PST 파일에 전자 메일 메시지를 내보내도록 선택한 경우 **지운** 편지함 폴더와 **검색 폴더** 폴더는 최상위 pst 폴더에 포함 됩니다. 이러한 폴더는 비어 있습니다. 
   
@@ -311,7 +311,7 @@ ms.locfileid: "44817757"
   
  ### <a name="filenames-of-exported-items"></a>내보낸 항목의 파일 이름
   
-- 로컬 컴퓨터로 내보낸 전자 메일 메시지 및 사이트 문서에 대 한 전체 경로 이름에는 260 자 제한이 있습니다 (운영 체제에 의해 부과 됨). 내보낸 항목의 전체 경로 이름에는 항목의 원래 위치와 검색 결과가 다운로드 되는 로컬 컴퓨터의 폴더 위치가 포함 됩니다. 예를 들어 eDiscovery 내보내기 도구에서 검색 결과를 다운로드 하도록 지정 하는 경우 `C:\Users\Admin\Desktop\SearchResults` 다운로드 한 전자 메일 항목의 전체 경로 이름은 `C:\Users\Admin\Desktop\SearchResults\ContentSearch1\03.15.2017-1242PM\Exchange\sarad@contoso.com (Primary)\Top of Information Store\Inbox\Insider trading investigation.msg` 입니다.
+- 로컬 컴퓨터로 내보낸 전자 메일 메시지 및 사이트 문서에 대 한 전체 경로 이름에는 260 자 제한이 있습니다 (운영 체제에 의해 부과 됨). 내보낸 항목의 전체 경로 이름에는 항목의 원래 위치와 검색 결과가 다운로드 되는 로컬 컴퓨터의 폴더 위치가 포함 됩니다. 예를 들어 eDiscovery 내보내기 도구에서 검색 결과를 다운로드 하도록 지정 하는 경우  `C:\Users\Admin\Desktop\SearchResults` 다운로드 한 전자 메일 항목의 전체 경로 이름은  `C:\Users\Admin\Desktop\SearchResults\ContentSearch1\03.15.2017-1242PM\Exchange\sarad@contoso.com (Primary)\Top of Information Store\Inbox\Insider trading investigation.msg` 입니다.
     
     260 문자 제한이 초과 되는 경우에는 항목의 전체 경로 이름이 잘립니다.
     
@@ -319,11 +319,11 @@ ms.locfileid: "44817757"
     
   - 파일 이름을 단축 하 고 전체 경로 이름이 여전히 너무 긴 경우에는 항목이 현재 위치에서 상위 폴더로 이동 됩니다. 경로 이름이 여전히 너무 길면 프로세스가 반복 되 고, 파일 이름을 짧게 줄인 다음 다시 상위 폴더로 이동 합니다. 이 프로세스는 전체 경로 이름이 260 문자 제한 미만으로 반복 됩니다.
     
-  - 잘린 전체 경로 이름이 이미 있으면 파일 이름 끝에 버전 번호가 추가 됩니다. 예를 들면 `statusmessage(2).msg` 입니다.
+  - 잘린 전체 경로 이름이 이미 있으면 파일 이름 끝에 버전 번호가 추가 됩니다. 예를 들면  `statusmessage(2).msg` 입니다.
     
-    이 문제를 완화 하려면 짧은 경로 이름을 사용 하 여 검색 결과를 위치에 다운로드 하는 것이 좋습니다. 예를 들어 이름이 이라는 폴더로 검색 결과를 다운로드 하는 `C:\Results` 것 보다 내보낸 항목의 경로 이름에 대 한 문자가 추가 됩니다 `C:\Users\Admin\Desktop\Results` .
+    이 문제를 완화 하려면 짧은 경로 이름을 사용 하 여 검색 결과를 위치에 다운로드 하는 것이 좋습니다. 예를 들어 이름이 이라는 폴더로 검색 결과를 다운로드 하는  `C:\Results` 것 보다 내보낸 항목의 경로 이름에 대 한 문자가 추가 됩니다  `C:\Users\Admin\Desktop\Results` .
     
-- 사이트 문서를 내보낼 때 문서의 원래 파일 이름도 수정 될 수 있습니다. 이 작업은 보류 중인 SharePoint 또는 비즈니스용 OneDrive 사이트에서 삭제 된 문서에 대해 특별히 수행 됩니다. 보류 중인 사이트에 있는 문서를 삭제 하면 삭제 된 문서가 사이트를 보류 했을 때 만들어진 사이트에 대 한 보존 보류 라이브러리로 자동으로 이동 됩니다. 삭제 된 문서를 보존 보류 라이브러리로 이동 하면 해당 문서의 원래 파일 이름에 임의로 생성 된 고유 ID가 추가 됩니다. 예를 들어 문서에 대 한 파일 이름이 `FY2017Budget.xlsx` 있고 나중에 해당 문서를 삭제 하 여 보존 보류 라이브러리로 이동한 경우에는 보존 보류 라이브러리로 이동 된 문서의 파일 이름이 다음과 같이 수정 됩니다 `FY2017Budget_DEAF727D-0478-4A7F-87DE-5487F033C81A2000-07-05T10-37-55.xlsx` . 보존 보류 라이브러리의 문서가 콘텐츠 검색의 쿼리와 일치 하 고 해당 검색의 결과를 내보내는 경우 내보낸 파일의 파일 이름이 수정 됩니다. 이 예에서 내보낸 문서의 파일 이름은 `FY2017Budget_DEAF727D-0478-4A7F-87DE-5487F033C81A2000-07-05T10-37-55.xlsx` 입니다.
+- 사이트 문서를 내보낼 때 문서의 원래 파일 이름도 수정 될 수 있습니다. 이 작업은 보류 중인 SharePoint 또는 비즈니스용 OneDrive 사이트에서 삭제 된 문서에 대해 특별히 수행 됩니다. 보류 중인 사이트에 있는 문서를 삭제 하면 삭제 된 문서가 사이트를 보류 했을 때 만들어진 사이트에 대 한 보존 보류 라이브러리로 자동으로 이동 됩니다. 삭제 된 문서를 보존 보류 라이브러리로 이동 하면 해당 문서의 원래 파일 이름에 임의로 생성 된 고유 ID가 추가 됩니다. 예를 들어 문서에 대 한 파일 이름이  `FY2017Budget.xlsx` 있고 나중에 해당 문서를 삭제 하 여 보존 보류 라이브러리로 이동한 경우에는 보존 보류 라이브러리로 이동 된 문서의 파일 이름이 다음과 같이 수정 됩니다  `FY2017Budget_DEAF727D-0478-4A7F-87DE-5487F033C81A2000-07-05T10-37-55.xlsx` . 보존 보류 라이브러리의 문서가 콘텐츠 검색의 쿼리와 일치 하 고 해당 검색의 결과를 내보내는 경우 내보낸 파일의 파일 이름이 수정 됩니다. 이 예에서 내보낸 문서의 파일 이름은  `FY2017Budget_DEAF727D-0478-4A7F-87DE-5487F033C81A2000-07-05T10-37-55.xlsx` 입니다.
     
     보류 중인 사이트의 문서가 수정 되 고 사이트의 문서 라이브러리에 대 한 버전 관리를 사용 하도록 설정한 경우 파일의 복사본이 보존 보류 라이브러리에 자동으로 만들어집니다. 이 경우에는 보존 보류 라이브러리에 복사 되는 문서의 파일 이름에 임의로 생성 되는 고유 ID도 추가 됩니다.
     

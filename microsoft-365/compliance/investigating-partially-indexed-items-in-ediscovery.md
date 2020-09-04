@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: 1/26/2018
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -18,12 +18,12 @@ ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 ms.custom:
 - seo-marvel-apr2020
 description: 조직 내의 Exchange, SharePoint 및 OneDrive에서 부분적으로 인덱싱된 (또는 인덱싱되지 않은) 항목을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ed85a9351aad340c5840b6b9b9ea6e55833ed527
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 4c2da954316450e22f481f1a5093077be79cc67e
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817527"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357380"
 ---
 # <a name="investigating-partially-indexed-items-in-ediscovery"></a>EDiscovery에서 부분적으로 인덱싱된 항목 조사
 
@@ -43,13 +43,13 @@ ms.locfileid: "44817527"
   
 ## <a name="why-does-the-partially-indexed-item-count-change-for-a-search"></a>검색에서 부분적으로 인덱싱된 항목 수가 변경 되는 이유는 무엇 인가요?
 
-보안 & 준수 센터에서 콘텐츠 검색을 실행 한 후 검색 된 위치에 있는 부분적으로 인덱싱된 항목의 총 수와 크기는 search에 대 한 자세한 통계에 표시 되는 검색 결과 통계에 나열 됩니다. 참고 이러한 항목은 검색 통계에서 *인덱싱되지 않은 항목이* 라고도 합니다. 검색 결과에서 반환 되는 부분적으로 인덱싱된 항목의 수에 영향을 주는 몇 가지 사항은 다음과 같습니다. 
+보안 & 준수 센터에서 콘텐츠 검색을 실행 한 후 검색 된 위치에 있는 부분적으로 인덱싱된 항목의 총 수와 크기는 search에 대 한 자세한 통계에 표시 되는 검색 결과 통계에 나열 됩니다. 참고 이러한 항목은 검색 통계에서  *인덱싱되지 않은 항목이*  라고도 합니다. 검색 결과에서 반환 되는 부분적으로 인덱싱된 항목의 수에 영향을 주는 몇 가지 사항은 다음과 같습니다. 
   
 - 항목이 부분적으로 인덱싱되 고 검색 쿼리와 일치 하는 경우 검색 결과 항목 및 부분적으로 인덱싱된 항목의 개수와 크기 모두에 포함 됩니다. 그러나 같은 검색의 결과를 내보내면 항목은 검색 결과 집합에만 포함 됩니다. 부분적으로 인덱싱된 항목은 포함 되지 않습니다.
     
 - 키워드 쿼리 또는 조건을 사용 하 여 검색 쿼리의 날짜 범위를 지정 하는 경우 날짜 범위와 일치 하지 않는 부분적으로 인덱싱된 항목이 부분적으로 인덱싱된 항목의 수에 포함 되지 않습니다. 날짜 범위 내에 속하는 부분적으로 인덱싱된 항목만 부분 인덱싱된 항목의 수에 포함 됩니다.
     
- **참고:** SharePoint 및 OneDrive 사이트에 있는 부분적으로 인덱싱된 항목은 검색에 대 한 자세한 통계에 표시 되는 부분적으로 인덱싱된 항목의 예상 기간에 포함 *되지 않습니다* . 그러나 콘텐츠 검색 결과를 내보낼 때 부분적으로 인덱싱된 항목을 내보낼 수 있습니다. 예를 들어 콘텐츠 검색 에서만 사이트를 검색 하는 경우 예상 되는 숫자의 부분 인덱싱된 항목은 0입니다. 
+ **참고:** SharePoint 및 OneDrive 사이트에 있는 부분적으로 인덱싱된 항목은 검색에 대 한 자세한 통계에 표시 되는 부분적으로 인덱싱된 항목의 예상 기간에 포함  *되지 않습니다*  . 그러나 콘텐츠 검색 결과를 내보낼 때 부분적으로 인덱싱된 항목을 내보낼 수 있습니다. 예를 들어 콘텐츠 검색 에서만 사이트를 검색 하는 경우 예상 되는 숫자의 부분 인덱싱된 항목은 0입니다. 
   
 ## <a name="calculating-the-ratio-of-partially-indexed-items-in-your-organization"></a>조직에서 부분적으로 인덱싱된 항목의 비율 계산
 
@@ -95,7 +95,7 @@ Error 태그는 두 가지 정보, 오류 및 파일 형식으로 구성 됩니�
 ```
 
    
- `parseroutputsize`은 오류이 고 `xls` 오류가 발생 한 파일의 파일 형식입니다. 파일 형식이 인식 되지 않았거나 파일 형식이 오류에 적용 되지 않는 경우에는 파일 형식 대신 값이 표시 됩니다 `noformat` . 
+ `parseroutputsize` 은 오류이 고  `xls` 오류가 발생 한 파일의 파일 형식입니다. 파일 형식이 인식 되지 않았거나 파일 형식이 오류에 적용 되지 않는 경우에는 파일 형식 대신 값이 표시 됩니다  `noformat` . 
   
 다음은 인덱싱 오류 목록과 오류의 가능한 원인에 대 한 설명입니다.
   
@@ -118,7 +118,7 @@ Error 태그는 두 가지 정보, 오류 및 파일 형식으로 구성 됩니�
 | `retrieverrms` <br/> |콘텐츠 검색기에서 RMS 보호 메시지를 디코딩하지 못했습니다.  <br/> |
 | `wordbreakertruncated` <br/> |색인 중에 너무 많은 단어가 문서에 식별 되었습니다. 제한에 도달 하면 속성 처리가 중지 되 고 속성이 잘립니다.  <br/> |
    
-오류 필드에는 오류 태그 필드에 나열 된 처리 오류의 영향을 받는 필드에 대 한 설명이 나와 있습니다. 또는와 같은 속성을 검색 하는 `subject` 경우 `participants` 메시지 본문의 오류는 검색 결과에 영향을 주지 않습니다. 이는 추가로 조사 해야 하는 부분적으로 인덱싱된 항목을 정확히 결정할 때 유용할 수 있습니다.
+오류 필드에는 오류 태그 필드에 나열 된 처리 오류의 영향을 받는 필드에 대 한 설명이 나와 있습니다. 또는와 같은 속성을 검색 하는  `subject` 경우  `participants` 메시지 본문의 오류는 검색 결과에 영향을 주지 않습니다. 이는 추가로 조사 해야 하는 부분적으로 인덱싱된 항목을 정확히 결정할 때 유용할 수 있습니다.
   
 ## <a name="using-a-powershell-script-to-determine-your-organizations-exposure-to-partially-indexed-email-items"></a>PowerShell 스크립트를 사용 하 여 부분적으로 인덱싱된 전자 메일 항목에 대 한 조직의 노출을 확인
 
@@ -170,7 +170,7 @@ Error 태그는 두 가지 정보, 오류 및 파일 형식으로 구성 됩니�
   
 ```
 
-2. [보안 및 준수 센터 PowerShell에 연결](https://go.microsoft.com/fwlink/p/?linkid=627084)
+2. [보안 및 준수 센터 PowerShell에 연결](https://go.microsoft.com/fwlink/p/?linkid=627084)합니다.
     
 3. 보안 & 준수 센터 PowerShell에서 1 단계에서 스크립트를 저장 한 폴더로 이동한 후 스크립트를 실행 합니다. 예를 들어:
 

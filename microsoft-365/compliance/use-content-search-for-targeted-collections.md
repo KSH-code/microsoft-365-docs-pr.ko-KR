@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 ms.collection:
 - M365-security-compliance
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 ms.custom: seo-marvel-apr2020
 description: 보안 & 준수 센터에서 콘텐츠 검색을 사용 하 여 특정 사서함 또는 사이트 폴더에 항목이 있는지 확인 하는 대상 모음을 수행 합니다.
-ms.openlocfilehash: 179d893c153af337cf6b8b9ed633172e22cf208a
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+ms.openlocfilehash: 7257ae669e7d325140af546466fb3e6a8a8a17fe
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324584"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357658"
 ---
 # <a name="use-content-search-for-targeted-collections"></a>대상 지정 컬렉션을 위해 콘텐츠 검색 사용
 

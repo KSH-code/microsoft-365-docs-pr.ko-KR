@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - ms.o365.cc.UnindexedItemsLearnMore
 ms.service: O365-seccomp
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: d1691de4-ca0d-446f-a0d0-373a4fc8487b
 description: 보안 & 준수 센터를 통해 실행 되는 콘텐츠 검색에 포함할 수 있는 Exchange 및 SharePoint의 인덱싱되지 않은 항목에 대해 알아봅니다.
-ms.openlocfilehash: 587f887a7ecd8e7393b2f6852a070dd040ff1bda
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: d4d9cfec03c4d7ca5af7ee68b077985ffb5d97dc
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936343"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358560"
 ---
 # <a name="partially-indexed-items-in-content-search"></a>콘텐츠 검색에서 부분적으로 인덱싱된 항목
 
@@ -125,7 +125,7 @@ SharePoint 문서에 대 한 인덱싱 제한 목록은 [Sharepoint Online의 �
 |최대 파서 출력  <br/> |200만 자  <br/> |인덱싱되는 파서의 최대 텍스트 출력 크기입니다. 예를 들어 파서가 문서에서 800만 자를 추출할 경우 처음 200만 자만 인덱싱됩니다.  <br/> |
 |최대 주석 토큰  <br/> |200만  <br/> |전자 메일 메시지가 인덱싱되는 경우 각 단어에 해당 단어의 인덱싱 방법을 지정 하는 다양 한 처리 명령으로 주석이 추가 됩니다. 각 처리 명령 집합을 주석 토큰 이라고 합니다. Office 365에서 서비스 품질을 유지 관리 하기 위해 전자 메일 메시지에 대 한 200만 주석 토큰의 제한이 있습니다.  <br/> |
 |인덱스의 최대 본문 크기  <br/> |6700만 자  <br/> |전자 메일 메시지의 본문 및 모든 첨부 파일의 총 문자 수입니다. 전자 메일 메시지가 인덱싱되는 경우 메시지 본문 및 모든 첨부 파일의 모든 텍스트가 단일 문자열로 연결 됩니다. 인덱싱된이 문자열의 최대 크기는 6700만 자입니다.  <br/> |
-|본문의 최대 고유 토큰  <br/> |1,000,000  <br/> |앞에서 설명한 것 처럼 토큰은 콘텐츠에서 텍스트를 추출한 후 문장 부호와 공백을 제거한 다음 인덱스에 저장 되는 단어 (토큰 이라고 함)로 나누는 결과입니다. 예를 들어 구문에는 `"cat, mouse, bird, dog, dog"` 5 개의 토큰이 포함 됩니다. 그러나 이러한 토큰 중 4 개는 유일 합니다. 인덱스에서 임의 토큰을 사용 하 여 인덱스가 너무 커지지 않도록 하는 전자 메일 메시지당 고유 토큰은 100만 개를 넘을 수 없습니다.  <br/> |
+|본문의 최대 고유 토큰  <br/> |1,000,000  <br/> |앞에서 설명한 것 처럼 토큰은 콘텐츠에서 텍스트를 추출한 후 문장 부호와 공백을 제거한 다음 인덱스에 저장 되는 단어 (토큰 이라고 함)로 나누는 결과입니다. 예를 들어 구문에는  `"cat, mouse, bird, dog, dog"` 5 개의 토큰이 포함 됩니다. 그러나 이러한 토큰 중 4 개는 유일 합니다. 인덱스에서 임의 토큰을 사용 하 여 인덱스가 너무 커지지 않도록 하는 전자 메일 메시지당 고유 토큰은 100만 개를 넘을 수 없습니다.  <br/> |
 
 ## <a name="more-information-about-partially-indexed-items"></a>부분적으로 인덱싱된 항목에 대 한 추가 정보
 

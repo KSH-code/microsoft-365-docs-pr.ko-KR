@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: 12/21/2016
 audience: Admin
-ms.topic: overview
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ ms.assetid: 5af334b6-a15d-4f73-97f8-1423457d9f6b
 ms.custom:
 - seo-marvel-apr2020
 description: 중복 eDiscovery 검색 결과를 제거 하 여 전자 메일 메시지의 복사본 하나만 내보내도록 하는 방법을 알아봅니다.
-ms.openlocfilehash: 046ef1e40e293e511672d5a95c6f5248b49d13a2
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 44b56faf54b32e8126885a3344448a4794c35783
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817917"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357528"
 ---
 # <a name="de-duplication-in-ediscovery-search-results"></a>EDiscovery 검색 결과에서 중복 제거
 

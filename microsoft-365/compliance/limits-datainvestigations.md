@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 데이터 조사 (미리 보기)에서 설명, 인덱싱, 검색, 내보내기 및 다운로드 제한에 대 한 정보를 확인 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95e779d56861e22f6fdab41442bb3e839329d193
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 53c71e50dd83332ebd1bb1076b3dbf5dd304b927
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036335"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358506"
 ---
 # <a name="data-investigations-preview-limits"></a>데이터 조사 (미리 보기) 제한
 
@@ -42,7 +42,7 @@ ms.locfileid: "44036335"
   |단일 파일에 포함 된 항목의 깊이  <br/> |25 <sup>1</sup> <br/> |
 |||
 > [!NOTE]
-><sup>1</sup> 파일 한도를 초과 하는 항목은 처리 오류로 표시 됩니다.
+><sup>1</sup>  파일 한도를 초과 하는 항목은 처리 오류로 표시 됩니다.
 
 ## <a name="indexing-limits"></a>인덱싱 제한
 

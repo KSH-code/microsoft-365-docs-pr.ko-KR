@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: 4/26/2017
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -17,13 +17,13 @@ search.appverid:
 ms.assetid: 7b40eeaa-544c-4534-b89b-9f79998e374c
 ms.custom:
 - seo-marvel-apr2020
-description: 이 문서의 Windows PowerShell 스크립트를 사용 하 여 Office 365 또는 Microsoft 365의 준수 센터에서 기존 콘텐츠 검색을 빠르게 복제 합니다.
-ms.openlocfilehash: 28f1264736f158fd686174813b9cefdd087c274c
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: 이 문서의 PowerShell 스크립트를 사용 하 여 Office 365 또는 Microsoft 365의 준수 센터에서 기존 콘텐츠 검색을 빠르게 복제 합니다.
+ms.openlocfilehash: 9bc9329d31ae27736bdcd399c555f5d70bb9c761
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818087"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357906"
 ---
 # <a name="clone-a-content-search"></a>콘텐츠 검색 복제
 
@@ -47,7 +47,7 @@ Office 365 또는 Microsoft 365의 준수 센터에서 콘텐츠 검색을 만�
     
 - 이 스크립트는 복제 중인 콘텐츠 검색이 eDiscovery 사례와 연결 되어 있는지 여부를 고려 합니다. 검색이 사례와 연결 된 경우 새 검색도 동일한 사례에 연결 됩니다. 기존 검색이 사례와 연결 되어 있지 않으면 새 검색이 준수 센터의 **콘텐츠 검색** 페이지에 나열 됩니다. 
     
-- 이 항목에서 제공 하는 예제 스크립트는 Microsoft standard 지원 프로그램 또는 서비스에서 지원 되지 않습니다. 예제 스크립트는 어떤 종류의 보증도 없이 있는 그대로 제공 됩니다. Microsoft는 상품성 또는 특정 목적에 대 한 적합성에 대 한 묵시적 보증을 제한 없이 포함 하 여 모든 묵시적 보증을 배제 합니다. 샘플 스크립트 및 설명서의 사용 또는 성능으로 인해 발생 하는 전체 위험은 사용자에 게 남아 있습니다. No 이벤트가 발생 하는 경우 Microsoft, 작성자는 또는 스크립트의 만들기, 프로덕션 또는 배달에 관여 하는 다른 모든 사용자에 게는 샘플 스크립트 또는 설명서를 사용 하는 것이 불가능 한 경우 (예: 제한 사항, 비즈니스 중단, 비즈니스 정보 손실 또는 기타 pecuniary 손실)에 대 한 책임을 지 며, Microsoft에서 이러한 손해에 대 한 권고를 받은 경우에도 권장 됩니다.
+- 이 항목에서 제공 하는 예제 스크립트는 Microsoft standard 지원 프로그램 또는 서비스에서 지원 되지 않습니다. 예제 스크립트는 어떤 종류의 보증도 없이 있는 그대로 제공 됩니다. 또한 Microsoft는 묵시적인 모든 보증(상품성 또는 특정 목적에의 적합성에 대한 묵시적인 보증을 포함하되 이에 제한되지 않음)을 부인합니다. 샘플 스크립트 및 설명서의 사용 또는 성능으로 인해 발생 하는 전체 위험은 사용자에 게 남아 있습니다. 어떠한 경우에도 Microsoft, 스크립트 작성자 또는 그외 스크립트의 작성, 생산 또는 제공과 관련된 사람은 누구나 샘플 스크립트 또는 문서의 사용 또는 사용할 수 없음으로 인해 발생하는 모든 손해(수익 손실, 비즈니스 중단, 비즈니스 정보 손실 또는 기타 금전상의 손실을 포함하되 이에 제한되지 않음)에 대해 책임지지 않습니다. 이는 Microsoft가 이러한 손해가 발생할 가능성에 대해 알았더라도 마찬가지입니다.
   
 ## <a name="step-1-run-the-script-to-clone-a-search"></a>1 단계: 스크립트를 실행 하 여 검색 복제
 

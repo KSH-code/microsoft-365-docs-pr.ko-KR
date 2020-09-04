@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 f1_keywords:
 - ms.o365.cc.CustomizeExportWithZoom
 ms.service: O365-seccomp
@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 0b6fac2d-8627-4b05-9df0-03609db6248b
 description: Advanced eDiscovery 도구로 추가 분석을 위해 보안 & 준수 센터에서 콘텐츠 검색 결과를 준비 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c0f1540e9745351269e019ea95399ce5c636d8b3
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: b403987c39d1ddcc1f22fd0abbeba85e60591414
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818767"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358570"
 ---
 # <a name="prepare-search-results-for-advanced-ediscovery-classic"></a>Advanced eDiscovery(클래식) 검색 결과 준비
 
@@ -50,7 +50,7 @@ ms.locfileid: "44818767"
     
 - **예측 코딩** -소수의 문서 집합에 대 한 결정을 내릴 수 있도록 하 여 원하는 내용을 시스템에 교육할 수 있습니다. 그러면 고급 eDiscovery가 데이터 집합의 모든 문서를 분석할 때 지침을 기반으로 하 여 해당 학습을 적용 합니다. 이 학습에 따라 Advanced eDiscovery는 사례와 관련이 있을 가능성이 가장 높은 문서에 따라 검토할 문서를 결정할 수 있도록 관련성 순위를 제공 합니다. 
     
-- **검토 응용 프로그램에 대 한 데이터 내보내기** -분석을 완료 하 고 데이터 집합을 줄이고 나면 고급 EDiscovery 및 Microsoft 365에서 데이터를 내보낼 수 있습니다. 내보내기 패키지에는 내보낸 콘텐츠 및 analytics 메타 데이터의 속성을 포함 하는 CSV 파일이 포함 됩니다. 내보낸 패키지는 eDiscovery 검토 응용 프로그램으로 가져올 수 있습니다. 
+- **검토 응용 프로그램에 대 한 데이터 내보내기**  -분석을 완료 하 고 데이터 집합을 줄이고 나면 고급 EDiscovery 및 Microsoft 365에서 데이터를 내보낼 수 있습니다. 내보내기 패키지에는 내보낸 콘텐츠 및 analytics 메타 데이터의 속성을 포함 하는 CSV 파일이 포함 됩니다. 내보낸 패키지는 eDiscovery 검토 응용 프로그램으로 가져올 수 있습니다. 
     
 ## <a name="get-licenses-and-permissions"></a>라이선스 및 사용 권한 가져오기
 

@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365의 고급 eDiscovery 솔루션에 적용 되는 사례 제한, 인덱싱 제한 및 검색 제한에 대해 알아봅니다.
-ms.openlocfilehash: 5666bae5315586ed421ad8d6c748505cda8ae3e6
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: c139480f18e0e6d94aae5a38d5fd636fbc62b2dc
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778464"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358476"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Advanced eDiscovery 제한 사항
 
@@ -60,9 +60,9 @@ ms.locfileid: "46778464"
 |:-----|:-----|
 |단일 검색에서 검색할 수 있는 최대 사서함 또는 사이트 수입니다.  <br/> |제한 없음  <br/> |
 |동시에 실행할 수 있는 최대 검색 수입니다.  <br/> |제한 없음  <br/> | 
-|단일 사용자가 동시에 시작할 수 있는 최대 검색 수입니다.  <br/> |10   <br/> | 
+|단일 사용자가 동시에 시작할 수 있는 최대 검색 수입니다.  <br/> |10    <br/> | 
 |검색 쿼리의 최대 문자 수 (연산자 및 조건 포함)입니다.  <br/> |**사서함**: 1만<br/>**사이트**: 4000-최대 20 <sup>개의 사이트를</sup> 검색할 때 모든 사이트 또는 2000를 검색 하는 경우 <br/> |
-|접두사 와일드 카드에 대 한 최소 영숫자 문자 수입니다. 예를 **들면 \* 1** 또는 **set \* **입니다. <br/> |3(sp3)  <br/> |  
+|접두사 와일드 카드에 대 한 최소 영숫자 문자 수입니다. 예를 **들면 \* 1** 또는 **set \* **입니다. <br/> |3   <br/> |  
 |접두사 와일드 카드를 사용 하 여 정확한 구문을 검색 하거나 접두사 와일드 카드와 **근사** 부울 연산자를 사용 하는 경우 반환 되는 최대 variant입니다.  <br/> |1만 <sup>3</sup> <br/> |
 |검색에 대 한 미리 보기 페이지에 표시 되는 사용자 사서함 당 최대 항목 수입니다. 최신 항목이 표시 됩니다.   <br/> |100  <br/> |
 |검색에 대 한 미리 보기 페이지에 표시 되는 모든 사서함의 최대 항목 수입니다.  <br/> |1,000  <br/> |

@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: overview
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 8f20ca4f-a908-46ec-99e6-9890d269ecf2
 description: Office 365에서 eDiscovery 도구로 실행 되는 검색에 대해 예상 및 실제 검색 결과가 달라질 수 있는 이유를 이해 합니다.
-ms.openlocfilehash: e3dcda1de920dc8266a93a890742f53f409357dc
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 2c127077552b831d5bd890e03772b137338e1674
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936435"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357648"
 ---
 # <a name="differences-between-estimated-and-actual-ediscovery-search-results"></a>예상 및 실제 eDiscovery 검색 결과 차이
 

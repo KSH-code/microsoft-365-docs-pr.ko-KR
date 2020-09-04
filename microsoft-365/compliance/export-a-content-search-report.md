@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 f1_keywords:
 - ms.o365.cc.CustomizeExportReport
 ms.service: O365-seccomp
@@ -22,18 +22,18 @@ search.appverid:
 ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
 description: Office 365의 보안 & 준수 센터에서 콘텐츠 검색의 실제 결과를 내보내는 대신 검색 결과 보고서를 내보낼 수 있습니다. 이 보고서에는 검색 결과에 대 한 요약과 내보낼 각 항목에 대 한 자세한 정보가 있는 문서가 포함 되어 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 25525a0670f31a7e962fb72f6d1559381e8b33cd
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: de27e25945f14f6a6119b4c1776eebca5e84d8ce
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817777"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358304"
 ---
 # <a name="export-a-content-search-report"></a>콘텐츠 검색 보고서 내보내기
 
 보안 & 준수 센터 (및 eDiscovery 사례와 연결 된 콘텐츠 검색)의 콘텐츠 검색에서 전체 검색 결과 집합을 내보내는 대신 검색 결과를 내보낼 때 생성 되는 것과 동일한 보고서를 내보낼 수 있습니다.
   
-보고서를 내보낼 때 콘텐츠 검색과 이름이 같은 폴더에 다운로드 되지만 *_ReportsOnly*에 추가 되어 있습니다. 예를 들어 콘텐츠 검색의 이름이 *ContosoCase0815*인 경우 보고서가 *ContosoCase0815_ReportsOnly*라는 폴더에 다운로드 됩니다. 보고서에 포함 되는 문서 목록은 [보고서에 포함 된 항목](#whats-included-in-the-report)을 참조 하십시오.
+보고서를 내보낼 때 콘텐츠 검색과 이름이 같은 폴더에 다운로드 되지만 *_ReportsOnly*에 추가 되어 있습니다. 예를 들어 콘텐츠 검색의 이름이  *ContosoCase0815*인 경우 보고서가 *ContosoCase0815_ReportsOnly*라는 폴더에 다운로드 됩니다. 보고서에 포함 되는 문서 목록은 [보고서에 포함 된 항목](#whats-included-in-the-report)을 참조 하십시오.
 
 ## <a name="assign-roles-and-check-system-requirements"></a>역할 할당 및 시스템 요구 사항 확인
 

@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 지원 되는 파일 형식 및 데이터 조사 (미리 보기)에 대해 볼 수 있는 뷰어를 나열 하는 표
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b4aef30c3f2bc15c306a7561bab261bdb0bdcace
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 95af625ece261061d6f797b50a382b1905254326
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034542"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357740"
 ---
 # <a name="supported-file-types-in-data-investigations-preview"></a>데이터 조사에서 지원 되는 파일 형식 (미리 보기)
 
@@ -30,45 +30,45 @@ ms.locfileid: "44034542"
 
 | Mime 형식 | File 클래스 | 네이티브 뷰어 | 텍스트 뷰어 | 주석 달기 보기 | 컨테이너 추출 | 간격 |
 | :- | :- | :- | :- | :- | :- | :- |
-| application/msword | 오피스 | 예 | 예 | 예 | 아니요 | .doc; .dat |
-| application/pdf | 오피스 | 예 | 예 | 예 | 아니요 | .pdf |
-| application/rtf | 오피스 | 예 | 예 | 예 | 아니요 | .rtf;. .doc |
-| application/vnd | 오피스 | 예 | 예 | 예 | 아니요 | .xls; .dat |
+| application/msword | 문서 | 예 | 예 | 예 | 아니요 | .doc; .dat |
+| application/pdf | 문서 | 예 | 예 | 예 | 아니요 | .pdf |
+| application/rtf | 문서 | 예 | 예 | 예 | 아니요 | .rtf;. .doc |
+| application/vnd | 문서 | 예 | 예 | 예 | 아니요 | .xls; .dat |
 | application/vnd macroenabled. 12 | 생산성/열린 문서 형식 | 예 | 예 | 아니요 | 아니요 | .xlsb |
-| application/vnd macroenabled. 12 | 오피스 | 예 | 예 | 예 | 아니요 | .xlsm |
-| application/vnd macroenabled. 12 | 생산성/열린 문서 형식 | 아니오 | 예 | 아니요 | 아니요 | . .xltm |
+| application/vnd macroenabled. 12 | 문서 | 예 | 예 | 예 | 아니요 | .xlsm |
+| application/vnd macroenabled. 12 | 생산성/열린 문서 형식 | 아니요 | 예 | 아니요 | 아니요 | . .xltm |
 | application/vnd | 생산성 | 아니요 | 아니요 | 아니요 | 아니요 | .msg |
 | application/vnd | 생산성/공동 작업 | 아니요 | 아니요 | 아니요 | 예 | .pst |
-| application/vnd | 오피스 | 예 | 예 | 예 | 아니요 | .ppt; .pps;. p |
-| application/vnd macroenabled. 12 | 오피스 | 예 | 예 | 예 | 아니요 | .docm |
-| application/vnd macroenabled. 12 | 오피스 | 예 | 예 | 예 | 아니요 | normal.dotm |
-| 응용 프로그램/vnd. 텍스트 | 오피스 | 예 | 예 | 예 | 아니요 | odt  |
-| 응용 프로그램/vnd presentationml presentation | 오피스 | 예 | 예 | 예 | 아니요 | .pptx |
+| application/vnd | 문서 | 예 | 예 | 예 | 아니요 | .ppt; .pps;. p |
+| 응용 프로그램/vnd.ms-word.document macroenabled. 12 | 문서 | 예 | 예 | 예 | 아니요 | .docm |
+| application/vnd macroenabled. 12 | 문서 | 예 | 예 | 예 | 아니요 | normal.dotm |
+| 응용 프로그램/vnd. 텍스트 | 문서 | 예 | 예 | 예 | 아니요 | odt  |
+| 응용 프로그램/vnd presentationml presentation | 문서 | 예 | 예 | 예 | 아니요 | .pptx |
 | 응용 프로그램/vnd. presentationml | 생산성/열린 문서 형식 | 예 | 예 | 예 | 아니요 | . ppsx |
-| application/vnd. presentationml | 오피스 | 예 | 예 | 예 | 아니요 | . potx |
-| 응용 프로그램/vnd. spreadsheetml | 오피스 | 예 | 예 | 예 | 아니요 | .xlsx |
-| application/vnd. spreadsheetml | 오피스 | 예 | 예 | 예 | 아니요 | . .xltx |
-| 응용 프로그램/vnd. wordprocessingml 문서 | 오피스 | 예 | 예 | 예 | 아니요 | .docx |
-| application/vnd. wordprocessingml | 오피스 | 예 | 예 | 예 | 아니요 | . dotx |
-| 응용 프로그램/vnd. visio | 오피스 | 예 | 예 | 예 | 아니요 | .vsd |
+| application/vnd. presentationml | 문서 | 예 | 예 | 예 | 아니요 | . potx |
+| 응용 프로그램/vnd. spreadsheetml | 문서 | 예 | 예 | 예 | 아니요 | .xlsx |
+| application/vnd. spreadsheetml | 문서 | 예 | 예 | 예 | 아니요 | . .xltx |
+| 응용 프로그램/vnd.openxmlformats-officedocument.wordprocessingml.document | 문서 | 예 | 예 | 예 | 아니요 | .docx |
+| application/vnd. wordprocessingml | 문서 | 예 | 예 | 예 | 아니요 | . dotx |
+| 응용 프로그램/vnd. visio | 문서 | 예 | 예 | 예 | 아니요 | .vsd |
 | application/x-y-7z-압축 | 보관/컨테이너 | 아니요 | 아니요 | 아니요 | 예 | .7z |
-| 응용 프로그램/xhtml + xml | 오피스 | 예 | 예 | 예 | 아니요 | . xhtml |
-| application/xml | 오피스 | 예 | 예 | 예 | 아니요 | .xml |
-| 응용 프로그램/x-msaccess.exe | 오피스 | 예 | 예 | 예 | 아니요 | .mdb |
-| 응용 프로그램/x-mspublisher | 오피스 | 예 | 예 | 예 | 아니요 | .pub |
+| 응용 프로그램/xhtml + xml | 문서 | 예 | 예 | 예 | 아니요 | . xhtml |
+| application/xml | 문서 | 예 | 예 | 예 | 아니요 | .xml |
+| 응용 프로그램/x-msaccess.exe | 문서 | 예 | 예 | 예 | 아니요 | .mdb |
+| 응용 프로그램/x-mspublisher | 문서 | 예 | 예 | 예 | 아니요 | .pub |
 | 응용 프로그램/x-rar-압축 | 보관/컨테이너 | 아니요 | 아니요 | 아니요 | 예 | rar |
 | 응용 프로그램/우편 번호 | 보관/컨테이너 | 아니요 | 아니요 | 아니요 | 예 | .zip |
-| image/bmp | 이미지나 | 예 | 예 | 예 | 아니요 | .bmp |
-| image/emf | 이미지나 | 예 | 예 | 예 | 아니요 | .emf |
-| 이미지/gif | 오피스 | 예 | 예 | 예 | 아니요 | .gif |
-| image/jpeg | 이미지나 | 예 | 예 | 예 | 아니요 | .jpg; .jpeg; .dat;. jpgt |
-| 이미지/png | 이미지나 | 예 | 예 | 예 | 아니요 | .png |
-| 이미지/tiff | 이미지나 | 예 | 예 | 예 | 아니요 | .tif |
-| image/vnd | 오피스 | 예 | 예 | 예 | 아니요 | dwg; .dxf |
-| image/wmf | 오피스 | 예 | 예 | 예 | 아니요 | .wmf |
+| image/bmp | 이미지 | 예 | 예 | 예 | 아니요 | .bmp |
+| image/emf | 이미지 | 예 | 예 | 예 | 아니요 | .emf |
+| 이미지/gif | 문서 | 예 | 예 | 예 | 아니요 | .gif |
+| image/jpeg | 이미지 | 예 | 예 | 예 | 아니요 | .jpg; .jpeg; .dat;. jpgt |
+| 이미지/png | 이미지 | 예 | 예 | 예 | 아니요 | .png |
+| 이미지/tiff | 이미지 | 예 | 예 | 예 | 아니요 | .tif |
+| image/vnd | 문서 | 예 | 예 | 예 | 아니요 | dwg; .dxf |
+| image/wmf | 문서 | 예 | 예 | 예 | 아니요 | .wmf |
 | message/rfc822-headers | 생산성/공동 작업 | 아니요 | 아니요 | 아니요 | 아니요 | .eml |
-| text/csv | 오피스 | 예 | 예 | 예 | 아니요 | .csv |
-| 텍스트/html | 오피스 | 예 | 예 | 예 | 아니요 | .html; shtml.dll; .htm |
-| 텍스트/일반 | 오피스 | 예 | 예 | 예 | 아니요 | .txt; .css; con, pl; .csv; .dat |
-| 텍스트/vcard-연락처 | 오피스 | 예 | 예 | 예 | 아니요 | .vcf |
+| text/csv | 문서 | 예 | 예 | 예 | 아니요 | .csv |
+| 텍스트/html | 문서 | 예 | 예 | 예 | 아니요 | .html; shtml.dll; .htm |
+| 텍스트/일반 | 문서 | 예 | 예 | 예 | 아니요 | .txt; .css; con, pl; .csv; .dat |
+| 텍스트/vcard-연락처 | 문서 | 예 | 예 | 예 | 아니요 | .vcf |
 ||||||||

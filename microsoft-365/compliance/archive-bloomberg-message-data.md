@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 데이터 커넥터를 설정 하 여 Bloomberg 메시지 전자 메일 도구에서 Microsoft 365로 데이터를 가져오고 보관 합니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: f9793db545b5298663da7bbfa39a0878854e070d
-ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
+ms.openlocfilehash: b8b144905ad3ff47f54c06985fca9cfef6b70590
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255865"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358294"
 ---
 # <a name="set-up-a-connector-to-archive-bloomberg-message-data-preview"></a>Bloomberg 메시지 데이터를 보관 하는 커넥터 설정 (미리 보기)
 
@@ -43,7 +43,7 @@ Bloomberg 메시지 데이터가 사용자 사서함에 저장 되 면 소송 �
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-Bloomberg 메시지 데이터를 보관 하는 데 필요한 많은 구현 단계는 Microsoft 365 외부에 있으므로, 준수 센터에서 커넥터를 만들기 전에 완료 해야 합니다.
+Bloomberg 메시지 데이터를 보관 하는 데 필요한 일부 구현 단계는 Microsoft 365 외부에 있으므로, 준수 센터에서 커넥터를 만들기 전에 완료 해야 합니다.
 
 - 조직에서는 Office 365 가져오기 서비스가 조직의 사서함 데이터에 액세스할 수 있도록 허용 해야 합니다. 이 요청에 동의 하려면 [이 페이지로](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent)이동 하 여 Office 365 전역 관리자의 자격 증명으로 로그인 한 다음 요청을 수락 합니다. 3 단계에서 Bloomberg 메시지 커넥터를 성공적으로 만들기 전에이 단계를 완료 해야 합니다.
 

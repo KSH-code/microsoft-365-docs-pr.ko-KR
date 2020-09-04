@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 고급 eDiscovery의 대화 재구성 기능을 사용 하 여 스레드 대화를 다시 생성, 검토 및 내보내는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 45cf4bdbf0956ee28e75878b7db5ec84b81c7230
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: bf5c39f567240b58546dbeb353e3e461e9b69e48
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035496"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358346"
 ---
 # <a name="review-conversations-in-advanced-ediscovery"></a>Advanced eDiscovery에서 대화 검토 
 
@@ -132,7 +132,7 @@ ms.locfileid: "44035496"
 
 대화 검토 집합에서 다음 옵션을 설정 하 여 대화를 내보낼 수 있습니다.
 
-![내보내기](../media/export.png)
+![대화 내보내기 옵션](../media/export.png)
 
 a. 메타 데이터 옵션
 

@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 Microsoft 365에서 코어 eDiscovery 사용을 시작 하는 방법에 대해 설명 합니다. EDiscovery 권한을 할당 하 고 사례를 만든 후에는 구성원을 추가 하 고, eDiscovery 보류를 만든 다음, 조사와 관련 된 데이터를 검색 하 고 내보낼 수 있습니다.
-ms.openlocfilehash: 5faae81eb81ce8c69e3ae801d153c664ac152bda
-ms.sourcegitcommit: 6ea9a910a8106a5f1aa589c55d166bfa67fd12a8
+ms.openlocfilehash: 94c85987be4cbc5da7a378abb7ea74294f6fe740
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44280548"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357916"
 ---
 # <a name="get-started-with-core-ediscovery"></a>핵심 eDiscovery 시작
 
@@ -134,7 +134,7 @@ Ediscovery 권한 및 eDiscovery 관리자 역할 그룹에 할당 된 각 역�
 
 1. **[EDiscovery 보류를 만듭니다](create-ediscovery-holds.md)**. 사례를 만든 후 첫 번째 단계는 조사에 관심이 있는 사용자의 콘텐츠 위치에 보류 ( *eDiscovery 보류*라고도 함)를 배치 하는 것입니다. 콘텐츠 위치에는 Exchange 사서함, SharePoint 사이트, OneDrive 계정, Microsoft 팀 및 Office 365 그룹과 연결 된 사서함 및 사이트가 포함 됩니다. 이 단계는 선택 사항 이지만 eDiscovery 보존을 만들려면 조사 중에 사례와 관련이 있을 수 있는 콘텐츠를 보존 합니다. EDiscovery 보류를 만들 때 특정 콘텐츠 위치의 모든 콘텐츠를 유지 하거나 쿼리 기반 보존을 만들어 보류 쿼리와 일치 하는 콘텐츠만 보존할 수 있습니다. 콘텐츠를 보존 하는 것 외에도 eDiscovery 보류를 만드는 또 다른 이유는 다음 단계에서 검색을 만들고 실행할 때 보류 중인 콘텐츠 위치를 빠르게 검색 하는 것입니다. 조사를 완료 한 후에는 직접 만든 모든 보류를 해제할 수 있습니다.
 
-2. **[콘텐츠를 검색](search-for-content-in-core-ediscovery.md)** 합니다. EDiscovery 보류를 만든 후 기본 제공 검색 도구를 사용 하 여 보류 중인 콘텐츠 위치를 검색 합니다. 사례와 관련이 있을 수 있는 데이터에 대 한 다른 콘텐츠 위치를 검색할 수도 있습니다. 사례와 연결 된 다른 검색을 만들고 실행할 수 있습니다. 키워드, 속성 및 조건을 사용 하 여 사례와 관련성이 가장 높은 데이터로 검색 결과를 반환 하는 [검색 쿼리를 작성](keyword-queries-and-search-conditions.md) 합니다. 다음 작업도 수행할 수 있습니다.
+2. **[콘텐츠를 검색](search-for-content-in-core-ediscovery.md)** 합니다. EDiscovery 보류를 만든 후 기본 제공 검색 도구를 사용 하 여 보류 중인 콘텐츠 위치를 검색 합니다. 사례와 관련이 있을 수 있는 데이터에 대 한 다른 콘텐츠 위치를 검색할 수도 있습니다. 사례와 연결 된 다른 검색을 만들고 실행할 수 있습니다. 키워드, 속성 및 조건을 사용 하 여 사례와 관련성이 가장 높은 데이터로 검색 결과를 반환 하는 [검색 쿼리를 작성](keyword-queries-and-search-conditions.md) 합니다. 또한 다음을 수행할 수 있습니다.
 
    - 검색 쿼리를 구체화 하 여 결과 범위를 좁히는 데 도움이 될 수 있는 검색 통계를 확인 합니다.
 

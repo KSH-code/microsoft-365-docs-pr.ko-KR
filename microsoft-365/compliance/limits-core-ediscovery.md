@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 Microsoft 365의 핵심 eDiscovery 사례에 대 한 제한 사항에 대해 설명 합니다.
-ms.openlocfilehash: 00df8cff683701ce5ee38dca12b6f7af5b31c8b0
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 6224ce5ecb8fc0439e43ab5e1362f8a618194202
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351899"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358516"
 ---
 # <a name="limits-in-core-ediscovery"></a>핵심 eDiscovery의 제한 사항
 

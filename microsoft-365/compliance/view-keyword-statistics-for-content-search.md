@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: 1/30/2017
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 9701a024-c52e-43f0-b545-9a53478aec04
 description: 검색 통계 기능을 사용 하 여 보안 & 준수 센터에서 여러 콘텐츠 검색에 대 한 통계를 표시 하 고 비교 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 30cc893d041819ac1fa2e24c6ecf6178677686b2
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 6f9f6b77a7a557ca363b2a7d56b96ea3d6ccc287
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819038"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358466"
 ---
 # <a name="view-keyword-statistics-for-content-search-results"></a>콘텐츠 검색 결과에 대한 키워드 통계 보기
 
@@ -74,7 +74,7 @@ ms.locfileid: "44819038"
     
     d. 이 열에는 콘텐츠 검색 도구에서 실행 되는 실제 검색 쿼리가 포함 됩니다. 이 도구는 사용자가 만드는 쿼리에 몇 가지 추가 구성 요소를 자동으로 추가 합니다. 
 
-    - 키워드를 지정 하지 않고 사서함의 모든 콘텐츠를 검색 하는 경우 실제 키 단어 쿼리는 `size>=0` 모든 항목이 반환 되도록 되어 있습니다. 
+    - 키워드를 지정 하지 않고 사서함의 모든 콘텐츠를 검색 하는 경우 실제 키 단어 쿼리는  `size>=0` 모든 항목이 반환 되도록 되어 있습니다. 
     
      - SharePoint Online 및 비즈니스용 OneDrive 사이트를 검색 하면 다음과 같은 두 가지 구성 요소가 추가 됩니다.
     

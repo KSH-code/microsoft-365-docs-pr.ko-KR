@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365에서 고급 eDiscovery 사용을 시작 하는 방법을 설명 합니다. 몇 가지 빠른 단계를 완료 한 후에는 고급 eDiscovery 도구를 사용할 준비가 된 것입니다. 첫 번째 단계는 사례를 만든 다음 고급 eDiscovery 기능 및 기능 사용을 시작 하는 것입니다.
-ms.openlocfilehash: 669ca954401242f7ac8da9a752a99b1b32c1041c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: cc593009337a9b78285fbcf98ad78dbf1899bce1
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632479"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357508"
 ---
 # <a name="get-started-with-advanced-ediscovery"></a>Advanced eDiscovery 시작
 
@@ -60,7 +60,7 @@ Microsoft 365의 고급 eDiscovery는 조직의 내부 및 외부 조사에 응�
 
 다음 단계를 완료 하 여 eDiscovery 관리자 역할 그룹에 사용자를 추가 합니다.
 
-1. [https://protection.office.com/permissions](https://protection.office.com/permissions) 로 이동 하 여 Microsoft 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
+1. 로 이동 하 [https://protection.office.com/permissions](https://protection.office.com/permissions) 여 Microsoft 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
 
 2. **사용 권한** 페이지에서 **eDiscovery 관리자** 역할 그룹을 선택 합니다.
 
@@ -105,7 +105,7 @@ Ediscovery 권한 및 eDiscovery 관리자 역할 그룹에 할당 된 각 역�
 
 다음 단계에서는 사례를 만들고 고급 eDiscovery를 사용 하 여 시작 합니다. 사례를 만들고 구성원을 추가 하려면 다음 단계를 완료 합니다. 서비스 케이스를 만드는 사용자는 자동으로 구성원으로 추가 됩니다.
 
-1. [https://compliance.microsoft.com](https://compliance.microsoft.com) 적절 한 eDiscovery 권한이 할당 된 사용자 계정에 대 한 자격 증명을 사용 하 여으로 이동 하 여 로그인 합니다. 또한 조직 관리 역할 그룹의 구성원은 고급 eDiscovery 사례를 만들 수 있습니다.
+1. 적절 한 [https://compliance.microsoft.com](https://compliance.microsoft.com) eDiscovery 권한이 할당 된 사용자 계정에 대 한 자격 증명을 사용 하 여으로 이동 하 여 로그인 합니다. 또한 조직 관리 역할 그룹의 구성원은 고급 eDiscovery 사례를 만들 수 있습니다.
 
 2. Microsoft 365 준수 센터의 왼쪽 탐색 창에서 **모두 표시**를 클릭 한 다음 **eDiscovery > 고급**을 클릭 합니다.
 
@@ -149,7 +149,7 @@ Ediscovery 권한 및 eDiscovery 관리자 역할 그룹에 할당 된 각 역�
 
    - Advanced eDiscovery의 [통신 워크플로](managing-custodian-communications.md) 를 사용 하 여 custodians에 법적 보존 알림을 보낼 수 있습니다.
 
-2. **[사례와 관련 된 데이터에 대 한 custodial 데이터 원본을 검색 합니다](collecting-data-for-ediscovery.md)**. Custodians를 사례에 추가한 후에는 기본 제공 검색 도구를 사용 하 여 사례와 관련이 있을 수 있는 데이터에 대 한 custodian 데이터 위치를 검색 합니다. 키워드, 속성 및 조건을 사용 하 여 사례와 관련성이 가장 높은 데이터로 검색 결과를 반환 하는 [검색 쿼리를 작성](building-search-queries.md) 합니다. 다음 작업도 수행할 수 있습니다.
+2. **[사례와 관련 된 데이터에 대 한 custodial 데이터 원본을 검색 합니다](collecting-data-for-ediscovery.md)**. Custodians를 사례에 추가한 후에는 기본 제공 검색 도구를 사용 하 여 사례와 관련이 있을 수 있는 데이터에 대 한 custodian 데이터 위치를 검색 합니다. 키워드, 속성 및 조건을 사용 하 여 사례와 관련성이 가장 높은 데이터로 검색 결과를 반환 하는 [검색 쿼리를 작성](building-search-queries.md) 합니다. 또한 다음을 수행할 수 있습니다.
 
    - 검색 쿼리를 구체화 하 여 결과 범위를 좁히는 데 도움이 될 수 있는 [검색 통계](search-statistics.md) 를 확인 합니다.
 

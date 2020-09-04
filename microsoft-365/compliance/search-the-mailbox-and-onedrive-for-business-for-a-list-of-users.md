@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: 1/3/2017
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 ms.collection:
 - M365-security-compliance
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 5f4f8206-2d6a-4cb2-bbc6-7a0698703cc0
 description: 이 문서의 콘텐츠 검색 및 스크립트를 사용 하 여 사용자 그룹에 대 한 사서함 및 비즈니스용 OneDrive 사이트를 검색할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 90aab661992ae2f0c19d18939191230dc0469eaa
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: e3a10913cc4d8618e3d25bdf34e30c9d55a43324
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527364"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357800"
 ---
 # <a name="use-content-search-to-search-the-mailbox-and-onedrive-for-business-site-for-a-list-of-users"></a>콘텐츠 검색을 사용하여 사용자 목록에 대 한 사서함 및 비즈니스용 OneDrive 검색
 
@@ -56,7 +56,7 @@ ms.locfileid: "46527364"
 Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbox'} | Select-Object PrimarySmtpAddress > Users.txt
 ```
 
-이 명령을 실행 한 후에는 파일을 열고 속성 이름이 포함 된 헤더를 제거 해야 `PrimarySmtpAddress` 합니다. 텍스트 파일에는 전자 메일 주소 목록 뿐 아니라 다른 것도 포함 해야 합니다. 전자 메일 주소 목록 앞 이나 뒤에 빈 행이 없는지 확인 합니다.
+이 명령을 실행 한 후에는 파일을 열고 속성 이름이 포함 된 헤더를 제거 해야  `PrimarySmtpAddress` 합니다. 텍스트 파일에는 전자 메일 주소 목록 뿐 아니라 다른 것도 포함 해야 합니다. 전자 메일 주소 목록 앞 이나 뒤에 빈 행이 없는지 확인 합니다.
   
 ## <a name="step-3-run-the-script-to-create-and-start-the-search"></a>3 단계: 스크립트를 실행 하 여 검색 만들기 및 시작
 
@@ -64,7 +64,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
   
 - **사용자 자격 증명** -스크립트는 자격 증명을 사용 하 여 SharePoint Online에 액세스 하 여 비즈니스용 OneDrive url을 가져오고 원격 PowerShell을 사용 하 여 보안 & 준수 센터에 연결 합니다. 
     
-- **내 사이트 도메인 이름** -내 사이트 도메인은 조직 내 모든 비즈니스용 OneDrive 사이트가 포함 된 도메인입니다. 예를 들어 내 사이트 도메인의 URL이 인 경우 **https://contoso-my.sharepoint.com** `contoso` 스크립트에서 내 사이트 도메인 이름을 묻는 메시지를 표시 하는 경우를 입력 합니다. 
+- **내 사이트 도메인 이름** -내 사이트 도메인은 조직 내 모든 비즈니스용 OneDrive 사이트가 포함 된 도메인입니다. 예를 들어 내 사이트 도메인의 URL이 인 경우 **https://contoso-my.sharepoint.com**  `contoso` 스크립트에서 내 사이트 도메인 이름을 묻는 메시지를 표시 하는 경우를 입력 합니다. 
     
 - 2 단계에서 만든 텍스트 파일의 경로 _ 이름 **에서 텍스트 파일의** 이름입니다. 텍스트 파일과 스크립트가 같은 폴더에 있는 경우 텍스트 파일의 이름을 입력 합니다. 그렇지 않으면 텍스트 파일의 전체 경로 이름을 입력 합니다. 
     

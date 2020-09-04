@@ -6,18 +6,18 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: 보안 및 준수 센터에서 콘텐츠 검색 및 eDiscovery의 검색 결과를 다운로드 하려면 최신 버전의 Microsoft Edge를 사용 하려면 ClickOnce 지원을 사용 하도록 설정 해야 합니다.
-ms.openlocfilehash: c48e3fb04747306693364a2cdbc6f18047a0fd9e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 317e19c81a606565fcb18f3256fd5bac007747e1
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632383"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357578"
 ---
 # <a name="use-the-ediscovery-export-tool-in-microsoft-edge"></a>Microsoft Edge에서 eDiscovery 내보내기 도구 사용
 
@@ -29,15 +29,15 @@ ms.locfileid: "43632383"
 
 2. 기존 값이 드롭다운 목록에서 **기본값** 또는 **사용 안** 함으로 설정 되어 있으면 **사용**으로 변경 합니다.
 
-   ![](../media/ClickOnceimage1.png)
+   ![드롭다운 목록에서 사용을 선택 합니다.](../media/ClickOnceimage1.png)
 
 3. 브라우저 창의 아래쪽으로 스크롤한 다음 **다시 시작** 을 클릭 하 여 Edge를 다시 시작 합니다.
 
-   ![](../media/ClickOnceimage2.png)
+   ![다시 시작 클릭](../media/ClickOnceimage2.png)
 
 **참고:** 조직에서는 그룹 정책을 사용 하 여 ClickOnce 지원을 사용 하지 않도록 설정할 수 있습니다. ClickOnce 지원에 대 한 조직 정책이 있는지 확인 하려면 **edge://policy**로 이동 합니다. 다음 스크린샷에서는 전체 조직에서 ClickOnce가 사용 되도록 설정 되어 있음을 보여 줍니다. 이 정책 값이 **false**로 설정 된 경우 조직의 관리자에 게 문의 해야 합니다.
 
-![](../media/ClickOnceimage3.png)
+![에 지 조직 정책 목록](../media/ClickOnceimage3.png)
 
 ## <a name="install-and-run-the-ediscovery-export-tool"></a>EDiscovery 내보내기 도구 설치 및 실행
 
@@ -55,7 +55,7 @@ ms.locfileid: "43632383"
 
 3. **설치**를 클릭합니다. 설치가 완료 되 면 내보내기 도구가 자동으로 실행 됩니다.
 
-자세한 내용은 다음 항목을 참조하세요.
+자세한 내용은 아래 항목을 참조하세요.
 
 - [콘텐츠 검색 결과 내보내기](export-search-results.md)
 

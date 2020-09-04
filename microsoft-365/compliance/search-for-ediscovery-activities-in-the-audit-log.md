@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: EDiscovery 권한이 할당 된 사용자가 보안 & 준수 센터에서 콘텐츠 검색 및 코어 eDiscovery 작업을 수행할 때 기록 되는 이벤트에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 671fdebd75dfdaaf09deebf320b9fe4cfab0ca1c
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 529e1a0ac3dc66ac15bd1b3fbcde466fb36d5f4e
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818877"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357548"
 ---
 # <a name="search-for-ediscovery-activities-in-the-audit-log"></a>감사 로그에서 eDiscovery 활동 검색
 
@@ -215,8 +215,8 @@ ms.locfileid: "44818877"
 |Id  <br/> |작업 속성에 나열 된 작업에 의해 만들어지거나, 변경 되거나, 삭제 되는 개체의 GUID 또는 이름 (예: 콘텐츠 검색 또는 eDiscovery 사례)입니다. 이 개체는 감사 로그 검색 결과의 항목 열에도 식별 됩니다.  <br/> |
 |ObjectType  <br/> |사용자가 만들거나 삭제 하거나 수정한 eDiscovery 개체의 유형입니다. 예를 들어 콘텐츠 검색 작업 (미리 보기, 내보내기 또는 삭제), eDiscovery 사례 또는 콘텐츠 검색 등이 있습니다.  <br/> |
 |작업  <br/> |수행한 eDiscovery 활동에 해당 하는 작업의 이름입니다.  <br/> |
-|조직 id  <br/> |Microsoft 365 조 직의 GUID입니다.  <br/> |
-|매개 변수   <br/> |해당 cmdlet에 사용 된 매개 변수의 이름 및 값입니다.  <br/> |
+|OrganizationId  <br/> |Microsoft 365 조 직의 GUID입니다.  <br/> |
+|매개 변수  <br/> |해당 cmdlet에 사용 된 매개 변수의 이름 및 값입니다.  <br/> |
 |PublicFolderLocations  <br/> |콘텐츠 검색에 포함 되거나 eDiscovery 사례에 유지 되는 Exchange Online의 공용 폴더 위치입니다.  <br/> |
 |Query  <br/> |활동에 연결 된 검색 쿼리 (예: 콘텐츠 검색 또는 쿼리 기반 유지)  <br/> |
 |RecordType  <br/> |Record에서 지정한 작업의 유형입니다. **18** 값은 [eDiscovery cmdlet 작업](#ediscovery-cmdlet-activities) 섹션에 나열 된 작업과 관련 된 이벤트를 나타냅니다. 값이 **24** 이면 [eDiscovery 활동 검색 및 보기](#how-to-search-for-and-view-ediscovery-activities) 섹션에 나열 된 작업과 관련 된 이벤트를 나타냅니다.  <br/> |
@@ -229,4 +229,4 @@ ms.locfileid: "44818877"
 |UserServicePlan  <br/> |조직에서 사용 하는 구독입니다. EDiscovery 작업의 경우이 속성은 일반적으로 비어 있습니다.  <br/> |
 |UserType  <br/> |작업을 수행한 사용자의 유형입니다. 다음 값은 사용자 형식을 나타냅니다.  <br/> 0 일반 사용자입니다. 2 조직의 관리자 3 A Microsoft 데이터 센터 관리자 또는 데이터 센터 시스템 계정입니다. 4 시스템 계정입니다. 5 응용 프로그램 6 서비스 사용자 |
 |Version  <br/> |기록 된 작업의 버전 번호 (Operation 속성으로 식별 됨)를 나타냅니다.  <br/> |
-|작업량  <br/> |활동이 발생 한 Theservice입니다. EDiscovery 활동의 경우이 값은 **SecurityComplianceCenter**입니다.  <br/> |
+|워크로드  <br/> |활동이 발생 한 Theservice입니다. EDiscovery 활동의 경우이 값은 **SecurityComplianceCenter**입니다.  <br/> |

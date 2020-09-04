@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 ms.collection:
 - SPO_Content
@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: bad352ff-d5d2-45d8-ac2a-6cb832f10e73
 ms.custom: seo-marvel-apr2020
 description: 스크립트를 실행 하 여 보안 & 준수 센터에서 eDiscovery 사례와 관련 된 새 보류에 사서함 & 비즈니스용 OneDrive 사이트에 추가 하는 방법을 알아봅니다.
-ms.openlocfilehash: 55ad3c8c8a4a6b77df4c2d3409fee6e5b43cc5f6
-ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
+ms.openlocfilehash: 454fd4ea4517a46410c9d0922cc83b141fdbd893
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45391488"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357678"
 ---
 # <a name="use-a-script-to-add-users-to-a-hold-in-a-core-ediscovery-case"></a>스크립트를 사용 하 여 중요 eDiscovery 사례에서 보류에 사용자 추가
 
@@ -81,7 +81,7 @@ ms.locfileid: "45391488"
 Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbox'} | Select-Object PrimarySmtpAddress > HoldUsers.txt
 ```
 
-이 명령을 실행 한 후에는 텍스트 파일을 열고 속성 이름이 포함 된 헤더를 제거 `PrimarySmtpAddress` 합니다. 그런 다음 3 단계에서 만들 보류에 추가할 사용자에 대 한 전자 메일 주소를 제외 하 고 모두 제거 합니다. 전자 메일 주소 목록 앞 이나 뒤에 빈 행이 없는지 확인 합니다.
+이 명령을 실행 한 후에는 텍스트 파일을 열고 속성 이름이 포함 된 헤더를 제거  `PrimarySmtpAddress` 합니다. 그런 다음 3 단계에서 만들 보류에 추가할 사용자에 대 한 전자 메일 주소를 제외 하 고 모두 제거 합니다. 전자 메일 주소 목록 앞 이나 뒤에 빈 행이 없는지 확인 합니다.
   
 ## <a name="step-3-run-the-script-to-create-a-hold-and-add-users"></a>3 단계: 스크립트를 실행 하 여 보류 만들기 및 사용자 추가
 
@@ -89,7 +89,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
   
 - **사용자 자격 증명:** 스크립트는 사용자의 자격 증명을 사용 하 여 원격 PowerShell을 통해 보안 & 준수 센터에 연결 합니다. 또한 이러한 자격 증명을 사용 하 여 SharePoint Online에 액세스 하 여 사용자 목록에 대 한 비즈니스용 OneDrive Url을 가져옵니다.
 
-- **내 사이트 도메인의 이름입니다.** 내 사이트 도메인은 조직 내 모든 비즈니스용 OneDrive 사이트를 포함 하는 도메인입니다. 예를 들어 내 사이트 도메인의 URL이 인 경우 **https://contoso-my.sharepoint.com** `contoso` 스크립트에서 내 사이트 도메인의 이름을 묻는 메시지를 표시 하는 경우를 입력 합니다.
+- **내 사이트 도메인의 이름입니다.** 내 사이트 도메인은 조직 내 모든 비즈니스용 OneDrive 사이트를 포함 하는 도메인입니다. 예를 들어 내 사이트 도메인의 URL이 인 경우 **https://contoso-my.sharepoint.com**  `contoso` 스크립트에서 내 사이트 도메인의 이름을 묻는 메시지를 표시 하는 경우를 입력 합니다.
 
 - **사례 이름:** 기존 사례 이름입니다. 스크립트는이 사례와 연결 된 새 보류를 만듭니다.
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 TeleMessage Enterprise 번호 Winrar에서 SMS 및 MMS 데이터를 가져오고 보관 하도록 커넥터를 설정할 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: 5e82d5a83b80987837cba323342e60c6d2b31b72
-ms.sourcegitcommit: b144e8ba1ab0c40fa7e0e8e893b5cb44aa2d8243
+ms.openlocfilehash: d2e871f6d2515ac49018c6710689517a7bde0985
+ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47282728"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47362037"
 ---
 # <a name="set-up-a-connector-to-archive-enterprise-number-data-preview"></a>Enterprise 번호 데이터를 보관 하는 연결선 설정 (미리 보기)
 
@@ -40,7 +40,7 @@ TeleMessage 엔터프라이즈 번호 Winrar 커넥터 데이터가 사용자 �
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-엔터프라이즈 번호 Winrar 데이터를 보관 하는 데 필요한 여러 구현 단계는 Microsoft 365 외부에 있으므로, 준수 센터에서 커넥터를 만들기 전에 완료 되어야 합니다.
+엔터프라이즈 번호 Winrar 데이터를 보관 하는 데 필요한 일부 구현 단계는 Microsoft 365 외부에 있으므로, 준수 센터에서 커넥터를 만들기 전에 완료 되어야 합니다.
 
 - [TeleMessage에서 엔터프라이즈 번호 winrar 서비스](https://www.telemessage.com/mobile-archiver/order-mobile-archiver-for-o365) 를 주문 하 고 조직의 유효한 관리 계정을 가져옵니다. 준수 센터에서 커넥터를 만들 때이 계정에 로그인 해야 합니다.
 
@@ -48,7 +48,7 @@ TeleMessage 엔터프라이즈 번호 Winrar 커넥터 데이터가 사용자 �
 
 - 직원의 휴대폰에 TeleMessage Enterprise 번호 Winrar 앱을 설치 하 고 정품 인증 합니다.
 
-- 조직에서는 Office 365 가져오기 서비스가 조직의 사서함 데이터에 액세스할 수 있도록 허용 해야 합니다. 커넥터를 만들 때이 동의를 제공 해야 합니다. 이 요청에 동의 하려면 [이 페이지로](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent)이동 하 여 Office 365 전역 관리자의 자격 증명으로 로그인 한 다음 요청을 수락 합니다. 벨 네트워크 커넥터를 성공적으로 만들기 전에이 단계를 완료 해야 합니다.
+- 조직에서는 Office 365 가져오기 서비스가 조직의 사서함 데이터에 액세스할 수 있도록 허용 해야 합니다. 커넥터를 만들 때이 동의를 제공 해야 합니다. 이 요청에 동의 하려면 [이 페이지로](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent)이동 하 여 Microsoft 365 전역 관리자의 자격 증명으로 로그인 한 다음 요청을 수락 합니다. 벨 네트워크 커넥터를 성공적으로 만들기 전에이 단계를 완료 해야 합니다.
 
 - Enterprise 번호 Winrar 커넥터를 만드는 사용자에 게 Exchange Online에서 사서함 가져오기 내보내기 역할이 할당 되어야 합니다. 이는 Microsoft 365 준수 센터의 **데이터 커넥터** 페이지에서 커넥터를 추가 하는 데 필요 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당 한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange Online에서 역할 그룹 관리" 문서의 [역할 그룹 만들기](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) 또는 [역할 그룹 수정](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 섹션을 참조 하세요.
 
@@ -74,7 +74,7 @@ TeleMessage 엔터프라이즈 번호 Winrar 커넥터 데이터가 사용자 �
 
 7. 관리자 동의를 제공 하 고 **Next (다음**)를 클릭 합니다.
 
-   관리자의 동의를 제공 하려면 Office 365 전역 관리자의 자격 증명을 사용 하 여 로그인 한 다음 승인 요청을 수락 해야 합니다. 전역 관리자로 로그인 하지 않은 경우 [이 페이지로](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) 이동한 후 전역 관리자 자격 증명을 사용 하 여 요청을 수락할 수 있습니다.
+   관리자의 동의를 제공 하려면 Office 365 전역 관리자의 자격 증명을 사용 하 여 로그인 한 다음 승인 요청을 수락 해야 합니다. 전역 관리자로 로그인 하지 않은 경우 [이 페이지로](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) 이동 하 여 전역 관리자 자격 증명을 사용 하 여 로그인 하 고 요청을 수락할 수 있습니다.
 
 8. 설정을 검토 하 고 **마침을** 클릭 하 여 커넥터를 만듭니다.
 
@@ -82,4 +82,4 @@ TeleMessage 엔터프라이즈 번호 Winrar 커넥터 데이터가 사용자 �
 
 ## <a name="known-issues"></a>알려진 문제
 
-- 커넥터가 10mb 보다 큰 항목은 가져오지 않습니다.
+- 이 경우에는 10mb 보다 큰 첨부 파일을 가져올 수 없지만 더 큰 항목에 대 한 지원은 나중에 제공 될 예정입니다.
