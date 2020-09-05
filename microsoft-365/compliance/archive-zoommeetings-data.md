@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Globanet Zoom Meeting에서 Microsoft 365로 데이터를 가져오고 보관 하기 위한 커넥터를 설정할 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: 6c040d6955b8b3ef737fdccd648bd5993fc5c135
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: c053137c67276fa76dd84c38e1aca602a0b9c151
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47361985"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399145"
 ---
 # <a name="set-up-a-connector-to-archive-zoom-meetings-data-preview"></a>확대/축소 모임 데이터를 보관 하는 연결선 설정 (미리 보기)
 
@@ -74,7 +74,7 @@ Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 확대/축�
 
 ## <a name="step-2-configure-the-zoom-meetings-connector"></a>2 단계: 모임 확대/축소 커넥터 구성
 
-두 번째 단계는 Merge1 사이트에서 모임 확대/축소 커넥터를 구성 하는 것입니다. Globanet Merge1 사이트에서의 확대/축소 회의 커넥터를 구성 하는 방법에 대 한 자세한 내용은 [Merge1 타사 커넥터 사용자 가이드](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Zoom%20Meetings%20User%20Guide%20.pdf)를 참조 하십시오.
+두 번째 단계는 Merge1 사이트에서 모임 확대/축소 커넥터를 구성 하는 것입니다. Globanet Merge1 사이트에서 모임 확대/축소 커넥터를 구성 하는 방법에 대 한 자세한 내용은 [Merge1 타사 커넥터 사용자 가이드](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Zoom%20Meetings%20User%20Guide%20.pdf)를 참조 하십시오.
 
 **마침을 & 저장**을 클릭 하면 Microsoft 365 준수 센터로 다시 이동 하 여 커넥터 마법사의 **사용자 매핑** 페이지로 리디렉션됩니다.
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Globanet에서 텍스트 분리 된 데이터를 Microsoft 365로 가져오고 보관 하기 위한 커넥터를 설정할 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: 989c0a657d9a30156e5991d5b09e389c0b044332
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: e57e9693da77a246bafcdf30561fd1414761355f
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47361863"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399299"
 ---
 # <a name="set-up-a-connector-to-archive-text-delimited-data-preview"></a>텍스트 구분 데이터를 보관 하는 연결선 설정 (미리 보기)
 
@@ -70,7 +70,7 @@ Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 Microsoft 36
 
 ## <a name="step-3-map-users-and-complete-the-connector-setup"></a>3 단계: 사용자 매핑 및 커넥터 설정 완료
 
-사용자를 매핑하고 Microsoft 365 준수 센터에 설정 된 커넥터를 완료 하려면 다음 단계를 수행 합니다.
+사용자를 매핑하고 Microsoft 365 준수 센터에서 커넥터 설정을 완료 하려면 다음 단계를 수행 합니다.
 
 1. **Microsoft 365 사용자에 게 외부 사용자 매핑** 페이지에서 자동 사용자 매핑을 사용 하도록 설정 합니다. 텍스트로 구분 된 원본 항목에는 조직의 사용자에 대 한 전자 메일 주소를 포함 하는 *email*이라는 속성이 포함 되어 있습니다. 커넥터가이 주소를 Microsoft 365 사용자와 연결할 수 있으면 해당 사용자의 사서함으로 항목을 가져옵니다.
 

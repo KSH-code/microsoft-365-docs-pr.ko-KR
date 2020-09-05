@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Globanet 여유 eDiscovery에서 Microsoft 365로 데이터를 가져오고 보관 하기 위한 커넥터를 설정할 수 있습니다. 이 커넥터를 사용 하면 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 통해 조직의 타사 데이터를 관리 하는 데 도움이 됩니다.
-ms.openlocfilehash: 2d24f2784b07446f529057d9abfc05cf2688be4a
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: 86a6595ae12201e5083b524661ef53dba54f8cf3
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47361975"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399309"
 ---
 # <a name="set-up-a-connector-to-archive-slack-ediscovery-data-preview"></a>여유 시간 eDiscovery 데이터를 보관 하는 연결선 설정 (미리 보기)
 

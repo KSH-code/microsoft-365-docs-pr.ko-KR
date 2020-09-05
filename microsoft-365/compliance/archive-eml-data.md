@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Globanet에서 EML 데이터를 가져와 Microsoft 365에 보관 하는 커넥터를 설정할 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: 9a2b473f258973dcbe9cb0e6a155671c80b1f552
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: b27bfdfc9d14495857dadcb4d30b1930d7b90781
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47362069"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399155"
 ---
 # <a name="set-up-a-connector-to-archive-eml-data-preview"></a>EML 데이터를 보관 하는 연결선 설정 (미리 보기)
 
@@ -68,7 +68,7 @@ EML 메시지가 사용자 사서함에 저장 되 면 소송 보존, eDiscovery
 
 ## <a name="step-3-map-users-and-complete-the-connector-setup"></a>3 단계: 사용자 매핑 및 커넥터 설정 완료
 
-사용자를 매핑하고 Microsoft 365 준수 센터에 설정 된 커넥터를 완료 하려면 다음 단계를 수행 합니다.
+사용자를 매핑하고 Microsoft 365 준수 센터에서 커넥터 설정을 완료 하려면 다음 단계를 수행 합니다.
 
 1. **Microsoft 365 사용자에 게 외부 사용자 매핑** 페이지에서 자동 사용자 매핑을 사용 하도록 설정 합니다. EML 원본 항목에는 조직의 사용자에 대 한 전자 메일 주소를 포함 하는 *email*이라는 속성이 포함 되어 있습니다. 커넥터가이 주소를 Microsoft 365 사용자와 연결할 수 있으면 해당 사용자의 사서함으로 EML 항목을 가져옵니다.
 
