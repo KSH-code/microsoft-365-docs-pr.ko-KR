@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 75d709cc1f98a12bb6f5a5b6539583a33be500b6
-ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
+ms.openlocfilehash: ae0105fd5eba134c7896daef34136748802e9010
+ms.sourcegitcommit: 916fa2dacbc13287b49823176375259d7af03f86
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255748"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47394684"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 고급 헌팅을 통한 위협에 대한 사전 대응
 
@@ -39,7 +39,7 @@ ms.locfileid: "47255748"
 
 동일한 위협 헌팅 쿼리를 사용하여 사용자 지정 탐지 규칙을 만들 수 있습니다. 이러한 규칙은 침해 활동과 잘못 구성된 컴퓨터를 포함하여 다양한 이벤트와 시스템 상태를 확인하고 이에 응답하도록 자동으로 실행됩니다.
 
-이 기능은 microsoft [DEFENDER atp에서의 고급 구하기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)와 유사 하며,이 기능을 windows 365 보안 센터에서 고급 사냥은 장치, 전자 메일, 앱 및 MICROSOFT Defender Atp, OFFICE 365 Atp, Microsoft Cloud App Security 및 Azure ATP의 id에 대 한 데이터를 포함 하 여 다양 한 작업 영역의 데이터를 찾는 쿼리를 지원 합니다. 고급 헌팅을 사용하려면 [Microsoft Threat Protection](mtp-enable.md)을 설정합니다.
+이 기능은 microsoft [DEFENDER atp의 고급 구하기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)와 비슷하지만 microsoft 365 보안 센터에서 제공 되는 Microsoft Threat Protection의 고급 구하기에서는 장치, 전자 메일, 앱 및 MICROSOFT Defender Atp, OFFICE 365 Atp, Microsoft Cloud App Security 및 Azure ATP의 id에 대 한 데이터를 포함 하 여 다양 한 작업 영역의 데이터를 검색 하는 쿼리를 지원 한다는 점이 다릅니다. 고급 헌팅을 사용하려면 [Microsoft Threat Protection](mtp-enable.md)을 설정합니다.
 
 ## <a name="get-started-with-advanced-hunting"></a>고급 헌팅 시작
 

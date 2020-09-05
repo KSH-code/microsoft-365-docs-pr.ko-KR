@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: b26250c54c30b2da4dbda50a5909a168f09bbe73
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 40d0ffa779b0ab13a0bdd887b12d69c20892662d
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866686"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399352"
 ---
 # <a name="top-scoring-in-industry-tests"></a>업계 최고의 점수 테스트
 
@@ -37,7 +37,7 @@ MITRE의 테스트 접근 방식에 대 한 핵심은 실제 공격을 에뮬레
 
 - AT&T&접시 헤드 기반 Microsoft 위협 보호 평가- [실제 검색에서의 선두](https://www.microsoft.com/security/blog/2020/05/01/microsoft-threat-protection-leads-real-world-detection-mitre-attck-evaluation/) 2020:
 
-    Microsoft Threat Protection은 공격 체인 단계에서 거의 100%의 범위를 제공 합니다. 첫 가지 기본 표시 여부가 공격자 활동으로 전달 됩니다. 가시성은 특정 구성 변경 사항을 기반으로 하는 보안 운영 센터 및 공급 업체 솔루션의 수동 작업을 대폭 줄입니다. 또한 표시 여부가 가장 적게 있었고, 공격자가 감지 하지 못하는 작업을 수행 하는 기능이 제공 됩니다.
+    Microsoft Threat Protection은 공격 체인 단계에서 거의 100%의 범위를 제공 합니다. 첫 가지 기본 표시 여부가 공격자 활동으로 전달 됩니다. 가시성은 특정 구성 변경 사항을 기반으로 하는 보안 운영 센터 및 공급 업체 솔루션의 수동 작업을 대폭 줄입니다. 또한 Microsoft Threat Protection은 가시성을 최소화 하 여 공격자가 감지 하지 못하는 작업을 수행할 수 있도록 합니다.
 
 ## <a name="next-generation-protection"></a>차세대 보호
 
@@ -45,15 +45,17 @@ MITRE의 테스트 접근 방식에 대 한 핵심은 실제 공격을 에뮬레
 
 Microsoft Defender 바이러스 백신은 현재 최신 및 가장 정교한 위협을 해결 하는 [Microsoft DEFENDER ATP Windows 10 보안 스택의](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) [차세대 보호](https://www.youtube.com/watch?v=Xy3MOxkX_o4) 기능입니다. 경우에 따라 [캠페인을 시작한 후](https://cloudblogs.microsoft.com/microsoftsecure/2018/03/07/behavior-monitoring-combined-with-machine-learning-spoils-a-massive-dofoil-coin-mining-campaign)에서는 사이버 공격과는 ms가 중단 되었기 때문에 고객은 보호 된 것으로 확인 되지 않을 수 있습니다. Microsoft defender 바이러스 백신 및 기타 [EPP (endpoint protection platform)](https://www.microsoft.com/security/blog/2019/08/23/gartner-names-microsoft-a-leader-in-2019-endpoint-protection-platforms-magic-quadrant/) 기능을 통해 맬웨어를 처음에 검색 하 고 중지 하기 때문입니다. 이러한 사용자는 [기계 학습](https://cloudblogs.microsoft.com/microsoftsecure/2018/06/07/machine-learning-vs-social-engineering), [인공 지능](https://cloudblogs.microsoft.com/microsoftsecure/2018/02/14/how-artificial-intelligence-stopped-an-emotet-outbreak), 행동 분석 및 기타 고급 기술을 사용 합니다.
 
-### <a name="av-test-protection-score-of-5560-in-the-latest-test"></a>AV-테스트: 최신 테스트에서 5.5/6.0의 보호 점수
+### <a name="av-test-protection-score-of-6060-in-the-latest-test"></a>AV-테스트: 최신 테스트에서 6.0/6.0의 보호 점수
 
 AV 테스트 제품 검토 및 인증 보고서는 보호, 성능 및 유용성의 세 가지 범주를 테스트 합니다. 다음 점수는 실제 테스트와 AV-테스트 참조 집합 ("자주 사용 되는 맬웨어") 이라는 두 가지 점수가 있는 보호 범주에 대 한 것입니다.
 
 **최신 투명도 보고서 다운로드: [AV-테스트 결과 검토, 1 월-2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)**
 
-- 3 월-2020 AV-테스트 비즈니스 사용자 테스트: [보호 점수 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/) <sup>**최신**</sup>
+- 5 월 2020 AV-테스트 비즈니스 사용자 테스트: [보호 점수 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/june-2020/microsoft-windows-defender-antivirus-4.18-202513/) <sup>**최신**</sup>
 
-    Microsoft Defender 바이러스 백신은 20540 맬웨어 샘플을 사용 하 여 5.5/6.0의 전체 보호 점수를 획득 했습니다.
+    Microsoft Defender 바이러스 백신은 6.0/6.0의 완벽 한 보호 점수를 획득 했으며, 100%는 5 월 5 일을 지원 합니다. 22190 맬웨어 샘플이 사용 되었습니다.
+
+- 3 월-2020 AV-테스트 비즈니스 사용자 테스트: [보호 점수 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)
 
 - 1 월 2020 — AV-테스트 비즈니스 사용자 테스트: [보호 점수 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)
 
@@ -65,13 +67,13 @@ AV 테스트 제품 검토 및 인증 보고서는 보호, 성능 및 유용성�
 
 - 5 월 2019 AV-테스트 비즈니스 사용자 테스트: [보호 점수 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/june-2019/microsoft-windows-defender-antivirus-4.18-192415/)  |  [분석](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
 
-### <a name="av-comparatives-protection-rating-of-995-in-the-latest-test"></a>AV-비교급과 최상급: 최신 테스트에서 99.5%의 보호 평점
+### <a name="av-comparatives-protection-rating-of-997-in-the-latest-test"></a>AV-비교급과 최상급: 최신 테스트에서 99.7%의 보호 평점
 
 비즈니스 보안 테스트는 온라인 맬웨어 공격을 모방 하는 실제 보호 테스트, 맬웨어가 인터넷 외부에서 시스템에 들어간 맬웨어 보호 테스트, 시스템 성능에 미치는 영향을 확인 하는 성능 테스트의 세 가지 주요 부분으로 구성 됩니다.
 
-- Business Security Test 2020 Factsheet (3 월 — 4 월): [실제 보호 속도 99.5%](https://www.av-comparatives.org/tests/business-security-test-march-april-2020-factsheet/) <sup>**최신**</sup>
+- Business Security Test 2020 (3 월, 6 월): [실제 보호 속도 99.7%](https://www.av-comparatives.org/tests/business-security-test-2020-march-june/) <sup>**최신**</sup>
 
-    Microsoft Defender Antivirus는 지난 해 동안의 실제 보호 속도에서 지속적으로 높은 점수를 획득 했으며, 99.5%는 최신 테스트를 진행 합니다.
+    Microsoft Defender Antivirus는 지난 해 동안의 실제 보호 속도에서 지속적으로 높은 점수를 획득 했으며, 99.7%는 최신 테스트를 진행 합니다.
 
 - 비즈니스 보안 테스트 2019 (8 월-11 월): [실제 보호 속도 99.6%](https://www.av-comparatives.org/tests/business-security-test-2019-august-november/) 
 
@@ -85,9 +87,11 @@ SE 랩 제품 및 서비스에서 공격을 감지 및 보호 하기 위해 사�
 
 **최신 투명도 보고서 다운로드: [1 월 2020부터 실행 하는 경우의 테스트 결과를 검사](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq) 합니다.**
 
-- 엔터프라이즈 끝점 보호 1 월 2020: [AAA 표](https://selabs.uk/download/enterprise/essp/2020/mar-2020-essp.pdf) <sup>**pdf**</sup>  |  [분석](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)
+- 엔터프라이즈 끝점 보호 4 월 2020 일 ( [AAA](https://selabs.uk/reports/epp-ent-20q2-security-testing/) )
 
-    Microsoft의 차세대 보호는 선두적인 제품 중 하나로 이름이 지정 되었으며, 모든 대상 공격과 공격을 중지 하 고 공개 위협을 하나 해결 했습니다.
+    Microsoft의 차세대 보호는 모든 공개 및 대상 공격을 방지 하기 위해 선두적인 제품 중 하나입니다. Microsoft Defender 바이러스 백신은 악의적인 Url을 차단 하 고, 악용을 처리 하 고, 합법적인 응용 프로그램 및 웹 사이트를 올바르게 분류 하는 기능을 통해 이러한 좋은 결과를 제공
+
+- 엔터프라이즈 끝점 보호 1 월 2020: [AAA 표](https://selabs.uk/download/enterprise/essp/2020/mar-2020-essp.pdf) <sup>**pdf**</sup>  |  [분석](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)
 
 - 엔터프라이즈 Endpoint Protection 10 월 2019 일 때 [AAA 표](https://selabs.uk/download/enterprise/epp/2019/oct-dec-2019-enterprise.pdf) , <sup>**pdf**</sup>
 
@@ -101,7 +105,7 @@ SE 랩 제품 및 서비스에서 공격을 감지 및 보호 하기 위해 사�
 
 Microsoft Defender ATP [끝점 검색 및 응답](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response) 기능은 실시간이 고 실행 가능한 고급 공격 감지를 제공 합니다. 보안 분석가는 알림에 효과적으로 우선 순위를 지정하고, 침해의 전체 범위에 대한 가시성을 확보하고 위협을 수정하기 위한 대응 조치를 취할 수 있습니다.
 
-Microsoft Defender ATP의 EDR 및 endpoint protection 기능을 통해 업계 테스트 및 게시에서 긍정적인 결과가 수신 되었습니다. [SC lab 평가 끝점이](https://www.scmagazine.com/home/reviews/sc-product-reviews-endpoint-security/) 2020 년 6 월 보안 도구 이며 MICROSOFT Defender ATP [5/5 별](https://www.scmagazine.com/review/microsoft-defender-advanced-threat-protection/)이 제공 되었습니다. 전체 보안 기능을 사용 하 여 최신 위협 요소 로부터 조직을 보호 하는 Microsoft Defender ATP 기능을 호출 했습니다. 또한 끝점 보안 솔루션이 전체적이 고 통합 된 것으로 확인 되었습니다. 또한 공격 체인은 이제 솔루션에 의해 완전히 포함 되기 때문에 끝점 보호 및 응답 기능의 수렴을 인정 받습니다.
+Microsoft Defender ATP의 EDR 및 endpoint protection 기능을 통해 업계 테스트 및 게시에서 긍정적인 결과가 수신 되었습니다. [SC lab 평가 끝점이](https://www.scmagazine.com/home/reviews/sc-product-reviews-endpoint-security/) 2020 년 6 월 보안 도구 이며 MICROSOFT Defender ATP [5/5 별](https://www.scmagazine.com/review/microsoft-defender-advanced-threat-protection/)이 제공 되었습니다. 전체 보안 기능을 사용 하 여 최신 위협 요소 로부터 조직을 보호 하는 Microsoft Defender ATP 기능을 호출 했습니다. 또한 SC Labs는 끝점 보안 솔루션을 전체적이 고 통합으로 식별 했습니다. 또한 공격 체인은 이제 솔루션에 의해 완전히 포함 되기 때문에 끝점 보호 및 응답 기능의 수렴을 인정 받습니다.
 
 ### <a name="mitre-industry-leading-optics-and-detection-capabilities"></a>MITRE: 업계 최고의 광학 및 검색 기능
 
