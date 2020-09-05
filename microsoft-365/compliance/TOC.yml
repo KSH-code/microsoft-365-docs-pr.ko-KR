@@ -4,7 +4,7 @@
   items:
     - name: 규정 준수를 시작하기 위한 빠른 작업
       href: compliance-quick-tasks.md
-    - name: 준수 센터의 새로운 기능
+    - name: Microsoft 365 규정 준수의 새로운 기능
       href: whats-new.md
     - name: Microsoft 365 규정 준수 센터
       href: microsoft-365-compliance-center.md
