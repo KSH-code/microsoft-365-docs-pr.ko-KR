@@ -15,71 +15,94 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: 프레젠테이션이나 외부 검토를 위해 검토 집합에서 콘텐츠를 선택 하 고 내보내거나 다운로드 하는 방법에 대해 알아봅니다.
+description: 프레젠테이션 또는 외부 검토를 위해 검토 집합에서 콘텐츠를 선택 하 고 내보내는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 29c2224a1ce0a92bca3b2057352f6f82fdc7afde
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 855f1b8fef7a1df6ed86f058b71e5027851b5f0d
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034096"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399182"
 ---
-# <a name="export-documents-from-a-review-set"></a><span data-ttu-id="70ff5-103">검토 집합에서 문서 내보내기</span><span class="sxs-lookup"><span data-stu-id="70ff5-103">Export documents from a review set</span></span>
+# <a name="export-documents-from-a-review-set"></a><span data-ttu-id="34474-103">검토 집합에서 문서 내보내기</span><span class="sxs-lookup"><span data-stu-id="34474-103">Export documents from a review set</span></span>
 
-<span data-ttu-id="70ff5-104">다음 방법 중 하나를 통해 검토 집합에서 프레젠테이션이나 외부 리뷰에 대 한 콘텐츠를 내보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-104">You can export content for presentation or external review from a review set by one of the following methods:</span></span>
+<span data-ttu-id="34474-104">내보내기를 사용 하면 다운로드 패키지에 포함 된 콘텐츠를 사용자 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="34474-104">Export allows users to customize the content that is included in the download package.</span></span> <span data-ttu-id="34474-105">내보내기 도구에서는 다음과 같은 설정을 사용 하 여 구성 페이지를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="34474-105">The Export tool provides a configuration page with the following settings:</span></span>
 
-- [<span data-ttu-id="70ff5-105">문서 다운로드</span><span class="sxs-lookup"><span data-stu-id="70ff5-105">Download documents</span></span>](#download-documents-from-a-review-set)
- 
-- [<span data-ttu-id="70ff5-106">문서 내보내기</span><span class="sxs-lookup"><span data-stu-id="70ff5-106">Export documents</span></span>](#export-documents-from-a-review-set)
+![검토 집합에서 항목을 내보내기 위한 옵션](../media/bcfc72c7-4a01-4697-9e16-2965b7f04fdb.png)
 
-## <a name="download-documents-from-a-review-set"></a><span data-ttu-id="70ff5-107">검토 집합에서 문서 다운로드</span><span class="sxs-lookup"><span data-stu-id="70ff5-107">Download documents from a review set</span></span>
+## <a name="export-options"></a><span data-ttu-id="34474-107">내보내기 옵션</span><span class="sxs-lookup"><span data-stu-id="34474-107">Export options</span></span>
 
-<span data-ttu-id="70ff5-108">다운로드에서는 기본 형식의 검토 집합에서 콘텐츠를 간단 하 게 다운로드 하는 간단한 방법을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-108">Download offers a simple way to download content from a review set in Native format.</span></span> <span data-ttu-id="70ff5-109">다운로드 준비가 완료 되 면 브라우저 음성 안내가 표시 되도록 브라우저의 데이터 전송 기능을 활용 합니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-109">It leverages the browser's data transfer features so a browser prompt will appear once a download is ready.</span></span> <span data-ttu-id="70ff5-110">이 방법을 사용 하 여 다운로드 한 파일은 컨테이너 파일로 압축 되 고 항목 수준 파일이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-110">Files downloaded using this method will be zipped into a container file and will be item level files.</span></span> <span data-ttu-id="70ff5-111">즉, 첨부 파일을 선택 하면 첨부 파일이 포함 된 전자 메일이 자동으로 수신 됩니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-111">This means that if you select an attachment, you will automatically receive the email with the attachment included.</span></span> <span data-ttu-id="70ff5-112">마찬가지로 word 문서에 포함 된 excel 스프레드시트를 선택 하면 excel 스프레드시트가 포함 된 word 문서를 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-112">Similarly, if you select an excel spreadsheet that was embedded in a word document, you will receive the word document with the excel spreadsheet embedded.</span></span> <span data-ttu-id="70ff5-113">다운로드 한 항목은 파일 속성으로 표시 될 수 있는 마지막으로 수정한 날짜를 보존 합니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-113">Downloaded items will preserve the last modified date which can be viewed as a file property.</span></span>
+- <span data-ttu-id="34474-108">내보내기 이름: 내보내기 작업의 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="34474-108">Export name: Name of the export job.</span></span>
 
-<span data-ttu-id="70ff5-114">검토 집합에서 콘텐츠를 다운로드 하려면 먼저 다운로드 하려는 파일을 선택 하 고 작업 메뉴에서 "다운로드"를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-114">To download content from a review set, start by selecting the files you want to download then select "Download" under the Actions menu.</span></span>
+- <span data-ttu-id="34474-109">설명: 설명을 추가할 수 있는 자유 텍스트 필드입니다.</span><span class="sxs-lookup"><span data-stu-id="34474-109">Description: Free-text field for you to add a description.</span></span>
 
-![자동으로 생성 되는 컴퓨터 설명 스크린샷](../media/eDiscoDownload.png)
+- <span data-ttu-id="34474-110">내보낼 문서:</span><span class="sxs-lookup"><span data-stu-id="34474-110">Export these documents:</span></span>
 
-## <a name="export-documents-from-a-review-set"></a><span data-ttu-id="70ff5-116">검토 집합에서 문서 내보내기</span><span class="sxs-lookup"><span data-stu-id="70ff5-116">Export documents from a review set</span></span>
+  - <span data-ttu-id="34474-111">선택한 문서만-현재 선택 된 문서만 내보냅니다.</span><span class="sxs-lookup"><span data-stu-id="34474-111">Selected documents only - Exports only the documents that are currently selected.</span></span>
+  
+  - <span data-ttu-id="34474-112">검토 집합의 모든 문서-검토 집합의 모든 문서를 내보냅니다.</span><span class="sxs-lookup"><span data-stu-id="34474-112">All documents in the review set - Exports all documents in the review set</span></span>
 
-<span data-ttu-id="70ff5-117">내보내기를 사용 하면 다운로드 패키지에 포함 된 콘텐츠를 사용자 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-117">Export allows users to customize the content that is included in the download package.</span></span> <span data-ttu-id="70ff5-118">다음 설정을 사용 하 여 구성 페이지를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-118">It provides a configuration page with the following settings:</span></span>
+- <span data-ttu-id="34474-113">메타데이터</span><span class="sxs-lookup"><span data-stu-id="34474-113">Metadata</span></span>
+  
+  - <span data-ttu-id="34474-114">파일 로드-이 파일에는 각 파일의 메타 데이터가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="34474-114">Load file - This file contains metadata for each file.</span></span> <span data-ttu-id="34474-115">포함 된 필드에 대 한 자세한 내용은 [Advanced eDiscovery의 문서 메타 데이터 필드](document-metadata-fields-in-Advanced-eDiscovery.md) 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="34474-115">see [Document metadata fields in Advanced eDiscovery](document-metadata-fields-in-Advanced-eDiscovery.md) for more information about what fields are included.</span></span> <span data-ttu-id="34474-116">이 파일은 일반적으로 타사 eDiscovery 도구로 ingested 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="34474-116">This file can typically be ingested by third-party eDiscovery tools.</span></span>
+  
+  - <span data-ttu-id="34474-117">태그-이 확인란이 선택 되 면 태그 정보가 로드 파일에 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="34474-117">Tags - When selected, tagging information will be included in the load file.</span></span>
 
-### <a name="metadata-file"></a><span data-ttu-id="70ff5-119">메타 데이터 파일</span><span class="sxs-lookup"><span data-stu-id="70ff5-119">Metadata file</span></span>
-
-<span data-ttu-id="70ff5-120">이는 내보낸 파일과 연결 된 메타 데이터를 포함 하는 "로드 파일"으로 간주 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-120">This can be considered your "load file" that contains metadata associated with the files you export.</span></span> <span data-ttu-id="70ff5-121">메타 데이터 파일에서 사용할 수 있는 내보낸 필드 목록을 보려면 [Advanced eDiscovery의 문서 메타 데이터 필드](document-metadata-fields-in-Advanced-eDiscovery.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="70ff5-121">For a list of exported fields available in the metadata file, see [Document metadata fields in Advanced eDiscovery](document-metadata-fields-in-Advanced-eDiscovery.md).</span></span> <span data-ttu-id="70ff5-122">이 파일은 일반적으로 타사 도구에 의해 ingested 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-122">This file can typically be ingested by third-party tools.</span></span>
-
-### <a name="tag-data"></a><span data-ttu-id="70ff5-123">태그 데이터</span><span class="sxs-lookup"><span data-stu-id="70ff5-123">Tag data</span></span>
-
-<span data-ttu-id="70ff5-124">이 콘텐츠는 메타 데이터 파일에서 필드로 추가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-124">This content would be added as fields in the metadata file.</span></span> <span data-ttu-id="70ff5-125">여기에는 검토 집합에 적용 된 태그 정보가 모두 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-125">It contains all of the tag information applied in review sets.</span></span>
-
-### <a name="text-files"></a><span data-ttu-id="70ff5-126">텍스트 파일</span><span class="sxs-lookup"><span data-stu-id="70ff5-126">Text files</span></span>
-
-<span data-ttu-id="70ff5-127">검토 집합에서 내보낸 각 파일에 대해 텍스트 파일을 생성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-127">Text files can be generated for each file exported from a review set.</span></span> <span data-ttu-id="70ff5-128">서비스 파트너가 타사 도구에 ingesting 데이터의 일부로 이러한 파일을 필요로 하는 경우가 종종 있습니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-128">Often times these files are required by service partners as part of ingesting data into third-party tools.</span></span>
-
-### <a name="redacted-files"></a><span data-ttu-id="70ff5-129">Redacted 파일</span><span class="sxs-lookup"><span data-stu-id="70ff5-129">Redacted files</span></span>
-
-<span data-ttu-id="70ff5-130">검토 중에 redacted PDF 파일이 생성 되 면 내보내는 동안 이러한 파일을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-130">If redacted PDF files are generated during review, these files are available during export.</span></span> <span data-ttu-id="70ff5-131">네이티브 파일만 내보낼지 아니면 실제 redactions 포함 된 PDF 파일로 교정 해야 하는 네이티브 파일을 바꿀지를 결정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-131">You can decide whether to export native files only or to replace the native files that required redaction with the PDF files that contain the actual redactions.</span></span>
-
-### <a name="export-location"></a><span data-ttu-id="70ff5-132">내보내기 위치</span><span class="sxs-lookup"><span data-stu-id="70ff5-132">Export location</span></span>
-
-<span data-ttu-id="70ff5-133">내보낸 콘텐츠가 Microsoft에서 제공한 Azure blob로 배달 되거나, 내보내기에서 세부 정보를 제공 하는 경우 고객의 blob를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-133">Exported content is delivered to either a Microsoft provided Azure blob or a customer's blob can be used if the details are provided at export.</span></span>
-
-### <a name="export-structure"></a><span data-ttu-id="70ff5-134">내보내기 구조</span><span class="sxs-lookup"><span data-stu-id="70ff5-134">Export structure</span></span>
-
-<span data-ttu-id="70ff5-135">검토 집합에서 콘텐츠를 내보내면 콘텐츠가 다음 구조로 구성 됩니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-135">When content is exported from a review set, the content is organized in the following structure.</span></span>
-
-  - <span data-ttu-id="70ff5-136">루트 폴더-다운로드 ID</span><span class="sxs-lookup"><span data-stu-id="70ff5-136">Root folder – Download ID</span></span>
+- <span data-ttu-id="34474-118">콘텐츠</span><span class="sxs-lookup"><span data-stu-id="34474-118">Content</span></span>
+  
+  - <span data-ttu-id="34474-119">네이티브 파일-네이티브 파일을 포함 하려면이 확인란을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="34474-119">Native files - Select this checkbox to include the native files.</span></span>
+  
+  - <span data-ttu-id="34474-120">대화 옵션</span><span class="sxs-lookup"><span data-stu-id="34474-120">Conversation options</span></span>
     
-      - <span data-ttu-id="70ff5-137">로드\_\_파일 .csv = 메타 데이터 파일 내보내기</span><span class="sxs-lookup"><span data-stu-id="70ff5-137">Export\_load\_file.csv = metadata file</span></span>
+    - <span data-ttu-id="34474-121">대화 파일-내보낸 채팅 메시지를 내보냅니다.</span><span class="sxs-lookup"><span data-stu-id="34474-121">Conversation files - Export reconstructed chat messages.</span></span> <span data-ttu-id="34474-122">이 형식은 사용자가 네이티브 응용 프로그램에 표시 되는 것과 비슷한 형태의 대화를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="34474-122">This format presents conversations in a form that resembles what users see in the native application.</span></span>
     
-      - <span data-ttu-id="70ff5-138">요약 .txt = 내보내기 통계가 포함 된 요약 파일</span><span class="sxs-lookup"><span data-stu-id="70ff5-138">Summary.txt = a summary file with export statistics</span></span>
+    - <span data-ttu-id="34474-123">개별 채팅 메시지-Microsoft 365에 저장 되어 있는 원본 대화 파일을 내보냅니다.</span><span class="sxs-lookup"><span data-stu-id="34474-123">Individual chat messages - Export the original conversation files as they are stored in Microsoft 365.</span></span>
+
+- <span data-ttu-id="34474-124">옵션</span><span class="sxs-lookup"><span data-stu-id="34474-124">Options</span></span>
+
+  - <span data-ttu-id="34474-125">텍스트 파일-추출 된 텍스트 버전의 네이티브 파일을 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="34474-125">Text files - Include extracted text versions of native files.</span></span>
+  
+  - <span data-ttu-id="34474-126">변환 된 Pdf로 redacted natives 교체-검토 중에 redacted PDF 파일이 생성 되는 경우 이러한 파일을 내보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="34474-126">Replace redacted natives with converted PDFs - If redacted PDF files are generated during review, these files are available for export.</span></span> <span data-ttu-id="34474-127">이 옵션을 선택 하지 않으면 서 redacted 이었던 네이티브 파일만 내보내도록 선택 하거나, 실제 redactions 포함 된 PDF 파일을 내보내도록이 옵션을 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="34474-127">You can choose to export only the native files that were redacted (by not selecting this option) or you can select this option to export the PDF files that contain the actual redactions.</span></span>
+
+- <span data-ttu-id="34474-128">출력 옵션 (내보낸 콘텐츠는 웹 브라우저를 통해 직접 다운로드 하거나 Azure Storage 계정으로 보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="34474-128">Output options (Exported content is either available for download directly through a web browser or can be sent to an Azure Storage account.</span></span> <span data-ttu-id="34474-129">처음 두 옵션은 직접 다운로드를 허용 합니다.</span><span class="sxs-lookup"><span data-stu-id="34474-129">The first two options enable direct download.)</span></span>
+  
+  - <span data-ttu-id="34474-130">느슨한 파일 및 Pst (가능한 경우 Pst에 전자 메일이 추가 됨)-파일은 기본 응용 프로그램에서 사용자가 본 디렉터리 구조와 비슷한 형식으로 내보내집니다.</span><span class="sxs-lookup"><span data-stu-id="34474-130">Loose files and PSTs (email is added to PSTs when possible) - Files are exported in a format that resembles the original directory structure seen by users in their native applications.</span></span>  <span data-ttu-id="34474-131">자세한 내용은 [파일 및 PST 내보내기 구조 완화](#loose-files-and-pst-export-structure) 섹션을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="34474-131">For more information, see the [Loose files and PST export structure](#loose-files-and-pst-export-structure) section.</span></span>
+  
+  - <span data-ttu-id="34474-132">압축 된 디렉터리 구조-파일을 내보내고 다운로드에 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="34474-132">Condensed directory structure - Files are exported and included in the download.</span></span>
+  
+  - <span data-ttu-id="34474-133">Azure Storage 계정으로 내보낸 디렉터리 구조-파일을 조직의 Azure Storage accouunt로 내보냅니다.</span><span class="sxs-lookup"><span data-stu-id="34474-133">Condensed directory structure exported to your Azure Storage account - Files are exported to your organization's Azure Storage accouunt.</span></span>
+
+## <a name="loose-files-and-pst-export-structure"></a><span data-ttu-id="34474-134">느슨한 파일 및 PST 내보내기 구조</span><span class="sxs-lookup"><span data-stu-id="34474-134">Loose files and PST export structure</span></span>
+
+<span data-ttu-id="34474-135">이 내보내기 옵션을 선택 하면 내보낸 콘텐츠가 다음 구조로 구성 됩니다.</span><span class="sxs-lookup"><span data-stu-id="34474-135">If you select this export option, the exported content is organized in the following structure:</span></span>
+
+- <span data-ttu-id="34474-136">루트 폴더-명명 된 ExportName.zip의이 폴더</span><span class="sxs-lookup"><span data-stu-id="34474-136">Root folder – This folder in named ExportName.zip</span></span>
+  
+  - <span data-ttu-id="34474-137">Export_load_file.csv 메타 데이터 파일입니다.</span><span class="sxs-lookup"><span data-stu-id="34474-137">Export_load_file.csv - Metadata file.</span></span>
+  
+  - <span data-ttu-id="34474-138">Summary.csv-내보내기 통계도 포함 된 요약 파일입니다.</span><span class="sxs-lookup"><span data-stu-id="34474-138">Summary.csv - A summary file that also contains export statistics.</span></span>
+  
+  - <span data-ttu-id="34474-139">Exchange-이 폴더에는 Exchange의 모든 콘텐츠가 기본 파일 형식으로 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="34474-139">Exchange - This folder contains all content from Exchange in native file format.</span></span> <span data-ttu-id="34474-140">**변환 된 pdf로 redacted Natives 바꾸기** 옵션을 선택한 경우 Natives 파일이 redacted pdf로 대체 됩니다.</span><span class="sxs-lookup"><span data-stu-id="34474-140">Natives files are replaced with redacted PDFs if you selected the **Replace redacted natives with converted PDFs** option.</span></span>
+  
+  - <span data-ttu-id="34474-141">SharePoint =이 폴더에는 SharePoint의 모든 네이티브 콘텐츠가 네이티브 파일 형식으로 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="34474-141">SharePoint = This folder contains all native content from SharePoint in a native file format.</span></span> <span data-ttu-id="34474-142">**변환 된 pdf로 redacted Natives 바꾸기** 옵션을 선택한 경우 Natives 파일이 redacted pdf로 대체 됩니다.</span><span class="sxs-lookup"><span data-stu-id="34474-142">Natives files are replaced with redacted PDFs if you selected the **Replace redacted natives with converted PDFs** option.</span></span>
+
+## <a name="condensed-directory-structure"></a><span data-ttu-id="34474-143">압축 디렉터리 구조</span><span class="sxs-lookup"><span data-stu-id="34474-143">Condensed directory structure</span></span>
+
+- <span data-ttu-id="34474-144">루트 폴더-이 폴더의 이름은 ExportName.zip</span><span class="sxs-lookup"><span data-stu-id="34474-144">Root folder - This folder is named ExportName.zip</span></span>
+  
+  - <span data-ttu-id="34474-145">Export_load_file.csv 메타 데이터 파일입니다.</span><span class="sxs-lookup"><span data-stu-id="34474-145">Export_load_file.csv - Metadata file.</span></span>
+  
+  - <span data-ttu-id="34474-146">Summary.txt-내보내기 통계도 포함 된 요약 파일입니다.</span><span class="sxs-lookup"><span data-stu-id="34474-146">Summary.txt - A summary file that also contains export statistics.</span></span>
+  
+  - <span data-ttu-id="34474-147">Input_or_native_files-이 폴더에는 내보낸 모든 네이티브 파일이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="34474-147">Input_or_native_files - This folder contains all the native files that were exported.</span></span> <span data-ttu-id="34474-148">Redacted PDF 파일을 내보내면 PST 파일에 저장 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="34474-148">If you export redacted PDF files, they are not put in PST files.</span></span> <span data-ttu-id="34474-149">대신, 구분 된 폴더에 추가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="34474-149">Instead, they're added to a separated folder.</span></span>
+  
+  - <span data-ttu-id="34474-150">Error_files-이 폴더에는 내보내기에 포함 된 경우 다음 오류 파일이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="34474-150">Error_files - This folder contains the following error files, if they are included in the export:</span></span>
     
-      - <span data-ttu-id="70ff5-139">입력\_또는 네이티브\_파일 = 모든 네이티브 파일 포함</span><span class="sxs-lookup"><span data-stu-id="70ff5-139">Input\_or native\_files = contains all native files</span></span>
+    - <span data-ttu-id="34474-151">ExtractionError</span><span class="sxs-lookup"><span data-stu-id="34474-151">ExtractionError.</span></span> <span data-ttu-id="34474-152">부모 파일에서 올바르게 추출 되지 않은 파일의 사용 가능한 메타 데이터가 포함 된 CSV 파일입니다.</span><span class="sxs-lookup"><span data-stu-id="34474-152">A CSV file that contains any available metadata of files that weren't properly extracted from parent files.</span></span>
     
-      - <span data-ttu-id="70ff5-140">오류\_파일 = 내보내기에 포함 된 오류 파일을 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-140">Error\_files = contains any error files included in the export</span></span>
-        
-          - <span data-ttu-id="70ff5-141">ExtractionError-상위 파일에서 제대로 추출 되지 않은 파일의 사용 가능한 메타 데이터가 포함 된 csv입니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-141">ExtractionError – a csv that contains any available metadata of files that were not properly extracted from parent files</span></span>
-        
-          - <span data-ttu-id="70ff5-142">ProcessingError – 처리 오류가 발생 한 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-142">ProcessingError – content with processing errors.</span></span> <span data-ttu-id="70ff5-143">이 콘텐츠는 항목 수준 이므로 첨부 파일에 처리 오류가 발생 한 경우 첨부 파일이 포함 된 전자 메일이이 폴더에 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-143">This content is item level meaning if an attachment experienced a processing error, the email that contains the attachment will be included in this folder.</span></span>
-    
-      - <span data-ttu-id="70ff5-144">추출\_된\_텍스트 파일 = 처리 시 생성 되는 모든 추출한 텍스트 파일을 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="70ff5-144">Extracted\_text\_files = contains all of the extracted text files generated at processing.</span></span>
+    - <span data-ttu-id="34474-153">ProcessingError-이 파일에는 처리 오류가 있는 문서 목록이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="34474-153">ProcessingError – This file contains a list of documents with processing errors.</span></span> <span data-ttu-id="34474-154">이 콘텐츠는 항목 수준으로, 첨부 파일에 처리 오류가 발생 한 경우 첨부 파일이 포함 된 전자 메일 메시지가이 폴더에 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="34474-154">This content is item-level, meaning if an attachment resulted in a processing error, the email message that contains the attachment is included in this folder.</span></span>
+  
+  - <span data-ttu-id="34474-155">Extracted_text_files-이 폴더에는 처리 시 생성 된 추출 된 텍스트 파일이 모두 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="34474-155">Extracted_text_files - This folder contains all of the extracted text files that were generated at processing.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="34474-156">내보내기 작업은 서비스 케이스 수명 동안 보존 되며, 케이스가 삭제 되지 않는 한 다운로드 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="34474-156">Export jobs are retained for the life of the case and can be downloaded as long as the case isn't deleted.</span></span>
