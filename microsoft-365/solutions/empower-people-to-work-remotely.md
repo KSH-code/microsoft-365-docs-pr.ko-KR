@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 07/23/2020
+ms.date: 09/02/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-overview
 ms.custom: ''
 description: 직원들이 언제 어디서나 원격으로 작업할 수 있도록 하는 보안 및 서비스 인프라를 구성합니다.
-ms.openlocfilehash: 17cc826f5cf28ff375deaf1e6a4b192700eebf2f
-ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
+ms.openlocfilehash: b0f6816ad758f374f2512076939cfa6392b748de
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46898131"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357305"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Microsoft 365를 사용하여 원격 작업자의 역량 강화하기
 
@@ -37,13 +37,33 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 
 ![Microsoft 365를 사용하여 원격 작업자의 역량 강화하기](../media/empower-people-to-work-remotely/2-m365-remoteworker-solution-businessoverview.png)
 
-| 주요 기능 | 설명 |
-|:-------|:-----|
-| 연결 | 원격 작업자는 전 세계 어디서나 언제든지 다음 항목에 액세스할 수 있습니다. <ul><li>Microsoft 365 구독의 클라우드 기반 서비스 및 데이터 </li><li>온-프레미스 응용 프로그램 데이터 센터에서 제공하는 그러한 조직 리소스</li></ul> |
-| 보안 | 로그인이 다단계 인증(MFA)으로 보안되며 Microsoft 365 및 Windows 10의 기본 제공 보안 기능은 맬웨어, 악의적인 공격 및 데이터 손실로부터 보호할 수 있습니다. |
-| 관리 | 보안 설정, 허용 앱을 사용해 원격 작업자의 장치를 클라우드에서 관리하고 시스템 상태 규정을 준수할 수 있습니다. |
-| 공동 작업 및 생산성 | 원격 작업자는 다음과 같이 매우 협력적인 방식으로 온-프레미스 환경에서처럼 생산적으로 작업할 수 있습니다. <ul><li>Teams를 통한 온라인 팀 회의 및 채팅 </li><li>SharePoint 및 OneDrive를 통한 전역 접근성과 실시간 공동 작업이 가능한 클라우드 기반 파일 저장소를 위한 공유 작업 영역 </li><li>작업을 분할하고 완료하기 위한 공유 작업 및 워크플로 </li></ul> |
-|||
+이 비디오를 시청하고 배포 프로세스에 대한 개요를 확인하세요.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4F1af]
+
+이 솔루션은 이러한 주요 기능을 제공합니다.
+
+- 연결
+
+  원격 작업자는 전 세계 어디서나 언제든지 다음 항목에 액세스할 수 있습니다. 
+
+  - Microsoft 365 구독의 클라우드 기반 서비스 및 데이터 
+  - 온-프레미스 응용 프로그램 데이터 센터에서 제공하는 그러한 조직 리소스
+
+- 보안
+
+  로그인이 다단계 인증(MFA)으로 보안되며 Microsoft 365 및 Windows 10의 기본 제공 보안 기능은 맬웨어, 악의적인 공격 및 데이터 손실로부터 보호할 수 있습니다.
+
+- 관리
+
+  보안 설정, 허용 앱을 사용해 원격 작업자의 장치를 클라우드에서 관리하고 시스템 상태 규정을 준수할 수 있습니다.
+
+- 공동 작업 및 생산성
+
+  원격 작업자는 다음과 같이 매우 협력적인 방식으로 온-프레미스 환경에서처럼 생산적으로 작업할 수 있습니다.
+  - Teams를 통한 온라인 팀 회의 및 채팅 
+  - SharePoint 및 OneDrive를 통한 전역 접근성과 실시간 공동 작업이 가능한 클라우드 기반 파일 저장소를 위한 공유 작업 영역
+  - 작업을 분할하고 완료하기 위한 공유 작업 및 워크플로 
 
 원활하게 로그인하려면 온-프레미스 Active Directory 도메인 서비스(AD DS) 사용자 계정을 Azure Active Directory(Azure AD)와 동기화해야 합니다. Windows 10 장치를 보호하려면 Intune에서 장치를 등록해야 합니다. 다음은 인프라의 개괄적인 보기입니다.
 

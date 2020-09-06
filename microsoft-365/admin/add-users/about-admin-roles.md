@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다. 예를 들어 서비스 관리자는 Microsoft로 지원 티켓을 엽니다.
-ms.openlocfilehash: 361c6599dfccbe7a80fa520bcd1fa988a1fae536
-ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
+ms.openlocfilehash: d80207ac264cb1b649f631d358c86809c2992a8e
+ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506288"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47361776"
 ---
 # <a name="about-admin-roles"></a>관리자 역할 정보
 
@@ -40,6 +40,10 @@ Microsoft 365 관리 센터에서 관리할 수 있는 자세한 Azure AD 역할
 Microsoft 365 관리 센터에서 관리할 수 있는 자세한 Intune 역할 설명의 전체 목록을 찾고 계신가요?  [Microsoft Intune으로 RBAC(역할 기반 액세스 제어)](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control)를 확인하세요.
 
 Microsoft 365 관리 센터에서 역할을 할당하는 방법에 대한 자세한 내용은 [관리자 역할 할당하기](assign-admin-roles.md)를 참조하세요.
+
+### <a name="watch-what-is-an-admin"></a>시청: 관리자란 무언인가요?
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SRc0]
 
 ## <a name="security-guidelines-for-assigning-roles"></a>역할 지정에 대한 보안 지침
 

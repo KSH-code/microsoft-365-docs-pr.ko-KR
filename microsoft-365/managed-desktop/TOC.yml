@@ -30,8 +30,10 @@
           href: service-description/device-policies.md
         - name: 보안 기술
           href: service-description/security.md
-        - name: 보안 운영
+        - name: 보안 작업
           href: service-description/security-operations.md
+        - name: 개인 정보
+          href: service-description/privacy-personal-data.md
         - name: 업데이트
           href: service-description/updates.md
         - name: 지원
