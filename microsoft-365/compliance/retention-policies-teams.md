@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Teams에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: 3dcc0e3ea94d002f603b44b777d7666a65b4a725
-ms.sourcegitcommit: c692bdc186fb29499816e8bb2addcddef34d23d3
+ms.openlocfilehash: cc0d422220d4f3c2ca667a4f0076eb9e62d90518
+ms.sourcegitcommit: 916fa2dacbc13287b49823176375259d7af03f86
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46818323"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47394695"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Microsoft Teams의 보존에 대해 알아보기
 
@@ -118,4 +118,6 @@ Microsoft는 Teams에서 보존 기능을 최적화하기 위해 지속적으로
 
 ## <a name="configuration-guidance"></a>구성 지침
 
-Microsoft 365에서 보존을 구성할 준비가 되면 [보존 정책 및 보존 레이블 시작하기](get-started-with-retention.md)를 참조하세요.
+Microsoft 365에서 보존을 처음 구성하는 경우 [보존 정책 및 보존 레이블 시작하기](get-started-with-retention.md)를 참조하세요.
+
+Teams에 대한 보존 정책을 구성할 준비가 되면 [보존 정책 만들기 및 구성하기](create-retention-policies.md)를 참조하세요.

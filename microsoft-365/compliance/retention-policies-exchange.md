@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Exchange에서 보존의 작동 방식을 알아봅니다.
-ms.openlocfilehash: e1860b9ff9c521a5a6a61c58d822a2a893570e99
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: e12f46b68feb4b64ade14cfb046061d89e1a607c
+ms.sourcegitcommit: 916fa2dacbc13287b49823176375259d7af03f86
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127445"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47394715"
 ---
 # <a name="learn-about-retention-for-exchange"></a>Exchange의 보존에 대해 자세히 알아보기
 
@@ -70,4 +70,9 @@ Exchange에 관한 정보를 담고 있으므로 이 문서의 정보는 [보존
 
 ## <a name="configuration-guidance"></a>구성 지침
 
-Microsoft 365에서 보존을 구성할 준비가 되면 [보존 정책 및 보존 레이블 시작하기](get-started-with-retention.md)를 참조하세요.
+Microsoft 365에서 보존을 처음 구성하는 경우 [보존 정책 및 보존 레이블 시작하기](get-started-with-retention.md)를 참조하세요.
+
+Exchange의 보존 정책 또는 보존 레이블을 구성할 준비가 되면 다음 지침을 참조하세요.
+- [보존 정책 만들기 및 구성하기](create-retention-policies.md)
+- [보존 레이블을 만들고 앱에 적용하기](create-apply-retention-labels.md)
+- [보존 레이블을 콘텐츠에 자동으로 적용하기](apply-retention-labels-automatically.md)
