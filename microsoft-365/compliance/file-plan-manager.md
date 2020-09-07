@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: 파일 계획은 보존 라벨에 대한 고급 관리 기능을 제공한다.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 96150005421f6c2e28183c6e4417edd64b80a814
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: eb35915861c08588fab309210a49585a49d1b9da
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126881"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399215"
 ---
 # <a name="use-file-plan-to-manage-retention-labels"></a>파일 계획을 사용하여 보존 레이블 관리
 
@@ -108,11 +108,11 @@ Microsoft 365 규정 준수 센터의 **정보 거버넌스**에서 보존 레�
 
 보존 레이블을 만들거나 편집할 때 수행 하는 파일 계획 설명자의 예
 
-![파일 계획 설명자](../media/file-plan-descriptors.png)
+![보존 레이블을 만들거나 편집할 때 수행 하는 파일 계획 설명](../media/file-plan-descriptors.png)
 
 파일 계획 설명자 열에 대한 예시 보기
 
-![file-plan-descriptors-on-labels-tab.png](../media/file-plan-descriptors-on-labels-tab.png)
+![파일 계획 설명자 열](../media/file-plan-descriptors-on-labels-tab.png)
 
 ## <a name="export-all-retention-labels-to-analyze-or-enable-offline-reviews"></a>오프라인 검토를 분석하거나 활성화하기 위해 모든 보존 레이블을 내보냅니다.
 

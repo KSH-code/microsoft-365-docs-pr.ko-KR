@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 액세스 및 사용을 제한하여 데이터를 보호하는 암호화를 위한 민감도 레이블을 구성합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc7f1e181fcc2ffda6cd9b36596c164f49d23452
-ms.sourcegitcommit: 6ad2e4164ed59d5a58a0df9cb8413531c1be0986
+ms.openlocfilehash: e3604518be47e35590792689c46bb036cbeb8965
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47334861"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399267"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한 
 
@@ -170,7 +170,7 @@ ms.locfileid: "47334861"
 
 모범 사례로 사용자 대신 그룹을 사용할 수 있습니다. 이 전략으로 더 간단하게 구성할 수 있습니다.
 
-##### <a name="requirements-and-limitations-for-add-any-authenticated-users"></a>**인증된 사용자 추가**에 대한 요구 사항 및 제한 사항
+##### <a name="requirements-and-limitations-for-add-any-authenticated-users"></a>“인증된 사용자 추가”에 대한 요구 사항 및 제한 사항
 
 이 설정은 레이블이 암호화하는 컨텐츠에 액세스할 수 있는 사람을 제한하지 않고 컨텐츠를 계속 암호화하고 컨텐츠 사용 방법(권한) 및 액세스 방법(만료 및 오프라인 액세스)을 제한하는 옵션을 제공합니다. 그러나 암호화된 콘텐츠를 여는 응용 프로그램은 사용되는 인증을 지원할 수 있어야 합니다. 이러한 이유로 Google과 같은 페더레이션된 소셜 공급자 및 일회용 암호 인증은 Exchange Online을 사용할 때에 한해 전자 메일에 대해서만 작동합니다. Microsoft 계정은 Office 365 앱 및 [Azure Information Protection 뷰어](https://portal.azurerms.com/#/download)와 함께 사용할 수 있습니다.
 
@@ -213,7 +213,7 @@ ms.locfileid: "47334861"
 > [!NOTE]
 > 이 기능은 현재 공개 미리 보기로 제공됩니다. 자세한 내용은 [Microsoft 365용 이중 키 암호화의 공개 미리 보기 발표](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-public-preview-of-double-key-encryption-for-microsoft/ba-p/1534451)를 참조하세요.
 
-이중 키 암호화 서비스를 구성한 후 이 레이블이 적용되는 파일 및 전자 메일에 대해 해당 이중 키 암호화를 사용해야 하는 경우에만 이 옵션을 선택합니다.
+이중 키 암호화 서비스를 구성한 후 이 레이블이 적용되는 파일에 대해 해당 이중 키 암호화를 사용해야 하는 경우에만 이 옵션을 선택합니다.
 
 자세한 내용, 전제 조건 및 구성 지침을 보려면 [DKE(Double Key Encryption)를](double-key-encryption.md)를 참조하세요.
 

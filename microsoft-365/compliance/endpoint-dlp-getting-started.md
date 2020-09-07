@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 Endpoint 데이터 손실 방지를 설정하여 파일 활동을 모니터링하고 해당 파일에 대한 보호 작업을 엔드포인트에 구현합니다.
-ms.openlocfilehash: 67bd00a83314590d1ca1ab71c32d5a325686dc46
-ms.sourcegitcommit: f3a02584c9354a46c082f8f948b34a177adf65bb
+ms.openlocfilehash: f24dff993a125de9ecd126b232abfcfa503deb83
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46514781"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399225"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention-preview"></a>Endpoint 데이터 손실 방지(미리 보기) 시작하기
 
@@ -99,17 +99,17 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 1. [Microsoft 규정 준수 센터](https://compliance.microsoft.com)를 엽니다.
 2. 규정 준수 센터 설정 페이지를 열고 **장치 온보딩**을 선택합니다. 
 
-![장치 관리 사용하도록 설정하기](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
+   ![장치 관리 사용 설정](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
 
-> [!NOTE]
-> 일반적으로 장치 온보딩이 활성화되는 데 60초 정도 소요되지만, Microsoft 지원에 연락하기 전에 30분까지 기다려보세요.
+   > [!NOTE]
+   > 일반적으로 장치 온보딩이 활성화되는 데 60초 정도 소요되지만, Microsoft 지원에 연락하기 전에 30분까지 기다려보세요.
 
 3. **장치 관리**를 선택하여 **장치** 목록을 엽니다. 목록은 장치가 온보딩될 때까지 비어 있습니다.
 4. **온보딩**을 선택하여 온보딩 프로세스를 시작합니다.
 5. **배포 방법** 목록에서 이러한 추가 장치에 배포할 방법을 선택한 다음 **패키지를 다운로드합니다**.
 
-![배포 방법](../media/endpoint-dlp-getting-started-3-deployment-method.png)
-1. [Windows 10 컴퓨터용 온보딩 도구와 방법](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)의 해당 절차를 따르세요. 이 링크를 누르면 5단계에서 선택한 배포 패키지와 일치하는 MDATP 절차에 액세스할 수 있는 랜딩 페이지로 이동합니다.
+   ![배포 방법](../media/endpoint-dlp-getting-started-3-deployment-method.png)
+6. [Windows 10 컴퓨터용 온보딩 도구와 방법](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)의 해당 절차를 따르세요. 이 링크를 누르면 5단계에서 선택한 배포 패키지와 일치하는 MDATP 절차에 액세스할 수 있는 랜딩 페이지로 이동합니다.
     - 그룹 정책을 사용하여 Windows 10 컴퓨터 온보딩하기
     - Microsoft Endpoint Configuration Manager를 사용하여 Windows 컴퓨터 온보딩하기
     - 모바일 장치 관리 도구를 사용하여 Windows 10 컴퓨터 온보딩하기
@@ -152,7 +152,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 ## <a name="next-steps"></a>다음 단계
 이제 온보딩된 장치가 있고 활동 탐색기에서 활동 데이터를 볼 수 있으므로 중요한 항목을 보호하는 DLP 정책을 만드는 다음 단계를 진행할 준비가 되었습니다.
 
-1) [Endpoint 데이터 손실 방지(미리 보기) 사용하기](endpoint-dlp-using.md)
+- [Endpoint 데이터 손실 방지(미리 보기) 사용하기](endpoint-dlp-using.md)
 
 ## <a name="see-also"></a>참고 항목
 

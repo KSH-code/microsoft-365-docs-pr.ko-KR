@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: SharePoint 및 OneDrive에서 보존이 작동하는 방식을 알아봅니다.
-ms.openlocfilehash: 3c1b2564b0ba9d96d22ab9d3b78da500b54363e2
-ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
+ms.openlocfilehash: da700c72a03bad85310be8807bf94e54ec6a4048
+ms.sourcegitcommit: 916fa2dacbc13287b49823176375259d7af03f86
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "47315791"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47394705"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive의 보존에 대해 자세히 알아보기
 
@@ -98,4 +98,9 @@ SharePoint 및 OneDrive 관련 정보를 포함하므로 이 문서의 정보는
 
 ## <a name="configuration-guidance"></a>구성 지침
 
-Microsoft 365에서 보존을 구성할 준비가 되면 [보존 정책 및 보존 레이블 시작하기](get-started-with-retention.md)를 참조하세요.
+Microsoft 365에서 보존을 처음 구성하는 경우 [보존 정책 및 보존 레이블 시작하기](get-started-with-retention.md)를 참조하세요.
+
+Exchange의 보존 정책 또는 보존 레이블을 구성할 준비가 되면 다음 지침을 참조하세요.
+- [보존 정책 만들기 및 구성하기](create-retention-policies.md)
+- [보존 레이블을 만들고 앱에 적용하기](create-apply-retention-labels.md)
+- [보존 레이블을 콘텐츠에 자동으로 적용하기](apply-retention-labels-automatically.md)
