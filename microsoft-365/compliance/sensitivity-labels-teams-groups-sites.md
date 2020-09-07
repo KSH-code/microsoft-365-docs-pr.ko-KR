@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: ecc84196435125c83ff9518c2758e3f2611427b3
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: d0ac249483d888b76915e98429b72da88884e135
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307797"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357790"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기
 
@@ -33,6 +33,9 @@ ms.locfileid: "47307797"
 - Microsoft 365 그룹에 연결된 팀 사이트의 개인 정보(공개 또는 비공개)
 - 외부 사용자 액세스
 - 관리되지 않는 장치에서 액세스
+
+> [!IMPORTANT]
+> **관리되지 않는 장치에서 액세스** 설정은 SharePoint 기능과 함께 작동하여 [관리되지 않는 장치에서 액세스를 제어](/sharepoint/control-access-from-unmanaged-devices)합니다. 이 설정이 구성되어 있는 민감도 레이블을 테넌트가 사용하도록 해당 종속 SharePoint 기능을 구성해야 합니다. 추가 정보는 다음 지침에 포함되어 있습니다.
 
 지원되는 컨테이너에 이 민감도 레이블을 적용하면, 레이블은 연결된 사이트 또는 그룹에 분류 및 보호 설정을 자동으로 적용합니다.
 
@@ -83,7 +86,13 @@ ms.locfileid: "47307797"
 
 - **외부 사용자 액세스**: 그룹 소유자가 [그룹에 게스트를 추가](/office365/admin/create-groups/manage-guest-access-in-groups)할 수 있는지를 제어합니다.
 
-- **관리되지 않는 장치**: [관리되지 않는 장치](/sharepoint/control-access-from-unmanaged-devices)의 경우 전체 액세스, 웹 전용 액세스를 허용하거나 액세스를 완벽하게 차단합니다. 테넌트 수준이나 특정 사이트에 대해 이 설정을 구성한 경우, 여기서 지정하는 설정은 더 제한적인 경우에만 적용됩니다.
+- **관리되지 않은 장치**: 이 옵션에서 Azure AD 조건부 액세스를 사용하는 SharePoint 기능을 구성하여 관리되지 않은 장치에서 SharePoint 및 OneDrive 콘텐츠에 대한 액세스를 차단하거나 제한해야 합니다. 관련 지침은 [관리되지 않는 장치에서 액세스 제어](/sharepoint/control-access-from-unmanaged-devices)를 참조하세요. 이 레이블 설정을 지정하는 옵션은 [특정 SharePoint 사이트 또는 OneDrive에 대한 액세스를 차단하거나 제한하는 작업](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive)과 동일합니다.
+    
+    종속 SharePoint 기능을 구성하지 않은 경우 여기에 지정하는 옵션은 효과가 없습니다. 또한 테넌트 수준에서 구성한 설정보다 제한 수준이 낮은 경우 효과가 없습니다. 테넌트 수준 설정과 같거나 제한 수준이 더 높은 레이블 설정을 선택합니다.
+    
+    예를 들어 테넌트가 **제한된 웹 전용 액세스 허용**으로 구성된 경우 전체 액세스를 허용하는 레이블 설정은 제한 수준이 더 낮기 때문에 효과가 없습니다. 이 테넌트 수준 설정의 경우 액세스를 차단하는 레이블 설정(제한 수준이 더 높음) 또는 제한된 액세스에 대한 레이블 설정(테넌트 설정과 동일)을 선택합니다.
+    
+    SharePoint 기능은 레이블 구성과 독립적으로 구성할 수 있기 때문에 민감도 레이블 마법사에서 종속성이 설정되어 있는지 확인할 수 없습니다.
 
 ![사이트 및 그룹 설정 탭](../media/edit-sensitivity-label-site-group2.png)
 
@@ -272,7 +281,7 @@ SharePoint Online 관리 셸의 버전 16.0.19418.12000 이상을 보유하고 �
   - Yammer
   - Planner
   - Project
-  - PowerBI
+  - Power BI
 
 ## <a name="classic-azure-ad-group-classification"></a>클래식 Azure AD 그룹 분류
 

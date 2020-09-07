@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e2324cdbb4c47cff3b5e315b4c6b294258b11e24
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: c6f876ee3285f68f6488f83fdc978e175c26f3eb
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066291"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357294"
 ---
 # <a name="trusted-information-security-assessment-exchange-tisax-germany"></a>신뢰할 수 있는 정보 보안 평가 교환(TISAX) 독일
 
@@ -49,7 +49,7 @@ TISAX 평가는 다음의 Microsoft 서비스에 중점을 두었습니다.
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)
 - Intune
-- [Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft 365와 Power BI 클라우드 서비스](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9f756cce-b15d-45a9-94d7-6a583dee4401&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
+- [Microsoft Power BI, 독립 실행형으로 등록되어 있거나 Office 365 또는 Microsoft Dynamics 365 브랜드 플랜 또는 제품군에 포함되어 있음](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9f756cce-b15d-45a9-94d7-6a583dee4401&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 
