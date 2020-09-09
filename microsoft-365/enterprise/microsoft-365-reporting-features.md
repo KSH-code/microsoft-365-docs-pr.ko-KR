@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Azure Active Directory 및 Exchange Online을 포함 하 여 Microsoft 365 내의 다양 한 보고 기능에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3beb327bd5cb995c378a414e19cc54dea8ad1304
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: 59a7569518ad3e4704b3528d175c092b0a19b819
+ms.sourcegitcommit: 294a51ef0ff48dddb659c602e047d7fd98f91172
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332739"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47407919"
 ---
 # <a name="microsoft-365-reporting-features"></a>Microsoft 365 보고 기능
 
@@ -71,9 +71,9 @@ Exchange Online 감사 보고서에는 사서함 액세스에 대 한 세부 정
 
 ## <a name="device-compliance-reports"></a>장치 준수 보고서
 
-Microsoft 365 모바일 장치 관리 (MDM)를 사용 하 여 구독에 연결 된 모바일 장치를 관리 하 고 보호 합니다. 회사 전자 메일, 일정, 연락처 및 문서에 액세스 하는 데 사용 되는 모바일 장치는 직원이 언제 어디서 나 작업할 수 있도록 하기 위해 중요 한 부분을 재생 합니다. 조직의 정보를 보호 하는 것이 중요 합니다. Microsoft 365 MDM을 사용 하 여 장치 보안 정책 및 액세스 규칙을 설정 합니다. 분실 하거나 도난당 한 경우 Microsoft 365 MDM을 사용 하 여 모바일 장치를 지울 수도 있습니다.
+Microsoft 365에 대 한 기본 모바일 및 보안을 사용 하 여 구독에 연결 된 모바일 장치를 관리 하 고 보호 합니다. 회사 전자 메일, 일정, 연락처 및 문서에 액세스 하는 데 사용 되는 모바일 장치는 직원이 언제 어디서 나 작업할 수 있도록 하기 위해 중요 한 부분을 재생 합니다. 조직의 정보를 보호 하는 것이 중요 합니다. Microsoft 365에 대 한 기본 모바일 및 보안을 사용 하 여 장치 보안 정책 및 액세스 규칙을 설정 합니다. 분실 하거나 도난당 한 경우 Microsoft 365에 대 한 기본 모바일 및 보안을 사용 하 여 모바일 장치를 초기화 하기도 합니다.
 
-MDM 준수 보고서는 조직에서 Microsoft 365 데이터에 액세스 하는 모바일 장치를 보호 하기 위해 설정한 정책에 대 한 개요를 제공 합니다. 이 보고서를 사용 하면 준수 상태, 보고 된 위반, 차단 된 장치 및 보안 정책의 결과로 초기화 되는 장치의 수를 기준으로 디바이스를 필터링 할 수 있습니다. 자세한 내용은 [Microsoft 365의 모바일 장치 관리 개요](https://support.microsoft.com/office/overview-of-mobile-device-management-mdm-for-microsoft-365-faa7d8e5-645d-4d59-839c-c8d4c1869e4a)를 참조 하세요.
+기본 이동성 및 보안 준수 보고서는 조직에서 Microsoft 365 데이터에 액세스 하는 모바일 장치를 보호 하기 위해 설정한 정책에 대 한 개요를 제공 합니다. 이 보고서를 사용 하면 준수 상태, 보고 된 위반, 차단 된 장치 및 보안 정책의 결과로 초기화 되는 장치의 수를 기준으로 디바이스를 필터링 할 수 있습니다. 자세한 내용은 [기본 이동성 및 Microsoft 365의 보안 개요](https://support.microsoft.com/office/overview-of-basic-mobility-and-security-for-microsoft-365-faa7d8e5-645d-4d59-839c-c8d4c1869e4a)를 참조 하세요.
 
 ## <a name="data-loss-prevention"></a>데이터 손실 방지
 

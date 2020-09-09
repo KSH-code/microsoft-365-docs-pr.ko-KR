@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: 하드웨어 기반 격리의 최신 버전을 다운로드 합니다. 악용 또는 악성 링크와 같은 현재 및 신흥 공격을 방지 하 여 직원의 생산성 및 기업 보안을 방해 하지 않도록 합니다.
-ms.openlocfilehash: d0a89e8f8874c9ad298bf862384019b9e1ace0bf
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 32a8705255bf4ae4f0e3678de9cd812b64107cfd
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867485"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405544"
 ---
 # <a name="application-guard-for-office-public-preview-for-admins"></a>관리자를 위한 Application Guard for Office (공용 미리 보기)
 
@@ -45,7 +45,7 @@ Microsoft Defender Application Guard for Office (Application Guard for office)�
 
 * **Windows 10**: Windows 10 Enterprise Edition, 클라이언트 빌드 버전 2004 (20H1) 빌드 19041
 * **Office**: Office 베타 채널 빌드 버전 2008 16.0.13212 이상
-* **업데이트 패키지**: Windows 10 누적 월별 보안 업데이트 [KB4566782](https://support.microsoft.com/help/4566782/windows-10-update-kb4566782) 
+* **업데이트 패키지**: Windows 10 누적 월별 보안 업데이트 [KB4571756](https://support.microsoft.com/help/4571756/windows-10-update-KB4571756) 
 
 시스템 요구 사항에 대 한 자세한 내용은 [Microsoft Defender Application Guard에 대 한 시스템 요구 사항을](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/reqs-md-app-guard)참조 하세요. Office Insider Preview 빌드에 대 한 자세한 내용은 [Office 참가자 빌드 배포 시작](https://insider.office.com/business/deploy)을 참조 하세요.
 
@@ -56,28 +56,9 @@ Microsoft Defender Application Guard for Office (Application Guard for office)�
 
 ### <a name="enable-application-guard-for-office"></a>Office 용 응용 프로그램 보호 사용
 
-1.  **Windows 10 누적 월별 보안 업데이트 KB4566782**를 다운로드 하 여 설치 합니다. 
+1.  **Windows 10 누적 월별 보안 업데이트 KB4571756**를 다운로드 하 여 설치 합니다. 
 
-2. [**Office 기능 지원 패키지를 다운로드 하 고 응용 프로그램 보호를**](https://download.microsoft.com/download/e/4/c/e4c1180a-fcff-462a-8324-4151c44973a8/Windows%20Preview%20-%20WDAG%20Office%20070920%2001.msi)설치 합니다. 이 패키지는 **컴퓨터 구성 \ 관리 템플릿**아래에 "KB4559004 Issue 001 Preview" 라는 그룹 정책을 설치 합니다. 이 그룹 정책을 **사용**으로 설정 합니다.
-     ![로컬 그룹 정책 편집기](../../media/ag01-deploy.png)
-
-     ![KB4559004 Issue 001 Preview](../../media/ag02-deploy.png)
-
-    다음과 같은 reg 키를 직접 설정할 수도 있습니다. 
-    
-    ```
-    reg add HKLM\SYSTEM\CurrentControlSet\Policies\Microsoft\FeatureManagement\Overrides /v 3457697930 /t REG_DWORD /d 1 
-    ```
-    ```
-    reg add HKLM\SYSTEM\CurrentControlSet\Policies\Microsoft\FeatureManagement\Overrides /v 94539402 /t REG_DWORD /d 1 
-    ```
-    그런 다음 다음 PowerShell 명령을 실행 합니다. 
-    
-    ```powershell
-    Get-ScheduledTask -TaskName "ReconcileFeatures" -TaskPath "\Microsoft\Windows\Flighting\FeatureConfig\" | Start-ScheduledTask 
-    ```
-
-3.  Windows 기능에서 **Microsoft Defender Application Guard** 를 선택 하 고 **확인을**선택 합니다. 응용 프로그램 보호 기능을 사용 하도록 설정 하면 시스템을 다시 부팅 하 라는 메시지가 표시 됩니다. 지금 또는 4 단계를 수행한 후에 다시 부팅 하도록 선택할 수 있습니다.
+2.  Windows 기능에서 **Microsoft Defender Application Guard** 를 선택 하 고 **확인을**선택 합니다. 응용 프로그램 보호 기능을 사용 하도록 설정 하면 시스템을 다시 부팅 하 라는 메시지가 표시 됩니다. 시작 하거나 3 단계를 수행한 후에 다시 부팅 하도록 선택할 수 있습니다.
 
     ![AG가 표시 된 Windows 기능 대화 상자](../../media/ag03-deploy.png)
     
@@ -87,7 +68,7 @@ Microsoft Defender Application Guard for Office (Application Guard for office)�
     Enable-WindowsOptionalFeature -online -FeatureName Windows-Defender-ApplicationGuard 
     ```
 
-4.  **컴퓨터 구성 \\ 관리 템플릿 \\ Windows 구성 요소 \\ microsoft defender Application Guard**에 있는 관리 되는 모드 그룹 정책에서 microsoft defender application guard를 찾아보십시오. 옵션 아래의 값을 **2** 또는 **3** 으로 설정 하 고 **확인** 또는 **적용**을 선택 하 여이 정책을 설정 합니다.
+3.  **컴퓨터 구성 \\ 관리 템플릿 \\ Windows 구성 요소 \\ microsoft defender Application Guard**에 있는 관리 되는 모드 그룹 정책에서 microsoft defender application guard를 찾아보십시오. 옵션 아래의 값을 **2** 또는 **3** 으로 설정 하 고 **확인** 또는 **적용**을 선택 하 여이 정책을 설정 합니다.
 
     ![관리 모드에서 AG 설정](../../media/ag04-deploy.png)
   
@@ -98,7 +79,7 @@ Microsoft Defender Application Guard for Office (Application Guard for office)�
     <br>값: **2**
 
 
-5.  시스템을 재부팅 합니다.
+4.  시스템을 재부팅 합니다.
 
 ### <a name="set-diagnostics--feedback-to-send-full-data"></a>전체 데이터를 보낼 수 있도록 진단 & 피드백 설정
 

@@ -11,12 +11,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: 문서 이해 및 양식 처리 모델 간의 주요 차이점에 대해 설명 합니다.
-ms.openlocfilehash: 7c480b91c1ddd75016b4bd35faa3d5692cacd103
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 972fa9e8446a44f6220baa7cde3f484172c50da6
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612741"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405621"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models-preview"></a>문서 이해 및 양식 처리 모델의 차이점 (미리 보기)
 
@@ -31,7 +31,7 @@ Project Cortex의 콘텐츠 이해를 통해 SharePoint 문서 라이브러리�
 - [문서 이해 모델](document-understanding-overview.md)
 - [양식 처리 모델](form-processing-overview.md)
 
-일반적으로 동일한 용도로 두 모델을 모두 사용 하지만, 사용 하도록 선택할 수 있는 주요 차이점이 있습니다.
+일반적으로 동일한 용도로 두 모델을 모두 사용 하지만, 사용할 수 있는 중요 한 차이점이 있습니다.
 
 
 ## <a name="structured-versus-unstructured-and-semi-structured-content"></a>구조적이 고 구조화 및 반구조적 콘텐츠

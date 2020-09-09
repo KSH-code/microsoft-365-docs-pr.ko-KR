@@ -11,12 +11,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Project Cortex의 양식 처리에 대해 알아봅니다.
-ms.openlocfilehash: dbea06cdf2dbb232a7ea48c78d7ea968dd18b9c0
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 44ae5d9cbfbabc5615a751dba5f6c13290fc7b35
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612729"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405631"
 ---
 # <a name="form-processing-overview-preview"></a>양식 처리 개요 (미리 보기)
 > [!Note]
@@ -29,9 +29,9 @@ AI Builder 양식 처리 기능을 사용 하 여 기계 학습 기술을 사용
 
 예를 들어 문서 라이브러리에 업로드 되는 모든 구매 주문 문서를 식별 하는 양식 처리 모델을 만들 수 있습니다. 각 구매 주문에서 *PO 번호*, *날짜*또는 *총 비용*같은 중요 한 특정 데이터를 추출 하 고 표시할 수 있습니다.
 
-예제 파일을 사용 하 여 모델을 학습 하 고 양식에서 추출할 정보를 정의 합니다. 모델을 학습 하면 문서의 레이아웃을 알 수 있습니다. 시작 하려면 양식 문서가 5 개 필요 합니다. AI 건물에서는 키-값 쌍에 대 한 예제 파일을 분석 하 고 검색 되지 않을 수도 있는 항목을 수동으로 식별할 수도 있습니다.  AI 작성기에서는 샘플 파일의 모델 정확성을 테스트할 수 있습니다.
+예제 파일을 사용 하 여 모델을 학습 하 고 양식에서 추출할 정보를 정의 합니다. 모델을 학습 하면 문서의 레이아웃을 알 수 있습니다. 시작 하려면 양식 문서가 5 개 필요 합니다. AI Builder는 예제 파일에서 키-값 쌍을 분석 하 고 검색 되지 않았을 수도 있는 항목을 수동으로 식별할 수도 있습니다.  AI 작성기에서는 샘플 파일의 모델 정확성을 테스트할 수 있습니다.
 
-모델을 학습 하 고 게시 한 후에는 SharePoint 문서 라이브러리에 파일을 업로드 하 고 모델에서 식별 된 데이터를 추출할 때 실행 되는 [전원 자동화 흐름](https://docs.microsoft.com/power-automate/getting-started) 을 만드는 데 사용할 수 있습니다. 추출 된 데이터는 모델의 문서 라이브러리 보기에 열에 표시 됩니다.
+모델을 학습 하 고 게시 한 후에는 [전원 자동화 흐름](https://docs.microsoft.com/power-automate/getting-started)을 만드는 것입니다. 파일을 SharePoint 문서 라이브러리에 업로드 하 고 모델에서 식별 된 데이터를 추출할 때 흐름이 실행 됩니다. 추출 된 데이터는 모델의 문서 라이브러리 보기에 열에 표시 됩니다.
 
 사용자가 SharePoint 문서 라이브러리에서 양식 처리 [모델을 만들](create-a-form-processing-model.md) 수 있도록 하려면 Office 365 관리자가 해당 [양식을 처리](https://docs.microsoft.com/microsoft-365/contentunderstanding/set-up-content-understanding?view=o365-worldwide#to-set-up-content-understanding) 해야 합니다.
 

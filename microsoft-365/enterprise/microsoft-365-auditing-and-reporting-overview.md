@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Office 365, Microsoft 365 및 서비스 보증 내의 감사 및 보고 기능에 대 한 개요입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 11dbf29faf028ec9ed0274c806fc8c8979a6f1fd
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: 297eba449515eeadf462d4a6d09e585f1da6209d
+ms.sourcegitcommit: 294a51ef0ff48dddb659c602e047d7fd98f91172
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332583"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47407953"
 ---
 # <a name="auditing-and-reporting-in-microsoft-cloud-services"></a>Microsoft 클라우드 서비스의 감사 및 보고
 
@@ -37,7 +37,7 @@ Microsoft 클라우드 서비스에는 테 넌 트 내에서 사용자 및 관�
 
 - **알림:** [Cloud App security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)를 사용 하 여 경고를 관리 하 고, 보안 관련 알림을 보고, 고급 경고를 관리할 수 있습니다.
 - **사용 권한:** 준수 관리자, eDiscovery 관리자 및 기타 권한을 조직의 사용자에 게 [할당](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center) 하 여 이러한 센터에서 작업을 수행할 수 있도록 합니다. 각 센터에서 대부분의 기능에 대 한 사용 권한을 할당 하지만 다른 사용 권한은 Exchange 관리 센터 및 SharePoint 관리 센터를 사용 하 여 구성 해야 합니다.
-- **위협 관리:** [Microsoft 365 모바일 장치 관리](https://support.microsoft.com/office/overview-of-mobile-device-management-mdm-for-microsoft-365-faa7d8e5-645d-4d59-839c-c8d4c1869e4a)를 사용 하 여 장치 관리 정책 만들기 및 적용-조직에 대해 DLP ( [데이터 손실 방지](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) ) 정책을 설정 하 고, 전자 메일 필터링, 맬웨어 방지, Domainkeys 식별 된 메일 (dkim), 안전한 첨부 파일, 안전한 링크 및 OAuth 앱을 구성할 수 있습니다.
+- **위협 관리:** [Microsoft 365의 기본 모바일 및 보안](https://support.microsoft.com/office/overview-of-basic-mobility-and-security-for-microsoft-365-faa7d8e5-645d-4d59-839c-c8d4c1869e4a)을 사용 하 여 장치 관리 정책 만들기 및 적용-조직의 DLP ( [데이터 손실 방지](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) ) 정책을 설정 하 여 전자 메일 필터링, 맬웨어 방지, domainkeys 식별 된 메일 (dkim), 안전한 첨부 파일, 안전한 링크 및 OAuth 앱을 구성할 수 있습니다.
 - **데이터 거 버 넌 스:** [다른 시스템에서 전자 메일 또는 SharePoint 데이터를 Microsoft 365로 가져오고](https://support.office.com/article/Import-PST-files-or-SharePoint-data-to-Office-365-ba688e0a-0fcb-4bd7-8e57-2b669564ea84), [보관 사서함을 구성](https://support.office.com/article/Enable-archive-mailboxes-in-the-Office-365-Security-Compliance-Center-268a109e-7843-405b-bb3d-b9393b2342ce)하 고, 전자 메일 및 조직 내의 기타 콘텐츠에 대 한 [보존 정책을](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) 설정할 수 있습니다.
 - **검색 & 조사:** [콘텐츠 검색](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a), [감사 로그](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c), 격리 및 [eDiscovery 사례 관리](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) 도구를 제공 하 여 Exchange Online 사서함, 그룹 및 공용 폴더, SharePoint Online 및 비즈니스용 OneDrive에서 활동을 빠르게 확인할 수 있습니다.
 - **보고서:** SharePoint Online, 비즈니스용 OneDrive, Exchange Online 및 Azure AD에 대 한 [보고서](https://support.office.com/article/Reports-in-the-Office-365-Security-Compliance-Center-7acd33ce-1ec8-49fb-b625-43bac7b58c5a) 에 빠르게 액세스할 수 있습니다.

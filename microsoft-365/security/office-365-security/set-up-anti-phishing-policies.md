@@ -16,18 +16,18 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection) 및 Office 365 Advanced Threat Protection (Office 365 ATP)에서 사용할 수 있는 피싱 방지 정책에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 7118bca15102fd52e7825ee873187fa11d9fc0f9
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: a68baf8f2598b8ca0cd13e45d18919ecfdccdacc
+ms.sourcegitcommit: 294a51ef0ff48dddb659c602e047d7fd98f91172
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308198"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47407931"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Microsoft 365의 피싱 방지 정책
 
 피싱 방지 보호 설정을 구성 하는 정책은 Exchange Online 사서함, 독립 실행형 EOP (Exchange Online Protection), Exchange Online 사서함이 없는 조직, Office 365 Advanced Threat Protection (Office 365 ATP) 조직이 있는 Microsoft 365 조직에서 사용할 수 있습니다.
 
-ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 수 있습니다. 예를 들어,
+ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 수 있습니다. 예시:
 
 - Microsoft 365 Enterprise E5, Microsoft 365 교육 A5 등입니다.
 - [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)
@@ -106,21 +106,23 @@ ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 
     - [Microsoft 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리](manage-quarantined-messages-and-files.md)
     - [Microsoft 365에서 사용자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-a-user.md)
 
-- **인증 되지 않은 보낸 사람**: 다음 섹션의 설명을 참조 하세요.
+- **인증 되지 않은 보낸 사람**: 다음 섹션의 정보를 참조 하세요.
 
 ### <a name="unauthenticated-sender"></a>인증 되지 않은 보낸 사람
 
 인증 되지 않은 보낸 사람 id는 이전 섹션에 설명 된 것 처럼 피싱 방지 정책 및 ATP 피싱 방지 정책에서 사용할 수 있는 [스푸핑 설정](#spoof-settings) 의 일부입니다.
 
-**인증 되지 않은 보낸 사람** 설정은 Outlook에서 미확인 보낸 사람 id를 사용 하거나 사용 하지 않도록 설정 합니다. 특히 다음 사항에 유의합니다.
+**인증 되지 않은 보낸 사람** 설정은 Outlook에서 인증 되지 않은 보낸 사람 id를 사용 하거나 사용 하지 않습니다. 특히 다음 사항에 유의합니다.
 
-- 메시지가 SPF 또는 DKIM **검사를 통과 하지 않고 메시지가** DMARC 또는 [복합 인증](email-validation-and-authentication.md#composite-authentication)을 통과 하지 않는 경우 보낸 사람의 사진에 물음표 (?)가 추가 됩니다.
+- 메시지가 SPF 또는 DKIM **검사를 통과 하지 않고 메시지가** DMARC 또는 [복합 인증](email-validation-and-authentication.md#composite-authentication)을 통과 하지 않는 경우 보낸 사람의 사진에 물음표 (?)가 추가 됩니다. 인증 되지 않은 보낸 사람 id를 사용 하지 않도록 설정 하면 물음표가 보낸 사람의 사진에 추가 되지 않습니다.
 
-- From 태그 (chris@contoso.com <u>via</u> michelle@fabrikam.com)는 보낸 사람 주소 (전자 메일 클라이언트에 표시 되는 메시지 발신자)가 dkim 서명 또는 **메일 원본** 주소에 있는 도메인과 다른 경우에 추가 됩니다. 이러한 주소에 대 한 자세한 내용은 [전자 메일 메시지 표준 개요](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards) 를 참조 하세요.
+- From 태그 (chris@contoso.com <u>via</u> michelle@fabrikam.com)는 보낸 사람 주소 (전자 메일 클라이언트에 표시 되는 메시지 발신자)가 dkim 서명 또는 **메일 원본** 주소에 있는 도메인과 다른 경우에 추가 됩니다. 이러한 주소에 대 한 자세한 내용은 [전자 메일 메시지 표준 개요](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)를 참조 하세요.
 
-이러한 식별자가 특정 보낸 사람의 메시지에 추가 되지 않도록 하려면 다음 옵션을 사용할 수 있습니다.
+  인증 되지 않은 보낸 사람 id를 사용 하지 않도록 설정 해도 원본 주소에 있는 도메인이 DKIM 서명 또는 메일 원본 주소에 있는 도메인과 다르면 via 태그가 추가 되는 것을 방지할 수 없습니다.
 
-- 보낸 사람이 스푸핑 인텔리전스 정책에서 스푸핑할 수 있도록 허용 합니다. 자세한 내용은 [Microsoft 365에서 스푸핑 인텔리전스를 구성](learn-about-spoof-intelligence.md)합니다 .를 참조 하십시오.
+특정 보낸 사람의 메시지에 물음표를 추가 하거나 표시 되지 않도록 하려면 다음 옵션을 사용할 수 있습니다.
+
+- 보낸 사람이 스푸핑 인텔리전스 정책에서 스푸핑할 수 있도록 허용 합니다. 이 작업을 수행 하면 인증 되지 않은 보낸 사람 id가 사용 되지 않는 경우 보낸 사람의 메시지에 via 태그가 표시 되지 않습니다. 자세한 내용은 [Microsoft 365에서 스푸핑 인텔리전스를 구성](learn-about-spoof-intelligence.md)합니다 .를 참조 하십시오.
 
 - 보낸 사람 도메인에 대 한 [전자 메일 인증을 구성](email-validation-and-authentication.md#configure-email-authentication-for-domains-you-own) 합니다.
   

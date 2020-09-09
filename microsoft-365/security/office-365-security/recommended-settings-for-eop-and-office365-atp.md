@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection) 및 ATP (Advanced Threat Protection) 보안 설정에 대 한 모범 사례 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 ATP (Advanced Threat Protection)를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: ea1c04c503fa6ecac66a6378ec466c7ea6cc4133
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 1022accb992fbc0aee92b8da97f9d8a48cbe35f2
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653583"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405386"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>EOP 및 Office 365 ATP 보안에 대 한 권장 설정
 
@@ -49,7 +49,7 @@ ms.locfileid: "46653583"
 
 ****
 
-|보안 기능 이름|표준을|항등|댓글|
+|보안 기능 이름|Standard|항등|Comment|
 |---|---|---|---|
 |**스팸** 검색 작업 <br/><br/> _SpamAction_|**정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**메시지 격리** <br/><br/> `Quarantine`||
 |**높은 정확도 스팸** 검색 작업 <br/><br/> _HighConfidenceSpamAction_|**메시지 격리** <br/><br/> `Quarantine`|**메시지 격리** <br/><br/> `Quarantine`||
@@ -76,7 +76,7 @@ ms.locfileid: "46653583"
 
 ****
 
-|보안 기능 이름|댓글|
+|보안 기능 이름|Comment|
 |---|---|
 |**원격 사이트에 대 한 이미지 링크** (_IncreaseScoreWithImageLinks_)||
 |**URL의 숫자 IP 주소** (_IncreaseScoreWithNumericIps_)||
@@ -103,7 +103,7 @@ ms.locfileid: "46653583"
 
 ****
 
-|보안 기능 이름|표준을|항등|댓글|
+|보안 기능 이름|Standard|항등|Comment|
 |---|---|---|---|
 |**사용자 당 최대 받는 사람 수: 외부 시간 제한** <br/><br/> _RecipientLimitExternalPerHour_|500|400||
 |**사용자 당 최대 받는 사람 수: 내부 시간 제한** <br/><br/> _RecipientLimitInternalPerHour_|1000|800||
@@ -117,7 +117,7 @@ ms.locfileid: "46653583"
 
 ****
 
-|보안 기능 이름|표준을|항등|댓글|
+|보안 기능 이름|Standard|항등|Comment|
 |---|---|---|---|
 |**메시지가 격리 된 경우 받는 사람에 게 알릴지 여부** <br/><br/> _작업_|아니요 <br/><br/> _DeleteMessage_|아니요 <br/><br/> _DeleteMessage_|전자 메일 첨부 파일에서 맬웨어가 검색 되 면 메시지가 격리 되며 관리자만 해제할 수 있습니다.|
 |**일반 첨부 파일 형식 필터** <br/><br/> _EnableFileFilter_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|이 설정은 첨부 파일 내용에 상관 없이 설정별 첨부 파일이 들어 있는 메시지의 형식을 설정 합니다.|
@@ -132,7 +132,7 @@ ms.locfileid: "46653583"
 
 ****
 
-|보안 기능 이름|표준을|항등|댓글|
+|보안 기능 이름|Standard|항등|Comment|
 |---|---|---|---|
 |**스푸핑 방지 보호 사용** <br/><br/> _EnableAntispoofEnforcement_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
 |**인증 되지 않은 보낸 사람 사용** <br/><br/> _EnableUnauthenticatedSender_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|알 수 없는 스푸핑된 보낸 사람에 대 한 Outlook의 보낸 사람 사진에 물음표 (?)를 추가 합니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md)참조 하십시오.|
@@ -146,7 +146,7 @@ ms.locfileid: "46653583"
 Office 365 ATP에는 악의적인 첨부 파일이 있는 전자 메일이 배달 되지 않도록 하 고 사용자가 안전 하지 않을 수 있는 Url을 클릭 하지 못하도록 하기 위한 안전한 첨부 파일 및 안전한 링크 정책이 포함 되어 있습니다.
 
 > [!IMPORTANT]
-> 고급 피싱 방지는 Office 365 ATP 구독의 혜택 중 하나입니다. 기본적으로 사용 하도록 설정 되어 있지만 메일 필터링을 시작 하려면 먼저 하나 이상의 피싱 방지 정책을 구성 ***해야 합니다*** . 피싱 방지 정책을 구성 하지 않으면 사용자가 위험한 전자 메일에 노출 될 수 있습니다. Office 365 ATP 구독을 추가한 후에는 피싱 방지 정책을 구성 해야 합니다.
+> 고급 피싱 방지는 Office 365 ATP 구독의 혜택 중 하나입니다. 기본 ATP 피싱 방지 정책은 모든 받는 사람에 대해 [스푸핑 보호](set-up-anti-phishing-policies.md#spoof-settings) 를 제공 합니다. 그러나 특정 보낸 사람이 나 보내는 도메인에 대 한 사용 가능한 [가장 보호](#impersonation-settings-in-atp-anti-phishing-policies) 설정은 기본 정책에서 구성 되거나 사용 하도록 설정 되지 않습니다. 가장 보호를 사용 하도록 설정 하려면 하나 이상의 ATP 피싱 방지 정책을 구성 해야 합니다.
 
 EOP에 Office 365 ATP 구독을 추가한 경우에는 다음 구성을 설정 합니다.
 
@@ -160,7 +160,7 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 ****
 
-|보안 기능 이름|표준을|항등|댓글|
+|보안 기능 이름|Standard|항등|Comment|
 |---|---|---|---|
 |보호 된 사용자: **보호를 위해 사용자 추가** <br/><br/> _EnableTargetedUserProtection_ <br/><br/> _TargetedUsersToProtect_|켜짐 <br/><br/> `$true` <br/><br/> \<list of users\>|켜짐 <br/><br/> `$true` <br/><br/> \<list of users\>|조직에 따라 다르지만 주요 역할에 사용자를 추가 하는 것이 좋습니다. 내부적으로는 CEO, CFO 및 기타 선임 리더가 될 수 있습니다. 외부에는 council 구성원 또는 이사회의 보드가 포함 될 수 있습니다.|
 |보호 된 도메인: **내가 소유한 도메인을 자동으로 포함** <br/><br/> _EnableOrganizationDomainsProtection_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
@@ -183,7 +183,7 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 ****
 
-|보안 기능 이름|표준을|항등|댓글|
+|보안 기능 이름|Standard|항등|Comment|
 |---|---|---|---|
 |**스푸핑 방지 보호 사용** <br/><br/> _EnableAntispoofEnforcement_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
 |**인증 되지 않은 보낸 사람 사용** <br/><br/> _EnableUnauthenticatedSender_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|알 수 없는 스푸핑된 보낸 사람에 대 한 Outlook의 보낸 사람 사진에 물음표 (?)를 추가 합니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md)참조 하십시오.|
@@ -196,7 +196,7 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 ****
 
-|보안 기능 이름|표준을|항등|댓글|
+|보안 기능 이름|Standard|항등|Comment|
 |---|---|---|---|
 |**고급 피싱 임계값** <br/><br/> _PhishThresholdLevel_|**2-적극적인** <br/><br/> `2`|**3-적극적인** <br/><br/> `3`||
 
@@ -210,21 +210,21 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 ****
 
-|보안 기능 이름|표준을|항등|댓글|
+|보안 기능 이름|Standard|항등|Comment|
 |---|---|---|---|
 |**에서 안전한 링크 사용: Office 365 응용 프로그램** <br/><br/> _EnableSafeLinksForO365Clients_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|Office 365 desktop 및 mobile (iOS 및 Android) 클라이언트에서 ATP 안전한 링크를 사용 합니다.|
-|**에서 안전한 링크 사용: Office Web Access 버전** <br/><br/> _EnableSafeLinksForWebAccessCompanion_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|Office Web Apps에서 ATP 안전한 링크를 사용 합니다.|
+|**에서 안전한 링크 사용: Office Web Access 버전** <br/><br/> _EnableSafeLinksForWebAccessCompanion_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|Office Web Apps에서 ATP 안전한 링크를 사용 합니다. 이 설정은 구성할 수 없습니다.|
 |**사용자가 안전 링크를 클릭 하는 경우 추적 안 함** <br/><br/> _가을 클릭 하면_|해제 <br/><br/> `$true`|해제 <br/><br/> `$true`||
 |**사용자가 원본 URL에 대 한 안전한 링크를 클릭 하는 것을 허용 하지 않음** <br/><br/> _AllowClickThrough 광고_|켜짐 <br/><br/> `$false`|켜짐 <br/><br/> `$false`||
 |
 
 #### <a name="safe-links-policy-settings-in-custom-policies-for-specific-users"></a>특정 사용자에 대 한 사용자 지정 정책의 안전한 링크 정책 설정
 
-**참고**: PowerShell에서는 이러한 설정에 대해 [Get-safelinkspolicy](https://docs.microsoft.com/powershell/module/exchange/new-safelinkspolicy) 및 [get-safelinkspolicy] (] cmdlet을 사용 https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy 합니다.
+**참고**: PowerShell에서는 이러한 설정에 대해 [get-safelinkspolicy](https://docs.microsoft.com/powershell/module/exchange/new-safelinkspolicy) 및 [get-safelinkspolicy](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy) cmdlet을 사용 합니다.
 
 ****
 
-|보안 기능 이름|표준을|항등|댓글|
+|보안 기능 이름|Standard|항등|Comment|
 |---|---|---|---|
 |**메시지에서 알 수 없는 잠재적 악성 Url에 대 한 작업 선택** <br/><br/> _IsEnabled_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
 |**Microsoft 팀 내에서 알 수 없거나 잠재적으로 악성 Url에 대 한 작업 선택** <br/><br/> _EnableSafeLinksForTeams_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
@@ -245,7 +245,7 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 ****
 
-|보안 기능 이름|표준을|항등|댓글|
+|보안 기능 이름|Standard|항등|Comment|
 |---|---|---|---|
 |**SharePoint, OneDrive 및 Microsoft Teams의 ATP 켜기** <br/><br/> _EnableATPForSPOTeamsODB_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
 |**Office 클라이언트에 대 한 안전 문서 설정**<bt/><br/> _EnableSafeDocs_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||이 설정은 Microsoft 365 E5 또는 Microsoft 365 E5 보안 라이선스 에서만 사용할 수 있습니다. 자세한 내용은 [Office 365 Advanced Threat Protection의 안전한 문서](safe-docs.md)를 참조 하세요.|
@@ -258,9 +258,9 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 ****
 
-|보안 기능 이름|표준을|항등|댓글|
+|보안 기능 이름|Standard|항등|Comment|
 |---|---|---|---|
-|**안전한 첨부 파일 알 수 없는 맬웨어 응답** <br/><br/> _작업_|정책의 <br/><br/> `Block`|정책의 <br/><br/> `Block`||
+|**안전한 첨부 파일 알 수 없는 맬웨어 응답** <br/><br/> _작업_|차단 <br/><br/> `Block`|차단 <br/><br/> `Block`||
 |**검색 시 첨부 파일 리디렉션** : **리디렉션 사용** <br/><br/> _리디렉션_ <br/><br/> _RedirectAddress_|전자 메일 주소를 지정 합니다. <br/><br/> `$true` <br/><br/> 전자 메일 주소|전자 메일 주소를 지정 합니다. <br/><br/> `$true` <br/><br/> 전자 메일 주소|검토를 위해 보안 관리자에 게 메시지를 리디렉션합니다.|
 |**첨부 파일에 대 한 맬웨어 검사 시간이 초과 되거나 오류가 발생 하는 경우 위의 선택 사항을 적용 합니다.** <br/><br/> _ActionOnError_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
 |
