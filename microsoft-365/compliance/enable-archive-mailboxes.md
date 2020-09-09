@@ -20,132 +20,138 @@ search.appverid:
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 ms.custom: seo-marvel-apr2020
 description: Office 365의 보안 및 준수 센터를 사용하여 조직의 메시지 보존, eDiscovery 및 보유 요구 사항을 지원하기 위해 보관 사서함을 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: d3f8cc292419cce258b750b77c1f1802accd5f21
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 6ecd84e36c39a90bf6df57286ef1559431c8dda1
+ms.sourcegitcommit: 294a51ef0ff48dddb659c602e047d7fd98f91172
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817847"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47407942"
 ---
-# <a name="enable-archive-mailboxes-in-the-security--compliance-center"></a><span data-ttu-id="592a6-103">보안 및 준수 센터에서 보관 사서함 사용</span><span class="sxs-lookup"><span data-stu-id="592a6-103">Enable archive mailboxes in the Security & Compliance Center</span></span>
-  
-<span data-ttu-id="592a6-104">Office 365(내부 보관이라고도 함)의 보관은 사용자에게 추가 사서함 저장소 공간을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-104">Archiving in Office 365 (also called In-Place Archiving) provides users with additional mailbox storage space.</span></span> <span data-ttu-id="592a6-105">보관 사서함을 설정하면 사용자가 웹의 Microsoft Outlook 및 Outlook(이전의 Outlook Web App)을 사용하여 보관 사서함에 메시지를 액세스하고 저장할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-105">After you turn on archive mailboxes, users can access and store messages in their archive mailboxes by using Microsoft Outlook and Outlook on the web (formerly known as Outlook Web App).</span></span> <span data-ttu-id="592a6-106">또한 사용자는 기본 사서함과 보관 사서함 간에 메시지를 이동하거나 복사할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-106">Users can also move or copy messages between their primary mailbox and their archive mailbox.</span></span> <span data-ttu-id="592a6-107">또한 지운 편지함 복구 도구를 사용하여 보관 사서함의 복구 가능한 항목 폴더에서 삭제된 항목을 복구할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-107">They can also recover deleted items from the Recoverable Items folder in their archive mailbox by using the Recover Deleted Items tool.</span></span> 
-  
+# <a name="enable-archive-mailboxes-in-the-security--compliance-center"></a><span data-ttu-id="379f6-103">보안 및 준수 센터에서 보관 사서함 사용</span><span class="sxs-lookup"><span data-stu-id="379f6-103">Enable archive mailboxes in the Security & Compliance Center</span></span>
+
+<span data-ttu-id="379f6-104">Office 365(내부 보관이라고도 함)의 보관은 사용자에게 추가 사서함 저장소 공간을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-104">Archiving in Office 365 (also called In-Place Archiving) provides users with additional mailbox storage space.</span></span> <span data-ttu-id="379f6-105">보관 사서함을 설정하면 사용자가 웹의 Microsoft Outlook 및 Outlook(이전의 Outlook Web App)을 사용하여 보관 사서함에 메시지를 액세스하고 저장할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-105">After you turn on archive mailboxes, users can access and store messages in their archive mailboxes by using Microsoft Outlook and Outlook on the web (formerly known as Outlook Web App).</span></span> <span data-ttu-id="379f6-106">또한 사용자는 기본 사서함과 보관 사서함 간에 메시지를 이동하거나 복사할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-106">Users can also move or copy messages between their primary mailbox and their archive mailbox.</span></span> <span data-ttu-id="379f6-107">또한 지운 편지함 복구 도구를 사용하여 보관 사서함의 복구 가능한 항목 폴더에서 삭제된 항목을 복구할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-107">They can also recover deleted items from the Recoverable Items folder in their archive mailbox by using the Recover Deleted Items tool.</span></span>
+
 > [!NOTE]
-> <span data-ttu-id="592a6-108">Office 365의 자동 확장 보관 기능은 보관 사서함에 추가 저장소를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-108">The auto-expanding archiving feature in Office 365 provides additional storage in archive mailboxes.</span></span> <span data-ttu-id="592a6-109">자동 확장 보관 기능이 켜져 있고 사용자 보관 사서함의 초기 저장소 할당량에 도달하면 Office 365가 자동으로 추가 저장 공간을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-109">When auto-expanding  archiving is turned on, and then the initial storage quota in a user's archive mailbox is reached, Office 365 automatically adds additional storage space.</span></span> <span data-ttu-id="592a6-110">즉, 사용자가 사서함 저장 공간을 모두 소모하지 않으므로 처음에 보관 사서함을 사용하도록 설정하고 조직의 자동 확장 보관을 설정한 후에는 아무 것도 관리할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-110">This means that users won't run out of mailbox storage space and you won't have to manage anything after you initially enable the archive mailbox and turn on auto-expanding archiving for your organization.</span></span> <span data-ttu-id="592a6-111">자세한 내용은 [Office 365 무제한 보관의 개요](unlimited-archiving.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="592a6-111">For more information, see [Overview of unlimited archiving in Office 365](unlimited-archiving.md).</span></span> 
-  
-## <a name="get-the-necessary-permissions"></a><span data-ttu-id="592a6-112">필요한 사용 권한 얻기</span><span class="sxs-lookup"><span data-stu-id="592a6-112">Get the necessary permissions</span></span>
+> <span data-ttu-id="379f6-108">Office 365의 자동 확장 보관 기능은 보관 사서함에 추가 저장소를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-108">The auto-expanding archiving feature in Office 365 provides additional storage in archive mailboxes.</span></span> <span data-ttu-id="379f6-109">자동 확장 보관 기능이 켜져 있고 사용자 보관 사서함의 초기 저장소 할당량에 도달하면 Office 365가 자동으로 추가 저장 공간을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-109">When auto-expanding  archiving is turned on, and then the initial storage quota in a user's archive mailbox is reached, Office 365 automatically adds additional storage space.</span></span> <span data-ttu-id="379f6-110">즉, 사용자가 사서함 저장 공간을 모두 소모하지 않으므로 처음에 보관 사서함을 사용하도록 설정하고 조직의 자동 확장 보관을 설정한 후에는 아무 것도 관리할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-110">This means that users won't run out of mailbox storage space and you won't have to manage anything after you initially enable the archive mailbox and turn on auto-expanding archiving for your organization.</span></span> <span data-ttu-id="379f6-111">자세한 내용은 [Office 365 무제한 보관의 개요](unlimited-archiving.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="379f6-111">For more information, see [Overview of unlimited archiving in Office 365](unlimited-archiving.md).</span></span>
 
-<span data-ttu-id="592a6-113">보관 사서함을 사용하거나 사용하지 않도록 설정하려면 Exchange Online에서 메일받는 사람 역할을 할당받아야합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-113">You have to be assigned the Mail Recipients role in Exchange Online to enable or disable archive mailboxes.</span></span> <span data-ttu-id="592a6-114">기본적으로 이 역할은 Exchange 관리 센터의 **사용 권한** 페이지에서 받는 사람 관리 및 조직 관리 역할 그룹에 할당됩니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-114">By default, this role is assigned to the Recipient Management and Organization Management role groups on the **Permissions** page in the Exchange admin center.</span></span> <span data-ttu-id="592a6-115">보안 및 준수 센터의 **보관** 페이지가 보이지 않으면 관리자에게 필요한 권한을 할당해 줄 것을 요청하십시오.</span><span class="sxs-lookup"><span data-stu-id="592a6-115">If you don't see the **Archive** page in the Security & Compliance Center, ask your administrator to assign you the necessary permissions.</span></span> 
-  
-## <a name="enable-an-archive-mailbox"></a><span data-ttu-id="592a6-116">보관 사서함 사용</span><span class="sxs-lookup"><span data-stu-id="592a6-116">Enable an archive mailbox</span></span>
-  
-1. <span data-ttu-id="592a6-117">[https://protection.office.com](https://protection.office.com)으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-117">Go to [https://protection.office.com](https://protection.office.com).</span></span>
-    
-2. <span data-ttu-id="592a6-118">회사 또는 학교 계정을 사용하여 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-118">Sign in using your work or school account.</span></span>
-    
-3. <span data-ttu-id="592a6-119">보안 및 규정 준수 센터의 왼쪽 창에서 **정보 거버넌스** \> **보관**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-119">In the left pane of the Security & Compliance Center, click **Information governance** \> **Archive**.</span></span>
-    
-    <span data-ttu-id="592a6-120">**보관** 페이지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-120">The **Archive** page is displayed.</span></span> <span data-ttu-id="592a6-121">**보관 사서함** 열은 각 사용자의 보관 사서함이 사용되도록 설정되었는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-121">The **Archive mailbox** column indicates whether an archive mailbox is enabled or disabled for each user.</span></span> 
-    
-4. <span data-ttu-id="592a6-122">사서함 목록에서 보관 사서함을 사용하도록 설정할 사용자를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-122">In the list of mailboxes, select the user that you want to enable the archive mailbox for.</span></span>
-    
-    ![선택한 사용자의 세부 정보 창에서 사용을 클릭하여 보관 사서함을 사용하도록 설정](../media/8b53cdec-d5c9-4c28-af11-611f95c37b34.png)
-  
-5. <span data-ttu-id="592a6-124">선택한 사용자의 세부 정보 창에서 **사용**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-124">In the details pane for the selected user, click **Enable**.</span></span> 
-    
-    <span data-ttu-id="592a6-125">보관 사서함이 사용되도록 설정된다는 경고가 표시되고, 사서함에 할당된 보존 정책보다 오래된 사용자의 사서함 항목이 새 보관 사서함으로 이동됩니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-125">A warning is displayed saying that if you enable the archive mailbox, items in the user's mailbox that are older than the archiving policy assigned to the mailbox will be moved to the new archive mailbox.</span></span> <span data-ttu-id="592a6-126">ExchangeOnline 사서함에 할당된 보존 정책에 속하는 기본 보관 정책은 사용자가 항목을 사서함으로 전달하거나 만든 날짜로부터 2년 후에 항목을 보관 사서함으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-126">The default archive policy that is part of the retention policy assigned to Exchange Online mailboxes moves items to the archive mailbox two years after the date the item was delivered to the mailbox or created by the user.</span></span> <span data-ttu-id="592a6-127">자세한 내용은 이 문서의 **추가 정보** 섹션을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="592a6-127">For more information, see the **More info** section in this article.</span></span> 
-    
-6. <span data-ttu-id="592a6-128">**예**를 클릭하여 보관 사서함을 사용하도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-128">Click **Yes** to enable the archive mailbox.</span></span> 
-    
-    <span data-ttu-id="592a6-129">보관 사서함을 만드는 몇 분 정도 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-129">It might take a few moments to create the archive mailbox.</span></span> <span data-ttu-id="592a6-130">생성되면 **보관 사서함: 사용 가능**이 선택한 사용자의 세부 정보 창에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-130">When it's created, **Archive mailbox: enabled** is displayed in the details pane for the selected user.</span></span> <span data-ttu-id="592a6-131">세부 정보 창의 정보를 업데이트하려면 **새로 고침** ![새로 고침 아이콘](../media/O365-MDM-Policy-RefreshIcon.gif)을 클릭해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-131">You might have to click **Refresh** ![Refresh icon](../media/O365-MDM-Policy-RefreshIcon.gif) to update the information in the details pane.</span></span> 
-    
+## <a name="get-the-necessary-permissions"></a><span data-ttu-id="379f6-112">필요한 사용 권한 얻기</span><span class="sxs-lookup"><span data-stu-id="379f6-112">Get the necessary permissions</span></span>
+
+<span data-ttu-id="379f6-113">보관 사서함을 사용하거나 사용하지 않도록 설정하려면 Exchange Online에서 메일받는 사람 역할을 할당받아야합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-113">You have to be assigned the Mail Recipients role in Exchange Online to enable or disable archive mailboxes.</span></span> <span data-ttu-id="379f6-114">기본적으로 이 역할은 Exchange 관리 센터의 **사용 권한** 페이지에서 받는 사람 관리 및 조직 관리 역할 그룹에 할당됩니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-114">By default, this role is assigned to the Recipient Management and Organization Management role groups on the **Permissions** page in the Exchange admin center.</span></span> <span data-ttu-id="379f6-115">보안 및 준수 센터의 **보관** 페이지가 보이지 않으면 관리자에게 필요한 권한을 할당해 줄 것을 요청하십시오.</span><span class="sxs-lookup"><span data-stu-id="379f6-115">If you don't see the **Archive** page in the Security & Compliance Center, ask your administrator to assign you the necessary permissions.</span></span>
+
+## <a name="enable-an-archive-mailbox"></a><span data-ttu-id="379f6-116">보관 사서함 사용</span><span class="sxs-lookup"><span data-stu-id="379f6-116">Enable an archive mailbox</span></span>
+
+1. <span data-ttu-id="379f6-117"><https://protection.office.com>으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-117">Go to <https://protection.office.com>.</span></span>
+
+2. <span data-ttu-id="379f6-118">회사 또는 학교 계정을 사용하여 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-118">Sign in using your work or school account.</span></span>
+
+3. <span data-ttu-id="379f6-119">보안 및 규정 준수 센터의 왼쪽 창에서 **정보 거버넌스** \> **보관**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-119">In the left pane of the Security & Compliance Center, click **Information governance** \> **Archive**.</span></span>
+
+   <span data-ttu-id="379f6-120">**보관** 페이지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-120">The **Archive** page is displayed.</span></span> <span data-ttu-id="379f6-121">**보관 사서함** 열은 각 사용자의 보관 사서함이 사용되도록 설정되었는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-121">The **Archive mailbox** column indicates whether an archive mailbox is enabled or disabled for each user.</span></span>
+
+   > [!NOTE]
+   > <span data-ttu-id="379f6-122">**보관** 페이지에는 최대 500명의 사용자가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-122">The **Archive** page shows a maximum of 500 users.</span></span>
+
+4. <span data-ttu-id="379f6-123">사서함 목록에서 보관 사서함을 사용하도록 설정할 사용자를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-123">In the list of mailboxes, select the user that you want to enable the archive mailbox for.</span></span>
+
+   ![선택한 사용자의 세부 정보 창에서 사용을 클릭하여 보관 사서함을 사용하도록 설정](../media/8b53cdec-d5c9-4c28-af11-611f95c37b34.png)
+
+5. <span data-ttu-id="379f6-125">선택한 사용자의 세부 정보 창에서 **사용**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-125">In the details pane for the selected user, click **Enable**.</span></span>
+
+   <span data-ttu-id="379f6-126">보관 사서함이 사용되도록 설정된다는 경고가 표시되고, 사서함에 할당된 보존 정책보다 오래된 사용자의 사서함 항목이 새 보관 사서함으로 이동됩니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-126">A warning is displayed saying that if you enable the archive mailbox, items in the user's mailbox that are older than the archiving policy assigned to the mailbox will be moved to the new archive mailbox.</span></span> <span data-ttu-id="379f6-127">ExchangeOnline 사서함에 할당된 보존 정책에 속하는 기본 보관 정책은 사용자가 항목을 사서함으로 전달하거나 만든 날짜로부터 2년 후에 항목을 보관 사서함으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-127">The default archive policy that is part of the retention policy assigned to Exchange Online mailboxes moves items to the archive mailbox two years after the date the item was delivered to the mailbox or created by the user.</span></span> <span data-ttu-id="379f6-128">자세한 내용은 이 문서의 **추가 정보** 섹션을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="379f6-128">For more information, see the **More info** section in this article.</span></span>
+
+6. <span data-ttu-id="379f6-129">**예**를 클릭하여 보관 사서함을 사용하도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-129">Click **Yes** to enable the archive mailbox.</span></span>
+
+   <span data-ttu-id="379f6-130">보관 사서함을 만드는 몇 분 정도 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-130">It might take a few moments to create the archive mailbox.</span></span> <span data-ttu-id="379f6-131">생성되면 **보관 사서함: 사용 가능**이 선택한 사용자의 세부 정보 창에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-131">When it's created, **Archive mailbox: enabled** is displayed in the details pane for the selected user.</span></span> <span data-ttu-id="379f6-132">세부 정보 창의 정보를 업데이트하려면 **새로 고침** ![새로 고침 아이콘](../media/O365-MDM-Policy-RefreshIcon.gif)을 클릭해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-132">You might have to click **Refresh** ![Refresh icon](../media/O365-MDM-Policy-RefreshIcon.gif) to update the information in the details pane.</span></span>
+
 > [!TIP]
-> <span data-ttu-id="592a6-132">(Shift 또는 Ctrl 키를 사용해) 보관 사서함을 사용할 수 없는 여러 사용자를 선택하여 보관함을 대량으로 사용하도록 설정할 수도 있습니다. </span><span class="sxs-lookup"><span data-stu-id="592a6-132">You can also bulk-enable archive mailboxes by selecting multiple users with disabled archive mailboxes (use the Shift or Ctrl keys).</span></span> <span data-ttu-id="592a6-133">여러 사서함을 선택한 후 세부 정보 창에서 **사용**을 클릭하십시오.</span><span class="sxs-lookup"><span data-stu-id="592a6-133">After selecting multiple mailboxes, click **Enable** in the details pane.</span></span> 
-  
-## <a name="disable-an-archive-mailbox"></a><span data-ttu-id="592a6-134">보관 사서함 사용 안 함</span><span class="sxs-lookup"><span data-stu-id="592a6-134">Disable an archive mailbox</span></span>
-  
-<span data-ttu-id="592a6-135">보안 및 규정 준수 센터의 **보관 처리** 페이지를 사용하여 사용자 보관 사서함을 비활성화할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-135">You can also use the **Archive** page in the Security & Compliance Center to disable a user's archive mailbox.</span></span> <span data-ttu-id="592a6-136">보관 사서함을 비활성화 한 후 다시 연결할 수 있습니다이 사용자의 기본 사서함을 해제 후 30 일 이내.</span><span class="sxs-lookup"><span data-stu-id="592a6-136">After you disable an archive mailbox, you can reconnect it to the user's primary mailbox within 30 days of disabling it.</span></span> <span data-ttu-id="592a6-137">이 경우 보관 사서함의 원래 내용은 복원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-137">In this case, the original contents of the archive mailbox are restored.</span></span> <span data-ttu-id="592a6-138">30 일이 지나면 원래 보관 사서함의 내용을 영구적으로 삭제 하 고 복구할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-138">After 30 days, the contents of the original archive mailbox are permanently deleted and can't be recovered.</span></span> <span data-ttu-id="592a6-139">따라서 아카이브 해제 한 후 30 일 이상 다시 설정, 보관 사서함이 새로 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-139">So if you re-enable the archive more than 30 days after disabling it, a new archive mailbox is created.</span></span> 
-  
-<span data-ttu-id="592a6-140">사용자의 사서함에 할당된 기본 보관 정책은 항목이 전달된 날짜로부터 2년 후에 항목을 보관 사서함으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-140">Note that the default archive policy assigned to users' mailboxes moves items to the archive mailbox two years after the date the item is delivered.</span></span> <span data-ttu-id="592a6-141">사용자의 보관 사서함을 사용하지 않도록 설정하면 사서함 항목에 대해 아무 작업도 수행되지 않으며 사용자의 기본 사서함에 그대로 남아 있습니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-141">If you disable a user's archive mailbox, no action will be taken on mailbox items and they will remain in the user's primary mailbox.</span></span>
-  
-<span data-ttu-id="592a6-142">보관 사서함을 사용하지 않으려면:</span><span class="sxs-lookup"><span data-stu-id="592a6-142">To disable an archive mailbox:</span></span>
-  
-1. <span data-ttu-id="592a6-143">[https://protection.office.com](https://protection.office.com)으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-143">Go to [https://protection.office.com](https://protection.office.com).</span></span>
-    
-2. <span data-ttu-id="592a6-144">회사 또는 학교 계정을 사용하여 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-144">Sign in using your work or school account.</span></span>
-    
-3. <span data-ttu-id="592a6-145">보안 및 규정 준수 센터의 왼쪽 창에서 **정보 거버넌스** \> **보관**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-145">In the left pane of the Security & Compliance Center, click **Information governance** \> **Archive**.</span></span>
-    
-    <span data-ttu-id="592a6-146">**보관** 페이지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-146">The **Archive** page is displayed.</span></span> <span data-ttu-id="592a6-147">**보관 사서함** 열은 각 사용자의 보관 사서함이 사용되도록 설정되었는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-147">The **Archive mailbox** column indicates whether an archive mailbox is enabled or disabled for each user.</span></span> 
-    
-4. <span data-ttu-id="592a6-148">사서함 목록에서 보관 사서함을 사용하지 않도록 설정할 사용자를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-148">In the list of mailboxes, select the user that you want to disable the archive mailbox for.</span></span>
-    
-5. <span data-ttu-id="592a6-149">세부 정보 창에서 **사용 안 함**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-149">In the details pane, click **Disable**.</span></span> 
-    
-    <span data-ttu-id="592a6-150">30일 이내에 보관 사서함을 다시 사용하도록 설정해야 하고, 30일 이후에는 보관 사서함의 모든 정보가 영구적으로 삭제된다는 경고 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-150">A warning message is displayed saying that you'll have 30 days to re-enable the archive mailbox, and that after 30 days, all information in the archive will be permanently deleted.</span></span> 
-    
-6. <span data-ttu-id="592a6-151">**예**를 클릭하여 보관 사서함을 사용하지 않도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-151">Click **Yes** to disable the archive mailbox.</span></span> 
-    
-    <span data-ttu-id="592a6-152">보관 사서함을 사용 해제하는 데 몇 분 정도 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-152">It might take a few moments to disable the archive mailbox.</span></span> <span data-ttu-id="592a6-153">사용하지 않도록 설정하면 **보관 사서함: 사용하지 않음**이 선택한 사용자의 세부 정보 창에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-153">When it's disabled, **Archive mailbox: disabled** is displayed in the details pane for the selected user.</span></span> <span data-ttu-id="592a6-154">세부 정보 창의 정보를 업데이트하려면 **새로 고침** ![새로 고침 아이콘](../media/O365-MDM-Policy-RefreshIcon.gif)을 클릭해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-154">You might have to click **Refresh** ![Refresh icon](../media/O365-MDM-Policy-RefreshIcon.gif) to update the information in the details pane.</span></span> 
-    
+> <span data-ttu-id="379f6-133">(Shift 또는 Ctrl 키를 사용해) 보관 사서함을 사용할 수 없는 여러 사용자를 선택하여 보관함을 대량으로 사용하도록 설정할 수도 있습니다. </span><span class="sxs-lookup"><span data-stu-id="379f6-133">You can also bulk-enable archive mailboxes by selecting multiple users with disabled archive mailboxes (use the Shift or Ctrl keys).</span></span> <span data-ttu-id="379f6-134">여러 사서함을 선택한 후 세부 정보 창에서 **사용**을 클릭하십시오.</span><span class="sxs-lookup"><span data-stu-id="379f6-134">After selecting multiple mailboxes, click **Enable** in the details pane.</span></span>
+
+## <a name="disable-an-archive-mailbox"></a><span data-ttu-id="379f6-135">보관 사서함 사용 안 함</span><span class="sxs-lookup"><span data-stu-id="379f6-135">Disable an archive mailbox</span></span>
+
+<span data-ttu-id="379f6-136">보안 및 규정 준수 센터의 **보관 처리** 페이지를 사용하여 사용자 보관 사서함을 비활성화할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-136">You can also use the **Archive** page in the Security & Compliance Center to disable a user's archive mailbox.</span></span> <span data-ttu-id="379f6-137">보관 사서함을 비활성화 한 후 다시 연결할 수 있습니다이 사용자의 기본 사서함을 해제 후 30 일 이내.</span><span class="sxs-lookup"><span data-stu-id="379f6-137">After you disable an archive mailbox, you can reconnect it to the user's primary mailbox within 30 days of disabling it.</span></span> <span data-ttu-id="379f6-138">이 경우 보관 사서함의 원래 내용은 복원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-138">In this case, the original contents of the archive mailbox are restored.</span></span> <span data-ttu-id="379f6-139">30 일이 지나면 원래 보관 사서함의 내용을 영구적으로 삭제 하 고 복구할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-139">After 30 days, the contents of the original archive mailbox are permanently deleted and can't be recovered.</span></span> <span data-ttu-id="379f6-140">따라서 아카이브 해제 한 후 30 일 이상 다시 설정, 보관 사서함이 새로 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-140">So if you re-enable the archive more than 30 days after disabling it, a new archive mailbox is created.</span></span>
+
+<span data-ttu-id="379f6-141">사용자의 사서함에 할당된 기본 보관 정책은 항목이 전달된 날짜로부터 2년 후에 항목을 보관 사서함으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-141">Note that the default archive policy assigned to users' mailboxes moves items to the archive mailbox two years after the date the item is delivered.</span></span> <span data-ttu-id="379f6-142">사용자의 보관 사서함을 사용하지 않도록 설정하면 사서함 항목에 대해 아무 작업도 수행되지 않으며 사용자의 기본 사서함에 그대로 남아 있습니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-142">If you disable a user's archive mailbox, no action will be taken on mailbox items and they will remain in the user's primary mailbox.</span></span>
+
+<span data-ttu-id="379f6-143">보관 사서함을 사용하지 않으려면:</span><span class="sxs-lookup"><span data-stu-id="379f6-143">To disable an archive mailbox:</span></span>
+
+1. <span data-ttu-id="379f6-144"><https://protection.office.com>으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-144">Go to <https://protection.office.com>.</span></span>
+
+2. <span data-ttu-id="379f6-145">회사 또는 학교 계정을 사용하여 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-145">Sign in using your work or school account.</span></span>
+
+3. <span data-ttu-id="379f6-146">보안 및 규정 준수 센터의 왼쪽 창에서 **정보 거버넌스** \> **보관**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-146">In the left pane of the Security & Compliance Center, click **Information governance** \> **Archive**.</span></span>
+
+   <span data-ttu-id="379f6-147">**보관** 페이지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-147">The **Archive** page is displayed.</span></span> <span data-ttu-id="379f6-148">**보관 사서함** 열은 각 사용자의 보관 사서함이 사용되도록 설정되었는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-148">The **Archive mailbox** column indicates whether an archive mailbox is enabled or disabled for each user.</span></span>
+
+   > [!NOTE]
+   > <span data-ttu-id="379f6-149">**보관** 페이지에는 최대 500명의 사용자가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-149">The **Archive** page shows a maximum of 500 users.</span></span>
+
+4. <span data-ttu-id="379f6-150">사서함 목록에서 보관 사서함을 사용하지 않도록 설정할 사용자를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-150">In the list of mailboxes, select the user that you want to disable the archive mailbox for.</span></span>
+
+5. <span data-ttu-id="379f6-151">세부 정보 창에서 **사용 안 함**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-151">In the details pane, click **Disable**.</span></span>
+
+   <span data-ttu-id="379f6-152">30일 이내에 보관 사서함을 다시 사용하도록 설정해야 하고, 30일 이후에는 보관 사서함의 모든 정보가 영구적으로 삭제된다는 경고 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-152">A warning message is displayed saying that you'll have 30 days to re-enable the archive mailbox, and that after 30 days, all information in the archive will be permanently deleted.</span></span>
+
+6. <span data-ttu-id="379f6-153">**예**를 클릭하여 보관 사서함을 사용하지 않도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-153">Click **Yes** to disable the archive mailbox.</span></span>
+
+   <span data-ttu-id="379f6-154">보관 사서함을 사용 해제하는 데 몇 분 정도 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-154">It might take a few moments to disable the archive mailbox.</span></span> <span data-ttu-id="379f6-155">사용하지 않도록 설정하면 **보관 사서함: 사용하지 않음**이 선택한 사용자의 세부 정보 창에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-155">When it's disabled, **Archive mailbox: disabled** is displayed in the details pane for the selected user.</span></span> <span data-ttu-id="379f6-156">세부 정보 창의 정보를 업데이트하려면 **새로 고침** ![새로 고침 아이콘](../media/O365-MDM-Policy-RefreshIcon.gif)을 클릭해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-156">You might have to click **Refresh** ![Refresh icon](../media/O365-MDM-Policy-RefreshIcon.gif) to update the information in the details pane.</span></span>
+
 > [!TIP]
-> <span data-ttu-id="592a6-155">보관 사서함이 활성화 된 여러 사용자를 선택하여 보관 사서함을 일괄 비활성화할 수도 있습니다(Shift 또는 Ctrl 키 사용).</span><span class="sxs-lookup"><span data-stu-id="592a6-155">You can also bulk-disable archive mailboxes by selecting multiple users with enabled archive mailboxes (use the Shift or Ctrl keys).</span></span> <span data-ttu-id="592a6-156">여러 사서함을 선택한 후 세부 정보 창에서 **사용 안 함**을 클릭하십시오.</span><span class="sxs-lookup"><span data-stu-id="592a6-156">After selecting multiple mailboxes, click **Disable** in the details pane.</span></span> 
-  
-## <a name="use-exchange-online-powershell-to-enable-or-disable-archive-mailboxes"></a><span data-ttu-id="592a6-157">Exchange Online PowerShell을 사용하여 보관 사서함을 사용하거나 사용하지 않도록 설정</span><span class="sxs-lookup"><span data-stu-id="592a6-157">Use Exchange Online PowerShell to enable or disable archive mailboxes</span></span>
+> <span data-ttu-id="379f6-157">보관 사서함이 활성화 된 여러 사용자를 선택하여 보관 사서함을 일괄 비활성화할 수도 있습니다(Shift 또는 Ctrl 키 사용).</span><span class="sxs-lookup"><span data-stu-id="379f6-157">You can also bulk-disable archive mailboxes by selecting multiple users with enabled archive mailboxes (use the Shift or Ctrl keys).</span></span> <span data-ttu-id="379f6-158">여러 사서함을 선택한 후 세부 정보 창에서 **사용 안 함**을 클릭하십시오.</span><span class="sxs-lookup"><span data-stu-id="379f6-158">After selecting multiple mailboxes, click **Disable** in the details pane.</span></span>
 
-<span data-ttu-id="592a6-158">Exchange Online PowerShell을 사용하여 보관 사서함을 사용할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-158">You can also use Exchange Online PowerShell to enable archive mailboxes.</span></span> <span data-ttu-id="592a6-159">PowerShell을 사용하는 주된 이유는 조직의 모든 사용자에 대해 보관 사서함을 신속하게 사용할 수 있다는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-159">The primary reason to use PowerShell is that you can quickly enable the archive mailbox for all users in your organization.</span></span>
+## <a name="use-exchange-online-powershell-to-enable-or-disable-archive-mailboxes"></a><span data-ttu-id="379f6-159">Exchange Online PowerShell을 사용하여 보관 사서함을 사용하거나 사용하지 않도록 설정</span><span class="sxs-lookup"><span data-stu-id="379f6-159">Use Exchange Online PowerShell to enable or disable archive mailboxes</span></span>
 
-<span data-ttu-id="592a6-160">첫 번째 단계는 Exchange Online PowerShell에 연결하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-160">The first step is to connect to Exchange Online PowerShell.</span></span> <span data-ttu-id="592a6-161">지침을 확인하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="592a6-161">For instructions, see [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).</span></span>
+<span data-ttu-id="379f6-160">Exchange Online PowerShell을 사용하여 보관 사서함을 사용할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-160">You can also use Exchange Online PowerShell to enable archive mailboxes.</span></span> <span data-ttu-id="379f6-161">PowerShell을 사용하는 주된 이유는 조직의 모든 사용자에 대해 보관 사서함을 신속하게 사용할 수 있다는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-161">The primary reason to use PowerShell is that you can quickly enable the archive mailbox for all users in your organization.</span></span>
 
-<span data-ttu-id="592a6-162">Exchange Online에 연결되면 다음 섹션의 명령을 실행하여 보관 사서함을 사용하거나 사용하지 않도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-162">After you're connected to Exchange Online, you can run the commands in the following sections to enable or disable archive mailboxes.</span></span>
+<span data-ttu-id="379f6-162">첫 번째 단계는 Exchange Online PowerShell에 연결하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-162">The first step is to connect to Exchange Online PowerShell.</span></span> <span data-ttu-id="379f6-163">지침을 확인하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="379f6-163">For instructions, see [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).</span></span>
 
-### <a name="enable-archive-mailboxes"></a><span data-ttu-id="592a6-163">보관 사서함 사용</span><span class="sxs-lookup"><span data-stu-id="592a6-163">Enable archive mailboxes</span></span>
+<span data-ttu-id="379f6-164">Exchange Online에 연결되면 다음 섹션의 명령을 실행하여 보관 사서함을 사용하거나 사용하지 않도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-164">After you're connected to Exchange Online, you can run the commands in the following sections to enable or disable archive mailboxes.</span></span>
 
-<span data-ttu-id="592a6-164">다음 명령을 실행하여 단일 사용자가 보관 사서함을 사용하도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-164">Run the following command to enable the archive mailbox for a single user.</span></span>
-    
-  ```powershell
-  Enable-Mailbox -Identity <username> -Archive
-  ```
+### <a name="enable-archive-mailboxes"></a><span data-ttu-id="379f6-165">보관 사서함 사용</span><span class="sxs-lookup"><span data-stu-id="379f6-165">Enable archive mailboxes</span></span>
 
-<span data-ttu-id="592a6-165">다음 명령을 실행하여 조직의 모든 사용자(현재 보관 사서함을 사용할 수 없는 사용자)의 보관 사서함을 사용하도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-165">Run the following command to enable the archive mailbox for all users in your organization (whose archive mailbox is currently not enabled).</span></span>
-    
-  ```powershell
-  Get-Mailbox -Filter {ArchiveStatus -Eq "None" -AND RecipientTypeDetails -eq "UserMailbox"} | Enable-Mailbox -Archive
-  ```
+<span data-ttu-id="379f6-166">다음 명령을 실행하여 단일 사용자가 보관 사서함을 사용하도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-166">Run the following command to enable the archive mailbox for a single user.</span></span>
 
-### <a name="disable-archive-mailboxes"></a><span data-ttu-id="592a6-166">보관 사서함을 사용하지 않도록 설정</span><span class="sxs-lookup"><span data-stu-id="592a6-166">Disable archive mailboxes</span></span>
+```powershell
+Enable-Mailbox -Identity <username> -Archive
+```
 
-<span data-ttu-id="592a6-167">다음 명령을 실행하여 단일 사용자가 보관 사서함을 사용하지 않도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-167">Run the following command to disable the archive mailbox for a single user.</span></span>
-    
-  ```powershell
-  Disable-Mailbox -Identity <username> -Archive
-  ```
+<span data-ttu-id="379f6-167">다음 명령을 실행하여 조직의 모든 사용자(현재 보관 사서함을 사용할 수 없는 사용자)의 보관 사서함을 사용하도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-167">Run the following command to enable the archive mailbox for all users in your organization (whose archive mailbox is currently not enabled).</span></span>
 
-<span data-ttu-id="592a6-168">다음 명령을 실행하여 조직의 모든 사용자(현재 보관 사서함을 사용할 수 있는 사용자)의 보관 사서함을 사용하지 않도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-168">Run the following command to disable the archive mailbox for all users in your organization (whose archive mailbox is currently enabled).</span></span>
-    
-  ```powershell
-  Get-Mailbox -Filter {ArchiveStatus -Eq "Active" -AND RecipientTypeDetails -eq "UserMailbox"} | Disable-Mailbox -Archive
-  ```
+```powershell
+Get-Mailbox -Filter {ArchiveStatus -Eq "None" -AND RecipientTypeDetails -eq "UserMailbox"} | Enable-Mailbox -Archive
+```
 
-## <a name="more-information"></a><span data-ttu-id="592a6-169">추가 정보</span><span class="sxs-lookup"><span data-stu-id="592a6-169">More information</span></span>
-  
-- <span data-ttu-id="592a6-170">보관 사서함을 사용하도록 설정하면 사용자는 보관 사서함에 메시지를 저장할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-170">When an archive mailbox is enabled, users can store messages in their archive mailbox.</span></span> <span data-ttu-id="592a6-171">사용자는 웹에서 Microsoft Outlook 및 Outlook을 사용하여 보관 사서함에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-171">Users can access their archive mailboxes by using Microsoft Outlook and Outlook on the web.</span></span> <span data-ttu-id="592a6-172">이러한 클라이언트 응용 프로그램을 사용하여 사용자는 보관 사서함의 메시지를 보고 기본 사서함과 보관 사서함 간에 메시지를 이동하거나 복사할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-172">Using either of these client applications, users can view messages in their archive mailbox and move or copy messages between their primary mailbox and their archive mailbox.</span></span> <span data-ttu-id="592a6-173">사용자는 지운 편지함 복구 도구를 사용하여 보관 사서함의 복구 가능한 항목 폴더에서 삭제된 항목을 복구할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-173">Users can also recover deleted items from the Recoverable Items folder in their archive mailbox by using the Recover Deleted Items tool.</span></span>
+### <a name="disable-archive-mailboxes"></a><span data-ttu-id="379f6-168">보관 사서함을 사용하지 않도록 설정</span><span class="sxs-lookup"><span data-stu-id="379f6-168">Disable archive mailboxes</span></span>
 
-   <span data-ttu-id="592a6-174">현재 위치 보관을 지원하는 Outlook 라이선스 목록은 [Exchange 기능](https://support.microsoft.com/ko-KR/office/outlook-license-requirements-for-exchange-features-46b6b7c5-c3ca-43e5-8424-1e2807917c99)의 Outlook 라이선스 요구 사항을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="592a6-174">For a list of Outlook licenses that support In-Place Archiving, see [Outlook license requirements for Exchange features](https://support.microsoft.com/ko-KR/office/outlook-license-requirements-for-exchange-features-46b6b7c5-c3ca-43e5-8424-1e2807917c99).</span></span>
+<span data-ttu-id="379f6-169">다음 명령을 실행하여 단일 사용자가 보관 사서함을 사용하지 않도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-169">Run the following command to disable the archive mailbox for a single user.</span></span>
 
-- <span data-ttu-id="592a6-175">보관 사서함은 사용자가 조직의 보존, eDiscovery 및 보류 요구 사항을 충족하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-175">Archive mailboxes help you and your users to meet your organization's retention, eDiscovery, and hold requirements.</span></span> <span data-ttu-id="592a6-176">예를 들어, 조직의 Exchange 보존 정책을 사용하여 사용자의 보관 사서함으로 사서함 콘텐츠를 이동할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-176">For example, you can use your organization's Exchange retention policy to move mailbox content to users' archive mailbox.</span></span> <span data-ttu-id="592a6-177">보안 및 규정 준수 센터의 콘텐츠 검색 도구를 사용하여 사용자의 사서함에서 특정 콘텐츠를 검색하면 해당 사용자의 보관 사서함도 검색됩니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-177">When you use the Content Search tool in the Security & Compliance Center to search a user's mailbox for specific content, the user's archive mailbox will also be searched.</span></span> <span data-ttu-id="592a6-178">또한 소송 보존을 배치하거나 보존 정책을 사용자의 사서함에 적용하면 보관 사서함의 항목도 보존됩니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-178">And, when you place a Litigation Hold or apply a retention policy to a user's mailbox, items in the archive mailbox are also retained.</span></span>
-  
-- <span data-ttu-id="592a6-179">보관 사서함을 사용하도록 설정하면 조직에서 모든 사서함에 자동으로 할당되는 기본 Exchange 보존 정책(메시징 레코드 관리 또는 MRM 정책이라고도 함)을 활용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-179">After archive mailboxes are enabled, your organization can take advantage of the default Exchange retention policy (also called Messaging Records Management or MRM policy) that is automatically assigned to every mailbox.</span></span> <span data-ttu-id="592a6-180">보관 사서함을 사용하도록 설정하면 기본 Exchange 보존 정책이 자동으로 다음 작업을 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-180">When an archive mailbox is enabled, the default Exchange retention policy automatically does the following:</span></span> 
-  
-    - <span data-ttu-id="592a6-181">사용자의 기본 사서함에서 보관 사서함으로 2년 이상 된 항목을 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-181">Moves items that are two years or older from a user's primary mailbox to their archive mailbox.</span></span> 
-    
-    - <span data-ttu-id="592a6-182">사용자의 기본 사서함에 있는 복구 가능한 항목 폴더에서 보관 사서함의 복구 가능한 항목 폴더로 14일 이상 된 항목을 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="592a6-182">Moves items that are 14 days or older from the Recoverable Items folder in the user's primary mailbox to the Recoverable Items folder in their archive mailbox.</span></span>
-    
-- <span data-ttu-id="592a6-183">보관 사서함 및 Exchange 보존 정책에 대한 자세한 내용은 다음을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="592a6-183">For more information about archive mailboxes and Exchange retention policies, see:</span></span>
-    
-  - [<span data-ttu-id="592a6-184">보존 태그 및 보존 정책</span><span class="sxs-lookup"><span data-stu-id="592a6-184">Retention tags and retention policies</span></span>](https://go.microsoft.com/fwlink/?LinkId=404424)
-    
-  - [<span data-ttu-id="592a6-185">Exchange Online의 기본 보존 정책</span><span class="sxs-lookup"><span data-stu-id="592a6-185">Default Retention Policy in Exchange Online </span></span>](https://go.microsoft.com/fwlink/?linkid=839418)
-    
-  - [<span data-ttu-id="592a6-186">조직에서 사서함에 대한 보관 및 삭제 정책 설정하기</span><span class="sxs-lookup"><span data-stu-id="592a6-186">Set up an archive and deletion policy for mailboxes in your organization</span></span>](set-up-an-archive-and-deletion-policy-for-mailboxes.md)
+```powershell
+Disable-Mailbox -Identity <username> -Archive
+```
+
+<span data-ttu-id="379f6-170">다음 명령을 실행하여 조직의 모든 사용자(현재 보관 사서함을 사용할 수 있는 사용자)의 보관 사서함을 사용하지 않도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-170">Run the following command to disable the archive mailbox for all users in your organization (whose archive mailbox is currently enabled).</span></span>
+
+```powershell
+Get-Mailbox -Filter {ArchiveStatus -Eq "Active" -AND RecipientTypeDetails -eq "UserMailbox"} | Disable-Mailbox -Archive
+```
+
+## <a name="more-information"></a><span data-ttu-id="379f6-171">추가 정보</span><span class="sxs-lookup"><span data-stu-id="379f6-171">More information</span></span>
+
+- <span data-ttu-id="379f6-172">보관 사서함을 사용하도록 설정하면 사용자는 보관 사서함에 메시지를 저장할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-172">When an archive mailbox is enabled, users can store messages in their archive mailbox.</span></span> <span data-ttu-id="379f6-173">사용자는 웹에서 Microsoft Outlook 및 Outlook을 사용하여 보관 사서함에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-173">Users can access their archive mailboxes by using Microsoft Outlook and Outlook on the web.</span></span> <span data-ttu-id="379f6-174">이러한 클라이언트 응용 프로그램을 사용하여 사용자는 보관 사서함의 메시지를 보고 기본 사서함과 보관 사서함 간에 메시지를 이동하거나 복사할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-174">Using either of these client applications, users can view messages in their archive mailbox and move or copy messages between their primary mailbox and their archive mailbox.</span></span> <span data-ttu-id="379f6-175">사용자는 지운 편지함 복구 도구를 사용하여 보관 사서함의 복구 가능한 항목 폴더에서 삭제된 항목을 복구할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-175">Users can also recover deleted items from the Recoverable Items folder in their archive mailbox by using the Recover Deleted Items tool.</span></span>
+
+  <span data-ttu-id="379f6-176">현재 위치 보관을 지원하는 Outlook 라이선스 목록은 [Exchange 기능](https://support.microsoft.com/office/46b6b7c5-c3ca-43e5-8424-1e2807917c99)의 Outlook 라이선스 요구 사항을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="379f6-176">For a list of Outlook licenses that support In-Place Archiving, see [Outlook license requirements for Exchange features](https://support.microsoft.com/office/46b6b7c5-c3ca-43e5-8424-1e2807917c99).</span></span>
+
+- <span data-ttu-id="379f6-177">보관 사서함은 사용자가 조직의 보존, eDiscovery 및 보류 요구 사항을 충족하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-177">Archive mailboxes help you and your users to meet your organization's retention, eDiscovery, and hold requirements.</span></span> <span data-ttu-id="379f6-178">예를 들어, 조직의 Exchange 보존 정책을 사용하여 사용자의 보관 사서함으로 사서함 콘텐츠를 이동할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-178">For example, you can use your organization's Exchange retention policy to move mailbox content to users' archive mailbox.</span></span> <span data-ttu-id="379f6-179">보안 및 규정 준수 센터의 콘텐츠 검색 도구를 사용하여 사용자의 사서함에서 특정 콘텐츠를 검색하면 해당 사용자의 보관 사서함도 검색됩니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-179">When you use the Content Search tool in the Security & Compliance Center to search a user's mailbox for specific content, the user's archive mailbox will also be searched.</span></span> <span data-ttu-id="379f6-180">또한 소송 보존을 배치하거나 보존 정책을 사용자의 사서함에 적용하면 보관 사서함의 항목도 보존됩니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-180">And, when you place a Litigation Hold or apply a retention policy to a user's mailbox, items in the archive mailbox are also retained.</span></span>
+
+- <span data-ttu-id="379f6-181">보관 사서함을 사용하도록 설정하면 조직에서 모든 사서함에 자동으로 할당되는 기본 Exchange 보존 정책(메시징 레코드 관리 또는 MRM 정책이라고도 함)을 활용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-181">After archive mailboxes are enabled, your organization can take advantage of the default Exchange retention policy (also called Messaging Records Management or MRM policy) that is automatically assigned to every mailbox.</span></span> <span data-ttu-id="379f6-182">보관 사서함을 사용하도록 설정하면 기본 Exchange 보존 정책이 자동으로 다음 작업을 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-182">When an archive mailbox is enabled, the default Exchange retention policy automatically does the following:</span></span>
+
+  - <span data-ttu-id="379f6-183">사용자의 기본 사서함에서 보관 사서함으로 2년 이상 된 항목을 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-183">Moves items that are two years or older from a user's primary mailbox to their archive mailbox.</span></span>
+
+  - <span data-ttu-id="379f6-184">사용자의 기본 사서함에 있는 복구 가능한 항목 폴더에서 보관 사서함의 복구 가능한 항목 폴더로 14일 이상 된 항목을 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="379f6-184">Moves items that are 14 days or older from the Recoverable Items folder in the user's primary mailbox to the Recoverable Items folder in their archive mailbox.</span></span>
+
+- <span data-ttu-id="379f6-185">보관 사서함 및 Exchange 보존 정책에 대한 자세한 내용은 다음을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="379f6-185">For more information about archive mailboxes and Exchange retention policies, see:</span></span>
+
+  - [<span data-ttu-id="379f6-186">Exchange Online의 보존 태그 및 보존 정책</span><span class="sxs-lookup"><span data-stu-id="379f6-186">Retention tags and retention policies in Exchange Online</span></span>](https://docs.microsoft.com/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)
+
+  - [<span data-ttu-id="379f6-187">Exchange Online의 기본 보존 정책</span><span class="sxs-lookup"><span data-stu-id="379f6-187">Default Retention Policy in Exchange Online</span></span>](https://docs.microsoft.com/exchange/security-and-compliance/messaging-records-management/default-retention-policy)
+
+  - [<span data-ttu-id="379f6-188">조직에서 사서함에 대한 보관 및 삭제 정책 설정하기</span><span class="sxs-lookup"><span data-stu-id="379f6-188">Set up an archive and deletion policy for mailboxes in your organization</span></span>](set-up-an-archive-and-deletion-policy-for-mailboxes.md)
