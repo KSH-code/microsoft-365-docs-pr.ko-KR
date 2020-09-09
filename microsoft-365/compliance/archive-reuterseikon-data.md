@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Microsoft 365에서 Globanet의 데이터를 가져오고 보관 하기 위한 커넥터를 설정할 수 있습니다. 이 커넥터를 사용 하면 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 통해 조직의 타사 데이터를 관리 하는 데 도움이 됩니다.
-ms.openlocfilehash: a5cd6e6266c9e5d8b74f50a5712e436e6225c9df
-ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
+ms.openlocfilehash: ec5df821bcfbb772879fea5e8568e7090ce54aae
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399341"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405479"
 ---
 # <a name="set-up-a-connector-to-archive-reuters-eikon-data-preview"></a>Reuters Eikon 데이터를 보관 하는 커넥터 설정 (미리 보기)
 
@@ -42,7 +42,7 @@ Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 Microsoft 36
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 여유 시간 eDiscovery 커넥터에 대 한 사용권 및 조건을 수락 하 여 Globanet Merge1 계정을 만듭니다. 이 작업을 수행 하려면 [Globanet 고객 지원](https://globanet.com/contact-us)에 문의 하세요. 1 단계에서 커넥터를 만들 때이 계정에 로그인 해야 합니다.
+- Microsoft 커넥터에 대 한 Globanet Merge1 계정을 만듭니다. 이 작업을 수행 하려면 [Globanet 고객 지원](https://globanet.com/ms-connectors-contact)에 문의 하세요. 1 단계에서 커넥터를 만들 때이 계정에 로그인 해야 합니다.
 
 - 1 단계에서 Reuters Eikon 커넥터를 만든 후 3 단계에서 완료 하는 사용자는 Exchange Online의 사서함 가져오기 내보내기 역할에 할당 해야 합니다. 이 역할은 Microsoft 365 준수 센터의 **데이터 커넥터** 페이지에 커넥터를 추가 하는 데 필요 합니다. 기본적으로이 역할은 Exchange Online의 어떠한 역할 그룹에도 할당 되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당 한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange Online에서 역할 그룹 관리" 문서의 [역할 그룹 만들기](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) 또는 [역할 그룹 수정](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 섹션을 참조 하세요.
 

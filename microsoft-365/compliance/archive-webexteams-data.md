@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Microsoft 365에서 Globanet의 Webex 팀 커넥터를 통해 데이터를 가져오고 보관 하도록 커넥터를 설정할 수 있습니다. 이 커넥터를 사용 하면 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 통해 조직의 타사 데이터를 관리 하는 데 도움이 됩니다.
-ms.openlocfilehash: 65a0f6eb6e3b7d3e7147cc3eaf96212d75d687c0
-ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
+ms.openlocfilehash: c345edd3a560fff3818cdc7a52ad04e03279f339
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399444"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405447"
 ---
 # <a name="set-up-a-connector-to-archive-webex-teams-data-preview"></a>Webex 팀 데이터를 보관 하는 커넥터 설정 (미리 보기)
 
@@ -26,7 +26,7 @@ Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 Microsoft 36
 
 Webex 팀 데이터가 사용자 사서함에 저장 되 면 소송 보존, eDiscovery, 보존 정책 및 보존 레이블과 통신 준수와 같은 Microsoft 365 준수 기능을 적용할 수 있습니다. Webex 팀 커넥터를 사용 하 여 Microsoft 365에서 데이터를 가져오고 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
 
-## <a name="overview-of-archiving-webex-teams"></a>보관 Webex 팀 개요
+## <a name="overview-of-archiving-webex-teams-data"></a>공유 Webex 팀 데이터 보관 개요
 
 다음 개요에서는 커넥터를 사용 하 여 Microsoft 365에서 Webex 팀 데이터를 보관 하는 프로세스에 대해 설명 합니다.
 
@@ -42,7 +42,7 @@ Webex 팀 데이터가 사용자 사서함에 저장 되 면 소송 보존, eDis
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- Webex 팀 커넥터에 대 한 사용 조건을 수락 하 여 Globanet Merge1 계정을 만듭니다. 이 작업을 수행 하려면 [Globanet 고객 지원](https://globanet.com/contact-us)에 문의 하세요. 1 단계에서 커넥터를 만들 때이 계정에 로그인 해야 합니다.
+- Microsoft 커넥터에 대 한 Globanet Merge1 계정을 만듭니다. 이 작업을 수행 하려면 [Globanet 고객 지원](https://globanet.com/ms-connectors-contact)에 문의 하세요. 1 단계에서 커넥터를 만들 때이 계정에 로그인 해야 합니다.
 
 - [https://developer.webex.com/](https://developer.webex.com)Webex 팀 계정에서 데이터를 페치 (fetch) 하기 위해 응용 프로그램을 만듭니다. 응용 프로그램을 만드는 방법에 대 한 단계별 지침은 [Merge1 타사 커넥터 사용자 가이드](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Webex%20Teams%20User%20Guide%20.pdf) 를 참조 하십시오.
 

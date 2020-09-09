@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365에서 고급 eDiscovery 사용을 시작 하는 방법을 설명 합니다. 몇 가지 빠른 단계를 완료 한 후에는 고급 eDiscovery 도구를 사용할 준비가 된 것입니다. 첫 번째 단계는 사례를 만든 다음 고급 eDiscovery 기능 및 기능 사용을 시작 하는 것입니다.
-ms.openlocfilehash: cc593009337a9b78285fbcf98ad78dbf1899bce1
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 47647c2f4f944812fa066be272a39ded77099c75
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357508"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405425"
 ---
 # <a name="get-started-with-advanced-ediscovery"></a>Advanced eDiscovery 시작
 
@@ -141,11 +141,11 @@ Ediscovery 권한 및 eDiscovery 관리자 역할 그룹에 할당 된 각 역�
 
    - Custodian의 Exchange 사서함, OneDrive 계정 및 custodian가 구성원으로 속해 있는 모든 Microsoft 팀 또는 Yammer 그룹의 데이터는 사례에서 custodial 데이터로 "표시" 될 수 있습니다.
   
-   - Custodian 데이터는 *고급 인덱싱*이라는 프로세스를 통해 다시 인덱싱됩니다. 이렇게 하면 다음 단계에서 검색을 최적화 하는 데 도움이 됩니다.
+   - Custodian 데이터는 reindexed ( *고급 인덱싱*이라고 함)입니다. 이렇게 하면 다음 단계에서 검색을 최적화 하는 데 도움이 됩니다.
   
    - Custodian 데이터를 보유할 수 있습니다. 이렇게 하면 조사 중에 사례와 관련이 있을 수 있는 데이터가 유지 됩니다.
   
-   - 다른 데이터 원본을 custodian와 연결할 수 있습니다 (예: SharePoint 사이트 또는 Microsoft 365 그룹을 custodian에 연결할 수 있음)이 데이터를 다시 인덱싱 하 고 유지 하 고 검색 하 여 custodian의 사서함 또는 OneDrive 계정에 있는 데이터와 동일 하 게 검색할 수 있도록 합니다.
+   - 다른 데이터 원본을 custodian와 연결할 수 있습니다 (예: SharePoint 사이트 또는 Microsoft 365 그룹을 custodian에 연결할 수 있음)이 데이터를 reindexed 하 고 보류 하 고 custodian의 사서함 또는 OneDrive 계정에 있는 데이터와 마찬가지로 검색할 수 있도록 합니다.
 
    - Advanced eDiscovery의 [통신 워크플로](managing-custodian-communications.md) 를 사용 하 여 custodians에 법적 보존 알림을 보낼 수 있습니다.
 
@@ -157,7 +157,7 @@ Ediscovery 권한 및 eDiscovery 관리자 역할 그룹에 할당 된 각 역�
 
    - 쿼리를 수정 하 고 검색을 다시 실행 합니다.
 
-3. **[검토 집합에 데이터를 추가](add-data-to-review-set.md)** 합니다. 구성 및 검색에서 원하는 데이터가 반환 되는지 확인 한 후에는 검토 집합에 검색 결과를 추가 합니다. 검토 집합에 데이터를 추가 하면 항목이 원래 위치에서 안전한 Azure 저장소 위치로 복사 됩니다. 검토 집합의 항목을 검토 하 고 분석할 때 완벽 하 고 빠른 검색을 위해 데이터를 다시 인덱싱할 수 있습니다. 또한 [검토 집합에 Office가 아닌 365 데이터를 추가할](load-non-office-365-data-into-a-review-set.md)수도 있습니다.
+3. **[검토 집합에 데이터를 추가](add-data-to-review-set.md)** 합니다. 구성 및 검색에서 원하는 데이터가 반환 되는지 확인 한 후에는 검토 집합에 검색 결과를 추가 합니다. 검토 집합에 데이터를 추가 하면 항목이 원래 위치에서 안전한 Azure 저장소 위치로 복사 됩니다. 검토 집합의 항목을 검토 하 고 분석할 때 완벽 하 고 빠른 검색을 위해 데이터를 다시 reindexed. 또한 [검토 집합에 Office가 아닌 365 데이터를 추가할](load-non-office-365-data-into-a-review-set.md)수도 있습니다.
 
    또한 *대화 검토 집합*이라는 특별 한 종류의 검토를 통해 데이터를 추가할 수 있습니다. 이러한 유형의 검토 집합은 대화 재구성 기능을 제공 하 여 Microsoft 팀과 같은 스레드된 대화를 재구성, 검토 및 내보낼 수 있습니다. 자세한 내용은 [Advanced eDiscovery에서 대화 검토](conversation-review-sets.md)를 참조 하세요.
 

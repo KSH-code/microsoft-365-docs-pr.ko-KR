@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Globanet의 Merge1 사이트에 보관 되는 Facebook의 작업 공간에서 데이터 365를 가져오고 보관 하기 위한 커넥터를 설정할 수 있습니다. 커넥터를 설정 하려면 Globanet을 사용 하 여 작업 해야 합니다 .이 커넥터를 사용 하면 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 통해 조직의 타사 데이터를 관리 하는 데 도움이 됩니다.
-ms.openlocfilehash: e7cdb81b2b676424c289c42490fe23e7b5441239
-ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
+ms.openlocfilehash: 4bef408f7da93f2ade18fe126d3a1dedaa413a65
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399135"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405489"
 ---
 # <a name="set-up-a-connector-to-archive-workplace-from-facebook-data-preview"></a>Facebook 데이터에서 작업 공간을 보관 하는 커넥터 설정 (미리 보기)
 
@@ -42,7 +42,7 @@ Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 Microsoft 36
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- Facebook 커넥터에서 작업 공간에 대 한 해당 사용권 및 조건을 수락 하 여 Merge1 계정을 만듭니다. 여기에서 [Globanet 고객 지원](https://globanet.com/contact-us/)에 문의 해야 합니다. 1 단계에서 커넥터를 만들 때이 계정에 로그인 해야 합니다.
+- Microsoft 커넥터에 대 한 Globanet Merge1 계정을 만듭니다. 이 작업을 수행 하려면 [Globanet 고객 지원](https://globanet.com/ms-connectors-contact)에 문의 하세요. 1 단계에서 커넥터를 만들 때이 계정에 로그인 해야 합니다.
 
 - https://my.workplace.com/work/admin/apps/규정 준수 및 eDiscovery 목적으로 api를 통해 작업 공간에서 데이터를 검색 하려면에서 사용자 지정 통합을 만듭니다.
 

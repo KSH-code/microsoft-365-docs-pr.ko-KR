@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: 관리자가 Exchange Online 사서함에 대 한 사용자의 복구 가능한 항목 폴더에서 항목을 삭제 하는 방법을 설명 합니다 (해당 사서함이 법적 보존 상태로 설정 된 경우에도).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 52cfe237bb05bc151058a41914af5725bdacee18
-ms.sourcegitcommit: 4ac96855d7c269a0055ca8943000b762a70ca4ba
+ms.openlocfilehash: d0983a3ce10a3980f23af68736acac1382ef938f
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321965"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405469"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold"></a>보류 중인 클라우드 기반 사서함의 복구 가능한 항목 폴더에서 항목 삭제
 
@@ -292,7 +292,7 @@ Set-Mailbox <username> -RemoveDelayReleaseHoldApplied
 
 3. **ComplianceSearch** Cmdlet (보안 & 준수 센터 PowerShell)을 사용 하거나, 준수 센터의 콘텐츠 검색 도구를 사용 하 여 대상 사용자의 복구 가능한 항목 폴더에서 항목을 반환 하는 콘텐츠 검색을 만듭니다. 검색할 모든 하위 폴더에 대 한 검색 쿼리에 FolderId를 포함 하 여이 작업을 수행할 수 있습니다. 예를 들어 다음 쿼리는 제거 및 eDiscoveryHolds 하위 폴더의 모든 메시지를 반환 합니다.
 
-   ```powershell
+   ```text
    folderid:<folder ID of Purges subfolder> OR folderid:<folder ID of DiscoveryHolds subfolder>
    ```
 
@@ -307,8 +307,15 @@ Set-Mailbox <username> -RemoveDelayReleaseHoldApplied
    New-ComplianceSearchAction -SearchName "RecoverableItems" -Purge -PurgeType HardDelete
    ```
 
-   > [!NOTE]
-   > 이전 명령을 실행 하면 최대 10 개의 항목 (사서함 당)이 삭제 됩니다. 즉, `New-ComplianceSearchAction -Purge` 복구 가능한 항목 폴더에서 삭제 하려는 항목을 삭제 하기 위해 명령을 여러 번 실행 해야 할 수 있습니다.
+5. 이전 명령을 실행 하면 사서함 당 항목이 최대 10 개까지 삭제 됩니다. 즉, `New-ComplianceSearchAction -Purge` 복구 가능한 항목 폴더에서 삭제 하려는 모든 항목을 삭제 하기 위해 명령을 여러 번 실행 해야 할 수 있습니다. 추가 항목을 삭제 하려면 먼저 이전 준수 검색 지우기 작업을 제거 해야 합니다. Cmdlet을 실행 하 여이 작업을 수행 `Remove-ComplianceSearchAction` 합니다. 예를 들어 이전 단계에서 실행 한 지우기 작업을 삭제 하려면 다음 명령을 실행 합니다.
+
+   ```powershell
+   Remove-ComplianceSearchAction "RecoverableItems_Purge"
+   ```
+
+   이 작업을 수행한 후에는 새 준수 검색 지우기 작업을 만들어 더 많은 항목을 삭제할 수 있습니다. 새 지우기 작업을 만들려면 먼저 삭제 해야 합니다.
+
+   준수 검색 작업 목록을 가져오려면 cmdlet을 실행할 수 있습니다 `Get-ComplianceSearchAction` . 삭제 작업은 `_Purge` 검색 이름에 추가 되어 식별 됩니다.
 
 ### <a name="verify-that-items-were-deleted"></a>항목이 삭제 되었는지 확인
 

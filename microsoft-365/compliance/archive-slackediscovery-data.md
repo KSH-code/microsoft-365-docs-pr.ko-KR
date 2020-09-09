@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Globanet 여유 eDiscovery에서 Microsoft 365로 데이터를 가져오고 보관 하기 위한 커넥터를 설정할 수 있습니다. 이 커넥터를 사용 하면 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 통해 조직의 타사 데이터를 관리 하는 데 도움이 됩니다.
-ms.openlocfilehash: 86a6595ae12201e5083b524661ef53dba54f8cf3
-ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
+ms.openlocfilehash: 175ce5a5e419d3af621fa9b1eb3d55621314e186
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399309"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405579"
 ---
 # <a name="set-up-a-connector-to-archive-slack-ediscovery-data-preview"></a>여유 시간 eDiscovery 데이터를 보관 하는 연결선 설정 (미리 보기)
 
@@ -42,7 +42,7 @@ Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 소셜 미�
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 여유 시간 eDiscovery 커넥터에 대 한 사용권 및 조건을 수락 하 여 Globanet Merge1 계정을 만듭니다. 이 작업을 수행 하려면 [Globanet 고객 지원](https://globanet.com/contact-us)에 문의 하세요. 1 단계에서 커넥터를 만들 때이 계정에 로그인 해야 합니다.
+- Microsoft 커넥터에 대 한 Globanet Merge1 계정을 만듭니다. 이 작업을 수행 하려면 [Globanet 고객 지원](https://globanet.com/ms-connectors-contact)에 문의 하세요. 1 단계에서 커넥터를 만들 때이 계정에 로그인 해야 합니다.
 
 - 조직의 여유 시간 엔터프라이즈 계정에 대 한 사용자 이름 및 암호를 가져옵니다. 여유 시간 eDiscovery를 구성 하는 경우 2 단계에서이 계정에 로그인 해야 합니다.
 

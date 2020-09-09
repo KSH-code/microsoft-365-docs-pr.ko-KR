@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Globanet Zoom Meeting에서 Microsoft 365로 데이터를 가져오고 보관 하기 위한 커넥터를 설정할 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: c053137c67276fa76dd84c38e1aca602a0b9c151
-ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
+ms.openlocfilehash: 6b2f5f0b61eb2d569ad49d8f58c7e03d11cdbca0
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399145"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405499"
 ---
 # <a name="set-up-a-connector-to-archive-zoom-meetings-data-preview"></a>확대/축소 모임 데이터를 보관 하는 연결선 설정 (미리 보기)
 
@@ -42,7 +42,7 @@ Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 확대/축�
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 여유 시간 eDiscovery 커넥터에 대 한 사용권 및 조건을 수락 하 여 Globanet Merge1 계정을 만듭니다. 이 작업을 수행 하려면 [Globanet 고객 지원](https://globanet.com/contact-us)에 문의 하세요. 1 단계에서 커넥터를 만들 때이 계정에 로그인 해야 합니다.
+- Microsoft 커넥터에 대 한 Globanet Merge1 계정을 만듭니다. 이 작업을 수행 하려면 [Globanet 고객 지원](https://globanet.com/ms-connectors-contact)에 문의 하세요. 1 단계에서 커넥터를 만들 때이 계정에 로그인 해야 합니다.
 
 - 조직의 확대/축소 회사 또는 확대/축소 계정에 대 한 사용자 이름 및 암호를 가져옵니다. 확대/축소 회의 커넥터를 구성 하는 경우 2 단계에서이 계정으로 로그인 해야 합니다.
 
