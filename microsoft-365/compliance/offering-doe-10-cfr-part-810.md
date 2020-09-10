@@ -3,7 +3,7 @@ title: US DoE 10 CFR 부분 810
 description: 고객은 Azure 정부를 사용할 수 있는 US DoE 10 CFR 파트 810의 수출 관리 요구 사항을 따릅니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b34babe60781858b85a3c76280c2126094442851
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: a809ae91bbe1302ae4087b3a430dea87e2c913a1
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066441"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415698"
 ---
 # <a name="us-doe-10-cfr-part-810"></a>US DoE 10 CFR 부분 810
 
@@ -34,7 +34,7 @@ FedRAMP에서는 Azure 정부에서 엄격한 NIST 컨트롤로 설계 된 계�
 
 또한 Azure 정부는 Azure 클라우드와 물리적으로 분리 된 미국 정부 커뮤니티 클라우드입니다. Azure 운영 직원 중에 정보 및 시스템에 대 한 액세스를 차단 하는 특정 제어 기능을 포함 하 여 US 정부의 특정 백그라운드 차단 요구 사항에 대 한 추가 보증을 제공 합니다.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내의 클라우드 서비스
 
 - [Azure 정부](https://aka.ms/AzureCompliance)
 - Intune
@@ -47,7 +47,7 @@ FedRAMP에서는 Azure 정부에서 엄격한 NIST 컨트롤로 설계 된 계�
 
 미국 에너지 (DoE) 수출 통제 규정 [10 CFR 부분 810](https://www.govinfo.gov/content/pkg/FR-2015-02-23/pdf/2015-03479.pdf) 에서는 분류 되지 않은 핵 기술 및 지원의 수출을 제어 합니다. 이를 통해 미국에서 내보내진 핵 기술이 peaceful 목적 으로만 사용 되도록 할 수 있습니다. 수정 된 부분 810 (Final Rule)은 3 월 2015에 적용 되 고 [국내 핵 보안 관리](https://www.energy.gov/nnsa/national-nuclear-security-administration)에 의해 관리 됩니다. 810.6 섹션에는 향상 및 고급 물의 생산과 같은 중요 한 핵 기술이 필요한 경우와 같이 특정 인증을 요구 하는 모든 지원 및 중요 한 기밀 기술의 전송에 대 한 특정 DoE 인증이 필요 합니다.
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **미국 핵 규제 위원회에 대 한 10 CFR 부분 110 규정은 Azure 정부에 적용 됩니까?**
 

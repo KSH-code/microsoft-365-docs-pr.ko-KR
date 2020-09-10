@@ -1,9 +1,9 @@
 ---
 title: 방어 연방 취득 규정 보완 (DFARS)
 description: Microsoft Azure 정부는 DFARS (수출 연방 취득 규정) 요구 사항을 지원 합니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1b850db09306f3cb4664433fb5659e8b65b421ba
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 07e3104881688b81d126cbd8b65844c7a2853d16
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602555"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415548"
 ---
 # <a name="defense-federal-acquisition-regulation-supplement-dfars"></a>방어 연방 취득 규정 보완 (DFARS)
 
 ## <a name="dfars-overview"></a>DFARS 개요
 
-2016 년 10 월 21 일의 경우, DoD (보안 부서)는 DFARS (방어 연방 획득 규정 보완)를 실행 하 고 정보를 포함 하는 방어 계약에 대 한 보호 및 사이버 사고 보고 의무를 수정 합니다. 시스템이 CDI (방어 정보)를 처리, 저장 또는 전송 합니다.  
+2016 년 10 월 21 일, DoD (보안 부서)에서 최종 규칙을 발급 하는 수정 (DFARS) 방어 및 사이버 사고 보고 의무 (예를 들어, 정보 시스템이 CDI (보호 정보)를 처리, 저장 또는 전송 합니다.  
   
 최종 DFARS 절 252.204 – 7012 (포함 된 방어 정보 보호 및 사이버 인시던트 보고)는 클라우드 서비스 공급자에 대 한 사이버 문제 보고 요구 사항 및 추가 고려 사항을 포함할 수 있는 보호책을 지정 합니다. DFARS 252.204 – 7012에서는 모든 DoD 계약자 및 방어 산업 기지는 적절 한 보안을 위한 DFARS 요구 사항을 준수 하는 데 필요 하지만, 현실적으로 출시 될 예정 이며, 2017 년 12 월 31 일 보다 늦은 것은 아닙니다.
 
@@ -35,7 +35,7 @@ Microsoft 정부 클라우드 서비스 도움말 미국 방어 산업 기지 �
   
 Azure 보안 및 준수 청사진을 사용 하 여 DFARS 배포를 가속화 하는 방법을 알아봅니다. [azure-청사진 DFARS 고객 책임 행렬 다운로드](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=7ed1b47c-b180-4323-9aec-21712d54b167&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_DoD_Blueprint)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내의 클라우드 서비스
 
 DoD 영향 수준 5에 대 한 검사 된 서비스
 
@@ -56,7 +56,7 @@ Azure 정부 및 Office 365 미국 정부 방어를 통해 당사의 방어 산�
 
 **Azure 정부 및 Office 365 미국 정부 방어에서 DFARS 요구 사항을 지원 한다는 독립적인 평가자 확인**
 
-예, 타사 평가 조직에서 Azure 정부 및 Office 365 미국 정부 방어 클라우드 서비스가 DFARS 절의 적용 가능한 요구 사항을 충족 하는 attested (미분류 제어 기술 보호)를 제공 합니다. 정보).
+예, 타사 평가 조직에서 Azure 정부 및 Office 365 미국 정부 방어 클라우드 서비스가 DFARS 절 252.204-7012 (미분류 제어 기술 정보 보호)의 적용 가능한 요구 사항을 충족 하는 attested를 제공 합니다.
 
 **제어 된 미분류 정보 (인지 i)와 CDI (보호 정보) 간의 관계**
 
@@ -69,7 +69,7 @@ CDI는 보호 또는 보급 컨트롤을 사용 해야 하는 기술 정보 또�
 
 **모든 Microsoft 서비스가 DFARS 규정의 "보호 정보"에 해당 하는 "적절 한 보안" 요구 사항을 충족 합니까?**
 
-2016 년 10 월, 보안 (DoD) promulgated는 "포함 된 방어 정보"를 처리, 저장 또는 전송 하는 모든 DoD 계약자에 게 적용 되는 DFARS (방어 연방 획득 규정 보완) 절을 구현 하는 최종 규칙입니다. 정보 시스템 이 규칙은 이러한 시스템이 NIST SP 800-171에서 설정 된 보안 요구 사항을 충족 해야 하며, 관리 되지 않는 [정보 시스템 및 조직에서 제어 된 분류](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171.pdf)되지 않은 정보를 보호 하는 경우, 또는 DoD 계약 관리자가 승인한 "대안 및 실제 보안 조치"를 의미 합니다. 또한 DoD 계약자가 외부 클라우드 서비스 공급자를 사용 하 여 특정 방어 정보를 처리, 저장 또는 전송 하는 경우 해당 공급자는 FedRAMP 보통 기준선에 해당 하는 보안 요구 사항을 충족 해야 합니다.
+2016 년 10 월, 보안 (DoD) promulgated는 해당 정보 시스템을 통해 "포함 된 방어 정보"를 처리, 저장 또는 전송 하는 모든 DoD 계약자에 게 적용 되는 DFARS (방어 연방 획득 규정 보완) 절을 구현 하는 최종 규칙을 수행 합니다. 이 규칙은 이러한 시스템이 NIST SP 800-171에서 설정 된 보안 요구 사항을 충족 해야 하며, 관리 되지 않는 [정보 시스템 및 조직에서 제어 된 분류](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171.pdf)되지 않은 정보를 보호 하는 경우, 또는 DoD 계약 관리자가 승인한 "대안 및 실제 보안 조치"를 의미 합니다. 또한 DoD 계약자가 외부 클라우드 서비스 공급자를 사용 하 여 특정 방어 정보를 처리, 저장 또는 전송 하는 경우 해당 공급자는 FedRAMP 보통 기준선에 해당 하는 보안 요구 사항을 충족 해야 합니다.
 
 다음 Microsoft 클라우드 서비스는 FedRAMP 일반 인증을 받았으며 DFARS에 적합 합니다. Azure 정부, Dynamics 365 미국 정부, Office 365 미국 정부 및 Office 365 미국 정부 방어.
 

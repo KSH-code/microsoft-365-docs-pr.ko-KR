@@ -3,7 +3,7 @@ title: GDPR에 대한 책임 준비 상태 검사 목록
 description: 이 문서에서는 Microsoft 제품 및 서비스를 사용할 때 GDPR을 지원하기 위한 정보에 액세스하는 책임 준비 상태 점검 목록에 대해 알아봅니다.
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 154ba945db3bd5cfab25881bfdbbdc6738a3dfd7
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 8bee0c58075c535b5175d9f5ecbed6c6f2f5044c
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036116"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416988"
 ---
 # <a name="support-your-gdpr-program-with-accountability-readiness-checklists"></a>책임 준비 상태 검사 목록으로 GDPR 프로그램 지원
 

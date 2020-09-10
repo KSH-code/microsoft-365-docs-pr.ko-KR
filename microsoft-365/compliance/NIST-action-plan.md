@@ -4,7 +4,7 @@ description: NIST(National Institute of Standards and Technology)의 요구 사�
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, NIST, NIST 800-53
 author: BrendaCarter
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 09/14/2018
 f1.keywords:
@@ -15,12 +15,12 @@ audience: itpro
 ms.collection:
 - M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 355d83c4ad1e51e03f137a1342d00f3693c242e7
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 5624bf3ebf5ce7b443cb7c6a20466e9b701f3440
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308019"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416378"
 ---
 # <a name="microsoft-365-nist-800-53-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>Microsoft 365 NIST 800-53 작업 계획 - 처음 30일, 90일 및 그 이상 기간에 대한 최고 우선 순위 지정
 

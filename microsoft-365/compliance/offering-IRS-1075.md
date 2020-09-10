@@ -3,7 +3,7 @@ title: 미국 내부 수익 서비스 게시 1075
 description: Microsoft에는 미국 내부 수익 서비스 게시 1075의 요구 사항을 충족 하는 컨트롤이 있습니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b64b69d52028a09ddd54863d4e2cbf5f0642bd67
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 83c66bfce39698cfea7833433d337fe7411e0ebe
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066331"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416348"
 ---
 # <a name="us-internal-revenue-service-publication-1075"></a>미국 내부 수익 서비스 게시 1075
 
@@ -43,7 +43,7 @@ Microsoft Azure 정부 및 [Microsoft Office 365 U.S. 정부](https://products.o
 - IRS Azure 정부 준수 고려 사항 및 Office 365 미국 정부 준수 고려 사항에 대해 설명 하 고,이를 통해 에이전시에서 IRS 1075을 준수 하는 방식으로 정부 서비스용 Microsoft 클라우드를 사용 하는 방법을 대략적으로 소개 합니다. NDA에 거주 하는 정부 고객은 이러한 문서를 요청할 수 있습니다.
 - 고객에 게 필요한 경우 Microsoft 주제별 전문가 또는 외부 감사자와 정보를 교환할 기회를 제공 합니다.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내의 클라우드 서비스
 
 FedRAMP 인증은 NIST 지침 (낮음, 중간, 높음)에 따라 세 가지 영향 수준으로 부여 됩니다. 이러한 경우 기밀성, 무결성 또는 가용성의 손실로 인 한 영향을 조직에 미칠 수 있는 영향은 낮음 (제한적 효과), 중간 (심각한 부정적 효과), 높음 (심각 또는 치명적 효과)
 
@@ -60,7 +60,7 @@ IRS 1075의 substantive 요구 사항을 준수 하는 기능은 FedRAMP 감사�
 - [FedRAMP 권한 부여](https://marketplace.fedramp.gov/#/product/azure-government?sort=productName&productNameSearch=azure)
 - [Azure IRS 1075 보호 보안 보고서](https://aka.ms/AzureIRS1075SafeguardSecurityReport)
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **Microsoft는 IRS 1075의 요구 사항을 해결 하는 방법을 설명 합니다.**
 

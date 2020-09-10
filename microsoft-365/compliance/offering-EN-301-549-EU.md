@@ -3,7 +3,7 @@ title: 유럽 표준 EN-US 301 549
 description: Microsoft 클라우드는 많은 서비스로 구성되어 있으며, 많은 개별 적합성 보고서에 포함됩니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ac8829d681e27609a505e7539e835c5c58c8474e
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 80f990db632b8a050a6444970d843a826f8a036a
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064727"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415506"
 ---
 # <a name="european-standards-en-301-549"></a>유럽 표준 EN-US 301 549
 

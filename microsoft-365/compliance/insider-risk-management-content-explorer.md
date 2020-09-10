@@ -3,7 +3,7 @@ title: 참가자 위험 관리 콘텐츠 탐색기
 description: Microsoft 365의 참가자 위험 관리 콘텐츠 탐색기에 대해 자세히 알아보기
 keywords: Microsoft 365, 참가자 위험 관리, 위험 관리, 규정 준수
 localization_priority: Normal
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: dee4ed05f4210530dddeff8ac62ee3f39903abca
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 1523e80f187cd7df6d8e44b91b85c39608e2f49c
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199825"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416492"
 ---
 # <a name="insider-risk-management-content-explorer"></a>참가자 위험 관리 콘텐츠 탐색기
 
@@ -117,7 +117,7 @@ Insider 위험성이 관리 콘텐츠 탐색기를 사용 하 여 **참가자 �
 | **전자 메일 보안** | 메시지의 보안 설정입니다. |
 | **전자 메일 민감도** | 메시지의 민감도 설정입니다. |
 | **전자 메일 집합 ID** | 같은 전자 메일 집합에 있는 모든 메시지의 그룹 ID입니다. |
-| **From** | 전자 메일 메시지의 보낸 사람입니다. |
+| **시작** | 전자 메일 메시지의 보낸 사람입니다. |
 | **첨부 파일 있음** | 메시지에 첨부 파일이 있는지 여부를 나타냅니다. **True** 또는 **false**값을 사용 합니다. |
 | **얼마나** | 보낸 사람이 메시지를 보낼 때 지정할 수 있는 전자 메일 메시지의 중요도입니다. 기본적으로 보낸 사람이 중요도를 **높음** 또는 **낮음**으로 설정하지 않았다면 메시지는 보통 중요도로 전송됩니다. |
 | **모임 종료 날짜** | 모임의 모임 종료 날짜입니다. |

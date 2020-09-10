@@ -3,7 +3,7 @@ title: 보건부 전자 제품 및 정보 기술 (MeitY)
 description: Microsoft는 인도의 전자 제품 및 정보 기술에 대 한 보건부의 모든 인정을 받습니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 86a3e7ce703881452d3d112aace3b418bf0984af
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: b73e701c870bcd43672f43f9fe51d3e5fb10c615
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066099"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417492"
 ---
 # <a name="ministry-of-electronics-and-information-technology-meity"></a>보건부 전자 제품 및 정보 기술 (MeitY)
 
@@ -29,7 +29,7 @@ ms.locfileid: "44066099"
 
 MeitY은 클라우드 서비스 공급자가 제공 하는 인정 (Medas ' empanelment ' 라고 지칭 함)이 고, 클라우드 서비스가 미리 정의 된 표준 집합 및 보안, 상호 운용성, 데이터 이식성, 서비스 수준 계약 및 계약 조건에 대 한 지침을 준수 하는 것으로 인증 되어야 합니다. 감사자 공인는 클라우드 서비스 공급자의 감사를 수행 하 여 준수 여부를 확인 합니다.
 
-일단 공인 클라우드 서비스 공급자는 공공 부문 조직이 공인 클라우드 서비스를 비교 하 고 지원 하는 정부 클라우드 서비스 디렉터리에 나열 됩니다. 디렉터리는 정부에서 클라우드 컴퓨팅의 사용을 촉진 하 고 공공 \[분야 IT 서비스\] 의 구현을 제어 하는 [MeghRaj 클라우드 이니셔티브](https://meity.gov.in/content/gi-cloud-meghraj) (또는 인도 클라우드의 GI 정부)의 서비스입니다.
+일단 공인 클라우드 서비스 공급자는 공공 부문 조직이 공인 클라우드 서비스를 비교 하 고 지원 하는 정부 클라우드 서비스 디렉터리에 나열 됩니다. 디렉터리는 [MeghRaj Cloud Initiative](https://meity.gov.in/content/gi-cloud-meghraj) \[ \] 정부에서 클라우드 컴퓨팅의 사용을 촉진 하 고 공공 분야 IT 서비스의 구현을 제어 하는 MeghRaj 클라우드 이니셔티브 (또는 인도 클라우드의 GI 정부)의 서비스입니다.
 
 ## <a name="microsoft-and-ministry-of-electronics-and-information-technology-meity"></a>Microsoft 및 보건부 (전자 제품 및 정보 기술)
 
@@ -51,7 +51,7 @@ Microsoft의 MeitY 인정은 MeghRaj 클라우드 이니셔티브의 작업을 �
 
 - [클라우드 서비스 공급자의 감사 상태에](https://meity.gov.in/content/gi-cloud-meghraj) Microsoft 클라우드 인정 제공
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **그렇다면 MeitY 중요 한 이유는 무엇 인가요?**
 

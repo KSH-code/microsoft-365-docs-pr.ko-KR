@@ -1,9 +1,9 @@
 ---
 title: 형사법 (CJIS) 보안 정책
 description: Microsoft 정부 클라우드 서비스는 미국 범죄를 대상으로 하는 정보 서비스 보안 정책을 따릅니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 02be641b93ffdb245ae6073358b66c1204e46093
-ms.sourcegitcommit: 4581afb3116ccd7d0144398e83cd6a6990e3683b
+ms.openlocfilehash: 5680cc1bf8f3a0290f82baaccea1de7b982317a7
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43772519"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416420"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>형사법 (CJIS) 보안 정책
 
@@ -43,7 +43,7 @@ Microsoft 클라우드의 CJIS 보안 정책 혜택에 대해 자세히 알아�
 
 Azure 보안 및 준수 청사진을 사용 하 여 CJIS 보안 정책을 가속화 하는 방법을 알아봅니다. [Microsoft 정부 클라우드 서비스에 대 한 cjis 구현 지침 다운로드](https://gallery.technet.microsoft.com/CJIS-Implementation-62af7c27)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내의 클라우드 서비스
 
 - [Azure 정부](https://aka.ms/AzureCompliance)
 - [Dynamics 365 미국 정부](https://aka.ms/d365-compliance-list)
@@ -68,7 +68,7 @@ FBI에서는 CJIS 요구 사항을 준수 하는 Microsoft의 인증을 제공 �
 
 **준수 정보를 요청 하는 위치**
 
-관심 있는 관할지에 대 한 자세한 내용은 Microsoft 계정 담당자에 게 문의 하세요. 현재 <cjis@microsoft.com> 어떤 상태에서 사용 가능한 서비스에 대 한 정보를 문의할 수 있습니다.
+관심 있는 관할지에 대 한 자세한 내용은 Microsoft 계정 담당자에 게 문의 하세요. <cjis@microsoft.com>현재 어떤 상태에서 사용 가능한 서비스에 대 한 정보를 문의할 수 있습니다.
 
 **Microsoft는 클라우드 서비스가 내 상태 요구 사항을 준수 하도록 설정 하 고 있음을 어떻게 확인 하나요?**
 

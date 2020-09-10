@@ -3,7 +3,7 @@ title: ITAR (무장 규정)의 국제 트래픽
 description: Azure 정부는 Arm Regs 지원 시스템에서 국제 트래픽을 구축 하는 고객을 지원 합니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c19b10b436d40364d15ce6bf8569d18b0a0e7b7b
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 6019e215e99af672f7e938b11abdac8732c152fa
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065733"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417642"
 ---
 # <a name="international-traffic-in-arms-regulations-itar"></a>ITAR (무장 규정)의 국제 트래픽
 
@@ -39,12 +39,12 @@ ITAR에는 특정 위험 완화 이점을 제공할 수 있는 보고서 위반�
   
 ITAR 규정 데이터를 호스트 하려는 고객은 Microsoft 계정 및 라이선스 팀과 협력 하 여 더 자세히 알아보고 적절 한 계약을 얻고 관련 시스템 아키텍처 정보에 액세스 해야 합니다.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내의 클라우드 서비스
 
 - [Azure 정부](https://aka.ms/AzureCompliance)
 - [Office 365 US Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **준수 정보를 요청 하는 위치**
 

@@ -3,7 +3,7 @@ title: 캘리포니아 소비자 개인 정보 보호법(CCPA)
 description: Microsoft 서비스 및 캘리포니아 CCPA (소비자 개인 정보 보호 Act)
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,20 +14,20 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: de9fcad3b1d54247114974ce4432068c136fdb2a
-ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
+ms.openlocfilehash: 1bdd6770c033abe7a2bf714029b2a4075fada249
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42222030"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415740"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>캘리포니아 소비자 개인 정보 보호법(CCPA)
 
 ## <a name="ccpa-overview"></a>CCPA 개요
 
-CCPA (캘리포니아 소비자 개인 정보 취급 방침)은 미국에서 최초의 포괄적인 개인 정보 보호법입니다. 캘리포니아 사용자에 게 다양 한 개인 정보 보호 권한을 제공 합니다.  CCPA가 규제 하는 기업에서는 공개, 일반 데이터 보호 규정 (GDPR), 특정 데이터 전송에 대 한 ' 옵트아웃 ' 및 ' 옵트인 '을 포함 하 여 이러한 소비자에 대 한 여러 의무를 갖게 됩니다. 미성년자가에 대 한 요구 사항
+CCPA (캘리포니아 소비자 개인 정보 취급 방침)은 미국에서 최초의 포괄적인 개인 정보 보호법입니다. 캘리포니아 사용자에 게 다양 한 개인 정보 보호 권한을 제공 합니다.  CCPA에서 규제 하는 기업은 공개, 일반 데이터 보호 규정 (GDPR), 특정 데이터 전송에 대 한 ' 옵트아웃 ' 및 미성년자가에 대 한 ' 옵트인 ' 요구 사항을 포함 하 여 이러한 소비자에 게 많은 의무를 부여 합니다.
 
-CCPA는 캘리포니아, 즉, (1) 총 연간 수입을 $2500만 보다 많이 만족 하는 회사의 비즈니스를 수행 하는 기업에만 적용 되며, (2)는 캘리포니아 소비자 개인의 판매에 대 한 연간 수입의 50% 이상으로 도출 됩니다. 정보 또는 (3) 5만 캘리포니아 명 이상의 고객에 대 한 개인 정보를 매년 구입, 판매 또는 공유 합니다.
+CCPA는 캘리포니아, (1)은 총 연간 수입을 $2500만 보다 많은 매출을 충족 하는 회사에만 적용 되며 (2) 1 년 동안의 연간 수입을 50% 보다 많이 소비 하거나 (3) 5만 캘리포니아 보다 많은 고객에 대 한 개인 정보를 구입, 판매 또는 공유 합니다.
 
 CCPA는 2020년 1월 1일에 발효됩니다. 그러나, AG (캘리포니아 변호사)에의 한 적용은 2020 년 7 월 1 일에 시작 됩니다.
 
@@ -35,7 +35,7 @@ CCPA는 2020년 1월 1일에 발효됩니다. 그러나, AG (캘리포니아 변
 
 ## <a name="microsoft-and-the-ccpa"></a>Microsoft 및 CCPA
 
-캘리포니아에서 비즈니스를 수행 하는 상용 고객의 경우 Microsoft는 온라인 서비스 및 전문 서비스 제공과 관련 하 여 ' 서비스 공급자 ' 역할을 합니다.  온라인 서비스 약관 (OST) 및 Microsoft 전문 서비스 데이터 보호 (MSDPA)의 약관이 CCPA의 서비스 공급자 요구 사항에 이미 부합 되며 일반적으로 고객은 데이터를 계속 전송 하도록 허용 하는 데 충분 합니다. 온라인 서비스에 초대 합니다. 따라서 고객은 CCPA에서 Microsoft에 서비스 공급자로 사용할 수 있도록 추가 계약을 변경할 필요가 없습니다.
+캘리포니아에서 비즈니스를 수행 하는 상용 고객의 경우 Microsoft는 온라인 서비스 및 전문 서비스 제공과 관련 하 여 ' 서비스 공급자 ' 역할을 합니다.  온라인 서비스 약관 (OST) 및 Microsoft 전문 서비스 데이터 보호 (MSDPA)의 약관이 CCPA의 서비스 공급자 요구 사항에 이미 부합 되며 일반적으로 고객은 온라인 서비스에 데이터를 계속 전송 하도록 허용 하는 것이 충분 합니다. 따라서 고객은 CCPA에서 Microsoft에 서비스 공급자로 사용할 수 있도록 추가 계약을 변경할 필요가 없습니다.
 
 OST에 설정 된 대로 Microsoft는 CCPA를 포함 하는 온라인 서비스 제공에 해당 하는 모든 법률과 규정을 준수 합니다.  
 
@@ -103,4 +103,4 @@ CCPA의 경우에는 다음과 같은 방법으로 개인 정보를 수집, 전�
 - [CCPA 가이드 시작 하기](https://info.microsoft.com/ww-landing-Five-tips-to-help-you-prepare-for-the-California-Consumer-Privacy-Act.html)
 - [데이터 주체 요청 및 GDPR](gdpr-data-subject-requests.md)
 - [캘리포니아 소비자 개인 정보 보호법(CCPA) FAQ](ccpa-faq.md)
-- [Microsoft 보안 센터의 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)

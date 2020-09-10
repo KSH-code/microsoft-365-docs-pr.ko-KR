@@ -3,7 +3,7 @@ title: 국내 표준 협회 및 기술 (NIST) Cybersecurity Framework (CSF)
 description: Microsoft 클라우드 서비스는 NIST (표준 협회) Cybersecurity Framework (CSF)를 충족 합니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2b705d26efa513214164c05703acafe8d5d141c2
-ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
+ms.openlocfilehash: 90670c8102afe0dcf0814726bde36bd422e802a9
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44799983"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417090"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>국내 표준 협회 및 기술 (NIST) Cybersecurity Framework (CSF)
 
@@ -40,7 +40,7 @@ NIST Cybersecurity Framework (CSF)는 Cybersecurity 관련 위험을 관리 하�
 - [NIST SP 800-53 4, 청사진의 개요 샘플](https://docs.microsoft.com/azure/governance/blueprints/samples/nist-sp-800-53-rev4/)
 - [규정 준수 점수가 Office 365에 대 한 NIST CSF 평가에 대해 자세히 알아보기](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내의 클라우드 서비스
 
 - [Azure 정부](https://aka.ms/AzureCompliance)
 - [정부용 Dynamics 365](https://aka.ms/d365-compliance-list)
@@ -64,7 +64,7 @@ Cybersecurity는 디지털 변환 연대의 중요 관리 문제를 그대로 �
 
 - [준수 점수 사용 시작](compliance-score.md)
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **Azure 정부, Dynamics 365 및 Office 365 지원 NIST CSF 요구 사항에 대 한 독립적인 평가자 확인 해야 하나요?**
 

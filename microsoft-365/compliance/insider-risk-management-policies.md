@@ -3,7 +3,7 @@ title: 참가자 위험 관리 정책
 description: Microsoft 365의 참가자 위험 관리 정책에 대해 자세히 알아보기
 keywords: Microsoft 365, 참가자 위험 관리, 위험 관리, 규정 준수
 localization_priority: Normal
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 7701932cdd41b673dcc665c71983df9f4d244a8b
-ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
+ms.openlocfilehash: fa38b81ff02729f1bd874c1ac286712b0a6bbb7a
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46632177"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416812"
 ---
 # <a name="insider-risk-management-policies"></a>참가자 위험 관리 정책
 

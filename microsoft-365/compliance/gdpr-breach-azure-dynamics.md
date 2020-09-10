@@ -3,7 +3,7 @@ title: Azure 및 Dynamics 365 GDPR의 위반 알림
 description: Azure 및 Dynamics 365가 개인 데이터 위반으로부터 보호하는 방법 및 Microsoft가 위반 발생 시 대응하고 사용자에게 알리는 방법입니다.
 keywords: Azure, Microsoft 365, Dynamics 365, Microsoft 365 설명서, GDPR
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: f1964d4f4406e7a7070e3cf272a1386f14528517
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: 838e2ee09ea80f07c637eeebd1229b63f01ad00b
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558098"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415902"
 ---
 # <a name="azure-and-dynamics-365-breach-notification-under-the-gdpr"></a>Azure 및 Dynamics 365 GDPR의 위반 알림
 

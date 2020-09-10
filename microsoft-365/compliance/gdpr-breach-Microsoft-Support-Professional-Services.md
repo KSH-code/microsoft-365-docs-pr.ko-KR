@@ -3,7 +3,7 @@ title: Microsoft 고객 지원 및 전문 서비스와 GDPR에 따른 위반 알
 description: Microsoft 고객 지원 및 전문 서비스가 개인 데이터 위반으로부터 보호하는 방법 및 Microsoft가 위반 발생 시 대응하고 사용자에게 알리는 방법입니다.
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: c6f32258f4997db4cb806141414cffc808e63517
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: 87f956e0c9ae80610a61a7ed9496e2aa8b52ebb4
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558108"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416841"
 ---
 # <a name="microsoft-support-and-professional-services-and-breach-notification-under-the-gdpr"></a>Microsoft 고객 지원 및 전문 서비스와 GDPR에 따른 위반 알림
 

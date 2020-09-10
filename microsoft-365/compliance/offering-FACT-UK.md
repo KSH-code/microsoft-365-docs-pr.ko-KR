@@ -3,7 +3,7 @@ title: 저작권 도용 (사실)에 대 한 페더레이션
 description: Microsoft Azure는 영국의 저작권 도용 으로부터 인증을 획득 했습니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e8d7ce93438ce3699dd30ac8b5f0f8818045eaf5
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: acc0ab379cdd93d873cc0b1eb2f0d729eff251c8
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066401"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416114"
 ---
 # <a name="federation-against-copyright-theft-fact"></a>저작권 도용 (사실)에 대 한 페더레이션
 
@@ -41,7 +41,7 @@ Microsoft의 자발적 전송에 근거 하 여 팩트 감사자 인증 된 Azur
 
 Azure 인증은 매년 갱신 됩니다. [AZURE 팩트 인증서](https://aka.ms/azurefactcert)
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **팩트가 중요 한 이유**
 

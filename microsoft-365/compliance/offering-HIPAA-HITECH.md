@@ -1,9 +1,9 @@
 ---
 title: HITECH의 상태 보험 이식성 및 책임 (HIPAA) &
 description: Microsoft는 책임 업무 비즈니스 연결 동의 (BAAs)를 & 건강 보험 이식성을 제공 합니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 825d8bac0d20534310864801b1d8eaef32c9b417
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: bb1452bc0f33b56cd9fee6bb4846a8e623c0b96a
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936353"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416852"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>HITECH의 상태 보험 이식성 및 책임 (HIPAA) &
 
@@ -34,7 +34,7 @@ HIPAA (건강 보험 이식성 및 책임 Act)는 개별적으로 식별 가능�
 - 식별자-리서치 목적으로 수집 된 경우 해제할 수 없는 정보의 유형입니다.
 - 자격 및 보험 청구 및 지불을 포함 하 여 의료 관련 거래에서 데이터를 전자적으로 전송 하기 위한 코드입니다.
 
-HIPAA의 범위는 경제 및 임상 의료 (HITECH) Act에 대 한 상태 정보 기술인 enactment 사용 하 여 확장 되었습니다. HIPAA와 HITECH Act 규칙은 다음과 같습니다.
+HIPAA 범위는 경제적이 고 HITECH (임상 Health) Act에 대 한 상태 정보 기술인 enactment로 확장 되었습니다. HIPAA 및 HITECH Act 규칙은 다음과 같습니다.
 
 - 사용자의 개인 정보 사용을 제어할 수 있는 것은 무엇 이며, 사용 하지 않도록 설정 하 고 공개를 제한 하는 것은 매우 적합 합니다.
 - HIPAA 보안 규칙-관리, 기술 및 물리적 보호책에 대 한 표준을 설정 하 여 무단으로 액세스, 사용 및 공개 되지 않도록 합니다. 또한 기업 연결 동의 (BAAs)와 같은 조직 요구 사항도 포함 되어 있습니다.
@@ -72,7 +72,7 @@ Azure 보안 및 규정 준수 청사진 (HIPAA/HITRUST Health Data and AI)을 �
 
 [Azure HIPAA/HITRUST 청사진 사용 시작](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/)
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **조직이 Microsoft의 BAA에 입력 될 수 있나요?**
 

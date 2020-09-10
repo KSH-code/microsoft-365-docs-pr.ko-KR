@@ -3,7 +3,7 @@ title: 오스트레일리아 정부 공인 클라우드 서비스 목록 (CCSL)
 description: Microsoft는 호주 사이버 보안 센터 (ACSC)에의 한 IRAP 평가 및 인증을 기반으로 하는 보호 된 데이터와 미분류 보급 제한 표식 (DLM)에 대 한 오스트레일리아 공인 클라우드 서비스 목록에 포함 되어 있습니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 98b669a216b5c3a875cb1a42fd0cc97fb6112f1b
-ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
+ms.openlocfilehash: 0ff270c27c4b3d1a376b8b9ddefd1177cdd7823f
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42222110"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417332"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>오스트레일리아 정부 정보 보안 등록 된 평가자 Program (IRAP)
 
@@ -40,7 +40,7 @@ IRAP (Information Security 평가자 Program)는 오스트레일리아 정부 �
 
 CCSL (인증 된 클라우드 서비스 목록)은 오스트레일리아 정부에의 한 IRAP 평가를 성공적으로 완료 하 고 ACSC (오스트레일리아 사이버 Security 센터)에의 한 인증을 받은 클라우드 서비스를 식별 합니다. 이 인증에서는 정보 보안이 등록 된 평가자에서 수행한 포괄적인 평가의 성공적인 완료, 검토 및 수락을 인식 하 고 모든 오스트레일리아 정부 기관이이를 사용할 수 있도록 합니다. 또한, NZ ISM 및 오스트레일리아 정부 ISM이 맞춰지는 경우 새 21vianet 정부 조직에서 위험 평가를 수행 하는 동안이를 참조할 수도 있습니다.
 
-Microsoft의 Azure, Dynamics 365 CRM 및 Office 365은 미분류-보급 제한 표식 (현재 공식: 중요)과 이전 IRAP 평가 및 인증을 기반으로 하는 보호 된 데이터에 대 한 CCSL에 계속 포함 되어 있습니다. ACSC (오스트레일리아 사이버 보안 센터)
+Microsoft의 Azure, Dynamics 365 CRM 및 Office 365은 미분류 사이버 보안 센터 (ACSC)에서의 이전 IRAP 평가 및 인증을 기반으로 하는, 현재 공식: 중요 한 정보를 포함 하는 보호 된 데이터와 분류 되지 않은: 보급 제한 표식 (now)에 대 한 CCSL에 계속 들어 있습니다.
 
 ## <a name="microsoft-and-irap"></a>Microsoft 및 IRAP
 
@@ -48,7 +48,7 @@ Microsoft의 Azure, Dynamics 365 CRM 및 Office 365은 미분류-보급 제한 �
 
 오스트레일리아의 Microsoft 서비스 평가는 사용 가능한 4 가지 Azure 지역을 다루고 있습니다. 정부 및 중요 인프라의 경우, 캔버라의 CDC 데이터 Centres에서 제공 되는 요구에 맞게 특별히 디자인 된 두 지역을 배포 했습니다. [오스트레일리아 중부 및 오스트레일리아 중앙 2](https://azure.microsoft.com/global-infrastructure/australia/) 오스트레일리아 지역의 차이점에 대 한 자세한 내용은 [Microsoft Service Trust Portal](https://aka.ms/au-irap)의 오스트레일리아 관련 페이지에서 사용할 수 있는 AZURE Irap 평가 보고서에 자세히 설명 되어 있습니다.
 
-각 평가에 대해 Microsoft의 IT 운영 팀, 실제 데이터 센터, 침입 감지, 암호화, 상호 도메인 및 네트워크 보안에 사용 되는 보안 제어 및 프로세스를 검사 한 ACSC-공인 IRAP 평가자 범위 내 서비스의 정보 보안 위험 관리 및 액세스 제어 IRAP 평가는 Microsoft system 아키텍처가 사운드 보안 원칙을 기반으로 하 고 있으며, 해당 하는 오스트레일리아 정부 (ISM) 컨트롤이 현재 평가 중인 서비스 내에서 완전히 효과적 이라는 것을 발견 했습니다.
+각 평가에 대해 Microsoft의 IT 운영 팀, 실제 데이터 센터, 침입 감지, 암호화, 상호 도메인 및 네트워크 보안, 액세스 제어 및 범위 내 서비스에 대 한 정보 보안 위험 관리에서 사용 하는 보안 제어 및 프로세스를 검사 한 ACSC-공인 IRAP 평가자. IRAP 평가는 Microsoft system 아키텍처가 사운드 보안 원칙을 기반으로 하 고 있으며, 해당 하는 오스트레일리아 정부 (ISM) 컨트롤이 현재 평가 중인 서비스 내에서 완전히 효과적 이라는 것을 발견 했습니다.
 
 ISM에서 사용 하는 위험 관리 프레임 워크는 [국내 협회 (표준 및 조직) 800-37 Rev. 2](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final), "보안 및 개인 정보 보호를 위한 시스템 수명 주기 방식에 대 한 It 및 조직의 위험 관리 프레임 워크를 통해 발생 합니다." 이 위험 관리 프레임 워크 내에서는 [국제 표준화 기구 (ISO) 31000:2018, 위험 관리-지침](https://www.iso.org/standard/65694.html)과 같은 다양 한 위험 관리 표준을 사용 하 여 보안 제어의 위험을 식별 하 고 선택할 수 있습니다. ISM에서 사용 하는 위험 관리 프레임 워크에는 다음과 같은 6 가지 단계가 광범위 하 게 포함 됩니다.
 
@@ -61,9 +61,9 @@ ISM에서 사용 하는 위험 관리 프레임 워크는 [국내 협회 (표준
 
 기본적으로 추가 보상 제어는 이러한 클라우드 서비스를 에이전시에서 인증 하 고 사용 하기 전에 개별 기관에 의해 위험 관리 방식으로 구현 될 수 있습니다.
 
-Microsoft의 서비스에 대 한 IRAP 평가를 통해 Microsoft가 보호의 처리, 저장 및 전송에 적절 하 고 효과적인 보안 제어 기능을 제공 하는 정부 및 해당 파트너의 공공 부문 고객을 보증할 수 있습니다. 분류 된 정보를 참조 하세요. 여기에는 오스트레일리아의 정부, 의료 및 교육 데이터 대부분이 포함 됩니다.
+Microsoft 서비스의 IRAP 평가 기능을 사용 하면 보호 된 정보의 처리, 저장 및 전송에 대 한 적절 하 고 효과적인 보안 제어가 제공 되는 정부 및 해당 파트너의 공공 부문 고객을 보증할 수 있습니다. 여기에는 오스트레일리아의 정부, 의료 및 교육 데이터 대부분이 포함 됩니다.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내의 클라우드 서비스
 
 - [Azure 및 Dynamics](https://aka.ms/AzureCompliance)
 - [Office 365](https://aka.ms/Office365ComplianceOfferings)
@@ -96,4 +96,4 @@ IRAP는 클라우드 서비스를 사용 하는 모든 오스트레일리아 연
 - [Microsoft STP (서비스 트러스트 포털)의 오스트레일리아 페이지](https://aka.ms/au-irap)
 - [오스트레일리아 보안 및 게이트웨이 가이드](https://docs.microsoft.com/azure/azure-australia)
 - [ASD 인증 된 클라우드 서비스](https://acsc.gov.au/infosec/irap/certified_clouds.htm)
-- [Microsoft 보안 센터의 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)

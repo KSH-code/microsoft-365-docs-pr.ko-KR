@@ -3,7 +3,7 @@ title: NIST SP 800 – 171
 description: Microsoft 클라우드 서비스는 NIST SP 800을 준수 하며, 비 연방 정보 시스템에서 통제 되지 않은 171 (미분류 정보)를 보호 하기 위한 지침입니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 47e001fafedbdcaab6e1aa6365789bc309d9f65c
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 757541aa86049106ad06f02419fee02033c6a0e3
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065813"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417070"
 ---
 # <a name="nist-sp-800171"></a>NIST SP 800 – 171
 
@@ -42,7 +42,7 @@ NIST SP 800-171 요구 사항은 FedRAMP에서 사용 하는 표준인 NIST SP 8
 
 US 정부 기관, 컨설팅 회사, 제조 계약자 등을 처리 하거나 저장 하는 모든 엔터티가 NIST SP 800-171의 엄격한 요구 사항을 준수 해야 합니다. 이 증명은 microsoft가 전체 규정 준수로 인 한 보증을 통해 공동 작업을 배포 하려는 고객에 게 지원 서비스를 제공할 수 있음을 의미 합니다. 예를 들어 해당 정보 시스템에서 범위 내 Microsoft 클라우드 서비스를 사용 하 여 ' 포함 된 방어 정보 '를 처리, 저장 또는 전송 하는 모든 DoD 계약자는 NIST SP 800-171의 보안 요구 사항을 준수 해야 하는 방어 DFARS 절의 US 부서를 충족 합니다.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내의 클라우드 서비스
 
 - [Azure 정부](https://aka.ms/AzureCompliance)
 - [Dynamics 365 미국 정부](https://aka.ms/d365-compliance-list)
@@ -57,7 +57,7 @@ US 정부 기관, 컨설팅 회사, 제조 계약자 등을 처리 하거나 저
 
 - [Azure 청사진 샘플](https://docs.microsoft.com/azure/governance/blueprints/samples/): NIST 기반 컨트롤을 준수 하는 워크 로드를 구현 하기 위한 지원을 받을 수 있습니다.
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **조직에서 Microsoft 준수를 NIST SP 800 – 171에 사용할 수 있나요?**
 

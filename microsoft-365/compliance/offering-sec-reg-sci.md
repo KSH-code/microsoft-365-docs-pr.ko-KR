@@ -3,7 +3,7 @@ title: 증권 및 Exchange 위원회-규정 시스템 준수 및 무결성 (SCI)
 description: SCI 규칙은 SCI 엔터티에 적용 되며, 이러한 조직은 SROs를 주식 및 옵션 교환, 등록 된 기관 지우기 및 ATSs (대체 거래 시스템)로 포함 합니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e2b314934a51c16ab4e907b7d9f6208e7de21641
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: fd4817f31aa91698a77de45fd8315b3f84431289
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065713"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415932"
 ---
 # <a name="securities-and-exchange-commission-regulation-systems-compliance-and-integrity-sci"></a>증권 및 Exchange 위원회: 규정 시스템 준수 및 무결성 (SCI)
 
@@ -54,7 +54,7 @@ SCI 규칙은 SCI 엔터티에 적용 되며, 이러한 조직은 SROs를 주식
 - [고가용성 응용 프로그램 디자인](https://docs.microsoft.com/azure/storage/common/storage-designing-ha-apps-with-ragrs): 개발자가 Azure Storage 응용 프로그램을 항상 사용할 수 있도록 하는 방법에 대해 알아봅니다.
 - [위험 평가 & 준수 가이드](https://aka.ms/RiskGovernanceGuide): Microsoft 클라우드 서비스의 위험 평가 및 규제 기관의 알림에 대한 거버넌스 모델을 만들 수 있습니다.
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **클라우드 기술을 사용할 때의 공유 역할 이란 무엇을 의미 하나요?**
 
@@ -69,7 +69,7 @@ SCI 규칙은 SCI 엔터티에 적용 되며, 이러한 조직은 SROs를 주식
 - [초당 규정 SCI 관련 된 faq에 대 한 응답](https://www.sec.gov/divisions/marketreg/regulation-sci-faq.shtml)
 - [비즈니스 연속성 및 재해 복구 (BCDR): Azure 페어링 지역](https://docs.microsoft.com/azure/best-practices-availability-paired-regions)
 - [클라우드 컴퓨팅 규정 원칙 및 Microsoft Online Services의 준수 맵](https://aka.ms/FinServ-Guide-US)
-- [Microsoft 클라우드 금융 서비스 준수 프로그램](https://aka.ms/FSCP-Print)
+- [Microsoft 클라우드 금융 서비스 규정 준수 프로그램](https://aka.ms/FSCP-Print)
 - [Azure에서의 금융 서비스 규정 준수](https://aka.ms/FinServ-Compliance-Azure)
 - [Microsoft 금융 서비스](https://aka.ms/FinServ-Compliance)
 - [Microsoft 및 SEC 규칙 17a-4](offering-SEC-17a-4.md)

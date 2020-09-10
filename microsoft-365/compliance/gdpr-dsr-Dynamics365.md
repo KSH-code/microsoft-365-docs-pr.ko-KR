@@ -3,7 +3,7 @@ title: GDPR 및 CCPA에 대한 Dynamics 365 데이터 주체 요청
 description: 개인 데이터를 찾아서 조치를 취하고, Dynamics 365 고객의 DSR 및 CCPA 요청에 응답하는 방법을 알아보세요.
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR, CCPA
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ hideEdit: true
 ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 04ecbd6e52a56ea83f3b2e2eaebd02de20cfbe52
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: a5237f845239414a9b26a6da7028e323a11ea850
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817667"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416602"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Dynamics 365 데이터 주체 요청
 

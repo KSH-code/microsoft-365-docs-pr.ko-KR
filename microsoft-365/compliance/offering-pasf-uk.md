@@ -3,7 +3,7 @@ title: 경찰서 (보안 강화 기능) 영국
 description: Microsoft business cloud services는 경찰서 보안 기능이 클라우드에서 데이터를 처리 하 고 저장 하도록 요구 하는 영국 법 집행을 지원 합니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3207d0d29c837064ac5c27cc7022a8d0d7e63a22
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 828a16ce825a21a532a22d60cd0005db10c97a75
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065793"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416400"
 ---
 # <a name="police-assured-secure-facilities-pasf-united-kingdom"></a>경찰서 (보안 강화 기능) 영국
 
@@ -51,7 +51,7 @@ NPIRMT은 매년 한 번씩 Azure datacenter를 감사 하며, 매년 영국 4 �
 
 - [AZURE Uk 공식 청사진](https://servicetrust.microsoft.com/ViewPage/UKBlueprints): 영국 고객이 Azure에서 준수 작업의 IaaS 및 PaaS 배포를 가속화 하도록 지원 합니다.
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **영국에서 경찰서 부서가 자체 위험 평가의 일부로 Azure에 지 f 평가를 사용할 수 있나요?**
 

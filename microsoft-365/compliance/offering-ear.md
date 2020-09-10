@@ -1,9 +1,9 @@
 ---
 title: US 수출 관리 규정 (귀)
 description: Microsoft 클라우드 서비스 지원 고객이 미국 수출 관리 규정 (귀)이 준수 요구 사항을 충족 하 고 수출 통제 위험을 관리 하는 데 도움이 됩니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1adf0bab35c921dd416028747b0309e5ad5f3055
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4ad12f785a76f6ee733cb3b459ad58370a330f51
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601965"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416064"
 ---
 # <a name="us-export-administration-regulations-ear"></a>US 수출 관리 규정 (귀)
 
@@ -27,7 +27,7 @@ ms.locfileid: "41601965"
 
 Commerce의 미국 부서에서는 [업계 및 보안 기관 (BIS)](https://www.bis.doc.gov/)을 통해 귀를 들을 때 관리 규정을 적용 합니다. 귀는 상업용 및 군사 목적 및 특정 방어 아이템에 모두 사용할 수 있는 "이중 사용" 항목을 포함 하 여 대부분의 상업용 상품, 소프트웨어 및 기술에 대 한 내보내기 및 다시 내보내기에 대 한 제어를 제어 하 고 적용 합니다.
 
-BIS 지침은 데이터 나 소프트웨어가 클라우드에 업로드 되거나 사용자 노드 간에 전송 되는 경우, 즉 클라우드 공급자가 아닌 고객은 해당 데이터 또는 소프트웨어의 전송, 저장 및 액세스를 보장할 책임이 있는 "내보내기"입니다. 귀를 준수 합니다.
+BIS 지침은 데이터 나 소프트웨어가 클라우드에 업로드 되거나 사용자 노드 간에 전송 되는 경우, 즉 클라우드 공급자가 아닌 고객은 해당 데이터 또는 소프트웨어에 대 한 전송, 저장 및 액세스를 보장 하는 "내보내기"를 담당 합니다.
 
 [BIS에 따르면](https://www.bis.doc.gov/index.php/documents/regulation-docs/412-part-734-scope-of-the-export-administration-regulations/file) *export* 는 보호 된 기술 또는 기술 데이터를 외부 대상에 전송 하거나 미국 내에 있는 외부 사용자에 게 배포 하는 것을 의미 합니다 (이 *내보내기가*라고도 함). 대체로 다음과 같은 사항을 제어 합니다.
 
@@ -41,7 +41,7 @@ BIS 지침은 데이터 나 소프트웨어가 클라우드에 업로드 되거�
 
 ## <a name="microsoft-and-the-ear"></a>Microsoft 및 귀
 
-Microsoft 기술, 제품 및 서비스는 귀를 들을 수 있습니다. 귀, Microsoft Azure, Microsoft Azure 정부 및 Microsoft Office 365 정부 (GCCHigh 및 DoD 환경)에 대 한 준수 인증은 없기 때문에 적절 한 고객이 귀 관리를 진행 하는 데 도움이 되는 중요 한 기능과 도구를 제공 합니다. 위험 제어 및 준수 요구 사항 충족
+Microsoft 기술, 제품 및 서비스는 귀를 들을 수 있습니다. 귀, Microsoft Azure, Microsoft Azure 정부 및 Microsoft Office 365 정부 (GCCHigh 및 DoD 환경)에 대 한 준수 인증을 제공 하는 경우에는 적절 한 고객이 귀 관리 및 해당 준수 요구 사항을 충족 하는 데 도움이 되는 중요 한 기능과 도구를 소개 합니다.
 
 귀를 적용 하는 미국 Commerce 부서는 고객 들이 Microsoft와 같은 클라우드 서비스 공급자가 아닌 고객에 게 해당 사용자의 내보내기 도구으로 간주 되는 위치를 결정 했습니다. 대부분의 고객 데이터는 귀 수출 통제의 "기술" 또는 "기술 데이터"로 간주 되지 않지만 Microsoft의 범위 내 클라우드 서비스는 고객이 직면 하는 잠재적 수출 통제 위험을 관리 하 고 크게 완화 하는 데 도움이 되도록 구성 됩니다. Microsoft는 단독으로 사용 하는 경우에만 정부 클라우드 서비스를 사용할 것을 권장 합니다. 적절 한 계획을 통해 고객은 다음 도구와 자체 내부 절차를 사용 하 여 US 수출 통제를 완벽 하 게 준수 하도록 할 수 있습니다.
 
@@ -66,7 +66,7 @@ Microsoft 기술, 제품 및 서비스는 귀를 들을 수 있습니다. 귀, M
 
 **Microsoft 클라우드 서비스를 사용할 때 내보내기 컨트롤을 준수 하려면 어떻게 해야 하나요?**
 
-귀에서 Microsoft 클라우드와 같은 클라우드 서버로 데이터를 업로드 하는 경우 클라우드 서비스 공급자가 아닌 데이터를 소유 하는 고객은 내보내기로 간주 됩니다. 따라서 데이터 소유자 (즉, Microsoft 고객)는 Microsoft 클라우드의 사용에 따라 제어를 implicate 수 있는 방법을 신중히 평가 해야 하며, 사용 하거나 저장 하려는 데이터 중에 귀 컨트롤이 있을 수 있습니다. 컨트롤이 적용 되는 컨트롤을 정의 합니다. [Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=c24c11f2-2cd4-444a-9160-19762855ad3a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) 및 [Office 365](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE1s5kI) 클라우드 서비스를 통해 고객이 US 수출 통제를 완벽 하 게 준수 하는 데 도움이 되는 방법에 대해 자세히 알아보세요.
+귀에서 Microsoft 클라우드와 같은 클라우드 서버로 데이터를 업로드 하는 경우 클라우드 서비스 공급자가 아닌 데이터를 소유 하는 고객은 내보내기로 간주 됩니다. 이러한 이유 때문에 데이터 소유자 (즉, Microsoft 고객)는 Microsoft 클라우드의 사용에 따라 제어를 implicate 수 있는 방법을 신중히 평가 해야 하며, 사용 하거나 저장 하려는 데이터 중에 귀 컨트롤이 있을 수 있으며, 그렇다면 어떤 컨트롤이 적용 되는지를 결정할 수도 있습니다. [Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=c24c11f2-2cd4-444a-9160-19762855ad3a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) 및 [Office 365](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE1s5kI) 클라우드 서비스를 통해 고객이 US 수출 통제를 완벽 하 게 준수 하는 데 도움이 되는 방법에 대해 자세히 알아보세요.
 
 **Microsoft 기술, 제품 및 서비스가 귀를 들을 수 있나요?**
 

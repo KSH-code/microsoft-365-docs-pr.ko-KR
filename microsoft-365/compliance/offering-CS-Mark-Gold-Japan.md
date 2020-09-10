@@ -3,7 +3,7 @@ title: 클라우드 보안 마크 골드(CS 골드 마크)
 description: Microsoft는 일본에서 Azure(IaaS 및 PaaS)와 Office 365(SaaS)에 대한 CS 골드 마크를 받았습니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ea2700b8bee62b045d3a65ff95097cae567c239e
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 19fcc8fa8394a9dde55bdd65ed1bf12354701ecf
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066261"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415628"
 ---
 # <a name="cloud-security-mark-gold-cs-gold-mark"></a>클라우드 보안 마크 골드(CS 골드 마크)
 

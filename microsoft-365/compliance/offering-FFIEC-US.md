@@ -3,7 +3,7 @@ title: 연방 금융 기관 검사 Council (FFIEC)
 description: Microsoft는 금융 서비스 클라이언트에 게 연방 금융 기관 검사 Council (FFIEC)의 감사 요구 사항을 준수 하도록 지원 합니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c30f92bbbe3458fe4751f829b02203f622414cda
-ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
+ms.openlocfilehash: 34feea4f90ddbb4036bb08c5548696f4fcd649a9
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44800099"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417322"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>연방 금융 기관 검사 Council (FFIEC)
 
@@ -53,7 +53,7 @@ FFIEC 요구 사항을 준수 하는 데 도움이 되도록 Microsoft 클라우
 
 Azure 및 Office 365 SOC 증명 보고서
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **Microsoft에서 사용 하는 제 1의 FFIEC 준수 의무를 충족 하기 위해 SOC 표준에 대 한 마이크로소프트 준수를 사용할 수 있나요?**
 

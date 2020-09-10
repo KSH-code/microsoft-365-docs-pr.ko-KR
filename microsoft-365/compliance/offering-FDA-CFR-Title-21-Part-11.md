@@ -3,7 +3,7 @@ title: 음식 및 마약 관리 CFR 제목 21 부
 description: Microsoft는 고객이 이러한 음식 및 마약 관리 규정을 준수할 수 있도록 지원 합니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1b24460940d583eeb9ed431b61453e87a218a816
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: fa93c78d240c243911e21e687ef5d02c29b714b2
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066381"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417342"
 ---
 # <a name="food-and-drug-administration-cfr-title-21-part-11"></a>음식 및 마약 관리 CFR 제목 21 부
 
@@ -45,7 +45,7 @@ Microsoft enterprise 클라우드 서비스는 일반 독립 타사 SOC 1 유형
 
 FDA CFR 타이틀을 가속화 하는 방법을 알아봅니다. 21 배포: [AZURE FDA 21 검증 가이드 다운로드](https://go.microsoft.com/fwlink/p/?linkid=2086604)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내의 클라우드 서비스
 
 CFR 제목 21 부를 준수 하기 위한 인증을 사용 하지 않지만 다음 Microsoft enterprise 클라우드 서비스는 독립 된 타사 감사를 준수 했으며,이로 인해 고객이 규정을 준수할 지 원하는 데 도움이 될 수 있습니다. 이러한 서비스는 다음과 같습니다.
 

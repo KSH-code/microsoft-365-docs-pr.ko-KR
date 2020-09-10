@@ -3,7 +3,7 @@ title: ISO 9001:2015 품질 관리 시스템 표준
 description: Microsoft는 이러한 품질 관리 표준의 구현에 대한 인증을 받았습니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3f733f3baf0db4d01a78e7984f44b17a5d5584e7
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: e2caa6dd9a2e6838877edb2000e020ddb682ffd5
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254311"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417662"
 ---
 # <a name="iso-90012015-quality-management-systems-standards"></a>ISO 9001:2015 품질 관리 시스템 표준
 

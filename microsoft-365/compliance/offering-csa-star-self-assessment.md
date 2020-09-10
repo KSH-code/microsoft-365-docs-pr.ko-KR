@@ -3,7 +3,7 @@ title: 규정 준수 제공 - CSA (Cloud Security Alliance) STAR 자체 평가
 description: Microsoft STAR 자체 평가에서는 클라우드 서비스에서 Cloud Security Alliance 요구 사항을 충족하는 방법에 대해 자세히 설명합니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5abbfff81bd79e200eeaf0db680245ae8e449cb0
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: 6d47b393993df3d9c105ff0912a6112cb10489eb
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254191"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416266"
 ---
 # <a name="cloud-security-alliance-csa-star-self-assessment"></a>CSA (Cloud Security Alliance) STAR 자체 평가
 

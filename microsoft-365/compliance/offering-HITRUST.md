@@ -3,7 +3,7 @@ title: Health Information Trust 제휴 (HITRUST) 일반 보안 프레임 워크 
 description: Azure 및 Office 365는 HITRUST (Health Information Trust 제휴) (CSF)를 인증 합니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e94cc9164938189e1b6fb07d897cf4bbf1e73c5d
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 5ee3e77624650f0a5c1b913081620695cdc13142
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066675"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417040"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Health Information Trust 제휴 (HITRUST) 일반 보안 프레임 워크 (CSF)
 
@@ -70,7 +70,7 @@ HITRUST MyCSF 도구에서 Azure에 대 한 완전히 상속 되거나 공유 �
 
 [자세한 정보](https://go.microsoft.com/fwlink/p/?linkid=2100268)
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **Azure HITRUST 준수를 사용 하 여 조직의 인증 프로세스를 작성할 수 있나요?**
 

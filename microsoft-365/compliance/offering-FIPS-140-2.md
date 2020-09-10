@@ -3,7 +3,7 @@ title: FIPS (연방 정보 처리 표준) 게시 140-2
 description: Microsoft는 해당 암호화 모듈이 미국 연방 정보 처리 표준을 따르는지 인증 합니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8288438eed0f658d8058125bc90315e9a2626c08
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: f193e1846b957a26475cdfc48add6679a951841f
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066583"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415852"
 ---
 # <a name="federal-information-processing-standard-fips-publication-140-2"></a>FIPS (연방 정보 처리 표준) 게시 140-2
 
@@ -35,7 +35,7 @@ Microsoft는 2001에서 표준의 개시 이후로 유효성이 검사 된 암�
 
 Microsoft Windows 암호화 모듈, 각 모듈에 대 한 보안 정책 및 NVP 인증서 세부 정보의 카탈로그에 대 한 기술 정보는 [Windows 및 Windows SERVER FIPS 140-2 콘텐츠](https://aka.ms/AA6ehud)를 참조 하세요.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내의 클라우드 서비스
 
 현재 CMVP FIPS 140-2 구현 지침은 클라우드 서비스 자체에 대 한 FIPS 140-2 유효성 검사를 수행 하지 않습니다. 클라우드 서비스 공급자는 클라우드 서비스를 구성 하는 컴퓨팅 요소에 대해 FIPS 140 유효성 검사 암호화 모듈을 얻고 작동 하도록 선택할 수 있습니다. FIPS 140-2 유효성이 검사 된 구성 요소를 포함 하는 Microsoft online services에는 다음이 포함 됩니다.
 
@@ -43,7 +43,7 @@ Microsoft Windows 암호화 모듈, 각 모듈에 대 한 보안 정책 및 NVP 
 - [Dynamics 365 및 Dynamics 365 정부](https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-in-microsoft-dynamics-365)
 - [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-risks-and-protections)
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **"FIPS 140 유효성 검사"와 "FIPS 140 준수" 간의 차이점은 무엇입니까?**
 

@@ -3,7 +3,7 @@ title: 참가자 위험 관리 사용자 대시보드
 description: Microsoft 365의 참가자 위험 관리 사용자 대시보드에 대 한 자세한 정보
 keywords: Microsoft 365, 참가자 위험 관리, 위험 관리, 규정 준수
 localization_priority: Normal
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 0997ecc83ad7f97d1fb7273bcac8b026f6432091
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 9a5eb61d6009dd5a7ab2f66eb3ef712196368010
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199515"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416732"
 ---
 # <a name="insider-risk-management-users-dashboard"></a>참가자 위험 관리 사용자 대시보드
 

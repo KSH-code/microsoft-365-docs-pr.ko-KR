@@ -3,7 +3,7 @@ title: EU-US 및 Swiss-US Privacy Shield 프레임워크
 description: Microsoft는 EU-US 및 Swiss-US Privacy Shield 프레임워크 및 그에 수반하는 약속에 대한 인증을 받았습니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f58baecce1d1972c7aee1fdb7121375d5ddd111c
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 6037712fb5ad60d8fb3dfe01a4a909d117456160
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066411"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416144"
 ---
 # <a name="eu-us-and-swiss-us-privacy-shield-frameworks"></a>EU-US 및 Swiss-US Privacy Shield 프레임워크
 

@@ -3,7 +3,7 @@ title: 위원회의 국가 보안 시스템 명령 아니요 1253 (CNSSI 1253)
 description: Azure 정부용 CNSSI 1253 보안 제어를 사용 하 여 높은 기밀성, 높은 무결성 및 높은 가용성이 필요한 미국 정부 시스템을 지원 합니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 59bb5fd9e692cc5c69a4baf1cdc14cc200dba7a6
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: d84f31f38fb8e4ff71de067ca30abc39b58704fc
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066271"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415599"
 ---
 # <a name="committee-on-national-security-systems-instruction-no-1253-cnssi-1253"></a>위원회의 국가 보안 시스템 명령 아니요 1253 (CNSSI 1253)
 
@@ -39,7 +39,7 @@ FedRAMP 승인 된 타사 평가 조직 (3PAO), Kratos SecureInfo는 CNSSI 1253 
   
 까다로운 CNSSI 1253 요구 사항과 함께 Azure 정부를 준수 하는 것은 Azure에서 공용 섹터 고객에 게 CNSSI 1253과 호환 되는 다양 한 서비스를 제공 하 여 Microsoft 클라우드의 비용 절약 및 엄격한 보안을 활용할 수 있다는 것을 의미 합니다.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내의 클라우드 서비스
 
 - [Azure 정부](https://aka.ms/AzureCompliance)
 
@@ -51,7 +51,7 @@ Azure 정부 CNSSI 1253, CNSSI 1253 High-높은 기준선 준수 증명
 
 - [Azure 정부 설명서](https://docs.microsoft.com/azure/azure-government/): 자습서 및 방법 가이드 개발자가 Azure 정부를 사용 하 여 서비스를 배포 하 고 관리 하는 데 도움이 됩니다.
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **CNSSI 1253를 적용할 대상**
 

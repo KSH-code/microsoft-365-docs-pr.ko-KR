@@ -3,7 +3,7 @@ title: 참가자 위험 관리 설정
 description: Microsoft 365의 참가자 위험 관리 설정에 대해 자세히 알아보기
 keywords: Microsoft 365, 참가자 위험 관리, 위험 관리, 규정 준수
 localization_priority: Normal
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: a31ee6de305cf9226a8b605f75bb71406f78fd70
-ms.sourcegitcommit: fe20f5ed07f38786c63df0f73659ca472e69e478
+ms.openlocfilehash: cec98f979a19c91946564aa402d1880c3ee08d5a
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201424"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416782"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>참가자 위험 관리 설정 시작
 
@@ -126,7 +126,7 @@ ms.locfileid: "45201424"
 관심 있는 신호의 유형에 따라 Microsoft Defender ATP 경고 문제 분류 상태에 따라 위험 관리에 대해 알림을 가져오도록 선택할 수 있습니다. 전역 설정에서 다음과 같은 알림 심사 상태를 하나 이상 정의 하 여 가져올 수 있습니다.
 
 - 알 수 없음
-- New
+- 신규
 - 진행 중
 - 해결됨
 

@@ -3,7 +3,7 @@ title: 미국 508
 description: Microsoft는 이러한 서비스의 내게 필요한 옵션 기능을 설명 하는 많은 클라우드 서비스에 대 한 자세한 내게 필요한 옵션 규칙 보고서를 제공 합니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7f61248fc6e31d0982eedd153aa71ae3eed71de5
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 1037232f7e72bd6d82cd0818dfad2ca2722144ec
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066301"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415346"
 ---
 # <a name="us-section-508"></a>미국 508
 

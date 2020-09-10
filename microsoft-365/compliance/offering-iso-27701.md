@@ -3,7 +3,7 @@ title: ISO/IEC 27701 개인 정보 관리 시스템(PIMS)
 description: 글로벌 데이터 처리 공급 체인 내의 컨트롤러 및 프로세서 간의 개인 정보 보호 책임 및 규정 준수를 지원하기 위한 ISO/IEC 27701 표준입니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8a4f59a817e8ddd38ee8132e7028a3357d15d578
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: b46a1996d1a86601efe21ec71b19adfc9fa02c61
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254171"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417216"
 ---
 # <a name="isoiec-27701-privacy-information-management-system-pims"></a>ISO/IEC 27701 PIMS(개인 정보 관리 시스템)
 

@@ -3,7 +3,7 @@ title: North American Electric Reliability Corporation(북미전력안정성회�
 description: Azure 및 Azure Government는 NERC CIP 표준에 준하여 클라우드에 특정 작업을 배포하는 등록된 개체에 적합합니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 635918f068a70eb8270f4d8e2f571f1fda962949
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7001a17af7932a7aafa7cceac207b772b42b55d9
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601925"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417166"
 ---
 # <a name="north-american-electric-reliability-corporation-nerc"></a>North American Electric Reliability Corporation(북미전력안정성회사:NERC)
 

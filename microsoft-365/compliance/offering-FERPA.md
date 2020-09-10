@@ -1,9 +1,9 @@
 ---
 title: 가족 교육 기관 권한 및 FERPA (개인 정보 취급 방침)
 description: Microsoft는 미국 가족 교육 기관 권리 및 개인 정보 취급 방침의 요구 사항을 충족 합니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c7d3120f7094e91157c5a20df435c1c1438677bf
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: cbf8b04fe4e3d301d3ee79c09895093f97c2e785
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254271"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417352"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>가족 교육 기관 권한 및 FERPA (개인 정보 취급 방침)
 
@@ -41,7 +41,7 @@ FERPA는 감사 또는 기타 인증을 요구 하거나 인식 하지 않으므
 
 이러한 계약 약정의 결과로, FERPA가 되는 고객 (교육 기관 및 제 3 자)이 중요 한 학생 데이터에 대 한 액세스 권한을 부여 하는 경우에는 범위 내 Microsoft business cloud services를 사용 하 여 해당 데이터를 처리, 저장 및 전송할 수 있습니다.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내의 클라우드 서비스
 
 고객 데이터의 ' 합법적인 교육 취미 '를 사용 하 여 Microsoft의 ' 학교 공식 '으로 지정 하기로 동의한 서비스는 다음과 같습니다.
 
@@ -57,7 +57,7 @@ FERPA는 감사 또는 기타 인증을 요구 하거나 인식 하지 않으므
 
 FERPA는 감사 또는 인증을 요구 하거나 인식 하지 않습니다.
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **FERPA 중요 한 이유는 무엇 인가요?**
 

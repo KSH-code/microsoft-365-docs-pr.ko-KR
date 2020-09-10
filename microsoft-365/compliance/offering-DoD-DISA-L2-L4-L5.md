@@ -3,7 +3,7 @@ title: 미국 보안 (DoD) Provisional 권한 부여
 description: Microsoft에서 영향 수준 5, 4 및 2에 DoD (수준 보안) Provisional 권한 부여를 받았습니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 333333ad274c569337c2cbab7fd00c7337e26160
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: fee91c384850b5a1593cc17e6215985217ada033
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064769"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415476"
 ---
 # <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>보안 수준 2, 4 및 5에서 DoD (US) Provisional 권한 부여
 
@@ -57,7 +57,7 @@ FedRAMP 권한 부여에 따라 DISA 클라우드 서비스 지원에 DoD 영향
 
 영향 수준 2는 제어 되지 않는 분류 된 정보, 즉 공용 릴리스에 대해 권한 있는 데이터를 설명 합니다. 또한 ' 미션 크리티컬 '로 간주 되지 않는 다른 분류 되지 않은 정보에도 최소한의 액세스 제어가 필요 합니다. 이 인증을 통해 미국 연방 정부 고객은 범위 내 Microsoft 클라우드 서비스에 중요 하지 않은 정보와 기본 방어 응용 프로그램 및 웹 사이트를 배포할 수 있습니다.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내의 클라우드 서비스
 
 ### <a name="covered-services-for-dod-impact-level-5"></a>DoD 영향 수준 5에 대 한 검사 된 서비스
 
@@ -84,7 +84,7 @@ DoD PA가 부여 되 면 Microsoft 클라우드 서비스를 매년 모니터링
 
 심층적인 보호 청사진의 Azure 보안 및 준수 부서와 함께 정부 클라우드의 이점을 활용할 수 있는 방법을 알아봅니다. 이 청사진에서는 현재 DoD 규격 솔루션을 구축할 수 있는 도구와 지침을 제공 합니다. [Azure DoD 청사진 사용을 시작](https://docs.microsoft.com/azure/governance/blueprints/samples/dod-impact-level-4/)합니다.
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **우리 회사의 인증 프로세스에 Microsoft의 규정 준수를 사용할 수 있나요?**
 

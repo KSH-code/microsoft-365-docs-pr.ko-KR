@@ -3,7 +3,7 @@ title: 마이넘버 법 (일본)
 description: Microsoft 비즈니스 클라우드 서비스는 마이넘버 데이터의 개인 정보를 보호하기 위해 마이넘버 법 표준을 준수합니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d270e43bb336a6cdf110507ba51281e135f99b9a
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 167a74adc0b0a4f5c4f12af42c62e510b562b5f2
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066082"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416410"
 ---
 # <a name="my-number-act-japan"></a>마이넘버 법 (일본)
 

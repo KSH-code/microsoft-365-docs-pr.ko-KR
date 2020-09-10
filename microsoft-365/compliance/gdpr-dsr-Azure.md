@@ -3,7 +3,7 @@ title: GDPR 및 CCPA에 대한 Azure 데이터 주체 요청
 description: Microsoft 제품, 서비스 및 관리 도구를 사용하여 개인 데이터를 찾아서 작업을 하여 DSR에 응답하는 방법을 알아봅니다.
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR, CCPA
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 47aca22a5766b39bce513772874bca56de3420c5
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: b22baa48293e48567d801227996d080e8ee1cce2
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035456"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416652"
 ---
 # <a name="azure-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Azure 데이터 주체 요청
 
@@ -75,10 +75,10 @@ EU(유럽 연합) [GDPR(일반 데이터 보호 규정)](https://ec.europa.eu/ju
 
 ### <a name="executing-dsrs-against-customer-data"></a>고객 데이터에 대해 DSR 실행
 
-Microsoft는 Azure Portal을 통해 또는 특정 서비스에 대한 기존 API(응용 프로그래밍 인터페이스) 또는 UI(사용자 인터페이스)를 통해 직접(*제품 내 환경*이라고도 함) 특정 고객 데이터에 대한 액세스, 삭제 및 내보내기 기능을 제공합니다. 이러한 제품 내 환경에 대한 세부 정보는 각 서비스의 참조 문서에 설명되어 있습니다.
+Microsoft는 Azure Portal을 통해 또는 특정 서비스에 대한 기존 API(응용 프로그래밍 인터페이스) 또는 UI(사용자 인터페이스)를 통해 직접(*제품 내 환경*) 특정 고객 데이터를 액세스, 삭제 및 내보내는 기능을 제공합니다. 제품 내 환경에 대한 자세한 내용은 해당 서비스 참조 설명서에 나와 있습니다.
 
 >[!IMPORTANT]  
-> 제품 내 DSR을 지원하는 서비스는 해당 CRUD(만들기, 읽기, 업데이트, 삭제) 작업을 설명하는 서비스의 API (응용 프로그래밍 인터페이스) 또는 UI (사용자 인터페이스)의 직접 사용을 필요로 합니다. 결과적으로 지정된 데이터 주체에 대한 전체 요청을 완료하려면 Azure Portal 내에서 DSR의 실행외에도 지정된 서비스 내에서의 DSR의 실행이 필요합니다. 자세한 내용은 특정 서비스의 참조 문서를 참조 하세요.
+> 제품 내 DSR을 지원하는 서비스에서는 서비스의 API(응용 프로그래밍 인터페이스) 또는 UI(사용자 인터페이스)를 직접적으로 사용하고 해당 CRUD(만들기, 읽기, 업데이트, 삭제) 작업을 설명해야 합니다. 따라서 지정된 데이터 주체에 대한 모든 요청을 완료하기 위해서는 Azure Portal 내의 DSR 외에도 지정된 서비스 내의 DSR도 실행해야 합니다. 자세한 내용은 특정 서비스 참조 설명서를 참조하세요.
 
 ### <a name="step-1-discover"></a>1단계: 검색
 
@@ -114,7 +114,7 @@ Microsoft에서는 특정 서비스의 기존 API(응용 프로그래밍 인터�
 
 ### <a name="step-2-access"></a>2단계: 액세스
 
-잠정적으로 DSR에 대한 응답성이 있는 개인 데이터가 포함된 고객 데이터를 찾았으면, 사용자와 조직에서 데이터 주체에 제공할 데이터를 결정할 수 있습니다. 실제 문서의 복사본, 적절히 수정된 버전 또는 공유하기에 적절하다고 판단되는 부분의 스크린샷을 제공할 수 있습니다. 액세스 요청에 대한 이러한 각 응답에 대해 응답성이 있는 데이터를 포함하는 문서 또는 기타 항목의 복사본을 검색해야 합니다.
+DSR에 응답하는 개인 데이터가 포함된 고객 데이터를 찾은 후에 귀하와 조직은 데이터 주체에게 제공할 데이터를 결정해야 합니다. 실제 문서의 사본, 적절히 수정된 버전 또는 공유할 수 있는 부분의 스크린샷을 제공할 수 있습니다. 액세스 요청에 대한 이러한 각 응답에 대해, 응답 데이터를 포함하는 문서 또는 기타 항목 사본을 검색해야 합니다.
 
 데이터 주체에 사본을 제공할 때는 다른 데이터 주체에 대한 개인 정보와 모든 기밀 정보를 제거하거나 편집해야 할 수 있습니다.
 

@@ -3,7 +3,7 @@ title: GDPR의 위반 알림
 description: Microsoft가 개인 데이터 위반으로부터 보호하는 방법 및 Microsoft가 위반 발생 시 대응하고 사용자에게 알리는 방법입니다.
 keywords: Office 365, Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: ae69a8330f5daec275247e718f7eb66a5f0f8bf9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 30e32a38d380806e56f08303eef4f5adbfc47d10
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633443"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416822"
 ---
 # <a name="breach-notification-under-the-gdpr"></a>GDPR의 위반 알림
 

@@ -3,7 +3,7 @@ title: 거래소에 대한 최소 허용 위험 표준 (MARS-E) 2.0 프레임워
 description: Microsoft는 미국의 거래소에 대한 최소 허용 위험 표준 (MARS-E)을 준수합니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ac5a027225ce0f7c4c719ba3a897f5bc6f5629d5
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 2d2c9862fe5af3eedd9ff90ff5bb6d33e1e06f10
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065649"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417522"
 ---
 # <a name="minimum-acceptable-risk-standards-for-exchanges-mars-e-20-framework"></a>거래소에 대한 최소 허용 위험 표준 (MARS-E) 2.0 프레임워크
 

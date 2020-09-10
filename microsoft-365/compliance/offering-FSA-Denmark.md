@@ -3,7 +3,7 @@ title: 덴마크 금융감독청(FSA)
 description: 덴마크에 있는 금융 기관의 클라우드 도입에 도움을 주는 Microsoft 참고 자료입니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7b662c89056525762ad6f9f6e35262a24d098489
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 67b6996bf8f27ad431a180165a13a2998df1f360
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41662034"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415842"
 ---
 # <a name="financial-supervisory-authority-fsa-denmark"></a>덴마크 금융감독청(FSA)
 

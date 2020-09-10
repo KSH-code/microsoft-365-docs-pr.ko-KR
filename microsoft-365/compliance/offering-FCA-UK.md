@@ -3,7 +3,7 @@ title: 영국 재무 관련 기관 (FCA)
 description: 영국의 금융 기업에 대 한 Microsoft의 지침은 재무 거래에 대 한 지침과 클라우드로의 아웃소싱에 대 한 지침이 따릅니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1a45b101363c3b881161384a241c1ea50e951552
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 03e8bcc51acb1a8210492b6d1ea0f00a886d6cdd
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066391"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417372"
 ---
 # <a name="united-kingdom-financial-conduct-authority-fca"></a>영국 재무 관련 기관 (FCA)
 
@@ -49,7 +49,7 @@ Azure가 유 은행은 FCA 준수를 사용 하도록 설정 하는 방법을 �
 - Intune
 - 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **조직의 규정 준수 프로세스에서이 프레임 워크에 대해 Microsoft 응답을 사용할 수 있나요?**
 

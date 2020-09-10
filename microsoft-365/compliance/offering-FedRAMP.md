@@ -1,9 +1,9 @@
 ---
 title: FedRAMP(Federal Risk and Authorization Management Program)
 description: Microsoft에는 미국 연방 위험 및 권한 부여 관리 프로그램인 P-ATOs 및 ATOs가 부여 되었습니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0ddb997246f2b7a23b25e1b611170c6163e1d670
-ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
+ms.openlocfilehash: c91c71f199ef36c1c9a0da023c7b26d6cb64282e
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43781485"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415782"
 ---
 # <a name="federal-risk-and-authorization-management-program-fedramp"></a>FedRAMP(Federal Risk and Authorization Management Program)
 

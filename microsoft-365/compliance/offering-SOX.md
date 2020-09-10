@@ -3,7 +3,7 @@ title: Sarbanes-Oxley Act of 2002(SOX)
 description: 금융 서비스 기업은 Microsoft 준수 보고서를 사용 하 여 Sarbanes-oxley of-Sarbanes-oxley Act와의 준수를 처리할 수 있습니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a1ee3987a762d3ff9555a8e992dda67e4a154849
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: ca91606910c38664e74d650f750769121ea11957
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066311"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415356"
 ---
 # <a name="sarbanes-oxley-act-of-2002-sox"></a>Sarbanes-Oxley Act of 2002(SOX)
 
@@ -59,7 +59,7 @@ SOX 준수 의무를 해결 하는 경우 Microsoft Azure 준수 보고서를 �
 - Dynamics 365
 - Office 365
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **조직의 규정 준수 프로세스를 용이 하 게 하기 위해 Microsoft SOX 준수를 어떻게 사용할 수 있나요?**
 
