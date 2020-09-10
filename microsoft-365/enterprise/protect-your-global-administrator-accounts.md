@@ -3,7 +3,7 @@ title: Microsoft 365 전역 관리자 계정 보호
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/15/2020
+ms.date: 09/08/2020
 audience: Admin
 ms.topic: get-started-article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ f1.keywords:
 ms.assetid: 6b4ded77-ac8d-42ed-8606-c014fd947560
 description: 이 문서에서는 Microsoft 365 구독에 대 한 전역 관리자 액세스를 보호 하는 방법에 대해 설명 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 08e0960e7150395b2997dbd9ff0a1818822e17e2
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: fb8f85b3ee5c0f72c2dd93517e68784459c32e7e
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46696327"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416389"
 ---
 # <a name="protect-your-microsoft-365-global-administrator-accounts"></a>Microsoft 365 전역 관리자 계정 보호
 
@@ -43,13 +43,14 @@ Microsoft는 조직을 보호 하기 위한 기능을 제공 하지만, 이러�
     
 2. 전용 Microsoft 365 글로벌 관리자 계정에 대해 multi-factor authentication을 구성 하 고 가장 강력한 형태의 보조 인증을 사용 합니다.
     
-> [! 참고]이 문서에서는 전역 관리자 계정에 초점을 맞추었습니다 하지만 구독에 포함 된 데이터에 액세스 하는 데 필요한 추가 계정 (예: eDiscovery 관리자 또는 보안 또는 준수 관리자 계정)이 동일한 방식으로 보호 되어야 하는지 여부를 고려해 야 합니다. <br > 라이선스를 추가 하지 않고 전역 관리자 계정을 만들 수 있습니다.
+> [!Note]
+> 이 문서에서는 전역 관리자 계정에 초점을 맞추었습니다 하지만 구독에 포함 된 데이터에 액세스 하는 데 필요한 추가 계정 (예: eDiscovery 관리자 또는 보안 또는 준수 관리자 계정)이 동일한 방식으로 보호 되어야 하는지 여부를 고려해 야 합니다. <br > 라이선스를 추가 하지 않고 전역 관리자 계정을 만들 수 있습니다.
   
 ## <a name="step-1-create-dedicated-microsoft-365-global-administrator-accounts-and-use-them-only-when-necessary"></a>1단계. 전용 Microsoft 365 전역 관리자 계정을 만들고 필요한 경우에만 사용 합니다.
 
 전역 관리자 권한이 필요한 관리 작업 (예: 사용자 계정에 역할 할당)은 비교적 적습니다. 따라서 전역 관리자 역할이 할당 된 일상적인 사용자 계정을 사용 하는 대신, 다음 단계를 수행 합니다.
   
-1. 전역 관리자 역할이 할당 된 사용자 계정 집합을 확인 합니다. 이 작업은 Graph 용 Azure 활성 (Azure AD) 디렉터리 PowerShell 명령에 대해 수행할 수 있습니다.
+1. 전역 관리자 역할이 할당 된 사용자 계정 집합을 확인 합니다. 다음 Azure Active (Azure AD) 디렉터리 PowerShell for Graph 명령을 사용 하 여이 작업을 수행할 수 있습니다.
   
   ```powershell
   Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
@@ -120,15 +121,15 @@ Microsoft 365 하이브리드 id 모델을 사용 하는 대규모 조직인 경
     
 원하는 보다 강력한 확인 방법에 대 한 보안 인프라가 적절 하 게 제공 되지 않고 Microsoft 365 MFA에 대해 작동 하는 경우 Microsoft 인증자 앱, 전화 통화 또는 전역 관리자 계정의 스마트 전화로 전송 되는 텍스트 메시지 확인 코드를 임시 보안 조치로 사용 하 여 MFA를 사용 하 여 전용 전역 관리자 계정을 구성 하는 것이 좋습니다. MFA에서 제공 하는 추가 보호를 사용 하지 않고 전용 전역 관리자 계정을 그대로 사용 하지 마십시오.
   
-자세한 내용은 [Microsoft 365 배포에 대 한 다단계 인증 계획](https://docs.microsoft.com/office365/admin/security-and-compliance/multi-factor-authentication-plan)을 참조 하세요.
+자세한 내용은 [MFA For Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365)를 참조 하세요.
   
 MFA 및 PowerShell을 사용 하 여 Microsoft 365 서비스에 연결 하려면 다음 문서를 참조 하세요.
 
 - [사용자 계정, 그룹 및 라이선스에 대 한 Microsoft 365 용 PowerShell](connect-to-microsoft-365-powershell.md)
 - [Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
-- [Exchange Online](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-by-using-mfa)
+- [Exchange Online](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-using-mfa)
 - [SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online#to-connect-with-multifactor-authentication-mfa)
-- [비즈니스용 skype Online] 관리-비즈니스용 skype-microsoft-365-powershell # connect-using-a 비즈니스용 skype-온라인-관리자 계정-다단계-인증을 사용 합니다.
+- [비즈니스용 Skype Online](manage-skype-for-business-online-with-microsoft-365-powershell.md#connect-using-a-skype-for-business-online-administrator-account-with-multi-factor-authentication)
 
 ## <a name="additional-protections-for-enterprise-organizations"></a>엔터프라이즈 조직에 대 한 추가 보호
 

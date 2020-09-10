@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: ccb7b049ee3bc2aa25847886b57341ae936d20b9
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: c24f5891573b8541a97a35d228c57642766fe4a0
+ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649346"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47419147"
 ---
 # <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a>장치, 전자 메일, 앱 및 id 간의 위협 구하기
 
@@ -62,9 +62,6 @@ EmailEvents
 
 [IdentityInfo 테이블](advanced-hunting-identityinfo-table.md)을 병합 하거나 조인 하 여 계정 이름 및 기타 계정 정보를 볼 수 있습니다. 아래 쿼리는 [Emailevents 테이블](advanced-hunting-emailevents-table.md) 에서 피싱 및 맬웨어 검색 목록을 얻은 다음 해당 정보를 `IdentityInfo` 표에 조인 하 여 각 받는 사람에 대 한 자세한 정보를 확인 합니다. 
 
->[!Tip]
-> 이 쿼리는 `kind=inner` 왼쪽 값 이나 받는 사람 전자 메일 주소에 대 한 중복 제거를 차단 하는 [내부 조인을](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor)지정 하는 데 사용 됩니다.
-
 ```kusto
 EmailEvents
 | where Timestamp > ago(7d)
@@ -81,6 +78,9 @@ Department, City, Country
 
 ### <a name="get-device-information"></a>장치 정보 가져오기
 [고급 구하기 스키마](advanced-hunting-schema-tables.md) 는 다양 한 테이블에 광범위 한 장치 정보를 제공 합니다. 예를 들어 [DeviceInfo 테이블](advanced-hunting-deviceinfo-table.md) 은 정기적으로 집계 되는 이벤트 데이터를 기반으로 하는 포괄적인 장치 정보를 제공 합니다. 이 쿼리는 테이블을 사용 하 여 `DeviceInfo` 손상 가능성이 있는 사용자 ( `<account-name>` )가 모든 장치에 로그온 되어 있는지 확인 한 다음 해당 장치에서 트리거된 경고를 나열 합니다.
+
+>[!Tip]
+> 이 쿼리는 `kind=inner` 왼쪽에 있는 값의 중복 제거를 차단 하는 [내부 조인을](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor)지정 하는 데 사용 `DeviceId` 됩니다.
 
 ```kusto
 DeviceInfo

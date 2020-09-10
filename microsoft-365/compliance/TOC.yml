@@ -936,7 +936,7 @@
 - name: 규정 준수 제품
   items:
     - name: Microsoft 규정 준수 제품
-      href: offering-home.md
+      href: offering-home.yml
     - name: 전역
       items:
         - name: CIS Benchmark
