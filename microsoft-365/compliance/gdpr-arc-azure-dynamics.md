@@ -3,7 +3,7 @@ title: GDPR에 대한 Azure 및 Dynamics 365 책임 준비 상태 검사 목록
 description: Microsoft Azure 사용 시 GDPR을 지원하는 데 필요한 정보에 편리하게 액세스할 수 있습니다.
 keywords: ARC Azure, Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dd94ab9bfcc4ca1c9e8f6b99364fa99dde5ff644
-ms.sourcegitcommit: 22fd8517707ed3ab6ef996247ad2aa372535ee56
+ms.openlocfilehash: eb2d4ca52acce338e3afb31852409d441e52cfe0
+ms.sourcegitcommit: eb3c30d53a5434d8bad7c8f48a5612f3e2675945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46815266"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422466"
 ---
 # <a name="azure-and-dynamics-365-accountability-readiness-checklist-for-the-gdpr"></a>GDPR에 대한 Azure 및 Dynamics 365 책임 준비 상태 검사 목록
 
@@ -144,7 +144,7 @@ GDPR 타일의 고객 관리 컨트롤에서 컨트롤 ID 및 컨트롤 제목�
 | 11 <a name="11"> </a> | [고객 데이터 보호 영향 평가를 위한 Azure의 주요 정보](https://aka.ms/DPIAAzure) |
 | 12 <a name="12"> </a> | [SOC 2 유형 2 감사 보고서 [12]](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=3c7123a5-f507-48b7-8dce-cd948e6150e6&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_SOC_%2F_SSAE_16_Reports) |
 | 13 <a name="13"> </a> | [Microsoft Azure(All-Up) ISO/IEC 27001:2013 ISMS 적용성 보고서](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) |
-| 14 <a name="14"> </a> | [Microsoft 보안 센터 준수 제공 사항](offering-home.md)  |
+| 14 <a name="14"> </a> | [Microsoft 보안 센터 준수 제공 사항](offering-home.yml)  |
 | 15 <a name="15"> </a> | [Microsoft DPO 정보](https://aka.ms/GDPRDPO) |
 | 16 <a name="16"> </a> | [고객 데이터 보호 영향 평가를 위한 Dynamics 365의 주요 정보](https://servicetrust.microsoft.com/ViewPage/GDPRDPIA?command=Download&downloadType=Document&downloadId=ef2902bb-3137-4f4a-8ca6-af35afaa6bec&docTab=2ba9a350-555c-11e8-b74a-77b1f31da06e_DPIA) |
 | 17 <a name="17"> </a> | [Dynamics 365의 감사 및 보고](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-use-comprehensive-auditing) |

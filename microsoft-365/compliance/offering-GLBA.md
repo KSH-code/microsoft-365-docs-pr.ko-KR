@@ -3,7 +3,7 @@ title: GLBA(Gramm-Leach-Bliley Act)
 description: Microsoft는 금융 서비스 클라이언트가 금융-Gramm-leach-bliley-Gramm-leach-bliley Act (GLBA)의 개인 정보 및 보안 요구 사항을 준수 하도록 지원 합니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bbc5f9e74e67dc121b151684145bd41635af1ca0
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 1b3cf1017a3ed64cecafe269e313ab5a6980af25
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066553"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417732"
 ---
 # <a name="gramm-leach-bliley-act-glba"></a>GLBA(Gramm-Leach-Bliley Act)
 
@@ -46,7 +46,7 @@ Microsoft는 azure 및 office 365 서비스에 대 한 위험 평가를 보다 �
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **재무 기관에서 고 지 사항 b를 준수 해야 하는지 여부를 어떻게 알 수 있나요?**
 

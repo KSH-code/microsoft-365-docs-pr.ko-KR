@@ -3,7 +3,7 @@ title: 일반 데이터 보호 규정
 description: Microsoft 기술 지침에 대해 알아보고 GDPR(일반 데이터 보호 규정)에 대한 유용한 정보를 찾아봅니다.
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5d1e6730d215fcef6bd0cad6244c82b960ed39ce
-ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
+ms.openlocfilehash: cd17ac35c732189fe8699d75ceb054cc4c900364
+ms.sourcegitcommit: eb3c30d53a5434d8bad7c8f48a5612f3e2675945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44800023"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422456"
 ---
 # <a name="general-data-protection-regulation-summary"></a>일반 데이터 보호 규정 요약
 
@@ -212,7 +212,7 @@ Microsoft는 오랫동안 표준 계약 조항(모델 조항이라고도 함)을
 
 **다른 Microsoft 규정 준수 제품에는 무엇이 있나요?**
 
-전 세계 거의 모든 국가에 고객이있는 글로벌 기업인 Microsoft는 고객을 지원할 수 있는 강력한 규정 준수 포트폴리오를 보유하고 있습니다. FedRamp, HIPAA/HITECH, ISO 27001, ISO 27002, ISO 27018, NIST 800-171, UK G-Cloud 등을 포함한 모든 규정 준수 제품 목록을 보려면 [규정 준수 항목](offering-home.md)을 방문하세요.
+전 세계 거의 모든 국가에 고객이있는 글로벌 기업인 Microsoft는 고객을 지원할 수 있는 강력한 규정 준수 포트폴리오를 보유하고 있습니다. FedRamp, HIPAA/HITECH, ISO 27001, ISO 27002, ISO 27018, NIST 800-171, UK G-Cloud 등을 포함한 모든 규정 준수 제품 목록을 보려면 [규정 준수 항목](offering-home.yml)을 방문하세요.
 
 **GDPR는 우리 회사에 어떤 영향을 주나요?**
 

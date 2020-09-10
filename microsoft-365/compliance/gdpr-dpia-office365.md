@@ -3,7 +3,7 @@ title: Office 365를 사용하는 데이터 컨트롤러의 참고 자료
 description: 이 문서는 Office 365에 대한 정보와 데이터 컨트롤러를 제공하여 DPIA 필요 여부, 포함할 세부 사항을 결정할 수 있도록 지원합니다.
 keywords: DPIA, Office 365, Microsoft 365 설명서, GDPR
 ms.localizationpriority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: d0fe3092d0ea3004097aba9a86e1916025b87841
-ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
+ms.openlocfilehash: 2408445598ab1e474ac1967be6e13f19887144a8
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43547568"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417902"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-office-365"></a>데이터 보호 영향 평가: Microsoft Office 365를 사용하는 데이터 컨트롤러의 참고 자료 
 

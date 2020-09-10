@@ -3,7 +3,7 @@ title: GDPR에 대한 Microsoft 지원 및 전문 서비스 책임 준비 상태
 description: Microsoft 전문 서비스 및 지원 서비스 사용 시 GDPR을 지원하는 데 필요한 정보에 편리하게 액세스할 수 있습니다.
 keywords: ARC, 책임 준비 상태 검사 목록, Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 05bf6a14e27e716e4e30b6ad3715f3cdd4f49eec
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: f6242ebddf6597d3ce4256f4ddfc0ab9ac59c8f5
+ms.sourcegitcommit: eb3c30d53a5434d8bad7c8f48a5612f3e2675945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558139"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422422"
 ---
 # <a name="microsoft-support-and-professional-services-accountability-readiness-checklist-for-the-gdpr"></a>GDPR에 대한 Microsoft 지원 및 전문 서비스 책임 준비 상태 검사 목록
 
@@ -139,7 +139,7 @@ ms.locfileid: "42558139"
 |  9 <a name="9"> </a> | [고객 데이터 보호 영향 평가를 위한 Microsoft 전문 서비스의 주요 정보](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-prof-services) | |
 | 10 <a name="10"> </a> | [ISO 27001 감사 보고서](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=7e71ff67-7609-43e6-9d68-4ceea0b41b50&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) | |
 | 11 <a name="11"> </a> | Microsoft 전문 서비스 ISO/IEC 27001:2013 ISMS 적용성 보고서 | 고객 계정 관리 팀을 통한 요청의 SOA|
-| 12 <a name="12"> </a> | [Microsoft 보안 센터 준수 제공 사항](offering-home.md) | |
+| 12 <a name="12"> </a> | [Microsoft 보안 센터 준수 제공 사항](offering-home.yml) | |
 | 13 <a name="13"> </a> | [Microsoft DPO 정보](https://docs.microsoft.com/microsoft-365/compliance/gdpr-data-protection-officer) | |
 
 ## <a name="learn-more"></a>자세한 정보

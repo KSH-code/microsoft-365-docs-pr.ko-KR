@@ -3,7 +3,7 @@ title: APRA (오스트레일리아 Prudential 규정 기관)
 description: 금융 서비스 클라이언트가 오스트레일리아 Prudential 규정 기관의 아웃소싱 표준을 준수 하는 데 도움이 되는 Microsoft 지침입니다.
 keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b344f9c4d750c6e6571c0e76be0c9db0c421271b
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: fb964bd6dcf229f362476b68ad87d05053e87f74
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065893"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417762"
 ---
 # <a name="australian-prudential-regulation-authority-apra"></a>APRA (오스트레일리아 Prudential 규정 기관)
 
@@ -76,7 +76,7 @@ APRA 규정 준수에서 데이터 및 작업 부하를 Azure로 이동 하기 �
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Dynamics 365
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **재무 기관에서 자재 비즈니스 활동을 아웃소싱 하기 전에 APRA 승인을 받아야 하나요?**
 
