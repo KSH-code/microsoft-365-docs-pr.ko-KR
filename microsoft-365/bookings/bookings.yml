@@ -1,0 +1,52 @@
+### YamlMime:Landing
+title: Microsoft 예약
+summary: Microsoft 예약을 사용 하 여 약속을 예약 하 고 관리 합니다. Outlook 및 자동 알림과의 통합을 포함 합니다.
+metadata:
+  title: Microsoft 예약
+  description: Microsoft 예약을 사용 하 여 약속을 예약 하 고 관리 합니다. Outlook 및 자동 알림과의 통합을 포함 합니다.
+  ms.service: bookings
+  ms.topic: landing-page
+  author: dmaguire
+  ms.author: dmaguire
+  manager: serdars
+  audience: Admin
+  ms.date: 07/21/2020
+  ms.openlocfilehash: 7fb9456dfeb6481aebe1f81307a30c4cfad0ec02
+  ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 09/09/2020
+  ms.locfileid: "47419983"
+landingContent:
+- title: Microsoft 예약 정보
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Microsoft 예약 이란?
+      url: bookings-overview.md
+  - linkListType: download
+    links:
+    - text: 예약 앱 다운로드
+      url: get-bookings-app.md
+- title: Microsoft 예약 설정
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 비즈니스 정보 입력
+      url: enter-business-information.md
+    - text: 일정 정책 설정
+      url: set-scheduling-policies.md
+    - text: 서비스 제공 정의
+      url: define-service-offerings.md
+    - text: 직원 작업 시간 설정
+      url: employee-hours.md
+    - text: 예약 페이지 사용자 지정 및 게시
+      url: customize-booking-page.md
+    - text: 예약 만들기 및 인력 작성
+      url: create-a-manual-booking.md
+- title: 책 약속에 사용자 초대
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 예약 페이지 사용자 지정
+      url: customize-booking-page.md

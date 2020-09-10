@@ -1,0 +1,48 @@
+---
+title: 일정 정책 설정
+ms.author: kwekua
+author: kwekuako
+manager: scotv
+audience: Admin
+ms.topic: article
+ms.service: bookings
+localization_priority: Normal
+ms.assetid: 4b2c84ec-64d3-4027-af4c-40f69e7b37c9
+description: 비즈니스에 대 한 일정 정책을 설정 하는 방법을 알아봅니다. 예약 정책에는 약속의 길이 뿐 아니라 적절 한 선행 및 취소 시간도 포함 됩니다.
+ms.openlocfilehash: 82cc9a66e82665040a1f0d08635cae10cd413d4b
+ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47419923"
+---
+# <a name="set-your-scheduling-policies"></a><span data-ttu-id="67102-104">일정 정책 설정</span><span class="sxs-lookup"><span data-stu-id="67102-104">Set your scheduling policies</span></span>
+
+<span data-ttu-id="67102-105">모든 약속이 동일 하지는 않습니다.</span><span class="sxs-lookup"><span data-stu-id="67102-105">Not all appointments are the same.</span></span> <span data-ttu-id="67102-106">일부는 몇 분 정도 소요 되지만 일부는 시간 이상을 취할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="67102-106">Some take only a few minutes, while others can take hours or more.</span></span> <span data-ttu-id="67102-107">Microsoft 예약에서 예약 페이지는 비즈니스에 대 한 일정 예약 정책을 설정 하는 위치입니다.</span><span class="sxs-lookup"><span data-stu-id="67102-107">In Microsoft Bookings, the booking page is where you set the scheduling policies for your business.</span></span> <span data-ttu-id="67102-108">예약 정책에는 약속의 길이, 적절 한 잠재 고객 및 취소 시간 및 예약 변경 사항에 대 한 자동 알림이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="67102-108">Scheduling policies include the length of appointments, acceptable lead and cancellation times, and automatic notifications of booking changes.</span></span> <span data-ttu-id="67102-109">서비스 페이지 내의 각 서비스에 대해 추가 사용자 지정을 추가할 수 있으며, 추가 기간 설정 및 정책에만 적용 되는 정책이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="67102-109">Additional customization can be added for each service within the Services page, with additional duration settings and policies that apply only to that service.</span></span>
+
+<span data-ttu-id="67102-110">여기에서 설정 하는 정책은 최상위 정책입니다.</span><span class="sxs-lookup"><span data-stu-id="67102-110">The policies you set here are the top-level policies.</span></span> <span data-ttu-id="67102-111">서비스 단위를 기준으로 수정 하도록 선택 하지 않은 경우 사용자가 제공 하는 모든 서비스에 자동으로 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="67102-111">They are automatically applied to all the services you offer unless you choose to modify them on a per-service basis.</span></span> <span data-ttu-id="67102-112">예를 들어 초기 consultations 같은 대부분의 서비스에서 취소에 대 한 하루 중 한 주의 알림을 사용할 수 있다고 가정해 보겠습니다.</span><span class="sxs-lookup"><span data-stu-id="67102-112">For example, let's say that for most services, such as initial consultations, one-day notice for cancellations is acceptable.</span></span> <span data-ttu-id="67102-113">그러나, 골프 수업 같은 기능 예약 또는 수수료를 요구 하는 서비스에 대해 3 일간의 공지를 해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="67102-113">But for those services that require facility reservations or fees, such as golf lessons, you might require three days' notice.</span></span> <span data-ttu-id="67102-114">서비스 페이지에서이 서비스 수준 정책을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="67102-114">You can set this service-level policy on the Services page.</span></span> <span data-ttu-id="67102-115">자세한 내용은 [서비스 제공 정의를](define-service-offerings.md) 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="67102-115">See [Define your service offerings](define-service-offerings.md) for instructions.</span></span>
+
+## <a name="types-of-scheduling-policies"></a><span data-ttu-id="67102-116">일정 정책 유형</span><span class="sxs-lookup"><span data-stu-id="67102-116">Types of scheduling policies</span></span>
+
+<span data-ttu-id="67102-117">이 표에서는 예약 페이지에서 사용할 수 있는 다양 한 일정 정책에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="67102-117">This table explains the various scheduling policies available on the booking page.</span></span>
+
+| <span data-ttu-id="67102-118">정책</span><span class="sxs-lookup"><span data-stu-id="67102-118">Policy</span></span> | <span data-ttu-id="67102-119">설명</span><span class="sxs-lookup"><span data-stu-id="67102-119">Explanation</span></span> |
+|---|---|
+| <span data-ttu-id="67102-120">시간 간격</span><span class="sxs-lookup"><span data-stu-id="67102-120">Time increments</span></span> | <span data-ttu-id="67102-121">약속 간의 간격을 결정 합니다.</span><span class="sxs-lookup"><span data-stu-id="67102-121">Determines the intervals between appointments.</span></span> <span data-ttu-id="67102-122">시간 단위를 5 분에서 4 시간으로 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="67102-122">You can set your time increments from 5 minutes to 4 hours.</span></span> <span data-ttu-id="67102-123">자신만의 사용자 지정 시간 간격을 설정할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="67102-123">You can also set your own customized time increments.</span></span> <span data-ttu-id="67102-124">예를 들어, 간격을 15 분으로 설정 하는 경우 고객이 8:00, 8:15, 8:30 등의 60-분 약속을 예약할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="67102-124">An interval of 15 minutes, for example, means a customer could schedule a 60-minute appointment at 8:00, 8:15, 8:30, and so on.</span></span> <span data-ttu-id="67102-125">반대로, 60 분 간격은 한 시간에만 약속을 사용할 수 있음을 의미 합니다.</span><span class="sxs-lookup"><span data-stu-id="67102-125">Conversely, a 60-minute interval means that appointments are only available on the hour.</span></span> <span data-ttu-id="67102-126">서비스 기간을 설정 하려면 [Define service 제공품](define-service-offerings.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="67102-126">(To set service durations, see [Define your service offerings](define-service-offerings.md).)</span></span> |
+| <span data-ttu-id="67102-127">소요 시간 (시간)</span><span class="sxs-lookup"><span data-stu-id="67102-127">Lead time in hours</span></span> | <span data-ttu-id="67102-128">예약 된 약속을 기반으로 직원 계획을 작성 하 고, 특정 날짜에 서비스를 제공 하는 고객의 수를 미리 파악 하는 것이 중요 합니다.</span><span class="sxs-lookup"><span data-stu-id="67102-128">You build your staffing plan based on the appointments that are scheduled so it's important to know in advance how many customers are coming in for service on any particular day.</span></span> <span data-ttu-id="67102-129">선행 시간 정책을 사용 하면 고객이 약속을 예약 하거나 취소 해야 하는 시간을 미리 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="67102-129">The lead time policy enables you to specify the number of hours in advance that customers must book or cancel an appointment.</span></span> |
+| <span data-ttu-id="67102-130">최대 기간 (일)</span><span class="sxs-lookup"><span data-stu-id="67102-130">Maximum days in advance</span></span> | <span data-ttu-id="67102-131">미리 고객이 약속을 예약할 수 있는 기간을 제한 하려면이 설정이 사용자에 게 적합 합니다.</span><span class="sxs-lookup"><span data-stu-id="67102-131">If you want to limit how far in advance customers can book appointments, then this is the setting for you!</span></span> <span data-ttu-id="67102-132">최대 365 일 이상의 시간을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="67102-132">You can set the maximum for 365 days or more.</span></span> |
+| <span data-ttu-id="67102-133">예약을 만들거나 변경할 때 알림</span><span class="sxs-lookup"><span data-stu-id="67102-133">Notify when a booking is created or changed</span></span> | <span data-ttu-id="67102-134">고객이 약속을 클릭 하거나 기존 약속이 변경 될 때마다 전자 메일을 받으려면이 옵션을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="67102-134">Select this option when you want to receive an email any time a customer books an appointment or changes an existing one.</span></span> <span data-ttu-id="67102-135">전자 메일은 비즈니스 정보 페이지에 지정 된 사서함으로 이동 됩니다.</span><span class="sxs-lookup"><span data-stu-id="67102-135">The email will go to the mailbox specified on the Business information page.</span></span> <span data-ttu-id="67102-136">자세한 내용은 [비즈니스 정보 입력](enter-business-information.md) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="67102-136">See [Enter your business information](enter-business-information.md) for details.</span></span> |
+
+## <a name="set-your-policies"></a><span data-ttu-id="67102-137">정책 설정</span><span class="sxs-lookup"><span data-stu-id="67102-137">Set your policies</span></span>
+
+1. <span data-ttu-id="67102-138">Microsoft 365에서 앱 시작 관리자를 선택한 다음 예약을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="67102-138">In Microsoft 365, select the app launcher, and then select Bookings.</span></span>
+
+1. <span data-ttu-id="67102-139">탐색 창에서 **예약 페이지**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="67102-139">In the navigation pane, select **Booking page**.</span></span>
+
+1. <span data-ttu-id="67102-140">**일정 정책** 섹션에서 정책을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="67102-140">Select your policies under the **Scheduling policy** section.</span></span>
+
+1. <span data-ttu-id="67102-141">**저장 및 게시를**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="67102-141">Select **Save and publish**.</span></span>
+
+## <a name="publish-the-booking-page"></a><span data-ttu-id="67102-142">예약 페이지 게시</span><span class="sxs-lookup"><span data-stu-id="67102-142">Publish the booking page</span></span>
+
+<span data-ttu-id="67102-143">예약 페이지를 게시할 준비가 되 면 **저장 및 게시**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="67102-143">When you're ready to publish your booking page, select **Save and publish**.</span></span> <span data-ttu-id="67102-144">자세한 내용은 [예약 페이지 사용자 지정 및 게시](customize-booking-page.md) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="67102-144">See [Customize and publish your booking page](customize-booking-page.md) for more information.</span></span>

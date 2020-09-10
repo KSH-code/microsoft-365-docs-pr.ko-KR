@@ -1,0 +1,45 @@
+- name: Microsoft 예약
+  href: bookings-overview.md
+  items:
+    - name: 설정
+      items:
+        - name: 예약에 대 한 액세스 권한 얻기
+          href: get-access.md
+        - name: 비즈니스 정보 입력
+          href: enter-business-information.md
+        - name: 서비스 제공 정의
+          href: define-service-offerings.md
+        - name: 휴무 및 휴가 예약
+          href: schedule-closures-time-off-vacation.md
+        - name: 일정 정책 설정
+          href: set-scheduling-policies.md
+        - name: 예약 페이지 사용자 지정 및 게시
+          href: customize-booking-page.md
+        - name: 수동 예약 만들기
+          href: create-a-manual-booking.md
+        - name: 휴무 및 휴가 예약
+          href: schedule-closures-time-off-vacation.md
+        - name: 직원 시간
+          href: employee-hours.md
+        - name: 예약 페이지에 사용자 지정 및 필수 질문 추가
+          href: add-questions.md
+        - name: 버퍼 시간 설정
+          href: set-buffer-time.md
+        - name: 메트릭 및 활동 추적
+          href: metrics-and-activity-tracking.md
+        - name: 언어 및 표준 시간대 설정
+          href: set-language-time-zones.md
+    - name: 예약 앱 다운로드
+      href: get-bookings-app.md
+    - name: Microsoft 팀의 예약 앱 및 가상 방문
+      href: 'https://docs.microsoft.com/en-us/microsoftteams/bookings-app-admin?toc=/microsoft-365/bookings/toc.json&bc=/microsoft-365/bookings/breadcrumb/toc.json'
+    - name: 비교 차트-웹 앱과 팀 앱 비교
+      href: comparison-chart.md
+    - name: 예약 달력 삭제
+      href: delete-calendar.md
+    - name: Microsoft 예약 켜기 또는 끄기
+      href: turn-bookings-on-or-off.md
+    - name: Microsoft 예약에 대 한 보고 정보
+      href: reporting-info.md
+    - name: Microsoft 예약 질문과 대답 (FAQ)
+      href: bookings-faq.md
