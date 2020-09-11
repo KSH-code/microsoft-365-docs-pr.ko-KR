@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: 파일 계획은 보존 라벨에 대한 고급 관리 기능을 제공한다.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: eb35915861c08588fab309210a49585a49d1b9da
-ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
+ms.openlocfilehash: a92f835658bdeedbc64d3d4f2349900e30ec6dda
+ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399215"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47427027"
 ---
 # <a name="use-file-plan-to-manage-retention-labels"></a>파일 계획을 사용하여 보존 레이블 관리
 
@@ -163,7 +163,7 @@ Microsoft 365 규정 준수 센터의 **정보 거버넌스**에서 보존 레�
    |CitationUrl|String|이 속성은 **조항/인용** 파일 계획 설명자에 표시되는 URL을 지정합니다.|
    |CitationJurisdiction|문자열|이 속성은 **프로비저닝/인용** 파일 계획 설명자에 표시되는 관할권 또는 기관을 지정합니다. 예를 들면, SEC(증권 거래 위원회)입니다.|
    |Regulatory|String|공백으로 남겨 둡니다. 현재, 이 속성은 사용되지 않습니다.|
-   |EventType|문자열|이 속성은 레이블과 연결된 보존 규칙을 지정합니다. 규칙을 고유하게 식별하는 모든 값을 사용할 수 있습니다. 예:</br>**이름**</br>**DN(고유 이름)**</br>**GUID** </br>[Get-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/get-retentioncompliancerule?view=exchange-ps) cmdlet를 사용하여 사용 가능한 보존 규칙을 볼 수 있습니다. EventType 값은 조직에 고유한 값이기 때문에 한 조직에서 레이블을 내보내는 경우 해당 조직에서 EventType 속성에 대한 값을 사용하여 레이블을 다른 조직으로 가져올 수 없습니다.|
+   |EventType|문자열|이 속성은 레이블과 연결된 보존 규칙을 지정합니다. 규칙을 고유하게 식별하는 모든 값을 사용할 수 있습니다. 예:</br>**이름**</br>**DN(고유 이름)**</br>**GUID** </br>[Get-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/get-retentioncompliancerule) cmdlet를 사용하여 사용 가능한 보존 규칙을 볼 수 있습니다. EventType 값은 조직에 고유한 값이기 때문에 한 조직에서 레이블을 내보내는 경우 해당 조직에서 EventType 속성에 대한 값을 사용하여 레이블을 다른 조직으로 가져올 수 없습니다.|
    |||
 
    다음은 보존 레이블에 대한 정보를 포함하는 템플릿의 예입니다.

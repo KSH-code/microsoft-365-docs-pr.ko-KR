@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: d0ac249483d888b76915e98429b72da88884e135
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: bbed892481571706d8d43c3fa4d5aff7e9fb4c92
+ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357790"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47427017"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기
 
@@ -201,13 +201,13 @@ ms.locfileid: "47357790"
 
 ### <a name="use-powershell-to-apply-a-sensitivity-label-to-multiple-sites"></a>PowerShell을 사용하여 여러 사이트에 민감도 레이블 적용하기
 
-현재 [SharePoint Online 관리 Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)의 *SensitivityLabel* 매개 변수와 함께 [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite?view=sharepoint-ps)와 [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps) cmdlet을 사용하여 여러 사이트에 민감도 레이블을 적용할 수 있습니다. 사이트는 모든 SharePoint 사이트 모음이나 OneDrive 사이트일 수 있습니다.
+현재 [SharePoint Online 관리 Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)의 *SensitivityLabel* 매개 변수와 함께 [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite)와 [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) cmdlet을 사용하여 여러 사이트에 민감도 레이블을 적용할 수 있습니다. 사이트는 모든 SharePoint 사이트 모음이나 OneDrive 사이트일 수 있습니다.
 
 SharePoint Online 관리 셸의 버전 16.0.19418.12000 이상을 보유하고 있는지 확인합니다.
 
 1. **관리자 권한으로 실행** 옵션을 사용하여 PowerShell 세션을 엽니다.
 
-2. 레이블 GUID를 모르는 경우: [보안 및 규정 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)한 후 민감도 레이블과 해당 GUID 목록을 가져옵니다.
+2. 레이블 GUID를 모르는 경우: [보안 및 규정 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)한 후 민감도 레이블과 해당 GUID 목록을 가져옵니다.
 
    ```powershell
    Get-Label |ft Name, Guid
@@ -317,7 +317,7 @@ SharePoint에 이전 그룹 분류를 사용하는 방법에 대한 예제는 [S
 
    예를 들어 관리자로 실행하는 PowerShell 세션에서 전역 관리자 계정으로 로그인합니다.
 
-2. [Get-Label](https://docs.microsoft.com/powershell/module/exchange/get-label?view=exchange-ps) cmdlet을 사용하여 민감도 레이블 및 GUID 목록을 가져옵니다.
+2. [Get-Label](https://docs.microsoft.com/powershell/module/exchange/get-label) cmdlet을 사용하여 민감도 레이블 및 GUID 목록을 가져옵니다.
 
    ```powershell
    Get-Label |ft Name, Guid
@@ -325,7 +325,7 @@ SharePoint에 이전 그룹 분류를 사용하는 방법에 대한 예제는 [S
 
 3. Microsoft 365 그룹에 적용할 민감도 레이블의 GUID를 기록해 둡니다.
 
-4. 이제 별도의 Windows PowerShell 창에서 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)합니다.
+4. 이제 별도의 Windows PowerShell 창에서 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)합니다.
 
 5. 다음 명령을 예로 사용하여 현재 "일반" 분류”를 포함하는 그룹 목록을 가져옵니다.
 
