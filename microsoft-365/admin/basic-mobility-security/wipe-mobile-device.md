@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 제공 되는 기본 모바일 및 보안을 사용 하 여 등록 된 장치에서 정보를 제거 합니다.
-ms.openlocfilehash: 4d854c7d4d81cd0b49ec7f81a49de5478b08f049
-ms.sourcegitcommit: 2179abfe0b7a8bea917eb1c1057ed3795bdf91e6
+ms.openlocfilehash: 4627b0cb2d0963ae724c425a6a7ea6279f271856
+ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47337005"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429953"
 ---
 # <a name="wipe-a-mobile-device-in-basic-mobility-and-security"></a>기본 Mobility and Security에서 모바일 장치 지우기
 
@@ -39,7 +39,7 @@ Microsoft 365에 기본 제공 되는 기본 모바일 및 보안을 사용 하 
 
 - **장치가 초기화 되 면 (공장 초기화 또는 회사 데이터 제거)** 장치가 관리 되는 장치 목록에서 제거 됩니다.
     
-- **자동으로 장치 다시 설정**: 사용자가 특정 횟수 만큼 장치 암호를 입력 하지 못한 후 장치를 자동으로 초기화 하는 기본 이동성 및 보안 정책을 설정할 수 있습니다. 이렇게 하려면 [기본 이동성 및 보안에서 장치 보안 정책 만들기](create-device-security-policies-in-basic-mmobility-and-security.md)의 단계를 수행 합니다.
+- **자동으로 장치 다시 설정**: 사용자가 특정 횟수 만큼 장치 암호를 입력 하지 못한 후 장치를 자동으로 초기화 하는 기본 이동성 및 보안 정책을 설정할 수 있습니다. 이렇게 하려면 [기본 이동성 및 보안에서 장치 보안 정책 만들기](create-device-security-policies.md)의 단계를 수행 합니다.
     
 - 장치를 정리할 때 **사용자 환경을 확인 하려면**   [사용자 및 장치 영향](#whats-the-user-and-device-impact)을 확인 하세요.   
 
@@ -91,4 +91,4 @@ Microsoft 365에 기본 제공 되는 기본 모바일 및 보안을 사용 하 
 
 ## <a name="related-topics"></a>관련 항목
 
-[기본 이동성 및 보안 설정](set-up-basic-mobility-and-security.md)
+[기본 이동성 및 보안 설정](set-up.md)

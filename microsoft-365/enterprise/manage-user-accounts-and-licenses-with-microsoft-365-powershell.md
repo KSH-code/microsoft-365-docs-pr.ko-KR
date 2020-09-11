@@ -16,21 +16,21 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: 26b9ff81-93b0-4251-beaf-3c9f1d7c80c8
-description: 이 문서에서는 PowerShell을 사용 하 여 Microsoft 365 사용자 계정, 라이선스 및 그룹을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a262cbb62cd457e3a22550af2f773551cf67bb43
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: PowerShell을 사용 하 여 Microsoft 365 사용자 계정, 라이선스 및 그룹을 관리 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 0c6ca6a4165b616097405a9de178c254aa489a3c
+ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46696352"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429989"
 ---
 # <a name="manage-microsoft-365-user-accounts-licenses-and-groups-with-powershell"></a>PowerShell로 Microsoft 365 사용자 계정, 라이선스 및 그룹 관리
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft 365 관리자의 주요 작업 중 하나는 사용자 계정, 라이선스 및 그룹을 관리 하는 것입니다. Microsoft 365 관리 센터에서 이러한 작업의 대부분의 측면을 수행할 수 있지만 PowerShell을 사용 하면 다른 작업을 훨씬 더 빠르고 편리 하 게 진행할 수도 있습니다. 
+Microsoft 365 관리자는 사용자 계정, 라이선스 및 그룹을 관리 해야 합니다. 이러한 작업의 대부분은 Microsoft 365 관리 센터에서 수행할 수 있지만, PowerShell에서는 일부 작업이 더 쉬워집니다.
 
-자세한 내용은 다음 항목을 참조 하십시오.
+자세한 내용은 다음 문서를 참조하십시오.
 
 ## <a name="user-accounts"></a>사용자 계정
 
@@ -54,4 +54,3 @@ Microsoft 365 관리자의 주요 작업 중 하나는 사용자 계정, 라이�
 ## <a name="groups"></a>그룹
 - [그룹 멤버 자격 유지 관리](maintain-group-membership-with-microsoft-365-powershell.md)
 - [Microsoft 365 그룹](manage-microsoft-365-groups-with-powershell.md)
-

@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 이동성 및 보안은 Microsoft 365 계획의 일부입니다.
-ms.openlocfilehash: d4595428dd2e2b14948b9f788720fcadcf9eb895
-ms.sourcegitcommit: 2179abfe0b7a8bea917eb1c1057ed3795bdf91e6
+ms.openlocfilehash: df52d500c945275b62170ab16260f0c019340f73
+ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47337027"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429929"
 ---
 # <a name="choose-between-basic-mobility-and-security-and-intune"></a>기본 이동성 및 보안 및 Intune 중에서 선택
 
@@ -61,9 +61,9 @@ Microsoft Intune과 기본 제공 되는 기본 이동성 및 보안 둘 다 조
 |**기능 영역**|**주요 기능**|**기본 이동성 및 보안**|**Microsoft Intune**|
 |:-----|:-----|:-----|:-----|
 |장치 유형|여러 OS 플랫폼 및 주요 관리 모드 변형 |Windows<br/>iOS<br/>Android<br/>Android Samsung KNOX<br/>|Windows<br/>iOS<br/>Android<br/>Android Samsung KNOX<br/>mac OS<br/>iPad OS|
-|장치 준수|장치 수준 PIN 잠금 및 jailbreak 검색 등의 보안 정책을 설정 하 고 관리 합니다. |Android 9 이상 장치에 대 한 제한 자세한 내용은 [기본 이동성 및 보안 기능](capabilities-of-basic-mobility-and-secruity.md)을 참조 하세요.|예|
+|장치 준수|장치 수준 PIN 잠금 및 jailbreak 검색 등의 보안 정책을 설정 하 고 관리 합니다. |Android 9 이상 장치에 대 한 제한 자세한 내용은 [기본 이동성 및 보안 기능](capabilities.md)을 참조 하세요.|예|
 |장치 규정 준수에 따른 조건부 액세스 |비규격 장치가 클라우드의 회사 전자 메일 및 데이터에 액세스 하지 못하도록 합니다. |-Windows 10에서는 지원 되지 않습니다.<br/>-Exchange Online, Sharepoint Online 및 Outlook services에 대 한 액세스를 제어 하는 것으로 제한 됩니다. |아니요|
-|장치 구성  |장치 설정 (예: 카메라 사용 안 함)을 구성 합니다. |제한 된 설정 집합입니다.자세한 내용은 [기본 이동성 및 보안 기능](capabilities-of-basic-mobility-and-secruity.md)을 참조 하세요. |예|
+|장치 구성  |장치 설정 (예: 카메라 사용 안 함)을 구성 합니다. |제한 된 설정 집합입니다.자세한 내용은 [기본 이동성 및 보안 기능](capabilities.md)을 참조 하세요. |예|
 |원격 작업  |인터넷을 통해 장치에 명령을 보냅니다. 예를 들어 개인 데이터는 그대로 두고 (사용 중지) 직원의 장치에서 Office 데이터를 제거 합니다. |중지<br/>지우기<br/>삭제|-Autopilot reset (Windows만 해당)<br/>- [Bitlocker 키 순환](https://docs.microsoft.com/mem/intune/protect/encrypt-devices#rotate-bitlocker-recovery-keys)   (Windows만 해당)<br/>- [삭제](https://docs.microsoft.com/mem/intune/remote-actions/devices-wipe#delete-devices-from-the-intune-portal)<br/>- [정품 인증](https://docs.microsoft.com/mem/intune/remote-actions/device-activation-lock-disable)   을 사용 하지 않도록 설정 (iOS에만 해당)<br/>- [새로 시작](https://docs.microsoft.com/mem/intune/remote-actions/device-fresh-start)   (Windows만 해당)<br/>- [전체 검색](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus)   (Windows 10만 해당)<br/>- [장치 찾기](https://docs.microsoft.com/mem/intune/remote-actions/device-locate)   (iOS에만 해당)<br/>- [손실 모드](https://docs.microsoft.com/mem/intune/remote-actions/device-lost-mode)   (iOS에만 해당)<br/>- [빠른 검색](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus)(Windows 10만 해당)<br/>- [Android 용 원격 제어](https://docs.microsoft.com/mem/intune/remote-actions/teamviewer-support)<br/>- [원격 잠금](https://docs.microsoft.com/mem/intune/remote-actions/device-remote-lock)<br/>- [장치 이름 바꾸기](https://docs.microsoft.com/mem/intune/remote-actions/device-rename)<br/>- [암호 다시 설정](https://docs.microsoft.com/mem/intune/remote-actions/device-passcode-reset)<br/>- [다시 시작](https://docs.microsoft.com/mem/intune/remote-actions/device-restart)   (Windows만 해당)<br/>- [회수](https://docs.microsoft.com/mem/intune/remote-actions/devices-wipe#retire)<br/>-Windows Defender 보안 인텔리전스 업데이트 (Windows만 해당)<br/>-Windows 10 PIN 다시 설정 (Windows 전용)<br/>- [지우기](https://docs.microsoft.com/mem/intune/remote-actions/devices-wipe#wipe)<br/>- [사용자 지정 알림 보내기](https://docs.microsoft.com/mem/intune/remote-actions/custom-notifications#send-a-custom-notification-to-a-single-device)   (Android, iOS, iPad OS)<br/>- [장치 동기화](https://docs.microsoft.com/mem/intune/remote-actions/device-sync)|
 |전자 메일 프로필  |장치에서 기본 전자 메일 프로필을 프로 비전 합니다. |예|예|
 |WIFI 프로필 |장치에서 기본 WIFI 프로필을 프로 비전 합니다. |아니요|예|
