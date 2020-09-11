@@ -16,30 +16,31 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 ms.assetid: be497751-596f-431d-b256-0a89d36a47ce
-description: '요약: 배포 및 CSP (클라우드 솔루션 공급자) 파트너는 Windows PowerShell을 사용 하 여 Microsoft 365 고객 테 넌 트를 관리할 수 있습니다.'
-ms.openlocfilehash: d4109c09a14fb5644d34daf24383053536440871
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: 신디케이션 및 Cloud Solution Provider (CSP) 파트너가 Windows PowerShell을 사용 하 여 Microsoft 365 고객 테 넌 트를 관리 하는 방법입니다.
+ms.openlocfilehash: a7b2fbb5423e3b923e17aa2d9c488e7dd085be35
+ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692750"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429881"
 ---
-# <a name="manage-microsoft-365-with-windows-powershell-for-delegated-access-permissions-dap-partners"></a><span data-ttu-id="98fe9-103">DAP (위임 된 액세스 권한) 파트너에 대해 Windows PowerShell을 사용 하 여 Microsoft 365을 관리 합니다.</span><span class="sxs-lookup"><span data-stu-id="98fe9-103">Manage Microsoft 365 with Windows PowerShell for Delegated Access Permissions (DAP) partners</span></span>
+# <a name="how-to-manage-microsoft-365-with-windows-powershell-for-delegated-access-permissions-partners"></a><span data-ttu-id="050ee-103">위임 된 액세스 권한 파트너로 Windows PowerShell을 사용 하 여 Microsoft 365을 관리 하는 방법</span><span class="sxs-lookup"><span data-stu-id="050ee-103">How to manage Microsoft 365 with Windows PowerShell for Delegated Access Permissions partners</span></span>
 
-<span data-ttu-id="98fe9-104">*이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*</span><span class="sxs-lookup"><span data-stu-id="98fe9-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
+<span data-ttu-id="050ee-104">*이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*</span><span class="sxs-lookup"><span data-stu-id="050ee-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
 
-<span data-ttu-id="98fe9-105">DAP(위임된 액세스 권한) 파트너는 Syndication 및 CSP(클라우드 솔루션 공급자) 파트너입니다.</span><span class="sxs-lookup"><span data-stu-id="98fe9-105">Delegated Access Permission (DAP) partners are Syndication and Cloud Solution Providers (CSP) Partners.</span></span> <span data-ttu-id="98fe9-106">이러한 공급자는 다른 회사의 네트워크 또는 전자 통신 공급자인 경우가 많습니다.</span><span class="sxs-lookup"><span data-stu-id="98fe9-106">They are frequently network or telecom providers to other companies.</span></span> <span data-ttu-id="98fe9-107">Microsoft 365 구독을 고객에 게 서비스 제공으로 번들 합니다.</span><span class="sxs-lookup"><span data-stu-id="98fe9-107">They bundle Microsoft 365 subscriptions into their service offerings to their customers.</span></span> <span data-ttu-id="98fe9-108">Microsoft 365 구독을 판매할 때 고객 테 넌 트에 대 한 관리 및 보고를 수행할 수 있도록 사용자에 게 테 넌 트에 대 한 "대신 (AOBO) 사용 권한을 자동으로 부여 합니다.</span><span class="sxs-lookup"><span data-stu-id="98fe9-108">When they sell a Microsoft 365 subscription, they are automatically granted Administer On Behalf Of (AOBO) permissions to the customer tenancies so they can administer and report on the customer tenancies.</span></span> <span data-ttu-id="98fe9-109">이는 Microsoft 365 관리 센터에서 수행 하는 것이 어렵고 시간이 많이 소요 되는 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="98fe9-109">At best, this is difficult and time consuming to do in the Microsoft 365 admin center.</span></span> <span data-ttu-id="98fe9-110">모든 고객 **TenantIds** 및 도메인을 나열 하거나, 고객 테 넌 트의 모든 사용자를 식별 하 고, Microsoft 365 용 PowerShell을 사용 하 여 할당 된 라이선스를 확인 하는 것과 같은 관리 작업을 수행 하는 것이 훨씬 더 쉽습니다.</span><span class="sxs-lookup"><span data-stu-id="98fe9-110">It is much easier to do administrative tasks like listing all the customer **TenantIds** and their domains or identifying all users in a customer tenancy and what licenses they are assigned by using PowerShell for Microsoft 365.</span></span> <span data-ttu-id="98fe9-111">경우에 따라 Microsoft 365 용 PowerShell 에서만 이러한 관리 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="98fe9-111">In some cases, it is possible to do these administrative tasks only in PowerShell for Microsoft 365.</span></span> <span data-ttu-id="98fe9-112">다음은 Syndication 및 CSP 파트너가 고객 테넌트를 관리하는 데 가장 자주 사용하는 시나리오 예제입니다.</span><span class="sxs-lookup"><span data-stu-id="98fe9-112">Here are samples of scenarios that Syndication and CSP partners most frequently use to administer their customer tenancies:</span></span>
+<span data-ttu-id="050ee-105">DAP(위임된 액세스 권한) 파트너는 Syndication 및 CSP(클라우드 솔루션 공급자) 파트너입니다.</span><span class="sxs-lookup"><span data-stu-id="050ee-105">Delegated Access Permission (DAP) partners are Syndication and Cloud Solution Providers (CSP) Partners.</span></span> <span data-ttu-id="050ee-106">네트워크 또는 텔레콤 공급자가 많이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="050ee-106">Many are network or telecom providers.</span></span> <span data-ttu-id="050ee-107">Microsoft 365 구독을 서비스 제공에 번들 합니다.</span><span class="sxs-lookup"><span data-stu-id="050ee-107">They bundle Microsoft 365 subscriptions into their service offerings.</span></span> <span data-ttu-id="050ee-108">Microsoft 365 구독을 판매할 때 이러한 테 넌 트을 관리 하 고 보고할 수 있도록 고객의 테 넌 트에 게 자동으로 (AOBO) 사용 권한을 부여 합니다.</span><span class="sxs-lookup"><span data-stu-id="050ee-108">When they sell a Microsoft 365 subscription, they're automatically granted Administer On Behalf Of (AOBO) permissions to the customer's tenancies so they can administer and report on those tenancies.</span></span> <span data-ttu-id="050ee-109">이러한 작업은 Microsoft 365 관리 센터에서 수행 하기가 어렵습니다.</span><span class="sxs-lookup"><span data-stu-id="050ee-109">These tasks are difficult to do in the Microsoft 365 admin center.</span></span> <span data-ttu-id="050ee-110">Microsoft 365에 PowerShell을 사용 하 여 다음과 같은 관리 작업을 수행 하는 것이 훨씬 더 쉽습니다.</span><span class="sxs-lookup"><span data-stu-id="050ee-110">It's much easier to use PowerShell for Microsoft 365 to do administrative tasks such as:</span></span>
+- <span data-ttu-id="050ee-111">모든 고객 **TenantIds** 및 해당 도메인 나열</span><span class="sxs-lookup"><span data-stu-id="050ee-111">List all the customer **TenantIds** and their domains</span></span> 
+- <span data-ttu-id="050ee-112">고객의 테 넌 시 및 할당 된 라이선스의 모든 사용자 식별</span><span class="sxs-lookup"><span data-stu-id="050ee-112">Identify all users in a customer tenancy and their assigned licenses</span></span>
+> [!NOTE]
+> <span data-ttu-id="050ee-113">일부 관리 작업은 PowerShell 에서만 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="050ee-113">Some administrative tasks can only be done in PowerShell.</span></span>
+
+<span data-ttu-id="050ee-114">다음 문서에서는 신디케이션 및 CSP 파트너가 PowerShell을 사용 하 여 고객 테 넌 트를 관리 하는 방법을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="050ee-114">The following articles show how Syndication and CSP partners use PowerShell to administer their customer tenancies:</span></span>
   
-## 
-
-- [<span data-ttu-id="98fe9-113">DAP (위임 된 액세스 권한) 파트너에 대해 Windows PowerShell을 사용 하 여 Microsoft 365 테 넌 트 관리</span><span class="sxs-lookup"><span data-stu-id="98fe9-113">Manage Microsoft 365 tenants with Windows PowerShell for Delegated Access Permissions (DAP) partners</span></span>](manage-microsoft-365-tenants-with-windows-powershell-for-delegated-access-permissio.md)
+- [<span data-ttu-id="050ee-115">DAP (위임 된 액세스 권한) 파트너에 대해 Windows PowerShell을 사용 하 여 Microsoft 365 테 넌 트 관리</span><span class="sxs-lookup"><span data-stu-id="050ee-115">Manage Microsoft 365 tenants with Windows PowerShell for Delegated Access Permissions (DAP) partners</span></span>](manage-microsoft-365-tenants-with-windows-powershell-for-delegated-access-permissio.md)
     
-- [<span data-ttu-id="98fe9-114">DAP(위임된 액세스 권한) 파트너용 Windows PowerShell을 사용하여 클라이언트 테넌트에 도메인 추가</span><span class="sxs-lookup"><span data-stu-id="98fe9-114">Add a domain to a client tenancy with Windows PowerShell for Delegated Access Permission (DAP) partners</span></span>](add-a-domain-to-a-client-tenancy-with-windows-powershell-for-delegated-access-pe.md)
+- [<span data-ttu-id="050ee-116">DAP(위임된 액세스 권한) 파트너용 Windows PowerShell을 사용하여 클라이언트 테넌트에 도메인 추가</span><span class="sxs-lookup"><span data-stu-id="050ee-116">Add a domain to a client tenancy with Windows PowerShell for Delegated Access Permission (DAP) partners</span></span>](add-a-domain-to-a-client-tenancy-with-windows-powershell-for-delegated-access-pe.md)
     
-- [<span data-ttu-id="98fe9-115">DAP(위임된 액세스 권한) 파트너용 원격 Windows PowerShell을 사용하여 Exchange Online 테넌트에 연결</span><span class="sxs-lookup"><span data-stu-id="98fe9-115">Connect to Exchange Online tenants with remote Windows PowerShell for Delegated Access Permissions (DAP) partners</span></span>](connect-to-exchange-online-tenants-with-remote-windows-powershell-for-delegated.md)
+- [<span data-ttu-id="050ee-117">Exchange Online PowerShell에 연결</span><span class="sxs-lookup"><span data-stu-id="050ee-117">Connect to Exchange Online PowerShell</span></span>](connect-to-exchange-online-tenants-with-remote-windows-powershell-for-delegated.md)
     
-- [<span data-ttu-id="98fe9-116">DAP(위임된 액세스 권한) 파트너용 Windows PowerShell을 사용하여 고객 테넌트 보고 데이터 검색</span><span class="sxs-lookup"><span data-stu-id="98fe9-116">Retrieve customer tenant reporting data with Windows PowerShell for Delegated Access Permissions (DAP) partners</span></span>](retrieve-customer-tenant-reporting-data-with-windows-powershell-for-delegated-ac.md)
-    
-
-    
-
+- [<span data-ttu-id="050ee-118">DAP(위임된 액세스 권한) 파트너용 Windows PowerShell을 사용하여 고객 테넌트 보고 데이터 검색</span><span class="sxs-lookup"><span data-stu-id="050ee-118">Retrieve customer tenant reporting data with Windows PowerShell for Delegated Access Permissions (DAP) partners</span></span>](retrieve-customer-tenant-reporting-data-with-windows-powershell-for-delegated-ac.md)
+   

@@ -16,42 +16,41 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: 26b9ff81-93b0-4251-beaf-3c9f1d7c80c8
-description: 이 문서에서는 PowerShell을 사용 하 여 Microsoft 365 사용자 계정, 라이선스 및 그룹을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a262cbb62cd457e3a22550af2f773551cf67bb43
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: PowerShell을 사용 하 여 Microsoft 365 사용자 계정, 라이선스 및 그룹을 관리 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 0c6ca6a4165b616097405a9de178c254aa489a3c
+ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46696352"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429989"
 ---
-# <a name="manage-microsoft-365-user-accounts-licenses-and-groups-with-powershell"></a><span data-ttu-id="a6c3e-103">PowerShell로 Microsoft 365 사용자 계정, 라이선스 및 그룹 관리</span><span class="sxs-lookup"><span data-stu-id="a6c3e-103">Manage Microsoft 365 user accounts, licenses, and groups with PowerShell</span></span>
+# <a name="manage-microsoft-365-user-accounts-licenses-and-groups-with-powershell"></a><span data-ttu-id="0a872-103">PowerShell로 Microsoft 365 사용자 계정, 라이선스 및 그룹 관리</span><span class="sxs-lookup"><span data-stu-id="0a872-103">Manage Microsoft 365 user accounts, licenses, and groups with PowerShell</span></span>
 
-<span data-ttu-id="a6c3e-104">*이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*</span><span class="sxs-lookup"><span data-stu-id="a6c3e-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
+<span data-ttu-id="0a872-104">*이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*</span><span class="sxs-lookup"><span data-stu-id="0a872-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
 
-<span data-ttu-id="a6c3e-105">Microsoft 365 관리자의 주요 작업 중 하나는 사용자 계정, 라이선스 및 그룹을 관리 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="a6c3e-105">One of the primary tasks of any Microsoft 365 administrator is managing user accounts, licenses, and groups.</span></span> <span data-ttu-id="a6c3e-106">Microsoft 365 관리 센터에서 이러한 작업의 대부분의 측면을 수행할 수 있지만 PowerShell을 사용 하면 다른 작업을 훨씬 더 빠르고 편리 하 게 진행할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a6c3e-106">Although you can accomplish most aspects of these tasks in the Microsoft 365 admin center, other tasks are much quicker and easier with PowerShell.</span></span> 
+<span data-ttu-id="0a872-105">Microsoft 365 관리자는 사용자 계정, 라이선스 및 그룹을 관리 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0a872-105">Microsoft 365 administrators need to manage user accounts, licenses, and groups.</span></span> <span data-ttu-id="0a872-106">이러한 작업의 대부분은 Microsoft 365 관리 센터에서 수행할 수 있지만, PowerShell에서는 일부 작업이 더 쉬워집니다.</span><span class="sxs-lookup"><span data-stu-id="0a872-106">Although you can do most of these tasks in the Microsoft 365 admin center, some are easier in PowerShell.</span></span>
 
-<span data-ttu-id="a6c3e-107">자세한 내용은 다음 항목을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="a6c3e-107">For more information, see these topics.</span></span>
+<span data-ttu-id="0a872-107">자세한 내용은 다음 문서를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="0a872-107">For more information, see the following articles.</span></span>
 
-## <a name="user-accounts"></a><span data-ttu-id="a6c3e-108">사용자 계정</span><span class="sxs-lookup"><span data-stu-id="a6c3e-108">User accounts</span></span>
+## <a name="user-accounts"></a><span data-ttu-id="0a872-108">사용자 계정</span><span class="sxs-lookup"><span data-stu-id="0a872-108">User accounts</span></span>
 
-- [<span data-ttu-id="a6c3e-109">사용자 계정 만들기</span><span class="sxs-lookup"><span data-stu-id="a6c3e-109">Create user accounts</span></span>](create-user-accounts-with-microsoft-365-powershell.md)
-- [<span data-ttu-id="a6c3e-110">사용자 계정 보기</span><span class="sxs-lookup"><span data-stu-id="a6c3e-110">View user accounts</span></span>](view-user-accounts-with-microsoft-365-powershell.md)
-- [<span data-ttu-id="a6c3e-111">사용자 계정 속성 구성</span><span class="sxs-lookup"><span data-stu-id="a6c3e-111">Configure user account properties</span></span>](configure-user-account-properties-with-microsoft-365-powershell.md)
-- [<span data-ttu-id="a6c3e-112">사용자 계정에 역할 할당</span><span class="sxs-lookup"><span data-stu-id="a6c3e-112">Assign roles to user accounts</span></span>](assign-roles-to-user-accounts-with-microsoft-365-powershell.md)
-- [<span data-ttu-id="a6c3e-113">사용자 계정 삭제 및 복원</span><span class="sxs-lookup"><span data-stu-id="a6c3e-113">Delete and restore user accounts</span></span>](delete-and-restore-user-accounts-with-microsoft-365-powershell.md)
-- [<span data-ttu-id="a6c3e-114">사용자 계정 차단</span><span class="sxs-lookup"><span data-stu-id="a6c3e-114">Block user accounts</span></span>](block-user-accounts-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="0a872-109">사용자 계정 만들기</span><span class="sxs-lookup"><span data-stu-id="0a872-109">Create user accounts</span></span>](create-user-accounts-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="0a872-110">사용자 계정 보기</span><span class="sxs-lookup"><span data-stu-id="0a872-110">View user accounts</span></span>](view-user-accounts-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="0a872-111">사용자 계정 속성 구성</span><span class="sxs-lookup"><span data-stu-id="0a872-111">Configure user account properties</span></span>](configure-user-account-properties-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="0a872-112">사용자 계정에 역할 할당</span><span class="sxs-lookup"><span data-stu-id="0a872-112">Assign roles to user accounts</span></span>](assign-roles-to-user-accounts-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="0a872-113">사용자 계정 삭제 및 복원</span><span class="sxs-lookup"><span data-stu-id="0a872-113">Delete and restore user accounts</span></span>](delete-and-restore-user-accounts-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="0a872-114">사용자 계정 차단</span><span class="sxs-lookup"><span data-stu-id="0a872-114">Block user accounts</span></span>](block-user-accounts-with-microsoft-365-powershell.md)
 
-## <a name="licenses-and-services"></a><span data-ttu-id="a6c3e-115">라이선스 및 서비스</span><span class="sxs-lookup"><span data-stu-id="a6c3e-115">Licenses and services</span></span>
-- [<span data-ttu-id="a6c3e-116">라이선스 및 서비스 보기</span><span class="sxs-lookup"><span data-stu-id="a6c3e-116">View licenses and services</span></span>](view-licenses-and-services-with-microsoft-365-powershell.md)
-- [<span data-ttu-id="a6c3e-117">라이선스 사용자 및 허가되지 않은 사용자 보기</span><span class="sxs-lookup"><span data-stu-id="a6c3e-117">View licensed and unlicensed users</span></span>](view-licensed-and-unlicensed-users-with-microsoft-365-powershell.md)
-- [<span data-ttu-id="a6c3e-118">사용자 계정에 라이선스 할당</span><span class="sxs-lookup"><span data-stu-id="a6c3e-118">Assign licenses to user accounts</span></span>](assign-licenses-to-user-accounts-with-microsoft-365-powershell.md)
-- [<span data-ttu-id="a6c3e-119">계정 라이선스 및 서비스 세부 정보 보기</span><span class="sxs-lookup"><span data-stu-id="a6c3e-119">View account license and service details</span></span>](view-account-license-and-service-details-with-microsoft-365-powershell.md)
-- [<span data-ttu-id="a6c3e-120">서비스에 액세스 사용 안 함</span><span class="sxs-lookup"><span data-stu-id="a6c3e-120">Disable access to services</span></span>](disable-access-to-services-with-microsoft-365-powershell.md)
-  - [<span data-ttu-id="a6c3e-121">Sway에 액세스 사용 안 함</span><span class="sxs-lookup"><span data-stu-id="a6c3e-121">Disable access to Sway</span></span>](disable-access-to-sway-with-microsoft-365-powershell.md)
-  - [<span data-ttu-id="a6c3e-122">사용자 라이선스를 할당하는 동안 서비스에 대한 액세스 사용 안 함</span><span class="sxs-lookup"><span data-stu-id="a6c3e-122">Disable access to services while assigning user licenses</span></span>](disable-access-to-services-while-assigning-user-licenses.md)
-- [<span data-ttu-id="a6c3e-123">사용자 계정에서 라이선스 제거</span><span class="sxs-lookup"><span data-stu-id="a6c3e-123">Remove licenses from user accounts</span></span>](remove-licenses-from-user-accounts-with-microsoft-365-powershell.md)
+## <a name="licenses-and-services"></a><span data-ttu-id="0a872-115">라이선스 및 서비스</span><span class="sxs-lookup"><span data-stu-id="0a872-115">Licenses and services</span></span>
+- [<span data-ttu-id="0a872-116">라이선스 및 서비스 보기</span><span class="sxs-lookup"><span data-stu-id="0a872-116">View licenses and services</span></span>](view-licenses-and-services-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="0a872-117">라이선스 사용자 및 허가되지 않은 사용자 보기</span><span class="sxs-lookup"><span data-stu-id="0a872-117">View licensed and unlicensed users</span></span>](view-licensed-and-unlicensed-users-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="0a872-118">사용자 계정에 라이선스 할당</span><span class="sxs-lookup"><span data-stu-id="0a872-118">Assign licenses to user accounts</span></span>](assign-licenses-to-user-accounts-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="0a872-119">계정 라이선스 및 서비스 세부 정보 보기</span><span class="sxs-lookup"><span data-stu-id="0a872-119">View account license and service details</span></span>](view-account-license-and-service-details-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="0a872-120">서비스에 액세스 사용 안 함</span><span class="sxs-lookup"><span data-stu-id="0a872-120">Disable access to services</span></span>](disable-access-to-services-with-microsoft-365-powershell.md)
+  - [<span data-ttu-id="0a872-121">Sway에 액세스 사용 안 함</span><span class="sxs-lookup"><span data-stu-id="0a872-121">Disable access to Sway</span></span>](disable-access-to-sway-with-microsoft-365-powershell.md)
+  - [<span data-ttu-id="0a872-122">사용자 라이선스를 할당하는 동안 서비스에 대한 액세스 사용 안 함</span><span class="sxs-lookup"><span data-stu-id="0a872-122">Disable access to services while assigning user licenses</span></span>](disable-access-to-services-while-assigning-user-licenses.md)
+- [<span data-ttu-id="0a872-123">사용자 계정에서 라이선스 제거</span><span class="sxs-lookup"><span data-stu-id="0a872-123">Remove licenses from user accounts</span></span>](remove-licenses-from-user-accounts-with-microsoft-365-powershell.md)
 
-## <a name="groups"></a><span data-ttu-id="a6c3e-124">그룹</span><span class="sxs-lookup"><span data-stu-id="a6c3e-124">Groups</span></span>
-- [<span data-ttu-id="a6c3e-125">그룹 멤버 자격 유지 관리</span><span class="sxs-lookup"><span data-stu-id="a6c3e-125">Maintain group membership</span></span>](maintain-group-membership-with-microsoft-365-powershell.md)
-- [<span data-ttu-id="a6c3e-126">Microsoft 365 그룹</span><span class="sxs-lookup"><span data-stu-id="a6c3e-126">Manage Microsoft 365 groups</span></span>](manage-microsoft-365-groups-with-powershell.md)
-
+## <a name="groups"></a><span data-ttu-id="0a872-124">그룹</span><span class="sxs-lookup"><span data-stu-id="0a872-124">Groups</span></span>
+- [<span data-ttu-id="0a872-125">그룹 멤버 자격 유지 관리</span><span class="sxs-lookup"><span data-stu-id="0a872-125">Maintain group membership</span></span>](maintain-group-membership-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="0a872-126">Microsoft 365 그룹</span><span class="sxs-lookup"><span data-stu-id="0a872-126">Manage Microsoft 365 groups</span></span>](manage-microsoft-365-groups-with-powershell.md)
