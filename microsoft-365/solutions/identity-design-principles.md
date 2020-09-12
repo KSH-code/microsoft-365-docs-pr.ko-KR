@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 7c83d3f202851008e93c3f3e9d0c7bc89c49bf20
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: a1e85b2089663208e8b6004462211263a1b27242
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308370"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547804"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Id 및 그 외의 설계자 관점
 
@@ -272,7 +272,7 @@ Office 365에는 [통합 감사 로그가](https://docs.microsoft.com/microsoft-
 
 다른 API를 통해 액세스 하는 Microsoft 365 로그의 예는 다음과 같습니다.
 - [AZURE AD](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings) (Office 365와 관련 되지 않은 활동)
-- [Exchange 메시지 추적](https://docs.microsoft.com/powershell/module/exchange/get-messagetrace?view=exchange-ps)
+- [Exchange 메시지 추적](https://docs.microsoft.com/powershell/module/exchange/get-messagetrace)
 - 위에 설명 된 위협/UEBA 시스템 (예: Azure AD Identity Protection, Microsoft Cloud App Security, Microsoft Defender ATP 등)
 - [Microsoft information protection](https://docs.microsoft.com/microsoft-365/compliance/data-classification-activity-explorer?view=o365-worldwide)
 - [Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)

@@ -20,18 +20,18 @@ search.appverid:
 - GEA150
 description: 21Vianet에서 운영 하는 Office 용 Android 용 Microsoft Office 앱 365에 대 한 자세한 내용과 중국 고객을 위해 다운로드 하는 방법에 대해 자세히 알아보세요.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 4ebb044835321a91109659ca9e58094345bc0d0c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b2c35c2f9b4ea8e10ace3c9426aed7aadefe0b1d
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399065"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545799"
 ---
 # <a name="office-app-for-android-for-office-365-operated-by-21vianet"></a>21Vianet에서 운영 하는 Office 용 Android 용 office 앱 365
 
 Android 용 Microsoft Office 앱은 Word, Excel 및 PowerPoint 모바일 앱을 Android 휴대폰용 다운로드 가능한 단일 앱으로 결합 합니다. Android 용 Office 앱을 사용 하 여 Word, Excel 및 PowerPoint 모바일 앱과 마찬가지로 Office 365에 연결할 수 있습니다. Android 용 Office 앱 다운로드는 Word, Excel 및 PowerPoint의 기존 설치에 영향을 주지 않습니다.
 
-21Vianet에서 운영 하는 Office 365에는 Android 용 Office 앱 기능을 몇 개 사용할 수 없습니다.
+21Vianet 고객에서 운영 하는 Office 365에는 Android 용 Office 앱 기능을 몇 개 사용할 수 없습니다.
 
 - 이미지-텍스트 및 이미지를 표로 표 
 - 렌즈에서 사진을 Word 문서로 변환 
@@ -39,7 +39,7 @@ Android 용 Microsoft Office 앱은 Word, Excel 및 PowerPoint 모바일 앱을 
 - 메모는 로컬에 남아 있고 서버와 동기화 되지 않습니다.
 - QR 스캔 내의 링크 미리 보기
 - 내 소식 섹션의 Live 가상 사용자 카드
-- Labelling (재분류)
+- 재분류 (분류, 레이블 지정 및 보호)
 
 
 ## <a name="download-the-office-app-for-android"></a>Android 용 Office 앱 다운로드

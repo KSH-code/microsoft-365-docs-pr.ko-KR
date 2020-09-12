@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Microsoft 예약이 자주 묻는 질문입니다.
-ms.openlocfilehash: db04c2759187f66503bcc28660b5177f636eaa6c
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: ee0de2d1412aa5ec38759a3a2512de05b9e02621
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47420002"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545719"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Microsoft 예약 faq (질문과 대답)
 
@@ -180,7 +180,7 @@ Microsoft는 많은 조직에서 마이크로소프트 365의 사용권이 섞�
 
 ### <a name="can-email-notifications-be-sent-as-the-tenant-domain-name"></a>전자 메일 알림을 테 넌 트 도메인 이름으로 보낼 수 있나요?
 
-전자 메일 주소는 Microsoft 365 설정 수준에서 제어 및 관리 되며 여기에는 도메인 구성 설정에 따라 달라 집니다. 자세한 내용은 [여기](https://docs.microsoft.com/powershell/module/exchange/mail-flow/get-accepteddomain?view=exchange-ps)에서 확인할 수 있습니다.
+전자 메일 주소는 Microsoft 365 설정 수준에서 제어 및 관리 되며 여기에는 도메인 구성 설정에 따라 달라 집니다. 자세한 내용은 [여기](https://docs.microsoft.com/powershell/module/exchange/get-accepteddomain)에서 확인할 수 있습니다.
 
 ### <a name="is-the-ability-to-send-sms-messages-dependent-on-a-different-service-or-specific-configuration"></a>SMS 메시지를 다른 서비스 또는 특정 구성에 따라 보낼 수 있는지 여부
 
@@ -366,7 +366,7 @@ SMS 텍스트 메시지를 사용 하 여 약속을 예약 하는 경우 고객�
 
   - [예약 페이지 사용자 지정 및 게시](customize-booking-page.md)
 
-  - [테 넌 트 사서함 구성](https://docs.microsoft.com/powershell/module/exchange/mail-flow/get-accepteddomain?view=exchange-ps)
+  - [테 넌 트 사서함 구성](https://docs.microsoft.com/powershell/module/exchange/get-accepteddomain)
 
   - [그룹 예약](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-now-supports-online-meetings-and-group/ba-p/1214120)
 

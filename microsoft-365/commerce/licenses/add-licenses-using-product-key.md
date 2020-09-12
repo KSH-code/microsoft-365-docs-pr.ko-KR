@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,19 +18,16 @@ ms.custom:
 - TopSMBIssues
 - AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
 ms.assetid: 4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53
 ROBOTS: NOINDEX
-description: 구독에 라이선스를 추가 하는 방법을 알아봅니다.
-ms.openlocfilehash: 370ed833a1c7c5142c7725666885a945e1524b53
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: 제품 키를 사용 하 여 구독에 라이선스를 추가 하거나 확장 하는 방법을 알아봅니다.
+ms.openlocfilehash: 583014c98207f98abc55248159aafd371c96b6c0
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44404013"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545787"
 ---
 # <a name="add-licenses-to-or-extend-a-subscription-paid-for-using-a-product-key"></a>제품 키를 사용 하 여 유료 구독에 라이선스 추가 또는 연장
 
@@ -44,17 +41,13 @@ ms.locfileid: "44404013"
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
-
-2. 라이선스를 추가할 구독을 찾습니다. **라이선스** 섹션에서 **라이선스 추가**를 선택 합니다.
-
-3. **라이선스 추가 창**에서 **신규 및 사용 하지 않은 제품 키 사용**을 선택 하 고 **다음**을 선택 합니다.
-
-4. 제품 키를 입력 하 고 **다음**을 선택 합니다.
-
+2. **제품** 탭에서 라이선스를 추가할 구독을 선택 합니다.
+3. 구독 정보 페이지의 **라이선스** 섹션에서 **라이선스 추가**를 선택 합니다.
+4. **라이선스 추가 창**에서 **신규 및 사용 하지 않은 제품 키 사용**을 선택 하 고 **다음**을 선택 합니다.
+5. 제품 키를 입력 하 고 **다음**을 선택 합니다.
     > [!NOTE]
     > 제품 키가 두 개 이상 있는 경우 **다른 제품 키 추가**를 선택하여 입력할 수 있습니다.
-  
-5. 주문 세부 정보를 검토 한 다음 사용 **을 선택 합니다**.
+6. 주문 세부 정보를 검토 한 다음 사용 **을 선택 합니다**.
 
 ::: moniker-end
 
@@ -101,17 +94,13 @@ ms.locfileid: "44404013"
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
-
-2. 확장 하려는 구독을 찾습니다. **청구** 섹션에서 **종료 날짜 확장**을 선택 합니다.
-
-3. **구독 확장** 창에서 **새 제품 키 및 사용 하지 않는 제품은 사용**을 선택한 후 **다음**을 선택 합니다.
-
-4. 제품 키를 입력 하 고 **다음**을 선택 합니다.
-
+2. **제품** 탭에서 확장 하려는 구독을 선택 합니다.
+3. 구독 정보 페이지의 **구독 및 지불 설정** 섹션에서 **종료 날짜 확장**을 선택 합니다.
+4. **사용자 라이선스 갱신 또는 추가** 페이지에서 **사용 되지 않는 새 제품 키**를 선택 하 고 **다음**을 선택 합니다.
+5. 제품 키를 입력 하 고 **다음**을 선택 합니다.
     > [!NOTE]
     > 제품 키가 두 개 이상 있는 경우 **다른 제품 키 추가**를 선택하여 입력할 수 있습니다.
-  
-5. 주문 세부 정보를 검토 한 다음 사용 **을 선택 합니다**.
+6. 주문 세부 정보를 검토 한 다음 사용 **을 선택 합니다**.
 
 ::: moniker-end
 

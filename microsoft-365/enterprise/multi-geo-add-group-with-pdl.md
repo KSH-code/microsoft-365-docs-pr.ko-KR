@@ -13,12 +13,12 @@ ms.collection: Strat_SP_gtc
 localization_priority: Normal
 description: 다중 위치 환경에서 지정 된 기본 설정 데이터 위치를 사용 하 여 Microsoft 365 그룹을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0906d0b4881dd69bbf47cbb536c6c448a1a4f611
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 5af32827d11289f7a966311080d2c15197786799
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692607"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547737"
 ---
 # <a name="create-a-microsoft-365-group-with-a-specific-pdl"></a>특정 PDL을 사용 하 여 Microsoft 365 그룹 만들기
 
@@ -57,4 +57,4 @@ SharePoint 그룹 사이트 프로비전은 주문형입니다. 그룹 소유자
 
 ## <a name="related-topics"></a>관련 항목
 
-[Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)
+[Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)

@@ -17,12 +17,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: 72344e1918a85de65ab7de8a60b7ace0b2629ac6
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: 375e58214e19960d3e3100a0c1051fe7c4924aae
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332752"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546645"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
@@ -73,10 +73,9 @@ ms.locfileid: "47332752"
 
 데이터, ID 및 장치 전반에 걸쳐 일관된 보호 수준을 사용하는 것이 중요합니다. 예를 들어이 지침을 구현 하는 경우에는 비슷한 수준에서 데이터를 보호 해야 합니다. 
 
-**Office 365 아키텍처 모델에 대 한 id 및 장치 보호** 를 통해 비교 가능한 기능을 확인할 수 있습니다.
+**Microsoft 365 아키텍처에 대 한 id 및 장치 보호** 모델에는 비교할 수 있는 기능이 나와 있습니다.
 
-![포스터 축소판 그림 "Office 365에 대 한 Id 및 장치 보호"](../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)<br/>
-[PDF](https://go.microsoft.com/fwlink/p/?linkid=841656) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657) | [더 많은 언어](https://www.microsoft.com/download/details.aspx?id=55032)
+[![Microsoft 365 포스터에 대 한 Id 및 장치 보호를 위한 축소판 그림](../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [PDF](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| 로 보기 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| 로 다운로드 [Visio로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)  
 
 또한 Microsoft 365에 저장 된 정보를 보호 하기 위해 [데이터 개인 정보 보호 규정 솔루션 배포](../solutions/information-protection-deploy.md) 를 참조 하세요.
 
@@ -105,10 +104,11 @@ Azure AD는 id 관리 기능을 완벽 하 게 제공 합니다. 이러한 기�
 |:-------|:-----|:-------|
 | [MFA(Multi-Factor Authentication)](/azure/active-directory/authentication/concept-mfa-howitworks) | 사용자는 MFA를 사용 하 여 Microsoft 인증자 앱 또는 전화 통화의 알림과 같은 두 가지 형태의 확인을 제공 해야 합니다. MFA는 도난당 한 자격 증명이 환경에 액세스 하는 데 사용 될 수 있는 위험을 크게 줄여줍니다. Microsoft 365에서는 MFA 기반 로그인에 대해 Azure Multi-factor Authentication 서비스를 사용 합니다. | Microsoft 365 E3 혹은 E5 |
 | [조건부 액세스](/azure/active-directory/conditional-access/overview) | Azure AD는 사용자 로그인의 조건을 평가 하 고 조건부 액세스 정책을 사용 하 여 허용 되는 액세스를 결정 합니다. 예를 들어이 가이드에서는 중요 한 데이터에 액세스 하기 위한 장치 준수를 요구 하는 조건부 액세스 정책을 만드는 방법을 보여 줍니다. 이렇게 하면 해커 들이 자신의 장치와 도난당 한 자격 증명을 사용 하 여 중요 한 데이터에 액세스할 수 있는 위험이 크게 줄어듭니다. 또한 장치는 상태 및 보안에 대 한 특정 요구 사항을 충족 해야 하므로 장치에서 중요 한 데이터를 보호 합니다. | Microsoft 365 E3 혹은 E5 |
-| [Azure AD 그룹](/azure/active-directory/fundamentals/active-directory-manage-groups) | 조건부 액세스 규칙, Intune을 사용한 장치 관리 및 조직의 파일 및 사이트에 대 한 권한이 있는 사용자 계정 또는 Azure AD 그룹에 대 한 할당을 사용 합니다. 구현 하려는 보호 수준에 해당 하는 Azure AD 그룹을 만드는 것이 좋습니다. 예를 들어 경영 직원이 해커의 가치 목표 보다 높은 것을 들 수 있습니다. 따라서 이러한 직원의 사용자 계정을 Azure AD 그룹에 추가 하 고이 그룹을 조건부 액세스 정책 및 액세스를 위해 더 높은 수준의 보호를 적용 하는 기타 정책에 할당 하는 것이 좋습니다. | Microsoft 365 E3 혹은 E5 |
-| [장치 등록](/azure/active-directory/devices/overview) | 장치를 Azure AD에 등록 하 여 장치에 대 한 id를 만듭니다. 이 id는 사용자가 로그인 할 때 장치를 인증 하 고 도메인에 가입 되거나 준수 된 Pc가 필요한 조건부 액세스 규칙을 적용 하는 데 사용 됩니다. 이 지침에서는 장치 등록을 사용 하 여 도메인에 가입 된 Windows 컴퓨터를 자동으로 등록 합니다. 장치 등록은 Intune을 사용 하 여 장치를 관리 하기 위한 필수 구성 요소입니다. | Microsoft 365 E3 혹은 E5 |
+| [Azure AD 그룹](/azure/active-directory/fundamentals/active-directory-manage-groups) | 조건부 액세스 정책, Intune을 사용한 장치 관리 및 조직의 파일 및 사이트에 대 한 권한이 있는 사용자 계정 또는 Azure AD 그룹에 대 한 할당을 사용 합니다. 구현 하려는 보호 수준에 해당 하는 Azure AD 그룹을 만드는 것이 좋습니다. 예를 들어 경영 직원이 해커의 가치 목표 보다 높은 것을 들 수 있습니다. 따라서 이러한 직원의 사용자 계정을 Azure AD 그룹에 추가 하 고이 그룹을 조건부 액세스 정책 및 액세스를 위해 더 높은 수준의 보호를 적용 하는 기타 정책에 할당 하는 것이 좋습니다. | Microsoft 365 E3 혹은 E5 |
+| [장치 등록](/azure/active-directory/devices/overview) | 장치를 Azure AD에 등록 하 여 장치에 대 한 id를 만듭니다. 이 id는 사용자가 로그인 하 고 도메인에 가입 하거나 준수 하는 Pc가 필요한 조건부 액세스 정책을 적용 하는 데 사용 됩니다. 이 지침에서는 장치 등록을 사용 하 여 도메인에 가입 된 Windows 컴퓨터를 자동으로 등록 합니다. 장치 등록은 Intune을 사용 하 여 장치를 관리 하기 위한 필수 구성 요소입니다. | Microsoft 365 E3 혹은 E5 |
 | [Azure AD ID 보호](/azure/active-directory/identity-protection/overview) | 조직의 id에 영향을 미치는 잠재적인 취약점을 검색 하 고 자동화 된 수정 정책을 낮음, 보통, 높음 로그인 위험 및 사용자 위험에 맞게 구성할 수 있습니다. 이 지침은이 위험 평가에 의존 하 여 다단계 인증에 대 한 조건부 액세스 정책을 적용 합니다. 또한이 지침에는 해당 계정에 대해 높은 위험 활동이 검색 되는 경우 사용자가 암호를 변경 해야 하는 조건부 액세스 정책도 포함 되어 있습니다. | Microsoft 365 E5, Microsoft 365 E3, Id & 위협 방지 추가 기능, EMS E5 또는 Azure Premium P2 라이선스 |
 | [셀프 서비스 암호 재설정 (SSPR)](/azure/active-directory/authentication/concept-sspr-howitworks) | 관리자가 제어할 수 있는 여러 인증 방법에 대 한 확인을 제공 하 여 사용자가 직접 암호를 재설정할 수 있도록 지원 합니다. | Microsoft 365 E3 혹은 E5 |
+| [AZURE AD 암호 보호](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) 알려진 약한 암호와 해당 변형 및 조직과 관련 된 추가 약한 용어를 검색 하 고 차단 합니다. 기본 전역 금지 암호 목록은 Azure AD 테 넌 트의 모든 사용자에 게 자동으로 적용 됩니다. 사용자 지정 금지 된 암호 목록에서 추가 항목을 정의할 수 있습니다. 사용자가 암호를 변경 하거나 다시 설정할 때 이러한 금지 된 암호 목록을 확인 하 여 강력한 암호를 사용 해야 합니다. |  Microsoft 365 E3 혹은 E5 |
 ||||
 
 ![Id 및 장치 액세스 구성 요소](../media/microsoft-365-policies-configurations/identity-device-access-components.png)

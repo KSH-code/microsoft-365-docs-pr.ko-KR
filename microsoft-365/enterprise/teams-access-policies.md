@@ -16,16 +16,16 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 41ead64a7a94dcd5afb22a311d7637326949fc7c
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 4dde82ef9deb4d515ea5223470f7c96c1fe28a26
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685657"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546368"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>팀 대화방, 그룹 및 파일을 보호 하기 위한 정책 권장 사항
 
-이 문서에서는 팀 대화방, 그룹 및 파일 및 일정과 같은 콘텐츠를 보호 하기 위해 권장 되는 id 및 장치 액세스 정책을 구현 하는 방법을 설명 합니다. 이 지침은 [일반적인 id 및 장치 액세스 정책](identity-access-policies.md)에 따라 구성 되며, 이러한 정책은 팀 관련 추가 정보와 함께 작성 됩니다. 팀은 다른 제품과 통합 되므로 [전자 메일을 보호 하기 위한 정책](secure-email-recommended-policies.md)권장 사항 및 [SharePoint 사이트를 보호 하기 위한 정책 권장](sharepoint-file-access-policies.md) 사항도 참조 하세요.
+이 문서에서는 Microsoft 팀의 채팅, 그룹, 콘텐츠, 파일 및 일정 등을 보호 하기 위해 권장 되는 id 및 장치 액세스 정책을 구현 하는 방법을 설명 합니다. 이 지침은 [일반적인 id 및 장치 액세스 정책](identity-access-policies.md)에 따라 구성 되며, 이러한 정책은 팀 관련 추가 정보와 함께 작성 됩니다. 팀은 다른 제품과 통합 되므로 [전자 메일을 보호 하기 위한 정책](secure-email-recommended-policies.md)권장 사항 및 [SharePoint 사이트를 보호 하기 위한 정책 권장](sharepoint-file-access-policies.md) 사항도 참조 하세요.
 
 이러한 권장 사항은 초기 계획, 중요 및 높은 규제의 요구 사항에 따라 적용할 수 있는 팀에 대 한 세 가지 보안 및 보호 계층을 기반으로 합니다. 이러한 보안 계층에 대 한 자세한 내용을 확인 하 고 [id 및 장치 액세스 구성](microsoft-365-policies-configurations.md)에서 이러한 권장 사항을 참조 하는 권장 정책을 확인할 수 있습니다.
 
@@ -38,25 +38,27 @@ Microsoft 팀을 시작 하기 위해 종속 서비스를 사용 하도록 설�
 - Microsoft 365 그룹
 - SharePoint 팀 사이트
 - 비즈니스용 OneDrive
-- 사서함
+- Exchange 사서함
 - Stream 비디오 및 Planner 계획 (이러한 서비스를 사용 하는 경우)
 
 ## <a name="updating-common-policies-to-include-teams"></a>팀을 포함 하도록 일반 정책 업데이트
 
-다음 다이어그램에서는 팀의 채팅, 그룹 및 콘텐츠를 보호 하기 위한 권장 정책 집합을 보여 줍니다. 연필 아이콘은 팀 및 종속 서비스가 클라우드 앱 할당에 포함 되도록 하기 위해 다시 검토 해야 하는 정책을 나타냅니다.
+다음 다이어그램에서는 팀의 채팅, 그룹 및 콘텐츠를 보호 하기 위해 일반 id 및 장치 액세스 정책에서 업데이트할 정책을 보여 줍니다. 업데이트할 각 정책에 대해 팀 및 종속 서비스가 클라우드 앱 할당에 포함 되어 있는지 확인 합니다.
 
-![다양 한 장치에서 Microsoft 팀을 사용 하는 방법을 보여 주는 다이어그램](../media/identity-access-ruleset-teams.png)
+[![팀 및 해당 종속 서비스에 대 한 액세스를 보호 하기 위한 정책 업데이트 요약](../media/microsoft-365-policies-configurations/identity-access-ruleset-teams.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-teams.png)
+
+[이 이미지의 더 큰 버전 보기](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-teams.png)
 
 다음은 팀에 대 한 클라우드 앱 할당에 포함할 종속 서비스입니다.
 
 - Microsoft Teams
-- SharePoint Online 및 비즈니스용 OneDrive
+- SharePoint 및 비즈니스용 OneDrive
 - Exchange Online
 - 비즈니스용 Skype Online
 - Microsoft Stream (모임 녹음/녹화)
 - Microsoft Planner (Planner 작업 및 계획 데이터)
 
-이 표에서는 모든 Office 응용 프로그램에 대해 더 광범위 한 규칙 집합이 포함 된 [일반 id 및 장치 액세스 정책의](identity-access-policies.md)각 정책에 대 한 링크 및 다시 확인 해야 하는 정책을 보여 줍니다.
+이 표에는 모든 Office 응용 프로그램에 대해 설정 된 보다 광범위 한 정책을 가진 [일반 id 및 장치 액세스 정책](identity-access-policies.md)에서 다시 검토 하 고 각 정책에 연결 해야 하는 정책이 나열 되어 있습니다.
 
 |보호 수준|정책|팀 구현에 대 한 추가 정보|
 |:---------------|:-------|:----------------|
@@ -76,13 +78,13 @@ Microsoft 팀을 시작 하기 위해 종속 서비스를 사용 하도록 설�
 
 참조용으로 다음 다이어그램에는 서비스 팀이 의존 하는 것이 나와 있습니다. 자세한 내용 및 추가 그림은 [IT 설계자 용 microsoft 365의 Microsoft 팀 및 관련 생산성 서비스](../solutions/productivity-illustrations.md)를 참조 하세요.
 
-![SharePoint Online, 비즈니스용 OneDrive 및 Exchange에 대 한 팀 종속성을 보여 주는 다이어그램입니다.](../media/identity-access-logical-architecture-teams.png)
+![SharePoint, 비즈니스용 OneDrive 및 Exchange의 팀 종속성을 보여 주는 다이어그램](../media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)
 
 ## <a name="enabling-guest-and-external-access-for-teams"></a>팀에 대 한 게스트 및 외부 액세스 설정
 
 Azure AD에서 게스트 및 외부 사용자는 동일 합니다. 이러한 두 가지 유형의 사용자는 모두 게스트입니다. 게스트 사용자는 B2B 사용자입니다. Microsoft 팀은 앱에서 게스트 사용자와 외부 사용자를 구분 합니다. 각 사용자 유형은 팀에서 처리 되는 방식을 이해 하는 것이 중요 하지만, 두 유형의 사용자나 Azure AD의 B2B 사용자 이며, B2B 사용자에 게 권장 되는 정책이 두 가지 모두에 적용 됩니다. 게스트 액세스를 허용 하는 권장 정책에 대해서는 [게스트 및 외부 B2B 액세스](identity-access-policies-guest-access.md)를 허용 하기 위한 정책을 참조 하세요.
 
-### <a name="guest-access-in-teams"></a>팀의 게스트 액세스
+### <a name="guest-access-in-teams"></a>Teams의 게스트 액세스
 
 비즈니스 또는 조직 내부에 있는 사용자에 대 한 정책 외에도 관리자는 게스트 액세스를 허용 하 고 사용자가 비즈니스 또는 조직 외부에 있는 사용자가 팀 리소스에 액세스 하 고 그룹 대화, 채팅 및 모임 등의 내부 사람들과 상호 작용할 수 있습니다. 게스트 액세스에 대 한 자세한 내용은 [팀 게스트 액세스](https://docs.microsoft.com/microsoftteams/guest-access) 링크를 통해 확인할 수 있습니다.
 
@@ -120,6 +122,10 @@ Azure AD에서 게스트 및 외부 사용자는 동일 합니다. 이러한 두
 
 ## <a name="next-steps"></a>다음 단계
 
-[Exchange Online에 대 한 조건부 액세스를 사용 하도록 설정 하는 방법 알아보기](secure-email-recommended-policies.md)
+![4 단계: Microsoft 365 클라우드 앱에 대 한 정책](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
 
+다음에 대 한 조건부 액세스 정책 구성:
+
+- [Exchange Online](secure-email-recommended-policies.md)
+- [SharePoint](secure-email-recommended-policies.md)
 

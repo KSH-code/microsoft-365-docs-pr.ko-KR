@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 932d57c0-1520-4f0f-8ec9-9966d646480f
 description: PowerShell을 사용 하 여 Microsoft 365 사용자, 라이선스 및 365 앱을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 0af4a47b713da1f0316ae4be91fb7c6472f0e625
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+ms.openlocfilehash: ef6146744909755efb974ee57f34ae3b924a7f2c
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429905"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547917"
 ---
 # <a name="manage-microsoft-365-with-powershell"></a>PowerShell로 Microsoft 365 관리
 
@@ -35,7 +35,7 @@ Microsoft 365 용 PowerShell은 Microsoft 365 관리 센터를 보완 하는 강
 
 다음 항목을 선택 하 여 Microsoft 365 사용자 및 라이선스, 비즈니스용 Skype Online, SharePoint Online, Exchange Online, 보안 & 준수 센터에 대해 PowerShell을 사용 하는 방법을 알아봅니다.
   
-- [**시작하기**](getting-started-with-microsoft-365-powershell.md)
+- [**시작**](getting-started-with-microsoft-365-powershell.md)
 
     Microsoft 365 용 PowerShell에 익숙하지 않고 Microsoft 365 모듈을 설치 하 고 구독에 연결 하려면 여기에서 시작 합니다.
 
@@ -47,7 +47,7 @@ Microsoft 365 용 PowerShell은 Microsoft 365 관리 센터를 보완 하는 강
 
     Microsoft 365 모듈을 설치 했으며 자동화 명령을 사용 하 여 SharePoint를 관리 하려면 여기에서 시작 합니다.
 
-- [**Exchange Online PowerShell**](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)
+- [**Exchange Online PowerShell**](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)
 
     자동화 명령을 사용하여 Exchange Online을 관리하려면 여기에서 시작합니다.
 
@@ -55,7 +55,7 @@ Microsoft 365 용 PowerShell은 Microsoft 365 관리 센터를 보완 하는 강
 
     PowerShell 365 모듈을 설치 했으며 기존 시스템에서 전자 메일을 마이그레이션하려면 여기에서 시작 합니다.
 
-- [**보안 및 준수 센터**](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell)
+- [**보안 및 준수 센터**](https://docs.microsoft.com/powershell/exchange/scc-powershell)
 
     자동화 명령을 사용 하 여 Security & 준수 센터 PowerShell을 관리 하려면 여기에서 시작 합니다.
 

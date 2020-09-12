@@ -18,29 +18,29 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안을 사용 하 여 조직 정보를 보호 하는 장치 정책을 만듭니다.
-ms.openlocfilehash: eddd3454e8f00bab7a830e7710331cafd097d7de
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+ms.openlocfilehash: 322bca862c852f83406ca4622a63384b2e2275e5
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47430262"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545887"
 ---
-# <a name="create-device-security-policies-in-basic-mobility-and-security"></a>기본 모바일 및 보안에서 장치 보안 정책 만들기 
+# <a name="create-device-security-policies-in-basic-mobility-and-security"></a>기본 모바일 및 보안에서 장치 보안 정책 만들기
 
 기본 이동성 및 보안을 사용 하 여 무단으로 액세스 하지 못하도록 Microsoft 365의 조직 정보를 보호 하는 장치 정책을 만들 수 있습니다. 장치의 사용자에 게 해당 하는 Microsoft 365 라이선스가 있고 기본 Mobility and Security에서 장치를 등록 한 경우 조직의 모든 모바일 장치에 정책을 적용할 수 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
->[!IMPORTANT]
->모바일 장치 정책을 만들려면 기본 이동성 및 보안을 활성화 하 고 설정 해야 합니다. 자세한 내용은 기본 이동성 및 보안 개요를 참조 하세요.
+> [!IMPORTANT]
+> 모바일 장치 정책을 만들려면 기본 이동성 및 보안을 활성화 하 고 설정 해야 합니다. 자세한 내용은 기본 이동성 및 보안 개요를 참조 하세요.
 
 - 기본 Mobility and Security에서 지 원하는 장치, 모바일 장치 앱 및 보안 설정에 대해 알아봅니다. [기본 이동성 및 보안 기능을](capabilities.md)참조 하세요.
 - 정책을 배포할 Microsoft 365 사용자를 포함 하는 보안 그룹을 만들고 Microsoft 365에 대 한 차단 된 액세스 권한으로 제외할 수 있는 사용자에 대해 만듭니다. 조직에 새 정책을 배포 하기 전에 소수의 사용자에 게 정책을 배포 하 여 정책 테스트를 수행 하는 것이 좋습니다. 자신을 포함 하는 보안 그룹을 만들고 사용할 수 있으며 Microsoft 365 사용자는 사용자를 대신 하 여 정책을 테스트할 수 있습니다. 보안 그룹에 대 한 자세한 내용은 [보안 그룹 만들기, 편집 또는 삭제](https://go.microsoft.com/fwlink/p/?LinkId=518555)를 참조 하세요.
 - Microsoft 365에서 기본 이동성 및 보안 정책을 만들고 배포 하려면 Microsoft 365 글로벌 관리자 여야 합니다. 자세한 내용은 [Security & 준수 센터의 사용 권한을](https://support.microsoft.com/office/d10608af-7934-490a-818e-e68f17d0e9c1)참조 하세요.
 - 정책을 배포 하기 전에 조직에서 기본 이동성 및 보안에 따라 장치 등록에 대 한 잠재적인 영향을 알 수 있도록 합니다. 정책을 설정 하는 방법에 따라 비규격 장치는 등록 된 응용 프로그램, 사진 및 개인 정보를 포함 하 여 Microsoft 365 및 데이터에 대 한 액세스를 차단 하 고, 데이터를 삭제할 수 있습니다.
 
->[!NOTE]
->Microsoft 365 Business Standard for the MDM에서 만든 정책 및 액세스 규칙 exchange 관리 센터에서 작성 된 장치 액세스 규칙 및 모바일 장치 사서함 정책 재정의 장치를 Microsoft 365 Business Standard 용 MDM에 등록 한 후에는 장치에 적용 된 모든 Exchange ActiveSync 모바일 장치 사서함 정책 또는 장치 액세스 규칙이 무시 됩니다. Exchange ActiveSync에 대 한 자세한 정보는 exchange [activesync in Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=524380)를 참조 하십시오.
+> [!NOTE]
+> Microsoft 365 Business Standard for the MDM에서 만든 정책 및 액세스 규칙 exchange 관리 센터에서 작성 된 장치 액세스 규칙 및 모바일 장치 사서함 정책 재정의 장치를 Microsoft 365 Business Standard 용 MDM에 등록 한 후에는 장치에 적용 된 모든 Exchange ActiveSync 모바일 장치 사서함 정책 또는 장치 액세스 규칙이 무시 됩니다. Exchange ActiveSync에 대 한 자세한 정보는 exchange [activesync in Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=524380)를 참조 하십시오.
 
 ## <a name="step-1-create-a-device-policy-and-deploy-to-a-test-group"></a>1 단계: 장치 정책 만들기 및 테스트 그룹에 배포
 
@@ -50,7 +50,7 @@ ms.locfileid: "47430262"
 
 2. **정책 만들기를**선택 합니다.
 
-    :::image type="content" source="../../media/basic-mobility-security/bms-4-policy.png" alt-text="기본 이동성 및 보안 정책 설정":::
+   :::image type="content" source="../../media/basic-mobility-security/bms-4-policy.png" alt-text="기본 이동성 및 보안 정책 설정":::
 
 3. **정책 설정** 페이지에서 조직의 모바일 장치에 적용 하려는 요구 사항을 지정 합니다.
 
@@ -71,7 +71,7 @@ ms.locfileid: "47430262"
 3. 정책이 적용 된 사용자 장치의 상태를 확인 합니다. 장치 **상태** 를 **관리 하려고 합니다.**
 4. 장치를 선택한 후에는 **관리** 단추에서 **초기화** 를 클릭 하거나 **회사 데이터를 제거** 하 여 장치에서 전체 또는 선택 지우기를 수행할 수도 있습니다. 자세한 내용은 [Microsoft 365에서 모바일 장치 초기화]를 참조 하십시오.
 
-3 단계: 조직에 정책 배포
+## <a name="step-3-deploy-a-policy-to-your-organization"></a>3 단계: 조직에 정책 배포
 
 장치 정책을 만들고 예상 대로 작동 하는지 확인 한 후 조직에 배포 합니다.
 
@@ -85,7 +85,7 @@ ms.locfileid: "47430262"
 
 ## <a name="step-4-block-email-access-for-unsupported-devices"></a>4 단계: 지원 되지 않는 장치에 대 한 전자 메일 액세스 차단
 
-조직 정보의 보안을 유지 하려면 기본 Mobility and Security에서 지원 하지 않는 모바일 장치에 대 한 Microsoft 365 전자 메일에 대 한 앱 액세스를 차단 해야 합니다. 지원 되는 장치 목록은 [지원 되는 장치](https://support.microsoft.com/office/capabilities-of-basic-mobility-and-security-a1da44e5-7475-4992-be91-9ccec25905b0#bkmk_supporteddevices)를 참조 하세요. 
+조직 정보의 보안을 유지 하려면 기본 Mobility and Security에서 지원 하지 않는 모바일 장치에 대 한 Microsoft 365 전자 메일에 대 한 앱 액세스를 차단 해야 합니다. 지원 되는 장치 목록은 [지원 되는 장치](https://support.microsoft.com/office/capabilities-of-basic-mobility-and-security-a1da44e5-7475-4992-be91-9ccec25905b0#bkmk_supporteddevices)를 참조 하세요.
 
 **앱 액세스를 차단 하려면**
 
@@ -93,7 +93,7 @@ ms.locfileid: "47430262"
 2. **조직 차원 장치 액세스 설정을 관리**합니다 .를 선택 합니다.
 3. 지원 되지 않는 장치를 차단 하려면 **장치를 Microsoft 365 용 MDM에서 지원 하지 않는 경우**아래에서 **차단을** 선택한 다음 **저장**을 선택 합니다.
 
-    :::image type="content" source="../../media/basic-mobility-security/bms-5-block-access.png" alt-text="기본 모바일 및 보안 차단 액세스 옵션":::
+   :::image type="content" source="../../media/basic-mobility-security/bms-5-block-access.png" alt-text="기본 모바일 및 보안 차단 액세스 옵션":::
 
 ## <a name="step-5-choose-security-groups-to-be-excluded-from-conditional-access-checks"></a>5 단계: 조건부 액세스 검사에서 제외할 보안 그룹 선택
 
@@ -103,7 +103,7 @@ ms.locfileid: "47430262"
 
 2. **조직 차원 장치 액세스 설정을 관리**합니다 .를 선택 합니다.
 
-    :::image type="content" source="../../media/basic-mobility-security/bms-4-policy.png" alt-text="기본 모바일 및 보안 정책 만들기 옵션":::
+   :::image type="content" source="../../media/basic-mobility-security/bms-4-policy.png" alt-text="기본 모바일 및 보안 정책 만들기 옵션":::
 
 3. **추가** 를 선택 하 여 Microsoft 365에 대 한 차단 된 액세스 권한을 부여 하려는 사용자가 포함 된 보안 그룹을 추가 합니다. 사용자가이 목록에 추가 된 경우 지원 되지 않는 장치를 사용 하는 경우 Microsoft 365 전자 메일에 액세스할 수 있습니다.
 
@@ -113,7 +113,7 @@ ms.locfileid: "47430262"
 
 6. 조직 차원 **장치 액세스 설정** 패널에서 **저장**을 선택 합니다.
 
-    :::image type="content" source="../../media/basic-mobility-security/bms-8-allow-access.png" alt-text="기본 이동성 및 보안 허용 액세스 옵션":::
+   :::image type="content" source="../../media/basic-mobility-security/bms-8-allow-access.png" alt-text="기본 이동성 및 보안 허용 액세스 옵션":::
 
 ## <a name="what-is-the-impact-of-security-policies-on-different-device-types"></a>보안 정책이 다른 장치 유형에 미치는 영향은 무엇입니까?
 
@@ -138,14 +138,15 @@ ms.locfileid: "47430262"
 정책을 삭제 하거나 정책을 배포한 그룹에서 사용자를 제거 하면 정책 설정, Microsoft 365 전자 메일 프로필 및 캐시 된 전자 메일이 사용자의 장치에서 제거 될 수 있습니다. 다음 표를 참조 하 여 각 장치 유형에 서 제거 되는 항목을 확인 하십시오.
 
 |**제거 된 기능**|**iOS 6 이상**|**Android 4 이상 (Samsung KNOX 포함)**|
-|:-----|:-----|:----------------------|
+|:-----|:-----|:-----|
 |관리 되는 전자 메일 프로필<sup>1</sup>|예|아니요|
 |클라우드 백업 차단|예|아니요|
-<sup>1</sup> **전자 메일 프로필을 관리** 하는 옵션을 사용 하 여 정책이 배포 된 경우 해당 프로필의 관리 되는 전자 메일 프로필과 캐시 된 전자 메일이 사용자 장치에서 삭제 됩니다.
+
+<sup>1</sup> 정책이 **전자 메일 프로필 관리** 옵션을 선택한 상태로 배포 된 경우 해당 프로필의 관리 되는 전자 메일 프로필과 캐시 된 전자 메일이 사용자 장치에서 삭제 됩니다.
 
 정책은 다음에 장치에서 기본 이동성 및 보안으로 체크 인 될 때 정책이 적용 되는 각 사용자에 대해 모바일 장치에서 제거 됩니다. 이러한 사용자 장치에 적용 되는 새 정책을 배포 하는 경우 기본 이동성 및 보안에 다시 등록 하 라는 메시지가 표시 됩니다.
 
-장치를 완전히 지우거 나 장치에서 조직 정보를 선택적으로 지울 수도 있습니다. 자세한 내용은 [기본 Mobility And Security에서 모바일 장치 초기화](wipe-mobile-device.md)를 참조 하세요. 
+장치를 완전히 지우거 나 장치에서 조직 정보를 선택적으로 지울 수도 있습니다. 자세한 내용은 [기본 Mobility And Security에서 모바일 장치 초기화](wipe-mobile-device.md)를 참조 하세요.
 
 ## <a name="related-topics"></a>관련 항목
 

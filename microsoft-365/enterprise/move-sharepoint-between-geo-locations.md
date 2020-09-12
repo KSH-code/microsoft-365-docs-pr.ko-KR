@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: 다중 위치 환경 내에서 SharePoint 사이트를 다른 지리적 위치로 이동 하 고 사용자에 게 변경 사항의 기대치를 알리는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e96c422b1d2685c9fe3d4c8c45aa8437a6776621
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 819496b9f7612afa1db902e6fc5a0844e99d7a8e
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692271"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545639"
 ---
 # <a name="move-a-sharepoint-site-to-a-different-geo-location"></a>SharePoint 사이트를 다른 지리적 위치로 이동
 
@@ -36,13 +36,13 @@ SharePoint 사이트 지리적 이동으로 SharePoint 사이트를 Multi-Geo �
 지리적 위치 간에 사이트를 이동하려면 전역 관리자 또는 SharePoint 관리자여야 합니다.
 
 사이트 콘텐츠에 따라 약 4~6시간이 걸리는 SharePoint 사이트 지리적 이동 기간에 읽기 전용 창이 있습니다.
- 
+
 ## <a name="best-practices"></a>모범 사례
 
-- 절차에 익숙해지려면 테스트 사이트에서 SharePoint 사이트 이동을 수행해 보세요. 
-- 이동을 예약하거나 수행하기 전에 사이트를 이동할 수 있는지를 확인합니다. 
+- 절차에 익숙해지려면 테스트 사이트에서 SharePoint 사이트 이동을 수행해 보세요.
+- 이동을 예약하거나 수행하기 전에 사이트를 이동할 수 있는지를 확인합니다.
 - 가능한 경우 사용자 영향을 줄이기 위해 업무 외 시간에 지역 간 사이트 이동을 예약합니다.
-- 사이트를 이동하기 전에 영향을 받을 사용자에게 정보를 전달합니다. 
+- 사이트를 이동하기 전에 영향을 받을 사용자에게 정보를 전달합니다.
 
 ## <a name="communicating-to-your-users"></a>사용자에게 정보 전달
 
@@ -62,10 +62,11 @@ SharePoint 사이트 이동을 사전에 예약할 수 있습니다(이 문서�
 
 - 한 번에 이동을 최대 4,000개 예약할 수 있습니다.
 - 이동이 시작되면 큐와 주어진 시간에 보류 중인 이동 최대 4,000개를 추가로 예약할 수 있습니다.
- 
+
 SharePoint 사이트 지리적 이동 일정을 나중으로 예약하려면 이동하기 시작할 때 다음 매개 변수 중 하나를 포함합니다.
+
 - `PreferredMoveBeginDate` - 이 지정 시간에 이동하기 시작할 가능성이 높습니다.
-- `PreferredMoveEndDate` - 최선의 노력에 따라, 이 지정 시간에 이동을 완료할 가능성이 높습니다. 
+- `PreferredMoveEndDate` - 최선의 노력에 따라, 이 지정 시간에 이동을 완료할 가능성이 높습니다.
 
 두 매개 변수 모두 시간이 UTC(협정 세계시)로 지정되어야 합니다.
 
@@ -73,19 +74,22 @@ SharePoint 사이트 지리적 이동 일정을 나중으로 예약하려면 이
 
 SharePoint 사이트 지리적 이동을 수행하려면 사이트가 있는 지리적 위치의 SharePoint 관리자 URL에서 연결 후 이동을 해야 합니다.
 
-예를 들어 사이트 URL이 https://contosohealthcare.sharepoint.com/sites/Turbines인 경우, https://contosohealthcare-admin.sharepoint.com:에서 SharePoint 관리자 URL에 연결
+예를 들어 사이트 URL이 인 경우 <https://contosohealthcare.sharepoint.com/sites/Turbines> 다음 위치에서 SharePoint 관리 URL에 연결 합니다 <https://contosohealthcare-admin.sharepoint.com> .
 
-`Connect-SPOService -url https://contosohealthcare-admin.sharepoint.com`
+```powershell
+Connect-SPOService -Url https://contosohealthcare-admin.sharepoint.com
+```
 
-![](../media/move-onedrive-between-geo-locations-image1.png)
- 
+![연결-Connect-sposervice 명령을 표시 하는 SharePoint Online 관리 셸 창](../media/move-onedrive-between-geo-locations-image1.png)
+
 ### <a name="validating-the-environment"></a>환경 유효성 검사
 
 사이트 이동을 예약하기 전에 먼저 유효성 검사를 수행하여 사이트를 이동할 수 있는지를 확인하는 것이 좋습니다.
 
 다음을 사용한 사이트 이동은 지원하지 않습니다.
--    Business Connectivity Services
--    InfoPath 양식 
+
+- Business Connectivity Services
+- InfoPath 양식
 - IRM(정보 권한 관리) 서식 파일 적용됨
 
 모든 지리적 위치가 호환되는지 확인하려면 `Get-SPOGeoMoveCrossCompatibilityStatus`를 실행합니다. 그러면 모든 지리적 위치가 표시되고 환경이 대상 지리적 위치와 호환되는지 표시됩니다.
@@ -102,15 +106,17 @@ Start-SPOSiteContentMove -SourceSiteUrl <SourceSiteUrl> -ValidationOnly -Destina
 
 기본적으로 사이트의 초기 URL이 대상 지리적 위치의 URL로 변경됩니다. 예:
 
-https://Contoso.sharepoint.com/sites/projectx에서 https://ContosoEUR.sharepoint.com/sites/projectx로
+<https://Contoso.sharepoint.com/sites/projectx>에서 <https://ContosoEUR.sharepoint.com/sites/projectx>로
 
 Microsoft 365 그룹에 연결되지 않은 사이트의 경우에도 `-DestinationUrl` 매개 변수를 사용하여 이름을 변경할 수 있습니다. 예시:
 
-https://Contoso.sharepoint.com/sites/projectx에서 https://ContosoEUR.sharepoint.com/sites/projecty로
+<https://Contoso.sharepoint.com/sites/projectx>에서 <https://ContosoEUR.sharepoint.com/sites/projecty>로
 
 사이트 이동을 시작하려면 다음을 실행합니다.
 
-`Start-SPOSiteContentMove -SourceSiteUrl <siteURL> -DestinationDataLocation <DestinationDataLocation> -DestinationUrl <DestinationSiteURL>`
+```powershell
+Start-SPOSiteContentMove -SourceSiteUrl <siteURL> -DestinationDataLocation <DestinationDataLocation> -DestinationUrl <DestinationSiteURL>
+```
 
 ![Start-SPOSiteContentMove cmdlet을 보여주는 PowerShell 창 스크린샷](../media/multi-geo-sharepoint-site-move-powershell.png)
 
@@ -124,7 +130,8 @@ Microsoft 365 그룹의 PDL을 설정하려면:
 Set-SPOUnifiedGroup -PreferredDataLocation <PDL> -GroupAlias <GroupAlias>
 Get-SPOUnifiedGroup -GroupAlias <GroupAlias>
 ```
-PDL을 업데이트하고 나면 사이트 이동을 시작할 수 있습니다. 
+
+PDL을 업데이트하고 나면 사이트 이동을 시작할 수 있습니다.
 
 ```PowerShell
 Start-SPOUnifiedGroupMove -GroupAlias <GroupAlias> -DestinationDataLocation <DestinationDataLocation>
@@ -139,19 +146,22 @@ SharePoint 사이트 지리적 이동이 진행 중이거나 `Stop-SPOSiteConten
 다음 cmdlet을 사용하면, 연결된 지역 안팎으로 이동하는 사이트의 이동 상태를 확인할 수 있습니다.
 
 - [Get-SPOSiteContentMoveState](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spositecontentmovestate)(그룹에 연결되지 않은 사이트)
-- Get-SPOUnifiedGroupMoveState(그룹에 연결된 사이트)
+- [SPOUnifiedGroupMoveState](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spounifiedgroupmovestate) (그룹 연결 사이트)
 
 `-SourceSiteUrl` 매개 변수를 사용하여 이동 상태를 볼 사이트를 지정합니다.
 
 다음 표에는 이동 상태에 대한 설명이 나와 있습니다.
 
+****
+
 |상태|설명|
-|:-----|:----------|
+|---|---|
 |트리거 준비 완료|이동이 시작되지 않았습니다.|
 |예약됨|이동 작업이 큐에 있지만 아직 시작되지는 않았습니다.|
 |InProgress(n/4)|이동이 유효성 검사(1/4), 백업(2/4), 복원(3/4), 정리(4/4)의 네 가지 상태 중 하나로 진행 중입니다.|
 |Success|이동이 성공적으로 완료되었습니다.|
 |Failed|이동이 실패했습니다.|
+|
 
 `-Verbose` 옵션을 적용하여 이동에 대한 추가 정보를 표시할 수도 있습니다.
 
@@ -215,4 +225,4 @@ SharePoint Mobile 앱은 지역 간에 호환되며 사이트의 새 지리적 �
 
 ### <a name="data-movement-between-geo-locations"></a>지리적 위치 간 데이터 이동
 
-SharePoint는 콘텐츠를 Azure Blob Storage에 저장하고, 사이트 및 파일과 연결된 메타데이터는 SharePoint 내에 저장합니다. 사이트가 원본 지리적 위치에서 대상 지리적 위치로 이동하고 나면, 서비스도 그와 연결된 Blob Storage를 이동합니다. Blob Storage 이동은 약 40일 후에 완료됩니다. 
+SharePoint는 콘텐츠를 Azure Blob Storage에 저장하고, 사이트 및 파일과 연결된 메타데이터는 SharePoint 내에 저장합니다. 사이트가 원본 지리적 위치에서 대상 지리적 위치로 이동하고 나면, 서비스도 그와 연결된 Blob Storage를 이동합니다. Blob Storage 이동은 약 40일 후에 완료됩니다.

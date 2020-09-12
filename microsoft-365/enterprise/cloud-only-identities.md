@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: Microsoft 365 구독에서 클라우드 전용 id를 사용 하는 경우 사용자 및 그룹을 만드는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 4c8e7d4a29f548fca2fef9696f488dc333743ef9
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 6ec727ea3648f1daa3af42763e5f497715b987a2
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692431"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547761"
 ---
 # <a name="microsoft-365-cloud-only-identity"></a>Microsoft 365 클라우드 전용 id
 
@@ -41,7 +41,7 @@ ms.locfileid: "46692431"
  
 ![클라우드 전용 id의 기본 구성 요소](../media/about-microsoft-365-identity/cloud-only-identity.png)
 
-조직의 사용자 및 사용자 계정을 다양 한 방법으로 분류할 수 있습니다. 예를 들어 직원은 직원과 영구 상태를 유지 합니다. 일부는 임시 상태인 공급 업체, 계약자 또는 파트너입니다. 일부는 사용자 계정이 없지만, 상호 작용 및 공동 작업을 지원 하기 위해 특정 서비스 및 리소스에 대 한 액세스 권한을 부여 해야 하는 외부 사용자입니다. 예를 들면 다음과 같습니다.
+조직의 사용자 및 사용자 계정을 다양 한 방법으로 분류할 수 있습니다. 예를 들어 직원은 직원과 영구 상태를 유지 합니다. 일부는 임시 상태인 공급 업체, 계약자 또는 파트너입니다. 일부는 사용자 계정이 없지만, 상호 작용 및 공동 작업을 지원 하기 위해 특정 서비스 및 리소스에 대 한 액세스 권한을 부여 해야 하는 외부 사용자입니다. 예시:
 
 - 테넌트 계정은 클라우드 서비스에 대한 라이선스를 부여한 조직 내부의 사용자를 나타냅니다.
 
@@ -55,7 +55,7 @@ ms.locfileid: "46692431"
 
 - 그룹 기반 라이선싱을 사용 하 여 구성원으로 추가 되는 즉시 사용자 계정에 Microsoft 365에 대 한 라이선스를 자동으로 할당 합니다.
 - 부서 이름과 같은 사용자 계정 특성에 따라 특정 그룹에 동적으로 사용자 계정을 추가 합니다.
-- SaaS (Software as a Service) 응용 프로그램에 대 한 사용자를 자동으로 프로 비전 하 고 MFA (multi-factor authentication) 및 기타 조건부 액세스 규칙을 사용 하 여 이러한 응용 프로그램에 대 한 액세스를 보호 합니다.
+- SaaS (Software as a Service) 응용 프로그램에 대 한 사용자를 자동으로 프로 비전 하 고 MFA (multi-factor authentication) 및 기타 조건부 액세스 정책을 사용 하 여 이러한 응용 프로그램에 대 한 액세스를 보호 합니다.
 - SharePoint Online 팀 사이트에 대 한 권한 및 액세스 수준 프로 비전
 
 다음을 사용 하 여 새 ***사용자*** 를 만듭니다.

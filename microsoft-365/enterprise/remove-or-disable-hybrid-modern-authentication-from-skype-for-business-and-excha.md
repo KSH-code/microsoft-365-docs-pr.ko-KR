@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 비즈니스용 Skype 및 Exchange에서 하이브리드 최신 인증을 제거 하거나 사용 하지 않도록 설정 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: da0887936f5def69ad80c8f04381bcb3a85c2349
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 70f62b9b2165464837aa1dea0e12854df116efe0
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692360"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547099"
 ---
 # <a name="removing-or-disabling-hybrid-modern-authentication-from-skype-for-business-and-exchange"></a>비즈니스용 Skype 및 Exchange에서 하이브리드 최신 인증 제거 또는 사용 안 함
 
@@ -47,7 +47,7 @@ Set-OrganizationConfig -OAuth2ClientProfileEnabled $false
 Set-AuthServer -Identity evoSTS -IsDefaultAuthorizationEndpoint $false
 ```
 
-2. **Exchange online**: 원격 PowerShell을 사용 [하 여 exchange online에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) 합니다. 다음 명령을 실행 하 여  *OAuth2ClientProfileEnabled*  플래그를 ' f a l i e '로 설정 합니다.
+2. **Exchange online**: 원격 PowerShell을 사용 [하 여 exchange online에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) 합니다. 다음 명령을 실행 하 여  *OAuth2ClientProfileEnabled*  플래그를 ' f a l i e '로 설정 합니다.
 
 ```powershell    
 Set-OrganizationConfig -OAuth2ClientProfileEnabled:$false

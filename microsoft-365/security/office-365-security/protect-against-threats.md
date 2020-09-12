@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 Microsoft 365의 위협 보호에 대해 알아보고 조직에서이를 사용 하는 방법을 구성할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8b96ba1735f94e80450fa4f604fc45dc60b80d12
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: a78bbea2d11360bbfa48fa3da01391471b2e0a4d
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417125"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547365"
 ---
 # <a name="protect-against-threats"></a>위협으로부터 보호
 
@@ -230,17 +230,17 @@ SharePoint, OneDrive 및 팀과 같은 워크 로드는 공동 작업을 위해 
 
 5. 조직의 [안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md) 및 [안전한 링크 정책을](set-up-atp-safe-links-policies.md)검토 하 고 적절 하 게 편집 합니다.
 
-6. 는 전역 관리자 또는 SharePoint Online 관리자는 _DisallowInfectedFileDownload_ 매개 변수를 *true*로 설정 하 여 **[set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)** cmdlet을 실행 합니다.
+6. 는 전역 관리자 또는 SharePoint Online 관리자는 _DisallowInfectedFileDownload_ 매개 변수를로 설정 하 여 **[set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)** cmdlet을 실행 합니다 `$true` .
 
-   - 이 매개 변수를 *true* 로 설정 하면 검색 된 파일에 대 한 모든 작업 (삭제 제외)이 차단 됩니다. 사용자가 검색 된 파일을 열거나, 이동 하거나, 복사 하거나, 공유할 수 없습니다.
+   - `$true` 검색 된 파일에 대 한 모든 작업 (삭제 제외)을 차단 합니다. 사용자가 검색 된 파일을 열거나, 이동 하거나, 복사 하거나, 공유할 수 없습니다.
+   - `$false` 삭제 및 다운로드를 제외한 모든 작업을 차단 합니다. 사용자는 위험을 수락 하 고 검색 된 파일을 다운로드할 수 있습니다.
 
-   - 이 매개 변수를 *false* 로 설정 하면 삭제 및 다운로드를 제외한 모든 작업이 차단 됩니다. 사용자는 위험을 수락 하 고 검색 된 파일을 다운로드할 수 있습니다.
-   > [!TIP] Microsoft 365에서 PowerShell을 사용 하는 방법에 대 한 자세한 내용은 PowerShell을 사용 하 여 [microsoft 365 관리](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-with-microsoft-365-powershell)를 참조 하세요.
+   > [!TIP]
+   > Microsoft 365에서 PowerShell을 사용 하는 방법에 대 한 자세한 내용은 PowerShell을 사용 하 여 [microsoft 365 관리](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-with-microsoft-365-powershell)를 참조 하세요.
 
 7. 변경 내용이 모든 Microsoft 365 데이터 센터에 전파 되는 데 최대 30 분 정도 걸릴 수 있습니다.
 
-
-#### <a name="now-set-up-alerts-for-detected-files"></a>이제 검색 된 파일에 대 한 알림을 설정 합니다.
+### <a name="now-set-up-alerts-for-detected-files"></a>이제 검색 된 파일에 대 한 알림을 설정 합니다.
 
 SharePoint Online의 파일 (비즈니스용 OneDrive 또는 Microsoft 팀)이 악성으로 식별 된 경우 알림을 받으려면 알림을 설정 하면 됩니다.
 
@@ -266,9 +266,10 @@ SharePoint Online의 파일 (비즈니스용 OneDrive 또는 Microsoft 팀)이 �
 
 > [!NOTE]
 > 구성을 마친 후에는 다음 링크를 사용 하 여 작업 조사를 시작 합니다.
->- [SharePoint, OneDrive 또는 Microsoft Teams에서 감지한 악성 파일에 대한 정보 보기](malicious-files-detected-in-spo-odb-or-teams.md)
->- [SharePoint Online, OneDrive 또는 Microsoft 팀에서 악의적인 파일을 찾을 때 수행할 작업](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
->- [Microsoft 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리](manage-quarantined-messages-and-files.md) 
+>
+> - [SharePoint, OneDrive 또는 Microsoft Teams에서 감지한 악성 파일에 대한 정보 보기](malicious-files-detected-in-spo-odb-or-teams.md)
+> - [SharePoint Online, OneDrive 또는 Microsoft 팀에서 악의적인 파일을 찾을 때 수행할 작업](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
+> - [Microsoft 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리](manage-quarantined-messages-and-files.md)
 
 ## <a name="part-6---additional-settings-to-configure"></a>6 부-구성할 추가 설정
 

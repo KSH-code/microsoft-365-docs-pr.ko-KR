@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 043f5882dcaa15576317958523d6e57d4667ef45
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: ae4a8b51111c53c2245005a5d863354737335ae2
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308088"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546191"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Microsoft 365 생산성 일러스트레이션
 
@@ -57,13 +57,13 @@ IT 설계자가 Microsoft 365의 그룹에 대해 알아야 하는 점
 
 
 <a name="BKMK_O365IDP"></a>
-### <a name="identity-and-device-protection-for-office-365"></a>Office 365용 ID 및 장치 보호
+### <a name="identity-and-device-protection-for-microsoft-365"></a>Microsoft 365에 대 한 id 및 장치 보호
 
-Azure AD 애플리케이션 프록시를 사용하여 게시한 온-프레미스 응용 프로그램, Office 365 및 다른 SaaS 서비스에 액세스하는 ID 및 디바이스를 보호하기 위해 권장되는 기능입니다.
+Microsoft 365, 기타 SaaS 서비스 및 Azure AD 응용 프로그램 프록시를 사용 하 여 게시 된 온-프레미스 응용 프로그램에 액세스 하는 id 및 장치를 보호 하기 위한 권장 기능
 
 |**항목**|**설명**|
 |:-----|:-----|
-|[![모델 포스터: Office 365 및 기타 SaaS 응용 프로그램용 ID 및 장치 보호](../media/solutions-architecture-center/O365-Identity-device-protection-thumb.png)          ](https://www.microsoft.com/download/details.aspx?id=55032) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656)  \| [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657)  \| [추가 언어](https://www.microsoft.com/download/details.aspx?id=55032) <br/> 2018년 11월에 업데이트됨|데이터, ID 및 장치 전반에 걸쳐 일관된 보호 수준을 사용하는 것이 중요합니다. 이 문서에서 ID와 장치를 보호하는 기능에 대한 자세한 정보를 비교할 수 있습니다.  <br/> |
+|[![모델 포스터: Microsoft 365에 대 한 Id 및 장치 보호](../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [PDF](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| 로 보기 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| 로 다운로드 [Visio로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)   <br/> 2020 년 9 월 업데이트|데이터, ID 및 장치 전반에 걸쳐 일관된 보호 수준을 사용하는 것이 중요합니다. 이 모델에서는 id 및 장치를 보호 하기 위한 기능에 대 한 자세한 정보와 어떤 기능을 사용할 수 있는지를 보여 줍니다.  <br/> |
    
 <!--
 

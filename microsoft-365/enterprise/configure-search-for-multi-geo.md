@@ -13,12 +13,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 다중 지리적 환경에서 검색을 구성 하는 방법을 알아봅니다. 비즈니스용 OneDrive와 같은 일부 클라이언트만 다중 지리적 환경에서 결과를 반환할 수 있습니다.
-ms.openlocfilehash: 22c71661e8f3b643a1fd7afa33b38584a1cd1be5
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: e213e93cfbc967a723b4d27f4b36a83fe6687da9
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695079"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547155"
 ---
 # <a name="configure-search-for-microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo 검색 구성
 
@@ -30,15 +30,11 @@ ms.locfileid: "46695079"
 
 이러한 클라이언트는 모든 지리적 위치의 결과를 반환할 수 있습니다.
 
--   비즈니스용 OneDrive
-
--   Delve
-
--   SharePoint 홈페이지
-
--   검색 센터
-
--   SharePoint 검색 API를 사용하는 사용자 지정 검색 응용 프로그램
+- 비즈니스용 OneDrive
+- Delve
+- SharePoint 홈페이지
+- 검색 센터
+- SharePoint 검색 API를 사용하는 사용자 지정 검색 응용 프로그램
 
 ### <a name="onedrive-for-business"></a>비즈니스용 OneDrive
 
@@ -135,14 +131,12 @@ Multi-Geo 환경이 설정된 후에 각 검색 센터는 자체 지리적 위�
 
 모든 검색 클라이언트는 기존 SharePoint 검색 REST API를 사용하여 검색 인덱스와 상호 작용합니다.
 
-<img src="../media/configure-search-for-multi-geo-image1-1.png" />
+![SharePoint 검색 REST Api가 검색 인덱스와 상호 작용 하는 방식을 보여 주는 다이어그램](../media/configure-search-for-multi-geo-image1-1.png)
 
 1. 검색 클라이언트는 쿼리 속성 EnableMultiGeoSearch가 true인 검색 REST 끝점을 호출합니다.
 2. 쿼리는 테넌트의 모든 지리적 위치로 전송됩니다.
 3. 각 지리적 위치의 검색 결과가 병합되고 순위가 지정됩니다.
 4. 클라이언트는 통합된 검색 결과를 얻습니다.
-
-
 
 <span id="_Set_up_a" class="anchor"><span id="_Ref501388384" class="anchor"></span></span>Microsoft는 모든 지리적 위치에서 결과를 얻을 때까지 검색 결과를 병합하지 않습니다. 즉, Multi-Geo 정보 검색은 지리적 위치가 하나뿐인 환경에서의 검색보다 대기 시간이 길어집니다.
 
@@ -151,29 +145,32 @@ Multi-Geo 환경이 설정된 후에 각 검색 센터는 자체 지리적 위�
 
 각 검색 센터에는 여러 범주가 있으며 각 범주를 개별적으로 설정해야 합니다.
 
-1.  검색 결과 페이지 및 검색 결과 웹 파트를 편집할 수 있는 권한이 있는 계정으로 다음 단계를 수행해야 합니다.
+1. 검색 결과 페이지 및 검색 결과 웹 파트를 편집할 수 있는 권한이 있는 계정으로 다음 단계를 수행해야 합니다.
 
-2.  검색 결과 페이지로 이동합니다(검색 결과 페이지의 [목록](https://support.office.com/article/174d36e0-2f85-461a-ad9a-8b3f434a4213) 참조).
+2. 검색 결과 페이지로 이동합니다(검색 결과 페이지의 [목록](https://support.office.com/article/174d36e0-2f85-461a-ad9a-8b3f434a4213) 참조).
 
-3.  설정할 범주를 선택하고 오른쪽 위 모서리에 있는 **설정** 톱니바퀴 아이콘을 클릭한 후 **페이지 편집**을 클릭합니다. 검색 결과 페이지가 편집 모드에서 열립니다.
+3. 설정할 범주를 선택하고 오른쪽 위 모서리에 있는 **설정** 톱니바퀴 아이콘을 클릭한 후 **페이지 편집**을 클릭합니다. 검색 결과 페이지가 편집 모드에서 열립니다.
 
-     ![](../media/configure-search-for-multi-geo-image2.png)
-1.  검색 결과 웹 파트에서 웹 파트 오른쪽 위 모서리로 포인터를 이동하고 화살표를 클릭한 후 메뉴에서 **웹 파트 편집**을 클릭합니다. 검색 결과 웹 파트 도구 창은 페이지 오른쪽 위에 있는 리본 아래에 열립니다. ![](../media/configure-search-for-multi-geo-image3.png)
+   ![설정에서 페이지 선택 편집](../media/configure-search-for-multi-geo-image2.png)
 
-1.  웹 파트 도구 창의 **설정** 섹션에 있는 **결과 제어 설정**에서 **Multi-Geo 결과 표시**를 선택하여 검색 결과 웹 파트에 모든 지리적 위치의 결과를 표시하도록 합니다.
+4. 검색 결과 웹 파트에서 웹 파트 오른쪽 위 모서리로 포인터를 이동하고 화살표를 클릭한 후 메뉴에서 **웹 파트 편집**을 클릭합니다. 검색 결과 웹 파트 도구 창은 페이지 오른쪽 위에 있는 리본 아래에 열립니다.
 
-2.  **확인**을 클릭하여 변경 내용을 저장하고 웹 파트 도구 창을 닫습니다.
+   ![웹 파트 선택 편집](../media/configure-search-for-multi-geo-image3.png)
 
-3.  주 메뉴의 페이지 탭에서 **체크 인**을 클릭하여 검색 결과 웹 파트에 대한 변경 내용을 확인합니다.
+5. 웹 파트 도구 창의 **설정** 섹션에 있는 **결과 제어 설정**에서 **Multi-Geo 결과 표시**를 선택하여 검색 결과 웹 파트에 모든 지리적 위치의 결과를 표시하도록 합니다.
 
-4.  페이지 위쪽의 메모에 제공된 링크를 사용하여 변경 내용을 게시합니다.
+6. **확인**을 클릭하여 변경 내용을 저장하고 웹 파트 도구 창을 닫습니다.
+
+7. 주 메뉴의 페이지 탭에서 **체크 인**을 클릭하여 검색 결과 웹 파트에 대한 변경 내용을 확인합니다.
+
+8. 페이지 위쪽의 메모에 제공된 링크를 사용하여 변경 내용을 게시합니다.
 
 <span id="_Get_custom_search" class="anchor"><span id="_Ref501388387" class="anchor"></span></span>
 ## <a name="get-custom-search-applications-to-show-results-from-all-or-some-geo-locations"></a>사용자 지정 검색 응용 프로그램에서 전체 또는 일부 지리적 위치의 결과를 표시하도록 지정
 
 사용자 지정 검색 응용 프로그램은 SharePoint 검색 REST API에 대한 요청을 통해 쿼리 매개 변수를 지정하여 전체 또는 일부 지리적 위치에서 결과를 가져옵니다. 쿼리 매개 변수에 따라, 쿼리는 모든 지리적 위치 또는 일부 지리적 위치로 팬아웃됩니다. 예를 들어, 관련 정보를 찾기 위해 지리적 위치의 하위 집합만 쿼리하면 될 경우 팬아웃을 이러한 위치로만 제어할 수 있습니다. 요청이 성공하면 SharePoint 검색 REST API가 응답 데이터를 반환됩니다.
 
-**요구 사항**
+### <a name="requirement"></a>요구 사항
 
 각 지역 위치의 경우 조직의 모든 사용자가 루트 웹 사이트(예: contoso**APAC**.sharepoint.com/ 및 contoso**EU**.sharepoint.com/) **읽기** 권한 수준을 받아야 합니다. [권한에 대해 자세히 알아보세요](https://support.office.com/article/understanding-permission-levels-in-sharepoint-87ecbb0e-6550-491a-8826-c075e4859848).
 
@@ -230,14 +227,12 @@ MultiGeoSearchStatus – SharePoint 검색 API가 요청에 대한 응답으로 
 <td align="left">Partial</td>
 <td align="left">하나 이상의 지리적 위치에서 가져온 부분적인 결과입니다. 일시적인 오류로 인해 결과가 불완전합니다.</td>
 </tr>
-
 </tbody>
 </table>
 
 ### <a name="query-using-the-rest-service"></a>REST 서비스를 사용하는 쿼리
 
 GET 요청을 사용하여 URL에 쿼리 매개 변수를 지정합니다. POST 요청을 사용하여 본문에 JSON(JavaScript 개체 표기법) 형식으로 쿼리 매개 변수를 전달합니다.
-
 
 #### <a name="request-headers"></a>요청 헤더
 
@@ -269,8 +264,9 @@ https:// \<tenant\> / \_ api/search/query? querytext = ' site ' &ClientType = ' 
 
 #### <a name="sample-post-request-thats-fanned-out-to-all-geo-locations"></a>**모든** 지리적 위치로 팬아웃되는 샘플 POST 요청
 
+```text
     {
-        "request": {
+    "request": {
             "__metadata": {
             "type": "Microsoft.Office.Server.Search.REST.SearchRequest"
         },
@@ -289,11 +285,11 @@ https:// \<tenant\> / \_ api/search/query? querytext = ' site ' &ClientType = ' 
         "ClientType": "my_client_id"
         }
     }
-
+```
 
 #### <a name="sample-post-request-thats-fanned-out-to-some-geo-locations"></a>**일부** 지리적 위치로 팬아웃되는 샘플 POST 요청
 
-
+```text
     {
         "request": {
             "Querytext": "SharePoint",
@@ -318,13 +314,15 @@ https:// \<tenant\> / \_ api/search/query? querytext = ' site ' &ClientType = ' 
             }
         }
     }
+```
 
 ### <a name="query-using-csom"></a>CSOM을 사용하는 쿼리
 
 다음은 **모든** 지리적 위치로 팬아웃되는 샘플 CSOM 쿼리입니다.
 
-    var keywordQuery = new KeywordQuery(ctx);
-    keywordQuery.QueryText = query.SearchQueryText;
-    keywordQuery.ClientType = <enter a string here>;
-    keywordQuery["EnableMultiGeoSearch"] = true;
-
+```text
+var keywordQuery = new KeywordQuery(ctx);
+keywordQuery.QueryText = query.SearchQueryText;
+keywordQuery.ClientType = <enter a string here>;
+keywordQuery["EnableMultiGeoSearch"] = true;
+```

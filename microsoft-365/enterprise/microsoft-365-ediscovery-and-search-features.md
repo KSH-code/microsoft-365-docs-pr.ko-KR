@@ -16,14 +16,14 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: 감사 사용 및 투명성을 위한 Microsoft 365 내의 eDiscovery 기능 및 기타 검색 기능에 대 한 개요입니다.
-ms.openlocfilehash: ea7b221ab8fe2ff41d089bb344d2dce58002d0f5
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: d18d3d4776c434788ee8fef7fb8be9edf339ff04
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47331862"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547773"
 ---
-# <a name="microsoft-365-ediscovery-and-search-features-overview"></a>Microsoft 365 eDiscovery 및 검색 기능 개요 
+# <a name="microsoft-365-ediscovery-and-search-features-overview"></a>Microsoft 365 eDiscovery 및 검색 기능 개요
 
 ## <a name="ediscovery"></a>eDiscovery
 
@@ -67,6 +67,6 @@ Microsoft 365 감사 로그를 검색 하는 자세한 단계는 [Security & 준
 
 ## <a name="search-unified-audit-log"></a>통합 감사 로그 검색
 
-감사 로그 검색 기능을 사용 하 여 통합 된 감사 로그를 검색 합니다. Microsoft 365에서는 원격 PowerShell을 사용 하 여이 로그를 검색 하는 기능도 제공 합니다. Exchange Online PowerShell의 [search-unifiedauditlog cmdlet](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/Search-UnifiedAuditLog?view=exchange-ps) 은 exchange Online, SharePoint Online, 비즈니스용 OneDrive 및 Azure AD에서의 사용자 작업과 관련 된 이벤트의 통합 감사 로그를 검색 하는 데 사용 됩니다. 
+감사 로그 검색 기능을 사용 하 여 통합 된 감사 로그를 검색 합니다. Microsoft 365에서는 원격 PowerShell을 사용 하 여이 로그를 검색 하는 기능도 제공 합니다. Exchange Online PowerShell의 [search-unifiedauditlog cmdlet](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) 은 exchange Online, SharePoint Online, 비즈니스용 OneDrive 및 Azure AD에서의 사용자 작업과 관련 된 이벤트의 통합 감사 로그를 검색 하는 데 사용 됩니다.
 
 지정 된 날짜 범위의 모든 이벤트를 검색 하거나 특정 작업, 작업을 수행한 사용자, 대상 개체 등의 특정 조건에 따라 결과를 필터링 할 수 있습니다. 관리자는 대규모 날짜 범위 검색을 분할 하기 위해 동시에 최대 3 개의 Exchange Online PowerShell 세션을 사용할 수 있습니다.

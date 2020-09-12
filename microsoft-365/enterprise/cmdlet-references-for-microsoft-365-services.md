@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 3a1ea1a6-edbd-4922-9ad3-0b075f7f9009
 description: Azure AD, Exchange Online, SharePoint Online, 비즈니스용 Skype Online 및 보안 & 준수에 대 한 Microsoft 365 PowerShell cmdlet 참조 항목을 찾습니다.
-ms.openlocfilehash: 4905c20216e6df02399fe372ec31fe3bedfde6c4
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 8f2aa4b123e3b7e3f92aabee7f9e8adeeb9c154f
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692706"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547121"
 ---
 # <a name="cmdlet-references-for-microsoft-365-services"></a>Office 365 서비스에 대한 cmdlet 참조
 
@@ -42,7 +42,7 @@ Microsoft 365 PowerShell 연결 지침은 [PowerShell을 사용 하 여 microsof
   
 ## <a name="exchange-online-powershell-cmdlets"></a>Exchange Online PowerShell cmdlet
 
-Exchange Online cmdlet 참조 항목은 [Exchange Online PowerShell 설명서](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)의 **참조** 섹션에 있습니다.
+Exchange Online cmdlet 참조 항목은 [Exchange Online PowerShell 설명서](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)의 **참조** 섹션에 있습니다.
   
 Exchange Online PowerShell에 대 한 연결 지침을 보려면 [Exchange Online powershell에 연결](https://go.microsoft.com/fwlink/p/?LinkId=396554)을 클릭 합니다.
   
@@ -61,17 +61,14 @@ SharePoint 온라인 PowerShell에 대한 연결 지침을 보려면 [SharePoint
   
 비즈니스용 Skype Online PowerShell에 대 한 연결 지침을 보려면 [PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](manage-skype-for-business-online-with-microsoft-365-powershell.md)를 클릭 합니다.
 
-## <a name="security-amp-compliance-center-powershell-cmdlets"></a>보안 및 준수 센터 PowerShell cmdlet
+## <a name="security--compliance-center-powershell-cmdlets"></a>보안 & 준수 센터 PowerShell cmdlet
 
-Microsoft 365 보안 및 &amp; 준수 센터 cmdlet 참조 항목은 [Exchange Online PowerShell 설명서](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)의 **참조** 섹션에 있습니다.
+Microsoft 365 보안 & 준수 센터 cmdlet 참조 항목은 [security & 준수 PowerShell 설명서](https://docs.microsoft.com/powershell/exchange/scc-powershell)의 **참조** 섹션에 있습니다.
   
-보안 및 준수 센터 PowerShell에 대 한 연결 지침 &amp; 을 보려면 [Security &amp; 준수 센터 powershell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps)을 클릭 합니다.
+보안 & 준수 센터 PowerShell에 대 한 연결 지침을 보려면 [security & 준수 센터 powershell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)을 클릭 합니다.
 
-
-  
 ## <a name="see-also"></a>참고 항목
 
 [PowerShell로 Microsoft 365 관리](manage-microsoft-365-with-microsoft-365-powershell.md)
   
 [Microsoft 365 용 PowerShell 시작](getting-started-with-microsoft-365-powershell.md)
-

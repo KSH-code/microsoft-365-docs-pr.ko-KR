@@ -13,12 +13,12 @@ ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 ms.collection: Strat_SP_gtc
 description: Region 매개 변수를 사용 하 여 Microsoft 365 다중 Geo의 위성 위치에서 사용할 eDiscovery를 구성 하는 방법을 알아봅니다.
-ms.openlocfilehash: 83141f824c76ca5531e1b390b91adcdb4f3874de
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 216012791473776395d27821293e8fc565568c2c
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692455"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547953"
 ---
 # <a name="microsoft-365-multi-geo-ediscovery-configuration"></a>Microsoft 365 Multi-Geo eDiscovery 구성
 
@@ -35,7 +35,7 @@ Microsoft 365 전역 관리자는 다른 사용자들이 eDiscovery를 수행할
 
 지역에 대한 준수 보안 필터를 설정하려면
 
-1. [Microsoft 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
+1. [Microsoft 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
 
 2. 다음 구문을 사용합니다.
 
@@ -49,4 +49,4 @@ Microsoft 365 전역 관리자는 다른 사용자들이 eDiscovery를 수행할
    New-ComplianceSecurityFilter -Action All -FilterName "NAM eDiscovery Managers" -Region NAM -Users adwood@contoso.onmicrosoft.com
    ```
 
-추가 매개 변수 및 구문에 대해서는 [New-ComplianceSecurityFilter](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/new-compliancesecurityfilter) 문서를 참조하세요.
+추가 매개 변수 및 구문에 대해서는 [New-ComplianceSecurityFilter](https://docs.microsoft.com/powershell/module/exchange/new-compliancesecurityfilter) 문서를 참조하세요.

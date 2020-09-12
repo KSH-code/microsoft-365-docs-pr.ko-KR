@@ -16,19 +16,19 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 온-프레미스 비즈니스용 Skype 및 Exchange 서버와 함께 사용할 수 있는 하이브리드 최신 인증과 필수 구성 요소에 대해 설명 합니다.
-ms.openlocfilehash: 1dbea7643685d68564b1ba09b17c41aa2e5e42f1
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 1e0330bd62d9098f11a12b44b46e9ace30b59420
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692315"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546447"
 ---
 # <a name="hybrid-modern-authentication-overview-and-prerequisites-for-using-it-with-on-premises-skype-for-business-and-exchange-servers"></a>하이브리드 최신 인증 개요 및 온-프레미스 비즈니스용 Skype 및 Exchange 서버에서 사용하기 위한 필수 구성 요소
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
 _최신 인증_은 더욱 안전한 사용자 인증 및 권한 부여를 제공하는 ID 관리 방법입니다. 비즈니스용 Skype 서버 온-프레미스 및 Exchange 서버 온-프레미스의 Office 365 하이브리드 배포뿐 아니라, 분할 도메인 비즈니스용 Skype 하이브리드에 사용할 수 있습니다. 이 문서에는 필수 구성 요소, 최신 인증 설정/해제에 대한 관련 문서 및 일부 관련 클라이언트(예: Outlook 및 Skype 클라이언트) 정보의 링크가 있습니다.
-  
+
 - [최신 인증은 무엇인가요?](hybrid-modern-auth-overview.md#BKMK_WhatisModAuth)
 - [최신 인증을 사용하면 어떤 변화가 있나요?](hybrid-modern-auth-overview.md#BKMK_WhatChanges)
 - [온-프레미스 환경의 최신 인증 상태 확인](hybrid-modern-auth-overview.md#BKMK_CheckStatus)
@@ -39,36 +39,36 @@ _최신 인증_은 더욱 안전한 사용자 인증 및 권한 부여를 제공
 <a name="BKMK_WhatisModAuth"> </a>
 
 최신 인증은 클라이언트(예: 노트북 또는 휴대폰)와 서버 사이의 인증 및 권한 부여 방법의 조합뿐 아니라, 이미 익숙한 액세스 정책에 의존하는 일부 보안 조치에 대한 포괄적인 용어입니다. 이 목록에는 다음과 같은 내용이 포함됩니다.
-  
+
 - **인증 방법**: MFA(다단계 인증), 스마트 카드 인증, 클라이언트 인증서 기반 인증
 - **인증 방법**: Microsoft의 OAuth(Open Authorization) 구현
 - **조건부 액세스 정책**: MAM(모바일 응용 프로그램 관리) 및 Azure AD(Azure Active Directory) 조건부 액세스
 
 최신 인증을 사용하여 사용자 ID를 관리하면 관리자에게 리소스 보호에 사용할 수 있는 많은 도구를 제공하고 온-프레미스(Exchange 및 비즈니스용 Skype), Exchange 하이브리드 및 비즈니스용 Skype 하이브리드/분할된 도메인 시나리오에 더 안전한 ID 관리 방법을 지원할 수 있습니다.
-  
+
 비즈니스용 Skype는 Exchange와 긴밀한 관련이 있으므로 비즈니스용 Skype 클라이언트 사용자에게 표시되는 로그인 동작은 Exchange의 최신 인증 상태의 영향을 받습니다. 비즈니스용 Skype _분할 도메인_ 하이브리드 아키텍처를 사용하고, 여기에 비즈니스용 Skype Online 및 비즈니스용 Skype 온-프레미스가 포함되고 사용자가 양쪽 위치한 경우에도 적용됩니다.
 
 Office 365의 최신 인증에 대한 자세한 내용은 [Office 365 클라이언트 앱 지원 - 최신 인증](microsoft-365-client-support-modern-authentication.md)을 참조하세요.
-  
+
 > [!IMPORTANT]
 > 2017년 8월을 기준으로 비즈니스용 Skype Online 및 Exchange Online을 포함하는 모든 새 Office 365 테넌트는 기본적으로 최신 인증을 사용하도록 설정되어 있습니다. 기존 테넌트는 기본 MA 상태에 변경이 없지만, 모든 새 테넌트는 위에 나열된 ID 기능의 확장 세트를 자동으로 지원합니다. MA 상태를 확인하려면 [온-프레미스 환경의 최신 인증 상태 확인](hybrid-modern-auth-overview.md#BKMK_CheckStatus) 섹션을 참조하세요.
-  
+
 ## <a name="what-changes-when-i-use-modern-authentication"></a>최신 인증을 사용하면 어떤 변화가 있나요?
 <a name="BKMK_WhatChanges"> </a>
 
 온-프레미스 비즈니스용 Skype 또는 Exchange 서버에 최신 인증을 사용하는 경우, 사용자 온-프레미스를 계속 *인증*하지만, 리소스(파일 또는 전자 메일)에 대한 액세스 *권한 부여* 내용은 변합니다. 따라서 최신 인증은 클라이언트와 서버 통신에 대한 것이지만, MA를 구성하는 동안 수행된 단계로 인해 evoSTS(Azure AD에서 사용하는 보안 토큰 서비스)가 비즈니스용 Skype 및 Exchange 서버 온-프레미스의 인증 서버로 설정됩니다.
-  
+
 EvoSTS를 변경하면 온-프레미스 서버에서 클라이언트를 인증하는 데 OAuth(토큰 발급)를 활용하고 온-프레미스에서 클라우드(예: 다단계 인증)에 일반적인 보안 방법을 사용할 수 있습니다. 또한 evoSTS는 사용자가 요청의 일부로 암호를 제공하지 않고도 리소스에 대한 액세스를 요청할 수 있는 토큰을 발행합니다. 사용자가 어디에 있든(온라인 또는 온-프레미스), 필요한 리소스가 어느 위치에 있든 상관 없이, 최신 인증이 구성되면 EvoSTS가 사용자 및 클라이언트에 대한 권한 부여의 핵심적인 요소가 됩니다.
-  
+
 예를 들어, 비즈니스용 Skype 클라이언트에서 사용자를 대신하여 일정 정보를 받기 위해 Exchange 서버에 액세스해야 하는 경우에는 ADAL(Active Directory Authentication Library)을 사용합니다. ADAL은 디렉터리에 있는 보안 리소스를 OAuth 보안 토큰을 사용하는 클라이언트 응용 프로그램에서 사용할 수 있도록 설계된 코드 라이브러리입니다. 사용자에게 리소스에 대한 액세스 권한을 부여하기 위해 ADAL은 OAuth와 작업하여 클레임 확인하고 토큰(암호가 아닌)을 교환합니다. 과거에는 이와 같은 트랙잭션의 권한(사용자 클레임의 유효성을 검사하고 필요한 토큰을 발행하는 방법을 아는 서버)이 보안 토큰 서비스 온-프레미스이거나 Active Directory Federation Service일 수 있습니다. 그러나 최신 인증은 Azure AD를 사용하여 해당 권한을 중앙 집중화합니다.
-  
+
 즉, Exchange 서버와 비즈니스용 Skype 환경이 완전히 온-프레미스인 경우에도, 인증 서버는 온라인이고, 온-프레미스 환경에 클라우드의 Office 365 구독에 대한 연결을 만들고 유지 관리하는 기능(및 구독에서 디렉터리로 사용하는 Azure AD 인스턴스)이 포함되어 있어야 합니다.
-  
+
 어떤 변화가 있나요? 분할 도메인 하이브리드 상태인지 또는 비즈니스용 Skype 및 Exchange 서버 온-프레미스를 사용하는지에 상관 없이, 먼저 모든 사용자가 *온-프레미스*를 인증해야 합니다. 최신 인증을 하이브리드 방식으로 구현하는 경우에는 _Lyncdiscovery_ 및 _Autodiscovery_에서 온-프레미스 서버를 가리킵니다.
-  
+
 > [!IMPORTANT]
 > MA에서 지원되는 특정 비즈니스용 Skype 토폴로지를 알아야 하는 경우에는 [여기를 참조](https://technet.microsoft.com/library/mt803262.aspx)하세요.
-  
+
 ## <a name="check-the-modern-authentication-status-of-your-on-premises-environment"></a>온-프레미스 환경의 최신 인증 상태를 확인합니다.
 <a name="BKMK_CheckStatus"> </a>
 
@@ -80,7 +80,7 @@ Get-OrganizationConfig | ft OAuth*
 
 _OAuth2ClientProfileEnabled_ 속성 값이 **False**인 경우 최신 인증을 사용할 수 없습니다.
 
-Get-OrganizationConfig cmdlet에 대한 자세한 내용은 [Get-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/get-organizationconfig)를 참조하세요.
+Get-OrganizationConfig cmdlet에 대한 자세한 내용은 [Get-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/get-organizationconfig)를 참조하세요.
 
 다음 PowerShell 명령을 실행하여 비즈니스용 Skype 서버를 확인할 수 있습니다.
 
@@ -91,17 +91,17 @@ Get-CSOAuthConfiguration
 명령이 비어 있는 _OAuthServers_ 속성을 반환하거나 _ClientADALAuthOverride_ 속성의 값을 **허용**하지 않는 경우 최신 인증을 사용하지 않도록 설정됩니다.
 
 Get-CsOAuthConfiguration cmdlet에 대한 자세한 내용은 [Get-CsOAuthConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csoauthconfiguration)을 참조하세요.
-  
+
 ## <a name="do-you-meet-modern-authentication-prerequisites"></a>최신 인증 필수 구성 요소를 충족하나요?
 
 계속하기 전에 목록에서 해당 항목을 확인합니다.
-  
+
 - **비즈니스용 Skype 관련**
   - 모든 서버에 비즈니스용 Skype Server 2015 이상에 대한 2017년 5월 누적 업데이트(CU5)가 있어야 합니다.
     - **예외** - SBA(Survivability Branch Appliance)는 현재 버전(Lync 2013 기반)일 수 있습니다.
   - SIP 도메인은 Office 365에서 페더레이션 도메인으로 추가됩니다.
   - 모든 SFB 프론트 엔드에는 인터넷과 [Office 365 URL 및 IP 주소 범위](urls-and-ip-address-ranges.md)의 'Microsoft 365 Common and Office' 섹션의 열 56 및 125에 나열된 Office 365 인증 URL(TCP 443) 및 잘 알려진 인증 루트 CRL(TCP 80)에 대한 아웃바운드 연결이 있어야 합니다. 
-  
+
 - **하이브리드 Office 365 환경의 비즈니스용 Skype 온-프레미스**
   - 비즈니스용 Skype 서버 2019 배포 - 모든 서버에서 비즈니스용 Skype 서버 2019 실행
   - 비즈니스용 Skype 서버 2015 배포 - 모든 서버에서 비즈니스용 Skype 서버 2015 실행
@@ -113,7 +113,7 @@ Get-CsOAuthConfiguration cmdlet에 대한 자세한 내용은 [Get-CsOAuthConfig
 
 >[!NOTE]
 >비즈니스용 Skype 프런트 엔드 서버에서 인터넷 액세스에 프록시 서버를 사용하는 경우, 사용되는 프록시 서버 IP 및 포트 번호를 각 프론트 엔드에 대한 web.config 파일의 구성 섹션에 입력해야 합니다.
-  
+
 - C:\Program Files\Skype for Business Server 2015\Web Components\Web ticket\int\web.config
 - C:\Program Files\Skype for Business Server 2015\Web Components\Web ticket\ext\web.config
 
@@ -131,13 +131,13 @@ Get-CsOAuthConfiguration cmdlet에 대한 자세한 내용은 [Get-CsOAuthConfig
 
 > [!IMPORTANT]
 > [Office 365 URL 및 IP 주소 범위](urls-and-ip-address-ranges.md)에 대한 RSS 피드를 구독하고 필수 URL의 최신 목록으로 최신 상태를 유지하세요.
-  
+
 - **Exchange 서버 관련**
   - Exchange 서버 2013 CU19 이상, Exchange 서버 2016 CU8 이상 또는 Exchange 서버 2019 CU1 이상을 사용하고 있습니다.
   - 환경에 Exchange 서버 2010이 없습니다.
   - SSL 오프로딩이 구성되지 않았습니다. SSL 종료 및 다시 암호화가 지원됩니다.
   - 사용자 환경이 프록시 서버 인프라를 사용하여 서버에서 인터넷에 연결할 수 있도록 하려면 모든 Exchange 서버에서 [InternetWebProxy](https://technet.microsoft.com/library/bb123716%28v=exchg.160%29.aspx) 속성에 정의된 프록시 서버를 사용해야 합니다.
-  
+
 - **하이브리드 Office 365 환경에서 Exchange Server 온-프레미스**
 
   - Exchange Server 2013를 사용하는 경우 하나 이상의 서버에 사서함 및 클라이언트 액세스 서버 역할이 설치되어 있어야 합니다. 사서함 및 클라이언트 액세스 역할을 별도 서버에 설치할 수도 있지만, 두 가지 역할을 동일한 서버에 모두 설치해 추가 유연성과 개선된 성능을 확보하는 것이 좋습니다.
@@ -146,7 +146,7 @@ Get-CsOAuthConfiguration cmdlet에 대한 자세한 내용은 [Get-CsOAuthConfig
   - 모든 Exchange 서버에는 최신 누적 업데이트가 설치되어 있어야 하며, [Exchange를 최신 누적 업데이트로 업그레이드](https://docs.microsoft.com/exchange/plan-and-deploy/install-cumulative-updates?view=exchserver-2019)를 참조하여 사용 가능한 모든 업데이트를 찾고 관리하세요.
 
 - **Exchange 클라이언트 및 프로토콜 요구 사항**
-  
+
   - 다음 클라이언트는 최신 인증을 지원합니다.
 
   |**클라이언트**|**기본 프로토콜**|**참고**|

@@ -5,7 +5,7 @@ author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: o365-administration
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 Microsoft 365에 대 한 조건부 액세스를 지 원하는 플랫폼, 클라이언트 및 Powershell 모듈에 대해 설명 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2245b8fe9b235013bccc9ea2b80d6b6c86448a89
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: fd4dcaeda27f12427f3175b7ec52e2fdb0c153da
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332019"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546515"
 ---
 # <a name="microsoft-365-client-app-support--conditional-access"></a>Microsoft 365 클라이언트 앱 지원-조건부 액세스
 
@@ -60,11 +60,11 @@ Microsoft 365의 플랫폼 지원에 대 한 자세한 내용은 [microsoft 365�
 
 | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| ![Azure 아이콘](../media/o365-azure-64x64.png) <br> [Azure AD <br> PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) | ![Exchange 아이콘](../media/o365-exchange-64x64.png) <br> [Exchange Online <br> PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps) | ![SharePoint 아이콘](../media/o365-sharepoint-64x64.png) <br> [SharePoint Online <br> PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
+| ![Azure 아이콘](../media/o365-azure-64x64.png) <br> [Azure AD <br> PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) | ![Exchange 아이콘](../media/o365-exchange-64x64.png) <br> [Exchange Online <br> PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell) | ![SharePoint 아이콘](../media/o365-sharepoint-64x64.png) <br> [SharePoint Online <br> PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
 > [!NOTE]
 > <sup>1</sup> Macos의 OneDrive에 대 한 지원이 곧 제공 될 예정입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>다음 내용도 참조하십시오.
 
 [Microsoft 365 Enterprise 개요](microsoft-365-overview.md)

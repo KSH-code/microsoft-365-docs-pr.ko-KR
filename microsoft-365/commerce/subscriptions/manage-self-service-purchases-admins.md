@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,12 +15,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: 관리자는 조직의 사용자가 만든 셀프 서비스 구매를 관리 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: f10f525f8efc6bc63e2fa042c299a6d03c77d0cb
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+ms.openlocfilehash: ca25bf0c3e3539196e81dcc289592028cc4dfa47
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47430001"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546677"
 ---
 # <a name="manage-self-service-purchases-admin"></a>셀프 서비스 구매(관리자) 관리
 
@@ -38,7 +38,7 @@ ms.locfileid: "47430001"
 ## <a name="view-self-service-subscriptions"></a>셀프 서비스 구독 보기
 
 1. 관리 센터에서 **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 청구 페이지로 이동 합니다.
-2. **결과 구체화**옆의 **계정 유형** 드롭다운에서 **셀프 서비스**를 선택 합니다.
+2. **제품** 탭에서 필터 아이콘을 선택한 다음 **셀프 서비스**를 선택 합니다.
 3. 구독에 대 한 세부 정보를 보려면 목록에서 하나를 선택 합니다.
 
 ## <a name="view-who-has-licenses-for-a-self-service-purchase-subscription"></a>셀프 서비스 구매 구독 라이선스를 가진 사용자 보기
@@ -67,13 +67,12 @@ ms.locfileid: "47430001"
 
 기존 라이선스를 할당 하거나 셀프 서비스 구매에 할당 된 사용자에 대 한 기존 계약을 통해 추가 구독을 구매할 수 있습니다. 이러한 중앙에서 구매한 라이선스를 할당 한 후에는 purchasers에서 기존 구독을 취소 하도록 요청할 수 있습니다.
 
-1. 전역 관리자 또는 청구 관리자 계정을 사용 하 여 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">관리 센터</a> 에 로그인 합니다.
-2. **결제**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">구매 서비스</a> 페이지로 이동 합니다.
-3. 구매할 제품을 찾아 선택한 다음 **구입**을 선택 합니다.
-4. 나머지 단계를 완료 하 여 구매를 완료 합니다.
-5. 보기의 단계에 따라 [셀프 서비스를 구매한 구독에 대 한 라이선스를 가진](#view-who-has-licenses-for-a-self-service-purchase-subscription) 사용자 목록을 내보내 6 단계에서 참조 합니다.
-6. 다른 구독에 라이선스가 있는 모든 사용자에 게 라이선스를 할당 합니다. 전체 단계는 [사용자에 게 라이선스 할당](../../admin/manage/assign-licenses-to-users.md)을 참조 하세요.
-7. 셀프 서비스 구매 구독을 구매한 사용자에 게 문의 하 여 취소 하도록 요청 합니다.
+1. 관리 센터에서 **결제** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">구매 서비스</a> 페이지로 이동 합니다.
+2. 구매할 제품을 찾아 선택한 다음 **구입**을 선택 합니다.
+3. 나머지 단계를 완료 하 여 구매를 완료 합니다.
+4. 보기의 단계에 따라 [셀프 서비스를 구매한 구독에 대 한 라이선스를 가진](#view-who-has-licenses-for-a-self-service-purchase-subscription) 사용자의 목록을 내보내 다음 단계에서 참조로 사용할 수 있습니다.
+5. 다른 구독에 라이선스가 있는 모든 사용자에 게 라이선스를 할당 합니다. 전체 단계는 [사용자에 게 라이선스 할당](../../admin/manage/assign-licenses-to-users.md)을 참조 하세요.
+6. 셀프 서비스 구매 구독을 구매한 사용자에 게 문의 하 여 [취소](manage-self-service-purchases-users.md#cancel-a-subscription)하도록 요청 합니다.
 
 ## <a name="take-over-a-self-service-purchase-subscription"></a>셀프 서비스 구매 구독 사용
 

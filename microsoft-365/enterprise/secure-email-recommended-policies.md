@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 9c289006fc1501865b0cf5529c308a0986895504
-ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
+ms.openlocfilehash: 2dfaf33a837a74d92ec9bbbbb7f04b726e7f3744
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46898143"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547865"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>메일을 보호하기 위한 정책 권장 사항
 
@@ -33,13 +33,15 @@ ms.locfileid: "46898143"
 
 ## <a name="updating-common-policies-to-include-email"></a>전자 메일을 포함 하도록 일반 정책 업데이트
 
-다음 다이어그램에서는 일반 id 및 장치 액세스 정책을 보여주고 전자 메일을 보호 하기 위해 업데이트 해야 하는 정책을 나타냅니다. Exchange Online에 대 한 새 규칙을 추가 하 여 ActiveSync 클라이언트를 차단 하는 방법에 유의 하세요. 이렇게 하면 Outlook mobile을 사용 하 게 됩니다.
+다음 다이어그램에서는 전자 메일을 보호 하기 위해 일반 id 및 장치 액세스 정책에서 업데이트할 정책을 보여 줍니다.
 
-![전자 메일을 보호 하기 위한 정책 업데이트 요약](../media/identity-access-ruleset-mail.png)
+[![팀 및 해당 종속 서비스에 대 한 액세스를 보호 하기 위한 정책 업데이트 요약](../media/microsoft-365-policies-configurations/identity-access-ruleset-mail.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-mail.png)
 
-[이 이미지의 더 큰 버전 보기](https://raw.githubusercontent.com/MicrosoftDocs/microsoft-365-docs/public/microsoft-365/media/identity-access-ruleset-mail.png)
+[이 이미지의 더 큰 버전 보기](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-mail.png)
 
-정책을 설정할 때 정책 범위에 Exchange Online과 Outlook을 포함 한 경우에는 ActiveSync 클라이언트를 차단 하는 새 정책만 만들면 됩니다. 다음 표에 나와 있는 정책 들을 검토 하 고 권장 되는 추가 내용을 확인 하거나 이미 포함 되어 있는 것을 확인 합니다. 각 규칙은 [일반 id 및 장치 액세스 정책의](identity-access-policies.md)관련 구성 지침에 연결 됩니다.
+Exchange Online에 대 한 새 정책을 추가 하 여 ActiveSync 클라이언트를 차단 하는 방법에 유의 하세요. 이렇게 하면 Outlook mobile을 사용 하 게 됩니다.
+
+정책을 설정할 때 정책 범위에 Exchange Online과 Outlook을 포함 한 경우에는 ActiveSync 클라이언트를 차단 하는 새 정책만 만들면 됩니다. 다음 표에 나와 있는 정책 들을 검토 하 고 권장 되는 추가 내용을 확인 하거나 이미 포함 되어 있는 것을 확인 합니다. 각 정책은 [일반 id 및 장치 액세스 정책의](identity-access-policies.md)관련 구성 지침에 연결 됩니다.
 
 |보호 수준|정책|추가 정보|
 |:---------------|:-------|:----------------|
@@ -55,7 +57,7 @@ ms.locfileid: "46898143"
 
 ## <a name="block-activesync-clients"></a>ActiveSync 클라이언트 차단
 
-이 정책은 ActiveSync 클라이언트가 다른 조건부 액세스 규칙을 무시할 수 없도록 합니다. 규칙 구성은 ActiveSync 클라이언트에만 적용 됩니다. 이 정책은 **[앱 보호 정책 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy)** 를 선택 하 여 ActiveSync 클라이언트를 차단 합니다. 이 정책 만들기에 대 한 자세한 내용은 [조건부 액세스를 사용한 클라우드 앱 액세스에 대 한 앱 보호 정책 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)를 참조 하세요.
+이 정책은 ActiveSync 클라이언트가 다른 조건부 액세스 정책을 무시할 수 없도록 합니다. 정책 구성은 ActiveSync 클라이언트에만 적용 됩니다. 이 정책은 **[앱 보호 정책 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy)** 를 선택 하 여 ActiveSync 클라이언트를 차단 합니다. 이 정책 만들기에 대 한 자세한 내용은 [조건부 액세스를 사용한 클라우드 앱 액세스에 대 한 앱 보호 정책 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)를 참조 하세요.
 
 1. 시나리오 1의 "2 단계: ActiveSync를 사용 하 여 Azure AD 조건부 액세스 정책 구성 (EAS)" [: Office 365 앱은 앱 보호 정책과 함께 승인 된 앱이 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies)하므로 기본 인증을 사용 하는 exchange ActiveSync 클라이언트에서 exchange Online에 연결할 수 없습니다.
 
@@ -67,4 +69,9 @@ Azure Information Protection의 보호 기능을 활용 하는 새로운 Office 
 
 ## <a name="next-steps"></a>다음 단계
 
-[SharePoint 사이트 및 파일을 보호하기 위한 정책 권장 사항 알아보기](sharepoint-file-access-policies.md)
+![4 단계: Microsoft 365 클라우드 앱에 대 한 정책](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
+
+다음에 대 한 조건부 액세스 정책 구성:
+
+- [Microsoft Teams](teams-access-policies.md)
+- [SharePoint](secure-email-recommended-policies.md)

@@ -3,7 +3,7 @@ title: 자동화된 조사 및 조치 작업을 보고 승인하려면 알림 �
 description: 자동화된 검사에 대한 세부 정보를 확인하고 보류 중인 작업을 승인하도록 알림 센터를 사용합니다.
 keywords: 알림 센터, 위협 방지, 조사, 경고, 보류 중, 자동, 탐지
 search.appverid: met150
-ms.prod: M365-security-compliance
+ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 77bc0f088a9779396a56a9cc8cc9ae6ecbdadea7
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.openlocfilehash: 2dc641d22432e245980b905051bddd3b7dd4ed07
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46503106"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547989"
 ---
 # <a name="the-action-center"></a>알림 센터
 

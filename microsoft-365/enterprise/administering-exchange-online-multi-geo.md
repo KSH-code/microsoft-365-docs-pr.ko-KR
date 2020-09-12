@@ -12,16 +12,16 @@ f1.keywords:
 ms.custom: seo-marvel-mar2020
 localization_priority: normal
 description: PowerShell을 사용 하 여 Microsoft 365 환경에서 Exchange Online 다중 지역 설정을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 645d48066ca02dbf3480e20ae30dc187f84293cf
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 996566d67aa8ba7ebca1406cd5d6265458637fee
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692285"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546249"
 ---
 # <a name="administering-exchange-online-mailboxes-in-a-multi-geo-environment"></a>Multi-Geo 환경에서 Exchange Online 사서함 관리
 
-Microsoft 365 환경에서 Multi-Geo 속성을 보고 구성하려면 원격 PowerShell이 필요합니다. Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.
+Microsoft 365 환경에서 다중 지역 속성을 보고 구성 하려면 Exchange Online PowerShell이 필요 합니다. Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
 사용자 개체의 **PreferredDataLocation** 속성을 보려면 v1.x에서 [Microsoft Azure Active Directory PowerShell 모듈](https://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx) v1.1.166.0 이상이 필요합니다. AAD Connect를 통해 AAD에 동기화된 사용자 개체의 **PreferredDataLocation** 값은 AAD PowerShell을 통해 직접 수정할 수 없습니다. 클라우드 전용 사용자 개체는 AAD PowerShell을 통해 수정할 수 있습니다. Azure AD PowerShell에 연결하려면 [PowerShell에 연결](connect-to-microsoft-365-powershell.md)을 참조하세요.
 
@@ -29,33 +29,49 @@ Microsoft 365 환경에서 Multi-Geo 속성을 보고 구성하려면 원격 Pow
 
 일반적으로 Exchange Online PowerShell은 중앙 지리적 위치에 연결합니다. 그러나 위성 지리적 위치에 직접 연결할 수도 있습니다. 특정 위치의 사용자만 관리하는 경우 성능 개선을 위해 해당 위성 위치에 직접 연결할 것을 권장합니다.
 
-특정 지리적 위치에 연결하려는 경우 *ConnectionUri* 매개 변수가 일반 연결 지침과는 달라집니다. 나머지 명령과 값은 동일합니다. 그 단계는 다음과 같습니다.
+EXO V2 모듈을 설치하고 사용하는 데 필요한 사항에 대한 자세한 내용은 [EXO V2 모듈 설치 및 유지 관리](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module)를 참조하세요.
 
-1. 로컬 컴퓨터에서 Windows PowerShell을 열고 다음 명령을 실행합니다.
+Exchange Online PowerShell을 특정 지리적 위치에 연결 하려면 *Connectionuri* 매개 변수가 일반 연결 지침과 다릅니다. 나머지 명령과 값은 동일합니다.
+
+특히 `?email=<emailaddress>` _connectionuri_ 값의 끝에 값을 추가 해야 합니다. `<emailaddress>` 는 대상 지리적 위치에 있는 **모든** 사서함의 전자 메일 주소입니다. 해당 사서함에 대 한 사용 권한 또는 자격 증명과의 관계는 요인이 아닙니다. 전자 메일 주소는 Exchange Online PowerShell에 연결 하는 것을 간단 하 게 알려 줍니다.
+
+Microsoft 365 또는 Microsoft 365 GCC 고객은 일반적으로 _Connectionuri_ 매개 변수를 사용 하 여 Exchange Online PowerShell에 연결할 필요가 없습니다. 그러나 특정 지리적 위치에 연결 하려면 값에 _Connectionuri_ 매개 변수를 사용 해야 `?email=<emailaddress>` 합니다.
+
+### <a name="connect-to-a-geo-location-in-exchange-online-powershell-using-multi-factor-authentication-mfa"></a>MFA (multi-factor authentication)를 사용 하 여 Exchange Online PowerShell에서 지리적 위치에 연결
+
+1. Windows PowerShell 창에서 다음 명령을 실행하여 EXO V2 모듈을 로드합니다.
+
+   ```powershell
+   Import-Module ExchangeOnlineManagement
+   ```
+
+2. 다음 예제에서는 admin@contoso.onmicrosoft.com이 관리자 계정이 고, 대상 지리적 위치는 사서함 olga@contoso.onmicrosoft.com가 상주 합니다.
+
+  ```powershell
+  Connect-ExchangeOnline -UserPrincipalName admin@contoso.onmicrosoft.com -ShowProgress $true -ConnectionUri https://outlook.office365.com/powershell?email=olga@contoso.onmicrosoft.com
+  ```
+
+### <a name="connect-to-a-geo-location-in-exchange-online-powershell-without-using-mfa"></a>MFA를 사용 하지 않고 Exchange Online PowerShell에서 지리적 위치에 연결
+
+1. Windows PowerShell 창에서 다음 명령을 실행하여 EXO V2 모듈을 로드합니다.
+
+   ```powershell
+   Import-Module ExchangeOnlineManagement
+   ```
+
+2. 다음 명령을 실행합니다.
 
    ```powershell
    $UserCredential = Get-Credential
    ```
 
-   **Windows PowerShell 자격 증명 요청** 대화 상자에서 회사 또는 학교 계정 사용자 이름과 비밀번호를 입력한 다음, **확인**을 클릭합니다.
+   표시되는 **Windows PowerShell 자격 증명 요청** 대화 상자에서 회사 또는 학교 계정 사용자 이름과 비밀번호를 입력한 다음, **확인**을 클릭합니다.
 
-2. 대상 지리적 위치에서 `<emailaddress>`를 **원하는** 사서함의 이메일 주소로 바꾸고 다음 명령을 실행합니다. 1단계에서 사서함에 대한 권한과 자격 증명과의 관계는 요인이 아닙니다. 이메일 주소는 단지 연결할 위치를 Exchange Online에 알려줄 뿐입니다.
-  
-   ```powershell
-   $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell?email=<emailaddress> -Credential $UserCredential -Authentication  Basic -AllowRedirection
-   ```
-
-   예를 들어 olga@contoso.onmicrosoft.com이 연결할 지리적 위치의 유효한 사서함 전자 메일 주소인 경우 다음 명령을 실행합니다.
+3. 다음 예제에서는 사서함 olga@contoso.onmicrosoft.com가 상주 하는 위치에서 대상 지리적 위치를 지정 합니다.
 
    ```powershell
-   $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell?email=olga@contoso.onmicrosoft.com -Credential $UserCredential -Authentication  Basic -AllowRedirection
+   Connect-ExchangeOnline -Credential $UserCredential -ShowProgress $true -ConnectionUri https://outlook.office365.com/powershell?email=olga@contoso.onmicrosoft.com
    ```
-
-3. 다음 명령을 실행합니다.
-
-    ```powershell
-    Import-PSSession $Session
-    ```
 
 ## <a name="view-the-available-geo-locations-that-are-configured-in-your-exchange-online-organization"></a>Exchange Online 조직에서 구성된 사용 가능한 지리적 위치 보기
 
@@ -135,14 +151,13 @@ Set-MsolUser -UserPrincipalName michelle@contoso.onmicrosoft.com -PreferredDataL
 ```
 
 > [!NOTE]
+>
 > - 앞에서 설명한 것 처럼, 온-프레미스 Active Directory에서 동기화 된 사용자 개체에는이 절차를 사용할 수 없습니다. Active Directory에서 **PreferredDataLocation** 값을 변경하고 AAD Connect를 사용하여 동기화해야 합니다. 자세한 내용은 [Azure Active Directory Connect 동기화: Microsoft 365 리소스의 기본 데이터 위치 구성](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-preferreddatalocation)을 참조하세요.
-> 
+>
 > - 새로운 지리적 위치로 사서함 위치를 변경하는 데 걸리는 시간은 몇 가지 요인에 따라 달라집니다.
-> 
+>
 >   - 사서함 크기 및 유형
-> 
 >   - 이동 중인 사서함 수
-> 
 >   - 이동 리소스의 가용성
 
 ### <a name="move-disabled-mailboxes-that-are-on-litigation-hold"></a>사용하지 않도록 설정한 소송 보존 중인 사서함 이동
@@ -172,17 +187,11 @@ New-MsolUser -UserPrincipalName <UserPrincipalName> -DisplayName "<Display Name>
 이 예제에서는 다음 값을 사용하여 Elizabeth Brunner를 위한 새 사용자 계정을 만듭니다.
 
 - 사용자 계정 이름: ebrunner@contoso.onmicrosoft.com
-
 - 이름: Elizabeth
-
 - 성: Brunner
-
 - 표시할 이름: Elizabeth Brunner
-
 - 비밀번호: 임의로 생성되고 명령의 결과에 표시됨(*비밀번호* 매개 변수를 사용하지 않고 있기 때문)
-
 - 라이선스: `contoso:ENTERPRISEPREMIUM` (E5)
-
 - 위치: 오스트레일리아(AUS)
 
 ```powershell

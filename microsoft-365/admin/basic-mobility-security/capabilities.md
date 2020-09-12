@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 이동성 및 보안은 모바일 장치를 보호 하 고 관리 하는 데 도움이 됩니다.
-ms.openlocfilehash: a88afd539209d20046a778f8c6d16cadd51b5a9a
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+ms.openlocfilehash: aed4f4c2d252e487d24496ac00f3de24bc57ab55
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47430265"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545899"
 ---
 # <a name="capabilities-of-basic-mobility-and-security"></a>기본 이동성 및 보안 기능
 
@@ -166,9 +166,9 @@ Windows 10에 대 한 액세스 제어를 사용 하려면 Azure AD Premium이 �
 |이동식 저장소와 연결 차단 |예|예|아니요|
 |Bluetooth 연결 차단 |예|예|아니요|
 
-##  <a name="additional-settings"></a>추가 설정 
+## <a name="additional-settings"></a>추가 설정
 
-PowerShell cmdlet을 사용하여 다음 추가 정책 설정을 지정할 수 있습니다. 자세한 내용은 [Security & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps)를 참조 하세요.
+보안 & 준수 센터 PowerShell cmdlet을 사용 하 여 다음과 같은 추가 정책 설정을 지정할 수 있습니다. 자세한 내용은 [Security & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/scc-powershell)를 참조 하세요.
 
 |**설정 이름**|**iOS 7.1 이상**|**Android 5 이상**|
 |:-----|:-----|:-----|

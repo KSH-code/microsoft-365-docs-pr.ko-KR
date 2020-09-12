@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_TLGs
 description: 이 테스트 랩 가이드를 사용 하 여 권한 있는 액세스 관리 엔터프라이즈 테스트 환경용 Microsoft 365을 사용 하도록 설정 합니다.
-ms.openlocfilehash: 28fd27c3059fe25da5da8aaf8700b84c5989b408
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: d8d92aa86076e323e4b5bb5c8eb1385edcac420c
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695149"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545945"
 ---
 # <a name="privileged-access-management-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경용 Microsoft 365에 대 한 권한이 부여 된 액세스 관리
 
@@ -62,7 +62,7 @@ ms.locfileid: "46695149"
 
 ### <a name="test-ability-to-execute-a-task-not-defined-in-a-privileged-access-policy"></a>권한 있는 액세스 정책에 정의 되지 않은 작업을 실행 하는 테스트 기능
 
-먼저 테스트 환경에서 전역 관리자로 구성 된 사용자의 자격 증명을 사용 하 여 Exchange 관리 PowerShell에 연결한 다음 새 저널 규칙을 만들려고 합니다. [Set-journalrule](https://docs.microsoft.com/powershell/module/exchange/new-journalrule?view=exchange-ps) 작업은 현재 조직에 대해 권한이 부여 된 액세스 정책에 정의 되어 있지 않습니다.
+먼저 테스트 환경에서 전역 관리자로 구성 된 사용자의 자격 증명을 사용 하 여 Exchange 관리 PowerShell에 연결한 다음 새 저널 규칙을 만들려고 합니다. [Set-journalrule](https://docs.microsoft.com/powershell/module/exchange/new-journalrule) 작업은 현재 조직에 대해 권한이 부여 된 액세스 정책에 정의 되어 있지 않습니다.
 
 1. 로컬 컴퓨터에서 **Microsoft Corporation**  >  테스트 환경에 대 한 전역 관리자 계정을 사용 하 여 microsoft Corporation**microsoft exchange online 원격 powershell** 모듈에서 Exchange online 원격 powershell 모듈을 열고 로그인 합니다.
 
@@ -169,7 +169,7 @@ New-JournalRule -Name "JournalRule2" -Recipient user1@<your subscription domain>
 
 테스트 환경에서 추가 [정보 보호](m365-enterprise-test-lab-guides.md#information-protection) 기능에 대해 알아봅니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>다음 내용도 참조하십시오.
 
 [엔터프라이증용 Microsoft 365 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
 

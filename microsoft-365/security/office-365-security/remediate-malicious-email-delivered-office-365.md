@@ -4,7 +4,7 @@ author: msfttracyp
 ms.author: tracyp
 manager: dansimp
 ms.topic: article
-ms.service: Microsoft Threat Protection
+ms.service: O365-seccomp
 audience: admin
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 위협 수정
 appliesto:
 - Microsoft Threat Protection
-ms.openlocfilehash: 44f20b29dcc88b1d991f9e93929aacc0e8aece32
-ms.sourcegitcommit: c76c025fe75cd9c06eccbf9c7fc887b09da36659
+ms.openlocfilehash: 2542f7af8a34088a79aae8a14f7ccdb8ea8fd121
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46903886"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547243"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>Office 365에서 제공 되는 악성 전자 메일 재구성
 
@@ -39,7 +39,6 @@ ms.locfileid: "46903886"
 |위협 탐색기 (및 실시간 검색)를 사용 하 여 위협 분석 |전역 관리자 <br> 보안 관리자 <br> 보안 읽기 권한자|아니요|
 |위협 탐색기 (및 실시간 검색)를 사용 하 여 전자 메일 메시지에 대 한 헤더 보기 및 격리 된 전자 메일 메시지 미리 보기 및 다운로드|전역 관리자 <br> 보안 관리자 <br>보안 읽기 권한자|아니요|
 |위협 탐색기를 사용 하 여 머리글 보기 및 사서함으로 배달 된 전자 메일 메시지 다운로드|전역 관리자 <br>보안 관리자 <br> 보안 읽기 권한자 <br> 미리 보기|예|
-
 
 > [!NOTE]
 > 미리 보기는 역할 *그룹이*아니라 *역할*입니다. 미리 보기 역할은 Office 365의 기존 역할 그룹에 추가 해야 합니다. *전역 관리자 역할* 은 [Microsoft 365 관리 센터](https://admin.microsoft.com)에서 할당 됩니다. 보안 관리자 및 보안 독자 역할은 [보안 및 준수 센터](https://protection.office.com)에 할당 됩니다. 역할 및 사용 권한에 대 한 자세한 내용은 [보안 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
