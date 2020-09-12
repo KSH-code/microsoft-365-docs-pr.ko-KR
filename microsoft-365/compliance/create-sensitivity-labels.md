@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: '모든 Microsoft Information Protection 솔루션에 대한 요구 사항: 조직의 문서와 전자 메일을 분류하고 보호하기 위해 민감도 레이블을 생성, 구성 및 게시합니다.'
-ms.openlocfilehash: 77d0f99a3e35a62b001395d7491f45d84e95cbd3
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 71e7724873a783f72e8a4088e85f82be68ae75f8
+ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560513"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47427007"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책 생성 및 구성
 
@@ -71,7 +71,7 @@ ms.locfileid: "46560513"
 
 기존 레이블을 편집하려면 해당 레이블을 선택하고 **레이블 편집** 단추를 선택합니다.
 
-![민감도 레이블 편집하기](../media/edit-sensitivity-label-full.png)
+![레이블 단추를 편집하여 민감도 레이블 편집](../media/edit-sensitivity-label-full.png)
 
 이 단추를 선택하면 3단계에서 모든 레이블 설정을 변경할 수 있는 **민감도 레이블 편집** 마법사가 시작됩니다.
 
@@ -87,7 +87,7 @@ ms.locfileid: "46560513"
 
 ### <a name="additional-label-settings-with-security--compliance-center-powershell"></a>보안 및 준수 센터 PowerShell를 이용한 추가 레이블 설정
 
-추가 레이블 설정은 [보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps)에서 [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label?view=exchange-ps) cmdlet으로 사용할 수 있습니다.
+추가 레이블 설정은 [보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell)에서 [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label) cmdlet으로 사용할 수 있습니다.
 
 예시:
 
@@ -107,7 +107,7 @@ Azure Information Protection 통합 레이블 클라이언트의 경우, 레이�
 
 지원해야 하는 언어의 경우에는 Office [언어 식별자](https://docs.microsoft.com/deployoffice/office2016/language-identifiers-and-optionstate-id-values-in-office-2016#language-identifiers)(언어 태그라고도 함)를 사용하여 레이블 이름 및 도구 설명에 대한 고유한 번역을 지정할 수 있습니다.
 
-PowerShell에서 명령을 실행하기 전에 먼저 [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)해야 합니다.
+PowerShell에서 명령을 실행하기 전에 먼저 [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)해야 합니다.
 
 
 ```powershell
@@ -178,22 +178,22 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>보안 및 준수 센터 PowerShell를 이용한 추가 레이블 정책 설정
 
-추가 레이블 정책 설정은 [보안 및 규정 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps)에서 [Set-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-labelpolicy?view=exchange-ps) cmdlet으로 사용할 수 있습니다.
+추가 레이블 정책 설정은 [보안 및 규정 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell)에서 [Set-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-labelpolicy) cmdlet으로 사용할 수 있습니다.
 
 Azure Information Protection 통합 레이블 지정 클라이언트의 경우에만, Outlook에 대해 다양한 기본 레이블 설정이 포함된 [고급 설정](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)을 지정하고, Outlook에서 보내는 전자 메일에 대해 경고, 정렬 또는 차단하는 팝업 메시지를 구현할 수 있습니다. 전체 목록을 보려면 이 클라이언트의 관리자 가이드에서 [레이블 정책에 사용 가능한 고급 설정](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-label-policies)을 참조하세요.
 
 ## <a name="use-powershell-for-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책에 PowerShell 사용
 
-이제 [보안 및 규정 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps)에서 레이블 지정 관리 센터에 표시되는 모든 설정을 만들고 구성할 수 있습니다. 레이블 지정 관리 센터에서 사용할 수 없는 설정에 대해 PowerShell을 사용하는 것 외에, 이제 민감도 레이블 및 민감도 레이블 정책의 만들기 및 유지 보수를 전체적으로 스크립팅할 수 있습니다.  
+이제 [보안 및 규정 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell)에서 레이블 지정 관리 센터에 표시되는 모든 설정을 만들고 구성할 수 있습니다. 레이블 지정 관리 센터에서 사용할 수 없는 설정에 대해 PowerShell을 사용하는 것 외에, 이제 민감도 레이블 및 민감도 레이블 정책의 만들기 및 유지 보수를 전체적으로 스크립팅할 수 있습니다.  
 
 지원되는 매개 변수와 값에 대한 자세한 내용은 다음 문서를 참조하세요.
 
-- [New-Label](https://docs.microsoft.com/powershell/module/exchange/new-label?view=exchange-ps)
-- [New-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/new-labelpolicy?view=exchange-ps)
-- [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label?view=exchange-ps)
-- [Set-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-labelpolicy?view=exchange-ps)
+- [New-Label](https://docs.microsoft.com/powershell/module/exchange/new-label)
+- [New-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/new-labelpolicy)
+- [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label)
+- [Set-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-labelpolicy)
 
-민감도 레이블 또는 민감도 레이블 정책의 삭제를 스크립팅해야 하는 경우에는 [Remove-Label](https://docs.microsoft.com/powershell/module/exchange/remove-label?view=exchange-ps) 및 [Remove-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-labelpolicy?view=exchange-ps)를 사용할 수 있습니다. 그러나 민감도 레이블을 삭제하기 전에 다음 섹션을 참조하세요.
+민감도 레이블 또는 민감도 레이블 정책의 삭제를 스크립팅해야 하는 경우에는 [Remove-Label](https://docs.microsoft.com/powershell/module/exchange/remove-label) 및 [Remove-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-labelpolicy)를 사용할 수 있습니다. 그러나 민감도 레이블을 삭제하기 전에 다음 섹션을 참조하세요.
 
 ## <a name="removing-and-deleting-labels"></a>레이블 제거 및 삭제
 

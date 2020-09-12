@@ -4,7 +4,7 @@ description: Microsoft 기술 참고 자료 — 삭제 요청 제출용 FastTrac
 keywords: FastTrack 마이그레이션, Microsoft 365 Education, Microsoft 365 설명서, GDPR
 localization_priority: Priority
 Robots: NOFOLLOW,NOINDEX
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 7e4f7fb72d6fb2b84c85ecb55301fc2024630f58
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 162a64535f82f24411121ed81e36078511eb8eba
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632489"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416914"
 ---
 # <a name="fasttrack-migration-toolset-for-submitting-delete-request"></a>삭제 요청 제출용 FastTrack 마이그레이션 도구 집합
 
@@ -73,7 +73,7 @@ Microsoft는 Windows 플랫폼 및 PowerShell 콘솔에서 이 도구 집합의 
 
 DSR을 제출하려면 먼저 Office 365 자격 증명을 사용하여 로그인해야 합니다 — 적절한 자격 증명을 입력하면 전역 관리자 상태의 유효성을 검사하고 테넌트 정보를 수집할 수 있습니다. 
 
-**Login-FastTrackAccount -ApiKey: \<FastTrack MVM에서 제공하는 API Key\>**
+**Login-FastTrackAccount -ApiKey: \<API Key provided by FastTrack MVM\>**
 
 성공적으로 로그인하면 현재 PowerShell 세션의 나머지에 대해 FastTrack 모듈과 함께 사용하기 위해 자격 증명 및 키가 저장됩니다.
 
