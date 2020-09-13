@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft 365 Compliance
-ms.openlocfilehash: 7ebb2673d1d275075cf32cd18996837ec4024622
-ms.sourcegitcommit: b144e8ba1ab0c40fa7e0e8e893b5cb44aa2d8243
+ms.openlocfilehash: 27c4d4603396089cb58cfed192f09d0db70cac5a
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47282606"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547588"
 ---
 # <a name="supervision-policies"></a>감독 정책
 
@@ -143,7 +143,7 @@ Office 365의 감독 정보에 대 한 자세한 내용은 [Microsoft 365 로드
 
 #### <a name="custom-keyword-dictionaries"></a>사용자 지정 키워드 사전
 
-사용자 지정 키워드 사전 (또는 lexicons)을 구성 하 여 조직 또는 업계와 관련 된 키워드에 대 한 간단한 관리를 제공 합니다. 키워드 사전은 사전의 최대 = 100KB (기둥 압축)을 지원 하며 모든 언어를 지원 합니다. 또한 테 넌 트 제한은 압축 후에도 = 100KB. 필요한 경우 단일 정책에 여러 사용자 지정 키워드 사전을 적용 하거나 정책 당 하나의 키워드 사전을 사용할 수 있습니다. 이러한 사전은 감독 정책에 할당 되며, 파일 (예: .csv 또는 .txt 목록) 또는 [준수 센터에서 가져올](create-a-keyword-dictionary.md)수 있는 목록에서 원본으로 사용할 수 있습니다.
+사용자 지정 키워드 사전 (또는 lexicons)을 구성 하 여 조직 또는 업계와 관련 된 키워드에 대 한 간단한 관리를 제공 합니다. 키워드 사전은 사전의 최대 = 100KB (기둥 압축)을 지원 하며 모든 언어를 지원 합니다. 테넌트 제한도 압축 후에 100KB가 됩니다. 필요한 경우 단일 정책에 여러 사용자 지정 키워드 사전을 적용 하거나 정책 당 하나의 키워드 사전을 사용할 수 있습니다. 이러한 사전은 감독 정책에 할당 되며, 파일 (예: .csv 또는 .txt 목록) 또는 [준수 센터에서 가져올](create-a-keyword-dictionary.md)수 있는 목록에서 원본으로 사용할 수 있습니다.
 
 #### <a name="offensive-language"></a>비속어
 
@@ -301,7 +301,7 @@ Search-UnifiedAuditLog -StartDate 3/1/2019 -EndDate ([System.DateTime]::Now) -Re
 Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -Operations SupervisionPolicyCreated,SupervisionPolicyUpdated,SupervisionPolicyDeletedAuditData
 ```
 
-[SupervisoryReviewActivity](https://docs.microsoft.com/powershell/module/exchange/get-supervisoryreviewactivity?view=exchange-ps) PowerShell cmdlet을 사용 하 여 감독 보고서 및 로그에 제공 되는 정보 뿐 아니라 모든 감독 정책 작업의 전체 세부 목록을 반환할 수도 있습니다.
+[SupervisoryReviewActivity](https://docs.microsoft.com/powershell/module/exchange/get-supervisoryreviewactivity) PowerShell cmdlet을 사용 하 여 감독 보고서 및 로그에 제공 되는 정보 뿐 아니라 모든 감독 정책 작업의 전체 세부 목록을 반환할 수도 있습니다.
 
 ## <a name="ready-to-get-started"></a>시작할 준비가 되셨습니까?
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 핵심 eDiscovery 사례와 연결 된 보류를 만들어 조사와 관련이 있을 수 있는 콘텐츠를 보존할 수 있습니다.
-ms.openlocfilehash: d68ca8a15713e20184e39af447cb03ccb5c9e7d7
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: bf04fd0f0637247e4637b5d3fce82f911ca51f0e
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46798064"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546884"
 ---
 # <a name="create-an-ediscovery-hold"></a>eDiscovery 보존 만들기
 
@@ -151,7 +151,7 @@ EDiscovery 보존에 팀 및 Office 365 그룹을 둘 다 배치할 때는 다�
 
 - 앞에서 설명한 것 처럼 팀 및 Office 365 그룹에 있는 콘텐츠를 보류 상태로 설정 하려면 그룹 또는 팀과 연결 된 사서함 및 SharePoint 사이트를 지정 해야 합니다.
 
-- [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) 에서 **remove-unifiedgroup** cmdlet을 실행 하 여 팀 및 Office 365 그룹의 속성을 볼 수 있습니다. 이 방법을 사용 하면 팀 또는 Office 365 그룹과 연결 된 사이트의 URL을 가져올 수 있습니다. 예를 들어 다음 명령을 실행하면 Senior Leadership Team이라는 Office 365 그룹의 선택된 속성이 표시됩니다.
+- [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) 에서 **remove-unifiedgroup** cmdlet을 실행 하 여 팀 및 Office 365 그룹의 속성을 볼 수 있습니다. 이 방법을 사용 하면 팀 또는 Office 365 그룹과 연결 된 사이트의 URL을 가져올 수 있습니다. 예를 들어 다음 명령을 실행하면 Senior Leadership Team이라는 Office 365 그룹의 선택된 속성이 표시됩니다.
 
     ```text
     Get-UnifiedGroup "Senior Leadership Team" | FL DisplayName,Alias,PrimarySmtpAddress,SharePointSiteUrl

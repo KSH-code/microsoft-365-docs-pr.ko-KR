@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 28d47ae30d47430744729705d9ace2e1ea0a6b97
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 8c4b136f30da0499b31102683f1a903e71813142
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419171"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547228"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
 
@@ -62,11 +62,11 @@ ms.locfileid: "47419171"
 
 정책을 구성 하기 전에 각 보호 계층에 사용 중인 Azure AD 그룹을 확인 합니다. 일반적으로 기본 보호는 조직의 모든 사람에 게 적용 됩니다. 기준 및 중요 보호 둘 다에 포함 된 사용자는 모든 기본 정책이 적용 되 고 중요 한 정책도 함께 제공 됩니다. 보호는 누적 되며 가장 제한적인 정책이 적용 됩니다. 
 
-조건부 액세스 제외를 위해 Azure AD 그룹을 만드는 것이 좋습니다. **지정** 섹션에 있는 **사용자 및 그룹** 설정의 **제외** 값에서 모든 조건부 액세스 규칙에이 그룹을 추가 합니다. 이렇게 하면 액세스 문제를 해결 하는 동안 사용자에 게 액세스 권한을 제공 하는 방법이 제공 됩니다. 이 방법은 임시 솔루션 으로만 권장 됩니다. 이 그룹에서 변경 사항을 모니터링 하 고 제외 그룹이 의도 한 대로 사용 되 고 있는지 확인해 보십시오. 
+조건부 액세스 제외를 위해 Azure AD 그룹을 만드는 것이 좋습니다. **지정** 섹션에 있는 **사용자 및 그룹** 설정의 **제외** 값에서 모든 조건부 액세스 정책에이 그룹을 추가 합니다. 이렇게 하면 액세스 문제를 해결 하는 동안 사용자에 게 액세스 권한을 제공 하는 방법이 제공 됩니다. 이 방법은 임시 솔루션 으로만 권장 됩니다. 이 그룹에서 변경 사항을 모니터링 하 고 제외 그룹이 의도 한 대로 사용 되 고 있는지 확인해 보십시오. 
 
 다음은 MFA를 요구 하기 위한 그룹 할당 및 제외의 예입니다.
 
-![MFA 규칙에 대 한 그룹 할당 및 제외 예](../media/microsoft-365-policies-configurations/identity-access-policies-assignment.png)
+![MFA 정책에 대 한 그룹 할당 및 제외 예](../media/microsoft-365-policies-configurations/identity-access-policies-assignment.png)
 
 결과는 다음과 같습니다.
 
@@ -82,7 +82,7 @@ ms.locfileid: "47419171"
 
 그룹 및 사용자에 게 더 높은 수준의 보호를 적용할 때는 주의 해야 합니다. 예를 들어 상위 보안 프로젝트 X 그룹의 구성원은 Project X에 대 한 높은 규제 된 콘텐츠에서 작업을 수행 하 고 있지 않더라도 로그인 할 때마다 MFA를 사용 해야 합니다.  
 
-이러한 권장 사항의 일부로 만들어진 모든 Azure AD 그룹은 Microsoft 365 그룹으로 만들어야 합니다. 이는 Microsoft 팀 및 SharePoint Online에서 문서를 보호할 때 민감도 레이블을 배포 하는 데 중요 합니다.
+이러한 권장 사항의 일부로 만들어진 모든 Azure AD 그룹은 Microsoft 365 그룹으로 만들어야 합니다. 이는 Microsoft 팀 및 SharePoint에서 문서를 보호할 때 민감도 레이블을 배포 하는 데 중요 합니다.
 
 ![Microsoft 365 그룹을 만드는 화면 캡처](../media/microsoft-365-policies-configurations/identity-device-AAD-groups.png)
 
@@ -105,7 +105,7 @@ ms.locfileid: "47419171"
 |:---|:---------|:-----|:----|
 |사용자 및 그룹|포함| 사용자와 그룹 > 사용자 및 그룹을 선택 합니다. 대상 지정 된 사용자 계정을 포함 하는 특정 그룹 **을**선택 합니다. |파일럿 사용자 계정을 포함 하는 그룹으로 시작 합니다.|
 ||제외| **사용자 및 그룹**: 조건부 액세스 예외 그룹을 선택 합니다. 서비스 계정 (앱 id)|멤버 자격은 필요에 따라 임시로 수정 해야 합니다.|
-|클라우드 앱 또는 작업| **포함 > 클라우드 앱** | **앱**:이 규칙을 적용할 앱을 선택 합니다. 예를 들어 Exchange Online을 선택 합니다.||
+|클라우드 앱 또는 작업| **포함 > 클라우드 앱** | **앱**:이 정책을 적용할 앱을 선택 합니다. 예를 들어 Exchange Online을 선택 합니다.||
 |조건| | |사용자 환경 및 요구 사항에 맞는 조건을 구성 합니다.|
 ||로그인 위험||다음 표의 지침을 참조 하십시오.|
 |||||
@@ -194,6 +194,8 @@ ms.locfileid: "47419171"
 
 [If](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) 도구를 사용 하 여 정책을 테스트 하는 것이 좋습니다.
 
+이 정책을 [AZURE AD 암호 보호 구성과](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad)함께 사용 하 여 알려진 약한 암호와 해당 변형 및 조직과 관련 된 추가 약한 용어를 감지 하 고 차단 합니다. Azure AD 암호 보호를 사용 하면 변경 된 암호가 강력한 암호를 확인할 수 있습니다.
+
 ## <a name="apply-app-data-protection-policies"></a>앱 데이터 보호 정책 적용
 
 앱 (응용 프로그램 보호 정책)은 허용 되는 앱과 조직 데이터로 수행할 수 있는 작업을 정의 합니다. 앱에서 제공 하는 선택 사항에 따라 조직에서 특정 요구에 맞게 보호를 조정할 수 있습니다. 어떤 경우에는 전체 시나리오를 구현 하는 데 어떤 정책 설정이 필요한 지 명확 하지 않을 수 있습니다. 조직이 모바일 클라이언트 끝점 강화를 우선 순위를 지정 하는 데 도움이 되도록 Microsoft는 iOS 및 Android 모바일 앱 관리를 위한 앱 데이터 보호 프레임 워크에 대 한 분류를 도입 했습니다. 
@@ -221,11 +223,11 @@ Microsoft Endpoint Manager에서 데이터 보호 프레임 워크 설정을 사
 
 ## <a name="require-approved-apps-and-app-protection"></a>승인 된 앱 및 앱 보호 필요
 
-Intune에서 적용 한 앱 보호 정책을 적용 하려면 승인 된 클라이언트 앱을 요구 하 고 앱 보호 정책에 설정 되는 조건이 필요한 조건부 액세스 규칙을 만들어야 합니다. 
+Intune에서 적용 한 앱 보호 정책을 적용 하려면 승인 된 클라이언트 앱이 필요한 조건부 액세스 정책을 만들고 앱 보호 정책에서 설정 해야 합니다. 
 
 앱 보호 정책을 적용 하려면 requires 앱 [보호 정책에 조건부 액세스를 사용한 클라우드 앱 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)에 설명 된 정책 집합이 필요 합니다. 이러한 정책은 이러한 권장 되는 id 및 액세스 구성 정책 집합에 포함 됩니다.
 
-승인 된 앱 및 앱 365 보호가 필요한 조건부 액세스 규칙을 만들려면 [시나리오 1: microsoft 365 앱에는 승인 된 앱 (앱 보호 정책 포함](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies))이 필요 하며,이 정책은 Outlook for IOS 및 Android를 허용 하지만 OAuth 가능 exchange ActiveSync 클라이언트는 exchange Online에 연결 하는 것을 차단 합니다.
+승인 된 앱 및 앱 보호가 필요한 조건부 액세스 정책을 만들려면 [시나리오 1: microsoft 365 앱에 승인 365 된 앱 (앱 보호 정책 포함](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies))이 필요 하며,이 정책은 Outlook for IOS 및 Android를 허용 하지만 OAuth 가능 exchange ActiveSync 클라이언트는 exchange Online에 연결 하는 것을 차단 합니다.
 
    > [!NOTE]
    > 이 정책은 모바일 사용자가 해당 앱을 사용 하 여 모든 Office 끝점에 액세스할 수 있도록 합니다.
@@ -234,7 +236,7 @@ Exchange Online에 대 한 모바일 액세스를 사용 하도록 설정 하는
 
  이러한 정책은 부여 컨트롤을 활용 하 여 [승인 된 클라이언트 앱을 필요로](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-approved-client-app) 하며 [앱 보호 정책이 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy)합니다.
 
-마지막으로 iOS 및 Android 장치에서 다른 클라이언트 앱에 대해 레거시 인증을 차단 하면 이러한 클라이언트가 조건부 액세스 규칙을 무시할 수 없습니다. 이 문서의 지침을 팔 로우 하는 경우에 [는 최신 인증을 지원 하지 않는 클라이언트](#block-clients-that-dont-support-modern-authentication)에 대 한 차단이 이미 구성 되어 있습니다.
+마지막으로 iOS 및 Android 장치에서 다른 클라이언트 앱에 대해 레거시 인증을 차단 하면 이러한 클라이언트가 조건부 액세스 정책을 무시할 수 없습니다. 이 문서의 지침을 팔 로우 하는 경우에 [는 최신 인증을 지원 하지 않는 클라이언트](#block-clients-that-dont-support-modern-authentication)에 대 한 차단이 이미 구성 되어 있습니다.
 
 <!---
 With Conditional Access, organizations can restrict access to approved (modern authentication capable) iOS and Android client apps with Intune app protection policies applied to them. Several Conditional Access policies are required, with each policy targeting all potential users. Details on creating these policies can be found in [Require app protection policy for cloud app access with Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access).

@@ -7,16 +7,16 @@ author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
-ms.service: o365-seccomp
+ms.service: O365-seccomp
 localization_priority: Normal
 description: 포함 된 내용, 가져오는 방법 및 다음 단계를 포함 하 여 Microsoft 365 솔루션 카탈로그에 대해 알아봅니다.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: c2fad2726b7e923f871c0307f17f28ea3f99b1bd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f396801d4241b06c5523e4f3312c9ce597ac015e
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637950"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547566"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Microsoft 365 솔루션 카탈로그
 
@@ -77,19 +77,19 @@ Microsoft 365의 규정 준수 솔루션은 종단 간 규정 준수 시나리�
 
 ## <a name="how-do-i-get-this"></a>이를 어떻게 얻을 수 있나요?
 
-Microsoft 365 솔루션 카탈로그를 방문 하려면로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 이동 하 고 전역 관리자, 준수 관리자 또는 준수 데이터 관리자로 로그인 합니다. 화면 왼쪽의 탐색 창에서 **카탈로그** 를 선택 하 여 카탈로그 홈 페이지를 엽니다.
+Microsoft 365 솔루션 카탈로그를 방문 하려면로 이동 하 [https://compliance.microsoft.com](https://compliance.microsoft.com) 고 전역 관리자, 준수 관리자 또는 준수 데이터 관리자로 로그인 합니다. 화면 왼쪽의 탐색 창에서 **카탈로그** 를 선택 하 여 카탈로그 홈 페이지를 엽니다.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 **Microsoft 365 솔루션 카탈로그가 표시 되지 않는 이유는 무엇 인가요?**
 
-먼저 적절 한 라이선스 및 사용 권한이 있는지 확인 합니다. 그런 다음 전역 관리자, [https://compliance.microsoft.com](https://compliance.microsoft.com) 준수 관리자 또는 준수 데이터 관리자 권한으로 로그인 합니다.
+먼저 적절 한 라이선스 및 사용 권한이 있는지 확인 합니다. 그런 다음 [https://compliance.microsoft.com](https://compliance.microsoft.com) 전역 관리자, 준수 관리자 또는 준수 데이터 관리자 권한으로 로그인 합니다.
 
 **솔루션 카탈로그 페이지에 나열 된 규정 준수 기능 중 일부는 Microsoft 365 준수 센터에서 사용할 수 없습니다. 뭐 할까요?**
 
 항상 Microsoft 365 준수 센터 및 솔루션 카탈로그에 새로운 기능을 추가 하는 작업을 수행 하 고 있습니다. 탐색 영역에서 특정 솔루션을 찾을 수 없으면 해당 솔루션을 구독에서 사용할 수 있는 경우 액세스할 수 있게 됩니다.
 
-기존 준수 솔루션을 찾고 있지만 Microsoft 365 준수 센터에서는 아직 사용 하지 않는 경우에 &amp; [https://protection.office.com](https://protection.office.com)는 기존 보안 준수 센터에서 언제 든 지 솔루션에 액세스할 수 있습니다. 또는 Microsoft 365 준수 센터의 왼쪽 탐색 창에 있는 **기타 리소스** 탭을 클릭 하 고 Office 365 보안 및 준수 센터 카드를 선택할 수 있습니다.  
+기존 준수 솔루션을 찾고 있지만 Microsoft 365 준수 센터에서는 아직 사용 하지 않는 경우에는 기존 보안 준수 센터에서 언제 든 지 솔루션에 액세스할 수 있습니다 &amp; [https://protection.office.com](https://protection.office.com) . 또는 Microsoft 365 준수 센터의 왼쪽 탐색 창에 있는 **기타 리소스** 탭을 클릭 하 고 Office 365 보안 및 준수 센터 카드를 선택할 수 있습니다.  
 
 ## <a name="next-steps"></a>다음 단계
 

@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1d463dda-a3b5-4675-95d4-83db19c9c4a3
 description: Office 365의 보안 & 준수 센터에서 PowerShell 스크립트를 통해 검색을 만들고 보고서를 실행 하는 등의 콘텐츠 검색 작업을 자동화 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0412c0d217603acb4e200e3ccd62a7748610297e
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: c467b8ebc5ad3171347b23cad47f563b3634ee29
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357588"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546864"
 ---
 # <a name="create-report-on-and-delete-multiple-content-searches"></a>여러 콘텐츠 검색 만들기, 보고하기 및 삭제
 
@@ -77,7 +77,7 @@ ms.locfileid: "47357588"
 
 ## <a name="step-2-connect-to-security--compliance-center-powershell"></a>2단계: 보안 및 준수 센터 PowerShell에 연결
 
-다음 단계에서는 조직의 보안 및 준수 센터 PowerShell에 연결합니다. 단계별 지침은 [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)를 참조하세요.
+다음 단계에서는 조직의 보안 및 준수 센터 PowerShell에 연결합니다. 단계별 지침은 [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)를 참조하세요.
 
 ## <a name="step-3-run-the-script-to-create-and-start-the-searches"></a>3 단계: 스크립트를 실행 하 여 검색 만들기 및 시작
 

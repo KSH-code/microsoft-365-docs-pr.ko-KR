@@ -2,7 +2,7 @@
 title: Microsoft Managed Desktop 문서 변경 기록
 description: 이 문서에서는 Microsoft Managed Desktop의 새로운 문서와 업데이트 된 문서가 나와 있습니다.
 keywords: 변경 내용
-ms.prod: m365-md
+ms.service: m365-md
 ms.sitesec: library
 author: jaimeo
 ms.topic: article
@@ -13,12 +13,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: f1606e62813aa63225113b38414338c4e2ff7d57
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: a483a03fc913a019f58e80fb2713bb0367a6db44
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405680"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546273"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 문서 변경 기록
 

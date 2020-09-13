@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 for Exchange Online, 비즈니스용 Skype, SharePoint Online, 비즈니스용 OneDrive 및 팀 파일에 대 한 고객 키를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 94403e1d76fbc6fdf06d784fbb7bb9025dc06fc0
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+ms.openlocfilehash: 8181ccfc988a10813f13e0b61d15f83eef57db76
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324214"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546760"
 ---
 # <a name="set-up-customer-key"></a>고객 키 설정
 
@@ -197,7 +197,7 @@ Microsoft 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각
    Set-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user> -PermissionsToKeys create,import,list,get,backup,restore
    ```
 
-   예를 들어,
+   예시:
 
    ```powershell
    Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
@@ -321,7 +321,7 @@ Backup-AzKeyVaultKey -VaultName <vault name> -Name <key name>
 > [!TIP]
 > 출력 파일의 경우 자격 증명 모음 이름 및 키 이름을 조합 하 여 선택 합니다. 이렇게 하면 파일 이름이 자체 설명 됩니다. 또한 백업 파일 이름이 충돌 하지 않도록 해야 합니다.
   
-예를 들어,
+예시:
   
 ```powershell
 Backup-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -OutputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
@@ -402,7 +402,7 @@ DEP는 Azure Key Vault에 저장 된 키 집합과 연결 됩니다. Microsoft 3
   
 DEP를 만들려면 다음 단계를 수행 합니다.
   
-1. 로컬 컴퓨터에서 조직에 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 Windows PowerShell 창에서 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) 합니다.
+1. 로컬 컴퓨터에서 조직에 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 Windows PowerShell 창에서 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) 합니다.
 
 2. DEP를 만들려면 다음 명령을 입력 하 여 새-DataEncryptionPolicy cmdlet을 사용 합니다.
 
@@ -486,7 +486,7 @@ DEP를 만들려면 Windows PowerShell을 사용 하 여 SharePoint Online에 �
 
 ### <a name="validate-file-encryption"></a>파일 암호화 확인
 
- SharePoint Online, 비즈니스용 OneDrive 및 팀 파일의 암호화를 확인 하려면 [Sharepoint Online PowerShell에 연결한](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)다음 SPODataEncryptionPolicy cmdlet을 사용 하 여 테 넌 트의 상태를 확인 합니다. 고객 키 암호화가 사용 되 고 모든 사이트의 모든 파일이 암호화 된 경우 _State_ 속성은 **등록** 된 값을 반환 합니다. 암호화가 아직 진행 중인 경우이 cmdlet은 완료 된 사이트 비율에 대 한 정보를 제공 합니다.
+ SharePoint Online, 비즈니스용 OneDrive 및 팀 파일의 암호화를 확인 하려면 [Sharepoint Online PowerShell에 연결한](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)다음 SPODataEncryptionPolicy cmdlet을 사용 하 여 테 넌 트의 상태를 확인 합니다. 고객 키 암호화가 사용 되 고 모든 사이트의 모든 파일이 암호화 된 경우 _State_ 속성은 **등록** 된 값을 반환 합니다. 암호화가 아직 진행 중인 경우이 cmdlet은 완료 된 사이트 비율에 대 한 정보를 제공 합니다.
 
 ## <a name="related-articles"></a>관련 문서
 

@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 고객 키를 설정한 후에는 AKV 키를 복원 하 고 사용 권한 및 데이터 암호화 정책을 관리 하 여이를 관리 하는 방법을 알아봅니다.
-ms.openlocfilehash: 8f5f23fa1b8ce8baa8fafd3f29ca5fb8905887a1
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+ms.openlocfilehash: de85edd5c53fc2b76be4361575e1a85655c0f297
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324260"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547088"
 ---
 # <a name="manage-customer-key"></a>고객 키 관리
 
@@ -32,7 +32,7 @@ Office 365에 대 한 고객 키를 설정한 후에는이 문서에 설명 된 
 Restore-AzKeyVaultKey -VaultName <vault name> -InputFile <filename>
 ```
 
-예를 들어,
+예시:
   
 ```powershell
 Restore-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
@@ -50,7 +50,7 @@ Restore-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O3
 Get-AzKeyVault -VaultName <vault name>
 ```
 
-예를 들어,
+예시:
 
 ```powershell
 Get-AzKeyVault -VaultName Contoso-O365EX-NA-VaultA1
@@ -62,7 +62,7 @@ Get-AzKeyVault -VaultName Contoso-O365EX-NA-VaultA1
 Remove-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user>
 ```
 
-예를 들어,
+예시:
 
 ```powershell
 Remove-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com
@@ -80,7 +80,7 @@ Remove-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipa
 
 Get-DataEncryptionPolicy PowerShell cmdlet을 사용 하 여 Exchange Online 및 비즈니스용 Skype 용으로 만든 모든 DEPs의 목록을 확인 하려면 다음 단계를 완료 하세요.
 
-1. 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)합니다.
+1. 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)합니다.
 
 2. 조직의 모든 DEPs를 반환 하려면 매개 변수를 사용 하지 않고 Get-Data과 Policy cmdlet을 실행 합니다.
 
@@ -88,7 +88,7 @@ Get-DataEncryptionPolicy PowerShell cmdlet을 사용 하 여 Exchange Online 및
    Get-DataEncryptionPolicy
    ```
 
-   Get-data과 Policy cmdlet에 대 한 자세한 내용은 [get-data과 policy](https://docs.microsoft.com/powershell/module/exchange/get-dataencryptionpolicy?view=exchange-ps)를 참조 하십시오.
+   Get-data과 Policy cmdlet에 대 한 자세한 내용은 [get-data과 policy](https://docs.microsoft.com/powershell/module/exchange/get-dataencryptionpolicy)를 참조 하십시오.
 
 ### <a name="assign-a-dep-before-you-migrate-a-mailbox-to-the-cloud"></a>클라우드로 사서함을 마이그레이션하기 전에 DEP를 할당 합니다.
 
@@ -96,7 +96,7 @@ DEP를 할당 하면 Microsoft 365는 마이그레이션 중에 할당 된 DEP�
 
 Office 365로 마이그레이션하기 전에 사서함에 DEP를 할당 하려면 Exchange Online PowerShell에서 설정-MailUser cmdlet을 실행 합니다.
 
-1. 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)합니다.
+1. 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)합니다.
 
 2. 설정-MailUser cmdlet을 실행 합니다.
 
@@ -104,19 +104,19 @@ Office 365로 마이그레이션하기 전에 사서함에 DEP를 할당 하려�
    Set-MailUser -Identity <GeneralMailboxOrMailUserIdParameter> -DataEncryptionPolicy <DataEncryptionPolicyIdParameter>
    ```
 
-   여기서 *GeneralMailboxOrMailUserIdParameter* 는 사서함을 지정 하 고 *Dataencryptionpolicyidparameter* 는 DEP의 ID입니다. 설정-MailUser cmdlet에 대 한 자세한 내용은 [설정-MailUser](https://docs.microsoft.com/powershell/module/exchange/set-mailuser?view=exchange-ps)를 참조 하십시오.
+   여기서 *GeneralMailboxOrMailUserIdParameter* 는 사서함을 지정 하 고 *Dataencryptionpolicyidparameter* 는 DEP의 ID입니다. 설정-MailUser cmdlet에 대 한 자세한 내용은 [설정-MailUser](https://docs.microsoft.com/powershell/module/exchange/set-mailuser)를 참조 하십시오.
 
 ### <a name="determine-the-dep-assigned-to-a-mailbox"></a>사서함에 할당 된 DEP 확인
 
 사서함에 할당 된 DEP를 확인 하려면 Get-mailboxstatistics cmdlet을 사용 합니다. Cmdlet은 고유 식별자 (GUID)를 반환 합니다.
   
-1. 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)합니다.
+1. 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)합니다.
 
    ```powershell
    Get-MailboxStatistics -Identity <GeneralMailboxOrMailUserIdParameter> | fl DataEncryptionPolicyID
    ```
 
-   여기서 *GeneralMailboxOrMailUserIdParameter* 은 사서함을 지정 하 고 DataEncryptionPolicyID는 DEP의 GUID를 반환 합니다. Get-mailboxstatistics cmdlet에 대 한 자세한 내용은 [get-get-mailboxstatistics](https://docs.microsoft.com/powershell/module/exchange/get-mailboxstatistics?view=exchange-ps)을 참조 하십시오.
+   여기서 *GeneralMailboxOrMailUserIdParameter* 은 사서함을 지정 하 고 DataEncryptionPolicyID는 DEP의 GUID를 반환 합니다. Get-mailboxstatistics cmdlet에 대 한 자세한 내용은 [get-get-mailboxstatistics](https://docs.microsoft.com/powershell/module/exchange/get-mailboxstatistics)을 참조 하십시오.
   
 2. Get-DataEncryptionPolicy cmdlet을 실행 하 여 사서함이 할당 된 DEP의 이름을 확인할 수 있습니다.
   
@@ -174,7 +174,7 @@ Set-mailbox PowerShell cmdlet을 사용 하 여 사서함에서 DEP를 할당 �
 
 사서함 PowerShell cmdlet을 사용 하 여 사서함에서 DEP를 할당 해제 하려면 다음 단계를 완료 합니다.
 
-1. 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)합니다.
+1. 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)합니다.
 
 2. Set-Mailbox cmdlet을 실행 합니다.
 
@@ -207,7 +207,7 @@ Exchange Online 및 비즈니스용 Skype의 데이터 제거 경로를 시작�
 
 1. Azure 키 자격 증명 모음에서 "O365 Exchange Online"에 대 한 줄 바꿈 및 래핑 해제 권한을 제거 합니다.
 
-2. 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)합니다.
+2. 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)합니다.
 
 3. 삭제 하려는 사서함이 포함 된 각 DEP에 대해 다음과 같이 [Set-Data\ 정책](https://docs.microsoft.com/powershell/module/exchange/set-dataencryptionpolicy) cmdlet을 실행 합니다.
 

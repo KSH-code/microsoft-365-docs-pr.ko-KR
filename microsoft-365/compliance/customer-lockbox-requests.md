@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 문제가 발생 하는 경우 Microsoft 지원 엔지니어가 데이터에 액세스 하는 방법을 제어할 수 있도록 하는 고객 Lockbox 요청에 대해 알아봅니다.
-ms.openlocfilehash: 67662c34ed3aedb22c3462a2ba8aff9e338e07c6
-ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
+ms.openlocfilehash: d71fbaa42fba49bd0f06b26d34d2257f8a4a60ba
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46794257"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546504"
 ---
 # <a name="customer-lockbox-in-office-365"></a>Office 365의 고객 Lockbox
 
@@ -101,7 +101,7 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 사용 하도록 �
     ![고객 Lockbox 요청 승인 또는 거부](../media/CustomerLockbox8.png)
 
 > [!NOTE]
-> AccessToCustomerDataRequest cmdlet을 사용 하 여 Microsoft 지원 엔지니어가 데이터에 대 한 액세스를 제어 하는 Microsoft 365 고객 lockbox 요청을 승인, 거부 또는 취소 합니다. 자세한 내용은 [AccessToCustomerDataRequest](https://docs.microsoft.com/powershell/module/exchange/set-accesstocustomerdatarequest?view=exchange-ps)를 참조 하십시오.
+> AccessToCustomerDataRequest cmdlet을 사용 하 여 Microsoft 지원 엔지니어가 데이터에 대 한 액세스를 제어 하는 Microsoft 365 고객 lockbox 요청을 승인, 거부 또는 취소 합니다. 자세한 내용은 [AccessToCustomerDataRequest](https://docs.microsoft.com/powershell/module/exchange/set-accesstocustomerdatarequest)를 참조 하십시오.
 
 
 ## <a name="auditing-customer-lockbox-requests"></a>고객 Lockbox 요청 감사

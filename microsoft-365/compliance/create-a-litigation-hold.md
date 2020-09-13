@@ -16,12 +16,12 @@ description: 사서함을 소송 보존 상태로 설정 하 여 조사 중에 �
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: 9c62dfcd9e4cf1e3cc75e029b250c7abe80de6df
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 4bcb857095a63c06caa6e9762496ca74afeead04
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818047"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546990"
 ---
 # <a name="create-a-litigation-hold"></a>소송 보존 만들기
 
@@ -68,7 +68,7 @@ ms.locfileid: "44818047"
 
 ### <a name="create-a-litigation-hold-using-powershell"></a>PowerShell을 사용 하 여 소송 보존 만들기
 
-[Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)에서 다음 명령을 실행 하 여 소송 보존을 만들 수도 있습니다.
+[Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)에서 다음 명령을 실행 하 여 소송 보존을 만들 수도 있습니다.
 
 ```powershell
 Set-Mailbox <username> -LitigationHoldEnabled $true

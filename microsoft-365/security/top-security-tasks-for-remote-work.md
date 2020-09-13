@@ -7,7 +7,7 @@ author: brendacarter
 manager: johmar
 audience: Admin
 ms.topic: tutorial
-ms.service: o365-seccomp
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: 랜 섬 웨어, 피싱 및 악의적 첨부 파일을 포함 하 여 사이버 위협 으로부터 비즈니스 전자 메일 및 데이터를 보호 합니다.
-ms.openlocfilehash: 1b21c59e95eccced66a7b64ec7c67354de53e59d
-ms.sourcegitcommit: 76edb413cbd7436252075ea7e314f5e1d07d8d55
+ms.openlocfilehash: f364b4100efb3d8b9ab4eda2e370794ca4f0f469
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44267182"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547977"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>집에서 작업을 지원 하기 위한 보안 팀을 위한 상위 12 개 작업
 
@@ -39,14 +39,14 @@ ms.locfileid: "44267182"
 |:-----|:-----|:-----|:-----|:-----|
 |1       |[Azure MFA (Multi-factor Authentication) 사용](#1-enable-azure-multi-factor-authentication-mfa)   |   ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
 |2      | [위협으로부터 보호](#2-protect-against-threats) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png) |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
-|3(sp3)      |  [Office 365 Advanced Threat Protection 구성](#3-configure-office-365-advanced-threat-protection)  |   |      |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
+|3       |  [Office 365 Advanced Threat Protection 구성](#3-configure-office-365-advanced-threat-protection)  |   |      |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
 |4       | [Azure ATP (Advanced Threat Protection) 구성](#4-configure-azure-advanced-threat-protection)   |   |      |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
 |5      |   [Microsoft 위협 방지 설정](#5-turn-on-microsoft-threat-protection)  |  |      | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
 |6       | [전화 및 태블릿에서 Intune 모바일 앱 보호 구성](#6-configure-intune-mobile-app-protection-for-phones-and-tablets) |    |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
 |7      | [Intune 앱 보호를 포함 하 여 게스트에 대 한 MFA 및 조건부 액세스 구성](#7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection)  |    |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)     | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
 |8       |  [Pc를 장치 관리에 등록 하 고 준수 Pc 필요](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)   |  | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)        | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |9       | [클라우드 연결용 네트워크 최적화](#9-optimize-your-network-for-cloud-connectivity)  |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
-|10     | [사용자 교육](#10-train-users) |    ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
+|10    | [사용자 교육](#10-train-users) |    ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
 |11  |[Microsoft Cloud App Security 시작](#11-get-started-with-microsoft-cloud-app-security) |  |  |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
 |12  |[위협 모니터링 및 작업 수행](#12-monitor-for-threats-and-take-action) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)  |
 | | | |

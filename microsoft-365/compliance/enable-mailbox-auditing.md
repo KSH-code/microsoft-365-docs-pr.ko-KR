@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 ms.custom: seo-marvel-apr2020
 description: 사서함 감사 로깅은 기본적으로 Microsoft 365에서 설정 됩니다 (기본 사서함 감사 또는 사서함 감사가 기본적으로 라고도 함). 즉, 사서함 소유자, 대리인 및 관리자가 수행 하는 특정 작업이 사서함 감사 로그에 자동으로 기록 되므로 사서함에 대해 수행 된 작업을 검색할 수 있습니다.
-ms.openlocfilehash: 5b1aaab6db56d989c36cd977122d4e5843587aac
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 7c0a4417496bcf18362dbcfe53b751c549ef98b9
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817837"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545844"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
 
@@ -45,7 +45,7 @@ ms.locfileid: "44817837"
 
 ## <a name="verify-mailbox-auditing-on-by-default-is-turned-on"></a>기본적으로 사서함 감사가 설정 되어 있는지 확인
 
-조직에 대해 기본적으로 사서함 감사가 설정 되어 있는지 확인 하려면 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)에서 다음 명령을 실행 합니다.
+조직에 대해 기본적으로 사서함 감사가 설정 되어 있는지 확인 하려면 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)에서 다음 명령을 실행 합니다.
 
 ```PowerShell
 Get-OrganizationConfig | Format-List AuditDisabled

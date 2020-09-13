@@ -12,12 +12,12 @@ ms.service: exchange-online
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 조직에서 정보 근로자는 일상적으로 다양한 종류의 중요한 정보를 처리합니다. 문서 지문을 사용하면 조직 전체에서 사용되는 표준 양식을 식별하여 이 정보를 보다 쉽게 보호할 수 있습니다. 이 항목에서는 문서 지문을 개념 및 PowerShell을 사용 하 여 만드는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 37b5649e357f24993e41ae93db6737d980ce0c72
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 0c1fb86e4176c042a6ed772b2a18fc14ca81efcd
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352025"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547144"
 ---
 # <a name="document-fingerprinting"></a>문서 지문
 
@@ -45,7 +45,7 @@ ms.locfileid: "44352025"
   
 ### <a name="example-of-a-patent-document-matching-a-document-fingerprint-of-a-patent-template"></a>특허 서식 파일의 문서 지문과 일치하는 특허 문서의 예
 
-![Document-Fingerprinting-diagram-.png](../media/Document-Fingerprinting-diagram.png)
+![Document-Fingerprinting-diagram.png](../media/Document-Fingerprinting-diagram.png)
   
 특허 서식 파일에는 "특허 title", "Inventors", "설명" 이라는 빈 필드와 각 필드에 대 한 설명 (단어 패턴)이 포함 되어 있습니다. 원본 특허 서식 파일을 업로드 하는 경우 지원 되는 파일 형식 중 하 나와 일반 텍스트로 입력 해야 합니다. DLP는이 단어 패턴을 원본 텍스트를 나타내는 고유한 해시 값을 포함 하는 작은 유니코드 XML 파일인 문서 지 수로 변환 하 고, 지문은 Active Directory에서 데이터 분류로 저장 됩니다. 보안을 위해 원본 문서 자체는 서비스에 저장 되지 않으며, 해시 값만 저장 되며, 원래 문서를 해시 값에서 다시 구성할 수 없습니다. 그런 다음 특허 지문을 사용 하 여 DLP 정책과 연결할 수 있는 중요 한 정보 유형이 됩니다. 지문을 DLP 정책과 연결한 후 DLP는 특허 지문과 일치 하는 문서를 포함 하는 아웃 바운드 전자 메일을 검색 하 고 조직의 정책에 따라 처리 합니다. 
 
@@ -65,7 +65,7 @@ ms.locfileid: "44352025"
 
 ## <a name="use-powershell-to-create-a-classification-rule-package-based-on-document-fingerprinting"></a>PowerShell을 사용 하 여 문서 지문을를 기반으로 분류 규칙 패키지 만들기
 
-현재 보안 및 준수 센터에서 PowerShell을 사용 하 여 문서 지문을 만들 수 있습니다 &amp; . 연결 하려면 [보안 & 준수 센터 PowerShell에 연결을](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)참조 하세요.
+현재 보안 및 준수 센터에서 PowerShell을 사용 하 여 문서 지문을 만들 수 있습니다 &amp; . 연결 하려면 [보안 & 준수 센터 PowerShell에 연결을](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)참조 하세요.
 
 DLP는 분류 규칙 패키지를 사용 하 여 중요 한 콘텐츠를 검색 합니다. 문서 지문을 기준으로 분류 규칙 패키지를 만들려면 **DlpSensitiveInformationType** cmdlet을 **사용 합니다.** **새-dlpfingerprint** 의 결과는 데이터 분류 규칙의 외부에 저장 되지 않으므로 항상 동일한 PowerShell 세션에서 **DlpSensitiveInformationType** 또는 **DlpSensitiveInformationType** **를 실행 합니다** . 다음 예에서는 C:\My Documents\Contoso Employee Template.docx 파일을 기반으로 새 문서 지문을 만듭니다. 새 지문을 변수로 저장 하 여 동일한 PowerShell 세션에서 **DlpSensitiveInformationType** cmdlet과 함께 사용할 수 있도록 합니다.
   
@@ -90,13 +90,13 @@ New-DlpSensitiveInformationType -Name "Contoso Customer Confidential" -Fingerpri
 New-DlpComplianceRule -Name "ContosoConfidentialRule" -Policy "ConfidentialPolicy" -ContentContainsSensitiveInformation @{Name="Contoso Customer Confidential"} -BlockAccess $True
 ```
 
-다음 예제와 같이 Exchange Online의 메일 흐름 규칙에서 데이터 분류 규칙 패키지를 사용할 수도 있습니다. 이 명령을 실행 하려면 먼저 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)해야 합니다. 또한 규칙 패키지를 보안 &amp; 준수 센터에서 Exchange 관리 센터와 동기화 하는 데 시간이 오래 걸립니다.
+다음 예제와 같이 Exchange Online의 메일 흐름 규칙에서 데이터 분류 규칙 패키지를 사용할 수도 있습니다. 이 명령을 실행 하려면 먼저 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)해야 합니다. 또한 규칙 패키지를 보안 &amp; 준수 센터에서 Exchange 관리 센터와 동기화 하는 데 시간이 오래 걸립니다.
   
 ```powershell
 New-TransportRule -Name "Notify :External Recipient Contoso confidential" -NotifySender NotifyOnly -Mode Enforce -SentToScope NotInOrganization -MessageContainsDataClassification @{Name=" Contoso Customer Confidential"}
 ```
 
-이제 DLP는 Contoso Customer 양식과 일치 하는 문서를 검색 합니다.
+이제 DLP는 Contoso 고객 Form.docx 문서 지 문으로 일치 하는 문서를 검색 합니다.
   
 구문 및 매개 변수 정보는 다음 항목을 참조 하십시오.
 

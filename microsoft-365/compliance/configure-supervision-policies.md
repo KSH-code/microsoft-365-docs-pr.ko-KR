@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Office 365 Compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 54ff4012767b156bc72289473e289fa4d93d1a2c
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 74244b5288043a1d1bc62e0ae09ee8c25ff7d4e1
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352161"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546780"
 ---
 # <a name="configure-supervision-policies-in-office-365"></a>Office 365에서 감독 정책 구성
 
@@ -54,7 +54,7 @@ ms.locfileid: "44352161"
 
 - **2 단계 (필수 사항)**: [조직에서 감독을 사용할 수 있도록 설정](#step-2-make-supervision-available-in-your-organization-required)
 
-    정책을 설정할 수 있도록 자신을 관리 검토 역할 그룹에 추가 합니다. 이 역할이 할당 된 모든 사용자는 보안 & 준수 센터의 **감독** 페이지에 액세스할 수 있습니다. 다시 볼 수 있는 전자 메일이 Exchange Online에서 호스팅되는 경우 각 검토자 [에 게 Exchange online에 대 한 원격 PowerShell 액세스](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)권한이 있어야 합니다.
+    정책을 설정할 수 있도록 자신을 관리 검토 역할 그룹에 추가 합니다. 이 역할이 할당 된 모든 사용자는 보안 & 준수 센터의 **감독** 페이지에 액세스할 수 있습니다. 다시 볼 수 있는 전자 메일이 Exchange Online에서 호스팅되는 경우 각 검토자 [에 게 Exchange online에 대 한 원격 PowerShell 액세스](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell)권한이 있어야 합니다.
 
 - **3 단계 (선택 사항)**: [사용자 지정 중요 한 정보 유형 및 사용자 지정 키워드 사전 만들기](#step-3-create-custom-sensitive-information-types-and-custom-keyword-dictionaries-optional)
 
@@ -83,7 +83,7 @@ ms.locfileid: "44352161"
 
 대규모 엔터프라이즈 조직에서 감독 사용자를 관리 하려면 대규모 그룹의 모든 사용자를 모니터링 해야 할 수 있습니다. PowerShell을 사용 하 여 할당 된 그룹에 대 한 전역 감독 정책에 대 한 메일 그룹을 구성할 수 있습니다. 이를 통해 단일 정책을 사용 하는 수천 명의 사용자를 모니터링 하 고 조직에 새 직원이 참가할 때 감독 정책을 업데이트할 수 있습니다.
 
-1. 다음 속성을 사용 하 여 전역 감독 정책에 대 한 전용 [메일 그룹](https://docs.microsoft.com/powershell/module/exchange/new-distributiongroup?view=exchange-ps) 을 만듭니다 .이 메일 그룹이 다른 목적이 나 기타 Office 365 서비스에 사용 되지 않는지 확인 합니다.
+1. 다음 속성을 사용 하 여 전역 감독 정책에 대 한 전용 [메일 그룹](https://docs.microsoft.com/powershell/module/exchange/new-distributiongroup) 을 만듭니다 .이 메일 그룹이 다른 목적이 나 기타 Office 365 서비스에 사용 되지 않는지 확인 합니다.
 
     - **MemberDepartRestriction = 닫힘** 사용자가 메일 그룹에서 자신을 제거할 수 없도록 합니다.
     - **Memberjoinrestriction = 닫힘** 사용자가 메일 그룹에 자신을 추가할 수 없도록 합니다.
@@ -146,7 +146,7 @@ ms.locfileid: "44352161"
 
 ### <a name="enable-remote-powershell-access-for-reviewers-if-email-is-hosted-on-exchange-online"></a>검토자에 대해 원격 PowerShell 액세스 사용 (전자 메일이 Exchange Online에서 호스트 되는 경우)
 
-1. [사용 또는 사용 안 함 Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)에 대 한 지침을 따릅니다.
+1. [사용 또는 사용 안 함 Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell)에 대 한 지침을 따릅니다.
 
 ## <a name="step-3-create-custom-sensitive-information-types-and-custom-keyword-dictionaries-optional"></a>3 단계: 사용자 지정 중요 한 정보 유형 및 사용자 지정 키워드 사전 만들기 (선택 사항)
 

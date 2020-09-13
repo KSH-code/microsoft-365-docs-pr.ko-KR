@@ -5,7 +5,7 @@ author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - Strat_O365_Enterprise
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 인증서 기반 인증에 대 한 Microsoft 365 클라이언트 앱 지원에 대 한 세부 정보를 확인 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 89ae78b4cf5c5bb3cfb1575a5db76047f4299239
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: ac48305d634baa436eab7f2d9eeb520897f2a3d8
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332631"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47548013"
 ---
 # <a name="microsoft-365-client-app-support--certificate-based-authentication"></a>Microsoft 365 클라이언트 앱 지원-인증서 기반 인증
 
@@ -60,7 +60,7 @@ Microsoft 365의 플랫폼 지원에 대 한 자세한 내용은 [microsoft 365�
 
 | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| ![Azure 아이콘](../media/o365-azure-64x64.png) <br> [Azure AD <br> PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) | ![Exchange 아이콘](../media/o365-exchange-64x64.png) <br> [Exchange Online <br> PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps) | ![SharePoint 아이콘](../media/o365-sharepoint-64x64.png) <br> [SharePoint Online <br> PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
+| ![Azure 아이콘](../media/o365-azure-64x64.png) <br> [Azure AD <br> PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) | ![Exchange 아이콘](../media/o365-exchange-64x64.png) <br> [Exchange Online <br> PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell) | ![SharePoint 아이콘](../media/o365-sharepoint-64x64.png) <br> [SharePoint Online <br> PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
 > [!NOTE]
 > <sup>1</sup> Macos의 OneDrive에 대 한 지원이 곧 제공 될 예정입니다. <br>
@@ -68,6 +68,6 @@ Microsoft 365의 플랫폼 지원에 대 한 자세한 내용은 [microsoft 365�
 > <sup>3</sup> 웹 앱에서 PowerApps 및 화이트 보드에 대 한 지원이 곧 제공 될 예정입니다. <br>
 > <sup>4</sup> Android의 화이트 보드에 대 한 지원이 곧 제공 될 예정입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>다음 내용도 참조하십시오.
 
 [Microsoft 365 Enterprise 개요](microsoft-365-overview.md)

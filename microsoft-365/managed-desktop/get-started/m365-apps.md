@@ -2,7 +2,7 @@
 title: 엔터프라이즈용 Microsoft 365 앱
 description: Microsoft 365 앱을 배포 하는 방법, 업데이트 방식 및 설정 관리 방법
 keywords: 변경 내용
-ms.prod: m365-md
+ms.service: m365-md
 ms.sitesec: library
 author: jaimeo
 f1.keywords:
@@ -10,12 +10,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: b3843da0d35d78486ed22af6d057930ee4ad5bc9
-ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
+ms.openlocfilehash: 767489ba9f9ac63bc1a2d8b4999b6634335b1aef
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47295269"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547749"
 ---
 # <a name="microsoft-365-apps-for-enterprise"></a>엔터프라이즈용 Microsoft 365 앱
 

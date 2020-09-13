@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: 이 문서를 정보 장벽 문제 해결을 위한 지침으로 사용 하십시오.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f4e6087d0e1886d833a6cf0472ed467f8577c5d0
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: e19c7d22e2b34d3f8083bcf5b8fb7297dbf86229
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307931"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545672"
 ---
 # <a name="troubleshooting-information-barriers"></a>정보 장벽 문제 해결
 
@@ -28,7 +28,7 @@ ms.locfileid: "47307931"
 정보 장벽에 따라 예기치 않은 문제가 발생 하는 경우 이러한 문제를 해결 하기 위해 몇 가지 단계를 수행할 수 있습니다. 이 문서를 참조 하십시오.
 
 > [!IMPORTANT]
-> 이 문서에서 설명 하는 작업을 수행 하려면 다음 중 하 나와 같은 적절 한 역할을 할당 받아야 합니다.<br/>-Microsoft 365 Enterprise 전역 관리자<br/>-전역 관리자<br/>-준수 관리자<br/>-IB 준수 관리 (새 역할입니다.)<p>정보 장벽에 대 한 필수 구성 요소에 대 한 자세한 내용은 [필수 구성 요소 (정보 장벽 정책)](information-barriers-policies.md#prerequisites)를 참조 하세요.<p>[보안 & 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)해야 합니다.
+> 이 문서에서 설명 하는 작업을 수행 하려면 다음 중 하 나와 같은 적절 한 역할을 할당 받아야 합니다.<br/>-Microsoft 365 Enterprise 전역 관리자<br/>-전역 관리자<br/>-준수 관리자<br/>-IB 준수 관리 (새 역할입니다.)<p>정보 장벽에 대 한 필수 구성 요소에 대 한 자세한 내용은 [필수 구성 요소 (정보 장벽 정책)](information-barriers-policies.md#prerequisites)를 참조 하세요.<p>[보안 & 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)해야 합니다.
 
 ## <a name="issue-users-are-unexpectedly-blocked-from-communicating-with-others-in-microsoft-teams"></a>문제: 사용자가 Microsoft 팀의 다른 사람과 통신할 수 없도록 예기치 않게 차단 되었습니다. 
 
@@ -161,9 +161,9 @@ ms.locfileid: "47307931"
 
 조직에 [Exchange 주소록 정책이](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) 구축 되어 있지 않은지 확인 합니다. 이러한 정책을 통해 정보 장벽 정책이 적용 되지 않습니다.
 
-1. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)에 연결 합니다. 
+1. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)에 연결 합니다. 
 
-2. [Get-AddressBookPolicy](https://docs.microsoft.com/powershell/module/exchange/get-addressbookpolicy?view=exchange-ps) cmdlet을 실행 하 고 결과를 검토 합니다.
+2. [Get-AddressBookPolicy](https://docs.microsoft.com/powershell/module/exchange/get-addressbookpolicy) cmdlet을 실행 하 고 결과를 검토 합니다.
 
     |결과  |다음 단계  |
     |---------|---------|
@@ -200,7 +200,7 @@ $DetailedLogs = Search-UnifiedAuditLog -EndDate <yyyy-mm-ddThh:mm:ss>  -StartDat
 ```powershell
    $DetailedLogs[1] |fl
 ```
- 예를 들어,
+ 예시:
 
 > "UserId": User1
 > 

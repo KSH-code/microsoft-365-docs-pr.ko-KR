@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online Protection 하이브리드 환경에서 스팸을 사용자 정크 메일 폴더로 라우팅하는 방법을 알 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5d8ba6aae599ee4dd327bd1ec82b46e8f3ee3ca8
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 15acc9ad87fa0c785998895d026dae036d9ddd7b
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44679123"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547667"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성
 
@@ -33,11 +33,11 @@ ms.locfileid: "44679123"
 
 특히 다음과 같은 EOP의 스팸 지 수 헤더 및 값을 사용 하 여 메시지를 찾고 해당 메시지의 SCL (스팸 지 수)을 6으로 설정 하는 동작을 사용 하 여 온-프레미스 Exchange 조직에 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들어야 합니다.
 
-- `X-Forefront-Antispam-Report: SFV:SPM`(스팸 필터링을 통해 스팸으로 표시 된 메시지)
+- `X-Forefront-Antispam-Report: SFV:SPM` (스팸 필터링을 통해 스팸으로 표시 된 메시지)
 
-- `X-Forefront-Antispam-Report: SFV:SKS`(스팸 필터링 전에 EOP의 메일 흐름 규칙에 따라 스팸으로 표시 된 메시지)
+- `X-Forefront-Antispam-Report: SFV:SKS` (스팸 필터링 전에 EOP의 메일 흐름 규칙에 따라 스팸으로 표시 된 메시지)
 
-- `X-Forefront-Antispam-Report: SFV:SKB`보낸 사람의 전자 메일 주소 또는 전자 메일 도메인이 EOP의 차단 된 보낸 사람 목록에 있거나 차단 된 도메인 목록에 있기 때문에 스팸 필터링에 의해 스팸으로 표시 됩니다.
+- `X-Forefront-Antispam-Report: SFV:SKB` 보낸 사람의 전자 메일 주소 또는 전자 메일 도메인이 EOP의 차단 된 보낸 사람 목록에 있거나 차단 된 도메인 목록에 있기 때문에 스팸 필터링에 의해 스팸으로 표시 됩니다.
 
 이러한 헤더 값에 대 한 자세한 내용은 [스팸 방지 메시지 헤더](anti-spam-message-headers.md)를 참조 하십시오.
 
@@ -46,7 +46,7 @@ ms.locfileid: "44679123"
 > [!TIP]
 > 온-프레미스 사용자의 정크 메일 폴더로 메시지를 배달 하는 대신 EOP에서 스팸 방지 정책을 구성 하 여 EOP의 스팸 메시지를 격리할 수 있습니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - 이러한 절차를 수행 하려면 먼저 온-프레미스 Exchange 환경에서 사용 권한을 할당 받아야 합니다. 특히 **조직 관리**, **규정 준수 관리**및 **레코드 관리** 역할에 할당 되는 **전송 규칙** 역할을 기본적으로 할당 해야 합니다. 자세한 내용은 [역할 그룹에 구성원을 추가 합니다.](https://docs.microsoft.com/Exchange/permissions/role-group-members?view=exchserver-2019#add-members-to-a-role-group)를 참조하세요.
 
@@ -59,7 +59,7 @@ ms.locfileid: "44679123"
   자세한 내용은 [EXCHANGE SCL (스팸 지 수) 임계값](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/scl)을 참조 하십시오.
 
   - 사서함에서 정크 메일 규칙을 사용할 수 있는지 여부 (Exchange 관리 셸에서 [set-mailboxjunkemailconfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration) Cmdlet의 _enabled_ 매개 변수 값이 $true) 배달 후 실제로 메시지를 정크 메일 폴더로 이동 하는 정크 메일 규칙입니다. 기본적으로 사서함에서는 정크 메일 규칙이 사용 되도록 설정 됩니다. 자세한 내용은 [사서함에 대 한 Exchange 스팸 방지 설정 구성을](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings)참조 하세요.
-  
+
 - Exchange 서버에서 EAC를 열려면 exchange [server의 exchange 관리 센터](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center)를 참조 하세요. Exchange 관리 셸을 열려면 [Exchange 관리 셸을 엽니다](https://docs.microsoft.com/powershell/exchange/open-the-exchange-management-shell).를 참조 하십시오.
 
 - 온-프레미스 Exchange의 메일 흐름 규칙에 대 한 자세한 내용은 다음 항목을 참조 하십시오.

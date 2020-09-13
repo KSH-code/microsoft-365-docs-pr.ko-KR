@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ''
 description: 이 문서를 사용 하 여 Office 365에서 권한이 부여 된 액세스 관리를 사용 하도록 설정 하 고 구성 하는 방법을 자세히 알아보세요.
-ms.openlocfilehash: 4bae6d311b3447534165ee803d7094e5797a9b1c
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 7b3ac9dbc065bcbbdf48e805a3975886a894c645
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936323"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545998"
 ---
 # <a name="get-started-with-privileged-access-management"></a>권한이 부여된 액세스 관리 시작
 
@@ -73,7 +73,7 @@ ms.locfileid: "44936323"
 승인을 받은 후에는 요청 하는 사용자가 원하는 작업을 실행할 수 있으며, 권한이 부여 된 access에서는 사용자를 대신 하 여 작업을 승인 하 고 실행 합니다. 요청 된 기간 (기본 기간: 4 시간)에 대 한 승인은 유효한 상태로 유지 되므로 요청 자가 원하는 작업을 여러 번 실행할 수 있습니다. 이러한 모든 실행이 기록 되 고 보안 및 준수 감사를 위해 사용할 수 있게 됩니다. 
 
 >[!NOTE]
->Exchange 관리 PowerShell을 사용 하 여 권한 있는 액세스를 사용 하도록 설정 하 고 구성 하려면 [다단계 인증을 사용 하 여 Exchange Online powershell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell?view=exchange-ps) 에 연결의 단계를 수행 하 여 Office 365 자격 증명을 사용 하 여 Exchange online powershell에 연결 합니다. 조직에 대해 Exchange Online PowerShell에 연결 하는 동안 권한 있는 액세스를 사용 하도록 설정 하는 단계를 사용 하도록 하는 다단계 인증을 사용 하도록 설정할 필요는 없습니다. 다단계 인증을 사용 하 여 연결-요청에 서명 하기 위해 특권 수준의 액세스에서 사용 되는 OAuth 토큰을 만듭니다.
+>Exchange 관리 PowerShell을 사용 하 여 권한 있는 액세스를 사용 하도록 설정 하 고 구성 하려면 [다단계 인증을 사용 하 여 Exchange Online powershell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-using-mfa) 에 연결의 단계를 수행 하 여 Office 365 자격 증명을 사용 하 여 Exchange online powershell에 연결 합니다. 조직에 대해 Exchange Online PowerShell에 연결 하는 동안 권한 있는 액세스를 사용 하도록 설정 하는 단계를 사용 하도록 하는 다단계 인증을 사용 하도록 설정할 필요는 없습니다. 다단계 인증을 사용 하 여 연결-요청에 서명 하기 위해 특권 수준의 액세스에서 사용 되는 OAuth 토큰을 만듭니다.
 
 <a name="step1"> </a>
 

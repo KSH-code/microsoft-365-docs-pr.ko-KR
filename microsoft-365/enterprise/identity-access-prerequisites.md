@@ -16,18 +16,18 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 40910c00a91a1e98d01fe2e25a4f9aed828a024a
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 2c654cb0ec2afd138c7c9fb4b339b53a8522e5e4
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357977"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547207"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Id 및 장치 액세스 정책을 구현 하기 위한 필수 작업
 
 이 문서에서는 권장 되는 id 및 장치 액세스 정책을 배포 하기 전에 구현 해야 하는 필수 구성 요소에 대해 설명 합니다. 이 문서에서는 또한 사용자에 게 최적의 SSO (single sign-on) 환경을 제공 하는 데 필요한 기본 플랫폼 클라이언트 구성과 조건부 액세스에 대 한 기술적 필수 구성 요소에 대해 설명 합니다.
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>필수 조건
 
 권장 되는 id 및 장치 액세스 정책을 구현 하기 전에 조직에서 Microsoft 365 및 Office 365에 대 한 이러한 id 및 인증 모델에 대해 충족 해야 하는 몇 가지 필수 구성 요소가 있습니다.
 
@@ -40,7 +40,7 @@ ms.locfileid: "47357977"
 
 | 구성 | 예외 |
 | :------------- | :-----------: |
-|  [암호 해시 동기화를 구성](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization)합니다.  누수 된 자격 증명을 검색 하 고 위험 기반 조건부 액세스에 대해이를 수행 하려면이 옵션을 사용 하도록 설정 해야 합니다. **참고:** 조직에서 하이브리드 페더레이션 인증을 사용 하는지 여부에 관계 없이 필요 합니다. |  클라우드 전용 |
+|  [PHS를 구성](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization)합니다.  누수 된 자격 증명을 검색 하 고 위험 기반 조건부 액세스에 대해이를 수행 하려면이 옵션을 사용 하도록 설정 해야 합니다. **참고:** 조직에서 페더레이션 인증을 사용 하는지 여부에 관계 없이 필요 합니다. |  클라우드 전용 |
 | [원활한 single sign-on을 사용](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso) 하 여 조직 네트워크에 연결 된 조직 장치에 있을 때 사용자가 자동으로 로그인 하도록 합니다. | 클라우드 전용 및 페더레이션  |
 | [명명된 네트워크 구성](https://docs.microsoft.com/azure/active-directory/active-directory-known-networks-azure-portal). Azure AD ID 보호는 모든 사용 가능한 세션 데이터를 수집하고 분석하여 위험 점수를 생성합니다. 네트워크에 대 한 조직의 공용 IP 범위를 Azure AD 라는 네트워크 구성에서 지정 하는 것이 좋습니다. 이러한 범위에서 들어오는 트래픽에는 위험 점수가 절감 되 고 조직 환경 외부 로부터의 트래픽에는 위험 점수가 더 높은 것으로 지정 됩니다. | |
 |[SSPR (셀프 서비스 암호 재설정) 및 MFA (multi-factor authentication)에 대 한 모든 사용자를 등록](https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-converged)합니다. Azure Multi-factor Authentication을 위해 사용자에 게 미리 등록 하는 것이 좋습니다. Azure AD Id 보호는 Azure Multi-factor Authentication을 사용 하 여 추가 보안 확인을 수행 합니다. 또한 최상의 로그인 환경을 위해 사용자가 자신의 장치에 [Microsoft Authenticator 앱](https://docs.microsoft.com/azure/active-directory/user-help/microsoft-authenticator-app-how-to) 과 Microsoft 회사 포털 앱을 설치 하는 것이 좋습니다. 이러한 응용 프로그램은 각 플랫폼에 대해 앱 스토어에서 설치할 수 있습니다. | |
@@ -49,7 +49,7 @@ ms.locfileid: "47357977"
 | [온-프레미스 AD에 대한 암호 쓰기 저장 구성](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started). 암호 쓰기 저장을 사용 하면 높은 위험 계정 손상 감지 시 사용자가 온-프레미스 암호를 변경 하도록 할 수 있습니다. Azure ad Connect 설치 마법사의 선택적 기능 화면에서 **암호 쓰기 저장** 을 사용 하도록 설정 하거나 Windows PowerShell을 통해 사용 하도록 설정 하 여 Azure ad connect를 사용 하 여이 기능을 사용 하도록 설정할 수 있습니다. | 클라우드 전용 |
 | [AZURE AD 암호 보호를 구성](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad)합니다. Azure AD 암호 보호는 알려진 약한 암호 및 해당 변종을 감지 및 차단 하며, 조직과 관련 된 추가 weak 용어를 차단할 수도 있습니다. 기본 전역 금지 암호 목록은 Azure AD 테 넌 트의 모든 사용자에 게 자동으로 적용 됩니다. 사용자 지정 금지 된 암호 목록에서 추가 항목을 정의할 수 있습니다. 사용자가 암호를 변경 하거나 다시 설정할 때 이러한 금지 된 암호 목록을 확인 하 여 강력한 암호를 사용 해야 합니다. | |
 | [Azure Active Directory Id 보호를 사용 하도록 설정](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection)합니다. Azure AD Id 보호를 사용 하면 조직의 id에 영향을 미치는 잠재적인 취약점을 검색 하 고, 낮음, 보통 및 높음 로그인 위험 및 사용자 위험에 대 한 자동화 된 수정 정책을 구성할 수 있습니다.  | |
-| [Exchange online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) 및 [비즈니스용 Skype online](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)에 **최신 인증을 사용 하도록 설정** 합니다. 최신 인증은 MFA (multi-factor authentication)를 사용 하기 위한 필수 구성 요소입니다. 최신 인증은 Office 2016 클라이언트, SharePoint Online 및 비즈니스용 OneDrive에 기본적으로 사용 하도록 설정 되어 있습니다. |  |
+| [Exchange online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) 및 [비즈니스용 Skype online](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)에 **최신 인증을 사용 하도록 설정** 합니다. 최신 인증은 MFA를 사용 하기 위한 필수 구성 요소입니다. 최신 인증은 Office 2016 클라이언트, SharePoint 및 비즈니스용 OneDrive에 기본적으로 사용 하도록 설정 되어 있습니다. |  |
 |||
 
 ## <a name="recommended-client-configurations"></a>권장되는 클라이언트 구성
@@ -87,11 +87,11 @@ BYOD Windows 장치에서는 사용자가 **회사 또는 학교 계정 추가**
 
 |플랫폼|Word/Excel/PowerPoint|OneNote|OneDrive 앱|SharePoint 앱|[OneDrive 동기화 클라이언트](https://docs.microsoft.com/onedrive/enable-conditional-access)|
 |:-------|:-----|:------------|:-------|:-------------|:-----|
-|Windows 8.1|지원|지원|해당 없음|해당 없음|지원|
-|Windows 10|지원|지원|해당 없음|해당 없음|지원|
-|Android|지원|지원|지원|지원|해당 없음|
-|iOS|지원|지원|지원|지원|해당 없음|
-|macOS|지원|지원|해당 없음|해당 없음|지원되지 않음|
+|Windows 8.1|지원됨|지원됨|해당 없음|해당 없음|지원됨|
+|Windows 10|지원됨|지원됨|해당 없음|해당 없음|지원됨|
+|Android|지원됨|지원됨|지원됨|지원됨|해당 없음|
+|iOS|지원됨|지원됨|지원됨|지원됨|해당 없음|
+|macOS|지원됨|지원됨|해당 없음|해당 없음|지원되지 않음|
 |Linux|지원되지 않음|지원되지 않음|지원되지 않음|지원되지 않음|지원되지 않음|
 
 ### <a name="microsoft-365-client-support"></a>Microsoft 365 클라이언트 지원

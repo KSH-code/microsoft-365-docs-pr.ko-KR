@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Exchange Online의 원본 위치 eDiscovery 및 원본 위치 유지 및 해당 PowerShell cmdlet은 2020의 처음 절반에서 만료 됩니다. 또한 검색 사서함 cmdlet 및 Advanced eDiscovery v 1.0은 동일한 기간 내에 폐기 됩니다.
-ms.openlocfilehash: 12de88fe3c9de7806b12bd610e0dbeeb404524ca
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 98e04ada0afa03404ba36da2004a9352a01f598a
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126945"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546284"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>eDiscovery 도구의 사용 중지
 
@@ -44,7 +44,7 @@ Microsoft 365 준수 센터에서 새롭게 향상 된 eDiscovery 기능을 사�
    > [!NOTE]
    > [New-mailboxsearch](https://docs.microsoft.com/powershell/module/exchange/get-mailboxsearch) 및 [new-mailboxsearch](https://docs.microsoft.com/powershell/module/exchange/remove-mailboxsearch) cmdlet은 기타 * * * *-new-mailboxsearch * * * cmdlet이 사용 중지 된 후에 사용할 수 있으므로 다른 eDiscovery 및 유지 도구로 전환할 때 사용할 수 있습니다. 그러나 아래에 언급 된 특정 날짜 이후에는 Microsoft 지원에서 이러한 두 cmdlet을 더 이상 지원 하지 않습니다.
 
-- Exchange Online PowerShell의 [검색 사서함](https://docs.microsoft.com/powershell/module/exchange/search-mailbox?view=exchange-ps) cmdlet
+- Exchange Online PowerShell의 [검색 사서함](https://docs.microsoft.com/powershell/module/exchange/search-mailbox) cmdlet
 
 - Exchange 웹 서비스 API에서 다음 작업을 수행 합니다.
 
@@ -111,7 +111,7 @@ Microsoft 365 준수 센터에서 새롭게 향상 된 eDiscovery 기능을 사�
 </li>
 <li>
 <p>Office 365 응용 프로그램에 저장 된 Exchange Online, SharePoint Online, 비즈니스용 OneDrive, 비즈니스용 Skype, Microsoft 팀, Yammer 그룹, Microsoft 365 그룹 및 기타 콘텐츠에 대 한 콘텐츠 검색</p></li></ul>
-<p>자세한 내용은 <a href="https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations">Office 365에서 법적 조사 관리</a>를 참조 하세요.</td>
+<p>자세한 내용은 <a href="https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations"> Office 365에서 법적 조사 관리</a>를 참조 하세요.</td>
 </tr>
 <tr class="even">
 <td>보존을 위해 보류</td>
@@ -124,7 +124,7 @@ Microsoft 365 준수 센터에서 새롭게 향상 된 eDiscovery 기능을 사�
 <p>Exchange Online, SharePoint Online, 비즈니스용 OneDrive, 비즈니스용 Skype, Microsoft 팀 및 Office 365 그룹 등의 특정 콘텐츠 위치에 정책 적용</p></li>
 <li>
 <p>특정 사용자에 게 정책 적용</p></li></ul>
-<p>자세한 내용은 <a href="https://docs.microsoft.com/microsoft-365/compliance/retention-policies">보존 정책 및 보존 레이블에 대 한</a>자세한 정보를 참조 하세요.</td>
+<p>자세한 내용은 <a href="https://docs.microsoft.com/microsoft-365/compliance/retention-policies"> 보존 정책 및 보존 레이블에 대 한</a>자세한 정보를 참조 하세요.</td>
 </tr>
 <tr class="odd">
 <td>검토를 위해 전자 메일 검색 결과를 검색 사서함으로 복사</td><td>Advanced eDiscovery v 2.0에서 집합 검토</td>
@@ -182,7 +182,7 @@ Exchange 관리 센터에서 2017 년 7 월 1 일에 발표 된 원래 공지와
 
 - Office 365 Germany
 
-### <a name="timeline"></a>타임라인
+### <a name="timeline"></a>시간 표시 막대
 
 - 7 월 1 일, 2020 **: 새 원본** 위치 eDiscovery 검색 및 원본 위치 유지를 만들 수는 없지만, cmdlet을 사용 하 여 기존 검색을 실행, 편집 및 삭제 하 고 사용자의 위험에도 영향을 받을 수 있습니다. Microsoft Support는 이러한 유형의 검색 및 보존에 대 한 지원을 더 이상 제공 하지 않습니다.
 
@@ -263,7 +263,7 @@ Exchange Online PowerShell의 **검색 사서함** cmdlet은 처음에 2018에�
 
 - Office 365 Germany
 
-### <a name="timeline"></a>타임라인
+### <a name="timeline"></a>시간 표시 막대
 
 -  2020 년 7 월 1 일: **검색 사서함** cmdlet을 더 이상 사용할 수 없으며 Microsoft Support에서 더 이상 지원을 제공 하지 않습니다.
 
@@ -282,8 +282,8 @@ Exchange Online PowerShell의 **검색 사서함** cmdlet은 처음에 2018에�
 <tbody>
 <tr class="odd">
 <td>사서함 검색</td>
-<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch?view=exchange-ps"><span class="underline">*-ComplianceSearch</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction?view=exchange-ps"><span class="underline">*-New-compliancesearchaction</span></a></p>
+<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch"><span class="underline">*-ComplianceSearch</span></a></p>
+<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction"><span class="underline">*-New-compliancesearchaction</span></a></p>
 <p></a></p></td>
 <td><p>ComplianceSearch 및 New-compliancesearchaction cmdlet은 공동 작업을 통해 콘텐츠를 검색 하 고 내보내는 데 도움이 됩니다. <strong>새 검색</strong>을 만들고 <strong>ComplianceSearch</strong> <strong>cmdlet을 사용</strong>하 여 검색 예측을 볼 수 있습니다. 그런 다음 <strong>new-compliancesearchaction-Export</strong> 명령을 사용 하 여 검색 결과를 내보낼 수 있습니다. 이러한 검색 결과를 로컬 컴퓨터에 다운로드 하려면 Microsoft 365 준수 센터에서 코어 eDiscovery 도구를 사용 해야 합니다.</p></p>
 </td>
@@ -307,8 +307,8 @@ Exchange Online PowerShell의 **검색 사서함** cmdlet은 처음에 2018에�
 </tr>
 <tr class=even>
   <td>사서함에서 메시지 제거</td>
-<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch?view=exchange-ps"><span class="underline">*-ComplianceSearch</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction?view=exchange-ps"><span class="underline">*-New-compliancesearchaction</span></a></p>
+<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch"><span class="underline">*-ComplianceSearch</span></a></p>
+<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction"><span class="underline">*-New-compliancesearchaction</span></a></p>
 <p></p></td>
 <td><p>ComplianceSearch 및 New-compliancesearchaction cmdlet은 상호 작용 하 여 콘텐츠를 검색 하 고 제거 하는 데 도움이 됩니다. <strong>ComplianceSearch</strong> 및 <strong>ComplianceSearch</strong> cmdlet을 사용 하 여 검색을 만들고 실행 한 후에는 <strong>new-compliancesearchaction-PurgeType</strong> 명령을 통해 콘텐츠를 제거할 수 있습니다. 자세한 내용은 <a href="https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization"><span class="underline">메시지 검색 및 삭제</span></a>를 참조 하세요.</p>
 </td>
@@ -335,7 +335,7 @@ Exchange 웹 서비스 API에서 이러한 작업은 Exchange 관리 센터의 �
 
 - Office 365 Germany
 
-### <a name="timeline"></a>타임라인
+### <a name="timeline"></a>시간 표시 막대
 
 - 2020 년 7 월 1 일: GetSearchableMailboxes, Search우편함, SetHoldOnMailboxes 및 GetHoldOnMailboxes 작업을 더 이상 사용할 수 없으며 Microsoft Support에서 더 이상 지원을 제공 하지 않습니다.
 
@@ -369,7 +369,7 @@ Advanced eDiscovery v 2.0에 액세스 하려면 다음을 수행 합니다.
 
 - Office 365 Germany
 
-### <a name="timeline"></a>타임라인
+### <a name="timeline"></a>시간 표시 막대
 
 - 2020 년 7 월 1 일: 새 고급 eDiscovery v 1.0 사례를 만들 수 없습니다.
 

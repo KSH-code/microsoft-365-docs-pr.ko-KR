@@ -7,15 +7,15 @@ manager: pamgreen
 audience: ITPro
 f1.keywords: NOCSH
 ms.topic: article
-ms.service: o365-seccomp
+ms.service: O365-seccomp
 localization_priority: Normal
 description: 이 문서에서는 기존 Azure Active Directory 분류 및 민감도 레이블에 대해 설명 합니다.
-ms.openlocfilehash: 38a3dbe727f3d0759d427944016ae98440f2686f
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 2506e7f467a485878f1e26a23ee1071907b41614
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308175"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545662"
 ---
 # <a name="azure-active-directory-classification-and-sensitivity-labels-for-microsoft-365-groups"></a>Microsoft 365 그룹에 대 한 Azure Active Directory 분류 및 민감도 레이블
 
@@ -41,15 +41,17 @@ ms.locfileid: "47308175"
 
 표 1. 호환 및 호환 되지 않는 작업의 동작-그룹 만들기, 편집 또는 삭제
 
-|작업량|그룹 창에서 사용자에 게 표시 되는 레이블 목록은 무엇입니까?|새 그룹 만들기 |그룹 편집 |그룹 삭제 |
+|워크로드|그룹 창에서 사용자에 게 표시 되는 레이블 목록은 무엇입니까?|새 그룹 만들기 |그룹 편집 |그룹 삭제 |
 |:-------|:-------|:--------|:--------|:--------|   
 |호환   |민감도 레이블 |동작이 변경 되지 않습니다. |동작이 변경 되지 않습니다. |동작이 변경 되지 않습니다. |
 |호환 되지 않는 |민감도 레이블이 표시 되지 않습니다. |사용자는 민감도 레이블을 선택 하지 않고 그룹을 만들 수 있습니다. <br><br> 참고로 관리자는 cmdlet을 실행 하 여 민감도 레이블을 배경에 적용할 수 있습니다. |**사례 1**: 이전에 민감도 레이블이 선택 되지 않았습니다. 사용자가 그룹을 편집할 수 있습니다.<br><br> **사례 2**: cmdlet을 사용 하 여 이전에 적용 된 민감도 레이블입니다. 사용자가 레이블과 관련 하 여 사용자가 잘못 된 개인 정보 설정 조합을 선택 하는 경우를 제외 하 고 그룹을 성공적으로 편집할 수 있습니다. |동작이 변경 되지 않습니다.|
 
 > [!NOTE]
 > Outlook 데스크톱 클라이언트 (Win 32)의 경우, 관리자가 테 넌 트의 민감도 레이블을 사용 하도록 설정 하 고 사용자는 이전 버전의 Outlook 데스크톱 클라이언트 (Win 32)에 있습니다.
+>
 > - 사용자에 게는 Outlook 데스크톱 클라이언트의 이전 버전에 민감도 레이블이 표시 됩니다.
 > - 그러나 사용자가 그룹을 편집 하 고 민감도 레이블과 함께 그룹을 저장 하면 선택한 개인 정보 설정이 적용 된 민감도 레이블의 개인 정보 설정에 의해 재정의 됩니다.
+>
 > 이전 버전의 Outlook 클라이언트에 대 한 사용자가 최신 버전으로 업그레이드 하는 것이 좋습니다.
 
 ## <a name="scenario-2-tenant-is-already-using-classic-aad-classifications"></a>시나리오 2: 테 넌 트가 이미 클래식 AAD [분류](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell) 를 사용 하 고 있습니다.
@@ -69,15 +71,17 @@ ms.locfileid: "47308175"
 
 표 2. 호환 및 호환 되지 않는 작업의 동작-그룹 만들기, 편집 또는 삭제
 
-|작업량|그룹 창에서 사용자에 게 표시 되는 레이블 목록은 무엇입니까?|새 그룹 만들기 |그룹 편집 |그룹 삭제 |
+|워크로드|그룹 창에서 사용자에 게 표시 되는 레이블 목록은 무엇입니까?|새 그룹 만들기 |그룹 편집 |그룹 삭제 |
 |:-------|:-------|:--------|:--------|:--------|   
 |호환   |민감도 레이블 |동작이 변경 되지 않습니다. |동작이 변경 되지 않습니다. |동작이 변경 되지 않습니다. |
 |호환 되지 않는 |이전 클래식 AAD 레이블입니다. |사용자가 클래식 Azure AD 레이블이 선택 된 그룹을 만들 수 있습니다. <br><br>참고로 관리자는 cmdlet을 실행 하 여 민감도 레이블을 배경에 적용할 수 있습니다. |**사례 1**: 이전에 민감도 레이블이 선택 되지 않았습니다. 사용자가 그룹을 편집할 수 있습니다.<br><br> **사례 2**: 이전에 클래식 AAD 레이블을 선택 했습니다. 사용자가 그룹을 편집할 수 있습니다.<br><br> **사례 3**: 이전에 cmdlet을 사용 하 여 적용 한 민감도 레이블입니다. 사용자가 레이블과 관련 된 개인 정보 설정의 잘못 된 조합을 선택 하는 경우를 제외 하 고 그룹을 편집할 수 있어야 합니다. |사용자가 그룹을 삭제할 수 있습니다. |
 
 > [!NOTE]
 > Outlook 데스크톱 클라이언트 (Win 32)의 경우, 관리자가 테 넌 트의 민감도 레이블을 사용 하도록 설정 하 고 사용자는 이전 버전의 Outlook 데스크톱 클라이언트 (Win 32)에 있습니다.
+>
 > - 사용자에 게는 Outlook 데스크톱 클라이언트의 이전 버전에 민감도 레이블이 표시 됩니다.
 > - 그러나 사용자가 그룹을 편집 하 고 민감도 레이블과 함께 그룹을 저장 하면 선택한 개인 정보 설정이 적용 된 민감도 레이블의 개인 정보 설정에 의해 재정의 됩니다.
+>
 > 이전 버전의 Outlook 클라이언트에 대 한 사용자가 최신 버전으로 업그레이드 하는 것이 좋습니다.
 
 ### <a name="case-b-tenant-used-sensitivity-labels-for-documents-and-emails"></a>사례 B: 문서 및 전자 메일에 대 한 테 넌 트 사용 민감도 레이블
@@ -90,4 +94,3 @@ ms.locfileid: "47308175"
 ## <a name="sample-script"></a>예제 스크립트
 
 클래식 AAD 레이블이 있는 그룹을 민감도 레이블로 마이그레이션하기 위한 샘플 스크립트는 [클래식 AZURE AD 그룹 분류](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)를 참조 하세요.
-
