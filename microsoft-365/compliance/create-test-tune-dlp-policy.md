@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: 이 문서에서는 조직의 요구 사항에 따라 DLP 정책을 만들고 테스트 하 고 조정 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: b8e82e1304cb411a1e73e6f7bdc02fecdda9784f
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: ef88da90d8e009d3ea634c9142d7d917fbfd288a
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648785"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546938"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>DLP 정책 만들기, 테스트 및 조정
 
@@ -218,7 +218,7 @@ DLP 정책이 정확 하 고 효과적으로 중요 한 정보 유형을 검색 
 
 ![정책을 설정 하는 옵션](../media/DLP-create-test-tune-turn-on-policy.png)
  
-정책이 적용 될 시기를 확인 하려면 [Security & 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps) 하 고 [remove-dlpcompliancepolicy cmdlet](https://docs.microsoft.com/powershell/module/exchange/get-dlpcompliancepolicy?view=exchange-ps) 을 실행 하 여 DistributionStatus를 확인 하세요.
+정책이 적용 될 시기를 확인 하려면 [Security & 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 하 고 [remove-dlpcompliancepolicy cmdlet](https://docs.microsoft.com/powershell/module/exchange/get-dlpcompliancepolicy) 을 실행 하 여 DistributionStatus를 확인 하세요.
 
 ![PowerShell에서 cmdlet 실행](../media/DLP-create-test-tune-PowerShell.png)
 

@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: Microsoft 팀에서 정보 장벽에 대 한 정책을 정의 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 024b10f86cb38532dc441ebd9c88c050fe2839b7
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: dcf7fd496098032bad075c1679f0081ddf29caef
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308077"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547446"
 ---
 # <a name="define-information-barrier-policies"></a>정보 장벽 정책 정의
 
@@ -55,7 +55,7 @@ ms.locfileid: "47308077"
 |(필요한 경우) [세그먼트 또는 정책 편집](information-barriers-edit-segments-policies.md)    |-세그먼트 편집<br/>-정책 편집 또는 제거<br/>-정책 응용 프로그램 다시 실행<br/>-정책 상태 보기         |
 |(필요한 경우) [문제 해결](information-barriers-troubleshooting.md)|-항목이 정상적으로 작동 하지 않을 때 작업 수행|
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>필수 조건
 
 [필요한 라이선스 및 사용 권한](information-barriers.md#required-licenses-and-permissions)외에도 다음과 같은 요구 사항을 충족 하는지 확인 합니다. 
      
@@ -71,7 +71,7 @@ ms.locfileid: "47308077"
 - 주소록 정책 없음-정보 장벽 정책을 정의 하 고 적용 하기 전에 Exchange 주소록 정책이 없는지 확인 합니다. 정보 장애물은 주소록 정책에 기반을 둔 반면 두 가지 종류의 정책은 서로 호환 되지 않습니다. 이러한 정책이 있는 경우 먼저 주소록 [정책을 제거](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) 해야 합니다. 정보 장벽 정책이 사용 하도록 설정 되 고 계층 구조 주소록을 사용 하도록 설정 하면 정보 장벽 세그먼트에 ***포함 되지*** 않은 모든 사용자에 게 Exchange online의 [계층 구조](https://docs.microsoft.com/exchange/address-books/hierarchical-address-books/hierarchical-address-books) 주소록이 표시 됩니다.
 
 - PowerShell-현재 정보 장벽 정책은 PowerShell cmdlet을 사용 하 여 Office 365 보안 & 준수 센터에서 정의 되 고 관리 됩니다. 이 문서에서는 몇 가지 예를 제공 했지만 PowerShell cmdlet 및 매개 변수에 익숙해져야 합니다. Azure PowerShell 모듈도 필요 합니다.
-    - [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
+    - [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
     - [Azure PowerShell 모듈 설치](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-2.3.2)
 
 - 관리자 동의 Microsoft 팀의 정보 장벽-정책이 마련 되 면 정보 장벽에서 사용자를 제거할 수 있습니다. 이렇게 하면 조직이 정책 및 규정 준수 상태를 유지할 수 있습니다. 다음 절차를 사용 하 여 정보 장벽 정책이 Microsoft 팀에서 예상 대로 작동 하도록 설정 합니다. 
@@ -258,7 +258,7 @@ PowerShell을 사용 하 여 다음 표에 나와 있는 것 처럼 사용자 �
 |세그먼트     |**OrganizationSegment** cmdlet을 사용 합니다.<p>구문과 `Get-OrganizationSegment` <p>이렇게 하면 조직에 대해 정의 된 모든 세그먼트의 목록이 표시 됩니다.         |
 |정보 장벽 정책     |**InformationBarrierPolicy** cmdlet을 사용 합니다. <p> 구문과 `Get-InformationBarrierPolicy` <p>이렇게 하면 정의 된 정보 장벽 정책 목록과 해당 상태가 표시 됩니다.       |
 |가장 최근 정보 장벽 정책 응용 프로그램     | **InformationBarrierPoliciesApplicationStatus** cmdlet을 사용 합니다. <p>구문과 `Get-InformationBarrierPoliciesApplicationStatus`<p>    이렇게 하면 정책 응용 프로그램이 완료, 실패 또는 진행 중인지에 대 한 정보가 표시 됩니다.       |
-|모든 정보 장벽 정책 응용 프로그램|하십시오 `Get-InformationBarrierPoliciesApplicationStatus -All $true`<p>이렇게 하면 정책 응용 프로그램이 완료, 실패 또는 진행 중인지에 대 한 정보가 표시 됩니다.|
+|모든 정보 장벽 정책 응용 프로그램|`Get-InformationBarrierPoliciesApplicationStatus -All $true` 사용<p>이렇게 하면 정책 응용 프로그램이 완료, 실패 또는 진행 중인지에 대 한 정보가 표시 됩니다.|
 
 <!-- IN the " The most recent information barrier policy application, add link to troubleshooting topic -->
 

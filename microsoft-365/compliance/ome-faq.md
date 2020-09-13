@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: 새 메시지 보호 기능의 작동 방식에 대 한 질문이 있나요? 여기에서 대답을 확인 하세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 927b81c3a1ce049f1a2427bbbf1d306608be35cb
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: efccbdf2be33fb771e7e68ba5a0b3dafa82d9ce8
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46798190"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546062"
 ---
 # <a name="message-encryption-faq"></a>메시지 암호화 FAQ
 
@@ -120,7 +120,7 @@ Word, Excel 또는 PowerPoint 파일과 같은 파일 형식이 지원 되는 �
 
 Outlook 데스크톱은 PDF 파일 첨부 파일의 암호화를 기본적으로 지원 하지 않습니다. 대신, 먼저 PDF 첨부 파일에 암호화를 적용 하도록 Exchange 메일 흐름 규칙이 나 DLP를 설정 해야 합니다. PDF 첨부 파일이 있는 Outlook 데스크톱에서 메일을 보내는 경우 클라이언트는 첨부 파일이 포함 된 메시지를 먼저 서비스에 보냅니다. 서비스가 파일을 받으면 Exchange Online에서 DLP (데이터 손실 방지) 정책 또는 메일 흐름 규칙의 OME 보호를 적용 합니다. 다음으로, Exchange Online은 보호 된 PDF 파일 첨부 파일이 포함 된 메시지를 보냅니다.
 
-PDF 첨부 파일에 대 한 암호화를 사용 하도록 설정 하려면 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)에서 다음 명령을 실행 합니다.
+PDF 첨부 파일에 대 한 암호화를 사용 하도록 설정 하려면 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)에서 다음 명령을 실행 합니다.
 
 ```powershell
 Set-IRMConfiguration -EnablePdfEncryption $true

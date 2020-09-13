@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Message Encryption을 사용 하 여 사용자 지정 브랜드 서식 파일을 통해 전자 메일에 만료 날짜를 설정 하 여 이메일 보안을 확장할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e929ce1d948a83a98cca6fa35a65b80a2fc9ef15
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 0dcf9c82f9204f1357b49411d0ca87e87007eb96
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818691"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546162"
 ---
 # <a name="set-an-expiration-date-for-email-encrypted-by-office-365-advanced-message-encryption"></a>Office 365 고급 메시지 암호화로 암호화 된 전자 메일의 만료 날짜 설정
 
@@ -40,7 +40,7 @@ Office 365 고급 메시지 암호화를 사용 하 여 사용자 지정 브랜�
 
 ## <a name="create-a-custom-branding-template-to-force-mail-expiration-by-using-powershell"></a>PowerShell을 사용 하 여 메일 만료를 적용 하는 사용자 지정 브랜딩 서식 파일 만들기
 
-1. 조직에서 전역 관리자 권한이 있는 계정을 사용 하 여 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) 합니다.
+1. 조직에서 전역 관리자 권한이 있는 계정을 사용 하 여 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) 합니다.
 
 2. Set-omeconfiguration cmdlet을 실행 합니다.
 
@@ -50,9 +50,9 @@ Office 365 고급 메시지 암호화를 사용 하 여 사용자 지정 브랜�
 
 여기서,
 
-- `Identity`은 사용자 지정 서식 파일의 이름입니다.
+- `Identity` 은 사용자 지정 서식 파일의 이름입니다.
 
-- `ExternalMailExpiryInDays`받는 사람이 만료 되기 전에 메일을 보관할 수 있는 기간 (일)을 식별 합니다. 1 – 730 일 사이에 임의의 값을 사용할 수 있습니다.
+- `ExternalMailExpiryInDays` 받는 사람이 만료 되기 전에 메일을 보관할 수 있는 기간 (일)을 식별 합니다. 1 – 730 일 사이에 임의의 값을 사용할 수 있습니다.
 
 ## <a name="more-information-about-office-365-advanced-message-encryption"></a>Office 365 고급 메시지 암호화에 대 한 추가 정보
 

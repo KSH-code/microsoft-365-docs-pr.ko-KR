@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: 관리자가 Exchange Online 사서함에 대 한 사용자의 복구 가능한 항목 폴더에서 항목을 삭제 하는 방법을 설명 합니다 (해당 사서함이 법적 보존 상태로 설정 된 경우에도).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d0983a3ce10a3980f23af68736acac1382ef938f
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: 5f111a19e3baf57f2b6f2e2254df97d21689de2e
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405469"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546152"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold"></a>보류 중인 클라우드 기반 사서함의 복구 가능한 항목 폴더에서 항목 삭제
 
@@ -226,7 +226,7 @@ Get-Mailbox <username> |FL ComplianceTagHoldApplied
 
 ### <a name="ediscovery-holds"></a>eDiscovery 보류
   
-[Security & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) 에서 다음 명령을 실행 하 여 사서함에 적용 된 ediscovery 사례 ( *ediscovery 보류*)와 관련 된 보류를 확인 합니다. `UniH`1 단계에서 확인 한 eDiscovery 보존에 대 한 GUID (접두사를 포함 하지 않음)를 사용 합니다. 두 번째 명령은 보류가 연결 된 eDiscovery 사례의 이름을 표시 합니다. 세 번째 명령은 보류의 이름을 표시 합니다.
+[Security & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 에서 다음 명령을 실행 하 여 사서함에 적용 된 ediscovery 사례 ( *ediscovery 보류*)와 관련 된 보류를 확인 합니다. `UniH`1 단계에서 확인 한 eDiscovery 보존에 대 한 GUID (접두사를 포함 하지 않음)를 사용 합니다. 두 번째 명령은 보류가 연결 된 eDiscovery 사례의 이름을 표시 합니다. 세 번째 명령은 보류의 이름을 표시 합니다.
   
 ```powershell
 $CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>
