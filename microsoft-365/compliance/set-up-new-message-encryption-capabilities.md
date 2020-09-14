@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 조직 내부나 조직 외부의 사람과 보호된 전자 메일을 사용하여 통신할 수 있게 하는 새 Office 365 메시지 암호화 기능에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d6e37da7456cfbb0b7cbf8d986b54615aca60f0
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 4102611d3be43a5bedffc83fba5c83c0b648ca42
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819188"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547620"
 ---
 # <a name="set-up-new-message-encryption-capabilities"></a>새 메시지 암호화 기능 설정하기
 
@@ -62,9 +62,9 @@ Azure RMS를 비활성화로 설정한 경우나, 어떤 이유에서 자동으�
 
 ## <a name="verify-new-ome-configuration-in-exchange-online-powershell"></a>Exchange Online PowerShell에서 새 OME 구성 확인
 
-[Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)에서 새 OME 기능을 사용할 수 있도록 Microsoft 365 테넌트가 올바르게 구성되었는지 확인할 수 있습니다.
+[Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)에서 새 OME 기능을 사용할 수 있도록 Microsoft 365 테넌트가 올바르게 구성되었는지 확인할 수 있습니다.
   
-1. Microsoft 365 테넌트에서 전역 관리자 권한을 사용하여 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)합니다.
+1. Microsoft 365 테넌트에서 전역 관리자 권한을 사용하여 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)합니다.
 
 2. Get-IRMConfiguration cmdlet을 실행합니다.
 

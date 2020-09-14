@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: 보안 및 준수 센터의 콘텐츠 검색 도구를 사용하여 Exchange 하이브리드 배포에서 온-프레미스 사용자의 Teams 채팅 데이터를 검색하고 내보낼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 159c9c674feca4b01618289b194dd162c9020d59
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: e3bb1f187faf3196dae6aa663af89dcb2b9e7e53
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818887"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547598"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users"></a>온-프레미스 사용자의 클라우드 기반 사서함 검색
 
@@ -110,7 +110,7 @@ Microsoft 지원 요청을 제출할 때 다음 정보를 포함해야 합니다
 
 보안 및 준수 센터 PowerShell에서 **New-ComplianceSearch** 및 **Set-ComplianceSearch** cmdlet을 사용하여 온-프레미스 사용자의 클라우드 기반 사서함을 검색할 수 있습니다. 앞서 설명한 것처럼 PowerShell을 사용하여 온-프레미스 사용자의 Teams 채팅 데이터를 검색하는 데는 지원 요청을 제출하지 않아도 됩니다. 
   
-1. [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
+1. [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
 
 2. 다음 PowerShell 명령을 실행하여 온-프레미스 사용자의 클라우드 기반 사서함을 검색하는 콘텐츠 검색을 만듭니다.
 

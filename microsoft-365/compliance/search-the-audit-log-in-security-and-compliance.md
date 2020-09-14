@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자와 관리자 활동을 확인합니다. '
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d65b64f80dc9d8c3c799e8044d6fc5d3dfec4321
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 21a8ea6f930efcd106c541021c9b9bd47af43f23
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357810"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547254"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
@@ -828,14 +828,14 @@ Forms는 양식을 설계할 때와 응답을 분석할 때 공동 작업을 지
 
 |이름|작업|설명|
 |:-----|:-----|:-----|
-| 보존 정책에 대해 구성된 설정 |NewRetentionComplianceRule |관리자가 새 보존 정책에 대한 보존 설정을 구성했습니다. 보존 설정에는 항목이 보존되는 기간과 보존 기간이 만료될 때 발생하는 작업(예: 항목 삭제, 항목 보존, 보존 및 삭제)이 포함됩니다. 이 활동은 [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancerule) cmdlet을 실행하는 것과도 같습니다.|
+| 보존 정책에 대해 구성된 설정 |NewRetentionComplianceRule |관리자가 새 보존 정책에 대한 보존 설정을 구성했습니다. 보존 설정에는 항목이 보존되는 기간과 보존 기간이 만료될 때 발생하는 작업(예: 항목 삭제, 항목 보존, 보존 및 삭제)이 포함됩니다. 이 활동은 [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancerule) cmdlet을 실행하는 것과도 같습니다.|
 | 보존 레이블을 만들었습니다. |NewComplianceTag |관리자가 새 보존 레이블을 만들었습니다.|
 | 보존 정책을 만들었습니다. |NewRetentionCompliancePolicy|관리자가 새 보존 정책을 만들었습니다.|
 | 보존 정책에서 설정을 삭제했습니다.| RemoveRetentionComplianceRule<br/>| 관리자가 보존 정책의 구성 설정을 삭제했습니다. 이 활동은 관리자가 보존 정책을 삭제하거나 [RetentionComplianceRule 제거](https://docs.microsoft.com/powershell/module/exchange/Remove-RetentionComplianceRule) cmdlet을 실행할 때 기록될 가능성이 높습니다.|
 | 보존 레이블 삭제. |RemoveComplianceTag | 관리자가 보존 레이블을 삭제했습니다.|
 | 보존 정책을 삭제했습니다. |RemoveRetentionCompliancePolicy<br/> |관리자가 보존 정책을 삭제했습니다. |
 | 보존 레이블에 대한 규제 레코드 옵션이 활성화되었습니다.<br/> |SetRestrictiveRetentionUI |관리자가 [Set-RegulatoryCompliance를 설정](https://docs.microsoft.com/powershell/module/exchange/set-regulatorycomplianceui) cmdlet을 사용하면 관리자가 보존 레이블에 대한 UI 구성 옵션을 선택하여 내용을 규제 레코드로 표시할 수 있습니다.|
-| 보존 정책에 대한 설정 업데이트 | SetRetentionComplianceRule | 관리자가 기존 보존 정책에 대한 보존 설정을 변경했습니다. 보존 설정에는 항목이 보존되는 기간과 보존 기간이 만료될 때 발생하는 작업(예: 항목 삭제, 항목 보존, 보존 및 삭제)이 포함됩니다. 이 활동은 [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancerule) cmdlet을 실행하는 것과도 같습니다. |
+| 보존 정책에 대한 설정 업데이트 | SetRetentionComplianceRule | 관리자가 기존 보존 정책에 대한 보존 설정을 변경했습니다. 보존 설정에는 항목이 보존되는 기간과 보존 기간이 만료될 때 발생하는 작업(예: 항목 삭제, 항목 보존, 보존 및 삭제)이 포함됩니다. 이 활동은 [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancerule) cmdlet을 실행하는 것과도 같습니다. |
 | 보존 레이블 업데이트 |SetComplianceTag  | 관리자가 기존 보존 레이블을 업데이트했습니다.|
 | 보존 정책이 업데이트되었습니다. |SetRetentionCompliancePolicy |관리자가 기존 보존 정책을 업데이트했습니다. 이 이벤트를 트리거하는 업데이트에는 보존 정책이 적용되는 콘텐츠 위치 추가 또는 제외가 포함됩니다.|
 

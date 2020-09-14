@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보안 및 준수 센터에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고 가져오는 방법을 알아보세요.
-ms.openlocfilehash: e0b2cbdad49c19e34237095b7825b4a3496fd570
-ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
+ms.openlocfilehash: e5669e51dd22c2f33334797a808b50ef1c0861fc
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086625"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546770"
 ---
 # <a name="create-a-custom-sensitive-information-type-in-security--compliance-center-powershell"></a>보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기
 
@@ -350,7 +350,7 @@ Version 요소도 중요합니다. 처음으로 규칙 패키지를 업로드하
 
 이전에는 Exchange Online PowerShell을 사용하여 DLP에 대한 사용자 지정 중요한 정보 유형을 가져왔습니다. 이제 사용자 지정 중요한 정보 유형은 Exchange 관리 센터와 보안 및 &amp;준수 센터 둘 다에서 사용할 수 있습니다. 이러한 기능 개선의 일부로, 보안 및 &amp;준수 센터 PowerShell을 사용하여 사용자 지정 중요한 정보 유형을 가져와야 하며, 더 이상 Exchange Powershell에서 가져올 수 없습니다. 사용자 지정 중요한 정보 유형은 이전과 마찬가지로 계속 작동하지만 보안 및 &amp;준수 센터의 사용자 지정 중요한 정보 유형에 대한 변경 내용이 Exchange 관리 센터에 반영되는 데 최대 1시간이 소요될 수 있습니다.
   
-보안 &amp; 준수 센터에서 **[New-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/new-dlpsensitiveinformationtyperulepackage?view=exchange-ps)** cmdlet을 사용하여 규칙 패키지를 업로드할 수 있습니다. 이전에는 Exchange 관리 센터에서 **ClassificationRuleCollection**` cmdlet을 사용했습니다. 
+보안 &amp; 준수 센터에서 **[New-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/new-dlpsensitiveinformationtyperulepackage)** cmdlet을 사용하여 규칙 패키지를 업로드할 수 있습니다. 이전에는 Exchange 관리 센터에서 **ClassificationRuleCollection**` cmdlet을 사용했습니다. 
   
 ## <a name="upload-your-rule-package"></a>규칙 패키지 업로드
 
@@ -381,13 +381,13 @@ Version 요소도 중요합니다. 처음으로 규칙 패키지를 업로드하
 
 4. 새로운 중요한 정보 유형을 성공적으로 만들었는지 확인하려면 다음 단계를 수행합니다.
 
-   - [DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtyperulepackage?view=exchange-ps) cmdlet을 실행하여 새 규칙 패키지가 나열되는지 확인합니다.
+   - [DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtyperulepackage) cmdlet을 실행하여 새 규칙 패키지가 나열되는지 확인합니다.
 
      ```powershell
      Get-DlpSensitiveInformationTypeRulePackage
      ``` 
 
-   - [DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtype?view=exchange-ps) cmdlet을 실행하여 중요한 정보 유형이 나열되는지 확인합니다.
+   - [DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtype) cmdlet을 실행하여 중요한 정보 유형이 나열되는지 확인합니다.
 
      ```powershell
      Get-DlpSensitiveInformationType
@@ -395,7 +395,7 @@ Version 요소도 중요합니다. 처음으로 규칙 패키지를 업로드하
 
      사용자 지정 중요한 정보 유형의 경우 게시자 속성 값은 Microsoft Corporation이 아닌 다른 값이 됩니다.
 
-   - \<Name\>(을)를 중요한 정보 유형의 이름 값(예: 직원 ID)으로 바꾸고 [Get-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtype?view=exchange-ps) cmdlet을 실행합니다.
+   - \<Name\>(을)를 중요한 정보 유형의 이름 값(예: 직원 ID)으로 바꾸고 [Get-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtype) cmdlet을 실행합니다.
 
      ```powershell
      Get-DlpSensitiveInformationType -Identity "<Name>"
@@ -456,7 +456,7 @@ Microsoft 365에서 전체 테넌트의 다시 크롤링을 수동으로 요청�
 
 1. [보안 및 준수 센터 PowerShell에 연결하기](https://go.microsoft.com/fwlink/p/?LinkID=799771)
 
-2. 사용자 지정 규칙 패키지를 제거하려면 [Remove-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/remove-dlpsensitiveinformationtyperulepackage?view=exchange-ps) cmdlet을 사용합니다.
+2. 사용자 지정 규칙 패키지를 제거하려면 [Remove-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/remove-dlpsensitiveinformationtyperulepackage) cmdlet을 사용합니다.
 
    ```powershell
    Remove-DlpSensitiveInformationTypeRulePackage -Identity "RulePackageIdentity"
@@ -474,13 +474,13 @@ Microsoft 365에서 전체 테넌트의 다시 크롤링을 수동으로 요청�
 
 3. 사용자 지정 중요한 정보 유형을 성공적으로 제거했는지 확인하려면 다음 단계를 수행합니다.
 
-   - [DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtyperulepackage?view=exchange-ps) cmdlet을 실행하고 이 규칙 패키지가 더 이상 나열되지 않는지 확인합니다.
+   - [DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtyperulepackage) cmdlet을 실행하고 이 규칙 패키지가 더 이상 나열되지 않는지 확인합니다.
 
      ```powershell
      Get-DlpSensitiveInformationTypeRulePackage
      ```
 
-   - [DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtype?view=exchange-ps) cmdlet을 실행하여 제거된 규칙 패키지에서 더 이상 중요한 정보 유형이 나열되지 않는지 확인합니다.
+   - [DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtype) cmdlet을 실행하여 제거된 규칙 패키지에서 더 이상 중요한 정보 유형이 나열되지 않는지 확인합니다.
 
      ```powershell
      Get-DlpSensitiveInformationType
@@ -488,7 +488,7 @@ Microsoft 365에서 전체 테넌트의 다시 크롤링을 수동으로 요청�
 
      사용자 지정 중요한 정보 유형의 경우 게시자 속성 값은 Microsoft Corporation이 아닌 다른 값이 됩니다.
 
-   - \<Name\>(을)를 중요한 정보 유형의 이름 값(예: 직원 ID)으로 바꾸고 [Get-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtype?view=exchange-ps) cmdlet을 실행하여 중요한 정보 유형이 더 이상 나열되지 않는지 확인합니다.
+   - \<Name\>(을)를 중요한 정보 유형의 이름 값(예: 직원 ID)으로 바꾸고 [Get-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtype) cmdlet을 실행하여 중요한 정보 유형이 더 이상 나열되지 않는지 확인합니다.
 
      ```powershell
      Get-DlpSensitiveInformationType -Identity "<Name>"
@@ -511,7 +511,7 @@ Microsoft 365에서 전체 테넌트의 다시 크롤링을 수동으로 요청�
 > [!NOTE]
 > XML 파일의 복사본이 있는 경우(예: XML 파일을 만들고 가져온 경우) 다음 단계로 건너 뛰고 XML 파일을 수정할 수 있습니다.
 
-1. 아직 모르는 경우 [Get-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtype?view=exchange-ps) cmdlet을 실행하여 사용자 지정 규칙 패키지의 이름을 찾습니다.
+1. 아직 모르는 경우 [Get-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtype) cmdlet을 실행하여 사용자 지정 규칙 패키지의 이름을 찾습니다.
 
    ```powershell
    Get-DlpSensitiveInformationTypeRulePackage
@@ -520,7 +520,7 @@ Microsoft 365에서 전체 테넌트의 다시 크롤링을 수동으로 요청�
    > [!NOTE]
    > 기본 제공되는 중요한 정보 유형을 포함하는 기본 제공 규칙 패키지를 Microsoft Rule Package라고 합니다. 보안 및 준수 센터 UI에서 만든 사용자 지정 중요한 정보 유형을 포함하는 규칙 패키지는 Microsoft.SCCManaged.CustomRulePack라고 합니다.
 
-2. [DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtyperulepackage?view=exchange-ps) cmdlet을 사용하여 사용자 지정 규칙 패키지를 변수에 저장합니다.
+2. [DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtyperulepackage) cmdlet을 사용하여 사용자 지정 규칙 패키지를 변수에 저장합니다.
 
    ```powershell
    $rulepak = Get-DlpSensitiveInformationTypeRulePackage -Identity "RulePackageName"
@@ -550,7 +550,7 @@ XML 파일의 중요한 정보 유형 및 파일의 기타 요소는 이 항목�
 
 #### <a name="step-3-import-the-updated-xml-file-back-into-the-existing-rule-package"></a>3단계: 기존 규칙 패키지에 업데이트된 XML 파일 다시 가져오기
 
-업데이트된 XML을 기존 규칙 패키지로 가져오려면 [Set-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/set-dlpsensitiveinformationtyperulepackage?view=exchange-ps) cmdlet을 사용합니다.
+업데이트된 XML을 기존 규칙 패키지로 가져오려면 [Set-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/set-dlpsensitiveinformationtyperulepackage) cmdlet을 사용합니다.
 
 ```powershell
 Set-DlpSensitiveInformationTypeRulePackage -FileData ([Byte[]]$(Get-Content -Path "C:\My Documents\External Sensitive Info Type Rule Collection.xml" -Encoding Byte -ReadCount 0))

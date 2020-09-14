@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365에서 조직의 중요한 정보를 자동으로 식별하고 모니터링하고 보호하는 방법을 알아봅니다.
-ms.openlocfilehash: 8d507a32a6f36555eabfa0216febdb167ad4241c
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: fc2287743bbe0239442e9507464dda4599880eb0
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127535"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546218"
 ---
 # <a name="overview-of-data-loss-prevention"></a>데이터 손실 방지 개요
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -529,19 +529,19 @@ DLP 정책을 만드는 규정 준수 팀의 구성원에게는 보안 &amp; 준
 
 대부분의 보안 &amp; 준수 센터용 cmdlet을 사용하려면 다음의 단계를 따르십시오:
   
-1. [원격 PowerShell을 사용하여 Office 365 보안 &amp; 준수 센터에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
+1. [원격 PowerShell을 사용하여 Office 365 보안 &amp; 준수 센터에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
     
-2. 이 [policy-and-compliance-dlp cmdlets](https://docs.microsoft.com/powershell/module/exchange/export-dlppolicycollection?view=exchange-ps) 중 하나를 사용하십시오.
+2. 이 [policy-and-compliance-dlp cmdlets](https://docs.microsoft.com/powershell/module/exchange/export-dlppolicycollection) 중 하나를 사용하십시오.
     
 하지만 DLP 보고서에서는 Exchange Online을 포함한 Microsoft 365에서 데이터를 가져와야 합니다. 이러한 이유로 **DLP 보고서용 cmdlet은 보안 &amp; 준수 센터 Powershell이 아닌 Exchange Online Powershell에서 사용할 수 있습니다.** 따라서 DLP 보고서용 cmdlet을 사용하려면 다음의 단계가 필요합니다:
   
-1. [원격 PowerShell을 사용하여 Exchange Online에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)합니다.
+1. [원격 PowerShell을 사용하여 Exchange Online에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)합니다.
     
 2. 다음과 같은 DLP 보고서용 cmdlet 중 하나 사용
     
-    - [Get-DlpDetectionsReport](https://docs.microsoft.com/powershell/module/exchange/Get-DlpDetectionsReport?view=exchange-ps)
+    - [Get-DlpDetectionsReport](https://docs.microsoft.com/powershell/module/exchange/Get-DlpDetectionsReport)
 
-    - [Get-DlpDetailReport](https://docs.microsoft.com/powershell/module/exchange/Get-DlpDetailReport?view=exchange-ps)
+    - [Get-DlpDetailReport](https://docs.microsoft.com/powershell/module/exchange/Get-DlpDetailReport)
     
 ## <a name="more-information"></a>추가 정보
 

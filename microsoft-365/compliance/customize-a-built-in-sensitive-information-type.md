@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 조직의 요구 사항에 맞는 규칙을 사용할 수 있도록 해주는 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 6e9fb0295f8958584878921c1fac362dc511be8f
-ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
+ms.openlocfilehash: 745cea9a0851168999335e27b970276726b516d0
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086615"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546666"
 ---
 # <a name="customize-a-built-in-sensitive-information-type"></a>기본 제공 중요한 정보 유형 사용자 지정
 
@@ -33,7 +33,7 @@ ms.locfileid: "45086615"
   
 ## <a name="export-the-xml-file-of-the-current-rules"></a>현재 규칙의 XML 파일 내보내기
 
-XML을 내보내려면 [원격 PowerShell을 통해 보안 및 준수 센터에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)해야 합니다.
+XML을 내보내려면 [원격 PowerShell을 통해 보안 및 준수 센터에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)해야 합니다.
   
 1. PowerShell에서 다음을 입력하여 화면에 조직의 규칙을 표시합니다. 고유한 규칙을 아직 만들지 않은 경우 “Microsoft 규칙 패키지”라는 기본 제공 규칙만 표시됩니다.
 
