@@ -18,117 +18,117 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 보안 및 준수 센터에서 키워드 사전을 만드는 기본 단계에 대해 알아봅니다.
-ms.openlocfilehash: bad95e9a5605631de3e8652e7243909f28b2abde
-ms.sourcegitcommit: b144e8ba1ab0c40fa7e0e8e893b5cb44aa2d8243
+ms.openlocfilehash: 7fe425a1f8ac954c6c24752927b218fc7e6f37c7
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47282738"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547012"
 ---
-# <a name="create-a-keyword-dictionary"></a><span data-ttu-id="9ad9f-103">키워드 사전 만들기</span><span class="sxs-lookup"><span data-stu-id="9ad9f-103">Create a keyword dictionary</span></span>
+# <a name="create-a-keyword-dictionary"></a><span data-ttu-id="b7c01-103">키워드 사전 만들기</span><span class="sxs-lookup"><span data-stu-id="b7c01-103">Create a keyword dictionary</span></span>
 
-<span data-ttu-id="9ad9f-104">DLP(데이터 손실 방지)는 중요한 항목을 식별, 모니터링 및 보호할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-104">Data loss prevention (DLP) can identify, monitor, and protect your sensitive items.</span></span> <span data-ttu-id="9ad9f-105">중요한 항목을 식별하려면 키워드를 찾아야 하는 경우가 있으며, 특히 의료 관련 통신과 같은 일반 컨텐츠 또는 부적절하거나 명시적인 언어를 식별해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-105">Identifying sensitive items sometimes requires looking for keywords, particularly when identifying generic content (such as healthcare-related communication), or inappropriate or explicit language.</span></span> <span data-ttu-id="9ad9f-106">중요한 정보 유형에서 키워드 목록을 만들 수 있지만 키워드 목록은 크기가 제한되어 있으며, 키워드 목록을 만들거나 편집하려면 XML을 수정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-106">Although you can create keyword lists in sensitive information types, keyword lists are limited in size and require modifying XML to create or edit them.</span></span> <span data-ttu-id="9ad9f-107">키워드 사전은 키워드 관리를 보다 간단하고 훨씬 더 큰 규모로 제공하여 사전에서 최대 100KB의 용어(사후 압축)를 지원하고 모든 언어를 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-107">Keyword dictionaries provide simpler management of keywords and at a much larger scale, supporting up to 100KB of terms (post compression) in the dictionary and support any language.</span></span> <span data-ttu-id="9ad9f-108">테넌트 제한도 압축 후에 100KB가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-108">The tenant limit is also 100KB after compression.</span></span>
+<span data-ttu-id="b7c01-104">DLP(데이터 손실 방지)는 중요한 항목을 식별, 모니터링 및 보호할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-104">Data loss prevention (DLP) can identify, monitor, and protect your sensitive items.</span></span> <span data-ttu-id="b7c01-105">중요한 항목을 식별하려면 키워드를 찾아야 하는 경우가 있으며, 특히 의료 관련 통신과 같은 일반 컨텐츠 또는 부적절하거나 명시적인 언어를 식별해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-105">Identifying sensitive items sometimes requires looking for keywords, particularly when identifying generic content (such as healthcare-related communication), or inappropriate or explicit language.</span></span> <span data-ttu-id="b7c01-106">중요한 정보 유형에서 키워드 목록을 만들 수 있지만 키워드 목록은 크기가 제한되어 있으며, 키워드 목록을 만들거나 편집하려면 XML을 수정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-106">Although you can create keyword lists in sensitive information types, keyword lists are limited in size and require modifying XML to create or edit them.</span></span> <span data-ttu-id="b7c01-107">키워드 사전은 키워드 관리를 보다 간단하고 훨씬 더 큰 규모로 제공하여 사전에서 최대 100KB의 용어(사후 압축)를 지원하고 모든 언어를 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-107">Keyword dictionaries provide simpler management of keywords and at a much larger scale, supporting up to 100KB of terms (post compression) in the dictionary and support any language.</span></span> <span data-ttu-id="b7c01-108">테넌트 제한도 압축 후에 100KB가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-108">The tenant limit is also 100KB after compression.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="9ad9f-109">Microsoft 365 Information Protection은 이제 다음에 대해 미리보기 더블 바이트 문자 집합 언어를 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-109">Microsoft 365 Information Protection now  supports in preview double byte character set languages for:</span></span>
-> - <span data-ttu-id="9ad9f-110">중국어(간체)</span><span class="sxs-lookup"><span data-stu-id="9ad9f-110">Chinese (simplified)</span></span>
-> - <span data-ttu-id="9ad9f-111">중국어(번체)</span><span class="sxs-lookup"><span data-stu-id="9ad9f-111">Chinese (traditional)</span></span>
-> - <span data-ttu-id="9ad9f-112">한국어</span><span class="sxs-lookup"><span data-stu-id="9ad9f-112">Korean</span></span>
-> - <span data-ttu-id="9ad9f-113">일본어</span><span class="sxs-lookup"><span data-stu-id="9ad9f-113">Japanese</span></span>
+> <span data-ttu-id="b7c01-109">Microsoft 365 Information Protection은 이제 다음에 대해 미리보기 더블 바이트 문자 집합 언어를 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-109">Microsoft 365 Information Protection now  supports in preview double byte character set languages for:</span></span>
+> - <span data-ttu-id="b7c01-110">중국어(간체)</span><span class="sxs-lookup"><span data-stu-id="b7c01-110">Chinese (simplified)</span></span>
+> - <span data-ttu-id="b7c01-111">중국어(번체)</span><span class="sxs-lookup"><span data-stu-id="b7c01-111">Chinese (traditional)</span></span>
+> - <span data-ttu-id="b7c01-112">한국어</span><span class="sxs-lookup"><span data-stu-id="b7c01-112">Korean</span></span>
+> - <span data-ttu-id="b7c01-113">일본어</span><span class="sxs-lookup"><span data-stu-id="b7c01-113">Japanese</span></span>
 > 
-><span data-ttu-id="9ad9f-114">이 미리 보기는 상용 클라우드에서만 실행되며 롤아웃은 다음으로 제한됩니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-114">This preview is only in the commercial cloud and the rollout is limited to:</span></span>
-> - <span data-ttu-id="9ad9f-115">일본</span><span class="sxs-lookup"><span data-stu-id="9ad9f-115">Japan</span></span>
-> - <span data-ttu-id="9ad9f-116">한국</span><span class="sxs-lookup"><span data-stu-id="9ad9f-116">Korea</span></span>
-> - <span data-ttu-id="9ad9f-117">중국</span><span class="sxs-lookup"><span data-stu-id="9ad9f-117">China</span></span>
-> - <span data-ttu-id="9ad9f-118">홍콩</span><span class="sxs-lookup"><span data-stu-id="9ad9f-118">Hong Kong</span></span>
-> - <span data-ttu-id="9ad9f-119">마카오</span><span class="sxs-lookup"><span data-stu-id="9ad9f-119">Macau</span></span>
-> - <span data-ttu-id="9ad9f-120">대만</span><span class="sxs-lookup"><span data-stu-id="9ad9f-120">Taiwan</span></span>
+><span data-ttu-id="b7c01-114">이 미리 보기는 상용 클라우드에서만 실행되며 롤아웃은 다음으로 제한됩니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-114">This preview is only in the commercial cloud and the rollout is limited to:</span></span>
+> - <span data-ttu-id="b7c01-115">일본</span><span class="sxs-lookup"><span data-stu-id="b7c01-115">Japan</span></span>
+> - <span data-ttu-id="b7c01-116">한국</span><span class="sxs-lookup"><span data-stu-id="b7c01-116">Korea</span></span>
+> - <span data-ttu-id="b7c01-117">중국</span><span class="sxs-lookup"><span data-stu-id="b7c01-117">China</span></span>
+> - <span data-ttu-id="b7c01-118">홍콩</span><span class="sxs-lookup"><span data-stu-id="b7c01-118">Hong Kong</span></span>
+> - <span data-ttu-id="b7c01-119">마카오</span><span class="sxs-lookup"><span data-stu-id="b7c01-119">Macau</span></span>
+> - <span data-ttu-id="b7c01-120">대만</span><span class="sxs-lookup"><span data-stu-id="b7c01-120">Taiwan</span></span>
 >
-><span data-ttu-id="9ad9f-121">이 지원은 중요한 정보 유형에 대해 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-121">This support is available for sensitive information types.</span></span> <span data-ttu-id="9ad9f-122">자세한 정보는 [더블 바이트 문자 집합 릴리스 정보(미리 보기)에 대한 정보 보호 지원](mip-dbcs-relnotes.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-122">See, [Information protection support for double byte character sets release notes (preview)](mip-dbcs-relnotes.md) for more information.</span></span>
+><span data-ttu-id="b7c01-121">이 지원은 중요한 정보 유형에 대해 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-121">This support is available for sensitive information types.</span></span> <span data-ttu-id="b7c01-122">자세한 정보는 [더블 바이트 문자 집합 릴리스 정보(미리 보기)에 대한 정보 보호 지원](mip-dbcs-relnotes.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="b7c01-122">See, [Information protection support for double byte character sets release notes (preview)](mip-dbcs-relnotes.md) for more information.</span></span>
 
-## <a name="basic-steps-to-creating-a-keyword-dictionary"></a><span data-ttu-id="9ad9f-123">키워드 사전을 만드는 기본 단계</span><span class="sxs-lookup"><span data-stu-id="9ad9f-123">Basic steps to creating a keyword dictionary</span></span>
+## <a name="basic-steps-to-creating-a-keyword-dictionary"></a><span data-ttu-id="b7c01-123">키워드 사전을 만드는 기본 단계</span><span class="sxs-lookup"><span data-stu-id="b7c01-123">Basic steps to creating a keyword dictionary</span></span>
 
-<span data-ttu-id="9ad9f-p103">사전의 키워드는 다양한 원본, 서비스 또는 PowerShell cmdlet에서 가져온 파일(예:.csv 또는 .txt 목록)(대부분의 경우), PowerShell cmdlet에 사용자가 직접 입력한 목록 또는 기존 사전에서 가져올 수 있습니다. 키워드 사전을 만들 때 다음과 같은 동일한 핵심 단계를 따르세요.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-p103">The keywords for your dictionary could come from a variety of sources, most commonly from a file (such as a .csv or .txt list) imported in the service or by PowerShell cmdlet, from a list you enter directly in the PowerShell cmdlet, or from an existing dictionary. When you create a keyword dictionary, you follow the same core steps:</span></span>
+<span data-ttu-id="b7c01-p103">사전의 키워드는 다양한 원본, 서비스 또는 PowerShell cmdlet에서 가져온 파일(예:.csv 또는 .txt 목록)(대부분의 경우), PowerShell cmdlet에 사용자가 직접 입력한 목록 또는 기존 사전에서 가져올 수 있습니다. 키워드 사전을 만들 때 다음과 같은 동일한 핵심 단계를 따르세요.</span><span class="sxs-lookup"><span data-stu-id="b7c01-p103">The keywords for your dictionary could come from a variety of sources, most commonly from a file (such as a .csv or .txt list) imported in the service or by PowerShell cmdlet, from a list you enter directly in the PowerShell cmdlet, or from an existing dictionary. When you create a keyword dictionary, you follow the same core steps:</span></span>
   
-1. <span data-ttu-id="9ad9f-126">**보안 및 규정 준수 센터**([https://protection.office.com](https://protection.office.com))를 사용하거나 **보안 &amp;준수 센터 PowerShell**에 연결합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-126">Use the **Security & Compliance Center** ([https://protection.office.com](https://protection.office.com)) or connect to  **Security &amp; Compliance Center PowerShell**.</span></span>
+1. <span data-ttu-id="b7c01-126">**보안 및 규정 준수 센터**([https://protection.office.com](https://protection.office.com))를 사용하거나 **보안 &amp;준수 센터 PowerShell**에 연결합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-126">Use the **Security & Compliance Center** ([https://protection.office.com](https://protection.office.com)) or connect to  **Security &amp; Compliance Center PowerShell**.</span></span>
     
-2. <span data-ttu-id="9ad9f-127">**원하는 원본**에서 키워드를 정의 하거나 로드할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-127">**Define or load your keywords from your intended source**.</span></span> <span data-ttu-id="9ad9f-128">마법사와 cmdlet 모두 쉼표로 구분된 키워드 목록을 사용하여 사용자 정의 키워드 사전을 만들 수 있으므로 이 단계는 키워드의 출처에 따라 약간 다릅니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-128">The wizard and the cmdlet both accept a comma-separated list of keywords to create a custom keyword dictionary, so this step will vary slightly depending on where your keywords come from.</span></span> <span data-ttu-id="9ad9f-129">로드되면 가져오기 전에 인코딩 및 바이트 배열로 변환됩니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-129">Once loaded, they're encoded and converted to a byte array before they're imported.</span></span>
+2. <span data-ttu-id="b7c01-127">**원하는 원본**에서 키워드를 정의 하거나 로드할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-127">**Define or load your keywords from your intended source**.</span></span> <span data-ttu-id="b7c01-128">마법사와 cmdlet 모두 쉼표로 구분된 키워드 목록을 사용하여 사용자 정의 키워드 사전을 만들 수 있으므로 이 단계는 키워드의 출처에 따라 약간 다릅니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-128">The wizard and the cmdlet both accept a comma-separated list of keywords to create a custom keyword dictionary, so this step will vary slightly depending on where your keywords come from.</span></span> <span data-ttu-id="b7c01-129">로드되면 가져오기 전에 인코딩 및 바이트 배열로 변환됩니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-129">Once loaded, they're encoded and converted to a byte array before they're imported.</span></span>
     
-3. <span data-ttu-id="9ad9f-130">**사전을 만듭니다**.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-130">**Create your dictionary**.</span></span> <span data-ttu-id="9ad9f-131">이름과 설명을 선택하고 사전을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-131">Choose a name and description and create your dictionary.</span></span>
+3. <span data-ttu-id="b7c01-130">**사전을 만듭니다**.</span><span class="sxs-lookup"><span data-stu-id="b7c01-130">**Create your dictionary**.</span></span> <span data-ttu-id="b7c01-131">이름과 설명을 선택하고 사전을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-131">Choose a name and description and create your dictionary.</span></span>
 
-## <a name="create-a-keyword-dictionary-using-the-security--compliance-center"></a><span data-ttu-id="9ad9f-132">보안 및 준수 센터를 사용하여 키워드 사전을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-132">Create a keyword dictionary using the Security & Compliance Center</span></span>
+## <a name="create-a-keyword-dictionary-using-the-security--compliance-center"></a><span data-ttu-id="b7c01-132">보안 및 준수 센터를 사용하여 키워드 사전을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-132">Create a keyword dictionary using the Security & Compliance Center</span></span>
 
-<span data-ttu-id="9ad9f-133">다음 단계를 따라 사용자 지정 사전에 대한 키워드를 만들고 가져오세요.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-133">Use the following steps to create and import keywords for a custom dictionary:</span></span>
+<span data-ttu-id="b7c01-133">다음 단계를 따라 사용자 지정 사전에 대한 키워드를 만들고 가져오세요.</span><span class="sxs-lookup"><span data-stu-id="b7c01-133">Use the following steps to create and import keywords for a custom dictionary:</span></span>
 
-1. <span data-ttu-id="9ad9f-134">보안 및 규정 준수 센터([https://protection.office.com](https://protection.office.com))에 연결합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-134">Connect to the Security & Compliance Center ([https://protection.office.com](https://protection.office.com)).</span></span>
+1. <span data-ttu-id="b7c01-134">보안 및 규정 준수 센터([https://protection.office.com](https://protection.office.com))에 연결합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-134">Connect to the Security & Compliance Center ([https://protection.office.com](https://protection.office.com)).</span></span>
 
-2. <span data-ttu-id="9ad9f-135">**분류 > 중요한 정보 유형**으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-135">Navigate to **Classifications > Sensitive info types**.</span></span>
+2. <span data-ttu-id="b7c01-135">**분류 > 중요한 정보 유형**으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-135">Navigate to **Classifications > Sensitive info types**.</span></span>
 
-3. <span data-ttu-id="9ad9f-136">**만들기**를 선택하고 중요한 정보 유형에 대한 **이름** 및 **설명**을 입력하고 **다음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-136">Select **Create** and enter a **Name** and **Description** for your sensitive info type, then select **Next**</span></span>
+3. <span data-ttu-id="b7c01-136">**만들기**를 선택하고 중요한 정보 유형에 대한 **이름** 및 **설명**을 입력하고 **다음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-136">Select **Create** and enter a **Name** and **Description** for your sensitive info type, then select **Next**</span></span>
 
-4. <span data-ttu-id="9ad9f-137">**요소 추가**를 선택한 다음 **다음이 포함된 내용 감지** 드롭다운에서 **사전(광범위한 키워드)** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-137">Select **Add an element**, then select **Dictionary (Large keywords)** in the **Detect content containing** drop-down list.</span></span>
+4. <span data-ttu-id="b7c01-137">**요소 추가**를 선택한 다음 **다음이 포함된 내용 감지** 드롭다운에서 **사전(광범위한 키워드)** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-137">Select **Add an element**, then select **Dictionary (Large keywords)** in the **Detect content containing** drop-down list.</span></span>
 
-5. <span data-ttu-id="9ad9f-138">**사전 추가**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-138">Select **Add a dictionary**</span></span>
+5. <span data-ttu-id="b7c01-138">**사전 추가**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-138">Select **Add a dictionary**</span></span>
 
-6. <span data-ttu-id="9ad9f-139">검색 컨트롤에서 **여기에서 새 키워드 사전을 만들 수 있음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-139">Under the Search control, select **You can create new keyword dictionaries here**.</span></span>
+6. <span data-ttu-id="b7c01-139">검색 컨트롤에서 **여기에서 새 키워드 사전을 만들 수 있음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-139">Under the Search control, select **You can create new keyword dictionaries here**.</span></span>
 
-7. <span data-ttu-id="9ad9f-140">사용자 지정 사전에 대한 **이름**을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-140">Enter a **Name** for your custom dictionary.</span></span>
+7. <span data-ttu-id="b7c01-140">사용자 지정 사전에 대한 **이름**을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-140">Enter a **Name** for your custom dictionary.</span></span>
 
-8. <span data-ttu-id="9ad9f-141">**가져오기**를 선택하고 키워드 파일 종류에 따라 **텍스트 파일에서** 또는 **csv 파일에서** 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-141">Select **Import**, and select either **From text** or **From csv** depending on your keyword file type.</span></span>
+8. <span data-ttu-id="b7c01-141">**가져오기**를 선택하고 키워드 파일 종류에 따라 **텍스트 파일에서** 또는 **csv 파일에서** 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-141">Select **Import**, and select either **From text** or **From csv** depending on your keyword file type.</span></span>
 
-9. <span data-ttu-id="9ad9f-142">파일 대화 상자에서 로컬 PC 또는 네트워크 파일 공유에 있는 키워드 파일을 선택한 다음 **열기**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-142">In the file dialog, select the keyword file from your local PC or network file share, then select **Open**.</span></span>
+9. <span data-ttu-id="b7c01-142">파일 대화 상자에서 로컬 PC 또는 네트워크 파일 공유에 있는 키워드 파일을 선택한 다음 **열기**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-142">In the file dialog, select the keyword file from your local PC or network file share, then select **Open**.</span></span>
 
-10. <span data-ttu-id="9ad9f-143">**저장**을 선택한 다음 **키워드 사전** 목록에서 사용자 지정 사전을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-143">Select **Save**, then select your custom dictionary from the **Keyword dictionaries** list.</span></span>
+10. <span data-ttu-id="b7c01-143">**저장**을 선택한 다음 **키워드 사전** 목록에서 사용자 지정 사전을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-143">Select **Save**, then select your custom dictionary from the **Keyword dictionaries** list.</span></span>
 
-11. <span data-ttu-id="9ad9f-144">**추가**를 선택하고 **다음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-144">Select **Add**, then select **Next**.</span></span>
+11. <span data-ttu-id="b7c01-144">**추가**를 선택하고 **다음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-144">Select **Add**, then select **Next**.</span></span>
 
-12. <span data-ttu-id="9ad9f-145">중요한 정보 유형 선택 사항을 검토 및 완료한 다음 **완료**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-145">Review and finalize your sensitive info type selections, then select **Finish**.</span></span>
+12. <span data-ttu-id="b7c01-145">중요한 정보 유형 선택 사항을 검토 및 완료한 다음 **완료**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-145">Review and finalize your sensitive info type selections, then select **Finish**.</span></span>
     
-## <a name="create-a-keyword-dictionary-from-a-file-using-powershell"></a><span data-ttu-id="9ad9f-146">PowerShell을 사용하여 파일에서 키워드 사전 만들기</span><span class="sxs-lookup"><span data-stu-id="9ad9f-146">Create a keyword dictionary from a file using PowerShell</span></span>
+## <a name="create-a-keyword-dictionary-from-a-file-using-powershell"></a><span data-ttu-id="b7c01-146">PowerShell을 사용하여 파일에서 키워드 사전 만들기</span><span class="sxs-lookup"><span data-stu-id="b7c01-146">Create a keyword dictionary from a file using PowerShell</span></span>
 
-<span data-ttu-id="9ad9f-147">대형 사전을 작성해야 하는 경우 파일 또는 다른 원본에서 내보낸 목록의 키워드를 사용하는 경우가 많습니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-147">Often when you need to create a large dictionary, it's to use keywords from a file or a list exported from some other source.</span></span> <span data-ttu-id="9ad9f-148">이 경우 외부 전자 메일에서 표시하기에 부적절한 언어 목록이 포함된 키워드 사전을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-148">In this case, you'll create a keyword dictionary containing a list of inappropriate language to screen in external email.</span></span> <span data-ttu-id="9ad9f-149">먼저 [보안 &amp; 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)에 연결해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-149">You must first [connect to Security &amp; Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).</span></span>
+<span data-ttu-id="b7c01-147">대형 사전을 작성해야 하는 경우 파일 또는 다른 원본에서 내보낸 목록의 키워드를 사용하는 경우가 많습니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-147">Often when you need to create a large dictionary, it's to use keywords from a file or a list exported from some other source.</span></span> <span data-ttu-id="b7c01-148">이 경우 외부 전자 메일에서 표시하기에 부적절한 언어 목록이 포함된 키워드 사전을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-148">In this case, you'll create a keyword dictionary containing a list of inappropriate language to screen in external email.</span></span> <span data-ttu-id="b7c01-149">먼저 [보안 &amp; 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)에 연결해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-149">You must first [connect to Security &amp; Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).</span></span>
   
-1. <span data-ttu-id="9ad9f-150">키워드를 텍스트 파일에 복사합니다. 이때 각 키워드를 별도 줄에 복사해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-150">Copy the keywords into a text file and make sure that each keyword is on a separate line.</span></span>
+1. <span data-ttu-id="b7c01-150">키워드를 텍스트 파일에 복사합니다. 이때 각 키워드를 별도 줄에 복사해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-150">Copy the keywords into a text file and make sure that each keyword is on a separate line.</span></span>
     
-2. <span data-ttu-id="9ad9f-p107">텍스트 파일을 유니코드 인코딩으로 저장합니다. 메모장에서 \> **다른 이름으로 저장** \> **인코딩으로** \> **유니코드**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-p107">Save the text file with Unicode encoding. In Notepad \> **Save As** \> **Encoding** \> **Unicode**.</span></span>
+2. <span data-ttu-id="b7c01-p107">텍스트 파일을 유니코드 인코딩으로 저장합니다. 메모장에서 \> **다른 이름으로 저장** \> **인코딩으로** \> **유니코드**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-p107">Save the text file with Unicode encoding. In Notepad \> **Save As** \> **Encoding** \> **Unicode**.</span></span>
     
-3. <span data-ttu-id="9ad9f-153">다음 cmdlet을 실행하여 파일을 변수로 읽습니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-153">Read the file into a variable by running this cmdlet:</span></span>
+3. <span data-ttu-id="b7c01-153">다음 cmdlet을 실행하여 파일을 변수로 읽습니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-153">Read the file into a variable by running this cmdlet:</span></span>
     
     ```powershell
     $fileData = Get-Content <filename> -Encoding Byte -ReadCount 0
     ```
 
-4. <span data-ttu-id="9ad9f-154">다음 cmdlet을 실행하여 사전을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-154">Create the dictionary by running this cmdlet:</span></span>
+4. <span data-ttu-id="b7c01-154">다음 cmdlet을 실행하여 사전을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-154">Create the dictionary by running this cmdlet:</span></span>
     
     ```powershell
     New-DlpKeywordDictionary -Name <name> -Description <description> -FileData $fileData
     ```
 
-## <a name="modifying-an-existing-keyword-dictionary"></a><span data-ttu-id="9ad9f-155">기존 키워드 사전 수정</span><span class="sxs-lookup"><span data-stu-id="9ad9f-155">Modifying an existing keyword dictionary</span></span>
+## <a name="modifying-an-existing-keyword-dictionary"></a><span data-ttu-id="b7c01-155">기존 키워드 사전 수정</span><span class="sxs-lookup"><span data-stu-id="b7c01-155">Modifying an existing keyword dictionary</span></span>
 
-<span data-ttu-id="9ad9f-156">키워드 사전 중 하나에 있는 키워드를 수정하거나 기본 제공 사전 중 하나에서 키워드를 수정해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-156">You might need to modify keywords in one of your keyword dictionaries, or modify one of the built-in dictionaries.</span></span> <span data-ttu-id="9ad9f-157">현재는 PowerShell을 사용한 사용자 지정 사전 업데이트만 가능합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-157">Currently, your can only update a custom keyword dictionary using PowerShell.</span></span> 
+<span data-ttu-id="b7c01-156">키워드 사전 중 하나에 있는 키워드를 수정하거나 기본 제공 사전 중 하나에서 키워드를 수정해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-156">You might need to modify keywords in one of your keyword dictionaries, or modify one of the built-in dictionaries.</span></span> <span data-ttu-id="b7c01-157">현재는 PowerShell을 사용한 사용자 지정 사전 업데이트만 가능합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-157">Currently, your can only update a custom keyword dictionary using PowerShell.</span></span> 
 
-<span data-ttu-id="9ad9f-158">예를 들어 PowerShell에서 일부 용어를 수정하고, 용어를 수정할 수 있는 위치에 로컬로 저장한 다음 이전 용어를 제자리에 업데이트합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-158">For example, we'll modify some terms in PowerShell, save the terms locally where you can modify them in an editor, and then update the previous terms in place.</span></span> 
+<span data-ttu-id="b7c01-158">예를 들어 PowerShell에서 일부 용어를 수정하고, 용어를 수정할 수 있는 위치에 로컬로 저장한 다음 이전 용어를 제자리에 업데이트합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-158">For example, we'll modify some terms in PowerShell, save the terms locally where you can modify them in an editor, and then update the previous terms in place.</span></span> 
 
-<span data-ttu-id="9ad9f-159">먼저 사전 개체를 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-159">First, retrieve the dictionary object:</span></span>
+<span data-ttu-id="b7c01-159">먼저 사전 개체를 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-159">First, retrieve the dictionary object:</span></span>
   
 ```powershell
 $dict = Get-DlpKeywordDictionary -Name "Diseases"
 ```
 
-<span data-ttu-id="9ad9f-160">`$dict`을(를) 인쇄하면 다양한 변수가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-160">Printing  `$dict` will show the various variables.</span></span> <span data-ttu-id="9ad9f-161">키워드 자체는 백엔드의 개체에 저장되지만 `$dict.KeywordDictionary`에는 키워드에 대한 문자열 표현이 포함되어 있어 사전을 수정하는 데 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-161">The keywords themselves are stored in an object on the backend, but  `$dict.KeywordDictionary` contains a string representation of them, which you'll use to modify the dictionary.</span></span> 
+<span data-ttu-id="b7c01-160">`$dict`을(를) 인쇄하면 다양한 변수가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-160">Printing  `$dict` will show the various variables.</span></span> <span data-ttu-id="b7c01-161">키워드 자체는 백엔드의 개체에 저장되지만 `$dict.KeywordDictionary`에는 키워드에 대한 문자열 표현이 포함되어 있어 사전을 수정하는 데 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-161">The keywords themselves are stored in an object on the backend, but  `$dict.KeywordDictionary` contains a string representation of them, which you'll use to modify the dictionary.</span></span> 
 
-<span data-ttu-id="9ad9f-162">사전을 수정하기 전에 `.split(',')` 방법을 사용하여 용어 문자열을 어레이로 다시 변환해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-162">Before you modify the dictionary, you need to turn the string of terms back into an array using the  `.split(',')` method.</span></span> <span data-ttu-id="9ad9f-163">그런 다음 `.trim()` 메서드를 사용하여 키워드 사이의 원치 않는 공백을 정리합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-163">Then you'll clean up the unwanted spaces between the keywords with the  `.trim()` method, leaving just the keywords to work with.</span></span> 
+<span data-ttu-id="b7c01-162">사전을 수정하기 전에 `.split(',')` 방법을 사용하여 용어 문자열을 어레이로 다시 변환해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-162">Before you modify the dictionary, you need to turn the string of terms back into an array using the  `.split(',')` method.</span></span> <span data-ttu-id="b7c01-163">그런 다음 `.trim()` 메서드를 사용하여 키워드 사이의 원치 않는 공백을 정리합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-163">Then you'll clean up the unwanted spaces between the keywords with the  `.trim()` method, leaving just the keywords to work with.</span></span> 
   
 ```powershell
 $terms = $dict.KeywordDictionary.split(',').trim()
 ```
 
-<span data-ttu-id="9ad9f-p111">이제 사전에서 몇 가지 용어를 제거해봅니다. 예제 사전에는 키워드가 몇 개만 포함되어 있으므로 사전을 내보내고 메모장에서 편집하는 과정으로 쉽게 건너뛸 수 있습니다. 그렇지만 사전에는 많은 용어가 들어 있는 것이 일반적이므로 먼저 이 방법을 배워 PowerShell에서 쉽게 편집할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-p111">Now you'll remove some terms from the dictionary. Because the example dictionary has only a few keywords, you could just as easily skip to exporting the dictionary and editing it in Notepad, but dictionaries generally contain a large amount of text, so you'll first learn this way to edit them easily in PowerShell.</span></span>
+<span data-ttu-id="b7c01-p111">이제 사전에서 몇 가지 용어를 제거해봅니다. 예제 사전에는 키워드가 몇 개만 포함되어 있으므로 사전을 내보내고 메모장에서 편집하는 과정으로 쉽게 건너뛸 수 있습니다. 그렇지만 사전에는 많은 용어가 들어 있는 것이 일반적이므로 먼저 이 방법을 배워 PowerShell에서 쉽게 편집할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-p111">Now you'll remove some terms from the dictionary. Because the example dictionary has only a few keywords, you could just as easily skip to exporting the dictionary and editing it in Notepad, but dictionaries generally contain a large amount of text, so you'll first learn this way to edit them easily in PowerShell.</span></span>
   
-<span data-ttu-id="9ad9f-p112">마지막 단계에서는 키워드를 배열로 저장했습니다. [배열에서 항목을 제거](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-powershell-1.0/ee692802(v=technet.10))하는 방법에는 여러 가지가 있지만 사전에서 제거하려는 용어의 배열을 만든 후 용어 목록에 없는 사전 용어만 복사하여 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-p112">In the last step, you saved the keywords to an array. There are several ways to [remove items from an array](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-powershell-1.0/ee692802(v=technet.10)), but as a straightforward approach, you'll create an array of the terms you want to remove from the dictionary, and then copy only the dictionary terms to it that aren't in the list of terms to remove.</span></span>
+<span data-ttu-id="b7c01-p112">마지막 단계에서는 키워드를 배열로 저장했습니다. [배열에서 항목을 제거](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-powershell-1.0/ee692802(v=technet.10))하는 방법에는 여러 가지가 있지만 사전에서 제거하려는 용어의 배열을 만든 후 용어 목록에 없는 사전 용어만 복사하여 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-p112">In the last step, you saved the keywords to an array. There are several ways to [remove items from an array](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-powershell-1.0/ee692802(v=technet.10)), but as a straightforward approach, you'll create an array of the terms you want to remove from the dictionary, and then copy only the dictionary terms to it that aren't in the list of terms to remove.</span></span>
   
-<span data-ttu-id="9ad9f-p113">명령 `$terms`를 실행하여 현재 용어 목록을 표시합니다. 명령 출력은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-p113">Run the command  `$terms` to show the current list of terms. The output of the command looks like this:</span></span> 
+<span data-ttu-id="b7c01-p113">명령 `$terms`를 실행하여 현재 용어 목록을 표시합니다. 명령 출력은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-p113">Run the command  `$terms` to show the current list of terms. The output of the command looks like this:</span></span> 
   
 `aarskog's syndrome`
 `abandonment`
@@ -149,19 +149,19 @@ $terms = $dict.KeywordDictionary.split(',').trim()
 `aboulomania`
 `abrami's disease`
 
-<span data-ttu-id="9ad9f-170">다음 명령을 실행하여 제거하려는 용어를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-170">Run this command to specify the terms that you want to remove:</span></span>
+<span data-ttu-id="b7c01-170">다음 명령을 실행하여 제거하려는 용어를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-170">Run this command to specify the terms that you want to remove:</span></span>
   
 ```powershell
 $termsToRemove = @('abandonment', 'ablatio')
 ```
 
-<span data-ttu-id="9ad9f-171">목록에서 용어를 실제로 제거하려면 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-171">Run this command to actually remove the terms from the list:</span></span>
+<span data-ttu-id="b7c01-171">목록에서 용어를 실제로 제거하려면 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-171">Run this command to actually remove the terms from the list:</span></span>
   
 ```powershell
 $updatedTerms = $terms | Where-Object{ $_ -notin $termsToRemove }
 ```
 
-<span data-ttu-id="9ad9f-p114">명령 `$updatedTerms`를 실행하여 업데이트된 용어 목록을 표시합니다. 명령 출력은 다음과 같습니다(지정된 용어가 제거됨).</span><span class="sxs-lookup"><span data-stu-id="9ad9f-p114">Run the command  `$updatedTerms` to show the updated list of terms. The output of the command looks like this (the specified terms have been removed):</span></span> 
+<span data-ttu-id="b7c01-p114">명령 `$updatedTerms`를 실행하여 업데이트된 용어 목록을 표시합니다. 명령 출력은 다음과 같습니다(지정된 용어가 제거됨).</span><span class="sxs-lookup"><span data-stu-id="b7c01-p114">Run the command  `$updatedTerms` to show the updated list of terms. The output of the command looks like this (the specified terms have been removed):</span></span> 
   
 `aarskog's syndrome`
 `abasia`
@@ -189,17 +189,17 @@ Save the dictionary locally by running the following:
 Set-Content $updatedTerms -Path "C:\myPath\terms.txt"
 ```
 
-<span data-ttu-id="9ad9f-p115">이제 파일을 열고 영어를 더 추가한 후 유니코드 인코딩(UTF-16)으로 저장하면 됩니다. 업데이트된 용어를 업로드하고 사전을 업데이트합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-p115">Now simply open the file, add your additional terms, and save with Unicode encoding (UTF-16). Now you'll upload the updated terms and update the dictionary in place.</span></span>
+<span data-ttu-id="b7c01-p115">이제 파일을 열고 영어를 더 추가한 후 유니코드 인코딩(UTF-16)으로 저장하면 됩니다. 업데이트된 용어를 업로드하고 사전을 업데이트합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-p115">Now simply open the file, add your additional terms, and save with Unicode encoding (UTF-16). Now you'll upload the updated terms and update the dictionary in place.</span></span>
   
 ```powershell
 PS> Set-DlpKeywordDictionary -Identity "Diseases" -FileData (Get-Content -Path "C:myPath\terms.txt" -Encoding Byte -ReadCount 0)
 ```
 
-<span data-ttu-id="9ad9f-p116">이제 사전이 제대로 업데이트되었습니다. `Identity` 필드 에는 사전의 이름이 표시됩니다. `set-` cmdlet을 사용하여 사전 이름도 변경하려면 위 명령에서 새 사전 이름과 함께 `-Name` 매개 변수만 추가하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-p116">Now the dictionary has been updated in place. Note that the  `Identity` field takes the name of the dictionary. If you wanted to also change the name of your dictionary using the  `set-` cmdlet, you would just need to add the  `-Name` parameter to what's above with your new dictionary name.</span></span> 
+<span data-ttu-id="b7c01-p116">이제 사전이 제대로 업데이트되었습니다. `Identity` 필드 에는 사전의 이름이 표시됩니다. `set-` cmdlet을 사용하여 사전 이름도 변경하려면 위 명령에서 새 사전 이름과 함께 `-Name` 매개 변수만 추가하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-p116">Now the dictionary has been updated in place. Note that the  `Identity` field takes the name of the dictionary. If you wanted to also change the name of your dictionary using the  `set-` cmdlet, you would just need to add the  `-Name` parameter to what's above with your new dictionary name.</span></span> 
   
-## <a name="using-keyword-dictionaries-in-custom-sensitive-information-types-and-dlp-policies"></a><span data-ttu-id="9ad9f-179">사용자 지정 중요한 정보 유형과 DLP 정책에서 키워드 사전 사용</span><span class="sxs-lookup"><span data-stu-id="9ad9f-179">Using keyword dictionaries in custom sensitive information types and DLP policies</span></span>
+## <a name="using-keyword-dictionaries-in-custom-sensitive-information-types-and-dlp-policies"></a><span data-ttu-id="b7c01-179">사용자 지정 중요한 정보 유형과 DLP 정책에서 키워드 사전 사용</span><span class="sxs-lookup"><span data-stu-id="b7c01-179">Using keyword dictionaries in custom sensitive information types and DLP policies</span></span>
 
-<span data-ttu-id="9ad9f-180">키워드 사전은 사용자 정의 중요한 정보 유형에 대한 일치 요구 사항의 일부로 사용하거나 중요한 정보 유형 자체로 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-180">Keyword dictionaries can be used as part of the match requirements for a custom sensitive information type, or as a sensitive information type themselves.</span></span> <span data-ttu-id="9ad9f-181">둘 다 [사용자 지정 중요한 정보 유형](create-a-custom-sensitive-information-type-in-scc-powershell.md)을(를) 생성해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-181">Both require you to create a [custom sensitive information type](create-a-custom-sensitive-information-type-in-scc-powershell.md).</span></span> <span data-ttu-id="9ad9f-182">링크된 문서의 지침에 따라 중요한 정보 유형을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-182">Follow the instructions in the linked article to create a sensitive information type.</span></span> <span data-ttu-id="9ad9f-183">XML을 사용하게 되면 사전에 사용할 GUID 식별자가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-183">Once you have the XML, you'll need the GUID identifier for the dictionary to use it.</span></span>
+<span data-ttu-id="b7c01-180">키워드 사전은 사용자 정의 중요한 정보 유형에 대한 일치 요구 사항의 일부로 사용하거나 중요한 정보 유형 자체로 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-180">Keyword dictionaries can be used as part of the match requirements for a custom sensitive information type, or as a sensitive information type themselves.</span></span> <span data-ttu-id="b7c01-181">둘 다 [사용자 지정 중요한 정보 유형](create-a-custom-sensitive-information-type-in-scc-powershell.md)을(를) 생성해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-181">Both require you to create a [custom sensitive information type](create-a-custom-sensitive-information-type-in-scc-powershell.md).</span></span> <span data-ttu-id="b7c01-182">링크된 문서의 지침에 따라 중요한 정보 유형을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-182">Follow the instructions in the linked article to create a sensitive information type.</span></span> <span data-ttu-id="b7c01-183">XML을 사용하게 되면 사전에 사용할 GUID 식별자가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-183">Once you have the XML, you'll need the GUID identifier for the dictionary to use it.</span></span>
   
 ```xml
 <Entity id="9e5382d0-1b6a-42fd-820e-44e0d3b15b6e" patternsProximity="300" recommendedConfidence="75">
@@ -209,19 +209,19 @@ PS> Set-DlpKeywordDictionary -Identity "Diseases" -FileData (Get-Content -Path "
 </Entity>
 ```
 
-<span data-ttu-id="9ad9f-184">사전의 ID를 확인하려면 다음 명령을 실행하고 **Identity** 속성 값을 복사합니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-184">To get the identity of your dictionary, run this command and copy the **Identity** property value:</span></span> 
+<span data-ttu-id="b7c01-184">사전의 ID를 확인하려면 다음 명령을 실행하고 **Identity** 속성 값을 복사합니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-184">To get the identity of your dictionary, run this command and copy the **Identity** property value:</span></span> 
   
 ```powershell
 Get-DlpKeywordDictionary -Name "Diseases"
 ```
 
-<span data-ttu-id="9ad9f-185">이 명령의 출력은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-185">The output of the command looks like this:</span></span>
+<span data-ttu-id="b7c01-185">이 명령의 출력은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-185">The output of the command looks like this:</span></span>
   
-<span data-ttu-id="9ad9f-186">`RunspaceId        : 138e55e7-ea1e-4f7a-b824-79f2c4252255`
+<span data-ttu-id="b7c01-186">`RunspaceId        : 138e55e7-ea1e-4f7a-b824-79f2c4252255`
 `Identity          : 8d2d44b0-91f4-41f2-94e0-21c1c5b5fc9f`
 `Name              : Diseases`
 `Description       : Names of diseases and injuries from ICD-10-CM lexicon`
-`KeywordDictionary : aarskog's syndrome, abandonment, abasia, abderhalden-kaufmann-lignac, abdominalgia, abduction contracture, abetalipo` `proteinemia, abiotrophy, ablatio, ablation, ablepharia, abocclusion, abolition, aborter, abortion, abortus, aboulomania,`</span><span class="sxs-lookup"><span data-stu-id="9ad9f-186">`RunspaceId        : 138e55e7-ea1e-4f7a-b824-79f2c4252255`
+`KeywordDictionary : aarskog's syndrome, abandonment, abasia, abderhalden-kaufmann-lignac, abdominalgia, abduction contracture, abetalipo` `proteinemia, abiotrophy, ablatio, ablation, ablepharia, abocclusion, abolition, aborter, abortion, abortus, aboulomania,`</span><span class="sxs-lookup"><span data-stu-id="b7c01-186">`RunspaceId        : 138e55e7-ea1e-4f7a-b824-79f2c4252255`
 `Identity          : 8d2d44b0-91f4-41f2-94e0-21c1c5b5fc9f`
 `Name              : Diseases`
 `Description       : Names of diseases and injuries from ICD-10-CM lexicon`
@@ -231,7 +231,7 @@ Get-DlpKeywordDictionary -Name "Diseases"
 `ObjectState       : Unchanged`
 
 
-<span data-ttu-id="9ad9f-p118">사용자 지정 중요한 정보 유형의 XML에 ID를 붙여넣은 후 업로드합니다. 이제 사전이 중요한 정보 유형 목록에 표시되므로 일치시킬 키워드 수를 지정하여 정책에서 바로 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ad9f-p118">Paste the identity into your custom sensitive information type's XML and upload it. Now your dictionary will appear in your list of sensitive information types and you can use it right in your policy, specifying how many keywords are required to match.</span></span>
+<span data-ttu-id="b7c01-p118">사용자 지정 중요한 정보 유형의 XML에 ID를 붙여넣은 후 업로드합니다. 이제 사전이 중요한 정보 유형 목록에 표시되므로 일치시킬 키워드 수를 지정하여 정책에서 바로 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b7c01-p118">Paste the identity into your custom sensitive information type's XML and upload it. Now your dictionary will appear in your list of sensitive information types and you can use it right in your policy, specifying how many keywords are required to match.</span></span>
   
 ```xml
 <Entity id="d333c6c2-5f4c-4131-9433-db3ef72a89e8" patternsProximity="300" recommendedConfidence="85">
