@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: da0fd99aaa533c6e4f65b5b279adcd9a4b648c9c
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: ad2f34fbb94cafd22976c6ff7c75cdd254e913e3
+ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049630"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47650096"
 ---
 # <a name="prepare-your-microsoft-threat-protection-trial-lab-environment"></a>Microsoft Threat Protection 평가판 랩 환경 준비
 
@@ -35,12 +35,12 @@ Microsoft Threat Protection 평가판 랩 환경을 만들고 배포 하는 과�
     <td align="center" style="width:25%; border:0;" bgcolor="#d5f5e3">
       <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval"> 
         <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab environment" title="Microsoft Threat Protection 평가판 랩 환경 준비" />
-      <br/>1 단계: 준비</a><br>
+      <br/>1 단계: 준비 </a><br>
     </td>
      <td align="center"  >
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval">
         <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab environment" title="Microsoft Threat Protection 평가판 랩 환경 설정" />
-      <br/>2 단계: 설치</a><br>
+      <br/>2 단계: 설치 </a><br>
         </td>
     <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval">
@@ -83,7 +83,7 @@ Microsoft Threat Protection을 프로 비전 하 고 사용 하기 위한 라이
 
 -   I =이 프로젝트에 대 한 정보
 
-| 이름                 | 역할                                                                                                                                                                                                          | 동작은 |
+| 이름                 | 역할                                                                                                                                                                                                          | 작업 |
 |----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
 | 이름 및 전자 메일 입력 | **최고 정보 보안 담당자 (CISO)** *새 기술 배포를 위해 조직 내에서 스폰서 역할을 하는 임원 담당자입니다.*                                                  | 하면     |
 | 이름 및 전자 메일 입력 | **사이버 (cdoc)의 머리** *이 변경 내용이 고객 보안 운영 팀의 프로세스와 부합 되는 방식을 정의 하는 방법을 담당 하는 cdoc 팀의 대표입니다.*       | 하면     |
@@ -126,13 +126,11 @@ Active Directory와 Azure Active Directory 간의 동기화를 이미 사용 하
 
 | 구성 요소                               | 설명                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | 구성 순서 순위 |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| Office 365 Advanced Threat Protection| Office 365 ATP는 전자 메일 메시지, 링크 (Url) 및 공동 작업 도구로 인해 야기 되는 악의적인 위협 으로부터 조직을 보호 합니다. <br> [더 알아보세요.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)                                                                                                                                                                                                                                             | 개                   |
-|Azure Advanced Threat Protection|Azure ATP는 Active Directory 신호를 사용 하 여 조직에서 진행 되는 고급 위협, 손상 된 id 및 악의적인 참가자 작업을 식별, 감지 및 조사 합니다. <br> [자세히 알아보기](https://docs.microsoft.com/azure-advanced-threat-protection/).| 2 |
-|Microsoft Cloud App Security| Microsoft Cloud App Security는 여러 클라우드에서 작동 하는 "CASB (Cloud Access Security Broker)"입니다. 이를 통해 다양 한 가시성, 데이터 이동에 대 한 제어, 모든 클라우드 서비스에서 cyberthreats을 식별 하 고 공격 하는 정교한 분석이 제공 됩니다. <br> [자세히 알아보기](https://docs.microsoft.com/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |3(sp3)                   |
+| Office 365 Advanced Threat Protection| Office 365 ATP는 전자 메일 메시지, 링크 (Url) 및 공동 작업 도구로 인해 야기 되는 악의적인 위협 으로부터 조직을 보호 합니다. <br> [더 알아보세요.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)                                                                                                                                                                                                                                             | 1                    |
+|Azure Advanced Threat Protection|Azure ATP는 Active Directory 신호를 사용 하 여 조직에서 진행 되는 고급 위협, 손상 된 id 및 악의적인 참가자 작업을 식별, 감지 및 조사 합니다. <br> [자세히 알아보기](https://docs.microsoft.com/azure-advanced-threat-protection/).| 2  |
+|Microsoft Cloud App Security| Microsoft Cloud App Security는 여러 클라우드에서 작동 하는 "CASB (Cloud Access Security Broker)"입니다. 이를 통해 다양 한 가시성, 데이터 이동에 대 한 제어, 모든 클라우드 서비스에서 cyberthreats을 식별 하 고 공격 하는 정교한 분석이 제공 됩니다. <br> [자세히 알아보기](https://docs.microsoft.com/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |3                    |
 |Microsoft Defender Advanced Threat Protection | Microsoft Defender ATP 엔드포인트 탐지 및 대응 기능은 실시간에 근접하고 조치가 가능한 고급 공격 탐지력을 제공합니다. 보안 분석가는 알림에 효과적으로 우선 순위를 지정하고, 침해의 전체 범위에 대한 가시성을 확보하고 위협을 수정하기 위한 대응 조치를 취할 수 있습니다. <br> [더 알아보세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |4                    |                                                                                                                                                                                                                                    
 
 ## <a name="next-step"></a>다음 단계
-|||
-|:-------|:-----|
-|![2 단계: 설치](../../media/setup.png) <br>[2 단계: 설치](setup-mtpeval.md) | Microsoft Threat Protection 평가판 랩 환경 설정
+![2 단계: 설치](../../media/setup.png) <br>[2 단계: 설치](setup-mtpeval.md)<br> Microsoft Threat Protection 평가판 랩 환경 설정
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Threat Protection 평가
+title: Microsoft Threat Protection 사용 설정
 description: Microsoft Threat Protection 평가판 랩 환경을 설정 하 여 장치, id, 데이터 및 응용 프로그램을 보호 하도록 설계 된 위협 방지 솔루션을 통해 조직에서 도움을 제공 하는 방법을 확인할 수 있습니다.
 keywords: Microsoft 위협 보호 평가판, microsoft threat protection, microsoft threat protection 평가 랩, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, id, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화 된 조사 및 개선, 고급 구하기
 search.product: eADQiWindows 10XVcnh
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: f6ee8147965a29b87d84690535116f096e4c6006
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: a9d7b514aac8d1a769c0dabf6dcdb54f4bcb447b
+ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049642"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47649964"
 ---
 # <a name="create-a-microsoft-threat-protection-trial-lab-environment"></a>Microsoft Threat Protection 평가판 랩 환경 만들기 
 
@@ -78,6 +78,5 @@ Microsoft Threat Protection 평가판 랩 환경을 만들고 배포 하는 과�
 -   프로덕션 환경의 침투 테스트
 
 ## <a name="next-step"></a>다음 단계
-|||
-|:-------|:-----|
-|![1 단계: 준비](../../media/prepare.png) <br>[1 단계: 준비](prepare-mtpeval.md) | Microsoft Threat Protection 평가 랩 환경 준비
+![1 단계: 준비](../../media/prepare.png) <br>[1 단계: 준비](prepare-mtpeval.md) 
+<br> Microsoft Threat Protection 평가 랩 환경 준비

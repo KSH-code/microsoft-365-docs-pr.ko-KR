@@ -18,12 +18,12 @@ hideEdit: true
 ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: a5237f845239414a9b26a6da7028e323a11ea850
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 53411edcaa64508d7200a2ca1bf1903f809d9ae1
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416602"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547436"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Dynamics 365 데이터 주체 요청
 
@@ -42,7 +42,7 @@ EU(유럽 연합) [GDPR(일반 데이터 보호 규정)](https://ec.europa.eu/ju
 
 이 가이드의 각 섹션에서는 데이터 통제자가 Microsoft 클라우드의 개인 데이터에 대한 DSR 요청에 응답하기 위해 수행할 수 있는 기술적 절차를 간략하게 설명합니다.
 
-### <a name="gdpr-terminology"></a>GDPR 용어
+## <a name="gdpr-terminology"></a>GDPR 용어
 
 다음은 이 가이드와 관련된 용어의 정의입니다.
 
@@ -52,14 +52,14 @@ EU(유럽 연합) [GDPR(일반 데이터 보호 규정)](https://ec.europa.eu/ju
 - **고객 데이터:** 엔터프라이즈 서비스를 사용하여 고객이 Microsoft에 제공하거나 고객 대신에 Microsoft에 제공된 모든 데이터(모든 텍스트, 소리, 동영상 또는 이미지 파일 포함)입니다. 고객 데이터에는 (1) 최종 사용자의 식별 가능한 정보(예: Azure Active Directory의 사용자 이름 및 연락처 정보) 및 고객이 특정 서비스에 업로드하거나 해당 서비스에서 만드는 고객 콘텐츠(예: Azure Storage 계정에서의 고객 콘텐츠, Azure SQL 데이터베이스의 고객 콘텐츠 또는 Azure 가상 머신에 있는 고객의 가상 머신 이미지)가 포함되어 있습니다.
 - **시스템 생성 로그:** Microsoft에서 생성한 로그 및 관련 데이터이며, 이는 Microsoft에서 엔터프라이즈 서비스를 제공하도록 도와줍니다. 시스템 생성 로그에는 주로 가명 처리된 데이터(예: 일반적으로 시스템에서 생성된 숫자인 고유한 ID)가 있으며, 이 데이터는 개인을 직접 식별할 수 없지만 엔터프라이즈 서비스를 사용자에게 전달하는 데 사용됩니다. 시스템 생성 로그에는 사용자 이름과 같은 최종 사용자에 대한 식별 가능한 정보가 포함될 수도 있습니다.
 
-### <a name="how-this-guide-can-help-you-meet-your-controller-responsibilities"></a>사용자가 컨트롤러 책임을 충족하도록 가이드가 지원하는 방법
+## <a name="how-this-guide-can-help-you-meet-your-controller-responsibilities"></a>사용자가 컨트롤러 책임을 충족하도록 가이드가 지원하는 방법
 
 2부로 나누어진 이 가이드에서는 Dynamics 365 제품, 서비스 및 관리 도구를 사용하여 Microsoft 클라우드에서 데이터를 검색하고 작업하는 방법을 설명하여 GDPR에 따라 권리를 행사하는 데이터 주체의 요청에 응답하여 Microsoft 클라우드에서 데이터를 찾고 활용하도록 도와줍니다. 첫 번째 부분은 고객 데이터에 포함된 개인 데이터를 다루고, 다음 부분은 시스템 생성 로그에 캡처된 기타 가명 처리된 개인 데이터를 다룹니다.
 
 - **1부: 고객 데이터에 포함된 개인 데이터에 대한 DSR(Data Subject Right) 요청에 응답:** 이 가이드의 1부에서는 Dynamics 365 응용 프로그램(Software as a Service)에서 온라인 서비스에 제공한 고객 데이터의 일부로 처리되는 개인 데이터를 액세스, 수정, 제한, 삭제 및 내보내는 방법을 설명합니다.
 - **2부: 필명화된 데이터에 대한 데이터 주체 권한 요청에 응답:** Dynamics 365 엔터프라이즈 서비스를 사용하는 경우 Microsoft는 서비스를 제공하기 위해 일부 정보(이 문서 내에서 *시스템 생성 로그*라고 함)를 생성하며, 이 정보는 시스템에서 작업을 식별하기 위해 최종 사용자가 남겨둔 사용 공간으로 제한됩니다. 이 데이터를 추가 정보를 사용하지 않고 특정 데이터 주체에 속하는 것으로 할 수 없는 경우에도, 일부 데이터는 GDPR에서 개인용으로 간주될 수 있습니다. 이 가이드의 2부에서는 Dynamics 365에서 생성되는 시스템 생성 로그에 액세스하며 이를 삭제하고 내보내는 방법을 설명합니다.
 
-### <a name="preparing-for-data-subject-rights-investigations"></a>데이터 주체 권리 조사 준비
+## <a name="preparing-for-data-subject-rights-investigations"></a>데이터 주체 권리 조사 준비
 
 데이터 주체가 권리를 행사하고 요청을 수행할 때 다음 사항을 고려하세요.
 
@@ -94,7 +94,7 @@ Dynamics 365 for Marketing에서는 다음과 같은 추가 기능을 사용할 
 1. [Power BI 보고서 작성](https://docs.microsoft.com/power-bi/service-connect-to-microsoft-dynamics-crm): 고객 데이터를 필터링하고 식별하는 데 사용됩니다.
 2. 마케팅 실무 담당자 및 목표에 대해 Insight Views를 사용하여 고객 데이터가 포함되어 있을 수 있는 추가 데이터 요소를 식별합니다.
 
-***Dynamics 365 고객 서비스 통계***는 고객의 GDPR 요청에 응답하기 위해 [고객 데이터](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/gdpr-discovery)를 찾는 데 도움이 되는 리소스 목록을 제공합니다. 
+***Dynamics 365 고객 서비스 통계***는 고객의 GDPR 요청에 응답하기 위해 [고객 데이터](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/gdpr-discovery)를 찾는 데 도움이 되는 리소스 목록을 제공합니다.
 
 ***재무 및 운영용 Dynamics 365***은 고객 데이터를 검색할 수 있는 몇 가지 방법을 제공합니다. 사용자는 테넌트 관리자로서 다음 작업을 수행하여 고객 데이터를 검색할 수 있습니다.
 
@@ -154,7 +154,7 @@ Dynamics 365 for Marketing에서는 다음과 같은 추가 기능을 사용할 
 
 일반, 고객 및 세금 원장 항목과 같은 거래 레코드는 엔터프라이즈 리소스 계획 시스템의 무결성에 필수적입니다. 재무 또는 기타 거래에 속하는 개인 데이터는 금융법(예: 세법)을 준수하거나, 사기(예: 보안 감사 추적)를 방지하거나, 산업 인증을 준수하기 위해 “있는 그대로” 유지됩니다. 따라서 Dynamics 365 for Finance and Operations 및 Dynamics 365 Business Central에서는 이러한 레코드의 데이터를 수정하지 못하도록 제한합니다.
 
-비즈니스 거래 레코드에 개인 데이터를 저장하는 경우 데이터 주체 요청을 위해 개인 데이터를 수정, 삭제 또는 처리를 제한하는 유일한 방법은 Dynamics 365 Business Central의 [사용자 지정 기능](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/index)을 사용하는 것입니다. 따라서 데이터 주체의 데이터 수정 요청에 대한 [](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-guide#reasons-why-certain-personal-data-may-not-be-modified-or-deleted)의사 결정 및 구현은 사용자의 책임입니다.
+비즈니스 거래 레코드에 개인 데이터를 저장하는 경우 데이터 주체 요청을 위해 개인 데이터를 수정, 삭제 또는 처리를 제한하는 유일한 방법은 Dynamics 365 Business Central의 [사용자 지정 기능](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/index)을 사용하는 것입니다. 따라서 [데이터 주체의 데이터 수정 요청](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-guide#reasons-why-certain-personal-data-may-not-be-modified-or-deleted)에 대한 의사 결정 및 구현은 사용자의 책임입니다.
 
 ### <a name="restricting-the-processing-of-customer-data"></a>고객 데이터 처리 제한
 
@@ -194,7 +194,7 @@ Dynamics 365 for Marketing에서는 다음과 같은 추가 기능을 사용할 
 
 ***재무 및 운영을 위한 Dynamics 365***은 제공된 엔터티, 새로 생성된 엔터티 또는 확장된 엔터티가 반복 가능한 개인 데이터를 Excel로 내보낼 수 있게 하는 [데이터 관리 및 통합 엔터티](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-management-integration-data-entity)를 제공합니다. 또는 [데이터 가져오기 및 내보내기 작업](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-import-export-job)을 사용하는 여러 가지 다른 일반적인 형식을 사용할 수 있습니다.  또는 데이터 이동성 요청을 용이하게 하기 위해 수많은 목록을 정적 Excel 파일로 내보낼 수 있습니다. 고객 데이터를 Excel로 내보낼 때 이런 방식으로 이식 가능성 요청에 포함될 개인 데이터를 편집한 다음 파일을 .csv 또는 .xml과 같이 일반적으로 사용되는 컴퓨터가 읽을 수 있는 형식으로 저장합니다.
 
-Dynamics 365 for Finance and Operations 및 ***Dynamics 365 for Talent*** 둘 다 개인 데이터로 분류한 데이터를 데이터 주제에게 제공하기 위한 사용자 검색 보고서를 제공합니다. 
+Dynamics 365 for Finance and Operations 및 ***Dynamics 365 for Talent*** 둘 다 개인 데이터로 분류한 데이터를 데이터 주제에게 제공하기 위한 사용자 검색 보고서를 제공합니다.
 
 ***Dynamics 365 Business Central***은 다음과 같은 기능을 제공합니다.
 

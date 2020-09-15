@@ -12,28 +12,28 @@ ms.service: O365-seccomp
 localization_priority: Priority
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4efb3803df2baa1ca37aeda05ae81947c3b65010
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 5ee42a12f65ad5eff0a33ef2b61d328ebdc7af3e
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036263"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547334"
 ---
 # <a name="gdpr-for-office-on-premises-servers"></a>Office 온-프레미스 Server GDPR
 
 GDPR(일반 데이터 보호 규정)은 조직에 요구 사항을 소개하여 개인 데이터를 보호하고 데이터 주체 요청에 적절하게 응답합니다. 이 일련의 문서는 온-프레미스 작업에 권장되는 접근 방식을 제공합니다.
 
--   [SharePoint Server](gdpr-for-sharepoint-server.md)
+- [SharePoint Server](gdpr-for-sharepoint-server.md)
 
--   [Exchange Server](gdpr-for-exchange-server.md)
+- [Exchange Server](gdpr-for-exchange-server.md)
 
--   [비즈니스용 Skype 서버](gdpr-for-skype-for-business-server.md)
+- [비즈니스용 Skype 서버](gdpr-for-skype-for-business-server.md)
 
--   [Project Server](gdpr-for-project-server.md)
+- [Project Server](gdpr-for-project-server.md)
 
--   [Office Web Apps Server 및 Office Online Server](gdpr-for-office-online-server.md)
+- [Office Web Apps Server 및 Office Online Server](gdpr-for-office-online-server.md)
 
--   [온-프레미스 파일 공유](gdpr-for-on-premises-file-shares.md)
+- [온-프레미스 파일 공유](gdpr-for-on-premises-file-shares.md)
 
 GDPR 및 Microsoft가 지원하는 방법에 대한 자세한 내용은 [Microsoft 보안 센터](https://www.microsoft.com/trust-center/privacy/gdpr-overview
 )를 참조하세요.
@@ -42,17 +42,20 @@ GDPR 및 Microsoft가 지원하는 방법에 대한 자세한 내용은 [Microso
 
 다음 그림은 이러한 각 작업에 사용하여 개인 데이터를 검색, 분류, 보호, 모니터링할 수 있는 권장 기능을 나열합니다. 자세한 내용은 이 섹션의 문서를 참조하세요.
 
-![](../media/gdpr-for-office-servers-image1.png)
+![작업 전반에서 개인 데이터를 검색, 분류, 보호 및 모니터링하는 기능을 설명하는 다이어그램](../media/gdpr-for-office-servers-image1.png)
 
 ## <a name="illustration-description"></a>그림 설명
 
 다음 표에서는 이해를 돕기 위해 그림과 동일한 예제를 제공합니다.
 
-|             |Windows Server 파일 공유|SharePoint Server|Exchange Server|비즈니스용 Skype|Project Server|
-|:------------|:-------------------------|:----------------|:--------------|:-----------------|:-------------|
-|검색|Azure Information Protection 스캐너*|검색 센터 또는 eDiscovery(데이터 분류 후), Azure Information Protection 스캐너*|Exchange eDiscovery 포털|Exchange eDiscovery 포털|검색 및 내보내기용 SQL 스크립트|
-|분류|Azure Information Protection 스캐너*, Office 365 중요한 정보 유형|Azure Information Protection 스캐너*, Office 365 중요한 정보 유형|Exchange 보존 태그 및 보존 정책|Exchange 보존 태그 및 보존 정책||
-|보호||Exchange Server 데이터 손실 방지 규칙, 권한, 라이브러리의 IRM 보호|Exchange Server 데이터 손실 방지 규칙, Exchange Server와 IRM 통합|||
-|모니터링|SIEM 도구와 로그 통합|SIEM 도구와 로그 통합|SIEM 도구와 로그 통합|SIEM 도구와 로그 통합|SIEM 도구와 로그 통합|
+****
 
-*보호는 파일을 암호화합니다. 따라서 SharePoint Server가 보호된 파일에서 중요한 정보 유형을 찾을 수 없습니다.
+|작업|Windows Server 파일 공유|SharePoint Server|Exchange Server|비즈니스용 Skype|Project Server|
+|---|---|---|---|---|---|
+|검색|Azure Information Protection 스캐너<sup>\*</sup>|검색 센터 또는 eDiscovery(데이터가 분류된 후) <br/><br/> Azure Information Protection 스캐너<sup>\*</sup>|Exchange eDiscovery 포털|Exchange eDiscovery 포털|검색 및 내보내기용 SQL 스크립트|
+|분류|Azure Information Protection 스캐너<sup>\*</sup> <br/><br/> Office 365 중요한 정보 유형|Azure Information Protection 스캐너<sup>\*</sup> <br/><br/> Office 365 중요한 정보 유형|Exchange 보존 태그 및 보존 정책|Exchange 보존 태그 및 보존 정책||
+|보호||Exchange Server 데이터 손실 방지 규칙 <br/><br/> IRM 보호에 대한 라이브러리 사용 권한|Exchange Server 데이터 손실 방지 규칙 <br/><br/> Exchange Server와의 IRM 통합|||
+|모니터링|SIEM 도구와 로그 통합|SIEM 도구와 로그 통합|SIEM 도구와 로그 통합|SIEM 도구와 로그 통합|SIEM 도구와 로그 통합|
+|
+
+<sup>\*</sup> 보호 기능이 파일을 암호화합니다. 따라서 SharePoint Server가 보호된 파일에서 중요한 정보 유형을 찾을 수 없습니다.

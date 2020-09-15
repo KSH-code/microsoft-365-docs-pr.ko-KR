@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 6cba773d0c4bea259db151d5a8f1d8e03954a045
-ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
+ms.openlocfilehash: 69a883263952b7c20225659ae023399e0242606d
+ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44717298"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47650072"
 ---
 # <a name="set-up-your-microsoft-threat-protection-trial-lab-environment"></a>Microsoft Threat Protection 평가판 랩 환경 설정 
 
@@ -36,19 +36,19 @@ Microsoft Threat Protection 평가판 랩 환경을 만들고 배포 하는 과�
     <td align="center" style="width:25%; border:0;" >
       <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval?view=o365-worldwide"> 
         <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab environment" title="Microsoft Threat Protection 평가 랩 준비" />
-      <br/>1 단계: 준비</a><br>
+      <br/>1 단계: 준비 </a><br>
     </td>
      <td align="center"bgcolor="#d5f5e3">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval?view=o365-worldwide">
         <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab environment" title="Microsoft Threat Protection 평가 랩 설정" />
-      <br/>2 단계: 설치</a><br>
+      <br/>2 단계: 설치 </a><br>
     </td>
     <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide">
         <img src="../../media/config-onboard.png" alt="
 Configure each Microsoft Threat Protection pillar for your Microsoft Threat Protection trial lab environment and onboard your endpoints" title="
 Microsoft Threat Protection 평가판 테스트 환경에 대 한 각 Microsoft Threat Protection을 구성 하 고 끝점을 온보드" />
-      <br/>3 단계: 온보드 & 구성</a><br>
+      <br/>3 단계: 온보드 & 구성 </a><br>
 </td>
 
 
@@ -149,6 +149,4 @@ Microsoft 365 E5 라이선스를 등록 하는 데 사용할 수 있는 *onmicro
 
 
 ## <a name="next-step"></a>다음 단계
-|||
-|:-------|:-----|
-|![3 단계: 온보드 & 구성](../../media/config-onboard.png) <br>[3 단계: 온보드 & 구성](config-mtpeval.md) | Microsoft Threat Protection 평가 랩에서 각 Microsoft Threat Protection을 구성 하 고 끝점을 등록 합니다.
+![3 단계: 온보드 & 구성](../../media/config-onboard.png) <br>[3 단계: 온보드 & 구성](config-mtpeval.md) <br>Microsoft Threat Protection 평가 랩에서 각 Microsoft Threat Protection을 구성 하 고 끝점을 등록 합니다.

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Threat Protection의 인시던트 조사
+title: Microsoft Threat Protection의 인시던트 개요
 description: 여러 장치, 사용자 및 사서함에 표시되는 인시던트를 조사합니다.
 keywords: 인시던트, 경고, 조사, 상관 관계, 공격, 컴퓨터, 장치, 사용자, IDs, ID, 사서함, 전자 메일, 365, microsoft, m365
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 29eeb5f0699321441543057040b434c4dad61925
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 805b83262bd9d91500dc7e8b6b82542dfbc7e9c5
+ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235117"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47649940"
 ---
 # <a name="incidents-overview-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 인시던트 개요
 

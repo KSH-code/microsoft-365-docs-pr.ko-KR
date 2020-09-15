@@ -6,7 +6,7 @@ author: JoeDavies-MSFT
 manager: laurawi
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 08/31/2020
+ms.date: 09/14/2020
 f1.keywords:
 - NOCSH
 ms.reviewer: martincoetzer
@@ -17,26 +17,33 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: 375e58214e19960d3e3100a0c1051fe7c4924aae
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: be35663fc32a2d214e1ca0ae91161079a5f672a3
+ms.sourcegitcommit: a13f43a3e981c90f1e0b9805c9c16a56f67fc650
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546645"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47651147"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
-이 문서 시리즈에서는 규정 된 조건부 액세스 정책 및 관련 기능 집합을 비롯 하 여 권장 되는 환경 및 구성을 구현 하 여 엔터프라이즈 제품에 대해 Microsoft 365을 통해 클라우드 서비스에 대 한 보안 액세스를 구성 하는 방법을 설명 합니다. 이 지침을 사용 하 여 Microsoft 365 서비스, 기타 SaaS 서비스 및 Azure AD 응용 프로그램 프록시를 통해 게시 된 온-프레미스 응용 프로그램을 비롯 하 여 azure Active Directory (Azure AD)와 통합 되는 모든 서비스에 대 한 액세스를 보호할 수 있습니다.
+이제 조직의 최신 보안 경계는 다양 한 장치를 사용 하 여 모든 위치에서 클라우드 기반 앱에 액세스 하는 사용자를 포함 하기 위해 네트워크를 넘어 확장 되었습니다. 보안 인프라는 지정 된 액세스 요청을 부여할지 여부와 조건에 따라 결정 해야 합니다. 
 
-권장 사항:
+이 결정은 사용자 계정 로그인, 사용 중인 디바이스, 사용자가 액세스 하려고 하는 앱, 액세스 요청을 수행 하는 위치 및 요청 위험에 대 한 평가를 기반으로 해야 합니다. 이 기능을 사용 하면 승인 된 사용자 및 장치만 중요 한 리소스에 액세스할 수 있습니다.
 
-- [Microsoft 보안 점수](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) 및 [Azure AD의 id 점수](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score)에 맞추고 조직에 대해 이러한 점수가 증가 합니다.
-- 은 [id 인프라를 보호 하기 위한 다음 다섯 가지 단계](https://docs.microsoft.com/azure/security/azure-ad-secure-steps)를 구현 하는 데 도움이 됩니다. 
+이 문서 시리즈에서는 id 및 장치 액세스 선행 조건 구성 및 azure AD 응용 프로그램 프록시를 사용 하 여 게시 된 엔터프라이즈 클라우드 앱 및 서비스, 기타 SaaS 서비스 및 온-프레미스 응용 프로그램에 대 한 Microsoft 365에 대 한 액세스를 보호 하기 위한 다양 한 정책, Microsoft Intune 및 기타 정책의 집합에 대해 설명 합니다.
+
+Id 및 장치 액세스 설정 및 정책은 기본 보호, 중요 보호 및 높은 규제 대상 데이터를 포함 하는 환경에 대 한 보호의 세 계층에서 권장 됩니다. 이러한 계층 및 해당 구성에 따라 데이터, id 및 장치 전체의 일관성 있는 보호 수준이 제공 됩니다.
+
+이러한 기능 및 권장 사항은 다음과 같습니다.
+
+- Microsoft 365 E3 및 Microsoft 365 E5에서 지원 됩니다.
+- [Microsoft 보안 점수](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) 및 [Azure AD의 id 점수](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score)에 맞춰지고 조직에 대해 이러한 점수가 증가 합니다.
+- 은 [id 인프라를 보호 하기 위한 다음 다섯 가지 단계](https://docs.microsoft.com/azure/security/azure-ad-secure-steps)를 구현 하는 데 도움이 됩니다.
 
 조직의 환경 요구 사항이 나 복잡성이 고유한 경우에는 이러한 권장 사항을 출발점으로 사용 합니다. 그러나 대부분의 조직은 이러한 권장 사항을 규정 된 대로 구현할 수 있습니다.
 
 >[!Note]
->또한 Microsoft는 Office 365 구독에 대 한 EMS (Enterprise Mobility + Security) 라이선스를 판매 하기도 합니다. EMS E3 및 EMS E5 기능은 Microsoft 365 E3 및 Microsoft 365 E5의 경우와 거의 동일 합니다. 자세한 내용은 [EMS 요금제](https://www.microsoft.com/en-us/microsoft-365/enterprise-mobility-security/compare-plans-and-pricing) 를 참조 하십시오.
+>또한 Microsoft는 Office 365 구독에 대 한 EMS (Enterprise Mobility + Security) 라이선스를 판매 하기도 합니다. EMS E3 및 EMS E5 기능은 Microsoft 365 E3 및 Microsoft 365 E5의 기능과 동일 합니다. 자세한 내용은 [EMS 요금제](https://www.microsoft.com/en-us/microsoft-365/enterprise-mobility-security/compare-plans-and-pricing) 를 참조 하십시오.
 >
 
 ## <a name="intended-audience"></a>대상 그룹

@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f08d0adf58d0e6028fddabf7c88bc7c0bcf8aecb
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 0053d4b467ec0b03a158ef411c0a0643ff64292e
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416632"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547426"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Office 365 데이터 주체 요청
 
@@ -59,8 +59,8 @@ EU(유럽 연합) [GDPR(일반 데이터 보호 규정)](https://ec.europa.eu/ju
 - **[3부: 시스템 생성 로그에 대해 DSR에 응답](#part-3-responding-to-dsrs-for-system-generated-logs):** Office 365 엔터프라이즈 서비스를 사용하는 경우 Microsoft는 일부 정보(예: 온라인 서비스에서 기능 사용 또는 성능을 기록하는 서비스 로그)를 생성합니다. 대부분의 서비스 생성 데이터에는 Microsoft에서 생성된 가명 처리된 ID가 포함되고 이 범주는 이 문서에서 일반적으로 *시스템 생성 로그*라고 불립니다.  이 데이터를 추가 정보를 사용하지 않고 특정 데이터 주체에 속하는 것으로 할 수 없는 경우에도, 일부 데이터는 GDPR의 “개인 데이터”에 대한 정의에서 개인용으로 간주될 수 있습니다. 이 가이드의 3부에서는 시스템 생성 로그에 액세스하며 이를 삭제하고 내보내는 방법을 설명합니다.
 - **[4부: DSR을 지원하는 추가 리소스](#part-4-additional-resources-to-assist-you-with-dsrs):** 이 가이드의 4부에서는 특정 Office 365 제품 및 서비스를 사용할 때 Microsoft가 데이터 통제자인 제한된 시나리오를 나열합니다.
 
->[!NOTE]
->대부분의 경우 조직의 사용자가 Microsoft Office 365 제품 및 서비스를 사용할 때는 여러분이 데이터 통제자이고 Microsoft는 처리자입니다. 데이터 통제자로서 여러분은 데이터 주체에 직접 응답하는 역할을 담당합니다. 이를 지원하기 위해 이 가이드의 1~3부에서는 조직이 DSR 요청에 응답하는 데 사용할 수 있는 기술적 기능을 자세히 설명합니다. 그러나 일부 제한된 시나리오에서는 사용자가 특정 Office 365 제품 또는 서비스를 사용할 때 Microsoft가 데이터 통제자가 됩니다. 이러한 경우 4부의 정보는 데이터 주체가 Microsoft에 DSR 요청을 전송할 수 있는 방법에 대한 지침을 제공합니다.
+> [!NOTE]
+> 대부분의 경우 조직의 사용자가 Microsoft Office 365 제품 및 서비스를 사용할 때는 여러분이 데이터 통제자이고 Microsoft는 처리자입니다. 데이터 통제자로서 여러분은 데이터 주체에 직접 응답하는 역할을 담당합니다. 이를 지원하기 위해 이 가이드의 1~3부에서는 조직이 DSR 요청에 응답하는 데 사용할 수 있는 기술적 기능을 자세히 설명합니다. 그러나 일부 제한된 시나리오에서는 사용자가 특정 Office 365 제품 또는 서비스를 사용할 때 Microsoft가 데이터 통제자가 됩니다. 이러한 경우 4부의 정보는 데이터 주체가 Microsoft에 DSR 요청을 전송할 수 있는 방법에 대한 지침을 제공합니다.
 
 ### <a name="office-365-national-clouds"></a>Office 365 국가별 클라우드
 
@@ -111,8 +111,8 @@ DSR 요청에 응답할 경우, DSR 요청에 해당되는 데이터가 Microsof
 | ![PowerPoint 아이콘](../media/o365-powerpoint-64x64.png) <br> PowerPoint | ![Word 아이콘](../media/o365-word-64x64.png) <br> Word
 ||
 
->[!NOTE]
->콘텐츠 검색 eDiscovery 도구를 [21Vianet에서 운영하는 Office 365(중국)](https://docs.microsoft.com/microsoft-365/admin/services-in-china/services-in-china)에서는 사용할 수 없습니다. 즉, 표 1에 나와 있는 Office 365 응용 프로그램에서 고객 데이터를 검색 및 내보낼 때는 이 도구를 사용할 수 없습니다. 그러나 Exchange Online의 원본 위치 eDiscovery 도구를 사용하여 사용자 사서함에서 콘텐츠를 검색할 수 있습니다. 또한 SharePoint Online에서 eDiscovery 센터를 사용하여 SharePoint 사이트 및 OneDrive 계정에서 콘텐츠를 검색할 수도 있습니다. 또는 문서 소유자에게 콘텐츠를 찾도록 도와달라고 요청하고 필요에 따라 콘텐츠를 변경 또는 삭제하거나 내보낼 수 있습니다. 자세한 내용은 다음을 참조하세요.</br><br> * [원본 위치 eDiscovery 검색 만들기](https://docs.microsoft.com/exchange/create-in-place-ediscovery-search-exchange-2013-help)<br> * [SharePoint Online에서 eDiscovery 센터 설정](https://support.office.com/article/Set-up-an-eDiscovery-Center-in-SharePoint-Online-A18F8975-AA7F-43B4-A7D6-001D14744D8E)
+> [!NOTE]
+> 콘텐츠 검색 eDiscovery 도구를 [21Vianet에서 운영하는 Office 365(중국)](https://docs.microsoft.com/microsoft-365/admin/services-in-china/services-in-china)에서는 사용할 수 없습니다. 즉, 표 1에 나와 있는 Office 365 응용 프로그램에서 고객 데이터를 검색 및 내보낼 때는 이 도구를 사용할 수 없습니다. 그러나 Exchange Online의 원본 위치 eDiscovery 도구를 사용하여 사용자 사서함에서 콘텐츠를 검색할 수 있습니다. 또한 SharePoint Online에서 eDiscovery 센터를 사용하여 SharePoint 사이트 및 OneDrive 계정에서 콘텐츠를 검색할 수도 있습니다. 또는 문서 소유자에게 콘텐츠를 찾도록 도와달라고 요청하고 필요에 따라 콘텐츠를 변경 또는 삭제하거나 내보낼 수 있습니다. 자세한 내용은 다음을 참조하세요.</br><br> * [원본 위치 eDiscovery 검색 만들기](https://docs.microsoft.com/exchange/create-in-place-ediscovery-search-exchange-2013-help)<br> * [SharePoint Online에서 eDiscovery 센터 설정](https://support.office.com/article/Set-up-an-eDiscovery-Center-in-SharePoint-Online-A18F8975-AA7F-43B4-A7D6-001D14744D8E)
 
 ### <a name="using-content-search-to-find-personal-data"></a>콘텐츠 검색을 사용하여 개인 데이터 찾기
 
@@ -124,8 +124,8 @@ DSR에 대응하는 첫 번째 단계는 DSR의 주체인 개인 데이터를 �
 
 데이터를 찾은 후에 데이터 주체의 요청을 충족하기 위한 특정 작업을 수행할 수 있습니다.
 
->[!NOTE]
->Office 365 Germany에서 보안 및 준수 센터는 https://protection.office.de에 있습니다.
+> [!NOTE]
+> Office 365 Germany에서 보안 및 준수 센터는 https://protection.office.de에 있습니다.
 
 #### <a name="searching-content-locations"></a>콘텐츠 위치 검색
 
@@ -136,8 +136,8 @@ DSR에 대응하는 첫 번째 단계는 DSR의 주체인 개인 데이터를 �
 - SharePoint Online 사이트 여기에는 Microsoft 365 그룹 및 Microsoft Teams와 연결된 사이트가 포함됩니다.
 - 비즈니스용 OneDrive 계정
 
->[!NOTE]
->이 가이드에서는 DSR 조사와 관련이 있을 수 있는 모든 데이터가 Office 365, 즉 Microsoft 클라우드에 저장된다고 가정합니다. 사용자의 로컬 컴퓨터에 저장되거나 조직의 파일 서버에 온-프레미스 저장된 데이터는 Office 365에 저장된 데이터에 대한 DSR 조사 범위를 벗어납니다. 온-프레미스 조직의 데이터에 대한 DSR 요청에 응답하는 방법에 대한 지침은 [Office 온-프레미스 서버에 대한 GDPR](https://docs.microsoft.com/Office365/Enterprise/gdpr-for-office-servers)을 참조하세요.
+> [!NOTE]
+> 이 가이드에서는 DSR 조사와 관련이 있을 수 있는 모든 데이터가 Office 365, 즉 Microsoft 클라우드에 저장된다고 가정합니다. 사용자의 로컬 컴퓨터에 저장되거나 조직의 파일 서버에 온-프레미스 저장된 데이터는 Office 365에 저장된 데이터에 대한 DSR 조사 범위를 벗어납니다. 온-프레미스 조직의 데이터에 대한 DSR 요청에 응답하는 방법에 대한 지침은 [Office 온-프레미스 서버에 대한 GDPR](https://docs.microsoft.com/Office365/Enterprise/gdpr-for-office-servers)을 참조하세요.
 
 #### <a name="tips-for-searching-content-locations"></a>콘텐츠 위치 검색을 위한 팁
 
@@ -270,9 +270,9 @@ DSR과 관련된 개인 데이터를 찾은 후에는 데이터를 찾는 데 �
 
 Office Lens (iOS, Android 및 Windows를 실행하는 장치에서 지원되는 카메라 앱)를 사용하는 사용자는 화이트 보드, 하드 카피 문서, 명함 및 많은 텍스트가 포함된 기타 항목의 사진을 찍을 수 있습니다. Office Lens는 이미지의 텍스트를 추출하여 Word, PowerPoint, OneNote 또는 PDF 파일과 같은 Office 문서에 저장하는 광학 문자 인식 기술을 사용합니다. 그런 다음 사용자는 이미지의 텍스트가 포함 된 파일을 Office 365의 비즈니스용 OneDrive 계정에 업로드 할 수 있습니다. 즉, 콘텐츠 검색 도구를 사용하여 Office Lens 이미지에서 생성 된 파일의 데이터를 검색, 액세스, 삭제 및 내보낼 수 있습니다. Office Lens에 대한 자세한 내용은 다음을 참조하세요.
 
-- [iOS용 Office Lens](https://support.microsoft.com/ko-KR/office/microsoft-office-lens-for-ios-fbdca5f4-1b1b-4391-a931-dc1c2582397b)
+- [iOS용 Office Lens](https://support.microsoft.com/office/microsoft-office-lens-for-ios-fbdca5f4-1b1b-4391-a931-dc1c2582397b)
 - [Android용 Office Lens](https://support.office.com/article/Office-Lens-for-Android-ec124207-0049-4201-afaf-b5874a8e6f2b)
-- [Windows용 Office Lens](https://support.microsoft.com/ko-KR/office/office-lens-for-windows-577ec09d-8da2-4029-8bb7-12f8114f472a)
+- [Windows용 Office Lens](https://support.microsoft.com/office/office-lens-for-windows-577ec09d-8da2-4029-8bb7-12f8114f472a)
 
 #### <a name="onedrive-for-business-and-sharepoint-online-experience-settings"></a>비즈니스용 OneDrive 및 SharePoint Online 환경 설정
 
@@ -357,7 +357,6 @@ OneNote 수업용 전자 필기장은 수업 팀 SharePoint Online 사이트에 
 1. 다음 검색 조건을 사용하여 콘텐츠 검색을 실행합니다.
 
    - 모든 SharePoint Online 사이트 검색
-
    - 수업 팀의 이름(예: “9C Biology”)을 검색 키워드로 포함합니다.
 
 2. 검색 결과를 미리 보고 수업용 전자 필기장에 해당하는 항목을 찾습니다.
@@ -369,17 +368,17 @@ OneNote 수업용 전자 필기장은 수업 팀 SharePoint Online 사이트에 
    path:"<https://contosoedu.onmicrosoft.com/sites/9C> Biology/SiteAssets/9C Biology Notebook/" AND filetype="one"
    ```
 
-6.  콘텐츠 검색을 다시 실행합니다. 검색 결과에 수업 팀의 수업용 전자 필기장에 대한 모든 OneNote 파일이 포함되어야 합니다.
+6. 콘텐츠 검색을 다시 실행합니다. 검색 결과에 수업 팀의 수업용 전자 필기장에 대한 모든 OneNote 파일이 포함되어야 합니다.
 
 #### <a name="microsoft-to-do"></a>Microsoft To Do
 
-Microsoft To Do의 작업(*to-do 목록*에 저장되는 *to-dos*)은 사용자의 Exchange Online 사서함에 작업으로 저장됩니다. 즉, 콘텐츠 검색 도구를 사용하여 할 일을 검색, 액세스, 삭제 및 내보낼 수 있습니다. 자세한 내용은 [Microsoft To Do 설정](https://support.microsoft.com/ko-KR/office/set-up-microsoft-to-do-490c1a8c-2333-4952-8125-841afadb9620)을 참조하세요.
+Microsoft To Do의 작업(*to-do 목록*에 저장되는 *to-dos*)은 사용자의 Exchange Online 사서함에 작업으로 저장됩니다. 즉, 콘텐츠 검색 도구를 사용하여 할 일을 검색, 액세스, 삭제 및 내보낼 수 있습니다. 자세한 내용은 [Microsoft To Do 설정](https://support.microsoft.com/office/set-up-microsoft-to-do-490c1a8c-2333-4952-8125-841afadb9620)을 참조하세요.
 
 #### <a name="skype-for-business"></a>비즈니스용 Skype
 
 비즈니스용 Skype에서 개인 데이터를 액세스하고, 보고, 내보내는 방법에 대한 몇 가지 추가 정보는 다음과 같습니다.
 
-- 모임에 첨부된 파일은 실제 모임에서 180일 동안 유지된 후 액세스할 수 없게 됩니다. 모임 참가자는 모임 요청에서 모임에 참석하여 첨부된 파일을 보거나 다운로드하는 방식으로 이러한 파일에 액세스할 수 있습니다. [비즈니스용 Skype 모임에 대한 첨부 파일 미리 로드](https://support.microsoft.com/ko-KR/office/preload-attachments-for-a-skype-for-business-meeting-fd3d9f9d-b448-4754-b813-02e49393f251)에서 "모임에 첨부 파일 사용" 섹션을 참조하세요.
+- 모임에 첨부된 파일은 실제 모임에서 180일 동안 유지된 후 액세스할 수 없게 됩니다. 모임 참가자는 모임 요청에서 모임에 참석하여 첨부된 파일을 보거나 다운로드하는 방식으로 이러한 파일에 액세스할 수 있습니다. [비즈니스용 Skype 모임에 대한 첨부 파일 미리 로드](https://support.microsoft.com/office/preload-attachments-for-a-skype-for-business-meeting-fd3d9f9d-b448-4754-b813-02e49393f251)에서 "모임에 첨부 파일 사용" 섹션을 참조하세요.
 - 비즈니스용 Skype의 대화는 사용자 사서함의 대화 내용 폴더에 보관됩니다. 콘텐츠 검색을 사용하여 사서함에서 Skype 대화 내의 데이터를 검색할 수 있습니다.
 - 데이터 주체는 비즈니스용 Skype에서 자신의 대화 상대를 내보낼 수 있습니다. 이렇게 하려면 비즈니스용 Skype에서 대화 상대 그룹을 마우스 오른쪽 단추로 클릭하고 **복사**를 클릭합니다. 그런 다음 전자 메일 주소 목록을 텍스트 또는 Word 문서에 붙여넣을 수 있습니다.
 - 모임 참가자의 Exchange Online 사서함에 소송 보존이 적용되거나 Office 365 보존 정책이 할당된 경우 모임에 첨부된 파일은 참가자의 사서함에 보존됩니다. 파일 보존 기간이 만료되지 않은 경우 콘텐츠 검색을 사용하여 참가자의 사서함에서 이러한 파일을 검색할 수 있습니다. 파일 보존에 대한 자세한 내용은 [비즈니스용 Skype 모임에 첨부된 대용량 파일 보존](https://docs.microsoft.com/skypeforbusiness/set-up-policies-in-your-organization/retaining-large-files-attached-to-a-meeting)을 참조하세요.
@@ -429,8 +428,8 @@ DSR 내보내기 요청을 충족하기 위해 Office 문서를 해당 기본 �
 
 콘텐츠 검색 결과를 내보내는 경우 PST 파일 또는 개별 메시지(.msg 파일)로 전자 메일 항목을 다운로드할 수 있습니다. SharePoint Online 및 비즈니스용 OneDrive 사이트에서 문서 및 목록을 내보낼 때는 기본 파일 형식의 복사본을 내보냅니다. 예를 들어 SharePoint 목록은 CSV 파일로 내보내고, 웹 페이지는 .aspx 또는 html 파일로 내보냅니다.
 
->[!NOTE]
->콘텐츠 검색을 사용하여 사용자의 사서함에서 사서함 항목을 내보려면 사용자(항목을 내보내는 사서함의 소유자)에게 Exchange Online 요금제 2 라이선스가 할당되어 있어야 합니다. 
+> [!NOTE]
+> 콘텐츠 검색을 사용하여 사용자의 사서함에서 사서함 항목을 내보려면 사용자(항목을 내보내는 사서함의 소유자)에게 Exchange Online 요금제 2 라이선스가 할당되어 있어야 합니다. 
 
 항목을 내보내고 다운로드하려면
 
@@ -471,12 +470,12 @@ DSR에 응답하여 개인 데이터를 조사하거나 삭제할 준비를 할 
 
 - **일시 삭제 및 영구 삭제:** Exchange Online, SharePoint Online 및 비즈니스용 OneDrive와 같은 Office 365 서비스에는 삭제한 항목을 복구 기회 없이 Microsoft 클라우드에서 영구히 제거하기 전에 복구할 수 있는지(일반적으로 제한된 기간 동안)와 관련된 *일시 삭제* 및 *영구 삭제* 개념이 있습니다. 이 컨텍스트에서 일시 삭제한 항목은 영구 삭제하기 전에 제한된 기간 동안 사용자 및/또는 관리자가 복구할 수 있습니다. 항목이 영구 삭제되면 영구 제거 상태로 표시되며, 해당 Office 365 서비스에 의해 처리될 때 제거됩니다. 일시 삭제 및 영구 삭제가 사서함 및 사이트의 항목에 작동하는 방식은 다음과 같습니다(항목을 삭제한 사람이 데이터 소유자인지 또는 관리자인지는 관계없음).
 
-    - **사서함:** 항목은 지운 편지함 폴더에서 삭제되거나 사용자가 **Shift+Delete**를 눌러 삭제할 때까지 일시 삭제됩니다. 항목을 일시 삭제하면 사서함의 복구 가능한 항목 폴더로 이동됩니다. 이때 항목은 삭제한 항목 보존 기간이 만료될 때까지 사용자가 복구할 수 있습니다(Office 365에서 삭제한 항목 보존 기간은 14일이지만 관리자가 30일까지 늘릴 수 있음). 보존 기간이 만료되면 항목은 영구 삭제된 후 숨겨진 폴더(*제거* 폴더)로 이동됩니다. 항목은 다음 번에 사서함을 처리할 때 Office 365에서 영구적으로 제거됩니다(사서함은 7일마다 1번 처리됨).
+  - **사서함:** 항목은 지운 편지함 폴더에서 삭제되거나 사용자가 **Shift+Delete**를 눌러 삭제할 때까지 일시 삭제됩니다. 항목을 일시 삭제하면 사서함의 복구 가능한 항목 폴더로 이동됩니다. 이때 항목은 삭제한 항목 보존 기간이 만료될 때까지 사용자가 복구할 수 있습니다(Office 365에서 삭제한 항목 보존 기간은 14일이지만 관리자가 30일까지 늘릴 수 있음). 보존 기간이 만료되면 항목은 영구 삭제된 후 숨겨진 폴더(*제거* 폴더)로 이동됩니다. 항목은 다음 번에 사서함을 처리할 때 Office 365에서 영구적으로 제거됩니다(사서함은 7일마다 1번 처리됨).
 
-    - **SharePoint Online 및 비즈니스용 OneDrive 사이트**: 파일 또는 문서가 삭제되면 사이트의 휴지통(라고도 *1단계 휴지통*(Windows의 휴지통과 유사함)으로 이동됩니다. 항목은 93일(Office 365 사이트에 대한 삭제한 항목 보존 기간) 동안 휴지통에 유지됩니다. 이 기간 후에 항목은 사이트 모음용 휴지통(*2단계 휴지통*)으로 자동으로 이동됩니다. (해당 권한이 있는 사용자 또는 관리자는 1단계 휴지통에서 항목을 삭제할 수도 있음) 이때 항목은 일시 삭제되며, SharePoint Online의 사이트 모음 관리자가 또는 비즈니스용 OneDrive의 사용자 또는 관리자가 복구할 수 있습니다. 항목이 2단계 휴지통에서 삭제되면(수동으로 또는 자동으로) 영구 삭제되며, 사용자 또는 관리자가 액세스할 수 없게 됩니다. 보존 기간은 1단계 및 2단계 휴지통 모두 93일입니다. 즉, 2단계 휴지통 보존은 항목이 처음 삭제될 때 시작됩니다. 따라서 총 최대 보존 기간은 두 휴지통 모두 93일입니다.
+  - **SharePoint Online 및 비즈니스용 OneDrive 사이트**: 파일 또는 문서가 삭제되면 사이트의 휴지통(라고도 *1단계 휴지통*(Windows의 휴지통과 유사함)으로 이동됩니다. 항목은 93일(Office 365 사이트에 대한 삭제한 항목 보존 기간) 동안 휴지통에 유지됩니다. 이 기간 후에 항목은 사이트 모음용 휴지통(*2단계 휴지통*)으로 자동으로 이동됩니다. (해당 권한이 있는 사용자 또는 관리자는 1단계 휴지통에서 항목을 삭제할 수도 있음) 이때 항목은 일시 삭제되며, SharePoint Online의 사이트 모음 관리자가 또는 비즈니스용 OneDrive의 사용자 또는 관리자가 복구할 수 있습니다. 항목이 2단계 휴지통에서 삭제되면(수동으로 또는 자동으로) 영구 삭제되며, 사용자 또는 관리자가 액세스할 수 없게 됩니다. 보존 기간은 1단계 및 2단계 휴지통 모두 93일입니다. 즉, 2단계 휴지통 보존은 항목이 처음 삭제될 때 시작됩니다. 따라서 총 최대 보존 기간은 두 휴지통 모두 93일입니다.
 
->[!NOTE]
->항목이 일시 삭제되거나 영구 삭제되는 작업을 이해하면 삭제 요청에 응답할 때 GDPR 요구 사항을 충족하는 방식으로 데이터를 삭제하는 방법을 결정하는 데 도움이 됩니다.
+> [!NOTE]
+> 항목이 일시 삭제되거나 영구 삭제되는 작업을 이해하면 삭제 요청에 응답할 때 GDPR 요구 사항을 충족하는 방식으로 데이터를 삭제하는 방법을 결정하는 데 도움이 됩니다.
 
 - **법적 보류 및 보존 정책:** Office 365에서는 사서함과 사이트에 "보류"가 적용될 수 있습니다. 간단히 말해서, 이는 사서함이나 사이트가 보류 중일 때, 항목의 보존 기간이 만료되거나 보류가 제거될 때까지 영구적으로 제거 (하드 삭제)되지 않는 것을 의미합니다. 이는 DSR에 대한 응답으로 고객 콘텐츠를 삭제하는 맥락에서 중요합니다. 보류중인 콘텐츠 위치에서 항목을 하드 삭제하면 해당 항목이 Office 365에서 영구적으로 제거되지 않습니다. 이는 IT 관리자가 복구할 수 있음을 의미합니다. 조직에서 DSR에 대한 응답으로 Office 365에서 데이터를 영구히 삭제하고 복구할 수 없는 요구 사항이나 정책이있는 경우 Office 365에서 데이터를 영구적으로 삭제하려면 보류를 사서함이나 사이트에서 제거해야합니다. DSR에 응답하기 위한 조직의 지침에는 특정 DSR 삭제 요청 또는 법적 보류가 우선하는지 여부를 결정하는 프로세스가 있습니다. 항목을 삭제하기 위해 보류가 제거되면 항목을 삭제한 후에 보류를 다시 구현할 수 있습니다.
 
@@ -491,17 +490,17 @@ SharePoint Online 사이트 또는 비즈니스용 OneDrive 계정에서 삭제�
 3. 1단계 휴지통(사이트 휴지통)으로 이동하여 이전 단계에서 삭제한 동일한 문서를 삭제합니다. 이 문서는 2단계 휴지통으로 전송됩니다. **이때 이 문서는 일시 삭제됩니다**.
 4. 2단계 휴지통(사이트 모음 휴지통)으로 이동하여 1단계 휴지통에서 삭제한 동일한 문서를 삭제합니다. **이때 이 문서는 영구 삭제됩니다.**
 
->[!IMPORTANT]
->보존(Office 365의 보존 또는 법적 보류 기능 중 하나) 중인 사이트에 있는 문서는 삭제할 수 없습니다. DSR 삭제 요청이 법적 보류에 우선하는 경우 문서를 영구적으로 삭제하려면 먼저 사이트에서 보존을 제거해야 합니다.
+> [!IMPORTANT]
+> 보존(Office 365의 보존 또는 법적 보류 기능 중 하나) 중인 사이트에 있는 문서는 삭제할 수 없습니다. DSR 삭제 요청이 법적 보류에 우선하는 경우 문서를 영구적으로 삭제하려면 먼저 사이트에서 보존을 제거해야 합니다.
 
 자세한 절차는 다음 항목을 참조하세요.
 
-- [SharePoint 문서 라이브러리에서 파일, 폴더 또는 링크 삭제](https://support.microsoft.com/ko-KR/office/delete-a-file-folder-or-link-from-a-sharepoint-document-library-71f3c90a-0d24-4d80-8b66-f88234b79a52)
-- [SharePoint 사이트의 휴지통 항목 삭제 또는 비우기](https://support.microsoft.com/ko-KR/office/delete-items-or-empty-the-recycle-bin-of-a-sharepoint-site-2e713599-d13e-40d6-96dc-66f0a366f74e)
-- [사이트 모음 휴지통에서 항목 삭제](https://support.microsoft.com/ko-KR/office/delete-items-from-the-site-collection-recycle-bin-dd5c00c2-aef6-4458-9d04-80b185077653)
+- [SharePoint 문서 라이브러리에서 파일, 폴더 또는 링크 삭제](https://support.microsoft.com/office/delete-a-file-folder-or-link-from-a-sharepoint-document-library-71f3c90a-0d24-4d80-8b66-f88234b79a52)
+- [SharePoint 사이트의 휴지통 항목 삭제 또는 비우기](https://support.microsoft.com/office/delete-items-or-empty-the-recycle-bin-of-a-sharepoint-site-2e713599-d13e-40d6-96dc-66f0a366f74e)
+- [사이트 모음 휴지통에서 항목 삭제](https://support.microsoft.com/office/delete-items-from-the-site-collection-recycle-bin-dd5c00c2-aef6-4458-9d04-80b185077653)
 - [이전 사용자의 데이터에 대한 액세스 권한 얻기 및 백업](https://docs.microsoft.com/microsoft-365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data)의 "이전 직원의 비즈니스용 OneDrive 문서에 대한 액세스 권한 얻기" 섹션
 - [비즈니스용 OneDrive에서 파일 또는 폴더 삭제](https://support.office.com/article/Delete-files-or-folders-in-OneDrive-21fe345a-e488-4fa7-932b-f053c1bebe8a)
-- [SharePoint에서 목록 삭제](https://support.microsoft.com/ko-KR/office/delete-a-list-in-sharepoint-2a7bca5b-b8fd-4e5b-8f4b-2ac034f3070d)
+- [SharePoint에서 목록 삭제](https://support.microsoft.com/office/delete-a-list-in-sharepoint-2a7bca5b-b8fd-4e5b-8f4b-2ac034f3070d)
 - [SharePoint Online에서 목록 항목 삭제](https://support.office.com/article/delete-list-items-in-sharepoint-online-db722233-4a38-4889-a6cf-4b33fe5c60c0)
 
 ### <a name="deleting-a-sharepoint-site"></a>SharePoint 사이트 삭제
@@ -570,8 +569,8 @@ DSR 삭제 요청에 대한 응답으로 사서함 항목을 영구 삭제해야
 
 조직에서는 보존 기간이 만료될 때 영구적으로 삭제되는 항목이 DSR 삭제요청에 대한 요구 사항을 충족하는지 확인할 수 있습니다. 그러나 사서함 항목이 Office 365에서 즉시 제거되어야 하는 경우 사서함에서 보존을 제거한 다음 사서함에서 항목을 영구 삭제해야 합니다. 자세한 지침은 [보존 중인 클라우드 기반 사서함의 복구 가능한 항목 폴더에서 항목 삭제](https://docs.microsoft.com/microsoft-365/compliance/delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold)를 참조하세요.
 
->[!NOTE]
->이전 항목의 절차에 따라 DSR 삭제 요청을 충족하기 위해 사서함 항목을 영구 삭제하려면 사서함이 여전히 보존 중인 동안 해당 항목을 일시 삭제하여 복구 가능한 항목 폴더로 이동하도록 해야 할 수 있습니다.
+> [!NOTE]
+> 이전 항목의 절차에 따라 DSR 삭제 요청을 충족하기 위해 사서함 항목을 영구 삭제하려면 사서함이 여전히 보존 중인 동안 해당 항목을 일시 삭제하여 복구 가능한 항목 폴더로 이동하도록 해야 할 수 있습니다.
 
 ## <a name="deleting-a-user"></a>사용자 삭제
 
@@ -588,11 +587,11 @@ DSR 삭제 요청에 대한 응답으로 개인 데이터를 삭제하는 것 �
 - 일부 Office 365 응용 프로그램은 사용자에 대한 정보를 제거합니다. 예를 들어, Microsoft Flow에서 삭제된 사용자는 공유된 흐름의 소유자 목록에서 제거됩니다.
 - 서비스의 보안 혹은 안정성을 손상시킬 수 있는 데이터를 제외하고 데이터 주체에 대한 시스템 생성 로그는 사용자 계정을 삭제한 후 30일 후에 삭제됩니다. 자세한 내용은 [시스템 생성 로그 삭제 섹션](#deleting-system-generated-logs)을 참조하세요.
 
->[!IMPORTANT]
->사용자 계정을 삭제한 후 이 사용자는 Office 365에 로그인할 수 있는 권한 및 이전에 회사 또는 학교 계정으로 사용한 제품 또는 서비스에 로그인할 수 있는 권한을 상실합니다. 또한 Microsoft가 데이터 통제자인 인스턴스에서 Microsoft를 통해 직접 DSR 요청을 시작할 수 없습니다. 자세한 내용은 이 가이드의 4부에서 [Microsoft가 데이터 통제자인 조직 ID로 인증된 제품 및 서비스](#product-and-services-authenticated-with-an-org-id-for-which-microsoft-is-a-data-controller) 섹션을 참조하세요.
+> [!IMPORTANT]
+> 사용자 계정을 삭제한 후 이 사용자는 Office 365에 로그인할 수 있는 권한 및 이전에 회사 또는 학교 계정으로 사용한 제품 또는 서비스에 로그인할 수 있는 권한을 상실합니다. 또한 Microsoft가 데이터 통제자인 인스턴스에서 Microsoft를 통해 직접 DSR 요청을 시작할 수 없습니다. 자세한 내용은 이 가이드의 4부에서 [Microsoft가 데이터 통제자인 조직 ID로 인증된 제품 및 서비스](#product-and-services-authenticated-with-an-org-id-for-which-microsoft-is-a-data-controller) 섹션을 참조하세요.
 
->[!NOTE]
->현재 FastTrack 마이그레이션에 연결된 고객의 경우, 사용자 계정을 삭제하면 Microsoft FastTrack 팀이 보유하는 데이터 복사본이 삭제되지 않습니다. FastTrack 팀은 오직 마이그레이션 완료 목적으로 복사본을 보유합니다. 마이그레이션하는 동안 Microsoft FastTrack 팀이 데이터 복사본도 삭제하게 하려면 [요청을 제출](https://go.microsoft.com/fwlink/?linkid=874544)할 수 있습니다. 일반 업무 과정에서 Microsoft FastTrack은 마이그레이션이 완료되면 모든 데이터 복사본을 삭제합니다.
+> [!NOTE]
+> 현재 FastTrack 마이그레이션에 연결된 고객의 경우, 사용자 계정을 삭제하면 Microsoft FastTrack 팀이 보유하는 데이터 복사본이 삭제되지 않습니다. FastTrack 팀은 오직 마이그레이션 완료 목적으로 복사본을 보유합니다. 마이그레이션하는 동안 Microsoft FastTrack 팀이 데이터 복사본도 삭제하게 하려면 [요청을 제출](https://go.microsoft.com/fwlink/?linkid=874544)할 수 있습니다. 일반 업무 과정에서 Microsoft FastTrack은 마이그레이션이 완료되면 모든 데이터 복사본을 삭제합니다.
 
 개인 데이터 삭제에 대한 이전 섹션에서 설명된 데이터의 일시 삭제 및 영구 삭제와 마찬가지로 사용자 계정을 삭제할 때도 일시 삭제 및 영구 삭제 상태가 있습니다.
 
@@ -609,8 +608,8 @@ DSR 삭제 요청에 대한 응답으로 개인 데이터를 삭제하는 것 �
 
 Office 365 관리 포털에서 사용자를 영구 삭제할 수 없습니다.
 
->[!NOTE]
->21Vianet에서 운영하는 Office 365(중국)에서는 앞서 설명한 대로 사용자를 영구적으로 삭제할 수 없습니다. 사용자를 영구적으로 삭제하려면 이 [URL](https://portal.partner.microsoftonline.cn/AdminPortal/Home#/homepage)의 Office 365 관리자 포털을 통해 요청을 제출할 수 있습니다. **상거래**로 이동한 후 **구독** -> **개인 정보** ->  **GDPR**을 선택하고 필수 정보를 입력합니다.
+> [!NOTE]
+> 21Vianet에서 운영하는 Office 365(중국)에서는 앞서 설명한 대로 사용자를 영구적으로 삭제할 수 없습니다. 사용자를 영구적으로 삭제하려면 이 [URL](https://portal.partner.microsoftonline.cn/AdminPortal/Home#/homepage)의 Office 365 관리자 포털을 통해 요청을 제출할 수 있습니다. **상거래**로 이동한 후 **구독** -> **개인 정보** ->  **GDPR**을 선택하고 필수 정보를 입력합니다.
 
 ### <a name="removing-exchange-online-data"></a>Exchange Online 데이터 제거
 
@@ -645,7 +644,7 @@ Office 365 관리 포털에서 사용자를 영구 삭제할 수 없습니다.
 
 DSR 요청에 적합할 수 있는 Access 데이터베이스의 레코드를 검색할 수 있는 몇 가지 방법이 있습니다. DSR 조사의 경우, 데이터 주체와 관련된 레코드를 검색하거나 특정 데이터를 포함하는 레코드를 검색할 수 있습니다. 예를 들어, 데이터 주체에 해당하는 레코드를 검색하거나 해당 레코드로 이동할 수 있습니다. 또는 데이터 주체에 대한 개인 데이터 같은 특정 데이터를 포함하는 레코드를 검색할 수 있습니다. 자세한 내용은 다음을 참조하세요.
 
-- [Access 데이터베이스에서 레코드 찾기](https://support.microsoft.com/ko-KR/office/find-records-in-an-access-database-705220b7-0255-4ef9-9349-6bd7442d1b7e) 
+- [Access 데이터베이스에서 레코드 찾기](https://support.microsoft.com/office/find-records-in-an-access-database-705220b7-0255-4ef9-9349-6bd7442d1b7e) 
 - [단순 선택 쿼리 만들기](https://support.office.com/article/create-a-simple-select-query-de8b1c8d-14e9-4b25-8e22-70888d54de59)
 
 ##### <a name="access"></a>Access
@@ -654,12 +653,12 @@ DSR 요청과 관련된 레코드 또는 필드를 찾은 후 데이터의 스�
 
 - [Access 보고서 소개](https://support.office.com/article/introduction-to-reports-in-access-e0869f59-7536-4d19-8e05-7158dcd3681c)
 - [Excel로 데이터 내보내기](https://support.office.com/article/export-data-to-excel-64e974e6-ae43-4301-a53e-20463655b1a9)
-- [Word 문서에 데이터 내보내기](https://support.microsoft.com/ko-KR/office/export-access-data-to-a-word-document-6e954c8e-2243-4cb9-8544-607e5b7bfc12)
-- [텍스트 파일로 데이터 내보내기](https://support.microsoft.com/ko-KR/office/export-data-to-a-text-file-f72dfc38-a8a0-4c5b-8c2c-bf2950814140)
+- [Word 문서에 데이터 내보내기](https://support.microsoft.com/office/export-access-data-to-a-word-document-6e954c8e-2243-4cb9-8544-607e5b7bfc12)
+- [텍스트 파일로 데이터 내보내기](https://support.microsoft.com/office/export-data-to-a-text-file-f72dfc38-a8a0-4c5b-8c2c-bf2950814140)
 
 ##### <a name="export"></a>내보내기
 
-앞에서 설명한 것처럼 Access 데이터베이스에서 다른 파일 형식으로 데이터를 내보낼 수 있습니다. 선택한 내보내기 파일 형식은 데이터 주체의 특정 DSR 내보내기 요청에 의해 결정될 수 있습니다. 다른 파일 형식으로 Access 데이터를 내보내는 방법을 설명하는 항목 목록은 [가져오기 및 내보내기](https://support.microsoft.com/ko-KR/office/import-and-export-c060505b-d8ac-4499-8879-733e56c6106f)를 참조하세요.
+앞에서 설명한 것처럼 Access 데이터베이스에서 다른 파일 형식으로 데이터를 내보낼 수 있습니다. 선택한 내보내기 파일 형식은 데이터 주체의 특정 DSR 내보내기 요청에 의해 결정될 수 있습니다. 다른 파일 형식으로 Access 데이터를 내보내는 방법을 설명하는 항목 목록은 [가져오기 및 내보내기](https://support.microsoft.com/office/import-and-export-c060505b-d8ac-4499-8879-733e56c6106f)를 참조하세요.
 
 ##### <a name="delete"></a>삭제
 
@@ -974,11 +973,11 @@ Forms 사용자는 <https://forms.office.com>으로 이동한 후 **내 양식**
 
 #### <a name="access"></a>Access
 
-관련 Forms가 발견되면 **응답** 탭을 클릭하여 Forms에 대한 응답에 액세스할 수 있습니다. [퀴즈 결과](https://support.microsoft.com/ko-KR/office/check-and-share-your-quiz-results-c4a9b45c-d62f-4eb7-b5db-ad81892c7c07)를 확인하거나 [form 결과](https://support.office.com/article/02859424-341d-406f-b32a-9a0fbaf357af)를 확인하는 방법에 대해 자세히 알아보십시오. Excel에서 응답 결과를 검토하려면 **응답** 탭을 선택한 다음 **Excel에서 열기**를 클릭합니다. 데이터 주체에 Form 사본을 보내려는 경우 응용 프로그램에 표시된 관련 질문 및 답변의 스크린 샷을 서식있는 텍스트 형식으로 가져 오거나 데이터 주체에 결과의 Excel 복사본을 보낼 수 있습니다. Excel을 사용하면서 설문 결과의 데이터 주체 부분만 공유하려는 경우 결과를 공유하기 전에 특정 행이나 열을 삭제하거나 나머지 섹션을 삭제합니다. 또는 **공유\>복제본에 대한 링크를 가져오기**(서식 파일로 공유 아래)로 이동하여 전체 Form의 복제본을 데이터 주체에게 제공할 수 있습니다.
+관련 Forms가 발견되면 **응답** 탭을 클릭하여 Forms에 대한 응답에 액세스할 수 있습니다. [퀴즈 결과](https://support.microsoft.com/office/check-and-share-your-quiz-results-c4a9b45c-d62f-4eb7-b5db-ad81892c7c07)를 확인하거나 [form 결과](https://support.office.com/article/02859424-341d-406f-b32a-9a0fbaf357af)를 확인하는 방법에 대해 자세히 알아보십시오. Excel에서 응답 결과를 검토하려면 **응답** 탭을 선택한 다음 **Excel에서 열기**를 클릭합니다. 데이터 주체에 Form 사본을 보내려는 경우 응용 프로그램에 표시된 관련 질문 및 답변의 스크린 샷을 서식있는 텍스트 형식으로 가져 오거나 데이터 주체에 결과의 Excel 복사본을 보낼 수 있습니다. Excel을 사용하면서 설문 결과의 데이터 주체 부분만 공유하려는 경우 결과를 공유하기 전에 특정 행이나 열을 삭제하거나 나머지 섹션을 삭제합니다. 또는 **공유\>복제본에 대한 링크를 가져오기**(서식 파일로 공유 아래)로 이동하여 전체 Form의 복제본을 데이터 주체에게 제공할 수 있습니다.
 
 #### <a name="delete"></a>삭제
 
-모든 설문 조사, 퀴즈 또는 질문지는 해당 소유자가 영구적으로 삭제할 수 있습니다. "개인 정보 삭제" DSR을 수락하여 양식을 완전히 삭제하려면 양식 목록에서 해당 양식을 찾아서 미리 보기 창의 오른쪽 위에 있는 일련의 점(줄임표)을 선택한 후 **삭제**를 클릭합니다. 양식이 삭제되고 나면 검색할 수 없습니다. 자세한 내용은 [양식 삭제](https://support.microsoft.com/ko-KR/office/delete-a-form-2207e468-ce1b-4c4a-a256-caf631d87af0)를 참조하세요.
+모든 설문 조사, 퀴즈 또는 질문지는 해당 소유자가 영구적으로 삭제할 수 있습니다. "개인 정보 삭제" DSR을 수락하여 양식을 완전히 삭제하려면 양식 목록에서 해당 양식을 찾아서 미리 보기 창의 오른쪽 위에 있는 일련의 점(줄임표)을 선택한 후 **삭제**를 클릭합니다. 양식이 삭제되고 나면 검색할 수 없습니다. 자세한 내용은 [양식 삭제](https://support.microsoft.com/office/delete-a-form-2207e468-ce1b-4c4a-a256-caf631d87af0)를 참조하세요.
 
 #### <a name="export"></a>내보내기
 
@@ -1129,8 +1128,8 @@ PowerApp는 사용자가 조직의 일상적인 작업에서 중요한 역할을
 
 콘텐츠 검색을 사용하여 프로젝트와 연결된 SharePoint Online 사이트를 검색할 수 있습니다. (프로젝트가 처음 생성되면 연결된 SharePoint Online 사이트를 만들 수 있는 옵션이 표시됩니다.) 콘텐츠 검색을 통해 Project Online에서 실제 프로젝트의 데이터를 검색하지 않고, 연결된 사이트의 데이터만 검색합니다. 콘텐츠 검색에서 제목에 언급된 사용자와 같은 프로젝트에 대한 메타 데이터를 검색하지만,이를 통해 DSR과 관련된 데이터를 포함하는 프로젝트를 찾는 데 (또한 액세스 하는 데) 도움이 될 수 있습니다.
 
->[!TIP]
->사이트가 프로젝트와 연결된 조직의 사이트 모음에 대한 URL은 **https://\<your org\>.sharepoint.com/sites/pwa**입니다(예: **https://contoso.sharepoint.com/pwa**). 이 특정 사이트 모음을 콘텐츠 검색의 위치로 사용한 다음 검색 쿼리에서 프로젝트의 이름을 사용할 수 있습니다. 또한 IT 관리자는 SharePoint 관리 센터의 사이트 모음 페이지를 사용하여 조직의 PWA 사이트 모음 목록을 가져올 수 있습니다.
+> [!TIP]
+> 사이트가 프로젝트와 연결된 조직의 사이트 모음에 대한 URL은 `https://<your org>.sharepoint.com/sites/pwa`(예: **<https://contoso.sharepoint.com/pwa>**). 이 특정 사이트 모음을 콘텐츠 검색의 위치로 사용한 다음 검색 쿼리에서 프로젝트의 이름을 사용할 수 있습니다. 또한 IT 관리자는 SharePoint 관리 센터의 사이트 모음 페이지를 사용하여 조직의 PWA 사이트 모음 목록을 가져올 수 있습니다.
 
 #### <a name="delete"></a>삭제
 
@@ -1152,15 +1151,15 @@ Project Online 환경에서 특정 사용자의 콘텐츠를 내보낼 수 있�
 
 데이터를 찾은 후 해당 데이터의 스크린샷을 찍거나 Word 또는 텍스트 파일에 복사하여 붙여넣고 데이터 주체에 제공할 수 있습니다. 발행물을 Word, PDF 또는 XPS 파일로 저장할 수도 있습니다. 자세한 내용은 다음을 참조하세요.
 
-  - [발행물을 Word 문서로 저장](https://support.microsoft.com/ko-KR/office/save-a-publication-as-a-word-document-b5eaaae5-6f1b-48c1-bebc-44460376b693)
-  - [다른 이름으로 저장 또는 Publisher를 사용하여 발행물을 .pdf 또는.xps로 변환](https://support.microsoft.com/ko-KR/office/save-as-or-convert-a-publication-to-pdf-or-xps-using-publisher-657332d0-d2c2-464a-9870-e9b3d22e6469)
+  - [발행물을 Word 문서로 저장](https://support.microsoft.com/office/save-a-publication-as-a-word-document-b5eaaae5-6f1b-48c1-bebc-44460376b693)
+  - [다른 이름으로 저장 또는 Publisher를 사용하여 발행물을 .pdf 또는.xps로 변환](https://support.microsoft.com/office/save-as-or-convert-a-publication-to-pdf-or-xps-using-publisher-657332d0-d2c2-464a-9870-e9b3d22e6469)
 
 #### <a name="export"></a>내보내기
 
 데이터 주체에 실제 Publisher 파일을 제공하거나 이전에 설명한 바와 같이 발행물을 Word, PDF 또는 XPS 파일로 저장할 수 있습니다. 자세한 내용은 다음을 참조하세요.
 
-  - [발행물을 Word 문서로 저장](https://support.microsoft.com/ko-KR/office/save-a-publication-as-a-word-document-b5eaaae5-6f1b-48c1-bebc-44460376b693)
-  - [다른 이름으로 저장 또는 Publisher를 사용하여 발행물을 .pdf 또는.xps로 변환](https://support.microsoft.com/ko-KR/office/save-as-or-convert-a-publication-to-pdf-or-xps-using-publisher-657332d0-d2c2-464a-9870-e9b3d22e6469)
+  - [발행물을 Word 문서로 저장](https://support.microsoft.com/office/save-a-publication-as-a-word-document-b5eaaae5-6f1b-48c1-bebc-44460376b693)
+  - [다른 이름으로 저장 또는 Publisher를 사용하여 발행물을 .pdf 또는.xps로 변환](https://support.microsoft.com/office/save-as-or-convert-a-publication-to-pdf-or-xps-using-publisher-657332d0-d2c2-464a-9870-e9b3d22e6469)
 
 #### <a name="delete"></a>삭제
 
@@ -1192,7 +1191,7 @@ Stream에 대한 액세스 섹션을 참조하세요.
 
 #### <a name="discover"></a>검색
 
-Sway ([www.sway.com](https://sway.office.com/)에서 찾음)를 사용하여 만든 콘텐츠는 소유자와 작성자가 Sway를 볼 수 있도록 허용한 사람만 볼 수 있습니다. [Sway의 개인 정보 설정](https://support.microsoft.com/ko-KR/office/privacy-settings-in-sway-394b551c-be6f-4bd7-a70a-f318d72bf217)을 참조하세요. Sway가 사용자의 DSR에 대응하는 개인 데이터가 있는 장소인지 여부를 확인하려면 데이터 주체 및 데이터 주체에 대한 컨텐츠를 생성할 가능성이 있는 조직 사용자에게 Sways를 검색하고 데이터 주체의 요청에 응답하는 개인 데이터를 포함할 가능성이 있는 Sways를 공유하도록 요청할 수 있습니다. Sway를 공유하는 방법에 대한 자세한 내용은 이 [Sway 공유](https://support.microsoft.com/ko-KR/office/share-your-sway-1cf853b8-ef7e-46b0-b704-003e58d28998) 문서에서 "조직 계정에서 Sway를 공유하세요"를 참조하세요.
+Sway ([www.sway.com](https://sway.office.com/)에서 찾음)를 사용하여 만든 콘텐츠는 소유자와 작성자가 Sway를 볼 수 있도록 허용한 사람만 볼 수 있습니다. [Sway의 개인 정보 설정](https://support.microsoft.com/office/privacy-settings-in-sway-394b551c-be6f-4bd7-a70a-f318d72bf217)을 참조하세요. Sway가 사용자의 DSR에 대응하는 개인 데이터가 있는 장소인지 여부를 확인하려면 데이터 주체 및 데이터 주체에 대한 컨텐츠를 생성할 가능성이 있는 조직 사용자에게 Sways를 검색하고 데이터 주체의 요청에 응답하는 개인 데이터를 포함할 가능성이 있는 Sways를 공유하도록 요청할 수 있습니다. Sway를 공유하는 방법에 대한 자세한 내용은 이 [Sway 공유](https://support.microsoft.com/office/share-your-sway-1cf853b8-ef7e-46b0-b704-003e58d28998) 문서에서 "조직 계정에서 Sway를 공유하세요"를 참조하세요.
 
 #### <a name="access"></a>Access
 
@@ -1200,7 +1199,7 @@ Sway에서 데이터 주체와 공유하려는 개인 데이터가 있는 경우
 
 #### <a name="delete"></a>삭제
 
-Sway를 삭제하는 방법을 알아보려면 [Sway의 개인 정보 설정](https://support.microsoft.com/ko-KR/office/privacy-settings-in-sway-394b551c-be6f-4bd7-a70a-f318d72bf217)에서 "내 Sway를 삭제하려면 어떻게 해야 하나요?" 섹션으로 이동하세요.
+Sway를 삭제하는 방법을 알아보려면 [Sway의 개인 정보 설정](https://support.microsoft.com/office/privacy-settings-in-sway-394b551c-be6f-4bd7-a70a-f318d72bf217)에서 "내 Sway를 삭제하려면 어떻게 해야 하나요?" 섹션으로 이동하세요.
 
 #### <a name="export"></a>내보내기
 
@@ -1296,8 +1295,8 @@ Yammer에는 사용자가 메시지나 파일을 삭제할 때 데이터가 일�
 
 확인된 관리자는 DSR을 받은 경우 Yammer에서 Yammer 관리 센터를 통해 GDPR 준수 삭제를 실행할 수 있습니다. 이 옵션을 사용자 지우기라고 하며, 14일 동안 사용자를 일시 중지한 후 파일 및 메시지를 제외하고 이들의 모든 개인 데이터를 제거합니다. 사용자가 게스트 사용자인 경우 해당 사용자가 구성원으로 있는 각 외부 네트워크에 대해 이 작업을 수행해야 합니다.
 
->[!NOTE]
->14일 동안 사용자의 파일 및 메시지를 제거하려는 경우 관리자는 사용자 수준 내보내기를 수행하여 파일 및 메시지를 식별한 다음, 제품 내 삭제 또는 PowerShell 스크립트를 사용하여 삭제할 항목을 결정해야 합니다. 14일 후에는 관리자가 사용자를 파일 또는 메시지에 더 이상 연결할 수 없습니다.
+> [!NOTE]
+> 14일 동안 사용자의 파일 및 메시지를 제거하려는 경우 관리자는 사용자 수준 내보내기를 수행하여 파일 및 메시지를 식별한 다음, 제품 내 삭제 또는 PowerShell 스크립트를 사용하여 삭제할 항목을 결정해야 합니다. 14일 후에는 관리자가 사용자를 파일 또는 메시지에 더 이상 연결할 수 없습니다.
 
 사용자 지우기 옵션을 통해 사용자가 삭제되면 모든 네트워크 관리자 및 확인된 관리자의 Yammer 받은 편지함으로 알림이 전송됩니다. 사용자 지우기 옵션을 선택하면 사용자의 Yammer 프로필이 삭제되지만 해당 Office 365 또는 Azure Active Directory 프로필은 삭제되지 않습니다.
 
@@ -1359,7 +1358,7 @@ Yammer에는 사용자가 메시지나 파일을 삭제할 때 데이터가 일�
     3. 로컬 컴퓨터에서 문서의 복사본을 수정합니다.
     4. 수정된 파일을 원래 SharePoint Online 위치에 업로드합니다.
 
-- SharePoint 목록의 데이터를 편집할 수 있습니다. [목록 항목 추가, 편집 또는 삭제](https://support.microsoft.com/ko-KR/office/add-edit-or-delete-list-items-a4b31f53-f044-470e-9823-4526594bacde)를 참조하세요.
+- SharePoint 목록의 데이터를 편집할 수 있습니다. [목록 항목 추가, 편집 또는 삭제](https://support.microsoft.com/office/add-edit-or-delete-list-items-a4b31f53-f044-470e-9823-4526594bacde)를 참조하세요.
 
 또한 IT 관리자는 문서와 연관된 특정 개인 속성이 수정할 수 있습니다.
 
@@ -1429,8 +1428,8 @@ Power BI는 완전성과 정확성을 위해 대시보드 및 보고서에서 �
 
 서비스를 해제하는 가장 빠른 방법은 Office 365 PowerShell을 사용하여 조직의 모든 사용자로부터 해당 사용자 라이선스를 제거하는 것입니다. 이는 모든 사람이 해당 서비스의 데이터에 액세스하는 것을 제한합니다. 자세한 지침은 [Office 365 PowerShell을 사용하여 서비스에 대한 액세스를 사용하지 않도록 설정](https://docs.microsoft.com/microsoft-365/enterprise/disable-access-to-services-with-microsoft-365-powershell)을 참조하고 절차에 따라 단일 라이선스 계획에서 사용자에 대해 Office 365 서비스를 사용하지 않도록 설정하세요.
 
->[!NOTE]
->Yammer의 경우 사용자 계정에서 Yammer 라이선스를 제거하는 것 외에 Yammer 자격 증명을 사용하여 Yammer에 로그인하는 기능도 사용하지 않도록 설정해야 합니다(로그인할 때 Office 365 자격 증명을 사용하도록 적용). 자세한 지침은 [Microsoft 365 사용자에 대한 Yammer 액세스 해제하기](https://support.office.com/article/Turn-off-Yammer-access-for-Office-365-users-1f79bfad-f713-4143-aa5d-5584985ce53a)를 참조하세요.
+> [!NOTE]
+> Yammer의 경우 사용자 계정에서 Yammer 라이선스를 제거하는 것 외에 Yammer 자격 증명을 사용하여 Yammer에 로그인하는 기능도 사용하지 않도록 설정해야 합니다(로그인할 때 Office 365 자격 증명을 사용하도록 적용). 자세한 지침은 [Microsoft 365 사용자에 대한 Yammer 액세스 해제하기](https://support.office.com/article/Turn-off-Yammer-access-for-Office-365-users-1f79bfad-f713-4143-aa5d-5584985ce53a)를 참조하세요.
 
 ### <a name="temporarily-removing-data-from-sharepoint-online-or-onedrive-for-business-sites"></a>SharePoint Online 또는 비즈니스용 OneDrive 사이트에서 일시적으로 데이터 제거
 
@@ -1444,14 +1443,14 @@ Power BI는 완전성과 정확성을 위해 대시보드 및 보고서에서 �
 
     a.  문서의 원본을 삭제합니다. 사이트에서 문서를 삭제하면 사이트 휴지통(*1단계 휴지통*이라고도 함)으로 문서가 전송됩니다.
 
-    b.  사이트 휴지통으로 이동하여 문서의 해당 복사본을 삭제합니다. 사이트 휴지통에서 문서를 삭제하면 사이트 모음 휴지통(*2단계 휴지통*이라고도 함)으로 문서가 전송됩니다. [SharePoint 문서 라이브러리에서 파일, 폴더 또는 링크 삭제](https://support.microsoft.com/ko-KR/office/delete-a-file-folder-or-link-from-a-sharepoint-document-library-71f3c90a-0d24-4d80-8b66-f88234b79a52)를 참조하세요.
+    b.  사이트 휴지통으로 이동하여 문서의 해당 복사본을 삭제합니다. 사이트 휴지통에서 문서를 삭제하면 사이트 모음 휴지통(*2단계 휴지통*이라고도 함)으로 문서가 전송됩니다. [SharePoint 문서 라이브러리에서 파일, 폴더 또는 링크 삭제](https://support.microsoft.com/office/delete-a-file-folder-or-link-from-a-sharepoint-document-library-71f3c90a-0d24-4d80-8b66-f88234b79a52)를 참조하세요.
 
-    c.  사이트 모음 휴지통으로 이동하여 문서의 해당 복사본을 삭제합니다. 그러면 Office 365에서 영구적으로 제거됩니다. [사이트 모음 휴지통에서 항목 삭제](https://support.microsoft.com/ko-KR/office/delete-items-from-the-site-collection-recycle-bin-dd5c00c2-aef6-4458-9d04-80b185077653)를 참조하세요.
+    c.  사이트 모음 휴지통으로 이동하여 문서의 해당 복사본을 삭제합니다. 그러면 Office 365에서 영구적으로 제거됩니다. [사이트 모음 휴지통에서 항목 삭제](https://support.microsoft.com/office/delete-items-from-the-site-collection-recycle-bin-dd5c00c2-aef6-4458-9d04-80b185077653)를 참조하세요.
 
 4. 제한이 더 이상 적용되지 않는 경우 온-프레미스에 저장된 문서의 복사본을 Office 365의 사이트에 다시 업로드할 수 있습니다.
 
->[!IMPORTANT]
->이전 절차는 문서가 보류(Microsoft Office 365의 보존 또는 법적 보류 기능 중 하나) 중인 사이트에 있는 경우에는 적용되지 않습니다. DSR 제한 요청이 법적 보존에 우선하는 경우 문서를 영구적으로 삭제하려면 먼저 사이트에서 보존을 제거해야 합니다. 이 경우 삭제된 문서의 문서 기록도 영구적으로 제거됩니다.
+> [!IMPORTANT]
+> 이전 절차는 문서가 보류(Microsoft Office 365의 보존 또는 법적 보류 기능 중 하나) 중인 사이트에 있는 경우에는 적용되지 않습니다. DSR 제한 요청이 법적 보존에 우선하는 경우 문서를 영구적으로 삭제하려면 먼저 사이트에서 보존을 제거해야 합니다. 이 경우 삭제된 문서의 문서 기록도 영구적으로 제거됩니다.
 
 ### <a name="temporarily-restricting-access-to-sharepoint-online-sites"></a>일시적으로 SharePoint Online 사이트에 대한 액세스 제한
 
@@ -1599,15 +1598,15 @@ Workplace Analytics 보고서 또는 보고서 집합에서 데이터 주체를 
 
 내보내기 요청이 **보류 중** 상태로 변경됩니다. **사용자 개인 정보** > **개요 블레이드**에서 보고서 상태를 볼 수 있습니다.
 
->[!IMPORTANT]
->개인 데이터는 여러 시스템에서 가져올 수 있으므로 내보내기 프로세스를 완료하는 데 최대 1개월이 소요될 수 있습니다.
+> [!IMPORTANT]
+> 개인 데이터는 여러 시스템에서 가져올 수 있으므로 내보내기 프로세스를 완료하는 데 최대 1개월이 소요될 수 있습니다.
 
 ### <a name="notify-about-exporting-or-deleting-issues"></a>내보내기 또는 삭제 중 발생하는 문제에 대한 알림
 
 Azure 포털에서 데이터를 내보내거나 삭제하는 동안 문제가 발생하면 Azure 포털 **도움말 + 지원** 블레이드로 이동하여 **구독 관리** > **기타 보안 및 준수 요청** > **개인 정보 보호 블레이드 및 GDPR 요청**에서 새 티켓을 제출합니다.
 
->[!NOTE]
- >Azure 포털에서 데이터를 내보내면 일부 응용 프로그램에 대한 시스템 생성 데이터는 내보내지지 않습니다. 이러한 응용 프로그램에 대한 데이터를 내보내려면 [시스템 생성 로그 데이터를 내보내는 추가 단계](https://docs.microsoft.com/microsoft-365/compliance/gdpr-system-generated-log-data)를 참조합니다.
+> [!NOTE]
+> Azure 포털에서 데이터를 내보내면 일부 응용 프로그램에 대한 시스템 생성 데이터는 내보내지지 않습니다. 이러한 응용 프로그램에 대한 데이터를 내보내려면 [시스템 생성 로그 데이터를 내보내는 추가 단계](https://docs.microsoft.com/microsoft-365/compliance/gdpr-system-generated-log-data)를 참조합니다.
 
 아래에 시스템 생성 로그를 액세스하고 내보내는 방법을 요약해서 설명합니다.
 
@@ -1670,8 +1669,8 @@ Exchange Online, SharePoint Online, 비즈니스용 Skype, Yammer 및 Office 365
 - **회사 또는 학교 계정을 통해 인증된 Windows:** 조직에서 Windows 라이선스를 구매하고 사용자가 회사 또는 학교 계정으로 조직에서 제공하는 Windows에 인증하는 경우, Microsoft는 데이터 통제자의 역할을 합니다. 
 - **사용자 획득 제품 또는 서비스:** 개별 기능으로 작동하는 사용자가 인증에 AAD를 사용하는 Microsoft 제품 또는 서비스(예: Microsoft Store에서 사용할 수 있는 Office 추가 기능 또는 응용 프로그램)를 획득하도록 허용하는 경우, Microsoft가 데이터 컨트롤러일 수 있습니다. 해당 Microsoft 제품 또는 서비스의 경우 사용자가 Microsoft에 직접 문의하여 DSR을 시작해야 합니다.
 
->[!IMPORTANT]
->Azure Active Directory를 통해 활성화된 사용자를 삭제한 경우 이 사용자는 이전에 회사 또는 학교 계정으로 사용할 수 있었던 제품 또는 서비스에 로그인할 수 없게 됩니다. 또한 Microsoft는 Microsoft가 데이터 통제자인 제품 또는 서비스에 대한 DSR 요청과 관련하여 해당 사용자를 더 이상 인증할 수 없습니다. 사용자가 이러한 서비스에 대해 DSR을 시작하도록 하려면 사용자의 AAD 계정을 삭제하기 전에 해당 사용자에게 DSR을 시작하도록 지시해야 합니다.
+> [!IMPORTANT]
+> Azure Active Directory를 통해 활성화된 사용자를 삭제한 경우 이 사용자는 이전에 회사 또는 학교 계정으로 사용할 수 있었던 제품 또는 서비스에 로그인할 수 없게 됩니다. 또한 Microsoft는 Microsoft가 데이터 통제자인 제품 또는 서비스에 대한 DSR 요청과 관련하여 해당 사용자를 더 이상 인증할 수 없습니다. 사용자가 이러한 서비스에 대해 DSR을 시작하도록 하려면 사용자의 AAD 계정을 삭제하기 전에 해당 사용자에게 DSR을 시작하도록 지시해야 합니다.
 
 ### <a name="personal-accounts"></a>개인 계정
 
@@ -1714,8 +1713,8 @@ Exchange Online, SharePoint Online, 비즈니스용 Skype, Yammer 및 Office 365
 
 DSR 사례 사용을 시작하려면 보안 및 준수 센터에서 [DSR 사례 도구를 사용하여 GDPR 데이터 주체 요청 관리하기](https://docs.microsoft.com/microsoft-365/compliance/manage-gdpr-data-subject-requests-with-the-dsr-case-tool)를 참조하세요.
 
->[!IMPORTANT]
->eDiscovery 관리자는 조직의 모든 DSR 사례를 보고 관리할 수 있습니다. eDiscovery와 관련된 여러 역할에 대한 자세한 내용은 [잠재적 사례 구성원에게 eDiscovery 권한 할당](https://docs.microsoft.com/Office365/SecurityCompliance/assign-ediscovery-permissions)을 참조하세요.
+> [!IMPORTANT]
+> eDiscovery 관리자는 조직의 모든 DSR 사례를 보고 관리할 수 있습니다. eDiscovery와 관련된 여러 역할에 대한 자세한 내용은 [잠재적 사례 구성원에게 eDiscovery 권한 할당](https://docs.microsoft.com/Office365/SecurityCompliance/assign-ediscovery-permissions)을 참조하세요.
 
 ### <a name="set-up-compliance-boundaries-to-limit-the-scope-of-content-searches"></a>콘텐츠 검색 범위를 제한하도록 준수 경계를 설정합니다.
 
@@ -1729,14 +1728,14 @@ DSR 조사에 대한 준수 경계(eDiscovery 사례와 함께)를 구현하는 
 
 2. Azure Active Directory에서 준수 경계를 정의하는 데 사용할 사용자 개체 특성을 결정합니다. 예를 들어 다음 단계에서 만든 관리자 역할 그룹의 구성원만 특정 특성 값을 가진 사용자의 콘텐츠 위치를 검색할 수 있도록 Country, CountryCode 또는 Department 특성을 선택할 수 있습니다. 이러한 방법으로 특정 기관에서 콘텐츠를 검색할 수 있는 사람을 제한할 수 있습니다.
 
->[!NOTE]
->비즈니스용 OneDrive의 경우 추가 단계를 수행하고 Microsoft 지원에 비즈니스용 OneDrive 계정에 특성을 동기화하도록 요청해야 합니다.
+   > [!NOTE]
+   > 비즈니스용 OneDrive의 경우 추가 단계를 수행하고 Microsoft 지원에 비즈니스용 OneDrive 계정에 특성을 동기화하도록 요청해야 합니다.
 
-4. 보안 및 준수 센터에서 각 준수 경계에 대한 관리자 역할 그룹을 만듭니다. 기본 제공 eDiscovery 관리자 역할 그룹을 복사한 다음, 필요에 따라 역할을 제거하여 이러한 역할 그룹을 만드는 것이 좋습니다.
+3. 보안 및 준수 센터에서 각 준수 경계에 대한 관리자 역할 그룹을 만듭니다. 기본 제공 eDiscovery 관리자 역할 그룹을 복사한 다음, 필요에 따라 역할을 제거하여 이러한 역할 그룹을 만드는 것이 좋습니다.
 
-5. 특정 역할 그룹 각각에 eDiscovery Mangers로 구성원을 추가합니다. 구성원은 DSR을 조사 및 응답하는 역할을 수행하며, 일반적으로 IT 관리자, 데이터 개인 정보 관리자, 준수 관리자 및 인사 담당자로 구성됩니다.
+4. 특정 역할 그룹 각각에 eDiscovery Mangers로 구성원을 추가합니다. 구성원은 DSR을 조사 및 응답하는 역할을 수행하며, 일반적으로 IT 관리자, 데이터 개인 정보 관리자, 준수 관리자 및 인사 담당자로 구성됩니다.
 
-6. 해당 관리자 역할 그룹의 구성원이 해당 기관 / 규제 준수 범위 내의 사용자에 대해서만 사서함과 사이트를 검색할 수 있도록 각 준수 경계에 대한 검색 권한 필터를 만듭니다. 검색 권한 필터를 사용하면 해당 역할 그룹의 구성원이 기관 / 규정 준수 범위에 해당하는 사용자 개체 특성 값을 사용하여 콘텐츠 위치만을 검색할 수 있습니다.
+5. 해당 관리자 역할 그룹의 구성원이 해당 기관 / 규제 준수 범위 내의 사용자에 대해서만 사서함과 사이트를 검색할 수 있도록 각 준수 경계에 대한 검색 권한 필터를 만듭니다. 검색 권한 필터를 사용하면 해당 역할 그룹의 구성원이 기관 / 규정 준수 범위에 해당하는 사용자 개체 특성 값을 사용하여 콘텐츠 위치만을 검색할 수 있습니다.
 
 단계별 지침은 [Office 365에서 eDiscovery 조사에 대한 준수 경계 설정](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries)을 참조하세요.
 
@@ -1751,8 +1750,8 @@ IT 관리자는 보안 및 준수 센터에서 감사 로그 검색 도구를 �
 
 특정 활동, 활동 유형, 특정 사용자가 수행 한 활동 및 기타 검색 기준에 대한 감사 로그를 검색 할 수 있습니다. SharePoint Online 및 비즈니스용 OneDrive 활동 외에도 Flow, Power BI 및 Microsoft Teams에서 활동을 검색할 수 있습니다. 감사 기록은 90일간 보존됩니다. 따라서 90일 전에 발생한 사용자 활동은 검색할 수 없습니다. 감사받은 작업의 전체 목록과 감사 로그 검색 방법을 보려면 [보안 및 규정 준수 센터에서 감사 로그 검색하기](search-the-audit-log-in-security-and-compliance.md)를 참조하세요.
 
->[!TIP]
->위에 설명된 90일 제한 문제를 해결하고 조직의 감사 레코드에 대한 실행 기록을 유지 관리하려면 되풀이되는 일정(예: 30일마다)으로 모든 활동을 내보내 조직의 감사 레코드에 대한 연속 레코드를 만들면 됩니다.
+> [!TIP]
+> 위에 설명된 90일 제한 문제를 해결하고 조직의 감사 레코드에 대한 실행 기록을 유지 관리하려면 되풀이되는 일정(예: 30일마다)으로 모든 활동을 내보내 조직의 감사 레코드에 대한 연속 레코드를 만들면 됩니다.
 
 ## <a name="appendix-b-change-log"></a>부록 b: 변경 로그
 
