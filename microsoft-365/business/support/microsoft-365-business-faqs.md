@@ -13,12 +13,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business Premium, Microsoft 365, SMB, FAQ, 질문과 대답, 답변, 비즈니스
 ms.date: 07/21/2020
-ms.openlocfilehash: 614da177df9250045ca3cc18c0b071e0aa43b7ec
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: e056f0c33aec180080a0d4e27e182d2d98877e6e
+ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560802"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47775088"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Microsoft 365 Business Premium 자주 묻는 질문
 
@@ -157,7 +157,7 @@ Microsoft 365 Business Standard에 추가할 수 있는 모든 추가 기능을 
 예, 비즈니스 음성 구독을 구매할 수 있습니다. [비즈니스 음성](https://docs.microsoft.com/microsoftteams/business-voice/whats-business-voice) 은 전화 시스템, 오디오 회의, 국내 통화 계획 등을 구성 하는 최대 300 사용자의 중소 기업에 맞게 설계 된 전화 통신 솔루션입니다. 음성 메일, 발신자 ID, 통화 대기, 착신 전환, 자동 전화 교환, 통화 큐 등의 전화 시스템 기능을 사용할 수 있습니다. <br> 사용자의 국가나 지역에서 비즈니스 음성을 사용할 수 있는지 여부를 확인 하려면 [country and region availability For Business voice](https://docs.microsoft.com/microsoftteams/business-voice/country-region-availability)를 참조 하세요. 가격 정보에 대 한 자세한 내용은 [비즈니스 Voice 가격 산정](https://go.microsoft.com/fwlink/?linkid=2127221)을 참조 하세요.
  
 ### <a name="can-microsoft-365-business-premium-customers-use--microsoft-defender-advanced-threat-protection"></a>Microsoft 365 Business Premium 고객은 Microsoft Defender Advanced Threat Protection을 사용할 수 있나요? 
-예, microsoft Defender Advanced Threat Protection을 Microsoft 365 Business Premium 고객에 게 추가 기능으로 사용할 수 있습니다.
+예, microsoft [클라우드 솔루션 공급자](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)에서 구입할 때 마이크로소프트 365 Business Premium에 대 한 추가 기능으로 사용 가능 합니다.
 
 ## <a name="partner-opportunity"></a>파트너 기회
 

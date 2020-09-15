@@ -13,20 +13,20 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365에 대 한 테 넌 트를 설정 하기 위한 로드맵
-ms.openlocfilehash: 540d1bc53ac06b85d22a8a60a62e51761e10339c
-ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
+ms.openlocfilehash: 7834e8b7f9ff8a1b33f2f2a7ccc4a499e4da7c69
+ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "47315756"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47775150"
 ---
 # <a name="tenant-roadmap-for-microsoft-365"></a>Microsoft 365에 대 한 테 넌 트 로드맵
 
-Microsoft 365 테 넌 트가 조직에 할당 된 서비스 집합입니다. 이 테 넌 트는 일반적으로 하나 이상의 DNS 도메인 이름과 연결 되며, 사용자 계정에 할당 하는 다른 구독 및 라이선스 내의 중앙 컨테이너 역할을 합니다. 
+Microsoft 365 테 넌 트가 조직에 할당 된 서비스 집합입니다. 일반적으로이 테 넌 트는 하나 이상의 DNS 도메인 이름과 연결 되어 있으며 사용자 계정에 할당 하는 다른 구독 및 라이선스 내의 중앙 컨테이너 역할을 합니다.
 
 Microsoft 365 테 넌 트를 만들 때이를 특정 지리적 위치에 할당 합니다. 여러 지리적 위치를 사용 하 여 테 넌 트를 만들고 테 넌 트를 한 위치에서 다른 위치로 이동할 수도 있습니다.
 
-잘 계획 되 고 실행 되는 테 넌 트 구성도 기본 네트워킹 및 id의 기본 서비스를 준비 하는 데 중요 한 역할을 합니다.
+네트워킹 및 id의 기본 서비스에 대 한 테 넌 트를 준비 하려면 테 넌 트 구성을 신중 하 게 계획 하 고 실행 하는 것이 중요 합니다.
 
 ## <a name="plan"></a>계획
 
@@ -50,13 +50,13 @@ Microsoft 365 테 넌 트를 만들 때이를 특정 지리적 위치에 할당 
 
 Microsoft 365 Multi-Geo를 사용하면 Microsoft 365 범위를 기존 테넌트 내 여러 지리적 지역 및 / 또는 국가로 확장할 수 있습니다.
 
-Microsoft 365 다중 Geo를 이해, 계획, 구성 및 관리 하는 작업을 [시작](microsoft-365-multi-geo.md) 합니다.
+이를 계획, 구성 및 관리 하는 방법을 포함 하 여 Microsoft 365 다중 위치에 대 한 자세한 내용은 [여기에서 시작](microsoft-365-multi-geo.md)합니다.
 
 ## <a name="move-a-tenants-geographic-locations"></a>테 넌 트의 지리적 위치 이동
 
 Microsoft는 Microsoft 365 서비스에 대 한 새로운 데이터 센터 지리적 위치 (geos)를 계속 해 서 엽니다. 이러한 새 데이터 센터 지역는 고객 요구 및 사용 증가를 지원 하기 위해 용량을 추가 하 고 리소스를 계산 합니다. 또한 새 데이터 센터 지역는 핵심 고객 데이터에 대 한 상주 데이터를 제공 합니다.
 
-[핵심 데이터를 새로운 Microsoft 365 데이터 센터 지역으로 이동](moving-data-to-new-datacenter-geos.md)하면서 지리적 데이터 이동을 이해 하 고 요청 하는 작업을 시작 합니다.
+지리적 데이터 이동을 요청 하는 방법을 포함 하 여 Microsoft 365 데이터 센터 geo에 대 한 자세한 내용은 [여기에서 시작](moving-data-to-new-datacenter-geos.md)합니다.
 
 ## <a name="next-step"></a>다음 단계
 

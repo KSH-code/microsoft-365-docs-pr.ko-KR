@@ -26,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: DNS 호스트에서 DNS 레코드를 추가 하 여 Microsoft 365 관리 센터에서 Microsoft 365에 도메인을 추가 합니다. 설치 마법사가 프로세스를 안내 합니다.
-ms.openlocfilehash: 3da99644f339eac2db6f1904e4eb50a7f584bc80
-ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
+ms.openlocfilehash: a9a0c12d5207db210b4a08ce58abeb44270c8506
+ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "47315720"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47775162"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Microsoft 365에 도메인 추가
 
@@ -83,34 +83,26 @@ ms.locfileid: "47315720"
     
 5. 도메인을 소유 하 고 있는지 확인 하는 방법을 선택 합니다.
     
-    1. 도메인 등록 기관에서 [도메인 연결](#domain-connect-registrars-integrating-with-microsoft-365)을 사용 하는 경우 다음 **로그인**을 선택 하면  >  **Next** Microsoft [에서 레코드를 자동으로 설정](../get-help-with-domains/domain-connect.md)합니다.
+    1. 도메인 등록 기관에서 [도메인 연결](#domain-connect-registrars-integrating-with-microsoft-365)을 사용 하는 경우 microsoft는 등록자에 로그인 하 고 microsoft 365에 대 한 연결을 확인 하 여 [레코드를 자동으로 설정](../get-help-with-domains/domain-connect.md) 합니다. 관리자 센터로 반환 되 고 Microsoft는 도메인을 자동으로 확인 합니다.
+    2. TXT 레코드를 사용하여 도메인을 확인할 수 있습니다. 이를 선택 하 고 **다음** 을 선택 하 여 등록자의 웹 사이트에이 DNS 레코드를 추가 하는 방법에 대 한 지침을 확인 합니다. 이 작업은 레코드를 추가한 후 확인 하는 데 최대 30 분까지 걸릴 수 있습니다. 
+    3. 텍스트 파일을 도메인의 웹 사이트에 추가할 수 있습니다. 설치 마법사에서 .txt 파일을 선택 하 여 다운로드 한 다음 웹 사이트의 최상위 폴더에 파일을 업로드 합니다. 파일의 경로는 다음과 같이 표시 됩니다 `http://mydomain.com/ms39978200.txt` . 웹 사이트에서 해당 파일을 찾아 도메인을 소유 하 고 있는지 확인 합니다.
     
-    2. 도메인에 대해 등록된 연락처로 확인 코드가 포함된 전자 메일을 받을 수 있습니다. 알 수 없거나 기록 된 전자 메일에 대 한 액세스 권한이 있는 경우 세 번째 옵션을 사용 하면 됩니다.
+6. Microsoft에서 도메인을 사용 하는 데 필요한 DNS 변경 작업을 수행 하는 방법을 선택 합니다.
     
-    3. TXT 레코드를 사용하여 도메인을 확인할 수 있습니다. 이를 선택 하 고 **다음** 을 선택 하 여 등록자의 웹 사이트에이 DNS 레코드를 추가 하는 방법에 대 한 지침을 확인 합니다. 이 작업은 레코드를 추가한 후 확인 하는 데 최대 30 분까지 걸릴 수 있습니다. 
-
-    4. 텍스트 파일을 도메인의 웹 사이트에 추가할 수 있습니다. 설치 마법사에서 .txt 파일을 선택 하 여 다운로드 한 다음 웹 사이트의 최상위 폴더에 파일을 업로드 합니다. 파일의 경로는 다음과 같이 표시 됩니다 `http://mydomain.com/ms39978200.txt` . 웹 사이트에서 해당 파일을 찾아 도메인을 소유 하 고 있는지 확인 합니다.
-    
-6. Office에서 도메인을 사용 하는 데 필요한 DNS 변경 작업을 수행 하는 방법을 선택 합니다.
-    
-    1. Office에서 DNS를 자동으로 구성 하도록 하려면 **dns 레코드 추가** 를 선택 합니다. 
-    
-  
+    1. **DNS 레코드 추가** 선택 등록자 등록 자가 [도메인 연결](#domain-connect-registrars-integrating-with-microsoft-365)을 지 원하는 경우 microsoft에서는 등록자에 로그인 하 고 microsoft 365에 대 한 연결을 확인 하 여 [레코드를 자동으로 설정](../get-help-with-domains/domain-connect.md) 합니다.
     2. 특정 Microsoft 365 서비스만 도메인에 연결 하거나 지금이를 건너뛰고 나중에이 작업을 수행 하려는 경우에 **는 직접 DNS 레코드를 추가** 합니다 .를 선택 합니다. **무엇을 할지 정확히 아는 경우에만 이 옵션을 선택하세요.**
-    
+
 7. *DNS 레코드를 직접 추가* 하도록 선택한 경우에는 **다음** 을 선택 하 고 도메인을 설정 하기 위해 등록 기관 웹 사이트에 추가 해야 하는 모든 레코드가 포함 된 페이지를 볼 수 있습니다. 
-    
-  
-  
+
     포털에서 등록 기관을 인식하지 못하는 경우에는 [이러한 일반 지침을 따르면](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md) 됩니다.
     
     호스트를 찾으려면 [호스트 별 지침](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions) 목록을 확인하고 다음 단계에 따라 필요한 모든 레코드를 추가합니다. 
     
     사용 중인 도메인의 DNS 호스팅 공급자 또는 도메인 등록 기관을 모르는 경우 [도메인 등록자 또는 DNS 호스팅 공급자 찾기](../get-help-with-domains/find-your-domain-registrar.md)를 참조하세요.
     
-    나중에 기다리도록 하려면 맨 아래로 스크롤한 다음 **이 단계 건너뛰기를**선택 합니다.
+    나중에 대기 하려면 모든 서비스의 선택을 취소 하 고 **계속**을 클릭 하거나 이전 도메인 연결 단계에서 **다른 옵션** 을 선택 하 고 **지금은 건너뛰기를**선택 합니다.
     
-8. **완료** 를 선택 합니다. 
+8. **완료** 를 선택 합니다.
 
 ## <a name="add-or-edit-custom-dns-records"></a>사용자 지정 DNS 레코드 추가 또는 편집
 
@@ -140,15 +132,16 @@ ms.locfileid: "47315720"
 ### <a name="domain-connect-registrars-integrating-with-microsoft-365"></a>도메인 연결 등록 기관 Microsoft 365 통합
 
 - [1 &amp; 1gb 이상 os](https://www.1and1.com/)
-- [123Reg](https://www.123-reg.co.uk/)
+- [EuroDNS](https://www.eurodns.com/)
 - [Cloudflare](https://www.cloudflare.com/)
 - [GoDaddy](https://www.godaddy.com/)
 - [WordPress](https://wordpress.com/)
 - [Plesk](https://www.plesk.com/)
 - [MediaTemple](https://mediatemple.net/)
 - SecureServer 또는 WildWestDomains (SecureServer DNS 호스팅을 사용 하는 GoDaddy 리셀러)
-    - [MadDog 도메인](https://www.maddogdomains.com/)
-    - [CheapNames](https://www.cheapnames.com)
+    - 예제:
+        - [DomainsPricedRight](https://www.domainspricedright.com/products/domain-registration)
+        - [지금 domainright](https://www.domainrightnow.com/)
 
 ### <a name="what-happens-to-my-email-and-website"></a>전자 메일 및 웹 사이트는 어떻게 되나요?
 
