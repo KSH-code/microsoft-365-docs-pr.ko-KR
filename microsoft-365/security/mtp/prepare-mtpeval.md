@@ -1,7 +1,7 @@
 ---
 title: Microsoft Threat Protection 평가판 랩 환경 준비
-description: Microsoft Threat Protection 평가판 랩 환경을 설정할 때 관련자 승인, 일정, 환경 고려 사항 및 채택 순서 준비
-keywords: MTP 평가판 준비, 배포, 준비, 관련자, 일정, 환경, 끝점, 서버, 관리, 채택
+description: Microsoft Threat Protection 평가판 랩 또는 파일럿 환경을 설정할 때 이해 관계자의 승인, 일정, 환경 고려 사항 및 채택 순서 준비
+keywords: MTP 평가판 준비, MTP 파일럿 준비, MTP 파일럿 프로젝트 실행을 위한 준비, 파일럿 MTP 프로젝트, 배포, 준비, 관련자, 일정, 환경, 끝점, 서버, 관리, 도입
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: w10
@@ -15,31 +15,31 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: ad2f34fbb94cafd22976c6ff7c75cdd254e913e3
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: a684f49ab8c70a19a17ff43195197677bccbf95b
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650096"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816772"
 ---
-# <a name="prepare-your-microsoft-threat-protection-trial-lab-environment"></a>Microsoft Threat Protection 평가판 랩 환경 준비
+# <a name="prepare-your-microsoft-threat-protection-trial-lab-or-pilot-environment"></a>Microsoft Threat Protection 평가판 랩 또는 파일럿 환경 준비
 
 **적용 대상:**
 - Microsoft 위협 방지
 
-Microsoft Threat Protection 평가판 랩 환경을 만들고 배포 하는 과정은 다음 세 단계로 진행 됩니다.
+Microsoft Threat Protection 평가판 랩 또는 파일럿 환경을 만들고 배포 하는 과정은 다음 세 단계로 진행 됩니다.
 
 <br>
 <table border="0" width="100%" align="center">
   <tr style="text-align:center;">
     <td align="center" style="width:25%; border:0;" bgcolor="#d5f5e3">
       <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval"> 
-        <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab environment" title="Microsoft Threat Protection 평가판 랩 환경 준비" />
+        <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab environment" title="Microsoft Threat Protection 평가판 랩 또는 파일럿 환경 준비" />
       <br/>1 단계: 준비 </a><br>
     </td>
      <td align="center"  >
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval">
-        <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab environment" title="Microsoft Threat Protection 평가판 랩 환경 설정" />
+        <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab environment" title="Microsoft Threat Protection 평가판 랩 또는 파일럿 환경 설정" />
       <br/>2 단계: 설치 </a><br>
         </td>
     <td align="center">
@@ -64,13 +64,13 @@ Microsoft Threat Protection 평가판 랩 환경을 만들고 배포 하는 과�
 현재 준비 단계입니다.
 
 
-준비는 성공적인 배포의 핵심입니다. 이 섹션에서는 Microsoft Threat Protection 배포를 위한 시험 랩 환경을 만들기 위해 준비할 때 고려해 야 할 사항을 안내 합니다.
+준비는 성공적인 배포의 핵심입니다. 이 섹션에서는 Microsoft Threat Protection 배포를 위한 시험 운용 랩 또는 파일럿 환경을 만들기 위해 준비할 때 고려해 야 할 사항을 안내 합니다.
 
 ## <a name="prerequisites"></a>필수 구성 요소
 Microsoft Threat Protection을 프로 비전 하 고 사용 하기 위한 라이선스, 하드웨어 및 소프트웨어 요구 사항 및 기타 구성 설정에 대해 알아봅니다. Microsoft [Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites?view=o365-worldwide), [microsoft Defender atp](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements), [OFFICE 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description), [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites), [microsoft Cloud App Security](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites)에 대 한 최소 요구 사항을 참조 하세요.
 
 ## <a name="stakeholders-and-sign-off"></a>관련자 및 승인
-다음 섹션에서는 프로젝트에 포함 되어 있는 모든 관련자와 평가 또는 개념을 검토 하거나 유지 하는 데 필요한 정보를 확인 하는 데 사용 됩니다.
+다음 섹션에서는 평가를 수행할지 아니면 파일럿을 실행할지에 관계 없이 프로젝트와 관련 된 모든 관련자와 서명 하거나, 검토 하거나, 정보를 제공할 수 있는 모든 이해 관계자를 식별 하는 기능을 제공 합니다.
 
 >[!NOTE]
 >모든 조직이 보안 조직 성숙도를 보유 하 고 있는 것은 아닙니다. 이러한 경우 검토 및 승인 책임에 대 한 팀장 팀에 문의 하십시오.
@@ -92,7 +92,7 @@ Microsoft Threat Protection을 프로 비전 하 고 사용 하기 위한 라이
 | 이름 및 전자 메일 입력 | **보안 분석가** 는 *보안 작업 측면에서 검색 기능, 사용자 환경 및이 변경의 전반적인 유용성에 대 한 입력을 제공할 수 있는 cdoc 팀의 담당자입니다.* | 때      |
 
 ## <a name="prepare-your-azure-active-directory"></a>Azure Active Directory 준비
-Active Directory와 Azure Active Directory 간의 동기화를 이미 사용 하도록 설정한 경우에는이 단계를 건너뜁니다. Azure Active Directory에서 기존 모범 사례 설명서를 검토 합니다. 다음 단계는 Microsoft Threat Protection을 평가 하도록 최적화 되어 있습니다.
+Active Directory와 Azure Active Directory 간의 동기화를 이미 사용 하도록 설정한 경우에는이 단계를 건너뜁니다. Azure Active Directory에서 기존 모범 사례 설명서를 검토 합니다. 다음 단계는 파일럿 Microsoft Threat Protection 프로젝트를 평가 하거나 실행 하도록 최적화 되어 있습니다.
 
 1. Azure **AD Connect**> [azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade) 포털로 이동 합니다. 
 ![Azure Active Directory 포털 페이지 이미지](../../media/mtp-eval-1.png) <br> 
@@ -122,15 +122,15 @@ Active Directory와 Azure Active Directory 간의 동기화를 이미 사용 하
 
 
 ## <a name="configuration-order"></a>구성 순서
-아래 표에는 Microsoft에서 평가판 랩 환경 배포를 위한 Microsoft Threat Protection 구성 요소를 구성 하는 데 권장 되는 순서가 나와 있습니다.
+아래 표에는 Microsoft에서 평가판 랩 또는 파일럿 환경 배포를 위한 Microsoft Threat Protection 구성 요소를 구성 하는 데 권장 되는 순서가 나와 있습니다.
 
 | 구성 요소                               | 설명                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | 구성 순서 순위 |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
 | Office 365 Advanced Threat Protection| Office 365 ATP는 전자 메일 메시지, 링크 (Url) 및 공동 작업 도구로 인해 야기 되는 악의적인 위협 으로부터 조직을 보호 합니다. <br> [더 알아보세요.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)                                                                                                                                                                                                                                             | 1                    |
-|Azure Advanced Threat Protection|Azure ATP는 Active Directory 신호를 사용 하 여 조직에서 진행 되는 고급 위협, 손상 된 id 및 악의적인 참가자 작업을 식별, 감지 및 조사 합니다. <br> [자세히 알아보기](https://docs.microsoft.com/azure-advanced-threat-protection/).| 2  |
-|Microsoft Cloud App Security| Microsoft Cloud App Security는 여러 클라우드에서 작동 하는 "CASB (Cloud Access Security Broker)"입니다. 이를 통해 다양 한 가시성, 데이터 이동에 대 한 제어, 모든 클라우드 서비스에서 cyberthreats을 식별 하 고 공격 하는 정교한 분석이 제공 됩니다. <br> [자세히 알아보기](https://docs.microsoft.com/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |3                    |
+|Azure Advanced Threat Protection|Azure ATP는 Active Directory 신호를 사용 하 여 조직에서 진행 되는 고급 위협, 손상 된 id 및 악의적인 참가자 작업을 식별, 감지 및 조사 합니다. <br> [자세히 알아보세요](https://docs.microsoft.com/azure-advanced-threat-protection/).| 2  |
+|Microsoft Cloud App Security| Microsoft Cloud App Security는 여러 클라우드에서 작동 하는 "CASB (Cloud Access Security Broker)"입니다. 이를 통해 다양 한 가시성, 데이터 이동에 대 한 제어, 모든 클라우드 서비스에서 cyberthreats을 식별 하 고 공격 하는 정교한 분석이 제공 됩니다. <br> [자세히 알아보세요](https://docs.microsoft.com/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |3                    |
 |Microsoft Defender Advanced Threat Protection | Microsoft Defender ATP 엔드포인트 탐지 및 대응 기능은 실시간에 근접하고 조치가 가능한 고급 공격 탐지력을 제공합니다. 보안 분석가는 알림에 효과적으로 우선 순위를 지정하고, 침해의 전체 범위에 대한 가시성을 확보하고 위협을 수정하기 위한 대응 조치를 취할 수 있습니다. <br> [더 알아보세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |4                    |                                                                                                                                                                                                                                    
 
 ## <a name="next-step"></a>다음 단계
-![2 단계: 설치](../../media/setup.png) <br>[2 단계: 설치](setup-mtpeval.md)<br> Microsoft Threat Protection 평가판 랩 환경 설정
+![2 단계: 설치](../../media/setup.png) <br>[2 단계: 설치](setup-mtpeval.md)<br> Microsoft Threat Protection 평가판 랩 또는 파일럿 환경 설정
 

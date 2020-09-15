@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 미국 정부 클라우드의 관리자는 조직의 HR (인사) 시스템에서 직원 데이터를 Microsoft 365로 가져오는 데이터 커넥터를 설정할 수 있습니다. 이를 통해 참가자 위험 관리 정책에 HR 데이터를 사용 하 여 조직에 내부적인 위협을 초래할 수 있는 특정 사용자의 작업을 검색 하는 데 도움을 받을 수 있습니다.
-ms.openlocfilehash: 2f41426003fcf3b6afe14d24cf7176fa4668ad44
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 30a3730bcb2d4f41df28c47fdb9ab35e9d012540
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289819"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47817173"
 ---
 # <a name="set-up-a-connector-to-import-hr-data-in-us-government-preview"></a>US 정부 (미리 보기)에서 HR 데이터를 가져올 커넥터 설정
 
@@ -65,11 +65,11 @@ CSV 파일의 첫 번째 행 또는 머리글 행에는 필요한 열 이름이 
 |**열 이름**|**설명**|
 |:-----|:-----|
 | **EmailAddress** <br/> |종료 된 직원의 전자 메일 주소를 지정 합니다.|
-| **TerminationDate** <br/> |조직의 직원이 공식적으로 종료 된 날짜를 지정 합니다. 예를 들어 직원에 게 조직 내 상태에 대 한 알림이 제공 된 날짜를 예로 들 수 있습니다. 이 날짜는 사용자가 마지막으로 작업 한 날짜와 다를 수 있습니다. `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` [ISO 8601 날짜 및 시간 형식인와](https://www.iso.org/iso-8601-date-and-time-format.html)같은 날짜 형식을 사용 해야 합니다.|
-|**LastWorkingDate**|종료 된 직원에 대 한 마지막 작업 날짜를 지정 합니다. `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` [ISO 8601 날짜 및 시간 형식인와](https://www.iso.org/iso-8601-date-and-time-format.html)같은 날짜 형식을 사용 해야 합니다.|
+| **TerminationDate** <br/> |조직의 직원이 공식적으로 종료 된 날짜를 지정 합니다. 예를 들어 직원에 게 조직 내 상태에 대 한 알림이 제공 된 날짜를 예로 들 수 있습니다. 이 날짜는 사용자가 마지막으로 작업 한 날짜와 다를 수 있습니다. 다음 날짜 형식 ( `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` [ISO 8601 날짜 및 시간 형식](https://www.iso.org/iso-8601-date-and-time-format.html))을 사용 합니다.|
+|**LastWorkingDate**|종료 된 직원에 대 한 마지막 작업 날짜를 지정 합니다. 다음 날짜 형식 ( `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` [ISO 8601 날짜 및 시간 형식](https://www.iso.org/iso-8601-date-and-time-format.html))을 사용 합니다.|
 |||
 
-필요한 HR 데이터로 CSV 파일을 만든 후에는 4 단계에서 실행 하는 스크립트와 같은 시스템에 저장 합니다. 또한 스크립트를 실행 하는 데 필요한 모든 정보를 Microsoft 클라우드에 업로드 하기 위해 CSV 파일에 항상 최신 정보가 포함 되도록 하기 위해 업데이트 전략을 구현 해야 합니다.
+필요한 HR 데이터로 CSV 파일을 만든 후에는 4 단계에서 실행 하는 스크립트와 같은 시스템에 저장 합니다. CSV 파일에 항상 최신 정보가 포함 되도록 업데이트 전략을 구현 해야 합니다. 이렇게 하면 스크립트를 실행 하는 모든 작업에 대해 가장 최근의 직원 종료 데이터가 Microsoft 클라우드에 업로드 됩니다.
 
 ## <a name="step-3-create-the-hr-connector"></a>3 단계: HR 커넥터 만들기
 
@@ -140,10 +140,10 @@ HR 커넥터를 설정 하는 마지막 단계는 2 단계에서 만든 CSV 파�
    |**매개 변수**|**설명**
    |:-----|:-----|:-----|
    |`tenantId`|1 단계에서 구한 Microsoft 365 조직의 Id입니다. Azure AD 관리 센터의 **개요** 블레이드에서 조직에 대 한 테 넌 트 Id를 가져올 수도 있습니다. 이는 조직을 식별 하는 데 사용 됩니다.|
-   |`appId` |이는 1 단계에서 Azure AD에 만든 앱의 Azure AD 응용 프로그램 Id입니다. 스크립트에서 Microsoft 365 조직에 액세스 하려고 할 때 인증을 위해 Azure AD에서 사용 됩니다. |
-   |`appSecret`|이는 1 단계에서 Azure AD에 만든 앱에 대 한 Azure AD 응용 프로그램 비밀입니다. 인증에도 사용 됩니다.|
+   |`appId` |1 단계에서 Azure AD를 통해 만든 앱의 Azure AD 응용 프로그램 Id입니다. 스크립트에서 Microsoft 365 조직에 액세스 하려고 할 때 인증을 위해 Azure AD에서 사용 됩니다. |
+   |`appSecret`|1 단계에서 Azure AD를 통해 만든 앱에 대 한 Azure AD 응용 프로그램 비밀입니다. 인증에도 사용 됩니다.|
    |`jobId`|3 단계에서 만든 HR 커넥터의 작업 ID입니다. 이는 HR 커넥터를 사용 하 여 Microsoft 클라우드에 업로드 된 HR 데이터를 연결 하는 데 사용 됩니다.|
-   |`csvFilePath`|2 단계에서 만든 CSV 파일 (스크립트와 같은 시스템에 저장 됨)의 파일 경로입니다. 파일 경로에 공백이 생기지 않도록 합니다. 그렇지 않으면 작은따옴표를 사용 합니다.|
+   |`csvFilePath`|2 단계에서 만든 CSV 파일 (스크립트와 같은 시스템에 저장)의 파일 경로입니다. 파일 경로에 공백이 생기지 않도록 합니다. 그렇지 않으면 작은따옴표를 사용 합니다.|
    |||
    
    다음은 각 매개 변수에 대 한 실제 값을 사용 하는 HR connector 스크립트의 구문 예입니다.

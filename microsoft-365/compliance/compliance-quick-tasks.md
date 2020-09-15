@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 준수를 시작 하기 위한 빠른 작업
+title: Microsoft 365 규정 준수를 시작하기 위한 빠른 작업
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -12,14 +12,14 @@ ms.collection:
 - M365-security-compliance
 localization_priority: Normal
 description: Microsoft 365에서 규정 준수를 빠르게 시작 하는 데 도움이 되는 작업에 대해 알아봅니다.
-ms.openlocfilehash: 26d10840382d044e8126745daec32948571a1be9
-ms.sourcegitcommit: e891c7c25f351f10f250af3f483f68594976ddc9
+ms.openlocfilehash: 1702c05b271c0e8b5456c1a93f8bf1dc28f7fbd9
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45153691"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816817"
 ---
-# <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Microsoft 365 준수를 시작 하기 위한 빠른 작업
+# <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Microsoft 365 규정 준수를 시작하기 위한 빠른 작업
 
 Microsoft 365 규정 준수에 익숙하지 않으며 시작할 위치를 알고 있는 경우이 문서에서는 기본 사항에 대 한 지침을 제공 하 고 중요 한 준수 작업의 우선 순위를 정하는 것이 좋습니다. 이 문서는 데이터 관리 및 모니터링을 빠르게 시작 하 고 정보를 보호 하 고 사용자의 참가자 위험을 최소화 하는 데 도움이 됩니다.
 
@@ -87,9 +87,9 @@ Microsoft는 관리자 권한 남용, 맬웨어 활동, 잠재적 외부 및 내
 
 콘텐츠가 보존 정책이 적용 되는 경우 사용자는 아무 것도 변경 되지 않은 것 처럼 계속 해 서 콘텐츠를 편집 하 고 작업할 수 있습니다. 콘텐츠가 원래 위치에서 현재 위치에 유지 됩니다. 그러나 보존 정책이 적용 되는 콘텐츠를 편집 하거나 삭제 하는 경우 해당 콘텐츠에 대 한 보존 정책이 적용 되는 동안 원본 콘텐츠의 복사본이 보존 되는 안전한 위치에 저장 됩니다.
 
-Microsoft 365 환경의 여러 위치 (Exchange 메일 및 공용 폴더, SharePoint 사이트, OneDrive 계정 및 Microsoft 365 그룹)에 대해 보존 정책을 빠르게 배치할 수 있습니다. ' 조직 전체 보존 정책 ' 이라고 하는, 정책이 포함할 수 있는 사서함 또는 사이트의 수에 제한이 없습니다. 그러나 좀 더 구체적인 작업을 수행 해야 하는 경우에는 특정 위치에 대 한 보존 정책을 구성한 다음 사이트 또는 사용자를 포함 하거나 제외할 수 있습니다.
+Microsoft 365 환경에서 Exchange 메일, SharePoint 사이트, OneDrive 계정 및 Microsoft 365 그룹과 같은 여러 위치에 대 한 보존 정책을 적절 하 게 배치할 수 있습니다. 이 정책이 자동으로 포함할 수 있는 사서함 또는 사이트의 수에는 제한이 없습니다. 그러나 선택 해야 하는 경우에는 특정 위치에 대 한 보존 정책을 구성 하 고 사이트 또는 사용자를 포함 하거나 제외할 수 있습니다.
 
-보존 정책을 구성 하는 단계별 지침은 [보존 정책 만들기 및 구성을](create-retention-policies.md)참조 하십시오. 레코드 관리 라이선스 정보에 대 한 자세한 내용은 [보안 & 준수에 대 한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management)을 참조 하세요.
+보존 정책을 구성 하는 단계별 지침은 [보존 정책 만들기 및 구성을](create-retention-policies.md)참조 하십시오. Microsoft 365에서 보존을 처음 구성하는 경우 [보존 정책 및 보존 레이블 시작하기](get-started-with-retention.md)를 참조하세요.
 
 ## <a name="task-8-configure-sensitive-information-and-offensive-language-policies"></a>작업 8: 중요 한 정보 및 공격적인 언어 정책 구성
 
@@ -137,13 +137,13 @@ Microsoft 365 환경의 여러 위치 (Exchange 메일 및 공용 폴더, ShareP
 
 보존 정책은 컨테이너 수준에서 SharePoint 사이트 및 Exchange 사서함 같은 위치에 적용 되지만 보존 [레이블은](retention.md#retention-labels) 보존 및 삭제 정책에 대 한 구체적인 대상을 허용 합니다. 예를 들어 최종 사용자가 관리자의 자동 응용 프로그램 외에도 수동으로 적용할 수 있는 문서 또는 전자 메일 메시지 수준 SharePoint의 문서 라이브러리, 폴더 또는 문서 집합에 보존 레이블을 적용 하 여 해당 위치에 저장 된 모든 문서가 기본 보존 레이블을 상속 하도록 할 수도 있습니다.
 
-또한 보존 레이블은 [레코드 관리](records-management.md) 를 지원 하 여 콘텐츠를 레코드로 표시 합니다. 이 경우 레이블을 변경하거나 제거할 수 없고, 콘텐츠를 편집하거나 삭제할 수 없습니다. 이러한 제한은 조직이 규정 요구 사항을 준수 하는 데 도움이 될 수 있습니다.
+또한 보존 레이블은 [레코드 관리](records-management.md) 를 지원 하 여 콘텐츠를 레코드로 표시 합니다. 이 경우에는 조직이 규정 요구 사항을 준수 하는 데 도움이 될 수 있는 콘텐츠에 대 한 추가 제한이 적용 됩니다.
 
 보존 레이블을 만들고 게시 하는 단계별 지침은 다음 지침을 참조 하십시오.
 - [보존 레이블을 만들고 앱에 적용하기](create-apply-retention-labels.md)
 - [보존 레이블을 콘텐츠에 자동으로 적용하기](apply-retention-labels-automatically.md)
 
-레코드 관리 라이선스 정보에 대 한 자세한 내용은 [보안 & 준수에 대 한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management)을 참조 하세요.
+레코드 관리를 시작 하려면 [get a record management 시작](get-started-with-records-management.md)을 참조 하십시오.
 
 ### <a name="identify-and-define-sensitive-information-types"></a>중요 한 정보 유형 식별 및 정의
 

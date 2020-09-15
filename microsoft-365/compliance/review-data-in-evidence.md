@@ -7,22 +7,21 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 description: '증명 정보의 데이터를 검토 하는 방법 (예: 네이티브, 텍스트 또는 기본 형식)을 확인 하는 방법에 대해 알아봅니다.'
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f094718bd14ee86ff8fdae482e86c22ecfbdc483
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 9df5c1f0fd15cb320e8359d09ab39202700dbc4b
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034612"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816731"
 ---
 # <a name="review-the-data-in-evidence"></a>증거 데이터 검토
 
@@ -34,7 +33,7 @@ ms.locfileid: "44034612"
 
 ## <a name="view-documents-in-evidence"></a>증거에서 문서 보기
 
-데이터 조사 (미리 보기)를 사용 하면 서로 다른 용도로 각 뷰어를 사용 하 여 여러 다른 뷰어에 콘텐츠를 표시할 수 있습니다. 이러한 뷰어는 다음과 같습니다.
+데이터 조사 (미리 보기) 도구를 사용 하면 서로 다른 용도로 각 viewer를 사용 하 여 여러 다른 뷰어에 콘텐츠를 표시할 수 있습니다. 이러한 뷰어는 다음과 같습니다.
 
 - 파일 메타 데이터
 - 기본 보기
@@ -53,14 +52,14 @@ ms.locfileid: "44034612"
 
 ## <a name="native-view"></a>기본 보기
 
-기본 뷰어에는 문서의 기본 형식으로 가장 정확한 보기가 표시 됩니다. 기본 보기는 수백 가지 파일 형식에서 지원 되며, truest 기본 환경에서 문서를 표시 하는 데 목적이 있습니다. Microsoft Office 파일의 경우 네이티브 뷰어는 웹 버전의 Office 앱을 사용 합니다. 이렇게 하면 Excel의 여러 Office 문서, 수식 및 숨겨진 행/열과 PowerPoint의 메모 보기와 같은 콘텐츠를 볼 수 있습니다.
+네이티브 뷰어에는 문서에 대 한 가장 정확한 보기가 기본 형식으로 표시 됩니다. 기본 보기는 수백 가지 파일 형식에서 지원 되며, truest 기본 환경에서 문서를 표시 하는 데 목적이 있습니다. Microsoft Office 파일의 경우 네이티브 뷰어는 웹 버전의 Office 앱을 사용 합니다. 이렇게 하면 Excel의 여러 Office 문서, 수식 및 숨겨진 행/열과 PowerPoint의 메모 보기와 같은 콘텐츠를 볼 수 있습니다.
 
 ![기본 보기
 ](../media/Reviewimage3.png)
 
 ## <a name="text-view"></a>텍스트 보기
 
-텍스트 뷰어는 파일의 추출 된 텍스트 보기를 제공 합니다. 이 보기는 포함 된 이미지 및 서식을 무시 하지만 문서 내용을 빠르게 검토 하 고 이해 하려는 경우에는이 보기가 매우 유용 합니다. 텍스트 보기에도 다음 기능이 포함 됩니다.
+텍스트 뷰어는 파일의 추출 된 텍스트 보기를 제공 합니다. 이 보기는 포함 된 이미지 및 서식을 무시 하지만 문서 내용을 빠르게 검토 하 고 이해 하려는 경우에 유용 합니다. 텍스트 보기에도 다음 기능이 포함 됩니다.
 
   - 줄 카운터를 사용 하 여 문서의 특정 부분을 보다 쉽게 참조할 수 있습니다.
 

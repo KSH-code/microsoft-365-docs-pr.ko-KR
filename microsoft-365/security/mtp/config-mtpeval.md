@@ -1,52 +1,34 @@
 ---
-title: 평가판 랩 환경용 Microsoft Threat Protection 핵심 요소로 구성
-description: 평가판 랩 환경용 Microsoft Threat Protection 핵심 요소로, Office 365 ATP, Azure ATP, Microsoft Cloud App Security 및 Microsoft Defender ATP를 구성 합니다.
-keywords: microsoft threat Protection 평가판, Microsoft Threat Protection 평가판 구성, microsoft threat protection 핵심 요소로, Microsoft Threat Protection 핵심 요소로을 구성 합니다.
-search.product: eADQiWindows 10XVcnh
-search.appverid: met150
-ms.prod: w10
-ms.mktglfcycl: deploy
-ms.sitesec: library
-ms.pagetype: security
-ms.author: dolmont
-author: DulceMontemayor
-ms.localizationpriority: medium
-manager: dansimp
-audience: ITPro
-ms.collection: M365-security-compliance
-ms.topic: article
-ms.openlocfilehash: 8a435b220343bd0353f2e0ef85ddf856ebf3e8aa
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049943"
+제목: 평가판 랩 또는 파일럿 환경에 대해 Microsoft Threat protection 핵심 요소로를 구성 합니다. 핵심 요소로: Office 365 ATP, Azure ATP, Microsoft Cloud App Security 및 Microsoft Defender ATP를 시험 운용 랩 또는 파일럿 환경에 맞게 구성 합니다.
+키워드: microsoft Threat Protection 평가판, Microsoft Threat protection 평가판 구성, microsoft threat protection 파일럿 프로젝트 구성, microsoft threat protection 핵심 요소로, Microsoft Threat protection 핵심 요소로 search를 구성 합니다. product: eADQiWindows 10XVcnh 검색. mktglfcycl: met150 ms. p s t: w10: sitesec: deploy  
+만든이: DulceMontemayor localizationpriority: medium manager: dansimp 대상: It 전문. 컬렉션: M365-security-준수 ms. 항목: 문서 
 ---
-# <a name="configure-microsoft-threat-protection-pillars-for-your-trial-lab-environment"></a>평가판 랩 환경용 Microsoft Threat Protection 핵심 요소로 구성
+
+# <a name="configure-microsoft-threat-protection-pillars-for-your-trial-lab-or-pilot-environment"></a>평가판 랩 또는 파일럿 환경에 대해 Microsoft Threat Protection 핵심 요소로 구성
 
 **적용 대상:**
 - Microsoft 위협 방지
 
 
-Microsoft Threat Protection 평가판 랩 환경을 만들고 배포 하는 과정은 다음 세 단계로 진행 됩니다.
+Microsoft Threat Protection 평가판 랩 또는 파일럿 환경을 만들고 배포 하는 과정은 다음 세 단계로 진행 됩니다.
 
 <br>
 <table border="0" width="100%" align="center">
   <tr style="text-align:center;">
     <td align="center" style="width:25%; border:0;" >
       <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval?view=o365-worldwide"> 
-        <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab environment" title="Microsoft Threat Protection 평가판 랩 환경 준비" />
-      <br/>1 단계: 준비</a><br>
+        <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab or pilot environment" title="Microsoft Threat Protection 평가판 랩 또는 파일럿 환경 준비" />
+      <br/>1 단계: 준비 </a><br>
     </td>
      <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval?view=o365-worldwide">
-        <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab environment" title="Microsoft Threat Protection 평가판 랩 환경 설정" />
-      <br/>2 단계: 설치</a><br>
+        <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab or pilot environment" title="Microsoft Threat Protection 평가판 랩 또는 파일럿 환경 설정" />
+      <br/>2 단계: 설치 </a><br>
     </td>
     <td align="center" bgcolor="#d5f5e3">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide">
-        <img src="../../media/config-onboard.png" alt="Configure & Onboard" title="Microsoft Threat Protection 평가판 랩 환경 및 온보드 끝점에 대해 각 Microsoft Threat Protection를 구성 합니다." />
-      <br/>3 단계: 온보드 & 구성</a><br>
+        <img src="../../media/config-onboard.png" alt="Configure & Onboard" title="Microsoft Threat Protection 평가판 랩 또는 파일럿 환경 및 온보드 끝점에 대해 각 Microsoft Threat Protection를 구성 합니다." />
+      <br/>3 단계: 온보드 & 구성 </a><br>
 </td>
 
 
@@ -73,7 +55,7 @@ Microsoft Threat Protection은 핵심 요소로 4 개로 구성 됩니다. 한 �
 
 ## <a name="configure-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection 구성
 >[!NOTE]
->이미 Office 365 Advanced Threat Protection을 사용 하도록 설정한 경우에는이 단계를 건너뜁니다. 
+>Office 365 Advanced Threat Protection을 이미 사용 하도록 설정한 경우에는이 단계를 건너뜁니다. 
 
 이러한 설정 중 일부를 결정 하는 데 도움이 되는 *Office 365 Advanced Threat Protection 권장 구성 분석기 (ORCA)* 라는 PowerShell 모듈이 있습니다. ORCAReport에서 관리자 권한으로 실행 하는 경우, get-스팸 방지, 피싱 및 기타 메시지 바이러스 백신 설정을 평가 하는 데 도움이 됩니다. 이 모듈은에서 다운로드할 수 있습니다 https://www.powershellgallery.com/packages/ORCA/ . 
 
@@ -101,7 +83,7 @@ Microsoft Threat Protection은 핵심 요소로 4 개로 구성 됩니다. 한 �
  
 7. 다음으로 **ATP 안전한 링크** 정책을 선택 하 고 연필 아이콘을 클릭 하 여 기본 정책을 편집 합니다.
 
-8. **사용자가 안전 링크를 클릭 하면 추적 안 함** 옵션이 선택 되어 있지 않은 동안 나머지 옵션이 선택 되어 있는지 확인 합니다. 자세한 내용은 [안전한 링크 설정을](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp?view=o365-worldwide) 참조 하십시오. **저장**을 클릭합니다. 
+8. **사용자가 안전 링크를 클릭 하면 추적 안 함** 옵션이 선택 되어 있지 않은 동안 나머지 옵션이 선택 되어 있는지 확인 합니다. 자세한 내용은 [안전한 링크 설정을](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp) 참조 하십시오. **저장**을 클릭합니다. 
 ![Image of_Office 365 보안 & 준수 센터 페이지-사용자가 안전한 클릭을 선택 하지 않은 경우 옵션을 추적 하지 않습니다.](../../media/mtp-eval-38.png) <br>
 
 9. 다음으로, **맬웨어 방지** 정책을 선택 하 고 기본값을 선택한 다음 연필 아이콘을 선택 합니다.
@@ -141,16 +123,16 @@ Microsoft Threat Protection은 핵심 요소로 4 개로 구성 됩니다. 한 �
 7. 센서 배포 유형에서 **다음** 을 클릭 합니다.
 <br>![Azure ATP 센서 마법사를 따르려면 다음을 클릭 해야 하는 Advanced Threat Protection 페이지 of_Azure 합니다.](../../media/mtp-eval-48.png) <br>
  
-8. 마법사의 다음에 입력 하는 데 필요한 대로 액세스 키를 복사 합니다.
+8. 마법사에서 다음에 입력 해야 하므로 액세스 키를 복사 합니다.
 ![다음 Azure ATP 센서 설정 마법사 페이지에 입력 해야 하는 액세스 키를 복사 해야 하는 이미지 of_the 센서 페이지](../../media/mtp-eval-49.png) <br>
  
 9. Access 키를 마법사에 복사 하 고 **설치**를 클릭 합니다. 
 <br>![이미지 of_Azure Advanced Threat Protection Azure ATP 센서 마법사 페이지에서 액세스 키를 입력 한 다음 install (설치) 단추를 클릭 합니다.](../../media/mtp-eval-50.png) <br>
 
-10. 축 하 합니다. 도메인 컨트롤러에서 Azure Advanced Threat Protection을 구성 했습니다.
+10. 축 하 합니다, 도메인 컨트롤러에서 Azure Advanced Threat Protection을 구성 했습니다.
 ![이미지 of_Azure Advanced Threat Protection Azure ATP 센서 마법사 설치 완료 (finish) 단추를 클릭 해야 하는 경우](../../media/mtp-eval-51.png) <br>
  
-11. [Azure AZURE atp](https://go.microsoft.com/fwlink/?linkid=2040449) 설정 섹션에서 **Windows Defender atp**를 선택한 다음 전환 켜기를 선택 합니다. **저장**을 클릭합니다. 
+11. [Azure AZURE atp](https://go.microsoft.com/fwlink/?linkid=2040449) 설정 섹션에서 **Windows Defender atp**를 선택 하 고 설정/해제를 켭니다. **저장**을 클릭합니다. 
 ![이미지 of_the Azure Azure ATP 설정 페이지 Windows Defender ATP 전환 기능을 설정 해야 합니다.](../../media/mtp-eval-52.png) <br>
 
 >[!NOTE]
@@ -170,8 +152,8 @@ Microsoft Threat Protection은 핵심 요소로 4 개로 구성 됩니다. 한 �
 >[!NOTE]
 >이 메시지가 표시 되지 않으면 Azure ATP 데이터 통합이 이미 사용 하도록 설정 되었음을 의미할 수 있습니다. 그러나 확실히 모르는 경우 IT 관리자에 게 문의 하 여 확인 합니다. 
 
-3. **설정**으로 이동 하 여 **Azure ATP 통합** 설정/해제를 켠 다음 **저장**을 클릭 합니다. 
-![Azure ATP 통합 설정/해제를 설정 해야 하는 이미지 of_the 설정 페이지를 표시 하 고 저장을 클릭 합니다.](../../media/mtp-eval-55.png) <br>
+3. **설정**으로 이동 하 여 **Azure ATP 통합** 을 설정/해제 한 다음 **저장**을 클릭 합니다. 
+![이미지 of_the 설정 페이지 Azure ATP 통합 기능을 설정 하 고 저장을 클릭 합니다.](../../media/mtp-eval-55.png) <br>
 >[!NOTE]
 >새 Azure ATP 인스턴스의 경우이 통합 토글이 자동으로 설정 됩니다. 다음 단계를 진행 하기 전에 Azure ATP 통합을 사용 하도록 설정 했는지 확인 합니다.
  
@@ -211,7 +193,7 @@ Microsoft Threat Protection은 핵심 요소로 4 개로 구성 됩니다. 한 �
 <br>![온 보 딩 스크립트를 실행 하는 이미지 of_the 명령줄을 선택한 다음 계속 하려면 Y를 선택 합니다.](../../media/mtp-eval-63.png) <br>
 
 8. 축 하 합니다, 첫 번째 끝점을 등록 했습니다.  
-<br>![첫 번째 끝점을 등록 확인 하는 메시지가 표시 되는 이미지 of_the 명령줄입니다. 계속 하려면 아무 키나 누르십시오.](../../media/mtp-eval-64.png) <br>
+<br>![이미지 of_the 명령줄에서 첫 번째 끝점을 등록 확인 합니다. 계속 하려면 아무 키나 누르십시오.](../../media/mtp-eval-64.png) <br>
 
 9. Microsoft Defender ATP 마법사의 검색 테스트를 복사 하 여 붙여 넣습니다.
 <br>![이미지 of_the 복사를 클릭 하 여 명령 프롬프트에 붙여 넣으려는 검색 테스트 스크립트를 복사 하는 검색 테스트 단계를 실행 합니다.](../../media/mtp-eval-65.png) <br>
@@ -243,11 +225,11 @@ Microsoft Threat Protection은 핵심 요소로 4 개로 구성 됩니다. 한 �
 <br>
 
 [Microsoft 365 보안 센터로](https://security.microsoft.com/homepage)이동 합니다. **설정** 으로 이동한 후 **Microsoft Threat Protection**을 선택 합니다.
-<br>![이미지 of_Microsoft 위협 보호 옵션 스크린샷 (Microsoft 365 보안 센터 설정 페이지)](../../media/mtp-eval-72b.png) <br>
+<br>![이미지 of_Microsoft 위협 보호 옵션 스크린샷 (Microsoft 365 보안 센터 설정 페이지) ](../../media/mtp-eval-72b.png) <br>
 
 보다 포괄적인 지침을 보려면 [Microsoft Threat Protection 설정을](mtp-enable.md)참조 하십시오. 
 
-축하합니다! Microsoft Threat Protection 평가판 테스트 환경을 방금 만들었습니다. 이제 Microsoft Threat Protection 사용자 인터페이스를 이해 하는 데 도움이 될 수 있습니다. 일상적인 보안 작업을 위해 각 대시보드를 사용 하는 방법을 확인할 수 있는 방법을 확인 하 고 [Microsoft Threat Protection 대화형 가이드](https://aka.ms/MTP-Interactive-Guide)를 참조 하세요.
+축하합니다! Microsoft Threat Protection 평가판 랩 또는 파일럿 환경을 만들었습니다. 이제 Microsoft Threat Protection 사용자 인터페이스를 이해 하는 데 도움이 될 수 있습니다. 일상적인 보안 작업을 위해 각 대시보드를 사용 하는 방법을 확인할 수 있는 방법은 [Microsoft Threat Protection 대화형 가이드](https://aka.ms/MTP-Interactive-Guide)를 참조 하세요.
 
 다음으로, 공격을 시뮬레이트하고 상호 제품 기능 검색 방법, 알림을 만들고 끝점에 대 한 fileless 공격에 자동으로 대응 하는 방법을 확인할 수 있습니다.
 

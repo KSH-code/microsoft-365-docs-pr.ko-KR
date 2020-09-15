@@ -17,12 +17,12 @@ ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365에서 Exchange Online 사서함에 추가할 수 있는 다양 한 유형의 보존을 식별 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1cd947f70c57d453b038ac419abccde006f393ae
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: a76b02f6345421871c759e1b31bf19207b474e2a
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547456"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816827"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Exchange Online 사서함의 보류 유형을 식별하는 방법
 
@@ -40,11 +40,9 @@ Microsoft 365에서는 조직에서 사서함 콘텐츠가 영구적으로 삭�
 
   사서함에 할당할 수 있는 Microsoft 365 보존 정책에는 두 가지 유형이 있습니다.
 
-    - **특정 위치 보존 정책:** 이러한 정책은 특정 사용자의 콘텐츠 위치에 할당 되는 정책입니다. Exchange Online PowerShell의 **Get-Mailbox** cmdlet을 사용 하 여 특정 사서함에 할당 된 보존 정책에 대 한 정보를 가져옵니다.
+    - **특정 위치 보존 정책:** 이러한 정책은 특정 사용자의 콘텐츠 위치에 할당 되는 정책입니다. Exchange Online PowerShell의 **Get-Mailbox** cmdlet을 사용 하 여 특정 사서함에 할당 된 보존 정책에 대 한 정보를 가져옵니다. 이러한 유형의 보존 정책에 대 한 자세한 내용은 보존 정책 설명서에서 [특정 포함 또는 제외가 있는 정책](create-retention-policies.md#a-policy-with-specific-inclusions-or-exclusions) 섹션을 참조 하십시오.
 
-    - **조직 전체 보존 정책:** 이러한 정책은 조직의 모든 콘텐츠 위치에 할당 되는 정책입니다. Exchange Online PowerShell에서 **set-organizationconfig** cmdlet을 사용 하 여 조직 차원의 보존 정책에 대 한 정보를 가져옵니다.
-    
-  자세한 내용은 [전체 조직이 나 특정 위치에 보존 정책 적용](create-retention-policies.md#applying-a-retention-policy-to-an-entire-organization-or-specific-locations) 섹션을 참조 하십시오.
+    - **조직 전체 보존 정책:** 이러한 정책은 조직의 모든 콘텐츠 위치에 할당 되는 정책입니다. Exchange Online PowerShell에서 **set-organizationconfig** cmdlet을 사용 하 여 조직 차원의 보존 정책에 대 한 정보를 가져옵니다. 이러한 유형의 보존 정책에 대 한 자세한 내용은 보존 정책 설명서의 [전체 위치에 적용 되는 정책](create-retention-policies.md#a-policy-that-applies-to-entire-locations) 섹션을 참조 하십시오.
 
 - **[Microsoft 365 보존 레이블](retention.md):** 사용자가 microsoft 365 보존 레이블 (콘텐츠를 보존 하 고 유지 한 다음 콘텐츠를 보존 하 고 사서함의 *항목에 저장)을 적용* 하는 경우 사서함이 소송 보존 상태로 설정 되거나 Microsoft 365 보관 정책에 할당 된 것 처럼 보류 됩니다. 자세한 내용은이 문서의 [폴더 또는 항목 섹션에 보존 레이블이 적용 되었기 때문에 보류 중인 사서함 확인](#identifying-mailboxes-on-hold-because-a-retention-label-has-been-applied-to-a-folder-or-item) 을 참조 하십시오.
 

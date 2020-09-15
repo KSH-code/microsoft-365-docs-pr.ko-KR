@@ -17,13 +17,13 @@ ms.custom:
 search.appverid:
 - MET150
 description: 셀프 서비스 구매에 대 한 일반적인 질문과 대답을 확인할 수 있습니다.
-ms.date: 08/12/2020
-ms.openlocfilehash: 78a7082a966a866f18ac2aa378198dbb33d8c158
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.date: 09/15/2020
+ms.openlocfilehash: 81143dfe3794bc4f42bea879905bf08750f498b4
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653704"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816928"
 ---
 # <a name="self-service-purchase-faq"></a>셀프 서비스 구매 FAQ
 
@@ -32,7 +32,7 @@ ms.locfileid: "46653704"
 셀프 서비스 구매는 전원 플랫폼 (Power BI, Power Apps 및 Power 자동화), Project 및 Visio에 사용할 수 있습니다.
 
 > [!NOTE]
-> 셀프 서비스 구매는 인도에서 사용할 수 없으며 정부 또는 교육 고객은 사용할 수 없습니다.
+> 셀프 서비스 구매는 인도 또는 정부 고객에 게는 제공 되지 않습니다. 브라질 및 콩고 민주 공화국의 셀프 서비스 구매에는 Project 및 Visio를 사용할 수 없습니다.
 
 ## <a name="making-a-self-service-purchase"></a>셀프 서비스 구매
 

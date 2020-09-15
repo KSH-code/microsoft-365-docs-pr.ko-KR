@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 고급 eDiscovery 사례에서 보다 효율적인 검토를 위해 데이터를 구성 하기 위해 검토 집합에서 쿼리를 만들고 실행 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 871630af4b8b19e5fad1a062129782e36b9706f5
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 508e8e9fdb4a558a998a33aa561dc3755edcc40d
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527438"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816721"
 ---
 # <a name="query-the-data-in-a-review-set"></a>검토 집합에서 데이터 쿼리
 
@@ -30,7 +30,7 @@ ms.locfileid: "46527438"
 
 ## <a name="creating-and-running-a-query-in-a-review-set"></a>검토 집합에서 쿼리 만들기 및 실행
 
-검토 집합의 문서에 대 한 쿼리를 만들고 실행 하려면 검토 집합에서 **새 쿼리** 를 클릭 합니다. 쿼리 이름을 지정 하 고 조건을 정의한 후 **저장** 을 클릭 하 여 쿼리를 저장 하 고 실행 합니다. 이전에 저장 한 쿼리를 실행 하려면 저장 된 쿼리를 클릭 합니다.
+검토 집합의 문서에 대 한 쿼리를 만들고 실행 하려면 검토 집합에서 **새 쿼리** 를 선택 합니다. 쿼리 이름을 지정 하 고 조건을 정의한 후 **저장** 을 선택 하 여 쿼리를 저장 하 고 실행 합니다. 이전에 저장 한 쿼리를 실행 하려면 저장 된 쿼리를 선택 합니다.
 
 ![집합 쿼리 검토](../media/AeDReviewSetQueries.png)
 
@@ -56,9 +56,9 @@ ms.locfileid: "46527438"
 
 조건 카드 외에도 키워드 카드에서 KQL 같은 쿼리 언어를 사용 하 여 쿼리를 작성할 수 있습니다. 검토 집합 쿼리 언어에서는 **AND**, **OR**, **NOT**및 **NEAR**과 같은 표준 부울 연산자를 지원 합니다. 또한 단일 문자 와일드 카드 (?) 및 여러 문자 와일드 카드 (*)를 지원 합니다.
 
-## <a name="using-filters"></a>필터 사용
+## <a name="filters"></a>필터
 
-검토할 수 있는 쿼리 외에도 검토 집합 필터를 사용 하 여 검토 집합 쿼리에 추가 조건을 빠르게 적용할 수 있습니다. 이를 통해 검토 집합 쿼리로 표시 되는 결과를 보다 구체화 하는 데 도움이 됩니다.
+검토할 수 있는 쿼리 외에도 검토 집합 필터를 사용 하 여 검토 집합 쿼리에 추가 조건을 빠르게 적용할 수 있습니다. 필터를 사용 하면 검토 집합 쿼리로 표시 되는 결과를 보다 구체화 하는 데 도움이 됩니다.
 
 ![집합 필터 검토](../media/AeDReviewSetFilters.png)
 
