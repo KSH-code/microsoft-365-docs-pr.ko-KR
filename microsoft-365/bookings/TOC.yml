@@ -32,7 +32,7 @@
     - name: 예약 앱 다운로드
       href: get-bookings-app.md
     - name: Microsoft 팀의 예약 앱 및 가상 방문
-      href: 'https://docs.microsoft.com/en-us/microsoftteams/bookings-app-admin?toc=/microsoft-365/bookings/toc.json&bc=/microsoft-365/bookings/breadcrumb/toc.json'
+      href: 'https://docs.microsoft.com/microsoftteams/bookings-app-admin?toc=/microsoft-365/bookings/toc.json&bc=/microsoft-365/bookings/breadcrumb/toc.json'
     - name: 비교 차트-웹 앱과 팀 앱 비교
       href: comparison-chart.md
     - name: 예약 달력 삭제
