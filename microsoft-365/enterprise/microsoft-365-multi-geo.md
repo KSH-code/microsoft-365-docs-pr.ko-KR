@@ -3,7 +3,7 @@ title: Microsoft 365 Multi-Geo
 ms.reviewer: adwood
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 이 문서에서는 microsoft 365 다중 위치를 사용 하 여 Microsoft 365 현재 지역을 여러 지역 지역으로 확장 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a5843b98b5d64dfb3872c3d8a5d48c0e56949c02
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 41069490a8c824bb58a8f4247987abd3ce0901b6
+ms.sourcegitcommit: 62a8c226422eac9c085cc886b4836b037f95ef6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692716"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47825361"
 ---
 # <a name="microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo
 
@@ -26,9 +26,9 @@ Microsoft 365 Multi-Geo를 사용하면 Microsoft 365 범위를 기존 테넌트
   
 Microsoft 365 Multi-Geo를 사용하여 데이터 상주 요구 사항을 충족하기 위해 선택한 지리적 위치의 미사용 데이터를 프로비저닝 및 저장하고, 동시에 귀하의 전 세계 작업자들이 최신 생산성 환경을 활용하도록 할 수 있습니다.
 
-#### <a name="video-introducing-microsoft-365-multi-geo"></a>비디오: Microsoft 365 Multi-Geo 소개
+Microsoft 365 멀티 지역에 대 한 비디오를 소개 하려면 [SharePoint Online 및 OneDrive 다중 위치를 참조 하 여 데이터가 상주 하는 곳을 제어](https://www.youtube.com/watch?v=Do9U3JuROhk)합니다.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1Yk6B?autoplay=false]
+## <a name="multi-geo-architecture"></a>다중 지역 아키텍처
 
 Multi-Geo 환경에서 Microsoft 365 테넌트는 중앙 위치(Microsoft 365 구독이 원래 제공되었던 위치)와 하나 이상의 위성 위치로 구성됩니다. Multi-Geo 테넌트의 경우 지리적 위치, 그룹 및 사용자 정보에 대한 정보는 Azure Active Directory(AAD)에서 관리됩니다. 테넌트 정보가 중앙에서 관리되고 각 지리적 위치와 동기화되기 때문에 회사의 모든 사람과 관련된 공유 및 경험은 전역 세계적으로 인식됩니다.
 

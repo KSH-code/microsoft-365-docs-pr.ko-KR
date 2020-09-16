@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 4dc328cdba9f01177b3e8239ab2c09317774eb31
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 7787d3e2e3dead737d7a0e5ed083a851a349d561
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546546"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816763"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -166,7 +166,7 @@ SharePoint 및 OneDrive의 30일간의 유예 기간은 Exchange의 30일 지연
 
 - SharePoint의 **문서 라이브러리, 폴더 또는 문서 집합에 기본 보존 레이블을 적용**하여 해당 위치에 저장된 모든 문서가 기본 보존 레이블을 상속하도록 합니다.
 
-또한, 보존 레이블은 Microsoft 365 앱과 서비스에서 전자 메일 및 문서의 [레코드 관리](records-management.md)를 지원합니다. 보존 레이블을 사용하여 콘텐츠를 레코드로 분류할 수 있습니다. 이 문제가 발생하고 콘텐츠가 Microsoft 365에 남아 있는 경우 레이블은 규정상의 이유로 필요할 수 있는 콘텐츠에 대한 제한을 마련합니다. 자세한 내용은 [허용 또는 차단되는 작업에 대한 제한 사항 비교](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked)를 참조하세요.
+또한, 보존 레이블은 Microsoft 365 앱과 서비스에서 전자 메일 및 문서의 [레코드 관리](records-management.md)를 지원합니다. 보존 레이블을 사용하여 항목을 기록으로 표시할 수 있습니다. 이 문제가 발생하고 콘텐츠가 Microsoft 365에 남아 있는 경우 레이블은 규정상의 이유로 필요할 수 있는 콘텐츠에 대한 제한을 마련합니다. 자세한 내용은 [허용 또는 차단되는 작업에 대한 제한 사항 비교](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked)를 참조하세요.
 
 보존 레이블은 [민감도 레이블](sensitivity-labels.md)과 달리 Microsoft 365 외부로 콘텐츠를 이동해도 유지되지 않습니다.
 
@@ -178,7 +178,7 @@ SharePoint 및 OneDrive의 30일간의 유예 기간은 Exchange의 30일 지연
   
 예를 들어 작업이 없는 "나중에 검토"라는 보존 레이블을 만들고 적용한 다음 해당 레이블을 사용하여 나중에 해당 콘텐츠를 찾을 수 있습니다.
   
-![보존이 해제된 레이블 설정 페이지](../media/retention-label-retentionoff.png)
+![분류 전용으로 레이블 설정](../media/retention-label-retentionoff.png)
 
 #### <a name="using-a-retention-label-as-a-condition-in-a-dlp-policy"></a>보존 레이블을 DLP 정책의 조건으로 사용하기
 
@@ -267,6 +267,7 @@ Office 365 보안 및 규정 준수 센터에는 **정보 거버넌스** > **대
 |보존 후 삭제, 보존만 또는 삭제만 할 수 있는 보존 설정 |예 |예 |
 |워크로드 지원됨:  <br />- Exchange <br />- SharePoint <br />- OneDrive <br />- Microsoft 365 그룹 <br />- 비즈니스용 Skype <br />- Teams|<br /> 예 <br /> 예 <br /> 예 <br /> 예 <br /> 예 <br /> 예 | <br /> 예, 공용 폴더 제외 <br /> 예 <br /> 예 <br /> 예 <br /> 아니요 <br /> 아니요  |
 |자동으로 보존 적용됨 | 예 | 예 |
+|조건을 기준으로 보존 적용 <br /> -중요한 정보 유형, KQL 쿼리, 교육 가능한 분류자| 아니요 | 예 |
 |수동으로 보존 적용됨 | 아니요 | 예 |
 |최종 사용자를 위한 UI 존재 | 아니요 | 예 |
 |콘텐츠를 이동해도 유지됨 | 아니요 | 예, Microsoft 365 내 |

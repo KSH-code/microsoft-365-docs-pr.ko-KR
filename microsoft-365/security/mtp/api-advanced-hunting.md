@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 92d5d2840963ae00ae0f03e3359f287371f770ee
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: 9e92a0328d2e7fb9cfe7461241dd866081926876
+ms.sourcegitcommit: 62a8c226422eac9c085cc886b4836b037f95ef6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650468"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47825377"
 ---
 # <a name="advanced-hunting-apis"></a>고급 구하기 Api
 
@@ -37,8 +37,10 @@ ms.locfileid: "47650468"
 ## <a name="limitations"></a>제한 사항
 1. 지난 30 일간의 데이터에 대해서만 쿼리를 실행할 수 있습니다.
 2. 결과에는 최대 10만 행이 포함 됩니다.
-3. 실행 횟수는 테 넌 트 당 최대 15 개의 통화, 시간당 15 분의 실행 시간, 그리고 하루 동안 4 시간까지 실행할 수 있습니다.
+3. 실행 횟수는 테 넌 트 당 초당 최대 10 개의 통화, 시간당 10 분의 실행 시간, 그리고 하루에 4 시간까지 실행할 수 있습니다.
 4. 단일 요청의 최대 실행 시간은 10 분입니다.
+5. 429 응답은 요청 수 또는 CPU로 인해 할당량 제한에 도달 하는 것을 나타냅니다. 또한 429 응답 본문은 할당량이 갱신 될 때 까지의 시간도 나타냅니다. 
+
 
 ## <a name="permissions"></a>사용 권한
 이 API를 호출 하려면 다음 사용 권한 중 하나가 필요 합니다. 사용 권한을 선택 하는 방법을 비롯 하 여 자세한 내용은 [Microsoft Threat Protection Api 액세스](api-access.md) 를 참조 하세요.
