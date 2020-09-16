@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Teams에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: cc0d422220d4f3c2ca667a4f0076eb9e62d90518
-ms.sourcegitcommit: 916fa2dacbc13287b49823176375259d7af03f86
+ms.openlocfilehash: 04ca027b9ce8ad1b36e0d4e60c4e10308a822a63
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47394695"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816741"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Microsoft Teams의 보존에 대해 알아보기
 
@@ -100,10 +100,6 @@ Teams 채팅 및 채널 메시지는 사용자 또는 그룹 사서함에 대해
 ## <a name="limitations"></a>제한 사항
 
 Microsoft는 Teams에서 보존 기능을 최적화하기 위해 지속적으로 노력하고 있습니다. 그 동안 Teams 채널 메시지와 채팅에 대한 보존을 사용할 때는 다음 몇 가지 제한 사항에 유의해야 합니다.
-
-- **Teams는 조직 전체 정책에 포함되지 않습니다**. Teams 채널 메시지 및 Teams 채팅에는 별도의 보존 정책이 필요하므로 조직 전체 정책을 만들어도 여기에 포함되지 않습니다.
-
-- **Teams는 고급 보존을 지원하지 않습니다**. 보존 정책을 만들 때 [특정 조건을 만족하는 콘텐츠를 식별하기 위해 고급 설정](create-retention-policies.md#advanced-settings-to-identify-content-that-meets-specific-conditions)을 선택하면 Teams 위치를 사용할 수 없습니다. 현재 Teams에서 보존은 해당 위치를 선택할 때 모든 채팅 및 채널 메시지 콘텐츠에 적용됩니다.
 
 - **개인 채널의 Teams 메시지는 Teams 채널 메시지에 대한 보존 정책을 구성할 때 포함되지 않습니다**. 현재 개인 채널은 보존 정책에서 지원되지 않습니다. 
 
