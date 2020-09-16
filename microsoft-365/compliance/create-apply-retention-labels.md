@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들어서 게시한 후에 필요한 항목은 보존하고 필요하지 않은 항목은 삭제하도록 앱에 적용하기 위한 지침
-ms.openlocfilehash: a301568e80bdfe0681b052225852cde8bf8cdf50
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: 2394ee4534ef837488503aae2558964924b2de6b
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778316"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816917"
 ---
 # <a name="create-retention-labels-and-apply-them-in-apps"></a>보존 레이블을 만들고 앱에 적용하기
 
@@ -68,15 +68,17 @@ ms.locfileid: "46778316"
     
     - 파일 계획 설명자에 대한 자세한 내용은 [파일 계획을 사용하여 보존 레이블 관리의 개요](file-plan-manager.md)를 참조하세요
     
-    - 보존 레이블을 사용하여 콘텐츠를 레코드로 선언하려면 **레이블을 사용하여 콘텐츠를 “기록”으로 분류** 확인란을 체크합니다.
+    - 보존 레이블을 사용하여 [레코드](records-management.md#records)를 선언하려면 옵션 **항목에 레코드로 표시를 설정**합니다.
 
-3. 이 단계를 반복하여 레이블을 더 만듭니다.
+3. 레이블을 만든 후에는 레이블을 게시하는 옵션이 표시되고, 레이블을 자동으로 적용하거나, 단지 레이블을 저장합니다. **지금 레이블을 저장**하고, 그 후 **완료**를 선택합니다.
 
-기존 레이블을 편집하려면 레이블을 선택하고 **레이블 편집**을 선택하여 레이블 설명과 [적격 설정](#updating-retention-labels-and-their-policies)을 변경하는 데 사용하는 동일한 마법사를 2단계에서 시작합니다. 또는 사용 가능한 **편집** 옵션 중 하나를 선택하여 해당 페이지로 바로 이동하고 업데이트를 수행합니다.
+4. 이 단계를 반복하여 레이블을 더 만듭니다.
 
-### <a name="step-2-publish-retention-labels"></a>2단계: 보존 레이블 만들기 및 게시
+기존 레이블을 편집하려면 레이블을 선택한 후 **레이블 편집** 옵션을 선택하여 레이블 설명과 [적격 설정](#updating-retention-labels-and-their-policies)을 변경하는 데 사용하는 편집 보유 마법사를 2단계에서 시작합니다.
 
-관리자 및 사용자가 적용할 수 있도록 보존 레이블을 게시합니다.
+### <a name="step-2-publish-retention-labels"></a>2단계: 보존 레이블 게시
+
+SharePoint 및 Outlook과 같은 앱에서 사용자가 적용할 수 있도록 보존 레이블을 게시합니다.
 
 1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 다음의 위치 중 한 곳으로 이동합니다.
     
@@ -92,7 +94,7 @@ ms.locfileid: "46778316"
     
     보존 레이블이 지원하는 위치에 대한 자세한 내용은 [보존 레이블과 위치](retention.md#retention-label-policies-and-locations) 섹션을 참조하세요. 
 
-기존 보존 레이블 정책을 편집하려면 레이블을 선택하고 **정책 편집**을 선택하여 정책 설명과 [적격 설정](#updating-retention-labels-and-their-policies)을 변경하는 데 사용하는 동일한 마법사를 2단계에서 시작합니다. 또는 사용 가능한 **편집** 옵션 중 하나를 선택하여 해당 페이지로 바로 이동하고 업데이트를 수행합니다.
+기존 보존 레이블 정책(정책 유형은 **게시**)을 편집 하려면, 이를 선택하고 그 후 **편집** 옵션을 선택하여 보존 정책 편집을 시작합니다. 이 마법사를 사용하여 정책 설명과 2단계에서 [적격 설정](#updating-retention-labels-and-their-policies)을 변경할 수 있습니다.
 
 
 ## <a name="when-retention-labels-become-available-to-apply"></a>보존 레이블을 적용할 수 있게 되면
@@ -246,7 +248,8 @@ For example, you can create a rule that applies a specific retention label to al
 To create a rule, right-click an item \> **Rules** \> **Create Rule** \> **Advanced Options** \> **Rules Wizard** \> **apply retention policy**.
   
 ![Rules wizard with option to apply retention policies](../media/eeb2407c-15b6-4224-99cf-e0a00034d8ea.png)
-  
+
+Although the UI refers to retention policies, it's your retention labels that display here and can be selected, not your retention policies.
 
 ## Updating retention labels and their policies
 
