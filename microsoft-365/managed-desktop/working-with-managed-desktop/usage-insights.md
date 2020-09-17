@@ -1,19 +1,20 @@
 ---
-title: 인사이트 활용
+title: 사용 현황 정보 활용
 description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 43e1ec21719dd4dcab2d2e285197476d54734a13
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: ce23825bd847e610a1d933f4d50635aff4107db3
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085654"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950357"
 ---
-# <a name="usage-insights"></a>인사이트 활용
+# <a name="usage-insights"></a>사용 현황 정보 활용
 이 보기는 Microsoft 관리 데스크톱 장치에 대 한 사용 메트릭을 제공 합니다. 이러한 용도의 앱은 실행 중이 고 포커스가 있는 경우 "사용 중"으로 간주 됩니다.
 
 사용 현황 데이터를 보려면 **사용 현황** 탭을 선택 합니다.

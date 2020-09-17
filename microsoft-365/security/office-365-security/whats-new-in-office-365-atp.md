@@ -15,15 +15,15 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 08/27/2020
+ms.date: 09/10/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: 2e6638480ec3a687b1bed9f2a176b6bf21278ef2
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 1aa5d2b59bf1f07c0a74ee7381cbefdb2b5c7506
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308382"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949423"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Office 365 ATP의 새로운 기능
 
@@ -40,29 +40,29 @@ ms.locfileid: "47308382"
 
 - [구성 분석기를 사용 하 여 정책 확인](configuration-analyzer-for-security-policies.md)
 - [테 넌 트 허용/차단 목록을 사용 하 여 verdicts 필터를 수동으로 재정의](tenant-allow-block-list.md)
-- [최상위 대상 사용자, 전송 규칙 및 커넥터를 포함 하는 위협 탐색기의 확장 기능](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections)
+- [상위 대상 사용자, 전송 규칙 및 커넥터를 포함 하는 위협 탐색기의 확장 된 기능](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (OFFICE 365 ATP 계획 2)
 - 사용자가 [위협 탐색기](threat-explorer.md) 에서 정보를 재정의 합니다 (전자 메일은 테 넌 트/사용자 정책에 의해 허용/차단 됨).
-- [위협 탐색기](threat-explorer.md) (맬웨어, 피싱, 스팸 또는 없음)의 서피싱 URL 위협
+- [위협 탐색기](threat-explorer.md) (맬웨어, 피싱, 스팸 또는 없음)의 서피싱 URL 위협 
 
 ## <a name="julyaugust-2020"></a>7 월/8 월 2020 
 
-- [사냥 경험의 향상 된 경험](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections)
-- [미리 설정 된 보안 정책을 사용 하 여 권장 설정을 쉽게 적용](preset-security-policies.md)
+- [사냥 경험 향상](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections) (OFFICE 365 ATP 계획 1 또는 요금제 2)
+- [미리 설정 된 보안 정책을 사용 하 여 권장 설정을 쉽게 적용](preset-security-policies.md) 
 
 ## <a name="marchapril-2020"></a>3 월/4 월 2020
 
-- 이제 [자동 조사 및 응답을 통해 손상 된 사용자 계정을 처리할](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) 수 있는 기능이 일반적으로 제공 됩니다.
+- 이제 [자동 조사 및 응답을 통해 손상 된 사용자 계정을 처리할](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) 수 있는 기능이 일반적으로 제공 됩니다. (Office 365 ATP 계획 2)
 
 ## <a name="januaryfebruary-2020"></a>1 월/2 월 2020 일
 
-- [Office 365 ATP의 일반 캠페인 보기 가용성](campaigns.md)
-- 보안 운영 팀이 [전자 메일을 조사](investigate-malicious-email-that-was-delivered.md)하는 동안 여러 필드를 검색 및 필터링 할 수 있도록 [위협 탐색기](threat-explorer.md) 가 향상 되었습니다.
+- [Office 365 atp의 일반 캠페인 보기 가용성](campaigns.md) (OFFICE 365 atp 계획 2)
+- 보안 운영 팀이 [전자 메일 조사](investigate-malicious-email-that-was-delivered.md)중에 여러 필드를 검색 및 필터링 할 수 있도록 하는 [위협 탐색기](threat-explorer.md) 의 향상 된 기능: (Office 365 ATP 계획 2)
     - 배달 위치 및 특수 작업
     - 방향성 (인바운드, 아웃 바운드 또는 조직 내)
     - 고급 필터 (포함 하지 않는 고급 필터링 옵션, 포함 하지 않음 등)
     - 자세한 시간 필터 (일, 시간, 30 분) 
 
-- **문제** 위젯은 이제 **동작 센터** 위젯입니다. 보안 위젯을 보려면 보안 & 준수 센터에서 **위협 관리**  >  로 이동 합니다. **검토**합니다.
+- **문제** 위젯은 이제 **동작 센터** 위젯입니다. 보안 위젯을 보려면 보안 & 준수 센터에서 **위협 관리**  >  로 이동 합니다. **검토**합니다. (Office 365 ATP 계획 2)
 
 - [Microsoft 365의 안전한 문서](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(미리 보기)**
 
@@ -70,7 +70,7 @@ ms.locfileid: "47308382"
 
 - [URL 내보내기 오프 라인 분석을 위한 데이터 클릭](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (OFFICE 365 ATP 계획 1 또는 계획 2)
 
-- [Office 365 ATP에서 캠페인 보기 사용 (**미리 보기**)](campaigns.md)
+- [Office 365 atp (**preview**)의 캠페인 보기 사용](campaigns.md) (office 365 atp 계획 2)
 
 ## <a name="november-2019"></a>2019년 11월
 

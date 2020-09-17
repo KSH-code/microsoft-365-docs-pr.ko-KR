@@ -12,12 +12,12 @@ f1.keywords:
 ms.custom: seo-marvel-mar2020
 localization_priority: normal
 description: PowerShell을 사용 하 여 Microsoft 365 환경에서 Exchange Online 다중 지역 설정을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 996566d67aa8ba7ebca1406cd5d6265458637fee
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: ea7090cd65634138f9677960beab7770825a6e86
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546249"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950679"
 ---
 # <a name="administering-exchange-online-mailboxes-in-a-multi-geo-environment"></a>Multi-Geo 환경에서 Exchange Online 사서함 관리
 
@@ -237,4 +237,4 @@ Microsoft 365 관리자 센터의 **Multi-Geo 사용 보고서**는 지리적 �
 
 ## <a name="see-also"></a>참고 항목
 
-[Windows PowerShell로 Microsoft 365 및 Exchange Online 관리](https://support.office.com//article/06a743bb-ceb6-49a9-a61d-db4ffdf54fa6)
+[PowerShell로 Microsoft 365 관리](manage-microsoft-365-with-microsoft-365-powershell.md)

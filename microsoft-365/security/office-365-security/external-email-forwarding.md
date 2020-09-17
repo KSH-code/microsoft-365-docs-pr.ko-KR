@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: 7cb2ab9c6987900f2b53a17c3eda49001bca4d84
-ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
+ms.openlocfilehash: 727f14e8158f7e024b6029231fed18adb2d56a62
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46898055"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949692"
 ---
 # <a name="configuring-external-email-forwarding-in-office-365"></a>Office 365에서 외부 전자 메일 전달 구성
 
@@ -31,7 +31,10 @@ ms.locfileid: "46898055"
 
 - **Off** -자동 외부 전달은 사용 하지 않도록 설정 되며 최종 사용자에 게 NDR (배달 못 함 보고서)이 생성 됩니다.
 
-이러한 설정을 구성 하는 방법에 대 한 자세한 내용은 [EOP에서 아웃 바운드 스팸 필터링 구성을](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide) 참조 하세요.
+이러한 설정을 구성 하는 방법에 대 한 자세한 내용은 [EOP에서 아웃 바운드 스팸 필터링 구성을](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide&preserve-view=true) 참조 하세요.
+
+> [!NOTE]
+> 자동 전달을 사용 하지 않도록 설정 하면 메시지를 외부 주소로 리디렉션하는 받은 편지함 규칙도 사용할 수 있습니다.
 
 ## <a name="controlling-external-email-forwarding"></a>외부 전자 메일 전달 제어
 
@@ -42,7 +45,7 @@ Office 365에서는 받은 편지함 규칙 또는 메일 상자 구성에서 �
 > [!NOTE]
 > Office 365에서 외부 주소로 자동 전달을 사용 하지 않도록 설정 하는 작업은 [메시지가 센터](https://admin.microsoft.com/Adminportal/Home?source=applauncher&ref=/MessageCenter) 게시물을 통해 전달 되는 세부 정보와 함께 단계별로 진행 되 고 있습니다. 관리자가 이러한 변경 내용을 준비할 수 있도록 하기 위해 사용자에 게 중단이 발생 하지 않도록 사전에 정책을 수정 하 게 됩니다.
 
-조직에서 자동 전달 (받은 편지함 규칙 또는 SMTP 전달)을 사용 하는 사용자에 대 한 자세한 내용은 [자동 전달 메시지 보고서](https://docs.microsoft.com/microsoft-365/security/office-365-security/mfi-auto-forwarded-messages-report?view=o365-worldwide)에서 찾을 수 있습니다.
+조직에서 자동 전달 (받은 편지함 규칙 또는 SMTP 전달)을 사용 하는 사용자에 대 한 자세한 내용은 [자동 전달 메시지 보고서](https://docs.microsoft.com/microsoft-365/security/office-365-security/mfi-auto-forwarded-messages-report?view=o365-worldwide&preserve-view=true)에서 찾을 수 있습니다.
 
 ## <a name="how-does-this-policy-work-with-other-automatic-forwarding-controls"></a>이 정책이 다른 자동 전달 컨트롤에서 작동 하는 방식
 

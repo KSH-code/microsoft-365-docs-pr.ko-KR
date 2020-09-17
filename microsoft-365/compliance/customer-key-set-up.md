@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 for Exchange Online, 비즈니스용 Skype, SharePoint Online, 비즈니스용 OneDrive 및 팀 파일에 대 한 고객 키를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 8181ccfc988a10813f13e0b61d15f83eef57db76
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 32af637fca91c1aa3abc0853215476d55c0f18a3
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546760"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949564"
 ---
 # <a name="set-up-customer-key"></a>고객 키 설정
 
@@ -479,7 +479,7 @@ DEP를 만들려면 Windows PowerShell을 사용 하 여 SharePoint Online에 �
 2. Microsoft SharePoint Online 관리 셸에서 다음과 같이 SPODataEncryptionPolicy cmdlet을 실행 합니다.
 
    ```powershell
-   Register-SPODataEncryptionPolicy -Identity <SPOAdminSiteUrl> -PrimaryKeyVaultName <PrimaryKeyVaultName> -PrimaryKeyName <PrimaryKeyName> -PrimaryKeyVersion <PrimaryKeyVersion> -SecondaryKeyVaultName <SecondaryKeyVaultName> -SecondaryKeyName <SecondaryKeyName> -SecondaryKeyVersion <SecondaryKeyVersion>
+   Register-SPODataEncryptionPolicy -PrimaryKeyVaultName <PrimaryKeyVaultName> -PrimaryKeyName <PrimaryKeyName> -PrimaryKeyVersion <PrimaryKeyVersion> -SecondaryKeyVaultName <SecondaryKeyVaultName> -SecondaryKeyName <SecondaryKeyName> -SecondaryKeyVersion <SecondaryKeyVersion>
    ```
 
    DEP를 등록 하면 geo의 데이터에 대 한 암호화가 시작 됩니다. 이 작업은 다소 시간이 걸릴 수 있습니다.

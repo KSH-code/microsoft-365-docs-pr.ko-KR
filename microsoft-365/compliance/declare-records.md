@@ -17,22 +17,22 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 사용하여 레코드 선언
-ms.openlocfilehash: d637817e8d1bcc8c72bfe011dfd288ac4e2d0298
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: 841c5197addff704016e344ba7ae44355c872f72
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778518"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47817111"
 ---
 # <a name="declare-records-by-using-retention-labels"></a>보존 레이블을 사용하여 레코드 선언
 
->*[보안 및 규정 준수에 대한 Microsoft 365 라이센스 지침](https://aka.ms/ComplianceSD)입니다.*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
-항목을 레코드로 선언하려면 콘텐츠를 레코드로 표시하는 [보존 레이블](retention.md#retention-labels)을 사용합니다. 사용자 및 관리자가 콘텐츠에 직접 적용할 수 있도록 해당 레이블을 게시하거나 레코드로 표시하기를 원하는 콘텐츠에 해당 레이블을 자동으로 적용할 수 있습니다.
+문서 및 전자 메일을 레코드로 선언하려면 항목을 레코드로 표시하는 [보존 레이블](retention.md#retention-labels)을 사용합니다. 사용자 및 관리자가 콘텐츠에 직접 적용할 수 있도록 해당 레이블을 게시하거나 레코드로 표시하기를 원하는 콘텐츠에 해당 레이블을 자동으로 적용할 수 있습니다.
 
 ## <a name="configuring-retention-labels-to-declare-records"></a>레코드를 선언하도록 보존 레이블을 구성 중
 
-보존 레이블을(를) 생성하거나 구성할 때 콘텐츠를 레코드로 표시하는 옵션을 선택합니다.
+보존 레이블을 생성하거나 구성할 때 콘텐츠를 레코드로 표tl하는 옵션을 선택합니다.
 
 >[!NOTE] 
 > Microsoft 365 규정 준수 센터의 **정보 거버넌스**에서 보존 레이블을 생성하거나 구성하는 경우에는 내용을 레코드로 표시하는 옵션을 사용할 수 없습니다. 대신 **레코드 관리**를 사용해야 합니다.
@@ -41,9 +41,9 @@ ms.locfileid: "46778518"
 
 1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)에서 **관리 기록** \> **파일 계획**(으)로 이동합니다. **파일 계획** 페이지에서 **레이블 만들기**를 선택합니다.
 
-2. 마법사의 **레이블 설정** 페이지에서 콘텐츠를 레코드로 분류하는 옵션을 선택합니다.
+2. **보존 설정 정의** 페이지에서 다음을 선택하여 항목을 레코드로 표시하는 옵션을 선택합니다.
     
-   ![레이블을 사용하여 콘텐츠를 레코드로 분류 확인란을 클릭합니다.](../media/recordversioning6.png)
+   ![보존 설정을 선택하여 항목을 레코드로 표시합니다.](../media/recordversioning6.png)
 
 3. 필요에 따라 SharePoint 또는 OneDrive 문서와 Exchange 전자 메일에 보존 레이블을 적용합니다. 해당 지침은 다음 항목을 참조하세요.
     

@@ -7,21 +7,6 @@
           href: top-security-tasks-for-remote-work.md
         - name: BDM에 대한 Microsoft 365 보안
           href: Microsoft-365-security-for-bdm.md
-        - name: '최고 정보 보안 책임자(CISO) 워크샵 교육 '
-          href: ./office-365-security/ciso-workshop.md
-          items:
-            - name: 모듈 1 - Microsoft 사이버 보안 브리핑
-              href: ./office-365-security/ciso-workshop-module-1.md
-            - name: 모듈 2 - 보안 관리
-              href: ./office-365-security/ciso-workshop-module-2.md
-            - name: 모듈 3 - ID 및 제로 트러스트 사용자 액세스
-              href: ./office-365-security/ciso-workshop-module-3.md
-            - name: '모듈 4a - 위협 방지 전략, 파트 I'
-              href: ./office-365-security/ciso-workshop-module-4a.md
-            - name: '모듈 4b - 위협 방지 전략, 파트 II'
-              href: ./office-365-security/ciso-workshop-module-4b.md
-            - name: 모듈 5 - 정보 보호
-              href: ./office-365-security/ciso-workshop-module-5.md
     - name: ID 및 장치 액세스 구성
       href: ../enterprise/microsoft-365-policies-configurations.md
       items:
@@ -87,7 +72,7 @@
               href: mtp/generate-test-alert.md
         - name: 사용 방법 가이드
           items:
-            - name: 평가판 랩 환경 만들기
+            - name: 평가판 랩 또는 파일럿 환경 만들기
               href: mtp/mtp-evaluation.md
             - name: 지원 서비스 사용
               href: mtp/deploy-supported-services.md
@@ -219,22 +204,62 @@
                   href: mtp/monitor-devices.md
                 - name: 앱 모니터링 및 보고
                   href: mtp/monitor-apps.md
+            - name: API
+              items: null
+        - name: 참조
+          items:
             - name: 사용 권한 및 설정
               items:
                 - name: 액세스 관리
                   href: mtp/mtp-permissions.md
                 - name: 표준 시간대 설정
                   href: mtp/mtp-time-zone.md
-            - name: 장치 프로필 보기
-              href: mtp/device-profile.md
-            - name: 피드백 제공
-              href: mtp/feedback.md
-            - name: ServiceNow 티켓 및 작업 만들기
+                - name: 장치 프로필 보기
+                  href: mtp/device-profile.md
+                - name: 피드백 제공
+                  href: mtp/feedback.md
+                - name: ServiceNow 티켓 및 작업 만들기
+                  items:
+                    - name: ServiceNow 통합 개요
+                      href: ./mtp/tickets.md
+                    - name: 보안 센터의 ServiceNow 티켓
+                      href: ./mtp/tickets-security-center.md
+            - name: Microsoft Threat Protection API(미리 보기)
               items:
-                - name: ServiceNow 통합 개요
-                  href: ./mtp/tickets.md
-                - name: 보안 센터의 ServiceNow 티켓
-                  href: ./mtp/tickets-security-center.md
+                - name: Microsoft Threat Protection API 개요(미리 보기)
+                  href: mtp/api-overview.md
+                - name: Microsoft Threat Protection API 개요(미리 보기) 시작
+                  items:
+                    - name: Microsoft Threat Protection API 라이선스 및 사용 약관
+                      href: mtp/api-terms.md
+                    - name: Microsoft Threat Protection API(미리 보기) 액세스
+                      href: mtp/api-access.md
+                    - name: Hello World 예제
+                      href: mtp/api-hello-world.md
+                    - name: 응용 프로그램 컨텍스트를 사용하여 액세스
+                      href: mtp/api-create-app-web.md
+                    - name: 사용자 컨텍스트를 사용하여 액세스
+                      href: mtp/api-create-app-user-context.md
+                    - name: 파트너 응용 프로그램 액세스 받기
+                      href: mtp/api-partner-access.md
+                    - name: 기타 API 리소스
+                      href: mtp/api-articles.md
+                - name: Microsoft Threat Protection API 및 스키마(미리 보기)
+                  items:
+                    - name: 지원되는 Microsoft Threat Protection API
+                      href: mtp/api-supported.md
+                    - name: 일반적인 REST API 오류 코드
+                      href: mtp/api-error-codes.md
+                    - name: 고급 헌팅 API
+                      href: mtp/api-advanced-hunting.md
+                    - name: 인시던트 API
+                      items:
+                        - name: 인시던트 메서드 및 속성
+                          href: mtp/api-incident.md
+                        - name: 인시던트 열거
+                          href: mtp/api-list-incidents.md
+                        - name: 인시던트 업데이트
+                          href: mtp/api-update-incidents.md
     - name: Microsoft 365 보안
       items:
         - name: 시작하기

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365 용 클라이언트 및 서버 소프트웨어를 설정 하기 위한 로드맵
-ms.openlocfilehash: 14169809deb363cac8ff3dd6ad35c12c20318674
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 898464222b8296cee3ab12fe7351295f39a23736
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692441"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950571"
 ---
 # <a name="client-and-server-software-roadmap-for-microsoft-365"></a>Microsoft 365에 대 한 클라이언트 및 서버 소프트웨어 로드맵
 
@@ -34,8 +34,7 @@ ms.locfileid: "46692441"
 >Windows 7이 **2020년 1월 14일**에 지원이 종료되었습니다. 자세한 내용은 [여기](https://support.microsoft.com/help/4057281/windows-7-support-will-end-on-january-14-2020)를 클릭하세요.
 >
 
-시간에 따른 이러한 마이그레이션을 모두 수행 하면 조직이 [최신 작업 회사](https://www.microsoft.com/microsoft-365/blog/2018/04/27/making-it-simpler-with-a-modern-workplace/)와 보다 가까운 환경, 즉 조직의 팀 작업 및 표준에 대 한 잠금을 해제 하는 안전 하 고 통합 된 환경을 사용할 수 있으며, 이러한 모든 기능을 사용 하도록 설정 하 여 기업에 대 한 Microsoft 365의 권한을 얻습니다. 
-
+시간에 따른 이러한 마이그레이션을 모두 수행 하면 조직이 [최신 작업 회사](https://www.microsoft.com/microsoft-365/blog/2018/04/27/making-it-simpler-with-a-modern-workplace/)와 보다 가까운 환경, 즉 조직의 팀 작업 및 표준에 대 한 잠금을 해제 하는 안전 하 고 통합 된 환경을 사용할 수 있으며, 이러한 모든 기능을 사용 하도록 설정 하 여 기업에 대 한 Microsoft 365의 권한을 얻습니다.
 
 ## <a name="migration-for-microsoft-office-client-products"></a>Microsoft Office 클라이언트 제품에 대한 마이그레이션
 
@@ -44,7 +43,7 @@ ms.locfileid: "46692441"
 - 최신 보안 업데이트 및 지원 수정 프로그램으로 [업데이트](https://support.office.com/article/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5)할 수 있지만 경우에 따라 이 프로세스가 수동으로 수행되며 조직 전체 규모로 진행되지 않을 수도 있습니다.
 - Microsoft의 클라우드 기술을 활용하여 비즈니스의 디지털 혁신을 이룰 수 있도록 최적화되지 않았습니다.
 - 새로운 기능이 포함되어 있지 않습니다.
- 
+
 기업에 대 한 365 microsoft 365 앱에는 microsoft 365 for enterprise 라이선스를 사용할 수 있으며 Microsoft 클라우드에서 설치 되 고 업데이트 되는 Office 클라이언트 제품 버전 (엔터프라이즈의 경우)이 포함 되어 있습니다. 엔터프라이즈용 Microsoft 365 앱에는 보안 업데이트와 최신 기능이 포함되어 있습니다. 자세한 내용은 [엔터프라이즈용 Microsoft 365 앱](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps)을 참조하세요.
 
 ### <a name="office-2007"></a>Office 2007
@@ -63,7 +62,7 @@ Office 2007을 실행하는 컴퓨터를 Office 2010, Office 2013 또는 Office 
 
 Office 2010 릴리스에 있는 Office 버전의 경우에는 **2020년 10월 13일**에 지원이 종료됩니다. 자세한 내용은 [Office 2010 지원 종료 로드맵](https://docs.microsoft.com/deployoffice/office-2010-end-support-roadmap)을 참조하세요.
 
-Office 2010을 실행하는 컴퓨터를 Office 2013 또는 Office 2016으로 업그레이드하는 대신(둘 다 수동으로 업데이트해야 함), 다음을 수행하는 것이 좋습니다. 
+Office 2010을 실행하는 컴퓨터를 Office 2013 또는 Office 2016으로 업그레이드하는 대신(둘 다 수동으로 업데이트해야 함), 다음을 수행하는 것이 좋습니다.
 
 1. 사용자를 위한 Microsoft 365 라이선스 획득 및 할당
 2. 컴퓨터에서 Office 2010 제거
@@ -92,7 +91,7 @@ Office 2013 또는 Office 2016용 최신 보안 업데이트로 컴퓨터를 계
 - Microsoft Teams와 같은 새로운 생산성 응용 프로그램이 포함되어 있지 않습니다.
 - Exchange Advanced Threat Protection과 같은 최신 보안 기능이 포함되어 있지 않습니다.
 
-엔터프라이즈에 대 한 Microsoft 365에는 웹 브라우저 및 Outlook 클라이언트와 같은 온-프레미스 버전의 Office 서버 소프트웨어와 동일한 도구 중 일부를 사용 하는 클라우드 기반 버전의 Office server 서비스가 포함 되어 있습니다. 이러한 서비스는 IT 부서가 연관되지 않고도 보안을 위해 지속적으로 업데이트되므로 온-프레미스 서버를 유지 관리하고 업데이트하는 데 걸리는 시간이 절약됩니다. 이러한 서비스에는 Office 서버 소프트웨어에 없는 새로운 기능 향상 기능도 있습니다. 
+엔터프라이즈에 대 한 Microsoft 365에는 웹 브라우저 및 Outlook 클라이언트와 같은 온-프레미스 버전의 Office 서버 소프트웨어와 동일한 도구 중 일부를 사용 하는 클라우드 기반 버전의 Office server 서비스가 포함 되어 있습니다. 이러한 서비스는 IT 부서가 연관되지 않고도 보안을 위해 지속적으로 업데이트되므로 온-프레미스 서버를 유지 관리하고 업데이트하는 데 걸리는 시간이 절약됩니다. 이러한 서비스에는 Office 서버 소프트웨어에 없는 새로운 기능 향상 기능도 있습니다.
 
 특정 Microsoft 365 워크 로드에 대 한 사용자 및 데이터 마이그레이션에 대 한 자세한 내용은 다음을 수행 합니다.
 
@@ -146,7 +145,7 @@ Office 2016 릴리스 서버 제품의 경우, 지원 종료가 결정되지 않
 
 ## <a name="migration-for-microsoft-windows-7-and-81"></a>Microsoft Windows 7 및 8.1에 대한 마이그레이션
 
-Windows 7이 **2020년 1월 14일**에 지원이 종료되었습니다. Windows 7 또는 Windows 8.1이 실행 중인 장치를 마이그레이션하려면 현재 위치 업그레이드를 수행할 수 있습니다. 
+Windows 7이 **2020년 1월 14일**에 지원이 종료되었습니다. Windows 7 또는 Windows 8.1이 실행 중인 장치를 마이그레이션하려면 현재 위치 업그레이드를 수행할 수 있습니다.
 
 추가 방법에 대해서는 [Windows 10 배포 시나리오](https://docs.microsoft.com/windows/deployment/windows-10-deployment-scenarios)를 참조하세요. 직접 [Windows 10 배포를 계획](https://aka.ms/planforwin10deployment)할 수도 있습니다.
 
@@ -162,21 +161,20 @@ Windows 7이 **2020년 1월 14일**에 지원이 종료되었습니다. Windows 
 
 ## <a name="transition-your-entire-organization"></a>전체 조직 전환
 
-전체 조직을 Microsoft 365의 기업에 대 한 제품 및 서비스로 이동 하는 방법에 대 한 자세한 그림을 보려면 [전환 포스터](../downloads/transition-org-to-m365.pdf)를 참조 하세요.
+전체 조직이 엔터프라이즈용 Microsoft 365의 제품 및 서비스로 전환하는 방법을 더 잘 이해하려면 [전환 포스터](../downloads/transition-org-to-m365.pdf)를 참조하세요.
 
 [![Microsoft 365로 전환 포스터 이미지](../media/microsoft-365-overview/transition-org-to-m365.png)](../downloads/transition-org-to-m365.pdf)
 
-이 두 페이지 포스터는 신속하게 기존 인프라를 목록화하고 엔터프라이즈용 Microsoft 365에서 해당 제품이나 서비스로 전환하는 방법에 대한 지침을 제공합니다. 여기에는 Windows와 Office 제품, 장치 관리, ID, 정보 및 위협 방지와 같은 기타 인프라 및 보안 요소가 포함됩니다.
+이 두 페이지 포스터는 신속하게 기존 인프라를 목록화하고 엔터프라이즈용 Microsoft 365에서 해당 제품이나 서비스로 전환하는 방법에 대한 지침을 제공합니다. Windows와 Office 제품, 디바이스 관리, ID, 정보 및 위협 방지와 같은 기타 인프라 및 보안 요소가 포함됩니다.
 
 [이 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/transition-org-to-m365.pdf)하고 편지형, 법률형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
 
 ## <a name="how-microsoft-does-microsoft-365-for-enterprise"></a>Microsoft가 enterprise에 대해 Microsoft 365를 어떻게 합니까?
 
-다음 리소스를 사용 하 여 Microsoft의 IT 전문가가 회사를 Microsoft 365으로 마이그레이션한 방법을 확인할 수 있습니다. 
+다음 리소스를 사용 하 여 Microsoft의 IT 전문가가 회사를 Microsoft 365으로 마이그레이션한 방법을 확인할 수 있습니다.
 
 - [Microsoft 365 Apps for enterprise 배포 및 업데이트](https://www.microsoft.com/itshowcase/Article/Content/757/Deploying-and-updating-Microsoft-Office-365-ProPlus)
 - [Microsoft에서 150,000개의 사서함을 Exchange Online으로 마이그레이션](https://www.microsoft.com/itshowcase/Article/Content/577/Microsoft-migrates-150000-mailboxes-to-Exchange-Online)
 - [SharePoint를 클라우드로: Microsoft가 자체 마이그레이션을 수행한 방법 알아보기](https://www.microsoft.com/itshowcase/Article/Content/691/SharePoint-to-the-cloud-Learn-how-Microsoft-ran-its-own-migration)
 - [Microsoft의 Windows 10dmf 현재 위치 업그레이드 방식으로 배포](https://www.microsoft.com/itshowcase/Article/Content/668/Deploying-Windows-10-at-Microsoft-as-an-inplace-upgrade)
 - [Windows 10 배포: Microsoft IT의 팀과 트릭](https://www.microsoft.com/itshowcase/Article/Content/951/Windows-10-deployment-tips-and-tricks-from-Microsoft-IT)(비디오)
-

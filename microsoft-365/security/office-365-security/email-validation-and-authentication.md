@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: 관리자는 EOP가 전자 메일 인증(SPF, DKIM 및 DMARC)을 사용하여 스푸핑, 피싱 및 스팸을 방지하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 8db5045ec19c5552feba739628a2c9c1c508f620
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 0f4eb15df218050f7e582b1cc727522c04da594b
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866638"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949871"
 ---
 # <a name="email-authentication-in-eop"></a>EOP에서 전자 메일 인증
 
@@ -204,4 +204,4 @@ Microsoft 365는 회사 인프라의 인바운드 전자 메일을 인증된 것
 
 플랫폼에서 발생하는 전자 메일을 인증하더라도 Microsoft에 대한 제공 가능성은 보장되지 않지만 적어도 인증되지 않은 이유로 Microsoft가 전자 메일을 스팸으로 처리하지 않도록 합니다.
 
-서비스 제공자의 모범 사례에 대한 자세한 내용은 [서비스 제공업체를 위한 M3AAWG 모바일 메시징 모범 사례](https://www.m3aawg.org/sites/default/files/M3AAWG-Mobile-Messaging-Best-Practices-Service-Providers-2015-08.pdf)을 참조합니다.
+서비스 제공자의 모범 사례에 대한 자세한 내용은 [서비스 제공업체를 위한 M3AAWG 모바일 메시징 모범 사례](https://www.m3aawg.org/sites/default/files/m3aawg-mobile-messaging-best-practices-service-providers-2015-08_0.pdf)을 참조합니다.

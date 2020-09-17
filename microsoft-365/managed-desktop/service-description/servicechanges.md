@@ -1,19 +1,20 @@
 ---
-title: 서비스 변경 및 통신
+title: 서비스 변경 및 커뮤니케이션
 description: ''
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 00d1cb409364c017585c6afcd10a236ecbcdc3a0
-ms.sourcegitcommit: 53148fc3663bdcfa9605684317785cb19f37e141
+ms.openlocfilehash: 753ad703a7949b7901ddd76d0d8c966b170461ea
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37697905"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950321"
 ---
-# <a name="service-changes-and-communication"></a>서비스 변경 및 통신
+# <a name="service-changes-and-communication"></a>서비스 변경 및 커뮤니케이션
 
 Microsoft에서 Microsoft Managed Desktop이 작동 하는 방식에 대 한 세부 정보를 변경 해야 할 수도 있습니다. 마찬가지로 서비스에도 영향을 주는 변경 작업을 수행 해야 할 수도 있습니다. 이러한 변경은 주요 정도에 따라 다르게 처리 됩니다. 이 항목에서는 주요 변경 사항을 정의 하 고,이를 처리 하는 방법과 기타 변경 사항에 대해 설명 합니다.
 

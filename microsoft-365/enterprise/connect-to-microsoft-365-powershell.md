@@ -17,12 +17,12 @@ ms.custom:
 - Ent_Office_Other
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
 description: Microsoft 365용 PowerShell을 사용하여 Microsoft 365 테넌트에 연결하여 명령줄에서 관리 센터 작업을 수행합니다.
-ms.openlocfilehash: d1e347a13ca5c587fa544ef80a8e289a8dec0a59
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 9b4cdbe9fcdea48df456e75095f8d269ab84696f
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692642"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950559"
 ---
 # <a name="connect-to-microsoft-365-with-powershell"></a>PowerShell을 사용하여 Microsoft 365에 연결
 
@@ -56,13 +56,12 @@ Microsoft 365 및 관리자 계정, 그룹 및 라이선스에 연결하는 데 
 
 ## <a name="connect-with-the-azure-active-directory-powershell-for-graph-module"></a>그런 다음, Azure Active Directory PowerShell for Graph 모듈에 연결합니다.
 
-Azure Active Directory PowerShell for Graph 모듈의 명령에는 cmdlet 이름에 **AzureAD**가 있습니다. [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory) 모듈 또는 [Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-3.6.1)을 설치할 수 있습니다.
+Azure Active Directory PowerShell for Graph 모듈의 명령에는 cmdlet 이름에 **AzureAD**가 있습니다. [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) 모듈 또는 [Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps)을 설치할 수 있습니다.
 
 Azure Active Directory PowerShell for Graph 모듈에서 새 cmdlet을 필요로 하는 프로시저의 경우, 이러한 단계를 사용해서 모듈을 설치하고 Microsoft 365 구독에 연결할 수 있습니다.
 
->[!Note]
->Microsoft Windows의 여러 버전에 대한 지원 정보는 [Azure Active Directory PowerShell for Graph 모듈](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory)을 참조하세요.
->
+> [!Note]
+> Microsoft Windows의 여러 버전에 대한 지원 정보는 [Azure Active Directory PowerShell for Graph 모듈](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2)을 참조하세요.
 
 ### <a name="step-1-install-required-software"></a>1단계: 필수 소프트웨어 설치
 

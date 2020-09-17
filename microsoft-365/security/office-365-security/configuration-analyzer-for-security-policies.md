@@ -17,17 +17,17 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: 관리자는 구성 분석기를 사용 하 여 표준 보호 및 엄격한 보호 사전 설정 보안 정책 아래에 있는 보안 정책을 찾아서 수정 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 39bec980ac95681ec2c2300914582d5e8786c884
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 022f11013ef49c65b1f94fea7a3872233ff1ab14
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867166"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949481"
 ---
 # <a name="configuration-analyzer-for-protection-policies-in-eop-and-office-365-atp"></a>EOP 및 Office 365 ATP의 보호 정책에 대 한 구성 분석기
 
 > [!NOTE]
-> 이 항목에서 설명 하는 기능은 미리 보기 상태 이며, 모든 조직에서 사용할 수 있는 것은 아니며, 변경 될 수 있습니다.
+> 이 항목에서 설명 하는 기능은 미리 보기 상태 이며, 모든 조직에서 사용할 수 있는 것은 아니며, 변경 될 수 있습니다. 릴리스 일정에 대 한 자세한 내용은 [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=config%2Canalyzer)를 참조 하세요.
 
 보안 & 준수 센터의 구성 분석기는 미리 설정 된 [보안 정책](preset-security-policies.md)에서 설정이 표준 보호 및 엄격한 보호 프로필 설정 보다 낮은 보안 정책을 찾아 해결 하는 중앙 위치를 제공 합니다.
 

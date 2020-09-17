@@ -10,12 +10,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: e7eb3eaa6961993f8c77645c8d6760e6701817e2
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 33a2bf0b85b9b8561a5dcf32eae6e4cd0cb53765
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547941"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950487"
 ---
 # <a name="privacy-and-personal-data"></a>개인 정보 및 개인 데이터
 
@@ -91,7 +91,7 @@ Intune 데이터는 유럽 북부 (아일랜드) 및 유럽 서 부 (네덜란�
 
 Microsoft Defender ATP (Advanced Threat Protection) 데이터는 몇 가지 다른 지역에 저장 될 수 있습니다. 이러한 이유 때문에 microsoft defender ATP는 microsoft [DEFENDER atp](http://intunedatacentermap.azurewebsites.net/)에 설명 된 대로 유럽 연합, 영국 및 미국의 microsoft Azure 데이터 센터에서 작동 합니다. Microsoft Defender ATP에서 데이터를 저장 하 고 사용 하는 방법에 대 한 자세한 내용은 [Microsoft DEFENDER atp에서 수집 하는 데이터](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy#what-data-does-microsoft-defender-atp-collect) 를 참조 하세요.
 
-### <a name="windows-10"></a>Windows 10
+### <a name="windows-10"></a>Windows 10
 
 [Microsoft 개인 정보 취급](https://privacy.microsoft.com/privacystatement)방침에서 설명한 것 처럼 "microsoft에서 수집한 개인 데이터는 지역에서 저장 및 처리 될 수 있습니다., 미국 및 Microsoft 또는 계열사, 자회사 또는 서비스 공급자가 운영 하는 기타 국가에서 제공 됩니다. [...] 일반적으로 기본 저장소 위치는 고객의 지역 또는 미국에서 다른 지역의 데이터 센터에 대 한 백업을 포함 하는 경우입니다. 저장소 위치는 효율적으로 작동 하 고, 성능을 개선 하 고, 중단 문제나 다른 문제가 발생 한 경우 데이터를 보호 하기 위해 중복성을 만들기 위해 선택 됩니다. 이 개인 정보 취급 방침에서 수집한 데이터는이 문의 프로 비전 및 데이터가 있는 모든 해당 법률의 요구 사항에 따라 처리 되도록 하기 위한 단계를 수행 합니다. "
 
@@ -128,7 +128,7 @@ Microsoft Managed Desktop은 프로 파일링, 광고 또는 마케팅 목적으
 
 ### <a name="it-admin-contact-information"></a>IT 관리자 연락처 정보
 
-테 넌 트 관리자는 Microsoft Managed Desktop Portal의 관리자 연락처 섹션에서 자신의 개인 데이터를 직접 보고 수정 하 고 삭제할 수 있습니다.
+테 넌 트 관리자는 Microsoft Managed Desktop Portal의 관리자 연락처 섹션에서 직접 자신의 개인 데이터 (예: 고유한 연락처 정보)를 보고 수정 하 고 삭제할 수 있습니다.
 
 ### <a name="user-related-personal-data"></a>사용자 관련 개인 데이터
 

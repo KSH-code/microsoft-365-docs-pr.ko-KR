@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 엔터프라이즈용 Microsoft 365의 구성 요소, 계획 및 배포 경로에 대한 소개를 제공합니다.
-ms.openlocfilehash: 1a7c0cbb339ae0023264fbafb39e9b8682e98af2
-ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
+ms.openlocfilehash: b5064d78a1681a3331248f3d17d389c46b1da314
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47775186"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949919"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈용 Microsoft 365 개요
 
@@ -30,22 +30,22 @@ ms.locfileid: "47775186"
 
 엔터프라이즈용 Microsoft 365 구성 요소
 
-| 서비스 | 설명 |
-|:-------|:-----|
-| 로컬 및 클라우드 기반 및 생산성 서비스 | 사용자의 PC 및 Mac을 위한 최신 Office 앱(Word, Excel, PowerPoint, Outlook 등)인 엔터프라이즈용 Microsoft 365과 전자 메일, 파일 저장소 및 협업, 회의 등을 위한 완전한 온라인 제품군이 포함됩니다. |
-| Windows 10 Enterprise | 대규모 기업이나 중소기업의 요구 사항을 충족합니다. Windows의 가장 생산적이고 안전한 버전입니다. IT 전문가를 위해 종합 배포, 장치 및 앱 관리도 제공합니다. |
-| 디바이스 관리 및 고급 보안 서비스 | 조직의 데이터를 보호하면서 작업 장소가 생산적인 곳이 될 수 있도록 도와주는 클라우드 기반 엔터프라이즈 이동성 관리 서비스인 Microsoft Intune이 포함됩니다. |
+|서비스|설명|
+|---|---|
+|로컬 및 클라우드 기반 및 생산성 서비스|사용자의 PC 및 Mac을 위한 최신 Office 앱(Word, Excel, PowerPoint, Outlook 등)인 엔터프라이즈용 Microsoft 365과 전자 메일, 파일 저장소 및 협업, 회의 등을 위한 완전한 온라인 제품군이 포함됩니다.|
+|Windows 10 Enterprise|대규모 기업이나 중소기업의 요구 사항을 충족합니다. Windows의 가장 생산적이고 안전한 버전입니다. IT 전문가를 위해 종합 배포, 장치 및 앱 관리도 제공합니다.|
+|디바이스 관리 및 고급 보안 서비스|조직의 데이터를 보호하면서 작업 장소가 생산적인 곳이 될 수 있도록 도와주는 클라우드 기반 엔터프라이즈 이동성 관리 서비스인 Microsoft Intune이 포함됩니다.|
 |||
 
 ## <a name="plans"></a>요금제
 
 엔터프라이즈용 Microsoft 365에는 세 가지 요금제가 있습니다.
 
-| 요금제 이름 | 기능 |
-|:-------|:-----|
-| E3 | Microsoft 365 핵심 제품 및 기능에 액세스하여 안전하게 작업 공간의 생산성을 향상하고 혁신을 주도합니다. |
-| E5 | Microsoft 365 최신 제품 및 기능에 액세스합니다. 고급 위협 방지, 보안 도구 및 공동 작업 도구를 포함합니다. 이 플랜에는 모든 E3 기능을 포함하고 고급 보안, 보이스 및 데이터 분석 도구도 포함됩니다. |
-| F3 | 가장 적합한 작업을 수행하는 데 사용할 수 있는 목적으로 빌드된 도구와 리소스를 사용하여 일선 인력과 연결합니다. |
+|요금제 이름|기능|
+|---|---|
+|E3|Microsoft 365 핵심 제품 및 기능에 액세스하여 안전하게 작업 공간의 생산성을 향상하고 혁신을 주도합니다.|
+|E5|Microsoft 365 최신 제품 및 기능에 액세스합니다. 고급 위협 방지, 보안 도구 및 공동 작업 도구를 포함합니다. 이 플랜에는 모든 E3 기능을 포함하고 고급 보안, 보이스 및 데이터 분석 도구도 포함됩니다.|
+|F3|가장 적합한 작업을 수행하는 데 사용할 수 있는 목적으로 빌드된 도구와 리소스를 사용하여 일선 인력과 연결합니다.|
 |||
 
 Microsoft 365 E3를 보유하고 있으면 다음 추가 기능을 사용할 수 있습니다.
@@ -107,31 +107,31 @@ Microsoft 365 E3 사용자는 이러한 추가 기능을 사용하여 Microsoft 
 엔터프라이즈용 Microsoft 365 제품, 기능 및 구성 요소 배포 계획에는 세 가지 방법이 있습니다.
 
 - FastTrack과의 관계:
-  
+
    FastTrack을 사용하면 Microsoft 엔지니어가 사용자의 진도에 따라 클라우드를 이동하는데 도움을 줍니다. [Microsoft 365용 FastTrack](https://fasttrack.microsoft.com/microsoft365)을 참조하십시오.
-  
+
 - Microsoft 컨설팅 서비스 혹은 [Microsoft 파트너](https://partner.microsoft.com/)의 도움말 사용:
 
    컨설턴트는 현재 인프라를 분석하고, 엔터프라이즈용 Microsoft 365의 모든 소프트웨어 및 서비스를 통합하는 계획을 개발하는 데 도움을 줄 수 있습니다.
 
 - 직접 수행:
 
-   [네트워킹 로드맵](networking-roadmap-microsoft-365.md)을 사용하여 기존 인프라와 생산성 작업 부하를 빌드하거나 확인합니다. 
+   [네트워킹 로드맵](networking-roadmap-microsoft-365.md)을 사용하여 기존 인프라와 생산성 작업 부하를 빌드하거나 확인합니다.
 
 가상이지만 대표적인 다국적 기업인 [Contoso 회사](contoso-overview.md)가 엔터프라이즈용 Microsoft 365 앱을 배포하는 방식을 참조하세요.
 
 ## <a name="additional-microsoft-365-products"></a>추가 Microsoft 365 제품
 
 - [Microsoft 365 Business Premium](https://docs.microsoft.com/microsoft-365/business/)
- 
+
   동급 최고의 생산성 및 공동 작업 기능을 장치 관리 및 보안 솔루션과 결합하여 중소 중견 기업의 비즈니스 데이터를 보호합니다.
 
 - [Microsoft 365 Education](https://docs.microsoft.com/education)
- 
+
   강사들이 교육용으로 디자인된 저렴한 단일 솔루션에서 독창성을 발휘하고, 팀 작업을 촉진하고, 간편하고 안전한 환경을 제공하도록 지원합니다.
 
 - [Microsoft 365 정부용](https://www.microsoft.com/microsoft-365/government)
- 
+
   미국 공용 부문 직원의 안전한 공동 작업 강화
 
 ## <a name="microsoft-365-training"></a>Microsoft 365 교육
@@ -139,7 +139,6 @@ Microsoft 365 E3 사용자는 이러한 추가 기능을 사용하여 Microsoft 
 ![Microsoft 365 기본 교육](../media/microsoft-365-overview/m365-fundamentals.svg)
 
 Microsoft 365와 Microsoft 365 인증에 대한 자세한 내용은 [Microsoft 365 인증: 기본](https://docs.microsoft.com/learn/paths/m365-fundamentals/)에서 시작할 수 있습니다.
-
 
 ## <a name="see-also"></a>참고 항목
 

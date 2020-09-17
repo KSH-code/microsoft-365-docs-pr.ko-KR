@@ -4,14 +4,15 @@ description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: b7f56a64f1846676f458f7b3ddb210e84b9ca8f7
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 06e1446ca290439c9e6689f4461c825438cf6aaf
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085675"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950345"
 ---
 # <a name="reliability-insights"></a>안정성 인사이트
 
@@ -33,7 +34,7 @@ ms.locfileid: "42085675"
     - 치명적인 오류-Windows에 문제가 발생 하 여 복구할 수 없는 경우 발생 합니다.
 - 같은 문제로 인해 영향을 받는 장치 수입니다.
 - 해당 숫자가 나타내는 관리 되는 장치의 백분율
-- 특정 문제의 총 발생 횟수입니다.
+- 특정 문제가 발생 한 총 횟수입니다.
 - 문제의 원인이 되는 것으로 표시 되는 소프트웨어 구성 요소입니다.
 - 검색 된 문제의 범주:
     - 브라우저 (Edge, Chrome, IE)

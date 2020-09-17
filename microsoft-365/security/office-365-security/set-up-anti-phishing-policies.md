@@ -16,18 +16,18 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection) 및 Office 365 Advanced Threat Protection (Office 365 ATP)에서 사용할 수 있는 피싱 방지 정책에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: a68baf8f2598b8ca0cd13e45d18919ecfdccdacc
-ms.sourcegitcommit: 294a51ef0ff48dddb659c602e047d7fd98f91172
+ms.openlocfilehash: 06307efdc1df03d918e7f0b48c42f6e8ecb1dd79
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47407931"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950607"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Microsoft 365의 피싱 방지 정책
 
 피싱 방지 보호 설정을 구성 하는 정책은 Exchange Online 사서함, 독립 실행형 EOP (Exchange Online Protection), Exchange Online 사서함이 없는 조직, Office 365 Advanced Threat Protection (Office 365 ATP) 조직이 있는 Microsoft 365 조직에서 사용할 수 있습니다.
 
-ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 수 있습니다. 예시:
+ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 수 있습니다. 예를 들어,
 
 - Microsoft 365 Enterprise E5, Microsoft 365 교육 A5 등입니다.
 - [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)
@@ -188,6 +188,9 @@ ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 
   - **가장 한 사용자**: 보낸 사람 주소에는 보호 된 사용자가 포함 됩니다.
   - **가장 한 도메인**: 보낸 사람 주소에는 보호 된 도메인이 포함 됩니다.
   - **이상한 문자**: 보낸 사람 주소에는 제한 된 발신자 또는 도메인에 이상한 기호, 텍스트 또는 대/소문자가 혼합 된 예외적인 문자 집합이 포함 됩니다.
+
+  > [!NOTE]
+  > 가장 안전 팁이 해제 된 경우에도 메일 흐름 규칙 (전송 규칙이 라고도 함)을 사용 하 여 메시지에 **X-MS-Exchange-Enablefirstmetytip** 이라는 메시지 헤더를 추가할 수 있습니다. 특정 보안 팁이 표시 되 면 받는 사람이 보낸 사람 으로부터 처음으로 전자 메일을 받을 때 보낸 사람에 게 전자 메일이 전송 되지 않는 경우가 많습니다.
 
 - **사서함 인텔리전스**: 자주 대화 상대와 사용자 전자 메일 패턴을 결정 하는 인공 지능 (인공 지능)을 사용 하거나 사용 하지 않도록 설정 합니다. 이 설정을 사용 하면 이러한 연락처에서 합법적인 전자 메일과 위장 된 메일을 구별할 수 있습니다. 사서함 인텔리전스는 Exchange Online 사서함에 대해서만 사용할 수 있습니다.
 

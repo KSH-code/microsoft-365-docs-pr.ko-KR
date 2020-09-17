@@ -4,21 +4,22 @@ description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: ef2d5c897709e7f7d2484d032b7471031be77d74
-ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
+ms.openlocfilehash: 772d1d52e977a067ff9bc3517de9cb2ae6c8c9a3
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341261"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950370"
 ---
 # <a name="windows-security-update-insights"></a>Windows 보안 업데이트 정보 활용
 이 보기에서는 Microsoft Managed Desktop 장치에 대 한 보안 업데이트 상태에 대 한 개요를 제공 합니다. 
 
 사용 현황 데이터를 보려면 <strong>Windows 보안 업데이트</strong> 탭을 선택 합니다.
 
-![Windows 보안 업데이트 창: 왼쪽 열에 표시 되는 장치 상태 및 업데이트 버전의 막대 그래프, 센터 열에서 시간이 지남에 따라 배포 진행률을 업데이트 하 고, 배포 그룹별 활성 장치 비율 및 95% 배포에 도달 하는 데 소요 되는 일 수를 표시 합니다. 오른쪽 열의 대상입니다.](../../media/update-insights.jpg)
+![Windows 보안 업데이트 창: 왼쪽 열에 있는 장치 상태 및 업데이트 버전의 막대 그래프, center 열에서 시간이 지남에 따라 배포 진행률을 업데이트 하 고, 배포 그룹별 활성 장치 비율 및 오른쪽 열에 95% 배포 대상에 도달 하기 위해 소요 된 일 수를 표시 합니다.](../../media/update-insights.jpg)
 
 ## <a name="device-status"></a>장치 상태
 

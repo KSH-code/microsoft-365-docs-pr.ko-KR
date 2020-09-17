@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용 하 든, 구성 된 설정에 따라 콘텐츠를 자동으로 삭제할지 여부에 관계 없이 콘텐츠 삭제를 모니터링 하 고 관리 합니다.
-ms.openlocfilehash: 5751857f8b3bf0a7f63df73e9bfaa244897bf429
-ms.sourcegitcommit: 4ac96855d7c269a0055ca8943000b762a70ca4ba
+ms.openlocfilehash: 6789ab1abe54b76f22462a47326b07a213f19b0c
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321997"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950392"
 ---
 # <a name="disposition-of-content"></a>콘텐츠 처리
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
 Microsoft 365 준수 센터의 **레코드 관리** 에서 **처리** 탭을 사용 하 여 처리 검토를 관리 하 고 보존 기간이 끝나면 자동으로 삭제 된 [레코드](records-management.md#records) 를 확인 합니다. 
 
@@ -75,7 +75,7 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스 하려면 사용자�
 
 ![레코드 관리 개요에서 보류 중인 dispositions](../media/dispositions-overview.png)
 
-**보류 중인 모든 Dispositions 보기**를 선택 하면 **처리** 페이지로 이동 됩니다. 예를 들어,
+**보류 중인 모든 Dispositions 보기**를 선택 하면 **처리** 페이지로 이동 됩니다. 예시:
 
 ![Microsoft 365 준수 센터의 Dispositions 페이지](../media/disposition-tab.png)
 
@@ -122,9 +122,9 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스 하려면 사용자�
 > [!NOTE]
 > SharePoint 및 OneDrive의 레코드에 대 한 삭제 증명 롤아웃이 완료 되었습니다.
 >
-> Exchange의 레코드에 대 한 삭제 증명은 방금 롤아웃을 시작 했습니다. 이 롤아웃이 완료 되 면이 노트가 업데이트 됩니다.
+> 이 메모를 제거 하는 경우 Exchange에서 레코드를 삭제 하는 롤아웃이 거의 완료 됩니다.
 
-**레코드 관리** 페이지의 **처리** 탭을 사용 하 여 자동으로 또는 처리 검토 후에 삭제 된 레코드를 식별 합니다. 이러한 항목은 **형식** 열에서 **삭제 된 레코드** 를 표시 합니다. 예를 들어,
+**레코드 관리** 페이지의 **처리** 탭을 사용 하 여 자동으로 또는 처리 검토 후에 삭제 된 레코드를 식별 합니다. 이러한 항목은 **형식** 열에서 **삭제 된 레코드** 를 표시 합니다. 예시:
 
 ![처리 검토 없이 삭제 된 항목](../media/records-disposed2.png)
 

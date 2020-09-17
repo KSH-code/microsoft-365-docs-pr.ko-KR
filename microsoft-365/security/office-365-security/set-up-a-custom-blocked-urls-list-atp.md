@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 Advanced Threat Protection을 사용 하 여 조직에 대해 차단 된 Url 목록을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 5f863a3ba61278d0bec5304034ed75d343f93c77
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: f66d447b980cae4a4afbb706f26659c5976bdf37
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656650"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948093"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-atp-safe-links"></a>ATP 안전한 링크를 사용 하 여 차단 된 사용자 지정 Url 목록 설정
 
@@ -85,14 +85,14 @@ ATP 정책을 편집 하거나 정의 하려면 다음 표에 설명 된 역할 
 
 |예제 항목|수행 하는 작업|
 |---|---|
-|`contoso.com` 또는 `*contoso.com*`|는과 같은 도메인, 하위 도메인과 경로를 차단 `https://www.contoso.com` `https://sub.contoso.com` 하며`https://contoso.com/abc`|
-|`https://contoso.com/a`|사이트를 차단 `https://contoso.com/a` 하지만 추가 하위 경로는 제외 합니다.`https://contoso.com/a/b`|
-|`https://contoso.com/a*`|사이트 `https://contoso.com/a` 및 추가 하위 경로를 차단 합니다.`https://contoso.com/a/b`|
+|`contoso.com` 또는 `*contoso.com*`|는과 같은 도메인, 하위 도메인과 경로를 차단 `https://www.contoso.com` `https://sub.contoso.com` 하며 `https://contoso.com/abc`|
+|`https://contoso.com/a`|사이트를 차단 `https://contoso.com/a` 하지만 추가 하위 경로는 제외 합니다. `https://contoso.com/a/b`|
+|`https://contoso.com/a*`|사이트 `https://contoso.com/a` 및 추가 하위 경로를 차단 합니다. `https://contoso.com/a/b`|
 |`https://toys.contoso.com*`|하위 도메인 (이 경우 "장난감")을 차단 하지만 클릭은 다른 도메인 Url (예 `https://contoso.com` , 또는 `https://home.contoso.com` )을 허용 합니다.|
 |
 
 > [!NOTE]
-> 기본적으로 Office 365 ATP 안전한 링크 기본 정책의 차단 된 URL 목록에는 500 Url만 추가할 수 있습니다.
+> 기본적으로 Office 365 ATP 안전한 링크 기본 정책의 차단 된 URL 목록에는 500 Url만 추가할 수 있습니다. 개별 URL은 128 자를 초과할 수 없습니다. 차단 된 전체 URL 목록은 1만 자를 초과할 수 없습니다.
 
 ## <a name="how-to-define-exceptions-for-certain-users-in-an-organization"></a>조직의 특정 사용자에 대 한 예외를 정의 하는 방법
 
