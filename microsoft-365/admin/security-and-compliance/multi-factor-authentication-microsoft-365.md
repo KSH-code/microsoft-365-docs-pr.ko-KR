@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 365의 다단계 인증에 대한 자세한 정보
-ms.openlocfilehash: 71a61c51d2813880cad782d132679fa413ada987
-ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
+ms.openlocfilehash: bca84e949e696b483b567bf5f72233840023abca
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083589"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948715"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Microsoft 365에 대한 다단계 인증 사용
 
@@ -134,7 +134,7 @@ Azure AD ID 보호 기능을 사용하여 [로그인 위험이 중간에서 높�
 
 자세한 내용은 이 [Azure AD ID 보호 개요](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection)를 참조하세요.
 
-### <a name="mfa-for-an-individual-user-account-not-recommended"></a>각 개별 사용자 계정에 대한 MFA(권장 하지 않음)
+### <a name="legacy-per-person-mfa-not-recommended"></a>레거시 사용자 단위 MFA (권장 하지 않음)
 
 사용자 계정 로그인에 MFA를 요구하기 위해 보안 기본값이나 조건부 액세스 정책을 사용해야 합니다. 하지만 둘 다 사용할 수 없는 경우라면 Microsoft는 관리자 권한이 있는 사용자(특히, 모든 구독에 대한 권역 관리자 역할을 가진 사용자)에 MFA를 권장 합니다. 
 
@@ -152,7 +152,7 @@ Microsoft 365 관리 센터의 **활성 사용자** 창에서 개별 사용자 �
 |:-------|:-----|:-------|:-------|
 | **보안 기본값** | 조건부 액세스 정책을 사용할 수 없습니다 |   조건부 액세스 정책을 사용할 수 있습니다 | Microsoft Authenticator 앱 |
 | **조건부 액세스 정책** |이 중 하나가 사용되는 경우 보안 기본값을 사용할 수 없습니다. | 상기 수단을 모두 사용하지 않도록 설정한 경우, MFA 등록 중 사용자가 지정한  | MFA 등록 중 사용자 지정 |
-| **사용자별 계정 설정(권장하지 않음)** | 각 로그인에서 MFA를 요구 하는 보안 기본값과 조건부 액세스 정책을 재정의 합니다. | 보안 기본값과 조건부 액세스 정책에 의해 재정의 | MFA 등록 중 사용자 지정|
+| **레거시 사용자 단위 MFA (권장 하지 않음)** | 각 로그인에서 MFA를 요구 하는 보안 기본값과 조건부 액세스 정책을 재정의 합니다. | 보안 기본값과 조건부 액세스 정책에 의해 재정의 | MFA 등록 중 사용자 지정|
 ||||
 
 보안 기본값을 사용하면 다음 로그인 시 모든 새 사용자에게 MFA 등록 및 Microsoft Authenticator 앱 사용을 요구하는 메시지가 표시됩니다.
@@ -171,4 +171,3 @@ Microsoft 365 관리 센터에서 사용자별 및 서비스 MFA 설정을 구�
 ## <a name="your-next-step"></a>다음 단계
 
 [Microsoft 365 MFA 설정](set-up-multi-factor-authentication.md)
-

@@ -21,12 +21,12 @@ search.appverid:
 - BSA160
 ms.assetid: a91c958f-1279-499d-9959-12f0de08dc8f
 description: SharePoint 작업 사용 보고서를 통해 모든 SharePoint 사용자의 활동, 공유 되는 파일 수 및 저장소 사용률에 대 한 정보를 확인할 수 있습니다.
-ms.openlocfilehash: de4d4951f98e722a3608e9bccf2c4a1dbfc388d0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b0c628300647e83889e273268bef7abd9e337ed4
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387492"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948871"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---sharepoint-activity"></a>관리 센터의 Microsoft 365 보고서-SharePoint 활동
 
@@ -53,7 +53,7 @@ Microsoft 365 관리자 인 **보고서** 대시보드에는 조직의 다양 �
 
 **파일** 및 **사용자** 보기를 확인하여 SharePoint 활동을 볼 수 있습니다.<br/> ![SharePoint Activity Report](../../media/96ee85af-f213-499b-9e2b-22912bd0b8c2.png)
   
-|||
+|항목|설명|
 |:-----|:-----|
 |1.  <br/> |**SharePoint 활동 보고서**에서 지난 7일, 30일, 90일 또는 180일간의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 선택 하는 경우 테이블 (7)은 현재 날짜 로부터 최대 28 일 동안의 데이터를 표시 합니다 (보고서가 생성 된 날짜 아님).  <br/> |
 |2.  <br/> |각 보고서의 데이터는 대개 최근 24 ~ 48 시간까지 포함 됩니다.  <br/> |

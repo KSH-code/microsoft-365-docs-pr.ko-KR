@@ -3,7 +3,7 @@ title: Microsoft 365 네트워크 연결 테스트 (미리 보기)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 09/14/2020
+ms.date: 09/15/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 네트워크 연결 테스트 (미리 보기)
-ms.openlocfilehash: 92bd850c98261df1808219ee1f28c75da370d443
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: 0a5e7831b28488e793488f572fd830d47a0f3f9a
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650032"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948547"
 ---
 # <a name="microsoft-365-network-connectivity-test-preview"></a>Microsoft 365 네트워크 연결 테스트 (미리 보기)
 
@@ -29,6 +29,8 @@ Microsoft 365 네트워크 연결 테스트 도구는에 <https://connectivity.o
 >네트워크 연결 테스트 도구는 WW 상업용 및 독일의 테 넌 트를 지원 하지만 GCC 보통, GCC High, DoD 또는 중국이 아닙니다.
 
 Microsoft 365 관리 센터의 네트워크 insights는 매일 집계 되는 Microsoft 365 테 넌 트에 대 한 일반 제품 측정을 기반으로 합니다. 비교에서는 Microsoft 365 네트워크 연결 테스트의 네트워크 insights가 로컬로 실행 되 고 도구에서 한 번 수행 됩니다. 제품에서 수행할 수 있는 테스트는 제한 되며 사용자에 대 한 로컬 테스트를 실행 하 여 더 많은 데이터를 수집할 수 있습니다. Microsoft 365 관리 센터의 네트워크 insights에서 특정 사무실 위치에 Microsoft 365 사용에 대 한 네트워킹 문제가 있음을 보여 줍니다. Microsoft 365 연결 테스트를 통해 권장 되는 네트워크 성능 개선 작업으로 인해 발생 하는 문제의 근본적인 원인을 확인할 수 있습니다.
+
+![네트워크 연결 테스트 도구](../media/m365-mac-perf/m365-mac-perf-admin-center.png)
 
 Microsoft 365 관리 센터의 각 사무실 위치에 대해 네트워킹 품질 상태를 평가할 수 있으며 Microsoft 365 연결 테스트를 기반으로 테스트를 배포한 후 더 자세한 내용을 확인할 수 있는 방법을 함께 사용 하는 것이 좋습니다.
 
@@ -205,6 +207,28 @@ Microsoft에서 제공 하지 않는 SSL 인증서가 발견 되 면 테스트�
 
 이 섹션에서는 Exchange Online 서비스 전면 도어, SharePoint Online 서비스 전면 도어 및 Microsoft 팀 서비스 전면 도어에 대 한 ICMP traceroute 결과를 보여 줍니다. 정보를 제공 하기 위한 것 이며 연결 된 네트워크 통찰력은 없습니다. 3 개의 traceroutes 제공 됩니다. _Outlook.office365.com_에 대 한 traceroute, 고객 SharePoint 프런트 엔드에 대 한 traceroute 또는 _microsoft.sharepoint.com_ 에 대 한 _traceroute를 제공 합니다._
 
+## <a name="what-happens-at-each-test-step"></a>각 테스트 단계에서 수행 되는 작업
+
+### <a name="office-location-identification"></a>사무실 위치 식별
+
+테스트 실행 단추를 클릭 하면 실행 중인 테스트 페이지가 표시 되 고 사무실 위치를 식별 합니다. 구/군/시, 시/도 및 국가를 기준으로 위치를 입력 하거나 웹 브라우저에서 검색 하도록 설정할 수 있습니다. 검색 한 후에는 웹 브라우저에서 위도 및 경도를 요청 하 고 사용 하기 전에 300m에 따라 정확성을 300m으로 제한 합니다. 네트워크 성능에 대 한 건물 보다 더 정확 하 게 위치를 식별할 필요가 없기 때문에이 작업을 수행 합니다. 
+
+### <a name="javascript-tests"></a>JavaScript 테스트
+
+Office 위치 확인 후 JavaScript에서 TCP 대기 시간 테스트를 실행 하 고 서비스에서 사용 및 권장 되는 Office 365 서비스 전면 도어 서버에 대 한 데이터를 요청 합니다. 완료 되 면 지도에 표시 되 고 다음 단계 이전에 볼 수 있는 세부 정보 탭에 나타납니다.
+
+### <a name="download-the-advanced-tests-client-application"></a>고급 테스트 클라이언트 응용 프로그램 다운로드
+
+다음으로, 고급 테스트 클라이언트 응용 프로그램의 다운로드를 시작 합니다. 사용자가 클라이언트 응용 프로그램을 시작 하는 데 의존 하며 .NET Core도 설치 되어 있어야 합니다.
+
+### <a name="start-the-advanced-tests-client-application"></a>고급 테스트 클라이언트 응용 프로그램 시작
+
+클라이언트 응용 프로그램이 시작 되 면 웹 페이지가 표시 되도록 업데이트 되 고 테스트 데이터가 웹 페이지로 수신 되기 시작 합니다. 새 데이터를 받을 때마다 업데이트 되며 도착 하면 데이터를 검토할 수 있습니다.
+
+### <a name="advanced-tests-completed-and-test-report-upload"></a>고급 테스트가 완료 되었으며 보고서 업로드 테스트
+
+테스트가 완료 되 면 웹 페이지와 고급 테스트 클라이언트가 모두이를 나타내고 테스트 보고서에 로그인 한 사용자가 고객 테 넌 트에 업로드 됩니다.
+
 ## <a name="connectivity-reports"></a>연결 보고서
 
 로그인 한 경우 이전에 실행 한 보고서를 검토할 수 있습니다. 또한 목록에서 공유 하거나 삭제할 수 있습니다.
@@ -224,6 +248,10 @@ Microsoft에서 제공 하지 않는 SSL 인증서가 발견 되 면 테스트�
 ### <a name="is-this-tool-released-and-supported-by-microsoft"></a>이 도구는 Microsoft에서 출시 및 지원 하나요?
 
 현재는 미리 보기 이며 Microsoft의 지원을 통해 일반 가용성 릴리스 상태에 도달할 때까지 정기적으로 업데이트를 제공 하는 계획입니다. 개선에 도움이 되는 의견을 제공 하세요. 테스트 결과를 기준으로 조직에 대해 사용자 지정 된이 도구의 일부로 보다 자세한 Office 365 네트워크 온 보 딩 가이드를 게시할 계획입니다.
+
+### <a name="what-is-required-to-run-the-advanced-test-client"></a>고급 테스트 클라이언트를 실행 하는 데 필요한 사항
+
+고급 테스트 클라이언트에는 .NET Core 3.1 데스크톱 런타임이 필요 합니다. 설치 하지 않고 고급 테스트 클라이언트를 실행 하는 경우에는 [.Net Core 3.1 설치 관리자 페이지로](https://dotnet.microsoft.com/download/dotnet-core/3.1)이동 합니다. 데스크톱 런타임과 SDK가 설치 되어 있지 않거나 해당 페이지에서 위쪽에 있는 ASP.NET 코어 런타임이 있어야 합니다. 컴퓨터에 대 한 관리자 권한이 reuqired .NET Core를 설치 합니다. 
 
 ### <a name="what-is-microsoft-365-service-front-door"></a>Microsoft 365 서비스 전면 도어 란?
 

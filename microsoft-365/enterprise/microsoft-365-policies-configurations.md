@@ -17,12 +17,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: be35663fc32a2d214e1ca0ae91161079a5f672a3
-ms.sourcegitcommit: a13f43a3e981c90f1e0b9805c9c16a56f67fc650
+ms.openlocfilehash: 686d31c64394094530099edb97bbd10912a58cb8
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47651147"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949895"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
@@ -114,8 +114,8 @@ Azure AD는 id 관리 기능을 완벽 하 게 제공 합니다. 이러한 기�
 | [Azure AD 그룹](/azure/active-directory/fundamentals/active-directory-manage-groups) | 조건부 액세스 정책, Intune을 사용한 장치 관리 및 조직의 파일 및 사이트에 대 한 권한이 있는 사용자 계정 또는 Azure AD 그룹에 대 한 할당을 사용 합니다. 구현 하려는 보호 수준에 해당 하는 Azure AD 그룹을 만드는 것이 좋습니다. 예를 들어 경영 직원이 해커의 가치 목표 보다 높은 것을 들 수 있습니다. 따라서 이러한 직원의 사용자 계정을 Azure AD 그룹에 추가 하 고이 그룹을 조건부 액세스 정책 및 액세스를 위해 더 높은 수준의 보호를 적용 하는 기타 정책에 할당 하는 것이 좋습니다. | Microsoft 365 E3 혹은 E5 |
 | [장치 등록](/azure/active-directory/devices/overview) | 장치를 Azure AD에 등록 하 여 장치에 대 한 id를 만듭니다. 이 id는 사용자가 로그인 하 고 도메인에 가입 하거나 준수 하는 Pc가 필요한 조건부 액세스 정책을 적용 하는 데 사용 됩니다. 이 지침에서는 장치 등록을 사용 하 여 도메인에 가입 된 Windows 컴퓨터를 자동으로 등록 합니다. 장치 등록은 Intune을 사용 하 여 장치를 관리 하기 위한 필수 구성 요소입니다. | Microsoft 365 E3 혹은 E5 |
 | [Azure AD ID 보호](/azure/active-directory/identity-protection/overview) | 조직의 id에 영향을 미치는 잠재적인 취약점을 검색 하 고 자동화 된 수정 정책을 낮음, 보통, 높음 로그인 위험 및 사용자 위험에 맞게 구성할 수 있습니다. 이 지침은이 위험 평가에 의존 하 여 다단계 인증에 대 한 조건부 액세스 정책을 적용 합니다. 또한이 지침에는 해당 계정에 대해 높은 위험 활동이 검색 되는 경우 사용자가 암호를 변경 해야 하는 조건부 액세스 정책도 포함 되어 있습니다. | Microsoft 365 E5, Microsoft 365 E3, Id & 위협 방지 추가 기능, EMS E5 또는 Azure Premium P2 라이선스 |
-| [셀프 서비스 암호 재설정 (SSPR)](/azure/active-directory/authentication/concept-sspr-howitworks) | 관리자가 제어할 수 있는 여러 인증 방법에 대 한 확인을 제공 하 여 사용자가 직접 암호를 재설정할 수 있도록 지원 합니다. | Microsoft 365 E3 혹은 E5 |
-| [AZURE AD 암호 보호](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) 알려진 약한 암호와 해당 변형 및 조직과 관련 된 추가 약한 용어를 검색 하 고 차단 합니다. 기본 전역 금지 암호 목록은 Azure AD 테 넌 트의 모든 사용자에 게 자동으로 적용 됩니다. 사용자 지정 금지 된 암호 목록에서 추가 항목을 정의할 수 있습니다. 사용자가 암호를 변경 하거나 다시 설정할 때 이러한 금지 된 암호 목록을 확인 하 여 강력한 암호를 사용 해야 합니다. |  Microsoft 365 E3 혹은 E5 |
+| [SSPR(셀프 서비스 암호 재설정)](/azure/active-directory/authentication/concept-sspr-howitworks) | 관리자가 제어할 수 있는 여러 인증 방법에 대 한 확인을 제공 하 여 사용자가 직접 암호를 재설정할 수 있도록 지원 합니다. | Microsoft 365 E3 혹은 E5 |
+| [Azure AD 암호 보호](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) | 알려진 약한 암호와 해당 변형 및 조직과 관련 된 추가 약한 용어를 검색 하 고 차단 합니다. 기본 전역 금지 암호 목록은 Azure AD 테 넌 트의 모든 사용자에 게 자동으로 적용 됩니다. 사용자 지정 금지 된 암호 목록에서 추가 항목을 정의할 수 있습니다. 사용자가 암호를 변경 하거나 다시 설정할 때 이러한 금지 된 암호 목록을 확인 하 여 강력한 암호를 사용 해야 합니다. |  Microsoft 365 E3 혹은 E5 |
 ||||
 
 ![Id 및 장치 액세스 구성 요소](../media/microsoft-365-policies-configurations/identity-device-access-components.png)

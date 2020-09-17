@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132
 description: 이 문서에는 네트워크 계획, 테스트 및 Office 365 마이그레이션에 대 한 정보에 대 한 링크가 포함 되어 있습니다.
-ms.openlocfilehash: 1e6973f93c65012f4ca007332a47cc6b9e67b3b0
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 2b08b05b8863fd9351510878f9438264bb2999f5
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692845"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948451"
 ---
 # <a name="network-and-migration-planning-for-office-365"></a>Office 365의 네트워크 및 마이그레이션 계획
 
@@ -51,7 +51,7 @@ Office 365을 사용 하면 조직의 인터넷 회로 사용률이 향상 될 �
     
 2. 클라이언트에서 사용할 수 있는 Office 365 서비스 및 기능을 결정 합니다. 다른 서비스 또는 사용 프로필을 가진 사용자 그룹을 사용할 수 있습니다.
     
-3. 파일럿 클라이언트 그룹의 네트워크 사용을 측정 합니다. 파일럿 클라이언트가 각 지리적 위치 뿐 아니라 조직에 있는 각 사용자의 프로필을 대표 하는지 확인 합니다. [Exchange](https://techcommunity.microsoft.com/t5/exchange-team-blog/announcing-the-exchange-client-network-bandwidth-calculator-beta/ba-p/601744) 및 [비즈니스용 Skype](https://go.microsoft.com/fwlink/p/?LinkId=321551) 에 대 한 이전 계산기와 자신의 네트워크에서 수행한 [사례 연구](https://www.microsoft.com/itshowcase/Article/Content/631/Optimizing-network-performance-for-Microsoft-Office-365) 에 대해 결과를 상호 확인할 수 있습니다. 
+3. 파일럿 클라이언트 그룹의 네트워크 사용을 측정 합니다. 파일럿 클라이언트가 각 지리적 위치 뿐 아니라 조직에 있는 각 사용자의 프로필을 대표 하는지 확인 합니다. [Exchange](https://techcommunity.microsoft.com/t5/exchange-team-blog/announcing-the-exchange-client-network-bandwidth-calculator-beta/ba-p/601744) 및 [Microsoft 팀](https://docs.microsoft.com/microsoftteams/prepare-network) 의 이전 계산기와 자체 네트워크에서 수행한 [사례 연구](https://www.microsoft.com/itshowcase/Article/Content/631/Optimizing-network-performance-for-Microsoft-Office-365) 에 대해 결과를 상호 확인할 수 있습니다. 
     
 4. 파일럿 그룹의 측정값을 사용 하 여 전체 조직의 요구 사항을 추정 하 고 다시 테스트 하 여 네트워크를 변경 하기 전 까지의 추정치를 확인 합니다.
     
@@ -94,7 +94,7 @@ Office 365 환경을 개선 하는 방법에 대 한 자세한 내용을 보려�
 
 이러한 항목에는 자세한 Office 365 네트워크 참조 정보가 포함 되어 있습니다.
   
-- [Office 365 끝점 관리](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
+- [Office 365 엔드포인트 관리](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
     
 - [콘텐츠 배달 네트워크](content-delivery-networks.md)
     

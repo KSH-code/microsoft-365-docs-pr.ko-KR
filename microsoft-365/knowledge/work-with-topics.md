@@ -7,16 +7,16 @@ manager: pamgreen
 ms.date: 08/01/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: e4a9917464e22c6220d26619e7b5ca60f090abb7
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 82a1b1990f464a892b8216caa26e0422b093bf37
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612493"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948057"
 ---
 # <a name="work-with-topics-in-the-topic-center-preview"></a>항목 센터의 항목에 대 한 작업 (미리 보기)
 
@@ -70,7 +70,7 @@ ms.locfileid: "46612493"
     c. **간단한 설명** 섹션에서 항목에 대 한 한 가지 또는 두 개의 문장의 설명을 입력 합니다. 이 텍스트는 연결 된 항목 카드에 사용 됩니다.</br>
     d. **사용자** 섹션에서 해당 항목에 대 한 주제별 전문가의 이름을 입력 합니다.</br>
     e. **파일 및 페이지** 섹션에서 **추가** 를 선택 하 고 다음 페이지에서 연결 된 OneDrive 파일 또는 SharePoint Online 페이지를 선택할 수 있습니다.</br>
-    f. **사이트** 섹션에서 **추가**를 선택 합니다. 표시 되는 **사이트** 창에서 항목에 연결 된 사이트를 선택 합니다.</br>
+    f. **사이트** 섹션에서 **추가**를 선택 합니다. 표시 되는  **사이트** 창에서 항목에 연결 된 사이트를 선택 합니다.</br>
 
     ![새 항목 페이지](../media/content-understanding/k-new-topic-page.png) </br>
 3. 페이지에 텍스트, 이미지, 웹 파트, 링크 등의 다른 구성 요소를 추가 해야 하는 경우 페이지 가운데에서 캔버스 아이콘을 선택 하 여 셰이프를 찾아서 추가 합니다.

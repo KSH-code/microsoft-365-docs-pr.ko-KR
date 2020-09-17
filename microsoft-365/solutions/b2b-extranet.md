@@ -15,12 +15,12 @@ ms.custom: ''
 localization_priority: Normal
 f1.keywords: NOCSH
 description: 파트너 조직에서 관리 되는 게스트 사용자가 포함 된 B2B 엑스트라넷 사이트 또는 팀을 만드는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 4f8eb33ad9b41f552975d4158a61ec4cedcfa9cc
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 83252241833f3dfe663cc70eae28a5df1214cce0
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526985"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949387"
 ---
 # <a name="create-a-b2b-extranet-with-managed-guests"></a>관리 대상 게스트와 B2B 엑스트라넷 작성
 
@@ -31,6 +31,12 @@ ms.locfileid: "46526985"
 이 문서에서는 셀프 서비스 액세스 등록 모델을 통해 파트너 조직과 공유할 수 있는 리소스 패키지 (이 경우에는 사이트 또는 팀)를 만드는 단계를 안내 합니다. 
 
 시작 하기 전에 파트너 조직과 공유 하려는 사이트 또는 팀을 만들고 게스트 공유에 대해 사용 하도록 설정 합니다. 자세한 내용은 [사이트에서 게스트와의 공동 작업](collaborate-in-site.md) 또는 [팀의 게스트 공동 작업](collaborate-as-team.md) 을 참조 하세요. 또한 게스트와 공동으로 작업할 때 거 버 넌 스 정책을 유지 관리 하는 데 사용할 수 있는 보안 및 규정 준수 기능에 대 한 정보를 확인 하는 보안 [게스트 공유 환경 만들기](create-secure-guest-sharing-environment.md) 를 검토 하는 것이 좋습니다.
+
+## <a name="license-requirements"></a>라이선스 요구 사항
+
+이 기능을 사용 하려면 Azure AD Premium P2 라이선스가 필요 합니다. 
+
+Azure 전라남도 및 Azure 중국 21Vianet과 같은 특수 클라우드는 현재 사용할 수 없습니다.
 
 ## <a name="video-demonstration"></a>비디오 데모
 
@@ -124,4 +130,3 @@ Access 패키지를 만들려면
 ## <a name="see-also"></a>참고 항목
 
 [보안 게스트 공유 환경 만들기](create-secure-guest-sharing-environment.md)
-

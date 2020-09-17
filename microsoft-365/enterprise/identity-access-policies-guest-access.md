@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: a88fc5f46a6dafda72a24ba5e80587b24a216955
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: c61526139111885ec345bc4a4dd3cd6b147370e6
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546485"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950811"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>게스트 및 외부 B2B 액세스를 허용 하기 위한 정책
 
@@ -55,7 +55,9 @@ B2B 사용자가 Azure AD (Active Directory) 테 넌 트를 사용 하 여 인�
 ### <a name="guests-vs-external-users"></a>게스트 및 외부 사용자
 Azure AD에서 게스트 및 외부 사용자는 동일 합니다. 이러한 두 가지 유형의 사용자는 모두 게스트입니다. 게스트 사용자는 B2B 사용자입니다.
 
-Microsoft 팀은 게스트 사용자와 앱 내의 외부 사용자를 구분 하지만 인증 시 이러한 사용자는 둘 다 됩니다. 팀 게스트 및 외부 사용자에 대 한 자세한 내용은 [팀에 대 한 게스트 및 외부 액세스 활성화](teams-access-policies.md#enabling-guest-and-external-access-for-teams)를 참조 하세요.
+Microsoft 팀은 게스트 사용자와 앱 내의 외부 사용자를 구분 합니다. 게스트 사용자는 Azure AD B2B 계정을 가지 며 팀에 추가할 수 있습니다. 외부 사용자는 통화, 채팅 및 모임에만 참가할 수 있습니다. 자세한 내용은 [팀에 대 한 게스트 및 외부 사용자 간의 비교](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access)를 참조 하세요.
+
+팀에 대 한 id 및 장치 액세스 보안에 대 한 자세한 내용은 [팀 대화방, 그룹 및 파일 보호에 대 한 정책 권장 사항](teams-access-policies.md) 를 참조 하세요.
 
 ### <a name="require-mfa-always-for-guest-and-external-users"></a>게스트 및 외부 사용자에 대 한 MFA 항상 필요
 이 정책은 해당 홈 테 넌 트에서 MFA에 대 한 등록 여부에 관계 없이 테 넌 트에 MFA를 등록 하 라는 메시지를 표시 합니다. 테 넌 트의 리소스에 액세스할 때 게스트 및 외부 사용자는 모든 요청에 대해 MFA를 사용 해야 합니다. 

@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: 동시에 Microsoft 365에 사용자를 추가 하 고 라이선스를 할당 하는 방법에 대해 알아봅니다.
 ms.date: 07/01/2020
-ms.openlocfilehash: 6745285600b6c5a62b4327d7174b2c249ff5276c
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 95f84ead009b7510699e467bf5f12bf32d8097d8
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307376"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948799"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>사용자 추가 및 동시에 라이선스 할당
 
@@ -37,7 +37,7 @@ ms.locfileid: "47307376"
 
 ::: moniker-end
 
-팀 구성원은 각각 사용자 계정을 사용 하 여 [비즈니스용 Microsoft 365](https://go.microsoft.com/fwlink/?LinkID=519395)에 로그인 하 고 액세스할 수 있어야 합니다. 사용자 계정을 추가 하는 가장 쉬운 방법은 Microsoft 365 관리 센터에서 한 번에 하나씩 추가 하는 것입니다. 이 단계를 수행한 후에는 사용자에 게 Microsoft 365 라이선스, 로그인 자격 증명 및 Microsoft 365 사서함이 있습니다.
+팀 구성원은 각각 사용자 계정을 사용 하 여 [비즈니스용 Microsoft 365](https://www.microsoft.com/microsoft-365/business)에 로그인 하 고 액세스할 수 있어야 합니다. 사용자 계정을 추가 하는 가장 쉬운 방법은 Microsoft 365 관리 센터에서 한 번에 하나씩 추가 하는 것입니다. 이 단계를 수행한 후에는 사용자에 게 Microsoft 365 라이선스, 로그인 자격 증명 및 Microsoft 365 사서함이 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -54,7 +54,7 @@ ms.locfileid: "47307376"
 
 ::: moniker range="o365-worldwide"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
+1. <https://admin.microsoft.com> 의 관리 센터로 이동합니다.
 2. **사용자** > **활성 사용자**로 이동 하 여 **사용자 추가**를 선택 합니다.
 3. 기본 **설정** 창에서 기본 사용자 정보를 입력 하 고 **다음**을 선택 합니다.
     - **이름** 성과 이름, 표시 이름 및 사용자 이름을 입력 합니다.
@@ -70,7 +70,7 @@ ms.locfileid: "47307376"
 
 ::: moniker range="o365-germany"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a> 의 관리 센터로 이동합니다.
+1. <https://portal.office.de/adminportal> 의 관리 센터로 이동합니다.
 2. **사용자** > **활성 사용자**로 이동 하 여 **사용자 추가**를 선택 합니다.
 3. **새 사용자** 창에서 다음 정보를 입력 합니다. 작업이 완료 되 면 **추가**를 선택 합니다.
     - **이름** 이름, 성, 표시 이름 및 사용자 이름을 입력합니다.
@@ -84,7 +84,7 @@ ms.locfileid: "47307376"
 
 ::: moniker range="o365-21vianet"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a> 의 관리 센터로 이동합니다.
+1. <https://portal.partner.microsoftonline.cn> 의 관리 센터로 이동합니다.
 2. **사용자** > **활성 사용자**로 이동 하 여 **사용자 추가**를 선택 합니다.
 3. **새 사용자** 창에서 다음 정보를 입력 합니다. 작업이 완료 되 면 **추가**를 선택 합니다.
     - **이름** 이름, 성, 표시 이름 및 사용자 이름을 입력합니다.
@@ -99,7 +99,7 @@ ms.locfileid: "47307376"
 ## <a name="add-multiple-users-at-the-same-time"></a>동시에 여러 사용자 추가
 
 다음 방법 중 하나를 사용 하 여 여러 사용자를 동시에 추가할 수 있습니다.
-  
+
 - **스프레드시트를 사용 하 여 사용자를 대량으로 추가 합니다.** 동시 [에 여러 사용자 추가](https://docs.microsoft.com/microsoft-365/enterprise/add-several-users-at-the-same-time)를 참조 하세요.
 - **계정 추가 및 라이선스 할당을 자동화 합니다.** [Microsoft 365 PowerShell을 사용 하 여 사용자 계정 만들기를](https://docs.microsoft.com/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell)참조 하세요. Windows PowerShell cmdlet을 사용 하는 것이 이미 익숙한 경우이 방법을 선택 합니다.
 - **ActiveDirectory 사용** [Microsoft 365에 대 한 디렉터리 동기화를 설정](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization)합니다. Microsoft 365에서 Azure AD Connect 도구를 사용 하 여 Active Directory 사용자 계정 및 기타 Active Directory 개체를 복제 합니다. 동기화하면 사용자 계정만 추가됩니다. 동기화 된 사용자에 게 라이선스를 할당 해야 전자 메일 및 기타 Office 앱을 사용할 수 있습니다.

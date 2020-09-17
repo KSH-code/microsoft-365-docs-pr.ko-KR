@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-infoprotection
 ms.custom: ''
 description: Microsoft 365 보존 레이블 및 정책을 사용 하 여 Microsoft 365 환경에서 개인 데이터를 관리 합니다.
-ms.openlocfilehash: a7a0d6e00d29d80dfd0cb72ba217177aa6029a2c
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 766995b9c758d4ae8cbf7140fb259d208cfb7771
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522304"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949255"
 ---
 # <a name="govern-information-subject-to-data-privacy-regulation"></a>데이터 개인 정보 규정의 영향을 받는 정보 제어
 
@@ -81,27 +81,13 @@ Microsoft는 개인 정보를 유지 하거나 삭제 하는 법적 및 비즈�
 
 - 환경의 개인 정보 유형을 더 잘 알고 있으면 이러한 유형의 콘텐츠에 대 한 보존 및 삭제 일정을 설정 하 고 정보 아키텍처를 조정 하 여 이러한 유형의 정보를 보다 쉽게 관리할 수 있도록 합니다. 예를 들어 개인 정보를 제어 된 액세스 권한이 있는 별도의 사이트, 라이브러리 또는 폴더에 격리 합니다.
 
-### <a name="retention-policies"></a>보존 정책
+### <a name="retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블
 
-자동으로 적용 되는 사이트의 콘텐츠에 대 한 [보존 정책을](../compliance/retention-policies.md) 만들고 배포 합니다.
-
-개인 데이터를 포함 하거나 포함할 것으로 예상 되는 사이트에 대 한 데이터 개인 정보 보호의 경우 조직 표준에 맞게 보존 또는 삭제 규칙을 지정 합니다.
-
-### <a name="retention-labels"></a>보존 레이블
-
-콘텐츠 및 전자 메일에 대 한 [보존 레이블을](../compliance/labels.md) 만들고 배포 합니다.
-
-개인 데이터를 포함 하거나 포함할 것으로 예상 되는 사이트, 라이브러리, 폴더 및 전자 메일에 대 한 데이터 개인 정보 보호를 위해 자동 보존 또는 삭제 규칙을 지정 하 여 조직 표준을 해결 합니다.
+[보존 정책 및 보존 레이블을](../compliance/retention.md) 사용 하 여 개인 데이터가 포함 되거나 포함 될 것으로 예상 되는 Microsoft 365의 콘텐츠를 보존 하거나 삭제 합니다.
 
 ### <a name="records-management"></a>레코드 관리
 
-레코드 보존 일정과 파일 계획에 따라 레코드 관리를 위한 보존 레이블을 만들고 배포 합니다.
+Microsoft 365의 데이터에 대 한 [레코드 관리 솔루션](../compliance/records-management.md) 을 구현 하기 위해 콘텐츠 a 레코드를 선언 하는 보존 레이블을 사용 합니다.
 
-데이터 개인 정보 보호를 위해 법률 부서에서 수신 된 dsr (데이터 주체 요청)은 레코드로 선언 되며 무제한 저장 되어 규정 활동 보존 사양을 준수 합니다.
+데이터 개인 정보 보호를 위해 법률 부서에서 수신 된 dsr (데이터 주체 요청)은 레코드로 선언 되며, 해당 활동 보존 사양을 준수 하기 위해 증거에 무기한으로 저장 하거나 삭제할 수 있습니다.
 
-자세한 내용은 다음 리소스를 참조 하세요. 
-
-- [레코드 관리](../compliance/records-management.md)
-- [파일 플랜 관리자](../compliance/file-plan-manager.md)
-- [레코드 관리에 대 한 이벤트 기반 보존](../compliance/automate-event-driven-retention.md)
-- [콘텐츠 처리](../compliance/disposition-reviews.md)

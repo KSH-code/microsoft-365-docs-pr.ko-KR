@@ -13,12 +13,12 @@ ms.assetid: e150e7b9-c432-4c8d-a0ae-c11847129a7d
 f1.keywords:
 - NOCSH
 description: Exchange 2010는 지원 종료에 거의 도달 했습니다. 이 계획 로드맵을 사용 하 여 Exchange Online으로의 업그레이드를 준비 하거나 Exchange Server 온-프레미스의 새 버전으로 업그레이드할 수 있습니다.
-ms.openlocfilehash: a22d94cf554db87e6281946eebbcbf637b4a0c1a
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 128abd1e98c3e9d1ec4dd8a58683ee0ab019af18
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692831"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950823"
 ---
 # <a name="exchange-2010-end-of-support-roadmap"></a>Exchange 2010 지원 종료 로드맵
 
@@ -28,12 +28,11 @@ ms.locfileid: "46692831"
 
 ## <a name="what-does-end-of-support-mean"></a>지원이 끝나는 것은 무엇을 의미 하나요?
 
-Exchange 서버에는 거의 모든 Microsoft 제품과 마찬가지로 새로운 기능, 버그 수정, 보안 픽스 등을 제공 하는 지원 주기가 있습니다. 일반적으로이 수명 주기는 제품 초기 릴리스 날짜 로부터 10 년 동안 지속 되며이 주기의 끝은 제품의 지원 종료 라고 합니다.
-Exchange 2010가 2020 년 10 월 13 일에 지원 종료에 도달 하면 더 이상 다음이 제공 되지 않습니다.
+Exchange 서버에는 거의 모든 Microsoft 제품과 마찬가지로 새로운 기능, 버그 수정, 보안 픽스 등을 제공 하는 지원 주기가 있습니다. 일반적으로이 수명 주기는 제품 초기 릴리스 날짜 로부터 10 년 동안 지속 되며이 주기의 끝은 제품의 지원 종료 라고 합니다. Exchange 2010가 2020 년 10 월 13 일에 지원 종료에 도달 하면 더 이상 다음이 제공 되지 않습니다.
 
 - 발생할 수 있는 문제에 대 한 기술 지원
 - 검색 된 문제와 서버의 안정성 및 유용성에 영향을 줄 수 있는 문제에 대 한 버그 수정
-- 검색 되 고 서버에서 보안 위반에 취약 해질 수 있는 취약성에 대 한 보안 수정 사항
+- 검색 되어 서버에서 보안 위반에 취약 해질 수 있는 취약성에 대 한 보안 수정
 - 표준 시간대 업데이트
 
 이 날짜 후에도 Exchange 2010 설치가 계속 실행 됩니다. 그러나 위에 나열 된 변경 사항으로 인해 가능한 한 빨리 Exchange 2010에서 마이그레이션하는 것이 좋습니다.
@@ -67,16 +66,16 @@ Exchange 2010이 지원 종료에 도달 하면이를 통해 옵션을 살펴보
 Exchange 2010 배포를 중지 하는 데 도움이 되는 가장 간단 하 고 간단한 옵션은 전자 메일을 Microsoft 365로 마이그레이션하는 것입니다. Microsoft 365로 마이그레이션하는 경우 이전 기술과의 단일 홉을 사용 하 여 다음과 같은 최신 기능을 사용할 수 있습니다.
 
 - 보존 정책, 현재 위치, 소송 보존, 원본 위치 eDiscovery 등의 규정 준수 기능
-- Microsoft 팀
-- Power BI;
-- 중요 받은 편지함;
+- Microsoft Teams
+- Power BI
+- 중요 받은 편지함
 - MyAnalytics
 
 Microsoft 365 역시 새로운 기능과 환경을 제공 하며, 사용자는 일반적으로 이러한 기능을 즉시 사용 하 여 시작할 수 있습니다. 새 기능 외에도 다음에 대해 걱정할 필요가 없습니다.
 
 - 하드웨어 구입 및 유지 관리
 - 서버 과열 및 냉각에 대 한 비용 지불
-- 보안, 제품 및 표준 시간대 수정 사항에 대해 최신 상태를 유지 합니다.
+- 보안, 제품 및 표준 시간대 수정 사항에 대해 최신 상태로 유지
 - 준수 요구 사항을 지원 하기 위해 저장소 및 소프트웨어 유지 관리
 - 새 버전의 Exchange로 업그레이드 하는 경우 Microsoft 365에서 항상 최신 Exchange 버전을 사용 하 고 있습니다.
 
@@ -84,11 +83,11 @@ Microsoft 365 역시 새로운 기능과 환경을 제공 하며, 사용자는 �
 
 조직에 따라 Microsoft 365에 액세스 하는 데 도움이 되는 몇 가지 옵션이 제공 됩니다. 마이그레이션 옵션을 선택할 때는 이동 해야 하는 좌석 또는 사서함 수, 마이그레이션에 소요 되는 시간, 마이그레이션 중에 온-프레미스 설치와 Microsoft 365 간에 원활한 통합이 필요한 지 여부 등 몇 가지 사항을 고려해 야 합니다. 이 표에서는 사용 하는 방법을 결정 하는 가장 중요 한 몇 가지 요소 및 마이그레이션 옵션을 보여 줍니다.
 
-| **마이그레이션 옵션**     | **조직 크기** | **기간**        |
-|--------------------------|-----------------------|---------------------|
-| 단독형 마이그레이션        | 좌석 150 개 미만  | 1 주 이내      |
-| 최소 하이브리드 마이그레이션 | 좌석 150 개 미만  | 몇 주 이내 또는 그 밖의 경우 |
-| 전체 하이브리드 마이그레이션    | 150 개 이상   | 몇 주 이상 |
+|마이그레이션 옵션|조직 크기|기간|
+|---|---|---|
+|단독형 마이그레이션|좌석 150 개 미만|1 주 이내|
+|최소 하이브리드 마이그레이션|좌석 150 개 미만|몇 주 이내 또는 그 밖의 경우|
+|전체 하이브리드 마이그레이션|150 개 이상|몇 주 이상|
 
 다음 섹션에서는 이러한 방법의 개요를 제공 합니다. 자세한 내용은 [마이그레이션 경로를 결정](https://support.office.com/article/Decide-on-a-migration-path-0d4f2396-9cef-43b8-9bd6-306d01df1e27) 하 여 각 방법에 대 한 세부 정보를 확인 하세요.
 
@@ -107,12 +106,12 @@ Microsoft 365 역시 새로운 기능과 환경을 제공 하며, 사용자는 �
 - 마이그레이션을 시작 하는 시간과 완료 단계를 시작할 때 사이에 microsoft 365에서는 주기적으로 Microsoft 365 및 온-프레미스 사서함을 동기화 합니다. 이를 통해 온-프레미스 사서함에 남아 있는 전자 메일을 걱정 하지 않고 마이그레이션을 완료할 수 있습니다.
 - 사용자가 처음으로 사서함에 로그인 할 때 변경 해야 하는 Microsoft 365 계정에 대 한 새로운 임시 암호를 받게 됩니다.
 - 마이그레이션하려는 각 사용자 사서함에 대해 Exchange Online을 포함 하는 Microsoft 365 라이선스가 필요 합니다.
-- 사용자가 각 장치에서 새 Outlook 프로필을 설정 하 고 전자 메일을 다시 다운로드 해야 합니다. Outlook에서 다운로드 하는 전자 메일의 양은 다를 수 있습니다. 자세한 내용은 [오프 라인으로 유지할 메일 양 변경](https://support.office.com/article/Change-how-much-mail-to-keep-offline-f3a1251c-6dd5-4208-aef9-7c8c9522d633?ui=en-US&rs=en-US&ad=US&fromAR=1)정보를 확인 하세요.
+- 사용자가 각 장치에서 새 Outlook 프로필을 설정 하 고 전자 메일을 다시 다운로드 해야 합니다. Outlook에서 다운로드 하는 전자 메일의 양은 다를 수 있습니다. 자세한 내용은 [Outlook에서 오프 라인으로 작업](https://support.microsoft.com/office/f3a1251c-6dd5-4208-aef9-7c8c9522d633)을 참고 하세요.
 
 간단한 마이그레이션에 대해 자세히 알아보려면 다음을 확인 하세요.
 
-- [Office 365로의 전자 메일 마이그레이션에 대해 알아야 할 사항](https://support.office.com/article/What-you-need-to-know-about-a-cutover-email-migration-to-Office-365-961978ef-f434-472d-a811-1801733869da)
-- [Office 365에 전자 메일을 간편 하 게 마이그레이션 수행](https://support.office.com/article/Perform-a-cutover-migration-of-email-to-Office-365-9496e93c-1e59-41a8-9bb3-6e8df0cd81b4)
+- [전자 메일 마이그레이션에 대해 알아야 할 사항](https://docs.microsoft.com/Exchange/mailbox-migration/what-to-know-about-a-cutover-migration)
+- [Office 365에 전자 메일을 간편 하 게 마이그레이션 수행](https://docs.microsoft.com/Exchange/mailbox-migration/cutover-migration-to-office-365)
 
 ### <a name="minimal-hybrid-migration"></a>최소 하이브리드 마이그레이션
 
@@ -127,19 +126,19 @@ Microsoft 365 역시 새로운 기능과 환경을 제공 하며, 사용자는 �
 - 마이그레이션하려는 각 사용자 사서함에 대해 Exchange Online을 포함 하는 Microsoft 365 라이선스가 필요 합니다.
 - 사용자가 대부분의 장치에서 새 Outlook 프로필을 설정할 필요는 없지만 일부 이전 Android 휴대폰에는 새 프로필이 필요할 수 있으므로 전자 메일을 다시 다운로드할 필요가 없습니다.
 
-최소 하이브리드 마이그레이션에 대해 자세히 알아보려면 [최소한의 하이브리드 사용을 살펴보고 Exchange 사서함을 Office 365로 신속 하 게 마이그레이션해야](https://support.office.com/article/Use-Minimal-Hybrid-to-quickly-migrate-Exchange-mailboxes-to-Office-365-fdecceed-0702-4af3-85be-f2a0013937ef) 합니다.
+최소 하이브리드 마이그레이션에 대해 자세히 알아보려면 [최소한의 하이브리드 사용을 살펴보고 Exchange 사서함을 Office 365로 빠르게 마이그레이션해야](https://docs.microsoft.com/Exchange/mailbox-migration/use-minimal-hybrid-to-quickly-migrate)합니다.
 
 ### <a name="full-hybrid"></a>전체 하이브리드
 
 전체 하이브리드 마이그레이션은 조직이 수백, 수천 개까지 사서함을 갖고 있으며 이러한 중 일부 또는 전체를 Microsoft 365로 이동 하려는 경우를 예로 들 수 있습니다. 이러한 마이그레이션은 일반적으로 더 길기 때문에 하이브리드 마이그레이션을 사용 하면 다음과 같은 작업을 수행할 수 있습니다.
 
-- 온-프레미스 사용자에 게 Microsoft 365의 사용자에 대 한 약속 있음/없음 일정 정보를 표시 하 고 그 반대의 경우도 마찬가지입니다.
+- Microsoft 365의 사용자에 대 한 약속 있음/없음 일정 정보를 온-프레미스 사용자에 게 표시 하 고 그 반대의 경우도 마찬가지입니다.
 - 온-프레미스와 Microsoft 365 둘 다에 받는 사람이 포함 된 통합 전체 주소 목록을 확인 합니다.
 - 온-프레미스에 있는지, 아니면 Microsoft 365에 있든 관계 없이 모든 사용자에 대 한 전체 Outlook 받는 사람 속성을 볼 수 있습니다.
-- TLS 및 인증서를 사용 하 여 온-프레미스 Exchange 서버와 Office 365 간의 보안 전자 메일 통신
+- TLS 및 인증서를 사용 하 여 온-프레미스 Exchange 서버와 Office 365 간의 전자 메일 통신을 보호 합니다.
 - 온-프레미스 Exchange 서버와 Microsoft 365 간에 전송 되는 메시지를 내부로 취급 하 여 다음과 같은 기능을 사용할 수 있습니다.
-- 내부 메시지를 대상으로 하는 전송 및 준수 에이전트로 올바르게 평가 및 처리 해야 합니다.
-- 스팸 방지 필터를 무시 합니다.
+  - 내부 메시지를 대상으로 하는 전송 및 준수 에이전트로 올바르게 평가 및 처리 해야 합니다.
+  - 스팸 방지 필터를 무시 합니다.
 
 전체 하이브리드 마이그레이션은 여러 달 이상의 하이브리드 구성에 유지 해야 하는 조직에 가장 적합 합니다. 이 섹션의 앞부분에 나와 있는 기능 및 디렉터리 동기화, 향상 된 통합 준수 기능 및 온라인 사서함 이동을 사용 하 여 Microsoft 365에서 사서함을 이동 하는 기능을 확인할 수 있습니다. Microsoft 365은 온-프레미스 조직의 확장이 됩니다.
 
@@ -157,10 +156,10 @@ Microsoft 365 역시 새로운 기능과 환경을 제공 하며, 사용자는 �
 전체 하이브리드 마이그레이션이 적절 하 게 재생 되는 경우 마이그레이션에 도움이 되는 다음 리소스를 확인 하세요.
 
 - [Exchange 배포 도우미](https://aka.ms/exdeploy)
-- [Exchange Server 하이브리드 배포](https://technet.microsoft.com/library/jj200581%28v=exchg.150%29.aspx)
-- [하이브리드 구성 마법사](https://technet.microsoft.com/library/hh529921%28v=exchg.150%29.aspx)
-- [하이브리드 구성 마법사 FAQ](https://technet.microsoft.com/library/mt488940%28v=exchg.150%29.aspx)
-- [하이브리드 배포 필수 구성 요소](https://technet.microsoft.com/library/hh534377%28v=exchg.150%29.aspx)
+- [Exchange Server 하이브리드 배포](https://docs.microsoft.com/exchange/exchange-hybrid)
+- [하이브리드 구성 마법사](https://docs.microsoft.com/exchange/hybrid-configuration-wizard)
+- [하이브리드 구성 마법사 FAQ](https://docs.microsoft.com/exchange/hybrid-configuration-wizard-faqs)
+- [하이브리드 배포 필수 구성 요소](https://docs.microsoft.com/exchange/hybrid-deployment-prerequisites)
 
 ## <a name="upgrade-to-a-newer-version-of-exchange-server-on-premises"></a>새 버전의 Exchange Server 온-프레미스로 업그레이드
 
@@ -170,60 +169,60 @@ Microsoft 365로 완벽 하 게 마이그레이션을 통해 최상의 가치와
 
 Exchange 2016에는 이전 버전의 Exchange에 포함 된 모든 기능 및 향상 된 기능이 포함 되어 있으며, 일부 기능은 Microsoft 365 에서만 사용할 수 있지만 Microsoft 365에서 제공 되는 환경과 가장 밀접 하 게 일치 합니다. 누락 된 항목을 몇 개만 확인 하세요.
 
-| **Exchange 릴리스**                     | **기능**                                                                                                                                                                                                                                         |
-|------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Exchange 2013                            | 간소화 된 아키텍처 서버 역할 수를 3 개 (사서함, 클라이언트 액세스, Edge 전송)로 줄이기                                                                                                                                        |
-|                                          | 중요 한 정보의 누출을 방지 하는 데 도움이 되는 DLP (데이터 손실 방지 정책)                                                                                                                                                                |
-|                                          | 대폭 향상 된 Outlook Web App 환경                                                                                                                                                                                                    |
-| Exchange 2016                            | *Exchange 2013의 기능 및 ...*                                                                                                                                                                                                                   |
-|                                          | 사서함 및 Edge 전송에만 해당 하는 보다 간단한 서버 역할                                                                                                                                                                                   |
-|                                          | SharePoint와의 통합과 함께 DLP 개선                                                                                                                                                                                                  |
-|                                          | 향상 된 데이터베이스 복구 기능                                                                                                                                                                                                                         |
-|                                          | 온라인 문서 공동 작업                                                                                                                                                                                                                        |
+|Exchange 릴리스|기능|
+|---|---|
+|**Exchange 2013**|간소화 된 아키텍처 서버 역할 수를 3 개 (사서함, 클라이언트 액세스, Edge 전송)로 줄이기|
+||중요 한 정보의 누출을 방지 하는 데 도움이 되는 DLP (데이터 손실 방지 정책)|
+||대폭 향상 된 Outlook Web App 환경|
+|**Exchange 2016**|*Exchange 2013의 기능 및 ...*|
+||사서함 및 Edge 전송에만 해당 하는 보다 간단한 서버 역할|
+||SharePoint와의 통합과 함께 DLP 개선|
+||향상 된 데이터베이스 복구 기능|
+||온라인 문서 공동 작업|
 
-| **있다는**                        | **추가 정보**                                                                                                                                                                                                                                        |
-|------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 지원 날짜 종료                     | Exchange 2010와 마찬가지로 각 Exchange 버전의 지원 종료 날짜는 다음과 같습니다.                                                                                                                                                                        |
-|                                          | **Exchange 2013** -2023 년 4 월                                                                                                                                                                                                                       |
-|                                          | **Exchange 2016** -2025 년 10 월                                                                                                                                                                                                                     |
-|                                          | 지원 날짜가 끝나면 이전에 다른 마이그레이션을 수행 해야 합니다. 4 월 2023은 생각 보다 훨씬 더 가깝습니다.                                                                                                                 |
-| Exchange 2013 또는 2016의 마이그레이션 경로  | Exchange 2013 또는 Exchange 2016을 선택할 때 Exchange 2010에서 새 버전으로의 마이그레이션 경로는 동일 합니다.                                                                                                                              |
-|                                          | 기존 Exchange 2010 조직에 Exchange 2013 또는 2016을 설치 하 고 Exchange 2013 또는 2016에 사서함 및 공용 폴더를 exchange 2013 또는 2016 서비스 해제 남은 Exchange 2010 서버로 이동 합니다.  |
-| 버전 동시 사용                      | Exchange 2013 또는 Exchange 2016로 마이그레이션할 때 기존 Exchange 2010 조직에 두 버전을 모두 설치할 수 있습니다. 이를 통해 하나 이상의 Exchange 2013 또는 Exchange 2016 서버를 설치 하 고 마이그레이션을 수행할 수 있습니다.             |
-| 서버 하드웨어                          | 서버 하드웨어 요구 사항이 Exchange 2010에서 변경 되었습니다. 사용할 하드웨어가 호환 되는지 확인 해야 합니다. 각 버전의 하드웨어 요구 사항에 대 한 자세한 내용은 여기에서 확인할 수 있습니다.                                      |
-|                                          | [Exchange 2016 시스템 요구 사항](https://technet.microsoft.com/library/aa996719%28v=exchg.160%29.aspx)                                                                                                                                      |
-|                                          | [Exchange 2013 시스템 요구 사항](https://technet.microsoft.com/library/aa996719%28v=exchg.150%29.aspx)                                                                                                                                      |
-|                                          | Exchange 성능이 크게 개선 되 고, 컴퓨팅 파워 및 저장 용량이 최신 서버에 더 많이 제공 되는 경우 동일한 사서함 수를 지원 하기 위한 서버 수가 더 적어집니다.                       |
-| 운영 체제 버전                 | 각 버전에 대해 지원 되는 최소 운영 체제 버전은 다음과 같습니다.                                                                                                                                                                                |
-|                                          | **Exchange 2016** Windows Server 2012                                                                                                                                                                                                                |
-|                                          | **Exchange 2013** Windows Server 2008 R2 SP1                                                                                                                                                                                                         |
-|                                          | 운영 체제 지원에 대 한 자세한 내용은 [Exchange 지원 가능성 매트릭스](https://technet.microsoft.com/library/ff728623%28v=exchg.150%29.aspx)를 확인할 수 있습니다.                                                                        |
-| Active Directory 포리스트 기능 수준 | 각 버전에 대해 지원 되는 최소 Active Directory 포리스트 기능 수준은 다음과 같습니다.                                                                                                                                                                |
-|                                          | **Exchange 2016** Windows Server 2008 R2 SP1                                                                                                                                                                                                         |
-|                                          | **Exchange 2013** Windows Server 2003                                                                                                                                                                                                                |
-|                                          | [Exchange 지원 가능성 매트릭스](https://technet.microsoft.com/library/ff728623%28v=exchg.150%29.aspx)에서 포리스트 기능 수준 지원에 대 한 자세한 정보를 확인할 수 있습니다.                                                                 |
-| Office 클라이언트 버전                   | 각 버전에 대해 지원 되는 최소 Office 클라이언트 버전은 다음과 같습니다.                                                                                                                                                                                   |
-|                                          | **Exchange 2016** Office 2010 (최신 업데이트 포함)                                                                                                                                                                                              |
-|                                          | **Exchange 2013** Office 2007 SP3                                                                                                                                                                                                                    |
-|                                          | Office 클라이언트 지원에 대 한 자세한 내용은 [Exchange 지원 가능성 매트릭스](https://technet.microsoft.com/library/ff728623%28v=exchg.150%29.aspx)를 확인할 수 있습니다.                                                                           |
+|있다는|추가 정보|
+|---|---|
+|지원 날짜 종료|Exchange 2010와 마찬가지로 각 Exchange 버전의 지원 종료 날짜는 다음과 같습니다.|
+||**Exchange 2013** -2023 년 4 월|
+||**Exchange 2016** -2025 년 10 월|
+||지원 날짜가 끝나면 이전에 다른 마이그레이션을 수행 해야 합니다. 4 월 2023은 생각 보다 훨씬 더 가깝습니다.|
+|Exchange 2013 또는 2016의 마이그레이션 경로|Exchange 2013 또는 Exchange 2016을 선택할 때 Exchange 2010에서 새 버전으로의 마이그레이션 경로는 동일 합니다.|
+||기존 Exchange 2010 조직에 Exchange 2013 또는 2016을 설치 하 고 Exchange 2013 또는 2016에 사서함 및 공용 폴더를 exchange 2013 또는 2016 서비스 해제 남은 Exchange 2010 서버로 이동 합니다.|
+|버전 동시 사용|Exchange 2013 또는 Exchange 2016로 마이그레이션할 때 기존 Exchange 2010 조직에 두 버전을 모두 설치할 수 있습니다. 이를 통해 하나 이상의 Exchange 2013 또는 Exchange 2016 서버를 설치 하 고 마이그레이션을 수행할 수 있습니다.|
+|서버 하드웨어|서버 하드웨어 요구 사항이 Exchange 2010에서 변경 되었습니다. 사용할 하드웨어가 호환 되는지 확인 해야 합니다. 각 버전의 하드웨어 요구 사항에 대 한 자세한 내용은 여기에서 확인할 수 있습니다.|
+||[Exchange 2016 시스템 요구 사항](https://docs.microsoft.com/Exchange/plan-and-deploy/system-requirements?view=exchserver-2016)|
+||[Exchange 2013 시스템 요구 사항](https://docs.microsoft.com/Exchange/exchange-2013-system-requirements-exchange-2013-help)|
+||Exchange 성능이 크게 개선 되 고, 컴퓨팅 파워 및 저장 용량이 최신 서버에 더 많이 제공 되는 경우 동일한 사서함 수를 지원 하기 위한 서버 수가 더 적어집니다.|
+|운영 체제 버전|각 버전에 대해 지원 되는 최소 운영 체제 버전은 다음과 같습니다.|
+||**Exchange 2016** Windows Server 2012|
+||**Exchange 2013** Windows Server 2008 R2 SP1|
+||운영 체제 지원에 대 한 자세한 내용은 [Exchange 지원 가능성 매트릭스](https://docs.microsoft.com/exchange/plan-and-deploy/supportability-matrix)를 확인할 수 있습니다.|
+|Active Directory 포리스트 기능 수준|각 버전에 대해 지원 되는 최소 Active Directory 포리스트 기능 수준은 다음과 같습니다.|
+||**Exchange 2016** Windows Server 2008 R2 SP1|
+||**Exchange 2013** Windows Server 2003|
+||[Exchange 지원 가능성 매트릭스](https://docs.microsoft.com/exchange/plan-and-deploy/supportability-matrix)에서 포리스트 기능 수준 지원에 대 한 자세한 정보를 확인할 수 있습니다.|
+|Office 클라이언트 버전|각 버전에 대해 지원 되는 최소 Office 클라이언트 버전은 다음과 같습니다.|
+||**Exchange 2016** Office 2010 (최신 업데이트 포함)|
+||**Exchange 2013** Office 2007 SP3|
+||Office 클라이언트 지원에 대 한 자세한 내용은 [Exchange 지원 가능성 매트릭스](https://docs.microsoft.com/exchange/plan-and-deploy/supportability-matrix)를 확인할 수 있습니다.|
 
 마이그레이션에 도움이 되는 다음 리소스를 사용할 수 있습니다.
 
 - [Exchange 배포 도우미](https://aka.ms/exdeploy)
-- Exchange [2016](https://technet.microsoft.com/library/bb738144%28v=exchg.160%29.aspx), [2013](https://technet.microsoft.com/library/bb738144%28v=exchg.150%29.aspx) 에 대 한 Active Directory 스키마 변경 사항
-- Exchange [2016](https://technet.microsoft.com/library/aa996719%28v=exchg.160%29.aspx), [2013](https://technet.microsoft.com/library/aa996719%28v=exchg.150%29.aspx) 에 대 한 시스템 요구 사항
-- Exchange [2016](https://technet.microsoft.com/library/bb691354%28v=exchg.160%29.aspx), [2013](https://technet.microsoft.com/library/bb691354%28v=exchg.150%29.aspx) 의 필수 구성 요소
+- Exchange [2016](https://docs.microsoft.com/exchange/plan-and-deploy/active-directory/ad-schema-changes?view=exchserver-2016), [2013](https://docs.microsoft.com/Exchange/exchange-2013-active-directory-schema-changes-exchange-2013-help) 에 대 한 Active Directory 스키마 변경 사항
+- Exchange [2016](https://docs.microsoft.com/exchange/plan-and-deploy/system-requirements?view=exchserver-2016), [2013](https://docs.microsoft.com/Exchange/exchange-2013-system-requirements-exchange-2013-help) 에 대 한 시스템 요구 사항
+- Exchange [2016](https://docs.microsoft.com/exchange/plan-and-deploy/prerequisites?view=exchserver-2016), [2013](https://docs.microsoft.com/Exchange/exchange-2013-prerequisites-exchange-2013-help) 의 필수 구성 요소
 
 ## <a name="summary-of-options-for-office-2010-client-and-servers-and-windows-7"></a>Office 2010 클라이언트 및 서버 및 Windows 7의 옵션 요약
 
 Office 2010 클라이언트 및 서버와 Windows 7에 대한 업그레이드, 마이그레이션 및 클라우드 옵션으로 이동에 대한 시각적 요약은 [지원 종료 포스터](../downloads/Office2010Windows7EndOfSupport.pdf)를 참조하세요.
 
-[![Office 2010 클라이언트 및 서버와 Windows 7에 대한 지원 종료 포스터 이미지](../media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
+[![Office 2010 클라이언트 및 서버와 Windows 7에 대한 지원 종료 포스터 이미지](../media/microsoft-365-overview/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
 
 이 한 페이지 포스터를 통해 Office 2010 클라이언트 및 서버 제품과 Windows 7의 지원 종료를 방지하는 다양한 방법을 빠르게 살펴보고 Microsoft 365 Enterprise에서 기본적으로 사용되는 경로와 옵션을 집중적으로 알 수 있습니다.
 
-이 포스터를 [다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)하고 편지형, 법률문서형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
-      
+이 포스터를 [다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Office2010Windows7EndOfSupport.pdf)하고 편지형, 법률문서형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
+
 ## <a name="what-if-i-need-help"></a>도움이 필요한 경우 어떻게 하나요?
 
 Microsoft 365로 마이그레이션하는 경우 Microsoft FastTrack 서비스를 사용할 수 있는 자격이 있을 수 있습니다. FastTrack은 최상의 방법, 도구 및 리소스를 제공 하 여 Microsoft 365로 마이그레이션을 최대한 원활 하 게 진행 합니다. 무엇 보다도, 마지막 사서함 마이그레이션에 대 한 모든 방법을 계획 및 디자인에서 안내 하는 실제 지원 엔지니어가 제공 됩니다. FastTrack에 대해 자세히 알아보려면 [Microsoft FastTrack](https://fasttrack.microsoft.com/)을 확인 하세요.

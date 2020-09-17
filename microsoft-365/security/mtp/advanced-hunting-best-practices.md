@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 3ca475ef6dbdbd66af47216c4130d748788730c2
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 2259158c566223c39a6b533483551f95c2fa0824
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419135"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949303"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>고급 헌팅 쿼리 모범 사례
 
@@ -31,7 +31,12 @@ ms.locfileid: "47419135"
 
 이러한 권장 사항을 적용 하 여 결과를 더 빠르게 얻고 복잡 한 쿼리를 실행 하는 동안 시간 제한을 방지 합니다. 쿼리 성능을 개선하는 방법에 대한 자세한 내용은 [Kusto 쿼리 모범 사례](https://docs.microsoft.com/azure/kusto/query/best-practices)를 참조하세요.
 
-## <a name="general-guidance"></a>일반 지침
+## <a name="understand-cpu-resource-limits"></a>CPU 리소스 제한 이해
+각 테 넌 트의 크기에 따라 고급 구하기 쿼리를 실행 하는 데 할당 된 CPU 리소스 집합에 액세스할 수 있습니다. 다양 한 서비스 제한에 대 한 자세한 내용은 [고급 구하기 제한](advanced-hunting-limits.md)정보를 참조 하세요.
+
+정기적으로 여러 쿼리를 실행 하는 고객은 사용을 추적 하 고이 문서의 최적화 지침을 적용 하 여 제한을 초과 하 여 발생 하는 혼란을 최소화 해야 합니다.
+
+## <a name="general-optimization-tips"></a>일반 최적화 팁
 
 - **크기 새 쿼리**-쿼리가 큰 결과 집합을 반환 하는 것으로 의심 되는 경우에는 [count 연산자](https://docs.microsoft.com/azure/data-explorer/kusto/query/countoperator)를 사용 하 여 먼저 쿼리를 평가 합니다. 결과 집합이 커지지 않도록 [제한](https://docs.microsoft.com/azure/data-explorer/kusto/query/limitoperator) 또는 해당 동의어 `take` 를 사용 합니다.
 - **필터 적용 초기 단계**-특히 변환 및 구문 분석 함수 (예: [substring ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/substringfunction), [replace ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/replacefunction), [trim ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/trimfunction), [toupper (](https://docs.microsoft.com/azure/data-explorer/kusto/query/toupperfunction)) 또는 [parse_json)](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction)를 사용 하기 전에 데이터 집합을 줄이기 위한 시간 필터 및 기타 필터를 적용 합니다. 아래 예제에서는 필터링 연산자가 레코드 수를 낮춘 후 구문 분석 함수 [extractjson ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractjsonfunction) 을 사용 합니다.
@@ -255,9 +260,7 @@ SHA256,MalwareFilterVerdict,MalwareDetectionMethod
 
 ## <a name="related-topics"></a>관련 항목
 - [Kusto 쿼리 언어 설명서](https://docs.microsoft.com/azure/data-explorer/kusto/query/)
+- [서비스 제한](advanced-hunting-limits.md)
+- [고급 구하기 오류 처리](advanced-hunting-errors.md)
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
-- [쿼리 결과 작업](advanced-hunting-query-results.md)
-- [공유 쿼리 사용](advanced-hunting-shared-queries.md)
-- [기기, 전자 메일, 앱 및 ID를 검색합니다.](advanced-hunting-query-emails-devices.md)
-- [스키마의 이해](advanced-hunting-schema-tables.md)

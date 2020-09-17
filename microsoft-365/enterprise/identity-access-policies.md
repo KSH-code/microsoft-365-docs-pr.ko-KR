@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 8c4b136f30da0499b31102683f1a903e71813142
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 1512ba01f78d901177254fce86d0154e97e36496
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547228"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950799"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
 
@@ -35,6 +35,10 @@ ms.locfileid: "47547228"
 
 [ ![ Id 및 장치 액세스를 구성 하기 위한 일반 정책](../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png) 
  [더 큰 버전의 이미지를 참조 하세요](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png) .
+
+다음은 개별 정책에 대 한 링크를 포함 하는 한 페이지 PDF 요약입니다.
+
+[![Microsoft 365 유인물의 Id 및 장치 보호를 위한 축소판 그림](../media/microsoft-365-policies-configurations/MSFT-cloud-architecture-identity-device-protection-handout.png)](../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) <br/>  [PDF](../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) \| 로 보기 [PDF로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf)  
 
 이 문서의 나머지 부분에서는 이러한 정책을 구성 하는 방법에 대해 설명 합니다. 
 
@@ -374,7 +378,6 @@ Intune에서 준수 정책을 만드는 방법에 대 한 단계별 지침은 In
 
 ## <a name="next-step"></a>다음 단계
 
-![3 단계: 게스트 및 외부 사용자에 대 한 정책](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-3.png)
-
+[![3 단계: 게스트 및 외부 사용자에 대 한 정책](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-3.png)](identity-access-policies-guest-access.md)
 
 [게스트 및 외부 사용자에 대 한 정책 권장 사항에 대해 자세히 알아보기](identity-access-policies-guest-access.md)

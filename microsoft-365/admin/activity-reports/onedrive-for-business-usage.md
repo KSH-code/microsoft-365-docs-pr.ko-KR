@@ -22,12 +22,12 @@ search.appverid:
 - ODB160
 ms.assetid: 0de3b312-c4e8-4e4b-a02d-32b2f726a680
 description: '비즈니스용 OneDrive 사용 현황 보고서를 다운로드 하 여 조직 전체에서 사용 되는 총 파일 및 저장소 수를 확인할 수 있습니다. '
-ms.openlocfilehash: 33c319961adc02ba5b8c937bd14626461bbb7200
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: e08dff4e763479afa197377d37e474384492c012
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560402"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948920"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-usage"></a>관리 센터의 Microsoft 365 보고서-비즈니스용 OneDrive 사용 현황
 
@@ -51,7 +51,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
   
 ![OneDrive Usage Report](../../media/49c5b93b-d081-436e-8992-236343a6d46b.png)
   
-|||
+|항목|설명|
 |:-----|:-----|
 |1.  <br/> |**OneDrive 사용 현황** 보고서는 지난 7일, 30일, 90일 또는 180일간의 추세를 보여 줍니다. 그러나 보고서에서 특정 날짜를 선택 하는 경우 테이블 (7)은 현재 날짜 로부터 최대 28 일 동안의 데이터를 표시 합니다 (보고서가 생성 된 날짜 아님).  <br/> |
 |2.  <br/> |각 보고서의 데이터는 대개 최근 24 ~ 48 시간까지 포함 됩니다. <br/>|

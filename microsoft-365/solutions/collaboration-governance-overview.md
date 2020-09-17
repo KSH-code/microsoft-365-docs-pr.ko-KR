@@ -14,12 +14,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Microsoft 365 그룹, 팀, SharePoint 및 Yammer에서 관련 기능을 제어 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: cdef9a4f939c20b34bf32efb5a258deddd885d0e
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: b217dc089eb150d01eed9cd720b2caa290d54bf1
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662737"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950715"
 ---
 # <a name="overview-of-collaboration-governance-in-microsoft-365"></a>Microsoft 365의 공동 작업 관리 개요
 
@@ -108,16 +108,16 @@ IT 설계자가 Microsoft 365의 그룹에 대해 알아야 하는 점
 
 Microsoft 365 그룹의 주요 사항 및 새로운 혁신 기능에 대 한 자세한 내용은 확장성, 효율적인 사용 및 채택을 위한 모범 사례 및 셀프 서비스에 대 한 정보를 포함 합니다.
 
-- [Microsoft 365 그룹 도입](https://myignite.techcommunity.microsoft.com/sessions/81553)
+- [Microsoft 365 그룹 도입](https://www.youtube.com/watch?v=dAamBF1gb7M)
 
 **거버넌스**
 
 그룹 만료 수명 주기, 이름 지정 정책, 분류 레이블, 외부 게스트와의 공동 작업, 그룹 만들기 권한 관리 등을 설정 하는 방법에 대해 알아봅니다.
 
-- [공동 작업을 변환 하 고 Office 365 그룹으로 섀도 사용](https://myignite.techcommunity.microsoft.com/sessions/81554)
+- [공동 작업을 변환 하 고 Office 365 그룹으로 섀도 사용](https://www.youtube.com/watch?v=Bhf_bKx3lAg)
 
 **고객 예**
 
 전체 공동 작업 플랫폼을 제공 하기 위해 Microsoft 365 그룹, SharePoint, 팀 및 Yammer가 함께 작동 하는 방식에 대 한 배후의 예를 참조 하세요.
 
-- [Office 365 그룹, SharePoint, 팀 및 Yammer를 사용 하 여 공동 작업 찾기](https://myignite.techcommunity.microsoft.com/sessions/84289)
+- [Office 365 그룹, SharePoint, 팀 및 Yammer를 사용 하 여 공동 작업 찾기](https://www.youtube.com/watch?v=Rx9eVwqXeQk)

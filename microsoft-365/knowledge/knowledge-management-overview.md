@@ -6,17 +6,17 @@ manager: pamgreen
 ms.date: 8/1/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Project Cortex의 지식 관리에 대 한 개요입니다.
-ms.openlocfilehash: 6ced55e8886c08219d7296e2709a2ffc2f09078d
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 80750ee94248b21b8ac7bd3869830a7986de34b9
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612599"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949375"
 ---
 # <a name="knowledge-management-0verview-preview"></a>지식 관리 0verview (Preview)
 
@@ -81,6 +81,6 @@ Microsoft 365 관리 센터의 관리 컨트롤을 사용 하 여 지식 네트�
 
 
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 [지식 관리 설정](set-up-knowledge-network.md)</br>
 [항목 센터 개요](topic-center-overview.md)

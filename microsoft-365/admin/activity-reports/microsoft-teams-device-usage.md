@@ -1,5 +1,5 @@
 ---
-title: 관리 센터의 microsoft 365 보고서-Microsoft 팀 장치 사용 현황
+title: Microsoft Teams 장치 사용 현황
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 917b3e1d-203e-4439-8539-634e80196687
 description: Microsoft 365 보고서를 통해 마이크로소프트의 앱 사용 현황 보고서를 가져와 조직에서 사용 되는 Microsoft 팀 앱에 대 한 정보를 습득 합니다.
-ms.openlocfilehash: c2070f13c790f2a66c5849e68fc2fe3579ffa3e3
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 9c96f4fce962b49081cc93ff802b1e2bc250ec98
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387721"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949111"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>관리 센터의 microsoft 365 보고서-Microsoft 팀 장치 사용 현황
 
@@ -48,7 +48,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
   
 ![Microsoft 365 보고서-Microsoft 팀 앱 사용 현황](../../media/de35c4de-76b4-4109-a806-66774665499b.png)
   
-|||
+|항목|설명|
 |:-----|:-----|
 |1.  <br/> |**Microsoft Teams 장치 사용** 보고서에서 지난 7일, 30일, 90일 또는 180일간의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 선택 하는 경우 테이블 (7)은 현재 날짜 로부터 최대 28 일 동안의 데이터를 표시 합니다 (보고서가 생성 된 날짜 아님).  <br/> |
 |2.  <br/> |각 보고서의 데이터는 대개 최근 24 ~ 48 시간까지 포함 됩니다.  <br/> |

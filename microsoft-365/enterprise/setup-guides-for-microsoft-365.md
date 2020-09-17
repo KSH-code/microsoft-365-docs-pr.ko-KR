@@ -3,7 +3,7 @@ title: Microsoft 365 및 Office 365 서비스용 설정 가이드
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/15/2020
+ms.date: 09/15/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
 description: 설치 가이드를 사용 하 여 Microsoft 365 또는 Office 365의 계획 및 구성을 가속화 합니다.
-ms.openlocfilehash: 2f2c398a3e807b3859cf8f53f63a0ac908ba2683
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 879942d75f37a7984dad8f4ac5dc99933b3988f4
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692464"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949741"
 ---
 # <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Microsoft 365 및 Office 365 서비스용 설정 가이드
 
@@ -51,7 +51,7 @@ Microsoft 365 및 Office 365 설치 가이드에서는 앱 및 서비스를 배�
 
 ## <a name="how-do-setup-guides-work-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 설정 가이드는 어떻게 작동 하나요?
 
-각 가이드에서는 구성을 변경 하는 데 사용할 수 있는 스크립트, 리소스, 문서 및 필요에 따라 단계별 지침을 제공 합니다. 이러한 가이드에서는 소규모 및 대규모 orgs에 대 한 특정 요구 사항을 반영 하는 선택 항목을 제공 합니다. 또한 제공 되는 지침에는 신규 및 숙련 된 관리자 모두에 대 한 지원이 포함 되어 있습니다.
+각 가이드에서는 구성을 변경 하는 데 사용할 수 있는 스크립트, 리소스, 문서 및 필요에 따라 단계별 지침을 제공 합니다. 이러한 가이드에서는 중소 조직과 대규모 조직의 특정 요구를 반영 하는 선택 항목을 제공 합니다. 또한 제공 되는 지침에는 신규 및 숙련 된 관리자 모두에 대 한 지원이 포함 되어 있습니다.
 
 ![설정 가이드의 예](../media/setup-guides-for-microsoft-365/m365-setupguide-example.png)
 
@@ -90,11 +90,11 @@ Windows 가상 데스크톱은 클라우드에서 실행 되는 종합적인 데
 
 [Windows Virtual Desktop 설정 가이드](https://aka.ms/wvdsetupguide) 에서는 관리자에 게 배포, 설치 지침 및 추가 리소스에 대 한 계획 리소스와 필수 구성 요소를 제공 합니다. 
 
-## <a name="guides-for-security"></a>보안 가이드
+## <a name="guides-for-authentication-and-access"></a>인증 및 액세스 가이드
 
 ### <a name="azure-ad-setup-guide"></a>Azure AD 설정 가이드
 
-[AZURE AD 설정 가이드](https://aka.ms/aadpguidance) 에서는 조직에 강력한 보안 파운데이션이 있는지 확인 하는 정보를 제공 합니다. 이 가이드에서는 관리자를 위한 azure AD (역할 기반 액세스 제어), Azure FS (온-프레미스 디렉터리에 연결) 및 Azure AD Connect Health와 같은 초기 기능을 설정 하 여 자동화 된 동기화 중에 하이브리드 id의 상태를 모니터링할 수 있도록 합니다. 
+[AZURE AD 설정 가이드](https://aka.ms/aadpguidance) 에서는 조직이 강력한 보안 토대를 갖도록 하기 위한 정보를 제공 합니다. 이 가이드에서는 관리자를 위한 azure AD (역할 기반 액세스 제어), Azure FS (온-프레미스 디렉터리에 연결) 및 Azure AD Connect Health와 같은 초기 기능을 설정 하 여 자동화 된 동기화 중에 하이브리드 id의 상태를 모니터링할 수 있도록 합니다. 
 
 또한 셀프 서비스 암호 재설정, 조건부 액세스 및 통합 된 타사 로그인 (선택적 고급 ID 보호, 사용자 프로비저닝 자동화 포함)에 대 한 필수 정보도 포함 되어 있습니다.
 
@@ -103,6 +103,18 @@ Windows 가상 데스크톱은 클라우드에서 실행 되는 종합적인 데
 사용자가 Windows Hello for Business, Microsoft Authenticator 앱 또는 보안 키와 같은 passwordless 인증 방법 중 하나를 사용 하 여 장치에 안전 하 게 액세스할 수 있도록 하는 다른 로그인 방식으로 업그레이드 합니다. 
 
 [Passwordless less 배포 마법사](https://aka.ms/passwordlesssetup) 를 사용 하 여 사용할 최선의 passwordless 인증 방법을 검색 하 고 배포 방법에 대 한 지침을 받습니다. 
+
+### <a name="plan-your-self-service-password-reset-deployment"></a>셀프 서비스 암호 재설정 배포 계획
+
+사용자가 자신의 계정이 잠겨 있는 경우 암호를 개별적으로 변경 하거나 다시 설정할 수 있도록 하 고, 헬프데스크 엔지니어에 게 연락 하지 않고 암호를 잊어버린 경우 
+
+사용자의 환경에 SSPR을 배포 하는 데 도움이 되도록 [셀프 서비스 암호 다시 설정 배포 마법사](https://aka.ms/SSPRSetupGuide) 에서 적절 한 Azure portal 옵션을 구성 하는 관련 문서와 지침을 확인할 수 있습니다.
+
+### <a name="active-directory-federation-services-ad-fs-deployment-advisor"></a>AD FS (Active Directory Federation Services) 배포 관리자
+
+[AD FS 배포 관리자](https://aka.ms/adfsguidance) 는 Microsoft 365 및 Office 365 서비스용 사용자를 인증 하는 온-프레미스 AD FS 인프라를 배포 하는 방법에 대 한 단계별 지침을 제공 합니다. 이 가이드를 사용 하 여 조직에서 AD FS 구성 요소와 요구 사항을 검토 하 고, 배포에 필요한 SSL 인증서를 취득 및 설치 하 고, 필요한 웹 응용 프로그램 프록시 서버를 설치할 수 있습니다. 
+
+## <a name="guides-for-security-and-compliance"></a>보안 및 규정 준수 가이드
 
 ### <a name="microsoft-defender-advanced-threat-protection-atp-advisor"></a>Microsoft Defender ATP (Advanced Threat Protection) advisor
 
@@ -121,31 +133,39 @@ Microsoft EOP (Exchange Online Protection)는 메시징 정책 위반 으로부�
 
 [Office 365 Advanced Threat Protection advisor](https://aka.ms/oatpsetup) 는 환경에서 전자 메일 메시지, 링크 및 타사 공동 작업 도구를 통해 발생할 수 있는 악의적인 위협 으로부터 조직을 보호 합니다. 이 가이드에서는 조직의 요구에 맞게 advanced threat protection 계획을 준비 하 고 식별 하는 데 도움이 되는 리소스와 정보를 제공 합니다. 
 
-### <a name="active-directory-federation-services-ad-fs-deployment-advisor"></a>AD FS (Active Directory Federation Services) 배포 관리자
+### <a name="microsoft-information-protection-setup-guide"></a>Microsoft information protection 설정 가이드
 
-[AD FS 배포 관리자](https://aka.ms/adfsguidance) 는 Microsoft 365 및 Office 365 서비스용 사용자를 인증 하는 온-프레미스 AD FS 인프라를 배포 하는 방법에 대 한 단계별 지침을 제공 합니다. 이 가이드를 사용 하 여 조직에서 AD FS 구성 요소와 요구 사항을 검토 하 고, 배포에 필요한 SSL 인증서를 취득 및 설치 하 고, 필요한 웹 응용 프로그램 프록시 서버를 설치할 수 있습니다. 
+중요 한 정보를 보호할 수 있도록 정보 보호 전략에 적용할 수 있는 기능에 대 한 개요를 확인 하세요. 중요 한 정보를 검색, 분류, 보호 및 모니터링 하는 4 단계 수명 주기 방식을 사용 합니다. [Microsoft information protection 설정 가이드](https://aka.ms/mipsetupguide) 에서는 이러한 각 단계를 완료 하기 위한 지침을 제공 합니다.
+
+### <a name="microsoft-information-governance-setup-guide"></a>Microsoft 정보 거 버 넌 스 설정 가이드
+
+[Microsoft Information 거 버 넌 스 설치 가이드](https://aka.ms/migsetupguide) 는 조직의 거 버 넌 스 전략을 설정 및 관리 하는 데 필요한 정보를 제공 하 여 사용자가 설정한 특정 수명 주기 지침에 따라 데이터를 분류 하 고 관리할 수 있도록 합니다. 이 가이드를 사용 하 여 조직에서 다시 사용할 수 있는 콘텐츠 및 준수 레코드에 적용 되는 레이블, 레이블 정책 및 보존 정책을 작성, 자동 적용 또는 게시 하는 방법에 대해 알아봅니다. 또한 대량 시나리오를 위한 파일 요금제로 CSV 파일을 가져오거나 개별 문서에 수동으로 적용 하기 위한 정보도 볼 수 있습니다. 
 
 ## <a name="guides-for-collaboration"></a>공동 작업용 가이드
 
-### <a name="microsoft-365-apps-for-enterprise-deployment-advisor"></a>엔터프라이즈 배포 관리자를 위한 Microsoft 365 앱
+### <a name="microsoft-365-apps-deployment-advisor"></a>Microsoft 365 Apps 배포 관리자
 
 [Microsoft 365 Apps 배포 관리자](https://aka.ms/OPPquickstartguide) 는 Word, Excel, PowerPoint 및 OneNote와 같은 최신 버전의 Office 제품을 실행 하는 사용자의 장치를 제공 하는 데 도움을 줍니다. 관리 도구를 사용 하 여 엔터프라이즈 배포에 간편 하 게 설치할 수 있는 옵션이 포함 된 다양 한 배포 방법에 대 한 지침을 얻을 수 있습니다. 지침은 환경을 평가 하 고, 특정 배포 요구 사항을 파악 하 고, 필요한 지원 도구를 구현 하 여 성공적인 설치를 보장 하는 데 도움이 됩니다. 
 
-### <a name="mobile-apps-setup-assistant"></a>모바일 앱 설정 도우미
+### <a name="office-mobile-apps-setup-assistant"></a>Office 모바일 앱 설정 도우미
 
-[모바일 앱 설정 도우미](https://aka.ms/officeappguidance) 는 Windows, IOS 및 Android 모바일 장치에 Office 앱을 다운로드 하 고 설치 하기 위한 지침을 제공 합니다. 이 가이드에서는 휴대폰 및 태블릿 장치에 Microsoft 365 및 Office 365 앱을 다운로드 하 고 설치 하는 단계별 정보를 제공 합니다.
+[Office 모바일 앱 설치 도우미](https://aka.ms/officeappguidance) 는 Windows, IOS 및 Android 모바일 장치에 office 앱을 다운로드 하 고 설치 하기 위한 지침을 제공 합니다. 이 가이드에서는 휴대폰 및 태블릿 장치에 Microsoft 365 및 Office 365 앱을 다운로드 하 고 설치 하는 단계별 정보를 제공 합니다.
 
 ### <a name="microsoft-teams-setup-guide"></a>Microsoft 팀 설정 가이드
 
 [Microsoft 팀 설정 가이드](https://aka.ms/teamsguidance) 에서는 조직에서 팀과 개인 통신에 대 한 메시징, 통화, 오디오 또는 비디오 회의를 통해 실시간 대화를 호스트 하는 팀 작업 영역을 설정할 수 있는 지침을 제공 합니다. 팀 관리 센터 내에서 Network Planner 도구 및 팀 관리자를 사용 하 여 조직의 네트워크 요구 사항을 확인 하기 위한 지침을 받을 수 있습니다. 배포가 완료 되 면 팀을 사용 하 여 시작 하기 위한 유용한 리소스가 가이드에 포함 됩니다.
 
-### <a name="sharepoint-deployment-advisor"></a>SharePoint 배포 관리자
+### <a name="sharepoint-setup-guide"></a>SharePoint 설정 가이드
 
-[Sharepoint 배포 관리자](https://aka.ms/spoguidance) 는 sharepoint 문서 저장 및 콘텐츠 관리를 설정 하 고, 사이트를 만들고, 외부 공유를 구성 하 고, 데이터를 마이그레이션하고, 고급 설정을 구성 하는 데 도움이 됩니다. 콘텐츠 공유 권한 정책을 구성 하는 단계를 따르고, 마이그레이션 동기화 도구를 선택 하 고, SharePoint 환경에 대 한 보안 설정을 사용 하도록 설정 합니다. 
+[Sharepoint 설정 가이드](https://aka.ms/spoguidance) 에서는 sharepoint 문서 저장 및 콘텐츠 관리를 설정 하 고, 사이트를 만들고, 외부 공유를 구성 하 고, 데이터를 마이그레이션하고, 고급 설정을 구성 하 고, 조직 내에서 사용자 계약 및 통신을 구동 하는 데 도움이 됩니다. 콘텐츠 공유 권한 정책을 구성 하는 단계를 따르고, 마이그레이션 동기화 도구를 선택 하 고, SharePoint 환경에 대 한 보안 설정을 사용 하도록 설정 합니다. 
 
-### <a name="onedrive-quick-start-guide"></a>OneDrive 빠른 시작 가이드
+### <a name="onedrive-setup-guide"></a>OneDrive 설정 가이드
 
 Onedrive [설정 가이드](https://aka.ms/ODfBquickstartguide) 를 사용 하 여 onedrive 파일 저장, 공유, 공동 작업 및 동기화 기능을 시작 합니다. OneDrive에서는 사용자가 Microsoft 365 앱 파일을 동기화 하 고, 외부 공유를 구성 하 고, 사용자 데이터를 마이그레이션하고, 고급 보안 및 장치 액세스 설정을 구성할 수 있는 중앙 위치를 제공 합니다. Onedrive 설정 가이드는 OneDrive 구독 또는 독립 실행형 OneDrive 계획을 사용 하 여 배포할 수 있습니다. 
+
+### <a name="yammer-deployment-advisor"></a>Yammer 배포 관리자
+
+Yammer를 사용 하 여 조직 전체에 연결 하 고 참여 합니다. [Yammer 배포 관리자](https://aka.ms/yammerdeploymentguide) 는 도메인을 추가 하 고 관리자를 정의 하 고 yammer 네트워크를 결합 하 여 yammer 네트워크를 준비 합니다. Yammer를 배포 하 고, 디자인을 사용자 지정 하 고, 보안 및 규정 준수를 구성 하 고, 설정을 구체화 하기 위한 지침을 볼 수 있습니다.
 
 ## <a name="advanced-wizards"></a>고급 마법사
 
@@ -156,6 +176,12 @@ Windows 7 및 Windows 8.1 장치를 최신 버전의 Windows 10으로 업그레�
 ### <a name="deploy-office-to-your-users"></a>사용자에 게 Office 배포
 
 Office 배포 도구를 사용 하 여 설치를 사용자 지정 하는 기능을 사용 하 여 클라우드에서 Office 앱을 배포 합니다. [사용자에 게 Office 배포 가이드](https://aka.ms/proplusodt) 에서는 고급 설정을 사용 하 여 사용자 지정 된 Office 구성을 만들거나 미리 작성 된 권장 구성을 사용할 수 있습니다. 사용자가 자동 설치를 수행 하 고 있거나 사용자에 게 개별적으로 또는 대량으로 배포 하 고 있는지 여부에 관계 없이이 고급 마법사는 사용자에 게 조직에 맞게 구성 된 Office 설치를 제공 하는 단계별 지침을 제공 합니다.
+
+### <a name="deploy-office-to-remote-users"></a>원격 사용자에 게 Office 배포
+
+원격으로 작업 하는 것은 정상 이기 때문에 사용자가 내부 네트워크에 연결 되어 있지 않거나 자체 장치를 사용할 때 조직의 Office 설정을 받아야 합니다. 
+
+[Office to 원격 사용자 가이드](https://aka.ms/officeremoteinstall) 를 사용 하 여 사용자 지정 된 office 설치를 만든 다음 사용자에 게 구성 하 여 office를 원활 하 게 설치 하는 데 사용할 수 있는 생성 된 PowerShell 스크립트를 보냅니다.
 
 ### <a name="deploy-and-update-microsoft-365-apps-with-configuration-manager"></a>Configuration Manager를 사용 하 여 Microsoft 365 앱 배포 및 업데이트
 

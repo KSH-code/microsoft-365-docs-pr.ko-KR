@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: c2ce12a2-934f-4dd4-ba65-49b02be4703d
 description: Exchange Online에 연결 하는 전자 메일 앱 및 사용자가 사용 중인 Outlook 버전에 대 한 정보를 확인 하기 위해 전자 메일 앱 사용 현황 보고서를 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: bfd8a911652283685486202203d0302479a8270e
-ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
+ms.openlocfilehash: c6ee72390f0b9e9ead0f07c41d64bf5b7264fc1b
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45005761"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948247"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---email-apps-usage"></a>관리 센터의 Microsoft 365 보고서-전자 메일 앱 사용 현황
 
@@ -46,7 +46,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
   
 ![사용 되는 전자 메일 클라이언트](../../media/2a775e46-750f-4fa6-8197-de4b24614bd7.png)
   
-|||
+|항목|설명|
 |:-----|:-----|
 |1.  <br/> |**전자 메일 앱 사용 현황** 보고서는 지난 7 일, 30 일, 90 일 또는 180 일 동안의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 선택 하는 경우 테이블 (7)은 현재 날짜 로부터 최대 28 일 동안의 데이터를 표시 합니다 (보고서가 생성 된 날짜 아님).  <br/> |
 |2.  <br/> |각 보고서의 데이터는 대개 최근 24 ~ 48 시간까지 포함 됩니다.  <br/> |

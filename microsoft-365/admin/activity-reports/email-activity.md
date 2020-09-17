@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1cbe2c00-ca65-4fb9-9663-1bbfa58ebe44
 description: Microsoft 365 관리 센터에서 Microsoft 365 보고서 대시보드를 사용 하 여 전자 메일 활동 보고서를 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: a864b997d607b06391c1a2a5d4725bc8d074de87
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b2b322fe7e35c3fa7e4a5966919321b329004d92
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387780"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948235"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---email-activity"></a>관리 센터의 Microsoft 365 보고서-전자 메일 활동
 
@@ -48,7 +48,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
   
 ![전자 메일 활동 보고서](../../media/2317f03d-2d71-46bf-a5c7-d94dbc8cfbe1.png)
   
-|||
+|항목|설명|
 |:-----|:-----|
 |1.  <br/> |**전자 메일 활동** 보고서에서 지난 7일, 30일, 90일 또는 180일간의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 선택 하는 경우 테이블 (7)은 현재 날짜 로부터 최대 28 일 동안의 데이터를 표시 합니다 (보고서가 생성 된 날짜 아님).  <br/> |
 |2.  <br/> |각 보고서의 데이터는 대개 최근 24 ~ 48 시간까지 포함 됩니다.  <br/> |

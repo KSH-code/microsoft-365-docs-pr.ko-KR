@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 관리 센터에서 중앙 집중식 배포에 대해 자주 묻는 질문에 대 한 대답을 검토 합니다.
-ms.openlocfilehash: b1b5ccbb5373bf5d536208efdfe487bc0c872f25
-ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
+ms.openlocfilehash: 555496f15663b6607ebc785498bdc94b5e51b9c9
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "45102887"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948691"
 ---
 # <a name="centralized-deployment-faq"></a>중앙 집중식 배포 FAQ
 
@@ -94,8 +94,10 @@ ms.locfileid: "45102887"
     
 ## <a name="which-admin-role-do-i-need-to-manage-add-ins-for-my-organization"></a>조직에 대 한 추가 기능을 관리 하는 데 필요한 관리자 역할은 무엇입니까?  
 
-전역 관리자 역할을 사용 하 여 추가 기능을 관리 해야 합니다. Microsoft 365 for business 구독을 구매한 사용자는 전역 관리자입니다. 
+전역 관리자는 추가 기능 관리 수명 주기를 완벽 하 게 액세스 하는 데 권장 되는 역할입니다. 다른 관리자 역할은 추가 기능 배포 수명 주기에 대 한 제한 된 액세스 권한이 있습니다. Microsoft 365 for business 구독을 구매한 사용자는 전역 관리자입니다. 
  
 구독에는 조직의 다른 사용자에 게 할당할 수 있는 관리자 역할 집합이 제공 됩니다. 각 관리자 역할은 일반 비즈니스 기능에 매핑되며 조직의 사용자에 게 Microsoft 365 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여 합니다.  
  
 자세한 내용은 [관리자 역할 할당](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide)을 참조 하십시오.  
+
+

@@ -6,17 +6,17 @@ manager: pamgreen
 ms.date: 8/1/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: 항목 센터에서 사용자에 게 작업을 수행할 수 있는 권한을 부여 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 2b7c745146b0386ff7f8bc2dcaf126a530b77598
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: b920c6e444eda7b33b8ec71e1bfa4d3ee5b220b6
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612575"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949729"
 ---
 # <a name="give-user-permissions-to-the-topic-center-preview"></a>항목 센터에 사용자 권한 부여 (미리 보기)
 

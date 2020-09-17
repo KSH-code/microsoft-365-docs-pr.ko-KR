@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: beffbe01-ce2d-4614-9ae5-7898868e2729
 description: 사용자 사서함을 사용 하 여 사용자의 활동을 파악 하기 위해 사서함 사용 현황 보고서를 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: 15da09574b2273e119ba9cf2c132d2e9596e9a64
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 0b0c57bda813e1600866513df86b7c973dcdffdc
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387684"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949135"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---mailbox-usage"></a>관리 센터의 Microsoft 365 보고서-사서함 사용량
 
@@ -44,7 +44,7 @@ ms.locfileid: "44387684"
 
 **사서함**, **저장소** 및 **할당량** 차트에서 조직의 **사서함 사용량**을 볼 수 있습니다. 
   
-|||
+|항목|설명|
 |:-----|:-----|
 |1.  <br/> |**사서함 사용량** 보고서에서 지난 7일, 30일, 90일 또는 180일간의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 선택 하는 경우 표에는 현재 날짜 로부터 최대 28 일까 지에 대 한 데이터 (보고서가 생성 된 날짜가 아님)가 표시 됩니다.  <br/> |
 |2.  <br/> |각 보고서의 데이터는 대개 최근 24 ~ 48 시간까지 포함 됩니다.  <br/> |

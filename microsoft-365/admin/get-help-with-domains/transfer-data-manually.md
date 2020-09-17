@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
 description: 계획 또는 회사 이름을 변경 했을 때 두 Microsoft 365 계정 간에 데이터를 수동으로 전송 하거나 여러 구독을 하나로 결합 하는 방법을 알아봅니다.
-ms.openlocfilehash: 91ea4140f0460e1f8cc1243f1b5f203738dcc9ee
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 1297e2d55692262be55b166dacc56cb89cc6c8a0
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685513"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948727"
 ---
 # <a name="transfer-data-manually-between-two-accounts"></a>두 계정 간에 데이터를 수동으로 전송
 
@@ -106,3 +106,7 @@ Microsoft 365에서 호스트 되는 공개 웹 사이트가 있는 경우이를
 ### <a name="onedrive-for-business-data"></a>비즈니스용 OneDrive 데이터:
 
 사용자에 게 [비즈니스용 OneDrive 콘텐츠를 컴퓨터에](https://support.microsoft.com/office/59b1de2b-519e-4d3a-8f45-51647cf291cd)복사/동기화 하도록 요청 하 고 새 구독에 다시 추가 합니다.
+
+### <a name="onenote"></a>OneNote 
+
+사용자에 게 [OneNote](https://support.microsoft.com/office/back-up-notes-f58b34b0-611d-435e-87fa-7942a1767af4?ui=en-us&rs=en-us&ad=us) 를 백업 하 고 [백업에서](https://support.microsoft.com/en-us/office/restore-notes-from-a-backup-5daf9cb0-6769-4998-a5de-f044fdd0d831?ui=en-us&rs=en-us&ad=us) 새 구독으로 메모를 복원 하도록 요청 합니다.

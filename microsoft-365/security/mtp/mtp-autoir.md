@@ -18,19 +18,19 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: c45b7d1b01ee776e9519d67ee52d36b8f48bf0ef
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: 9fc4c99254f4f27b476930a555b237be093bff24
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552357"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950727"
 ---
 # <a name="automated-investigation-and-response-capabilities-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 자동화 된 조사 및 응답 기능
 
 **적용 대상:**
 - Microsoft Threat Protection
 
-보안 알림이 트리거되면 해당 경고를 확인 하 고 조직을 보호 하기 위한 단계를 수행 하는 보안 운영 팀이 진행 됩니다. 조사가 진행되는 동안 새 경고를 계속해서 받는 경우 경고 우선 순위를 설정하고 검사하는 것은 매우 시간이 오래 걸릴 수 있습니다. 보안 운영 팀은 모니터링하고 방어해야 하는 많은 위협 요소를 통해 압도될 수 있습니다. Microsoft Threat Protection의 자동화 된 조사 및 응답 기능 ( *자동 복구* 기능이 라고도 함)이 도움이 될 수 있습니다. 
+보안 알림이 트리거되면 해당 경고를 확인 하 고 조직을 보호 하기 위한 단계를 수행 하는 보안 운영 팀이 진행 됩니다. 조사가 진행되는 동안 새 경고를 계속해서 받는 경우 경고 우선 순위를 설정하고 검사하는 것은 매우 시간이 오래 걸릴 수 있습니다. 보안 운영 팀은 모니터링하고 방어해야 하는 많은 위협 요소를 통해 압도될 수 있습니다. Microsoft Threat Protection의 자동화 된 조사 및 응답 기능 ( *자가 복구* 기능이 라고도 함)이 도움이 될 수 있습니다. 
 
 다음 비디오를 시청 하 여 자동화 된 자동 복구 기능의 작동 방식을 알아봅니다.
 
@@ -78,7 +78,7 @@ ms.locfileid: "46552357"
 |네트워크 요구 사항 |- [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) 사용<br/>- [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)(MCAS) 구성됨<br/>- [Azure ATP와 통합된 MCAS](https://docs.microsoft.com/cloud-app-security/aatp-integration) |
 |Windows 컴퓨터 요구 사항 |-Windows 10, 버전 1709 이상 설치 된 다음 위협 보호 서비스가 구성 된 windows 10 [릴리스 정보](https://docs.microsoft.com/windows/release-information/)를 참조 하세요.<br/>- [Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints) <br/>- [Windows Defender 바이러스 백신](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) |
 |전자 메일 콘텐츠 및 Office 파일 보호 |[Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) 구성 |
-|권한 |-자동화 된 조사 및 응답을 구성 하려면 Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) 또는 Microsoft 365 관리 센터 ()에서 전역 관리자 또는 보안 관리자 역할이 할당 되어 있어야 합니다 [https://admin.microsoft.com](https://admin.microsoft.com) .<br/><br/>-자동화 된 조사 및 응답 기능을 사용 하려면 [작업 센터 작업에 필요한 권한을](mtp-action-center.md#required-permissions-for-action-center-tasks)참조 하세요. |
+|사용 권한 |-자동화 된 조사 및 응답을 구성 하려면 Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) 또는 Microsoft 365 관리 센터 ()에서 전역 관리자 또는 보안 관리자 역할이 할당 되어 있어야 합니다 [https://admin.microsoft.com](https://admin.microsoft.com) .<br/><br/>-자동화 된 조사 및 응답 기능을 사용 하려면 [작업 센터 작업에 필요한 권한을](mtp-action-center.md#required-permissions-for-action-center-tasks)참조 하세요. |
 
 ## <a name="next-steps"></a>다음 단계
 

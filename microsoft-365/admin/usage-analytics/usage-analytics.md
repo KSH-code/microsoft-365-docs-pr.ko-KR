@@ -19,17 +19,16 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: 조직이 Microsoft 365 서비스를 채택 하 여 통신 및 공동 작업 하는 방법에 대 한 개요를 확인 하세요.
-ms.openlocfilehash: 6619205fb62cce3ba7c62c3df773f650dc125dac
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: fecaed3aa9fc2d0990cb3e7b416cee1bfab21d7e
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402025"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948631"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석
 ---
-Microsoft 365 US 정부 커뮤니티에서는 microsoft 365 사용 현황 분석을 아직 사용할 수 없습니다.
- 
+
 ## <a name="overview-of-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석 개요
 
 Power BI 내에서 Microsoft 365 사용 현황 분석을 사용 하 여 조직에서 Microsoft 365 내의 다양 한 서비스를 채택 하 여 통신 및 공동 작업을 수행 하는 방법을 통찰력을 얻으십시오. Microsoft 365 사용 현황 데이터를 시각화 및 분석 하 고, 사용자 지정 보고서를 만들고, 조직 내에서 통찰력을 공유 하 고, 특정 지역 또는 부서가 Microsoft 365을 활용 하는 방법을 파악할 수 있습니다.

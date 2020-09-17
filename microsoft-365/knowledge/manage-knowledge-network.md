@@ -1,22 +1,22 @@
 ---
 title: '지식 관리 네트워크 관리 (미리 보기) '
 description: 지식 관리를 설정 하는 방법
-author: efrene
-ms.author: efrene
-manager: pamgreen
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: serdars
 ms.date: 08/01/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: af53f4d563d286ad29138f935fbb69aa10b902ca
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 3ca180dba82e677dbc0d9f112b713df14820ce61
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612623"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950775"
 ---
 # <a name="manage-your-knowledge-management-network-preview"></a>지식 관리 네트워크 관리 (미리 보기)
 
@@ -53,7 +53,7 @@ Microsoft 365 관리 센터에 액세스 하 고 조직의 기술 자료 작업�
 SharePoint 항목 원본에 대 한 선택 사항을 업데이트 하려면 **항목 검색** 탭을 선택 합니다. 이 설정을 사용 하 여 테 넌 트에서 크롤링할 SharePoint 사이트를 선택 하 고 항목에 대 한 의견을 받을 수 있습니다.
 
 1. **항목 검색** 탭의 **SharePoint 항목 소스 선택**에서 **편집**을 선택 합니다.
-2. **Sharepoint 항목 원본 선택** 페이지에서 검색 중에 항목의 소스로 크롤링할 SharePoint 사이트를 선택 합니다. 해당 활동은 다음과 같습니다.</br>
+2. **Sharepoint 항목 원본 선택** 페이지에서 검색 중에 항목의 소스로 크롤링할 SharePoint 사이트를 선택 합니다. 여기에는 다음이 포함됩니다.</br>
     a. **모든 사이트**: 테 넌 트의 모든 SharePoint 사이트 현재 및 미래의 사이트를 캡처합니다.</br>
     b. **선택한 사이트를 제외한 모두 (모두**): 제외 하려는 사이트의 이름을 입력 합니다.  검색에서 옵트아웃 할 사이트의 목록을 업로드할 수도 있습니다. 앞으로 만들어진 사이트는 항목 검색의 원본으로 포함 됩니다. </br>
     c. **선택한 사이트만**: 포함 하려는 사이트의 이름을 입력 합니다. 사이트 목록을 업로드할 수도 있습니다. 앞에서 만든 사이트는 항목 검색의 원본으로 포함 되지 않습니다. </br>

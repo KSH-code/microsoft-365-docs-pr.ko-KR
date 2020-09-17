@@ -1,5 +1,5 @@
 ---
-title: 관리 센터의 microsoft 365 보고서-Microsoft 팀 사용자 활동-미리 보기
+title: 관리 센터의 microsoft 365 보고서-Microsoft 팀 사용자 활동
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,30 +19,34 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 팀 사용자 활동 보고서를 가져오고 조직의 팀 활동에 대 한 정보를 파악 하는 방법을 알아봅니다.
-ms.openlocfilehash: 734a4dfd62160c2f4d29b8faffb3268a1962fe4f
-ms.sourcegitcommit: a50260b7c5be7374e8e2bea19cc08406ef51ac47
+ms.openlocfilehash: 5b6c67903e7af600cac6ad1fda10962aecc2cc83
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45167344"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949033"
 ---
-# <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity--preview"></a>관리 센터의 microsoft 365 보고서-Microsoft 팀 사용자 활동-미리 보기
+# <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>관리 센터의 microsoft 365 보고서-Microsoft 팀 사용자 활동
 
 Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 한 활동 개요가 표시 됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요. Microsoft Teams 사용자 활동 보고서에서는 조직의 Microsoft Teams 활동에 대한 정보를 확인할 수 있습니다.
   
 > [!NOTE]
 > 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint, 팀 서비스, 팀 통신 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다.  
  
-## <a name="how-to-get-to-the-preview-microsoft-teams-user-activity-report"></a>Microsoft 팀의 미리 보기 사용자 활동 보고서에 액세스 하는 방법
+## <a name="how-to-get-to-the-microsoft-teams-user-activity-report"></a>Microsoft Teams 사용자 활동 보고서에 액세스하는 방법
 
 1. 관리 센터에서 **보고서** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> 페이지를 참조하세요.
-2. **보고서 선택** 드롭다운에서 **Microsoft 팀**을 선택 합니다.
+2. 대시보드 홈 페이지에서 Microsoft 팀 활동 카드의 **기타 보기** 단추를 클릭 합니다.
   
-## <a name="interpret-the-preview-microsoft-teams-user-activity-report"></a>Microsoft 팀의 미리 보기 사용자 활동 보고서 해석
+## <a name="interpret-the-microsoft-teams-user-activity-report"></a>Microsoft Teams 사용자 활동 보고서 해석
 
-**사용자 작업** 탭을 선택 하 여 팀 미리 보기 보고서에서 사용자 활동을 볼 수 있습니다.
-  
-|||
+**사용자 작업** 탭을 선택 하 여 팀 보고서에서 사용자 활동을 볼 수 있습니다. <br/>![Microsoft 365 보고서-Microsoft 팀 사용자 활동](../../media/1011877f-3cf0-4417-9447-91d0b2312aab.png)
+
+**열 선택을** 선택 하 여 보고서에서 열을 추가 하거나 제거 합니다.  <br/> ![Teams user activity report - choose columns](../../media/a1513028-cf09-4186-93a6-8a203cd22475.png)
+
+**내보내기** 링크를 선택 하 여 보고서 데이터를 Excel .csv 파일로 내보낼 수도 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 
+
+|항목|설명|
 |:-----|:-----|
 |**메트릭**|**정의**|
 |사용자 이름  <br/> |사용자의 전자 메일 주소입니다. 실제 전자 메일 주소를 표시하거나 이 필드를 익명으로 만들 수 있습니다.   <br/> |

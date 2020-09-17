@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: 12ac7d0a3d07749e16443e645f50de8fda185658
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: b9e900baf02e9fc866fe6fe520ad1e40ccd565de
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866782"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950703"
 ---
 # <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a>ServiceNow 티켓을 Microsoft 365 보안 센터 및 준수 센터에 통합
 
@@ -32,7 +32,7 @@ ms.locfileid: "46866782"
 
 ServiceNow는 회사에서 엔터프라이즈 운영을 위한 디지털 워크플로를 관리 하는 데 사용할 수 있는 인기 있는 클라우드 컴퓨팅 플랫폼입니다. 현재 플랫폼에는 IT 워크플로, 직원 워크플로 및 고객 워크플로가 포함 되어 있습니다. [ServiceNow에 대해 자세히 알아보기](https://www.servicenow.com/)
 
-Microsoft는 IT 관리자가 두 플랫폼에서 모두 티켓과 작업을 보다 쉽게 관리할 수 있도록 ServiceNow과 제휴 합니다. [Microsoft 365 보안 센터](overview-security-center.md) 및 [microsoft 365 준수 센터](https://docs.microsoft.commicrosoft-365/compliance/microsoft-365-compliance-center) 는 ServiceNow에서 티켓을 기본적으로 만들고 추적할 수 있는 기능을 통해 향상 되었습니다.
+Microsoft는 IT 관리자가 두 플랫폼에서 모두 티켓과 작업을 보다 쉽게 관리할 수 있도록 ServiceNow과 제휴 합니다. [Microsoft 365 보안 센터](overview-security-center.md) 및 [microsoft 365 준수 센터](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) 는 ServiceNow에서 티켓을 기본적으로 만들고 추적할 수 있는 기능을 통해 향상 되었습니다.
 
 - [**보안 센터에서 ServiceNow 티켓 관리**](tickets-security-center.md)
 - **준수 센터에서 ServiceNow 티켓 관리** (출시 예정)

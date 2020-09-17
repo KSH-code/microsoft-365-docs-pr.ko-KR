@@ -21,12 +21,12 @@ search.appverid:
 - BSA160
 ms.assetid: 4ecfb843-e5d5-464d-8bf6-7ed512a9b213
 description: 'Sharepoint 사이트 사용 보고서를 다운로드 하 여 사용자가 SharePoint 사이트에 저장 하는 파일의 수, 현재 사용 되 고 있는 총 저장소 및 사용 된 전체 저장 용량을 확인 합니다. '
-ms.openlocfilehash: b39f1588f5c0c68a5972aab3039a8d7d901f9dc5
-ms.sourcegitcommit: efd4dd29af0ea2b71b674534de3b2dcbfd7482db
+ms.openlocfilehash: 8c2428a49a42a1d259c69297feff13e5c00a9b8e
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689303"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948859"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---sharepoint-site-usage"></a>관리 센터의 Microsoft 365 보고서-SharePoint 사이트 사용 현황
 
@@ -47,7 +47,7 @@ Microsoft 365 관리자 인 **보고서** 대시보드에는 조직의 다양 �
 
 ![SharePoint Site Usage Report](../../media/4f88fb7d-9aa8-470e-9e23-e31caaf77d78.png)
   
-|||
+|항목|설명|
 |:-----|:-----|
 |1.  <br/> |**SharePoint 사이트 사용** 보고서에서 지난 7일, 30일, 90일 또는 180일간의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 선택 하는 경우 테이블 (7)은 현재 날짜 로부터 최대 28 일 동안의 데이터를 표시 합니다 (보고서가 생성 된 날짜 아님).  <br/> |
 |2.  <br/> |각 보고서의 데이터는 대개 최근 24 ~ 48 시간까지 포함 됩니다. <br/> |

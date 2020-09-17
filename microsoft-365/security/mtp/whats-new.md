@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 1a2a8cd91d0cc32dc5a10b1eb1dd28714cd4f6c4
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: da3fd8b97899e302c9b7b24a5c0677534b579981
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45429969"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47947987"
 ---
 # <a name="whats-new-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 새로운 기능
 
@@ -30,10 +30,13 @@ RSS 피드: 다음 URL을 복사 하 여 피드 판독기에 붙여 넣어이 �
 ```http
 https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+Threat+Protection%22&locale=en-us
 ```
+## <a name="september-2020"></a>2020년 9월
+- [AssignedIPAddresses () 함수](advanced-hunting-assignedipaddresses-function.md) <br> [고급 구하기](advanced-hunting-overview.md) 쿼리에이 함수를 사용 하 여 특정 시점부터 장치 또는 가장 최근 ip 주소에 할당 된 최신 ip 주소를 빠르게 가져올 수 있습니다.
+
 ## <a name="july-2020"></a>2020년 7월
-- [FileProfile () 함수](advanced-hunting-fileprofile-function.md) <br> [고급 구하기](advanced-hunting-overview.md) 쿼리에서이 함수를 사용 하 여 광범위 한 파일 정보가 포함 된 결과를 보강 합니다.
+- [FileProfile () 함수](advanced-hunting-fileprofile-function.md) <br> 고급 구하기 쿼리에서이 함수를 사용 하 여 광범위 한 파일 정보가 포함 된 결과를 보강 합니다.
 - [Identity 및 app 테이블](advanced-hunting-schema-tables.md)<br> 고급 구하기 스키마에서 [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md), [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)및 [appfileevents](advanced-hunting-appfileevents-table.md) 테이블을 사용 하 여 인증 이벤트, Active Directory 쿼리 및 앱 관련 작업에 대 한 가시성을 확인할 수 있습니다.
-- [탐색(Go hunt)](advanced-hunting-go-hunt.md)<br> 쿼리 기반 [고급 구하기](advanced-hunting-overview.md) 기능을 사용 하 여 특정 이벤트, 사용자, 장치 또는 기타 엔터티 유형을 검사 하는 인시던트를 조사 하는 것을 빠르게 피벗 합니다.
+- [탐색(Go hunt)](advanced-hunting-go-hunt.md)<br> 쿼리 기반 고급 구하기 기능을 사용 하 여 특정 이벤트, 사용자, 장치 또는 기타 엔터티 유형을 검사 하는 인시던트를 조사 하는 것을 빠르게 피벗 합니다.
 
 ## <a name="june-2020"></a>2020년 6월
 - Twitter 피드 <br> 대시보드 내에서 최신 보안 연구, 위협 인텔리전스, 제품 소식 등을 확인 하세요.

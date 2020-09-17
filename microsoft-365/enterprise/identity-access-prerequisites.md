@@ -16,18 +16,18 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 2c654cb0ec2afd138c7c9fb4b339b53a8522e5e4
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 034dd31309c783e8b231a113d2bda5ccb1888d5b
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547207"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950763"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Id 및 장치 액세스 정책을 구현 하기 위한 필수 작업
 
 이 문서에서는 권장 되는 id 및 장치 액세스 정책을 배포 하기 전에 구현 해야 하는 필수 구성 요소에 대해 설명 합니다. 이 문서에서는 또한 사용자에 게 최적의 SSO (single sign-on) 환경을 제공 하는 데 필요한 기본 플랫폼 클라이언트 구성과 조건부 액세스에 대 한 기술적 필수 구성 요소에 대해 설명 합니다.
 
-## <a name="prerequisites"></a>필수 조건
+## <a name="prerequisites"></a>필수 구성 요소
 
 권장 되는 id 및 장치 액세스 정책을 구현 하기 전에 조직에서 Microsoft 365 및 Office 365에 대 한 이러한 id 및 인증 모델에 대해 충족 해야 하는 몇 가지 필수 구성 요소가 있습니다.
 
@@ -116,6 +116,6 @@ Microsoft 365 E3 또는 E5 또는 별도의 Azure AD Premium P1 또는 P2 라이
 
 ## <a name="next-step"></a>다음 단계
 
-![2 단계: 일반 id 구성 및 조건부 액세스 정책 액세스](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)
+[![2 단계: 일반 id 구성 및 조건부 액세스 정책 액세스](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)](identity-access-policies.md)
 
 [일반 id 및 장치 액세스 정책 구성](identity-access-policies.md)

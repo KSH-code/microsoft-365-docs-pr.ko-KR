@@ -14,26 +14,32 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 Network Insights (미리 보기)
-ms.openlocfilehash: b30af89d480383fdc9011d24409e3b418339c70b
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: a9d4dbde112c9b6c74e340824c63ce2b9749e80e
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692573"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948519"
 ---
 # <a name="microsoft-365-network-insights-preview"></a>Microsoft 365 Network Insights (미리 보기)
 
-**Network insights** 는 Microsoft 365 테 넌 트에서 수집 된 live 성능 메트릭 이며, 테 넌 트의 관리 사용자만 볼 수 있습니다. Insights는 Microsoft 365 관리 센터에 표시 됩니다 <https://portal.microsoft.com/adminportal/home#/networkperformance> .
+**네트워크 Insights** Microsoft 365 테 넌 트에서 수집한 성능 메트릭 및 테 넌 트의 관리 사용자만 볼 수 있습니다. Insights는 Microsoft 365 관리 센터에 표시 됩니다 <https://portal.microsoft.com/adminportal/home#/networkperformance> .
 
 Insights는 사무실 사무소에 대 한 네트워크 perimeters 디자인에 도움을 주기 위한 것입니다. 각 통찰력은 사용자가 테 넌 트에 액세스 하는 각 지리적 위치에 대 한 특정 일반적인 문제의 성능 특성에 대 한 실시간 세부 정보를 제공 합니다.
 
-각 사무실 위치에 대해 표시할 수 있는 5 가지 특정 네트워크 정보가 있습니다.
+각 사무실 위치에 대해 표시할 수 있는 6 가지 특정 네트워크 정보가 있습니다.
 
 - [Backhauled 네트워크 송신](#backhauled-network-egress)
 - [주변 고객에 게 더 나은 성능 검색](#better-performance-detected-for-customers-near-you)
 - [최적이 아닌 Exchange Online 서비스 전면 도어 사용](#use-of-a-non-optimal-exchange-online-service-front-door)
 - [최적이 아닌 SharePoint Online 서비스 전면 도어 사용](#use-of-a-non-optimal-sharepoint-online-service-front-door)
 - [SharePoint 전면 도어에서 다운로드 속도 낮음](#low-download-speed-from-sharepoint-front-door)
+- [중국 사용자 최적 네트워크 송신](#china-user-optimal-network-egress)
+
+테 넌 트에 대해 표시할 수 있는 테 넌 트 수준 네트워크 정보는 두 가지가 있습니다. 이러한 항목은 producvitivy 점수 페이지에도 표시 됩니다.
+
+- [연결 문제의 영향을 받는 Exchange 샘플링 된 연결](#exchange-sampled-connections-impacted-by-connectivity-issues)
+- [연결 문제의 영향을 받는 SharePoint 샘플링 된 연결](#sharepoint-sampled-connections-impacted-by-connectivity-issues)
 
 >[!IMPORTANT]
 >네트워크 insights, Microsoft 365 관리 센터의 성능 권장 사항 및 평가는 현재 미리 보기 상태 이며, 기능 미리 보기 프로그램에 등록 되어 있는 Microsoft 365 테 넌 트에만 사용할 수 있습니다.
@@ -140,6 +146,30 @@ Exchange Online 서비스 프런트 도어를 사용 하는 경우에는 회사 
 ### <a name="what-should-i-do"></a>제가 뭘 해야 하나요?
 
 이러한 정보와 관련 된 성능 문제를 완화 하는 방법에 대 한 자세한 내용은 [중국 사용자에 대 한 Office 365 전역 테 넌 트 성능 최적화](microsoft-365-networking-china.md)를 참조 하세요.
+
+## <a name="exchange-sampled-connections-impacted-by-connectivity-issues"></a>연결 문제의 영향을 받는 Exchange 샘플링 된 연결
+
+이러한 통찰력은 50% 이상의 샘플링 된 연결에 영향을 미칠 때이를 보여 줍니다. 영향은 각 샘플에 대해 60% 미만으로 Exchange 평가에 의해 정의 됩니다.
+
+### <a name="what-does-this-mean"></a>시나리오
+
+대부분의 사용자에 게 Outlook에서 Exchange Online에 연결 하는 동안 사용자 환경 문제가 발생할 수 있음을 나타냅니다. 샘플 비율은 60 포인트 미만으로 표시 되는 사용자의 비율을 나타낼 수 있습니다.  
+
+### <a name="what-should-i-do"></a>제가 뭘 해야 하나요?
+
+Office 위치 네트워크 연결 표시 기능 사용 (아직 수행 하지 않은 경우) Exchange에 영향을 주는 네트워크 연결 불량으로 인해 어떤 사무실이 어느 지점에 있습니까? 및 사용자를 Microsoft 네트워크에 연결 하는 각 위치에서 네트워크 경계를 개선 하는 방법을 확인 하려는 경우
+
+## <a name="sharepoint-sampled-connections-impacted-by-connectivity-issues"></a>연결 문제의 영향을 받는 SharePoint 샘플링 된 연결
+
+이러한 통찰력은 50% 이상의 샘플링 된 연결에 영향을 미칠 때이를 보여 줍니다. 영향은 각 샘플에 대 한 40% 미만으로 SharePoint 평가에 의해 정의 됩니다.
+
+### <a name="what-does-this-mean"></a>시나리오
+
+대부분의 사용자에 게 SharePoint 및 OneDrive의 사용자 환경 문제가 발생할 수 있음을 나타냅니다. 샘플 비율은 40 포인트 미만으로 표시 되는 사용자의 비율을 나타낼 수 있습니다.  
+
+### <a name="what-should-i-do"></a>제가 뭘 해야 하나요?
+
+Office 위치 네트워크 연결 표시 기능 사용 (아직 수행 하지 않은 경우) SharePoint에 영향을 주는 네트워크 연결 불량으로 인해 발생 하는 사무실을 확인 하 고 사용자를 Microsoft 네트워크에 연결 하는 각각의 네트워크 경계를 개선 하는 방법을 확인 하려는 경우
 
 ## <a name="related-topics"></a>관련 항목
 

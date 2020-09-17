@@ -6,17 +6,17 @@ manager: pamgreen
 ms.date: 8/1/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: 콘텐츠 센터를 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 5332ffa195519aebd5ae8dd2c26d7d62fd9b3267
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: ae10cdae2fe84abf72cf09141798b628d88a504a
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612753"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950099"
 ---
 # <a name="create-a-content-center-preview"></a>콘텐츠 센터 만들기 (미리 보기)
 

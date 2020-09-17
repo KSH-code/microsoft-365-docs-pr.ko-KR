@@ -6,17 +6,17 @@ manager: pamgreen
 ms.date: 8/1/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: 추출기를 만드는 방법 알아보기
-ms.openlocfilehash: 64dede9f6613da82c65ca12c6c335a25301f5b9e
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 7219726fb385d0b67f7ee0614f5075ba226140ab
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612765"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950087"
 ---
 # <a name="create-an-extractor-preview"></a>추출기 만들기 (미리 보기)
 > [!Note] 

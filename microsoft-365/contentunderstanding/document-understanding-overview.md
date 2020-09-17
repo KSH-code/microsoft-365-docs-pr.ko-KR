@@ -6,17 +6,17 @@ manager: pamgreen
 ms.date: 08/1/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Project Cortex에서 이해 하는 문서에 대 한 개요를 가져옵니다.
-ms.openlocfilehash: bdebc8a8726a7b9a77eb9a1095f83e937cf36cb1
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: c1e4092164ee96d4f244f10be9ebab62a2c8da5b
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612717"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950051"
 ---
 # <a name="document-understanding-overview-preview"></a>문서 이해 개요 (미리 보기)
 > [!Note] 
@@ -36,7 +36,7 @@ ms.locfileid: "46612717"
 
 - 분류자는 문서 라이브러리로 업로드 되는 문서를 식별 하 고 분류 하는 데 사용 됩니다. 예를 들어 분류자는 라이브러리에 업로드 되는 모든 *계약 갱신* 문서를 식별 하기 위해 "교육" 할 수 있습니다. 계약 갱신 콘텐츠 형식은 사용자가 분류자를 만들 때 정의 합니다.
 
-- 추출기이 문서에서 정보를 가져옵니다. 예를 들어 문서 라이브러리에서 식별 된 모든 계약 갱신 문서에 대해 각 계약 갱신 문서에 대 한 *서비스 시작 날짜* 와 *클라이언트* 도 표시 되는 열이 보기에 표시 됩니다. 
+- 추출기이 문서에서 정보를 가져옵니다. 예를 들어 문서 라이브러리에서 식별 된 모든 계약 갱신 문서에 대해 각 계약 갱신 문서에 대 한 *서비스 시작 날짜* 와  *클라이언트* 도 표시 되는 열이 보기에 표시 됩니다. 
 
 예제 파일을 사용 하 여 모델의 분류자 및 추출기을 훈련 하 고 테스트 합니다. 예제 파일에서는 파일에서 데이터를 식별 하 고 추출 하려고 할 때 확인할 대상의 모델 예를 제공 합니다. 예를 들어 회사에서 사용 하는 계약 갱신 문서의 예를 포함 하 여 계약 갱신 분류자 및 추출기을 교육 합니다. 예제 파일을 사용 하 여 모델의 효율성을 테스트할 수도 있습니다.
 

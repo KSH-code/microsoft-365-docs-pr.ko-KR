@@ -1,22 +1,22 @@
 ---
 title: '지식 관리 설정 (미리 보기) '
 description: 지식 관리를 설정 하는 방법
-author: efrene
-ms.author: efrene
-manager: pamgreen
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: serdars
 ms.date: 8/1/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: d6495f297f09ddc167d7c36835ac82a15abc91ac
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: 6f5d014a8f401d9c3489eabb849b9d666444e6aa
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405660"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948153"
 ---
 # <a name="set-up-knowledge-management-preview"></a>지식 관리 설정 (미리 보기)
 
@@ -60,7 +60,7 @@ Microsoft 365 관리 센터에 액세스 하 고 조직의 기술 자료 작업�
 
 3. **사용자에 게 정보 연결** 페이지에서 **시작** 을 클릭 하 여 설치 프로세스를 안내 합니다.<br/>
 
-    ![시작](../media/content-understanding/k-get-started.png) </br>
+    ![시작하기](../media/content-understanding/k-get-started.png) </br>
 
 4. **기술 네트워크에서 항목을 찾을 수 있는 방법 선택** 페이지에서 항목 검색을 구성 합니다. **Sharepoint 항목 원본 선택** 섹션에서 검색 중에 항목의 소스로 크롤링할 SharePoint 사이트를 선택 합니다. 여기에는 다음이 포함됩니다.</br>
     a. **모든 사이트**: 테 넌 트의 모든 SharePoint 사이트 현재 및 미래의 사이트를 캡처합니다.</br>

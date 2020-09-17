@@ -17,30 +17,29 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 72d02bafa168e48c2d588771f5289da09e6d6000
-ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
+ms.openlocfilehash: 4ee07abe7ce1432921a843d713d0f9b914631174
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46794234"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949315"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
 **적용 대상:**
 - Microsoft 위협 방지
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+`AssignedIPAddresses()`장치에 할당 된 최신 IP 주소를 빠르게 가져오려면이 함수를 사용 합니다. Timestamp 인수를 지정 하면이 함수는 지정 된 시간에 가장 최근 IP 주소를 가져옵니다. 
 
-`AssignedIPAddresses()`장치에 할당 된 최신 ip 주소 또는 지정 된 시점에서 가장 최근 ip 주소를 빠르게 가져오려면이 함수를 사용 합니다. 이 함수는 다음과 같은 열이 있는 table을 반환 합니다.
+이 함수는 다음과 같은 열이 있는 table을 반환 합니다.
 
 | 열 | 데이터 형식 | 설명 |
 |------------|-------------|-------------|
-| 타임 스탬프 | datetime | IP 주소를 사용 하 여 장치를 확인 한 최근 시간 |
-| IPAddress | 문자열 | 장치에서 사용 하는 IP 주소 |
-| IPType | 문자열 | IP 주소가 공용 또는 개인 주소 인지 여부를 나타냅니다. |
-| NetworkAdapterType | int | IP 주소가 할당 된 장치에서 사용 하는 네트워크 어댑터 유형입니다. 가능한 값은 [this 열거형](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype?view=netframework-4.7.2) 을 참조 하십시오.  |
-| ConnectedNetworks | int | 할당 된 IP 주소가 있는 어댑터가 연결 되는 네트워크입니다. 각 JSON 배열에는 네트워크 이름, 범주 (공용, 개인 또는 도메인), 설명 및 공용이 인터넷에 연결 되어 있는지 여부를 나타내는 플래그가 포함 됩니다. |
-
+| `Timestamp` | datetime | IP 주소를 사용 하 여 장치를 확인 한 최근 시간 |
+| `IPAddress` | 문자열 | 장치에서 사용 하는 IP 주소 |
+| `IPType` | 문자열 | IP 주소가 공용 또는 개인 주소 인지 여부를 나타냅니다. |
+| `NetworkAdapterType` | int | IP 주소가 할당 된 장치에서 사용 하는 네트워크 어댑터 유형입니다. 가능한 값은 [this 열거형](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype) 을 참조 하십시오. |
+| `ConnectedNetworks` | int | 할당 된 IP 주소가 있는 어댑터가 연결 되는 네트워크입니다. 각 JSON 배열에는 네트워크 이름, 범주 (공용, 개인 또는 도메인), 설명 및 공용이 인터넷에 연결 되어 있는지 여부를 나타내는 플래그가 포함 됩니다. |
 
 ## <a name="syntax"></a>구문과
 
@@ -50,12 +49,12 @@ AssignedIPAddresses(x, y)
 
 ## <a name="arguments"></a>인수나
 
-- **x** - `DeviceId` `DeviceName` 장치를 식별 하는 값입니다.
-- **y** - `Timestamp` (datetime) 가장 최근 IP 주소를 가져올 특정 시점을 나타내는 값입니다. 이를 지정 하지 않으면이 함수는 최신 IP 주소를 반환 합니다.
+- **x**- `DeviceId` `DeviceName` 장치를 식별 하는 값입니다.
+- **y**- `Timestamp` (datetime)-함수가 특정 시간에서 가장 최근 할당 된 IP 주소를 가져오도록 지시 합니다. 이를 지정 하지 않으면이 함수는 최신 IP 주소를 반환 합니다.
 
 ## <a name="examples"></a>예
 
-### <a name="get-the-list-of-ip-addresses-used-by-a-device-as-of-24-hours-ago"></a>24 시간 전 장치에서 사용 하는 IP 주소 목록 가져오기
+### <a name="get-the-list-of-ip-addresses-used-by-a-device-24-hours-ago"></a>장치에서 사용 하는 IP 주소 목록을 24 시간 전에 가져오기
 
 ```kusto
 AssignedIPAddresses('example-device-name', ago(1d))

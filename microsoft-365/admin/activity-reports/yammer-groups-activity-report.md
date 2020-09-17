@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 94dd92ec-ea73-43c6-b51f-2a11fd78aa31
 description: Yammer 그룹 활동 보고서를 통해 조직에서 만들고 사용 하는 Yammer 그룹의 수와 해당 활동을 파악할 수 있습니다.
-ms.openlocfilehash: a5a9d3d8820241cc3d99a4a08e647bd05dafd5ef
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: a8fb1ed4a22420723fa28b7d5a175e2ccf777e77
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387444"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948847"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---yammer-groups-activity-report"></a>관리 센터의 Microsoft 365 보고서-Yammer 그룹 활동 보고서
 
@@ -45,7 +45,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
 
 **그룹** 및 **활동** 차트를 확인하여 Yammer 그룹 활동을 볼 수 있습니다.<br/>![Yammer groups activity chart](../../media/4ba4ea03-2f74-4d86-8c63-2b18477c9769.png)
   
-|||
+|항목|설명|
 |:-----|:-----|
 |1.  <br/> |**Yammer 그룹 활동** 보고서에서 지난 7일, 30일, 90일 또는 180일간의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 선택 하는 경우 테이블 (7)은 현재 날짜 로부터 최대 28 일 동안의 데이터를 표시 합니다 (보고서가 생성 된 날짜 아님).  <br/> |
 |2.  <br/> |각 보고서의 데이터는 대개 최근 24 ~ 48 시간까지 포함 됩니다. <br/> |

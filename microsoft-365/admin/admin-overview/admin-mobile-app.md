@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: e16f6421-2a1a-4142-bf9d-9846600a060a
 description: Microsoft 365 관리 앱을 다운로드 하 고 전화나 태블릿에서 온라인 조직을 관리 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 287aafb0be3161c5f100211d6d8169fd133d427b
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 1ad44ccc379b5115ad36e657708eed38f58dca34
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780544"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948811"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>Microsoft 365 관리 모바일 앱 정보
 
@@ -40,7 +40,7 @@ ms.locfileid: "44780544"
 
 - 서비스 상태 및 변경 알림 가져오기
 - 서비스 요청 만들기
-- 사용자 암호 다시 설정
+- 사용자 암호 재설정
 - 라이선스 할당
 - 그룹 구성원 추가 또는 제거
 - 사용자 추가 
@@ -58,7 +58,7 @@ ms.locfileid: "44780544"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/05c1d439-9ec2-415f-9178-250f64dec64c] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
 
  
 ## <a name="frequently-asked-questions"></a>질문과 대답
@@ -88,6 +88,10 @@ ms.locfileid: "44780544"
 ### <a name="how-can-i-share-the-service-incidents-and-messages-with-the-rest-of-my-organization"></a>조직의 다른 사람들과 서비스 인시던트 및 메시지를 공유하려면 어떻게 하나요?
 
 특정 서비스 인시던트 또는 메시지를 선택 하는 경우에는 공유 옵션이 오른쪽 위 모서리에 나타납니다. 현재 전자 메일 공유를 지원합니다.
+  
+### <a name="can-i-use-this-app-with-multiple-accounts-or-tenants"></a>이 앱을 여러 계정 또는 테 넌 트와 함께 사용할 수 있나요?
+
+예, 여러 계정 또는 테 넌 트를 설정할 수 있습니다.
   
 ### <a name="my-app-is-acting-funny-what-can-i-do-to-troubleshoot-weird-app-behavior"></a>앱 작동이 이상합니다. 이상한 앱 작동 문제를 해결하려면 어떻게 하나요?
 

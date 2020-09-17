@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: Microsoft 365 관리 센터에서 Microsoft 365 Reports 대시보드를 사용 하 여 Microsoft Forms Pro 활동 보고서를 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: df03f3f0300dcd923f43987ee786981b1653b1ce
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 58c7a76c49b7c925a4e7851f7e81c7f47d465d3a
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387708"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949195"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-pro-activity"></a>관리 센터의 Microsoft 365 보고서-양식 Pro 활동
 
@@ -47,7 +47,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
 
 ![양식 활동 보고서](../../media/formsproactivity.png)
 
-|||
+|항목|설명|
 |:-----|:-----|
 |1.  <br/> |**양식 Pro** 활동 보고서는 지난 7 일, 30 일, 90 일 또는 180 일간의 추세를 볼 수 있습니다. 그러나 보고서에서 특정 날짜를 선택 하는 경우 테이블 (7)은 현재 날짜 로부터 최대 28 일 동안의 데이터를 표시 합니다 (보고서가 생성 된 날짜 아님).   <br/> |
 |2.  <br/> |각 보고서의 데이터는 대개 최근 48 시간 동안의 최신 항목입니다.  <br/> |
