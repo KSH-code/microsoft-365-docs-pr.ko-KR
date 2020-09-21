@@ -18,12 +18,14 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 725d22629d2c81a0edf8f329602214afddde6511
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.reviewer: evaldm, isco
+ms.date: 09/16/2020
+ms.openlocfilehash: d7739ac6184509abe4df3aaf140db66f6039717c
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633926"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962656"
 ---
 # <a name="approve-or-reject-pending-actions-following-an-automated-investigation"></a>자동화 된 조사에 따라 보류 중인 작업 승인 또는 거부
 
@@ -62,8 +64,5 @@ ms.locfileid: "42633926"
 
 ## <a name="next-steps"></a>다음 단계
 
-- [알림 센터에 대한 자세한 정보 알아보기](mtp-action-center.md)
-
-- [인시던트에 대해 자세히 알아보기](incidents-overview.md)
-
-- [헌팅에 대해 알아보기](advanced-hunting-overview.md)
+- [자동화 조사 세부정보 및 결과 보기](mtp-autoir-results.md)
+- [자동화 된 조사 및 응답 기능에서 가양성/네거티브 처리](mtp-autoir-report-false-positives-negatives.md)

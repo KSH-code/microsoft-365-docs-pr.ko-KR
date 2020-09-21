@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 관리 센터에서 중앙 집중식 배포를 사용 하 여 조직의 사용자 및 그룹에 추가 기능을 배포 하는 방법을 알아봅니다.
-ms.openlocfilehash: aec2adab7735a2be5670210abf05f88f081fe4ed
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 5806b2a33446a8e273c2aaf78e082c6fd753bbe4
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47306529"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171283"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>관리 센터에서 추가 기능 배포
 
@@ -64,6 +64,9 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정
 1. 관리 센터에서 **설정** \> **추가 기능** 페이지로 이동 합니다.
     
 2. 페이지 맨 위에 있는 **추가 기능 배포** 를 선택 하 고 **다음**을 선택 합니다.
+ 
+    > [!NOTE]
+    > 관리 센터는 통합 앱을 사용 하 여 배포 환경으로 업데이트 됩니다. 위의 단계를 볼 수 없는 경우 **설정**  >  **통합 앱**으로 이동 하 여 중앙 집중식 배포 섹션으로 이동 합니다. **통합 앱** 페이지 위쪽에서 **추가 기능**을 선택 합니다.
     
 3. 옵션을 선택 하 고 지침을 따릅니다.
   
@@ -131,7 +134,7 @@ Office 추가 기능의 유형 및 기능에 대한 자세한 내용은 [Office 
     
 - **Office 스토어 추가 기능:** 관리자가 Office 스토어에서 추가 기능을 선택한 경우 Office 스토어에서 추가 기능이 업데이트되면 나중에 중앙 집중식 배포에서도 추가 기능이 업데이트됩니다. 다음에 관련 Office 응용 프로그램을 시작하면 추가 기능이 업데이트됩니다. 웹 응용 프로그램은 언제든지 변경될 수 있습니다. 
   
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>자세한 정보
 
 [관리 센터에서 추가 기능 관리](manage-addins-in-the-admin-center.md)
 

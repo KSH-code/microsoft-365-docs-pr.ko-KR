@@ -8,7 +8,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.author: heidip
-ms.date: 09/12/2020
+ms.date: 09/18/2020
 ms.reviewer: anmorgan
 ms.custom:
 - it-pro
@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: fc2b83fc167a9385383d7085ed6d1e8db15abd42
-ms.sourcegitcommit: a13f43a3e981c90f1e0b9805c9c16a56f67fc650
+ms.openlocfilehash: 570ef098a3989bf42d641b78e325414350b8e5a5
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47651135"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48132115"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>팀 대화방, 그룹 및 파일을 보호 하기 위한 정책 권장 사항
 
@@ -71,28 +71,49 @@ Microsoft 팀을 시작 하기 위해 종속 서비스를 사용 하도록 설�
 |        |[호환 PC 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|이 정책에 팀 및 종속 서비스를 포함 합니다.|
 |**중요**|[로그인 위험이 *낮은* *경우 MFA* 필요 *high*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|팀에서 게스트 액세스 및 외부 액세스 규칙을 고려해 야 하는 경우이 문서의 뒷부분에 나오는 이러한 항목에 대해 자세히 알아볼 수 있습니다. 이 정책에 팀 및 종속 서비스를 포함 합니다.|
 |         |[준수 Pc *및* 모바일 장치 요구](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|이 정책에 팀 및 종속 서비스를 포함 합니다.|
-|**매우 엄격한 규제**|[*항상* MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|사용자 id와 상관 없이 MFA는 조직에서 사용 됩니다. 이 정책에 팀 및 종속 서비스를 포함 합니다.
+|**매우 엄격한 규제**|[*항상* MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|사용자 id와 상관 없이 MFA는 조직에서 사용 됩니다. 이 정책에 팀 및 종속 서비스를 포함 합니다. |
 | | |
 
 ## <a name="teams-dependent-services-architecture"></a>팀 종속 서비스 아키텍처
 
 참조용으로 다음 다이어그램에는 서비스 팀이 의존 하는 것이 나와 있습니다. 자세한 내용 및 추가 그림은 [IT 설계자 용 microsoft 365의 Microsoft 팀 및 관련 생산성 서비스](../solutions/productivity-illustrations.md)를 참조 하세요.
 
-![SharePoint, 비즈니스용 OneDrive 및 Exchange의 팀 종속성을 보여 주는 다이어그램](../media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)
+[![SharePoint, 비즈니스용 OneDrive 및 Exchange의 팀 종속성을 보여 주는 다이어그램](../media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)
 
-## <a name="enabling-guest-and-external-access-for-teams"></a>팀에 대 한 게스트 및 외부 액세스 설정
+[이 이미지의 더 큰 버전 보기](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)
 
-Azure AD에서 게스트 및 외부 사용자는 동일 합니다. 이러한 두 가지 유형의 사용자는 모두 게스트입니다. 게스트 사용자는 B2B 사용자입니다. Microsoft 팀은 앱에서 게스트 사용자와 외부 사용자를 구분 합니다. 각 사용자 유형은 팀에서 처리 되는 방식을 이해 하는 것이 중요 하지만, 두 유형의 사용자나 Azure AD의 B2B 사용자 이며, B2B 사용자에 게 권장 되는 정책이 두 가지 모두에 적용 됩니다. 게스트 액세스를 허용 하는 권장 정책에 대해서는 [게스트 및 외부 B2B 액세스](identity-access-policies-guest-access.md)를 허용 하기 위한 정책을 참조 하세요.
+## <a name="guest-and-external-access-for-teams"></a>게스트 및 팀에 대 한 외부 액세스
+
+Microsoft 팀에서는 다음을 정의 합니다.
+
+- **게스트 액세스** 에서는 팀 구성원으로 추가할 수 있는 게스트 또는 외부 사용자에 대해 AZURE AD B2B 계정을 사용 하며,이 경우 팀의 통신 및 리소스에 대 한 모든 고유한 액세스 권한을 갖습니다.
+
+- **외부 액세스** 는 AZURE AD B2B 계정이 없는 외부 사용자를 위한 것입니다. 외부 액세스에는 초대 및 참여를 포함할 수 있지만 팀 구성원 자격 및 팀의 리소스에 대 한 액세스는 포함 되지 않습니다.
+
+조건부 액세스 정책은 해당 Azure AD B2B 계정이 있기 때문에 팀의 게스트 액세스에만 적용 됩니다.
+
+<!--
+In Azure AD, guest and external users are the same. The user type for both of these is Guest. Guest users are B2B users. Microsoft Teams differentiates between guest users and external users in the app. While it's important to understand how each of these are treated in Teams, both types of users are B2B users in Azure AD and the recommended policies for B2B users apply to both. 
+
+--> 
+
+게스트 및 Azure AD B2B 계정을 사용 하는 외부 사용자에 대 한 액세스를 허용 하는 권장 정책에 대해서는 [게스트 및 외부 B2B 계정 액세스를 허용 하기 위한 정책을](identity-access-policies-guest-access.md)참조 하세요.
 
 ### <a name="guest-access-in-teams"></a>Teams의 게스트 액세스
 
-비즈니스 또는 조직 내부에 있는 사용자에 대 한 정책 외에도 관리자는 게스트 액세스를 허용 하 고 사용자가 비즈니스 또는 조직 외부에 있는 사용자가 팀 리소스에 액세스 하 고 그룹 대화, 채팅 및 모임 등의 내부 사람들과 상호 작용할 수 있습니다. 게스트 액세스에 대 한 자세한 내용은 [팀 게스트 액세스](https://docs.microsoft.com/microsoftteams/guest-access) 링크를 통해 확인할 수 있습니다.
+비즈니스 또는 조직 내부에 있는 사용자에 대 한 정책 외에도 관리자는 게스트 액세스를 허용 하 고 사용자가 비즈니스 또는 조직 외부에 있는 사용자가 팀 리소스에 액세스 하 고 그룹 대화, 채팅 및 모임 등의 내부 사람들과 상호 작용할 수 있습니다. 
+
+게스트 액세스에 대 한 자세한 내용과 구현 방법에 대 한 자세한 내용은  [팀 게스트 액세스](https://docs.microsoft.com/microsoftteams/guest-access)를 참조 하세요.
 
 ### <a name="external-access-in-teams"></a>팀의 외부 액세스
 
-외부 액세스는 게스트 액세스와 혼동 하는 경우가 많지만, 이러한 두 가지 비 내부 액세스 메커니즘이 실제로 서로 다른 지는 것이 중요 합니다. 게스트 액세스는 사용자를 한 번에 하나씩 추가 하 여 사용자별로 수행 되지만, 관리자가 외부 액세스를 사용 하도록 설정 하면 외부 도메인의 모든 사용자를 동시에 추가할 수 있습니다. 하지만 이러한 외부 사용자는 게스트 액세스를 통해 추가 된 개인에 비해 액세스 및 기능이 적습니다. 외부 액세스 사용자는 팀을 통해 내부 사용자와 채팅을 할 수 있습니다.
+외부 액세스는 게스트 액세스와 혼동 하는 경우가 많지만, 이러한 두 가지 비 내부 액세스 메커니즘이 실제로 서로 다른 지는 것이 중요 합니다. 
 
-외부 액세스에 대 한 자세한 내용을 읽고 필요한 경우이를 구현 하는 방법에 대 한 자세한 내용은 [Microsoft 팀에서 외부 액세스 관리](https://docs.microsoft.com/microsoftteams/manage-external-access) 를 참조 하세요.
+외부 액세스는 팀의 사용자와 함께 회의를 찾고, 통화 하 고, 채팅 하 고, 사용자와 모임을 설정 하는 데 사용 됩니다. 팀 관리자는 조직 수준에서 외부 액세스를 구성 합니다. 자세한 내용은 [Microsoft 팀에서 외부 액세스 관리](https://docs.microsoft.com/microsoftteams/manage-external-access)를 참조 하세요.
+
+외부 액세스 사용자는 게스트 액세스를 통해 추가 된 개인 보다 더 적은 액세스 및 기능을 사용할 수 있습니다. 예를 들어 외부 액세스 사용자는 팀과의 내부 사용자와 채팅을 할 수 있지만 팀 채널, 파일 또는 기타 리소스에는 액세스할 수 없습니다.
+
+외부 액세스는 Azure AD B2B 사용자 계정을 사용 하지 않으므로 조건부 액세스 정책을 사용 하지 않습니다. 
 
 ## <a name="teams-policies"></a>팀 정책
 

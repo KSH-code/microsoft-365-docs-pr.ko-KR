@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: chrisda
 author: chrisda
 manager: dansimp
-ms.date: ''
+ms.date: 09/18/2020
 audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
@@ -14,18 +14,16 @@ ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 ms.custom:
 - seo-marvel-apr2020
 description: EOP (Exchange Online Protection)를 사용 하 여 독립 실행형 및 하이브리드 환경에서 온-프레미스 전자 메일 조직을 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: 37b38df9e94bee93202be02c01a220afa9470b8a
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.openlocfilehash: b546b60e242d7f4f7fd4c4550bb61b94052ff4d1
+ms.sourcegitcommit: eb905c5b4d7e71fc930a207357295b0160c4f065
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45204806"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48137022"
 ---
 # <a name="exchange-online-protection-overview"></a>Exchange Online Protection 개요
 
-EOP (Exchange Online Protection)는 스팸 및 맬웨어로부터 조직을 보호 하는 클라우드 기반 필터링 서비스입니다. EOP는 Exchange Online 사서함이 있는 모든 Microsoft 365 조직에 포함 되어 있습니다.
-
-하지만 EOP는 다음과 같은 온-프레미스 시나리오 에서도 사용할 수 있습니다.
+EOP (Exchange Online Protection)는 스팸 및 맬웨어로부터 조직을 보호 하는 클라우드 기반 필터링 서비스입니다. EOP는 Exchange Online 사서함이 있는 모든 Microsoft 365 조직에 포함 되어 있습니다. 그러나 EOP는 다음과 같은 온-프레미스 시나리오 에서도 사용할 수 있습니다.
 
 - **독립 실행형 시나리오에서**EOP는 온-프레미스 Exchange 조직 또는 기타 모든 온-프레미스 SMTP 전자 메일 솔루션에 대해 클라우드 기반 전자 메일 보호 기능을 제공 합니다.
 
@@ -39,17 +37,37 @@ EOP (Exchange Online Protection)는 스팸 및 맬웨어로부터 조직을 보�
 
 EOP가 받는 전자 메일을 처리하는 방법을 확인하면 EOP의 작동 방식을 이해하는 데 도움이 됩니다.
 
-![전자 메일 프로세스 다이어그램](../../media/emailprocessingineop1.png)
+:::image type="content" source="../../media/tp_emailprocessingineopt3.png" alt-text="정크 메일 또는 격리 또는 최종 사용자 메일 배달이 결과 되기 전, EOP에 전달 되는 인터넷 또는 고객 의견이 나 연결, 맬웨어 방지, 메일 흐름 규칙-슬래시 정책 필터링, 콘텐츠 필터링 등을 통해 전자 메일을 그래픽으로 표시 합니다.":::
 
-- 처음에 들어오는 메시지는 보낸 사람의 신뢰도를 확인 하 고 맬웨어가 있는지 메시지를 검사 하는 연결 필터링을 통해 전달 됩니다. 대부분의 스팸이이 지점에서 중지 되 고 EOP에서 삭제 됩니다. 자세한 내용은 [연결 필터링 구성](configure-the-connection-filter-policy.md)을 참조하십시오.
+- 들어오는 메시지가 EOP 입력 되 면 처음에는 보낸 사람의 신뢰도를 확인 하는 연결 필터링을 통과 합니다. 대부분의 스팸은이 시점에서 중지 되며 EOP에 의해 거부 됩니다. 자세한 내용은 [연결 필터링 구성](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-the-connection-filter-policy?view=o365-worldwide)을 참조하십시오.
 
-- 메시지는 서식 파일에서 만들거나 적용 하는 사용자 지정 메일 흐름 규칙 (전송 규칙이 라고도 함)에 대해 메시지를 평가 하는 정책 필터링을 계속 합니다. 예를 들어 메일이 특정 보낸 사람에 게 서 도착 하면 관리자에 게 알림을 보내는 규칙을 만들 수 있습니다. DLP (데이터 손실 방지) 확인은이 시점에도 수행 됩니다 (Exchange Enterprise CAL with Services).
+- 그런 다음 메시지에 맬웨어 징후가 검사 됩니다. 메시지 또는 첨부 파일에서 맬웨어가 발견 되 면 메시지가 관리자 전용 격리 저장소로 라우팅됩니다. 맬웨어를 구성 하는 방법에 대 한 자세한 내용은 [여기](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-anti-malware-policies?view=o365-worldwide)에서 확인할 수 있습니다.
 
-- 다음으로 메시지는 스팸 방지 필터링 (콘텐츠 필터링이 라고도 함)을 통과 합니다. 다른 옵션 들 중에서 스팸으로 확인 된 메시지를 사용자의 정크 메일 폴더 또는 격리로 보낼 수 있습니다. 자세한 내용은 [스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
+- 메시지는 서식 파일에서 만들거나 적용 하는 사용자 지정 메일 흐름 규칙 (전송 규칙이 라고도 함)에 대해 평가 되는 정책 필터링을 계속 합니다. 예를 들어 메일이 특정 보낸 사람에 게 서 도착 하면 관리자에 게 알림을 보내는 규칙을 만들 수 있습니다. DLP (데이터 손실 방지) 확인은이 지점에서 수행 됩니다 (Exchange Enterprise CAL with Services).
 
-- 메시지는 이러한 모든 보호 계층을 성공적으로 통과 하면 받는 사람에 게 배달 됩니다.
+- 다음으로, 메시지는 콘텐츠 필터링 (스팸 방지 라고도 함)을 통해 전달 됩니다. 다른 옵션 중 하나를 사용 하 여이 필터로 스팸을 확인 *하거나 피싱* 를 차단 또는 사용자의 정크 메일 폴더로 보낼 수 있다는 메시지가 표시 됩니다. 자세한 내용은 [스팸 방지 정책 구성](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-your-spam-filter-policies?view=o365-worldwide) 및 [피싱 방지 정책 구성을](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-anti-phishing-policies-eop?view=o365-worldwide)참조 하세요.
+
+이러한 모든 보호 계층을 통과 하는 모든 메시지는 받는 사람에 게 배달 됩니다.
 
 자세한 내용은 [전자 메일 보호의 주문 및 우선 순위](how-policies-and-protections-are-combined.md)를 참조 하세요.
+
+## <a name="eop-plans-and-features-for-on-premises-email-organizations"></a>온-프레미스 전자 메일 조직에 대 한 EOP 요금제 및 기능
+
+사용 가능한 EOP 구독 계획은 다음과 같습니다.
+
+- **EOP 독립 실행형**: EOP에 등록 하 여 온-프레미스 전자 메일 조직을 보호 합니다.
+
+- **Exchange online의 EOP 기능**: exchange online (독립 실행형 또는 Microsoft 365의 일부로)이 포함 된 모든 구독은 EOP을 사용 하 여 exchange online 사서함을 보호 합니다.
+
+- **Exchange ENTERPRISE cal With services**: 서비스 라이선스로 추가 EXCHANGE Enterprise cal을 구매한 온-프레미스 Exchange 조직이 있는 경우 EOP는 포함 된 서비스의 일부입니다.
+
+모든 EOP 구독 계획에서 요구 사항, 중요 제한 및 기능 가용성에 대 한 자세한 내용은 [Exchange Online Protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)참조 하세요.
+
+## <a name="setting-up-eop-for-on-premises-email-organizations"></a>온-프레미스 전자 메일 조직에 대해 EOP 설정
+
+EOP는 간단하게 설정할 수 있으며, 특히 준수 규칙이 많지 않은 소규모 조직의 경우에는 더욱 그렇습니다. 그러나 도메인이 여러 개이거나 사용자 지정 준수 규칙 또는 하이브리드 메일 흐름을 사용하는 대규모 조직의 경우에는 EOP 설정에 더 많은 시간과 계획이 필요할 수 있습니다.
+
+EOP를 이미 구입한 경우 [EOP 서비스 설정](set-up-your-eop-service.md)을 참조하여 메시징 환경을 보호하도록 EOP를 구성하는 데 필요한 모든 단계를 완료하십시오.
 
 ### <a name="eop-datacenters"></a>EOP 데이터 센터
 
@@ -71,29 +89,11 @@ EOP는 특정 지역 내에서만 데이터 센터 간 부하 분산을 수행�
 
 - GCC(정부 커뮤니티 클라우드)의 경우에는 모든 Exchange Online 사서함이 미국 데이터 센터에 있으며 모든 메시지는 EOP 필터링용으로 미국 데이터 센터를 통해 라우팅됩니다.
 
-## <a name="eop-plans-and-features-for-on-premises-email-organizations"></a>온-프레미스 전자 메일 조직에 대 한 EOP 요금제 및 기능
-
-사용 가능한 EOP 구독 계획은 다음과 같습니다.
-
-- **EOP 독립 실행형**: EOP에 등록 하 여 온-프레미스 전자 메일 조직을 보호 합니다.
-
-- **Exchange online의 EOP 기능**: exchange online (독립 실행형 또는 Microsoft 365의 일부로)이 포함 된 모든 구독은 EOP을 사용 하 여 exchange online 사서함을 보호 합니다.
-
-- **Exchange ENTERPRISE cal With services**: 서비스 라이선스로 추가 EXCHANGE Enterprise cal을 구매한 온-프레미스 Exchange 조직이 있는 경우 EOP는 포함 된 서비스의 일부입니다.
-
-모든 EOP 구독 계획에서 요구 사항, 중요 제한 및 기능 가용성에 대 한 자세한 내용은 [Exchange Online Protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)참조 하세요.
-
-## <a name="setting-up-eop-for-on-premises-email-organizations"></a>온-프레미스 전자 메일 조직에 대해 EOP 설정
-
-EOP는 간단하게 설정할 수 있으며, 특히 준수 규칙이 많지 않은 소규모 조직의 경우에는 더욱 그렇습니다. 그러나 도메인이 여러 개이거나 사용자 지정 준수 규칙 또는 하이브리드 메일 흐름을 사용하는 대규모 조직의 경우에는 EOP 설정에 더 많은 시간과 계획이 필요할 수 있습니다.
-
-EOP를 이미 구입한 경우 [EOP 서비스 설정](set-up-your-eop-service.md)을 참조하여 메시징 환경을 보호하도록 EOP를 구성하는 데 필요한 모든 단계를 완료하십시오.
-
 ## <a name="eop-help-for-admins"></a>관리자를 위한 EOP 도움말
 
 EOP 관리자의 도움말 내용은 다음과 같은 최상위 범주로 구성되어 있습니다.
 
-- [Exchange Online Protection 개요](exchange-online-protection-overview.md): EOP가 작동 하는 방식을 소개 하 고 추가 정보에 대 한 링크를 제공 합니다.
+- Office 365 Advanced Threat Protection의 핵심에 EOP 보호 및 검색 도구를 구성 하려면 [EOP, 1 일 365,](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide)#을 구성 합니다.
 
 - [EOP 기능](eop-features.md): EOP에서 사용할 수 있는 기능 목록을 제공 합니다.
 

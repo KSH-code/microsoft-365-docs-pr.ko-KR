@@ -17,16 +17,16 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection의 캠페인 보기에 대해 알아보세요.
-ms.openlocfilehash: 72662519177f4ac43e3de04e9755fd99f5ffb03f
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 60ec8ea1d2c164905e7b57f4b518ea3f80e7986c
+ms.sourcegitcommit: dcbcd5ef278949c777059b0aa6db072e821f72dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867202"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48173311"
 ---
 # <a name="campaign-views-in-office-365-atp"></a>Office 365 ATP의 캠페인보기
 
-캠페인 보기는 ATP (Advanced Threat Protection) 계획 2의 기능입니다 (예: Microsoft 365 E5 또는 ATP 요금제 2 추가 기능이 있는 조직). 보안 & 준수 센터의 Campaing 보기에서는 서비스의 피싱 공격을 식별 하 고 분류 합니다. 캠페인 보기를 통해 다음을 수행할 수 있습니다.
+캠페인 보기는 ATP (Advanced Threat Protection) 계획 2의 기능입니다 (예: Microsoft 365 E5 또는 ATP 요금제 2 추가 기능이 있는 조직). 보안 & 준수 센터의 캠페인 보기는 서비스의 피싱 공격을 식별 하 고 분류 합니다. 캠페인 보기를 통해 다음을 수행할 수 있습니다.
 
 - 피싱 공격을 효과적으로 조사하고 이에 대처합니다.
 - 공격의 범위를 더 잘 이해 합니다.
@@ -47,7 +47,7 @@ Microsoft는 캠페인을 식별 하는 데 도움이 되도록 전체 서비스
 
 캠페인은 수명이 짧고 며칠, 주 또는 몇 개월 동안 활성 및 비활성 기간으로 확장 될 수 있습니다. 특정 조직에 대해 캠페인을 시작할 수도 있고 조직이 여러 회사에 걸친 대규모 캠페인의 일부일 수도 있습니다.
 
-## <a name="campaign-views-the-security--compliance-center"></a>캠페인 보기 보안 & 준수 센터
+## <a name="campaign-views-in-the-security--compliance-center"></a>보안 & 준수 센터의 캠페인 보기
 
 캠페인 보기는 **위협 관리** 캠페인의 [보안 & 준수 센터](https://protection.office.com) \> **Campaigns**또는에서 직접 제공 됩니다 <https://protection.office.com/campaigns> .
 
@@ -84,7 +84,7 @@ Microsoft는 캠페인을 식별 하는 데 도움이 되도록 전체 서비스
 
 - **Type**:이 값은 **피싱** 또는 **맬웨어**입니다.
 
-- **하위 유형**:이 값에는 캠페인에 대 한 자세한 정보가 포함 되어 있습니다. 예시:
+- **하위 유형**:이 값에는 캠페인에 대 한 자세한 정보가 포함 되어 있습니다. 예제:
 
   - **피싱**:이 캠페인에서 phished 되는 브랜드입니다. ,,,, 등을 예로 들 `Microsoft` `365` `Unknown` `Outlook` `DocuSign` 있습니다.
 

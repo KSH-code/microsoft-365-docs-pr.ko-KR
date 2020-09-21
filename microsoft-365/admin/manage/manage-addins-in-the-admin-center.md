@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
-description: 관리 센터에서 중앙 집중식 배포를 사용 하 여 조직의 사용자 및 그룹에 추가 기능을 배포 하는 방법을 알아봅니다.
-ms.openlocfilehash: 10bca6776173c07a28b097f44c641c3e65a0cf6c
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+description: 중앙 집중식 추가 기능을 사용 하 여 조직의 사용자 및 그룹에 추가 기능을 배포 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: c7f8b7bf71dbdaaf1c850c801a5145d3ab47a65c
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948703"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171295"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>관리 센터에서 추가 기능 관리
 
@@ -148,7 +148,7 @@ Office 추가 기능은 문서를 개인 설정 하 고 웹에서 정보에 액�
   
 2. 왼쪽 탐색 창에서 **관리-관리** 를 선택 합니다. 
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>자세한 정보
 
 [관리 센터에서 추가 기능 배포](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 준수 센터에 새로운 새 솔루션을 추가 하 고, 사용자 의견에 따라 기존 기능을 업데이트 하거나, 새로운 문서 및 업데이트 된 설명서를 롤아웃할 지 여부에 관계 없이 Microsoft 365에서는 지속적인 변경 준수 가로를 유지 하는 데 도움이 됩니다. 이번 달에 제공 된 내용을 확인 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 750d8274faa5e68f8d36006f8ccf6d7fa55f8250
-ms.sourcegitcommit: 2179abfe0b7a8bea917eb1c1057ed3795bdf91e6
+ms.openlocfilehash: 7d5e1bb67d6adc1b3c25aea8f468a23ed5c1019a
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47336671"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48132038"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -269,7 +269,7 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 |솔루션 카탈로그 (미리 보기) <br/>|솔루션 카탈로그는 규정 준수 및 위험 관리 솔루션을 검색 하 고 학습 하며 빠르게 시작할 수 있는 1-스톱-상점입니다. 카탈로그는 세 가지 준수 범주로 구성 되며 각각에 해당 범주를 구성 하는 솔루션에 대 한 세부 정보를 포함 합니다. 종류에는 정보 보호 & 거 버 넌 스, 참가자 위험 관리 및 검색 & 응답이 포함 됩니다. <br/>|[솔루션 카탈로그 개요 (미리 보기)](microsoft-365-solution-catalog.md)|
 |통신 준수 (미리 보기) <br/>|통신 준수는 조직의 부적절 한 메시지에 대해 검색, 캡처 및 수정 작업을 수행 하 여 통신 위험을 최소화 하는 데 도움이 되는 새로운 참가자 위험 관리 범주의 일부입니다. 이 솔루션은 지능형 서식 파일, 유연한 재구성 워크플로 및 실행 가능한 통찰력과 같은 새로운 향상 된 기능을 도입 하 여 Office 365의 감독 정책 기능을 확장 합니다. <br/>|[Microsoft 365의 통신 준수 (미리 보기)](communication-compliance.md)|
 |데이터 분류 (미리 보기) <br/>|새 데이터 분류 페이지에는 조직 전체의 콘텐츠에 중요 한 정보 및 레이블 (보존 및 민감도)이 사용 되는 방식을 검색 하 고 평가 하는 데 도움이 되는 강력한 통찰력 및 도구가 포함 되어 있습니다. 중요 한 정보가 포함 된 콘텐츠를 검토 하거나 레이블이 적용 되 고, Microsoft 365 위치 간 레이블 작업을 탐색 하 고, 사용자 지정 중요 한 정보 유형을 만듭니다.<br/>|[데이터 분류 개요(미리 보기)](data-classification-overview.md)|
-|Trainable 분류자 (미리 보기) <br/>|이 강력한 새 도구는 컴퓨터 학습 엔진을 사용 하 여 규정 문서 또는 직원 계약과 같은 조직 내 콘텐츠 범주를 식별 하는 데 도움이 됩니다. 만든 분류자는 다양 한 준수 솔루션에서 사용 하 여 관련 콘텐츠를 검색 하 고 분류 하며 보호 하 고 유지 합니다.<br/>|[학습 가능한 분류자 시작하기(미리 보기)](classifier-getting-started-with.md)|
+|Trainable 분류자 (미리 보기) <br/>|이 강력한 새 도구는 컴퓨터 학습 엔진을 사용 하 여 규정 문서 또는 직원 계약과 같은 조직 내 콘텐츠 범주를 식별 하는 데 도움이 됩니다. 만든 분류자는 다양 한 준수 솔루션에서 사용 하 여 관련 콘텐츠를 검색 하 고 분류 하며 보호 하 고 유지 합니다.<br/>|[Trainable 분류자에 대 한 자세한 정보 (미리 보기)](classifier-learn-about.md)|
 
 #### <a name="updated-compliance-solutions"></a>업데이트 된 준수 솔루션
 

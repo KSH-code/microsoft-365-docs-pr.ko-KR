@@ -1,9 +1,29 @@
 ---
-제목: 평가판 랩 또는 파일럿 환경에 대해 Microsoft Threat protection 핵심 요소로를 구성 합니다. 핵심 요소로: Office 365 ATP, Azure ATP, Microsoft Cloud App Security 및 Microsoft Defender ATP를 시험 운용 랩 또는 파일럿 환경에 맞게 구성 합니다.
-키워드: microsoft Threat Protection 평가판, Microsoft Threat protection 평가판 구성, microsoft threat protection 파일럿 프로젝트 구성, microsoft threat protection 핵심 요소로, Microsoft Threat protection 핵심 요소로 search를 구성 합니다. product: eADQiWindows 10XVcnh 검색. mktglfcycl: met150 ms. p s t: w10: sitesec: deploy  
-만든이: DulceMontemayor localizationpriority: medium manager: dansimp 대상: It 전문. 컬렉션: M365-security-준수 ms. 항목: 문서 
+title: 평가판 랩 또는 파일럿 환경에 대해 Microsoft Threat Protection 핵심 요소로 구성
+description: '평가판 랩 또는 파일럿 환경에 대해 Microsoft Threat Protection 핵심 요소로 (예: Office 365 ATP, Azure ATP, Microsoft Cloud App Security, Microsoft Defender ATP)를 구성 합니다.'
+keywords: microsoft threat Protection 평가판, Microsoft Threat protection 평가판 구성, microsoft threat protection 파일럿 프로젝트 구성, microsoft threat protection 핵심 요소로, Microsoft 위협 보호 핵심 요소로를 구성 합니다.
+search.product: eADQiWindows 10XVcnh
+search.appverid: met150
+ms.prod: microsoft-365-enterprise
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+f1.keywords:
+- NOCSH
+ms.author: dolmont
+author: DulceMontemayor
+ms.localizationpriority: medium
+manager: dansimp
+audience: ITPro
+ms.collection: M365-security-compliance
+ms.topic: article
+ms.openlocfilehash: 4d751ec5eb786a91d62ab11988132bfed076984d
+ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47956272"
 ---
-
 # <a name="configure-microsoft-threat-protection-pillars-for-your-trial-lab-or-pilot-environment"></a>평가판 랩 또는 파일럿 환경에 대해 Microsoft Threat Protection 핵심 요소로 구성
 
 **적용 대상:**
@@ -43,7 +63,7 @@ Microsoft Threat Protection 평가판 랩 또는 파일럿 환경을 만들고 �
 
 ## <a name="microsoft-threat-protection-pillars"></a>Microsoft Threat Protection 핵심 요소로
 Microsoft Threat Protection은 핵심 요소로 4 개로 구성 됩니다. 한 번에 네트워크 조직의 보안에 대 한 가치를 제공할 수 있지만 Microsoft Threat Protection 핵심 요소로 4 개를 사용 하도록 설정 하면 조직에 가장 많은 값이 제공 됩니다.
-
+<br>
 ![사용자, Azure Advanced threat protection, 끝점에 대 한 위협 보호 솔루션, Microsoft Defender Advanced Threat Protection, 클라우드 앱, Microsoft Cloud App Security 및 data의 경우 Office 365 Advanced Threat Protection of_Microsoft  ](../../media/mtp-eval-31.png) <br>
 
 이 섹션에서는 다음을 구성할 수 있도록 안내 합니다.
@@ -121,7 +141,7 @@ Microsoft Threat Protection은 핵심 요소로 4 개로 구성 됩니다. 한 �
 <br>![Azure ATP 센서 마법사를 따르려면 다음을 클릭 해야 하는 Advanced Threat Protection 페이지 of_Azure 합니다.](../../media/mtp-eval-47.png) <br>
  
 7. 센서 배포 유형에서 **다음** 을 클릭 합니다.
-<br>![Azure ATP 센서 마법사를 따르려면 다음을 클릭 해야 하는 Advanced Threat Protection 페이지 of_Azure 합니다.](../../media/mtp-eval-48.png) <br>
+<br>![다음 페이지로 이동 하려면 고급 위협 보호 페이지 of_Azure 다음을 클릭 해야 합니다.](../../media/mtp-eval-48.png) <br>
  
 8. 마법사에서 다음에 입력 해야 하므로 액세스 키를 복사 합니다.
 ![다음 Azure ATP 센서 설정 마법사 페이지에 입력 해야 하는 액세스 키를 복사 해야 하는 이미지 of_the 센서 페이지](../../media/mtp-eval-49.png) <br>
@@ -233,5 +253,6 @@ Microsoft Threat Protection은 핵심 요소로 4 개로 구성 됩니다. 한 �
 
 다음으로, 공격을 시뮬레이트하고 상호 제품 기능 검색 방법, 알림을 만들고 끝점에 대 한 fileless 공격에 자동으로 대응 하는 방법을 확인할 수 있습니다.
 
-## <a name="next-steps"></a>다음 단계
-[테스트 경고를 생성](generate-test-alert.md)합니다.
+## <a name="next-step"></a>다음 단계
+|![공격 시뮬레이션 단계](../../media/mtp/run-sim.png) <br>[공격 시뮬레이션 단계](mtp-pilot-simulate.md) | Microsoft Threat Protection 파일럿 환경에 대 한 공격 시뮬레이션을 실행 합니다.
+|:-------|:-----|

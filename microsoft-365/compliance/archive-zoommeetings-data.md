@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Globanet Zoom Meeting에서 Microsoft 365로 데이터를 가져오고 보관 하기 위한 커넥터를 설정할 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: 6b2f5f0b61eb2d569ad49d8f58c7e03d11cdbca0
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: c7052e7f51108cac93ad8d87402a07acd12df28a
+ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405499"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47956235"
 ---
 # <a name="set-up-a-connector-to-archive-zoom-meetings-data-preview"></a>확대/축소 모임 데이터를 보관 하는 연결선 설정 (미리 보기)
 
@@ -30,7 +30,7 @@ Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 확대/축�
 
 다음 개요에서는 커넥터를 사용 하 여 Microsoft 365에서 확대/축소 모임 데이터를 보관 하는 프로세스에 대해 설명 합니다.
 
-![여유 시간 eDiscovery 보관 워크플로](../media/ZoomMeetingsConnectorWorkflow.png)
+![확대/축소 모임 보관 워크플로](../media/ZoomMeetingsConnectorWorkflow.png)
 
 1. 조직은 확대/축소 회의와 함께 작업 하 여 모임 확대/축소 사이트를 설정 및 구성 합니다.
 

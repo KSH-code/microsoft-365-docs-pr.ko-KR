@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 60c1a39e350a9a1d5d43c9b59ab12c4a6ad3f12a
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: c3323192e0095ad6693241390cff81d42be9cce1
+ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47817184"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47956246"
 ---
 # <a name="set-up-your-microsoft-threat-protection-trial-lab-environment"></a>Microsoft Threat Protection 평가판 랩 환경 설정 
 
@@ -121,7 +121,7 @@ Microsoft 365 E5 라이선스를 등록 하는 데 사용할 수 있는 *onmicro
 ## <a name="enable-microsoft-365-trial-subscription"></a>Microsoft 365 평가판 구독 사용
 
 >[!NOTE]
->평가판에 등록 하면 월별 사용자 라이선스 25 개를 사용할 수 있습니다. 자세한 내용은 [M365 구독을 시도해 보거나 구매](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide#try-or-buy-a-microsoft-365-subscription-1) 를 참조 하세요.
+>평가판에 등록 하면 월별 사용자 라이선스 25 개를 사용할 수 있습니다. 자세한 내용은 [M365 구독을 시도해 보거나 구매](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365#try-or-buy-a-microsoft-365-subscription-1) 를 참조 하세요.
 
 1. [Microsoft 365 관리 센터](https://admin.microsoft.com/)에서 **대금 청구** 를 클릭 하 고 **서비스 구매**로 이동 합니다.
 
@@ -149,4 +149,5 @@ Microsoft 365 E5 라이선스를 등록 하는 데 사용할 수 있는 *onmicro
 
 
 ## <a name="next-step"></a>다음 단계
-![3 단계: 온보드 & 구성](../../media/config-onboard.png) <br>[3 단계: 온보드 & 구성](config-mtpeval.md) <br>Microsoft Threat Protection 평가판 lab 또는 파일럿 환경에 대해 각 Microsoft Threat Protection을 구성 하 고 끝점을 등록 합니다.
+|![3 단계: 온보드 & 구성](../../media/config-onboard.png) <br>[3 단계: 온보드 & 구성](config-mtpeval.md) | Microsoft Threat Protection 평가판 lab 또는 파일럿 환경에 대해 각 Microsoft Threat Protection을 구성 하 고 끝점을 등록 합니다.
+|:-------|:-----|

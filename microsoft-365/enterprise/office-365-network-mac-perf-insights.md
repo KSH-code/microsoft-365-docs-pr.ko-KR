@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 Network Insights (미리 보기)
-ms.openlocfilehash: e3730704b6672c931b7538659a38f218e769dd0a
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: 682c888fefb9bec9725e470d62019c857fc2de07
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962374"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171341"
 ---
 # <a name="microsoft-365-network-insights-preview"></a>Microsoft 365 Network Insights (미리 보기)
 
@@ -157,7 +157,7 @@ Exchange Online 서비스 프런트 도어를 사용 하는 경우에는 회사 
 
 ### <a name="what-should-i-do"></a>제가 뭘 해야 하나요?
 
-Office 위치 네트워크 연결 표시 기능 사용 (아직 수행 하지 않은 경우) Exchange에 영향을 주는 네트워크 연결 불량으로 인해 어떤 사무실이 어느 지점에 있습니까? 및 사용자를 Microsoft 네트워크에 연결 하는 각 위치에서 네트워크 경계를 개선 하는 방법을 확인 하려는 경우
+Office 위치 네트워크 연결 표시 기능 사용 (아직 수행 하지 않은 경우) Exchange에 영향을 주는 불량 네트워크 연결의 영향을 받는 사무실을 확인 하 고 사용자를 Microsoft 네트워크에 연결 하는 각 위치에서 네트워크 경계를 개선 하는 방법을 확인 하려는 경우
 
 ## <a name="sharepoint-sampled-connections-impacted-by-connectivity-issues"></a>연결 문제의 영향을 받는 SharePoint 샘플링 된 연결
 
@@ -169,7 +169,7 @@ Office 위치 네트워크 연결 표시 기능 사용 (아직 수행 하지 않
 
 ### <a name="what-should-i-do"></a>제가 뭘 해야 하나요?
 
-Office 위치 네트워크 연결 표시 기능 사용 (아직 수행 하지 않은 경우) SharePoint에 영향을 주는 네트워크 연결 불량으로 인해 발생 하는 사무실을 확인 하 고 사용자를 Microsoft 네트워크에 연결 하는 각각의 네트워크 경계를 개선 하는 방법을 확인 하려는 경우
+Office 위치 네트워크 연결 표시 기능 사용 (아직 수행 하지 않은 경우) SharePoint에 영향을 주는 불량 네트워크 연결의 영향을 받는 사무실을 파악 하 고 사용자를 Microsoft 네트워크에 연결 하는 각각의 네트워크 경계를 개선 하는 방법을 확인 하려는 경우
 
 ## <a name="related-topics"></a>관련 항목
 
@@ -177,6 +177,6 @@ Office 위치 네트워크 연결 표시 기능 사용 (아직 수행 하지 않
 
 [Microsoft 365 네트워크 평가 (미리 보기)](office-365-network-mac-perf-score.md)
 
-[M365 관리 센터의 Microsoft 365 connectivity test (preview)](office-365-network-mac-perf-onboarding-tool.md)
+[Microsoft 365 네트워크 연결 테스트 도구 (미리 보기)](office-365-network-mac-perf-onboarding-tool.md)
 
 [Microsoft 365 네트워크 연결 위치 서비스 (미리 보기)](office-365-network-mac-location-services.md)

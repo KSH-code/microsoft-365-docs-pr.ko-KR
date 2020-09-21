@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: 중앙 집중식 배포를 사용 하 여 Office 추가 기능을 배포할 수 있도록 테 넌 트 및 사용자가 요구 사항을 충족 하는지 확인 합니다.
-ms.openlocfilehash: fbf6ce702cfe0fa3c85b634996a38cc4857190b6
-ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
+ms.openlocfilehash: 4bd81dcf1d1ee6221a3519baac0a3b1bc63b791f
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "45102875"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131737"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 맞게 작동 하는지 확인
 
@@ -46,7 +46,7 @@ ms.locfileid: "45102875"
 ## <a name="requirements"></a>요구 사항
 
 추가 기능의 중앙 집중식 배포에서는 사용자가 Microsoft 365 앱 for enterprise (및 조직 ID를 사용 하 여 Office에 로그인)를 사용 하 고 있으며 Exchange Online 및 active Exchange Online 사서함이 있어야 합니다. 구독 디렉터리는 내에 있거나 Azure Active Directory에 페더레이션 되어 있어야 합니다.
-아래의 Office 및 Exchange에 대 한 특정 요구 사항을 보거나 [중앙 집중식 배포 호환성 검사](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker)를 사용할 수 있습니다.
+아래의 Office 및 Exchange에 대 한 특정 요구 사항을 보거나[중앙 집중식 배포 호환성 검사](#centralized-deployment-compatibility-checker)를 사용할 수 있습니다.
 
 중앙 집중식 배포는 다음을 지원하지 않습니다.
   
@@ -82,7 +82,7 @@ Microsoft 365 Apps for enterprise를 사용 하려면 사용자에 게 Microsoft
 
 사용자가 office 용 Microsoft 365 앱이 설치 되어 있고 최근에 사용 중인 경우 microsoft 365 관리 센터에서 사용할 수 있는 Microsoft Office 정품 인증 보고서를 사용 하는 것이 가장 간단한 방법입니다. 이 보고서는 지난 7 일, 30 일, 90 일 또는 180 일 이내에 엔터프라이즈 용 Microsoft 365 앱을 정품 인증 한 모든 사용자의 목록을 제공 합니다. 중앙 집중식 배포를 위해 Windows 또는 Mac에 대한 데스크톱 정품 인증은 보고서의 중요 열에 있습니다. 보고서를 Excel로 내보낼 수 있습니다. 보고서에 대 한 자세한 내용은 [관리 센터의 microsoft 365 보고서-Microsoft Office 정품 인증](../activity-reports/microsoft-office-activations.md)을 참조 하세요.
   
-정품 인증 보고서를 사용 하지 않으려는 경우 사용자에 게 컴퓨터에서 Word와 같은 Office 응용 프로그램을 열도록 요청 하 고 **파일** \> **계정을**선택 하면 됩니다. 다음 이미지에 표시 된 것 처럼 **제품 정보**아래에는 **구독 제품** 및 **Microsoft 365 for enterprise**가 표시 됩니다.
+정품 인증 보고서를 사용 하지 않으려는 경우 사용자에 게 컴퓨터에서 Word와 같은 Office 응용 프로그램을 열도록 요청 하 고 **파일** \> **계정을**선택 하면 됩니다. **제품 정보**에는 다음 이미지에 표시 된 것과 비슷한 **구독 제품** 및 microsoft 365 Business Premium **for enterprise**또는 microsoft 365이 표시 됩니다.
 
 ![Office 응용 프로그램의 제품 정보](../../media/product-information-microsoft-365-enterprise.png)
   
@@ -115,7 +115,7 @@ Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능�
    ```powershell
    Invoke-CompatibilityCheck
    ```
-   이 명령은 *_Tenantdomain_* (예: *TailspinToysIncorporated microsoft </span> )을 입력 하 라는 메시지를 표시 합니다. com*) 및 *_TenantAdmin_* 자격 증명 (전역 관리자 자격 증명 사용)을 선택한 다음 동의를 요청 합니다.
+   이 명령은  *_Tenantdomain_* (예: *TailspinToysIncorporated microsoft </span> )을 입력 하 라는 메시지를 표시 합니다. com*) 및  *_TenantAdmin_* 자격 증명 (전역 관리자 자격 증명 사용)을 선택한 다음 동의를 요청 합니다.
     
    > [!NOTE]
    > 테넌트의 사용자 수에 따라 검사를 완료하는 데 몇 분 또는 몇 시간이 걸릴 수 있습니다. 

@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 description: 포함 된 내용, 가져오는 방법 및 다음 단계를 포함 하 여 Microsoft 365 솔루션 카탈로그에 대해 알아봅니다.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: f396801d4241b06c5523e4f3312c9ce597ac015e
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: ff445711dfd57ec69305c3f8cc7d01e05a66a1cc
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547566"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48132172"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Microsoft 365 솔루션 카탈로그
 
@@ -79,7 +79,7 @@ Microsoft 365의 규정 준수 솔루션은 종단 간 규정 준수 시나리�
 
 Microsoft 365 솔루션 카탈로그를 방문 하려면로 이동 하 [https://compliance.microsoft.com](https://compliance.microsoft.com) 고 전역 관리자, 준수 관리자 또는 준수 데이터 관리자로 로그인 합니다. 화면 왼쪽의 탐색 창에서 **카탈로그** 를 선택 하 여 카탈로그 홈 페이지를 엽니다.
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **Microsoft 365 솔루션 카탈로그가 표시 되지 않는 이유는 무엇 인가요?**
 
@@ -101,6 +101,6 @@ Microsoft 365 솔루션 카탈로그를 방문 하려면로 이동 하 [https://
 
 - **Microsoft**365 솔루션을 통해 microsoft에서 중요 한 정보를 검색, 분류 및 보호 하는 방법에 대해 알아봅니다.
     - **Microsoft Cloud App Security를 숙지 하 고 설정**합니다. [퀵 스타트: Microsoft Cloud App Security 시작을](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)참조 하세요.
-    - **분류자 작업을 시작**합니다. 콘텐츠를 분류 한 다음이를 보호 하 고 적절 하 게 레이블을 지정 하 여 정보 보호 규칙의 시작 위치입니다. [Trainable 분류자 시작을](classifier-getting-started-with.md)참조 하세요.
+    - **분류자 작업을 시작**합니다. 콘텐츠를 분류 한 다음이를 보호 하 고 적절 하 게 레이블을 지정 하 여 정보 보호 규칙의 시작 위치입니다. 자세한 내용은 [trainable 분류자 (preview)](classifier-learn-about.md)를 참조 하십시오.
 
 - **Microsoft 365 솔루션 카탈로그를 자주 방문**하 고, 준수 요구 사항에 도움이 되는 새로운 솔루션을 검토 해야 합니다. 로그인 [https://compliance.microsoft.com](https://compliance.microsoft.com) 한 다음 왼쪽 탐색 창에서 **카탈로그** 를 선택 합니다.

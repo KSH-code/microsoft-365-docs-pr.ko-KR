@@ -2,7 +2,7 @@
 title: 파일 및 동영상 공유
 f1.keywords:
 - NOCSH
-ms.author: stevhord
+ms.author: twerner
 author: twerner
 manager: scotv
 ms.audience: Admin
@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 캠페인 내부에서 Microsoft 팀과 SharePoint로 파일 및 비디오를 공유 합니다.
-ms.openlocfilehash: b3ca070152a19841ff2c934f04d0d147e3387db0
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: d8f9df1befe720dbcd2affc56ff02f29c037216b
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526903"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48132015"
 ---
 # <a name="share-files-and-videos"></a>파일 및 동영상 공유
 

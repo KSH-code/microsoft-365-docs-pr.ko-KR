@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 네트워크 연결 테스트 (미리 보기)
-ms.openlocfilehash: 2197f3361efee51dfa2bd170b0c8d8e94709d3e8
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: 40a46ecb39366c64c99077e90bb35c5056f36b9d
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962401"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171353"
 ---
 # <a name="microsoft-365-network-connectivity-test-preview"></a>Microsoft 365 네트워크 연결 테스트 (미리 보기)
 
@@ -37,13 +37,33 @@ Microsoft 365 관리 센터의 각 사무실 위치에 대해 네트워킹 품�
 >[!IMPORTANT]
 >네트워크 insights, Microsoft 365 관리 센터의 성능 권장 사항 및 평가는 현재 미리 보기 상태 이며, 기능 미리 보기 프로그램에 등록 되어 있는 Microsoft 365 테 넌 트에만 사용할 수 있습니다.
 
-## <a name="the-advanced-tests-client-application"></a>고급 테스트 클라이언트 응용 프로그램
+## <a name="what-happens-at-each-test-step"></a>각 테스트 단계에서 수행 되는 작업
+
+### <a name="office-location-identification"></a>사무실 위치 식별
+
+테스트 실행 단추를 클릭 하면 실행 중인 테스트 페이지가 표시 되 고 사무실 위치를 식별 합니다. 구/군/시, 시/도 및 국가를 기준으로 위치를 입력 하거나 웹 브라우저에서 검색 하도록 설정할 수 있습니다. 검색 한 후에는 웹 브라우저에서 위도 및 경도를 요청 하 고 사용 하기 전에 300m에 따라 정확성을 300m으로 제한 합니다. 네트워크 성능에 대 한 건물 보다 더 정확 하 게 위치를 식별할 필요가 없기 때문에이 작업을 수행 합니다. 
+
+### <a name="javascript-tests"></a>JavaScript 테스트
+
+Office 위치 확인 후 JavaScript에서 TCP 대기 시간 테스트를 실행 하 고 서비스에서 사용 및 권장 되는 Office 365 서비스 전면 도어 서버에 대 한 데이터를 요청 합니다. 완료 되 면 지도에 표시 되 고 다음 단계 이전에 볼 수 있는 세부 정보 탭에 나타납니다.
+
+### <a name="download-the-advanced-tests-client-application"></a>고급 테스트 클라이언트 응용 프로그램 다운로드
+
+다음으로, 고급 테스트 클라이언트 응용 프로그램의 다운로드를 시작 합니다. 사용자가 클라이언트 응용 프로그램을 시작 하는 데 의존 하며 .NET Core도 설치 되어 있어야 합니다.
 
 Microsoft 365 네트워크 연결 테스트는 두 부분으로 구성 됩니다. <https://connectivity.office.com> 고급 네트워크 연결 테스트를 실행 하는 다운로드 가능한 Windows 클라이언트 응용 프로그램 및 웹 사이트 대부분의 테스트에서는 응용 프로그램을 실행 해야 합니다. 그러면 결과가 웹 페이지에 다시 실행 될 때 채워집니다.
 
 웹 브라우저 테스트가 완료 되 면 웹 사이트에서 고급 클라이언트 테스트 응용 프로그램을 다운로드 하 라는 메시지가 표시 됩니다. 메시지가 표시 되 면 파일을 열고 실행 합니다.
 
 ![고급 테스트 클라이언트 응용 프로그램](../media/m365-mac-perf/m365-mac-perf-open-run-file.png)
+
+### <a name="start-the-advanced-tests-client-application"></a>고급 테스트 클라이언트 응용 프로그램 시작
+
+클라이언트 응용 프로그램이 시작 되 면 웹 페이지가 표시 되도록 업데이트 되 고 테스트 데이터가 웹 페이지로 수신 되기 시작 합니다. 새 데이터를 받을 때마다 업데이트 되며 도착 하면 데이터를 검토할 수 있습니다.
+
+### <a name="advanced-tests-completed-and-test-report-upload"></a>고급 테스트가 완료 되었으며 보고서 업로드 테스트
+
+테스트가 완료 되 면 웹 페이지와 고급 테스트 클라이언트가 모두이를 나타내고 테스트 보고서에 로그인 한 사용자가 고객 테 넌 트에 업로드 됩니다.
 
 ## <a name="sharing-your-test-report"></a>테스트 보고서 공유
 
@@ -111,7 +131,7 @@ Microsoft 365 네트워크 연결에는 사용자 사무실 위치에서 인터�
 
 #### <a name="vpn-split-tunnel"></a>VPN 분할 터널
 
-Exchange Online, SharePoint Online 및 Microsoft 팀에 대 한 각 최적화 범주 경로는 VPN에서 tunnelled 인지 여부를 테스트 합니다. 작업을 분할 하면 VPN 전체가 방지 됩니다. Tunnelled 작업 부하는 모두 VPN을 통해 전송 됩니다. 선택적 tunnelled 작업에는 VPN을 통해 전송 되는 일부 경로와 몇 개의 분할이 있습니다. 모든 작업을 분할 또는 선택적 tunnelled 경우 통과 결과가 표시 됩니다.
+Exchange Online, SharePoint Online 및 Microsoft 팀에 대 한 각 최적화 범주 경로는 VPN에서 터널링 되는지 여부를 테스트 합니다. 작업을 분할 하면 VPN 전체가 방지 됩니다. 터널링 된 작업은 모두 VPN을 통해 전송 됩니다. 선택적 터널링 된 작업에는 VPN을 통해 전송 되는 일부 경로와 몇 개의 분할이 있습니다. 모든 작업을 분할 하거나 선택적으로 터널링 하면 통과 결과가 표시 됩니다.
 
 #### <a name="customers-in-your-metropolitan-area-with-better-performance"></a>대도시 영역에 있는 고객의 성능 향상
 
@@ -207,28 +227,6 @@ Microsoft에서 제공 하지 않는 SSL 인증서가 발견 되 면 테스트�
 
 이 섹션에서는 Exchange Online 서비스 전면 도어, SharePoint Online 서비스 전면 도어 및 Microsoft 팀 서비스 전면 도어에 대 한 ICMP traceroute 결과를 보여 줍니다. 정보를 제공 하기 위한 것 이며 연결 된 네트워크 통찰력은 없습니다. 3 개의 traceroutes 제공 됩니다. _Outlook.office365.com_에 대 한 traceroute, 고객 SharePoint 프런트 엔드에 대 한 traceroute 또는 _microsoft.sharepoint.com_ 에 대 한 _traceroute를 제공 합니다._
 
-## <a name="what-happens-at-each-test-step"></a>각 테스트 단계에서 수행 되는 작업
-
-### <a name="office-location-identification"></a>사무실 위치 식별
-
-테스트 실행 단추를 클릭 하면 실행 중인 테스트 페이지가 표시 되 고 사무실 위치를 식별 합니다. 구/군/시, 시/도 및 국가를 기준으로 위치를 입력 하거나 웹 브라우저에서 검색 하도록 설정할 수 있습니다. 검색 한 후에는 웹 브라우저에서 위도 및 경도를 요청 하 고 사용 하기 전에 300m에 따라 정확성을 300m으로 제한 합니다. 네트워크 성능에 대 한 건물 보다 더 정확 하 게 위치를 식별할 필요가 없기 때문에이 작업을 수행 합니다. 
-
-### <a name="javascript-tests"></a>JavaScript 테스트
-
-Office 위치 확인 후 JavaScript에서 TCP 대기 시간 테스트를 실행 하 고 서비스에서 사용 및 권장 되는 Office 365 서비스 전면 도어 서버에 대 한 데이터를 요청 합니다. 완료 되 면 지도에 표시 되 고 다음 단계 이전에 볼 수 있는 세부 정보 탭에 나타납니다.
-
-### <a name="download-the-advanced-tests-client-application"></a>고급 테스트 클라이언트 응용 프로그램 다운로드
-
-다음으로, 고급 테스트 클라이언트 응용 프로그램의 다운로드를 시작 합니다. 사용자가 클라이언트 응용 프로그램을 시작 하는 데 의존 하며 .NET Core도 설치 되어 있어야 합니다.
-
-### <a name="start-the-advanced-tests-client-application"></a>고급 테스트 클라이언트 응용 프로그램 시작
-
-클라이언트 응용 프로그램이 시작 되 면 웹 페이지가 표시 되도록 업데이트 되 고 테스트 데이터가 웹 페이지로 수신 되기 시작 합니다. 새 데이터를 받을 때마다 업데이트 되며 도착 하면 데이터를 검토할 수 있습니다.
-
-### <a name="advanced-tests-completed-and-test-report-upload"></a>고급 테스트가 완료 되었으며 보고서 업로드 테스트
-
-테스트가 완료 되 면 웹 페이지와 고급 테스트 클라이언트가 모두이를 나타내고 테스트 보고서에 로그인 한 사용자가 고객 테 넌 트에 업로드 됩니다.
-
 ## <a name="connectivity-reports"></a>연결 보고서
 
 로그인 한 경우 이전에 실행 한 보고서를 검토할 수 있습니다. 또한 목록에서 공유 하거나 삭제할 수 있습니다.
@@ -251,7 +249,7 @@ Office 위치 확인 후 JavaScript에서 TCP 대기 시간 테스트를 실행 
 
 ### <a name="what-is-required-to-run-the-advanced-test-client"></a>고급 테스트 클라이언트를 실행 하는 데 필요한 사항
 
-고급 테스트 클라이언트에는 .NET Core 3.1 데스크톱 런타임이 필요 합니다. 설치 하지 않고 고급 테스트 클라이언트를 실행 하는 경우에는 [.Net Core 3.1 설치 관리자 페이지로](https://dotnet.microsoft.com/download/dotnet-core/3.1)이동 합니다. 데스크톱 런타임과 SDK가 설치 되어 있지 않거나 해당 페이지에서 위쪽에 있는 ASP.NET 코어 런타임이 있어야 합니다. 컴퓨터에 대 한 관리자 권한이 reuqired .NET Core를 설치 합니다. 
+고급 테스트 클라이언트에는 .NET Core 3.1 데스크톱 런타임이 필요 합니다. 설치 하지 않고 고급 테스트 클라이언트를 실행 하는 경우에는 [.Net Core 3.1 설치 관리자 페이지로](https://dotnet.microsoft.com/download/dotnet-core/3.1)이동 합니다. 데스크톱 런타임과 SDK가 설치 되어 있지 않거나 해당 페이지에서 위쪽에 있는 ASP.NET 코어 런타임이 있어야 합니다. .NET Core를 설치 하려면 컴퓨터에 대 한 관리자 권한이 필요 합니다. 
 
 ### <a name="what-is-microsoft-365-service-front-door"></a>Microsoft 365 서비스 전면 도어 란?
 

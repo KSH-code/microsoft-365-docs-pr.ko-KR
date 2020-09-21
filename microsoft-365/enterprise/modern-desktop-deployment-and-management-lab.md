@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: 09441f879fa41d1b920aae7d37625d0a52160d84
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: bf49a815c0d3d952187f863120865ab3aa4674fc
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949883"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171413"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 
@@ -54,35 +54,47 @@ ms.locfileid: "47949883"
 자세한 랩 가이드는 여러 배포 및 관리 시나리오를 안내합니다. 최신 버전의 Intune 및 Configuration Manager에 대한 랩이 업데이트되었습니다. 
 
 ### <a name="plan-and-prepare-infrastructure"></a>인프라 계획 및 준비 
-Desktop Analytics   
-클라우드 관리 게이트웨이 & 클라우드 배포 지점 테 넌 트 연결, 공동 관리 및 작업 전환    
-원격 액세스
+- Desktop Analytics 
+- 클라우드 관리 게이트웨이 & 구름 배포 지점 
+- 테 넌 트 연결, 공동 관리 및 작업 전환  
+- 원격 액세스 (VPN) 
 
 ### <a name="prepare-configuration"></a>구성 준비   
-Optimize Windows 10 Update Delivery 서비스 windows 10 with a Group Policy 서비스를 사용 하 여 Microsoft Intune 서비스를 사용할 때 365의 365 구성 관리자 서비스 windows 10 사용 구성    
-보안 및 규정 준수 
+- Windows 10 업데이트 배달 최적화   
+- 그룹 정책을 사용 하 여 Windows 10 서비스 수행
+- Microsoft Intune을 사용 하 여 Windows 10 서비스   
+- Configuration Manager를 사용 하 여 Windows 10 서비스   
+- Configuration Manager를 사용 하 여 엔터프라이즈에 대 한 Microsoft 365 앱 설치   
+- Intune을 사용 하 여 엔터프라이즈에 대 한 Microsoft 365 앱 서비스 제공  
+- 보안 및 규정 준수   
 
 ### <a name="prepare-applications"></a>응용 프로그램 준비    
-Office 용 준비 도구 키트    
-Win32 응용 프로그램의 MSIX 패키징 및 변환 
+- Office 용 준비 도구 키트  
+- Win32 응용 프로그램의 MSIX 패키징 및 변환   
 
 ### <a name="deploy-windows-10"></a>Windows 10 배포   
-MDT Windows Autopilot의 OS 배포 작업 순서 새 Microsoft Edge 배포 및 관리    
+- Configuration Manager의 OS 배포 작업 순서
+- MDT의 OS 배포 작업 순서   
+- Windows Autopilot
+- 새 Microsoft Edge 배포 및 관리  
 
 ### <a name="deploy-microsoft-365-apps-for-enterprise"></a>엔터프라이즈용 Microsoft 365 앱 배포    
-클라우드 관리 되는 배포    
-로컬로 관리 되는 배포  
-AD에 가입 되지 않은 장치에 대 한 Microsoft 365 앱 엔터프라이즈 배포   
-Microsoft Intune을 사용 하 여 Configuration Manager 엔터프라이즈 관리 배포를 사용 하는 엔터프라이즈 관리 배포    
-Microsoft Intune을 사용한 LOB 배포 및 관리 Microsoft 팀 배포
+- 클라우드 관리 되는 배포  
+- 로컬로 관리 되는 배포    
+- AD에 가입 되지 않은 장치에 대 한 Microsoft 365 앱 엔터프라이즈 배포 
+- Configuration Manager를 사용한 엔터프라이즈 관리 배포
+- Microsoft Intune을 사용 하 여 엔터프라이즈 관리 배포  
+- Microsoft Intune을 사용한 LOB 배포 및 관리
+- Microsoft 팀 배포
 
 ### <a name="deploy-windows-virtual-desktop"></a>Windows 가상 데스크톱 배포  
+- 준비, 배포, 최적화
  
 ### <a name="download-the-windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트 다운로드
 
 [Windows 및 Office 배포 랩 키트 다운로드](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
-*광범위 한 대역폭을 사용 하 여이 콘텐츠를 다운로드 하 여 다운로드 환경을 개선 하 고 자동 프로비저닝을 위해 30-45 분을 허용 하세요. 랩 환경에는 최소 16gb의 사용 가능한 메모리 및 150 GB의 사용 가능한 디스크 공간이 필요 합니다. 최적의 성능을 위해 32 GB의 사용 가능한 메모리가 권장 됩니다. 랩은 12 월 4 일 2020에 만료 됩니다. 새 버전이 만료 되기 전에 게시 됩니다.*
+*광범위 한 대역폭을 사용 하 여이 콘텐츠를 다운로드 하 여 다운로드 환경을 개선 하 고 자동 프로비저닝을 위해 30-45 분을 허용 하세요. 랩 환경에는 최소 16gb의 사용 가능한 메모리 및 150 GB의 사용 가능한 디스크 공간이 필요 합니다. 최적의 성능을 위해 32 GB의 사용 가능한 메모리가 권장 됩니다. 랩은 2020 년 12 월 5 일에 만료 됩니다. 새 버전이 만료 되기 전에 게시 됩니다.*
 
 ## <a name="additional-guidance"></a>추가 안내
 

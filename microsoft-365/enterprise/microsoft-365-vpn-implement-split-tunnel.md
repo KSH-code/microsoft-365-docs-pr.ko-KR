@@ -3,7 +3,7 @@ title: Office 365 VPN 분할 터널링 구현
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 6/15/2020
+ms.date: 9/21/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -17,12 +17,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Office 365 VPN 분할 터널링 구현 방법
-ms.openlocfilehash: 1fa86501e9cf29ffd41ec5b25a86cc4f2b139d52
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: bfdc11ffe4244ec0ac83bb1c0470476aafeec939
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46696383"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171425"
 ---
 # <a name="implementing-vpn-split-tunneling-for-office-365"></a>Office 365 VPN 분할 터널링 구현
 
@@ -220,7 +220,7 @@ foreach ($prefix in $destPrefix) {New-NetRoute -DestinationPrefix $prefix -Inter
 
 ### <a name="configuration"></a>구성
 
-호출 및 모임의 경우 Teams 미디어의 필수 최적화 IP 서브넷이 라우팅 테이블에 제대로 포함되어 있는 경우에는 Teams가 _GetBestRoute_ 메서드를 호출하여 특정 대상에 어떤 인터페이스를 사용해야 하는지 결정하면, 위에 나열된 Microsoft IP 블록의 Microsoft 대상에 대해 로컬 인터페이스가 반환됩니다.
+팀 미디어에 필요한 최적화 IP 서브넷이 경로 테이블에 올바르게 배치 되어 있는 한 통화 및 모임에 대해 팀에서 [GetBestRoute](https://docs.microsoft.com/windows/win32/api/iphlpapi/nf-iphlpapi-getbestroute) 함수를 호출 하 여 특정 대상에 대해 사용할 경로에 해당 하는 로컬 인터페이스를 확인 하는 경우에는 위에 나와 있는 microsoft IP 블록의 microsoft 대상에 대해 로컬 인터페이스를 반환 합니다.
 
 일부 VPN 클라이언트 소프트웨어는 URL을 기반으로 경로를 조작할 수 있습니다. 그러나 Teams 미디어 트래픽에는 연결된 URL이 없으므로 이 트래픽에 대한 경로 제어는 IP 서브넷을 사용하여 수행해야 합니다.
 
@@ -293,7 +293,7 @@ Microsoft 보안 팀은 보안 전문가를 위한 주요 방법을 개략적으
 
 ### <a name="how-do-i-apply-dlp-and-protect-my-sensitive-data-when-the-traffic-no-longer-flows-through-my-on-premises-solution"></a>트래픽이 더 이상 온-프레미스 솔루션을 통해 전달되지 않는 경우 DLP를 적용하고 중요한 데이터를 보호하려면 어떻게 해야 하나요?
 
-Office 365에는 중요한 정보가 실수로 노출되는 것을 방지하기 위한 다양한 [기본 제공 도구](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies?view=o365-worldwide)가 있습니다. Teams 및 SharePoint의 기본 제공 [DLP 기능](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies?view=o365-worldwide)을 사용하여 부적절하게 저장되거나 공유된 중요한 정보를 감지할 수 있습니다. 원격 작업 전략의 일부분에 게 BYOD (직접 장치 만들기) 정책이 포함 되는 경우에는 [앱 기반 조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-conditional-access) 를 사용 하 여 중요 한 데이터가 사용자의 개인 장치로 다운로드 되지 않도록 할 수 있습니다.
+Office 365에는 중요한 정보가 실수로 노출되는 것을 방지하기 위한 다양한 [기본 제공 도구](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)가 있습니다. Teams 및 SharePoint의 기본 제공 [DLP 기능](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)을 사용하여 부적절하게 저장되거나 공유된 중요한 정보를 감지할 수 있습니다. 원격 작업 전략의 일부분에 게 BYOD (직접 장치 만들기) 정책이 포함 되는 경우에는 [앱 기반 조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-conditional-access) 를 사용 하 여 중요 한 데이터가 사용자의 개인 장치로 다운로드 되지 않도록 할 수 있습니다.
 
 ### <a name="how-do-i-evaluate-and-maintain-control-of-the-users-authentication-when-they-are-connecting-directly"></a>사용자가 직접 연결할 때 사용자 인증을 평가하고 제어하는 방법은 무엇인가요?
 
@@ -307,7 +307,7 @@ Q1에 나와있는 테넌트 제한 기능 외에도 [조건부 액세스 정책
 
 ### <a name="how-do-i-protect-against-viruses-and-malware"></a>바이러스 및 맬웨어를 방지하려면 어떻게 해야 하나요?
 
-Office 365는 [이 문서에서 설명하는](https://docs.microsoft.com/office365/Enterprise/office-365-malware-and-ransomware-protection) 서비스 자체의 다양한 계층에서 최적화 표시된 끝점에 대한 보호를 제공합니다. 앞서 설명한 것 처럼, 이러한 보안 요소를 서비스 자체에 제공 하는 것이 더 효율적 이며, 프로토콜/트래픽을 완전히 이해 하지 못할 수 있는 장치에 대 한 회선을 사용 하는 것이 좋습니다. 기본적으로 SharePoint Online은 알려진 맬웨어에 대 한 [파일 업로드를 자동으로 검색](https://docs.microsoft.com/microsoft-365/security/office-365-security/virus-detection-in-spo?view=o365-worldwide) 합니다.
+Office 365는 [이 문서에서 설명하는](https://docs.microsoft.com/office365/Enterprise/office-365-malware-and-ransomware-protection) 서비스 자체의 다양한 계층에서 최적화 표시된 끝점에 대한 보호를 제공합니다. 앞서 설명한 것 처럼, 이러한 보안 요소를 서비스 자체에 제공 하는 것이 더 효율적 이며, 프로토콜/트래픽을 완전히 이해 하지 못할 수 있는 장치에 대 한 회선을 사용 하는 것이 좋습니다. 기본적으로 SharePoint Online은 알려진 맬웨어에 대 한 [파일 업로드를 자동으로 검색](https://docs.microsoft.com/microsoft-365/security/office-365-security/virus-detection-in-spo) 합니다.
 
 위에 나열된 Exchange 끝점의 경우 [Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) 및 [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)이 서비스에 대해 탁월한 트래픽 보안을 제공합니다.
 
@@ -323,7 +323,7 @@ Azure Virtual Network에 대한 직접 액세스를 허용하는 방법에 대�
 
 ### <a name="why-is-port-80-required-is-traffic-sent-in-the-clear"></a>포트 80이 필요한 이유는 무엇인가요? 트래픽이 보안되지 않은 상태로 전송되나요?
 
-포트 80은 포트 443 세션으로의 리디렉션과 같은 용도로만 사용되며 고객 데이터는 포트 80을 통해 보내거나 액세스될 수 없습니다. [이 문서](https://docs.microsoft.com/microsoft-365/compliance/encryption?view=o365-worldwide)에서는 Office 365의 전송 중인 데이터와 미사용 데이터의 암호화에 대해 간략하게 설명하고, [이 문서](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows#types-of-traffic)에서는 SRTP를 사용하여 Teams 미디어 트래픽을 보호하는 방법에 대해 설명합니다.
+포트 80은 포트 443 세션으로의 리디렉션과 같은 용도로만 사용되며 고객 데이터는 포트 80을 통해 보내거나 액세스될 수 없습니다. [이 문서](https://docs.microsoft.com/microsoft-365/compliance/encryption)에서는 Office 365의 전송 중인 데이터와 미사용 데이터의 암호화에 대해 간략하게 설명하고, [이 문서](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows#types-of-traffic)에서는 SRTP를 사용하여 Teams 미디어 트래픽을 보호하는 방법에 대해 설명합니다.
 
 ### <a name="does-this-advice-apply-to-users-in-china-using-a-worldwide-instance-of-office-365"></a>이 권고는 Office 365 월드와이드 인스턴스를 사용하는 중국 사용자에게 적용되나요?
 

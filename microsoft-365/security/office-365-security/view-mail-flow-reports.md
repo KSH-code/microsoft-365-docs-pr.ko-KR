@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 보안 & 준수 센터의 보고서 대시보드에서 사용할 수 있는 메일 흐름 보고서에 대해 알아볼 수 있습니다.
 ms.custom: ''
-ms.openlocfilehash: 772aec3c18e3e6343bdfd4831252d03a46961735
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 3db9130083565d77bb84b4b31ec63eee5cc7a7c9
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949623"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171401"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>보안 & 준수 센터의 보고서 대시보드에서 메일 흐름 보고서 보기
 
@@ -399,7 +399,7 @@ EOP 또는 ATP가 필터링 한 전자 메일을 보려면 차트 범례에서 �
 
 ## <a name="sent-and-received-email-report"></a>보내고 받은 전자 메일 보고서
 
-**Sent and received email** 보고서는 스팸 감지, 맬웨어 및 "양호"로 식별 된 전자 메일을 포함 하 여 수신 및 발신 전자 메일에 대 한 정보를 표시 하는 스마트 보고서입니다. 이 보고서와 [메일 흐름 status 보고서](#mailflow-status-report) 의 차이점은 다음과 같습니다 .이 보고서에는 edge 보호에 의해 차단 된 메시지에 대 한 데이터가 포함 되어 있지 않습니다.
+**Sent and received email** 보고서는 스팸 감지, 맬웨어 및 "양호"로 식별 된 전자 메일을 포함 하 여 수신 및 발신 전자 메일에 대 한 정보를 표시 하는 스마트 보고서입니다. 이 보고서와 [메일 흐름 status 보고서](#mailflow-status-report) 의 차이점은 다음과 같습니다 .이 보고서에는 edge 보호에 의해 차단 된 메시지에 대 한 데이터가 포함 되어 있지 않습니다. 메시지가 5 명의 받는 사람에 게 전송 되 면 메시지 하나로 계산 된다는 것을 이해 하는 것이 중요 합니다.
 
 보고서의 집계 보기 및 자세히 보기를 사용 하면 90 일의 필터링을 사용할 수 있습니다.
 

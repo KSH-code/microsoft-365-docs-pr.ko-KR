@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9b838071-94aa-4b8e-8d84-d17ece1ee951
-description: 암호를 다시 설정 하 고 새 Microsoft 365 사용자에 게 알림 전자 메일을 보내는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d39a448cdea9e986c46fbebc1d4cfcdf63882daf
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+description: 암호를 다시 설정 하 고 새 Microsoft 365 사용자에 게 전자 메일을 보내는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 206e38929183fc280134a42e3febead2483d0f76
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47361822"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131749"
 ---
 # <a name="resend-a-users-password---admin-help"></a>사용자 암호 다시 보내기 - 관리자 도움말
 
@@ -33,7 +33,7 @@ ms.locfileid: "47361822"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-회사, 학교 또는 비영리용 암호 만료 정책을 설정하는 사용자를 위한 문서입니다. 이러한 단계를 완료 하려면 Microsoft 365 관리자 계정으로 로그인 해야 합니다. [관리자 계정 이란?을 소개](../admin-overview/admin-overview.md)합니다.
+회사, 학교 또는 비영리용 암호 만료 정책을 설정하는 사용자를 위한 문서입니다. 이 단계를 완료하려면 Microsoft 365 관리자 계정으로 로그인해야 합니다. [관리자 계정의 새로운 기능](../admin-overview/admin-overview.md)
 
 이 단계를 수행 하려면 [전역 관리자 또는 암호 관리자](about-admin-roles.md) 여야 합니다.
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-remotework
 ms.custom: ''
 description: 원격 작업자는 MFA(다단계 인증)를 사용하여 로그인해야 합니다.
-ms.openlocfilehash: a8c0b8ac689407fa871d2373f1ca0a3658bb1668
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 0b655800d27e6836a3848bfb2a94fc9c30439ec7
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521520"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48132205"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>1단계. MFA를 사용하여 원격 작업자에 대 한 로그인 보안 강화
 
@@ -86,7 +86,7 @@ Azure AD ID 보호 기능은 Microsoft 365 E5에 포함된 Azure AD Premium P2 �
 
 이 표는 보안 기본값 및 조건부 액세스 정책으로 MFA를 활성화한 결과를 보여줍니다.
 
-|| 사용 | 사용 안 함 | 추가 인증 방법 |
+| 메서드 | 사용 | 사용 안 함 | 추가 인증 방법 |
 |:-------|:-----|:-------|:-------|
 | **보안 기본값**  | 조건부 액세스 정책을 사용할 수 없습니다 | 조건부 액세스 정책을 사용할 수 있습니다 | Microsoft Authenticator 앱 |
 | **조건부 액세스 정책** | 이 중 하나가 사용되는 경우 보안 기본값을 사용할 수 없습니다. | 상기 수단을 모두 사용하지 않도록 설정한 경우, MFA 등록 중 사용자가 지정한   | 보안 기본값을 사용할 수 있습니다  |
@@ -104,7 +104,7 @@ Azure AD는 사용자에게 클라우드 인증을 제공할 뿐만 아니라 �
 
 - [Microsoft 365에 대한 MFA](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365)
 - [Azure AD를 사용하여 원격 작업을 수행하는 데 도움이 되는 상위 5가지 방법](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/top-5-ways-your-azure-ad-can-help-you-enable-remote-work/ba-p/1144691)
-- [Microsoft 365 ID 인프라 계획 및 배포](https://docs.microsoft.com/microsoft-365/enterprise/identity-infrastructure?view=o365-worldwide#plan-and-deploy-your-microsoft-365-enterprise-identity-infrastructure)
+- [Microsoft 365의 ID 로드맵](../enterprise/identity-roadmap-microsoft-365.md)
 - [Azure Academy Azure AD 교육 비디오](https://www.youtube.com/watch?v=pN8o0owHfI0&list=PL-V4YVm6AmwUFpC3rXr2i2piRQ708q_ia)
 - [Azure Multi-Factor Authentication 등록 정책 구성](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
 - [Azure AD 셀프 서비스 암호 재설정 배포 계획](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment)
