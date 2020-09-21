@@ -3,7 +3,7 @@ title: 다단계 인증 설정
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
-author: samanro
+author: sirkkuw
 manager: scotv
 ms.audience: Admin
 ms.topic: conceptual
@@ -24,21 +24,21 @@ search.appverid:
 - MET150
 - MOE150
 description: 다단계 인증을 설정 합니다.
-ms.openlocfilehash: a0bf5167ae6b5268f7bfeabd4ae554ae5f279dbe
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: feb0a4be07b09ed3e8f00c6d19edca3355f374ab
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527153"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131957"
 ---
-# <a name="set-up-multifactor-authentication"></a><span data-ttu-id="eb6e5-103">다단계 인증 설정</span><span class="sxs-lookup"><span data-stu-id="eb6e5-103">Set up multifactor authentication</span></span>
+# <a name="set-up-multifactor-authentication"></a><span data-ttu-id="5ba3b-103">다단계 인증 설정</span><span class="sxs-lookup"><span data-stu-id="5ba3b-103">Set up multifactor authentication</span></span>
 
-<span data-ttu-id="eb6e5-104">Multi-factor authentication은 비즈니스에 대 한 보안을 강화 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb6e5-104">Multi-factor authentication provides more security for your business.</span></span> <span data-ttu-id="eb6e5-105">관리자가 MFA를 사용 해야 하는 경우에는 Microsoft Authenticator 앱을 설정 하 여 휴대폰으로 안전 하 게 주요 앱에 로그인 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="eb6e5-105">After your admin has required you to use MFA, you can set up the Microsoft Authenticator app to let you log into key apps securely with your phone.</span></span> 
+<span data-ttu-id="5ba3b-104">Multi-factor authentication은 비즈니스에 대 한 보안을 강화 합니다.</span><span class="sxs-lookup"><span data-stu-id="5ba3b-104">Multi-factor authentication provides more security for your business.</span></span> <span data-ttu-id="5ba3b-105">관리자가 MFA를 사용 해야 하는 경우에는 Microsoft Authenticator 앱을 설정 하 여 휴대폰으로 안전 하 게 주요 앱에 로그인 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5ba3b-105">After your admin has required you to use MFA, you can set up the Microsoft Authenticator app to let you log into key apps securely with your phone.</span></span> 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MmQR] 
 
-<span data-ttu-id="eb6e5-106">[Microsoft 365에서 설정 다단계 인증](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225) 에 대 한 자세한 내용을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="eb6e5-106">See more at [Set up multifactor authentication in Microsoft 365](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)</span></span>
+<span data-ttu-id="5ba3b-106">[Microsoft 365에서 설정 다단계 인증](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225) 에 대 한 자세한 내용을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="5ba3b-106">See more at [Set up multifactor authentication in Microsoft 365](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)</span></span>
 
-## <a name="use-the-outlook-app-in-your-devices"></a><span data-ttu-id="eb6e5-107">장치에서 Outlook 앱 사용</span><span class="sxs-lookup"><span data-stu-id="eb6e5-107">Use the Outlook app in your devices</span></span>
+## <a name="use-the-outlook-app-in-your-devices"></a><span data-ttu-id="5ba3b-107">장치에서 Outlook 앱 사용</span><span class="sxs-lookup"><span data-stu-id="5ba3b-107">Use the Outlook app in your devices</span></span>
 
-<span data-ttu-id="eb6e5-108">관리자가 MFA를 사용 해야 하며 인증자 앱을 두 번째 인증 형식으로 설정한 후에는 Outlook 앱만 설치 하 고 사용 하 여 캠페인 전자 메일에 대 한 Microsoft 365에 액세스 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="eb6e5-108">After your admin has required you to use MFA and you've set up an authenticator app as a second form of authentication, we recommend that you install and only use the Outlook app to access your Microsoft 365 for Campaigns email.</span></span> <span data-ttu-id="eb6e5-109">휴대폰에서 Outlook을 비롯 하 여 Office 앱을 설치 하는 방법에 대해서는 [모바일 장치 설정을](../business/set-up-mobile-devices.md) 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="eb6e5-109">See [Set up mobile devices](../business/set-up-mobile-devices.md) for how to install Office apps, including Outlook, on your phone.</span></span>
+<span data-ttu-id="5ba3b-108">관리자가 MFA를 사용 해야 하며 인증자 앱을 두 번째 인증 형식으로 설정한 후에는 Outlook 앱만 설치 하 고 사용 하 여 캠페인 전자 메일에 대 한 Microsoft 365에 액세스 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="5ba3b-108">After your admin has required you to use MFA and you've set up an authenticator app as a second form of authentication, we recommend that you install and only use the Outlook app to access your Microsoft 365 for Campaigns email.</span></span> <span data-ttu-id="5ba3b-109">휴대폰에서 Outlook을 비롯 하 여 Office 앱을 설치 하는 방법에 대해서는 [모바일 장치 설정을](../business/set-up-mobile-devices.md) 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="5ba3b-109">See [Set up mobile devices](../business/set-up-mobile-devices.md) for how to install Office apps, including Outlook, on your phone.</span></span>

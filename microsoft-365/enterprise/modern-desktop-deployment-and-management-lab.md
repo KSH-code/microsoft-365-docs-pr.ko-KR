@@ -15,95 +15,107 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: 09441f879fa41d1b920aae7d37625d0a52160d84
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: bf49a815c0d3d952187f863120865ab3aa4674fc
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949883"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171413"
 ---
-# <a name="windows-and-office-deployment-lab-kit"></a><span data-ttu-id="ce6f3-103">Windows 및 Office 배포 랩 키트</span><span class="sxs-lookup"><span data-stu-id="ce6f3-103">Windows and Office deployment lab kit</span></span>
+# <a name="windows-and-office-deployment-lab-kit"></a><span data-ttu-id="55d14-103">Windows 및 Office 배포 랩 키트</span><span class="sxs-lookup"><span data-stu-id="55d14-103">Windows and Office deployment lab kit</span></span>
 
-<span data-ttu-id="ce6f3-104">이러한 랩은 Windows 10 Enterprise를 실행 하는 데스크톱의 배포 및 관리를 계획, 테스트 및 확인 하는 데 도움을 주기 위한 것으로, 그리고 엔터프라이즈 용 Microsoft 365 앱을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="ce6f3-104">These labs are designed to help you plan, test, and validate your deployment and management of desktops running Windows 10 Enterprise and Microsoft 365 Apps for enterprise.</span></span> <span data-ttu-id="ce6f3-105">Microsoft 끝점 구성 관리자, 데스크톱 분석, Office 사용자 지정 도구, OneDrive, Windows Autopilot 등을 사용 하는 랩 표지입니다.</span><span class="sxs-lookup"><span data-stu-id="ce6f3-105">The labs cover using Microsoft Endpoint Configuration Manager, Desktop Analytics, Office Customization Tool, OneDrive, Windows Autopilot and more.</span></span>
+<span data-ttu-id="55d14-104">이러한 랩은 Windows 10 Enterprise를 실행 하는 데스크톱의 배포 및 관리를 계획, 테스트 및 확인 하는 데 도움을 주기 위한 것으로, 그리고 엔터프라이즈 용 Microsoft 365 앱을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="55d14-104">These labs are designed to help you plan, test, and validate your deployment and management of desktops running Windows 10 Enterprise and Microsoft 365 Apps for enterprise.</span></span> <span data-ttu-id="55d14-105">Microsoft 끝점 구성 관리자, 데스크톱 분석, Office 사용자 지정 도구, OneDrive, Windows Autopilot 등을 사용 하는 랩 표지입니다.</span><span class="sxs-lookup"><span data-stu-id="55d14-105">The labs cover using Microsoft Endpoint Configuration Manager, Desktop Analytics, Office Customization Tool, OneDrive, Windows Autopilot and more.</span></span>
 
-<span data-ttu-id="ce6f3-106">조직에서 Windows 8 업그레이드를 준비 하는 경우에는이 키트가 권장 되며, 현재 Windows 10, Microsoft 365 Apps for enterprise (이전 Office 365 ProPlus) 또는 Office 2019을 사용 하는 경우에도 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ce6f3-106">This kit is highly recommended for organizations preparing for Windows 8 upgrades, and also applies if you're currently using Windows 10, Microsoft 365 Apps for enterprise (formerly Office 365 ProPlus), or Office 2019.</span></span> <span data-ttu-id="ce6f3-107">또한 격리된 환경으로서 랩은 배포 도구 업데이트를 탐색하고 배포 관련 자동화를 테스트하는 데 적합합니다.</span><span class="sxs-lookup"><span data-stu-id="ce6f3-107">Additionally, as an isolated environment, the lab is ideal for exploring deployment tool updates and testing your deployment-related automation.</span></span>
+<span data-ttu-id="55d14-106">조직에서 Windows 8 업그레이드를 준비 하는 경우에는이 키트가 권장 되며, 현재 Windows 10, Microsoft 365 Apps for enterprise (이전 Office 365 ProPlus) 또는 Office 2019을 사용 하는 경우에도 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="55d14-106">This kit is highly recommended for organizations preparing for Windows 8 upgrades, and also applies if you're currently using Windows 10, Microsoft 365 Apps for enterprise (formerly Office 365 ProPlus), or Office 2019.</span></span> <span data-ttu-id="55d14-107">또한 격리된 환경으로서 랩은 배포 도구 업데이트를 탐색하고 배포 관련 자동화를 테스트하는 데 적합합니다.</span><span class="sxs-lookup"><span data-stu-id="55d14-107">Additionally, as an isolated environment, the lab is ideal for exploring deployment tool updates and testing your deployment-related automation.</span></span>
 
-<span data-ttu-id="ce6f3-108">[Windows 및 Office 배포 랩 키트 다운로드](https://www.microsoft.com/evalcenter/evaluate-lab-kit)</span><span class="sxs-lookup"><span data-stu-id="ce6f3-108">[Download the Windows and Office Deployment Lab Kit](https://www.microsoft.com/evalcenter/evaluate-lab-kit).</span></span>
+<span data-ttu-id="55d14-108">[Windows 및 Office 배포 랩 키트 다운로드](https://www.microsoft.com/evalcenter/evaluate-lab-kit)</span><span class="sxs-lookup"><span data-stu-id="55d14-108">[Download the Windows and Office Deployment Lab Kit](https://www.microsoft.com/evalcenter/evaluate-lab-kit).</span></span>
 
-## <a name="a-complete-lab-environment"></a><span data-ttu-id="ce6f3-109">전체 랩 환경</span><span class="sxs-lookup"><span data-stu-id="ce6f3-109">A complete lab environment</span></span>
+## <a name="a-complete-lab-environment"></a><span data-ttu-id="55d14-109">전체 랩 환경</span><span class="sxs-lookup"><span data-stu-id="55d14-109">A complete lab environment</span></span>
 
-<span data-ttu-id="ce6f3-110">랩은 도메인 가입 데스크톱 클라이언트, 도메인 컨트롤러, 인터넷 게이트웨이 및 완전히 구성된 구성 매니저 인스턴스를 포함하여 자동으로 프로비저닝된 가상 랩 환경을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="ce6f3-110">The lab provides you with an automatically provisioned virtual lab environment, including domain-joined desktop clients, domain controller, Internet gateway and a fully configured Configuration Manager instance.</span></span> <span data-ttu-id="ce6f3-111">이 랩에는 다음과 같은 최신 평가 버전의 제품이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ce6f3-111">The lab contains the latest evaluation versions of the following products:</span></span>
+<span data-ttu-id="55d14-110">랩은 도메인 가입 데스크톱 클라이언트, 도메인 컨트롤러, 인터넷 게이트웨이 및 완전히 구성된 구성 매니저 인스턴스를 포함하여 자동으로 프로비저닝된 가상 랩 환경을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="55d14-110">The lab provides you with an automatically provisioned virtual lab environment, including domain-joined desktop clients, domain controller, Internet gateway and a fully configured Configuration Manager instance.</span></span> <span data-ttu-id="55d14-111">이 랩에는 다음과 같은 최신 평가 버전의 제품이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="55d14-111">The lab contains the latest evaluation versions of the following products:</span></span>
 
-  - <span data-ttu-id="ce6f3-112">새로운 기능!</span><span class="sxs-lookup"><span data-stu-id="ce6f3-112">NEW!</span></span> <span data-ttu-id="ce6f3-113">Windows 10 Enterprise, 버전 2004</span><span class="sxs-lookup"><span data-stu-id="ce6f3-113">Windows 10 Enterprise, Version 2004</span></span>
-  - <span data-ttu-id="ce6f3-114">Windows 7 Enterprise</span><span class="sxs-lookup"><span data-stu-id="ce6f3-114">Windows 7 Enterprise</span></span>
-  - <span data-ttu-id="ce6f3-115">새로운 기능!</span><span class="sxs-lookup"><span data-stu-id="ce6f3-115">NEW!</span></span> <span data-ttu-id="ce6f3-116">Microsoft Endpoint Configuration Manager, 버전 2002</span><span class="sxs-lookup"><span data-stu-id="ce6f3-116">Microsoft Endpoint Configuration Manager, Version 2002</span></span>
-  - <span data-ttu-id="ce6f3-117">Windows 10용 Windows 평가 및 배포 키트</span><span class="sxs-lookup"><span data-stu-id="ce6f3-117">Windows Assessment and Deployment Kit for Windows 10</span></span>
-  - <span data-ttu-id="ce6f3-118">Microsoft Deployment Toolkit</span><span class="sxs-lookup"><span data-stu-id="ce6f3-118">Microsoft Deployment Toolkit</span></span>
-  - <span data-ttu-id="ce6f3-119">Microsoft Application Virtualization(App-V)</span><span class="sxs-lookup"><span data-stu-id="ce6f3-119">Microsoft Application Virtualization (App-V)</span></span>
-  - <span data-ttu-id="ce6f3-120">Microsoft BitLocker 관리 및 모니터링</span><span class="sxs-lookup"><span data-stu-id="ce6f3-120">Microsoft BitLocker Administration and Monitoring</span></span> 
-  - <span data-ttu-id="ce6f3-121">Windows Server</span><span class="sxs-lookup"><span data-stu-id="ce6f3-121">Windows Server</span></span> 
-  - <span data-ttu-id="ce6f3-122">Microsoft SQL Server</span><span class="sxs-lookup"><span data-stu-id="ce6f3-122">Microsoft SQL Server</span></span> 
+  - <span data-ttu-id="55d14-112">새로운 기능!</span><span class="sxs-lookup"><span data-stu-id="55d14-112">NEW!</span></span> <span data-ttu-id="55d14-113">Windows 10 Enterprise, 버전 2004</span><span class="sxs-lookup"><span data-stu-id="55d14-113">Windows 10 Enterprise, Version 2004</span></span>
+  - <span data-ttu-id="55d14-114">Windows 7 Enterprise</span><span class="sxs-lookup"><span data-stu-id="55d14-114">Windows 7 Enterprise</span></span>
+  - <span data-ttu-id="55d14-115">새로운 기능!</span><span class="sxs-lookup"><span data-stu-id="55d14-115">NEW!</span></span> <span data-ttu-id="55d14-116">Microsoft Endpoint Configuration Manager, 버전 2002</span><span class="sxs-lookup"><span data-stu-id="55d14-116">Microsoft Endpoint Configuration Manager, Version 2002</span></span>
+  - <span data-ttu-id="55d14-117">Windows 10용 Windows 평가 및 배포 키트</span><span class="sxs-lookup"><span data-stu-id="55d14-117">Windows Assessment and Deployment Kit for Windows 10</span></span>
+  - <span data-ttu-id="55d14-118">Microsoft Deployment Toolkit</span><span class="sxs-lookup"><span data-stu-id="55d14-118">Microsoft Deployment Toolkit</span></span>
+  - <span data-ttu-id="55d14-119">Microsoft Application Virtualization(App-V)</span><span class="sxs-lookup"><span data-stu-id="55d14-119">Microsoft Application Virtualization (App-V)</span></span>
+  - <span data-ttu-id="55d14-120">Microsoft BitLocker 관리 및 모니터링</span><span class="sxs-lookup"><span data-stu-id="55d14-120">Microsoft BitLocker Administration and Monitoring</span></span> 
+  - <span data-ttu-id="55d14-121">Windows Server</span><span class="sxs-lookup"><span data-stu-id="55d14-121">Windows Server</span></span> 
+  - <span data-ttu-id="55d14-122">Microsoft SQL Server</span><span class="sxs-lookup"><span data-stu-id="55d14-122">Microsoft SQL Server</span></span> 
 
-<span data-ttu-id="ce6f3-123">또한, 랩은 다음에 대한 평가판에 연결되도록 디자인되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ce6f3-123">PLUS, the lab is designed to be connected to trials for:</span></span> 
+<span data-ttu-id="55d14-123">또한, 랩은 다음에 대한 평가판에 연결되도록 디자인되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="55d14-123">PLUS, the lab is designed to be connected to trials for:</span></span> 
 
-  - <span data-ttu-id="ce6f3-124">Microsoft 365 E5</span><span class="sxs-lookup"><span data-stu-id="ce6f3-124">Microsoft 365 E5</span></span>
-  - <span data-ttu-id="ce6f3-125">EMS (Enterprise Mobility + Security)를 사용한 Office 365 Enterprise E5</span><span class="sxs-lookup"><span data-stu-id="ce6f3-125">Office 365 Enterprise E5 with Enterprise Mobility + Security (EMS)</span></span>
+  - <span data-ttu-id="55d14-124">Microsoft 365 E5</span><span class="sxs-lookup"><span data-stu-id="55d14-124">Microsoft 365 E5</span></span>
+  - <span data-ttu-id="55d14-125">EMS (Enterprise Mobility + Security)를 사용한 Office 365 Enterprise E5</span><span class="sxs-lookup"><span data-stu-id="55d14-125">Office 365 Enterprise E5 with Enterprise Mobility + Security (EMS)</span></span>
 
-## <a name="step-by-step-labs"></a><span data-ttu-id="ce6f3-126">단계별 랩</span><span class="sxs-lookup"><span data-stu-id="ce6f3-126">Step-by-step labs</span></span>
+## <a name="step-by-step-labs"></a><span data-ttu-id="55d14-126">단계별 랩</span><span class="sxs-lookup"><span data-stu-id="55d14-126">Step-by-step labs</span></span>
 
-<span data-ttu-id="ce6f3-127">자세한 랩 가이드는 여러 배포 및 관리 시나리오를 안내합니다.</span><span class="sxs-lookup"><span data-stu-id="ce6f3-127">Detailed lab guides take you through multiple deployment and management scenarios.</span></span> <span data-ttu-id="ce6f3-128">최신 버전의 Intune 및 Configuration Manager에 대한 랩이 업데이트되었습니다.</span><span class="sxs-lookup"><span data-stu-id="ce6f3-128">The labs have been updated for the latest versions of Intune and Configuration Manager.</span></span> 
+<span data-ttu-id="55d14-127">자세한 랩 가이드는 여러 배포 및 관리 시나리오를 안내합니다.</span><span class="sxs-lookup"><span data-stu-id="55d14-127">Detailed lab guides take you through multiple deployment and management scenarios.</span></span> <span data-ttu-id="55d14-128">최신 버전의 Intune 및 Configuration Manager에 대한 랩이 업데이트되었습니다.</span><span class="sxs-lookup"><span data-stu-id="55d14-128">The labs have been updated for the latest versions of Intune and Configuration Manager.</span></span> 
 
-### <a name="plan-and-prepare-infrastructure"></a><span data-ttu-id="ce6f3-129">인프라 계획 및 준비</span><span class="sxs-lookup"><span data-stu-id="ce6f3-129">Plan and prepare infrastructure</span></span> 
-<span data-ttu-id="ce6f3-130">Desktop Analytics</span><span class="sxs-lookup"><span data-stu-id="ce6f3-130">Desktop Analytics</span></span>   
-<span data-ttu-id="ce6f3-131">클라우드 관리 게이트웨이 & 클라우드 배포 지점 테 넌 트 연결, 공동 관리 및 작업 전환</span><span class="sxs-lookup"><span data-stu-id="ce6f3-131">Cloud Management Gateway & Cloud Distribution Point Tenant Attach, Co-Management and Switching Workloads</span></span>    
-<span data-ttu-id="ce6f3-132">원격 액세스</span><span class="sxs-lookup"><span data-stu-id="ce6f3-132">Remote Access</span></span>
+### <a name="plan-and-prepare-infrastructure"></a><span data-ttu-id="55d14-129">인프라 계획 및 준비</span><span class="sxs-lookup"><span data-stu-id="55d14-129">Plan and prepare infrastructure</span></span> 
+- <span data-ttu-id="55d14-130">Desktop Analytics</span><span class="sxs-lookup"><span data-stu-id="55d14-130">Desktop Analytics</span></span> 
+- <span data-ttu-id="55d14-131">클라우드 관리 게이트웨이 & 구름 배포 지점</span><span class="sxs-lookup"><span data-stu-id="55d14-131">Cloud Management Gateway & Cloud Distribution Point</span></span> 
+- <span data-ttu-id="55d14-132">테 넌 트 연결, 공동 관리 및 작업 전환</span><span class="sxs-lookup"><span data-stu-id="55d14-132">Tenant attach, Co-management and switching workloads</span></span>  
+- <span data-ttu-id="55d14-133">원격 액세스 (VPN)</span><span class="sxs-lookup"><span data-stu-id="55d14-133">Remote access (VPN)</span></span> 
 
-### <a name="prepare-configuration"></a><span data-ttu-id="ce6f3-133">구성 준비</span><span class="sxs-lookup"><span data-stu-id="ce6f3-133">Prepare configuration</span></span>   
-<span data-ttu-id="ce6f3-134">Optimize Windows 10 Update Delivery 서비스 windows 10 with a Group Policy 서비스를 사용 하 여 Microsoft Intune 서비스를 사용할 때 365의 365 구성 관리자 서비스 windows 10 사용 구성</span><span class="sxs-lookup"><span data-stu-id="ce6f3-134">Optimize Windows 10 Update Delivery Servicing Windows 10 using Group Policy Servicing Windows 10 using Microsoft Intune Servicing Windows 10 with Configuration Manager Servicing Microsoft 365 Apps for enterprise using Configuration Manager Servicing Microsoft 365 Apps for enterprise using Intune</span></span>    
-<span data-ttu-id="ce6f3-135">보안 및 규정 준수</span><span class="sxs-lookup"><span data-stu-id="ce6f3-135">Security and Compliance</span></span> 
+### <a name="prepare-configuration"></a><span data-ttu-id="55d14-134">구성 준비</span><span class="sxs-lookup"><span data-stu-id="55d14-134">Prepare configuration</span></span>   
+- <span data-ttu-id="55d14-135">Windows 10 업데이트 배달 최적화</span><span class="sxs-lookup"><span data-stu-id="55d14-135">Optimize Windows 10 update delivery</span></span>   
+- <span data-ttu-id="55d14-136">그룹 정책을 사용 하 여 Windows 10 서비스 수행</span><span class="sxs-lookup"><span data-stu-id="55d14-136">Servicing Windows 10 using Group Policy</span></span>
+- <span data-ttu-id="55d14-137">Microsoft Intune을 사용 하 여 Windows 10 서비스</span><span class="sxs-lookup"><span data-stu-id="55d14-137">Servicing Windows 10 using Microsoft Intune</span></span>   
+- <span data-ttu-id="55d14-138">Configuration Manager를 사용 하 여 Windows 10 서비스</span><span class="sxs-lookup"><span data-stu-id="55d14-138">Servicing Windows 10 with Configuration Manager</span></span>   
+- <span data-ttu-id="55d14-139">Configuration Manager를 사용 하 여 엔터프라이즈에 대 한 Microsoft 365 앱 설치</span><span class="sxs-lookup"><span data-stu-id="55d14-139">Servicing Microsoft 365 Apps for enterprise using Configuration Manager</span></span>   
+- <span data-ttu-id="55d14-140">Intune을 사용 하 여 엔터프라이즈에 대 한 Microsoft 365 앱 서비스 제공</span><span class="sxs-lookup"><span data-stu-id="55d14-140">Servicing Microsoft 365 Apps for enterprise using Intune</span></span>  
+- <span data-ttu-id="55d14-141">보안 및 규정 준수</span><span class="sxs-lookup"><span data-stu-id="55d14-141">Security and Compliance</span></span>   
 
-### <a name="prepare-applications"></a><span data-ttu-id="ce6f3-136">응용 프로그램 준비</span><span class="sxs-lookup"><span data-stu-id="ce6f3-136">Prepare applications</span></span>    
-<span data-ttu-id="ce6f3-137">Office 용 준비 도구 키트</span><span class="sxs-lookup"><span data-stu-id="ce6f3-137">Readiness Toolkit for Office</span></span>    
-<span data-ttu-id="ce6f3-138">Win32 응용 프로그램의 MSIX 패키징 및 변환</span><span class="sxs-lookup"><span data-stu-id="ce6f3-138">MSIX Packaging and Conversion of Win32 Applications</span></span> 
+### <a name="prepare-applications"></a><span data-ttu-id="55d14-142">응용 프로그램 준비</span><span class="sxs-lookup"><span data-stu-id="55d14-142">Prepare applications</span></span>    
+- <span data-ttu-id="55d14-143">Office 용 준비 도구 키트</span><span class="sxs-lookup"><span data-stu-id="55d14-143">Readiness Toolkit for Office</span></span>  
+- <span data-ttu-id="55d14-144">Win32 응용 프로그램의 MSIX 패키징 및 변환</span><span class="sxs-lookup"><span data-stu-id="55d14-144">MSIX Packaging and Conversion of Win32 applications</span></span>   
 
-### <a name="deploy-windows-10"></a><span data-ttu-id="ce6f3-139">Windows 10 배포</span><span class="sxs-lookup"><span data-stu-id="ce6f3-139">Deploy Windows 10</span></span>   
-<span data-ttu-id="ce6f3-140">MDT Windows Autopilot의 OS 배포 작업 순서 새 Microsoft Edge 배포 및 관리</span><span class="sxs-lookup"><span data-stu-id="ce6f3-140">OS Deployment Task Sequences in Configuration Manager OS Deployment Task Sequences in MDT Windows Autopilot Deploy and manage the new Microsoft Edge</span></span>    
+### <a name="deploy-windows-10"></a><span data-ttu-id="55d14-145">Windows 10 배포</span><span class="sxs-lookup"><span data-stu-id="55d14-145">Deploy Windows 10</span></span>   
+- <span data-ttu-id="55d14-146">Configuration Manager의 OS 배포 작업 순서</span><span class="sxs-lookup"><span data-stu-id="55d14-146">OS Deployment task sequences in Configuration Manager</span></span>
+- <span data-ttu-id="55d14-147">MDT의 OS 배포 작업 순서</span><span class="sxs-lookup"><span data-stu-id="55d14-147">OS Deployment task sequences in MDT</span></span>   
+- <span data-ttu-id="55d14-148">Windows Autopilot</span><span class="sxs-lookup"><span data-stu-id="55d14-148">Windows Autopilot</span></span>
+- <span data-ttu-id="55d14-149">새 Microsoft Edge 배포 및 관리</span><span class="sxs-lookup"><span data-stu-id="55d14-149">Deploy and manage the new Microsoft Edge</span></span>  
 
-### <a name="deploy-microsoft-365-apps-for-enterprise"></a><span data-ttu-id="ce6f3-141">엔터프라이즈용 Microsoft 365 앱 배포</span><span class="sxs-lookup"><span data-stu-id="ce6f3-141">Deploy Microsoft 365 Apps for enterprise</span></span>    
-<span data-ttu-id="ce6f3-142">클라우드 관리 되는 배포</span><span class="sxs-lookup"><span data-stu-id="ce6f3-142">Cloud Managed Deployment</span></span>    
-<span data-ttu-id="ce6f3-143">로컬로 관리 되는 배포</span><span class="sxs-lookup"><span data-stu-id="ce6f3-143">Locally Managed Deployment</span></span>  
-<span data-ttu-id="ce6f3-144">AD에 가입 되지 않은 장치에 대 한 Microsoft 365 앱 엔터프라이즈 배포</span><span class="sxs-lookup"><span data-stu-id="ce6f3-144">Microsoft 365 Apps for enterprise Deployment on Non-AD Joined Devices</span></span>   
-<span data-ttu-id="ce6f3-145">Microsoft Intune을 사용 하 여 Configuration Manager 엔터프라이즈 관리 배포를 사용 하는 엔터프라이즈 관리 배포</span><span class="sxs-lookup"><span data-stu-id="ce6f3-145">Enterprise Managed Deployment using Configuration Manager Enterprise Managed Deployment using Microsoft Intune</span></span>    
-<span data-ttu-id="ce6f3-146">Microsoft Intune을 사용한 LOB 배포 및 관리 Microsoft 팀 배포</span><span class="sxs-lookup"><span data-stu-id="ce6f3-146">LOB Deployment and Management with Microsoft Intune Deploy Microsoft Teams</span></span>
+### <a name="deploy-microsoft-365-apps-for-enterprise"></a><span data-ttu-id="55d14-150">엔터프라이즈용 Microsoft 365 앱 배포</span><span class="sxs-lookup"><span data-stu-id="55d14-150">Deploy Microsoft 365 Apps for enterprise</span></span>    
+- <span data-ttu-id="55d14-151">클라우드 관리 되는 배포</span><span class="sxs-lookup"><span data-stu-id="55d14-151">Cloud managed deployment</span></span>  
+- <span data-ttu-id="55d14-152">로컬로 관리 되는 배포</span><span class="sxs-lookup"><span data-stu-id="55d14-152">Locally managed deployment</span></span>    
+- <span data-ttu-id="55d14-153">AD에 가입 되지 않은 장치에 대 한 Microsoft 365 앱 엔터프라이즈 배포</span><span class="sxs-lookup"><span data-stu-id="55d14-153">Microsoft 365 Apps for enterprise Deployment on Non-AD Joined Devices</span></span> 
+- <span data-ttu-id="55d14-154">Configuration Manager를 사용한 엔터프라이즈 관리 배포</span><span class="sxs-lookup"><span data-stu-id="55d14-154">Enterprise managed deployment using Configuration Manager</span></span>
+- <span data-ttu-id="55d14-155">Microsoft Intune을 사용 하 여 엔터프라이즈 관리 배포</span><span class="sxs-lookup"><span data-stu-id="55d14-155">Enterprise managed deployment using Microsoft Intune</span></span>  
+- <span data-ttu-id="55d14-156">Microsoft Intune을 사용한 LOB 배포 및 관리</span><span class="sxs-lookup"><span data-stu-id="55d14-156">LOB Deployment and Management with Microsoft Intune</span></span>
+- <span data-ttu-id="55d14-157">Microsoft 팀 배포</span><span class="sxs-lookup"><span data-stu-id="55d14-157">Deploy Microsoft Teams</span></span>
 
-### <a name="deploy-windows-virtual-desktop"></a><span data-ttu-id="ce6f3-147">Windows 가상 데스크톱 배포</span><span class="sxs-lookup"><span data-stu-id="ce6f3-147">Deploy Windows Virtual Desktop</span></span>  
+### <a name="deploy-windows-virtual-desktop"></a><span data-ttu-id="55d14-158">Windows 가상 데스크톱 배포</span><span class="sxs-lookup"><span data-stu-id="55d14-158">Deploy Windows Virtual Desktop</span></span>  
+- <span data-ttu-id="55d14-159">준비, 배포, 최적화</span><span class="sxs-lookup"><span data-stu-id="55d14-159">Prepare, deploy, optimize</span></span>
  
-### <a name="download-the-windows-and-office-deployment-lab-kit"></a><span data-ttu-id="ce6f3-148">Windows 및 Office 배포 랩 키트 다운로드</span><span class="sxs-lookup"><span data-stu-id="ce6f3-148">Download the Windows and Office Deployment Lab Kit</span></span>
+### <a name="download-the-windows-and-office-deployment-lab-kit"></a><span data-ttu-id="55d14-160">Windows 및 Office 배포 랩 키트 다운로드</span><span class="sxs-lookup"><span data-stu-id="55d14-160">Download the Windows and Office Deployment Lab Kit</span></span>
 
-<span data-ttu-id="ce6f3-149">[Windows 및 Office 배포 랩 키트 다운로드](https://www.microsoft.com/evalcenter/evaluate-lab-kit)</span><span class="sxs-lookup"><span data-stu-id="ce6f3-149">[Download the Windows and Office Deployment Lab Kit](https://www.microsoft.com/evalcenter/evaluate-lab-kit).</span></span>
+<span data-ttu-id="55d14-161">[Windows 및 Office 배포 랩 키트 다운로드](https://www.microsoft.com/evalcenter/evaluate-lab-kit)</span><span class="sxs-lookup"><span data-stu-id="55d14-161">[Download the Windows and Office Deployment Lab Kit](https://www.microsoft.com/evalcenter/evaluate-lab-kit).</span></span>
 
-<span data-ttu-id="ce6f3-150">*광범위 한 대역폭을 사용 하 여이 콘텐츠를 다운로드 하 여 다운로드 환경을 개선 하 고 자동 프로비저닝을 위해 30-45 분을 허용 하세요. 랩 환경에는 최소 16gb의 사용 가능한 메모리 및 150 GB의 사용 가능한 디스크 공간이 필요 합니다. 최적의 성능을 위해 32 GB의 사용 가능한 메모리가 권장 됩니다. 랩은 12 월 4 일 2020에 만료 됩니다. 새 버전이 만료 되기 전에 게시 됩니다.*</span><span class="sxs-lookup"><span data-stu-id="ce6f3-150">*Please use a broad bandwidth to download this content to enhance your downloading experience and allow 30-45 minutes for automatic provisioning. The lab environment requires a minimum of 16 GB of available memory and 150 GB of free disk space. For optimal performance, 32 GB of available memory is recommended. The lab expires December 4, 2020. A new version will be published prior to expiration.*</span></span>
+<span data-ttu-id="55d14-162">*광범위 한 대역폭을 사용 하 여이 콘텐츠를 다운로드 하 여 다운로드 환경을 개선 하 고 자동 프로비저닝을 위해 30-45 분을 허용 하세요. 랩 환경에는 최소 16gb의 사용 가능한 메모리 및 150 GB의 사용 가능한 디스크 공간이 필요 합니다. 최적의 성능을 위해 32 GB의 사용 가능한 메모리가 권장 됩니다. 랩은 2020 년 12 월 5 일에 만료 됩니다. 새 버전이 만료 되기 전에 게시 됩니다.*</span><span class="sxs-lookup"><span data-stu-id="55d14-162">*Please use a broad bandwidth to download this content to enhance your downloading experience and allow 30-45 minutes for automatic provisioning. The lab environment requires a minimum of 16 GB of available memory and 150 GB of free disk space. For optimal performance, 32 GB of available memory is recommended. The lab expires December 5, 2020. A new version will be published prior to expiration.*</span></span>
 
-## <a name="additional-guidance"></a><span data-ttu-id="ce6f3-151">추가 안내</span><span class="sxs-lookup"><span data-stu-id="ce6f3-151">Additional guidance</span></span>
+## <a name="additional-guidance"></a><span data-ttu-id="55d14-163">추가 안내</span><span class="sxs-lookup"><span data-stu-id="55d14-163">Additional guidance</span></span>
 
-  - [<span data-ttu-id="ce6f3-152">Microsoft Mechanics의 데스크톱 배포 시리즈 비디오</span><span class="sxs-lookup"><span data-stu-id="ce6f3-152">Desktop Deployment series videos from Microsoft Mechanics</span></span>](https://www.aka.ms/watchhowtoshift)
+  - [<span data-ttu-id="55d14-164">Microsoft Mechanics의 데스크톱 배포 시리즈 비디오</span><span class="sxs-lookup"><span data-stu-id="55d14-164">Desktop Deployment series videos from Microsoft Mechanics</span></span>](https://www.aka.ms/watchhowtoshift)
 
-  - [<span data-ttu-id="ce6f3-153">Microsoft Endpoint Configuration Manager OS 배포</span><span class="sxs-lookup"><span data-stu-id="ce6f3-153">Microsoft Endpoint Configuration Manager OS Deployment</span></span>](https://docs.microsoft.com/mem/configmgr/osd/understand/introduction-to-operating-system-deployment)
+  - [<span data-ttu-id="55d14-165">Microsoft Endpoint Configuration Manager OS 배포</span><span class="sxs-lookup"><span data-stu-id="55d14-165">Microsoft Endpoint Configuration Manager OS Deployment</span></span>](https://docs.microsoft.com/mem/configmgr/osd/understand/introduction-to-operating-system-deployment)
 
-  - [<span data-ttu-id="ce6f3-154"><span class="underline">Windows 10 배포 계획</span></span><span class="sxs-lookup"><span data-stu-id="ce6f3-154"><span class="underline">Plan for Windows 10 deployment</span></span></span>](https://docs.microsoft.com/windows/deployment/planning/index)
+  - [<span data-ttu-id="55d14-166"><span class="underline">Windows 10 배포 계획</span></span><span class="sxs-lookup"><span data-stu-id="55d14-166"><span class="underline">Plan for Windows 10 deployment</span></span></span>](https://docs.microsoft.com/windows/deployment/planning/index)
 
-  - [<span data-ttu-id="ce6f3-155"><span class="underline">Microsoft 365 앱 배포 가이드</span></span><span class="sxs-lookup"><span data-stu-id="ce6f3-155"><span class="underline">Deployment guide for Microsoft 365 Apps</span></span></span>](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
+  - [<span data-ttu-id="55d14-167"><span class="underline">Microsoft 365 앱 배포 가이드</span></span><span class="sxs-lookup"><span data-stu-id="55d14-167"><span class="underline">Deployment guide for Microsoft 365 Apps</span></span></span>](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
 
-  - [<span data-ttu-id="ce6f3-156"><span class="underline">Intune 시작</span></span><span class="sxs-lookup"><span data-stu-id="ce6f3-156"><span class="underline">Getting Started with Intune</span></span></span>](https://docs.microsoft.com/intune/get-started-evaluation)
+  - [<span data-ttu-id="55d14-168"><span class="underline">Intune 시작</span></span><span class="sxs-lookup"><span data-stu-id="55d14-168"><span class="underline">Getting Started with Intune</span></span></span>](https://docs.microsoft.com/intune/get-started-evaluation)
 
-## <a name="related-resources"></a><span data-ttu-id="ce6f3-157">관련 리소스</span><span class="sxs-lookup"><span data-stu-id="ce6f3-157">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="55d14-169">관련 리소스</span><span class="sxs-lookup"><span data-stu-id="55d14-169">Related resources</span></span>
 
-  - [<span data-ttu-id="ce6f3-158"><span class="underline">Microsoft 365 소개</span></span><span class="sxs-lookup"><span data-stu-id="ce6f3-158"><span class="underline">Introducing Microsoft 365</span></span></span>](https://www.microsoft.com/microsoft-365/default.aspx)
+  - [<span data-ttu-id="55d14-170"><span class="underline">Microsoft 365 소개</span></span><span class="sxs-lookup"><span data-stu-id="55d14-170"><span class="underline">Introducing Microsoft 365</span></span></span>](https://www.microsoft.com/microsoft-365/default.aspx)
 
-  - [<span data-ttu-id="ce6f3-159"><span class="underline">Office 365 비즈니스 에디션</span></span><span class="sxs-lookup"><span data-stu-id="ce6f3-159"><span class="underline">Office 365 for business</span></span></span>](https://products.office.com/business/office)
+  - [<span data-ttu-id="55d14-171"><span class="underline">Office 365 비즈니스 에디션</span></span><span class="sxs-lookup"><span data-stu-id="55d14-171"><span class="underline">Office 365 for business</span></span></span>](https://products.office.com/business/office)
 
-  - [<span data-ttu-id="ce6f3-160"><span class="underline">Introducing Enterprise Mobility + Security</span></span><span class="sxs-lookup"><span data-stu-id="ce6f3-160"><span class="underline">Introducing Enterprise Mobility + Security</span></span></span>](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)
+  - [<span data-ttu-id="55d14-172"><span class="underline">Introducing Enterprise Mobility + Security</span></span><span class="sxs-lookup"><span data-stu-id="55d14-172"><span class="underline">Introducing Enterprise Mobility + Security</span></span></span>](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)
 
-  - [<span data-ttu-id="ce6f3-161"><span class="underline">Windows 10 엔터프라이즈 에디션</span></span><span class="sxs-lookup"><span data-stu-id="ce6f3-161"><span class="underline">Windows 10 for enterprise</span></span></span>](https://www.microsoft.com/WindowsForBusiness/windows-for-enterprise)
+  - [<span data-ttu-id="55d14-173"><span class="underline">Windows 10 엔터프라이즈 에디션</span></span><span class="sxs-lookup"><span data-stu-id="55d14-173"><span class="underline">Windows 10 for enterprise</span></span></span>](https://www.microsoft.com/WindowsForBusiness/windows-for-enterprise)
 
-  - [<span data-ttu-id="ce6f3-162"><span class="underline">Windows 10 중소기업용 에디션</span></span><span class="sxs-lookup"><span data-stu-id="ce6f3-162"><span class="underline">Windows 10 for small and medium business</span></span></span>](https://www.microsoft.com/WindowsForBusiness/windows-for-small-business)
+  - [<span data-ttu-id="55d14-174"><span class="underline">Windows 10 중소기업용 에디션</span></span><span class="sxs-lookup"><span data-stu-id="55d14-174"><span class="underline">Windows 10 for small and medium business</span></span></span>](https://www.microsoft.com/WindowsForBusiness/windows-for-small-business)

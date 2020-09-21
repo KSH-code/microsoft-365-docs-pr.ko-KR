@@ -2,7 +2,7 @@
 title: 온라인 모임를 설정합니다.
 f1.keywords:
 - NOCSH
-ms.author: stevhord
+ms.author: twerner
 author: twerner
 manager: scotv
 ms.audience: Admin
@@ -25,36 +25,36 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 팀과 온라인 모임을 설정 합니다.
-ms.openlocfilehash: ce13dbcc32457263295e0e617b92a2d7e5fc3909
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 3e1eaba887249db59ef28e36ffefb5b89f80c469
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526867"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48132003"
 ---
-# <a name="set-up-meetings"></a><span data-ttu-id="60780-103">모임 설정</span><span class="sxs-lookup"><span data-stu-id="60780-103">Set up meetings</span></span>
+# <a name="set-up-meetings"></a><span data-ttu-id="1bd40-103">모임 설정</span><span class="sxs-lookup"><span data-stu-id="1bd40-103">Set up meetings</span></span>
 
-<span data-ttu-id="60780-104">Microsoft 팀의 모임에는 오디오, 비디오 및 공유가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="60780-104">Meetings in Microsoft Teams include audio, video, and sharing.</span></span> <span data-ttu-id="60780-105">또한 온라인 상태 이므로 항상 회의 공간이 있고 캠페인에 대 한 회의실 또는 프로젝터가 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="60780-105">And because they're online, you'll always have a meeting space and never need a room or projector for your campaign.</span></span><span data-ttu-id="60780-106">Microsoft 팀 회의는 직원 들과 함께 조직 내부 및 외부에 있는 지원자와 함께 제공 하는 좋은 방법입니다.</span><span class="sxs-lookup"><span data-stu-id="60780-106"> Microsoft Teams meetings are a great way to come together with your staff and volunteers both inside and outside of your organization.</span></span> <span data-ttu-id="60780-107">조직의 구성원 이거나 모임에 참가할 수 있는 계정을 가진 사용자도 있을 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="60780-107">You don’t need to be a member of your organization or even have an account to join a meeting.</span></span> <span data-ttu-id="60780-108">정치적 캠페인의 경우 Microsoft 팀을 사용 하 여 온라인 모임을 예약 하 고 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60780-108">For your political campaign, you can schedule and run online meetings using Microsoft Teams.</span></span> <span data-ttu-id="60780-109">조직 외부에 직원, 지원자 및 손님을 포함할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60780-109">You can include staff, volunteers, and guests outside your organization.</span></span> <span data-ttu-id="60780-110">모임 중에는 화면을 공유 하 고 파일을 공유 하 고 작업을 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60780-110">During a meeting, you can share your screen, share files, assign tasks, and more.</span></span>
+<span data-ttu-id="1bd40-104">Microsoft 팀의 모임에는 오디오, 비디오 및 공유가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1bd40-104">Meetings in Microsoft Teams include audio, video, and sharing.</span></span> <span data-ttu-id="1bd40-105">또한 온라인 상태 이므로 항상 회의 공간이 있고 캠페인에 대 한 회의실 또는 프로젝터가 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="1bd40-105">And because they're online, you'll always have a meeting space and never need a room or projector for your campaign.</span></span><span data-ttu-id="1bd40-106">Microsoft 팀 회의는 직원 들과 함께 조직 내부 및 외부에 있는 지원자와 함께 제공 하는 좋은 방법입니다.</span><span class="sxs-lookup"><span data-stu-id="1bd40-106"> Microsoft Teams meetings are a great way to come together with your staff and volunteers both inside and outside of your organization.</span></span> <span data-ttu-id="1bd40-107">조직의 구성원 이거나 모임에 참가할 수 있는 계정을 가진 사용자도 있을 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="1bd40-107">You don’t need to be a member of your organization or even have an account to join a meeting.</span></span> <span data-ttu-id="1bd40-108">정치적 캠페인의 경우 Microsoft 팀을 사용 하 여 온라인 모임을 예약 하 고 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1bd40-108">For your political campaign, you can schedule and run online meetings using Microsoft Teams.</span></span> <span data-ttu-id="1bd40-109">조직 외부에 직원, 지원자 및 손님을 포함할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1bd40-109">You can include staff, volunteers, and guests outside your organization.</span></span> <span data-ttu-id="1bd40-110">모임 중에는 화면을 공유 하 고 파일을 공유 하 고 작업을 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1bd40-110">During a meeting, you can share your screen, share files, assign tasks, and more.</span></span>
 
-<span data-ttu-id="60780-111">[![모임의 두 사용자에 대 한 그림](../media/HostOnlineMeeting-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2078712)</span><span class="sxs-lookup"><span data-stu-id="60780-111">[![An illustration of two users in a meeting](../media/HostOnlineMeeting-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2078712)</span></span>
+<span data-ttu-id="1bd40-111">[![모임의 두 사용자에 대 한 그림](../media/HostOnlineMeeting-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2078712)</span><span class="sxs-lookup"><span data-stu-id="1bd40-111">[![An illustration of two users in a meeting](../media/HostOnlineMeeting-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2078712)</span></span>
 
-<span data-ttu-id="60780-112">[PDF](https://go.microsoft.com/fwlink/?linkid=2078712) 또는 [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515) 에서 infographic을 다운로드 하 여 Microsoft 팀과 온라인 모임을 연결 하거나 호스팅하는 방법에 대 한 간략 한 개요를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60780-112">Download an infographic in [PDF](https://go.microsoft.com/fwlink/?linkid=2078712) or [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515) to get a quick overview of how to join or host an online meeting with Microsoft Teams.</span></span>
+<span data-ttu-id="1bd40-112">[PDF](https://go.microsoft.com/fwlink/?linkid=2078712) 또는 [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515) 에서 infographic을 다운로드 하 여 Microsoft 팀과 온라인 모임을 연결 하거나 호스팅하는 방법에 대 한 간략 한 개요를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1bd40-112">Download an infographic in [PDF](https://go.microsoft.com/fwlink/?linkid=2078712) or [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515) to get a quick overview of how to join or host an online meeting with Microsoft Teams.</span></span>
 
-## <a name="best-practices"></a><span data-ttu-id="60780-113">모범 사례</span><span class="sxs-lookup"><span data-stu-id="60780-113">Best practices</span></span>
+## <a name="best-practices"></a><span data-ttu-id="1bd40-113">모범 사례</span><span class="sxs-lookup"><span data-stu-id="1bd40-113">Best practices</span></span>
 
-<span data-ttu-id="60780-114">온라인 모임에 대 한 다음 모범 사례를 따르세요.</span><span class="sxs-lookup"><span data-stu-id="60780-114">Follow these best practices for your online meetings:</span></span>
-- <span data-ttu-id="60780-115">Microsoft 팀에서 바로 온라인 모임을 예약 합니다.</span><span class="sxs-lookup"><span data-stu-id="60780-115">Schedule your online meetings right in Microsoft Teams.</span></span> <span data-ttu-id="60780-116">팀과 채널을 선택할 수 있으며 팀은 해당 팀 이나 채널에 참석자를 자동으로 초대 합니다.</span><span class="sxs-lookup"><span data-stu-id="60780-116">You can choose a team and channel, and Teams will invite the participants in that team or channel automatically.</span></span>
-- <span data-ttu-id="60780-117">즉석 모임이 필요 한가요?</span><span class="sxs-lookup"><span data-stu-id="60780-117">Need an impromptu meeting?</span></span> <span data-ttu-id="60780-118">일대일 채팅 인 경우 **지금 모임** 시작을 선택 하 여 채팅 중인 사용자와 비디오 또는 오디오 통화를 시작할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60780-118">If you're in a one-on-one chat, choose **Meet now** to start a video or audio call with the person you're chatting with.</span></span> 
+<span data-ttu-id="1bd40-114">온라인 모임에 대 한 다음 모범 사례를 따르세요.</span><span class="sxs-lookup"><span data-stu-id="1bd40-114">Follow these best practices for your online meetings:</span></span>
+- <span data-ttu-id="1bd40-115">Microsoft 팀에서 바로 온라인 모임을 예약 합니다.</span><span class="sxs-lookup"><span data-stu-id="1bd40-115">Schedule your online meetings right in Microsoft Teams.</span></span> <span data-ttu-id="1bd40-116">팀과 채널을 선택할 수 있으며 팀은 해당 팀 이나 채널에 참석자를 자동으로 초대 합니다.</span><span class="sxs-lookup"><span data-stu-id="1bd40-116">You can choose a team and channel, and Teams will invite the participants in that team or channel automatically.</span></span>
+- <span data-ttu-id="1bd40-117">즉석 모임이 필요 한가요?</span><span class="sxs-lookup"><span data-stu-id="1bd40-117">Need an impromptu meeting?</span></span> <span data-ttu-id="1bd40-118">일대일 채팅 인 경우 **지금 모임** 시작을 선택 하 여 채팅 중인 사용자와 비디오 또는 오디오 통화를 시작할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1bd40-118">If you're in a one-on-one chat, choose **Meet now** to start a video or audio call with the person you're chatting with.</span></span> 
 
 
-## <a name="schedule-a-meeting"></a><span data-ttu-id="60780-119">모임 예약</span><span class="sxs-lookup"><span data-stu-id="60780-119">Schedule a meeting</span></span>
+## <a name="schedule-a-meeting"></a><span data-ttu-id="1bd40-119">모임 예약</span><span class="sxs-lookup"><span data-stu-id="1bd40-119">Schedule a meeting</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOhP]
 
-## <a name="join-a-meeting"></a><span data-ttu-id="60780-120">모임 참가</span><span class="sxs-lookup"><span data-stu-id="60780-120">Join a meeting</span></span>
+## <a name="join-a-meeting"></a><span data-ttu-id="1bd40-120">모임 참가</span><span class="sxs-lookup"><span data-stu-id="1bd40-120">Join a meeting</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYWn]
 
-<span data-ttu-id="60780-121">자세한 내용은 Microsoft 팀의 모임에 대해 자세히 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="60780-121">Learn more about meeting in Microsoft Teams:</span></span>
+<span data-ttu-id="1bd40-121">자세한 내용은 Microsoft 팀의 모임에 대해 자세히 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="1bd40-121">Learn more about meeting in Microsoft Teams:</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWeokQ]
