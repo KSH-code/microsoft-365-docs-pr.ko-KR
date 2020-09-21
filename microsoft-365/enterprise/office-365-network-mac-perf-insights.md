@@ -3,7 +3,7 @@ title: Microsoft 365 Network Insights (미리 보기)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 04/21/2020
+ms.date: 09/17/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 Network Insights (미리 보기)
-ms.openlocfilehash: a9d4dbde112c9b6c74e340824c63ce2b9749e80e
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: e3730704b6672c931b7538659a38f218e769dd0a
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948519"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962374"
 ---
 # <a name="microsoft-365-network-insights-preview"></a>Microsoft 365 Network Insights (미리 보기)
 
@@ -86,7 +86,7 @@ Insights는 사무실 사무소에 대 한 네트워크 perimeters 디자인에 
 
 이에 대 한 자세한 정보는 요약 보기의 "라우팅" 이라고 합니다.
 
-![최적이 아닌 전면 도어](../media/m365-mac-perf/m365-mac-perf-insights-detail-front-door-exo.png)
+![최적이 아닌 EXO 전면 도어](../media/m365-mac-perf/m365-mac-perf-insights-detail-front-door-exo.png)
 
 ### <a name="what-does-this-mean"></a>시나리오
 
@@ -102,7 +102,7 @@ Exchange Online 서비스 프런트 도어를 사용 하는 경우에는 회사 
 
 이 통찰력은 일부 요약 보기에서 "Afd"로 간략 한 것입니다.
 
-![최적이 아닌 전면 도어](../media/m365-mac-perf/m365-mac-perf-insights-detail-front-door-spo.png)
+![최적이 아닌 SPO 전면 도어](../media/m365-mac-perf/m365-mac-perf-insights-detail-front-door-spo.png)
 
 ### <a name="what-does-this-mean"></a>시나리오
 
@@ -173,7 +173,7 @@ Office 위치 네트워크 연결 표시 기능 사용 (아직 수행 하지 않
 
 ## <a name="related-topics"></a>관련 항목
 
-[Microsoft 365 관리 센터의 네트워크 성능 권장 사항 (미리 보기)](office-365-network-mac-perf-overview.md)
+[Microsoft 365 관리 센터의 네트워크 연결 (미리 보기)](office-365-network-mac-perf-overview.md)
 
 [Microsoft 365 네트워크 평가 (미리 보기)](office-365-network-mac-perf-score.md)
 

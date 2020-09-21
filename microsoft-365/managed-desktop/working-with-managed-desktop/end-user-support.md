@@ -9,14 +9,14 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 2d6dab7ae722b6e64b782596e51e0898ddc2cccc
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 8af782095ada41f0472e1df338ced7ebe76c97fe
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289690"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104415"
 ---
-# <a name="getting-help-for-users"></a>사용자를 위한 도움말 보기
+# <a name="getting-help-for-users"></a>사용자를 위한 도움말
 
 조직의 사용자는 Microsoft 관리 되는 데스크톱 장치에 대 한 도움을 받을 수 있는 두 가지 방법이 있습니다 (도움말 앱 또는 전화 지원 **받기** ). 이러한 지원 옵션은 하루 24 시간 내내 사용자에 게 제공 됩니다.
  
@@ -71,4 +71,4 @@ ms.locfileid: "47289690"
 ## <a name="additional-resources"></a>추가 리소스
 - [Microsoft Managed Desktop에 대 한 관리자 지원](admin-support.md) 
 - [Microsoft Managed Desktop에 대 한 지원](../service-description/support.md)
-- Microsoft Managed Desktop을 이미 구독 하 고 있는 경우 microsoft managed desktop [Admin 포털](https://aka.ms/mwaasportal)의 **온라인 리소스** 섹션에 있는 Microsoft managed desktop administration 가이드에서 자세한 절차, 프로세스 흐름, 작업 지침 및 faq를 확인할 수 있습니다.
+- Microsoft Managed Desktop을 이미 구독 한 경우 microsoft [Endpoint Manager](https://endpoint.microsoft.com/)의 **테 넌 트 관리** 메뉴에서 microsoft Managed desktop 섹션 아래의 **온라인 리소스** 에 있는 microsoft managed desktop administration 가이드에서 자세한 절차, 프로세스 흐름, 작업 지침 및 faq를 확인할 수 있습니다.

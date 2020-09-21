@@ -7,12 +7,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 51c241c46a4c8745bcae169a1c1d89e5c4393f2f
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 6c241894ab50b6b1341b06f47c107c8945fb6e8c
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289142"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104573"
 ---
 # <a name="register-existing-devices-yourself"></a>직접 기존의 장치 등록
 
@@ -21,7 +21,7 @@ ms.locfileid: "47289142"
 
 파트너에 대 한 프로세스는 [파트너가 장치를 등록 하기 위한 단계](register-devices-partner.md)에 설명 되어 있습니다.
 
-Microsoft Managed Desktop은 새로운 장치에서 작동 하거나 이미 사용 중인 장치를 다시 사용할 수 있습니다 (다시 이미지 해야 함). Microsoft Managed Desktop 관리 포털을 사용 하 여 장치를 등록할 수 있습니다.
+Microsoft Managed Desktop은 새로운 장치에서 작동 하거나 이미 사용 중인 장치를 다시 사용할 수 있습니다 (다시 이미지 해야 함). Microsoft Endpoint Manager 포털에서 Microsoft Managed Desktop을 사용 하 여 장치를 등록할 수 있습니다.
 
 ## <a name="prepare-to-register-existing-devices"></a>기존 장치 등록 준비
 
@@ -56,7 +56,7 @@ Microsoft Endpoint Configuration Manager를 사용 하 여 Microsoft Managed Des
 2. 모니터링 작업 영역에서 **보고** 노드를 확장 하 고 **보고서**를 확장 한 다음 **하드웨어-일반** 노드를 선택 합니다. 
 3. 보고서를 실행 하 고 **Windows Autopilot 장치 정보**를 검색 한 다음 결과를 확인 합니다.
 4. 보고서 뷰어에서 **내보내기** 아이콘을 선택 하 고 **CSV (쉼표로 분리)** 옵션을 선택 합니다.
-5. 파일을 저장 한 후에는 Microsoft Managed Desktop에 등록 하 고 데이터를 Microsoft Managed Desktop [Admin 포털](https://aka.ms/mmdportal)에 업로드 하려는 장치에만 결과를 필터링 해야 하며 왼쪽 탐색 창에서 **장치** 를 선택 합니다. **+ 장치 등록**을 선택 합니다. 날아오기는 다음과 같이 열립니다.
+5. 파일을 저장 한 후에는 Microsoft Managed Desktop에 등록할 장치에만 결과를 필터링 하 고 Microsoft Managed Desktop에 데이터를 업로드 해야 합니다. Microsoft Endpoint Manager를 열고 **장치** 메뉴로 이동한 다음 Microsoft Managed Desktop 섹션을 찾아 **장치**를 선택 합니다. 새 장치를 등록 하기 위해 날아오기/끄기 **장치** 를 선택 합니다.
 
 
 자세한 내용은 [Admin Portal을 사용 하 여 장치 등록](#register-devices-by-using-the-admin-portal) 을 참조 하세요.
@@ -134,9 +134,9 @@ Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformatio
 
 #### <a name="register-devices-by-using-the-admin-portal"></a>관리 포털을 사용 하 여 장치 등록
 
-Microsoft Managed Desktop [관리 포털](https://aka.ms/mmdportal)의 왼쪽 탐색 창에서 **장치** 를 선택 합니다. **+ 장치 등록**을 선택 합니다. 날아오기는 다음과 같이 열립니다.
+[Microsoft Endpoint Manager](https://endpoint.microsoft.com/)의 왼쪽 탐색 창에서 **장치** 를 선택 합니다. 메뉴의 Microsoft Managed Desktop 섹션을 찾아 **장치**를 선택 합니다. Microsoft Managed Desktop Devices 작업 영역에서 **+ register Devices** 를 선택 하 여 새 장치를 등록 합니다.
 
-[![등록 장치를 선택한 후 날아오기, 할당 된 사용자, 일련 번호, 상태, 마지막으로 표시 된 날짜 및 연령에 해당 하는 열이 있는 장치 나열](../../media/new-registration-ui.png)](../../media/new-registration-ui.png)
+<!-- Update with new picture [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
 
 
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
@@ -149,7 +149,7 @@ Microsoft Managed Desktop [관리 포털](https://aka.ms/mmdportal)의 왼쪽 �
 1. **장치 등록**을 선택 합니다. 시스템이 장치 **블레이드에서**장치 목록에 추가 되 고 **AutopilotRegistrationRequested**로 표시 됩니다. 등록은 일반적으로 10 분 미만이 걸리고, 성공적으로 완료 되 면 장치에 **사용자가** 사용할 준비가 된 것으로 표시 되 고 사용자가 사용을 시작할 때까지 대기 하 게 됩니다.
 
 
-기본 **Microsoft Managed Desktop-Devices** 페이지에서 장치 등록의 진행 상태를 모니터링할 수 있습니다. 다음과 같은 가능한 상태가 보고 됩니다.
+기본 페이지에서 장치 등록의 진행 상태를 모니터링할 수 있습니다. 다음과 같은 가능한 상태가 보고 됩니다.
 
 | 시/도 | 설명 |
 |---------------|-------------|

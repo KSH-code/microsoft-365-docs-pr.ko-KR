@@ -9,21 +9,18 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 271f43e4-b8f7-4d63-8059-b5747679bb7e
 description: 장비를 청소 하거나 다시 설정할 시간을 허용 하기 위해 Microsoft 예약에서 약속 전후에 버퍼 시간을 설정 합니다.
-ms.openlocfilehash: dceb777f9ddba9f1ddabfee00608813afae57a86
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 882ab0340fe56976429ed8294f2fa386b801941f
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419926"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962350"
 ---
 # <a name="set-buffer-time-in-microsoft-bookings"></a>Microsoft 예약에서 버퍼 시간 설정
 
 일부 약속은 고객과 회의를 하 여 회의실 및 장비를 설정, 정리 또는 다시 설정 하기 위해 몇 시간이 걸릴 수 있습니다. 또는 고객 약속 간의 이동에 대 한 작업을 수행 하는 경우에는 사용자와 팀이 고객을 대기 시 키 지 않고 약속 간을 이동할 수 있도록 해야 할 수 있습니다.
 
 약속을 시작 하기 전, 약속 끝까지 또는 둘 다에 대해 버퍼 시간을 설정 하 여 직원 들이 다음 약속을 준비 하는 데 필요한 추가 시간을 제공할 수 있습니다.
-
-> [!NOTE]
-> Microsoft 365 Business Standard, Microsoft 365 A3 또는 Microsoft 365 A5 구독이 있는 고객의 경우 기본적으로 예약이 설정 됩니다. Office 365 Enterprise E3 및 Office 365 Enterprise E5가 있는 고객 에게도 예약을 사용할 수 있지만 기본적으로이 기능은 해제 되어 있습니다. 시작 하려면 [Microsoft 예약에 대 한 get 액세스](get-access.md)를 참조 하세요. 예약을 설정 하거나 해제 하려면 [조직에 대해 예약 설정 또는 해제](turn-bookings-on-or-off.md)를 참조 하세요.
 
 ## <a name="set-buffer-time-defaults"></a>버퍼 시간 기본값 설정
 

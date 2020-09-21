@@ -18,12 +18,14 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 2dc641d22432e245980b905051bddd3b7dd4ed07
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.reviewer: evaldm, isco
+ms.date: 09/16/2020
+ms.openlocfilehash: 4d4aa8afc7a17d2f9f0ae2d48404d7a3da553d47
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547989"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962266"
 ---
 # <a name="the-action-center"></a>알림 센터
 
@@ -94,9 +96,6 @@ ms.locfileid: "47547989"
 
 ## <a name="next-steps"></a>다음 단계 
 
-- [Microsoft Threat Protection에 관해 자세히 알아보기](incidents-overview.md)
-
+- [자동화 된 조사에 따라 보류 중인 작업 승인 또는 거부](mtp-autoir-actions.md)
 - [자동화된 조사 결과 보기](mtp-autoir-results.md)
-
-- [Microsoft Threat Protection의 헌팅에 대해 알아보기](advanced-hunting-overview.md)
 

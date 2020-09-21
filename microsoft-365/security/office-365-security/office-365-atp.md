@@ -19,14 +19,14 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 Advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
-ms.openlocfilehash: 2241f48877019cb20484aea0dd1fcf7b9e7b8bb5
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 184ab53059a73de534d9a67a45fc41b20a73f13f
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653608"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949691"
 ---
-# <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
+# <a name="office-365-advanced-threat-protection-atp"></a>Office 365 Advanced Threat Protection (ATP)
 
 > [!IMPORTANT]
 > 이 문서는 [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)이 있는 비즈니스 고객을 대상으로 합니다. Outlook.com, Microsoft 365 Family 또는 Microsoft 365 Personal을 사용하고 있고 Outlook의 안전한 링크 또는 안전한 첨부 파일에 대한 정보를 찾고 있다면 [Office 365 구독자용 고급 Outlook.com 보안](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)을 참조하세요.
@@ -41,6 +41,25 @@ Office 365 ATP (Advanced Threat Protection)는 전자 메일 메시지, 링크 (
 
 - **[자동화된 조사 및 응답 기능](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)**: 위협에 대한 조사 및 위협을 낮추기 위한 시간과 노력을 줄입니다.
 
+## <a name="getting-started"></a>시작
+
+Office 365 Advanced Threat Protection이 처음 이거나 *를 하여* 배우기 가장 적합한 경우에는 초기 ATP 구성을 덩어리로 나눈 다음 이 문서를 참조로 사용하여 보고서를 검토 하는 것이 좋습니다. 아래에는 논리적 초기 구성 덩어리가 나와 있습니다.
+
+- 이름에 '*방지*'가 포함 된 모든 항목에 구성
+    - 밸웨어 방지
+    - 피싱 방지
+    - 스팸 방지
+- 이름에 '*안전한*'을 사용한 모등 항목에 설정
+    - 안전한 링크
+    - 안전한 첨부 파일
+- 작업을 방어할 때 (예: SharePoint Online, OneDrive 및 Teams) 
+- ZAP로 보호
+
+이 작업을 수행하여 자세한 내용을 보려면 [링크를 클릭](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide&preserve-view=true). 
+
+> [!NOTE]
+> ATP는 두 가지 플랜 유형으로 제공됩니다. ‘실시간 감지’를 가지고 있으면 **플랜 1**이고 위협 탐색기를 가지고 있으면 **플랜2**입니다. 어떤 플랜을 가지고 있는지 여부는 사용자에게 보여지는 도구에 영향을 미치기 때문에 배우는 동안 어떤 플랜을 가지고 있는지에 대해서 유의하세요.
+
 ## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP 플랜 1 및 플랜 2
 
 다음 표에는 각 계획에 포함된 항목이 요약되어 있습니다.
@@ -52,7 +71,7 @@ Office 365 ATP (Advanced Threat Protection)는 전자 메일 메시지, 링크 (
 |<br/>구성, 보호 및 검색 기능: <ul><li>[안전한 첨부 파일](atp-safe-attachments.md)</li><li>[안전한 링크](atp-safe-links.md)</li><li>[SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](atp-for-spo-odb-and-teams.md)</li><li>[ATP 피싱 방지 보호 기능](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)</li><li>[실시간 탐지](threat-explorer.md)</li></ul>|Office 365 ATP 계획 1 기능<br/>--- 추가 ---<br/>자동화, 조사, 수정 및 교육 기능:</li><li>[위협 트래커](threat-trackers.md)</li><li>[위협 탐색기](threat-explorer.md)</li><li>[자동화된 조사 및 응답](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)</li><li>[공격 시뮬레이터](attack-simulator.md)</li></ul>|
 |
 
-- Office 365 ATP 계획 2는 Office 365 E5, Office 365 A5 및 Microsoft 365 E5에 포함되어 있습니다.
+- Office 365 ATP 플랜 2는 Office 365 E5, Office 365 A5, Microsoft 365 E5 보안 및 Microsoft 365 E5에 포함되어 있습니다.
 
 - Office 365 ATP 계획 1은 Microsoft 365 Business Premium에 포함되어 있습니다.
 
@@ -68,6 +87,8 @@ Office 365 ATP를 사용하여 조직의 보안팀이 보안 및 준수 센터�
 
 > [!TIP]
 > 정의할 정책의 빠른 목록을 보려면 [위협으로부터 보호](protect-against-threats.md)를 참조하세요.
+
+## <a name="advanced-threat-protection-policies"></a>Advanced Threat Protection 정책
 
 조직에 정의된 정책에 따라 미리 정의된 위협에 대한 동작 및 보호 수준이 결정됩니다. 정책 옵션은 매우 유동적입니다. 예를 들어 조직의 보안팀은 사용자, 조직, 수신자 및 도메인 수준에서 세분화된 위협 방지를 설정할 수 있습니다. 새로운 위협과 문제점이 매일 발생하므로 정책을 정기적으로 검토하는 것이 중요합니다.
 

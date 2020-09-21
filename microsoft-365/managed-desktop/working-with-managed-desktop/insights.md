@@ -9,16 +9,16 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: bcb47a7d5e5dc0880ade6a7e5900d1019e13a8d7
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 6b19c5cd1766c07e106897cefeb495f1b98bb548
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529770"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104391"
 ---
 # <a name="work-with-insights"></a>인사이트를 활용한 작업
 
-Microsoft Managed Desktop은 테 넌 트의 관리자가 사용 하 여 다양 한 장치 채우기 측면을 이해 하는 데 사용할 수 있는 여러 대시보드를 제공 합니다. 이러한 과정은 Microsoft 365 관리 센터를 통해 액세스 합니다.
+Microsoft Managed Desktop은 테 넌 트의 관리자가 사용 하 여 다양 한 장치 채우기 측면을 이해 하는 데 사용할 수 있는 여러 대시보드를 제공 합니다. [Microsoft 365 관리 센터](https://admin.microsoft.com/adminportal/home?previewoff=false#/microsoftmanageddesktop)에서 이러한 사용자에 게 직접 액세스 합니다.
 
 이러한 대시보드를 사용 하 여 다음과 같은 질문에 대 한 답변을 찾을 수 있습니다.
 
@@ -31,10 +31,9 @@ Microsoft Managed Desktop은 테 넌 트의 관리자가 사용 하 여 다양 �
 - 장치에 대 한 보안 업데이트의 현재 상태는 무엇입니까?
 - 장치 중 95%에 최신 보안 업데이트를 적용 하는 데 소요 된 시간이 얼마나 걸립니까?
 
-Microsoft 365 관리 센터에서 이러한 보기에 액세스 하려면 **Reports (보고서** ) 영역에서 **세부 정보 보기** 를 선택 합니다.
+[Microsoft Endopint 관리자](https://endpoint.microsoft.com/)에서 이러한 보기에 액세스 하려면 홈페이지의 Microsoft Managed Desktop 탭으로 nvaigate **보고서** 영역에서 **세부 정보 보기** 를 선택 합니다.
 
-![장치 보고서 카드와 "세부 정보 보기" 링크를 포함 하 여 오른쪽 위에 보고서 영역이 있는 관리 센터입니다.](../../media/insights_overview.png)
-
+<!--Update picture to show in MEM [Admin center with Reports area in the upper right including the device reports card and the "view details" link.](../../media/insights_overview.png)-->!
 
 
 ## <a name="usage-insights"></a>사용 현황 정보 활용

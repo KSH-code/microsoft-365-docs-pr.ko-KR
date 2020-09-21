@@ -17,18 +17,18 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: 686d31c64394094530099edb97bbd10912a58cb8
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: cef17142d90a15f10e82fd51c4c22202bf7ecf00
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949895"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131581"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
 이제 조직의 최신 보안 경계는 다양 한 장치를 사용 하 여 모든 위치에서 클라우드 기반 앱에 액세스 하는 사용자를 포함 하기 위해 네트워크를 넘어 확장 되었습니다. 보안 인프라는 지정 된 액세스 요청을 부여할지 여부와 조건에 따라 결정 해야 합니다. 
 
-이 결정은 사용자 계정 로그인, 사용 중인 디바이스, 사용자가 액세스 하려고 하는 앱, 액세스 요청을 수행 하는 위치 및 요청 위험에 대 한 평가를 기반으로 해야 합니다. 이 기능을 사용 하면 승인 된 사용자 및 장치만 중요 한 리소스에 액세스할 수 있습니다.
+이 결정은 로그인 사용자 계정, 사용 중인 장치, 액세스를 위해 사용자가 사용 하는 앱, 액세스 요청이 수행 된 위치 및 요청 위험에 대 한 평가를 기반으로 해야 합니다. 이 기능을 사용 하면 승인 된 사용자 및 장치만 중요 한 리소스에 액세스할 수 있습니다.
 
 이 문서 시리즈에서는 id 및 장치 액세스 선행 조건 구성 및 azure AD 응용 프로그램 프록시를 사용 하 여 게시 된 엔터프라이즈 클라우드 앱 및 서비스, 기타 SaaS 서비스 및 온-프레미스 응용 프로그램에 대 한 Microsoft 365에 대 한 액세스를 보호 하기 위한 다양 한 정책, Microsoft Intune 및 기타 정책의 집합에 대해 설명 합니다.
 

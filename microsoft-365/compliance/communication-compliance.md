@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: cd796a6bd5faebc87b2f7c9cab36fe17be41fe2e
-ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
+ms.openlocfilehash: 43edaec282cc1efb9f4ab7d9e92ed0a779d255ab
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597469"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131560"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Microsoft 365의 통신 준수
 
@@ -70,7 +70,7 @@ Microsoft 365의 통신 준수에서는 메시징 플랫폼에 대 한 준수 �
 통신 준수의 지능적인 사용자 지정 가능 템플릿을 사용 하면 조직의 통신 위반을 지능적으로 검색할 수 있도록 컴퓨터 학습을 적용할 수 있습니다.
 
 - **사용자 지정 가능한 미리 구성 된 서식 파일**: 새 정책 템플릿은 가장 일반적인 통신 위험을 해결 하는 데 도움이 됩니다. 초기 정책 만들기 및 추가 기능 업데이트는 이제 미리 정의 된 harassment 및 공격적인 언어, 중요 한 정보 및 규정 준수 템플릿을 사용 하 여 더 빠르게 수행 됩니다.
-- **새 기계 학습 지원**: 기본 제공 위협, harassment, 불경 및 이미지 [분류자](classifier-getting-started-with.md) 는 검사 된 메시지에서 가양성을 줄이고 조사 및 업데이트 관리 프로세스 중에 검토자의 시간을 절약할 수 있습니다.
+- **새 기계 학습 지원**: 기본 제공 위협, harassment, 불경 및 이미지 [분류자](classifier-get-started-with.md) 는 검사 된 메시지에서 가양성을 줄이고 조사 및 업데이트 관리 프로세스 중에 검토자의 시간을 절약할 수 있습니다.
 - **향상 된 조건 작성기**: 구성 정책 조건을 이제 정책 마법사에서 통합 된 단일 환경으로 간소화 하 여 정책에 대 한 조건이 적용 되는 방식에 대 한 혼란을 줄일 수 있습니다.
 
 ### <a name="flexible-remediation-workflows"></a>유연한 개선 방안 워크플로

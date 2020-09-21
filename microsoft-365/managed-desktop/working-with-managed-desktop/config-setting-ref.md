@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: c3f8aec244b1b0685b8293fda0b048d662c7cef2
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 2c7c7d75fad58cab0cd6d19a16a97667ea3641a1
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529364"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104491"
 ---
 # <a name="configurable-settings-reference---microsoft-managed-desktop"></a>구성 가능한 설정 참조-Microsoft Managed Desktop
 
@@ -33,9 +33,9 @@ ms.locfileid: "46529364"
 ### <a name="customize-and-deploy-desktop-background-picture"></a>데스크톱 배경 그림 사용자 지정 및 배포
 
 **사용자 지정 바탕 화면 배경 그림을 추가 하려면**
-1. [Microsoft Managed Desktop administration 포털](https://aka.ms/mwaasportal) 에 로그인
-2. **설정**아래에서 **보안 계정 구성**을 선택 합니다.
-3. **구성 가능한** 작업 영역에서 **바탕 화면 배경 그림**을 선택 합니다. 
+1. [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) 에 로그인 하 고 **장치** 메뉴를 탐색 합니다.
+2. Microsoft Managed Desktop 섹션에서 **설정을**선택 합니다.
+3. **설정** 작업 영역에서 **바탕 화면 배경 그림**을 선택 합니다. 
 4. 사용 하려는 사진의 위치를 입력 합니다. 
 5. **단계 배포** 를 선택 하 여 변경 내용을 저장 하 고 테스트 그룹에 배포 합니다. 
 
@@ -49,9 +49,9 @@ ms.locfileid: "46529364"
 ### <a name="customize-and-deploy-browser-start-pages"></a>브라우저 시작 페이지 사용자 지정 및 배포
 
 **브라우저 시작 페이지를 추가 하려면**
-1. [Microsoft Managed Desktop administration 포털](https://aka.ms/mwaasportal) 에 로그인
-2. **설정**아래에서 **보안 계정 구성**을 선택 합니다.
-3. **구성 가능한** 작업 영역에서 **브라우저 시작 페이지**를 선택 합니다. 
+1. [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) 에 로그인 하 고 **장치** 메뉴를 탐색 합니다.
+2. Microsoft Managed Desktop 섹션에서 **설정을**선택 합니다.
+3. **설정** 작업 영역에서 **브라우저 시작 페이지**를 선택 합니다. 
 4. **시작 페이지 추가**를 선택 합니다.
 5. **브라우저 시작 추가 페이지**에서 사용 하려는 사이트의 URL을 입력 하 고 **시작 페이지 추가**를 선택 합니다. 
 6. 추가 브라우저 시작 페이지에 대해 1-5 단계를 반복 합니다. 
@@ -80,11 +80,11 @@ Https://위치를 지정 하거나 엔터프라이즈 모드 사이트 목록을
 
 **엔터프라이즈 사이트 모드 목록 위치를 추가 하려면**
 
-1.  [Microsoft Managed Desktop administration 포털](https://aka.ms/mwaasportal) 에 로그인
-2.  **설정**아래에서 **보안 계정 구성**을 선택 합니다.
-3.  **구성 가능한** 작업 영역에서 **엔터프라이즈 모드 사이트 목록 위치**를 선택 합니다. 
-4.  사이트 목록에 대 한 https 위치를 입력 합니다. 
-5.  **단계 배포** 를 선택 하 여 변경 내용을 저장 하 고 테스트 그룹에 배포 합니다.
+1. [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) 에 로그인 하 고 **장치** 메뉴를 탐색 합니다.
+2. Microsoft Managed Desktop 섹션에서 **설정을**선택 합니다.
+3. **설정** 작업 영역에서 **엔터프라이즈 모드 사이트 목록 위치**를 선택 합니다. 
+4. 사이트 목록에 대 한 https 위치를 입력 합니다. 
+5. **단계 배포** 를 선택 하 여 변경 내용을 저장 하 고 테스트 그룹에 배포 합니다.
 
 ## <a name="trusted-sites"></a>신뢰할 수 있는 사이트
 
@@ -102,18 +102,18 @@ Https://위치를 지정 하거나 엔터프라이즈 모드 사이트 목록을
 
 **신뢰할 수 있는 사이트를 추가 하려면**
 
-1. [Microsoft Managed Desktop administration 포털](https://aka.ms/mwaasportal) 에 로그인
-2. **설정**아래에서 **보안 계정 구성**을 선택 합니다.
-3. **구성 가능한** 작업 영역에서 **신뢰할 수**있는 사이트를 선택 하 고 **신뢰할 수 있는 사이트로 추가**를 선택 합니다. 
+1. [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) 에 로그인 하 고 **장치** 메뉴를 탐색 합니다.
+2. Microsoft Managed Desktop 섹션에서 **설정을**선택 합니다.
+3. **설정** 작업 영역에서 **신뢰할 수**있는 사이트를 선택 하 고 **신뢰할 수 있는 사이트로 추가**를 선택 합니다. 
 4. **신뢰할 수 있는 사이트 추가**에서 URL을 입력 하 고 보안 영역을 선택한 다음 **신뢰할 수 있는 사이트 추가**를 선택 합니다. 
 5. 추가 하려는 각 신뢰할 수 있는 사이트에 대해 1-4 단계를 반복 합니다. 
 6. **단계 배포** 를 선택 하 여 변경 내용을 저장 하 고 테스트 그룹에 배포 합니다.
 
 **신뢰할 수 있는 사이트를 제거 하려면**
 
-1. [Microsoft Managed Desktop administration 포털](https://aka.ms/mwaasportal) 에 로그인
-2. **설정**아래에서 **보안 계정 구성**을 선택 합니다.
-3. **구성 가능한** 작업 영역에서 **신뢰할 수 있는 사이트**를 선택 합니다. 
+1. [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) 에 로그인 하 고 **장치** 메뉴를 탐색 합니다.
+2. Microsoft Managed Desktop 섹션에서 **설정을**선택 합니다.
+3. **설정** 작업 영역에서 **신뢰할 수 있는 사이트**를 선택 합니다. 
 4. 삭제할 사이트를 선택 하 고 **삭제**를 선택 합니다. 
 5. 삭제 하려는 각 신뢰할 수 있는 사이트에 대해 1-4 단계를 반복 합니다. 
 6. **단계 배포** 를 선택 하 여 변경 내용을 저장 하 고 테스트 그룹에 배포 합니다.
@@ -136,9 +136,9 @@ Microsoft Managed Desktop portal에서 추가 하는 프록시 사이트 예외�
 
 **개별 프록시 사이트 예외를 추가 하려면**
 
-1. [Microsoft Managed Desktop administration 포털](https://aka.ms/mwaasportal) 에 로그인
-2. **설정**아래에서 **보안 계정 구성**을 선택 합니다.
-3. **구성 가능한** 작업 영역에서 **프록시**를 선택 합니다. 
+1. [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) 에 로그인 하 고 **장치** 메뉴를 탐색 합니다.
+2. Microsoft Managed Desktop 섹션에서 **설정을**선택 합니다.
+3. **설정** 작업 영역에서 **프록시**를 선택 합니다. 
 4. 프록시 서버의 **주소** 와 **포트 번호** 를 입력 하 고 **프록시 예외 추가**를 선택 합니다. 
 5. 유효한 http 사이트의 URL을 입력 하 고 **프록시 예외 추가**를 선택 합니다. 
 6. 추가 하려는 각 신뢰할 수 있는 사이트에 대해 1-5 단계를 반복 합니다. 

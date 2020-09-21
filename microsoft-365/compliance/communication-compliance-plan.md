@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 5fde3c6d5fd14bd0e4d108030ffaa8e5aeb5ed5c
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: d64edc9d80722080db18c45127bfc82110d1ea9e
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289323"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131540"
 ---
 # <a name="plan-for-communication-compliance"></a>커뮤니케이션 규정 준수 계획
 
@@ -66,7 +66,7 @@ ms.locfileid: "47289323"
 - 설정을 단순화 하려면 통신을 검토 해야 하는 사용자를 위해 그룹을 만드는 것이 좋습니다. 그룹을 사용 하는 경우 여러 개 필요할 수도 있습니다. 예를 들어 서로 다른 두 그룹의 통신을 검색 하려는 경우 또는 감독 되지 않는 그룹을 지정 하려는 경우
 - 검토할 통신 비율을 100%로 구성 하 여 정책에서 조직의 통신에 대 한 모든 문제를 포착 하는지 확인 합니다.
 - Microsoft 365 조직의 사서함으로 가져온 데이터를 타사 [원본의](communication-compliance-feature-reference.md#supported-communication-types) 통신을 검색할 수 있습니다. 이러한 플랫폼의 통신 검토를 포함 하려면 통신 정책에 따라 메시지 회의 정책 조건을 모니터링 하기 전에 이러한 서비스에 대 한 커넥터를 구성 해야 합니다.
-- 사용자 지정 통신 준수 정책에서는 정책이 영어가 아닌 다른 모니터링 언어를 지원할 수 있습니다. 선택한 언어로 공격적인 단어의 [사용자 지정 키워드 사전을](communication-compliance-feature-reference.md#custom-keyword-dictionaries) 작성 하거나 Microsoft 365에서 [trainable 분류자](classifier-getting-started-with.md) 를 사용 하 여 고유한 컴퓨터 학습 모델을 작성 합니다.
+- 사용자 지정 통신 준수 정책에서는 정책이 영어가 아닌 다른 모니터링 언어를 지원할 수 있습니다. 선택한 언어로 공격적인 단어의 [사용자 지정 키워드 사전을](communication-compliance-feature-reference.md#custom-keyword-dictionaries) 작성 하거나 Microsoft 365에서 [trainable 분류자](classifier-get-started-with.md) 를 사용 하 여 고유한 컴퓨터 학습 모델을 작성 합니다.
 - 모든 조직에는 서로 다른 통신 표준 및 정책 요구 사항이 있습니다. 통신 준수 [정책 조건을](communication-compliance-feature-reference.md#conditional-settings) 사용 하 여 특정 키워드를 모니터링 하거나, [사용자 지정 중요 한 정보 유형을](create-a-custom-sensitive-information-type.md)사용 하 여 특정 유형의 정보를 모니터링 합니다.
 
 ## <a name="ready-to-get-started"></a>시작할 준비가 되셨습니까?

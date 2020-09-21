@@ -9,21 +9,18 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 4a1c391e-524f-48e0-bef8-185df3a9634b
 description: 서비스 이름, 설명, 위치, 기간 및 가격 산정을 비롯 한 서비스 제공 정보를 입력 하기 위한 지침입니다. 또한 서비스를 제공 하도록 자격이 부여 된 직원에 게 태그를 지정할 수도 있습니다.
-ms.openlocfilehash: 60b77633b9845b3c269f6773c1fb8a26256fbdc5
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 095188546c01149a793a478a3cbd5ac9fbeb5524
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419965"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962540"
 ---
 # <a name="define-your-service-offerings-in-bookings"></a>예약에서 서비스 제공 정의
 
 Microsoft 예약에서 서비스 제공을 정의 하는 경우 서비스 이름, 설명, 위치 (사용자에 게 회의를 하거나 온라인 모임을 사용할 것인지 선택), 기간, 고객 및 직원에 대 한 기본 미리 알림, 서비스에 대 한 내부 참고 사항 및 가격 책정을 설정 합니다. 또한 서비스를 제공 하도록 자격이 부여 된 직원에 게 태그를 지정할 수도 있습니다. 그런 다음 고객은 회사 웹 사이트에 약속을 예약할 때 사용할 수 있는 약속 유형을 정확히 확인 하 고, 서비스를 제공 하려는 사용자 및 서비스 비용을 선택할 수 있습니다.
 
 예약 페이지를 통해 서비스를 사용할 수 있는 경우 사용자가 보내는 전자 메일 확인 및 미리 알림에 사용자 지정 된 정보 및 Url을 추가할 수도 있습니다.
-
-> [!NOTE]
-> Microsoft 365 Business Standard, Microsoft 365 A3 또는 Microsoft 365 A5 구독이 있는 고객의 경우 기본적으로 예약이 설정 됩니다. Office 365 Enterprise E3 및 Office 365 Enterprise E5가 있는 고객 에게도 예약을 사용할 수 있지만 기본적으로이 기능은 해제 되어 있습니다. 시작 하려면 [Microsoft 예약에 대 한 get 액세스](get-access.md)를 참조 하세요. 예약을 설정 하거나 해제 하려면 [조직에 대해 예약 설정 또는 해제](turn-bookings-on-or-off.md)를 참조 하세요.
 
 ## <a name="create-the-service-details"></a>서비스 정보 만들기
 

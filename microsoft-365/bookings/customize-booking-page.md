@@ -9,19 +9,16 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 116d7a84-a7a0-4911-a1e9-debb2cca7c43
 description: Microsoft 예약 앱에서 예약 페이지의 색 테마를 변경 합니다.
-ms.openlocfilehash: f76fee71194cb210f879617b8898e6fd8c9d7b92
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: b33be0cb71998d45e50a66f89f98daa4af175865
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419973"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962516"
 ---
 # <a name="customize-and-publish-your-booking-page"></a>예약 페이지 사용자 지정 및 게시
 
 예약 페이지에서는 외부 고객에 게 연결 되는 예약 페이지의 모양을 설정할 수 있습니다. 예약 페이지를 사용자 지정 하 고 게시 한 후 고객은이를 사용 하 여 약속을 예약할 수 있습니다.
-
-> [!NOTE]
-> Microsoft 365 Business Standard, Microsoft 365 A3 또는 Microsoft 365 A5 구독이 있는 고객의 경우 기본적으로 예약이 설정 됩니다. Office 365 Enterprise E3 및 Office 365 Enterprise E5가 있는 고객 에게도 예약을 사용할 수 있지만 기본적으로이 기능은 해제 되어 있습니다. 시작 하려면 [Microsoft 예약에 대 한 get 액세스](get-access.md)를 참조 하세요. 예약을 설정 하거나 해제 하려면 [조직에 대해 예약 설정 또는 해제](turn-bookings-on-or-off.md)를 참조 하세요.
 
 예약 페이지를 사용자 지정 하려면 [Office.com](https://office.com)에 로그인 한 다음 **예약** \> **예약 페이지로**이동 합니다. 다음 옵션을 사용 하 여 예약 페이지를 사용자 지정할 수 있습니다. 예약 페이지를 설정 하 고 나면 고객이 약속 예약을 시작할 수 있도록 게시할 수 있습니다.
 

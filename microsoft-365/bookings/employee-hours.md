@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 0968717e-b61f-4b06-987c-6c1464541782
 description: Microsoft 예약에서 직원 작업 시간 및 가용성을 설정 합니다.
-ms.openlocfilehash: 656b52992f4da32ae334809bd1a3ee4dd3b89652
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 140ab5732b051931666824cd4290a38c0b11fd65
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419953"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962528"
 ---
 # <a name="employee-working-hours-in-microsoft-bookings"></a>Microsoft 예약의 직원 작업 시간
 
@@ -23,9 +23,6 @@ ms.locfileid: "47419953"
 **직원 페이지에서** 비즈니스 및 직원의 요구에 맞게 직원 작업 시간을 사용자 지정할 수 있습니다.
 
 직원 들이 사무실 외부에서 작업을 수행할 수 없도록 휴가를 설정 하려는 경우 지침에 대 한 [예약 휴무, 시간 휴가 및 휴가 시간](schedule-closures-time-off-vacation.md) 을 참조 하세요.
-
-> [!NOTE]
-> Microsoft 365 Business Standard, Microsoft 365 A3 또는 Microsoft 365 A5 구독이 있는 고객의 경우 기본적으로 예약이 설정 됩니다. Office 365 Enterprise E3 및 Office 365 Enterprise E5가 있는 고객 에게도 예약을 사용할 수 있지만 기본적으로이 기능은 해제 되어 있습니다. 시작 하려면 [Microsoft 예약에 대 한 get 액세스](get-access.md)를 참조 하세요. 예약을 설정 하거나 해제 하려면 [조직에 대해 예약 설정 또는 해제](turn-bookings-on-or-off.md)를 참조 하세요.
 
 ## <a name="customize-employee-working-hours"></a>직원 작업 시간 사용자 지정
 

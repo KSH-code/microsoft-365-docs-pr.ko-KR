@@ -3,7 +3,7 @@ title: Microsoft 365 관리 센터의 네트워크 연결 (미리 보기)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 04/21/2020
+ms.date: 09/17/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -14,16 +14,20 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 관리 센터의 네트워크 연결 개요 (미리 보기)
-ms.openlocfilehash: f8eff2248fb7abce75c27f227a2c5e7ec7219046
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 35ea28ec45a7e581901c0f4f22360a1dcd0def8b
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948410"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962290"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Microsoft 365 관리 센터의 네트워크 연결 (미리 보기)
 
-Microsoft 365 관리 센터에는 이제 Microsoft 365 테 넌 트에서 수집한 집계 된 네트워크 연결 메트릭이 포함 되며, 테 넌 트의 관리 사용자만 볼 수 있습니다. **네트워크 평가** 및 **네트워크 통찰력** 은 Microsoft 365 관리 센터의 상태 |에 표시 됩니다. ** 연결**합니다.
+Microsoft 365 관리 센터에는 이제 Microsoft 365 테 넌 트에서 수집한 집계 된 네트워크 연결 메트릭이 포함 되며, 테 넌 트의 관리 사용자만 볼 수 있습니다.
+
+![네트워크 연결 테스트 도구](../media/m365-mac-perf/m365-mac-perf-admin-center.png)
+
+**네트워크 평가** 및 **네트워크 통찰력** 은 Microsoft 365 관리 센터의 상태 |에 표시 됩니다. ** 연결**합니다.
 
 ![네트워크 성능 페이지](../media/m365-mac-perf/m365-mac-perf-page-nav.png)
 

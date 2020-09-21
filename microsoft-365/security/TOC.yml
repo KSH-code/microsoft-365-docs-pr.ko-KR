@@ -110,20 +110,30 @@
               items:
                 - name: 고급 헌팅 개요
                   href: mtp/advanced-hunting-overview.md
-                - name: 쿼리 언어 배우기
-                  href: mtp/advanced-hunting-query-language.md
-                - name: 쿼리 모범 사례 적용
-                  href: mtp/advanced-hunting-best-practices.md
+                - name: '배우기, 교육 및 예제 보기'
+                  items:
+                    - name: 쿼리 언어 배우기
+                      href: mtp/advanced-hunting-query-language.md
+                    - name: 전문가 교육 받기
+                      href: mtp/advanced-hunting-expert-training.md
+                    - name: 공유 쿼리 사용
+                      href: mtp/advanced-hunting-shared-queries.md
+                    - name: '기기, 전자 메일, 앱 및 ID를 검색합니다.'
+                      href: mtp/advanced-hunting-query-emails-devices.md
                 - name: 쿼리 결과 작업
                   href: mtp/advanced-hunting-query-results.md
                 - name: 쿼리 결과에 대한 작업 수행
                   href: mtp/advanced-hunting-take-action.md
-                - name: 공유 쿼리 사용
-                  href: mtp/advanced-hunting-shared-queries.md
-                - name: '기기, 전자 메일, 앱 및 ID를 검색합니다.'
-                  href: mtp/advanced-hunting-query-emails-devices.md
-                - name: 탐색(Go hunt)
+                - name: 탐색
                   href: mtp/advanced-hunting-go-hunt.md
+                - name: 최적화 및 처리 오류
+                  items:
+                    - name: 쿼리 모범 사례 적용
+                      href: mtp/advanced-hunting-best-practices.md
+                    - name: 오류 처리
+                      href: mtp/advanced-hunting-errors.md
+                    - name: 서비스 제한
+                      href: mtp/advanced-hunting-limits.md
                 - name: 데이터 커버리지 확장
                   href: mtp/advanced-hunting-extend-data.md
                 - name: 데이터 스키마

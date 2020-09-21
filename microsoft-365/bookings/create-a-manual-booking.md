@@ -9,19 +9,16 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 03a9acc9-f29c-456b-9fb2-0f49474b2708
 description: 다음 지침에 따라 약속을 만들고 Microsoft 예약 앱을 통해 직원을 할당 합니다.
-ms.openlocfilehash: d0538b1c3e19a6bc78c997ff3e681ac30aa074ff
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: dffc63b1f638c551e40d22852b1ba6a73c5be869
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419976"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962564"
 ---
 # <a name="create-a-manual-booking"></a>수동 예약 만들기
 
 예약은 서로 다른 두 가지 방법으로 일정을 계획 하 고 구성할 수 있습니다. 첫 번째 방법은 고객이 독립 실행형 예약 페이지 또는 웹 사이트에 추가 하는 포함 된 예약 페이지를 사용 하는 것입니다. 다른 방법은 고객이 약속을 요청할 때와 같이 사용자 또는 직원 중 한 명에 게 수동으로 예약을 입력 하는 것입니다. 이 문서에서는 수동 시나리오에 대해 설명 합니다.
-
-> [!NOTE]
-> Microsoft 365 Business Standard, Microsoft 365 A3 또는 Microsoft 365 A5 구독이 있는 고객의 경우 기본적으로 예약이 설정 됩니다. Office 365 Enterprise E3 및 Office 365 Enterprise E5가 있는 고객 에게도 예약을 사용할 수 있지만 기본적으로이 기능은 해제 되어 있습니다. 시작 하려면 [Microsoft 예약에 대 한 get 액세스](get-access.md)를 참조 하세요. 예약을 설정 하거나 해제 하려면 [조직에 대해 예약 설정 또는 해제](turn-bookings-on-or-off.md)를 참조 하세요.
 
 1. Microsoft 365에서 앱 시작 관리자를 선택한 다음 **예약**을 선택 합니다.
 

@@ -3,7 +3,7 @@ title: Microsoft 365 네트워크 연결 테스트 (미리 보기)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -14,23 +14,23 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 네트워크 연결 테스트 (미리 보기)
-ms.openlocfilehash: 0a5e7831b28488e793488f572fd830d47a0f3f9a
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 2197f3361efee51dfa2bd170b0c8d8e94709d3e8
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948547"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962401"
 ---
 # <a name="microsoft-365-network-connectivity-test-preview"></a>Microsoft 365 네트워크 연결 테스트 (미리 보기)
 
 Microsoft 365 네트워크 연결 테스트 도구는에 <https://connectivity.office.com> 있습니다. Microsoft 365 관리 센터에서 사용할 수 있는 네트워크 평가 및 네트워크 insights 정보에 대 한 adjunct 도구입니다. **| 연결** 메뉴
 
+![연결 테스트 도구](../media/m365-mac-perf/m365-mac-perf-test-tool-page.png)
+
 >[!NOTE]
 >네트워크 연결 테스트 도구는 WW 상업용 및 독일의 테 넌 트를 지원 하지만 GCC 보통, GCC High, DoD 또는 중국이 아닙니다.
 
 Microsoft 365 관리 센터의 네트워크 insights는 매일 집계 되는 Microsoft 365 테 넌 트에 대 한 일반 제품 측정을 기반으로 합니다. 비교에서는 Microsoft 365 네트워크 연결 테스트의 네트워크 insights가 로컬로 실행 되 고 도구에서 한 번 수행 됩니다. 제품에서 수행할 수 있는 테스트는 제한 되며 사용자에 대 한 로컬 테스트를 실행 하 여 더 많은 데이터를 수집할 수 있습니다. Microsoft 365 관리 센터의 네트워크 insights에서 특정 사무실 위치에 Microsoft 365 사용에 대 한 네트워킹 문제가 있음을 보여 줍니다. Microsoft 365 연결 테스트를 통해 권장 되는 네트워크 성능 개선 작업으로 인해 발생 하는 문제의 근본적인 원인을 확인할 수 있습니다.
-
-![네트워크 연결 테스트 도구](../media/m365-mac-perf/m365-mac-perf-admin-center.png)
 
 Microsoft 365 관리 센터의 각 사무실 위치에 대해 네트워킹 품질 상태를 평가할 수 있으며 Microsoft 365 연결 테스트를 기반으로 테스트를 배포한 후 더 자세한 내용을 확인할 수 있는 방법을 함께 사용 하는 것이 좋습니다.
 

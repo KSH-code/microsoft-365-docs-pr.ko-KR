@@ -18,12 +18,14 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: e0f76f6a232edeac350d08eeeb47188535ffe688
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.date: 09/16/2020
+ms.reviewer: evaldm, isco
+ms.openlocfilehash: 205809bac14cc82e850ea1cbc0349256432bfe68
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46502940"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962588"
 ---
 # <a name="remediation-actions-following-automated-investigations-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 자동화 된 조사에 따라 수정 작업 수행
 
@@ -41,26 +43,28 @@ Microsoft Threat Protection에 대 한 자동화 된 조사 중 및 후에는 �
 |---------|---------|
 |-수집 조사 패키지 <br/>-장치 격리 (이 작업을 실행 취소할 수 있음)<br/>-Offboard 컴퓨터 <br/>-릴리스 코드 실행 <br/>-격리에서 릴리스 <br/>-요청 샘플 <br/>-코드 실행 제한 (이 작업을 실행 취소할 수 있음) <br/>-바이러스 검사 실행 <br/>-중지 및 격리      |-블록 URL (시간 클릭)<br/>-소프트 삭제 전자 메일 메시지 또는 클러스터<br/>-격리 전자 메일<br/>-전자 메일 첨부 파일 격리<br/>-외부 메일 전달을 해제 합니다.          |
 
-승인 보류 중 이거나 이미 완료 되었는지 여부에 관계 없이 수정 작업은 [알림 센터](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center)에서 볼 수 있습니다.
+보류 중인 승인 또는 이미 완료 되었는지 여부에 관계 없이 관리 작업 [센터](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center)에서 볼 수 있습니다.
 
 ## <a name="remediation-actions-follow-automated-investigations"></a>재구성 작업의 자동화 된 조사 진행
 
-자동화 조사가 완료 되면 관련된 모든 증명정보에 따라 결과가 도출되고 재구성 작업이 식별됩니다.   경우에 따라 수정 작업이 자동으로 수행 됩니다. 그 밖의 경우에는 재구성 작업이 승인을 기다립니다. 도출 가능한 의견과 결과는 다음 테이블에서 확인할 수 있습니다. 
+자동 조사가 완료 되 면 관련 된 모든 증거 부분에 대 한 결과에 도달 합니다. 결과에 따라 재구성 작업이 식별 됩니다. 경우에 따라 수정 작업이 자동으로 수행 됩니다. 그 밖의 경우에는 재구성 작업이 승인을 기다립니다. 이 모든 [기능은 자동화 된 조사 및 응답이 구성 되](mtp-configure-auto-investigation-response.md)는 방식에 따라 달라 집니다.
+
+도출 가능한 의견과 결과는 다음 테이블에서 확인할 수 있습니다. 
 
 |의견    |영역    |결과|
 |------|------|------|
-|악성    |장치 (끝점)    |재구성 작업이 자동으로 실행 됩니다.|
+|악성    |장치 (끝점)    |관리 작업이 자동으로 수행 됩니다 (조직의 [장치 그룹이](mtp-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups) **전체 치료 위협으로 자동으로**설정 된 경우).|
 |악성    |전자 메일 콘텐츠 (Url 또는 첨부 파일) | 승인 보류 중인 재구성 활동 |
 |피싱    |장치 또는 전자 메일 콘텐츠 |승인 보류 중인 재구성 활동 |
 |발견 된 위협 없음    |장치 또는 전자 메일 콘텐츠    |재구성 작업이 필요 하지 않습니다.|
 
-[활동 센터에서 대기 중인 작업 검토](mtp-autoir-actions.md#review-a-pending-action-in-the-action-center)
-
-> [!TIP]
-> Microsoft Threat Protection의 자동화 된 조사 및 응답 기능을 통해 누락 되었거나 지워지는이 감지 되었다고 생각 되 면 알려주세요. 가양성 [/네거티브를 보고](mtp-autoir-report-false-positives-negatives.md)합니다.
+> [!IMPORTANT]
+> 재구성 작업이 자동으로 수행 되는지, 승인 된 경우에만 조직의 장치 그룹 정책 등의 특정 설정에 따라 달라 집니다. 자세한 내용은 다음 문서를 참조 하십시오.
+> - [Microsoft Threat Protection에서 자동화 된 조사 및 응답 기능 구성](mtp-configure-auto-investigation-response.md)
+> - [장치에서 위협이 재구성 되는 방식](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 
 ## <a name="next-steps"></a>다음 단계
 
-- [작업 승인 또는 거부](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir-actions)
-
-- [알림 센터에 대한 자세한 정보](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center)
+- [알림 센터 방문](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center)
+- [보류 중인 작업 승인 또는 거부](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir-actions)
+- [자동화 된 조사 및 응답 기능에서 가양성/네거티브 처리](mtp-autoir-report-false-positives-negatives.md)

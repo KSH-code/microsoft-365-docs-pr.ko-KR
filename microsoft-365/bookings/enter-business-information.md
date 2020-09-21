@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 828a17db-956a-401e-bb62-d153b6dffd53
 description: Microsoft 예약에서 비즈니스 이름, 주소, 전화 번호, 웹 사이트 URL, 로고 및 업무 시간을 포함 하 여 정보 페이지를 만들려면 다음 지침을 따릅니다.
-ms.openlocfilehash: 65de115f2217948b1e57a1642ca3c6a105675898
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 0424794d4627d7c6770f86f32d81d4653f889163
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419949"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962504"
 ---
 # <a name="enter-your-business-information"></a>비즈니스 정보 입력
 
@@ -25,7 +25,7 @@ Microsoft 예약에서 웹 앱 내의 비즈니스 정보 페이지에는 비즈
    ![Microsoft 예약의 사업체 정보 페이지 예제 이미지](../media/bookings-business-info.png)
 
 > [!NOTE]
-> Microsoft 365 Business Standard, Microsoft 365 A3 또는 Microsoft 365 A5 구독이 있는 고객의 경우 기본적으로 예약이 설정 됩니다. Office 365 Enterprise E3 및 Office 365 Enterprise E5가 있는 고객 에게도 예약을 사용할 수 있지만 기본적으로이 기능은 해제 되어 있습니다. 시작 하려면 [Microsoft 예약에 대 한 get 액세스](get-access.md)를 참조 하세요. 예약을 설정 하거나 해제 하려면 [조직에 대해 예약 설정 또는 해제](turn-bookings-on-or-off.md)를 참조 하세요.
+> 시작 하려면 [Microsoft 예약에 대 한 get 액세스](get-access.md)를 참조 하세요. 예약을 설정 하거나 해제 하려면 [조직에 대해 예약 설정 또는 해제](turn-bookings-on-or-off.md)를 참조 하세요.
 
 ## <a name="provide-business-name-and-contact-information"></a>회사 이름 및 담당자 정보 제공
 

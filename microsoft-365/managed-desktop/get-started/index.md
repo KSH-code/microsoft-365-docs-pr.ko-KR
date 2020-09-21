@@ -4,13 +4,14 @@ description: 장치를 설정하고 Azure 기능이 서비스를 작동하도록
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 1c5edfd096694324082bdd4fcb70b85b0dd1f5f0
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+ms.openlocfilehash: 02f12174ef3b8a55f9642bba41c845952b1c1c48
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "38020401"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950547"
 ---
 # <a name="get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop 시작
 

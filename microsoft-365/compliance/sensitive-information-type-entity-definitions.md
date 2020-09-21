@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: 보안 및 준수 센터의 DLP (데이터 손실 방지)에는 &amp; dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다.
-ms.openlocfilehash: 8716a6d4e29f94ff3d7bedaaadece2449fcec8a3
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: d29732051f2a7c023992287a131f3bb68bd28a4d
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950286"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104502"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>중요한 정보 유형 엔터티 정의
 
@@ -212,11 +212,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 선택적 구분 기호가 있는 11 자리 숫자:
 
 - 2 자리 숫자
-- 옵션 하이픈 또는 공백
+- 선택적 하이픈 또는 공백
 - 3 자리 숫자
-- 옵션 하이픈 또는 공백
+- 선택적 하이픈 또는 공백
 - 3 자리 숫자
-- 옵션 하이픈 또는 공백
+- 선택적 하이픈 또는 공백
 - 3 자리 숫자
 
 ### <a name="checksum"></a>제외
@@ -700,7 +700,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 ### <a name="checksum"></a>제외
 
-해당 없음
+해당 사항 없음
   
 ### <a name="definition"></a>정의
 
@@ -3812,12 +3812,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 9 자리 숫자 (이전 형식):
 - 출생 날짜를 나타내는 6 자리 숫자
-- 슬래시
+- 선택적 슬래시
 - 3 자리 숫자
 
 10 자리 숫자 (새 형식):
 - 출생 날짜를 나타내는 6 자리 숫자
-- 슬래시 
+- 선택적 슬래시 
 - 마지막 숫자가 검사 숫자인 4 자리 숫자
 
 ### <a name="checksum"></a>제외
@@ -4846,24 +4846,24 @@ EU 국가 식별 번호 중요 한 정보 유형의 엔터티입니다.
 - [체코어](#czech-personal-identity-number)
 - [덴마크](#denmark-personal-identification-number)
 - [에스토니아](#estonia-personal-identification-code)
-- [핀란드](#finland-national-identification-number)
-- [프랑스](#france-national-identification-card-cni)
+- [핀란드](#finland-national-id)
+- [프랑스](#france-national-id-card-cni)
 - [독일](#germany-identity-card-number)
 - [그리스](#greece-national-id-card)
-- [헝가리](#hungary-national-identification-number)
-- [아일랜드](#ireland-national-identification-number)
-- [이탈리아](#italy-national-identification-number)
-- [라트비아](#latvia-national-identification-number)
-- [리투아니아](#lithuania-national-identification-number)
-- [셈](#luxemburg-national-identification-number)
-- [몰타](#malta-national-identification-number)
-- [네덜란드](#netherlands-national-identification-number)
+- [헝가리](#hungary-personal-identification-number)
+- [아일랜드](#ireland-personal-public-service-pps-number)
+- [이탈리아](#italy-fiscal-code)
+- [라트비아](#latvia-personal-code)
+- [리투아니아](#lithuania-personal-code)
+- [셈](#luxemburg-national-identification-number-natural-persons)
+- [몰타](#malta-identity-card-number)
+- [네덜란드](#netherlands-citizens-service-bsn-number)
 - [폴란드](#poland-national-id-pesel)
 - [포르투갈](#portugal-citizen-card-number)
-- [루마니아](#romania-national-identification-number)
-- [슬로바키아](#slovakia-national-identification-number)
-- [슬로베니아](#slovenia-national-identification-number)
-- [스페인](#spain-national-identification-number)
+- [루마니아](#romania-personal-numeric-code-cnp)
+- [슬로바키아](#slovakia-personal-number)
+- [슬로베니아](#slovenia-unique-master-citizen-number)
+- [스페인](#spain-dni)
 - [영국](#uk-national-insurance-number-nino)                                        
 
 
@@ -4925,26 +4925,33 @@ EU 국가 식별 번호 중요 한 정보 유형의 엔터티입니다.
 이러한 엔터티는 EU 세금 식별 번호 중요 정보 유형입니다.
 
 - [오스트리아](#austria-tax-identification-number)
+- [벨기에](#belgium-national-number)
+- [불가리아](#bulgaria-uniform-civil-number)
+- [크로아티아](#croatia-identity-card-number)
 - [키프로스](#cyprus-tax-identification-number)
+- [체코어](#czech-personal-identity-number)
+- [덴마크](#denmark-personal-identification-number)
+- [에스토니아](#estonia-personal-identification-code)
+- [핀란드](#finland-national-id)
 - [프랑스](#france-tax-identification-number)
 - [독일](#germany-tax-identification-number)
 - [그리스](#greece-tax-identification-number)
 - [헝가리](#hungary-tax-identification-number)
-- [아일랜드](#ireland-tax-identification-number)
-- [이탈리아](#italy-tax-identification-number)
-- [라트비아](#latvia-tax-identification-number)
-- [리투아니아](#lithuania-tax-identification-number)
-- [셈](#luxemburg-tax-identification-number)
+- [아일랜드](#ireland-personal-public-service-pps-number)
+- [이탈리아](#italy-fiscal-code)
+- [라트비아](#latvia-personal-code)
+- [리투아니아](#lithuania-personal-code)
+- [셈](#luxemburg-national-identification-number-non-natural-persons)
 - [몰타](#malta-tax-identification-number)
 - [네덜란드](#netherlands-tax-identification-number)
 - [폴란드](#poland-tax-identification-number)
 - [포르투갈](#portugal-tax-identification-number)
-- [루마니아](#romania-tax-identification-number)
-- [슬로바키아](#slovakia-tax-identification-number)
+- [루마니아](#romania-personal-numeric-code-cnp)
+- [슬로바키아](#slovakia-personal-number)
 - [슬로베니아](#slovenia-tax-identification-number)
 - [스페인](#spain-tax-identification-number)
 - [스웨덴](#sweden-tax-identification-number)
-- [영국](#uk-tax-identification-number)
+- [영국](#uk-unique-taxpayer-reference-number)
 
 
 ## <a name="finland-drivers-license-number"></a>핀란드 운전 면허 번호
@@ -5055,7 +5062,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - terveyskortti
 
 
-## <a name="finland-national-identification-number"></a>핀란드 국가 식별 번호
+## <a name="finland-national-id"></a>핀란드 국가 ID
 
 ### <a name="format"></a>형식일
 
@@ -5356,7 +5363,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - carte d'assuré social
 
 
-## <a name="france-national-identification-card-cni"></a>프랑스 국가 식별 카드 (CNI)
+## <a name="france-national-id-card-cni"></a>프랑스 국가 id 카드 (CNI)
 
 ### <a name="format"></a>형식일
 
@@ -6257,7 +6264,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="checksum"></a>제외
 
-해당 없음
+해당 사항 없음
   
 ### <a name="definition"></a>정의
 
@@ -6448,9 +6455,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - vezetoi
 
 
-## <a name="hungary-national-identification-number"></a>헝가리어 국가 식별 번호
-
-이 중요 한 정보 유형 엔터티는 EU 국가 식별 번호 중요 정보 유형 으로만 사용할 수 있습니다.
+## <a name="hungary-personal-identification-number"></a>헝가리어 개인 식별 번호
 
 ### <a name="format"></a>형식일
 
@@ -6460,7 +6465,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 11자리 숫자:
   
--  성별에 해당 하는 1 자리 숫자 (1gb, 2 암, 기타 번호는 두 개를 포함 하는 경우 1900에만 발생 합니다. 
+- 성별에 해당 하는 1 자리 숫자 (1gb, 2 암, 기타 번호는 두 개를 포함 하는 경우 1900에만 발생 합니다. 
 - 생년월일에 해당 하는 6 자리 숫자 (YYMMDD)
 - 일련 번호에 해당 하는 3 자리 숫자
 - 검사 숫자 1 개
@@ -6481,15 +6486,20 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 이 함수는 해당  `Func_hungary_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
+      <!-- Hungary Personal Identification Number -->
+      <Entity id="7b5cc218-7046-47d9-80c9-f325b50896ca" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_hungary_eu_national_id_card" />
           <Match idRef="Keywords_hungary_eu_national_id_card" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="75">
           <IdMatch idRef="Func_hungary_eu_national_id_card" />
-</Pattern>
-</Entity>
+          <Any minMatches="0" maxMatches="0">
+            <Match idRef="Keywords_hungary_eu_telephone_number" />
+            <Match idRef="Keywords_hungary_eu_mobile_number" />
+          </Any>
+        </Pattern>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -6613,8 +6623,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ## <a name="hungary-tax-identification-number"></a>헝가리어 세금 식별 번호
 
-이 중요 한 정보 유형 엔터티는 EU 세금 식별 번호로 중요 한 정보 유형 으로만 사용할 수 있습니다.
-
 ### <a name="format"></a>형식일
 
 공백이 나 구분 기호가 없는 10 자리 숫자
@@ -6624,8 +6632,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 10 자리 숫자:
   
 - "8" 이어야 하는 1 자리 숫자 
-- 날짜 01/01/1867과 개별 생년월일 사이의 일 수에 해당 하는 5 자리 숫자입니다.
-- 같은 날에 태어난 사람을 구별 하기 위해 기회가 만든 번호에 해당 하는 3 자리 숫자
+- 8자리 숫자
 - 검사 숫자 1 개
     
 ### <a name="checksum"></a>제외
@@ -6644,16 +6651,20 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 이 함수는 해당  `Func_hungary_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
+      <!-- Hungary Tax Identification Number -->
+      <Entity id="ede42eb4-59d9-49eb-9603-d7853fbda91d" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_hungary_eu_tax_file_number" />
           <Match idRef="Keywords_hungary_eu_tax_file_number" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="75">
           <IdMatch idRef="Func_hungary_eu_tax_file_number" />
+          <Any minMatches="0" maxMatches="0">
+            <Match idRef="Keywords_hungary_eu_telephone_number" />
+            <Match idRef="Keywords_hungary_eu_mobile_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -6900,7 +6911,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 각 국가의 형식은 약간 다릅니다. IBAN 중요 한 정보 유형은 다음과 같은 60 국가를 포함 합니다.
 
-ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, to, do, ee, es, fi,,, fr, gb, ge, gi, gl, gr, hr, hu, kw, il, vg,, nl-nl, tn,,,,,,,,, </c12>,,,,,,,,,,,,, rs, l, se, si,
+ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, to, do, ee, es, fi,,, fr, gb, ge, gi, gl, gr, hr, hu, kw, il, vg,, nl-nl, tn,,,,,,,,, ,,,,,,,,,,,,, rs, l, se, si,
 
 ### <a name="checksum"></a>제외
 
@@ -7128,89 +7139,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - ceadúnas tiomána
 
 
-## <a name="ireland-national-identification-number"></a>아일랜드 국가 식별 번호
-
-이 중요 한 정보 유형 엔터티는 EU 국가 식별 번호 중요 정보 형식에만 포함 됩니다.
-
-### <a name="format"></a>형식일
-
-지정 된 패턴에서 문자, 숫자 및 공백의 9 자 조합
-  
-### <a name="pattern"></a>패턴
-
-지정 된 패턴에서 문자, 숫자 및 공백의 9 자 조합
-  
-01 년 1 월 2013 일 현재 위치:
-  
-- 7자리 숫자 
-- 검사 숫자 1 개
-- 1 개의 공백 또는 대문자 "W" (대/소문자 구분)
-    
-01 년 1 월 2013 일 이전:
-  
-- 7자리 숫자 
-- 검사 숫자 1 개
-- 1 개의 공백 또는 대문자 (대/소문자 구분)
-    
-### <a name="checksum"></a>제외
-
-예
-  
-### <a name="definition"></a>정의
-
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-  
-- 이 함수는 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
-- From 키워드를 찾았습니다.
-    
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-  
-- 이 함수는 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
-    
-```xml
- <!--Ireland national identification number  -->
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_ireland_eu_national_id_card" />
-          <Match idRef="Keywords_ireland_eu_national_id_card" />
-        </Pattern>
-<Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_ireland_eu_national_id_card" />
-        </Pattern>
-</Entity>
-```
-
-### <a name="keywords"></a>키워드
-
-#### <a name="keywords_ireland_eu_national_id_card"></a>Keywords_ireland_eu_national_id_card
-
-- 클라이언트 id 서비스
-- identification number
-
-- 개인 id 번호
-- 개인 공용 서비스 번호
-- 개인 서비스 없음
-- phearsanta seirbhíse poiblí
-- pps 아니요
-- pps 번호
-- pps 서비스 없음
-- pps uimh
-- ppsn
-- ppsno #
-- ppsno
-- 공용 서비스 없음
-- publicserviceno #
-- publicserviceno
-- 수입 및 주민 등록 보험 번호
-- rsi 아니요
-- rsi 번호
-- rsin
-- seirbhís aitheantais client
-- uimhpsp
-- uimhir aitheantais chánach
-- uimhir aitheantais phearsanta
-- uimhir phearsanta seirbhíse poiblí
-
 ## <a name="ireland-passport-number"></a>아일랜드 여권 번호
 
 이 중요 한 정보 유형 엔터티는 EU (유럽 여권 번호) 중요 한 정보 유형 으로만 사용할 수 있습니다.
@@ -7278,7 +7206,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 새 형식 (1 년 1 월 2013 및 이후):
 - 7 자리 숫자 
 - 알파벳 검사 숫자에 해당 하는 문자 (대/소문자 구분 안 함)입니다. 
-- 문자 "A" 또는 "H" (대/소문자 구분 안 함)
+- A-I 범위의 선택적 문자 또는 "W"
 
 ### <a name="checksum"></a>제외
 
@@ -7288,9 +7216,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
 - Func_ireland_pps 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
-- 다음 중 하나가 충족됩니다.
-    - Keyword_ireland_pps에서 키워드가 발견 되었습니다.
-    - Func_eu_date 함수가 올바른 날짜 형식의 날짜를 찾습니다.
+- Keywords_ireland_eu_national_id_card에서 키워드가 발견 되었습니다.
 - 체크섬이 통과됩니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 65% 신뢰합니다.
@@ -7298,81 +7224,21 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 체크섬이 통과됩니다.
 
 ```xml
-<!-- Ireland Personal Public Service (PPS) Number -->
-<Entity id="1cdb674d-c19a-4fcf-9f4b-7f56cc87345a" recommendedConfidence="85" patternsProximity="300">
-  <Pattern confidenceLevel="85">
-     <IdMatch idRef="Func_ireland_pps"/>
-     <Any minMatches="1">
-  <Match idRef="Keyword_ireland_pps"/>
-  <Match idRef="Func_eu_date"/>
-     </Any>
-  </Pattern>
-  <Pattern confidenceLevel="65">
-     <IdMatch idRef="Func_ireland_pps"/>
-  </Pattern>
-</Entity>
-```
-
-### <a name="keywords"></a>키워드
-
-#### <a name="keyword_ireland_pps"></a>Keyword_ireland_pps
-
-- Personal Public Service Number 
-- PPS Number 
-- PPS Num 
-- PPS No. 
-- PPS # 
-- .PPS # 
-- PPSN 
-- Public Services Card 
-- Uimhir Phearsanta Seirbhíse Poiblí 
-- Uimh PSP 
-- PSP 
-
-
-## <a name="ireland-tax-identification-number"></a>아일랜드 세금 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 세금 식별 번호로 중요 한 정보 유형 으로만 사용할 수 있습니다.
-
-### <a name="format"></a>형식일
-
-공백 또는 구분 기호가 없는 7 자리 숫자와 문자
-  
-### <a name="pattern"></a>패턴
-
-7 자리 숫자와 문자
-  
-- 7 자리 숫자 
-- 1 개 문자 (대/소문자 구분 안 함)
-    
-### <a name="checksum"></a>제외
-
-해당 없음
-  
-### <a name="definition"></a>정의
-
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- 이 함수는 해당  `Func_ireland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_ireland_eu_tax_file_number` 찾았습니다. 
-    
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- 이 함수는 해당  `Func_ireland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-    
-```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
+      <!-- Ireland Personal Public Service (PPS) Number -->
+      <Entity id="1cdb674d-c19a-4fcf-9f4b-7f56cc87345a" patternsProximity="300" recommendedConfidence="85" relaxProximity="true">
         <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_ireland_eu_tax_file_number" />
-          <Match idRef="Keywords_ireland_eu_tax_file_number" />
+          <IdMatch idRef="Func_ireland_pps" />
+          <Match idRef="Keywords_ireland_eu_national_id_card" />
         </Pattern>
-<Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_ireland_eu_tax_file_number" />
+        <Pattern confidenceLevel="65">
+          <IdMatch idRef="Func_ireland_pps" />
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_ireland_eu_tax_file_number"></a>Keywords_ireland_eu_tax_file_number
+#### <a name="keywords_ireland_eu_national_id_card"></a>Keywords_ireland_eu_national_id_card
 
 - 클라이언트 id 서비스
 - identification number
@@ -7383,11 +7249,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - phearsanta seirbhíse poiblí
 - pps 아니요
 - pps 번호
+- pps 번호
 - pps 서비스 없음
-- pps uimh
 - ppsn
 - ppsno #
 - ppsno
+- psp
 - 공용 서비스 없음
 - publicserviceno #
 - publicserviceno
@@ -7396,10 +7263,27 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - rsi 번호
 - rsin
 - seirbhís aitheantais client
-- uimhpsp
+- uimh
 - uimhir aitheantais chánach
 - uimhir aitheantais phearsanta
 - uimhir phearsanta seirbhíse poiblí
+- tax id
+
+- 세금 식별 아니요
+- 세금 식별 번호
+- 세금 없음 #
+- 세금 없음
+- 세금 번호
+- 세금 등록 번호
+- taxid #
+- taxidno #
+- taxidnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- 언급 id
+- 언급 아니요
+- 언급 #
 
 
 ## <a name="israel-bank-account-number"></a>이스라엘 은행 계좌 번호
@@ -7535,8 +7419,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - numero di patente di guida 
 - patente di guida 
 
-## <a name="italy-national-identification-number"></a>이탈리아 국가 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 국가 식별 번호 중요 정보 유형 으로만 사용할 수 있습니다.
+## <a name="italy-fiscal-code"></a>이탈리아 회계 코드
 
 ### <a name="format"></a>형식일
 
@@ -7567,16 +7450,16 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 이 함수는 해당  `Func_italy_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
-<!-- Italy national identification number -->
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
+      <!-- Italy Fiscal Code -->
+      <Entity id="4cd79172-8da9-4ff5-9188-98b1e7e2eca6" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_italy_eu_national_id_card" />
           <Match idRef="Keywords_italy_eu_national_id_card" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="75">
           <IdMatch idRef="Func_italy_eu_national_id_card" />
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -7665,90 +7548,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - passaporto numero
 - numéro) 포트 italien
 - numéro (고) 포트
-
-
-## <a name="italy-tax-identification-number"></a>이탈리아 세금 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 세금 식별 번호로 중요 한 정보 유형 으로만 사용할 수 있습니다.
-
-### <a name="format"></a>형식일
-
-지정 된 패턴의 문자와 숫자 16 개
-  
-### <a name="pattern"></a>패턴
-
-16 자의 문자 및 숫자:
-  
-- 가족 이름에서 처음 세 개의 자음에 해당 하는 3 개의 문자 
-- 이름의 첫 번째, 세 번째 및 네 번째 자음에 해당 하는 3 개의 문자
-- 출생 연도의 마지막 자리에 해당 하는 2 자리 숫자
-- 출생 달에 해당 하는 1 자리 숫자는 알파벳 순으로 사용 되지만 A에서 E, H, L, M, P, R에 해당 하는 문자만 사용 되며, 따라서 1 월은 A와 10 월이 됩니다.
-- 남성의와 구별 하기 위해 여성의 경우 짝수에서 출생 일에 40이 추가 되는 출생 달의 날짜에 해당 하는 2 자리 숫자
-- 사용자가 태어난 municipality 관련 지역 번호에 해당 하는 4 자리 숫자-국가 전체 코드를 외국 국가에 사용 합니다.
-- 검사 숫자 1 개
-    
-### <a name="checksum"></a>제외
-
-예
-  
-### <a name="definition"></a>정의
-
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- 이 함수는 해당  `Func_italy_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_italy_eu_tax_file_number` 찾았습니다. 
-    
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- 이 함수는 해당  `Func_italy_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-    
-```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_italy_eu_tax_file_number" />
-          <Match idRef="Keywords_italy_eu_tax_file_number" />
-        </Pattern>
-<Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_italy_eu_tax_file_number" />
-        </Pattern>
-</Entity>
-```
-
-### <a name="keywords"></a>키워드
-
-#### <a name="keywords_italy_eu_tax_file_number"></a>Keywords_italy_eu_tax_file_number
-
-- codice 회계
-- codice
-- codice id personale
-- codice personale
-- 회계 코드
-- numero certificato personale
-- numero di identificazione fiscale
-- numero id personale
-- numero personale
-- 개인 인증서 번호
-- 개인 코드
-- 개인 id 코드
-- 개인 id 번호
-- personalcodeno #
-- 세금 코드
-- tax id
-
-- 세금 식별 아니요
-- 세금 식별 번호
-- 세금 id 번호
-- 세금 없음 #
-- 세금 없음
-- 세금 번호
-- 세금 등록 번호
-- taxid #
-- taxidno #
-- taxidnumber #
-- taxno #
-- taxnumber #
-- taxnumber
-- 언급 id
-- 언급 아니요
-- 언급 #
 
 
 ## <a name="italy-value-added-tax-number"></a>이탈리아 값 세금 번호 추가
@@ -8324,14 +8123,15 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - dlno #
 - autovadītāja apliecība
 
-## <a name="latvia-national-identification-number"></a>라트비아 국가 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 국가 식별 번호 중요 정보 유형 으로만 사용할 수 있습니다.
+## <a name="latvia-personal-code"></a>라트비아 개인 코드
 
 ### <a name="format"></a>형식일
 
-지정 된 형식의 11 자리 숫자 및 하이픈
+11 자리 숫자와 선택적 하이픈
   
 ### <a name="pattern"></a>패턴
+
+이전 형식
 
 11 자리 숫자와 하이픈:
   
@@ -8339,6 +8139,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 하이픈
 - 출생 세기에 해당 하는 1 자리 숫자 (19th 세기의 경우 "1", 21 세기의 경우 "2")
 - 임의로 생성 되는 4 자리 숫자
+
+새 형식
+
+11자리 숫자
+
+- 두 자리 숫자 "32"
+- 9자리 숫자
     
 ### <a name="checksum"></a>제외
 
@@ -8347,23 +8154,39 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- 이 함수는 해당  `Func_latvia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- Function  `Func_latvia_eu_national_id_card` 또는 regex에서 `Regex_latvia_eu_national_id_card_new_format` 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
 - From 키워드를  `Keywords_latvia_eu_national_id_card` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- 이 함수는 해당  `Func_latvia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- Function  `Func_latvia_eu_national_id_card` 또는 regex에서 `Regex_latvia_eu_national_id_card_new_format` 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
-<!-- Latvia national identification number -->
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
+      <!-- Latvia Personal Code -->
+      <Entity id="03fcf763-27c2-49ed-9422-2641c6c895c9" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_latvia_eu_national_id_card" />
           <Match idRef="Keywords_latvia_eu_national_id_card" />
         </Pattern>
- <Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="75">
           <IdMatch idRef="Func_latvia_eu_national_id_card" />
+          <Any minMatches="0" maxMatches="0">
+            <Match idRef="Keywords_latvia_eu_telephone_number" />
+            <Match idRef="Keywords_latvia_eu_mobile_number" />
+          </Any>
         </Pattern>
-</Entity>
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Regex_latvia_eu_national_id_card_new_format" />
+          <Match idRef="Keywords_latvia_eu_national_id_card" />
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Regex_latvia_eu_national_id_card_new_format" />
+          <Any minMatches="0" maxMatches="0">
+            <Match idRef="Keywords_latvia_eu_telephone_number" />
+            <Match idRef="Keywords_latvia_eu_mobile_number" />
+          </Any>
+        </Pattern>
+      </Entity>
+
 ```
 
 ### <a name="keywords"></a>키워드
@@ -8480,117 +8303,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - passport 아니요
 - pase numurs    
 
-## <a name="latvia-tax-identification-number"></a>라트비아 세금 번호
-이 중요 한 정보 유형 엔터티는 EU 세금 식별 번호로 중요 한 정보 유형 으로만 사용할 수 있습니다.
-
-### <a name="format"></a>형식일
-
-공백이 나 구분 기호가 없는 11 자리 숫자
-  
-### <a name="pattern"></a>패턴
-
-지정 된 패턴에서 11 자리 숫자
-  
-- 출생 날짜에 해당 하는 6 자리 숫자 (DDMMYY) 
-- 출생 세기에 해당 하는 1 자리 숫자 이며, "0"은 19th 세기에 해당 하 고 "1"은 20th 세기에 해당 하며 21 세기에 해당 합니다.
-- 4 자리 숫자
-    
-### <a name="checksum"></a>제외
-
-예
-  
-### <a name="definition"></a>정의
-
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- 이 함수는 해당  `Func_latvia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_latvia_eu_tax_file_number` 찾았습니다. 
-    
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- 이 함수는 해당  `Func_latvia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-    
-```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_latvia_eu_tax_file_number" />
-          <Match idRef="Keywords_latvia_eu_tax_file_number" />
-        </Pattern>
-<Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_latvia_eu_tax_file_number" />
-        </Pattern>
-</Entity>
-```
-
-### <a name="keywords"></a>키워드
-
-#### <a name="keywords_latvia_eu_tax_file_number"></a>Keywords_latvia_eu_tax_file_number
-
-- 관리 번호
-- alvas nē
-- 돌 번호
-- 시민 번호
-- 민사 번호
-- 전자 위한 인구 조사 번호
-- 전자 번호
-- 회계 코드
-- 의료 기관 사용자 번호
-- i #
-- id-코드
-- identification number
-
-- identifikācijas numurs
-- id-번호
-- 개별 번호
-- latvija alva
-- nacionālais id
-- 
-national id
-- 국가 식별 번호
-- 국가 id 번호
-- national insurance number
-
-- 국가 레지스터 번호
-- nodokļa numurs
-- nodokļu id
-- nodokļu identifikācija numurs
-- 개인 인증서 번호
-- 개인 코드
-- 개인 id 코드
-- 개인 id 번호
-- 개인 식별 코드
-- 개인 식별자
-- 개인 id 번호
-- 개인 번호
-- 개인 숫자 코드
-- personalcodeno #
-- 가상 사용자 kods
-- 인구 식별 코드
-- 공용 서비스 번호
-- 
-registration number
-- 수익 번호
-- 사회적 보험 번호
-- social security number
-
-- 주 세금 코드
-- 세금 파일 번호
-- tax id
-
-- 세금 식별 아니요
-- 세금 식별 번호
-- 세금 없음 #
-- 세금 없음
-- 세금 번호
-- taxid #
-- taxidno #
-- taxidnumber #
-- taxno #
-- taxnumber #
-- taxnumber
-- 언급 id
-- 언급 아니요
-- 언급 #
-- 시킵니다 번호
 
 ## <a name="lithuania-drivers-license-number"></a>리투아니아 운전 면허 번호
 이 중요 한 정보 유형 엔터티는 EU 드라이버의 라이선스 번호 중요 정보 유형 에서만 사용할 수 있습니다.
@@ -8641,8 +8353,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - dlno #
 - vairuotojo pažymėjimas
 
-## <a name="lithuania-national-identification-number"></a>리투아니아 국가 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 국가 식별 번호 중요 정보 유형 으로만 사용할 수 있습니다.
+## <a name="lithuania-personal-code"></a>리투아니아 개인 코드
 
 ### <a name="format"></a>형식일
 
@@ -8652,7 +8363,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 공백과 구분 기호를 사용 하지 않고 11 자리 숫자:
   
-- 사용자의 성별 및 출생 세기에 해당 하는 1 자리 숫자
+- 사용자의 성별 및 출생 세기에 해당 하는 1 자리 (1-6)
 - 생년월일에 해당 하는 6 자리 숫자 (YYMMDD) 
 - 출생 날짜의 일련 번호에 해당 하는 3 자리 숫자
 - 검사 숫자 1 개
@@ -8664,23 +8375,27 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- 이 함수는 해당  `Func_lithuania_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_lithuania_eu_national_id_card` 찾았습니다. 
+- 이 함수는 해당  `Func_lithuania_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From 키워드를  `Keywords_lithuania_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- 이 함수는 해당  `Func_lithuania_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_lithuania_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
-<!-- Lithuania national identification number -->
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
+      <!-- Lithuania Personal Code -->
+      <Entity id="cd6d3786-8ec3-4524-a2cf-1e0095379171" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_lithuania_eu_national_id_card" />
-          <Match idRef="Keywords_lithuania_eu_national_id_card" />
-        </Pattern> 
-<Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_lithuania_eu_national_id_card" />
+          <IdMatch idRef="Func_lithuania_eu_tax_file_number" />
+          <Match idRef="Keywords_lithuania_eu_tax_file_number" />
         </Pattern>
-</Entity>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_lithuania_eu_tax_file_number" />
+          <Any minMatches="0" maxMatches="0">
+            <Match idRef="Keywords_lithuania_eu_telephone_number" />
+            <Match idRef="Keywords_lithuania_eu_mobile_number" />
+          </Any>
+        </Pattern>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -8761,79 +8476,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - passport 아니요
 - numeris
 
-## <a name="lithuania-tax-identification-number"></a>리투아니아 세금 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 세금 식별 번호로 중요 한 정보 유형 으로만 사용할 수 있습니다.
-
-### <a name="format"></a>형식일
-
-공백이 나 구분 기호가 없는 11 자리 숫자
-  
-### <a name="pattern"></a>패턴
-
-11자리 숫자
-  
-### <a name="checksum"></a>제외
-
-해당 없음
-  
-### <a name="definition"></a>정의
-
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- 이 함수는 해당  `Func_lithuania_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_lithuania_eu_tax_file_number` 찾았습니다. 
-    
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- 이 함수는 해당  `Func_lithuania_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-    
-```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_lithuania_eu_tax_file_number" />
-          <Match idRef="Keywords_lithuania_eu_tax_file_number" />
-        </Pattern>
-<Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_lithuania_eu_tax_file_number" />
-        </Pattern>
-</Entity>
-```
-
-### <a name="keywords"></a>키워드
-
-#### <a name="keywords_lithuania_eu_tax_file_number"></a>Keywords_lithuania_eu_tax_file_number
-
-- as메이 inis kodas
-- asmens kodas
-- 시민 서비스 번호
-- mokesčių id
-- mokesčių identifikavimas numeris
-- mokesčių identifikavimo numeris
-- mokesčių numeris
-- 국가 식별 번호
-- 개인 코드
-- piliečio paslaugos numeris
-- tax id
-
-- 세금 식별 아니요
-- 세금 식별 번호
-- 세금 없음 #
-- 세금 없음
-- 세금 번호
-- 세금 등록 번호
-- taxid #
-- taxidno #
-- taxidnumber #
-- taxno #
-- taxnumber #
-- taxnumber
-- 언급 id
-- 언급 아니요
-- 언급 #
-- unikalus identifikavimo kodas
-- unikalus identifikavimo numeris
-- 고유 id 번호
-- 고유 id 번호
-- uniqueidentityno #
 
 ## <a name="luxemburg-drivers-license-number"></a>룩셈부르크 운전 면허 번호
 이 중요 한 정보 유형 엔터티는 EU 드라이버의 라이선스 번호 중요 정보 유형 에서만 사용할 수 있습니다.
@@ -8884,39 +8526,48 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - dlno #
 - fahrerlaubnis
 
-## <a name="luxemburg-national-identification-number"></a>룩셈부르크 국가 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 국가 식별 번호 중요 정보 유형 으로만 사용할 수 있습니다.
+## <a name="luxemburg-national-identification-number-natural-persons"></a>룩셈부르크 국내 식별 번호 (자연어)
 
 ### <a name="format"></a>형식일
 
-공백과 구분 기호를 사용 하지 않고 11 자리 숫자
+공백이 나 구분 기호가 없는 13 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
-11자리 숫자
+13자리 숫자:
   
-- 사용자의 성별 및 출생 세기에 해당 하는 1 자리 숫자
-- 생년월일에 해당 하는 6 자리 숫자 (YYMMDD) 
-- 출생 날짜의 일련 번호에 해당 하는 3 자리 숫자
-- 검사 숫자 1 개
+- 11자리 숫자 
+- 두 개의 검사 숫자
     
 ### <a name="checksum"></a>제외
 
-해당 없음
+예
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- 정규식이 해당  `Regex_luxemburg_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
+- 이 함수는 해당  `Func_luxemburg_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
 - From 키워드를  `Keywords_luxemburg_eu_national_id_card` 찾았습니다. 
-    
+
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
+- 이 함수는 해당  `Func_luxemburg_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+
+
 ```xml
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="75">
-          <IdMatch idRef="Regex_luxemburg_eu_national_id_card" />
+      <!-- Luxemburg National Identification Number (Natural persons) -->
+      <Entity id="aaf661ed-29ec-426d-8bf9-880cad298ebb" patternsProximity="300" recommendedConfidence="85">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_luxemburg_eu_tax_file_number" />
           <Match idRef="Keywords_luxemburg_eu_national_id_card" />
         </Pattern>
-</Entity>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_luxemburg_eu_tax_file_number" />
+          <Any minMatches="0" maxMatches="0">
+            <Match idRef="Keywords_luxemburg_eu_telephone_number" />
+            <Match idRef="Keywords_luxemburg_eu_mobile_number" />
+          </Any>
+        </Pattern>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -8984,19 +8635,24 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - passport 아니요
 - passnummer
 
-## <a name="luxemburg-tax-identification-number"></a>룩셈부르크 세금 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 세금 식별 번호로 중요 한 정보 유형 으로만 사용할 수 있습니다.
+## <a name="luxemburg-national-identification-number-non-natural-persons"></a>룩셈부르크 국내 식별 번호 (비 자연적인 사람)
 
 ### <a name="format"></a>형식일
 
-공백이 나 구분 기호가 없는 13 자리 숫자
+11자리 숫자
   
 ### <a name="pattern"></a>패턴
 
-13자리 숫자:
+11자리 숫자
   
-- 11자리 숫자 
-- 두 개의 검사 숫자
+- 2 자리 숫자
+- 선택적 공백 
+- 3 자리 숫자 
+- 선택적 공백
+- 3 자리 숫자 
+- 선택적 공백
+- 2 자리 숫자
+- 검사 숫자 1 개
     
 ### <a name="checksum"></a>제외
 
@@ -9005,23 +8661,27 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- 이 함수는 해당  `Func_luxemburg_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_luxemburg_eu_tax_file_number_non_natural` 패턴과 일치 하는 콘텐츠를 찾습니다. 
 - From 키워드를  `Keywords_luxemburg_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- 이 함수는 해당  `Func_luxemburg_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수는 해당  `Func_luxemburg_eu_tax_file_number_non_natural` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
+      <!-- Luxemburg National Identification Number (Non-natural persons) -->
+      <Entity id="84bffa3a-d805-4788-a613-b1e4df3804cf" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_luxemburg_eu_tax_file_number" />
+          <IdMatch idRef="Func_luxemburg_eu_tax_file_number_non_natural" />
           <Match idRef="Keywords_luxemburg_eu_tax_file_number" />
         </Pattern>
-<Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_luxemburg_eu_tax_file_number" />
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_luxemburg_eu_tax_file_number_non_natural" />
+          <Any minMatches="0" maxMatches="0">
+            <Match idRef="Keywords_luxemburg_eu_telephone_number" />
+            <Match idRef="Keywords_luxemburg_eu_mobile_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -9189,8 +8849,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - dlno #
 - liċenzja tas-sewqan
 
-## <a name="malta-national-identification-number"></a>몰타 국내 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 국가 식별 번호 중요 정보 유형 으로만 사용할 수 있습니다.
+## <a name="malta-identity-card-number"></a>몰타 id 카드 번호
 
 ### <a name="format"></a>형식일
 
@@ -9201,11 +8860,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 7 자리 숫자와 문자 1 개:
   
 - 7 자리 숫자 
-- 대문자 1 개 (대/소문자 구분)
+- "M, G, A, P, L, H, B, Z"의 한 문자 (대/소문자 구분 안 함)
     
 ### <a name="checksum"></a>제외
 
-해당 없음
+해당 사항 없음
   
 ### <a name="definition"></a>정의
 
@@ -9217,16 +8876,16 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 정규식이 해당  `Regex_malta_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
- <!--Malta national identification number  -->
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
+      <!-- Malta Identity Card Number -->
+      <Entity id="854b36b3-a388-4ac8-a4ec-677c2b5e4356" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_malta_eu_national_id_card" />
           <Match idRef="Keywords_malta_eu_national_id_card" />
         </Pattern>
-<Pattern confidenceLevel="65">
+        <Pattern confidenceLevel="65">
           <IdMatch idRef="Regex_malta_eu_national_id_card" />
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -9290,7 +8949,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - numru-passaport
 
 ## <a name="malta-tax-identification-number"></a>몰타 세금 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 세금 식별 번호로 중요 한 정보 유형 으로만 사용할 수 있습니다.
 
 ### <a name="format"></a>형식일
 
@@ -9313,28 +8971,35 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 ### <a name="checksum"></a>제외
 
-해당 없음
+해당 사항 없음
   
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- 이 함수는 해당  `Func_malta_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- Regex로  `Regex_malta_eu_tax_file_number`  가져오거나 해당 `Regex_malta_eu_tax_file_number_non_maltese_national` 패턴과 일치 하는 콘텐츠를 찾습니다. 
 - From 키워드를  `Keywords_malta_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 65% 신뢰합니다.
-- 이 함수는 해당  `Func_malta_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- Regex로  `Regex_malta_eu_tax_file_number` 가져오거나 해당 `Regex_malta_eu_tax_file_number_non_maltese_national` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
+      <!-- Malta Tax ID Number -->
+      <Entity id="ec830c63-65f4-45d0-9d8c-910dc8334b20" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_malta_eu_tax_file_number" />
+          <IdMatch idRef="Regex_malta_eu_tax_file_number" />
           <Match idRef="Keywords_malta_eu_tax_file_number" />
         </Pattern>
-<Pattern confidenceLevel="65">
+        <Pattern confidenceLevel="65">
           <IdMatch idRef="Regex_malta_eu_tax_file_number" />
         </Pattern>
-</Entity>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Regex_malta_eu_tax_file_number_non_maltese_national" />
+          <Match idRef="Keywords_malta_eu_tax_file_number" />
+        </Pattern>
+        <Pattern confidenceLevel="65">
+          <IdMatch idRef="Regex_malta_eu_tax_file_number_non_maltese_national" />
+        </Pattern>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -9397,23 +9062,21 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
 - Func_netherlands_bsn 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 - Keyword_netherlands_bsn에서 키워드가 발견 되었습니다.
-- Func_eu_date2 함수는 올바른 날짜 형식의 날짜를 찾습니다.
 - 체크섬이 통과됩니다.
 
 ```xml
-<!-- Netherlands Citizen's Service (BSN) Number -->
-<Entity id="c5f54253-ef7e-44f6-a578-440ed67e946d" patternsProximity="300" recommendedConfidence="85">
-  <Pattern confidenceLevel="85">
-       <IdMatch idRef="Func_netherlands_bsn" /> 
-       <Match idRef="Keyword_netherlands_bsn" /> 
-       <Match idRef="Func_eu_date2" /> 
-  </Pattern>
-</Entity>
+      <!-- Netherlands Citizen's Service (BSN) Number -->
+      <Entity id="c5f54253-ef7e-44f6-a578-440ed67e946d" patternsProximity="300" recommendedConfidence="85">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_netherlands_bsn" />
+          <Match idRef="Keywords_netherlands_eu_national_id_card" />
+        </Pattern>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keyword_netherlands_bsn"></a>Keyword_netherlands_bsn
+#### <a name="keywords_netherlands_eu_national_id_card"></a>Keywords_netherlands_eu_national_id_card
   
 - bsn #
 - bsn
@@ -9488,68 +9151,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - rijbewijs
 - rijbewijsnummer
 
-## <a name="netherlands-national-identification-number"></a>네덜란드 국가 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 국가 식별 번호 중요 정보 유형 으로만 사용할 수 있습니다.
-
-### <a name="format"></a>형식일
-
-공백이 나 구분 기호가 없는 9 자리 숫자
-  
-### <a name="pattern"></a>패턴
-
-9 자리 숫자
-  
-### <a name="checksum"></a>제외
-
-예
-  
-### <a name="definition"></a>정의
-
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- 이 함수는 해당  `Func_netherlands_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를 찾았습니다.
-    
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- 이 함수는 해당  `Func_netherlands_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-    
-```xml
- <!--Netherland national identification number  -->
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_netherlands_eu_national_id_card" />
-          <Match idRef="Keywords_netherlands_eu_national_id_card" />
-        </Pattern>
-<Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_netherlands_eu_national_id_card" />
-        </Pattern>
-</Entity>
-```
-
-### <a name="keywords"></a>키워드
-
-#### <a name="keywords_netherlands_eu_national_id_card"></a>Keywords_netherlands_eu_national_id_card
-
-- bsn #
-- bsn
-- burgerservicenummer
-- 시민 서비스 번호
-- 사용자 번호
-- 개인 번호
-- 개인 숫자 코드
-- 사용자 관련 번호
-- persoonlijk nummer
-- persoonlijke 코드
-- persoonsgebonden
-- persoonsnummer
-- 사회 aal-fiscaal nummer
-- 사회적-회계 번호
-- sofi
-- sofinummer
-- identificatienummer
-- identiteitsnummer
-- 고유 id 번호
-- 고유 id 번호
-- uniqueidentityno #
 
 ## <a name="netherlands-passport-number"></a>네덜란드 여권 번호
 이 중요 한 정보 유형 엔터티는 EU (유럽 여권 번호) 중요 한 정보 유형 으로만 사용할 수 있습니다.
@@ -9595,7 +9196,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - paspoortnummer
 
 ## <a name="netherlands-tax-identification-number"></a>네덜란드 세금 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 세금 식별 번호로 중요 한 정보 유형 으로만 사용할 수 있습니다.
 
 ### <a name="format"></a>형식일
 
@@ -9615,20 +9215,20 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 이 함수는 해당  `Func_netherlands_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
 - From 키워드를  `Keywords_netherlands_eu_tax_file_number` 찾았습니다. 
     
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 65% 신뢰합니다.
 - 이 함수는 해당  `Func_netherlands_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
+      <!-- Netherlands Tax Identification Number -->
+      <Entity id="01f42a64-eba7-4892-a67b-398237e4ade2" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_netherlands_eu_tax_file_number" />
           <Match idRef="Keywords_netherlands_eu_tax_file_number" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="65">
           <IdMatch idRef="Func_netherlands_eu_tax_file_number" />
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -10243,7 +9843,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
    
 ## <a name="poland-national-id-pesel"></a>폴란드 국가 ID (PESEL)
-이 중요 한 정보 유형 엔터티는 EU 국가 식별 번호 중요 한 정보 유형에 포함 되며 독립 실행형 중요 한 정보 유형 엔터티로 사용할 수 있습니다.
 
 ### <a name="format"></a>형식일
 
@@ -10251,7 +9850,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="pattern"></a>패턴
 
-11자리 연속 숫자
+- YYMMDD 형식의 출생 날짜를 나타내는 6 자리 숫자
+- 4 자리 숫자
+- 1 개 검사 숫자
 
 ### <a name="checksum"></a>제외
 
@@ -10264,14 +9865,21 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Keyword_pesel_identification_number의 키워드가 발견되었습니다.
 - 체크섬이 통과됩니다.
 
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
+- Func_pesel_identification_number 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
+- 체크섬이 통과됩니다.
+
 ```xml
-<!-- Poland National ID (PESEL) -->      
-<Entity id="E3AAF206-4297-412F-9E06-BA8487E22456" patternsProximity="300" recommendedConfidence="85">
-      <Pattern confidenceLevel="85">
+      <!-- Poland National ID (PESEL) -->
+      <Entity id="E3AAF206-4297-412F-9E06-BA8487E22456" patternsProximity="300" recommendedConfidence="85">
+        <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_pesel_identification_number" />
           <Match idRef="Keyword_pesel_identification_number" />
-      </Pattern>
-</Entity>
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_pesel_identification_number" />
+        </Pattern>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -10391,7 +9999,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="poland-tax-identification-number"></a>폴란드 세금 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 세금 식별 번호로 중요 한 정보 유형 으로만 사용할 수 있습니다.
 
 ### <a name="format"></a>형식일
 
@@ -10411,20 +10018,15 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 이 함수는 해당  `Func_poland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
 - From 키워드를  `Keywords_poland_eu_tax_file_number` 찾았습니다. 
     
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- 이 함수는 해당  `Func_poland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-    
+  
 ```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
+      <!-- Poland Tax Identification Number -->
+      <Entity id="1ff28b4d-40f2-49e9-b677-9606a88e2bca" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_poland_eu_tax_file_number" />
           <Match idRef="Keywords_poland_eu_tax_file_number" />
         </Pattern>
-<Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_poland_eu_tax_file_number" />
-        </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -10462,9 +10064,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
    
 
 ## <a name="portugal-citizen-card-number"></a>포르투갈 시민 카드 번호
-- 이 중요 한 정보 유형 엔터티는 EU 국가 식별 번호 중요 한 정보 유형에 포함 되며 독립 실행형 중요 한 정보 유형 엔터티로 사용할 수 있습니다.
-- 이 중요 한 정보 유형 엔터티는 EU 주민 등록 번호 또는 해당 ID에 해당 하는 중요 한 정보 유형으로 포함 됩니다.
-
 
 ### <a name="format"></a>형식일
 
@@ -10617,15 +10216,18 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - número do passaporte
 
 ## <a name="portugal-tax-identification-number"></a>포르투갈 세금 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 세금 식별 번호로 중요 한 정보 유형 으로만 사용할 수 있습니다.
 
 ### <a name="format"></a>형식일
 
-공백이 나 구분 기호가 없는 9 자리 숫자
+선택 공백이 있는 9 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
-9 자리 숫자
+- 3 자리 숫자
+- 선택적 공백
+- 3 자리 숫자
+- 선택적 공백
+- 3 자리 숫자
   
 ### <a name="checksum"></a>제외
 
@@ -10637,20 +10239,20 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 이 함수는 해당  `Func_portugal_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
 - From 키워드를  `Keywords_portugal_eu_tax_file_number` 찾았습니다. 
     
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 65% 신뢰합니다.
 - 이 함수는 해당  `Func_portugal_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
+      <!-- Portugal Tax Identification Number -->
+      <Entity id="65372402-3131-4f1e-9983-4439841d1f15" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_portugal_eu_tax_file_number" />
           <Match idRef="Keywords_portugal_eu_tax_file_number" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="65">
           <IdMatch idRef="Func_portugal_eu_tax_file_number" />
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -10734,8 +10336,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - dlno #
 - permis de conducere
 
-## <a name="romania-national-identification-number"></a>루마니아 국가 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 국가 식별 번호 중요 정보 유형 으로만 사용할 수 있습니다.
+## <a name="romania-personal-numeric-code-cnp"></a>루마니아 p (personal numeric code)
 
 ### <a name="format"></a>형식일
 
@@ -10743,8 +10344,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="pattern"></a>패턴
 
-13자리 숫자
-  
+- 1 자리 1-9
+- 출생 날짜를 나타내는 6 자리 숫자 (YYMMDD)
+- 2 자리 숫자 (01-52 또는 99 일 수 있음)
+- 4 자리 숫자
+
 ### <a name="checksum"></a>제외
 
 예
@@ -10759,16 +10363,16 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 이 함수는 해당  `Func_romania_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
- <!--Romania national identification number  -->
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
+      <!-- Romania Personal Numerical Code (CNP) -->
+      <Entity id="eb5fa399-fe28-4c67-8188-d63a616ed89c" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_romania_eu_national_id_card" />
           <Match idRef="Keywords_romania_eu_national_id_card" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="75">
           <IdMatch idRef="Func_romania_eu_national_id_card" />
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -10865,92 +10469,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 루마니아어 여권 번호
 - passport 아니요
 - numărul pașaportului
-
-## <a name="romania-tax-identification-number"></a>루마니아 세금 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 세금 식별 번호로 중요 한 정보 유형 으로만 사용할 수 있습니다.
-
-### <a name="format"></a>형식일
-
-공백이 나 구분 기호가 없는 13 자리 숫자
-  
-### <a name="pattern"></a>패턴
-
-13자리 숫자
-  
-### <a name="checksum"></a>제외
-
-해당 없음
-  
-### <a name="definition"></a>정의
-
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- 정규식이 해당  `Regex_romania_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_romania_eu_tax_file_number` 찾았습니다. 
-    
-```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="75">
-          <IdMatch idRef="Regex_romania_eu_tax_file_number" />
-          <Match idRef="Keywords_romania_eu_tax_file_number" />
-        </Pattern>
-</Entity>
-```
-
-### <a name="keywords"></a>키워드
-
-#### <a name="keywords_romania_eu_tax_file_number"></a>Keywords_romania_eu_tax_file_number
-
-- cnp #
-- cnp
-- cod identificare personal
-- cod 숫자 개인
-- cod unic identificare
-- codnumericpersonal #
-- codul 회계 veiligheid
-- identificarea fiscală veiligheid #
-- id-ul taxei
-- 보험 번호
-- insurancenumber #
-- 국가 id #
-- 
-national id
-- 국가 식별 번호
-- număr identificare personal
-- număr identitate
-- număr personal unic
-- număridentitate #
-- număridentitate
-- numărpersonalunic #
-- numărpersonalunic
-- număru de identificare fiscală
-- numărul de identificare fiscală
-- 개인 숫자 코드
-- pin #
-- pin
-- 세금 파일 번호
-- 세금 파일 번호
-- tax id
-
-- 세금 식별 아니요
-- 세금 식별 번호
-- 세금 없음 #
-- 세금 없음
-- 세금 번호
-- 세금 등록 번호
-- taxid #
-- taxidno #
-- taxidnumber #
-- taxno #
-- taxnumber #
-- taxnumber
-- 언급 id
-- 언급 아니요
-- 언급 #
-- 고유 id 번호
-- 고유 id 번호
-- uniqueidentityno #
-- uniqueidentityno
 
 
 ## <a name="russia-passport-number-domestic"></a>러시아 (국내) 여권 번호
@@ -11211,16 +10729,18 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - dlno #
 - vodičský preukaz
 
-## <a name="slovakia-national-identification-number"></a>슬로바키아 국가 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 국가 식별 번호 중요 정보 유형 으로만 사용할 수 있습니다.
+## <a name="slovakia-personal-number"></a>슬로바키아 개인 번호
 
 ### <a name="format"></a>형식일
 
-백슬래시 하나를 포함 하는 10 자리 숫자
+선택적 백슬래시를 포함 하는 9 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
-백슬래시 하나를 포함 하는 10 자리 숫자:
+- 출생 날짜를 나타내는 6 자리 숫자
+- 선택적 슬래시 (/)
+- 3 자리 숫자
+- 1 개의 선택적 검사 숫자
   
 ### <a name="checksum"></a>제외
 
@@ -11232,20 +10752,21 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 이 함수는 해당  `Func_slovakia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
 - From 키워드를  `Keywords_slovakia_eu_national_id_card` 찾았습니다. 
     
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 65% 신뢰합니다.
 - 이 함수는 해당  `Func_slovakia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
- <!-- Slovakia national identification number -->
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
+      <!-- Slovakia Personal Number -->
+      <Entity id="951c26b7-3b35-4f73-924b-15dd599cb9ab" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_slovakia_eu_national_id_card" />
           <Match idRef="Keywords_slovakia_eu_national_id_card" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="65">
           <IdMatch idRef="Func_slovakia_eu_national_id_card" />
         </Pattern>
-</Entity>
+      </Entity>
+    </Version>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -11340,89 +10861,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - passport 아니요
 - číslo (u)
 
-## <a name="slovakia-tax-identification-number"></a>슬로바키아 세금 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 세금 식별 번호로 중요 한 정보 유형 으로만 사용할 수 있습니다.
-
-### <a name="format"></a>형식일
-
-공백이 나 구분 기호가 없는 10 자리 숫자
-  
-### <a name="pattern"></a>패턴
-
-10 자리 숫자
-  
-### <a name="checksum"></a>제외
-
-해당 없음
-  
-### <a name="definition"></a>정의
-
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- 정규식이 해당  `Regex_slovakia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_slovakia_eu_tax_file_number` 찾았습니다. 
-    
-```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="75">
-          <IdMatch idRef="Regex_slovakia_eu_tax_file_number" />
-          <Match idRef="Keywords_slovakia_eu_tax_file_number" />
-        </Pattern>
-</Entity>
-```
-
-### <a name="keywords"></a>키워드
-
-#### <a name="keywords_slovakia_eu_tax_file_number"></a>Keywords_slovakia_eu_tax_file_number
-
-- azonosító szám
-- 돌 번호
-- číslo národnej identifikačnej karty
-- číslo občianského preukazu
-- daňové číslo
-- id 번호
-- id 아니요
-- identification number
-
-- identifikačná karta č
-- identifikačné číslo
-- id 카드 번호 없음
-- id 카드 번호
-- národná identifikačná značka č
-- 국가 번호
-- nationalnumber #
-- nemzeti személyazonosító igazolvány
-- personalidnumber #
-- rč
-- rodne cislo
-- rodné číslo
-- social security number
-
-- ssn #
-- ssn
-- személyi igazolvány szám
-- személyi igazolvány száma
-- személyigazolvány szám
-- 세금 파일 번호
-- 세금 파일 번호
-- tax id
-
-- 세금 식별 아니요
-- 세금 식별 번호
-- 세금 없음 #
-- 세금 없음
-- 세금 번호
-- 세금 등록 번호
-- taxid #
-- taxidno #
-- taxidnumber #
-- taxno #
-- taxnumber #
-- taxnumber
-- 언급 id
-- 언급 아니요
-- 언급 #
-
 
 ## <a name="slovenia-drivers-license-number"></a>슬로베니아 운전 면허 번호
 이 중요 한 정보 유형 엔터티는 EU 드라이버의 라이선스 번호 중요 정보 유형 에서만 사용할 수 있습니다.
@@ -11473,8 +10911,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - dlno #
 - vozniško dovoljenje
 
-## <a name="slovenia-national-identification-number"></a>슬로베니아 국가 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 국가 식별 번호 중요 정보 유형 으로만 사용할 수 있습니다.
+## <a name="slovenia-unique-master-citizen-number"></a>슬로베니아 고유 마스터 시민 번호
 
 ### <a name="format"></a>형식일
 
@@ -11485,7 +10922,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 지정 된 패턴의 13 자리 숫자:
   
 - 생년월일 (DDMMLLL)에 해당 하는 7 자리 숫자 이며 "LLL"은 출생 연도의 마지막 세 자리에 해당 합니다. 
-- 출생 면적에 해당 하는 2 자리 숫자
+- 출생 "50" 영역에 해당 하는 2 자리 숫자
 - 같은 날에 태어난 사용자의 성별 및 일련 번호 조합에 해당 하는 3 자리 숫자 (남성는 000-499, 암은 500-999)
 - 검사 숫자 1 개
     
@@ -11503,16 +10940,16 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 이 함수는 해당  `Func_slovenia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
- <!-- Slovenia national identification number -->
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
+      <!-- Slovenia Unique Master Citizen Number -->
+      <Entity id="68948b27-803d-41e4-adf1-13e05eb541bb" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_slovenia_eu_national_id_card" />
           <Match idRef="Keywords_slovenia_eu_national_id_card" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="75">
           <IdMatch idRef="Func_slovenia_eu_national_id_card" />
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -11592,7 +11029,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - številka potnega lista
 
 ## <a name="slovenia-tax-identification-number"></a>슬로베니아 세금 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 세금 식별 번호로 중요 한 정보 유형 으로만 사용할 수 있습니다.
 
 ### <a name="format"></a>형식일
 
@@ -11600,7 +11036,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="pattern"></a>패턴
 
-8 자리 숫자
+- 1-9의 1 자리 숫자
+- 6 자리 숫자
+- 검사 숫자 1 개
   
 ### <a name="checksum"></a>제외
 
@@ -11612,20 +11050,20 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 이 함수는 해당  `Func_slovenia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
 - From 키워드를  `Keywords_slovenia_eu_tax_file_number` 찾았습니다. 
     
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 65% 신뢰합니다.
 - 이 함수는 해당  `Func_slovenia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
+      <!-- Slovenia Tax Identification Number -->
+      <Entity id="e47b071e-c352-4d70-8241-8c215ad65505" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_nation_eu_tax_file_number" />
-          <Match idRef="Keywords_nation_eu_tax_file_number" />
+          <IdMatch idRef="Func_slovenia_eu_tax_file_number" />
+          <Match idRef="Keywords_slovenia_eu_tax_file_number" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="65">
           <IdMatch idRef="Func_slovenia_eu_tax_file_number" />
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -11827,39 +11265,52 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - el carnet de conducir
 - carnet conducir
 
-## <a name="spain-national-identification-number"></a>스페인 국립 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 국가 식별 번호 중요 정보 유형 으로만 사용할 수 있습니다.
+## <a name="spain-dni"></a>스페인 DNI
 
 ### <a name="format"></a>형식일
 
-7 자리 숫자와 문자 1 개
+8 자리 숫자와 문자 1 개
   
 ### <a name="pattern"></a>패턴
 
 7 자리 숫자와 문자 1 개
   
-- 7 자리 숫자
-- 1 자리 숫자 또는 문자 (대/소문자 구분 안 함)
+- 8 자리 숫자
+- 선택적 공백 또는 하이픈
+- 1 개의 확인 문자 (대/소문자 구분 안 함)
     
 ### <a name="checksum"></a>제외
 
-해당 없음
+예
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- 정규식이 해당  `Regex_spain_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
+- 해당  `Func_spain_eu_DL_and_NI_number_citizen` `Func_spain_eu_DL_and_NI_number_foreigner` 패턴과 일치 하는 콘텐츠를 찾습니다. 
 - From 키워드를  `Keywords_spain_eu_national_id_card"` 찾았습니다. 
+
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
+- 해당  `Func_spain_eu_DL_and_NI_number_citizen` `Func_spain_eu_DL_and_NI_number_foreigner` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+
     
 ```xml
-<!-- Spain national identification number -->
- 
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="75">
-          <IdMatch idRef="Regex_spain_eu_national_id_card" />
+      <!-- Spain DNI -->
+      <Entity id="8e6251b9-47b4-40e8-a42b-0f80876be192" patternsProximity="300" recommendedConfidence="85">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_spain_eu_DL_and_NI_number_citizen" />
           <Match idRef="Keywords_spain_eu_national_id_card" />
         </Pattern>
-</Entity>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_spain_eu_DL_and_NI_number_citizen" />
+        </Pattern>
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_spain_eu_DL_and_NI_number_foreigner" />
+          <Match idRef="Keywords_spain_eu_national_id_card" />
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_spain_eu_DL_and_NI_number_foreigner" />
+        </Pattern>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -11905,7 +11356,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 ### <a name="checksum"></a>제외
 
-해당 없음
+해당 사항 없음
   
 ### <a name="definition"></a>정의
 
@@ -11978,7 +11429,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 없음
 
 ## <a name="spain-tax-identification-number"></a>스페인 세금 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 세금 식별 번호로 중요 한 정보 유형 으로만 사용할 수 있습니다.
 
 ### <a name="format"></a>형식일
 
@@ -12022,23 +11472,30 @@ Foreigner의 Id 번호가 없는 Foreigners
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- 이 함수는 해당  `Func_spain_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 해당  `Func_spain_eu_tax_file_number` `Func_spain_eu_DL_and_NI_number_citizen` 패턴과 일치 하는 콘텐츠를 찾습니다. 
 - From 키워드를  `Keywords_spain_eu_tax_file_number` 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- 이 함수는 해당  `Func_spain_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 해당  `Func_spain_eu_tax_file_number` `Func_spain_eu_DL_and_NI_number_citizen` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
+      <!-- Spain Tax Identification Number -->
+      <Entity id="10f0d113-b0e1-47dc-872a-a4f45b9376a3" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_spain_eu_tax_file_number" />
           <Match idRef="Keywords_spain_eu_tax_file_number" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="75">
           <IdMatch idRef="Func_spain_eu_tax_file_number" />
         </Pattern>
-</Entity>
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_spain_eu_DL_and_NI_number_citizen" />
+          <Match idRef="Keywords_spain_eu_tax_file_number" />
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_spain_eu_DL_and_NI_number_citizen" />
+        </Pattern>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -12206,7 +11663,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - körkort
 
 ## <a name="sweden-national-id"></a>스웨덴 국가 ID
-이 중요 한 정보 유형 엔터티는 EU 국가 식별 번호 중요 한 정보 유형에 포함 되며 독립 실행형 중요 한 정보 유형 엔터티로 사용할 수 있습니다.
 
 ### <a name="format"></a>형식일
 
@@ -12215,9 +11671,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="pattern"></a>패턴
 
 10 또는 12 자리 숫자와 선택적 구분 기호:
-- 2-4 자리 숫자 (선택 사항) 
+- 두 자리 숫자 (선택 사항) 
 - YYMMDD 날짜 형식의 6자리 숫자 
-- 구분 기호 "-" 또는 "+" (선택 사항) 및
+- 구분 기호 "-" 또는 "+" (선택 사항)
 - 4 자리 숫자
 
 ### <a name="checksum"></a>제외
@@ -12227,21 +11683,49 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Func_swedish_national_identifier 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
+- 이 함수는 해당 `Func_swedish_national_identifier` 패턴과 일치 하는 콘텐츠를 찾습니다.
+- From 키워드를 `Keywords_swedish_national_identifier` 찾음
 - 체크섬이 통과됩니다.
 
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
+- 이 함수는 해당 `Func_swedish_national_identifier` 패턴과 일치 하는 콘텐츠를 찾습니다.
+- 체크섬이 통과됩니다.
+
+
 ```xml
-<!-- Sweden National ID -->
-<Entity id="f69aaf40-79be-4fac-8f05-fd1910d272c8" patternsProximity="300" recommendedConfidence="85">
-    <Pattern confidenceLevel="85">
+    <!-- Sweden National ID -->
+    <Entity id="f69aaf40-79be-4fac-8f05-fd1910d272c8" patternsProximity="300" recommendedConfidence="85">
+      <Pattern confidenceLevel="85">
         <IdMatch idRef="Func_swedish_national_identifier" />
-    </Pattern>
-</Entity>
+        <Match idRef="Keywords_swedish_national_identifier" />
+      </Pattern>
+      <Pattern confidenceLevel="75">
+        <IdMatch idRef="Func_swedish_national_identifier" />
+      </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-아니요
+#### <a name="keywords_swedish_national_identifier"></a>Keywords_swedish_national_identifier
+
+- id 없음
+- id 번호
+- i #
+- id 아니요
+- identification number
+
+- identifikationsnumret #
+- identifikationsnumret
+- identitetshandling
+- id 문서
+- identity no
+- id 번호
+- id-nummer
+- 개인 id
+- personnummer #
+- personnummer
+- skatteidentifikationsnummer
    
 ## <a name="sweden-passport-number"></a>스웨덴 여권 번호
 이 중요 한 정보 유형 엔터티는 EU Passport 번호 중요 한 정보 형식에 포함 되며 독립 실행형 중요 한 정보 유형 엔터티로 사용할 수 있습니다.
@@ -12376,7 +11860,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - identifikationsnumret #
 
 ## <a name="sweden-tax-identification-number"></a>스웨덴 세금 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 세금 식별 번호로 중요 한 정보 유형 으로만 사용할 수 있습니다.
 
 ### <a name="format"></a>형식일
 
@@ -12387,7 +11870,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 10 자리 숫자와 기호:
   
 - 생년월일에 해당 하는 6 자리 숫자 (YYMMDD) 
-- 더하기 기호, 빼기 기호 또는 백슬래시
+- 더하기 기호 또는 빼기 기호
 - 다음은 식별 번호를 고유 하 게 만드는 3 자리 숫자입니다. 
   - 1990 이전에 실행 된 번호의 경우 일곱째 및 여덟 번째 숫자는 출생 또는 외부에서 태어난 사람의 국가를 식별 합니다.
   - 아홉 번째 위치의 숫자는 성별에 대 한 홀수 또는 암도를 나타냅니다.
@@ -12407,16 +11890,20 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 이 함수는 해당  `Func_sweden_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
+      <!-- Sweden Tax Identification Number -->
+      <Entity id="139acba0-a5bc-4fbb-876d-f7a493ae8a40" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_sweden_eu_tax_file_number" />
           <Match idRef="Keywords_sweden_eu_tax_file_number" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="75">
           <IdMatch idRef="Func_sweden_eu_tax_file_number" />
+          <Any minMatches="0" maxMatches="0">
+            <Match idRef="Keywords_sweden_eu_telephone_number" />
+            <Match idRef="Keywords_sweden_eu_mobile_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -13098,23 +12585,20 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - nationalinsurancenumber
 
     
-## <a name="uk-tax-identification-number"></a>영국 세금 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 세금 식별 번호로 중요 한 정보 유형 으로만 사용할 수 있습니다.
-
+## <a name="uk-unique-taxpayer-reference-number"></a>영국 고유 Taxpayer 참조 번호
 
 ### <a name="format"></a>형식일
 
-UTR (unique Taxpayer Reference): 공백 및 구분 기호가 없는 10 자리 숫자
+공백과 구분 기호가 없는 10 자리 숫자
  
   
 ### <a name="pattern"></a>패턴
 
-UTR (unique Taxpayer Reference): 10 자리 숫자
-
+10자리 숫자
   
 ### <a name="checksum"></a>제외
 
-예
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -13123,13 +12607,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - From 키워드를  `Keywords_uk_eu_tax_file_number` 찾았습니다. 
     
 ```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="75">
+      <!-- U.K. Unique Taxpayer Reference Number -->
+      <Entity id="ad4a8116-0db8-439a-b545-6d967642f0ec" patternsProximity="300" recommendedConfidence="85">
+        <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_uk_eu_tax_file_number" />
           <Match idRef="Keywords_uk_eu_tax_file_number" />
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드

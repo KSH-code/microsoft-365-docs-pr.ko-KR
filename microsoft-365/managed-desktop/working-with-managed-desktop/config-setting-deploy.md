@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: b731422e6d981b12ea576ed26b841e7c679266ae
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: a24d0dc64e2262a8b208119c45a4a6bade701c10
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530262"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104537"
 ---
 # <a name="deploy-and-track-configurable-settings---microsoft-managed-desktop"></a>구성 가능한 설정 배포 및 추적-Microsoft Managed Desktop
 
@@ -38,20 +38,21 @@ Failed | 그룹의 활성 장치 중 10%에서 변경이 실패 하 여 배포�
 
 **변경 내용을 배포 하려면**
 
-1. [Microsoft Managed Desktop administration 포털](https://aka.ms/mwaasportal) 에 로그인
-2. **설정**아래에서 **보안 계정 구성**을 선택 합니다.
+1. [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) 에 로그인 하 고 **장치** 메뉴를 탐색 합니다.
+2. Microsoft Managed Desktop 섹션에서 **설정을**선택 합니다.
 3. **배포 상태** 작업 영역에서 배포할 설정을 선택 하 고 배포할 미리 구성 된 배포를 선택 합니다.
 4. 배포 **를 선택 하** 여 배치 그룹 중 하나에 변경 내용을 배포 합니다.
 
 > [!NOTE] 
 > 주황색 주의 아이콘은 배포에 사용 가능한 이전 그룹이 순서 대로 롤아웃 된다는 것을 나타내는 것을 나타냅니다. 
 
-![배포 상태 작업 영역입니다. 오른쪽의 신뢰할 수 있는 사이트 창입니다. 배포 그룹 섹션에는 배포 그룹, 장치 및 상태의 세 가지 열이 있습니다. 상태 열에서 "배포"가 강조 표시 됩니다.](../../media/1deployedit.png)
+<!-- Needs picture updated to show MEM ![Deployment status workspace. Trusted sites pane on the right. In the Deployment groups section are three columns: deployment groups, devices, and status. In the status column, "deploy" is highlighted.](../../media/1deployedit.png) -->
+
 Test, First, Fast, 폭넓은 순서로 배포 그룹에 배포 하는 것이 좋습니다. 
 
 각 그룹에서 변경 내용이 완료 되 면 상태가 **완료**로 변경 됩니다.
 
-![업데이트, 버전, 테스트, 처음, 빠르게, 광범위 한 열이 포함 된 배포 상태 작업 영역입니다. 프록시 행이 확장 되어 4 개의 각 배포 그룹에서 "complete"로 플래그가 지정 된 날짜를 표시 합니다.](../../media/2completeedit.png)
+<!-- Needs picture updated to show MEM ![Deployment status workspace with columns for date updated, version, test, first, fast, and broad. The Proxy row is expanded, showing a dated setting flagged as "complete" in each of the four deployment groups.](../../media/2completeedit.png) -->
 
 ## <a name="revert-deployment"></a>배포 되돌리기
 
@@ -60,12 +61,12 @@ Test, First, Fast, 폭넓은 순서로 배포 그룹에 배포 하는 것이 좋
 예를 들어 데스크톱 배경 그림을 사용 하 여 변경 내용을 되돌리는 단계를 보여 줍니다. 
 
 **변경 내용을 되돌리려면**
-1. [Microsoft Managed Desktop administration 포털](https://aka.ms/mwaasportal) 에 로그인
-2. **설정**아래에서 **보안 계정 구성**을 선택 합니다.
+1. [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) 에 로그인 하 고 **장치** 메뉴를 탐색 합니다.
+2. Microsoft Managed Desktop 섹션에서 **설정을**선택 합니다.
 3. **배포 상태** 작업 영역에서 되돌리려는 설정을 선택 하 고 되돌릴 미리 구성 된 배포를 선택 합니다.
 4. **이 변경 내용을 되돌릴 필요가 있습니까?** 에서 **배포 되돌리기를**선택 합니다.
 
-![배포 상태 작업 영역입니다. 브라우저 시작 페이지를 선택 하 고, 제출 된 변경 내용과 해당 상태에 대 한 데이터를 오른쪽의 창에서 엽니다. 맨 아래에는 "배포 되돌리기"를 선택할 수 있는 "이 변경 내용을 되돌릴 필요가 없습니다." 영역이 있습니다.](../../media/3revert.png) 
+<!-- Needs picture updated to show MEM ![Deployment status workspace. Browser start pages is selected, opening a pane on the right side with data about the submitted change and its status. At the bottom is the "need to revert this change" area where you can select "Revert deployment."](../../media/3revert.png) -->
 
 ## <a name="additional-resources"></a>추가 리소스
 - [구성 가능한 설정 개요](config-setting-overview.md)

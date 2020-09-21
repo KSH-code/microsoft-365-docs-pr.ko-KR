@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1349b58bdd6243b05323f14197e0ad92c1fc0d7b
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 03a9b19a5b8ba957419e23c2bb12748c9c57e80d
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289498"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104621"
 ---
 # <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop에서 업데이트를 처리 하는 방법
 
@@ -55,16 +55,15 @@ Microsoft Managed Desktop은 다음과 같은 네 가지 Azure AD 그룹을 사�
 
 
 <table>
-<tr><th colspan="5">배포 설정 업데이트</th></tr>
-<tr><th>업데이트 유형</th><th>테스트</th><th>가장</th><th>신속한</th><th>폭</th></tr>
-<tr><td>운영 체제에 대 한 품질 업데이트</td><td>0 일</td><td>0 일</td><td>0 일</td><td>3 일</td></tr>
-<tr><td>운영 체제용 기능 업데이트</td><td>0 일</td><td>30일</td><td>60일</td><td>90일</td></tr>
-<tr><td>드라이버/펌웨어</td><td colspan="4">품질 업데이트 일정을 따릅니다.</td></tr>
-<tr><td>바이러스 백신 정의</td><td colspan="4">각 검색에서 업데이트</td></tr>
-<tr><td>엔터프라이즈용 Microsoft 365 앱</td><td colspan="4">Office의 현재 채널 팔 로우
+    <tr><th colspan="5">배포 설정 업데이트</th></tr>
+    <tr><th>업데이트 유형</th><th>테스트</th><th>가장</th><th>신속한</th><th>폭</th></tr>
+    <tr><td>운영 체제에 대 한 품질 업데이트</td><td>0 일</td><td>0 일</td><td>0 일</td><td>3 일</td></tr>
+    <tr><td>운영 체제용 기능 업데이트</td><td>0 일</td><td>30일</td><td>60일</td><td>90일</td></tr>
+    <tr><td>드라이버/펌웨어</td><td colspan="4">품질 업데이트 일정을 따릅니다.</td></tr>
+    <tr><td>바이러스 백신 정의</td><td colspan="4">각 검색에서 업데이트</td></tr>
+    <tr><td>엔터프라이즈용 Microsoft 365 앱</td><td colspan="4"><a href="https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/m365-apps#updates-to-microsoft-365-apps">자세한 정보</a></td></tr>
+    <tr><td>Microsoft Edge</td><td colspan="4"><a href="https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/edge-browser-app#updates-to-microsoft-edge">자세한 정보</a></td></tr>
 </table>
-
-엔터프라이즈 용 Microsoft 365 Apps의 현재 채널에 대 한 자세한 내용은 [microsoft 365 앱 용 업데이트 채널 개요](https://docs.microsoft.com/deployoffice/overview-update-channels)를 참조 하세요.
 
 >[!NOTE]
 >이러한 지연 기간은 모든 사용자에 대 한 높은 보안 및 성능 표준을 보장 하도록 의도적으로 설계 되었습니다. 또한 모든 Microsoft Managed Desktop 장치에서 수집 된 데이터와 업데이트의 다양 한 범위 및 영향을 기반으로 Microsoft Managed Desktop은 임의 및 모든 배포 그룹에 대 한 위의 지연 기간을 특별 하 게 수정 하는 유연성을 예약 합니다.

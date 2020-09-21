@@ -9,12 +9,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 04c3901155ecd80fad472e07e7e46620c3ddee1f
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: fc216adadea8dd774901d42a754fb288412318a1
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289276"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104597"
 ---
 #  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 매핑된 드라이브 준비
 
@@ -48,8 +48,8 @@ ms.locfileid: "47289276"
  
 매핑된 드라이브를 회피 하 고 서비스 요청을 제출 하기 전에 요구 사항을 신중히 검토 했는지 확인 합니다. 그런 후 다음 단계를 수행 합니다.
 
-1. [Microsoft Managed Desktop 포털로](https://aka.ms/mmdportal)이동 합니다.  
-2. 지원 **> 지원 요청** 섹션을 통해 "매핑된 드라이브 배포" 라는 지원 요청을 제출 하 고 필요한 파일 공유 정보를 모두 제공 합니다.  
+1. [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) 로 이동 하 여 "문제 해결 + 지원"을 선택한 다음 Microsoft Managed Deskop 섹션에서 "서비스 요청"을 확인 합니다.  
+2. "매핑된 드라이브 배포" 라는 지원 요청을 제출 하 고 필요한 파일 공유 세부 정보를 모두 제공 합니다.  
 3. Microsoft Managed Desktop IT 작업에서는 요청이 완료 되 면 지원 요청 업데이트를 사용 하 여 권고를 제공 합니다. 이 구성은 처음에 테스트 배포 그룹의 장치에만 배포 됩니다.  
-4. Microsoft Managed Desktop IT 작업을 통해 배포 된 구성이 예상 대로 작동 하는지 테스트 하 고 확인 해야 합니다. 테스트를 완료 한 후 지원 요청의 토론 탭을 사용 하 여 Microsoft Managed Desktop IT 작업에 알릴 수 있습니다.  
+4. Microsoft Managed Desktop IT 작업을 통해 배포 된 구성이 예상 대로 작동 하는지 테스트 하 고 확인 해야 합니다. 테스트를 완료 한 후 Microsoft Managed Desktop IT 작업에 알리기 위해 동일한 지원 요청의 세부 정보에서 토론 탭을 사용 하 여 회신 합니다.  
 5. Microsoft Managed Desktop IT 운영 팀에서는 구성을 다른 배포 그룹에 배포 합니다. 

@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: f971fb579624c31afb6225d444c326cde4621729
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: c2a5c7a95a16b9a29e73b98310e64f403d4d342b
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47817152"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104561"
 ---
 # <a name="generate-a-test-alert-in-your-microsoft-threat-protection-evaluation-lab"></a>Microsoft Threat Protection 평가 랩에서 테스트 경고 생성  
 
@@ -36,4 +36,6 @@ Microsoft Threat Protection 평가 실험 설정 및 구성을 완료 했으므�
 <br>![Microsoft 365 보안 대시보드의 시뮬레이션 카드 이미지](../../media/mtp-eval-73.png) <br>
 
 ## <a name="next-steps"></a>다음 단계
-[Microsoft 365 솔루션 및 아키텍처 센터](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) 에서 사용자의 고유한 환경에서 보안 솔루션을 구현 하는 방법에 대 한 지침을 찾아봅니다.
+
+[Microsoft 365 솔루션 및 아키텍처 센터](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) 에서 살펴보고 조직에 적합 한 솔루션 및 아키텍처를 디자인 하는 방법을 이해 합니다.
+

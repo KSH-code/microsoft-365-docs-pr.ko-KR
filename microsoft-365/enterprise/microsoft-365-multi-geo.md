@@ -13,12 +13,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 이 문서에서는 microsoft 365 다중 위치를 사용 하 여 Microsoft 365 현재 지역을 여러 지역 지역으로 확장 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 41069490a8c824bb58a8f4247987abd3ce0901b6
-ms.sourcegitcommit: 62a8c226422eac9c085cc886b4836b037f95ef6d
+ms.openlocfilehash: 2e58d8b5ba66762bcc742f711d13007efc71b679
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47825361"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104609"
 ---
 # <a name="microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo
 
@@ -69,7 +69,7 @@ Multi-Geo를 시작하려면 이러한 단계를 따르세요.
 
 1. 계정 팀과 협의하여 _Microsoft 365의 Multi-Geo 기능_ 서비스 계획을 추가합니다. 계정 팀이 필요한 라이센스 수를 추가할 수 있도록 안내합니다. Multi-Geo 기능은 Microsoft 365 구독을 250개 이상 보유한 EA 고객에게 제공됩니다.
 
-   Microsoft 365 Multi-Geo를 사용하여 시작하기 전에 Microsoft에서는 Multi-Geo 지원을 위해 Exchange Online 테넌트를 구성해야 합니다. 이 일회성 구성 프로세스는 *Microsoft 365의 Multi-Geo 기능* 서비스 계획을 주문하고 테넌트에 라이선스가 표시된 후에 실행됩니다. Multi-Geo 라이선스가 적용되면 [Microsoft 365 메시지 센터](https://support.office.com/article/38FB3333-BFCC-4340-A37B-DEDA509C2093)에서 알림을 받게 되며 Microsoft 365 Multi-Geo 기능을 구성하고 사용하기 시작할 수 있습니다.
+   Microsoft 365 Multi-Geo를 사용하여 시작하기 전에 Microsoft에서는 Multi-Geo 지원을 위해 Exchange Online 테넌트를 구성해야 합니다. 이 일회성 구성 프로세스는 *Microsoft 365의 Multi-Geo 기능* 서비스 계획을 주문하고 테넌트에 라이선스가 표시된 후에 실행됩니다. 테 넌 트가 각 작업 부하에 대 한 구성 프로세스를 완료 한 후 microsoft [365 메시지 센터](https://support.office.com/article/38FB3333-BFCC-4340-A37B-DEDA509C2093) 에 작업에 대 한 특정 알림을 수신 하 고 Microsoft 365 다중 지역 기능을 구성 하 고 사용할 수 있습니다. 다중 지역 지원에 대 한 테 넌 트를 구성 하는 데 필요한 시간은 테 넌 트에 따라 다르며 대부분의 테 넌 트는 기능 라이선스를 확인 한 후 한 달 이내에 완료 됩니다. 좀 더 크고 복잡 한 테 넌 트를 만들려면 구성 프로세스를 완료 하는 데 더 많은 시간이 걸립니다. 필요한 특정 테 넌 트에 대 한 자세한 내용은 계정 팀에 문의 하세요.
 
 2. [Multi-Geo 환경 계획](plan-for-multi-geo.md)을 읽으세요.
 

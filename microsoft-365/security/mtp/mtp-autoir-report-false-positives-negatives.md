@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.author: deniseb
 author: denisebmsft
-ms.date: 01/29/2020
+ms.date: 09/16/2020
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 4030469b54d9a3a9c6f2eaceae384d39ea7f3e20
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.reviewer: evaldm, isco
+ms.openlocfilehash: ace9ab8e5b73e4a4310b476c8954b0be81faaa66
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637083"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962326"
 ---
 # <a name="handle-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>자동화 된 조사 및 응답 기능에서 가양성/네거티브 처리
 
@@ -79,10 +80,7 @@ Microsoft Threat Protection에 대 [한 자동화 된 조사 및 응답 기능�
 
 7. 작업을 실행 취소 하려면 **수정 관리 삭제**를 선택 합니다.
 
-## <a name="related-articles"></a>관련 문서
+## <a name="see-also"></a>참고 항목
 
-- [자동화된 조사 및 대응과 관련된 조치 승인 또는 거부](mtp-autoir-actions.md)
-
-- [알림 센터에 대한 자세한 정보](mtp-action-center.md)
-
+- [자동화 조사 세부정보 및 결과 보기](mtp-autoir-results.md)
 - [Microsoft Threat Protection의 고급 헌팅을 통한 위협에 대한 사전 대응](advanced-hunting-overview.md)

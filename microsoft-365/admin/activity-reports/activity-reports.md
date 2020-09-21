@@ -20,18 +20,18 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자가 Microsoft 365 서비스를 사용하는 방식에 대한 주기적인 보고를 받을 수 있습니다. 사용 현황 개요 대시보드를 사용하면 각 차트에 대한 세부 정보를 확인할 수 있습니다.
-ms.openlocfilehash: f1902c71b167d6293530eae61fa6c57d63c5f06c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f0dcb1fac17a39d1125f9188028d714962c9797d
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387804"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948211"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
-You can easily see how people in your business are using Microsoft 365 services. For example, you can identify who is using a service a lot and reaching quotas, or who may not need an Microsoft 365 license at all.
+회사의 사용자가 Microsoft 365 서비스를 사용하는 방식을 쉽게 확인할 수 있습니다. 예를 들어 서비스를 많이 사용하여 할당량에 도달하는 사용자나 Microsoft 365 라이선스가 전혀 필요하지 않은 사용자를 파악할 수 있습니다.
   
-Reports are available for the last 7 days, 30 days, 90 days, and 180 days. Data won't exist for all reporting periods right away. The reports become available within 48 hours.
+지난 7일, 30일, 90일 및 180일에 대한 보고서를 사용할 수 있습니다. 모든 보고 기간에 해당하는 데이터가 바로 준비되지는 않습니다. 보고서는 48시간 내에 사용할 수 있습니다.
   
 개요에 대한 비디오를 시청하세요. 보고서를 사용하는 방법에 대해 알아봅니다.
   
@@ -141,13 +141,25 @@ Reports are available for the last 7 days, 30 days, 90 days, and 180 days. Data 
 
 ::: moniker range="o365-worldwide"
 
-- [Microsoft Teams 사용자 활동](microsoft-teams-user-activity.md)
+- [Microsoft Teams 사용자 활동](microsoft-teams-user-activity-preview.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
 
-- [Microsoft Teams 장치 사용 현황](microsoft-teams-device-usage.md)
+- [국방부 및 정부 커뮤니티 클라우드에 대한 Microsoft Teams의 사용자 활동](microsoft-teams-user-activity.md)
+
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+- [Microsoft Teams 장치 사용 현황](microsoft-teams-device-usage-preview.md)
+
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+- [국방부 및 정부 커뮤니티 클라우드에 대한 Microsoft Teams의 장치 사용](microsoft-teams-device-usage.md)
 
 ::: moniker-end
 
@@ -159,7 +171,7 @@ Reports are available for the last 7 days, 30 days, 90 days, and 180 days. Data 
   
 ## <a name="how-to-view-usage-information-for-a-specific-user"></a>특정 사용자에 대한 사용 현황 정보를 보는 방법
 
-Use the service reports to research how much a specific user is using the service. For example, to find out how much mailbox storage a specific user has consumed, open the Mailbox usage report, and sort the users by name. If you have thousands of users, export the report to Excel so you filter through the list quickly.
+서비스 보고서를 사용하여 특정 사용자가 서비스를 얼마나 사용하고 있는지를 조사할 수 있습니다. 예를 들어 특정 사용자가 사용한 사서함 저장소의 양을 확인하려면 사서함 사용량 보고서를 열고 이름을 기준으로 사용자를 정렬합니다. 사용자가 수천 명인 경우 보고서를 Excel로 내보내서 목록을 빠르게 필터링할 수 있습니다.
   
 사용자의 계정을 입력한 다음 사용자가 사용 중인 서비스와 서비스의 양이 포함된 목록을 얻는 보고서는 생성할 수 없습니다.
   
@@ -177,7 +189,7 @@ Use the service reports to research how much a specific user is using the servic
   
 ![보고서 - 익명 사용자 목록](../../media/2ed99bce-4978-4ee3-9ea2-4a8db26eef02.png)
   
-It'll take a few minutes for these changes to take effect on the reports in the reports dashboard. This setting also applies to the reports API.
+보고서 대시보드의 보고서에 효과가 적용되려면 몇 분 정도 소요됩니다. 이 설정은 보고서 API에도 적용됩니다.
   
 ## <a name="what-happens-to-usage-data-when-a-user-account-is-closed"></a>사용자 계정을 닫으면 사용 현황 데이터는 어떻게 되나요?
 

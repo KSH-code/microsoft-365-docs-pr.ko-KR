@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: fb786383e448ad3f5c78b22f3cdbf282c2c9f906
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 972430f5637f1160c330bed1558b79c8273171c5
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289724"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104585"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 관리자 지원
 
@@ -24,10 +24,11 @@ Microsoft Managed Desktop 관리 포털을 사용 하 여 Microsoft에 지원 �
 >앱 패키징, 장치, 보안 및 기타에 대 한 [관리자 연락처를 설정](../get-started/add-admin-contacts.md) 했는지 확인 합니다. 관리자 연락처가 구성 되지 않은 경우 이러한 영역에서 지원 요청을 제출할 수 없습니다.
 
 **지원 요청을 제출 하려면**
-1. [Microsoft Managed 데스크톱 관리 포털](https://aka.ms/mwaasportal)에 로그인 합니다. 
-2. **지원 요청**에서 **+ 새 지원 티켓**을 선택 합니다.
-3. 필요한 도움말과 일치 하는 **지원 요청 유형을** 선택 합니다. 아래 표에는 옵션에 대 한 개요가 나와 있습니다. 
-4. **심각도 수준을**선택 합니다. 자세한 내용은 [지원 요청 심각도 정의](#sev)를 참조 하세요. 
+1. [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) 에 로그인 하 고 **문제 해결 + 지원** 메뉴로 이동 합니다.
+2. Microsoft Managed Desktop 섹션에서 항목 **요청**을 선택 합니다 .를 클릭 합니다.
+3. **지원 요청**에서 **+ 새 지원 티켓**을 선택 합니다.
+4. 필요한 도움말과 일치 하는 **지원 요청 유형을** 선택 합니다. 아래 표에는 옵션에 대 한 개요가 나와 있습니다. 
+5. **심각도 수준을**선택 합니다. 자세한 내용은 [지원 요청 심각도 정의](#sev)를 참조 하세요. 
 
 지원 요청 유형 | 사용 시기
 --- | ---
@@ -58,7 +59,7 @@ Microsoft Managed Desktop 관리 포털을 사용 하 여 Microsoft에 지원 �
 
 사용자 의견을 보내주셔서 감사 하 고이를 사용 하 여 관리자 지원 환경을 개선 합니다.
 
-티켓이 **완화** 되거나 **해결** 된 상태 이면 사용자 환경에 해당 특정 문제에 대 한 의견을 공유할 수 있습니다. 이 작업을 수행 하려면 관리 포털의 **지원 요청** 페이지로 이동 합니다. 특정 티켓을 선택 합니다. 오른쪽에 나타나는 바로 **사용자 의견** 탭을 선택 하 고 요청 된 정보를 제공 합니다. 사용자 의견 양식에 개인 정보를 포함 하지 않도록 주의 하세요. 개인 정보 보호에 대 한 자세한 내용은 [Microsoft 개인 정보 취급](https://privacy.microsoft.com/privacystatement)방침을 참조 하십시오.
+티켓이 **완화** 되거나 **해결** 된 상태 이면 사용자 환경에 해당 특정 문제에 대 한 의견을 공유할 수 있습니다. 이 작업을 수행 하려면 MEM portal의 **문제 해결 + 지원** 메뉴에서 **서비스 요청** 페이지로 이동 합니다. 특정 티켓을 선택 합니다. 티켓 세부 정보가 오른쪽의 바로 옆에 표시 되 고 **사용자 의견** 탭을 선택한 다음 요청 된 정보를 제공 합니다. 사용자 의견 양식에 개인 정보를 포함 하지 않도록 주의 하세요. 개인 정보 보호에 대 한 자세한 내용은 [Microsoft 개인 정보 취급](https://privacy.microsoft.com/privacystatement)방침을 참조 하십시오.
 
 ![사용자 의견 양식](../../media/feedback_form.png)
 
@@ -67,4 +68,4 @@ Microsoft Managed Desktop 관리 포털을 사용 하 여 Microsoft에 지원 �
 ## <a name="additional-resources"></a>추가 리소스
 - [Microsoft Managed Desktop에 대 한 사용자 지원](end-user-support.md) 
 - [Microsoft Managed Desktop에 대 한 지원](../service-description/support.md) 
-- Microsoft Managed Desktop을 이미 구독 하 고 있는 경우 microsoft managed desktop [Admin 포털](https://aka.ms/mwaasportal)의 **온라인 리소스** 섹션에 있는 Microsoft managed desktop administration 가이드에서 자세한 절차, 프로세스 흐름, 작업 지침 및 faq를 확인할 수 있습니다.
+- Microsoft Managed Desktop을 이미 구독 한 경우 microsoft [Endpoint Manager](https://endpoint.microsoft.com/)의 **테 넌 트 관리** 메뉴에서 **Microsoft managed desktop** 섹션 아래의 **온라인 리소스** 페이지에서 자세한 절차, 프로세스 흐름, 작업 지침 및 faq를 확인할 수 있습니다.
