@@ -49,7 +49,7 @@
             - name: 중국 사용자를 위한 Microsoft 365 최적화
               href: microsoft-365-networking-china.md
             - name: 기본 Windows 10 VPN 클라이언트를 사용하는 원격 작업자를 위한Microsoft 365 트래픽 최적화
-              href: 'https://docs.microsoft.com/en-us/windows/security/identity-protection/vpn/vpn-office-365-optimization'
+              href: 'https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-office-365-optimization'
         - name: Office 365용 ExpressRoute
           href: azure-expressroute.md
           items:
@@ -271,6 +271,8 @@
       items:
         - name: 도메인 추가
           href: 'https://docs.microsoft.com/microsoft-365/admin/setup/add-domain'
+        - name: 설정 가이드
+          href: setup-guides-for-microsoft-365.md
     - name: Multi-geo
       items:
         - name: Microsoft 365 Multi-Geo
