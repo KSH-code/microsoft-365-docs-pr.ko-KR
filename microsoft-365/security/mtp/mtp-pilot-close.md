@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: f2ba1b63b3c1a986b3e811b3495bb4de85f93223
-ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
+ms.openlocfilehash: d6e9dbc214cdbb7aaf6bf8922ca4eaf986f8a91c
+ms.sourcegitcommit: dcbcd5ef278949c777059b0aa6db072e821f72dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47956529"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48173287"
 ---
 # <a name="closing-and-summarizing-your-microsoft-threat-protection-pilot"></a>Microsoft Threat Protection 파일럿 테스트 종료 및 요약  
 
 **적용 대상:**
 - Microsoft 위협 방지
 
-지금까지 도메인 컨트롤러에서 코드를 원격으로 실행 한 고급 메모리 전용 공격을 시뮬레이션 했습니다. Microsoft Defender ATP 및 Azure ATP에서 stealthy 악성 활동을 감지 하 고 경고 하는 방법을 살펴보았습니다. 또한 다양 한 원본의 알림을 Microsoft Threat Protection 포털의 단일 인시던트에 함께 제공 하 여 SOC 분석가가 필요한 작업을 조사 하 고 수행 하는 방법을 살펴보았습니다. 또한 사용자가 첨부 파일을 열거나 저장 한 후 해당 쿼리를 기반으로 검색을 만든 인바운드 전자 메일을 식별 하는 고급 구하기 쿼리를 만들었습니다.
+지금까지 도메인 컨트롤러에서 코드를 원격으로 실행 한 고급 메모리 전용 공격을 시뮬레이션 했습니다. Microsoft Defender ATP 및 Azure ATP에서 stealthy 악성 활동을 감지 하 고 경고 하는 방법을 살펴보았습니다. 또한 다양 한 원본의 알림을 Microsoft 365 보안 센터 포털의 단일 인시던트에 함께 제공 하 여 SOC 분석가가 필요한 작업을 조사 하 고 취할 수 있는 방법을 살펴보았습니다. 또한 사용자가 첨부 파일을 열거나 저장 한 후 해당 쿼리를 기반으로 검색을 만든 인바운드 전자 메일을 식별 하는 고급 구하기 쿼리를 만들었습니다.
 
 모든 테스트가 완료 된 후 프로세스의 끝에 도달 했습니다.
 

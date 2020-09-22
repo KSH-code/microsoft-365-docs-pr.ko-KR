@@ -15,18 +15,18 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 E5 또는 Microsoft 365 E5 보안의 안전 문서에 대해 알아봅니다.
-ms.openlocfilehash: 5e91c226102d60368bf08b09ae5f0239f63599d5
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: d2220bb088ddf6e739b79212c3c1f7f0ac7bd865
+ms.sourcegitcommit: dcbcd5ef278949c777059b0aa6db072e821f72dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132225"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48173299"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Microsoft 365 E5의 안전 문서
 
 안전한 문서는 microsoft [Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 을 사용 하 여 [제한 된 보기](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653)에서 열린 문서와 파일을 검사 하는 Microsoft 365 E5 또는 microsoft 365 e5 보안 기능입니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 안전한 문서는 *microsoft 365 e5* 또는 *Microsoft 365 e5 보안* 라이선스가 있는 사용자만 사용할 수 있습니다. 이러한 라이선스는 Office 365 ATP (Advanced Threat Protection) 계획에 포함 되지 않습니다.
 
@@ -36,9 +36,11 @@ ms.locfileid: "48132225"
 
 - 이 항목의 절차를 수행 하려면 먼저 사용 권한을 할당 받아야 합니다. 안전한 문서를 사용 하도록 설정 하 고 구성 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
-- 보호를 유지 하기 위해 안전한 문서는 분석을 위해 [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 클라우드로 파일을 보냅니다. Microsoft Defender ATP에서 데이터를 처리 하는 방법에 대 한 자세한 내용은 [Microsoft DEFENDER atp 데이터 저장 및 개인 정보](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)를 참조 하세요.
+### <a name="how-does-microsoft-handle-your-data"></a>Microsoft에서 데이터를 처리 하는 방법
 
-- 안전한 문서로 보낸 파일은 분석에 필요한 시간 외에는 Defender에 보존 되지 않습니다 (일반적으로 24 시간 미만).
+보호를 유지 하기 위해 안전한 문서는 분석을 위해 [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 클라우드로 파일을 보냅니다. Microsoft Defender ATP에서 데이터를 처리 하는 방법에 대 한 자세한 내용은 [Microsoft DEFENDER atp 데이터 저장 및 개인 정보](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)를 참조 하세요.
+
+안전한 문서로 보낸 파일은 분석에 필요한 시간 외에는 Defender에 보존 되지 않습니다 (일반적으로 24 시간 미만).
 
 ## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>보안 & 준수 센터를 사용 하 여 안전한 문서 구성
 
