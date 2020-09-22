@@ -16,14 +16,17 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 EOP (Exchange Online Protection)에서 메일 흐름 규칙 (전송 규칙)을 사용 하 여 대량 메일 (회색 메일)을 식별 하 고 필터링 하는 방법을 알 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 62db73ea917139d81a29569d5b452637fd053c92
-ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
+ms.openlocfilehash: c6a8ad5dd2752f86c0ff9ec96dafe621804b4856
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47775198"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197306"
 ---
 # <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>메일 흐름 규칙을 사용하여 EOP에서 대량 전자 메일 필터링
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Exchange online 사서함이 없는 Microsoft 365 조직, EOP (독립 실행형 Exchange Online Protection) 조직의 사서함이 있는 EOP에서는 스팸 방지 정책 (스팸 필터 정책 또는 콘텐츠 필터 정책이 라고도 함)을 사용 하 여 스팸 및 대량 메일 (회색 메일이 라고도 함)에 대 한 인바운드 메시지를 검사 합니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
@@ -31,7 +34,7 @@ Exchange online 사서함이 없는 Microsoft 365 조직, EOP (독립 실행형 
 
 이 항목에서는 EAC (exchange 관리 센터) 및 PowerShell (exchange online 사서함이 없는 조직의 경우 exchange Online의 사서함이 있는 Microsoft 365 조 직의 경우 exchange online PowerShell)에서 이러한 메일 흐름 규칙을 만드는 방법에 대해 설명 합니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 다음 절차를 수행 하려면 먼저 사용 권한을 할당 받아야 합니다.
 

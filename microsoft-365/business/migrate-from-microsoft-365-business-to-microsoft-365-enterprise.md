@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Microsoft 365 Business Premium에서 Microsoft 365 E3로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: 6a795d96ccae7e054e7e52d4fd60a4e73b3c71dd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: fbd5c0710bffa92cfc17447094bb9b2683641d5f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401993"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195522"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Microsoft 365 Business Premium에서 Microsoft 365 E3로 마이그레이션
 
@@ -79,13 +79,13 @@ Microsoft 365 Business Premium에는 소규모 기업에 필요한 모든 것이
 | Enterprise CAL Suite (Exchange, SharePoint, Skype, Windows, Microsoft Endpoint Configuration Manager, Windows Rights Management)| |         ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | **규정 준수**        | | | 
 | 무제한 전자 메일 보관    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
-| 준수 점수/준수 관리자    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| 규정 관리자    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | eDiscovery    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | 원본 위치 유지 및 소송 보존    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | MRM (메시징 레코드 관리) 보존 태그 및 보존 정책    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 ||||
 
-\*SaaS 앱에 대 한 액세스 권한이 할당 된 사용자는 최대 10 개의 앱에 대 한 SSO 액세스를 받을 수 있습니다. 관리자는 SSO를 구성 하 고 다른 SaaS 앱에 대 한 사용자 액세스를 변경할 수 있지만 SSO 액세스는 사용자 당 10 개의 앱에 한 번에 하나씩만 허용 됩니다. 모든 Office 365 앱은 단일 앱으로 계산 됩니다.
+\* SaaS 앱에 대 한 액세스 권한이 할당 된 사용자는 최대 10 개의 앱에 대 한 SSO 액세스를 받을 수 있습니다. 관리자는 SSO를 구성 하 고 다른 SaaS 앱에 대 한 사용자 액세스를 변경할 수 있지만 SSO 액세스는 사용자 당 10 개의 앱에 한 번에 하나씩만 허용 됩니다. 모든 Office 365 앱은 단일 앱으로 계산 됩니다.
 
 ## <a name="migration"></a>마이그레이션
 

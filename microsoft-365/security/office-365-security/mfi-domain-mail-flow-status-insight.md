@@ -13,14 +13,17 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 최상위 도메인 메일 흐름 상태 정보를 사용 하 여 전자 메일 도메인의 MX 레코드와 관련 된 메일 흐름 문제를 해결 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 34b80bee48bd91524fbd95961c473f50fbe394b7
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 24922d6ae7d2ec50e3d9383631991cf46a818c05
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358315"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197528"
 ---
 # <a name="top-domain-mail-flow-status-insight-in-the-security--compliance-center"></a>보안 & 준수 센터의 상위 도메인 메일 흐름 상태 이해
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 [보안 & 준수 센터](https://protection.office.com) 의 [메일 흐름 대시보드의](mail-flow-insights-v2.md) **최상위 도메인 메일 흐름 상태** 정보는 메일 흐름 측면에서 조직의 도메인에 대 한 현재 상태를 제공 합니다. 이러한 통찰력은 ***메일 흐름에 영향*** 을 주는 (예: 외부 전자 메일을 받을 수 없음), 특히 도메인 만료 또는 잘못 된 MX 레코드가 있는 도메인의 문제를 파악 하 고 문제를 해결 하는 데 도움이 됩니다.
 

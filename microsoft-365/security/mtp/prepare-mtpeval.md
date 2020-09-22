@@ -15,14 +15,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 6b87b051d243c11fe2b32fccb50f3ad0d01d0c04
-ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
+ms.openlocfilehash: 97e75b07721c180fe6b4df56c2d9cc819b610802
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47956154"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195550"
 ---
 # <a name="prepare-your-microsoft-threat-protection-trial-lab-or-pilot-environment"></a>Microsoft Threat Protection 평가판 랩 또는 파일럿 환경 준비
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **적용 대상:**
 - Microsoft 위협 방지
@@ -128,7 +131,7 @@ Active Directory와 Azure Active Directory 간의 동기화를 이미 사용 하
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
 | Office 365 Advanced Threat Protection| Office 365 ATP는 전자 메일 메시지, 링크 (Url) 및 공동 작업 도구로 인해 야기 되는 악의적인 위협 으로부터 조직을 보호 합니다. <br> [더 알아보세요.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)                                                                                                                                                                                                                                             | 1                    |
 |Azure Advanced Threat Protection|Azure ATP는 Active Directory 신호를 사용 하 여 조직에서 진행 되는 고급 위협, 손상 된 id 및 악의적인 참가자 작업을 식별, 감지 및 조사 합니다. <br> [자세히 알아보기](https://docs.microsoft.com/azure-advanced-threat-protection/).| 2  |
-|Microsoft Cloud App Security| Microsoft Cloud App Security는 여러 클라우드에서 작동 하는 "CASB (Cloud Access Security Broker)"입니다. 이를 통해 다양 한 가시성, 데이터 이동에 대 한 제어, 모든 클라우드 서비스에서 cyberthreats을 식별 하 고 공격 하는 정교한 분석이 제공 됩니다. <br> [자세히 알아보기](https://docs.microsoft.com/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |3                    |
+|Microsoft Cloud App Security| Microsoft Cloud App Security는 여러 클라우드에서 작동 하는 "CASB (Cloud Access Security Broker)"입니다. 이를 통해 다양 한 가시성, 데이터 이동에 대 한 제어, 모든 클라우드 서비스에서 cyberthreats을 식별 하 고 공격 하는 정교한 분석이 제공 됩니다. <br> [자세히 알아보기](https://docs.microsoft.com/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |3(sp3)                   |
 |Microsoft Defender Advanced Threat Protection | Microsoft Defender ATP 엔드포인트 탐지 및 대응 기능은 실시간에 근접하고 조치가 가능한 고급 공격 탐지력을 제공합니다. 보안 분석가는 알림에 효과적으로 우선 순위를 지정하고, 침해의 전체 범위에 대한 가시성을 확보하고 위협을 수정하기 위한 대응 조치를 취할 수 있습니다. <br> [더 알아보세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |4                    |                                                                                                                                                                                                                                    
 
 ## <a name="next-step"></a>다음 단계

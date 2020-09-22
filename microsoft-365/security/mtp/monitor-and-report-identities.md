@@ -15,14 +15,17 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7b29e91527f4c9cf6fd466ef730c9c4e9552b10e
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: d3eacb8804871d0371ddabbd75c78875a8b49f0d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866886"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196146"
 ---
 # <a name="identity-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 id 모니터링 및 보고
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 조직의 id를 모니터링 하 고 의심 스러운 또는 위험한 행동을 추적 합니다. **보고서**의 **id** 범주에서 다음을 추적할 수 있습니다.
 

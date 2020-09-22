@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: 보안 및 준수 센터에서 Office 365 Advanced Threat Protection에 대 한 보고서를 찾아서 사용 &amp; 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc68df40e6b7b576644be607697d7b1ed0a33660
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 90da02c8aa3d50f62bdf4be8c466962da828b23d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653536"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196600"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection에 대 한 보고서 보기
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Office 365 ATP (Advanced Threat Protection) 조직 (예: Microsoft 365 E5 구독 또는 ATP 계획 1 또는 ATP 계획 2 추가 기능)에는 다양 한 보안 관련 보고서가 포함 되어 있습니다. [필요한 권한이](#what-permissions-are-needed-to-view-the-atp-reports)있는 경우 **보고서** 대시보드로 이동 하 여 보안 & 준수 센터에서 이러한 보고서를 볼 수 있습니다 \> **Dashboard**. 보고서 대시보드로 직접 이동 하려면를 엽니다 <https://protection.office.com/insightdashboard> .
 

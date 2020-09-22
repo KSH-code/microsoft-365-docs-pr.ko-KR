@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: c64adf870d3669b983e11093196f59c82b1f59e0
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: 50ca606a6bef9cec528b6b0ef78142f050e37c51
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844909"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195494"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Microsoft 위협 방지 필수 구성 요소
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **적용 대상:**
 - Microsoft 위협 방지

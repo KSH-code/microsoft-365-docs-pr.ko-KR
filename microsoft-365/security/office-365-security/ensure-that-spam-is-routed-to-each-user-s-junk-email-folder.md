@@ -17,14 +17,17 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online Protection 하이브리드 환경에서 스팸을 사용자 정크 메일 폴더로 라우팅하는 방법을 알 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15acc9ad87fa0c785998895d026dae036d9ddd7b
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 4c01ad0e8efa4d28e1b5d1e72b3daa87bb01b619
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547667"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196596"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 > [!IMPORTANT]
 > 이 항목은 독립 실행형 EOP 고객을 위한 하이브리드 환경의 경우에만 해당 합니다. 이 항목은 Exchange Online 사서함이 있는 Microsoft 365 고객에 게는 적용 되지 않습니다.
@@ -46,7 +49,7 @@ ms.locfileid: "47547667"
 > [!TIP]
 > 온-프레미스 사용자의 정크 메일 폴더로 메시지를 배달 하는 대신 EOP에서 스팸 방지 정책을 구성 하 여 EOP의 스팸 메시지를 격리할 수 있습니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 이러한 절차를 수행 하려면 먼저 온-프레미스 Exchange 환경에서 사용 권한을 할당 받아야 합니다. 특히 **조직 관리**, **규정 준수 관리**및 **레코드 관리** 역할에 할당 되는 **전송 규칙** 역할을 기본적으로 할당 해야 합니다. 자세한 내용은 [역할 그룹에 구성원을 추가 합니다.](https://docs.microsoft.com/Exchange/permissions/role-group-members?view=exchserver-2019#add-members-to-a-role-group)를 참조하세요.
 
@@ -78,7 +81,7 @@ ms.locfileid: "47547667"
 
 3. **새 규칙** 페이지가 열리면 다음 설정을 구성 합니다.
 
-   - **이름**: 규칙에 대 한 설명이 포함 된 고유 이름을 입력 합니다. 예시:
+   - **이름**: 규칙에 대 한 설명이 포함 된 고유 이름을 입력 합니다. 예제:
 
      - EOP SFV:, SCL 6에 게 SPM
 
@@ -112,7 +115,7 @@ ms.locfileid: "47547667"
 New-TransportRule -Name "<RuleName>" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "<EOPSpamFilteringVerdict>" -SetSCL 6
 ```
 
-예시:
+예제:
 
 ```Powershell
 New-TransportRule -Name "EOP SFV:SPM to SCL 6" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "SFV:SPM" -SetSCL 6

@@ -14,14 +14,17 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 40d0ffa779b0ab13a0bdd887b12d69c20892662d
-ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
+ms.openlocfilehash: e518f91b264680e3d356b1e6158f4b9740ed52a2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399352"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196098"
 ---
 # <a name="top-scoring-in-industry-tests"></a>업계 최고의 점수 테스트
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 [Microsoft 위협 보호](https://www.microsoft.com/security/business/threat-protection/integrated-threat-protection) 기술은 독립 테스트에서 높은 점수를 일관 되 게 하 여 엔터프라이즈 위협 방지 기능의 강도를 보여 줍니다. Microsoft는 이러한 테스트 점수를 명확 하 게 하는 데 목적이 있습니다. 이 페이지에서는 결과를 요약 하 고 분석을 제공 합니다.
 

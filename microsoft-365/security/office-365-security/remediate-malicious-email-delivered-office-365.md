@@ -14,14 +14,17 @@ search.appverid: MET150
 description: 위협 수정
 appliesto:
 - Microsoft Threat Protection
-ms.openlocfilehash: 2542f7af8a34088a79aae8a14f7ccdb8ea8fd121
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 526a88409514127d4fb484f88632bf3185004854
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547243"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197444"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>Office 365에서 제공 되는 악성 전자 메일 재구성
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 업데이트 관리는 위협에 대해 proscribed 작업을 수행 하는 것을 의미 합니다. 조직으로 전송 되는 악성 전자 메일은 시스템에서 지울 수 있으며, 자동 제거 (ZAP)를 통해 또는 보안 팀에서 *받은 편지 함으로 이동*, *정크로 이동*, *삭제 된 항목*, *일시 삭제*또는 *하드 삭제*로 이동 하는 것과 같은 수정 작업을 통해 정리할 수도 있습니다. Office Advanced Threat Protection (Office ATP) P2/E5에서는 보안 팀이 수동 및 자동 조사를 통해 전자 메일 및 공동 작업 기능의 위협을 수정할 수 있도록 합니다.
 

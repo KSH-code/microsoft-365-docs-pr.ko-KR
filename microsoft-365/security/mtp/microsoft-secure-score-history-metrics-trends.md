@@ -20,14 +20,17 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 46a45eac2fe5d1a19b0d2c40c6c1405f31b7f7f7
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 6c31ea1f7217babd4949bee843b091bb767e210e
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866710"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196292"
 ---
 # <a name="track-your-microsoft-secure-score-history-and-meet-goals"></a>Microsoft 보안 점수 기록 및 목표를 충족 하는 추적
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 [Microsoft 보안 점수](microsoft-secure-score.md) 는 조직의 보안 상태를 측정 한 값으로, 더 많은 향상 작업이 수행 되었음을 나타냅니다. 이 도구 https://security.microsoft.com/securescore 는 [Microsoft 365 보안 센터](overview-security-center.md)에서 찾을 수 있습니다.
 

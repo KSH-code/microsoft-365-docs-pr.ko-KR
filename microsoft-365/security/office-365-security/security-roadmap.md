@@ -18,14 +18,17 @@ search.appverid:
 - MET150
 ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: 'Microsoft 365 환경을 보호 하기 위한 보안 기능을 구현 하기 위한 Microsoft의 cybersecurity 팀의 주요 권장 사항입니다. '
-ms.openlocfilehash: 089e63ad9c83aac0bc5e88da8a24184eb8bdee6e
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 9bdddbbfbb20900a4645d2e17cf298ed018f4c6d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656960"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197432"
 ---
 # <a name="security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>보안 로드맵-처음 30 일, 90 일 및 그 이상에 대 한 주요 우선 순위
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 이 문서에는 microsoft 365 환경을 보호 하기 위한 보안 기능을 구현 하기 위한 Microsoft의 cybersecurity 팀의 주요 권장 사항이 포함 되어 있습니다. 이 문서는 Microsoft Ignite session [, cybersecurity pro와 같은 보안 microsoft 365, 최초 30 일, 90 일 및 그 이상에 대 한 최고 우선 순위](https://www.youtube.com/watch?v=luignzNyR-o)를 통해 적용 됩니다. 이 세션은 Mark Simos 및 Matt Kemelhar, Enterprise Cybersecurity 설계자를 통해 개발 및 제시 되었습니다.
 
@@ -60,7 +63,7 @@ ms.locfileid: "46656960"
 
 ****
 
-|영역|Tasks|
+|영역|작업|
 |---|---|
 |보안 관리|* 보안 점수를 확인 하 고 현재 점수를 기록해 둡니다 ( <https://securescore.office.com> ).  <br/>  * Office 365에 대 한 감사 로깅을 설정 합니다. [감사 로그 검색을](../../compliance/search-the-audit-log-in-security-and-compliance.md)참조 하세요.  <br/> * [보안 향상을 위해 Microsoft 365을 구성](tenant-wide-setup-for-increased-security.md)합니다.  <br/>  * Microsoft 365 보안 센터 및 Cloud App Security에서 대시보드 및 보고서를 정기적으로 검토 합니다.|
 |위협 방지|[Microsoft 365을 Microsoft Cloud App Security에 연결](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security) 하 여 비정상 동작에 대 한 기본 위협 검색 정책을 사용 하 여 모니터링을 시작 합니다. 변칙 검색을 위한 기준을 작성 하는 데 7 일이 걸립니다.  <br><br/>  관리자 계정에 대 한 보호 구현:  <br/> * 관리 활동에 전용 관리자 계정을 사용 합니다.  <br/>  * 관리자 계정에 대해 MFA (multi-factor authentication)를 적용 합니다.  <br/>  * 관리 활동에 [높은 보안 Windows 10 장치](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-highly-secure) 를 사용 합니다.|
@@ -77,7 +80,7 @@ ms.locfileid: "46656960"
 
 |영역|작업|
 |---|---|
-|보안 관리|* 환경 ()에 대 한 권장 작업에 대 한 보안 점수를 확인 [https://securescore.office.com](https://securescore.office.com) 합니다.  <br/>  * Microsoft 365 보안 센터, Cloud App Security 및 SIEM 도구에서 대시보드 및 보고서를 정기적으로 계속 검토 합니다. <br/> * 소프트웨어 업데이트를 찾고 구현 합니다. <br/> * [Attack 시뮬레이터](attack-simulator.md) 를 사용한 스피어-피싱, 암호-스프레이 및 무작위 암호 공격 ( [Office 365 위협 인텔리전스](office-365-ti.md)에 포함)에 대 한 공격 시뮬레이션을 수행 합니다.  <br/> * Cloud App Security에서 기본 제공 보고서를 검토 하 여 공유 위험 (조사 탭에서)을 확인 합니다. <br/> * [규정 준수 점수](https://docs.microsoft.com/microsoft-365/compliance/compliance-score) 를 확인 하 여 조직에 적용 되는 규정에 대 한 상태를 검토 합니다 (예: GDPR, NIST 800-171).|
+|보안 관리|* 환경 ()에 대 한 권장 작업에 대 한 보안 점수를 확인 [https://securescore.office.com](https://securescore.office.com) 합니다.  <br/>  * Microsoft 365 보안 센터, Cloud App Security 및 SIEM 도구에서 대시보드 및 보고서를 정기적으로 계속 검토 합니다. <br/> * 소프트웨어 업데이트를 찾고 구현 합니다. <br/> * [Attack 시뮬레이터](attack-simulator.md) 를 사용한 스피어-피싱, 암호-스프레이 및 무작위 암호 공격 ( [Office 365 위협 인텔리전스](office-365-ti.md)에 포함)에 대 한 공격 시뮬레이션을 수행 합니다.  <br/> * Cloud App Security에서 기본 제공 보고서를 검토 하 여 공유 위험 (조사 탭에서)을 확인 합니다. <br/> * [준수 관리자](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) 를 확인 하 여 조직에 적용 되는 규정에 대 한 상태를 검토 합니다 (예: GDPR, NIST 800-171).|
 |위협 방지| 관리자 계정에 대해 향상 된 보호를 구현 합니다. <br/> * 관리 활동에 대 한 PAWs ( [권한이 부여 된 액세스 워크스테이션](https://docs.microsoft.com/windows-server/identity/securing-privileged-access/privileged-access-workstations) )를 구성 합니다. <br/> * [AZURE AD 권한을 가진 Id 관리](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure)를 구성 합니다. <br/> * Office 365, Cloud App Security 및 AD FS를 비롯 한 기타 서비스에서 로깅 데이터를 수집 하도록 SIEM (보안 정보 및 이벤트 관리) 도구를 구성 합니다. 감사 로그에는 데이터를 90 일 동안만 저장 합니다. SIEM 도구에서이 데이터를 캡처하면 더 긴 기간에 대 한 데이터를 저장할 수 있습니다.|
 |ID 및 액세스 관리|* 모든 사용자에 대해 MFA를 사용 하도록 설정 하 고 적용 합니다. <br/> * [조건부 액세스 및 관련 정책](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-policies-configurations)집합을 구현 합니다. |
 |정보 보호| 정보 보호 정책을 적용 하 고 구현 합니다. 이러한 리소스에는 다음 예가 포함 됩니다. <br/> * [GDPR에 대 한 Office 365 정보 보호](https://aka.ms/o365gdpr) <br/> * [3 계층의 보호를 사용 하 여 팀 구성](../../solutions/configure-teams-three-tiers-protection.md) <br/> <br> Microsoft 365 (Cloud App Security 대신)에 저장 된 데이터에 대해서는 Microsoft 365의 데이터 손실 방지 정책 및 모니터링 도구를 사용 합니다. <br><br>데이터 손실 방지를 제외 하 고 고급 경고 기능을 위해 Cloud App Security with Microsoft 365을 사용 합니다.|

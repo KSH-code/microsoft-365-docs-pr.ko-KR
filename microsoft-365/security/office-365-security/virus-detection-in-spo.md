@@ -19,14 +19,17 @@ ms.collection:
 - M365-security-compliance
 description: 사용자가 업로드 하 고 사용자가 파일을 다운로드 하거나 동기화 하지 못하게 하는 파일에서 SharePoint Online이 바이러스를 감지 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0e58fa8dc8b30c5bc6ff5db1508d8b7f9189b73a
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 8c65db566f165939d72429bcd61b7d0a880814e0
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653512"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196514"
 ---
 # <a name="virus-detection-in-sharepoint-online-onedrive-and-microsoft-teams"></a>SharePoint Online, OneDrive 및 Microsoft 팀의 바이러스 검색
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Microsoft 365는 사용자가 SharePoint Online, OneDrive 및 Microsoft 팀에 업로드 하는 파일에서 바이러스를 검색 하 여 맬웨어 로부터 환경을 보호 하는 데 도움이 될 수 있습니다. 파일을 업로드 한 후 바이러스가 검색 될 수 있습니다. 파일이 감염 된 것으로 확인 되 면 사용자가 파일을 다운로드 하거나 동기화 할 수 없도록 속성이 설정 됩니다.
 

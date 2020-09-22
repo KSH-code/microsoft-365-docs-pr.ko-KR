@@ -16,18 +16,21 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection) 및 Office 365 Advanced Threat Protection (Office 365 ATP)에서 사용할 수 있는 피싱 방지 정책에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 06307efdc1df03d918e7f0b48c42f6e8ecb1dd79
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 945b346a5ebd4a85776d87c019ee1a06aec73635
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950607"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195918"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Microsoft 365의 피싱 방지 정책
 
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+
 피싱 방지 보호 설정을 구성 하는 정책은 Exchange Online 사서함, 독립 실행형 EOP (Exchange Online Protection), Exchange Online 사서함이 없는 조직, Office 365 Advanced Threat Protection (Office 365 ATP) 조직이 있는 Microsoft 365 조직에서 사용할 수 있습니다.
 
-ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 수 있습니다. 예를 들어,
+ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 수 있습니다. 예제:
 
 - Microsoft 365 Enterprise E5, Microsoft 365 교육 A5 등입니다.
 - [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)
@@ -142,10 +145,10 @@ ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 
 
 가장은 메시지의 보낸 사람 또는 보낸 사람의 전자 메일 도메인이 실제 보낸 사람이 나 도메인과 비슷한 모습입니다.
 
-- 도메인 contoso.com 가장의 예는 ćóntoso.com입니다.
-- 사용자 michelle@contoso.com 가장의 예는 michele@contoso.com입니다.
+- 도메인 contoso.com의 가장 예는 ćóntoso.com입니다.
+- 사용자 michelle@contoso.com의 가장 예는 michele@contoso.com입니다.
 
-그렇지 않은 경우에는 받는 사람을 속이기 위한 것을 제외 하면 가장 된 도메인이 합법적 (등록 된 도메인, 구성 된 전자 메일 인증 레코드 등)으로 간주 될 수 있습니다.
+가장된 도메인은 받는 사람을 속이려는 의도가 있다는 것을 제외하고 합법적(등록된 도메인, 구성한 전자 메일 인증 기록 등)으로 간주될 수 있습니다.
 
 다음 가장 설정은 ATP 피싱 방지 정책 에서만 사용할 수 있습니다.
 

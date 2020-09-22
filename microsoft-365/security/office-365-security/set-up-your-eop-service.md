@@ -14,14 +14,17 @@ ms.custom:
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: 관리자는 온-프레미스 전자 메일 환경을 보호 하기 위해 독립 실행형 EOP (Exchange Online Protection)를 설정 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: e6ca3965dd82bf0e6ed7e361984758ab34e3eea0
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 53386b700c2a2832cf16d47da0678dfb91c5b6d7
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307594"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197170"
 ---
 # <a name="set-up-your-standalone-eop-service"></a>독립 실행형 EOP 서비스 설정
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 이 항목에서는 독립 실행형 EOP (Exchange Online Protection)를 설정 하는 방법에 대해 설명 합니다. Office 365 도메인 마법사에서 여기로 이동했으며 Exchange Online Protection를 사용하지 않으려면 Office 365 도메인 마법사로 돌아갑니다. 커넥터 구성 방법에 대한 자세한 내용를 보려면 [Configure mail flow using connectors in Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)을 참조하세요.
 

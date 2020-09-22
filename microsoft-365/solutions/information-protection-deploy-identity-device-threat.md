@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-infoprotection
 ms.custom: ''
 description: Microsoft 365의 id, 장치 및 위협 보호 서비스를 통해 개인 데이터 위반을 방지 합니다.
-ms.openlocfilehash: a309b5d0ba5f939cf89a31d7ac91ca3aac25ce0d
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: a0efdcfe8e9d27e19b6cf1355a6d0943b7cdaa59
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46520984"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195666"
 ---
 # <a name="use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>데이터 개인 정보 규정에 대 한 id, 장치 및 위협 보호 사용
 
@@ -33,17 +33,17 @@ Microsoft 365에서는 조직에서 데이터 개인 정보 관련 규정 준수
 
 - 개인 데이터는 무단 또는 불법적 처리, 우발적 손실, 파괴 또는 손상에 대 한 보호, 적절 한 기술 또는 조직적 조치 (' 무결성 및 기밀성 ')를 포함 하 여 개인 데이터에 대 한 적절 한 보안을 보장 하는 방식으로 처리 됩니다.
 
-개인 데이터 침해는 종종 관리 또는 최종 사용자 계정 손상 및 악의적인 시스템 액세스로 인해 발생 합니다. 예를 들어 관리자 계정 해킹으로 인해 고객 신용 카드 번호나 기타 개인 정보를 exfiltration 할 수 있습니다. 일반적으로 권장 되는 모든 Microsoft 365, 장치 및 위협 방지 기능을 구현 해야 할 수 있으며, 규정 준수 점수에 반영 됩니다.
+개인 데이터 침해는 종종 관리 또는 최종 사용자 계정 손상 및 악의적인 시스템 액세스로 인해 발생 합니다. 예를 들어 관리자 계정 해킹으로 인해 고객 신용 카드 번호나 기타 개인 정보를 exfiltration 할 수 있습니다. 준수 관리자에 게 제공 되는 Microsoft 365에서 사용할 수 있는 일반적으로 권장 되는 모든 id, 장치 및 위협 방지는 준수 점수에 반영 될 수 있습니다.
 
-## <a name="using-the-results-of-your-assessment-work-and-compliance-score"></a>평가 작업 및 준수 점수 결과 사용
+## <a name="using-the-results-of-your-assessment-work-and-compliance-manager"></a>평가 작업 및 준수 관리자의 결과 사용
 
-준수 점수에는 다음 범주를 사용 하는 id, 장치 및 위협 보호가 포함 됩니다.
+준수 관리자는 다음 범주를 사용 하는 id, 장치 및 위협 보호를 포함 합니다.
 
 - **제어 액세스** 범주에 해당 하는 id입니다.
 - 장치가 **장치 관리** 범주에 해당 합니다.
 - 위협 방지는 **위협 으로부터 보호** 범주에 해당 합니다.
  
-4 가지 주요 데이터 개인 정보 규정에 대 한 예제 집합에서 준수 점수는 90 개선 작업을 지정 하며 대부분의 경우 "27"로 점수가 매겨집니다. 이러한 큰 수는 이러한 범주에 대 한 준수 점수가 되기 때문에 참조를 위해 여기에 나열 되는 일반적인 몇 가지 내용이 나와 있습니다.
+4 가지 주요 데이터 개인 정보 규정을 준수 하는 샘플 집합에서 이러한 기능을 선택 하는 경우 적합성 관리자는 90 개선 작업을 지정 하며, 대부분의 경우 "27"로 점수가 증가 합니다. 이러한 대규모 번호는 이러한 범주에 대 한 준수 관리자에 의해 호출 되기 때문에 참조를 위해 여기에 나열 되는 몇 가지 일반적인 항목이 나와 있습니다.
 
 다음과 같은 작업을 수행할 수 있는 id 및 **제어 액세스** 범주에 [azure Active DIRECTORY (azure AD)](https://azure.microsoft.com/services/active-directory/) 를 사용 합니다.
 

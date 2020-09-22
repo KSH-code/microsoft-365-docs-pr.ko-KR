@@ -15,14 +15,17 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: 하드웨어 기반 격리의 최신 버전을 다운로드 합니다. 악용 또는 악성 링크와 같은 현재 및 신흥 공격을 방지 하 여 직원의 생산성 및 기업 보안을 방해 하지 않도록 합니다.
-ms.openlocfilehash: 32a8705255bf4ae4f0e3678de9cd812b64107cfd
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: 3a20649338bbcd58ad86f70142c2bd9f1c2fd948
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405544"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197576"
 ---
 # <a name="application-guard-for-office-public-preview-for-admins"></a>관리자를 위한 Application Guard for Office (공용 미리 보기)
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 
 **적용 대상:** Word, Excel 및 PowerPoint for Microsoft 365, Windows 10 Enterprise

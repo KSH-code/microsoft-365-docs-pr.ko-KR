@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 8880655ec24f20efd139b8334ab754f51146b496
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: e0c50f2c547dee9cd7ef0131efc30ff4925a1501
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46798213"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196502"
 ---
 # <a name="manage-incidents-in-microsoft-threat-protection"></a>Microsoft 위협 방지의 인시던트 관리
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **적용 대상:**
 - Microsoft 위협 방지

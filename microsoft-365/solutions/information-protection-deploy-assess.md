@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-infoprotection
 ms.custom: ''
 description: Microsoft 365 환경에 있는 데이터 개인 정보 규정, 관련 시나리오, 준비 및 중요 한 정보 유형을 결정 합니다.
-ms.openlocfilehash: ba47a43c7af8d97af852e0a3ef417cdc1dbab46a
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 237039bfd853c0f58276926f29bda26981df6b8c
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521376"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195750"
 ---
 # <a name="assess-data-privacy-risks-and-identify-sensitive-items-with-microsoft-365"></a>데이터 개인 정보 위험 평가 및 Microsoft 365의 중요 한 항목 확인
 
@@ -78,7 +78,7 @@ GDPR 문서 4에 따라:
 |||||
 
 >[!Important]
->이 목록은 목록을 포괄적으로 제공 하기 위한 것이 아닙니다. 나열 된 기술 제어 범주에 설명 된 섹션의 적응성에 대 한 자세한 내용은 [준수 관리자](../compliance/compliance-manager-overview.md) 또는 법률 또는 준수 관리자를 참조 하세요.
+>이 목록은 목록을 포괄적으로 제공 하기 위한 것이 아닙니다. 나열 된 기술 제어 범주에 설명 된 섹션의 적응성에 대 한 자세한 내용은 [준수 관리자](../compliance/compliance-manager.md) 또는 법률 또는 준수 관리자를 참조 하세요.
 >
 
 ## <a name="knowing-your-data"></a>데이터 이해
@@ -168,7 +168,7 @@ Microsoft 365의 데이터 개인 정보 노출은 웹 응용 프로그램 및 C
 
 Microsoft 365 환경에서 소비자의 개인 데이터를 보유 하 고 있지 않거나 해당 환경의 특정 부분으로 제한 되며 소비자 유형 데이터 노출에 대해 기술 컨트롤을 사용 해야 하는 경우에는 해당 기술 제어를 모든 위치에 적용 해야 하는 것이 아니라 환경에서 높은 위험 부분에만 채택 하면 됩니다.
 
-Microsoft 365의 규정 준수 점수와 같은 외부 조직이 나 표준 제어 권장 사항에 따라 제어 전략을 제공 하는 데 도움이 될 수 있지만, 실제 위험 노출을 정량화 하기 위해 데이터 재고 인식이 결정 되도록 구현할 수 있습니다.
+Microsoft 365 준수 관리자와 같은 외부 조직이 나 표준 컨트롤 집합 권장 사항은 제어 전략을 알리는 데 도움이 될 수 있지만 실제 위험 노출을 정량화 하기 위해 데이터 재고 인식이 결정 되도록 구현 하는 것이 좋습니다.
 
 대부분의 조직에서는 위의 시나리오 중 하나에 대 한 노출을 일부 합니다. 평가를 전체적으로 사용 하는 것이 중요 합니다.
 
@@ -214,7 +214,7 @@ Microsoft 준수 관리 센터는 개인 데이터를 식별 하 고 찾는 것�
 - [사용자 지정 중요한 정보 유형](../compliance/custom-sensitive-info-types.md)
 - [보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기](../compliance/create-a-custom-sensitive-information-type.md)
 - [보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](../compliance/create-a-custom-sensitive-information-type-in-scc-powershell.md)
-- [정확한 데이터 일치를 기반으로 하는 사용자 지정 중요 한 정보 유형 만들기 분류](../compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
+- [분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기](../compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
 
 ### <a name="content-explorer"></a>콘텐츠 탐색기
 

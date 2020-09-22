@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 보안 & 준수 센터의 보고서 대시보드에서 사용할 수 있는 메일 흐름 보고서에 대해 알아볼 수 있습니다.
 ms.custom: ''
-ms.openlocfilehash: 3db9130083565d77bb84b4b31ec63eee5cc7a7c9
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+ms.openlocfilehash: d33bd62e9a06385bf3448b7744031ae030dbe3ca
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171401"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195846"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>보안 & 준수 센터의 보고서 대시보드에서 메일 흐름 보고서 보기
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 보안 & 준수 센터의 [메일 흐름 대시보드에서](mail-flow-insights-v2.md) 사용할 수 있는 메일 흐름 보고서 외에도, Microsoft 365 조직을 모니터링 하는 데 도움이 되도록 보고서 대시보드에서 다양 한 추가 메일 흐름 보고서를 사용할 수 있습니다.
 

@@ -18,14 +18,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365에서 사용자 지정 도메인과 함께 SPF(Sender Policy Framework)를 사용할 수 있도록 DNS(도메인 이름 서비스) 레코드를 업데이트하는 방법을 알아봅니다.
-ms.openlocfilehash: dfbd5f7091420d079f91b93f7c581ed69572b7bd
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 8beca879669657612b884462488a347d873f4bf2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656614"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197742"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>스푸핑을 방지할 수 있도록 SPF 설정
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
  **요약:** 이 문서에서는 Office 365에서 사용자 지정 도메인과 함께 SPF (Sender Policy Framework)를 사용할 수 있도록 DNS (Domain Name Service) 레코드를 업데이트하는 방법에 대해 설명합니다. SPF를 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 

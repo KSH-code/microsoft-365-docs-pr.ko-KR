@@ -12,14 +12,17 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: db6109fb73f0e208ab4403e2469bc955a1a01b38
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+ms.openlocfilehash: f6b79d3252084b298f94e01b18ebe3505f83b480
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43517039"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196860"
 ---
 # <a name="device-profile-page"></a>장치 프로필 페이지
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 Microsoft 365 보안 포털은 장치 프로필 페이지를 제공 하므로 네트워크의 장치 상태를 빠르게 평가할 수 있습니다.
 

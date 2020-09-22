@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 23f35c087d55208f7251a6b921cfe7532616742a
-ms.sourcegitcommit: 62a8c226422eac9c085cc886b4836b037f95ef6d
+ms.openlocfilehash: 7db1854534964928b622a7c2f47d07654472f048
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47840766"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197968"
 ---
 # <a name="get-expert-training-on-advanced-hunting"></a>고급 구하기에 대 한 전문 교육 받기
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **적용 대상:**
 - Microsoft 위협 방지

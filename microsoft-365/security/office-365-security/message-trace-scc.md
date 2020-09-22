@@ -13,14 +13,17 @@ ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 보안 & 준수 센터에서 메시지 추적을 사용 하 여 메시지에 대 한 변경 내용을 확인할 수 있습니다.
-ms.openlocfilehash: c6e1f8f9280c84ab6ff6a1572d902ed1d4d4caa3
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 1e9f5e21655e55f711997defcb7ace0319ff4be6
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827054"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197540"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>보안 및 준수 센터의 메시지 추적
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ## <a name="message-trace-features"></a>메시지 추적 기능
 
@@ -235,7 +238,7 @@ ms.locfileid: "46827054"
 
 - **sender_address**: 보낸 사람의 전자 메일 주소 (*별칭* @ *도메인*)입니다.
 
-- **Recipient_status**: 받는 사람에 대 한 메시지 배달 상태입니다. 메시지를 여러 받는 사람에 게 보낸 경우에는 다음 형식으로 모든 받는 사람과 해당 상태를 표시 합니다 \<*email address*\> ## \<*status*\> . 예시:
+- **Recipient_status**: 받는 사람에 대 한 메시지 배달 상태입니다. 메시지를 여러 받는 사람에 게 보낸 경우에는 다음 형식으로 모든 받는 사람과 해당 상태를 표시 합니다 \<*email address*\> ## \<*status*\> . 예제:
 
   - **# #Receive, Send** 는 서비스에서 메시지를 받았으며 의도 한 대상으로 전송 되었음을 의미 합니다.
 
@@ -273,13 +276,13 @@ ms.locfileid: "46827054"
 
 - **server_hostname**: 대상 서버의 호스트 이름 또는 FQDN입니다.
 
-- **source_context**: **원본** 필드와 관련 된 추가 정보입니다. 예시:
+- **source_context**: **원본** 필드와 관련 된 추가 정보입니다. 예제:
 
   - `Protocol Filter Agent`
 
   - `3489061114359050000`
 
-- **원본**: 이벤트를 담당 하는 Exchange Online 구성 요소입니다. 예시:
+- **원본**: 이벤트를 담당 하는 Exchange Online 구성 요소입니다. 예제:
 
   - `AGENT`
 
@@ -297,7 +300,7 @@ ms.locfileid: "46827054"
 
 - **related_recipient_address**: `EXPAND` 및 이벤트를 사용 하 여 `REDIRECT` `RESOLVE` 메시지와 관련 된 다른 받는 사람의 전자 메일 주소를 표시 합니다.
 
-- **참조**:이 필드에는 특정 유형의 이벤트에 대 한 추가 정보가 포함 되어 있습니다. 예시:
+- **참조**:이 필드에는 특정 유형의 이벤트에 대 한 추가 정보가 포함 되어 있습니다. 예제:
 
   - **Dsn**:이 이벤트 이후에 dsn이 생성 되는 경우 연결 된 배달 상태 알림 (dsn, 배달 못 함 보고서, NDR 또는 바운스 메시지)의 **message_id** 값을 나타내는 보고서 링크를 포함 합니다. DSN 메시지의 경우이 필드에는 DSN이 생성 된 원본 메시지의 **message_id** 값이 포함 됩니다.
 
@@ -315,7 +318,7 @@ ms.locfileid: "46827054"
 
 - **return_path**: 메시지를 보낸 **메일** 보낸 사람 명령에 지정 된 반송 전자 메일 주소입니다. 이 필드는 비어 있지 않지만로 표시 되는 null 보낸 사람 주소 값을 가질 수 있습니다 `<>` .
 
-- **message_info**: 메시지에 대 한 추가 정보입니다. 예시:
+- **message_info**: 메시지에 대 한 추가 정보입니다. 예제:
 
   - 이벤트에 대 한 UTC의 메시지 시작 날짜 `DELIVER` 및 시간 `SEND` 입니다. 시작 날짜-시간은 메시지가 처음으로 Exchange Online 조직에 입력 되는 시간입니다. UTC 날짜 및 시간 형식은 ISO 8601 날짜/시간 형식으로 표시 되며 `yyyy-mm-ddThh:mm:ss.fffZ` , 여기서 `yyyy` = 년, `mm` = month, `dd` = 일은 `T` 시간 구성 요소의 시작, `hh` = 시간, `mm` = 분, `ss` = 초, `fff` = 초의 초, 그리고 `Z` `Zulu` UTC를 표시 하는 또 다른 방법인 의미를 나타냅니다.
 

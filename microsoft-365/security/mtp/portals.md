@@ -14,14 +14,17 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: e44411fdc14279dac92b8829503fd636e3225600
-ms.sourcegitcommit: 51f040a4edb8dd52521a5d7b0f7a975986a1af10
+ms.openlocfilehash: c4cb142e06835101eae94365ef2d36ea8287ca9b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46608236"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195596"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Microsoft 보안 포털 및 관리 센터
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 [Microsoft 365 보안 센터가](overview-security-center.md) id, 데이터, 장치 및 앱 간의 보안을 모니터링 하 고 관리 하는 새로운 홈 인 반면, 특정 특수 작업을 위해 다양 한 포털에 액세스 해야 합니다.
 
 > [!TIP] 

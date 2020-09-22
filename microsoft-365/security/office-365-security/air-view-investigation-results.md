@@ -15,14 +15,17 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Microsoft 365에서 자동화 된 조사가 진행 되는 동안과 후에는 결과 및 주요 발견 사항을 볼 수 있습니다.
-ms.openlocfilehash: 057dcf5e6f33c789ecfb47c7e3dfb49f0e2548fc
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 6137edf741dc2ef21ec4e046b1985dd3f85b5720
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656840"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197694"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Microsoft 365의 자동화 된 조사에 대 한 세부 정보 및 결과
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 [자동 조사가](office-365-air.md) [Office 365 Advanced Threat Protection](office-365-atp.md)에서 발생 하는 경우 자동화 된 조사 프로세스 중 및 후에 해당 조사에 대 한 세부 정보를 확인할 수 있습니다. 필수 권한이있는 경우 조사 세부 정보 보기에서 해당 정보를 확인할 수 있습니다.  조사 세부정부 보기에서 최신 상태를 확인하거나 보류중인 작업을 승인할 수 있습니다.
 

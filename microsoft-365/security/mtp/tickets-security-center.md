@@ -19,14 +19,17 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: bd5bf8533d38337c063acdf0dda073e4961e416a
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: f57fc83f9102e5eeea61deaaadc17203bad030ac
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867248"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195538"
 ---
 # <a name="create-and-track-servicenow-tickets-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터에서 ServiceNow 티켓 만들기 및 추적
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 [Microsoft 365 보안 센터](overview-security-center.md) 는 ServiceNow에서 티켓을 기본적으로 만들고 추적할 수 있도록 향상 되었습니다. [ServiceNow에 대해 자세히 알아보기](https://www.servicenow.com/)
 

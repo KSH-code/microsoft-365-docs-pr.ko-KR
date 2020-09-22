@@ -19,14 +19,17 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 826d8561ba0c9618f21458493416b7dbd75af9e1
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 66b81a474ff81df57c0b2a59672b17061f7235cb
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656864"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196086"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>자동화 된 조사 및 응답 기능에서 가양성/네거티브를 보고 하는 방법
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 **적용 대상:**
 - Office 365 Advanced Threat Protection
@@ -63,7 +66,7 @@ Office 365 AIR에 전자 메일 메시지, 전자 메일 첨부 파일, 전자 �
 
 ****
 
-|시나리오|실행 취소 옵션|자세히 알아보기|
+|시나리오|실행 취소 옵션|자세한 정보|
 |---|---|---|
 |전자 메일 메시지가 사용자의 정크 메일 폴더로 라우팅 됨|-메시지를 사용자의 지운 편지함 폴더로 이동 합니다.<br/>-사용자의 받은 편지 함으로 메시지를 이동 합니다. <br/>-메시지 삭제|[Office 365에서 제공 된 악성 전자 메일 찾기 및 조사](https://docs.microsoft.com/microsoft-365/security/office-365-security/investigate-malicious-email-that-was-delivered)|
 |전자 메일 메시지 또는 파일이 격리 됨|-전자 메일 또는 파일을 릴리스 합니다. <br/>-전자 메일 또는 파일 삭제|[Office 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리](https://docs.microsoft.com/microsoft-365/security/office-365-security/manage-quarantined-messages-and-files)|

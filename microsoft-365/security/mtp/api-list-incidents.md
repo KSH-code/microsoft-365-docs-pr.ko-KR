@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 54f5ba640ecc175e78c7087df8016e9b715f17f7
-ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
+ms.openlocfilehash: 9defc9c0f8fa04e019c0108ca0f4111de54edb5f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47775114"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195389"
 ---
 # <a name="list-incidents-api-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 문제 해결 API 목록
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **적용 대상:**
 
@@ -50,7 +53,7 @@ ms.locfileid: "47775114"
 1. 최대 페이지 크기는 **100 인시던트**입니다.
 2. 최대 요청 속도는 **분당 50 통화** 이 고 **시간당 1500 통화**입니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 이 API를 호출 하려면 다음 사용 권한 중 하나가 필요 합니다. 사용 권한을 선택 하는 방법을 비롯 하 여 자세히 알아보려면 [Access Microsoft Threat Protection api](api-access.md) 를 참조 하세요.
 
@@ -693,5 +696,5 @@ GET https://api.security.microsoft.com/api/incidents
 ```
 
 ## <a name="related-topic"></a>관련 항목
-- [인시던트 Api](api-incident.md)
+- [인시던트 API](api-incident.md)
 - [인시던트 업데이트](api-update-incidents.md)

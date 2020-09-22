@@ -18,14 +18,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
-ms.openlocfilehash: d2035ed0805215f1bd8e343f9edf1c557035b5c1
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 2f137f231e6cb239851bc0d2d9b670a5e1f760b8
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307850"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195906"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
  **요약:** 이 문서에서는 대상 전자 메일 시스템에서 사용자 지정 도메인에서 보낸 메시지를 신뢰하는지 확인하기 위해 Office 365에서 DomainKeys 식별 메일 (DKIM)을 사용하는 방법을 설명합니다.
 
