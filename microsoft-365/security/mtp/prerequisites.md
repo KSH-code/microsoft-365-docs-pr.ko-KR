@@ -19,60 +19,63 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: c64adf870d3669b983e11093196f59c82b1f59e0
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: 50ca606a6bef9cec528b6b0ef78142f050e37c51
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844909"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195494"
 ---
-# <a name="microsoft-threat-protection-prerequisites"></a><span data-ttu-id="13e9d-104">Microsoft 위협 방지 필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="13e9d-104">Microsoft Threat Protection prerequisites</span></span>
+# <a name="microsoft-threat-protection-prerequisites"></a><span data-ttu-id="20479-104">Microsoft 위협 방지 필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="20479-104">Microsoft Threat Protection prerequisites</span></span>
 
-<span data-ttu-id="13e9d-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="13e9d-105">**Applies to:**</span></span>
-- <span data-ttu-id="13e9d-106">Microsoft 위협 방지</span><span class="sxs-lookup"><span data-stu-id="13e9d-106">Microsoft Threat Protection</span></span>
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-<span data-ttu-id="13e9d-107">[Microsoft Threat Protection](microsoft-threat-protection.md)을 프로 비전 하 고 사용 하기 위한 라이선스 및 기타 요구 사항에 대해 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="13e9d-107">Learn about licensing and other requirements for provisioning and using [Microsoft Threat Protection](microsoft-threat-protection.md).</span></span>
 
-## <a name="licensing-requirements"></a><span data-ttu-id="13e9d-108">라이선스 요구 사항</span><span class="sxs-lookup"><span data-stu-id="13e9d-108">Licensing requirements</span></span>
-<span data-ttu-id="13e9d-109">이러한 라이선스를 사용 하면 추가 비용 없이 Microsoft 365 보안 센터의 Microsoft Threat Protection 기능에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="13e9d-109">Any of these licenses gives you access to Microsoft Threat Protection features in Microsoft 365 security center without additional cost:</span></span>
+<span data-ttu-id="20479-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="20479-105">**Applies to:**</span></span>
+- <span data-ttu-id="20479-106">Microsoft 위협 방지</span><span class="sxs-lookup"><span data-stu-id="20479-106">Microsoft Threat Protection</span></span>
 
-- <span data-ttu-id="13e9d-110">Microsoft 365 E5 또는 A5</span><span class="sxs-lookup"><span data-stu-id="13e9d-110">Microsoft 365 E5 or A5</span></span>
-- <span data-ttu-id="13e9d-111">Microsoft 365 E5 보안 또는 A5 보안</span><span class="sxs-lookup"><span data-stu-id="13e9d-111">Microsoft 365 E5 Security or A5 Security</span></span>
-- <span data-ttu-id="13e9d-112">Windows 10 Enterprise E5 또는 A5</span><span class="sxs-lookup"><span data-stu-id="13e9d-112">Windows 10 Enterprise E5 or A5</span></span>
-- <span data-ttu-id="13e9d-113">EMS (Enterprise Mobility + Security) E5 또는 A5</span><span class="sxs-lookup"><span data-stu-id="13e9d-113">Enterprise Mobility + Security (EMS) E5 or A5</span></span> 
-- <span data-ttu-id="13e9d-114">Office 365 E5 또는 A5</span><span class="sxs-lookup"><span data-stu-id="13e9d-114">Office 365 E5 or A5</span></span>
-- <span data-ttu-id="13e9d-115">Microsoft Defender Advanced Threat Protection</span><span class="sxs-lookup"><span data-stu-id="13e9d-115">Microsoft Defender Advanced Threat Protection</span></span>
-- <span data-ttu-id="13e9d-116">Azure Advanced Threat Protection</span><span class="sxs-lookup"><span data-stu-id="13e9d-116">Azure Advanced Threat Protection</span></span> 
-- <span data-ttu-id="13e9d-117">Microsoft Cloud App Security</span><span class="sxs-lookup"><span data-stu-id="13e9d-117">Microsoft Cloud App Security</span></span>
-- <span data-ttu-id="13e9d-118">Office 365 Advanced Threat Protection (계획 2)</span><span class="sxs-lookup"><span data-stu-id="13e9d-118">Office 365 Advanced Threat Protection (Plan 2)</span></span>
+<span data-ttu-id="20479-107">[Microsoft Threat Protection](microsoft-threat-protection.md)을 프로 비전 하 고 사용 하기 위한 라이선스 및 기타 요구 사항에 대해 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="20479-107">Learn about licensing and other requirements for provisioning and using [Microsoft Threat Protection](microsoft-threat-protection.md).</span></span>
+
+## <a name="licensing-requirements"></a><span data-ttu-id="20479-108">라이선스 요구 사항</span><span class="sxs-lookup"><span data-stu-id="20479-108">Licensing requirements</span></span>
+<span data-ttu-id="20479-109">이러한 라이선스를 사용 하면 추가 비용 없이 Microsoft 365 보안 센터의 Microsoft Threat Protection 기능에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="20479-109">Any of these licenses gives you access to Microsoft Threat Protection features in Microsoft 365 security center without additional cost:</span></span>
+
+- <span data-ttu-id="20479-110">Microsoft 365 E5 또는 A5</span><span class="sxs-lookup"><span data-stu-id="20479-110">Microsoft 365 E5 or A5</span></span>
+- <span data-ttu-id="20479-111">Microsoft 365 E5 보안 또는 A5 보안</span><span class="sxs-lookup"><span data-stu-id="20479-111">Microsoft 365 E5 Security or A5 Security</span></span>
+- <span data-ttu-id="20479-112">Windows 10 Enterprise E5 또는 A5</span><span class="sxs-lookup"><span data-stu-id="20479-112">Windows 10 Enterprise E5 or A5</span></span>
+- <span data-ttu-id="20479-113">EMS (Enterprise Mobility + Security) E5 또는 A5</span><span class="sxs-lookup"><span data-stu-id="20479-113">Enterprise Mobility + Security (EMS) E5 or A5</span></span> 
+- <span data-ttu-id="20479-114">Office 365 E5 또는 A5</span><span class="sxs-lookup"><span data-stu-id="20479-114">Office 365 E5 or A5</span></span>
+- <span data-ttu-id="20479-115">Microsoft Defender Advanced Threat Protection</span><span class="sxs-lookup"><span data-stu-id="20479-115">Microsoft Defender Advanced Threat Protection</span></span>
+- <span data-ttu-id="20479-116">Azure Advanced Threat Protection</span><span class="sxs-lookup"><span data-stu-id="20479-116">Azure Advanced Threat Protection</span></span> 
+- <span data-ttu-id="20479-117">Microsoft Cloud App Security</span><span class="sxs-lookup"><span data-stu-id="20479-117">Microsoft Cloud App Security</span></span>
+- <span data-ttu-id="20479-118">Office 365 Advanced Threat Protection (계획 2)</span><span class="sxs-lookup"><span data-stu-id="20479-118">Office 365 Advanced Threat Protection (Plan 2)</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="13e9d-119">Office 365 평가판 라이선스는 현재 Microsoft Threat Protection에 대 한 액세스를 제공 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="13e9d-119">Trial licenses for Office 365 currently do not provide access to Microsoft Threat Protection.</span></span>
+> <span data-ttu-id="20479-119">Office 365 평가판 라이선스는 현재 Microsoft Threat Protection에 대 한 액세스를 제공 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="20479-119">Trial licenses for Office 365 currently do not provide access to Microsoft Threat Protection.</span></span>
 
-<span data-ttu-id="13e9d-120">자세한 내용은 [Microsoft 365 Enterprise 서비스 요금제를 참조](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise)하세요.</span><span class="sxs-lookup"><span data-stu-id="13e9d-120">For more information, [view the Microsoft 365 Enterprise service plans](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise).</span></span>
+<span data-ttu-id="20479-120">자세한 내용은 [Microsoft 365 Enterprise 서비스 요금제를 참조](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise)하세요.</span><span class="sxs-lookup"><span data-stu-id="20479-120">For more information, [view the Microsoft 365 Enterprise service plans](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise).</span></span>
 
-> <span data-ttu-id="13e9d-121">아직 라이선스가 없습니까?</span><span class="sxs-lookup"><span data-stu-id="13e9d-121">Don't have license yet?</span></span> [<span data-ttu-id="13e9d-122">Microsoft 365 구독 체험 또는 구매</span><span class="sxs-lookup"><span data-stu-id="13e9d-122">Try or buy a Microsoft 365 subscription</span></span>](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide)
+> <span data-ttu-id="20479-121">아직 라이선스가 없습니까?</span><span class="sxs-lookup"><span data-stu-id="20479-121">Don't have license yet?</span></span> [<span data-ttu-id="20479-122">Microsoft 365 구독 체험 또는 구매</span><span class="sxs-lookup"><span data-stu-id="20479-122">Try or buy a Microsoft 365 subscription</span></span>](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide)
 
-### <a name="check-your-existing--licenses"></a><span data-ttu-id="13e9d-123">기존 라이선스 확인</span><span class="sxs-lookup"><span data-stu-id="13e9d-123">Check your existing  licenses</span></span>
-<span data-ttu-id="13e9d-124">Microsoft 365 관리 센터 ([admin.microsoft.com](https://admin.microsoft.com/))로 이동 하 여 기존 라이선스를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="13e9d-124">Go to Microsoft 365 admin center ([admin.microsoft.com](https://admin.microsoft.com/)) to view your existing licenses.</span></span> <span data-ttu-id="13e9d-125">관리 센터에서 **청구** > **라이선스**로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="13e9d-125">In the admin center, go to **Billing** > **Licenses**.</span></span>
+### <a name="check-your-existing--licenses"></a><span data-ttu-id="20479-123">기존 라이선스 확인</span><span class="sxs-lookup"><span data-stu-id="20479-123">Check your existing  licenses</span></span>
+<span data-ttu-id="20479-124">Microsoft 365 관리 센터 ([admin.microsoft.com](https://admin.microsoft.com/))로 이동 하 여 기존 라이선스를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="20479-124">Go to Microsoft 365 admin center ([admin.microsoft.com](https://admin.microsoft.com/)) to view your existing licenses.</span></span> <span data-ttu-id="20479-125">관리 센터에서 **청구** > **라이선스**로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="20479-125">In the admin center, go to **Billing** > **Licenses**.</span></span>
 
 >[!NOTE]
-> <span data-ttu-id="13e9d-126">라이선스 정보를 보려면 [AZURE AD의](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) **청구 관리자** 또는 **전역 독자** 역할을 할당 받아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="13e9d-126">You need to be assigned either the **Billing admin** or **Global reader** [role in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) to be able to see license information.</span></span> <span data-ttu-id="13e9d-127">액세스 문제가 발생하는 경우 전역 관리자에게 문의하세요.</span><span class="sxs-lookup"><span data-stu-id="13e9d-127">If you encounter access problems, contact a global admin.</span></span>
+> <span data-ttu-id="20479-126">라이선스 정보를 보려면 [AZURE AD의](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) **청구 관리자** 또는 **전역 독자** 역할을 할당 받아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="20479-126">You need to be assigned either the **Billing admin** or **Global reader** [role in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) to be able to see license information.</span></span> <span data-ttu-id="20479-127">액세스 문제가 발생하는 경우 전역 관리자에게 문의하세요.</span><span class="sxs-lookup"><span data-stu-id="20479-127">If you encounter access problems, contact a global admin.</span></span>
 
-## <a name="required-permissions"></a><span data-ttu-id="13e9d-128">필요한 사용 권한</span><span class="sxs-lookup"><span data-stu-id="13e9d-128">Required permissions</span></span>
-<span data-ttu-id="13e9d-129">Microsoft Threat Protection을 켜려면 **전역 관리자** 이거나 Azure Active Directory의 **보안 관리자** 여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="13e9d-129">You must be a **global administrator** or a **security administrator** in Azure Active Directory to turn on Microsoft Threat Protection.</span></span> <span data-ttu-id="13e9d-130">Microsoft Threat Protection을 사용 하는 데 필요한 역할 목록과 데이터에 대 한 액세스를 규정 하는 방법에 대 한 자세한 내용은 [Microsoft Threat protection에 대 한 액세스 관리](mtp-permissions.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="13e9d-130">For the list of roles required to use Microsoft Threat Protection and information on how access to data is regulated, read about [managing access to Microsoft Threat Protection](mtp-permissions.md).</span></span>
+## <a name="required-permissions"></a><span data-ttu-id="20479-128">필요한 사용 권한</span><span class="sxs-lookup"><span data-stu-id="20479-128">Required permissions</span></span>
+<span data-ttu-id="20479-129">Microsoft Threat Protection을 켜려면 **전역 관리자** 이거나 Azure Active Directory의 **보안 관리자** 여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="20479-129">You must be a **global administrator** or a **security administrator** in Azure Active Directory to turn on Microsoft Threat Protection.</span></span> <span data-ttu-id="20479-130">Microsoft Threat Protection을 사용 하는 데 필요한 역할 목록과 데이터에 대 한 액세스를 규정 하는 방법에 대 한 자세한 내용은 [Microsoft Threat protection에 대 한 액세스 관리](mtp-permissions.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="20479-130">For the list of roles required to use Microsoft Threat Protection and information on how access to data is regulated, read about [managing access to Microsoft Threat Protection](mtp-permissions.md).</span></span>
 
-## <a name="browser-requirements"></a><span data-ttu-id="13e9d-131">브라우저 요구 사항</span><span class="sxs-lookup"><span data-stu-id="13e9d-131">Browser requirements</span></span>
-<span data-ttu-id="13e9d-132">Microsoft Edge, Internet Explorer 11 또는 HTML 5와 호환 되는 웹 브라우저를 사용 하 여 microsoft 365 보안 센터의 Microsoft 위협 보호에 액세스 합니다.</span><span class="sxs-lookup"><span data-stu-id="13e9d-132">Access Microsoft Threat Protection in the Microsoft 365 security center using Microsoft Edge, Internet Explorer 11, or any HTML 5 compliant web browser.</span></span>
+## <a name="browser-requirements"></a><span data-ttu-id="20479-131">브라우저 요구 사항</span><span class="sxs-lookup"><span data-stu-id="20479-131">Browser requirements</span></span>
+<span data-ttu-id="20479-132">Microsoft Edge, Internet Explorer 11 또는 HTML 5와 호환 되는 웹 브라우저를 사용 하 여 microsoft 365 보안 센터의 Microsoft 위협 보호에 액세스 합니다.</span><span class="sxs-lookup"><span data-stu-id="20479-132">Access Microsoft Threat Protection in the Microsoft 365 security center using Microsoft Edge, Internet Explorer 11, or any HTML 5 compliant web browser.</span></span>
 
-## <a name="availability-to-us-gcc-gcc-high-and-other-us-government-institutions"></a><span data-ttu-id="13e9d-133">미국 GCC, GCC 최고 및 기타 미국 정부 기관에 대 한 가용성</span><span class="sxs-lookup"><span data-stu-id="13e9d-133">Availability to US GCC, GCC High, and other US government institutions</span></span>
-<span data-ttu-id="13e9d-134">현재 다음과 같은 경우에는 Microsoft Threat Protection을 사용할 수 *없습니다* .</span><span class="sxs-lookup"><span data-stu-id="13e9d-134">Currently, Microsoft Threat Protection is *not* available to:</span></span>
-- <span data-ttu-id="13e9d-135">미국 정부 커뮤니티 클라우드 (GCC)</span><span class="sxs-lookup"><span data-stu-id="13e9d-135">US Government Community Cloud (GCC)</span></span>
-- <span data-ttu-id="13e9d-136">미국 정부 커뮤니티 클라우드 높음 (GCC 높음)</span><span class="sxs-lookup"><span data-stu-id="13e9d-136">US Government Community Cloud High (GCC High)</span></span>
-- <span data-ttu-id="13e9d-137">미국 방어 부서</span><span class="sxs-lookup"><span data-stu-id="13e9d-137">US Department of Defense</span></span>
-- <span data-ttu-id="13e9d-138">상업적 라이선스를 포함 하는 모든 미국 정부 기관</span><span class="sxs-lookup"><span data-stu-id="13e9d-138">All US government institutions with commercial licenses</span></span>
+## <a name="availability-to-us-gcc-gcc-high-and-other-us-government-institutions"></a><span data-ttu-id="20479-133">미국 GCC, GCC 최고 및 기타 미국 정부 기관에 대 한 가용성</span><span class="sxs-lookup"><span data-stu-id="20479-133">Availability to US GCC, GCC High, and other US government institutions</span></span>
+<span data-ttu-id="20479-134">현재 다음과 같은 경우에는 Microsoft Threat Protection을 사용할 수 *없습니다* .</span><span class="sxs-lookup"><span data-stu-id="20479-134">Currently, Microsoft Threat Protection is *not* available to:</span></span>
+- <span data-ttu-id="20479-135">미국 정부 커뮤니티 클라우드 (GCC)</span><span class="sxs-lookup"><span data-stu-id="20479-135">US Government Community Cloud (GCC)</span></span>
+- <span data-ttu-id="20479-136">미국 정부 커뮤니티 클라우드 높음 (GCC 높음)</span><span class="sxs-lookup"><span data-stu-id="20479-136">US Government Community Cloud High (GCC High)</span></span>
+- <span data-ttu-id="20479-137">미국 방어 부서</span><span class="sxs-lookup"><span data-stu-id="20479-137">US Department of Defense</span></span>
+- <span data-ttu-id="20479-138">상업적 라이선스를 포함 하는 모든 미국 정부 기관</span><span class="sxs-lookup"><span data-stu-id="20479-138">All US government institutions with commercial licenses</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="13e9d-139">관련 항목</span><span class="sxs-lookup"><span data-stu-id="13e9d-139">Related topics</span></span>
-- [<span data-ttu-id="13e9d-140">Microsoft 위협 방지 개요</span><span class="sxs-lookup"><span data-stu-id="13e9d-140">Microsoft Threat Protection overview</span></span>](microsoft-threat-protection.md)
-- [<span data-ttu-id="13e9d-141">Microsoft 위협 방지 설정</span><span class="sxs-lookup"><span data-stu-id="13e9d-141">Turn on Microsoft Threat Protection</span></span>](mtp-enable.md)
-- [<span data-ttu-id="13e9d-142">액세스 및 사용 권한 관리</span><span class="sxs-lookup"><span data-stu-id="13e9d-142">Manage access and permissions</span></span>](mtp-permissions.md)
+## <a name="related-topics"></a><span data-ttu-id="20479-139">관련 항목</span><span class="sxs-lookup"><span data-stu-id="20479-139">Related topics</span></span>
+- [<span data-ttu-id="20479-140">Microsoft 위협 방지 개요</span><span class="sxs-lookup"><span data-stu-id="20479-140">Microsoft Threat Protection overview</span></span>](microsoft-threat-protection.md)
+- [<span data-ttu-id="20479-141">Microsoft 위협 방지 설정</span><span class="sxs-lookup"><span data-stu-id="20479-141">Turn on Microsoft Threat Protection</span></span>](mtp-enable.md)
+- [<span data-ttu-id="20479-142">액세스 및 사용 권한 관리</span><span class="sxs-lookup"><span data-stu-id="20479-142">Manage access and permissions</span></span>](mtp-permissions.md)
