@@ -17,26 +17,29 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: cdbaf9cfd2172656ed75cb3c0a1a9e361070f25b
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+ms.openlocfilehash: 28d6cca20c8b386d5e6f7f39b80264a39f88ec55
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44498354"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199468"
 ---
-# <a name="custom-detections-overview"></a><span data-ttu-id="576db-104">사용자 지정 검색 개요</span><span class="sxs-lookup"><span data-stu-id="576db-104">Custom detections overview</span></span>
+# <a name="custom-detections-overview"></a><span data-ttu-id="30cca-104">사용자 지정 검색 개요</span><span class="sxs-lookup"><span data-stu-id="30cca-104">Custom detections overview</span></span>
 
-<span data-ttu-id="576db-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="576db-105">**Applies to:**</span></span>
-- <span data-ttu-id="576db-106">Microsoft 위협 방지</span><span class="sxs-lookup"><span data-stu-id="576db-106">Microsoft Threat Protection</span></span>
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-<span data-ttu-id="576db-107">사용자 지정 검색을 사용 하면 의심 스러운 위반 작업과 잘못 구성 된 끝점을 포함 하 여 다양 한 이벤트 및 시스템 상태를 사전에 모니터링 하 고 응답할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="576db-107">With custom detections, you can proactively monitor for and respond to various events and system states, including suspected breach activity and misconfigured endpoints.</span></span> <span data-ttu-id="576db-108">이는 응답 작업 뿐만 아니라 경고를 자동으로 트리거하는 사용자 지정 가능한 검색 규칙이 적용 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="576db-108">This is made possible by customizable detection rules that automatically trigger alerts as well as response actions.</span></span>
 
-<span data-ttu-id="576db-109">사용자 지정 검색 기능은 네트워크에서 광범위 한 이벤트 및 시스템 정보 집합을 다루는 강력 하 고 유연한 쿼리 언어를 제공 하는 [고급 구하기](advanced-hunting-overview.md)기능을 사용 하 여 작동 합니다.</span><span class="sxs-lookup"><span data-stu-id="576db-109">Custom detections work with [advanced hunting](advanced-hunting-overview.md), which provides a powerful, flexible query language that covers a broad set of event and system information from your network.</span></span> <span data-ttu-id="576db-110">이러한 항목은 일치 하는 모든 경우에 알림을 생성 하 고 응답 작업을 수행 하 여 정기적인 간격으로 실행 되도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="576db-110">You can set them to run at regular intervals, generating alerts and taking response actions whenever there are matches.</span></span>
+<span data-ttu-id="30cca-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="30cca-105">**Applies to:**</span></span>
+- <span data-ttu-id="30cca-106">Microsoft 위협 방지</span><span class="sxs-lookup"><span data-stu-id="30cca-106">Microsoft Threat Protection</span></span>
 
-<span data-ttu-id="576db-111">사용자 지정 검색은 다음을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="576db-111">Custom detections provide:</span></span>
-- <span data-ttu-id="576db-112">고급 검색 쿼리를 통해 작성 된 규칙 기반 감지에 대 한 경고</span><span class="sxs-lookup"><span data-stu-id="576db-112">Alerts for rule-based detections built from advanced hunting queries</span></span>
-- <span data-ttu-id="576db-113">자동 응답 작업</span><span class="sxs-lookup"><span data-stu-id="576db-113">Automatic response actions</span></span>
+<span data-ttu-id="30cca-107">사용자 지정 검색을 사용 하면 의심 스러운 위반 작업과 잘못 구성 된 끝점을 포함 하 여 다양 한 이벤트 및 시스템 상태를 사전에 모니터링 하 고 응답할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="30cca-107">With custom detections, you can proactively monitor for and respond to various events and system states, including suspected breach activity and misconfigured endpoints.</span></span> <span data-ttu-id="30cca-108">이는 응답 작업 뿐만 아니라 경고를 자동으로 트리거하는 사용자 지정 가능한 검색 규칙이 적용 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="30cca-108">This is made possible by customizable detection rules that automatically trigger alerts as well as response actions.</span></span>
 
-## <a name="related-topic"></a><span data-ttu-id="576db-114">관련 항목</span><span class="sxs-lookup"><span data-stu-id="576db-114">Related topic</span></span>
-- [<span data-ttu-id="576db-115">사용자 지정 검색 규칙 만들기 및 관리</span><span class="sxs-lookup"><span data-stu-id="576db-115">Create and manage custom detection rules</span></span>](custom-detection-rules.md)
-- [<span data-ttu-id="576db-116">고급 헌팅 개요</span><span class="sxs-lookup"><span data-stu-id="576db-116">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
+<span data-ttu-id="30cca-109">사용자 지정 검색 기능은 네트워크에서 광범위 한 이벤트 및 시스템 정보 집합을 다루는 강력 하 고 유연한 쿼리 언어를 제공 하는 [고급 구하기](advanced-hunting-overview.md)기능을 사용 하 여 작동 합니다.</span><span class="sxs-lookup"><span data-stu-id="30cca-109">Custom detections work with [advanced hunting](advanced-hunting-overview.md), which provides a powerful, flexible query language that covers a broad set of event and system information from your network.</span></span> <span data-ttu-id="30cca-110">이러한 항목은 일치 하는 모든 경우에 알림을 생성 하 고 응답 작업을 수행 하 여 정기적인 간격으로 실행 되도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="30cca-110">You can set them to run at regular intervals, generating alerts and taking response actions whenever there are matches.</span></span>
+
+<span data-ttu-id="30cca-111">사용자 지정 검색은 다음을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="30cca-111">Custom detections provide:</span></span>
+- <span data-ttu-id="30cca-112">고급 검색 쿼리를 통해 작성 된 규칙 기반 감지에 대 한 경고</span><span class="sxs-lookup"><span data-stu-id="30cca-112">Alerts for rule-based detections built from advanced hunting queries</span></span>
+- <span data-ttu-id="30cca-113">자동 응답 작업</span><span class="sxs-lookup"><span data-stu-id="30cca-113">Automatic response actions</span></span>
+
+## <a name="related-topic"></a><span data-ttu-id="30cca-114">관련 항목</span><span class="sxs-lookup"><span data-stu-id="30cca-114">Related topic</span></span>
+- [<span data-ttu-id="30cca-115">사용자 지정 검색 규칙 만들기 및 관리</span><span class="sxs-lookup"><span data-stu-id="30cca-115">Create and manage custom detection rules</span></span>](custom-detection-rules.md)
+- [<span data-ttu-id="30cca-116">고급 헌팅 개요</span><span class="sxs-lookup"><span data-stu-id="30cca-116">Advanced hunting overview</span></span>](advanced-hunting-overview.md)

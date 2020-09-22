@@ -19,22 +19,25 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f303ea37e67077c2a55c4fd94766b34671b78e5d
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 82b79389420520c637b0b526c178e515c6c54cd1
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235237"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201018"
 ---
-# <a name="whats-new-in-microsoft-365-security"></a><span data-ttu-id="e0f74-104">Microsoft 365 보안의 새로운 기능</span><span class="sxs-lookup"><span data-stu-id="e0f74-104">What's new in Microsoft 365 Security</span></span>
+# <a name="whats-new-in-microsoft-365-security"></a><span data-ttu-id="4bb06-104">Microsoft 365 보안의 새로운 기능</span><span class="sxs-lookup"><span data-stu-id="4bb06-104">What's new in Microsoft 365 Security</span></span>
 
-<span data-ttu-id="e0f74-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="e0f74-105">**Applies to:**</span></span>
-- <span data-ttu-id="e0f74-106">Microsoft 위협 방지</span><span class="sxs-lookup"><span data-stu-id="e0f74-106">Microsoft Threat Protection</span></span>
-
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="e0f74-107">이 항목에서는 Microsoft 365 보안의 최신 릴리스에서 일반적으로 사용할 수 있는(GA) 기능을 다룹니다.</span><span class="sxs-lookup"><span data-stu-id="e0f74-107">This topic will cover capabilities that are generally available (GA) in the latest release of Microsoft 365 Security.</span></span> 
+<span data-ttu-id="4bb06-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="4bb06-105">**Applies to:**</span></span>
+- <span data-ttu-id="4bb06-106">Microsoft 위협 방지</span><span class="sxs-lookup"><span data-stu-id="4bb06-106">Microsoft Threat Protection</span></span>
 
-<span data-ttu-id="e0f74-108">미리 보기 기능에 대한 자세한 내용은 [미리 보기 기능을 참조 하세요.](mtp-preview.md)</span><span class="sxs-lookup"><span data-stu-id="e0f74-108">For more information on preview features, see [Preview features](mtp-preview.md)</span></span>
+
+
+<span data-ttu-id="4bb06-107">이 항목에서는 Microsoft 365 보안의 최신 릴리스에서 일반적으로 사용할 수 있는(GA) 기능을 다룹니다.</span><span class="sxs-lookup"><span data-stu-id="4bb06-107">This topic will cover capabilities that are generally available (GA) in the latest release of Microsoft 365 Security.</span></span> 
+
+<span data-ttu-id="4bb06-108">미리 보기 기능에 대한 자세한 내용은 [미리 보기 기능을 참조 하세요.](mtp-preview.md)</span><span class="sxs-lookup"><span data-stu-id="4bb06-108">For more information on preview features, see [Preview features](mtp-preview.md)</span></span>
 
 
