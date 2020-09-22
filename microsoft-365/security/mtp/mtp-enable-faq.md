@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 9dcfeb5616afc8953e862d6d1a542d694582b157
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: 6b0d8d9be0cc84e61a3228f79fc14f1bfc9f8a83
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44845085"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198842"
 ---
 # <a name="frequently-asked-questions-when-turning-on-microsoft-threat-protection"></a>Microsoft Threat Protection을 켤 때 자주 묻는 질문
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **적용 대상:**
 - Microsoft 위협 방지

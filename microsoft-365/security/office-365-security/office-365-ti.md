@@ -19,14 +19,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 Advanced Threat Protection 계획의 위협 조사 및 응답 기능에 대해 알아봅니다.
-ms.openlocfilehash: 6c009a756b30d4b35159b98b145b19b72c9ab541
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: c37129c7c3801ab1e55bd59f9c40c9e65f9cbd8d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656674"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198436"
 ---
 # <a name="threat-investigation-and-response"></a>위협 조사 및 응답
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 위협 조사 및 응답 기능 [Office 365 Advanced Threat Protection](office-365-atp.md) 은 다음과 같은 방법으로 보안 분석가와 관리자에 게 조직의 Microsoft 365 비즈니스 사용자를 보호 하는 데 도움을 제공 합니다.
 - 고 사이버 공격를 쉽게 식별, 모니터링 및 이해할 수 있도록 설정

@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 4ebf220472db69d48127b805256e15246bd400cb
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: 14785e032d6e4a7a0868308f4029df623456af2a
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552740"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197896"
 ---
 # <a name="take-action-on-advanced-hunting-query-results"></a>고급 구하기 쿼리 결과에 대해 작업 수행
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **적용 대상:**
 - Microsoft 위협 방지
@@ -55,10 +58,10 @@ ms.locfileid: "46552740"
 ## <a name="quarantine-files"></a>파일 격리
 파일에 *격리* 작업을 배포 하 여 오류가 발생 하면 자동으로 격리 되도록 할 수 있습니다. 이 작업을 선택할 때 다음 열 중에서 선택 하 여 쿼리 결과에서 격리 될 파일을 식별할 수 있습니다.
 
-- `SHA1`— 대부분의 고급 구하기 테이블에서이는 기록 된 작업의 영향을 받은 파일의 SHA-1입니다. 예를 들어 파일을 복사한 경우 복사한 파일을 복사 합니다.
-- `InitiatingProcessSHA1`— 대부분의 고급 구하기 테이블에서 기록 된 작업 시작을 담당 하는 파일입니다. 예를 들어 하위 프로세스가 시작 된 경우 상위 프로세스입니다. 
-- `SHA256`-열로 식별 되는 파일에 해당 하는 SHA-256입니다 `SHA1` .
-- `InitiatingProcessSHA256`-열로 식별 되는 파일에 해당 하는 SHA-256입니다 `InitiatingProcessSHA1` .
+- `SHA1` — 대부분의 고급 구하기 테이블에서이는 기록 된 작업의 영향을 받은 파일의 SHA-1입니다. 예를 들어 파일을 복사한 경우 복사한 파일을 복사 합니다.
+- `InitiatingProcessSHA1` — 대부분의 고급 구하기 테이블에서 기록 된 작업 시작을 담당 하는 파일입니다. 예를 들어 하위 프로세스가 시작 된 경우 상위 프로세스입니다. 
+- `SHA256` -열로 식별 되는 파일에 해당 하는 SHA-256입니다 `SHA1` .
+- `InitiatingProcessSHA256` -열로 식별 되는 파일에 해당 하는 SHA-256입니다 `InitiatingProcessSHA1` .
 
 격리 작업을 수행 하는 방법과 파일을 복원 하는 방법에 대 한 자세한 내용은 [파일에 대 한 응답 작업 정보를 참조](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-file-alerts)하세요.
 

@@ -12,12 +12,12 @@ ms.custom: ''
 localization_priority: Priority
 description: Microsoft 365에서 어떤 방식으로 데이터와 시스템을 보호하고 규정을 준수하도록 지원하며, 금융 서비스를 최신 공동 작업 플랫폼으로 전환하는지 알아봅니다.
 f1.keywords: NOCSH
-ms.openlocfilehash: 24355518219830d815ce027ec75bb72ee0675a32
-ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
+ms.openlocfilehash: 19f8acc4a0d94c9fb4952a31a8e119a99a553bf0
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597524"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197552"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>미국 은행 및 자본 시장에 대한 주요 규정 준수 및 보안 고려 사항
 
@@ -164,7 +164,7 @@ ID 보호는 Microsoft가 Azure AD를 사용하는 조직, Microsoft 계정을 �
 * 중요한 데이터의 사용자 기반 분류 및 자동 분류를 위한 **MIP(Microsoft 정보 보호)**
 * 중요한 데이터 형식(또는 정규식)과 키워드 및 정책 시행을 사용하여 중요한 데이터를 자동으로 식별하기 위한 **Office 365 DLP(데이터 손실 방지)**
 
-조직은 **[MIP(Microsoft 정보 보호)](https://docs.microsoft.com/information-protection/)** 를 통해 민감도 레이블을 사용하여 문서와 전자 메일을 지능적으로 분류할 수 있습니다. 민감도 레이블은 사용자가 Microsoft Office 응용 프로그램의 문서와 Outlook의 전자 메일에 직접 적용할 수 있습니다. 레이블은 문서 표시, 암호화를 통한 보호 및 권한 관리 적용을 자동으로 적용할 수 있습니다. 중요한 데이터를 자동으로 찾고 분류하기 위해 키워드 및 중요한 데이터 유형(예: 신용 카드 번호, 사회 보험 번호 및 주민 등록 번호)을 사용하는 정책을 구성하여 민감도 레이블을 자동으로 적용할 수도 있습니다.
+조직은 **[MIP(Microsoft 정보 보호)](../compliance/protect-information.md)** 를 통해 민감도 레이블을 사용하여 문서와 전자 메일을 지능적으로 분류할 수 있습니다. 민감도 레이블은 사용자가 Microsoft Office 응용 프로그램의 문서와 Outlook의 전자 메일에 직접 적용할 수 있습니다. 레이블은 문서 표시, 암호화를 통한 보호 및 권한 관리 적용을 자동으로 적용할 수 있습니다. 중요한 데이터를 자동으로 찾고 분류하기 위해 키워드 및 중요한 데이터 유형(예: 신용 카드 번호, 사회 보험 번호 및 주민 등록 번호)을 사용하는 정책을 구성하여 민감도 레이블을 자동으로 적용할 수도 있습니다.
 
 또한 Microsoft는 단순히 패턴 일치나 콘텐츠 내의 요소에 의한 것이 아니라, 머신 러닝모델을 사용하여 콘텐츠를 기반으로 중요한 데이터를 식별하는 "학습 가능한 분류자"를 제공합니다. 분류자는 분류할 콘텐츠의 다양한 예제를 확인하여 콘텐츠 유형을 식별하는 방법을 학습합니다. 분류자 교육은 특정 범주의 콘텐츠에 대한 예제를 제공함으로써 시작됩니다. 이러한 예제를 학습한 후에는 일치하는 예제와 일치하지 않는 예제를 혼합하여 모델을 테스트합니다. 분류자는 주어진 예제가 범주에 속하는지 여부를 예측합니다. 그런 다음 분류자 예측의 정확도를 높이기 위해 결과를 확인하고 양성, 음성, 가양성 및 가음성으로 정렬합니다. 학습된 분류자가 게시되면 Microsoft SharePoint Online, Exchange Online 및 비즈니스용 OneDrive의 콘텐츠를 처리하고 자동으로 콘텐츠를 분류합니다.
 

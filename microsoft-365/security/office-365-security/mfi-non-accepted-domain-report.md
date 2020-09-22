@@ -13,14 +13,17 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 허용 되지 않는 도메인 보고서를 사용 하 여 보낸 사람의 도메인이 Microsoft 365에 구성 되어 있지 않은 온-프레미스 조직의 메시지를 모니터링 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 02692fbded20aa5062ce8add83925fb65c116630
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: d05489ec4a6d670fc89b5d943b3e7061506b6fe8
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358581"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199328"
 ---
 # <a name="non-accepted-domain-report-in-the-security--compliance-center"></a>보안 & 준수 센터의 허용 되지 않는 도메인 보고서
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 [보안 & 준수 센터](https://protection.office.com) 의 [메일 흐름 대시보드의](mail-flow-insights-v2.md) **허용 되지 않는 도메인** 보고서는 보낸 사람의 도메인이 Microsoft 365 조직에서 허용 도메인으로 구성 되지 않은 온-프레미스 전자 메일 조직의 메시지에 대 한 정보를 표시 합니다.
 

@@ -11,14 +11,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 큐 위젯을 사용 하 여 아웃 바운드 커넥터를 통해 온-프레미스 또는 파트너 조직으로의 실패 한 메일 흐름을 모니터링 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: bcd78a50f017aae65e82185bf167ea7a227656fa
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 3291a21828215d0a2a99c2226147bb1b748b8469
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357391"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199292"
 ---
 # <a name="queues-insight-in-the-security--compliance-center"></a>보안 & 준수 센터의 큐 통찰력
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 커넥터를 사용 하 여 조직에서 온-프레미스 또는 파트너 전자 메일 서버로 메시지를 보낼 수 없는 경우 해당 메시지는 Microsoft 365에서 대기 됩니다. 이러한 상황을 일으키는 일반적인 예는 다음과 같습니다.
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365에 메일 보내기
+title: Microsoft 365로 메일 보내기
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,26 +17,29 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 외부 수신자로 학습하여 Microsoft 365의 사용자에게 전자 메일을 전달하는 방법을 개선할 수 있습니다. 또한 피싱 시도가 외부 사용자로 & 및 정크 메일을 보고하는 방법을 알아보세요.
-ms.openlocfilehash: f20d5d64bccb69db47c159a8166fa3532b51e3db
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+description: 외부의 보낸 사람에 대 한 자세한 내용은 Microsoft 365에서 사용자에 게 전자 메일을 배달 하는 기능을 향상 시킬 수 있는 방법을 설명 합니다. 또한 정크 메일 & 외부 사용자로 보고 하는 방법에 대해서도 알아봅니다.
+ms.openlocfilehash: 0c0a981d12fa5b8159789a69597f83eb15d9b194
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825188"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196800"
 ---
-# <a name="sending-mail-to-microsoft-365"></a>Microsoft 365에 메일 보내기
+# <a name="sending-mail-to-microsoft-365"></a>Microsoft 365로 메일 보내기
 
-이 문서는 외부 보낸 사람이 신뢰도를 향상시키고 Microsoft 365의 사용자에게 전자 메일을 전달하는 기능을 향상시키는 데 도움이 됩니다. 또한 정크 메일 및 피싱 시도를 사용자가 자신에게 없는 경우에도 이정보를 제공합니다.
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-If you are not a customer, but are trying to send mail to someone in who is, you are in the right place. 관리자이고 스팸을 자유하기 위한 도움말이 필요한 경우 이 섹션이 적합한 섹션이 되지 는 않습니다. 대신, Microsoft [365에서 스팸 방지 및 맬웨어 방지 보호 기능으로 이동하세요.](anti-spam-and-anti-malware-protection.md)
+
+이러한 문서는 외부 보낸 사람이 신뢰도를 개선 하 고 Microsoft 365에서 사용자에 게 전자 메일을 배달 하는 기능을 향상 시키는 데 도움이 됩니다. 또한 Microsoft 365 사용자가 아닌 경우에도 정크 메일 및 피싱 시도를 보고 하는 방법에 대 한 몇 가지 정보를 제공 합니다.
+
+고객이 아닌 사용자에 게 메일을 보내려고 하는 경우 해당 위치에 있는 것입니다. 관리자 인 경우 스팸을 방지 하는 데 도움이 필요한 경우에는이 섹션을 적절 하 게 사용할 수 없습니다. 대신 [Microsoft 365의 스팸 방지 및 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md)로 이동 합니다.
 
 ****
 
-|자세한 내용은...|자세한 내용은 다음을 참조하세요.|
+|자세한 내용은...|참조 하세요.|
 |---|---|
-|고객에게 개별 및 대량 전자 메일을 보내는 전자 메일 시스템 관리자에게 제공하는 서비스|[비 고객이 Office 365에 메일을 보내기 위한 서비스](services-for-non-customers.md)|
-|전자 메일을 통해 Microsoft 365에서 고객에게 도달하는 문제를 해결하는 방법 Microsoft 365 받는 사람에게 대량 메일을 보내는 모범 사례입니다.|[Office 365로 전송한 문제 해결 메일](troubleshooting-mail-sent-to-office-365.md)|
-|Microsoft 365가 피싱 및 스푸핑 전자 메일을 포함한 정크 메일이 고객에게 전송되지 못하도록 하는 방법입니다.|[Microsoft 365의 스팸 방지 보호](anti-spam-protection.md)|
-|관리자가 Microsoft 365 고객에게 전자 메일을 보내는 방법은 스팸 방지 정책을 준수하여 전자 메일이 차단되는 방법을 설명합니다. 이 담버는 알아야 하는 법적 직원입니다.|[참조: 정책, 사례 및 지침](reference-policies-practices-and-guidelines.md)|
+|서비스는 고객에 게 개별 및 대량 전자 메일을 보내는 전자 메일 시스템의 관리자에 게 제공 합니다.|[비 고객을 위한 Office 365 메일을 보내는 서비스](services-for-non-customers.md)|
+|전자 메일을 통해 Microsoft 365의 고객에 게 전달 되는 문제를 해결 하는 방법 Microsoft 365 받는 사람에 게 대량 메일을 보내는 최상의 방법입니다.|[Office 365로 전송한 문제 해결 메일](troubleshooting-mail-sent-to-office-365.md)|
+|Microsoft 365에서 피싱 및 스푸핑 전자 메일을 비롯 한 정크 메일이 고객에 게 전송 되지 않도록 하는 방법입니다.|[Microsoft 365의 스팸 방지 보호 기능](anti-spam-protection.md)|
+|관리자가 Microsoft 365 고객에 게 전자 메일을 보내는 방법, 스팸 방지 정책을 준수 하 여 전자 메일을 차단 하는 것을 방지할 수 있습니다. 이는 알아야 할 법적 사항입니다.|[참조: 정책, 사례 및 지침](reference-policies-practices-and-guidelines.md)|
 |

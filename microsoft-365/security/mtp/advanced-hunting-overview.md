@@ -18,19 +18,20 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 47035b5c988dba551948334c0c93d08b779c0d38
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 9b7e20daa3a5d642a864f9b24e836d3c75bbd7b1
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950739"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199856"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 고급 헌팅을 통한 위협에 대한 사전 대응
 
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
+
 **적용 대상:**
 - Microsoft 위협 방지
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 고급 헌팅은 최대 30일간의 원시 데이터를 탐색할 수 있는 쿼리 기반의 위협 헌팅 도구입니다. 네트워크에서 이벤트를 사전에 검사 하 여 위협 지표 및 엔터티를 찾을 수 있습니다. 데이터에 대 한 유연한 액세스를 통해 알려진 위협과 잠재적인 위협 모두에 대해 제한 되지 않은 방법을 사용할 수 있습니다.
 <p></p>
@@ -68,7 +69,7 @@ ms.locfileid: "47950739"
 
 ## <a name="related-topics"></a>관련 항목
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
-- [전문 교육 받기](advanced-hunting-expert-training.md)
+- [전문가 교육 받기](advanced-hunting-expert-training.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
 - [스키마의 이해](advanced-hunting-schema-tables.md)
 - [쿼리 모범 사례 적용](advanced-hunting-best-practices.md)

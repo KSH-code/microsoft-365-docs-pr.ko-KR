@@ -11,14 +11,17 @@ ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 보안 & 준수 센터에서 전자 메일을 전달 하는 새 사용자를 사용 하 여 조직의 사용자가 새 도메인으로 메시지를 전달 하는 경우 조사 하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 4d8c88cef182ab1c521d23970797e4746e188916
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 42f8c536f8a8a1421d97726c7af432c01d053b05
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357369"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200658"
 ---
 # <a name="new-users-forwarding-email-insight-in-the-security--compliance-center"></a>보안 & 준수 센터에서 전자 메일을 전달 하는 새 사용자
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 조직의 새 사용자 계정이 갑자기 외부 도메인으로 전자 메일 메시지를 전달 하기 시작 하면 의심 스러운 것입니다.
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-overview
 ms.custom: ''
 description: 보안 및 서비스 인프라를 구성 하 여 정보를 보호 하 고 데이터 개인 정보 규정을 준수 합니다.
-ms.openlocfilehash: 640ce075515c687c037cb0e4ab3e03e3beda81dc
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 2b249b3b43f1b520e42be4b6e5f9d684c718dc79
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522292"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195642"
 ---
 # <a name="deploy-information-protection-for-data-privacy-regulations-with-microsoft-365"></a>Microsoft 365을 사용 하 여 데이터 개인 정보 보호 규정에 대 한 information protection 배포
 
@@ -38,8 +38,7 @@ Microsoft 365의 데이터 형식에는 Microsoft 팀의 채팅 세션, Exchange
 
 | 기능 또는 특징 | 설명 | 라이선싱 |
 |:-------|:-----|:-------|
-| 규정 관리자 | Microsoft 서비스 신뢰 포털에서 이 워크플로우 기반 위험 평가 도구를 사용하여 Microsoft 클라우드 서비스와 관련된 규정 준수 활동을 관리합니다. | Microsoft 365 E3 및 E5 |
-| 준수 점수(미리 보기) | Microsoft 365 Compliance Center에서 현재 규정 준수 구성의 전체 점수와 이를 개선하기 위한 권장 사항을 확인합니다. | Microsoft 365 E3 및 E5 |
+| 규정 관리자 | 규정 준수 작업을 관리 하 고, 현재 준수 구성의 전체 점수를 얻고, Microsoft 365 준수 센터의이 워크플로 기반 위험 평가 도구에서 개선에 대 한 권장 사항을 찾아봅니다. | Microsoft 365 E3 및 E5 |
 | Office ATP (Advanced Threat Protection) | 전자 메일 메시지, 사무실 문서 및 협업 도구와 같은 Microsoft 365 앱과 데이터를 공격으로부터 보호합니다. | Microsoft 365 E3 및 E5 | 
 | 민감도 레이블 | 전자 메일, 파일 또는 사이트에 다양한 수준의 보호 기능을 갖춘 레이블을 배치하여 사용자의 생산성과 협업 능력을 저해하지 않고 조직의 데이터를 분류하고 보호합니다. | Microsoft 365 E3 및 E5 |
 | 데이터 손실 방지(DLP). | 개인 정보가 포함된 데이터 공유와 같은 위험하거나 부주의하거나 부적절한 공유를 내외부적으로 탐지, 경고 및 차단합니다. | Microsoft 365 E3 및 E5 | 
@@ -68,13 +67,13 @@ Microsoft 365의 데이터 형식에는 Microsoft 팀의 채팅 세션, Exchange
 
 자세한 내용은 [데이터 개인 정보 보호 위험 평가 및 중요 한 항목 식별](information-protection-deploy-assess.md)을 참조 하세요.
 
-## <a name="track-use-compliance-score-and-compliance-manager"></a>추적: 준수 점수 및 준수 관리자 사용 
+## <a name="track-use-compliance-manager"></a>추적: 준수 관리자 사용
 
-준수 점수 및 준수 관리자는 Microsoft 365 준수 관리 센터 및 서비스 신뢰 포털에서 사용 가능한 통합 도구 집합을 제공 합니다. 이러한 도구를 함께 사용 하면 기본 제공 되는 다양 한 데이터 개인 정보 규정에 따라 전반적인 향상 작업을 추적 하 고 관리할 수 있습니다.
+Microsoft 365 준수 센터에서 사용할 수 있는 준수 관리자는 사용자에 게 적용 되는 여러 데이터 개인 정보 규정에 따라 전반적인 향상 작업을 추적 하 고 관리할 수 있는 기본 제공 기능을 제시 합니다.
 
-또한이 도구를 사용 하면 각 규제 규정에 따라 기본 제공 되는 평가 템플릿을 활용 하 여 선택한 각 평가 템플릿의 작업 항목을 추적할 수 있을 뿐만 아니라 특정 규정 제어를 확인 하 고 특정 작업에 연결할 수도 있습니다.
+각 규정에 따라, 선택 된 각 평가 템플릿의 작업 항목을 추적할 수 있을 뿐만 아니라 특정 규정 제어를 확인 하 고 특정 작업에 연결 하는 기본 제공 평가 템플릿을 활용 합니다.
 
-자세한 내용은 [준수 점수 및 준수 관리자를 사용 하 여 개선 작업 관리](information-protection-deploy-compliance.md)를 참조 하세요.
+자세한 내용은 [준수 관리자를 사용 하 여 개선 작업 관리](information-protection-deploy-compliance.md)를 참조 하세요.
 
 ## <a name="prevent-use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>금지: 데이터 개인 정보 규정에 id, 장치 및 위협 보호 사용
 

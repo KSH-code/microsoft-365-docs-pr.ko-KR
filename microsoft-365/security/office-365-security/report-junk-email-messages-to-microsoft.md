@@ -16,14 +16,17 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: 관리자는 분석을 위해 적절 하 고 잘못 된 메시지 및 파일을 Microsoft에 보고 하는 다양 한 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: cff9d1b3524200fba9d7ba1775e0b9851027158d
-ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
+ms.openlocfilehash: 040f998b09f280fc2b6bdfdac327313f9cc65c3c
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "47315866"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203662"
 ---
 # <a name="report-messages-and-files-to-microsoft"></a>Microsoft에 메시지와 파일 보고
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Exchange online 사서함이 없는 Microsoft 365 조직에서 사서함이 EOP (exchange online Protection) 조직의 경우 사용자와 관리자는 전자 메일 메시지 및 파일을 Microsoft에 보고 하는 다양 한 방법을 사용할 수 있습니다.
 

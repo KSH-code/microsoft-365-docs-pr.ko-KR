@@ -13,14 +13,17 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 배달 못 함 정보 보고서를 사용 하 여 조직의 보낸 사람에 대 한 Ndr 또는 바운스 메시지 라고도 하는 배달 못함 보고서에서 가장 자주 발생 하는 오류 코드를 모니터링 하는 방법을 알아봅니다.
-ms.openlocfilehash: f9017a7f041037c5db2dc9b9f4f5155b038bf2c7
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: bc530cce54b3d4fd9f414920a8fb58f4322f6b5c
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357413"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195967"
 ---
 # <a name="non-delivery-report-in-the-security--compliance-center"></a>보안 & 준수 센터의 배달 못 함 보고서
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 [보안 & 준수 센터](https://protection.office.com) 의 [메일 흐름 대시보드의](mail-flow-insights-v2.md) **배달 못 함 보고서** 에는 조직 내 사용자에 대 한 ndr (배달 또는 바운스 메시지가 라고도 하는)에서 가장 많이 발생 한 오류 코드가 표시 됩니다. 이 보고서는 전자 메일 배달 문제를 해결할 수 있도록 Ndr의 세부 정보를 표시 합니다.
 

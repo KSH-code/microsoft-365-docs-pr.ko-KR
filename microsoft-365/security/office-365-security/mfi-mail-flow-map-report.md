@@ -13,14 +13,17 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 메일 흐름 맵을 사용 하 여 커넥터를 통해 메일을 주고 받지 않는 커넥터를 사용 하는 방법을 시각화 하 고 추적 하는 방법을 알아봅니다.
-ms.openlocfilehash: e144d1d42603fbf2a8f031b1cf7584b6e6ed5c7b
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 74cabb7f7b34be6248d18d71565c8a9729d7e38b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358593"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199374"
 ---
 # <a name="mail-flow-map-in-the-security--compliance-center"></a>보안 & 준수 센터의 메일 흐름 맵
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 [보안 & 준수 센터](https://protection.office.com) 의 메일 흐름 [대시보드의](mail-flow-insights-v2.md) **메일 흐름 맵은** 조직에서 메일이 흐르는 방식에 대 한 통찰력을 제공 합니다. 이 정보를 사용 하 여 패턴을 파악 하 고, 상황을 식별 하 고, 문제가 발생 하면 문제를 해결할 수 있습니다.
 
@@ -53,7 +56,7 @@ ms.locfileid: "47358593"
 보고서 보기에서 **세부 정보 테이블 보기** 를 클릭 하면 다음과 같은 정보가 표시 됩니다.
 
 - **날짜**
-- **종류**
+- **범주**
 - **커넥터/타사 서비스 공급자**
 - **보낸 사람/받는 사람 도메인**
 - **메시지 수**

@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 601e81fc5265fe2ec5f41009b6c4fa43c0c8233d
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: d18b3d8ede271cb0d9611d6210a3d1d32849581a
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962612"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195654"
 ---
 # <a name="planning-your-pilot-microsoft-threat-protection-project"></a>파일럿 Microsoft Threat Protection 프로젝트 계획 
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **적용 대상:**
 - Microsoft 위협 방지
@@ -50,7 +53,7 @@ ms.locfileid: "47962612"
 
 ## <a name="use-cases"></a>사용 사례
 
-사용 사례는 테스트 중인 도구를 의도 한 사용자가 소비 하는 방식에 대 한 설명을 나타냅니다. 이러한 요소는 SOC 분석가와 같은 특정 가상 사용자의 관점에서 사용자 스토리로 사용 될 수 있습니다. 예를 들어,
+사용 사례는 테스트 중인 도구를 의도 한 사용자가 소비 하는 방식에 대 한 설명을 나타냅니다. 이러한 요소는 SOC 분석가와 같은 특정 가상 사용자의 관점에서 사용자 스토리로 사용 될 수 있습니다. 예제:
 - SOC 분석가는 내 네트워크의 장치, 사용자 및 사서함에서 알림 및 이벤트를 확인, 상관 관계, 평가 및 관리 해야 합니다. [인시던트 관리]
 - SOC 분석가는 내 네트워크의 악의적인 이벤트를 자동으로 조사 하 고 대응 하기 위해 도구와 프로세스를 수행 해야 합니다. [자동 IR]
 - SOC 분석가는 필자의 환경에서 알려진 문제 및 잠재적인 위협과 의심 스러운 활동을 찾기 위해 환경의 데이터를 검색 해야 합니다. [고급 구하기]
@@ -75,8 +78,8 @@ ms.locfileid: "47962612"
 
 |**사용 사례**|**요구 사항**|**구성 요구 사항**|**테스트 계획**|**예상 결과**|**테스트 상태**|**점수**|**참고**|
 |:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
-|사건 관리|-Microsoft Threat Protection </br></br>-Azure ATP </br></br>-Microsoft Defender ATP </br></br>-Microsoft Cloud App Security (선택 사항)|자세한 내용은 준비, 설정 및 구성을 위한 [필수 구성 요소](https://aka.ms/mtp-trial-lab) 를 참조 하세요. |[공격 시뮬레이트](mtp-pilot-simulate.md) <br></br>[문제 조사](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#investigate-an-incident) |Investigators는 사고의 범위와 영향을 이해 하 고 인시던트를 관리할 수 있습니다.||||
-|AutoIR|-Microsoft Threat Protection </br></br>-Azure ATP </br></br>-Microsoft Defender ATP |자세한 내용은 준비, 설정 및 구성을 위한 [필수 구성 요소](https://aka.ms/mtp-trial-lab) 를 참조 하세요. <br>AutoIR 사용  |[공격 시뮬레이트](mtp-pilot-simulate.md) <br></br>[자동화 된 조사](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#automated-investigation-and-remediation) |Microsoft Threat Protection에서 경고 및 인시던트가 자동으로 재구성 됨||||
+|사건 관리|-Microsoft Threat Protection </br></br>-Azure ATP </br></br>-Microsoft Defender ATP </br></br>-Microsoft Cloud App Security (선택 사항)|자세한 내용은 준비, 설정 및 구성을 위한 [필수 구성 요소](https://aka.ms/mtp-trial-lab) 를 참조 하세요. |[공격 시뮬레이션](mtp-pilot-simulate.md) <br></br>[문제 조사](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#investigate-an-incident) |Investigators는 사고의 범위와 영향을 이해 하 고 인시던트를 관리할 수 있습니다.||||
+|AutoIR|-Microsoft Threat Protection </br></br>-Azure ATP </br></br>-Microsoft Defender ATP |자세한 내용은 준비, 설정 및 구성을 위한 [필수 구성 요소](https://aka.ms/mtp-trial-lab) 를 참조 하세요. <br>AutoIR 사용  |[공격 시뮬레이션](mtp-pilot-simulate.md) <br></br>[자동화 된 조사](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#automated-investigation-and-remediation) |Microsoft Threat Protection에서 경고 및 인시던트가 자동으로 재구성 됨||||
 |고급 헌팅|-Microsoft Threat Protection </br></br>-Microsoft Defender ATP </br></br>-Office 365 ATP   |자세한 내용은 준비, 설정 및 구성을 위한 [필수 구성 요소](https://aka.ms/mtp-trial-lab) 를 참조 하세요.|[고급 구하기 시나리오](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#advanced-hunting-scenario) |Investigators에서는 고급 검색을 통해 데이터를 찾고, 영향을 받는 엔터티에 대 한 피벗을 하며, 사용자 지정 감지를 만들면||||
 
 

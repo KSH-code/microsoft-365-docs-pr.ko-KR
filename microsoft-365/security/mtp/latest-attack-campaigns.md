@@ -15,14 +15,17 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 01a014de3de0a7433aa154d251aa8e1ad5487400
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 48fd80aca01ab3bf5665a53e5538cc450320cf6b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866910"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197920"
 ---
 # <a name="understand-the-latest-attack-campaigns-and-techniques-with-threat-analytics"></a>위협 분석을 사용한 최신 공격 캠페인 및 기술 이해 
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 사이버 위협은 점점 더 빈도가 높아지고 있습니다. 조직의 보안 상태 및 복구 력을 신속 하 게 평가 하는 것이 중요 합니다.
 

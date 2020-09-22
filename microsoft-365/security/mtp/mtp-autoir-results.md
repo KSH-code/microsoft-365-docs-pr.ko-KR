@@ -20,14 +20,17 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 09/16/2020
-ms.openlocfilehash: 62d33c57606aad81607164b1f068c6f6d91063c2
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: 6d3ffd9f9e28bc190093c19ce9013f9aca12d60e
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962302"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198864"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>자동화 된 조사에 대 한 세부 정보 및 결과
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **적용 대상:**
 - Microsoft Threat Protection

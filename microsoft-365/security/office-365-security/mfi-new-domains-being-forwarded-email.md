@@ -11,14 +11,17 @@ ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 최신 Exchange 관리 센터에서 전달 되는 새 도메인을 사용 하 여 조직의 사용자가 전달 된 적이 없는 외부 도메인으로 메시지를 전달 하는 경우 조사를 진행 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 0f0622fc686cb9c90790630e16c187bf9f69d918
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 62e254e324322aec55d692cfe3128e8e4dd60e4b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358261"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200738"
 ---
 # <a name="new-domains-being-forwarded-email-insight-in-the-security--compliance-center"></a>보안 & 준수 센터에서 전자 메일을 전달 하는 새 도메인
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 특정 도메인의 외부 받는 사람에 게 전자 메일 메시지를 전달 하는 데 유효한 비즈니스 이유가 있을 수 있지만 조직의 사용자가 갑자기 메시지를 외부 도메인으로 전달 하기 시작 하면 의심 스러운 일이 발생 하 고 조직에서 해당 도메인에 메시지를 전달 하지 않은 경우 (새 도메인) 이 조건은 사용자 계정이 손상 되었음을 나타낼 수 있습니다. 계정이 손상 된 것으로 의심 되는 경우 [손상 된 전자 메일 계정에 응답](https://docs.microsoft.com/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account)을 참조 하세요.
 

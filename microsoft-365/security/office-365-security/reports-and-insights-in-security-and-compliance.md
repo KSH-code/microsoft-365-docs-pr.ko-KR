@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: 보안 & 준수 센터에서 사용할 수 있는 스마트 보고서 및 정보 및이를 사용 하 여 데이터를 보고 탐색 하 고 바로 작업을 수행 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5d100aca53f3683d477fd15469ae53ecb7a2901b
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 7f8094c46868118bb88858dab6cd12b2427382be
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46652780"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196338"
 ---
 # <a name="smart-reports-and-insights-in-the-security--compliance-center"></a>보안 및 준수 센터의 똑똑한 보고서 및 분석
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 조직의 Microsoft for business 보안 팀에 참여 하 고 있으며 [보안 & 준수 센터에서 필요한 권한을](permissions-in-the-security-and-compliance-center.md)부여 하는 경우 365에는 스마트 보고서 및 정보를 포함 하 여 다양 한 보고서에 액세스할 수 있습니다. 이 문서를 읽으면 이러한 보고서 및 정보를 개략적으로 살펴보고 특정 보고서에 대해 자세히 알아볼 수 있는 위치를 확인할 수 있습니다.
 

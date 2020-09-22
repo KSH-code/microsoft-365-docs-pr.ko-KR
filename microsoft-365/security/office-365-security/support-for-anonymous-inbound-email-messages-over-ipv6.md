@@ -17,14 +17,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 Exchange Online 및 Exchange Online Protection에서 IPv6 원본의 익명 인바운드 전자 메일에 대 한 지원을 구성 하는 방법을 알 수 있습니다.
-ms.openlocfilehash: f2e14fe2e8e46d6085fc3764d3a41382f15049e9
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: be226bf9814b0fcfadaaeb5b4bdda0ff133dd0c8
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950297"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202152"
 ---
 # <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-microsoft-365"></a>Microsoft 365에서 i p v 6을 통한 익명 인바운드 전자 메일 지원 추가
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Exchange online 사서함 및 독립 실행형 EOP (Exchange Online Protection)가 포함 된 Microsoft 365 조직에서 온-IPv6을 통한 익명 인바운드 전자 메일을 지원 합니다. 원본 IPv6 전자 메일 서버는 다음 요구 사항을 모두 충족 해야 합니다.
 

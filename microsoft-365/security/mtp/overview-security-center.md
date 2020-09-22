@@ -14,14 +14,17 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: f831e952b20d04796f69a6c3c00ba4d69d332951
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 425956ebd4c3badc54f074b779997d530e2ee1a5
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867236"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200994"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터 개요
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 비즈니스 보안을 관리 하 여 지속적으로 진화 하는 위협 으로부터 보호 하려면 많은 과제가 제공 됩니다. 여러 가지 위치를 사용 하 여 많은 수의 컨트롤을 구성 하는 경우 보안 솔루션이 너무 많이 있을 수 있습니다. 가장 효율적이 고 직원 들에 게 새로운 도전 과제가 도입 되는 컨트롤을 파악 하는 데 어려움이 있을 수 있습니다. 보안 팀이 보안 및 생산성에 대 한 적절 한 균형을 찾는 것이 어려울 수 있습니다.
 

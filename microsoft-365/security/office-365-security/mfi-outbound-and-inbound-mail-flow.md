@@ -12,14 +12,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f2738dec-41b0-43c4-b814-84c0a4e45c6d
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에 있는 아웃 바운드 및 인바운드 메일 흐름에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 87ea7faed2e2387c31fdb06abaf242a2a3aea76e
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 33bfe3882c274fa655d17c80aba007e8d246b250
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357425"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199304"
 ---
 # <a name="outbound-and-inbound-mail-flow-insight-in-the-security--compliance-center"></a>보안 & 준수 센터의 아웃 바운드 및 인바운드 메일 흐름 이해
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 [Security & 준수 센터](https://protection.office.com) 의 [메일 흐름 대시보드에](mail-flow-insights-v2.md) 있는 **아웃 바운드 및 인바운드 메일 흐름** 에 대 한 정보는 [커넥터 보고서](view-mail-flow-reports.md#connector-report) 와 이전 **TLS 개요 보고서** 의 정보가 한 곳에 결합 됩니다.
 

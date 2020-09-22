@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 5bc49ddfa93a06bc8f3d84ce7b8492681ee65cb7
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 20133e0f5dda3abc583adf66cc20a1d8fde190cf
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950930"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198004"
 ---
 # <a name="handle-advanced-hunting-errors"></a>고급 구하기 오류 처리
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 고급 구하기는 구문 오류를 알려 주고 쿼리가 [미리 정의 된 제한을](advanced-hunting-limits.md)적중 할 때마다 알림을 표시 합니다. 오류를 해결 하거나 방지 하는 방법에 대 한 팁을 보려면 아래 표를 참조 하세요. 
 

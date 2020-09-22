@@ -13,14 +13,17 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: 관리자는 커넥터 (메일 흐름 인텔리전스 라고도 함)를 사용 하 여 메시지 배달과 관련 된 오류 코드에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: e8427f3e0341ccb381121b6cdc83d20727713d4c
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 0d73ea1fe64cda3c3f29f7bd437bba4e93f37529
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307920"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198506"
 ---
 # <a name="mail-flow-intelligence-in-eop"></a>EOP의 메일 흐름 인텔리전스
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (exchange online Protection) 조직에서 사서함을 사용 하 여 EOP의 전자 메일 메시지를 온-프레미스 전자 메일 환경으로 라우팅합니다. 커넥터를 사용 하 여 Microsoft 365에서 파트너 조직으로 메시지를 라우팅할 수도 있습니다. Microsoft 365에서 커넥터를 통해 이러한 메시지를 배달할 수 없는 경우 Microsoft 365에서 큐에 대기 됩니다. Microsoft 365에서는 24 시간 동안 각 메시지에 대 한 배달을 계속 해 서 다시 시도 합니다. 24 시간 후에 대기 된 메시지는 만료 되며 메시지는 배달 못 함 보고서 (NDR 또는 바운스 메시지)의 원래 보낸 사람에 게 반환 됩니다.
 
@@ -44,7 +47,7 @@ Microsoft 365에서는 커넥터를 사용 하 여 메시지를 배달할 수 �
 
 ## <a name="error-code-450-44315-connection-timed-out"></a>오류 코드: 450 4.4.315 연결 시간이 초과 되었습니다.
 
-일반적으로 Microsoft 365는 대상 전자 메일 서버에 연결할 수 없음을 의미 합니다. 오류 세부 정보에 문제에 대 한 설명이 나와 있습니다. 예를 들어,
+일반적으로 Microsoft 365는 대상 전자 메일 서버에 연결할 수 없음을 의미 합니다. 오류 세부 정보에 문제에 대 한 설명이 나와 있습니다. 예제:
 
 - 온-프레미스 전자 메일 서버가 다운 되었습니다.
 
@@ -84,7 +87,7 @@ Microsoft 365에서는 커넥터를 사용 하 여 메시지를 배달할 수 �
 
 ## <a name="error-code-450-44317-cannot-connect-to-remote-server"></a>오류 코드: 450 4.4.317 원격 서버에 연결할 수 없습니다.
 
-일반적으로이 오류는 Microsoft 365이 대상 전자 메일 서버에 연결 되어 있지만 서버에서 즉각적인 오류가 발생 했거나 연결 요구 사항을 충족 하지 않음을 의미 합니다. 오류 세부 정보에 문제에 대 한 설명이 나와 있습니다. 예를 들어,
+일반적으로이 오류는 Microsoft 365이 대상 전자 메일 서버에 연결 되어 있지만 서버에서 즉각적인 오류가 발생 했거나 연결 요구 사항을 충족 하지 않음을 의미 합니다. 오류 세부 정보에 문제에 대 한 설명이 나와 있습니다. 예제:
 
 - 대상 전자 메일 서버가 "서비스를 사용할 수 없습니다." 라는 오류와 함께 응답 하 여 서버가 Microsoft 365과의 통신을 유지할 수 없음을 나타냅니다.
 
@@ -116,7 +119,7 @@ Microsoft 365에서는 커넥터를 사용 하 여 메시지를 배달할 수 �
 
 ## <a name="error-code-450-47320-certificate-validation-failed"></a>오류 코드: 450 4.7.320 인증서 유효성 검사 실패
 
-일반적으로이 오류는 Microsoft 365에서 대상 전자 메일 서버의 인증서를 확인 하는 동안 오류가 발생 했음을 의미 합니다. 오류 세부 정보에 오류 설명이 나와 있습니다. 예를 들어,
+일반적으로이 오류는 Microsoft 365에서 대상 전자 메일 서버의 인증서를 확인 하는 동안 오류가 발생 했음을 의미 합니다. 오류 세부 정보에 오류 설명이 나와 있습니다. 예제:
 
 - 인증서가 만료 됨
 

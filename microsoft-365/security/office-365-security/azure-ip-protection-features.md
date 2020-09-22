@@ -18,14 +18,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 Azure Information Protection의 보호 기능을 수행 하는 변경 사항에 대해 설명 합니다.
-ms.openlocfilehash: c2f386e17d3c0da74f360a7b1262a2f32dbf92cc
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 070b0d1af0576391ce5f22a827975d1541646454
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616737"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203602"
 ---
 # <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-tenants"></a>Azure Information Protection의 보호 기능을 통해 기존 테 넌 트에 배포
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 정보를 보호 하는 초기 단계를 지원 하기 위해 7 월 2018 일부터 모든 Azure Information Protection 적합 한 테 넌 트에는 기본적으로 Azure Information Protection의 보호 기능이 설정 됩니다. Azure Information Protection의 보호 기능은 이전에는 Office 365에서 권한 관리 또는 Azure RMS로 알려져 있었습니다. 조직에 Office E3 서비스 계획 또는 서비스 계획이 더 높은 경우에는 이러한 기능을 롤아웃할 때 Azure Information Protection을 통해 정보를 보호 하기 시작할 수 있게 됩니다.
 

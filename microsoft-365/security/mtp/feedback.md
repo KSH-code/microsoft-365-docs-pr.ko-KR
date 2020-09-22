@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 130bd4bd3d4da10c36da041e41486d55ace1f41a
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: 832442ce392882951d0b960d5f36a864ba59684b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113605"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199408"
 ---
 # <a name="provide-feedback-on-microsoft-threat-protection"></a>Microsoft Threat Protection에 대 한 의견 제공
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **적용 대상:**
 - Microsoft 위협 방지
@@ -39,4 +42,4 @@ ms.locfileid: "43113605"
 
 2. 환경을 평가 하 고 좋아요를 설정 하거나 개선할 수 있는 위치에 대 한 세부 정보를 제공 합니다. 사용자 의견에 대해 연락 하도록 선택할 수도 있습니다. 
 
-3. **제출을**선택 합니다.
+3. **전송**을 선택합니다.

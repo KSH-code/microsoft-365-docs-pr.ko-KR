@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 36a1cedacc5f16c422e2b0d458b0d1767cf08b64
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: 81375b919b52ff895e5ec7014feb747b1a0eae65
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650461"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201342"
 ---
 # <a name="common-microsoft-threat-protection-rest-api-error-codes"></a>일반적인 Microsoft Threat Protection REST API 오류 코드
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **적용 대상:**
 - Microsoft 위협 방지

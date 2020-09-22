@@ -13,14 +13,17 @@ ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드를 사용 하 여 조직의 메일 루프를 식별 하 고 수정 하는 데 사용할 수 있는 메일 루프 이해 문제를 해결 하는 방법을 알아봅니다.
-ms.openlocfilehash: 063906195488aa7d65093c538d9045002448e181
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: e868c020ae307ba490e85e5803f94a67a1a94057
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358273"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198448"
 ---
 # <a name="fix-possible-mail-loop-insight-in-the-security--compliance-center"></a>보안 & 준수 센터에서 가능한 메일 루프 통찰력 수정
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 메일 루프는 시스템 리소스를 낭비 하 고 조직의 메일 볼륨 할당량을 소비 하며, Ndr 또는 바운스 메시지가 라고도 하는 혼동 하지 않는 보고서를 원래 보낸 사람에 게 전송 하므로 잘못 된 것입니다.
 

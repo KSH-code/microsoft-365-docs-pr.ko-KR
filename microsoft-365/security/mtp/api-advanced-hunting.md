@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 9e92a0328d2e7fb9cfe7461241dd866081926876
-ms.sourcegitcommit: 62a8c226422eac9c085cc886b4836b037f95ef6d
+ms.openlocfilehash: dd7b02200e370588bbb9470a3d7e897b30234ead
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47825377"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197812"
 ---
 # <a name="advanced-hunting-apis"></a>고급 구하기 Api
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **적용 대상:**
 - Microsoft 위협 방지
@@ -42,7 +45,7 @@ ms.locfileid: "47825377"
 5. 429 응답은 요청 수 또는 CPU로 인해 할당량 제한에 도달 하는 것을 나타냅니다. 또한 429 응답 본문은 할당량이 갱신 될 때 까지의 시간도 나타냅니다. 
 
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 이 API를 호출 하려면 다음 사용 권한 중 하나가 필요 합니다. 사용 권한을 선택 하는 방법을 비롯 하 여 자세한 내용은 [Microsoft Threat Protection Api 액세스](api-access.md) 를 참조 하세요.
 
 사용 권한 유형 |   사용 권한  |   사용 권한 표시 이름

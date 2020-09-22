@@ -13,14 +13,17 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 SMTP 인증 통찰력 및 보고서를 사용 하 여 인증 된 SMTP (SMTP 인증)를 사용 하는 조직의 전자 메일 보낸 사람을 모니터링 하 여 전자 메일 메시지를 보내는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 4123edcfa08e31217dcd6a29186492bc036fa7a0
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 7ca673e5ecc92c28996a976c26a38ae570f16203
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357437"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199244"
 ---
 # <a name="smtp-auth-clients-insight-and-report-in-the-security--compliance-center"></a>SMTP 인증 클라이언트에서 보안 & 준수 센터의 통찰력 및 보고
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 [보안 & 준수 센터](https://protection.office.com) 의 [메일 흐름 대시보드](mail-flow-insights-v2.md) 및 연결 된 [smtp 인증 클라이언트 보고서](#smtp-auth-clients-report) 에 있는 **smtp 인증 클라이언트** 는 조직의 사용자 또는 시스템 계정에의 한 smtp 인증 클라이언트 전송 프로토콜 사용을 강조 합니다. 끝점 smtp.office365.com를 사용 하는이 레거시 프로토콜은 기본 인증만 제공 하며 손상 된 계정에서 전자 메일을 보내기 위해 사용 하는 것이 취약 합니다. 통찰력 및 보고서를 사용 하면 SMTP 인증 전자 메일 전송에 대 한 비정상적인 활동을 확인할 수 있습니다. 또한 SMTP 인증을 사용 하는 클라이언트나 장치에 대 한 TLS 사용 현황 데이터를 보여줍니다.
 
