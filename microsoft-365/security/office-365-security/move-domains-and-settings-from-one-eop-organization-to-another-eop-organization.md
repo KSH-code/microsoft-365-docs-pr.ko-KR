@@ -1,5 +1,5 @@
 ---
-title: EOP & 도메인 보안 설정 이동
+title: EOP 조직 간에 도메인 & 설정 이동
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -13,57 +13,60 @@ localization_priority: Normal
 ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 ms.custom:
 - seo-marvel-apr2020
-description: 이 문서에서는 EOP(Microsoft Exchange Online Protection) 조직(테넌트)의 도메인 및 설정을 한 엔터프라이즈 버전으로 이동하는 방법을 설명합니다.
-ms.openlocfilehash: a33042631a5a5371e2d120f76f49cb2a46a638a3
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+description: 이 문서에서는 Microsoft Exchange Online Protection (EOP) 조직 (테 넌 트)에서 다른 사용자에 게 도메인과 설정을 이동 하는 방법에 대해 설명 합니다.
+ms.openlocfilehash: 141fb85bb7120f4e547c27f399d254847b19e3c2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827692"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200506"
 ---
-# <a name="move-domains-and-settings-from-one-eop-organization-to-another"></a><span data-ttu-id="f0221-103">EOP 조직 간에 도메인 및 설정 이동</span><span class="sxs-lookup"><span data-stu-id="f0221-103">Move domains and settings from one EOP organization to another</span></span>
+# <a name="move-domains-and-settings-from-one-eop-organization-to-another"></a><span data-ttu-id="3e782-103">EOP 조직 간에 도메인 및 설정 이동</span><span class="sxs-lookup"><span data-stu-id="3e782-103">Move domains and settings from one EOP organization to another</span></span>
 
-<span data-ttu-id="f0221-p101">비즈니스 요구 사항 변경 시 하나의 Microsoft EOP(Exchange Online Protection) 조직(테넌트)을 두 조직으로 분할하거나, 두 조직을 하나로 병합하거나, 조직 간에 도메인 및 EOP 설정을 이동해야 할 수 있습니다. EOP 조직 간의 이동은 까다로운 작업일 수 있지만 몇 가지 기본적인 원격 Windows PowerShell 스크립트를 사용하고 약간만 준비하면 비교적 적은 유지 관리 기간에 완료할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-p101">Changing business requirements can sometimes require splitting one Microsoft Exchange Online Protection (EOP) organization (tenant) into two separate organizations, merging two organizations into one, or moving your domains and EOP settings from one organization to another organization. Moving from one EOP organization to a second EOP organization can be challenging, but with a few basic remote Windows PowerShell scripts and a small amount of preparation, this can be achieved with a relatively small maintenance window.</span></span>
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+
+<span data-ttu-id="3e782-p101">비즈니스 요구 사항 변경 시 하나의 Microsoft EOP(Exchange Online Protection) 조직(테넌트)을 두 조직으로 분할하거나, 두 조직을 하나로 병합하거나, 조직 간에 도메인 및 EOP 설정을 이동해야 할 수 있습니다. EOP 조직 간의 이동은 까다로운 작업일 수 있지만 몇 가지 기본적인 원격 Windows PowerShell 스크립트를 사용하고 약간만 준비하면 비교적 적은 유지 관리 기간에 완료할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-p101">Changing business requirements can sometimes require splitting one Microsoft Exchange Online Protection (EOP) organization (tenant) into two separate organizations, merging two organizations into one, or moving your domains and EOP settings from one organization to another organization. Moving from one EOP organization to a second EOP organization can be challenging, but with a few basic remote Windows PowerShell scripts and a small amount of preparation, this can be achieved with a relatively small maintenance window.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="f0221-106">EOP 독립 실행형(Standard) 조직에서 다른 EOP Standard 또는 Exchange Enterprise CAL with Services(EOP Premium) 조직으로 또는 EOP Premium 조직에서 다른 EOP Premium 조직으로 설정을 안정적으로 이동할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-106">Settings can be reliably moved only from an EOP standalone (Standard) organization to either another EOP Standard or an Exchange Enterprise CAL with Services (EOP Premium) organization, or from an EOP Premium organization to another EOP Premium organization.</span></span> <span data-ttu-id="f0221-107">일부 프리미메시징 기능은 EOP Standard 조직에서 지원되지 않기 때문에 EOP Premium 조직 간의 이동은 실패할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-107">Because some premium features are not supported in EOP Standard organizations, moves from an EOP Premium organization to an EOP Standard organization might not be successful.</span></span> <br><br> <span data-ttu-id="f0221-p103">이러한 지침은 EOP 필터링 전용 조직에 적용됩니다. Exchange Online 조직 간의 이동에는 추가적인 고려 사항이 있습니다. Exchange Online 조직은 이러한 지침의 범위에서 벗어납니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-p103">These instructions are for EOP filtering-only organizations. There are additional considerations in moving from one Exchange Online organization to another Exchange Online organization. Exchange Online organizations are out of scope for these instructions.</span></span>
+> <span data-ttu-id="3e782-106">EOP 독립 실행형(Standard) 조직에서 다른 EOP Standard 또는 Exchange Enterprise CAL with Services(EOP Premium) 조직으로 또는 EOP Premium 조직에서 다른 EOP Premium 조직으로 설정을 안정적으로 이동할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-106">Settings can be reliably moved only from an EOP standalone (Standard) organization to either another EOP Standard or an Exchange Enterprise CAL with Services (EOP Premium) organization, or from an EOP Premium organization to another EOP Premium organization.</span></span> <span data-ttu-id="3e782-107">일부 프리미엄 기능은 EOP Standard 조직에서 지원 되지 않으므로 EOP Premium 조 직에서 EOP Standard 조 직으로 이동 하지 못할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-107">Because some premium features are not supported in EOP Standard organizations, moves from an EOP Premium organization to an EOP Standard organization might not be successful.</span></span> <br><br> <span data-ttu-id="3e782-p103">이러한 지침은 EOP 필터링 전용 조직에 적용됩니다. Exchange Online 조직 간의 이동에는 추가적인 고려 사항이 있습니다. Exchange Online 조직은 이러한 지침의 범위에서 벗어납니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-p103">These instructions are for EOP filtering-only organizations. There are additional considerations in moving from one Exchange Online organization to another Exchange Online organization. Exchange Online organizations are out of scope for these instructions.</span></span>
 
-<span data-ttu-id="f0221-p104">다음 예제에서는 Contoso, Ltd.가 Contoso Suites와 병합되었습니다. 다음 그림에서는 원본 EOP 조직(contoso.onmicrosoft.com)에서 대상 EOP 조직(contososuites.onmicrosoft.com)으로 도메인, 메일 사용자 및 그룹, 설정을 이동하는 프로세스를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-p104">In the following example, Contoso, Ltd. has merged with Contoso Suites. The following image shows the process of moving domains, mail users and groups, and settings from the source EOP organization (contoso.onmicrosoft.com) to the target EOP organization (contososuites.onmicrosoft.com):</span></span>
+<span data-ttu-id="3e782-p104">다음 예제에서는 Contoso, Ltd.가 Contoso Suites와 병합되었습니다. 다음 그림에서는 원본 EOP 조직(contoso.onmicrosoft.com)에서 대상 EOP 조직(contososuites.onmicrosoft.com)으로 도메인, 메일 사용자 및 그룹, 설정을 이동하는 프로세스를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-p104">In the following example, Contoso, Ltd. has merged with Contoso Suites. The following image shows the process of moving domains, mail users and groups, and settings from the source EOP organization (contoso.onmicrosoft.com) to the target EOP organization (contososuites.onmicrosoft.com):</span></span>
 
 ![EOP 도메인 및 설정 이동](../../media/EOP-Move-domains-and-settings.jpg)
 
-<span data-ttu-id="f0221-p105">확인된 도메인이 두 조직에 동시에 존재할 수 없는 경우 조직 간에 도메인을 이동하는 데 문제가 있을 수 있습니다. 다음 단계에서는 이 과정을 도와줍니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-p105">The challenge in moving domains from one organization to another is that a verified domain can't exist in two organizations at the same time. The following steps help you work through this.</span></span>
+<span data-ttu-id="3e782-p105">확인된 도메인이 두 조직에 동시에 존재할 수 없는 경우 조직 간에 도메인을 이동하는 데 문제가 있을 수 있습니다. 다음 단계에서는 이 과정을 도와줍니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-p105">The challenge in moving domains from one organization to another is that a verified domain can't exist in two organizations at the same time. The following steps help you work through this.</span></span>
 
-## <a name="step-1-collect-data-from-the-source-organization"></a><span data-ttu-id="f0221-116">1단계: 원본 조직에서 데이터 수집</span><span class="sxs-lookup"><span data-stu-id="f0221-116">Step 1: Collect data from the source organization</span></span>
+## <a name="step-1-collect-data-from-the-source-organization"></a><span data-ttu-id="3e782-116">1단계: 원본 조직에서 데이터 수집</span><span class="sxs-lookup"><span data-stu-id="3e782-116">Step 1: Collect data from the source organization</span></span>
 
-<span data-ttu-id="f0221-117">대상 조직에서 원본 조직을 다시 만들려면 원본 조직에 대한 다음 정보를 수집하고 저장해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-117">In order to re-create the source organization in the target organization, make sure that you collect and store the following information about the source organization:</span></span>
+<span data-ttu-id="3e782-117">대상 조직에서 원본 조직을 다시 만들려면 원본 조직에 대한 다음 정보를 수집하고 저장해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-117">In order to re-create the source organization in the target organization, make sure that you collect and store the following information about the source organization:</span></span>
 
-- <span data-ttu-id="f0221-118">도메인</span><span class="sxs-lookup"><span data-stu-id="f0221-118">Domains</span></span>
+- <span data-ttu-id="3e782-118">도메인</span><span class="sxs-lookup"><span data-stu-id="3e782-118">Domains</span></span>
 
-- <span data-ttu-id="f0221-119">메일 사용자</span><span class="sxs-lookup"><span data-stu-id="f0221-119">Mail users</span></span>
+- <span data-ttu-id="3e782-119">메일 사용자</span><span class="sxs-lookup"><span data-stu-id="3e782-119">Mail users</span></span>
 
-- <span data-ttu-id="f0221-120">그룹</span><span class="sxs-lookup"><span data-stu-id="f0221-120">Groups</span></span>
+- <span data-ttu-id="3e782-120">그룹</span><span class="sxs-lookup"><span data-stu-id="3e782-120">Groups</span></span>
 
-- <span data-ttu-id="f0221-121">스팸 방지</span><span class="sxs-lookup"><span data-stu-id="f0221-121">Anti-spam</span></span>
+- <span data-ttu-id="3e782-121">스팸 방지</span><span class="sxs-lookup"><span data-stu-id="3e782-121">Anti-spam</span></span>
 
-  - <span data-ttu-id="f0221-122">스팸 방지 정책(콘텐츠 필터 정책이라고도 함)</span><span class="sxs-lookup"><span data-stu-id="f0221-122">Anti-spam policies (also known as content filter policies)</span></span>
-  - <span data-ttu-id="f0221-123">아웃바운드 스팸 필터 정책</span><span class="sxs-lookup"><span data-stu-id="f0221-123">Outbound spam filter policies</span></span>
-  - <span data-ttu-id="f0221-124">연결 필터 정책</span><span class="sxs-lookup"><span data-stu-id="f0221-124">Connection filter policies</span></span>
+  - <span data-ttu-id="3e782-122">스팸 방지 정책 (콘텐츠 필터 정책이 라고도 함)</span><span class="sxs-lookup"><span data-stu-id="3e782-122">Anti-spam policies (also known as content filter policies)</span></span>
+  - <span data-ttu-id="3e782-123">아웃 바운드 스팸 필터 정책</span><span class="sxs-lookup"><span data-stu-id="3e782-123">Outbound spam filter policies</span></span>
+  - <span data-ttu-id="3e782-124">연결 필터 정책</span><span class="sxs-lookup"><span data-stu-id="3e782-124">Connection filter policies</span></span>
 
-- <span data-ttu-id="f0221-125">맬웨어 방지 정책</span><span class="sxs-lookup"><span data-stu-id="f0221-125">Anti-malware policies</span></span>
+- <span data-ttu-id="3e782-125">맬웨어 방지 정책</span><span class="sxs-lookup"><span data-stu-id="3e782-125">Anti-malware policies</span></span>
 
-- <span data-ttu-id="f0221-126">커넥터</span><span class="sxs-lookup"><span data-stu-id="f0221-126">Connectors</span></span>
+- <span data-ttu-id="3e782-126">커넥터</span><span class="sxs-lookup"><span data-stu-id="3e782-126">Connectors</span></span>
 
-- <span data-ttu-id="f0221-127">메일 흐름 규칙(전송 규칙이라고도 함)</span><span class="sxs-lookup"><span data-stu-id="f0221-127">Mail flow rules (also known as transport rules)</span></span>
+- <span data-ttu-id="3e782-127">메일 흐름 규칙 (전송 규칙이 라고도 함)</span><span class="sxs-lookup"><span data-stu-id="3e782-127">Mail flow rules (also known as transport rules)</span></span>
 
   > [!NOTE]
-  > <span data-ttu-id="f0221-128">메일 흐름 규칙 컬렉션 내보내기 및 가져오기에 대한 cmdlet은 현재 EOP Premium 구독 계획에서만 지원됩니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-128">Cmdlet support for the export and import of the mail flow rule collection is currently only supported for EOP Premium subscription plans.</span></span>
+  > <span data-ttu-id="3e782-128">메일 흐름 규칙 모음의 내보내기 및 가져오기에 대 한 Cmdlet 지원은 현재 EOP Premium 구독 계획 에서만 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-128">Cmdlet support for the export and import of the mail flow rule collection is currently only supported for EOP Premium subscription plans.</span></span>
 
-<span data-ttu-id="f0221-129">모든 설정을 수집하는 가장 쉬은 PowerShell을 사용하는 것이 가장 쉽습니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-129">The easiest way to collect all of your settings is to use PowerShell.</span></span> <span data-ttu-id="f0221-130">독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="f0221-130">To connect to standalone EOP PowerShell, see [Connect to Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).</span></span>
+<span data-ttu-id="3e782-129">모든 설정을 수집 하는 가장 쉬운 방법은 PowerShell을 사용 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-129">The easiest way to collect all of your settings is to use PowerShell.</span></span> <span data-ttu-id="3e782-130">독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="3e782-130">To connect to standalone EOP PowerShell, see [Connect to Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).</span></span>
 
-<span data-ttu-id="f0221-p107">다음으로, 모든 설정을 수집하고 대상 테넌트로 가져올 .xml 파일을 내보낼 수 있습니다. 일반적으로 다음 코드 샘플과 같이 각 설정에 대한 **Get** cmdlet의 출력을 **Export-Clixml** cmdlet에 파이프하여 .xml 파일에 설정을 저장할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-p107">Next, you can collect all your settings and export them to an .xml file to be imported into the target tenant. In general, you can pipe the output of the **Get** cmdlet for each setting to the **Export-Clixml** cmdlet to save the settings in .xml files, as shown in the following code sample.</span></span>
+<span data-ttu-id="3e782-p107">다음으로, 모든 설정을 수집하고 대상 테넌트로 가져올 .xml 파일을 내보낼 수 있습니다. 일반적으로 다음 코드 샘플과 같이 각 설정에 대한 **Get** cmdlet의 출력을 **Export-Clixml** cmdlet에 파이프하여 .xml 파일에 설정을 저장할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-p107">Next, you can collect all your settings and export them to an .xml file to be imported into the target tenant. In general, you can pipe the output of the **Get** cmdlet for each setting to the **Export-Clixml** cmdlet to save the settings in .xml files, as shown in the following code sample.</span></span>
 
-<span data-ttu-id="f0221-133">독립 실행형 EOP PowerShell에서 해당 디렉터리를 찾아서 변경하기 가소 있도록 하는 위치에 Export라는 디렉터리를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-133">In standalone EOP PowerShell, create a directory called Export in a location that's easy to find and change to that directory.</span></span> <span data-ttu-id="f0221-134">예제:</span><span class="sxs-lookup"><span data-stu-id="f0221-134">For example:</span></span>
+<span data-ttu-id="3e782-133">독립 실행형 EOP PowerShell에서 쉽게 찾고 해당 디렉터리로 변경할 수 있는 위치에 Export 라는 디렉터리를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-133">In standalone EOP PowerShell, create a directory called Export in a location that's easy to find and change to that directory.</span></span> <span data-ttu-id="3e782-134">예제:</span><span class="sxs-lookup"><span data-stu-id="3e782-134">For example:</span></span>
 
 ```PowerShell
 mkdir C:\EOP\Export
@@ -73,7 +76,7 @@ mkdir C:\EOP\Export
 cd C:\EOP\Export
 ```
 
-<span data-ttu-id="f0221-135">다음 스크립트를 사용하여 원본 조직에서 모든 메일 사용자, 그룹, 스팸 방지 설정, 맬웨어 방지 설정, 커넥터 및 메일 흐름 규칙을 수집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-135">The following script can be used to collect all the mail users, groups, anti-spam settings, anti-malware settings, connectors, and mail flow rules in the source organization.</span></span> <span data-ttu-id="f0221-136">메모장과 같은 텍스트 편집기에 다음 텍스트를 복사하여 붙여넣고 방금 만든 Export 디렉터리에서 Source_EOP_Settings.ps1 파일을 저장한 후 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-136">Copy and paste the following text into a text editor like Notepad, save the file as Source_EOP_Settings.ps1 in the Export directory you just created, and run the following command:</span></span>
+<span data-ttu-id="3e782-135">다음 스크립트를 사용 하 여 원본 조직의 모든 메일 사용자, 그룹, 스팸 방지 설정, 맬웨어 방지 설정, 커넥터 및 메일 흐름 규칙을 수집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-135">The following script can be used to collect all the mail users, groups, anti-spam settings, anti-malware settings, connectors, and mail flow rules in the source organization.</span></span> <span data-ttu-id="3e782-136">메모장과 같은 텍스트 편집기에 다음 텍스트를 복사하여 붙여넣고 방금 만든 Export 디렉터리에서 Source_EOP_Settings.ps1 파일을 저장한 후 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-136">Copy and paste the following text into a text editor like Notepad, save the file as Source_EOP_Settings.ps1 in the Export directory you just created, and run the following command:</span></span>
 
 ```PowerShell
 & "C:\EOP\Export\Source_EOP_Settings.ps1"
@@ -145,22 +148,22 @@ $file = Export-TransportRuleCollection
 Set-Content -Path ".TransportRules.xml" -Value $file.FileData -Encoding Byte
 ```
 
-<span data-ttu-id="f0221-p110">Export 디렉터리에서 다음 명령을 실행하여 대상 조직으로 .xml 파일을 업데이트합니다. contoso.onmicrosoft.com 및 contososuites.onmicrosoft.com을 원본 및 대상 조직 이름으로 바꿉니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-p110">Run the following commands from the Export directory to update the .xml files with the target organization. Replace contoso.onmicrosoft.com and contososuites.onmicrosoft.com with your source and target organization names.</span></span>
+<span data-ttu-id="3e782-p110">Export 디렉터리에서 다음 명령을 실행하여 대상 조직으로 .xml 파일을 업데이트합니다. contoso.onmicrosoft.com 및 contososuites.onmicrosoft.com을 원본 및 대상 조직 이름으로 바꿉니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-p110">Run the following commands from the Export directory to update the .xml files with the target organization. Replace contoso.onmicrosoft.com and contososuites.onmicrosoft.com with your source and target organization names.</span></span>
 
 ```PowerShell
 $files = ls
 ForEach ($file in $files) { (Get-Content $file.Name) | Foreach-Object {$_ -replace 'contoso.onmicrosoft.com', 'contososuites.onmicrosoft.com'} | Set-Content $file.Name}
 ```
 
-## <a name="step-2-add-domains-to-the-target-organization"></a><span data-ttu-id="f0221-139">2단계: 대상 조직에 도메인 추가</span><span class="sxs-lookup"><span data-stu-id="f0221-139">Step 2: Add domains to the target organization</span></span>
+## <a name="step-2-add-domains-to-the-target-organization"></a><span data-ttu-id="3e782-139">2단계: 대상 조직에 도메인 추가</span><span class="sxs-lookup"><span data-stu-id="3e782-139">Step 2: Add domains to the target organization</span></span>
 
-<span data-ttu-id="f0221-p111">다음 스크립트를 사용하여 대상 조직에 도메인을 추가합니다. 메모장과 같은 텍스트 편집기에 텍스트를 복사하여 붙여넣고 스크립트를 C:\EOP\Export\Add_Domains.ps1로 저장한 후 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-p111">Add domains to the target organization by using the following script. Copy and paste the text into a text editor like Notepad, save the script as C:\EOP\Export\Add_Domains.ps1, and run the following command:</span></span>
+<span data-ttu-id="3e782-p111">다음 스크립트를 사용하여 대상 조직에 도메인을 추가합니다. 메모장과 같은 텍스트 편집기에 텍스트를 복사하여 붙여넣고 스크립트를 C:\EOP\Export\Add_Domains.ps1로 저장한 후 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-p111">Add domains to the target organization by using the following script. Copy and paste the text into a text editor like Notepad, save the script as C:\EOP\Export\Add_Domains.ps1, and run the following command:</span></span>
 
 ```PowerShell
 & "C:\EOP\Export\Add_Domains.ps1"
 ```
 
-<span data-ttu-id="f0221-142">이러한 도메인은 확인되지 않고 메일을 라우팅하는 데 사용할 수 없지만 도메인을 추가한 후에는 도메인을 확인하는 데 필요한 정보를 수집하고 최종적으로 새 테넌트의 MX 레코드를 업데이트할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-142">These domains won't be verified and can't be used to route mail, but after the domains are added, you can collect the information needed to verify the domains and eventually update your MX records for the new tenant.</span></span>
+<span data-ttu-id="3e782-142">이러한 도메인은 확인되지 않고 메일을 라우팅하는 데 사용할 수 없지만 도메인을 추가한 후에는 도메인을 확인하는 데 필요한 정보를 수집하고 최종적으로 새 테넌트의 MX 레코드를 업데이트할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-142">These domains won't be verified and can't be used to route mail, but after the domains are added, you can collect the information needed to verify the domains and eventually update your MX records for the new tenant.</span></span>
 
 ```PowerShell
 #***********************************************************************
@@ -177,38 +180,38 @@ Foreach ($domain in $Domains) {
 }
 ```
 
-<span data-ttu-id="f0221-143">이제 가까운 시간이 되면 도메인을 신속하게 확인하여 대상 조직의 Microsoft 365 관리 센터에서 정보를 검토 및 수집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-143">Now you can review and collect the information from the Microsoft 365 admin center of your target organization so you can quickly verify your domains when the time comes:</span></span>
+<span data-ttu-id="3e782-143">이제 다음 시간에 발생할 때 도메인을 신속 하 게 확인할 수 있도록 대상 조직의 Microsoft 365 관리 센터에서 정보를 검토 하 고 수집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-143">Now you can review and collect the information from the Microsoft 365 admin center of your target organization so you can quickly verify your domains when the time comes:</span></span>
 
-1. <span data-ttu-id="f0221-144">Microsoft 365 관리 센터에 <https://portal.office.com> 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-144">Sign in to the Microsoft 365 admin center at <https://portal.office.com>.</span></span>
+1. <span data-ttu-id="3e782-144">에서 Microsoft 365 관리 센터에 로그인 <https://portal.office.com> 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-144">Sign in to the Microsoft 365 admin center at <https://portal.office.com>.</span></span>
 
-2. <span data-ttu-id="f0221-145">**도메인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-145">Click **Domains**.</span></span>
+2. <span data-ttu-id="3e782-145">**도메인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-145">Click **Domains**.</span></span>
 
-   <span data-ttu-id="f0221-146">도메인이 표시되지 않으면 사용자 지정, **설치를 선택한 다음** **저장을** **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="f0221-146">If you don't see domains, click **Customize navigation**, select **Setup**, and then click **Save**.</span></span>
+   <span data-ttu-id="3e782-146">도메인이 표시 되지 않으면 **탐색 사용자 지정**을 클릭 하 고 **설치**를 선택한 다음 **저장**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-146">If you don't see domains, click **Customize navigation**, select **Setup**, and then click **Save**.</span></span>
 
-3. <span data-ttu-id="f0221-147">**설정 시작** 링크를 클릭하고 설정 마법사를 진행합니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-147">Click each **Start setup** link, and then proceed through the setup wizard.</span></span>
+3. <span data-ttu-id="3e782-147">**설정 시작** 링크를 클릭하고 설정 마법사를 진행합니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-147">Click each **Start setup** link, and then proceed through the setup wizard.</span></span>
 
-4. <span data-ttu-id="f0221-148">**소유권 확인** 페이지의 **이 단계를 수행하는 단계별 지침 참조**에서 **일반 지침**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-148">On the **Confirm ownership** page, for **See step-by-step instructions for performing this step with**, select **General instructions**.</span></span>
+4. <span data-ttu-id="3e782-148">**소유권 확인** 페이지의 **이 단계를 수행하는 단계별 지침 참조**에서 **일반 지침**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-148">On the **Confirm ownership** page, for **See step-by-step instructions for performing this step with**, select **General instructions**.</span></span>
 
-5. <span data-ttu-id="f0221-149">도메인을 확인하는 데 사용할 MX 레코드 또는 TXT 레코드를 기록하고 설정 마법사를 완료합니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-149">Record the MX record or TXT record that you'll use to verify your domain, and finish the setup wizard.</span></span>
+5. <span data-ttu-id="3e782-149">도메인을 확인하는 데 사용할 MX 레코드 또는 TXT 레코드를 기록하고 설정 마법사를 완료합니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-149">Record the MX record or TXT record that you'll use to verify your domain, and finish the setup wizard.</span></span>
 
-6. <span data-ttu-id="f0221-150">확인 TXT 레코드를 DNS 레코드에 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-150">Add the verification TXT records to your DNS records.</span></span> <span data-ttu-id="f0221-151">그러면 원본 조직이 대상 조직에서 제거된 후 해당 원본 조직의 도메인을 보다 신속하게 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-151">This will let you more quickly verify the domains in the source organization after they're removed from the target organization.</span></span> <span data-ttu-id="f0221-152">DNS 구성에 대한 자세한 내용은 DNS [호스팅 공급자에서 Microsoft 365용 DNS 레코드 만들기를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)</span><span class="sxs-lookup"><span data-stu-id="f0221-152">For more information about configuring DNS, see [Create DNS records at any DNS hosting provider for Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).</span></span>
+6. <span data-ttu-id="3e782-150">확인 TXT 레코드를 DNS 레코드에 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-150">Add the verification TXT records to your DNS records.</span></span> <span data-ttu-id="3e782-151">그러면 원본 조직이 대상 조직에서 제거된 후 해당 원본 조직의 도메인을 보다 신속하게 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-151">This will let you more quickly verify the domains in the source organization after they're removed from the target organization.</span></span> <span data-ttu-id="3e782-152">DNS를 구성 하는 방법에 대 한 자세한 내용은 dns [호스팅 공급자에서 Microsoft 365에 대 한 dns 레코드 만들기](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="3e782-152">For more information about configuring DNS, see [Create DNS records at any DNS hosting provider for Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).</span></span>
 
-## <a name="step-3-force-senders-to-queue-mail"></a><span data-ttu-id="f0221-153">3단계: 보낸 사람이 메일을 강제로 큐에 넣도록 설정 </span><span class="sxs-lookup"><span data-stu-id="f0221-153">Step 3: Force senders to queue mail</span></span>
+## <a name="step-3-force-senders-to-queue-mail"></a><span data-ttu-id="3e782-153">3단계: 보낸 사람이 메일을 강제로 큐에 넣도록 설정 </span><span class="sxs-lookup"><span data-stu-id="3e782-153">Step 3: Force senders to queue mail</span></span>
 
-<span data-ttu-id="f0221-p113">테넌트 간에 도메인을 이동하는 동안 원본 조직에서 도메인을 삭제한 후 대상 조직에서 해당 도메인을 확인해야 합니다. 그 동안에는 EOP를 통해 메일을 라우팅할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-p113">While moving your domains from one tenant to another, you'll need to delete the domains from the source organization and then verify them in your target organization. During this time, you won't be able to route mail through EOP.</span></span>
+<span data-ttu-id="3e782-p113">테넌트 간에 도메인을 이동하는 동안 원본 조직에서 도메인을 삭제한 후 대상 조직에서 해당 도메인을 확인해야 합니다. 그 동안에는 EOP를 통해 메일을 라우팅할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-p113">While moving your domains from one tenant to another, you'll need to delete the domains from the source organization and then verify them in your target organization. During this time, you won't be able to route mail through EOP.</span></span>
 
-<span data-ttu-id="f0221-156">보낸 사람이 메일을 강제로 큐에 넣도록 설정하는 한 가지 옵션은 온-프레미스 메일 서버를 직접 가리키도록 MX 레코드를 업데이트하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-156">One option to force senders to queue mail is to update your MX records to point directly to your on-premises mail server.</span></span>
+<span data-ttu-id="3e782-156">보낸 사람이 메일을 강제로 큐에 넣도록 설정하는 한 가지 옵션은 온-프레미스 메일 서버를 직접 가리키도록 MX 레코드를 업데이트하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-156">One option to force senders to queue mail is to update your MX records to point directly to your on-premises mail server.</span></span>
 
-<span data-ttu-id="f0221-p114">또 다른 옵션은 도메인의 DNS 레코드가 유지(DNS 호스팅 서비스라고도 함)되는 각 도메인에 잘못된 MX 레코드를 두는 것입니다. 이렇게 하면 보낸 사람이 메일을 큐에 넣고 다시 시도하게 됩니다(일반적으로 48시간 동안 다시 시도되지만 이는 공급자마다 다를 수 있음). invalid.outlook.com을 잘못된 MX 대상으로 사용할 수 있습니다. MX 레코드에서 TTL(Time to Live) 값을 5분으로 낮추면 변경 내용을 DNS 공급자에 보다 신속하게 전파할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-p114">Another option is to put an invalid MX record in each domain where the DNS records for your domain are kept (also known as your DNS hosting service). This will cause the sender to queue your mail and retry (typical retry attempts are for 48 hours, but this might vary from provider to provider). You can use invalid.outlook.com as an invalid MX target. Lowering the Time to Live (TTL) value to five minutes on the MX record will help the change propagate to DNS providers more quickly.</span></span>
+<span data-ttu-id="3e782-p114">또 다른 옵션은 도메인의 DNS 레코드가 유지(DNS 호스팅 서비스라고도 함)되는 각 도메인에 잘못된 MX 레코드를 두는 것입니다. 이렇게 하면 보낸 사람이 메일을 큐에 넣고 다시 시도하게 됩니다(일반적으로 48시간 동안 다시 시도되지만 이는 공급자마다 다를 수 있음). invalid.outlook.com을 잘못된 MX 대상으로 사용할 수 있습니다. MX 레코드에서 TTL(Time to Live) 값을 5분으로 낮추면 변경 내용을 DNS 공급자에 보다 신속하게 전파할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-p114">Another option is to put an invalid MX record in each domain where the DNS records for your domain are kept (also known as your DNS hosting service). This will cause the sender to queue your mail and retry (typical retry attempts are for 48 hours, but this might vary from provider to provider). You can use invalid.outlook.com as an invalid MX target. Lowering the Time to Live (TTL) value to five minutes on the MX record will help the change propagate to DNS providers more quickly.</span></span>
 
-<span data-ttu-id="f0221-161">DNS 구성에 대한 자세한 내용은 DNS [호스팅 공급자에서 Microsoft 365용 DNS 레코드 만들기를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)</span><span class="sxs-lookup"><span data-stu-id="f0221-161">For more information about configuring DNS, see [Create DNS records at any DNS hosting provider for Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).</span></span>
+<span data-ttu-id="3e782-161">DNS를 구성 하는 방법에 대 한 자세한 내용은 dns [호스팅 공급자에서 Microsoft 365에 대 한 dns 레코드 만들기](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="3e782-161">For more information about configuring DNS, see [Create DNS records at any DNS hosting provider for Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="f0221-p115">공급자마다 메일이 큐에서 유지되는 기간이 다릅니다. 큐 시간이 만료된 경우 배달 못 함 보고서(NDR)가 보낸 사람에게 전송되지 않도록 하려면 새 테넌트를 신속하게 설정하고 DNS 설정을 되돌려야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-p115">Different providers queue mail for different periods of time. You'll need to set up your new tenant quickly and revert your DNS settings to avoid non-delivery reports (NDRs) from being sent to the sender if the queuing time expires.</span></span>
+> <span data-ttu-id="3e782-p115">공급자마다 메일이 큐에서 유지되는 기간이 다릅니다. 큐 시간이 만료된 경우 배달 못 함 보고서(NDR)가 보낸 사람에게 전송되지 않도록 하려면 새 테넌트를 신속하게 설정하고 DNS 설정을 되돌려야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-p115">Different providers queue mail for different periods of time. You'll need to set up your new tenant quickly and revert your DNS settings to avoid non-delivery reports (NDRs) from being sent to the sender if the queuing time expires.</span></span>
 
-## <a name="step-4-remove-users-groups-and-domains-from-the-source-organization"></a><span data-ttu-id="f0221-164">4단계: 원본 조직에서 사용자, 그룹 및 도메인 제거</span><span class="sxs-lookup"><span data-stu-id="f0221-164">Step 4: Remove users, groups, and domains from the source organization</span></span>
+## <a name="step-4-remove-users-groups-and-domains-from-the-source-organization"></a><span data-ttu-id="3e782-164">4단계: 원본 조직에서 사용자, 그룹 및 도메인 제거</span><span class="sxs-lookup"><span data-stu-id="3e782-164">Step 4: Remove users, groups, and domains from the source organization</span></span>
 
-<span data-ttu-id="f0221-165">다음 스크립트는 Azure Active Directory PowerShell을 사용하여 사용자, 그룹 및 도메인을 원본 테넌트에서 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-165">The following script removes users, groups, and domains from the source tenant by using Azure Active Directory PowerShell.</span></span> <span data-ttu-id="f0221-166">메모장과 같은 텍스트 편집기에 다음 텍스트를 복사하여 붙여넣고 파일을 C:\EOP\Export\Remove_Users_and_Groups.ps1로 저장한 후 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-166">Copy and paste the following text into a text editor like Notepad, save the file as C:\EOP\Export\Remove_Users_and_Groups.ps1, and run the following command:</span></span>
+<span data-ttu-id="3e782-165">다음 스크립트는 Azure Active Directory PowerShell을 사용 하 여 원본 테 넌 트에서 사용자, 그룹 및 도메인을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-165">The following script removes users, groups, and domains from the source tenant by using Azure Active Directory PowerShell.</span></span> <span data-ttu-id="3e782-166">메모장과 같은 텍스트 편집기에 다음 텍스트를 복사하여 붙여넣고 파일을 C:\EOP\Export\Remove_Users_and_Groups.ps1로 저장한 후 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-166">Copy and paste the following text into a text editor like Notepad, save the file as C:\EOP\Export\Remove_Users_and_Groups.ps1, and run the following command:</span></span>
 
 ```PowerShell
 & "C:\EOP\Export\Remove_Users_and_Groups.ps1"
@@ -247,19 +250,19 @@ Remove-MsolDomain -DomainName $Domain.Name -Force
 }
 ```
 
-## <a name="step-5-verify-domains-for-the-target-organization"></a><span data-ttu-id="f0221-167">5단계: 대상 조직에 대한 도메인 확인</span><span class="sxs-lookup"><span data-stu-id="f0221-167">Step 5: Verify domains for the target organization</span></span>
+## <a name="step-5-verify-domains-for-the-target-organization"></a><span data-ttu-id="3e782-167">5단계: 대상 조직에 대한 도메인 확인</span><span class="sxs-lookup"><span data-stu-id="3e782-167">Step 5: Verify domains for the target organization</span></span>
 
-1. <span data-ttu-id="f0221-168">로그인 [https://portal.office.com](https://portal.office.com) 합니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-168">Sign in to the admin center at [https://portal.office.com](https://portal.office.com).</span></span>
+1. <span data-ttu-id="3e782-168">에서 관리 센터에 로그인 [https://portal.office.com](https://portal.office.com) 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-168">Sign in to the admin center at [https://portal.office.com](https://portal.office.com).</span></span>
 
-2. <span data-ttu-id="f0221-169">**도메인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-169">Click **Domains**.</span></span>
+2. <span data-ttu-id="3e782-169">**도메인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-169">Click **Domains**.</span></span>
 
-3. <span data-ttu-id="f0221-170">대상 도메인에 대한 각 **설정 시작** 링크를 클릭하고 설정 마법사를 진행합니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-170">Click each **Start setup** link for the target domain and proceed through the setup wizard.</span></span>
+3. <span data-ttu-id="3e782-170">대상 도메인에 대한 각 **설정 시작** 링크를 클릭하고 설정 마법사를 진행합니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-170">Click each **Start setup** link for the target domain and proceed through the setup wizard.</span></span>
 
-## <a name="step-6-add-mail-users-and-groups-to-the-target-organization"></a><span data-ttu-id="f0221-171">6단계: 대상 조직에 메일 사용자 및 그룹 추가</span><span class="sxs-lookup"><span data-stu-id="f0221-171">Step 6: Add mail users and groups to the target organization</span></span>
+## <a name="step-6-add-mail-users-and-groups-to-the-target-organization"></a><span data-ttu-id="3e782-171">6단계: 대상 조직에 메일 사용자 및 그룹 추가</span><span class="sxs-lookup"><span data-stu-id="3e782-171">Step 6: Add mail users and groups to the target organization</span></span>
 
-<span data-ttu-id="f0221-172">EOP에서는 Azure Active Directory를 사용하여 온-프레미스 Active Directory를 대상 테넌트와 동기화하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-172">A best practice for EOP is to use Azure Active Directory to sync your on-premises Active Directory to your target tenant.</span></span> <span data-ttu-id="f0221-173">이 작업을 수행하는 방법에 대한 자세한 내용은 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)에서 "디렉터리 동기화를 사용하여 메일 사용자 관리"를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="f0221-173">For more information about how to do this, see "Use directory synchronization to manage mail users" in [Manage mail users in EOP](manage-mail-users-in-eop.md).</span></span> <span data-ttu-id="f0221-174">다음 스크립트를 사용하여 원본 테넌트에서 사용자 및 그룹을 다시 만들 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-174">You can also use the following script to recreate your users and groups from your source tenant.</span></span> <span data-ttu-id="f0221-175">참고: 사용자 암호는 이동할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-175">Note: User passwords cannot be moved.</span></span> <span data-ttu-id="f0221-176">새 사용자 암호가 생성되고 UsersAndGroups.ps1이라는 파일에 저장됩니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-176">New user passwords are created and saved in the file named UsersAndGroups.ps1.</span></span>
+<span data-ttu-id="3e782-172">EOP에서는 Azure Active Directory를 사용하여 온-프레미스 Active Directory를 대상 테넌트와 동기화하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-172">A best practice for EOP is to use Azure Active Directory to sync your on-premises Active Directory to your target tenant.</span></span> <span data-ttu-id="3e782-173">이 작업을 수행하는 방법에 대한 자세한 내용은 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)에서 "디렉터리 동기화를 사용하여 메일 사용자 관리"를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="3e782-173">For more information about how to do this, see "Use directory synchronization to manage mail users" in [Manage mail users in EOP](manage-mail-users-in-eop.md).</span></span> <span data-ttu-id="3e782-174">다음 스크립트를 사용하여 원본 테넌트에서 사용자 및 그룹을 다시 만들 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-174">You can also use the following script to recreate your users and groups from your source tenant.</span></span> <span data-ttu-id="3e782-175">참고: 사용자 암호는 이동할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-175">Note: User passwords cannot be moved.</span></span> <span data-ttu-id="3e782-176">새 사용자 암호가 생성되고 UsersAndGroups.ps1이라는 파일에 저장됩니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-176">New user passwords are created and saved in the file named UsersAndGroups.ps1.</span></span>
 
-<span data-ttu-id="f0221-177">스크립트를 사용하려면 메모장과 같은 텍스트 편집기에 다음 텍스트를 복사하여 붙여넣고 파일을 C:\EOP\Export\Add_Users_and_Groups.ps1로 저장한 후 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-177">To use the script, copy and paste the following text into a text editor like Notepad, save the file as C:\EOP\Export\Add_Users_and_Groups.ps1, and run the following command:</span></span>
+<span data-ttu-id="3e782-177">스크립트를 사용하려면 메모장과 같은 텍스트 편집기에 다음 텍스트를 복사하여 붙여넣고 파일을 C:\EOP\Export\Add_Users_and_Groups.ps1로 저장한 후 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-177">To use the script, copy and paste the following text into a text editor like Notepad, save the file as C:\EOP\Export\Add_Users_and_Groups.ps1, and run the following command:</span></span>
 
 ```PowerShell
 & "C:\EOP\Export\Add_Users_and_Groups.ps1"
@@ -607,17 +610,17 @@ if($MailContactsCount -gt 0){
 }
 ```
 
-## <a name="step-7-add-protection-settings-to-the-target-organization"></a><span data-ttu-id="f0221-178">7단계: 대상 조직에 보호 설정 추가</span><span class="sxs-lookup"><span data-stu-id="f0221-178">Step 7: Add protection settings to the target organization</span></span>
+## <a name="step-7-add-protection-settings-to-the-target-organization"></a><span data-ttu-id="3e782-178">7단계: 대상 조직에 보호 설정 추가</span><span class="sxs-lookup"><span data-stu-id="3e782-178">Step 7: Add protection settings to the target organization</span></span>
 
-<span data-ttu-id="f0221-179">대상 조직에 로그인되어 있는 동안 Export 디렉터리에서 다음 스크립트를 실행하여 이전에 원본 조직에서 .xml 파일로 내보낸 설정을 다시 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-179">You can run the following script from the Export directory while logged in to your target organization to recreate the settings exported to .xml files earlier from the source organization.</span></span>
+<span data-ttu-id="3e782-179">대상 조직에 로그인되어 있는 동안 Export 디렉터리에서 다음 스크립트를 실행하여 이전에 원본 조직에서 .xml 파일로 내보낸 설정을 다시 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-179">You can run the following script from the Export directory while logged in to your target organization to recreate the settings exported to .xml files earlier from the source organization.</span></span>
 
-<span data-ttu-id="f0221-180">메모장과 같은 텍스트 편집기에 스크립트 텍스트를 복사하여 붙여넣고 파일을 C:\EOP\Export\Import_Settings.ps1로 저장한 후 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-180">Copy and paste the script text into a text editor like Notepad, save the file as C:\EOP\Export\Import_Settings.ps1, and run the following command:</span></span>
+<span data-ttu-id="3e782-180">메모장과 같은 텍스트 편집기에 스크립트 텍스트를 복사하여 붙여넣고 파일을 C:\EOP\Export\Import_Settings.ps1로 저장한 후 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-180">Copy and paste the script text into a text editor like Notepad, save the file as C:\EOP\Export\Import_Settings.ps1, and run the following command:</span></span>
 
 ```PowerShell
 & "C:\EOP\Export\Import_Settings.ps1"
 ```
 
-<span data-ttu-id="f0221-181">이 스크립트는 .xml 파일을 가져와 Settings.ps1이라는 Windows PowerShell 스크립트 파일을 만듭니다. 이 파일을 검토하고 편집한 후 실행하여 보호 및 메일 흐름 설정을 다시 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f0221-181">This script imports the .xml files and create a Windows PowerShell script file called Settings.ps1 that you can review, edit, and then run to recreate your protection and mail-flow settings.</span></span>
+<span data-ttu-id="3e782-181">이 스크립트는 .xml 파일을 가져와 Settings.ps1이라는 Windows PowerShell 스크립트 파일을 만듭니다. 이 파일을 검토하고 편집한 후 실행하여 보호 및 메일 흐름 설정을 다시 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-181">This script imports the .xml files and create a Windows PowerShell script file called Settings.ps1 that you can review, edit, and then run to recreate your protection and mail-flow settings.</span></span>
 
 ```PowerShell
 #***********************************************************************
@@ -929,6 +932,6 @@ if($HostedContentFilterPolicyCount -gt 0){
  }
 ```
 
-## <a name="step-8-revert-your-dns-settings-to-stop-mail-queuing"></a><span data-ttu-id="f0221-182">8단계: 메일 큐를 중지하도록 DNS 설정 되돌리기</span><span class="sxs-lookup"><span data-stu-id="f0221-182">Step 8: Revert your DNS settings to stop mail queuing</span></span>
+## <a name="step-8-revert-your-dns-settings-to-stop-mail-queuing"></a><span data-ttu-id="3e782-182">8단계: 메일 큐를 중지하도록 DNS 설정 되돌리기</span><span class="sxs-lookup"><span data-stu-id="3e782-182">Step 8: Revert your DNS settings to stop mail queuing</span></span>
 
-<span data-ttu-id="f0221-183">MX 레코드를 잘못된 주소로 설정하여 전환하는 동안 보낸 사람이 메일을 큐에 넣도록 선택한 경우 관리 센터에 지정된 대로 이를 올바른 값으로 다시 [설정해야 합니다.](https://admin.microsoft.com)</span><span class="sxs-lookup"><span data-stu-id="f0221-183">If you chose to set your MX records to an invalid address to cause the senders to queue mail during your transition, you'll need to set them back to the correct value as specified in the [admin center](https://admin.microsoft.com).</span></span> <span data-ttu-id="f0221-184">DNS 구성에 대한 자세한 내용은 DNS [호스팅 공급자에서 Microsoft 365용 DNS 레코드 만들기를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)</span><span class="sxs-lookup"><span data-stu-id="f0221-184">For more information about configuring DNS, see [Create DNS records at any DNS hosting provider for Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).</span></span>
+<span data-ttu-id="3e782-183">사용자가 전환 중에 보낸 사람이 메일을 큐로 만들도록 하기 위해 MX 레코드를 잘못 된 주소로 설정 하려면 [관리 센터](https://admin.microsoft.com)에 지정 된 올바른 값으로 다시 설정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e782-183">If you chose to set your MX records to an invalid address to cause the senders to queue mail during your transition, you'll need to set them back to the correct value as specified in the [admin center](https://admin.microsoft.com).</span></span> <span data-ttu-id="3e782-184">DNS를 구성 하는 방법에 대 한 자세한 내용은 dns [호스팅 공급자에서 Microsoft 365에 대 한 dns 레코드 만들기](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="3e782-184">For more information about configuring DNS, see [Create DNS records at any DNS hosting provider for Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).</span></span>

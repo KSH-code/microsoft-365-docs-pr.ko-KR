@@ -17,34 +17,37 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: d6e9dbc214cdbb7aaf6bf8922ca4eaf986f8a91c
-ms.sourcegitcommit: dcbcd5ef278949c777059b0aa6db072e821f72dd
+ms.openlocfilehash: 0a0c0c1dae1d7f03aa9c8328b3fb1b4bae587b9e
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48173287"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199712"
 ---
-# <a name="closing-and-summarizing-your-microsoft-threat-protection-pilot"></a><span data-ttu-id="e3871-104">Microsoft Threat Protection 파일럿 테스트 종료 및 요약</span><span class="sxs-lookup"><span data-stu-id="e3871-104">Closing and summarizing your Microsoft Threat Protection pilot</span></span>  
+# <a name="closing-and-summarizing-your-microsoft-threat-protection-pilot"></a><span data-ttu-id="91ec4-104">Microsoft Threat Protection 파일럿 테스트 종료 및 요약</span><span class="sxs-lookup"><span data-stu-id="91ec4-104">Closing and summarizing your Microsoft Threat Protection pilot</span></span>  
 
-<span data-ttu-id="e3871-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="e3871-105">**Applies to:**</span></span>
-- <span data-ttu-id="e3871-106">Microsoft 위협 방지</span><span class="sxs-lookup"><span data-stu-id="e3871-106">Microsoft Threat Protection</span></span>
-
-<span data-ttu-id="e3871-107">지금까지 도메인 컨트롤러에서 코드를 원격으로 실행 한 고급 메모리 전용 공격을 시뮬레이션 했습니다.</span><span class="sxs-lookup"><span data-stu-id="e3871-107">You’ve just simulated an advanced memory-only attack that executed code remotely on a domain controller.</span></span> <span data-ttu-id="e3871-108">Microsoft Defender ATP 및 Azure ATP에서 stealthy 악성 활동을 감지 하 고 경고 하는 방법을 살펴보았습니다.</span><span class="sxs-lookup"><span data-stu-id="e3871-108">You’ve seen how Microsoft Defender ATP and Azure ATP detects and alerts on stealthy malicious activity.</span></span> <span data-ttu-id="e3871-109">또한 다양 한 원본의 알림을 Microsoft 365 보안 센터 포털의 단일 인시던트에 함께 제공 하 여 SOC 분석가가 필요한 작업을 조사 하 고 취할 수 있는 방법을 살펴보았습니다.</span><span class="sxs-lookup"><span data-stu-id="e3871-109">You’ve also seen how alerts from different sources are delivered along with other contextual information into a single incident in the Microsoft 365 Security Center portal, enabling SOC analysts to investigate and take necessary action.</span></span> <span data-ttu-id="e3871-110">또한 사용자가 첨부 파일을 열거나 저장 한 후 해당 쿼리를 기반으로 검색을 만든 인바운드 전자 메일을 식별 하는 고급 구하기 쿼리를 만들었습니다.</span><span class="sxs-lookup"><span data-stu-id="e3871-110">You’ve also created an advanced hunting query that will identify inbound emails where the user opened or saved the attachment and created detection based on that query.</span></span>
-
-<span data-ttu-id="e3871-111">모든 테스트가 완료 된 후 프로세스의 끝에 도달 했습니다.</span><span class="sxs-lookup"><span data-stu-id="e3871-111">You’ve reached the end of the process after all tests have concluded.</span></span>
-
-<span data-ttu-id="e3871-112">최종 출력은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="e3871-112">The final output should be:</span></span>
-- <span data-ttu-id="e3871-113">완성 된 성과 기록표</span><span class="sxs-lookup"><span data-stu-id="e3871-113">A completed scorecard</span></span>
-- <span data-ttu-id="e3871-114">파일럿의 결과에 대 한 자세한 보고서</span><span class="sxs-lookup"><span data-stu-id="e3871-114">A detailed report of the findings of the pilot</span></span>
-- <span data-ttu-id="e3871-115">앞으로 이동 하는 방법을 결정 합니다.</span><span class="sxs-lookup"><span data-stu-id="e3871-115">A decision on how to move forward</span></span>
-
-<span data-ttu-id="e3871-116">이 정보는 내부 이해 관계자 ( [준비](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) 단계에서 확인) 및 Microsoft 연락처에 모두 표시 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e3871-116">This information should be presented to both internal stakeholders (which you’ve identified during the [preparation](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) phase)  and Microsoft contacts.</span></span> <span data-ttu-id="e3871-117">이렇게 하면 모든 피드백을 사용 하 여 제품 및 문서를 개선할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e3871-117">This ensures that any feedback can be used to improve products and documentation.</span></span>
-
-<span data-ttu-id="e3871-118">이 시뮬레이션이 제공 되었으며 배운 것을 구현 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="e3871-118">We hope you enjoyed this simulation and are encouraged to start implementing what you've learned.</span></span>
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-## <a name="next-step"></a><span data-ttu-id="e3871-119">다음 단계</span><span class="sxs-lookup"><span data-stu-id="e3871-119">Next step</span></span>
+<span data-ttu-id="91ec4-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="91ec4-105">**Applies to:**</span></span>
+- <span data-ttu-id="91ec4-106">Microsoft 위협 방지</span><span class="sxs-lookup"><span data-stu-id="91ec4-106">Microsoft Threat Protection</span></span>
+
+<span data-ttu-id="91ec4-107">지금까지 도메인 컨트롤러에서 코드를 원격으로 실행 한 고급 메모리 전용 공격을 시뮬레이션 했습니다.</span><span class="sxs-lookup"><span data-stu-id="91ec4-107">You’ve just simulated an advanced memory-only attack that executed code remotely on a domain controller.</span></span> <span data-ttu-id="91ec4-108">Microsoft Defender ATP 및 Azure ATP에서 stealthy 악성 활동을 감지 하 고 경고 하는 방법을 살펴보았습니다.</span><span class="sxs-lookup"><span data-stu-id="91ec4-108">You’ve seen how Microsoft Defender ATP and Azure ATP detects and alerts on stealthy malicious activity.</span></span> <span data-ttu-id="91ec4-109">또한 다양 한 원본의 알림을 Microsoft 365 보안 센터 포털의 단일 인시던트에 함께 제공 하 여 SOC 분석가가 필요한 작업을 조사 하 고 취할 수 있는 방법을 살펴보았습니다.</span><span class="sxs-lookup"><span data-stu-id="91ec4-109">You’ve also seen how alerts from different sources are delivered along with other contextual information into a single incident in the Microsoft 365 Security Center portal, enabling SOC analysts to investigate and take necessary action.</span></span> <span data-ttu-id="91ec4-110">또한 사용자가 첨부 파일을 열거나 저장 한 후 해당 쿼리를 기반으로 검색을 만든 인바운드 전자 메일을 식별 하는 고급 구하기 쿼리를 만들었습니다.</span><span class="sxs-lookup"><span data-stu-id="91ec4-110">You’ve also created an advanced hunting query that will identify inbound emails where the user opened or saved the attachment and created detection based on that query.</span></span>
+
+<span data-ttu-id="91ec4-111">모든 테스트가 완료 된 후 프로세스의 끝에 도달 했습니다.</span><span class="sxs-lookup"><span data-stu-id="91ec4-111">You’ve reached the end of the process after all tests have concluded.</span></span>
+
+<span data-ttu-id="91ec4-112">최종 출력은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="91ec4-112">The final output should be:</span></span>
+- <span data-ttu-id="91ec4-113">완성 된 성과 기록표</span><span class="sxs-lookup"><span data-stu-id="91ec4-113">A completed scorecard</span></span>
+- <span data-ttu-id="91ec4-114">파일럿의 결과에 대 한 자세한 보고서</span><span class="sxs-lookup"><span data-stu-id="91ec4-114">A detailed report of the findings of the pilot</span></span>
+- <span data-ttu-id="91ec4-115">앞으로 이동 하는 방법을 결정 합니다.</span><span class="sxs-lookup"><span data-stu-id="91ec4-115">A decision on how to move forward</span></span>
+
+<span data-ttu-id="91ec4-116">이 정보는 내부 이해 관계자 ( [준비](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) 단계에서 확인) 및 Microsoft 연락처에 모두 표시 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="91ec4-116">This information should be presented to both internal stakeholders (which you’ve identified during the [preparation](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) phase)  and Microsoft contacts.</span></span> <span data-ttu-id="91ec4-117">이렇게 하면 모든 피드백을 사용 하 여 제품 및 문서를 개선할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91ec4-117">This ensures that any feedback can be used to improve products and documentation.</span></span>
+
+<span data-ttu-id="91ec4-118">이 시뮬레이션이 제공 되었으며 배운 것을 구현 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="91ec4-118">We hope you enjoyed this simulation and are encouraged to start implementing what you've learned.</span></span>
+
+
+## <a name="next-step"></a><span data-ttu-id="91ec4-119">다음 단계</span><span class="sxs-lookup"><span data-stu-id="91ec4-119">Next step</span></span>
 ||
 |:-------|
-|<span data-ttu-id="e3871-120">[Microsoft 365 솔루션 및 아키텍처 센터](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) 에서 살펴보고 조직에 적합 한 솔루션 및 아키텍처를 디자인 하는 방법을 이해 합니다.</span><span class="sxs-lookup"><span data-stu-id="e3871-120">Browse through the [Microsoft 365 solution and architecture center](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) to Understand how to design the solution and architecture that is right for your organization.</span></span>
+|<span data-ttu-id="91ec4-120">[Microsoft 365 솔루션 및 아키텍처 센터](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) 에서 살펴보고 조직에 적합 한 솔루션 및 아키텍처를 디자인 하는 방법을 이해 합니다.</span><span class="sxs-lookup"><span data-stu-id="91ec4-120">Browse through the [Microsoft 365 solution and architecture center](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) to Understand how to design the solution and architecture that is right for your organization.</span></span>
 
