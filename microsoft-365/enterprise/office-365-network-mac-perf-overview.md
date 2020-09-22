@@ -3,7 +3,7 @@ title: Microsoft 365 관리 센터의 네트워크 연결 (미리 보기)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 09/17/2020
+ms.date: 09/21/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 관리 센터의 네트워크 연결 개요 (미리 보기)
-ms.openlocfilehash: 644efe53e862f6bbe98be7dca889bc3637084521
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+ms.openlocfilehash: a51cfba962ff884afa634473c0523e49a92a56f5
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171365"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200800"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Microsoft 365 관리 센터의 네트워크 연결 (미리 보기)
 
@@ -63,7 +63,7 @@ Windows 위치 서비스는 컴퓨터에서 consented 해야 합니다. **지도
 
 ### <a name="3-manually-gather-test-reports-with-the-microsoft-365-network-connectivity-test-tool"></a>3. Microsoft 365 네트워크 연결 테스트 도구를 사용 하 여 테스트 보고서를 수동으로 수집
 
-이 옵션의 경우 각 위치에서 사람을 식별 해야 합니다. 관리자에 게 관리 권한이 있는 Windows 컴퓨터에서 [Microsoft 365 네트워크 연결 테스트](https://connectivity.office.com) 로 이동 하도록 요청 합니다. 웹 사이트에서 결과를 보려는 동일한 조직에 대해 Office 365 계정에 로그인 해야 합니다. 그런 다음 테스트 실행을 클릭 합니다. 테스트 중에는 다운로드 된 연결 테스트 EXE가 있습니다. 또한이를 열고 실행 해야 합니다. 테스트가 완료 되 면 테스트 결과가 Office 365에 업로드 됩니다.
+이 옵션의 경우 각 위치에서 사람을 식별 해야 합니다. 관리자에 게 관리 권한이 있는 Windows 컴퓨터에서 [Microsoft 365 네트워크 연결 테스트](https://connectivity.office.com) 로 이동 하도록 요청 합니다. 웹 사이트에서 결과를 보려는 동일한 조직에 대해 Office 365 계정에 로그인 해야 합니다. 그런 다음 **테스트 실행**을 클릭 합니다. 테스트 중에는 다운로드 된 연결 테스트 EXE가 있습니다. 또한이를 열고 실행 해야 합니다. 테스트가 완료 되 면 테스트 결과가 Office 365에 업로드 됩니다.
 
 LAN 서브넷 정보를 사용 하 여 추가 된 경우 테스트 보고서가 위치에 연결 되 고 그렇지 않으면 도시 위치에만 표시 됩니다.
 
@@ -174,7 +174,7 @@ Microsoft 365 서비스 전면 도어는 Microsoft의 글로벌 네트워크에�
 
 ### <a name="what-is-an-optimal-microsoft-365-service-front-door"></a>최적의 Microsoft 365 서비스 전면 도어 란 무엇입니까?
 
-최적의 Microsoft 365 서비스 전면 도어는 일반적으로 구/군/시 또는 메트로 지역에 있는 네트워크 egress에 가장 가까운 곳입니다. [Microsoft 365 연결 테스트](office-365-network-mac-perf-onboarding-tool.md) 를 사용 하 여 사용 중인 microsoft 365 서비스 전면 도어 및 최적의 서비스 전면 도어 위치를 확인 합니다. 사용 중인 전면 문이 최적 상태 이면 도구에서 Microsoft의 글로벌 네트워크에 최적 상태로 연결 하는 것입니다.
+최적의 Microsoft 365 서비스 전면 도어는 일반적으로 구/군/시 또는 메트로 지역에 있는 네트워크 egress에 가장 가까운 곳입니다. [Microsoft 365 connectivity test tool (preview)](office-365-network-mac-perf-onboarding-tool.md) 을 사용 하 여 사용 중인 microsoft 365 서비스 전면 도어 및 최적의 서비스 전면 도어 위치를 확인 합니다. 사용 중인 전면 문이 최적 상태 이면 도구에서 Microsoft의 글로벌 네트워크에 최적 상태로 연결 하는 것입니다.
 
 ### <a name="what-is-an-internet-egress-location"></a>인터넷 송신 위치 란?
 
@@ -186,8 +186,6 @@ Microsoft 365 서비스 전면 도어는 Microsoft의 글로벌 네트워크에�
 
 [Microsoft 365 네트워크 평가 (미리 보기)](office-365-network-mac-perf-score.md)
 
-[M365 관리 센터의 Microsoft 365 connectivity test (preview)](office-365-network-mac-perf-onboarding-tool.md)
+[Microsoft 365 연결 테스트 도구 (미리 보기)](office-365-network-mac-perf-onboarding-tool.md)
 
 [Microsoft 365 네트워크 연결 위치 서비스 (미리 보기)](office-365-network-mac-location-services.md)
-
-[Microsoft 365 네트워크 연결 테스트 도구 (미리 보기)](office-365-network-mac-perf-onboarding-tool.md)

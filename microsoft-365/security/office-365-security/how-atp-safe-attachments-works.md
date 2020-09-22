@@ -17,14 +17,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365에서 ATP 안전한 첨부 파일을 사용 하 여 조직을 안전 하 게 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: f4f355d4def1f108a72854c3796e0e9373cb5ef1
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: d13674a5d3e769fc10a1f5fd2fd80a4f07c063de
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819403"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201480"
 ---
 # <a name="how-atp-safe-attachments-works"></a>ATP 안전한 첨부 정책의 작동 방식
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ATP 안전한 첨부 파일 기능은 조직의 사용자에 대해 전자 메일 첨부 파일을 확인 합니다. ATP 안전한 첨부 파일 정책이 적용 되 고 해당 정책에서 다루는 누군가가 Office 365의 전자 메일을 볼 때, 해당 전자 메일 첨부 파일을 확인 하 고 ATP 안전한 첨부 파일 정책에 따라 적절 한 조치를 취할 수 있습니다. 정책이 정의 된 방식에 따라 사용자가 악성 파일을 보낸 것을 알지 못하면 작업을 계속할 수 있습니다.
   

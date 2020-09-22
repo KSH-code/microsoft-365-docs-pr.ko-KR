@@ -16,14 +16,17 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: 관리자는 EOP (Exchange Online Protection)에서 스푸핑 방지 보호에 대 한 질문과 대답을 볼 수 있습니다.
-ms.openlocfilehash: 3547b0a0af6d2e541d4ec3546d9bbd4aa34c3a6b
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 207fa9b12c2b39571c72397abfb6a64fe992b43e
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867142"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199114"
 ---
 # <a name="anti-spoofing-protection-faq"></a>스푸핑 방지 보호 기능 FAQ
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 이 문서에서는 exchange online의 사서함을 포함 하는 Microsoft 365 조직에 대 한 스푸핑 방지 보호 기능에 대 한 질문과 대답을 제공 하 고 EOP (독립 실행형 Exchange Online Protection) 조직
 

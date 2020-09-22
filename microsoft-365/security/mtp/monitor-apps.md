@@ -15,14 +15,17 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f370a537b9355a99b90f21faab5eda75d7f84cdf
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: e5f41eef243bbd5f475dc719071833c4c21111d2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866852"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199724"
 ---
 # <a name="app-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 앱 모니터링 및 보고
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 이러한 보고서는 클라우드 앱이 조직에서 사용 되는 방식에 대 한 자세한 정보를 제공 합니다. 다양 한 유형의 앱, 위험 수준 및 알림을 포함 합니다.
 

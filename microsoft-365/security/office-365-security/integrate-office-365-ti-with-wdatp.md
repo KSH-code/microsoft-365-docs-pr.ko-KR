@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: Microsoft Defender Advanced Threat Protection과 Office 365 Advanced Threat Protection을 통합 하 여 보다 자세한 위협 관리 정보를 확인 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bfb87edd24a22033b3771ba0fd3c4f1afbbc988e
-ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
+ms.openlocfilehash: 0906b8b44922084a65999dd9ab10a09c827605c2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086711"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201974"
 ---
 # <a name="integrate-office-365-advanced-threat-protection-with-microsoft-defender-advanced-threat-protection"></a>Microsoft Defender Advanced Threat Protection을 사용 하 여 Office 365 Advanced Threat Protection 통합
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Microsoft defender [Advanced Threat protection](https://docs.microsoft.com/windows/security/threat-protection) (MICROSOFT defender atp)에서 작동 하도록 [Office 365 Advanced threat protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) (office 365 atp)을 구성할 수 있습니다.
 

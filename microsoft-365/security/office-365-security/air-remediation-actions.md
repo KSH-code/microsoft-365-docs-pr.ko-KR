@@ -15,23 +15,26 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능의 수정 작업에 대해 알아봅니다.
-ms.openlocfilehash: 761ae38250dc084a248203dd78b66ed18ea9c401
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: c327bdf505b774532600169e9579ffa6acfac1b1
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653380"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199904"
 ---
 # <a name="remediation-actions-in-microsoft-365"></a>Microsoft 365의 수정 작업
 
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+
 ## <a name="remediation-actions"></a>수정 작업
 
-[Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) (OFFICE 365 ATP) 계획 2의 [자동화 된 조사 및 응답 기능](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) (영문)은 특정 수정 작업을 포함 합니다. 자동 조사가 실행 중이거나 완료 된 경우에는 일반적으로 보안 운영 팀의 승인이 요구 되는 하나 이상의 수정 작업을 확인할 수 있습니다. 이러한 교정 작업에는 다음이 포함 될 수 있습니다.
+[Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) (OFFICE 365 ATP) 계획 2의 [자동화 된 조사 및 응답 기능](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) (영문)은 특정 수정 작업을 포함 합니다. 자동화 조사가 실행되고 있거나 완료된 경우, 일반적으로 보안 운영 팀이 진행해야 하는 하나 이상의 수정 조치를 보게됩니다. 이러한 교정 작업에는 다음이 포함 될 수 있습니다.
 
 - 전자 메일 메시지 또는 클러스터의 일시 삭제
 - 차단 URL(클릭 시간)
 - 외부 메일 전달 해제
-- 위임 끄기
+- 위임 해제
 
 > [!NOTE]
 > Office 365 ATP에서 자동 조사는 자동적으로 수정 되지 않습니다. 수정 작업은 조직의 보안 팀이 승인한 경우에만 적용될 수 있습니다.

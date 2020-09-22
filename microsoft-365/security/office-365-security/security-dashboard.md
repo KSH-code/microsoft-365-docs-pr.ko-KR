@@ -18,14 +18,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 새 보안 대시보드를 사용 하 여 Office 365 위협 방지 상태를 검토 하 고 보안 경고를 보고 작동 합니다.
-ms.openlocfilehash: 7edfcfefc379aa30b7028097b21522d63cd26268
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: 1bef6d0496c39d5157bbc40893d2710e89d1c734
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434270"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200076"
 ---
 # <a name="security-dashboard"></a>보안 대시보드
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ## <a name="basic-functions-and-how-to-open-security-dashboard"></a>기본 기능 및 보안 대시보드를 여는 방법
 
@@ -102,7 +105,7 @@ ms.locfileid: "45434270"
 
 ## <a name="threat-investigation-and-response"></a>위협 조사 및 응답
 
-조직의 구독에 [Office 365 Advanced Threat Protection 계획 2](office-365-ti.md)가 포함 되어 있는 경우 보안 대시보드에 Advanced threat 조사한 및 응답 도구가 포함 된 섹션이 있습니다. 이러한 도구에는 [자동화 된 조사 및 응답 기능이](automated-investigation-response-office.md)포함 되어 있습니다. 자동화 된 조사 및 응답은 [손상 된 사용자 계정에 빠르게 주소를 지정](address-compromised-users-quickly.md)하는 등의 시나리오에서 유용할 수 있습니다.
+조직의 구독에  [Office 365 Advanced Threat Protection 계획 2](office-365-ti.md)가 포함 되어 있는 경우 보안 대시보드에 Advanced threat 조사한 및 응답 도구가 포함 된 섹션이 있습니다. 이러한 도구에는 [자동화 된 조사 및 응답 기능이](automated-investigation-response-office.md)포함 되어 있습니다. 자동화 된 조사 및 응답은 [손상 된 사용자 계정에 빠르게 주소를 지정](address-compromised-users-quickly.md)하는 등의 시나리오에서 유용할 수 있습니다.
 
 자세한 내용은 [Office 365에서 자동 조사 및 응답을 사용 하 여 시작](office-365-air.md)하기를 참조 하세요.
 

@@ -20,14 +20,17 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 09/16/2020
-ms.openlocfilehash: d7739ac6184509abe4df3aaf140db66f6039717c
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: dd7ded318c5ab0cf9aad47054ac04d5a2d353943
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962656"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199808"
 ---
 # <a name="approve-or-reject-pending-actions-following-an-automated-investigation"></a>자동화 된 조사에 따라 보류 중인 작업 승인 또는 거부
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **적용 대상:**
 - Microsoft 위협 방지

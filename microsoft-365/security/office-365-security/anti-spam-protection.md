@@ -19,14 +19,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 스팸을 방지 하는 데 도움이 되는 스팸 방지 설정 및 필터에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 74ffe22ffea07350245f6fed18d09b52f96c8351
-ms.sourcegitcommit: e6bf1af2d5cf54c3fcc3fa916abe268fc96bdd4e
+ms.openlocfilehash: 4e5c41ebf92de320651a90813220abfcfa50c30e
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45189564"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199138"
 ---
 # <a name="anti-spam-protection-in-eop"></a>EOP의 스팸 방지 보호 기능
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 > [!NOTE]
 > 이 항목은 관리자를 위한 것입니다. 최종 사용자 항목의 경우 [정크 메일 필터 개요](https://support.microsoft.com/office/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) 및 [정크 메일 및 피싱에 대 한 자세한](https://support.microsoft.com/office/86c1d76f-4d5a-4967-9647-35665dc17c31)정보를 참조 하세요.

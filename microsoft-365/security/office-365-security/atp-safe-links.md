@@ -25,14 +25,17 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 이 문서에서는 안전한 링크를 사용 하 여 피싱 및 기타 공격 으로부터 조직을 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: d9b3c981cb282c286a5b6edcea367c8c57ffd4d3
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 486c19fa0ba47baadf7b3418608a644407e6e1d0
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307640"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200436"
 ---
 # <a name="atp-safe-links"></a>ATP 안전한 링크
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ## <a name="overview-of-office-365-atp-safe-links"></a>Office 365 ATP 안전한 링크 개요
 
@@ -47,7 +50,7 @@ ATP 안전한 링크 정책이 마련 되 면 전역 관리자, 보안 관리자
 
 ## <a name="how-to-get-atp-safe-links-protection"></a>ATP 안전한 링크 보호를 가져오는 방법
 
-**먼저 구독에 [Office 365 Advanced Threat Protection](office-365-atp.md) 이 포함 되어 있는지 확인** 합니다. 계획 1 또는 계획 2 Office 365 ATP는 [microsoft 365 Enterprise e5](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business), office 365 Enterprise E5, office 365 교육 A5 등의 구독에 포함 되어 있습니다. 조직에서 Office 365 ATP를 포함 하지 않는 Microsoft 365 구독을 사용 하는 경우 ATP를 추가 기능으로 구매할 수 있습니다. 자세한 내용은 다음 리소스를 참조하십시오. 
+**먼저 구독에 [Office 365 Advanced Threat Protection](office-365-atp.md) 이 포함 되어 있는지 확인** 합니다. 계획 1 또는 계획 2 Office 365 ATP는 [microsoft 365 Enterprise e5](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business), office 365 Enterprise E5, office 365 교육 A5 등의 구독에 포함 되어 있습니다. 조직에서 Office 365 ATP를 포함 하지 않는 Microsoft 365 구독을 사용 하는 경우 ATP를 추가 기능으로 구매할 수 있습니다. 자세한 내용은 다음 리소스를 참조하세요. 
 
 - [Office 365 Advanced Threat Protection 계획 및 가격 책정](https://products.office.com/exchange/advance-threat-protection)
 

@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: be637bab97083cb857e3983dd9b82290590c1302
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: 57ba0eb77ccb855cc0c0224b5321f11809e21ae8
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650460"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201422"
 ---
 # <a name="create-an-app-to-access-microsoft-threat-protection-without-a-user"></a>사용자 없이 Microsoft Threat Protection에 액세스 하기 위한 앱 만들기
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **적용 대상:**
 - Microsoft 위협 방지

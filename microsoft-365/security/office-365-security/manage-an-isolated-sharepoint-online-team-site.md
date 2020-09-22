@@ -16,14 +16,17 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 79a61003-4905-4ba8-9e8a-16def7add37c
 description: 격리 된 SharePoint Online 팀 사이트를 관리 하 고, 새 사용자 및 그룹을 추가 하 고, 사용자 및 그룹을 제거 하 고, 사용자 지정 권한으로 문서 하위 폴더를 만듭니다.
-ms.openlocfilehash: d66f9a349bd5834d07fbc13146127bde522923e4
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: e63cd6d17bf30ce6d236e38673b33cf054940eac
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308270"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200622"
 ---
 # <a name="manage-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 관리
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
  **요약:** 이러한 절차를 사용 하 여 격리 된 SharePoint Online 팀 사이트를 관리 합니다.
   

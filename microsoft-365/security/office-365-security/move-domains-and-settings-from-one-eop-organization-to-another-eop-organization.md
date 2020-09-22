@@ -1,5 +1,5 @@
 ---
-title: EOP & 도메인 보안 설정 이동
+title: EOP 조직 간에 도메인 & 설정 이동
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -13,20 +13,23 @@ localization_priority: Normal
 ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 ms.custom:
 - seo-marvel-apr2020
-description: 이 문서에서는 EOP(Microsoft Exchange Online Protection) 조직(테넌트)의 도메인 및 설정을 한 엔터프라이즈 버전으로 이동하는 방법을 설명합니다.
-ms.openlocfilehash: a33042631a5a5371e2d120f76f49cb2a46a638a3
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+description: 이 문서에서는 Microsoft Exchange Online Protection (EOP) 조직 (테 넌 트)에서 다른 사용자에 게 도메인과 설정을 이동 하는 방법에 대해 설명 합니다.
+ms.openlocfilehash: 141fb85bb7120f4e547c27f399d254847b19e3c2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827692"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200506"
 ---
 # <a name="move-domains-and-settings-from-one-eop-organization-to-another"></a>EOP 조직 간에 도메인 및 설정 이동
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 비즈니스 요구 사항 변경 시 하나의 Microsoft EOP(Exchange Online Protection) 조직(테넌트)을 두 조직으로 분할하거나, 두 조직을 하나로 병합하거나, 조직 간에 도메인 및 EOP 설정을 이동해야 할 수 있습니다. EOP 조직 간의 이동은 까다로운 작업일 수 있지만 몇 가지 기본적인 원격 Windows PowerShell 스크립트를 사용하고 약간만 준비하면 비교적 적은 유지 관리 기간에 완료할 수 있습니다.
 
 > [!NOTE]
-> EOP 독립 실행형(Standard) 조직에서 다른 EOP Standard 또는 Exchange Enterprise CAL with Services(EOP Premium) 조직으로 또는 EOP Premium 조직에서 다른 EOP Premium 조직으로 설정을 안정적으로 이동할 수 있습니다. 일부 프리미메시징 기능은 EOP Standard 조직에서 지원되지 않기 때문에 EOP Premium 조직 간의 이동은 실패할 수도 있습니다. <br><br> 이러한 지침은 EOP 필터링 전용 조직에 적용됩니다. Exchange Online 조직 간의 이동에는 추가적인 고려 사항이 있습니다. Exchange Online 조직은 이러한 지침의 범위에서 벗어납니다.
+> EOP 독립 실행형(Standard) 조직에서 다른 EOP Standard 또는 Exchange Enterprise CAL with Services(EOP Premium) 조직으로 또는 EOP Premium 조직에서 다른 EOP Premium 조직으로 설정을 안정적으로 이동할 수 있습니다. 일부 프리미엄 기능은 EOP Standard 조직에서 지원 되지 않으므로 EOP Premium 조 직에서 EOP Standard 조 직으로 이동 하지 못할 수 있습니다. <br><br> 이러한 지침은 EOP 필터링 전용 조직에 적용됩니다. Exchange Online 조직 간의 이동에는 추가적인 고려 사항이 있습니다. Exchange Online 조직은 이러한 지침의 범위에서 벗어납니다.
 
 다음 예제에서는 Contoso, Ltd.가 Contoso Suites와 병합되었습니다. 다음 그림에서는 원본 EOP 조직(contoso.onmicrosoft.com)에서 대상 EOP 조직(contososuites.onmicrosoft.com)으로 도메인, 메일 사용자 및 그룹, 설정을 이동하는 프로세스를 보여 줍니다.
 
@@ -46,24 +49,24 @@ ms.locfileid: "46827692"
 
 - 스팸 방지
 
-  - 스팸 방지 정책(콘텐츠 필터 정책이라고도 함)
-  - 아웃바운드 스팸 필터 정책
+  - 스팸 방지 정책 (콘텐츠 필터 정책이 라고도 함)
+  - 아웃 바운드 스팸 필터 정책
   - 연결 필터 정책
 
 - 맬웨어 방지 정책
 
 - 커넥터
 
-- 메일 흐름 규칙(전송 규칙이라고도 함)
+- 메일 흐름 규칙 (전송 규칙이 라고도 함)
 
   > [!NOTE]
-  > 메일 흐름 규칙 컬렉션 내보내기 및 가져오기에 대한 cmdlet은 현재 EOP Premium 구독 계획에서만 지원됩니다.
+  > 메일 흐름 규칙 모음의 내보내기 및 가져오기에 대 한 Cmdlet 지원은 현재 EOP Premium 구독 계획 에서만 지원 됩니다.
 
-모든 설정을 수집하는 가장 쉬은 PowerShell을 사용하는 것이 가장 쉽습니다. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
+모든 설정을 수집 하는 가장 쉬운 방법은 PowerShell을 사용 하는 것입니다. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
 다음으로, 모든 설정을 수집하고 대상 테넌트로 가져올 .xml 파일을 내보낼 수 있습니다. 일반적으로 다음 코드 샘플과 같이 각 설정에 대한 **Get** cmdlet의 출력을 **Export-Clixml** cmdlet에 파이프하여 .xml 파일에 설정을 저장할 수 있습니다.
 
-독립 실행형 EOP PowerShell에서 해당 디렉터리를 찾아서 변경하기 가소 있도록 하는 위치에 Export라는 디렉터리를 만듭니다. 예제:
+독립 실행형 EOP PowerShell에서 쉽게 찾고 해당 디렉터리로 변경할 수 있는 위치에 Export 라는 디렉터리를 만듭니다. 예제:
 
 ```PowerShell
 mkdir C:\EOP\Export
@@ -73,7 +76,7 @@ mkdir C:\EOP\Export
 cd C:\EOP\Export
 ```
 
-다음 스크립트를 사용하여 원본 조직에서 모든 메일 사용자, 그룹, 스팸 방지 설정, 맬웨어 방지 설정, 커넥터 및 메일 흐름 규칙을 수집할 수 있습니다. 메모장과 같은 텍스트 편집기에 다음 텍스트를 복사하여 붙여넣고 방금 만든 Export 디렉터리에서 Source_EOP_Settings.ps1 파일을 저장한 후 다음 명령을 실행합니다.
+다음 스크립트를 사용 하 여 원본 조직의 모든 메일 사용자, 그룹, 스팸 방지 설정, 맬웨어 방지 설정, 커넥터 및 메일 흐름 규칙을 수집할 수 있습니다. 메모장과 같은 텍스트 편집기에 다음 텍스트를 복사하여 붙여넣고 방금 만든 Export 디렉터리에서 Source_EOP_Settings.ps1 파일을 저장한 후 다음 명령을 실행합니다.
 
 ```PowerShell
 & "C:\EOP\Export\Source_EOP_Settings.ps1"
@@ -177,13 +180,13 @@ Foreach ($domain in $Domains) {
 }
 ```
 
-이제 가까운 시간이 되면 도메인을 신속하게 확인하여 대상 조직의 Microsoft 365 관리 센터에서 정보를 검토 및 수집할 수 있습니다.
+이제 다음 시간에 발생할 때 도메인을 신속 하 게 확인할 수 있도록 대상 조직의 Microsoft 365 관리 센터에서 정보를 검토 하 고 수집할 수 있습니다.
 
-1. Microsoft 365 관리 센터에 <https://portal.office.com> 로그인합니다.
+1. 에서 Microsoft 365 관리 센터에 로그인 <https://portal.office.com> 합니다.
 
 2. **도메인**을 클릭합니다.
 
-   도메인이 표시되지 않으면 사용자 지정, **설치를 선택한 다음** **저장을** **클릭합니다.**
+   도메인이 표시 되지 않으면 **탐색 사용자 지정**을 클릭 하 고 **설치**를 선택한 다음 **저장**을 클릭 합니다.
 
 3. **설정 시작** 링크를 클릭하고 설정 마법사를 진행합니다.
 
@@ -191,7 +194,7 @@ Foreach ($domain in $Domains) {
 
 5. 도메인을 확인하는 데 사용할 MX 레코드 또는 TXT 레코드를 기록하고 설정 마법사를 완료합니다.
 
-6. 확인 TXT 레코드를 DNS 레코드에 추가합니다. 그러면 원본 조직이 대상 조직에서 제거된 후 해당 원본 조직의 도메인을 보다 신속하게 확인할 수 있습니다. DNS 구성에 대한 자세한 내용은 DNS [호스팅 공급자에서 Microsoft 365용 DNS 레코드 만들기를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)
+6. 확인 TXT 레코드를 DNS 레코드에 추가합니다. 그러면 원본 조직이 대상 조직에서 제거된 후 해당 원본 조직의 도메인을 보다 신속하게 확인할 수 있습니다. DNS를 구성 하는 방법에 대 한 자세한 내용은 dns [호스팅 공급자에서 Microsoft 365에 대 한 dns 레코드 만들기](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 참조 하세요.
 
 ## <a name="step-3-force-senders-to-queue-mail"></a>3단계: 보낸 사람이 메일을 강제로 큐에 넣도록 설정 
 
@@ -201,14 +204,14 @@ Foreach ($domain in $Domains) {
 
 또 다른 옵션은 도메인의 DNS 레코드가 유지(DNS 호스팅 서비스라고도 함)되는 각 도메인에 잘못된 MX 레코드를 두는 것입니다. 이렇게 하면 보낸 사람이 메일을 큐에 넣고 다시 시도하게 됩니다(일반적으로 48시간 동안 다시 시도되지만 이는 공급자마다 다를 수 있음). invalid.outlook.com을 잘못된 MX 대상으로 사용할 수 있습니다. MX 레코드에서 TTL(Time to Live) 값을 5분으로 낮추면 변경 내용을 DNS 공급자에 보다 신속하게 전파할 수 있습니다.
 
-DNS 구성에 대한 자세한 내용은 DNS [호스팅 공급자에서 Microsoft 365용 DNS 레코드 만들기를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)
+DNS를 구성 하는 방법에 대 한 자세한 내용은 dns [호스팅 공급자에서 Microsoft 365에 대 한 dns 레코드 만들기](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 참조 하세요.
 
 > [!IMPORTANT]
 > 공급자마다 메일이 큐에서 유지되는 기간이 다릅니다. 큐 시간이 만료된 경우 배달 못 함 보고서(NDR)가 보낸 사람에게 전송되지 않도록 하려면 새 테넌트를 신속하게 설정하고 DNS 설정을 되돌려야 합니다.
 
 ## <a name="step-4-remove-users-groups-and-domains-from-the-source-organization"></a>4단계: 원본 조직에서 사용자, 그룹 및 도메인 제거
 
-다음 스크립트는 Azure Active Directory PowerShell을 사용하여 사용자, 그룹 및 도메인을 원본 테넌트에서 제거합니다. 메모장과 같은 텍스트 편집기에 다음 텍스트를 복사하여 붙여넣고 파일을 C:\EOP\Export\Remove_Users_and_Groups.ps1로 저장한 후 다음 명령을 실행합니다.
+다음 스크립트는 Azure Active Directory PowerShell을 사용 하 여 원본 테 넌 트에서 사용자, 그룹 및 도메인을 제거 합니다. 메모장과 같은 텍스트 편집기에 다음 텍스트를 복사하여 붙여넣고 파일을 C:\EOP\Export\Remove_Users_and_Groups.ps1로 저장한 후 다음 명령을 실행합니다.
 
 ```PowerShell
 & "C:\EOP\Export\Remove_Users_and_Groups.ps1"
@@ -249,7 +252,7 @@ Remove-MsolDomain -DomainName $Domain.Name -Force
 
 ## <a name="step-5-verify-domains-for-the-target-organization"></a>5단계: 대상 조직에 대한 도메인 확인
 
-1. 로그인 [https://portal.office.com](https://portal.office.com) 합니다.
+1. 에서 관리 센터에 로그인 [https://portal.office.com](https://portal.office.com) 합니다.
 
 2. **도메인**을 클릭합니다.
 
@@ -931,4 +934,4 @@ if($HostedContentFilterPolicyCount -gt 0){
 
 ## <a name="step-8-revert-your-dns-settings-to-stop-mail-queuing"></a>8단계: 메일 큐를 중지하도록 DNS 설정 되돌리기
 
-MX 레코드를 잘못된 주소로 설정하여 전환하는 동안 보낸 사람이 메일을 큐에 넣도록 선택한 경우 관리 센터에 지정된 대로 이를 올바른 값으로 다시 [설정해야 합니다.](https://admin.microsoft.com) DNS 구성에 대한 자세한 내용은 DNS [호스팅 공급자에서 Microsoft 365용 DNS 레코드 만들기를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)
+사용자가 전환 중에 보낸 사람이 메일을 큐로 만들도록 하기 위해 MX 레코드를 잘못 된 주소로 설정 하려면 [관리 센터](https://admin.microsoft.com)에 지정 된 올바른 값으로 다시 설정 해야 합니다. DNS를 구성 하는 방법에 대 한 자세한 내용은 dns [호스팅 공급자에서 Microsoft 365에 대 한 dns 레코드 만들기](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 참조 하세요.

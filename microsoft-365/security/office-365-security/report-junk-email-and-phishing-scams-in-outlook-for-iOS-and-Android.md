@@ -16,14 +16,17 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: 관리자는 iOS 및 Android 용 Outlook에서 기본적으로 제공 되는 정크 메일, 정크 메일이 아닌 경우 및 피싱 메일로 보고 옵션에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 216f60eb168190603c7c9aba58cef27c2bf15b01
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: fef519f3fdd5cf46d383c41ad227ab0cd3ed4390
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867480"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201536"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a>Exchange Online에서 iOS 및 Android 용 Outlook에서 정크 및 피싱 전자 메일 보고
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Exchange Online 또는 온-프레미스 사서함의 사서함을 포함 하는 Microsoft 365 조직에서 [하이브리드 최신 인증](https://docs.microsoft.com/microsoft-365/enterprise/hybrid-modern-auth-overview?view=o365-worldwide)을 사용 하는 경우 Outlook에서 IOS 및 Android 용 기본 제공 보고 옵션을 사용 하 여 가양성 (스팸으로 표시 된 전자 메일), 거짓 네거티브 (잘못 된 전자 메일 허용), EOP (Exchange Online Protection)로의 피싱 메시지를 제출할 수 있습니다.
 

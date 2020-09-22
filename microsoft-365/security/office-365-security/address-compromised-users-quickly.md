@@ -14,14 +14,17 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.date: 02/25/2020
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능을 사용 하 여 공격에 노출 된 사용자 계정을 검색 하 고 해결 하는 프로세스를 빠르게 진행 하는 방법을 알아봅니다.
-ms.openlocfilehash: 5a1dd64a0b30bb230af0d96432ae9542ce0370d8
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: fa648b33180cab7d70348dc4d1d6e64930ecff99
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656912"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201234"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>자동 조사 및 응답을 통해 손상 된 사용자 계정 처리
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 [Office 365 Advanced Threat Protection 계획 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide#office-365-atp-plan-1-and-plan-2) 에는 강력한 [자동화 된 조사 및 응답](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) (AIR) 기능이 포함 되어 있습니다. 이러한 기능을 통해 보안 운영 팀을 보다 많은 시간과 노력으로 위협을 처리할 수 있습니다. Microsoft는 계속 해 서 보안 기능을 개선 합니다. 최근, AIR 기능은 손상 된 사용자 보안 playbook (현재 미리 보기)를 포함 하도록 향상 되었습니다. 이 문서를 읽으면 손상 된 사용자 보안 playbook에 대해 자세히 알아볼 수 있습니다. 그리고 추가 세부 정보를 확인 하 고 [사용자 손상 및 제한 위반 범위에 응답 하 고 Office 365 ATP를 통해 침해](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) 를 처리 하는 시간을 빠르게 확인할 수 있습니다.
 

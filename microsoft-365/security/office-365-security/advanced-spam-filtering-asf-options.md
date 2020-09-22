@@ -18,14 +18,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)의 스팸 방지 정책에서 사용할 수 있는 ASF (고급 스팸 필터) 설정에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 6a670a9aba2204035646840d0f128ca9a90ece15
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: f2c58349bc1ffd2bb231eadf83bd4d70582925a2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867224"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199950"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-eop"></a>EOP의 ASF (고급 스팸 필터) 설정
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 > [!NOTE]
 > 현재 스팸 방지 정책에서 사용할 수 있는 ASF 설정에는 더 이상 사용 되지 않습니다. 스팸 방지 정책에서는 이러한 설정을 사용 하지 않는 것이 좋습니다. 이러한 ASF 설정의 기능은 필터링 스택의 다른 부분에 포함 됩니다. 자세한 내용은 [EOP 스팸 방지 정책 설정](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)항목을 참조 하십시오.

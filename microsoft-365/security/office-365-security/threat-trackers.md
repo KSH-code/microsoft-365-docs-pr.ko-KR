@@ -16,14 +16,17 @@ ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 ms.collection:
 - M365-security-compliance
 description: 조직에서 보안 문제를 계속 유지 하는 데 도움이 되는 새로운 주요 추적기를 비롯 한 위협 추적기에 대해 알아봅니다.
-ms.openlocfilehash: 13e8463d88250fe76474311e9df394577949989e
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: e4e157e64da92cf3c9178af1223fbc6c85e3fd95
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755067"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201798"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>위협 추적기-신규 및 주목할 만한
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 [Office 365 위협 조사 및 응답](office-365-ti.md) 기능을 통해 조직의 보안 팀이 cybersecurity 위협에 대 한 조치를 검색 하 고 작업을 수행할 수 있습니다. Office 365 위협 조사 및 응답 기능은 중요 한 추적기를 비롯 한 위협 추적 기능을 포함 합니다. 이 문서를 읽으면 이러한 새로운 기능과 다음 단계의 개요를 확인할 수 있습니다. 
 

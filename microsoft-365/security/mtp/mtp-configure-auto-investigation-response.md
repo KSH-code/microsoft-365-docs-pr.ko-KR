@@ -14,14 +14,17 @@ ms.collection: M365-security-compliance.
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
-ms.openlocfilehash: 81ad3ab0d3bc20a49128fa6ed45ff62195b32bc7
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: f7bcfa4f08bee51408de33964f1dfd1e1db3bd33
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47963862"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199748"
 ---
 # <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-threat-protection"></a>Microsoft Threat Protection에서 자동화 된 조사 및 응답 기능 구성
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 Microsoft 위협 보호에는 강력한 [자동화 조사 및 응답 기능이](mtp-autoir.md) 포함 되어 있어 보안 운영 팀을 훨씬 더 많은 시간과 노력을 절감할 수 있습니다. 자가 치유를 사용 하는 경우 이러한 기능은 보안 분석가가 위협에 대 한 조사 및 대응을 위해 수행 하 고 더 빠르게 확장할 수 있는 기능을 제공할 수 있도록 하는 단계를 모방 합니다. 이 문서에서는 Microsoft Threat Protection에서 자동화 된 조사 및 응답을 구성 하는 방법에 대해 설명 합니다.
 
@@ -43,7 +46,7 @@ Microsoft 위협 보호에는 강력한 [자동화 조사 및 응답 기능이](
 |네트워크 요구 사항 |- [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) 사용<br/>- [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) 구성 됨<br/>- [Azure ATP와 통합 된 Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/aatp-integration) |
 |Windows 컴퓨터 요구 사항 |-Windows 10, 버전 1709 이상 설치 된 다음 위협 보호 서비스가 구성 된 windows 10 [릴리스 정보](https://docs.microsoft.com/windows/release-information/)를 참조 하세요.<br/>- [Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints) <br/>- [Microsoft Defender 바이러스 백신](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) |
 |전자 메일 콘텐츠 및 Office 파일 보호 |[Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) 구성 |
-|사용 권한 |-자동화 된 조사 및 응답 기능을 구성 하려면 Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) 또는 Microsoft 365 관리 센터 ()에서 전역 관리자 또는 보안 관리자 역할이 할당 되어 있어야 합니다 [https://admin.microsoft.com](https://admin.microsoft.com) .<br/><br/>-진행 중인 작업의 검토, 승인 또는 거부와 같은 자동화 된 조사 및 응답 기능을 사용 하는 데 필요한 사용 권한을 얻으려면 [Action center 작업에 필요한 사용 권한을](mtp-action-center.md#required-permissions-for-action-center-tasks)참조 하세요. |
+|권한 |-자동화 된 조사 및 응답 기능을 구성 하려면 Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) 또는 Microsoft 365 관리 센터 ()에서 전역 관리자 또는 보안 관리자 역할이 할당 되어 있어야 합니다 [https://admin.microsoft.com](https://admin.microsoft.com) .<br/><br/>-진행 중인 작업의 검토, 승인 또는 거부와 같은 자동화 된 조사 및 응답 기능을 사용 하는 데 필요한 사용 권한을 얻으려면 [Action center 작업에 필요한 사용 권한을](mtp-action-center.md#required-permissions-for-action-center-tasks)참조 하세요. |
 
 ## <a name="review-or-change-the-automation-level-for-device-groups"></a>장치 그룹에 대 한 자동화 수준 검토 또는 변경
 

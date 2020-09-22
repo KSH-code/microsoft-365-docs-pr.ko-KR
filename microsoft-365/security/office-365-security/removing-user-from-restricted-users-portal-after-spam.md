@@ -19,14 +19,17 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 Office 365의 제한된 사용자 포털에서 사용자를 제거 하는 방법을 알아볼 수 있습니다. 사용자는 일반적으로 계정 손상의 결과로 아웃바운드 스팸 전송을 위해 제한된 사용자 포털에 추가됩니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d411cec48ff6704d737850974e832dbe07a3ad3
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: c63d50fcf24e19c6a3265d57ea34fb8ab852c61c
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826532"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201558"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Office 365의 제한된 사용자 포털에서 차단된 사용자 제거
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 사용자가 [서비스 제한](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) 또는 [아웃바운드 스팸 정책](configure-the-outbound-spam-policy.md)에 지정된 아웃바운드 전송 제한 중 하나를 초과하는 경우 전자 메일 보내기가 제한되지만 계속 전자 메일을 받을 수 있습니다.
 

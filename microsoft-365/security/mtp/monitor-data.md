@@ -15,14 +15,17 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 79113aa4097da26a3a12a9ed99b1c5a8b3ad3d81
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 861ee8a01f9fba7daeec7375ebb6f33ffcae1fcd
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866746"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199820"
 ---
 # <a name="data-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 데이터 모니터링 및 보고 기능
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **데이터** 범주를 통해서 승인받지 않은 데이터 노출이 발생할 가능성이 있는 사용자 활동을 추적할 수 있습니다. 기존 DLP 정책 보고서와 타사 DLP 정책 일치 보고서의 재작업입니다.
 

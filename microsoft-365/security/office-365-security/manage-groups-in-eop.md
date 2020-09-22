@@ -14,14 +14,17 @@ ms.assetid: 212e68ac-6330-47e9-a169-6cf5e2f21e13
 ms.custom:
 - seo-marvel-apr2020
 description: EOP (독립 실행형 Exchange Online Protection) 조직의 관리자는 EAC (Exchange 관리 센터) 및 EOP (독립 실행형 Exchange Online Protection) PowerShell에서 메일 그룹을 만들고, 수정 하 고, 제거 하는 방법을 알 수 있습니다.
-ms.openlocfilehash: e7b93b9d05fda7e4f5f8abea02fbe3f1c70a6c74
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: a395c0738093a00c0225aea22a6e556863eebee5
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826556"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201880"
 ---
 # <a name="manage-groups-in-eop"></a>EOP에서 그룹 관리
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protection) 조직에서는 다음과 같은 유형의 그룹을 만들고, 수정 하 고, 제거할 수 있습니다.
 
@@ -37,7 +40,7 @@ Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protec
 
 EAC (Exchange 관리 센터) 및 독립 실행형 EOP PowerShell에서 그룹을 관리할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - Exchange 관리 센터를 열려면 [독립 실행형 EOP에서 exchange 관리 센터](exchange-admin-center-in-exchange-online-protection-eop.md)를 참조 하세요.
 

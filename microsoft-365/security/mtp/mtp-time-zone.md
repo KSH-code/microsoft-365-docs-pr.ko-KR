@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: fd8a09ceb32b8ddacea06b4569a2d2a851daaeb2
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 60795815ae68d640eeac4b9bc9f0188c7751aaf9
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235207"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201040"
 ---
 # <a name="set-the-time-zone-for-microsoft-threat-protection"></a>Microsoft 위협 방지에 대한 표준 시간대 설정
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **적용 대상:**
 - Microsoft 위협 방지

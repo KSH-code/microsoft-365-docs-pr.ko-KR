@@ -18,14 +18,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 Attack 시뮬레이터를 사용 하 여 Microsoft 365 E5 또는 ATP 계획 2 조 직에서 시뮬레이트된 피싱 및 암호 공격을 실행 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 9fc28cdecc07f5325918e3d5176e52d1051a626c
-ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
+ms.openlocfilehash: 86d365036daa4f24d2c2e3b8e64b5836e291889f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47426996"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200392"
 ---
 # <a name="attack-simulator-in-atp"></a>ATP의 공격 시뮬레이터
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 조직에 [위협 조사 및 응답 기능이](office-365-ti.md)포함 된 Office 365 Advanced Threat PROTECTION (ATP) 계획 2가 있는 경우 보안 & 준수 센터에서 공격 시뮬레이터를 사용 하 여 조직에서 현실적인 공격 시나리오를 실행할 수 있습니다. 이러한 시뮬레이트된 공격은 실질적인 공격이 아래 줄에 영향을 미치는 사용자를 식별 하 고 찾는 데 도움이 될 수 있습니다. 자세한 내용은이 문서를 참조 하세요.
 

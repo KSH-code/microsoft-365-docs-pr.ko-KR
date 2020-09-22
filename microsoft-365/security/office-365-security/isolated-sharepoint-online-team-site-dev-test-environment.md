@@ -16,14 +16,17 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
 description: '요약: Microsoft 365 개발/테스트 환경에서 조직의 나머지 사람들과 격리 된 SharePoint Online 팀 사이트를 구성 합니다.'
-ms.openlocfilehash: 095b0e5098d86f69c21576e72439dde48a092db3
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: e21dccb9ef535bb997d6e62b70e5576bf531041c
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308406"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199664"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>격리된 SharePoint Online 팀 사이트 개발/테스트 환경
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
  **요약:** Microsoft 365 개발/테스트 환경에서 조직의 나머지 사람들과 격리 된 SharePoint Online 팀 사이트를 구성 합니다.
 

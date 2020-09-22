@@ -1,9 +1,9 @@
 ---
-title: Microsoft 365 네트워크 연결 테스트 (미리 보기)
+title: Microsoft 365 네트워크 연결 테스트 도구 (미리 보기)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 09/17/2020
+ms.date: 09/21/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -13,15 +13,15 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: Microsoft 365 네트워크 연결 테스트 (미리 보기)
-ms.openlocfilehash: 40a46ecb39366c64c99077e90bb35c5056f36b9d
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+description: Microsoft 365 네트워크 연결 테스트 도구 (미리 보기)
+ms.openlocfilehash: 72f42a71ec44d165a24187edaf03aa62d330479b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171353"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200820"
 ---
-# <a name="microsoft-365-network-connectivity-test-preview"></a>Microsoft 365 네트워크 연결 테스트 (미리 보기)
+# <a name="microsoft-365-network-connectivity-test-tool-preview"></a>Microsoft 365 네트워크 연결 테스트 도구 (미리 보기)
 
 Microsoft 365 네트워크 연결 테스트 도구는에 <https://connectivity.office.com> 있습니다. Microsoft 365 관리 센터에서 사용할 수 있는 네트워크 평가 및 네트워크 insights 정보에 대 한 adjunct 도구입니다. **| 연결** 메뉴
 
@@ -249,7 +249,7 @@ Microsoft에서 제공 하지 않는 SSL 인증서가 발견 되 면 테스트�
 
 ### <a name="what-is-required-to-run-the-advanced-test-client"></a>고급 테스트 클라이언트를 실행 하는 데 필요한 사항
 
-고급 테스트 클라이언트에는 .NET Core 3.1 데스크톱 런타임이 필요 합니다. 설치 하지 않고 고급 테스트 클라이언트를 실행 하는 경우에는 [.Net Core 3.1 설치 관리자 페이지로](https://dotnet.microsoft.com/download/dotnet-core/3.1)이동 합니다. 데스크톱 런타임과 SDK가 설치 되어 있지 않거나 해당 페이지에서 위쪽에 있는 ASP.NET 코어 런타임이 있어야 합니다. .NET Core를 설치 하려면 컴퓨터에 대 한 관리자 권한이 필요 합니다. 
+고급 테스트 클라이언트에는 .NET Core 3.1 데스크톱 런타임이 필요 합니다. 설치 하지 않고 고급 테스트 클라이언트를 실행 하는 경우에는 [.Net Core 3.1 설치 관리자 페이지로](https://dotnet.microsoft.com/download/dotnet-core/3.1)이동 합니다. 데스크톱 런타임과 SDK가 설치 되어 있지 않거나 해당 페이지에서 위쪽에 있는 ASP.NET 코어 런타임이 있어야 합니다. .NET Core를 설치 하려면 컴퓨터에 대 한 관리자 권한이 필요 합니다.
 
 ### <a name="what-is-microsoft-365-service-front-door"></a>Microsoft 365 서비스 전면 도어 란?
 
@@ -267,7 +267,7 @@ Microsoft 365 서비스 전면 도어는 Microsoft의 글로벌 네트워크에�
 
 ## <a name="related-topics"></a>관련 항목
 
-[Microsoft 365 관리 센터의 네트워크 성능 권장 사항 (미리 보기)](office-365-network-mac-perf-overview.md)
+[Microsoft 365 관리 센터의 네트워크 연결 (미리 보기)](office-365-network-mac-perf-overview.md)
 
 [Microsoft 365 network performance insights (preview)](office-365-network-mac-perf-insights.md)
 

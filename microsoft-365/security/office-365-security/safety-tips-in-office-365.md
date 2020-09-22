@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: 전자 메일 맨 위에 보안 팁을 추가 하 여 EOP 및 Office 365에서 스팸, 피싱 및 맬웨어 방지 기능을 보호 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b4bcfd2bf05f2f5ae7a51fbc2488cb1aa6e7d2c9
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 3da52a8ef2913c30c281fec74f92142847e29792
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949635"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201986"
 ---
 # <a name="safety-tips-in-email-messages"></a>전자 메일 메시지의 안전 팁
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 EOP (Exchange Online Protection) 및 Microsoft 365는 스팸, 피싱 및 맬웨어 방지 기능을 사용 하 여 사용자를 보호 합니다. 현재 이러한 공격 중 일부는 합법적인 것으로 제대로 조작 되었습니다. 정크 메일 폴더로 메시지를 보내는 것이 항상 적절 하지는 않습니다. 이제는 Outlook 또는 웹용 Outlook 또는 전자 메일 클라이언트에서 전자 메일을 확인 하면 EOP에서 자동으로 보낸 사람을 확인 하 고 전자 메일의 맨 위에 보안 팁을 추가 합니다.
 

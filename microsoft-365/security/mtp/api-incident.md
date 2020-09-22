@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 310e3105c973223ea79373d770eb10f7753b917e
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: ac149ca7263b8ef8bb37a7dd18bf0787a3114b37
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650456"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201306"
 ---
 # <a name="incident-resource-type"></a>문제 리소스 종류
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **적용 대상:**
 - Microsoft 위협 방지
@@ -38,7 +41,7 @@ ms.locfileid: "47650456"
 
 메서드 |반환 형식 |설명
 :---|:---|:---
-[인시던트 목록](api-list-incidents.md) | [인시던트](api-incident.md) 목록 | 인시던트 목록을 가져옵니다.
+[인시던트 열거](api-list-incidents.md) | [인시던트](api-incident.md) 목록 | 인시던트 목록을 가져옵니다.
 [인시던트 업데이트](api-update-incidents.md) | [문제점](api-incident.md) | 특정 인시던트를 업데이트 합니다.
 
 

@@ -17,14 +17,17 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: 안전한 링크 정책을 설정 하 여 Word, Excel, PowerPoint, Visio 파일 및 전자 메일 메시지의 악의적인 링크 로부터 조직을 보호 합니다.
-ms.openlocfilehash: 121de6137e392ae0c66d9961fd2138f003a9d9fa
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 8c72473a9b1337e1d932ec7235ed12e79f0c48f6
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307764"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201762"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Office 365 ATP 안전한 링크 정책 설정
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 > [!IMPORTANT]
 > 이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)이 있는 비즈니스 고객을 대상으로 합니다. Outlook의 안전한 링크에 대 한 정보를 검색 하는 개인 사용자는 [Advanced Outlook.com security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하십시오.
@@ -149,7 +152,7 @@ ATP 안전한 링크 정책을 설정 하거나 편집할 때 몇 가지 옵션�
 
 |이 옵션|기능|
 |---|---|
-|**해제**|전자 메일 메시지의 Url을 검사 하지 않습니다.  <br/> 특정 받는 사람 그룹에 대 한 전자 메일 메시지의 Url을 검색 하지 않는 규칙과 같은 예외 규칙을 정의할 수 있습니다.|
+|**않음**|전자 메일 메시지의 Url을 검사 하지 않습니다.  <br/> 특정 받는 사람 그룹에 대 한 전자 메일 메시지의 Url을 검색 하지 않는 규칙과 같은 예외 규칙을 정의할 수 있습니다.|
 |**켜짐**|사용자가 전자 메일 메시지의 Url을 클릭 하 고 Windows의 ATP 안전 링크 (C2R) 내에서 atp 안전한 링크 보호를 통해 사용자를 라우팅하기 위해 Url을 다시 작성 합니다.  <br/> 차단 되거나 악성 Url 목록에 대해 URL을 클릭 하 여 확인 하 고 URL에 유효한 신뢰가 없으면 백그라운드에서 URL의 샌드 박싱를 비동기적으로 트리거합니다.|
 |**의심 스러운 링크에 대 한 실시간 URL 검사 및 파일을 가리키는 링크를 적용 합니다.**|이 옵션을 선택 하면 다운로드 가능한 콘텐츠를 가리키는 의심 스러운 Url 및 링크가 검색 됩니다.|
 |**메시지를 배달 하기 전에 URL 검색이 완료 될 때까지 기다립니다.**|이 옵션을 선택 하면 검색할 Url이 포함 된 메시지는 해당 Url의 검색이 완료 되 고 메시지가 배달 되기 전에 안전한 것으로 확인 될 때까지 유지 됩니다.|
