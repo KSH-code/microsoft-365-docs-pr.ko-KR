@@ -18,16 +18,28 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: 보안 및 준수 센터의 DLP (데이터 손실 방지)에는 &amp; dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다.
-ms.openlocfilehash: d29732051f2a7c023992287a131f3bb68bd28a4d
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+ms.openlocfilehash: 7985d52bcf0cbd4e3e86bc240abb8f692e733743
+ms.sourcegitcommit: 327163f70eac0de568ebe3c9a97a744c3ed408cb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104502"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177126"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>중요한 정보 유형 엔터티 정의
 
 준수 센터의 DLP (데이터 손실 방지)에는 DLP 정책에서 사용할 수 있는 중요 한 정보 유형이 많이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다. 중요한 정보 유형은 정규식이나 함수로 식별될 수 있는 패턴으로 정의됩니다. 또한 키워드 및 체크섬과 같은 확증적인 증거를 사용하여 중요한 정보 유형을 식별할 수 있습니다. 이러한 평가 프로세스에서 신뢰 수준 및 근접성도 사용됩니다.
+
+중요 한 정보 유형에는 다음 구독 중 하나가 필요 합니다.
+- Microsoft 365 E3
+- Microsoft 365 E5
+
+중요 한 정보 유형은 다음 위치에서 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
+
   
 ## <a name="aba-routing-number"></a>ABA 라우팅 번호
 
@@ -6911,7 +6923,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 각 국가의 형식은 약간 다릅니다. IBAN 중요 한 정보 유형은 다음과 같은 60 국가를 포함 합니다.
 
-ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, to, do, ee, es, fi,,, fr, gb, ge, gi, gl, gr, hr, hu, kw, il, vg,, nl-nl, tn,,,,,,,,, ,,,,,,,,,,,,, rs, l, se, si,
+ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, to, do, ee, es, fi,,, fr, gb, ge, gi, gl, gr, hr, hu, kw, il, vg,, nl-nl, tn,,,,,,,,, </c12>,,,,,,,,,,,,, rs, l, se, si,
 
 ### <a name="checksum"></a>제외
 
