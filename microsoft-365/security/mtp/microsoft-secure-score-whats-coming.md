@@ -17,20 +17,23 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 596d67d4967886a2df985793f38f968b40d2c3a9
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: c6643b30327b7f362c4649c2be1b1eea81ff3523
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289666"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203639"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>Microsoft 보안 점수를 보내는 대상
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 [Microsoft 보안 점수가](microsoft-secure-score.md) 보안 환경을 보다 효율적으로 지원 하 고 유용성이 향상 되도록 하기 위해 곧 향후 몇 가지 사항을 변경 하 고 있습니다. 점수 및 가능한 최대 점수가 변경 될 수 있습니다.
 
 ## <a name="proposed-changes"></a>제안된 변경 내용
 
-### <a name="september-2020"></a>년 9 월 2020
+### <a name="september-2020"></a>2020년 9월
 - 계획 된 변경 내용 없음
 
 ## <a name="related-resources"></a>관련 리소스

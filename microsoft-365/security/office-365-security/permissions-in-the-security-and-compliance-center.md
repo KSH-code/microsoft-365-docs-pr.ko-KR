@@ -18,14 +18,17 @@ search.appverid:
 - MET150
 description: 관리자는 Microsoft 365의 보안 & 준수 센터에서 제공 되는 사용 권한에 대해 알아볼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1738438601712199b9a8e7365338d03e17621f0
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+ms.openlocfilehash: 6dab91169b260ea3dae47034ec5c15ebeb2462a4
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171317"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202690"
 ---
 # <a name="permissions-in-the-security--compliance-center"></a>보안 및 준수 센터의 사용 권한
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 보안 & 준수 센터를 사용 하 여 장치 관리, 데이터 손실 방지, eDiscovery, 보존 등의 준수 작업을 수행 하는 사용자에 게 사용 권한을 부여할 수 있습니다. 이러한 사용자들은 명시적으로 액세스 권한을 부여 받은 작업만 수행할 수 있습니다. 보안 & 준수 센터에 액세스 하려면 사용자는 전역 관리자 이거나 하나 이상의 보안 & 준수 센터 역할 그룹의 구성원 이어야 합니다.
 

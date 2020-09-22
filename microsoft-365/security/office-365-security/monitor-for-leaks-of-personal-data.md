@@ -18,14 +18,17 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: 개인 데이터의 누수를 모니터링하는 데 사용할 수 있는 세 가지 도구에 대해 알아봅니다.
-ms.openlocfilehash: ef6e1b2edecc8ee8318f1b1e6228e9931b8c66c5
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 67cce80435aa0f01f496ec67d617f0a2dfff8ec8
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351888"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202702"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>개인 데이터 누수 모니터링
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 개인 데이터의 사용 및 전송을 모니터링하는 데 사용할 수 있는 많은 도구가 있습니다. 이 항목에서는 잘 작동하는 세 가지 도구에 대해 설명합니다.
 

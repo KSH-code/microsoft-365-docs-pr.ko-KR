@@ -21,12 +21,12 @@ description: Microsoft 365 관리 센터-이 달에 추가 된 기능에 대해 
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 7504fa085c6dd5413a1dcddbb71f3d015ded72c1
-ms.sourcegitcommit: 97ef8f846939c3d31bb0638edf07bb89463ace0b
+ms.openlocfilehash: 64c9939f7dd6c4370b80e74987263942dad0e62f
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47300464"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208936"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운 기능
 
@@ -49,17 +49,121 @@ ms.locfileid: "47300464"
 - [SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
 - [Office 업데이트](https://docs.microsoft.com/OfficeUpdates/)
 
+## <a name="ignite-2020-august--september"></a>Ignite 2020 (9 월 & 일)
+
+Microsoft Ignite-첫 번째 온라인 전용 Ignite에 오신 것을 환영 합니다. [Microsoft Ignite 2020 세션 카탈로그](https://myignite.microsoft.com/sessions)세션 중 하나에 사용자가 표시 되기를 바랍니다. 여기에는 Ignite에서 설명 하는 몇 가지 것이 나와 있습니다. 
+> [!NOTE]
+> 모든 기능이 즉시 모든 사용자에 게 제공 되는 것은 아닙니다. 새 기능이 표시 되지 않으면 대상 지정 된 [릴리스를 조인](manage/release-options-in-office-365.md)합니다.
+
+### <a name="multi-tenant-management"></a>다중 테 넌 트 관리
+
+Microsoft는 더 빠르고 효율적으로 작업을 수행할 수 있도록 다중 테 넌 트 관리자를 위한 기능 집합을 개발 했습니다.
+
+- **테 넌 트**: 관리 하는 테 넌 트 간을 빠르게 전환 합니다.
+- **모든 테 넌 트**: 모든 테 넌 트 서비스의 상태를 빠르게 확인할 수 있는 새 페이지, 미해결 서비스 요청, 제품 및 청구, 권장 설정 작업 및 해당 테 넌 트의 사용자 수
+- **설정**: 다중 테 넌 트 설정 페이지에서 설정 페이지의 목록 보기를 제공 하지만 여러 테 넌 트에 맞게 구성 됩니다. 사용 하지 않는 기능, 즉, 테 넌 트에 대해 완료 된 작업이 완료 되어야 하는 작업을 확인할 수 있습니다. 이 보기를 통해 기능 도입을 추적 하 고, 권장 되는 보안 설정 작업이 항상 완료 되도록 할 수 있습니다.
+- **서비스 상태**: 서비스 상태 보기에는 모든 사건이 나 권고에 영향을 주는 테 넌 트가 표시 됩니다. 영향을 받는 테 넌 트의 수를 알리는 것도 여기에 해당 합니다. 문제 해결 탭에 대 한 자세한 내용을 보려면 인시던트를 선택한 다음 영향을 받은 테 넌 트 탭으로 전환 하 여 해당 테 넌 트를 드릴 다운 하 고 지원 하기만 하면 됩니다.
+- **테 넌 트 사서함 마이그레이션은** 현재 공개 미리 보기의 새로운 서비스로, 테 넌 트 간에 사서함을 이동 하 고, 온보드 사서함을 사용할 수 없습니다. 
+- **교차 테 넌 트 도메인 공유**: 여러 테 넌 트 간에 도메인을 공유할 수 있도록 하는 기능에 대 한 비공개 미리 보기에 참가할 수 있습니다. 예를 들어 Contoso가 정문 장난감을 취득 하면 Contoso는 정문 장난감과 도메인을 공유 하 여 두 테 넌 트의 사용자가 자신의 전자 메일 주소로 "contoso.com"을 사용할 수 있도록 합니다.
+
+![문제가 선택 되 고 테 넌 트 탭이 열려 있는 다중 테 넌 트에 대 한 서비스 상태 페이지입니다. 탐색 메뉴에는 모든 테 넌 트, 설정 및 서비스 상태가 유일한 옵션으로 포함 됩니다.](../media/MAC-WN-MTinServiceHealth.png)
+
+### <a name="monitor-your-most-important-accounts"></a>가장 중요 한 계정 모니터링
+
+CEO와 같이 비즈니스에 큰 영향을 주는 사용자에 게 전송 되는 실패 또는 지연 된 전자 메일 메시지를 모니터링 하 고 추적할 수 있습니다. Microsoft 365 관리 센터의 우선 순위 계정 목록에 사용자를 추가 하 여 우선 순위 계정을 추적 합니다. 중요 하거나 높은 우선 순위 정보에 액세스할 수 있는 임원, 리더, 관리자 또는 기타 사용자를 추가 합니다.
+
+우선 순위 계정은 다음 요구 사항을 모두 충족 하는 조직 에서만 사용할 수 있습니다.
+
+- Office 365 E3 또는 Microsoft 365 E3, 또는 Office 365 E5 또는 Microsoft 365 E5
+- 최소 1만의 라이선스 및 최소 50의 월간 활성 Exchange Online 사용자
+
+![기능에 대 한 설정 페이지: 가장 중요 한 계정 모니터링](../media/MAC-WN-PriorityAccounts.png)
+
+다음 두 가지 방법으로 시작할 수 있습니다.
+
+- **사용자**로 이동한 다음 "기타 작업" 메뉴에서 **우선 순위 계정 관리** 를 선택 하 여 사용자를 목록에 추가 합니다.
+- **설정**으로 이동 하 여 **가장 중요 한 계정을 모니터링**하는 설정 작업을 찾은 다음 **시작**을 선택 합니다.
+
+우선 순위 계정에 대 한 자세한 내용은 우선 순위 계정에 대 한 [우선 순위 계정](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) 및 [전자 메일 문제](https://docs.microsoft.com/Exchange/mail-flow-best-practices/mail-flow-insights/mfi-email-issues-for-priority-accounts)모니터링를 참조 하세요.
+
+### <a name="search-faster-and-get-better-results-from-any-page"></a>페이지에서 더 빠르게 검색 및 더 나은 결과 얻기
+
+관리 센터에 대 한 새로운 검색 환경을 구축 하기 시작 했으며, 사용자가 시도를 기다릴 수 없습니다. ![검색 상자가 배너 영역으로 이동 되었습니다. 모든 페이지에서 검색 하려면 Alt + S를 누르십시오.](../media/MAC-WN-GlobalSearch.png)
+
+- 검색 상자가 "Microsoft 365 관리 센터" 라고 표시 되는 머리글 영역으로 이동 되었으므로 홈 페이지 뿐 아니라 모든 페이지에서 검색을 수행할 수 있습니다. 바로 가기 **키 (Alt + S)** 도 제공 됩니다.
+- 검색은 더욱 지능적 이며 더 빠른 결과를 제공 합니다. 시작 하려면 "2fa"를 입력 해 보세요.
+- 검색 결과는 수행할 수 있는 항목 또는 작업 유형에 따라 구성 됩니다.
+  - **사용자**: 사용자의 이름을 선택 하 고 해당 사용자에 게 직접 편집할 수 있습니다. 이름 옆에 있는 "추가 작업" 메뉴를 선택 하는 경우에는 암호를 다시 설정할 수 있습니다. 표시 이름, 성, 이름, 사용자 이름, 기본 전자 메일 주소 및 전자 메일 별칭을 기준으로 검색할 수 있습니다. 하지만 정확히 일치 하는 항목을 가져오려면 기본 전자 메일 주소 또는 사용자 이름으로 검색 합니다.
+  - **그룹**: 모든 페이지에서 그룹을 편집 하 고 구성원을 추가 하 고 소유자를 할당 합니다.
+  - **작업**: 사용자를 검색 한 다음 암호를 다시 설정 하는 방법과 마찬가지로 페이지에서 "암호 다시 설정"을 검색 한 다음 사용자에 대해 하나 이상의 암호를 다시 설정할 수 있습니다.
+  - **탐색**: 탐색 아래의 결과를 통해 관리 센터의 페이지를 빠르게 쉽게 가져올 수 있습니다. 예를 들어 "역할"을 검색 하면 Azure AD 역할에 대 한 역할 페이지로 이동 됩니다.
+  - **설정**: 조직, 구독 하는 서비스, 보안 및 개인 정보 설정에 관련 된 모든 설정을 검색 합니다. 
+  - **도메인**: 도메인에 대 한 빠른 연결을 찾은 다음 링크를 클릭 하 여 해당 도메인의 개요 및 상태 페이지로 이동할 수 있습니다.
+  - **설명서**: 사용자가 결과를 찾을 수 없는 경우 도움이 되는 몇 가지 설명서를 찾으려고 시도 합니다. 맞게 조정 된 문서의 목록에서 일치 하는 항목을 찾는 데는 약간 시간이 더 오래 걸리므로, 두 번째를 수행 하 여 검색 결과를 찾을 수 있도록 합니다. 
+  - **사용자 의견**: 원하는 정보를 찾을 수 없습니까? 검색에서 의견을 보내 주세요. 관리 센터에서 더 많은 페이지 및 기타 기능을 검색 하는 기능이 추가 될 예정입니다.
+
+### <a name="microsoft-365-admin-mobile-app"></a>Microsoft 365 관리 모바일 앱
+
+구독에 포함 되어 있는 [microsoft 365 관리 모바일 앱](https://www.microsoft.com/microsoft-365/business/manage-office-365-admin-app)을 사용 하면 모바일 장치에서 microsoft 365를 관리 하 여 매일 작업을 수행할 수 있습니다. 실제로 앱에는 90 기능이 많이 있으며 다음과 같이 몇 가지 추가 되었습니다.
+
+- **Microsoft intune의 모바일 응용 프로그램 관리 및 조건부 액세스 정책 지원**: 조직에서 Intune의 모바일 응용 프로그램 관리 및 조건부 액세스 정책을 설정한 경우에도 이제 개인 장치를 사용 하 여 Microsoft 365를 관리할 수 있습니다.
+- **메시지 센터 알림**: **Settings**  >  새 메시지 센터 게시물에 대 한 알림을 받을 수 있도록 설정**알림에서** 메시지 센터 알림을 설정 합니다. 알림을 통해 테 넌 트에서 중요 한 정보와 이벤트에 대 한 정보를 계속 받을 수 있도록 합니다.
+- **대금 청구 알림**: **Settings**  >  구독이 만료 되는 경우 장치에 대금 청구 알림을 받으려는 경우에는 설정**알림에서** 대금 청구 알림을 설정할 수도 있습니다.
+- **어둡게 모드**: 모바일 앱의 어두운 쪽에 오신 것을 환영 합니다. 이는 가장 많이 요청 되는 기능 중 하나입니다. **설정**  >  **테마로** 이동 하 여 설정을 켭니다.
+- **문제 보고**: 이제 앱의 문제를 보고 하거나 다른 관리자가 보고 한 문제를 확인할 수 있습니다. **서비스 상태** 를 방문 하 여 체크 아웃 합니다.
+
+![메시지 센터에 대 한 알림, 서비스 상태, 대금 청구 경고를 포함 하는 Microsoft 365 관리 앱의 상태 페이지](../media/MAC-WN-AdminMobileApp.png)
+
+### <a name="usage-recommendations-for-small-and-medium-businesses"></a>중소 기업에 대 한 사용 권장 사항
+
+중소 기업에서는 조직에 있는 일부 사용자가 팀, OneDrive 또는 Office 앱을 실제로 사용 하지 않는 경우 **홈** 페이지에 대 한 권장 사항을 얻을 수 있습니다. 추천 항목을 보면 앱을 시작 하 고 구독에서 전체 값을 가져올 수 있도록 Microsoft 교육을 비활성 사용자에 게 빠르게 전자 메일로 보낼 수도 있습니다.
+
+### <a name="remote-work-collection"></a>원격 작업 컬렉션
+
+10 월에는 원격 작업 모음을 추가 하 여 small business 소유자와 해당 직원이 온라인으로 작동 하 고 원격으로 작업할 수 있도록 지원 합니다.  **원격 작업 essentials** setup은 모든 기능의 맞게 조정 된 목록으로, 원격 작업을 안전 하 게 사용 하도록 설정 하 고 효과적으로 공동 작업 하는 것이 좋습니다. 몇 주 후에는 **Setup**  >  **원격 작업**설정에서 테스트해 볼 수 있습니다.
+
+![7 개의 작업이 포함 된 설치 프로그램의 원격 작업 기초 페이지가 시작 되지 않았습니다.](../media/MAC-WN-RemoteWork.png)
+
+원격 작업 및 쉽게 저장 하 고 공유할 수 있는 편리한 웹 주소를 안전 하 게 허용 하는 방법에 대 한 자세한 내용은 [aka.ms/remote-business](https://aka.ms/remote-business)로 이동 하세요.
+
+### <a name="need-help-moving-to-more-admin-centers"></a>도움이 필요 하세요? 더 많은 관리 센터로 이동
+
+제품의 변경 내용을 유지 하기 위해 콘텐츠 및 도구를 지속적으로 보고 업데이트 하 고 있습니다. 이제 문제를 신속 하 고 효율적으로 해결 하는 데 도움이 되는 다양 한 셀프 서비스 진단 도구가 제공 됩니다. 최근에 추가 된 몇 가지는 다음과 같습니다.
+
+- Exchange 웹 서비스 제한 정책 변경
+- 팀 프로비저닝 및 특정 사용자에 대 한 유효성 검사 상태 확인
+- DKIM 설정 문제 해결
+- Intune 사용자 등록 오류 진단
+
+이번에는 Microsoft 365 관리 센터에서 이미 제공 하 고 있는 새로운 지원 환경을 다른 관리 센터에 배포 하 고 있습니다. 팀 관리 센터 및 보안 및 규정 준수 관리 센터는 이미 이러한 새로운 환경을 제공 합니다. 또한 **Exchange 관리 센터**, **SharePoint 관리**센터 및 **Office.com** 는 관리자를 위한이 새로운 도움말 환경과 함께 업데이트 될 예정입니다.
+
+### <a name="manage-changes-with-microsoft-planner"></a>Microsoft Planner에서 변경 내용 관리
+
+고객은 곧 메시지 센터 게시물을 Microsoft Planner로 동기화 하 고 모든 사용자가 사용할 수 있도록 할 수 있음을 알게 되었습니다.  이제 메시지에서 작업을 만들고 할당 하 고 완료 되도록 추적할 수 있습니다. 처음에는 **Planner 동기화** 를 선택 하 고 적절 한 요금제에 연결 해야 합니다.
+
+![명령 모음에서 기본 설정 단추 옆에 강조 표시 된 ' planner 동기화 '를 사용 하는 메시지 센터 페이지](../media/MAC-WN-MCPlannerSync.png)
+
+이에 대 한 자세한 내용은이 문서 및 비디오에서 해당 작동 방식을 확인 하세요. [Planner에서 메시지 센터 게시물 추적](https://docs.microsoft.com/Office365/Planner/track-message-center-tasks-planner)
+
+### <a name="documentation-training-and-videos"></a>설명서, 교육 및 비디오
+
+- Microsoft Ignite ([가상 허브](https://adoption.microsoft.com/virtual-hub/))에 대 한 신규 및 just-in-time 시간 IT 전문가 및 개발자를 위한 기술 교육에 대해 자세히 살펴보겠습니다. #SIDETRACKED의 일부로 신속 하 게 20 개의 새 비디오를 확인 하 고 이번 연도를 추적 하는 Ignite admin의 이름입니다.
+- [Microsoft 365](https://www.youtube.com/watch?v=OVjb2lGJ4GU&t=2s) 비디오 시리즈의 새로운 기능: 이번 달에는 팀에 대 한 화이트 보드 및 웹에서 사용할 수 있는 새로운 기능과 Azure AD에 대 한 사용자 프로 비전을 자동화 하는 방법, 팀의 새 전원 자동화 트리거 및 작업 등에 대해 설명 합니다. 그리고 다음 달에는 Ignite에서 모든 커다란 문제를 파악할 수 있습니다.
+- 먼저 솔루션에 중점을 둔 [Microsoft 365 설명서](https://docs.microsoft.com/microsoft-365) 페이지를 다시 디자인 했습니다. 이 페이지에서는 새 솔루션을 사용할 수 있는 것 처럼 강조 표시 되므로 눈에 잘 들어 두세요.
+
+!["원격 작업자의 역량 강화"와 같은 솔루션을 포함 하는 Microsoft 365 솔루션 설명서의 새 랜딩 페이지](../media/MAC-WN-M365Docspage.png)
+
 ## <a name="july-2020"></a>2020년 7월
 
 ### <a name="getting-ready-for-ignite-2020"></a>Ignite 2020 준비
 
-Microsoft에서 Ignite 계절으로 이동 하는 동안에는 세션 중에 의견을 많이 제공 하도록 많은 기능을 출시할 예정입니다. 
+Microsoft에서 Ignite 계절으로 이동 하는 동안에는 세션 중에 의견을 많이 제공 하도록 많은 기능을 출시할 예정입니다.
 
 이 문서에 대 한 다음 업데이트는 첫 번째 온라인 전용 Ignite 개시 된 날에 예정 되어 있습니다. 이번 연도에서는 참석이 가능 합니다. 파일을 체크 아웃 하 고 등록 하려면: [Microsoft Ignite 2020](https://www.microsoft.com/ignite)를 참조 하세요.
 
 ### <a name="your-products"></a>제품
 
-구독 관리에서 많은 작업을 수행 하 여 페이지를 보다 빠르게 로드 하 고, 원하는 내용을 찾고, 웹 acessibility 표준 ([WCAG 2.1 지침](http://www.w3.org/TR/WCAG21/))을 충족 하도록 할 수 있습니다.
+구독 관리에서 페이지를 보다 빠르게 로드 하 고, 원하는 항목을 보다 신속 하 게 찾고, 웹 접근성 표준 ([WCAG 2.1 지침](http://www.w3.org/TR/WCAG21/))을 충족 하기 위해 많은 작업을 수행 해야 합니다.
 
 - **표 재설계**: 비슷한 구독을 그룹화 할 수 있도록 테이블이 다시 디자인 되었습니다. 제품 **대금 청구**로 이동  >  **Your products**합니다.
 - **제품 정보**: 목록에서 제품을 선택 하 여 구독에 대 한 보다 자세한 정보를 제공 합니다.
@@ -73,9 +177,9 @@ Microsoft에서 Ignite 계절으로 이동 하는 동안에는 세션 중에 의
 
 :::image type="content" source="../media/MAC-WN-DomainDNS.PNG" alt-text="Contoso.com의 도메인 세부 정보 페이지":::
 
-### <a name="docs-training-and-videos"></a>문서, 교육 및 비디오
+### <a name="docs-training-and-videos-july-2020"></a>문서, 교육 및 비디오 (2020 년 7 월)
 
-[Microsoft 365](https://youtu.be/m1Nu8WJgCDY) 비디오 시리즈의 새로운 기능: 이번 달에는 웹 및 모바일에 새로운 yammer 환경을 제공 하 고, Microsoft 팀을 위해 Yammer 커뮤니티 앱을 통합 하는 방법, 그리고 firstline worker 및 관리자를 지원 하기 위한 새로운 정책 패키지 등을 소개 합니다.
+[Microsoft 365](https://youtu.be/m1Nu8WJgCDY) 비디오 시리즈의 새로운 기능: 이번 달에는 웹 및 모바일에 새로운 yammer 환경을 제공 하 고, Microsoft 팀을 위해 Yammer 커뮤니티 앱을 통합 하는 방법, 그리고 Firstline worker 및 관리자를 지원 하기 위한 새로운 정책 패키지 등을 소개 합니다.
 
 ## <a name="june-2020"></a>2020년 6월
 
@@ -257,7 +361,7 @@ Microsoft 365 관리 센터를 사용 하 여 이제 SharePoint 모바일 앱 fo
 ![화면 캡처: 조직 프로필 이름이 전환기 아이콘과 함께 표시 되는 홈 페이지의 위쪽입니다.](../media/MAC-Organization-switcher.png)
 
 2. 조직 전환기에서 관리 하려는 조직을 선택 합니다.
-![화면 캡처: 조직 프로필 이름이 전환기 아이콘과 함께 표시 되는 홈 페이지의 위쪽입니다.](../media/MAC-OrgSwitcherSelected.png)
+![화면 캡처: 통합 메신저 테 넌 트가 강조 표시 된 내 조직 테 넌 트 전환기](../media/MAC-OrgSwitcherSelected.png)
 
 그대로!!!
 
@@ -437,7 +541,7 @@ Ignite 2019의 몇 가지 흥미로운 기능 릴리스에 대 한 램프는 몇
 이번 달에는 다음과 같은 청구 및 구독 업데이트가 있습니다.
 
 - 장치 기반 구독: Microsoft 365 관리 센터의 장치에 **대해 교육 (장치) 라이선스에 대 한 Microsoft 365 앱** 을 할당 하거나 할당 해제할 수 있습니다. **Microsoft 365 교육용 앱 (장치)** 은 장치에 라이선스를 할당 하는 데 사용할 수 있는 추가 기능 라이선스입니다. 제품 **대금 청구**로 이동 하 여  >  **Your products** 라이선스를 찾고 구입 합니다.
-- 사용자 기반 라이선스 관리: **사용자**  >  **활성 사용자** 의 라이선스를 새 스타일에 할당 하는 방법을 업데이트 했습니다. 자세한 내용은 다음을 참조하시기 바랍니다.
+- 사용자 기반 라이선스 관리: **사용자**  >  **활성 사용자** 의 라이선스를 새 스타일에 할당 하는 방법을 업데이트 했습니다. 자세한 내용은 다음을 참조하세요.
   - [사용자에게 라이선스 할당](manage/assign-licenses-to-users.md)
   - [사용자의 라이선스 할당 취소](manage/remove-licenses-from-users.md)
 

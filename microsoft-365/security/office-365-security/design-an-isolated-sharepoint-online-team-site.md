@@ -18,14 +18,17 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 775a4e9e-3135-4a48-b32f-bbdd9f2bd0aa
 description: 권한 수준 확인, 액세스 그룹을 사용 하는 사용자에 게 사용 권한 할당, 중첩 된 Azure AD 그룹 등 격리 된 SharePoint Online 팀 사이트를 디자인 합니다.
-ms.openlocfilehash: d26f55d9e037d86eac28e5cf21c56406eae5cc19
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 035952c1921443d86602eb94e3965acee86ae3e8
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653008"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203122"
 ---
 # <a name="design-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 디자인
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
  **요약:** 격리 된 SharePoint Online 팀 사이트에 대 한 디자인 프로세스를 단계별로 안내 합니다.
 
@@ -35,11 +38,11 @@ ms.locfileid: "46653008"
 
 모든 SharePoint Online 팀 사이트는 기본적으로 다음과 같은 SharePoint 그룹을 사용 하 여 만들어집니다.
 
-- \<site name>구성원
+- \<site name> 구성원
 
-- \<site name>볼
+- \<site name> 볼
 
-- \<site name>이사
+- \<site name> 이사
 
 이러한 그룹은 Microsoft 365 및 Azure Active Directory (AD) 그룹과는 별개 이며 사이트의 리소스에 대 한 사용 권한을 할당 하기 위한 기본이 됩니다.
 
@@ -49,9 +52,9 @@ SharePoint 그룹의 구성원이 사이트에서 수행할 수 있는 작업을
 
 |SharePoint 그룹|사용 권한 수준|
 |---|---|
-|\<site name>구성원|편집|
-|\<site name>볼|읽기|
-|\<site name>이사|모든 권한|
+|\<site name> 구성원|편집|
+|\<site name> 볼|읽기|
+|\<site name> 이사|모든 권한|
 |
 
  **모범 사례:** 추가 SharePoint 그룹 및 권한 수준을 만들 수 있습니다. 그러나 격리 된 SharePoint Online 사이트에 대 한 기본 SharePoint 그룹 및 사용 권한 수준을 사용 하는 것이 좋습니다.
@@ -92,9 +95,9 @@ Microsoft 365의 Azure AD 그룹은 다른 tha Microsoft 365 그룹입니다. Az
 
 |SharePoint 그룹|Azure AD 기반 액세스 그룹|권한 수준|
 |---|---|---|
-|\<site name>구성원|\<site name>구성원|편집|
-|\<site name>볼|\<site name>뷰어|읽기|
-|\<site name>이사|\<site name>관리자나|모든 권한|
+|\<site name> 구성원|\<site name> 구성원|편집|
+|\<site name> 볼|\<site name> 뷰어|읽기|
+|\<site name> 이사|\<site name> 관리자나|모든 권한|
 |
 
  **모범 사례:** Microsoft 365 또는 Azure AD 그룹을 SharePoint 그룹의 구성원으로 사용할 수 있지만 Azure AD 그룹을 사용 하는 것이 좋습니다. AD DS 또는 Microsoft 365를 통해 관리 되는 Azure AD 그룹은 중첩 된 그룹을 보다 유연 하 게 사용 하 여 사용 권한을 할당할 수 있습니다.

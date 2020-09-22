@@ -1,6 +1,6 @@
 ---
-title: 지원 되는 Microsoft Threat Protection Api
-description: 지원 되는 Microsoft Threat Protection Api
+title: 지원되는 Microsoft Threat Protection API
+description: 지원되는 Microsoft Threat Protection API
 keywords: MTP, Api, api
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 49fa182a6142748ca7769411fe74389f365ba75f
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: fda90945f09abfadfe56ea11469687130d88b2a7
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650438"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203698"
 ---
-# <a name="supported-microsoft-threat-protection-apis"></a>지원 되는 Microsoft Threat Protection Api 
+# <a name="supported-microsoft-threat-protection-apis"></a>지원되는 Microsoft Threat Protection API 
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 **적용 대상:**
 - Microsoft 위협 방지
 
@@ -52,5 +55,5 @@ ms.locfileid: "47650438"
 
 항목 | 설명
 :---|:---
-[고급 구하기 API](api-advanced-hunting.md) | API에서 고급 구하기 쿼리를 실행 합니다.
-[인시던트 Api](api-incident.md) | 인시던트 목록, 업데이트 인시던트 등의 관련 API 호출을 실행 합니다.
+[고급 헌팅 API](api-advanced-hunting.md) | API에서 고급 구하기 쿼리를 실행 합니다.
+[인시던트 API](api-incident.md) | 인시던트 목록, 업데이트 인시던트 등의 관련 API 호출을 실행 합니다.

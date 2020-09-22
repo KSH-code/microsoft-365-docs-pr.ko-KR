@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e790f4f415575323cfdd5fc15db41baa8b59c7f6
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: 8ad47453c7163bfac99c17f42986b818cdca603f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650436"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203643"
 ---
 # <a name="update-incidents-api"></a>문제 API 업데이트
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **적용 대상:**
 - Microsoft 위협 방지
@@ -45,7 +48,7 @@ ms.locfileid: "47650436"
 2. ```determination```분류가 TruePositive로 설정 된 경우에만 설정할 수 있습니다.
 
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 이 API를 호출 하려면 다음 사용 권한 중 하나가 필요 합니다. 사용 권한을 선택 하는 방법을 비롯 하 여 자세한 내용은 [Microsoft Threat Protection Api 액세스](api-access.md)를 참조 하십시오.
 
 사용 권한 유형 |   사용 권한  |   사용 권한 표시 이름
@@ -113,5 +116,5 @@ assignedTo | 문자열 | 인시던트의 소유자입니다.
 
 
 ## <a name="related-topic"></a>관련 항목
-- [인시던트 Api](api-incident.md)
-- [인시던트 목록](api-list-incidents.md)
+- [인시던트 API](api-incident.md)
+- [인시던트 열거](api-list-incidents.md)

@@ -17,14 +17,17 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection의 캠페인 보기에 대해 알아보세요.
-ms.openlocfilehash: 60ec8ea1d2c164905e7b57f4b518ea3f80e7986c
-ms.sourcegitcommit: dcbcd5ef278949c777059b0aa6db072e821f72dd
+ms.openlocfilehash: 881dcde1157877eb015d9700bcbcd08fd3336192
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48173311"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203482"
 ---
 # <a name="campaign-views-in-office-365-atp"></a>Office 365 ATP의 캠페인보기
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 캠페인 보기는 ATP (Advanced Threat Protection) 계획 2의 기능입니다 (예: Microsoft 365 E5 또는 ATP 요금제 2 추가 기능이 있는 조직). 보안 & 준수 센터의 캠페인 보기는 서비스의 피싱 공격을 식별 하 고 분류 합니다. 캠페인 보기를 통해 다음을 수행할 수 있습니다.
 

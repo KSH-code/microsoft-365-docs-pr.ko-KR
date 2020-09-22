@@ -19,14 +19,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)의 아웃 바운드 스팸 제어에 대해 알아보고 대량 메일을 보내는 데 필요한 경우 수행할 작업에 대해 알아봅니다.
-ms.openlocfilehash: 99502e7fb55419dedb4d0f7d4a7e6c4591eff859
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 1097b768b955f2fa99c552ceda7564bef33a1aa7
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208926"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202390"
 ---
 # <a name="outbound-spam-protection-in-eop"></a>EOP의 아웃 바운드 스팸 방지
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (독립 실행형 Exchange Online 보호) 조직에서 아웃 바운드 스팸을 심각 하 게 관리 합니다. 고의적으로 또는 실수로 조직에서 스팸을 보내는 사용자는 전체 서비스의 신뢰도를 떨어뜨릴 수 있으며 다른 고객의 전자 메일 배달에 영향을 줄 수 있습니다.
 
@@ -40,7 +43,7 @@ Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (독립 실행�
 
 ## <a name="how-eop-controls-outbound-spam"></a>EOP에서 아웃 바운드 스팸을 제어 하는 방법
 
-- **조각화 아웃 바운드 전자 메일 트래픽**:이 서비스를 통해 전송 되는 모든 아웃 바운드 메시지는 스팸을 검색 합니다. 메시지가 스팸으로 확인 되 면 _위험성이 높은 배달 풀_이라는 보조 신뢰할 수 없는 IP 주소 풀에서 배달 됩니다. 자세한 내용은 [아웃 바운드 메시지에 대 한 위험성이 높은 배달 풀](high-risk-delivery-pool-for-outbound-messages.md)을 참조 하십시오.
+- **조각화 아웃 바운드 전자 메일 트래픽**:이 서비스를 통해 전송 되는 모든 아웃 바운드 메시지는 스팸을 검색 합니다. 메시지가 스팸으로 확인 되 면 _위험성이 높은 배달 풀_이라는 보조 신뢰할 수 없는 IP 주소 풀에서 배달 됩니다. 자세한 내용은 [아웃바운드 메시지의 고위험 전송 풀](high-risk-delivery-pool-for-outbound-messages.md)을 참조하세요.
 
 - **원본 IP 주소 신뢰도 모니터링**: Microsoft 365에서는 다양 한 타사 IP 차단 목록을 쿼리 합니다. 아웃 바운드 전자 메일에 사용 하는 IP 주소가 이러한 목록에 표시 되 면 경고가 생성 됩니다. 이를 통해 스팸에 대 한 신뢰가 저하 되는 경우 신속 하 게 대응할 수 있습니다. 경고가 생성 되 면 차단 목록에서 IP 주소 제거 (delisted)를 받는 방법을 설명 하는 내부 설명서가 제공 됩니다.
 
@@ -48,7 +51,7 @@ Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (독립 실행�
 
 - 너무 **많은 전자 메일을 전송 하는 계정을 사용 하지 않도록 설정 하는**경우 <sup>\*</sup> 스팸으로 표시 된 메시지를 찾는 제한 외에, 아웃 바운드 메시지에 대 한 스팸 필터링 결과에 관계 없이 전체 아웃 바운드 메시지 제한에 도달할 때 계정을 차단 하는 제한도 있습니다. 손상 된 계정은 스팸 필터에서 누락 된 0 일 (이전에는 인식할 수 없는) 스팸 메일을 보낼 수 있습니다. 합법적인 대량 메일 캠페인과 스팸 캠페인을 식별 하기가 어려울 수 있으므로 이러한 제한은 잠재적인 손상을 최소화 하는 데 도움이 됩니다.
 
-<sup>\*</sup>정확한 제한을 알리지 않으며, 스팸 발송자가 시스템을 게임을 할 수 없으며, 필요에 따라 제한을 늘리거나 줄일 수도 있습니다. 이 제한은 평균 비즈니스 사용자가이를 초과 하지 못하도록 하기에 충분 하며, 스팸 발송자에 게 초래 되는 피해를 줄이기 위해 충분히 부족 합니다.
+<sup>\*</sup> 정확한 제한을 알리지 않으며, 스팸 발송자가 시스템을 게임을 할 수 없으며, 필요에 따라 제한을 늘리거나 줄일 수도 있습니다. 이 제한은 평균 비즈니스 사용자가이를 초과 하지 못하도록 하기에 충분 하며, 스팸 발송자에 게 초래 되는 피해를 줄이기 위해 충분히 부족 합니다.
 
 ## <a name="recommendations-for-customers-who-want-to-send-mass-mailings-through-eop"></a>EOP를 통해 대량 메일을 전송 하려는 고객을 위한 권장 사항
 

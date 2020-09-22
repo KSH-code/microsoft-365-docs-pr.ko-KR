@@ -17,24 +17,27 @@ ms.collection:
 - M365-security-compliance
 description: SharePoint, OneDrive 또는 팀에서 검색 된 악성 파일에 대 한 정보를 볼 수 있는 위치 및 해당 파일에 대해 작업을 수행 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 47b1fea4b3b5713a8f69e8f4b2c0e2ad0f6dd6b8
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: e6cd0363b546fad063290ae20e8c6c82fd6d0dea
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036647"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201998"
 ---
 # <a name="view-information-about-malicious-files-detected-in-sharepoint-onedrive-or-microsoft-teams"></a>SharePoint, OneDrive 또는 Microsoft Teams에서 감지한 악성 파일에 대한 정보 보기
 
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+
 [SharePoint, OneDrive 및 Microsoft 팀에서는 Office 365 ATP](atp-for-spo-odb-and-teams.md) 가 문서 라이브러리 및 팀 사이트의 악의적인 파일 로부터 조직을 보호 합니다. 악성 파일이 검색 되 면 해당 파일이 차단 되므로 조직의 보안 팀이 추가 작업을 수행할 때까지 아무도 해당 파일을 열거나 복사 하거나 이동 하거나 공유할 수 없습니다. 검색 된 파일에 대 한 정보 및 수행할 작업을 확인 하는 방법에 대 한 자세한 내용은이 문서를 참조 하세요. 
 
-이 문서에서 설명 하는 작업을 수행 하려면 [보안 &amp; 및 준수 센터에 대 한 필수 권한이](permissions-in-the-security-and-compliance-center.md)있어야 합니다. 
+이 문서에서 설명 하는 작업을 수행 하려면 [보안 및 &amp; 준수 센터에 대 한 필수 권한이](permissions-in-the-security-and-compliance-center.md)있어야 합니다. 
   
 ## <a name="view-reports-with-information-about-detected-files"></a>검색 된 파일에 대 한 정보가 있는 보고서 보기
 
 Office 365 ATP가 검색 한 파일에 대 한 상태 및 자세한 정보를 보려면 위협 방지 상태 보고서를 사용할 수 있습니다.
   
-1. [보안 &amp; 및 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드** \> **위협 방지 상태**를 선택 합니다.
+1. 보안 및 [ &amp; 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드** \> **위협 방지 상태**를 선택 합니다.
     
 2. 보고서의 오른쪽 위 모서리에서 **정보 테이블 보기**를 선택 합니다.
     
@@ -46,7 +49,7 @@ Office 365 ATP가 검색 한 파일에 대 한 상태 및 자세한 정보를 �
   
 ## <a name="view-and-take-action-on-files-in-quarantine"></a>격리에서 파일 보기 및 작업 수행
 
-1. 보안 &amp; 및 준수 센터에서 **위협 관리** \> **검토** \> **격리**를 선택 합니다. (로 [https://protection.office.com/quarantine](https://protection.office.com/quarantine)직접 이동 해도 됩니다.)
+1. 보안 &amp; 및 준수 센터에서 **위협 관리** \> **검토** \> **격리**를 선택 합니다. (로 직접 이동 해도 [https://protection.office.com/quarantine](https://protection.office.com/quarantine) 됩니다.)
     
 2. 왼쪽 위 모서리에서 드롭다운 메뉴를 **전자 메일** 의 **파일로**변경 합니다. 결과 목록에 너무 많은 항목이 포함 되어 있으면 **필터** 기능을 사용 하 여 선택 범위를 좁힐 수 있습니다.
     

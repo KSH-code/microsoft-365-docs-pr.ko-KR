@@ -14,14 +14,17 @@ ms.assetid: d6a87ce8-2c22-433a-b430-5eab14f6afdc
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 microsoft 파트너 및 대리점에 대해 Microsoft 365의 위임 된 관리 작업에 대 한 질문과 대답을 볼 수 있습니다.
-ms.openlocfilehash: 3efadc8793778bfabe10922e8e29044747d60ad0
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 6729f276e6afea83568ca59d3bf48c08fcd837d2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866698"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203146"
 ---
 # <a name="delegated-administration-faq"></a>위임된 관리 FAQ
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 이 문서에서는 microsoft 파트너 및 대리점 용 Microsoft 365의 위임 된 관리 작업에 대 한 질문과 대답을 제공 합니다. 위임 된 관리에는 다른 테 넌 트 (회사)에 대 한 EOP (Exchange Online Protection) 설정을 관리 하는 기능이 포함 되어 있습니다.
 

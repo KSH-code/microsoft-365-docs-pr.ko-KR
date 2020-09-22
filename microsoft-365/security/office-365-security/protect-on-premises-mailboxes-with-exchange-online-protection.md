@@ -21,14 +21,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 중국의 관리자 21Vianet에서 운영 하는 Office 365을 사용 하 여 온-프레미스 사서함을 보호 하기 위해 독립 실행형 EOP (Exchange Online Protection)를 사용 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: ca3f7f1ffc91b404ac59e92b40ae1f95709ec3ff
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: eb17b25db93aa50c6c390b5f79cdbd707762a0f9
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307752"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202486"
 ---
 # <a name="protect-on-premises-mailboxes-in-china-with-standalone-eop"></a>독립형 EOP를 사용하여 중국에 있는 온-프레미스 사서함 보호
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 > [!NOTE]
 > 이 문서는 중국의 21Vianet에서 운영 하는 Office 365에만 적용 됩니다.

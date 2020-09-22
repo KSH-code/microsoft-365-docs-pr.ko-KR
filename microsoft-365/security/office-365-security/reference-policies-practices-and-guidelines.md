@@ -16,14 +16,17 @@ ms.assetid: ff3f140b-b005-445f-bfe0-7bc3f328aaf0
 ms.collection:
 - M365-security-compliance
 description: Microsoft는 다양 한 정책과 절차를 개발 하 고 사용자가 악성 전자 메일, 원치 않는 이메일 또는 악의적으로 보호 하는 데 도움이 되는 몇 가지 업계 모범 사례를 채택 했습니다.
-ms.openlocfilehash: 5b815678fc7462df5448447624d6f7c0c63d6eb6
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: b971823201fb805c9e17da8402250065d274668d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949659"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202378"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>참조: 정책, 사례 및 지침
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Microsoft는 웹에서 가장 신뢰할 수 있는 사용자 환경을 제공 하기 위해 노력 하 고 있습니다. 따라서 Microsoft는 다양 한 정책 및 절차를 개발 하 고 사용자가 악성 메일, 원치 않음 또는 악의 있는 이메일을 방지 하는 데 도움이 되는 여러 업계 모범 사례를 채택 했습니다. 사용자에 게 전자 메일을 보내려고 시도 하는 경우이 문서의 지침에 따라 이러한 작업을 수행 하 고 잠재적인 배달 문제를 방지 하는 데 도움이 되는 정보를 숙지 해야 합니다.
 

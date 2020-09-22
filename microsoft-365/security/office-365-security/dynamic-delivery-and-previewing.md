@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: ATP 안전한 첨부 파일 정책을 설정할 때 메시지 지연을 방지 하 고 사용자가 검색 중인 첨부 파일을 미리 볼 수 있도록 동적 전달을 선택 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7e2da24ebac5863ab7852fdf8f9c7af8d507698b
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: c0b19317babbd433ba0914ca2385cf6c9b40d89b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430354"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203038"
 ---
 # <a name="dynamic-delivery-and-previewing-with-atp-safe-attachments"></a>동적인 배달 및 ATP 안전한 첨부 파일로 미리 보기
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ## <a name="basic-features-of-dynamic-delivery"></a>동적 배달의 기본 기능
 

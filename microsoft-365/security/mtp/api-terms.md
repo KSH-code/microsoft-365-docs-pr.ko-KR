@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 16749e22b91afb3d1c2bfdc3c40ca271948a97a7
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: d76992108fb3cda82bd9ad9886a2886f70695788
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650437"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203680"
 ---
 #  <a name="microsoft-threat-protection-apis-license-and-terms-of-use"></a>Microsoft Threat Protection Api 사용권 및 사용 약관
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 **적용 대상:**
 - Microsoft 위협 방지
 

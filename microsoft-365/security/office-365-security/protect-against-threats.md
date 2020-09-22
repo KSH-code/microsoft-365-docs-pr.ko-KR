@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 Microsoft 365의 위협 보호에 대해 알아보고 조직에서이를 사용 하는 방법을 구성할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a78bbea2d11360bbfa48fa3da01391471b2e0a4d
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 1ad74e9bdcd7b937873108d2ba049c16db8c235b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547365"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202582"
 ---
 # <a name="protect-against-threats"></a>위협으로부터 보호
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 다음은 Advanced Threat Protection의 구성을 청크로 구분 하는 빠른 시작 가이드입니다. Office 365의 위협 방지 기능을 처음 사용 하는 경우 시작할 위치를 잘 모르는 경우에는이 *지침을 검사*목록 및 출발점으로 사용해 보세요.
 

@@ -19,16 +19,19 @@ ms.custom:
 - TopSMBIssues
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection) 및 Office 365 Advanced Threat Protection (Office 365 ATP)의 피싱 방지 보호 기능에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: f6d864a7f9995de64f3714dffcd1838b2480a627
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 5607a3bf566fabccf3ae55726aca9eefcff9c062
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867178"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202414"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Microsoft 365의 피싱 방지 보호 기능
 
-*피싱은* 적법 하거나 신뢰할 수 있는 보낸 사람 으로부터 온 것 처럼 보이는 메시지의 중요 한 정보를 도용 하는 전자 메일 공격입니다. 특정 종류의 피싱이 있습니다. 예시:
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+
+*피싱은* 적법 하거나 신뢰할 수 있는 보낸 사람 으로부터 온 것 처럼 보이는 메시지의 중요 한 정보를 도용 하는 전자 메일 공격입니다. 특정 종류의 피싱이 있습니다. 예제:
 
 - **스피어 피싱은** 중요 한 사용자 지정 된 콘텐츠 (일반적으로 공격자가 받는 사람을 검사 한 후)를 사용 합니다.
 
