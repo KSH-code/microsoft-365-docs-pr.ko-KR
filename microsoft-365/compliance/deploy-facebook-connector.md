@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Facebook Business 페이지를 가져오고 보관 하기 위한 기본 커넥터를 Microsoft 365에 설정할 수 있습니다. 이 데이터를 Microsoft 365로 가져온 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 Facebook 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 240ce3a90cf46a05ab5d6030b9318d42d23904d8
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: 065a5c6a1276c1ce37aa48137caf6627e76c8db0
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434237"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200863"
 ---
 # <a name="deploy-a-connector-to-archive-facebook-business-pages-data"></a>Facebook Business pages 데이터를 보관 하기 위한 커넥터 배포
 
@@ -190,7 +190,7 @@ ms.locfileid: "45434237"
 
 1. 로 이동한 [https://compliance.microsoft.com](https://compliance.microsoft.com) 후 왼쪽 탐색 창에서 **데이터 커넥터** 를 클릭 합니다.
 
-2. **데이터 커넥터 (미리 보기)** 페이지의 **Facebook Business 페이지**에서 **보기**를 클릭 합니다.
+2. **데이터 커넥터** 페이지의 **Facebook Business 페이지**에서 **보기**를 클릭 합니다.
 
 3. **Facebook business pages** 페이지에서 **커넥터 추가**를 클릭 합니다.
 

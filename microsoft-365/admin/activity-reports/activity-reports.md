@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자가 Microsoft 365 서비스를 사용하는 방식에 대한 주기적인 보고를 받을 수 있습니다. 사용 현황 개요 대시보드를 사용하면 각 차트에 대한 세부 정보를 확인할 수 있습니다.
-ms.openlocfilehash: f0dcb1fac17a39d1125f9188028d714962c9797d
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: e1748cf25fd36787727b0f00f6ddf6553bd454ab
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948211"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104455"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
@@ -58,9 +58,8 @@ ms.locfileid: "47948211"
 
 ::: moniker-end
 
-   
-2. 대시보드의 맨 위에서 **보고서 선택**을 선택하여 사용 가능한 모든 보고서 목록에서 선택합니다. 또는 서비스(전자 메일 또는 OneDrive 등)에 대한 활동을 한눈에 볼 수 있는 위젯을 선택하여 자세한 내용을 확인합니다. <br/>![사용 현황 대시보드](../../media/usage-report-dashboard.png)
-  
+2. 서비스(예: 전자 메일 또는 OneDrive)에 대한 간략한 활동 카드에서 **자세히 보기** 단추를 클릭하면 보고서 세부 정보 페이지가 표시됩니다. 서비스에 대한 다양한 보고서가 탭에서 제공됩니다. <br/>![사용 현황 대시보드](../../media/4c0f966d-9d2b-4a6f-a106-a6e2b9a2de07.png) 
+
 ## <a name="who-can-see-reports"></a>보고서를 볼 수 있는 사용자
 
 다음 권한이 있는 사용자:
@@ -147,7 +146,7 @@ ms.locfileid: "47948211"
 
 ::: moniker range="o365-worldwide"
 
-- [국방부 및 정부 커뮤니티 클라우드에 대한 Microsoft Teams의 사용자 활동](microsoft-teams-user-activity.md)
+- [미국 정부 기관용 Microsoft Teams 사용자 활동](microsoft-teams-user-activity.md)
 
 ::: moniker-end
 
@@ -159,7 +158,7 @@ ms.locfileid: "47948211"
 
 ::: moniker range="o365-worldwide"
 
-- [국방부 및 정부 커뮤니티 클라우드에 대한 Microsoft Teams의 장치 사용](microsoft-teams-device-usage.md)
+- [미국 정부 기관용 Microsoft Teams 장치](microsoft-teams-device-usage.md)
 
 ::: moniker-end
 

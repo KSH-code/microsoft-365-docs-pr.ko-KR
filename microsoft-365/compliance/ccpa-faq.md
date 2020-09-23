@@ -13,12 +13,12 @@ manager: laurawi
 audience: itpro
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: fa0c37d6a077810668472c2b7feeaf852e497c96
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: b76eb26ae0065a681f50c7839f261947ab2084c9
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416338"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199515"
 ---
 # <a name="california-consumer-privacy-act-ccpa-frequently-asked-questions"></a>캘리포니아 소비자 개인 정보 보호법(CCPA) 질문과 대답
 
@@ -100,7 +100,7 @@ Microsoft는 GDPR 관련 DSR을 전 세계적으로 구현했으므로 현재 �
 
 **조직에서 CCPA 준비를 시작하는 데 도움이 되는 몇 가지 도구는 무엇인가요?**
 
-- CCPA 개인 정보 보호 프로그램의 일부로 준수 점수의 GDPR 평가를 활용합니다.
+- CCPA 개인 정보 보호 프로그램의 일부로 규정 준수 관리자의 GDPR 평가를 활용합니다.
 - 소비자 요청에 효과적으로 대응하는 프로세스를 설정합니다.
 - Microsoft 정보 보호로 중요한 데이터를 검색하고, 분류하고, 레이블을 지정하고, 보호하기 위해 레이블과 정책을 설정합니다.
 - 전자 메일 암호화 기능을 사용하여 중요 한 정보를 더욱 강력하게 제어합니다.

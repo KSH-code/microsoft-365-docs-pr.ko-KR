@@ -18,20 +18,23 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: 관리자는 EOP가 전자 메일 인증(SPF, DKIM 및 DMARC)을 사용하여 스푸핑, 피싱 및 스팸을 방지하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 0f4eb15df218050f7e582b1cc727522c04da594b
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: d490caf600fef9d9caab79a1a97ec29637e10d66
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949871"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202978"
 ---
 # <a name="email-authentication-in-eop"></a>EOP에서 전자 메일 인증
 
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+
 전자 메일 인증(전자 메일 유효성 검사라고도 함)은 스푸핑(위조된 보낸 사람의 전자 메일 메시지)방지를 시도하는 표준 그룹입니다. 모든 Microsoft 365 조직에서 EOP는 다음 표준을 사용하여 인바운드 전자 메일을 확인합니다.
 
-- [SPF](how-office-365-uses-spf-to-prevent-spoofing.md)
+- [SPF](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing?view=o365-worldwide)
 
-- [DKIM](support-for-validation-of-dkim-signed-messages.md)
+- [DKIM](https://docs.microsoft.com/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email?view=o365-worldwide)
 
 - [DMARC](use-dmarc-to-validate-email.md)
 
@@ -204,4 +207,12 @@ Microsoft 365는 회사 인프라의 인바운드 전자 메일을 인증된 것
 
 플랫폼에서 발생하는 전자 메일을 인증하더라도 Microsoft에 대한 제공 가능성은 보장되지 않지만 적어도 인증되지 않은 이유로 Microsoft가 전자 메일을 스팸으로 처리하지 않도록 합니다.
 
+## <a name="related-links"></a>관련 링크
+
 서비스 제공자의 모범 사례에 대한 자세한 내용은 [서비스 제공업체를 위한 M3AAWG 모바일 메시징 모범 사례](https://www.m3aawg.org/sites/default/files/m3aawg-mobile-messaging-best-practices-service-providers-2015-08_0.pdf)을 참조합니다.
+
+Office 365에서 SPF를 사용하고 DKIM 유효성 검사를 지원하는 방법을 알아봅니다.
+
+- [SPF에 대한 자세한 정보](how-office-365-uses-spf-to-prevent-spoofing.md)
+
+- [DKIM에 대한 자세한 정보](support-for-validation-of-dkim-signed-messages.md)

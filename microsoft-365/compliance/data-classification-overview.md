@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 데이터 분류 대시보드에서는 조직에서 검색 및 분류한 중요한 데이터의 양을 시각적으로 파악할 수 있습니다.
-ms.openlocfilehash: aff6d2c30fe8036448a8816426896f080b86b9e6
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 725dc5d2e9e5cf0638a54c5ee46d77b321ae4796
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948508"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131726"
 ---
 # <a name="know-your-data---data-classification-overview"></a>데이터 파악 - 데이터 분류 개요
 
@@ -34,7 +34,7 @@ Microsoft 365 관리자 또는 준수 관리자는 조직의 콘텐츠가 이동
 - 중요한 데이터와 보존된 데이터의 위치
 
 또한 데이터 분류 페이지에서 다음 기능을 관리합니다.
-- [학습 가능한 분류자](classifier-getting-started-with.md)
+- [학습 가능한 분류자](classifier-learn-about.md)
 - [중요한 정보 유형](what-the-sensitive-information-types-look-for.md)
 
 **Microsoft 365 규정 준수 센터** 또는 **Microsoft 365 보안 센터** > **분류** > **데이터 분류**에서 데이터 분류를 찾을 수 있습니다.
@@ -137,4 +137,4 @@ Microsoft 365 또는 AIP(Azure Information Protection)를 통해 항목에 민�
 - [민감도 레이블에 대해 알아보기](sensitivity-labels.md)
 - [보존 정책 및 보존 레이블에 대해 알아보기](retention.md)
 - [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)
-- [학습 가능한 분류자 시작하기(미리 보기)](classifier-getting-started-with.md)
+- [학습 가능한 분류자에 대한 자세한 정 (미리 보기)](classifier-learn-about.md)

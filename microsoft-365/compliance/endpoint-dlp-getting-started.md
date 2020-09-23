@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 Endpoint 데이터 손실 방지를 설정하여 파일 활동을 모니터링하고 해당 파일에 대한 보호 작업을 엔드포인트에 구현합니다.
-ms.openlocfilehash: 43ab2a30570f153f16819ede2eeed1f0e091da74
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 08e2bd43b4337087b401244b7dc4cf80a26aaf06
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949848"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131672"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention-preview"></a>Endpoint 데이터 손실 방지(미리 보기) 시작하기
 
@@ -90,9 +90,9 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 
 아직 온보딩되지 않은 장치를 온보딩하려는 경우 적절한 스크립트를 다운로드하여 해당 장치에 배포합니다. [장치 온보딩 절차](endpoint-dlp-getting-started.md#onboarding-devices)를 따르세요.
 
-이미 [MDATP(Microsoft Defender Advanced Threat Protection)](https://docs.microsoft.com/windows/security/threat-protection/)에 온보딩된 장치가 있으면 해당 장치가 관리되는 장치 목록에 표시됩니다. [MDATP에 온보딩된 장치의 경우 절차](endpoint-dlp-getting-started.md#with-devices-onboarded-into-mdatp)를 따르세요.
+이미 [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)에 온보딩된 장치가 있으면 해당 장치가 관리되는 장치 목록에 표시됩니다. [엔드포인트용 Microsoft Defender에 온보딩된 장치 절차](endpoint-dlp-getting-started.md#with-devices-onboarded-into-microsoft-defender-for- endpoint)를 따릅니다.
 
-### <a name="onboarding-devices"></a>장치 온보딩
+### <a name="onboarding-devices"></a>온보딩 장치
 
 이 배포 시나리오에서는 아직 온보딩되지 않은 장치를 온보드하고, Windows 10 장치의 의도하지 않은 공유에서 중요한 항목을 모니터링하고 보호하려고 합니다.
 
@@ -109,7 +109,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 5. **배포 방법** 목록에서 이러한 추가 장치에 배포할 방법을 선택한 다음 **패키지를 다운로드합니다**.
 
    ![배포 방법](../media/endpoint-dlp-getting-started-3-deployment-method.png)
-6. [Windows 10 컴퓨터용 온보딩 도구와 방법](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)의 해당 절차를 따르세요. 이 링크를 누르면 5단계에서 선택한 배포 패키지와 일치하는 MDATP 절차에 액세스할 수 있는 랜딩 페이지로 이동합니다.
+6. [Windows 10 컴퓨터용 온보딩 도구와 방법](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)의 해당 절차를 따르세요. 이 링크를 누르면 5단계에서 선택한 배포 패키지와 일치하는 엔드포인트용 Microsoft Defender에 액세스할 수 있는 랜딩 페이지로 이동합니다.
     - 그룹 정책을 사용하여 Windows 10 컴퓨터 온보딩하기
     - Microsoft Endpoint Configuration Manager를 사용하여 Windows 컴퓨터 온보딩하기
     - 모바일 장치 관리 도구를 사용하여 Windows 10 컴퓨터 온보딩하기
@@ -121,16 +121,16 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 > [!NOTE]
 > 이 환경은 라이선스 적용하에 있습니다. 필수 라이선스가 없으면 데이터가 표시되지 않거나 테이터에 액세스할 수 없습니다.
 
-### <a name="with-devices-onboarded-into-mdatp"></a>MDATP에 온보딩된 장치의 경우
+### <a name="with-devices-onboarded-into-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender에 온보딩된 장치 사용
 
-이 시나리오에서 MDATP는 이미 배포되었으며 엔드포인트 보고가 있습니다. 이러한 모든 엔드포인트는 관리되는 장치 목록에 나타납니다. [장치 온보딩 절차](endpoint-dlp-getting-started.md#onboarding-devices)를 사용하여 새 장치를 Endpoint DLP로 계속해서 온보딩하여 범위를 확장할 수 있습니다.
+이 시나리오에서 엔드포인트용 Microsoft Defender는 이미 배포되었으며 엔드포인트 보고가 있습니다. 이러한 모든 엔드포인트는 관리되는 장치 목록에 나타납니다. [장치 온보딩 절차](endpoint-dlp-getting-started.md#onboarding-devices)를 사용하여 새 장치를 Endpoint DLP로 계속해서 온보딩하여 범위를 확장할 수 있습니다.
 
 1. [Microsoft 규정 준수 센터](https://compliance.microsoft.com)를 엽니다.
 2. 규정 준수 센터 설정 페이지를 열고 **장치 모니터링 사용**을 선택합니다.
-3. **장치 관리**를 선택하여 **장치** 목록을 엽니다. 이미 MDATP에 보고하고 있는 장치 목록이 표시되어야 합니다. ![장치 관리](../media/endpoint-dlp-getting-started-2-device-management.png)
+3. **장치 관리**를 선택하여 **장치** 목록을 엽니다. 이미 엔드포인트용 Microsoft Defender에 보고하고 있는 장치 목록이 표시되어야 합니다. ![장치 관리](../media/endpoint-dlp-getting-started-2-device-management.png)
 4. 추가 디바이스를 온보딩해야 하는 경우에는 **온보딩**을 선택합니다.
 5. **배포 방법** 목록에서 이러한 추가 장치에 배포할 방법을 선택한 다음 **패키지를 다운로드합니다**.
-6. [Windows 10 컴퓨터용 온보딩 도구와 방법](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)의 해당 절차를 따르세요. 이 링크를 누르면 5단계에서 선택한 배포 패키지와 일치하는 MDATP 절차에 액세스할 수 있는 랜딩 페이지로 이동합니다.
+6. [Windows 10 컴퓨터용 온보딩 도구와 방법](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)의 해당 절차를 따르세요. 이 링크를 누르면 5단계에서 선택한 배포 패키지와 일치하는 엔드포인트용 Microsoft Defender에 액세스할 수 있는 랜딩 페이지로 이동합니다.
     - 그룹 정책을 사용하여 Windows 10 컴퓨터 온보딩하기
     - Microsoft Endpoint Configuration Manager를 사용하여 Windows 컴퓨터 온보딩하기
     - 모바일 장치 관리 도구를 사용하여 Windows 10 컴퓨터 온보딩하기

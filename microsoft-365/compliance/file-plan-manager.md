@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: 파일 계획은 보존 라벨에 대한 고급 관리 기능을 제공한다.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: a92f835658bdeedbc64d3d4f2349900e30ec6dda
-ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
+ms.openlocfilehash: c56f71032ccf154e5d9f416b42df1345da03d9a4
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47427027"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199019"
 ---
 # <a name="use-file-plan-to-manage-retention-labels"></a>파일 계획을 사용하여 보존 레이블 관리
 
@@ -81,6 +81,7 @@ Microsoft 365 규정 준수 센터의 **정보 거버넌스**에서 보존 레�
 - **현재 레코드**는 레이블이 적용될 때 항목이 레코드로 표시되는지 여부를 식별합니다. 올바른 값
     - 아니요
     - 예
+    - 예(규정)
 
 - **보존 기간**은 보존 기간을 식별합니다. 올바른 값
     - 일

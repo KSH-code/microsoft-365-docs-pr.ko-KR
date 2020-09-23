@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
-description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자와 관리자 활동을 확인합니다. '
+description: 보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자와 관리자 활동을 확인합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 21a8ea6f930efcd106c541021c9b9bd47af43f23
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 7051e03ca4751d6e97d9af9228765be9e1af6ebe
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547254"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197351"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
@@ -298,19 +298,125 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 특정 표로 이동하려면 아래 링크 중 하나를 클릭합니다.
 
-||||
-|:-----|:-----|:-----|
-|[파일 및 페이지 활동](#file-and-page-activities)|[폴더 활동](#folder-activities)|[SharePoint 목록 활동](#sharepoint-list-activities)|
-|[공유 및 액세스 요청 활동](#sharing-and-access-request-activities)|[동기화 활동](#synchronization-activities)|[사이트 사용 권한 활동](#site-permissions-activities)|
-|[사이트 관리 활동](#site-administration-activities)|[Exchange 사서함 활동](#exchange-mailbox-activities)|[사용자 관리 활동](#user-administration-activities)|
-|[Azure AD 그룹 관리 활동](#azure-ad-group-administration-activities)|[응용 프로그램 관리 활동](#application-administration-activities)|[역할 관리 활동](#role-administration-activities)|
-|[디렉터리 관리 활동](#directory-administration-activities)|[eDiscovery 활동](#ediscovery-activities)|[고급 eDiscovery 활동](#advanced-ediscovery-activities)|
-|[Power BI 활동](#power-bi-activities)|[Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)|[Microsoft Teams 활동](#microsoft-teams-activities)|
-|[Microsoft Teams 보건 활동](#microsoft-teams-healthcare-activities)|[Microsoft Teams Shifts 활동](#microsoft-teams-shifts-activities)|[Yammer 활동](#yammer-activities)|
-|[Microsoft Power Automate 활동](#microsoft-power-automate-activities)|[Microsoft Power Apps 활동](#microsoft-power-apps-activities)|[Microsoft Stream 활동](#microsoft-stream-activities)|
-|[콘텐츠 탐색기 활동](#content-explorer-activities)|[격리 활동](#quarantine-activities)|[Microsoft Forms 활동](#microsoft-forms-activities)|
-|[민감도 레이블 및 활동](#sensitivity-label-activities)|[유지 정책 및 보존 레이블 활동](#retention-policy-and-retention-label-activities)|[Exchange 관리자 활동](#exchange-admin-audit-log)
-|||
+:::row:::
+    :::column:::
+        [파일 및 페이지 활동](#file-and-page-activities)
+    :::column-end:::
+    :::column:::
+        [폴더 활동](#folder-activities)
+    :::column-end:::
+    :::column:::
+        [SharePoint 목록 활동](#sharepoint-list-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [공유 및 액세스 요청 활동](#sharing-and-access-request-activities)
+    :::column-end:::
+    :::column:::
+        [동기화 활동](#synchronization-activities)
+    :::column-end:::
+    :::column:::
+        [사이트 사용 권한 활동](#site-permissions-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [사이트 관리 활동](#site-administration-activities)
+    :::column-end:::
+    :::column:::
+        [Exchange 사서함 활동](#exchange-mailbox-activities)
+    :::column-end:::
+    :::column:::
+        [사용자 관리 활동](#user-administration-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Azure AD 그룹 관리 활동](#azure-ad-group-administration-activities)
+    :::column-end:::
+    :::column:::
+        [응용 프로그램 관리 활동](#application-administration-activities)
+    :::column-end:::
+    :::column:::
+        [역할 관리 활동](#role-administration-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [디렉터리 관리 활동](#directory-administration-activities)
+    :::column-end:::
+    :::column:::
+        [eDiscovery 활동](#ediscovery-activities)
+    :::column-end:::
+    :::column:::
+        [고급 eDiscovery 활동](#advanced-ediscovery-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Power BI 활동](#power-bi-activities)
+    :::column-end:::
+    :::column:::
+        [Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)
+    :::column-end:::
+    :::column:::
+        [Microsoft Teams 활동](#microsoft-teams-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Microsoft Teams 보건 활동](#microsoft-teams-healthcare-activities)
+    :::column-end:::
+    :::column:::
+        [Microsoft Teams Shifts 활동](#microsoft-teams-shifts-activities)
+    :::column-end:::
+    :::column:::
+        [Yammer 활동](#yammer-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Microsoft Power Automate 활동](#microsoft-power-automate-activities)
+    :::column-end:::
+    :::column:::
+        [Microsoft Power Apps 활동](#microsoft-power-apps-activities)
+    :::column-end:::
+    :::column:::
+        [Microsoft Stream 활동](#microsoft-stream-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [콘텐츠 탐색기 활동](#content-explorer-activities)
+    :::column-end:::
+    :::column:::
+        [격리 활동](#quarantine-activities)
+    :::column-end:::
+    :::column:::
+        [Microsoft Forms 활동](#microsoft-forms-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [민감도 레이블 및 활동](#sensitivity-label-activities)
+    :::column-end:::
+    :::column:::
+        [유지 정책 및 보존 레이블 활동](#retention-policy-and-retention-label-activities)
+    :::column-end:::
+    :::column:::
+        [Exchange 관리자 활동](#exchange-admin-audit-log)
+    :::column-end:::
+:::row-end:::
 
 ### <a name="file-and-page-activities"></a>파일 및 페이지 활동
 

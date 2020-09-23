@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: 관리자는 조직의 HR (인적 자원) 시스템에서 직원 데이터를 Microsoft 365로 가져오는 데이터 커넥터를 설정할 수 있습니다. 이를 통해 참가자 위험 관리 정책에 HR 데이터를 사용 하 여 조직에 내부적인 위협을 초래할 수 있는 특정 사용자의 작업을 검색 하는 데 도움을 받을 수 있습니다.
-ms.openlocfilehash: a8eaeda3bc883de55a2c588e39557b4517ae3cc5
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: 31afa01a518028e7ec25116e947b4e0d6dc94dac
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47817168"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201547"
 ---
-# <a name="set-up-a-connector-to-import-hr-data-preview"></a>HR 데이터를 가져오기 위한 연결선 설정 (미리 보기)
+# <a name="set-up-a-connector-to-import-hr-data"></a>HR 데이터를 가져올 커넥터 설정
 
 Microsoft 365 준수 센터에서 데이터 커넥터를 설정 하 여 사용자의 resignation 또는 사용자의 작업 수준 변경 같은 이벤트와 관련 된 HR (인적 자원) 데이터를 가져올 수 있습니다. 그런 다음 [참가자 위험 관리 솔루션](insider-risk-management.md) 에서 HR 데이터를 사용 하 여 조직 내부의 사용자가 악의적 활동 또는 데이터 절도를 식별 하는 데 도움이 되는 위험 지표를 생성할 수 있습니다.
 
@@ -56,14 +56,14 @@ Microsoft 365 준수 센터에서 데이터 커넥터를 설정 하 여 사용�
 | **정책 템플릿**| **HR 데이터 형식**|
 |:-----------------------------------------------|:---------------------------------------------------------------------|
 | Departing 사용자의 데이터 도난                   | 직원 resignations                                                 |
-| 일반 데이터 누수                              | 해당 없음                                                        |
-| 우선 순위 사용자 별 데이터 유출                    | 해당 없음                                                        |
+| 일반 데이터 누수                              | 해당 사항 없음                                                        |
+| 우선 순위 사용자 별 데이터 유출                    | 해당 사항 없음                                                        |
 | 불만 사용자에의 한 데이터 유출                 | 작업 수준 변경, 성능 검토, 성능 개선 계획 |
-| 일반 보안 정책 위반              | 해당 없음                                                        |
+| 일반 보안 정책 위반              | 해당 사항 없음                                                        |
 | Departing 사용자의 보안 정책 위반   | 직원 resignations                                                 |
-| 우선 순위 사용자 별 보안 정책 위반    | 해당 없음                                                        |
+| 우선 순위 사용자 별 보안 정책 위반    | 해당 사항 없음                                                        |
 | 불만 사용자에의 한 보안 정책 위반 | 작업 수준 변경, 성능 검토, 성능 개선 계획 |
-| 전자 메일의 공격적인 언어                     | 해당 없음                                                        |
+| 전자 메일의 공격적인 언어                     | 해당 사항 없음                                                        |
 
 참가자 위험 관리의 정책 템플릿에 대 한 자세한 내용은 [참가자 위험 관리 정책을](insider-risk-management-policies.md#policy-templates)참조 하세요.
 
@@ -219,7 +219,7 @@ Azure AD에서 앱을 만드는 단계별 지침은 [Microsoft id 플랫폼을 �
 
 1. 로 이동한 [https://compliance.microsoft.com](https://compliance.microsoft.com/) 후 왼쪽 탐색 창에서 **데이터 커넥터** 를 클릭 합니다.
 
-2. **데이터 커넥터 (미리 보기)** 페이지의 **HR**에서 **보기**를 클릭 합니다.
+2. **데이터 커넥터** 페이지의 **HR**에서 **보기**를 클릭 합니다.
 
 3. **HR 사용자 지정** 페이지에서 **커넥터 추가**를 클릭 합니다.
 

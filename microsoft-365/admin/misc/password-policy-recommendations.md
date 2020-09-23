@@ -19,15 +19,15 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: 암호 공격으로부터 조직을 더 안전하게 보호하는 방법과 일반적인 암호를 금지하고 위험 기반 다단계 인증을 사용해야 하는 이유를 알아봅니다.
-ms.openlocfilehash: 1d6e399acb83751ec6a45eb0c811dedec394127e
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 0ae26dc27cc698c24d999acde03f63f9cfead081
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45015926"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131945"
 ---
 # <a name="password-policy-recommendations"></a>권장 암호 정책
- 
+
 조직의 관리자는 조직의 사용자에 대한 암호 정책을 설정할 책임이 있습니다. 암호 정책의 설정은 복잡하고 혼동될 수 있습니다. 이 문서에서는 조직을 암호 공격으로부터 더 안전하게 보호하기 위한 권장 사항을 제공합니다.
   
 조직의 Microsoft 365 암호 만료 주기를 확인하려면 [Microsoft 365 암호 만료 정책 설정](../manage/set-password-expiration-policy.md)을 참조하세요.
@@ -78,11 +78,11 @@ Microsoft 365 암호에 대한 자세한 내용은[관련 문서](#related-artic
   
 ### <a name="password-expiration-requirements-for-users"></a>사용자의 암호 만료 요구 사항
 
-암호 만료 요구 사항은 사용자가 서로 밀접하게 관련이 있는 순차적인 단어 및 숫자로 구성된 예측 가능한 암호를 선택하도록 하기 때문에 득보다 해를 줄 수 있습니다. 이 경우 이전 암호를 기준으로 다음 암호를 예측할 수 있습니다. 사이버 범죄자는 자격 증명이 손상되는 즉시 거의 항상 자격 증명을 사용하므로 암호 만료 요구 사항에는 방지 이점이 없습니다.
+암호 만료 요구 사항은 사용자가 서로 밀접하게 관련이 있는 순차적인 단어 및 숫자로 구성된 예측 가능한 암호를 선택하도록 하기 때문에 득보다 해를 줄 수 있습니다. 이 경우 이전 암호를 기준으로 다음 암호를 예측할 수 있습니다. 사이버 범죄자는 자격 증명이 손상되는 즉시 거의 항상 자격 증명을 사용하므로 암호 만료 요구 사항에는 방지 이점이 없습니다. 자세한 내용은 [강제 비밀번호 변경을 다시 생각할 시간](https://go.microsoft.com/fwlink/p/?linkid=861018)을 확인하세요.
   
 ### <a name="requiring-long-passwords"></a>긴 암호 요구
 
-암호 길이 요구 사항(10자 이상)에는 예측 가능하고 바람직하지 않은 사용자 동작이 발생할 수 있습니다. 예를 들어, 16자 암호를 입력해야 하는 사용자가 문자 길이 요구 사항을 충족하지만 추측하기 어렵지 않은 **fourfourfourfour** 또는 **passwordpassword**와 같은 반복되는 패턴을 선택할 수 있습니다. 또한 길이 요구 사항으로 사용자는 암호를 적어 두거나 재사용하거나 문서에 암호화되지 않은 상태로 저장하는 등의 안전하지 않은 방법을 채택할 확률이 높아집니다. 사용자가 고유한 암호를 생각하도록 유도하려면 최소 8자 길이의 적정 요구 사항을 유지하는 것이 좋습니다. 
+암호 길이 요구 사항(10자 이상)에는 예측 가능하고 바람직하지 않은 사용자 동작이 발생할 수 있습니다. 예를 들어, 16자 암호를 입력해야 하는 사용자가 문자 길이 요구 사항을 충족하지만 추측하기 어렵지 않은 **fourfourfourfour** 또는 **passwordpassword**와 같은 반복되는 패턴을 선택할 수 있습니다. 또한 길이 요구 사항으로 사용자는 암호를 적어 두거나 재사용하거나 문서에 암호화되지 않은 상태로 저장하는 등의 안전하지 않은 방법을 채택할 확률이 높아집니다. 사용자가 고유한 암호를 생각하도록 유도하려면 최소 8자 길이의 적정 요구 사항을 유지하는 것이 좋습니다.
   
 ### <a name="requiring-the-use-of-multiple-character-sets"></a>여러 문자 집합을 사용해야 하는 경우
 
@@ -131,8 +131,6 @@ Microsoft 365 암호에 대한 자세한 내용은[관련 문서](#related-artic
 - [필수 암호 변경 내용을 다시 생각하는 시간](https://go.microsoft.com/fwlink/p/?linkid=861018)
 
 - [2015년 최악의 비밀번호](https://go.microsoft.com/fwlink/p/?linkid=861020)
-
-- [웹에서 파일 다운로드](https://go.microsoft.com/fwlink/p/?linkid=861029)
 
 ## <a name="related-articles"></a>관련 문서
 

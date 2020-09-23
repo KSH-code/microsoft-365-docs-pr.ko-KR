@@ -21,19 +21,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
-description: 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다. 예를 들어 서비스 관리자는 Microsoft로 지원 티켓을 엽니다.
-ms.openlocfilehash: d80207ac264cb1b649f631d358c86809c2992a8e
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+description: 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다. 예를 들어, 서비스 관리자는 관리 센터를 통해 지원 티켓을 열 수 있습니다.
+ms.openlocfilehash: 35fee24a2e9de6c00f37e93c59851b7e760baa19
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47361776"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131785"
 ---
 # <a name="about-admin-roles"></a>관리자 역할 정보
 
 Microsoft 365 또는 Office 365 구독은 Microsoft 365 관리 센터를 사용하여 조직의 사용자에게 할당할 수 있는 관리자 역할의 집합과 함께 제공됩니다. 각 관리자 역할은 공통 비즈니스 기능에 매핑되며 조직의 직원에게 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다.
 
 Microsoft 365 관리 센터를 통해 Azure AD 역할과 Microsoft Intune 역할을 관리할 수 있습니다. 그러나 해당 역할은 Azure AD 포털과 Intune 관리 센터에서 사용할 수 있는 역할의 하위 집합입니다.
+
+## <a name="before-you-begin"></a>시작하기 전에
 
 Microsoft 365 관리 센터에서 관리할 수 있는 자세한 Azure AD 역할 설명의 전체 목록을 찾고 계신가요? Azure Active Directory의 관리자 역할 권한을 확인하세요. [Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
 

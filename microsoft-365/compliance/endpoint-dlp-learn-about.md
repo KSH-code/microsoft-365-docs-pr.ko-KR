@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'Microsoft 365 끝점 데이터 손실 방지는 파일 활동의 모니터링 및 해당 파일에 대한 보호 작업을 끝점으로 확장합니다. 파일은 Microsoft 365 규정 준수 솔루션에서 확인할 수 있습니다. '
-ms.openlocfilehash: 2423f45fefe994fbaf5704074c49ce862a59340e
-ms.sourcegitcommit: df59c83174d845b8ddec48b9be2659fbfb58bb7f
+ms.openlocfilehash: 7403f20fa7c97c63be0e5001e8d3f5b37b409eee
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46517499"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131550"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention-preview"></a>Microsoft 365 끝점 데이터 손실 방지(미리 보기) 알아보기
 
@@ -120,7 +120,7 @@ Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사
 - 장치 이름
 - 대상 위치 유형
 - 복사를 수행한 응용 프로그램
-- MDATP 장치 ID(해당하는 경우)
+- 엔드포인트용 Microsoft Defender 장치 ID(해당하는 경우)
 - 이동식 미디어 장치 제조업체
 - 이동식 미디어 장치 모델
 - 이동식 미디어 장치 일련 번호
