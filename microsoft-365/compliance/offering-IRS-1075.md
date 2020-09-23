@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 83c66bfce39698cfea7833433d337fe7411e0ebe
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: bf1297fb955a2f66de0d6e5677668952c8808c5c
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416348"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208380"
 ---
 # <a name="us-internal-revenue-service-publication-1075"></a>미국 내부 수익 서비스 게시 1075
 
@@ -43,7 +43,7 @@ Microsoft Azure 정부 및 [Microsoft Office 365 U.S. 정부](https://products.o
 - IRS Azure 정부 준수 고려 사항 및 Office 365 미국 정부 준수 고려 사항에 대해 설명 하 고,이를 통해 에이전시에서 IRS 1075을 준수 하는 방식으로 정부 서비스용 Microsoft 클라우드를 사용 하는 방법을 대략적으로 소개 합니다. NDA에 거주 하는 정부 고객은 이러한 문서를 요청할 수 있습니다.
 - 고객에 게 필요한 경우 Microsoft 주제별 전문가 또는 외부 감사자와 정보를 교환할 기회를 제공 합니다.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내의 클라우드 서비스
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
 FedRAMP 인증은 NIST 지침 (낮음, 중간, 높음)에 따라 세 가지 영향 수준으로 부여 됩니다. 이러한 경우 기밀성, 무결성 또는 가용성의 손실로 인 한 영향을 조직에 미칠 수 있는 영향은 낮음 (제한적 효과), 중간 (심각한 부정적 효과), 높음 (심각 또는 치명적 효과)
 
@@ -75,6 +75,10 @@ Microsoft는 보안, 개인 정보, 운영 체제 및 NIST 800-53 rev를 정기�
 **Azure 또는 Office 365 공용 클라우드 환경을 사용할 수 있으 나 계속 해 서 IRS 1075을 준수 하나요?**
 
 아니요. FTI을 저장 하 고 처리할 수 있는 유일한 환경은 Azure 정부 또는 Office 365 U.S. 정부입니다. 정부 고객은 이러한 환경을 사용 하기 위해 자격 요구 사항을 충족 해야 합니다.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용 하 여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md) 는 조직의 규정 준수 상태를 이해 하 고 위험을 줄이는 데 도움이 되는 작업을 수행 하는 데 도움이 되는 [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 기능입니다. 준수 관리자는이 규정에 대 한 평가를 빌드하기 위한 프리미엄 템플릿을 제공 합니다. 준수 관리자의 **평가 템플릿** 페이지에서 템플릿을 찾습니다. [준수 관리자에서 평가를 작성](compliance-manager-assessments.md)하는 방법을 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

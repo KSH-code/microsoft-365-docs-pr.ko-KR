@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: fa93c78d240c243911e21e687ef5d02c29b714b2
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 59e11a5e0142647003ea4b0e9f1876ebedb37d00
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417342"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208450"
 ---
 # <a name="food-and-drug-administration-cfr-title-21-part-11"></a>음식 및 마약 관리 CFR 제목 21 부
 
@@ -45,7 +45,7 @@ Microsoft enterprise 클라우드 서비스는 일반 독립 타사 SOC 1 유형
 
 FDA CFR 타이틀을 가속화 하는 방법을 알아봅니다. 21 배포: [AZURE FDA 21 검증 가이드 다운로드](https://go.microsoft.com/fwlink/p/?linkid=2086604)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내의 클라우드 서비스
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
 CFR 제목 21 부를 준수 하기 위한 인증을 사용 하지 않지만 다음 Microsoft enterprise 클라우드 서비스는 독립 된 타사 감사를 준수 했으며,이로 인해 고객이 규정을 준수할 지 원하는 데 도움이 될 수 있습니다. 이러한 서비스는 다음과 같습니다.
 
@@ -79,9 +79,13 @@ Microsoft에서 구현 하는 감사 된 컨트롤은 데이터의 기밀성, �
 
 예. IEC/ISO 27001, ISO/IEC 27018, SOC 1 및 SOC 2 표준의 독립 타사 준수 보고서는 Microsoft 컨트롤의 효율성을 보증 합니다. Microsoft enterprise 클라우드 고객은 이러한 관련 보고서에 설명 된 감사 되는 컨트롤을 자체 CFR 제목 21 부 위험 분석 및 한정 노력의 일부로 사용할 수 있습니다. FDA 규정에 따라 응용 프로그램을 작성 하 고 배포 하는 고객은 응용 프로그램이 FDA 요구 사항을 충족 하는지 확인 해야 합니다.
 
-**이 표준과의 규정 준수를 유지 하기 위한 Microsoft의 책임은 무엇 인가요?**
+**이 표준에 따른 규정 준수를 유지하기 위한 Microsoft의 책임은 무엇인가요?**
 
 Microsoft는 해당 엔터프라이즈 클라우드 서비스가 [온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31) 및 해당 Sla (서비스 수준 계약)에 정의 된 용어를 충족 하는지 확인 합니다. 이는 시스템을 안전 하 고 모니터링 하는 데 적합 한 제어를 구현 및 유지 관리 하는 책임을 정의 합니다.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용 하 여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md) 는 조직의 규정 준수 상태를 이해 하 고 위험을 줄이는 데 도움이 되는 작업을 수행 하는 데 도움이 되는 [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 기능입니다. 준수 관리자는이 규정에 대 한 평가를 빌드하기 위한 프리미엄 템플릿을 제공 합니다. 준수 관리자의 **평가 템플릿** 페이지에서 템플릿을 찾습니다. [준수 관리자에서 평가를 작성](compliance-manager-assessments.md)하는 방법을 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

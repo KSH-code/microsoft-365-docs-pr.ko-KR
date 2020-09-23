@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c91c71f199ef36c1c9a0da023c7b26d6cb64282e
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 94e83110ef9761f551fd1401884dbba58a8df107
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415782"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208440"
 ---
 # <a name="federal-risk-and-authorization-management-program-fedramp"></a>FedRAMP(Federal Risk and Authorization Management Program)
 
@@ -109,9 +109,9 @@ FedRAMP을 성공적으로 탐색 하 고 해당 요구 사항을 충족 하기 
 
 예. 연방 정부 기관에서 ATO를 필요로 하는 모든 프로그램 또는 이니셔티브의 기반으로 Microsoft 클라우드 서비스의 인증을 사용할 수 있습니다. 그러나 이러한 서비스 외부의 구성 요소에 대 한 사용자의 권한 부여를 구현 해야 합니다.
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용하여 위험 평가
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용 하 여 위험 평가
 
-[Microsoft 준수 점수](compliance-score.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 컴플라이언스 센터](microsoft-365-compliance-center.md)의 미리 보기 기능입니다. [규정 준수 점수를 설정한](compliance-score-setup.md)후에는 **서식 파일** 드롭다운 메뉴에서 미리 구성 된 [FedRAMP 서식 파일](https://go.microsoft.com/fwlink/?linkid=2118102) 을 선택 하 여 조직이이 규정 요구 사항을 충족 하는 데 도움을 받을 수 있습니다.
+[Microsoft 준수 관리자](compliance-manager.md) 는 조직의 규정 준수 상태를 이해 하 고 위험을 줄이는 데 도움이 되는 작업을 수행 하는 데 도움이 되는 [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 기능입니다. 준수 관리자는이 규정에 대 한 평가를 빌드하기 위한 프리미엄 템플릿을 제공 합니다. 준수 관리자의 **평가 템플릿** 페이지에서 템플릿을 찾습니다. [준수 관리자에서 평가를 작성](compliance-manager-assessments.md)하는 방법을 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

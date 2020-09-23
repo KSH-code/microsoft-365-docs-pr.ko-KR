@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: fa38b81ff02729f1bd874c1ac286712b0a6bbb7a
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 9ff029904a34291f4131f2013ffe30b73aa3233c
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416812"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208784"
 ---
 # <a name="insider-risk-management-policies"></a>참가자 위험 관리 정책
 
@@ -71,7 +71,7 @@ ms.locfileid: "47416812"
 
 **데이터 누수** 템플릿에서 만드는 각 참가자 위험 관리 정책에는 하나의 DLP 정책만 할당할 수 있습니다. 검색 하려는 여러 활동을 결합 하 고 **데이터 누수** 템플릿을 사용 하는 참가자 위험 정책에 대 한 이벤트를 트리거하는 역할을 하는 전용 DLP 정책을 만드는 것이 좋습니다.
 
-조직의 DLP 정책을 구성 하는 단계별 지침은 [dlp 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md) 항목을 참조 하십시오.
+조직의 DLP 정책을 구성 하는 방법에 대 한 자세한 내용은 [dlp 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md) 의 단계별 지침을 참조 하십시오.
 
 ### <a name="data-leaks-by-priority-users-preview"></a>우선 순위 사용자의 데이터 누수 (미리 보기)
 
@@ -115,6 +115,9 @@ Departing 사용자는 긍정 또는 음의 용어를 떠나는 경우 보안 �
 
 ### <a name="offensive-language-in-email"></a>전자 메일의 공격적인 언어
 
+>[!IMPORTANT]
+>2020 년 10 월 16 일부터이 템플릿을 사용 하 여 더 이상 정책을 만들 수 없습니다. 이 서식 파일을 사용 하는 모든 활성 정책은 1 월 2021 일에 영구적으로 제거 될 때까지 작동 합니다. 이 서식 파일을 지 원하는 방식의 기본 제공 분류자에는 많은 수의 가양성이 생성 되었기 때문입니다. 공격적인 언어에 대 한 위험 문제를 해결 하려면 Microsoft 365 [통신 준수](communication-compliance.md) 정책을 사용 하는 것이 좋습니다. 기본 제공 분류자에 대 한 자세한 내용은 [trainable 분류자 시작](classifier-get-started-with.md)을 참조 하십시오.
+
 위험을 방지 하기 위해 원하지 않는 행동을 방지 하기 위해 작업을 검색 하 고 수행 합니다. Microsoft 365의 기본 제공 분류자는 다양 한 유형의 준수 문제를 해결 하기 위해 조직의 Exchange Online 사서함에서 전자 메일 메시지를 전송 했습니다. 이러한 분류자는 인공 지능 및 키워드를 함께 사용 하 여 harassment 정책을 위반할 가능성이 있는 전자 메일의 언어를 식별 합니다. 이 서식 파일을 사용 하면 이러한 분류자를 사용 하 여 악성 또는 비속어로 간주 되는 전자 메일 메시지 콘텐츠를 자동으로 검색 하는 정책을 빠르게 만들 수 있습니다. 참가자 위험 관리는 전자 메일 메시지를 검사 하는 분류자를 사용 하 여 한국어 및 비속어를 sentiment 합니다.
 
 ### <a name="policy-template-prerequisites-and-triggering-events"></a>정책 템플릿 필수 구성 요소 및 트리거 이벤트
@@ -139,7 +142,7 @@ Departing 사용자는 긍정 또는 음의 용어를 떠나는 경우 보안 �
 
 참가자 위험 관리 정책은 저장 되는 위치 또는 분류 방법에 따라 콘텐츠에 대해 더 높은 우선 순위를 지정 하는 것을 지원 합니다. 콘텐츠를 우선 순위로 지정 하면 연결 된 모든 활동에 대 한 위험 점수가 증가 하며, 그러면 높은 심각도 경고가 생성 될 확률이 높아집니다. 그러나 관련 콘텐츠에 기본 제공 또는 사용자 지정 중요 한 정보 유형이 포함 되거나 정책에서 우선 순위로 지정 되지 않은 경우에는 일부 작업에서 경고가 생성 되지 않습니다.
 
-예를 들어 조직에는 고도로 기밀 프로젝트에 대 한 전용 SharePoint 사이트가 있습니다. 이 SharePoint 사이트의 정보에 대 한 데이터 누출은 프로젝트를 손상 시킬 수 있으며,이로 인해 성공을 위해 상당한 영향을 줍니다. 데이터 누수 정책에서이 SharePoint 사이트의 우선 순위를 지정 하면 우량으로 선별 된 작업에 대 한 위험 점수가 자동으로 증가 합니다. 이렇게 하면 이러한 활동이 참가자 위험 경고를 생성할 가능성이 높아지고 경고 심각도 수준이 증가 합니다.
+예를 들어 조직에는 고도로 기밀 프로젝트에 대 한 전용 SharePoint 사이트가 있습니다. 이 SharePoint 사이트의 정보에 대 한 데이터 누출은 프로젝트를 손상 시킬 수 있으며,이로 인해 성공을 위해 상당한 영향을 줍니다. 데이터 누수 정책에서이 SharePoint 사이트의 우선 순위를 지정 하면 우량으로 선별 된 작업에 대 한 위험 점수가 자동으로 증가 합니다. 이 우선 순위를 지정 하면 이러한 활동이 참가자 위험 경고를 생성 하 고 경고 심각도 수준을 높일 가능성이 높아집니다.
 
 정책 마법사에서 참가자 위험 관리 정책을 만들 때 다음 우선 순위 중에서 선택할 수 있습니다.
 

@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: f30e2353-0bd6-41ed-8347-eea1fb8d2662
 description: 보안, 개인 정보 보호 및 준수 방법에 도움이 되도록 Microsoft 서비스 보안 포털에 액세스 하 고 사용 하는 방법을 알아봅니다.
-ms.openlocfilehash: 40c80c0256f730784373a0ff96474d02dbf175c5
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: a3a46884a41be31779b82a74bc2b6750dea697c5
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547476"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197765"
 ---
 # <a name="get-started-with-the-microsoft-service-trust-portal"></a>Microsoft Service Trust Portal 시작
 
@@ -68,11 +68,8 @@ Microsoft Service Trust Portal은 Microsoft 보안, 개인 정보 보호 및 규
 
 ### <a name="compliance-manager"></a>규정 관리자
 
-준수 관리자는 microsoft 클라우드 서비스와 관련 된 조직의 규정 준수 활동 (예: 마이크로소프트 365, Dynamics 365 및 Azure)을 추적, 할당 및 확인 하는 데 도움이 되는 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하 여 클라우드의 공유 책임 모델 내에서 규정 준수를 관리 합니다. 사용 하려는 준수 관리자 버전에 따라 자세한 내용은 다음 문서를 참조 하세요.
-
-- [Microsoft 준수 관리자 (클래식)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
-
-- [Microsoft 준수 관리자 (미리 보기)](compliance-manager-overview.md)
+> [!IMPORTANT]
+> 준수 관리자가 서비스 신뢰 포털에서 [Microsoft 365 준수 센터](https://compliance.microsoft.com/)의 새 위치로 이동 했습니다. 모든 고객 데이터가 새 위치로 이동 되었으므로 중단 없이 준수 관리자를 계속 사용할 수 있습니다. 설치 정보에 대 한 [준수 관리자 설명서](compliance-manager.md) 를 참조 하 고 새 기능에 대해 자세히 알아보세요. 준수 관리자의 클래식 버전은 서비스 신뢰 포털에 남아 있지만 모든 사용자는 Microsoft 365 준수 센터에서 준수 관리자를 사용 하는 것이 좋습니다.
 
 ### <a name="trust-documents"></a>보안 문서
 
@@ -110,15 +107,9 @@ Microsoft 클라우드에서 보안, 규정 준수 및 개인 정보 보호에 �
 
 **기타 > 관리자로** 이동 하 여 전역 관리자 계정에만 사용할 수 있는 관리 기능에 액세스 합니다. 이 옵션은 전역 관리자로 로그인 한 경우에만 표시 됩니다. **관리** 풀 다운 메뉴에는 다음과 같은 두 가지 옵션이 있습니다.
 
-- **설정:** 이 페이지에서는 *사용자 역할*이라고 하는 역할 기반 액세스를 준수 관리자에 게 할당할 수 있습니다.  자세한 내용은 다음을 참조하세요.
+- **설정:** 이 페이지에서는 준수 관리자에 대 한 사용자 역할을 할당할 수 있습니다 (클래식).
 
-  - [준수 관리자의 사용 권한 (클래식)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#permissions-and-role-based-access-control)
-
-  - [준수 관리자의 사용 권한 (미리 보기)](compliance-manager-overview.md#permissions)
-
-  보안 점수에 있는 동일한 작업의 상태에 따라 준수 관리자의 작업이 업데이트 되었는지 여부를 구성할 수도 있습니다. 이 기능은 최신 버전의 준수 관리자를 사용 하는 경우에만 지원 됩니다. 자세한 내용은 [자동 보안 점수 업데이트 제어](working-with-compliance-manager.md#controlling-automatic-secure-score-updates)를 참조 하세요.
-
-- **사용자 개인 정보 설정:** 이 페이지에서는 특정 사용자에 대해 준수 관리자의 작업 항목 할당을 포함 하는 보고서를 내보낼 수 있습니다. 모든 작업 항목을 다른 사용자에 게 다시 할당 하 고 지정 된 사용자에 게 할당 된 모든 작업 항목을 제거할 수도 있습니다. 자세한 내용은 [사용자 개인 정보 설정을](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#user-privacy-settings)참조 하십시오.
+- **사용자 개인 정보 설정:** 이 페이지에서는 특정 사용자에 대 한 작업 항목 할당이 준수 관리자 (클래식)로 포함 된 보고서를 내보낼 수 있습니다. 모든 작업 항목을 다른 사용자에 게 다시 할당 하 고 지정 된 사용자에 게 할당 된 모든 작업 항목을 제거할 수도 있습니다.
 
 ### <a name="search"></a>검색
 
@@ -128,7 +119,7 @@ Microsoft 클라우드에서 보안, 규정 준수 및 개인 정보 보호에 �
 
 기본적으로 검색 시 문서 결과가 반환 됩니다. 드롭다운 목록을 사용 하 여 표시 되는 문서 목록을 구체화 하 여 결과를 필터링 할 수 있습니다. 여러 필터를 사용 하 여 문서 목록의 범위를 좁힐 수 있습니다. 필터에는 특정 클라우드 서비스, 준수 범주 또는 보안 관행, 지역 및 산업이 포함 됩니다. 문서 이름 링크를 클릭 하 여 문서를 다운로드 합니다.
 
-준수 관리자에서 검색 용어와 관련 된 평가의 제어를 나열 하려면 **준수 관리자**를 클릭 합니다. 검색 결과에는 평가를 만든 날짜, 평가 그룹의 이름, 적용 가능한 Microsoft 클라우드 서비스 및 해당 컨트롤이 Microsoft 또는 고객의 관리 인지 여부가 표시 됩니다. 준수 관리자의 평가에서 컨트롤을 보려면 컨트롤의 이름을 클릭 합니다.
+규정 준수 관리자 (클래식)에서 검색 용어와 관련 된 평가의 제어를 나열 하려면 **준수 관리자**를 클릭 합니다. 검색 결과에는 평가를 만든 날짜, 평가 그룹의 이름, 적용 가능한 Microsoft 클라우드 서비스 및 해당 컨트롤이 Microsoft 또는 고객의 관리 인지 여부가 표시 됩니다. 준수 관리자의 평가에서 컨트롤을 보려면 컨트롤의 이름을 클릭 합니다 (클래식).
 
 ![Service Trust Portal - 준수 관리자 컨트롤에서 검색](../media/bafb811a-68ce-40b5-ad16-058498fe5439.png)
 

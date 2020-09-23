@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cbf8b04fe4e3d301d3ee79c09895093f97c2e785
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 89f7e0ca95144e783b70e23c21008dcc46328522
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417352"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208460"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>가족 교육 기관 권한 및 FERPA (개인 정보 취급 방침)
 
@@ -41,7 +41,7 @@ FERPA는 감사 또는 기타 인증을 요구 하거나 인식 하지 않으므
 
 이러한 계약 약정의 결과로, FERPA가 되는 고객 (교육 기관 및 제 3 자)이 중요 한 학생 데이터에 대 한 액세스 권한을 부여 하는 경우에는 범위 내 Microsoft business cloud services를 사용 하 여 해당 데이터를 처리, 저장 및 전송할 수 있습니다.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내의 클라우드 서비스
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
 고객 데이터의 ' 합법적인 교육 취미 '를 사용 하 여 Microsoft의 ' 학교 공식 '으로 지정 하기로 동의한 서비스는 다음과 같습니다.
 
@@ -67,6 +67,10 @@ FERPA는 감사 또는 인증을 요구 하거나 인식 하지 않습니다.
 
 - [연방 레지스터: FERPA Final Rule](https://aka.ms/ferpa-reg) (12 월 2011)
 - [부모에 대 한 FERPA 일반 지침](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/parents.html)
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용 하 여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md) 는 조직의 규정 준수 상태를 이해 하 고 위험을 줄이는 데 도움이 되는 작업을 수행 하는 데 도움이 되는 [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 기능입니다. 준수 관리자는이 규정에 대 한 평가를 빌드하기 위한 프리미엄 템플릿을 제공 합니다. 준수 관리자의 **평가 템플릿** 페이지에서 템플릿을 찾습니다. [준수 관리자에서 평가를 작성](compliance-manager-assessments.md)하는 방법을 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

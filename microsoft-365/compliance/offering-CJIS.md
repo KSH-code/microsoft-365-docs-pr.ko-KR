@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5680cc1bf8f3a0290f82baaccea1de7b982317a7
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 4ca7654482251d86c44a3956c71f704a0cc3f2d4
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416420"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208620"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>형사법 (CJIS) 보안 정책
 
@@ -43,7 +43,7 @@ Microsoft 클라우드의 CJIS 보안 정책 혜택에 대해 자세히 알아�
 
 Azure 보안 및 준수 청사진을 사용 하 여 CJIS 보안 정책을 가속화 하는 방법을 알아봅니다. [Microsoft 정부 클라우드 서비스에 대 한 cjis 구현 지침 다운로드](https://gallery.technet.microsoft.com/CJIS-Implementation-62af7c27)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내의 클라우드 서비스
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
 - [Azure 정부](https://aka.ms/AzureCompliance)
 - [Dynamics 365 미국 정부](https://aka.ms/d365-compliance-list)
@@ -77,6 +77,10 @@ Microsoft는 CSA (CJIS Systems 에이전시)를 사용 하 여 정보 계약에 
 **에이전시의 규정 준수 관련 활동은 어디에서 시작 하나요?**
 
 [Cjis 보안 정책은](https://aka.ms/cjis-security-policy) CJI을 보호 하기 위해 에이전시에서 수행 해야 하는 예방 조치를 다룹니다. 또한 Microsoft 계정 담당자는 관할지 요구 사항에 익숙한 사용자에 게 연락할 수 있습니다.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용 하 여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md) 는 조직의 규정 준수 상태를 이해 하 고 위험을 줄이는 데 도움이 되는 작업을 수행 하는 데 도움이 되는 [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 기능입니다. 준수 관리자는이 규정에 대 한 평가를 빌드하기 위한 프리미엄 템플릿을 제공 합니다. 준수 관리자의 **평가 템플릿** 페이지에서 템플릿을 찾습니다. [준수 관리자에서 평가를 작성](compliance-manager-assessments.md)하는 방법을 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

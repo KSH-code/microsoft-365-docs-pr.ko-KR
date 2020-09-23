@@ -11,16 +11,15 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는&T 모바일 네트워크에서 SMS 및 MMS 데이터를 가져오고 보관 하도록 TeleMessage 커넥터를 설정할 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: dfcc59c6ed7beb088ca738c50112cf40a0ebe511
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: 87974fd18f0e0a7c824e81231418ccf1c838b636
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47362079"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200253"
 ---
-# <a name="set-up-a-connector-to-archive-att-smsmms-data-preview"></a>&T SMS/MMS 데이터 (미리 보기)에서 보관할 커넥터 설정
+# <a name="set-up-a-connector-to-archive-att-smsmms-data"></a>&T SMS/MMS 데이터에 보관할 커넥터 설정
 
 Microsoft 365 준수 센터의 TeleMessage 커넥터를 사용 하 여&T 모바일 네트워크에서 SMS 및 MMS 데이터를 가져오고 보관 합니다. 커넥터를 설정 하 고 구성한 후에는 조직에서 매일 한 번&T 네트워크에 연결 하 고 SMS 및 MMS 데이터를 Microsoft 365의 사서함으로 가져옵니다.
 
@@ -88,4 +87,4 @@ SMS 및 MMS 메시지가 사용자 사서함에 저장 되 면 소송 보존, �
 
 ## <a name="known-issues"></a>알려진 문제
 
-- 이 경우에는 10mb 보다 큰 첨부 파일을 가져올 수 없지만 더 큰 항목에 대 한 지원은 나중에 제공 될 예정입니다.
+- 현재로 서는 10mb 보다 큰 첨부 파일 또는 항목을 가져올 수 없습니다. 더 큰 항목에 대 한 지원은 나중에 제공 될 예정입니다.

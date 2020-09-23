@@ -15,14 +15,14 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 미국 정부 클라우드의 관리자는 조직의 HR (인사) 시스템에서 직원 데이터를 Microsoft 365로 가져오는 데이터 커넥터를 설정할 수 있습니다. 이를 통해 참가자 위험 관리 정책에 HR 데이터를 사용 하 여 조직에 내부적인 위협을 초래할 수 있는 특정 사용자의 작업을 검색 하는 데 도움을 받을 수 있습니다.
-ms.openlocfilehash: 30a3730bcb2d4f41df28c47fdb9ab35e9d012540
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: c1382cd94fcbba1d2ba561657c756e509af21dae
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47817173"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196391"
 ---
-# <a name="set-up-a-connector-to-import-hr-data-in-us-government-preview"></a>US 정부 (미리 보기)에서 HR 데이터를 가져올 커넥터 설정
+# <a name="set-up-a-connector-to-import-hr-data-in-us-government"></a>US 정부에서 HR 데이터를 가져올 커넥터 설정
 
 Microsoft 365 준수 센터에서 데이터 커넥터를 설정 하 여 HR (인적 자원) 데이터를 미국 정부 조직으로 가져올 수 있습니다. HR 관련 데이터에는 직원이 자신의 resignation 및 직원의 마지막 날 날짜를 제출한 날짜가 포함 됩니다. 이 HR 데이터는 [참가자 위험 관리 솔루션과](insider-risk-management.md)같은 Microsoft 정보 보호 솔루션에서 조직의 악의적인 활동 또는 데이터 절도 로부터 조직을 보호 하는 데 사용할 수 있습니다. HR 커넥터를 설정 하는 작업은 커넥터를 통한 인증에 사용 되는 Azure Active Directory에서 응용 프로그램을 만들고, HR 데이터를 포함 하는 CSV 매핑 파일을 만들고, 준수 센터에서 데이터 커넥터를 만든 다음, CSV 파일의 HR 데이터를 Microsoft 클라우드에 ingests 스크립트 (예약 된 방식)를 실행 하는 방법으로 구성 됩니다. 그런 다음 참가자 위험 관리 도구에서 데이터 커넥터를 사용 하 여 Microsoft 365 US 정부 기관으로 가져온 HR 데이터에 액세스 합니다.
 
@@ -77,7 +77,7 @@ CSV 파일의 첫 번째 행 또는 머리글 행에는 필요한 열 이름이 
 
 1. 로 이동한 [https://compliance.microsoft.com](https://compliance.microsoft.com) 후 왼쪽 탐색 창에서 **데이터 커넥터** 를 클릭 합니다.
 
-2. **데이터 커넥터 (미리 보기)** 페이지의 **HR**에서 **보기**를 클릭 합니다.
+2. **데이터 커넥터** 페이지의 **HR**에서 **보기**를 클릭 합니다.
 
 3. **HR** 페이지에서 **커넥터 추가**를 클릭 합니다.
 

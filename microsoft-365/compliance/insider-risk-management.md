@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: d7e06eb025513caa2d4ad61f7b9d8b2a9e0d2cba
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 92b8802325ea6d80241d59bd506051ad048b8422
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199578"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208680"
 ---
 # <a name="insider-risk-management-in-microsoft-365"></a>Microsoft 365의 참가자 위험 관리
 
@@ -108,14 +108,14 @@ Microsoft 365의 참가자 위험 관리의 내부 위험 활동 및 준수 문�
 
 ![참가자 위험 관리 조사](../media/insider-risk-investigate.png)
 
-### <a name="action"></a>동작은
+### <a name="action"></a>작업
 
 사례를 조사한 후에는 검토자가 서비스 케이스를 신속 하 게 해결 하거나 조직의 다른 위험 관련자와 공동 작업을 수행할 수 있습니다. 사용자가 실수로 또는 실수로 정책 조건을 위반 하는 경우 조직에 맞게 사용자 지정할 수 있는 공지 서식 파일에 간단한 미리 알림 메시지를 보낼 수 있습니다. 이러한 알림은 간단한 미리 알림으로 사용 되거나 사용자가 향후 위험한 행동을 방지 하기 위해 리프레셔에 대 한 교육 또는 지침을 제공할 수 있습니다. 자세한 내용은 [참가자 위험 관리 알림 서식 파일](insider-risk-management-notices.md)을 참조 하십시오.
 
 보다 심각한 상황에서는 사용자의 참가자 위험 관리 사례 정보를 조직의 다른 검토자 또는 서비스와 공유 해야 할 수 있습니다. 참가자 위험 관리는 종단 간 위험 해결을 지원 하기 위해 다른 Microsoft 365 준수 솔루션과 긴밀 하 게 통합 됩니다.
 
 - **Advanced ediscovery**: 조사를 위해 사례를 확대 하면 Microsoft 365에서 대/소문자 데이터 및 관리를 고급 eDiscovery로 전송할 수 있습니다. Advanced eDiscovery에서는 조직의 내부 및 외부 조사에 응답 하는 콘텐츠를 보존, 수집, 검토, 분석 및 내보낼 수 있는 종단 간 워크플로를 제공 합니다. 이를 통해 법률 팀이 전체 법률 보존 알림 워크플로를 관리할 수 있습니다. 고급 eDiscovery 사례에 대 한 자세한 내용은 [Microsoft 365의 고급 Ediscovery 개요](overview-ediscovery-20.md)를 참조 하세요.
-- **Servicenow (preview)**: servicenow은 조직에서 엔터프라이즈 운영에 대 한 디지털 워크플로를 관리 하는 데 사용할 수 있는 인기 있는 클라우드 컴퓨팅 플랫폼입니다. 참가자 위험 관리는 ServiceNow 서비스와 케이스 알림 공유를 지원 하 고 개별 참가자 위험 사례와 관련 된 인시던트 및 변경 요청을 만들 수 있도록 합니다. ServiceNow을 사용 하 여 경고 정보를 공유 하는 방법에 대 한 자세한 내용은 [Share a with a servicenow](insider-risk-management-cases.md#share-a-case)를 참조 하십시오.
+- **Servicenow (preview)**: servicenow은 조직에서 엔터프라이즈 운영에 대 한 디지털 워크플로를 관리 하는 데 사용할 수 있는 인기 있는 클라우드 컴퓨팅 플랫폼입니다. 참가자 위험 관리는 ServiceNow 서비스와 케이스 알림 공유를 지원 하 고 개별 참가자 위험 사례와 관련 된 인시던트 및 변경 요청을 만들 수 있도록 합니다. ServiceNow을 사용 하 여 경고 정보를 공유 하는 방법에 대 한 자세한 내용은 [Share a with a servicenow](insider-risk-management-cases.md#share-the-case)를 참조 하십시오.
 - **Office 365 관리 api 통합 (미리 보기)**: 참가자 위험 관리에서는 Office 365 관리 api를 통해 알림 정보를 siem (보안 정보 및 이벤트 관리) 서비스로 내보낼 수 있습니다. 플랫폼의 알림 정보에 대 한 액세스 권한이 있는 경우 조직의 위험 프로세스에 가장 적합 하 게 위험 작업을 보다 효율적으로 수행할 수 있는 방법을 제공 합니다. Office 365 관리 Api를 사용 하 여 알림 정보를 내보내는 방법에 대 한 자세한 내용은 [Export alerts](insider-risk-management-settings.md#export-alerts-preview)를 참조 하십시오.
 
 ## <a name="scenarios"></a>시나리오

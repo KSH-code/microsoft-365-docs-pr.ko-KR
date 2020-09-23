@@ -11,16 +11,15 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Android 휴대폰에서 SMS, MMS 및 음성 통화를 가져오고 보관 하도록 TeleMessage 커넥터를 설정할 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: 2284e09b3f04bf135435407a842f3e2c3f0648fa
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: 35ff69ec3b8f0af5ed86350862bb7b0917a98909
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47362101"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200263"
 ---
-# <a name="set-up-a-connector-to-archive-android-mobile-data-preview"></a>Android 모바일 데이터를 보관 하는 커넥터 설정 (미리 보기)
+# <a name="set-up-a-connector-to-archive-android-mobile-data"></a>Android 모바일 데이터를 보관 하는 커넥터 설정
 
 Microsoft 365 준수 센터의 TeleMessage 커넥터를 사용 하 여 Android 휴대폰에서 SMS, MMS, 음성 통화 및 통화 기록을 가져오고 보관 합니다. 커넥터를 설정 하 고 구성한 후에는 매일 한 번씩 조직의 TeleMessage 계정에 연결 하 고 TeleMessage Android Winrar를 사용 하 여 직원의 모바일 통신을 Microsoft 365의 사서함으로 가져옵니다.
 
@@ -84,4 +83,4 @@ Android 통신 데이터를 보관 하는 데 필요한 일부 구현 단계는 
 
 ## <a name="known-issues"></a>알려진 문제
 
-- 이 경우에는 10mb 보다 큰 첨부 파일을 가져올 수 없지만 더 큰 항목에 대 한 지원은 나중에 제공 될 예정입니다.
+- 현재로 서는 10mb 보다 큰 첨부 파일 또는 항목을 가져올 수 없습니다. 더 큰 항목에 대 한 지원은 나중에 제공 될 예정입니다.

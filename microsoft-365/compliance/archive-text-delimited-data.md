@@ -11,16 +11,15 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Globanet에서 텍스트 분리 된 데이터를 Microsoft 365로 가져오고 보관 하기 위한 커넥터를 설정할 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: 6a7c8a23fdf78ccac21e1cae68dbc6b971bd6486
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: 854e678067a26fd5fa1f89eb4b2f4f0327eac7a0
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405609"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196577"
 ---
-# <a name="set-up-a-connector-to-archive-text-delimited-data-preview"></a>텍스트 구분 데이터를 보관 하는 연결선 설정 (미리 보기)
+# <a name="set-up-a-connector-to-archive-text-delimited-data"></a>텍스트 구분 데이터를 보관 하는 연결선 설정
 
 Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 Microsoft 365 조직의 사용자 사서함에 텍스트로 구분 된 데이터를 가져오고 보관 합니다. [Globanet](https://globanet.com/merge1/) 에서는 타사 데이터 원본의 항목을 정기적으로 캡처하여 해당 항목을 Microsoft 365로 가져오는 방식으로 구성 된 텍스트 구분 커넥터를 제공 합니다. 이 커넥터는 텍스트를 구분한 데이터 원본의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 Microsoft 365에서 사용자의 사서함으로 가져옵니다.
 
@@ -92,4 +91,4 @@ Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 Microsoft 36
 
 ## <a name="known-issues"></a>알려진 문제
 
-- 이 경우에는 10mb 보다 큰 첨부 파일을 가져올 수 없지만 더 큰 항목에 대 한 지원은 나중에 제공 될 예정입니다.
+- 현재로 서는 10mb 보다 큰 첨부 파일 또는 항목을 가져올 수 없습니다. 더 큰 항목에 대 한 지원은 나중에 제공 될 예정입니다.

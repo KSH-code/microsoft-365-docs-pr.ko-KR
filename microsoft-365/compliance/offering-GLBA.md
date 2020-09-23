@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1b3cf1017a3ed64cecafe269e313ab5a6980af25
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 7969d18bea1e8873651a1ea94e46c6b7a6b48c83
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417732"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208400"
 ---
 # <a name="gramm-leach-bliley-act-glba"></a>GLBA(Gramm-Leach-Bliley Act)
 
@@ -51,6 +51,10 @@ Microsoft는 azure 및 office 365 서비스에 대 한 위험 평가를 보다 �
 **재무 기관에서 고 지 사항 b를 준수 해야 하는지 여부를 어떻게 알 수 있나요?**
 
 FTC은 [개인 정보 취급 방침에 포함 된](https://www.ftc.gov/tips-advice/business-center/guidance/how-comply-privacy-consumer-financial-information-rule-gramm#whois)해당 글과 Act 페이지에서이에 대 한 세부 정보를 제공 하나요?
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용 하 여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md) 는 조직의 규정 준수 상태를 이해 하 고 위험을 줄이는 데 도움이 되는 작업을 수행 하는 데 도움이 되는 [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 기능입니다. 준수 관리자는이 규정에 대 한 평가를 빌드하기 위한 프리미엄 템플릿을 제공 합니다. 준수 관리자의 **평가 템플릿** 페이지에서 템플릿을 찾습니다. [준수 관리자에서 평가를 작성](compliance-manager-assessments.md)하는 방법을 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

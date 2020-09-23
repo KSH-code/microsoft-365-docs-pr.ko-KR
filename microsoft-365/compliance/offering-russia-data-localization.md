@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c8c5e78cfd7d531b2c2ee46ae4f28367240a87ca
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 29c56d525375162926d34bd298bbbd660964438d
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415994"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208160"
 ---
 # <a name="russian-personal-data-localization-requirements"></a>러시아어 개인 데이터 지역화 요구 사항
 
@@ -40,6 +40,10 @@ Microsoft는 microsoft의 CSP (클라우드 솔루션 공급자) 파트너를 �
 ### <a name="managing-user-identity-and-access-for-microsoft-online-services"></a>Microsoft Online Services에 대 한 사용자 Id 및 액세스 관리
 
 Microsoft Azure, Microsoft 365, Dynamics 365 및 전원 플랫폼과 같은 Microsoft Online 서비스의 경우 사용자 확인 및 액세스 관리는 [AAD (Azure Active Directory](https://azure.microsoft.com/services/active-directory/))를 통해 수행 됩니다. Microsoft 고객이 Microsoft 클라우드 서비스에 대 한 로컬 id 관리 시스템 (예: Windows Server Active Directory (AD) 또는 기타 ID 관리 시스템)을 사용 하는 경우, 고객은 Azure AD Connect를 통해 해당 시스템을 AAD (Azure Active Directory)로 빠르게 통합할 수 있습니다. 자세한 내용은 [AZURE AD Connect](https://docs.microsoft.com/azure/active-directory/cloud-provisioning/) 옵션을 참조 하세요. Microsoft 고객은 타사 공급 업체의 응용 프로그램 및 솔루션을 사용 하 여 사용자를 관리 하 고 자신의 로컬 id 시스템을 Azure AD와 통합할 수도 있습니다.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용 하 여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md) 는 조직의 규정 준수 상태를 이해 하 고 위험을 줄이는 데 도움이 되는 작업을 수행 하는 데 도움이 되는 [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 기능입니다. 준수 관리자는이 규정에 대 한 평가를 빌드하기 위한 프리미엄 템플릿을 제공 합니다. 준수 관리자의 **평가 템플릿** 페이지에서 템플릿을 찾습니다. [준수 관리자에서 평가를 작성](compliance-manager-assessments.md)하는 방법을 알아봅니다.
 
 ## <a name="questions-and-support"></a>질문 및 지원
 

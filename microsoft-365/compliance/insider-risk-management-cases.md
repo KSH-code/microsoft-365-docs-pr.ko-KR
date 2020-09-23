@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 8667c625de4c83c98efd8f1cf20f3db57ed0d4c5
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 2ba67f833a7a4ee14b53adf38db786bb344a40bb
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416562"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208854"
 ---
 # <a name="insider-risk-management-cases"></a>참가자 위험 관리 사례
 
@@ -127,6 +127,15 @@ ms.locfileid: "47416562"
 4. **위험 활동 chronology**: 해당 경고 버블에서 사용 가능한 모든 세부 정보를 포함 하 여 사례와 관련 된 모든 위험 경고의 전체 chronology 나열 됩니다.
 5. **사례 작업**: 사례를 해결 하기 위한 옵션은 사례 작업 도구 모음에 있습니다. 사례를 해결 하거나, 사용자에 게 전자 메일 알림을 보내거나, 데이터 또는 사용자 조사를 위해 사례를 확대할 수 있습니다.
 
+### <a name="activity-explorer-preview"></a>활동 탐색기 (미리 보기)
+
+>[!IMPORTANT]
+>조직에서이 기능을 사용할 수 있게 되 면 이벤트를 트리거하는 사용자에 대 한 사례 관리 영역에서 활동 탐색기 탭을 사용할 수 있습니다.
+
+위험 분석가 및 investigators는 **활동 탐색기** 탭을 사용 하 여 위험 경고와 관련 된 활동 세부 정보를 검토할 수 있습니다. 예를 들어 사례 관리 작업의 일부로, investigators 및 분석가는 사례와 관련 된 모든 위험 활동을 검토 하 여 자세한 내용을 확인 해야 할 수 있습니다. **활동 탐색기**를 사용 하 여 검토자가 검색 된 위험한 활동의 시간 표시 막대를 빠르게 검토 하 고 경고와 관련 한 모든 위험 활동을 식별 하 고 필터링 할 수 있습니다.
+
+활동 탐색기에 대 한 자세한 내용은 [참가자 위험 관리 경고](insider-risk-management-alerts.md#activity-explorer-preview) 문서를 참조 하십시오.
+
 ### <a name="content-explorer"></a>콘텐츠 탐색기
 
 위험 분석가 및 investigators가 위험 알림과 관련 된 모든 개별 파일 및 전자 메일 메시지의 복사본을 검토할 수 있도록 하는 **콘텐츠 탐색기** 탭입니다. 예를 들어 사용자가 SharePoint Online에서 수백 개의 파일을 다운로드 하 고 활동을 통해 정책 경고가 발생 하는 경우 경고에 대 한 다운로드 된 파일이 모두 캡처 및 원본 저장소 원본에서의 참가자 위험 관리 사례로 복사 됩니다.
@@ -196,15 +205,42 @@ Content Explorer는 기본 및 고급 검색 및 필터링 기능을 제공 하�
 1. [Microsoft 365 준수 센터](https://compliance.microsoft.com)에서 **참가자 위험 관리** 로 이동 하 여 **사례** 탭을 선택 합니다.
 2. 사례를 선택 하 고 사례 작업 도구 모음에서 **조사를 위해 에스컬레이션** 단추를 선택 합니다.
 3. **조사에 대 한 에스컬레이션** 대화 상자에서 새 사용자 조사의 이름을 입력 합니다. 필요한 경우 사례에 대 한 메모를 입력 하 고 **에스컬레이션**을 선택 합니다.
+4. 공지 필드를 검토 하 고 적절 하 게 업데이트 합니다. 여기에 입력 한 값은 서식 파일의 값을 재정의 합니다.
 5. **확인** 을 선택 하 여 사용자 조사 사례를 만들거나, **취소** 를 선택 하 여 새 사용자 조사 사례를 만들지 않고 대화 상자를 닫습니다.
 
 참가자 위험 관리 사례를 새로운 사용자 조사 사례로 확대 한 후 **eDiscovery**  >  Microsoft 365 준수 센터의 eDiscovery**고급** 영역에서 새 사례를 검토할 수 있습니다.
 
-### <a name="share-a-case"></a>사례 공유
+### <a name="run-automated-tasks-with-power-automate-flows-for-the-case"></a>사례에 대해 전원 자동화 흐름을 사용 하 여 자동화 된 작업 실행
 
-참가자 위험 관리 사례를 공유 하면 investigator 및 검토를 통해 조직의 다른 규정 준수 관계자와 쉽게 공동으로 작업할 수 있습니다. 사례 관리 영역에서 외부 관련자와의 참가자 위험 관리 사례에 대 한 링크를 빠르게 공유할 수 있습니다. 링크에서 참가자 위험 관리 사례에 액세스 하려면 모든 참가자 위험 관리 역할 그룹에 관련자를 포함 해야 합니다.
+권장 되는 전원 자동화 흐름을 사용 하 여 위험 investigators 및 분석가는 다음과 같은 작업을 빠르게 수행할 수 있습니다.
 
-사용할 수 있는 공유 옵션은 다음과 같습니다. 
+- 사용자가 보낸 사람에 대 한 정보를 HR 또는 회사에 요청 합니다.
+- 사용자의 참가자 위험 알림이 있는 경우 관리자에 게 알림
+- 참가자 위험에 대 한 추가 작업에 일정 미리 알림 추가
+
+참가자 위험 관리 사례에 대 한 전원 자동화 흐름을 실행, 관리 또는 만듭니다.
+
+1. 사례 실행 도구 모음에서 **자동화** 를 선택 합니다. 
+2. 실행할 전원 자동화 흐름을 선택한 다음 **실행 흐름**을 선택 합니다. 
+3. 흐름이 완료 되 면 **완료**를 선택 합니다.
+
+참가자 위험 관리의 전원 자동화 흐름에 대 한 자세한 내용은 [참가자 위험 관리 설정 시작](insider-risk-management-settings.md#power-automate-flows-preview)을 참조 하십시오.
+
+### <a name="view-or-create-a-microsoft-teams-team-for-the-case"></a>사례에 대 한 Microsoft 팀 팀 보기 또는 만들기
+
+설정에서 참가자 위험 관리에 대 한 Microsoft 팀 통합을 사용 하는 경우 경고가 확인 되 고 사례를 만들 때마다 Microsoft 팀 팀이 자동으로 만들어집니다. 위험 investigators 및 분석가는 사례 작업 도구 모음에서 **microsoft 팀 팀 보기** 를 선택 하 여 microsoft 팀을 빠르게 열고 해당 팀으로 직접 이동할 수 있습니다.
+
+Microsoft 팀 통합을 사용 하도록 설정 하기 전에 연 사례에 대해 위험 investigators 및 분석가가 사례 작업 도구 모음에서 **Microsoft 팀 구성 팀 만들기** 를 선택 하 여 사례에 대 한 새 microsoft 팀 팀을 만들 수 있습니다.
+
+사례를 해결 하면 연결 된 Microsoft 팀이 자동으로 보관 됩니다 (숨김 상태이 고 읽기 전용으로 설정 됨).
+
+Microsoft 팀의 참가자 위험 관리에 대 한 자세한 내용은 [참가자 위험 관리 설정 시작](insider-risk-management-settings.md#microsoft-teams-preview)을 참조 하세요.
+
+### <a name="share-the-case"></a>사례 공유
+
+참가자 위험 관리 사례를 공유 하면 위험 investigators 및 분석가가 조직의 다른 규정 준수 관계자와 쉽게 공동으로 작업할 수 있습니다. 사례 관리 영역에서 외부 관련자와의 참가자 위험 관리 사례에 대 한 링크를 빠르게 공유할 수 있습니다. 링크에서 참가자 위험 관리 사례에 액세스 하려면 모든 참가자 위험 관리 역할 그룹에 관련자를 포함 해야 합니다.
+
+사용할 수 있는 공유 옵션은 다음과 같습니다.
 
 - **ServiceNow**: microsoft 365 조 직에 대해 Microsoft 365 ServiceNow 커넥터를 구성한 후에는 사례에 대 한 링크를 쉽게 공유 하거나, 인시던트를 열거나, ServiceNow 조직에 변경을 요청할 수 있습니다. ServiceNow과 사례를 공유 하려면 **Share**  >  사례 동작에서**ServiceNow** 공유를 선택 합니다. ServiceNow 및 참가자 위험 관리 지원에는 다음과 같은 사례 정보 및 작업이 포함 됩니다.
     - **작업 이름**: 새 ServiceNow 작업의 이름입니다.

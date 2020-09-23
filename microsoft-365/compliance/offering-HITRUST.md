@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5ee3e77624650f0a5c1b913081620695cdc13142
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 54d188aa84cd6bc2614489dbbc3a969d30b40342
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417040"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208420"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Health Information Trust 제휴 (HITRUST) 일반 보안 프레임 워크 (CSF)
 
@@ -102,6 +102,10 @@ Office 365와 같은 SaaS에 데이터를 저장 하는 경우 Microsoft와 조�
 **Microsoft에 참여 하려면 어떻게 해야 합니까?**
 
 HITRUST MyCSF® 도구에 로그인 하 고 Azure에 대 한 완전히 상속 되거나 공유 된 책임 제어를 사용 하 여 Microsoft Azure에 호스트 되는 솔루션에 대 한 평가를 미리 채웁니다. 그러면 Microsoft HITRUST 관리자가 MyCSF® 도구에서 해당 계정을 사용 하 여 평가의 각 부분을 완료 합니다.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용 하 여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md) 는 조직의 규정 준수 상태를 이해 하 고 위험을 줄이는 데 도움이 되는 작업을 수행 하는 데 도움이 되는 [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 기능입니다. 준수 관리자는이 규정에 대 한 평가를 빌드하기 위한 프리미엄 템플릿을 제공 합니다. 준수 관리자의 **평가 템플릿** 페이지에서 템플릿을 찾습니다. [준수 관리자에서 평가를 작성](compliance-manager-assessments.md)하는 방법을 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

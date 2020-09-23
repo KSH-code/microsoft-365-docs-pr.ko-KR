@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: fb964bd6dcf229f362476b68ad87d05053e87f74
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 079fb69eb4d8fd41b9493d8bf992084640f2835a
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417762"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208660"
 ---
 # <a name="australian-prudential-regulation-authority-apra"></a>APRA (오스트레일리아 Prudential 규정 기관)
 
@@ -87,6 +87,10 @@ APRA 규정 준수에서 데이터 및 작업 부하를 Azure로 이동 하기 �
 **오스트레일리아 외부의 데이터 전송은 허용 됩니까?**
 
 예. 일반 개인 정보 보호 법규 (금융 기관 뿐만 아니라 모든 섹터에 적용)은 특정 조건에 해당 하는 오스트레일리아 외부에서의 전송을 허용 합니다. Microsoft는 Microsoft 클라우드 서비스를 사용할 때 오스트레일리아 외부의 데이터 전송이 허용 되도록, 오스트레일리아 개인 정보 보호 원칙에 따라 계약 약관에 동의 합니다. 그러나 대부분의 오스트레일리아 금융 서비스 고객은 호주 데이터 센터에서 제공 하는 클라우드 서비스를 활용 하 여, 특정 계약 약정을 사용 하 여 호주 지역에 있는 일정 한 범위의 데이터가 저장 되도록 했습니다. 이러한 약정은 [준수 검사 목록](https://www.microsoft.com/cms/api/am/binary/RE3ez0C)에 자세히 설명 되어 있습니다.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용 하 여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md) 는 조직의 규정 준수 상태를 이해 하 고 위험을 줄이는 데 도움이 되는 작업을 수행 하는 데 도움이 되는 [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 기능입니다. 준수 관리자는이 규정에 대 한 평가를 빌드하기 위한 프리미엄 템플릿을 제공 합니다. 준수 관리자의 **평가 템플릿** 페이지에서 템플릿을 찾습니다. [준수 관리자에서 평가를 작성](compliance-manager-assessments.md)하는 방법을 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

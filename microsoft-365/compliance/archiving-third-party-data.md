@@ -20,12 +20,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 Microsoft 365 사서함으로 타사 데이터를 가져오는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ebb5c78dc043afb0e1e35aa8b5c70cd2219a6349
-ms.sourcegitcommit: b144e8ba1ab0c40fa7e0e8e893b5cb44aa2d8243
+ms.openlocfilehash: a70747e9268b075f2c46072009b76f8071492fc7
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47282616"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200055"
 ---
 # <a name="archive-third-party-data"></a>타사 데이터 보관
 
@@ -40,16 +40,37 @@ Microsoft 365에서는 관리자가 데이터 커넥터를 사용 하 여 소셜
 
 |타사 데이터  |소송 보존|eDiscovery  |보존 설정  |레코드 관리  |커뮤니케이션 규정 준수  |내부자 위험 관리  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|
-|[블룸버그 메시지](archive-bloomberg-message-data.md)     |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|[Android <sup>1</sup>](archive-android-archiver-data.md)     |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|[&T 네트워크 <sup>1</sup>](archive-att-network-archiver-data.md)     |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|[벨 네트워크 <sup>1</sup>](archive-bell-network-data.md)     |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|[블룸버그 메시지](archive-bloomberg-message-data.md)     |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|[EML <sup>2</sup>](archive-eml-data.md)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|[Enterprise 번호 <sup>1</sup>](archive-enterprise-number-data.md)     |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |[Facebook](archive-facebook-data-with-sample-connector.md)     |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
-|[HR 데이터](import-hr-data.md) ||||||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|[ICE 채팅](archive-icechat-data.md)     |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|[FX 연결 <sup>2</sup>](archive-fxconnect-data.md)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|[인적 자원 (HR)](import-hr-data.md) ||||||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|[ICE 채팅](archive-icechat-data.md)     |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |[Instant Bloomberg](archive-instant-bloomberg-data.md)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |[LinkedIn](archive-linkedin-data.md)   |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
+|[O2 네트워크 <sup>1</sup>](archive-o2-network-data.md)     |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|[실제 배지 획득](import-physical-badging-data.md) ||||||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|[Reuters Eikon <sup>2</sup>](archive-reuterseikon-data.md)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|[여유 시간 <sup>2</sup>](archive-slack-data.md)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|[Symphony <sup>2</sup>](archive-symphony-data.md)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|[TELUS 네트워크 <sup>1</sup>](archive-telus-network-data.md)    |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|[텍스트 구분 <sup>2</sup>](archive-text-delimited-data.md)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |[Twitter](archive-twitter-data-with-sample-connector.md)     |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
+|[Verizon 네트워크 <sup>1</sup>](archive-verizon-network-data.md)     |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|[Webex 팀 <sup>2</sup>](archive-webexteams-data.md)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|[WhatsApp <sup>1</sup>](archive-whatsapp-data.md)     |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|[Facebook <sup>2</sup> 의 작업 공간](archive-workplacefromfacebook-data.md)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|[확대/축소 모임 <sup>2</sup>](archive-zoommeetings-data.md)     |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 ||||||||
 
-HR 데이터를 제외 하 고는 이전 표에 나열 된 타사 데이터를 사용자 사서함으로 가져옵니다. 타사 데이터를 지 원하는 해당 하는 준수 솔루션은 데이터가 저장 된 사용자 사서함에 적용 됩니다.
+> [!NOTE]
+> <sup>1</sup> 이 데이터 커넥터는 TeleMessage에서 제공 합니다. Microsoft 365에서 데이터를 보관 하려면 먼저 TeleMessage을 사용 하 여 조직에 대 한 보관 서비스를 설정 해야 합니다. 자세한 내용은이 데이터 형식에 대 한 단계별 지침에서 필수 구성 요소 섹션을 참조 하십시오.<br/><br/><sup>2</sup> Globanet에서 제공 하는 커넥터입니다. Microsoft 365에서 데이터를 보관 하려면 먼저 Globanet을 사용 하 여 조직에 대 한 보관 서비스를 설정 해야 합니다. 자세한 내용은이 데이터 형식에 대 한 단계별 지침에서 필수 구성 요소 섹션을 참조 하십시오.
+
+HR 데이터 및 실제 배지 획득 데이터를 제외 하 고 이전 표에 나열 된 타사 데이터를 사용자 사서함으로 가져옵니다. 타사 데이터를 지 원하는 해당 하는 준수 솔루션은 데이터가 저장 된 사용자 사서함에 적용 됩니다.
 
 ## <a name="overview-of-compliance-solutions-that-support-third-party-data"></a>타사 데이터를 지 원하는 규정 준수 솔루션 개요
 

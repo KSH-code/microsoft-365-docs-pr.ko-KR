@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 description: 포함 된 내용, 가져오는 방법 및 다음 단계를 포함 하 여 Microsoft 365 솔루션 카탈로그에 대해 알아봅니다.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: ff445711dfd57ec69305c3f8cc7d01e05a66a1cc
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: a560193bf7ee2911b90332f84eef2d60027cbbf9
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132172"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198361"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Microsoft 365 솔루션 카탈로그
 
@@ -93,7 +93,7 @@ Microsoft 365 솔루션 카탈로그를 방문 하려면로 이동 하 [https://
 
 ## <a name="next-steps"></a>다음 단계
 
-- 조직의 주요 표준 및 규정 준수 상태를 이해 하는 데 도움이 되는 개인 설정 된 위험 기반 점수가 **Microsoft 준수 점수를 검토**합니다. 전체 준수 상황을 강화 하기 위해 수행할 수 있는 권장 작업을 제공 하 고 이러한 작업을 효율적으로 수행 하는 데 도움이 되는 워크플로 기능을 제공 합니다. 자세한 내용은 [준수 점수 (preview)](compliance-score.md)를 참조 하십시오.
+- 조직의 주요 표준 및 규정 준수 상태를 이해 하는 데 도움이 되는 **Microsoft 준수 관리자를 방문**합니다. 전체 준수 상황을 강화 하기 위해 수행할 수 있는 권장 작업을 제공 하 고 이러한 작업을 효율적으로 수행 하는 데 도움이 되는 워크플로 기능을 제공 합니다. 자세한 내용은 [준수 관리자](compliance-manager.md)를 참조 하세요.
 
 - 내부 위험을 최소화 하 고 조직에서 위험한 활동을 감지 하 고 조사 하며 작업을 수행할 수 있도록 하는 **참가자 위험 관리 정책을 구성** 합니다. [참가자 위험 관리](insider-risk-management.md)를 참조 하세요.
 

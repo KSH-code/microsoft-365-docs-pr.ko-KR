@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bd91e2439b501a20396763358f35a94aa31b4672
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: c0abd8db3084630a6f848f740f5b1387dc58b704
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417236"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208190"
 ---
 # <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>증권 및 Exchange 위원회 (SEC) 규칙 17a-4 (미국)
 
@@ -70,6 +70,10 @@ Microsoft 클라우드 서비스에 대 한 위험 평가를 위한 거 버 넌 
 ### <a name="financial-use-cases"></a>재무 사용 사례
 
 금융 서비스용 Azure 솔루션을 작성 하는 데 사용 사례 개요, 자습서 및 기타 리소스 [자세한 정보](https://docs.microsoft.com/azure/industry/financial/)
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용 하 여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md) 는 조직의 규정 준수 상태를 이해 하 고 위험을 줄이는 데 도움이 되는 작업을 수행 하는 데 도움이 되는 [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 기능입니다. 준수 관리자는이 규정에 대 한 평가를 빌드하기 위한 프리미엄 템플릿을 제공 합니다. 준수 관리자의 **평가 템플릿** 페이지에서 템플릿을 찾습니다. [준수 관리자에서 평가를 작성](compliance-manager-assessments.md)하는 방법을 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

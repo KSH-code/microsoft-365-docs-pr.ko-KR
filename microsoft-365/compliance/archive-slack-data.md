@@ -11,18 +11,17 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Globanet에서 Microsoft 365로 데이터를 가져오고 보관 하기 위한 커넥터를 설정할 수 있습니다. 이 커넥터를 사용 하면 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 통해 조직의 타사 데이터를 관리 하는 데 도움이 됩니다.
-ms.openlocfilehash: 6466beb6115037ff726b1e5fd3350032bceb2230
-ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
+ms.openlocfilehash: 532b8a8eb4331d66e1c7522d79bde2b5b6b0a02f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47957042"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196766"
 ---
-# <a name="set-up-a-connector-to-archive-slack-data-preview"></a>여유 시간 데이터를 보관 하는 연결선 설정 (미리 보기)
+# <a name="set-up-a-connector-to-archive-slack-data"></a>여유 시간 데이터를 보관 하기 위한 연결선 설정
 
-Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 소셜 미디어, 인스턴트 메시징 및 문서 공동 작업 플랫폼의 타사 데이터를 Microsoft 365 조직의 사서함으로 가져오고 보관 합니다. Globanet에서는 Microsoft 365 준수 센터에서 정기적으로 타사 데이터 원본의 항목을 캡처하여 해당 항목을 Microsoft 365로 가져오는 데 사용할 수 있는 [여유 데이터 커넥터](https://globanet.com/slack/) 커넥터를 제공 합니다. 여유 시간-메시지 및 파일을 여유 시간 API에서 가져오고이를 전자 메일 메시지 형식으로 변환한 다음 Microsoft 365에서 사용자 사서함으로 가져옵니다.
+Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 소셜 미디어, 인스턴트 메시징 및 문서 공동 작업 플랫폼의 타사 데이터를 Microsoft 365 조직의 사서함으로 가져오고 보관 합니다. Globanet에서는 타사 데이터 원본의 항목을 정기적으로 캡처하여 해당 항목을 Microsoft 365로 가져오는 데 사용 하도록 구성 된 여유 커넥터를 제공 합니다. 여유 시간-메시지 및 파일을 여유 시간 API에서 가져오고이를 전자 메일 메시지 형식으로 변환한 다음 항목을 사용자 사서함으로 가져옵니다.
 
 여유 시간 데이터가 사용자 사서함에 저장 되 면 소송 보존, eDiscovery, 보존 정책 및 보존 레이블과 통신 준수와 같은 Microsoft 365 준수 기능을 적용할 수 있습니다. 여유 시간 커넥터를 사용 하 여 Microsoft 365에서 데이터를 가져오고 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
 
@@ -92,4 +91,4 @@ Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 소셜 미�
 
 ## <a name="known-issues"></a>알려진 문제
 
-- 현재, 10mb 보다 큰 첨부 파일 및 항목은 가져올 수 없습니다. 더 큰 항목에 대 한 지원은 나중에 제공 될 예정입니다.
+- 현재로 서는 10mb 보다 큰 첨부 파일 또는 항목을 가져올 수 없습니다. 더 큰 항목에 대 한 지원은 나중에 제공 될 예정입니다.

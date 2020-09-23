@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 90670c8102afe0dcf0814726bde36bd422e802a9
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: be40c207f5f09c97d1a0a4da5cf56e2caf2c51b7
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417090"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208170"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>국내 표준 협회 및 기술 (NIST) Cybersecurity Framework (CSF)
 
@@ -40,7 +40,7 @@ NIST Cybersecurity Framework (CSF)는 Cybersecurity 관련 위험을 관리 하�
 - [NIST SP 800-53 4, 청사진의 개요 샘플](https://docs.microsoft.com/azure/governance/blueprints/samples/nist-sp-800-53-rev4/)
 - [규정 준수 점수가 Office 365에 대 한 NIST CSF 평가에 대해 자세히 알아보기](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내의 클라우드 서비스
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
 - [Azure 정부](https://aka.ms/AzureCompliance)
 - [정부용 Dynamics 365](https://aka.ms/d365-compliance-list)
@@ -97,9 +97,9 @@ NIST CSF 인증의 범위 내 서비스는 Exchange Online, Exchange online Prot
 
 Microsoft는 다른 클라우드 서비스 공급자에 비해 가장 포괄적인 제품을 제공 합니다. 지역 및 업계 전반에 걸친 광범위 한 준수 제품을 유지 하기 위해, 시장 수요, 고객 의견 및 제품 수명 주기를 기반으로 하는 보증 노력의 범위에 포함 된 서비스를 제공 합니다. 서비스가 특정 규정 준수 제공의 현재 범위에 포함 되어 있지 않은 경우 조직은 준수 의무에 따라 위험을 평가 하 고 해당 서비스에서 데이터를 처리 하는 방법을 결정 해야 합니다. 고객의 피드백을 지속적으로 수집 하 고, 조정기 및 감사자와 협력 하 여 보안 및 준수 요구 사항에 맞게 준수 범위를 확장 합니다.
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용하여 위험 평가
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용 하 여 위험 평가
 
-[Microsoft 준수 점수](compliance-score.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 컴플라이언스 센터](microsoft-365-compliance-center.md)의 미리 보기 기능입니다. [규정 준수 점수를 설정한](compliance-score-setup.md)후에는 **서식 파일** 드롭다운 메뉴에서 미리 구성 된 [NIST CSF 서식 파일](https://go.microsoft.com/fwlink/?linkid=2117917) 을 선택 하 여 조직이이 규정 요구 사항을 충족 하는 데 도움을 받을 수 있습니다.
+[Microsoft 준수 관리자](compliance-manager.md) 는 조직의 규정 준수 상태를 이해 하 고 위험을 줄이는 데 도움이 되는 작업을 수행 하는 데 도움이 되는 [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 기능입니다. 준수 관리자는이 규정에 대 한 평가를 빌드하기 위한 프리미엄 템플릿을 제공 합니다. 준수 관리자의 **평가 템플릿** 페이지에서 템플릿을 찾습니다. [준수 관리자에서 평가를 작성](compliance-manager-assessments.md)하는 방법을 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

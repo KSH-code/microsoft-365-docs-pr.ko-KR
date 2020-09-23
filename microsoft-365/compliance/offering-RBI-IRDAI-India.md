@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c037a36154f14cc0db2092bc2eeea6344b5544ff
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: aac61dc6686e318d21a6aa6cb1ee86704879f51b
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416074"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208200"
 ---
 # <a name="reserve-bank-of-india-rbi-and-insurance-regulatory-and-development-authority-of-india-irdai"></a>RBI (인도 Bank) 및 보험 규정 및 개발 기관 (IRDAI)
 
@@ -31,7 +31,7 @@ Rbi ( [예약 뱅크](https://www.rbi.org.in/) ), 인도의 중앙 뱅킹 기관
 
 - [위험 및 it의 외주 관리 관련 지침](https://rbidocs.rbi.org.in/rdocs/notification/PDFs/73713.pdf) (rbi) 주소 금융 서비스를 아웃소싱 하는 동안 은행이 제공 되는 위험 및 아웃소싱에서 rbi의 관리 역할을 방해 하지 않도록 하는 데 도움이 됩니다. RBI에서는 금융 서비스 외주에 대 한 뱅크 검색을 위해 이전 승인이 필요 하지 않습니다. 그러나 내부 감사 및 규정 준수 기능과 같은 핵심 뱅킹 기능은 아웃소싱 해서는 안 됩니다.
 - [정보 보안, 전자 뱅킹, 기술 위험 관리 및 rbi (사이버 Frauds)에 대 한 지침](https://rbidocs.rbi.org.in/rdocs/content/PDFs/GBS300411F.pdf) 재무 기관은 작업의 규모 및 특성이 중요 하거나 인도 외부의 서비스 공급자와 광범위 한 데이터 공유가 필요한 아웃소싱을 보고 해야 합니다. 이 지침은 특히 운영 데이터가 인도 외부에 저장 되거나 처리 되는 경우에 적용 됩니다.
-- [인도 Insurers 규정 (IRDAI)을 통한 활동 아웃소싱](https://www.irdai.gov.in/ADMINCMS/cms/frmGeneral_Layout.aspx?page=PageNo3149&flag=1) 보험 회사는 매년 회계 연도가 45 일 이내에 핵심 활동의 특정 지원 기능을 IRDAI에 게 보고 해야 합니다. (Microsoft [검사 목록의](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) 7 페이지에서는 "핵심 작업의 지원 기능"을 구성 합니다.
+- [인도 Insurers 규정 (IRDAI)을 통한 활동 아웃소싱](https://www.irdai.gov.in/ADMINCMS/cms/frmGeneral_Layout.aspx?page=PageNo3149&flag=1) 보험 회사는 매년 회계 연도가 45 일 이내에 핵심 활동의 특정 지원 기능을 IRDAI에 게 보고 해야 합니다. (Microsoft [검사 목록의](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) 7 페이지에는 ' 핵심 작업의 지원 기능 '에 대 한 설명이 나와 있습니다.
 
 클라우드 서비스를 사용 하는 금융 회사 에서도 [정보 기술 (합리적인 보안 관행 및 절차 및 중요 한 개인 데이터 또는 정보) 규칙, 2011](https://meity.gov.in/sites/upload_files/dit/files/GSR313E_10511\(1\).pdf) (meity)을 포함 하 여 개인 정보 취급 방침을 준수 해야 합니다. 인도 데이터 보호 법칙을 강화 하기 위해 개발 된 이러한 규칙은 중요 한 개인 데이터의 보호 및 처리를 제어 합니다.
 
@@ -63,6 +63,10 @@ Microsoft 검사 목록은 인도 금융 기업에서 Microsoft business cloud s
 **클라우드 서비스 공급 업체와의 계약에 포함 해야 하는 필수 약관이 있나요?**
 
 예. 위에서 언급 한 지침에서는 재무 기관이 클라우드 서비스 계약에 통합 해야 하는 특정 한 사항을 권장 합니다. [검사 목록](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) (70 페이지)의 2 부에서는 이러한 내용을 Microsoft 계약 문서에서 주소가 지정 된 섹션에 매핑합니다.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용 하 여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md) 는 조직의 규정 준수 상태를 이해 하 고 위험을 줄이는 데 도움이 되는 작업을 수행 하는 데 도움이 되는 [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 기능입니다. 준수 관리자는이 규정에 대 한 평가를 빌드하기 위한 프리미엄 템플릿을 제공 합니다. 준수 관리자의 **평가 템플릿** 페이지에서 템플릿을 찾습니다. [준수 관리자에서 평가를 작성](compliance-manager-assessments.md)하는 방법을 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

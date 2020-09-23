@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0ff270c27c4b3d1a376b8b9ddefd1177cdd7823f
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 03a48dc757b8028fe0391bdc8f0469b8632f0f61
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417332"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208650"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>오스트레일리아 정부 정보 보안 등록 된 평가자 Program (IRAP)
 
@@ -50,7 +50,7 @@ Microsoft의 Azure, Dynamics 365 CRM 및 Office 365은 미분류 사이버 보�
 
 각 평가에 대해 Microsoft의 IT 운영 팀, 실제 데이터 센터, 침입 감지, 암호화, 상호 도메인 및 네트워크 보안, 액세스 제어 및 범위 내 서비스에 대 한 정보 보안 위험 관리에서 사용 하는 보안 제어 및 프로세스를 검사 한 ACSC-공인 IRAP 평가자. IRAP 평가는 Microsoft system 아키텍처가 사운드 보안 원칙을 기반으로 하 고 있으며, 해당 하는 오스트레일리아 정부 (ISM) 컨트롤이 현재 평가 중인 서비스 내에서 완전히 효과적 이라는 것을 발견 했습니다.
 
-ISM에서 사용 하는 위험 관리 프레임 워크는 [국내 협회 (표준 및 조직) 800-37 Rev. 2](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final), "보안 및 개인 정보 보호를 위한 시스템 수명 주기 방식에 대 한 It 및 조직의 위험 관리 프레임 워크를 통해 발생 합니다." 이 위험 관리 프레임 워크 내에서는 [국제 표준화 기구 (ISO) 31000:2018, 위험 관리-지침](https://www.iso.org/standard/65694.html)과 같은 다양 한 위험 관리 표준을 사용 하 여 보안 제어의 위험을 식별 하 고 선택할 수 있습니다. ISM에서 사용 하는 위험 관리 프레임 워크에는 다음과 같은 6 가지 단계가 광범위 하 게 포함 됩니다.
+ISM에서 사용 하는 위험 관리 프레임 워크는 정보 시스템 및 조직에 대 한 [국내 협회 (미국) 특별 게시 (SP) 800-37 Rev. 2](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final), ' 보안 및 개인 정보 보호에 대 한 시스템 수명 주기 접근 방식에 대 한 위험 관리 프레임 워크에 따라 그려집니다. ' 이 위험 관리 프레임 워크 내에서는 [국제 표준화 기구 (ISO) 31000:2018, 위험 관리 지침](https://www.iso.org/standard/65694.html)등 다양 한 위험 관리 표준을 사용 하 여 보안 제어의 위험을 식별 하 고 선택할 수 있습니다. ISM에서 사용 하는 위험 관리 프레임 워크에는 다음과 같은 6 가지 단계가 광범위 하 게 포함 됩니다.
 
 - 시스템 정의
 - 보안 제어 선택
@@ -63,7 +63,7 @@ ISM에서 사용 하는 위험 관리 프레임 워크는 [국내 협회 (표준
 
 Microsoft 서비스의 IRAP 평가 기능을 사용 하면 보호 된 정보의 처리, 저장 및 전송에 대 한 적절 하 고 효과적인 보안 제어가 제공 되는 정부 및 해당 파트너의 공공 부문 고객을 보증할 수 있습니다. 여기에는 오스트레일리아의 정부, 의료 및 교육 데이터 대부분이 포함 됩니다.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내의 클라우드 서비스
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
 - [Azure 및 Dynamics](https://aka.ms/AzureCompliance)
 - [Office 365](https://aka.ms/Office365ComplianceOfferings)
@@ -86,9 +86,9 @@ IRAP는 클라우드 서비스를 사용 하는 모든 오스트레일리아 연
 - [IRAP 교육을 제공 하는 사람은 누구 인가요?](https://acsc.gov.au/infosec/irap/training.htm)
 - [규정 준수 및 비호환 요구 사항 정보](https://acsc.gov.au/infosec/irap/compliance.htm)
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용하여 위험 평가
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용 하 여 위험 평가
 
-[Microsoft 준수 점수](compliance-score.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 컴플라이언스 센터](microsoft-365-compliance-center.md)의 미리 보기 기능입니다. [규정 준수 점수를 설정한](compliance-score-setup.md)후에는 **서식 파일** 드롭다운 메뉴에서 미리 구성 된 [irap 서식 파일](https://go.microsoft.com/fwlink/?linkid=2117913) 을 선택 하 여 조직이이 규정 요구 사항을 충족 하는 데 도움을 받을 수 있습니다.
+[Microsoft 준수 관리자](compliance-manager.md) 는 조직의 규정 준수 상태를 이해 하 고 위험을 줄이는 데 도움이 되는 작업을 수행 하는 데 도움이 되는 [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 기능입니다. 준수 관리자는이 규정에 대 한 평가를 빌드하기 위한 프리미엄 템플릿을 제공 합니다. 준수 관리자의 **평가 템플릿** 페이지에서 템플릿을 찾습니다. [준수 관리자에서 평가를 작성](compliance-manager-assessments.md)하는 방법을 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

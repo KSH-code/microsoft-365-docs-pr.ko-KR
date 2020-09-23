@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 아이스크림 채팅 도구에서 Microsoft 365로 데이터를 가져오고 보관 하기 위한 커넥터를 설정할 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: b6b31c0ef9b083aa6432e35029fc14be1a817733
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 94a2d35b9bb8d3a0edae0eebeae53d7dd7b04af2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358230"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196371"
 ---
-# <a name="set-up-a-connector-to-archive-ice-chat-data-preview"></a>얼음 채팅 데이터를 보관 하는 커넥터 설정 (미리 보기)
+# <a name="set-up-a-connector-to-archive-ice-chat-data"></a>얼음 채팅 데이터를 보관 하는 커넥터 설정
 
 Microsoft 365 준수 센터의 네이티브 커넥터를 사용 하 여 ICE Chat 공동 작업 도구에서 금융 서비스 채팅 데이터를 가져오고 보관 합니다. 커넥터를 설정 하 고 구성한 후에는 조직의 ICE (채팅 보안 FTP) 사이트를 매일 한 번씩 연결 하 고 채팅 메시지의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 Microsoft 365의 사서함으로 가져옵니다.
 
@@ -59,7 +59,7 @@ ICE 채팅 데이터를 보관 하는 데 필요한 일부 구현 단계는 Micr
 
 1. 으로 이동 하 여 [https://compliance.microsoft.com](https://compliance.microsoft.com) 왼쪽 탐색 창에서 **데이터 커넥터** 를 클릭 합니다.
 
-2. **데이터 연결선 (미리 보기)** 페이지의 **ICE Chat**에서 **보기**를 클릭 합니다.
+2. **데이터 커넥터** 페이지의 **ICE Chat**에서 **보기**를 클릭 합니다.
 
 3. **ICE 채팅** 페이지에서 **커넥터 추가**를 클릭 합니다.
 

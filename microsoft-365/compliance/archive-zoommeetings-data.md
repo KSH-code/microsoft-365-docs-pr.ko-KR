@@ -11,16 +11,15 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Globanet Zoom Meeting에서 Microsoft 365로 데이터를 가져오고 보관 하기 위한 커넥터를 설정할 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: c7052e7f51108cac93ad8d87402a07acd12df28a
-ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
+ms.openlocfilehash: a94d0a776af05b609816d3fdbfede869018fa30a
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47956235"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196361"
 ---
-# <a name="set-up-a-connector-to-archive-zoom-meetings-data-preview"></a>확대/축소 모임 데이터를 보관 하는 연결선 설정 (미리 보기)
+# <a name="set-up-a-connector-to-archive-zoom-meetings-data"></a>확대/축소 모임 데이터를 보관 하는 커넥터 설정
 
 Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 확대/축소 회의에서 Microsoft 365 조직의 사용자 사서함으로 데이터를 가져오고 보관 합니다. Globanet에서는 타사 데이터 원본의 항목을 정기적으로 캡처하고 해당 항목을 Microsoft 365으로 가져오기 위해 구성 된 [확대/축소 회의](https://globanet.com/zoom/) 커넥터를 제공 합니다. 이 커넥터는 모임 (채팅, 기록 된 파일 및 메타 데이터 포함)의 콘텐츠를 확대/축소 회의 계정에서 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 Microsoft 365의 사용자 사서함으로 가져옵니다.
 
@@ -102,6 +101,6 @@ Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 확대/축�
 
 ## <a name="known-issues"></a>알려진 문제
 
-- 이 경우에는 10mb 보다 큰 첨부 파일을 가져올 수 없지만 더 큰 항목에 대 한 지원은 나중에 제공 될 예정입니다.
+- 현재로 서는 10mb 보다 큰 첨부 파일 또는 항목을 가져올 수 없습니다. 더 큰 항목에 대 한 지원은 나중에 제공 될 예정입니다.
 
 - 확대/축소 모임 커넥터가 작동 하려면 확대/축소 모임을 설정할 때 녹음/녹화를 사용 하도록 설정 해야 합니다.

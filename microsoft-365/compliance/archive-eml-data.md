@@ -11,16 +11,15 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Globanet에서 EML 데이터를 가져와 Microsoft 365에 보관 하는 커넥터를 설정할 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: 99b32960b46853ed4766c255e36df05c8fe9086a
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: c11d66774a61fa20a533b5c906b3c8601659c1fe
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405599"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200221"
 ---
-# <a name="set-up-a-connector-to-archive-eml-data-preview"></a>EML 데이터를 보관 하는 연결선 설정 (미리 보기)
+# <a name="set-up-a-connector-to-archive-eml-data"></a>EML 데이터를 보관 하는 연결선 설정
 
 Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 Microsoft 365 조직의 사용자 사서함에 대 한 EML 데이터를 가져오고 보관 합니다. EML는 파일에 저장 된 전자 메일 메시지의 파일 확장명입니다. 커넥터는 항목의 콘텐츠를 원본 형식에서 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 사용자 사서함으로 가져옵니다.
 
@@ -90,4 +89,4 @@ EML 커넥터를 만든 후에는 Microsoft 365 준수 센터에서 커넥터 �
 
 ## <a name="known-issues"></a>알려진 문제
 
-- 이 경우에는 10mb 보다 큰 첨부 파일을 가져올 수 없지만 더 큰 항목에 대 한 지원은 나중에 제공 될 예정입니다.
+- 현재로 서는 10mb 보다 큰 첨부 파일 또는 항목을 가져올 수 없습니다. 더 큰 항목에 대 한 지원은 나중에 제공 될 예정입니다.
