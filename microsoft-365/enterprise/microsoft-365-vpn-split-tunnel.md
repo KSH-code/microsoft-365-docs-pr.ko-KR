@@ -3,7 +3,7 @@ title: '개요: Office 365의 VPN 분할 터널링'
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 4/3/2020
+ms.date: 9/22/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -17,12 +17,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Office 365에서 VPN 분할 터널링을 사용하여 원격 사용자를 위해 Office 365 연결을 최적화하는 지침입니다.
-ms.openlocfilehash: aad7932abb6b96a518b069ec24e836d2b5d234a1
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: cda9333c7edbcc323544290c2ba946a8464f9c57
+ms.sourcegitcommit: 4ee683c18442386f6fc5c76ffabfad2c28b81d42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46696377"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48214769"
 ---
 # <a name="optimize-office-365-connectivity-for-remote-users-using-vpn-split-tunneling"></a>VPN 분할 터널링을 사용하여 원격 사용자에게 맞도록 Office 365 연결 최적화
 <!---
@@ -89,16 +89,13 @@ Office 365에서는 Office 365의 필수 끝점을 **최적화**, **허용** 및
 
 DLP, AV 보호, 인증 및 액세스 제어와 같은 보안 요소는 서비스 내의 여러 계층에서 이러한 끝점에 대해 훨씬 더 효율적으로 전달될 수 있습니다. 또한 대량의 트래픽을 VPN 솔루션에서 멀리 분산시키므로 이러한 솔루션에 아직 의존하는 중요 업무용 트래픽을 위한 VPN 용량이 확보됩니다. 또한 이러한 운영 방식을 위해 오랫 동안 많은 비용을 들여서 업그레이드를 진행할 필요도 없어집니다.
 
-![분할 터널 VPN 구성](../media/vpn-split-tunneling/vpn-model-2.png)
+![분할 터널 VPN 구성 세부 정보](../media/vpn-split-tunneling/vpn-split-tunnel-example.png)
 
 _그림 3: Office 365 예외가 정의된 VPN 분할 터널 솔루션이 서비스에 직접 전송됩니다. 다른 모든 트래픽은 대상에 관계없이 회사 네트워크로 강제로 전송됩니다._
 
 보안 측면에서 Microsoft는 온-프레미스 보안 스택의 인라인 검사에서 제공하는 것과 비슷하거나 더 개선된 보안을 제공하는 데 사용할 수 있는 보안 기능 배열을 제공합니다. Microsoft 보안 팀의 블로그 게시물인 [보안 전문가와 IT 부서가 오늘날의 고유 원격 작업 시나리오에서 최신 보안 제어를 달성하는 대체 방법](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)에서는 사용 가능한 기능 요약을 제공하며, 이 문서에서 좀 더 자세한 지침을 찾을 수 있습니다. [VPN에서 실행: Microsoft가 원격 인력을 연결 상태로 유지하는 방법](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/?elevate-lv)에서 Microsoft에서 구현된 VPN 분할 터널링에 대해 자세히 알아볼 수 있습니다.
 
 대부분의 경우 이러한 구현은 몇 시간 만에 달성할 수 있으며, 조직에서 최대 규모의 원격 작업으로 빠르게 전환할 때 직면하는 문제를 빠르게 해결할 수 있습니다. VPN 분할 터널 구현 지침은 [Office 365 VPN 분할 터널링 구현](microsoft-365-vpn-implement-split-tunnel.md)을 참조하세요.
-
->[!NOTE]
->Microsoft는 **2020년 6월 30일**까지 Office 365에 대한 **최적화** 끝점 변경을 중단하여, 고객이 처음 구현된 끝점 허용 목록을 유지하는 대신 다른 문제에 집중할 수 있도록 노력하고 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 

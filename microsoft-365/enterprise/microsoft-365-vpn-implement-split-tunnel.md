@@ -3,7 +3,7 @@ title: Office 365 VPN 분할 터널링 구현
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 9/21/2020
+ms.date: 9/22/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -17,12 +17,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Office 365 VPN 분할 터널링 구현 방법
-ms.openlocfilehash: bfdc11ffe4244ec0ac83bb1c0470476aafeec939
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+ms.openlocfilehash: af5c2ea35df921abe8eaa9a85ab2ab244931c098
+ms.sourcegitcommit: 4ee683c18442386f6fc5c76ffabfad2c28b81d42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171425"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48214875"
 ---
 # <a name="implementing-vpn-split-tunneling-for-office-365"></a>Office 365 VPN 분할 터널링 구현
 
@@ -37,7 +37,7 @@ ms.locfileid: "48171425"
 
 분산되고 성능에 민감한 클라우드 응용 프로그램에 연결하기 위해 강제 터널된 VPN을 사용하는 것은 최적의 선택은 아니지만, 일부 기업에서 보안 측면에서 현상을 유지하기 위해 이 방식의 부정적인 영향을 수용할 수 있었습니다. 이 시나리오의 예제 다이어그램은 다음과 같습니다.
 
-![분할 터널 VPN 구성](../media/vpn-split-tunneling/vpn-ent-challenge.png)
+![분할 터널 VPN 구성](../media/vpn-split-tunneling/enterprise-network-traditional.png)
 
 이 문제는 수년간 계속 커졌으며 많은 고객들이 네트워크 트래픽 패턴의 큰 변화를 보고했습니다. 이제 온-프레미스에 유지 하는 트래픽이 외부 클라우드 끝점에 연결 됩니다. 많은 Microsoft 고객이 이전에 네트워크 트래픽의 약 80%가 내부 원본(위의 다이어그램에서 점선으로 표시됨)에 대한 것이라고 보고했습니다. 2020년에 주요 작업을 클라우드로 이동시킴에 따라 이 수치가 현재 약20 % 이하로 떨어졌으며, 이러한 추세는 다른 기업에서는 드문 일이 아닙니다. 시간이 지나며 클라우드 마이그레이션이 진행됨에 따라 위의 모델은 점점 번거롭고 지속하기 어려워졌으며, 조직이 클라우드 우선 환경으로 진입하는 상황에서 조직의 민첩성에 방해가 되었습니다.
 
@@ -95,7 +95,7 @@ Microsoft에서 원격 작업자의 연결을 최적화에 권장하는 전략�
 
 다음 다이어그램은 권장 VPN 분할 터널 솔루션이 어떻게 진행되는지 보여줍니다.
 
-![분할 터널 VPN 솔루션 세부 정보](../media/vpn-split-tunneling/vpn-split-detail.png)
+![분할 터널 VPN 솔루션 세부 정보](../media/vpn-split-tunneling/vpn-split-tunnel-example.png)
 
 ### <a name="1-identify-the-endpoints-to-optimize"></a>1. 최적화할 끝점 식별
 
@@ -109,9 +109,6 @@ Microsoft는 [Office 365 URL 및 IP 주소 범위](urls-and-ip-address-ranges.md
 - 대역폭 및/또는 대기 시간에 민감
 - 네트워크의 인라인 대신, 서비스에서 제공되는 필수 보안 요소가 제공될 수 있음
 - Office 365 서비스에 대한 트래픽 양의 약 70-80% 차지
-
->[!NOTE]
->Microsoft는 **2020년 6월 30일**까지 Office 365에 대한 **최적화** 끝점 변경을 중단하여, 고객이 처음 구현된 끝점 허용 목록을 유지하는 대신 다른 문제에 집중할 수 있도록 노력하고 있습니다. 이 문서는 이후의 변경 사항을 반영하여 업데이트됩니다.
 
 Office 365 끝점과 이를 분류 및 관리 방법에 대한 자세한 내용은 [Office 365 끝점 관리](managing-office-365-endpoints.md) 문서를 참조하세요.
 

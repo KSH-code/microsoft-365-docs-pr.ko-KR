@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 관리 센터의 네트워크 연결 개요 (미리 보기)
-ms.openlocfilehash: a51cfba962ff884afa634473c0523e49a92a56f5
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: fc800d6f7a63e34f83b089fdea41b68cbf9134da
+ms.sourcegitcommit: 4ee683c18442386f6fc5c76ffabfad2c28b81d42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200800"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48214918"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Microsoft 365 관리 센터의 네트워크 연결 (미리 보기)
 
@@ -33,7 +33,7 @@ Microsoft 365 관리 센터에는 이제 Microsoft 365 테 넌 트에서 수집�
 
 조직을 대신 하 여이 기능에 대 한 공개 미리 보기를 연결 하 라는 메시지가 표시 될 수 있습니다. 수락은 대개 즉시 발생 하 고 네트워크 연결 페이지가 표시 됩니다. 
 
-네트워크 연결 페이지로 이동 하면 전역 네트워크 성능 맵과 전체 테 넌 트로 범위가 지정 된 네트워크 평가가 포함 된 개요 창 및 현재 문제 목록이 표시 됩니다. 이 페이지에 액세스 하려면 Microsoft 365 내의 조직 관리자 여야 합니다. 보고서 독자 관리 역할에는이 정보에 대 한 읽기 권한이 있습니다. 네트워크 연결의 위치 및 기타 요소를 구성 하려면 관리자는 서비스 지원 관리자 역할과 같은 서버 관리자 역할의 일부 여야 합니다. 이 개요에서는 드릴 다운을 통해 위치로 특정 네트워크 성능 메트릭 및 문제를 볼 수 있습니다. 자세한 내용은 [Microsoft 365 관리 센터의 네트워크 성능 개요](#network-connectivity-overview-in-the-microsoft-365-admin-center)를 참조 하세요.
+네트워크 연결 페이지로 이동 하면 전역 네트워크 성능 맵과 전체 테 넌 트로 범위가 지정 된 네트워크 평가가 포함 된 개요 창 및 현재 문제 목록이 표시 됩니다. 이 페이지에 액세스 하려면 Microsoft 365 내의 조직 관리자 여야 합니다. 보고서 독자 관리 역할에는이 정보에 대 한 읽기 권한이 있습니다. 네트워크 연결의 위치 및 기타 요소를 구성 하려면 관리자는 서비스 지원 관리자 역할과 같은 서버 관리자 역할의 일부 여야 합니다. 이 개요에서는 드릴 다운을 통해 위치로 특정 네트워크 성능 메트릭 및 문제를 볼 수 있습니다. 자세한 내용은 [Microsoft 365 관리 센터의 네트워크 연결 개요](#network-connectivity-overview-in-the-microsoft-365-admin-center)를 참조 하세요.
 
 ## <a name="pre-requisites-for-network-connectivity-assessments-to-appear"></a>네트워크 연결 평가를 표시 하기 위한 필수 구성 요소
 
