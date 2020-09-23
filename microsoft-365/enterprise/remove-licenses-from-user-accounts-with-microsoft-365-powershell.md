@@ -3,7 +3,7 @@ title: PowerShell을 사용 하 여 사용자 계정에서 Microsoft 365 라이�
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/17/2020
+ms.date: 09/23/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,30 +20,34 @@ ms.custom:
 - O365ITProTrain
 ms.assetid: e7e4dc5e-e299-482c-9414-c265e145134f
 description: PowerShell을 사용 하 여 이전에 사용자에 게 할당 된 Microsoft 365 라이선스를 제거 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 815b2290ca3b5ac4ee3cfec87383161ea70f3dca
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 7651f300dbf7a57ce163096d500401365e624663
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692374"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235457"
 ---
-# <a name="remove-microsoft-365-licenses-from-user-accounts-with-powershell"></a><span data-ttu-id="31e92-103">PowerShell을 사용 하 여 사용자 계정에서 Microsoft 365 라이선스 제거</span><span class="sxs-lookup"><span data-stu-id="31e92-103">Remove Microsoft 365 licenses from user accounts with PowerShell</span></span>
+# <a name="remove-microsoft-365-licenses-from-user-accounts-with-powershell"></a><span data-ttu-id="f7440-103">PowerShell을 사용 하 여 사용자 계정에서 Microsoft 365 라이선스 제거</span><span class="sxs-lookup"><span data-stu-id="f7440-103">Remove Microsoft 365 licenses from user accounts with PowerShell</span></span>
 
-<span data-ttu-id="31e92-104">*이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*</span><span class="sxs-lookup"><span data-stu-id="31e92-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
+<span data-ttu-id="f7440-104">*이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*</span><span class="sxs-lookup"><span data-stu-id="f7440-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
 
-## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="31e92-105">Graph 모듈용 Azure Active Directory PowerShell 사용하기</span><span class="sxs-lookup"><span data-stu-id="31e92-105">Use the Azure Active Directory PowerShell for Graph module</span></span>
+>[!Note]
+><span data-ttu-id="f7440-105">Microsoft 365 관리 센터를 사용 하 여 [사용자 계정에서 라이선스를 제거 하는 방법에 대해 알아봅니다](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users) .</span><span class="sxs-lookup"><span data-stu-id="f7440-105">[Learn how to remove licenses from user accounts](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users) with the Microsoft 365 admin center.</span></span> <span data-ttu-id="f7440-106">추가 리소스 목록은 [Manage users and groups](https://docs.microsoft.com/microsoft-365/admin/add-users/)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="f7440-106">For a list of additional resources, see [Manage users and groups](https://docs.microsoft.com/microsoft-365/admin/add-users/).</span></span>
+>
 
-<span data-ttu-id="31e92-106">먼저 [Microsoft 365 테 넌 트에 연결](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)합니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-106">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).</span></span>
+## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="f7440-107">Graph 모듈용 Azure Active Directory PowerShell 사용하기</span><span class="sxs-lookup"><span data-stu-id="f7440-107">Use the Azure Active Directory PowerShell for Graph module</span></span>
 
-<span data-ttu-id="31e92-107">그런 다음이 명령을 사용 하 여 테 넌 트에 대 한 라이선스 계획을 나열 합니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-107">Next, list the license plans for your tenant with this command.</span></span>
+<span data-ttu-id="f7440-108">먼저 [Microsoft 365 테 넌 트에 연결](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)합니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-108">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).</span></span>
+
+<span data-ttu-id="f7440-109">그런 다음이 명령을 사용 하 여 테 넌 트에 대 한 라이선스 계획을 나열 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-109">Next, list the license plans for your tenant with this command.</span></span>
 
 ```powershell
 Get-AzureADSubscribedSku | Select SkuPartNumber
 ```
 
-<span data-ttu-id="31e92-108">다음으로, UPN (사용자 계정 이름)이 라고도 하는 라이선스를 제거할 계정의 로그인 이름을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-108">Next, get the sign-in name of the account for which you want remove a license, also known as the user principal name (UPN).</span></span>
+<span data-ttu-id="f7440-110">다음으로, UPN (사용자 계정 이름)이 라고도 하는 라이선스를 제거할 계정의 로그인 이름을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-110">Next, get the sign-in name of the account for which you want remove a license, also known as the user principal name (UPN).</span></span>
 
-<span data-ttu-id="31e92-109">마지막으로 사용자 로그인 및 라이선스 계획 이름을 지정 하 고 "<" 및 ">" 문자를 제거한 후 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-109">Finally, specify the user sign-in and license plan names, remove the "<" and ">" characters, and run these commands.</span></span>
+<span data-ttu-id="f7440-111">마지막으로 사용자 로그인 및 라이선스 계획 이름을 지정 하 고 "<" 및 ">" 문자를 제거한 후 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-111">Finally, specify the user sign-in and license plan names, remove the "<" and ">" characters, and run these commands.</span></span>
 
 ```powershell
 $userUPN="<user sign-in name (UPN)>"
@@ -53,7 +57,7 @@ $License.RemoveLicenses = (Get-AzureADSubscribedSku | Where-Object -Property Sku
 Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $license
 ```
 
-<span data-ttu-id="31e92-110">특정 사용자 계정에 대 한 라이선스를 모두 제거 하려면 사용자 로그인 이름을 지정 하 고 "<" 및 ">" 문자를 제거 하 고 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-110">To remove all of the licenses for a specific user account, specify the user sign-in name, remove the "<" and ">" characters, and run these commands.</span></span>
+<span data-ttu-id="f7440-112">특정 사용자 계정에 대 한 라이선스를 모두 제거 하려면 사용자 로그인 이름을 지정 하 고 "<" 및 ">" 문자를 제거 하 고 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-112">To remove all of the licenses for a specific user account, specify the user sign-in name, remove the "<" and ">" characters, and run these commands.</span></span>
 
 ```powershell
 $userUPN="<user sign-in name (UPN)>"
@@ -83,43 +87,43 @@ Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $licenses
 }}
 ```
 
-## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a><span data-ttu-id="31e92-111">Windows PowerShell용 Microsoft Azure Active Directory 모듈 사용하기</span><span class="sxs-lookup"><span data-stu-id="31e92-111">Use the Microsoft Azure Active Directory Module for Windows PowerShell</span></span>
+## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a><span data-ttu-id="f7440-113">Windows PowerShell용 Microsoft Azure Active Directory 모듈 사용하기</span><span class="sxs-lookup"><span data-stu-id="f7440-113">Use the Microsoft Azure Active Directory Module for Windows PowerShell</span></span>
 
-<span data-ttu-id="31e92-112">먼저 [Microsoft 365 테 넌 트에 연결](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)합니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-112">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).</span></span>
+<span data-ttu-id="f7440-114">먼저 [Microsoft 365 테 넌 트에 연결](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)합니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-114">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).</span></span>
    
-<span data-ttu-id="31e92-113">라이센스 계획 (**AccountSkuID**) 조직에 대 한 정보는 다음 항목을 참조.</span><span class="sxs-lookup"><span data-stu-id="31e92-113">To view the licensing plan (**AccountSkuID**) information in your organization, see the following topics:</span></span>
+<span data-ttu-id="f7440-115">라이센스 계획 (**AccountSkuID**) 조직에 대 한 정보는 다음 항목을 참조.</span><span class="sxs-lookup"><span data-stu-id="f7440-115">To view the licensing plan (**AccountSkuID**) information in your organization, see the following topics:</span></span>
     
-  - [<span data-ttu-id="31e92-114">PowerShell을 사용 하 여 라이선스 및 서비스 보기</span><span class="sxs-lookup"><span data-stu-id="31e92-114">View licenses and services with PowerShell</span></span>](view-licenses-and-services-with-microsoft-365-powershell.md)
+  - [<span data-ttu-id="f7440-116">PowerShell을 사용 하 여 라이선스 및 서비스 보기</span><span class="sxs-lookup"><span data-stu-id="f7440-116">View licenses and services with PowerShell</span></span>](view-licenses-and-services-with-microsoft-365-powershell.md)
     
-  - [<span data-ttu-id="31e92-115">PowerShell을 사용 하 여 계정 라이선스 및 서비스 세부 정보 보기</span><span class="sxs-lookup"><span data-stu-id="31e92-115">View account license and service details with PowerShell</span></span>](view-account-license-and-service-details-with-microsoft-365-powershell.md)
+  - [<span data-ttu-id="f7440-117">PowerShell을 사용 하 여 계정 라이선스 및 서비스 세부 정보 보기</span><span class="sxs-lookup"><span data-stu-id="f7440-117">View account license and service details with PowerShell</span></span>](view-account-license-and-service-details-with-microsoft-365-powershell.md)
     
-<span data-ttu-id="31e92-116">_-All_ 매개 변수를 사용하지 않고 **Get-MsolUser** cmdlet을 사용하는 경우 처음 500개의 계정만 반환됩니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-116">If you use the **Get-MsolUser** cmdlet without using the _-All_ parameter, only the first 500 accounts are returned.</span></span>
+<span data-ttu-id="f7440-118">_-All_ 매개 변수를 사용하지 않고 **Get-MsolUser** cmdlet을 사용하는 경우 처음 500개의 계정만 반환됩니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-118">If you use the **Get-MsolUser** cmdlet without using the _-All_ parameter, only the first 500 accounts are returned.</span></span>
     
-### <a name="removing-licenses-from-user-accounts"></a><span data-ttu-id="31e92-117">사용자 계정에서 라이선스 제거</span><span class="sxs-lookup"><span data-stu-id="31e92-117">Removing licenses from user accounts</span></span>
+### <a name="removing-licenses-from-user-accounts"></a><span data-ttu-id="f7440-119">사용자 계정에서 라이선스 제거</span><span class="sxs-lookup"><span data-stu-id="f7440-119">Removing licenses from user accounts</span></span>
 
-<span data-ttu-id="31e92-118">기존 사용자 계정에서 라이센스를 제거 하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-118">To remove licenses from an existing user account, use the following syntax:</span></span>
+<span data-ttu-id="f7440-120">기존 사용자 계정에서 라이센스를 제거 하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-120">To remove licenses from an existing user account, use the following syntax:</span></span>
   
 ```powershell
 Set-MsolUserLicense -UserPrincipalName <Account> -RemoveLicenses "<AccountSkuId1>", "<AccountSkuId2>"...
 ```
 
 >[!Note]
-><span data-ttu-id="31e92-119">PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 **Msol**이 있는 cmdlet을 지원하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-119">PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name.</span></span> <span data-ttu-id="31e92-120">이러한 cmdlet을 계속 사용하려면 Windows PowerShell에서 이를 실행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-120">To continue using these cmdlets, you must run them from Windows PowerShell.</span></span>
+><span data-ttu-id="f7440-121">PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 **Msol**이 있는 cmdlet을 지원하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-121">PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name.</span></span> <span data-ttu-id="f7440-122">이러한 cmdlet을 계속 사용하려면 Windows PowerShell에서 이를 실행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-122">To continue using these cmdlets, you must run them from Windows PowerShell.</span></span>
 >
 
-<span data-ttu-id="31e92-121">이 예에서는 사용자 계정 BelindaN@litwareinc.com에서 **litwareinc: ENTERPRISEPACK** (Office 365 Enterprise E3) 라이선스를 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-121">This example removes the **litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) license from the user account BelindaN@litwareinc.com.</span></span>
+<span data-ttu-id="f7440-123">이 예에서는 사용자 계정 BelindaN@litwareinc.com에서 **litwareinc: ENTERPRISEPACK** (Office 365 Enterprise E3) 라이선스를 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-123">This example removes the **litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) license from the user account BelindaN@litwareinc.com.</span></span>
   
 ```powershell
 Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -RemoveLicenses "litwareinc:ENTERPRISEPACK"
 ```
 
 >[!Note]
-><span data-ttu-id="31e92-122">`Set-MsolUserLicense`Cmdlet을 사용 하 여 취소 된 라이선스의 사용자 할당을 *취소할* 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-122">You cannot use the `Set-MsolUserLicense` cmdlet to unassign users from *canceled* licenses.</span></span> <span data-ttu-id="31e92-123">Microsoft 365 관리 센터에서 각 사용자 계정에 대해 개별적으로이 작업을 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-123">You must do this individually for each user account in the Microsoft 365 admin center.</span></span>
+><span data-ttu-id="f7440-124">`Set-MsolUserLicense`Cmdlet을 사용 하 여 취소 된 라이선스의 사용자 할당을 *취소할* 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-124">You cannot use the `Set-MsolUserLicense` cmdlet to unassign users from *canceled* licenses.</span></span> <span data-ttu-id="f7440-125">Microsoft 365 관리 센터에서 각 사용자 계정에 대해 개별적으로이 작업을 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-125">You must do this individually for each user account in the Microsoft 365 admin center.</span></span>
 >
 
-<span data-ttu-id="31e92-124">기존의 사용이 허가 된 사용자 그룹에서 모든 라이선스를 제거 하려면 다음 방법 중 하나를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-124">To remove all licenses from a group of existing licensed users, use either of the following methods:</span></span>
+<span data-ttu-id="f7440-126">기존의 사용이 허가 된 사용자 그룹에서 모든 라이선스를 제거 하려면 다음 방법 중 하나를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-126">To remove all licenses from a group of existing licensed users, use either of the following methods:</span></span>
   
-- <span data-ttu-id="31e92-125">**기존 계정 특성을 기반으로 계정 필터링** 이 작업을 수행 하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-125">**Filter the accounts based on an existing account attribute** To do this, use the following syntax:</span></span>
+- <span data-ttu-id="f7440-127">**기존 계정 특성을 기반으로 계정 필터링** 이 작업을 수행 하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-127">**Filter the accounts based on an existing account attribute** To do this, use the following syntax:</span></span>
     
 ```powershell
 $userArray = Get-MsolUser -All <FilterableAttributes> | where {$_.isLicensed -eq $true}
@@ -129,7 +133,7 @@ Set-MsolUserLicense -UserPrincipalName $userArray[$i].UserPrincipalName -RemoveL
 }
 ```
 
-<span data-ttu-id="31e92-126">이 예에서는 미국의 영업 부서에 있는 모든 사용자 계정에서 모든 라이선스를 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-126">This example removes all licenses from all user accounts in the Sales department in the United States.</span></span>
+<span data-ttu-id="f7440-128">이 예에서는 미국의 영업 부서에 있는 모든 사용자 계정에서 모든 라이선스를 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-128">This example removes all licenses from all user accounts in the Sales department in the United States.</span></span>
     
 ```powershell
 $userArray = Get-MsolUser -All -Department "Sales" -UsageLocation "US" | where {$_.isLicensed -eq $true}
@@ -139,9 +143,9 @@ Set-MsolUserLicense -UserPrincipalName $userArray[$i].UserPrincipalName -RemoveL
 }
 ```
 
-- <span data-ttu-id="31e92-127">**특정 라이선스에 대 한 특정 계정 목록 사용** 이렇게 하려면 다음 단계를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-127">**Use a list of specific accounts for a specific license** To do this, perform the following steps:</span></span>
+- <span data-ttu-id="f7440-129">**특정 라이선스에 대 한 특정 계정 목록 사용** 이렇게 하려면 다음 단계를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-129">**Use a list of specific accounts for a specific license** To do this, perform the following steps:</span></span>
     
-1. <span data-ttu-id="31e92-128">만들고 다음과 같이 각 줄에 한 계정에 포함 된 텍스트 파일을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-128">Create and save a text file that contains one account on each line like this:</span></span>
+1. <span data-ttu-id="f7440-130">만들고 다음과 같이 각 줄에 한 계정에 포함 된 텍스트 파일을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-130">Create and save a text file that contains one account on each line like this:</span></span>
     
   ```powershell
 akol@contoso.com
@@ -149,7 +153,7 @@ tjohnston@contoso.com
 kakers@contoso.com
   ```
 
-2. <span data-ttu-id="31e92-129">다음 구문을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-129">Use the following syntax:</span></span>
+2. <span data-ttu-id="f7440-131">다음 구문을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-131">Use the following syntax:</span></span>
     
   ```powershell
   $x=Get-Content "<FileNameAndPath>"
@@ -158,7 +162,7 @@ kakers@contoso.com
   Set-MsolUserLicense -UserPrincipalName $x[$i] -RemoveLicenses "<AccountSkuId1>","<AccountSkuId2>"...
   }
   ```
-<span data-ttu-id="31e92-130">이 예에서는 텍스트 파일 C:\My Documents\Accounts.txt에 정의 된 사용자 계정에서 **litwareinc: ENTERPRISEPACK** (Office 365 Enterprise E3) 라이선스를 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-130">This example removes the **litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) license from the user accounts defined in the text file C:\My Documents\Accounts.txt.</span></span>
+<span data-ttu-id="f7440-132">이 예에서는 텍스트 파일 C:\My Documents\Accounts.txt에 정의 된 사용자 계정에서 **litwareinc: ENTERPRISEPACK** (Office 365 Enterprise E3) 라이선스를 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-132">This example removes the **litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) license from the user accounts defined in the text file C:\My Documents\Accounts.txt.</span></span>
     
   ```powershell
   $x=Get-Content "C:\My Documents\Accounts.txt"
@@ -168,7 +172,7 @@ kakers@contoso.com
   }
   ```
 
-<span data-ttu-id="31e92-131">모든 기존 사용자 계정에서 모든 라이선스를 제거 하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-131">To remove all licenses from all existing user accounts, use the following syntax:</span></span>
+<span data-ttu-id="f7440-133">모든 기존 사용자 계정에서 모든 라이선스를 제거 하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-133">To remove all licenses from all existing user accounts, use the following syntax:</span></span>
   
 ```powershell
 $userArray = Get-MsolUser -All | where {$_.isLicensed -eq $true}
@@ -178,13 +182,13 @@ Set-MsolUserLicense -UserPrincipalName $userArray[$i].UserPrincipalName -RemoveL
 }
 ```
 
-<span data-ttu-id="31e92-132">라이선스를 회수하는 또 다른 방법은 사용자 계정을 삭제하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="31e92-132">Another way to free up a license is by deleting the user account.</span></span> <span data-ttu-id="31e92-133">자세한 내용은 [With PowerShell을 사용 하 여 사용자 계정 삭제 및 복원을](delete-and-restore-user-accounts-with-microsoft-365-powershell.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="31e92-133">For more information, see [Delete and restore user accounts with PowerShell](delete-and-restore-user-accounts-with-microsoft-365-powershell.md).</span></span>
+<span data-ttu-id="f7440-134">라이선스를 회수하는 또 다른 방법은 사용자 계정을 삭제하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="f7440-134">Another way to free up a license is by deleting the user account.</span></span> <span data-ttu-id="f7440-135">자세한 내용은 [With PowerShell을 사용 하 여 사용자 계정 삭제 및 복원을](delete-and-restore-user-accounts-with-microsoft-365-powershell.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f7440-135">For more information, see [Delete and restore user accounts with PowerShell](delete-and-restore-user-accounts-with-microsoft-365-powershell.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="31e92-134">참고 항목</span><span class="sxs-lookup"><span data-stu-id="31e92-134">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f7440-136">참고 항목</span><span class="sxs-lookup"><span data-stu-id="f7440-136">See also</span></span>
 
-[<span data-ttu-id="31e92-135">PowerShell로 Microsoft 365 사용자 계정, 라이선스 및 그룹 관리</span><span class="sxs-lookup"><span data-stu-id="31e92-135">Manage Microsoft 365 user accounts, licenses, and groups with PowerShell</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
+[<span data-ttu-id="f7440-137">PowerShell로 Microsoft 365 사용자 계정, 라이선스 및 그룹 관리</span><span class="sxs-lookup"><span data-stu-id="f7440-137">Manage Microsoft 365 user accounts, licenses, and groups with PowerShell</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
   
-[<span data-ttu-id="31e92-136">PowerShell로 Microsoft 365 관리</span><span class="sxs-lookup"><span data-stu-id="31e92-136">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
+[<span data-ttu-id="f7440-138">PowerShell로 Microsoft 365 관리</span><span class="sxs-lookup"><span data-stu-id="f7440-138">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
   
-[<span data-ttu-id="31e92-137">Microsoft 365 용 PowerShell 시작</span><span class="sxs-lookup"><span data-stu-id="31e92-137">Getting started with PowerShell for Microsoft 365</span></span>](getting-started-with-microsoft-365-powershell.md)
+[<span data-ttu-id="f7440-139">Microsoft 365 용 PowerShell 시작</span><span class="sxs-lookup"><span data-stu-id="f7440-139">Getting started with PowerShell for Microsoft 365</span></span>](getting-started-with-microsoft-365-powershell.md)
 
