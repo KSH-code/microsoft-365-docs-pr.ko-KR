@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: 중앙 집중식 배포를 사용 하 여 Office 추가 기능을 배포할 수 있도록 테 넌 트 및 사용자가 요구 사항을 충족 하는지 확인 합니다.
-ms.openlocfilehash: 4bd81dcf1d1ee6221a3519baac0a3b1bc63b791f
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: c3e306789f5b1c09e835d8d2c5ebea668bf14874
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131737"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235421"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 맞게 작동 하는지 확인
 
@@ -45,7 +45,7 @@ ms.locfileid: "48131737"
   
 ## <a name="requirements"></a>요구 사항
 
-추가 기능의 중앙 집중식 배포에서는 사용자가 Microsoft 365 앱 for enterprise (및 조직 ID를 사용 하 여 Office에 로그인)를 사용 하 고 있으며 Exchange Online 및 active Exchange Online 사서함이 있어야 합니다. 구독 디렉터리는 내에 있거나 Azure Active Directory에 페더레이션 되어 있어야 합니다.
+추가 기능의 중앙 집중식 배포에서는 사용자가 Microsoft 365 앱 for enterprise 또는 Microsoft 365 Business Premium을 사용 하 고 있으며, 조직 ID를 사용 하 여 Office에 로그인 하 고, Exchange Online 및 active Exchange Online 사서함이 있어야 합니다. 구독 디렉터리는 내에 있거나 Azure Active Directory에 페더레이션 되어 있어야 합니다.
 아래의 Office 및 Exchange에 대 한 특정 요구 사항을 보거나[중앙 집중식 배포 호환성 검사](#centralized-deployment-compatibility-checker)를 사용할 수 있습니다.
 
 중앙 집중식 배포는 다음을 지원하지 않습니다.
@@ -61,11 +61,11 @@ ms.locfileid: "48131737"
 ### <a name="office-requirements"></a>Office 요구 사항
 
 - Word, Excel 및 PowerPoint 추가 기능의 경우 사용자는 다음 중 하나를 사용 해야 합니다.
-  - Windows 장치에서 Microsoft 365 앱 for enterprise 버전 1704 이상에 해당 합니다.
+  - Windows 장치에서 Microsoft 365 Apps for enterprise 또는 Microsoft 365 Business Premium의 버전 1704 이상입니다.
   - Mac의 경우 버전 15.34 이상입니다.
 
 - Outlook의 경우 사용자는 다음 중 하나를 사용 해야 합니다. 
-  - Enterprise 용 Microsoft 365 앱 버전 1701 이상
+  - Microsoft 365 Apps for enterprise 또는 Microsoft 365 Business Premium 버전 1701 이상
   - Office Professional Plus 2019 또는 Office Standard 2019 버전 1808 이상
   - Office Professional Plus 2016 (MSI) 또는 Office Standard 2016 (MSI) 버전 16.0.4494.1000 이상\*
   - Office Professional Plus 2013 (MSI) 또는 Office Standard 2013 (MSI) 버전 15.0.4937.1000 이상\*

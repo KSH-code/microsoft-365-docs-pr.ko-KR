@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c7026dcc09207ce1b6fa911bf20683e4e642eee5
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 757da7f0fb3089c358333ac5f49140d965476945
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44397601"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235409"
 ---
 # <a name="contact-support-for-india"></a>인도에 대 한 지원 문의
 
@@ -27,14 +27,16 @@ ms.locfileid: "44397601"
 ## <a name="phone-number"></a>전화 번호
 000 800 440 2038
 
+로컬 무료
+
 ## <a name="hours"></a>시간
-### <a name="billing-support"></a>대금 청구 지원:
+### <a name="billing-support"></a>청구 지원:
 
 영어: Mon-금요일 오전 9 시-오후 6 시
 
 ### <a name="technical-support"></a>기술 지원:
 
-영어: 하루 24 시간 365 일 연중 무휴로
+영어: 연중무휴 24시간
 
 대체 전화 번호: 1800 200 2052
 

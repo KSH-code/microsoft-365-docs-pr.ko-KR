@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 ms.assetid: c08786fb-298e-437c-8222-dab7625fc815
 description: '요약: Microsoft Office 365 구성 요소 및 Office 365 정부 제품의 IPv6 지원에 대해 설명 합니다.'
-ms.openlocfilehash: c4ecd2ef26ecf660eb1d172b1951907724d2238a
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: f671e8caf868ebbed628a155b73ce6fe413949a9
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692448"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235609"
 ---
 # <a name="ipv6-support-in-office-365-services"></a>Office 365 서비스의 IPv6 지원
 
@@ -50,6 +50,10 @@ SharePoint Online에 연결 하는 데 사용 하는 프로그램이 i p v 6을 
 ### <a name="skype-for-business-and-ipv6"></a>비즈니스용 Skype 및 IPv6
 
 알 수 없음 IPv6은 비즈니스용 Skype에서 지원 되지 않으며 더 이상 사용할 수 없습니다.
+
+### <a name="microsoft-teams-and-ipv6"></a>Microsoft 팀 및 IPV6
+
+Microsoft 팀 직접 라우팅은 IPv4만 지원 합니다. Microsoft 팀 서비스와 클라이언트는 IPv4 및 IPv6을 모두 지원 합니다. Microsoft 팀에 대 한 통신을 제어 하려면 [Office 365 url 및 ip 주소 범위](urls-and-ip-address-ranges.md)에서 ip 주소 범위를 사용 합니다.
   
 ### <a name="exchange-online-protection-and-ipv6"></a>Exchange Online Protection 및 IPv6
 

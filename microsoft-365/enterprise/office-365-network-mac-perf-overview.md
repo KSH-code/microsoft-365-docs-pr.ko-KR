@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 관리 센터의 네트워크 연결 개요 (미리 보기)
-ms.openlocfilehash: fc800d6f7a63e34f83b089fdea41b68cbf9134da
-ms.sourcegitcommit: 4ee683c18442386f6fc5c76ffabfad2c28b81d42
+ms.openlocfilehash: 52d1995572a3ae0220ac8529862ba69d5bca8cdb
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/23/2020
-ms.locfileid: "48214918"
+ms.locfileid: "48235541"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Microsoft 365 관리 센터의 네트워크 연결 (미리 보기)
 
@@ -30,6 +30,11 @@ Microsoft 365 관리 센터에는 이제 Microsoft 365 테 넌 트에서 수집�
 **네트워크 평가** 및 **네트워크 통찰력** 은 Microsoft 365 관리 센터의 상태 |에 표시 됩니다. ** 연결**합니다.
 
 ![네트워크 성능 페이지](../media/m365-mac-perf/m365-mac-perf-page-nav.png)
+
+>[!NOTE]
+>네트워크 연결 테스트 도구는 WW 상업용 및 독일의 테 넌 트를 지원 하지만 GCC 보통, GCC High, DoD 또는 중국이 아닙니다.
+
+먼저 네트워크 성능 페이지로 이동 하면 전역 네트워크 성능 맵과 전체 테 넌 트로 범위가 지정 된 네트워크 평가가 포함 된 개요 창 및 현재 문제 목록이 표시 됩니다. 이 개요에서는 드릴 다운을 통해 위치로 특정 네트워크 성능 메트릭 및 문제를 볼 수 있습니다. 자세한 내용은 [Microsoft 365 관리 센터의 네트워크 성능 개요](#network-connectivity-overview-in-the-microsoft-365-admin-center)를 참조 하세요.
 
 조직을 대신 하 여이 기능에 대 한 공개 미리 보기를 연결 하 라는 메시지가 표시 될 수 있습니다. 수락은 대개 즉시 발생 하 고 네트워크 연결 페이지가 표시 됩니다. 
 

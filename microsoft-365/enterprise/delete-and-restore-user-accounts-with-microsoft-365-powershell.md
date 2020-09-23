@@ -3,7 +3,7 @@ title: PowerShell을 사용 하 여 Microsoft 365 사용자 계정 삭제
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/17/2020
+ms.date: 09/23/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,16 +20,20 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 209c9868-448c-49bc-baae-11e28b923a39
 description: 이 문서에서는 PowerShell에서 서로 다른 모듈을 사용 하 여 Microsoft 365 사용자 계정을 삭제 하는 방법을 알아봅니다.
-ms.openlocfilehash: 6da2d83b3f305db09f8c1d02f54e643a0ad1978b
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 0c13b57c13fb3d01d648438a5d6973fea8b9db67
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692656"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235445"
 ---
 # <a name="delete-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 사용 하 여 Microsoft 365 사용자 계정 삭제
 
-Microsoft 365 용 PowerShell을 사용 하 여 사용자 계정을 삭제할 수 있습니다.
+Microsoft 365 용 PowerShell을 사용 하 여 사용자 계정을 삭제 및 복원할 수 있습니다.
+
+>[!Note]
+>Microsoft 365 관리 센터를 사용 하 여 [사용자 계정을 복원 하는 방법에 대해 알아봅니다](https://docs.microsoft.com/microsoft-365/admin/add-users/restore-user) . 추가 리소스 목록은 [Manage users and groups](https://docs.microsoft.com/microsoft-365/admin/add-users/)을 참조 하십시오.
+>   
    
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기
 

@@ -3,7 +3,7 @@ title: PowerShell을 사용 하 여 Microsoft 365 사용자 계정 만들기
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/17/2020
+ms.date: 09/23/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 6770c5fa-b886-4512-8c67-ffd53226589e
 description: 이 문서에서는 PowerShell을 사용 하 여 사용자 계정 또는 여러 Microsoft 365 사용자 계정을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 53077352862b6d0df6bb569300e2d8bc2475df91
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 00ae8806e786eada092704febd65c72c72382788
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692663"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235597"
 ---
 # <a name="create-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 사용 하 여 Microsoft 365 사용자 계정 만들기
 
@@ -42,7 +42,10 @@ Microsoft 365 용 PowerShell을 사용 하 여 사용자 계정, 특히 여러 �
 |**LicenseAssignment** <br/> |아니요  <br/> |사용 가능한 라이선스가 사용자 계정에 할당 되는 라이선스 계획 (라이선스 요금제 또는 SKU 라고도 함)입니다. 라이선스는 계정에 사용할 수 있는 Microsoft 365 서비스를 정의 합니다. 계정을 만들 때 사용자에 게 라이선스를 할당할 필요가 없지만 계정에 Microsoft 365 서비스에 액세스 하기 위한 라이선스가 필요 합니다. 30 일 내에 사용자 계정을 만든 후 라이선스를 허가 해야 합니다. |
 |**Password** <br/> |아니요  <br/> | 암호를 지정하지 않으면 사용자 계정에 임의의 암호가 할당되고, 명령 결과에 암호가 표시됩니다. 암호를 지정할 때에는 소문자, 대문자, 숫자, 기호 중 3가지가 포함된 길이 8 ~ 16의 ASCII 문자를 사용합니다. <br/> |
 |**UsageLocation** <br/> |아니요  <br/> |유효한 ISO 3166-1 alpha-2 국가 코드입니다. 예를 들어 미국, 프랑스의 경우 FR을 들을 있습니다. 일부 Microsoft 365 서비스는 특정 국가에서 사용할 수 없기 때문에이 값을 제공 하는 것이 중요 하므로, 계정에이 값이 구성 되어 있지 않으면 사용자 계정에 라이선스를 할당할 수 없습니다. 자세한 내용은 [사용권 제한 정보](https://go.microsoft.com/fwlink/p/?LinkId=691730)를 참조 하세요.  <br/> |
-   
+
+>[!Note]
+>Microsoft 365 관리 센터를 사용 하 여 [사용자 계정을 만드는 방법을 알아봅니다](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) . 추가 리소스 목록은 [Manage users and groups](https://docs.microsoft.com/microsoft-365/admin/add-users/)을 참조 하십시오.
+>   
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기
 
