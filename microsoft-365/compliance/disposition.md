@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용 하 든, 구성 된 설정에 따라 콘텐츠를 자동으로 삭제할지 여부에 관계 없이 콘텐츠 삭제를 모니터링 하 고 관리 합니다.
-ms.openlocfilehash: 6789ab1abe54b76f22462a47326b07a213f19b0c
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 3ef98e07df37d429567534e252c15abee69d0044
+ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950392"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48245939"
 ---
 # <a name="disposition-of-content"></a>콘텐츠 처리
 
@@ -118,11 +118,6 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스 하려면 사용자�
 처리 검토를 기다리는 콘텐츠는 검토자가 콘텐츠를 영구적으로 삭제 하도록 선택한 후에만 삭제 됩니다. 검토자가이 옵션을 선택 하면 SharePoint 사이트 또는 OneDrive 계정의 콘텐츠가 [보존 설정에서 콘텐츠 작업을 수행 하는 방식](retention.md#how-retention-settings-work-with-content-in-place)에 설명 된 표준 정리 프로세스를 수행할 수 있게 됩니다.
 
 ## <a name="disposition-of-records"></a>콘텐츠 처분
-
-> [!NOTE]
-> SharePoint 및 OneDrive의 레코드에 대 한 삭제 증명 롤아웃이 완료 되었습니다.
->
-> 이 메모를 제거 하는 경우 Exchange에서 레코드를 삭제 하는 롤아웃이 거의 완료 됩니다.
 
 **레코드 관리** 페이지의 **처리** 탭을 사용 하 여 자동으로 또는 처리 검토 후에 삭제 된 레코드를 식별 합니다. 이러한 항목은 **형식** 열에서 **삭제 된 레코드** 를 표시 합니다. 예시:
 

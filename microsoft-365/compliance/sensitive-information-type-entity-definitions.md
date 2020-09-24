@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: 보안 및 준수 센터의 DLP (데이터 손실 방지)에는 &amp; dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다.
-ms.openlocfilehash: 5d776fcf816359fd30c750b9bebe536269a2b6c5
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 8ee871ccde30d3ab71dbcb2d5183aafdf11482bd
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208100"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235574"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>중요한 정보 유형 엔터티 정의
 
@@ -206,6 +206,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - iaea
 
 ## <a name="australia-business-number"></a>오스트레일리아 근무처 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
+
 
 ### <a name="format"></a>형식일
 
@@ -261,6 +268,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - businessno #
 
 ## <a name="australia-company-number"></a>오스트레일리아 회사 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -689,6 +702,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - fuhrerschein republik osterreich
 
 ## <a name="austria-identity-card"></a>오스트리아 id 카드
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -762,20 +781,38 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_austria_eu_passport_number" />
-          <Match idRef="Keywords_austria_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_austria_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
 #### <a name="keywords_austria_eu_passport_number"></a>Keywords_austria_eu_passport_number
 
-- passport number
-- 오스트리아 여권 번호
-- passport 아니요
-- reisepass
-- österreichisch reisepass
+- reisepassnummer
+- reisepasse
+- Reisepass 
+- Veiligheid-Reisepass
+- Reisepass-Veiligheid
+- Passnummer
+- reisepässe
 
 ## <a name="austria-social-security-number-or-equivalent-identification"></a>오스트리아 주민 등록 번호 또는 동등한 식별
 이 중요 한 정보 유형 엔터티는 EU 주민 등록 번호 또는 해당 ID 중요 정보 유형에 서만 사용할 수 있습니다.
@@ -906,6 +943,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 세금 번호
  
 ## <a name="austria-value-added-tax"></a>오스트리아 값 추가 된 세금
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -1626,23 +1669,42 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
-          <IdMatch idRef="Regex_belgium__eu_passport_number" />
-          <Match idRef="Keywords_belgium_eu_passport_number" />
+          <IdMatch idRef="Regex_belgium_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_belgium_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
 #### <a name="keywords_belgium_eu_passport_number"></a>Keywords_belgium_eu_passport_number
 
-- passport number
-- 벨기에 여권 번호
-- passport 아니요
-- 고 대/ort
+- numéro (고) 포트
+- 고 대 veiligheid
+- veiligheid
 - paspoortnummer
+- paspoortnummers
+- 포트 carte
+- 포트 livre
+- Veiligheid
+- Passnummer
 - reisepass kein
-- reisepass
 
 ## <a name="belgium-social-security-number-or-equivalent-identification"></a>벨기에 주민 등록 번호 또는 동등한 식별
 이 중요 한 정보 유형 엔터티는 EU 주민 등록 번호 또는 해당 ID 중요 정보 유형에 서만 사용할 수 있습니다.
@@ -1706,6 +1768,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="belgium-value-added-tax-number"></a>벨기에 값 세금 번호 추가 됨
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -2022,6 +2090,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="bulgaria-uniform-civil-number"></a>불가리아 uniform 민사 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -2136,26 +2210,40 @@ national id
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_bulgaria_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_bulgaria_eu_passport_number` 찾았습니다. 
+- From  `Keywords_bulgaria_eu_passport_number` 또는 found의 키워드 `Keywords_eu_passport_number_common` 입니다. 
 
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_bulgaria_eu_passport_number" />
-          <Match idRef="Keywords_bulgaria_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_bulgaria_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
 #### <a name="keywords_bulgaria_eu_passport_number"></a>Keywords_bulgaria_eu_passport_number
 
-- passport number
-- 불가리아어 여권 번호
-- passport 아니요
 - номер на паспорта
-
+- номер на паспорт
+- паспорт 아니요
 
 ## <a name="canada-bank-account-number"></a>캐나다 은행 계좌 번호
 
@@ -3347,26 +3435,40 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_croatia_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_croatia_eu_passport_number` 찾았습니다. 
+- From  `Keywords_eu_passport_number_common` 또는 found의 키워드 `Keywords_croatia_eu_passport_number` 입니다. 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_croatia_eu_passport_number" />
-          <Match idRef="Keywords_croatia_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_croatia_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
 #### <a name="keywords_croatia_eu_passport_number"></a>Keywords_croatia_eu_passport_number
 
-- passport number
-- 크로아티아어 여권 번호
-- passport 아니요
 - broj putovnice
-
+- br. Putovnice
+- br putovnice
    
 ## <a name="croatia-personal-identification-oib-number"></a>크로아티아 OIB (개인 식별) 번호
 
@@ -3554,6 +3656,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="cyprus-identity-card"></a>키프로스 id 카드
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -3614,29 +3722,57 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_cyprus_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다.
-- From 키워드를  `Keywords_cyprus_eu_passport_number` 찾았습니다. 
+- From  `Keywords_eu_passport_number_common` 또는 found의 키워드 `Keywords_cyprus_eu_passport_number` 입니다. 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_cyprus_eu_passport_number" />
-          <Match idRef="Keywords_cyprus_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_cyprus_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
 #### <a name="keywords_cyprus_eu_passport_number"></a>Keywords_cyprus_eu_passport_number
 
-- passport number
-- 키프로스 여권 번호
-- passport 아니요
 - αριθμό διαβατηρίου
-
+- pasaportu
+- Αριθμός Διαβατηρίου
+- κυπριακό διαβατήριο
+- διαβατήριο #
+- διαβατήριο
+- αριθμός διαβατηρίου
+- 고 aport Kimliği
+- 고 aport numarası
+- 고 aport 아니요
+- Αρ. Διαβατηρίου
 
 ## <a name="cyprus-tax-identification-number"></a>키프로스 세금 식별 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -3783,27 +3919,43 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_czech_republic_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_czech_republic_eu_passport_number` 찾았습니다. 
+- From  `Keywords_eu_passport_number_common` 또는 found의 키워드 `Keywords_czech_republic_eu_passport_number` 입니다. 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_czech_republic_eu_passport_number" />
-          <Match idRef="Keywords_czech_republic_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_czech_republic_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
 #### <a name="keywords_czech_republic_eu_passport_number"></a>Keywords_czech_republic_eu_passport_number
 
-- passport number
-- 체코어 여권 번호
-- passport 아니요
 - cestovní pas
-- pas
+- číslo (u)
+- cestovní (u)
+- 포트 번호 없음
+- čísla (u)
 
 
 ## <a name="czech-personal-identity-number"></a>체코어 개인 id 번호
@@ -4040,31 +4192,44 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_denmark_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_denmark_eu_passport_number` 찾았습니다. 
+- From  `Keywords_eu_passport_number_common` 또는 found의 키워드 `Keywords_denmark_eu_passport_number` 입니다. 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_denmark_eu_passport_number" />
-          <Match idRef="Keywords_denmark_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_denmark_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
 #### <a name="keywords_denmark_eu_passport_number"></a>Keywords_denmark_eu_passport_number
 
-- passport number
-- 덴마크어 여권 번호
-- passport 아니요
-- pas
 - pasnummer
+- 포트 n °
+- 를 다시
 
 
 ## <a name="denmark-personal-identification-number"></a>덴마크 개인 식별 번호
-이 중요 한 정보 유형 엔터티는 EU 국가 식별 번호 중요 한 정보 유형에 포함 되며 독립 실행형 중요 한 정보 유형 엔터티로 사용할 수 있습니다.
 
 ### <a name="format"></a>형식일
 
@@ -4333,6 +4498,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="estonia-personal-identification-code"></a>에스토니아 개인 식별 코드
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -4433,26 +4604,39 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_estonia_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_estonia_eu_passport_number` 찾았습니다. 
+- From  `Keywords_eu_passport_number_common` 또는 found의 키워드 `Keywords_estonia_eu_passport_number` 입니다. 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_estonia_eu_passport_number" />
-          <Match idRef="Keywords_estonia_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_estonia_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
 #### <a name="keywords_estonia_eu_passport_number"></a>Keywords_estonia_eu_passport_number
 
-- passport number
-- 에스토니아어 여권 번호
-- passport 아니요
-- eesti kodaniku pass
+eesti kodaniku pass si 번호 passinumbrid 문서 번호 문서에 dokumendi veiligheid
 
 ## <a name="eu-debit-card-number"></a>EU 직불 카드 번호
 
@@ -5013,6 +5197,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="finland-european-health-insurance-number"></a>핀란드 유럽 건강 보험 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -5181,22 +5371,44 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식 Regex_finland_passport_number 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_finland_passport_number에서 키워드가 발견 되었습니다.
+- Keywords_eu_passport_number_common 또는 Keyword_finland_passport_number의 키워드를 찾았습니다.
 
 ```xml
 <!-- Finland Passport Number -->
 <Entity id="d1685ac3-1d3a-40f8-8198-32ef5669c7a5" recommendedConfidence="75" patternsProximity="300">
-  <Pattern confidenceLevel="75">
-     <IdMatch idRef="Regex_finland_passport_number"/>
-     <Match idRef="Keyword_finland_passport_number"/>
-  </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Regex_finland_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keyword_finland_passport_number" />
+          </Any>
+        </Pattern>
 </Entity>
 ```
 ### <a name="keywords"></a>키워드
 
-- Keyword_finland_passport_number
-- 여권
-- 에이 si
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
+#### <a name="keyword_finland_passport_number"></a>Keyword_finland_passport_number
+
+- suomalainen (si)
+- passin numero
+- passin numero. #
+- passin numero #
+- passin numero.
+- 에이 si #
+- 값
 
 
 ## <a name="finland-social-security-number-or-equivalent-identification"></a>핀란드 주민 등록 번호 또는 동등한 식별
@@ -5323,6 +5535,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="france-health-insurance-number"></a>프랑스 건강 보험 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -5627,6 +5845,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="france-value-added-tax-number"></a>프랑스 값 추가 된 세금 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -5910,68 +6134,41 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
 - Func_german_passport 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
-- 5개의 키워드 목록 중에 포함된 키워드가 발견되었습니다.
+- From 키워드를 `Keyword_german_passport` 찾았습니다.
 - 체크섬이 통과됩니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - Func_german_passport_data 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
-- 5개의 키워드 목록 중에 포함된 키워드가 발견되었습니다.
+- From 키워드를 `Keyword_german_passport` 찾았습니다.
 - 체크섬이 통과됩니다.
 
 ```xml
-<!-- Germany Passport Number -->
-<Entity id="2e3da144-d42b-47ed-b123-fbf78604e52c" patternsProximity="300" recommendedConfidence="75">
-  <Pattern confidenceLevel="85">
+    <!-- German Passport Number -->
+    <Entity id="2e3da144-d42b-47ed-b123-fbf78604e52c" patternsProximity="300" recommendedConfidence="75">
+      <Pattern confidenceLevel="85">
         <IdMatch idRef="Func_german_passport" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_german_passport" />
-          <Match idRef="Keyword_german_passport_collaborative" />
-          <Match idRef="Keyword_german_passport_number" />
-          <Match idRef="Keyword_german_passport1" />
-          <Match idRef="Keyword_german_passport2" />
-        </Any>
-  </Pattern>
-  <Pattern confidenceLevel="75">
+        <Match idRef="Keyword_german_passport" />
+      </Pattern>
+      <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_german_passport_data" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_german_passport" />
-          <Match idRef="Keyword_german_passport_collaborative" />
-          <Match idRef="Keyword_german_passport_number" />
-          <Match idRef="Keyword_german_passport1" />
-          <Match idRef="Keyword_german_passport2" />
-        </Any>
-  </Pattern>
-</Entity>
+        <Match idRef="Keyword_german_passport" />
+      </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
 #### <a name="keyword_german_passport"></a>Keyword_german_passport
 
-- reisepass
 - reisepasse
 - reisepassnummer
-- 여권
-- passports
-
-#### <a name="keyword_german_passport_collaborative"></a>Keyword_german_passport_collaborative
-
-- ge삼 부, tsdatum
-- ausstellungsdatum
-- ausstellungsort
-
-#### <a name="keyword_german_passport_number"></a>Keyword_german_passport_number
-
-Reisepass Veiligheid-Reisepass
-
-#### <a name="keyword_german_passport1"></a>Keyword_german_passport1
-
-Reisepass-Veiligheid
-
-#### <a name="keyword_german_passport2"></a>Keyword_german_passport2
-
-bnationalit
-
+- Reisepass 
+- Veiligheid-Reisepass
+- Reisepass-Veiligheid
+- Passnummer
+- reisepässe
+- 포트 번호입니다.
+- 포트 번호 없음
 
 ## <a name="germany-tax-identification-number"></a>독일 세금 식별 번호
 
@@ -6049,6 +6246,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="germany-value-added-tax-number"></a>독일 값 세금 번호 추가 됨
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -6235,28 +6438,49 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
 - 정규식이 해당  `Regex_greece_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_greece_eu_passport_number` 찾았습니다. 
+- From  `Keywords_eu_passport_number_common` 또는 found의 키워드 `Keywords_greece_eu_passport_number` 입니다. 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_greece_eu_passport_number" />
-          <Match idRef="Keywords_greece_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_greece_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
 #### <a name="keywords_greece_eu_passport_number"></a>Keywords_greece_eu_passport_number
 
-- passport number
-- 그리스 여권 번호
-- passport 아니요
-- διαβατηριο
+- αριθμός διαβατηρίου
+- αριθμούς διαβατηρίου
+- αριθμός διαβατηριο
 
 ## <a name="greece-tax-identification-number"></a>그리스 세금 식별 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -6460,6 +6684,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="hungary-personal-identification-number"></a>헝가리어 개인 식별 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -6541,26 +6771,40 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
 - 정규식이 해당  `Regex_hungary_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_hungary_eu_passport_number` 찾았습니다. 
+- From  `Keywords_eu_passport_number_common` 또는 found의 키워드 `Keywords_hungary_eu_passport_number` 입니다. 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_hungary_eu_passport_number" />
-          <Match idRef="Keywords_hungary_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_hungary_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
 #### <a name="keywords_hungary_eu_passport_number"></a>Keywords_hungary_eu_passport_number
 
-- passport number
-- 헝가리어 여권 번호
-- passport 아니요
 - útlevél száma
-
+- Útlevelek száma
+- útlevél szám
 
 ## <a name="hungary-social-security-number-or-equivalent-identification"></a>헝가리어 주민 등록 번호 또는 해당 식별자
 
@@ -6626,6 +6870,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="hungary-tax-identification-number"></a>헝가리어 세금 식별 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -6702,6 +6952,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="hungary-value-added-tax-number"></a>헝가리 값 추가 된 세금 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -6915,7 +7171,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 각 국가의 형식은 약간 다릅니다. IBAN 중요 한 정보 유형은 다음과 같은 60 국가를 포함 합니다.
 
-ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, to, do, ee, es, fi,,, fr, gb, ge, gi, gl, gr, hr, hu, kw, il, vg,, nl-nl, tn,,,,,,,,, </c12>,,,,,,,,,,,,, rs, l, se, si,
+ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, to, do, ee, es, fi,,, fr, gb, ge, gi, gl, gr, hr, hu, kw, il, vg,, nl-nl, tn,,,,,,,,, ,,,,,,,,,,,,, rs, l, se, si,
 
 ### <a name="checksum"></a>제외
 
@@ -7167,29 +7423,45 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
 - 정규식이 해당  `Regex_ireland_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_ireland_eu_passport_number` 찾았습니다. 
+- From  `Keywords_eu_passport_number_common` 또는 found의 키워드 `Keywords_ireland_eu_passport_number` 입니다. 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_ireland_eu_passport_number" />
-          <Match idRef="Keywords_ireland_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_ireland_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
 #### <a name="keywords_ireland_eu_passport_number"></a>Keywords_ireland_eu_passport_number
 
-- passport number
-- 아일랜드 여권 번호
-- passport 아니요
-- pas
-- 여권
-- 포트
 - 포트 numero
+- uimhreacha pasanna
+- uimhir pas
+- uimhir phas
+- uimhreacha pas
+- uimhir cárta
+- uimhir chárta
 
 ## <a name="ireland-personal-public-service-pps-number"></a>아일랜드 PPS (개인 공개 서비스) 번호
 
@@ -7424,6 +7696,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - patente di guida 
 
 ## <a name="italy-fiscal-code"></a>이탈리아 회계 코드
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -7527,34 +7805,53 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_italy_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_italy_eu_passport_number` 찾았습니다. 
+- From  `Keywords_eu_passport_number_common` 또는 found의 키워드 `Keywords_italy_eu_passport_number` 입니다. 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_italy_eu_passport_number" />
-          <Match idRef="Keywords_italy_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_italy_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
 #### <a name="keywords_italy_eu_passport_number"></a>Keywords_italy_eu_passport_number
 
-- 이탈리아 여권 번호
-- repubblica italiana passaporto
-- passaporto
+- italiana passaporto
 - passaporto italiana
-- passport number
-- italiana passaporto numero
 - passaporto numero
-- numéro) 포트 italien
 - numéro (고) 포트
-
+- numero di passaporto
+- numeri del passaporto
+- 포트 italien
 
 ## <a name="italy-value-added-tax-number"></a>이탈리아 값 세금 번호 추가
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -7783,6 +8080,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="japan-my-number---corporate"></a>일본 내 번호-회사
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -7838,6 +8141,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="japan-my-number---personal"></a>일본 내 번호-개인
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -8286,27 +8595,44 @@ registration number
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_latvia_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_latvia_eu_passport_number` 찾았습니다. 
+- From  `Keywords_eu_passport_number_common` 또는 found의 키워드 `Keywords_latvia_eu_passport_number` 입니다. 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_latvia_eu_passport_number" />
-          <Match idRef="Keywords_latvia_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_latvia_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
 #### <a name="keywords_latvia_eu_passport_number"></a>Keywords_latvia_eu_passport_number
 
-- passport number
-- 라트비아어 여권 번호
-- passport 아니요
-- pase numurs    
-
+- pase numurs
+- pase numur
+- 고가을 numuri
+- veiligheid es
+- 포트 번호 없음
+- n ° du 이상 Seport
 
 ## <a name="lithuania-drivers-license-number"></a>리투아니아 운전 면허 번호
 이 중요 한 정보 유형 엔터티는 EU 드라이버의 라이선스 번호 중요 정보 유형 에서만 사용할 수 있습니다.
@@ -8358,6 +8684,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - vairuotojo pažymėjimas
 
 ## <a name="lithuania-personal-code"></a>리투아니아 개인 코드
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -8459,27 +8791,41 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_lithuania_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_lithuania_eu_passport_number` 찾았습니다. 
+- From  `Keywords_eu_passport_number_common` 또는 found의 키워드 `Keywords_lithuania_eu_passport_number` 입니다. 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_lithuania_eu_passport_number" />
-          <Match idRef="Keywords_lithuania_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_lithuania_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
 #### <a name="keywords_lithuania_eu_passport_number"></a>Keywords_lithuania_eu_passport_number
 
-- passport number
-- lithunian 여권 번호
-- passport 아니요
 - numeris
-
+- #
+- veiligheid
 
 ## <a name="luxemburg-drivers-license-number"></a>룩셈부르크 운전 면허 번호
 이 중요 한 정보 유형 엔터티는 EU 드라이버의 라이선스 번호 중요 정보 유형 에서만 사용할 수 있습니다.
@@ -8531,6 +8877,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - fahrerlaubnis
 
 ## <a name="luxemburg-national-identification-number-natural-persons"></a>룩셈부르크 국내 식별 번호 (자연어)
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -8854,6 +9206,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - liċenzja tas-sewqan
 
 ## <a name="malta-identity-card-number"></a>몰타 id 카드 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -8931,26 +9289,41 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_malta_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_malta_eu_passport_number` 찾았습니다. 
+- From  `Keywords_eu_passport_number_common` 또는 found의 키워드 `Keywords_malta_eu_passport_number` 입니다. 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_malta_eu_passport_number" />
-          <Match idRef="Keywords_malta_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_malta_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
 #### <a name="keywords_malta_eu_passport_number"></a>Keywords_malta_eu_passport_number
 
-- passport number
-- 몰타어 여권 번호
-- passport 아니요
 - numru-passaport
+- numri tal-passaport
+- Nru-passaport
 
 ## <a name="malta-tax-identification-number"></a>몰타 세금 식별 번호
 
@@ -9200,6 +9573,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - paspoortnummer
 
 ## <a name="netherlands-tax-identification-number"></a>네덜란드 세금 식별 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -9278,6 +9657,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="netherlands-value-added-tax-number"></a>네덜란드 값 추가 된 세금 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -9334,6 +9719,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="new-zealand-bank-account-number"></a>뉴질랜드 계좌 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -9390,6 +9781,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="new-zealand-drivers-license-number"></a>새 뉴질랜드 운전 면허 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -9500,6 +9897,12 @@ international driving permit
 
 
 ## <a name="new-zealand-inland-revenue-number"></a>뉴질랜드 inland 수입 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -9597,6 +10000,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="new-zealand-social-wlefare-number"></a>뉴질랜드 공유 wlefare 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -9943,6 +10352,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 고 zport
 
 ## <a name="poland-regon-number"></a>폴란드 REGON 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -10003,6 +10418,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="poland-tax-identification-number"></a>폴란드 세금 식별 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -10198,26 +10619,48 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_portugal_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_portugal_eu_passport_number` 찾았습니다. 
+- From  `Keywords_eu_passport_number_common` 또는 found의 키워드 `Keywords_portugal_eu_passport_number` 입니다. 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_portugal_eu_passport_number" />
-          <Match idRef="Keywords_portugal_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_portugal_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
 #### <a name="keywords_portugal_eu_passport_number"></a>Keywords_portugal_eu_passport_number
 
-- passport number
-- 포르투갈어 passport 번호
-- passport 아니요
 - número do passaporte
+- 포르투갈어 (여권)
+- 포르투갈어 # seport
+- 포르투갈 passaporte
+- passaporte n º
+- 포트 n º
+- números de passaporte
+- 포르투갈 passports
+- número passaporte
+- números passaporte
 
 ## <a name="portugal-tax-identification-number"></a>포르투갈 세금 식별 번호
 
@@ -10341,6 +10784,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - permis de conducere
 
 ## <a name="romania-personal-numeric-code-cnp"></a>루마니아 p (personal numeric code)
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -10453,29 +10902,47 @@ national id
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_romania_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_romania_eu_passport_number` 찾았습니다. 
+- From  `Keywords_eu_passport_number_common` 또는 found의 키워드 `Keywords_romania_eu_passport_number` 입니다. 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_romania_eu_passport_number" />
-          <Match idRef="Keywords_romania_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_romania_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
 #### <a name="keywords_romania_eu_passport_number"></a>Keywords_romania_eu_passport_number
 
-- passport number
-- 루마니아어 여권 번호
-- passport 아니요
-- numărul pașaportului
-
+numărul pașaportului numarul pasaportului numerele pașaportului Pașaport veiligheid
 
 ## <a name="russia-passport-number-domestic"></a>러시아 (국내) 여권 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -10532,6 +10999,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="russia-passport-number-international"></a>러시아 (국제) 여권 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -10734,6 +11207,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - vodičský preukaz
 
 ## <a name="slovakia-personal-number"></a>슬로바키아 개인 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -10844,27 +11323,43 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_slovakia_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_slovakia_eu_passport_number` 찾았습니다. 
+- From  `Keywords_eu_passport_number_common` 또는 found의 키워드 `Keywords_slovakia_eu_passport_number` 입니다. 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_slovakia_eu_passport_number" />
-          <Match idRef="Keywords_slovakia_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_slovakia_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
 #### <a name="keywords_slovakia_eu_passport_number"></a>Keywords_slovakia_eu_passport_number
 
-- passport number
-- 슬로바키아어 여권 번호
-- passport 아니요
 - číslo (u)
-
+- čísla pasov
+- pas č
+- 포트 n °
+- n °에이 포트
 
 ## <a name="slovenia-drivers-license-number"></a>슬로베니아 운전 면허 번호
 이 중요 한 정보 유형 엔터티는 EU 드라이버의 라이선스 번호 중요 정보 유형 에서만 사용할 수 있습니다.
@@ -10916,6 +11411,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - vozniško dovoljenje
 
 ## <a name="slovenia-unique-master-citizen-number"></a>슬로베니아 고유 마스터 시민 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -11011,28 +11512,52 @@ national id
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_slovenia_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_slovenia_eu_passport_number` 찾았습니다. 
+- From  `Keywords_eu_passport_number_common` 또는 found의 키워드 `Keywords_slovenia_eu_passport_number` 입니다. 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_slovenia_eu_passport_number" />
-          <Match idRef="Keywords_slovenia_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_slovenia_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
 #### <a name="keywords_slovenia_eu_passport_number"></a>Keywords_slovenia_eu_passport_number
 
-- passport number
-- 슬로베니아어 여권 번호
-- passport 아니요
 - številka potnega lista
+- potek veljavnosti
+- potni 목록 #
+- datum rojstva
+- potni 목록
+- številke potnih listov
 
 ## <a name="slovenia-tax-identification-number"></a>슬로베니아 세금 식별 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -11270,6 +11795,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - carnet conducir
 
 ## <a name="spain-dni"></a>스페인 DNI
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -11366,31 +11897,50 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_spain_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_spain_eu_passport_number` 찾았습니다. 
+- From  `Keywords_eu_passport_number_common` 또는 found의 키워드 `Keywords_spain_eu_passport_number` 입니다. 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_spain_eu_passport_number" />
-          <Match idRef="Keywords_spain_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_spain_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- 여권 #
+- 여권 #
+- passportid
+- passports
+- passportno
+- passport 아니요
+- passportnumber
+- 여권 번호
+- passportnumbers
+- 여권 번호
+
 #### <a name="keywords_spain_eu_passport_number"></a>Keywords_spain_eu_passport_number
 
-- 여권
-- 스페인 여권
-- passport 책
-- passport number
-- passport 아니요
 - pasaporte
 - número pasaporte
 - españa pasaporte
-- pasaporte
+- números de pasaporte
+- número de pasaporte
+- números pasaporte
+- pasaporte 아니요
+- 포트 n °
+- n °에이 포트
+- pasaporte 아니요
+- pasaporte n °
+- 스페인 여권
 
 
 ## <a name="spain-social-security-number-ssn"></a>스페인 SSN (사회 보장 번호)
@@ -11433,6 +11983,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 없음
 
 ## <a name="spain-tax-identification-number"></a>스페인 세금 식별 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -11864,6 +12420,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - identifikationsnumret #
 
 ## <a name="sweden-tax-identification-number"></a>스웨덴 세금 식별 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -12011,7 +12573,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - code identificateur de banque 
 
 
-## <a name="swiss-ssn-ahv-number"></a>스위스 SSN AHV 번호
+## <a name="switzerland-ssn-ahv-number"></a>스위스 SSN AHV 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -12590,6 +13158,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
     
 ## <a name="uk-unique-taxpayer-reference-number"></a>영국 고유 Taxpayer 참조 번호
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -13084,6 +13658,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Passeportn ° 
 
 ## <a name="ukraine-passport-domestic"></a>우크라이나 passport 국내
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
@@ -13126,6 +13706,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 
 ## <a name="ukraine-passport-international"></a>우크라이나 여권 국제 전화
+이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
+- 데이터 손실 방지 정책
+- 통신 준수 정책
+- 정보 거 버 넌 스
+- 레코드 관리
+- Microsoft cloud app security
 
 ### <a name="format"></a>형식일
 
