@@ -9,18 +9,18 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 5314cf21d94513cfab664279d11438e86e67231e
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 7674777214cb5684bb02039f739458352bc701ad
+ms.sourcegitcommit: 61d7284b412d0f7bbd8bbb2225c2e6324f86b717
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530190"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262282"
 ---
 # <a name="compliance"></a>규정 준수
 
 Microsoft Managed Desktop IT-서비스를 사용 하는 경우 Microsoft는 광범위 한 준수 제품 집합을 제공 합니다. 이러한 노력을 통해 조직에서 다양 한 준수 요구 사항을 준수 하는 데 도움이 됩니다.
 
-## <a name="compliance-offerings"></a>규정 준수 제품
+## <a name="compliance-coverage"></a>준수 범위
 
 Microsoft Managed Desktop은 다음과 같은 인증을 얻은 것입니다.
 
