@@ -25,17 +25,16 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 이 문서에서는 안전한 링크를 사용 하 여 피싱 및 기타 공격 으로부터 조직을 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: 486c19fa0ba47baadf7b3418608a644407e6e1d0
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: be95691f34fec5661c652c3163b5cd4ef420db6c
+ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200436"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48245916"
 ---
 # <a name="atp-safe-links"></a>ATP 안전한 링크
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
-
 
 ## <a name="overview-of-office-365-atp-safe-links"></a>Office 365 ATP 안전한 링크 개요
 

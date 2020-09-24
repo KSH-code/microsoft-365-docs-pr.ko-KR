@@ -2,8 +2,8 @@
 title: 캠페인에 대 한 Microsoft 365 등록
 f1.keywords:
 - NOCSH
-ms.author: supotter
-author: supotter
+ms.author: sirkkuw
+author: Sirkkuw
 manager: scotv
 ms.audience: Admin
 ms.topic: article
@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 캠페인에 대 한 Microsoft 365에 대 한 단계별 등록입니다. Cybersecurity 위협 으로부터 전자 메일, 데이터 및 통신으로 캠페인을 보호 합니다.
-ms.openlocfilehash: 0628ac1a2e8bf6d12bd4a196df11775ebcc2d583
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: a66380ea5b657d1ce231dd4a56b333087140c777
+ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527117"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48245872"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>캠페인에 대 한 Microsoft 365 등록 
 
@@ -57,7 +57,7 @@ ms.locfileid: "46527117"
     > [!NOTE]
     > 캠페인 또는 파티가 도메인을 소유 하지 않는 경우 원하는 도메인을 결정 한 경우 해당 사용자를 선택 하 여 지금 구매할 수 있습니다.
 
-4. **증명 합니다. 합니다. 아닌. . 로봇 페이지**:
+4. **증명 합니다. 합니다. . 로봇이 아닌 경우 페이지**:
     1. 휴대폰을 준비 하 고 **텍스트 나** 를 선택 합니다 (또는 원하는 경우 **내게 전화** 하십시오). 그런 다음 전화 번호를 입력 합니다. 
     2. **Text me**를 선택 하면 인증 코드가 전송 됩니다. 또는 **통화**를 선택한 경우 코드를 호출 합니다.
     3. 문자 메시지 (또는 통화)에서 코드를 입력 하 고 **Next (다음**)를 선택 합니다. 짧은 대기가 예상 됩니다. 

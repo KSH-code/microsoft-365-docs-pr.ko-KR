@@ -16,12 +16,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: 안전한 링크 기능은 Office 문서 및 전자 메일 메시지에서 하이퍼링크를 클릭 하 여 확인할 시간을 제공 합니다. 이 문서를 읽으면 ATP 안전한 링크가 작동 하는 방식을 확인할 수 있습니다.
-ms.openlocfilehash: 09357b20173e2609587137764737c8aba044190e
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: e19d3a1f93d11cd9873e6b5fad9952b018e0a481
+ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201475"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48245884"
 ---
 # <a name="how-atp-safe-links-works"></a>ATP 안전한 링크가 작동하는 방식
 
@@ -30,7 +30,7 @@ ms.locfileid: "48201475"
 > [!IMPORTANT] 
 > Office 365 ATP 안전한 링크가 올바르게 작동 하려면 모든 서비스가 동일한 버전 이어야 합니다.
          
-## <a name="how-atp-safe-links-works"></a>ATP 안전한 링크가 작동하는 방식
+## <a name="how-atp-safe-links-works-with-urls-in-email"></a>ATP 안전한 링크가 전자 메일의 Url과 함께 작동 하는 방식
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
  전자 메일에 Url 사용
@@ -57,10 +57,7 @@ ms.locfileid: "48201475"
     
    - URL이 안전한 것으로 확인 되 면 웹 사이트가 열립니다.
     
-## <a name="how-atp-safe-links-works"></a>ATP 안전한 링크가 작동하는 방식
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
- Office 문서에 Url 포함 
+## <a name="how-atp-safe-links-works-with-urls-in-office-documents"></a>ATP 안전한 링크가 Office 문서의 Url과 작동 하는 방식
 
 높은 수준에서 [ATP 안전한 링크](atp-safe-links.md) 보호는 Microsoft 365 앱 (Windows, Mac 또는 브라우저의 최신 버전, windows의 경우에는 IOS 또는 Android 장치에 있는 Office 응용 프로그램, 브라우저에서는 OneNote, PowerPoint의 경우 Visio)의 url에 대해 작동 합니다.
   

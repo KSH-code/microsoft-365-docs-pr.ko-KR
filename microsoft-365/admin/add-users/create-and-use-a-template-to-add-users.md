@@ -2,8 +2,8 @@
 title: 서식 파일을 만들고 사용하여 사용자 추가
 f1.keywords:
 - NOCSH
-ms.author: v-sharos
-author: shars
+ms.author: sirkkuw
+author: Sirkkuw
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 여러 사용자를 추가할 때 템플릿을 만들고 사용 하 여 시간을 절약 하 고 설정을 표준화할 수 있습니다.
-ms.openlocfilehash: 29953eb97476799d74e883ed8b20bd5f3382cbf4
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
+ms.openlocfilehash: 92d3bd68a57291586da27eb2d578a26c53d20d78
+ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45022148"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48245860"
 ---
 # <a name="create-and-use-a-template-to-add-users"></a>서식 파일을 만들고 사용하여 사용자 추가
 
@@ -49,7 +49,7 @@ ms.locfileid: "45022148"
 다음 정보는 사용자가 고유 하며 서식 파일에 저장 되지 않습니다.
 
 - 성과 이름
-- DN(고유 이름)
+- 표시 이름
 - 사용자 이름
 - 전자 메일의 암호 및 암호 전자 메일이 전송 되는 사람을 보낼 선택 사항
 - 휴대폰 번호
