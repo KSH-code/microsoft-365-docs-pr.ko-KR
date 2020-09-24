@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: 648b9a3256aaca8eaabba80af1edee3beccf1ac2
-  ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
+  ms.openlocfilehash: 69387d2697c91d637fa6a3ab19a07f4924037637
+  ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 08/12/2020
-  ms.locfileid: "46641622"
+  ms.lasthandoff: 09/22/2020
+  ms.locfileid: "48201456"
 landingContent:
 - title: 정보 보호 및 거버넌스 관리
   linkLists:
@@ -66,8 +66,8 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: 준수 점수
-      url: compliance-score.md
+    - text: 규정 준수 관리자
+      url: compliance-manager.md
     - text: GDPR 준수 조치 계획
       url: gdpr-action-plan.md
     - text: GDPR을 위한 정보 보호
