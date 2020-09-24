@@ -14,6 +14,8 @@
       href: use-your-free-azure-ad-subscription-in-office-365.md
     - name: Office 365의 보안 및 규정 준수 계획
       href: plan-for-security-and-compliance.md
+    - name: 규정 준수 확장성
+      href: compliance-extensibility.md
 - name: 참가자 위험 관리
   items:
     - name: 내부자 위험 관리
@@ -107,12 +109,14 @@
           href: what-the-dlp-functions-look-for.md
     - name: 교육 가능한 분류자
       items:
+        - name: 학습 가능한 분류자에 대한 자세한 정 (미리 보기)
+          href: classifier-learn-about.md
         - name: 학습 가능한 분류자 시작(미리 보기)
-          href: classifier-getting-started-with.md
-        - name: 기본 제공 분류자 사용(미리 보기)
-          href: classifier-using-a-ready-to-use-classifier.md
-        - name: 분류자 만들기 및 교육(미리 보기)
-          href: classifier-creating-a-trainable-classifier.md
+          href: classifier-get-started-with.md
+        - name: 커뮤니케이션 준수에서 분류자를 재학습하는 방법(미리 보기)
+          href: classifier-how-to-retrain-comms-compliance.md
+        - name: 콘텐츠 탐색기에서 분류자를 재학습하는 방법(미리 보기)
+          href: classifier-how-to-retrain-content-explorer.md
     - name: 데이터 분류
       items:
         - name: 데이터 분류 이해
@@ -256,6 +260,8 @@
               href: retention-policies-sharepoint.md
             - name: Microsoft Teams에 대한 보존
               href: retention-policies-teams.md
+            - name: Yammer 보존
+              href: retention-policies-yammer.md
             - name: Exchange에 대한 보존
               href: retention-policies-exchange.md
         - name: 보존 시작하기
@@ -308,8 +314,52 @@
               href: archive-instant-bloomberg-data.md
             - name: LinkedIn
               href: archive-linkedin-data.md
+            - name: 실제 배징 데이터
+              href: import-physical-badging-data.md
             - name: Twitter
               href: archive-twitter-data-with-sample-connector.md
+        - name: Globanet 데이터 커넥터
+          items:
+            - name: EML
+              href: archive-eml-data.md
+            - name: FX 연결
+              href: archive-fxconnect-data.md
+            - name: Reuters Eikon
+              href: archive-reuterseikon-data.md
+            - name: 여유 시간
+              href: archive-slack-data.md
+            - name: Symphony
+              href: archive-symphony-data.md
+            - name: 텍스트 구분
+              href: archive-text-delimited-data.md
+            - name: Webex Teams
+              href: archive-webexteams-data.md
+            - name: Facebook의 작업 영역
+              href: archive-workplacefromfacebook-data.md
+            - name: Zoom 모임
+              href: archive-zoommeetings-data.md
+            - name: 여유 시간
+              href: archive-slack-data.md
+            - name: Zoom 모임
+              href: archive-zoommeetings-data.md
+        - name: TeleMessage 데이터 커넥터
+          items:
+            - name: Android
+              href: archive-android-archiver-data.md
+            - name: AT&T Network
+              href: archive-att-network-archiver-data.md
+            - name: Bell Network
+              href: archive-bell-network-data.md
+            - name: 기업 번호
+              href: archive-enterprise-number-data.md
+            - name: O2 Network
+              href: archive-o2-network-data.md
+            - name: TELUS Network
+              href: archive-telus-network-data.md
+            - name: Verizon Network
+              href: archive-verizon-network-data.md
+            - name: WhatsApp
+              href: archive-whatsapp-data.md
         - name: 타사 데이터를 저장하는 데 파트너와 협력
           href: work-with-partner-to-archive-third-party-data.md
         - name: 타사 데이터 검색
@@ -792,31 +842,30 @@
       href: alert-policies.md
 - name: 규정 준수 위험 관리
   items:
+    - name: 규정 관리자
+      items:
+        - name: 준수 관리자에 대한 자세한 정보
+          href: compliance-manager.md
+        - name: 준수 관리자 빠른 시작
+          href: compliance-manager-quickstart.md
+        - name: 규정 준수 관리자 시작
+          href: compliance-manager-setup.md
+        - name: 평가 작성 및 관리
+          href: compliance-manager-assessments.md
+        - name: 평가 템플릿을 사용하여 작업
+          href: compliance-manager-templates.md
+        - name: 준수 관리자 서식 파일 목록
+          href: compliance-manager-templates-list.md
+        - name: 개선 작업 할당 및 완료
+          href: compliance-manager-improvement-actions.md
+        - name: 규정 준수 점수 계산 방법
+          href: compliance-score-calculation.md
+        - name: 질문과 대답(FAQ)
+          href: compliance-manager-faq.md
+        - name: 준수 관리자(기본)
+          href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
     - name: Microsoft 서비스 보안 포털
       href: get-started-with-service-trust-portal.md
-    - name: 준수 점수 및 준수 관리자(미리 보기)
-      items:
-        - name: 준수 점수(미리 보기)
-          href: compliance-score.md
-        - name: 준수 점수 설정
-          href: compliance-score-setup.md
-        - name: 평가로 준수 점수 사용자 지정
-          href: compliance-score-assessments.md
-        - name: 개선 조치로 업무 할당 및 수행
-          href: compliance-score-improvement-actions.md
-        - name: 점수 계산 방법
-          href: compliance-score-methodology.md
-        - name: 질문과 대답(FAQ)
-          href: compliance-score-faq.md
-        - name: 준수 관리자(미리 보기)
-          href: compliance-manager-overview.md
-          items:
-            - name: 준수 관리자의 새로운 기능(미리 보기)
-              href: compliance-manager-release-notes.md
-            - name: 준수 관리자로 작업하기(미리 보기)
-              href: working-with-compliance-manager.md
-            - name: 준수 관리자(기본)
-              href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
     - name: GDPR 데이터 주체 요청 도구
       href: manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md
     - name: GDPR에 대한 Office 365 정보 보호

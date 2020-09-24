@@ -115,8 +115,6 @@
               href: azure-expressroute.md
             - name: Office 2013 및 Office 2016 클라이언트 앱에 대해 최신 인증이 작동하는 방법
               href: modern-auth-for-office-2013-and-2016.md
-        - name: 테넌트 간 공동 작업
-          href: microsoft-365-inter-tenant-collaboration.md
         - name: 클라이언트 앱 지원
           items:
             - name: 인증서 기반 인증
@@ -273,6 +271,12 @@
           href: 'https://docs.microsoft.com/microsoft-365/admin/setup/add-domain'
         - name: 설정 가이드
           href: setup-guides-for-microsoft-365.md
+    - name: 여러 테넌트
+      items:
+        - name: 테넌트 간 공동 작업
+          href: microsoft-365-inter-tenant-collaboration.md
+        - name: 교차 테넌트 사서함 마이그레이션
+          href: cross-tenant-mailbox-migration.md
     - name: Multi-geo
       items:
         - name: Microsoft 365 Multi-Geo
@@ -353,36 +357,40 @@
         - name: 클라우드 전용 ID
           href: cloud-only-identities.md
         - name: 하이브리드 ID
-          href: prepare-for-directory-synchronization.md
-        - name: '디렉터리 동기화를 위해 라우팅할 수 없는 도메인(예: .local 도메인) 준비'
-          href: prepare-a-non-routable-domain-for-directory-synchronization.md
-        - name: 디렉터리 동기화 설정
-          href: set-up-directory-synchronization.md
-        - name: 하이브리드 솔루션
           items:
-            - name: 개요
-              href: hybrid-solutions.md
-            - name: Azure Active Directory를 사용하여 SharePoint Server 2016 인증
-              href: using-azure-ad-for-sharepoint-server-authentication.md
-            - name: 온-프레미스 네트워크를 Azure Virtual Network에 연결
-              href: connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md
-            - name: Azure IaaS에서 디렉터리 동기화 서버 배포
-              href: deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md
-            - name: Azure에서 Office 365용 고가용성 페더레이션 인증 배포
-              href: deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md
+            - name: 디렉터리 동기화 준비
+              href: prepare-for-directory-synchronization.md
+            - name: '디렉터리 동기화를 위해 라우팅할 수 없는 도메인(예: .local 도메인) 준비'
+              href: prepare-a-non-routable-domain-for-directory-synchronization.md
+            - name: 디렉터리 동기화 설정
+              href: set-up-directory-synchronization.md
+            - name: 하이브리드 솔루션
               items:
-                - name: '1단계: Azure 구성'
-                  href: high-availability-federated-authentication-phase-1-configure-azure.md
-                - name: '2단계: 도메인 컨트롤러 구성'
-                  href: high-availability-federated-authentication-phase-2-configure-domain-controllers.md
-                - name: '3단계: AD FS 서버 구성'
-                  href: high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md
-                - name: '4단계: 웹 응용 프로그램 프록시 구성'
-                  href: high-availability-federated-authentication-phase-4-configure-web-application-pro.md
-                - name: '5단계: 페더레이션 인증 구성'
-                  href: high-availability-federated-authentication-phase-5-configure-federated-authentic.md
-            - name: Microsoft Azure에서 SharePoint Server 2013 재해 복구
-              href: sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md
+                - name: 개요
+                  href: hybrid-solutions.md
+                - name: Azure Active Directory를 사용하여 SharePoint Server 2016 인증
+                  href: using-azure-ad-for-sharepoint-server-authentication.md
+                - name: 온-프레미스 네트워크를 Azure Virtual Network에 연결
+                  href: connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md
+                - name: Azure IaaS에서 디렉터리 동기화 서버 배포
+                  href: deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md
+                - name: Azure에서 Office 365용 고가용성 페더레이션 인증 배포
+                  href: deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md
+                  items:
+                    - name: '1단계: Azure 구성'
+                      href: high-availability-federated-authentication-phase-1-configure-azure.md
+                    - name: '2단계: 도메인 컨트롤러 구성'
+                      href: high-availability-federated-authentication-phase-2-configure-domain-controllers.md
+                    - name: '3단계: AD FS 서버 구성'
+                      href: high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md
+                    - name: '4단계: 웹 응용 프로그램 프록시 구성'
+                      href: high-availability-federated-authentication-phase-4-configure-web-application-pro.md
+                    - name: '5단계: 페더레이션 인증 구성'
+                      href: high-availability-federated-authentication-phase-5-configure-federated-authentic.md
+                - name: Microsoft Azure에서 SharePoint Server 2013 재해 복구
+                  href: sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md
+        - name: 사용자 로그인 보안 기능
+          href: microsoft-365-secure-sign-in.md
     - name: 관리
       items:
         - name: 사용자 계정에 라이선스 할당
@@ -561,7 +569,7 @@
               href: block-user-accounts-with-microsoft-365-powershell.md
         - name: 라이선스 및 서비스
           items:
-            - name: 보기
+            - name: 라이선스 및 서비스 보기
               href: view-licenses-and-services-with-microsoft-365-powershell.md
             - name: 라이선스 사용자 및 허가되지 않은 사용자 보기
               href: view-licensed-and-unlicensed-users-with-microsoft-365-powershell.md
@@ -569,6 +577,8 @@
               href: assign-licenses-to-user-accounts-with-microsoft-365-powershell.md
             - name: 계정 라이선스 및 서비스 세부 정보 보기
               href: view-account-license-and-service-details-with-microsoft-365-powershell.md
+            - name: 사용자 계정에서 라이선스 제거
+              href: remove-licenses-from-user-accounts-with-microsoft-365-powershell.md
             - name: 서비스에 액세스 사용 안 함
               href: disable-access-to-services-with-microsoft-365-powershell.md
               items:
@@ -576,8 +586,6 @@
                   href: disable-access-to-sway-with-microsoft-365-powershell.md
                 - name: 사용자 라이선스를 할당하는 동안 서비스에 대한 액세스 사용 안 함
                   href: disable-access-to-services-while-assigning-user-licenses.md
-                - name: 사용자 계정에서 라이선스 제거
-                  href: remove-licenses-from-user-accounts-with-microsoft-365-powershell.md
         - name: 그룹
           items:
             - name: 그룹 멤버 자격 유지 관리
