@@ -15,17 +15,19 @@ search.appverid:
 - MET150
 description: Microsoft 준수 관리자가 위험을 해결 하 고 준수 상태를 개선 하기 위해 수행한 조치에 따라 개인 설정 점수를 계산 하는 방법을 이해 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9fd71b4953dc40a3c1e7601f42f595488fcef98b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: f1707e0117d0a61f572716f21d13a02821955401
+ms.sourcegitcommit: 61d7284b412d0f7bbd8bbb2225c2e6324f86b717
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204408"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262271"
 ---
 # <a name="compliance-score-calculation"></a>규정 준수 점수 계산
 
+**이 문서의 내용** 준수 관리자가 조직의 준수 점수를 계산 하는 방법을 알아봅니다. 이 문서에서는 점수를 **해석**하는 방법, **데이터 보호 기준 평가** 에 포함 되는 내용, **지속적인 모니터링**및 **다양 한 유형의 작업을 관리 하 고 점수**를 매겨는 방법을 설명 합니다.
+
 > [!IMPORTANT]
-> 준수 관리자의 권장 사항은 준수 보장으로 해석 되어서는 안 됩니다. 규정 환경에 따라 고객 컨트롤의 효율성을 평가 하 고 유효성을 검사 하는 작업은 사용자의 결정입니다. 이러한 서비스는 [온라인 서비스 약관](https://go.microsoft.com/fwlink/?linkid=2108910)의 사용 약관에 따라 달라 집니다. [보안 및 규정 준수에 대 한 자세한 내용은 Microsoft 365 라이선싱 지침을](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)참조 하세요.
+> 준수 관리자의 권장 사항을 준수 보장으로 해석하면 안 됩니다. 규정 환경에 따라 고객 컨트롤의 효율성을 평가 하 고 유효성을 검사 하는 작업은 사용자의 결정입니다. 이러한 서비스는 [온라인 서비스 약관](https://go.microsoft.com/fwlink/?linkid=2108910)의 사용 약관에 따라 달라 집니다. [보안 및 규정 준수에 대 한 자세한 내용은 Microsoft 365 라이선싱 지침을](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)참조 하세요.
 
 ## <a name="how-to-read-your-compliance-score"></a>준수 점수를 읽는 방법
 

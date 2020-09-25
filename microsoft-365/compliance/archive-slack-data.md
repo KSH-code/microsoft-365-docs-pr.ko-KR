@@ -11,13 +11,13 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: 관리자는 Globanet에서 Microsoft 365로 데이터를 가져오고 보관 하기 위한 커넥터를 설정할 수 있습니다. 이 커넥터를 사용 하면 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 통해 조직의 타사 데이터를 관리 하는 데 도움이 됩니다.
-ms.openlocfilehash: 532b8a8eb4331d66e1c7522d79bde2b5b6b0a02f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+description: 관리자는 Globanet에서 Microsoft 365로 데이터를 가져오고 보관 하기 위한 커넥터를 설정할 수 있습니다. 이 데이터 커넥터를 사용 하면 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 통해 조직의 타사 데이터를 관리할 수도 있습니다.
+ms.openlocfilehash: 7c796c16b5a4b305c5d4b5259337ca28d9bfde9a
+ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196766"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269460"
 ---
 # <a name="set-up-a-connector-to-archive-slack-data"></a>여유 시간 데이터를 보관 하기 위한 연결선 설정
 

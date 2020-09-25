@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하면 사용자가 전자 메일, 문서 및 대화를 사용하여 생성하는 콘텐츠를 매우 효율적으로 유지 관리할 수 있습니다. 원하는 내용을 유지하고 원하지 않는 항목을 제거하세요.
-ms.openlocfilehash: 8663da0a93bb4781af747d810200d4a2a777acb4
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: f9c8ff4287f0970f8571d3ced7d612515b03c08e
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948176"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198495"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -50,11 +50,14 @@ ms.locfileid: "47948176"
 - Exchange 공용 폴더
 - Teams 채널 메시지
 - Teams 채팅
+- Yammer 커뮤니티 메시지
+- Yammer 개인 메시지
 
-보존 정책을 만들 때 Teams 위치 중 하나를 선택하면 다른 위치는 자동으로 제외됩니다. 따라서, 따라야 하는 지침은 Teams 위치를 포함해야 하는지에 따라 다릅니다.
+보존 정책을 생성할 때 Teams 또는 Yammer 위치를 선택하면 다른 위치는 자동으로 제외됩니다. 따라서, 따라야 할 지침은 Teams 또는 Yammer 위치를 포함해야 하는지에 따라 달라집니다.
 
-- [Teams 위치 보존 정책에 대한 지침](#retention-policy-for-teams-locations)
-- [Teams 이외의 위치 보존 정책에 대한 지침](#retention-policy-for-locations-other-than-teams)
+- [Teams 위치](#retention-policy-for-teams-locations)에 대한 보존 정책에 대한 지침
+- [Yammer 위치에 대한 보존 정책에 대한 지침](#retention-policy-for-yammer-locations)
+- [Teams 및 Yammer](#retention-policy-for-locations-other-than-teams-and-yammer) 이외의 위치에 대한 보존 정책에 대한 지침
 
 보존 정책이 두 개 이상이고 보존 레이블도 사용하는 경우에는 여러 보존 설정이 동일한 콘텐츠에 적용되는 경우의 결과를 이해하기 위해 [보존 원칙 또는 우선하는 항목](retention.md#the-principles-of-retention-or-what-takes-precedence)을 참조하세요.
 
@@ -80,7 +83,7 @@ Teams 보존 정책에 대한 자세한 내용은 Teams 설명서에서 [Microso
 
 #### <a name="additional-retention-policy-needed-to-support-teams"></a>Teams 지원에 필요한 추가 보존 정책
 
-Teams는 채팅 및 채널 메시지 그 이상입니다. Microsoft 365 그룹에서 만든 팀(이전에는 Office 365 그룹)을 가진 경우 **Office 365 그룹** 위치를 사용하여 Microsoft 365 그룹을 포함하는 보존 정책을 추가적으로 구성해야 합니다. 이 보존 정책은 그룹의 사서함, 사이트 및 파일의 콘텐츠에 적용됩니다.
+Teams는 채팅 및 채널 메시지 그 이상 Microsoft 365 그룹에서 만든 팀(이전에는 Office 365 그룹)을 가진 경우 **Office 365 그룹** 위치를 사용하여 Microsoft 365 그룹을 포함하는 보존 정책을 추가적으로 구성해야 합니다. 이 보존 정책은 그룹의 사서함, 사이트 및 파일의 콘텐츠에 적용됩니다.
 
 Microsoft 365 그룹에 연결되어 있지 않은 팀 사이트가 있는 경우, Teams에서 파일을 보존하고 삭제하려면 **SharePoint 사이트** 또는 **OneDrive 계정** 위치를 포함하는 보존 정책이 필요합니다.
 
@@ -93,7 +96,56 @@ Microsoft 365 그룹에 연결되어 있지 않은 팀 사이트가 있는 경�
 
 Microsoft 365 그룹, SharePoint 사이트 또는 OneDrive 계정에 적용되는 보존 정책은 해당 메시지가 삭제되기 전에 Teams 채팅 또는 채널 메시지에서 참조되는 파일을 삭제할 수 있습니다. 이 시나리오에서는 파일이 Teams 메시지에 여전히 표시되지만 사용자가 파일을 선택하면 "파일을 찾을 수 없음" 오류가 발생합니다. 이 동작은 보존 정책에만 국한된 것이 아니며 사용자가 SharePoint 또는 OneDrive에서 파일을 수동으로 삭제하는 경우에도 발생할 수 있습니다.
 
-### <a name="retention-policy-for-locations-other-than-teams"></a>Teams 이외의 위치 보존 정책
+### <a name="retention-policy-for-yammer-locations"></a>Yammer 위치에 대한 보존 정책
+
+> [!NOTE]
+> Yammer에 대한 보존 정책이 미리 보기에서 롤아웃됩니다. 아직 Yammer의 새 위치가 보이지 않으면 며칠 후에 다시 시도합니다.
+>
+> 이 기능을 사용하려면 Yammer 네트워크가 하이브리드 모드가 아니라 [기본 모드](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode)여야 합니다.
+
+1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 **정책** > **보존**을 선택합니다.
+
+2. **새 보존 정책**을 선택하여 새 보존 정책을 만듭니다.
+
+3. **콘텐츠를 유지, 삭제 또는 둘 다 수행할지 결정** 마법사 페이지에서 컨텐츠 유지 및 삭제에 대한 구성 옵션을 지정하세요. 
+    
+    삭제하지 않고 콘텐츠를 유지하거나 지정된 기간 후에 콘텐츠를 유지한 다음 삭제하거나 지정된 기간 후에 콘텐츠를 삭제하는 보존 정책을 만들 수 있습니다. 자세한 내용은 이 페이지에서 [콘텐츠를 보존하고 삭제하기 위한 설정](#settings-for-retaining-and-deleting-content)을 참조하세요.
+    
+    이 옵션은 Yammer 위치에 지원되지 않으므로 **고급 보존 설정 사용**을 선택하지 않습니다. 
+
+4. **위치 선택** 페이지에 대해 **특정 위치 선택**를 선택합니다. 그런 다음 Yammer에 대한 위치 중 하나 또는 둘 모두를 전환합니다. **Yammer 커뮤니티 메시지** 및 **Yammer 개인 메시지**.
+    
+    기본적으로 모든 커뮤니티와 사용자가 선택되지만 포함하거나 제외할 커뮤니티와 사용자를 지정하여 세분화할 수 있습니다.
+    
+    Yammer 개인 메시지의 경우 다음을 수행합니다. 
+    - 기본값 **모두**를 그대로 두면 Azure B2B 게스트 사용자가 포함되지 않습니다. 
+    - **사용자 선택**을 선택한 경우, 계정을 알고 있는 외부 사용자에게 보존 정책을 적용할 수 있습니다.
+
+5. 마법사를 완료하여 설정을 저장합니다.
+
+Yammer용 보존 정책이 작동하는 방식에 대한 자세한 내용은 [Yammer용 보존 정보](retention-policies-yammer.md)를 참조하세요.
+
+#### <a name="additional-retention-policies-needed-to-support-yammer"></a>Yammer를 지원하려면 추가 보존 정책이 필요합니다.
+
+Yammer는 단지 커뮤니티 메시지와 비공개 메시지 그 이상의 기능을 수행합니다. Yammer 네트워크의 전자 메일 메시지를 유지 및 삭제하려면 **Office 365 그룹** 위치를 사용하여 Yammer에 사용되는 Microsoft 365 그룹을 포함하는 추가 보존 정책을 구성합니다. 
+
+Yammer에 저장된 파일을 유지 및 삭제하려면 **SharePoint 사이트** 또는 **OneDrive 계정** 위치를 포함하는 보존 정책이 필요합니다.
+
+- 개인 메시지에서 공유되는 파일은 파일을 공유한 사용자의 OneDrive 계정에 저장됩니다. 
+
+- 커뮤니티에 업로드된 파일은 Yammer 커뮤니티의 SharePoint 사이트에 저장됩니다.
+
+SharePoint 사이트 또는 OneDrive 계정에 적용된 보존 정책은 해당 메시지가 삭제되기 전에 Yammer 메시지에 참조된 파일을 삭제할 수 있습니다. 이 시나리오에서는 파일이 Yammer 메시지에 여전히 표시되지만 사용자가 파일을 선택하면 "파일을 찾을 수 없음" 오류가 발생합니다. 이러한 동작은 보존 정책에만 국한되지 않으며 사용자가 SharePoint 또는 OneDrive에서 파일을 수동으로 삭제하는 경우에도 발생할 수 있습니다.
+
+### <a name="retention-policy-for-locations-other-than-teams-and-yammer"></a>Teams 및 Yammer 이외의 위치에 대한 보존 정책
+
+이러한 서비스에 적용되는 보존 정책에 대해 다음 지침을 사용합니다.
+
+- Exchange: 전자 메일 및 공용 폴더
+- SharePoint: 사이트
+- OneDrive: 계정
+- Microsoft 365 그룹
+- 비즈니스용 Skype
 
 1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 **정책** > **보존**을 선택합니다.
 
@@ -143,7 +195,7 @@ SharePoint 사이트 또는 OneDrive 계정의 위치를 지정하는 경우, �
 
 Microsoft 365 그룹(이전 이름: Office 365 그룹)의 콘텐츠를 보존하거나 삭제하려면 **Office 365 그룹** 위치를 사용합니다. Microsoft 365 그룹이 Exchange 사서함을 보유하고 있더라도 전체 **Exchange 전자 메일** 위치를 포함하는 보존 정책이 Microsoft 365 그룹 사서함의 콘텐츠를 포함하지는 않습니다. 또한 **Exchange 전자 메일** 위치에서 처음에 포함하거나 제외할 그룹 사서함을 지정할 수 있지만 보존 정책을 저장하려고 하면 "RemoteGroupMailbox"가 Exchange 위치에 대해 올바른 선택이 아니라는 오류가 발생합니다.
 
-만약 팀 사이트가 그룹이 만들어 졌을 때 선택되었거나 혹은 나중에 그룹에 추가 된 경우, 그룹 사서함 및 팀 사이트를 포함한 Microsoft 365 그룹에 적용되는 보존 정책입니다. 팀 사이트에 저장된 파일은 이 위치에 포함되지만 자신의 보존 정책 위치가 있는 Teams 채팅 혹은 Teams 채널 메시지는 포함되지 않습니다.
+만약 팀 사이트가 그룹이 만들어 졌을 때 선택되었거나 혹은 나중에 그룹에 추가 된 경우, 그룹 사서함 및 팀 사이트를 포함한 Microsoft 365 그룹에 적용되는 보존 정책 팀 사이트에 저장된 파일은 이 위치에 포함되지만 자신의 보존 정책 위치가 있는 Teams 채팅 혹은 Teams 채널 메시지는 포함되지 않습니다.
 
 ### <a name="configuration-information-for-skype-for-business"></a>비즈니스용 Skype에 대한 구성 정보
 
@@ -153,7 +205,7 @@ Exchange 전자 메일과 달리, Skype 위치의 상태는 간단히 설정으�
 
 **사용자 선택**을 선택하면 **모두 선택** 상자를 선택하여 모든 사용자를 빠르게 포함할 수 있습니다. 그러나 각 사용자가 정책의 특정 포함사항으로 간주된다는 점을 이해해야 합니다. 따라서 **모두 선택** 상자를 선택하여 1,000명의 사용자를 포함하는 경우, 포함할 1,000명의 사용자를 수동으로 선택한 것과 같으며 이는 비즈니스용 Skype에 대해 지원되는 최대를 선택하는 것과 같습니다.
 
-Outlook 폴더인 **대화 내용**은 Skype 아카이빙은 관계가 없는 기능입니다. **대화 내용**은 최종 사용자가 끌 수 있지만, Skype 아카이빙은 사용자는 액세스할 수 없고 eDiscovery에서만 액세스 가능한 숨김 폴더에 Skype 대화 사본을 저장하는 기능입니다.
+Outlook 폴더인 **대화 내용**은 Skype 아카이빙은 관계가 없는 기능 **대화 내용**은 최종 사용자가 끌 수 있지만, Skype 아카이빙은 사용자는 액세스할 수 없고 eDiscovery에서만 액세스 가능한 숨김 폴더에 Skype 대화 사본을 저장하는 기능
 
 ## <a name="settings-for-retaining-and-deleting-content"></a>콘텐츠를 보존 및 삭제하기 위한 설정
 
@@ -203,7 +255,7 @@ Outlook 폴더인 **대화 내용**은 Skype 아카이빙은 관계가 없는 �
 
 보존 정책이 전체의 위치 조합에 적용되는 경우 정책에 포함할 수 있는 수혜자, 사이트, 계정, 그룹 등에 제한이 없습니다.
 
-예를 들어, 정책에 모든 Exchange 전자 메일과 모든 SharePoint 사이트가 모두 포함된다면, 개수와 상관없이 모든 사이트와 수혜자가 포함될 것입니다. 또한 Exchange의 경우 정책이 적용된 후 만들어진 모든 새 사서함은 자동으로 정책을 상속합니다.
+예를 들어, 정책에 모든 Exchange 전자 메일과 모든 SharePoint 사이트가 모두 포함된다면, 개수와 상관없이 모든 사이트와 수혜자가 포함될 것 또한 Exchange의 경우 정책이 적용된 후 만들어진 모든 새 사서함은 자동으로 정책을 상속합니다.
 
 ### <a name="a-policy-with-specific-inclusions-or-exclusions"></a>특정 포함 또는 제외가 적용된 정책
 
@@ -217,14 +269,14 @@ Outlook 폴더인 **대화 내용**은 Skype 아카이빙은 관계가 없는 �
   - Teams 비공개 채팅에 참여하는 1,000명의 사용자
   - 100개의 사이트(OneDrive 또는 SharePoint)
 
-테넌트에 대해 지원되는 최대 정책 수는 10,000입니다. 이러한 항목에는 보존 정책, 보존 레이블 정책, 자동 적용 보존 정책이 포함됩니다.
+테넌트에 대해 지원되는 최대 정책 수는 10,000 이러한 항목에는 보존 정책, 보존 레이블 정책, 자동 적용 보존 정책이 포함됩니다.
 
 보존 정책에 이러한 제한이 적용되는 경우 전체 위치에 적용되는 구성 옵션을 선택하세요.
 
 > [!WARNING]
 > 마지막 구성을 포함했다가 제거하면 해당 위치에 대해 **모두**로 되돌아갑니다.  정책을 저장하기 전에 원하는 구성인지 확인합니다.
 >
-> 예를 들어 데이터를 삭제하도록 구성된 보존 정책에 포함할 SharePoint 사이트 하나를 지정한 다음 단일 사이트를 제거하면 기본적으로 모든 SharePoint 사이트는 데이터를 영구적으로 삭제하는 보존 정책의 적용을 받습니다. Exchange 수신인, OneDrive 계정, 팀 채팅 사용자 등의 경우에도 마찬가지입니다.
+> 예를 들어 데이터를 삭제하도록 구성된 보존 정책에 포함할 SharePoint 사이트 하나를 지정한 다음 단일 사이트를 제거하면 기본적으로 모든 SharePoint 사이트는 데이터를 영구적으로 삭제하는 보존 정책의 적용을 받습니다. Exchange 수신인, OneDrive 계정, 팀 채팅 사용자 등의 경우에도 마찬가지
 >
 > 이 시나리오에서 위치에 대한 **모두** 설정을 보존 정책의 적용을 받지 않으려면 위치를 해제합니다. 또는 정책에서 제외할 제외 항목을 지정합니다.
 
@@ -238,7 +290,7 @@ Outlook 폴더인 **대화 내용**은 Skype 아카이빙은 관계가 없는 �
 
 규정 요구 사항을 준수하기 위해 [보존 잠금](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements)을 사용해야 하는 경우 PowerShell을 사용해야 합니다. 유지 잠금이 적용된 후에는 관리자가 보존 정책을 사용하지 않도록 설정하거나 삭제할 수 없기 때문에, 이 기능을 사용하도록 설정하는 것은 잘못된 구성으로부터 보호하는 UI에서 사용할 수 없습니다.
 
-모든 구성 지원 보존 잠금이 있는 모든 보존 정책. 그러나 뒤에 나오는 PowerShell 명령을 사용하는 경우 **작업부하** 매개변수에는 정책에 구성된 실제 작업 부하를 반영하는 것이 아니라 **Exchange, SharePoint, OneDriveForBusines, Skype, ModernGroup**을 표시하는 것을 볼 수 있습니다. 이는 표시 문제일 뿐입니다.
+모든 구성 지원 보존 잠금이 있는 모든 보존 정책. 그러나 뒤에 나오는 PowerShell 명령을 사용하는 경우 **작업부하** 매개변수에는 정책에 구성된 실제 작업 부하를 반영하는 것이 아니라 **Exchange, SharePoint, OneDriveForBusines, Skype, ModernGroup**을 표시하는 것을 볼 수 있습니다. 이는 표시 문제일 뿐
 
 1. [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)합니다.
 

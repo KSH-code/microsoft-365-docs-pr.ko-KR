@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직에 중요 한 규정 및 인증 요구 사항을 충족 하는 데 도움이 되도록 Microsoft 준수 관리자의 평가를 작성 합니다.
-ms.openlocfilehash: 5bbdba66d2288c173827062aade3bbd196d77040
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: d09103f58be3a5fa39b57ca35da411e8046aace5
+ms.sourcegitcommit: 61d7284b412d0f7bbd8bbb2225c2e6324f86b717
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204456"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262293"
 ---
 # <a name="build-and-manage-assessments-in-compliance-manager"></a>준수 관리자에서 평가 작성 및 관리
 
@@ -206,6 +206,9 @@ ms.locfileid: "48204456"
 3. 평가를 영구적으로 삭제할지 확인 하는 창이 표시 됩니다. **평가 삭제** 를 선택 하 여 창을 닫습니다. 평가가 준수 관리자에서 삭제 되었다는 확인 창이 표시 됩니다.
 
 그룹에서 유일한 평가를 삭제 하면 해당 그룹도 준수 관리자에서 삭제 됩니다.
+
+> [!NOTE]
+> 모든 평가를 삭제할 수는 없습니다. 조직에는 준수 관리자가 제대로 작동 하려면 하나 이상의 평가가 필요 합니다. 삭제 하려는 평가가 유일한 경우 다른 평가를 삭제 하기 전에 다른 평가를 추가 합니다.
 
 ## <a name="monitor-assessment-progress-and-controls"></a>평가 진행률 및 제어 모니터링
 

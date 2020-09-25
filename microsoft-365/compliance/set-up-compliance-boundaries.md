@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 준수 경계를 사용 하 여 eDiscovery 관리자가 Microsoft 365에서 검색할 수 있는 사용자 콘텐츠 위치를 제어 하는 논리적 경계를 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a8aaa1128788ba8f2f4ece7fb54f886595770c01
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 1c0d0b4b8c5c43945efad737165acdd2612d33b7
+ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357770"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269397"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>EDiscovery 조사에 대 한 준수 경계 설정
 
@@ -55,7 +55,7 @@ ms.locfileid: "47357770"
 [4 단계: 검색 권한 필터를 만들어 준수 경계를 적용 합니다.](#step-4-create-a-search-permissions-filter-to-enforce-the-compliance-boundary)
 
 [5 단계: 에이전시 내 조사에 대 한 eDiscovery 사례 만들기](#step-5-create-an-ediscovery-case-for-intra-agency-investigations)
-  
+
 ## <a name="step-1-identify-a-user-attribute-to-define-your-agencies"></a>1 단계: 사용자 특성을 식별 하 여 에이전시를 정의 합니다.
 
 첫 번째 단계는 기관을 정의 하는 데 사용할 Azure Active Directory 특성을 선택 하는 것입니다. 이 특성은 eDiscovery 관리자가이 특성에 대 한 특정 값이 할당 된 사용자의 콘텐츠 위치만 검색 하도록 제한 하는 검색 권한 필터를 만드는 데 사용 됩니다. 예를 들어 Contoso에서 **부서** 특성을 사용 하기로 결정 한다고 가정해 보겠습니다. Coho Winery 자회사의 사용자에 대 한이 특성의 값은 다음과 같습니다  `FourthCoffee` `CohoWinery` . 4 단계에서이 쌍을 사용 하 여  `attribute:value`  eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제한 합니다 (예 *: FourthCoffee*). 
@@ -269,7 +269,7 @@ EDiscovery 사례를 관리 하 고 준수 경계를 사용 하는 조사를 관
 
 - 검색 사용 권한 필터는 Exchange 공용 폴더에 적용 되지 않습니다.
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **New-compliancesecurityfilter 및 New-compliancesecurityfilter cmdlet을 사용 하 여 검색 권한 필터를 만들고 관리할 수 있는 사람은 누구 인가요?**
   
