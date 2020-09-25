@@ -246,6 +246,8 @@
           href: form-a-query-to-find-sensitive-data-stored-on-sites.md
         - name: 보안 및 준수 센터와 Exchange 관리 센터 사이에서 DLP가 작동 하는 방식
           href: how-dlp-works-between-admin-centers.md
+        - name: 민감도 레이블을 DLP 정책의 조건으로 사용(미리 보기)
+          href: dlp-sensitivity-label-as-condition.md
 - name: 정보 거버넌스 관리
   items:
     - name: 사용자 데이터 관리
