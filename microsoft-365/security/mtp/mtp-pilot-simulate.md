@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: f7d00575a0a5757f0662c07e727d7166d571e2ca
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 8d4eb6cedbfa9a74eccdbb94e71f9eb32189ccbb
+ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201198"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277539"
 ---
 # <a name="run-your-microsoft-threat-protection-attack-simulations"></a>Microsoft Threat Protection 공격 시뮬레이션 실행  
 
@@ -48,7 +48,7 @@ ms.locfileid: "48201198"
 
 준비 단계가 진행 되는 동안 파일럿 환경을 이미 구성 했기 때문에이 시나리오에는 테스트 장치 및 도메인 컨트롤러의 두 장치가 있는지 확인 해야 합니다.
 
-1.  테 넌 트가 [보호](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable#starting-the-service)되는지 확인 합니다.
+1.  테 넌 트에서 [Microsoft Threat Microsoft Threat Protection을 사용 하도록 설정](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable#starting-the-service)했는지 확인 합니다.
 2.  테스트 도메인 컨트롤러 구성을 확인 합니다.
     - 장치는 Windows Server 2008 R2 이상 버전에서 실행 됩니다.
     - [Azure Advanced Threat Protection](https://docs.microsoft.com/azure/security-center/security-center-wdatp) 에 대 한 테스트 도메인 컨트롤러와 [원격 관리](https://docs.microsoft.com/windows-server/administration/server-manager/configure-remote-management-in-server-manager)를 사용 하도록 설정 합니다.    

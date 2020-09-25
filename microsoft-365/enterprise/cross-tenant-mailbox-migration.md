@@ -1,5 +1,5 @@
 ---
-title: 테 넌 트 사서함 마이그레이션
+title: 교차 테넌트 사서함 마이그레이션
 description: Microsoft 365 또는 Office 365 테 넌 트 간에 사서함을 이동 하는 방법입니다.
 ms.author: josephd
 author: JoeDavies-MSFT
@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: f649a72dc5569e8aec46347df295aa3ff9d93613
-ms.sourcegitcommit: 327163f70eac0de568ebe3c9a97a744c3ed408cb
+ms.openlocfilehash: 06a82fda31e602ed2feb53d00e8839daf801bf7e
+ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177174"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277502"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>테 넌 트 사서함 마이그레이션 (미리 보기)
 
@@ -57,12 +57,12 @@ ms.locfileid: "48177174"
 
 프로세스의 작동 방식은 다음과 같습니다.
 
-:::image type="content" source="../media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.svg" alt-text="사서함 마이그레이션에 대 한 테 넌 트 준비":::
+:::image type="content" source="../media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.png" alt-text="사서함 마이그레이션에 대 한 테 넌 트 준비":::
 
 <!--
-[![Tenant preparation for mailbox migration](../media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.svg)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.svg)
+[![Tenant preparation for mailbox migration](../media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.png)
 
-[See a larger version of this image](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.svg).
+[See a larger version of this image](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.png).
 --> 
 
 ### <a name="prepare-tenants"></a>테 넌 트 준비
@@ -162,11 +162,11 @@ ms.locfileid: "48177174"
 
 1.  설정 하는 동안 대상 관리자가 지정한-Resourceten앤틸리스 전자 메일로 사서함에 로그인 합니다. 대상 테 넌 트에서 전자 메일 초대를 찾은 다음 **시작** 단추를 선택 합니다.
 
-    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/invited-by-target-tenant.png" alt-text="Invided 된 대화 상자":::
+    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/invited-by-target-tenant.png" alt-text="초대 받은 대화 상자":::
 
 2. **수락** 을 선택 하 여 초대를 수락 합니다.
 
-    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-accept.png" alt-text="Permissons를 허용 하는 대화 상자":::
+    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-accept.png" alt-text="사용 권한을 허용 하는 대화 상자":::
 
    > [!NOTE]
    > 이 전자 메일을 받지 않거나 찾을 수 없는 경우 대상 테 넌 트 관리자에 게는 초대를 수락 하도록 사용자에 게 제공할 수 있는 직접 URL이 제공 됩니다. URL은 대상 테 넌 트 관리자의 원격 PowerShell 세션에 대 한 성적의 기록에 있어야 합니다.
@@ -407,7 +407,7 @@ T2Tbatch-testforignitedemo Syncing ExchangeRemoteMove 1
 
 사서함이 원본에서 대상으로 이동한 후에는 원본 및 대상 모두의 온-프레미스 메일 사용자가 새 targetAddress 업데이트 되도록 해야 합니다. 예제에서 이동에 사용 되는 targetDeliveryDomain는 **contoso \. onmicrosoft.com**입니다. 이 targetAddress를 사용 하 여 메일 사용자를 업데이트 합니다.
  
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
  
 **이동 후 원본 온-프레미스에서 RemoteMailboxes을 업데이트 해야 하나요?**
  
