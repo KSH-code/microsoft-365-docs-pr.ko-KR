@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 1512ba01f78d901177254fce86d0154e97e36496
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 6a8ab25a1bce4355e63482b8450412884a9f0faf
+ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950799"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269408"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
 
@@ -169,6 +169,8 @@ ms.locfileid: "47950799"
 마지막으로 **정책을 사용 하도록 설정을**선택한 다음 **만들기** **를 선택** 합니다.
 
 [If](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) 도구를 사용 하 여 정책을 테스트 하는 것이 좋습니다.
+
+Exchange Online에서는 인증 정책을 사용 하 여 [기본 인증을 사용 하지 않도록 설정](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online)하 여 모든 클라이언트 액세스 요청이 최신 인증을 사용 하도록 할 수 있습니다.
 
 ## <a name="high-risk-users-must-change-password"></a>위험이 높은 사용자는 암호를 변경해야 함
 

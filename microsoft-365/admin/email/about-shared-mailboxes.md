@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 공유 사서함은 여러 사용자가 같은 사서함에 액세스 해야 하는 경우에 사용 됩니다. 공유 사서함을 만들기 전에 알아야 할 사항에 대해 알아봅니다.
-ms.openlocfilehash: 8ca942d35d54fc8cc635e401c250ce409b9af0dd
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: f6feae1662093ffea2537a62c5e8fdf28c622166
+ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780316"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269352"
 ---
 # <a name="about-shared-mailboxes"></a>공유 사서함 정보
 
@@ -50,7 +50,7 @@ ms.locfileid: "44780316"
 
 - **관리자 역할:** 전역 관리자 또는 Exchange 관리 역할이 있는 사용자는 공유 사서함을 만들 수 있습니다.
 
-- **구독 요구 사항:** 공유 사서함을 만들려면 전자 메일 (Exchange Online 서비스)을 포함 하는 Microsoft 365 for business plan에 가입 해야 합니다. Microsoft 365 비즈니스용 앱 구독에는 전자 메일이 포함 되지 않습니다. Microsoft 365 비즈니스 표준에 해당 합니다.
+- **구독 요구 사항:** 공유 사서함을 만들려면 전자 메일 (Exchange Online 서비스)을 포함 하는 Microsoft 365 for business plan에 가입 해야 합니다. Microsoft 365 비즈니스용 앱 구독에는 전자 메일이 포함 되지 않습니다. Microsoft 365 Business Standard에는 전자 메일이 포함 됩니다.
 
 - **로그인:** 공유 사서함은 연결 된 사용자 계정에의 한 직접 로그인이 아닙니다. 공유 사서함 계정의 로그인은 항상 차단 하 고 차단 된 상태로 유지 해야 합니다.
 
