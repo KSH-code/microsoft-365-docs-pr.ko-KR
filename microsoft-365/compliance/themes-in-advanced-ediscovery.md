@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -17,14 +17,14 @@ search.appverid:
 ms.assetid: ''
 description: 고급 eDiscovery에서 테마를 사용 하 여 각 문서에서 기준 테마를 찾아서 검토 집합을 구성 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: eb008e091cd8c8330d1cdd5b388e252af70922da
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 3dfc0dca0c6ed62e3ce8384efa2fd3ea407c3ce8
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034522"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285534"
 ---
-# <a name="themes"></a>테마
+# <a name="themes-in-advanced-ediscovery"></a>고급 eDiscovery의 테마
 
 사용자가 문서를 작성 하는 방법은 무엇 인가요? 일반적으로 문서에서 전달 하려는 하나 이상의 아이디어를 시작 하 고 아이디어와 일치 하는 단어를 사용 하 여 작성 합니다. 가장 많이 알려진 개념은 해당 아이디어와 관련 된 단어의 빈도가 가장 많습니다. 사용자가 문서를 사용 하는 방법에 대해 알려 줍니다. 문서를 읽을 때 이해 해야 하는 중요 한 사항은 문서에서 전달을 시도 하는 내용, 해당 위치에 표시 되는 개념 및 아이디어 간의 관계입니다.
 

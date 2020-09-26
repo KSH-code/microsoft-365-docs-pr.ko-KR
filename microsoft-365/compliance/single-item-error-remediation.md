@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 고급 eDiscovery의 검토 집합에 포함 된 문서에서 대량 오류 업데이트 관리 프로세스를 수행 하지 않고도 처리 오류를 해결할 수 있습니다.
-ms.openlocfilehash: 3c50f9dcd1448ee36edd0e82e5b2c2879c11d6b5
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: c318148900d891304ebcb9b4a88abfe52f43c05e
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069697"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285844"
 ---
-# <a name="single-item-error-remediation"></a>단일 항목 오류 수정
+# <a name="single-item-error-remediation-in-advanced-ediscovery"></a>Advanced eDiscovery에서 단일 항목 오류 수정
 
 오류 수정을 통해 고급 eDiscovery 사용자는 고급 eDiscovery가 콘텐츠를 제대로 처리 하지 못하게 하는 데이터 문제를 해결할 수 있습니다. 예를 들어 암호로 보호 된 파일은 잠겨 있거나 암호화 되어 처리할 수 없습니다. 이전에는 [이 워크플로](error-remediation-when-processing-data-in-advanced-ediscovery.md)를 사용 하 여 대량 으로만 오류를 수정할 수 있었습니다. 그러나 조사 중인 사례에 대응 되는 파일이 있는지 확실 하지 않은 경우에는 여러 파일의 오류를 수정 하는 것이 좋을 수 있습니다. 또한 파일 위치 또는 액세스 권한이 있는 파일 메타 데이터를 검토 하 여 응답성에 대 한 사전 결정을 내리는 데 도움이 되도록 오류를 수정 하는 것은 바람직하지 않을 수 있습니다. *단일 항목 오류 수정* 프로그램 이라는 새로운 기능을 통해 eDiscovery 관리자는 처리 오류가 발생 한 파일의 메타 데이터를 볼 수 있으며, 필요한 경우 검토 집합에서 오류를 직접 수정 하는 기능이 제공 됩니다. 이 문서에서는 검토 집합에서 처리 오류가 발생 한 파일을 식별, 무시 및 수정 하는 방법에 대해 설명 합니다.
 
@@ -53,7 +53,7 @@ ms.locfileid: "42069697"
 
 단일 문서를 수정 하려면 다음 단계를 수행 합니다.
 
-1. **원본 다운로드** **다운로드** > 를 클릭 하 여 로컬 컴퓨터에 파일의 복사본을 다운로드 합니다.
+1. **Download**  >  **원본 다운로드** 다운로드를 클릭 하 여 로컬 컴퓨터에 파일의 복사본을 다운로드 합니다.
 
    ![처리 오류와 함께 문서 다운로드](../media/SIERimage5.png)
 

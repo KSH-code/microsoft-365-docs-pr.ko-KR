@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 보안 & 준수 센터의 데이터 조사 도구에서 작업을 수행할 때 발생 하는 오래 실행 되는 프로세스의 상태를 추적할 수 있습니다.
-ms.openlocfilehash: ef2fe364a20bd0edc48761162f519135b750d9ab
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: be964f79c6407b5a74f4edebe264008113d8d968
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635918"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285724"
 ---
 # <a name="manage-jobs-in-data-investigations-preview"></a>데이터 조사에서 작업 관리 (미리 보기)
 

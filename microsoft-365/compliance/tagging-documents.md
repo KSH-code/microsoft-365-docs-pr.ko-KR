@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -17,14 +17,14 @@ search.appverid:
 ms.assetid: ''
 description: 문서를 검토 집합에 태그를 지정 하면 불필요 한 콘텐츠를 제거 하 고 고급 eDiscovery 사례에서 관련 콘텐츠를 식별할 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 445bf9a0ee5959c4972920a74e7bd1596d9edca1
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 83e7a3c9c097968c4d773e6e2092bb3c50154cc3
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034552"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285284"
 ---
-# <a name="tag-documents-in-a-review-set"></a>검토 집합에서 문서 태그 지정
+# <a name="tag-documents-in-a-review-set-in-advanced-ediscovery"></a>고급 eDiscovery에서 검토 집합의 문서에 태그 설정
 
 콘텐츠를 검토 집합으로 구성 하는 것은 eDiscovery 프로세스에서 다양 한 워크플로를 완료 하는 것이 중요 합니다. 여기에는 다음이 포함됩니다.
 

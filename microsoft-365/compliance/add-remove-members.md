@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 데이터 조사를 관리할 때 조사에 액세스할 수 있는 구성원을 추가 하거나 제거 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dd57b0bd30e032f16160953e2849d908ecdfc3c5
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 5348d457cfeeeb0f23b6004aefd727a662ac3dc9
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034918"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285162"
 ---
 # <a name="add-or-remove-members-from-a-data-investigation"></a>데이터 조사에서 구성원 추가 또는 제거
 

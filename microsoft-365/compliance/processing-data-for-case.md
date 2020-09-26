@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -17,17 +17,17 @@ search.appverid:
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: Office 365의 고급 eDiscovery 도구에서 다양 한 데이터 형식을 처리 하는 방법에 대 한 개요를 읽으십시오.
-ms.openlocfilehash: 0725b38af00ec787869090c5a57f5a865fb421e7
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+description: Advanced eDiscovery에서 다양 한 형식의 데이터를 처리 하는 방법에 대 한 개요입니다.
+ms.openlocfilehash: c82363a846334ccf47fc28cf0aaa25e92f2bbea9
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527408"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285244"
 ---
 # <a name="work-with-processing-errors-in-advanced-ediscovery"></a>Advanced eDiscovery에서의 처리 오류 작업
 
-*처리* 는 파일 식별 프로세스, 포함 된 문서 및 첨부 파일의 확장, 텍스트 추출 및 이미지 파일의 후속 인덱싱 (광학 인식)입니다.  
+*처리* 는 파일 id, 포함 된 문서 및 첨부 파일의 확장, 텍스트 추출 및 해당 콘텐츠의 후속 인덱싱 프로세스입니다.  
 
 Custodians 및 비 custodian 데이터 원본을 **원본** 탭의 사례에 추가 하면 Microsoft 365에서 모든 부분적으로 인덱싱된 항목이 처리 되어 완전히 검색 가능 하 게 됩니다. 마찬가지로 Microsoft 365 및 타사 365 데이터 원본의 검토 집합에 콘텐츠를 추가 하는 경우에도이 콘텐츠가 처리 됩니다.
 

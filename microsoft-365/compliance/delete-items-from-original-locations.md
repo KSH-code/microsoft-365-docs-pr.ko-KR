@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: ''
 description: 이 문서에서는 보안 & 준수 센터에서 새 데이터 조사 (미리 보기) 도구를 사용 하 여 원래 위치에서 항목을 삭제 하는 방법을 설명 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0787944791fea65dfc940b1067abe1bad8097dcd
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 82f411dd380c039d2c8a9011144d5a49fcbfd597
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817887"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285774"
 ---
 # <a name="delete-items-from-their-original-location-preview"></a>원래 위치에서 항목 삭제 (미리 보기)
 
@@ -62,7 +62,7 @@ ms.locfileid: "44817887"
    > [!NOTE]
    > 이전 스크린샷에서 항목 수는 삭제 하기 위해 선택한 항목 수를 나타냅니다. 문서 수는 부모 항목에 첨부 된 모든 파일을 포함 하는 총 항목 수를 나타냅니다. 예를 들어 하나의 전자 메일 메시지를 선택 하 고 해당 메시지에 첨부 된 Word 문서가 있는 경우 **선택한 문서** 아래에 표시 되는 항목 및 문서 수는 **1 개 항목 (문서 2 개)** 일 뿐입니다.
 
-**작업 탭에서** **원래 위치에서 항목 삭제** 작업의 진행 상태를 추적할 수 있습니다. 작업을 클릭 하 여 플라이 아웃 페이지를 표시 합니다.
+**작업** 탭에서 **원래 위치에서 항목 삭제** 작업의 진행 상황을 추적할 수 있습니다. 작업을 클릭 하 여 플라이 아웃 페이지를 표시 합니다.
 
 ![원래 위치 작업의 삭제 항목에 대 한 플라이 아웃 페이지](../media/DataInvestigationsDeleteItems3.png)
 

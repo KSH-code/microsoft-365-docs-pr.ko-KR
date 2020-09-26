@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 고급 eDiscovery 사례를 관리할 때 사례에 액세스할 수 있는 구성원을 추가 하거나 제거 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0f54953c77f3350746f3853ba128b2d5c08d4321
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 301796dfd15236a8d590d8f94ff5b885176d5d82
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034662"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285152"
 ---
 # <a name="add-or-remove-members-from-a-case"></a>사례에서 구성원 추가 또는 제거
 

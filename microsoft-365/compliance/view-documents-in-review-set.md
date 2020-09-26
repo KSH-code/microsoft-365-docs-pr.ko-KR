@@ -1,12 +1,12 @@
 ---
-title: 검토 집합의 문서 보기-eDiscovery
+title: 고급 eDiscovery에서 검토 세트로 문서 보기
 f1.keywords:
 - NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 description: 고급 eDiscovery에서 텍스트, 주석 달기, 변환, 기본 보기 등의 콘텐츠를 보는 방법을 선택 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c7527caedb06ccc6a2600a35576600452bb9c09a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: ba66b64460a4aa9cf76641c6d84f0282195b85e9
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034290"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286054"
 ---
-# <a name="view-documents-in-a-review-set"></a>검토 집합에서 문서 보기
+# <a name="view-documents-in-a-review-set-in-advanced-ediscovery"></a>고급 eDiscovery에서 검토 세트로 문서 보기
 
 고급 eDiscovery는 용도가 서로 다른 여러 viewer를 통해 콘텐츠를 표시 합니다. 검토 집합 내의 문서를 클릭 하 여 다양 한 뷰어를 사용할 수 있습니다. 현재 제공 되는 뷰어는 다음과 같습니다.
 

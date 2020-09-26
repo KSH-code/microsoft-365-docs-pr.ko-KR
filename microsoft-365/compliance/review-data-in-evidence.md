@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: '증명 정보의 데이터를 검토 하는 방법 (예: 네이티브, 텍스트 또는 기본 형식)을 확인 하는 방법에 대해 알아봅니다.'
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9df5c1f0fd15cb320e8359d09ab39202700dbc4b
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: 9335b95cc57add69660b707577829caef1ad8183
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47816731"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285384"
 ---
 # <a name="review-the-data-in-evidence"></a>증거 데이터 검토
 
@@ -46,7 +46,7 @@ ms.locfileid: "47816731"
 
 이 보기에는 선택한 문서와 연결 된 다양 한 메타 데이터 속성이 표시 됩니다. **파일 메타 데이터**를 클릭 하 여이 보기를 설정 하거나 해제할 수 있습니다. 문서를 검토할 때 파일 메타 데이터를 볼 수 있으며 서로 다른 보는 사용자 간에 변경 내용이 계속 유지 됩니다.
 
-다음은 문서에 대 한 파일 메타 데이터의 예입니다. 메타 데이터 필드에 대 한 자세한 내용은 [데이터 조사 (Preview)의 문서 메타 데이터 필드](document-metadata-fields.md)를 참조 하십시오.
+다음은 문서에 대 한 파일 메타 데이터의 예입니다. 메타 데이터 필드에 대 한 자세한 내용은 [데이터 조사 (preview)의 문서 메타 데이터 필드](document-metadata-fields.md)를 참조 하십시오.
 
 ![파일 메타 데이터 패널](../media/Reviewimage2.png)
 

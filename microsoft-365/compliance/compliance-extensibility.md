@@ -20,12 +20,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: 타사 데이터 커넥터 및 Microsoft Graph Api를 사용 하 여 Microsoft 365 규정 준수 솔루션을 확장 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 284125db8243b10f5c8de7e0a37c1b7284709c28
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 8eeb83013ec412ed82973b37c4c10e2250f5eaf8
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204398"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285744"
 ---
 # <a name="microsoft-365-compliance-extensibility"></a>Microsoft 365 준수 확장성
 
@@ -77,7 +77,7 @@ Microsoft 팀에서는 조직이 원격 작업으로 이동 했을 때 [DLP (데
 
 이러한 두 Api는 팀 DLP 용 Microsoft Graph API를 형성 합니다. [샘플 앱](https://github.com/microsoftgraph/csharp-webhook-with-resource-data)을 사용해 볼 수 있습니다. Microsoft 팀 메시징 webhooks 대 한 자세한 내용은 [설명서](https://docs.microsoft.com/graph/api/subscription-post-subscriptions)를 참조 하세요.
 
-팀 DLP에 대 한 라이선스 요구 사항에 대 한 자세한 내용은 [보안 & 준수에 대 한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#office-365-data-loss-prevention-for-exchange-online-sharepoint-online-and-onedrive-for-business)을 참조 하세요.
+팀 DLP에 대 한 라이선스 요구 사항에 대 한 자세한 내용은 [보안 & 준수에 대 한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#communication-data-loss-prevention-for-teams)을 참조 하세요.
 
 ### <a name="microsoft-graph-api-for-ediscovery-preview"></a>EDiscovery (미리 보기) 용 Microsoft Graph API
 

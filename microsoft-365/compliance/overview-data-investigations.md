@@ -18,12 +18,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-mar2020
 description: 이 문서에서는 Microsoft 365의 데이터 조사 (미리 보기) 도구에 대해 설명 합니다. 데이터 조사 도구는 데이터 유출를 평가 하 고 수정 하는 데 도움이 됩니다.
-ms.openlocfilehash: 6975d554e939481c6ee1c32ec4e76bb25c7bf36c
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 21241ad36278bc75a8363b9aeefeaf4caec783b5
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036051"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285994"
 ---
 # <a name="overview-of-data-investigations-preview-in-microsoft-365"></a>Microsoft 365의 데이터 조사 개요 (미리 보기)
 
@@ -31,7 +31,7 @@ ms.locfileid: "44036051"
 
 이 문서에서는 새 데이터 조사 (미리 보기) 도구에서 제공 하는 기능을 사용 하 여 데이터 유출 시나리오를 처리 하는 방법을 설명 합니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 데이터 조사에 액세스 하 고이를 수행 하려면 Data investigator 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [데이터 조사에 대 한 사용 권한 할당](data-investigations-permissions.md)을 참조 하세요.
 

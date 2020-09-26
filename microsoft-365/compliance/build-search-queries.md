@@ -1,5 +1,5 @@
 ---
-title: 빌드 검색 쿼리-데이터 조사
+title: 데이터 조사에서 빌드 검색 쿼리
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -17,14 +17,14 @@ search.appverid:
 ms.assetid: ''
 ms.custom: seo-marvel-mar2020
 description: Microsoft 365에서 데이터 조사를 사용 하 여 데이터를 검색할 때 키워드와 조건을 사용 하 여 검색 범위를 좁힐 수 있습니다.
-ms.openlocfilehash: 95466d0e7c7109001fef001cc0d5bca5b6d658ed
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: b2d77ef23e7427fd5f770a27166dc571f853191d
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034116"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285764"
 ---
-# <a name="build-search-queries"></a>검색 쿼리 작성
+# <a name="build-search-queries-in-data-investigations-preview"></a>데이터 조사에서 빌드 검색 쿼리 (미리 보기)
 
 검색 쿼리를 작성 하는 경우 키워드를 사용 하 여 검색 범위를 좁혀 조사에 가장 적합 한 항목을 반환할 수 있습니다.
 

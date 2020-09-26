@@ -17,14 +17,14 @@ search.appverid:
 ms.assetid: ''
 description: 데이터 조사를 관리할 때 유사 중복, 전자 메일 스레딩 및 테마와 같은 검색 및 분석 설정을 구성 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3100c83fc027e793f7937a4d27e059ce7e3038a0
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: ebc04e68c4d8854c91ceae75b164cc061e77aad4
+ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527354"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277072"
 ---
-# <a name="configure-search-and-analytics-settings"></a>검색 및 분석 설정 구성
+# <a name="configure-search-and-analytics-settings-in-data-investigations"></a>데이터 조사에서 검색 및 분석 설정 구성
 
 ## <a name="near-duplicates-and-email-threading"></a>유사 중복 및 전자 메일 스레딩
 

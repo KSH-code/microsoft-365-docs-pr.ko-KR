@@ -17,12 +17,12 @@ ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 ms.custom:
 - seo-marvel-apr2020
 description: 조직의 법적 조사를 관리 하려면 Office 365의 보안 & 준수 센터에서 eDiscovery 사례를 사용 합니다.
-ms.openlocfilehash: 0e39c2cfb865e6cf649bf1ff7702d97bd29352b9
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: edc9835cdbefa611af4c0906be5d3e1d0404c635
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44815505"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285654"
 ---
 # <a name="manage-legal-investigations-in-microsoft-365"></a>Microsoft 365에서 법적 조사 관리
 

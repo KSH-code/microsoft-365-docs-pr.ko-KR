@@ -17,14 +17,14 @@ search.appverid:
 ms.assetid: ''
 description: 프레젠테이션 또는 외부 검토를 위해 검토 집합에서 콘텐츠를 선택 하 고 내보내는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 855f1b8fef7a1df6ed86f058b71e5027851b5f0d
-ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
+ms.openlocfilehash: b3be21d4c90c861c83acf612e9aadc373189f7ba
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399182"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285364"
 ---
-# <a name="export-documents-from-a-review-set"></a>검토 집합에서 문서 내보내기
+# <a name="export-documents-from-a-review-set-in-advanced-ediscovery"></a>고급 eDiscovery에서 검토 집합의 문서 내보내기
 
 내보내기를 사용 하면 다운로드 패키지에 포함 된 콘텐츠를 사용자 지정할 수 있습니다. 내보내기 도구에서는 다음과 같은 설정을 사용 하 여 구성 페이지를 제공 합니다.
 

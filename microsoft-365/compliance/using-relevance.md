@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Advanced eDiscovery의 관련성 워크플로 및 교육 단계에 대 한 설명을 포함 하 여 관련성 모듈이 증거 데이터를 분석 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4babb0aa7693bc1107cc7594da967bca2d307228
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 4a05ec47a4a6b2100c062912e7668c2bf785caf7
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034470"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286064"
 ---
 # <a name="use-the-relevance-module-to-analyze-data-in-advanced-ediscovery"></a>관련성 모듈을 사용 하 여 Advanced eDiscovery에서 데이터 분석
 

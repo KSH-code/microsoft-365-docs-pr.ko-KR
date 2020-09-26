@@ -14,17 +14,16 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 description: 오류 수정을 사용 하 여 콘텐츠를 올바르게 처리 하지 못할 수 있는 데이터 조사 (미리 보기)의 데이터 문제를 해결 하는 방법을 알아봅니다.
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: fe77f918a7471bf36df7727f890ea043976e44db
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: c6c62bb1a3191e369d553df5eb451d4656e704d7
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817817"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286034"
 ---
 # <a name="error-remediation-when-processing-data-for-an-investigation"></a>조사를 위해 데이터를 처리할 때의 오류 수정
 
@@ -43,7 +42,7 @@ ms.locfileid: "44817817"
 
 3. **+ 새 오류 수정을**클릭 합니다.
 
-    ![오류 수정](../media/8c2faf1a-834b-44fc-b418-6a18aed8b81a.png)
+    ![새 오류 수정 관리 단추를 클릭 합니다.](../media/8c2faf1a-834b-44fc-b418-6a18aed8b81a.png)
 
     오류가 발생 한 파일을 다운로드할 수 있도록 안전한 Azure 위치에 복사 되는 준비 단계부터 시작 하는 오류 관리 세션이 시작 됩니다.
 
@@ -51,7 +50,7 @@ ms.locfileid: "44817817"
 
 4. 준비가 완료 되 면 **다음: 파일 다운로드** 를 클릭 하 여 다운로드를 계속 합니다.
 
-    ![파일 다운로드](../media/6ac04b09-8e13-414a-9e24-7c75ba586363.png)
+    ![수정 해야 하는 파일 다운로드](../media/6ac04b09-8e13-414a-9e24-7c75ba586363.png)
 
 5. 파일을 다운로드 하려면 **다운로드 대상 경로**를 지정 합니다. 로컬 컴퓨터에서 파일을 다운로드 해야 하는 경로입니다.  기본 경로인%USERPROFILE%\Downloads\errors은 로그인 한 사용자의 다운로드 폴더를 가리킵니다. 이는 필요에 따라 변경할 수 있습니다.
 
@@ -65,7 +64,7 @@ ms.locfileid: "44817817"
 
     파일이 다운로드 됩니다.
 
-    ![오류 수정 준비](../media/f364ab4d-31c5-4375-b69f-650f694a2f69.png)
+    ![명령 프롬프트에 다운로드 한 파일에 대 한 정보](../media/f364ab4d-31c5-4375-b69f-650f694a2f69.png)
 
     > [!NOTE]
     > 이 명령을 실행 하는 동안 문제가 발생 한 경우 [에는 Advanced eDiscovery에서 AzCopy 문제 해결](troubleshooting-azcopy.md)을 참조 하세요.
@@ -77,13 +76,13 @@ ms.locfileid: "44817817"
 
 8. 이제 데이터 조사 (미리 보기)로 돌아가 **다음: 파일 업로드**를 클릭 합니다.  이렇게 하면 이제 파일을 업로드할 수 있는 다음 단계로 이동 합니다.
 
-    ![파일 업로드](../media/af3d8617-1bab-4ecd-8de0-22e53acba240.png)
+    ![파일 업로드 탭](../media/af3d8617-1bab-4ecd-8de0-22e53acba240.png)
 
 9. **파일 위치 경로** 텍스트 상자에 재구성 된 파일의 위치를 지정 하 고 **클립보드에 복사를**클릭 합니다.
 
 10. Windows 명령 프롬프트에 명령을 붙여 넣고 **enter 키를 눌러 파일을 업로드** 합니다.
 
-    ![ff2ff691-629f-4065-9b37-5333f937daf6.png](../media/ff2ff691-629f-4065-9b37-5333f937daf6.png)
+    ![명령 프롬프트에 업로드 된 파일에 대 한 정보](../media/ff2ff691-629f-4065-9b37-5333f937daf6.png)
 
 11. 마지막으로 데이터 조사 (미리 보기)로 돌아가 **다음: 프로세스 파일**을 클릭 합니다.
 

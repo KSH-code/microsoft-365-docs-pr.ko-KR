@@ -14,17 +14,16 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 description: 검색 통계는 검색 결과의 유효성을 검사 하 고 검색 세부 정보 플라이 아웃 페이지에서 상태 아래에 표시 하는 효율적인 방법입니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dc6aea96e86388ae7ecfa0fa545bc5571eeff0cd
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 24de99cf0a7ae21b5966811b988c93d64abd5148
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035840"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286094"
 ---
-# <a name="search-statistics"></a>검색 통계
+# <a name="search-statistics-in-data-investigations-preview"></a>데이터 조사에서의 검색 통계 (미리 보기)
 
 데이터 인시던트를 조사할 때 검색 결과의 유효성을 검사 하는 효과적인 방법은 검색 결과에 대 한 통계를 확인 하 여 예상과 일치 하는지 확인 하는 것입니다. 검색이 완료 되 면 검색 세부 정보 플라이 아웃 페이지의 **상태** 아래에 다음과 같은 높은 수준의 통계가 표시 됩니다.
 

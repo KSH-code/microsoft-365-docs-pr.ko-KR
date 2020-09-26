@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 유사 중복 검색, 전자 메일 스레딩 및 테마와 같은 분석 도구를 사용 하 여 조사 속도를 향상 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e7c5103adabadf88028351f0314bcdfaa2cd4d0f
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 7a97f5ce7aefdd230a3c7a671155a7b73b2e8e19
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035850"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285344"
 ---
 # <a name="run-analytics-to-investigate-faster"></a>신속한 조사를 위한 분석 실행
 

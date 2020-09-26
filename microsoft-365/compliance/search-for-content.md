@@ -13,14 +13,14 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
 description: 보안 & 준수 센터에서 콘텐츠 검색 eDiscovery 도구를 사용 하면 비즈니스용 Skype의 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치에 있는 문서 및 인스턴트 메시징 대화에서 신속 하 게 전자 메일을 찾을 수 있습니다.
-ms.openlocfilehash: 2b874181fdfc5bce69227acc279e12bffe70c069
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c02bcf627cec46b52ba9ff449a0d39b185ce4a0a
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632923"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285984"
 ---
-# <a name="search-for-content"></a>콘텐츠 검색
+# <a name="search-for-content-using-the-content-search-tool"></a>콘텐츠 검색 도구를 사용 하 여 콘텐츠 검색
 
 보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 비즈니스용 Skype의 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치에 있는 문서 및 인스턴트 메시징 대화에서 신속 하 게 전자 메일을 찾을 수 있습니다. 콘텐츠 검색 도구를 사용 하 여 Microsoft 팀 및 Microsoft 365 그룹과 같은 공동 작업 도구에서 전자 메일, 문서 및 인스턴트 메시징 대화를 검색할 수 있습니다.
   
@@ -79,7 +79,7 @@ ms.locfileid: "43632923"
 
 경우에 따라 고급, 복잡 및 반복적인 콘텐츠 검색 작업을 수행 해야 하는 경우가 있습니다. 이러한 경우 보안 & 준수 센터에서 PowerShell 명령을 보다 쉽고 빠르게 사용할 수 있습니다. 이를 용이 하 게 하기 위해 복잡 한 콘텐츠 검색 관련 작업을 완료 하는 데 도움이 되는 다양 한 보안 & 준수 센터 PowerShell 스크립트를 만들었습니다.
   
-- [특정 사서함 및 사이트 폴더](use-content-search-for-targeted-collections.md) ( *대상 모음* 이라고 함)가 해당 폴더에 있는 항목에 대 한 응답 항목이 확실 하다 고 확신 하는 경우 검색 
+- [특정 사서함 및 사이트 폴더](use-content-search-for-targeted-collections.md) (  *대상 모음*  이라고 함)가 해당 폴더에 있는 항목에 대 한 응답 항목이 확실 하다 고 확신 하는 경우 검색 
     
 - 사용자 목록에 대 한 [사서함 및 OneDrive 위치 검색](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md) 
     

@@ -14,17 +14,16 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 description: Office 이외 365 콘텐츠 가져오기 기능을 사용 하 여 Office 이외 365 문서를 데이터 조사의 증거에 업로드 하는 방법을 알아봅니다.
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: 9bfebc6aad9bc37d7d78ec4a0d50e6de967ac7d1
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: b6d8c2f65a1fa3a43fa2ac4bf3821cc6c1fac514
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44815485"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285374"
 ---
 # <a name="load-non-microsoft-365-data-into-evidence"></a>Microsoft 제품이 아닌 365 데이터를 증거에 로드
 
@@ -61,7 +60,7 @@ ms.locfileid: "44815485"
 4. **파일 업로드** 단계에서 **파일의 위치에 대 한 경로**를 지정 합니다. 여기서는 가져오기에 사용할 Microsoft 365이 아닌 데이터를 찾습니다.  올바른 위치를 설정 하면 AzCopy 명령이 제대로 업데이트 됩니다.
 
 > [!NOTE]
-> AzCopy을 아직 설치 하지 않은 경우 여기에서이 작업을 수행할 수 있습니다.https://docs.microsoft.com/azure/storage/common/storage-use-azcopy
+> AzCopy을 아직 설치 하지 않은 경우 여기에서이 작업을 수행할 수 있습니다. https://docs.microsoft.com/azure/storage/common/storage-use-azcopy
 
 5. **클립보드에 복사** 링크를 클릭 하 여 미리 정의 된 명령을 복사 합니다. Windows 명령 프롬프트를 시작 하 고 명령을 붙여 넣은 다음 enter 키를 누릅니다.  파일이 보안 Azure blob 저장소에 업로드 되 고 다음 단계를 진행 합니다.
 

@@ -1,5 +1,5 @@
 ---
-title: 빌드 검색 쿼리-eDiscovery
+title: 고급 eDiscovery에서 검색 쿼리 작성
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -7,26 +7,25 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 ms.custom: seo-marvel-mar2020
 description: Microsoft 365에서 고급 eDiscovery를 사용 하 여 데이터를 검색할 때 키워드 및 조건을 사용 하 여 검색 범위를 좁힐 수 있습니다.
-ms.openlocfilehash: 86e763577c24473f8f55c5c8dc26d1853509d50a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 3ddd9c38f16fc2dd0fcb96e5fffc79ebbacdbda4
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035516"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285804"
 ---
-# <a name="build-search-queries"></a>검색 쿼리 작성
+# <a name="build-search-collection-queries-in-advanced-ediscovery"></a>고급 eDiscovery에서 검색 컬렉션 쿼리 작성
 
-검색 쿼리를 작성 하는 경우 키워드를 사용 하 여 특정 콘텐츠 및 조건을 찾아서 법률 조사와 가장 관련성이 높은 항목을 반환 하도록 검색 범위를 좁힐 수 있습니다.
+고급 eDiscovery 사례에서 데이터를 수집 하기 위해 검색 쿼리를 작성 하는 경우 키워드를 사용 하 여 특정 콘텐츠 및 조건을 찾아서 법적 조사와 가장 관련성이 높은 항목을 반환 하도록 검색 범위를 좁힐 수 있습니다.
 
 ![키워드 및 조건을 사용 하 여 검색 결과 범위 좁히기](../media/SearchQueryBox.png)
 

@@ -7,22 +7,21 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 description: 고급 eDiscovery 사례에서 분석을 위해 365 Microsoft 제품이 아닌 데이터를 검토 집합으로 가져오는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9b506edc55da1916ae908eaa7ca619ba7300f87
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: ad70207bdc015107a5aba074e2df06a42c0618b3
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44815465"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285864"
 ---
 # <a name="load-non-microsoft-365-data-into-a-review-set"></a>타사 365 데이터를 검토 집합으로 로드
 

@@ -17,14 +17,14 @@ search.appverid:
 ms.assetid: ''
 description: 데이터 조사 중에 테마를 사용 하 여 일반적인 아이디어나 개념을 검색 하 여 문서를 구성 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e05210036ce2db0a06b6450a611908cf2de24f19
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 249d0739e7d83665f3d2a30d544886c43f89e07d
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034512"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285524"
 ---
-# <a name="themes"></a>테마
+# <a name="themes-in-data-investigations-preview"></a>데이터 조사의 테마 (미리 보기)
 
 다른 사용자가 문서를 작성할 때는 임의로 단어를 선택 하지 않습니다. 이러한 사용자는 몇 가지 아이디어나 개념을 전달 하려고 하며 그에 따라 단어를 선택 합니다. Themes 모듈 유사한 주제에 대해 설명 하는 문서를 클러스터 하 여 검토자가 문서를 보다 효율적으로 사용할 수 있도록 합니다.
 

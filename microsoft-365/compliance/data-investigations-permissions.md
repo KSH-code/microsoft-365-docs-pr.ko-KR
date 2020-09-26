@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365에서 데이터 조사 도구를 사용 하는 데 필요한 사용 권한을 설정 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 47a7923d38cfa0ea3bad6c4c266f580f8104c429
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 85a800c3e21c270f46de78bdef77d7b7a98e0eca
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637760"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285444"
 ---
 # <a name="assign-permissions-for-data-investigations-preview"></a>데이터 조사에 대 한 사용 권한 할당 (미리 보기)
 
@@ -29,7 +29,7 @@ Office 365 또는 Microsoft 365 준수 센터의 데이터 조사에 액세스 �
 
 데이터 조사 권한을 할당 하려면
 
-1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 고 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
+1. 으로 이동 하 [https://protection.office.com](https://protection.office.com) 고 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
 
 2. 보안 & 준수 센터에서 **사용 권한을**클릭 합니다.
 

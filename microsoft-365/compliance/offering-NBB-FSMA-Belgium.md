@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ad72be958e8d028ff40dcbd483accd0dbe5c0527
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: d35e9893c54367bc62de65300613853408070c33
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415762"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208270"
 ---
 # <a name="national-bank-of-belgium-nbb-and-the-financial-services-and-markets-authority-fsma"></a>벨기에 은행(NBB) 및 금융 서비스 및 시장 감독원(FSMA)
 
@@ -29,7 +29,7 @@ ms.locfileid: "47415762"
 
 NBB는 금융 기관, 보험사, 증권 중개업체 그리고 기타 금융 조직의 세심한 감독을 담당합니다. 벨기에의 중앙 은행으로서 NBB는 벨기에의 통화 정책을 시행하고 금융 시스템의 안정성에 기여 합니다. NBB와 함께 FSMA는 투자 회사 및 보조 연금을 포함하여 벨기에의 금융 시장 및 금융 서비스 제공 업체를 관리합니다.  FSMA의 업무는 소비자에게 업체들이 배포하는 금융 정보 및 제공하는 제품 그리고 비즈니스 시행 규칙 준수에 대한 감독을 포함합니다.
 
-NBB 및 FSMA는 "유럽 뱅킹 부문 전반에서 효과적이고 일관된 세심한 규제 및 감독을 보장하기 위해 업무를 하는 독립된 EU 기관"인 유럽은행관리국(EBA)과 협조하여 운영됩니다.   그 목적을 달성하기 위해 EBA는 유럽에서의 금융 기관의 클라우드 컴퓨팅을 사용하는 방법에 대한 포괄적인 접근 방법인 [클라우드 서비스 공급자에게의 외주에 대한 권장](https://eba.europa.eu/documents/10180/2170121/Final+draft+Recommendations+on+Cloud+Outsourcing+%28EBA-Rec-2017-03%29.pdf/5fa5cdde-3219-4e95-946d-0c0d05494362)을 개요화하였습니다.
+NBB 및 FSMA는 ‘유럽 뱅킹 부문 전반에서 효과적이고 일관된 세심한 규제 및 감독을 보장하기 위해 업무를 하는 독립된 EU 기관’인 EBA(유럽은행당국)과 협조하여 운영됩니다.   그 목적을 달성하기 위해 EBA는 유럽에서 금융 기관이 클라우드 컴퓨팅을 사용하는 방법에 대한 포괄적인 접근 방법인 [클라우드 서비스 공급자에 대한 아웃소싱 권장 사항](https://eba.europa.eu/documents/10180/2170121/Final+draft+Recommendations+on+Cloud+Outsourcing+%28EBA-Rec-2017-03%29.pdf/5fa5cdde-3219-4e95-946d-0c0d05494362)의 개요를 만들었습니다.
 
 다음을 비롯하여 비즈니스 기능을 클라우드로 이동할 때 벨기에의 금융 기관에서 알아야 하는 몇 가지 요구 사항 및 지침이 있습니다.
 
@@ -66,9 +66,13 @@ NBB 및 FSMA는 "유럽 뱅킹 부문 전반에서 효과적이고 일관된 세
 
 아니요. 그러나, 금융 기관은 기관의 비즈니스 운영, 명성 또는 수익성 혹은 위험을 관리하는 능력이나 해당 법률과 규정을 준수할 능력에 상당한 영향을 미칠 가능성이 있는 아웃소싱의 준비에 지장이 있는 경우 NBB 및 FSMA에 통보해야 합니다.
 
-**클라우드 서비스 공급 업체와의 계약에 포함 해야 하는 필수 약관이 있나요?**
+**클라우드 서비스 공급자와의 계약에 포함해야 하는 필수 약관이 있나요?**
 
 예. 금융 기관이 클라우드 서비스 계약에 포함해야 하는 구체적 사항이 있습니다. [Microsoft 점검 목록](https://aka.ms/FinServ-Guide-Belgium)의 2부(49 페이지)는 이 사항들을 Microsoft 계약 문서에서 그들이 언급되는 섹션에 매핑을 합니다.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용하여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)의 기능입니다. 준수 관리자는 이 규제에 대한 평가를 빌드하기 위한 프리미엄 서식 파일을 제공합니다. 준수 관리자의 **평가 서식 파일** 페이지에서 서식 파일을 찾습니다. [준수 관리자의 평가 빌드](compliance-manager-assessments.md) 방법에 대해 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

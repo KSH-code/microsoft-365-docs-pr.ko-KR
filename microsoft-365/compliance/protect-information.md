@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: Microsoft 365 준수를 사용 하 여 기밀 (Microsoft Information Protection) 기능을 구현 하 여 중요 한 정보를 검색, 분류 및 보호 하는 데 도움이 됩니다.
-ms.openlocfilehash: f867391243302d0ce912ae5d740ed761ea7317b7
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: d69395523cb656d23e44b577f01338eb78c7b386
+ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131968"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277521"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Microsoft 365의 microsoft Information Protection
 
@@ -42,7 +42,7 @@ Microsoft 365 준수에는 밉 기능이 포함 되어 [있으므로 데이터�
 |:------|:------------|:--------------------|:-----------------------------|
 |[중요한 정보 유형](sensitive-information-type-entity-definitions.md)| 키워드, 신뢰 수준 및 근사를 포함 하는 적인 증거와 함께 기본 제공 또는 사용자 지정 정규식 또는 함수를 사용 하 여 중요 한 데이터를 식별 합니다.| [기본 제공 중요한 정보 유형 사용자 지정](customize-a-built-in-sensitive-information-type.md)|
 |[Trainable 분류자 (미리 보기)](classifier-learn-about.md)| 기본 제공 분류자 중 하나를 사용 하 여 데이터를 분류 하거나 사용자가 직접 콘텐츠를 사용 하 여 분류자를 교육 합니다. | [학습 가능한 분류자 시작(미리 보기)](classifier-get-started-with.md) |
-|[데이터 분류](data-classification-overview.md) | 민감도 레이블, 보존 레이블 또는 조직에서 중요 한 정보 유형으로 분류 된 항목 및 사용자가 작업을 수행 하는 동작을 식별 합니다.  | [콘텐츠 탐색기로 시작](data-classification-content-explorer.md)<br /><br /> [활동 탐색기 시작](data-classification-activity-explorer.md) |
+|[데이터 분류](data-classification-overview.md) | 민감도 레이블, 보존 레이블 또는 조직에서 중요 한 정보 유형으로 분류 된 항목 및 사용자가 작업을 수행 하는 동작을 식별 합니다.  | [콘텐츠 탐색기로 시작](data-classification-content-explorer.md)<br /><br /> [활동 탐색기로 시작](data-classification-activity-explorer.md) |
 
 ## <a name="protect-your-data"></a>사용자 데이터 보호
 
@@ -52,7 +52,7 @@ Microsoft 365 준수에는 밉 기능이 포함 되어 [있으므로 데이터�
 |:------|:------------|---------------------|:----------------------------|
 |[민감도 레이블](sensitivity-labels.md)| 조직 내부 및 외부에서 데이터를 이동 하 고 레이블을 지정 하는 응용 프로그램, 서비스 및 장치 간의 단일 솔루션 <br /><br />예제 시나리오: [POWER BI에서 민감도 레이블을 적용 및 확인 하 고 데이터를 내보낼 때 보호](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|[ 민감도 레이블 시작](get-started-with-sensitivity-labels.md) |
 |[Azure Information Protection 통합 레이블 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)| Windows 컴퓨터의 경우 파일 탐색기 및 PowerShell에서 모든 파일 형식을 레이블 지정 하 고 보호 하는 기능을 포함 하는 추가 기능에 대 한 민감도 레이블을 확장 합니다.<br /><br /> 추가 기능 예: [Azure Information Protection 통합 레이블 클라이언트에 대 한 사용자 지정 구성](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)| [Azure Information Protection 통합 레이블 클라이언트 관리자 가이드](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide)|
-|[이중 키 암호화](double-key-encryption.md)| 모든 상황에서 보호 된 콘텐츠를 암호 해독할 수도 있고 규정 요구 사항에 대 한 경우에는 지리적 경계 내에 암호화 키를 저장 해야 합니다. | [이중 암호화 배포](double-key-encryption.md#deploy-double-key-encryption)|
+|[이중 키 암호화](double-key-encryption.md)| 모든 상황에서 보호 된 콘텐츠를 암호 해독할 수도 있고 규정 요구 사항에 대 한 경우에는 지리적 경계 내에 암호화 키를 저장 해야 합니다. | [이중 암호화 배포](double-key-encryption.md)|
 |[Office 365 메시지 암호화](ome.md) (OME)| 모든 장치에서 임의의 사용자에 게 전송 되는 전자 메일 메시지 및 첨부 문서를 암호화 하 여, 인증 된 받는 사람만 전자 메일로 정보를 읽을 수 있도록 합니다.  <br /><br />예제 시나리오: [고급 메시지 암호화로 암호화 된 전자 메일 해지](revoke-ome-encrypted-mail.md) | [Office 365 메시지 암호화 시작](set-up-new-message-encryption-capabilities.md)|
 |[고객 키를 사용한 서비스 암호화](customer-key-overview.md) | 승인 되지 않은 시스템 또는 담당자의 데이터 보기를 보호 하 고 Microsoft 데이터 센터에서 BitLocker 디스크 암호화를 보완 합니다. | [Office 365의 고객 키 설정](customer-key-set-up.md)|
 |[SharePoint IRM (정보 권한 관리)](set-up-irm-in-sp-admin-center.md#irm-enable-sharepoint-document-libraries-and-lists)|사용자가 문서를 체크 아웃할 때 다운로드 된 파일이 보호 되므로 지정한 정책에 따라 권한 있는 사용자만 파일을 보고 사용할 수 있도록 SharePoint 목록과 라이브러리를 보호 합니다. | [Set up Information Rights Management (IRM) in SharePoint admin center](set-up-irm-in-sp-admin-center.md)|

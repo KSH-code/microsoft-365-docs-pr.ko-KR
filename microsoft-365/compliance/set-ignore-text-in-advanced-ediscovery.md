@@ -8,7 +8,7 @@ manager: laurawi
 titleSuffix: Office 365
 ms.date: 9/14/2017
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 44055727-56e8-42d7-9dc3-fb942f3901cc
 description: Advanced eDiscovery에서 Analyze 및 Process 모듈을 사용할 때 특정 텍스트를 무시 하는 규칙을 정의 하는 방법을 알아봅니다.
-ms.openlocfilehash: fd7b1f3236c88faf792a97146bbed35802f6c695
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: e167cc2877ca6e1ecb2b4ac896e2000b0441be59
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936895"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285854"
 ---
 # <a name="set-ignore-text-option-for-analyze-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 분석에 대 한 텍스트 무시 옵션 설정 (클래식)
 
@@ -36,13 +36,12 @@ ms.locfileid: "44936895"
 
 여러 Ignore 텍스트 필터는 입력 한 순서 대로 적용 됩니다. 적용 되는 순서를 변경 하려면 삭제 하 고 원하는 순서 대로 다시 입력 해야 합니다.
   
-예를 들어 텍스트 콘텐츠가 "DAVE BOB ALICE 고 전날" 인 경우 다음은 무시 텍스트 항목과 결과의 예입니다.
-  
-||||
-|:-----|:-----|:-----|
-|**텍스트 항목 무시** <br/> |**==\>** <br/> |**결과** <br/> |
-|"ALICE", "BOB의가을"  <br/> |==\>  <br/> |"DAVE 전날"  <br/> |
-|"ALICE", "BOB ALICE 고 대"  <br/> |==\>  <br/> |"DAVE BOB 고 전날"  <br/> |
+예를 들어 텍스트 콘텐츠가 "DAVE BOB ALICE 고 전날" 인 경우 다음은 무시 텍스트 항목과 이러한 항목이 산출 하는 결과에 대 한 예제입니다.
+
+|**텍스트 항목 무시** <br/> |**결과** <br/> |
+|:-----|:-----|
+|"ALICE", "BOB의가을"  <br/> |"DAVE 전날"  <br/> |
+|"ALICE", "BOB ALICE 고 대"  <br/> |"DAVE BOB 고 전날"  <br/> |
    
 첫 번째 무시 텍스트가 적용 된 후에 문자열이 검색 되지 않으므로 두 번째 Ignore 텍스트 항목은 구현 되지 않습니다.
   
@@ -90,7 +89,7 @@ ms.locfileid: "44936895"
     
     위의 부인 내용을 제거 하는 정규식은 다음과 같습니다. 
     
-    **\/\\*\\이 메시지에는 기밀 정보 \. (. | \s) \* 확인이 필요한 경우 하드 카피 버전 \. 을 요청 하세요.\/\\*\\**
+    **\/\\*\\ 이 메시지에는 기밀 정보 \. (. | \s) \* 확인이 필요한 경우 하드 카피 버전 \. 을 요청 하세요. \/\\*\\**
     
 - 정규식 규칙:
     

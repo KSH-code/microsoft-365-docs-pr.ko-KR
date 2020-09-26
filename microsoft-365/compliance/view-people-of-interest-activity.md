@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
 description: 관심 있는 사람을 위해 작업에 액세스 하 고 검색 하 여 조사에서 관심사 관리 도구의 데이터 조사 (미리 보기)를 사용 합니다.
-ms.openlocfilehash: 0c651a493356ded32ade5ae0a349f64b98d43542
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: e5369307894726c37d465fad6c29c1dac0e7391c
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434303"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285934"
 ---
 # <a name="view-the-audit-activity-of-people-of-interest"></a>관심 있는 사용자의 감사 작업 보기
 

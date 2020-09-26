@@ -1,5 +1,5 @@
 ---
-title: 검색 및 분석 설정 구성-eDiscovery
+title: 검색 및 분석 설정 구성-고급 eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,15 +16,15 @@ search.appverid:
 - MET150
 ms.assetid: ''
 ms.custom: seo-marvel-mar2020
-description: 사례에서 모든 검토 설정에 적용 되는 고급 eDiscovery 설정을 구성 합니다. 여기에는 분석 및 OCR에 대 한 설정이 포함 됩니다.
-ms.openlocfilehash: eb934146b065454b54d797e47f7a643b95be546d
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: 사례에서 모든 검토 설정에 적용 되는 고급 eDiscovery 설정을 구성 합니다. 여기에는 분석 및 광학 인식을 위한 설정이 포함 됩니다.
+ms.openlocfilehash: dfacab79f635a817b127614f524d00b0297981fb
+ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033678"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277085"
 ---
-# <a name="configure-search-and-analytics-settings"></a>검색 및 분석 설정 구성
+# <a name="configure-search-and-analytics-settings-in-advanced-ediscovery"></a>고급 eDiscovery에서 검색 및 분석 설정 구성
 
 각 고급 eDiscovery 사례에 대 한 설정을 구성 하 여 다음 기능을 제어할 수 있습니다.
 
@@ -84,7 +84,15 @@ ms.locfileid: "44033678"
 
 ## <a name="optical-character-recognition-ocr"></a>OCR (광학 문자 인식)
 
-이 설정을 사용 하도록 설정 하면 검토 집합에 추가 된 이미지 파일에서 OCR이 실행 되므로 이미지 텍스트를 검토, 검색, 태그 지정 및 분석할 수 있습니다. 검토 집합에서 선택한 이미지 파일의 텍스트 뷰어에서 추출한 텍스트를 볼 수 있습니다. 자세한 내용은 다음을 참조하세요.
+이 설정을 사용 하도록 설정 하면 이미지 파일에서 OCR 처리가 실행 됩니다. OCR 처리는 다음과 같은 상황에서 실행 됩니다.
+
+- Custodians 및 [비 custodial 데이터 원본이](non-custodial-data-sources.md) 사례에 추가 되는 경우 OCR 처리는 고급 인덱싱 프로세스 중에 수행 됩니다. 즉, 검색 조건과 일치 하는 이미지 파일의 텍스트가 컬렉션 검색에서 반환 됩니다.
+
+- Custodian에 연결 되지 않고 비 custodial 데이터 원본의 사례에 추가 되는 다른 데이터 원본의 콘텐츠가 검토 집합에 추가 되는 경우
+
+데이터를 검토 집합에 추가한 후에는 이미지 텍스트를 검토, 검색, 태그 지정 및 분석할 수 있습니다. 검토 집합에서 선택한 이미지 파일의 텍스트 뷰어에서 추출한 텍스트를 볼 수 있습니다. 자세한 내용은 다음을 참조하세요.
+
+- [보유자 데이터의 고급 인덱싱](indexing-custodian-data.md)
 
 - [검색 결과를 검토 집합에 추가](add-data-to-review-set.md#optical-character-recognition)
 

@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 관련성 워크플로에서 데이터 조사 (미리 보기)의 관련 워크플로 및 교육 단계에 대 한 설명을 사용 하 여 증거의 데이터를 분석 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 64bd0101fd2a0804da9e513241a97bc9f133880e
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: fcfe651402b123ac6ec918c4c8a7170c78e78bd3
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46528164"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286074"
 ---
 # <a name="use-the-relevance-module-to-analyze-data-in-evidence"></a>관련성 모듈을 사용 하 여 증거의 데이터 분석
 

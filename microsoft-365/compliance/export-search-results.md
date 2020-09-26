@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: '보안 & 준수 센터의 콘텐츠 검색에서 로컬 컴퓨터로 검색 결과를 내보냅니다. 전자 메일 결과를 PST 파일로 내보냅니다. SharePoint의 콘텐츠 및 비즈니스용 OneDrive 사이트는 기본 Office 문서로 내보내집니다. '
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 59b0d723c93bddd607c12172ee0fed81650a09b0
-ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
+ms.openlocfilehash: a809a5880a247c66cd96daf7ae44efea13c04704
+ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269603"
+ms.locfileid: "48277463"
 ---
 # <a name="export-content-search-results"></a>콘텐츠 검색 결과 내보내기
 
@@ -317,7 +317,7 @@ ms.locfileid: "48269603"
 
   ![eDiscovery 내보내기 도구](../media/eDiscoveryExportTool.png)
 
-  내보내기 키 상자를 클릭 하 고 키를 눌러 `CTRL + V` 붙여넣기 키를 누릅니다 (스크립트는 내보내기 키를 클립보드에 복사 하 여 상자에 붙여 넣을 수 있음). **찾아보기를** 클릭 하 여 검색 결과 파일을 다운로드 하려는 위치를 지정한 다음 다운로드를 시작 합니다.
+  내보내기 키 상자를 클릭 한 다음 키를 눌러 `CTRL + V` export 키를 붙여 넣습니다 (스크립트는 내보내기 키를 클립보드에 복사). **찾아보기를** 클릭 하 여 파일을 다운로드 하려는 위치를 지정한 다음 다운로드를 시작 합니다.
 
   앞에서 설명한 것 처럼 디스크 작업의 양이 많아 (읽기 및 쓰기), 검색 결과를 로컬 디스크 드라이브에 다운로드 하는 것이 좋습니다. 검색 결과를 매핑된 네트워크 드라이브 또는 다른 네트워크 위치로 다운로드 하지 않습니다.
 

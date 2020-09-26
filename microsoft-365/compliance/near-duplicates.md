@@ -14,15 +14,14 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
-description: 데이터 조사를 관리할 때는 사례 데이터를 분석할 때 근접 중복 검색을 사용 하 여 여러 사람에 게 유사한 문서를 그룹화 합니다.
+description: 데이터 조사를 관리할 때 거의 중복 검색을 사용 하 여 데이터 조사 (미리 보기)에서 증거를 분석할 때 유사한 문서를 그룹화 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: aa451051c008f7a1614661d3bd66129cac6bb4ad
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 37ce968016e674ec83da536c65361d2075cf9bbb
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036433"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285954"
 ---
 # <a name="near-duplicate-detection"></a>중복에 가까운 검색
 
