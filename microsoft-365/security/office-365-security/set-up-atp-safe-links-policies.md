@@ -17,24 +17,23 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: 안전한 링크 정책을 설정 하 여 Word, Excel, PowerPoint, Visio 파일 및 전자 메일 메시지의 악의적인 링크 로부터 조직을 보호 합니다.
-ms.openlocfilehash: 8c72473a9b1337e1d932ec7235ed12e79f0c48f6
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 76d0aba026b96251a64163ef7d7f518fe0b1e1b1
+ms.sourcegitcommit: e9f32675061cd1cf4a3e2dada393e10d7c552efe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201762"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48279580"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Office 365 ATP 안전한 링크 정책 설정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-
 > [!IMPORTANT]
 > 이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)이 있는 비즈니스 고객을 대상으로 합니다. Outlook의 안전한 링크에 대 한 정보를 검색 하는 개인 사용자는 [Advanced Outlook.com security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하십시오.
 
-[Atp 안전한 링크](atp-safe-links.md)( [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP)의 기능)는 피싱 및 기타 공격에 사용 되는 악의적인 링크 로부터 조직을 보호 하는 데 도움이 될 수 있습니다. [보안 & 준수 센터에 대 한 필요한 권한이](permissions-in-the-security-and-compliance-center.md)있는 경우 ATP 안전한 링크 정책을 설정 하 여 사용자가 웹 주소 (url)를 클릭할 때 조직이 보호 되는 것을 확인할 수 있습니다. Office 문서에서 전자 메일 및 Url의 url을 검색 하도록 ATP 안전한 링크 정책을 구성할 수 있습니다.
+[Atp Safe 링크](atp-safe-links.md) 는 피싱 및 기타 공격에 사용 되는 악의적인 링크 로부터 조직을 보호 하는 데 도움이 되는 [Office 365 ATP (Advanced Threat Protection](office-365-atp.md) )의 기능입니다. [보안 & 준수 센터에 대 한 필요한 권한이](permissions-in-the-security-and-compliance-center.md)있는 경우 ATP 안전한 링크 정책을 설정 하 여 사용자가 웹 주소 (url)를 클릭할 때 조직이 보호 되는 것을 확인할 수 있습니다. Office 문서에서 전자 메일 및 Url의 url을 검색 하도록 ATP 안전한 링크 정책을 구성할 수 있습니다. ATP Safe 링크는 알려진 악성 하이퍼링크 및 맬웨어가 포함 된 첨부 파일에 대해 들어오는 전자 메일을 검사 합니다. 이 기능은 스캔 한 Url을 Microsoft의 표준 URL 형식 접두사로 다시 씁니다 <https://nam01.safelinks.protection.outlook.com> . 링크를 다시 작성 하면 잠재적인 악성 콘텐츠를 분석 합니다. ATP Safe 링크를 사용 하도록 설정 하면 사용자가 전자 메일의 링크를 클릭 하 고 조직의 사용자 지정 차단 된 URL 목록에 의해 URL이 차단 되었거나 URL이 악성으로 확인 되는 경우 경고 페이지가 열립니다.
 
-ATP Safe 링크를 사용 하도록 설정 하면 사용자가 전자 메일의 링크를 클릭 하 고 조직의 사용자 지정 차단 된 URL 목록에 의해 URL이 차단 되었거나 URL이 악성으로 확인 되는 경우 경고 페이지가 열립니다.
+ATP 안전한 링크가 URL을 다시 쓴 후에 메시지를 전달 하거나 회신 하면 URL이 다시 기록 된 상태로 유지 됩니다. 회신 또는 전달 되는 메시지에 추가 된 추가 링크는 다시 쓰여지지 않습니다.
 
 [새 기능은 ATP에 계속 추가 됩니다](office-365-atp.md#new-features-in-office-365-atp). 새 기능을 추가 하면 기존 ATP 안전한 링크 정책을 조정 해야 할 수 있습니다.
 

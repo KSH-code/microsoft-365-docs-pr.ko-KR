@@ -7,12 +7,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 550f7dd35b3990a08da4c2bb9dd3042ff084b185
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+ms.openlocfilehash: 225cb8b74a50fa8308cc14e8ad35283e6a7aa044
+ms.sourcegitcommit: e9f32675061cd1cf4a3e2dada393e10d7c552efe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104403"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48279565"
 ---
 # <a name="register-new-devices-yourself"></a>직접 새 장치 등록
 
@@ -84,14 +84,14 @@ PowerShell 갤러리 웹 사이트에서 [Get-WindowsAutoPilotInfo.ps1](https://
 다음 단계를 따릅니다.
 
 1. **파일 업로드**에서 이전에 만든 CSV 파일의 경로를 제공 합니다.
-3. **장치 등록**을 선택 합니다. 시스템이 장치 **블레이드에서**장치 목록에 추가 되 고 **AutopilotRegistrationRequested**로 표시 됩니다. 등록은 일반적으로 10 분 미만이 걸리고, 성공적으로 완료 되 면 장치에 **사용자가** 사용할 준비가 된 것으로 표시 되 고 사용자가 사용을 시작할 때까지 대기 하 게 됩니다.
+3. **장치 등록**을 선택 합니다. 시스템은 장치를 디바이스 **블레이드에서**장치 목록에 추가 하 고 **등록 보류 중**으로 표시 합니다. 등록은 일반적으로 10 분 미만이 걸리고, 성공적으로 완료 되 면 장치에 **사용자가** 사용할 준비가 된 것으로 표시 되 고 사용자가 사용을 시작할 때까지 대기 하 게 됩니다.
 
 
 기본 페이지에서 장치 등록의 진행 상태를 모니터링할 수 있습니다. 다음과 같은 가능한 상태가 보고 됩니다.
 
 | 시/도 | 설명 |
 |---------------|-------------|
-| AutopilotRegistrationRequested | 등록이 아직 완료 되지 않았습니다. 나중에 다시 확인 합니다. |
+| 등록 보류 중 | 등록이 아직 완료 되지 않았습니다. 나중에 다시 확인 합니다. |
 | 등록 실패 | 등록을 완료할 수 없습니다. 자세한 내용은 [장치 등록 문제 해결](#troubleshooting-device-registration) 을 참조 하세요. |
 | 사용자 준비 | 등록을 완료 했으며 이제 장치를 사용자에 게 배달할 준비가 되었습니다. Microsoft Managed Desktop은 처음 설정할 때 가이드를 제공 하므로 추가 준비를 수행할 필요가 없습니다. |
 | 활성 | 장치가 사용자에 게 배달 되었으며 테 넌 트에 등록 되어 있습니다. 또한 장치를 정기적으로 사용 하는 것을 나타냅니다. |
