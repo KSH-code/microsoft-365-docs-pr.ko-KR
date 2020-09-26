@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 19a05cd9d9605904ad12e6f0d244d7cf0afce006
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 24820526b6ba58c82c2412ed3d0902eecb60b5b6
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417060"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208110"
 ---
 # <a name="personal-data-protection-act-pdpa-argentina"></a>PDPA(개인 데이터 보호법) 아르헨티나
 
@@ -27,7 +27,7 @@ ms.locfileid: "47417060"
 
 아르헨티나 국가 헌법에 따라 2000년에 [개인 데이터 보호법 25.326](http://www.jus.gob.ar/media/3201023/personal_data_protection_act25326.pdf)(PDPA)([Ley de Protección de los Datos Personales](http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/norma.htm))이 개인 데이터의 개인 정보를 보호하고 개인에게 공공 및 개인 데이터베이스 및 레지스트리에 저장된 모든 정보에 대한 액세스를 제공하기 위해 시행되었습니다. 내각부 장관 내 아르헨티나 공공 정보 접근 기관([Agencia de Acceso a la Información Pública, AAIP](https://www.argentina.gob.ar/aaip))은 이 법을 적용할 책임이 있습니다.
 
-PDPA는 데이터 개인 정보 보호를 위한 유럽 입법 모델과 일치하며 아르헨티나는 EU로부터 데이터 전송에 대한 "적절한" 자격을 획득한 최초의 라틴 아메리카 국가였습니다.
+PDPA는 데이터 개인 정보 보호를 위한 유럽 입법 모델과 일치하며 아르헨티나는 EU로부터 데이터 전송에 대한 ‘적절한’ 자격을 획득한 최초의 라틴 아메리카 국가였습니다.
 
 2016년에 AAIP는 개인 데이터의 국경 간 전송에 관한 새 규정인 [규정 60-E/2016](http://servicios.infoleg.gob.ar/infolegInternet/anexos/265000-269999/267922/norma.htm)(스페인)을 발표했습니다. 이 규정에 따라 데이터 컨트롤러와 데이터 프로세서로의 전송에 대한 모델 형식(일부 EU의 데이터 전송 모델을 기반으로 함)을 승인했습니다.
 
@@ -55,6 +55,10 @@ Microsoft 데이터 전송 계약은 온라인 서비스 약관의 데이터 처
 **GDPR은 개인 데이터 보호법을 어떻게 바꾸었나요?**
 
 2018년 말 아르헨티나는 아직 GDPR 관련 규정을 제정하지는 않았지만, 데이터 보호법을 GDPR에 맞추기 위해 새로운 데이터 보호 법안(이미 행정부에서 의회에 제출했고 하원에서 검토 중에 있음)을 작성했습니다. 데이터 주체의 정의 및 개인 정보의 차이점과 국경 간 전송에 대한 우려를 다룹니다.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용하여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)의 기능입니다. 준수 관리자는 이 규제에 대한 평가를 빌드하기 위한 프리미엄 서식 파일을 제공합니다. 준수 관리자의 **평가 서식 파일** 페이지에서 서식 파일을 찾습니다. [준수 관리자의 평가 빌드](compliance-manager-assessments.md) 방법에 대해 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

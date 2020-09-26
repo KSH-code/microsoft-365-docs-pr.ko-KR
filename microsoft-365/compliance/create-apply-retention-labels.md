@@ -17,16 +17,19 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들어서 게시한 후에 필요한 항목은 보존하고 필요하지 않은 항목은 삭제하도록 앱에 적용하기 위한 지침
-ms.openlocfilehash: 2394ee4534ef837488503aae2558964924b2de6b
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: 478a0d9952d8e8e33ef88926ba2415276338c193
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47816917"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198517"
 ---
 # <a name="create-retention-labels-and-apply-them-in-apps"></a>보존 레이블을 만들고 앱에 적용하기
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+
+> [!NOTE]
+> 이 시나리오는 [규제 기록](records-management.md#records)을 포함하여 모든 보존 레이블 구성에 대해 지원됩니다.
 
 다음 정보를 사용하여 [보존 레이블](retention.md)을 만들어서 게시한 다음 문서 및 전자 메일에 적용하는 데 도움을 받습니다.
 
@@ -68,7 +71,7 @@ ms.locfileid: "47816917"
     
     - 파일 계획 설명자에 대한 자세한 내용은 [파일 계획을 사용하여 보존 레이블 관리의 개요](file-plan-manager.md)를 참조하세요
     
-    - 보존 레이블을 사용하여 [레코드](records-management.md#records)를 선언하려면 옵션 **항목에 레코드로 표시를 설정**합니다.
+    - 보존 레이블을 사용하여 레코드를 선언하려면 **항목을 레코드로 표시**를 선택하거나 **항목을 규제 레코드로 표시**를 선택합니다. 자세한 정보는 [레코드를 선언하도록 보존 레이블 구성하기](declare-records.md#configuring-retention-labels-to-declare-records)를 참조하세요.
 
 3. 레이블을 만든 후에는 레이블을 게시하는 옵션이 표시되고, 레이블을 자동으로 적용하거나, 단지 레이블을 저장합니다. **지금 레이블을 저장**하고, 그 후 **완료**를 선택합니다.
 
