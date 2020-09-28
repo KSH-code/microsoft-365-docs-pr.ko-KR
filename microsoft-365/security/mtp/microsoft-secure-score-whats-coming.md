@@ -1,7 +1,7 @@
 ---
 title: Microsoft 보안 점수를 보내는 대상
 description: Microsoft 365 보안 센터에서 Microsoft 보안 점수에 제공 되는 새로운 변경 사항에 대해 설명 합니다.
-keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 점수, 보안 센터, 개선 작업
+keywords: microsoft 보안 점수, 보안 점수, office 365 보안 점수, microsoft 보안 점수, microsoft 365 보안 센터, 개선 작업
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 2d9d166c8e9fd16b09964c75a3b6bace05265120
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: e4a9e5f1606b91e4cd41f29b37db2707f4c7df17
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235469"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295085"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>Microsoft 보안 점수를 보내는 대상
 

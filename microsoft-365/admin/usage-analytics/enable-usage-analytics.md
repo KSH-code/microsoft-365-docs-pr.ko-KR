@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Power BI의 Microsoft 365 사용 현황 분석 서식 파일 앱을 사용 하 여 테 넌 트에 대 한 데이터 수집을 시작 하는 방법을 알아봅니다.
-ms.openlocfilehash: b5cb8df7fbe8ce1844d2af3ecaf62c7903d4e98b
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 1e59811d6812c6a9d68878f6766181e85efb668b
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527383"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295336"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석을 사용하도록 설정
 
@@ -86,9 +86,9 @@ Power BI가 아직 없는 경우 [POWER Bi Pro에 등록할](https://go.microsof
 
 6.  **연결**을 클릭 한 후 **Microsoft 365 Usage analytics에 연결** 화면에서 복사 하려는 테 넌 트 Id (1)를 입력 하 고 **다음**을 선택 합니다.
     
-7. 다음 화면에서 **인증 방법** 로그인으로 **Microsoft 계정을** 선택 합니다 \> **Sign in**. 다른 인증 방법을 선택 하는 경우에는 서식 파일 앱에 대 한 연결이 실패 하 게 됩니다.
+7. 다음 화면에서 **인증 방법** 로그인으로 **OAuth2** 을 선택 합니다 \> **Sign in**. 다른 인증 방법을 선택 하는 경우에는 서식 파일 앱에 대 한 연결이 실패 하 게 됩니다.
     
-    ![인증 방법으로 Microsoft 계정 선택](../../media/ab6f0463-c3f7-4088-a605-67c699fa86ad.png)
+    ![인증 방법으로 Microsoft 계정 선택](../../media/ab6f0463-c3f7-4088-a605-67c699fa86adnew.png)
   
 8. 서식 파일 앱이 인스턴스화되면 Microsoft 365 사용 현황 분석 대시보드를 웹의 Power BI에서 사용할 수 있습니다. 대시보드의 초기 로드는 2 ~ 30 분 정도 소요 됩니다.
   

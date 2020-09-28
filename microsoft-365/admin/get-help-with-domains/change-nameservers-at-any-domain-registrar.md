@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: 전자 메일 및 비즈니스용 Skype 온라인 등의 서비스에서 고유한 도메인 이름을 사용 하도록 Microsoft 365에서 도메인을 추가 및 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6a99ee90db3bb71038309175b32bd4d96097aa5a
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 34e4db5748f9d4c1f1864db09071374bcec73e1d
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662235"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295061"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>모든 도메인 등록 기관에서 Microsoft 365을 설정 하도록 이름 서버 변경
 
@@ -122,8 +122,8 @@ Microsoft 365에서 도메인 설정 마법사의 마지막 단계로 이동 하
 |:-----|:-----|
 |첫 번째 이름 서버  <br/> |ns1.bdm.microsoftonline.com  <br/> |
 |두 번째 이름 서버  <br/> |ns2.bdm.microsoftonline.com  <br/> |
-|세 번째 이름 서버  <br/> |ns2.bdm.microsoftonline.com  <br/> |
-|네 번째 이름 서버  <br/> |ns2.bdm.microsoftonline.com  <br/> |
+|세 번째 이름 서버  <br/> |ns3.bdm.microsoftonline.com  <br/> |
+|네 번째 이름 서버  <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
    > [!TIP]
    > 이 경우 4 개의 레코드를 모두 추가 하는 것이 가장 좋지만, 등록자는 2, add **ns1.bdm.microsoftonline.com** 및 **ns2.bdm.microsoftonline.com**만 지원 합니다. 

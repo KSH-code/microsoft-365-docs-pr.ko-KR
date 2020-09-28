@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: 그룹 및 해당 작업에 대해 알아야 하는 Microsoft 365 groups 보고서를 가져옵니다.
-ms.openlocfilehash: 1d329efa4fe7cdf12b6c7452b6480d237fb3d5c1
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: b45582388103e843e2893cfceb9aa1106cb9ce76
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948991"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295097"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>관리 센터의 microsoft 365 보고서-Microsoft 365 그룹
 
@@ -37,8 +37,8 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
 
 1. 관리 센터에서 **보고서** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> 페이지를 참조하세요.
 
-    
-2. **보고서 선택** 드롭다운에서 **Office 365** \> **그룹 활동**을 선택 합니다.
+2. 옵션에서 **활성 사용자-Microsoft 365 서비스**아래의 **자세히 보기** 를 선택 합니다.
+3. **보고서 선택** 드롭다운에서 **Office 365** \> **그룹 활동**을 선택 합니다.
   
 ## <a name="interpret-the-groups-report"></a>그룹 보고서 해석
 
@@ -61,4 +61,3 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
 |11  <br/> |**내보내기** 링크를 선택 하 여 보고서 데이터를 Excel .csv 파일로 내보낼 수도 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다.  <br/> |
 |||
    
-

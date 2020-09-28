@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 네트워크 연결 테스트 도구 (미리 보기)
-ms.openlocfilehash: 72f42a71ec44d165a24187edaf03aa62d330479b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 2be48f42c8529334b55b311e6f202d9f3b25ff9e
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200820"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295529"
 ---
 # <a name="microsoft-365-network-connectivity-test-tool-preview"></a>Microsoft 365 네트워크 연결 테스트 도구 (미리 보기)
 
@@ -205,7 +205,7 @@ SharePoint 서비스 전면 도어에서 15Mb 파일의 다운로드 속도를 �
 
 클라이언트에서 Microsoft 팀 서비스 전면 도어로 10 초의 두 번째 테스트 오디오 호출로 측정 된 UDP 패킷 손실을 보여 줍니다. 이는 패스의 **1.00%** 보다 작아야 합니다.
 
-### <a name="latency"></a>대기 시간
+#### <a name="latency"></a>대기 시간
 
 측정 된 UDP 대기 시간 ( **적고 100 밀리초**미만 이어야 함)을 표시 합니다.
 

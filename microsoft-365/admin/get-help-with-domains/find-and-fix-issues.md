@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: DNS 레코드가 올바르게 설정 되어 있는지 확인 하 여 사용자 지정 도메인을 설정 하는 동안 실행 한 문제를 추적 하는 방법을 설명 합니다.
-ms.openlocfilehash: 0a315be243395940146479e05de2c7044a5a36ab
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 8d46d681e44a0bebd0a9571d18ffa95e1e554dc8
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560254"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295049"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records"></a>도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결
 
@@ -98,4 +98,9 @@ DNS 문제를 해결한 경우에도 여전히 문제가 있는 경우 다음 �
 - 다른 사용자가 www.mydomain.com의 내 웹 사이트에 연결할 수 없는 경우: [웹 사이트 문제 추적](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)
     
 - 웹 사이트를 가리키도록 A 레코드 또는 CNAME 레코드를 업데이트할 수 없음: [Microsoft 365에서 사용자 지정 DNS 레코드 업데이트](../dns/add-or-edit-custom-dns-records.md)
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[문제 해결: 확인 된 도메인 변경 시 데이터 감사](https://docs.microsoft.com/azure/active-directory/reports-monitoring/troubleshoot-audit-data-verified-domain)
+
     

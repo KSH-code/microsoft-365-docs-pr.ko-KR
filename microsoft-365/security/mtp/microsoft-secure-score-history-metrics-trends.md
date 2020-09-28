@@ -1,7 +1,7 @@
 ---
 title: Microsoft 보안 점수 기록 및 목표를 충족 하는 추적
-description: 보안 점수에 영향을 받는 활동에 대 한 정보를 습득 합니다. 추세를 파악 하 고 목표를 설정 합니다.
-keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 점수, 보안 센터, 개선 작업
+description: Microsoft 보안 점수에 영향을 받은 활동에 대 한 정보를 습득 합니다. 추세를 파악 하 고 목표를 설정 합니다.
+keywords: microsoft 보안 점수, 보안 점수, office 365 보안 점수, microsoft 보안 점수, microsoft 365 보안 센터, 개선 작업
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 6c31ea1f7217babd4949bee843b091bb767e210e
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 4f5d0a59372fb32b2802a094c247e45740ba3946
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196292"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295253"
 ---
 # <a name="track-your-microsoft-secure-score-history-and-meet-goals"></a>Microsoft 보안 점수 기록 및 목표를 충족 하는 추적
 

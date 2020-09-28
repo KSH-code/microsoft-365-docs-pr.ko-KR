@@ -1,7 +1,7 @@
 ---
 title: Microsoft 보안 점수의 새로운 기능
 description: Microsoft 365 보안 센터에서 Microsoft 보안 점수에 대 한 새로운 변경 사항에 대해 설명 합니다.
-keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 점수, 보안 센터, 개선 작업
+keywords: microsoft 보안 점수, 보안 점수, office 365 보안 점수, microsoft security 점수, microsoft 365 보안 센터
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: b85b8b801401c7f067de6a8a7d5ea96557225c44
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 964724ad92c1ae29095b7368167b771b1632b003
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196280"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295073"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Microsoft 보안 점수의 새로운 기능
 

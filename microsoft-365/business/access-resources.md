@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Azure Active Directory에 연결된 Windows 10 장치의 LOB(기간 업무) 앱, 파일 공유 및 프린터와 같은 온-프레미스 리소스에 액세스하는 방법을 알아봅니다.
-ms.openlocfilehash: 9b83781afee746b06bbdf90962de0f55ffbcb118
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 2144268f5cbab67c39d5902622c61c0c35e6481c
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307496"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295313"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Microsoft 365 Business Premium의 Azure AD에 가입 된 장치에서 온-프레미스 리소스에 액세스
 
@@ -36,9 +36,6 @@ Azure Active Directory에 가입 된 모든 Windows 10 장치에는 Microsoft 36
 
 자세한 내용은 [Azure Active Directory에서 장치 관리 소개](https://docs.microsoft.com/azure/active-directory/device-management-introduction)를 참조하세요.
 다음 섹션에서도 단계는 요약되어 있습니다.
-
-> [!IMPORTANT]
-> 이 절차는 OAuth와 NTLM에만 적용됩니다. Kerberos는 지원되지 않습니다.
  
 ## <a name="run-azure-ad-connect"></a>Azure AD Connect를 실행합니다.
 

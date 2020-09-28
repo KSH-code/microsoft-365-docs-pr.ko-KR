@@ -17,12 +17,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Office 365 VPN 분할 터널링 구현 방법
-ms.openlocfilehash: af5c2ea35df921abe8eaa9a85ab2ab244931c098
-ms.sourcegitcommit: 4ee683c18442386f6fc5c76ffabfad2c28b81d42
+ms.openlocfilehash: ff79138d44c98d76af1a3d9c374159b0fae4c7ed
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48214875"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295277"
 ---
 # <a name="implementing-vpn-split-tunneling-for-office-365"></a>Office 365 VPN 분할 터널링 구현
 
@@ -325,6 +325,10 @@ Azure Virtual Network에 대한 직접 액세스를 허용하는 방법에 대�
 ### <a name="does-this-advice-apply-to-users-in-china-using-a-worldwide-instance-of-office-365"></a>이 권고는 Office 365 월드와이드 인스턴스를 사용하는 중국 사용자에게 적용되나요?
 
 **아니요**, 적용되지 않습니다. 위 권고가 해당되는 대상은 Office 365 월드와이드 인스턴스에 연결하는 PRC 사용자입니다. 이 지역은 국경 간 네트워크 혼잡이 자주 발생하기 때문에 직접 인터넷 송신 성능이 변할 수 있습니다. 이 지역의 대부분의 고객은 VPN을 사용하여 트래픽을 회사 네트워크로 가져오고 승인된 MPLS 회로 등을 사용하여 최적화된 경로를 통해 국가 외부로 송신합니다. 이에 대한 자세한 내용은 [중국 사용자를 위한 Office 365 성능 최적화](microsoft-365-networking-china.md) 문서에 나와 있습니다.
+
+### <a name="does-split-tunnel-configuration-work-for-teams-running-in-a-browser"></a>브라우저에서 실행 되는 팀에 대 한 분할 터널 구성 작업을 수행 합니까?
+
+**아니요**, 적용되지 않습니다. 이는 Microsoft 팀 클라이언트 버전 1.3.00.13565 이상 에서만 작동 합니다. 이 버전에는 클라이언트가 사용 가능한 네트워크 경로를 감지 하는 방식이 개선 되었습니다.
 
 ## <a name="related-topics"></a>관련 항목
 

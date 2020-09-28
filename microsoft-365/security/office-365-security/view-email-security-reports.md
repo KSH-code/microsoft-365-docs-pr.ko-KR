@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 조직의 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 & 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 588c30ca07684636661c7946b2418b75574c8cbd
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: b26dd18754a96d1879a2f57ae9742ae1d1a36ce4
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199220"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295541"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>보안 및 준수 센터의 전자 메일 보안 보고서 보기
 
@@ -364,8 +364,13 @@ ms.locfileid: "48199220"
 **필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.
 
 - **시작 날짜** 및 **끝 날짜**
-- 검색 값
-- **보호** (OFFICE 365 ATP만 해당): **ATP** 또는 **EOP**. 이 필터링 가능 속성은 **데이터 보기: 콘텐츠 \> 맬웨어로부터**사용할 수 없습니다.
+- **감지**
+- **Protected by**: **ATP** 또는 **EOP**
+- **Tag**: 태그를 기준으로 필터링 하 여 특정 태그가 적용 된 사용자 또는 그룹을 반환 합니다. 사용자 태그에 대 한 자세한 내용은 [user tags](https://docs.microsoft.com/microsoft-365/security/office-365-security/user-tags?view=o365-worldwide)를 참조 하십시오.
+- **도메인**
+
+> [!NOTE]
+> **Protected by**, **Tag** 및 **Domain** 은 Office 365 ATP 전용입니다. 이 필터링 가능한 속성은 **데이터 보기: 콘텐츠 \> 맬웨어를 통해**사용할 수 없습니다.
 
 ### <a name="details-table-view-for-the-threat-protection-status-report"></a>위협 보호 상태 보고서에 대 한 세부 정보 테이블 보기
 
@@ -378,7 +383,12 @@ ms.locfileid: "48199220"
   - **보낸 사람**
   - **맬웨어 이름**
 
-- **데이터 보기 기준: 개요**: **뷰 정보 테이블** 단추를 사용할 수 없습니다.
+이 보기에서 **필터** 를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.
+
+- **시작 날짜** 및 **끝 날짜**
+- **감지**
+
+**데이터 보기 기준: 개요**: **뷰 정보 테이블** 단추를 사용할 수 없습니다.
 
 - 기타 모든 차트:
 
@@ -389,12 +399,16 @@ ms.locfileid: "48199220"
   - **검색 기준**
   - **배달 상태**
   - **손상 원본**
+  - **태그**
 
 **필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.
 
 - **시작 날짜** 및 **끝 날짜**
-- 검색 값
-- **보호** (OFFICE 365 ATP만 해당): **ATP** 또는 **EOP**. 이 필터링 가능 속성은 **데이터 보기: 콘텐츠 \> 맬웨어로부터**사용할 수 없습니다.
+- **감지**
+- **보호** (OFFICE 365 ATP만 해당): **ATP** 또는 **EOP**
+- **Tag**: 태그를 기준으로 필터링 하 여 특정 태그가 적용 된 사용자 또는 그룹을 반환 합니다. 사용자 태그에 대 한 자세한 내용은 [user tags](https://docs.microsoft.com/microsoft-365/security/office-365-security/user-tags?view=o365-worldwide)를 참조 하십시오.
+- **도메인**
+- **받는 사람** (이 필터링 가능한 속성은 세부 정보 테이블 보기 에서만 사용 가능)
 
 ## <a name="top-malware-report"></a>주요 맬웨어 보고서
 

@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Office 365 E3에서 Microsoft 365 Business Premium로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: d72f0c52a745ff973868b6fdaa95efa1a37a3dbd
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+ms.openlocfilehash: f3f3894a2a5cb69f9f91825d89db4f4b857fac5c
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785931"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295293"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Office 365 E3에서 Microsoft 365 Business Premium으로 마이그레이션 
 
@@ -80,7 +80,7 @@ Microsoft 365 Business Premium에는 최고급 비즈니스에 필요한 모든 
 - 팀, Exchange Online 사서함, SharePoint Online 사이트, 비즈니스용 OneDrive 폴더, OneNote 전자 필기장 등의 생산성 서비스 구성 및 데이터
 - Office 응용 프로그램은 자동으로 확장 됩니다. Office 365 최신 라이선스는 매 72 시간 마다 사용자의 라이선스 할당을 확인 하 고 Office 응용 프로그램을 사용자 구독과 일치 하는 버전으로 변환 합니다.
 
-### <a name="windows-10"></a>Windows 10
+### <a name="windows-10"></a>Windows 10
 
 Windows Pro Creator update가 아직 없는 경우 windows [Pro 크리에이터 업데이트로 업그레이드](upgrade-to-windows-pro-creators-update.md)합니다.
 
@@ -114,6 +114,11 @@ Microsoft 365 Business Premium에 라이선스를 할당 한 후에는 사용자
   - Windows 장치에 대 한 단계는 [Microsoft 365 Business Premium 사용자 용 Windows 장치 설정을](set-up-windows-devices.md) 참조 하세요. 
     
   - Android 휴대폰 및 Iphone에 대 한 단계는 [Microsoft 365 Business Premium 사용자를 위한 모바일 장치 설정을](set-up-mobile-devices.md) 참조 하세요. 
+  
+### <a name="mailbox-size"></a>사서함 크기
+
+Microsoft 365 Business Premium은 Exchange Online 계획 1을 사용 하므로 50 GB 저장소 제한이 있습니다. Microsoft 365 Business Premium로 마이그레이션하는 동안 사용자가 50 GB의 사서함 저장소를 초과 하는 경우에는이 사용자에 게 Exchange Online 계획 2를 할당 하 고 Exchange Online 계획 1을 제거 하는 것이 두 가지 방법 모두를 할당 하는 것이 불가능 하므로이를 사용 하는 것이 좋습니다.
+
 
 ### <a name="threat-protection"></a>위협 방지
 
