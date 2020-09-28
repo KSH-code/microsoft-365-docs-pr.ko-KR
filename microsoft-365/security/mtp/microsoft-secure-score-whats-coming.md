@@ -1,7 +1,7 @@
 ---
 title: Microsoft 보안 점수를 보내는 대상
 description: Microsoft 365 보안 센터에서 Microsoft 보안 점수에 제공 되는 새로운 변경 사항에 대해 설명 합니다.
-keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 점수, 보안 센터, 개선 작업
+keywords: microsoft 보안 점수, 보안 점수, office 365 보안 점수, microsoft 보안 점수, microsoft 365 보안 센터, 개선 작업
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -17,30 +17,30 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 2d9d166c8e9fd16b09964c75a3b6bace05265120
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: e4a9e5f1606b91e4cd41f29b37db2707f4c7df17
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235469"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295085"
 ---
-# <a name="whats-coming-to-microsoft-secure-score"></a><span data-ttu-id="b81c3-104">Microsoft 보안 점수를 보내는 대상</span><span class="sxs-lookup"><span data-stu-id="b81c3-104">What's coming to Microsoft Secure Score</span></span>
+# <a name="whats-coming-to-microsoft-secure-score"></a><span data-ttu-id="c8a2a-104">Microsoft 보안 점수를 보내는 대상</span><span class="sxs-lookup"><span data-stu-id="c8a2a-104">What's coming to Microsoft Secure Score</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="b81c3-105">[Microsoft 보안 점수가](microsoft-secure-score.md) 보안 환경을 보다 효율적으로 지원 하 고 유용성이 향상 되도록 하기 위해 곧 향후 몇 가지 사항을 변경 하 고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b81c3-105">We're making some changes in the near future to make [Microsoft Secure Score](microsoft-secure-score.md) a better representative of your security posture and improve usability.</span></span> <span data-ttu-id="b81c3-106">점수 및 가능한 최대 점수가 변경 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b81c3-106">Your score and the maximum possible score may change.</span></span>
+<span data-ttu-id="c8a2a-105">[Microsoft 보안 점수가](microsoft-secure-score.md) 보안 환경을 보다 효율적으로 지원 하 고 유용성이 향상 되도록 하기 위해 곧 향후 몇 가지 사항을 변경 하 고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c8a2a-105">We're making some changes in the near future to make [Microsoft Secure Score](microsoft-secure-score.md) a better representative of your security posture and improve usability.</span></span> <span data-ttu-id="c8a2a-106">점수 및 가능한 최대 점수가 변경 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c8a2a-106">Your score and the maximum possible score may change.</span></span>
 
-## <a name="proposed-changes"></a><span data-ttu-id="b81c3-107">제안된 변경 내용</span><span class="sxs-lookup"><span data-stu-id="b81c3-107">Proposed changes</span></span>
+## <a name="proposed-changes"></a><span data-ttu-id="c8a2a-107">제안된 변경 내용</span><span class="sxs-lookup"><span data-stu-id="c8a2a-107">Proposed changes</span></span>
 
-### <a name="october-2020"></a><span data-ttu-id="b81c3-108">10 월 2020</span><span class="sxs-lookup"><span data-stu-id="b81c3-108">October 2020</span></span>
+### <a name="october-2020"></a><span data-ttu-id="c8a2a-108">10 월 2020</span><span class="sxs-lookup"><span data-stu-id="c8a2a-108">October 2020</span></span>
 
-#### <a name="remove-improvement-action-for-microsoft-defender-advanced-threat-protection"></a><span data-ttu-id="b81c3-109">Microsoft Defender Advanced Threat Protection에 대 한 개선 작업 제거</span><span class="sxs-lookup"><span data-stu-id="b81c3-109">Remove improvement action for Microsoft Defender Advanced Threat Protection</span></span>
-- <span data-ttu-id="b81c3-110">Microsoft Defender SmartScreen Windows 스토어 앱 웹 콘텐츠 검사를 설정 하 여 경고 표시</span><span class="sxs-lookup"><span data-stu-id="b81c3-110">Set Microsoft Defender SmartScreen Windows Store app web content checking to warn</span></span>
+#### <a name="remove-improvement-action-for-microsoft-defender-advanced-threat-protection"></a><span data-ttu-id="c8a2a-109">Microsoft Defender Advanced Threat Protection에 대 한 개선 작업 제거</span><span class="sxs-lookup"><span data-stu-id="c8a2a-109">Remove improvement action for Microsoft Defender Advanced Threat Protection</span></span>
+- <span data-ttu-id="c8a2a-110">Microsoft Defender SmartScreen Windows 스토어 앱 웹 콘텐츠 검사를 설정 하 여 경고 표시</span><span class="sxs-lookup"><span data-stu-id="c8a2a-110">Set Microsoft Defender SmartScreen Windows Store app web content checking to warn</span></span>
 
-## <a name="related-resources"></a><span data-ttu-id="b81c3-111">관련 리소스</span><span class="sxs-lookup"><span data-stu-id="b81c3-111">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="c8a2a-111">관련 리소스</span><span class="sxs-lookup"><span data-stu-id="c8a2a-111">Related resources</span></span>
 
-- [<span data-ttu-id="b81c3-112">Microsoft 보안 점수 개요</span><span class="sxs-lookup"><span data-stu-id="b81c3-112">Microsoft Secure Score overview</span></span>](microsoft-secure-score.md)
-- [<span data-ttu-id="b81c3-113">보안 상태 평가</span><span class="sxs-lookup"><span data-stu-id="b81c3-113">Assess your security posture</span></span>](microsoft-secure-score-improvement-actions.md)
-- [<span data-ttu-id="b81c3-114">Microsoft 보안 점수 기록 및 목표를 충족 하는 추적</span><span class="sxs-lookup"><span data-stu-id="b81c3-114">Track your Microsoft Secure Score history and meet goals</span></span>](microsoft-secure-score-history-metrics-trends.md)
-- [<span data-ttu-id="b81c3-115">새로운 기능</span><span class="sxs-lookup"><span data-stu-id="b81c3-115">What's new</span></span>](microsoft-secure-score-whats-new.md)
+- [<span data-ttu-id="c8a2a-112">Microsoft 보안 점수 개요</span><span class="sxs-lookup"><span data-stu-id="c8a2a-112">Microsoft Secure Score overview</span></span>](microsoft-secure-score.md)
+- [<span data-ttu-id="c8a2a-113">보안 상태 평가</span><span class="sxs-lookup"><span data-stu-id="c8a2a-113">Assess your security posture</span></span>](microsoft-secure-score-improvement-actions.md)
+- [<span data-ttu-id="c8a2a-114">Microsoft 보안 점수 기록 및 목표를 충족 하는 추적</span><span class="sxs-lookup"><span data-stu-id="c8a2a-114">Track your Microsoft Secure Score history and meet goals</span></span>](microsoft-secure-score-history-metrics-trends.md)
+- [<span data-ttu-id="c8a2a-115">새로운 기능</span><span class="sxs-lookup"><span data-stu-id="c8a2a-115">What's new</span></span>](microsoft-secure-score-whats-new.md)
