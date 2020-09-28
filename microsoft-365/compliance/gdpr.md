@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cd17ac35c732189fe8699d75ceb054cc4c900364
-ms.sourcegitcommit: eb3c30d53a5434d8bad7c8f48a5612f3e2675945
+ms.openlocfilehash: a1c04718c1ebb798319a83155a6c70f72b0847de
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422456"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208814"
 ---
 # <a name="general-data-protection-regulation-summary"></a>일반 데이터 보호 규정 요약
 
@@ -56,6 +56,10 @@ GDPR 표준을 충족하기 위해 다음과 같은 작업이 수행됩니다. �
 - **[DPIA(데이터 보호 영향 평가)](gdpr-data-protection-impact-assessments.md)**. 데이터 컨트롤러는 GDPR에 따라 ‘자연인의 권리와 자유에 대한 높은 위험을 초래할 가능성이 있는’ 데이터 작업에 대해 DPIA를 준부해야 합니다.
 
 위에서 설명한 것처럼, GDPR의 권장 실행 계획 및 책임 준비 상태 검사 목록은 Microsoft 제품 및 서비스를 사용하여 GDPR 준수을 구현하거나 평가하기 위한 지침을 제공합니다.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용하여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)의 기능입니다. 준수 관리자는 Enterprise E5 고객에게 이 규제에 대해 사전에 빌드된 평가를 제공합니다. 준수 관리자의 **평가 서식 파일** 페이지에서 평가 빌드를 위한 서식 파일을 찾습니다. [준수 관리자의 평가 빌드](compliance-manager-assessments.md) 방법에 대해 알아봅니다.
 
 ## <a name="data-subject-request-dsr"></a>DSR(데이터 주체 요청)
 
@@ -180,7 +184,7 @@ Microsoft에는 사용자에게 즉시 알리기 위한 정책 및 절차가 구
 
 ## <a name="accountability-readiness-checklists-for-the-gdpr"></a>GDPR에 대한 책임 준비 상태 검사 목록
 
-이러한 [검사 목록](gdpr-arc.md)은 Microsoft 제품 사용 시 GDPR을 지원하는 데 필요할 수 있는 정보에 편리하게 액세스할 수 있습니다. GDPR 타일의 고객 관리 컨트롤에서 컨트롤 ID 및 컨트롤 제목을 참조하여 [준수 점수](compliance-score.md)를 통해 이 검사 목록의 항목을 관리할 수 있습니다.
+이러한 [검사 목록](gdpr-arc.md)은 Microsoft 제품 사용 시 GDPR을 지원하는 데 필요할 수 있는 정보에 편리하게 액세스할 수 있습니다. GDPR 타일의 고객 관리 컨트롤에서 컨트롤 ID 및 컨트롤 제목을 참조하여 [준수 관리자](compliance-manager.md)를 통해 이 검사 목록의 항목을 관리할 수 있습니다.
 
 ## <a name="gdpr-faqs"></a>GDPR FAQ
 

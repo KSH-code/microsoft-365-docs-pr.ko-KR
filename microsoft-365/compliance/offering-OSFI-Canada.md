@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4250d2d79bb00c4179e39969ad992011d3fc2d4f
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: b22eebd00ee168f576a673f74ce0a39d250f9542
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417872"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208250"
 ---
 # <a name="office-of-the-superintendent-of-financial-institutions-osfi-canada"></a>Office of the Superintendent of Financial Institution(금융감독원:OSFI) 캐나다
 
@@ -66,6 +66,10 @@ ms.locfileid: "47417872"
 **클라우드 서비스 공급 업체와의 계약에 포함 해야 하는 필수 약관이 있나요?**
 
 예. 하지만 중요한 아웃소싱 계획의 경우나 아웃소싱에 개인 정보의 클라우드 서비스 공급업체로의 이동이 포함된 경우에만 해당됩니다.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용하여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)의 기능입니다. 준수 관리자는 이 규제에 대한 평가를 빌드하기 위한 프리미엄 서식 파일을 제공합니다. 준수 관리자의 **평가 서식 파일** 페이지에서 서식 파일을 찾습니다. [준수 관리자의 평가 빌드](compliance-manager-assessments.md) 방법에 대해 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

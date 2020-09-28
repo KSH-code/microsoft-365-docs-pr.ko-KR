@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8c87d00e76ac71be3527e9db741aea6ee7a741f4
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: d57c725f471e5197f269270eca19c863a7f79555
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417312"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208630"
 ---
 # <a name="content-delivery--security-association-cdsa-content-protection--security-cps-standard"></a>CDSA(Content Delivery & Security Association) CPS(Content Protection & Security) 표준
 
@@ -67,6 +67,10 @@ Microsoft는 CDSA CPS 인증 6개월 갱신을 성공적으로 완료했으며, 
 **우리 회사의 인증 프로세스에 Microsoft 규정 준수를 사용할 수 있나요?**
 
 예. Azure의 보안 및 암호화 기능을 사용하여 Azure CPS 인증에 기초하여 고유의 CPS 인증을 획득할 수 있습니다.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용하여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)의 기능입니다. 준수 관리자는 이 규제에 대한 평가를 빌드하기 위한 프리미엄 서식 파일을 제공합니다. 준수 관리자의 **평가 서식 파일** 페이지에서 서식 파일을 찾습니다. [준수 관리자의 평가 빌드](compliance-manager-assessments.md) 방법에 대해 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

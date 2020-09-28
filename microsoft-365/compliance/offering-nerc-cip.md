@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7001a17af7932a7aafa7cceac207b772b42b55d9
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 9d1f259894fff720452de52c45424f086a31a6bb
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417166"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208180"
 ---
 # <a name="north-american-electric-reliability-corporation-nerc"></a>North American Electric Reliability Corporation(북미전력안정성회사:NERC)
 
@@ -80,6 +80,10 @@ NERC CIP 표준의 적용을 받는 데이터 및 작업에 대한 Azure 및 Azu
 NERC [CIP 표준](https://www.nerc.com/pa/Stand/Reliability%20Standards%20Complete%20Set/RSCompleteSet.pdf) 및 [용어 사전](https://www.nerc.com/pa/Stand/Glossary%20of%20Terms/Glossary_of_Terms.pdf)에서 설명하듯이 BES 사이버 자산은 BES의 실시간 모니터링 또는 컨트롤 기능을 수행하고 장애가 발생하는 경우 15분 내에 BES의 안정적 운영에 영향을 줍니다. 클라우드 컴퓨팅에서 BES 사이버 자산과 보호 되는 사이버 자산을 제대로 활용하려면 NERC CIP 표준에 있는 기존의 정의를 [수정할 필요가 있습니다](https://www.nerc.com/pa/Stand/Pages/Project%202016-02%20Modifications%20to%20CIP%20Standards.aspx). 그러나 CIP의 중요한 데이터를 처리하는 작업 부하가 많고 이들은 BES 사이버 시스템 정보(BCSI)의 광범위한 범주를 포함하여 15분 규칙의 적용을 받지 않습니다.
 
 NERC ERO Enterprise는 지정된 BCSI 저장소 위치로의 액세스와 등록된 개체가 구현한 모든 컨트롤을 승인하는 등록된 개체의 프로세스를 평가 시 ERO Enterprise CMEP 직원에 지침을 제공하기 위해 규정 준수 모니터링 및 적용 프로그램(CMEP) [연습 가이드](https://www.nerc.com/pa/comp/guidance/CMEPPracticeGuidesDL/ERO%20Enterprise%20CMEP%20Practice%20Guide%20_%20BCSI%20-%20v0.2%20CLEAN.pdf)를 [발행했습니다](https://www.nerc.com/pa/comp/guidance/Pages/default.aspx). 추가로 NERC는 Azure 컨트롤 구현의 세부 정보와 NERC CIP-004-6 및 BCSI에 적용되는 CIP-011-2 표준과 관련된 FedRAMP 감사 증거를 검토하였습니다. 등록된 개체의 데이터 암호화를 확인하기 위한 ERO에서 발행한 연습 가이드와 검토된 FedRAMP 컨트롤에 기반하여 등록된 개체가 BCSI 및 관련 작업을 클라우드에 배포하는데 추가적 지침이나 설명은 필요하지 않습니다. 그러나 등록된 개체는 고유의 사실와 상황에 따라 NERC CIP 표준의 준수에 대해 최종적으로 책임이 있습니다.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용하여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)의 기능입니다. 준수 관리자는 이 규제에 대한 평가를 빌드하기 위한 프리미엄 서식 파일을 제공합니다. 준수 관리자의 **평가 서식 파일** 페이지에서 서식 파일을 찾습니다. [준수 관리자의 평가 빌드](compliance-manager-assessments.md) 방법에 대해 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

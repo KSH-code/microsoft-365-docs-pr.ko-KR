@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 3d5bf971f65be5fd6ef4fdbed46cc41827657a54
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: d8b9ff7bea32f489a5cce5f64626908e8ec56fa1
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132138"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197341"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -31,6 +31,7 @@ ms.locfileid: "48132138"
 대부분의 조직에서는 전자 메일, 문서, 인스턴트 메시지 등을 비롯하여 데이터의 양과 복잡성이 계속해서 매일 증가하고 있습니다. 이러한 정보를 효과적으로 관리하거나 제어하는 일은 다음 작업을 수행해야 하므로 중요합니다.
   
 - 최소 기간 동안 콘텐츠를 보존하도록 요구하는 **산업 규정 및 내부 정책을 사전에 준수**합니다. 예를 들어 Sarbanes-Oxley Act는 7년 동안 특정 유형의 콘텐츠를 보존하도록 요구할 수 있습니다. 
+
 - **소송 또는 보안 위반 시 위험 감소** - 더 이상 보존할 필요가 없는 오래된 콘텐츠를 영구적으로 삭제 
     
 - **조직에서 효과적이면서 좀 더 민첩하게 지식을 공유하도록 지원** - 사용자가 관련이 있는 최신 콘텐츠만 사용하도록 합니다. 
@@ -58,7 +59,7 @@ ms.locfileid: "48132138"
 
 - Exchange 사서함의 경우: **복구 가능한 항목** 폴더에 사본이 보존됩니다. 
 
-- Teams 채널 및 채팅 메시지의 경우: 사본은 Exchange **복구 가능한 항목** 폴더 내에 하위 폴더로 **SubstrateHolds**라는 이름의 숨겨진 폴더에 보존됩니다.
+- Teams 및 채널 및 Yammer 메시지의 경우: 사본은 Exchange **복구 가능한 항목** 폴더 내에 하위 폴더로 **SubstrateHolds**라는 이름의 숨겨진 폴더에 보존됩니다.
 
 > [!NOTE]
 > 자료 보존 라이브러리는 사이트의 저장소 할당량에서 제외되지 않은 저장소를 사용합니다. SharePoint 및 Microsoft 365 그룹에 대한 보존 설정을 사용하는 경우 저장소를 늘려야 할 수 있습니다.
@@ -69,6 +70,7 @@ ms.locfileid: "48132138"
 
 - [SharePoint 및 OneDrive의 보존에 대해 자세히 알아보기](retention-policies-sharepoint.md)
 - [Microsoft Teams의 보존에 대해 자세히 알아보기](retention-policies-teams.md)
+- [Yammer의 보존에 대한 자세한 정보](retention-policies-yammer.md)
 - [Exchange의 보존에 대해 자세히 알아보기](retention-policies-exchange.md)
 
 ## <a name="retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블
@@ -102,6 +104,8 @@ ms.locfileid: "48132138"
 - Exchange 공용 폴더
 - Teams 채널 메시지
 - Teams 채팅
+- Yammer 커뮤니티 메시지
+- Yammer 개인 메시지
 
 단일 정책을 여러 위치 또는 특정 위치 또는 사용자에게 효율적으로 적용할 수 있습니다.
     
@@ -214,7 +218,7 @@ SharePoint의 문서에 대한 DLP(데이터 손실 방지) 정책에서 보존 
    
 Exchange에서 자동 적용 보존 레이블은 현재 사서함에 있는 모든 항목(미사용 데이터)이 아닌 새로 전송된 메시지(전송 중인 데이터)에만 적용됩니다. 또한, 중요한 정보 유형과 학습 가능한 분류자에 대한 자동 적용 보존 레이블은 모든 사서함에만 적용되며, 특정 사서함을 선택할 수 없습니다.
   
-Exchange 공용 폴더, Skype, Teams 채널 메시지 및 채팅은 보존 레이블을 지원하지 않습니다. 해당 위치에서 콘텐츠를 보존하고 삭제하려면 보존 정책을 대신 사용하세요.
+Exchange 공용 폴더, Skype, Teams 및 Yammer 메시지는 보존 레이블을 지원하지 않습니다. 해당 위치에서 콘텐츠를 보존하고 삭제하려면 보존 정책을 대신 사용하세요.
 
 #### <a name="only-one-retention-label-at-a-time"></a>한 번에 하나의 보존 레이블만
 
@@ -265,7 +269,7 @@ Office 365 보안 및 규정 준수 센터에는 **정보 거버넌스** > **대
 |기능|보존 정책 |보존 레이블|
 |:-----|:-----|:-----|:-----|
 |보존 후 삭제, 보존만 또는 삭제만 할 수 있는 보존 설정 |예 |예 |
-|워크로드 지원됨:  <br />- Exchange <br />- SharePoint <br />- OneDrive <br />- Microsoft 365 그룹 <br />- 비즈니스용 Skype <br />- Teams|<br /> 예 <br /> 예 <br /> 예 <br /> 예 <br /> 예 <br /> 예 | <br /> 예, 공용 폴더 제외 <br /> 예 <br /> 예 <br /> 예 <br /> 아니요 <br /> 아니요  |
+|워크로드 지원됨:  <br />- Exchange <br />- SharePoint <br />- OneDrive <br />- Microsoft 365 그룹 <br />- 비즈니스용 Skype <br />- Teams<br />- Yammer|<br /> 예 <br /> 예 <br /> 예 <br /> 예 <br /> 예 <br /> 예 | <br /> 예, 공용 폴더 제외 <br /> 예 <br /> 예 <br /> 예 <br /> 아니요 <br /> 아니요 <br /> 아니요 |
 |자동으로 보존 적용됨 | 예 | 예 |
 |조건을 기준으로 보존 적용 <br /> -중요한 정보 유형, KQL 쿼리, 교육 가능한 분류자| 아니요 | 예 |
 |수동으로 보존 적용됨 | 아니요 | 예 |

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b46a1996d1a86601efe21ec71b19adfc9fa02c61
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: e156a8dc71dc9aca4a5d608b29307f4d36f0ec6b
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417216"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208140"
 ---
 # <a name="isoiec-27701-privacy-information-management-system-pims"></a>ISO/IEC 27701 PIMS(개인 정보 관리 시스템)
 
@@ -77,7 +77,7 @@ ISO/IEC 27001 및 PIMS의 주요 사항:
 - Microsoft Healthcare Bot
 - Intune
 - Microsoft Managed Desktop
-- Power Automate(과거 Microsoft Flow) 
+- Power Automate(과거 Microsoft Flow)
 - PowerApps
 - Power BI
 - Power BI Embedded
@@ -86,15 +86,14 @@ ISO/IEC 27001 및 PIMS의 주요 사항:
 - Microsoft 위협 전문가
 - Windows Defender Advanced Threat Protection
 
-
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 
 - [Azure, Dynamics 365 및 온라인 서비스: ISO27701 인증](https://aka.ms/azureiso27701cert)
 - [Azure, Dynamics 365 및 온라인 서비스: ISO27701 평가 보고서](https://aka.ms/azureiso27701report)
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용하여 위험 평가
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용하여 위험 평가
 
-[Microsoft 준수 점수](compliance-score.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 컴플라이언스 센터](microsoft-365-compliance-center.md)의 미리 보기 기능입니다. [준수 점수를 설정](compliance-score-setup.md)한 후, **서식 파일** 드롭다운 메뉴에서 사전 구성된 [ISO 27701 서식 파일](https://go.microsoft.com/fwlink/?linkid=2117915)을 선택하여 조직이 이 규정에 대한 요구 사항을 충족할 수 있도록 하십시오.
+[Microsoft 준수 관리자](compliance-manager.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)의 기능입니다. 준수 관리자는 이 규제에 대한 평가를 빌드하기 위한 프리미엄 서식 파일을 제공합니다. 준수 관리자의 **평가 서식 파일** 페이지에서 서식 파일을 찾습니다. [준수 관리자의 평가 빌드](compliance-manager-assessments.md) 방법에 대해 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

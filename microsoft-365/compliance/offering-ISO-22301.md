@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2e470972e1d1549bff5cce107666a930a9b29969
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 29af3729260d3d87f0cf17b83beec70da6fb7931
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416236"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208390"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>ISO 22301:2012 비즈니스 연속성 관리 표준
 
@@ -70,6 +70,10 @@ ISO 22301은 기업 및 정부의 조직에서 비즈니스 연속성 관리를 
 **당사 조직의 인증에 Microsoft 서비스의 ISO 22301 규정 준수를 활용할 수 있습니까?**
 
 예. 귀하의 비즈니스가 Microsoft 서비스에 배포되는 구현에 대해 ISO 22301 인증을 필요로 하는 경우 준수 평가 시 Azure 및 Office 365 인증을 사용할 수 있습니다. 하지만 귀하는 귀하의 조직 내에서와 고유의 응용 프로그램에 대한 ISO 22301 규정 준수에 대해 평가자가 컨트롤, 프로세스 그리고 구현을 평가하도록 참여시킬 책임이 있습니다.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용하여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)의 기능입니다. 준수 관리자는 이 규제에 대한 평가를 빌드하기 위한 프리미엄 서식 파일을 제공합니다. 준수 관리자의 **평가 서식 파일** 페이지에서 서식 파일을 찾습니다. [준수 관리자의 평가 빌드](compliance-manager-assessments.md) 방법에 대해 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

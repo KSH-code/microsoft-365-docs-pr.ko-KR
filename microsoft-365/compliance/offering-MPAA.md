@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 43e7cc1231e88144e1f03f81de6e2355a582a785
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 8440d510e5f6f2e1e90e4f3e9a7368cd00f0f802
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417922"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208280"
 ---
 # <a name="motion-picture-association-of-america-mpaa"></a>MPAA(Motion Picture Association of America: 미국 영화 협회)
 
@@ -59,6 +59,10 @@ MPAA 지침은 주요 공급업체와 파트너에게 디지털 자산 제작, �
 **우리 회사는 그래도 MPAA 감사를 받아야 합니까, 아니면 Azure의 감사를 사용하면 됩니까?**
 
 제작 시설, 시각 효과 작업실 및 기타 서비스 파트너는 제작 책임자 및 감독과 상의하여 새로운 보안 요구 사항과 MPAA 감사가 필요한지 여부를 파악해야 합니다. MPAA 지침 준수는 자발적으로 이루어지지만, Microsoft는 미디어 고객이 Azure의 콘텐츠 보안 및 보호 기능을 신뢰할 수 있도록 독립적인 평가를 실시하기로 결정했습니다. 하지만, Azure는 고객의 개별 클라우드 환경을 관리하지 않습니다. 이러한 환경에는 추가 MPAA 규정이 적용될 수도 있으며 이 추가 규정의 경우에는 해당 환경에 대한 고객 측의 고유 감사를 통해 평가받는 것이 최선입니다.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용하여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)의 기능입니다. 준수 관리자는 이 규제에 대한 평가를 빌드하기 위한 프리미엄 서식 파일을 제공합니다. 준수 관리자의 **평가 서식 파일** 페이지에서 서식 파일을 찾습니다. [준수 관리자의 평가 빌드](compliance-manager-assessments.md) 방법에 대해 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cdc8835989ada5ebe4089c4d7fed5fd8cf064673
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: a648673d06300190695db52d14e85f114bfe0e87
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415425"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208150"
 ---
 # <a name="service-organization-controls-soc"></a>SOC(서비스 조직 컨트롤)
 
@@ -121,9 +121,9 @@ Azure, Microsoft Cloud App Security, Flow, Microsoft Graph, Intune, Power BI, Po
 
 [서비스 조직을 위한 SOC 도구 키트](https://aka.ms/soc-toolkit)는 SOC 보고 프로세스를 이해하고 조직의 프로세스 사용을 촉진하는 데 도움이 되는 리소스입니다.
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용하여 위험 평가
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용하여 위험 평가
 
-[Microsoft 준수 점수](compliance-score.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 컴플라이언스 센터](microsoft-365-compliance-center.md)의 미리 보기 기능입니다. [준수 점수를 설정](compliance-score-setup.md)한 후, **서식 파일** 드롭다운 메뉴에서 사전 구성된 [SOC 1 서식 파일](https://go.microsoft.com/fwlink/?linkid=2117918) 및 [SOC 2 서식 파일](https://go.microsoft.com/fwlink/?linkid=2117919)을 선택하여 조직이 이 규정에 대한 요구 사항을 충족할 수 있도록 하십시오.
+[Microsoft 준수 관리자](compliance-manager.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)의 기능입니다. 준수 관리자는 이 규제에 대한 평가를 빌드하기 위한 프리미엄 서식 파일을 제공합니다. 준수 관리자의 **평가 서식 파일** 페이지에서 서식 파일을 찾습니다. [준수 관리자의 평가 빌드](compliance-manager-assessments.md) 방법에 대해 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

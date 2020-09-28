@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a1c30856cf0fb4b2a183b26639bd3f41ae7d9bc5
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 3dc182ce799078e50087699aa3ca88c3abbcf769
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417712"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208430"
 ---
 # <a name="isoiec-270012013-information-security-management-standards"></a>ISO/IEC 27001:2013 정보 보안 관리 표준
 
@@ -126,9 +126,9 @@ ISO/IEC 27001 채택은 전략적인 약속입니다. [ISO/IEC 27000 디렉터�
 
 예. Microsoft 서비스에 배포되는 구현에 대해 ISO/IEC 27001 인증을 받아야 하는 고객은 규정 준수 평가 시 해당 인증서를 사용할 수 있습니다. 하지만 귀하는 조직 내 통제, 프로세스, ISO/IEC 27001 준수에 대한 구현을 평가하기 위한 평가자와의 계약에 대한 책임이 있습니다.
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용하여 위험 평가
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용하여 위험 평가
 
-[Microsoft 준수 점수](compliance-score.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 컴플라이언스 센터](microsoft-365-compliance-center.md)의 미리 보기 기능입니다. [준수 점수를 설정](compliance-score-setup.md)한 후, **서식 파일** 드롭다운 메뉴에서 사전 구성된 [ISO 27001 서식 파일](https://go.microsoft.com/fwlink/?linkid=2117914)을 선택하여 조직이 이 규정에 대한 요구 사항을 충족할 수 있도록 하십시오.
+[Microsoft 준수 관리자](compliance-manager.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)의 기능입니다. 준수 관리자는 Enterprise E5 고객에게 이 규제에 대해 사전에 빌드된 평가를 제공합니다. 준수 관리자의 **평가 서식 파일** 페이지에서 평가 빌드를 위한 서식 파일을 찾습니다. [준수 관리자의 평가 빌드](compliance-manager-assessments.md) 방법에 대해 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

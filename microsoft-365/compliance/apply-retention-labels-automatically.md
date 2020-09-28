@@ -17,16 +17,19 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들고 자동 게시하여 레이블을 자동으로 적용하여 필요한 항목을 보존하고 필요하지 않은 항목을 삭제할 수 있습니다.
-ms.openlocfilehash: 088a521089d34e74865c94b3cd147b02f8d812cb
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: 9ab456cd5b1f5f1bf47a1e24a3d7e58b7992ede0
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47816971"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196381"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>보존 레이블 자동 적용하여 콘텐츠를 보존 또는 삭제하기
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+
+> [!NOTE]
+> 이 시나리오는 [규제 기록](records-management.md#records)에서 지원 되지 않습니다.
 
 [보존 레이블](retention.md)의 가장 강력한 기능 중 하나는 지정된 조건과 일치하는 콘텐츠에 자동으로 레이블을 적용하는 기능입니다. 이 경우 조직의 사용자는 레이블을 적용할 필요가 없습니다. Microsoft 365에서 이 작업을 수행합니다.
   
@@ -38,7 +41,10 @@ ms.locfileid: "47816971"
     
 - 사용자가 더 이상 데이터 거버넌스 정책을 알아야 할 필요가 없으며, 업무에 집중할 수 있습니다.
     
-콘텐츠에 중요한 정보, 키워드나 검색 가능한 속성 또는 [학습 가능한 분류자](classifier-getting-started-with.md) 일치 항목이 포함된 경우 보존 레이블을 콘텐츠에 자동으로 적용할 수 있습니다.
+콘텐츠에 중요한 정보, 키워드나 검색 가능한 속성 또는 [학습 가능한 분류자](classifier-get-started-with.md) 일치 항목이 포함된 경우 보존 레이블을 콘텐츠에 자동으로 적용할 수 있습니다.
+
+> [!TIP]
+> 이제 미리 보기에서 검색 가능한 속성을 사용하여 [Teams 모임 녹음/녹화](#microsoft-teams-meeting-recordings)을 식별합니다.
 
 다음 조건에 따라 보존 레이블을 자동으로 적용하는 프로세스:
 
@@ -80,7 +86,7 @@ ms.locfileid: "47816971"
     
     - 파일 계획 설명자에 대한 자세한 내용은 [파일 계획을 사용하여 보존 레이블 관리의 개요](file-plan-manager.md)를 참조하세요
     
-    - 보존 레이블을 사용하여 [레코드](records-management.md#records)를 선언하려면 옵션 **항목에 레코드로 표시를 설정**을 사용합니다.
+    - 보존 레이블을 사용하여 레코드를 선언하려면 **항목을 레코드로 표시**를 선택하거나 **항목을 규제 레코드로 표시**를 선택합니다. 자세한 정보는 [레코드를 선언하도록 보존 레이블 구성하기](declare-records.md#configuring-retention-labels-to-declare-records)를 참조하세요.
 
 3. 레이블을 만든 후 레이블을 게시하고 레이블을 자동으로 적용하거나 단지 레이블을 저장하는 옵션이 표시되면 **이 레이블을 특정 콘텐츠에 자동으로 적용**을 선택한 후 **완료**를 선택하여 다음 절차에서 2 단계로 바로 이동하는 자동 레이블 만들기 마법사를 시작합니다.
 
@@ -163,6 +169,29 @@ KQL(키워드 쿼리 언어)에 대한 자세한 내용은 [KQL(키워드 쿼리
 |SharePoint | `contenttype:contract` |
 |SharePoint | `site:https://contoso.sharepoint.com/sites/teams/procurement AND contenttype:contract`|
 
+##### <a name="microsoft-teams-meeting-recordings"></a>Microsoft Teams 모임 녹음/녹화
+
+> [!NOTE]
+> Teams 모임 녹음/녹화를 유지하고 삭제하는 기능은 미리 보기로 출시되며 기록이 OneDrive 또는 SharePoint에 저장되기 전에는 작동하지 않습니다. 자세한 정보는 [모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용](https://docs.microsoft.com/MicrosoftTeams/tmr-meeting-recording-change)을 참조하세요.
+
+사용자의 OneDrive 계정 또는 SharePoint에 저장된 Microsoft Teams 모임 녹음/녹화를 식별하려면 **키워드 쿼리 편집기**에 대해 다음을 지정합니다.
+
+``` 
+ProgID:Media AND ProgID:Meeting
+```
+
+이 보존 레이블의 경우 레이블 정책을 만들어 관련 사용자의 OneDrive 계정 또는 SharePoint 사이트에도 게시해야 합니다. 대부분의 경우 모임 녹음/녹화는 OneDrive에 저장되지만, 채널 모임의 경우에는 SharePoint에 저장됩니다.
+
+자동 적용 정책을 저장한 경우:
+
+1. **레이블 정책** 탭 > **레이블 게시**를 선택합니다.
+
+2. 레이블을 선택하라는 메시지가 표시되면 KQL 쿼리로 작성한 레이블을 선택하여 Teams 모임 녹음/녹화를 식별합니다.
+
+3. 위치를 묻는 메시지가 표시되면 **SharePoint 사이트** 및 **OneDrive 계정**을 선택합니다. 그런 다음 **모든**의 기본값을 유지하거나 특정 OneDrive 계정을 포함하거나 제외하는 등의 개별 위치를 지정할 수 있습니다.
+
+4. 마법사를 완료하고 이 레이블 정책을 저장합니다.
+
 #### <a name="auto-apply-labels-to-content-by-using-trainable-classifiers"></a>학습 가능한 분류자를 사용하여 콘텐츠에 레이블 자동 적용
 
 학습 가능한 분류자 옵션을 선택할 때 기본 분류자 중 하나 또는 사용자 지정 분류자를 선택할 수 있습니다. 기본 제공 분류자에는 **이력서**, **SourceCode**, **대상 희롱**, **비속어**, **위협**이 포함됩니다.
@@ -174,9 +203,10 @@ KQL(키워드 쿼리 언어)에 대한 자세한 내용은 [KQL(키워드 쿼리
 
 이 옵션을 사용하여 레이블을 자동으로 적용하려면 SharePoint 사이트 및 사서함에 10MB 이상의 데이터가 있어야 합니다.
 
-학습 가능한 분류자에 대한 자세한 내용은 [학습 가능한 분류자 시작(미리 보기)](classifier-getting-started-with.md)를 참조하세요.
+학습 가능한 분류자에 대한 자세한 내용은 [학습 가능한 분류자에 대한 자세한 정보(미리 보기)](classifier-learn-about.md)를 참조하세요.
 
-구성 예는 [분류자를 준비하고 기본 제공 분류자를 사용하는 방법](classifier-using-a-ready-to-use-classifier.md#how-to-verify-that-a-built-in-classifier-will-meet-your-needs)을 참조하세요.
+> [!TIP]
+> Trainable 분류자를 Exchange에 사용하는 경우 최근 릴리스된 [콘텐츠 탐색기에서 분류자를 재학습하는 방법(미리 보기)](classifier-how-to-retrain-content-explorer.md)을 참조하세요.
 
 ## <a name="how-long-it-takes-for-retention-labels-to-take-effect"></a>보존 레이블이 적용되는 데 걸리는 시간
 

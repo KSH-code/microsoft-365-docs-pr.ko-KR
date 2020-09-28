@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 관리하도록 보존 정책 및 보존 레이블 구현을 시작할 준비가 되었지만, 어디서부터 시작해야 할지 모르겠나요? 시작을 도와주는 실질적인 지침을 읽어 보세요.
-ms.openlocfilehash: 33b2fbd40c19d1f4e2e2ef042eaa2fe21080eec1
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: cc504468611d4a2a2758ef7d52b965c177999217
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778294"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198943"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블 시작하기
 
@@ -60,7 +60,7 @@ ms.locfileid: "46778294"
 
 |필요|설명서|
 |----------------|---------------|
-|조직 또는 Microsoft 365 서비스별로 효율적으로 보관 및 삭제 작업 설정 <br />-  Exchange  <br />- SharePoint  <br />- OneDrive  <br />- Microsoft 365 그룹 <br />- 비즈니스용 Skype  <br />- Microsoft Teams  |[보존 정책 만들기 및 구성하기](create-retention-policies.md)|
+|조직 또는 Microsoft 365 서비스별로 효율적으로 보관 및 삭제 작업 설정 <br />-  Exchange  <br />- SharePoint  <br />- OneDrive  <br />- Microsoft 365 그룹 <br />- 비즈니스용 Skype  <br />- Microsoft Teams <br />- Yammer 네트워크 |[보존 정책 만들기 및 구성하기](create-retention-policies.md)|
 |관리자와 사용자가 문서 및 전자 메일에 대한 보존 및 삭제 동작 집합을 수동으로 적용하도록 허용: <br />-  SharePoint <br />- OneDrive <br />- Outlook 및 웹용 Outlook|[보존 레이블을 만들고 앱에 적용하기](create-apply-retention-labels.md)|
 |사이트 관리자가 SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 콘텐츠에 기본 보존 레이블을 설정하도록 허용|[보존 레이블을 만들고 앱에 적용하기](create-apply-retention-labels.md)|
 |사용자가 Outlook 규칙을 사용하여 자동으로 전자 메일에 보존 레이블을 적용할 수 있도록 허용|[보존 레이블을 만들고 앱에 적용하기](create-apply-retention-labels.md)|

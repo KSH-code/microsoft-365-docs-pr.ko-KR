@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ad755398afc80f829561854217f1295ce8fff6f5
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 1151fd74e5f40a91107467b6004049081c4a9a69
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417862"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208240"
 ---
 # <a name="payment-card-industry-pci-data-security-standard-dss"></a>PCI(Payment Card Industry) DSS(Data Security Standard)
 
@@ -58,9 +58,9 @@ Azure, 비즈니스용 OneDrive, SharePoint Online의 PCI DSS 규정 준수 상�
 
 Azure 보안 및 준수 PCI DSS 청사진을 사용하여 클라우드에서 PCI DSS 솔루션을 더 빠르게 빌드하고 배포합니다. 참조 아키텍처, 배포 지침, 제어 구현 매핑, 자동화된 스크립트 등을 가져옵니다. [Azure PCI DSS 청사진 사용 시작하기](https://aka.ms/pciblueprint)
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
-**AoC(Attestation on Compliance) 표지 페이지에 "2018년 6월"이 표시된 이유는 무엇인가요?**
+**AoC(Attestation on Compliance) 표지 페이지에 ‘2018년 6월’이 표시된 이유는 무엇인가요?**
 
 표지 페이지의 날짜 2018년 6월은 AoC 서식 파일이 게시된 날짜입니다. 평가 날짜는 2조를 참조하세요.
 
@@ -93,6 +93,10 @@ PA DSS(Payment Application Data Security Standard)는 PCI DSS를 준수하고, V
 **무엇이 비즈니스용 OneDrive 및 SharePoint Online 범위 내에 있나요?**
 
 현재 비즈니스용 OneDrive 및 SharePoint Online에 업로드된 파일과 문서만 PCI DSS를 준수합니다.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용하여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)의 기능입니다. 준수 관리자는 이 규제에 대한 평가를 빌드하기 위한 프리미엄 서식 파일을 제공합니다. 준수 관리자의 **평가 서식 파일** 페이지에서 서식 파일을 찾습니다. [준수 관리자의 평가 빌드](compliance-manager-assessments.md) 방법에 대해 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: GDPR에 대한 Office 365 정보 보호 개요를 확인합니다. 개인 데이터를 검색, 분류, 보호 및 모니터링하는 방법을 알아봅니다.
-ms.openlocfilehash: 83a090b214821142a312ee81463fb3c395876867
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: 72ce55b5ceb2ec3ff95cada481ec4aee0bbe8eef
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919607"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197409"
 ---
 # <a name="overview-of-office-365-information-protection-for-gdpr"></a>GDPR에 대한 Office 365 정보 보호 개요
 
@@ -43,13 +43,13 @@ GDPR은 개인 데이터의 수집, 저장, 처리 및 공유를 규제합니다
 
 GDPR 규정을 준수하는 첫 번째 단계는 GDPR이 조직에 적용되는지, 적용된다면 적용 수준은 어떤지 평가하는 것입니다. 이러한 분석에는 조직이 처리하는 데이터와 데이터의 위치를 이해하는 작업이 포함됩니다.
 
-### <a name="step-1--use-compliance-score-to-view-the-regulation-requirements-and-track-your-progress"></a>1단계 - 준수 점수를 사용하여 규정 요구 사항을 확인하고 진행 상황 추적
+### <a name="step-1--use-compliance-manager-to-view-the-regulation-requirements-and-track-your-progress"></a>1단계 - 규정 준수 관리자를 사용하여 규정 요구 사항을 확인하고 진행 상황 추적
 
-준수 점수는 조직이 GDPR을 비롯한 다양한 표준 규정을 준수하도록 하기 위해 감사 컨트롤을 추적, 구현 및 관리하기 위한 도구를 제공합니다.
+준수 관리자는 조직이 GDPR을 비롯한 다양한 표준 규정을 준수하도록 하기 위해 감사 컨트롤을 추적, 구현 및 관리하도록 도와줍니다.
 
-![준수 점수를 사용하여 요구 사항 확인 및 진행 상황 추적](../media/Overview-image1.png)
+![준수 관리자를 사용하여 요구 사항 확인 및 진행 상황 추적](../media/Overview-image1.png)
 
-자세한 내용은 [준수 점수](compliance-score.md)를 참조하세요.
+자세한 내용은 [준수 관리자](compliance-manager.md)를 참조하세요.
 
 ### <a name="step-2--use-content-search-and-sensitive-information-types-to-find-personal-data"></a>2단계 - 콘텐츠 검색 및 중요한 정보 유형을 사용하여 및 개인 데이터 찾기 
 

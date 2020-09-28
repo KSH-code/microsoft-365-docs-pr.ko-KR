@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0fbef84ca8f4d8993ca40b48b25effaf44e141f5
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 8c2c1e516e0d2c338104d36bb227e877d490ecb7
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416164"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208640"
 ---
 # <a name="cloud-computing-compliance-controls-catalog-c5"></a>클라우드 컴퓨팅 규정 준수 컨트롤 카탈로그(C5)
 
@@ -59,6 +59,10 @@ IT-Grundschutz는 조직이 IT 시스템에 대한 보안 조치를 식별하고
 **Microsoft Cloud Germany 란 무엇인가요?**
 
 Microsoft Cloud Germany는 독일에 물리적으로 기반을 두고 있으며 독일 개인 정보 보호법의 요구 사항을 준수하며, 다른 국가로의 개인 데이터 전송을 제한하고, 국내 법률을 위반할 수 있는 다른 관할 구역으로부터 당국에 의한 액세스를 보호합니다. Azure Germany는 독일의 데이터 상주가 있는 독일 데이터 센터의 Azure 서비스를 제공하며 독일 법률에 따라 통제되는 고유한 데이터 피신탁 모델을 통해 제공되는 엄격한 데이터 액세스 및 제어 수단을 제공합니다.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용하여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)의 기능입니다. 준수 관리자는 이 규제에 대한 평가를 빌드하기 위한 프리미엄 서식 파일을 제공합니다. 준수 관리자의 **평가 서식 파일** 페이지에서 서식 파일을 찾습니다. [준수 관리자의 평가 빌드](compliance-manager-assessments.md) 방법에 대해 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

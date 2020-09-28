@@ -17,12 +17,12 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eb2d4ca52acce338e3afb31852409d441e52cfe0
-ms.sourcegitcommit: eb3c30d53a5434d8bad7c8f48a5612f3e2675945
+ms.openlocfilehash: 2083b7b6ed208f5681f4e19c276c1d7425999854
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422466"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201525"
 ---
 # <a name="azure-and-dynamics-365-accountability-readiness-checklist-for-the-gdpr"></a>GDPR에 대한 Azure 및 Dynamics 365 책임 준비 상태 검사 목록
 
@@ -33,7 +33,7 @@ ms.locfileid: "47422466"
 - [ISO/IEC CD 27701](https://shop.bsigroup.com/ProductDetail/?pid=000000000030351736) 보안 기술 요구 사항
 - 개인 정보 관리 요구 사항에 대한 [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472).
 
-GDPR 타일의 고객 관리 컨트롤에서 컨트롤 ID 및 컨트롤 제목을 참조하여 준수 점수[[16](gdpr-arc-Azure.md#16)]를 통해 이 검사 목록의 항목을 관리할 수 있습니다. 이 컨트롤 구조는 [서비스 신뢰 포털](https://servicetrust.microsoft.com/ViewPage/TrustDocuments)에서 다운로드할 수 있는 GDPR을 지원하기 위해 Microsoft Azure 및 Dynamics 365가 구현하는 내부 컨트롤의 표현을 구성 하는 데도 사용됩니다.
+GDPR 타일의 고객 관리 컨트롤에서 컨트롤 ID 및 컨트롤 제목을 참조하여 준수 관리자 [16](gdpr-arc-Azure.md#16)을 통해 이 검사 목록의 항목을 관리할 수 있습니다. 이 컨트롤 구조는 [서비스 신뢰 포털](https://servicetrust.microsoft.com/ViewPage/TrustDocuments)에서 다운로드할 수 있는 GDPR을 지원하기 위해 Microsoft Azure 및 Dynamics 365가 구현하는 내부 컨트롤의 표현을 구성 하는 데도 사용됩니다.
 
 이러한 컨트롤 구조는 [iGDPR을 지원하기 위해 Microsoft Office 365에서 구현하는 내부 컨트롤](https://aka.ms/gdprcontrols)의 프레젠테이션을 구성하는 데에도 사용됩니다.
 

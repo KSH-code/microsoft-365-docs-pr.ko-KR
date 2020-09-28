@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 33fd2cef596144c48dcc76594d8d466e09481dd4
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 56f01880e3e2f381d85ed386ac413d4dbff38ff4
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415618"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208600"
 ---
 # <a name="cloud-security-alliance-csa-star-attestation"></a>CSA(Cloud Security Alliance) STAR 증명
 
@@ -68,6 +68,10 @@ CSA 레지스트리에서 Intune도 다루는 Azure의 [CSA STAR 증명](https:/
 - **수준 1**: **CSA STAR 자체 평가**: Azure, Microsoft Dynamics 365, Microsoft Office 365. [자체 평가](offering-csa-star-self-assessment.md)는 클라우드 서비스 공급자가 고객이 서비스 보안을 평가하는 것을 돕기 위해 보안 제어를 문서화하는 무료 서비스입니다.
 - **수준 2**: **CSA STAR 인증**: Azure, Microsoft Cloud App Security, Intune, Microsoft Power BI. STAR 인증은 ISO/IEC 27001 인증을 획득과 CCM에 지정된 기준 충족에 기반합니다. 클라우드 서비스 공급자의 보안 제어 및 관행에 대한 엄격한 제3자 평가 후에 이를 수여합니다.
 - **수준 2**: **CSA STAR 증명**: Azure, Intune. CSA와 AICPA는 AICPA(Trust Service Principles, AT 101)와 CSA CCM의 기준을 사용하여 CPA가 SOC 2 계약을 수행하는 데 사용할 지침을 제공하기 위해 협력했습니다. [STAR 증명](offering-CSA-STAR-Attestation.md)은 이러한 지침을 기반으로 하며 클라우드 공급자에 대한 엄격한 독립적인 평가 후에 수여됩니다.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용하여 위험 평가
+
+[Microsoft 준수 관리자](compliance-manager.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)의 기능입니다. 준수 관리자는 이 규제에 대한 평가를 빌드하기 위한 프리미엄 서식 파일을 제공합니다. 준수 관리자의 **평가 서식 파일** 페이지에서 서식 파일을 찾습니다. [준수 관리자의 평가 빌드](compliance-manager-assessments.md) 방법에 대해 알아봅니다.
 
 ## <a name="resources"></a>리소스
 
