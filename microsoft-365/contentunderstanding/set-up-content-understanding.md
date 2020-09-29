@@ -10,12 +10,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Project Cortex에서 콘텐츠 이해 설정
-ms.openlocfilehash: f0a26f0044e578928730cf4930f1524e86dff9f3
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 31c6b6dd31b3f1bc47deb8424dd847cc0af6d429
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294866"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48304783"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex 설정
 
@@ -107,27 +107,7 @@ SharePoint Syntex를 구성한 후에는 양식 처리 및 문서 이해 기능�
 
 [Ai builder 계산기](https://powerapps.microsoft.com/ai-builder-calculator)로 적합 한 ai 작성기 용량을 추정할 수 있습니다.
 
-1. [Power Platform 관리 센터로](https://admin.powerplatform.microsoft.com/resources/capacity) 이동 하 여 크레딧 및 사용 현황을 확인 합니다.
-
-    > [!NOTE]
-    > SharePoint 문서 라이브러리에서이 설정을 사용 하도록 설정 해도 라이브러리에 적용 된 기존 모델이 나 라이브러리에 문서 이해 모델을 적용할 수 있는 기능에는 영향을 주지 않습니다. 
-    
-2. **콘텐츠 센터 만들기** 페이지에서는 사용자가 문서 이해 모델을 만들고 관리할 수 있는 SharePoint 콘텐츠 센터 사이트를 만들 수 있습니다. </br>
-    a. **사이트 이름**에 대해 콘텐츠 센터 사이트에 사용할 이름을 입력 합니다.</br>
-    b. 사이트 **주소** 는 사이트 이름을 기반으로 사이트의 URL을 표시 합니다.</br>
-
-    > [!NOTE] 
-    > 지원 되는 언어를 선택할 수 있지만 콘텐츠 이해 모델은 영어에만 만들 수 있습니다.</br>
-
-      ![콘텐츠 센터 만들기](../media/content-understanding/admin-cu-create-cc.png)</br>
-
-3. **다음**을 선택합니다.
-
-4. **마침 및 검토** 페이지에서 선택한 설정을 확인 하 고 변경을 선택 합니다. 선택에 만족 하면 **활성화**를 선택 합니다.
-
-5. 사용자가 양식 처리 기본 설정을 추가 하 고 콘텐츠 센터 사이트를 만들었기를 확인 하 여 **정품 인증 된 콘텐츠 이해** 됨 페이지를 표시 합니다. **완료**를 선택합니다.
-
-6. **콘텐츠 자동화를 이해** 하는 페이지를 반환 합니다. 이 페이지에서 **관리** 를 선택 하 여 구성 설정을 변경할 수 있습니다. 
+[Power Platform 관리 센터로](https://admin.powerplatform.microsoft.com/resources/capacity) 이동 하 여 크레딧 및 사용 현황을 확인 합니다.
 
 ## <a name="see-also"></a>참고 항목
 

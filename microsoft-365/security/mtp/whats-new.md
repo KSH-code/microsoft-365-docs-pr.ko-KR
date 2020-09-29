@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: d5a7cc491b0a8547848f4e341a605ae0c4b87cc9
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 8b9176fea67583fbdce647b2a3c37cf1d6fde7ed
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201287"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48304861"
 ---
 # <a name="whats-new-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 새로운 기능
 
@@ -34,12 +34,13 @@ RSS 피드: 다음 URL을 복사 하 여 피드 판독기에 붙여 넣어이 �
 https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+Threat+Protection%22&locale=en-us
 ```
 ## <a name="september-2020"></a>2020년 9월
-- [AssignedIPAddresses () 함수](advanced-hunting-assignedipaddresses-function.md) <br> [고급 구하기](advanced-hunting-overview.md) 쿼리에이 함수를 사용 하 여 특정 시점부터 장치 또는 가장 최근 ip 주소에 할당 된 최신 ip 주소를 빠르게 가져올 수 있습니다.
+- [IdentityDirectoryEvents 테이블](advanced-hunting-identitydirectoryevents-table.md) <br> AD (Active Directory)를 실행 하는 온-프레미스 도메인 컨트롤러를 포함 하는 이벤트를 찾습니다. 이 [고급 구하기](advanced-hunting-overview.md) 스키마 테이블은 도메인 컨트롤러의 id 관련 이벤트 및 시스템 이벤트 범위를 다룹니다.
+- [AssignedIPAddresses () 함수](advanced-hunting-assignedipaddresses-function.md) <br> 고급 구하기 쿼리에이 함수를 사용 하 여 특정 시간에 장치에 할당 된 최신 IP 주소 또는 가장 최근 IP 주소를 빠르게 가져올 수 있습니다.
 
 ## <a name="july-2020"></a>2020년 7월
 - [FileProfile () 함수](advanced-hunting-fileprofile-function.md) <br> 고급 구하기 쿼리에서이 함수를 사용 하 여 광범위 한 파일 정보가 포함 된 결과를 보강 합니다.
 - [Identity 및 app 테이블](advanced-hunting-schema-tables.md)<br> 고급 구하기 스키마에서 [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md), [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)및 [appfileevents](advanced-hunting-appfileevents-table.md) 테이블을 사용 하 여 인증 이벤트, Active Directory 쿼리 및 앱 관련 작업에 대 한 가시성을 확인할 수 있습니다.
-- [탐색](advanced-hunting-go-hunt.md)<br> 쿼리 기반 고급 구하기 기능을 사용 하 여 특정 이벤트, 사용자, 장치 또는 기타 엔터티 유형을 검사 하는 인시던트를 조사 하는 것을 빠르게 피벗 합니다.
+- [탐색](advanced-hunting-go-hunt.md)<br> 고급 사냥에서 특정 이벤트, 사용자, 장치 또는 기타 엔터티 유형을 검사 하는 인시던트를 조사 하는 것을 빠르게 피벗 합니다.
 
 ## <a name="june-2020"></a>2020년 6월
 - Twitter 피드 <br> 대시보드 내에서 최신 보안 연구, 위협 인텔리전스, 제품 소식 등을 확인 하세요.

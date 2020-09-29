@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 4a698bc0d6a7c1ebadec44357b932e9b56dc0a3c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 118d96b797e9d46b4a9912f919cafbba680a9609
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196848"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48305285"
 ---
 # <a name="identitydirectoryevents"></a>IdentityDirectoryEvents
 
@@ -31,8 +31,6 @@ ms.locfileid: "48196848"
 
 **적용 대상:**
 - Microsoft 위협 방지
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 `IdentityDirectoryEvents` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 AD (Active Directory)를 실행 하는 온-프레미스 도메인 컨트롤러 관련 이벤트가 포함 되어 있습니다. 이 테이블은 암호 변경, 암호 만료, UPN (사용자 계정 이름) 변경 등의 다양 한 id 관련 이벤트를 캡처합니다. 또한 작업 예약 및 PowerShell 작업 같은 도메인 컨트롤러에 시스템 이벤트를 캡처합니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
@@ -57,7 +55,7 @@ ms.locfileid: "48196848"
 | `AccountDomain` | 문자열 | 계정의 도메인 |
 | `AccountUpn` | 문자열 | 계정의 UPN (사용자 계정 이름) |
 | `AccountSid` | 문자열 | 계정의 SID (보안 식별자) |
-| `AccountObjectId` | 문자열 | Azure AD의 계정에 대 한 고유 식별자입니다. |
+| `AccountObjectId` | 문자열 | Azure Active Directory의 계정에 대 한 고유 식별자입니다. |
 | `AccountDisplayName` | 문자열 | 주소록에 표시 되는 계정 사용자의 이름입니다. 일반적으로 주어진 이름이 나 이름, 중간 시작, 성 또는 성의 조합입니다. |
 | `DeviceName` | 문자열 | 장치의 FQDN (정규화 된 도메인 이름) |
 | `IPAddress` | 문자열 | 통신 중에 장치에 할당 되는 IP 주소 |

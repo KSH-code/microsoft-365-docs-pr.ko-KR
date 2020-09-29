@@ -1,6 +1,6 @@
 ---
 title: Autopilot 및 등록 상태 페이지를 사용 하 여 처음 실행 환경
-description: ESP 환경, 사용 된 설정 및 예외를 배포 하는 방법
+description: ESP 환경을 배포 하는 방법, 사용 된 설정 및 구성 변경 사항
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
@@ -10,12 +10,12 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 84656e2f0ae9d148c61c27af2a53e157cd44c171
-ms.sourcegitcommit: e6283e7c32ba9628fc45e9abc5cd4d21fb3f7ca9
+ms.openlocfilehash: 7337dd28f7940256d1753cd4c0b6309406fab2d1
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/29/2020
-ms.locfileid: "48299242"
+ms.locfileid: "48305273"
 ---
 # <a name="first-run-experience-with-autopilot-and-the-enrollment-status-page"></a>Autopilot 및 등록 상태 페이지를 사용 하 여 처음 실행 환경
 
@@ -49,7 +49,7 @@ Microsoft Managed Desktop은 사용자 장치에 사용 되는 Autopilot 프로�
 |이름 입력     | MMD-% RAND: 11%        |
 
 > [!NOTE]
-> ESP가 설정 된 고객만 "white glove" rovisioning을 사용 하도록 설정 되어 있지만 현재 Microsoft Managed Desktop에서 지원 되지 않습니다.
+> ESP가 설정 된 고객만 "white glove" 프로 비전을 사용할 수 있지만,이 기능은 현재 Microsoft Managed Desktop에서 지원 되지 않습니다.
 
 ## <a name="enrollment-status-page-settings"></a>등록 상태 페이지 설정
 
@@ -89,15 +89,15 @@ Microsoft Managed Desktop은 등록 상태 페이지 환경에 이러한 설정�
 
 Microsoft Managed Desktop은 현재 Windows Autopilot의 "흰색 glove" 기능을 지원 하지 않습니다.
 
-## <a name="exceptions"></a>예외
+## <a name="change-to-autopilot-and-enrollment-status-page-settings"></a>Autopilot 및 등록 상태 페이지 설정으로 변경
 
-Microsoft Managed Desktop에서 사용 하는 설치가 사용자의 요구에 정확 하 게 일치 하지 않는 경우 예외에 대 한 요청을 확인할 수 있습니다. 이 작업을 수행 하려면 Request a [exception](../service-description/customizing.md#request-an-exception)항목을 참조 하십시오. 다음은 필요한 예외 유형의 몇 가지 예입니다.
+Microsoft Managed Desktop에서 사용 하는 설치가 사용자의 요구에 정확 하 게 일치 하지 않는 경우에는 [관리 포털](https://portal.azure.com/)을 통해 지원 티켓을 파일에 추가할 수 있습니다. 다음은 필요한 구성 유형의 몇 가지 예입니다.
 
-### <a name="autopilot-exception"></a>Autopilot 예외
+### <a name="autopilot-settings-change"></a>Autopilot 설정 변경
 
 다른 장치 이름 템플릿을 요청 해야 할 수도 있습니다. 그러나 배포 모드를 변경 하 고 Azure에 Join, 개인 정보 설정 또는 사용자 계정 유형을 변경할 수는 없습니다.
 
-### <a name="enrollment-status-page-exception"></a>등록 상태 페이지 예외
+### <a name="enrollment-status-page-settings-change"></a>등록 상태 페이지 설정 변경
 
 - "설치가 지정 된 시간 (분) 보다 오래 걸릴 경우 오류 표시" 설정이 더 긴 시간 (분)입니다.
 - 표시 되는 오류 메시지

@@ -6,6 +6,7 @@ manager: dansimp
 ms.date: 08/13/2020
 audience: Admin
 ms.topic: overview
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -13,12 +14,12 @@ search.appverid:
 ms.collection:
 - microsoft-365-docs-pr
 description: Office 365의 보안, EOP부터 ATP 요금제 1, 2, 표준 및 고급 보안 구성 등을 통해 사용자의 보유 정도 및 속성을 보호 하는 방법에 대해 자세히 알아볼 수 있습니다.
-ms.openlocfilehash: 66a83d99197b8af98ef191b348b1303a8233a990
-ms.sourcegitcommit: e6283e7c32ba9628fc45e9abc5cd4d21fb3f7ca9
+ms.openlocfilehash: 680066f58850f59523ae6fb8a8168459dd813fc1
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/29/2020
-ms.locfileid: "48299325"
+ms.locfileid: "48304849"
 ---
 # <a name="office-365-security-outline"></a>Office 365 보안 개요
 
@@ -50,7 +51,7 @@ Office 365 보안은 EOP에서 제공 하는 핵심 보호를 기반으로 작�
 
 <!--:::image type="content" source="../../media/tp-EOPATPStack.PNG" alt-text="Placeholder graphic":::-->
 
-:::image type="content" source="../../media/tp_EOPandATPGraphic.png" alt-text="전자 메일 인증에 대 한 메모를 포함 하 여 EOP 및 ATP와 서비스 강조를 통해 서로 간의 관계":::
+:::image type="content" source="../../media/tp_EOPandATPGraphic.png" alt-text="Placeholder graphic":::
 
 이러한 각 서비스는 보호, 감지, 조사 및 응답 중에서 특정 목표를 강조 하지만 모든 서비스는 보호, 감지, 조사 및 ***대응의*** ***모든*** 목표를 수행할 수 있습니다.
 
@@ -65,7 +66,7 @@ Office 365 E3 또는 그 아래에는 EOP 있지만 독립 실행형 ATP P1을 �
 
 ## <a name="the-office-365-security-ladder-from-eop-to-atp"></a>EOP에서 ATP로의 Office 365 보안 사다리
 
-:::image type="content" source="../../media/tp_EOPATPEmailAuth4.gif" alt-text="EOP 및 ATP와 해당 특정 장점을 각각 보호 하 고 검색 하 여 조사 하 고 대응 합니다. 또한 전자 메일 인증 구성은 EOP up을 통해 필요에 따라 표시 됩니다.":::
+:::image type="content" source="../../media/tp_EOPATPEmailAuth4.gif" alt-text="Placeholder graphic":::
 
 > [!IMPORTANT]
 > 자세한 내용은 [Exchange Online Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-worldwide)및 [Advanced Threat protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)페이지를 참조 하세요.
