@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 국가, 지역 및 업계 규정, 표준 및 법규에 맞는 평가를 작성 하기 위한 템플릿을 제공 합니다.
-ms.openlocfilehash: 548844e3850757484f9ee1d455d6ecd18bcb939c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 9bce625bd8733570a62e3b5f7685cace84005b69
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204432"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294800"
 ---
 # <a name="compliance-manager-templates-list"></a>준수 관리자 서식 파일 목록
 
@@ -134,13 +134,8 @@ ms.locfileid: "48204432"
 - 인도네시아-법 11/2008 (Microsoft 365)
 - 인도네시아-Peraturan Pemerintah No. 82 Tahun, 2012-정부 규정-데이터 보호 규정 (Microsoft 365)
 - [IRS-P1075](offering-irs-1075.md) (Microsoft 365)
-- ISO 15489 (Microsoft 365)
-- [ISO 22301:2019](offering-iso-22301.md) (Microsoft 365)
-- ISO 27005:2018 (Microsoft 365)
 - [ISO 27017:2015](offering-iso-27017.md) (Microsoft 365)
-- ISO 31000:2018 (Microsoft 365)
 - [ISO/IEC 27018:2014](offering-iso-27018.md)
-- [ISO/IEC 27701:2019](offering-iso-27701.md) (Microsoft 365)
 - 이스라엘-개인 정보 보호 (데이터베이스에 대 한 데이터 전송 Abroad) 규정 (Microsoft 365)
 - ITU 1052 정보 보안 관리 프레임 워크 (Microsoft 365)
 - 일본-Prohibition에 대 한 권한 없는 컴퓨터 액세스에 대 한 Act (Microsoft 365)
