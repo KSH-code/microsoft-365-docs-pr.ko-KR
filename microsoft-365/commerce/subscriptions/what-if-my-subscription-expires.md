@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Microsoft 365 for business 구독이 만료 되거나, 사용 하지 않도록 설정 되었거나, 취소 된 경우 데이터에 대 한 결과를 알아봅니다.
-ms.openlocfilehash: 2852d2fc301d71131a0adb1c277974e2303dd395
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 2c8b21274d7e3e776e62a9a185309d6e742ac2b3
+ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45016080"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48309185"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>내 데이터 및 액세스에 대 한 Microsoft 365 for business 구독이 종료 될 때 어떤 일이 발생 하나요?
 
@@ -36,7 +36,7 @@ ms.locfileid: "45016080"
 
 [Microsoft 365 지원](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)서비스에 문의 하기 전에이 중요 정보를 읽으십시오.
   
-## <a name="what-happens-to-data-when-a-subscription-expires"></a>구독이 만료 되 면 데이터는 어떻게 되나요? 
+## <a name="what-happens-to-data-when-a-subscription-expires"></a>구독이 만료 되 면 데이터는 어떻게 되나요?
 
 - 구독이 만료 되는 경우 만료/사용 안 함/구축 단계를 거칩니다. 만료 된 단계는 구독이 종료 날짜에 도달한 직후에 시작 됩니다.
 - 연간 구독에 대해 되풀이 되는 대금 청구를 해제 하는 경우 만료 된 구독과 동일한 단계를 거칩니다. 첫 번째 단계는 구독의 되풀이 비용 설정을 해제 한 날짜부터 시작 하지 않고 연간 구독의 기념일입니다.
@@ -47,7 +47,7 @@ ms.locfileid: "45016080"
 | **활성**                                                             | **만료 <br/> (30 일 \* )**                                                | **사용 안 함 <br/> (90 일 \* )**                                               | **프로비전 해제됨**                                                                         |
 |------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | *모든 데이터에 액세스할 수 있음*                                               | *모든 데이터에 액세스할 수 있음*                                                     | *관리자만 데이터에 액세스할 수 있음*                                             | **<br/>다른 서비스에서 사용 하 고 있지 않은 경우 삭제 된 데이터가 Azure Active Directory를 제거 함** |
-| 사용자에 게 Microsoft 365, 데이터 및 Office 응용 프로그램에 대 한 일반 액세스 권한  | 사용자에 게 Microsoft 365, 파일 및 응용 프로그램에 대 한 일반 액세스 권한              | 사용자가 Microsoft 365, 파일 또는 응용 프로그램에 액세스할 수 없음                        | 사용자가 Microsoft 365, 파일 또는 응용 프로그램에 액세스할 수 없음                                     |
+| 사용자에 게 Microsoft 365, 파일 및 응용 프로그램에 대 한 일반 액세스 권한   | 사용자에 게 Microsoft 365, 파일 및 응용 프로그램에 대 한 일반 액세스 권한              | 사용자가 Microsoft 365, 파일 또는 응용 프로그램에 액세스할 수 없음                        | 사용자가 Microsoft 365, 파일 또는 응용 프로그램에 액세스할 수 없음                                     |
 | 관리자에 게 Microsoft 365, 데이터 및 Office 응용 프로그램에 대 한 일반 액세스 권한 | 관리자가 관리 센터에 액세스할 수 있음                                           | 관리자가 관리 센터에 액세스할 수 있으 나 사용자에 게 라이선스 할당 불가       | 관리자가 관리 센터에 액세스 하 여 다른 구독을 구매 및 관리할 수 있음             |
 |                                                                        | 전역 또는 대금 청구 관리자는 관리 센터에서 구독을 다시 활성화할 수 있습니다. | 전역 또는 대금 청구 관리자는 관리 센터에서 구독을 다시 활성화할 수 있습니다. |                                                                                           |
 
@@ -208,16 +208,19 @@ ms.locfileid: "45016080"
 평가판이 끝나면 Microsoft 365을 무료로 계속 사용할 수 없습니다. 다음 몇 가지 옵션을 사용할 수 있습니다.
 
 ::: moniker range="o365-worldwide"
+
 - **Microsoft 365을 구입 합니다.** 평가판이 만료 되 면 유예 기간 동안 최대 30 일 (대부분의 국가 및 지역에서 대부분의 평가판)에서 Microsoft 365을 구매할 수 있습니다. 평가판을 유료 구독으로 변환 하는 방법에 대 한 자세한 내용은 [비즈니스용 마이크로소프트 365 평가판 구입](../buy-a-subscription-from-your-free-trial.md)을 참조 하세요.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
+
 - **Microsoft 365을 구입 합니다.** 평가판이 만료 되 면 유예 기간 동안 최대 30 일 (대부분의 국가 및 지역에서 대부분의 평가판)에서 Microsoft 365을 구매할 수 있습니다. 평가판을 유료 구독으로 변환 하는 방법에 대 한 자세한 내용은 [비즈니스용 마이크로소프트 365 평가판 구입](../buy-a-subscription-from-your-free-trial.md)을 참조 하세요.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
+
 - **Office 365을 구입 합니다.** 평가판이 만료 되 면 유예 기간 동안 최대 30 일 (대부분의 국가 및 지역에서 대부분의 평가판)을 제공 하 여 Office 365을 구매할 수 있습니다. 평가판을 유료 구독으로 변환 하는 방법에 [대 한 자세한 내용은 구입 또는 사용해 서 21vianet에서 운영 하는 Office 365 구독 시도](../../admin/services-in-china/buy-or-try-subscriptions.md)를 참조 하세요.
 
 ::: moniker-end
@@ -229,10 +232,8 @@ ms.locfileid: "45016080"
 > [!NOTE]
 > 이 페이지의 정보는 [Microsoft 정책 고 지 사항 및 변경 알림에 따라 달라](https://go.microsoft.com/fwlink/p/?LinkId=613651)집니다. 이 사이트로 주기적으로 돌아가 변경 내용을 검토 합니다.
 
-## <a name="related-articles"></a>관련 문서 
+## <a name="related-content"></a>관련 콘텐츠 
 
-[구독 취소](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/cancel-your-subscription)
-
-[비즈니스용 Microsoft 365 갱신](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/renew-your-subscription)
-
-[구독 다시 활성화](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/reactivate-your-subscription)
+[구독 취소](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/cancel-your-subscription) (문서) \
+[Microsoft 365 for Business 갱신](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/renew-your-subscription) (문서) \
+[구독 다시 활성화](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/reactivate-your-subscription) (문서)

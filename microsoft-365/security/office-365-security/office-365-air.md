@@ -8,27 +8,29 @@ author: denisebmsft
 manager: dansimp
 audience: ITPro
 ms.topic: article
+ms.date: 09/29/2020
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
-description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능 사용을 시작 하세요.
-ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: adee64461d06b46f467682835a493a7eebe89aef
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+description: Microsoft Defender for Office 365의 자동화 된 조사 및 응답 기능 사용을 시작 하세요.
+ms.custom:
+- air
+- seo-marvel-mar2020
+ms.openlocfilehash: b844e4817bc77d7f6f4e99df53fc4b14c7e7110c
+ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202654"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308890"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Office 365에서 자동화 된 조사 및 응답 (AIR) 사용 시작
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-
-[Office 365 Advanced Threat Protection](office-365-atp.md) (OFFICE 365 ATP) 계획 2에는 보안 작업 팀의 시간과 노력을 줄일 수 있는 강력한 자동 조사 및 응답 (AIR) 기능이 포함 되어 있습니다. 알림이 트리거되면 해당 경고를 검토 하 고 우선 순위를 지정 하 고 응답 하는 보안 운영 팀이 진행 됩니다. 들어오는 알림의 볼륨을 유지 하는 것은 매우 어려울 수 있습니다. 이 중 일부를 자동화 하면 도움이 될 수 있습니다. AIR을 사용 하는 경우 보안 운영 팀은 트리거된 경고에 대 한 시야 없이 우선 순위가 더 높은 작업에 집중할 수 있습니다.
+[Microsoft Defender For Office 365에](office-365-atp.md) 는 보안 작업 팀의 시간과 노력을 절감할 수 있는 강력한 자동화 된 조사 및 응답 (AIR) 기능이 포함 되어 있습니다. 알림이 트리거되면 해당 경고를 검토 하 고 우선 순위를 지정 하 고 응답 하는 보안 운영 팀이 진행 됩니다. 들어오는 알림의 볼륨을 유지 하는 것은 매우 어려울 수 있습니다. 이 중 일부를 자동화 하면 도움이 될 수 있습니다. AIR을 사용 하는 경우 보안 운영 팀은 트리거된 경고에 대 한 시야 없이 우선 순위가 더 높은 작업에 집중할 수 있습니다.
 
 이 문서의 내용
 - [전체 공기 흐름](#the-overall-flow-of-air)
@@ -73,7 +75,7 @@ ms.locfileid: "48202654"
 
 ## <a name="how-to-get-air"></a>공기를 얻는 방법
 
-Office 365의 AIR 기능은 [office 365 Advanced Threat Protection 계획 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2)에 포함 되어 있습니다. 그러나 AIR이 예상 대로 작동 하려면 [Office 365 ATP 정책을 구성 해야](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats) 합니다. 또한 조직의 [경고 정책을](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)검토 하 고 잠재적으로 구성 해야 합니다. 
+AIR 기능은 [Microsoft Defender For Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2)에 포함 되어 있습니다. 그러나 AIR이 예상 대로 작동 하려면 [정책이 구성 되어 있어야](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats) 합니다. 또한 조직의 [경고 정책을](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)검토 하 고 잠재적으로 구성 해야 합니다. 
 
 Microsoft 365에서는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적 외부 및 내부 위협, 정보 관리 위험을 식별 하는 데 도움이 되는 다양 한 기본 제공 경고 정책을 제공 합니다. 몇 가지 [기본 경고 정책이](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#default-alert-policies) 자동 조사를 트리거할 수 있습니다. 이러한 경계 및 제한은 다음과 같습니다.
 
@@ -100,12 +102,12 @@ Microsoft 365에서는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠�
 |AIR 기능을 설정 하려면 |다음 역할 중 하나입니다. <br/>-전역 관리자<br/>-보안 관리자 <br/>이러한 역할은 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 [보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)에서 할당할 수 있습니다. |
 |권장 작업을 승인 하거나 거부 하려면|[Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 [보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center))에서 할당 된 다음 역할 중 하나입니다.<br/>-전역 관리자 <br/>-보안 관리자<br/>-보안 독자 <br/>--- 및 ---<br/>-검색 및 제거 (이 역할은 [보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)에만 할당 됨) 여기에 새 역할 그룹을 만들고 새 역할 그룹에 검색 및 제거 역할을 추가 해야 할 수 있습니다.
 
-[Office 365 ATP 계획 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2) 라이선스는 다음에 할당 되어야 합니다.
+[Microsoft Defender For Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2) 라이선스는 다음에 할당 되어야 합니다.
 - 보안 관리자 (전역 관리자 포함)
 - 조직의 보안 운영 팀 (보안 판독기 및 검색 및 제거 역할을 포함 하는 작업)
 - 최종 사용자
 
-또한 보호 기능을 적용 하려면 [Office 365 ATP 정책을](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) 정의 하 고 따라야 합니다.
+또한 보호가 유지 되도록 하려면 [Microsoft Defender For Office 365 정책도](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) 정의 하 고 적용 해야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
@@ -115,6 +117,6 @@ Microsoft 365에서는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠�
 
 ## <a name="related-articles"></a>관련 문서
 
-- [Microsoft Defender Advanced Threat Protection의 자동화 된 조사 및 재구성](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
+- [끝점에 대 한 Microsoft Defender의 자동화 된 조사 및 재구성](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 
-- [Microsoft Threat Protection의 자동화된 조사 및 대응](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+- [Microsoft 365 Defender의 자동화 된 조사 및 응답](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
