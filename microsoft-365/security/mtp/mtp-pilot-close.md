@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 0a0c0c1dae1d7f03aa9c8328b3fb1b4bae587b9e
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: dbd20263fce059bc57b6a19b58f15e3f5223b4e7
+ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199712"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48318209"
 ---
 # <a name="closing-and-summarizing-your-microsoft-threat-protection-pilot"></a>Microsoft Threat Protection 파일럿 테스트 종료 및 요약  
 
@@ -37,6 +37,7 @@ ms.locfileid: "48199712"
 모든 테스트가 완료 된 후 프로세스의 끝에 도달 했습니다.
 
 최종 출력은 다음과 같습니다.
+
 - 완성 된 성과 기록표
 - 파일럿의 결과에 대 한 자세한 보고서
 - 앞으로 이동 하는 방법을 결정 합니다.
@@ -45,9 +46,8 @@ ms.locfileid: "48199712"
 
 이 시뮬레이션이 제공 되었으며 배운 것을 구현 하는 것이 좋습니다.
 
-
 ## <a name="next-step"></a>다음 단계
-||
-|:-------|
-|[Microsoft 365 솔루션 및 아키텍처 센터](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) 에서 살펴보고 조직에 적합 한 솔루션 및 아키텍처를 디자인 하는 방법을 이해 합니다.
 
+****
+
+[Microsoft 365 솔루션 및 아키텍처 센터](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) 에서 살펴보고 조직에 적합 한 솔루션 및 아키텍처를 디자인 하는 방법을 이해 합니다.

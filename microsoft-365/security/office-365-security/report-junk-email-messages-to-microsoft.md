@@ -16,17 +16,16 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: 관리자는 분석을 위해 적절 하 고 잘못 된 메시지 및 파일을 Microsoft에 보고 하는 다양 한 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 040f998b09f280fc2b6bdfdac327313f9cc65c3c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: aeaf7a779ac9ba2d879a88dd72f4a457a26096ca
+ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203662"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48318192"
 ---
 # <a name="report-messages-and-files-to-microsoft"></a>Microsoft에 메시지와 파일 보고
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
-
 
 Exchange online 사서함이 없는 Microsoft 365 조직에서 사서함이 EOP (exchange online Protection) 조직의 경우 사용자와 관리자는 전자 메일 메시지 및 파일을 Microsoft에 보고 하는 다양 한 방법을 사용할 수 있습니다.
 
@@ -43,6 +42,5 @@ Exchange online 사서함이 없는 Microsoft 365 조직에서 사서함이 EOP 
 |[메일 흐름 규칙을 사용하여 사용자가 Microsoft에 보고한 내용 확인](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)|사용자가 분석을 위해 Microsoft에 메시지를 보고할 때 알려 주는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만드는 방법에 대해 알아봅니다.
 |||
 |[분석을 위해 맬웨어 및 비 맬웨어를 Microsoft에 제출](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)|Microsoft 보안 인텔리전스 사이트를 사용 하 여 첨부 파일 및 기타 파일을 제출 합니다.|
-|
 
 스팸 또는 피싱 메시지가 배달 되지 않고 격리 된 경우 사용자는 보안 & 준수 센터의 격리 포털에서 Microsoft로 메시지를 보고할 수 있습니다. 자세한 내용은 [Microsoft 365의 사용자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.

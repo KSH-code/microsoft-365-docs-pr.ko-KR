@@ -95,6 +95,8 @@
               href: get-started/register-reused-devices-self.md
         - name: 사용자들이 장치를 사용할 수 있도록 준비시키기
           href: get-started/get-started-devices.md
+        - name: Autopilot 및 등록 상태 페이지의 첫 실행 환경
+          href: get-started/esp-first-run.md
         - name: 앱 제어 시작하기
           href: get-started/get-started-app-control.md
         - name: 앱 배포
