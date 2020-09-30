@@ -1,4 +1,4 @@
-- name: 콘텐츠 이해 시작
+- name: Microsoft SharePoint Syntex 시작
   items:
     - name: Microsoft SharePoint Syntex 소개
       href: microsoft-sharepoint-syntex-overview.md
@@ -16,7 +16,7 @@
       href: create-a-classifier.md
     - name: 추출기 만들기
       href: create-an-extractor.md
-    - name: 설명 유형 개요
+    - name: 설명 유형
       href: explanation-types-overview.md
     - name: 모델 적용
       href: apply-a-model.md
@@ -26,6 +26,8 @@
       href: apply-a-retention-label-to-a-model.md
     - name: 모델 사용 현황 분석
       href: model-usage-analytics.md
+    - name: 추출기를 만들 때 용어 저장소 분류 활용
+      href: leverage-term-store-taxonomy.md
 - name: 설치 및 관리
   items:
     - name: 콘텐츠 이해 설정
