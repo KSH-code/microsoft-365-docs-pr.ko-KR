@@ -9,18 +9,18 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 1588a2c91bcbe0bd381acb6be4f9bd5562810860
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 5198691a38b179a5491a36de95531edb9f32d691
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530250"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322226"
 ---
 # <a name="prepare-printing-resources-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 인쇄 리소스 준비
 
 Microsoft Managed Desktop에서 등록할 준비가 되 면 인쇄 요구 사항을 평가 하 고 사용자 환경에 적합 한 접근 방식을 결정 해야 합니다. 다음 세 가지 옵션을 사용할 수 있습니다.
  
-- Microsoft 하이브리드 클라우드 인쇄 솔루션을 배포 하 여 마이크로소프트의 관리 되는 데스크톱 장치가 프린터를 쉽게 검색할 수 있도록 합니다. 자세한 내용은 [Windows Server 하이브리드 클라우드 인쇄 배포](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy)를 참조 하세요.
+- Microsoft 유니버설 인쇄 솔루션을 배포 하 여 관리 되는 데스크톱 장치에서 프린터를 쉽게 검색할 수 있도록 합니다. 자세한 내용은 [Universal a Print 란?](https://docs.microsoft.com/universal-print/fundamentals/universal-print-whatis)을 참조 하십시오.
 - 사용자 지정 PowerShell 스크립트를 사용 하 여 프린터를 직접 배포 합니다. 이 작업을 수행 하려면 [로컬 프린터 설정](#set-up-local-printers) 섹션에 나와 있는 단계를 수행 합니다.
 - Azure Active Directory 도메인에 가입 된 Windows 10 장치와 호환 되는 타사 클라우드 인쇄 솔루션을 사용 합니다. 이 솔루션은 Microsoft Managed Desktop의 소프트웨어 요구 사항을 충족 해야 합니다. 자세한 내용은 [Microsoft Managed Desktop app 요구 사항을](../service-description/mmd-app-requirements.md)참조 하세요.
  

@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 관리 센터의 네트워크 연결 개요 (미리 보기)
-ms.openlocfilehash: 52d1995572a3ae0220ac8529862ba69d5bca8cdb
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: 91c931eba5c9f5bdb9f45185581019cc9c754ed2
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235541"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322202"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Microsoft 365 관리 센터의 네트워크 연결 (미리 보기)
 
@@ -157,8 +157,8 @@ CSV 파일에서 검색 된 구/군/시는 userEntered 한 열에 비어 있는 
    1. **주소** (필수): office의 실제 주소
    1. **위도** (선택 사항): Bing 지도에서 비어 있는 경우 주소 조회를 채웁니다.
    1. **경도** (선택 사항): Bing 지도에서 비어 있는 경우 주소 조회를 채웁니다.
-   1. **EGRESS IP 주소 범위 1-5** (선택 사항): 각 범위에 대해 회로 이름 다음에 유효한 IPv4 또는 IPv6 CIDR 주소의 공백으로 구분 된 목록을 입력 합니다. 이러한 값은 동일한 LAN 서브넷 IP 주소를 사용 하는 여러 사무실 위치를 구분 하는 데 사용 됩니다.
-   1. **LanIps** (필수):이 사무실 위치에서 사용 중인 LAN 서브넷 범위를 나열 합니다.
+   1. **EGRESS IP 주소 범위 1-5** (선택 사항): 각 범위에 대해 회로 이름 다음에 유효한 IPv4 또는 IPv6 CIDR 주소의 공백으로 구분 된 목록을 입력 합니다. 이러한 값은 동일한 LAN 서브넷 IP 주소를 사용 하는 여러 사무실 위치를 구분 하는 데 사용 됩니다. Egress IP 주소 범위는 모두/24 이어야 하며,/24는 입력에 포함 되지 않습니다.
+   1. **LanIps** (필수):이 사무실 위치에서 사용 중인 LAN 서브넷 범위를 나열 합니다. LAN 서브넷 Id에는/8 및/29 사이의 네트워크 크기를 포함 하는 CIDR 네트워크 크기가 있어야 합니다. 여러 LAN 서브넷 범위가 쉼표나 세미콜론으로 구분 될 수 있습니다.
 1. Office 위치를 추가 하 고 파일을 저장 한 후에 **는 완료 됨 필드 업로드** 옆에 있는 **찾아보기** 단추를 클릭 하 고 저장 된 CSV 파일을 선택 합니다.
 1. 파일 유효성 검사가 자동으로 수행 됩니다. 유효성 검사 오류가 있으면 가져오기 파일에 오류가 있는 것입니다. 라는 오류 메시지가 표시 됩니다 _. 오류를 검토 하 고 가져올 파일을 수정한 다음 다시 시도 하십시오._ 특정 필드 유효성 검사 오류 목록에 대 한 **열기 오류 정보** 링크를 클릭 합니다.
 
