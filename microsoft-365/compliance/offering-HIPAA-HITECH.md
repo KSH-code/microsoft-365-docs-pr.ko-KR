@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 37da9f692b3556bf887d742ece3b99cdc1da60a2
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: a6605f7d8561532121e54f02b579de26879baa1a
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208410"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48305242"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>HITECH의 상태 보험 이식성 및 책임 (HIPAA) &
 
@@ -70,7 +70,7 @@ Microsoft 엔터프라이즈 클라우드 서비스에는 FedRAMP 평가도 포�
 
 Azure 보안 및 규정 준수 청사진 (HIPAA/HITRUST Health Data and AI)을 사용 하 여 상태 데이터 솔루션에 대 한 클라우드의 이점을 활용할 수 있는 방법을 알아봅니다. 이 청사진은 지금 HIPAA/HITRUST 솔루션을 작성할 수 있는 도구와 지침을 제공 합니다.
 
-[Azure HIPAA/HITRUST 청사진 사용 시작](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/)
+[Azure HIPAA/HITRUST 청사진 사용 시작](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust-9-2)
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 
@@ -102,9 +102,9 @@ Microsoft 서비스가 모든 고객에 대해 일관성이 있으므로 microso
 - [Microsoft Azure를 사용 하 여 보안 상태 솔루션을 디자인 하는 실용적인 가이드](https://aka.ms/azureindustrysecurity) 를 통해 안전한 방식으로 클라우드 서비스를 성공적으로 채택 하는 데 필요한 정보를 보다 효율적으로 파악할 수 있습니다.
 - [Microsoft 클라우드에서 HIPAA 보안 및 개인 정보 요구 사항을 해결](https://smb.blob.core.windows.net/smbproduction/Content/Microsoft_Cloud_Healthcare_HIPAA_Security_Privacy.pdf) 하면 규정 요구 사항에 대 한 간략 한 개요를 제공 합니다. 또한 이러한 요구 사항에 매핑되는 방법론을 사용 하 여 Microsoft 클라우드 서비스가 구축 된 방식 및 준수 준비 솔루션을 구축 하는 방법에 대 한 자세한 분석을 제공 합니다.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용 하 여 위험 평가
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용하여 위험 평가
 
-[Microsoft 준수 관리자](compliance-manager.md) 는 조직의 규정 준수 상태를 이해 하 고 위험을 줄이는 데 도움이 되는 작업을 수행 하는 데 도움이 되는 [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 기능입니다. 준수 관리자는이 규정에 대 한 평가를 빌드하기 위한 프리미엄 템플릿을 제공 합니다. 준수 관리자의 **평가 템플릿** 페이지에서 템플릿을 찾습니다. [준수 관리자에서 평가를 작성](compliance-manager-assessments.md)하는 방법을 알아봅니다.
+[Microsoft 준수 관리자](compliance-manager.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)의 기능입니다. 준수 관리자는 이 규제에 대한 평가를 빌드하기 위한 프리미엄 서식 파일을 제공합니다. 준수 관리자의 **평가 서식 파일** 페이지에서 서식 파일을 찾습니다. [준수 관리자의 평가 빌드](compliance-manager-assessments.md) 방법에 대해 알아봅니다.
 
 ## <a name="resources"></a>리소스
 
