@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 775a3d21697103d6ed0b891aef605197741d3dbd
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 1c12618b92a84cb7861d1df243a689cd1cf8a17c
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208120"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48304838"
 ---
 # <a name="trusted-information-security-assessment-exchange-tisax-germany"></a>신뢰할 수 있는 정보 보안 평가 교환(TISAX) 독일
 
 ## <a name="about-tisax"></a>TISAX에 대한 정보
 
-자동차 업계에서 계속해서 증가하는 연결성을 보호하는데 도움을 주기 위해 독일의 자동차 업계 협회([Verband der Automobilindustrie](https://www.dict.cc/deutsch-englisch/Verband.html), VDA)는 정보 보안 평가를 위한 기준의 카탈로그를 개발 했습니다. VDA의 정보 보안 평가([독일어](https://www.vda.de/de/themen/sicherheit-und-standards/informationssicherheit/informationssicherheit-sicherheitsanforderungen.html) 및 [영어](https://www.vda.de/en/topics/safety-and-standards/information-security/information-security-requirements))는 자동차 산업에 맞게 개작된 국제 ISO/IEC 27001 및 27002 표준의 기본 사항에 기반하고 있습니다. 이는 2017년 클라우드 서비스의 사용에 대한 컨트롤을 포함하도록 업데이트되었습니다.
+자동차 업계에서 계속해서 증가하는 연결성을 보호하는데 도움을 주기 위해 독일의 자동차 업계 협회([Verband der Automobilindustrie](https://www.vda.de), VDA)는 정보 보안 평가를 위한 기준의 카탈로그를 개발 했습니다. VDA의 정보 보안 평가([독일어](https://www.vda.de/de/themen/sicherheit-und-standards/informationssicherheit/informationssicherheit-sicherheitsanforderungen.html) 및 [영어](https://www.vda.de/en/topics/safety-and-standards/information-security/information-security-requirements))는 자동차 산업에 맞게 개작된 국제 ISO/IEC 27001 및 27002 표준의 기본 사항에 기반하고 있습니다. 이는 2017년 클라우드 서비스의 사용에 대한 컨트롤을 포함하도록 업데이트되었습니다.
 
 VDA의 회원 업체들은 이를 내부 보안 평가 및 공급업체, 서비스 공급업체 그리고 그들을 대신하여 중요한 정보를 처리하는 기타 파트너의 평가에 사용하였습니다. 그러나 이러한 평가는 각 회사에서 개별적으로 처리되었기 때문에, 파트너에게 부담을 주었고 VDA 회원의 역할에 대해 중복된 노력을 발생시켰습니다.
 
