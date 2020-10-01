@@ -3,7 +3,7 @@ title: Microsoft 365에 대 한 디렉터리 동기화 설정
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/15/2020
+ms.date: 09/30/2020
 audience: Admin
 ms.topic: get-started-article
 ms.service: o365-administration
@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 1b3b5318-6977-42ed-b5c7-96fa74b08846
 description: Microsoft 365와 온-프레미스 Active Directory 간에 디렉터리 동기화를 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3a846a6c558f221c1869dce6da27e3d34680f75d
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 308774dcdbaffc1096ab6ad144484e6920accdfa
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692347"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327096"
 ---
 # <a name="set-up-directory-synchronization-for-microsoft-365"></a>Microsoft 365에 대 한 디렉터리 동기화 설정
 
@@ -35,7 +35,7 @@ ms.locfileid: "46692347"
 
 Microsoft 365는 azure AD (Active Directory) 테 넌 트를 사용 하 여 인증 및 클라우드 기반 리소스에 액세스 하기 위한 사용 권한을 위한 id를 저장 하 고 관리 합니다. 
 
-온-프레미스 AD DS (Active Directory 도메인 서비스)를 사용 하는 경우 AD DS 사용자 계정, 그룹 및 연락처를 Microsoft 365 구독의 Azure AD 테 넌 트와 동기화 할 수 있습니다. Microsoft 365의 하이브리드 id입니다. 구성 요소는 다음과 같습니다.
+온-프레미스 AD DS (Active Directory 도메인 서비스) 도메인 또는 포리스트가 있는 경우 AD DS 사용자 계정, 그룹 및 연락처를 Microsoft 365 구독의 Azure AD 테 넌 트와 동기화 할 수 있습니다. Microsoft 365의 하이브리드 id입니다. 구성 요소는 다음과 같습니다.
 
 ![Microsoft 365에 대 한 디렉터리 동기화 구성 요소](../media/about-microsoft-365-identity/hybrid-identity.png)
 
@@ -51,7 +51,7 @@ Azure AD Connect는 온-프레미스 서버에서 실행 되며 AD DS를 Azure A
 
 - 페더레이션 인증
 
-  Azure AD는 클라이언트 컴퓨터에서 인증 요청을 리디렉션하여 다른 id 공급자에 게 연결 합니다.
+  Azure AD는 다른 id 공급자에 대 한 인증을 요청 하는 클라이언트 컴퓨터를 참조 합니다.
 
 자세한 내용은 [하이브리드 id](plan-for-directory-synchronization.md) 를 참조 하세요.
   
@@ -85,7 +85,7 @@ Azure AD Connect에 대 한 하드웨어, 소프트웨어, 계정 및 사용 권
 - 어떤 인증 방법 (PHS, PTA, 페더레이션된)
 - [AZURE AD 원활한 sso (Single sign-on)](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso) 를 사용 하 고 있는지 여부
 
-다음 단계를 따릅니다:
+다음 단계를 따릅니다.
 
 1. [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 https://admin.microsoft.com) 하 고 왼쪽 탐색 창에서 **사용자** \> **활성 사용자** 를 선택 합니다.
 2. **활성 사용자** 페이지에서 **더** (3 개의 점) \> **디렉터리 동기화**를 선택 합니다.

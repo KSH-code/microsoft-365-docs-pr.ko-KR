@@ -17,12 +17,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: 관리자는 구성 분석기를 사용 하 여 표준 보호 및 엄격한 보호 사전 설정 보안 정책 아래에 있는 보안 정책을 찾아서 수정 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: d2d37d937f42587ad99e4145d3a9f9fbc6a5a0f4
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: ac70b7fa2b2d0ecc65cf81ea4e5e5f2e807f2467
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203434"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326582"
 ---
 # <a name="configuration-analyzer-for-protection-policies-in-eop-and-office-365-atp"></a>EOP 및 Office 365 ATP의 보호 정책에 대 한 구성 분석기
 
@@ -50,9 +50,9 @@ ms.locfileid: "48203434"
     - [가장 설정](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies)
     - [고급 피싱 임계값](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-atp-anti-phishing-policies)
 
-  - [안전한 링크 정책](recommended-settings-for-eop-and-office365-atp.md#safe-links-policy-settings-in-custom-policies-for-specific-users)
+  - [안전한 링크 정책](set-up-atp-safe-links-policies.md)
 
-  - [안전한 첨부 파일 정책](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-policy-settings-in-custom-policies-for-specific-users)
+  - [안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md)
 
 초기 계획으로 사용 되는 **표준** 및 **엄격한** 정책 설정 값은 [EOP 및 Office 365 ATP 보안에 대 한 권장 설정](recommended-settings-for-eop-and-office365-atp.md)에 설명 되어 있습니다.
 

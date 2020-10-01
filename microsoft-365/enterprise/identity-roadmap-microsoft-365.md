@@ -1,11 +1,11 @@
 ---
-title: Microsoft 365에 대 한 id 로드맵
+title: Microsoft 365의 ID 로드맵
 f1.keywords:
 - NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/10/2020
+ms.date: 09/30/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365에 대 한 id 로드맵입니다.
-ms.openlocfilehash: e268422fcd6cfba36b1a971629036d29827806f6
-ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
+ms.openlocfilehash: 997df19ca71b67d3fa579b9feaf3e1a61bc7a358
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47775126"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327774"
 ---
-# <a name="identity-roadmap-for-microsoft-365"></a>Microsoft 365에 대 한 id 로드맵
+# <a name="identity-roadmap-for-microsoft-365"></a>Microsoft 365의 ID 로드맵
 
 엔터프라이즈에 대 한 Microsoft 365에서 잘 계획 되 고 실행 되는 id 인프라는 생산성 워크 로드 및 해당 데이터에 대 한 액세스를 인증 된 사용자 및 장치에만 제한 하는 것을 포함 하 여 보다 강력한 보안을 강화할 수 하는 방식으로
 
-Microsoft 365 for enterprise의 id 모델 및 인증에 대 한 개요를 보려면 다음 비디오를 시청 하세요.
+Microsoft 365 for enterprise의 id 모델 및 인증에 대 한 개요를 보려면이 비디오를 시청 하세요.
 
 <p> </p>
 
@@ -38,7 +38,7 @@ Microsoft 365 for enterprise의 id 모델 및 인증에 대 한 개요를 보려
 
 이 두 페이지 포스터를 검토 하 여 엔터프라이즈의 Microsoft 365에 대 한 id 개념 및 구성을 빠르게 확인할 수 있습니다.
 
-또한 [이 포스터를 다운로드할](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/m365e-identity-infra.pdf)수 있습니다. Letter, legal 또는 tabloid (11 x 17) 형식으로 인쇄할 수 있습니다.
+또한 [이 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/m365e-identity-infra.pdf) 하 여 letter, legal 또는 tabloid (11 x 17) 형식으로 인쇄할 수 있습니다.
 
 ## <a name="plan"></a>계획
 
@@ -66,10 +66,14 @@ Id 구현을 배포 하려면
 
 ## <a name="manage"></a>관리
 
-Id 구현을 관리 하려면 다음을 수행 합니다.
+Microsoft 365 id 배포를 관리 하려면 다음을 참조 하세요.
 
-- [라이선스 할당 및 사용자 계정 관리](assign-licenses-to-user-accounts.md)
-- [디렉터리 동기화 모니터링](view-directory-synchronization-status.md)
+- [사용자 계정](manage-microsoft-365-accounts.md)
+- [라이선스](assign-licenses-to-user-accounts.md)
+- [암호](manage-microsoft-365-passwords.md)
+- [그룹](manage-microsoft-365-groups.md)
+- [거버넌스](manage-microsoft-365-identity-governance.md)
+- [디렉터리 동기화](view-directory-synchronization-status.md)
 
 ## <a name="how-microsoft-does-identity-for-microsoft-365"></a>Microsoft에서 Microsoft 365를 식별 하는 방법
 

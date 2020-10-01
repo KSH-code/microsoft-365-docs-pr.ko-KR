@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: 관리자는 Microsoft 365에서 피싱 메시지를 통해 얻은 이유와 방법을 파악 하 고, 향후 피싱 메시지를 더 많이 방지 하기 위해 수행 해야 하는 작업에 대해 알아봅니다.
-ms.openlocfilehash: c62d09a1cf8b586b5c1d4393d7316d6d6d0cc96d
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 813a9c263d9cc620606c7a5e272e47bdaf1ff7a7
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201678"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328062"
 ---
 # <a name="tune-anti-phishing-protection"></a>피싱 방지 보호 기능 조정
 
@@ -32,11 +32,11 @@ Microsoft 365에는 기본적으로 사용 하도록 설정 된 다양 한 피�
 
 구독에 ATP (Advanced Threat Protection)가 포함 되어 있으면 [Office 365 위협 인텔리전스](office-365-ti.md) 를 사용 하 여 피싱 메시지도 받은 다른 사용자를 식별할 수 있습니다. 피싱 메시지를 차단 하는 추가 옵션은 다음과 같습니다.
 
-- [ATP 안전한 링크](set-up-atp-safe-links-policies.md)
+- [Office 365 ATP의 안전한 링크](set-up-atp-safe-links-policies.md)
 
-- [ATP 안전한 첨부 파일](set-up-atp-safe-attachments-policies.md)
+- [Office 365 ATP의 안전한 첨부 파일](set-up-atp-safe-attachments-policies.md)
 
-- [Microsoft 365의 ATP 피싱 방지 정책](configure-atp-anti-phishing-policies.md) 정책의 **고급 피싱 임계값** 을 **표준** 에서 일시적 **으로, 적극적** **으로 또는** **적극적인**로 높일 수 있습니다.
+- [Office 365 ATP의 피싱 방지 정책](configure-atp-anti-phishing-policies.md) 정책의 **고급 피싱 임계값** 을 **표준** 에서 일시적 **으로, 적극적** **으로 또는** **적극적인**로 높일 수 있습니다.
 
 ATP 기능이 설정 되어 있는지 확인 합니다.
 

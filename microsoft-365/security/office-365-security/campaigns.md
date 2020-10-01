@@ -17,12 +17,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection의 캠페인 보기에 대해 알아보세요.
-ms.openlocfilehash: 881dcde1157877eb015d9700bcbcd08fd3336192
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: df3b3c7a0e8d8f614e5f743b445af07916f1dfd5
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203482"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326594"
 ---
 # <a name="campaign-views-in-office-365-atp"></a>Office 365 ATP의 캠페인보기
 
@@ -264,9 +264,9 @@ Microsoft Defender ATP 구독을 사용 하는 경우에는 **Wdatp** 를 클릭
 
 - **허용됨**
 
-- **Blockpage**: 받는 사람이 페이로드 URL을 클릭 했지만, 악의적인 웹 사이트에 대 한 액세스 권한이 조직의 [ATP 안전한 링크](atp-safe-links.md) 정책에 의해 차단 되었습니다.
+- **Blockpage**: 받는 사람이 페이로드 URL을 클릭 했지만 해당 사용자의 악의적인 웹 사이트에 대 한 액세스 권한이 조직의 [안전한 링크](atp-safe-links.md) 정책에 의해 차단 되었습니다.
 
-- **Blockpageoverride**: 받는 사람이 메시지의 페이로드 URL을 클릭 했을 때 ATP 안전한 링크가 중지 하려고 했지만 블록을 재정의할 수 있었습니다. [안전한 링크 정책을](set-up-atp-safe-links-policies.md) 조사 하 여 사용자가 안전한 링크 결과를 재정의 하 고 악성 웹 사이트로 계속 이동할 수 있는 이유를 확인 합니다.
+- **Blockpageoverride**: 받는 사람이 메시지의 페이로드 URL을 클릭 했지만 안전한 링크가 중지 하려고 했지만 차단 된 링크를 무시할 수 있었습니다. [안전한 링크 정책을](set-up-atp-safe-links-policies.md) 조사 하 여 사용자가 안전한 링크 결과를 재정의 하 고 악성 웹 사이트로 계속 이동할 수 있는 이유를 확인 합니다.
 
 - **PendingDetonationPage**: OFFICE 365 ATP의 안전한 첨부 파일은 가상 컴퓨터 환경에서 페이로드 URL을 열고 조사 하는 과정을 진행 중입니다.
 

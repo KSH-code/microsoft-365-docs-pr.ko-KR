@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection) 및 Office 365 Advanced Threat Protection (Office 365 ATP)에서 사용할 수 있는 피싱 방지 정책에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 945b346a5ebd4a85776d87c019ee1a06aec73635
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 498b6e27b3fca66e388eaa27ba7895056ef7f0fc
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195918"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326940"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Microsoft 365의 피싱 방지 정책
 
@@ -220,4 +220,4 @@ ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 
 
 - **최대 적극적인**: 낮음, 중간 또는 높은 신뢰도의 피싱으로 식별 되는 메시지는 높은 신뢰도로 식별 된 것으로 간주 됩니다.
 
-가양성 (잘못 된 것으로 표시 되는 메시지 양호)이 증가 하면이 설정이 향상 됩니다. 권장 설정에 대 한 자세한 내용은 [OFFICE ATP 피싱 방지 정책 설정을](recommended-settings-for-eop-and-office365-atp.md#office-atp-anti-phishing-policy-settings)참조 하십시오.
+가양성 (잘못 된 것으로 표시 되는 메시지 양호)이 증가 하면이 설정이 향상 됩니다. 권장 설정에 대 한 자세한 내용은 [ATP 피싱 방지 정책 설정을](recommended-settings-for-eop-and-office365-atp.md#atp-anti-phishing-policy-settings)참조 하십시오.

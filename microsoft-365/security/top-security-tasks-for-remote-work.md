@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: 랜 섬 웨어, 피싱 및 악의적 첨부 파일을 포함 하 여 사이버 위협 으로부터 비즈니스 전자 메일 및 데이터를 보호 합니다.
-ms.openlocfilehash: 6643228a3f71ba3c0c993577ba60b8e365b3d3df
-ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
+ms.openlocfilehash: 754f3eac884128e0707a02c15d4d3766f5fa4ca5
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48318231"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327798"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>집에서 작업을 지원 하기 위한 보안 팀을 위한 상위 12 개 작업
 
@@ -100,14 +100,13 @@ Office 365 ATP:
 
 전역 관리자는 이러한 보호를 구성할 수 있습니다.
 
-- [ATP 안전한 링크 설정](office-365-security/set-up-atp-safe-links-policies.md)
-- [ATP 안전한 첨부 파일 정책 설정](office-365-security/set-up-atp-safe-attachments-policies.md)
-- [사용자 지정 "재작성 금지" URL 목록 설정](office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
-- [차단된 사용자 지정 URL 목록 설정](office-365-security/set-up-a-custom-blocked-urls-list-atp.md)
+- [안전한 링크 정책 설정](office-365-security/set-up-atp-safe-links-policies.md)
+- [안전한 링크에 대 한 전역 설정 구성](office-365-security/configure-global-settings-for-safe-links.md)
+- [안전한 첨부 파일 정책 설정](office-365-security/set-up-atp-safe-attachments-policies.md)
 
 Exchange Online 관리자 및 SharePoint Online 관리자와 협력 하 여 이러한 작업에 대 한 ATP를 구성 해야 합니다.
 
-- [SharePoint, OneDrive 및 Microsoft Teams의 ATP 켜기](office-365-security/turn-on-atp-for-spo-odb-and-teams.md)
+- [SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](office-365-security/atp-for-spo-odb-and-teams.md)
 
 ## <a name="4-configure-azure-advanced-threat-protection"></a>4: Azure Advanced Threat Protection 구성
 

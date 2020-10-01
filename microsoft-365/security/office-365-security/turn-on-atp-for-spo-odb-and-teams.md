@@ -19,95 +19,149 @@ ms.collection:
 - SPO_Content
 description: 검색 된 파일에 대 한 알림을 설정 하는 방법을 포함 하 여 SharePoint, OneDrive 및 팀에 대 한 ATP를 설정 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0c8c8d0f3caa3e717f8193a3c0d6b7bb1d40dab6
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 1cd345ae74b81c23f92b9e9b7d712efa8b875503
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201594"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326904"
 ---
 # <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams의 ATP 켜기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+SharePoint, OneDrive 및 Microsoft 팀의 Office 365 Advanced Threat Protection (ATP)은 악의적인 파일을 실수로 공유 하지 않도록 조직을 보호 합니다. 자세한 내용은 [SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP](atp-for-spo-odb-and-teams.md)를 참조 하세요.
 
-> [!IMPORTANT]
-> 이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)이 있는 비즈니스 고객을 대상으로 합니다. Outlook의 안전한 링크에 대 한 정보를 검색 하는 개인 사용자는 [Advanced Outlook.com security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하십시오.
+이 문서에는 SharePoint, OneDrive 및 Microsoft 팀에서 ATP를 사용 하도록 설정 하 고 구성 하는 단계가 포함 되어 있습니다.
 
-[Office 365 ATP For SharePoint, OneDrive 및 Microsoft 팀은](atp-for-spo-odb-and-teams.md) 악의적인 파일을 실수로 공유 하지 않도록 조직을 보호 합니다. 악성 파일이 검색 되 면 해당 파일이 차단 되므로 조직의 보안 팀이 추가 작업을 수행할 때까지 아무도 해당 파일을 열거나 복사 하거나 이동 하거나 공유할 수 없습니다. 이 문서를 읽으면 SharePoint, OneDrive 및 팀에 대 한 ATP를 켜고, 검색 된 파일에 대 한 알림을 받을 알림을 설정 하 고, 다음 단계를 수행 합니다.
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-ATP 정책을 정의 하거나 편집 하려면 적절 한 역할이 할당 되어 있어야 합니다. 다음 표에서는 몇 가지 예를 설명 합니다.
+- <https://protection.office.com>에서 보안 및 준수 센터를 엽니다. **ATP 안전한 첨부 파일** 페이지로 바로 이동 하려면를 엽니다 <https://protection.office.com/safeattachmentv2> .
 
-****
+- SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP를 설정 하려면 보안 & 준수 센터에서 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
-|역할|할당 된 위치/방법|
-|---|---|
-|전역 관리자|Microsoft 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) 를 참조 하세요.|
-|보안 관리자|Azure Active Directory 관리 센터 ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
-|Exchange Online 조직 관리|Exchange 관리 센터 ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)참조)|
-|
+- SharePoint Online PowerShell을 사용 하 여 사용자가 악성 파일을 다운로드 하지 못하도록 하려면 Azure AD에서 [전역 관리자](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-administrator--company-administrator) 또는 [SharePoint 관리자](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#sharepoint-administrator) 역할의 구성원 이어야 합니다.
 
-## <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams의 ATP 켜기
+- 조직에 대해 감사 로깅이 사용 하도록 설정 되어 있는지 확인 합니다. 자세한 내용은 [감사 로그 검색 설정 및 해제](../../compliance/turn-audit-log-search-on-or-off.md)를 참조하세요.
 
-[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+- 설정이 적용 되도록 최대 30 분을 허용 합니다.
 
+## <a name="step-1-use-the-security--compliance-center-to-turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>1 단계: 보안 & 준수 센터를 사용 하 여 SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP를 설정 합니다.
 
-**이 절차를 시작 하기 전에 Microsoft 365 환경에 대해 감사 로깅이 이미 설정 되어 있는지 확인**합니다. 이 작업은 일반적으로 Exchange Online에서 감사 로그 역할이 할당 된 사용자가 수행 합니다. 자세한 내용은 [감사 로그 검색 설정 및 해제](../../compliance/turn-audit-log-search-on-or-off.md)를 참조하세요.
+1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 안전한 첨부 파일로**이동한 다음 **전역 설정을**클릭 합니다.
 
-1. 으로 이동 하 여 <https://protection.office.com> 회사 또는 학교 계정으로 로그인 합니다.
+2. 화면에 표시 되는 **전역 설정** 에서 **SharePoint, OneDrive 및 Microsoft 팀 설정에 대 한 ATP** 설정으로 이동 합니다. ![ ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP를 켜려면 오른쪽으로 설정/해제를 차례로 이동 합니다.
 
-2. 보안 & 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책** \> **안전한 첨부 파일**을 선택 합니다.
+   작업을 마쳤으면 **저장**을 클릭합니다.
 
-   ![보안 & 준수 센터에서 위협 관리 \> 정책 선택](../../media/08849c91-f043-4cd1-a55e-d440c86442f2.png)
+### <a name="use-exchange-online-powershell-to-turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Exchange Online PowerShell을 사용 하 여 SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP를 설정 합니다.
 
-3. **SharePoint, OneDrive 및 Microsoft 팀에 대해 ATP 사용**을 선택 합니다.
+PowerShell을 사용 하 여 SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP를 설정 하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) 하 고 다음 명령을 실행 합니다.
 
-   ![SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀에 대 한 Advanced Threat Protection 설정](../../media/48cfaace-59cc-4e60-bf86-05ff6b99bdbf.png)
+```powershell
+Set-AtpPolicyForO365 -EnableATPForSPOTeamsODB $true
+```
 
-4. **저장**을 클릭합니다.
+구문 및 매개 변수에 대 한 자세한 내용은 [AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange/set-atppolicyforo365)를 참조 하십시오.
 
-5. 조직의 [안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md) 및 [안전한 링크 정책을](set-up-atp-safe-links-policies.md)검토 하 고 적절 하 게 편집 합니다.
+## <a name="step-2-recommended-use-sharepoint-online-powershell-to-prevent-users-from-downloading-malicious-files"></a>2 단계: (권장) SharePoint Online PowerShell을 사용 하 여 사용자가 악성 파일을 다운로드 하지 못하도록 차단
 
-6. 는 전역 관리자 또는 SharePoint Online 관리자는 _DisallowInfectedFileDownload_ 매개 변수를 *true*로 설정 하 여 **[set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)** cmdlet을 실행 합니다.
+기본적으로 사용자는 ATP에서 검색 된 악의적 파일을 열거나, 이동 하거나 복사 하거나, 공유할 수 없습니다. 그러나 악성 파일을 삭제 하 고 다운로드할 수 있습니다.
 
-   - 이 매개 변수를 *true* 로 설정 하면 검색 된 파일에 대 한 모든 작업 (삭제 제외)이 차단 됩니다. 사용자가 검색 된 파일을 열거나, 이동 하거나, 복사 하거나, 공유할 수 없습니다.
+사용자가 악성 파일을 다운로드 하지 못하도록 하려면 [SharePoint Online PowerShell에 연결](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) 하 고 다음 명령을 실행 합니다.
 
-   - 이 매개 변수를 *false* 로 설정 하면 삭제 및 다운로드를 제외한 모든 작업이 차단 됩니다. 사용자는 위험을 수락 하 고 검색 된 파일을 다운로드할 수 있습니다.
+```powershell
+Set-SPOTenant -DisallowInfectedFileDownload $true
+```
 
-7. 변경 내용이 모든 Microsoft 365 데이터 센터에 전파 되는 데 최대 30 분 정도 걸릴 수 있습니다.
+**참고:**
 
-8. 는 검색 된 파일에 대 한 알림 설정으로 이동 합니다.
+- 이 설정은 사용자와 관리자 모두에 게 영향을 줍니다.
+- 사용자는 여전히 악성 파일을 삭제할 수 있습니다.
 
-Microsoft 365에서 PowerShell을 사용 하는 방법에 대 한 자세한 내용은 PowerShell을 사용 하 여 [microsoft 365 관리](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-with-microsoft-365-powershell)를 참조 하세요.
+구문 및 매개 변수에 대 한 자세한 내용은 [set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)를 참조 하십시오.
 
-파일이 악성으로 검색 되었을 때의 사용자 환경에 대 한 자세한 내용은 [SharePoint Online, OneDrive 또는 Microsoft 팀에서 악의적인 파일을 찾은 경우 수행할](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)작업을 참조 하십시오.
+## <a name="step-3-recommended-use-the-security--compliance-center-to-create-an-alert-policy-for-detected-files"></a>3 단계 (권장) 보안 & 준수 센터를 사용 하 여 검색 된 파일에 대 한 경고 정책 만들기
 
-## <a name="set-up-alerts-for-detected-files"></a>검색 된 파일에 대 한 알림 설정
+SharePoint, OneDrive 및 Microsoft 팀이 악성 파일을 검색할 때 사용자에 게 알려 주고 다른 관리자에 게 알리는 경고 정책을 만들 수 있습니다. 경고에 대 한 자세한 내용은 [보안 & 준수 센터에서 활동 경고 만들기](../../compliance/create-activity-alerts.md)를 참조 하십시오.
 
-SharePoint Online의 파일 (비즈니스용 OneDrive 또는 Microsoft 팀)이 악성으로 식별 된 경우 알림을 받으려면 알림을 설정 하면 됩니다.
+1. [보안 & 준수 센터](https://protection.office.com)에서 **알림** \> **경고 정책** 으로 이동 하거나 엽니다 <https://protection.office.com/alertpolicies> .
 
-1. [보안 & 준수 센터](https://protection.office.com) **에서 경고를** \> **관리**합니다 .를 선택 합니다.
+2. **경고 정책** 페이지에서 **새 경고 정책을**클릭 합니다.
 
-2. **새 경고 정책을**선택 합니다.
+3. **새 경고 정책** 마법사가 즉시 열립니다. **알림 이름** 설정 페이지에서 다음 설정을 구성 합니다.
 
-3. 알림의 이름을 지정 합니다. 예를 들어 라이브러리에 유해한 파일을 입력할 수 있습니다.
+   - **이름**: 고유한 이름을 입력 합니다. 예를 들어 라이브러리의 악성 파일
+   - **설명**: 선택적 설명을 입력 합니다. 예를 들어 SharePoint Online, OneDrive 또는 Microsoft 팀에서 악성 파일이 검색 되 면 관리자에 게 알립니다.
+   - **심각도**: 기본값을 **낮은** 값으로 선택 하거나 **중간** 또는 **높음을**선택 합니다.
+   - **범주 선택**: **위협 관리**를 선택 합니다.
 
-4. 경고에 대 한 설명을 입력 합니다. 예를 들어 SharePoint Online, OneDrive 또는 Microsoft 팀에서 악성 파일이 검색 되 면 관리자에 게 알림 메시지를 입력할 수 있습니다.
+   작업을 마친 후 **다음**을 클릭합니다.
 
-5. **알림 보내기** 위치 섹션에서 다음을 수행 합니다.
+4. **알림 설정 만들기** 페이지에서 다음 설정을 구성 합니다.
 
-   a. **작업** 목록에서 **검색 된 맬웨어를 파일에서**선택 합니다.
+   - **어떤 사항에 알림을 하시 겠어요?: 작업**: **검색 된 맬웨어를 파일에서**선택 합니다.
+   - **알림을 어떻게 트리거하거나 요?**: **활동이 선택한 규칙과 일치 하는 시간 마다** 기본값을 유지 합니다.
 
-   b. **Users** 필드는 비워 둡니다.
+   작업을 마친 후 **다음**을 클릭합니다.
 
-6. **이 알림 보내기** ... 섹션에서 악의적인 파일이 검색 되 면 알림을 받을 전역 관리자, 보안 관리자 또는 보안 판독기를 하나 이상 선택 합니다.
+5. **받는 사람 설정** 페이지에서 다음 설정을 구성 합니다.
 
-7. **저장**을 클릭합니다.
+   - **전자 메일 알림 보내기**:이 설정이 선택 되어 있는지 확인 합니다. **전자 메일 받는 사람** 상자에서 악의적인 파일을 검색할 때 알림을 받을 전역 관리자, 보안 관리자 또는 보안 판독기를 하나 이상 선택 합니다.
+   - **일별 알림 제한**: 기본값은 제한을 선택 **하지 않습니다** .
 
-경고에 대 한 자세한 내용은 [보안 & 준수 센터에서 활동 경고 만들기](../../compliance/create-activity-alerts.md)를 참조 하십시오.
+   작업을 마친 후 **다음**을 클릭합니다.
 
-## <a name="next-steps"></a>다음 단계
+6. **설정 검토** 페이지에서 설정을 검토 하 고 원하는 섹션에서 **편집** 을 클릭 하 여 변경을 수행 합니다.
 
-1. [SharePoint, OneDrive 또는 Microsoft Teams에서 감지한 악성 파일에 대한 정보 보기](malicious-files-detected-in-spo-odb-or-teams.md)
+   정책을 즉시 **사용할 수 있도록 설정** 하 시겠습니까? 섹션에서 기본값 **예를** 그대로 둔 채 설정 합니다.
 
-2. [Microsoft 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리](manage-quarantined-messages-and-files.md)
+   작업이 완료 되 면 **마침을**클릭 합니다.
+
+### <a name="use-security--compliance-powershell-to-create-an-alert-policy-for-detected-files"></a>보안 & 준수 PowerShell을 사용 하 여 검색 된 파일에 대 한 경고 정책 만들기
+
+PowerShell을 사용 하 여 이전 섹션에 설명 된 것과 동일한 경고 정책을 만드는 경우 [보안 & 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 하 고 다음 명령을 실행 합니다.
+
+```powershell
+New-ActivityAlert -Name "Malicious Files in Libraries" -Description "Notifies admins when malicious files are detected in SharePoint Online, OneDrive, or Microsoft Teams" -Category ThreatManagement -Operation FileMalwareDetected -NotifyUser "admin1@contoso.com","admin2@contoso.com"
+```
+
+**참고**: 기본 _심각도_ 값이 낮음을 확인 합니다. 중간 또는 높음을 지정 하려면 명령에 _심각도_ 매개 변수와 값을 포함 합니다.
+
+구문과 매개 변수에 대 한 자세한 내용은 [신규-ActivityAlert](https://docs.microsoft.com/powershell/module/exchange/new-activityalert)를 참조 하십시오.
+
+### <a name="how-do-you-know-these-procedures-worked"></a>이 절차가 제대로 수행되었는지 어떻게 확인하나요?
+
+- SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP가 성공적으로 설정 되었는지 확인 하려면 다음 단계 중 하나를 사용 합니다.
+
+  - [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리** \> **정책** \> **ATP 안전한 첨부 파일로**이동 하 여 **전역 설정을**선택 하 고 **SharePoint, OneDrive 및 Microsoft 팀 설정에 대 한 ATP** 설정 값을 확인 합니다.
+
+  - Exchange Online PowerShell에서 다음 명령을 실행 하 여 속성 설정을 확인 합니다.
+
+    ```powershell
+    Get-AtpPolicyForO365 | Format-List EnableATPForSPOTeamsODB
+    ```
+
+    구문과 매개 변수에 대 한 자세한 내용은 [AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange/get-atppolicyforo365)를 참조 하십시오.
+
+- 사용자가 악성 파일을 다운로드 하지 못하도록 올바르게 차단 되었는지 확인 하려면 SharePoint Online PowerShell을 열고 다음 명령을 실행 하 여 속성 값을 확인 합니다.
+
+  ```powershell
+  Get-SPOTenant | Format-List DisallowInfectedFileDownload
+  ```
+
+  구문과 매개 변수에 대 한 자세한 내용은 [set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)를 참조 하십시오.
+
+- 검색 된 파일에 대 한 경고 정책이 성공적으로 구성 되었는지 확인 하려면 다음 단계 중 하나를 사용 합니다.
+
+  - 보안 & 준수 센터에서 **알림** \> **경고 정책** 으로 이동 하 여 \> 경고 정책을 선택 하 고 설정을 확인 합니다.
+
+  - 보안 & 준수 센터 PowerShell에서 \<AlertPolicyName\> 경고 정책의 이름으로 바꾸고 다음 명령을 실행 하 여 속성 값을 확인 합니다.
+
+    ```powershell
+    Get-ActivityAlert -Identity "<AlertPolicyName>"
+    ```
+
+    구문 및 매개 변수에 대 한 자세한 내용은 [Get-ActivityAlert](https://docs.microsoft.com/powershell/module/exchange/get-activityalert)를 참조 하십시오.
+
+- [위협 방지 상태 보고서](view-email-security-reports.md#threat-protection-status-report) 를 사용 하 여 SharePoint, OneDrive 및 Microsoft 팀에서 검색 된 파일에 대 한 정보를 볼 수 있습니다. 특히 **데이터 보기 기준: 콘텐츠 \> 맬웨어** 보기를 사용할 수 있습니다.

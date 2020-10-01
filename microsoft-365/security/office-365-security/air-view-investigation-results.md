@@ -16,12 +16,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Microsoft 365에서 자동화 된 조사가 진행 되는 동안과 후에는 결과 및 주요 발견 사항을 볼 수 있습니다.
 ms.date: 09/29/2020
-ms.openlocfilehash: df0eaa54d8bc1c9cd6c91b6b36958e1eb0d2bfd6
-ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
+ms.openlocfilehash: 4be5f3814ed798a0e7fd42285ed2884a5cc29461
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48309109"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327702"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Microsoft 365의 자동화 된 조사에 대 한 세부 정보 및 결과
 
@@ -247,7 +247,7 @@ ms.locfileid: "48309109"
 |아웃 바운드 맬웨어 및 스팸 변칙 조사|조직 내 사용자 로부터 보낸 조직 내 및 아웃 바운드 맬웨어, 피싱 또는 스팸 감지|
 |보낸 사람 도메인 조사|[Microsoft 지능형 보안 그래프](https://www.microsoft.com/security/operations/intelligence) 및 외부 위협 인텔리전스 원본의 도메인 신뢰도에 대 한 주문형 확인|
 |보낸 사람 IP 조사| [Microsoft 지능형 보안 그래프](https://www.microsoft.com/security/operations/intelligence) 및 외부 위협 인텔리전스 원본의 IP 신뢰도에 대 한 주문형 확인|
-|URL 클릭 조사| 조직의 [Office 365 ATP 안전한 링크](atp-safe-links.md) 를 클릭 하 여 사용자에 게 보호|
+|URL 클릭 조사| 조직의 [Office 365 ATP에서 안전한 링크로](atp-safe-links.md) 보호 된 사용자의 클릭을 조사 합니다.|
 |URL 신뢰도 조사|[Microsoft 지능형 보안 그래프](https://www.microsoft.com/security/operations/intelligence) 및 외부 위협 인텔리전스 원본의 URL 신뢰도에 대 한 주문형 확인|
 |사용자 활동 조사|[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) 에서 사용자 활동 예외 분석|
 |사용자가 보고 한 전자 메일 지표 추출|조사를 위해 사용자에 게 [보고 된 전자 메일](enable-the-report-message-add-in.md) 의 머리글, 본문 및 콘텐츠에서 지표 추출|
@@ -271,6 +271,6 @@ ms.locfileid: "48309109"
 
 ## <a name="next-steps"></a>다음 단계
 
-- [보류 중인 작업 검토 및 승인](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions?view=o365-worldwide#approve-or-reject-pending-actions)
+- [보류 중인 작업 검토 및 승인](air-review-approve-pending-completed-actions.md#approve-or-reject-pending-actions)
 
 - [Microsoft Threat Protection의 자동화 된 조사 및 응답에 대해 자세히 알아보기](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

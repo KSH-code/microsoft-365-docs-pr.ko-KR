@@ -8,7 +8,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.author: heidip
-ms.date: 09/18/2020
+ms.date: 09/30/2020
 ms.reviewer: anmorgan
 ms.custom:
 - it-pro
@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 570ef098a3989bf42d641b78e325414350b8e5a5
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: b9a9044a063c01724710679682e1edbe458dec0f
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132115"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327146"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>팀 대화방, 그룹 및 파일을 보호 하기 위한 정책 권장 사항
 
@@ -66,7 +66,6 @@ Microsoft 팀을 시작 하기 위해 종속 서비스를 사용 하도록 설�
 |        |[최신 인증을 지원하지 않는 클라이언트 차단](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|클라우드 앱 할당에 팀 및 종속 서비스를 포함 합니다.|
 |        |[위험이 높은 사용자는 암호를 변경해야 함](identity-access-policies.md#high-risk-users-must-change-password)|계정에 대해 높은 위험 활동이 검색 되는 경우 팀 사용자가 로그인 할 때 암호를 변경 하도록 강제 적용 합니다. 팀 및 종속 서비스가 앱 목록에 포함 되어 있어야 합니다.|
 |        |[앱 데이터 보호 정책 적용](identity-access-policies.md#apply-app-data-protection-policies)|팀 및 종속 서비스가 앱 목록에 포함 되어 있어야 합니다. 각 플랫폼 (iOS, Android, Windows)에 대 한 정책을 업데이트 합니다.|
-|        |[승인 된 앱 및 앱 보호 필요](identity-access-policies.md#require-approved-apps-and-app-protection)|이 정책에 팀 및 종속 서비스를 포함 합니다.|
 |        |[장치 준수 정책 정의](identity-access-policies.md#define-device-compliance-policies)|이 정책에 팀 및 종속 서비스를 포함 합니다.|
 |        |[호환 PC 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|이 정책에 팀 및 종속 서비스를 포함 합니다.|
 |**중요**|[로그인 위험이 *낮은* *경우 MFA* 필요 *high*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|팀에서 게스트 액세스 및 외부 액세스 규칙을 고려해 야 하는 경우이 문서의 뒷부분에 나오는 이러한 항목에 대해 자세히 알아볼 수 있습니다. 이 정책에 팀 및 종속 서비스를 포함 합니다.|

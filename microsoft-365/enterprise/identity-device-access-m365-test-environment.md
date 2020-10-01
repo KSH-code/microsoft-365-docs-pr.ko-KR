@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: ID 및 장치 액세스를 테스트하는 Microsoft 365 환경을 만듭니다.
-ms.openlocfilehash: c5bc0fbbb3ae3839cb7aa71e8c840784ae4a4cad
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 84af7747fc1d0e80e933397f4f0f96018ed246c3
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685857"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327810"
 ---
 # <a name="identity-and-device-access-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에 대한 ID 및 장치 액세스
 
@@ -28,15 +28,15 @@ ms.locfileid: "46685857"
 
 [Id 및 장치 액세스 구성은](microsoft-365-policies-configurations.md) Azure Active Directory (azure AD)와 통합 된 모든 서비스에 대 한 액세스를 보호 하기 위한 기능 및 조건부 액세스 정책의 집합입니다.
 
-다음 정책을 적용한 테스트 환경을 만들기 위해서는 아래 내용을 따릅니다.
+일반적인 id 및 장치 액세스 구성을 사용 하는 테스트 환경을 만들려면 다음을 수행 합니다.
 
 1. 선택한 ID 모델 및 인증 방법에 따라 필수 구성 요소 ID 및 보안 기능을 사용하여 테스트 환경을 구성합니다.
 
   - [클라우드 전용](cloud-only-prereqs-m365-test-environment.md)
-  - [암호 해시 동기화(PHS)](phs-prereqs-m365-test-environment.md)
+  - [암호 해시 동기화 (PHS)](phs-prereqs-m365-test-environment.md)
   - [통과 인증(PTA)](pta-prereqs-m365-test-environment.md)
 
-2. [일반 ID 및 장치 액세스 정책](identity-access-policies.md)을 사용하여 필수 구성 요소를 기반으로 구축되고 ID 및 장치 보호 기능을 테스트하는 정책을 구성합니다.
+2. [일반 id 및 장치 액세스 정책을](identity-access-policies.md) 사용 하 여 테스트 환경에 구성 된 필수 구성 요소를 기반으로 하는 정책을 구성 하 고 id 및 장치에 대 한 보호를 탐색 하 고 확인 합니다.
 
 ## <a name="see-also"></a>참고 항목
 

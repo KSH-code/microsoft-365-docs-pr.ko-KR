@@ -13,15 +13,16 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
+- M365initiative-CoreDeploy
 f1.keywords:
 - NOCSH
 description: SaaS 서비스에 대 한 네트워크 최적화가 중요 한 이유, Microsoft 365 네트워킹의 목표 및 각 SaaS가 다른 작업을 수행 하는 다른 네트워킹을 필요로 하는 이유에 대해 설명 합니다.
-ms.openlocfilehash: 4fea7364dc79717583ebca8ce0dbe333ee818f1f
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: acc55868e47ea89cd2357487838a88032dc8538d
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692468"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327488"
 ---
 # <a name="microsoft-365-network-connectivity-overview"></a>Microsoft 365 네트워크 연결 개요
 
@@ -94,7 +95,7 @@ Microsoft 365 네트워크 연결 원칙을 이해 하 고 적용 하는 방법�
 
 Microsoft 365 네트워크 성능 최적화는 실제로 불필요 한 장애를 제거 하는 것입니다. Microsoft 365 연결을 신뢰할 수 있는 트래픽으로 처리 하면 패킷 검사 및 프록시 대역폭 경쟁에 따라 대기 시간이 지연 되는 것을 방지할 수 있습니다. 클라이언트 컴퓨터와 Office 365 끝점 간에 로컬 연결을 허용 하면 트래픽을 Microsoft 글로벌 네트워크를 통해 동적으로 라우팅할 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft 365 네트워크 연결 원칙](microsoft-365-network-connectivity-principles.md)
 

@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: 관리자는 EOP (Exchange Online Protection) 및 Office 365 Advanced Threat Protection (ATP)의 보호 기능을 통해 표준 및 엄격한 정책 설정을 적용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 35be2b1ebfcf7ef8b7aad5cc2d4b3dd7032806b2
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 8431d36779069b0b289a2533fbd6b85abee24536
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202606"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326546"
 ---
 # <a name="preset-security-policies-in-eop-and-office-365-atp"></a>EOP 및 Office 365 ATP의 미리 설정 된 보안 정책
 
@@ -75,9 +75,9 @@ ms.locfileid: "48202606"
     - [가장 설정](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies)
     - [고급 피싱 임계값](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-atp-anti-phishing-policies)
 
-  - [안전한 링크 정책](recommended-settings-for-eop-and-office365-atp.md#safe-links-policy-settings-in-custom-policies-for-specific-users) **표준 사전 설정 보안 정책** 및 **엄격한 미리 설정 된 보안 정책**
+  - [안전한 링크 정책](set-up-atp-safe-links-policies.md) **표준 사전 설정 보안 정책** 및 **엄격한 미리 설정 된 보안 정책**
 
-  - [안전한 첨부 파일 정책](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-policy-settings-in-custom-policies-for-specific-users) **표준 미리 설정 보안 정책** 및 **엄격한 미리 설정 된 보안 정책**이라고 합니다.
+  - [안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md) **표준 미리 설정 보안 정책** 및 **엄격한 미리 설정 된 보안 정책**이라고 합니다.
 
 ATP 보호와는 다른 사용자에 게 EOP 보호를 적용할 수 있습니다.
 

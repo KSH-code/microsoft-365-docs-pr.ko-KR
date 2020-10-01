@@ -19,12 +19,12 @@ ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 ms.custom:
 - seo-marvel-apr2020
 description: 이 항목에서는 Microsoft 365 환경의 보안에 영향을 주는 테 넌 트 수준 설정에 대 한 권장 구성을 안내 합니다.
-ms.openlocfilehash: 72040469f802c2cb5a4fac132ff1c3cd8999e124
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 9e36c85b74a237a8b14904839aad55ac676dcaf4
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202022"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326928"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>보안 강화를 위해 Microsoft 365 테 넌 트 구성
 
@@ -47,8 +47,8 @@ Microsoft 365 보안 센터에는 환경을 보호 하는 기능이 포함 되�
 |---|---|---|
 |**피싱 방지**|예|사용자 지정 도메인이 있는 경우 기본 피싱 방지 정책을 구성 하 여 CEO와 같은 가장 귀중 한 사용자의 전자 메일 계정을 보호 하 고 도메인을 보호 합니다. [Office 365에서 피싱 방지 정책을](set-up-anti-phishing-policies.md) 검토 하 고 [EOP에서 피싱 방지 정책 구성을](configure-anti-phishing-policies-eop.md) 참조 하거나 [Office 365에서 ATP 피싱 방지 정책을 구성](configure-atp-anti-phishing-policies.md)합니다.|
 |**맬웨어 방지 엔진**|예| 기본 정책을 편집 합니다. <br/> &ensp;&ensp;* 일반 첨부 파일 유형 필터-선택 <br/><br/> 사용자 지정 맬웨어 필터 정책을 만들어 조직의 지정 된 사용자, 그룹 또는 도메인에 적용할 수도 있습니다. <br/><br/> 추가 정보: <br/> &ensp;&ensp;* [맬웨어 방지 보호 기능](anti-malware-protection.md) <br/> &ensp;&ensp;* [맬웨어 방지 정책 구성](configure-anti-malware-policies.md)|
-|**ATP 안전한 첨부 파일**|아니요| 안전한 첨부 파일의 기본 페이지에서 다음 확인란을 선택 하 여 SharePoint, OneDrive 및 Microsoft 팀의 파일을 보호 합니다. <br/> &ensp;&ensp;* SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP 켜기 <br/><br/> 다음 설정을 사용 하 여 새 안전 첨부 파일 정책을 추가 합니다. <br/> &ensp;&ensp;* 차단-검색 된 맬웨어로부터 현재 및 앞으로의 전자 메일 및 첨부 파일 차단 (이 옵션 선택) <br/> &ensp;&ensp;* 리디렉션 사용 — (이 상자를 선택 하 고 관리자 또는 격리 계정과 같은 전자 메일 주소를 입력 합니다.) <br/> &ensp;&ensp;* 첨부 파일에 대 한 맬웨어 검사 시간이 초과 되거나 오류가 발생 하는 경우 위의 선택을 적용 합니다 (선택 사항). <br/> &ensp;&ensp;* 적용 대상-받는 사람 도메인 (도메인 선택) <br/><br/>추가 정보: [Office 365 ATP 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md)|
-|**ATP 안전한 링크**|예| 전체 조직에 대 한 기본 정책에이 설정을 추가 합니다. <br/> &ensp;&ensp;*의 안전한 링크 사용: Microsoft 365 Apps for enterprise, Office for iOS and Android (이 옵션을 선택 하세요.) <br/><br/>특정 받는 사람에 대 한 권장 정책: <br/> &ensp;&ensp;* 사용자가 링크를 클릭할 때 알려진 악성 링크 목록에 대해 Url이 다시 작성 되 고 확인 됩니다 (이 옵션을 선택). <br/> &ensp;&ensp;* 안전한 첨부 파일을 사용 하 여 다운로드 가능한 콘텐츠를 검사 합니다 (선택 상자). <br/> &ensp;&ensp;* 적용 대상-받는 사람 도메인이 도메인을 선택 합니다. <br/><br/> 자세한 내용은 [Office 365 ATP 안전한 링크](atp-safe-links.md)를 제공 합니다.|
+|**Office 365 ATP의 안전한 첨부 파일**|아니요|안전한 첨부 파일의 기본 페이지에서 **전역 설정을** 클릭 하 고이 설정을 켭니다. <br/> &ensp;&ensp;**SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP 켜기** <br/><br/> 다음 설정을 사용 하 여 안전 첨부 파일 정책을 만듭니다. <br/> &ensp;&ensp;* **Block**: 알 수 없는 맬웨어 응답으로 **차단을** 선택 합니다. <br/> &ensp;&ensp;* **리디렉션 사용**:이 확인란을 선택 하 고 관리자 또는 격리 계정과 같은 전자 메일 주소를 입력 합니다. <br/> &ensp;&ensp;* **첨부 파일에 대 한 맬웨어 검사 시간이 초과 되거나 오류가 발생 하는 경우 위의 선택 사항을 적용**합니다. <br/> &ensp;&ensp;* **적용 대상**: **받는 사람 도메인이** \> 도메인을 선택 합니다. <br/><br/> 추가 정보: [SharePoint, OneDrive 및 Microsoft 팀의 ATP](atp-for-spo-odb-and-teams.md) 및 [안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md)|
+|**Office 365 ATP의 안전한 링크**|예|안전한 링크의 기본 페이지에서 **전역 설정을**클릭 합니다. <br/> &ensp;&ensp;* **에서 안전한 링크 사용: Office 365 응용 프로그램**:이 설정이 설정 되어 있는지 확인 합니다. <br/> &ensp;&ensp;* **사용자가 안전 링크를 클릭 하는 경우 추적 안 함**:이 설정을 해제 하 여 사용자 클릭을 추적 합니다.<br/><br/>다음 설정을 사용 하 여 안전 링크 정책을 만듭니다. <br/> &ensp;&ensp;* **메시지에서 알 수 없는 잠재적 악성 url에 대 한 작업 선택**:이 설정이 **켜져**있는지 확인 합니다. <br/> &ensp;&ensp;* **Microsoft 팀 내에서 알 수 없거나 잠재적 악성 url에 대 한 작업 선택**:이 **설정이 설정 되어 있는지 확인 합니다.** <br/> &ensp;&ensp;* **의심 스러운 링크 및 파일을 가리키는 링크에 대해 실시간 URL 검사 적용**:이 확인란을 선택 합니다. <br/> &ensp;&ensp;&ensp;&ensp;*  **메시지를 배달 하기 전에 URL 검색이 완료 될 때까지 기다렸다가**이 확인란을 선택 합니다. <br/> &ensp;&ensp;* **조직 내에서 전송 된 전자 메일 메시지에 안전한 링크 적용**:이 확인란을 선택 합니다. <br/> &ensp;&ensp;* **사용자가 원래 URL까지 클릭할 수 없도록 함**:이 확인란을 선택 합니다. <br/> &ensp;&ensp;* **적용 대상**: **받는 사람 도메인이** \> 도메인을 선택 합니다. <br/><br/> 추가 정보: [안전한 링크 정책 설정](set-up-atp-safe-links-policies.md)|
 |**스팸 방지 (메일 필터링)**|예| 시청할 대상: <br/> &ensp;&ensp;* 스팸이 너무 많은 경우 — 사용자 지정 설정을 선택 하 고 기본 스팸 필터 정책을 편집 합니다. <br/> &ensp;&ensp;* 스푸핑 인텔리전스-도메인 스푸핑 중인 보낸 사람을 검토 합니다. 이 보낸 사람을 차단 하거나 허용 합니다. <br/><br/>추가 정보: [Microsoft 365 전자 메일로 스팸 방지 보호](anti-spam-protection.md)기능을 사용 합니다.|
 |***전자 메일 인증***|예|전자 메일 인증에서는 DNS (Domain Name System)를 사용 하 여 전자 메일을 보낸 사람에 대 한 전자 메일 메시지에 안정형 정보를 추가 합니다. Microsoft 365은 기본 도메인 (onmicrosoft.com)에 대해 전자 메일 인증을 설정 하지만 Microsoft 365 관리자는 사용자 지정 도메인에 대해 전자 메일 인증을 사용할 수도 있습니다. 다음과 같은 세 가지 인증 방법이 사용 됩니다. <br/><br/> &ensp;&ensp;* 보낸 사람 정책 프레임 워크 (또는 SPF).<br/>&ensp;&ensp;&ensp;&ensp;-설정에 대 한 자세한 내용은 [스푸핑 방지를 위해 Microsoft 365에서 SPF 설정을](set-up-spf-in-office-365-to-help-prevent-spoofing.md)참조 하십시오. <br/> &ensp;&ensp;* DomainKeys 확인 메일 (DKIM) <br/> &ensp;&ensp;&ensp;&ensp;- [DKIM을 사용 하 여 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성 검사를](use-dkim-to-validate-outbound-email.md)참조 하세요. <br/>&ensp;&ensp;&ensp;&ensp;-DKIM을 구성한 후 보안 센터에서 사용 하도록 설정 합니다.<br/> &ensp;&ensp;* 도메인 기반 메시지 인증, 보고 및 적합성 (DMARC) <br/> &ensp;&ensp;&ensp;&ensp;-DMARC 설치 시 [Microsoft 365에서 DMARC을 사용 하 여 전자 메일의 유효성을 검사](use-dmarc-to-validate-email.md)합니다.|
 |

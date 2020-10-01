@@ -14,16 +14,16 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: 특정 그룹의 게스트 사용자 차단
-ms.openlocfilehash: 923a9e5cd09d232f377f55fd6a9f499f8f536a84
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 2e9c9cae13932a33b8c486148f93901904e80006
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662751"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328020"
 ---
-# <a name="block-guest-users-from-a-specific-group"></a>특정 그룹의 게스트 사용자 차단
+# <a name="block-guest-users-from-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>특정 Microsoft 365 그룹 또는 Microsoft 팀 팀의 게스트 사용자 차단
 
-게스트 액세스를 대부분의 그룹에 허용 하지만 게스트 액세스를 차단 하려는 경우에는 개별 그룹에 대 한 게스트 액세스를 차단할 수 있습니다.
+대부분의 그룹과 팀에 대 한 게스트 액세스를 허용 하지만 게스트 액세스를 차단 하려는 경우에는 개별 그룹 및 팀에 대 한 게스트 액세스를 차단할 수 있습니다. (팀에 대 한 게스트 액세스 차단은 연결 된 그룹에 대 한 게스트 액세스를 차단 하 여 수행 됩니다.)
 
 조직에서 민감도 레이블을 사용 하는 경우에는 그룹 단위로 게스트 액세스를 제어 하는 데 사용 하는 것이 좋습니다. 이 작업을 수행 하는 방법에 대 한 자세한 내용은 [민감도 레이블을 사용 하 여 Microsoft 팀, microsoft 365 그룹 및 SharePoint 사이트의 콘텐츠를 보호](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)합니다. 가능한 한 이 방법을 사용하는 것이 좋습니다.
 

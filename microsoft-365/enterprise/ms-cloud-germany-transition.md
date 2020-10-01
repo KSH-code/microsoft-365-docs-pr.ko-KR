@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: 독일 Microsoft 클라우드(도이칠란드 Microsoft 클라우드)에서 Office 365 서비스 독일 신규 데이터 센터 지역으로의 마이그레이션 이해 '
-ms.openlocfilehash: 9d74ec8dd942d022bf1b9d0301f415ef1f0c28e2
-ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
+ms.openlocfilehash: a77dc43c4c30992d2e50aad94878f9269573db52
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308983"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327120"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Microsoft Cloud 독일에서 새 독일어 데이터 센터 지역의 Office 365 서비스로 마이그레이션
 
@@ -267,6 +267,8 @@ Microsoft Cloud 독일 from Office 365 services로 마이그레이션하는 동�
 - Dynamics 365 고객 계약 및 Power BI 고객 뿐 아니라 Office 365도 사용 하는 경우 &quot; &quot; [Microsoft 365 관리 센터](https://portal.office.de/)의 링크 필요 여부에 따라 질문을 제출할 수 있습니다. Dynamics 365 고객 참여 지원은 [여기](https://docs.microsoft.com/dynamics365/get-started/support/)를 이용하세요.  Power BI 지원은 [여기](https://powerbi.microsoft.com/support/)를 이용하세요. 
 
 ## <a name="more-information"></a>추가 정보
+
+새 독일어 데이터 센터 지역으로 마이그레이션하는 방법에 대 한 자세한 정보가 제공 됩니다. 체크 인하고 현재 상태로 유지할 수 있도록이 페이지에 책갈피를 선택 합니다.
 
 - [Microsoft Cloud Deutschland 마이그레이션 지원](https://aka.ms/germanymigrateassist)
 - [마이그레이션에 대해 옵트인하는 방법](https://aka.ms/office365germanymoveoptin)

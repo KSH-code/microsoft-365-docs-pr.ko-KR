@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 조직의 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 & 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b26dd18754a96d1879a2f57ae9742ae1d1a36ce4
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 7e594f758e0fb08b0b8718248466ecbc46903b82
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295541"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327012"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>보안 및 준수 센터의 전자 메일 보안 보고서 보기
 
@@ -270,9 +270,9 @@ ms.locfileid: "48295541"
 
 ## <a name="threat-protection-status-report"></a>위협 방지 상태 보고서
 
-**위협 방지 상태** 보고서는 EOP 및 OFFICE 365 ATP에서 모두 사용할 수 있습니다. 그러나 보고서에는 다양 한 데이터가 포함 됩니다. 예를 들어 EOP 고객은 전자 메일로 감지 되었지만 [SharePoint Online, OneDrive 또는 Microsoft 팀에서 검색 된 악성 파일](atp-for-spo-odb-and-teams.md)에 대 한 정보는 볼 수 없습니다.
+**위협 방지 상태** 보고서는 EOP 및 OFFICE 365 ATP에서 모두 사용할 수 있습니다. 그러나 보고서에는 다양 한 데이터가 포함 됩니다. 예를 들어 EOP 고객은 전자 메일로 검색 된 맬웨어에 대 한 정보를 볼 수 있지만, [SharePoint, OneDrive 또는 Microsoft 팀에서 ATP가 검색 한 악성 파일](atp-for-spo-odb-and-teams.md)에 대 한 정보가 표시 되지 않습니다.
 
-이 보고서는 맬웨어 방지 엔진에 의해 차단 된 파일 또는 웹 사이트 주소 (Url)와 같은 악성 콘텐츠가 포함 된 전자 메일 메시지의 수를 제공 합니다 [(0 시간 자동 제거 (ZAP)](zero-hour-auto-purge.md)및 Atp [safe Links](atp-safe-links.md), [Atp 안전한 첨부 파일](atp-safe-attachments.md)및 [atp](set-up-anti-phishing-policies.md)기능). 이 정보를 사용 하 여 경향을 식별 하거나 조직 정책 조정이 필요한 지 여부를 결정할 수 있습니다. 메시지가 5 명의 받는 사람에 게 전송 되는 경우 메시지가 한 명의 메시지와 다르게 계산 된다는 것을 이해 하는 것이 중요 합니다.
+이 보고서는 맬웨어 방지 엔진에 의해 차단 된 파일 또는 웹 사이트 주소 (Url) (예: [안전한 링크](atp-safe-links.md), [안전한 첨부 파일](atp-safe-attachments.md)및 [atp 피싱 방지](set-up-anti-phishing-policies.md) [)](zero-hour-auto-purge.md)와 같은 악성 콘텐츠가 포함 된 전자 메일 메시지의 수를 제공 합니다. 이 정보를 사용 하 여 경향을 식별 하거나 조직 정책 조정이 필요한 지 여부를 결정할 수 있습니다. 메시지가 5 명의 받는 사람에 게 전송 되는 경우 메시지가 한 명의 메시지와 다르게 계산 된다는 것을 이해 하는 것이 중요 합니다.
 
 보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 다음 **위협 방지 상태**를 선택 합니다. 보고서로 직접 이동 하려면 다음 Url 중 하나를 엽니다.
 
@@ -366,7 +366,7 @@ ms.locfileid: "48295541"
 - **시작 날짜** 및 **끝 날짜**
 - **감지**
 - **Protected by**: **ATP** 또는 **EOP**
-- **Tag**: 태그를 기준으로 필터링 하 여 특정 태그가 적용 된 사용자 또는 그룹을 반환 합니다. 사용자 태그에 대 한 자세한 내용은 [user tags](https://docs.microsoft.com/microsoft-365/security/office-365-security/user-tags?view=o365-worldwide)를 참조 하십시오.
+- **Tag**: 태그를 기준으로 필터링 하 여 특정 태그가 적용 된 사용자 또는 그룹을 반환 합니다. 사용자 태그에 대 한 자세한 내용은 [user tags](user-tags.md)를 참조 하십시오.
 - **도메인**
 
 > [!NOTE]
@@ -406,7 +406,7 @@ ms.locfileid: "48295541"
 - **시작 날짜** 및 **끝 날짜**
 - **감지**
 - **보호** (OFFICE 365 ATP만 해당): **ATP** 또는 **EOP**
-- **Tag**: 태그를 기준으로 필터링 하 여 특정 태그가 적용 된 사용자 또는 그룹을 반환 합니다. 사용자 태그에 대 한 자세한 내용은 [user tags](https://docs.microsoft.com/microsoft-365/security/office-365-security/user-tags?view=o365-worldwide)를 참조 하십시오.
+- **Tag**: 태그를 기준으로 필터링 하 여 특정 태그가 적용 된 사용자 또는 그룹을 반환 합니다. 사용자 태그에 대 한 자세한 내용은 [user tags](user-tags.md)를 참조 하십시오.
 - **도메인**
 - **받는 사람** (이 필터링 가능한 속성은 세부 정보 테이블 보기 에서만 사용 가능)
 

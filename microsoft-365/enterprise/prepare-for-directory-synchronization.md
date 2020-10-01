@@ -3,7 +3,7 @@ title: " Microsoft 365로 디렉터리 동기화 준비"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/25/2019
+ms.date: 09/30/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: 디렉터리 동기화 및이 방법을 사용할 경우의 장기적 이점을 사용 하 여 사용자를 Microsoft 365에 프로 비전 하도록 준비 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: c9d4368d1939b9c6feedf5146f9d168f18d5d5b1
-ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
+ms.openlocfilehash: a70f49dd5656da996912173690dc2b21b4288023
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269420"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327288"
 ---
 # <a name="prepare-for-directory-synchronization-to-microsoft-365"></a> Microsoft 365로 디렉터리 동기화 준비
 
@@ -43,9 +43,9 @@ ms.locfileid: "48269420"
 - 선택적으로 single sign-on 시나리오를 사용 하도록 설정
 - Microsoft 365에서 계정 변경 자동화
 
-디렉터리 동기화를 사용할 때의 이점에 대 한 자세한 내용은 [디렉터리 동기화 로드맵]( https://go.microsoft.com/fwlink/p/?LinkId=525398) 및 [Microsoft 365의 하이브리드 id](plan-for-directory-synchronization.md)를 참조 하세요.
+디렉터리 동기화를 사용할 때의 이점에 대 한 자세한 내용은 [하이브리드 identity With Azure Active directory (AZURE AD)](https://go.microsoft.com/fwlink/p/?LinkId=525398) 및 [Hybrid identity for Microsoft 365](plan-for-directory-synchronization.md)을 참조 하세요.
 
-그러나 디렉터리 동기화의 경우에는 계획 및 준비를 수행 하 여 AD DS (Active Directory 도메인 서비스)가 Microsoft 365 구독의 azure AD (azure Active Directory) 테 넌 트와 동기화 하 여 오류가 최소화 되도록 해야 합니다.
+그러나 디렉터리를 동기화 하려면 계획 및 준비를 수행 해야 하므로 AD DS (Active Directory 도메인 서비스)가 Microsoft 365 구독의 Azure AD 테 넌 트와 동기화 하는 데 최소한의 오류가 발생 합니다.
 
 최상의 결과를 위해 다음 단계를 순서 대로 수행 합니다.
 
@@ -54,7 +54,7 @@ ms.locfileid: "48269420"
 Azure AD 테 넌 트에 AD DS를 동기화 하기 전에 AD DS를 정리 해야 합니다.
 
 > [!IMPORTANT]
-> 동기화 하기 전에 AD DS 정리를 수행 하지 않으면 배포 프로세스에 큰 부정적인 영향을 받을 수 있습니다. 디렉터리 동기화 주기, 오류 식별 및 다시 동기화를 진행 하는 데 며칠 또는 몇 주가 소요 될 수 있습니다.
+> 동기화 하기 전에 AD DS 정리를 수행 하지 않으면 배포 프로세스에 심각한 부정적인 영향을 줄 수 있습니다. 디렉터리 동기화 주기, 오류 식별 및 다시 동기화를 진행 하는 데 며칠 또는 몇 주가 소요 될 수 있습니다.
 
 AD DS에서 Microsoft 365 라이선스가 할당 될 각 사용자 계정에 대해 다음과 같은 정리 작업을 완료 합니다.
 
@@ -89,7 +89,7 @@ AD DS 사용자 중 일부에 중복 된 특성이 하나 이상 있는 경우�
 
 준비 해야 하는 특성은 다음과 같습니다.
 
-- **displayName**
+- **n**
 
   - 사용자 개체에 특성이 있으면 Microsoft 365와 동기화 됩니다.
   - 이 특성이 사용자 개체에 있는 경우에는 해당 특성에 대 한 값이 있어야 합니다. 즉, 특성을 비워 두면 안 됩니다.

@@ -1,12 +1,12 @@
 ---
-title: ATP 안전한 첨부 파일
+title: 안전한 첨부 파일
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 audience: Admin
-ms.date: 05/17/2019
+ms.date: ''
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -17,63 +17,119 @@ ms.assetid: 6e13311e-92ae-495e-a619-56d770199170
 ms.collection:
 - M365-security-compliance
 - seo-marvel-apr2020
-description: 이 문서에서는 Office 365의 ATP 안전한 첨부 파일 기능 및 구독에 대 한 기능을 가져오는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1ff7021f1c9fa64d3f04cbcac7231733399ad2b8
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+description: 관리자는 Office 365의 ATP (Advanced Threat Protection)에서 안전한 첨부 파일 기능에 대해 알아볼 수 있습니다.
+ms.openlocfilehash: 6ff356f34f3e44752b5ad7f5fa433a8c72cd5083
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198778"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326534"
 ---
-# <a name="atp-safe-attachments"></a>ATP 안전한 첨부 파일
+# <a name="safe-attachments-in-office-365-atp"></a>Office 365 ATP의 안전한 첨부 파일
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+안전한 첨부 파일 [Office 365의 ATP (Advanced Threat protection)](office-365-atp.md) 는 [EOP (Exchange Online protection)에서 맬웨어 방지 보호](anti-malware-protection.md)를 통해 이미 검사 한 전자 메일 첨부 파일에 대 한 추가 보호 계층을 제공 합니다. 특히 안전한 첨부 파일은 가상 환경을 사용 하 여 받는 사람에 게 배달 되기 전에 전자 메일 메시지에서 첨부 파일을 확인 합니다 ( _샌드 박싱_이라는 프로세스).
 
-## <a name="overview-of-office-365-atp-safe-attachments"></a>Office 365 ATP 안전한 첨부 파일 개요
+전자 메일 메시지에 대 한 안전한 첨부 파일 보호는 안전한 첨부 파일 정책에 의해 제어 됩니다. 안전한 첨부 파일 정책을 보호 하지 않는 경우에는 안전 첨부 파일 **을 보호할 수**있습니다. 자세한 내용은 [ATP에서 안전한 첨부 파일 정책 설정을](set-up-atp-safe-attachments-policies.md)참조 하십시오.
 
-Atp 안전한 첨부 파일 ( [Atp 안전한 링크](atp-safe-links.md)포함)은 [Office 365 ATP (Advanced Threat Protection](office-365-atp.md) )의 일부입니다. ATP 안전한 첨부 파일 기능은 전자 메일 첨부 파일이 악성 인지 확인 한 다음 조직을 보호 하기 위해 조치를 취합니다. ATP 안전한 첨부 파일 기능은 전역 또는 보안 관리자가 설정한 [Atp 안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md) 에 따라 조직을 보호 합니다.
-
-ATP 보호는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀의 파일로도 확장할 수 있습니다. 자세한 내용은 [SharePoint, OneDrive 및 Microsoft 팀에 대 한 Office 365 Advanced Threat Protection](atp-for-spo-odb-and-teams.md)를 참조 하세요.
-
-## <a name="how-to-get-atp-safe-attachments"></a>ATP 안전한 첨부 파일을 가져오는 방법
-
-먼저 구독에 [Advanced Threat Protection](office-365-atp.md)이 포함 되어 있는지 확인 합니다. ATP는 [microsoft 365 E5](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business), Office 365 E5, office 365 A5 등 구독에 포함 되어 있습니다. 조직에서 Office 365 ATP를 포함 하지 않는 Microsoft 365 구독을 사용 하는 경우 ATP를 추가 기능으로 구매할 수 있습니다. 자세한 내용은 [office 365 Advanced Threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [Office 365 Advanced Threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
-
-다음으로 ATP의 안전한 첨부 파일 정책이 정의 되어 있는지 확인 합니다. ( [Office 365 ATP 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md)참조) ATP 안전한 첨부 파일 기능은 다음과 같은 경우에 활성화 됩니다.
-
-- ATP 안전한 첨부 파일 정책이 설정 됩니다. ( [Office 365에서 ATP 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md)참조)
-
-- 사용자가 회사 또는 학교 계정을 사용 하 여 로그인 한 경우 ( [Office에 로그인을](https://support.microsoft.com/office/b9582171-fd1f-4284-9846-bdd72bb28426)참조 하세요.)
-
-ATP 정책을 정의 하거나 편집 하려면 적절 한 역할이 할당 되어 있어야 합니다. 다음 표에서는 몇 가지 예를 설명 합니다.
-
-|역할|할당 된 위치/방법|
-|---|---|
-|전역 관리자|Microsoft 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) 를 참조 하세요.|
-|보안 관리자|Azure Active Directory 관리 센터 ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
-|Exchange Online 조직 관리|Exchange 관리 센터 ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)참조)|
-|
-
-## <a name="how-to-know-if-atp-safe-attachments-protection-is-in-place"></a>ATP 안전한 첨부 파일 보호가 현재 위치에 있는지 여부를 확인 하는 방법
-
-[ATP 안전한 첨부 파일 정책을 정의 하거나 검토](set-up-atp-safe-attachments-policies.md)한 후에는 [Advanced Threat Protection에 대 한 보고서](view-reports-for-atp.md)를 확인 하 여 서비스가 작동 하는 방식을 확인할 수 있습니다.
-
-다음 표에서는 몇 가지 예제 시나리오에 대해 설명 합니다. 이러한 모든 경우에는 조직에 Advanced Threat Protection이 포함 된 Microsoft 365 구독이 있다고 가정 합니다.
+다음 표에서는 ATP를 포함 하는 Microsoft 365 및 Office 365 조 직의 안전한 첨부 파일에 대 한 시나리오를 설명 합니다 (즉, 라이선스 부족은 해당 예제에서는 문제가 되지 않음).
 
 ****
 
-|시나리오 예|이 경우 ATP에서 안전한 첨부 파일 보호가 적용 됩니까?|
+|시나리오|결과|
 |---|---|
-|Pat 조직에 Office 365 E5가 있지만이 경우 ATP 안전한 첨부 파일에 대 한 정책을 정의 하지 않은 것은 아닙니다.|아니요. 이 기능을 사용할 수는 있지만 ATP 안전한 첨부 파일 보호를 적용 하려면 atp 안전 첨부 파일 정책을 하나 이상 정의 해야 합니다.|
-|Lee은 Contoso의 판매 부서에 있는 직원입니다. Lee의 조직에는 재무 직원 에게만 적용 되는 ATP 안전 첨부 파일 정책이 포함 됩니다.|아니요. 이 경우 금융 직원은 안전한 첨부 파일 보호를 제공 하지만 영업부를 비롯 한 다른 직원은 이러한 그룹을 포함 하는 정책을 정의할 때까지 하지 않습니다.|
-|어제 Jean 조직의 관리자는 모든 직원에 게 적용 되는 ATP 안전 첨부 파일 정책을 설정 합니다. 이전 버전 Jean에는 첨부 파일이 포함 된 전자 메일 메시지가 수신 되었습니다.|예. 이 예에서는 Jean에 Advanced Threat Protection 라이선스가 있고 Jean을 포함 하는 ATP 안전 첨부 파일 정책이 정의 되어 있습니다. 일반적으로 새 정책이 데이터 센터 전체에 적용 되는 데 약 30 분이 걸립니다. 이 경우에는 요일이 전달 된 것 이므로 정책이 적용 되어야 합니다.|
-|Chris의 조직에는 조직의 모든 사용자에 게 ATP 안전한 첨부 파일 정책이 있는 Office 365 E5가 있습니다. Chris는 첨부 파일이 있는 전자 메일을 받은 다음 조직 외부에 있는 다른 사람에 게 메시지를 전달 합니다.|ATP에서 안전한 첨부 파일 보호는 Chris가 받는 메시지에 적용 됩니다. 받는 사람의 조직에서 ATP 안전한 첨부 파일 정책도 현재 위치에 저장 되어 있는 경우 Chris가 전달 하는 메시지는 전달 메시지가 도착할 때 해당 정책의 적용을 받습니다.|
-|자원의 조직에 안전한 첨부 파일 정책이 마련 되어 있고 [SharePoint, OneDrive 및 Microsoft 팀에 대 한 atp](atp-for-spo-odb-and-teams.md) 가 설정 되었습니다. 자원 SharePoint Online의 모든 파일을 검색 하 여 열거나 다운로드 해도 안전한 것으로 가정 합니다.|ATP 안전한 첨부 파일 보호는 정의 된 정책에 따라 적절 하 게 적용 됩니다. 그러나 SharePoint Online, 비즈니스용 OneDrive 또는 Microsoft 팀의 모든 파일을 검색 하는 것은 아닙니다. 자세한 내용은 [SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP](atp-for-spo-odb-and-teams.md)를 참조 하세요.|
+|Pat의 Microsoft 365 E5 조직에 안전한 첨부 파일 정책이 구성 되어 있지 않습니다.|Pat가 안전한 첨부 파일에 의해 보호 되지 않습니다. <br/><br/> 관리자가 안전한 첨부 파일 보호를 활성화 하려면 하나 이상의 안전한 첨부 파일 정책을 만들어야 합니다. 또한 정책 조건에는 Pat가 안전한 첨부 파일로 보호 될 경우 Pat가 포함 되어야 합니다.|
+|Lee의 조직에는 재무 직원 에게만 적용 되는 안전한 첨부 파일 정책이 있습니다. Lee은 영업부의 구성원입니다.|Lee가 안전한 첨부 파일에 의해 보호 되지 않습니다. <br/><br/> 금융 직원은 안전한 첨부 파일을 통해 보호 되지만 영업부 직원과 기타 직원은이를 지원 하지 않습니다.|
+|어제 Jean 조직의 관리자가 모든 직원에 게 적용 되는 안전한 첨부 파일 정책을 만들었습니다. 이전 버전 Jean에는 첨부 파일이 포함 된 전자 메일 메시지가 수신 되었습니다.|Jean는 안전한 첨부 파일로 보호 됩니다. <br/><br/> 일반적으로 새 정책이 적용 되려면 약 30 분 정도 걸립니다.|
+|Chris의 조직은 조직의 모든 사용자에 게 적합 한 안전한 첨부 파일 정책이 있습니다. Chris는 첨부 파일이 있는 전자 메일을 받은 다음 외부의 받는 사람에 게 메시지를 전달 합니다.|Chis는 안전한 첨부 파일에 의해 보호 됩니다. <br/><br/> 외부 받는 사람의 조직에 안전한 첨부 파일 정책도 있는 경우 전달 된 메시지에 해당 정책이 적용 됩니다.|
 |
+
+안전한 첨부 파일 검색은 Microsoft 365 데이터가 있는 동일한 지역에서 발생 합니다. 데이터 센터 지리적 위치에 대 한 자세한 내용은 [어디에 있습니까?](https://products.office.com/where-is-your-data-located?geo=All) 를 참조 하세요.
+
+> [!NOTE]
+> 보안 & 준수 센터에서 전역 설정에는 안전한 첨부 파일 정책 기능이 있지만 이러한 설정은 전체적으로 사용 하거나 사용 하지 않도록 설정 되며 안전한 첨부 파일 정책은 필요 하지 않습니다.
+>
+> - [SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP](atp-for-spo-odb-and-teams.md)
+>
+> - [Microsoft 365 E5의 안전 문서](safe-docs.md)
+
+## <a name="safe-attachments-policy-settings"></a>안전한 첨부 파일 정책 설정
+
+이 섹션에서는 안전한 첨부 파일 정책의 설정에 대해 설명 합니다.
+
+- **안전한 첨부 파일 알 수 없는 맬웨어 응답**:이 설정은 전자 메일 메시지에서 안전한 첨부 파일 맬웨어 검색 작업을 제어 합니다. 사용 가능한 옵션은 다음 표에 설명 되어 있습니다.
+
+  ****
+
+  |옵션|효과|다음 작업을 수행할 때 사용 합니다.|
+  |---|---|---|
+  |**않음**|첨부 파일은 안전한 첨부 파일에 의해 맬웨어가 검색 되지 않습니다. 메시지는 여전히 [EOP의 맬웨어 방지 보호 기능](anti-malware-protection.md)을 통해 맬웨어를 검사 합니다.|선택한 받는 사람에 대해 검사 기능을 해제 합니다. <br/><br/> 내부 메일 라우팅의 불필요 한 지연을 방지 합니다. <br/><br/> **이 옵션은 대부분의 사용자에 게 권장 되지 않습니다. 이 옵션을 사용 하 여 신뢰할 수 있는 보낸 사람 으로부터 메시지만 수신 하는 받는 사람에 대 한 안전한 첨부 파일 검색을 해제 해야 합니다.**|
+  |**모니터만**|첨부 파일을 사용 하 여 메시지를 배달 하 고 검색 된 맬웨어로부터 수행 되는 작업을 추적 합니다. <br/><br/> 안전한 첨부 파일 검색으로 인해 안전한 메시지 배달이 지연 될 수 있습니다.|검색 된 맬웨어가 조직에서 이동 하는 위치를 확인 합니다.|
+  |**차단**|검색 된 맬웨어 첨부 파일이 있는 메시지가 배달 되지 않도록 합니다. <br/><br/> 메시지가 [격리](manage-quarantined-messages-and-files.md) 되며 관리자만 (최종 사용자 아님)이 메시지를 검토, 해제 또는 삭제할 수 있습니다. <br/><br/> 메시지 및 첨부 파일의 향후 인스턴스를 자동으로 차단 합니다. <br/><br/> 안전한 첨부 파일 검색으로 인해 안전한 메시지 배달이 지연 될 수 있습니다.|동일한 맬웨어 첨부 파일을 사용 하 여 조직에서 반복 되는 공격 으로부터 보호 합니다. <br/><br/> 이 값은 기본값 이며 표준 및 엄격한 [사전 설정 보안 정책](preset-security-policies.md)에서 권장 되는 값입니다.|
+  |**바꾸기**|검색 된 맬웨어 첨부 파일을 제거 합니다. <br/><br/> 첨부 파일이 제거 되었음을 받는 사람에 게 알립니다. <br/><br/>  메시지가 [격리](manage-quarantined-messages-and-files.md) 되며 관리자만 (최종 사용자 아님)이 메시지를 검토, 해제 또는 삭제할 수 있습니다. <br/><br/> 안전한 첨부 파일 검색으로 인해 안전한 메시지 배달이 지연 될 수 있습니다.|검색 된 맬웨어로 인해 첨부 파일이 제거 된 받는 사람에 대 한 가시성을 높입니다.|
+  |**동적 배달**|메시지를 즉시 배달 하지만 안전한 첨부 파일 검색이 완료 될 때까지 첨부 파일을 자리 표시자로 대체 합니다. <br/><br/> 자세한 내용은이 항목 뒷부분에 있는 [안전한 첨부 파일 정책에서 동적 배달](#dynamic-delivery-in-safe-attachments-policies) 섹션을 참조 하십시오.|악성 파일에서 받는 사람을 보호 하는 동안 메시지 지연 방지 <br/> <br/> 검색을 수행 하는 동안 받는 사람이 안전 모드에서 첨부 파일을 미리 볼 수 있도록 허용|
+  |
+
+- **검색 시 첨부 파일 리디렉션: 설정 리디렉션** 후 **첨부 파일을 다음 전자 메일 주소로 보내기**: **차단**, **모니터**또는 **바꾸기** 작업의 경우에는 맬웨어 첨부 파일이 포함 된 메시지를 분석 및 조사를 위해 지정 된 내부 또는 외부 전자 메일 주소로 보냅니다.
+
+  표준 및 엄격한 정책 설정에 대 한 권장 사항은 리디렉션을 사용 하도록 설정 하는 것입니다. 자세한 내용은 [안전한 첨부 파일 설정을](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-settings)참조 하십시오.
+
+- **첨부 파일에 대 한 맬웨어 검사 시간이 초과 되거나 오류가 발생 하면 위의 선택 사항을 적용**합니다. **안전한** 첨부 파일에서 지정한 작업은 안전한 첨부 파일 검색을 완료할 수 없는 경우에도 메시지에 대해 수행 됩니다. **리디렉션 사용**을 선택 하는 경우 항상이 옵션을 선택 합니다. 그렇지 않으면 메시지가 손실 될 수 있습니다.
+
+- **받는 사람 필터**: 정책을 적용할 사람을 결정 하는 예외 및 받는 사람 조건을 지정 해야 합니다. 다음 속성을 사용 하 여 조건 및 예외를 확인할 수 있습니다.
+
+  - **받는 사람이 다음과 같음**
+  - **받는 사람 도메인**
+  - **받는 사람이 다음의 구성원임**
+
+  조건 또는 예외는 한 번만 사용할 수 있지만 조건 또는 예외에 여러 값이 포함 될 수 있습니다. 동일한 조건의 여러 값이나 예외는 OR 논리를 사용합니다(예: _\<recipient1\>_ 혹은 _\<recipient2\>_). 다양한 조건이나 예외는 AND 논리를 사용합니다(예: _\<recipient1\>_ 및 _\<member of group 1\>_).
+
+- **우선 순위**: 여러 정책을 만드는 경우 적용 되는 순서를 지정할 수 있습니다. 두 정책의 우선순위는 동일 할 수 없으며, 첫 번째 정책이 적용된 후에는 정책 처리가 중지됩니다.
+
+  우선순위 및 여러 정책을 평가하고 적용하는 방법에 대 한 자세한 내용은 전자 메일의 [전자 메일의 우선순위 및 보호](how-policies-and-protections-are-combined.md)를 참조하세요.
+
+### <a name="dynamic-delivery-in-safe-attachments-policies"></a>안전한 첨부 파일 정책의 동적 배달
+
+> [!NOTE]
+> 동적 배달은 Exchange Online 사서함에 대해서만 작동 합니다.
+
+안전한 첨부 파일 정책의 동적 배달 작업은 안전한 첨부 파일 검색으로 인해 발생할 수 있는 모든 전자 메일 배달 지연을 없애는 데 도움이 됩니다. 전자 메일 메시지의 본문은 각 첨부 파일의 자리 표시 자가 포함 된 받는 사람에 게 배달 됩니다. 자리 표시자는 첨부 파일을 안전 하 게 찾을 때까지 유지 되 고 첨부 파일을 열거나 다운로드할 수 있게 됩니다.
+
+첨부 파일이 악성 인 것으로 확인 되 면 메시지가 격리 됩니다. 관리자 (최종 사용자 아님)만이 안전한 첨부 파일 검색으로 격리 된 메시지를 검토, 해제 또는 삭제할 수 있습니다. 자세한 내용은 [격리 된 메시지 및 파일을 관리자로 관리](manage-quarantined-messages-and-files.md)를 참조 하세요.
+
+안전한 첨부 파일 검사를 진행 하는 동안 대부분의 Pdf 및 Office 문서를 안전 모드에서 미리 볼 수 있습니다. 첨부 파일이 동적 배달 미리 보기와 호환 되지 않으면 받는 사람에 게 안전한 첨부 파일 검색이 완료 될 때까지 첨부 파일에 대 한 개체 틀이 표시 됩니다.
+
+모바일 장치를 사용 중이 고 Pdf가 모바일 장치에서 동적 배달 미리 보기에 렌더링 되지 않는 경우에는 모바일 브라우저를 사용 하 여 웹에서 Outlook (이전의 Outlook Web App)에서 메시지를 열어 보세요.
+
+다음은 동적 배달 및 전달 메시지에 대 한 몇 가지 고려 사항입니다.
+
+- 전달 된 받는 사람이 동적 배달 옵션을 사용 하는 안전한 첨부 파일 정책으로 보호 되는 경우에는 받는 사람에 게 상호 자리 표시자를 보게 되며 호환 되는 파일을 미리 볼 수 있습니다.
+
+- 전달 된 받는 사람이 안전한 첨부 파일 정책으로 보호 되지 않는 경우 메시지와 첨부 파일은 안전한 첨부 파일 또는 첨부 파일 자리 표시자 없이 배달 됩니다.
+
+## <a name="scenarios-where-safe-attachments-doesnt-scan-messages"></a>안전한 첨부 파일이 메시지를 검사 하지 않는 경우
+
+안전한 첨부 파일이 메시지를 검색할 수 없는 시나리오는 다음과 같습니다.
+
+- 공용 폴더의 메시지
+
+- 사용자 지정 규칙을 사용 하 여 외부에서 라우팅된 다음 사용자의 사서함으로 다시 전달 되는 메시지입니다.
+
+- 클라우드 사서함에서 보관 폴더를 비롯 한 다른 위치로 자동 또는 수동으로 이동 되는 메시지입니다.
+
+- 메시지를 삭제 합니다.
+
+- 사용자의 사서함 검색 폴더가 오류 상태에 있습니다.
+
+- Exclaimer가 사용 되도록 설정 된 Exchange Online 조직 이 문제를 해결 하려면 [KB4014438](https://support.microsoft.com/help/4014438)를 참조 하십시오.
+
+- [S/MIME)](s-mime-for-message-signing-and-encryption.md) 암호화 된 메시지
+
+- 안전한 첨부 파일 정책에서 동적 배달 작업을 구성 했지만 수신자가 동적 전달을 지원 하지 않는 경우 (예: 받는 사람이 온-프레미스 Exchange 조직의 사서함 인 경우) 그러나 [office 365 ATP의 안전한 링크](set-up-atp-safe-links-policies.md) 는 url이 포함 된 office 파일 첨부 파일을 검색할 수 있습니다 (안전한 링크 구성 방법에 따라 다름).
 
 ## <a name="submitting-files-for-malware-analysis"></a>맬웨어 분석용 파일 제출
 
-- Microsoft에 분석할 파일을 받은 경우 [맬웨어 분석용 파일 제출을](https://aka.ms/wdsi/submit)참조 하세요.
+- 분석을 위해 Microsoft에 보내려는 파일을 수신 하는 경우 [분석용 맬웨어 및 비 맬웨어를 microsoft에 제출 하 여 분석](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)을 참조 하세요.
 
 - 분석을 위해 Microsoft에 제출 하려는 전자 메일 메시지 (첨부 파일 포함 또는 제외)가 수신 되는 경우 [microsoft에 메시지 및 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조 하세요.

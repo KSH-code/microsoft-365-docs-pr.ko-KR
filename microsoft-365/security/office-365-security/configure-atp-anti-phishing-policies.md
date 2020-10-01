@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Office 365 Advanced Threat Protection (Office 365 ATP)을 사용 하 여 조직에서 사용할 수 있는 고급 피싱 방지 정책을 만들고, 수정 하 고, 삭제 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: a4b5dc5beac23e267f6b0e5070d91301b589ad4c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 2986102b549b7302a7a4ac533f80846d832aeb41
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203386"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328074"
 ---
 # <a name="configure-atp-anti-phishing-policies"></a>ATP 피싱 방지 정책 구성
 
@@ -75,7 +75,7 @@ Exchange Online PowerShell에서는 정책과 규칙을 별도로 관리 합니�
     - [보안 및 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **보안 읽기**
     - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리**
 
-- ATP 피싱 사기 정책에 대 한 권장 설정은 [OFFICE ATP 피싱 방지 정책 설정을](recommended-settings-for-eop-and-office365-atp.md#office-atp-anti-phishing-policy-settings)참조 하십시오.
+- ATP 피싱 사기 정책에 대 한 권장 설정은 [atp 피싱 방지 정책 설정을](recommended-settings-for-eop-and-office365-atp.md#atp-anti-phishing-policy-settings)참조 하십시오.
 
 - 새 정책이 나 업데이트 된 정책을 적용할 최대 30 분을 허용 합니다.
 

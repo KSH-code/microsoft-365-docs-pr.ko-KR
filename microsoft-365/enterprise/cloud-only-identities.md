@@ -3,7 +3,7 @@ title: Microsoft 365 클라우드 전용 id
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/09/2020
+ms.date: 09/30/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: Microsoft 365 구독에서 클라우드 전용 id를 사용 하는 경우 사용자 및 그룹을 만드는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 6ec727ea3648f1daa3af42763e5f497715b987a2
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 111c42e644913a8f7f6e41d4e8bf65685263f757
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547761"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327930"
 ---
 # <a name="microsoft-365-cloud-only-identity"></a>Microsoft 365 클라우드 전용 id
 
@@ -41,7 +41,7 @@ ms.locfileid: "47547761"
  
 ![클라우드 전용 id의 기본 구성 요소](../media/about-microsoft-365-identity/cloud-only-identity.png)
 
-조직의 사용자 및 사용자 계정을 다양 한 방법으로 분류할 수 있습니다. 예를 들어 직원은 직원과 영구 상태를 유지 합니다. 일부는 임시 상태인 공급 업체, 계약자 또는 파트너입니다. 일부는 사용자 계정이 없지만, 상호 작용 및 공동 작업을 지원 하기 위해 특정 서비스 및 리소스에 대 한 액세스 권한을 부여 해야 하는 외부 사용자입니다. 예시:
+조직의 사용자 및 사용자 계정을 다양 한 방법으로 분류할 수 있습니다. 예를 들어 직원은 직원과 영구 상태를 유지 합니다. 일부는 임시 상태인 공급 업체, 계약자 또는 파트너입니다. 일부는 사용자 계정이 없지만, 상호 작용 및 공동 작업을 지원 하기 위해 특정 서비스 및 리소스에 대 한 액세스 권한을 부여 해야 하는 외부 사용자입니다. 예제:
 
 - 테넌트 계정은 클라우드 서비스에 대한 라이선스를 부여한 조직 내부의 사용자를 나타냅니다.
 
@@ -58,17 +58,9 @@ ms.locfileid: "47547761"
 - SaaS (Software as a Service) 응용 프로그램에 대 한 사용자를 자동으로 프로 비전 하 고 MFA (multi-factor authentication) 및 기타 조건부 액세스 정책을 사용 하 여 이러한 응용 프로그램에 대 한 액세스를 보호 합니다.
 - SharePoint Online 팀 사이트에 대 한 권한 및 액세스 수준 프로 비전
 
-다음을 사용 하 여 새 ***사용자*** 를 만듭니다.
+## <a name="next-steps-for-cloud-only-identity"></a>클라우드 전용 id에 대 한 다음 단계
 
-- [Microsoft 365 관리 센터](https://docs.microsoft.com/office365/admin/add-users/add-users)
-- [Microsoft 365용 PowerShell](create-user-accounts-with-microsoft-365-powershell.md)
-
-다음을 사용 하 여 새 ***그룹*** 을 만듭니다.
-
-- [Microsoft 365 관리 센터](https://docs.microsoft.com/office365/admin/create-groups/create-groups)
-- [Microsoft 365용 PowerShell](manage-microsoft-365-groups-with-powershell.md)
-
-
-## <a name="next-step-for-cloud-only-identity"></a>클라우드 전용 id의 다음 단계
-
-[사용자 계정에 라이선스 할당](assign-licenses-to-user-accounts.md)
+- [사용자 계정 관리](manage-microsoft-365-accounts.md)
+- [사용자 계정에 라이선스 할당](assign-licenses-to-user-accounts.md)
+- [그룹 및 그룹 구성원 관리](manage-microsoft-365-groups.md)
+- [사용자 계정 암호 관리](manage-microsoft-365-passwords.md)

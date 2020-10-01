@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 Microsoft 365의 위협 보호에 대해 알아보고 조직에서이를 사용 하는 방법을 구성할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1ad74e9bdcd7b937873108d2ba049c16db8c235b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 624646461efe7131b2479e003b23a9e659e0a779
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202582"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326558"
 ---
 # <a name="protect-against-threats"></a>위협으로부터 보호
 
@@ -54,7 +54,7 @@ ms.locfileid: "48202582"
 |스팸 방지 보호 기능|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |0 시간 자동 삭제 (전자 메일의 경우)|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |전자 메일 및 Office 문서 (안전한 링크 및 안전한 첨부 파일)의 악성 Url 및 파일과의 보호|[Office 365 ATP (Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) )**ATP**|
-|SharePoint, OneDrive 및 Microsoft 팀 작업에 대 한 ATP 켜기| [ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide)|
+|SharePoint, OneDrive 및 Microsoft 팀 작업에 대 한 ATP 켜기|[ATP](atp-for-spo-odb-and-teams.md)|
 |고급 피싱 방지 보호|[ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
 
 ### <a name="roles-and-permissions"></a>역할 및 사용 권한
@@ -150,90 +150,78 @@ ATP 정책을 구성 하려면 [보안 & 준수 센터](https://docs.microsoft.c
 
 스팸 방지 정책 옵션에 대 한 자세한 내용은 [EOP에서 스팸 방지 정책 구성을](configure-your-spam-filter-policies.md)참조 하십시오.
 
-## <a name="part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments"></a>4 부-악성 Url 및 파일의 보호 (안전한 링크 및 안전 첨부 파일)
+## <a name="part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-office-365-atp"></a>제 4 부-악성 Url 및 파일에서 보호 (Office 365 ATP의 안전한 링크 및 안전 첨부 파일)
 
-악성 Url 및 파일 로부터의 클릭 시간 보호는 ATP ( [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) )를 포함 하는 구독에서 사용할 수 있습니다. [Atp 안전한 첨부 파일](atp-safe-attachments.md) 및 [atp 안전한 링크](atp-safe-links.md) 정책을 통해 설정 됩니다.
+악성 Url 및 파일 로부터의 클릭 시간 보호는 [Office 365 ATP (Advanced Threat protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) )를 포함 하는 구독에서 사용할 수 있습니다. [안전한 첨부 파일](atp-safe-attachments.md) 및 [안전한 링크](atp-safe-links.md) 정책을 통해 설정 됩니다.
 
-### <a name="atp-safe-attachments-policies"></a>ATP 안전한 첨부 파일 정책
+### <a name="safe-attachments-policies-in-office-365-atp"></a>Office 365 ATP의 안전한 첨부 파일 정책
 
-[Atp 안전한 첨부 파일](atp-safe-attachments.md)을 설정 하려면 Atp 안전 첨부 파일 정책을 하나 이상 정의 해야 합니다.
+[안전한 첨부 파일](atp-safe-attachments.md)을 설정 하려면 하나 이상의 안전한 링크 정책을 만듭니다.
 
-1. [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리**  >  **정책**  >  **ATP 안전한 첨부 파일**을 선택 합니다.
+1. [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리**  >  **정책**  >  **ATP 안전한 첨부 파일**을 선택한 다음 **만들기**를 클릭 합니다.
 
-2. **SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP 설정**옵션을 선택 합니다.
+2. **새 안전 첨부 파일 정책** 마법사가 나타나면 다음 설정을 구성 합니다.
 
-3. **전자 메일 첨부 파일 보호** 섹션에서 더하기 기호 ()를 클릭 **+** 합니다.
+   - **이름** 상자에을 입력 하 `Block malware` 고 **다음**을 클릭 합니다.
 
-4. 다음 설정을 지정 합니다.
+   - **설정** 페이지에서 다음 설정을 구성 합니다.
+     - **안전한 첨부 파일 알 수 없는 맬웨어 응답** 섹션에서 **차단을**선택 합니다.
+     - **첨부 파일 리디렉션** 섹션에서 **리디렉션 사용**옵션을 선택 합니다. 검색 된 파일을 검토할 사용자 조직의 보안 관리자 또는 운영자의 전자 메일 주소를 지정 합니다.
 
-   - **이름** 상자에를 입력 `Block malware` 합니다.
+     **다음**을 클릭합니다.
 
-   - 응답 섹션에서 **차단을**선택 합니다.
+3. **적용 대상** 페이지에서 **조건 추가**를 클릭 하 고, **받는 사람 도메인이 있는 경우 적용**을 선택한 다음, **추가,** 도메인 또는 도메인을 차례로 선택 하 고 **추가**, **완료**를 차례로 클릭 한 후 **다음**을 클릭 합니다.
 
-   - **첨부 파일 리디렉션** 섹션에서 **리디렉션 사용**옵션을 선택 합니다. 검색 된 파일을 검토할 사용자 조직의 보안 관리자 또는 운영자의 전자 메일 주소를 지정 합니다.
+4. 설정을 검토 하 고 **마침을**클릭 합니다.
 
-   - **적용 대상** 섹션에서 **받는 사람 도메인**을 선택 합니다. 그런 다음 도메인을 선택 하 고 **추가**, **확인**을 차례로 선택 합니다.
+### <a name="safe-links-policies-in-office-365-atp"></a>Office 365 ATP의 안전한 링크 정책
 
-5. **저장**을 합니다.
+[안전한 링크](atp-safe-links.md)를 설정 하려면 안전한 링크에 대 한 전역 설정을 검토 및 편집 하 고 하나 이상의 안전한 링크 정책을 만듭니다.
 
-6. (**권장 추가 단계**) 전역 관리자 또는 SharePoint Online 관리자는 Microsoft 365 환경에 대해 **DisallowInfectedFileDownload** 매개 변수를 *true* 로 설정 하 여 **[set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)** cmdlet을 실행 합니다. 따라서 사용자가 악성 파일로 검색 된 파일을 열거나 이동 하거나 복사 하거나 공유할 수 없습니다.
+1. [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리**  >  **정책**  >  **ATP 안전한 링크**를 선택 하 고 **전역 설정을**클릭 한 후에 다음 설정을 구성 합니다.
 
-자세한 내용은 [office 365 Atp 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md) 및 [SharePoint, OneDrive 및 Microsoft 팀에 대 한 Office 365 atp 켜기](turn-on-atp-for-spo-odb-and-teams.md)를 참조 하세요.
+   - **에서 안전한 링크 사용 확인: Office 365 응용 프로그램** 은 켜져 있음: ![ 설정/해제 ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) 합니다.
+   - **사용자가 안전 링크를 클릭 하는 경우 추적 안 함**:이 설정을 해제 하 여 사용자 클릭: 토글을 추적 ![ ](../../media/scc-toggle-off.png) 합니다.
+   - **사용자가 원본 URL에 대 한 안전한 링크를 클릭 하는 것을 허용 하지**않습니다 .이 설정이 설정 되어 있는지 확인 합니다: 켜기를 선택 ![ ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) 합니다.
 
-### <a name="atp-safe-links-policies"></a>ATP 안전한 링크 정책
+   작업을 마쳤으면 **저장**을 클릭합니다.
 
-[ATP 안전한 링크](atp-safe-links.md)를 설정 하려면 기본 정책을 검토 및 편집 하 고 특정 사용자에 대 한 정책을 추가 합니다.
+2. 기본 안전한 링크 페이지에서 다시 **만들기**를 클릭 합니다.
 
-1. [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리**  >  **정책**  >  **ATP 안전한 링크**를 선택 합니다.
+3. **안전 링크 정책 만들기** 마법사가 나타나면 다음 설정을 구성 합니다.
 
-2. **기본** 정책을 두 번 클릭 합니다.
+   - **이름** 상자에 이름 (예:)을 입력 `Safe Links` 하 고 **다음**을 클릭 합니다.
 
-3. 다음 **의 안전한 링크 사용** 섹션에서 **Microsoft 365 Apps For enterprise For iOS 및 Android**의 옵션을 선택 하 고 **저장**을 클릭 합니다.
-
-4. **특정 받는 사람에 게 적용 되는 정책** 섹션에서 더하기 기호 ()를 클릭 **+** 합니다.
-
-5. 다음 설정을 지정 합니다.
-
-   - **이름** 상자에 이름을 입력 `Safe Links` 합니다.
-
-   - **작업 선택** 섹션에서 **설정**를 선택 합니다.
-
-   - 다음 옵션을 선택 합니다.
-
-     - **다운로드 가능한 콘텐츠를 검색 하기 위해 안전한 첨부 파일 사용**
-
+   - **설정** 페이지에서 다음 설정을 구성 합니다.
+     - **메시지에서 알 수 없는 잠재적 악성 url에 대 한 작업을 선택** **합니다.**
+     - **Microsoft 팀 내에서 알 수 없거나 잠재적 악성 url에 대 한 작업을 선택** **합니다.**
      - **조직 내에서 전송 된 전자 메일 메시지에 안전한 링크 적용**
+     - **메시지를 배달 하기 전에 URL 검색이 완료 될 때까지 기다립니다.**
+     - **조직 내에서 전송 된 전자 메일 메시지에 안전한 링크 적용**
+     - **사용자가 원래 URL로 클릭 하도록 허용 안 함**
 
-     - **사용자가 원본 URL에 대 한 안전한 링크를 클릭 하는 것을 허용 하지 않음**
+     **다음**을 클릭합니다.
 
-   - **적용 대상** 섹션에서 **받는 사람 도메인**을 선택 합니다. 그런 다음 도메인을 선택 하 고 **추가**, **확인**을 차례로 선택 합니다.
+4. **적용 대상** 페이지에서 **조건 추가**를 클릭 하 고, **받는 사람 도메인이 있는 경우 적용**을 선택한 다음, **추가,** 도메인 또는 도메인을 차례로 선택 하 고 **추가**, **완료**를 차례로 클릭 한 후 **다음**을 클릭 합니다.
 
-6. **저장**을 합니다.
+5. 설정을 검토 하 고 **마침을**클릭 합니다.
 
-자세한 내용은 [Office 365 ATP 안전한 링크 정책 설정](set-up-atp-safe-links-policies.md)을 참조하세요.
+자세한 내용은 [안전한 링크 정책 설정을](set-up-atp-safe-links-policies.md)참조 하십시오.
 
-## <a name="part-5---turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams-workloads"></a>제 5 부-SharePoint, OneDrive 및 Microsoft 팀 작업에 대 한 ATP 켜기
+## <a name="part-5---verify-atp-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on"></a>5 부-SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP가 설정 되어 있는지 확인
 
-SharePoint, OneDrive 및 팀과 같은 워크 로드는 공동 작업을 위해 빌드됩니다. ATP를 사용 하면 팀 사이트 및 문서 라이브러리에서 해로운 것으로 식별 된 파일을 차단 하 고 검색할 수 있습니다. 여기서 작동 하는 방법에 대 한 자세한 내용은 [여기](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams?view=o365-worldwide)에서 확인할 수 있습니다.
+SharePoint, OneDrive 및 팀과 같은 워크 로드는 공동 작업을 위해 빌드됩니다. ATP를 사용 하면 팀 사이트 및 문서 라이브러리에서 해로운 것으로 식별 된 파일을 차단 하 고 검색할 수 있습니다. 여기서 작동 하는 방법에 대 한 자세한 내용은 [여기](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)에서 확인할 수 있습니다.
 
 > [!IMPORTANT]
 > **이 절차를 시작 하기 전에 Microsoft 365 환경에 대해 감사 로깅이 이미 설정 되어 있는지 확인**합니다. 이 작업은 일반적으로 Exchange Online에서 감사 로그 역할이 할당 된 사용자가 수행 합니다. 자세한 내용은 [Turn 감사 로그 검색 켜기 또는 끄기를](../../compliance/turn-audit-log-search-on-or-off.md)참조 하세요.
 
-1. 으로 이동 하 여 <https://protection.office.com> 회사 또는 학교 계정으로 로그인 합니다.
+1. [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리**  >  **정책**  >  **ATP 안전한 첨부 파일**을 선택한 다음 **전역 설정을**클릭 합니다.
 
-2. 보안 & 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책** \> **안전한 첨부 파일**을 선택 합니다.
+2. **SharePoint, OneDrive 및 Microsoft 팀에서 ATP 설정 켜기** 가 오른쪽으로 설정 되어 있는지 확인 하 ![ ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) 고 **저장**을 클릭 합니다.
 
-   ![보안 & 준수 센터에서 위협 관리 \> 정책 선택](../../media/08849c91-f043-4cd1-a55e-d440c86442f2.png)
+3. 조직의 [안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md) 및 [안전한 링크 정책을](set-up-atp-safe-links-policies.md)검토 하 고 적절 하 게 편집 합니다.
 
-3. **SharePoint, OneDrive 및 Microsoft 팀에 대해 ATP 사용**을 선택 합니다.
-
-   ![SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀에 대 한 Advanced Threat Protection 설정](../../media/48cfaace-59cc-4e60-bf86-05ff6b99bdbf.png)
-
-4. **저장**을 합니다.
-
-5. 조직의 [안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md) 및 [안전한 링크 정책을](set-up-atp-safe-links-policies.md)검토 하 고 적절 하 게 편집 합니다.
-
-6. 는 전역 관리자 또는 SharePoint Online 관리자는 _DisallowInfectedFileDownload_ 매개 변수를로 설정 하 여 **[set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)** cmdlet을 실행 합니다 `$true` .
+4. 는 전역 관리자 또는 SharePoint Online 관리자는 _DisallowInfectedFileDownload_ 매개 변수를로 설정 하 여 **[set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)** cmdlet을 실행 합니다 `$true` .
 
    - `$true` 검색 된 파일에 대 한 모든 작업 (삭제 제외)을 차단 합니다. 사용자가 검색 된 파일을 열거나, 이동 하거나, 복사 하거나, 공유할 수 없습니다.
    - `$false` 삭제 및 다운로드를 제외한 모든 작업을 차단 합니다. 사용자는 위험을 수락 하 고 검색 된 파일을 다운로드할 수 있습니다.
@@ -241,7 +229,7 @@ SharePoint, OneDrive 및 팀과 같은 워크 로드는 공동 작업을 위해 
    > [!TIP]
    > Microsoft 365에서 PowerShell을 사용 하는 방법에 대 한 자세한 내용은 PowerShell을 사용 하 여 [microsoft 365 관리](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-with-microsoft-365-powershell)를 참조 하세요.
 
-7. 변경 내용이 모든 Microsoft 365 데이터 센터에 전파 되는 데 최대 30 분 정도 걸릴 수 있습니다.
+5. 변경 내용이 모든 Microsoft 365 데이터 센터에 전파 되는 데 최대 30 분 정도 걸릴 수 있습니다.
 
 ### <a name="now-set-up-alerts-for-detected-files"></a>이제 검색 된 파일에 대 한 알림을 설정 합니다.
 
@@ -270,9 +258,10 @@ SharePoint Online의 파일 (비즈니스용 OneDrive 또는 Microsoft 팀)이 �
 > [!NOTE]
 > 구성을 마친 후에는 다음 링크를 사용 하 여 작업 조사를 시작 합니다.
 >
-> - [SharePoint, OneDrive 또는 Microsoft Teams에서 감지한 악성 파일에 대한 정보 보기](malicious-files-detected-in-spo-odb-or-teams.md)
-> - [SharePoint Online, OneDrive 또는 Microsoft 팀에서 악의적인 파일을 찾을 때 수행할 작업](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
-> - [Microsoft 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리](manage-quarantined-messages-and-files.md)
+>- [위협 방지 상태 보고서](view-email-security-reports.md#threat-protection-status-report)
+>- [보안 & 준수 센터를 사용 하 여 격리 된 파일 관리](manage-quarantined-messages-and-files.md#atp-only-use-the-security--compliance-center-to-manage-quarantined-files)
+>- [SharePoint Online, OneDrive 또는 Microsoft 팀에서 악의적인 파일을 찾을 때 수행할 작업](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
+>- [Microsoft 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리](manage-quarantined-messages-and-files.md)
 
 ## <a name="part-6---additional-settings-to-configure"></a>6 부-구성할 추가 설정
 
@@ -299,4 +288,4 @@ SharePoint Online의 파일 (비즈니스용 OneDrive 또는 Microsoft 팀)이 �
 |보고서를 확인 하 여 조직에서 위협 방지 기능을 사용 하는 방법 보기|[보안 대시보드](security-dashboard.md)<br/>[전자 메일 보안 보고서](view-email-security-reports.md)<br/>[Office 365 ATP에 대 한 보고서](view-reports-for-atp.md)<br/>[위협 탐색기](threat-explorer.md)|
 |필요에 따라 위협 보호 정책 주기적으로 검토 및 수정|[Secure Score](../mtp/microsoft-secure-score.md)<br/>[스마트 보고서 및 통찰력](reports-and-insights-in-security-and-compliance.md)<br/>[Microsoft 365 위협 조사 및 응답 기능](keep-users-safe-with-office-365-ti.md)|
 |새로운 기능 및 서비스 업데이트 조사|[표준 및 대상 지정 된 릴리스 옵션](https://docs.microsoft.com/microsoft-365/admin/manage/release-options-in-office-365)<br/>[메시지 센터](https://docs.microsoft.com/microsoft-365/admin/manage/message-center)<br/>[Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|
-|EOP 및 ATP에 대 한 권장 표준 및 엄격한 보안 구성에 대 한 세부 정보 알아보기 | [EOP 및 Office 365 ATP 보안에 대 한 권장 설정](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp?view=o365-worldwide) |
+|EOP 및 ATP에 대 한 권장 표준 및 엄격한 보안 구성에 대 한 세부 정보 알아보기|[EOP 및 Office 365 ATP 보안에 대 한 권장 설정](recommended-settings-for-eop-and-office365-atp.md)|

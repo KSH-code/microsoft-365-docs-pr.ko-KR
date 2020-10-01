@@ -21,12 +21,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 0 시간 자동 삭제 (ZAP)가 Exchange Online 사서함의 배달 된 메시지를 retroactively에서 정크 메일 폴더로 이동 하는 것을 retroactively 수 있는 격리 또는 피싱 인 것으로 확인 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 66df614700dc5f9b9938200d384cc293a51e2f3c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 31e546ddf6e93ed0a265aef3737182cf30ae5a95
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202642"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327978"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Exchange Online에서 제로 시간 자동 제거 (ZAP)
 
@@ -83,7 +83,7 @@ Exchange Online의 사서함이 있는 Microsoft 365 조 직에서 제로 시간
 
 ### <a name="zap-considerations-for-office-365-advanced-threat-protection-office-365-atp"></a>Office 365 Advanced Threat Protection에 대 한 ZAP 고려 사항 (Office 365 ATP)
 
-ZAP은 [동적 배달](dynamic-delivery-and-previewing.md) 검색 프로세스에 있는 모든 메시지를 격리 하지 않으며, 맬웨어 필터링에서 이미 **맬웨어 경고 Text.txt** 파일로 첨부 파일을 바꿨습니다. 이러한 유형의 메시지에 대 한 피싱 또는 스팸 신호를 수신 하 고 스팸 방지 정책의 필터링 결과 메시지에 대 한 특정 작업을 수행 하도록 설정 된 경우 (정크로 이동, 리디렉션, 삭제, 격리), ZAP은 ' 정크로 이동 ' 작업을 기본으로 합니다.
+ZAP은 안전한 첨부 파일 검색에서 [동적 배달](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies) 프로세스에 있는 메시지를 격리 하지 않으며, EOP 맬웨어 필터링이 이미 해당 첨부 파일을 **맬웨어 경고 Text.txt** 파일로 바꾸었습니다. 이러한 유형의 메시지에 대 한 피싱 또는 스팸 신호를 수신 하 고 스팸 방지 정책의 필터링 결과 메시지에 대 한 특정 작업을 수행 하도록 설정 된 경우 (정크로 이동, 리디렉션, 삭제 또는 격리), ZAP은 ' 정크로 이동 ' 작업을 기본값으로 사용 합니다.
 
 ## <a name="how-to-see-if-zap-moved-your-message"></a>메시지가 ZAP에서 이동 된 것을 확인 하는 방법
 

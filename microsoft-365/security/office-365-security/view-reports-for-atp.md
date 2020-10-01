@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 보안 및 준수 센터에서 Office 365 Advanced Threat Protection에 대 한 보고서를 찾아서 사용 &amp; 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 90da02c8aa3d50f62bdf4be8c466962da828b23d
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 16fef101f722a23b3a64d91c85c2f946c67036f0
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196600"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328038"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection에 대 한 보고서 보기
 
@@ -36,7 +36,7 @@ Office 365 ATP (Advanced Threat Protection) 조직 (예: Microsoft 365 E5 구독
 
 ## <a name="advanced-threat-protection-file-types-report"></a>Advanced Threat Protection 유형 보고서
 
-**Advanced Threat Protection 파일 형식 보고서** 보고서에는 [ATP 안전한 첨부](atp-safe-attachments.md)파일에 의해 악의적으로 검색 된 파일 유형이 표시 됩니다.
+**Advanced Threat Protection 파일 형식 보고서** 보고서에는 [안전한 첨부](atp-safe-attachments.md)파일에서 악의적으로 검색 된 파일 유형이 표시 됩니다.
 
  보고서의 집계 보기에서 90 일의 필터링을 허용 하지만 자세히 보기에는 10 일의 필터링만 허용 됩니다.
 
@@ -62,7 +62,7 @@ Office 365 ATP (Advanced Threat Protection) 조직 (예: Microsoft 365 E5 구독
   - **악성 실행 첨부 파일**
   - **상대**
 
-  특정 날짜 (데이터 요소)를 가리키면 [ATP 안전한 첨부 파일](atp-safe-attachments.md) 및 [EOP의 맬웨어 방지 보호](anti-malware-protection.md)에서 검색 된 악의적인 파일의 유형을 확인할 수 있습니다.
+  특정 날짜 (데이터 요소)를 가리키면 [안전한 첨부 파일](atp-safe-attachments.md) 및 [EOP의 맬웨어 방지 보호](anti-malware-protection.md)에서 검색 된 악의적인 파일의 유형을 확인할 수 있습니다.
 
   ![ATP 파일 형식 보고서의 파일 보기](../../media/atp-file-types-report-file-view.png)
 
@@ -76,7 +76,7 @@ Office 365 ATP (Advanced Threat Protection) 조직 (예: Microsoft 365 E5 구독
   - **액세스 차단**
   - **대체 되는 메시지**
   - **모니터링 되는 메시지**
-  - **동적 전자 메일 배달으로 대체**되었습니다. 자세한 내용은 [동적 배달 및 ATP 안전한 첨부 파일을 사용한 미리 보기](dynamic-delivery-and-previewing.md)를 참조 하세요.
+  - **동적 전자 메일 배달으로 교체**됨: 자세한 내용은 [안전한 첨부 파일 정책에서 동적 배달](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies)를 참조 하세요.
 
   ![ATP 파일 형식 보고서의 메시지 보기](../../media/atp-file-types-report-message-view.png)
 
@@ -138,7 +138,7 @@ Office 365 ATP (Advanced Threat Protection) 조직 (예: Microsoft 365 E5 구독
   - **액세스 차단**
   - **대체 되는 메시지**
   - **모니터링 되는 메시지**
-  - **동적 전자 메일 배달으로 대체**되었습니다. 자세한 내용은 [동적 배달 및 ATP 안전한 첨부 파일을 사용한 미리 보기](dynamic-delivery-and-previewing.md)를 참조 하세요.
+  - **동적 전자 메일 배달으로 교체**됨: 자세한 내용은 [안전한 첨부 파일 정책에서 동적 배달](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies)를 참조 하세요.
 
   ![ATP 파일 형식 보고서의 메시지 보기](../../media/atp-file-types-report-message-view.png)
 
@@ -158,7 +158,7 @@ Office 365 ATP (Advanced Threat Protection) 조직 (예: Microsoft 365 E5 구독
   - **악성 실행 첨부 파일**
   - **상대**
 
-  특정 날짜 (데이터 요소)를 가리키면 [ATP 안전한 첨부 파일](atp-safe-attachments.md) 및 [EOP의 맬웨어 방지 보호](anti-malware-protection.md)에서 검색 된 악의적인 파일의 유형을 확인할 수 있습니다.
+  특정 날짜 (데이터 요소)를 가리키면 [안전한 첨부 파일](atp-safe-attachments.md) 및 [EOP의 맬웨어 방지 보호](anti-malware-protection.md)에서 검색 된 악의적인 파일의 유형을 확인할 수 있습니다.
 
   ![ATP 파일 형식 보고서의 파일 보기](../../media/atp-file-types-report-file-view.png)
 
@@ -206,7 +206,7 @@ Office 365 ATP (Advanced Threat Protection) 조직 (예: Microsoft 365 E5 구독
 
 ## <a name="url-threat-protection-report"></a>URL 위협 방지 보고서
 
-**Url threat protection 보고서** 는 [ATP Safe 링크](atp-safe-links.md)의 일부로 url 클릭에 대해 검색 되는 위협 및 작업에 대 한 요약 및 추세 보기를 제공 합니다. 이 보고서는 적용 된 안전한 링크 정책이 사용자의 클릭으로 **추적 하지 않음** 옵션을 선택한 경우에는 사용자의 데이터를 클릭할 수 없습니다.
+**Url threat protection 보고서** 는 검색 되는 위협에 대 한 요약 및 추세 보기와 URL 클릭 시 [안전한 링크](atp-safe-links.md)의 일부로 수행 된 작업을 제공 합니다. 이 보고서는 적용 된 안전한 링크 정책이 사용자의 클릭으로 **추적 하지 않음** 옵션을 선택한 경우에는 사용자의 데이터를 클릭할 수 없습니다.
 
 보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 후 **URL 보호 보고서**를 선택 합니다. 보고서로 직접 이동 하려면를 엽니다 <https://protection.office.com/reportv2?id=URLProtectionActionReport> .
 
@@ -234,7 +234,7 @@ Office 365 ATP (Advanced Threat Protection) 조직 (예: Microsoft 365 E5 구독
 
   ![URL URL 위협 방지 보고서에서 보호 작업 보기를 클릭 합니다.](../../media/url-threat-protection-report-url-click-protection-action-view.png)
 
-- **Url 클릭 응용 프로그램**: OFFICE 365 ATP 안전한 링크를 지 원하는 응용 프로그램에서 클릭 한 url의 수를 표시 합니다.
+- **Url 클릭 응용 프로그램**: 안전한 링크를 지 원하는 응용 프로그램에서 클릭 한 url의 수를 표시 합니다.
 
   - **전자 메일 클라이언트**
   - **PowerPoint**
@@ -275,7 +275,7 @@ Office 365 ATP (Advanced Threat Protection) 조직 (예: Microsoft 365 E5 구독
 |**탐색기** (atp 계획 2) 또는 **실시간** 검색 (atp 계획 1)|[위협 탐색기 (실시간 검출)](threat-explorer.md)|
 |주요 보낸 사람 및 받는 사람 보고서, 스푸핑 메일 보고서, 스팸 감지 보고서 등의 **전자 메일 보안 보고서**|[보안 및 준수 센터의 전자 메일 보안 보고서 보기](view-email-security-reports.md)|
 |전달 보고서, 메일 흐름 상태 보고서, 상위 보낸 사람 및 받는 사람 보고서 등의 **메일 흐름 보고서**|[보안 & 준수 센터에서 메일 흐름 보고서 보기](view-mail-flow-reports.md)|
-|**ATP 안전한 링크에 대 한 URL 추적** 입니다 (PowerShell에만 해당). 이 cmdlet의 출력은 지난 7 일간의 ATP 안전 링크 작업의 결과를 보여 줍니다.|[Get-UrlTrace](https://docs.microsoft.com/powershell/module/exchange/get-urltrace)|
+|**안전한 링크에 대 한 URL 추적** (PowerShell 전용) 이 cmdlet의 출력은 지난 7 일간의 안전한 링크 작업의 결과를 보여 줍니다.|[Get-UrlTrace](https://docs.microsoft.com/powershell/module/exchange/get-urltrace)|
 |**EOP 및 ATP에 대 한 메일 트래픽 결과** (PowerShell 전용) 이 cmdlet의 출력에는 도메인, 날짜, 이벤트 유형, 방향, 동작 및 메시지 수에 대 한 정보가 포함 되어 있습니다.|[MailTrafficATPReport](https://docs.microsoft.com/powershell/module/exchange/get-mailtrafficatpreport)|
 |**EOP 및 ATP 검색에 대 한 메일 세부 정보 보고서** (PowerShell 전용). 이 cmdlet의 출력은 악성 파일 또는 Url, 피싱 시도, 가장 및 기타 잠재적 위협 (전자 메일 또는 파일)에 대 한 세부 정보를 포함 합니다.|[MailDetailATPReport](https://docs.microsoft.com/powershell/module/exchange/get-maildetailatpreport)|
 |
@@ -306,7 +306,7 @@ Office 365 ATP (Advanced Threat Protection) 조직 (예: Microsoft 365 E5 구독
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>보고서에 데이터가 표시 되지 않으면 어떻게 하나요?
 
-ATP 보고서에 데이터가 표시 되지 않는 경우 정책이 올바르게 설정 되어 있는지 다시 확인 합니다. 조직에 atp 보호 기능을 적용 하려면 atp [안전한 링크 정책](set-up-atp-safe-links-policies.md) 및 [Atp 안전 첨부 파일 정책이](set-up-atp-safe-attachments-policies.md) 정의 되어 있어야 합니다. 또한 [Office 365에서 스팸 방지 및 맬웨어 방지 보호 기능을](anti-spam-and-anti-malware-protection.md)참조 하세요.
+ATP 보고서에 데이터가 표시 되지 않는 경우 정책이 올바르게 설정 되어 있는지 다시 확인 합니다. 조직에서 ATP 보호를 적용 하려면 [안전한 링크 정책](set-up-atp-safe-links-policies.md) 및 [안전한 첨부 파일 정책이](set-up-atp-safe-attachments-policies.md) 정의 되어 있어야 합니다. [스팸 방지 및 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md)도 참조 하세요.
 
 ## <a name="related-topics"></a>관련 항목
 

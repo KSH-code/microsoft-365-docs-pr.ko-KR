@@ -18,12 +18,12 @@ description: Office 365 용 Microsoft Defender의 자동화 된 조사에 따라
 ms.date: 09/29/2020
 ms.custom:
 - air
-ms.openlocfilehash: daa5f0928a2778783bd09bce6e788977a2748bf2
-ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
+ms.openlocfilehash: 6ddfb2cb9597d1ddd955f7ec39e197a780b29881
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48309031"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327678"
 ---
 # <a name="remediation-actions-following-automated-investigation-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 자동화 된 조사 후의 수정 작업
 
@@ -48,16 +48,16 @@ ms.locfileid: "48309031"
 
 ****
 
-|Category|위협/위험|재구성 작업|
+|범주|위협/위험|재구성 작업|
 |---|---|---|
 |전자 메일|맬웨어|전자 메일/클러스터 일시 삭제 <br/><br/>클러스터에 맬웨어를 포함 하는 소수의 전자 메일 메시지가 여러 개 있는 경우 클러스터가 악성으로 간주 됩니다.|
-|전자 메일|악성 URL<br/>( [Office 365 ATP 안전한 링크](https://docs.microsoft.com/microsoft-365/security/office-365-security/how-atp-safe-links-works)에서 악의적인 URL이 검색 되었습니다.)|전자 메일/클러스터 일시 삭제 <br/><br/>악성 URL이 포함 된 전자 메일은 악성으로 간주 됩니다.|
+|전자 메일|악성 URL<br/>( [Office 365 ATP의 안전한 링크](atp-safe-links.md)에서 악의적인 URL이 검색 되었습니다.|전자 메일/클러스터 일시 삭제 <br/><br/>악성 URL이 포함 된 전자 메일은 악성으로 간주 됩니다.|
 |전자 메일|피싱|전자 메일/클러스터 일시 삭제 <br/><br/>클러스터의 전자 메일 메시지 중 몇 개 이상이 피싱 시도를 포함 하는 경우 클러스터는 피싱 것으로 간주 됩니다.|
 |전자 메일|Zapped 피싱 <br/>(전자 메일 메시지를 배달 하 고 [zapped](https://docs.microsoft.com/microsoft-365/security/office-365-security/zero-hour-auto-purge).)|전자 메일/클러스터 일시 삭제 <br/><br/>보고서를 사용 하 여 zapped 메시지를 볼 수 있습니다. [ZAP이 메시지 및 faq를 이동 하는지 확인](https://docs.microsoft.com/microsoft-365/security/office-365-security/zero-hour-auto-purge#how-to-see-if-zap-moved-your-message)합니다.|
 |전자 메일|사용자가 [보고](https://docs.microsoft.com/microsoft-365/security/office-365-security/enable-the-report-message-add-in) 하는 누락 된 피싱 전자 메일|[사용자의 보고서에 의해 트리거되는 자동화 된 조사](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-user-reported-phish-message-launches-an-investigation-playbook)|
 |전자 메일|볼륨 변칙 <br/>일치 조건으로 최근 전자 메일 수량이 이전 7-10 일을 초과 합니다.|자동 조사로 인해 보류 중인 특정 작업은 발생 하지 않습니다. <br/><br/>볼륨 변칙은 확실 한 위협이 되지 않지만, 지난 7-10 일에 비해 더 큰 전자 메일 볼륨을 최근 기간으로 표시 하는 것은 매우 큽니다. 이는 잠재적 문제를 나타낼 수 있지만 악성 verdicts 또는 전자 메일 메시지/클러스터의 수동 검토 측면에서 확인이 필요 합니다. [배달 된 의심 스러운 전자 메일 찾기 및 삭제](https://docs.microsoft.com/microsoft-365/security/office-365-security/investigate-malicious-email-that-was-delivered#find-and-delete-suspicious-email-that-was-delivered)를 참조 하세요.|
 |전자 메일|발견 된 위협 없음 <br/>(시스템에서 전자 메일 클러스터 verdicts의 파일, url 또는 분석을 기반으로 위협을 찾지 못했습니다.)|자동 조사로 인해 보류 중인 특정 작업은 발생 하지 않습니다. <br/><br/>발견 된 위협 및 조사가 완료 된 후 [zapped](https://docs.microsoft.com/microsoft-365/security/office-365-security/zero-hour-auto-purge) 은 조사 결과에 반영 되지 않지만 [위협 탐색기](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)에서 이러한 위협을 볼 수 있습니다.|
-|사용자|사용자가 악성 URL을 클릭 한 경우 <br/>(나중에 악성으로 확인 한 페이지를 탐색 하거나 사용자가 [안전한 링크 경고 페이지](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-warning-pages) 를 건너뛰고 악의적인 페이지로 이동할 수 있습니다.)|자동 조사로 인해 보류 중인 특정 작업은 발생 하지 않습니다. <br/><br/>위협 탐색기를 사용 하 여 [url에 대 한 데이터를 확인 하 고 verdicts를 클릭](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer#view-data-about-phishing-urls-and-click-verdict)합니다. <br/><br/>조직에서 [끝점에 대해 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)를 사용 하는 경우 [사용자의](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/investigate-user) 계정이 손상 되었는지 확인 하는 것을 조사 하는 것이 좋습니다.|
+|사용자|사용자가 악성 URL을 클릭 한 경우 <br/>(나중에 악성으로 확인 한 페이지를 탐색 하거나 사용자가 [안전한 링크 경고 페이지](atp-safe-links.md#warning-pages-from-safe-links) 를 건너뛰고 악의적인 페이지로 이동할 수 있습니다.)|자동 조사로 인해 보류 중인 특정 작업은 발생 하지 않습니다. <br/><br/>위협 탐색기를 사용 하 여 [url에 대 한 데이터를 확인 하 고 verdicts를 클릭](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer#view-data-about-phishing-urls-and-click-verdict)합니다. <br/><br/>조직에서 [끝점에 대해 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)를 사용 하는 경우 [사용자의](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/investigate-user) 계정이 손상 되었는지 확인 하는 것을 조사 하는 것이 좋습니다.|
 |사용자|사용자가 맬웨어/피싱를 보내는 중입니다.|자동 조사로 인해 보류 중인 특정 작업은 발생 하지 않습니다. <br/><br/>사용자가 맬웨어/피싱를 보고할 수도 있고, 다른 사용자가 공격의 일부로 [사용자를 스푸핑](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spoofing-protection) 했을 수 있습니다. [위협 탐색기](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) 를 사용 하 여 [맬웨어](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer-views#email--malware) 또는 [피싱](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer-views#email--phish)가 포함 된 전자 메일을 보고 처리 합니다.|
 |사용자|전자 메일 전달 <br/>(이 경우 데이터 exfiltration에 사용할 수 있는 사서함 전달 규칙이 구성 됩니다.)|전달 규칙 제거 <br/><br/>전달 된 전자 메일에 대 한 좀 더 구체적인 세부 정보를 보려면 [자동 전달 메시지 보고서](https://docs.microsoft.com/microsoft-365/security/office-365-security/mfi-auto-forwarded-messages-report)를 포함 하 여 [메일 흐름 정보](https://docs.microsoft.com/microsoft-365/security/office-365-security/mail-flow-insights-v2)를 사용 합니다.|
 |사용자|전자 메일 위임 규칙 <br/>(사용자의 계정에 위임 설정 됨)|위임 규칙 제거 <br/><br/> 조직에서 [끝점에 대해 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)를 사용 하는 경우 위임 권한을 얻는 [사용자를 조사](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/investigate-user) 하는 것이 좋습니다.|

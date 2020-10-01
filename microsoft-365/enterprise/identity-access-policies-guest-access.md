@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 6d6562f528b36acdfbc28da9647d3356a0f585af
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 3afc818f9461ad0cc5ca65ea86d5e90f61f64d9b
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132161"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327870"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>게스트 및 외부 B2B 액세스를 허용 하기 위한 정책
 
@@ -60,21 +60,11 @@ Microsoft 팀에서는 다음을 정의 합니다.
 
 - **외부 액세스** 는 B2B 계정이 없는 외부 사용자에 대 한 것입니다. 외부 액세스에는 초대 및 참여를 포함할 수 있지만 팀 구성원 자격 및 팀의 리소스에 대 한 액세스는 포함 되지 않습니다.
 
-자세한 내용은 [팀에 대 한 게스트 및 외부 액세스 간의 비교](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access)를 참조 하세요.
+자세한 내용은 [팀에 대 한 게스트 및 외부 액세스 간 비교](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access)를 참조 하세요.
 
 조건부 액세스 정책은 해당 Azure AD B2B 계정이 있기 때문에 팀의 게스트 액세스에만 적용 됩니다.
 
 팀에 대 한 id 및 장치 액세스 정책 보호에 대 한 자세한 내용은 [팀 대화방, 그룹 및 파일 보호에 대 한 정책 권장 사항을](teams-access-policies.md) 참조 하세요.
-
-<!--
-ount treats guest and external users that have an Azure AD B2B account differently than external access  .
-
-
-to a meeting, call, or chat with
-
-
-differentiates between guest users and external users within the app. Guest users have Azure AD B2B accounts and can be added to teams. External users can only participate in calls, chats, and meetings. 
---> 
 
 ### <a name="require-mfa-always-for-guest-and-external-users"></a>게스트 및 외부 사용자에 대 한 MFA 항상 필요
 이 정책은 해당 홈 테 넌 트에서 MFA에 대 한 등록 여부에 관계 없이 테 넌 트에 MFA를 등록 하 라는 메시지를 표시 합니다. 테 넌 트의 리소스에 액세스할 때 게스트 및 외부 사용자는 모든 요청에 대해 MFA를 사용 해야 합니다. 

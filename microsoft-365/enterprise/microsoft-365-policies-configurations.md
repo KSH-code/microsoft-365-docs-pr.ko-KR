@@ -6,7 +6,7 @@ author: JoeDavies-MSFT
 manager: laurawi
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 09/14/2020
+ms.date: 09/29/2020
 f1.keywords:
 - NOCSH
 ms.reviewer: martincoetzer
@@ -17,22 +17,22 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: cef17142d90a15f10e82fd51c4c22202bf7ecf00
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: b6e961dc8e7de6bfaf16508fa6c70f8a90fa4080
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131581"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327441"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
 이제 조직의 최신 보안 경계는 다양 한 장치를 사용 하 여 모든 위치에서 클라우드 기반 앱에 액세스 하는 사용자를 포함 하기 위해 네트워크를 넘어 확장 되었습니다. 보안 인프라는 지정 된 액세스 요청을 부여할지 여부와 조건에 따라 결정 해야 합니다. 
 
-이 결정은 로그인 사용자 계정, 사용 중인 장치, 액세스를 위해 사용자가 사용 하는 앱, 액세스 요청이 수행 된 위치 및 요청 위험에 대 한 평가를 기반으로 해야 합니다. 이 기능을 사용 하면 승인 된 사용자 및 장치만 중요 한 리소스에 액세스할 수 있습니다.
+이 결정은 로그인 사용자 계정, 사용 중인 장치, 액세스를 위해 사용자가 사용 하는 앱, 액세스 요청이 수행 된 위치 및 요청 위험에 대 한 평가를 기반으로 해야 합니다. 이 기능을 사용하여 승인된 사용자와 장치만 중요한 리소스에 액세스할 수 있도록 할 수 있습니다.
 
 이 문서 시리즈에서는 id 및 장치 액세스 선행 조건 구성 및 azure AD 응용 프로그램 프록시를 사용 하 여 게시 된 엔터프라이즈 클라우드 앱 및 서비스, 기타 SaaS 서비스 및 온-프레미스 응용 프로그램에 대 한 Microsoft 365에 대 한 액세스를 보호 하기 위한 다양 한 정책, Microsoft Intune 및 기타 정책의 집합에 대해 설명 합니다.
 
-Id 및 장치 액세스 설정 및 정책은 기본 보호, 중요 보호 및 높은 규제 대상 데이터를 포함 하는 환경에 대 한 보호의 세 계층에서 권장 됩니다. 이러한 계층 및 해당 구성에 따라 데이터, id 및 장치 전체의 일관성 있는 보호 수준이 제공 됩니다.
+Id 및 장치 액세스 설정 및 정책은 기본 보호, 중요 보호 및 높은 규제 대상 데이터를 포함 하는 환경에 대 한 보호의 세 계층에서 권장 됩니다. 해당 계층과 관련 구성은 데이터, ID 및 장치에 대해 일관된 수준의 보호를 제공합니다.
 
 이러한 기능 및 권장 사항은 다음과 같습니다.
 
@@ -115,7 +115,7 @@ Azure AD는 id 관리 기능을 완벽 하 게 제공 합니다. 이러한 기�
 | [장치 등록](/azure/active-directory/devices/overview) | 장치를 Azure AD에 등록 하 여 장치에 대 한 id를 만듭니다. 이 id는 사용자가 로그인 하 고 도메인에 가입 하거나 준수 하는 Pc가 필요한 조건부 액세스 정책을 적용 하는 데 사용 됩니다. 이 지침에서는 장치 등록을 사용 하 여 도메인에 가입 된 Windows 컴퓨터를 자동으로 등록 합니다. 장치 등록은 Intune을 사용 하 여 장치를 관리 하기 위한 필수 구성 요소입니다. | Microsoft 365 E3 혹은 E5 |
 | [Azure AD ID 보호](/azure/active-directory/identity-protection/overview) | 조직의 id에 영향을 미치는 잠재적인 취약점을 검색 하 고 자동화 된 수정 정책을 낮음, 보통, 높음 로그인 위험 및 사용자 위험에 맞게 구성할 수 있습니다. 이 지침은이 위험 평가에 의존 하 여 다단계 인증에 대 한 조건부 액세스 정책을 적용 합니다. 또한이 지침에는 해당 계정에 대해 높은 위험 활동이 검색 되는 경우 사용자가 암호를 변경 해야 하는 조건부 액세스 정책도 포함 되어 있습니다. | Microsoft 365 E5, Microsoft 365 E3, Id & 위협 방지 추가 기능, EMS E5 또는 Azure Premium P2 라이선스 |
 | [SSPR(셀프 서비스 암호 재설정)](/azure/active-directory/authentication/concept-sspr-howitworks) | 관리자가 제어할 수 있는 여러 인증 방법에 대 한 확인을 제공 하 여 사용자가 직접 암호를 재설정할 수 있도록 지원 합니다. | Microsoft 365 E3 혹은 E5 |
-| [Azure AD 암호 보호](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) | 알려진 약한 암호와 해당 변형 및 조직과 관련 된 추가 약한 용어를 검색 하 고 차단 합니다. 기본 전역 금지 암호 목록은 Azure AD 테 넌 트의 모든 사용자에 게 자동으로 적용 됩니다. 사용자 지정 금지 된 암호 목록에서 추가 항목을 정의할 수 있습니다. 사용자가 암호를 변경 하거나 다시 설정할 때 이러한 금지 된 암호 목록을 확인 하 여 강력한 암호를 사용 해야 합니다. |  Microsoft 365 E3 혹은 E5 |
+| [Azure AD 암호 보호](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) | 알려진 약한 암호와 해당 변형 및 조직과 관련 된 추가 약한 용어를 검색 하 고 차단 합니다. 기본 전역 금지 암호 목록은 Azure AD 테넌트의 모든 사용자에게 자동으로 적용됩니다. 사용자 지정 금지 암호 목록에서 추가 항목을 정의할 수 있습니다. 사용자가 암호를 변경하거나 재설정하면 해당 금지된 암호 목록은 강력한 암호를 사용하도록 확인됩니다. |  Microsoft 365 E3 혹은 E5 |
 ||||
 
 ![Id 및 장치 액세스 구성 요소](../media/microsoft-365-policies-configurations/identity-device-access-components.png)
@@ -162,6 +162,25 @@ Pc 용으로 권장 되는 Microsoft 365 앱이 포함 된 Windows 10 Azure는 �
 위의 표에는 개인 또는 BYODs 뿐 아니라 조직 소유 장치를 함께 사용 하는 다양 한 조직에 대 한 추세가 반영 되어 직원 들 간에 모바일 생산성을 제공 합니다. Intune 앱 보호 정책은 조직 소유 장치 및 BYODs 모두에서 Outlook 모바일 앱 및 기타 Office 모바일 앱에서 exfiltrating 로부터 전자 메일이 보호 되도록 합니다.  
 
 추가 보호 및 제어를 적용 하기 위해 Intune 또는 도메인 가입을 통해 조직 소유 장치를 관리 하는 것이 좋습니다. 데이터 민감도에 따라 조직에서 특정 사용자 인구 또는 특정 앱에 대해 BYODs를 허용 하지 않도록 선택할 수 있습니다.
+
+## <a name="deployment-and-your-apps"></a>배포 및 앱
+
+Azure AD 통합 앱에 대 한 id 및 장치 액세스 구성을 구성 하 고 롤아웃하기 전에 다음을 수행 해야 합니다. 
+
+- 보호 하려는 조직에서 사용할 앱을 결정 합니다. 
+- 이 앱 목록을 분석 하 여 적절 한 보호 수준을 제공 하는 정책 집합을 확인 합니다. 
+
+  각 앱에 대해 별도의 정책 집합을 관리 하는 일은 번거로울 수 있으므로 따로 만들지 말아야 합니다. 동일한 사용자에 대 한 보호 요구 사항이 동일한 앱을 그룹화 하는 것이 좋습니다. 
+
+  예를 들어 기본 보호를 위한 모든 사용자에 대 한 Microsoft 365 앱과 인사 또는 재무 부서에서 사용 하는 것과 같은 모든 중요 한 앱에 대 한 두 번째 집합을 포함 하는 하나의 정책 집합이 있을 수 있습니다. 
+
+보안 하려는 앱에 대 한 정책 집합을 결정 한 후에는 사용자에 게 정책을 단계적으로 롤아웃할 뿐 아니라 문제를 해결 합니다.  
+
+예를 들어 exchange Online과 관련 된 모든 Microsoft 365 앱에 사용 되는 정책을 구성 하 여 exchange를 추가로 변경 해야 합니다. 이러한 정책을 사용자에 게 배포 하 고 문제를 해결 합니다. 그런 다음 추가 변경 내용을 적용 하 여 팀을 추가 하 고이를 사용자에 게 롤 포워드 합니다. 그런 다음 추가 변경 내용이 포함 된 SharePoint를 추가 합니다. 모든 Microsoft 365 앱을 포함 하도록 이러한 기본 정책을 구성할 수 있을 때까지 나머지 앱을 계속 추가 합니다. 
+
+마찬가지로 중요 한 앱의 경우 정책 집합을 만들고 앱을 한 번에 하나씩 추가 하 고 모든 문제가 중요 한 앱 정책 집합에 포함 될 때까지 문제를 해결 합니다. 
+
+모든 앱에 적용 되는 정책 집합을 만들지 않는 것이 좋습니다. 예를 들어 모든 앱을 차단 하는 정책에 따라 Azure 포털에서 관리자가 잠길 수 있으며, Microsoft Graph와 같은 중요 한 끝점에 대해 제외를 구성할 수 없습니다. 
 
 ## <a name="steps-in-the-process-of-configuring-identity-and-device-access"></a>Id 및 장치 액세스를 구성 하는 프로세스의 단계
 

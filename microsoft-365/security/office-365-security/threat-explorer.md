@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: 보안 및 준수 센터에서 Explorer 및 실시간 검색을 사용 하 여 위협에 효과적이 고 효율적으로 대응 하는 방법에 대해 알아봅니다 &amp; .
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f6df9ce21f29cdeaf4943ba930668420a24344ca
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 32ff9f2c8d009b4c9b05c12ba4e785e59cb182e7
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201868"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328086"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
@@ -86,18 +86,18 @@ Explorer (또는 실시간 검색)를 사용 하는 경우 보안 운영 팀이 
 ### <a name="top-targeted-users"></a>상위 대상 사용자
 
 현재는 전자 메일에 대 한 맬웨어 보기에서 가장 많이 대상으로 지정 된 사용자의 목록을 최상위 맬웨어 제품군 내에서 노출 합니다. 여기서는 피싱 및 모든 전자 메일 보기에서이 보기를 확장 하 고 해당 하는 보기에 대 한 각 사용자의 시도 횟수 (예: 피싱 보기에서 피싱 시도 횟수를 볼 수 있음)와 함께 상위 5 개 사용자를 볼 수 있습니다.
-또한 각 전자 메일 보기에 대 한 오프 라인 분석 시도 횟수와 함께 대상 사용자 목록을 최대 3000까지 내보낼 수 있습니다. 이 외에도 아니요를 선택 합니다. (예: 아래의 13 번 시도)은 위협 탐색기에서 필터링 된 보기를 열고 해당 사용자의 전자 메일 및 위협에 대 한 세부 정보를 확인할 수 있습니다. 
+또한 각 전자 메일 보기에 대 한 오프 라인 분석 시도 횟수와 함께 대상 사용자 목록을 최대 3000까지 내보낼 수 있습니다. 이 외에도 아니요를 선택 합니다. (예: 아래의 13 번 시도)은 위협 탐색기에서 필터링 된 보기를 열고 해당 사용자의 전자 메일 및 위협에 대 한 세부 정보를 확인할 수 있습니다.
 
 ![상위 대상 사용자](../../media/Top_Targeted_Users.png)
 
 
 ### <a name="exchange-transport-rules"></a>Exchange 전송 규칙
 또한 데이터 향상의 일부로, 메시지에 적용 된 다른 전송 규칙도 모두 볼 수 있습니다. 이 정보는 전자 메일 표 보기 내에 표시 되며,이를 확인 하려면 표에서 열 옵션을 선택 하 고 표에 있는 열 옵션에서 Exchange 전송 규칙 추가와 전자 메일의 세부 정보 플라이 아웃을 함께 클릭 합니다.
-메시지에 적용 된 전송 규칙의 이름 뿐 아니라 GUID도 볼 수 있습니다. 또한 전송 규칙의 이름을 사용 하 여 메시지를 검색할 수 있습니다. 이는 ' 포함 ' 검색으로, 부분 검색을 사용 하 여 검색할 수 있다는 것을 의미 합니다. 
+메시지에 적용 된 전송 규칙의 이름 뿐 아니라 GUID도 볼 수 있습니다. 또한 전송 규칙의 이름을 사용 하 여 메시지를 검색할 수 있습니다. 이는 ' 포함 ' 검색으로, 부분 검색을 사용 하 여 검색할 수 있다는 것을 의미 합니다.
 
-#### <a name="important-note"></a>중요 참고 사항: 
-ETR 검색 및 이름 사용 가능 여부는 자신에 게 할당 된 특정 역할에 따라 달라 집니다. ETR 이름과 검색을 보려면 다음 역할/사용 권한 중 하나가 있어야 합니다.  사용자에 게 할당 된 다음 역할이 없는 경우 전송 규칙의 이름을 확인 하 고 ETR 이름을 사용 하 여 메시지를 검색할 수 없게 됩니다. 그러나 전자 메일 세부 정보 내에서 ETR 레이블과 GUID 정보를 볼 수 있습니다. 전자 메일 표에서 레코드를 보는 경우의 다른 경험에는 영향을 주지 않습니다 (전자 메일 flyouts, 필터 및 내보내기). 
- 
+#### <a name="important-note"></a>중요 참고 사항:
+ETR 검색 및 이름 사용 가능 여부는 자신에 게 할당 된 특정 역할에 따라 달라 집니다. ETR 이름과 검색을 보려면 다음 역할/사용 권한 중 하나가 있어야 합니다.  사용자에 게 할당 된 다음 역할이 없는 경우 전송 규칙의 이름을 확인 하 고 ETR 이름을 사용 하 여 메시지를 검색할 수 없게 됩니다. 그러나 전자 메일 세부 정보 내에서 ETR 레이블과 GUID 정보를 볼 수 있습니다. 전자 메일 표에서 레코드를 보는 경우의 다른 경험에는 영향을 주지 않습니다 (전자 메일 flyouts, 필터 및 내보내기).
+
 - EXO Only-데이터 손실 방지: 모두
 - EXO Only-O365SupportViewConfig: All
 - AAD 또는 EXO-보안 관리자: 모두
@@ -105,13 +105,15 @@ ETR 검색 및 이름 사용 가능 여부는 자신에 게 할당 된 특정 �
 - EXO Only-전송 규칙: 모두
 - EXO Only-보기 전용 구성: 모두
 
-전자 메일 표, 세부 정보 플라이 아웃 및 내보낸 CSV에는 아래와 같이 이름/GUID와 함께 ETRs가 표시 됩니다. 
+전자 메일 표, 세부 정보 플라이 아웃 및 내보낸 CSV에는 아래와 같이 이름/GUID와 함께 ETRs가 표시 됩니다.
 
 ![Exchange 전송 규칙](../../media/ETR_Details.png)
 
-### <a name="inbound-connectors"></a>인바운드 커넥터 
+### <a name="inbound-connectors"></a>인바운드 커넥터
 
-커넥터는 Microsoft 365 또는 Office 365 조 직에서 전자 메일이 들어오고 나가는 방식을 사용자 지정 하는 지침 모음으로, 보안 제한이 나 제어를 적용할 수 있습니다. 이제는 위협 탐색기 내에서 전자 메일과 관련 된 커넥터를 확인 하 고 커넥터 이름을 사용 하 여 전자 메일을 검색할 수 있습니다. 커넥터 검색은 부분적인 키워드 검색도 작동 하도록 ' 포함 ' 되어 있습니다. 기본 눈금 보기, 세부 정보 플라이 아웃 및 내보낸 CSV에서 커넥터는 아래와 같이 이름/GUID 형식으로 표시 됩니다. 
+커넥터는 Microsoft 365 또는 Office 365 조 직에서 전자 메일이 들어오고 나가는 방식을 사용자 지정 하는 지침 모음으로, 보안 제한이 나 제어를 적용할 수 있습니다. 이제는 위협 탐색기 내에서 전자 메일과 관련 된 커넥터를 확인 하 고 커넥터 이름을 사용 하 여 전자 메일을 검색할 수 있습니다.
+커넥터 검색은 부분적인 키워드 검색도 작동 하도록 ' 포함 ' 되어 있습니다.
+기본 눈금 보기, 세부 정보 플라이 아웃 및 내보낸 CSV에서 커넥터는 아래와 같이 이름/GUID 형식으로 표시 됩니다.
 
 ![커넥터 세부 정보](../../media/Connector_Details.png)
 
@@ -185,7 +187,7 @@ ETR 검색 및 이름 사용 가능 여부는 자신에 게 할당 된 특정 �
 > [!TIP]
 > Network Message ID는 네트워크 메시지 ID를 통해 탐색기나 연결 된 타사 도구를 검색할 때 클릭을 특정 메일에 다시 매핑합니다. 네트워크 메시지 ID를 통해 검색 하면 관리자가 클릭 결과와 연결 된 특정 전자 메일을 제공 합니다. 내보낼 때 네트워크 메시지 ID의 일치 확인을 통해 더 빠르고 강력한 분석이 가능 합니다.
 
-![tp_ExportClickResultAndNetworkID.png](../../media/tp_ExportClickResultAndNetworkID.png)
+![탐색기의 클릭 탭](../../media/tp_ExportClickResultAndNetworkID.png)
 
 ## <a name="see-malware-detected-in-email-by-technology"></a>기술 별로 전자 메일에서 발견 된 맬웨어를 참조 하세요.
 
@@ -211,7 +213,7 @@ Microsoft 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 �
 
 ## <a name="view-data-about-phishing-urls-and-click-verdict"></a>피싱 Url에 대 한 데이터를 확인 하 고 결과를 클릭 합니다.
 
-허용, 차단 및 재정의 된 Url 목록을 비롯 하 여 전자 메일의 Url을 통한 피싱 시도를 확인 하려는 경우를 가정해 봅니다. 클릭 한 Url을 식별 하려면 [ATP 안전한 링크](atp-safe-links.md) 를 구성 해야 합니다. 클릭 verdicts 보호 및 로깅에 대 한 [Atp Safe links 정책이](set-up-atp-safe-links-policies.md) 설정 되었는지 확인 합니다. Atp safe 링크를 클릭 합니다.
+허용, 차단 및 재정의 된 Url 목록을 비롯 하 여 전자 메일의 Url을 통한 피싱 시도를 확인 하려는 경우를 가정해 봅니다. 클릭 한 Url을 식별 하려면 [안전한 링크](atp-safe-links.md) 를 구성 해야 합니다. 클릭 시간 보호에 대 한 [안전한 링크 정책을](set-up-atp-safe-links-policies.md) 설정 해야 하며 안전한 링크를 클릭 하 여 verdicts을 클릭할 수 있습니다.
 
 메시지에서 피싱 Url을 검토 하 고 피싱 메시지의 Url을 클릭 하려면 [전자 메일 > 피싱](threat-explorer-views.md#email--phish) Explorer 보기 (실시간 검색)를 사용 합니다.
 
@@ -242,8 +244,7 @@ Microsoft 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 �
    > [!NOTE]
    > URL 플라이 아웃 대화 상자에서 전자 메일 메시지에 대 한 필터링이 제거 되어 사용자 환경에 표시 되는 URL의 전체 보기를 보여 줍니다. 이를 통해 탐색기의 전자 메일 메시지를 관심 있는 항목으로 필터링 하 고, 잠재적인 위협이 되는 특정 Url을 찾은 다음, url 필터 대화 상자를 통해 해당 환경의 URL 노출에 대 한 이해를 탐색기 보기 자체에 추가 하지 않아도 됩니다.
 
-
-**다른 클릭 verdicts 해석**
+### <a name="interpretation-of-different-click-verdicts"></a>다른 클릭 verdicts 해석
 
 전자 메일 또는 URL flyouts에서 위쪽 클릭을 비롯 하 여 필터링 환경 내에서 찾기 환경의 일부로 다른 클릭 값이 표시 됩니다. 다음은 Verdicts 클릭 가능한 값과 해석 방법입니다.
 
@@ -254,7 +255,7 @@ Microsoft 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 �
 - **차단 된 재정의**: 사용자가 URL로 이동할 수 없도록 차단 되었습니다. 그러나 사용자가이 블록에서 URL로 이동 하는 것을 중단 했습니다.
 - **결과 바이패스 보류**: 사용자에 게 샌드 박싱 페이지와 함께 제공 됩니다. 그러나 사용자가 페이지를 제거 하 여 URL로 이동할 수 있습니다.
 - **오류**: 사용자에 게 오류 페이지가 표시 됩니다. 또한 결과를 캡처하는 중에 오류가 발생 했을 수 있습니다.
-- **실패**: 결과를 캡처하는 동안 알 수 없는 예외가 발생 했습니다. 사용자가 URL을 클릭 했을 수 있습니다. 
+- **실패**: 결과를 캡처하는 동안 알 수 없는 예외가 발생 했습니다. 사용자가 URL을 클릭 했을 수 있습니다.
 
 ## <a name="review-email-messages-reported-by-users"></a>사용자가 보고 한 전자 메일 메시지 검토
 
@@ -288,7 +289,7 @@ Microsoft 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 �
 이 문서에서 설명 하는 시나리오 외에도 Explorer (또는 실시간 검색)에서 사용할 수 있는 보고 옵션이 더 많이 있습니다.
 
 - [배달된 악성 전자 메일 찾기 및 조사](investigate-malicious-email-that-was-delivered.md)
-- [SharePoint Online, OneDrive 및 Microsoft 팀에서 검색 된 악의적인 파일 보기](malicious-files-detected-in-spo-odb-or-teams.md)
+- [위협 방지 상태 보고서](view-email-security-reports.md#threat-protection-status-report)
 - [위협 탐색기 및 실시간 검색의 보기에 대 한 개요 보기](threat-explorer-views.md)
 - [Microsoft Threat Protection의 자동화된 조사 및 대응](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
 
