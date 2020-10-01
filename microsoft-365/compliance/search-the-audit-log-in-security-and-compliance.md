@@ -17,18 +17,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
-description: 보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자와 관리자 활동을 확인합니다.
+description: Office 365 보안 및 준수 센터 또는 Microsoft 365 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7051e03ca4751d6e97d9af9228765be9e1af6ebe
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 48d40cff907480f05dff8ba1c5c1584fc8289b1b
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197351"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286044"
 ---
-# <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
+# <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
-사용자가 특정 문서를 보았는지 또는 사서함에서 항목을 제거했는지 확인해야 하나요? 그렇다면 보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자와 관리자 활동을 확인합니다. 통합된 감사 로그를 사용하는 이유는 무엇일까요? Office 365에서 다음과 같은 유형의 [사용자 및 관리자 활동](#audited-activities)을 검색할 수 있기 때문입니다.
+사용자가 특정 문서를 보았는지 또는 사서함에서 항목을 제거했는지 확인해야 하나요? 그렇다면 보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자와 관리자 활동을 확인합니다. 통합된 감사 로그를 사용하는 이유는 무엇일까요? Microsoft 365에서 다음과 같은 유형의 [사용자 및 관리자 활동](#audited-activities)을 검색할 수 있기 때문입니다.
 
 - SharePoint Online 및 비즈니스용 OneDrive의 사용자 활동
 
@@ -36,7 +36,7 @@ ms.locfileid: "48197351"
 
 - SharePoint Online의 관리 활동
 
-- Azure Active Directory(Office 365용 디렉터리 서비스)의 관리자 활동
+- Azure Active Directory(Microsoft 365용 디렉터리 서비스)의 관리자 활동
 
 - Exchange Online(Exchange 관리자 감사 로깅)의 관리자 활동
 

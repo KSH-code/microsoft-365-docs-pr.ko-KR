@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블 구현을 시작할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
-ms.openlocfilehash: 2c23246f17a8d9ea9681017dca28e144f3088604
-ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
+ms.openlocfilehash: 7892eabdea3d92e9720b23efc708a99c7154ab7b
+ms.sourcegitcommit: 61d7284b412d0f7bbd8bbb2225c2e6324f86b717
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/24/2020
-ms.locfileid: "48245961"
+ms.locfileid: "48262303"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
@@ -67,7 +67,6 @@ ms.locfileid: "48245961"
 이러한 사용 권한은 민감도 레이블과 해당 레이블 정책을 만들고 구성하는 데만 필요합니다. 앱이나 서비스에서 레이블을 적용하는 것은 필요하지 않습니다. 민감도 레이블과 관련된 특정 구성에 대해 추가 사용 권한이 필요한 경우 해당 사용 권한은 해당하는 문서 지침에 나열되어 있습니다.
 
 ## <a name="deployment-strategy-for-sensitivity-labels"></a>민감도 레이블 배포 전략
-
 조직에 민감도 레이블을 배포하는 성공적인 전략은 비즈니스 및 기술 요구사항, 개념 증명 테스트, 내부 체크포인트 및 승인, 프로덕션 환경에 대한 최종 배포를 식별 및 관리하는 가상 팀을 만드는 것입니다.
 
 다음 섹션의 표를 사용하여 가장 영향력 있는 비즈니스 요구사항에 적합한 상위 한두 가지 시나리오를 파악하는 것이 좋습니다. 이러한 시나리오가 배포된 후 목록으로 돌아가 배포의 다음 한두 가지 우선 순위를 식별합니다.
