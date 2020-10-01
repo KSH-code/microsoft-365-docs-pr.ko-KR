@@ -1,5 +1,5 @@
 ---
-title: Trainable 분류자에 대 한 자세한 정보 (미리 보기)
+title: 학습 가능한 분류자에 대한 자세한 정 (미리 보기)
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 trainable 분류자는 긍정적이 고 부정적 샘플을 확인 하 여 다양 한 유형의 콘텐츠를 인식할 수 있도록 교육을 제공 하는 도구입니다. 일단 분류자가 학습 되 면 결과가 정확 함을 확인할 수 있습니다. 그런 다음이를 사용 하 여 조직의 콘텐츠를 검색 하 고이를 분류 하 여 보존 또는 민감도 레이블을 적용 하거나 DLP (데이터 손실 방지) 또는 보존 정책에 포함 합니다.
-ms.openlocfilehash: 9a628eec748681e0a22911bf7cf3774895b10ead
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 8b086690faba23e1331e02d8844503c44e7617c0
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132395"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322191"
 ---
 # <a name="learn-about-classifiers-preview"></a>분류자에 대 한 자세한 정보 (미리 보기)
 
@@ -75,10 +75,8 @@ Microsoft 365에는 미리 훈련 된 5 개의 분류자가 제공 됩니다.
     - C + +
     - Clojure
     - CoffeeScript
-    - 시트
     - 갈
     - Haskell
-    - HTML
     - Java
     - JavaScript
     - Lua

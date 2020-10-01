@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: e1e1677c929ef0de5d47dbb98ef8987a8fba548d
-ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
+ms.openlocfilehash: e2fba7a5cf83838c440cdea8436b5bbdd360885b
+ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48245905"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48318177"
 ---
 # <a name="communication-compliance-feature-reference"></a>통신 준수 기능 참조
 
@@ -113,7 +113,7 @@ Microsoft 365 준수 센터에서 Microsoft 365 조 직에 대 한 통신 준수
     - **하이브리드 전자 메일 환경을 사용한 팀 채팅 통신**: 통신 준수는 Exchange 온-프레미스 배포를 사용 하는 조직이 나 Microsoft 팀을 사용 하는 외부 전자 메일 공급자가 있는 조직의 사용자를 위해 채팅 메시지를 모니터링할 수 있습니다. 온-프레미스 또는 모니터링할 외부 사서함을 사용 하는 사용자에 대 한 메일 그룹을 만들어야 합니다. 통신 준수 정책을 만들 때 정책 마법사에서이 메일 그룹을 **감독 된 사용자 및 그룹** 으로 지정 합니다.
 
     >[!IMPORTANT]
-    >조직이 보안 & 준수 센터의 그래픽 사용자 인터페이스를 사용 하 여 온-프레미스 사용자에 대 한 팀 채팅 데이터를 검색할 수 있도록 하려면 Microsoft Support에 대 한 요청을 파일 해야 합니다. 자세한 내용은 [온-프레미스 사용자를 위해 클라우드 기반 사서함 검색](search-cloud-based-mailboxes-for-on-premises-users.md)을 참조 하세요.
+    >조직에서 보안 및 준수 센터의 그래픽 사용자 인터페이스를 사용하여 온-프레미스 사용자의 Teams 채팅 데이터를 검색할 수 있도록 하려면 Microsoft 지원에 요청을 제출해야 합니다. 자세한 내용은 [온-프레미스 사용자를 위해 클라우드 기반 사서함 검색](search-cloud-based-mailboxes-for-on-premises-users.md)을 참조 하세요.
 
 조직에서 보안 및 준수 센터의 그래픽 사용자 인터페이스를 사용하여 온-프레미스 사용자의 클라우드 기반 사서함에서 Teams 채팅 데이터를 검색할 수 있도록 하려면 Microsoft 지원에 요청을 제출해야 합니다.
 
@@ -194,7 +194,7 @@ Microsoft 365의 trainable 분류자에 대 한 자세한 내용은 [trainable �
 ### <a name="conditional-settings"></a>조건부 설정
 <a name="ConditionalSettings"> </a>
 
-정책에 대해 선택 하는 조건은 인스턴트 Bloomberg 또는 DropBox와 같이 조직의 전자 메일 및 타사 소스를 통한 통신에 적용 됩니다.
+정책에 대해 선택 하는 조건은 인스턴트 Bloomberg와 같이 조직의 전자 메일 및 타사 소스 모두 로부터의 통신에 적용 됩니다.
 
 다음 표에는 각 조건에 대 한 자세한 설명이 나와 있습니다.
   
@@ -217,7 +217,7 @@ Microsoft 365의 trainable 분류자에 대 한 자세한 내용은 [trainable �
 쉼표로 구분 하 여 입력 한 각 단어를 개별적으로 적용 합니다 (전자 메일 또는 첨부 파일에 적용할 정책 조건에 한 단어씩 적용 해야 함). 예를 **들어 다음**조건을 사용 하 여 메시지에 "banker", "기밀" 및 "참가자 거래" 라는 키워드를 쉼표로 구분 하 여 허용 합니다. 이 정책은 "banker", "기밀" 또는 "참가자 거래" 라는 단어가 포함 된 모든 메시지에 적용 됩니다. 이 정책 조건을 적용 하려면 이러한 단어 또는 구문 중 하나만 발생 해야 합니다. 메시지 또는 첨부 파일의 단어는 입력 한 내용과 정확히 일치 해야 합니다.
 
 >[!IMPORTANT]
->사용자 지정 사전 파일을 가져올 때는 각 단어나 구를 캐리지 리턴과 별도의 줄에 구분 해야 합니다. <br> 예시: <br><br>
+>사용자 지정 사전 파일을 가져올 때는 각 단어나 구를 캐리지 리턴과 별도의 줄에 구분 해야 합니다. <br> 예제: <br><br>
 >*banker* <br>
 >*기밀로* <br>
 >*insider 사업*
