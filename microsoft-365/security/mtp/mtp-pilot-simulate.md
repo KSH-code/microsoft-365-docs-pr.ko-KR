@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 8d4eb6cedbfa9a74eccdbb94e71f9eb32189ccbb
-ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
+ms.openlocfilehash: be6bf277926cffb77dfcde425ef08a688fb0cf34
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277539"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333981"
 ---
 # <a name="run-your-microsoft-threat-protection-attack-simulations"></a>Microsoft Threat Protection 공격 시뮬레이션 실행  
 
@@ -31,6 +31,47 @@ ms.locfileid: "48277539"
 
 **적용 대상:**
 - Microsoft 위협 방지
+<br>
+<table border="0" width="100%" align="center">
+  <tr style="text-align:center;">
+    <td align="center" style="width:25%; border:0;" >
+      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
+        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft Threat Protection project" title="파일럿 Microsoft Threat Protection 프로젝트 계획" />
+      <br/>만들려는 </a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">
+        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft Threat Protection trial lab or pilot environment" title="Microsoft Threat Protection 평가판 랩 또는 파일럿 환경 준비" />
+      <br/>함 </a><br>
+    </td>
+    <td align="center"bgcolor="#d5f5e3">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate">
+        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft Threat Protection attack simulations" title="Microsoft Threat Protection 공격 시뮬레이션 실행" />
+      <br/>공격 시뮬레이트 </a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-close">
+        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft Threat Protection pilot" title="Microsoft Threat Protection 파일럿을 닫고 요약 합니다." />
+      <br/>닫기 및 요약 </a><br>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:25%; border:0;">
+   
+    </td>
+    <td valign="top" style="width:25%; border:0;">
+    
+</td>
+    <td valign="top" style="width:25%; border:0;">
+
+</td>    
+    <td valign="top" style="width:25%; border:0;">
+
+</td>
+  </tr>
+</table>
+
+현재 공격 시뮬레이션 단계입니다.
 
 파일럿 환경을 준비한 후에는 Microsoft Threat Protection 인시던트 관리 및 자동화 된 조사 및 업데이트 기능을 테스트 해야 합니다. Microsoft는 고급 기술을 활용 하 여 검색에서 숨기는 정교한 공격을 시뮬레이트하는 데 도움이 될 것입니다. 이 공격은 도메인 컨트롤러에서 열린 SMB (서버 메시지 블록) 세션을 열거 하 고 사용자 장치의 최근 IP 주소를 검색 합니다. 일반적으로이 유형의 공격에는 처리 되지 않은 장치에 삭제 된 파일이 포함 되지 않으며 메모리에만 발생 합니다. 기존 시스템 및 관리 도구를 사용 하 여 해당 코드를 시스템 프로세스에 주입 하 여 실행을 숨기고, 피하기 검색을 수행 하 고 장치에서 유지할 수 있도록 합니다.
 

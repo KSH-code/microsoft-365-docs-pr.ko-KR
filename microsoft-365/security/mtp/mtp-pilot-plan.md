@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: a52ba30aa9b89dc78e9bd5a538cb530cd7bf6e00
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: 21e6e3294b8fe722214d567963223b9e62737e34
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48305369"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333681"
 ---
 # <a name="planning-your-pilot-microsoft-threat-protection-project"></a>파일럿 Microsoft Threat Protection 프로젝트 계획 
 
@@ -31,8 +31,49 @@ ms.locfileid: "48305369"
 
 **적용 대상:**
 - Microsoft 위협 방지
+<br>
+<table border="0" width="100%" align="center">
+  <tr style="text-align:center;">
+    <td align="center" style="width:25%; border:0;" bgcolor="#d5f5e3">
+      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
+        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft Threat Protection project" title="파일럿 Microsoft Threat Protection 프로젝트 계획" />
+      <br/>계획</a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">
+        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft Threat Protection trial lab or pilot environment" title="Microsoft Threat Protection 평가판 랩 또는 파일럿 환경 준비" />
+      <br/>준비</a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate">
+        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft Threat Protection attack simulations" title="Microsoft Threat Protection 공격 시뮬레이션 실행" />
+     <br/>공격 시뮬레이션</a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-close">
+        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft Threat Protection pilot" title="Microsoft Threat Protection 파일럿을 닫고 요약 합니다." />
+     <br/>닫기 및 요약</a><br>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:25%; border:0;">
+   
+    </td>
+    <td valign="top" style="width:25%; border:0;">
+    
+</td>
+    <td valign="top" style="width:25%; border:0;">
 
-파일럿 프로젝트가 성공적인 지 확인 하려면 처음에 관련자 로부터 철저 하 게 계획 하 고 승인을 받아야 합니다. 계획 요소에는 식별 범위, 사용 사례, 요구 사항 및 성공 기준이 포함 됩니다. 
+</td>    
+    <td valign="top" style="width:25%; border:0;">
+
+</td>
+  </tr>
+</table>
+
+현재 계획 단계입니다.
+
+파일럿 프로젝트가 성공적인 지 확인 하려면 처음에 관련자 로부터 철저 하 게 계획 하 고 승인을 받아야 합니다. 계획 요소에는 식별 범위, 사용 사례, 요구 사항 및 성공 기준이 포함 됩니다.
 
 이 가이드에서는 파일럿 프로젝트를 계획 하는 방법을 안내 합니다. 
 
@@ -53,7 +94,7 @@ ms.locfileid: "48305369"
 
 ## <a name="use-cases"></a>사용 사례
 
-사용 사례는 테스트 중인 도구를 의도 한 사용자가 소비 하는 방식에 대 한 설명을 나타냅니다. 이러한 요소는 SOC 분석가와 같은 특정 가상 사용자의 관점에서 사용자 스토리로 사용 될 수 있습니다. 예제:
+사용 사례는 테스트 중인 도구를 의도 한 사용자가 소비 하는 방식에 대 한 설명을 나타냅니다. 이러한 요소는 SOC 분석가와 같은 특정 가상 사용자의 관점에서 사용자 스토리로 사용 될 수 있습니다. 예시:
 - SOC 분석가는 내 네트워크의 장치, 사용자 및 사서함에서 알림 및 이벤트를 확인, 상관 관계, 평가 및 관리 해야 합니다. [인시던트 관리]
 - SOC 분석가는 내 네트워크의 악의적인 이벤트를 자동으로 조사 하 고 대응 하기 위해 도구와 프로세스를 수행 해야 합니다. [자동 IR]
 - SOC 분석가는 필자의 환경에서 알려진 문제 및 잠재적인 위협과 의심 스러운 활동을 찾기 위해 환경의 데이터를 검색 해야 합니다. [고급 구하기]
@@ -85,5 +126,5 @@ ms.locfileid: "48305369"
 
 
 ## <a name="next-step"></a>다음 단계
-|![준비 단계](../../media/prepare.png) <br>[준비 단계](prepare-mtpeval.md) | Microsoft Threat Protection 파일럿 환경 준비
+|![준비 단계](../../media/mtp/prep.png) <br>[준비 단계](prepare-mtpeval.md) | Microsoft Threat Protection 파일럿 환경 준비
 |:-------|:-----|

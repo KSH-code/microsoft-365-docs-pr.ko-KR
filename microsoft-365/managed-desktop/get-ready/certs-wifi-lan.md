@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 7a0af5db4e18bc46436ace6f9fefefc18f0ccd68
-ms.sourcegitcommit: 51f040a4edb8dd52521a5d7b0f7a975986a1af10
+ms.openlocfilehash: bccfe9a6a6a0550f96ab33d5fd5142e4eaae7b51
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46608278"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333527"
 ---
 # <a name="prepare-certificates-and-network-profiles-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비  
  
@@ -32,9 +32,6 @@ Microsoft Managed Desktop에 SCEP 또는 PKCS 인증서를 배포 하기 전에 
  
 - [PKCS 인증서 템플릿](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/PKCS-certificate-template.xlsx) 
 - [SCEP 인증서 템플릿](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/SCEP-certificate-template.xlsx)
-
->[!NOTE]
->현재 EAP 유형을 사용 하는 경우에는 Microsoft Managed Desktop에 대 한 Wi-fi 프로필 배포에 대해서만 SCEP 인증서 프로필을 사용할 수 있습니다. PKCS 인증서 프로필은 지원 되지 않습니다. 참조에 대해서는 [Intune에서 Windows 10 장치에 대 한 wi-fi 설정 추가를](https://docs.microsoft.com/intune/wi-fi-settings-windows) 참조 하세요.
 
   
 ## <a name="wi-fi-connectivity-requirements"></a>Wi-fi 연결 요구 사항

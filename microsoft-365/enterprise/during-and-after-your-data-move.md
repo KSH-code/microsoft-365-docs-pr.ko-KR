@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 데이터 이동은 테 넌 트에 대 한 서비스 및 연결 된 데이터를 새 데이터 센터 geo로 이동할 때 발생 하는 백 엔드 작업입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: acd2601d32617c56019ca8b4bf8688ce40f5d76a
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: d2e63dd046f62f07e367b3632f96bf7261b99c9c
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950275"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333703"
 ---
 # <a name="during-and-after-your-data-move"></a>데이터 이동 도중 및 이후
 
@@ -30,8 +30,7 @@ ms.locfileid: "47950275"
 > [!NOTE]
 > 서비스마다 다른 시간에 이동이 발생합니다. 결과적으로 다른 시간에 각 서비스의 기능이 제한된다는 설명이 표시될 수 있습니다. 
   
-각 Exchange Online, SharePoint Online, 팀 및 비즈니스용 Skype에 대 한 이동이 완료 되 면 Microsoft 365 메시지 센터에서 확인을 볼 수 있습니다. 아래 표에 표시된 것처럼, 등록 기간이 끝나고 특정 지역의 모든 고객에 대해 요청된 모든 데이터 이동을 완료하는 데 24개월까지 걸릴 수 있습니다. 이동 후 테 넌 트에 문제가 표시 되는 경우 [고객 지원](https://go.microsoft.com/fwlink/p/?LinkID=522459) 에 문의 하 여 도움을 받으십시오. 
-  
+각 Exchange Online, SharePoint Online 및 팀 채팅 서비스에 대 한 이동이 완료 되 면 Microsoft 365 메시지 센터에서 확인을 시청 하세요. 아래 표에 나와 있는 것 처럼, rest에서 핵심 고객 데이터를 완료 하기 위한 등록 기간이 끝나면 최대 24 개월이 새 데이터 센터 지역으로 이동 될 수 있습니다.   
 
 |**등록 국가가 있는 고객**|**모든 이동 완료 시기**|
 |:-----|:-----|
@@ -46,7 +45,7 @@ ms.locfileid: "47950275"
 |남아프리카 공화국  <br/> |2022 년 7 월 1 일  <br/> |
 |스위스, 리히텐슈타인  <br/> |2022 년 7 월 1 일  <br/> |
 |노르웨이  <br/> |2022 년 11 월 1 일  <br/> |
-|독일  <br/> |하려고  <br/> |
+|독일  <br/> |2023 년 4 월 1 일  <br/> |
 
 ## <a name="exchange-online"></a>Exchange Online
 
@@ -67,13 +66,9 @@ SharePoint Online이 이동 될 때 다음 서비스에 대 한 데이터도 이
   
 - 비즈니스용 OneDrive
     
-- Project Online
-    
-- Microsoft 365 프로젝트
-    
 - Microsoft 365 비디오 서비스
     
-- S 브라우저의 Office
+- 브라우저에서 Office
     
 - 엔터프라이즈용 Microsoft 365 앱
     
@@ -109,7 +104,7 @@ SharePoint Online 데이터를 이동 하는 과정에서 검색 인덱스 및 �
 
 ## <a name="microsoft-teams"></a>Microsoft Teams
 
-Microsoft는 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive 외에도 팀 데이터를 로컬 데이터 센터로 마이그레이션합니다.
+Microsoft는 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive 외에도 팀 채팅 서비스 데이터를 로컬 데이터 센터로 마이그레이션합니다.
 
 - 개인 메시지 및 채널 메시지를 포함 한 팀 대화방 메시지
 - 채팅에 사용 되는 팀 이미지
@@ -118,20 +113,7 @@ Microsoft는 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive 외
 
 ## <a name="skype-for-business"></a>비즈니스용 Skype
 
-비즈니스용 Skype 이동은 오스트레일리아, 일본, 인도, 캐나다, 영국 및 대한민국에서 사용할 수 있습니다.
-
-단독형 마이그레이션 동안 비즈니스용 Skype 클라이언트 소프트웨어에서 모든 사용자가 로그아웃됩니다. 자동 로그인이 수행되면서 2분 내에 사용자가 다시 연결됩니다.
-  
-|**전체 이동 중에 작동 하는 기능**|**이동 중에 제한 될 수 있는 기능**|
-|:-----|:-----|
-| 인스턴트 메시징 및 음성 통화  <br/>  사용자는 대화 상대를 추가하고, 대화 상대 그룹을 추가하고, 모임을 추가하고, 위치를 설정하고, "새로운 소식"을 변경할 수 있습니다.  <br/>  ACP(오디오 회의 공급자) 설정은 대상 데이터 센터 지역으로 복사됩니다. ACP 공급자가 대상 데이터 센터에 있으면 작동하고, 그렇지 않으면 작동하지 않습니다.  <br/> | 관리자는 테넌트 관리자 TRPS(테넌트 원격 PowerShell)를 사용하여 세션을 만들 수 없습니다.  <br/>  관리자는 테넌트 관리자 LAC를 사용하여 로그인하고 사용자 설정을 변경할 수 없습니다.  <br/> |
-   
-|**이동 후**|
-|:-----|
-| 모임 데이터(업로드된 프레젠테이션 등)는 이동되지 않으므로 다시 업로드해야 합니다.  <br/>  Lync 2010 클라이언트 및 Mac 2011용 Lync 클라이언트와 같은 이전 버전의 Lync 클라이언트는 DNS 정보를 서비스로 캐시하여 로그인 문제를 일으키는 것으로 알려져 있습니다. 사용자가 최신 비즈니스용 Skype Windows 클라이언트를 사용하지 않는 경우 DNS 캐시를 지워야 할 수 있습니다. [Office 365에서 비즈니스용 Skype 온라인 DNS 구성 문제 해결](https://docs.microsoft.com/skypeforbusiness/troubleshoot/online-configuration/dns-configuration-issue)을 참조 하세요. Mac 용 Lync 클라이언트 사용자는 [다음 지침](https://support.microsoft.com/kb/2629861)을 따라야 합니다.  <br/> |
-   
-### <a name="skype-for-business-moves-that-involve-a-third-party-audio-conferencing-provider"></a>타사 오디오 회의 공급자를 포함 하는 비즈니스용 Skype 이동
-새로운 지역별 데이터 센터에 소속된 사용자는 비즈니스용 Skype에 대한 타사 오디오 회의 공급자 추가 기능 서비스를 사용할 수 없습니다.   타사 오디오 회의 공급자 서비스를 사용하는 기존 고객은 새로운 지역별 데이터 센터로의 이동을 요청하지 않는 것이 좋습니다.   새로운 지역별 데이터 센터에 배포된 신규 고객은 타사 오디오 회의 공급자를 사용하기 위해 지역별 데이터 센터로의 이동을 요청해야 합니다. 
+비즈니스용 Skype 이동을 더 이상 사용할 수 없습니다.  [비즈니스용 Skype Online은](https://docs.microsoft.com/lifecycle/announcements/skype-for-business-online-retirement) 2021 년 7 월 31 일에 만료 됩니다. 그 후에는 서비스에 더 이상 액세스할 수 없게 됩니다. 
   
 ## <a name="related-topics"></a>관련 항목 
  

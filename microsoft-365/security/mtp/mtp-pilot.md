@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 88d92558d86e0aa2e90ef04d88a3cd4676386f15
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 250c125648f734a13899a58dd22ee3bffb0921a9
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195630"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333737"
 ---
 # <a name="run-your-pilot-microsoft-threat-protection-project"></a>파일럿 Microsoft Threat Protection 프로젝트 실행 
 
@@ -56,7 +56,7 @@ Microsoft Threat Protection 파일럿을 실행 하는 데는 다음과 같은 �
 |단계 | 설명 | 
 |:-------|:-----|
 | ![계획](../../media/mtp/plan.png)<br>[계획](mtp-pilot-plan.md)| Microsoft Threat Protection 파일럿 프로젝트를 실행 하기 전에 고려해 야 할 사항에 대해 알아봅니다. <br><br>-범위 <br> -사용 사례 <br>- 요구 사항 <br>-테스트 계획 <br> -성공 조건 <br> -성과 기록표 
-| ![미리](../../media/prepare.png) <br>[미리](mtp-evaluation.md)|  Microsoft 365 보안 센터에 액세스 하 여 마이크로소프트 Threat Protection 파일럿 환경을 설정 합니다. 다음을 안내 합니다.<br><br>-관련자 식별 및 파일럿에 대 한 승인 찾기 <br> -환경 고려 사항 <br>-액세스 <br>-Azure Active Directory 설치 <br> -구성 순서 <br> -Microsoft 365 E5 평가판 등록 <br> -도메인 구성 <br>-Microsoft 365 E5 라이선스 할당 <br> -포털에서 설치 마법사 완료|
+| ![미리](../../media/mtp/prep.png) <br>[미리](mtp-evaluation.md)|  Microsoft 365 보안 센터에 액세스 하 여 마이크로소프트 Threat Protection 파일럿 환경을 설정 합니다. 다음을 안내 합니다.<br><br>-관련자 식별 및 파일럿에 대 한 승인 찾기 <br> -환경 고려 사항 <br>-액세스 <br>-Azure Active Directory 설치 <br> -구성 순서 <br> -Microsoft 365 E5 평가판 등록 <br> -도메인 구성 <br>-Microsoft 365 E5 라이선스 할당 <br> -포털에서 설치 마법사 완료|
 | ![공격 시뮬레이션](../../media/mtp/run-sim.png) <br>[공격 시뮬레이션](mtp-pilot-simulate.md) | 공격을 시뮬레이트하기 위해 다음을 안내 합니다.<br><br>-테스트 환경 요구 사항 확인 <br>-시뮬레이션을 실행 합니다. <br>-문제 조사 <br>-인시던트를 해결 합니다. 
 | ![맺음말 및 요약](../../media/mtp/close.png) <br>[맺음말 및 요약](mtp-pilot-close.md) | 프로세스의 끝에 도달 하면 다음을 안내 합니다.<br><br>-최종 출력으로 이동<br>-결과를 이해 관계자에 게 제공 <br>-사용자 의견 제공 <br>-다음 단계 수행 
 

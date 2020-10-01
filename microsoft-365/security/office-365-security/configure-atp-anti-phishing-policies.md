@@ -14,17 +14,16 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Office 365 Advanced Threat Protection (Office 365 ATP)을 사용 하 여 조직에서 사용할 수 있는 고급 피싱 방지 정책을 만들고, 수정 하 고, 삭제 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 2986102b549b7302a7a4ac533f80846d832aeb41
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: c08046bdc9e72bc824dc28acdf2443c9071236a0
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328074"
+ms.locfileid: "48333549"
 ---
 # <a name="configure-atp-anti-phishing-policies"></a>ATP 피싱 방지 정책 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
-
 
 ATP 피싱 방지 정책은 [Office 365 Advanced Threat Protection](office-365-atp.md)의 일부입니다. ATP 피싱 방지 정책은 악의 있는 가장 기반 피싱 공격과 기타 유형의 피싱 공격 으로부터 조직을 보호 하는 데 도움이 될 수 있습니다. EOP (Exchange Online Protection)의 피싱 방지 정책, ATP 피싱 방지 정책 간의 차이점에 대 한 자세한 내용은 [피싱 방지 보호](anti-phishing-protection.md)를 참조 하십시오.
 
@@ -63,7 +62,7 @@ Exchange Online PowerShell에서는 정책과 규칙을 별도로 관리 합니�
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
-- 이 항목의 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다.
+- 이 문서의 절차를 수행 하려면 먼저 사용 권한을 할당 받아야 합니다.
 
   - ATP 피싱 방지 정책을 추가, 수정 및 삭제 하려면 다음 역할 그룹 중 하나의 구성원 이어야 합니다.
 
@@ -176,6 +175,8 @@ ATP 피싱 방지 정책을 만들 때는 정책 이름, 설명 및 정책이 �
 
      - **소유한 도메인을 자동으로 포함**: 기본값은 **Off**입니다. 설정 하려면 **슬라이드를 설정 합니다 .로**이동 합니다.
      - **사용자 지정 도메인 포함**: 기본값은 **Off**입니다. 이 옵션을 설정 하려면 켜기/끄기를 **켜**세요. 도메인 **추가** 상자에 도메인 이름 (예: contoso.com)을 입력 하 고 enter 키를 누른 다음 필요에 따라 반복 합니다.
+
+       **참고**: 보안 & 준수 센터에서 최대 20 개의 도메인을 입력할 수 있습니다. Exchange Online PowerShell에서 최대 50 개의 도메인을 입력할 수 있습니다.
 
    - **작업**: **편집** 을 클릭 합니다.
 
