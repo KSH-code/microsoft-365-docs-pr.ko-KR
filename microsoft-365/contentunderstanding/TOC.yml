@@ -28,6 +28,10 @@
       href: model-usage-analytics.md
     - name: 추출기를 만들 때 용어 저장소 분류 활용
       href: leverage-term-store-taxonomy.md
+- name: 도입
+  items:
+    - name: 채택 시작 하기
+      href: adoption-getstarted.md
 - name: 설치 및 관리
   items:
     - name: 콘텐츠 이해 설정
