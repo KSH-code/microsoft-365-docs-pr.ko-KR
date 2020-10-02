@@ -17,56 +17,56 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 3fc563c762e7cd00888665b63e66159e4d3d9612
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 6d627dcf3d6ec8ca1d2aa76eab484361c25b529e
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196980"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338420"
 ---
-# <a name="fileprofile"></a><span data-ttu-id="9325f-104">FileProfile()</span><span class="sxs-lookup"><span data-stu-id="9325f-104">FileProfile()</span></span>
+# <a name="fileprofile"></a><span data-ttu-id="a48f4-104">FileProfile()</span><span class="sxs-lookup"><span data-stu-id="a48f4-104">FileProfile()</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="9325f-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="9325f-105">**Applies to:**</span></span>
-- <span data-ttu-id="9325f-106">Microsoft 위협 방지</span><span class="sxs-lookup"><span data-stu-id="9325f-106">Microsoft Threat Protection</span></span>
+<span data-ttu-id="a48f4-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="a48f4-105">**Applies to:**</span></span>
+- <span data-ttu-id="a48f4-106">Microsoft 위협 방지</span><span class="sxs-lookup"><span data-stu-id="a48f4-106">Microsoft Threat Protection</span></span>
 
-<span data-ttu-id="9325f-107">`FileProfile()`이 함수는 [고급](advanced-hunting-overview.md) 검색에서 쿼리에 의해 찾은 파일에 다음 데이터를 추가 하는 향상 함수입니다.</span><span class="sxs-lookup"><span data-stu-id="9325f-107">The `FileProfile()` function is an enrichment function in [advanced hunting](advanced-hunting-overview.md) that adds the following data to files found by the query.</span></span>
+<span data-ttu-id="a48f4-107">`FileProfile()`이 함수는 [고급](advanced-hunting-overview.md) 검색에서 쿼리에 의해 찾은 파일에 다음 데이터를 추가 하는 향상 함수입니다.</span><span class="sxs-lookup"><span data-stu-id="a48f4-107">The `FileProfile()` function is an enrichment function in [advanced hunting](advanced-hunting-overview.md) that adds the following data to files found by the query.</span></span>
 
-| <span data-ttu-id="9325f-108">열</span><span class="sxs-lookup"><span data-stu-id="9325f-108">Column</span></span> | <span data-ttu-id="9325f-109">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="9325f-109">Data type</span></span> | <span data-ttu-id="9325f-110">설명</span><span class="sxs-lookup"><span data-stu-id="9325f-110">Description</span></span> |
+| <span data-ttu-id="a48f4-108">열</span><span class="sxs-lookup"><span data-stu-id="a48f4-108">Column</span></span> | <span data-ttu-id="a48f4-109">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="a48f4-109">Data type</span></span> | <span data-ttu-id="a48f4-110">설명</span><span class="sxs-lookup"><span data-stu-id="a48f4-110">Description</span></span> |
 |------------|-------------|-------------|
-| <span data-ttu-id="9325f-111">SHA1</span><span class="sxs-lookup"><span data-stu-id="9325f-111">SHA1</span></span> | <span data-ttu-id="9325f-112">문자열</span><span class="sxs-lookup"><span data-stu-id="9325f-112">string</span></span> | <span data-ttu-id="9325f-113">기록된 조치가 적용된 파일의 SHA-1</span><span class="sxs-lookup"><span data-stu-id="9325f-113">SHA-1 of the file that the recorded action was applied to</span></span> |
-| <span data-ttu-id="9325f-114">SHA256</span><span class="sxs-lookup"><span data-stu-id="9325f-114">SHA256</span></span> | <span data-ttu-id="9325f-115">문자열</span><span class="sxs-lookup"><span data-stu-id="9325f-115">string</span></span> | <span data-ttu-id="9325f-116">기록 된 작업이 적용 된 파일의 SHA-256</span><span class="sxs-lookup"><span data-stu-id="9325f-116">SHA-256 of the file that the recorded action was applied to</span></span> |
-| <span data-ttu-id="9325f-117">MD5</span><span class="sxs-lookup"><span data-stu-id="9325f-117">MD5</span></span> | <span data-ttu-id="9325f-118">문자열</span><span class="sxs-lookup"><span data-stu-id="9325f-118">string</span></span> | <span data-ttu-id="9325f-119">기록 된 작업이 적용 된 파일의 MD5 해시</span><span class="sxs-lookup"><span data-stu-id="9325f-119">MD5 hash of the file that the recorded action was applied to</span></span> |
-| <span data-ttu-id="9325f-120">FileSize</span><span class="sxs-lookup"><span data-stu-id="9325f-120">FileSize</span></span> | <span data-ttu-id="9325f-121">int</span><span class="sxs-lookup"><span data-stu-id="9325f-121">int</span></span> | <span data-ttu-id="9325f-122">파일 크기 (바이트)입니다.</span><span class="sxs-lookup"><span data-stu-id="9325f-122">Size of the file in bytes</span></span> |
-| <span data-ttu-id="9325f-123">GlobalPrevalence</span><span class="sxs-lookup"><span data-stu-id="9325f-123">GlobalPrevalence</span></span> | <span data-ttu-id="9325f-124">int</span><span class="sxs-lookup"><span data-stu-id="9325f-124">int</span></span> | <span data-ttu-id="9325f-125">Microsoft에서 전역적으로 관찰 한 엔터티 인스턴스 수</span><span class="sxs-lookup"><span data-stu-id="9325f-125">Number of instances of the entity observed by Microsoft globally</span></span> |
-| <span data-ttu-id="9325f-126">GlobalFirstSeen 경우</span><span class="sxs-lookup"><span data-stu-id="9325f-126">GlobalFirstSeen</span></span> | <span data-ttu-id="9325f-127">datetime</span><span class="sxs-lookup"><span data-stu-id="9325f-127">datetime</span></span> | <span data-ttu-id="9325f-128">Microsoft에서 처음으로 엔터티를 관측 한 날짜 및 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="9325f-128">Date and time when the entity was first observed by Microsoft globally</span></span> |
-| <span data-ttu-id="9325f-129">GlobalLastSeen</span><span class="sxs-lookup"><span data-stu-id="9325f-129">GlobalLastSeen</span></span> | <span data-ttu-id="9325f-130">datetime</span><span class="sxs-lookup"><span data-stu-id="9325f-130">datetime</span></span> | <span data-ttu-id="9325f-131">Microsoft에서 전역적으로 엔터티를 마지막으로 관찰 한 날짜 및 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="9325f-131">Date and time when the entity was last observed by Microsoft globally</span></span> |
-| <span data-ttu-id="9325f-132">받은</span><span class="sxs-lookup"><span data-stu-id="9325f-132">Signer</span></span> | <span data-ttu-id="9325f-133">문자열</span><span class="sxs-lookup"><span data-stu-id="9325f-133">string</span></span> | <span data-ttu-id="9325f-134">파일의 서명자에 대 한 정보</span><span class="sxs-lookup"><span data-stu-id="9325f-134">Information about the signer of the file</span></span> |
-| <span data-ttu-id="9325f-135">발급</span><span class="sxs-lookup"><span data-stu-id="9325f-135">Issuer</span></span> | <span data-ttu-id="9325f-136">문자열</span><span class="sxs-lookup"><span data-stu-id="9325f-136">string</span></span> | <span data-ttu-id="9325f-137">발급 CA (인증 기관)에 대 한 정보</span><span class="sxs-lookup"><span data-stu-id="9325f-137">Information about the issuing certificate authority (CA)</span></span> |
-| <span data-ttu-id="9325f-138">SignerHash</span><span class="sxs-lookup"><span data-stu-id="9325f-138">SignerHash</span></span> | <span data-ttu-id="9325f-139">문자열</span><span class="sxs-lookup"><span data-stu-id="9325f-139">string</span></span> | <span data-ttu-id="9325f-140">서명자를 식별 하는 고유한 해시 값</span><span class="sxs-lookup"><span data-stu-id="9325f-140">Unique hash value identifying the signer</span></span> |
-| <span data-ttu-id="9325f-141">IsCertificateValid</span><span class="sxs-lookup"><span data-stu-id="9325f-141">IsCertificateValid</span></span> | <span data-ttu-id="9325f-142">부울</span><span class="sxs-lookup"><span data-stu-id="9325f-142">boolean</span></span> | <span data-ttu-id="9325f-143">파일 서명에 사용 된 인증서가 유효한 지 여부</span><span class="sxs-lookup"><span data-stu-id="9325f-143">Whether the certificate used to sign the file is valid</span></span> |
-| <span data-ttu-id="9325f-144">IsRootSignerMicrosoft</span><span class="sxs-lookup"><span data-stu-id="9325f-144">IsRootSignerMicrosoft</span></span> | <span data-ttu-id="9325f-145">부울</span><span class="sxs-lookup"><span data-stu-id="9325f-145">boolean</span></span> | <span data-ttu-id="9325f-146">루트 인증서의 서명자가 Microsoft 인지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="9325f-146">Indicates whether the signer of the root certificate is Microsoft</span></span> |
-| <span data-ttu-id="9325f-147">IsExecutable</span><span class="sxs-lookup"><span data-stu-id="9325f-147">IsExecutable</span></span> | <span data-ttu-id="9325f-148">부울</span><span class="sxs-lookup"><span data-stu-id="9325f-148">boolean</span></span> | <span data-ttu-id="9325f-149">PE (이식 가능한 실행) 파일 인지 여부</span><span class="sxs-lookup"><span data-stu-id="9325f-149">Whether the file is a Portable Executable (PE) file</span></span> |
-| <span data-ttu-id="9325f-150">Mail.threatname</span><span class="sxs-lookup"><span data-stu-id="9325f-150">ThreatName</span></span> | <span data-ttu-id="9325f-151">문자열</span><span class="sxs-lookup"><span data-stu-id="9325f-151">string</span></span> | <span data-ttu-id="9325f-152">발견 된 맬웨어 또는 기타 위협에 대 한 검색 이름</span><span class="sxs-lookup"><span data-stu-id="9325f-152">Detection name for any malware or other threats found</span></span> |
-| <span data-ttu-id="9325f-153">Publisher</span><span class="sxs-lookup"><span data-stu-id="9325f-153">Publisher</span></span> | <span data-ttu-id="9325f-154">문자열</span><span class="sxs-lookup"><span data-stu-id="9325f-154">string</span></span> | <span data-ttu-id="9325f-155">파일을 게시 한 조직의 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="9325f-155">Name of the organization that published the file</span></span> |
-| <span data-ttu-id="9325f-156">SoftwareName</span><span class="sxs-lookup"><span data-stu-id="9325f-156">SoftwareName</span></span> | <span data-ttu-id="9325f-157">문자열</span><span class="sxs-lookup"><span data-stu-id="9325f-157">string</span></span> | <span data-ttu-id="9325f-158">소프트웨어 제품의 이름</span><span class="sxs-lookup"><span data-stu-id="9325f-158">Name of the software product</span></span> |
+| <span data-ttu-id="a48f4-111">SHA1</span><span class="sxs-lookup"><span data-stu-id="a48f4-111">SHA1</span></span> | <span data-ttu-id="a48f4-112">문자열</span><span class="sxs-lookup"><span data-stu-id="a48f4-112">string</span></span> | <span data-ttu-id="a48f4-113">기록된 조치가 적용된 파일의 SHA-1</span><span class="sxs-lookup"><span data-stu-id="a48f4-113">SHA-1 of the file that the recorded action was applied to</span></span> |
+| <span data-ttu-id="a48f4-114">SHA256</span><span class="sxs-lookup"><span data-stu-id="a48f4-114">SHA256</span></span> | <span data-ttu-id="a48f4-115">문자열</span><span class="sxs-lookup"><span data-stu-id="a48f4-115">string</span></span> | <span data-ttu-id="a48f4-116">기록 된 작업이 적용 된 파일의 SHA-256</span><span class="sxs-lookup"><span data-stu-id="a48f4-116">SHA-256 of the file that the recorded action was applied to</span></span> |
+| <span data-ttu-id="a48f4-117">MD5</span><span class="sxs-lookup"><span data-stu-id="a48f4-117">MD5</span></span> | <span data-ttu-id="a48f4-118">문자열</span><span class="sxs-lookup"><span data-stu-id="a48f4-118">string</span></span> | <span data-ttu-id="a48f4-119">기록 된 작업이 적용 된 파일의 MD5 해시</span><span class="sxs-lookup"><span data-stu-id="a48f4-119">MD5 hash of the file that the recorded action was applied to</span></span> |
+| <span data-ttu-id="a48f4-120">FileSize</span><span class="sxs-lookup"><span data-stu-id="a48f4-120">FileSize</span></span> | <span data-ttu-id="a48f4-121">int</span><span class="sxs-lookup"><span data-stu-id="a48f4-121">int</span></span> | <span data-ttu-id="a48f4-122">파일 크기 (바이트)입니다.</span><span class="sxs-lookup"><span data-stu-id="a48f4-122">Size of the file in bytes</span></span> |
+| <span data-ttu-id="a48f4-123">GlobalPrevalence</span><span class="sxs-lookup"><span data-stu-id="a48f4-123">GlobalPrevalence</span></span> | <span data-ttu-id="a48f4-124">int</span><span class="sxs-lookup"><span data-stu-id="a48f4-124">int</span></span> | <span data-ttu-id="a48f4-125">Microsoft에서 전역적으로 관찰 한 엔터티 인스턴스 수</span><span class="sxs-lookup"><span data-stu-id="a48f4-125">Number of instances of the entity observed by Microsoft globally</span></span> |
+| <span data-ttu-id="a48f4-126">GlobalFirstSeen 경우</span><span class="sxs-lookup"><span data-stu-id="a48f4-126">GlobalFirstSeen</span></span> | <span data-ttu-id="a48f4-127">datetime</span><span class="sxs-lookup"><span data-stu-id="a48f4-127">datetime</span></span> | <span data-ttu-id="a48f4-128">Microsoft에서 처음으로 엔터티를 관측 한 날짜 및 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="a48f4-128">Date and time when the entity was first observed by Microsoft globally</span></span> |
+| <span data-ttu-id="a48f4-129">GlobalLastSeen</span><span class="sxs-lookup"><span data-stu-id="a48f4-129">GlobalLastSeen</span></span> | <span data-ttu-id="a48f4-130">datetime</span><span class="sxs-lookup"><span data-stu-id="a48f4-130">datetime</span></span> | <span data-ttu-id="a48f4-131">Microsoft에서 전역적으로 엔터티를 마지막으로 관찰 한 날짜 및 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="a48f4-131">Date and time when the entity was last observed by Microsoft globally</span></span> |
+| <span data-ttu-id="a48f4-132">받은</span><span class="sxs-lookup"><span data-stu-id="a48f4-132">Signer</span></span> | <span data-ttu-id="a48f4-133">문자열</span><span class="sxs-lookup"><span data-stu-id="a48f4-133">string</span></span> | <span data-ttu-id="a48f4-134">파일의 서명자에 대 한 정보</span><span class="sxs-lookup"><span data-stu-id="a48f4-134">Information about the signer of the file</span></span> |
+| <span data-ttu-id="a48f4-135">발급</span><span class="sxs-lookup"><span data-stu-id="a48f4-135">Issuer</span></span> | <span data-ttu-id="a48f4-136">문자열</span><span class="sxs-lookup"><span data-stu-id="a48f4-136">string</span></span> | <span data-ttu-id="a48f4-137">발급 CA (인증 기관)에 대 한 정보</span><span class="sxs-lookup"><span data-stu-id="a48f4-137">Information about the issuing certificate authority (CA)</span></span> |
+| <span data-ttu-id="a48f4-138">SignerHash</span><span class="sxs-lookup"><span data-stu-id="a48f4-138">SignerHash</span></span> | <span data-ttu-id="a48f4-139">문자열</span><span class="sxs-lookup"><span data-stu-id="a48f4-139">string</span></span> | <span data-ttu-id="a48f4-140">서명자를 식별 하는 고유한 해시 값</span><span class="sxs-lookup"><span data-stu-id="a48f4-140">Unique hash value identifying the signer</span></span> |
+| <span data-ttu-id="a48f4-141">IsCertificateValid</span><span class="sxs-lookup"><span data-stu-id="a48f4-141">IsCertificateValid</span></span> | <span data-ttu-id="a48f4-142">부울</span><span class="sxs-lookup"><span data-stu-id="a48f4-142">boolean</span></span> | <span data-ttu-id="a48f4-143">파일 서명에 사용 된 인증서가 유효한 지 여부</span><span class="sxs-lookup"><span data-stu-id="a48f4-143">Whether the certificate used to sign the file is valid</span></span> |
+| <span data-ttu-id="a48f4-144">IsRootSignerMicrosoft</span><span class="sxs-lookup"><span data-stu-id="a48f4-144">IsRootSignerMicrosoft</span></span> | <span data-ttu-id="a48f4-145">부울</span><span class="sxs-lookup"><span data-stu-id="a48f4-145">boolean</span></span> | <span data-ttu-id="a48f4-146">루트 인증서의 서명자가 Microsoft 인지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="a48f4-146">Indicates whether the signer of the root certificate is Microsoft</span></span> |
+| <span data-ttu-id="a48f4-147">IsExecutable</span><span class="sxs-lookup"><span data-stu-id="a48f4-147">IsExecutable</span></span> | <span data-ttu-id="a48f4-148">부울</span><span class="sxs-lookup"><span data-stu-id="a48f4-148">boolean</span></span> | <span data-ttu-id="a48f4-149">PE (이식 가능한 실행) 파일 인지 여부</span><span class="sxs-lookup"><span data-stu-id="a48f4-149">Whether the file is a Portable Executable (PE) file</span></span> |
+| <span data-ttu-id="a48f4-150">Mail.threatname</span><span class="sxs-lookup"><span data-stu-id="a48f4-150">ThreatName</span></span> | <span data-ttu-id="a48f4-151">문자열</span><span class="sxs-lookup"><span data-stu-id="a48f4-151">string</span></span> | <span data-ttu-id="a48f4-152">발견 된 맬웨어 또는 기타 위협에 대 한 검색 이름</span><span class="sxs-lookup"><span data-stu-id="a48f4-152">Detection name for any malware or other threats found</span></span> |
+| <span data-ttu-id="a48f4-153">Publisher</span><span class="sxs-lookup"><span data-stu-id="a48f4-153">Publisher</span></span> | <span data-ttu-id="a48f4-154">문자열</span><span class="sxs-lookup"><span data-stu-id="a48f4-154">string</span></span> | <span data-ttu-id="a48f4-155">파일을 게시 한 조직의 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="a48f4-155">Name of the organization that published the file</span></span> |
+| <span data-ttu-id="a48f4-156">SoftwareName</span><span class="sxs-lookup"><span data-stu-id="a48f4-156">SoftwareName</span></span> | <span data-ttu-id="a48f4-157">문자열</span><span class="sxs-lookup"><span data-stu-id="a48f4-157">string</span></span> | <span data-ttu-id="a48f4-158">소프트웨어 제품의 이름</span><span class="sxs-lookup"><span data-stu-id="a48f4-158">Name of the software product</span></span> |
 
-## <a name="syntax"></a><span data-ttu-id="9325f-159">구문과</span><span class="sxs-lookup"><span data-stu-id="9325f-159">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a48f4-159">구문과</span><span class="sxs-lookup"><span data-stu-id="a48f4-159">Syntax</span></span>
 
 ```kusto
 invoke FileProfile(x,y)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="9325f-160">인수나</span><span class="sxs-lookup"><span data-stu-id="9325f-160">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="a48f4-160">인수나</span><span class="sxs-lookup"><span data-stu-id="a48f4-160">Arguments</span></span>
 
-- <span data-ttu-id="9325f-161">**x** -다음을 사용할 파일 ID 열: `SHA1` , `SHA256` , `InitiatingProcessSHA1` 또는 `InitiatingProcessSHA256` ; function이 `SHA1` 지정 되지 않은 경우 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9325f-161">**x** — file ID column to use: `SHA1`, `SHA256`, `InitiatingProcessSHA1` or `InitiatingProcessSHA256`; function uses `SHA1` if unspecified</span></span>
-- <span data-ttu-id="9325f-162">**y** -보강할 레코드 수에 대 한 제한 1-1000; 함수가 지정 되지 않은 경우 100을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9325f-162">**y** — limit to the number of records to enrich, 1-1000; function uses 100 if unspecified</span></span>
+- <span data-ttu-id="a48f4-161">**x**-사용할 파일 ID 열: `SHA1` , `SHA256` , `InitiatingProcessSHA1` , 또는 `InitiatingProcessSHA256` ; function이 `SHA1` 지정 되지 않은 경우 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="a48f4-161">**x**—file ID column to use: `SHA1`, `SHA256`, `InitiatingProcessSHA1`, or `InitiatingProcessSHA256`; function uses `SHA1` if unspecified</span></span>
+- <span data-ttu-id="a48f4-162">**y**-보강할 레코드 수에 대 한 제한 1-1000; 함수가 지정 되지 않은 경우 100을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="a48f4-162">**y**—limit to the number of records to enrich, 1-1000; function uses 100 if unspecified</span></span>
 
-## <a name="examples"></a><span data-ttu-id="9325f-163">예</span><span class="sxs-lookup"><span data-stu-id="9325f-163">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="a48f4-163">예</span><span class="sxs-lookup"><span data-stu-id="a48f4-163">Examples</span></span>
 
-### <a name="project-only-the-sha1-column-and-enrich-it"></a><span data-ttu-id="9325f-164">SHA1 열만 프로젝트 및 보강</span><span class="sxs-lookup"><span data-stu-id="9325f-164">Project only the SHA1 column and enrich it</span></span>
+### <a name="project-only-the-sha1-column-and-enrich-it"></a><span data-ttu-id="a48f4-164">SHA1 열만 프로젝트 및 보강</span><span class="sxs-lookup"><span data-stu-id="a48f4-164">Project only the SHA1 column and enrich it</span></span>
 
 ```kusto
 DeviceFileEvents
@@ -76,7 +76,7 @@ DeviceFileEvents
 | invoke FileProfile()
 ```
 
-### <a name="enrich-the-first-500-records-and-list-low-prevalence-files"></a><span data-ttu-id="9325f-165">처음 500 레코드를 보강 하 고 낮은 전파 파일 목록 표시</span><span class="sxs-lookup"><span data-stu-id="9325f-165">Enrich the first 500 records and list low-prevalence files</span></span>
+### <a name="enrich-the-first-500-records-and-list-low-prevalence-files"></a><span data-ttu-id="a48f4-165">처음 500 레코드를 보강 하 고 낮은 전파 파일 목록 표시</span><span class="sxs-lookup"><span data-stu-id="a48f4-165">Enrich the first 500 records and list low-prevalence files</span></span>
 
 ```kusto
 DeviceFileEvents
@@ -86,8 +86,8 @@ DeviceFileEvents
 | where GlobalPrevalence < 15
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="9325f-166">관련 항목</span><span class="sxs-lookup"><span data-stu-id="9325f-166">Related topics</span></span>
-- [<span data-ttu-id="9325f-167">고급 헌팅 개요</span><span class="sxs-lookup"><span data-stu-id="9325f-167">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
-- [<span data-ttu-id="9325f-168">쿼리 언어 배우기</span><span class="sxs-lookup"><span data-stu-id="9325f-168">Learn the query language</span></span>](advanced-hunting-query-language.md)
-- [<span data-ttu-id="9325f-169">스키마의 이해</span><span class="sxs-lookup"><span data-stu-id="9325f-169">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
-- [<span data-ttu-id="9325f-170">쿼리 예제 더 보기</span><span class="sxs-lookup"><span data-stu-id="9325f-170">Get more query examples</span></span>](advanced-hunting-shared-queries.md)
+## <a name="related-topics"></a><span data-ttu-id="a48f4-166">관련 항목</span><span class="sxs-lookup"><span data-stu-id="a48f4-166">Related topics</span></span>
+- [<span data-ttu-id="a48f4-167">고급 헌팅 개요</span><span class="sxs-lookup"><span data-stu-id="a48f4-167">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="a48f4-168">쿼리 언어 배우기</span><span class="sxs-lookup"><span data-stu-id="a48f4-168">Learn the query language</span></span>](advanced-hunting-query-language.md)
+- [<span data-ttu-id="a48f4-169">스키마의 이해</span><span class="sxs-lookup"><span data-stu-id="a48f4-169">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
+- [<span data-ttu-id="a48f4-170">쿼리 예제 더 보기</span><span class="sxs-lookup"><span data-stu-id="a48f4-170">Get more query examples</span></span>](advanced-hunting-shared-queries.md)
