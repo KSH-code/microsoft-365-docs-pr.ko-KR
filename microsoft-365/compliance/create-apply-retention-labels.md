@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들어서 게시한 후에 필요한 항목은 보존하고 필요하지 않은 항목은 삭제하도록 앱에 적용하기 위한 지침
-ms.openlocfilehash: 478a0d9952d8e8e33ef88926ba2415276338c193
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 7e434f2c878259099cf50882706198aafa99be11
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198517"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333970"
 ---
 # <a name="create-retention-labels-and-apply-them-in-apps"></a>보존 레이블을 만들고 앱에 적용하기
 
@@ -144,6 +144,8 @@ Use the following sections to learn how published retention labels can be applie
 - [Applying a default retention label to all content in a SharePoint library, folder, or document set](#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set)
 
 - [Automatically applying a retention label to email by using rules](#automatically-applying-a-retention-label-to-email-by-using-rules)
+
+In addition, when you use [SharePoint Syntex](../contentunderstanding/index.md) and publish retention labels to SharePoint locations, you can [apply a retention label to a document understanding model](../contentunderstanding/apply-a-retention-label-to-a-model.md) so that identified documents are automatically labeled.
 
 ### Manually apply retention labels 
 

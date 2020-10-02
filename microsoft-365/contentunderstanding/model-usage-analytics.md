@@ -9,14 +9,21 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: 문서 이해 모델에 보존 레이블을 적용하는 방법 알아보기
-ms.openlocfilehash: 26e8aea3ef52e9d850dea2f2268858d8367f7408
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 6f616dc3d2ebd87bcc70ee01c9f3a88db60b6f17
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321280"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337244"
 ---
 # <a name="document-understanding-model-usage-analytics"></a>문서 이해 모델 사용 분석
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GpJY]  
+
+</br>
+
 
 Microsoft SharePoint Syntex 콘텐츠 센터는 콘텐츠 센터에서 게시 된 모델이 어떻게 사용 되는지에 대한 더 많은 정보를 제공 하기 위해 모델 사용 분석을 제공합니다. 여기에는 다음의 정보가 포함됩니다.
 

@@ -17,12 +17,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: Microsoft 365 데이터 위치'
-ms.openlocfilehash: 125d58b0565bf0380a4b2578aea4db6b26596f14
-ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
+ms.openlocfilehash: 7a2fb85d0d7320770a1ab32efcd024a9e348795e
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269544"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337160"
 ---
 <!--
 Note to new owner: Links in the Notes and FAQ sections need to be added from the source document at https://microsoft.sharepoint.com/:w:/t/golocalteam/Ebv6_Lw6FvNKucfA1eESTPUBy6O1MdvWEeT-L8O5a2HsIg?e=4%3AUfF1Uj&at=9&xsdata=MDR8MDF8am9zZXBoZEBtaWNyb3NvZnQuY29tfGM1ZTg1ODI0ZWRmMTRlN2E3MDkzMDhkNzgzNDMxYTczfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2MzcxMjIxOTY1MzQ5NjM5NDl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fC0x&sdata=MkxOUXhlZEdyR0I1SzBvd044d2hkd2RPaGN2RUpaS09jMkZTcys0dkZQRT0%3D
@@ -41,7 +41,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 Azure Active Directory 데이터 위치는 [AAD 데이터 맵](https://go.microsoft.com/fwlink/p/?linkid=2092972)을 방문하세요.
 
 
-COVID-19와 관련된 전례 없는 상황과 온라인 서비스 수요를 관리해야 하는 필요성 때문에, 귀사가 유럽의 교육 기관인 경우, 당사는 유럽 연합 내에서 Office 365 테넌트를 프로비저닝하고 데이터를 이전하고 유휴 상태로 데이터를 저장할 수 있습니다.  조직이 인도의 교육 기관인 경우, 당사는 귀하의 Office 365 테넌트를 프로비저닝하고, 데이터를 인도, 유럽 또는 미국 내에서 이전하고, 미사용 데이터를 저장할 수 있습니다.  조직이 남아프리카의 교육 기관인 경우, 당사는 귀하의 Office 365 테넌트를 프로비저닝하고, 데이터를 남아프리카 또는 유럽에 전송하고, 유휴 상태로 데이터를 저장할 수 있습니다.  규정 준수, 개인 정보 보호 및 보안에 대한 Microsoft의 약속은 변하지 않고 서비스 가용성을 유지하기 위해 필요한 신중한 조치를 구현합니다. 데이터 전송과 관련하여 모든 해당 법률을 준수합니다.
+만약 고객의 청구 주소가 유럽 외부에 있고 고객에게 Office 365 교육용 구독이 있는 경우 OST의 “고객의 다른 주요 온라인 서비스 위치” 부분에 상관없이 Microsoft는 유럽 혹은 북미 전역에서 Office 365 테넌트를 프로비전하고, 고객 데이터를 이전하고 저장 할 수 있습니다.  만약 고객의 청구 주소가 유럽에 있고 고객에게 Office 365 교육용 구독이 있는 경우 OST의 “고객의 다른 주요 온라인 서비스 위치”부분에 상관 없이 Microsoft는 유럽 연합 어디에서든지 Office 365 테넌트를 프로비전 하고, 고객 데이터를 이전하고, 고객 데이터를 저장 할 수 있습니다.
 
 
 

@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Microsoft SharePoint 구문에서 문서 이해 개요 얻기
-ms.openlocfilehash: 3f2c463d3713048ffff7c20f2fcf6220d55d6a32
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 1265dfa06db323e23d63a044a1a95a6b67c525cf
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321776"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333561"
 ---
 # <a name="document-understanding-overview"></a>문서 이해 개요
 
@@ -26,6 +26,9 @@ ms.locfileid: "48321776"
 </br>
 
 문서 이해는 파일 분류와 정보 추출을 자동화 하기 위해 인공 지능(AI) 모델을 사용합니다. 편지나 계약서와 같이 구조화 되지 않은 문서에 가장 적합합니다. 이러한 문서에는 구문 또는 패턴을 기반으로 식별할 수 있는 텍스트가 있어야 합니다. 식별 된 텍스트는 파일 형식(분류자)과 추출 하려는 대상(추출자)을 지정합니다.
+
+> [!NOTE]
+> 문서 이해 시나리오 예제에 대한 자세한 내용은 [SharePoint Syntex 채택: 시작 가이드](https://docs.microsoft.com/microsoft-365/contentunderstanding/adoption-getstarted#document-understanding-scenario-example)를 참조하세요.
 
 문서 이해 모델은 *콘텐츠 센터*라는 SharePoint 사이트 형식에서 만들어지고 관리됩니다. SharePoint 문서 라이브러리에 적용 되는 경우 모델은 추출되는 정보를 저장하기 위한 열이 있는 콘텐츠 유형과 연결이 되어 있습니다. 사용자가 만든 콘텐츠 형식은 SharePoint 콘텐츠 형식 갤러리에 저장됩니다. 기존 콘텐츠 유형을 사용하여 해당 스키마를 사용하도록 선택할 수도 있습니다.
 
@@ -44,7 +47,7 @@ ms.locfileid: "48321776"
 ## <a name="see-also"></a>참고 항목
 [분류자 만들기](create-a-classifier.md)
 
-[추출기 만들기](create-an-extractor.md)
+[추출자 만들기](create-an-extractor.md)
 
 [콘텐츠 센터 만들기](create-a-content-center.md)
 
