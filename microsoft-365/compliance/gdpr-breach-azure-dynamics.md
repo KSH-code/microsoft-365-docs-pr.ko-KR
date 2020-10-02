@@ -15,18 +15,18 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 838e2ee09ea80f07c637eeebd1229b63f01ad00b
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: c262e496313ec5f59e9e369d8622f4698a9a585a
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415902"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48305202"
 ---
 # <a name="azure-and-dynamics-365-breach-notification-under-the-gdpr"></a>Azure 및 Dynamics 365 GDPR의 위반 알림
 
 Microsoft Azure는 GDPR(일반 데이터 보호 규정)에 따라 의무를 다합니다. Microsoft Azure는 데이터 침해로부터 보호하기 위해 광범위한 보안 조치를 취합니다. 여기에는 물리적 및 논리적 보안 제어 뿐만 아니라 자동화된 보안 프로세스, 포괄적인 정보 보안 및 개인 정보 보호 정책, 모든 직원에 대한 개인 정보 보호 교육이 포함됩니다.
 
-설계 단계부터 개인 정보 보호(Privacy-by-Design) 및 기본적으로 개인 정보 보호(Privacy-by-Default) 방법을 통합하는 필수 개발 프로세스인 [보안 개발 수명 주기](https://www.microsoft.com/sdl/)를 통해 처음부터 Microsoft Azure에 보안이 기본적으로 제공됩니다. Microsoft 보안 전략의 주요 원칙은 심층 방어 전략이 확장된 "위반 예측"입니다. Microsoft는 Azure의 보안 기능을 지속적으로 개선함으로써 새로운 위협에 앞서나갈 수 있습니다. Azure 보안에 대한 자세한 내용은 다음 [리소스](https://www.microsoft.com/trustcenter/security/azure-security)를 참조하세요.
+설계 단계부터 개인 정보 보호(Privacy-by-Design) 및 기본적으로 개인 정보 보호(Privacy-by-Default) 방법을 통합하는 필수 개발 프로세스인 [보안 개발 수명 주기](https://www.microsoft.com/sdl/)를 통해 처음부터 Microsoft Azure에 보안이 기본적으로 제공됩니다. Microsoft 보안 전략의 주요 원칙은 심층 방어 전략이 확장된 "위반 가정"입니다. Microsoft는 Azure의 보안 기능을 지속적으로 개선함으로써 새로운 위협에 앞서나갈 수 있습니다. Azure 보안에 대한 자세한 내용은 다음 [리소스](https://www.microsoft.com/trustcenter/security/azure-security)를 참조하세요.
 
 Microsoft에는 Microsoft Azure에 대한 공격 영향력을 완화하기 위해 작동하는 글로벌 연중무휴 인시던트 응답 서비스가 제공됩니다. 여러 보안 및 준수 감사(예: [ISO/IEC 27018](offering-iso-27018.md))를 통해 입증된 결과에 따라, Microsoft는 데이터 센터에서 연중무휴 CCTV 모니터링, 훈련된 보안 직원, 스마트 카드 및 생체 인식 제어를 비롯한 엄격한 운영 및 프로세스를 사용하여 무단 액세스를 방지합니다.
 
@@ -34,9 +34,9 @@ Microsoft에는 Microsoft Azure에 대한 공격 영향력을 완화하기 위�
 
 최신 클라우드 컴퓨팅의 특성상 고객 클라우드 환경에서 발생하는 모든 데이터 위반이 Microsoft Azure 서비스와 관련이 있는 것은 아닙니다. Microsoft에서는 Azure 서비스에 대한 공유 책임 모델을 채택하여 보안과 운영상의 책임을 정의합니다. 클라우드 서비스 공급자와 고객 모두 클라우드 보안의 일부에 책임이 있기 때문에 공유 책임은 클라우드 서비스의 보안을 논의할 때 중요합니다.
 
-Microsoft는 고객의 책임 영역 내에서 보안 문제를 모니터링하거나 대응하지 않습니다. 고객에 의한 보안 손상은 Azure 보안 인시던트로 처리되지 않으며 고객 테넌트에서 대응 노력을 관리해야 합니다. 적절한 서비스 계약이 있는 경우, 고객 인시던트 대응이 Microsoft Azure [고객 지원 서비스](https://azure.microsoft.com/support/options/)와 협력해서 진행될 수 있습니다.또한 Microsoft Azure는 고객이 보안 인시던트 대응을 개발 및 관리하기 위해 활용할 수 있는 다양한 서비스(예: [Azure Security Center](https://azure.microsoft.com/services/security-center/))도 제공합니다.
+Microsoft는 고객의 책임 영역 내에서 보안 인시던트를 모니터링하거나 대응하지 않습니다. 고객만의 보안 손상은 Azure 보안 인시던트로 처리되지 않으며 고객 테넌트에서 대응 노력을 관리해야 합니다. 적절한 서비스 계약이 있는 경우, 고객 인시던트 대응이 Microsoft Azure [고객 지원](https://azure.microsoft.com/support/options/)과 협력해서 진행될 수 있습니다. 또한 Microsoft Azure는 고객이 보안 인시던트 대응을 개발 및 관리하기 위해 활용할 수 있는 다양한 서비스(예: [Azure Security Center](https://azure.microsoft.com/services/security-center/))도 제공합니다.
 
-Azure는 Microsoft Azure 인시던트 관리 플랜에 속하는 보안 인시던트 대응 프로세스에 따라 잠재적인 데이터 위반에 대응합니다. Azure의 보안 인시던트 대응은 감지, 평가, 진단, 안정화 및 닫기의 5단계 프로세스로 구현됩니다. 보안 인시던트 대응 팀은 조사가 진행되면서 진단 및 안정화 단계 간을 전환할 수 있습니다. 보안 인시던트 대응 프로세스의 개요는 다음과 같습니다.
+Azure는 Microsoft Azure 인시던트 관리 플랜의 하위 집합인 보안 인시던트 대응 프로세스에 따라 잠재적인 데이터 위반에 대응합니다. Azure의 보안 인시던트 대응은 감지, 평가, 진단, 안정화 및 닫기의 5단계 프로세스로 구현됩니다. 보안 인시던트 대응 팀은 조사가 진행되면서 진단 및 안정화 단계 간을 전환할 수 있습니다. 보안 인시던트 대응 프로세스의 개요는 다음과 같습니다.
 
 |**단계**|**설명**|
 | ------- | ------------- |
@@ -53,7 +53,7 @@ Microsoft Azure에서 사용하는 감지 프로세스는 Azure 서비스의 기
 - 내부 모니터링 및 경고 프레임워크를 통한 자동화된 시스템 알림. 이러한 경고는 맬웨어 방지, 침입 감지와 같은 서명 기반 경보나 비정상 상황 발생 시 예상되는 작업 및 경고를 프로파일링하도록 설계된 알고리즘을 통해 제공됩니다.
 - 첫 번째 파티는 Microsoft Azure 및 Azure Government에서 실행되는 Microsoft 서비스의 첫 번째 파티 보고서입니다.
 - 보안상 취약한 부분은 [secure@microsoft.com](mailto:secure@microsoft.com)을 통해[MSRC (Microsoft Security Response Center)](https://technet.microsoft.com/security/dn440717)로 보고됩니다. MSRC는 전 세계의 파트너 및 보안 연구자들과 협력하여 보안 인시던트를 방지하고 Microsoft 제품 보안을 향상시킬 수 있도록 지원합니다.
-- 고객은 [고객 지원 포털](https://www.windowsazure.com/support/contact/) 또는 Microsoft Azure 및 Azure Government 관리 포털을 통해 보고하며 Azure 인프라에 영향을 주는 의심스러운 작업(고객의 책임 범위 내에서 발생하는 작업과는 반대됨)을 설명합니다.
+- 고객은 [고객 지원 포털](https://www.windowsazure.com/support/contact/) 또는 Microsoft Azure 및 Azure Government 관리 포털을 통해 보고하고 Azure 인프라에 기인하는 의심스러운 작업(고객의 책임 범위 내에서 발생하는 작업과는 반대됨)을 설명합니다.
 - 보안 [Red 팀 및 Blue 팀](https://azure.microsoft.com/blog/red-teaming-using-cutting-edge-threat-simulation-to-harden-the-microsoft-enterprise-cloud/) 활동. 이 전략은 공격적 보안 전문가로 구성된 고도로 훈련된 Red 팀을 사용하여 Azure에서 잠재적인 취약점을 밝히고 공격할 수 있습니다. 보안 응답 Blue 팀은 Red 팀의 활동을 감지하고 방어해야 합니다. Azure 보안 대응 노력으로 보안 문제를 효과적으로 관리하는지 확인하는 데 Red 및 Blue 팀 작업이 모두 사용 됩니다. 보안 Red 팀 및 Blue 팀 활동은 고객 데이터 보호를 보장하기 위해 계약 규칙에 따라 운영됩니다.
 - Azure 서비스의 연산자에 의한 에스컬레이션 Microsoft 직원은 잠재적인 보안 문제를 식별하고 에스컬레이션하도록 교육을 받았습니다.
 
@@ -74,7 +74,7 @@ Microsoft Azure는 다음의 위반 카테고리에 따라 인시던트가 정�
 
 - **가양성:** 검색 기준을 충족하지만 일반적인 비즈니스 사례에 해당되며 필터링해야 하는 이벤트입니다. 서비스 팀은 가양성의 근본 원인을 파악한 후 탐지 원본을 활용하고 필요에 따라 미세 조정하는 체계적인 방식을 통해 해결합니다.
 - **보안 인시던트:** Microsoft 장비 또는 Microsoft 시설에 저장되어 있는 모든 고객 데이터 또는 지원 데이터에 대한 불법 액세스 또는 이러한 장비 또는 시설에 대한 무단 액세스로 인해 고객 데이터 또는 지원 데이터가 손실, 노출 또는 변경되는 인시던트입니다.
-- **CRSPI(고객 보고 가능 보안/개인 정보 보호 인시던트):** Microsoft의 시스템, 장비 또는 시설을 불법적으로 또는 무단으로 액세스하거나 사용하여 고객 데이터를 공개, 수정 또는 손실하는 경우입니다.
+- **CRSPI(고객 보고 가능 보안/개인 정보 보호 인시던트)**: Microsoft의 시스템, 장비 또는 시설을 불법적으로 또는 무단으로 액세스하거나 사용하여 고객 데이터를 공개, 수정 또는 손실하는 경우입니다.
 - **개인 정보 보호 위반:** 개인 데이터와 관련된 보안 인시던트의 하위 유형입니다. 처리 절차는 보안 인시던트와 다르지 않습니다.
 
 CRSPI를 선언하려면 Microsoft에서 고객 데이터에 무단 액세스가 발생했거나 발생했을 가능성이 높은지 및/또는 알림이 있어야 한다는 법적 또는 계약상 약정이 있는지를 판단해야 합니다. 필수는 아니지만 특정 고객 영향, 리소스 액세스 및 복구 단계를 알고 있다고 기대합니다. 일반적으로 인시던트는 보안 인시던트의 진단 단계가 끝난 후 CRSPI로 선언됩니다. 그러나 모든 관련 정보를 사용할 수 있는 모든 위치에서 선언이 발생할 수 있습니다. 보안 인시던트 관리자는 보고 가능한 이벤트가 발생하여 고객 인시던트 알림 프로세스가 실행되기 시작했다는 것에 대해 합리적 의심을 넘어서 증명해야 합니다.
@@ -92,12 +92,12 @@ Microsoft Azure는 필요에 따라 데이터 침해 사실을 고객과 규제 
 CRSPI를 선언한 후에는 빠르게 이동하는 보안 위험을 고려하면서 최대한 신속하게 알림 프로세스가 수행됩니다. 일반적으로 인시던트 조사가 진행되는 동안에 알림 작성 프로세스가 수행됩니다. 고객 알림은 다음 상황을 *제외하고* 위반을 선언한 시점으로부터 72시간 이내에 전달됩니다.
 
 - Microsoft는 알림을 수행하면 다른 고객의 위험이 증가할 것으로 생각합니다. 예를 들어, 통지하는 행위는 침입자에게 정보를 제공하여 교정할 수 없는 상황을 야기할 수 있습니다.
-- Microsoft의 법률 부서 CELA(회사 외부 업무 및 법률 담당) 및 인시던트 책임 관리자가 기타 비정상적이거나 극단적인 상황을 조사한 경우.
+- Microsoft의 법률 부서 CELA(회사 외부 업무 및 법률 담당) 및 인시던트 책임 관리자가 기타 비정상적이거나 극단적인 상황을 조사한 경우입니다.
 - 72시간의 타임라인 동안 일부 인시던트 정보는 사용 가능하게 유지될 수 있습니다. 이는 조사가 진행될 때 고객 및 규제 기관에 제공됩니다.
 
 Microsoft Azure는 알림 프로세스를 과도하게 지연시키지 않으면서 내부 조사를 수행할 수 있도록 하고 최종 사용자 약정을 충족하도록 지원할 수 있는 자세한 정보를 고객에게 제공합니다.
 
-개인 데이터 침해에 대한 알림은 전자 메일을 통해 Microsoft를 포함한 모든 방법으로 고객에게 전달됩니다. 데이터 위반 알림은 Azure Security Center에서 제공되는 보안 담당자 목록에 전달되며 [구현 지침](https://docs.microsoft.com/azure/security-center/security-center-provide-security-contact-details)을 따라 구성할 수 있습니다. Azure Security Center에서 연락처 정보가 제공되지 않으면 Azure 구독으로 한 명 이상의 관리자에게 알림이 전송됩니다. 알림이 성공적으로 전달될 수 있도록 해당 구독 및 온라인 서비스 포털에 대한 관리 연락처 정보가 올바른지 확인하는 것은 고객의 책임입니다.
+개인 데이터 침해에 대한 알림은 전자 메일을 통해 Microsoft를 포함한 모든 방법으로 고객에게 전달됩니다. 데이터 위반 알림은 Azure Security Center에서 제공되는 보안 담당자 목록에 전달되며 [구현 지침](https://docs.microsoft.com/azure/security-center/security-center-provide-security-contact-details)을 따라 구성할 수 있습니다. Azure Security Center에서 연락처 정보가 제공되지 않으면 Azure 구독으로 한 명 이상의 관리자에게 알림이 전송됩니다. 알림이 제대로 전달될 수 있도록 해당 구독 및 온라인 서비스 포털에 대한 관리 연락처 정보가 올바른지 확인하는 것은 고객의 책임입니다.
 
 Microsoft Azure 또는 Azure Government 팀은 CSS(고객 서비스) 및 고객 AM(계정 관리자) 또는 TAM(기술 계정 관리자)과 같은 추가 Microsoft 직원에게도 알리도록 선택할 수 있습니다. 이러한 개인은 고객과 밀접하게 관련되어 있는 경우가 많으며 보다 빠른 수정이 이루어지는 데 도움이 될 수 있습니다.
 
@@ -105,8 +105,8 @@ Microsoft Azure 또는 Azure Government 팀은 CSS(고객 서비스) 및 고객 
 
 Microsoft Dynamics 365는 클라우드 서비스 인프라 및 기본 제공 보안 기능을 통해 데이터를 보호하는 보안 조치 및 메커니즘을 사용하여 데이터를 안전하게 유지합니다. 또한 Dynamics 365는 [보안 ID, 데이터 보호, 역할 기반 보안 및 위협 관리](https://www.microsoft.com/trustcenter/security/dynamics365-security) 영역에서 데이터 무결성 및 개인 정보 보호를 보장하는 효율적인 데이터 액세스 및 공동 작업을 제공합니다.
 
-Microsoft Dynamics 365 오퍼링은 기술 및 조직 차원의 동일한 측정 방법을 따르므로 하나 이상의 Microsoft Azure 서비스 팀이 데이터 위반 프로세스를 보호하기 위해 노력합니다. 따라서 여기에 있는 "Microsoft Azure 데이터 위반" 알림 문서에 설명된 모든 정보는 Microsoft Dynamics 365와 유사합니다.
+Microsoft Dynamics 365 오퍼링은 기술 및 조직 차원의 동일한 측정 방법을 따르므로 하나 이상의 Microsoft Azure 서비스 팀이 데이터 위반 프로세스를 보호하기 위해 노력합니다. 따라서 여기에 있는 ‘Microsoft Azure 데이터 위반’ 알림 문서에 설명된 모든 정보는 Microsoft Dynamics 365와 유사합니다.
 
-## <a name="learn-more"></a>자세한 정보
+## <a name="learn-more"></a>자세히 알아보기
 
 [Microsoft 보안 센터](https://www.microsoft.com/trust-center/privacy/gdpr-overview)
