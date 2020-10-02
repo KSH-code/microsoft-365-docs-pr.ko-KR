@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: SharePoint 문서 라이브러리에 게시된 모델을 적용하는 방법 알아보기
-ms.openlocfilehash: 8b7d6cf21f422ba54933c2d3ac29b4b34171059e
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 771b0f451d404c6e90f62091ca466bfaf34bae39
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322156"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338676"
 ---
 # <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint 구문에서 문서 이해 모델 적용
 
@@ -84,4 +84,4 @@ SharePoint 문서 라이브러리에 모델 적용하기:
 
 [문서 이해 개요](document-understanding-overview.md)
 
-[양식 처리 모델 만들기](create-a-form-processing-model.md)  
+

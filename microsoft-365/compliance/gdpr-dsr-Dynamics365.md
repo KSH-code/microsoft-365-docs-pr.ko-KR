@@ -18,12 +18,12 @@ hideEdit: true
 ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 53411edcaa64508d7200a2ca1bf1903f809d9ae1
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: e9b6dc32fc9c9a641504afd1589dd9666bd8e248
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547436"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48305348"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Dynamics 365 데이터 주체 요청
 
@@ -34,23 +34,23 @@ EU(유럽 연합) [GDPR(일반 데이터 보호 규정)](https://ec.europa.eu/ju
 이 가이드에서는 Microsoft 제품, 서비스 및 관리 도구를 사용하여 통제자 고객이 개인 데이터를 찾아 조치를 취함으로써 DSR 요청에 대처하는 데 도움을 주는 방법을 설명합니다. 특히 여기에는 Microsoft 클라우드에 있는 개인 데이터 또는 개인 정보를 찾고, 액세스하고, 조치를 취하는 방법이 포함됩니다. 이 가이드에 설명된 프로세스에 대한 간략한 개요는 다음과 같습니다.
 
 - **검색:** 검색 및 검색 도구를 사용하여 DSR 요청의 대상이 될 수 있는 고객 데이터를 더 쉽게 찾을 수 있습니다. 잠재적으로 반응형 문서가 수집되면 다음 단계에 설명된 DSR 작업을 수행하여 요청에 응답할 수 있습니다. 또는 요청이 DSR 요청에 응답하기 위한 조직의 지침을 충족하지 않는다고 판단할 수 있습니다.
-- **액세스:** Microsoft 클라우드에 있는 개인 데이터를 검색하고, 요청될 경우 데이터 주체가 사용할 수 있는 복사본을 만듭니다.
+- **액세스:** Microsoft 클라우드에 있는 개인 데이터를 검색하고 요청될 경우 데이터 주체가 사용할 수 있는 복사본을 만듭니다.
 - **수정:** 해당되는 경우 개인 데이터를 변경하거나 요청된 다른 작업을 구현합니다.
 - **제한**: 다양한 온라인 서비스에 대한 라이선스를 제거하거나 가능한 경우 원하는 서비스를 꺼서 개인 데이터의 처리를 제한합니다. 다음을 수행할 수 있습니다.
 - **삭제:** Microsoft 클라우드에 있는 개인 데이터를 영구적으로 제거합니다.
-- **내보내기/수신(이식성):** 개인 데이터 또는 개인 정보의 전자 사본(컴퓨터가 읽을 수 있는 형식)을 데이터 주체에게 제공합니다. CCPA 하에서 개인 정보는 식별된 또는 식별 가능한 개인과 관련 있는 모든 정보입니다. 이때 개인의 비공개, 공개 또는 업무 역할이 구분되지 않습니다. 정의된 "개인 정보"라는 용어는 GDPR에 따른 "개인 데이터"와 대략 일치합니다. 그러나 CCPA에는 가족 및 가정 데이터가 포함되어 있습니다. CCPA에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법](offering-ccpa.md) 및 [캘리포니아 소비자 개인 정보 보호법 FAQ](ccpa-faq.md)를 참조하세요.
+- **내보내기/수신(이식성):** 개인 데이터 또는 개인 정보의 전자 사본(컴퓨터가 읽을 수 있는 형식)을 데이터 주체에게 제공합니다. CCPA 하에서 개인 정보는 식별된 또는 식별 가능한 개인과 관련 있는 모든 정보입니다. 이때 개인의 비공개, 공개 또는 업무 역할이 구분되지 않습니다. 정의된 용어 "개인 정보"는 GDPR의 "개인 데이터"와 대략 일치합니다. 그러나 CCPA에는 가족 및 가정 데이터가 포함되어 있습니다. CCPA에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법](offering-ccpa.md) 및 [캘리포니아 소비자 개인 정보 보호법 FAQ](ccpa-faq.md)를 참조하세요.
 
 이 가이드의 각 섹션에서는 데이터 통제자가 Microsoft 클라우드의 개인 데이터에 대한 DSR 요청에 응답하기 위해 수행할 수 있는 기술적 절차를 간략하게 설명합니다.
 
 ## <a name="gdpr-terminology"></a>GDPR 용어
 
-다음은 이 가이드와 관련된 용어의 정의입니다.
+다음 목록은 본 가이드와 관련된 용어의 정의입니다.
 
 - **통제자:** 단독으로 또는 다른 대상과 함께 개인 데이터 처리의 목적 및 방법을 결정하는 자연인이나 법인, 공공 기관, 대리점 또는 기타 단체입니다. 이러한 처리의 목적 및 방법을 연합국 법률 또는 회원국 법률에 따라 결정하는 경우, 통제자 또는 구체적인 지명 기준을 연합국 법률 또는 회원국 법률에서 제공할 수 있습니다.
 - **개인 데이터 및 데이터 주체** 식별되었거나 식별 가능한 자연인(‘데이터 주체’)과 관련된 모든 정보입니다. 식별 가능한 자연인은 직간접적으로, 특히 이름, 식별 번호, 위치 데이터, 온라인 식별자 또는 해당 자연인의 신체적, 생리적, 유전적, 정신적, 경제적, 문화적 또는 사회적 ID와 같은 식별자를 참조하여 식별될 수 있는 사람입니다.
 - **프로세서:** 통제자를 대신하여 개인 데이터를 처리하는 자연인이나 법인, 공공 기관, 대리점 또는 기타 단체입니다.
 - **고객 데이터:** 엔터프라이즈 서비스를 사용하여 고객이 Microsoft에 제공하거나 고객 대신에 Microsoft에 제공된 모든 데이터(모든 텍스트, 소리, 동영상 또는 이미지 파일 포함)입니다. 고객 데이터에는 (1) 최종 사용자의 식별 가능한 정보(예: Azure Active Directory의 사용자 이름 및 연락처 정보) 및 고객이 특정 서비스에 업로드하거나 해당 서비스에서 만드는 고객 콘텐츠(예: Azure Storage 계정에서의 고객 콘텐츠, Azure SQL 데이터베이스의 고객 콘텐츠 또는 Azure 가상 머신에 있는 고객의 가상 머신 이미지)가 포함되어 있습니다.
-- **시스템 생성 로그:** Microsoft에서 생성한 로그 및 관련 데이터이며, 이는 Microsoft에서 엔터프라이즈 서비스를 제공하도록 도와줍니다. 시스템 생성 로그에는 주로 가명 처리된 데이터(예: 일반적으로 시스템에서 생성된 숫자인 고유한 ID)가 있으며, 이 데이터는 개인을 직접 식별할 수 없지만 엔터프라이즈 서비스를 사용자에게 전달하는 데 사용됩니다. 시스템 생성 로그에는 사용자 이름과 같은 최종 사용자에 대한 식별 가능한 정보가 포함될 수도 있습니다.
+- **시스템 생성 로그:** Microsoft에서 생성한 로그 및 관련 데이터이며, 이는 Microsoft에서 엔터프라이즈 서비스를 제공하도록 도와줍니다. 시스템 생성 로그에는 주로 가명 처리된 데이터(예: 일반적으로 시스템에서 생성된 숫자인 고유한 식별자)가 있으며, 이 데이터는 개인을 직접 식별할 수 없지만 엔터프라이즈 서비스를 사용자에게 제공하는 데 사용됩니다. 시스템 생성 로그에는 사용자 이름과 같은 최종 사용자에 대한 식별 가능한 정보가 포함될 수도 있습니다.
 
 ## <a name="how-this-guide-can-help-you-meet-your-controller-responsibilities"></a>사용자가 컨트롤러 책임을 충족하도록 가이드가 지원하는 방법
 
@@ -63,14 +63,14 @@ EU(유럽 연합) [GDPR(일반 데이터 보호 규정)](https://ec.europa.eu/ju
 
 데이터 주체가 권리를 행사하고 요청을 수행할 때 다음 사항을 고려하세요.
 
-- 데이터 주체가 요청의 일부로 사용자에게 제공한 정보를 사용하여 개인과 역할(예: 직원, 고객, 공급업체)을 적절히 식별합니다.  이 정보는 이름, 직원 ID 또는 고객 번호, 또는 기타 식별자일 수 있습니다.
+- 데이터 주체가 요청의 일부로 사용자에게 제공한 정보를 사용하여 개인과 역할(예: 직원, 고객, 공급업체)을 적절히 식별합니다. 이 정보는 이름, 직원 ID 또는 고객 번호, 기타 식별자일 수 있습니다.
 - 요청의 날짜 및 시간을 기록합니다(요청을 완료하는 데 30일이 허용됨).
 - 요청이 데이터 주체 요청을 허용하거나 거부하기 위한 조직의 요구 사항을 충족하는지 확인합니다. 예를 들어, 요청을 이행할 경우 귀하에게 해당되는 다른 법적, 재무적 또는 규제 의무와 충돌하지 않는지 또는 타인의 권리 및 자유를 침해하지 않는지 확인해야 합니다.
 - 요청과 관련된 정보가 있는지 확인합니다.
 
 ## <a name="part-1-responding-to-data-subject-rights-requests-for-personal-data-included-in-customer-data"></a>1단계: 고객 데이터에 포함된 개인 데이터의 데이터 주체 권한 요청에 대한 응답
 
-아래 문서에서는 Dynamics 365에서 처리되는 고객 데이터에 포함된 개인 데이터에 대한 DSR 요청을 준비하고 대응하는 데 도움이 되는 정보를 찾을 수 있습니다. 개인 데이터가 Microsoft 개인정보취급방침에 정의된 관리자 데이터 및 지원 데이터같이, 온라인 서비스 구독의 서비스 과정 동안 Microsoft가 처리하는 다른 데이터 범주에 존재할 수도 있다는 사실을 숙지하는 것이 중요합니다. 이 문서는 Dynamics 365에 제공한 고객 데이터에 포함되어 있는 개인 데이터에 영향을 미치는 DSR 요청의 검색 및 관리 프로세스에서 사용자를 지원하는 내용으로 제한됩니다.
+다음 문서에서는 Dynamics 365에서 처리되는 고객 데이터에 포함된 개인 데이터에 대한 DSR 요청을 준비하고 대응하는 데 도움이 되는 정보를 찾을 수 있습니다. 개인 데이터가 Microsoft 개인정보취급방침에 정의된 관리자 데이터 또는 지원 데이터 등의 온라인 서비스 구독의 서비스 과정 동안 Microsoft에서 처리하는 기타 데이터 범주에 존재할 수도 있다는 사실을 숙지하는 것이 중요합니다. 이 문서는 Dynamics 365에 제공한 고객 데이터에 포함되어 있는 개인 데이터에 영향을 미치는 DSR 요청의 검색 및 관리 프로세스에서 사용자를 지원하는 내용으로 제한됩니다.
 
 Dynamics 365는 여러 데이터 처리 기능을 SaaS(Software-as-a-Service)로 제공하는 온라인 서비스입니다. 이와 같이 Dynamics 365는 특징, 용도 또는 기타 구체적인 특성(예: 판매 데이터, 거래, 재무, HR 정보 등)에 따라 다를 수 있는 다양한 데이터 모음을 처리하도록 작성된 광범위한 기능 배열을 제공합니다. 이러한 다양성을 고려할 때 Dynamics 365는 각 응용 프로그램에서 DSR 요청이 처리될 수 있는 여러 방법에도 반영되는 고객 데이터 처리를 위한 여러 양식, 필드, 스키마, 끝점 및 논리를 제공합니다. Dynamics 365 응용 프로그램은 특정 DSR 요청을 처리하는 몇 가지 방법을 제공하므로 이 가이드에서는 각 응용 프로그램이 제공하는 기술 설명을 토대로 해당 방법을 설명합니다.
 
@@ -138,7 +138,7 @@ Dynamics 365 for Marketing에서는 다음과 같은 추가 기능을 사용할 
 또한 Dynamics 365 for Marketing에 대해 다음을 수행할 수도 있습니다.
 
 - 단일 또는 여러 행을 직접 편집하여 내 데이터 방문 페이지 업데이트
-- 포한될 수 있는 많은 편집 가능한 연락처 필드가 있는 [구독 센터](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/set-up-subscription-center) 페이지를 준비합니다. 이 페이지에서 최종 사용자는 가능한 한, 많이 자체 정보를 업데이트할 수 있습니다.
+- 포함될 수 있는 편집 가능한 여러 연락처 필드가 있는 [구독 센터](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/set-up-subscription-center) 페이지를 준비합니다. 이 페이지에서 최종 사용자는 최대한 많이 자체 정보를 업데이트할 수 있습니다.
 
 ***Dynamics 365 고객 서비스 정보 활용***은 조직이 [고객 데이터를 수정하거나 변경](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/gdpr-summary)할 수 있는 기능을 제공합니다.
 
@@ -175,7 +175,7 @@ Dynamics 365 for Marketing에서는 다음과 같은 추가 기능을 사용할 
 
 또는 ***Dynamics 365 for Finance and Operations***에서 [*사용자 지정 도구*](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/dev-tools/developer-home-page)를 사용하여 고객 데이터를 지우거나 수정할 수 있습니다.
 
-***Dynamics 365 Business Central***에서 데이터 주체가 고객 데이터에 포함될 수 있는 개인 데이터를 삭제할 것을 요청하면 다음과 같은 몇 가지 방법으로 이 요청을 처리할 수 있습니다.
+***Dynamics 365 Business Central***에서 데이터 주체가 고객 데이터에 포함될 수 있는 개인 데이터를 삭제할 것을 요청하면 다음과 같은 몇 가지 방법으로 해당 요청을 처리할 수 있습니다.
 
 - 여러 Business Central 보고서를 대량으로 빠르게 편집하려면 [Business Central Excel 추가 기능](https://docs.microsoft.com/dynamics365/business-central/finance-analyze-excel#the--excel-add-in)통해 데이터를 Excel로 내보낸 후 여러 레코드를 삭제한 후 Excel에서 이러한 변경 내용을 Business Central에 다시 게시할 수 있습니다. 자세한 내용은 [비즈니스 데이터를 Excel로 내보내기](https://docs.microsoft.com/dynamics365/business-central/about-export-data)를 참조하세요.
 - 대상 고객 데이터를 포함하는 데이터 요소를 수동으로 삭제하여 모든 필드에 저장된 고객 데이터를 삭제할 수 있습니다. 자세한 내용은 [데이터 입력](https://docs.microsoft.com/dynamics365/business-central/ui-enter-data)을 참조하세요.
@@ -192,7 +192,7 @@ Dynamics 365 for Marketing에서는 다음과 같은 추가 기능을 사용할 
 
 ***Dynamics 365 고객 서비스 통계***의 경우 Azure 관리 포털을 통해 [고객 데이터를 내보내기](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/gdpr-export)할 수 있습니다.
 
-***재무 및 운영을 위한 Dynamics 365***은 제공된 엔터티, 새로 생성된 엔터티 또는 확장된 엔터티가 반복 가능한 개인 데이터를 Excel로 내보낼 수 있게 하는 [데이터 관리 및 통합 엔터티](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-management-integration-data-entity)를 제공합니다. 또는 [데이터 가져오기 및 내보내기 작업](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-import-export-job)을 사용하는 여러 가지 다른 일반적인 형식을 사용할 수 있습니다.  또는 데이터 이동성 요청을 용이하게 하기 위해 수많은 목록을 정적 Excel 파일로 내보낼 수 있습니다. 고객 데이터를 Excel로 내보낼 때 이런 방식으로 이식 가능성 요청에 포함될 개인 데이터를 편집한 다음 파일을 .csv 또는 .xml과 같이 일반적으로 사용되는 컴퓨터가 읽을 수 있는 형식으로 저장합니다.
+***재무 및 운영을 위한 Dynamics 365***는 제공된 엔터티, 새로 생성된 엔터티 또는 확장된 엔터티가 반복 가능한 개인 데이터를 Excel로 내보낼 수 있게 하는 데이터 관리 및 통합 엔터티를 제공합니다. 또는 [데이터 가져오기 및 내보내기 작업](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-import-export-job)을 사용하는 기타 여러 일반적인 형식을 제공합니다.  또는 데이터 이동성 요청을 용이하게 하기 위해 수많은 목록을 정적 Excel 파일로 내보낼 수 있습니다. 고객 데이터를 Excel로 내보낼 때 이런 방식으로 이식 가능성 요청에 포함될 개인 데이터를 편집한 다음 파일을 .csv 또는 .xml과 같이 일반적으로 사용되는 컴퓨터가 읽을 수 있는 형식으로 저장합니다.
 
 Dynamics 365 for Finance and Operations 및 ***Dynamics 365 for Talent*** 둘 다 개인 데이터로 분류한 데이터를 데이터 주제에게 제공하기 위한 사용자 검색 보고서를 제공합니다.
 
@@ -210,7 +210,7 @@ Dynamics 365 for Finance and Operations 및 ***Dynamics 365 for Talent*** 둘 �
 - 사용자 검색 요청 및 쿼리 데이터
 - 시스템 기능 및 사용자나 기타 시스템의 상호 작용의 산물로서 제품 및 서비스에서 생성된 데이터
 
-시스템 생성 로그의 데이터를 제한하거나 수정하는 기능은 지원되지 않습니다. 시스템 생성 로그의 데이터는 Microsoft 클라우드 및 진단 데이터 내에서 수행되는 실제 작업으로 구성되며, 이러한 데이터를 수정하면 작업의 기록 데이터가 손상되어 사기 및 보안 위험이 높아질 수 있습니다.
+시스템 생성 로그의 데이터를 제한하거나 수정하는 기능은 지원되지 않습니다. 시스템 생성 로그 데이터는 Microsoft 클라우드 및 진단 데이터 내에서 수행되는 실제 작업으로 구성되며 이러한 데이터를 수정하면 작업의 기록 데이터가 손상되어 사기 및 보안 위험이 높아질 수 있습니다.
 
 ### <a name="accessing-and-exporting-system-generated-logs"></a>시스템 생성 로그 액세스 및 내보내기
 
@@ -225,7 +225,7 @@ Dynamics 365 for Finance and Operations 및 ***Dynamics 365 for Talent*** 둘 �
 
 새 요청을 만들면 **데이터 로그 내보내기** 페이지에 표시되므로 해당 상태를 추적할 수 있습니다. 요청이 완료되면 시스템 생성 로그에 액세스할 수 있는 링크를 클릭할 수 있습니다. 그러면 해당 로그는 요청을 만들고 30일 이내에 조직의 Azure Storage 위치로 내보내집니다. 데이터는 JSON 또는 XML과 같이 컴퓨터가 읽을 수 있는 일반적인 파일 형식으로 저장됩니다. Azure 계정 및 Azure Storage 위치가 없는 경우 조직을 위한 Azure 계정 및/또는 Azure Storage 위치를 만들어야 합니다. 그래야 데이터 로그 내보내기 도구를 통해 시스템 생성 로그를 내보낼 수 있습니다.
 
-Azure에서는 조직이 네이티브 JSON 형식의 데이터를 지정된 Azure Storage 컨테이너로 내보낼 수 있도록 하여 이러한 작업을 지원합니다. [Microsoft Azure Storage 소개 - Blob 저장소](https://docs.microsoft.com/azure/storage/common/storage-introduction#blob-storage) 문서를 참조하세요. 검색되는 데이터에는 서비스의 보안과 안정성을 손상시킬 수 있는 데이터가 포함되지 않습니다.
+Azure에서는 조직이 네이티브 JSON 형식의 데이터를 지정된 Azure Storage 컨테이너로 내보낼 수 있도록 하여 해당 요청을 지원합니다. [Microsoft Azure Storage 소개 - Blob 저장소](https://docs.microsoft.com/azure/storage/common/storage-introduction#blob-storage) 문서를 참조하세요. 검색되는 데이터에는 서비스의 보안과 안정성을 손상시킬 수 있는 데이터가 포함되지 않습니다.
 
 > [!IMPORTANT]
 > 테넌트에서 사용자 데이터를 내보내려면 테넌트 관리자여야 합니다.
@@ -244,7 +244,7 @@ Azure에서는 조직이 네이티브 JSON 형식의 데이터를 지정된 Azur
 
 ### <a name="deleting-system-generated-logs"></a>시스템 생성 로그 삭제
 
-액세스 요청을 통해 검색된 시스템 생성 로그를 삭제하려면 서비스에서 해당 사용자를 제거하고 Azure Active Directory 계정을 영구적으로 삭제해야 합니다. 사용자를 영구적으로 삭제하는 방법을 보려면 Azure 데이터 주체 요청 항목의 [5단계: 삭제](gdpr-dsr-azure.md#step-5-delete) 섹션을 참조하세요. 사용자 계정을 영구적으로 삭제하는 작업은 일단 시작하면 되돌릴 수 없다는 점에 유의하세요. 사용자 계정을 영구적으로 삭제하면, 서비스의 보안이나 안정성을 손상시킬 수 있는 데이터를 제외하고, 30일 이내에 거의 모든 Dynamics 365 서비스의 시스템 생성 로그에서 사용자의 데이터가 삭제됩니다.
+액세스 요청을 통해 검색된 시스템 생성 로그를 삭제하려면 서비스에서 해당 사용자를 제거하고 Azure Active Directory 계정을 영구적으로 삭제해야 합니다. 사용자를 영구적으로 삭제하는 방법을 보려면 Azure 데이터 주체 요청 항목의 [5단계: 삭제](gdpr-dsr-azure.md#step-5-delete) 섹션을 참조하세요. 사용자 계정을 영구적으로 삭제하는 작업은 일단 시작하면 되돌릴 수 없다는 점에 유의하세요. 사용자 계정을 영구적으로 삭제할 경우 서비스의 보안이나 안정성을 손상시킬 수 있는 데이터를 제외하고 30일 이내에 거의 모든 Dynamics 365 서비스의 시스템 생성 로그에서 사용자의 데이터가 삭제됩니다.
 
 ## <a name="learn-more"></a>자세히 알아보기
 

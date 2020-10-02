@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 3fc563c762e7cd00888665b63e66159e4d3d9612
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 6d627dcf3d6ec8ca1d2aa76eab484361c25b529e
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196980"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338420"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
@@ -61,8 +61,8 @@ invoke FileProfile(x,y)
 
 ## <a name="arguments"></a>인수나
 
-- **x** -다음을 사용할 파일 ID 열: `SHA1` , `SHA256` , `InitiatingProcessSHA1` 또는 `InitiatingProcessSHA256` ; function이 `SHA1` 지정 되지 않은 경우 사용 합니다.
-- **y** -보강할 레코드 수에 대 한 제한 1-1000; 함수가 지정 되지 않은 경우 100을 사용 합니다.
+- **x**-사용할 파일 ID 열: `SHA1` , `SHA256` , `InitiatingProcessSHA1` , 또는 `InitiatingProcessSHA256` ; function이 `SHA1` 지정 되지 않은 경우 사용 합니다.
+- **y**-보강할 레코드 수에 대 한 제한 1-1000; 함수가 지정 되지 않은 경우 100을 사용 합니다.
 
 ## <a name="examples"></a>예
 

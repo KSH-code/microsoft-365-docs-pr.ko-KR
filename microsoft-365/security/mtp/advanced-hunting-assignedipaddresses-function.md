@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 685132e3f5c303f21fde3702725a84e24383e679
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: ea6b65e5e6d676c5efb2622193197bae5b9ba1b2
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198250"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338548"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
@@ -32,7 +32,7 @@ ms.locfileid: "48198250"
 **적용 대상:**
 - Microsoft 위협 방지
 
-`AssignedIPAddresses()`장치에 할당 된 최신 IP 주소를 빠르게 가져오려면이 함수를 사용 합니다. Timestamp 인수를 지정 하면이 함수는 지정 된 시간에 가장 최근 IP 주소를 가져옵니다. 
+`AssignedIPAddresses()` [고급 구하기](advanced-hunting-overview.md) 쿼리의 함수를 사용 하 여 장치에 할당 된 최신 IP 주소를 빠르게 얻습니다. Timestamp 인수를 지정 하면이 함수는 지정 된 시간에 가장 최근 IP 주소를 가져옵니다. 
 
 이 함수는 다음과 같은 열이 있는 table을 반환 합니다.
 

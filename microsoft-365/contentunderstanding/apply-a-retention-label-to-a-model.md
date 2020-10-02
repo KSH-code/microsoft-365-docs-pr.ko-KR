@@ -9,14 +9,21 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: 이 문서는 문서 이해 모델에 보존 레이블을 적용하는 방법에 대해 설명합니다.
-ms.openlocfilehash: 6b42f7df5e14f57f3754e7d65c5f4cf2e8fab6a0
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: b6ace2a11a7205919fdcf767b888401a5c28db0c
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321848"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338628"
 ---
 # <a name="apply-a-retention-label-to-a-document-understanding-model"></a>문서 이해 모델에 보존 레이블 적용
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GydO]  
+
+</br>
+
 
 Microsoft SharePoint Syntex의 문서 이해 모델에 [보존 레이블](https://docs.microsoft.com/microsoft-365/compliance/retention)을 쉽게 적용할 수 있습니다.
 
@@ -67,4 +74,4 @@ Microsoft SharePoint Syntex의 문서 이해 모델에 [보존 레이블](https:
 
 [문서 이해 개요](document-understanding-overview.md)
 
-[양식 처리 모델 만들기](create-a-form-processing-model.md)  
+

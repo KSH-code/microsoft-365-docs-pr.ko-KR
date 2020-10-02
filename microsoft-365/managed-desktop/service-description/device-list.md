@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: e7d0b88542f9329d10d241e68864333ed1ec1730
-ms.sourcegitcommit: 4ac96855d7c269a0055ca8943000b762a70ca4ba
+ms.openlocfilehash: bd621ec2b80d308ecd14c9bbbb782e371d3e460a
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321976"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338364"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치 
 
@@ -56,13 +56,13 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 
 | 모델    | 최소 사양  | 추가 요구 사항    | 보관 날짜   | 퇴직 날짜   |
 |----------|----------------|---------------------------|----------------|--------------------|
-| [HP EliteBook 830/840/850 G6 노트북 PC](https://store.hp.com/us/en/mdp/laptops/elitebook-840#!&tab=features) | 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
-| [HP EliteBook x360 830 G6 노트북 PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g6-notebook-pc) | 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
+| [HP EliteBook 830/840/850 G7 노트북 PC](https://store.hp.com/us/en/pdp/hp-elitebook-830-g7-notebook-pc-customizable-8pv71av-mb) | 256 GB/Intel i5/8gb RAM | 5VS01AV가 포함 된 SKU | 11 월 30 일, 2021 | 11 월 30 일, 2024 |
+| [HP EliteBook x360 830 G7 노트북 PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g7-notebook-pc-p-1f6c0ut-aba-1) | 256 GB/Intel i5/8gb RAM | 5VS01AV가 포함 된 SKU | 11 월 30 일, 2021 | 11 월 30 일, 2024 |
 | [HP 정예 x2 G4 태블릿](https://store.hp.com/us/en/mdp/laptops/hp-elite-x2-3074457345617405170--1) | 256 GB/Intel i5/8gb RAM | 5VS03AV가 포함 된 SKU | 2021 년 7 월 31 일 | 2024 년 7 월 31 일 |
-| [HP EliteBook x360 1030 G4 노트북 PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1030-g4-notebook-pc) | 256 GB/Intel i5/8gb RAM | 5VS01AV가 포함 된 SKU | 2021 년 2 월 28 일 | 2024 년 2 월 28 일 |
-| [HP EliteBook x360 1040 G6](https://www.hp.com/go/elitebookx360-1040) | 256 GB/Intel i5/8gb RAM | 5VS01AV가 포함 된 SKU| 11 월 30 일, 2020 | 11 월 30 일, 2023 |
-| [HP 정예 DragonFly](https://www8.hp.com/us/en/laptops/2-in-1s/elite-dragonfly-convertible.html) | 256 GB/Intel i5/8gb RAM | 9MZ21AV가 포함 된 SKU | 2020 년 12 월 31 일 | 2023 년 12 월 31 일 |
-| [HP Z2 미니 G4 워크스테이션](https://store.hp.com/us/en/mdp/hp-z2-mini-workstation-451004--1) | 256 GB/Intel i5/8gb RAM | 8QR48AV가 포함 된 SKU| 1 월 31 일 2021 | 1 월 31 일 2024 |
+| [HP EliteBook x360 1030 G7 노트북 PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1030-g7-notebook-pc-customizable-8vs68av-mb#!) | 256 GB/Intel i5/8gb RAM | 5VS01AV가 포함 된 SKU | 2021 년 8 월 31 일 | 2024 년 8 월 31 일 |
+| [HP EliteBook x360 1040 G7](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1040-g7-notebook-pc-customizable-8wa57av-mb) | 256 GB/Intel i5/8gb RAM | 5VS01AV가 포함 된 SKU| 2021 년 8 월 31 일 | 2024 년 8 월 31 일 |
+| [HP 정예 DragonFly](https://www8.hp.com/us/en/laptops/2-in-1s/elite-dragonfly-convertible.html) | 256 GB/Intel i5/8gb RAM | 9MZ21AV가 포함 된 SKU | 2021 년 3 월 31 일 | 2024 년 3 월 31 일 |
+| [HP Z2 미니 G5 워크스테이션](https://store.hp.com/us/en/pdp/hp-z2-mini-g5-workstation-customizable-9jd39av-mb) | 256 GB/Intel i5/8gb RAM | 8QR48AV가 포함 된 SKU| 2021 년 12 월 31 일 | 2024 년 12 월 31 일 |
 | [HP ZBook 14u/15u G6 모바일 워크스테이션](https://store.hp.com/us/en/mdp/hp-zbook-14u-mobile-workstation) | 256 GB/Intel i5/8gb RAM | 5VS02AV를 사용한 SKU, IR 카메라 필요 | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
 
 ### <a name="microsoft"></a>Microsoft
