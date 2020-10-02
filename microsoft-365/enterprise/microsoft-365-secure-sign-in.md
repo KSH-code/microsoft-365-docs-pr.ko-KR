@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/16/2020
+ms.date: 09/30/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -15,20 +15,29 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 사용자가 MFA(다단계 인증) 및 기타 기능을 사용하여 안전하게 로그인하도록 합니다.
-ms.openlocfilehash: 6c8f58e54ae21b4a5e1566dc72673e1d69152863
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 2e6c564e3179d0847710e2bef071dcc9e1cdbdaf
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132248"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327429"
 ---
 # <a name="secure-user-sign-ins-to-your-microsoft-365-tenant"></a>Microsoft 365 테넌트에 사용자 로그인 보안 기능
 
 사용자 로그인의 보안을 강화하려면 다음을 수행합니다.
 
+- 비즈니스용 Windows Hello 사용
 - Azure AD(Azure Active Directory) 암호 보호 사용
 - MFA(다단계 인증) 사용
-- ID 및 장치 액세스 정책 배포
+- ID 및 장치 액세스 구성 배포
+- Azure AD ID 보호를 사용하여 자격 증명 손상으로부터 보호
+
+## <a name="windows-hello-for-business"></a>비즈니스용 Windows Hello
+
+Windows 10 Enterprise의 비즈니스용 windows Hello는 Windows 장치에 로그인할 때 암호를 강력한 2 단계 인증으로 대체합니다. 2단계 인증 요소는 장치에 연결된 새로운 유형의 사용자 자격 증명과 생체 인식 또는 PIN입니다.
+
+자세한 내용은 [비즈니스용 Windows Hello 개요](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-overview)를 참조하세요.
+
 
 ## <a name="azure-ad-password-protection"></a>Azure AD 암호 보호
 
@@ -44,7 +53,7 @@ MFA에서는 사용자 로그인이 사용자 계정 비밀번호 외에 추가 
 
 MFA를 사용하는 첫 번째 단계는 ***모든 관리자 계정(예를 들어, 권한 있는 계정이라고도 함)에 해당 항목을 요청***하는 것입니다.
 
-첫 번째 단계를 넘어서, Microsoft는 모든 사용자에 대해 MFA를 강력하게 권장합니다.
+첫 번째 단계를 넘어서, Microsoft는 모든 사용자에 대해 MFA를 권장합니다.
 
 Microsoft 365 플랜에 따라 관리자나 사용자가 MFA를 사용하도록 요청하는 데 세 가지 방법이 있습니다.
 
@@ -63,7 +72,7 @@ Microsoft 365 플랜에 따라 관리자나 사용자가 MFA를 사용하도록 
 
 보안 기본값은 모든 조직이 기본적으로 사용되는 사용자 로그인에 대한 기본 보안 수준을 갖도록 합니다. 조건부 액세스 정책 또는 개별 계정으로 MFA를 위해 보안 기본값을 비활성화할 수 있습니다.
 
-자세한 정보는 이 [보안 기본값 개요](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)를 참조하세요.
+자세한 정보는 [보안 기본값 개요](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)를 참조하세요.
 
 ### <a name="conditional-access-policies"></a>조건부 액세스 정책
 
@@ -77,7 +86,7 @@ Windows 10을 실행하는 노트북과 같은 호환 장치에서 로그인을 
 
 조건부 액세스에는 Microsoft 365 E3 및 E5에 포함된 Azure AD Premium P1 라이선스가 필요합니다.
 
-자세한 내용은 이 [조건부 액세스 개요](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)를 참조하세요.
+자세한 내용은 [조건부 액세스 개요](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)를 참조하세요.
 
 ### <a name="using-these-methods-together"></a>이 방법들을 함께 사용
 
@@ -96,7 +105,7 @@ Windows 10을 실행하는 노트북과 같은 호환 장치에서 로그인을 
 | **조건부 액세스 정책** | 이 중 하나가 사용되는 경우 보안 기본값을 사용할 수 없습니다. | 상기 수단을 모두 사용하지 않도록 설정한 경우, MFA 등록 중 사용자가 지정한   | 보안 기본값을 사용할 수 있습니다  |
 ||||
 
-## <a name="identity-and-device-access-policies"></a>ID 및 장치 액세스 정책
+## <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
 ID 및 장치 액세스 설정과 정책은 권장되는 필수 기능 및 해당 설정이며, 이는 어떤 조건으로 지정된 액세스 요청이 부여되는지를 결정하는 조건부 액세스, Intune 및 Azure AD Identity Protection 정책과 함께 결합됩니다. 이 결정은 로그인의 사용자 계정, 사용 중인 장치, 사용자가 액세스하기 위해 사용하는 앱, 액세스 요청을 만든 위치, 요청 위험에 대한 평가를 기준으로 합니다. 이 기능을 사용하여 승인된 사용자와 장치만 중요한 리소스에 액세스할 수 있도록 할 수 있습니다.
 
@@ -114,27 +123,22 @@ ID 및 장치 액세스 정책은 세 계층으로 사용하도록 정의됩니�
 
 Microsoft Teams, Exchange Online 및 SharePoint에 대한 특정 설정을 포함하여 조직에서 ID 및 장치 액세스 정책을 구성하고 배포하는 것이 매우 좋습니다. 자세한 내용은 [ID 및 장치 액세스 구성](microsoft-365-policies-configurations.md)을 참조하세요.
 
-<!--
+## <a name="azure-ad-identity-protection"></a>Azure AD ID 보호
 
-## Let your users reset their own passwords
+이 섹션에서는 공격자가 조직의 클라우드 서비스 및 데이터에 액세스하기 위한 사용자의 계정 이름 및 암호를 파악한 경우에 발생하는 자격 증명 침해로부터 보호하는 정책 구성 방법을 알아봅니다. Azure AD ID Protection은 공격자가 사용자 계정의 자격 증명을 손상시키지 못하도록 하는데 도움이 되는 다양한 방법을 제공 합니다.
 
-Self-Service Password Reset (SSPR) enables users to reset their own passwords without impacting IT staff. Users can quickly reset their passwords at any time and from any place. Watch [this video](https://go.microsoft.com/fwlink/?linkid=2128524) to set up SSPR.
+Azure AD ID 보호를 사용하면 다음을 수행할 수 있습니다.
 
-## Sign in to SaaS apps with Azure AD
+|기능|설명|
+|:---------|:---------|
+| 조직의 ID에서 잠재적인 취약점 확인 및 해결 | Azure AD는 기계 학습을 사용하여 로그인 및 로그인 후 활동과 같은 변칙 및 의심스러운 활동을 감지합니다. 이 데이터를 사용하여 Azure AD ID 보호는 문제를 평가하고 조치를 취하는 데 도움이 되는 보고서 및 경고를 생성합니다.|
+|조직의 ID와 관련이 있는 의심스러운 동작을 감지하고 자동으로 대응|지정된 위험 수준에 도달했을 때 검색된 문제에 자동으로 대응하는 위험 기반 정책을 구성할 수 있습니다. Azure AD 및 Microsoft Intune에서 제공하는 다른 조건부 액세스 제어 외에도, 이러한 정책은 액세스를 자동으로 차단하거나 암호 재설정을 포함하는 수정 조치를 취하고, 후속 로그인에 대해 Azure 다단계 인증을 요구할 수 있습니다. |
+| 의심스러운 사건을 조사하여 관리 작업으로 해결 | 보안 사건에 대한 정보를 사용하여 위험 이벤트를 조사할 수 있습니다. 기본 워크플로를 사용하여 조사를 추적하고 암호 재설정과 같은 수정 작업을 시작할 수 있습니다. |
+|||
 
-In addition to providing cloud authentication for users, Azure AD can also be your central way to secure all your apps, whether they’re on-premises, in Microsoft’s cloud, or in another cloud. By [integrating your apps into Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/plan-an-application-integration), you can make it easy for your users to discover the applications they need and sign into them securely.
+[Azure AD ID 보호에 대한 자세한 정보](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection)를 참조하세요.
 
-## Results of deployment of secure sign-ins
-
-After deployment of MFA, your users:
-
-- Are required to use MFA for sign-ins.
-- Have completed the MFA registration process and are using MFA for all sign-ins.
-- Can use SSPR to reset their own passwords.
-
-- [Plan an Azure AD self-service password reset deployment](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment)
-
---> 
+[Azure AD ID 보호를 사용하도록 설정하는 단계](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-enable)를 참조하세요.
 
 ## <a name="admin-technical-resources-for-mfa-and-secure-sign-ins"></a>MFA 및 보안 로그인에 대한 관리자 기술 리소스
 
@@ -144,3 +148,6 @@ After deployment of MFA, your users:
 - [Azure Multi-Factor Authentication 등록 정책 구성](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
 - [ID 및 장치 액세스 구성](microsoft-365-policies-configurations.md)
 
+## <a name="next-step"></a>다음 단계
+
+[사용자 계정 관리](manage-microsoft-365-accounts.md)

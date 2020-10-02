@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 엔터프라이즈용 Microsoft 365의 구성 요소, 계획 및 배포 경로에 대한 소개를 제공합니다.
-ms.openlocfilehash: b5064d78a1681a3331248f3d17d389c46b1da314
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: fa076517b071efbe3a5002d6a48418a796e38ca4
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949919"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327476"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈용 Microsoft 365 개요
 
@@ -32,7 +32,7 @@ ms.locfileid: "47949919"
 
 |서비스|설명|
 |---|---|
-|로컬 및 클라우드 기반 및 생산성 서비스|사용자의 PC 및 Mac을 위한 최신 Office 앱(Word, Excel, PowerPoint, Outlook 등)인 엔터프라이즈용 Microsoft 365과 전자 메일, 파일 저장소 및 협업, 회의 등을 위한 완전한 온라인 제품군이 포함됩니다.|
+|로컬 앱 및 클라우드 기반 및 생산성 서비스|사용자의 PC 및 Mac을 위한 최신 Office 앱(Word, Excel, PowerPoint, Outlook 등)인 엔터프라이즈용 Microsoft 365과 전자 메일, 파일 저장소 및 협업, 회의 등을 위한 완전한 온라인 제품군이 포함됩니다.|
 |Windows 10 Enterprise|대규모 기업이나 중소기업의 요구 사항을 충족합니다. Windows의 가장 생산적이고 안전한 버전입니다. IT 전문가를 위해 종합 배포, 장치 및 앱 관리도 제공합니다.|
 |디바이스 관리 및 고급 보안 서비스|조직의 데이터를 보호하면서 작업 장소가 생산적인 곳이 될 수 있도록 도와주는 클라우드 기반 엔터프라이즈 이동성 관리 서비스인 Microsoft Intune이 포함됩니다.|
 |||

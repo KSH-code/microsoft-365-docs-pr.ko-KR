@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 9e7853fb44cc9ccd8c233cc2fee71eaef91a5c1c
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: e4750e063c0f049c5f3faa1667aafb7f1afa6586
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415882"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48305182"
 ---
 # <a name="gdpr-breach-notification"></a>GDPR 위반 알림
 
@@ -30,7 +30,7 @@ GDPR(일반 데이터 보호 규제)는 EU(유럽 연합) 회원국 국민에게
 
 ## <a name="what-constitute-a-breach-of-personal-data-under-the-gdpr"></a>GDPR에서 개인 데이터의 위반을 구성하는 요인은 무엇인가요?
 
-개인 데이터는 개인을 직간접적으로 식별하는 데 사용할 수 있는 개인과 관련된 정보를 의미합니다. 개인 데이터 위반은 “전송, 저장 또는 기타 방식으로 처리되는 개인 데이터의 의도치 않았거나 불법적인 파괴, 손실, 변경, 무단 공개 또는 액세스를 야기하는 보안 침해”를 의미합니다.
+개인 데이터는 개인을 직간접적으로 식별하는 데 사용할 수 있는 개인과 관련된 정보를 의미합니다. 개인 데이터 침해는 '개인 데이터가 전송, 저장 또는 처리되는 우발적이거나 불법적인 파괴, 손실, 변경, 무단 공개 또는 액세스로 이어지는 보안 침해'입니다.
 
 ## <a name="terminology"></a>용어
 
@@ -43,11 +43,11 @@ GDPR(일반 데이터 보호 규제)는 EU(유럽 연합) 회원국 국민에게
 
 ## <a name="microsoft-and-breach-notification"></a>Microsoft 및 위반 알림
 
-Microsoft는 GDPR(일반 데이터 보호 규정)에 따라 의무를 다합니다. 보안 인시던트/데이터 위반은 Microsoft 장비 또는 Microsoft 시설에 저장된 고객 데이터에 대한 불법 액세스나 고객 데이터의 손실, 노출 또는 변경을 야기할 수 있는 무단 액세스 등의 이벤트를 나타냅니다.
+Microsoft는 GDPR(일반 데이터 보호 규정)에 따라 의무를 다합니다. 보안 인시던트/데이터 침해는 Microsoft 장비 또는 Microsoft 시설에 저장된 고객의 데이터에 불법적으로 액세스하거나, 고객 데이터를 분실, 공개 또는 변경할 수 있는 권한이 없는 액세스와 같은 이벤트를 말합니다.
 
-Microsoft는 데이터 프로세서로서, 서비스 고객이 데이터 컨트롤러의 자격으로 GDPR의 위반 알림 요구 사항을 충족할 수 있도록 합니다. Microsoft 알림은 이러한 평가에 필요한 정보를 제공합니다. Microsoft는 개인 데이터가 이해할 수 있는 것으로 확인되는 경우(예: 키의 무결성이 확인된 경우의 암호화 데이터)를 제외하고 사용자에게 개인 데이터 위반을 알립니다.
+데이터 프로세서의 경우 Microsof는 서비스 고객이 GDPR의 위반 알림 요구 사항을 데이터 컨트롤러로 충족할 수 있도록 보장합니다. Microsoft 알림은 이러한 평가에 필요한 정보를 제공합니다. Microsoft는 개인 데이터가 이해할 수 있는 것으로 확인되는 경우(예: 키의 무결성이 확인된 경우의 암호화 데이터)를 제외하고 사용자에게 개인 데이터 위반을 알립니다.
 
-데이터 컨트롤러는 데이터 개인 정보에 대한 위험을 평가하고 고객의 DPA에게 알려야 하는 위반인지 여부를 파악해야 합니다. Microsoft는 이러한 평가에 필요한 정보와 GDPR 규정 준수 정책을 함께 제공합니다.
+데이터 컨트롤러는 데이터 개인 정보에 대한 위험을 평가하고 위반 사항이 고객의 DPA에 알려야 하는 위반인지의 여부를 판단할 책임이 있습니다. Microsoft는 이러한 평가에 필요한 정보와 GDPR 규정 준수 정책을 함께 제공합니다.
 
 초기 알림에는 위반의 성격, 사용자에게 미치는 대략적인 영향, 완화 단계(해당하는 경우)에 대 한 설명이 포함됩니다. 초기 알림을 받을 때 조사를 완료하지 못한 경우 다음 단계와 후속 소통 일정을 제시합니다. Microsoft에서 개인 데이터 위반을 감지하고 대처하는 방법에 대한 자세한 내용은 Service Trust Portal의 [GDPR에서 데이터 위반 알림](https://servicetrust.microsoft.com/ViewPage/GDPRBreach)을 참조하세요.
 
@@ -61,12 +61,12 @@ Microsoft는 데이터 프로세서로서, 서비스 고객이 데이터 컨트�
 2. **[Azure & Dynamics 365](gdpr-breach-azure-dynamics.md)**  
     Microsoft는 Microsoft Azure와 Dynamics 365에 대한 공격의 영향을 완화하기 위해 전역적인 연중 무휴 서비스를 제공합니다.
 
-    - *위반 감지*: Microsoft와 고객 모두에게 보안 의무가 있으므로, Azure 서비스는 공유 책임 모델을 사용하여 보안 및 운영 책임을 정의합니다. Microsoft는 고객의 책임 영역 내에서 보안 인시던트를 모니터링하거나 이에 대응하지 않습니다. 고객 인시던트 대응 시 Azure [고객 지원](https://azure.microsoft.com/support/options/)과 공동 작업이 수반되며 계약업체에 적절한 서비스가 부여됩니다. 또한 Microsoft Azure는 고객이 보안 인시던트 대응을 개발 및 관리하기 위해 활용할 수 있는 다양한 서비스(예: [Azure Security Center](https://azure.microsoft.com/services/security-center/))도 제공합니다.
+    - *위반 감지*: Microsoft와 고객 모두에게 보안 의무가 있으므로, Azure 서비스는 공유 책임 모델을 사용하여 보안 및 운영 책임을 정의합니다. Microsoft는 고객의 책임 영역 내에서 보안 사고를 모니터링하거나 대응하지 않습니다. 고객 인시던트 대응 시 Azure [고객 지원](https://azure.microsoft.com/support/options/)과 공동 작업이 수반되며 계약업체에 적절한 서비스가 부여됩니다. 또한 Microsoft Azure는 고객이 보안 인시던트 대응을 개발 및 관리하기 위해 활용할 수 있는 다양한 서비스(예: [Azure Security Center](https://azure.microsoft.com/services/security-center/))도 제공합니다.
 
         Microsoft Azure에서 위반 조사를 트리거하는 이벤트 목록을 보려면 [잠재적인 침해 감지](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-azure-dynamics#detection-of-potential-breaches)를 참조하세요. [Azure 및 GDPR의 위반 알림](gdpr-breach-azure-dynamics.md)에서는 Microsoft가 Azure 내의 보안 인시던트를 조사, 관리 및 대응하는 방법을 자세히 설명합니다.
 
     - *데이터 위반 대응*: Microsoft는 인시던트가 기능에 미치는 영향, 복구 가능성 및 정보에 미치는 영향을 조사하여 위반에 대한 적절한 우선 순위와 심각도 수준을 확인합니다. 우선 순위와 심각도는 새로 확인한 결과 및 결론에 따라, 조사가 진행되는 동안 변경될 수 있습니다.
-    Microsoft의 보안 대응 팀은 전역 법률 관리자와 긴밀히 협력하여 법적 의무와 고객 약정에 따라 범죄 분석을 수행합니다. 이러한 프로세스는 [Azure의 데이터 위반 대응](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-azure-dynamics#azures-data-breach-response)에 자세히 설명되어 있습니다.
+    Microsoft의 보안 대응 팀은 글로벌 법률 고문과 긴밀하게 협력하여 고객에 대한 법적 의무와 약속에 따라 포렌식 검사가 수행되도록 지원합니다. 이러한 프로세스는 [Azure의 데이터 위반 대응](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-azure-dynamics#azures-data-breach-response)에 자세히 설명되어 있습니다.
 
     - *고객 알림*: Microsoft Azure는 필요한 경우 데이터 위반 사실을 고객과 규제 기관을 알려줍니다. 고객 알림은 다음 상황을 제외하고 위반을 선언한 시점으로부터 72시간 이내에 전달됩니다.
 
@@ -76,7 +76,7 @@ Microsoft는 데이터 프로세서로서, 서비스 고객이 데이터 컨트�
         자세한 내용은 [고객 알림](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-azure-dynamics#customer-notification)을 참조하세요.
 
 3. **[Microsoft 지원 및 전문 서비스](gdpr-breach-Microsoft-Support-Professional-Services.md)**  
-    전문 서비스는 일부 데이터 보호 인시던트가 고객의 책임 영역 내에 있을 수 있음을 의미합니다. Microsoft 전문 서비스는 데이터 보호 인시던트를 식별하면 [데이터 보호 인시던트 대응 프로세스의 범위 및 제한 사항](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-microsoft-support-professional-services#scope--limits-of-data-protection-incident-response-process)에 설명된 대로 문서화된 산업 표준 대응 계획을 따릅니다.
+    프로페셔널 서비스의 특성은 일부 데이터 보호 문제가 고객의 책임 영역 내에 포함될 수 있음을 의미합니다. Microsoft 전문 서비스는 데이터 보호 인시던트를 식별하면 [데이터 보호 인시던트 대응 프로세스의 범위 및 제한 사항](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-microsoft-support-professional-services#scope--limits-of-data-protection-incident-response-process)에 설명된 대로 문서화된 산업 표준 대응 계획을 따릅니다.
 
 ## <a name="breach-notification-admin-tools"></a>침해 알림 관리 도구
 

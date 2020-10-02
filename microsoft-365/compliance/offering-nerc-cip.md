@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 9d1f259894fff720452de52c45424f086a31a6bb
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: f4394a66242a981ab179b07f45e82132f68968d7
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208180"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48305358"
 ---
 # <a name="north-american-electric-reliability-corporation-nerc"></a>North American Electric Reliability Corporation(북미전력안정성회사:NERC)
 
@@ -88,6 +88,7 @@ NERC ERO Enterprise는 지정된 BCSI 저장소 위치로의 액세스와 등록
 ## <a name="resources"></a>리소스
 
 - [NERC 규정 준수 가이드](https://www.nerc.com/pa/comp/guidance/)
+- [NERC 사이버 보안-공급망 위험 관리](https://www.nerc.com/pa/Stand/Pages/CIP0131RI.aspx)
 - [NERC 규정 준수 및 적용](https://www.nerc.com/pa/comp/Pages/default.aspx)
 - [NERC 조직 및 인증](https://www.nerc.com/pa/comp/Pages/Registration.aspx)
 - [Microsoft 및 FedRAMP](offering-fedramp.md)

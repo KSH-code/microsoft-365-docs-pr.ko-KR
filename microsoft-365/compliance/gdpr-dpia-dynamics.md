@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 3352483f87c12996f00e8a75dfcba19581fdaf0c
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 29da829ddf20a24776ef40b7aefb02cdf1546669
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417912"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48305058"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-dynamics-365"></a>데이터 보호 영향 평가: Dynamics 365를 사용하는 데이터 컨트롤러의 참고 자료
 
@@ -30,7 +30,7 @@ ms.locfileid: "47417912"
 
 이 문서의 목적은 Dynamics 365에 대한 정보와 데이터 컨트롤러를 제공하여 DPIA 필요 여부, 필요한 경우 포함할 세부 사항을 결정할 수 있도록 지원하는 것입니다.
 
-## <a name="part-1--determining-whether-a-dpia-is-needed"></a>1부 — DPIA 필요 여부 결정
+## <a name="part-1-determining-whether-a-dpia-is-needed"></a>1부 – DPIA가 필요한지 여부를 판단
 
 GDPR 제 35조에 따라 데이터 관리자는 ‘특히 신기술을 사용하고 처리의 특성, 범위, 컨텍스트 및 목적을 처리하는 유형이 자연인의 권리와 자유에 대한 높은 위험을 초래할 수 있는’ 데이터 보호 영향 평가를 만들어야 합니다. 또한 다음 테이블에서 언급될 이러한 높은 위험을 나타내는 특정 요인을 다룹니다. DPIA 필요 여부를 결정할 때 데이터 관리자는 Dynamics 365의 컨트롤러 특정 구현 및 사용에 따라 이러한 관련 요소를 고려해야 합니다.
 
@@ -44,7 +44,7 @@ GDPR 제 35조에 따라 데이터 관리자는 ‘특히 신기술을 사용하
 >[!Note]
 ><sup>1</sup> 처리가 ‘대규모’되는 기준에 대해 GDPR의 비고 91에서는 다음을 명확하게 제시합니다. ‘처리 작업에서 개인 담당 의사, 다른 의료 전문가 또는 법률가가 환자 또는 클라이언트의 개인 데이터를 우려할 경우 개인 데이터 처리는 대규모로 간주되지 않습니다. 그러한 경우 데이터 보호 영향 평가는 필수 사항이 아닙니다.’
 
-## <a name="part-2--contents-of-a-dpia"></a>2부 - DPIA의 내용
+## <a name="part-2-contents-of-a-dpia"></a>2부: DPIA의 내용
 
 문서 35(7)는 데이터 보호 영향 평가가 처리의 목적과 계획된 처리에 대한 체계적인 설명을 명시하도록 규정하고 있습니다. 포괄적인 DPIA에 대한 체계적인 설명에는 처리되는 데이터의 유형, 데이터 보관 기간, 데이터 위치 및 전송 위치, 제 3자가 데이터에 액세스 할 수있는 요소 등의 요소가 포함될 수 있습니다. 또한 DPIA에는 다음이 포함되어야 합니다.
 

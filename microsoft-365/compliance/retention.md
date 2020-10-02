@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: d8b9ff7bea32f489a5cce5f64626908e8ec56fa1
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 49d61a7bbc376121f5a91c1692f292b83abea779
+ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197341"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308946"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -230,7 +230,7 @@ Exchange 공용 폴더, Skype, Teams 및 Yammer 메시지는 보존 레이블을
     
 - 콘텐츠에 게시된 보존 레이블이 할당된 경우 자동 적용 레이블은 대체되지 않습니다.
     
-- 자동 적용 레이블을 할당하는 여러 규칙이 있고 콘텐츠가 여러 규칙의 조건을 충족하는 경우 가장 오래된 규칙에 대한 보존 레이블이 할당됩니다.
+- 자동 적용 레이블을 할당하는 규칙이 여러 개이고 내용이 여러 규칙의 조건을 충족하는 경우 가장 오래된 규칙(작성 날짜 기준)의 보존 레이블이 할당됩니다.
     
 한 보존 레이블이 적용되는 방법과 그 이유를 이해하려면 레이블을 명시적으로 할당하는 것과 암시적으로 레이블이 할당되는 것의 차이점을 이해하는 것이 좋습니다.
 

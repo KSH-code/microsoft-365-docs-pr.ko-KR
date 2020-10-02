@@ -16,12 +16,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 140d66c48feed0534c377fb03673bb575e62527d
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 440d8756e68b022b3b5e7bb4513e2cb3c199f335
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417942"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48305048"
 ---
 # <a name="microsofts-data-protection-officer"></a>Microsoft의 데이터 보호 관리자
 
@@ -29,11 +29,11 @@ Microsoft는 유럽 연합 데이터 보호 관리자(DPO)를 Microsoft의 엔�
 
 ## <a name="qualifications"></a>자격
 
-DPO 역할은 성공적인 후보자에게 7년 이상의 전문적인 데이터 보호 경험이 있거나 10년 동안의 데이터 보호, 보안 및 기업 위험 관리 경험을 종합하여 해당 직책을 고려해야 합니다. 또한 후보자는 국제 데이터 보호법 및 규정에 대한 전문 지식을 입증해야 합니다. 
+DPO 역할에는 합격자가 7년 이상의 전문 데이터 보호 경력 또는 10년 이상의 데이터 보호, 보안 및 엔터프라이즈 위험 관리 경력이 혼합되어 있어야 합니다. 또한 지원자는 국제 데이터 보호 법률 및 실무에 대한 전문 지식을 입증해야 합니다. 
 
 ## <a name="nature-of-the-role"></a>역할의 특성
 
-DPO는 개인 정보 보호와 관련된 모든 주요 문제와 시기 적절하게 관련됩니다. 이는 Microsoft에서 생성한 모든 데이터 보호 영향 평가(DPIA)를 검토하고 조언하는 DPO의 역할에 부분적으로 영향을 미칩니다. DPIA 프로그램은 Microsoft의 모든 개인 데이터 처리를 캡처하도록 설계되었으므로 DPO는 Microsoft의 개인 데이터 처리와 관련하여 회사 간 가시성을 확보하고 GDPR에 따라 Microsoft에 의무를 알리고 조언할 수 있는 기회를 갖습니다. 이와 동일한 메커니즘을 통해 DPO는 Microsoft의 내부 정책 및 컨트롤뿐 아니라 GDPR을 포함한 적용 가능한 데이터 보호 규정을 통해 Microsoft의 준수 여부를 모니터링할 수 있습니다. 
+DPO는 개인 데이터 보호와 관련된 모든 주요 문제에 적시에 적절하게 관련되어 있습니다. 이 작업은 부분적으로 Microsoft에서 생성한 모든 DPIA(데이터 보호 영향 평가)를 검토하고 조언하는 DPO의 역할에 의해 영향을 받습니다. DPIA 프로그램은 모든 개인 데이터 처리를 Microsoft에서 캡처하도록 설계되어 있으므로 DPO는 회사 간 가시성을 확보하고 Microsoft의 개인 데이터 처리와 관련하여 GDPR에 따라 Microsoft에 의무를 알리고 조언할 수 있는 기회를 갖게 됩니다. 이와 동일한 메커니즘을 통해 DPO는 GDPR을 비롯한 해당 데이터 보호 규정과 Microsof의 내부 정책 및 제어 규정을 준수하는지 모니터링할 수 있습니다. 
 
 ## <a name="position-of-the-data-protection-officer"></a>데이터 보호 관리자의 직책
 
