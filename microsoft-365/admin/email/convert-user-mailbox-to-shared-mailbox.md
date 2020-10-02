@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
 description: '개인 사서함을 여러 사용자가 액세스할 수 있는 공유 사서함으로 변환 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: a4b2e9ce53051feb07ea035adc0c959bbb1a0948
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 027236afb5a77e950083f254a154c491d6abc6ac
+ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521032"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341195"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>사용자 사서함을 공유 사서함으로 변환
 
@@ -51,48 +51,9 @@ ms.locfileid: "46521032"
 
 4. 사서함이 50 보다 작으면 [사용자의 라이선스](../manage/remove-licenses-from-users.md)를 제거 하 고이에 대 한 비용 지불을 중지할 수 있습니다. 사용자의 계정을 삭제 하지 마세요. 공유 사서함에는 기준 위치가 필요 합니다. 조직에서 나가는 직원의 사서함을 변환 하는 경우에는 추가 단계를 수행 하 여 더 이상 로그인 할 수 없도록 해야 합니다. [Microsoft 365에서 이전 직원 제거를](../add-users/remove-former-employee.md)참조 하세요.
     
-5. 공유 사서함에 대해 알아야 할 다른 모든 작업은 [공유](about-shared-mailboxes.md) 사서함 및 [공유 사서함 만들기](create-a-shared-mailbox.md)를 참조 하세요.
+> [!NOTE]
+> 사서함 변환 중에 사용자 암호를 다시 설정할 필요는 없습니다. 그러나 암호를 다시 설정 하지 않으면 사서함 변환이 끝난 후 **에도 원래 사용자 이름 및 암호가 계속 작동** 합니다.
 
-## <a name="use-the-microsoft-365-admin-center-to-convert-a-mailbox"></a>Microsoft 365 관리 센터를 사용 하 여 사서함 변환
-
-::: moniker range="o365-worldwide"
-
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
-
-2. 해당 사서함을 변환 하려는 사용자의 이름을 선택 합니다.
-
-3. 사용자 암호를 다시 설정 합니다.
-
-   > [!NOTE]
-   > 사서함 변환 중에 사용자 암호를 다시 설정할 필요는 없습니다. 그러나 암호를 다시 설정 하지 않으면 사서함 변환이 끝난 후 **에도 원래 사용자 이름 및 암호가 계속 작동** 합니다.
-
-4. **메일** 탭의 **기타 작업**에서 **공유 사서함으로 변환을**선택 합니다. 
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
-
-2. 해당 사서함을 변환 하려는 사용자를 선택 합니다.
-
-3. 오른쪽 창에서 **메일 설정을**확장 합니다. **기타 설정**옆에 있는 **공유 사서함으로 변환을**선택 합니다.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
-
-2. 해당 사서함을 변환 하려는 사용자를 선택 합니다.
-
-3. 오른쪽 창에서 **메일 설정을**확장 합니다. **기타 설정**옆에 있는 **공유 사서함으로 변환을**선택 합니다.
-
-::: moniker-end
-
-
-사서함이 50 보다 작으면 [사용자의 라이선스를 제거](../manage/remove-licenses-from-users.md)하 고이에 대 한 비용 지불을 중지할 수 있습니다. 사용자의 이전 사서함은 삭제 하지 마세요. 공유 사서함에는 기준 위치가 필요 합니다. 조직에서 나가는 직원의 사서함을 변환 하는 경우에는 추가 단계를 수행 하 여 더 이상 로그인 할 수 없도록 해야 합니다. [Microsoft 365에서 이전 직원 제거를](../add-users/remove-former-employee.md)참조 하세요.
-    
 공유 사서함에 대해 알아야 할 다른 모든 작업은 [공유](about-shared-mailboxes.md) 사서함 및 [공유 사서함 만들기](create-a-shared-mailbox.md)를 참조 하세요.
 
 > [!NOTE]
