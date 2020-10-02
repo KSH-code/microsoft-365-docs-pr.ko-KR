@@ -298,7 +298,7 @@
             - name: Multi-Geo 구성
               href: multi-geo-tenant-configuration.md
             - name: 기본 설정 데이터 위치 구성
-              href: /azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation?toc=/Office365/Enterprise/toc.json&bc=/office365/enterprise/breadcrumb/toc.json
+              href: /azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation?toc=/microsoft-365/Enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
             - name: 검색 구성
               href: configure-search-for-multi-geo.md
         - name: 관리
@@ -395,25 +395,31 @@
           href: microsoft-365-secure-sign-in.md
     - name: 관리
       items:
-        - name: 사용자 계정에 라이선스 할당
+        - name: 사용자 계정
+          items:
+            - name: 사용자 계정
+              href: manage-microsoft-365-accounts.md
+            - name: 동시에 여러 사용자 추가
+              href: add-several-users-at-the-same-time.md
+        - name: 라이선스
           href: assign-licenses-to-user-accounts.md
-        - name: Microsoft 365 도움말 센터
-          href: 'https://docs.microsoft.com/office365/admin/admin-home'
-        - name: 사용자 계정 관리 도구
-          href: manage-microsoft-365-accounts.md
-        - name: 동시에 여러 사용자 추가
-          href: add-several-users-at-the-same-time.md
+        - name: 암호
+          href: manage-microsoft-365-passwords.md
+        - name: 그룹
+          href: manage-microsoft-365-groups.md
+        - name: 거버넌스
+          href: manage-microsoft-365-identity-governance.md
         - name: '사용자의 사서함에서 삭제된 항목 복구 '
           href: recover-deleted-items-in-a-mailbox.md
         - name: 디렉터리 동기화
           items:
-            - name: 디렉터리 동기화 상태 보기
+            - name: 상태 보기
               href: view-directory-synchronization-status.md
-            - name: 디렉터리 동기화 오류 식별
+            - name: 오류 식별
               href: identify-directory-synchronization-errors.md
-            - name: 디렉터리 동기화 문제 해결
+            - name: 문제 해결
               href: fix-problems-with-directory-synchronization.md
-            - name: 디렉터리 동기화 끄기
+            - name: 끄기
               href: turn-off-directory-synchronization.md
 - name: 클라이언트 및 서버 소프트웨어
   items:

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: 그룹 구성원 제거, 전자 메일 주소, 그룹 이름 또는 설명 편집, 그룹 작동 방식 사용자 지정 등 Microsoft 365 그룹을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 26c6c064e454351366c326e665bacdcc9bb855fb
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 29eaa762116498799d4156b58c8f9bf466f04073
+ms.sourcegitcommit: e87015bf29ad15688137c785d93f2c79ca3208f4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307304"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48343274"
 ---
 # <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 그룹 관리
 
@@ -196,10 +196,10 @@ ms.locfileid: "47307304"
 
 [Microsoft 365 그룹에 대 한 게스트 액세스 관리](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 
-[Microsoft 365 그룹을 만들 때 사용할 도메인 선택](choose-domain-to-create-groups.md)
+[Microsoft 365 그룹을 만들 때 사용할 도메인 선택](../../solutions/choose-domain-to-create-groups.md)
 
-[구성원이 Microsoft 365 그룹을 대신 하 여 보내거나 받을 수 있도록 허용](allow-members-to-send-as-or-send-on-behalf-of-group.md)
+[구성원이 Microsoft 365 그룹을 대신 하 여 보내거나 받을 수 있도록 허용](../../solutions/allow-members-to-send-as-or-send-on-behalf-of-group.md)
 
 [Microsoft 365 그룹으로 메일 그룹 업그레이드](../manage/upgrade-distribution-lists.md)
 
-[PowerShell을 사용 하 여 Microsoft 365 그룹 관리](https://docs.microsoft.com/microsoft-365/enterprise/powershell/manage-office-365-groups-with-powershell)
+[PowerShell을 사용 하 여 Microsoft 365 그룹 관리](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell)
