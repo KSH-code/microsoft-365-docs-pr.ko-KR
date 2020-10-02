@@ -6,112 +6,112 @@ manager: serdars
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-search.appverid: ''
-localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
+search.appverid: MET150
+localization_priority: Priority
 description: Project Cortex에서 콘텐츠 이해 설정
-ms.openlocfilehash: 31c6b6dd31b3f1bc47deb8424dd847cc0af6d429
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
-ms.translationtype: MT
+ms.openlocfilehash: 7fb5998729c9f11902f8fdfaffa62b160928077c
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48304783"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321352"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex 설정
 
-관리자는 Microsoft 365 관리 센터를 사용 하 여 설치 및 Microsoft SharePoint Syntex을 설정할 수 있습니다. 
+관리자는 Microsoft 365 관리 센터를 사용하여 [Microsoft SharePoint Syntex](document-understanding-overview.md)를 설정할 수 있습니다. 
 
-시작 하기 전에 다음 사항을 고려 하십시오.
+시작하기 전에 다음을 고려해야 합니다.
 
-- 양식 처리를 사용 하도록 설정할 SharePoint 사이트 사이트를 모두 또는 선택 하 시겠습니까?
-- 콘텐츠 센터의 이름과 기본 사이트 관리자를 선택 합니다.
+- 양식 처리를 활성화할 SharePoint 사이트는 무엇입니까? 전부요, 일부인가요, 아니면 특정 사이트인가요?
+- 기본 컨텐츠 센터의 이름을 무엇으로 지정하시겠어요?
 
-Microsoft 365 관리 센터의 초기 설치 후에 설정을 변경할 수 있습니다.
+Microsoft 365 관리 센터에서 초기 설정 후 설정을 변경할 수 있습니다.
 
-이 문서에서 설명 하는 내용은 Project Cortex 비공개 미리 보기에 대 한 것입니다. [자세한 내용은 Project Cortex를 참조](https://aka.ms/projectcortex)하세요.
+이 기사의 내용은 Project Cortex 비공개 미리 보기에 대한 내용입니다. [Project Cortex](https://aka.ms/projectcortex)에 대해 자세히 알아보세요.
 
-설치 전에 환경에서 콘텐츠 이해를 설정 하 고 구성 하는 최상의 방법을 계획 해야 합니다. 예를 들어 다음 이름에 대 한 고려 사항을 고려해 야 합니다.
+설정하기 전에 사용자 환경에서 컨텐츠 이해도를 설정하고 구성하는 최선의 방법을 계획해야 합니다. 예를 들어 다음 이름을 고려해야 합니다.
 
-- 모든 해당, 일부 또는 선택한 사이트의 양식 처리를 사용 하도록 설정 하려는 SharePoint 사이트
-- 콘텐츠 센터 및 기본 사이트 관리자의 이름
+- 양식 처리를 실행하려는 SharePoint 사이트(모든 사이트, 일부 사이트 또는 선택한 사이트)입니다.
+- 컨텐츠 센터 및 주 사이트 관리자의 이름입니다.
 
 ## <a name="requirements"></a>요구 사항 
 
 > [!NOTE]
-> Microsoft 365 관리 센터에 액세스 하 고 콘텐츠 이해를 설정할 수 있으려면 전역 관리자 또는 SharePoint 관리자 권한이 있어야 합니다.
+> Microsoft 365 관리 센터에 액세스하고 콘텐츠 이해를 설정하려면 글로벌 관리자 또는 SharePoint 관리자 권한이 있어야 합니다.
 
-관리자는 설치 후와 Microsoft 365 관리 센터의 콘텐츠를 이해 하는 콘텐츠에 따라 선택한 설정을 언제 든 지 변경할 수도 있습니다.
+관리자는 Microsoft 365 관리 센터의 콘텐츠 이해 관리 설정 전반에 걸쳐 설정 후 언제든지 선택한 설정을 변경할 수도 있습니다.
 
-## <a name="to-set-up-sharepoint-syntex"></a>SharePoint Syntex를 설정 하려면
+## <a name="to-set-up-sharepoint-syntex"></a>SharePoint Syntex를 설정하려면 다음을 수행합니다.
 
-1. Microsoft 365 관리 센터에서 **설치**를 선택 하 고 **조직의 기술 자료** 섹션을 확인 합니다.
+1. Microsoft 365 관리 센터에서 **설정**을 선택한 다음 **조직 지식** 섹션을 봅니다.
 
-2. **조직의 기술 자료** 섹션에서 **콘텐츠 이해 자동화**를 선택 합니다.<br/>
+2. **조직 지식** 섹션에서 **콘텐츠 이해 자동화**를 선택합니다.<br/>
 
-    ![조직 기술 자료 설정 페이지](../media/content-understanding/admin-org-knowledge-options.png)</br>
+    ![조직 지식 설정 페이지.](../media/content-understanding/admin-org-knowledge-options.png)</br>
 
-3. **SharePoint Syntex 자동화** 페이지에서 **시작** 을 클릭 하 여 설정 프로세스를 안내 합니다.<br/>
+3. **콘텐츠 이해 자동화** 페이지에서 **시작하기**를 클릭하여 설정 프로세스를 살펴봅니다.<br/>
 
     ![설치 시작](../media/content-understanding/admin-content-understanding-get-started.png)</br>
 
-4. 이미지 태그 설정 페이지에서 [이미지 태그](image-tagging.md)지정을 허용할 것인지 여부를 선택 합니다.
+4. 이미지 태그 지정 설정 페이지에서 [이미지 태그 지정](image-tagging.md)을 허용할지 여부를 선택합니다.
 
-    ![이미지 태그 지정 옵션 스크린샷](../media/content-understanding/admin-content-understanding-setup-image-tagging.png)</br>
+    ![이미지 태그 옵션의 스크린샷입니다.](../media/content-understanding/admin-content-understanding-setup-image-tagging.png)</br>
 
-5. **양식 처리 구성** 페이지에서는 사용자가 AI Builder를 사용 하 여 특정 SharePoint 문서 라이브러리에서 양식 처리 모델을 만들 수 있도록 할 것인지 여부를 선택할 수 있습니다. 문서 라이브러리 리본 메뉴에서 사용 가능 하도록 설정 된 SharePoint 문서 라이브러리에 **양식 처리 모델을 만들려면** 이 옵션을 사용할 수 있습니다.
+5. **양식 처리 구성** 페이지에서 사용자가 특정 SharePoint 문서 라이브러리에 양식 처리 모델을 생성할 수 있도록 허용할지 여부를 선택할 수 있습니다. 사용 설정된 해당 Sharepoint 문서 라이브러리 리본에서 **양식 처리 모델을 만들기** 위한 문서 라이브러리 리본의 메뉴 옵션을 사용할 수 있습니다.
  
-     **SharePoint 라이브러리에서 양식 처리 모델을 만드는 옵션을 표시 해야 하는**경우 다음을 선택할 수 있습니다.</br>
-      - **모든 sharepoint 라이브러리** 를 조직의 모든 sharepoint 라이브러리에서 사용할 수 있도록 하는 데 사용 됩니다.</br>
-      - **선택한 사이트의 라이브러리 에서만**사용 가능 하도록 설정할 사이트를 선택 합니다.</br>
+     **양식 처리 모델**을(를) 생성하기 위해 어떤 SharePoint 라이브러리에 표시할 것인지에 대해 다음을 선택할 수 있습니다.</br>
+      - **모든 SharePoint 라이브러리**를 조직의 모든 SharePoint 라이브러리에서 사용할 수 있도록 합니다.</br>
+      - **선택한 사이트의 라이브러리만**. 그런 다음 사용할 수 있도록 만들 사이트를 선택하거나 최대 50개 사이트의 목록을 업로드합니다.</br>
+      - **사이트에서 SharePoint 라이브러리를 사용하지 않으려면 ** SharePoint 라이브러리가 없습니다(설치 후 이 라이브러리를 변경할 수 있습니다).
 
    ![양식 처리 구성](../media/content-understanding/admin-configforms.png)
 
    > [!Note]
-   > SharePoint 문서 라이브러리에서이 설정을 사용 하도록 설정 해도 라이브러리에 적용 된 기존 모델이 나 라이브러리에 문서 이해 모델을 적용 하는 기능에는 영향을 주지 않습니다. 
+   > 사이트가 포함된 후 사이트를 제거해도 해당 사이트의 라이브러리에 적용된 기존 모델이나 문서 이해 모델을 라이브러리에 적용하는 기능에는 영향을 미치지 않습니다. 
     
-6. **콘텐츠 센터 만들기** 페이지에서는 사용자가 문서 이해 모델을 만들고 관리할 수 있는 SharePoint 콘텐츠 센터 사이트를 만들 수 있습니다. </br>
-    a. **사이트 이름**에 콘텐츠 센터 사이트에 지정할 이름을 입력 합니다.</br>
-    b. 사이트 **주소** 에는 사이트 이름으로 선택한 사항을 기반으로 하 여 사이트의 URL이 표시 됩니다. 변경 하려면 **편집**을 클릭 합니다.</br>
+6. **콘텐츠 센터 생성** 페이지에서 사용자가 문서 이해 모델을 생성하고 관리할 수 있는 SharePoint 콘텐츠 센터 사이트를 생성할 수 있습니다. </br>
+    a. **사이트 이름**에 대해 콘텐츠 센터 사이트에 지정할 이름을 입력합니다.</br>
+    b. **사이트 주소**는 사이트 이름에 대해 선택한 항목에 따라 사이트의 URL을 표시합니다. 변경하려는 경우 **편집**을 클릭합니다.</br>
 
       ![콘텐츠 센터 만들기](../media/content-understanding/admin-cu-create-cc.png)</br>
 
     **다음**을 선택합니다.
 
-7. **검토 및 마침** 페이지에서 선택한 설정을 확인 하 고 변경 작업을 선택할 수 있습니다. 선택에 만족 하면 **활성화**를 선택 합니다.
+7. **검토 및 마침** 페이지에서 선택한 설정을 보고 변경하도록 선택할 수 있습니다. 원하는 항목을 선택한 경우 **활성화**를 선택합니다.
 
-8. 확인 페이지에서 **완료**를 클릭 합니다.
+8. 확인 페이지에서 **완료**를 클릭합니다.
 
-9. **콘텐츠 자동화를 이해** 하는 페이지를 반환 합니다. 이 페이지에서 **관리** 를 선택 하 여 구성 설정을 변경할 수 있습니다. 
+9. **콘텐츠 이해 자동화** 페이지로 돌아갑니다. 이 페이지에서 **관리**를 선택하여 구성 설정을 변경할 수 있습니다. 
 
 ## <a name="assign-licenses"></a>라이선스 할당
 
-SharePoint Syntex를 구성한 후에는 양식 처리 및 문서 이해 기능을 사용할 사용자에 대 한 라이선스를 할당 해야 합니다.
+SharePoint Syntex를 구성한 후에는 SharePoint Syntex 기능을 사용할 사용자에게 라이선스를 할당해야 합니다.
 
-라이선스를 할당 하려면:
+라이선스를 할당하려면 다음을 수행합니다.
 
-1. Microsoft 365 관리 센터의 **사용자**에서 **활성 사용자**를 클릭 합니다.
+1. Microsoft 365 관리 센터의 **사용자** 아래에서 **활성 사용자**를 클릭합니다.
 
-2. 라이선스를 부여할 사용자를 선택 하 고 **제품 라이선스 관리**를 클릭 합니다.
+2. 라이선스를 부여할 사용자를 선택하고 **제품 라이선스 관리**를 클릭합니다.
 
-3. **추가 할당**을 선택 합니다.
+3. **추가 할당**을 선택합니다.
 
-4. **지능형 콘텐츠 서비스**를 선택 합니다. **앱**에서 지능형 콘텐츠 서비스와 **지능형 콘텐츠** 서비스 **에 대 한 공통 데이터 서비스가** 모두 선택 되어 있는지 확인 합니다.
+4. **지능형 콘텐츠 서비스**를 선택합니다. **앱**에서 **지능형 콘텐츠 서비스용 일반 데이터 서비스** 및 **지능형 콘텐츠 서비스**가 모두 선택되어 있는지 확인합니다.
 
-    ![Microsoft 365 관리 센터의 SharePoint Syntex 라이선스](../media/content-understanding/sharepoint-syntex-licenses.png)
+    ![SharePoint Syntex 라이선스는 Microsoft 365 관리 센터에서 사용할 수 있습니다.](../media/content-understanding/sharepoint-syntex-licenses.png)
 
-5. **변경 내용 저장**을 클릭합니다.
+5. **변경 사항 저장**를 클릭합니다.
 
-## <a name="ai-builder-credits"></a>AI 건축 제작진
+## <a name="ai-builder-credits"></a>AI Builder 크레딧
 
-조직에 sharepoint Syntex에 대 한 SharePoint Syntex 라이선스가 300 개 이상 있는 경우 100만 AI Builder 크레딧이 할당 됩니다. 라이선스 수가 300 개 미만이 면 양식 처리를 사용 하기 위해 AI 빌더 제작진을 구입 해야 합니다.
+조직에 SharePoint Syntex에 대한 SharePoint Syntex 라이선스가 300개 이상 있는 경우 100만 개의 AI Builder 크레딧이 할당됩니다. 라이선스 수가 300개 미만인 경우 양식 처리를 사용하려면 AI Builder 크레딧을 구입해야 합니다.
 
-[Ai builder 계산기](https://powerapps.microsoft.com/ai-builder-calculator)로 적합 한 ai 작성기 용량을 추정할 수 있습니다.
+[AI Builder 계산기](https://powerapps.microsoft.com/ai-builder-calculator)을(를) 사용하여 사용자에게 적합한 AI Builder 용량을 추정할 수 있습니다.
 
-[Power Platform 관리 센터로](https://admin.powerplatform.microsoft.com/resources/capacity) 이동 하 여 크레딧 및 사용 현황을 확인 합니다.
+[파워 플랫폼 관리 센터](https://admin.powerplatform.microsoft.com/resources/capacity)로 이동하여 크레딧 및 사용량을 확인합니다.
 
 ## <a name="see-also"></a>참고 항목
 
-[양식 처리 모델 개요](https://docs.microsoft.com/ai-builder/form-processing-model-overview)
+[양식 처리 모델](https://docs.microsoft.com/ai-builder/form-processing-model-overview)을(를) 검토합니다.
 
-[단계별: 문서 이해 모델을 작성 하는 방법 (비디오)](https://www.youtube.com/watch?v=DymSHObD-bg)
+[단계별 절차는 다음과 같습니다. 문서 이해 모델(비디오)](https://www.youtube.com/watch?v=DymSHObD-bg)을(를) 작성하는 방법
 
