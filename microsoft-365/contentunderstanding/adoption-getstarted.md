@@ -11,22 +11,22 @@ ms.prod: microsoft-365-enterprise
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 83da50b3772b6adcb7977425bfcaa1b437bc6a68
-ms.sourcegitcommit: bf21a4caae0c01d93281744838f0aa50e1fb2a22
+ms.openlocfilehash: f6bb4f5e09adcb1be6323a5d3d182cc3d1bc6017
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48324298"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337232"
 ---
 # <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Microsoft SharePoint Syntex 채택: 시작
 
-Microsoft SharePoint Syntex에서 사용할 수 있는 지능형 콘텐츠 서비스는 다음과 같은 세 가지 부분으로 생각 하면 됩니다.
+SharePoint Syntex에서 사용할 수 있는 지능형 콘텐츠 서비스는 다음과 같은 세 가지 부분으로 생각 하면 됩니다.
 
 - **콘텐츠 이해:** 콘텐츠의 정보를 분류 및 추출 하 여 기술 자료 검색 및 다시 사용을 위한 메타 데이터를 자동으로 적용 하는 코드 없는 AI 모델을 만듭니다. 자세한 내용은 [콘텐츠 이해](document-understanding-overview.md)를 참고 하세요.
 - **콘텐츠 처리:** 파워 자동화를 사용 하 여 콘텐츠 캡처, 수집 및 분류를 자동화 하 고 콘텐츠 중심 프로세스를 간소화 합니다. [콘텐츠 처리](form-processing-overview.md)에 대해 자세히 알아보세요.
 - **콘텐츠 준수:** 콘텐츠를 제어 및 관리 하 여 Microsoft 정보 보호와의 통합을 통해 보안 및 관리 효율성을 향상 시킵니다.
 
-새로운 AI 서비스와 기능을 사용 하 여 콘텐츠 이해 및 분류 앱을 Microsoft SharePoint Syntex을 사용 하 여 콘텐츠 관리 흐름에 직접 작성할 수 있습니다.
+새 인공 지능 서비스와 기능을 사용 하 여 SharePoint Syntex을 사용 하 여 콘텐츠 관리 흐름에 직접 콘텐츠와 분류 앱을 작성할 수 있습니다.
 
 |수동 입력| 양식 처리 | 문서 이해 |
 |:-------|:--------|:--------|
@@ -34,7 +34,7 @@ Microsoft SharePoint Syntex에서 사용할 수 있는 지능형 콘텐츠 서�
 | 들은   | 미리 작성 된 자동화 된   | 사용자 지정, 보조   | 사용자 지정, 준수 |
 | 작업을 수행 하는 사용자 | 주제별 전문가 (SMEs)의 배울 사항입니다. 계약, 다시 시작, 기타 구조화 되지 않은 문서에서 콘텐츠 형식 및 메타 데이터를 캡처합니다. | SMEs은 덜 복잡 합니다. 구매 주문, 응용 프로그램, 기타 반구조적 및 구조화 된 문서 |
 
-다음 표에서는 Microsoft SharePoint Syntex을 사용할 때 얻게 되는 결과를 설명 합니다.
+다음 표에서는 SharePoint Syntex을 사용할 때 얻을 수 있는 결과에 대해 설명 합니다.
 
 | 양식 처리 | 문서 이해 |
 |:-------|:-------|
@@ -46,14 +46,14 @@ Microsoft SharePoint Syntex에서 사용할 수 있는 지능형 콘텐츠 서�
 
 | 양식 처리 | 문서 이해 |
 |:-------|:-------|
-| 문서 라이브러리에서 만들어짐 | 콘텐츠 센터에서 만들어지고 Microsoft SharePoint Syntex의 일부 |
+| 문서 라이브러리에서 만들어짐 | 콘텐츠 센터에서 만들어지고 SharePoint Syntex의 일부 |
 | AI builder에서 생성 되는 모델 | 네이티브 인터페이스에서 만든 모델 |
 | 반구조적 파일 형식에 사용 됨 | 구조화 되지 않은 파일 형식에 사용 됨 |
 | 설정 가능한 분류자 | 선택적 추출기가 포함 된 Trainable 분류자 |
 | 단일 라이브러리로 제한 | 여러 라이브러리에 적용할 수 있음 |
 | PDF, JPG, PNG 형식, 총 50 MB/500 페이지를 교육 합니다. | 부정적 예를 포함 하 여 5-10 PDF, Office 또는 전자 메일 파일에 대해 교육 합니다. |
 
-Microsoft SharePoint Syntex는 다음과 같은 Microsoft 365 규정 준수 기능을 통합 합니다.
+SharePoint Syntex는 다음과 같은 Microsoft 365 규정 준수 기능을 통합 합니다.
 
 - 문서 보존 기간 또는 외부 이벤트를 기반으로 하는 레코드 정책을 정의 하는 보존 레이블입니다.
 - 민감도 레이블-DLP, 암호화, 공유 및 조건부 액세스 정책을 설정 합니다.
@@ -62,12 +62,12 @@ Microsoft SharePoint Syntex는 다음과 같은 Microsoft 365 규정 준수 기�
 
 ## <a name="identify-pilot-business-scenarios-to-optimize"></a>최적화할 파일럿 비즈니스 시나리오 식별
 
-조직에서 Microsoft SharePoint Syntex 사용을 준비 하려면 먼저 it가 도움이 되는 시나리오를 이해 해야 합니다. 필요한 모델을 결정 하는 이유와 모델이 적용 되는 위치를 기반으로 하 여 조직 구조를 구성 하는 방법을 설명 합니다. 다음은 문서를 이해 하는 것이 조직에 도움이 될 수 있는 몇 가지 시나리오입니다.
+조직에서 SharePoint Syntex 사용을 준비 하려면 먼저 it가 도움이 되는 시나리오를 이해 해야 합니다. 필요한 모델을 결정 하는 이유와 모델이 적용 되는 위치를 기반으로 하 여 조직 구조를 구성 하는 방법을 설명 합니다. 다음은 문서를 이해 하는 것이 조직에 도움이 될 수 있는 몇 가지 시나리오입니다.
 
 - 콘텐츠 처리: 프로세스 계약, 작업 문서 및 기타 양식 등의 문서입니다. 양식을 흡입구로 만들고 필드를 이해 하 고 매핑한 다음 양식을 실행 하 여 데이터를 자동으로 수집 하는 모델을 학습 합니다. 자세한 내용은 [양식 처리 개요](form-processing-overview.md)를 참조 하세요.
 - 송장 분석: 청구서에서 관련 세부 정보를 추출 하 여 정책에 대 한 준수 여부 또는 적절 하 게 처리 중인지 확인 합니다.
 
-Microsoft SharePoint Syntex가 조직에 도움을 주는 방식에 대해 생각해 보십시오.
+SharePoint Syntex가 조직에 도움을 주는 방식에 대해 생각해 보십시오.
 
 - 비즈니스 프로세스 자동화
 - 검색 정확도 향상
@@ -75,7 +75,7 @@ Microsoft SharePoint Syntex가 조직에 도움을 주는 방식에 대해 생�
 
 ### <a name="form-processing-scenario-example"></a>양식 처리 시나리오 예
 
-예를 들어 Microsoft SharePoint Syntex 및 Power 자동화 기능을 사용 하 여 송장을 추적 하 고 모니터링 하는 프로세스를 설정할 수 있습니다.
+예를 들어 SharePoint Syntex 및 Power 자동화 기능을 사용 하 여 송장을 추적 하 고 모니터링 하는 프로세스를 설정할 수 있습니다.
 
 1. 송장 문서를 저장할 라이브러리를 설정 합니다.
 1. 모델을 학습 하 여 문서의 필드를 인식 하도록 합니다.
@@ -85,7 +85,7 @@ Microsoft SharePoint Syntex가 조직에 도움을 주는 방식에 대해 생�
     - 송장 기한이 만료 되었습니다.
     - 송장에서 자동 승인 금액 보다 큰 경우
 
-![Microsoft SharePoint Syntex 및 고급 자동화를 사용 하 여 송장을 추적 및 모니터링](../media/content-understanding/process-invoices-flow.png)
+![SharePoint Syntex 및 Power 자동화를 사용 하 여 송장을 추적 및 모니터링](../media/content-understanding/process-invoices-flow.png)
 
 이 시나리오를 자동화 하는 경우 다음을 수행할 수 있습니다.
 
@@ -102,7 +102,7 @@ Microsoft SharePoint Syntex가 조직에 도움을 주는 방식에 대해 생�
 1. 모델이 완료 되 면 계약을 업로드할 수 있는 라이브러리에 모델을 적용 합니다.
 1. 조직에서 계약에 대해 요구 하는 기간 동안 계약이 라이브러리에 보존 되도록 날짜 필드에 보존 레이블을 적용 합니다.
 
-![Microsoft SharePoint Syntex 및 보존 레이블로 계약 추적 및 모니터링](../media/content-understanding/process-contracts-flow.png)
+![SharePoint Syntex 및 보존 레이블로 계약 추적 및 모니터링](../media/content-understanding/process-contracts-flow.png)
 
 이 시나리오를 자동화 하는 경우 다음을 수행할 수 있습니다.
 
@@ -140,7 +140,7 @@ Microsoft SharePoint Syntex가 조직에 도움을 주는 방식에 대해 생�
 
 ## <a name="strategic-positioning"></a>전략적 포지셔닝
 
-관련자와 협력 하 여 Microsoft SharePoint Syntex 사용 전략에 부합 되는지 확인 합니다. 이 위치 지정에 도움이 되는 다음 리소스를 조사 하 고 제공 합니다.
+관련자와 협력 하 여 SharePoint Syntex 사용 전략에 부합 되는지 확인 합니다. 이 위치 지정에 도움이 되는 다음 리소스를 조사 하 고 제공 합니다.
 
 - 비즈니스 결과:
   - 잠재적 회계 결과
@@ -170,7 +170,7 @@ Microsoft SharePoint Syntex가 조직에 도움을 주는 방식에 대해 생�
 
 ## <a name="readiness-checklist"></a>준비 상태 검사 목록
 
-Microsoft SharePoint Syntex (미리 보기)를 구현 하려면 다음을 수행 해야 합니다.
+SharePoint Syntex 구현을 준비 하려면 다음을 수행 해야 합니다.
 
 ![콘텐츠 이해 준비](../media/content-understanding/cu-adoption-readinesschecklist.png)
 

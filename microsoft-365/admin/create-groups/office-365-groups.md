@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 그룹에 대해 알아봅니다.
-ms.openlocfilehash: 711ab7e7818b266d7cbdbe076e30355d29bc3eeb
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 5d85204687641e74f9a705162df01cebd7eeee26
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307268"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337172"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>관리자를 위한 Microsoft 365 그룹 개요
 
@@ -76,7 +76,7 @@ Microsoft 365 그룹에는 다음과 같은 제한이 적용 됩니다.
 |Groups a user can create|250|
 |관리자가 만들 수 있는 그룹|최대 기본 테 넌 트 제한인 500K|
 |구성원 수|1000 이상이 며 1000만 그룹 대화에 동시에 액세스할 수 있습니다. <br>Outlook에서 매우 큰 그룹의 일정 및 대화에 액세스할 때 지연이 발생할 수 있습니다.|
-|사용자가 구성원으로 속해 있을 수 있는 그룹 수|1,000|
+|사용자가 구성원으로 속해 있을 수 있는 그룹 수|7000|
 |파일 저장소|1 테라바이트 + 10 g b 구독 된 사용자 당 및 구매한 추가 저장소를 사용 합니다. 무제한의 추가 저장소를 구입할 수 있습니다.|
 |그룹 사서함 크기|50GB|
 

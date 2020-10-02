@@ -1,5 +1,5 @@
 ---
-title: 사용자 태그
+title: Office 365 ATP의 사용자 태그
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,15 +14,15 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: 관리자는 Oiffce 365 ATP 계획 2에서 사용자 태그를 사용 하 여 특정 사용자 그룹을 식별 하는 방법을 배울 수 있습니다. 태그 필터링은 태그가 지정 된 사용자를 빠르게 식별 하기 위해 Office 365 ATP에서 경고, 보고서 및 조사를 통해 사용할 수 있습니다.
-ms.openlocfilehash: d47c5c00e3cf0362c44aebc18d11db4bba68a149
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+description: 관리자는 Office 365 ATP 계획 2에서 사용자 태그로 특정 사용자 그룹을 식별 하는 방법을 알 수 있습니다. 태그 필터링은 태그가 지정 된 사용자를 빠르게 식별 하기 위해 Office 365 ATP에서 경고, 보고서 및 조사를 통해 사용할 수 있습니다.
+ms.openlocfilehash: 9522499b3861f0f0e44fcbf09896a5c93feed95d
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48210033"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337256"
 ---
-# <a name="user-tags-in-the-microsoft-security-center"></a>Microsoft 보안 센터의 사용자 태그
+# <a name="user-tags-in-office-365-atp"></a>Office 365 ATP의 사용자 태그
 
 사용자 태그는 [Office 365 ATP (Advanced Threat Protection)](office-365-atp.md)에서 특정 사용자 그룹의 식별자입니다. [우선 순위 계정은](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) 사용자 태그의 유형입니다. 조직에 Office 365 ATP 계획 2 (구독 또는 추가 기능에 포함)가 있는 경우 우선 순위 계정 태그를 사용 하는 것 외에 사용자 지정 사용자 태그를 만들 수 있습니다.
 
@@ -33,11 +33,11 @@ ms.locfileid: "48210033"
 - [위협 방지 상태 보고서](view-email-security-reports.md#threat-protection-status-report)
 - [캠페인 보기](campaigns.md)
 
-이 문서에서는 보안 센터에서 사용자 태그를 구성 하는 방법을 설명 합니다.
+이 문서에서는 보안 & 준수 센터에서 사용자 태그를 구성 하는 방법을 설명 합니다. 사용자 태그를 관리 하기 위한 보안 & 준수 센터에 cmdlet이 없습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- 보안 센터를 엽니다 <https://security.microsoft.com/> . **사용자 태그** 페이지로 직접 이동 하려면를 엽니다 <https://security.microsoft.com/securitysettings/userTags> .
+- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **사용자 태그** 페이지로 직접 이동 하려면를 엽니다 <https://protection.office.com/userTags> .
 
 - 사용자 태그를 만들거나 수정 하거나 제거 하려면 보안 & 준수 센터에서 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
@@ -45,7 +45,7 @@ ms.locfileid: "48210033"
 
 ## <a name="use-the-security-center-to-create-user-tags"></a>보안 센터를 사용 하 여 사용자 태그 만들기
 
-1. 보안 센터에서 **설정** \> **전자 메일 & 공동 작업** \> **사용자 태그로**이동 합니다.
+1. 보안 센터에서 **위협 관리** \> **사용자 태그로**이동 합니다.
 
 2. **사용자 태그** 페이지가 열리면 **태그 만들기**를 클릭 합니다.
 
@@ -79,7 +79,7 @@ ms.locfileid: "48210033"
 
 ## <a name="use-the-security-center-to-view-user-tags"></a>보안 센터를 사용 하 여 사용자 태그 보기
 
-1. 보안 센터에서 **설정** \> **전자 메일 & 공동 작업** \> **사용자 태그로**이동 합니다.
+1. 보안 센터에서 **위협 관리** \> **사용자 태그로**이동 합니다.
 
 2. **사용자 태그** 페이지가 열리면 보려는 사용자 태그를 선택 합니다 (확인란을 클릭 하지 않음).
 
@@ -89,7 +89,7 @@ ms.locfileid: "48210033"
 
 ## <a name="use-the-security-center-to-modify-user-tags"></a>보안 센터를 사용 하 여 사용자 태그 수정
 
-1. 보안 센터에서 **설정** \> **전자 메일 & 공동 작업** \> **사용자 태그로**이동 합니다.
+1. 보안 센터에서 **위협 관리** \> **사용자 태그로**이동 합니다.
 
 2. **사용자 태그** 페이지가 열리면 보려는 사용자 태그를 선택 하 고 **태그 편집**을 클릭 합니다.
 
@@ -101,6 +101,6 @@ ms.locfileid: "48210033"
 
 **참고**: 기본 제공 **우선 순위 계정** 태그는 제거할 수 없습니다.
 
-1. 보안 센터에서 **설정** \> **전자 메일 & 공동 작업** \> **사용자 태그로**이동 합니다.
+1. 보안 센터에서 **위협 관리** \> **사용자 태그로**이동 합니다.
 
 2. **사용자 태그** 페이지가 열리면 제거할 사용자 태그를 선택 하 고 **태그 삭제**를 클릭 한 다음 표시 되는 경고에서 **예, 제거** 를 선택 합니다.

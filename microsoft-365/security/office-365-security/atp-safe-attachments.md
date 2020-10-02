@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - seo-marvel-apr2020
 description: 관리자는 Office 365의 ATP (Advanced Threat Protection)에서 안전한 첨부 파일 기능에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 6ff356f34f3e44752b5ad7f5fa433a8c72cd5083
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: c3dd64ce6f1d50cf30dfcc33f17021904791912c
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326534"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337208"
 ---
 # <a name="safe-attachments-in-office-365-atp"></a>Office 365 ATP의 안전한 첨부 파일
 
@@ -108,9 +108,7 @@ ms.locfileid: "48326534"
 
 - 전달 된 받는 사람이 안전한 첨부 파일 정책으로 보호 되지 않는 경우 메시지와 첨부 파일은 안전한 첨부 파일 또는 첨부 파일 자리 표시자 없이 배달 됩니다.
 
-## <a name="scenarios-where-safe-attachments-doesnt-scan-messages"></a>안전한 첨부 파일이 메시지를 검사 하지 않는 경우
-
-안전한 첨부 파일이 메시지를 검색할 수 없는 시나리오는 다음과 같습니다.
+동적 배달이 메시지의 첨부 파일을 바꿀 수 없는 경우가 있습니다. 이러한 시나리오는 다음과 같습니다.
 
 - 공용 폴더의 메시지
 
@@ -126,7 +124,7 @@ ms.locfileid: "48326534"
 
 - [S/MIME)](s-mime-for-message-signing-and-encryption.md) 암호화 된 메시지
 
-- 안전한 첨부 파일 정책에서 동적 배달 작업을 구성 했지만 수신자가 동적 전달을 지원 하지 않는 경우 (예: 받는 사람이 온-프레미스 Exchange 조직의 사서함 인 경우) 그러나 [office 365 ATP의 안전한 링크](set-up-atp-safe-links-policies.md) 는 url이 포함 된 office 파일 첨부 파일을 검색할 수 있습니다 (안전한 링크 구성 방법에 따라 다름).
+- 안전한 첨부 파일 정책에서 동적 배달 작업을 구성 했지만 수신자가 동적 전달을 지원 하지 않는 경우 (예: 받는 사람이 온-프레미스 Exchange 조직의 사서함 인 경우) 그러나 [office 365 ATP의 안전한 링크](set-up-atp-safe-links-policies.md) 는 [안전한 링크에 대 한 전역 설정이](configure-global-settings-for-safe-links.md) 구성 된 방식에 따라 Url이 포함 된 office 파일 첨부 파일을 검색할 수 있습니다.
 
 ## <a name="submitting-files-for-malware-analysis"></a>맬웨어 분석용 파일 제출
 

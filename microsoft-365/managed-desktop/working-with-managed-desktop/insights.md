@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 6b19c5cd1766c07e106897cefeb495f1b98bb548
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+ms.openlocfilehash: b3ed56dd3e669dbd5a2c3f09d87dfd87fe680aff
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104391"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337184"
 ---
 # <a name="work-with-insights"></a>인사이트를 활용한 작업
 
@@ -31,9 +31,9 @@ Microsoft Managed Desktop은 테 넌 트의 관리자가 사용 하 여 다양 �
 - 장치에 대 한 보안 업데이트의 현재 상태는 무엇입니까?
 - 장치 중 95%에 최신 보안 업데이트를 적용 하는 데 소요 된 시간이 얼마나 걸립니까?
 
-[Microsoft Endopint 관리자](https://endpoint.microsoft.com/)에서 이러한 보기에 액세스 하려면 홈페이지의 Microsoft Managed Desktop 탭으로 nvaigate **보고서** 영역에서 **세부 정보 보기** 를 선택 합니다.
+[Microsoft Endpoint Manager](https://endpoint.microsoft.com/)에서 이러한 보기에 액세스 하려면 홈 페이지의 Microsoft Managed Desktop 탭으로 이동 하 여 **보고서** 영역에서 **세부 정보 보기** 를 선택 합니다.
 
-<!--Update picture to show in MEM [Admin center with Reports area in the upper right including the device reports card and the "view details" link.](../../media/insights_overview.png)-->!
+<!--Update picture to show in MEM [Admin center with Reports area in the upper right including the device reports card and the "view details" link.](../../media/insights_overview.png)-->
 
 
 ## <a name="usage-insights"></a>사용 현황 정보 활용
@@ -54,7 +54,6 @@ Microsoft Managed Desktop은 테 넌 트의 관리자가 사용 하 여 다양 �
 자세한 내용은 [배터리 정보](battery-insights.md)를 확인 하세요.
 
 ## <a name="windows-security-update-insights"></a>Windows 보안 업데이트 정보 활용
-
-이 보기에는 Microsoft Managed Desktop 장치에 대 한 보안 업데이트 상태에 대 한 정보가 표시 됩니다. 이 정보를 보려면 **Windows 보안 udates** 탭을 선택 합니다.
+이 보기에는 Microsoft Managed Desktop 장치에 대 한 보안 업데이트 상태에 대 한 정보가 표시 됩니다. 이 정보를 보려면 **Windows 보안 업데이트** 탭을 선택 합니다.
 
 자세한 내용은 [Security update insights](security-update-insights.md)를 확인 하세요.
