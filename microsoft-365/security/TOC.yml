@@ -439,8 +439,6 @@
               href: ./office-365-security/reports-and-insights-in-security-and-compliance.md
             - name: 보안 대시보드 개요
               href: ./office-365-security/security-dashboard.md
-            - name: 악성 파일에 대한 정보 보기
-              href: ./office-365-security/malicious-files-detected-in-spo-odb-or-teams.md
         - name: Office 365 Advanced Threat Protection
           href: ./office-365-security/office-365-atp.md
           items:
@@ -452,19 +450,23 @@
               items:
                 - name: 전역 관리자 설정 작업
                   items:
-                    - name: ATP 안전한 링크 정책 설정
-                      href: ./office-365-security/set-up-atp-safe-links-policies.md
-                    - name: ATP 안전한 첨부 파일 정책 설정
+                    - name: Office 365 ATP에서 안전한 첨부 파일 정책 설정
                       href: ./office-365-security/set-up-atp-safe-attachments-policies.md
-                    - name: 사용자 지정 "재작성 금지" URL 목록 설정
-                      href: ./office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp.md
-                    - name: 차단된 사용자 지정 URL 목록 설정
-                      href: ./office-365-security/set-up-a-custom-blocked-urls-list-atp.md
+                    - name: Office 365 ATP에서 안전한 링크 정책 설정
+                      href: ./office-365-security/set-up-atp-safe-links-policies.md
+                    - name: Office 365 ATP에서 안전한 링크에 대한 전역 설정 구성
+                      href: ./office-365-security/configure-global-settings-for-safe-links.md
                 - name: 역할 관리자 설정 작업
                   items:
                     - name: 'SharePoint, OneDrive 및 Microsoft Teams의 ATP 켜기'
                       href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
-            - name: 캠페인 보기
+            - name: Office 365 ATP의 안전한 첨부 파일
+              href: ./office-365-security/atp-safe-attachments.md
+            - name: 'SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP'
+              href: ./office-365-security/atp-for-spo-odb-and-teams.md
+            - name: Office 365 ATP의 안전한 링크
+              href: ./office-365-security/atp-safe-links.md
+            - name: Office 365 ATP의 캠페인보기
               href: ./office-365-security/campaigns.md
             - name: 자동화된 조사 및 응답
               items:
@@ -490,8 +492,6 @@
               href: ./office-365-security/view-reports-for-atp.md
             - name: 위협 분석을 통해 최신 공격 이해하기
               href: ./mtp/latest-attack-campaigns.md
-            - name: ATP 안전한 링크 경고 페이지의 의미
-              href: ./office-365-security/atp-safe-links-warning-pages.md
             - name: 위협 트래커 사용
               href: ./office-365-security/threat-trackers.md
             - name: Office 365 ATP의 공격 시뮬레이터
@@ -515,14 +515,6 @@
               items:
                 - name: 자동화된 조사 및 대응이 작동하는 방식
                   href: ./office-365-security/automated-investigation-response-office.md
-                - name: ATP 안전한 링크가 작동하는 방식
-                  href: ./office-365-security/how-atp-safe-links-works.md
-                - name: ATP 안전한 첨부 정책의 작동 방식
-                  href: ./office-365-security/how-atp-safe-attachments-works.md
-                - name: 동적 배달 및 미리 보기 세부 정보
-                  href: ./office-365-security/dynamic-delivery-and-previewing.md
-                - name: 'SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP'
-                  href: ./office-365-security/atp-for-spo-odb-and-teams.md
                 - name: 위협 조사 및 응답이 작동하는 방식
                   href: ./office-365-security/office-365-ti.md
         - name: 보안 사고 관리
