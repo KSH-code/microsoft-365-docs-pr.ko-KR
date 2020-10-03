@@ -13,18 +13,20 @@ search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
-- M365-security-compliance
+- m365-security-compliance
+- m365solution-insiderrisk
+- m365initiative-compliance
 ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: ''
 description: 이 문서를 사용 하 여 Office 365에서 권한이 부여 된 액세스 관리를 사용 하도록 설정 하 고 구성 하는 방법을 자세히 알아보세요.
-ms.openlocfilehash: 7b3ac9dbc065bcbbdf48e805a3975886a894c645
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: d75a8944cdacb6df2d6ee6570c0ce327d0e7ae00
+ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545998"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341206"
 ---
 # <a name="get-started-with-privileged-access-management"></a>권한이 부여된 액세스 관리 시작
 

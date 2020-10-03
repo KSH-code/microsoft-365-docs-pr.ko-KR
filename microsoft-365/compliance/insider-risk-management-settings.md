@@ -11,13 +11,16 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: m365-security-compliance
-ms.openlocfilehash: 8c56b7b597ea76c74412f49afa896a0d2f1b69a1
-ms.sourcegitcommit: 4ee683c18442386f6fc5c76ffabfad2c28b81d42
+ms.collection:
+- m365-security-compliance
+- m365solution-insiderrisk
+- m365initiative-compliance
+ms.openlocfilehash: 5a1bd06e76564750c7b080182ac8ab93fc8d60de
+ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48214907"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341226"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>참가자 위험 관리 설정 시작
 
@@ -173,7 +176,7 @@ Api를 사용 하 여 참가자 위험 알림 정보를 검토 하려면 다음�
 |:------------------|:----------------|
 | AlertType | 경고 유형이 *Custom*입니다.  |
 | Alertid로 변경 | 경고의 GUID입니다. 참가자 위험 관리 알림은 변경 가능 합니다. 경고 상태가 변경 됨에 따라 같은 Alertid로 변경의 새 로그가 생성 됩니다. 이 Alertid로 변경를 사용 하 여 경고에 대 한 업데이트를 연관 시킬 수 있습니다. |
-| Category | 경고의 범주는 *InsiderRiskManagement*입니다. 이 범주를 사용 하 여 다른 보안 & 준수 알림과의 알림을 구별할 수 있습니다. |
+| 범주 | 경고의 범주는 *InsiderRiskManagement*입니다. 이 범주를 사용 하 여 다른 보안 & 준수 알림과의 알림을 구별할 수 있습니다. |
 | 설명 | 경고에 대 한 기본 설명입니다. 값은 *새 알림* (경고가 생성 될 때 기록 됨) 및 *경고가 업데이트* 됨 (경고 업데이트가 있을 때 기록 됨)입니다. Alertid로 변경을 사용 하 여 경고에 대 한 업데이트를 연관 시킬 수 있습니다. |
 | 데이터 | 경고 데이터에는 사용자가 정책에 트리거된 경우 고유한 사용자 ID, 사용자 계정 이름 및 UTC (날짜 및 시간)가 포함 됩니다. |
 | 이름 | 알림을 생성 한 참가자 위험 관리 정책의 정책 이름입니다. |

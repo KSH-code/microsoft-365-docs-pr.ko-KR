@@ -14,16 +14,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
-- M365-security-compliance
+- m365-security-compliance
+- m365solution-insiderrisk
+- m365initiative-compliance
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 361e20129e67832c21631ebf1dbf0031319489ed
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 262cb34bbe7f2923ecf8dce88208c70ba0b5b7f7
+ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289119"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341415"
 ---
 # <a name="get-started-with-communication-compliance"></a>커뮤니케이션 규정 준수 시작
 
@@ -133,7 +135,7 @@ ms.locfileid: "47289119"
 Exchange 온-프레미스 배포 또는 외부 전자 메일 공급자가 있는 조직이 고 사용자에 대해 Microsoft 팀 채팅을 모니터링 하려는 경우에는 온-프레미스 또는 외부 사서함을 사용 하 여 모니터링할 사용자에 대 한 메일 그룹을 만들어야 합니다. 이 단계 후반에는 정책 마법사에서이 메일 그룹을 **감독 된 사용자 및 그룹** 으로 할당 합니다.
 
 >[!IMPORTANT]
->조직이 보안 & 준수 센터의 그래픽 사용자 인터페이스를 사용 하 여 온-프레미스 사용자에 대 한 팀 채팅 데이터를 검색할 수 있도록 하려면 Microsoft Support에 대 한 요청을 파일 해야 합니다. 자세한 내용은 [온-프레미스 사용자를 위해 클라우드 기반 사서함 검색](search-cloud-based-mailboxes-for-on-premises-users.md)을 참조 하세요.
+>조직에서 보안 및 준수 센터의 그래픽 사용자 인터페이스를 사용하여 온-프레미스 사용자의 Teams 채팅 데이터를 검색할 수 있도록 하려면 Microsoft 지원에 요청을 제출해야 합니다. 자세한 내용은 [온-프레미스 사용자를 위해 클라우드 기반 사서함 검색](search-cloud-based-mailboxes-for-on-premises-users.md)을 참조 하세요.
 
 그룹을 설정 하는 방법에 대 한 자세한 내용은 다음을 참조 하십시오.
 

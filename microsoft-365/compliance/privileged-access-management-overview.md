@@ -13,18 +13,20 @@ search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
-- M365-security-compliance
+- m365-security-compliance
+- m365solution-insiderrisk
+- m365initiative-compliance
 ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: ''
 description: 이 문서에서는 Faq (질문과 대답)에 대 한 답변을 포함 하 여 Microsoft 365의 권한이 부여 된 액세스 관리에 대 한 개요를 제공 합니다.
-ms.openlocfilehash: eb5fe5320c061d40f0882f93b66afa3cad4fa0fa
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: a1bcf1fbe767b4657be8a8ebcc8bf7b101c498d8
+ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036041"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341236"
 ---
 # <a name="privileged-access-management"></a>권한이 부여된 액세스 관리
 
@@ -50,13 +52,13 @@ ms.locfileid: "44036041"
 
 ### <a name="step-1-configure-a-privileged-access-policy"></a>1 단계: 권한이 부여 된 액세스 정책 구성
 
-[Microsoft 365 관리 센터](https://admin.microsoft.com) 또는 Exchange 관리 PowerShell을 사용 하 여 권한 있는 액세스 정책을 구성 하는 경우 정책 및 권한 있는 액세스 기능 프로세스와 Microsoft 365 기판의 정책 특성을 정의 합니다. 보안 &amp; 및 준수 센터에 작업이 기록 됩니다. 이제 정책이 사용 하도록 설정 되어 있으며 승인 된 승인을 요청을 처리할 준비가 되었습니다.
+[Microsoft 365 관리 센터](https://admin.microsoft.com) 또는 Exchange 관리 PowerShell을 사용 하 여 권한 있는 액세스 정책을 구성 하는 경우 정책 및 권한 있는 액세스 기능 프로세스와 Microsoft 365 기판의 정책 특성을 정의 합니다. 보안 및 준수 센터에 작업이 기록 됩니다 &amp; . 이제 정책이 사용 하도록 설정 되어 있으며 승인 된 승인을 요청을 처리할 준비가 되었습니다.
 
 ![1 단계: 정책 만들기](../media/pam-step1-policy-creation.jpg)
 
 ### <a name="step-2-access-request"></a>2 단계: 액세스 요청
 
-[Microsoft 365 관리 센터](https://admin.microsoft.com) 또는 Exchange 관리 PowerShell을 사용 하 여 사용자는 상승 되거나 권한 있는 작업에 대 한 액세스를 요청할 수 있습니다. 권한이 부여 된 액세스 기능은 구성 된 권한 액세스 정책에 대 한 처리를 위해 Microsoft 365 기판에 요청을 전송 하 고 보안 &amp; 준수 센터 로그에 해당 활동을 기록 합니다.
+[Microsoft 365 관리 센터](https://admin.microsoft.com) 또는 Exchange 관리 PowerShell을 사용 하 여 사용자는 상승 되거나 권한 있는 작업에 대 한 액세스를 요청할 수 있습니다. 권한이 부여 된 액세스 기능은 구성 된 권한 액세스 정책에 대 한 처리를 위해 Microsoft 365 기판에 요청을 전송 하 고 보안 준수 센터 로그에 해당 활동을 기록 합니다 &amp; .
 
 ![2 단계: 액세스 요청](../media/pam-step2-access-request.jpg)
 
@@ -68,11 +70,11 @@ ms.locfileid: "44036041"
 
 ### <a name="step-4-access-processing"></a>4 단계: 액세스 처리
 
-승인 된 요청의 경우 Exchange 관리 runspace가 작업을 처리 합니다. 승인 된 액세스 정책을 확인 하 고 Microsoft 365 기판에서 처리 합니다. 작업에 대 한 모든 활동은 보안 &amp; 및 준수 센터에 기록 됩니다.
+승인 된 요청의 경우 Exchange 관리 runspace가 작업을 처리 합니다. 승인 된 액세스 정책을 확인 하 고 Microsoft 365 기판에서 처리 합니다. 작업에 대 한 모든 활동은 보안 및 준수 센터에 기록 됩니다 &amp; .
 
 ![4 단계: 액세스 처리](../media/pam-step4-access-processing.jpg)
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 ### <a name="what-skus-can-use-privileged-access-in-office-365"></a>Office 365에서 어떤 Sku가 권한 있는 액세스를 사용할 수 있나요?
 
