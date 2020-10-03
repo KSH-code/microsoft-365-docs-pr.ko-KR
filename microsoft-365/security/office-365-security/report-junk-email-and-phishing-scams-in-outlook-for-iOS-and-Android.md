@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -16,25 +16,25 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: 관리자는 iOS 및 Android 용 Outlook에서 기본적으로 제공 되는 정크 메일, 정크 메일이 아닌 경우 및 피싱 메일로 보고 옵션에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: fef519f3fdd5cf46d383c41ad227ab0cd3ed4390
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 23668a762301ee442bc805e62863079ee7ae6076
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201536"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48350858"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a>Exchange Online에서 iOS 및 Android 용 Outlook에서 정크 및 피싱 전자 메일 보고
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Exchange Online 또는 온-프레미스 사서함의 사서함을 포함 하는 Microsoft 365 조직에서 [하이브리드 최신 인증](https://docs.microsoft.com/microsoft-365/enterprise/hybrid-modern-auth-overview?view=o365-worldwide)을 사용 하는 경우 Outlook에서 IOS 및 Android 용 기본 제공 보고 옵션을 사용 하 여 가양성 (스팸으로 표시 된 전자 메일), 거짓 네거티브 (잘못 된 전자 메일 허용), EOP (Exchange Online Protection)로의 피싱 메시지를 제출할 수 있습니다.
+Exchange Online 또는 온-프레미스 사서함의 사서함을 포함 하는 Microsoft 365 조직에서 [하이브리드 최신 인증](https://docs.microsoft.com/microsoft-365/enterprise/hybrid-modern-auth-overview)을 사용 하는 경우 Outlook에서 IOS 및 Android 용 기본 제공 보고 옵션을 사용 하 여 가양성 (스팸으로 표시 된 전자 메일), 거짓 네거티브 (잘못 된 전자 메일 허용), EOP (Exchange Online Protection)로의 피싱 메시지를 제출할 수 있습니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작 하기 전에 알아야 할 사항
 
 - Exchange Online 사서함을 사용 하는 조직의 관리자 인 경우 보안 & 준수 센터에서 전송 포털을 사용 하는 것이 좋습니다. 자세한 내용은 [관리자 제출을 사용 하 여 의심 스러운 스팸, 피싱, url 및 파일을 Microsoft에 제출](admin-submission.md)합니다 .를 참조 하세요.
 
-- 보고 된 메시지가 사용자가 지정한 사서함으로 복사 되거나 리디렉션되도록 구성할 수 있습니다. 자세한 내용은 [Exchange Online의 스팸 및 피싱 메시지에 대 한 사용자 제출을 위한 사서함 지정](user-submission.md)을 참조 하세요.
+- 보고 된 메시지가 사용자가 지정한 사서함으로 복사 되거나 리디렉션되도록 구성할 수 있습니다. 자세한 내용은 [사용자 전송 정책을](user-submission.md)참조 하세요.
 
 - Microsoft에 메시지를 보고 하는 방법에 대 한 자세한 내용은 [microsoft에 메시지 및 파일 보고서](report-junk-email-messages-to-microsoft.md)를 참조 하십시오.
 

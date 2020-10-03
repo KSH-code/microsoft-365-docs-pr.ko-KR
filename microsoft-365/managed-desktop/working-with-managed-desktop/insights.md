@@ -1,6 +1,6 @@
 ---
 title: 인사이트를 활용한 작업
-description: ''
+description: Microsoft Managed Desktop에서 사용할 수 있는 정보에 대 한 개요
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: b3ed56dd3e669dbd5a2c3f09d87dfd87fe680aff
-ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.openlocfilehash: ba91a33da9f4d2187938c27398d5ef7c1cacebcd
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337184"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48350835"
 ---
 # <a name="work-with-insights"></a>인사이트를 활용한 작업
 
@@ -31,9 +31,11 @@ Microsoft Managed Desktop은 테 넌 트의 관리자가 사용 하 여 다양 �
 - 장치에 대 한 보안 업데이트의 현재 상태는 무엇입니까?
 - 장치 중 95%에 최신 보안 업데이트를 적용 하는 데 소요 된 시간이 얼마나 걸립니까?
 
-[Microsoft Endpoint Manager](https://endpoint.microsoft.com/)에서 이러한 보기에 액세스 하려면 홈 페이지의 Microsoft Managed Desktop 탭으로 이동 하 여 **보고서** 영역에서 **세부 정보 보기** 를 선택 합니다.
 
-<!--Update picture to show in MEM [Admin center with Reports area in the upper right including the device reports card and the "view details" link.](../../media/insights_overview.png)-->
+[Microsoft Endpoint Manager](https://endpoint.microsoft.com/)에서 이러한 보기에 액세스 하려면 홈 페이지의 Microsoft Managed Desktop 탭으로 이동 하 여 **보고** 영역에서 **세부 정보 보기** 를 선택 합니다.
+
+
+![왼쪽 아래에 보고 영역이 있고 세부 정보 보기 링크의 관리 센터 기본 페이지](../../media/insights-main.png)
 
 
 ## <a name="usage-insights"></a>사용 현황 정보 활용

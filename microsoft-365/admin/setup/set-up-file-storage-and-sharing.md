@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -28,12 +28,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: 파일 저장 및 공유를 위해 OneDrive 및 팀 사이트를 사용 하는 방법을 알아봅니다.
-ms.openlocfilehash: b92bbb96a2d5d2ccbb35eff430a810f92fd07892
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: e6722dc7460a63878ba7fc6a15f6c384ca37e136
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44778940"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48350364"
 ---
 # <a name="set-up-file-storage-and-sharing"></a>파일 저장 및 공유 설정
 
@@ -43,7 +43,7 @@ Microsoft 365에서 파일을 저장할 위치에 대 한 간단한 비디오를
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FTHX] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
 
 ## <a name="where-you-can-store-documents-in-microsoft-365"></a>Microsoft 365에서 문서를 저장할 수 있는 위치
 

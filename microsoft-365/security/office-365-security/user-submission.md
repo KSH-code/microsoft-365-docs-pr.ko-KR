@@ -1,5 +1,5 @@
 ---
-title: 스팸 및 피싱 메시지의 사용자 제출을 위한 사서함 지정
+title: 사용자 전송 정책
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,14 +15,14 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 관리자는 사용자가 보고 하는 스팸 및 피싱 전자 메일을 수집 하도록 사서함을 구성 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 6ae534278f4471f98f2d3bdd2318c687cea9f1d3
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: bffa70184a9307869ce6170ba1ea05ae3f084ccf
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195810"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48350284"
 ---
-# <a name="specify-a-mailbox-for-user-submissions-of-spam-and-phishing-messages-in-exchange-online"></a>Exchange Online에서 스팸 및 피싱 메시지의 사용자 제출을 위한 사서함 지정
+# <a name="user-submissions-policies"></a>사용자 전송 정책
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -41,6 +41,24 @@ Exchange Online 사서함이 있는 Microsoft 365 조 직에서는 사용자가 
 또한 타사 메시지 보고 도구를 구성 하 여 지정한 사서함에 메시지를 전달할 수 있습니다.
 
 사용자가 보고 한 메시지를 Microsoft에 직접 배포 하는 대신 사용자 지정 사서함에 전달 하면 관리자가 [관리 제출을](admin-submission.md)사용 하 여 메시지를 선택적으로 수동으로 microsoft에 보고할 수 있습니다.
+
+## <a name="custom-mailbox-prerequisites"></a>사용자 지정 사서함 필수 구성 요소
+
+다음 문서를 사용 하 여 사용자가 보고 한 메시지를 사용자 지정 사서함으로 이동 하는 데 필요한 필수 구성 요소를 구성 합니다.
+
+- Exchange 메일 흐름 규칙을 만들어 스팸 지 수 수준을 설정 하는 방법으로 스팸 필터링을 건너뜁니다. EAC를 사용 하 여 SCL을 **-1**로 설정 하 [는 메시지의 SCL을 설정 하는 메일 흐름 규칙 만들기를](https://docs.microsoft.com/microsoft-365/security/office-365-security/use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages?view=o365-worldwide#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message) 참조 하십시오.
+
+- 맬웨어에 대 한 첨부 파일 검색을 해제 합니다. [Set up or edit TO ATP 안전한 첨부 파일 정책을](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide#step-2-set-up-or-edit-an-atp-safe-attachments-policy) 사용 하 여 안전한 첨부 파일 정책 만들기 설정 된 **맬웨어를 검사 하지** 않습니다.
+
+- 메시지에서 URL 검색을 해제 합니다. [모든 또는 특정 전자 메일 받는 사람에 게 적용 되는 ATP 안전한 링크 정책 추가 또는 편집](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-links-policies?view=o365-worldwide#step-3-add-or-edit-atp-safe-links-policies-that-apply-to-all-or-specific-email-recipients) 을 사용 하 여 안전한 링크 정책 만들기 **메시지에서 알 수 없는 잠재적 악성 url에 대 한 작업을 선택** 합니다. **Off**
+
+- 맬웨어 방지 정책을 만들어 맬웨어 제로 시간 자동 삭제를 해제 합니다. [보안 & 준수 센터를 사용 하 여 맬웨어 방지 정책 만들기](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-your-spam-filter-policies?view=o365-worldwide#use-the-security--compliance-center-to-create-anti-spam-policies) 를 참조 하 여 **맬웨어가 있는 맬웨어 자동 삭제** 를 **설정 합니다.**
+
+- 스팸 ZAP 및 피싱 ZAP에 대해 제로 시간 자동 제거 (ZAP)를 사용 하지 않도록 설정 하는 스팸 필터 정책을 만듭니다. 스팸 방지 정책을 만들고 스팸 ZAP 및 피싱 **ZAP에 대 한 확인란의** 선택을 취소 [하려면 보안 & 준수 센터 사용을](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-your-spam-filter-policies?view=o365-worldwide#use-the-security--compliance-center-to-create-anti-spam-policies) 참조 하십시오.
+
+- 정크 메일 규칙을 사용 하지 않도록 설정 합니다. 정크 메일 규칙을 사용 하지 않도록 설정 하려면 [Exchange Online 사서함에서 정크 메일 구성 설정을](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes?view=o365-worldwide) 사용 합니다. 사용 하지 않도록 설정 되 면 EOP에서 스팸 필터링 결과 동작 **메시지를 정크 메일** 폴더로 이동 하거나 사서함에서 수신 허용 목록 모음으로 이동 하 여 정크 메일 폴더로 메시지를 이동할 수 없습니다.
+
+사서함이 해당 하는 모든 필수 구성 요소를 충족 하는지 확인 한 후에는 [보안 & 준수 센터를 사용 하 여이 문서의 사용자 전송 사서함을 구성](#use-the-security--compliance-center-to-configure-the-user-submissions-mailbox) 합니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
