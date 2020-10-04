@@ -3,18 +3,19 @@ title: Microsoft SharePoint Syntex 소개
 ms.author: efrene
 author: efrene
 manager: pamgreen
+ms.reviewer: ssquires, toresing
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에 대한 리소스를 찾는 방법을 알아봅니다.
-ms.openlocfilehash: 988312d57c0fa6bb0a07e074114daf46d81d2166
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: 31559b0d4e56733e744eacd87c8e9b3529c58414
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48334036"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338601"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex 소개
 
@@ -30,7 +31,7 @@ Microsoft SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이
 
 이 섹션의 리소스는 SharePoint Syntex에서 사용하는 두 가지 방법(양식 처리 및 문서 이해)에 대한 자세한 정보를 확인하는 데 도움이 됩니다.
 
-|**이 정보를 찾고 있는 경우 다음을 수행하세요.**|**이 리소스로 이동하세요.**|
+| 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
 |문서 이해에 대한 자세한 정보|[문서 이해 개요](https://docs.microsoft.com/microsoft-365/contentunderstanding/document-understanding-overview)|
 |양식 처리에 대한 자세한 정보|[양식 처리 개요](https://docs.microsoft.com/microsoft-365/contentunderstanding/form-processing-overview)|
@@ -43,7 +44,7 @@ Microsoft SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이
 
 조직에서 SharePoint Syntex를 사용하고 구현하는 방법에 대해 자세히 알아보고 비즈니스 문제를 해결하는 데 도움을 받으세요. 
 
-|**이 정보를 찾고 있는 경우 다음을 수행하세요.**|**이 리소스로 이동하세요.**|
+| 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
 |SharePoint Syntex를 사용하기 위한 계획을 시작하는 방법을 알아봅니다. |[SharePoint Syntex 채택: 시작](https://docs.microsoft.com/microsoft-365/contentunderstanding/adoption-getstarted)<br><br>|  
 
@@ -51,7 +52,7 @@ Microsoft SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이
 
 이 섹션의 리소스는 조직의 관리자가 Microsoft 365 환경에서 Microsoft SharePoint Syntex를 설정하고 구성하는 데 도움이 됩니다.
 
-|**이 정보를 찾고 있는 경우 다음을 수행하세요.**|**이 리소스로 이동하세요.**|
+| 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
 |SharePoint Syntex 설정 및 구성|[Microsoft SharePoint Syntex 설정](https://docs.microsoft.com/microsoft-365/contentunderstanding/set-up-content-understanding)|
 |이미지 태그 지정 및 사용 해제 방법에 대 한 자세한 정보|[SharePoint Syntex에서 이미지 태그 지정](https://docs.microsoft.com/microsoft-365/contentunderstanding/image-tagging)|
@@ -60,7 +61,7 @@ Microsoft SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이
 
 이 섹션의 리소스를 통해 사용자는 문서 이해 및 양식 처리 모델을 만들고 구성하는 방법에 대해 도움을 받습니다.
 
-|**이 정보를 찾고 있는 경우 다음을 수행하세요.**|**이 리소스로 이동하세요.**|
+| 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
 |모델을 사용하여 작업하는 방법 알아보기|[콘텐츠 센터 만들기](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-content-center)<br><br>[분류자 만들기](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-classifier)<br><br>[추출기 만들기](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-an-extractor)<br><br>[양식 처리 모델 만들기](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-form-processing-model)<br><br>[설명 유형](https://docs.microsoft.com/microsoft-365/contentunderstanding/form-processing-overview)<br><br>[문서 이해 모델 적용](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-model)<br><br>[샘플 모델을 통해 문서 이해 모델에 대해 알아보기](https://docs.microsoft.com/microsoft-365/contentunderstanding/learn-about-document-understanding-models-through-the-sample-model)<br><br>|
 |모델에 보존 레이블 적용|[문서 이해와 양식 처리 모델의 차이](https://docs.microsoft.com/microsoft-365/contentunderstanding/difference-between-document-understanding-and-form-processing-model)|
@@ -71,7 +72,7 @@ Microsoft SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이
 
 SharePoint Syntex 라이선스는 사용자에게 Microsoft 365 환경에서 추가 기능을 제공하는 프리미엄 콘텐츠 서비스를 제공합니다. 이 섹션의 리소스는 이러한 기능과 해당 기능을 사용하는 방법에 대한 자세한 정보를 제공합니다.
 
-|**이 정보를 찾고 있는 경우 다음을 수행하세요.**|**이 리소스로 이동하세요.**|
+| 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
 |간단한 지식 조직 시스템 기반 서식을 사용하여 데이터 집합을 가져오는 방법에 대한 자세한 정보|[SKOS 기반 형식 사용하여 용어 집합 가져오기](https://docs.microsoft.com/microsoft-365/contentunderstanding/import-term-set-skos)<br><br>[SharePoint 분류에 대한 SKOS 형식 참조](https://docs.microsoft.com/microsoft-365/contentunderstanding/skos-format-reference)<br><br>|
 |SharePoint 라이브러리 및 목록에서 콘텐츠 형식을 더욱 일관되게 사용하는 방법을 알아봅니다.|[콘텐츠 형식을 허브로 푸시](https://docs.microsoft.com/microsoft-365/contentunderstanding/push-content-type-to-hub)|
