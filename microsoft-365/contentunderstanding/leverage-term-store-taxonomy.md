@@ -1,56 +1,61 @@
 ---
-title: 추출기를 만들 때 용어 저장소 분류 활용
+title: 추출자를 만들 때 용어 저장소 분류 활용
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.date: 10/1/2020
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
-description: Microsoft SharePoint Syntex의 모델을 이해 하는 문서에서 추출기를 만들 때 용어 저장소 분류법을 활용 합니다.
-ms.openlocfilehash: 94f7a0389d2f06e0f8c1a60a341a02e43dfb2071
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
-ms.translationtype: MT
+localization_priority: Priority
+description: Microsoft SharePoint Syntexdml 문서 이해 모델에서 추출자를 만들 때 용어 저장소 분류를 활용 하세요.
+ms.openlocfilehash: f7219f6facc1d29242f7bd52743da92e13de3b89
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48296012"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337280"
 ---
-# <a name="leverage-term-store-taxonomy-when-creating-an-extractor"></a>추출기를 만들 때 용어 저장소 분류 활용
-
-
-</br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4CSoL]
+# <a name="leverage-term-store-taxonomy-when-creating-an-extractor"></a>추출자를 만들 때 용어 저장소 분류 활용
 
 </br>
 
-문서에 SharePoint Syntex의 모델을 이해 하는 추출기를 만들 때 [관리 되는 메타 데이터 서비스](https://docs.microsoft.com/sharepoint/managed-metadata#terms) 용어 저장소 분류를 활용 하 여 추출한 데이터에 대 한 기본 용어를 표시할 수 있습니다.  
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GpJJ]  
 
-예를 들어 모델은 문서 라이브러리에 업로드 되는 모든 **계약** 문서를 식별 하 고 분류 합니다.  또한 모델은 각 계약에서 **계약 서비스** 값을 추출 하 고이를 라이브러리 보기의 열에 표시 합니다. 계약의 다양 한 계약 서비스 값 중에는 회사에서 더 이상 사용 하지 않고 이름이 바뀐 이전 값이 여러 개 있습니다. 예를 들어 *디자인*, *그래픽*또는 *Topography* 계약 서비스 라는 용어에 대 한 모든 참조를 이제 *Creative*이라고 합니다. 모델이 계약 문서에서 오래 된 용어 중 하나를 추출한 경우 라이브러리 보기에 현재 용어 소재를 표시 하도록 할 수 있습니다. 아래 예제에서는 모델을 교육 하는 동안 해당 샘플 문서에는 오래 된 *디자인*용어가 포함 된 것으로 표시 됩니다.
+</br>
+
+
+Microsoft SharePoint 구문 문서 이해 모델에서 추출자를 만들 때 [관리되는 메타데이터 서비스](https://docs.microsoft.com/sharepoint/managed-metadata#terms) 용어 저장소 분류를 사용하여 추출 하고자 하는 데이터의 기본 용어를 표시 할 수 있습니다.  
+
+예를 들어, 모델은 문서 라이브러리에 업로드 되는 모든 **계약서**를 식별하고 분류합니다.  또한 모델은 각 계약서에서 **계약 서비스** 값을 추출하고 라이브러리 보기의 열에 표시합니다. 계약서의 다양한 계약 서비스에는 회사가 더 이상 사용하지 않고 이름이 변경 된 여러가지 이전 값이 있습니다. 예를 들어 *디자인*, *그래픽* 또는 *지형* 계약 서비스에 대한 모든 참조는 이제 *창의성*이라고 불립니다. 모델이 계약 문서에서 오래 된 용어를 추출할 때 사용자는 라이브러리 보기에서 현재 용어인 창의성을 보기 원합니다. 아래 예제에서 모델 교육을 하는 동안 예시 문서에 *디자인*의 오래된 용어가 포함되어 있는 것이 보입니다.
 
    ![용어 저장소](../media/content-understanding/design.png)</br>
 
 
-## <a name="term-set-synonyms"></a>용어 집합 동의어 
+## <a name="use-a-managed-metadata-column-in-your-extractor"></a>추출기에서 관리되는 메타데이터 열 사용
 
-용어 집합은 SharePoint 관리 센터의 Managed Metadata service 용어 저장소에 구성 됩니다. 아래 예에서 *계약 서비스* [용어 집합](https://docs.microsoft.com/sharepoint/managed-metadata#term-set) 은 *소재*를 비롯 한 여러 용어를 포함 하도록 구성 됩니다.  이에 대 한 세부 정보는 용어에 세 개의 동의어 (*디자인*, *그래픽*및 *Topography*)가 있음을 보여 *줍니다.*
+용어 집합은 SharePoint 관리 센터에서 관리되는 메타데이터 서비스 용어 저장소에 구성 됩니다. 아래 예제에서는 *계약서 서비스* [용어 집합](https://docs.microsoft.com/sharepoint/managed-metadata#term-set)은 *창의성*을 포함하여 몇 가지의 용어를 포함하도록 구성되었습니다.  세부 내역에는 용어에 세 가지의 동의어(*디자인*, *그래픽* 및 *지형*)가 있다고 보여주며 이 동의어는 *창의성*이라고 해석되어야 합니다. 
 
    ![용어 집합](../media/content-understanding/term-store.png)</br>
 
-여기서는이를 설명 하는 방법에 대해 잘 모르는 <합니다.  어떤 작업을 수행 하 여 계약 서비스 열을 추출 하 고 표시 하는 추출기를 만들 때 "표시" 열이 Creative Services에 대해 관리 되는 메타 데이터 용어 집합을 사용 하는 방법은 무엇 인가요? >
+용어 집합에서 동의어를 사용하는데는 몇 가지 이유가 있습니다. 예를 들어, 이름을 지을 때 예전에 사용된 용어, 이름이 바뀐 용어 혹은 조직 부서간에 다르게 사용되는 용어가 있을 수 있습니다.
 
-## <a name="configure-your-document-library-site-column-for-a-managed-metadata-field"></a>관리 되는 메타 데이터 필드에 대 한 문서 라이브러리 사이트 열 구성
+모델에서 추출자를 만들 때 사용 가능한 관리되는 메타 데이터 필드를 선택하도록 하려면 [관리되는 메타 데이터 사이트 칼럼으로 추가](https://support.microsoft.com/office/8fad9e35-a618-4400-b3c7-46f02785d27f)해야 합니다. 사이트 열을 추가한 후 모델에 대한 추출자를 만들 때 선택 가능 합니다.
+
+   ![계약 서비스](../media/content-understanding/contract-services.png)</br>
 
 
-   ![관리 되는 메타 데이터 만들기](../media/content-understanding/creative.png)</br>
+문서 라이브러리에 모델을 적용 한 후 문서가 라이브러리에 업로드 되면 추출자가 동의어 값(*디자인*, *그래픽*, 및 *지형*)을 찾으면 *창의성 서비스* 칼럼이 기본 용어(*창의성*)로 보여집니다.
+
+   ![계약 서비스 열](../media/content-understanding/creative.png)</br>
+
 
 ## <a name="see-also"></a>참고 항목
-[관리 되는 메타 데이터 소개](https://docs.microsoft.com/sharepoint/managed-metadata#terms)</br>
-[추출기 만들기](create-an-extractor.md)</br>
-[관리되는 메타데이터 열 만들기](https://support.microsoft.com/office/create-a-managed-metadata-column-8fad9e35-a618-4400-b3c7-46f02785d27f?redirectSourcePath=%252farticle%252fc2a06717-8105-4aea-890d-3082853ab7b7&ui=en-US&rs=en-US&ad=US)</br>
+[관리되는 메타데이터 소개](https://docs.microsoft.com/sharepoint/managed-metadata#terms)
+
+[추출자 만들기](create-an-extractor.md)
+
+[관리되는 메타데이터 열 만들기](https://support.microsoft.com/office/create-a-managed-metadata-column-8fad9e35-a618-4400-b3c7-46f02785d27f?redirectSourcePath=%252farticle%252fc2a06717-8105-4aea-890d-3082853ab7b7&ui=en-US&rs=en-US&ad=US)
 
 
 
