@@ -10,15 +10,17 @@ audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
-ms.collection: M365-subscription-management
+ms.collection:
+- M365-subscription-management
+- M365initiative-coredeploy
 ms.custom: it-pro
 description: Microsoft 365에 대 한 테 넌 트를 설정 하기 위한 로드맵
-ms.openlocfilehash: 7834e8b7f9ff8a1b33f2f2a7ccc4a499e4da7c69
-ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
+ms.openlocfilehash: e4b2af9143070caa1ebd8fd66ef9f367f85d3bb9
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47775150"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357913"
 ---
 # <a name="tenant-roadmap-for-microsoft-365"></a>Microsoft 365에 대 한 테 넌 트 로드맵
 
@@ -34,7 +36,6 @@ Microsoft 365 테 넌 트를 만들 때이를 특정 지리적 위치에 할당 
 
 - [구독, 라이선스 및 Azure AD (Active Directory) 테 넌 트 이해](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
 - [타사 SSL 인증서 사용 방법 이해](plan-for-third-party-ssl-certificates.md)
-- [Microsoft 365 관리 센터에서 설치 가이드 액세스](setup-guides-for-microsoft-365.md)
 - [Microsoft 365 테 넌 트가 Azure AD services와 통합 되는 방식 이해](integrated-apps-and-azure-ads.md)
 - [클라이언트 앱 지원 계획](microsoft-365-client-support-certificate-based-authentication.md)
 - [하이브리드 최신 인증을 사용 하는 방법 결정](hybrid-modern-auth-overview.md)
@@ -44,7 +45,7 @@ Microsoft 365 테 넌 트를 만들 때이를 특정 지리적 위치에 할당 
 
 ## <a name="deploy"></a>배포
 
-테 넌 트를 배포 하려면 조직의 [DNS 도메인을 추가](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) 합니다.
+테 넌 트를 배포 하려면 조직의 [DNS 도메인을 추가](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) 하 고 [Microsoft 365 관리 센터에서 설치 가이드](setup-guides-for-microsoft-365.md)를 사용 합니다.
 
 ## <a name="tenants-with-multiple-geographic-locations"></a>여러 지리적 위치가 있는 테 넌 트
 

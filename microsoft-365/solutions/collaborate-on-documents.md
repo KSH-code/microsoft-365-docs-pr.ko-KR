@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: 이 문서에서는 SharePoint 및 OneDrive의 문서에서 게스트로 공동 작업 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 98eea8fe9c613aef3e24f9e4bb6746ddc9a527ab
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: 1a7591915efa82f1995ce2789e181dc350cd3784
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46798273"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357785"
 ---
 # <a name="collaborate-with-guests-on-a-document"></a>게스트와 문서에서 공동 작업하기
 
@@ -117,3 +117,5 @@ SharePoint 사이트에 있는 파일 및 폴더를 공유 하는 경우에는 �
 [인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례](best-practices-anonymous-sharing.md)
 
 [게스트와 공유할 때 파일에 실수로 발생하는 노출을 제한](share-limit-accidental-exposure.md)
+
+[Azure AD B2B와의 SharePoint 및 OneDrive 통합](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)

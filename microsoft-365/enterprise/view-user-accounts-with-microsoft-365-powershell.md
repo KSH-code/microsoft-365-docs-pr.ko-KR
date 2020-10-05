@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: bb12f49d-a85d-4f3b-ada2-5c4e33977b10
 description: PowerShell을 사용 하 여 다양 한 방식으로 Microsoft 365 사용자 계정을 보거나, 나열 하거나, 표시 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ea631d12a95ca813ebf9da3286e36d724d51a2f7
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 4dba05ce440ec0d395fda58a12df3e9f751bb469
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46696399"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357901"
 ---
 # <a name="view-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 사용 하 여 Microsoft 365 사용자 계정 보기
 
@@ -99,6 +99,21 @@ Get-AzureADUser -ObjectID BelindaN@litwareinc.onmicosoft.com | Select *
 ```powershell
 Get-AzureADUser -ObjectID <sign-in name of the user account> | Select DisplayName,UserPrincipalName,AccountEnabled
 ```
+
+### <a name="view-account-synchronization-status"></a>계정 동기화 상태 보기
+
+사용자 계정에는 두 개의 원본이 있습니다. Windows Server AD (Active Directory)는 온-프레미스 AD에서 클라우드로, 클라우드에서 직접 만들어진 계정인 Azure AD와 동기화 되는 계정입니다.
+
+```powershell
+Get-AzureADUser | Where {$_.DirSyncEnabled -eq $true}
+```
+이 명령은 PowerShell에서 특성이 **Dirsyncenabled** 인 모든 사용자를 True로 설정 합니다. 이를 사용 하 여 온-프레미스 AD에서 동기화 되는 계정을 가져올 수 있습니다.
+
+
+```powershell
+Get-AzureADUser | Where {$_.DirSyncEnabled -ne $true}
+```
+이 명령은 PowerShell을 사용 하 여 특성이 **Dirsyncenabled** 라는 모든 사용자를 False로 설정 합니다. 클라우드 전용 계정을 가져오는 데 사용할 수 있습니다.
 
 ### <a name="view-some-accounts-based-on-a-common-property"></a>공통 속성을 기준으로 일부 계정 보기
 
@@ -305,4 +320,3 @@ Get-ADUser ([guid][System.Convert]::FromBase64String((Get-MsolUser -UserPrincipa
 [PowerShell로 Microsoft 365 관리](manage-microsoft-365-with-microsoft-365-powershell.md)
   
 [Microsoft 365 용 PowerShell 시작](getting-started-with-microsoft-365-powershell.md)
-
