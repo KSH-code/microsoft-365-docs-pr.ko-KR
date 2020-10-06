@@ -15,14 +15,16 @@ author: DulceMontemayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-evalutatemtp
 ms.topic: conceptual
-ms.openlocfilehash: 21e6e3294b8fe722214d567963223b9e62737e34
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: 7d1870d1b8972009bed657f476810ca011dc2621
+ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333681"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48367980"
 ---
 # <a name="planning-your-pilot-microsoft-threat-protection-project"></a>파일럿 Microsoft Threat Protection 프로젝트 계획 
 
@@ -94,7 +96,7 @@ ms.locfileid: "48333681"
 
 ## <a name="use-cases"></a>사용 사례
 
-사용 사례는 테스트 중인 도구를 의도 한 사용자가 소비 하는 방식에 대 한 설명을 나타냅니다. 이러한 요소는 SOC 분석가와 같은 특정 가상 사용자의 관점에서 사용자 스토리로 사용 될 수 있습니다. 예시:
+사용 사례는 테스트 중인 도구를 의도 한 사용자가 소비 하는 방식에 대 한 설명을 나타냅니다. 이러한 요소는 SOC 분석가와 같은 특정 가상 사용자의 관점에서 사용자 스토리로 사용 될 수 있습니다. 예제:
 - SOC 분석가는 내 네트워크의 장치, 사용자 및 사서함에서 알림 및 이벤트를 확인, 상관 관계, 평가 및 관리 해야 합니다. [인시던트 관리]
 - SOC 분석가는 내 네트워크의 악의적인 이벤트를 자동으로 조사 하 고 대응 하기 위해 도구와 프로세스를 수행 해야 합니다. [자동 IR]
 - SOC 분석가는 필자의 환경에서 알려진 문제 및 잠재적인 위협과 의심 스러운 활동을 찾기 위해 환경의 데이터를 검색 해야 합니다. [고급 구하기]

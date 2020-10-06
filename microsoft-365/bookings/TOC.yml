@@ -1,4 +1,4 @@
-- name: Microsoft 예약
+- name: Microsoft Bookings
   href: bookings-overview.md
   items:
     - name: 설정
@@ -9,6 +9,8 @@
           href: enter-business-information.md
         - name: 서비스 제공 정의
           href: define-service-offerings.md
+        - name: 예약에 직원 추가
+          href: add-staff.md
         - name: 휴무 및 휴가 예약
           href: schedule-closures-time-off-vacation.md
         - name: 일정 정책 설정

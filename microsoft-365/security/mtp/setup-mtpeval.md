@@ -13,14 +13,16 @@ author: DulceMontemayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: a0997c107e78104619e1e05b8d1073e8690a3667
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 94045834f63569bc2910b1faa02f47ebfebead19
+ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195562"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48368084"
 ---
 # <a name="set-up-your-microsoft-threat-protection-trial-lab-environment"></a>Microsoft Threat Protection 평가판 랩 환경 설정 
 
@@ -146,7 +148,7 @@ Microsoft 365 E5 라이선스를 등록 하는 데 사용할 수 있는 *onmicro
 7. 전역 관리자 계정을 다시 선택 하 고 **사용자 이름 관리**를 클릭 합니다.
 <br>![이미지 of_Microsoft 365 관리 센터 페이지 계정을 선택 하 고 사용자 이름을 관리할 수 있습니다.](../../media/mtp-eval-29.png) <br>
 
-8. 반드시 이전 단계에서 선택한 사항에 따라 도메인을 *onmicrosoft.com* 에서 자체 도메인으로 변경 합니다. **변경 내용 저장**을 클릭합니다.
+8. 반드시 이전 단계에서 선택한 사항에 따라 도메인을 *onmicrosoft.com* 에서 자체 도메인으로 변경 합니다. **변경 사항 저장**를 클릭합니다.
 <br>![이미지 of_Microsoft 365 관리 센터 페이지 도메인 기본 설정을 변경할 수 있음](../../media/mtp-eval-30.png) <br>
 
 
