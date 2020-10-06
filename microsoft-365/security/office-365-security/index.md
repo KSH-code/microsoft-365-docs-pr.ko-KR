@@ -13,13 +13,13 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
-description: Office 365의 보안, EOP부터 ATP 요금제 1, 2, 표준 및 고급 보안 구성 등을 통해 사용자의 보유 정도 및 속성을 보호 하는 방법에 대해 자세히 알아볼 수 있습니다.
-ms.openlocfilehash: bfce840aa05eaebecc1ec227c6c29bd11cb0a823
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+description: Office 365의 보안, EOP부터 ATP 요금제 1 및 2, 표준 및 고급 보안 구성 등이 추가 됩니다. 사용자의 정의 및 속성을 보호 하는 방법을 이해 합니다.
+ms.openlocfilehash: c5b357dc7a08eeef099b25172169d04cdb81e8c4
+ms.sourcegitcommit: 5abd5ef8c2903b4c3bd875da68049fde26768dcf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338735"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48359156"
 ---
 # <a name="office-365-security-overview"></a>Office 365 보안 개요
 
@@ -53,9 +53,9 @@ Office 365 보안은 EOP에서 제공 하는 핵심 보호를 기반으로 작�
 
 :::image type="content" source="../../media/tp_GraphicEOPATPP1P2_2.png" alt-text="Placeholder graphic":::
 
-이러한 각 서비스는 보호, 감지, 조사 및 응답 중에서 특정 목표를 강조 하지만 모든 서비스는 보호, 감지, 조사 및 ***대응의*** ***모든*** 목표를 수행할 수 있습니다.
+이러한 각 서비스는 보호, 감지, 조사 및 대응 중에서 목표를 강조 하지만 모든 서비스는 보호, 감지, 조사 및 ***대응의*** ***모든*** 목표를 수행할 수 있습니다.
 
-Office 365 보안의 핵심은 EOP 보호입니다. ATP P1에는 EOP이 포함 되어 있습니다. ATP P2에는 P1 및 EOP가 포함 됩니다. 누적 된 구조입니다. 따라서 ATP를 구성 하는 경우 EOP로 시작 하 고 레이어를 통해 작업을 수행 해야 합니다.
+Office 365 보안의 핵심은 EOP 보호입니다. ATP P1에는 EOP이 포함 되어 있습니다. ATP P2에는 P1 및 EOP가 포함 됩니다. 누적 된 구조입니다. 따라서이 제품을 구성 하는 경우 EOP로 시작 하 고 ATP에 대 한 작업을 수행 해야 합니다.
 
 전자 메일 인증 구성은 공용 DNS에서 발생 하지만 스푸핑 으로부터 보호 하려면이 기능을 구성 하는 것이 중요 합니다. *EOP가 있는 경우* *** [전자 메일 인증을 구성](https://docs.microsoft.com/microsoft-365/security/office-365-security/email-validation-and-authentication)해야***합니다.
 
@@ -138,11 +138,11 @@ ATP P1 및 P2의 세부 정보를 보려면 **[이 문서로 이동](https://doc
 - 현재 구독에 Office 365 ATP가 포함 되어 있지 않은 경우에는 [영업에 연락 하 여 평가판을 시작 하](https://go.microsoft.com/fwlink/p/?LinkId=518644)고 조직에서 ATP가 작동 하는 방식을 알아봅니다.
 
 > [!TIP]
-> ***참가자 팁*** Docs.microsoft.com 목차를 사용 하 여 EOP 및 ATP에 대해 알아볼 수 있습니다. [Office 365 보안](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap) 문서로 이동 하면 목차 조직이 평가 및 배포 (마이그레이션 포함)로 시작 된 후 방지, 검색, 조사 및 응답을 계속 진행 하는 것을 확인할 수 있습니다. <p> 이 구조는 보안 **관리** 항목 다음에 **보안 작업** 항목이 오도록 구분 됩니다. 작업 역할의 새 구성원 인 경우이 팁의 링크와 목차를 사용 하 여 공간을 파악 하는 데 도움이 됩니다. *사용자 의견 링크* 를 사용 하 고 *문서를 평가해* 보십시오. 피드백을 통해 사용자에 게 제공 되는 정보를 개선할 수 있습니다.
+> ***참가자 팁*** Docs.microsoft.com 목차를 사용 하 여 EOP 및 ATP에 대해 알아볼 수 있습니다. 이 페이지로 돌아가 [Office 365 보안 개요](https://docs.microsoft.com/microsoft-365/security/office-365-security/?view=o365-worldwide)를 탐색 하면 측면 표시줄에 목차 조직이 있음을 확인할 수 있습니다. 배포 (마이그레이션 포함)로 시작 된 다음 방지, 검색, 조사 및 응답을 계속 합니다. <p> 이 구조는 보안 **관리** 항목 다음에 **보안 작업** 항목이 오도록 구분 됩니다. 작업 역할의 새 구성원 인 경우이 팁의 링크와 목차를 사용 하 여 공간을 파악 하는 데 도움이 됩니다. *사용자 의견 링크* 를 사용 하 고 *문서를 평가해* 보십시오. 피드백을 통해 사용자에 게 제공 되는 정보를 개선할 수 있습니다.
 
 ## <a name="where-to-go-next"></a>다음으로 이동 위치
 
-보안 관리자 인 경우 메일에 대해 DKIM 또는 DMARC를 구성 하거나, 우선 순위 사용자에 대해 ' 고급 ' 보안 미리 설정을 롤백하거나, 제품의 새로운 기능을 찾는 것일 수 있습니다. 보안 Ops를 사용 하는 경우 실시간 검색 또는 위협 탐색기를 활용 하 여 최종 사용자에 게 공격 시뮬레이터를 조사 및 대응 하거나 교육을 받을 수 있습니다. 여기에는 다음에 확인할 항목에 대 한 몇 가지 추가 권장 사항이 나와 있습니다.
+보안 관리자 인 경우에는 메일에 대해 DKIM 또는 DMARC를 구성 해야 할 수 있습니다. 우선 순위 사용자에 대해 ' 고급 ' 보안 미리 설정을 롤아웃할 수도 있고 제품의 새로운 기능을 찾을 수 있습니다. 또는 보안 Ops를 사용 중인 경우 실시간 검색 또는 위협 탐색기를 활용 하 여 최종 사용자에 게 공격 시뮬레이터를 조사 및 대응 하거나 교육을 받을 수 있습니다. 어느 쪽이 든 다음에는 확인할 사항에 대 한 몇 가지 추가 권장 사항을 제공 합니다.
 
 [SPF, DKIM 및 DMARC (세 가지 설정에 대 한 링크 포함)를 포함 하는 전자 메일 인증](https://docs.microsoft.com/microsoft-365/security/office-365-security/email-validation-and-authentication)
 
