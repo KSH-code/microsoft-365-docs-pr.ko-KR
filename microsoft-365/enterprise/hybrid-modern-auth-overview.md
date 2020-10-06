@@ -4,7 +4,7 @@ ms.author: kvice
 ms.reviewer: smithre4
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 04/15/2020
+ms.date: 08/25/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 온-프레미스 비즈니스용 Skype 및 Exchange 서버와 함께 사용할 수 있는 하이브리드 최신 인증과 필수 구성 요소에 대해 설명 합니다.
-ms.openlocfilehash: 1e0330bd62d9098f11a12b44b46e9ace30b59420
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 82cd4203e2e9dc53c6add542c5f0ba90530b6548
+ms.sourcegitcommit: d648356b27842e779921859480b1b405a1804c7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546447"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361930"
 ---
 # <a name="hybrid-modern-authentication-overview-and-prerequisites-for-using-it-with-on-premises-skype-for-business-and-exchange-servers"></a>하이브리드 최신 인증 개요 및 온-프레미스 비즈니스용 Skype 및 Exchange 서버에서 사용하기 위한 필수 구성 요소
 
@@ -143,18 +143,22 @@ Get-CsOAuthConfiguration cmdlet에 대한 자세한 내용은 [Get-CsOAuthConfig
   - Exchange Server 2013를 사용하는 경우 하나 이상의 서버에 사서함 및 클라이언트 액세스 서버 역할이 설치되어 있어야 합니다. 사서함 및 클라이언트 액세스 역할을 별도 서버에 설치할 수도 있지만, 두 가지 역할을 동일한 서버에 모두 설치해 추가 유연성과 개선된 성능을 확보하는 것이 좋습니다.
   - Exchange 서버 2016 이상을 사용하는 경우 하나 이상의 서버에 사서함 서버 역할이 설치되어 있어야 합니다.
   - 하이브리드 환경에 Exchange 서버 2007 또는 2010이 없습니다.
-  - 모든 Exchange 서버에는 최신 누적 업데이트가 설치되어 있어야 하며, [Exchange를 최신 누적 업데이트로 업그레이드](https://docs.microsoft.com/exchange/plan-and-deploy/install-cumulative-updates?view=exchserver-2019)를 참조하여 사용 가능한 모든 업데이트를 찾고 관리하세요.
+  - 모든 Exchange 서버에는 최신 누적 업데이트가 설치되어 있어야 하며, [Exchange를 최신 누적 업데이트로 업그레이드](https://docs.microsoft.com/exchange/plan-and-deploy/install-cumulative-updates)를 참조하여 사용 가능한 모든 업데이트를 찾고 관리하세요.
 
 - **Exchange 클라이언트 및 프로토콜 요구 사항**
 
-  - 다음 클라이언트는 최신 인증을 지원합니다.
+    최신 인증의 가용성은 클라이언트, 프로토콜 및 구성의 조합에 따라 결정 됩니다. 클라이언트, 프로토콜 및/또는 구성에서 최신 인증을 지원 하지 않는 경우에는 클라이언트가 레거시 인증을 계속 활용 하 게 됩니다.
+  
+    환경에서 최신 인증을 사용 하는 경우 다음 클라이언트 및 프로토콜은 온-프레미스 Exchange에서 최신 인증을 지원 합니다.
 
   |**클라이언트**|**기본 프로토콜**|**참고**|
   |:-----|:-----|:-----|
-  |Outlook 2013 및 Outlook 2016  <br/> |HTTP를 통한 MAPI  <br/> |이러한 클라이언트와 최신 인증을 활용하려면 Exchange에서 MAPI를 통한 MAPI를 사용하도록 설정(Exchange 2013 Service Pack 1 이상의 경우 사용 또는 True). 자세한 내용을 보려면 [최신 인증이 Office 2013 및 Office 2016 클라이언트 앱에서 작동하는 방식](modern-auth-for-office-2013-and-2016.md)을 참조하세요.  <br/> Outlook의 최소 필수 빌드를 실행하고 있는지 확인합니다. [Windows Installer(MSI)를 사용하는 Outlook 버전의 최신 업데이트](https://docs.microsoft.com/officeupdates/outlook-updates-msi)를 참조하세요.  <br/> |
-  |Mac용 Outlook 2016  <br/> |Exchange 웹 서비스  <br/> |  <br/> |
-  |iOS 및 Android용 Outlook  <br/> |  <br/> |자세한 내용은 [Android 및 iOS용 Outlook에서 하이브리드 최신 인증 사용](https://docs.microsoft.com/Exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth)을 참조하세요.  <br/> |
+  |Outlook 2013 이상  <br/> |HTTP를 통한 MAPI  <br/> |이러한 클라이언트와 최신 인증을 활용하려면 Exchange에서 MAPI를 통한 MAPI를 사용하도록 설정(Exchange 2013 Service Pack 1 이상의 경우 사용 또는 True). 자세한 내용을 보려면 [최신 인증이 Office 2013 및 Office 2016 클라이언트 앱에서 작동하는 방식](modern-auth-for-office-2013-and-2016.md)을 참조하세요.  <br/> Outlook의 최소 필수 빌드를 실행하고 있는지 확인합니다. [Windows Installer(MSI)를 사용하는 Outlook 버전의 최신 업데이트](https://docs.microsoft.com/officeupdates/outlook-updates-msi)를 참조하세요.  <br/> |
+  |Mac 용 Outlook 2016 이상  <br/> |Exchange 웹 서비스  <br/> |  <br/> |
+  |iOS 및 Android용 Outlook  <br/> | Microsoft 동기화 기술 <br/> |자세한 내용은 [Android 및 iOS용 Outlook에서 하이브리드 최신 인증 사용](https://docs.microsoft.com/Exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth)을 참조하세요.  <br/> |
   |Exchange ActiveSync 클라이언트(예: iOS11 메일)  <br/> |Exchange ActiveSync  <br/> |최신 인증을 지원하는 Exchange ActiveSync 클라이언트의 경우, 기본 인증에서 최신 인증으로 전환하려면 프로필을 다시 만들어야 합니다.  <br/> |
+
+    POP3와 같이 나열 되지 않은 클라이언트 및/또는 프로토콜은 온-프레미스 Exchange와의 최신 인증을 지원 하지 않으며 환경에서 최신 인증을 사용할 수 있는 경우에도 계속 해 서 레거시 인증 메커니즘을 활용할 수 있습니다.
 
 - **일반 필수 구성 요소**
   - AD FS를 사용하는 경우, 페더레이션을 위해 Windows 2012 R2 AD FS 3.0 이상이 있어야 합니다.

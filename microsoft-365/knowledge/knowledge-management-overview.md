@@ -11,17 +11,17 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Project Cortex의 지식 관리에 대 한 개요입니다.
-ms.openlocfilehash: 80750ee94248b21b8ac7bd3869830a7986de34b9
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: c4f7ff7d65ec08740dc14f717712731d839bd903
+ms.sourcegitcommit: d648356b27842e779921859480b1b405a1804c7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949375"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361954"
 ---
-# <a name="knowledge-management-0verview-preview"></a>지식 관리 0verview (Preview)
+# <a name="knowledge-management-overview-preview"></a>지식 관리 개요 (미리 보기)
 
 > [!Note] 
-> 이 문서에서 설명 하는 내용은 Project Cortex 비공개 미리 보기를 위한 것입니다. [Project Cortex에 대해 자세히 알아보기](https://aka.ms/projectcortex) 
+> 이 문서에서 설명 하는 내용은 Project Cortex 비공개 미리 보기를 위한 것입니다. [Project Cortex](https://aka.ms/projectcortex)에 대해 자세히 알아보세요.
 
 지식 관리는 microsoft의 인공 지능 기술, Microsoft 365, Delve, 검색 및 기타 구성 요소 및 서비스를 사용 하 여 Microsoft 365 환경에서 지식 네트워크를 구축 합니다. 
 

@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: 기존 Office 365 고객은 Microsoft 365 서비스 데이터를 새 지역으로 이동 하기 위해 해당 국가의 마감 날짜 이전에 요청을 제출 해야 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 10c77fdde8583c9d791c9fed936f94aad8fc7264
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: 7f8f25fcaf3e8beb59ca43ad260e2636cf0c4949
+ms.sourcegitcommit: d648356b27842e779921859480b1b405a1804c7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333887"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361942"
 ---
 # <a name="how-to-request-your-data-move"></a>데이터 이동을 요청하는 방법
 
@@ -31,7 +31,7 @@ ms.locfileid: "48333887"
   
 ## <a name="when-can-i-request-a-move"></a>이동을 요청할 수 있는 시기
 
-|**등록 국가가 있는 고객**|**요청 기간 시작**|**요청 기한**|
+| 등록 국가가 있는 고객 | 요청 기간 시작 | 요청 기한 |
 |:-----|:-----|:-----|
 |일본  <br/> |2020 년 1 월 1 일  <br/> |2020년 6월 30일  <br/> |
 |오스트레일리아, 뉴질랜드, 피지  <br/> |2020 년 1 월 1 일  <br/> |2020년 6월 30일  <br/> |
@@ -44,7 +44,7 @@ ms.locfileid: "48333887"
 |남아프리카 공화국  <br/> |2019년 7월 25일  <br/> |2020년 6월 30일  <br/> |
 |스위스, 리히텐슈타인  <br/> |2019년 12월 10일  <br/> |2020년 6월 30일  <br/> |
 |노르웨이  <br/> |2020년 4월 15일  <br/> |2020 년 10 월 31 일  <br/> |
-|독일  <br/> |2020 년 10 월 1 일  <br/> |2021 년 3 월 31 일  <br/> |
+|독일  <br/> |하려고  <br/> |하려고  <br/> |
 
 ## <a name="how-to-request-a-move"></a>이동을 요청하는 방법
 
