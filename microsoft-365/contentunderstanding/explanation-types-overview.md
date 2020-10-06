@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 설명 유형에 대해 자세히 알아보세요.
-ms.openlocfilehash: 7d78337fd91bc7e5a71bccd4867f019ae663417a
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 43272504912451e4690cb8b7fe351462371bb252
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321800"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48350306"
 ---
 # <a name="introduction-to-explanation-types"></a>설명 유형 소개
 
@@ -32,9 +32,9 @@ ms.locfileid: "48321800"
  
 ## <a name="phrase-list"></a>구 목록
 
-일반적으로 구 목록 설명 형식은 모델을 통해 문서를 식별하고 분류하는 데 사용됩니다. *의사 추천* 레이블 예제에 설명 된 바와 같이 식별하는 문서에서 일관되게 나타나는 단어, 구, 숫자 또는 문자의 문자열입니다.
+일반적으로 구 목록 설명 형식은 모델을 통해 문서를 식별하고 분류하는 데 사용됩니다. *의사 추천* 레이블 예제에 설명된 바와 같이, 확인 중인 문서에서 일관되게 나타나는 일련의 단어, 구, 숫자 또는 문자입니다.
 
-요구 사항은 아니지만, 캡처링하는 구가 문서의 일관된 위치에 있는 경우 설명의 성공를 높일 수 있습니다. 예를 들어 *의사 추천*이란 레이블이 문서의 첫 번째 문단에 일관되 게 배치되어 있을 수 있습니다.
+요구 사항은 아니지만, 캡처링하는 구가 문서의 일관된 위치에 있는 경우 설명의 성공을 높일 수 있습니다. 예를 들어, *의사 추천*이란 레이블이 문서의 첫 번째 문단에 일관되게 배치되어 있을 수 있습니다.
 
 레이블을 식별하는데 대/소문자 구분이 필요하다면, 구 목록 유형을 사용하하면 **정확한 대소문자 사용** 체크박스를 선택하여 이를 설명에 지정할 수 있습니다.
 
@@ -68,7 +68,7 @@ ms.locfileid: "48321800"
    ![정확한 대소문자 사용](../media/content-understanding/exact-caps.png)
 
 > [!NOTE]
-> 패턴 목록 설명을 수동으로 만드는 대신 [설명 라이브러리]()를 사용하여 *날짜*, *전화 번호*, *신용카드 번호* 등 미리 만들어진 일반 패턴 목록의 서식파일을 사용할 수 있습니다.   
+> 패턴 목록 설명을 수동으로 만드는 대신 [설명 라이브러리](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview#use-explanation-templates)를 사용하여 *날짜*, *전화 번호*, *신용카드 번호* 등 미리 만들어진 일반 패턴 목록의 서식파일을 사용할 수 있습니다.   
 
 ## <a name="proximity"></a>근접 
 
@@ -87,7 +87,7 @@ Redmond, WA 98034<br>
 
 #### <a name="what-are-tokens"></a>토큰이란?
 
-근사 설명 유형을 사용하려면 토큰이 무엇인지 이해하고 근접 설명이 두 개의 설명 간의 거리를 어떻게 측정하는지 토큰의 수로 알 수 있다는 점을 이해해야 합니다.  
+근사 설명 유형을 사용하려면 근접 설명이 두 개의 설명 간의 거리를 어떻게 측정하는지 토큰의 수로 알 수 있으므로 토큰이 무엇인지를 이해해야 합니다.  
 
 토큰은 문자와 숫자의 연속 범위(공백이나 문장 부호 제외)입니다. 공백은 토큰이 아닙니다. 각 문장 부호는 토큰입니다. 다음 표는 한 개의 구에서 토큰 수를 확인하는 방법에 대해 몇 가지 예로 보여 줍니다.
 

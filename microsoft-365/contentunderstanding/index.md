@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에 대한 리소스를 찾는 방법을 알아봅니다.
-ms.openlocfilehash: 31559b0d4e56733e744eacd87c8e9b3529c58414
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 5d375b27fe3cd58069851f12c459460ac605da83
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338601"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48350776"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex 소개
 
@@ -29,9 +29,9 @@ Microsoft SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이
 
 ## <a name="get-started"></a>시작하기
 
-이 섹션의 리소스는 SharePoint Syntex에서 사용하는 두 가지 방법(양식 처리 및 문서 이해)에 대한 자세한 정보를 확인하는 데 도움이 됩니다.
+이 섹션의 리소스는 SharePoint Syntex에서 사용하는 데이터 분류 및 추출에 대한 두 가지 방법(양식 처리 및 문서 이해)의 자세한 정보를 확인하는 데 도움이 됩니다.
 
-| 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
+| 해당 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
 |문서 이해에 대한 자세한 정보|[문서 이해 개요](https://docs.microsoft.com/microsoft-365/contentunderstanding/document-understanding-overview)|
 |양식 처리에 대한 자세한 정보|[양식 처리 개요](https://docs.microsoft.com/microsoft-365/contentunderstanding/form-processing-overview)|

@@ -9,14 +9,14 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 추출기를 만드는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d68cc8b8c337c1ae6740eb5775576a54279b8389
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 260486c128ce76c31fe5f4a0994b4e103687b829
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321812"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338652"
 ---
-# <a name="create-an-extractor-preview"></a>추출기 만들기(미리 보기)
+# <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 추출기 만들기
 
 
 </br>
@@ -122,9 +122,20 @@ ms.locfileid: "48321812"
 
 ## <a name="test-your-model"></a>모델 테스트하기
 
-레이블이 지정된 샘플 파일에 일치를 받은 경우 이제 레이블 지정되지 못한 남은 예제 파일에서 모델을 테스트할 수 있습니다. 이는 모델을 전에 보지 못한 파일에서 테스트하여 모델 사용 전에 모델의 "적합성" 이나 준비 상태를 평가하는 데 도움을 받는 단계입니다.
+레이블이 지정된 샘플 파일에 일치를 받은 경우 이제 레이블 지정되지 못한 남은 예제 파일에서 모델을 테스트할 수 있습니다. 이는 선택 사항이지만, 모델을 전에 보지 못한 파일에서 테스트하여 모델 사용 전에 모델의 "적합성"이나 준비 상태를 평가하는 데 유용한 단계입니다.
 
 1. 모델 홈페이지에서 **테스트** 탭을 클릭합니다. 그러면 레이블이 지정되지 않은 샘플 파일에서 모델이 실행됩니다.
 2. **테스트 파일** 목록에서 해당 모델이 필요한 정보를 추출할 수 있는지 여부를 보여 주는 예제 파일이 표시됩니다. 이 정보를 사용하여 문서를 식별하는 데 필요한 분류자의 효율성을 알아낼 수 있습니다.
 
     ![파일에서 테스트하기](../media/content-understanding/test-filies-extractor.png) 
+
+## <a name="see-also"></a>참고 항목
+[분류자 만들기](create-a-classifier.md)
+
+[설명 유형](explanation-types-overview.md)
+
+[추출기를 만들 때 용어 저장소 분류 활용](leverage-term-store-taxonomy.md)
+
+[문서 이해 개요](document-understanding-overview.md)
+
+[모델 적용](apply-a-model.md) 
