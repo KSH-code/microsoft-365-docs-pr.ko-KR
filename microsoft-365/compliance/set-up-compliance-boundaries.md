@@ -19,18 +19,18 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 준수 경계를 사용 하 여 eDiscovery 관리자가 Microsoft 365에서 검색할 수 있는 사용자 콘텐츠 위치를 제어 하는 논리적 경계를 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 19165af60d7813134952589831bf94a91bfe7f40
-ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
+ms.openlocfilehash: c57689cc6e626b62ae976bac9f9771205431bc8a
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277110"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370404"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>EDiscovery 조사에 대 한 준수 경계 설정
 
 이 문서의 지침은 중요 eDiscovery 또는 고급 eDiscovery를 사용 하 여 조사를 관리할 때 적용할 수 있습니다.
 
-준수 경계는 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치 (예: 사서함, SharePoint 사이트, OneDrive 계정)를 제어 하는 조직 내에서 논리적 경계를 만듭니다. 또한 규정 준수 경계는 법률, 인적 자원 또는 조직 내 다른 조사를 관리 하는 데 사용 되는 eDiscovery 사례에 액세스할 수 있는 사용자를 제어 합니다. 지리적 boarders 및 규정을 준수 해야 하는 국내 기업에는 종종 다양 한 기관으로 분류 되는 정부에 대 한 적합성 경계가 필요 합니다. Microsoft 365에서는 준수 경계를 통해 콘텐츠 검색을 수행 하 고 eDiscovery 사례를 통해 조사를 관리할 때 이러한 요구 사항을 충족할 수 있습니다.
+준수 경계는 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치 (예: 사서함, OneDrive 계정 및 SharePoint 사이트)를 제어 하는 조직 내에서 논리적 경계를 만듭니다. 또한 규정 준수 경계는 법률, 인적 자원 또는 조직 내 다른 조사를 관리 하는 데 사용 되는 eDiscovery 사례에 액세스할 수 있는 사용자를 제어 합니다. 지리적 boarders 및 규정을 준수 해야 하는 국내 기업에는 종종 다양 한 기관으로 분류 되는 정부에 대 한 적합성 경계가 필요 합니다. Microsoft 365에서는 준수 경계를 통해 콘텐츠 검색을 수행 하 고 eDiscovery 사례를 통해 조사를 관리할 때 이러한 요구 사항을 충족할 수 있습니다.
   
 다음 그림의 예제를 사용 하 여 규정 준수 경계의 작동 방식을 알아봅니다.
   
@@ -56,11 +56,21 @@ ms.locfileid: "48277110"
 
 [5 단계: 에이전시 내 조사에 대 한 eDiscovery 사례 만들기](#step-5-create-an-ediscovery-case-for-intra-agency-investigations)
 
+## <a name="before-you-set-up-compliance-boundaries"></a>준수 경계를 설정 하기 전에
+
+1 단계에서 id를 확인 하는 Azure Active Directory (Azure AD) 특성을 사용자의 OneDrive 계정 (2 단계)에 성공적으로 동기화 하려면 먼저 다음 필수 구성 요소를 충족 해야 합니다.
+
+- 사용자에 게 Exchange Online 라이선스와 SharePoint Online 라이선스를 할당 해야 합니다.
+
+- 사용자 사서함의 크기는 10mb 이상 이어야 합니다. 사용자의 사서함이 10mb 미만이 면 사용자의 OneDrive 계정에 대 한 기관 정의에 사용 되는 특성이 동기화 되지 않습니다.
+
+- 준수 경계 및 검색 사용 권한 필터를 만드는 데 사용 되는 특성에는 Azure Active Directory (Azure AD) 특성이 사용자 사서함과 동기화 되어 있어야 합니다. 사용 하려는 특성이 동기화 되었는지 확인 하려면 Exchange Online PowerShell에서 [-User](https://docs.microsoft.com/powershell/module/exchange/get-user) cmdlet을 실행 합니다. 이 cmdlet의 출력은 Exchange Online과 동기화 되는 Azure AD 특성을 표시 합니다.
+
 ## <a name="step-1-identify-a-user-attribute-to-define-your-agencies"></a>1 단계: 사용자 특성을 식별 하 여 에이전시를 정의 합니다.
 
-첫 번째 단계는 기관을 정의 하는 데 사용할 Azure Active Directory 특성을 선택 하는 것입니다. 이 특성은 eDiscovery 관리자가이 특성에 대 한 특정 값이 할당 된 사용자의 콘텐츠 위치만 검색 하도록 제한 하는 검색 권한 필터를 만드는 데 사용 됩니다. 예를 들어 Contoso에서 **부서** 특성을 사용 하기로 결정 한다고 가정해 보겠습니다. Coho Winery 자회사의 사용자에 대 한이 특성의 값은 다음과 같습니다  `FourthCoffee` `CohoWinery` . 4 단계에서이 쌍을 사용 하 여  `attribute:value`  eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제한 합니다 (예 *: FourthCoffee*). 
+첫 번째 단계는 기관을 정의 하는 데 사용할 Azure AD 특성을 선택 하는 것입니다. 이 특성은 eDiscovery 관리자가이 특성에 대 한 특정 값이 할당 된 사용자의 콘텐츠 위치만 검색 하도록 제한 하는 검색 권한 필터를 만드는 데 사용 됩니다. 예를 들어 Contoso에서 **부서** 특성을 사용 하기로 결정 한다고 가정해 보겠습니다. Coho Winery 자회사의 사용자에 대 한이 특성의 값은 다음과 같습니다  `FourthCoffee` `CohoWinery` . 4 단계에서이 쌍을 사용 하 여  `attribute:value`  eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제한 합니다 (예 *: FourthCoffee*). 
   
-다음은 준수 경계에 사용할 수 있는 Azure Active Directory 사용자 특성 목록입니다.
+다음은 준수 경계에 사용할 수 있는 Azure AD 사용자 특성의 목록입니다.
   
 - Company
 
@@ -79,20 +89,20 @@ ms.locfileid: "48277110"
   
 ## <a name="step-2-file-a-request-with-microsoft-support-to-synchronize-the-user-attribute-to-onedrive-accounts"></a>2 단계: Microsoft Support가 사용자 특성을 OneDrive 계정에 동기화 하는 요청을 파일에 포함
 
-다음 단계에서는 1 단계에서 선택한 Azure Active Directory 특성을 조직의 모든 OneDrive 계정으로 동기화 하는 Microsoft 지원 서비스에 파일을 요청 합니다. 이 동기화가 수행 되 면 1 단계에서 선택한 특성 및 값이 라는 숨겨진 관리 속성에 매핑됩니다 `ComplianceAttribute` . 이 특성을 사용 하 여 4 단계에서 OneDrive에 대 한 검색 권한 필터를 만들 수 있습니다.
+다음 단계에서는 1 단계에서 선택한 Azure AD 특성을 조직의 모든 OneDrive 계정으로 동기화 하는 Microsoft 지원 서비스에 대 한 요청을 파일 합니다. 이 동기화가 수행 되 면 1 단계에서 선택한 특성 및 값이 라는 숨겨진 관리 속성에 매핑됩니다 `ComplianceAttribute` . 이 특성을 사용 하 여 4 단계에서 OneDrive에 대 한 검색 권한 필터를 만들 수 있습니다.
   
 Microsoft 지원 서비스에 요청을 제출할 때 다음 정보를 포함 합니다.
   
 - 조직의 기본 도메인 이름
 
-- Azure Active Directory 특성의 이름 (1 단계)
+- Azure AD 특성의 이름 (1 단계)
 
-- 다음은 지원 요청의 목적에 대 한 설명입니다. "비즈니스용 OneDrive에서 준수 보안 필터에 대 한 Azure Active Directory를 사용 하도록 설정 합니다." 이를 통해 요청을 구현 하는 eDiscovery 엔지니어링 팀에 요청을 라우팅할 수 있습니다.
+- 지원 요청의 목적에 대 한 다음 제목 또는 설명: "준수 보안 필터에 대해 Azure AD를 사용 하 여 비즈니스용 OneDrive 동기화 사용"을 수행 합니다. 이를 통해 요청을 구현 하는 eDiscovery 엔지니어링 팀에 요청을 라우팅할 수 있습니다.
 
 엔지니어링이 변경 되 고 특성이 OneDrive에 동기화 되 면 Microsoft Support에서 변경 된 빌드 번호와 예상 배포 날짜가 전송 됩니다. 배포 프로세스는 일반적으로 지원 요청을 제출한 후 4-6 주 정도 걸립니다.
   
 > [!IMPORTANT]
-> 이 특성 변경 내용이 배포 될 때까지 3 단계부터 5 단계까지 완료할 수 있습니다. 하지만 콘텐츠 검색을 실행 해도 변경 내용을 배포할 때까지 검색 권한 필터에 지정 된 OneDrive 사이트의 문서가 반환 되지 않습니다.
+> 이 특성 변경 내용이 배포 될 때까지 3 단계부터 5 단계까지 완료할 수 있습니다. 그러나 콘텐츠 검색을 실행 해도 특성 동기화가 배포 될 때까지 검색 권한 필터에 지정 된 OneDrive 계정의 문서가 반환 되지 않습니다.
   
 ## <a name="step-3-create-a-role-group-for-each-agency"></a>3 단계: 각 에이전시에 대 한 역할 그룹 만들기
 
@@ -193,7 +203,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
     |CAN <br/> |캐나다|
     |||
 
-- **콘텐츠 검색 경로:** SharePoint 사이트 및 OneDrive 계정의 콘텐츠 검색을 위성 데이터 센터로 라우팅할 수 있습니다. 즉, 검색을 실행할 데이터 센터 위치를 지정할 수 있습니다.
+- **콘텐츠 검색 경로:** SharePoint 사이트 및 OneDrive 계정의 콘텐츠 검색을 위성 데이터 센터에 라우팅할 수 있습니다. 즉, 검색을 실행할 데이터 센터 위치를 지정할 수 있습니다.
 
     **Region** 매개 변수에 다음 값 중 하나를 사용 하 여 SharePoint 사이트 및 OneDrive 계정을 검색할 때 검색을 실행할 데이터 센터 위치를 제어 합니다. 
   
@@ -216,7 +226,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
    이 개념을 단순화 하기 위해 **Region** 매개 변수는 SharePoint 및 OneDrive에서 콘텐츠를 검색 하는 데 사용 되는 데이터 센터를 제어 합니다. Exchange 콘텐츠 검색은 데이터 센터의 지리적 위치에 바인딩되지 않으므로 Exchange에서 콘텐츠를 검색 하는 데는 적용 되지 않습니다. 또한 동일한 **지역** 매개 변수 값은 내보내기가 라우팅되는 데이터 센터도 지시할 수 있습니다. 이는 종종 지리적 boarders에서 데이터 이동을 제어 하는 데 필요 합니다.
 
 > [!NOTE]
-> 고급 eDiscovery를 사용 하는 경우 **region** 매개 변수는 데이터를 내보내는 지역을 제어 하지 않습니다. 또한 SharePoint 및 OneDrive의 콘텐츠 검색은 데이터 센터의 지리적 위치에 연결 되지 않습니다. 모든 데이터 센터가 검색 됩니다. 고급 eDiscovery에 대 한 자세한 내용은 [Microsoft 365의 고급 ediscovery 솔루션 개요](overview-ediscovery-20.md)를 참조 하세요.
+> 고급 eDiscovery를 사용 하는 경우 **region** 매개 변수는 데이터를 내보내는 지역을 제어 하지 않습니다. 조직의 기본 데이터 센터에서 데이터를 내보냅니다. 또한 SharePoint 및 OneDrive의 콘텐츠 검색은 데이터 센터의 지리적 위치에 연결 되지 않습니다. 모든 데이터 센터가 검색 됩니다. 고급 eDiscovery에 대 한 자세한 내용은 [Microsoft 365의 고급 ediscovery 솔루션 개요](overview-ediscovery-20.md)를 참조 하세요.
 
 다음은 준수 경계에 대 한 검색 권한 필터를 만들 때 **Region** 매개 변수를 사용 하는 예입니다. 이 경우에는 네 번째 커피 자회사를 북미에 있고 Coho Winery가 유럽에 있는 것으로 가정 합니다. 
   
@@ -230,13 +240,13 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 다중 지리적 환경에서 콘텐츠를 검색 하 고 내보낼 때는 다음 사항을 염두에 두어야 합니다.
   
-- **지역** 매개 변수가 Exchange 사서함의 검색을 제어하지 않습니다. 사서함을 검색할 때 모든 데이터 센터가 검색 됩니다. Exchange 사서함이 검색 되는 범위를 제한 하려면 검색 권한 필터를 만들거나 변경할 때 **Filters** 매개 변수를 사용 합니다. 
+- **지역** 매개 변수가 Exchange 사서함의 검색을 제어하지 않습니다. 사서함을 검색 하면 모든 데이터 센터가 검색 됩니다. Exchange 사서함이 검색 되는 범위를 제한 하려면 검색 권한 필터를 만들거나 변경할 때 **Filters** 매개 변수를 사용 합니다. 
 
 - EDiscovery 관리자가 여러 SharePoint 지역에서 검색 해야 하는 경우에는 해당 eDiscovery 관리자에 대해 검색 권한 필터에 사용할 다른 사용자 계정을 만들어 SharePoint 사이트 또는 OneDrive 계정이 있는 지역을 지정 해야 합니다. 이를 설정 하는 방법에 대 한 자세한 내용은 [콘텐츠 검색](content-search.md#searching-for-content-in-a-sharepoint-multi-geo-environment)에서 "SharePoint 다중 지리적 환경에서 콘텐츠 검색" 섹션을 참조 하십시오.
 
 - SharePoint 및 OneDrive에서 콘텐츠를 검색할 때 **Region** 매개 변수는 ediscovery 관리자가 ediscovery 조사를 수행 하는 기본 또는 위성 위치를 검색 하도록 지시 합니다. EDiscovery 관리자가 SharePoint 및 OneDrive 사이트 검색 사용 권한 필터에 지정 된 지역 외부를 검색 하는 경우 검색 결과가 반환 되지 않습니다.
 
-- 검색 결과를 내보낼 때 모든 콘텐츠 위치의 콘텐츠, 즉 Exchange, 비즈니스용 Skype, SharePoint, OneDrive, 콘텐츠 검색 도구를 사용 하 여 검색할 수 있는 기타 서비스 등의 콘텐츠가 **Region** 매개 변수로 지정 된 데이터 센터의 Azure 저장 위치에 업로드 됩니다. 이렇게 하면 조직이 제어 테두리에 걸쳐 콘텐츠를 내보낼 수 없도록 하 여 규정 준수를 유지 하는 데 도움이 됩니다. 검색 권한 필터에 지역이 지정 되어 있지 않으면 콘텐츠가 조직의 기본 영역에 업로드 됩니다.
+- 검색 결과를 내보낼 때 모든 콘텐츠 위치의 콘텐츠, 즉 Exchange, 비즈니스용 Skype, SharePoint, OneDrive, 콘텐츠 검색 도구를 사용 하 여 검색할 수 있는 기타 서비스 등의 콘텐츠가 **Region** 매개 변수로 지정 된 데이터 센터의 Azure 저장 위치에 업로드 됩니다. 이렇게 하면 조직이 제어 테두리에 걸쳐 콘텐츠를 내보낼 수 없도록 하 여 규정 준수를 유지 하는 데 도움이 됩니다. 검색 권한 필터에 지역이 지정 되어 있지 않으면 콘텐츠가 조직의 기본 데이터 센터에 업로드 됩니다.
 
 - 다음 명령을 실행 하 여 기존 검색 권한 필터를 편집 하 여 지역을 추가 하거나 변경할 수 있습니다.
 
@@ -272,7 +282,23 @@ EDiscovery 사례를 관리 하 고 준수 경계를 사용 하는 조사를 관
 
 - 검색 사용 권한 필터는 Exchange 공용 폴더에 적용 되지 않습니다.
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="more-information"></a>추가 정보
+
+- 사서함을 사용 하지 않거나 일시 삭제 한 경우 Azure AD 특성이 더 이상 사서함과 동기화 되지 않습니다. 사서함을 삭제 했을 때 우편함이 보존 되는 경우 사서함을 삭제 하기 전에 마지막으로 Azure AD 특성을 동기화 한 시간을 기준으로 하 여 해당 편지함에 유지 되는 콘텐츠가 여전히 준수 경계 또는 검색 권한 필터에 적용 됩니다. 
+
+    또한 사서함이 사용이 허가 되지 않았거나 일시 삭제 된 경우 사용자 사서함과 OneDrive 계정 간의 동기화가 중단 됩니다. OneDrive 계정에 대 한 준수 특성의 마지막 스탬프 값은 계속 적용 됩니다.
+
+- 준수 특성은 사용자의 Exchange 사서함에서 7 일 마다 OneDrive 계정으로 동기화 됩니다. 앞에서 설명한 것 처럼이 동기화는 사용자에 게 Exchange Online 및 SharePoint Online 라이선스가 모두 할당 되 고 사용자의 사서함이 10mb 이상인 경우에만 발생 합니다.
+
+- 사용자의 사서함과 OneDrive 계정에 대해 준수 경계 및 검색 권한 필터가 구현 된 경우에는 해당 사용자의 사서함을 삭제 하지 않는 것이 좋습니다. 즉, 사용자의 사서함을 삭제 하는 경우 사용자의 OneDrive 계정도 제거 해야 합니다.
+
+- 사용자가 두 개 이상의 OneDrive 계정을 가질 수 있는 상황 (예: 직원을 반환 하는 경우)이 있습니다. 이러한 경우 Azure AD의 사용자와 연결 된 기본 OneDrive 계정만 동기화 됩니다.
+
+- 준수 경계 및 검색 권한 필터는이 스탬프 처리 된 콘텐츠에 대 한 후속 인덱싱, Exchange, OneDrive 및 SharePoint의 콘텐츠에 스탬프 처리 되는 특성에 따라 달라 집니다. 
+
+- `-not()`콘텐츠 기반 규정 준수 범위에 대해 검색 권한 필터에 사용 하는 것과 같은 제외 필터는 사용 하지 않는 것이 좋습니다. 최근에 업데이트 된 특성이 있는 콘텐츠가 인덱싱되지 않은 경우 제외 필터를 사용 하면 예기치 않은 결과가 발생 합니다. 
+
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **New-compliancesecurityfilter 및 New-compliancesecurityfilter cmdlet을 사용 하 여 검색 권한 필터를 만들고 관리할 수 있는 사람은 누구 인가요?**
   

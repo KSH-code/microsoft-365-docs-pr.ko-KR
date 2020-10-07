@@ -9,17 +9,20 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-compliancemanager
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 조직에서 위험 평가를 간소화 하 고 자동화 하 고 위험을 해결 하는 데 도움이 되는 권장 조치를 제안 합니다.
-ms.openlocfilehash: b6ffd0156b295f03049d68ba99ad30c0ab8ae43b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: d26d187277b021e278667b6e0ae19a0772b34f03
+ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204416"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48368131"
 ---
 # <a name="microsoft-compliance-manager"></a>Microsoft 준수 관리자
 
@@ -64,7 +67,7 @@ ms.locfileid: "48204416"
 
 준수 관리자는 Microsoft 365 데이터 보호 기준을 기반으로 초기 점수를 제공 합니다. 이 기준은 데이터 보호 및 일반 데이터 관리를 위한 주요 규정 및 표준을 포함 하는 컨트롤 집합입니다.
 
-##### <a name="learn-more"></a>자세한 정보
+##### <a name="learn-more"></a>자세히 알아보기
 
 [준수 점수가 계산 되는 방식을 이해](compliance-score-calculation.md)합니다.
 
@@ -84,7 +87,7 @@ ms.locfileid: "48204416"
 2. **사용자**가 관리 하는 컨트롤, 즉 조직에서 구현 하 고 관리 하는 컨트롤이 라고도 하는 컨트롤입니다.
 3. **공유 컨트롤**: 조직 및 Microsoft 공유에서 구현 해야 하는 컨트롤입니다.
 
-##### <a name="learn-more"></a>자세한 정보
+##### <a name="learn-more"></a>자세히 알아보기
 
 [컨트롤의 진행률을 모니터링](compliance-manager-assessments.md#monitor-assessment-progress-and-controls)합니다.
 
@@ -104,7 +107,7 @@ ms.locfileid: "48204416"
 
 평가를 만들 때 사용자를 그룹에 할당 합니다. 조직에 가장 논리적으로 어떤 방식으로 그룹을 구성할 수 있습니다. 예를 들어 감사 연도, 지역, 솔루션, 조직 내의 팀 또는 기타 다른 방식으로 평가를 그룹화 할 수 있습니다. 그룹을 만든 후에는 [준수 관리자 대시보드를 필터링](compliance-manager-setup.md#filtering-your-dashboard-view) 하 여 하나 이상의 그룹에 따라 점수를 볼 수 있습니다.
 
-##### <a name="learn-more"></a>자세한 정보
+##### <a name="learn-more"></a>자세히 알아보기
 
 [준수 관리자에서 평가를 작성 하 고 관리](compliance-manager-assessments.md)합니다.
 
@@ -112,7 +115,7 @@ ms.locfileid: "48204416"
 
 준수 관리자는 평가를 빠르게 만드는 데 도움이 되는 템플릿을 제공 합니다. 이러한 템플릿을 수정 하 여 사용자의 요구에 맞게 최적화 된 평가를 만들 수 있습니다. 자신만의 컨트롤 및 작업을 사용 하 여 템플릿을 만들어 사용자 지정 평가를 작성할 수도 있습니다. 예를 들어 서식 파일에서 내부 비즈니스 프로세스 컨트롤을 포함 하거나, 150 개 이상의 미리 구성 된 평가 서식 파일 중 하나로 다루지 않는 지역별 데이터 보호 표준을 사용할 수 있습니다.
 
-##### <a name="learn-more"></a>자세한 정보
+##### <a name="learn-more"></a>자세히 알아보기
 
 [준수 관리자가 제공한 평가 템플릿 목록을 확인](compliance-manager-templates-list.md)합니다.
 
@@ -122,7 +125,7 @@ ms.locfileid: "48204416"
 
 개선 작업을 통해 준수 작업을 중앙 집중화 합니다. 각 향상 작업은 데이터 보호 규정 및 표준에 맞게 계획 하는 데 도움이 되는 권장 지침을 제공 합니다. 조직의 사용자에 게 향상 작업을 할당 하 여 구현 및 테스트 작업을 수행할 수 있습니다. 개선 작업 내에 설명서, 메모 및 레코드 상태 업데이트를 저장할 수도 있습니다.
 
-##### <a name="learn-more"></a>자세한 정보
+##### <a name="learn-more"></a>자세히 알아보기
 
 [개선 작업을 사용 하 여 준수 워크플로를 관리](compliance-manager-improvement-actions.md)합니다.
 

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e279d8e075538582ea282e1c6d1493685a817b2a
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 5294b63744ec64f9be566a4a447c56ccd7456136
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208130"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370304"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>캘리포니아 소비자 개인 정보 보호법(CCPA)
 
@@ -53,7 +53,7 @@ OST에 설정 된 대로 Microsoft는 CCPA를 포함 하는 온라인 서비스 
 
 다음은 CCPA에 대 한 준비를 받기 위해 수행할 수 있는 몇 가지 단계입니다.
 
-- CCPA 개인 정보 보호 프로그램의 일부로 [준수 점수](compliance-score.md) 에 GDPR 평가를 활용 하기 시작 합니다.
+- CCPA 개인 정보 보호 프로그램의 일부로 [준수 관리자](compliance-manager.md) 의 GDPR 평가를 활용 하기 시작 합니다.
 - 데이터 주체 요청 도구를 사용 하 여 DSARs (데이터 주체 액세스 요청)에 효율적으로 대응 하는 프로세스를 설정 합니다.
 - Microsoft 정보 보호로 중요한 데이터를 검색하고, 분류하고, 레이블을 지정하고, 보호하기 위해 레이블과 정책을 설정합니다.
 - 전자 메일 암호화 기능을 사용하여 중요 한 정보를 더욱 강력하게 제어합니다.
@@ -93,9 +93,9 @@ CCPA의 경우에는 다음과 같은 방법으로 개인 정보를 수집, 전�
 - CCPA는 13세 미만의 어린이를 위한 COPPA(어린이 온라인 개인 정보 보호법)에 따른 보호자의 동의 의무를 도입합니다.
 - 어린이 들이 이전에 CCPA에서 14 년 사이를 사용 하는 경우에는 어린이 로부터 옵트인 동의를 얻기 위해 새로운 의무를 부과 합니다.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용 하 여 위험 평가
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용하여 위험 평가
 
-[Microsoft 준수 관리자](compliance-manager.md) 는 조직의 규정 준수 상태를 이해 하 고 위험을 줄이는 데 도움이 되는 작업을 수행 하는 데 도움이 되는 [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 기능입니다. 준수 관리자는이 규정에 대 한 평가를 빌드하기 위한 프리미엄 템플릿을 제공 합니다. 준수 관리자의 **평가 템플릿** 페이지에서 템플릿을 찾습니다. [준수 관리자에서 평가를 작성](compliance-manager-assessments.md)하는 방법을 알아봅니다.
+[Microsoft 준수 관리자](compliance-manager.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)의 기능입니다. 준수 관리자는 이 규제에 대한 평가를 빌드하기 위한 프리미엄 서식 파일을 제공합니다. 준수 관리자의 **평가 서식 파일** 페이지에서 서식 파일을 찾습니다. [준수 관리자의 평가 빌드](compliance-manager-assessments.md) 방법에 대해 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

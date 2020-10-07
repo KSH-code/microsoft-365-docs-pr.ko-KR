@@ -17,12 +17,12 @@ ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365에서 Exchange Online 사서함에 추가할 수 있는 다양 한 유형의 보존을 식별 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a76b02f6345421871c759e1b31bf19207b474e2a
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: c0f5d11066169181b524632c7a1340c54f0061f0
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47816827"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370338"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Exchange Online 사서함의 보류 유형을 식별하는 방법
 
@@ -78,7 +78,7 @@ Get-Mailbox <username> | FL LitigationHoldEnabled,InPlaceHolds
 |eDiscovery 보류     |  `UniH7d895d48-7e23-4a8d-8346-533c3beac15d`       |   *InPlaceHolds 속성* 은 보안 및 준수 센터에서 eDiscovery 사례와 관련 된 보류의 GUID를 포함 합니다. GUID는 `UniH` 접두사 (통합 보류 표시)로 시작 되므로 eDiscovery 보류 임을 알릴 수 있습니다.      |
 |원본 위치 유지     |     `c0ba3ce811b6432a8751430937152491` <br/> 또는 <br/> `cld9c0a984ca74b457fbe4504bf7d3e00de`  |     *InPlaceHolds* 속성은 사서함에 배치 된 원본 위치 유지의 GUID를 포함 합니다. GUID가 접두사로 시작 하지 않거나 접두사로 시작 하지 않으므로 원본 위치 유지로 설정할 수 있습니다 `cld` .     |
 |특별히 사서함에 적용 된 Microsoft 365 보존 정책     |    `mbxcdbbb86ce60342489bff371876e7f224:1` <br/> 또는 <br/> `skp127d7cf1076947929bf136b7a2a8c36f:3`     |     InPlaceHolds 속성은 사서함에 적용 된 특정 위치 보존 정책의 Guid를 포함 합니다. GUID는 또는 접두사로 시작 되므로 보존 정책을 식별할 수 있습니다 `mbx` `skp` . `skp`접두사는 보존 정책이 사용자 사서함의 비즈니스용 Skype 대화에 적용 됨을 나타냅니다.    |
-|조직 전체의 Microsoft 365 보존 정책에서 제외 됨     |   `-mbxe9b52bf7ab3b46a286308ecb29624696`      |     사서함이 조직 전체의 Microsoft 365 보존 정책에서 제외 된 경우에는 사서함이 제외 된 보존 정책의 GUID가 InPlaceHolds 속성에 표시 되 고 접두사로 식별 됩니다 `-mbx` .    |
+|조직 전체의 Microsoft 365 보존 정책에서 제외 됨     |   `-mbxe9b52bf7ab3b46a286308ecb29624696`      |     사서함이 조직 전체의 Microsoft 365 보존 정책에서 제외 되는 경우 사서함이 제외 된 보존 정책의 GUID는 InPlaceHolds 속성에 표시 되며 접두사로 식별 됩니다 `-mbx` .    |
 
 ### <a name="get-organizationconfig"></a>Set-organizationconfig
 *InPlaceHolds* 속성을 비워 두면 **사서함** cmdlet을 실행할 때 하나 이상의 조직 전체 Microsoft 365 보존 정책이 사서함에 적용 될 수 있습니다. Exchange Online PowerShell에서 다음 명령을 실행 하 여 조직 전체의 Microsoft 365 보존 정책에 대 한 Guid 목록을 가져옵니다.
@@ -236,7 +236,7 @@ Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayReleaseHoldApplie
 
 사서함에 적용 된 보류를 확인 한 후 보류 시간을 변경 하거나 보류를 일시적으로 제거 하거나 Microsoft 365 보존 정책에서 비활성 사서함을 제외 하는 등의 작업을 수행할 수 있습니다. 보류와 관련 된 작업을 수행 하는 방법에 대 한 자세한 내용은 다음 항목 중 하나를 참조 하십시오.
 
-- 보안 & 준수 센터 PowerShell에서 [new-retentioncompliancepolicy-AddExchangeLocationException \<user mailbox> ](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) 명령을 실행 하 여 조직 전체의 Microsoft 365 보존 정책에서 사서함을 제외 합니다. 이 명령은 *ExchangeLocation* 속성 값이 같은 보존 정책에만 사용할 수 있습니다 `All` .
+- 보안 & 준수 센터 PowerShell에서 [new-retentioncompliancepolicy-id \<Policy Name> -addexchangelocationexception \<user mailbox> ](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) 명령을 실행 하 여 조직 전체의 Microsoft 365 보존 정책에서 사서함을 제외 합니다. 이 명령은 *ExchangeLocation* 속성 값이 같은 보존 정책에만 사용할 수 있습니다 `All` .
 
 - Exchange Online PowerShell에서 [ExcludeFromOrgHolds \<hold GUID without prefix or suffix> ](https://docs.microsoft.com/powershell/module/exchange/set-mailbox) 명령을 실행 하 여 조직 전체의 Microsoft 365 보존 정책에서 비활성 사서함을 제외 합니다.
 

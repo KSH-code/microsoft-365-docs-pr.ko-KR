@@ -9,19 +9,22 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-compliancemanager
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자 사용자 권한 및 역할을 설정 하 고 자동 작업 테스트를 구성 합니다. 사용자 기록을 관리 하 고 대시보드 보기를 필터링 합니다.
-ms.openlocfilehash: ead4fe60a11bcf78a318601c1de6d72f2490c567
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 043a52e2817e770671c2ef8876049f6bbe0285ee
+ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204439"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48368141"
 ---
-# <a name="get-started-with-compliance-manager"></a>준수 관리자 시작
+# <a name="get-started-with-compliance-manager"></a>규정 준수 관리자 시작
 
 **이 문서의 내용** 이 문서는 준수 관리자를 설정 하는 데 도움이 됩니다. 준수 관리자에 **액세스** 하 고, **역할 및 사용 권한을 설정**하 고, **개선 작업의 자동 테스트**를 구성 하는 방법을 알아봅니다. **준수 관리자 대시보드** 를 안내 하 고 주요 페이지: 개선 작업 페이지, 솔루션 페이지, 평가 페이지 및 평가 템플릿 페이지를 이해 합니다.
 
@@ -70,7 +73,7 @@ Microsoft 365 준수 센터 내에서 사용 권한을 설정 하 고 역할을 
 
 자세한 내용은 [Office 365 보안 & 준수 센터의 사용 권한에](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)대 한 자세한 내용을 알아보세요.
 
-Office 365 보안 및 준수 센터에 대 한 액세스 권한이 없거나 Microsoft Service Trust Portal에서 준수 관리자의 클래식 버전에 액세스 해야 하는 경우 서비스 트러스트 포털의 관리 설정에 따라 역할을 할당 하는 다른 방법이 제공 됩니다 ([지침 보기](/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud?view=o365-worldwide.md#assigning-compliance-manager-roles-to-users)). 이러한 역할은 해당 기능에서 더 제한 됩니다.
+Office 365 보안 및 준수 센터에 대 한 액세스 권한이 없거나 Microsoft Service Trust Portal에서 준수 관리자의 클래식 버전에 액세스 해야 하는 경우 서비스 트러스트 포털의 관리 설정에 따라 역할을 할당 하는 다른 방법이 제공 됩니다 ([지침 보기](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#assigning-compliance-manager-roles-to-users)). 이러한 역할은 해당 기능에서 더 제한 됩니다.
 
 ##### <a name="more-about-azure-ad"></a>Azure AD에 대 한 자세한 정보
 

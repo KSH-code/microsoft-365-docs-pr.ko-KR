@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 37cdbb02-a24a-4093-8bdb-2a7f0b3a19ee
 description: Exchange Online 사서함에 대해 무제한 보관 저장소를 제공 하는 자동 확장 보관에 대해 알아봅니다.
-ms.openlocfilehash: f2d9e645badd98ea9a1d14dec22e291c8ad7de63
-ms.sourcegitcommit: 416a4b87bfd7e5aff80194b59b2776f054aa8eb5
+ms.openlocfilehash: 5481fd14f281c132475613228c835c72592d2f59
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44534920"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370426"
 ---
 # <a name="overview-of-unlimited-archiving"></a>무제한 보관 개요
 
@@ -112,4 +112,4 @@ Microsoft 365의 무제한 보관 기능 ( *자동 확장 보관*이라고 함)�
 
 ## <a name="more-information"></a>추가 정보
 
-자동 확장 보관에 대 한 자세한 기술 정보는 [Microsoft 365: 자동 확장 보관 함 FAQ](https://blogs.technet.microsoft.com/exchange/2018/04/09/office-365-auto-expanding-archives-faq/)를 참조 하십시오.
+자동 확장 보관에 대 한 자세한 기술 정보는 [Microsoft 365: 자동 확장 보관 함 FAQ](https://techcommunity.microsoft.com/t5/exchange-team-blog/office-365-auto-expanding-archives-faq/ba-p/607784)를 참조 하십시오.
