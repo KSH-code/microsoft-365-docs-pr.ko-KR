@@ -9,19 +9,19 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
-- m365solution-3tiersprotection
 - m365solution-securecollab
+- m365solution-scenario
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
 description: 팀에서 공동 작업을 수행 하 고 Sharepoint 사이트를 공유 하도록 외부 사용자를 초대할 때 공유 및 추가 보안을 사용 하도록 Microsoft 365을 구성 합니다.
-ms.openlocfilehash: f8dc81ae32bed7a12daf21955ada60ab852d4617
-ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
+ms.openlocfilehash: 11359e2de358d5673da6c39ca2d419c94349a829
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255794"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377416"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>조직 외부의 사용자와 공동 작업
 

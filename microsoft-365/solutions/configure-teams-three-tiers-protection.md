@@ -14,19 +14,18 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 - M365-security-compliance
-- m365solution-3tiersprotection
-- m365solution-overview
 - m365solution-securecollab
+- m365solution-scenario
 ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: Microsoft Teams에서의 파일을 보호하기 위한 구성 권장 사항입니다.
-ms.openlocfilehash: aea542d92e981e286062fc07b7e559b5f36427d4
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 2e432c37642db7247f670dfd8d2d72da6df428bb
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307730"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377392"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>세 가지 보호 계층으로 Teams 구성
 

@@ -10,16 +10,17 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365solution-collabgovernance
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: 그룹 서비스 상호 작용
-ms.openlocfilehash: 9632debf1bc6fdd2fce061a4c535906410700175
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 235a897314a784ba3bb1ac50fe8bdfe9986a70d3
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662767"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377632"
 ---
 # <a name="groups-services-interactions"></a>그룹 서비스 상호 작용
 
@@ -117,14 +118,14 @@ SharePoint 사이트는 소유자, 구성원 및 방문자 보안 그룹을 사�
 |Planner|작업 보드|아니요|예|예|
 |Power Apps 앱|앱|예|아니요|아니요|
 |전원 자동화|워크플로|예|아니요|아니요|
-|Power BI (클래식)|작업 영역|아니요|예|예|
-|Power BI (신규)|작업 영역|예|아니요|예|
+|Power BI (클래식)|Workspace|아니요|예|예|
+|Power BI (신규)|Workspace|예|아니요|예|
 |웹용 Project|프로젝트 계획|예|예|아니요|
 |로드맵|로드맵|예|예|아니요|
 |SharePoint|사이트|예|예|예|
 |Stream|채널, 비디오|예|예|예|
 |Teams|팀|아니요|예|예|
-|Yammer|Group|예|예|예|
+|Yammer|그룹|예|예|예|
 
 위의 표에는 Microsoft 365 서비스와의 그룹 상호 작용에 대 한 간략 한 개요가 나와 있지만 이해 해야 하는 nuances 및 복잡 한 몇 가지 사항이 있습니다. 다음 섹션에서는 특정 작업 및 그룹과의 상호 작용에 대 한 자세한 내용을 소개 합니다.
 

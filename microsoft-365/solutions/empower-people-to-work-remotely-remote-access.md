@@ -15,14 +15,15 @@ ms.collection:
 - Strat_O365_Enterprise
 - remotework
 - m365solution-remotework
+- m365solution-scenario
 ms.custom: ''
 description: Microsoft 365 클라우드 서비스로의 액세스를 최적화하는 동안 원격 작업자는 온-프레미스 리소스에 액세스할 수 있는지 확인합니다.
-ms.openlocfilehash: 7c928718a4d0f0d47fb601e6ab6e51f25c88a04a
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 52a338822c28f6ae044f13f60664d66816d6ce5c
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308394"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377250"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>2단계. 온-프레미스 앱 및 서비스로의 원격 액세스 제공
 
@@ -60,7 +61,7 @@ Microsoft 365 클라우드 리소스에 대한 액세스를 최적화하려면 V
 
 이는 VPN 클라이언트가 인터넷을 통해 직접 중요한 Microsoft 365 클라우드 서비스 트래픽을 가장 가까운 진입점으로 Microsoft 네트워크로 전송하고 받도록 해줍니다.
 
-자세한 내용과 지침은 [VPN 분산 터널링을 사용한 원격 근무자의 Office 365 연결 최적화](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel??)를 참조하세요. 
+자세한 내용과 지침은 [VPN 분산 터널링을 사용한 원격 근무자의 Office 365 연결 최적화](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel?)를 참조하세요. 
 
 ## <a name="deploy-remote-access-when-all-your-apps-are-web-apps-and-you-have-hybrid-identity"></a>모든 앱이 웹 앱이고 하이브리드 ID가 있는 경우 원격 액세스 배포
 
@@ -116,7 +117,7 @@ P2S VPN 연결은 Azure 가상 네트워크를 통해 원격 작업자의 장치
 ## <a name="admin-technical-resources-for-remote-access"></a>원격 액세스를 위한 관리자 기술 리소스
 
 - [원격 직원에 맞게 Office 365 트래픽을 빠르게 최적화하고 인프라의 부하를 줄이는 방법](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
-- [VPN 분할 터널링을 사용하여 원격 사용자의 Office 365 연결 최적화](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel?)
+- [VPN 분할 터널링을 사용하여 원격 사용자의 Office 365 연결 최적화](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel)
 
 ## <a name="results-of-step-2"></a>2단계의 결과
 

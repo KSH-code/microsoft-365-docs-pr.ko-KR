@@ -14,14 +14,15 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - m365solution-infoprotection
+- m365solution-scenario
 ms.custom: ''
 description: Microsoft 365의 id, 장치 및 위협 보호 서비스를 통해 개인 데이터 위반을 방지 합니다.
-ms.openlocfilehash: a0efdcfe8e9d27e19b6cf1355a6d0943b7cdaa59
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 681ff807b734430ae864334b409fe11397f3089e
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195666"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377060"
 ---
 # <a name="use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>데이터 개인 정보 규정에 대 한 id, 장치 및 위협 보호 사용
 

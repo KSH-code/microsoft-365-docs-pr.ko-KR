@@ -12,17 +12,17 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
+- m365solution-collabgovernance
 search.appverid:
 - MET150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 description: 구성원이 microsoft 365 그룹으로 전자 메일을 보내거나 Microsoft 365 그룹을 대신 하 여 전자 메일을 보낼 수 있도록 하는 방법을 알아봅니다.
-ms.openlocfilehash: b660131798e60182435a69f479411cdec948bc99
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 9ccaeff49914dd5b510beb80f40a3a3b790ce831
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662743"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377596"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>구성원이 그룹을 대신 하거나 다른 사람 이름으로 보내기 허용
 
@@ -50,7 +50,7 @@ ms.locfileid: "46662743"
     
 4. **다른 이름으로 보내기** 섹션에서 **+** 그룹으로 보낼 사용자를 추가 하려면 서명을 선택 합니다. 
     
-    ![Microsoft 365 그룹으로 보낼 사용자를 추가 하려면 더하기 기호를 선택 합니다.](../media/1df167f6-1eff-4f98-9ecd-4230fab46557.png)
+    ![다른 이름으로 보내기 대화 상자의 스크린샷](../media/1df167f6-1eff-4f98-9ecd-4230fab46557.png)
   
 5. 목록에서 사용자를 검색 하거나 선택 하려면 입력 합니다. **확인** 및 **저장**을 선택 합니다.
     
@@ -68,7 +68,7 @@ ms.locfileid: "46662743"
     
 4. 대신 보내기 섹션에서 **+** 그룹으로 보낼 사용자를 추가 하려면 서명을 선택 합니다. 
     
-    ![Microsoft 365 그룹으로 보낼 사용자를 추가 하려면 더하기 기호를 선택 합니다.](../media/2bae0579-8907-4d6b-8920-ddd6555897b4.png)
+    ![대신 보내기 대화 상자의 스크린샷](../media/2bae0579-8907-4d6b-8920-ddd6555897b4.png)
   
 5. 목록에서 사용자를 검색 하거나 선택 하려면 입력 합니다. **확인** 및 **저장**을 선택 합니다.
     

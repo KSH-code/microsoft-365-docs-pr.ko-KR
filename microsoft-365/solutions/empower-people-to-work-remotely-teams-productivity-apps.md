@@ -15,14 +15,15 @@ ms.collection:
 - Strat_O365_Enterprise
 - remotework
 - m365solution-remotework
+- m365solution-scenario
 ms.custom: ''
 description: 사용자가 Teams, Exchange, SharePoint 및 기타 Microsoft 365 서비스를 사용하여 생산성을 향상시킬 수 있도록 합니다.
-ms.openlocfilehash: 277b3830c20c00209a1860468d58b82b3ec479f2
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: a001bb748a9b6e0431c75c0a23637fd47e460a6e
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521484"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377620"
 ---
 # <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>5단계. 원격 작업자 생산성 앱 및 서비스 배포
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Teams에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: 04ca027b9ce8ad1b36e0d4e60c4e10308a822a63
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: 40e68116c24622fd21bd35531ef7821d8c4b7c62
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47816741"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370372"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Microsoft Teams의 보존에 대해 알아보기
 
@@ -51,18 +51,18 @@ Teams 채팅 및 채널 메시지는 사용자 또는 그룹 사서함에 대해
 
 다이어그램의 두 경로:
 
-1. **보존 기간 동안 사용자가 채팅 또는 채널 메시지를 편집하거나** 삭제하는 경우에는 원본 메시지가 즉시 복사되거나(편집된 경우) 또는 (삭제된 경우) SubstrateHolds 폴더로 이동됩니다. 이 메시지는 보존 기간이 만료 될 때까지 저장된 다음 24 시간 내에 영구적으로 삭제됩니다.
+1. 보존 기간 동안 사용자가 **채팅 또는 채널 메시지를 편집하거나 삭제**하는 경우에는, 원본 메시지가 21일 내에 복사되거나(편집된 경우) 또는 (삭제된 경우) SubstrateHolds 폴더로 이동됩니다. 이 메시지는 여기 보존 기간이 만료될 때까지 저장된 다음 24시간 내에 영구적으로 삭제됩니다.
 
-2. **채팅 또는 채널 메시지가 삭제되지 않는 경우**, 편집 후 현재 메시지에 대한 메시지는 보존 기간이 만료 된 후 SubstrateHolds 폴더로 이동합니다. 이 작업은 만료 날짜로부터 최대 7일이 걸립니다. 메시지가 SubstrateHolds 폴더에 있으면 24시간 내에 영구적으로 삭제됩니다. 
+2. **채팅 또는 채널 메시지가 삭제되지 않는 경우**, 편집 후 현재 메시지에 대한 메시지는 보존 기간이 만료 된 후 SubstrateHolds 폴더로 이동됩니다. 이 작업은 만료 날짜로부터 최대 7일이 걸립니다. 메시지가 SubstrateHolds 폴더에 있으면 24시간 내에 영구적으로 삭제됩니다. 
 
 > [!NOTE]
-> SubstrateHolds 폴더의 메시지는 eDiscovery 도구에서 검색할 수 있습니다. 메시지가 영구적으로 삭제 될 때까지 (SubstrateHolds 폴더에서)는 eDiscovery 도구에 의해 검색가능한 상태로 유지됩니다.
+> SubstrateHolds 폴더의 메시지는 eDiscovery 도구에서 검색할 수 있습니다. SubstrateHolds 폴더에서 메시지가 영구적으로 삭제될 때까지 메시지는 eDiscovery 도구로 검색 가능한 상태로 유지됩니다.
 
-보유 정책이 보유 전용 또는 삭제 전용인 경우 컨텐츠 경로는 보유 및 삭제의 변형입니다.
+보존 정책이 보유 전용 또는 삭제 전용인 경우, 콘텐츠 경로는 보유 및 삭제의 변형입니다.
 
-### <a name="content-paths-for-retain-only-retention-policy"></a>보유 전용 보존 정책의 컨텐츠 경로
+### <a name="content-paths-for-retain-only-retention-policy"></a>보유 전용 보존 정책의 콘텐츠 경로
 
-1. **채팅 또는 채널 메시지를 편집하거나 삭제하는 경우**: 원본 메시지의 복사본은 SubstrateHolds 폴더에 즉시 만들어지고 보존 기간이 만료될 때까지 보존됩니다. 그런 다음 24시간 이내에 SubstrateHolds 폴더에서 메시지가 영구적으로 삭제됩니다.
+1. **채팅 또는 채널 메시지를 편집하거나 삭제하는 경우**, 원본 메시지의 복사본은 21일 내에 SubstrateHolds 폴더에 만들어지고 보존 기간이 만료될 때까지 보존됩니다. 그런 다음 24시간 이내에 SubstrateHolds 폴더에서 메시지가 영구적으로 삭제됩니다.
 
 2. **항목이 수정되거나 삭제되지 않거나** 보존 기간 중에 편집 후 현재 메시지에 대한 경우: 보존 기간 전후에 아무런 변화가 없습니다. 메시지는 원래 위치에 남아 있습니다.
 
@@ -70,10 +70,10 @@ Teams 채팅 및 채널 메시지는 사용자 또는 그룹 사서함에 대해
 
 1. 보존 기간 동안 **메시지가 삭제되지 않은 경우**: 보존 기간이 끝나면 메시지가 SubstrateHolds 폴더로 이동됩니다. 이 작업은 만료 날짜로부터 최대 7일이 걸립니다. 그런 다음 24시간 이내에 SubstrateHolds 폴더에서 메시지가 영구적으로 삭제됩니다.
 
-2. **해당 기간 동안 사용자가 항목을 삭제하는 경우** 그 항목이 24시간 이내에 영구적으로 삭제되는 SubstrateHolds 폴더로 즉시 이동됩니다.
+2. 해당 기간 동안 **사용자가 해당 항목을 삭제하는 경우** 항목은 21일 이내에 24시간 안에 영구적으로 삭제되는 SubstrateHolds 폴더로 이동됩니다.
 
 
-## <a name="skype-for-business-and-teams-interop-chats"></a>비즈니스용 Skype 및 팀 상호 운용 채팅
+## <a name="skype-for-business-and-teams-interop-chats"></a>비즈니스용 Skype 및 Teams 상호 운용 채팅
 
 비즈니스용 Skype 채팅이 Teams로 이동하는 경우 해당 채팅은 Teams 채팅 스레드에서 메시지가 되고 해당 사서함에 수집됩니다. Teams 보존 정책은 이러한 메시지를 Teams 스레드에서 적용합니다. 
 

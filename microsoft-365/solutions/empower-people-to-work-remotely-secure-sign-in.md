@@ -15,14 +15,15 @@ ms.collection:
 - Strat_O365_Enterprise
 - remotework
 - m365solution-remotework
+- m365solution-scenario
 ms.custom: ''
 description: 원격 작업자는 MFA(다단계 인증)를 사용하여 로그인해야 합니다.
-ms.openlocfilehash: 0b655800d27e6836a3848bfb2a94fc9c30439ec7
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 192c26a42c15c0c8f7da15c992d7d564a312e6a9
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132205"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377464"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>1단계. MFA를 사용하여 원격 작업자에 대 한 로그인 보안 강화
 
