@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
 description: Microsoft 365 id 거 버 넌 스 기능을 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d5bcafb5b452e693bf3ff706c436a9986eeeae76
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: e4c537e7fa3ac099caf8b7dbc44327308751c8f5
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328547"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370349"
 ---
 # <a name="manage-microsoft-365-identity-governance"></a>Microsoft 365 id 거 버 넌 스 관리
 
@@ -46,8 +46,6 @@ Azure AD 액세스 검토를 통해 사용자의 액세스를 검토 하 여 적
 이러한 작업은 조직이 사용자 계정에 너무 많은 액세스 권한이 있는지 확인하고 산업 또는 지역 규정을 위반할 경우 벌금을 매길 수 있는 보안 감사를 받고 있는 경우에 특히 중요합니다.
 
 자세한 내용은 [access 검토용 개요](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)를 참조 하세요.
-
-PIM(Azure AD Privileged Identity Management)에서는 Azure AD, Azure 및 기타 Microsoft 클라우드 서비스에서 리소스에 대한 액세스 권한을 보호하기 위해 조정된 추가 컨트롤을 제공합니다. Azure AD PIM은 디렉터리, Office 365, Azure 리소스 역할 등 회사의 리소스를 보호하는 데 도움이 되는 포괄적인 관리 제어 집합을 제공합니다. 다른 양식의 액세스를 사용하는 경우와 마찬가지로 조직은 액세스 검토를 사용하여 관리자 역할의 모든 사용자에 대해 정기 액세스 재인증을 구성할 수 있습니다. Azure AD PIM은 Microsoft 365 Enterprise의 E5 버전에서만 사용할 수 있습니다.
 
 다양한 유형의 액세스 검토를 구성하려면 다음 문서를 참조하세요.
 

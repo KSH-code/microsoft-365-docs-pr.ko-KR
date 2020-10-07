@@ -3,7 +3,6 @@ title: Microsoft 365 네트워킹 파트너 프로그램
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/07/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -17,12 +16,12 @@ search.appverid: MOE150
 ms.assetid: 8a113a50-0071-4155-bb8e-eba5a8dbd4c8
 description: Microsoft 365 네트워킹 파트너 프로그램을 사용 하면 장치가 Microsoft 365에서 작동 하는 것으로 인증 됩니다.
 hideEdit: true
-ms.openlocfilehash: fb4a7c9543c6928eefbd62fc6b94e6bdab93e86d
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 4f47b4d58dacf9578952f18668f2a0a89752f30f
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692741"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370361"
 ---
 # <a name="microsoft-365-networking-partner-program"></a>Microsoft 365 네트워킹 파트너 프로그램
 
@@ -40,4 +39,4 @@ Microsoft 365 네트워킹 파트너 프로그램은 자격 있는 네트워킹 
 
 Microsoft 365 고객 인 경우이 페이지를 통해 네트워크 솔루션 공급자가이 프로그램을 알 수 있습니다 [https://aka.ms/Office365NPP](https://aka.ms/Office365NPP) .
 
-Microsoft 365 네트워킹 파트너 프로그램에 대해 조회 하려는 네트워크 솔루션 공급자는 [이 양식을](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRyMNEapKtzJHu98R0YXYz1RUN0QxSUVEWTdRVTdIV1RTWjIzOVk0QkE4US4u)작성 하세요. 관심을 보내주셔서 감사 하 고 아름 다운의 파트너 관계를 확인 합니다.
+Microsoft 365 네트워킹 파트너 프로그램에 대해 조회 하려는 네트워크 솔루션 공급자는에서 양식을 작성 하세요 [https://aka.ms/NPPsignup](https://aka.ms/NPPsignup) . 관심을 보내주셔서 감사 하 고 아름 다운의 파트너 관계를 확인 합니다.

@@ -13,16 +13,35 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: a483a03fc913a019f58e80fb2713bb0367a6db44
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 9dec293a26cbc3d239a597e46815d60d79b9ac20
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546273"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370415"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 문서 변경 기록
 
 이 문서에서는 [Microsoft Managed Desktop 설명서](index.yml)의 새로운 문서와 업데이트 된 문서가 나와 있습니다. "업데이트 된" 문서에는 재료가 추가 되거나 수정 된 문서가 포함 되며, 오타, 스타일 또는 서식 문제를 수정 하는 것과 같은 사소한 수정 사항이 나열 되지 않습니다. [GitHub의 리포지토리](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop)를 방문 하 여 언제 든 지 변경 세부 정보를 비롯 하 여 특정 커밋 기록을 볼 수 있습니다.
+
+
+## <a name="september-2020"></a>2020년 9월
+새로 만들기 또는 변경 된 문서 | 설명
+--- | ---
+[개인 정보 및 개인 데이터](service-description/privacy-personal-data.md) | 새 문서
+[Microsoft Managed Desktop의 매핑된 드라이브 준비](get-ready/mapped-drives.md) | 업데이트된 문서
+[사용자를 위한 도움말](working-with-managed-desktop/end-user-support.md) | 업데이트된 문서
+[구성 가능한 설정 참조-Microsoft Managed Desktop](working-with-managed-desktop/config-setting-ref.md) | 업데이트된 문서
+[구성 가능한 설정 배포 및 추적-Microsoft Managed Desktop](working-with-managed-desktop/config-setting-deploy.md) | 업데이트된 문서
+[Microsoft Managed Desktop의 관리자 지원](working-with-managed-desktop/admin-support.md) | 업데이트된 문서
+[Microsoft Teams](get-started/teams.md) | 새 문서
+[관리 포털 액세스](get-started/access-admin-portal.md) | 새 문서
+[Microsoft Managed Desktop의 인쇄 리소스 준비](get-ready/printing.md) | 업데이트된 문서
+[Autopilot 및 등록 상태 페이지의 첫 실행 환경](get-started/esp-first-run.md) | 업데이트된 문서
+[직접 새 장치 등록](get-started/register-devices-self.md) | 업데이트된 문서
+[Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비](get-ready/certs-wifi-lan.md) | 업데이트된 문서
+[Microsoft Managed Desktop의 필수 구성 요소](get-ready/prerequisites.md) | 업데이트된 문서
+[인사이트를 활용한 작업](working-with-managed-desktop/insights.md) | 업데이트된 문서
 
 ## <a name="august-2020"></a>2020년 8월
 새로 만들기 또는 변경 된 문서 | 설명

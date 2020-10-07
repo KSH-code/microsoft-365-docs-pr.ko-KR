@@ -19,21 +19,22 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 51b764e660ae36ae3476809b5fe6dae1c4ca0891
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: 8b3f8d6868d14b8791a676367d4fb9ad5c2e3307
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48304965"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370383"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Microsoft Threat Protection의 미리 보기 기능
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
+>[!IMPORTANT]
+>Preview 버전은 서비스 수준 계약 없이 제공 되며 프로덕션 작업에는 권장 되지 않습니다. 특정 기능은 지원 되지 않거나 제한 된 기능을 포함할 수 있습니다.
 
 **적용 대상:**
 - Microsoft 위협 방지
-
 
 Microsoft Threat Protection 서비스는 새로운 기능 향상 및 기능을 포함하기 위해 지속적으로 업데이트됩니다.
 
