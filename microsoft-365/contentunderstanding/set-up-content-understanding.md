@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: MET150
 localization_priority: Priority
 description: Project Cortex에서 콘텐츠 이해 설정
-ms.openlocfilehash: 7fb5998729c9f11902f8fdfaffa62b160928077c
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 0d66076c93eb46ca11977cea12417c0816e0d11b
+ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321352"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48367934"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex 설정
 
@@ -43,11 +43,9 @@ Microsoft 365 관리 센터에서 초기 설정 후 설정을 변경할 수 있�
 
 ## <a name="to-set-up-sharepoint-syntex"></a>SharePoint Syntex를 설정하려면 다음을 수행합니다.
 
-1. Microsoft 365 관리 센터에서 **설정**을 선택한 다음 **조직 지식** 섹션을 봅니다.
+1. Microsoft365 관리 센터에서 **설정**을 선택하고 **파일 및 콘텐츠** 섹션을 선택합니다.
 
-2. **조직 지식** 섹션에서 **콘텐츠 이해 자동화**를 선택합니다.<br/>
-
-    ![조직 지식 설정 페이지.](../media/content-understanding/admin-org-knowledge-options.png)</br>
+2. **파일 및 콘텐츠** 섹션에서 **콘텐츠 이해 자동화**를 선택합니다.<br/>
 
 3. **콘텐츠 이해 자동화** 페이지에서 **시작하기**를 클릭하여 설정 프로세스를 살펴봅니다.<br/>
 

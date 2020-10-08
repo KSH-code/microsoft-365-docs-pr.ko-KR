@@ -9,18 +9,18 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: 문서 이해 모델에 보존 레이블을 적용하는 방법 알아보기
-ms.openlocfilehash: 6f616dc3d2ebd87bcc70ee01c9f3a88db60b6f17
-ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.openlocfilehash: 052c137a419c0185010fbd152e73615a4bb093af
+ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337244"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48367956"
 ---
 # <a name="document-understanding-model-usage-analytics"></a>문서 이해 모델 사용 분석
 
 </br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GpJY]  
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GnhX]  
 
 </br>
 
