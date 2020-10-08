@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 751cafe1993db151ff27ac4a66780a0ce10d69ee
-ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
+ms.openlocfilehash: 99bda752edf46c5e446e393b5f185b3f18eff974
+ms.sourcegitcommit: 7e8151ff74cb1cfc0dd59fadcac423c338415d77
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341393"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48390154"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치 
 
@@ -71,6 +71,7 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 |----------|----------------|---------------------------|----------------|--------------------|
 | **\*[Surface Book 3](https://www.microsoft.com/p/surface-book-3-for-business/93h0mb2gqd5b?activetab=pivot%3aoverviewtab)** | 256 GB/Intel i5/8GB RAM | 없음 | 5 월 21 일, 2022 | 5 월 21 일, 2027 |
 | **\*[표면 이동 2](https://www.microsoft.com/p/surface-go-2-for-business/8wzd6dhzj7kv?activetab=pivot%3aoverviewtab)** | 128 GB/인텔 코어 M3/8GB RAM | 없음 | 5 월 21 일, 2022 | 5 월 21 일, 2027 |
+| [Surface 랩탑을 이동 합니다.](https://www.microsoft.com/surface/business/surface-laptop-go) | 128 GB/Intel i5/8gb RAM | 없음 | 2022 년 10 월 12 일 | 2025 년 10 월 12 일 |
 | [Surface 랩탑 2](https://www.microsoft.com/p/surface-laptop-2-for-business/8xlk0g60tlb6/hkq9?cid=msft_web_collection&CustomerIntent=Consumer) | 128 GB/Intel i5/8gb RAM | 없음 | 2020 년 10 월 16 일 | 2023 년 10 월 16 일 |
 | [Surface 랩탑 3](https://www.microsoft.com/surface/business/surface-laptop-3) | 128 GB/Intel i5/8gb RAM | 없음 | 2021 년 10 월 22 일 | 2024 년 10 월 22 일 |
 | [Surface Pro 6](https://www.microsoft.com/p/surface-pro-6-for-business/8xjq3d3lrp0r/grf9?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 128 GB/Intel i5/8gb RAM | 없음 | 2020 년 10 월 16 일 | 2023 년 10 월 16 일 |

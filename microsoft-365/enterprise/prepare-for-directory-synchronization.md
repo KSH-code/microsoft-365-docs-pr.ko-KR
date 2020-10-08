@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: 디렉터리 동기화 및이 방법을 사용할 경우의 장기적 이점을 사용 하 여 사용자를 Microsoft 365에 프로 비전 하도록 준비 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: a70f49dd5656da996912173690dc2b21b4288023
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 79d2a7932867531849ce75f8452b91e8c7ddd7b1
+ms.sourcegitcommit: 7e8151ff74cb1cfc0dd59fadcac423c338415d77
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327288"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48390176"
 ---
 # <a name="prepare-for-directory-synchronization-to-microsoft-365"></a> Microsoft 365로 디렉터리 동기화 준비
 
@@ -158,6 +158,7 @@ AD DS 사용자 중 일부에 중복 된 특성이 하나 이상 있는 경우�
   - @ 기호 앞에 있는 사용자 이름의 최대 문자 수: 64
   - @ 기호 뒤에 있는 도메인 이름의 최대 문자 수: 48
   - 유효 하지 않은 문자: \% &amp; \* +/=? { } | \< \> ( ) ; : , [ ] " '
+  - 허용 되는 문자: A – Z, a-z, 0 – 9, ' - _ ! # ^ ~
   - 움라우트도 잘못 된 문자입니다.
   - @ 문자는 각 **userPrincipalName** 값에 필요 합니다.
   - @ 문자는 각 **userPrincipalName** 값의 첫 번째 문자일 수 없습니다.
