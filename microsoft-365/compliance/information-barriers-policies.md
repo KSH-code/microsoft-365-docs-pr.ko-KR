@@ -11,15 +11,17 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.collection:
 - M365-security-compliance
+- m365solution-mip
+- m365initiative-compliance
 localization_priority: None
 description: Microsoft 팀에서 정보 장벽에 대 한 정책을 정의 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dcf7fd496098032bad075c1679f0081ddf29caef
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: f7e1fbb0f1d468f8e1b79f9cc414fdb87a224283
+ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547446"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48379180"
 ---
 # <a name="define-information-barrier-policies"></a>정보 장벽 정책 정의
 
@@ -55,7 +57,7 @@ ms.locfileid: "47547446"
 |(필요한 경우) [세그먼트 또는 정책 편집](information-barriers-edit-segments-policies.md)    |-세그먼트 편집<br/>-정책 편집 또는 제거<br/>-정책 응용 프로그램 다시 실행<br/>-정책 상태 보기         |
 |(필요한 경우) [문제 해결](information-barriers-troubleshooting.md)|-항목이 정상적으로 작동 하지 않을 때 작업 수행|
 
-## <a name="prerequisites"></a>필수 조건
+## <a name="prerequisites"></a>필수 구성 요소
 
 [필요한 라이선스 및 사용 권한](information-barriers.md#required-licenses-and-permissions)외에도 다음과 같은 요구 사항을 충족 하는지 확인 합니다. 
      

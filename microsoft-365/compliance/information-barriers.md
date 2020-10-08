@@ -11,15 +11,17 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.collection:
 - M365-security-compliance
+- m365solution-mip
+- m365initiative-compliance
 localization_priority: None
 description: 정보 장애물을 사용 하 여 조직 내에서 Microsoft 팀을 사용 하 여 통신을 준수 하는지 확인 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f723885a366e6f92f29faccfb632677c6e0028c8
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: 7b223de8eba68d49a8cc0c90239305eb05bb1090
+ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430226"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48379197"
 ---
 # <a name="information-barriers"></a>정보 장벽
 

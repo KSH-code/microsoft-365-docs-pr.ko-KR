@@ -10,17 +10,20 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: None
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-mip
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 분류자는 다양 한 유형의 콘텐츠를 확인할 수 있도록 교육을 제공 하는 도구입니다. 이 문서에서는 사용자 지정 분류자를 만들고 학습 하는 방법과이를 재교육 하 여 정확성을 향상 시키는 방법을 설명 합니다.
-ms.openlocfilehash: fd6bc68a8bc373d9d02e23b73971b28ce8761cd9
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 30f3c45945b4879be17eadfe04e8ccb8526df16a
+ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132372"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48379250"
 ---
 # <a name="get-started-with-trainable-classifiers-preview"></a>학습 가능한 분류자 시작(미리 보기)
 

@@ -12,16 +12,18 @@ ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
+- m365solution-mip
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠 탐색기를 사용하여 레이블이 지정된 항목을 원래 상태로 볼 수 있습니다.
-ms.openlocfilehash: e5041f82d22b62e8b343c62136251e2c69ca9e47
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 7977d30881a4229f99f4c5976d4c41377573a6ca
+ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127045"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48379216"
 ---
 # <a name="get-started-with-content-explorer"></a>콘텐츠 탐색기 시작하기
 

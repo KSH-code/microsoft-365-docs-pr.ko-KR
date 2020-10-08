@@ -12,16 +12,18 @@ ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
+- m365solution-mip
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 description: 데이터 분류 대시보드에서는 조직에서 검색 및 분류한 중요한 데이터의 양을 시각적으로 파악할 수 있습니다.
-ms.openlocfilehash: 725dc5d2e9e5cf0638a54c5ee46d77b321ae4796
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 503235ad2ee35760a03cb2427d1e84f5f3639b9f
+ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131726"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48379228"
 ---
 # <a name="know-your-data---data-classification-overview"></a>데이터 파악 - 데이터 분류 개요
 

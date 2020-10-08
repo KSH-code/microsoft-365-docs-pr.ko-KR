@@ -12,17 +12,19 @@ ms.date: 04/23/2019
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
+- m365solution-mip
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 description: 'DLP(데이터 손실 방지)에 대한 사용자 지정 중요한 정보 유형(예: 기본 패턴, 문자 근접성, 신뢰 수준)의 개요를 확인합니다.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3b3e30c75641dde16726e1d98c8f12c4437b0df6
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: d21d0be23847a8fbd27b6082ca28cdca2d4eed05
+ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685478"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48379171"
 ---
 # <a name="custom-sensitive-information-types"></a>사용자 지정 중요한 정보 유형
 

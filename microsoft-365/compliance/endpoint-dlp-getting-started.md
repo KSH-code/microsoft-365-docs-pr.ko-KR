@@ -14,16 +14,17 @@ ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
-- SPO_Content
+- m365solution-mip
+- m365initiative-compliance
 search.appverid:
 - MET150
 description: Microsoft 365 Endpoint 데이터 손실 방지를 설정하여 파일 활동을 모니터링하고 해당 파일에 대한 보호 작업을 엔드포인트에 구현합니다.
-ms.openlocfilehash: 08e2bd43b4337087b401244b7dc4cf80a26aaf06
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: e0b9ba6afcad0c683aaa7386998a621f279aa9eb
+ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131672"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48379243"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention-preview"></a>Endpoint 데이터 손실 방지(미리 보기) 시작하기
 

@@ -12,16 +12,18 @@ ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
+- m365solution-mip
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 description: 활동 탐색기는 사용자가 레이블이 지정된 콘텐츠에 대해 수행하는 작업을 확인하고 필터링하여 데이터 분류 기능을 자세히 설명합니다.
-ms.openlocfilehash: 63ecb84c0ae658b0fd3463dba10d56059352910b
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 0175f41ca3fbcfc685acf933cc0cd97af6aa61ad
+ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126647"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48379206"
 ---
 # <a name="get-started-with-activity-explorer"></a>활동 탐색기 시작하기
 
