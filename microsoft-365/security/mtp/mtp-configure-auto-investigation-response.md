@@ -7,19 +7,19 @@ ms.author: deniseb
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.date: 09/17/2020
+ms.date: 10/07/2020
 ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection: M365-security-compliance.
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
-ms.openlocfilehash: f7bcfa4f08bee51408de33964f1dfd1e1db3bd33
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: f904512f9fd07e2065f3d27a5bd5adc56a3565d5
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199748"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384796"
 ---
 # <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-threat-protection"></a>Microsoft Threat Protection에서 자동화 된 조사 및 응답 기능 구성
 
@@ -52,8 +52,6 @@ Microsoft 위협 보호에는 강력한 [자동화 조사 및 응답 기능이](
 
 자동화 된 조사가 실행 되는지 여부와, 재구성 작업이 자동으로 수행 되는지, 아니면 장치에 대 한 승인에만 적용 되는지를 조직의 장치 그룹 정책 등의 특정 설정에 따라 결정 해야 합니다. 장치 그룹 정책에 대해 설정 된 자동화 수준을 검토 합니다.
 
-### <a name="to-review-or-change-your-device-group-policies"></a>장치 그룹 정책을 검토 하거나 변경 하려면
-
 1. Microsoft Defender 보안 센터 ()로 이동 [https://securitycenter.windows.com](https://securitycenter.windows.com) 하 여 로그인 합니다.
 
 2. **설정**  >  **사용 권한**  >  **장치 그룹**으로 이동 합니다. 
@@ -69,8 +67,6 @@ Microsoft 위협 보호에는 강력한 [자동화 조사 및 응답 기능이](
 Microsoft는 특정 위험을 식별 하는 데 도움이 되는 기본 제공 [경고 정책을](https://docs.microsoft.com/microsoft-365/compliance/alert-policies) 제공 합니다. 이러한 위험에는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적 외부 및 내부 위협, 정보 관리 위험 등이 있습니다. 일부 알림은 [Office 365에서 자동화 된 조사 및 응답](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)을 트리거할 수 있습니다. [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) 기능이 올바르게 구성 되어 있는지 확인 합니다.
 
 특정 경고 및 보안 정책에서 자동화 된 조사를 트리거할 수 있지만 전자 메일 및 콘텐츠에 대 한 재구성 작업이 자동으로 수행 되지 않습니다. 대신, 전자 메일 및 전자 메일 콘텐츠에 대 한 모든 수정 작업은 [작업 센터](mtp-action-center.md)에서 보안 운영 팀의 승인을 기다립니다.
-
-### <a name="to-view-or-change-your-security-and-alert-policies-in-office-365"></a>Office 365에서 보안 및 경고 정책을 보거나 변경 하려면
 
 Office 365의 보안 설정은 전자 메일 및 콘텐츠를 보호 하는 데 도움이 됩니다. 이러한 설정을 보거나 변경 하려면 [위협 으로부터 보호에 대](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)한 지침을 따르세요.
 
@@ -94,7 +90,9 @@ Office 365의 보안 설정은 전자 메일 및 콘텐츠를 보호 하는 데 
 
 1. Microsoft 365 보안 센터 ()로 이동 [https://security.microsoft.com](https://security.microsoft.com) 하 여 로그인 합니다.
 
-2. 탐색 창에서 다음 이미지에 표시 된 것 처럼 **인시던트**, **작업 센터** **및 검색**을 찾습니다.<br/> :::image type="content" source="../../media/mtp-enable/mtp-on.png" alt-text="MTP 켜기":::
+2. 탐색 창에서 다음 이미지에 표시 된 것 처럼 **인시던트**, **작업 센터** **및 검색**을 찾습니다.
+
+   :::image type="content" source="../../media/mtp-enable/mtp-on.png" alt-text="MTP 켜기":::
 
    - **인시던트**, **작업 센터**및 **사냥**이 표시 되 면 Microsoft Threat Protection이 설정 됩니다. 다음 절차를 진행 하 여 [장치 그룹에 대 한 자동화 수준을 검토 하거나 변경](#review-or-change-the-automation-level-for-device-groups)합니다.
 

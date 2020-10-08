@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 Microsoft 365에 대 한 최신 인증을 지 원하는 플랫폼, 클라이언트 및 Powershell 모듈에 대해 설명 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d38b5c11a77af8691aaa5e14d288918b39c0d847
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: eee0e9009f7e6a74f25ebf0315b2772ac3e98814
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546305"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384816"
 ---
 # <a name="microsoft-365-client-app-support---modern-authentication"></a>Microsoft 365 클라이언트 앱 지원-최신 인증
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-최신 인증은 여러 플랫폼의 Office 클라이언트 앱에 대해 ADAL (Active Directory 인증 라이브러리) 기반 로그인을 사용 하도록 설정 합니다. 이를 통해 MFA (Multi-factor Authentication), 스마트 카드 및 인증서 기반 인증과 같은 로그인 기능을 사용할 수 있습니다.
+최신 인증은 여러 플랫폼의 Office 클라이언트 앱에 대해 ADAL (Active Directory 인증 라이브러리) 기반 로그인을 사용 하도록 설정 합니다. 이를 통해 MFA (multi-factor authentication), 스마트 카드 및 인증서 기반 인증과 같은 로그인 기능을 사용할 수 있습니다.
 
 [Multi-factor authentication](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication) 및 [인증서 기반 인증](https://docs.microsoft.com/azure/active-directory/active-directory-certificate-based-authentication-get-started)에 대해 자세히 알아보세요.
 
@@ -40,7 +40,7 @@ ms.locfileid: "47546305"
  - iOS
  - macOS
 
-Microsoft 365의 플랫폼 지원에 대 한 자세한 내용은 [microsoft 365의 시스템 요구 사항을](https://products.office.com/office-system-requirements)참조 하세요.
+Microsoft 365의 플랫폼 지원에 대 한 자세한 내용은 [microsoft 365의 시스템 요구 사항을](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources)참조 하세요.
 
 ## <a name="supported-clients"></a>지원되는 클라이언트
 
@@ -66,6 +66,6 @@ Microsoft 365의 플랫폼 지원에 대 한 자세한 내용은 [microsoft 365�
 > <sup>1</sup> 웹 앱에 대 한 화이트 보드 및 비즈니스용 Skype 지원을 곧 사용할 수 있습니다. <br>
 > <sup>2</sup> Android에서 화이트 보드에 대 한 지원이 곧 제공 될 예정입니다.
 
-## <a name="see-also"></a>다음 내용도 참조하십시오.
+## <a name="see-also"></a>참고 항목
 
 [Microsoft 365 Enterprise 개요](microsoft-365-overview.md)

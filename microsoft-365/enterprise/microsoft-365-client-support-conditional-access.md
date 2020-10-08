@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 Microsoft 365에 대 한 조건부 액세스를 지 원하는 플랫폼, 클라이언트 및 Powershell 모듈에 대해 설명 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fd4dcaeda27f12427f3175b7ec52e2fdb0c153da
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: d44dffd6da91be9e64953d1b744043114ba68183
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546515"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384925"
 ---
 # <a name="microsoft-365-client-app-support--conditional-access"></a>Microsoft 365 클라이언트 앱 지원-조건부 액세스
 
@@ -40,7 +40,7 @@ Azure Active Directory (Azure AD) 장치, 위치 및 다단계 인증 기반 조
  - iOS
  - macOS<sup>1</sup>
 
-Microsoft 365의 플랫폼 지원에 대 한 자세한 내용은 [microsoft 365의 시스템 요구 사항을](https://products.office.com/office-system-requirements)참조 하세요.
+Microsoft 365의 플랫폼 지원에 대 한 자세한 내용은 [microsoft 365의 시스템 요구 사항을](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources)참조 하세요.
 
 ## <a name="supported-clients"></a>지원되는 클라이언트
 
@@ -65,6 +65,6 @@ Microsoft 365의 플랫폼 지원에 대 한 자세한 내용은 [microsoft 365�
 > [!NOTE]
 > <sup>1</sup> Macos의 OneDrive에 대 한 지원이 곧 제공 될 예정입니다.
 
-## <a name="see-also"></a>다음 내용도 참조하십시오.
+## <a name="see-also"></a>참고 항목
 
 [Microsoft 365 Enterprise 개요](microsoft-365-overview.md)

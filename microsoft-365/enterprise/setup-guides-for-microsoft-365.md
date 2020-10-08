@@ -3,7 +3,6 @@ title: Microsoft 365 및 Office 365 서비스용 설정 가이드
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/15/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -22,22 +21,22 @@ search.appverid:
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
 description: 설치 가이드를 사용 하 여 Microsoft 365 또는 Office 365의 계획 및 구성을 가속화 합니다.
-ms.openlocfilehash: 106a659dd75ae14d38c393a9547b84630e458337
-ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
+ms.openlocfilehash: 67e24ae41806b4dc112387526177cb4bd84d0779
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48357985"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384908"
 ---
 # <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Microsoft 365 및 Office 365 서비스용 설정 가이드
 
-Microsoft 365 및 Office 365 설치 가이드에서는 앱 및 서비스를 배포 하기 위한 관리자가 조정할 때 사용할 지침 및 리소스를 제공 합니다. 이러한 가이드는 FastTrack 온 보 딩 전문가가 개별 상호 작용에서 공유 하는 것과 동일한 모범 사례를 사용 하 여 작성 되었으며, Microsoft 365 관리 센터 내의 모든 관리자가 사용할 수 있습니다. 제품 설정에 대 한 정보를 제공 하 고, 보안 기능을 사용 하며, 공동 작업 도구를 배포 하 고, 고급 배포 속도를 향상 하기 위한 스크립트를 제공
+Microsoft 365 및 Office 365 설치 가이드에는 테 넌 트, 앱 및 서비스를 계획 하 고 배포 하기 위한 맞춤형 지침 및 리소스가 제공 됩니다. 이러한 가이드는 [microsoft 365 FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) 온 보 딩 전문가가 개별 상호 작용에 공유 하는 것과 동일한 모범 사례를 사용 하 여 작성 되었으며 microsoft 365 관리 센터 내의 모든 관리자가 사용할 수 있습니다. 제품 설정에 대 한 정보를 제공 하 고, 보안 기능을 사용 하며, 공동 작업 도구를 배포 하 고, 고급 배포 속도를 향상 하기 위한 스크립트를 제공
 
 ## <a name="how-to-access-setup-guides-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 설치 가이드에 액세스 하는 방법
 
 설치 가이드는 Microsoft 365 관리 센터의 [설치 지침](https://aka.ms/setupguidance) 페이지에서 액세스할 수 있습니다. 진행 상황을 추적 하 고 언제 든 지 안내선을 완성할 수 있습니다. **설치 지침** 페이지에 연결 하려면 다음을 수행 합니다.
 
-1. [관리 센터](https://admin.microsoft.com/)에서 **홈** 페이지로 이동 합니다.
+1. [Microsoft 365 관리 센터](https://admin.microsoft.com/)에서 **홈** 페이지로 이동 합니다.
 
 2. **교육 & 가이드** 카드를 찾습니다. 
 
@@ -52,11 +51,11 @@ Microsoft 365 및 Office 365 설치 가이드에서는 앱 및 서비스를 배�
 
 ## <a name="how-do-setup-guides-work-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 설정 가이드는 어떻게 작동 하나요?
 
-각 가이드에서는 구성을 변경 하는 데 사용할 수 있는 스크립트, 리소스, 문서 및 필요에 따라 단계별 지침을 제공 합니다. 이러한 가이드에서는 중소 조직과 대규모 조직의 특정 요구를 반영 하는 선택 항목을 제공 합니다. 또한 제공 되는 지침에는 신규 및 숙련 된 관리자 모두에 대 한 지원이 포함 되어 있습니다.
+각 가이드에서는 구성을 변경 하는 데 사용할 수 있는 스크립트, 리소스, 문서 및 필요에 따라 단계별 지침을 제공 합니다. 이러한 가이드에서는 중소 조직과 대규모 조직의 특정 요구를 반영 하는 선택 항목을 제공 합니다. 또한 지침에는 신규 및 숙련 된 관리자 모두에 대 한 지원이 포함 됩니다.
 
 ![설정 가이드의 예](../media/setup-guides-for-microsoft-365/m365-setupguide-example.png)
 
-가이드를 사용 하 여 계획 단계에서 특정 Microsoft 365 및 Office 365 기능에 대해 자세히 알아보고, 설정을 수정 하기 위한 배포를 완료 한 후에 다시 방문 합니다.
+가이드를 사용 하 여 계획 단계 중, 배포 및 롤아웃 중에 특정 Microsoft 365 및 Office 365 기능에 대해 자세히 알아보고, 설정을 수정 하기 위한 배포를 완료 한 후에 해당 정보를 다시 검토 합니다.
 
 ## <a name="guides-for-initial-setup"></a>초기 설정 가이드
 
@@ -74,7 +73,7 @@ Gmail 사용자의 사서함을 Microsoft 365로 마이그레이션하는 경우
 
 ### <a name="microsoft-365-deployment-advisor"></a>Microsoft 365 배포 관리자
 
-[Microsoft 365 배포 관리자](https://aka.ms/microsoft365setupguide) 는 생산성 도구, 보안 정책 및 장치 관리 기능을 설정할 때 상업적 고객에 게 지침을 제공 합니다. Microsoft 365 Business Premium 또는 Microsoft 365 Enterprise 구독을 사용할 경우이 관리자를 사용 하 여 조직의 장치를 설정 및 구성할 수 있습니다. 
+[Microsoft 365 배포 관리자](https://aka.ms/microsoft365setupguide) 는 생산성 도구, 보안 정책 및 장치 관리 기능을 설정할 때의 지침을 제공 합니다. Microsoft 365 Business Premium 또는 Microsoft 365 for enterprise 구독을 사용 하는 경우이 관리자를 통해 조직의 장치를 설정 하 고 구성할 수 있습니다. 
 
 사용자는 클라우드 서비스를 사용 하도록 설정 하 고, 장치를 지원 되는 최신 버전의 Windows 10으로 업데이트 하 고, 장치를 Azure Active Directory (Azure AD)에 단일 중앙 위치에 가입 하기 위한 지침 및 리소스에 대 한 액세스 권한을 수신 합니다.
 
@@ -83,7 +82,7 @@ Gmail 사용자의 사서함을 Microsoft 365로 마이그레이션하는 경우
 
 [원격 작업 설정 가이드](https://aka.ms/remoteworksetup) 에서는 사용자가 원격으로 작업을 수행 하 고, 데이터가 안전 하며, 사용자의 자격 증명을 safeguarded 수 있도록 하는 데 필요한 팁과 리소스가 조직에 제공 됩니다. 
 
-원격 작업자의 장치 트래픽을 클라우드의 Microsoft 365 리소스와 조직의 네트워크 모두에 최적화 하 여 VPN 인프라에 대 한 부담을 줄이는 지침을 받을 수 있습니다. 
+원격 작업자의 장치 트래픽을 해당 클라우드의 Microsoft 365 리소스와 조직의 네트워크 둘 다에 최적화 하 여 원격 액세스 VPN 인프라에 대 한 부담을 줄일 수 있는 지침을 받을 수 있습니다. 
 
 ### <a name="windows-virtual-desktop-setup-guide"></a>Windows 가상 데스크톱 설정 가이드
 
@@ -97,15 +96,19 @@ Windows 가상 데스크톱은 클라우드에서 실행 되는 종합적인 데
 
 [AZURE AD 설정 가이드](https://aka.ms/aadpguidance) 에서는 조직이 강력한 보안 토대를 갖도록 하기 위한 정보를 제공 합니다. 이 가이드에서는 관리자를 위한 azure AD (역할 기반 액세스 제어), Azure FS (온-프레미스 디렉터리에 연결) 및 Azure AD Connect Health와 같은 초기 기능을 설정 하 여 자동화 된 동기화 중에 하이브리드 id의 상태를 모니터링할 수 있도록 합니다. 
 
-또한 셀프 서비스 암호 재설정, 조건부 액세스 및 통합 된 타사 로그인 (선택적 고급 ID 보호, 사용자 프로비저닝 자동화 포함)에 대 한 필수 정보도 포함 되어 있습니다.
+또한 선택적인 고급 id 보호 및 사용자 프로비저닝 자동화를 포함 하 여 셀프 서비스 암호 재설정, 조건부 액세스 및 통합 타사 로그인을 사용 하는 방법에 대 한 필수 정보도 포함 되어 있습니다.
 
 ### <a name="plan-your-passwordless-deployment"></a>Passwordless 배포 계획
 
-사용자가 Windows Hello for Business, Microsoft Authenticator 앱 또는 보안 키와 같은 passwordless 인증 방법 중 하나를 사용 하 여 장치에 안전 하 게 액세스할 수 있도록 하는 다른 로그인 방식으로 업그레이드 합니다. 
+다음과 같은 passwordless 인증 방법 중 하나를 사용 하 여 사용자가 자신의 장치에 안전 하 게 액세스할 수 있도록 하는 다른 로그인 방식으로 업그레이드 합니다. 
+
+- 비즈니스용 Windows Hello
+- Microsoft Authenticator 앱
+- 보안 키 
 
 [Passwordless less 배포 마법사](https://aka.ms/passwordlesssetup) 를 사용 하 여 사용할 최선의 passwordless 인증 방법을 검색 하 고 배포 방법에 대 한 지침을 받습니다. 
 
-### <a name="plan-your-self-service-password-reset-deployment"></a>셀프 서비스 암호 재설정 배포 계획
+### <a name="plan-your-self-service-password-reset-sspr-deployment"></a>SSPR (셀프 서비스 암호 재설정) 배포 계획
 
 사용자가 자신의 계정이 잠겨 있는 경우 암호를 개별적으로 변경 하거나 다시 설정할 수 있도록 하 고, 헬프데스크 엔지니어에 게 연락 하지 않고 암호를 잊어버린 경우 
 
@@ -187,4 +190,3 @@ Office 배포 도구를 사용 하 여 설치를 사용자 지정 하는 기능�
 ### <a name="deploy-and-update-microsoft-365-apps-with-configuration-manager"></a>Configuration Manager를 사용 하 여 Microsoft 365 앱 배포 및 업데이트
 
 Configuration Manager를 사용 하는 조직의 경우 configure [and Update microsoft 365 Apps With Configuration manager advisor](https://aka.ms/oppinstall) 를 사용 하 여 fasttrack 엔지니어가 권장 하는 모범 사례를 사용 하 여 Microsoft 365 앱 배포를 자동으로 구성 하는 스크립트를 생성할 수 있습니다. 이 가이드를 사용 하 여 배포 그룹을 작성 하 고, Office 앱 및 기능을 사용자 지정 하 고, 동적 또는 간결한 설치를 구성한 다음 스크립트를 실행 하 여 배포를 대상으로 하는 데 필요한 응용 프로그램, 자동 배포 규칙 및 장치 모음을 만들 수 있습니다. 
-

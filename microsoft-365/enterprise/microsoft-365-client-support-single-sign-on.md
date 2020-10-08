@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 Microsoft 365에 대 한 single sign-on을 지 원하는 플랫폼, 클라이언트 및 Powershell 모듈에 대해 설명 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6f6398736c8ead072374fbc14ee04eec63d3ad18
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: d0a45c30ffe736cf67e811bce6eb029d6fb50674
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546413"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384802"
 ---
 # <a name="microsoft-365-client-app-support--single-sign-on"></a>Microsoft 365 클라이언트 앱 지원-Single Sign-on
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-SSO (Single sign-on)는 사용자가 Azure Active Directory (Azure AD)의 응용 프로그램에 로그온 할 때 보안 및 편의성을 추가 합니다. Single sign-on을 사용 하는 경우 사용자는 도메인에 가입 된 장치, 회사 리소스, SaaS (software as a service) 응용 프로그램 및 웹 응용 프로그램에 액세스 하기 위해 한 계정으로 한 번씩 로그인 합니다.
+SSO (Single sign-on)는 사용자가 Azure Active Directory (Azure AD)의 응용 프로그램에 로그온 할 때 보안 및 편의성을 추가 합니다. Single sign-on을 사용 하는 경우 사용자는 온-프레미스 AD DS (Active Directory 도메인 서비스) 도메인에 가입 된 장치, SaaS (software as a service) 응용 프로그램 및 웹 응용 프로그램에 액세스 하기 위해 한 계정으로 한 번씩 로그인 합니다.
 
 자세한 내용은 [single sign-on](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-single-sign-on)을 참고 하세요.
 
@@ -40,7 +40,7 @@ SSO (Single sign-on)는 사용자가 Azure Active Directory (Azure AD)의 응용
  - iOS<sup>1</sup>
  - macOS<sup>4</sup>
 
-Microsoft 365의 플랫폼 지원에 대 한 자세한 내용은 [microsoft 365의 시스템 요구 사항을](https://products.office.com/office-system-requirements)참조 하세요.
+Microsoft 365의 플랫폼 지원에 대 한 자세한 내용은 [microsoft 365의 시스템 요구 사항을](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources)참조 하세요.
 
 ## <a name="supported-clients"></a>지원되는 클라이언트
 
@@ -67,6 +67,6 @@ Microsoft 365의 플랫폼 지원에 대 한 자세한 내용은 [microsoft 365�
 > <sup>3</sup> Android의 화이트 보드 지원 곧 제공 될 예정입니다. <br>
 > <sup>4</sup> Macos에서 Outlook, 팀 및 회사 포털에 대 한 지원이 곧 제공 될 예정입니다. <br>
 
-## <a name="see-also"></a>다음 내용도 참조하십시오.
+## <a name="see-also"></a>참고 항목
 
 [Microsoft 365 Enterprise 개요](microsoft-365-overview.md)

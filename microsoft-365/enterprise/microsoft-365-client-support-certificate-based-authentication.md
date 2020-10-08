@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 인증서 기반 인증에 대 한 Microsoft 365 클라이언트 앱 지원에 대 한 세부 정보를 확인 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ac48305d634baa436eab7f2d9eeb520897f2a3d8
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 55d3fa4db6abcd7589cf9fadb9084144cd26c8d7
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47548013"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384952"
 ---
 # <a name="microsoft-365-client-app-support--certificate-based-authentication"></a>Microsoft 365 클라이언트 앱 지원-인증서 기반 인증
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-인증서 기반 인증을 사용 하면 Windows, Android 또는 iOS 장치에서 클라이언트 인증서를 사용 하 여 Azure Active Directory에 인증할 수 있습니다. 이 기능을 구성 하면 모바일 장치에서 특정 메일 및 Microsoft Office 응용 프로그램에 대 한 사용자 이름 및 암호 조합을 입력할 필요가 없습니다.
+인증서 기반 인증을 사용 하면 Windows, Android 또는 iOS 장치에서 클라이언트 인증서를 사용 하 여 Azure Active Directory (Azure AD)에 인증할 수 있습니다. 이 기능을 구성 하면 모바일 장치에서 특정 메일 및 Microsoft Office 응용 프로그램에 대 한 사용자 이름 및 암호 조합을 입력할 필요가 없습니다.
 
 자세한 내용은 [인증서 기반 인증](https://docs.microsoft.com/azure/active-directory/authentication/active-directory-certificate-based-authentication-get-started)을 확인 하세요.
 
@@ -40,7 +40,7 @@ ms.locfileid: "47548013"
  - iOS
  - macOS<sup>1</sup> <sup>2</sup>
 
-Microsoft 365의 플랫폼 지원에 대 한 자세한 내용은 [microsoft 365의 시스템 요구 사항을](https://products.office.com/office-system-requirements)참조 하세요.
+Microsoft 365의 플랫폼 지원에 대 한 자세한 내용은 [microsoft 365의 시스템 요구 사항을](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources)참조 하세요.
 
 ## <a name="supported-clients"></a>지원되는 클라이언트
 
@@ -68,6 +68,6 @@ Microsoft 365의 플랫폼 지원에 대 한 자세한 내용은 [microsoft 365�
 > <sup>3</sup> 웹 앱에서 PowerApps 및 화이트 보드에 대 한 지원이 곧 제공 될 예정입니다. <br>
 > <sup>4</sup> Android의 화이트 보드에 대 한 지원이 곧 제공 될 예정입니다.
 
-## <a name="see-also"></a>다음 내용도 참조하십시오.
+## <a name="see-also"></a>참고 항목
 
 [Microsoft 365 Enterprise 개요](microsoft-365-overview.md)

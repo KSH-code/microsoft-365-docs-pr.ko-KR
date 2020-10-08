@@ -3,7 +3,6 @@ title: Microsoft 365 테 넌 트 간 공동 작업
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/21/2020
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -20,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: 다양 한 조직이 안전 하 게 함께 작업할 수 있도록 하는 테 넌 트 및 조직에서 Microsoft 365 공동 작업이 작동 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8064543f771927f539d09e3136663bb0df56d5be
-ms.sourcegitcommit: 4ee683c18442386f6fc5c76ffabfad2c28b81d42
+ms.openlocfilehash: 00eacfc21d3223b5b9a1ad420cd5d1d85bf4ea8e
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48214802"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384828"
 ---
 # <a name="microsoft-365-inter-tenant-collaboration"></a>Microsoft 365 테 넌 트 간 공동 작업
 
@@ -78,7 +77,7 @@ Microsoft 365 모든 테 넌 트 공동 작업 옵션에는 파일 및 대화에
 |공유 목표|관리 작업|방법 정보|
 |:-----|:-----|:-----|
 |조직 외부의 사용자와 팀 공동 작업 | Microsoft 365 테 넌 트 초대에 대 한 전역 관리자는 팀에서 외부 공동 작업을 사용 하도록 설정 해야 합니다. 전역 관리자 및 팀 소유자는 이제 전자 메일 주소를 사용 하 여 모든 사용자에 게 팀 공동 작업을 초대할 수 있습니다.  <br/> 관리자는 또한 이미 테 넌 트에 있는 게스트를 관리 하 고 편집할 수 있습니다. |  <ul><li> [게스트 액세스 권한 부여](https://docs.microsoft.com/microsoftteams/teams-dependencies) </li><li> [팀에서 게스트 액세스 설정 또는 해제](https://docs.microsoft.com/microsoftteams/set-up-guests) </li><li> [PowerShell을 사용 하 여 게스트 액세스 제어](https://docs.microsoft.com/microsoftteams/guest-access-powershell) </li><li> [게스트 액세스 검사 목록](https://docs.microsoft.com/microsoftteams/guest-access-checklist) </li><li> [게스트 사용자 보기](https://docs.microsoft.com/microsoftteams/view-guests) </li><li> [게스트 사용자 정보 편집](https://docs.microsoft.com/microsoftteams/edit-guests-information) </li></ul> |
-|팀 소유자는 팀 내에서 게스트가 공동 작업을 수행 하는 방법을 초대 및 관리할 수 있습니다.  </li><li> |팀 소유자는 팀 내에서 게스트에 대해 수행할 수 있는 작업에 대 한 추가 컨트롤을 보유 합니다. |  <ul><li> [게스트 추가](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_addingguests&amp;ID0EAABAAA=Add_guests) </li><li> [팀에 게스트 추가](https://docs.microsoft.com/microsoftteams/add-guests) </li><li> [팀에서 게스트 액세스 관리](https://docs.microsoft.com/microsoftteams/manage-guests) </li><li> [팀 또는 채널의 사용자 확인](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7?ui=en-US&amp;rs=en-US&amp;ad=US) </li></ul> |
+|팀 소유자는 팀 내에서 게스트가 공동 작업을 수행 하는 방법을 초대 및 관리할 수 있습니다.  |팀 소유자는 팀 내에서 게스트에 대해 수행할 수 있는 작업에 대 한 추가 컨트롤을 보유 합니다. |  <ul><li> [게스트 추가](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_addingguests&amp;ID0EAABAAA=Add_guests) </li><li> [팀에 게스트 추가](https://docs.microsoft.com/microsoftteams/add-guests) </li><li> [팀에서 게스트 액세스 관리](https://docs.microsoft.com/microsoftteams/manage-guests) </li><li> [팀 또는 채널의 사용자 확인](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7?ui=en-US&amp;rs=en-US&amp;ad=US) </li></ul> |
 |다른 테 넌 트의 게스트는 팀의 콘텐츠를 보고 다른 구성원과 공동 작업을 수행할 수 있습니다. | 없음 | [게스트 액세스 환경](https://docs.microsoft.com/microsoftteams/guest-experience)| 
 
 ## <a name="power-bi-collaboration-options"></a>Power BI 공동 작업 옵션
@@ -93,18 +92,18 @@ Microsoft 365 모든 테 넌 트 공동 작업 옵션에는 파일 및 대화에
 
 각 조직은 자체 사용자 계정, id, 보안 그룹, 구독, 라이선스 및 저장소를 유지 관리 합니다. 사용자는 Microsoft 365의 공동 작업 기능을 공유 정책 및 보안 설정과 함께 사용 하 여 회사 자산의 제어권을 유지 하면서 필요한 정보에 대 한 액세스를 제공 합니다.
   
-- **사용자 계정:** 계정을 공유할 수 없으며 온-프레미스 Active Directory 디렉터리 서비스의 테 넌 트 또는 파티션 간에 계정을 복제할 수 없습니다. 
+- **사용자 계정:** 온-프레미스 Active Directory 도메인 서비스의 테 넌 트 또는 파티션 간에는 계정을 공유 하거나 복제할 수 없습니다. 
     
 - **라이선스 &amp; 구독:** Microsoft 365에서는 라이선스 요금제 (sku 또는 Microsoft 365 요금제 라고도 함)의 라이선스를 사용자에 게 제공 하 여 해당 요금제에 대해 정의 된 microsoft 365 서비스에 액세스할 수 있습니다. 
     
-- **저장소:** Microsoft 365 계획에서 SharePoint Online에 대 한 소프트웨어 경계 및 제한은 사서함 저장 용량 제한과 별개로 관리 됩니다. 사서함 저장소 제한은 Exchange Online을 사용 하 여 설정 및 관리 됩니다. 두 시나리오에서 저장소는 상호 테 넌 트를 공유할 수 없습니다. 
+- **저장소:** Microsoft 365 라이선스 계획에서 SharePoint Online에 대 한 소프트웨어 경계 및 제한은 사서함 저장 용량 제한과 별개로 관리 됩니다. 사서함 저장소 제한은 Exchange Online을 사용 하 여 설정 및 관리 됩니다. 두 시나리오에서 모두 저장소를 테 넌 트 간에 공유할 수 없습니다. 
     
 ### <a name="can-we-share-domain-namespaces-across-microsoft-365-tenants"></a>도메인 네임 스페이스를 Microsoft 365 테 넌 트 간에 공유할 수 있나요?
 
-아니요. Fabrikam.com 또는 tailspintoys.com와 같은 베 니 티 도메인은 한 번에 하나의 테 넌 트 에서만 연결 하 여 사용할 수 있습니다. 각 테 넌 트에는 자체 네임 스페이스가 있어야 합니다. UPN, SMTP 및 SIP 네임 스페이스는 테 넌 트 간에 공유할 수 없습니다.
+아니요. 조직 도메인 이름 (예: fabrikam.com 또는 tailspintoys.com)은 단일 Microsoft 365 테 넌 트에서만 연결 하 여 사용할 수 있습니다. 각 테 넌 트에는 고유한 네임 스페이스가 있어야 합니다. UPN, SMTP 및 SIP 네임 스페이스는 테 넌 트 간에 공유할 수 없습니다.
   
 ### <a name="what-about-hybrid-components-and-microsoft-365-inter-tenant-collaboration"></a>하이브리드 구성 요소와 Microsoft 365 테 넌 트 간 공동 작업에 대 한 자세한 내용은 무엇 인가요?
 
 Exchange 조직과 Azure AD Connect와 같은 온-프레미스 하이브리드 구성 요소는 여러 테 넌 트 간에 분할 될 수 없습니다.
-  
+ 
 

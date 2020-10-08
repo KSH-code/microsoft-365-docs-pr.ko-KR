@@ -3,7 +3,6 @@ title: Office 2007 또는 2010 서버 및 클라이언트에서 업그레이드 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/15/2020
 audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
@@ -17,25 +16,25 @@ f1.keywords:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에는 업그레이드를 계획 하는 데 도움이 되는 Office 2007 또는 Office 2010을 사용 하는 사용자를 위한 리소스가 나와 있습니다.
-ms.openlocfilehash: 0ad90235bf7ad862a1f0162f87dca7ee2df3d799
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 0b137b39d671b9746445f9e41a5859732574dbe4
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692537"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384568"
 ---
 # <a name="plan-your-upgrade-from-office-2007-or-office-2010-servers-and-clients"></a>Office 2007 또는 Office 2010 서버 및 클라이언트에서 업그레이드 계획
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-조직에서 이전 버전의 Office 제품 및 서버를 사용하는 경우 이제 업그레이드 계획을 시작하는 것이 좋습니다. Office 2007 제품 및 서비스의 [지원이 종료](upgrade-from-office-2007-servers-and-products.md)되었습니다. 
+조직에서 이전 버전의 Office 제품 및 서버를 사용하는 경우 이제 업그레이드 계획을 시작하는 것이 좋습니다. Office 2007 제품 및 서비스의 [지원이 종료](upgrade-from-office-2007-servers-and-products.md)되었습니다. Office 2010 제품 및 서비스에 대해 다음을 수행 합니다.
 
 - **2020년 10월 13일**에 Office 2010 및 Exchange 2010 지원이 종료됩니다. 
 - **2021년 4월 13일**에 SharePoint 2010 및 Project Server 2010 지원이 종료됩니다. 
 
-이 문서의 리소스를 사용 하 여 시작 합니다.
+자세한 내용은 [Office 2010 서버 및 클라이언트에서 업그레이드](upgrade-from-office-2010-servers-and-products.md)를 참조 하세요.
 
-자세한 내용은 [Office 2010 서버 및 클라이언트에서 업그레이드](upgrade-from-office-2010-servers-and-products.md)를 참조하세요.
+이 문서의 리소스를 사용 하 여 업그레이드를 시작 합니다.
 
 ## <a name="what-is-microsoft-365"></a>Microsoft 365란 무엇인가요?
 
@@ -44,13 +43,14 @@ ms.locfileid: "46692537"
 Microsoft 365에는 조직이 최신 Windows 운영 체제에서 작업 중 이며 Windows, iOS 및 Android를 비롯 한 장치를 등록 하 고 인증 및 데이터 보호가 필요한 정책으로 보호 되도록 하는 데 도움이 되는 라이선스 및 기능이 포함 되어 있습니다. 또한 최신 기능과 보안 업데이트를 포함 하기 위해 Windows 10 및 Microsoft 365 Apps for enterprise (이전 이름 Office 365 ProPlus) 클라이언트 소프트웨어는 계속 해 서 업데이트 됩니다.
   
 Microsoft 365를 사용하면 Microsoft 클라우드에서 활성화되어 보호되며 지속적으로 개선되는 장치와 생산성 환경을 사용하여 비즈니스를 디지털 방식으로 변환할 수 있습니다.
-  
-|**리소스**|**설명**|
+ 
+| 리소스 | 설명 |
 |:-----|:-----|
-|[Microsoft 365](https://www.microsoft.com/microsoft-365) <br/> |여러 버전의 Microsoft 365에 관한 정보를 확인하세요.  <br/> |
-|[Microsoft 365 비즈니스 문서](https://docs.microsoft.com/microsoft-365/business/) <br/> |중소기업용 Microsoft 365 버전에 관한 자세한 정보를 확인하세요.  <br/> |
-|[Microsoft 365 교육 문서](https://docs.microsoft.com/microsoft-365/education/) <br/> |교육 기관용 Microsoft 365 버전에 관한 자세한 정보를 확인하세요.  <br/> |
-|[Microsoft 365 Enterprise 설명서](https://docs.microsoft.com/microsoft-365/enterprise/) <br/> |대기업용 Microsoft 365 버전에 관한 자세한 정보를 확인하세요.  <br/> |
+|[Microsoft 365](https://www.microsoft.com/microsoft-365) <br/> | 여러 버전의 Microsoft 365에 관한 정보를 확인하세요.  <br/> |
+|[Microsoft 365 비즈니스 문서](https://docs.microsoft.com/microsoft-365/business/) <br/> | 중소기업용 Microsoft 365 버전에 관한 자세한 정보를 확인하세요.  <br/> |
+|[Microsoft 365 교육 문서](https://docs.microsoft.com/microsoft-365/education/) <br/> | 교육 기관용 Microsoft 365 버전에 관한 자세한 정보를 확인하세요.  <br/> |
+|[Microsoft 365 Enterprise 설명서](https://docs.microsoft.com/microsoft-365/enterprise/) <br/> | 대기업용 Microsoft 365 버전에 관한 자세한 정보를 확인하세요.  <br/> |
+|||
 
 ## <a name="what-happens-if-i-dont-upgrade"></a>업그레이드하지 않으면 어떻게 되나요?
 
@@ -94,7 +94,7 @@ Microsoft 365를 사용하면 Microsoft 클라우드에서 활성화되어 보�
 
 - **Microsoft 365에서 home 사용을 시도 합니다.** 주택 용 [Microsoft 365 제품군](https://www.microsoft.com/microsoft-365/p/microsoft-365-family/cfq7ttc0k5dm?rtc=2&activetab=pivot:overviewtab) 을 사용 합니다. 평가판을 시작 하 고 Microsoft 365 패밀리가 어떻게 작동 하는지 확인 합니다. Microsoft 365 제품군을 사용 하는 경우 OneDrive를 사용 하 여 클라우드 저장소를 즐길 수 있습니다.
 
-   [2020년 1월 14일에 Windows 7에 대한 지원이 종료](https://www.microsoft.com/windowsforbusiness/end-of-windows-7-support)되면 Windows 7 장치에서 실행되는 Office 365 Home 또는 Office 365 Personal과 함께 제공되는 Word, Excel, PowerPoint, Outlook, Publisher 및 Access 버전에는 보안 업데이트는 제공되지만, 기능은 업데이트되지 않습니다. 이러한 응용 프로그램에 대한 기능 업데이트를 계속 받으려면 [Windows 7 장치를 Windows 10으로 업그레이드](https://support.microsoft.com/help/12435/windows-10-upgrade-faq)합니다.
+   [2020 년 1 월 14 일에 windows 7에 대 한 지원이 종료](https://www.microsoft.com/microsoft-365/windows/end-of-windows-7-support)되 면 windows 7 장치에서 실행 되는 Word, Excel, PowerPoint, Outlook, Publisher 및 365 365 Access 버전은 보안 업데이트를 받지만 기능은 업데이트 되지 않습니다. 이러한 응용 프로그램에 대한 기능 업데이트를 계속 받으려면 [Windows 7 장치를 Windows 10으로 업그레이드](https://support.microsoft.com/help/12435/windows-10-upgrade-faq)합니다.
     
 - **Office Home &amp; Student 구매.** 이 옵션을 선택하면 한 번 구입한 다음 Windows PC나 Mac에 Office를 설치할 수 있습니다. 이 옵션은 구독이 아니라, 한 컴퓨터에 한 번 영구적으로 라이센스를 사용할 수 있습니다. [요구사항](https://office.com/systemrequirements)을 검토한 다음 사용하려는 버전을 선택합니다.
 
@@ -102,9 +102,9 @@ Microsoft 365를 사용하면 Microsoft 클라우드에서 활성화되어 보�
 
     - Windows PC에서 Windows 7, 8 또는 8.1을 실행 중이며 현재 Windows 10으로 업그레이드하지 않는 경우에는 공인 대리점에서 Office Home & Student 2016(또는 다른 버전의 Microsoft Office)을 받는 것이 좋습니다.
      
-     - Windows 7 지원은 [2020 년 1 월 14 일에 종료](https://www.microsoft.com/windowsforbusiness/end-of-windows-7-support)되며이 이후에는 Microsoft에서 보안 업데이트나 지원을 제공 하지 않습니다. 지속적인 보안 및 기능 업데이트 및 지속적인 지원을 위해 Windows 7 장치를 Windows 10으로 업그레이드하세요.
+     - Windows 7 지원은 [2020 년 1 월 14 일에 종료](https://www.microsoft.com/microsoft-365/windows/end-of-windows-7-support)되며이 이후에는 Microsoft에서 보안 업데이트나 지원을 제공 하지 않습니다. 지속적인 보안 및 기능 업데이트 및 지속적인 지원을 위해 Windows 7 장치를 Windows 10으로 업그레이드하세요.
 
-지금 업그레이드하지 않아도 괜찮습니다. Office 앱은 계속 실행됩니다. Office 지원 날짜 타임라인은 [여기](https://go.microsoft.com/fwlink/p/?linkid=2085724)에서 확인할 수 있습니다. 하지만 업그레이드를 하면 보안 업데이트나 새로운 향상된 기능이 제공됩니다.
+지금 업그레이드하지 않아도 괜찮습니다. Office 앱은 계속 실행됩니다. Office 지원 날짜 타임라인은 [여기](https://support.microsoft.com/lifecycle/search/13615)에서 확인할 수 있습니다. 하지만 업그레이드를 하면 보안 업데이트나 새로운 향상된 기능이 제공됩니다.
    
 ## <a name="next-step"></a>다음 단계
 

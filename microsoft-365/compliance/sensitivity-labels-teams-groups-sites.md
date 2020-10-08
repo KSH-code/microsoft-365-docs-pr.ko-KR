@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: 4ae0491699f2ffa60245d502bb691b2c79b34133
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: 6c8ca07cc0da826be23bcee79dbc4e3824b00695
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48305380"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357890"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기
 
@@ -76,7 +76,7 @@ ms.locfileid: "48305380"
 
 이 새 **사이트 및 그룹 설정** 페이지에서 다음과 같이 설정을 구성합니다.
 
-- **Office 365 그룹에 연결된 팀 사이트의 개인 정보**: 조직의 모든 사용자가 이 레이블이 적용된 팀 사이트에 액세스할 수 있도록 하려면 기본값 **공개 - 조직의 모든 사용자가 사이트에 액세스할 수 있음**으로 유지합니다.
+- **Microsoft 365 그룹에 연결된 팀 사이트의 개인 정보**: 조직의 모든 사용자가 이 레이블이 적용된 팀 사이트에 액세스할 수 있도록 하려면 기본값 **공개 - 조직의 모든 사용자가 사이트에 액세스할 수 있음**으로 유지합니다.
 
   조직에서 허용한 구성원에게만 액세스를 제한하려면 **비공개**를 선택합니다.
 
