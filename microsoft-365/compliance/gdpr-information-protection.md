@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8716af366e2ec75775f3e34cbd121fe14fbb11f1
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 2c9f0a97869f27cbcf5829a15f50bf2905472c28
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416802"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398487"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>Microsoft 365 기능을 사용한 GDPR에 대한 정보 보호
 
@@ -49,7 +49,7 @@ Azure Active Directory 및 기타 Microsoft 365 기능은 ID 및 장치로부터
 
 Microsoft에서는 시작점으로 사용할 수 있는 권장 구성을 제공합니다.
 
-- [ID 및 장치 액세스 구성](../enterprise/microsoft-365-policies-configurations.md): 3가지 보호 계층(기준선, 중요, 높은 규제)을 달성하기 위한 권장 정책 구성입니다. 이 가이드에는 Exchange Online 및 SharePoint Online(비즈니스용 OneDrive 포함)에 대한 권장 정책이 포함되어 있습니다.
+- [ID 및 장치 액세스 구성](../security/office-365-security/microsoft-365-policies-configurations.md): 3가지 보호 계층(기준선, 중요, 높은 규제)을 달성하기 위한 권장 정책 구성입니다. 이 가이드에는 Exchange Online 및 SharePoint Online(비즈니스용 OneDrive 포함)에 대한 권장 정책이 포함되어 있습니다.
 - [정치적 캠페인, 비영리 조직 및 긴급 구성 조직을 위한 보안 지침](https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o): 여기에는 동일한 정책 집합이 포함되지만, BYOD 환경 및 B2B 계정에 대한 더 많은 지침이 제공됩니다.
 
 ## <a name="threat-protection"></a>위협 방지

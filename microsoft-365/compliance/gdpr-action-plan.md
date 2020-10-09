@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: df78fb05c9f7ed942b532231074ba5188be38be5
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 8c3786a6a9bf93b3aaf2970d97fd57cc225e2ee8
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198965"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398683"
 ---
 # <a name="microsoft-365-gdpr-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>Microsoft 365 GDPR 작업 계획 - 처음 30일, 90일 및 그 이상 기간에 대한 최고 우선 순위 지정
 
@@ -55,7 +55,7 @@ GDPR은 EU(유럽 연합) 회원국 국민에게 제품과 서비스를 제공�
 |**영역**|**작업**|
 |:-----|:-----|
 | **Microsoft 365 데이터 거버넌스 및 준수 기능을 사용하여 준수 요구 사항을 구현합니다.** |* [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md) 내에서 [Microsoft 준수 관리자](compliance-manager.md)를 사용하여 GDPR 준수를 관리합니다.<br>* Exchange 전자 메일, SharePoint 사이트, 비즈니스용 OneDrive 사이트 및 Microsoft 365 그룹에 대한 분류 스키마 및 연관된 Office 365 레이블을 사용하여 GDPR로 정의된 개인 데이터를 사용자가 식별하고 분류하는 데 도움을 줍니다. [GDPR에 대한 Office 365 정보 보호](https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr)를 참조하세요.|
-| **Microsoft 365 보안 기능을 사용하여 데이터 위반을 방지하고 개인 데이터를 보호합니다.** |* 모든 사용자 계정에 대해 [다단계 요소 인증](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks)을, 모든 앱에 대해 [최신 인증](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016)을 사용하도록 설정하여 Microsoft 클라우드에서 관리자 및 최종 사용자에 대한 인증을 향상시킵니다. 권장되는 정책 구성은 [ID 및 장치 액세스 구성](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-policies-configurations)을 참조하세요.<br>* 악성 코드로부터의 보호, 데이터 위반 방지 및 응답을 위해 모든 데스크톱에 [Windows Defender ATP(Advanced Threat Protection)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)를 배포합니다.<br>* 모든 Exchange 사서함에 대해 [감사 로깅](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 및 [사서함 감사](https://docs.microsoft.com/microsoft-365/compliance/enable-mailbox-auditing)를 사용하도록 설정하여 잠재적으로 악의적인 활동이 있는지 모니터링하고 데이터 위반에 대한 법과학 분석을 설정합니다.<br>* [Office 365 DLP(데이터 손실 방지) 정책](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)을 구성, 테스트 및 배포하여 재무, 의료 및 개인 식별 가능 정보를 포함하여 문서 및 전자 메일 내에 포함된 80가지가 넘는 중요한 데이터 유형을 식별, 모니터링 및 [자동으로 보호](https://docs.microsoft.com/microsoft-365/compliance/apply-protection-to-personal-data-in-office-365)합니다.<br>* [Office 365 ATP(Advanced Threat Protection)](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)를 구현하여 악성 링크 및 첨부 파일이 들어 있는 피싱 전자 메일 및 Office 문서를 포함하는 가장 일반적인 공격 벡터를 방지합니다.|
+| **Microsoft 365 보안 기능을 사용하여 데이터 위반을 방지하고 개인 데이터를 보호합니다.** |* 모든 사용자 계정에 대해 [다단계 요소 인증](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks)을, 모든 앱에 대해 [최신 인증](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016)을 사용하도록 설정하여 Microsoft 클라우드에서 관리자 및 최종 사용자에 대한 인증을 향상시킵니다. 권장되는 정책 구성은 [ID 및 장치 액세스 구성](../security/office-365-security/microsoft-365-policies-configurations.md)을 참조하세요.<br>* 악성 코드로부터의 보호, 데이터 위반 방지 및 응답을 위해 모든 데스크톱에 [Windows Defender ATP(Advanced Threat Protection)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)를 배포합니다.<br>* 모든 Exchange 사서함에 대해 [감사 로깅](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 및 [사서함 감사](https://docs.microsoft.com/microsoft-365/compliance/enable-mailbox-auditing)를 사용하도록 설정하여 잠재적으로 악의적인 활동이 있는지 모니터링하고 데이터 위반에 대한 법과학 분석을 설정합니다.<br>* [Office 365 DLP(데이터 손실 방지) 정책](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)을 구성, 테스트 및 배포하여 재무, 의료 및 개인 식별 가능 정보를 포함하여 문서 및 전자 메일 내에 포함된 80가지가 넘는 중요한 데이터 유형을 식별, 모니터링 및 [자동으로 보호](https://docs.microsoft.com/microsoft-365/compliance/apply-protection-to-personal-data-in-office-365)합니다.<br>* [Office 365 ATP(Advanced Threat Protection)](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)를 구현하여 악성 링크 및 첨부 파일이 들어 있는 피싱 전자 메일 및 Office 문서를 포함하는 가장 일반적인 공격 벡터를 방지합니다.|
 
 ## <a name="beyond-90-days--ongoing-security-data-governance-and-reporting"></a>90일 이상 — 지속적인 보안, 데이터 관리 및 보고
 
@@ -63,7 +63,7 @@ GDPR은 EU(유럽 연합) 회원국 국민에게 제품과 서비스를 제공�
 
 |**영역**|**작업**|
 |:-----|:-----|
-| **Microsoft 365 고급 데이터 거버넌스 도구 및 정보 보호를 사용하여 개인 데이터에 대한 지속적인 거버넌스 프로그램을 구현합니다.** |* [Office 365 고급 데이터 거버넌스](https://docs.microsoft.com/microsoft-365/compliance/apply-labels-to-personal-data-in-office-365)를 사용하여 Office 365 레이블을 자동으로 적용함으로써 문서 및 전자 메일의 개인 정보를 식별합니다.<br>* Microsoft Intune을 배포하여 조직 전체에서 장치에 저장된 개인 데이터를 보호합니다.<br>* Microsoft Inture과 함께 [AAD 조건부 액세스 정책](https://docs.microsoft.com/intune/conditional-access)을 구현하여 중요한 개인 정보가 회사 정책에 따라 저장되고 액세스되도록 합니다. 권장되는 정책 구성은 [ID 및 장치 액세스 구성](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-policies-configurations)을 참조하세요.<br>* Office 365 레이블, 고급 데이터 관리 및 보존 정책을 통해 데이터 보존 정책을 구현하여 관할권에서 필요한 경우에만 개인 데이터를 보존합니다.|
+| **Microsoft 365 고급 데이터 거버넌스 도구 및 정보 보호를 사용하여 개인 데이터에 대한 지속적인 거버넌스 프로그램을 구현합니다.** |* [Office 365 고급 데이터 거버넌스](https://docs.microsoft.com/microsoft-365/compliance/apply-labels-to-personal-data-in-office-365)를 사용하여 Office 365 레이블을 자동으로 적용함으로써 문서 및 전자 메일의 개인 정보를 식별합니다.<br>* Microsoft Intune을 배포하여 조직 전체에서 장치에 저장된 개인 데이터를 보호합니다.<br>* Microsoft Inture과 함께 [AAD 조건부 액세스 정책](https://docs.microsoft.com/intune/conditional-access)을 구현하여 중요한 개인 정보가 회사 정책에 따라 저장되고 액세스되도록 합니다. 권장되는 정책 구성은 [ID 및 장치 액세스 구성](../security/office-365-security/microsoft-365-policies-configurations.md)을 참조하세요.<br>* Office 365 레이블, 고급 데이터 관리 및 보존 정책을 통해 데이터 보존 정책을 구현하여 관할권에서 필요한 경우에만 개인 데이터를 보존합니다.|
 | **Microsoft 365 및 기타 클라우드 응용 프로그램에서 지속적인 준수 상태를 모니터링합니다. EU 개인 데이터에 대한 데이터 보존 요구 사항을 해결하는 것이 좋습니다.** |* [Office 365 경고 정책, 데이터 손실 방지 보고서 및 Microsoft Cloud App Security](https://docs.microsoft.com/microsoft-365/security/office-365-security/monitor-for-leaks-of-personal-data)를 사용하여 클라우드 응용 프로그램 사용 현황을 모니터링하고 추론 및 사용자 활동을 토대로 고급 경고 정책을 구현합니다.<br>* [Exchange Online 사서함](https://docs.microsoft.com/microsoft-365/enterprise/multi-geo-capabilities-in-exchange-online), [비즈니스용 OneDrive 사이트 및 SharePoint Online 사이트](https://docs.microsoft.com/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365)에 대해 Microsoft의 다중 지역 기능을 사용하여 단일 전역 조직으로 구성되면서 조직, 지역 및 로컬 데이터 보존 요구 사항을 해결합니다.|
 
 ## <a name="learn-more"></a>자세히 알아보기

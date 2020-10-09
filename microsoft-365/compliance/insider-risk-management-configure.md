@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 4fcfec889b4b5005a172037a0df674b45a9e7281
-ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
+ms.openlocfilehash: 707f2b260ff9d4a452cdb65d75a1a8fe6a13af3f
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341436"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399173"
 ---
 # <a name="get-started-with-insider-risk-management"></a>내부자 위험 관리 시작
 
@@ -47,6 +47,9 @@ ms.locfileid: "48341436"
 Microsoft 365 Enterprise E5 요금제가 아직 없는 경우 microsoft 365을 기존 구독에 [추가](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) 하거나 Microsoft 365 Enterprise e 5의 [평가판을 등록할](https://www.microsoft.com/microsoft-365/enterprise) 수 있습니다.
 
 ## <a name="step-1-enable-permissions-for-insider-risk-management"></a>1 단계: 참가자 위험 관리에 대 한 사용 권한 설정
+
+>[!Important]
+>역할 그룹을 구성 하 고 나면 역할 그룹 권한을 조직 전체의 할당 된 사용자에 게 적용 하는 데 최대 30 분이 소요 될 수 있습니다.
 
 참가자 위험 관리 기능을 관리 하기 위한 권한을 구성 하는 데 사용 되는 네 가지 역할 그룹이 있습니다. 이러한 구성 단계를 계속 하려면 먼저 테 넌 트 관리자가 사용자에 게 **참가자 위험 관리** 또는 **참가자 위험 관리 관리자** 역할 그룹을 할당 해야 합니다. 초기 구성 후에 참가자 위험 관리 기능에 액세스 하 고 관리 하려면 사용자가 적어도 하나의 참가자 위험 관리 역할 그룹의 구성원 이어야 합니다.
 

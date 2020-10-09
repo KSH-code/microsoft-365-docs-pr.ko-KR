@@ -18,16 +18,16 @@ ms.collection:
 - M365-security-compliance
 description: 준수 센터에 새로운 새 솔루션을 추가 하 고, 사용자 의견에 따라 기존 기능을 업데이트 하거나, 새로운 문서 및 업데이트 된 설명서를 롤아웃할 지 여부에 관계 없이 Microsoft 365에서는 지속적인 변경 준수 가로를 유지 하는 데 도움이 됩니다. 이번 달에 제공 된 내용을 확인 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7d5e1bb67d6adc1b3c25aea8f468a23ed5c1019a
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: c33e136be55ea60f1e5954d4713b219045b1f0eb
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132038"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398529"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
-[Microsoft 365 준수 센터](microsoft-365-compliance-center.md)에 새로운 솔루션을 새로 추가 하거나, 사용자 의견에 따라 기존 기능을 업데이트 하거나, 최신 및 업데이트 된 설명서를 롤아웃할 지 여부에 관계 없이 microsoft 365에서는 지속적인 변화 준수 가로를 유지 하는 데 도움이 됩니다. 현재 Microsoft 365 준수의 새로운 기능을 확인 하려면 아래를 확인 하세요. 
+[Microsoft 365 준수 센터](microsoft-365-compliance-center.md)에 새로운 솔루션을 추가 하거나, 사용자 의견을 기반으로 기존 기능을 업데이트 하거나, 새로운 문서 및 업데이트 된 설명서를 배포 하는 경우, Microsoft 365를 통해 지속적으로 변화 하는 준수 가로를 유지 하는 데 도움이 됩니다. 현재 Microsoft 365 준수의 새로운 기능을 확인 하려면 아래를 확인 하세요. 
 
 > [!NOTE]
 > 일부 준수 기능은 고객에 게 다양 한 속도로 롤아웃 됩니다. 아직 기능을 볼 수 없는 경우 대상 지정 된 [릴리스에](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365)자신을 추가 해 보세요.
@@ -36,6 +36,63 @@ ms.locfileid: "48132038"
 > [!TIP]
 > 다른 관리 센터에서 어떤 작업을 진행 하 고 싶으십니까? 다음 문서를 확인 하세요.<br>[Microsoft 365 관리 센터의 새로운 기능](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br>[Microsoft Threat Protection의 새로운 기능](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)<br><br>
 [Microsoft 365 로드맵을](https://www.microsoft.com/en-us/microsoft-365/roadmap) 방문 하 여 시작 되었거나, 배포 중이거나, 개발 중 이거나, 이전에 출시 된 microsoft 365 기능에 대해 알아보세요.
+
+## <a name="august-2020"></a>2020년 8월
+
+### <a name="spotlight-insider-risk-and-communication-compliance-updates"></a>스포트라이트: 참가자 위험 및 통신 준수 업데이트
+
+이번 달에는 몇 가지 새로운 기능 및 향상 된 기능이 공개 미리 보기에 방문 합니다.
+
+**참가자 위험 관리**
+
+- 새 [정책 템플릿](insider-risk-management-policies.md#policy-templates)6 개를 확인 하세요.
+    - 우선 순위 사용자 별 데이터 유출
+    - 불만 사용자에의 한 데이터 유출
+    - 일반 보안 정책 위반
+    - Departing 사용자의 보안 정책 위반
+    - 우선 순위 사용자 별 보안 정책 위반
+    - 불만 사용자에의 한 보안 정책 위반
+
+- [Microsoft DEFENDER atp](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 와 통합 하면 새 보안 위반 정책 템플릿에서 만든 정책으로 인해 검색 된 작업에 대 한 MICROSOFT defender atp 경고를 가져오고 필터링 할 수 있습니다. Microsoft Defender ATP 경고 심사 상태를 기반으로 하는 위험 관리를 위해 보안 경고를 가져오도록 선택할 수 있는 관련 된 [참가자 위험 설정](insider-risk-management-settings.md#microsoft-defender-advanced-threat-protection-preview) 도 있습니다.
+
+    > [!NOTE]
+    > Microsoft Defender ATP 통합 (새 보안 정책 위반 서식 파일 포함)을 활용 하려면 조직에 Microsoft Defender ATP를 구성 해야 합니다. 또한 [Microsoft DEFENDER atp에서 고급 기능을 구성](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)하 여 참가자 위험 관리 통합을 위해 MICROSOFT defender atp를 사용 하도록 설정 해야 합니다.
+ 
+- [정책을 만들](insider-risk-management-policies.md#create-a-new-policy)때 표시기 임계값을 사용자 지정 합니다.
+- [우선 순위 사용자 그룹](insider-risk-management-settings.md#priority-user-groups-preview) 을 설정 하 여 조직의 사용자를 정의 하 고, 해당 활동은 중요 한 정보에 대 한 액세스 수준 또는 위험 기록 등의 요소를 기반으로 하 여 더 근접 한 검사를 수행 합니다.
+- Office 365 관리 활동 Api를 사용 하 여 조직에서 참가자 위험 데이터를 관리 하거나 집계 하는 데 사용할 수 있는 다른 응용 프로그램으로 [참가자 위험 알림 세부 정보를 내보냅니다](insider-risk-management-settings.md#export-alerts-preview) .
+- 새 [도메인 설정은](insider-risk-management-settings.md#domains-preview) 특정 도메인의 활동에 대 한 위험 수준을 정의 하 고 제어 하는 데 도움이 됩니다.
+
+**커뮤니케이션 규정 준수**
+
+- [알림에서 메시지를 검토할](communication-compliance-investigate-remediate.md#step-3-decide-on-a-remediation-action)때 이제 Microsoft 팀 채널, 1:1 및 그룹 채팅에서 부적절 한 메시지를 제거할 수 있습니다. 제거 된 메시지 및 콘텐츠는 중요 한 콘텐츠로 인해 제거 되었음을 설명 하는 정책 팁으로 대체 됩니다.
+- 새 [통신 역할](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance) (9 월의 새 통신 준수 역할 그룹 릴리스에도 포함 됩니다.)
+- [개인 정보 보호](communication-compliance-feature-reference.md#privacy-preview) 및 [알림 서식 파일](communication-compliance-feature-reference.md#notice-templates)에 대 한 설정이 포함 된 새로운 통신 준수 설정 환경
+- 성인용, racy 및 gory 이미지를 검색 하는 데 도움이 되는 새로운 [분류자](communication-compliance-feature-reference.md#classifiers) 입니다.
+- [경고에서 메시지를 검토할](communication-compliance-investigate-remediate.md#step-2-examine-the-message-details) 때 표시 되는 새 ' 패턴 감지 ' 알림이 사용자에 의해 동일한 동작이 발생 한 것을 알 수 있습니다.
+
+### <a name="sensitivity-labels"></a>민감도 레이블
+
+- 미국 정부 테넌트(GCC, GCC-H 및 DoD)의 경우 민감도 레이블은 현재 Azure Information Protection 통합 레이블 지정 클라이언트 및 스캐너에 대해서만 지원됩니다. 자세한 내용은 [Azure Information Protection Premium 정부 서비스 설명](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description)을 참조하세요.
+- 이제 [보안 & 준수 센터 PowerShell을 사용](create-sensitivity-labels.md#use-powershell-for-sensitivity-labels-and-their-policies) 하 여 레이블 관리 센터에 표시 되는 모든 설정을 만들고 구성할 수 있습니다. 즉, 레이블 관리 센터에서는 사용할 수 없는 설정에 PowerShell을 사용 하는 것 외에도 민감도 레이블 및 민감도 레이블 정책의 생성 및 유지 관리를 완벽 하 게 스크립팅할 수 있습니다.
+
+### <a name="records-management-content-overhaul"></a>레코드 관리: 콘텐츠 overhaul
+
+배포 단계를 포함 하는 새 문서, 콘텐츠를 레코드로 표시, 레코드 버전 관리:
+
+- [레코드 관리 시작](get-started-with-records-management.md)
+- [보존 레이블을 사용하여 레코드 선언](declare-records.md)
+- [레코드 버전 관리를 사용하여 SharePoint 또는 OneDrive에 저장된 레코드 업데이트](record-versioning.md)
+
+### <a name="retention-labels--policies"></a>보존 레이블 & 정책
+
+이제 보존 관련 관리 활동이 기록 되 고 감사 로그에서 검토할 수 있습니다. 전체 목록은 [보존 정책 및 보존 레이블 활동](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities)을 참조하세요.
+
+### <a name="advanced-ediscovery"></a>Advanced eDiscovery
+
+- [검토 집합에 모음을 추가할](add-data-to-review-set.md#define-options-to-scope-your-collection-for-review)때 최신 첨부 파일 ("클라우드 첨부 파일"이 라고도 함) 및 SharePoint 문서 버전을 포함할 수 있습니다.
+- 새 [직접 다운로드 내보내기 환경을](export-documents-from-review-set.md)사용 하 여 서비스 케이스 콘텐츠를 다운로드할 수 있는 Azure Storage Explorer를 사용할 필요가 없습니다.
+
 
 ## <a name="july-2020"></a>2020년 7월
 
@@ -269,7 +326,7 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 |솔루션 카탈로그 (미리 보기) <br/>|솔루션 카탈로그는 규정 준수 및 위험 관리 솔루션을 검색 하 고 학습 하며 빠르게 시작할 수 있는 1-스톱-상점입니다. 카탈로그는 세 가지 준수 범주로 구성 되며 각각에 해당 범주를 구성 하는 솔루션에 대 한 세부 정보를 포함 합니다. 종류에는 정보 보호 & 거 버 넌 스, 참가자 위험 관리 및 검색 & 응답이 포함 됩니다. <br/>|[솔루션 카탈로그 개요 (미리 보기)](microsoft-365-solution-catalog.md)|
 |통신 준수 (미리 보기) <br/>|통신 준수는 조직의 부적절 한 메시지에 대해 검색, 캡처 및 수정 작업을 수행 하 여 통신 위험을 최소화 하는 데 도움이 되는 새로운 참가자 위험 관리 범주의 일부입니다. 이 솔루션은 지능형 서식 파일, 유연한 재구성 워크플로 및 실행 가능한 통찰력과 같은 새로운 향상 된 기능을 도입 하 여 Office 365의 감독 정책 기능을 확장 합니다. <br/>|[Microsoft 365의 통신 준수 (미리 보기)](communication-compliance.md)|
 |데이터 분류 (미리 보기) <br/>|새 데이터 분류 페이지에는 조직 전체의 콘텐츠에 중요 한 정보 및 레이블 (보존 및 민감도)이 사용 되는 방식을 검색 하 고 평가 하는 데 도움이 되는 강력한 통찰력 및 도구가 포함 되어 있습니다. 중요 한 정보가 포함 된 콘텐츠를 검토 하거나 레이블이 적용 되 고, Microsoft 365 위치 간 레이블 작업을 탐색 하 고, 사용자 지정 중요 한 정보 유형을 만듭니다.<br/>|[데이터 분류 개요(미리 보기)](data-classification-overview.md)|
-|Trainable 분류자 (미리 보기) <br/>|이 강력한 새 도구는 컴퓨터 학습 엔진을 사용 하 여 규정 문서 또는 직원 계약과 같은 조직 내 콘텐츠 범주를 식별 하는 데 도움이 됩니다. 만든 분류자는 다양 한 준수 솔루션에서 사용 하 여 관련 콘텐츠를 검색 하 고 분류 하며 보호 하 고 유지 합니다.<br/>|[Trainable 분류자에 대 한 자세한 정보 (미리 보기)](classifier-learn-about.md)|
+|Trainable 분류자 (미리 보기) <br/>|이 강력한 새 도구는 컴퓨터 학습 엔진을 사용 하 여 규정 문서 또는 직원 계약과 같은 조직 내 콘텐츠 범주를 식별 하는 데 도움이 됩니다. 만든 분류자는 다양 한 준수 솔루션에서 사용 하 여 관련 콘텐츠를 검색 하 고 분류 하며 보호 하 고 유지 합니다.<br/>|[학습 가능한 분류자에 대한 자세한 정 (미리 보기)](classifier-learn-about.md)|
 
 #### <a name="updated-compliance-solutions"></a>업데이트 된 준수 솔루션
 
@@ -288,7 +345,7 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 |감사 로그 검색|검색 > 감사 로그 검색 <br/> https://protection.office.com/unifiedauditlog |감사 <br/> https://compliance.microsoft.com/auditlogsearch | [보안 & 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)|
 |콘텐츠 검색|검색 > 콘텐츠 검색 <br/> https://protection.office.com/contentsearchbeta?ContentOnly=1 | 콘텐츠 검색 <br/> https://compliance.microsoft.com/contentsearch |[Office 365에서 콘텐츠 검색](search-for-content.md) |
 |데이터 커넥터|타사 데이터 보관 > 정보 관리 기능 <br/> https://protection.office.com/nativeconnector | 데이터 커넥터 <br/> https://compliance.microsoft.com/connectorlanding |[타사 데이터 보관](archiving-third-party-data.md)|
-|데이터 손실 방지|데이터 손실 방지 <br/> https://protection.office.com/datalossprevention |데이터 손실 방지 <br/> https://compliance.microsoft.com/datalossprevention |[데이터 손실 방지 개요](data-loss-prevention-policies.md)|
+|데이터 손실 방지|데이터 손실 방지 <br/> https://protection.office.com/datalossprevention |데이터 손실 방지 <br/> https://compliance.microsoft.com/datalossprevention |[데이터 손실 방지의 개요](data-loss-prevention-policies.md)|
 |데이터 주체 요청 |데이터 개인 정보 > 데이터 주체 요청 <br/> https://protection.office.com/dsrcases |데이터 주체 요청 <br/> https://compliance.microsoft.com/datasubjectrequest |[DSR 사례 도구를 사용 하 여 GDPR 데이터 주체 요청 관리](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)|
 |eDiscovery|eDiscovery > eDiscovery <br/> https://protection.office.com/ediscoveryv1 |eDiscovery > 코어 <br/> https://compliance.microsoft.com/classicediscovery |[eDiscovery 사례 관리](ediscovery-cases.md) |
 |Events|레코드 관리 > 이벤트 <br/> https://protection.office.com/events |레코드 관리 > 이벤트 탭 <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[이벤트가 발생할 때 보존 시작하기](event-driven-retention.md)|
@@ -313,9 +370,3 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 - **Word, PowerPoint 및 Excel 파일**에 레이블을 적용 하는 경우 사용자에 게 특정 사용자 및 그룹에 대 한 액세스 권한을 지정 하 라는 메시지가 표시 됩니다.
 
 [민감도 레이블을 사용 하 여 콘텐츠에 대 한 액세스 제한](encryption-sensitivity-labels.md#let-users-assign-permissions) 으로 이동 하 여 자세한 내용을 확인 하 고 자세한 내용은 암호화를 적용 합니다.
-
-## <a name="august-2019"></a>2019년 8월
-
-### <a name="update-to-data-investigations"></a>데이터 조사에 대 한 업데이트
-
-데이터 조사를 수행할 때 이제 원래 위치에서 항목을 삭제할 수 있습니다. 즉, 조직 전체에서 Exchange 사서함, SharePoint 사이트 및 OneDrive 계정에서 항목을 삭제할 수 있습니다. 항목을 증거로 수집 했기 때문에 세부 정보 집합에 보관 된 복사본을 추가 하거나 참조로 유지 하는 것을 조사할 수 있습니다. [자세한 정보](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) 데이터 조사를 수행할 때 이제 원래 위치에서 항목을 삭제할 수 있습니다. 즉, 조직 전체에서 Exchange 사서함, SharePoint 사이트 및 OneDrive 계정에서 항목을 삭제할 수 있습니다. 항목을 증거로 수집 했기 때문에 세부 정보 집합에 보관 된 복사본을 추가 하거나 참조로 유지 하는 것을 조사할 수 있습니다. 자세한 내용은 [Microsoft 365의 data 유출 인시던트 관리](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) 로 이동 하세요. 

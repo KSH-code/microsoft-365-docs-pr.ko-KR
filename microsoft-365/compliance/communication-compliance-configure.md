@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 262cb34bbe7f2923ecf8dce88208c70ba0b5b7f7
-ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
+ms.openlocfilehash: 20f1a0cc38338bb054618726b5a399d237a979d2
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341415"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399503"
 ---
 # <a name="get-started-with-communication-compliance"></a>커뮤니케이션 규정 준수 시작
 
@@ -57,7 +57,7 @@ ms.locfileid: "48341415"
 ## <a name="step-1-required-enable-permissions-for-communication-compliance"></a>1 단계 (필수 사항): 통신 준수에 대 한 사용 권한 설정
 
 >[!Important]
->기본적으로 전역 관리자는 통신 준수 기능에 액세스할 수 없습니다. 이 단계에서 할당 된 역할은 통신 준수 기능에 액세스할 수 있으려면 먼저 필요 합니다.
+>기본적으로 전역 관리자는 통신 준수 기능에 액세스할 수 없습니다. 이 단계에서 할당 된 역할은 통신 준수 기능에 액세스할 수 있으려면 먼저 필요 합니다. 역할 그룹을 구성 하 고 나면 역할 그룹 권한을 조직 전체의 할당 된 사용자에 게 적용 하는 데 최대 30 분이 소요 될 수 있습니다.
 
 통신 준수 기능을 관리 하기 위한 권한을 구성 하는 데 사용 되는 역할 그룹에는 다섯 가지가 있습니다. **통신 준수** 를 Microsoft 365 준수 센터에서 메뉴 옵션으로 사용할 수 있도록 설정 하 고 이러한 구성 단계를 계속 하려면 *통신 준수* 또는 *통신 준수 관리자* 역할 그룹에 할당 해야 합니다. 초기 구성 후에 통신 준수 기능에 액세스 하 고 관리 하려면 사용자가 적어도 하나의 통신 준수 역할 그룹의 구성원 이어야 합니다.
 

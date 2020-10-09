@@ -17,12 +17,12 @@ ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: 이 랜딩 페이지에서는 Office 365의 보안 및 규정 준수를 위한 링크 및 계획 정보를 제공 합니다.
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e4eae4dddb90983b811e0856a09dae79af83d226
-ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
+ms.openlocfilehash: 3684506b458ea2d40d3ff8b022bfb9e8154accf3
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086659"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399037"
 ---
 # <a name="plan-for-security-amp-compliance"></a>보안 준수 계획 &amp;
 
@@ -46,7 +46,7 @@ Microsoft 365 데이터 및 서비스에 대 한 액세스를 보호 하는 것�
   
 - [Office 365에서 데이터 및 서비스에 대한 액세스 보호](protect-access-to-data-and-services.md)
     
-- [전자 메일 정책 및 구성 보안](https://docs.microsoft.com/microsoft-365/enterprise/secure-email-recommended-policies)
+- [전자 메일 정책 및 구성 보안](../security/office-365-security/secure-email-recommended-policies.md)
     
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657) | [더 많은 언어](https://www.microsoft.com/download/details.aspx?id=55032)
   
@@ -70,16 +70,16 @@ Microsoft 365 데이터 및 서비스에 대 한 액세스를 보호 하는 것�
 
 이러한 권장 구성을 엔터프라이즈 확장 또는 정교한 액세스 보안 시나리오의 시작 지점으로 사용 합니다.
   
-- [전자 메일 정책 및 구성 보안](https://docs.microsoft.com/microsoft-365/enterprise/secure-email-recommended-policies)
+- [전자 메일 정책 및 구성 보안](../security/office-365-security/secure-email-recommended-policies.md)
     
-- [Microsoft 클라우드의 Contoso](https://aka.ms/cloudarchcontoso)
+- [Microsoft 클라우드의 Contoso](../enterprise/contoso-case-study.md)
     
 ## <a name="microsoft-365-admin-centers-and-dashboards"></a>Microsoft 365 관리 센터 및 대시보드
 
 Microsoft 365 환경을 보호 하기 위해 이러한 관리 센터 및 대시보드에서 보안 및 규정 준수 설정 구성
   
-|**구독**|**관리 URL**|**대시보드 및 관리 센터**|
+|**구독은**|**관리 URL**|**대시보드 및 관리 센터**|
 |:-----|:-----|:-----|
 |Microsoft 365  <br/> |`https://admin.microsoft.com`  <br/> | Microsoft 365 관리 센터  <br/>  Security &amp; Compliance Center  <br/>  Exchange 관리 센터  <br/>  SharePoint 관리 센터 및 비즈니스용 OneDrive 관리 센터  <br/> |
-|Enterprise Mobility + Security  <br/> |`https://portal.azure.com`  <br/> | Azure Active Directory  <br/>  Microsoft 모바일 응용 프로그램 관리  <br/>  Microsoft Intune  <br/> |
+|Enterprise Mobility + Security  <br/> |`https://portal.azure.com`  <br/> | Azure Active Directory Domain Services  <br/>  Microsoft 모바일 응용 프로그램 관리  <br/>  Microsoft Intune  <br/> |
 |Enterprise Mobility + Security  <br/> |`https://portal.cloudappsecurity.com`  <br/> | Cloud App Security  <br/> |

@@ -13,6 +13,8 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- m365solution-mig
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
@@ -20,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 Microsoft 365 사서함으로 타사 데이터를 가져오는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a70747e9268b075f2c46072009b76f8071492fc7
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 7ce515e99e4ddded1cfeccd346bd33a445fe17d7
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200055"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398539"
 ---
 # <a name="archive-third-party-data"></a>타사 데이터 보관
 

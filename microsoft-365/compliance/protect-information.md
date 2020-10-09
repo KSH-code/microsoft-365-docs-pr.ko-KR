@@ -13,16 +13,17 @@ localization_priority: High
 search.appverid:
 - MOE150
 - MET150
+ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: Microsoft 365 준수를 사용 하 여 기밀 (Microsoft Information Protection) 기능을 구현 하 여 중요 한 정보를 검색, 분류 및 보호 하는 데 도움이 됩니다.
-ms.openlocfilehash: b421cf0b81c5ad52282302626b93064f9cd83ce8
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 78aadbba5442d7ec3cdc1beeac6d290a11325861
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338353"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399047"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Microsoft 365의 microsoft Information Protection
 
@@ -44,7 +45,7 @@ Microsoft 365 준수에는 밉 기능이 포함 되어 [있으므로 데이터�
 |:------|:------------|:--------------------|:-----------------------------|
 |[중요한 정보 유형](sensitive-information-type-entity-definitions.md)| 키워드, 신뢰 수준 및 근사를 포함 하는 적인 증거와 함께 기본 제공 또는 사용자 지정 정규식 또는 함수를 사용 하 여 중요 한 데이터를 식별 합니다.| [기본 제공 중요한 정보 유형 사용자 지정](customize-a-built-in-sensitive-information-type.md)|
 |[Trainable 분류자 (미리 보기)](classifier-learn-about.md)| 기본 제공 분류자 중 하나를 사용 하 여 데이터를 분류 하거나 사용자가 직접 콘텐츠를 사용 하 여 분류자를 교육 합니다. | [학습 가능한 분류자 시작(미리 보기)](classifier-get-started-with.md) |
-|[데이터 분류](data-classification-overview.md) | 민감도 레이블, 보존 레이블 또는 조직에서 중요 한 정보 유형으로 분류 된 항목 및 사용자가 작업을 수행 하는 동작을 식별 합니다.  | [콘텐츠 탐색기로 시작](data-classification-content-explorer.md)<br /><br /> [활동 탐색기로 시작](data-classification-activity-explorer.md) |
+|[데이터 분류](data-classification-overview.md) | 민감도 레이블, 보존 레이블 또는 조직에서 중요 한 정보 유형으로 분류 된 항목 및 사용자가 작업을 수행 하는 동작을 식별 합니다.  | [콘텐츠 탐색기 시작하기](data-classification-content-explorer.md)<br /><br /> [활동 탐색기 시작하기](data-classification-activity-explorer.md) |
 
 ## <a name="protect-your-data"></a>사용자 데이터 보호
 

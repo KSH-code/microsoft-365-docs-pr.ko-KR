@@ -16,12 +16,12 @@ search.appverid:
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: Microsoft 365 데이터 및 서비스에 대 한 사용자 및 장치 액세스를 보호 하 고 데이터 손실을 방어 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 90fd902f0ccd8589fa413a2b06b9d5ccf74ab1fd
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 64baa2c9e49a9b24841ec50db3e5592ba3d7d55d
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036031"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399027"
 ---
 # <a name="protect-user-and-device-access"></a>사용자 및 장치 액세스 보호
 
@@ -50,7 +50,7 @@ Multi-factor authentication 및 조건부 액세스를 사용 하 여 관리자 
 마지막으로, 테 넌 트에서 두 개 이상의 응급 액세스 계정을 만들어 실수로 관리 액세스가 부족 하다는 영향을 완화할 수 있습니다. [AZURE AD에서 긴급 액세스 계정 관리를](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-emergency-access)참조 하세요. 
 
 ## <a name="step-3-configure-recommended-identity-and-device-access-policies"></a>3 단계: 권장 되는 id 및 장치 액세스 정책 구성
-MFA (multi-factor authentication) 및 조건부 액세스 정책은 손상 된 계정 및 무단 액세스를 완화 하기 위한 강력한 도구입니다. 함께 테스트 된 정책 집합을 구현 하는 것이 좋습니다. 배포 단계를 비롯 한 자세한 내용은 [id 및 장치 액세스 구성](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-policies-configurations)를 참조 하세요.
+MFA (multi-factor authentication) 및 조건부 액세스 정책은 손상 된 계정 및 무단 액세스를 완화 하기 위한 강력한 도구입니다. 함께 테스트 된 정책 집합을 구현 하는 것이 좋습니다. 배포 단계를 비롯 한 자세한 내용은 [id 및 장치 액세스 구성](../security/office-365-security/microsoft-365-policies-configurations.md)를 참조 하세요.
 
  이러한 정책은 다음과 같은 기능을 구현 합니다.
 - 여러 요소 인증
@@ -63,7 +63,7 @@ Intune 장치 준수를 구현 하려면 장치 등록이 필요 합니다. 장�
 
 ## <a name="step-4-configure-sharepoint-device-access-policies"></a>4 단계: SharePoint 장치 액세스 정책 구성
 
-Microsoft는 장치 액세스 제어를 통해 중요 하 고 규제 된 콘텐츠를 사용 하 여 SharePoint 사이트의 콘텐츠를 보호 하는 것이 좋습니다. 자세한 내용은 [SharePoint 사이트 및 파일을 보호 하기 위한 정책 권장 사항을](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)참조 하세요.
+Microsoft는 장치 액세스 제어를 통해 중요 하 고 규제 된 콘텐츠를 사용 하 여 SharePoint 사이트의 콘텐츠를 보호 하는 것이 좋습니다. 자세한 내용은 [SharePoint 사이트 및 파일을 보호 하기 위한 정책 권장 사항을](../security/office-365-security/sharepoint-file-access-policies.md)참조 하세요.
 
 
 
