@@ -113,8 +113,6 @@
               href: azure-integration.md
             - name: Azure Express 경로
               href: azure-expressroute.md
-            - name: Office 2013 및 Office 2016 클라이언트 앱에 대해 최신 인증이 작동하는 방법
-              href: modern-auth-for-office-2013-and-2016.md
         - name: 클라이언트 앱 지원
           items:
             - name: 인증서 기반 인증
@@ -137,6 +135,8 @@
               href: configure-skype-for-business-for-hybrid-modern-authentication.md
             - name: 비즈니스용 및 Skype 및 Exchange 제거 혹은 사용 중지
               href: remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha.md
+            - name: 'Office 2013, Office 2016 및 Office 2019 클라이언트 앱'
+              href: modern-auth-for-office-2013-and-2016.md
         - name: 업그레이드를 계획하세요.
           href: plan-upgrade-previous-versions-office.md
           items:
