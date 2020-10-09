@@ -14,12 +14,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: c6e973e05f9a73736410c9bfedfa2ef73bb583ce
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 5183e6f60d825ff523db4da165d16752b3aa3cc8
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377404"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399352"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Microsoft 365에서 위협 보호 기능 구성
 
@@ -40,13 +40,13 @@ Microsoft는 모든 SaaS 응용 프로그램 (특히 Microsoft 365)에 대 한 �
 
 ![기본 보호 배포 프로세스](../media/solutions-architecture-center/deploy-threat-protection-identity-access-steps.png) 
 
-1. [Azure Id 보호를 포함 한 필수 구성 요소를 구성](../enterprise/identity-access-prerequisites.md)합니다.
-2. 기본 보호에 대 한 [일반 id 및 장치 액세스 정책을 구성](../enterprise/identity-access-policies.md) 합니다.
-3. [게스트 사용자](../enterprise/identity-access-policies-guest-access.md), [Microsoft 팀](../enterprise/teams-access-policies.md), [Exchange Online](../enterprise/secure-email-recommended-policies.md)및 [SharePoint online 및 OneDrive](../enterprise/sharepoint-file-access-policies.md)에 대 한 정책을 구성 합니다.
+1. [Azure Id 보호를 포함 한 필수 구성 요소를 구성](../security/office-365-security/identity-access-prerequisites.md)합니다.
+2. 기본 보호에 대 한 [일반 id 및 장치 액세스 정책을 구성](../security/office-365-security/identity-access-policies.md) 합니다.
+3. [게스트 사용자](../security/office-365-security/identity-access-policies-guest-access.md), [Microsoft 팀](../security/office-365-security/teams-access-policies.md), [Exchange Online](../security/office-365-security/secure-email-recommended-policies.md)및 [SharePoint online 및 OneDrive](../security/office-365-security/sharepoint-file-access-policies.md)에 대 한 정책을 구성 합니다.
 
 ### <a name="more-information-about-protecting-identities"></a>Id 보호에 대 한 추가 정보
 
-- [ID 및 장치 액세스 구성](../enterprise/microsoft-365-policies-configurations.md)
+- [ID 및 장치 액세스 구성](../security/office-365-security/microsoft-365-policies-configurations.md)
 - [Azure MFA에 대 한 보안 지침](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication-security-best-practices)
 
 ## <a name="step-2-configure-azure-advanced-threat-protection"></a>2 단계: Azure Advanced Threat Protection 구성

@@ -9,19 +9,16 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 298c529b-407b-4a2b-b2c5-6e77a9d1f07f
 description: 이 페이지를 사용 하 여 직원 목록을 만들고 이름, 전화 번호 및 전자 메일 주소와 같은 직원 구성원 세부 정보를 관리할 수 있습니다.
-ms.openlocfilehash: cfd42eedb6e0bea08cdee1503fc373167996c75b
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 11d62cc34522de21e63b8bdf6e7e15729ac73dc1
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419996"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399196"
 ---
 # <a name="add-staff-to-bookings"></a>예약에 직원 추가
 
 예약의 스태프 페이지는 직원 목록을 만들고 이름, 전화 번호 및 전자 메일 주소와 같은 직원 구성원 세부 정보를 관리 하는 위치입니다. 각 교직원 구성원에 대해 작업 시간을 설정할 수도 있습니다.
-
-> [!NOTE]
-> Microsoft 365 Business Standard, Microsoft 365 A3 또는 Microsoft 365 A5 구독이 있는 고객의 경우 기본적으로 예약이 설정 됩니다. Office 365 Enterprise E3 및 Office 365 Enterprise E5가 있는 고객 에게도 예약을 사용할 수 있지만 기본적으로이 기능은 해제 되어 있습니다. 시작 하려면 [Microsoft 예약에 대 한 get 액세스](get-access.md)를 참조 하세요. 예약을 설정 하거나 해제 하려면 [조직에 대해 예약 설정 또는 해제](turn-bookings-on-or-off.md)를 참조 하세요.
 
 ## <a name="add-staff"></a>직원 추가
 
@@ -35,11 +32,11 @@ ms.locfileid: "47419996"
 
 2. **직원 추가** 단추를 선택 합니다.
 
-3. 테 넌 트 내에서 직원을 추가 하는 경우 **사용자 추가** 필드에 해당 이름을 입력 하 고 드롭다운 메뉴에 표시 되 면 선택 합니다. 다른 필드는 자동으로 채워집니다.
+3. 조직 내에서 직원을 추가 하는 경우 **사용자 추가** 필드에 해당 이름을 입력 하 고 드롭다운 메뉴에 표시 되 면 선택 합니다. 다른 필드는 자동으로 채워집니다.
 
     교직원 구성원을 추가한 후에는 이름 옆에 있는 **x** 를 선택 하 고 **사용자 추가** 필드를 편집 하 여 모든 예약 통신에 나타나는 이름을 편집할 수 있습니다. 이는 Adele Vance을 "Dr. Vance, MD"로 나열 하는 것과 같이 직원 구성원이 고객에 게 표시 되는 특정 제목이 나 이름을 포함 하도록 하려는 경우에 유용 합니다.
 
-4. 테 넌 트 외부에서 직원을 추가 하려면 전자 메일 및 기타 정보를 수동으로 입력 합니다.
+4. 조직 외부에서 직원을 추가 하려면 전자 메일 및 기타 정보를 수동으로 입력 합니다.
 
     > [!NOTE]
     > 테 넌 트 외부의 직원은 예약을 사용 하 여 약속 있음/없음 정보를 공유할 수 없게 됩니다.
@@ -57,11 +54,14 @@ ms.locfileid: "47419996"
 
     예를 들어 교직원 구성원에 게 수요일에 오후 3 시에 예정 된 팀 모임이 나 개인 약속이 있는 경우 예약을 통해 해당 시간 슬롯에 직원 구성원에 게 예약할 수 없는 것으로 표시 됩니다. 해당 시간은 다음 예에서와 같이 예약 일정 보기에서 약속이 있거나 미정으로 표시 됩니다.
 
-    :::image type="content" source="media/bookings-busy-tentative-view.jpg" alt-text="예약 일정 보기":::
+    :::image type="content" source="media/bookings-busy-tentative-view.jpg" alt-text="예약에서 보낸 알림 전자 메일":::
 
 > [!IMPORTANT]
 > 이 설정을 사용 하지 않도록 설정 (기본적으로 설정 됨) 하는 것이 좋습니다.
 
 8. 업무 **시간을 사용** 하 여 직원 구성원이 비즈니스 정보 페이지의 **업무 시간** 섹션에서 설정한 업무 시간 내에만 포함 하도록 설정 합니다.
 
-    이 확인란의 선택을 취소 하면 직원에 게 예약할 수 있는 사용자 지정 시간이 제공 될 수 있습니다. 이 기능은 스태프 구성원이 사이트 화요일 및 Wednesdays에만 있을 수 있거나 다른 유형에 대해 한 가지 약속과 afternoons에 대 한 아침 전용으로 설정 하는 시나리오에 유용 합니다.
+    이 확인란의 선택을 취소 하면 직원에 게 예약할 수 있는 사용자 지정 시간이 제공 될 수 있습니다. 이 기능은 스태프 구성원이 사이트 화요일 및 Wednesdays에만 있을 수 있거나, 한 가지 유형의 약속에 대 한 아침을 다른 유형에 대해 설정 하는 경우에 유용 합니다.
+
+    > [!NOTE]
+    > 직원 구성원을 서비스에 할당 하면 직원 페이지에 추가 하는 처음 31 명의 직원 구성원만 표시 됩니다.

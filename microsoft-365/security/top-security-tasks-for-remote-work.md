@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: 랜 섬 웨어, 피싱 및 악의적 첨부 파일을 포함 하 여 사이버 위협 으로부터 비즈니스 전자 메일 및 데이터를 보호 합니다.
-ms.openlocfilehash: 754f3eac884128e0707a02c15d4d3766f5fa4ca5
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: c72090bebe92ea61d99772eccde041d011c05580
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327798"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398650"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>집에서 작업을 지원 하기 위한 보안 팀을 위한 상위 12 개 작업
 
@@ -49,7 +49,7 @@ ms.locfileid: "48327798"
 |7 |[Intune 앱 보호를 포함 하 여 게스트에 대 한 MFA 및 조건부 액세스 구성](#7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection)||![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |8 |[Pc를 장치 관리에 등록 하 고 준수 Pc 필요](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)||![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |9 |[클라우드 연결용 네트워크 최적화](#9-optimize-your-network-for-cloud-connectivity)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|10|[사용자 교육](#10-train-users)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|10  |[사용자 교육](#10-train-users)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |11 |[Microsoft Cloud App Security 시작](#11-get-started-with-microsoft-cloud-app-security)|||![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |12 |[위협 모니터링 및 작업 수행](#12-monitor-for-threats-and-take-action)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |
@@ -72,7 +72,7 @@ ms.locfileid: "48327798"
 |---|---|
 |Microsoft 365 계획 (Azure AD P1 또는 P2 제외)|[Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)에서 보안 기본값을 사용하도록 설정 합니다. Azure AD의 보안 기본값에는 사용자 및 관리자를 위한 MFA가 포함됩니다.|
 |Microsoft 365 E3 (Azure AD P1 포함)|[공통 조건부 액세스 정책](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common)을 사용하여 다음 정책을 구성합니다. <br/>- [관리자에게 MFA 요구](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br/>- [모든 사용자에 대해 MFA 요구](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br/> - [레거시 인증 차단](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)|
-|Microsoft 365 E5 (Azure AD P2 포함)|Azure AD ID 보호를 활용하여 다음 두 정책을 만들어 Microsoft의 [권장 조건부 액세스 및 관련 정책 집합](../enterprise/identity-access-policies.md)을 구현하세요.<br/> - [로그인 위험이 중간 이상인 경우 MFA 필요](../enterprise/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br/>- [최신 인증을 지원하지 않는 클라이언트 차단](../enterprise/identity-access-policies.md#block-clients-that-dont-support-modern-authentication)<br/>- [위험이 높은 사용자는 암호를 변경해야 함](../enterprise/identity-access-policies.md#high-risk-users-must-change-password)|
+|Microsoft 365 E5 (Azure AD P2 포함)|Azure AD ID 보호를 활용하여 다음 두 정책을 만들어 Microsoft의 [권장 조건부 액세스 및 관련 정책 집합](./office-365-security/identity-access-policies.md)을 구현하세요.<br/> - [로그인 위험이 중간 이상인 경우 MFA 필요](./office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br/>- [최신 인증을 지원하지 않는 클라이언트 차단](./office-365-security/identity-access-policies.md#block-clients-that-dont-support-modern-authentication)<br/>- [위험이 높은 사용자는 암호를 변경해야 함](./office-365-security/identity-access-policies.md#high-risk-users-must-change-password)|
 |
 
 ## <a name="2-protect-against-threats"></a>2: 위협 으로부터 보호
@@ -139,10 +139,10 @@ Microsoft Intune MAM (모바일 응용 프로그램 관리)를 사용 하면 이
 
 또한 Microsoft는이 앱 보호 프레임 워크에 조건부 액세스 및 관련 정책 집합을 조정 하는 것이 좋지만, 모든 조직은 시작 점으로 사용 하는 것이 좋습니다. 이 문서의 지침을 사용 하 여 MFA를 구현한 경우 절반으로 진행 됩니다.
 
-모바일 앱 보호를 구성 하려면 [일반 id 및 장치 액세스 정책](../enterprise/identity-access-policies.md)에 있는 지침을 사용 합니다.
+모바일 앱 보호를 구성 하려면 [일반 id 및 장치 액세스 정책](./office-365-security/identity-access-policies.md)에 있는 지침을 사용 합니다.
 
- 1. [앱 데이터 보호 정책 적용](../enterprise/identity-access-policies.md#apply-app-data-protection-policies) 지침을 사용 하 여 IOS 및 Android 용 정책을 만듭니다. 기본 보호에는 수준 2 (향상 된 데이터 보호)가 권장 됩니다.
- 2. [승인 된 앱 및 앱 보호가 필요한](../enterprise/identity-access-policies.md#require-approved-apps-and-app-protection)조건부 액세스 규칙을 만듭니다.
+ 1. [앱 데이터 보호 정책 적용](./office-365-security/identity-access-policies.md#apply-app-data-protection-policies) 지침을 사용 하 여 IOS 및 Android 용 정책을 만듭니다. 기본 보호에는 수준 2 (향상 된 데이터 보호)가 권장 됩니다.
+ 2. [승인 된 앱 및 앱 보호가 필요한](./office-365-security/identity-access-policies.md#require-approved-apps-and-app-protection)조건부 액세스 규칙을 만듭니다.
 
 ## <a name="7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection"></a>7: Intune 모바일 앱 보호를 포함 하 여 게스트에 대 한 MFA 및 조건부 액세스 구성
 
@@ -153,7 +153,7 @@ Microsoft 365 E5 요금제를 사용 하는 경우에는 위험 기반 MFA에 �
 - 게스트 및 외부 사용자에 대해 MFA를 항상 필요로 하는 새 조건부 액세스 규칙을 만듭니다.
 - Guest 및 외부 사용자를 제외 하도록 위험 기반 MFA 조건부 액세스 규칙을 업데이트 합니다.
 
-[게스트 및 외부 액세스를 허용 및 보호 하기 위한 일반 정책 업데이트](../enterprise/identity-access-policies-guest-access.md) 의 지침을 사용 하 여 게스트 액세스가 Azure AD에서 작동 하는 방식을 이해 하 고 영향을 받는 정책을 업데이트 합니다.
+[게스트 및 외부 액세스를 허용 및 보호 하기 위한 일반 정책 업데이트](./office-365-security/identity-access-policies-guest-access.md) 의 지침을 사용 하 여 게스트 액세스가 Azure AD에서 작동 하는 방식을 이해 하 고 영향을 받는 정책을 업데이트 합니다.
 
 사용자가 만든 Intune 모바일 앱 보호 정책 및 조건부 액세스 규칙을 함께 사용 하 여 승인 된 앱 및 앱 보호를 요구 하 고, 게스트 계정에 적용 되며, 조직 데이터를 보호 하는 데 도움이 됩니다.
 
@@ -171,12 +171,12 @@ Microsoft 365 E5 요금제를 사용 하는 경우에는 위험 기반 MFA에 �
 - [Autopilot을 사용 하 여 Intune에서 Windows 장치 등록](https://docs.microsoft.com/mem/intune/enrollment/tutorial-use-autopilot-enroll-devices)
 - [Intune에서 apple Business Manager (ABM)의 회사 장비 등록 기능을 사용 하 여 iPadOS에서 iOS/장치를 등록 합니다.](https://docs.microsoft.com/mem/intune/enrollment/tutorial-use-device-enrollment-program-enroll-ios)
 
-장치를 등록 한 후 [일반 id 및 장치 액세스 정책](../enterprise/identity-access-policies.md) 에 설명 된 지침을 사용 하 여 다음 정책을 만듭니다.
+장치를 등록 한 후 [일반 id 및 장치 액세스 정책](./office-365-security/identity-access-policies.md) 에 설명 된 지침을 사용 하 여 다음 정책을 만듭니다.
 
-- [장치 준수 정책 정의](../enterprise/identity-access-policies.md#define-device-compliance-policies) -Windows 10에 권장 되는 설정에는 바이러스 백신 보호가 필요 합니다. Microsoft 365 E5가 있는 경우 Microsoft Defender Advanced Threat Protection을 사용 하 여 직원 장치의 상태를 모니터링 합니다. 다른 운영 체제에 대 한 준수 정책에는 바이러스 백신 보호 및 최종 지점 보호 소프트웨어가 포함 되어 있어야 합니다.
-- [준수 Pc 필요](../enterprise/identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets) -이는 장치 준수 정책을 적용 하는 Azure AD의 조건부 액세스 규칙입니다.
+- [장치 준수 정책 정의](./office-365-security/identity-access-policies.md#define-device-compliance-policies) -Windows 10에 권장 되는 설정에는 바이러스 백신 보호가 필요 합니다. Microsoft 365 E5가 있는 경우 Microsoft Defender Advanced Threat Protection을 사용 하 여 직원 장치의 상태를 모니터링 합니다. 다른 운영 체제에 대 한 준수 정책에는 바이러스 백신 보호 및 최종 지점 보호 소프트웨어가 포함 되어 있어야 합니다.
+- [준수 Pc 필요](./office-365-security/identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets) -이는 장치 준수 정책을 적용 하는 Azure AD의 조건부 액세스 규칙입니다.
 
-한 조직 에서만 장치를 관리할 수 있으므로 Azure AD의 조건부 액세스 규칙에서 게스트 계정을 제외 해야 합니다. 장치 준수를 요구 하는 정책에서 게스트 및 외부 사용자를 제외 하지 않으면 이러한 정책은 이러한 사용자를 차단 합니다. 자세한 내용은 [게스트 및 외부 액세스를 허용 하 고 보호 하기 위해 일반 정책 업데이트](../enterprise/identity-access-policies-guest-access.md)를 참조 하세요.
+한 조직 에서만 장치를 관리할 수 있으므로 Azure AD의 조건부 액세스 규칙에서 게스트 계정을 제외 해야 합니다. 장치 준수를 요구 하는 정책에서 게스트 및 외부 사용자를 제외 하지 않으면 이러한 정책은 이러한 사용자를 차단 합니다. 자세한 내용은 [게스트 및 외부 액세스를 허용 하 고 보호 하기 위해 일반 정책 업데이트](./office-365-security/identity-access-policies-guest-access.md)를 참조 하세요.
 
 ## <a name="9-optimize-your-network-for-cloud-connectivity"></a>9: 클라우드 연결용 네트워크 최적화
 

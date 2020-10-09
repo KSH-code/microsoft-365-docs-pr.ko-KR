@@ -15,20 +15,20 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 클라우드 전용 인증을 위한 필수 구성 요소를 사용하여 ID 및 장치 액세스를 테스트하는 Microsoft 365 환경을 만듭니다.
-ms.openlocfilehash: a8025a2543a53a229be13d19c246165fe88ad433
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: aa18e1a9943ec12465737f6c3f2e12c1fa49e2a3
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685787"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398880"
 ---
 # <a name="identity-and-device-access-prerequisites-for-cloud-only-in-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에서 클라우드 전용 ID 및 장치 액세스 필수 구성 요소
 
 *이 테스트 랩 가이드는 엔터프라이즈 테스트 환경용 Microsoft 365에만 사용할 수 있습니다.*
 
-[Id 및 장치 액세스 구성은](microsoft-365-policies-configurations.md) Azure Active Directory (azure AD)와 통합 된 모든 서비스에 대 한 액세스를 보호 하기 위한 구성 및 조건부 액세스 정책의 집합입니다.
+[Id 및 장치 액세스 구성은](../security/office-365-security/microsoft-365-policies-configurations.md) Azure Active Directory (azure AD)와 통합 된 모든 서비스에 대 한 액세스를 보호 하기 위한 구성 및 조건부 액세스 정책의 집합입니다.
 
-이 문서에서는 ID 및 장치 액세스를 위해 [클라우드 전용 필수 구성](identity-access-prerequisites.md#prerequisites)의 요구 사항을 충족하는 Microsoft 365 테스트 환경을 구성하는 방법에 대해 설명합니다.
+이 문서에서는 ID 및 장치 액세스를 위해 [클라우드 전용 필수 구성](../security/office-365-security/identity-access-prerequisites.md#prerequisites)의 요구 사항을 충족하는 Microsoft 365 테스트 환경을 구성하는 방법에 대해 설명합니다.
 
 이 테스트 환경을 설정하는 데 8가지 단계가 있습니다.
 
@@ -106,7 +106,7 @@ Online 비즈니스용 Skype의 경우:
   Get-CsOAuthConfiguration
   ```
 
-그 결과는 ID 및 장치 액세스에 대한 [클라우드 전용 필수 구성](identity-access-prerequisites.md#prerequisites)의 요구 사항을 충족하는 테스트 환경입니다. 
+그 결과는 ID 및 장치 액세스에 대한 [클라우드 전용 필수 구성](../security/office-365-security/identity-access-prerequisites.md#prerequisites)의 요구 사항을 충족하는 테스트 환경입니다. 
 
 ## <a name="next-step"></a>다음 단계
 

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 보안을 위한 고유한 민감도 레이블이 있는 팀을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 544f62e4765388f90874c15504e6656820111ed4
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: fdebfcbfa4aad68f381db4ffb8c9b83a5100187c
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326498"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398718"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>보안 격리를 사용하여 팀 구성하기
 
@@ -51,8 +51,8 @@ ms.locfileid: "48326498"
 ## <a name="initial-protections"></a>초기 보호
 
 팀과 기본 SharePoint 사이트에 대한 액세스를 보호하려면 다음과 같은 모범 사례를 검토하세요.
-- [ID 및 장치 액세스 정책](https://docs.microsoft.com/microsoft-365/enterprise/identity-access-policies)
-- [SharePoint Online 액세스 정책](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)
+- [ID 및 장치 액세스 정책](../security/office-365-security/identity-access-policies.md)
+- [SharePoint Online 액세스 정책](../security/office-365-security/sharepoint-file-access-policies.md)
 - [기준 보호를 사용하여 팀 배치하기](configure-teams-baseline-protection.md)
 
 ## <a name="guest-sharing"></a>게스트 공유

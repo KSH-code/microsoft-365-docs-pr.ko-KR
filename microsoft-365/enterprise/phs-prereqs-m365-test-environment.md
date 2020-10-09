@@ -15,20 +15,20 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 암호 해시 동기화를 위한 필수 구성 요소를 사용하여 ID 및 장치 액세스를 테스트하는 Microsoft 365 환경을 만듭니다.
-ms.openlocfilehash: 6aa6b1cd1b8f9459b27e46fa67c62b35014b2d7e
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 63f433d5297139fcc7f6eb8bd5383a6593c29388
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686253"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399446"
 ---
 # <a name="identity-and-device-access-prerequisites-for-password-hash-synchronization-in-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에서 암호 해시 동기화를 위한 ID 및 장치 액세스 필수 구성 요소
 
 *이 테스트 랩 가이드는 엔터프라이즈 테스트 환경용 Microsoft 365에만 사용할 수 있습니다.*
 
-[Id 및 장치 액세스 구성은](microsoft-365-policies-configurations.md) Azure Active Directory (azure AD)와 통합 된 엔터프라이즈에 대 한 Microsoft 365의 모든 서비스에 대 한 액세스를 보호 하기 위한 구성 및 조건부 액세스 정책 집합입니다.
+[Id 및 장치 액세스 구성은](../security/office-365-security/microsoft-365-policies-configurations.md) Azure Active Directory (azure AD)와 통합 된 엔터프라이즈에 대 한 Microsoft 365의 모든 서비스에 대 한 액세스를 보호 하기 위한 구성 및 조건부 액세스 정책 집합입니다.
 
-이 문서에서는 ID와 장치 액세스를 위해 [암호 해시 동기화 필수 구성를 사용하여 Active Directory](identity-access-prerequisites.md#prerequisites)의 요구사항을 충족하는 Microsoft 365 테스트 환경을 구성하는 방법에 대해 설명합니다.
+이 문서에서는 ID와 장치 액세스를 위해 [암호 해시 동기화 필수 구성를 사용하여 Active Directory](../security/office-365-security/identity-access-prerequisites.md#prerequisites)의 요구사항을 충족하는 Microsoft 365 테스트 환경을 구성하는 방법에 대해 설명합니다.
 
 이 테스트 환경의 8가지 주요 설정 단계는 다음과 같습니다.
 
@@ -110,7 +110,7 @@ Online 비즈니스용 Skype의 경우:
   Get-CsOAuthConfiguration
   ```
 
-결과는 ID와 장치 액세스를 위해 [암호 해시 동기화 필수 구성을 사용하여 Active Directory](identity-access-prerequisites.md#prerequisites)의 요구 사항을 충족하는 테스트 환경입니다. 
+결과는 ID와 장치 액세스를 위해 [암호 해시 동기화 필수 구성을 사용하여 Active Directory](../security/office-365-security/identity-access-prerequisites.md#prerequisites)의 요구 사항을 충족하는 테스트 환경입니다. 
 
 ## <a name="next-step"></a>다음 단계
 

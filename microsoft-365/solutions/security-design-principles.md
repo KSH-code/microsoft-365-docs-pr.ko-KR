@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: cdb6b557bf2f46a2338d929547167cf89a048695
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 563972c458e77d96cf075f048dcee027bf29bc95
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522280"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399400"
 ---
 # <a name="security-hurdles-you-can-sail-over--one-architects-viewpoint"></a>Sail 수 있는 보안 기능-한 설계자의 관점
 
@@ -49,7 +49,7 @@ ms.locfileid: "46522280"
 
 다음으로, 제로 트러스트 아키텍처 방법을 채택 합니다. 이는 먼저 최신 id 기반 보안 경계를 구축 하는 것으로 시작 합니다. 프레미스 또는 클라우드가 모든 액세스 시도가 완료 될 때까지 신뢰할 수 없는 것으로 간주 되는 보안 아키텍처를 디자인 합니다 ("신뢰 안 함, 항상 확인). 이 디자인 방식을 사용 하면 보안 및 생산성도 향상 시킬 수 있을 뿐만 아니라 모든 장치 유형의 모든 위치에서 작업할 수도 있습니다. Microsoft 365에 포함 된 정교한 클라우드 컨트롤은 사용자 위험 수준에 따라 중요 한 리소스에 대 한 액세스를 제어 하면서 사용자의 id를 보호 하는 데 도움이 됩니다.
 
-권장 되는 구성에 대 한 자세한 내용은 [id 및 장치 액세스 구성](../enterprise/microsoft-365-policies-configurations.md)를 참조 하세요. 
+권장 되는 구성에 대 한 자세한 내용은 [id 및 장치 액세스 구성](../security/office-365-security/microsoft-365-policies-configurations.md)를 참조 하세요. 
 
 ## <a name="transition-security-controls-to-the-cloud"></a>클라우드로의 전환 보안 제어
 
@@ -79,7 +79,7 @@ ms.locfileid: "46522280"
 
 |리소스   |추가 정보  |
 |---------|---------|
-|[보안팀의 재택 근무 지원용 최상위 작업](../security/top-security-tasks-for-remote-work.md)      | 거의 모든 작업 시간을 지 원하는 경우이 문서를 통해 보안을 빠르게 높일 수 있습니다. 여기에는 라이선스 계획을 기준으로 하는 상위 권장 작업이 포함 되어 있습니다.    |
+|[재택 근무를 지원하는 보안 팀의 주요 작업](../security/top-security-tasks-for-remote-work.md)      | 거의 모든 작업 시간을 지 원하는 경우이 문서를 통해 보안을 빠르게 높일 수 있습니다. 여기에는 라이선스 계획을 기준으로 하는 상위 권장 작업이 포함 되어 있습니다.    |
 |[비즈니스 의사 결정권자를 위한 Microsoft 365 보안](../security/Microsoft-365-security-for-bdm.md)    | 보다 포괄적인 계획을 수립할 시간이 있으면이 문서에는 Microsoft 365에 나와 있는 권장 사항과 함께 공격 허점의 우선 순위가 포함 되어 있습니다. 또한 라이선스 및 영역 (예: id, 위협 보호, 모니터링)을 정렬 하는 데 사용할 수 있는 스프레드시트도 함께 제공 됩니다.  |
 |[Microsoft 보안 아키텍처 권장 사항](https://docs.microsoft.com/security/compass/compass)    | 보안 설계자는 id, 네트워킹 및 보안 작업을 포함 하 여 부문별 구성 권장 사항을 확인 해야 합니다.   |
 |[Microsoft 보안 작업 권장 사항](https://docs.microsoft.com/security/compass/security-operations-videos-and-decks)|SOC (보안 작업 센터) 설정 및 실행에 대 한 Microsoft 권장 사항에 대해 알아보세요. |

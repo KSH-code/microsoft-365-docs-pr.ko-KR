@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_Architecture
 description: '요약: Contoso에서 최상위 비밀 프로젝트에 대해 보안 격리를 적용 하 여 팀을 사용 하 여 새로운 제품 및 서비스 제품군을 개발 하는 방법을 설명 합니다.'
-ms.openlocfilehash: ba9a66d2419e81aeb1eac026b16c0475ac6d0614
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: 16d10f5d6e5b5939172c02746c9324eb20b6987e
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778595"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399492"
 ---
 # <a name="isolated-team-for-a-top-secret-project-of-the-contoso-corporation"></a>Contoso Corporation의 최상위 비밀 프로젝트에 대 한 격리 된 팀
 
@@ -40,7 +40,7 @@ Contoso IT 직원은 프로젝트를 두 배로 격리 하 고 이러한 단계�
 
 ## <a name="step-1-created-a-private-team"></a>1 단계: 비공개 팀 만들기
 
-먼저, Contoso IT 관리자는 팀의 기본 SharePoint 사이트에 대 한 액세스를 보호 하기 위해 [권장 되는 sharepoint 액세스 정책을](../enterprise/sharepoint-file-access-policies.md)구성 했습니다.
+먼저, Contoso IT 관리자는 팀의 기본 SharePoint 사이트에 대 한 액세스를 보호 하기 위해 [권장 되는 sharepoint 액세스 정책을](../security/office-365-security/sharepoint-file-access-policies.md)구성 했습니다.
 
 다음으로 Contoso IT 관리자가 Project 라는 새 비공개 팀을 만들고 프로젝트 2 개 직원의 사용자 계정을 구성원으로 추가 했습니다. 또한 프로젝트 2 배의 팀 소유자만 개인 채널을 만들 수 있도록 팀을 구성 했습니다.
 
@@ -51,7 +51,7 @@ Contoso IT 직원은 프로젝트를 두 배로 격리 하 고 이러한 단계�
 Contoso 관리자는 다음과 같은 **프로젝트별** 라는 새 민감도 레이블을 만들었습니다.
 
 - 암호화를 사용 합니다.
-- Microsoft 365 그룹 2 개 프로젝트에 대해 공동 작성자 권한을 허용 합니다.
+- Project에서 Microsoft 365 그룹 2 배로 Co-Author 권한을 허용 합니다.
 - 선임 리더십 그룹에 대 한 뷰어 권한이 허용 됩니다.
 - 관리 되지 않는 장치에 대 한 액세스 차단
 
@@ -64,7 +64,7 @@ Contoso 관리자는 다음과 같은 **프로젝트별** 라는 새 민감도 �
 
 ## <a name="step-3-configured-the-underlying-sharepoint-site"></a>3 단계: 기본 SharePoint 사이트 구성
 
-먼저, Contoso IT 관리자는 팀의 기본 SharePoint 사이트에 대 한 액세스를 보호 하기 위해 [권장 되는 sharepoint 액세스 정책을](../enterprise/sharepoint-file-access-policies.md)구성 했습니다.
+먼저, Contoso IT 관리자는 팀의 기본 SharePoint 사이트에 대 한 액세스를 보호 하기 위해 [권장 되는 sharepoint 액세스 정책을](../security/office-365-security/sharepoint-file-access-policies.md)구성 했습니다.
 
 다음으로, 사이트에 대 한 추가 사용 권한 설정을 구성 합니다.
 

@@ -15,18 +15,23 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Office 365 ATP 계획 2에서 사용자 태그로 특정 사용자 그룹을 식별 하는 방법을 알 수 있습니다. 태그 필터링은 태그가 지정 된 사용자를 빠르게 식별 하기 위해 Office 365 ATP에서 경고, 보고서 및 조사를 통해 사용할 수 있습니다.
-ms.openlocfilehash: 9522499b3861f0f0e44fcbf09896a5c93feed95d
-ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.openlocfilehash: 16e756b95e16e40f4df738e825e842681c67e22c
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337256"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399388"
 ---
 # <a name="user-tags-in-office-365-atp"></a>Office 365 ATP의 사용자 태그
 
-사용자 태그는 [Office 365 ATP (Advanced Threat Protection)](office-365-atp.md)에서 특정 사용자 그룹의 식별자입니다. [우선 순위 계정은](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) 사용자 태그의 유형입니다. 조직에 Office 365 ATP 계획 2 (구독 또는 추가 기능에 포함)가 있는 경우 우선 순위 계정 태그를 사용 하는 것 외에 사용자 지정 사용자 태그를 만들 수 있습니다.
+사용자 태그는 [Office 365 ATP (Advanced Threat Protection)](office-365-atp.md)에서 특정 사용자 그룹의 식별자입니다. 사용자 태그에는 다음과 같은 두 가지 유형이 있습니다.
 
-특정 사용자에 게 태그를 적용 한 후에는 경고, 보고서 및 조사에서 해당 태그를 필터로 사용할 수 있습니다.
+- **시스템 태그**: 현재 [우선 순위 계정만](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) 시스템 태그 유형입니다.
+- **사용자 지정 태그**: 이러한 사용자 태그를 직접 만듭니다.
+
+조직에 Office 365 ATP 계획 2 (구독 또는 추가 기능에 포함)가 있는 경우 우선 순위 계정 태그를 사용 하는 것 외에 사용자 지정 사용자 태그를 만들 수 있습니다.
+
+사용자에 게 시스템 태그나 사용자 지정 태그를 적용 한 후에는 경고, 보고서 및 조사에서 해당 태그를 필터로 사용할 수 있습니다.
 
 - [보안 & 준수 센터의 알림](alerts.md)
 - [위협 탐색기 및 실시간 검색](threat-explorer.md)
@@ -39,9 +44,11 @@ ms.locfileid: "48337256"
 
 - <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **사용자 태그** 페이지로 직접 이동 하려면를 엽니다 <https://protection.office.com/userTags> .
 
-- 사용자 태그를 만들거나 수정 하거나 제거 하려면 보안 & 준수 센터에서 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
+- **사용자 지정 사용자 태그**를 만들거나 수정 하거나 제거 하려면 보안 & 준수 센터에서 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
-- Microsoft 365 관리 센터에서 우선 순위 계정을 관리 하 고 모니터링할 수도 있습니다. 자세한 내용은 [우선 순위 계정 관리 및 모니터링](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts)을 참조 하십시오.
+- 우선 순위 계정 (시스템 태그)을 구성 하려면 [전역 관리자](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-administrator--company-administrator) 또는 [Exchange 관리자](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)여야 합니다.
+
+  Microsoft 365 관리 센터에서 우선 순위 계정을 관리 하 고 모니터링할 수도 있습니다. 자세한 내용은 [우선 순위 계정 관리 및 모니터링](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts)을 참조 하십시오.
 
 ## <a name="use-the-security-center-to-create-user-tags"></a>보안 센터를 사용 하 여 사용자 태그 만들기
 

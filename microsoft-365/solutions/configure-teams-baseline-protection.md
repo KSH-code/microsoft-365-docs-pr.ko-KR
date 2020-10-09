@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 기본 수준의 보호로 팀을 배포하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 4a1843b687155cefd48bf3800be68c3e01abd7f5
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: ac6974b5625a4eff0fcd11a17c4607a7c2caf97f
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527863"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398868"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>기본 보호 기능으로 팀 구성
 
@@ -31,7 +31,7 @@ ms.locfileid: "46527863"
 
 ## <a name="initial-protections"></a>초기 보호
 
-첫 번째 단계로 기본 ID 및 장치 액세스 정책을 구성하는 것이 좋습니다. 자세한 내용은 [팀 채팅, 그룹, 파일에 대한 정책 권장 사항](https://docs.microsoft.com/microsoft-365/enterprise/teams-access-policies)을 참조하세요.
+첫 번째 단계로 기본 ID 및 장치 액세스 정책을 구성하는 것이 좋습니다. 자세한 내용은 [팀 채팅, 그룹, 파일에 대한 정책 권장 사항](../security/office-365-security/teams-access-policies.md)을 참조하세요.
 
 또한 문서, 첨부 파일 및 링크의 맬웨어를 방지하기 위해 기본 고급 위협 방지 기능을 설정하는 것이 좋습니다. 다음 표의 각 옵션을 설정하는 것이 좋습니다.
 

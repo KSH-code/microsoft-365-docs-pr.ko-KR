@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 현재 조직이 Microsoft 365 환경에 직면 하 게 되는 가장 일반적인 위협과 공격 시나리오로, 이러한 위험을 완화 하기 위한 권장 작업을 소개 합니다.
-ms.openlocfilehash: 2f7de328edbd0220e5627612430fca24641ace11
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 4181feeed97313ec1e8d916df994cc880cbffdf1
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47548001"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399458"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>BDMs (비즈니스 의사 결정권자 용 Microsoft 365 Security)
 
@@ -68,7 +68,7 @@ Microsoft는 테 넌 트 내에서 보안 점수 도구를 제공 하 여 정기
 
 |권장 사항  |E3  |E5  |
 |---------|---------|---------|
-|**다단계 인증을 설정 하 고 로그인 위험 정책을 포함 하 여 권장 되는 조건부 액세스 정책을 사용**합니다. Microsoft는 Office 365 및 Microsoft 365 서비스를 비롯 한 모든 클라우드 앱을 보호 하기 위해 함께 작동 하는 일련의 정책 들을 테스트 하는 것이 좋습니다. [Id 및 장치 액세스 구성를](../enterprise/microsoft-365-policies-configurations.md)참조 하세요. | |![녹색 확인 표시](../media/green-check-mark.png)|
+|**다단계 인증을 설정 하 고 로그인 위험 정책을 포함 하 여 권장 되는 조건부 액세스 정책을 사용**합니다. Microsoft는 Office 365 및 Microsoft 365 서비스를 비롯 한 모든 클라우드 앱을 보호 하기 위해 함께 작동 하는 일련의 정책 들을 테스트 하는 것이 좋습니다. [Id 및 장치 액세스 구성를](./office-365-security/microsoft-365-policies-configurations.md)참조 하세요. | |![녹색 확인 표시](../media/green-check-mark.png)|
 |**모든 사용자에 대해 다단계 인증이 필요**합니다. 권장 조건부 액세스 정책을 구현 하는 데 필요한 라이선스가 없는 경우 최소한 모든 사용자에 대해 multi-factor authentication을 사용 해야 합니다.|![녹색 확인 표시](../media/green-check-mark.png)|![녹색 확인 표시](../media/green-check-mark.png)|
 |**메일에서 맬웨어에 대 한 보호 수준을 높입니다**. Office 365 또는 Microsoft 365 환경에는 맬웨어에 대 한 보호 기능이 포함 되어 있지만 일반적으로 맬웨어에 사용 되는 파일 형식을 사용 하 여 첨부 파일이 차단 되므로이 보호 기능을 높일 수 있습니다.|![녹색 확인 표시](../media/green-check-mark.png)|![녹색 확인 표시](../media/green-check-mark.png)|
 |**대상 피싱 공격 으로부터 전자 메일을 보호**합니다. Office 365 또는 Microsoft 365 환경용으로 하나 이상의 사용자 지정 도메인을 구성한 경우 대상 피싱 방지 보호 기능을 구성할 수 있습니다. ATP 피싱 방지 보호, Office 365 Advanced Threat Protection의 일부분은 악의적인 가장 기반 피싱 공격과 기타 피싱 공격 으로부터 조직을 보호 하는 데 도움이 될 수 있습니다. 사용자 지정 도메인을 구성 하지 않은 경우에는이 작업을 수행 하지 않아도 됩니다.| |![녹색 확인 표시](../media/green-check-mark.png)|
@@ -114,7 +114,7 @@ Microsoft 365 information protection 기능은 보유 한 정보, 저장 위치 
 
 |권장 사항 |E3|E5 |
 |---------|---------|---------|
-|**제로 트러스트 네트워크에 대 한 목표에 맞게 조건부 액세스 및 관련 정책을 검토 하 고 최적화**합니다. 알려진 위협 으로부터 보호 하려면 [권장 되는 정책](../enterprise/microsoft-365-policies-configurations.md)집합을 구현 하는 것이 포함 됩니다. 이러한 정책의 구현을 검토 하 여 네트워크에 대 한 액세스 권한을 얻은 해커 로부터 앱 및 데이터를 보호 하 고 있는지 확인 합니다. Windows 10 용 권장 Intune 앱 보호 정책에는 WIP (Windows Information Protection)가 사용 됩니다. WIP는 전자 메일, 소셜 미디어, 공용 클라우드 등의 앱 및 서비스를 통해 조직 데이터를 실수로 누설 하지 않도록 보호 합니다. |         |![녹색 확인 표시](../media/green-check-mark.png)|
+|**제로 트러스트 네트워크에 대 한 목표에 맞게 조건부 액세스 및 관련 정책을 검토 하 고 최적화**합니다. 알려진 위협 으로부터 보호 하려면 [권장 되는 정책](./office-365-security/microsoft-365-policies-configurations.md)집합을 구현 하는 것이 포함 됩니다. 이러한 정책의 구현을 검토 하 여 네트워크에 대 한 액세스 권한을 얻은 해커 로부터 앱 및 데이터를 보호 하 고 있는지 확인 합니다. Windows 10 용 권장 Intune 앱 보호 정책에는 WIP (Windows Information Protection)가 사용 됩니다. WIP는 전자 메일, 소셜 미디어, 공용 클라우드 등의 앱 및 서비스를 통해 조직 데이터를 실수로 누설 하지 않도록 보호 합니다. |         |![녹색 확인 표시](../media/green-check-mark.png)|
 |**외부 전자 메일 전달을 사용 하지 않도록 설정**합니다. 사용자의 사서함에 대 한 액세스 권한을 획득 하는 해커는 전자 메일을 자동으로 전달 하도록 사서함을 설정 하 여 메일을 도용할 수 있습니다. 사용자의 인식이 없어도이 문제가 발생할 수 있습니다. 메일 흐름 규칙을 구성 하 여 이러한 상황이 발생 하지 않도록 할 수 있습니다.|![녹색 확인 표시](../media/green-check-mark.png) |![녹색 확인 표시](../media/green-check-mark.png)|
 |**익명 외부 일정 공유를 사용 하지 않도록 설정**합니다. 기본적으로 외부 익명 일정 공유를 사용할 수 있습니다. [일정 공유를 사용 하지 않도록 설정](https://docs.microsoft.com/exchange/sharing/sharing-policies/modify-a-sharing-policy) 하 여 중요 한 정보의 잠재적 누출을 줄입니다.|![녹색 확인 표시](../media/green-check-mark.png) |![녹색 확인 표시](../media/green-check-mark.png)|
 |**중요 한 데이터에 대 한 데이터 손실 방지 정책을 구성**합니다. 보안 및 준수 센터에서 데이터 손실 방지 정책을 만들어 &amp; 신용 카드 번호, 주민 등록 번호 및 은행 계좌 번호와 같은 중요 한 데이터를 검색 하 고 보호 합니다. Microsoft 365에는 데이터 손실 방지 정책에서 사용할 수 있는 미리 정의 된 중요 한 정보 유형이 많이 포함 되어 있습니다. 또한 환경에 사용자 지정 된 중요 한 데이터에 대 한 중요 한 정보 유형을 직접 만들 수도 있습니다. |![녹색 확인 표시](../media/green-check-mark.png)|![녹색 확인 표시](../media/green-check-mark.png)|
