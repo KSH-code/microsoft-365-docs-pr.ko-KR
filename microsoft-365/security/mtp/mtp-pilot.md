@@ -17,14 +17,15 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365solution-evalutatemtp
+- m365solution-overview
+- m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 3d7156dfe65e9479f2505d196790800c6afd1f2a
-ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
+ms.openlocfilehash: af47f45ca4f3d14e835a39a334a9400002ac8560
+ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367968"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48418076"
 ---
 # <a name="run-your-pilot-microsoft-threat-protection-project"></a>파일럿 Microsoft Threat Protection 프로젝트 실행 
 
@@ -39,7 +40,7 @@ MTP (Microsoft Threat Protection)의 이점과 채택을 효과적으로 확인 
 
 ## <a name="how-to-use-this-pilot-playbook"></a>이 파일럿 playbook를 사용 하는 방법
 
-이 가이드에서는 파일럿 프로젝트를 설정 하는 방법에 대 한 Microsoft 위협 보호 및 단계별 지침의 개요를 제공 합니다. 
+이 가이드에서는 Microsoft Threat Protection에 대 한 개요와 파일럿 프로젝트를 설정 하는 방법에 대 한 단계별 지침을 제공 합니다. 
 
 ![Microsoft Threat Protection 파일럿 실행 단계](../../media/pilotphases.png)
 

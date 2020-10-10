@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: 조직 이름, 주소, 전화, 기술 담당자 및 전자 메일과 같은 조직 프로필을 변경 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7df4c95bde187dc4922bea3da908b9cd82c5f775
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: f306130e4578284a159c01436d6e2adc6b08add7
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780148"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417204"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>조직 주소, 기술 담당자 등 변경
 
@@ -69,7 +69,7 @@ ms.locfileid: "44780148"
 
 ## <a name="change-your-alternate-email-address"></a>대체 전자 메일 주소 변경
 
-관리자는 암호를 다시 설정 하기 위한 대체 전자 메일 주소를 변경할 수 있습니다.
+관리자는 암호를 다시 설정 하기 위해 대체 전자 메일 주소를 변경할 수 있습니다.
 
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터로</a>이동 합니다.
 

@@ -17,15 +17,15 @@ ms.collection:
 - M365-security-compliance
 - m365-initiative-defender-office365
 ms.topic: conceptual
-ms.date: 09/10/2020
+ms.date: 10/09/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: 5bbbda8b2fb13351d0b86d1670910cbaa52ad8cb
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: ab987652082c93a82fa5bcbd4667f26291c6e9d7
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413261"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417289"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Office 365 ATP의 새로운 기능
 
@@ -47,7 +47,8 @@ ms.locfileid: "48413261"
 - [테 넌 트 허용/차단 목록을 사용 하 여 verdicts 필터를 수동으로 재정의](tenant-allow-block-list.md)
 - [상위 대상 사용자, 전송 규칙 및 커넥터를 포함 하는 위협 탐색기의 확장 된 기능](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (OFFICE 365 ATP 계획 2)
 - 사용자가 [위협 탐색기](threat-explorer.md) 에서 정보를 재정의 합니다 (전자 메일은 테 넌 트/사용자 정책에 의해 허용/차단 됨).
-- [위협 탐색기](threat-explorer.md) (맬웨어, 피싱, 스팸 또는 없음)의 서피싱 URL 위협 
+- [위협 탐색기](threat-explorer.md#threats-in-urls) (맬웨어, 피싱, 스팸 또는 없음)의 서피싱 URL 위협 
+- 성능 향상, 추가 작업, 배달 위치 및 업데이트 된 시간 표시 막대 보기 [에 대 한 업데이트를 통한 사냥 경험 위협 탐색기 개선](threat-explorer.md#improvements-to-threat-hunting-experience-upcoming)
 
 ## <a name="julyaugust-2020"></a>7 월/8 월 2020 
 

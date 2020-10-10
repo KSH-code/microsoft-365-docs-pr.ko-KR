@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365-initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: ffa5e6abf7fb1cb0f93fe1c233ef7e3f0b023faf
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 35de1504d4d7ddd3512b6cc3e478b138c1f43c29
+ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412625"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48418124"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>고급 헌팅 쿼리 언어 알아보기
 
@@ -34,7 +34,7 @@ ms.locfileid: "48412625"
 **적용 대상:**
 - Microsoft Threat Protection
 
-고급 헌팅은 [Kusto 쿼리 언어](https://docs.microsoft.com/azure/kusto/query/)를 기반으로 합니다. Kusto 구문과 연산자를 사용 하 여 특수화 된 [스키마](advanced-hunting-schema-tables.md)에서 정보를 찾는 쿼리를 작성할 수 있습니다. 이러한 개념을 보다 잘 이해하려면 첫 번째 쿼리를 실행합니다.
+고급 헌팅은 [Kusto 쿼리 언어](https://docs.microsoft.com/azure/kusto/query/)를 기반으로 합니다. Kusto 연산자와 문을 사용 하 여 특수화 된 [스키마](advanced-hunting-schema-tables.md)에서 정보를 찾는 쿼리를 생성할 수 있습니다. 이러한 개념을 보다 잘 이해하려면 첫 번째 쿼리를 실행합니다.
 
 ## <a name="try-your-first-query"></a>첫 번째 쿼리 시도하기
 

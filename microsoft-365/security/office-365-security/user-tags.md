@@ -15,14 +15,17 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Office 365 ATP 계획 2에서 사용자 태그로 특정 사용자 그룹을 식별 하는 방법을 알 수 있습니다. 태그 필터링은 태그가 지정 된 사용자를 빠르게 식별 하기 위해 Office 365 ATP에서 경고, 보고서 및 조사를 통해 사용할 수 있습니다.
-ms.openlocfilehash: 16e756b95e16e40f4df738e825e842681c67e22c
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 475bf976a71fb688df8db9ac25f3b397c078d79a
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399388"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417275"
 ---
 # <a name="user-tags-in-office-365-atp"></a>Office 365 ATP의 사용자 태그
+
+> [!NOTE]
+> 사용자 태그 기능은 미리 보기에서 모든 사용자가 사용할 수 없으며 변경할 수 있습니다. 릴리스 일정에 대 한 자세한 내용은 [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap)를 참조 하세요.
 
 사용자 태그는 [Office 365 ATP (Advanced Threat Protection)](office-365-atp.md)에서 특정 사용자 그룹의 식별자입니다. 사용자 태그에는 다음과 같은 두 가지 유형이 있습니다.
 

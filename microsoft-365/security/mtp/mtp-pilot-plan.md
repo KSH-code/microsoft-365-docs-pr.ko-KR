@@ -17,14 +17,15 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365solution-evalutatemtp
+- m365solution-scenario
+- m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 7d1870d1b8972009bed657f476810ca011dc2621
-ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
+ms.openlocfilehash: e62b4ec0ee6c9d05321accf269406e8127019f5b
+ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367980"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48418112"
 ---
 # <a name="planning-your-pilot-microsoft-threat-protection-project"></a>파일럿 Microsoft Threat Protection 프로젝트 계획 
 
@@ -119,7 +120,7 @@ ms.locfileid: "48367980"
 
 계획의 모든 요소를 함께 가져오는 한 가지 방법으로 성과 기록표를 만들 수 있습니다. 아래의 샘플 성과 기록표를 참조 하세요.
 
-|**사용 사례**|**요구 사항**|**구성 요구 사항**|**테스트 계획**|**예상 결과**|**테스트 상태**|**점수**|**참고**|
+| 사용 사례 | 요구 사항 | 구성 요구 사항 | 테스트 계획 | 예상 결과 | 테스트 상태 | 점수 | 참고 |
 |:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
 |사건 관리|-Microsoft Threat Protection </br></br>-Azure ATP </br></br>-Microsoft Defender ATP </br></br>-Microsoft Cloud App Security (선택 사항)|자세한 내용은 준비, 설정 및 구성을 위한 [필수 구성 요소](https://aka.ms/mtp-trial-lab) 를 참조 하세요. |[공격 시뮬레이션](mtp-pilot-simulate.md) <br></br>[문제 조사](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate#investigate-an-incident) |Investigators는 사고의 범위와 영향을 이해 하 고 인시던트를 관리할 수 있습니다.||||
 |AutoIR|-Microsoft Threat Protection </br></br>-Azure ATP </br></br>-Microsoft Defender ATP |자세한 내용은 준비, 설정 및 구성을 위한 [필수 구성 요소](https://aka.ms/mtp-trial-lab) 를 참조 하세요. <br>AutoIR 사용  |[공격 시뮬레이션](mtp-pilot-simulate.md) <br></br>[자동화 된 조사](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#automated-investigation-and-remediation) |Microsoft Threat Protection에서 경고 및 인시던트가 자동으로 재구성 됨||||

@@ -26,12 +26,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 이 문서에서는 관리자가 악성 Url을 사용 하는 피싱 및 기타 공격 으로부터 조직을 보호 하기 위해 Office 365 ATP (Advanced Threat Protection)의 안전한 링크 보호에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: c933ce48483f0263650d0af2994023dfcb24fadf
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 7b10a941d63fd654a61c6d6ec78869f4bafb3edd
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48414121"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417271"
 ---
 # <a name="safe-links-in-office-365-atp"></a>Office 365 ATP의 안전한 링크
 
@@ -150,7 +150,7 @@ ms.locfileid: "48414121"
 ## <a name="safe-links-settings-for-microsoft-teams"></a>Microsoft 팀에 대 한 안전한 링크 설정
 
 > [!IMPORTANT]
-> 3 월 2020 현재까지이 기능은 미리 보기 상태 이며 Microsoft 팀 기술 채택 프로그램의 구성원만 사용할 수 있습니다 (탭).
+> 3 월 2020 현재까지이 기능은 미리 보기 상태 이며 Microsoft 팀 기술 채택 프로그램의 구성원만 사용할 수 있습니다 (탭). 릴리스 일정에 대 한 자세한 내용은 [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=&searchterms=Safe%2CLinks%2CProtection%2Cfor%2CMicrosoft%2CTeams)를 참조 하세요.
 
 안전한 링크 정책에서 Microsoft 팀에 대 한 안전한 링크 보호를 사용 하거나 사용 하지 않도록 설정 합니다. 특히 **Microsoft 팀 내에서 알 수 없거나 악성 url에 대 한 작업 선택** 설정을 사용 합니다. 권장 값은 **On**입니다.
 

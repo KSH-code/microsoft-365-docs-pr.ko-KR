@@ -17,14 +17,15 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365solution-evalutatemtp
+- m365solution-scenario
+- m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: ec8e630c3669b3eb7af8cb012a0ca361f8c77f1e
-ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
+ms.openlocfilehash: 1a7b87432ce1eb16c29f462fb4865bfa5c5e2201
+ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48368016"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48418100"
 ---
 # <a name="closing-and-summarizing-your-microsoft-threat-protection-pilot"></a>Microsoft Threat Protection 파일럿 테스트 종료 및 요약  
 
@@ -76,7 +77,7 @@ ms.locfileid: "48368016"
 
 현재 종료 및 요약 단계가 진행 되 고 있습니다.
 
-지금까지 도메인 컨트롤러에서 코드를 원격으로 실행 한 고급 메모리 전용 공격을 시뮬레이션 했습니다. Microsoft Defender ATP 및 Azure ATP에서 stealthy 악성 활동을 감지 하 고 경고 하는 방법을 살펴보았습니다. 또한 다양 한 원본의 알림을 Microsoft 365 보안 센터 포털의 단일 인시던트에 함께 제공 하 여 SOC 분석가가 필요한 작업을 조사 하 고 취할 수 있는 방법을 살펴보았습니다. 또한 사용자가 첨부 파일을 열거나 저장 한 후 해당 쿼리를 기반으로 검색을 만든 인바운드 전자 메일을 식별 하는 고급 구하기 쿼리를 만들었습니다.
+이제 도메인 컨트롤러에서 코드를 원격으로 실행 한 고급 메모리 전용 공격 시뮬레이션이 실행 되었습니다. Microsoft Defender ATP 및 Azure ATP에서 stealthy 악성 활동에 대 한 경고를 검색 하 고 만드는 방법을 살펴보았습니다. 또한 다른 상황 정보를 Microsoft 365 보안 센터 포털의 단일 인시던트에 함께 사용 하 여 다양 한 원본의 알림이 제공 되는 방식에 대해 살펴보았습니다. 이러한 통합이 발생 하면 SOC 분석가가 필요한 작업을 조사 하 고 수행할 수 있습니다. 또한 사용자가 첨부 파일을 열거나 저장 한 후 해당 쿼리를 기반으로 검색을 만든 인바운드 전자 메일을 식별 하는 고급 구하기 쿼리를 만들었습니다.
 
 모든 테스트가 완료 된 후 프로세스의 끝에 도달 했습니다.
 
@@ -86,9 +87,9 @@ ms.locfileid: "48368016"
 - 파일럿의 결과에 대 한 자세한 보고서
 - 앞으로 이동 하는 방법을 결정 합니다.
 
-이 정보는 내부 이해 관계자 ( [준비](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) 단계에서 확인) 및 Microsoft 연락처에 모두 표시 되어야 합니다. 이렇게 하면 모든 피드백을 사용 하 여 제품 및 문서를 개선할 수 있습니다.
+최종 결과의 보고서에 내부 관련자 ( [준비](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) 단계에서 확인) 및 Microsoft 연락처를 모두 표시 합니다. 이러한 노력을 통해 제품 및 문서를 개선 하는 데 모든 의견을 사용할 수 있습니다.
 
-이 시뮬레이션이 제공 되었으며 배운 것을 구현 하는 것이 좋습니다.
+이 시뮬레이션을 사용할 예정 이었습니다. 통합 보안 솔루션을 최대한 활용 하기 위해 조직의 대규모 확장에 대해 배운 내용을 구현 하기 시작 합니다.
 
 ## <a name="next-step"></a>다음 단계
 다음 대화형 가이드를 통해 Microsoft Threat Protection 핵심 요소로에 대해 자세히 알아보세요.

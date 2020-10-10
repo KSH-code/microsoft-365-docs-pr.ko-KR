@@ -15,14 +15,15 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
+- m365solution-scenario
 - m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: 94045834f63569bc2910b1faa02f47ebfebead19
-ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
+ms.openlocfilehash: 53ff0842e73e275bf4a8fa8b18c1d08ad70a64ec
+ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48368084"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48418136"
 ---
 # <a name="set-up-your-microsoft-threat-protection-trial-lab-environment"></a>Microsoft Threat Protection 평가판 랩 환경 설정 
 
@@ -77,51 +78,67 @@ Microsoft 365 E5 라이선스를 등록 하는 데 사용할 수 있는 *onmicro
 >기존 Office 365 또는 Azure Active Directory 구독이 이미 있는 경우에는 Office 365 E5 평가판 테 넌 트 만들기 단계를 건너뛸 수 있습니다.
 
 1. [Office 365 E5 제품 포털로](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software?activetab=pivot%3aoverviewtab) 이동 하 여 **무료 평가판**을 선택 합니다.
-![이미지 of_Office 365 E5 무료 평가판 페이지](../../media/mtp-eval-9.png) <br>
+
+   ![이미지 of_Office 365 E5 무료 평가판 페이지](../../media/mtp-eval-9.png)
   
 2. 전자 메일 주소 (개인 또는 회사)를 입력 하 여 평가판 등록을 완료 합니다. **계정 설정을**클릭 합니다.
-![이미지 of_Office 365 E5 평가판 등록 설정 페이지](../../media/mtp-eval-10.png) <br> 
+
+   ![이미지 of_Office 365 E5 평가판 등록 설정 페이지](../../media/mtp-eval-10.png)
 
 3. 성, 성, 근무처 전화 번호, 회사 이름, 회사 크기, 국가 또는 지역을 입력 합니다.  
-<br>![이미지 of_Office 365 E5 평가판 등록 설정 페이지 이름, 전화 번호 및 회사 정보를 요청 합니다.](../../media/mtp-eval-11.png) <br>
->[!NOTE]
->여기에서 설정 하는 국가 또는 지역에 따라 Office 365이 호스팅될 데이터 센터 지역이 결정 됩니다.
+
+   ![이미지 of_Office 365 E5 평가판 등록 설정 페이지 이름, 전화 번호 및 회사 정보를 요청 합니다.](../../media/mtp-eval-11.png)
+   
+   > [!NOTE]
+   > 여기에서 설정 하는 국가 또는 지역에 따라 Office 365이 호스팅될 데이터 센터 지역이 결정 됩니다.
   
 4. 텍스트 메시지 또는 통화를 통해 확인 기본 설정을 선택 합니다. **확인 코드 보내기를**클릭 합니다. 
-![이미지 of_Office 365 E5 평가판 등록 설정 페이지 확인 기본 설정 요청](../../media/mtp-eval-12.png) <br>
+
+   ![이미지 of_Office 365 E5 평가판 등록 설정 페이지 확인 기본 설정 요청](../../media/mtp-eval-12.png)
 
 5. 테 넌 트에 대 한 사용자 지정 도메인 이름을 설정 하 고 **다음**을 클릭 합니다.
-<br>![Image of_Office 365 E5 평가판 등록 설정 페이지에서 사용자 지정 도메인 이름을 설정할 수 있습니다.](../../media/mtp-eval-13.png) <br>
+
+   ![Image of_Office 365 E5 평가판 등록 설정 페이지에서 사용자 지정 도메인 이름을 설정할 수 있습니다.](../../media/mtp-eval-13.png)
  
 6. 테 넌 트의 전역 관리자가 되는 첫 번째 id를 설정 합니다. **이름** 및 **암호**를 입력 합니다. **로그인**을 클릭합니다.
-![이미지 of_Office 365 E5 평가판 등록 설정 페이지에서 비즈니스 id를 설정할 수 있습니다.](../../media/mtp-eval-14.png) <br>
+
+   ![이미지 of_Office 365 E5 평가판 등록 설정 페이지에서 비즈니스 id를 설정할 수 있습니다.](../../media/mtp-eval-14.png)
 
 7. Office 365 E5 평가판 테 넌 트 프로 비전을 완료 하려면 **설치로 이동을** 클릭 합니다.
-<br>![Office 365 E5 평가판 등록 설정 페이지에서 이동 설정 단추를 클릭 하 라는 메시지가 표시 되는 모양](../../media/mtp-eval-15.png) <br>
+
+   ![Office 365 E5 평가판 등록 설정 페이지에서 이동 설정 단추를 클릭 하 라는 메시지가 표시 되는 모양](../../media/mtp-eval-15.png)
 
 8. 회사 도메인을 Office 365 테 넌 트에 연결 합니다. 반드시 **이미 소유한 도메인 연결** 을 선택 하 고 도메인 이름을 입력 합니다. **다음**을 클릭합니다.
-<br>![사용자의 로그인 및 전자 메일을 개인 설정 해야 하는 이미지 of_Office 365 E5 설정 페이지](../../media/mtp-eval-16.png) <br>
+
+   ![사용자의 로그인 및 전자 메일을 개인 설정 해야 하는 이미지 of_Office 365 E5 설정 페이지](../../media/mtp-eval-16.png)
  
 9. TXT 또는 MX 레코드를 추가 하 여 도메인 소유권을 확인 합니다. TXT 또는 MX 레코드를 도메인에 추가한 후에는 **확인**을 선택 합니다.
-<br>![이미지 of_Office 365 E5 설치 페이지 도메인을 확인 하려면 MX 레코드의 TXT를 추가 해야 합니다.](../../media/mtp-eval-17.png) <br>
+
+   ![이미지 of_Office 365 E5 설치 페이지 도메인을 확인 하려면 MX 레코드의 TXT를 추가 해야 합니다.](../../media/mtp-eval-17.png)
  
 10. 반드시 테 넌 트에 대 한 사용자 계정을 더 만듭니다. **다음**을 클릭 하 여이 단계를 건너뛸 수 있습니다.
-![이미지 of_Office 365 E5 설치 페이지 더 많은 사용자를 추가할 수 있습니다.](../../media/mtp-eval-18.png) <br>
+
+    ![이미지 of_Office 365 E5 설치 페이지 더 많은 사용자를 추가할 수 있습니다.](../../media/mtp-eval-18.png)
  
 11. 반드시 Office 앱을 다운로드 합니다. 이 단계를 건너뛰려면 **다음** 을 클릭 합니다. 
-<br>![Office 앱을 설치할 수 있는 이미지 of_Office 365 E5 페이지](../../media/mtp-eval-19.png) <br>
+
+    ![Office 앱을 설치할 수 있는 이미지 of_Office 365 E5 페이지](../../media/mtp-eval-19.png)
 
 12. 반드시 전자 메일 메시지를 마이그레이션합니다. 이 단계를 건너뛸 수 있습니다.
-<br>![이미지 of_Office 365 E5 전자 메일 메시지를 마이그레이션할지 여부를 설정할 수 있습니다.](../../media/mtp-eval-20.png) <br>
+
+    ![이미지 of_Office 365 E5 전자 메일 메시지를 마이그레이션할지 여부를 설정할 수 있습니다.](../../media/mtp-eval-20.png)
  
 13. 온라인 서비스를 선택 합니다. **Exchange** 를 선택 하 고 **다음**을 클릭 합니다. 
-<br>![온라인 서비스를 선택할 수 있는 365 E5 이미지 of_Office](../../media/mtp-eval-21.png) <br>
+
+    ![온라인 서비스를 선택할 수 있는 365 E5 이미지 of_Office](../../media/mtp-eval-21.png)
 
 14. 도메인에 MX, CNAME 및 TXT 레코드를 추가 합니다. 완료 되 면 **확인**을 선택 합니다.
-<br>![Image of_Office 365 E5 여기에서 DNS 레코드를 추가할 수 있습니다.](../../media/mtp-eval-22.png) <br>
+
+    ![Image of_Office 365 E5 여기에서 DNS 레코드를 추가할 수 있습니다.](../../media/mtp-eval-22.png)
  
 15. 축 하 합니다, Office 365 테 넌 트의 프로 비전을 완료 했습니다.
-<br>![이미지 of_Office 365 E5 설치 완료 확인 페이지](../../media/mtp-eval-23.png) <br>
+
+    ![이미지 of_Office 365 E5 설치 완료 확인 페이지](../../media/mtp-eval-23.png)
 
 ## <a name="enable-microsoft-365-trial-subscription"></a>Microsoft 365 평가판 구독 사용
 
@@ -131,25 +148,32 @@ Microsoft 365 E5 라이선스를 등록 하는 데 사용할 수 있는 *onmicro
 1. [Microsoft 365 관리 센터](https://admin.microsoft.com/)에서 **대금 청구** 를 클릭 하 고 **서비스 구매**로 이동 합니다.
 
 2. **Microsoft 365 E5** 를 선택 하 고 **무료 평가판 시작**을 클릭 합니다. 
-![Image of_Microsoft 365 E5 Start 무료 평가판 페이지](../../media/mtp-eval-24.png) <br>
+
+   ![Image of_Microsoft 365 E5 Start 무료 평가판 페이지](../../media/mtp-eval-24.png)
 
 3. 텍스트 메시지 또는 통화를 통해 확인 기본 설정을 선택 합니다. 전화 번호를 입력 하 고 **선택한 내용에** 따라 통화를 선택 하거나 **내게 전화** 를 해야 합니다.
-![이미지 of_Microsoft 365 E5 시작 무료 평가판 페이지에서 로봇을 증명할 코드를 보내도록 연락처 정보를 요청 합니다.](../../media/mtp-eval-25.png) <br>
+
+   ![이미지 of_Microsoft 365 E5 시작 무료 평가판 페이지에서 로봇을 증명할 코드를 보내도록 연락처 정보를 요청 합니다.](../../media/mtp-eval-25.png)
  
-4. 확인 코드를 입력 하 고 **무료 평가판 시작**을 클릭 합니다. 
-<br>![Image of_Microsoft 365 E5 Start 무료 평가판 페이지에서 사용자가 로봇이 아님을 입증 하기 위해 전송 되는 시스템의 확인 코드를 작성할 수 있습니다.](../../media/mtp-eval-26.png) <br>
+4. 확인 코드를 입력 하 고 **무료 평가판 시작**을 클릭 합니다.
+
+   ![Image of_Microsoft 365 E5 Start 무료 평가판 페이지에서 사용자가 로봇이 아님을 입증 하기 위해 전송 되는 시스템의 확인 코드를 작성할 수 있습니다.](../../media/mtp-eval-26.png)
 
 5. Microsoft 365 E5 평가판을 확인 하려면 **지금 시도** 를 클릭 합니다.
-<br>![Image of_Microsoft 365 E5 Start 무료 평가판 페이지를 시작 하려면 지금 사용해 보기 단추를 클릭 합니다.](../../media/mtp-eval-27.png) <br>
+
+   ![Image of_Microsoft 365 E5 Start 무료 평가판 페이지를 시작 하려면 지금 사용해 보기 단추를 클릭 합니다.](../../media/mtp-eval-27.png)
  
 6. **Microsoft 365 관리 센터**  >  **사용자**  >  **활성 사용자**로 이동 합니다. 사용자 계정을 선택 하 고 **제품 라이선스 관리**를 선택한 다음 Office 365 E5에서 **Microsoft 365 e5**로 라이선스를 바꿉니다. **저장**을 클릭합니다.
-![Image of_Microsoft 365 관리 센터 페이지 Microsoft 365 E5 라이선스를 선택할 수 있습니다.](../../media/mtp-eval-28.png) <br>
+
+   ![Image of_Microsoft 365 관리 센터 페이지 Microsoft 365 E5 라이선스를 선택할 수 있습니다.](../../media/mtp-eval-28.png)
  
 7. 전역 관리자 계정을 다시 선택 하 고 **사용자 이름 관리**를 클릭 합니다.
-<br>![이미지 of_Microsoft 365 관리 센터 페이지 계정을 선택 하 고 사용자 이름을 관리할 수 있습니다.](../../media/mtp-eval-29.png) <br>
+
+   ![이미지 of_Microsoft 365 관리 센터 페이지 계정을 선택 하 고 사용자 이름을 관리할 수 있습니다.](../../media/mtp-eval-29.png)
 
 8. 반드시 이전 단계에서 선택한 사항에 따라 도메인을 *onmicrosoft.com* 에서 자체 도메인으로 변경 합니다. **변경 사항 저장**를 클릭합니다.
-<br>![이미지 of_Microsoft 365 관리 센터 페이지 도메인 기본 설정을 변경할 수 있음](../../media/mtp-eval-30.png) <br>
+
+   ![이미지 of_Microsoft 365 관리 센터 페이지 도메인 기본 설정을 변경할 수 있음](../../media/mtp-eval-30.png)
 
 
 

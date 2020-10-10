@@ -17,12 +17,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Office 365 ATP (Advanced Threat Protection)에서 안전한 링크 정책 및 전역 안전한 링크 설정을 확인, 작성, 수정 및 삭제 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: b6b013364fc763450ac8bef0d06bd2fad8d55daa
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: cf60820297401de92781a48f22f70d1f503e3097
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350722"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417249"
 ---
 # <a name="set-up-safe-links-policies-in-office-365-atp"></a>Office 365 ATP에서 안전한 링크 정책 설정
 
@@ -88,9 +88,9 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
 4. **설정** 페이지가 나타나면 다음 설정을 구성 합니다.
 
-   - **메시지에서 알 수 없는 잠재적 악성 url에 대 한 작업을 선택** **합니다.**
+   - **메시지에서 알 수 없는 잠재적 악성 url에 대 한 작업을 선택**합니다 .를 **선택 하 여** 전자 메일 메시지의 링크에 안전한 링크 보호를 사용 하도록 설정 합니다.
 
-   - **메시지에서 알 수 없는 잠재적 악성 url에 대 한 작업 선택**: 선택 또는 기본값 **해제** **를 선택 합니다** .
+   - **Microsoft 팀 내에서 알 수 없거나 잠재적 악성 url에 대 한 작업을 선택**합니다. 팀의 링크에 대해 안전한 링크 보호를 **사용 하려면 선택** 합니다.
 
    - **의심 스러운 링크 및 파일을 가리키는 링크에 대해 실시간 URL 검색을 적용**합니다. 전자 메일 메시지에서 실시간으로 링크를 검색할 수 있도록 하려면이 설정을 선택 합니다.
 
@@ -227,7 +227,7 @@ PowerShell에서 안전한 링크 정책을 만드는 과정은 두 단계로 �
 1. 안전한 링크 정책을 만듭니다.
 2. 규칙이 적용 되는 안전한 링크 정책을 지정 하는 안전 링크 규칙을 만듭니다.
 
- **참고:**
+ **참고**:
 
 - 새 안전 링크 규칙을 만들고 연결 되지 않은 기존 안전 링크 정책을 할당할 수 있습니다. 안전한 링크 규칙은 둘 이상의 안전한 링크 정책에 연결할 수 없습니다.
 
@@ -246,7 +246,7 @@ PowerShell에서 안전한 링크 정책을 만드는 과정은 두 단계로 �
 New-SafeLinksPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [-IsEnabled <$true | $false>] [-EnableSafeLinksForTeams <$true | $false>] [-ScanUrls <$true | $false>] [-DeliverMessageAfterScan <$true | $false>] [-EnableForInternalSenders <$true | $false>] [-DoNotAllowClickThrough <$true | $false>] [-DoNotTrackUserClicks <$true | $false>] [-DoNotRewriteUrls "Entry1","Entry2",..."EntryN"]
 ```
 
-**참고:**
+**참고**:
 
 - _DoNotRewriteUrls_ 매개 변수에 사용할 항목 구문에 대 한 자세한 내용은 ["다음 url을 다시 쓰지 않음" 목록의 항목 구문을](atp-safe-links.md#entry-syntax-for-the-do-not-rewrite-the-following-urls-list)참조 하십시오.
 

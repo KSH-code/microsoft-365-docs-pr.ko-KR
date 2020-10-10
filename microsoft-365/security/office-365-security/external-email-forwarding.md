@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: f729aa816caf8fb07499037ee27fbfc37b7205b3
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: c0a3849d330b508630eb60c7ee24cd8b498a32b8
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202882"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417235"
 ---
 # <a name="configuring-external-email-forwarding-in-office-365"></a>Office 365에서 외부 전자 메일 전달 구성
 
@@ -28,7 +28,7 @@ ms.locfileid: "48202882"
 
 외부 전달은 *아웃 바운드 스팸 방지 정책* 에 의해 제어 되며 구성 된 설정에 따라 사용자에 게 범위가 지정 됩니다. 현재 3 개의 설정이 지원 됩니다.
 
-- **자동** -이 모드에서는 전달 된 메시지가 허용 되는지 여부를 결정 하는 시스템을 담당 합니다.  기본 모드 이며이 모드에서는 시스템이 자동 외부 전달을 차단 합니다.
+- **자동** – 시스템이 제어 되며, 아웃 바운드 스팸 필터링을 통해 자동 외부 전자 메일 전달을 제어할 수 있습니다. 기본 설정입니다.
 
 - **설정** – 자동 외부 전달은 허용 되며 제한 되지 않습니다.
 
@@ -37,7 +37,7 @@ ms.locfileid: "48202882"
 이러한 설정을 구성 하는 방법에 대 한 자세한 내용은 [EOP에서 아웃 바운드 스팸 필터링 구성을](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide&preserve-view=true) 참조 하세요.
 
 > [!NOTE]
-> 자동 전달을 사용 하지 않도록 설정 하면 메시지를 외부 주소로 리디렉션하는 받은 편지함 규칙도 사용할 수 있습니다.
+> 자동 전달을 사용 하지 않도록 설정 하면 메시지를 외부 주소로 리디렉션하는 받은 편지함 규칙도 사용 하지 않도록 설정 됩니다.
 
 ## <a name="controlling-external-email-forwarding"></a>외부 전자 메일 전달 제어
 
