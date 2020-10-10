@@ -15,47 +15,49 @@ author: lomayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365-initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: b186574cfc1307dfd8a01f7a77ef60bf91f4b162
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: f25c0ad47a520ec23a94775b64a4f1ecc2eb9486
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197000"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48414253"
 ---
-# <a name="devicetvmsecureconfigurationassessment"></a><span data-ttu-id="513a9-105">DeviceTvmSecureConfigurationAssessment</span><span class="sxs-lookup"><span data-stu-id="513a9-105">DeviceTvmSecureConfigurationAssessment</span></span>
+# <a name="devicetvmsecureconfigurationassessment"></a><span data-ttu-id="5624f-105">DeviceTvmSecureConfigurationAssessment</span><span class="sxs-lookup"><span data-stu-id="5624f-105">DeviceTvmSecureConfigurationAssessment</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="513a9-106">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="513a9-106">**Applies to:**</span></span>
-- <span data-ttu-id="513a9-107">Microsoft Threat Protection</span><span class="sxs-lookup"><span data-stu-id="513a9-107">Microsoft Threat Protection</span></span>
+<span data-ttu-id="5624f-106">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="5624f-106">**Applies to:**</span></span>
+- <span data-ttu-id="5624f-107">Microsoft Threat Protection</span><span class="sxs-lookup"><span data-stu-id="5624f-107">Microsoft Threat Protection</span></span>
 
 
 
-<span data-ttu-id="513a9-108">`DeviceTvmSecureConfigurationAssessment` 표의 각 행에는 [위협 및 취약성 관리](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)의 특정 보안 구성에 대한 평가 이벤트가 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="513a9-108">Each row in the `DeviceTvmSecureConfigurationAssessment` table contains an assessment event for a specific security configuration from [Threat & Vulnerability Management](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt).</span></span> <span data-ttu-id="513a9-109">이 참조를 사용하여 최신 평가 결과를 확인하고 장치가 호환되는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="513a9-109">Use this reference to check the latest assessment results and determine whether devices are compliant.</span></span>
+<span data-ttu-id="5624f-108">`DeviceTvmSecureConfigurationAssessment` 표의 각 행에는 [위협 및 취약성 관리](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)의 특정 보안 구성에 대한 평가 이벤트가 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5624f-108">Each row in the `DeviceTvmSecureConfigurationAssessment` table contains an assessment event for a specific security configuration from [Threat & Vulnerability Management](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt).</span></span> <span data-ttu-id="5624f-109">이 참조를 사용하여 최신 평가 결과를 확인하고 장치가 호환되는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="5624f-109">Use this reference to check the latest assessment results and determine whether devices are compliant.</span></span>
 
-<span data-ttu-id="513a9-110">고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="513a9-110">For information on other tables in the advanced hunting schema, see [the advanced hunting reference](advanced-hunting-schema-tables.md).</span></span>
+<span data-ttu-id="5624f-110">고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="5624f-110">For information on other tables in the advanced hunting schema, see [the advanced hunting reference](advanced-hunting-schema-tables.md).</span></span>
 
-| <span data-ttu-id="513a9-111">열 이름</span><span class="sxs-lookup"><span data-stu-id="513a9-111">Column name</span></span> | <span data-ttu-id="513a9-112">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="513a9-112">Data type</span></span> | <span data-ttu-id="513a9-113">설명</span><span class="sxs-lookup"><span data-stu-id="513a9-113">Description</span></span> |
+| <span data-ttu-id="5624f-111">열 이름</span><span class="sxs-lookup"><span data-stu-id="5624f-111">Column name</span></span> | <span data-ttu-id="5624f-112">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="5624f-112">Data type</span></span> | <span data-ttu-id="5624f-113">설명</span><span class="sxs-lookup"><span data-stu-id="5624f-113">Description</span></span> |
 |-------------|-----------|-------------|
-| `DeviceId` | <span data-ttu-id="513a9-114">문자열</span><span class="sxs-lookup"><span data-stu-id="513a9-114">string</span></span> | <span data-ttu-id="513a9-115">서비스에서 시스템의 고유 식별자</span><span class="sxs-lookup"><span data-stu-id="513a9-115">Unique identifier for the machine in the service</span></span> |
-| `DeviceName` | <span data-ttu-id="513a9-116">문자열</span><span class="sxs-lookup"><span data-stu-id="513a9-116">string</span></span> | <span data-ttu-id="513a9-117">컴퓨터의 FQDN(정규화된 도메인 이름)</span><span class="sxs-lookup"><span data-stu-id="513a9-117">Fully qualified domain name (FQDN) of the machine</span></span> |
-| `OSPlatform` | <span data-ttu-id="513a9-118">문자열</span><span class="sxs-lookup"><span data-stu-id="513a9-118">string</span></span> | <span data-ttu-id="513a9-119">컴퓨터에서 실행 중인 운영 체제의 플랫폼</span><span class="sxs-lookup"><span data-stu-id="513a9-119">Platform of the operating system running on the machine.</span></span> <span data-ttu-id="513a9-120">이는 Windows 10 및 Windows 7과 같이 동일한 제품군 내의 변형을 포함하여 특정 운영 체제를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="513a9-120">This indicates specific operating systems, including variations within the same family, such as Windows 10 and Windows 7.</span></span>|
-| `Timestamp` | <span data-ttu-id="513a9-121">날짜 시간</span><span class="sxs-lookup"><span data-stu-id="513a9-121">datetime</span></span> | <span data-ttu-id="513a9-122">레코드 생성 날짜 및 시간</span><span class="sxs-lookup"><span data-stu-id="513a9-122">Date and time when the record was generated</span></span> |
-| `ConfigurationId` | <span data-ttu-id="513a9-123">문자열</span><span class="sxs-lookup"><span data-stu-id="513a9-123">string</span></span> | <span data-ttu-id="513a9-124">특정 구성의 고유 식별자</span><span class="sxs-lookup"><span data-stu-id="513a9-124">Unique identifier for a specific configuration</span></span> |
-| `ConfigurationCategory` | <span data-ttu-id="513a9-125">문자열</span><span class="sxs-lookup"><span data-stu-id="513a9-125">string</span></span> | <span data-ttu-id="513a9-126">구성이 속해 있는 범주 또는 그룹(응용 프로그램, OS, 네트워크, 계정, 보안 제어)</span><span class="sxs-lookup"><span data-stu-id="513a9-126">Category or grouping to which the configuration belongs: Application, OS, Network, Accounts, Security controls</span></span> |
-| `ConfigurationSubcategory` | <span data-ttu-id="513a9-127">문자열</span><span class="sxs-lookup"><span data-stu-id="513a9-127">string</span></span> | <span data-ttu-id="513a9-128">구성이 속한 하위 범주나 하위 그룹</span><span class="sxs-lookup"><span data-stu-id="513a9-128">Subcategory or subgrouping to which the configuration belongs.</span></span> <span data-ttu-id="513a9-129">대부분의 경우 이는 특정 기능이나 특징을 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="513a9-129">In many cases, this describes specific capabilities or features.</span></span> |
-| `ConfigurationImpact` | <span data-ttu-id="513a9-130">문자열</span><span class="sxs-lookup"><span data-stu-id="513a9-130">string</span></span> | <span data-ttu-id="513a9-131">구성의 등급이 전반적인 구성 점수에 미치는 영향(1-10)</span><span class="sxs-lookup"><span data-stu-id="513a9-131">Rated impact of the configuration to the overall configuration score (1-10)</span></span> |
-| `IsCompliant` | <span data-ttu-id="513a9-132">부울</span><span class="sxs-lookup"><span data-stu-id="513a9-132">boolean</span></span> | <span data-ttu-id="513a9-133">구성 또는 정책이 올바르게 구성되어 있는지 여부</span><span class="sxs-lookup"><span data-stu-id="513a9-133">Indicates whether the configuration or policy is properly configured</span></span> |
+| `DeviceId` | <span data-ttu-id="5624f-114">문자열</span><span class="sxs-lookup"><span data-stu-id="5624f-114">string</span></span> | <span data-ttu-id="5624f-115">서비스에서 시스템의 고유 식별자</span><span class="sxs-lookup"><span data-stu-id="5624f-115">Unique identifier for the machine in the service</span></span> |
+| `DeviceName` | <span data-ttu-id="5624f-116">문자열</span><span class="sxs-lookup"><span data-stu-id="5624f-116">string</span></span> | <span data-ttu-id="5624f-117">컴퓨터의 FQDN(정규화된 도메인 이름)</span><span class="sxs-lookup"><span data-stu-id="5624f-117">Fully qualified domain name (FQDN) of the machine</span></span> |
+| `OSPlatform` | <span data-ttu-id="5624f-118">문자열</span><span class="sxs-lookup"><span data-stu-id="5624f-118">string</span></span> | <span data-ttu-id="5624f-119">컴퓨터에서 실행 중인 운영 체제의 플랫폼</span><span class="sxs-lookup"><span data-stu-id="5624f-119">Platform of the operating system running on the machine.</span></span> <span data-ttu-id="5624f-120">이는 Windows 10 및 Windows 7과 같이 동일한 제품군 내의 변형을 포함하여 특정 운영 체제를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="5624f-120">This indicates specific operating systems, including variations within the same family, such as Windows 10 and Windows 7.</span></span>|
+| `Timestamp` | <span data-ttu-id="5624f-121">날짜 시간</span><span class="sxs-lookup"><span data-stu-id="5624f-121">datetime</span></span> | <span data-ttu-id="5624f-122">레코드 생성 날짜 및 시간</span><span class="sxs-lookup"><span data-stu-id="5624f-122">Date and time when the record was generated</span></span> |
+| `ConfigurationId` | <span data-ttu-id="5624f-123">문자열</span><span class="sxs-lookup"><span data-stu-id="5624f-123">string</span></span> | <span data-ttu-id="5624f-124">특정 구성의 고유 식별자</span><span class="sxs-lookup"><span data-stu-id="5624f-124">Unique identifier for a specific configuration</span></span> |
+| `ConfigurationCategory` | <span data-ttu-id="5624f-125">문자열</span><span class="sxs-lookup"><span data-stu-id="5624f-125">string</span></span> | <span data-ttu-id="5624f-126">구성이 속해 있는 범주 또는 그룹(응용 프로그램, OS, 네트워크, 계정, 보안 제어)</span><span class="sxs-lookup"><span data-stu-id="5624f-126">Category or grouping to which the configuration belongs: Application, OS, Network, Accounts, Security controls</span></span> |
+| `ConfigurationSubcategory` | <span data-ttu-id="5624f-127">문자열</span><span class="sxs-lookup"><span data-stu-id="5624f-127">string</span></span> | <span data-ttu-id="5624f-128">구성이 속한 하위 범주나 하위 그룹</span><span class="sxs-lookup"><span data-stu-id="5624f-128">Subcategory or subgrouping to which the configuration belongs.</span></span> <span data-ttu-id="5624f-129">대부분의 경우 이는 특정 기능이나 특징을 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="5624f-129">In many cases, this describes specific capabilities or features.</span></span> |
+| `ConfigurationImpact` | <span data-ttu-id="5624f-130">문자열</span><span class="sxs-lookup"><span data-stu-id="5624f-130">string</span></span> | <span data-ttu-id="5624f-131">구성의 등급이 전반적인 구성 점수에 미치는 영향(1-10)</span><span class="sxs-lookup"><span data-stu-id="5624f-131">Rated impact of the configuration to the overall configuration score (1-10)</span></span> |
+| `IsCompliant` | <span data-ttu-id="5624f-132">부울</span><span class="sxs-lookup"><span data-stu-id="5624f-132">boolean</span></span> | <span data-ttu-id="5624f-133">구성 또는 정책이 올바르게 구성되어 있는지 여부</span><span class="sxs-lookup"><span data-stu-id="5624f-133">Indicates whether the configuration or policy is properly configured</span></span> |
 
-## <a name="related-topics"></a><span data-ttu-id="513a9-134">관련 항목</span><span class="sxs-lookup"><span data-stu-id="513a9-134">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="5624f-134">관련 항목</span><span class="sxs-lookup"><span data-stu-id="5624f-134">Related topics</span></span>
 
-- [<span data-ttu-id="513a9-135">사전 대응식 위협 탐지</span><span class="sxs-lookup"><span data-stu-id="513a9-135">Proactively hunt for threats</span></span>](advanced-hunting-overview.md)
-- [<span data-ttu-id="513a9-136">쿼리 언어 배우기</span><span class="sxs-lookup"><span data-stu-id="513a9-136">Learn the query language</span></span>](advanced-hunting-query-language.md)
-- [<span data-ttu-id="513a9-137">공유 쿼리 사용</span><span class="sxs-lookup"><span data-stu-id="513a9-137">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
-- [<span data-ttu-id="513a9-138">기기, 전자 메일, 앱 및 ID를 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="513a9-138">Hunt across devices, emails, apps, and identities</span></span>](advanced-hunting-query-emails-devices.md)
-- [<span data-ttu-id="513a9-139">스키마의 이해</span><span class="sxs-lookup"><span data-stu-id="513a9-139">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
-- [<span data-ttu-id="513a9-140">쿼리 모범 사례 적용</span><span class="sxs-lookup"><span data-stu-id="513a9-140">Apply query best practices</span></span>](advanced-hunting-best-practices.md)
-- [<span data-ttu-id="513a9-141">위협 및 취약성 관리 개요</span><span class="sxs-lookup"><span data-stu-id="513a9-141">Overview of Threat & Vulnerability Management</span></span>](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)
+- [<span data-ttu-id="5624f-135">사전 대응식 위협 탐지</span><span class="sxs-lookup"><span data-stu-id="5624f-135">Proactively hunt for threats</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="5624f-136">쿼리 언어 배우기</span><span class="sxs-lookup"><span data-stu-id="5624f-136">Learn the query language</span></span>](advanced-hunting-query-language.md)
+- [<span data-ttu-id="5624f-137">공유 쿼리 사용</span><span class="sxs-lookup"><span data-stu-id="5624f-137">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
+- [<span data-ttu-id="5624f-138">기기, 전자 메일, 앱 및 ID를 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="5624f-138">Hunt across devices, emails, apps, and identities</span></span>](advanced-hunting-query-emails-devices.md)
+- [<span data-ttu-id="5624f-139">스키마의 이해</span><span class="sxs-lookup"><span data-stu-id="5624f-139">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
+- [<span data-ttu-id="5624f-140">쿼리 모범 사례 적용</span><span class="sxs-lookup"><span data-stu-id="5624f-140">Apply query best practices</span></span>](advanced-hunting-best-practices.md)
+- [<span data-ttu-id="5624f-141">위협 및 취약성 관리 개요</span><span class="sxs-lookup"><span data-stu-id="5624f-141">Overview of Threat & Vulnerability Management</span></span>](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)
