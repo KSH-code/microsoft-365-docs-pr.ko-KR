@@ -6,17 +6,20 @@ manager: serdars
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-search.appverid: MET150
-localization_priority: Priority
+search.appverid: ''
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
 description: SharePoint Syntex에서 이미지 태그 지정에 대해 알아보기
-ms.openlocfilehash: 7b41422633934593de881bdb0c04f0a845a3fe5f
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
-ms.translationtype: HT
+ms.openlocfilehash: c6d7513db2fd6aadabe5d813f3b49073a8f8c933
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321256"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413737"
 ---
 # <a name="image-tagging-in-sharepoint-syntex"></a>SharePoint Syntex에서 이미지 태그 지정
+
+(준비 중)
 
 SharePoint Syntex의 이미지 태그를 사용 하면 사용자가 이미지 태그를 검색 하여 이미지를 찾고, 이미지 태그에 따라 워크플로를 만들 수 있습니다. 기본적으로 SharePoint 및 OneDrive에 대해 기본 이미지 태그 지정 기능이 설정됩니다. 두 위치 중 하나에 업로드된 이미지는 자동으로 검색되며 가능한 경우 해당 태그가 37개의 기본 태그 목록에서 적용됩니다. 사용자는 이미지 태그 검색을 통해 이미지를 찾을 수 있습니다.
 

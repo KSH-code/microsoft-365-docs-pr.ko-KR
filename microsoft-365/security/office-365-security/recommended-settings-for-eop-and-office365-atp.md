@@ -15,13 +15,14 @@ search.appverid:
 ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
+- m365-initiative-m365-defender
 description: EOP (Exchange Online Protection) 및 ATP (Advanced Threat Protection) 보안 설정에 대 한 모범 사례 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 ATP (Advanced Threat Protection)를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: af0e295b9b9ed7e71747556909cb181aa5af4833
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: f12610d2f5517461deb828f1b364b30ce3d5202a
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350810"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413869"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>EOP 및 Office 365 ATP 보안에 대 한 권장 설정
 

@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: MET150
 localization_priority: Priority
 description: Project Cortex에서 콘텐츠 이해 설정
-ms.openlocfilehash: 0d66076c93eb46ca11977cea12417c0816e0d11b
-ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
+ms.openlocfilehash: 8217630d66a097fcc714be80bd4d3dcceb623370
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367934"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413713"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex 설정
 
@@ -51,11 +51,7 @@ Microsoft 365 관리 센터에서 초기 설정 후 설정을 변경할 수 있�
 
     ![설치 시작](../media/content-understanding/admin-content-understanding-get-started.png)</br>
 
-4. 이미지 태그 지정 설정 페이지에서 [이미지 태그 지정](image-tagging.md)을 허용할지 여부를 선택합니다.
-
-    ![이미지 태그 옵션의 스크린샷입니다.](../media/content-understanding/admin-content-understanding-setup-image-tagging.png)</br>
-
-5. **양식 처리 구성** 페이지에서 사용자가 특정 SharePoint 문서 라이브러리에 양식 처리 모델을 생성할 수 있도록 허용할지 여부를 선택할 수 있습니다. 사용 설정된 해당 Sharepoint 문서 라이브러리 리본에서 **양식 처리 모델을 만들기** 위한 문서 라이브러리 리본의 메뉴 옵션을 사용할 수 있습니다.
+4. **양식 처리 구성** 페이지에서 사용자가 특정 SharePoint 문서 라이브러리에 양식 처리 모델을 생성할 수 있도록 허용할지 여부를 선택할 수 있습니다. 사용 설정된 해당 Sharepoint 문서 라이브러리 리본에서 **양식 처리 모델을 만들기** 위한 문서 라이브러리 리본의 메뉴 옵션을 사용할 수 있습니다.
  
      **양식 처리 모델**을(를) 생성하기 위해 어떤 SharePoint 라이브러리에 표시할 것인지에 대해 다음을 선택할 수 있습니다.</br>
       - **모든 SharePoint 라이브러리**를 조직의 모든 SharePoint 라이브러리에서 사용할 수 있도록 합니다.</br>
@@ -67,7 +63,7 @@ Microsoft 365 관리 센터에서 초기 설정 후 설정을 변경할 수 있�
    > [!Note]
    > 사이트가 포함된 후 사이트를 제거해도 해당 사이트의 라이브러리에 적용된 기존 모델이나 문서 이해 모델을 라이브러리에 적용하는 기능에는 영향을 미치지 않습니다. 
     
-6. **콘텐츠 센터 생성** 페이지에서 사용자가 문서 이해 모델을 생성하고 관리할 수 있는 SharePoint 콘텐츠 센터 사이트를 생성할 수 있습니다. </br>
+5. **콘텐츠 센터 생성** 페이지에서 사용자가 문서 이해 모델을 생성하고 관리할 수 있는 SharePoint 콘텐츠 센터 사이트를 생성할 수 있습니다. </br>
     a. **사이트 이름**에 대해 콘텐츠 센터 사이트에 지정할 이름을 입력합니다.</br>
     b. **사이트 주소**는 사이트 이름에 대해 선택한 항목에 따라 사이트의 URL을 표시합니다. 변경하려는 경우 **편집**을 클릭합니다.</br>
 
@@ -75,11 +71,11 @@ Microsoft 365 관리 센터에서 초기 설정 후 설정을 변경할 수 있�
 
     **다음**을 선택합니다.
 
-7. **검토 및 마침** 페이지에서 선택한 설정을 보고 변경하도록 선택할 수 있습니다. 원하는 항목을 선택한 경우 **활성화**를 선택합니다.
+6. **검토 및 마침** 페이지에서 선택한 설정을 보고 변경하도록 선택할 수 있습니다. 원하는 항목을 선택한 경우 **활성화**를 선택합니다.
 
-8. 확인 페이지에서 **완료**를 클릭합니다.
+7. 확인 페이지에서 **완료**를 클릭합니다.
 
-9. **콘텐츠 이해 자동화** 페이지로 돌아갑니다. 이 페이지에서 **관리**를 선택하여 구성 설정을 변경할 수 있습니다. 
+8. **콘텐츠 이해 자동화** 페이지로 돌아갑니다. 이 페이지에서 **관리**를 선택하여 구성 설정을 변경할 수 있습니다. 
 
 ## <a name="assign-licenses"></a>라이선스 할당
 

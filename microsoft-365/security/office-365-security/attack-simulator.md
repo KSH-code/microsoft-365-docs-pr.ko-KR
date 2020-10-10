@@ -15,15 +15,16 @@ search.appverid:
 ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 ms.collection:
 - M365-security-compliance
+- m365-initiative-m365-defender
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 Attack 시뮬레이터를 사용 하 여 Microsoft 365 E5 또는 ATP 계획 2 조 직에서 시뮬레이트된 피싱 및 암호 공격을 실행 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 86d365036daa4f24d2c2e3b8e64b5836e291889f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 76ba6fb68bbf8dd22f96d2be56136e74b0057619
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200392"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48414013"
 ---
 # <a name="attack-simulator-in-atp"></a>ATP의 공격 시뮬레이터
 

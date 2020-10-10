@@ -14,6 +14,7 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- m365-initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
@@ -25,12 +26,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 이 문서에서는 관리자가 악성 Url을 사용 하는 피싱 및 기타 공격 으로부터 조직을 보호 하기 위해 Office 365 ATP (Advanced Threat Protection)의 안전한 링크 보호에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 742ccc82fe5c6fafa4e6c3463cb471b674b77fa9
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: c933ce48483f0263650d0af2994023dfcb24fadf
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326724"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48414121"
 ---
 # <a name="safe-links-in-office-365-atp"></a>Office 365 ATP의 안전한 링크
 
@@ -248,7 +249,7 @@ Office 365 앱에 대 한 안전한 링크 설정을 구성 하려면 [office 36
 
 안전한 링크에 대 한 전역 설정에서 Url 목록을 구성 합니다. 자세한 내용은 Configure the ["다음 Url 차단" 목록을](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-security--compliance-center)참조 하세요.
 
-**참고:**
+**참고**:
 
 - 모든 범위에서 차단 되는 Url의 진정한 범용 목록은 [테 넌 트 허용/차단 목록에서 Url 관리](tenant-allow-block-list.md)를 참조 하십시오.
 
@@ -288,7 +289,7 @@ Office 365 앱에 대 한 안전한 링크 설정을 구성 하려면 [office 36
 
 새 또는 기존 안전한 링크 정책에서 목록에 항목을 추가 하려면 [안전한 링크 정책 만들기](set-up-atp-safe-links-policies.md#use-the-security--compliance-center-to-create-safe-links-policies) 또는 [안전한 링크 정책 수정을](set-up-atp-safe-links-policies.md#use-the-security--compliance-center-to-modify-safe-links-policies)참조 하십시오.
 
-**참고:**
+**참고**:
 
 - 다음 클라이언트는 안전한 링크 정책에서 **다음 url 목록을 다시 쓰지 않습니다** .를 인식 하지 못합니다. 정책에 포함 된 사용자는 다음 클라이언트에서 안전한 링크 검색 결과에 따라 Url에 액세스 하지 못하도록 차단할 수 있습니다.
 

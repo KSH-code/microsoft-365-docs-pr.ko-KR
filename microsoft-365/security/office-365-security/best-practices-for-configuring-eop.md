@@ -5,19 +5,18 @@ f1.keywords:
 ms.author: chrisda
 author: chrisda
 manager: dansimp
-ms.date: ''
 audience: ITPro
 ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: EOP (독립 실행형 Exchange Online Protection)에 대해 직접 설정 하 여 성공적인 작동을 방지 하 고 일반적인 구성 오류가 발생 하지 않도록 하려면 다음과 같은 모범 사례 권장 사항을 따르십시오.
-ms.openlocfilehash: cb3aa36720a6a46932d69341394304937bb1a296
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: b734fe87b82c243531944bbd9cf53d22d5b42f53
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203566"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48414037"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>독립 실행형 EOP 구성 모범 사례
 
@@ -44,7 +43,7 @@ EOP (독립 실행형 Exchange Online Protection)에 대해 직접 설정 하 �
 
 ****
 
-|보안 기능 이름|Standard|항등|Comment|
+|보안 기능 이름|Standard|항등|댓글|
 |---|---|---|---|
 |[스푸핑을 방지할 수 있도록 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|예|예||
 |[DKIM을 사용하여 Office 365의 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)|예|예||

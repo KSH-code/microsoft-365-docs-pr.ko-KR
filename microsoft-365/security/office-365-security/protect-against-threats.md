@@ -16,14 +16,15 @@ search.appverid:
 ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
+- m365-initiative-m365-defender
 description: 관리자는 Microsoft 365의 위협 보호에 대해 알아보고 조직에서이를 사용 하는 방법을 구성할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 624646461efe7131b2479e003b23a9e659e0a779
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: bb28decf459035c238c61b12f65abf45128e527c
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326558"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413593"
 ---
 # <a name="protect-against-threats"></a>위협으로부터 보호
 
@@ -206,7 +207,7 @@ ATP 정책을 구성 하려면 [보안 & 준수 센터](https://docs.microsoft.c
 
 5. 설정을 검토 하 고 **마침을**클릭 합니다.
 
-자세한 내용은 [안전한 링크 정책 설정을](set-up-atp-safe-links-policies.md)참조 하십시오.
+자세한 내용은 [안전한 링크 정책 설정](set-up-atp-safe-links-policies.md)을 참조하세요.
 
 ## <a name="part-5---verify-atp-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on"></a>5 부-SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP가 설정 되어 있는지 확인
 

@@ -15,14 +15,15 @@ search.appverid:
 ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
+- m365-initiative-defender-office365
 description: 보안 및 준수 센터에서 Explorer 및 실시간 검색을 사용 하 여 위협에 효과적이 고 효율적으로 대응 하는 방법에 대해 알아봅니다 &amp; .
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 32ff9f2c8d009b4c9b05c12ba4e785e59cb182e7
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 20b13e177a69d981a4c6793d4810256e33158a35
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328086"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48414265"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
@@ -47,9 +48,9 @@ Explorer (또는 실시간 검색)를 사용 하는 경우 보안 운영 팀이 
 - [탐색기에서 보기 로부터 자동화 된 조사 및 응답 프로세스 시작](#start-automated-investigation-and-response) (ATP 요금제 2에만 해당)
 - ... [악성 전자 메일을 조사 하 고 더 많은 방법을 확인해](#more-ways-to-use-explorer-or-real-time-detections)보세요.
 
-## <a name="experience-improvements-to-threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색 기능이 향상 되었습니다.
+## <a name="experience-improvements-to-threat-explorer-and-real-time-detections"></a>위협 탐색기 및 Real-Time 검색 기능이 향상 되었습니다.
 
-검색 프로세스를 개선 하는 과정에서 위협 탐색기 및 실시간 검색에 대 한 몇 가지 업데이트를 수행 했습니다. 이러한 기능은 개선 된 경험을 보다 일관성 있게 만드는 데 중점을 둔 ' 경험 ' 향상 기능입니다. 이러한 변경 내용은 아래에 설명 되어 있습니다.
+검색 프로세스를 개선 하는 과정에서 위협 탐색기와 Real-Time 검색을 몇 가지 업데이트 했습니다. 이러한 기능은 개선 된 경험을 보다 일관성 있게 만드는 데 중점을 둔 ' 경험 ' 향상 기능입니다. 이러한 변경 내용은 아래에 설명 되어 있습니다.
 
 - [향상 된 표준 시간대](#timezone-improvements)
 - [새로 고침 프로세스의 업데이트](#update-in-the-refresh-process)
@@ -103,7 +104,7 @@ ETR 검색 및 이름 사용 가능 여부는 자신에 게 할당 된 특정 �
 - AAD 또는 EXO-보안 관리자: 모두
 - AAD 또는 EXO-보안 읽기 권한자: 모두
 - EXO Only-전송 규칙: 모두
-- EXO Only-보기 전용 구성: 모두
+- EXO Only-View-Only 구성: 모두
 
 전자 메일 표, 세부 정보 플라이 아웃 및 내보낸 CSV에는 아래와 같이 이름/GUID와 함께 ETRs가 표시 됩니다.
 
