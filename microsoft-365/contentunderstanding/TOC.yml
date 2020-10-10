@@ -6,7 +6,7 @@
       href: document-understanding-overview.md
     - name: 양식 처리 개요
       href: form-processing-overview.md
-    - name: 문서 이해 및 양식 처리 모델의 차이점
+    - name: 문서 이해와 양식 처리 모델의 차이
       href: difference-between-document-understanding-and-form-processing-model.md
 - name: 모델로 시작 하기
   items:
@@ -26,11 +26,11 @@
       href: create-a-form-processing-model.md
     - name: 보존 레이블 적용
       href: apply-a-retention-label-to-a-model.md
-    - name: 모델 사용 현황 분석
+    - name: 모델 사용량 분석
       href: model-usage-analytics.md
-    - name: 추출기를 만들 때 용어 저장소 분류 활용
+    - name: 추출자를 만들 때 용어 저장소 분류 활용
       href: leverage-term-store-taxonomy.md
-- name: 도입
+- name: 채택
   items:
     - name: 채택 시작 하기
       href: adoption-getstarted.md
@@ -38,8 +38,6 @@
   items:
     - name: 콘텐츠 이해 설정
       href: set-up-content-understanding.md
-    - name: 이미지 태그 지정
-      href: image-tagging.md
 - name: 콘텐츠 서비스
   items:
     - name: 운영 체제를 사용 하 여 가져오기

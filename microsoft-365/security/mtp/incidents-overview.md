@@ -14,48 +14,50 @@ author: mjcaparas
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365-initiative-m365-defender
 ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: c9b495b70c8b61188b4db3175b54e406feb87fc8
-ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
+ms.openlocfilehash: b0cfa6ed4af6ef9c5686cb25d5b2f0522d818860
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48357845"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48412901"
 ---
-# <a name="incidents-overview-in-microsoft-threat-protection"></a><span data-ttu-id="3e743-104">Microsoft Threat Protection의 인시던트 개요</span><span class="sxs-lookup"><span data-stu-id="3e743-104">Incidents overview in Microsoft Threat Protection</span></span>
+# <a name="incidents-overview-in-microsoft-threat-protection"></a><span data-ttu-id="bf82c-104">Microsoft Threat Protection의 인시던트 개요</span><span class="sxs-lookup"><span data-stu-id="bf82c-104">Incidents overview in Microsoft Threat Protection</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="3e743-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="3e743-105">**Applies to:**</span></span>
-- <span data-ttu-id="3e743-106">Microsoft Threat Protection</span><span class="sxs-lookup"><span data-stu-id="3e743-106">Microsoft Threat Protection</span></span>
+<span data-ttu-id="bf82c-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="bf82c-105">**Applies to:**</span></span>
+- <span data-ttu-id="bf82c-106">Microsoft Threat Protection</span><span class="sxs-lookup"><span data-stu-id="bf82c-106">Microsoft Threat Protection</span></span>
 
 
 
-<span data-ttu-id="3e743-107">인시던트는 관련 경고에 따라 달라 집니다.</span><span class="sxs-lookup"><span data-stu-id="3e743-107">Incidents are based on related alerts.</span></span> <span data-ttu-id="3e743-108">네트워크에서 악성 이벤트 또는 활동이 발견되면 경고가 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="3e743-108">Alerts are created when a malicious event or activity is seen on your network.</span></span> <span data-ttu-id="3e743-109">개별 알림은 진행 중인 공격에 대 한 귀중 한 단서를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e743-109">Individual alerts provide valuable clues about an on-going attack.</span></span> <span data-ttu-id="3e743-110">그러나 일반적으로 공격에서는 다양 한 벡터와 기법을 사용 하 여 위반을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e743-110">However, attacks typically employ various vectors and techniques to carry out a breach.</span></span> <span data-ttu-id="3e743-111">개별 단서를 함께 사용 하는 것은 Piecing 시간이 많이 소요 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e743-111">Piecing individual clues together can be challenging and time-consuming.</span></span>
+<span data-ttu-id="bf82c-107">인시던트는 관련 경고에 따라 달라 집니다.</span><span class="sxs-lookup"><span data-stu-id="bf82c-107">Incidents are based on related alerts.</span></span> <span data-ttu-id="bf82c-108">네트워크에서 악성 이벤트 또는 활동이 발견되면 경고가 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="bf82c-108">Alerts are created when a malicious event or activity is seen on your network.</span></span> <span data-ttu-id="bf82c-109">개별 알림은 진행 중인 공격에 대 한 귀중 한 단서를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="bf82c-109">Individual alerts provide valuable clues about an on-going attack.</span></span> <span data-ttu-id="bf82c-110">그러나 일반적으로 공격에서는 다양 한 벡터와 기법을 사용 하 여 위반을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="bf82c-110">However, attacks typically employ various vectors and techniques to carry out a breach.</span></span> <span data-ttu-id="bf82c-111">개별 단서를 함께 사용 하는 것은 Piecing 시간이 많이 소요 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf82c-111">Piecing individual clues together can be challenging and time-consuming.</span></span>
 
-<span data-ttu-id="3e743-112">이 짧은 비디오에서는 Microsoft Threat Protection의 문제에 대 한 개요를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e743-112">This short video gives an overview of incidents in Microsoft Threat Protection.</span></span>
+<span data-ttu-id="bf82c-112">이 짧은 비디오에서는 Microsoft Threat Protection의 문제에 대 한 개요를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="bf82c-112">This short video gives an overview of incidents in Microsoft Threat Protection.</span></span>
 <br>
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bzwz?]
 
-<span data-ttu-id="3e743-113">인시던트는 공격에 대 한 이야기를 구성 하는 상호 연관 된 경고의 모음입니다.</span><span class="sxs-lookup"><span data-stu-id="3e743-113">An incident is a collection of correlated alerts that make up the story of an attack.</span></span> <span data-ttu-id="3e743-114">네트워크의 여러 장치, 사용자 및 사서함 엔터티에 있는 악의적이 고 의심 스러운 이벤트는 Microsoft Threat Protection을 통해 자동으로 집계 됩니다.</span><span class="sxs-lookup"><span data-stu-id="3e743-114">Malicious and suspicious events that are found in different device, user, and mailbox entities in the network are automatically aggregated by Microsoft Threat Protection.</span></span> <span data-ttu-id="3e743-115">관련 알림을 인시던트로 그룹화 하면 보안 defenders 공격에 대 한 포괄적인 보기가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="3e743-115">Grouping related alerts into an incident gives security defenders a comprehensive view of an attack.</span></span> 
+<span data-ttu-id="bf82c-113">인시던트는 공격에 대 한 이야기를 구성 하는 상호 연관 된 경고의 모음입니다.</span><span class="sxs-lookup"><span data-stu-id="bf82c-113">An incident is a collection of correlated alerts that make up the story of an attack.</span></span> <span data-ttu-id="bf82c-114">네트워크의 여러 장치, 사용자 및 사서함 엔터티에 있는 악의적이 고 의심 스러운 이벤트는 Microsoft Threat Protection을 통해 자동으로 집계 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bf82c-114">Malicious and suspicious events that are found in different device, user, and mailbox entities in the network are automatically aggregated by Microsoft Threat Protection.</span></span> <span data-ttu-id="bf82c-115">관련 알림을 인시던트로 그룹화 하면 보안 defenders 공격에 대 한 포괄적인 보기가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bf82c-115">Grouping related alerts into an incident gives security defenders a comprehensive view of an attack.</span></span> 
 
-<span data-ttu-id="3e743-116">예를 들어 보안 defenders는 공격이 시작 된 위치, 사용 된 방법 및 공격이 네트워크에 침입 한 정도를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e743-116">For instance, security defenders can see where the attack started, what tactics were used, and how far the attack has gone into the network.</span></span> <span data-ttu-id="3e743-117">영향을 받는 장치, 사용자 및 사서함의 수, 영향을 받는 정도, 영향을 받은 엔터티에 대 한 기타 세부 정보와 같은 공격 범위를 볼 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e743-117">They can also see the scope of the attack, like how many devices, users, and mailboxes were impacted, how severe the impact was, and other details about affected entities.</span></span>
+<span data-ttu-id="bf82c-116">예를 들어 보안 defenders는 공격이 시작 된 위치, 사용 된 방법 및 공격이 네트워크에 침입 한 정도를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf82c-116">For instance, security defenders can see where the attack started, what tactics were used, and how far the attack has gone into the network.</span></span> <span data-ttu-id="bf82c-117">영향을 받는 장치, 사용자 및 사서함의 수, 영향을 받는 정도, 영향을 받은 엔터티에 대 한 기타 세부 정보와 같은 공격 범위를 볼 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf82c-117">They can also see the scope of the attack, like how many devices, users, and mailboxes were impacted, how severe the impact was, and other details about affected entities.</span></span>
 
-<span data-ttu-id="3e743-118">이 옵션을 설정 하면 Microsoft Threat Protection이 자동화 및 인공 지능을 통해 개별 알림을 자동으로 조사 하 고 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e743-118">If enabled, Microsoft Threat Protection can automatically investigate and resolve the individual alerts through automation and artificial intelligence.</span></span> <span data-ttu-id="3e743-119">보안 defenders 문제 보기에서 직접 공격을 해결 하기 위한 추가 수정 단계를 수행할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e743-119">Security defenders can also perform additional remediation steps to resolve the attack straight from the incidents view.</span></span> 
+<span data-ttu-id="bf82c-118">이 옵션을 설정 하면 Microsoft Threat Protection이 자동화 및 인공 지능을 통해 개별 알림을 자동으로 조사 하 고 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf82c-118">If enabled, Microsoft Threat Protection can automatically investigate and resolve the individual alerts through automation and artificial intelligence.</span></span> <span data-ttu-id="bf82c-119">보안 defenders 문제 보기에서 직접 공격을 해결 하기 위한 추가 수정 단계를 수행할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf82c-119">Security defenders can also perform additional remediation steps to resolve the attack straight from the incidents view.</span></span> 
 
-<span data-ttu-id="3e743-120">지난 30 일 동안의 인시던트는 인시던트 큐에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="3e743-120">Incidents from the last 30 days are shown in the incident queue.</span></span> <span data-ttu-id="3e743-121">여기에서 보안 defenders는 위험 수준 및 기타 요소에 따라 우선 순위를 지정 해야 하는 인시던트를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e743-121">From here, security defenders can see which incidents should be prioritized based on risk level and other factors.</span></span> 
+<span data-ttu-id="bf82c-120">지난 30 일 동안의 인시던트는 인시던트 큐에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bf82c-120">Incidents from the last 30 days are shown in the incident queue.</span></span> <span data-ttu-id="bf82c-121">여기에서 보안 defenders는 위험 수준 및 기타 요소에 따라 우선 순위를 지정 해야 하는 인시던트를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf82c-121">From here, security defenders can see which incidents should be prioritized based on risk level and other factors.</span></span> 
 
-<span data-ttu-id="3e743-122">또한 보안 defenders 인시던트 이름을 바꾸고, 개별 분석가에 게 할당 하 고, 인시던트에 태그를 추가 하 여 보다 나은 사용자 지정 된 인시던트 관리 환경을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e743-122">Security defenders can also rename incidents, assign them to individual analysts, classify, and add tags to incidents for a better and more customized incident management experience.</span></span>
+<span data-ttu-id="bf82c-122">또한 보안 defenders 인시던트 이름을 바꾸고, 개별 분석가에 게 할당 하 고, 인시던트에 태그를 추가 하 여 보다 나은 사용자 지정 된 인시던트 관리 환경을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf82c-122">Security defenders can also rename incidents, assign them to individual analysts, classify, and add tags to incidents for a better and more customized incident management experience.</span></span>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="3e743-123">참고 항목</span><span class="sxs-lookup"><span data-stu-id="3e743-123">See also</span></span>
-- [<span data-ttu-id="3e743-124">인시던트 우선 순위 지정</span><span class="sxs-lookup"><span data-stu-id="3e743-124">Prioritize incidents</span></span>](incident-queue.md)
-- [<span data-ttu-id="3e743-125">인시던트 조사</span><span class="sxs-lookup"><span data-stu-id="3e743-125">Investigate incidents</span></span>](investigate-incidents.md)
-- [<span data-ttu-id="3e743-126">인시던트 관리</span><span class="sxs-lookup"><span data-stu-id="3e743-126">Manage incidents</span></span>](manage-incidents.md)
+## <a name="see-also"></a><span data-ttu-id="bf82c-123">참고 항목</span><span class="sxs-lookup"><span data-stu-id="bf82c-123">See also</span></span>
+- [<span data-ttu-id="bf82c-124">인시던트 우선 순위 지정</span><span class="sxs-lookup"><span data-stu-id="bf82c-124">Prioritize incidents</span></span>](incident-queue.md)
+- [<span data-ttu-id="bf82c-125">인시던트 조사</span><span class="sxs-lookup"><span data-stu-id="bf82c-125">Investigate incidents</span></span>](investigate-incidents.md)
+- [<span data-ttu-id="bf82c-126">인시던트 관리</span><span class="sxs-lookup"><span data-stu-id="bf82c-126">Manage incidents</span></span>](manage-incidents.md)

@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: ad215b1b5115faaaf82f01488aaf864f4b2de392
-  ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+  ms.openlocfilehash: 2b25d2b290723378f0e7ec286a0928add997ea39
+  ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 10/03/2020
-  ms.locfileid: "48350250"
+  ms.lasthandoff: 10/09/2020
+  ms.locfileid: "48398706"
 highlightedContent:
   items:
   - title: 원격 작업자 권한 부여
@@ -93,7 +93,7 @@ productDirectory:
       text: Microsoft Defender Advanced Threat Protection 배포
     - url: security/office-365-security/office-365-atp.md
       text: Office 365 Advanced Threat Protection 배포
-    - url: enterprise/microsoft-365-policies-configurations.md
+    - url: security/office-365-security/microsoft-365-policies-configurations.md
       text: ID 및 장치 액세스 보호 구성
   - title: 정보 보호 및 규정 준수
     imageSrc: https://docs.microsoft.com/office/media/icons/certificate-blue.svg
@@ -247,9 +247,12 @@ additionalContent:
     - title: 최종 사용자
       summary: support.microsoft.com에서 Microsoft 365 사용자를 위한 교육, 방법 및 도움말 콘텐츠를 찾아보세요.
       url: https://support.microsoft.com/microsoft-365
-    - title: 강사
+    - title: IT 교육
       summary: Microsoft 365 Education으로 창의력을 발휘하고 팀워크를 증진하여 안전하고 간편한 환경을 가져보세요.
       url: /education
+    - title: 강사
+      summary: Microsoft 365 Education을 통해 교사를 위한 교육, 방법 및 도움말 콘텐츠를 찾아보세요.
+      url: https://support.microsoft.com/education
     - title: 기술 커뮤니티
       summary: Microsoft 365 기술 커뮤니티에 참여하여 경험을 공유하고 전문가들로부터 배워보세요.
       url: https://techcommunity.microsoft.com/t5/Microsoft-365/ct-p/microsoft365

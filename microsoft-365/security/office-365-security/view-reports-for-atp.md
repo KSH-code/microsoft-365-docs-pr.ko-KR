@@ -16,300 +16,301 @@ search.appverid:
 ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
+- m365-initiative-defender-office365
 description: 보안 및 준수 센터에서 Office 365 Advanced Threat Protection에 대 한 보고서를 찾아서 사용 &amp; 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f871432f29138acb8bee3a14b9bb161d87193e3
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: c1e1df0d4c1da228da1e09a626dd388d8d7cf7aa
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48351038"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413451"
 ---
-# <a name="view-reports-for-office-365-advanced-threat-protection"></a><span data-ttu-id="08ea5-103">Office 365 Advanced Threat Protection에 대 한 보고서 보기</span><span class="sxs-lookup"><span data-stu-id="08ea5-103">View reports for Office 365 Advanced Threat Protection</span></span>
+# <a name="view-reports-for-office-365-advanced-threat-protection"></a><span data-ttu-id="dcd5a-103">Office 365 Advanced Threat Protection에 대 한 보고서 보기</span><span class="sxs-lookup"><span data-stu-id="dcd5a-103">View reports for Office 365 Advanced Threat Protection</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-<span data-ttu-id="08ea5-104">Office 365 ATP (Advanced Threat Protection) 조직 (예: Microsoft 365 E5 구독 또는 ATP 계획 1 또는 ATP 계획 2 추가 기능)에는 다양 한 보안 관련 보고서가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-104">Office 365 Advanced Threat Protection (ATP) organizations (for example, Microsoft 365 E5 subscriptions or ATP Plan 1 or ATP Plan 2 add-ons) contain a variety of security-related reports.</span></span> <span data-ttu-id="08ea5-105">[필요한 권한이](#what-permissions-are-needed-to-view-the-atp-reports)있는 경우 **보고서** 대시보드로 이동 하 여 보안 & 준수 센터에서 이러한 보고서를 볼 수 있습니다 \> **Dashboard**.</span><span class="sxs-lookup"><span data-stu-id="08ea5-105">If you have the [necessary permissions](#what-permissions-are-needed-to-view-the-atp-reports), you can view these reports in the Security & Compliance Center by going to **Reports** \> **Dashboard**.</span></span> <span data-ttu-id="08ea5-106">보고서 대시보드로 직접 이동 하려면를 엽니다 <https://protection.office.com/insightdashboard> .</span><span class="sxs-lookup"><span data-stu-id="08ea5-106">To go directly to the Reports dashboard, open <https://protection.office.com/insightdashboard>.</span></span>
+<span data-ttu-id="dcd5a-104">Office 365 ATP (Advanced Threat Protection) 조직 (예: Microsoft 365 E5 구독 또는 ATP 계획 1 또는 ATP 계획 2 추가 기능)에는 다양 한 보안 관련 보고서가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-104">Office 365 Advanced Threat Protection (ATP) organizations (for example, Microsoft 365 E5 subscriptions or ATP Plan 1 or ATP Plan 2 add-ons) contain a variety of security-related reports.</span></span> <span data-ttu-id="dcd5a-105">[필요한 권한이](#what-permissions-are-needed-to-view-the-atp-reports)있는 경우 **보고서** 대시보드로 이동 하 여 보안 & 준수 센터에서 이러한 보고서를 볼 수 있습니다 \> **Dashboard**.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-105">If you have the [necessary permissions](#what-permissions-are-needed-to-view-the-atp-reports), you can view these reports in the Security & Compliance Center by going to **Reports** \> **Dashboard**.</span></span> <span data-ttu-id="dcd5a-106">보고서 대시보드로 직접 이동 하려면를 엽니다 <https://protection.office.com/insightdashboard> .</span><span class="sxs-lookup"><span data-stu-id="dcd5a-106">To go directly to the Reports dashboard, open <https://protection.office.com/insightdashboard>.</span></span>
 
 ![보안 & 준수 센터의 보고서 대시보드](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
-## <a name="advanced-threat-protection-file-types-report"></a><span data-ttu-id="08ea5-108">Advanced Threat Protection 유형 보고서</span><span class="sxs-lookup"><span data-stu-id="08ea5-108">Advanced Threat Protection file types report</span></span>
+## <a name="advanced-threat-protection-file-types-report"></a><span data-ttu-id="dcd5a-108">Advanced Threat Protection 유형 보고서</span><span class="sxs-lookup"><span data-stu-id="dcd5a-108">Advanced Threat Protection file types report</span></span>
 
-<span data-ttu-id="08ea5-109">**Advanced Threat Protection 파일 형식 보고서** 보고서에는 [안전한 첨부](atp-safe-attachments.md)파일에서 악의적으로 검색 된 파일 유형이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-109">The **Advanced Threat Protection file types report** report shows you the type of files detected as malicious by [Safe Attachments](atp-safe-attachments.md).</span></span>
+<span data-ttu-id="dcd5a-109">**Advanced Threat Protection 파일 형식 보고서** 보고서에는 [안전한 첨부](atp-safe-attachments.md)파일에서 악의적으로 검색 된 파일 유형이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-109">The **Advanced Threat Protection file types report** report shows you the type of files detected as malicious by [Safe Attachments](atp-safe-attachments.md).</span></span>
 
- <span data-ttu-id="08ea5-110">보고서의 집계 보기에서 90 일의 필터링을 허용 하지만 자세히 보기에는 10 일의 필터링만 허용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-110">The aggregate view of the report allows for 90 days of filtering, while the detail view only allows for 10 days of filtering.</span></span>
+ <span data-ttu-id="dcd5a-110">보고서의 집계 보기에서 90 일의 필터링을 허용 하지만 자세히 보기에는 10 일의 필터링만 허용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-110">The aggregate view of the report allows for 90 days of filtering, while the detail view only allows for 10 days of filtering.</span></span>
 
-<span data-ttu-id="08ea5-111">보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 후 **Office ATP 파일 형식을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-111">To view the report, open the [Security & Compliance Center](https://protection.office.com), go to **Reports** \> **Dashboard** and select **Office ATP file types**.</span></span> <span data-ttu-id="08ea5-112">보고서로 직접 이동 하려면를 엽니다 <https://protection.office.com/reportv2?id=ATPFileReport> .</span><span class="sxs-lookup"><span data-stu-id="08ea5-112">To go directly to the report, open <https://protection.office.com/reportv2?id=ATPFileReport>.</span></span>
+<span data-ttu-id="dcd5a-111">보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 후 **Office ATP 파일 형식을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-111">To view the report, open the [Security & Compliance Center](https://protection.office.com), go to **Reports** \> **Dashboard** and select **Office ATP file types**.</span></span> <span data-ttu-id="dcd5a-112">보고서로 직접 이동 하려면를 엽니다 <https://protection.office.com/reportv2?id=ATPFileReport> .</span><span class="sxs-lookup"><span data-stu-id="dcd5a-112">To go directly to the report, open <https://protection.office.com/reportv2?id=ATPFileReport>.</span></span>
 
 ![보고서 대시보드의 Office ATP 파일 형식 위젯](../../media/atp-file-types-report-widget.png)
 
 > [!NOTE]
-> <span data-ttu-id="08ea5-114">[Advanced Threat Protection 메시지 처리 보고서](#advanced-threat-protection-message-disposition-report)에서도이 보고서의 정보를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-114">The information in this report is also available in the [Advanced Threat Protection message disposition report](#advanced-threat-protection-message-disposition-report).</span></span>
+> <span data-ttu-id="dcd5a-114">[Advanced Threat Protection 메시지 처리 보고서](#advanced-threat-protection-message-disposition-report)에서도이 보고서의 정보를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-114">The information in this report is also available in the [Advanced Threat Protection message disposition report](#advanced-threat-protection-message-disposition-report).</span></span>
 
-### <a name="report-view-for-the-advanced-threat-protection-file-types-report"></a><span data-ttu-id="08ea5-115">Advanced Threat Protection 파일 형식 보고서에 대 한 보고서 보기</span><span class="sxs-lookup"><span data-stu-id="08ea5-115">Report view for the Advanced Threat Protection file types report</span></span>
+### <a name="report-view-for-the-advanced-threat-protection-file-types-report"></a><span data-ttu-id="dcd5a-115">Advanced Threat Protection 파일 형식 보고서에 대 한 보고서 보기</span><span class="sxs-lookup"><span data-stu-id="dcd5a-115">Report view for the Advanced Threat Protection file types report</span></span>
 
-<span data-ttu-id="08ea5-116">다음 보기를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-116">The following views are available:</span></span>
+<span data-ttu-id="dcd5a-116">다음 보기를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-116">The following views are available:</span></span>
 
-- <span data-ttu-id="08ea5-117">**데이터 보기 기준: 파일**: 차트에 다음 정보가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-117">**View data by: File**: The chart contains the following information:</span></span>
+- <span data-ttu-id="dcd5a-117">**데이터 보기 기준: 파일**: 차트에 다음 정보가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-117">**View data by: File**: The chart contains the following information:</span></span>
 
-  - <span data-ttu-id="08ea5-118">**악의 있는 Excel 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="08ea5-118">**Malicious Excel attachments**</span></span>
-  - <span data-ttu-id="08ea5-119">**악의 있는 Flash 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="08ea5-119">**Malicious Flash attachments**</span></span>
-  - <span data-ttu-id="08ea5-120">**악성 PDF 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="08ea5-120">**Malicious PDF attachments**</span></span>
-  - <span data-ttu-id="08ea5-121">**악성 PowerPoint 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="08ea5-121">**Malicious PowerPoint attachments**</span></span>
-  - <span data-ttu-id="08ea5-122">**악성 Url**</span><span class="sxs-lookup"><span data-stu-id="08ea5-122">**Malicious URLs**</span></span>
-  - <span data-ttu-id="08ea5-123">**악의 있는 Word 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="08ea5-123">**Malicious Word attachments**</span></span>
-  - <span data-ttu-id="08ea5-124">**악성 실행 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="08ea5-124">**Malicious executable attachments**</span></span>
-  - <span data-ttu-id="08ea5-125">**상대**</span><span class="sxs-lookup"><span data-stu-id="08ea5-125">**Others**</span></span>
+  - <span data-ttu-id="dcd5a-118">**악의 있는 Excel 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-118">**Malicious Excel attachments**</span></span>
+  - <span data-ttu-id="dcd5a-119">**악의 있는 Flash 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-119">**Malicious Flash attachments**</span></span>
+  - <span data-ttu-id="dcd5a-120">**악성 PDF 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-120">**Malicious PDF attachments**</span></span>
+  - <span data-ttu-id="dcd5a-121">**악성 PowerPoint 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-121">**Malicious PowerPoint attachments**</span></span>
+  - <span data-ttu-id="dcd5a-122">**악성 Url**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-122">**Malicious URLs**</span></span>
+  - <span data-ttu-id="dcd5a-123">**악의 있는 Word 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-123">**Malicious Word attachments**</span></span>
+  - <span data-ttu-id="dcd5a-124">**악성 실행 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-124">**Malicious executable attachments**</span></span>
+  - <span data-ttu-id="dcd5a-125">**상대**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-125">**Others**</span></span>
 
-  <span data-ttu-id="08ea5-126">특정 날짜 (데이터 요소)를 가리키면 [안전한 첨부 파일](atp-safe-attachments.md) 및 [EOP의 맬웨어 방지 보호](anti-malware-protection.md)에서 검색 된 악의적인 파일의 유형을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-126">When you hover over a particular day (data point), you can see the breakdown of types of malicious files that were detected by [Safe Attachments](atp-safe-attachments.md) and [anti-malware protection in EOP](anti-malware-protection.md).</span></span>
+  <span data-ttu-id="dcd5a-126">특정 날짜 (데이터 요소)를 가리키면 [안전한 첨부 파일](atp-safe-attachments.md) 및 [EOP의 맬웨어 방지 보호](anti-malware-protection.md)에서 검색 된 악의적인 파일의 유형을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-126">When you hover over a particular day (data point), you can see the breakdown of types of malicious files that were detected by [Safe Attachments](atp-safe-attachments.md) and [anti-malware protection in EOP](anti-malware-protection.md).</span></span>
 
   ![ATP 파일 형식 보고서의 파일 보기](../../media/atp-file-types-report-file-view.png)
 
-  <span data-ttu-id="08ea5-128">**필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-128">If you click **Filters**, you can modify the report with the following filters:</span></span>
+  <span data-ttu-id="dcd5a-128">**필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-128">If you click **Filters**, you can modify the report with the following filters:</span></span>
 
-  - <span data-ttu-id="08ea5-129">**시작 날짜** 및 **끝 날짜**</span><span class="sxs-lookup"><span data-stu-id="08ea5-129">**Start date** and **End date**</span></span>
-  - <span data-ttu-id="08ea5-130">차트에 표시 되는 것과 동일한 파일 형식 값입니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-130">The same file type values that are visible in the chart.</span></span>
+  - <span data-ttu-id="dcd5a-129">**시작 날짜** 및 **끝 날짜**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-129">**Start date** and **End date**</span></span>
+  - <span data-ttu-id="dcd5a-130">차트에 표시 되는 것과 동일한 파일 형식 값입니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-130">The same file type values that are visible in the chart.</span></span>
 
-- <span data-ttu-id="08ea5-131">**데이터 보기 기준: 메시지**: 차트에 다음 정보가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-131">**View data by: Message**: The chart contains the following information:</span></span>
+- <span data-ttu-id="dcd5a-131">**데이터 보기 기준: 메시지**: 차트에 다음 정보가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-131">**View data by: Message**: The chart contains the following information:</span></span>
 
-  - <span data-ttu-id="08ea5-132">**액세스 차단**</span><span class="sxs-lookup"><span data-stu-id="08ea5-132">**Block access**</span></span>
-  - <span data-ttu-id="08ea5-133">**대체 되는 메시지**</span><span class="sxs-lookup"><span data-stu-id="08ea5-133">**Messages replaced**</span></span>
-  - <span data-ttu-id="08ea5-134">**모니터링 되는 메시지**</span><span class="sxs-lookup"><span data-stu-id="08ea5-134">**Messages monitored**</span></span>
-  - <span data-ttu-id="08ea5-135">**동적 전자 메일 배달으로 교체**됨: 자세한 내용은 [안전한 첨부 파일 정책에서 동적 배달](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="08ea5-135">**Replaced by Dynamic Email Delivery**: For more information, see [Dynamic Delivery in Safe Attachments policies](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies).</span></span>
+  - <span data-ttu-id="dcd5a-132">**액세스 차단**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-132">**Block access**</span></span>
+  - <span data-ttu-id="dcd5a-133">**대체 되는 메시지**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-133">**Messages replaced**</span></span>
+  - <span data-ttu-id="dcd5a-134">**모니터링 되는 메시지**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-134">**Messages monitored**</span></span>
+  - <span data-ttu-id="dcd5a-135">**동적 전자 메일 배달으로 교체**됨: 자세한 내용은 [안전한 첨부 파일 정책에서 동적 배달](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-135">**Replaced by Dynamic Email Delivery**: For more information, see [Dynamic Delivery in Safe Attachments policies](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies).</span></span>
 
   ![ATP 파일 형식 보고서의 메시지 보기](../../media/atp-file-types-report-message-view.png)
 
-  <span data-ttu-id="08ea5-137">**필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-137">If you click **Filters**, you can modify the report with the following filters:</span></span>
+  <span data-ttu-id="dcd5a-137">**필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-137">If you click **Filters**, you can modify the report with the following filters:</span></span>
 
-  - <span data-ttu-id="08ea5-138">**시작 날짜** 및 **끝 날짜**</span><span class="sxs-lookup"><span data-stu-id="08ea5-138">**Start date** and **End date**</span></span>
-  - <span data-ttu-id="08ea5-139">차트에서 사용할 수 있는 메시지 처리 값과 전송 값이 추가 된 **메시지** 입니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-139">The same message disposition values that are available in the chart, and the additional **Messages passed** value.</span></span>
+  - <span data-ttu-id="dcd5a-138">**시작 날짜** 및 **끝 날짜**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-138">**Start date** and **End date**</span></span>
+  - <span data-ttu-id="dcd5a-139">차트에서 사용할 수 있는 메시지 처리 값과 전송 값이 추가 된 **메시지** 입니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-139">The same message disposition values that are available in the chart, and the additional **Messages passed** value.</span></span>
 
-### <a name="details-table-view-for-the-advanced-threat-protection-file-types-report"></a><span data-ttu-id="08ea5-140">Advanced Threat Protection 파일 형식 보고서에 대 한 세부 정보 표 보기</span><span class="sxs-lookup"><span data-stu-id="08ea5-140">Details table view for the Advanced Threat Protection file types report</span></span>
+### <a name="details-table-view-for-the-advanced-threat-protection-file-types-report"></a><span data-ttu-id="dcd5a-140">Advanced Threat Protection 파일 형식 보고서에 대 한 세부 정보 표 보기</span><span class="sxs-lookup"><span data-stu-id="dcd5a-140">Details table view for the Advanced Threat Protection file types report</span></span>
 
-<span data-ttu-id="08ea5-141">**세부 정보 테이블 보기**를 클릭 하면 보고서에 지난 10 일 동안 조직 내에서 발생 하는 모든 클릭의 거의 실시간 보기가 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-141">If you click **View details table**, the report provides a near-real-time view of all clicks that happen within the organization for the last 10 days.</span></span> <span data-ttu-id="08ea5-142">표시 되는 정보는 현재 보고 있는 차트에 따라 다릅니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-142">The information that's shown depends on the chart you were looking at:</span></span>
+<span data-ttu-id="dcd5a-141">**세부 정보 테이블 보기**를 클릭 하면 보고서에 지난 10 일 동안 조직 내에서 발생 하는 모든 클릭의 거의 실시간 보기가 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-141">If you click **View details table**, the report provides a near-real-time view of all clicks that happen within the organization for the last 10 days.</span></span> <span data-ttu-id="dcd5a-142">표시 되는 정보는 현재 보고 있는 차트에 따라 다릅니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-142">The information that's shown depends on the chart you were looking at:</span></span>
 
-- <span data-ttu-id="08ea5-143">**데이터 보기 기준: 파일**:</span><span class="sxs-lookup"><span data-stu-id="08ea5-143">**View data by: File**:</span></span>
+- <span data-ttu-id="dcd5a-143">**데이터 보기 기준: 파일**:</span><span class="sxs-lookup"><span data-stu-id="dcd5a-143">**View data by: File**:</span></span>
 
-  - <span data-ttu-id="08ea5-144">**날짜**</span><span class="sxs-lookup"><span data-stu-id="08ea5-144">**Date**</span></span>
-  - <span data-ttu-id="08ea5-145">**받는 사람 주소**</span><span class="sxs-lookup"><span data-stu-id="08ea5-145">**Recipient address**</span></span>
-  - <span data-ttu-id="08ea5-146">**보낸 사람 주소**</span><span class="sxs-lookup"><span data-stu-id="08ea5-146">**Sender address**</span></span>
-  - <span data-ttu-id="08ea5-147">**메시지 id**: 메시지 헤더의 **메시지 id** 헤더 필드에서 사용할 수 있으며 고유 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-147">**Message ID**: Available in the **Message-ID** header field in the message header and should be unique.</span></span> <span data-ttu-id="08ea5-148">예를 들면 `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` 꺾쇠 괄호를 참고 하십시오.</span><span class="sxs-lookup"><span data-stu-id="08ea5-148">An example value is `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (note the angle brackets).</span></span>
-  - <span data-ttu-id="08ea5-149">**파일**</span><span class="sxs-lookup"><span data-stu-id="08ea5-149">**File**</span></span>
+  - <span data-ttu-id="dcd5a-144">**날짜**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-144">**Date**</span></span>
+  - <span data-ttu-id="dcd5a-145">**받는 사람 주소**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-145">**Recipient address**</span></span>
+  - <span data-ttu-id="dcd5a-146">**보낸 사람 주소**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-146">**Sender address**</span></span>
+  - <span data-ttu-id="dcd5a-147">**메시지 id**: 메시지 헤더의 **메시지 id** 헤더 필드에서 사용할 수 있으며 고유 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-147">**Message ID**: Available in the **Message-ID** header field in the message header and should be unique.</span></span> <span data-ttu-id="dcd5a-148">예를 들면 `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` 꺾쇠 괄호를 참고 하십시오.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-148">An example value is `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (note the angle brackets).</span></span>
+  - <span data-ttu-id="dcd5a-149">**파일**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-149">**File**</span></span>
 
-  <span data-ttu-id="08ea5-150">**필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-150">If you click **Filters**, you can modify the report with the following filters:</span></span>
+  <span data-ttu-id="dcd5a-150">**필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-150">If you click **Filters**, you can modify the report with the following filters:</span></span>
 
-  - <span data-ttu-id="08ea5-151">**시작 날짜** 및 **끝 날짜**</span><span class="sxs-lookup"><span data-stu-id="08ea5-151">**Start date** and **End date**</span></span>
-  - <span data-ttu-id="08ea5-152">차트에 표시 되는 것과 동일한 파일 형식 값입니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-152">The same file type values that are visible in the chart.</span></span>
+  - <span data-ttu-id="dcd5a-151">**시작 날짜** 및 **끝 날짜**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-151">**Start date** and **End date**</span></span>
+  - <span data-ttu-id="dcd5a-152">차트에 표시 되는 것과 동일한 파일 형식 값입니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-152">The same file type values that are visible in the chart.</span></span>
 
-- <span data-ttu-id="08ea5-153">**데이터 보기 기준: 메시지**:</span><span class="sxs-lookup"><span data-stu-id="08ea5-153">**View data by: Message**:</span></span>
+- <span data-ttu-id="dcd5a-153">**데이터 보기 기준: 메시지**:</span><span class="sxs-lookup"><span data-stu-id="dcd5a-153">**View data by: Message**:</span></span>
 
-  - <span data-ttu-id="08ea5-154">**날짜**</span><span class="sxs-lookup"><span data-stu-id="08ea5-154">**Date**</span></span>
-  - <span data-ttu-id="08ea5-155">**받는 사람 주소**</span><span class="sxs-lookup"><span data-stu-id="08ea5-155">**Recipient address**</span></span>
-  - <span data-ttu-id="08ea5-156">**보낸 사람 주소**</span><span class="sxs-lookup"><span data-stu-id="08ea5-156">**Sender address**</span></span>
-  - <span data-ttu-id="08ea5-157">**메시지 ID**</span><span class="sxs-lookup"><span data-stu-id="08ea5-157">**Message ID**</span></span>
-  - <span data-ttu-id="08ea5-158">**파일**</span><span class="sxs-lookup"><span data-stu-id="08ea5-158">**File**</span></span>
-  - <span data-ttu-id="08ea5-159">**제목**</span><span class="sxs-lookup"><span data-stu-id="08ea5-159">**Subject**</span></span>
+  - <span data-ttu-id="dcd5a-154">**날짜**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-154">**Date**</span></span>
+  - <span data-ttu-id="dcd5a-155">**받는 사람 주소**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-155">**Recipient address**</span></span>
+  - <span data-ttu-id="dcd5a-156">**보낸 사람 주소**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-156">**Sender address**</span></span>
+  - <span data-ttu-id="dcd5a-157">**메시지 ID**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-157">**Message ID**</span></span>
+  - <span data-ttu-id="dcd5a-158">**파일**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-158">**File**</span></span>
+  - <span data-ttu-id="dcd5a-159">**제목**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-159">**Subject**</span></span>
 
-  <span data-ttu-id="08ea5-160">**필터**를 클릭 하면 다음 필터를 사용 하 여 결과를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-160">If you click **Filters**, you can modify the results with the following filters:</span></span>
+  <span data-ttu-id="dcd5a-160">**필터**를 클릭 하면 다음 필터를 사용 하 여 결과를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-160">If you click **Filters**, you can modify the results with the following filters:</span></span>
 
-  - <span data-ttu-id="08ea5-161">**시작 날짜** 및 **끝 날짜**</span><span class="sxs-lookup"><span data-stu-id="08ea5-161">**Start date** and **End date**</span></span>
-  - <span data-ttu-id="08ea5-162">차트에서 사용할 수 있는 메시지 처리 값과 전송 값이 추가 된 **메시지** 입니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-162">The same message disposition values that are available in the chart, and the additional **Messages passed** value.</span></span>
+  - <span data-ttu-id="dcd5a-161">**시작 날짜** 및 **끝 날짜**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-161">**Start date** and **End date**</span></span>
+  - <span data-ttu-id="dcd5a-162">차트에서 사용할 수 있는 메시지 처리 값과 전송 값이 추가 된 **메시지** 입니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-162">The same message disposition values that are available in the chart, and the additional **Messages passed** value.</span></span>
 
-<span data-ttu-id="08ea5-163">보고서 보기로 돌아가려면 **보고서 보기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-163">To get back to the reports view, click **View report**.</span></span>
+<span data-ttu-id="dcd5a-163">보고서 보기로 돌아가려면 **보고서 보기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-163">To get back to the reports view, click **View report**.</span></span>
 
-## <a name="advanced-threat-protection-message-disposition-report"></a><span data-ttu-id="08ea5-164">Advanced Threat Protection 메시지 폐기 보고서</span><span class="sxs-lookup"><span data-stu-id="08ea5-164">Advanced Threat Protection message disposition report</span></span>
+## <a name="advanced-threat-protection-message-disposition-report"></a><span data-ttu-id="dcd5a-164">Advanced Threat Protection 메시지 폐기 보고서</span><span class="sxs-lookup"><span data-stu-id="dcd5a-164">Advanced Threat Protection message disposition report</span></span>
 
-<span data-ttu-id="08ea5-165">**ATP 메시지 처리** 보고서에는 악성 콘텐츠가 있는 것으로 검색 된 전자 메일 메시지에 대해 수행 된 작업이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-165">The **ATP Message Disposition** report shows you the actions that were taken for email messages that were detected as having malicious content.</span></span>
+<span data-ttu-id="dcd5a-165">**ATP 메시지 처리** 보고서에는 악성 콘텐츠가 있는 것으로 검색 된 전자 메일 메시지에 대해 수행 된 작업이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-165">The **ATP Message Disposition** report shows you the actions that were taken for email messages that were detected as having malicious content.</span></span>
 
-<span data-ttu-id="08ea5-166">보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 후 **Office ATP 메시지 처리**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-166">To view the report, open the [Security & Compliance Center](https://protection.office.com), go to **Reports** \> **Dashboard** and select **Office ATP message disposition**.</span></span> <span data-ttu-id="08ea5-167">보고서로 직접 이동 하려면를 엽니다 <https://protection.office.com/reportv2?id=ATPMessageReport> .</span><span class="sxs-lookup"><span data-stu-id="08ea5-167">To go directly to the report, open <https://protection.office.com/reportv2?id=ATPMessageReport>.</span></span>
+<span data-ttu-id="dcd5a-166">보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 후 **Office ATP 메시지 처리**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-166">To view the report, open the [Security & Compliance Center](https://protection.office.com), go to **Reports** \> **Dashboard** and select **Office ATP message disposition**.</span></span> <span data-ttu-id="dcd5a-167">보고서로 직접 이동 하려면를 엽니다 <https://protection.office.com/reportv2?id=ATPMessageReport> .</span><span class="sxs-lookup"><span data-stu-id="dcd5a-167">To go directly to the report, open <https://protection.office.com/reportv2?id=ATPMessageReport>.</span></span>
 
 ![보고서 대시보드의 Office 365 ATP 메시지 처리 위젯](../../media/atp-message-disposition-report-widget.png)
 
 > [!NOTE]
-> <span data-ttu-id="08ea5-169">[Advanced Threat Protection 파일 형식 보고서](#advanced-threat-protection-file-types-report)에서도이 보고서의 정보를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-169">The information in this report is also available in the [Advanced Threat Protection file types report](#advanced-threat-protection-file-types-report).</span></span>
+> <span data-ttu-id="dcd5a-169">[Advanced Threat Protection 파일 형식 보고서](#advanced-threat-protection-file-types-report)에서도이 보고서의 정보를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-169">The information in this report is also available in the [Advanced Threat Protection file types report](#advanced-threat-protection-file-types-report).</span></span>
 
-### <a name="report-view-for-the-advanced-threat-protection-message-disposition-report"></a><span data-ttu-id="08ea5-170">Advanced Threat Protection 메시지 처리 보고서에 대 한 보고서 보기</span><span class="sxs-lookup"><span data-stu-id="08ea5-170">Report view for the Advanced Threat Protection message disposition report</span></span>
+### <a name="report-view-for-the-advanced-threat-protection-message-disposition-report"></a><span data-ttu-id="dcd5a-170">Advanced Threat Protection 메시지 처리 보고서에 대 한 보고서 보기</span><span class="sxs-lookup"><span data-stu-id="dcd5a-170">Report view for the Advanced Threat Protection message disposition report</span></span>
 
-<span data-ttu-id="08ea5-171">다음 보기를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-171">The following views are available:</span></span>
+<span data-ttu-id="dcd5a-171">다음 보기를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-171">The following views are available:</span></span>
 
-- <span data-ttu-id="08ea5-172">**데이터 보기 기준: 메시지**: 차트에 다음 정보가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-172">**View data by: Message**: The chart contains the following information:</span></span>
+- <span data-ttu-id="dcd5a-172">**데이터 보기 기준: 메시지**: 차트에 다음 정보가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-172">**View data by: Message**: The chart contains the following information:</span></span>
 
-  - <span data-ttu-id="08ea5-173">**액세스 차단**</span><span class="sxs-lookup"><span data-stu-id="08ea5-173">**Block access**</span></span>
-  - <span data-ttu-id="08ea5-174">**대체 되는 메시지**</span><span class="sxs-lookup"><span data-stu-id="08ea5-174">**Messages replaced**</span></span>
-  - <span data-ttu-id="08ea5-175">**모니터링 되는 메시지**</span><span class="sxs-lookup"><span data-stu-id="08ea5-175">**Messages monitored**</span></span>
-  - <span data-ttu-id="08ea5-176">**동적 전자 메일 배달으로 교체**됨: 자세한 내용은 [안전한 첨부 파일 정책에서 동적 배달](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="08ea5-176">**Replaced by Dynamic Email Delivery**: For more information, see [Dynamic Delivery in Safe Attachments policies](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies).</span></span>
+  - <span data-ttu-id="dcd5a-173">**액세스 차단**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-173">**Block access**</span></span>
+  - <span data-ttu-id="dcd5a-174">**대체 되는 메시지**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-174">**Messages replaced**</span></span>
+  - <span data-ttu-id="dcd5a-175">**모니터링 되는 메시지**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-175">**Messages monitored**</span></span>
+  - <span data-ttu-id="dcd5a-176">**동적 전자 메일 배달으로 교체**됨: 자세한 내용은 [안전한 첨부 파일 정책에서 동적 배달](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-176">**Replaced by Dynamic Email Delivery**: For more information, see [Dynamic Delivery in Safe Attachments policies](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies).</span></span>
 
   ![ATP 파일 형식 보고서의 메시지 보기](../../media/atp-file-types-report-message-view.png)
 
-  <span data-ttu-id="08ea5-178">**필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-178">If you click **Filters**, you can modify the report with the following filters:</span></span>
+  <span data-ttu-id="dcd5a-178">**필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-178">If you click **Filters**, you can modify the report with the following filters:</span></span>
 
-  - <span data-ttu-id="08ea5-179">**시작 날짜** 및 **끝 날짜**</span><span class="sxs-lookup"><span data-stu-id="08ea5-179">**Start date** and **End date**</span></span>
-  - <span data-ttu-id="08ea5-180">차트에서 사용할 수 있는 메시지 처리 값과 전송 값이 추가 된 **메시지** 입니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-180">The same message disposition values that are available in the chart, and the additional **Messages passed** value.</span></span>
+  - <span data-ttu-id="dcd5a-179">**시작 날짜** 및 **끝 날짜**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-179">**Start date** and **End date**</span></span>
+  - <span data-ttu-id="dcd5a-180">차트에서 사용할 수 있는 메시지 처리 값과 전송 값이 추가 된 **메시지** 입니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-180">The same message disposition values that are available in the chart, and the additional **Messages passed** value.</span></span>
 
-- <span data-ttu-id="08ea5-181">**데이터 보기 기준: 파일**: 차트에 다음 정보가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-181">**View data by: File**: The chart contains the following information:</span></span>
+- <span data-ttu-id="dcd5a-181">**데이터 보기 기준: 파일**: 차트에 다음 정보가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-181">**View data by: File**: The chart contains the following information:</span></span>
 
-  - <span data-ttu-id="08ea5-182">**악의 있는 Excel 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="08ea5-182">**Malicious Excel attachments**</span></span>
-  - <span data-ttu-id="08ea5-183">**악의 있는 Flash 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="08ea5-183">**Malicious Flash attachments**</span></span>
-  - <span data-ttu-id="08ea5-184">**악성 PDF 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="08ea5-184">**Malicious PDF attachments**</span></span>
-  - <span data-ttu-id="08ea5-185">**악성 PowerPoint 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="08ea5-185">**Malicious PowerPoint attachments**</span></span>
-  - <span data-ttu-id="08ea5-186">**악성 Url**</span><span class="sxs-lookup"><span data-stu-id="08ea5-186">**Malicious URLs**</span></span>
-  - <span data-ttu-id="08ea5-187">**악의 있는 Word 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="08ea5-187">**Malicious Word attachments**</span></span>
-  - <span data-ttu-id="08ea5-188">**악성 실행 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="08ea5-188">**Malicious executable attachments**</span></span>
-  - <span data-ttu-id="08ea5-189">**상대**</span><span class="sxs-lookup"><span data-stu-id="08ea5-189">**Others**</span></span>
+  - <span data-ttu-id="dcd5a-182">**악의 있는 Excel 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-182">**Malicious Excel attachments**</span></span>
+  - <span data-ttu-id="dcd5a-183">**악의 있는 Flash 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-183">**Malicious Flash attachments**</span></span>
+  - <span data-ttu-id="dcd5a-184">**악성 PDF 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-184">**Malicious PDF attachments**</span></span>
+  - <span data-ttu-id="dcd5a-185">**악성 PowerPoint 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-185">**Malicious PowerPoint attachments**</span></span>
+  - <span data-ttu-id="dcd5a-186">**악성 Url**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-186">**Malicious URLs**</span></span>
+  - <span data-ttu-id="dcd5a-187">**악의 있는 Word 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-187">**Malicious Word attachments**</span></span>
+  - <span data-ttu-id="dcd5a-188">**악성 실행 첨부 파일**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-188">**Malicious executable attachments**</span></span>
+  - <span data-ttu-id="dcd5a-189">**상대**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-189">**Others**</span></span>
 
-  <span data-ttu-id="08ea5-190">특정 날짜 (데이터 요소)를 가리키면 [안전한 첨부 파일](atp-safe-attachments.md) 및 [EOP의 맬웨어 방지 보호](anti-malware-protection.md)에서 검색 된 악의적인 파일의 유형을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-190">When you hover over a particular day (data point), you can see the breakdown of types of malicious files that were detected by [Safe Attachments](atp-safe-attachments.md) and [anti-malware protection in EOP](anti-malware-protection.md).</span></span>
+  <span data-ttu-id="dcd5a-190">특정 날짜 (데이터 요소)를 가리키면 [안전한 첨부 파일](atp-safe-attachments.md) 및 [EOP의 맬웨어 방지 보호](anti-malware-protection.md)에서 검색 된 악의적인 파일의 유형을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-190">When you hover over a particular day (data point), you can see the breakdown of types of malicious files that were detected by [Safe Attachments](atp-safe-attachments.md) and [anti-malware protection in EOP](anti-malware-protection.md).</span></span>
 
   ![ATP 파일 형식 보고서의 파일 보기](../../media/atp-file-types-report-file-view.png)
 
-  <span data-ttu-id="08ea5-192">**필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-192">If you click **Filters**, you can modify the report with the following filters:</span></span>
+  <span data-ttu-id="dcd5a-192">**필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-192">If you click **Filters**, you can modify the report with the following filters:</span></span>
 
-  - <span data-ttu-id="08ea5-193">**시작 날짜** 및 **끝 날짜**</span><span class="sxs-lookup"><span data-stu-id="08ea5-193">**Start date** and **End date**</span></span>
-  - <span data-ttu-id="08ea5-194">차트에 표시 되는 것과 동일한 파일 형식 값입니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-194">The same file type values that are visible in the chart.</span></span>
+  - <span data-ttu-id="dcd5a-193">**시작 날짜** 및 **끝 날짜**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-193">**Start date** and **End date**</span></span>
+  - <span data-ttu-id="dcd5a-194">차트에 표시 되는 것과 동일한 파일 형식 값입니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-194">The same file type values that are visible in the chart.</span></span>
 
-### <a name="details-table-view-for-the-advanced-threat-protection-message-disposition-report"></a><span data-ttu-id="08ea5-195">Advanced Threat Protection 메시지 처리 보고서에 대 한 세부 정보 표 보기</span><span class="sxs-lookup"><span data-stu-id="08ea5-195">Details table view for the Advanced Threat Protection message disposition report</span></span>
+### <a name="details-table-view-for-the-advanced-threat-protection-message-disposition-report"></a><span data-ttu-id="dcd5a-195">Advanced Threat Protection 메시지 처리 보고서에 대 한 세부 정보 표 보기</span><span class="sxs-lookup"><span data-stu-id="dcd5a-195">Details table view for the Advanced Threat Protection message disposition report</span></span>
 
-<span data-ttu-id="08ea5-196">**세부 정보 테이블 보기**를 클릭 하면 보고서에 지난 10 일 동안 조직 내에서 발생 하는 모든 클릭의 거의 실시간 보기가 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-196">If you click **View details table**, the report provides a near-real-time view of all clicks that happen within the organization for the last 10 days.</span></span> <span data-ttu-id="08ea5-197">표시 되는 정보는 현재 보고 있는 차트에 따라 다릅니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-197">The information that's shown depends on the chart you were looking at:</span></span>
+<span data-ttu-id="dcd5a-196">**세부 정보 테이블 보기**를 클릭 하면 보고서에 지난 10 일 동안 조직 내에서 발생 하는 모든 클릭의 거의 실시간 보기가 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-196">If you click **View details table**, the report provides a near-real-time view of all clicks that happen within the organization for the last 10 days.</span></span> <span data-ttu-id="dcd5a-197">표시 되는 정보는 현재 보고 있는 차트에 따라 다릅니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-197">The information that's shown depends on the chart you were looking at:</span></span>
 
-- <span data-ttu-id="08ea5-198">**데이터 보기 기준: 메시지**:</span><span class="sxs-lookup"><span data-stu-id="08ea5-198">**View data by: Message**:</span></span>
+- <span data-ttu-id="dcd5a-198">**데이터 보기 기준: 메시지**:</span><span class="sxs-lookup"><span data-stu-id="dcd5a-198">**View data by: Message**:</span></span>
 
-  - <span data-ttu-id="08ea5-199">**날짜**</span><span class="sxs-lookup"><span data-stu-id="08ea5-199">**Date**</span></span>
-  - <span data-ttu-id="08ea5-200">**받는 사람 주소**</span><span class="sxs-lookup"><span data-stu-id="08ea5-200">**Recipient address**</span></span>
-  - <span data-ttu-id="08ea5-201">**보낸 사람 주소**</span><span class="sxs-lookup"><span data-stu-id="08ea5-201">**Sender address**</span></span>
-  - <span data-ttu-id="08ea5-202">**메시지 ID**</span><span class="sxs-lookup"><span data-stu-id="08ea5-202">**Message ID**</span></span>
-  - <span data-ttu-id="08ea5-203">**파일**</span><span class="sxs-lookup"><span data-stu-id="08ea5-203">**File**</span></span>
-  - <span data-ttu-id="08ea5-204">**제목**</span><span class="sxs-lookup"><span data-stu-id="08ea5-204">**Subject**</span></span>
+  - <span data-ttu-id="dcd5a-199">**날짜**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-199">**Date**</span></span>
+  - <span data-ttu-id="dcd5a-200">**받는 사람 주소**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-200">**Recipient address**</span></span>
+  - <span data-ttu-id="dcd5a-201">**보낸 사람 주소**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-201">**Sender address**</span></span>
+  - <span data-ttu-id="dcd5a-202">**메시지 ID**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-202">**Message ID**</span></span>
+  - <span data-ttu-id="dcd5a-203">**파일**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-203">**File**</span></span>
+  - <span data-ttu-id="dcd5a-204">**제목**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-204">**Subject**</span></span>
 
-  <span data-ttu-id="08ea5-205">**필터**를 클릭 하면 다음 필터를 사용 하 여 결과를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-205">If you click **Filters**, you can modify the results with the following filters:</span></span>
+  <span data-ttu-id="dcd5a-205">**필터**를 클릭 하면 다음 필터를 사용 하 여 결과를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-205">If you click **Filters**, you can modify the results with the following filters:</span></span>
 
-  - <span data-ttu-id="08ea5-206">**시작 날짜** 및 **끝 날짜**</span><span class="sxs-lookup"><span data-stu-id="08ea5-206">**Start date** and **End date**</span></span>
-  - <span data-ttu-id="08ea5-207">차트에서 사용할 수 있는 메시지 처리 값과 전송 값이 추가 된 **메시지** 입니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-207">The same message disposition values that are available in the chart, and the additional **Messages passed** value.</span></span>
+  - <span data-ttu-id="dcd5a-206">**시작 날짜** 및 **끝 날짜**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-206">**Start date** and **End date**</span></span>
+  - <span data-ttu-id="dcd5a-207">차트에서 사용할 수 있는 메시지 처리 값과 전송 값이 추가 된 **메시지** 입니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-207">The same message disposition values that are available in the chart, and the additional **Messages passed** value.</span></span>
 
-- <span data-ttu-id="08ea5-208">**데이터 보기 기준: 파일**:</span><span class="sxs-lookup"><span data-stu-id="08ea5-208">**View data by: File**:</span></span>
+- <span data-ttu-id="dcd5a-208">**데이터 보기 기준: 파일**:</span><span class="sxs-lookup"><span data-stu-id="dcd5a-208">**View data by: File**:</span></span>
 
-  - <span data-ttu-id="08ea5-209">**날짜**</span><span class="sxs-lookup"><span data-stu-id="08ea5-209">**Date**</span></span>
-  - <span data-ttu-id="08ea5-210">**받는 사람 주소**</span><span class="sxs-lookup"><span data-stu-id="08ea5-210">**Recipient address**</span></span>
-  - <span data-ttu-id="08ea5-211">**보낸 사람 주소**</span><span class="sxs-lookup"><span data-stu-id="08ea5-211">**Sender address**</span></span>
-  - <span data-ttu-id="08ea5-212">**메시지 ID**</span><span class="sxs-lookup"><span data-stu-id="08ea5-212">**Message ID**</span></span>
-  - <span data-ttu-id="08ea5-213">**파일**</span><span class="sxs-lookup"><span data-stu-id="08ea5-213">**File**</span></span>
+  - <span data-ttu-id="dcd5a-209">**날짜**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-209">**Date**</span></span>
+  - <span data-ttu-id="dcd5a-210">**받는 사람 주소**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-210">**Recipient address**</span></span>
+  - <span data-ttu-id="dcd5a-211">**보낸 사람 주소**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-211">**Sender address**</span></span>
+  - <span data-ttu-id="dcd5a-212">**메시지 ID**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-212">**Message ID**</span></span>
+  - <span data-ttu-id="dcd5a-213">**파일**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-213">**File**</span></span>
 
-  <span data-ttu-id="08ea5-214">**필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-214">If you click **Filters**, you can modify the report with the following filters:</span></span>
+  <span data-ttu-id="dcd5a-214">**필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-214">If you click **Filters**, you can modify the report with the following filters:</span></span>
 
-  - <span data-ttu-id="08ea5-215">**시작 날짜** 및 **끝 날짜**</span><span class="sxs-lookup"><span data-stu-id="08ea5-215">**Start date** and **End date**</span></span>
-  - <span data-ttu-id="08ea5-216">차트에 표시 되는 것과 동일한 파일 형식 값입니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-216">The same file type values that are visible in the chart.</span></span>
+  - <span data-ttu-id="dcd5a-215">**시작 날짜** 및 **끝 날짜**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-215">**Start date** and **End date**</span></span>
+  - <span data-ttu-id="dcd5a-216">차트에 표시 되는 것과 동일한 파일 형식 값입니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-216">The same file type values that are visible in the chart.</span></span>
 
-<span data-ttu-id="08ea5-217">보고서 보기로 돌아가려면 **보고서 보기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-217">To get back to the reports view, click **View report**.</span></span>
+<span data-ttu-id="dcd5a-217">보고서 보기로 돌아가려면 **보고서 보기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-217">To get back to the reports view, click **View report**.</span></span>
 
-## <a name="threat-protection-status-report"></a><span data-ttu-id="08ea5-218">위협 방지 상태 보고서</span><span class="sxs-lookup"><span data-stu-id="08ea5-218">Threat protection status report</span></span>
+## <a name="threat-protection-status-report"></a><span data-ttu-id="dcd5a-218">위협 방지 상태 보고서</span><span class="sxs-lookup"><span data-stu-id="dcd5a-218">Threat protection status report</span></span>
 
-<span data-ttu-id="08ea5-219">**위협 방지 상태** 보고서는 EOP ( [Exchange Online Protection](exchange-online-protection-overview.md) ) 및 Office 365 ATP에 의해 감지 되어 차단 된 악의적인 콘텐츠와 악성 전자 메일에 대 한 정보를 함께 가져오는 단일 보기입니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-219">The **Threat protection status** report is a single view that brings together information about malicious content and malicious email detected and blocked by [Exchange Online Protection](exchange-online-protection-overview.md) (EOP) and Office 365 ATP.</span></span> <span data-ttu-id="08ea5-220">자세한 내용은 [Threat protection 상태 보고서](view-email-security-reports.md#threat-protection-status-report)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="08ea5-220">For more information, see [Threat protection status report](view-email-security-reports.md#threat-protection-status-report).</span></span>
+<span data-ttu-id="dcd5a-219">**위협 방지 상태** 보고서는 EOP ( [Exchange Online Protection](exchange-online-protection-overview.md) ) 및 Office 365 ATP에 의해 감지 되어 차단 된 악의적인 콘텐츠와 악성 전자 메일에 대 한 정보를 함께 가져오는 단일 보기입니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-219">The **Threat protection status** report is a single view that brings together information about malicious content and malicious email detected and blocked by [Exchange Online Protection](exchange-online-protection-overview.md) (EOP) and Office 365 ATP.</span></span> <span data-ttu-id="dcd5a-220">자세한 내용은 [Threat protection 상태 보고서](view-email-security-reports.md#threat-protection-status-report)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-220">For more information, see [Threat protection status report](view-email-security-reports.md#threat-protection-status-report).</span></span>
 
-## <a name="url-threat-protection-report"></a><span data-ttu-id="08ea5-221">URL 위협 방지 보고서</span><span class="sxs-lookup"><span data-stu-id="08ea5-221">URL threat protection report</span></span>
+## <a name="url-threat-protection-report"></a><span data-ttu-id="dcd5a-221">URL 위협 방지 보고서</span><span class="sxs-lookup"><span data-stu-id="dcd5a-221">URL threat protection report</span></span>
 
-<span data-ttu-id="08ea5-222">**Url threat protection 보고서** 는 검색 되는 위협에 대 한 요약 및 추세 보기와 URL 클릭 시 [안전한 링크](atp-safe-links.md)의 일부로 수행 된 작업을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-222">The **URL threat protection report** provides summary and trend views for threats detected and actions taken on URL clicks as part of [Safe Links](atp-safe-links.md).</span></span> <span data-ttu-id="08ea5-223">이 보고서는 적용 된 안전한 링크 정책이 사용자의 클릭으로 **추적 하지 않음** 옵션을 선택한 경우에는 사용자의 데이터를 클릭할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-223">This report will not have click data from users where the Safe Links policy applied has the **Do not track user clicks** option selected.</span></span>
+<span data-ttu-id="dcd5a-222">**Url threat protection 보고서** 는 검색 되는 위협에 대 한 요약 및 추세 보기와 URL 클릭 시 [안전한 링크](atp-safe-links.md)의 일부로 수행 된 작업을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-222">The **URL threat protection report** provides summary and trend views for threats detected and actions taken on URL clicks as part of [Safe Links](atp-safe-links.md).</span></span> <span data-ttu-id="dcd5a-223">이 보고서는 적용 된 안전한 링크 정책이 사용자의 클릭으로 **추적 하지 않음** 옵션을 선택한 경우에는 사용자의 데이터를 클릭할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-223">This report will not have click data from users where the Safe Links policy applied has the **Do not track user clicks** option selected.</span></span>
 
-<span data-ttu-id="08ea5-224">보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 후 **URL 보호 보고서**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-224">To view the report, open the [Security & Compliance Center](https://protection.office.com), go to **Reports** \> **Dashboard** and select **URL protection report**.</span></span> <span data-ttu-id="08ea5-225">보고서로 직접 이동 하려면를 엽니다 <https://protection.office.com/reportv2?id=URLProtectionActionReport> .</span><span class="sxs-lookup"><span data-stu-id="08ea5-225">To go directly to the report, open <https://protection.office.com/reportv2?id=URLProtectionActionReport>.</span></span>
+<span data-ttu-id="dcd5a-224">보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 후 **URL 보호 보고서**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-224">To view the report, open the [Security & Compliance Center](https://protection.office.com), go to **Reports** \> **Dashboard** and select **URL protection report**.</span></span> <span data-ttu-id="dcd5a-225">보고서로 직접 이동 하려면를 엽니다 <https://protection.office.com/reportv2?id=URLProtectionActionReport> .</span><span class="sxs-lookup"><span data-stu-id="dcd5a-225">To go directly to the report, open <https://protection.office.com/reportv2?id=URLProtectionActionReport>.</span></span>
 
 ![보고서 대시보드의 URL 보호 보고서 위젯](../../media/url-protection-report-widget.png)
 
 > [!NOTE]
-> <span data-ttu-id="08ea5-227">이는 *보호 추세 보고서*로, 데이터가 더 큰 데이터 집합의 추세를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-227">This is a *protection trend report*, meaning data represents trends in a larger dataset.</span></span> <span data-ttu-id="08ea5-228">따라서 집계 보기의 데이터는 실시간으로 사용할 수 없지만 세부 정보 표 보기의 데이터는 두 보기 간에 약간의 차이가 있을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-228">As a result, the data in the aggregate view is not available in real time here, but the data in the details table view is, so you may see a slight discrepancy between the two views.</span></span>
+> <span data-ttu-id="dcd5a-227">이는 *보호 추세 보고서*로, 데이터가 더 큰 데이터 집합의 추세를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-227">This is a *protection trend report*, meaning data represents trends in a larger dataset.</span></span> <span data-ttu-id="dcd5a-228">따라서 집계 보기의 데이터는 실시간으로 사용할 수 없지만 세부 정보 표 보기의 데이터는 두 보기 간에 약간의 차이가 있을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-228">As a result, the data in the aggregate view is not available in real time here, but the data in the details table view is, so you may see a slight discrepancy between the two views.</span></span>
 
-### <a name="report-view-for-the-url-threat-protection-report"></a><span data-ttu-id="08ea5-229">URL 위협 방지 보고서에 대 한 보고서 보기</span><span class="sxs-lookup"><span data-stu-id="08ea5-229">Report view for the URL threat protection report</span></span>
+### <a name="report-view-for-the-url-threat-protection-report"></a><span data-ttu-id="dcd5a-229">URL 위협 방지 보고서에 대 한 보고서 보기</span><span class="sxs-lookup"><span data-stu-id="dcd5a-229">Report view for the URL threat protection report</span></span>
 
-<span data-ttu-id="08ea5-230">**URL threat protection** 보고서에는 최근 90 일 동안의 데이터를 표시 하는 4 시간 마다 한 번씩 새로 고쳐지는 두 가지 보기가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-230">The **URL threat protection** report has two aggregated views that are refreshed once every four hours that shows data for the last 90 days:</span></span>
+<span data-ttu-id="dcd5a-230">**URL threat protection** 보고서에는 최근 90 일 동안의 데이터를 표시 하는 4 시간 마다 한 번씩 새로 고쳐지는 두 가지 보기가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-230">The **URL threat protection** report has two aggregated views that are refreshed once every four hours that shows data for the last 90 days:</span></span>
 
-- <span data-ttu-id="08ea5-231">**URL 보호 작업 클릭**: 조직의 사용자가 클릭 한 URL의 수를 표시 하 고 해당 결과를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-231">**URL click protection action**: Shows the number of URL clicks by users in the organization and the results of the click:</span></span>
+- <span data-ttu-id="dcd5a-231">**URL 보호 작업 클릭**: 조직의 사용자가 클릭 한 URL의 수를 표시 하 고 해당 결과를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-231">**URL click protection action**: Shows the number of URL clicks by users in the organization and the results of the click:</span></span>
 
-  - <span data-ttu-id="08ea5-232">**차단** (사용자가 URL로 이동할 수 없도록 차단 됨)</span><span class="sxs-lookup"><span data-stu-id="08ea5-232">**Blocked** (the user was blocked from navigating to the URL)</span></span>
-  - <span data-ttu-id="08ea5-233">**차단 및 클릭**</span><span class="sxs-lookup"><span data-stu-id="08ea5-233">**Blocked and clicked through**</span></span>
-  - <span data-ttu-id="08ea5-234">**검색 중에 클릭**</span><span class="sxs-lookup"><span data-stu-id="08ea5-234">**Clicked through during scan**</span></span>
+  - <span data-ttu-id="dcd5a-232">**차단** (사용자가 URL로 이동할 수 없도록 차단 됨)</span><span class="sxs-lookup"><span data-stu-id="dcd5a-232">**Blocked** (the user was blocked from navigating to the URL)</span></span>
+  - <span data-ttu-id="dcd5a-233">**차단 및 클릭**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-233">**Blocked and clicked through**</span></span>
+  - <span data-ttu-id="dcd5a-234">**검색 중에 클릭**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-234">**Clicked through during scan**</span></span>
 
-  <span data-ttu-id="08ea5-235">클릭은 사용자가 악성 웹 사이트에 대 한 차단 페이지를 클릭 했음을 나타냅니다 (관리자가 안전한 링크 정책에서 클릭을 사용 하지 않도록 설정할 수 있음).</span><span class="sxs-lookup"><span data-stu-id="08ea5-235">A click indicates that the user has clicked through the block page to the malicious website (admins can disable click through in Safe Links policies).</span></span>
+  <span data-ttu-id="dcd5a-235">클릭은 사용자가 악성 웹 사이트에 대 한 차단 페이지를 클릭 했음을 나타냅니다 (관리자가 안전한 링크 정책에서 클릭을 사용 하지 않도록 설정할 수 있음).</span><span class="sxs-lookup"><span data-stu-id="dcd5a-235">A click indicates that the user has clicked through the block page to the malicious website (admins can disable click through in Safe Links policies).</span></span>
 
-  <span data-ttu-id="08ea5-236">**필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-236">If you click **Filters**, you can modify the report with the following filters:</span></span>
+  <span data-ttu-id="dcd5a-236">**필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-236">If you click **Filters**, you can modify the report with the following filters:</span></span>
 
-  - <span data-ttu-id="08ea5-237">**시작 날짜** 및 **끝 날짜**</span><span class="sxs-lookup"><span data-stu-id="08ea5-237">**Start date** and **End date**</span></span>
-  - <span data-ttu-id="08ea5-238">사용 가능한 클릭 보호 작업과 **허용 되** 는 값 (사용자가 URL로 이동할 수 있음)을 함께 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-238">The available click protection actions, plus the value **Allowed** (the user was allowed to navigate to the URL).</span></span>
+  - <span data-ttu-id="dcd5a-237">**시작 날짜** 및 **끝 날짜**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-237">**Start date** and **End date**</span></span>
+  - <span data-ttu-id="dcd5a-238">사용 가능한 클릭 보호 작업과 **허용 되** 는 값 (사용자가 URL로 이동할 수 있음)을 함께 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-238">The available click protection actions, plus the value **Allowed** (the user was allowed to navigate to the URL).</span></span>
 
   ![URL URL 위협 방지 보고서에서 보호 작업 보기를 클릭 합니다.](../../media/url-threat-protection-report-url-click-protection-action-view.png)
 
-- <span data-ttu-id="08ea5-240">**Url 클릭 응용 프로그램**: 안전한 링크를 지 원하는 응용 프로그램에서 클릭 한 url의 수를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-240">**URL click by application**: Shows the number of URL clicks by applications that support Safe Links:</span></span>
+- <span data-ttu-id="dcd5a-240">**Url 클릭 응용 프로그램**: 안전한 링크를 지 원하는 응용 프로그램에서 클릭 한 url의 수를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-240">**URL click by application**: Shows the number of URL clicks by applications that support Safe Links:</span></span>
 
-  - <span data-ttu-id="08ea5-241">**전자 메일 클라이언트**</span><span class="sxs-lookup"><span data-stu-id="08ea5-241">**Email client**</span></span>
-  - <span data-ttu-id="08ea5-242">**PowerPoint**</span><span class="sxs-lookup"><span data-stu-id="08ea5-242">**PowerPoint**</span></span>
-  - <span data-ttu-id="08ea5-243">**Word**</span><span class="sxs-lookup"><span data-stu-id="08ea5-243">**Word**</span></span>
-  - <span data-ttu-id="08ea5-244">**Excel**</span><span class="sxs-lookup"><span data-stu-id="08ea5-244">**Excel**</span></span>
-  - <span data-ttu-id="08ea5-245">**OneNote**</span><span class="sxs-lookup"><span data-stu-id="08ea5-245">**OneNote**</span></span>
-  - <span data-ttu-id="08ea5-246">**Visio**</span><span class="sxs-lookup"><span data-stu-id="08ea5-246">**Visio**</span></span>
-  - <span data-ttu-id="08ea5-247">**Teams**</span><span class="sxs-lookup"><span data-stu-id="08ea5-247">**Teams**</span></span>
-  - <span data-ttu-id="08ea5-248">**기타**</span><span class="sxs-lookup"><span data-stu-id="08ea5-248">**Other**</span></span>
+  - <span data-ttu-id="dcd5a-241">**전자 메일 클라이언트**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-241">**Email client**</span></span>
+  - <span data-ttu-id="dcd5a-242">**PowerPoint**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-242">**PowerPoint**</span></span>
+  - <span data-ttu-id="dcd5a-243">**Word**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-243">**Word**</span></span>
+  - <span data-ttu-id="dcd5a-244">**Excel**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-244">**Excel**</span></span>
+  - <span data-ttu-id="dcd5a-245">**OneNote**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-245">**OneNote**</span></span>
+  - <span data-ttu-id="dcd5a-246">**Visio**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-246">**Visio**</span></span>
+  - <span data-ttu-id="dcd5a-247">**Teams**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-247">**Teams**</span></span>
+  - <span data-ttu-id="dcd5a-248">**기타**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-248">**Other**</span></span>
 
-  <span data-ttu-id="08ea5-249">**필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-249">If you click **Filters**, you can modify the report with the following filters:</span></span>
+  <span data-ttu-id="dcd5a-249">**필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-249">If you click **Filters**, you can modify the report with the following filters:</span></span>
 
-  - <span data-ttu-id="08ea5-250">**시작 날짜** 및 **끝 날짜**</span><span class="sxs-lookup"><span data-stu-id="08ea5-250">**Start date** and **End date**</span></span>
-  - <span data-ttu-id="08ea5-251">사용 가능한 응용 프로그램입니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-251">The available applications.</span></span>
+  - <span data-ttu-id="dcd5a-250">**시작 날짜** 및 **끝 날짜**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-250">**Start date** and **End date**</span></span>
+  - <span data-ttu-id="dcd5a-251">사용 가능한 응용 프로그램입니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-251">The available applications.</span></span>
 
-### <a name="details-table-view-for-the-url-threat-protection-report"></a><span data-ttu-id="08ea5-252">URL 위협 방지 보고서에 대 한 세부 정보 표 보기</span><span class="sxs-lookup"><span data-stu-id="08ea5-252">Details table view for the URL threat protection report</span></span>
+### <a name="details-table-view-for-the-url-threat-protection-report"></a><span data-ttu-id="dcd5a-252">URL 위협 방지 보고서에 대 한 세부 정보 표 보기</span><span class="sxs-lookup"><span data-stu-id="dcd5a-252">Details table view for the URL threat protection report</span></span>
 
-<span data-ttu-id="08ea5-253">**세부 정보 테이블 보기**를 클릭 하면 보고서에서 다음 세부 정보를 사용 하 여 지난 7 일간 조직 내에서 발생 하는 모든 클릭에 대 한 거의 실시간 보기를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-253">If you click **View details table**, the report provides a near-real-time view of all clicks that happen within the organization for the last 7 days with the following details:</span></span>
+<span data-ttu-id="dcd5a-253">**세부 정보 테이블 보기**를 클릭 하면 보고서에서 다음 세부 정보를 사용 하 여 지난 7 일간 조직 내에서 발생 하는 모든 클릭에 대 한 거의 실시간 보기를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-253">If you click **View details table**, the report provides a near-real-time view of all clicks that happen within the organization for the last 7 days with the following details:</span></span>
 
-- <span data-ttu-id="08ea5-254">**클릭 시간**</span><span class="sxs-lookup"><span data-stu-id="08ea5-254">**Click time**</span></span>
-- <span data-ttu-id="08ea5-255">**사용자**</span><span class="sxs-lookup"><span data-stu-id="08ea5-255">**User**</span></span>
-- <span data-ttu-id="08ea5-256">**URL**</span><span class="sxs-lookup"><span data-stu-id="08ea5-256">**URL**</span></span>
-- <span data-ttu-id="08ea5-257">**작업**</span><span class="sxs-lookup"><span data-stu-id="08ea5-257">**Action**</span></span>
-- <span data-ttu-id="08ea5-258">**앱**</span><span class="sxs-lookup"><span data-stu-id="08ea5-258">**App**</span></span>
+- <span data-ttu-id="dcd5a-254">**클릭 시간**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-254">**Click time**</span></span>
+- <span data-ttu-id="dcd5a-255">**사용자**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-255">**User**</span></span>
+- <span data-ttu-id="dcd5a-256">**URL**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-256">**URL**</span></span>
+- <span data-ttu-id="dcd5a-257">**작업**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-257">**Action**</span></span>
+- <span data-ttu-id="dcd5a-258">**앱**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-258">**App**</span></span>
 
-<span data-ttu-id="08ea5-259">세부 정보 테이블 보기에서 **필터** 를 클릭 하면 보고서 보기에서와 같은 조건과 쉼표로 구분 된 **도메인** 또는 **받는 사람** 을 기준으로 필터링 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-259">If you click **Filters** in the details table view, you can filter by the same criteria as in the report view, and also by **Domains** or **Recipients** separated by commas.</span></span>
+<span data-ttu-id="dcd5a-259">세부 정보 테이블 보기에서 **필터** 를 클릭 하면 보고서 보기에서와 같은 조건과 쉼표로 구분 된 **도메인** 또는 **받는 사람** 을 기준으로 필터링 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-259">If you click **Filters** in the details table view, you can filter by the same criteria as in the report view, and also by **Domains** or **Recipients** separated by commas.</span></span>
 
-<span data-ttu-id="08ea5-260">보고서 보기로 돌아가려면 **보고서 보기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-260">To get back to the reports view, click **View report**.</span></span>
+<span data-ttu-id="dcd5a-260">보고서 보기로 돌아가려면 **보고서 보기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-260">To get back to the reports view, click **View report**.</span></span>
 
-## <a name="additional-reports-to-view"></a><span data-ttu-id="08ea5-261">볼 수 있는 추가 보고서</span><span class="sxs-lookup"><span data-stu-id="08ea5-261">Additional reports to view</span></span>
+## <a name="additional-reports-to-view"></a><span data-ttu-id="dcd5a-261">볼 수 있는 추가 보고서</span><span class="sxs-lookup"><span data-stu-id="dcd5a-261">Additional reports to view</span></span>
 
-<span data-ttu-id="08ea5-262">이 항목에서 설명 하는 ATP 보고서 외에도 다음 표에 설명 된 것 처럼 다른 몇 가지 보고서를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-262">In addition to the ATP reports described in this topic, several other reports are available, as described in the following table:</span></span>
+<span data-ttu-id="dcd5a-262">이 항목에서 설명 하는 ATP 보고서 외에도 다음 표에 설명 된 것 처럼 다른 몇 가지 보고서를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-262">In addition to the ATP reports described in this topic, several other reports are available, as described in the following table:</span></span>
 
 ****
 
-|<span data-ttu-id="08ea5-263">보고서</span><span class="sxs-lookup"><span data-stu-id="08ea5-263">Report</span></span>|<span data-ttu-id="08ea5-264">항목</span><span class="sxs-lookup"><span data-stu-id="08ea5-264">Topic</span></span>|
+|<span data-ttu-id="dcd5a-263">보고서</span><span class="sxs-lookup"><span data-stu-id="dcd5a-263">Report</span></span>|<span data-ttu-id="dcd5a-264">항목</span><span class="sxs-lookup"><span data-stu-id="dcd5a-264">Topic</span></span>|
 |---|---|
-|<span data-ttu-id="08ea5-265">**탐색기** (atp 계획 2) 또는 **실시간** 검색 (atp 계획 1)</span><span class="sxs-lookup"><span data-stu-id="08ea5-265">**Explorer** (ATP Plan 2) or **real-time detections** (ATP Plan 1)</span></span>|[<span data-ttu-id="08ea5-266">위협 탐색기 (실시간 검출)</span><span class="sxs-lookup"><span data-stu-id="08ea5-266">Threat Explorer (and real-time detections)</span></span>](threat-explorer.md)|
-|<span data-ttu-id="08ea5-267">주요 보낸 사람 및 받는 사람 보고서, 스푸핑 메일 보고서, 스팸 감지 보고서 등의 **전자 메일 보안 보고서**</span><span class="sxs-lookup"><span data-stu-id="08ea5-267">**Email security reports**, such as the Top senders and recipients report, the Spoof mail report, and the Spam detections report.</span></span>|[<span data-ttu-id="08ea5-268">보안 및 준수 센터의 전자 메일 보안 보고서 보기</span><span class="sxs-lookup"><span data-stu-id="08ea5-268">View email security reports in the Security & Compliance Center</span></span>](view-email-security-reports.md)|
-|<span data-ttu-id="08ea5-269">전달 보고서, 메일 흐름 상태 보고서, 상위 보낸 사람 및 받는 사람 보고서 등의 **메일 흐름 보고서**</span><span class="sxs-lookup"><span data-stu-id="08ea5-269">**Mail flow reports**, such as the Forwarding report, the Mailflow status report, and the Top senders and recipients report.</span></span>|[<span data-ttu-id="08ea5-270">보안 & 준수 센터에서 메일 흐름 보고서 보기</span><span class="sxs-lookup"><span data-stu-id="08ea5-270">View mail flow reports in the Security & Compliance Center</span></span>](view-mail-flow-reports.md)|
-|<span data-ttu-id="08ea5-271">**안전한 링크에 대 한 URL 추적** (PowerShell 전용)</span><span class="sxs-lookup"><span data-stu-id="08ea5-271">**URL trace for Safe Links** (PowerShell only).</span></span> <span data-ttu-id="08ea5-272">이 cmdlet의 출력은 지난 7 일간의 안전한 링크 작업의 결과를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-272">The output of this cmdlet shows you the results of Safe Links actions over the past seven days.</span></span>|[<span data-ttu-id="08ea5-273">Get-UrlTrace</span><span class="sxs-lookup"><span data-stu-id="08ea5-273">Get-UrlTrace</span></span>](https://docs.microsoft.com/powershell/module/exchange/get-urltrace)|
-|<span data-ttu-id="08ea5-274">**EOP 및 ATP에 대 한 메일 트래픽 결과** (PowerShell 전용)</span><span class="sxs-lookup"><span data-stu-id="08ea5-274">**Mail traffic results for EOP and ATP** (PowerShell only).</span></span> <span data-ttu-id="08ea5-275">이 cmdlet의 출력에는 도메인, 날짜, 이벤트 유형, 방향, 동작 및 메시지 수에 대 한 정보가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-275">The output of this cmdlet contains information about Domain, Date, Event Type, Direction, Action, and Message Count.</span></span>|[<span data-ttu-id="08ea5-276">MailTrafficATPReport</span><span class="sxs-lookup"><span data-stu-id="08ea5-276">Get-MailTrafficATPReport</span></span>](https://docs.microsoft.com/powershell/module/exchange/get-mailtrafficatpreport)|
-|<span data-ttu-id="08ea5-277">**EOP 및 ATP 검색에 대 한 메일 세부 정보 보고서** (PowerShell 전용).</span><span class="sxs-lookup"><span data-stu-id="08ea5-277">**Mail detail reports for EOP and ATP detections** (PowerShell only).</span></span> <span data-ttu-id="08ea5-278">이 cmdlet의 출력은 악성 파일 또는 Url, 피싱 시도, 가장 및 기타 잠재적 위협 (전자 메일 또는 파일)에 대 한 세부 정보를 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-278">The output of this cmdlet contains details about malicious files or URLs, phishing attempts, impersonation, and other potential threats in email or files.</span></span>|[<span data-ttu-id="08ea5-279">MailDetailATPReport</span><span class="sxs-lookup"><span data-stu-id="08ea5-279">Get-MailDetailATPReport</span></span>](https://docs.microsoft.com/powershell/module/exchange/get-maildetailatpreport)|
+|<span data-ttu-id="dcd5a-265">**탐색기** (atp 계획 2) 또는 **실시간** 검색 (atp 계획 1)</span><span class="sxs-lookup"><span data-stu-id="dcd5a-265">**Explorer** (ATP Plan 2) or **real-time detections** (ATP Plan 1)</span></span>|[<span data-ttu-id="dcd5a-266">위협 탐색기 (실시간 검출)</span><span class="sxs-lookup"><span data-stu-id="dcd5a-266">Threat Explorer (and real-time detections)</span></span>](threat-explorer.md)|
+|<span data-ttu-id="dcd5a-267">주요 보낸 사람 및 받는 사람 보고서, 스푸핑 메일 보고서, 스팸 감지 보고서 등의 **전자 메일 보안 보고서**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-267">**Email security reports**, such as the Top senders and recipients report, the Spoof mail report, and the Spam detections report.</span></span>|[<span data-ttu-id="dcd5a-268">보안 및 준수 센터의 전자 메일 보안 보고서 보기</span><span class="sxs-lookup"><span data-stu-id="dcd5a-268">View email security reports in the Security & Compliance Center</span></span>](view-email-security-reports.md)|
+|<span data-ttu-id="dcd5a-269">전달 보고서, 메일 흐름 상태 보고서, 상위 보낸 사람 및 받는 사람 보고서 등의 **메일 흐름 보고서**</span><span class="sxs-lookup"><span data-stu-id="dcd5a-269">**Mail flow reports**, such as the Forwarding report, the Mailflow status report, and the Top senders and recipients report.</span></span>|[<span data-ttu-id="dcd5a-270">보안 & 준수 센터에서 메일 흐름 보고서 보기</span><span class="sxs-lookup"><span data-stu-id="dcd5a-270">View mail flow reports in the Security & Compliance Center</span></span>](view-mail-flow-reports.md)|
+|<span data-ttu-id="dcd5a-271">**안전한 링크에 대 한 URL 추적** (PowerShell 전용)</span><span class="sxs-lookup"><span data-stu-id="dcd5a-271">**URL trace for Safe Links** (PowerShell only).</span></span> <span data-ttu-id="dcd5a-272">이 cmdlet의 출력은 지난 7 일간의 안전한 링크 작업의 결과를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-272">The output of this cmdlet shows you the results of Safe Links actions over the past seven days.</span></span>|[<span data-ttu-id="dcd5a-273">Get-UrlTrace</span><span class="sxs-lookup"><span data-stu-id="dcd5a-273">Get-UrlTrace</span></span>](https://docs.microsoft.com/powershell/module/exchange/get-urltrace)|
+|<span data-ttu-id="dcd5a-274">**EOP 및 ATP에 대 한 메일 트래픽 결과** (PowerShell 전용)</span><span class="sxs-lookup"><span data-stu-id="dcd5a-274">**Mail traffic results for EOP and ATP** (PowerShell only).</span></span> <span data-ttu-id="dcd5a-275">이 cmdlet의 출력에는 도메인, 날짜, 이벤트 유형, 방향, 동작 및 메시지 수에 대 한 정보가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-275">The output of this cmdlet contains information about Domain, Date, Event Type, Direction, Action, and Message Count.</span></span>|[<span data-ttu-id="dcd5a-276">MailTrafficATPReport</span><span class="sxs-lookup"><span data-stu-id="dcd5a-276">Get-MailTrafficATPReport</span></span>](https://docs.microsoft.com/powershell/module/exchange/get-mailtrafficatpreport)|
+|<span data-ttu-id="dcd5a-277">**EOP 및 ATP 검색에 대 한 메일 세부 정보 보고서** (PowerShell 전용).</span><span class="sxs-lookup"><span data-stu-id="dcd5a-277">**Mail detail reports for EOP and ATP detections** (PowerShell only).</span></span> <span data-ttu-id="dcd5a-278">이 cmdlet의 출력은 악성 파일 또는 Url, 피싱 시도, 가장 및 기타 잠재적 위협 (전자 메일 또는 파일)에 대 한 세부 정보를 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-278">The output of this cmdlet contains details about malicious files or URLs, phishing attempts, impersonation, and other potential threats in email or files.</span></span>|[<span data-ttu-id="dcd5a-279">MailDetailATPReport</span><span class="sxs-lookup"><span data-stu-id="dcd5a-279">Get-MailDetailATPReport</span></span>](https://docs.microsoft.com/powershell/module/exchange/get-maildetailatpreport)|
 |
 
-## <a name="what-permissions-are-needed-to-view-the-atp-reports"></a><span data-ttu-id="08ea5-280">ATP 보고서를 표시 하는 데 필요한 사용 권한은 무엇입니까?</span><span class="sxs-lookup"><span data-stu-id="08ea5-280">What permissions are needed to view the ATP reports?</span></span>
+## <a name="what-permissions-are-needed-to-view-the-atp-reports"></a><span data-ttu-id="dcd5a-280">ATP 보고서를 표시 하는 데 필요한 사용 권한은 무엇입니까?</span><span class="sxs-lookup"><span data-stu-id="dcd5a-280">What permissions are needed to view the ATP reports?</span></span>
 
-<span data-ttu-id="08ea5-281">이 항목에서 설명 하는 보고서를 보고 사용 하려면 보안 및 \*\* &amp; 준수 센터와 Exchange 관리 센터 둘 다에 대해 적절 한 역할이 할당 되어 있어야 합니다\*\*.</span><span class="sxs-lookup"><span data-stu-id="08ea5-281">In order to view and use the reports described in this topic, **you must have an appropriate role assigned for both the Security &amp; Compliance Center and the Exchange admin center**.</span></span>
+<span data-ttu-id="dcd5a-281">이 항목에서 설명 하는 보고서를 보고 사용 하려면 보안 및 \*\* &amp; 준수 센터와 Exchange 관리 센터 둘 다에 대해 적절 한 역할이 할당 되어 있어야 합니다\*\*.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-281">In order to view and use the reports described in this topic, **you must have an appropriate role assigned for both the Security &amp; Compliance Center and the Exchange admin center**.</span></span>
 
-- <span data-ttu-id="08ea5-282">보안 & 준수 센터에는 다음 역할 중 하나가 할당 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-282">For the Security & Compliance Center, you must have one of the following roles assigned:</span></span>
+- <span data-ttu-id="dcd5a-282">보안 & 준수 센터에는 다음 역할 중 하나가 할당 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-282">For the Security & Compliance Center, you must have one of the following roles assigned:</span></span>
 
-  - <span data-ttu-id="08ea5-283">조직 관리</span><span class="sxs-lookup"><span data-stu-id="08ea5-283">Organization Management</span></span>
-  - <span data-ttu-id="08ea5-284">보안 관리자 (Azure Active Directory 관리 센터에서 할당할 수 [https://aad.portal.azure.com](https://aad.portal.azure.com) 있음)</span><span class="sxs-lookup"><span data-stu-id="08ea5-284">Security Administrator (this can be assigned in the Azure Active Directory admin center ([https://aad.portal.azure.com](https://aad.portal.azure.com)))</span></span>
-  - <span data-ttu-id="08ea5-285">보안 운영자 (Azure Active Directory 관리 센터에서 할당할 수 [https://aad.portal.azure.com](https://aad.portal.azure.com) 있음)</span><span class="sxs-lookup"><span data-stu-id="08ea5-285">Security Operator (this can be assigned in the Azure Active Directory admin center ([https://aad.portal.azure.com](https://aad.portal.azure.com)))</span></span>
-  - <span data-ttu-id="08ea5-286">보안 읽기 권한자</span><span class="sxs-lookup"><span data-stu-id="08ea5-286">Security Reader</span></span>
+  - <span data-ttu-id="dcd5a-283">조직 관리</span><span class="sxs-lookup"><span data-stu-id="dcd5a-283">Organization Management</span></span>
+  - <span data-ttu-id="dcd5a-284">보안 관리자 (Azure Active Directory 관리 센터에서 할당할 수 [https://aad.portal.azure.com](https://aad.portal.azure.com) 있음)</span><span class="sxs-lookup"><span data-stu-id="dcd5a-284">Security Administrator (this can be assigned in the Azure Active Directory admin center ([https://aad.portal.azure.com](https://aad.portal.azure.com)))</span></span>
+  - <span data-ttu-id="dcd5a-285">보안 운영자 (Azure Active Directory 관리 센터에서 할당할 수 [https://aad.portal.azure.com](https://aad.portal.azure.com) 있음)</span><span class="sxs-lookup"><span data-stu-id="dcd5a-285">Security Operator (this can be assigned in the Azure Active Directory admin center ([https://aad.portal.azure.com](https://aad.portal.azure.com)))</span></span>
+  - <span data-ttu-id="dcd5a-286">보안 읽기 권한자</span><span class="sxs-lookup"><span data-stu-id="dcd5a-286">Security Reader</span></span>
 
-- <span data-ttu-id="08ea5-287">Exchange Online의 경우 Exchange 관리 센터 ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) 또는 PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)참조)에서 다음 역할 중 하나를 할당 받아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-287">For Exchange Online, you must have one of the following roles assigned in either the Exchange admin center ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) or with PowerShell cmdlets (See [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)):</span></span>
+- <span data-ttu-id="dcd5a-287">Exchange Online의 경우 Exchange 관리 센터 ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) 또는 PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)참조)에서 다음 역할 중 하나를 할당 받아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-287">For Exchange Online, you must have one of the following roles assigned in either the Exchange admin center ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) or with PowerShell cmdlets (See [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)):</span></span>
 
-  - <span data-ttu-id="08ea5-288">조직 관리</span><span class="sxs-lookup"><span data-stu-id="08ea5-288">Organization Management</span></span>
-  - <span data-ttu-id="08ea5-289">보기 전용 조직 관리</span><span class="sxs-lookup"><span data-stu-id="08ea5-289">View-only Organization Management</span></span>
-  - <span data-ttu-id="08ea5-290">보기 권한만 있는 받는 사람 역할</span><span class="sxs-lookup"><span data-stu-id="08ea5-290">View-Only Recipients role</span></span>
-  - <span data-ttu-id="08ea5-291">준수 관리</span><span class="sxs-lookup"><span data-stu-id="08ea5-291">Compliance Management</span></span>
+  - <span data-ttu-id="dcd5a-288">조직 관리</span><span class="sxs-lookup"><span data-stu-id="dcd5a-288">Organization Management</span></span>
+  - <span data-ttu-id="dcd5a-289">보기 전용 조직 관리</span><span class="sxs-lookup"><span data-stu-id="dcd5a-289">View-only Organization Management</span></span>
+  - <span data-ttu-id="dcd5a-290">보기 권한만 있는 받는 사람 역할</span><span class="sxs-lookup"><span data-stu-id="dcd5a-290">View-Only Recipients role</span></span>
+  - <span data-ttu-id="dcd5a-291">준수 관리</span><span class="sxs-lookup"><span data-stu-id="dcd5a-291">Compliance Management</span></span>
 
-<span data-ttu-id="08ea5-292">자세한 내용은 다음 리소스를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="08ea5-292">To learn more, see the following resources:</span></span>
+<span data-ttu-id="dcd5a-292">자세한 내용은 다음 리소스를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-292">To learn more, see the following resources:</span></span>
 
-- [<span data-ttu-id="08ea5-293">보안 및 준수 센터의 사용 권한</span><span class="sxs-lookup"><span data-stu-id="08ea5-293">Permissions in the Security & Compliance Center</span></span>](permissions-in-the-security-and-compliance-center.md)
+- [<span data-ttu-id="dcd5a-293">보안 및 준수 센터의 사용 권한</span><span class="sxs-lookup"><span data-stu-id="dcd5a-293">Permissions in the Security & Compliance Center</span></span>](permissions-in-the-security-and-compliance-center.md)
 
-- [<span data-ttu-id="08ea5-294">Exchange Online의 기능 사용 권한</span><span class="sxs-lookup"><span data-stu-id="08ea5-294">Feature permissions in Exchange Online</span></span>](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
+- [<span data-ttu-id="dcd5a-294">Exchange Online의 기능 사용 권한</span><span class="sxs-lookup"><span data-stu-id="dcd5a-294">Feature permissions in Exchange Online</span></span>](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
 
-## <a name="what-if-the-reports-arent-showing-data"></a><span data-ttu-id="08ea5-295">보고서에 데이터가 표시 되지 않으면 어떻게 하나요?</span><span class="sxs-lookup"><span data-stu-id="08ea5-295">What if the reports aren't showing data?</span></span>
+## <a name="what-if-the-reports-arent-showing-data"></a><span data-ttu-id="dcd5a-295">보고서에 데이터가 표시 되지 않으면 어떻게 하나요?</span><span class="sxs-lookup"><span data-stu-id="dcd5a-295">What if the reports aren't showing data?</span></span>
 
-<span data-ttu-id="08ea5-296">ATP 보고서에 데이터가 표시 되지 않는 경우 정책이 올바르게 설정 되어 있는지 다시 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-296">If you are not seeing data in your ATP reports, double-check that your policies are set up correctly.</span></span> <span data-ttu-id="08ea5-297">조직에서 ATP 보호를 적용 하려면 [안전한 링크 정책](set-up-atp-safe-links-policies.md) 및 [안전한 첨부 파일 정책이](set-up-atp-safe-attachments-policies.md) 정의 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="08ea5-297">Your organization must have [Safe Links policies](set-up-atp-safe-links-policies.md) and [Safe Attachments policies](set-up-atp-safe-attachments-policies.md) defined in order for ATP protection to be in place.</span></span> <span data-ttu-id="08ea5-298">[스팸 방지 및 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md)도 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="08ea5-298">Also see [Anti-spam and anti-malware protection](anti-spam-and-anti-malware-protection.md).</span></span>
+<span data-ttu-id="dcd5a-296">ATP 보고서에 데이터가 표시 되지 않는 경우 정책이 올바르게 설정 되어 있는지 다시 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-296">If you are not seeing data in your ATP reports, double-check that your policies are set up correctly.</span></span> <span data-ttu-id="dcd5a-297">조직에서 ATP 보호를 적용 하려면 [안전한 링크 정책](set-up-atp-safe-links-policies.md) 및 [안전한 첨부 파일 정책이](set-up-atp-safe-attachments-policies.md) 정의 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-297">Your organization must have [Safe Links policies](set-up-atp-safe-links-policies.md) and [Safe Attachments policies](set-up-atp-safe-attachments-policies.md) defined in order for ATP protection to be in place.</span></span> <span data-ttu-id="dcd5a-298">[스팸 방지 및 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md)도 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="dcd5a-298">Also see [Anti-spam and anti-malware protection](anti-spam-and-anti-malware-protection.md).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="08ea5-299">관련 항목</span><span class="sxs-lookup"><span data-stu-id="08ea5-299">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="dcd5a-299">관련 항목</span><span class="sxs-lookup"><span data-stu-id="dcd5a-299">Related topics</span></span>
 
-[<span data-ttu-id="08ea5-300">보안 및 준수 센터의 스마트 보고서 및 인사이트</span><span class="sxs-lookup"><span data-stu-id="08ea5-300">Smart reports and insights in the Security & Compliance Center</span></span>](reports-and-insights-in-security-and-compliance.md)
+[<span data-ttu-id="dcd5a-300">보안 및 준수 센터의 스마트 보고서 및 인사이트</span><span class="sxs-lookup"><span data-stu-id="dcd5a-300">Smart reports and insights in the Security & Compliance Center</span></span>](reports-and-insights-in-security-and-compliance.md)
   
-[<span data-ttu-id="08ea5-301">역할 권한 (Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="08ea5-301">Role permissions (Azure Active Directory</span></span>](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#role-permissions)
+[<span data-ttu-id="dcd5a-301">역할 권한 (Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="dcd5a-301">Role permissions (Azure Active Directory</span></span>](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#role-permissions)

@@ -9,20 +9,20 @@
         - name: BDM에 대한 Microsoft 365 보안
           href: Microsoft-365-security-for-bdm.md
     - name: ID 및 장치 액세스 구성
-      href: ../enterprise/microsoft-365-policies-configurations.md
+      href: ./office-365-security/microsoft-365-policies-configurations.md
       items:
         - name: 선행 조건 작업
-          href: ../enterprise/identity-access-prerequisites.md
+          href: ./office-365-security/identity-access-prerequisites.md
         - name: 일반 ID 및 장치 액세스 정책
-          href: ../enterprise/identity-access-policies.md
+          href: ./office-365-security/identity-access-policies.md
         - name: 게스트 및 외부 사용자에 대한 정책
-          href: ../enterprise/identity-access-policies-guest-access.md
+          href: ./office-365-security/identity-access-policies-guest-access.md
         - name: 권장 Teams 액세스 정책
-          href: ../enterprise/teams-access-policies.md
+          href: ./office-365-security/teams-access-policies.md
         - name: 권장 Exchange Online 액세스 정책
-          href: ../enterprise/secure-email-recommended-policies.md
+          href: ./office-365-security/secure-email-recommended-policies.md
         - name: 권장 SharePoint Online 액세스 정책
-          href: ../enterprise/sharepoint-file-access-policies.md
+          href: ./office-365-security/sharepoint-file-access-policies.md
     - name: Microsoft 보안 점수
       items:
         - name: 보안 점수 개요
@@ -422,6 +422,8 @@
               href: ./office-365-security/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
             - name: 정치적 캠페인 개발/테스트 환경에서 팀 사이트 만들기
               href: ./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md
+            - name: Office 365 ATP의 사용자 태그
+              href: ./office-365-security/user-tags.md
             - name: S/MIME
               href: ./office-365-security/s-mime-for-message-signing-and-encryption.md
               items:
