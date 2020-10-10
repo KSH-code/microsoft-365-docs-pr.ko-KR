@@ -16,14 +16,15 @@ search.appverid:
 ms.assetid: 6e13311e-92ae-495e-a619-56d770199170
 ms.collection:
 - M365-security-compliance
+- m365-initiative-defender-office365
 - seo-marvel-apr2020
 description: 관리자는 Office 365의 ATP (Advanced Threat Protection)에서 안전한 첨부 파일 기능에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: c3dd64ce6f1d50cf30dfcc33f17021904791912c
-ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.openlocfilehash: 634302c6e648dbad6e41026e374b382c25f3d34b
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337208"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48411689"
 ---
 # <a name="safe-attachments-in-office-365-atp"></a>Office 365 ATP의 안전한 첨부 파일
 
@@ -52,7 +53,7 @@ ms.locfileid: "48337208"
 >
 > - [SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP](atp-for-spo-odb-and-teams.md)
 >
-> - [Microsoft 365 E5의 안전 문서](safe-docs.md)
+> - [Microsoft 365 E5에서 안전한 문서](safe-docs.md)
 
 ## <a name="safe-attachments-policy-settings"></a>안전한 첨부 파일 정책 설정
 

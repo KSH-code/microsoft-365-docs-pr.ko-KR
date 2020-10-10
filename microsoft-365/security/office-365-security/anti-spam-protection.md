@@ -16,15 +16,16 @@ search.appverid:
 ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
+- m365-initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 스팸을 방지 하는 데 도움이 되는 스팸 방지 설정 및 필터에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 4e5c41ebf92de320651a90813220abfcfa50c30e
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 3f28366afb64b6d7855ff28922069afed516bf44
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199138"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48411713"
 ---
 # <a name="anti-spam-protection-in-eop"></a>EOP의 스팸 방지 보호 기능
 

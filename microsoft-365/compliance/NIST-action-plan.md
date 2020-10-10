@@ -15,12 +15,12 @@ audience: itpro
 ms.collection:
 - M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f123dbe96f2c8e395a6ae8b6e2d6ccc77200e865
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 7b1f577cc17a1d8337441ddc13e079495d41c649
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195619"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398507"
 ---
 # <a name="microsoft-365-nist-800-53-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>Microsoft 365 NIST 800-53 작업 계획 - 처음 30일, 90일 및 그 이상 기간에 대한 최고 우선 순위 지정
 
@@ -50,7 +50,7 @@ Microsoft는 클라우드 보안 분야에서 업계 선두주자로 인식되�
 |**영역**|**태스크**|
 |NIST 800-53 요구 사항을 이해하고 Microsoft 자문 파트너와 함께 작업하는 것이 좋습니다.|•    Microsoft 파트너와 협력하여 조직의 NIST 800-53 준수에 대한 차이점 분석을 수행하고 준수 과정을 차트로 나타내는 로드맵을 개발합니다. <br>•   [Microsoft 준수 관리자](compliance-manager.md)의 지침을 활용하여 조직 엔터티와 규정 준수 간의 목적, 범위, 역할, 책임, 조정 문제를 해결하는 액세스 제어 및 정보 공유에 대한 정책과 절차를 정의하고 문서화합니다.|
 |Microsoft 365 기본 제공 심층 방어 전략을 알아보고 이해합니다.|•   [Microsoft 준수 관리자](compliance-manager.md)를 사용하여 준수 위험을 평가 및 관리함으로써 조직에 대한 NIST 800-53 평가를 수행합니다. 평가 결과에 맞게 Microsoft 365 보안 컨트롤을 조정하여 위험을 관리하고 완화합니다.<br>•    [Microsoft Secure Score](/security/office-365-security/office-365-secure-score.md)를 활용하여 Office 365 및 Windows 10 데스크톱에서 시간에 따른 조직의 Microsoft 365 보안 기능 사용 현황을 추적합니다. <br>•   Microsoft 클라우드에서 [서비스 거부 공격으로부터 보호](https://docs.microsoft.com/office365/enterprise/office-365-defending-against-denial-of-service-attacks-overview)하는 전략 뿐만 아니라 [Office 365 데이터 암호화](encryption.md)를 제공하는 데 사용되는 Microsoft의 기술 및 전략에 대해 알아봅니다.|
-|Office 365에 대한 사용자 및 관리자 액세스를 보호합니다.|• [강력한 자격 증명 관리](https://docs.microsoft.com/azure/security/azure-ad-secure-steps#step-1---strengthen-your-credentials)를 설정하여 사용자 계정 자격 증명을 보호합니다. <br> •  Office 365 서비스에 대한 [권장 ID 및 장치 액세스 정책](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-policies-configurations)에 대해 알아봅니다.<br> • [Office 365 관리 역할](https://support.office.com/article/understanding-administrative-roles-52f29955-6a60-435f-aba9-eb69c898606a)을 활용하여 관리 기능에 대한 역할 기반 액세스를 구현하고 관리 업무를 분할할 수 있도록 합니다. 참고: Office 365의 많은 관리자 역할과 일치하는 역할이 Exchange Online, SharePoint Online 및 비즈니스용 Skype Online에도 있습니다. 단일 사용자가 필요한 것보다 더 많은 액세스 권한을 가지지 않도록 권한을 분할하세요.|
+|Office 365에 대한 사용자 및 관리자 액세스를 보호합니다.|• [강력한 자격 증명 관리](https://docs.microsoft.com/azure/security/azure-ad-secure-steps#step-1---strengthen-your-credentials)를 설정하여 사용자 계정 자격 증명을 보호합니다. <br> •  Office 365 서비스에 대한 [권장 ID 및 장치 액세스 정책](../security/office-365-security/microsoft-365-policies-configurations.md)에 대해 알아봅니다.<br> •  [Office 365 관리 역할](https://support.office.com/article/understanding-administrative-roles-52f29955-6a60-435f-aba9-eb69c898606a)을 활용하여 관리 기능에 대한 역할 기반 액세스를 구현하고 관리 업무를 분할할 수 있도록 합니다. 참고: Office 365의 많은 관리자 역할과 일치하는 역할이 Exchange Online, SharePoint Online 및 비즈니스용 Skype Online에도 있습니다. 단일 사용자가 필요한 것보다 더 많은 액세스 권한을 가지지 않도록 권한을 분할하세요.|
 |조직의 감사 및 책임 정책에 따라 시스템에 대한 모든 액세스를 감사할 수 있도록 합니다.|[감사 로깅](search-the-audit-log-in-security-and-compliance.md) 및 [사서함 감사](enable-mailbox-auditing.md)(모든 Exchange 사서함)를 사용하도록 설정하여 Office 365에서 잠재적으로 악의적인 활동이 있는지 모니터링하고 데이터 위반에 대한 법정 분석을 설정합니다.|
 |||
 
@@ -61,7 +61,7 @@ Microsoft는 클라우드 보안 분야에서 업계 선두주자로 인식되�
 |:-----|:-----|
 |**영역**|**태스크**|
 |맬웨어 방지, 패치 및 구성 관리 프로그램을 향상시킵니다.|•   [Windows Defender 바이러스 백신](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/deploy-windows-defender-antivirus)을 조직에 배포하고 사용하도록 설정한 후, Windows 10과 긴밀하게 통합하여 회사 자산 및 데스크톱을 보호합니다.<br>•   격리된 감염 시스템을 추적하고 수정 단계가 수행될 때까지 더 이상의 손상을 방지합니다.<br>•   신뢰할 수 있는 업데이트, 핫픽스 및 패치를 위해 Microsoft 365의 엄격한 표준 변경 관리 프로세스에 의존합니다.|
-|Microsoft 365 보안 기능을 사용하여 환경에 대한 액세스를 제어하고, 조직 정보 및 자산을 보호합니다.|•   [권장되는 ID 및 장치 액세스 정책](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-policies-configurations)을 구현하여 사용자 및 관리 계정을 보호합니다. <br>•    [OME(Office 365 메시지 암호화)](ome.md) 기능을 구현하여 사용자들이 전자 메일을 통해 중요한 데이터를 보낼 때 조직의 정책을 준수하도록 도와줍니다.<br>•  데이터 위반 방지 및 응답뿐만 아니라 악성 코드에 대한 보호를 위해 모든 데스크톱에 [Windows Defender ATP(Advanced Threat Protection)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)를 배포합니다.<br>• 정책을 구성, 테스트 및 배포하여 재무, 의료 및 개인 식별 가능 정보를 포함하여 문서 및 전자 메일 내에 포함된 80가지가 넘는 중요한 데이터 유형을 식별, 모니터링 및 [자동으로 보호](apply-protection-to-personal-data-in-office-365.md)합니다.<br>•   [정책 팁](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/policy-tips)을 구성하여 전자 메일 보낸 사람이 잘못된 메시지를 보내기 전에 정책을 위반할 수 있다는 사실을 자동으로 알립니다. Outlook, 웹용 Outlook 및 장치용 OWA에서 메시지 생성 동안 정책 위반 가능성에 대한 정보를 제공하는 간단한 노트를 표시하도록 정책 팁을 구성할 수 있습니다.<br>• [SharePoint Online 및 비즈니스용 OneDrive의 외부 공유](https://docs.microsoft.com/onedrive/manage-sharing)를 위한 컨트롤을 구현하여 중요한 회사 데이터를 보호하고 조직의 정보 정책을 충족합니다. 인증된 외부 사용자만 회사 데이터에 액세스할 수 있도록 합니다.|
+|Microsoft 365 보안 기능을 사용하여 환경에 대한 액세스를 제어하고, 조직 정보 및 자산을 보호합니다.|•   [권장되는 ID 및 장치 액세스 정책](../security/office-365-security/microsoft-365-policies-configurations.md)을 구현하여 사용자 및 관리 계정을 보호합니다. <br>•    [OME(Office 365 메시지 암호화)](ome.md) 기능을 구현하여 사용자들이 전자 메일을 통해 중요한 데이터를 보낼 때 조직의 정책을 준수하도록 도와줍니다.<br>•   데이터 침해 방지 및 응답뿐만 아니라 악성 코드에 대한 보호를 위해 모든 데스크톱에 [Windows Defender ATP(Advanced Threat Protection)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)를 배포합니다.<br>• 정책을 구성, 테스트 및 배포하여 재무, 의료 및 개인 식별 가능 정보를 포함하여 문서 및 전자 메일 내에 포함된 80가지가 넘는 중요한 데이터 유형을 식별, 모니터링 및 [자동으로 보호](apply-protection-to-personal-data-in-office-365.md)합니다.<br>•   [정책 팁](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/policy-tips)을 구성하여 전자 메일 보낸 사람이 잘못된 메시지를 보내기 전에 정책을 위반할 수 있다는 사실을 자동으로 알립니다. Outlook, 웹용 Outlook 및 장치용 OWA에서 메시지 생성 동안 정책 위반 가능성에 대한 정보를 제공하는 간단한 노트를 표시하도록 정책 팁을 구성할 수 있습니다.<br>• [SharePoint Online 및 비즈니스용 OneDrive의 외부 공유](https://docs.microsoft.com/onedrive/manage-sharing)를 위한 컨트롤을 구현하여 중요한 회사 데이터를 보호하고 조직의 정보 정책을 충족합니다. 인증된 외부 사용자만 회사 데이터에 액세스할 수 있도록 합니다.|
 |Office 365 내에서 기본 제공 감사 기능을 사용하여 중요 또는 위험한 활동을 모니터링합니다.|•   Office 365 보안 및 준수 센터의 [경고 정책](alert-policies.md)을 사용하도록 설정하여 사용자 계정 권한이 상승되거나 중요한 데이터가 액세스될 때와 같은 중요한 활동이 일어날 때 자동 알림을 발생합니다. 권한이 부여된 모든 기능을 검사하고 모니터링해야 합니다.<br>• 정규 흐름에서 보안 및 준수 센터의 [감사 기록을 검색](search-the-audit-log-in-security-and-compliance.md)하여 테넌트의 구성 설정에 적용된 변경 사항을 검토하십시오.<br>•  감사 로그 데이터를 장기간 저장하는 경우 Office 365 관리 작업 API 참조를 사용하여 SIEM(보안 정보 및 이벤트 관리) 도구와 통합합니다.|
 |전자 메일 및 Office 문서의 링크 및 첨부 파일에 대해 Advanced Threat Protection을 배포합니다.|[Office 365 ATP(Advanced Threat Protection)](/security/office-365-security/office-365-atp)를 구현하여 악의적인 링크 및 첨부 파일이 들어 있는 피싱 전자 메일 및 Office 문서를 포함하는 가장 일반적인 공격 벡터를 방지합니다.|
 |||

@@ -15,15 +15,16 @@ search.appverid:
 ms.assetid: 0bcecdd4-3343-4cc0-9e58-e19d4de515e8
 ms.collection:
 - M365-security-compliance
+- m365-initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 목록 해제 포털을 사용 하 여 Microsoft 365 수신 거부 목록에서 자신을 제거 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 2256cde6a3ca3a8ddd728cb2464adff702fa94c8
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 56972c758d64493782fd105db52b0c6663baf9ae
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195834"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48412445"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>목록 해제 포털을 사용하여 수신 거부 목록에서 본인 제거
 

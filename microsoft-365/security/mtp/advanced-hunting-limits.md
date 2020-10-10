@@ -15,14 +15,16 @@ author: lomayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365-initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: aaba01f5970c9abf55f5fae760d1ba1fed8ba914
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: ad21b4241d7cbbcc85639a0a10b47971e5fcebcb
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199880"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48412697"
 ---
 # <a name="advanced-hunting-service-limits"></a>고급 구하기 서비스 제한
 
@@ -34,7 +36,7 @@ ms.locfileid: "48199880"
 
 서비스의 성능과 응답성을 유지 하기 위해 고급 구하기에서는 수동으로 실행 되는 쿼리와 [사용자 지정 검색 규칙](custom-detection-rules.md)에 따라 다양 한 제한이 설정 됩니다. 이러한 제한을 이해 하려면 다음 표를 참조 하세요.
 
-| 제한 유형 | 크기 | 새로 고침 주기 | 설명 |
+| Limit | 크기 | 새로 고침 주기 | 설명 |
 |--|--|--|--|
 | 데이터 범위 | 30일 | 모든 쿼리 | 각 쿼리는 최근 30 일까지 데이터를 조회할 수 있습니다. |
 | 결과 집합 | 1만 행 | 모든 쿼리 | 각 쿼리는 최대 1만 개의 레코드를 반환할 수 있습니다. |

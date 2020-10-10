@@ -13,20 +13,21 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
+- m365-initiative-m365-defender
 description: Office 365의 보안, EOP부터 ATP 요금제 1 및 2, 표준 및 고급 보안 구성 등이 추가 됩니다. 사용자의 정의 및 속성을 보호 하는 방법을 이해 합니다.
-ms.openlocfilehash: c5b357dc7a08eeef099b25172169d04cdb81e8c4
-ms.sourcegitcommit: 5abd5ef8c2903b4c3bd875da68049fde26768dcf
+ms.openlocfilehash: d650a02faa21ac6ade39506d2c423dd319951bef
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48359156"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413057"
 ---
 # <a name="office-365-security-overview"></a>Office 365 보안 개요
 
 이 문서에서는 클라우드의 새 보안 속성을 소개 합니다. 보안 작업 센터의 일부 인지에 관계 없이 해당 공간에 대 한 보안 관리자 이거나, 리프레셔를 사용 하 여 시작 해 보세요.
 
 > [!CAUTION]
-> 안녕. **Outlook.com**, **microsoft 365 제품군**또는 **Microsoft 365 Personal**을 사용 하 고 있고 *안전한 링크* 또는 *안전한 첨부 파일* 정보가 필요한 경우 ***이 링크***: [Microsoft 365 구독자에 대 한 고급 Outlook.com 보안](https://support.microsoft.com/office/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)을 클릭 합니다. 괜찮습니다!
+> **Outlook.com**, **microsoft 365 제품군**또는 **Microsoft 365 Personal**을 사용 하 고 있고 *안전한 링크* 또는 *안전한 첨부 파일* 정보가 필요한 경우 ***이 링크***: [Microsoft 365 구독자에 대 한 고급 Outlook.com 보안](https://support.microsoft.com/office/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)을 클릭 합니다.
 
 ## <a name="office-365-security-spelled-out"></a>Office 365 보안에 대 한 자세한 표기
 
@@ -83,7 +84,7 @@ ATP 계획을 추가 하는 것이 순수한 EOP threat management에 대 한 �
 **Exchange Online Protection**을 사용 하 여 시작:
 <p>
 
-|방지/감지  |조사  |반응할  |
+|방지/감지  |조사  |응답  |
 |---------|---------|---------|
 | 기술에는 다음이 포함 됩니다.<ul><li>스팸</li><li>피싱</li><li>맬웨어</li><li>대량 메일</li><li>스푸핑 인텔리전스</li><li>가장 검색</li><li>관리자 격리</li><li>가양성 및 거짓 네거티브를 관리 하 고 사용자 제출</li><li>Url 및 파일에 대 한 허용/차단</li><li>보고서</li></u1>|<li>감사 로그 검색</li><li>메시지 추적</li>|<li>제로 시간 자동 제거 (ZAP)</li><li>허용 및 차단 목록의 구체화 및 테스트</li>|
 
@@ -94,7 +95,7 @@ EOP를 자세히 검토 하려면 **[이 문서를 참조](https://review.docs.m
 **Advanced Threat Protection의 향상 된 기능, 계획 1** (날짜):
 <p>
 
-|방지/감지  |조사  |반응할  |
+|방지/감지  |조사  |응답  |
 |---------|---------|---------|
 | 기술에는 EOP plus의 모든 것이 포함 됩니다.<u1><li>안전한 첨부 파일</li><li>안전한 링크<li>작업에 대 한 ATP 보호 (예: SharePoint Online, 팀, 비즈니스용 OneDrive)</li><li>전자 메일, Office 클라이언트 및 팀의 클릭 시간 보호</li><li>ATP 피싱 방지</li><li>사용자 및 도메인 가장 보호</li><li>경고에 대 한 알림 및 SIEM 통합 API</li>|<li>검색에 대 한 SIEM 통합 API</li><li>**실시간 검색 도구**</li><li>URL 추적</li>|<li>동일</li></u1>
 
@@ -105,7 +106,7 @@ ATP P1은 조사를 위해 **실시간** 검색도 추가 합니다. 이 위협 
 **Advanced Threat Protection에서 향상 된 기능, 계획 2** (날짜):
 <p>
 
-|방지/감지  |조사  |반응할  |
+|방지/감지  |조사  |응답  |
 |---------|---------|---------|
 | 기술에는 EOP의 모든 것과 ATP P1 plus가 포함 됩니다.<u1><li>동일</li>|<li>**위협 탐색기**</li><li>위협 트래커</li><li>캠페인 보기</li>|<li>자동 조사 및 대응 (AIR)</li><li>위협 탐색기의 AIR</li><li>손상 된 사용자를 위한 AIR</li><li>자동 조사를 위한 SIEM 통합 API</li>
 

@@ -1,5 +1,5 @@
 ---
-title: 사용자 전송 정책
+title: 사용자 제출 정책
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,15 +14,16 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
+- m365-initiative-defender-office365
 description: 관리자는 사용자가 보고 하는 스팸 및 피싱 전자 메일을 수집 하도록 사서함을 구성 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: bffa70184a9307869ce6170ba1ea05ae3f084ccf
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: 8347463a4c3f41b6b6333d35c5b4207d1b94aabe
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350284"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48412565"
 ---
-# <a name="user-submissions-policies"></a>사용자 전송 정책
+# <a name="user-submissions-policies"></a>사용자 제출 정책
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 

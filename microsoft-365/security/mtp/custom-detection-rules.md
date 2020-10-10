@@ -15,14 +15,16 @@ author: lomayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365-initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: e3388bd0d3a7ac6afff0109eb80945d3ddc362fd
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: a0fb30915cac875e1e5278ecec2b3a1c65685f37
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198900"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48412529"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>사용자 지정 검색 규칙 만들기 및 관리
 
@@ -69,7 +71,7 @@ Microsoft 365 보안 센터에서 **고급 구하기** 로 이동 하 여 기존
     - `DeviceName`
     - `RemoteDeviceName`
     - `RecipientEmailAddress`
-    - `SenderFromAddress` (봉투 보낸 사람 또는 반환 경로 주소)
+    - `SenderFromAddress` (봉투 보낸 사람 또는 Return-Path 주소)
     - `SenderMailFromAddress` (전자 메일 클라이언트에 의해 표시 되는 보낸 사람 주소)
     - `RecipientObjectId`
     - `AccountObjectId`

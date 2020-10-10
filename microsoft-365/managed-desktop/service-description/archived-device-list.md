@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: acdca0a70fb28b10f053da8f79b4e37c9c7632f5
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 4bfda869972c5650a99395a5fd16c6ad7ddb4f11
+ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529926"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48409027"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Microsoft Managed Desktop 보관 장치
 
@@ -42,13 +42,17 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 | Dell Latitude 5490| 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | **1 월 9 일, 2023** |
 | Dell Latitude 7390 7390 2-1/7490 | 256 GB/Intel i5/8gb RAM   | IR 카메라 필요 | **1 월 9 일, 2023** |
 |HP EliteBook 830/840/850 G5| 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU  | **2 월 15 일 2023** |
+|HP EliteBook 830/840/850 G6| 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU  | **11 월 30 일, 2023** |
 |HP 정예 x2 1013 G3| 256 GB/Intel i5/8gb RAM | 5VS03AV를 사용한 SKU, IR 카메라 필요 |**5 월 14 일 2023** |
-|HP EliteBook x360 1030 G3| 256 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 |**5 월 14 일 2023** |
+|HP EliteBook x360 1030 G5| 256 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 |**5 월 14 일 2023** |
+|HP EliteBook x360 1030 G6| 256 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 |**11 월 30 일, 2023** |
 |HP EliteBook x360 1040 G5| 256 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 | **2023 년 10 월 23 일** |
+|HP EliteBook x360 1040 G6| 256 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 | **11 월 30 일, 2023** |
 |HP ProBook x360 440 G1| 128 GB/Intel i3/8gb RAM | 5VS04AV, IR 카메라 또는 지문 판독기가 필요한 SKU | **7 월 6 일 2023** |
 |HP EliteDesk 800 G4 DM | 128 GB/Intel i3/8gb RAM | 5VS04AV를 사용한 SKU | **7 월 18 일 2023** |
 |HP EliteDesk 800 G4 SFF | 128 GB/Intel i3/8gb RAM | 5VS04AV를 사용한 SKU | **7 월 18 일 2023** |
 |AIO HP EliteOne 800 G4 23.8 |128 GB/Intel i3/8gb RAM |5VS04AV를 사용한 SKU| **7 월 18 일 2023** |
+|HP ZBook 14u/15u G6 모바일 워크스테이션 |256 GB/Intel i5/8gb RAM |5VS04AV를 사용한 SKU, IR 카메라 필요| **11 월 30 일, 2023** |
 |Surface Book 2| 256 GB/Intel i5/8gb RAM | 없음 | **2022 년 11 월 16 일** |
 |표면 이동| 128 GB/Intel 4415Y/8GB RAM | 없음 | **8 월 2 일, 2023** |
 |Surface 랩탑| 256 GB/Intel i5/8gb RAM | 없음 | **5 월 20 일, 2022** |

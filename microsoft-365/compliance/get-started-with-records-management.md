@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 법률, 비즈니스 또는 규제 의무에 대한 높은 가치의 콘텐츠를 관리하는 Microsoft 365의 레코드 관리 솔루션이 필요하지만 어디서 시작해야 하나요? 시작을 도와주는 실질적인 지침을 참조하세요.
-ms.openlocfilehash: fd3e3368b7a23cb31a8df4953268576de2419f89
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: b7fc33e8a58857d839598cc74cdddc5247fd4a0d
+ms.sourcegitcommit: 7e8151ff74cb1cfc0dd59fadcac423c338415d77
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333854"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48390165"
 ---
 # <a name="get-started-with-records-management"></a>레코드 관리 시작
 
@@ -85,6 +85,6 @@ Microsoft 365에서 레코드 관리 솔루션을 사용하여 법률, 비즈니
 
 레코드 관리에 사용되는 보존 레이블에는 Microsoft 365 앱에 UI 상태가 있습니다. 프로덕션 네트워크에 보존 레이블을 배포하기 전에 최종 사용자와 지원 센터에 대한 지침을 제공하세요.
 
-가장 효과적인 최종 사용자 문서는 선택한 보존 레이블 이름 및 구성에 대한 사용자 지정 안내사항 및 지침입니다. 그러나 기본 지침으로 다음 정보를 사용할 수 있습니다.
+가장 효과적인 최종 사용자 문서는 선택한 보존 레이블 이름 및 구성에 대한 사용자 지정 안내사항 및 지침입니다. 사용자를 교육하고 채택을 유도하는 데 사용할 수 있는 다운로드 패키지는 다음 게시물을 참조하세요 [M365의 보존 레이블에 대한 최종 사용자 교육 – 채택을 가속화하는 방법](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-retention-labels-in-m365-how-to-accelerate/ba-p/1750861).
 
-- [수동으로 보존 레이블 적용하기](create-apply-retention-labels.md#manually-apply-retention-labels)
+다음 섹션에서도 기본 사용자 지침을 확인할 수 있습니다. [수동으로 보존 레이블 적용](create-apply-retention-labels.md#manually-apply-retention-labels).

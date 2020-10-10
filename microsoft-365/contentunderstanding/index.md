@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에 대한 리소스를 찾는 방법을 알아봅니다.
-ms.openlocfilehash: 5d375b27fe3cd58069851f12c459460ac605da83
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: 9580a2db62fc8ddef16e79817498eebe9feef6bb
+ms.sourcegitcommit: 7e8151ff74cb1cfc0dd59fadcac423c338415d77
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350776"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48390122"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex 소개
 
@@ -26,6 +26,12 @@ Microsoft SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이
 - 콘텐츠를 지식으로 변환
 
 이 페이지의 리소스는 조직에서 SharePoint Syntex를 배우고 사용하기 시작하는 데 도움을 주기 위해 설계되었습니다.
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GJXS] 
+
+</br>
 
 ## <a name="get-started"></a>시작하기
 
@@ -64,7 +70,7 @@ Microsoft SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
 |모델을 사용하여 작업하는 방법 알아보기|[콘텐츠 센터 만들기](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-content-center)<br><br>[분류자 만들기](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-classifier)<br><br>[추출기 만들기](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-an-extractor)<br><br>[양식 처리 모델 만들기](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-form-processing-model)<br><br>[설명 유형](https://docs.microsoft.com/microsoft-365/contentunderstanding/form-processing-overview)<br><br>[문서 이해 모델 적용](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-model)<br><br>[샘플 모델을 통해 문서 이해 모델에 대해 알아보기](https://docs.microsoft.com/microsoft-365/contentunderstanding/learn-about-document-understanding-models-through-the-sample-model)<br><br>|
-|모델에 보존 레이블 적용|[문서 이해와 양식 처리 모델의 차이](https://docs.microsoft.com/microsoft-365/contentunderstanding/difference-between-document-understanding-and-form-processing-model)|
+|모델에 보존 레이블 적용|[문서 이해 모델에 보존 레이블 적용](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-retention-label-to-a-model)|
 |추출기를 만들 때 관리되는 메타 데이터 서비스 용어 저장소 분류 사용|[추출기를 만들 때 용어 저장소 분류 활용](https://docs.microsoft.com/microsoft-365/contentunderstanding/leverage-term-store-taxonomy)|
 |모델에 대한 데이터를 확인하는 방법 알아보기|[모델 사용량 분석](https://docs.microsoft.com/microsoft-365/contentunderstanding/model-usage-analytics)|
 
