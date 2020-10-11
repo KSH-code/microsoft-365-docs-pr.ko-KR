@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 Globanet 여유 eDiscovery에서 Microsoft 365로 데이터를 가져오고 보관 하기 위한 커넥터를 설정할 수 있습니다. 이 데이터 커넥터를 사용 하면 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 통해 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: 4e0e57ff46656b45aea373a9c0ea6e530310272f
-ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
+ms.openlocfilehash: 93b3a84aea2144f7f3f83470303d0270681d9323
+ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48370394"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408638"
 ---
 # <a name="set-up-a-connector-to-archive-slack-ediscovery-data"></a>여유 시간 eDiscovery 데이터를 보관 하는 커넥터 설정
 
@@ -37,7 +37,7 @@ Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 소셜 미�
 
 3. Microsoft 365 준수 센터에서 만든 여유 eDiscovery 커넥터는 매일 Globanet Merge1 site에 연결 하 고 채팅 메시지를 Microsoft 클라우드의 안전한 Azure Storage 위치로 전송 합니다.
 
-4. 커넥터는 3 단계에서 설명한 것 처럼, *전자 메일* 속성 및 자동 사용자 매핑 값을 사용 하 여 변환 된 채팅 메시지 항목을 특정 사용자의 사서함으로 가져옵니다. 사용자 사서함에 " **여유 시간 eDiscovery** " 라는 받은 편지함 폴더의 새 하위 폴더가 만들어지고 해당 폴더로 채팅 메시지 항목을 가져오게 됩니다. 커넥터는 *Email* 속성 값을 사용 하 여이를 수행 합니다. 모든 채팅 메시지에는 채팅 메시지의 모든 참가자의 전자 메일 주소로 채워지는이 속성이 포함 되어 있습니다.
+4. 커넥터는 3 단계에서 설명한 것 처럼, *전자 메일* 속성 및 자동 사용자 매핑 값을 사용 하 여 변환 된 채팅 메시지 항목을 특정 사용자의 사서함으로 가져옵니다. **여유 시간 eDiscovery** 라는 받은 편지함 폴더의 새 하위 폴더가 사용자 사서함에 만들어지고 해당 폴더로 채팅 메시지 항목을 가져옵니다. 커넥터는 *Email* 속성 값을 사용 하 여이를 수행 합니다. 모든 채팅 메시지에는 채팅 메시지의 모든 참가자의 전자 메일 주소로 채워지는이 속성이 포함 되어 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -73,7 +73,7 @@ Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 소셜 미�
 
    여유 시간 eDiscovery 항목에는 조직의 사용자에 대 한 전자 메일 주소를 포함 하는 *email*이라는 속성이 포함 되어 있습니다. 커넥터가이 주소를 Microsoft 365 사용자와 연결할 수 있으면 해당 사용자의 사서함으로 항목을 가져옵니다.
 
-2. **관리 승인** 페이지에서 **동의 제공** 단추를 클릭 합니다. Microsoft 사이트로 리디렉션됩니다. **수락** 을 클릭 하 여 동의를 제공 합니다.
+2. **관리자 동의** 페이지에서 **동의를 제공**합니다 .를 클릭 합니다. Microsoft 사이트로 리디렉션됩니다. **수락** 을 클릭 하 여 동의를 제공 합니다.
 
    조직에서는 Office 365 가져오기 서비스가 조직의 사서함 데이터에 액세스할 수 있도록 허용 해야 합니다. 관리자의 동의를 제공 하려면 Microsoft 365 전역 관리자의 자격 증명을 사용 하 여 로그인 한 다음 승인 요청을 수락 해야 합니다. 전역 관리자로 로그인 하지 않은 경우 [이 페이지로](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) 이동 하 여 전역 관리자 자격 증명을 사용 하 여 로그인 하 고 요청을 수락할 수 있습니다.
 

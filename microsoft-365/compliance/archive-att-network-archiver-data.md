@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는&T 모바일 네트워크에서 SMS 및 MMS 데이터를 가져오고 보관 하도록 TeleMessage 커넥터를 설정할 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: 87974fd18f0e0a7c824e81231418ccf1c838b636
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 253acb23e9ac2cd5d97dfd2aaaedecec3d91a91f
+ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200253"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408976"
 ---
 # <a name="set-up-a-connector-to-archive-att-smsmms-data"></a>&T SMS/MMS 데이터에 보관할 커넥터 설정
 
@@ -37,7 +37,7 @@ SMS 및 MMS 메시지가 사용자 사서함에 저장 되 면 소송 보존, �
 
 3. Microsoft 365 준수 센터에서 만드는 AT&T 네트워크 커넥터는 매일 TeleMessage 사이트에 연결 하 고 SMS 및 MMS 메시지를 이전 24 시간에서 Microsoft 클라우드의 안전한 Azure Storage 위치로 전송 합니다. 또한이 커넥터는 SMS 및 MMS 메시지의 콘텐츠를 전자 메일 메시지 형식으로 변환 합니다.
 
-4. 커넥터는 모바일 통신 항목을 특정 사용자의 사서함으로 가져옵니다. **&T SMS/MMS 네트워크 Winrar에서** 이름이 지정 된 새 폴더가 사용자의 사서함에 만들어지고이 폴더에 항목을 가져오게 됩니다. 커넥터는 *사용자의 전자 메일 주소* 속성 값을 사용 하 여이 매핑을 수행 합니다. 모든 SMS 및 MMS 메시지에는 메시지의 모든 참가자의 전자 메일 주소로 채워지는이 속성이 포함 되어 있습니다.
+4. 커넥터는 모바일 통신 항목을 특정 사용자의 사서함으로 가져옵니다. **&T SMS/MMS 네트워크 Winrar에서** 이름이 지정 된 새 폴더가 사용자의 사서함에 만들어지고 해당 폴더로 항목을 가져옵니다. 커넥터는 *사용자의 전자 메일 주소* 속성 값을 사용 하 여이 매핑을 수행 합니다. 모든 SMS 및 MMS 메시지에는 메시지의 모든 참가자의 전자 메일 주소로 채워지는이 속성이 포함 되어 있습니다.
  
    *사용자의 전자 메일 주소* 속성 값을 사용 하는 자동 사용자 매핑 외에도 CSV 매핑 파일을 업로드 하 여 사용자 지정 매핑을 정의할 수 있습니다. 이 매핑 파일에는 조직의 사용자에 대 한 휴대폰 번호와 해당 Microsoft 365 전자 메일 주소가 포함 되어 있습니다. 자동 사용자 매핑과 사용자 지정 매핑을 모두 사용 하도록 설정 하는 경우 모든 전자 메일 항목에 대해 커넥터는 먼저 사용자 지정 매핑 파일을 찾습니다. 휴대폰 번호에 해당 하는 유효한 Microsoft 365 사용자를 찾지 못하면 커넥터는 가져오려고 하는 항목의 전자 메일 주소 속성 값을 사용 합니다. 커넥터가 사용자 지정 매핑 파일 또는 전자 메일 항목의 전자 메일 주소 속성에서 유효한 Microsoft 365 사용자를 찾지 못하면 항목을 가져오지 않습니다.
 

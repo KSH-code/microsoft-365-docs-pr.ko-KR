@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 아이스크림 채팅 도구에서 Microsoft 365로 데이터를 가져오고 보관 하기 위한 커넥터를 설정할 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: 94a2d35b9bb8d3a0edae0eebeae53d7dd7b04af2
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: cd56e98aadc2b7328b733939ecc8951413309ba5
+ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196371"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408768"
 ---
 # <a name="set-up-a-connector-to-archive-ice-chat-data"></a>얼음 채팅 데이터를 보관 하는 커넥터 설정
 
@@ -37,7 +37,7 @@ Microsoft 365 준수 센터의 네이티브 커넥터를 사용 하 여 ICE Chat
 
 3. Microsoft 365 준수 센터에서 만드는 아이스크림 채팅 커넥터는 매일 ICE 채팅 SFTP 사이트에 연결 하 고 이전 24 시간에서 Microsoft 클라우드의 안전한 Azure Storage 위치로 채팅 메시지를 전송 합니다. 또한이 커넥터는 채팅 massage의 콘텐츠를 전자 메일 메시지 형식으로 변환 합니다.
 
-4. 커넥터는 채팅 메시지 항목을 특정 사용자의 사서함으로 가져옵니다. 그러면 사용자 사서함에 **ICE chat** 라는 새 폴더가 만들어지고 채팅 메시지 항목을 해당 폴더로 가져오게 됩니다. 커넥터는 *SenderEmail* 및 *RecipientEmail* 속성 값을 사용 하 여 수행 합니다. 모든 채팅 메시지에는 보낸 사람의 전자 메일 주소와 채팅 메시지의 모든 받는 사람/참가자가 채워지는 이러한 속성이 포함 되어 있습니다.
+4. 커넥터는 채팅 메시지 항목을 특정 사용자의 사서함으로 가져옵니다. 사용자 사서함에 **ICE chat** 라는 새 폴더가 만들어지고 해당 폴더로 채팅 메시지 항목을 가져옵니다. 커넥터는 *SenderEmail* 및 *RecipientEmail* 속성 값을 사용 하 여 수행 합니다. 모든 채팅 메시지에는 보낸 사람의 전자 메일 주소와 채팅 메시지의 모든 받는 사람/참가자가 채워지는 이러한 속성이 포함 되어 있습니다.
 
    *SenderEmail* 및 *RecipientEmail* 속성의 값을 사용 하는 자동 사용자 매핑 외에, 즉 커넥터가 보낸 사람의 사서함 및 모든 받는 사람의 사서함으로 채팅 메시지를 가져오지만, CSV 매핑 파일을 업로드 하 여 사용자 지정 user mapping을 정의할 수도 있습니다. 이 매핑 파일에는 조직의 모든 사용자에 대 한 ICE 채팅 *Imid* 와 해당 Microsoft 365 사서함 주소가 포함 되어 있습니다. 자동 사용자 매핑을 사용 하도록 설정 하 고 사용자 지정 매핑 파일을 제공 하는 경우 모든 채팅 항목에 대해 커넥터는 먼저 사용자 지정 매핑 파일을 확인 합니다. 사용자의 아이스크림 채팅 ImId에 해당 하는 유효한 Microsoft 365 사용자 계정을 찾지 못하면 커넥터는 채팅 항목의 *SenderEmail* 및 *RecipientEmail* 속성을 사용 하 여 해당 항목을 채팅 참가자의 사서함으로 가져옵니다. 커넥터가 사용자 지정 매핑 파일 또는 *SenderEmail* 및 *RecipientEmail* 속성에서 유효한 Microsoft 365 사용자를 찾지 못하면 항목을 가져오지 않습니다.
 

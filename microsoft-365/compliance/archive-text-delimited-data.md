@@ -12,24 +12,24 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 Globanet에서 텍스트 분리 된 데이터를 Microsoft 365로 가져오고 보관 하기 위한 커넥터를 설정할 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: 854e678067a26fd5fa1f89eb4b2f4f0327eac7a0
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 71614949e13e08d522ae8a7feb501dd439594e13
+ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196577"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408668"
 ---
 # <a name="set-up-a-connector-to-archive-text-delimited-data"></a>텍스트 구분 데이터를 보관 하는 연결선 설정
 
-Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 Microsoft 365 조직의 사용자 사서함에 텍스트로 구분 된 데이터를 가져오고 보관 합니다. [Globanet](https://globanet.com/merge1/) 에서는 타사 데이터 원본의 항목을 정기적으로 캡처하여 해당 항목을 Microsoft 365로 가져오는 방식으로 구성 된 텍스트 구분 커넥터를 제공 합니다. 이 커넥터는 텍스트를 구분한 데이터 원본의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 Microsoft 365에서 사용자의 사서함으로 가져옵니다.
+Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 Microsoft 365 조직의 사용자 사서함에 텍스트로 구분 된 데이터를 가져오고 보관 합니다. Globanet에서는 타사 데이터 원본의 항목을 정기적으로 캡처하여 해당 항목을 Microsoft 365로 가져오는 방식으로 구성 된 [텍스트 구분 커넥터](https://globanet.com/text-delimited) 를 제공 합니다. 이 커넥터는 텍스트를 구분한 데이터 원본의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 Microsoft 365에서 사용자의 사서함으로 가져옵니다.
 
-텍스트 분리 된 데이터가 사용자 사서함에 저장 되 면 소송 보존, eDiscovery, 보존 정책 및 보존 레이블과 통신 준수와 같은 Microsoft 365 준수 기능을 적용할 수 있습니다. Microsoft 365에서 데이터를 가져오고 보관 하기 위해 확대/축소 회의 커넥터를 사용 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
+텍스트 분리 된 데이터가 사용자 사서함에 저장 되 면 소송 보존, eDiscovery, 보존 정책 및 보존 레이블과 같은 Microsoft 365 준수 기능을 적용할 수 있습니다. Microsoft 365에서 텍스트 분리 데이터 커넥터를 사용 하 여 데이터를 가져오고 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
 
 보관이 끝나면 텍스트 분리 된 원본 통신을 유지 하 고, 규정 준수를 위해 감독 하 고, eDiscovery 및 내부 정보 거 버 넌 스로 검색할 수 있습니다.
 
-## <a name="overview-of-archiving-the-text-delimited-source"></a>텍스트 분리 된 원본 보관 개요
+## <a name="overview-of-archiving-the-text-delimited-data"></a>텍스트 구분 데이터 보관 개요
 
-다음 개요에서는 커넥터를 사용 하 여 Microsoft 365에서 텍스트 구분 원본 정보를 보관 하는 프로세스에 대해 설명 합니다.
+다음 개요에서는 커넥터를 사용 하 여 텍스트 분리 된 원본 정보를 Microsoft 365에 보관 하는 프로세스에 대해 설명 합니다.
 
 ![텍스트 구분 데이터에 대 한 보관 워크플로](../media/TextDelimitedConnectorWorkflow.png)
 
@@ -39,7 +39,7 @@ Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 Microsoft 36
 
 3. Microsoft 365 준수 센터에서 만든 텍스트 분리 커넥터는 매일 Globanet Merge1 site에 연결 하 고 메시지를 Microsoft 클라우드의 안전한 Azure Storage 위치로 전송 합니다.
 
-4. 커넥터는 3 단계에서 설명한 대로 자동 사용자 매핑의 *Email* 속성 값을 사용 하 여 변환 된 메시지 항목을 특정 사용자의 사서함으로 가져옵니다. **텍스트 분리** 된 받은 편지함 폴더의 새 하위 폴더가 사용자 사서함에 만들어지고 메시지 항목은 해당 폴더로 가져오게 됩니다. 커넥터는 *Email* 속성 값을 사용 하 여이를 수행 합니다. 모든 메시지에는 메시지의 모든 참가자의 전자 메일 주소로 채워지는이 속성이 포함 되어 있습니다.
+4. 커넥터는 3 단계에서 설명한 대로 자동 사용자 매핑의 *Email* 속성 값을 사용 하 여 변환 된 메시지 항목을 특정 사용자의 사서함으로 가져옵니다. **텍스트 분리** 된 받은 편지함 폴더의 새 하위 폴더가 사용자 사서함에 만들어지고 메시지 항목을 해당 폴더로 가져오게 됩니다. 커넥터는 *Email* 속성 값을 사용 하 여이를 수행 합니다. 모든 메시지에는 메시지의 모든 참가자의 전자 메일 주소로 채워지는이 속성이 포함 되어 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -63,7 +63,7 @@ Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 Microsoft 36
 
 ## <a name="step-2-configure-the-text-delimited-connector-on-the-globanet-merge1-site"></a>2 단계: Globanet Merge1 사이트에서 텍스트 구분 커넥터 구성
 
-두 번째 단계는 Merge1 사이트에서 텍스트 구분 연결선을 구성 하는 것입니다. Globanet Merge1 사이트에서 텍스트 구분 커넥터를 구성 하는 방법에 대 한 자세한 내용은 [Merge1 타사 커넥터 사용자 가이드](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Text-Delimited%20User%20Guide%20.pdf)를 참조 하십시오.
+두 번째 단계는 Merge1 사이트에서 텍스트 구분 연결선을 구성 하는 것입니다. Globanet Merge1 사이트에서 텍스트 구분 커넥터를 구성 하는 방법에 대 한 자세한 내용은 [Merge1 타사 커넥터 사용자 가이드](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20text-delimited%20User%20Guide%20.pdf)를 참조 하십시오.
 
 **마침을 & 저장**을 클릭 하면 Microsoft 365 준수 센터로 돌아옵니다, 커넥터 마법사의 **사용자 매핑** 페이지에 표시 됩니다.
 
@@ -73,7 +73,7 @@ Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 Microsoft 36
 
 1. **Microsoft 365 사용자에 게 외부 사용자 매핑** 페이지에서 자동 사용자 매핑을 사용 하도록 설정 합니다. 텍스트로 구분 된 원본 항목에는 조직의 사용자에 대 한 전자 메일 주소를 포함 하는 *email*이라는 속성이 포함 되어 있습니다. 커넥터가이 주소를 Microsoft 365 사용자와 연결할 수 있으면 해당 사용자의 사서함으로 항목을 가져옵니다.
 
-2. **관리 승인** 페이지에서 **동의 제공** 단추를 클릭 합니다. Microsoft 사이트로 리디렉션됩니다. **수락** 을 클릭 하 여 동의를 제공 합니다.
+2. **관리자 동의** 페이지에서 **동의를 제공**합니다 .를 클릭 합니다. Microsoft 사이트로 리디렉션됩니다. **수락** 을 클릭 하 여 동의를 제공 합니다.
 
    조직에서는 Office 365 가져오기 서비스가 조직의 사서함 데이터에 액세스할 수 있도록 허용 해야 합니다. 관리자의 동의를 제공 하려면 Microsoft 365 전역 관리자의 자격 증명을 사용 하 여 로그인 한 다음 승인 요청을 수락 해야 합니다. 전역 관리자로 로그인 하지 않은 경우 [이 페이지로](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) 이동 하 여 전역 관리자 자격 증명을 사용 하 여 로그인 하 고 요청을 수락할 수 있습니다.
 

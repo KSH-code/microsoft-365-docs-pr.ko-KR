@@ -12,14 +12,16 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
+- m365solution-mip
+- m365initiative-compliance
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 Microsoft 365의 고객 키와 서비스 암호화가 작동 하는 방식에 대해 설명 합니다.
-ms.openlocfilehash: 217e23eff89427e5bd30a1da4dd36729110ed563
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: fd00b910a9a33fb792c41c7f64f9721e2b5bd20f
+ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817957"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408986"
 ---
 # <a name="service-encryption-with-customer-key"></a>고객 키를 사용한 서비스 암호화
 
@@ -50,7 +52,7 @@ Microsoft 365에서는 BitLocker 및 DKM (분산 키 관리자)를 통해 사용
 
 ## <a name="about-the-data-encryption-policy-dep"></a>DEP (데이터 암호화 정책) 정보
 
-데이터 암호화 정책은 사용자가 제공한 각 키와 Microsoft에서 보호 하는 가용성 키를 사용 하 여 데이터를 암호화 하는 암호화 계층 구조를 정의 합니다. 각 서비스 마다 다른 PowerShell cmdlet을 사용 하 여 DEPs를 만들고 응용 프로그램 데이터를 암호화 하도록 해당 DEPs를 할당 합니다. 예시:
+데이터 암호화 정책은 사용자가 제공한 각 키와 Microsoft에서 보호 하는 가용성 키를 사용 하 여 데이터를 암호화 하는 암호화 계층 구조를 정의 합니다. 각 서비스 마다 다른 PowerShell cmdlet을 사용 하 여 DEPs를 만들고 응용 프로그램 데이터를 암호화 하도록 해당 DEPs를 할당 합니다. 예제:
 
 **Exchange Online 및 비즈니스용 Skype** 테 넌 트 당 최대 50 DEPs를 만들 수 있습니다. DEPs를 Azure 키 자격 증명 모음의 고객 키에 연결한 다음 개별 사서함에 DEPs를 할당 합니다. 사서함에 DEP를 할당 하는 경우 다음을 수행 합니다.
 

@@ -12,18 +12,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 TeleMessage Enterprise 번호 Winrar에서 SMS 및 MMS 데이터를 가져오고 보관 하도록 커넥터를 설정할 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: 1152c5e1d658e33e3056873d2230f6f94e58adc1
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 7609d61f70a49da4015cfc68b185fb10be0266c8
+ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200165"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408798"
 ---
 # <a name="set-up-a-connector-to-archive-enterprise-number-data"></a>Enterprise 번호 데이터를 보관 하는 커넥터 설정
 
 Microsoft 365 준수 센터의 TeleMessage 커넥터를 사용 하 여 엔터프라이즈 번호 Winrar에서 SMS (Short Messaging Service) 및 MMS (멀티미디어 메시징 서비스) 메시지, 채팅 메시지, 음성 통화 기록 및 음성 통화 로그를 가져오고 보관 합니다. 커넥터를 설정 하 고 구성한 후에는 매일 한 번씩 조직의 TeleMessage 계정에 연결 하 고 TeleMessage Enterprise 번호 Winrar를 사용 하 여 직원의 모바일 통신 데이터를 Microsoft 365의 사서함으로 가져옵니다.
 
-TeleMessage 엔터프라이즈 번호 Winrar 커넥터 데이터가 사용자 사서함에 저장 되 면 소송 보존, 콘텐츠 검색, 원본 위치 보관, 감사, 통신 준수 및 Microsoft 365 보존 정책과 같은 Microsoft 365 준수 기능을 Enterprise Number Winrar data에 적용할 수 있습니다. 예를 들어 TeleMessage Enterprise 번호 Winrar는 콘텐츠 검색을 사용 하 여 SMS, MMS 및 음성 통화를 검색 하거나, 엔터프라이즈 번호 Winrar 커넥터 데이터를 포함 하는 사서함을 Advanced eDiscovery 사례의 custodian과 연결할 수 있습니다. 엔터프라이즈 번호 Winrar 커넥터를 사용 하 여 Microsoft 365에서 데이터를 가져오고 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
+TeleMessage 엔터프라이즈 번호 Winrar 커넥터 데이터가 사용자 사서함에 저장 되 면 소송 보존, 콘텐츠 검색, In-Place 보관, 감사, 통신 준수 및 Microsoft 365 보존 정책 등의 Microsoft 365 준수 기능을 Enterprise Number Winrar data에 적용할 수 있습니다. 예를 들어 TeleMessage Enterprise 번호 Winrar는 콘텐츠 검색을 사용 하 여 SMS, MMS 및 음성 통화를 검색 하거나, 엔터프라이즈 번호 Winrar 커넥터 데이터를 포함 하는 사서함을 Advanced eDiscovery 사례의 custodian과 연결할 수 있습니다. 엔터프라이즈 번호 Winrar 커넥터를 사용 하 여 Microsoft 365에서 데이터를 가져오고 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
 
 ## <a name="overview-of-archiving-enterprise-number-data"></a>Enterprise 번호 데이터 보관 개요
 

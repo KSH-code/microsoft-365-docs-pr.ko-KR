@@ -15,18 +15,18 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: 관리자가 데이터 커넥터를 설정 하 고 사용 하 여 인스턴트 Bloomberg 채팅 도구에서 Microsoft 365로 데이터를 가져오고 보관 하는 방법을 알아봅니다.
-ms.openlocfilehash: 4df1a67ae9e372efe5c6e8c654f1a6821b5cb30d
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 3a00e74d138810c4f9bc2ca851696a8c39b9f082
+ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358240"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408758"
 ---
 # <a name="set-up-a-connector-to-archive-instant-bloomberg-data"></a>Instant Bloomberg 데이터를 보관할 커넥터 설정
 
 Microsoft 365 준수 센터의 네이티브 커넥터를 사용 하 여 [인스턴트 Bloomberg](https://www.bloomberg.com/professional/product/collaboration/) 공동 작업 도구에서 금융 서비스 채팅 데이터를 가져오고 보관 합니다. 커넥터를 설정 하 고 구성한 후에는 조직에서 매월 Bloomberg 보안 FTP 사이트 (SFTP)에 연결 하 고 채팅 메시지의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 Microsoft 365의 사서함으로 가져옵니다.
 
-인스턴트 Bloomberg 데이터가 사용자 사서함에 저장 되 면 소송 보존, 콘텐츠 검색, 원본 위치 보관, 감사, 통신 준수 및 인스턴트 Bloomberg 데이터에 대 한 Microsoft 365 보존 정책 등의 Microsoft 365 준수 기능을 적용할 수 있습니다. 예를 들어 콘텐츠 검색을 사용 하 여 인스턴트 Bloomberg 채팅 메시지를 검색 하거나, 고급 eDiscovery 사례의 custodian에 인스턴트 Bloomberg 데이터가 포함 된 사서함을 연결할 수 있습니다. 인스턴트 Bloomberg 커넥터를 사용 하 여 Microsoft 365에서 데이터를 가져오고 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
+인스턴트 Bloomberg 데이터를 사용자 사서함에 저장 한 후에는 소송 보존, 콘텐츠 검색, In-Place 보관, 감사, 통신 준수 및 인스턴트 Bloomberg 데이터에 대 한 Microsoft 365 보존 정책과 같은 Microsoft 365 준수 기능을 적용할 수 있습니다. 예를 들어 콘텐츠 검색을 사용 하 여 인스턴트 Bloomberg 채팅 메시지를 검색 하거나, 고급 eDiscovery 사례의 custodian에 인스턴트 Bloomberg 데이터가 포함 된 사서함을 연결할 수 있습니다. 인스턴트 Bloomberg 커넥터를 사용 하 여 Microsoft 365에서 데이터를 가져오고 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
 
 ## <a name="overview-of-archiving-instant-bloomberg-data"></a>인스턴트 Bloomberg 데이터 보관 개요
 

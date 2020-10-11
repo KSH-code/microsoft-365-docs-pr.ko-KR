@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 조직에 대 한 레거시 파일을 Office 365 메시지 암호화 (OME)로 전환 하는 방법을 이해 합니다.
-ms.openlocfilehash: 06c0e41d6c3b7cbf7d06bf6aae82742211bd2542
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: ecf4723df9afdf09d63150a3ec7564df44dd9808
+ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47306507"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408996"
 ---
 # <a name="legacy-information-for-office-365-message-encryption"></a>Office 365 메시지 암호화 레거시 정보
 
@@ -61,13 +61,108 @@ Office 365 메시지 암호화는 Microsoft Azure 권한 관리 (Azure RMS)를 �
   
 ## <a name="defining-mail-flow-rules-for-office-365-message-encryption-that-dont-use-the-new-ome-capabilities"></a>새 OME 기능을 사용 하지 않는 Office 365 메시지 암호화에 대 한 메일 흐름 규칙 정의
 
-새 기능 없이 Office 365 메시지 암호화를 사용 하도록 설정 하기 위해 Exchange Online 및 Exchange Online Protection 관리자는 Exchange 메일 흐름 규칙을 정의 합니다. 이러한 규칙은 전자 메일 메시지를 암호화 해야 하는 조건 및 메시지 암호화를 제거 하는 조건에 따라 결정 됩니다. 규칙에 대해 암호화 동작을 설정 하면 규칙 조건과 일치 하는 모든 메시지가 전송 되기 전에 암호화 됩니다.
-  
+새 기능 없이 Office 365 메시지 암호화를 사용 하도록 설정 하기 위해 Exchange Online 및 Exchange Online Protection 관리자는 Exchange 메일 흐름 규칙을 정의 합니다. 이러한 규칙은 전자 메일 메시지를 암호화 해야 하는 조건 및 메시지 암호화를 제거 하는 조건에 따라 결정 됩니다. 규칙에 대 한 암호화 작업을 설정 하면 서비스에서 메시지를 보내기 전에 규칙 조건과 일치 하는 모든 메시지에 대해 작업을 수행 합니다.
+
 메일 흐름 규칙은 융통성이 있으므로 단일 규칙에서 특정 보안 요구 사항을 충족할 수 있도록 조건을 조합할 수도 있습니다. 예를 들어 지정 된 키워드를 포함 하 고 외부 받는 사람에 게 보내는 모든 메시지를 암호화 하는 규칙을 만들 수 있습니다. Office 365 메시지 암호화도 암호화 된 전자 메일의 받는 사람 으로부터 회신을 암호화 하 고, 전자 메일 사용자의 편의를 위해 이러한 회신을 해독 하는 규칙을 만들 수 있습니다. 이렇게 하면 조직의 사용자가 암호화 포털에 로그인 하 여 회신을 볼 필요가 없습니다.
   
 Exchange 메일 흐름 규칙을 만드는 방법에 대 한 자세한 내용은 [Define rules For Office 365 Message Encryption](define-mail-flow-rules-to-encrypt-email.md)을 참조 하십시오.
   
-## <a name="sending-viewing-and-replying-to-encrypted-email-messages"></a>암호화된 전자 메일 메시지 보내기, 보기 및 회신
+### <a name="use-the-eac-to-create-a-mail-flow-rule-for-encrypting-email-messages-without-the-new-ome-capabilities"></a>EAC를 사용 하 여 새 OME 기능 없이 전자 메일 메시지를 암호화 하기 위한 메일 흐름 규칙 만들기
+
+1. 웹 브라우저에서 전역 관리자 권한이 부여 된 회사 또는 학교 계정을 사용 하 여 [Office 365에 로그인](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426#ID0EAABAAA=Web_browser)합니다.
+
+2. **관리** 타일을 선택 합니다.
+
+3. Microsoft 365 관리 센터에서 **관리 센터** \> **Exchange**를 선택 합니다.
+
+4. EAC에서 **메일 흐름** \> **규칙** 으로 이동 하 고 새로 만들기 **New** 아이콘을 선택 하 여 ![ ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **새 규칙을 만듭니다**. EAC를 사용 하는 방법에 대 한 자세한 내용은 exchange [Online의 exchange 관리 센터](https://docs.microsoft.com/exchange/exchange-admin-center)를 참조 하세요.
+
+5. **이름**에 DrToniRamos@hotmail.com에 대 한 메일 암호화와 같은 규칙의 이름을 입력 합니다.
+
+6. **다음의 경우 이 규칙 적용**에서 조건을 선택하고 필요한 경우 값을 입력합니다. 예를 들어 DrToniRamos@hotmail.com에 보내는 메시지를 암호화하려면 다음을 수행합니다.
+
+   1. **다음의 경우 이 규칙 적용**에서 **받는 사람이 다음과 같음**을 선택합니다.
+
+   2. 연락처 목록에서 기존 이름을 선택하거나 **이름 확인** 상자에 새 전자 메일 주소를 입력합니다.
+
+      - 기존 이름을 선택하려면 목록에서 이름을 선택한 다음 **확인**을 클릭합니다.
+
+      - 새 이름을 입력 하려면 **이름 확인** 상자에 전자 메일 주소를 입력 하 고 **이름** 확인 \> **을**선택 합니다.
+
+7. 조건을 더 추가 하려면 **기타 옵션** 을 선택한 다음 **조건 추가** 를 선택 하 고 목록에서를 선택 합니다.
+
+   예를 들어 받는 사람이 조직 외부에 있는 경우에만이 규칙을 적용 하려면 **조건 추가** 를 선택한 다음 받는 사람이 조직 외부에 있는 **외부/내부에** \> **Outside the organization** \> **OK**있습니다 .를 선택 합니다.
+
+8. 새 OME 기능을 사용 하지 않고 암호화를 사용 하도록 설정 하려면 **다음 작업**에서 **메시지 보안 수정을** 선택 하 여 \> **이전 버전의 OME를 적용**한 다음 **저장**을 선택 합니다.
+
+   IRM 라이선싱을 사용할 수 없다는 오류가 표시 되 면 레거시 OME를 사용 하 고 있지 않은 것입니다.
+
+9. 반드시 다른 작업을 지정 하려면 **작업 추가** 를 선택 합니다.
+
+### <a name="use-exchange-online-powershell-to-create-a-mail-flow-rule-for-encrypting-email-messages-without-the-new-ome-capabilities"></a>Exchange Online PowerShell을 사용 하 여 새 OME 기능 없이 전자 메일 메시지를 암호화 하기 위한 메일 흐름 규칙 만들기
+
+1. Exchange Online PowerShell에 연결합니다. 자세한 내용은 [원격 PowerShell을 사용하여 Exchange Online에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
+
+2. **New-transportrule** cmdlet을 사용 하 여 규칙을 만들고 _ApplyOME_ 매개 변수를로 설정 `$true` 합니다.
+
+   이 예에서는 DrToniRamos@hotmail.com으로 전송 되는 모든 전자 메일 메시지를 암호화 해야 합니다.
+
+   ```powershell
+   New-TransportRule -Name "Encrypt rule for Dr Toni Ramos" -SentTo "DrToniRamos@hotmail.com" -SentToScope "NotinOrganization" -ApplyOME $true
+   ```
+
+   어디서
+
+   - 새 규칙의 고유한 이름은 "Dr Toni에 대 한 암호화 규칙"입니다.
+   - _SentTo_ 매개 변수는 메시지 받는 사람 (이름, 전자 메일 주소, 고유 이름 등으로 식별 됨)을 지정 합니다. 이 예에서는 받는 사람이 전자 메일 주소 "DrToniRamos@hotmail.com"로 식별 됩니다.
+   - _SentToScope_ 매개 변수는 메시지 받는 사람의 위치를 지정 합니다. 이 예에서는 받는 사람의 사서함이 hotmail에 있고 조직의 일부가 아니므로 값 `NotInOrganization` 이 사용 됩니다.
+
+   자세한 구문 및 매개변수 정보 [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/New-TransportRule)을 참조하세요.
+
+### <a name="remove-encryption-from-email-replies-encrypted-without-the-new-ome-capabilities"></a>새 OME 기능을 사용 하지 않고 암호화 된 전자 메일 회신에서 암호화 제거
+
+전자 메일 사용자가 암호화된 메시지를 보내면 해당 메시지의 받는 사람은 암호화된 회신을 통해 응답을 할 수 있습니다. 메일 흐름 규칙을 만들면 조직의 전자 메일 사용자가 암호화 포털에 로그인 하 여 메시지를 볼 필요가 없도록 자동으로 회신에서 암호화를 제거할 수 있습니다. EAC 또는 Windows PowerShell cmdlet을 사용 하 여 이러한 규칙을 정의할 수 있습니다. 조직 내에서 전송 된 메시지를 해독 하거나 조직 내부에서 보낸 메시지에 회신 하는 메시지의 암호를 해독할 수 있습니다. 조직 외부에서 보낸 암호화 된 메시지의 암호를 해독할 수 없습니다.
+
+#### <a name="use-the-eac-to-create-a-rule-for-removing-encryption-from-email-replies-encrypted-without-the-new-ome-capabilities"></a>EAC를 사용 하 여 새 OME 기능 없이 암호화 된 전자 메일 응답에서 암호화를 제거 하는 규칙 만들기
+
+1. 웹 브라우저에서 관리자 권한이 부여 된 회사 또는 학교 계정을 사용 하 여 [Office 365에 로그인](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426#ID0EAABAAA=Web_browser)합니다.
+
+2. **관리** 타일을 선택 합니다.
+
+3. Microsoft 365 관리 센터에서 **관리 센터** \> **Exchange**를 선택 합니다.
+
+4. EAC에서 **메일 흐름** \> **규칙** 으로 이동 하 고 새로 만들기 **New** 아이콘을 선택 하 여 ![ ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **새 규칙을 만듭니다**. EAC를 사용 하는 방법에 대 한 자세한 내용은 exchange [Online의 exchange 관리 센터](https://docs.microsoft.com/exchange/exchange-admin-center)를 참조 하세요.
+
+5. **이름**에 규칙의 이름을 입력 합니다 (예: 받는 메일에서 암호화 제거).
+
+6. **다음의 경우이 규칙 적용** 에서 **받는 사람이** \> **조직 내부**에 있는 것과 같이 메시지에서 암호화를 제거 해야 하는 조건을 선택 합니다.
+
+7. **다음 작업 실행**에서 **메시지 보안 수정을** 선택 하 여 \> **이전 버전의 OME을 제거**합니다.
+
+8. **저장**을 선택합니다.
+
+#### <a name="use-exchange-online-powershell-to-create-a-rule-to-remove-encryption-from-email-replies-encrypted-without-the-new-ome-capabilities"></a>Exchange Online PowerShell을 사용 하 여 새 OME 기능 없이 암호화 된 전자 메일 응답에서 암호화를 제거 하는 규칙 만들기
+
+1. Exchange Online PowerShell에 연결합니다. 자세한 내용은 [원격 PowerShell을 사용하여 Exchange Online에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
+
+2. **New-transportrule** cmdlet을 사용 하 여 규칙을 만들고 _RemoveOME_ 매개 변수를로 설정 `$true` 합니다.
+
+   이 예에서는 조직의 받는 사람에 게 전송 되는 모든 메일에서 암호화를 제거 합니다.
+
+   ```powershell
+   New-TransportRule -Name "Remove encryption from incoming mail" -SentToScope "InOrganization" -RemoveOME $true
+   ```
+
+   어디서
+
+   - 새 규칙의 고유한 이름은 "받는 메일에서 암호화 제거"입니다.
+   - _SentToScope_ 매개 변수는 메시지 받는 사람의 위치를 지정 합니다. 이 예제에서는 `InOrganization` 다음 중 하나를 나타내는 값 값을 사용 합니다.
+     - 받는 사람이 조직의 사서함, 메일 사용자, 그룹 또는 메일 사용이 가능한 공용 폴더인 경우
+     - 받는 사람의 전자 메일 주소가 신뢰할 수 있는 도메인 이나 조직의 내부 릴레이 도메인으로 구성 된 허용 도메인에 _있으며_ , 인증 된 연결을 통해 메시지를 보내거나 받은 경우
+
+자세한 구문 및 매개변수 정보 [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/New-TransportRule)을 참조하세요.
+
+## <a name="sending-viewing-and-replying-to-messages-encrypted-without-the-new-capabilities"></a>새 기능을 사용 하지 않고 암호화 된 메시지 보내기, 보기 및 회신
 
 Office 365 메시지 암호화를 사용 하면 전자 메일 메시지가 관리자 정의 규칙에 따라 자동으로 암호화 됩니다. 암호화 된 메시지가 있는 전자 메일은 받는 사람의 받은 편지함에 첨부 된 HTML 파일로 도착 합니다.
   
@@ -76,7 +171,7 @@ Office 365 메시지 암호화를 사용 하면 전자 메일 메시지가 관�
 ## <a name="customize-encrypted-messages-with-office-365-message-encryption"></a>Office 365 메시지 암호화를 사용 하 여 암호화 된 메시지 사용자 지정
 
 Exchange Online 및 Exchange Online Protection 관리자는 암호화 된 메시지를 사용자 지정할 수 있습니다. 예를 들어 회사의 브랜드 및 로고를 추가 하 고, 소개를 지정 하 고, 받는 사람이 암호화 된 메시지를 볼 수 있는 포털에 설명, 텍스트를 추가 하는 등의 고 지 사항을 추가할 수도 있습니다. Windows PowerShell cmdlet을 사용하면 암호화된 전자 메일 메시지 받는 사람의 보기 환경에서 다음과 같은 요소를 사용자 지정할 수 있습니다.
-  
+
 - 암호화된 메시지를 포함하는 전자 메일의 소개 텍스트
 
 - 암호화된 메시지를 포함하는 전자 메일의 고지 사항 텍스트
@@ -91,26 +186,26 @@ Exchange Online 및 Exchange Online Protection 관리자는 암호화 된 메시
   
 ![암호화된 메시지 보기 페이지 예제](../media/TA-OME-3attachment2.jpg)
   
- **조직의 브랜드를 사용 하 여 암호화 전자 메일 메시지와 암호화 포털을 사용자 지정 하려면**
+**조직의 브랜드를 사용 하 여 암호화 전자 메일 메시지와 암호화 포털을 사용자 지정 하려면**
   
 1. [원격 powershell을 사용 하 여 Exchange online에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)하는 방법에 설명 된 대로 원격 powershell을 사용 하 여 exchange online에 연결 합니다.
 
-2. 여기에 설명 된 대로 Set-omeconfiguration cmdlet을 사용 하 여 Set-omeconfiguration를 참조 하거나 다음 표를 사용 하 여 지침을 [제공](https://technet.microsoft.com/3ef0aec0-ce28-411d-abe8-7236f082af1b) 합니다.
+2. 여기에 설명 된 대로 Set-OMEConfiguration cmdlet을 사용 [set-omeconfiguration](https://technet.microsoft.com/3ef0aec0-ce28-411d-abe8-7236f082af1b) 하거나 다음 표를 사용 하 여 지침을 참조 하십시오.
 
    **암호화 사용자 지정 옵션**
 
-|**암호화 환경에서 사용자 지정하려는 기능**|**사용할 Windows PowerShell 명령**|
+**암호화 환경에서 사용자 지정하려는 기능**|**사용할 Windows PowerShell 명령**|
 |:-----|:-----|
 |암호화된 전자 메일 메시지에 포함되는 기본 텍스트  <br/> 암호화된 메시지를 보기 위한 지침 위에 표시되는 기본 텍스트  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<string of up to 1024 characters>"` <br/> **예:**`Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system"` <br/> |
 |암호화된 메시지를 포함하는 전자 메일의 고지 사항 설명문  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> DisclaimerText "<your disclaimer statement, string of up to 1024 characters>"` <br/> **예:**`Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText "This message is confidential for the use of the addressee only"` <br/> |
 |암호화된 메일 보기 포털 위쪽에 표시되는 텍스트  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PortalText "<text for your portal, string of up to 128 characters>"` <br/> **예:**`Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal"` <br/> |
 |회사  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <Byte[]>` <br/> **예:**`Set-OMEConfiguration -Identity "OME configuration" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> 지원되는 파일 형식: .png, .jpg, .bmp 또는 .tiff  <br/> 로고 파일의 최적 크기: 40KB 미만  <br/> 최적 로그 이미지 크기: 170x70 픽셀  <br/> |
 
- **암호화 된 전자 메일 메시지와 암호화 포털에서 브랜드 사용자 지정을 제거 하려면**
+**암호화 된 전자 메일 메시지와 암호화 포털에서 브랜드 사용자 지정을 제거 하려면**
   
 1. [원격 powershell을 사용 하 여 Exchange online에 연결](https://technet.microsoft.com/library/jj984289%28v=exchg.150%29.aspx)하는 방법에 설명 된 대로 원격 powershell을 사용 하 여 exchange online에 연결 합니다.
 
-2. 여기에 설명 된 대로 Set-omeconfiguration cmdlet을 사용 하 여 [set-omeconfiguration를 설정](https://technet.microsoft.com/3ef0aec0-ce28-411d-abe8-7236f082af1b)합니다. DisclaimerText, EmailText 및 PortalText 값에서 조직의 브랜드 사용자 지정을 제거 하려면이 값을 빈 문자열 ()로 설정  `""` 합니다. 로고 등의 모든 이미지 값에 대해 값을로 설정  `"$null"` 합니다.
+2. [Set-omeconfiguration](https://technet.microsoft.com/3ef0aec0-ce28-411d-abe8-7236f082af1b)에 설명 된 대로 Set-OMEConfiguration cmdlet을 사용 합니다. DisclaimerText, EmailText 및 PortalText 값에서 조직의 브랜드 사용자 지정을 제거 하려면이 값을 빈 문자열 ()로 설정  `""` 합니다. 로고 등의 모든 이미지 값에 대해 값을로 설정  `"$null"` 합니다.
 
    **암호화 사용자 지정 옵션**
 
@@ -195,7 +290,7 @@ Office 365 메시지 암호화는 RMS (권한 관리 서비스)를 암호화 인
 
 자세한 내용은 [AD RMS 암호화 모드](https://go.microsoft.com/fwlink/p/?LinkId=398616)를 참조 하세요.
   
- **Q. 일부 암호화 된 메시지는 Office365@messaging.microsoft.com에서 제공 되는 이유는 무엇** 인가요?
+**Q. 일부 암호화 된 메시지는 Office365@messaging.microsoft.com에서 제공 되는 이유는 무엇** 인가요?
   
 암호화된 회신 암호화 포털에서 또는 OME 뷰어 앱을 통해 전송되는 경우 암호화된 메시지는 Microsoft 끝점을 통해 전송되므로 보내는 전자 메일 주소는 Office365@messaging.microsoft.com으로 설정됩니다. 이를 통해 암호화된 메시지가 스팸으로 표시되지 않도록 합니다. 암호화 포털 안의 주소 및 전자 메일에 표시되는 이름은 이 레이블을 지정으로 인해 변경되지 않습니다. 또한 다른 전자 메일 클라이언트를 통해서가 아니라 해당 포털을 통해 보낸 메시지에만 이 레이블 지정을 적용합니다.
   
@@ -223,7 +318,7 @@ Office 365 메시지 암호화는 RMS (권한 관리 서비스)를 암호화 인
   
 [Office 365 메시징 암호화 포털 개인 정보 취급 방침](https://privacy.microsoft.com/privacystatement) 은 Microsoft가 어떤 작업을 수행 하 고 있는지에 대 한 자세한 정보를 제공 합니다.
 
-## <a name="what-do-i-do-if-i-dont-receive-the-one-time-pass-code-after-i-requested-it"></a>요청 후 일회용 가공 패스 코드가 수신 되지 않는 경우 어떻게 해야 하나요?
+**답변. 요청 후 일회용 가공 패스 코드가 수신 되지 않는 경우 어떻게 해야 하나요?**
 
 먼저 전자 메일 클라이언트에서 정크 또는 스팸 폴더를 확인 합니다. 조직에 대 한 DKIM 및 DMARC 설정으로 인해 이러한 전자 메일이 스팸으로 필터링 될 수 있습니다.
 
