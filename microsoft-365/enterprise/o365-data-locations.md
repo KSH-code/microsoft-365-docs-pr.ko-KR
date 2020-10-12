@@ -16,22 +16,18 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Microsoft 365 고객 데이터가 전 세계에 저장되는 위치를 확인
-ms.openlocfilehash: 9f651cf2bf042a59efcfc9b76fd4349c839e7423
-ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
+ms.openlocfilehash: da58b5e322190e61d72dc30ac6e1ea075e8f48b4
+ms.sourcegitcommit: 39af527404cb06e05c5aa4550dbec39aec133016
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48384772"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48422632"
 ---
 <!--
 Note to new owner: Links in the Notes and FAQ sections need to be added from the source document at https://microsoft.sharepoint.com/:w:/t/golocalteam/Ebv6_Lw6FvNKucfA1eESTPUBy6O1MdvWEeT-L8O5a2HsIg?e=4%3AUfF1Uj&at=9&xsdata=MDR8MDF8am9zZXBoZEBtaWNyb3NvZnQuY29tfGM1ZTg1ODI0ZWRmMTRlN2E3MDkzMDhkNzgzNDMxYTczfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2MzcxMjIxOTY1MzQ5NjM5NDl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fC0x&sdata=MkxOUXhlZEdyR0I1SzBvd044d2hkd2RPaGN2RUpaS09jMkZTcys0dkZQRT0%3D
 -->
 
 # <a name="where-your-microsoft-365-customer-data-is-stored"></a>Microsoft 365 고객 데이터가 저장되는 위치
-
->[!Note]
->이 문서에 대한 업데이트는 Microsoft에서 엄격하게 관리합니다. 직접 수정한 내용은 게시되지 않습니다. 제안할 변경 사항이 있을 경우, 문서 끝에 피드백으로 제출하세요.
->
 
 아래 표는 미사용 고객 데이터가 모든 Microsoft 전역 클라우드 위치에서 Microsoft 365 서비스에 대해 저장되는 위치를 보여 줍니다. 청구지 주소 국가의 위치를 확장하여 각 서비스에 대한 고객 데이터가 저장되는 위치를 확인합니다.
 
@@ -109,10 +105,6 @@ Microsoft는 명시된 Geo 외부에 미사용 Intune 고객 데이터를 저장
   - 일반적으로 미국에 고객 데이터가 저장되지만 전역적으로 저장할 수 있는 미리 보기, 베타 또는 기타 시험판 서비스
 
 그렇지만 Microsoft는 고객이나 최종 사용자가 고객 데이터에 액세스할 수 있는 지리적 위치를 제어하거나 제한하지 않습니다. 
-
-### <a name="can-i-edit-the-information-in-this-article"></a>이 문서의 정보를 수정할 수 있나요?
-
-아니요. 이 문서에 대한 업데이트는 Microsoft에서 엄격하게 관리합니다. 직접 수정한 내용은 게시되지 않습니다. 제안할 변경 사항이 있을 경우, 문서 끝에 피드백으로 제출하세요.
 
 ## <a name="data-center-locations"></a>데이터 센터 위치
 
