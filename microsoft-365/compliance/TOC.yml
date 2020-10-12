@@ -324,22 +324,32 @@
               href: archive-twitter-data-with-sample-connector.md
         - name: Globanet 데이터 커넥터
           items:
+            - name: Cisco Jabber
+              href: archive-ciscojabberonmssql-data.md
             - name: EML
               href: archive-eml-data.md
-            - name: FX 연결
+            - name: FX Connect
               href: archive-fxconnect-data.md
+            - name: Jive
+              href: archive-jive-data.md
+            - name: Pivot
+              href: archive-pivot-data.md
             - name: Reuters Eikon
               href: archive-reuterseikon-data.md
-            - name: 여유 시간
+            - name: Slack eDiscovery
               href: archive-slack-data.md
             - name: Symphony
               href: archive-symphony-data.md
             - name: 텍스트 구분
               href: archive-text-delimited-data.md
+            - name: 웹 페이지
+              href: archive-webpagecapture-data.md
             - name: Webex Teams
               href: archive-webexteams-data.md
-            - name: Facebook의 작업 영역
+            - name: Workplace from Facebook
               href: archive-workplacefromfacebook-data.md
+            - name: XSLT/XML
+              href: archive-xslt-xml-data.md
             - name: Zoom 모임
               href: archive-zoommeetings-data.md
         - name: TeleMessage 데이터 커넥터
@@ -824,8 +834,14 @@
           href: auditing-troubleshooting-scenarios.md
         - name: 감사 로그에서 공유 감사 사용
           href: use-sharing-auditing.md
-        - name: 감사 로그에서 eDiscovery 활동 검색
-          href: search-for-ediscovery-activities-in-the-audit-log.md
+        - name: Office 365 관리 작업 API
+          items:
+            - name: Office 365 관리 작업 API 참고자료
+              href: 'https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference'
+            - name: Office 365 관리 작업 API 스키마
+              href: 'https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema'
+            - name: Office 365 관리 작업 API FAQ 및 문제 해결
+              href: 'https://docs.microsoft.com/office/office-365-management-api/troubleshooting-the-office-365-management-activity-api'
     - name: 사서함 감사
       href: enable-mailbox-auditing.md
     - name: 고급 감사

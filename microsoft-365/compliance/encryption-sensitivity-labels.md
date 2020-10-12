@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 description: 액세스 및 사용을 제한하여 데이터를 보호하는 암호화를 위한 민감도 레이블을 구성합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6a1be64f98def6676e27e1e0c1b3f7e031b31cba
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: a734d6f71a943964775477199025180d1a41426e
+ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196623"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408628"
 ---
-# <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한 
+# <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
 
@@ -68,7 +68,6 @@ ms.locfileid: "48196623"
 
 ![암호화에 대한 민감도 레이블 옵션](../media/encrytion-options-sensitivity-label.png)
 
-
 ### <a name="what-happens-to-existing-encryption-when-a-labels-applied"></a>레이블이 적용되면 기존 암호화는 어떻게 되나요?
 
 암호화되지 않은 컨텐츠에 민감도 레이블이 적용된 경우 선택할 수 있는 암호화 옵션의 결과는 자명합니다. 예를 들어 암호화가 **없음**으로 설정되면 콘텐츠가 암호화되지 않은 상태로 유지됩니다.
@@ -88,6 +87,7 @@ ms.locfileid: "48196623"
 |**관리자 정의 권한이 있는 레이블**|원래 암호화가 제거됨|새 레이블 암호화가 적용됨|원래 암호화가 제거됨|
 
 새 레이블 암호화가 적용되거나 원래 암호화가 제거된 경우, 레이블을 적용하는 사용자에게 이 작업을 지원하는 사용 권한 또는 역할이 있는 경우에만 발생합니다.
+
 - [사용 권한](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) 내보내기 또는 모든 권한.
 - [권한 관리 발급자 또는 권한 관리 소유자](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) 또는 [수퍼 사용자](https://docs.microsoft.com/azure/information-protection/configure-super-users)의 역할
 
@@ -99,7 +99,7 @@ ms.locfileid: "48196623"
 
 어떤 방법으로든 전자 메일 메시지를 암호화하면 전자 메일에 첨부된 암호화되지 않은 Office 문서는 자동으로 동일한 암호화 설정을 상속합니다.
 
-이미 암호화된 후 첨부 파일로 추가된 문서는 항상 원래 암호화를 유지합니다. 
+이미 암호화된 후 첨부 파일로 추가된 문서는 항상 원래 암호화를 유지합니다.
 
 ## <a name="configure-encryption-settings"></a>암호화 설정 구성
 
@@ -112,10 +112,9 @@ ms.locfileid: "48196623"
 
 또는 **비즈니스 계약서**라는 민감도 레이블을 사용하고, 사용자 조직의 워크플로에 따라 사용자가 임시로 다른 사용자와 이 콘텐츠에 대해 공동 작업해야 하는 경우, 사용자가 레이블을 지정할 때 권한을 받을 사용자를 결정할 수 있습니다. 이와 같은 유연성을 갖추어 사용자의 생산성은 향상되고 관리자가 특정 시나리오를 해결하기 위해 새 민감도 레이블을 업데이트하거나 만들어야 하는 요청은 줄일 수 있습니다.
 
-지금 권한을 할당할지 사용자가 권한을 할당하도록 허용할지 선택: 
+지금 권한을 할당할지 사용자가 권한을 할당하도록 허용할지 선택:
 
 ![사용자 또는 관리자가 정의한 권한 추가 옵션](../media/sensitivity-label-user-or-admin-defined-permissions.png)
-
 
 ## <a name="assign-permissions-now"></a>지금 권한 할당
 
@@ -162,7 +161,7 @@ ms.locfileid: "48196623"
 - 모든 특정 사용자 또는 전자 메일 사용이 가능한 보안 그룹, 분배 그룹 또는 Azure AD의 Microsoft 365 그룹([이전 Office 365 그룹](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601)). Microsoft 365 그룹에는 정적 또는 [동적 구성원](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)이 있을 수 있습니다. 이 그룹 유형은 Azure AD와 동기화되지 않으며 전자 메일을 사용할 수없는 보안 그룹을 사용할 수 없으므로 [Exchange에서 동적 메일 그룹](https://docs.microsoft.com/Exchange/recipients/dynamic-distribution-groups/dynamic-distribution-groups)을 사용할 수 없습니다.
 
 - 모든 전자 메일 주소 또는 도메인. 해당 조직에서 도메인 이름을 입력하여 Azure AD를 사용하는 다른 조직의 모든 사용자를 지정하려면 이 옵션을 사용합니다. 소셜 공급자의 도메인 이름(예: **gmail.com**, **hotmail.com** 또는 **outlook.com**)을 입력하여 소셜 공급자에 이 옵션을 사용할 수도 있습니다.
-    
+
     > [!NOTE]
     > Azure AD를 사용하는 조직에서 도메인을 지정할 경우 해당 특정 도메인에 대한 액세스를 제한할 수 없습니다. 대신에 Azure AD에서 확인된 모든 도메인은 사용자가 지정한 도메인 이름을 소유하는 테넌트에 자동으로 포함됩니다.
 
@@ -175,6 +174,7 @@ ms.locfileid: "48196623"
 이 설정은 레이블이 암호화하는 컨텐츠에 액세스할 수 있는 사람을 제한하지 않고 컨텐츠를 계속 암호화하고 컨텐츠 사용 방법(권한) 및 액세스 방법(만료 및 오프라인 액세스)을 제한하는 옵션을 제공합니다. 그러나 암호화된 콘텐츠를 여는 응용 프로그램은 사용되는 인증을 지원할 수 있어야 합니다. 이러한 이유로 Google과 같은 페더레이션된 소셜 공급자 및 일회용 암호 인증은 Exchange Online을 사용할 때에 한해 전자 메일에 대해서만 작동합니다. Microsoft 계정은 Office 365 앱 및 [Azure Information Protection 뷰어](https://portal.azurerms.com/#/download)와 함께 사용할 수 있습니다.
 
 인증된 사용자 설정에 대한 일반적인 시나리오는 다음과 같습니다.
+
 - 누가 컨텐츠를 보는지는 신경 쓰지 않지만 컨텐츠 사용 방법을 제한하려고 합니다. 예를 들어 내용의 편집, 복사 또는 인쇄를 원하지 않습니다.
 - 컨텐츠에 액세스하는 사람을 제한할 필요는 없지만 누가 컨텐츠를 여는지 확인하고 싶을 수 있습니다.
 - 콘텐츠는 저장 및 전송시 암호화되어야 하지만 액세스 제어는 필요하지 않습니다.
@@ -223,10 +223,11 @@ ms.locfileid: "48196623"
 
 - Outlook의 경우 사용자는 선택된 수신자에 대해 [전달 안 함](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails) 옵션에 해당하는 제한을 선택할 수 있습니다.
 
-- Word, PowerPoint 및 Excel의 경우 사용자에게 특정 사용자, 그룹 또는 조직에 대한 고유 권한을 선택하라는 메시지가 표시됩니다. 
+- Word, PowerPoint 및 Excel의 경우 사용자에게 특정 사용자, 그룹 또는 조직에 대한 고유 권한을 선택하라는 메시지가 표시됩니다.
+
     > [!NOTE]
     > Word, PowerPoint 및 Excel에 대한 이 옵션은 Azure Information Protection 통합 레이블 클라이언트에서 지원됩니다. 기본 제공 되는 레이블을 사용하는 앱의 경우에는 [어떤 앱이 지원하는지 확인하세요](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-word-excel-and-powerpoint).
-    > 
+    >
     > 이 옵션이 선택되었지만 사용자의 앱에서 지원되지 않는 경우, 해당 레이블은 사용자에게 표시되지 않거나 레이블이 일관성을 위해 표시되지만 설명 메시지와 함께 적용될 수 없습니다.
 
 옵션이 지원되면 다음 표를 사용하여 사용자에게 민감도 레이블이 표시되는 시기를 식별하세요.
@@ -272,7 +273,6 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 
 - MacOS: **검토** 탭 > **보호** > **사용 권한** > **제한된 액세스**
 
-
 ## <a name="example-configurations-for-the-encryption-settings"></a>암호화 설정의 예제 구성
 
 아래에 나오는 각 예제에 대해 [민감도 레이블을 만들거나 편집](create-sensitivity-labels.md#create-and-configure-sensitivity-labels) 시 마법사의 **암호화**페이지에서 구성을 수행합니다. 먼저 **암호화**가 **적용**으로 설정되어 있는지 확인합니다.
@@ -281,18 +281,17 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 
 ### <a name="example-1-label-that-applies-do-not-forward-to-send-an-encrypted-email-to-a-gmail-account"></a>예제 1: 적용되는 레이블 암호화된 전자 메일을 Gmail 계정으로 보내기 위해 전달하지 않습니다.
 
-이 레이블은 Outlook 및 웹에서의 Outlook에서만 사용할 수 있으며 Exchange Online을 사용해야 합니다. 사용자가 Gmail 계정(또는 조직 외부의 다른 전자 메일 계정)을 사용하는 사용자에게 암호화된 전자 메일을 보내야 하는 경우 이 레이블을 선택하도록 지시합니다. 
+이 레이블은 Outlook 및 웹에서의 Outlook에서만 사용할 수 있으며 Exchange Online을 사용해야 합니다. 사용자가 Gmail 계정(또는 조직 외부의 다른 전자 메일 계정)을 사용하는 사용자에게 암호화된 전자 메일을 보내야 하는 경우 이 레이블을 선택하도록 지시합니다.
 
-사용자는 **받는 사람** 상자에 Gmail 전자 메일 주소를 입력합니다.  그런 다음 레이블을 선택하면 전달 금지 옵션이 전자 메일에 자동으로 추가됩니다. 그 결과 받는 사람이 **다른 이름으로 저장** 옵션을 사용하여 전자 메일을 전달, 인쇄, 복사하거나 혹은 사서함 외부에 해당 전자 메일을 저장하는 것을 방지할 수 있습니다. 
+사용자는 **받는 사람** 상자에 Gmail 전자 메일 주소를 입력합니다.  그런 다음 레이블을 선택하면 전달 금지 옵션이 전자 메일에 자동으로 추가됩니다. 그 결과 받는 사람이 **다른 이름으로 저장** 옵션을 사용하여 전자 메일을 전달, 인쇄, 복사하거나 혹은 사서함 외부에 해당 전자 메일을 저장하는 것을 방지할 수 있습니다.
 
 1. **암호화** 페이지에서 다음을 수행합니다. **사용 권한을 지금 할당 혹은 사용자가 결정하도록 하기**에서 **사용자가 레이블을 적용할 때 사용 권한을 할당하도록 하기**를 선택합니다.
 
-3. 확인란 선택: **Outlook에서 전달 금지 옵션에 해당하는 제한 사항을 적용합니다**.
+2. 확인란 선택: **Outlook에서 전달 금지 옵션에 해당하는 제한 사항을 적용합니다**.
 
-4. 선택된 경우 확인란의 선택을 취소합니다. **Word, PowerPoint 및 Excel에서 사용자에게 사용 권한을 지정하라는 메시지를 표시합니다**.
+3. 선택된 경우 확인란의 선택을 취소합니다. **Word, PowerPoint 및 Excel에서 사용자에게 사용 권한을 지정하라는 메시지를 표시합니다**.
 
-5. **다음**을 선택하고 마법사를 완료합니다.
-
+4. **다음**을 선택하고 마법사를 완료합니다.
 
 ### <a name="example-2-label-that-restricts-read-only-permission-to-all-users-in-another-organization"></a>예제 2: 다른 조직의 모든 사용자에게 읽기 전용 권한을 제한하는 레이블
 
@@ -302,22 +301,21 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 
 1. **암호화** 페이지에서 다음을 수행합니다. **사용 권한을 지금 할당 혹은 사용자가 결정하도록 하기**에서 **지금 사용 권한을 할당**을 선택합니다.
 
-3. **오프라인 액세스를 허용**은 **절대 불허**를 선택합니다.
+2. **오프라인 액세스를 허용**은 **절대 불허**를 선택합니다.
 
-4. **사용 권한 할당**을 선택합니다.
+3. **사용 권한 할당**을 선택합니다.
 
-3. **사용 권한 할당** 창에서 **특정 전자 메일 주소 또는 도메인 추가**를 선택합니다.
+4. **사용 권한 할당** 창에서 **특정 전자 메일 주소 또는 도메인 추가**를 선택합니다.
 
-4. 텍스트 상자에 다른 조직의 도메인 이름을 입력 합니다(예:**fabrikam.com**). 그런 다음 **추가**를 선택합니다.
+5. 텍스트 상자에 다른 조직의 도메인 이름을 입력 합니다(예:**fabrikam.com**). 그런 다음 **추가**를 선택합니다.
 
-5. **사용 권한 선택** 선택
+6. **사용 권한 선택** 선택
 
-6. **사용 권한 선택** 창에서 드롭다운 상자를 선택하고 **뷰어**를 선택 한 다음 **저장**을 선택합니다.
+7. **사용 권한 선택** 창에서 드롭다운 상자를 선택하고 **뷰어**를 선택 한 다음 **저장**을 선택합니다.
 
-6. **사용 권한 할당** 창으로 돌아가서 **저장**을 선택합니다.
+8. **사용 권한 할당** 창으로 돌아가서 **저장**을 선택합니다.
 
-7. **암호화**페이지에서 **다음**을 선택하고 마법사를 완료합니다.
-
+9. **암호화**페이지에서 **다음**을 선택하고 마법사를 완료합니다.
 
 ### <a name="example-3-add-external-users-to-an-existing-label-that-encrypts-content"></a>예제 3: 콘텐츠를 암호화하는 기존 레이블에 외부 사용자 추가
 
@@ -339,10 +337,9 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 
 8. **암호화**페이지에서 **다음**을 선택하고 마법사를 완료합니다.
 
-
 ### <a name="example-4-label-that-encrypts-content-but-doesnt-restrict-who-can-access-it"></a>예제 4: 콘텐츠를 암호화하지만 액세스할 수 있는 사용자를 제한하지 않는 레이블
 
-이 구성은 전자 메일이나 문서를 암호화하는 데 사용자, 그룹 또는 도메인을 지정할 필요가 없다는 장점이 있습니다. 콘텐츠는 계속 암호화되므로 사용 권한, 만료 날짜 및 오프라인 액세스를 계속 지정할 수 있습니다. 
+이 구성은 전자 메일이나 문서를 암호화하는 데 사용자, 그룹 또는 도메인을 지정할 필요가 없다는 장점이 있습니다. 콘텐츠는 계속 암호화되므로 사용 권한, 만료 날짜 및 오프라인 액세스를 계속 지정할 수 있습니다.
 
 보호되는 문서 또는 전자 메일을 열 수 있는 사용자를 제한할 필요가 없는 경우에만 이 구성을 사용합니다. [이 설정에 대한 자세한 내용](#requirements-and-limitations-for-add-any-authenticated-users)
 
@@ -352,8 +349,8 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 
 3. **사용 권한 할당**을 선택합니다.
 
-4. **사용 권한 할당** 창에서 **인증된 사용자 추가**를 선택합니다. 
-    
+4. **사용 권한 할당** 창에서 **인증된 사용자 추가**를 선택합니다.
+
     **사용자 및 그룹**의 경우 **인증된 사용자**가 자동으로 추가되는 것을 확인할 수 있습니다. 이 값은 변경할 수 없고 삭제만 가능하며 삭제 시 **인증된 사용자 추가** 선택이 취소됩니다.
 
 5. **사용 권한 선택** 선택
@@ -369,26 +366,26 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 가장 중요한 문서와 전자 메일을 암호화하면 권한있는 사용자만 이 데이터에 액세스할 수 있습니다. 그러나 다음과 같은 몇 가지 고려해야 할 사항이 있습니다.
 
 - 조직이 [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블을 활성화](sensitivity-labels-sharepoint-onedrive-files.md)하지 않은 경우, 다음과 같이 작동합니다.
-    
-    - 암호화된 파일에는 검색, eDiscovery 및 Delve가 작동하지 않습니다.
-    - DLP 정책은 이러한 암호화된 파일의 메타 데이터(보존 레이블 정보 포함)에 대해서는 작동하지만 파일의 내용(예: 파일 내의 신용 카드 번호)에는 적용되지 않습니다.
-    - 사용자는 웹에서 Office를 사용하여 암호화된 파일을 열 수 없습니다. SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블을 사용하도록 설정하면 사용자는 웹에서 Office를 사용하여 암호화된 파일을 열 수 있습니다. 이 경우에는 온-프레미스 키("자체 키 보유" 또는 HYOK)를 사용하여 적용된 암호화, [이중 키 암호화](#double-key-encryption)와 민감도 레이블과 독립적으로 적용된 암호화를 포함하는 몇 가지 [제한 사항](sensitivity-labels-sharepoint-onedrive-files.md#limitations)이 있습니다.
+
+  - 암호화된 파일에는 검색, eDiscovery 및 Delve가 작동하지 않습니다.
+  - DLP 정책은 이러한 암호화된 파일의 메타 데이터(보존 레이블 정보 포함)에 대해서는 작동하지만 파일의 내용(예: 파일 내의 신용 카드 번호)에는 적용되지 않습니다.
+  - 사용자는 웹에서 Office를 사용하여 암호화된 파일을 열 수 없습니다. SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블을 사용하도록 설정하면 사용자는 웹에서 Office를 사용하여 암호화된 파일을 열 수 있습니다. 이 경우에는 온-프레미스 키("자체 키 보유" 또는 HYOK)를 사용하여 적용된 암호화, [이중 키 암호화](#double-key-encryption)와 민감도 레이블과 독립적으로 적용된 암호화를 포함하는 몇 가지 [제한 사항](sensitivity-labels-sharepoint-onedrive-files.md#limitations)이 있습니다.
 
 - 여러 사용자가 동시에 암호화된 파일을 편집하려면 모두 웹용 Office를 사용해야 합니다. 그와 같은 상황이 아니고 파일이 이미 열려있는 경우:
-    
-    - Office 앱(Windows, Mac, Android 및 iOS)에서, 사용자에게는 파일을 체크아웃한 사용자의 이름과 함께 **사용 중인 파일** 메시지가 표시됩니다. 그런 다음 읽기 전용 사본을 보거나 파일 사본을 저장 및 편집하고, 파일을 사용할 수 있을 때 알림을 받을 수 있습니다.
-    - 웹용 Office에서, 사용자에게는 다른 사람과 함께 문서를 편집할 수 없다는 오류 메시지가 표시됩니다. 그런 다음 **읽기용 보기에서 열기**를 선택할 수 있습니다.
+
+  - Office 앱(Windows, Mac, Android 및 iOS)에서, 사용자에게는 파일을 체크아웃한 사용자의 이름과 함께 **사용 중인 파일** 메시지가 표시됩니다. 그런 다음 읽기 전용 사본을 보거나 파일 사본을 저장 및 편집하고, 파일을 사용할 수 있을 때 알림을 받을 수 있습니다.
+  - 웹용 Office에서, 사용자에게는 다른 사람과 함께 문서를 편집할 수 없다는 오류 메시지가 표시됩니다. 그런 다음 **읽기용 보기에서 열기**를 선택할 수 있습니다.
 
 - 암호화된 파일에 대해서는 Office 앱(Windows, Mac, Android 및 iOS)의 [자동 저장](https://support.office.com/article/what-is-autosave-6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) 기능이 비활성화되어 있습니다. 사용자에게는 자동 저장을 설정하기 전에 사용 권한의 제한을 해제해야 한다는 메시지가 표시됩니다.
 
 - 암호화된 파일은 Office 앱(Windows, Mac, Android 및 iOS)에서 여는 데 시간이 더 걸릴 수 있습니다.
 
 - 암호화된 파일에 대한 다음 작업은 Office 앱(Windows, Mac, Android 및 iOS)에서 지원되지 않으며 사용자에게 문제가 있다는 오류 메시지가 표시됩니다. 그러나 SharePoint 기능을 대안으로 사용할 수 있습니다.
-    
-    - 이전 버전의 사본 보기, 복원 및 저장. 대안으로, 사용자는 [목록 또는 라이브러리에 대한 버전 관리를 활성화하고 구성할 때](https://support.office.com/article/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37) 웹에서 Office를 사용하여 이러한 작업을 수행할 수 있습니다. 
-    - 파일 이름 또는 위치 변경. 대안으로, 사용자는 SharePoint에서 [문서 라이브러리에서 파일, 폴더 또는 링크 이름 바꾸기](https://support.microsoft.com/ko-KR/office/rename-a-file-folder-or-link-in-a-document-library-bc493c1a-921f-4bc1-a7f6-985ce11bb185)를 할 수 있습니다.
 
-민감도 레이블로 암호화된 파일에 대한 최상의 공동 작업 환경을 위해서는 웹용 Office와 [SharePoint 및 OneDrive의 Office 파일에 대해 민감도 레이블을 사용](sensitivity-labels-sharepoint-onedrive-files.md)하는 것이 좋습니다. 
+  - 이전 버전의 사본 보기, 복원 및 저장. 대안으로, 사용자는 [목록 또는 라이브러리에 대한 버전 관리를 활성화하고 구성할 때](https://support.office.com/article/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37) 웹에서 Office를 사용하여 이러한 작업을 수행할 수 있습니다.
+  - 파일 이름 또는 위치 변경. 대안으로, 사용자는 SharePoint에서 [문서 라이브러리에서 파일, 폴더 또는 링크 이름 바꾸기](https://support.microsoft.com/office/rename-a-file-folder-or-link-in-a-document-library-bc493c1a-921f-4bc1-a7f6-985ce11bb185)를 할 수 있습니다.
+
+민감도 레이블로 암호화된 파일에 대한 최상의 공동 작업 환경을 위해서는 웹용 Office와 [SharePoint 및 OneDrive의 Office 파일에 대해 민감도 레이블을 사용](sensitivity-labels-sharepoint-onedrive-files.md)하는 것이 좋습니다.
 
 ## <a name="important-prerequisites"></a>중요한 필수 구성 요소
 
@@ -401,10 +398,10 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 ### <a name="configure-exchange-for-azure-information-protection"></a>Azure Information Protection에 대한 Exchange 구성
 
 사용자가 Outlook에서 전자 메일을 암호화하기 위해 레이블을 적용하기 전에 Azure Information Protection을 위해 Exchange를 구성할 필요는 없습니다. 그러나 Exchange에 Azure Information Protection을 구성하기 전에는 Exchange에서 Azure 권한 관리 보호 사용의 모든 기능을 이용할 수 없습니다.
- 
-예를 들어 사용자는 휴대폰 또는 웹에서의 Outlook으로 암호화된 전자 메일을 볼 수 없으며 검색 시 암호화된 전자 메일이 인덱싱되지 않으며 권한 관리 보호를 위한 Exchange Online DLP를 구성할 수 없습니다. 
+
+예를 들어 사용자는 휴대폰 또는 웹에서의 Outlook으로 암호화된 전자 메일을 볼 수 없으며 검색 시 암호화된 전자 메일이 인덱싱되지 않으며 권한 관리 보호를 위한 Exchange Online DLP를 구성할 수 없습니다.
 
 Exchange에서 이러한 추가 시나리오를 지원할 수 있는지 확인하려면 다음을 참조하세요.
 
 - Exchange Online의 경우 [Exchange Online: IRM 구성](https://docs.microsoft.com/azure/information-protection/configure-office365#exchangeonline-irm-configuration)에 대한 설명서를 참고하세요.
-- Exchange 온-프레미스의 경우 [RMS 커넥터를 배포하고 Exchange 서버를 구성](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector)해야 합니다. 
+- Exchange 온-프레미스의 경우 [RMS 커넥터를 배포하고 Exchange 서버를 구성](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector)해야 합니다.
