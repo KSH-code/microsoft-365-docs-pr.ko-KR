@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: 보안 및 준수 센터의 DLP (데이터 손실 방지)에는 &amp; dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다.
-ms.openlocfilehash: 8ee871ccde30d3ab71dbcb2d5183aafdf11482bd
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: adc1006628b8b4f13d30f2001fee0871b51b18ca
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235574"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430435"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>중요한 정보 유형 엔터티 정의
 
@@ -146,7 +146,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="format"></a>형식일
 
-뱅크 상태 분기 번호 유무에 관계 없이 6 ~ twn 자리 숫자
+뱅크 상태 번호를 포함 하거나 제외 하 고 6 ~ 10 자리 숫자
 
 ### <a name="pattern"></a>패턴
 
@@ -808,9 +808,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - reisepassnummer
 - reisepasse
-- Reisepass 
-- Veiligheid-Reisepass
-- Reisepass-Veiligheid
+- No-Reisepass 
+- Nr-Reisepass
+- Reisepass-Nr
 - Passnummer
 - reisepässe
 
@@ -1621,8 +1621,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 등록
 - registrationsnumme
 - registrierung
-- social security number
-
+- 주민 등록 번호
 - ssn #
 - ssn
 - steuernummer
@@ -1702,7 +1701,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - paspoortnummers
 - 포트 carte
 - 포트 livre
-- Veiligheid
+- Pass-Nr
 - Passnummer
 - reisepass kein
 
@@ -2162,8 +2161,7 @@ national id
 - personal no
 - 개인 번호
 - personalidnumber #
-- social security number
-
+- 주민 등록 번호
 - ssn #
 - ssn
 - 일정 한 민사 일련번호
@@ -3096,7 +3094,7 @@ master cards
 
 - carte blanche
 - carteblanche
-- credit card
+- 신용 카드
 - 참조란 #
 - 참조 #:
 - 
@@ -4038,8 +4036,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - rodné číslo
 - ssn
 - ssn #
-- social security number
-
+- 주민 등록 번호
 - tax id
 
 - 세금 식별 아니요
@@ -4306,8 +4303,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - kode
 - nummer에서
 - skattenummer
-- social security number
-
+- 주민 등록 번호
 - sundhedsforsikringskort
 - sundhedsforsikringsnummer
 - sundhed(고 ort)
@@ -5322,8 +5318,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - personalidnumber #
 - personbeteckning
 - personnummer
-- social security number
-
+- 주민 등록 번호
 - sosiaaliturvatunnus
 - tax id
 
@@ -6027,21 +6022,21 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyword_german_drivers_license_collaborative"></a>Keyword_german_drivers_license_collaborative
 
-- Veiligheid-Führerschein 
-- Veiligheid-Fuhrerschein 
-- Veiligheid-Fuehrerschein 
-- Führerschein 
-- Fuhrerschein 
-- Fuehrerschein 
+- Nr-Führerschein 
+- Nr-Fuhrerschein 
+- Nr-Fuehrerschein 
+- No-Führerschein 
+- No-Fuhrerschein 
+- No-Fuehrerschein 
 - N-Führerschein 
 - N-Fuhrerschein 
 - N-Fuehrerschein
-- Veiligheid-Führerschein 
-- Veiligheid-Fuhrerschein 
-- Veiligheid-Fuehrerschein 
-- Führerschein 
-- Fuhrerschein 
-- Fuehrerschein 
+- Nr-Führerschein 
+- Nr-Fuhrerschein 
+- Nr-Fuehrerschein 
+- No-Führerschein 
+- No-Fuhrerschein 
+- No-Fuehrerschein 
 - N-Führerschein 
 - N-Fuhrerschein 
 - N-Fuehrerschein 
@@ -6162,9 +6157,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - reisepasse
 - reisepassnummer
-- Reisepass 
-- Veiligheid-Reisepass
-- Reisepass-Veiligheid
+- No-Reisepass 
+- Nr-Reisepass
+- Reisepass-Nr
 - Passnummer
 - reisepässe
 - 포트 번호입니다.
@@ -8551,8 +8546,7 @@ national id
 registration number
 - 수익 번호
 - 사회적 보험 번호
-- social security number
-
+- 주민 등록 번호
 - 주 세금 코드
 - 세금 파일 번호
 - tax id
@@ -11277,8 +11271,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - rč
 - rodne cislo
 - rodné číslo
-- social security number
-
+- 주민 등록 번호
 - ssn #
 - ssn
 - személyi igazolvány szám
@@ -12632,8 +12625,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 인
 - 보험 번호
 - personalidno #
-- social security number
-
+- 주민 등록 번호
 - 개인 id 번호
 - 개인 식별 번호
 - insuranceno #
@@ -13134,8 +13126,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - protection act
 - 소유권
-- social security number
-
+- 주민 등록 번호
 - insurance application
 
 - medical application
