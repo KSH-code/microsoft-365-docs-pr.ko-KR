@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: a89622206917c6b343ce47638c443b789513367b
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: e99e545b5578b5eff8c19345dc672f735e4f7bd2
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412181"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430588"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
@@ -52,7 +52,7 @@ ms.locfileid: "48412181"
 | IsRootSignerMicrosoft | 부울 | 루트 인증서의 서명자가 Microsoft 인지 여부를 나타냅니다. |
 | IsExecutable | 부울 | PE (이식 가능한 실행) 파일 인지 여부 |
 | Mail.threatname | 문자열 | 발견 된 맬웨어 또는 기타 위협에 대 한 검색 이름 |
-| 게시자 | 문자열 | 파일을 게시 한 조직의 이름입니다. |
+| Publisher | 문자열 | 파일을 게시 한 조직의 이름입니다. |
 | SoftwareName | 문자열 | 소프트웨어 제품의 이름 |
 
 ## <a name="syntax"></a>구문과

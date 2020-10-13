@@ -16,14 +16,14 @@ search.appverid:
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 description: Office 365 Advanced Threat Protection의 캠페인 보기에 대해 알아보세요.
-ms.openlocfilehash: 333e9c03cea9f16393169396ca016b09fd6a359d
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 00af3f241bc1d9fd2cae9ebae0cdec7817679ed2
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413977"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430576"
 ---
 # <a name="campaign-views-in-office-365-atp"></a>Office 365 ATP의 캠페인보기
 
@@ -88,7 +88,7 @@ Microsoft는 캠페인을 식별 하는 데 도움이 되도록 전체 서비스
 
 - **Type**:이 값은 **피싱** 또는 **맬웨어**입니다.
 
-- **하위 유형**:이 값에는 캠페인에 대 한 자세한 정보가 포함 되어 있습니다. 예제:
+- **하위 유형**:이 값에는 캠페인에 대 한 자세한 정보가 포함 되어 있습니다. 예:
 
   - **피싱**:이 캠페인에서 phished 되는 브랜드입니다. ,,,, 등을 예로 들 `Microsoft` `365` `Unknown` `Outlook` `DocuSign` 있습니다.
 

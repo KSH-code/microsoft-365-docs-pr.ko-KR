@@ -9,14 +9,14 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 371656168f32db86ff32f187736d59dbd5dbe749
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: d457c4b96e47485eee041b72a1cf24e96a13bf18
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529698"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430190"
 ---
-# <a name="install-intune-company-portal-on-on-devices"></a>장치에 Intune 회사 포털 설치
+# <a name="install-intune-company-portal-on-devices"></a>장치에 Intune 회사 포털 설치
 
 Microsoft Managed Desktop을 사용 하려면 IT 관리자가 Microsoft Managed Desktop devices 사용자를 위해 Intune 회사 포털을 설치 해야 합니다. 조직의 몇 가지 이점은 다음과 같습니다.
 - 사용자는 사용 가능한 응용 프로그램을 찾아보고 설치 하기 위한 한 가지 장소를가지고 있습니다. 
