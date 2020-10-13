@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Microsoft 예약이 자주 묻는 질문입니다.
-ms.openlocfilehash: ee0de2d1412aa5ec38759a3a2512de05b9e02621
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 40605cfc7e5d30e12cd34a463a76e8d9c324efc7
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545719"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445454"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Microsoft 예약 faq (질문과 대답)
 
@@ -21,7 +21,7 @@ ms.locfileid: "47545719"
 
 ### <a name="what-is-microsoft-bookings"></a>Microsoft 예약 이란?
 
-Microsoft 예약은 약속을 간편 하 게 예약 하 고 관리 하는 Microsoft 365 앱입니다. 예약 웹 기반 예약 일정을 Outlook과 통합 하 여 직원의 일정을 최적화 하 고 고객에 게 가장 적합 한 시간을 제공할 수 있는 유연성을 제공 합니다. 자동 알림 전자 메일을 사용 하면 쇼가 더 줄어들지만, 조직에서 반복적인 일정 작업을 줄이고 시간을 절약할 필요가 있습니다. 예약은 Skype 또는 Microsoft 팀을 통해 가상 약속을 간편 하 게 수행할 수 있도록 하 고, 팀의 예약 앱을 통해 일상 일정을 관리 하는 데 도움이 됩니다. 기본 제공 되는 사용자 지정 기능을 사용 하 여 예약은 모든 조직의 여러 부분에 대 한 요구를 충족 하도록 설계 되었습니다.
+Microsoft 예약은 약속을 간편 하 게 예약 하 고 관리 하는 Microsoft 365 앱입니다. 예약에는 웹 기반 예약 일정이 포함 되며, Outlook과 통합 되어 직원의 일정을 최적화 하 여 고객에 게 가장 적합 한 시간을 제공할 수 있는 유연성을 제공 합니다. 자동 알림 전자 메일을 사용 하면 쇼가 더 줄어들지만, 조직에서 반복적인 일정 작업을 줄이고 시간을 절약할 필요가 있습니다. 예약은 Skype 또는 Microsoft 팀을 통해 가상 약속을 간편 하 게 수행할 수 있도록 하 고, 팀의 예약 앱을 통해 일상 일정을 관리 하는 데 도움이 됩니다. 기본 제공 되는 사용자 지정 기능을 사용 하 여 예약은 모든 조직의 여러 부분에 대 한 요구를 충족 하도록 설계 되었습니다.
 
 ### <a name="how-do-i-use-microsoft-bookings"></a>Microsoft 예약을 사용 하려면 어떻게 해야 하나요?
 
@@ -174,7 +174,7 @@ Microsoft는 많은 조직에서 마이크로소프트 365의 사용권이 섞�
 
 모든 시간은 기본적으로 회사 표준 시간대 (현지 표준 시간대)에 있습니다. 즉, 작업 시간 등의 예약 일정에 대해 구성한 설정이이 표준 시간대에 표시 됩니다. 셀프 서비스 페이지에는 최종 사용자의 표준 시간대에서 모든 약속 시간을 표시할 수 있으며, 원한다 면 해제할 수도 있습니다.예약 페이지 탭에서 **비즈니스 표준 시간대의 시간 슬롯을 항상 표시** 하지 않으면 페이지를 방문 하는 사용자에 게 자체 현지 표준 시간대의 시간 슬롯이 표시 됩니다.
 
-:::image type="content" source="media/bookings-faq-region.png" alt-text="예약 지역 및 표준 시간대 설정":::
+:::image type="content" source="media/bookings-faq-region.png" alt-text="예약 예약":::
 
 예약에서 직원에 대 한 표준 시간대를 설정할 수는 없습니다. 직원 표준 시간대 및 업무 시간은 업무 시간 영역에 해당 합니다.
 
@@ -202,7 +202,7 @@ SMS 메시지는 현재 북미에서 사용 가능 하며, SMS 배달에는 Skyp
 
 예. 웹 앱의 예약 페이지 탭에는 **조직에서 Microsoft 365 또는 Office 365 계정을 통합 문서에 요구 하**는 확인란이 있습니다. 이 확인란을 선택 하면 셀프 서비스 페이지 액세스를 테 넌 트 내에 있는 사용자 에게만 제한 합니다. 만들기 및 관리를 위해 웹 앱 내에 배치 되는 예약 일정은 관리자 또는 Viewer 역할을 가진 페이지에 직원으로 추가 된 사용자만 액세스할 수 있습니다.
 
-:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="예약에서 페이지 액세스 제어 예약":::
+:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="예약 예약":::
 
 ### <a name="how-frequently-does-the-home-page-update"></a>홈 페이지 업데이트 빈도
 
@@ -214,7 +214,7 @@ SMS 메시지는 현재 북미에서 사용 가능 하며, SMS 배달에는 Skyp
 
 ### <a name="can-bookings-calendars-be-cloned-or-duplicated-and-can-they-be-templatized-for-easy-scaling"></a>예약 된 일정을 복제 하거나 복제할 수 있으며, templatized 쉽게 확장할 수 있습니다.
 
-페이지를 복제 하는 기능은 현재 PowerShell을 통해 사용할 수 있습니다. 이 프로세스는 Graph API를 사용 하 여 사서함 세부 정보를 가져온 다음 해당 세부 정보를 사용 하 여 새 사서함을 만드는 것입니다. API 설명서는 [다음과](https://docs.microsoft.com/graph/api/resources/booking-api-overview?view=graph-rest-beta)같습니다.
+이 프로세스는 Graph API를 사용 하 여 사서함 세부 정보를 가져온 다음 해당 세부 정보를 사용 하 여 새 사서함을 만드는 것입니다. API 설명서는 [다음과](https://docs.microsoft.com/graph/api/resources/booking-api-overview?view=graph-rest-beta)같습니다.
 
 ### <a name="what-reporting-is-available-in-bookings"></a>예약에서 사용할 수 있는 보고 기능은 무엇입니까?
 
@@ -250,7 +250,7 @@ SMS 메시지는 현재 북미에서 사용 가능 하며, SMS 배달에는 Skyp
 
 예약 웹 앱에 대 한 액세스에는 일반 AAD (Azure Active Directory) 인증을 통한 인증이 포함 됩니다. 웹 페이지 링크를 사용 하 여 모든 사용자가 셀프 서비스 예약 페이지를 사용할 수 있습니다. 그러나 **microsoft 365 또는 조직에서 책으로 Office 365 계정을** 사용 하도록 설정 설정이 선택 되어 있으면이 페이지는 Microsoft 365 테 넌 트 (AAD 인증 사용) 내 에서만 사용할 수 있도록 제한 됩니다.
 
-:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="예약에서 페이지 액세스 제어 예약":::
+:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="예약 예약":::
 
 ### <a name="does-customer-data-leave-the-production-system-for-any-reason"></a>고객 데이터가 어떤 이유로 든 프로덕션 시스템에서 탈퇴 하나요?
 

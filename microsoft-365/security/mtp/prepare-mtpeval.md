@@ -15,14 +15,15 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
+- m365solution-scenario
 - m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: ac60415f38644c4630a181b1c8d696acced57ded
-ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
+ms.openlocfilehash: 79e30ee6fd68148543a63377d89fe2955f276f24
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48368004"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446734"
 ---
 # <a name="prepare-your-microsoft-threat-protection-trial-lab-or-pilot-environment"></a>Microsoft Threat Protection 평가판 랩 또는 파일럿 환경 준비
 
@@ -75,7 +76,7 @@ Microsoft Threat Protection 평가판 랩 또는 파일럿 환경을 만들고 �
 Microsoft Threat Protection을 프로 비전 하 고 사용 하기 위한 라이선스, 하드웨어 및 소프트웨어 요구 사항 및 기타 구성 설정에 대해 알아봅니다. Microsoft [Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites), [microsoft Defender atp](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements), [OFFICE 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description), [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites), [microsoft Cloud App Security](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites)에 대 한 최소 요구 사항을 참조 하세요.
 
 ## <a name="stakeholders-and-sign-off"></a>관련자 및 승인
-다음 섹션에서는 평가를 수행할지 아니면 파일럿을 실행할지에 관계 없이 프로젝트와 관련 된 모든 관련자와 서명 하거나, 검토 하거나, 정보를 제공할 수 있는 모든 이해 관계자를 식별 하는 기능을 제공 합니다.
+평가 또는 파일럿 프로젝트 실행에 관계 없이 프로젝트와 관련 된 모든 관련자와 승인, 검토 또는 계속 해 서 정보를 제공 해야 할 수 있습니다.
 
 >[!NOTE]
 >모든 조직이 보안 조직 성숙도를 보유 하 고 있는 것은 아닙니다. 이러한 경우 검토 및 승인 책임에 대 한 팀장 팀에 문의 하십시오.
@@ -94,7 +95,7 @@ Microsoft Threat Protection을 프로 비전 하 고 사용 하기 위한 라이
 | 이름 및 전자 메일 입력 | **사이버 (cdoc)의 머리** *이 변경 내용이 고객 보안 운영 팀의 프로세스와 부합 되는 방식을 정의 하는 방법을 담당 하는 cdoc 팀의 대표입니다.*       | 하면     |
 | 이름 및 전자 메일 입력 | **보안 설계자** 는 *이 변경 내용이 조직의 핵심 보안 아키텍처에 부합 되는 방식을 정의 하는 방식으로 보안 팀의 담당자를 담당 합니다.*                         | 이력서      |
 | 이름 및 전자 메일 입력 | **회사 설계자** 는 *IT 팀의 담당자가 조직의 핵심 작업 사이트 아키텍처와이 변경 사항을 맞추는 방법을 정의 하는 작업을 담당 합니다.*                             | 이력서      |
-| 이름 및 전자 메일 입력 | **보안 분석가** 는 *보안 작업 측면에서 검색 기능, 사용자 환경 및이 변경의 전반적인 유용성에 대 한 입력을 제공할 수 있는 cdoc 팀의 담당자입니다.* | 때      |
+| 이름 및 전자 메일 입력 | **보안 분석가** 는 *보안 작업 측면에서의 검색 기능, 사용자 환경 및이 변경의 전반적인 유용성에 대 한 의견을 제공할 수 있는 cdoc 팀의 담당자입니다.* | 때      |
 
 ## <a name="prepare-your-azure-active-directory"></a>Azure Active Directory 준비
 Active Directory와 Azure Active Directory 간의 동기화를 이미 사용 하도록 설정한 경우에는이 단계를 건너뜁니다. Azure Active Directory에서 기존 모범 사례 설명서를 검토 합니다. 다음 단계는 파일럿 Microsoft Threat Protection 프로젝트를 평가 하거나 실행 하도록 최적화 되어 있습니다.
@@ -127,7 +128,7 @@ Active Directory와 Azure Active Directory 간의 동기화를 이미 사용 하
 
 
 ## <a name="configuration-order"></a>구성 순서
-아래 표에는 Microsoft에서 평가판 랩 또는 파일럿 환경 배포를 위한 Microsoft Threat Protection 구성 요소를 구성 하는 데 권장 되는 순서가 나와 있습니다.
+다음 표에는 Microsoft에서 평가 랩 또는 파일럿 환경 배포를 위한 Microsoft Threat Protection 구성 요소를 구성 하는 데 권장 되는 순서가 나와 있습니다.
 
 | 구성 요소                               | 설명                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | 구성 순서 순위 |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|

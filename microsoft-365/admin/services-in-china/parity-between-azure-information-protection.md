@@ -1,5 +1,5 @@
 ---
-title: 21Vianet에서 운영하는 Office 365
+title: 21Vianet 및 상업적 제공품에서 운영 하는 Office 365의 Azure Information Protection 간 패리티
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -20,18 +20,18 @@ search.appverid:
 - GEA150
 description: 21Vianet에서 운영 하는 Office 365의 Azure Information Protection에 대해 자세히 알아보고 중국의 고객을 위해이를 구성 하는 방법을 알아보세요.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 1f5d73f5c421a545ea0085f018a2c2a703b0b374
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: ca30811e77f686b92b8cdd13d624182eb0d3039e
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399041"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445582"
 ---
 # <a name="parity-between-azure-information-protection-for-office-365-operated-by-21vianet-and-commercial-offerings"></a>21Vianet 및 상업적 제공품에서 운영 하는 Office 365의 Azure Information Protection 간 패리티
 
 Microsoft의 목표는 21Vianet에서 운영 하는 Office 365의 Azure Information Protection을 사용 하 여 중국의 고객에 게 모든 상업용 기능과 기능을 제공 하는 것 이며 몇 가지 기능을 강조 해야 합니다.
 
-다음은 21Vianet에서 운영 하는 Office 365의 Azure Information Protection과 7 월 2019의 상용 제품 간의 기존 간격입니다.
+다음 목록에는 21Vianet에서 운영 하는 Office 365의 Azure Information Protection과 7 월 2019의 상업적 제공품 간의 기존 간격이 포함 되어 있습니다.
 
 - IRM (정보 권한 관리)은 enterprise 용 Microsoft 365 Apps (빌드 11731.10000 이상)에만 지원 됩니다. Office 2010, Office 2013 및 기타 Office 2016 버전은 지원 되지 않습니다.
 

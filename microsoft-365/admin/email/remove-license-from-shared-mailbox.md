@@ -2,8 +2,8 @@
 title: 공유 사서함에서 라이선스 제거
 f1.keywords:
 - NOCSH
-ms.author: pebaum
-author: pebaum
+ms.author: sharik
+author: SKjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,19 +22,19 @@ search.appverid:
 - MOE150
 ms.assetid: bb229ee9-e7be-4990-b3eb-354e75740496
 description: '공유 사서함에서 라이선스를 제거 하 여 다른 사용자에 게 할당 합니다. '
-ms.openlocfilehash: 401b334efeccf6d7c4caca20be3cc9767b2df945
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 43d32744afe42a8f244160ace20c1d989f501b28
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432222"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445498"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>공유 사서함에서 라이선스 제거
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
 
 ::: moniker-end
 
@@ -51,7 +51,7 @@ ms.locfileid: "44432222"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
    > [!NOTE]
    > 활성 사용자 페이지에서 라이선스를 제거 해야 합니다. 라이선스가 사용자 설정 이므로 공유 사서함 페이지에서 라이선스를 제거할 수 없습니다. 
@@ -70,10 +70,10 @@ ms.locfileid: "44432222"
 
 ::: moniker range="o365-germany"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
-   > [!NOTE]
-   > 활성 사용자 페이지에서 라이선스를 제거 해야 합니다. 라이선스가 사용자 설정 이므로 공유 사서함 페이지에서 라이선스를 제거할 수 없습니다.
+    > [!NOTE]
+    > 활성 사용자 페이지에서 라이선스를 제거 해야 합니다. 라이선스가 사용자 설정 이므로 공유 사서함 페이지에서 라이선스를 제거할 수 없습니다.
 
 2. 공유 사서함을 선택 하 고 **제품 라이선스**옆에 있는 **편집** 을 선택 합니다.
 
@@ -89,10 +89,10 @@ ms.locfileid: "44432222"
 
 ::: moniker range="o365-21vianet"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
-   > [!NOTE]
-   > 활성 사용자 페이지에서 라이선스를 제거 해야 합니다. 라이선스가 사용자 설정 이므로 공유 사서함 페이지에서 라이선스를 제거할 수 없습니다.
+    > [!NOTE]
+    > 활성 사용자 페이지에서 라이선스를 제거 해야 합니다. 라이선스가 사용자 설정 이므로 공유 사서함 페이지에서 라이선스를 제거할 수 없습니다.
 
 2. 공유 사서함을 선택 하 고 **제품 라이선스**옆에 있는 **편집** 을 선택 합니다.
 

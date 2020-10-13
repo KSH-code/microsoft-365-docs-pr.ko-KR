@@ -14,16 +14,16 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-- m365-initiative-defender-office365
+- m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 보안 & 준수 센터에서 전송 포털을 사용 하 여 의심 스러운 전자 메일, 의심 되는 피싱 메일, 스팸 및 기타 해로운 메시지, Url 및 파일을 검색을 위해 Microsoft에 제출 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 5165761b96eefe85437743968502dada51bc297f
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 4bb0cd95daecfcba18ca1560e4c4780455b40157
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412025"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446722"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>관리자 제출을 사용하여 의심스러운 스팸, 피싱, URL 및 파일을 Microsoft에 제출
 

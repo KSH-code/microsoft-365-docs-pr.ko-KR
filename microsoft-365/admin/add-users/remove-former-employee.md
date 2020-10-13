@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: '다음 검사 목록을 따라 Microsoft 365에서 직원을 제거 하 고 데이터를 보호 합니다. '
-ms.openlocfilehash: 252442c36fd29b816626adb71b3ae38ae66f1f64
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+ms.openlocfilehash: e8f0b61fae3656b7d700857e3cc7167cc121a77f
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324527"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445522"
 ---
 # <a name="remove-or-delete-a-former-employee"></a>이전 직원 제거 또는 삭제
 
@@ -49,7 +49,7 @@ ms.locfileid: "47324527"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
 
 직원이 로그인 하지 못하도록 하려면 다음을 수행 합니다.
 
@@ -127,7 +127,7 @@ PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-Azu
 
 2. 사용자 계정을 삭제하기 전에 사서함에 대해 소송 보존 또는 원본 위치 유지를 적용합니다. 이 옵션은 첫 번째 옵션보다 훨씬 더 복잡하지만, Enterprise 요금제에 보관 및 법적 보존이 포함되어 있고 소송 가능성이 있으며 기술적으로 강력한 IT 부서가 있는 경우 수행할 가치가 있습니다.
 
-    사서함을 "비활성 사서함"으로 변환한 후에는 관리자, 준수 관리자 또는 레코드 관리자가 Exchange Online의 원본 위치 eDiscovery 도구를 사용 하 여 콘텐츠를 액세스 하 고 검색할 수 있습니다.
+    사서함을 "비활성 사서함"으로 변환한 후에는 관리자, 준수 관리자 또는 레코드 관리자가 Exchange Online에서 In-Place eDiscovery 도구를 사용 하 여 콘텐츠를 액세스 하 고 검색할 수 있습니다.
 
     비활성 사서함은 전자 메일을 받을 수 없으며 조직의 공유 주소록 또는 기타 목록에 표시되지 않습니다.
 
@@ -140,7 +140,6 @@ PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-Azu
 - **사서함이 50GB보다 작은 한** 라이선스 비용을 지불할 필요가 없으므로 공유 사서함을 만드는 것이 비용이 덜 드는 방법입니다. 50GB 이상이면 사서함에 라이선스를 할당해야 합니다.
 - 사서함을 공유 사서함으로 변환한 경우 이전 전자 메일을 모두 사용할 수 있습니다. 이렇게 하면 공간을 많이 차지할 수 있습니다.
 - 전자 메일 전달을 설정한 경우 이제 이전 직원에게 전송되는  *새*  전자 메일만 현재 직원에게 전송됩니다.
-- 전자 메일을 전달하려면 이전 직원의 계정에 라이선스가 있어야 합니다.
 
  > [!IMPORTANT]
  > 전자 메일 전달 또는 공유 사서함을 설정 하는 경우 끝에서 이전 직원의 계정을 삭제 하지 마세요. 전자 메일 전달 또는 공유 사서함의 기준 위치가 되는 기존 계정이 있어야 합니다.
@@ -150,7 +149,7 @@ PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-Azu
 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 2. 차단할 직원의 이름을 선택 하 고 **메일** 탭을 선택 합니다.
 3. **전자 메일 전달**에서 **전자 메일 전달 관리**를 선택 합니다.
-4. **이 사서함으로 전송된 모든 전자 메일을 전달** 을 켭니다. **전달 주소** 상자에 전자 메일을 받게 될 현재 직원(또는 공유 사서함)의 전자 메일 주소를 입력합니다.
+4. **이 사서함으로 전송된 모든 전자 메일을 전달** 을 켭니다. **전달 주소** 상자에 전자 메일을 받을 현재 직원의 전자 메일 주소를 입력 합니다.
 5. **저장**을 선택합니다.
 6. 이전 직원의 계정을 삭제하지 않습니다.
 

@@ -14,7 +14,7 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-- m365-initiative-defender-office365
+- m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
@@ -26,12 +26,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 이 문서에서는 관리자가 악성 Url을 사용 하는 피싱 및 기타 공격 으로부터 조직을 보호 하기 위해 Office 365 ATP (Advanced Threat Protection)의 안전한 링크 보호에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 7b10a941d63fd654a61c6d6ec78869f4bafb3edd
-ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
+ms.openlocfilehash: d4c939d45818ba14c4407eee063aca46e4ee5b03
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48417271"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48447098"
 ---
 # <a name="safe-links-in-office-365-atp"></a>Office 365 ATP의 안전한 링크
 

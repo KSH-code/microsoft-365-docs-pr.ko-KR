@@ -9,16 +9,16 @@ ms.prod: microsoft-365-enterprise
 search.appverid: MET150
 localization_priority: Priority
 description: Project Cortex에서 콘텐츠 이해 설정
-ms.openlocfilehash: 8217630d66a097fcc714be80bd4d3dcceb623370
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 410dd9550974ec7b5c1c5b4ae151bc92bf376544
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413713"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446326"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex 설정
 
-관리자는 Microsoft 365 관리 센터를 사용하여 [Microsoft SharePoint Syntex](document-understanding-overview.md)를 설정할 수 있습니다. 
+관리자는 Microsoft 365 관리 센터를 사용하여 [Microsoft SharePoint Syntex](index.md)를 설정할 수 있습니다. 
 
 시작하기 전에 다음을 고려해야 합니다.
 
@@ -26,8 +26,6 @@ ms.locfileid: "48413713"
 - 기본 컨텐츠 센터의 이름을 무엇으로 지정하시겠어요?
 
 Microsoft 365 관리 센터에서 초기 설정 후 설정을 변경할 수 있습니다.
-
-이 기사의 내용은 Project Cortex 비공개 미리 보기에 대한 내용입니다. [Project Cortex](https://aka.ms/projectcortex)에 대해 자세히 알아보세요.
 
 설정하기 전에 사용자 환경에서 컨텐츠 이해도를 설정하고 구성하는 최선의 방법을 계획해야 합니다. 예를 들어 다음 이름을 고려해야 합니다.
 

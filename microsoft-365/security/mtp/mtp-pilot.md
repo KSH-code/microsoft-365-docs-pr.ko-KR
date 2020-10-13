@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-overview
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: af47f45ca4f3d14e835a39a334a9400002ac8560
-ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
+ms.openlocfilehash: 4ec46891248c09f580b19d888573544ad2b4930f
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48418076"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446870"
 ---
 # <a name="run-your-pilot-microsoft-threat-protection-project"></a>파일럿 Microsoft Threat Protection 프로젝트 실행 
 
@@ -35,7 +35,7 @@ ms.locfileid: "48418076"
 **적용 대상:**
 - Microsoft 위협 방지
 
-MTP (Microsoft Threat Protection)의 이점과 채택을 효과적으로 확인 하기 위해 파일럿 프로젝트를 실행할 수 있습니다. 프로덕션 환경에서 Microsoft Threat Protection을 사용 하도록 설정 하 고 정의 된 사용 사례를 시작 하기 전에이 파일럿 프로젝트에서 수행 해야 하는 작업 및 성공 기준을 결정 하는 계획 프로세스를 진행 하는 것이 가장 좋습니다. 
+MTP (Microsoft Threat Protection)의 이점과 채택을 효과적으로 확인 하기 위해 파일럿 프로젝트를 실행할 수 있습니다. 프로덕션 환경에서 Microsoft Threat Protection을 사용 하도록 설정 하 고 사용 사례를 시작 하기 전에 파일럿 프로젝트에 대해 수행할 작업을 결정 하 고 성공 기준을 설정 하는 것이 가장 좋습니다. 
 
 
 ## <a name="how-to-use-this-pilot-playbook"></a>이 파일럿 playbook를 사용 하는 방법
@@ -59,7 +59,7 @@ Microsoft Threat Protection 파일럿을 실행 하는 데는 다음과 같은 �
 |단계 | 설명 | 
 |:-------|:-----|
 | ![계획](../../media/mtp/plan.png)<br>[계획](mtp-pilot-plan.md)| Microsoft Threat Protection 파일럿 프로젝트를 실행 하기 전에 고려해 야 할 사항에 대해 알아봅니다. <br><br>-범위 <br> -사용 사례 <br>- 요구 사항 <br>-테스트 계획 <br> -성공 조건 <br> -성과 기록표 
-| ![미리](../../media/mtp/prep.png) <br>[미리](mtp-evaluation.md)|  Microsoft 365 보안 센터에 액세스 하 여 마이크로소프트 Threat Protection 파일럿 환경을 설정 합니다. 다음을 안내 합니다.<br><br>-관련자 식별 및 파일럿에 대 한 승인 찾기 <br> -환경 고려 사항 <br>-액세스 <br>-Azure Active Directory 설치 <br> -구성 순서 <br> -Microsoft 365 E5 평가판 등록 <br> -도메인 구성 <br>-Microsoft 365 E5 라이선스 할당 <br> -포털에서 설치 마법사 완료|
+| ![미리](../../media/mtp/prep.png) <br>[미리](mtp-evaluation.md)|  Microsoft 365 보안 센터에 액세스 하 여 Microsoft Threat Protection 파일럿 환경을 설정 합니다. 다음을 안내 합니다.<br><br>-관련자 식별 및 파일럿에 대 한 승인 찾기 <br> -환경 고려 사항 <br>-액세스 <br>-Azure Active Directory 설치 <br> -구성 순서 <br> -Microsoft 365 E5 평가판 등록 <br> -도메인 구성 <br>-Microsoft 365 E5 라이선스 할당 <br> -포털에서 설치 마법사 완료|
 | ![공격 시뮬레이션](../../media/mtp/run-sim.png) <br>[공격 시뮬레이션](mtp-pilot-simulate.md) | 공격을 시뮬레이트하기 위해 다음을 안내 합니다.<br><br>-테스트 환경 요구 사항 확인 <br>-시뮬레이션을 실행 합니다. <br>-문제 조사 <br>-인시던트를 해결 합니다. 
 | ![맺음말 및 요약](../../media/mtp/close.png) <br>[맺음말 및 요약](mtp-pilot-close.md) | 프로세스의 끝에 도달 하면 다음을 안내 합니다.<br><br>-최종 출력으로 이동<br>-결과를 이해 관계자에 게 제공 <br>-사용자 의견 제공 <br>-다음 단계 수행 
 

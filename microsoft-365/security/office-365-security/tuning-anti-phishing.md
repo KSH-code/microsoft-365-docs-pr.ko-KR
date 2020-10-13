@@ -12,15 +12,15 @@ localization_priority: Normal
 search.appverid: ''
 ms.collection:
 - M365-security-compliance
-- m365-initiative-defender-office365
+- m365initiative-defender-office365
 - MET150
 description: 관리자는 Microsoft 365에서 피싱 메시지를 통해 얻은 이유와 방법을 파악 하 고, 향후 피싱 메시지를 더 많이 방지 하기 위해 수행 해야 하는 작업에 대해 알아봅니다.
-ms.openlocfilehash: ca1030141dd18797c7672b95ccae60b86fe9b7f2
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: ab7087355ce8ee41616f63a7b466a0d5d0fc7b0f
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48414157"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446468"
 ---
 # <a name="tune-anti-phishing-protection"></a>피싱 방지 보호 기능 조정
 

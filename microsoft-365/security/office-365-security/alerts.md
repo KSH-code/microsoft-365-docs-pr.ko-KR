@@ -17,15 +17,15 @@ search.appverid:
 ms.assetid: 2bb4e7c0-5f7f-4144-b647-cc6a956aaa53
 ms.collection:
 - M365-security-compliance
-- m365-initiative-defender-office365
+- m365initiative-defender-office365
 description: Office 365 보안 & 준수 센터의 알림 기능을 사용 하 여 고급 경고 관리를 비롯 한 알림을 보고 관리 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2c7277f3639a2c6561798e220e42045cd220cc7a
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 8867732611af275b45b14dc0894e24ed4c89d062
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48411953"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48447050"
 ---
 # <a name="alerts-in-the-security--compliance-center"></a>보안 & 준수 센터의 알림
 

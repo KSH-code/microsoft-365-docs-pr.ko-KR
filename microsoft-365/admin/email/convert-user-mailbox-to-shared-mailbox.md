@@ -2,9 +2,9 @@
 title: 사용자 사서함을 공유 사서함으로 변환
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
-manager: mnirkhe
+ms.author: sharik
+author: SKjerland
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
 description: '개인 사서함을 여러 사용자가 액세스할 수 있는 공유 사서함으로 변환 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 027236afb5a77e950083f254a154c491d6abc6ac
-ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
+ms.openlocfilehash: bc867c9b43656e40149eb7cd7a7e5ce186c10798
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341195"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445690"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>사용자 사서함을 공유 사서함으로 변환
 

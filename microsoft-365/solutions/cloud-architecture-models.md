@@ -12,12 +12,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 08b899582e6401c0950a1c7349b73130ee62acb4
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 355d933c98bba284302c94e0dc9f54ba7ca52762
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308210"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446514"
 ---
 # <a name="microsoft-cloud-for-enterprise-architects-illustrations"></a>엔터프라이즈 설계자용 Microsoft 클라우드 일러스트레이션
 
@@ -64,16 +64,23 @@ Microsoft 서비스 및 플랫폼용 하이브리드 클라우드와 관련하�
 <a name="security"></a>
 ### <a name="microsoft-cloud-security-for-enterprise-architects"></a>Microsoft Cloud Security for Enterprise Architects
 
-Microsoft 클라우드 서비스 및 플랫폼의 보안과 관련하여 IT 설계자가 파악해야 하는 사항
+>[!Note]
+>이 모델을 수정 하 고 있습니다. 나중에 업데이트 된 버전에 대 한이 문서를 확인 하세요.
+>
+
+<!--
+
+What IT architects need to know about security in Microsoft cloud services and platforms.
   
-|**항목**|**설명**|
+|**Item**|**Description**|
 |:-----|:-----|
-|[![Microsoft 클라우드 보안 모델용 축소판 이미지](../media/solutions-architecture-center/msft-cloud-security-model-thumb.png)          ](https://www.microsoft.com/download/details.aspx?id=48121) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=842070)  \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=842071)  \| [추가 언어](https://www.microsoft.com/download/details.aspx?id=48121) <br/>2018 년 12 월 업데이트 | 이 모델에는 다음이 포함됩니다. <ul><li>보안 서비스 및 플랫폼 제공에서 Microsoft의 역할</li><li>보안 위험을 완화하기 위한 고객의 책임</li><li>최상위 보안 인증 </li><li>Microsoft 컨설팅 서비스에서 제공하는 보안 제품 </ul><br/>|
+|[![Thumb image for Microsoft cloud security model](../media/solutions-architecture-center/msft-cloud-security-model-thumb.png)          ](https://www.microsoft.com/download/details.aspx?id=48121) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=842070)  \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=842071)  \| [More languages](https://www.microsoft.com/download/details.aspx?id=48121) <br/>Updated December 2018 | This model contains: <ul><li>Microsoft's role in providing secure services and platforms</li><li>Customer responsibilities to mitigate security risks</li><li>Top security certifications </li><li>Security offerings provided by Microsoft consulting services </ul><br/>|
+
+--> 
 
 
 <a name="attacks"></a>
-### <a name="common-attacks-and-microsoft-capabilities-that-protect-your-organization"></a>일반적인 공격 및 조직을 보호하는 Microsoft 기능
-가장 일반적인 사이버 공격과 Microsoft가 모든 공격 단계에서 조직을 지원하는 방식을 자세히 알아봅니다. 
+### 일반적인 공격 및 조직을 보호 하는 Microsoft 기능은 가장 일반적인 사이버 공격과 Microsoft가 모든 공격 단계에서 조직에 도움을 주는 방법을 알아봅니다. 
 
 |**항목**|**설명**|
 |:-----|:-----|

@@ -2,9 +2,9 @@
 title: 공유 사서함 설정 구성
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
-manager: mnirkhe
+ms.author: sharik
+author: SKjerland
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 공유 사서함을 만든 후에는 전자 메일 전달 및 자동 회신 같은 사용자에 대 한 일부 설정을 구성 해야 합니다. 나중에 사서함 이름이 나 구성원 등의 다른 설정을 변경할 수 있습니다.
-ms.openlocfilehash: 3bde856f4db80192f5ed058a18c7942aa6a724b2
-ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
+ms.openlocfilehash: a007b3ca810bdfc00176e71a737a510230f18113
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44739206"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445678"
 ---
 # <a name="configure-shared-mailbox-settings"></a>공유 사서함 설정 구성
 
@@ -82,7 +82,7 @@ ms.locfileid: "44739206"
 
 2. 편집 하려는 공유 사서함을 선택 하 고 **전자 메일 전달** \> **편집**을 선택 합니다.
     
-3. 켜기/ **끄기를 설정 하 고**메시지를 전달할 전자 메일 주소를 하나 입력 합니다. 유효한 모든 전자 메일 주소를 사용할 수 있습니다. 여러 주소로 착신 전환 하려면 주소에 대 한 [메일 그룹을 만든](https://docs.microsoft.com/office365/admin/setup/create-distribution-lists?view=o365-worldwide) 다음이 상자에 그룹 이름을 입력 해야 합니다.
+3. 켜기/ **끄기를 설정 하 고**메시지를 전달할 전자 메일 주소를 하나 입력 합니다. 유효한 모든 전자 메일 주소를 사용할 수 있습니다. 여러 주소로 착신 전환 하려면 주소에 대 한 [메일 그룹을 만든](https://docs.microsoft.com/office365/admin/setup/create-distribution-lists) 다음이 상자에 그룹 이름을 입력 해야 합니다.
     
 4. **저장**을 선택합니다.
 

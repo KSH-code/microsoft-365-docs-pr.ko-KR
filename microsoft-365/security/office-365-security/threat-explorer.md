@@ -15,15 +15,15 @@ search.appverid:
 ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
-- m365-initiative-defender-office365
+- m365initiative-defender-office365
 description: 보안 및 준수 센터에서 Explorer 및 실시간 검색을 사용 하 여 위협에 효과적이 고 효율적으로 대응 하는 방법에 대해 알아봅니다 &amp; .
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ab691e88c8450e4f1ab898fe6a9d75d6682370a5
-ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
+ms.openlocfilehash: bd437141f80b80370abeec7585596892f2434655
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48417357"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446573"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 

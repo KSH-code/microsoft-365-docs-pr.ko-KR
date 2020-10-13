@@ -17,12 +17,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: 502ceb47a110dd7cd743281d518e542451413672
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: e07c1455cc2799481bc31871d2c3ee07b10492b9
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399696"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446186"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
@@ -117,6 +117,8 @@ Azure AD는 id 관리 기능을 완벽 하 게 제공 합니다. 이러한 기�
 | [셀프 서비스 암호 재설정 (SSPR)](/azure/active-directory/authentication/concept-sspr-howitworks) | 관리자가 제어할 수 있는 여러 인증 방법에 대 한 확인을 제공 하 여 사용자가 직접 암호를 재설정할 수 있도록 지원 합니다. | Microsoft 365 E3 혹은 E5 |
 | [Azure AD 암호 보호](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) | 알려진 약한 암호와 해당 변형 및 조직과 관련 된 추가 약한 용어를 검색 하 고 차단 합니다. 기본 전역 금지 암호 목록은 Azure AD 테넌트의 모든 사용자에게 자동으로 적용됩니다. 사용자 지정 금지 암호 목록에서 추가 항목을 정의할 수 있습니다. 사용자가 암호를 변경하거나 재설정하면 해당 금지된 암호 목록은 강력한 암호를 사용하도록 확인됩니다. |  Microsoft 365 E3 혹은 E5 |
 ||||
+
+Intune 및 Azure AD 개체, 설정 및 하위 서비스를 포함 하는 id 및 장치 액세스 구성 요소는 다음과 같습니다.
 
 ![Id 및 장치 액세스 구성 요소](../../media/microsoft-365-policies-configurations/identity-device-access-components.png)
 

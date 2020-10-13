@@ -14,19 +14,19 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
-- m365-initiative-defender-office365
+- m365initiative-defender-office365
 keywords: 자동 인시던트 대응, 조사, 재구성, 위협 방지
 ms.date: 09/29/2020
 description: Microsoft Defender for Office 365의 자동화 된 조사 및 응답 기능에 대 한 개요를 확인 하세요.
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: 850291966c2f2da51782d8e70de23ff4f06d6136
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: d63ba8a6d3ffb653b30448a973e1cd862631d350
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413965"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48447110"
 ---
 # <a name="an-overview-of-automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 자동 조사 및 응답 (AIR)에 대 한 개요
 

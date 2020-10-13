@@ -13,15 +13,15 @@ localization_priority: Priority
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
-- M365initiative-coredeploy
+- m365initiative-coredeploy
 ms.custom: ''
 description: 사용자가 MFA(다단계 인증) 및 기타 기능을 사용하여 안전하게 로그인하도록 합니다.
-ms.openlocfilehash: 64b873a243d0ce86ee3700d5150076f88031a483
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: a3a63dfc06f5470c2151cd2ff140ad5dee19b0ce
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399138"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446080"
 ---
 # <a name="secure-user-sign-ins-to-your-microsoft-365-tenant"></a>Microsoft 365 테넌트에 사용자 로그인 보안 기능
 

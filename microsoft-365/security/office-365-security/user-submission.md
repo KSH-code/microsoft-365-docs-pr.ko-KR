@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-- m365-initiative-defender-office365
+- m365initiative-defender-office365
 description: 관리자는 사용자가 보고 하는 스팸 및 피싱 전자 메일을 수집 하도록 사서함을 구성 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: ab7f25c456a9321977721113c1e98d67d1529feb
-ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
+ms.openlocfilehash: c8dec927442cc83752f7c3497f295008fae85377
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48417241"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446930"
 ---
 # <a name="user-submissions-policies"></a>사용자 제출 정책
 
