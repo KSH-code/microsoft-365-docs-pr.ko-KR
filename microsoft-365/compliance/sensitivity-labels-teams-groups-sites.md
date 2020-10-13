@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: 6c8ca07cc0da826be23bcee79dbc4e3824b00695
-ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
+ms.openlocfilehash: e8d9b3c4928172ace2bc63d5aa31d65c4145ad6a
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48357890"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430317"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기
 
@@ -86,9 +86,9 @@ ms.locfileid: "48357890"
 
 - **외부 사용자 액세스**: 그룹 소유자가 [그룹에 게스트를 추가](/office365/admin/create-groups/manage-guest-access-in-groups)할 수 있는지를 제어합니다.
 
-- **관리되지 않는 장치**: 이 옵션은 Azure AD 조건부 액세스를 사용하여 관리되지 않는 장치에서 SharePoint 및 OneDrive 콘텐츠에 대한 액세스를 차단하거나 제한하는 SharePoint 기능을 사용합니다. 자세한 내용은 [관리되지 않는 장치에서의 액세스 제어](/sharepoint/control-access-from-unmanaged-devices)를 참조하세요. [특정 SharePoint 사이트 또는 OneDrive에 대한 액세스 차단 혹은 제한](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive)의 7-9단계에서 설명한 대로 이 레이블 설정에 지정하는 옵션은 사이트에 대해 PowerShell 명령을 실행하는 것과 동일합니다.  
+- **관리되지 않는 장치**: 이 옵션은 Azure AD 조건부 액세스를 사용하여 관리되지 않는 장치에서 SharePoint 및 OneDrive 콘텐츠에 대한 액세스를 차단하거나 제한하는 SharePoint 기능을 사용합니다. 자세한 내용은 [관리되지 않는 장치에서의 액세스 제어](/sharepoint/control-access-from-unmanaged-devices)를 참조하세요. [특정 SharePoint 사이트 또는 OneDrive에 대한 액세스 차단 혹은 제한](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive)의 2-4단계에서 설명한 대로 이 레이블 설정에 지정하는 옵션은 사이트에 대해 PowerShell 명령을 실행하는 것과 동일합니다.
     
-    SharePoint 지침의 1-6 단계에 설명 된 대로 종속 조건부 액세스 정책을 구성하지 않는 경우 여기에 지정하는 옵션은 아무런 효과도 발휘하지 않습니다. 또한 테넌트 수준에서 구성한 설정보다 제한 수준이 낮은 경우 효과가 없습니다. 관리되지 않는 장치에 대해 조직 전체 설정을 구성한 경우, 동일하거나 더 제한적인 레이블 설정을 선택합니다.
+    [앱 적용 제한](https://docs.microsoft.com/sharepoint/app-enforced-restrictions)에 설명된 대로 SharePoint용 종속 조건부 액세스 정책을 구성하지 않는 경우 여기에 지정하는 옵션은 아무런 효과도 발휘하지 않습니다. 또한 테넌트 수준에서 구성한 설정보다 제한 수준이 낮은 경우 효과가 없습니다. 관리되지 않는 장치에 대해 조직 전체 설정을 구성한 경우, 동일하거나 더 제한적인 레이블 설정을 선택합니다.
     
     예를 들어 테넌트가 **제한된 웹 전용 액세스 허용**으로 구성된 경우 전체 액세스를 허용하는 레이블 설정은 제한 수준이 더 낮기 때문에 효과가 없습니다. 이 테넌트 수준 설정의 경우 액세스를 차단하는 레이블 설정(제한 수준이 더 높음) 또는 제한된 액세스에 대한 레이블 설정(테넌트 설정과 동일)을 선택합니다.
     

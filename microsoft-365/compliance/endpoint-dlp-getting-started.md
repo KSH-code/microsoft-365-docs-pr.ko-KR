@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 Endpoint 데이터 손실 방지를 설정하여 파일 활동을 모니터링하고 해당 파일에 대한 보호 작업을 엔드포인트에 구현합니다.
-ms.openlocfilehash: e0b9ba6afcad0c683aaa7386998a621f279aa9eb
-ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
+ms.openlocfilehash: c579d0bbfdc72e56d99558ffa7e6812d00098c0d
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48379243"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430683"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention-preview"></a>Endpoint 데이터 손실 방지(미리 보기) 시작하기
 
@@ -81,7 +81,7 @@ Endpoint DLP의 데이터는 [활동 탐색기](data-classification-activity-exp
 
 Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 사항을 충족하는지 확인하세요.
 
-1. Windows 10 빌드 1809 이상을 실행해야 합니다.
+1. Windows 10 x64 빌드 1809 이상을 실행해야 합니다.
 2. 모든 장치가 [AAD(Azure Active Directory)에 가입](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)되어 있거나 Hybrid Azure AD에 가입되어 있어야 합니다.
 3. 엔드 포인트 장치에 Microsoft Chromium Edge 브라우저를 설치하여 클라우드로 업로드 활동에 대한 정책 작업을 적용하세요. [Chromium 기반 새 Microsoft Edge 다운로드하기](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)를 참조하세요.
 
