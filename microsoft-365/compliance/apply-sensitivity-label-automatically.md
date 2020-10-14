@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 문서 또는 전자 메일에 레이블을 자동으로 할당하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: c4f00c0a11b172671da456b27e0e33c081728614
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 87b1078462d6315e6cf4ddeb95832f20eae67375
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326749"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445488"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>민감도 레이블을 콘텐츠에 자동으로 적용
 
@@ -107,7 +107,11 @@ ms.locfileid: "48326749"
 
 Windows용 Office 앱의 자동 레이블 지정은 Azure Information Protection 통합 레이블 클라이언트에서 지원됩니다. Office 앱에서 기본 제공되는 레이블 지정은 [앱마다 사용 가능 단계가 다릅니다](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps).
 
-[민감도 레이블을 만들거나 편집](create-sensitivity-labels.md)하는 경우, Office 앱에 대한 자동 레이블 지정 설정을 사용할 수 있습니다. 중요한 정보가 감지되는 경우 자동으로 민감도 레이블을 콘텐츠에 적용하도록 선택할 수 있습니다. 중요한 정보 유형 또는 교육 가능한 분류자 목록에서 선택합니다.
+[민감도 레이블을 만들거나 편집](create-sensitivity-labels.md)하는 경우, Office 앱에 대한 자동 레이블 지정 설정을 사용할 수 있습니다. **파일 및 전자 메일**이 레이블 범위에서 선택되어 있는지 확인합니다. 
+
+![파일 및 전자 메일에 대한 민감도 레이블 범위 옵션](../media/filesandemails-scope-options-sensitivity-label.png)
+
+마법사를 거쳐가면서 중요한 정보 유형 또는 교육 가능한 분류자 목록에서 사용자가 선택할 수 있는 **Office 앱에 대한 자동 레이블 지정** 페이지가 표시됩니다.
 
 ![Office 앱에서 자동 레이블 지정에 대한 레이블 조건](../media/sensitivity-labels-conditions.png)
 
@@ -202,7 +206,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
     - 자동 레이블 지정 정책이 실행될 때 다른 프로세스나 사용자가 파일을 열면 안됩니다. 편집을 위해 체크 아웃된 파일은 이 범주로 분류됩니다.
 
 - 기본 제공 민감도 유형이 아닌 [사용자 지정 민감도 정보 유형](custom-sensitive-info-types.md)을 사용하려는 경우: 
-    - 사용자 지정 민감도 정보 유형은 사용자 지정 민감도 정보 유형을 저장한 후 생성되는 콘텐츠에 대해 평가됩니다. 
+    - 사용자 지정 민감도 정보 유형은 사용자 지정 민감도 정보 유형을 저장한 후 SharePoint 또는 OneDrive에 추가되는 콘텐츠에 대해 평가됩니다. 
     - 새로운 사용자 지정 민감도 정보 유형을 테스트하려면 자동 레이블 지정 정책을 만들기 전에 해당 유형을 만든 다음 테스트용 샘플 데이터가 포함된 새 문서를 만듭니다.
 
 - 자동 레이블 지정 정책에 대해 선택할 수 있는 하나 이상의 민감도 레이블이 [생성 및 게시](create-sensitivity-labels.md)(적어도 한 명의 사용자에게) 됩니다. 이러한 레이블의 경우:

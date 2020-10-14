@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Office 365 보안 및 준수 센터 또는 Microsoft 365 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 48d40cff907480f05dff8ba1c5c1584fc8289b1b
-ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
+ms.openlocfilehash: f1f2201d847001a5a9df4a367268f1f764367574
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "48286044"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446641"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -456,6 +456,24 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |클라이언트가 신호를 보낸 보기|ClientViewSignaled|사용자의 클라이언트(예 : 웹 사이트 또는 모바일 앱)가 표시된 페이지를 사용자가 본다는 신호를 보냈습니다. 이 활동은 페이지에 대한 PagePrefetched 이벤트를 통해 기록되는 경우가 많습니다. <br/><br/>**참고** : ClientViewSignaled 이벤트는 서버가 아닌 클라이언트가 신호하므로 이벤트가 서버에 의해 기록되지 않아 감사 로그에 표시되지 않을 수 있습니다. 감사 레코드의 정보가 신뢰되지 않을 수도 있습니다. 그러나 사용자의 ID는 신호를 만드는 데 사용되는 토큰에 의해 유효성이 검사되므로 해당 감사 레코드에 나열된 사용자 ID가 정확합니다. |
 |(없음)|PagePrefetched|사용자의 클라이언트(예 : 웹 사이트 또는 모바일 앱)가 사용자가 웹 페이지를 탐색할 때 성능을 개선할 수 있도록 표시된 페이지를 요청했습니다. 이 이벤트는 페이지 콘텐츠가 사용자의 클라이언트에게 제공되었음을 나타내기 위해 기록됩니다. 이 이벤트는 사용자가 페이지를 탐색했다는 명확한 표시가 아닙니다. <br/><br/> 클라이언트가 페이지 콘텐츠를 렌더링하면(사용자 요청에 따라) ClientViewSignaled 이벤트가 생성되어야 합니다. 모든 클라이언트가 사전 페치 표시하도록 지원하지 않으므로 일부 사전 페치된 활동이 PageViewed 이벤트로 대신 기록될 수 있습니다.|
 ||||
+
+#### <a name="frequently-asked-questions-about-fileaccessed-and-filepreviewed-events"></a>FileAccessed 및 FilePreviewed 이벤트에 대한 자주 묻는 질문
+
+**비사용자의 활동이 "OneDriveMpc-Transform_Thumbnail"과 같은 사용자 에이전트를 포함하는 FilePreviewed 감사 레코드를 트리거할 수 있나요?**
+
+비사용자의 작업이 이와 같은 이벤트를 생성하는 시나리오에 대해 알고 있지 않습니다. 사용자 프로필 카드를 여는 것과 같은 사용자 작업이(웹용 Outlook의 메시지에서 해당 이름 또는 전자 메일 주소를 클릭하여) 유사한 이벤트를 생성합니다.
+
+**OneDriveMpc-Transform_Thumbnail에 대한 통화는 항상 사용자가 의도적으로 트리거하나요?**
+
+아니요. 그러나 브라우저 프리 페치의 결과로 유사한 이벤트가 기록될 수 있습니다.
+
+**Microsoft에서 등록한 IP 주소에서 오는 FilePreviewed 이벤트가 표시되는 경우, 사용자의 장치 화면에 미리 보기가 표시되었다는 것을 의미 하나요?**
+
+아니요. 브라우저 프리 페치의 결과로서 이벤트가 기록되었을 수 있습니다. 
+
+**문서를 미리 보는 사용자가 FileAccessed 이벤트를 생성하는 경우의 시나리오가 있나요?**
+
+FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일의 읽기(혹은 파일의 축소판 그림 렌더링의 읽기)로 이어졌음을 나타냅니다.  이러한 이벤트는 미리 보기와 액세스 의도에 맞추어 정렬되지만, 이벤트의 구분이 사용자의 의도를 보장하지는 않습니다.
 
 #### <a name="the-appsharepoint-user-in-audit-records"></a>감사 레코드의 app\@sharepoint 사용자입니다.
 
