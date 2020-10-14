@@ -20,18 +20,18 @@ ms.custom:
 - AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: 사용자를 최신 Office 클라이언트로 업그레이드 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7cddf1554a5892ddac510fc77238529194c1a2a0
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 40160dc5590144a1132971368da70c6f36ed460c
+ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545731"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456335"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>비즈니스 사용자를 위한 Microsoft 365를 최신 Office 클라이언트로 업그레이드
 
 ## <a name="office-2010-reaches-end-of-support"></a>Office 2010가 지원 끝에 도달 합니다.
 
-Office 2010는 2020 년 10 월 13 일에 지원 종료에 도달 합니다. Office 2010가 지원 종료에 도달 하면 Microsoft는 더 이상 다음을 제공 하지 않습니다.
+Office 2010는 2020 년 10 월 13 일에 지원 종료에 도달 했습니다. Microsoft는 더 이상 다음을 제공 하지 않습니다.
 
 - 문제에 대 한 기술 지원
 
@@ -39,7 +39,7 @@ Office 2010는 2020 년 10 월 13 일에 지원 종료에 도달 합니다. Offi
 
 - 검색 된 취약성에 대 한 보안 수정 프로그램
 
-자세한 내용은 [Office 2010 지원 센터의 최종 로드맵을](https://docs.microsoft.com/deployoffice/office-2010-end-support-roadmap) 참조 하세요.
+자세한 내용은 [Office 2010 지원 센터의 최종 로드맵을](https://docs.microsoft.com/deployoffice/endofsupport/office-2010-end-support-roadmap) 참조 하세요.
 
  **이 항목이 적합 한 주제 입니까?**
   
@@ -57,7 +57,7 @@ Office 2010는 2020 년 10 월 13 일에 지원 종료에 도달 합니다. Offi
   
 ## <a name="step-1---check-system-requirements"></a>1 단계-시스템 요구 사항 확인
 
-Office의 [시스템 요구 사항을 확인](https://products.office.com/office-system-requirements) 하 여 장치가 최신 버전의 office와 호환 되는지 확인 합니다. 예를 들어 Windows XP 또는 Windows Vista를 실행 하는 컴퓨터에 최신 버전의 Office를 설치할 수 없습니다.
+Office의 [시스템 요구 사항을 확인](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources) 하 여 장치가 최신 버전의 office와 호환 되는지 확인 합니다. 예를 들어 Windows XP 또는 Windows Vista를 실행 하는 컴퓨터에 최신 버전의 Office를 설치할 수 없습니다.
   
 > [!TIP]
 > 조직의 Pc 또는 랩톱에서 이전 버전의 Windows를 실행 하는 사용자가 있는 경우 Windows 10으로 업그레이드 하는 것이 좋습니다. Windows 7이 지원 종료에 도달 했습니다. 자세한 내용은 [Windows 7에 대 한 읽기 지원이 1 월 2020 일에 끝납니다](https://www.microsoft.com/microsoft-365/windows/end-of-windows-7-support?rtc=1) .

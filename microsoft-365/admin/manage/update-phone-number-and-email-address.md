@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
 description: 관리 센터에서 관리자 전화 번호 및 전자 메일 주소를 업데이트 합니다. 자신의 관리자 암호를 다시 설정 하려면이 정보가 필요 합니다.
-ms.openlocfilehash: ed7e8152ffdf05d94068e6bdb81697dee737ea01
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: 7387ffe693abf0e52d647e35827a9f55bd1d70df
+ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45429957"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456336"
 ---
 # <a name="update-your-admin-phone-number-and-email-address"></a>관리자 전화 번호 및 전자 메일 주소 업데이트
 
@@ -47,7 +47,7 @@ ms.locfileid: "45429957"
 
 2. 헤더에서 프로필 아이콘 \> **내 계정** \> **설정 및 개인 정보**를 선택 합니다.
 
-3. **연락처 기본 설정** 섹션에서 **연락처 기본 설정 관리 및 확장**을 선택 합니다. 휴대폰 번호 및 대체 전자 메일 주소를 업데이트 합니다. 대체 전자 메일 주소에 대해 Microsoft 전자 메일 주소와 다른 항목을 사용 하 고 있는지 확인 합니다.
+3. **개인 정보** 탭의 **연락처 기본 설정**에서 **관리자만 연락처 기본 설정을**선택 합니다. 휴대폰 번호 및 대체 전자 메일 주소를 업데이트 합니다. 대체 전자 메일 주소에 대해 Microsoft 전자 메일 주소와 다른 항목을 사용 하 고 있는지 확인 합니다.
 
     > [!IMPORTANT]
     > 대체 전자 메일 주소와 휴대폰 번호는 관리자 암호 (컴퓨터 관리자 암호 아님)를 다시 설정 하는 데 필요 합니다.

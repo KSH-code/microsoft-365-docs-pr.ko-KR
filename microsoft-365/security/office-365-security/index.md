@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Office 365의 보안, EOP부터 ATP 요금제 1 및 2, 표준 및 고급 보안 구성 등이 추가 됩니다. 사용자의 정의 및 속성을 보호 하는 방법을 이해 합니다.
-ms.openlocfilehash: 94fce99d029d21524bc60af4622fda7ee38980e7
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 256a24a7816a40e1bd60c687a875f84e605f5208
+ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430695"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456474"
 ---
 # <a name="office-365-security-overview"></a>Office 365 보안 개요
 
@@ -88,7 +88,7 @@ ATP 계획을 추가 하는 것이 순수한 EOP threat management에 대 한 �
 |---------|---------|---------|
 | 기술에는 다음이 포함 됩니다.<ul><li>스팸</li><li>피싱</li><li>맬웨어</li><li>대량 메일</li><li>스푸핑 인텔리전스</li><li>가장 검색</li><li>관리자 격리</li><li>가양성 및 거짓 네거티브를 관리 하 고 사용자 제출</li><li>Url 및 파일에 대 한 허용/차단</li><li>보고서</li></u1>|<li>감사 로그 검색</li><li>메시지 추적</li>|<li>제로 시간 자동 제거 (ZAP)</li><li>허용 및 차단 목록의 구체화 및 테스트</li>|
 
-EOP를 자세히 검토 하려면 **[이 문서를 참조](https://review.docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-21vianet&branch=tp_EOPOverview)** 하세요.
+EOP를 자세히 검토 하려면 **[이 문서를 참조](https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-worldwide#:~:text=Exchange%20Online%20Protection%20%28EOP%29%20is%20the%20cloud-based%20filtering,is%20also%20available%20in%20the%20following%20on-premises%20scenarios%3A)** 하세요.
 
 이러한 제품은 누적 되는 것 이므로 ATP P1을 평가 하 여 구독 하기로 결정 하면 이러한 기능을 추가 합니다.
 

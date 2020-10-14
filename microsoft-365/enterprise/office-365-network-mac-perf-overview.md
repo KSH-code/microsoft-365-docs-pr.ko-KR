@@ -13,14 +13,14 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-- M365initiative-CoreDeploy
+- m365initiative-coredeploy
 description: Microsoft 365 관리 센터의 네트워크 연결 개요 (미리 보기)
-ms.openlocfilehash: d3ca55a4d8357d10b79bd8e87ddc3350efa2845e
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: fcc70f7c76b92ecf113158cdac8eecdfb9852351
+ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326880"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456426"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Microsoft 365 관리 센터의 네트워크 연결 (미리 보기)
 
@@ -53,13 +53,13 @@ Windows 위치 서비스는 컴퓨터에서 consented 해야 합니다. **지도
 
 이 방법을 사용 하는 경우에는 도시 해상도에서 자동으로 식별 되므로이 방법으로는 관리 센터에서 위치를 추가할 필요가 없습니다. Windows Location Services를 사용 하 여 한 도시에 여러 office 위치를 표시할 수는 없습니다. 또한 위치 정보는 더 정확한 위치 정보를 액세스할 수 없도록 업로드 하기 전에 300 m을 기준으로 가장 가까운 300 미터까지 반올림 됩니다.
 
-컴퓨터에는 이더넷 케이블이 아닌 Wi-fi 네트워킹이 있어야 합니다. 이더넷 케이블을 사용 하는 컴퓨터는 정확한 위치 정보를 포함 하지 않습니다.
+컴퓨터에는 이더넷 케이블이 아닌 Wi-Fi 네트워킹이 있어야 합니다. 이더넷 케이블을 사용 하는 컴퓨터는 정확한 위치 정보를 포함 하지 않습니다.
 
 측정 및 사무실 위치는 이러한 필수 구성 요소가 충족 된 후 24 시간 전에 표시 되어야 합니다.
 
 ### <a name="2-add-locations-and-provide-lan-subnet-information"></a>2. 위치 추가 및 LAN 서브넷 정보 제공
 
-이 옵션의 경우 Windows 위치 서비스와 Wi-fi가 모두 필요 하지 않습니다. 각 컴퓨터의 위치에 Windows 버전 **20.161** 이상이 설치 되어 있어야 합니다.
+이 옵션에는 Windows 위치 서비스와 Wi-Fi 필요 하지 않습니다. 각 컴퓨터의 위치에 Windows 버전 **20.161** 이상이 설치 되어 있어야 합니다.
 
 또한 관리 센터 네트워크 연결 페이지에서 위치를 추가 하거나 CSV 파일에서이를 가져와야 합니다. 추가 된 위치에 office LAN 서브넷 정보가 포함 되어 있어야 합니다.
 
