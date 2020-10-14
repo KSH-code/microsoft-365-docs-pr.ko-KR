@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365의 고급 eDiscovery 솔루션에 적용 되는 사례 제한, 인덱싱 제한 및 검색 제한에 대해 알아봅니다.
-ms.openlocfilehash: c139480f18e0e6d94aae5a38d5fd636fbc62b2dc
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 7d676b568c7e4cddedeff02c62b4645619d53357
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358476"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446255"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Advanced eDiscovery 제한 사항
 
@@ -38,6 +38,8 @@ ms.locfileid: "47358476"
 |조직에서 일별 모든 검토 집합에 로드 된 총 데이터 양<br/> |2TB <br/> |
 |사례 당 최대 부하 집합 수입니다.  <br/> |200 <br/> |
 |사례 당 최대 검토 집합 수입니다.  <br/> |20cm(8 <br/> |
+|대/소문자 당 최대 개수의 태그 그룹  <br/> |1000 <br/> |
+|사례 당 최대 태그 수  <br/> |1000 <br/> |
 |||
 
 ## <a name="indexing-limits"></a>인덱싱 제한

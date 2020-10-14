@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: 암호 공격으로부터 조직을 더 안전하게 보호하는 방법과 일반적인 암호를 금지하고 위험 기반 다단계 인증을 사용해야 하는 이유를 알아봅니다.
-ms.openlocfilehash: 0ae26dc27cc698c24d999acde03f63f9cfead081
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 0bfbeac6fb8069e846ddad3c5b618687ba3c2260
+ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131945"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456334"
 ---
 # <a name="password-policy-recommendations"></a>권장 암호 정책
 
@@ -102,7 +102,7 @@ Microsoft 365 암호에 대한 자세한 내용은[관련 문서](#related-artic
   
 ### <a name="ban-common-passwords"></a>일반적인 암호 금지
 
-암호를 만들 때 사용자에게 제공해야 하는 가장 중요한 암호 요구 사항은 조직의 무작위 암호 공격에 대한 취약성을 줄이기 위해 일반적인 암호 사용을 금지하는 것입니다. 일반적인 사용자 암호에는 **abdcefg**, **password**, **monkey**가 포함됩니다.
+암호를 만들 때 사용자에게 제공해야 하는 가장 중요한 암호 요구 사항은 조직의 무작위 암호 공격에 대한 취약성을 줄이기 위해 일반적인 암호 사용을 금지하는 것입니다. 일반적인 사용자 암호에는 **abcdefg**, **password**, **monkey**가 포함됩니다.
   
 ### <a name="educate-users-to-not-re-use-organization-passwords-anywhere-else"></a>다른 곳에서 조직 암호를 다시 사용하지 않도록 사용자를 교육합니다.
 

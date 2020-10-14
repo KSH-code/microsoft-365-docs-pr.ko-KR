@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 준수 센터에 새로운 새 솔루션을 추가 하 고, 사용자 의견에 따라 기존 기능을 업데이트 하거나, 새로운 문서 및 업데이트 된 설명서를 롤아웃할 지 여부에 관계 없이 Microsoft 365에서는 지속적인 변경 준수 가로를 유지 하는 데 도움이 됩니다. 이번 달에 제공 된 내용을 확인 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c33e136be55ea60f1e5954d4713b219045b1f0eb
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: b124e4c4d120d981766493034aba9bc6eefa7d9c
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398529"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446561"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -170,7 +170,7 @@ SharePoint 또는 OneDrive의 콘텐츠를 보호 하는 DLP 정책을 설정할
 
 ### <a name="sensitivity-labels-new-privacy-option"></a>민감도 레이블: 새 개인 정보 옵션
 
-레이블에 대해 [사이트 및 그룹 설정을](sensitivity-labels-teams-groups-sites.md#how-to-configure-site-and-group-settings) 구성 하는 경우 이제 개인 정보 옵션을 **없음-사용자가 사이트에 액세스할 수 있는 사람을 선택**하도록 설정할 수 있습니다. 이 기능은 민감도 레이블을 사용 하 여 컨테이너의 콘텐츠를 보호 하려는 경우에 유용 하지만 사용자가 개인 정보 설정을 직접 구성할 수 있도록 합니다.
+레이블에 대해 [사이트 및 그룹 설정을](sensitivity-labels-teams-groups-sites.md#how-to-configure-groups-and-site-settings) 구성 하는 경우 이제 개인 정보 옵션을 **없음-사용자가 사이트에 액세스할 수 있는 사람을 선택**하도록 설정할 수 있습니다. 이 기능은 민감도 레이블을 사용 하 여 컨테이너의 콘텐츠를 보호 하려는 경우에 유용 하지만 사용자가 개인 정보 설정을 직접 구성할 수 있도록 합니다.
 
 ## <a name="april-2020"></a>2020년 4월
 
@@ -345,7 +345,7 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 |감사 로그 검색|검색 > 감사 로그 검색 <br/> https://protection.office.com/unifiedauditlog |감사 <br/> https://compliance.microsoft.com/auditlogsearch | [보안 & 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)|
 |콘텐츠 검색|검색 > 콘텐츠 검색 <br/> https://protection.office.com/contentsearchbeta?ContentOnly=1 | 콘텐츠 검색 <br/> https://compliance.microsoft.com/contentsearch |[Office 365에서 콘텐츠 검색](search-for-content.md) |
 |데이터 커넥터|타사 데이터 보관 > 정보 관리 기능 <br/> https://protection.office.com/nativeconnector | 데이터 커넥터 <br/> https://compliance.microsoft.com/connectorlanding |[타사 데이터 보관](archiving-third-party-data.md)|
-|데이터 손실 방지|데이터 손실 방지 <br/> https://protection.office.com/datalossprevention |데이터 손실 방지 <br/> https://compliance.microsoft.com/datalossprevention |[데이터 손실 방지의 개요](data-loss-prevention-policies.md)|
+|데이터 손실 방지|데이터 손실 방지 <br/> https://protection.office.com/datalossprevention |데이터 손실 방지 <br/> https://compliance.microsoft.com/datalossprevention |[데이터 손실 방지 개요](data-loss-prevention-policies.md)|
 |데이터 주체 요청 |데이터 개인 정보 > 데이터 주체 요청 <br/> https://protection.office.com/dsrcases |데이터 주체 요청 <br/> https://compliance.microsoft.com/datasubjectrequest |[DSR 사례 도구를 사용 하 여 GDPR 데이터 주체 요청 관리](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)|
 |eDiscovery|eDiscovery > eDiscovery <br/> https://protection.office.com/ediscoveryv1 |eDiscovery > 코어 <br/> https://compliance.microsoft.com/classicediscovery |[eDiscovery 사례 관리](ediscovery-cases.md) |
 |Events|레코드 관리 > 이벤트 <br/> https://protection.office.com/events |레코드 관리 > 이벤트 탭 <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[이벤트가 발생할 때 보존 시작하기](event-driven-retention.md)|

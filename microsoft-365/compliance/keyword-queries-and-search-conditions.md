@@ -22,12 +22,12 @@ ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 보안 & 준수 센터에서 검색할 수 있는 전자 메일 및 파일 속성에 대해 알아봅니다.
-ms.openlocfilehash: fb3d0b9d941658f2613344d00984dbe7846565a6
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 5445c9485d7076b3819c796028a311a523a92dde
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662302"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446197"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건
 
@@ -54,17 +54,17 @@ ms.locfileid: "46662302"
   
 |**속성**|**속성 설명**|**예제**|**예제에서 반환된 검색 결과**|
 |:-----|:-----|:-----|:-----|
-|AttachmentNames|전자 메일 메시지에 첨부되는 파일의 이름입니다.|`attachmentnames:annualreport.ppt`  <br/> `attachmentnames:annual*` <br/> attachmentnames:.pptx|annualreport.ppt라는 파일이 첨부된 메시지입니다. 두 번째 예제에서는 와일드카드를 사용하여 첨부 파일의 파일 이름에 "annual"이라는 단어가 있는 메시지를 반환합니다. 세 번째 예에서는 .pptx 파일 확장명이 포함 된 모든 첨부 파일을 반환 합니다.|
+|AttachmentNames|전자 메일 메시지에 첨부되는 파일의 이름입니다.|`attachmentnames:annualreport.ppt`  <br/> `attachmentnames:annual*` <br/> `attachmentnames:.pptx` |annualreport.ppt라는 파일이 첨부된 메시지입니다. 두 번째 예제에서는 와일드카드를 사용하여 첨부 파일의 파일 이름에 "annual"이라는 단어가 있는 메시지를 반환합니다. 세 번째 예에서는 .pptx 파일 확장명이 포함 된 모든 첨부 파일을 반환 합니다.|
 |대상|전자 메일 메시지의 숨은 참조 필드입니다. <sup>1</sup>|`bcc:pilarp@contoso.com`  <br/> `bcc:pilarp`  <br/> `bcc:"Pilar Pinilla"`|모든 예제는 숨은 참조 필드에 Pilar Pinilla가 포함된 메시지를 반환합니다.|
-|Category| 검색할 범주입니다. 범주는 Outlook 또는 웹용 Outlook (이전의 Outlook Web App)을 사용 하 여 사용자가 정의할 수 있습니다. 가능한 값은 다음과 같습니다.  <br/><br/>  색상  <br/>  친환경  <br/>  /  <br/>  자주색  <br/>  빨강  <br/>  노랑|`category:"Red Category"`|원본 사서함에서 red 범주가 지정된 메시지입니다. |
+|범주| 검색할 범주입니다. 범주는 Outlook 또는 웹용 Outlook (이전의 Outlook Web App)을 사용 하 여 사용자가 정의할 수 있습니다. 가능한 값은 다음과 같습니다.  <br/><br/>  색상  <br/>  친환경  <br/>  /  <br/>  자주색  <br/>  빨강  <br/>  노랑|`category:"Red Category"`|원본 사서함에서 red 범주가 지정된 메시지입니다. |
 |참조란|전자 메일 메시지의 참조 필드입니다. <sup>1</sup>|`cc:pilarp@contoso.com`  <br/> `cc:"Pilar Pinilla"`|두 예제에서 모두 참조 필드에 Pilar Pinilla가 지정 된 메시지입니다.|
-|Folderid|특정 사서함 폴더의 폴더 ID (GUID)입니다. 이 속성을 사용 하는 경우에는 지정 된 폴더가 있는 사서함을 검색 해야 합니다. 지정한 폴더만 검색 됩니다. 폴더에 있는 모든 하위 폴더는 검색 되지 않습니다. 하위 폴더를 검색 하려면 Folderid 속성을 사용 하 여 검색을 수행 해야 합니다.  <br/> Folderid 속성을 검색 하 고 스크립트를 사용 하 여 특정 사서함에 대 한 폴더 Id를 가져오는 방법에 대 한 자세한 내용은 using [Content Search for about collections](use-content-search-for-targeted-collections.md)를 참조 하십시오.|`folderid:4D6DD7F943C29041A65787E30F02AD1F00000000013A0000`  <br/> `folderid:2370FB455F82FC44BE31397F47B632A70000000001160000 AND participants:garthf@contoso.com`|첫 번째 예에서는 지정 된 사서함 폴더의 모든 항목을 반환 합니다. 두 번째 예에서는 garthf@contoso.com에서 보내거나 받은 지정 된 사서함 폴더의 모든 항목을 반환 합니다.|
-|From|전자 메일 메시지의 보낸 사람입니다. <sup>1</sup>|`from:pilarp@contoso.com`  <br/> `from:contoso.com`|지정된 사용자가 보냈거나 지정된 도메인에서 보낸 메시지입니다.|
+|Folderid|특정 사서함 폴더의 폴더 ID (GUID)입니다. 이 속성을 사용 하는 경우에는 지정 된 폴더가 있는 사서함을 검색 해야 합니다. 지정한 폴더만 검색 됩니다. 폴더에 있는 모든 하위 폴더는 검색 되지 않습니다. 하위 폴더를 검색 하려면 검색 하려는 하위 폴더에 대해 Folderid 속성을 사용 해야 합니다.  <br/> Folderid 속성을 검색 하 고 스크립트를 사용 하 여 특정 사서함에 대 한 폴더 Id를 가져오는 방법에 대 한 자세한 내용은 using [Content Search for about collections](use-content-search-for-targeted-collections.md)를 참조 하십시오.|`folderid:4D6DD7F943C29041A65787E30F02AD1F00000000013A0000`  <br/> `folderid:2370FB455F82FC44BE31397F47B632A70000000001160000 AND participants:garthf@contoso.com`|첫 번째 예에서는 지정 된 사서함 폴더의 모든 항목을 반환 합니다. 두 번째 예에서는 garthf@contoso.com에서 보내거나 받은 지정 된 사서함 폴더의 모든 항목을 반환 합니다.|
+|시작|전자 메일 메시지의 보낸 사람입니다. <sup>1</sup>|`from:pilarp@contoso.com`  <br/> `from:contoso.com`|지정된 사용자가 보냈거나 지정된 도메인에서 보낸 메시지입니다.|
 |HasAttachment|메시지에 첨부 파일이 있는지 여부를 나타냅니다. **True** 또는 **false**값을 사용 합니다.|`from:pilar@contoso.com AND hasattachment:true`|첨부 파일이 있는 지정 된 사용자가 보낸 메시지입니다.|
 |얼마나|보낸 사람이 메시지를 보낼 때 지정할 수 있는 전자 메일 메시지의 중요도입니다. 기본적으로 보낸 사람이 중요도를 **높음** 또는 **낮음**으로 설정하지 않았다면 메시지는 보통 중요도로 전송됩니다.|`importance:high`  <br/> `importance:medium`  <br/> `importance:low`|높음 중요도, 보통 중요도 또는 낮은 중요도로 표시된 메시지입니다.|
 |IsRead|메시지를 읽었는지 여부를 나타냅니다. **True** 또는 **false**값을 사용 합니다.|`isread:true`  <br/> `isread:false`|첫 번째 예에서는 IsRead 속성이 **True**로 설정 된 메시지를 반환 합니다. 두 번째 예에서는 IsRead 속성이 **False**로 설정 된 메시지를 반환 합니다.|
 |ItemClass|이 속성을 사용 하 여 조직에서 Office 365로 가져온 특정 타사 데이터 형식을 검색 합니다. 이 속성에는 다음 구문을 사용 합니다.  `itemclass:ipm.externaldata.<third-party data type>*`|`itemclass:ipm.externaldata.Facebook* AND subject:contoso`  <br/> `itemclass:ipm.externaldata.Twitter* AND from:"Ann Beebe" AND "Northwind Traders"`|첫 번째 예에서는 Subject 속성에 "contoso" 라는 단어가 포함 된 Facebook 항목을 반환 합니다. 두 번째 예에서는 Ann Beebe에서 게시 되었으며 키워드 구 "Northwind Traders"를 포함 하는 Twitter 항목을 반환 합니다.  <br/> ItemClass 속성의 타사 데이터 형식에 사용할 값의 전체 목록은 [Office 365로 가져온 타사 데이터를 검색 하려면 사용 콘텐츠 검색](use-content-search-to-search-third-party-data-that-was-imported.md)을 참조 하십시오.|
-|정도의| 검색할 전자 메일 메시지의 유형입니다. 사용 가능한 값:  <br/>  연락처만  <br/>  docs  <br/>  메일 주소  <br/>  externaldata  <br/>  못한  <br/>  메시징을  <br/>  저널이  <br/>  모임의  <br/>  microsoftteams (Microsoft 팀의 채팅, 모임 및 통화에서 항목을 반환 합니다.)  <br/>  notes  <br/>  게시물  <br/>  rssfeeds  <br/>  작업과  <br/>  음성 메일|`kind:email`  <br/> `kind:email OR kind:im OR kind:voicemail`  <br/> `kind:externaldata`|첫 번째 예에서는 검색 조건을 충족 하는 전자 메일 메시지를 반환 합니다. 두 번째 예에서는 전자 메일 메시지, 인스턴트 메시징 대화 (Microsoft 팀의 비즈니스용 Skype 대화 및 채팅 포함)를 반환 하 고, 검색 조건을 충족 하는 음성 메시지입니다. 세 번째 예에서는 검색 조건을 충족 하는 Twitter, Facebook 및 Cisco Jabber과 같은 타사 데이터 원본에서 Microsoft 365의 사서함으로 가져온 항목을 반환 합니다. 자세한 내용은 [Office 365에서 타사 데이터 보관](https://www.microsoft.com/?ref=go)을 참조 하세요.|
+|정도의| 검색할 전자 메일 메시지의 유형입니다. 사용 가능한 값:  <br/>  연락처만  <br/>  docs  <br/>  전자 메일  <br/>  externaldata  <br/>  못한  <br/>  메시징을  <br/>  저널이  <br/>  모임의  <br/>  microsoftteams (Microsoft 팀의 채팅, 모임 및 통화에서 항목을 반환 합니다.)  <br/>  notes  <br/>  게시물  <br/>  rssfeeds  <br/>  작업과  <br/>  음성 메일|`kind:email`  <br/> `kind:email OR kind:im OR kind:voicemail`  <br/> `kind:externaldata`|첫 번째 예에서는 검색 조건을 충족 하는 전자 메일 메시지를 반환 합니다. 두 번째 예에서는 전자 메일 메시지, 인스턴트 메시징 대화 (Microsoft 팀의 비즈니스용 Skype 대화 및 채팅 포함)를 반환 하 고, 검색 조건을 충족 하는 음성 메시지입니다. 세 번째 예에서는 검색 조건을 충족 하는 Twitter, Facebook 및 Cisco Jabber과 같은 타사 데이터 원본에서 Microsoft 365의 사서함으로 가져온 항목을 반환 합니다. 자세한 내용은 [Office 365에서 타사 데이터 보관](https://www.microsoft.com/?ref=go)을 참조 하세요.|
 |할당|전자 메일 메시지의 모든 사람 필드입니다. 이 필드는 From, To, Cc 및 Bcc입니다.<sup>1</sup>|`participants:garthf@contoso.com`  <br/> `participants:contoso.com`|garthf@contoso.com에서 보냈거나 이 사이트로 보낸 메시지입니다. 두 번째 예제에서는 contoso.com 도메인의 사용자가 보냈거나 이 사용자에게로 보낸 모든 메시지를 반환합니다.|
 |수신됨|받는 사람이 전자 메일 메시지를 받은 날짜입니다.|`received:04/15/2016`  <br/> `received>=01/01/2016 AND received<=03/31/2016`|2016 년 4 월 15 일에 받은 메시지 두 번째 예에서는 2016 년 1 월 2 일과 2016 년 3 월 31 일 사이에 수신 된 모든 메시지를 반환 합니다.|
 |받는 사람|전자 메일 메시지의 모든 받는 사람 필드입니다. 이 필드는 받는 사람, 참조 및 숨은 참조입니다.<sup>1</sup>|`recipients:garthf@contoso.com`  <br/> `recipients:contoso.com`|garthf@contoso.com으로 보낸 메시지입니다. 두 번째 예제에서는 contoso.com 도메인에 있는 모든 받는 사람에게 전송된 메시지를 반환합니다.|
@@ -75,7 +75,18 @@ ms.locfileid: "46662302"
 |||||
    
 > [!NOTE]
-> <sup>1</sup> recipient 속성 값의 경우 전자 메일 주소 ( *사용자 계정 이름이* 나 UPN이 라고도 함), 표시 이름 또는 별칭을 사용 하 여 사용자를 지정할 수 있습니다. 예를 들어 annb@contoso.com, annb 또는 "Ann Beebe"를 사용하여 사용자 Ann Beebe를 지정할 수 있습니다.<br/><br/>받는 사람의 속성 (보낸 사람, 받는 사람, 참조, 숨은 참조, 참가자 및 받는 사람)을 검색할 때 Microsoft 365는 Azure Active Directory에서 각 사용자의 id를 검색 하려고 시도 합니다.  사용자가 Azure Active Directory에 있는 경우에는 쿼리가 사용자의 전자 메일 주소 (UPN), 별칭, 표시 이름 및 LegacyExchangeDN을 포함 하도록 확장 됩니다.<br/><br/>예를 들어를로 확장 하는 등의 쿼리를 예로 들 `participants:ronnie@contoso.com` 수 `participants:ronnie@contoso.com OR participants:ronnie OR participants:"Ronald Nelson" OR participants:"<LegacyExchangeDN>"` 있습니다.<br/><br/>받는 사람 확장을 방지 하기 위해 검색 쿼리의 전자 메일 주소 끝에 와일드 카드 문자 (별표)를 추가할 수 있습니다. 예를 들면 `participants:ronnie@contoso.com*` 입니다.
+> <sup>1</sup> recipient 속성 값의 경우 전자 메일 주소 ( *사용자 계정 이름이* 나 UPN이 라고도 함), 표시 이름 또는 별칭을 사용 하 여 사용자를 지정할 수 있습니다. 예를 들어 annb@contoso.com, annb 또는 "Ann Beebe"를 사용하여 사용자 Ann Beebe를 지정할 수 있습니다.
+
+### <a name="recipient-expansion"></a>받는 사람 확장
+
+받는 사람의 속성 (보낸 사람, 받는 사람, 참조, 숨은 참조, 참가자 및 받는 사람)을 검색할 때 Microsoft 365는 azure Active Directory (Azure AD)에서 각 사용자의 id를 확장 하려고 시도 합니다.  사용자가 Azure AD에 있는 경우에는 쿼리가 사용자의 전자 메일 주소 (UPN), 별칭, 표시 이름 및 LegacyExchangeDN을 포함 하도록 확장 됩니다. 예를 들어를로 확장 하는 등의 쿼리를 예로 들 `participants:ronnie@contoso.com` 수 `participants:ronnie@contoso.com OR participants:ronnie OR participants:"Ronald Nelson" OR participants:"<LegacyExchangeDN>"` 있습니다.
+
+받는 사람 확장을 방지 하려면 전자 메일 주소 끝에 와일드 카드 문자 (별표)를 추가 하 고 축소 된 도메인 이름을 사용 합니다. 예를 들어 `participants:"ronnie@contoso*"` 전자 메일 주소를 큰따옴표로 둘러싸야 합니다.
+
+그러나 검색 쿼리에서 받는 사람 확장을 방지 하면 관련 항목이 검색 결과에 반환 되지 않을 수 있습니다. Exchange의 전자 메일 메시지를 받는 사람 필드에 다른 텍스트 형식으로 저장할 수 있습니다. 받는 사람 확장은 서로 다른 텍스트 형식을 포함할 수 있는 메시지를 반환 하 여 이러한 사실을 완화 하는 데 도움을 주기 위한 것입니다. 따라서 받는 사람 확장을 방지 하면 검색 쿼리가 조사와 관련이 있을 수 있는 모든 항목을 반환 하지 못할 수 있습니다.
+
+> [!NOTE]
+> 받는 사람 확장으로 인해 검색 쿼리에서 반환 된 항목을 검토 하거나 줄여야 하는 경우에는 고급 eDiscovery를 사용 하는 것이 좋습니다. 받는 사람 확장을 활용 하 여 메시지를 검색 하 고, 검토 집합에 추가한 다음, 검토 집합 쿼리나 필터를 사용 하 여 결과를 검토 하거나 좁힐 수 있습니다. 자세한 내용은 [사례에 대 한 데이터 수집](collecting-data-for-ediscovery.md) 및 [검토 집합에서 데이터 쿼리](review-set-search.md)를 참조 하세요.
 
 ## <a name="searchable-site-properties"></a>검색 가능한 사이트 속성
 
@@ -195,7 +206,7 @@ ms.locfileid: "46662302"
 |보낸 사람/만든이|전자 메일의 경우 메시지를 보낸 사람입니다. 문서의 경우 Office 문서의 만든 이 필드에 지정된 사람입니다. 여러 개의 이름을 쉼표로 구분하여 입력할 수 있습니다. 두 개 이상의 값은 **OR** 연산자를 사용하여 논리적으로 연결됩니다.|
 |크기 (바이트)|전자 메일 및 문서의 경우 항목의 크기(바이트)입니다.|
 |제목/제목|전자 메일의 경우 메시지 제목 줄의 텍스트입니다. 문서의 경우 문서 제목입니다. 앞에서 설명한 것 처럼 Title 속성은 Microsoft Office 문서에 지정 된 메타 데이터입니다. 두 개 이상의 제목/제목 이름을 쉼표로 구분 하 여 입력할 수 있습니다. 두 개 이상의 값은 **OR** 연산자를 사용하여 논리적으로 연결됩니다.|
-|준수 레이블|전자 메일 및 문서 모두에 대해 사용자가 수동으로 할당 한 자동 레이블 정책이 나 보존 레이블에서 메시지 및 문서에 자동으로 할당 되는 보존 레이블입니다. 보존 레이블은 정보 관리를 위해 전자 메일 및 문서를 분류 하 고 레이블로 정의 된 설정을 기반으로 보존 규칙을 적용 하는 데 사용 됩니다. 보존 레이블 이름의 일부를 입력 하 고 와일드 카드를 사용 하거나 전체 레이블 이름을 입력할 수 있습니다. 보존 레이블에 대 한 자세한 내용은 [보존 정책 및 보존 레이블에 대 한](retention.md)자세한 정보를 참조 하십시오.|
+|준수 레이블|전자 메일 및 문서 모두에 대해 사용자가 수동으로 할당 한 autolabel 정책 또는 보존 레이블에서 메시지 및 문서에 자동으로 할당 되는 보존 레이블입니다. 보존 레이블은 정보 관리를 위해 전자 메일 및 문서를 분류 하 고 레이블로 정의 된 설정을 기반으로 보존 규칙을 적용 하는 데 사용 됩니다. 보존 레이블 이름의 일부를 입력 하 고 와일드 카드를 사용 하거나 전체 레이블 이름을 입력할 수 있습니다. 보존 레이블에 대 한 자세한 내용은 [보존 정책 및 보존 레이블에 대 한](retention.md)자세한 정보를 참조 하십시오.|
 |||
   
 ### <a name="conditions-for-mail-properties"></a>메일 속성에 대한 조건
@@ -204,7 +215,7 @@ ms.locfileid: "46662302"
   
 |**조건**|**설명**|
 |:-----|:-----|
-|메시지 종류| 검색할 메시지의 유형입니다. Kind 전자 메일 속성과 같은 속성입니다. 사용 가능한 값:  <br/><br/>  연락처만  <br/>  docs  <br/>  메일 주소  <br/>  externaldata  <br/>  못한  <br/>  메시징을  <br/>  저널이  <br/>  모임의  <br/>  microsoftteams  <br/>  notes  <br/>  게시물  <br/>  rssfeeds  <br/>  작업과  <br/>  음성 메일|
+|메시지 종류| 검색할 메시지의 유형입니다. Kind 전자 메일 속성과 같은 속성입니다. 사용 가능한 값:  <br/><br/>  연락처만  <br/>  docs  <br/>  전자 메일  <br/>  externaldata  <br/>  못한  <br/>  메시징을  <br/>  저널이  <br/>  모임의  <br/>  microsoftteams  <br/>  notes  <br/>  게시물  <br/>  rssfeeds  <br/>  작업과  <br/>  음성 메일|
 |할당|전자 메일 메시지의 모든 사람 필드입니다. 이 필드는 From, To, Cc 및 Bcc입니다.|
 |유형|전자 메일 항목에 대 한 메시지 클래스 속성 이 속성은 ItemClass email 속성과 동일 합니다. 또한 다중 값 조건 이기도 합니다. 따라서 여러 메시지 클래스를 선택 하려면 **CTRL** 키를 누른 상태에서 조건에 추가할 드롭다운 목록에서 메시지 클래스를 두 개 이상 클릭 합니다. 목록에서 선택한 각 메시지 클래스는 해당 검색 쿼리의 **OR** 연산자로 논리적으로 연결 됩니다.  <br/> Exchange에서 사용 되며 **메시지 클래스** 목록에서 선택할 수 있는 메시지 클래스와 해당 메시지 클래스 ID의 목록은 [항목 형식 및 메시지 클래스](https://go.microsoft.com/fwlink/?linkid=848143)를 참조 하십시오.|
 |수신됨|받는 사람이 전자 메일 메시지를 받은 날짜입니다. Received 전자 메일 속성과 같은 속성입니다.|
