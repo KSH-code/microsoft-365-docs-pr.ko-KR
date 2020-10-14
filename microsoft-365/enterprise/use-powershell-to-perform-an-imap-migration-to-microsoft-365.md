@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: c28de4a5-1e8e-4491-9421-af066cde7cdd
 description: PowerShell을 사용 하 여 Microsoft 365로의 IMAP (Internet Mail Access Protocol) 마이그레이션을 수행 하는 방법을 알아봅니다.
-ms.openlocfilehash: 6eb422455d0bdf31fa1859bd0231b68e5568748c
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 67621ecfca7ec323a73b91a530f848dd7571f9b2
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692708"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464447"
 ---
 # <a name="use-powershell-to-perform-an-imap-migration-to-microsoft-365"></a>PowerShell을 사용하여 Microsoft 365로 IMAP 마이그레이션 수행
 
@@ -103,7 +103,7 @@ paulc@contoso.edu,paul.cannon,3281986
   
  **Microsoft Exchange**
   
-Microsoft Exchange의 IMAP 구현에서 전자 메일을 마이그레이션하는 경우에는 CSV 파일에서 **UserName** 특성에 **Domain/Admin_UserName/User_UserName** 형식을 사용합니다. Terry Adams, Ann Beebe 및 Paul Cannon에 대해 Exchange의 전자 메일을 마이그레이션한다고 가정해 봅니다. 사용자 이름이 **mailadmin** 이고 암호는 **P@ssw0rd** 인 메일 관리자 계정이 있습니다. CSV 파일은 다음과 같이 나타납니다.
+Microsoft Exchange의 IMAP 구현에서 전자 메일을 마이그레이션하는 경우에는 CSV 파일에서 **UserName** 특성에 **Domain/Admin_UserName/User_UserName** 형식을 사용합니다. Terry Adams, Ann Beebe, Paul Cannon의 전자 메일을 Exchange에서 마이그레이션한다고 가정해 보겠습니다. 메일 관리자 계정이 있는데, 여기서 사용자 이름은 **mailadmin** 이 고 암호는 **P \@ ssw0rd**입니다. CSV 파일은 다음과 같이 나타납니다.
   
 ```powershell
 EmailAddress,UserName,Password
@@ -114,7 +114,7 @@ paulc@contoso.edu,contoso-students/mailadmin/paul.cannon,P@ssw0rd
 
  **Dovecot:**
   
-Dovecot IMAP 서버와 같이 SASL(Simple Authentication and Security Layer)을 지원하는 IMAP 서버의 경우 **User_UserName*Admin_UserName** 형식을 사용합니다. 여기서 별표( * )는 구성 가능한 구분 기호 문자입니다. 이번에는 관리자 자격 증명(**mailadmin** 및 **P@ssw0rd**)을 사용하여 동일한 사용자의 전자 메일을 Dovecot IMAP 서버에서 마이그레이션한다고 가정하겠습니다. CSV 파일은 다음과 같이 나타납니다.
+Dovecot IMAP 서버와 같은 SASL (Simple Authentication and Security Layer)을 지 원하는 IMAP 서버의 경우 별표 (*)를 구성할 수 있는 구분 기호로 사용 하는 형식 **User_UserName * Admin_UserName**합니다. 관리자 자격 증명 **mailadmin** 및 **P \@ ssw0rd**을 사용 하 여 Dovecot IMAP 서버에서 동일한 사용자의 전자 메일을 마이그레이션하는 경우를 가정해 보겠습니다. 이때 CSV 파일은 다음과 같습니다.
   
 ```powershell
 EmailAddress,UserName,Password
@@ -125,7 +125,7 @@ paulc@contoso.edu,paul.cannon*mailadmin,P@ssw0rd
 
  **Mirapoint:**
   
-예를 들어 Mirapoint 메시지 서버에서 전자 메일을 마이그레이션하는 경우 관리자 자격 증명에 **#user@domain#Admin_UserName#** 형식을 사용합니다. 관리자 계정 **mailadmin** 및 **P@ssw0rd** 를 사용하여 Mirapoint에서 전자 메일을 마이그레이션하는 경우 CSV 파일은 다음과 같습니다.
+Mirapoint Message Server에서 전자 메일을 마이그레이션하는 경우 관리자 자격 증명에 대해 ** \@ 도메인 # Admin_UserName # #user** 형식을 사용 합니다. 관리자 자격 증명 **mailadmin** 및 **P \@ ssw0rd**를 사용 하 여 Mirapoint에서 전자 메일을 마이그레이션하기 위해 CSV 파일은 다음과 같습니다.
   
 ```powershell
 EmailAddress,UserName,Password

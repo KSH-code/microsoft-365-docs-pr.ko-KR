@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: 문서 이해 모델과 양식 처리 모델의 주요 차이를 설명합니다.
-ms.openlocfilehash: c5d60753e84cb55dc088b79f90fe841b50da1836
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 98d5e9463dedda96c02ed7c3ed80576638941816
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338600"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464231"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models"></a>문서 이해와 양식 처리 모델의 차이 
 
@@ -54,8 +54,6 @@ Microsoft SharePoint Syntex의 콘텐츠을 이해하면 SharePoint 문서 라�
 폼 처리 모델은 PowerApp [.AI Builder](https://docs.microsoft.com/ai-builder/overview)에 만들어지지만 SharePoint 문서 라이브러리에서 직접 생성이 시작됩니다. 사용자가 양식 처리 모델을 작성하려면 문서 라이브러리에서 양식 처리 모델 작성을 사용 가능으로 설정해야 하며, 관리자는 콘텐츠를 이해하는 관리자 설정에서 이 작업을 수행할 수 있습니다. 양식 처리 모델은 PowerAutomate 흐름을 사용하여 파일을 문서 라이브러리에 업로드할 때 파일을 처리합니다.
 
 문서 이해 모델을 생성할 때 SharePoint 컨텐츠 유형 갤러리에 저장되는 새 [SharePoint 컨텐츠 유형](https://support.microsoft.com/office/use-content-types-to-manage-content-consistently-on-a-site-48512bcb-6527-480b-b096-c03b7ec1d978)을 생성합니다. 또는 필요한 경우 기존 콘텐츠 유형을 사용하여 모델을 정의할 수 있습니다.
-
-폼 처리 모델은 PowerApp [.AI Builder](https://docs.microsoft.com/ai-builder/overview)에 만들어지지만 SharePoint 문서 라이브러리에서 직접 생성이 시작됩니다. 사용자가 양식 처리 모델을 작성하려면 문서 라이브러리에서 양식 처리 모델 작성을 사용 가능으로 설정해야 합니다. 또는 관리자는 콘텐츠를 이해하는 관리 설정에서 이 작업을 수행할 수 있습니다. 양식 처리 모델은 PowerAutomate 흐름을 사용하여 파일을 문서 라이브러리에 업로드할 때 파일을 처리합니다.
 
 양식 처리 모델도 새 [SharePoint 컨텐츠 유형](https://support.microsoft.com/office/use-content-types-to-manage-content-consistently-on-a-site-48512bcb-6527-480b-b096-c03b7ec1d978)을 생성하고 SharePoint 컨텐츠 유형 갤러리에도 저장됩니다.
 

@@ -18,14 +18,14 @@ search.appverid:
 ms.assetid: 985a357f-6db7-401f-bf7a-1bafdf1f312c
 f1.keywords:
 - NOCSH
-description: SharePoint 2010 및 Sharepoint Server 2010에서 업그레이드할 정보 및 리소스를 검색 하 고, 두 종료에 대 한 지원은 2020 년 10 월 13 일에 해당 합니다.
+description: SharePoint 2010 및 Sharepoint Server 2010에서 업그레이드할 정보 및 리소스를 검색 하 고, 두 종료에 대 한 지원은 2021 년 4 월 13 일입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 88970c83f2497f029635cb987b6b613ea662dc07
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: f406c30befbd1202fa6590352bd32f6d3102ae60
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948023"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464279"
 ---
 # <a name="upgrading-from-sharepoint-2010"></a>SharePoint 2010에서 업그레이드
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 액세스 및 사용을 제한하여 데이터를 보호하는 암호화를 위한 민감도 레이블을 구성합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a734d6f71a943964775477199025180d1a41426e
-ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
+ms.openlocfilehash: 3856b92126d660ed0cdbfd1280d778ac9f072424
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48408628"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446159"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한
 
@@ -43,34 +43,39 @@ ms.locfileid: "48408628"
 마지막으로, 관리자가 암호화 적용을 위해 민감도 레이블을 구성할 때 다음 중 하나를 선택할 수 있습니다.
 
 - 어떤 사용자에게 해당 레이블이 있는 콘텐츠에 어떤 권한을 부여할 것인지 정확하게 결정하도록 **지금 권한을 할당**합니다.
-- 사용자가 콘텐츠에 레이블을 적용하는 경우 **사용자가 권한을 할당하도록** 허용할 수 있습니다. 이렇게 하면 조직의 사용자가 공동 작업과 작업 수행을 유연하게 할 수 있습니다.
+- **Let users assign permissions** when they apply the label to content. This way, you can allow people in your organization some flexibility that they might need to collaborate and get their work done.
 
 암호화 설정은 Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 보안 및 규정 준수 센터에서 [민감도 레이블 만들기](create-sensitivity-labels.md)를 할 때 사용할 수 있습니다.
 
 ## <a name="understand-how-the-encryption-works"></a>암호화 작동 방식 이해
 
-암호화는 Azure Information Protection의 Azure RMS(Azure 권한 관리 서비스)를 사용합니다. 이 보호 솔루션은 암호화, ID 및 권한 부여 정책을 사용합니다. 자세한 내용은 Azure Information Protection 문서에서 [Azure 권한 관리란?](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms)을 참조하세요. 
+Encryption uses the Azure Rights Management service (Azure RMS) from Azure Information Protection. This protection solution uses encryption, identity, and authorization policies. To learn more, see [What is Azure Rights Management?](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms) from the Azure Information Protection documentation. 
 
-이 암호화 솔루션을 사용하는 경우 **수퍼 사용자** 기능은 권한있는 사용자 및 서비스에서 조직에 대해 암호화된 데이터를 언제든지 읽고 검사 할 수 있도록 해줍니다. 필요한 경우 암호화를 제거하거나 변경할 수 있습니다. 자세한 내용은 [Azure Information Protection 및 검색 서비스 또는 데이터 복구에 대한 수퍼 사용자 구성](https://docs.microsoft.com/azure/information-protection/configure-super-users)을 참조하세요.
+When you use this encryption solution, the **super user** feature ensures that authorized people and services can always read and inspect the data that has been encrypted for your organization. If necessary, the encryption can then be removed or changed. For more information, see [Configuring super users for Azure Information Protection and discovery services or data recovery](https://docs.microsoft.com/azure/information-protection/configure-super-users).
 
 ## <a name="how-to-configure-a-label-for-encryption"></a>암호화 레이블을 구성하는 방법
 
-[민감도 레이블을 만들거나 편집](create-sensitivity-labels.md#create-and-configure-sensitivity-labels)하고 마법사의 **암호화** 페이지에서 다음 옵션 중 하나를 선택할 수 있습니다.
+1. 일반 지침에 따라 [민감도 레이블을 만들거나 편집](create-sensitivity-labels.md#create-and-configure-sensitivity-labels)하고 반드시 레이블 범위에 대해 **파일 및 전자 메일**이 선택되도록 합니다. 
+    
+    ![파일 및 전자 메일에 대한 민감도 레이블 범위 옵션](../media/filesandemails-scope-options-sensitivity-label.png)
 
-- **없음**: 새 레이블의 기본 설정입니다. 새 암호화가 적용되지 않습니다.
-- **적용**: 암호화를 켠 다음 암호화 설정을 지정합니다.
-- **제거**: 문서 또는 전자 메일이 암호화된 경우 암호화를 제거합니다.
+2. 그런 다음 **파일 및 전자 메일에 대한 보호 설정 선택** 페이지에서 반드시 **파일 및 전자 메일 암호화**를 선택합니다.
+    
+    ![파일 및 전자 메일에 대한 민감도 레이블 보호 옵션](../media/protection-options-sensitivity-label.png)
 
-> [!NOTE]
-> **제거** 옵션은 Azure Information Protection 통합 레이블 클라이언트에서만 지원됩니다. 기본 제공 레이블을 사용하는 경우, 이 옵션이 있는 레이블이 Office 앱과 서비스에 표시되며 이 옵션을 선택하면 암호화 동작은 **없음**과 동일합니다.
-
-암호화 옵션 구성:
-
-![암호화에 대한 민감도 레이블 옵션](../media/encrytion-options-sensitivity-label.png)
+4.  마법사의 **암호화** 페이지에서 다음 옵션 중 하나를 선택하세요.
+    
+    - **파일이 암호화 된 경우 암호화 제거**: 이 시나리오에 대한 자세한 내용은 [레이블이 적용되는 경우 기존 암호화에 발생하는 영향](#what-happens-to-existing-encryption-when-a-labels-applied) 섹션을 참조하세요. 이 설정을 사용하면 사용자에게 충분한 권한이 없는 경우, 적용하지 못할 수 있는 민감도 레이블이 있다는 것을 이해하는 것이 중요합니다.
+    
+    - **암호화 설정 구성**: 암호화를 켜고 암호화 설정을 표시합니다.
+        
+        ![암호화에 대한 민감도 레이블 옵션](../media/encrytion-options-sensitivity-label.png)
+        
+        해당 설정에 대한 지침은 다음 [암호화 설정 구성](#configure-encryption-settings) 섹션에 있습니다.
 
 ### <a name="what-happens-to-existing-encryption-when-a-labels-applied"></a>레이블이 적용되면 기존 암호화는 어떻게 되나요?
 
-암호화되지 않은 컨텐츠에 민감도 레이블이 적용된 경우 선택할 수 있는 암호화 옵션의 결과는 자명합니다. 예를 들어 암호화가 **없음**으로 설정되면 콘텐츠가 암호화되지 않은 상태로 유지됩니다.
+암호화되지 않은 컨텐츠에 민감도 레이블이 적용된 경우 선택할 수 있는 암호화 옵션의 결과는 자명합니다. 예를 들어 **암호화 파일 및 전자 메일**을 선택하지 않은 경우 콘텐츠는 암호화되지 않은 상태로 유지됩니다.
 
 그러나 콘텐츠가 이미 암호화되었을 수 있습니다. 예를 들어 다른 사용자가 다음을 적용했을 수 있습니다.
 
@@ -80,7 +85,7 @@ ms.locfileid: "48408628"
 
 다음 테이블에서는 민감도 레이블이 해당 콘텐츠에 적용되는 경우 기존 암호화가 어떻게 되는지에 대해 설명합니다.
 
-| |**암호화: 없음**|**암호화: 적용**|**암호화: 제거**|
+| |**암호화: 선택되지 않음**|**암호화: 구성됨**|**암호화: 제거**|
 |:-----|:-----|:-----|:-----|
 |**사용자가 지정하는 사용 권한**|원래 암호화가 유지됨|새 레이블 암호화가 적용됨|원래 암호화가 제거됨|
 |**보호 서식 파일**|원래 암호화가 유지됨|새 레이블 암호화가 적용됨|원래 암호화가 제거됨|
@@ -103,7 +108,7 @@ ms.locfileid: "48408628"
 
 ## <a name="configure-encryption-settings"></a>암호화 설정 구성
 
-마법사의 **암호화** 페이지에서 **적용**을 선택하여 민감도 레이블을 작성하거나 편집할 때 다음을 수행할지 여부를 선택하세요.
+민감도 레이블을 만들거나 편집하기 위해 마법사의 **암호화** 페이지에서 **암호화 설정 구성**을 선택하는 경우, 다음 옵션 중 하나를 선택할 수 있습니다.
 
 - 레이블을 적용한 콘텐츠에 대해 어떤 사용자에게 어떤 권한을 부여할 것인지 정확하게 결정할 수 있도록 **지금 권한을 할당**합니다. 자세한 내용은 다음 섹션 [지금 권한 할당](#assign-permissions-now)을 참조하세요.
 - 사용자가 콘텐츠에 레이블을 적용하는 경우 **사용자가 권한을 할당하도록 허용**할 수 있습니다. 이 옵션을 사용하면 조직의 사용자가 공동 작업과 작업 수행을 유연하게 할 수 있습니다. 자세한 내용은이 페이지에서 [권한을 할당할 수 있도록 허용](#let-users-assign-permissions) 섹션을 참조하세요.
@@ -275,7 +280,7 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 
 ## <a name="example-configurations-for-the-encryption-settings"></a>암호화 설정의 예제 구성
 
-아래에 나오는 각 예제에 대해 [민감도 레이블을 만들거나 편집](create-sensitivity-labels.md#create-and-configure-sensitivity-labels) 시 마법사의 **암호화**페이지에서 구성을 수행합니다. 먼저 **암호화**가 **적용**으로 설정되어 있는지 확인합니다.
+아래에 나오는 각 예제에 대해 **암호화 설정 구성**을 선택하는 경우, 마법사의 **암호화**페이지에서 구성을 수행합니다.
 
 ![민감도 레이블 마법사의 암호화 옵션 적용](../media/apply-encryption-option.png)
 
@@ -391,17 +396,18 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 
 암호화를 사용하려면 먼저 몇 가지 구성 작업을 수행해야 합니다.
 
-### <a name="activate-protection-from-azure-information-protection"></a>Azure Information Protection에서 보호 활성화
+- Azure Information Protection에서 보호 활성화
+    
+    민감도 레이블이 암호화를 적용하려면 테넌트에 대해 Azure Information Protection의 보호 서비스(Azure 권한 관리)가 활성화되어 있어야 합니다. 새 테넌트에서는 이것이 기본 설정이지만 서비스를 수동으로 활성화해야 할 수도 있습니다. 자세한 내용은 [Azure Information Protection에서 보호 서비스 활성화](https://docs.microsoft.com/azure/information-protection/activate-service)를 참조하세요.
 
-민감도 레이블이 암호화를 적용하려면 테넌트에 대해 Azure Information Protection의 보호 서비스(Azure 권한 관리)가 활성화되어 있어야 합니다. 새 테넌트에서는 이것이 기본 설정이지만 서비스를 수동으로 활성화해야 할 수도 있습니다. 자세한 내용은 [Azure Information Protection에서 보호 서비스 활성화](https://docs.microsoft.com/azure/information-protection/activate-service)를 참조하세요.
+- Azure Information Protection에 대한 Exchange 구성
+    
+    사용자가 Outlook에서 전자 메일을 암호화하기 위해 레이블을 적용하기 전에 Azure Information Protection을 위해 Exchange를 구성할 필요는 없습니다. 그러나 Exchange에 Azure Information Protection을 구성하기 전에는 Exchange에서 Azure 권한 관리 보호 사용의 모든 기능을 이용할 수 없습니다.
+    
+    예를 들어 사용자는 휴대폰 또는 웹에서의 Outlook으로 암호화된 전자 메일을 볼 수 없으며 검색 시 암호화된 전자 메일이 인덱싱되지 않으며 권한 관리 보호를 위한 Exchange Online DLP를 구성할 수 없습니다. 
+    
+    Exchange에서 이러한 추가 시나리오를 지원할 수 있는지 확인하려면 다음을 참조하세요.
+    
+    - Exchange Online의 경우 [Exchange Online: IRM 구성](https://docs.microsoft.com/azure/information-protection/configure-office365#exchangeonline-irm-configuration)에 대한 설명서를 참고하세요.
+    - Exchange 온-프레미스의 경우 [RMS 커넥터를 배포하고 Exchange 서버를 구성](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector)해야 합니다. 
 
-### <a name="configure-exchange-for-azure-information-protection"></a>Azure Information Protection에 대한 Exchange 구성
-
-사용자가 Outlook에서 전자 메일을 암호화하기 위해 레이블을 적용하기 전에 Azure Information Protection을 위해 Exchange를 구성할 필요는 없습니다. 그러나 Exchange에 Azure Information Protection을 구성하기 전에는 Exchange에서 Azure 권한 관리 보호 사용의 모든 기능을 이용할 수 없습니다.
-
-예를 들어 사용자는 휴대폰 또는 웹에서의 Outlook으로 암호화된 전자 메일을 볼 수 없으며 검색 시 암호화된 전자 메일이 인덱싱되지 않으며 권한 관리 보호를 위한 Exchange Online DLP를 구성할 수 없습니다.
-
-Exchange에서 이러한 추가 시나리오를 지원할 수 있는지 확인하려면 다음을 참조하세요.
-
-- Exchange Online의 경우 [Exchange Online: IRM 구성](https://docs.microsoft.com/azure/information-protection/configure-office365#exchangeonline-irm-configuration)에 대한 설명서를 참고하세요.
-- Exchange 온-프레미스의 경우 [RMS 커넥터를 배포하고 Exchange 서버를 구성](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector)해야 합니다.

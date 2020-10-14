@@ -16,18 +16,20 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: a5a9e6f5d1eb5188a6370cda0c988d2f1dda84cc
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+- m365solution-identitydevice
+- m365solution-scenario
+ms.openlocfilehash: d57709d78cd8b64b740c88362cb99653f6dec681
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399671"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48463993"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Id 및 장치 액세스 정책을 구현 하기 위한 필수 작업
 
 이 문서에서는 권장 되는 id 및 장치 액세스 정책을 배포 하기 전에 구현 해야 하는 필수 구성 요소에 대해 설명 합니다. 이 문서에서는 또한 사용자에 게 최적의 SSO (single sign-on) 환경을 제공 하는 데 필요한 기본 플랫폼 클라이언트 구성과 조건부 액세스에 대 한 기술적 필수 구성 요소에 대해 설명 합니다.
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>필수 조건
 
 권장 되는 id 및 장치 액세스 정책을 구현 하기 전에 조직에서 Microsoft 365 및 Office 365에 대 한 이러한 id 및 인증 모델에 대해 충족 해야 하는 몇 가지 필수 구성 요소가 있습니다.
 

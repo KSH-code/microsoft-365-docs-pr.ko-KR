@@ -16,12 +16,14 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 1ad8f643741626c4cbb8534b4ed5ed7591010fe0
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+- m365solution-identitydevice
+- m365solution-scenario
+ms.openlocfilehash: 28d4fc196e75a1a7a27cbe2a0f6804646002354f
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399679"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464077"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
 
@@ -190,7 +192,7 @@ Exchange Online에서는 인증 정책을 사용 하 여 [기본 인증을 사�
 
 | 유형 | 속성 | 값                  | 작업 |
 |:-----|:-----------|:------------------------|:------|
-| Access | **액세스 허용** |  | 선택한  |
+| 액세스 | **액세스 허용** |  | 선택한  |
 |      |     | **암호 변경 필요** | 수표  |
 |||||
 
@@ -302,17 +304,17 @@ Intune에서 준수 정책을 만드는 방법에 대 한 단계별 지침은 In
 |암호|모바일 장치의 잠금을 해제 하는 데 암호 필요|할| 선택한 |
 ||단순 암호|차단|선택한|
 ||암호 유형|장치 기본값|선택한|
-||최소 암호 길이|6 |유형|
-||암호를 요구 하기 전까지 최대 비활성 시간 (분)|15 |유형 <br>이 설정은 Android 버전 4.0 이상 또는 KNOX 4.0 이상에 대해 지원 됩니다. IOS 장치에서는 iOS 8.0 이상에 대해 지원 됩니다.|
-||암호 만료(일)|41|유형|
-||다시 사용 하지 못하도록 할 이전 암호 수|5 |유형|
+||최소 암호 길이|6 |타이핑|
+||암호를 요구 하기 전까지 최대 비활성 시간 (분)|15 |타이핑 <br>이 설정은 Android 버전 4.0 이상 또는 KNOX 4.0 이상에 대해 지원 됩니다. IOS 장치에서는 iOS 8.0 이상에 대해 지원 됩니다.|
+||암호 만료(일)|41|타이핑|
+||다시 사용 하지 못하도록 할 이전 암호 수|5 |타이핑|
 ||장치가 유휴 상태에서 반환 될 때 암호 필요 (Mobile 및 Holographic)|할|Windows 10 이상 버전에서 사용 가능|
 |암호화|장치에서 데이터 저장소 암호화|할|선택한|
 |장치 보안|방화벽이|할|선택한|
 ||바이러스 검사|할|선택한|
 ||백신|할|선택한 <br> 이 설정을 사용 하려면 Windows 보안 센터에 등록 된 스파이웨어 방지 솔루션이 필요 합니다.|
 |Defender|Microsoft Defender 맬웨어 방지|할|선택한|
-||Microsoft Defender 맬웨어 방지 최소 버전||유형 <br> Windows 10 desktop에 대해서만 지원 됩니다. 최신 버전에서 최대 5 개까지 남은 버전은 Microsoft에서 권장 됩니다.|
+||Microsoft Defender 맬웨어 방지 최소 버전||타이핑 <br> Windows 10 desktop에 대해서만 지원 됩니다. 최신 버전에서 최대 5 개까지 남은 버전은 Microsoft에서 권장 됩니다.|
 ||Microsoft Defender 맬웨어 방지 서명이 최신 상태입니다.|할|선택한|
 ||실시간 보호|할|선택한 <br>Windows 10 desktop에만 지원 됨|
 |||||

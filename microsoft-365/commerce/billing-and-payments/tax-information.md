@@ -20,24 +20,32 @@ description: '다른 지역의 Microsoft 365 비즈니스 에디션 구독에 �
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: de5f05b50138606cd60e8c6ab1999a7ed2090dce
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: d3d1bc1239cb99da33f776e603356ccae95a2353
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434064"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464099"
 ---
 # <a name="tax-information"></a>세금 정보
 
-Microsoft를 통해 구입한 Microsoft 365 관리 센터에 대한 세금은 사용자의 비즈니스 주소 또는 다른 경우에는 배송 주소에 따라 결정됩니다. 미국에 있는 경우에는 (FEIN) 연방 고용주 식별 번호를 제공 해야 합니다.
+Microsoft 365 제품 및 서비스를 구입 하는 경우 지불 하는 세금은 회사 주소 또는 배송 주소가 서로 다를 경우 두 가지 중 하나로 결정 됩니다. 조직이 미국에 있는 경우에는 (FEIN) 연방 고용주 Id 번호를 제공 해야 합니다.
 
-이러한 국가의 기업은 VAT 번호를 제공 합니다.
+다음 국가에 있는 기업은 VAT 번호나 로컬에 해당 하는 값을 제공할 수 있습니다.
 
 :::row:::
     :::column:::
+- 아르메니아
+- 오스트레일리아
 - 오스트리아
+- 바하마
+- 방글라데시
+- 벨로루시
 - 벨기에
+- 브라질
 - 불가리아
+- 칠레
+- 콜롬비아
 - 크로아티아
 - 키프로스
 - 체코 공화국
@@ -48,122 +56,100 @@ Microsoft를 통해 구입한 Microsoft 365 관리 센터에 대한 세금은 �
 - 독일
 - 그리스
 - 헝가리
+- 00
+- 인도네시아
 - 아일랜드
+- 맨 섬
 - 이탈리아
-- 라트비아
     :::column-end:::
     :::column:::
+- 한국
+- 라트비아
 - 리히텐슈타인
 - 리투아니아
 - 룩셈부르크
+- 말레이시아
 - 몰타
+- 멕시코
 - 모나코
 - 네덜란드
+- 뉴질랜드
 - 노르웨이
 - 폴란드
 - 포르투갈
 - 루마니아
+- 사우디아라비아
 - 슬로바키아
+- 슬로베니아
 - 남아프리카 공화국
 - 스페인
 - 스웨덴
 - 스위스
+- 대만
+- 터키
+- 아랍에미리트
 - 영국
     :::column-end:::
 :::row-end:::
 
-이러한 국가는 해당 VAT 번호나 해당 청구 계정 정보에 해당 하는 로컬을 제공할 수 있습니다.
-
-|시장을| 세금 식별자 |
-|------|----------------|
-| 오스트레일리아 | ABN (선택 사항) |
-| 브라질 | CNPJ (필수) |
-| 인도 | GSTIN (optional), PAN ID (필수) |
-| 맨 섬 | VAT ID (선택 사항) |
-| 뉴질랜드 | GST 등록 번호 (선택 사항) |
-| 모나코 | VAT ID (선택 사항) |
-| 대만 | VAT ID (선택 사항) |
+* 대부분의 국가를 소개 하 고, VAT 번호 또는 지역 등가를 제공 하는 것은 선택 사항입니다. 브라질 및 인도의 경우 세금 식별 번호는 필수입니다.
 
 > [!Note]
 > 고객 지원에 문의 해야 하는 경우에는 해당 FEIN, VAT 번호 또는 로컬 동급가 지원 에이전트에 게 제공 되도록 준비 해야 합니다.
 
-## <a name="what-tax-will-i-be-charged"></a>부과되는 세금은 무엇인가요?
+## <a name="europe-the-middle-east-and-africa-emea"></a>EMEA(유럽, 중동, 아프리카)
 
-다음 지역에서 어떤 세금이 부과되는지 알아보세요. 적절한 문서를 지원 센터에 제공하여 [면세 자격을 신청](tax-information.md#apply-for-tax-exempt-status)할 수도 있습니다.
+유럽 연합에서 Microsoft 365 서비스를 구입 하는 경우이 구매에는 VAT (Value-Added 세금)가 적용 됩니다.
   
-### <a name="europe-the-middle-east-and-africa-emea"></a>EMEA(유럽, 중동, 아프리카)
-
-유럽 연합에서 Microsoft 365 서비스를 구입 하는 경우이 구매에는 부가 가능 세금 (VAT)이 적용 됩니다.
-  
-- 유럽 연합 회원국에 있는데 현지의 유효한 VAT ID를 제공하지 않는 경우 Microsoft Ireland Operations Ltd.에서는 계정이 설정된 청구 국가를 기준으로 현지의 현행 VAT 세율을 적용합니다.
+- 유럽 연합 회원 상태에 있고 유효한 로컬 VAT ID를 제공 하지 않으면 (Microsoft 아일랜드;) 사용자의 계정이 설정 된 청구 국가에 따라 현재 로컬 VAT 속도가 적용 됩니다.
 
 - 스위스 또는 리히텐슈타인에 있는 경우 VAT ID 제공 여부와 관계없이 현재 스위치 VAT 세율이 적용됩니다.
 
-- 일반적으로 유럽 연합 및 스위츠/리히텍슈타인 외의 EMEA 국가에서는 Microsoft Ireland Operations Ltd.에서 VAT를 부과하지 않습니다.
+- 일반적으로 유럽 연합 및 스위스/리히텐슈타인가 아닌 EMEA 국가에 있는 경우에는 VAT가 Microsoft 아일랜드;
 
-- Microsoft에서 귀하의 VAT ID를 확인하기 전에 VIES(VAT Information Exchange System)에서 확인이 가능한 상태여야 합니다. 귀하의 VAT ID를 확인할 수 없는 경우 현지 세금 당국에 문의하세요.
+- Microsoft에서 귀하의 VAT ID를 확인하기 전에 VIES(VAT Information Exchange System)에서 확인이 가능한 상태여야 합니다. VAT ID를 확인할 수 없는 경우 현지 세금 인증 기관에 문의 하십시오.
 
-다음과 같은 경우 VAT 면세 자격을 얻을 수 있습니다.
+다음과 같은 경우 VAT의 경우 0 등급에 해당 하는 경우를 한정할 수 있습니다.
   
-- **아일랜드 외의 유럽 연합 회원국에 있는 경우:** 유효한 현재 VAT ID를 제공할 수 있습니다. 그러면 Microsoft Ireland Operations Ltd.에서 VAT 면세 거래를 할 수 있습니다. 하지만 현지의 VAT 회계 의무가 있을 수 있으므로 궁금한 점이 있으면 세무 담당자에게 확인하시기 바랍니다. 자세한 내용은 아래의 "VAT ID 추가 (EU 국가에만 해당)"를 참조 하십시오.
+- **아일랜드를 벗어나는 유럽 연합 구성원 상태입니다.** 유효한 로컬 VAT ID를 제공할 수 있습니다. 이를 통해 Microsoft 아일랜드 운영을 할 수 있습니다. 그러나 로컬 VAT 회계 의무가 있을 수 있습니다. 문제가 있는 경우 세금 세무 확인 합니다. 자세한 내용은 [VAT ID 추가](#add-your-vat-id)를 참조 하세요.
 
-- **아일랜드에 있으며 관련된 유효한 VAT 면세 인증이 있는 경우:** Microsoft Ireland Operations Ltd.에서 거래의 VAT를 면제할 수 있습니다. 그렇지 않으면 Microsoft Ireland Operations Ltd.에서 VAT ID 제공 여부와 관계없이 현재 아일랜드 작업 VAT 세율을 적용합니다.
+- **아일랜드에 있고 관련 유효한 VAT 면제 인증을 보유 하 고 있습니다.** Microsoft 아일랜드; i d. VAT에서 거래를 제외 하는 자격이 있을 수 있습니다. 그렇지 않으면 Microsoft Ireland Operations Ltd.에서 VAT ID 제공 여부와 관계없이 현재 아일랜드 작업 VAT 세율을 적용합니다.
 
-::: moniker range="o365-worldwide"
+## <a name="asia-pacific-countries-apac"></a>APAC(아시아 태평양 국가)
 
-#### <a name="add-your-vat-id-eu-countries-only"></a>VAT ID 추가(EU 국가에만 해당)
+Microsoft 지역별 판매 사무소 (Microsoft 지역별 판매 Pte)에 의해 청구 되는 경우 이란 " 이 (가) 송장에 나타나며 해당 하는 값 추가, 판매 또는 유사 세금에 대 한 비용이 부과 될 수 있습니다.
+  
+다음 위치 중 하나에서 결제일을 결제 하는 경우 현재 지역 세금을 적용 합니다. 이 위치는 [송장에](view-your-bill-or-invoice.md)포함 됩니다.
+  
+- 인도
+- 일본
+- 한국
+- 싱가포르
+- 대만
+
+## <a name="north-central-and-south-america"></a>북미, 중미, 남미
+
+미국, 캐나다, 멕시코, 칠레 및 콜롬비아에서 제품의 특징과 위치에 따라 다양 한 세금 급여가 적용 됩니다.
+  
+Microsoft Corporation에서 대금 청구를 수행 하는 경우 ([청구서 보기](view-your-bill-or-invoice.md)), 미국, 캐나다, 푸에르토리코, 칠레 및 콜롬비아 외부에서 microsoft 365에 등록 한 경우에는 일반적으로 세금이 부과 되지 않습니다.
+
+## <a name="add-your-vat-id"></a>VAT ID 추가
 
 1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
-
-2. 업데이트 하려는 구독의 구독 카드를 찾습니다.
-
-3. **& 작업 설정** 섹션에서 **서비스 사용 주소 편집**을 선택 합니다.
-
-4. **서비스 사용 주소 편집** 페이지의 **vat 번호** 상자에 접두사를 포함 한 vat ID와 공백 없이 입력 합니다. **저장**을 선택합니다.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-#### <a name="add-your-vat-id-eu-countries-only"></a>VAT ID 추가(EU 국가에만 해당)
-  
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
-
-2. 구독 이름을 선택 하 고 **기타 작업** 을 선택 하 여 \> **VAT 번호를 편집**합니다.
-  
-3. **서비스 사용 주소 편집** 페이지의 **vat 번호** 상자에 접두사를 포함 한 vat ID와 공백 없이 입력 합니다. **저장**을 선택합니다.
-
-::: moniker-end
-
-### <a name="asia-pacific-countries-apac"></a>APAC(아시아 태평양 국가)
-
-Microsoft Regional Sales 사무소에서 대금이 청구되는 경우 송장에 "Microsoft Regional Sales"가 표시되며, 국내 매출이 아닌 한 일반적으로 소비세나 VAT(부가가치세)가 부과되지 않습니다.
-  
-다른 위치에서 대금이 청구되는 경우에는 현지의 현행 세금이 적용됩니다. [송장](view-your-bill-or-invoice.md)에는 다음이 표시됩니다.
-  
-- Singapore to Singapore
-
-- Korea to Korea
-
-- Japan to Japan
-
-- Taiwan to Taiwan
-
-### <a name="north-central-and-south-america"></a>북미, 중미, 남미
-
-미국 및 캐나다에서는 고객 위치에 따라 다양한 세율이 적용됩니다. 푸에르토리코에 있는 경우 현지 VAT(부가가치세)가 적용됩니다.
-  
-Microsoft Corporation에서 대금 청구를 수행 하는 경우 ([청구서 참조](view-your-bill-or-invoice.md)) 미국, 캐나다 및 푸에르토리코 이외의 지역에서 microsoft 365에 등록 한 경우에는 일반적으로 세금은 청구 되지 않습니다.
+2. **제품** 탭에서 업데이트할 구독을 선택 합니다.
+3. 구독 정보 페이지의 **서비스 사용 주소** 섹션에서 **서비스 사용 주소 편집**을 선택 합니다.
+4. **서비스 사용 주소 편집** 창의 **vat 번호** 상자에 접두사를 포함 한 vat ID와 공백 없이 입력 합니다.
+5. **저장**을 선택합니다.
 
 ## <a name="how-taxes-are-calculated"></a>세금 계산 방법
 
 판매 세금이 단가를 기준으로 계산 된 다음 집계 됩니다.
 
-예제:
+예시:
 
 >*(단가 X 세금 비율) X 수량 = 총 판매액 세금*
 
--또는-
+또는
 
 >($1.29 X 0.095) X 100 = $12.25
 
@@ -171,14 +157,14 @@ Microsoft Corporation에서 대금 청구를 수행 하는 경우 ([청구서 �
 
 시장의 세금 면제 상태를 우량으로 선별할 경우 [서비스 요청을 시작](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) 하 여 조직의 세금 예외 상태를 설정 합니다.
 
-다음 설명서를 준비 해야 합니다.
-
 |국가 또는 로캘 | 설명서 |
 |------------------|----------------|
-| 미국 | 판매 세금 면제 인증서 |
 | 캐나다 | 예외에 대 한 인증서 또는 해당 하는 인증 된 문자 |
-| 아일랜드 | 13B/56A 세금 면제 인증서|
+| 칠레 | IVA status/RUT (Registro Unico Tributario) |
+| 콜롬비아 | IVA status/RUT (Registro Unico Tributario) |
 | 세금 면제를 포함 하는 국제 조직 | 로컬 세금 기관의 인증/편지 확인 |
+| 아일랜드 | 13B/56A 세금 면제 인증서|
+| 미국 | 판매 세금 면제 인증서 |
 | 푸에르토리코 | Ras Exentas Certificado |
   
 ## <a name="related-content"></a>관련 콘텐츠

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: 중앙 집중식 배포를 사용 하 여 Office 추가 기능을 배포할 수 있도록 테 넌 트 및 사용자가 요구 사항을 충족 하는지 확인 합니다.
-ms.openlocfilehash: c3e306789f5b1c09e835d8d2c5ebea668bf14874
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: c89cb801a5b2fcad87227feaf4228b0dcabcf609
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235421"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464053"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 맞게 작동 하는지 확인
 
@@ -46,7 +46,7 @@ ms.locfileid: "48235421"
 ## <a name="requirements"></a>요구 사항
 
 추가 기능의 중앙 집중식 배포에서는 사용자가 Microsoft 365 앱 for enterprise 또는 Microsoft 365 Business Premium을 사용 하 고 있으며, 조직 ID를 사용 하 여 Office에 로그인 하 고, Exchange Online 및 active Exchange Online 사서함이 있어야 합니다. 구독 디렉터리는 내에 있거나 Azure Active Directory에 페더레이션 되어 있어야 합니다.
-아래의 Office 및 Exchange에 대 한 특정 요구 사항을 보거나[중앙 집중식 배포 호환성 검사](#centralized-deployment-compatibility-checker)를 사용할 수 있습니다.
+아래의 Office 및 Exchange에 대 한 특정 요구 사항을 보거나 [중앙 집중식 배포 호환성 검사](#centralized-deployment-compatibility-checker)를 사용할 수 있습니다.
 
 중앙 집중식 배포는 다음을 지원하지 않습니다.
   
@@ -134,7 +134,8 @@ Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능�
     
 - 지원되는 사서함 - OAuth 지원 사서함을 사용 중인 경우
 
-
+> [!NOTE]
+> 중앙 배포 PowerShell 모듈을 사용 하는 경우에는 다단계 인증이 지원 되지 않습니다.
   
 ## <a name="user-and-group-assignments"></a>사용자 및 그룹 할당
 
@@ -171,4 +172,3 @@ Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능�
 |사무실  <br/> | Charles/Fiddler 로그  <br/>  테넌트 ID( [방법 알아보기](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id.aspx))  <br/>  관계. Office 페이지 중 하나의 원본을 확인 하 고 상관 관계 ID 값을 확인 한 다음 지원에 보냅니다.  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
 |리치 클라이언트(Windows, Mac)  <br/> | Charles/Fiddler 로그  <br/>  클라이언트 응용 프로그램의 빌드 번호 ( **파일/계정의**스크린샷)  <br/> |
    
-

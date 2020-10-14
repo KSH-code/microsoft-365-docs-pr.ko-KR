@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,19 +19,14 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
-- GEA150
-ms.assetid: 5480fc33-dd47-41e7-bcfb-b2533efdb92a
-description: '비즈니스에 대 한 Microsoft 365의 주요 구독에 대 한 답변을 확인 합니다. '
-ms.openlocfilehash: a2c25c82587752493dea6e3110e69f7075ed7b09
-ms.sourcegitcommit: 956dd3f87adb4e6173517550a662c3bacc2d2d79
+description: 비즈니스용 Microsoft 365 구독에 대 한 주요 답변을 확인 합니다.
+ms.openlocfilehash: d1af61fe4493137621315c79c2bbf7d33d60de0a
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44741684"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464005"
 ---
 # <a name="top-billing-questions-for-microsoft-365-for-business"></a>비즈니스에 대 한 Microsoft 365에 대 한 주요 대금 청구 질문
 
@@ -171,14 +166,14 @@ ms.locfileid: "44741684"
 ::: moniker range="o365-worldwide"
 ## <a name="what-taxes-will-i-be-charged"></a>어떤 세금을 부과할 것인가?
 
-국가 또는 지역에 따라 요금이 부과 [되는](tax-information.md#what-tax-will-i-be-charged) 세금을 확인할 수 있습니다.
+국가 또는 지역에 따라 [세금 정보](tax-information.md) 를 참조 하 여 요금이 부과 되는 세금을 확인할 수 있습니다.
   
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 ## <a name="what-taxes-will-i-be-charged"></a>어떤 세금을 부과할 것인가?
 
-국가 또는 지역에 따라 요금이 부과 [되는](tax-information.md#what-tax-will-i-be-charged) 세금을 확인할 수 있습니다.
+국가 또는 지역에 따라 [세금 정보](tax-information.md) 를 참조 하 여 요금이 부과 되는 세금을 확인할 수 있습니다.
   
 ::: moniker-end
 

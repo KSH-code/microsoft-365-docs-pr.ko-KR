@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365 용 클라이언트 및 서버 소프트웨어를 설정 하기 위한 로드맵
-ms.openlocfilehash: 898464222b8296cee3ab12fe7351295f39a23736
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: d3401baa09d27ff9753f9a45ecb537c67701c0e9
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950571"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464411"
 ---
 # <a name="client-and-server-software-roadmap-for-microsoft-365"></a>Microsoft 365에 대 한 클라이언트 및 서버 소프트웨어 로드맵
 
@@ -60,7 +60,7 @@ Office 2007을 실행하는 컴퓨터를 Office 2010, Office 2013 또는 Office 
 
 ### <a name="office-2010"></a>Office 2010
 
-Office 2010 릴리스에 있는 Office 버전의 경우에는 **2020년 10월 13일**에 지원이 종료됩니다. 자세한 내용은 [Office 2010 지원 종료 로드맵](https://docs.microsoft.com/deployoffice/office-2010-end-support-roadmap)을 참조하세요.
+Office 2010 릴리스의 Office 버전의 경우 지원은 **2020 년 10 월 13 일**에 종료 되었습니다. 자세한 내용은 [Office 2010 지원 종료 로드맵](https://docs.microsoft.com/deployoffice/office-2010-end-support-roadmap)을 참조하세요.
 
 Office 2010을 실행하는 컴퓨터를 Office 2013 또는 Office 2016으로 업그레이드하는 대신(둘 다 수동으로 업데이트해야 함), 다음을 수행하는 것이 좋습니다.
 
@@ -117,7 +117,7 @@ Office 2007 릴리스의 서버 제품을 Office 2010, Office 2013 또는 Office
 
 ### <a name="office-server-2010"></a>Office Server 2010
 
-[Exchange Server 2010](exchange-2010-end-of-support.md) 지원 종료일은 **2020년 10월 13일입니다**.
+[Exchange Server 2010](exchange-2010-end-of-support.md) 에 대 한 지원은 **2020 년 10 월 13 일**에 종료 되었습니다.
 
 [SharePoint Server 2010](upgrade-from-sharepoint-2010.md) 지원 종료일은 **2021년 4월 13일입니다**.
 

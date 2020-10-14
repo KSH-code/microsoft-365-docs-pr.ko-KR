@@ -3,7 +3,6 @@ title: Exchange 2010 지원 종료 로드맵
 ms.author: dstrome
 author: dstrome
 manager: laurawi
-ms.date: 09/16/2019
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -13,22 +12,22 @@ ms.assetid: e150e7b9-c432-4c8d-a0ae-c11847129a7d
 f1.keywords:
 - NOCSH
 description: Exchange 2010는 지원 종료에 거의 도달 했습니다. 이 계획 로드맵을 사용 하 여 Exchange Online으로의 업그레이드를 준비 하거나 Exchange Server 온-프레미스의 새 버전으로 업그레이드할 수 있습니다.
-ms.openlocfilehash: 128abd1e98c3e9d1ec4dd8a58683ee0ab019af18
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: dbae3fba3ddbff016e0e9434db4af6ca0a046b0d
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950823"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464255"
 ---
 # <a name="exchange-2010-end-of-support-roadmap"></a>Exchange 2010 지원 종료 로드맵
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-**2020 년 10 월 13 일**에 Exchange Server 2010은 지원 종료에 도달 합니다. 아직 Exchange 2010에서 Microsoft 365, Office 365 또는 Exchange 2016로 마이그레이션을 시작한 적이 없는 경우에는 계획을 시작 하는 데 걸리는 시간입니다.
+Exchange Server 2010는 **2020 년 10 월 13 일**에 지원 종료에 도달 했습니다. 아직 Exchange 2010에서 Microsoft 365, Office 365 또는 Exchange 2016로 마이그레이션을 시작한 적이 없는 경우에는 계획을 시작 하는 데 걸리는 시간입니다.
 
 ## <a name="what-does-end-of-support-mean"></a>지원이 끝나는 것은 무엇을 의미 하나요?
 
-Exchange 서버에는 거의 모든 Microsoft 제품과 마찬가지로 새로운 기능, 버그 수정, 보안 픽스 등을 제공 하는 지원 주기가 있습니다. 일반적으로이 수명 주기는 제품 초기 릴리스 날짜 로부터 10 년 동안 지속 되며이 주기의 끝은 제품의 지원 종료 라고 합니다. Exchange 2010가 2020 년 10 월 13 일에 지원 종료에 도달 하면 더 이상 다음이 제공 되지 않습니다.
+Exchange 서버에는 거의 모든 Microsoft 제품과 마찬가지로 새로운 기능, 버그 수정, 보안 픽스 등을 제공 하는 지원 주기가 있습니다. 일반적으로이 수명 주기는 제품 초기 릴리스 날짜 로부터 10 년 동안 지속 되며이 주기의 끝은 제품의 지원 종료 라고 합니다. Exchange 2010는 2020 년 10 월 13 일에 지원 종료에 도달 하 여 더 이상 다음을 제공 하지 않습니다.
 
 - 발생할 수 있는 문제에 대 한 기술 지원
 - 검색 된 문제와 서버의 안정성 및 유용성에 영향을 줄 수 있는 문제에 대 한 버그 수정
@@ -50,7 +49,7 @@ Exchange 2010이 지원 종료에 도달 하면이를 통해 옵션을 살펴보
 > 조직에서 사서함을 Microsoft 365로 마이그레이션하도록 선택 했지만 온-프레미스 Active Directory에서 사용자 계정을 계속 관리 하기 위해 DirSync 또는 Azure AD Connect를 유지 하려는 경우에는 하나 이상의 Exchange 서버를 온-프레미스로 유지 해야 합니다. 마지막 Exchange 서버를 제거 하는 경우 exchange Online에서 Exchange 받는 사람을 변경할 수 없게 됩니다. 이는 기관 원본이 온-프레미스 Active Directory에 남아 있으며 변경 해야 하기 때문입니다. 이 시나리오에서는 다음과 같은 옵션을 사용할 수 있습니다.
 
 - (**권장**) 사서함을 Microsoft 365로 마이그레이션하고 2020 서버를 업그레이드할 수 있는 경우 Exchange 2010을 사용 하 여 Microsoft 365에 연결 하 고 사서함을 마이그레이션합니다. 다음으로, Exchange 2016를 Exchange 2010로 마이그레이션하고 나머지 Exchange 2010 서버를 해제 합니다.
-- 2020 년 10 월 13 일에 사서함 마이그레이션 및 온-프레미스 서버 업그레이드를 완료할 수 없는 경우 온-프레미스 Exchange 2010 서버를 먼저 Exchange 2016로 업그레이드 한 다음 Exchange 2016을 사용 하 여 Microsoft 365에 연결 하 고 사서함을 마이그레이션합니다.
+- 2020 년 10 월 13 일에 사서함 마이그레이션 및 온-프레미스 서버 업그레이드를 완료 하지 못한 경우 온-프레미스 Exchange 2010 서버를 먼저 Exchange 2016로 업그레이드 한 다음 Exchange 2016을 사용 하 여 Microsoft 365에 연결 하 고 사서함을 마이그레이션합니다.
 
 > [!NOTE]
 > 다소 복잡 하 게 인해 온-프레미스 Exchange 2010 서버를 Exchange 2016로 마이그레이션하는 동안 사서함을 Microsoft 365로 마이그레이션할 수도 있습니다.
@@ -65,7 +64,7 @@ Exchange 2010이 지원 종료에 도달 하면이를 통해 옵션을 살펴보
 
 Exchange 2010 배포를 중지 하는 데 도움이 되는 가장 간단 하 고 간단한 옵션은 전자 메일을 Microsoft 365로 마이그레이션하는 것입니다. Microsoft 365로 마이그레이션하는 경우 이전 기술과의 단일 홉을 사용 하 여 다음과 같은 최신 기능을 사용할 수 있습니다.
 
-- 보존 정책, 현재 위치, 소송 보존, 원본 위치 eDiscovery 등의 규정 준수 기능
+- 보존 정책, In-Place 및 소송 보류, 원본 위치 eDiscovery 등의 규정 준수 기능
 - Microsoft Teams
 - Power BI
 - 중요 받은 편지함

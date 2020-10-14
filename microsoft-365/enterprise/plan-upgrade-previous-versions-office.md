@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에는 업그레이드를 계획 하는 데 도움이 되는 Office 2007 또는 Office 2010을 사용 하는 사용자를 위한 리소스가 나와 있습니다.
-ms.openlocfilehash: 0b137b39d671b9746445f9e41a5859732574dbe4
-ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
+ms.openlocfilehash: 257f66ab2f542f18c0a1eb2d503e0bf87e13d184
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48384568"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464423"
 ---
 # <a name="plan-your-upgrade-from-office-2007-or-office-2010-servers-and-clients"></a>Office 2007 또는 Office 2010 서버 및 클라이언트에서 업그레이드 계획
 
@@ -29,7 +29,7 @@ ms.locfileid: "48384568"
 
 조직에서 이전 버전의 Office 제품 및 서버를 사용하는 경우 이제 업그레이드 계획을 시작하는 것이 좋습니다. Office 2007 제품 및 서비스의 [지원이 종료](upgrade-from-office-2007-servers-and-products.md)되었습니다. Office 2010 제품 및 서비스에 대해 다음을 수행 합니다.
 
-- **2020년 10월 13일**에 Office 2010 및 Exchange 2010 지원이 종료됩니다. 
+- Office 2010 및 Exchange 2010는 **2020 년 10 월 13 일**에 지원 종료에 도달 했습니다. 
 - **2021년 4월 13일**에 SharePoint 2010 및 Project Server 2010 지원이 종료됩니다. 
 
 자세한 내용은 [Office 2010 서버 및 클라이언트에서 업그레이드](upgrade-from-office-2010-servers-and-products.md)를 참조 하세요.
