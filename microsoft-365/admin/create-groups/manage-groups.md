@@ -19,16 +19,18 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: 그룹 구성원 제거, 전자 메일 주소, 그룹 이름 또는 설명 편집, 그룹 작동 방식 사용자 지정 등 Microsoft 365 그룹을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 29eaa762116498799d4156b58c8f9bf466f04073
-ms.sourcegitcommit: e87015bf29ad15688137c785d93f2c79ca3208f4
+ms.openlocfilehash: 7cc9bc6eb79b305c7d20d8075b6dc287e4f8b5d7
+ms.sourcegitcommit: 88c2461b14cd16f74979f4bcd0a9ad18e4422cb3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48343274"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48469712"
 ---
 # <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 그룹 관리
 
-[Microsoft 365 그룹을 만들고](create-groups.md) 그룹 구성원을 추가한 후에는 그룹을 구성할 수 있습니다. 그룹 이름 또는 설명을 편집 하 고, 소유자 또는 구성원을 관리 하 고, 외부 보낸 사람이 그룹에 전자 메일을 보낼 수 있는지 여부와 그룹 대화의 복사본을 구성원에 게 보낼지 여부를 지정할 수 있습니다. 
+[Microsoft 365 그룹을 만들고](create-groups.md) 그룹 구성원을 추가한 후에는 그룹을 구성할 수 있습니다. 그룹 이름 또는 설명을 편집 하 고, 소유자 또는 구성원을 관리 하 고, 외부 보낸 사람이 그룹에 전자 메일을 보낼 수 있는지 여부와 그룹 대화의 복사본을 구성원에 게 보낼지 여부를 지정할 수 있습니다.
+
+Microsoft 365 관리 센터 ()로 이동 [https://admin.microsoft.com](https://admin.microsoft.com) 합니다.
 
 ## <a name="edit-the-group-name-or-description"></a>그룹 이름 또는 설명 편집
 
