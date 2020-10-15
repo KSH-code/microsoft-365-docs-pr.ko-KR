@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 20f1a0cc38338bb054618726b5a399d237a979d2
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: f4cd713abdda0eba20e0b783ff89653ae02efb72
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399503"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464088"
 ---
 # <a name="get-started-with-communication-compliance"></a>커뮤니케이션 규정 준수 시작
 
@@ -130,7 +130,7 @@ ms.locfileid: "48399503"
 |감독 사용자 <br> 감독 되지 않은 사용자 | 메일 그룹 <br> Microsoft 365 그룹 | 동적 메일 그룹 |
 | 가 | 없음 | 메일 그룹 <br> 동적 메일 그룹 <br> 메일 사용 가능 보안 그룹 |
   
-정책에서 메일 그룹을 할당할 경우 정책은 메일 그룹의 각 사용자에 대 한 모든 전자 메일을 모니터링 합니다. 정책에 Microsoft 365 그룹을 할당 하면 각 그룹 구성원이 받은 개별 전자 메일이 아닌 해당 그룹에 전송 된 모든 전자 메일을 모니터링 하는 정책이 됩니다.
+정책에서 메일 그룹을 할당 하면이 정책은 메일 그룹의 각 사용자에 대 한 모든 전자 메일 및 팀 채팅을 모니터링 합니다. 정책에서 Microsoft 365 그룹을 할당 하면 정책에서 각 그룹 구성원이 받은 개별 전자 메일 및 채팅을 통해 해당 그룹으로 전송 되는 모든 전자 메일 및 팀 채팅을 모니터링 합니다.
 
 Exchange 온-프레미스 배포 또는 외부 전자 메일 공급자가 있는 조직이 고 사용자에 대해 Microsoft 팀 채팅을 모니터링 하려는 경우에는 온-프레미스 또는 외부 사서함을 사용 하 여 모니터링할 사용자에 대 한 메일 그룹을 만들어야 합니다. 이 단계 후반에는 정책 마법사에서이 메일 그룹을 **감독 된 사용자 및 그룹** 으로 할당 합니다.
 

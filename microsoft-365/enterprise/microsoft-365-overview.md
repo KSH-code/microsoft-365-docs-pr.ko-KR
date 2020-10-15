@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 엔터프라이즈용 Microsoft 365의 구성 요소, 계획 및 배포 경로에 대한 소개를 제공합니다.
-ms.openlocfilehash: fa076517b071efbe3a5002d6a48418a796e38ca4
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 53cc91a2b5e756fcf4ec8fcc5371795bcfb8342c
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327476"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464351"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈용 Microsoft 365 개요
 
@@ -87,7 +87,7 @@ Microsoft 365 E3 사용자는 이러한 추가 기능을 사용하여 Microsoft 
 
 [Windows 7](https://aka.ms/win7upgrade)에 대한 서비스 지원이 **2020년 1월 14일**에 종료 되었습니다.
 
-**2020년 10월 13일**에 이 제품에 대한 지원이 종료됩니다.
+**2020년 10월 13일**에 다음 제품의 지원이 종료됩니다.
 
 - [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
 - [Exchange Server 2010](exchange-2010-end-of-support.md)
