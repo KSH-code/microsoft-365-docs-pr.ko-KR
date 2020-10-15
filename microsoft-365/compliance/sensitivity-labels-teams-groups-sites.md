@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: e8d9b3c4928172ace2bc63d5aa31d65c4145ad6a
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: ac6af4d82b3da507f1fe0081041b347b9f5e4a94
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430317"
+ms.locfileid: "48446855"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기
 
@@ -30,23 +30,23 @@ ms.locfileid: "48430317"
 
 [민감도 레이블](sensitivity-labels.md)을 사용하여 문서와 전자 메일을 분류하고 보호하는 것 외에도 민감도 레이블을 사용하여 Microsoft Teams 사이트, Microsoft 365 그룹([이전 이름: Office 365 그룹](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601)) 및 SharePoint 사이트와 같은 컨테이너의 콘텐츠를 보호할 수도 있습니다. 이 컨테이너 수준 분류 및 보호를 위해서는 다음 레이블 설정을 사용하세요.
 
-- Microsoft 365 그룹에 연결된 팀 사이트의 개인 정보(공개 또는 비공개)
+- 팀 사이트 및 Microsoft 365 그룹의 개인 정보(공개 또는 비공개)
 - 외부 사용자 액세스
 - 관리되지 않는 장치에서 액세스
 
 > [!IMPORTANT]
 > **관리되지 않는 장치에서 액세스** 설정은 SharePoint 기능과 함께 작동하여 [관리되지 않는 장치에서 액세스를 제어](/sharepoint/control-access-from-unmanaged-devices)합니다. 이 설정이 구성되어 있는 민감도 레이블을 사용하도록 해당 종속 SharePoint 기능을 구성해야 합니다. 추가 정보는 다음 지침에 포함되어 있습니다.
 
-지원되는 컨테이너에 이 민감도 레이블을 적용하면, 레이블은 연결된 사이트 또는 그룹에 분류 및 보호 설정을 자동으로 적용합니다.
+지원되는 컨테이너에 이 민감도 레이블을 적용하는 경우, 레이블은 사이트 또는 그룹에 분류 및 구성된 보호 설정을 자동으로 적용합니다.
 
-그러나 이러한 컨테이너의 콘텐츠는 시각적 표시 또는 암호화와 같은 분류와 설정에 대한 레이블을 상속하지 않습니다. SharePoint 사이트 또는 팀 사이트에서 문서에 레이블을 지정할 수 있도록 [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블을 사용하도록 설정](sensitivity-labels-sharepoint-onedrive-files.md)했는지 확인하세요.
+그러나 이러한 컨테이너의 콘텐츠는 시각적 표시 및 암호화와 같은 파일 및 전자 메일에 대한 분류 혹은 설정에 대한 레이블을 상속하지 않습니다. SharePoint 사이트 또는 팀 사이트에서 문서에 레이블을 지정할 수 있도록 [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블을 사용하도록 설정](sensitivity-labels-sharepoint-onedrive-files.md)했는지 확인하세요.
 
 > [!NOTE]
 > 컨테이너에 대한 민감도 레이블은 Office 365 CDN(콘텐츠 배달 네트워크)에서 지원되지 않습니다.
 
 ## <a name="using-sensitivity-labels-for-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 민감도 레이블 사용하기
 
-컨테이너에서 민감도 레이블을 사용하도록 설정하고 새 설정에 대한 민감도 레이블을 구성하기 전에 사용자는 앱에서 민감도 레이블을 보고 적용할 수 있습니다. 예를 들어 Word의 경우 다음과 같습니다.
+컨테이너에 민감도 레이블을 사용하도록 설정하고 새 설정에 대한 민감도 레이블을 구성하기 전에 사용자는 앱에서 민감도 레이블을 보고 적용할 수 있습니다. 예를 들어 Word의 경우 다음과 같습니다.
 
 ![Word 데스크톱 앱에 표시되는 민감도 레이블](../media/sensitivity-label-word.png)
 
@@ -68,42 +68,53 @@ ms.locfileid: "48430317"
     Execute-AzureAdLabelSync
     ```
 
-## <a name="how-to-configure-site-and-group-settings"></a>사이트 및 그룹 설정을 구성하는 방법
+## <a name="how-to-configure-groups-and-site-settings"></a>그룹 및 사이트 설정을 구성하는 방법
 
-이제 사이트 및 그룹에 사용할 민감도 레이블을 만들거나 편집할 준비가 되었습니다. 컨테이너에서 민감도 레이블을 사용하도록 설정하면 민감도 레이블 마법사에서 새 **사이트 및 그룹 설정** 페이지가 표시됩니다.
+컨테이너에 민감도 레이블을 사용하도록 설정하는 것은 이제 민감도 레이블 마법사에서 그룹과 사이트에 대한 보호 설정을 구성할 수 있다는 의미입니다. 이 지원을 사용할 때까지 설정은 마법사에 표시되지만 구성할 수는 없습니다.
 
-민감도 레이블 작성 또는 편집에 도움이 필요한 경우 [민감도 레이블 생성 및 구성](create-sensitivity-labels.md#create-and-configure-sensitivity-labels)의 지침을 참조하세요.
-
-이 새 **사이트 및 그룹 설정** 페이지에서 다음과 같이 설정을 구성합니다.
-
-- **Microsoft 365 그룹에 연결된 팀 사이트의 개인 정보**: 조직의 모든 사용자가 이 레이블이 적용된 팀 사이트에 액세스할 수 있도록 하려면 기본값 **공개 - 조직의 모든 사용자가 사이트에 액세스할 수 있음**으로 유지합니다.
-
-  조직에서 허용한 구성원에게만 액세스를 제한하려면 **비공개**를 선택합니다.
-
-  민감도 레이블을 사용하여 컨테이너에서 콘텐츠를 보호하려고 하지만 사용자가 계속 개인 정보 설정을 구성할 수 있도록 하려면 **없음 - 사용자가 사이트에 액세스할 수 있는 사용자를 선택하도록 허용**을 선택합니다. 
-
-  **공개** 또는 **비공개** 설정은 컨테이너에 이 레이블을 적용할 때 개인 정보 설정을 설정하고 잠급니다. 선택한 설정은 팀 또는 그룹에 대해 구성할 수 있는 이전 개인 정보 설정을 대체하며, 개인 정보 값을 잠가 컨테이너에서 민감도 레이블을 먼저 제거해야만 변경할 수 있습니다. 민감도 레이블을 제거한 후에도 레이블의 개인 정보 설정이 유지되며 이제 사용자가 다시 변경할 수 있습니다.
-
-- **외부 사용자 액세스**: 그룹 소유자가 [그룹에 게스트를 추가](/office365/admin/create-groups/manage-guest-access-in-groups)할 수 있는지를 제어합니다.
-
-- **관리되지 않는 장치**: 이 옵션은 Azure AD 조건부 액세스를 사용하여 관리되지 않는 장치에서 SharePoint 및 OneDrive 콘텐츠에 대한 액세스를 차단하거나 제한하는 SharePoint 기능을 사용합니다. 자세한 내용은 [관리되지 않는 장치에서의 액세스 제어](/sharepoint/control-access-from-unmanaged-devices)를 참조하세요. [특정 SharePoint 사이트 또는 OneDrive에 대한 액세스 차단 혹은 제한](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive)의 2-4단계에서 설명한 대로 이 레이블 설정에 지정하는 옵션은 사이트에 대해 PowerShell 명령을 실행하는 것과 동일합니다.
+1. 일반 지침에 따라 [민감도 레이블을 만들거나 편집](create-sensitivity-labels.md#create-and-configure-sensitivity-labels)하고 레이블 범위에 대한 **그룹 및 사이트**를 반드시 선택합니다. 
     
-    [앱 적용 제한](https://docs.microsoft.com/sharepoint/app-enforced-restrictions)에 설명된 대로 SharePoint용 종속 조건부 액세스 정책을 구성하지 않는 경우 여기에 지정하는 옵션은 아무런 효과도 발휘하지 않습니다. 또한 테넌트 수준에서 구성한 설정보다 제한 수준이 낮은 경우 효과가 없습니다. 관리되지 않는 장치에 대해 조직 전체 설정을 구성한 경우, 동일하거나 더 제한적인 레이블 설정을 선택합니다.
+    ![파일 및 전자 메일에 대한 민감도 레이블 범위 옵션](../media/groupsandsites-scope-options-sensitivity-label.png)
     
-    예를 들어 테넌트가 **제한된 웹 전용 액세스 허용**으로 구성된 경우 전체 액세스를 허용하는 레이블 설정은 제한 수준이 더 낮기 때문에 효과가 없습니다. 이 테넌트 수준 설정의 경우 액세스를 차단하는 레이블 설정(제한 수준이 더 높음) 또는 제한된 액세스에 대한 레이블 설정(테넌트 설정과 동일)을 선택합니다.
+    해당 레이블에 이 범위만 선택된 경우, 레이블은 민감도 레이블을 지원하는 Office 앱에서 표시되지 않으며 파일 및 전자 메일에 적용할 수 없습니다. 레이블의 분리는 사용자와 관리자 모두에게 도움이 될 수 있지만 레이블 배포의 복잡성을 추가할 수도 있습니다.
     
-    SharePoint 설정은 레이블 구성과 독립적으로 구성할 수 있기 때문에 민감도 레이블 마법사에서 종속성이 설정되어 있는지 확인하지 않습니다.
+    예를 들어 SharePoint는 레이블이 지정된 문서가 레이블이 지정된 사이트에 업로드될 때 탐지를 하므로 [레이블 순서](sensitivity-labels.md#label-priority-order-matters)를 신중하게 검토해야 합니다. 이 시나리오에서는 문서의 민감도 레이블의 우선 순위가 사이트의 레이블보다 높은 경우, 감사 이벤트 및 전자 메일이 자동으로 생성됩니다. 자세한 내용은 이 페이지에서 [민감도 레이블 작업 감사](#auditing-sensitivity-label-activities) 섹션을 참조하세요.  
 
-![사이트 및 그룹 설정 탭](../media/edit-sensitivity-label-site-group2.png)
+2. 그런 다음 **그룹 및 사이트에 대 한 보호 설정 정의** 페이지에서 사용 가능한 옵션 중 하나 또는 모두를 선택합니다.
+    
+    - **개인 정보** 및 **외부 사용자 액세스** 설정을 구성하기 위한 **개인 정보 및 외부 사용자 액세스 설정**입니다. 
+    - **관리되지 않는 장치에서의 액세스** 설정을 구성하기 위한 **장치 액세스 및 외부 공유 설정**입니다.
+
+3. **개인 정보 및 외부 사용자 액세스설정**을 선택한 경우, 이제 다음 설정을 구성합니다.
+    
+    - **개인 정보**: 조직의 모든 사용자가 이 레이블이 적용되는 팀 사이트 또는 그룹에 액세스하게 하려면 **공개** 기본값을 유지합니다.
+        
+        조직에서 승인된 구성원에게만 액세스를 제한하려면 **비공개**를 선택합니다.
+        
+        민감도 레이블을 사용하여 컨테이너에서 콘텐츠를 보호하면서 사용자가 계속 개인 정보 설정을 직접 구성할 수 있도록 하려면 **없음**을 선택합니다.
+        
+        **공개** 또는 **비공개** 설정은 컨테이너에 이 레이블을 적용할 때 개인 정보 설정을 설정하고 잠급니다. 선택한 설정은 팀 또는 그룹에 대해 구성할 수 있는 이전 개인 정보 설정을 대체하며, 개인 정보 값을 잠가 컨테이너에서 민감도 레이블을 먼저 제거해야만 변경할 수 있습니다. 민감도 레이블을 제거한 후에도 레이블의 개인 정보 설정이 유지되며 이제 사용자가 다시 변경할 수 있습니다.
+    
+    - **외부 사용자 액세스**: 그룹 소유자가 [그룹에 게스트를 추가](/office365/admin/create-groups/manage-guest-access-in-groups)할 수 있는지를 제어합니다.
+
+4. **장치 액세스 및 외부 공유 설정**를 선택한 경우에는 이제 다음 설정을 구성합니다.
+    
+    - **관리되지 않는 장치에서의 액세스**: 이 옵션은 Azure AD 조건부 액세스를 사용하여 관리되지 않는 장치에서의 SharePoint 및 OneDrive 콘텐츠에 대한 액세스를 차단하거나 제한하는 SharePoint 기능을 사용합니다. 자세한 내용은 [관리되지 않는 장치에서의 액세스 제어](/sharepoint/control-access-from-unmanaged-devices)를 참조하세요. SharePoint 지침의 [특정 SharePoint 사이트 또는 OneDrive에 대한 액세스 차단 혹은 제한](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive) 섹션 2-4단계에서 설명한 대로 이 레이블 설정에 지정하는 옵션은 사이트에 대해 PowerShell 명령을 실행하는 것과 동일합니다.
+        
+        추가 정보는 이 섹션의 끝에 있는 [관리되지 않는 장치 옵션의 종속성에 대한 자세한 정보](#more-information-about-the-dependencies-for-the-unmanaged-devices-option)를 참조하세요.
 
 > [!IMPORTANT]
-> 팀, 그룹 또는 사이트에 레이블을 적용할 때 이러한 사이트 및 그룹 설정만 적용됩니다. 팀, 그룹 또는 사이트 내의 콘텐츠에는 암호화 및 콘텐츠 표시와 같은 다른 레이블 설정이 적용되지 않습니다.
->
-> 테넌트에 점진적으로 배포: 사용자가 팀, 그룹 및 사이트를 만들 때 사이트 및 그룹 설정을 포함하는 레이블만 선택할 수 있습니다. 레이블에 사이트 및 그룹 설정을 사용할 수 없는 경우 현재 레이블을 컨테이너에 적용할 수 있는 경우에는 레이블 이름만 컨테이너에 적용됩니다.
+> 팀, 그룹 또는 사이트에 레이블을 적용할 때 이러한 사이트 및 그룹 설정에만 적용됩니다. [레이블의 범위](sensitivity-labels.md#label-scopes)에 파일 및 전자 메일이 포함되는 경우, 팀, 그룹 또는 사이트 내의 콘텐츠에는 암호화 및 콘텐츠 표시와 같은 그 외 레이블 설정이 적용되지 않습니다.
 
 민감도 레이블이 아직 게시되지 않은 경우 [민감도 레이블 정책에 추가](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy)하여 게시합니다. 이 레이블을 포함하는 민감도 레이블 정책이 할당된 사용자는 해당 레이블을 사이트 및 그룹에 대해 선택할 수 있습니다.
 
-레이블 정책에서 이 레이블을 컨테이너에 적용하는 경우에는 **이 레이블을 기본적으로 문서와 전자 메일에 적용** 정책 설정만 적용할 수 있습니다. 필수 레이블, 사용자 사유 필요, 사용자 지정 도움말 페이지에 대한 링크를 포함하는 기타 정책 설정이 적용되지 않습니다.
+##### <a name="more-information-about-the-dependencies-for-the-unmanaged-devices-option"></a>관리되지 않는 장치 옵션의 종속성에 대한 자세한 정보
+
+[앱 적용 제한](https://docs.microsoft.com/sharepoint/app-enforced-restrictions)에 설명된 대로 SharePoint용 종속 조건부 액세스 정책을 구성하지 않는 경우 여기에 지정하는 옵션은 아무런 효과도 발휘하지 않습니다. 또한 테넌트 수준에서 구성한 설정보다 제한 수준이 낮은 경우 효과가 없습니다. 관리되지 않는 장치에 대해 조직 전체 설정을 구성한 경우, 동일하거나 더 제한적인 레이블 설정을 선택합니다.
+
+예를 들어 테넌트가 **제한된 웹 전용 액세스 허용**으로 구성된 경우 전체 액세스를 허용하는 레이블 설정은 제한 수준이 더 낮기 때문에 효과가 없습니다. 이 테넌트 수준 설정의 경우 액세스를 차단하는 레이블 설정(제한 수준이 더 높음) 또는 제한된 액세스에 대한 레이블 설정(테넌트 설정과 동일)을 선택합니다.
+
+SharePoint 설정은 레이블 구성과 독립적으로 구성할 수 있기 때문에 민감도 레이블 마법사에서 종속성이 설정되어 있는지 확인하지 않습니다. 이러한 종속성은 레이블이 만들어지고 게시된 후와 레이블이 적용된 후에도 구성할 수 있습니다. 그러나 레이블이 이미 적용된 경우 사용자가 다음에 인증할 때까지 레이블 설정이 적용되지 않습니다.
 
 ## <a name="sensitivity-label-management"></a>민감도 레이블 관리
 
@@ -344,6 +355,9 @@ SharePoint에 이전 그룹 분류를 사용하는 방법에 대한 예제는 [S
 
 ## <a name="auditing-sensitivity-label-activities"></a>민감도 레이블 활동 감사
 
+> [!IMPORTANT]
+> 컨테이너를 보호하는 레이블에 대해 단지 **그룹 및 사이트** 범위를 선택하여 레이블 분리를 사용하는 경우, **발견된 문서의 민감도 불일치**감사 이벤트와 이 섹션에 설명된 전자 메일로 인해, 레이블이 **파일 및 전자 메일**에 대한 범위를 갖기 전에 [레이블의 순서 지정](sensitivity-labels.md#label-priority-order-matters)을 고려하세요. 
+
 누군가가 민감도 레이블로 보호된 사이트에 문서를 업로드하고 해당 문서에 사이트에 적용된 민감도 레이블보다 [높은 우선 순위](sensitivity-labels.md#label-priority-order-matters)의 레이블이 있는 경우 이 작업이 차단되지 않습니다. 예를 들어 **일반** 레이블을 SharePoint 사이트에 적용하고 누군가가 이 사이트에 **기밀** 레이블이 지정된 문서를 업로드합니다. 우선 순위가 높은 민감도 레이블은 우선 순위가 낮은 컨텐츠보다 민감도가 높은 컨텐츠를 먼저 식별하므로 이 상황은 보안상의 문제가 될 수 있습니다.
 
 작업이 차단되는 것은 아니지만 감사를 받고 문서를 업로드한 사람과 사이트 관리자에게 전자 메일을 자동으로 생성합니다. 따라서 사용자와 관리자가 모두 레이블 우선 순위에 대한 이러한 잘못된 문서를 확인하고 필요한 경우 조치를 취할 수 있습니다. 예를 들어 업로드된 문서를 사이트에서 삭제하거나 이동합니다.
@@ -362,7 +376,7 @@ SharePoint에 이전 그룹 분류를 사용하는 방법에 대한 예제는 [S
 
 [PowerShell에서 민감도 레이블 지원 활성화하기](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#enable-sensitivity-label-support-in-powershell)와 동일한 지침을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에 대한 민감도 레이블을 해제할 수 있습니다. 그러나 이 기능을 사용하지 않도록 설정하려면 5단계에서 `$setting["EnableMIPLabels"] = "False"`를 지정합니다.
 
-민감도 레이블을 만들거나 편집할 때 **사이트 및 그룹 설정** 페이지를 숨기는 것 외에도 이 작업은 컨테이너에서 구성에 사용하는 속성을 되돌립니다. Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 민감도 레이블을 사용하도록 설정하면 **분류**에서 사용되는 속성([Azure AD 그룹 분류](#classic-azure-ad-group-classification)에 사용됨)이 **민감도**로 전환됩니다. 컨테이너에서 민감도 레이블을 사용하지 않도록 설정하면 컨테이너에서 민감도 속성을 무시하고 분류 속성을 다시 사용합니다.
+민감도 레이블을 만들거나 편집할 때 그룹 및 사이트에 대한 모든 설정을 사용할 수 없도록 설정하는 작업 외에도 이 작업은 컨테이너에서 구성에 사용하는 속성을 되돌립니다. Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 민감도 레이블을 사용하도록 설정하면 **분류**에서 사용되는 속성([Azure AD 그룹 분류](#classic-azure-ad-group-classification)에 사용됨)이 **민감도**로 전환됩니다. 컨테이너에서 민감도 레이블을 사용하지 않도록 설정하면 컨테이너에서 민감도 속성을 무시하고 분류 속성을 다시 사용합니다.
 
 즉, 이전에 컨테이너에 적용된 사이트 및 그룹의 레이블 설정이 적용되지 않고 컨테이너에서는 더 이상 레이블이 표시되지 않습니다.
 
