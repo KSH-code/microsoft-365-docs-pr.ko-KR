@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/19/2019
+ms.date: 10/15/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 엔터프라이즈용 Microsoft 365의 구성 요소, 계획 및 배포 경로에 대한 소개를 제공합니다.
-ms.openlocfilehash: 53cc91a2b5e756fcf4ec8fcc5371795bcfb8342c
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: d34ddd9b577f4baff4ebb77f84f48bf2b779c93c
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464351"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487155"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈용 Microsoft 365 개요
 
@@ -106,19 +106,19 @@ Microsoft 365 E3 사용자는 이러한 추가 기능을 사용하여 Microsoft 
 
 엔터프라이즈용 Microsoft 365 제품, 기능 및 구성 요소 배포 계획에는 세 가지 방법이 있습니다.
 
-- FastTrack과의 관계:
+- FastTrack과의 관계
 
    FastTrack을 사용하면 Microsoft 엔지니어가 사용자의 진도에 따라 클라우드를 이동하는데 도움을 줍니다. [Microsoft 365용 FastTrack](https://fasttrack.microsoft.com/microsoft365)을 참조하십시오.
 
-- Microsoft 컨설팅 서비스 혹은 [Microsoft 파트너](https://partner.microsoft.com/)의 도움말 사용:
+- Microsoft 컨설팅 서비스 혹은 [Microsoft 파트너](https://partner.microsoft.com/)의 도움말 사용
 
    컨설턴트는 현재 인프라를 분석하고, 엔터프라이즈용 Microsoft 365의 모든 소프트웨어 및 서비스를 통합하는 계획을 개발하는 데 도움을 줄 수 있습니다.
 
-- 직접 수행:
+- 직접 수행
 
    [네트워킹 로드맵](networking-roadmap-microsoft-365.md)을 사용하여 기존 인프라와 생산성 작업 부하를 빌드하거나 확인합니다.
 
-가상이지만 대표적인 다국적 기업인 [Contoso 회사](contoso-overview.md)가 엔터프라이즈용 Microsoft 365 앱을 배포하는 방식을 참조하세요.
+가상이지만 대표적인 다국적 기업인 [Contoso 회사 사례 연구](contoso-overview.md)가 엔터프라이즈용 Microsoft 365 앱을 배포하는 방식을 참조하세요.
 
 ## <a name="additional-microsoft-365-products"></a>추가 Microsoft 365 제품
 
