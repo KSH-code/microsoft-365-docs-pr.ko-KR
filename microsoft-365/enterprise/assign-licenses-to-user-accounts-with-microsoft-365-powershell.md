@@ -21,47 +21,51 @@ ms.assetid: ba235f4f-e640-4360-81ea-04507a3a70be
 search.appverid:
 - MET150
 description: 이 문서에서는 PowerShell을 사용 하 여 라이선스가 없는 사용자에 게 Microsoft 365 라이선스를 할당 하는 방법을 알아봅니다.
-ms.openlocfilehash: f042f8109bf9ac9b634bc66509c60a5181fb1af6
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: 8c3165b99477afa14e6d2b0da927b5f64c416ef1
+ms.sourcegitcommit: 3165329d1fb5a7fd866ff287bea3b6354ea2be18
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235621"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580943"
 ---
-# <a name="assign-microsoft-365-licenses-to-user-accounts-with-powershell"></a><span data-ttu-id="b40f2-103">PowerShell을 사용 하 여 사용자 계정에 Microsoft 365 라이선스 할당</span><span class="sxs-lookup"><span data-stu-id="b40f2-103">Assign Microsoft 365 licenses to user accounts with PowerShell</span></span>
+# <a name="assign-microsoft-365-licenses-to-user-accounts-with-powershell"></a><span data-ttu-id="e6881-103">PowerShell을 사용 하 여 사용자 계정에 Microsoft 365 라이선스 할당</span><span class="sxs-lookup"><span data-stu-id="e6881-103">Assign Microsoft 365 licenses to user accounts with PowerShell</span></span>
 
-<span data-ttu-id="b40f2-104">*이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*</span><span class="sxs-lookup"><span data-stu-id="b40f2-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
+<span data-ttu-id="e6881-104">*이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*</span><span class="sxs-lookup"><span data-stu-id="e6881-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
 
-<span data-ttu-id="b40f2-105">사용자는 계정에 라이선스 요금제의 라이선스가 할당 되기 전 까지는 Microsoft 365 서비스를 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-105">Users can't use any Microsoft 365 services until their account has been assigned a license from a licensing plan.</span></span> <span data-ttu-id="b40f2-106">PowerShell을 사용 하 여 라이선스가 없는 계정에 빠르게 라이선스를 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-106">You can use PowerShell to quickly assign licenses to unlicensed accounts.</span></span> 
+<span data-ttu-id="e6881-105">사용자는 계정에 라이선스 요금제의 라이선스가 할당 되기 전 까지는 Microsoft 365 서비스를 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-105">Users can't use any Microsoft 365 services until their account has been assigned a license from a licensing plan.</span></span> <span data-ttu-id="e6881-106">PowerShell을 사용 하 여 라이선스가 없는 계정에 빠르게 라이선스를 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-106">You can use PowerShell to quickly assign licenses to unlicensed accounts.</span></span> 
+
+<span data-ttu-id="e6881-107">사용자 계정에는 먼저 위치를 할당 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-107">User accounts must first be assigned a location.</span></span> <span data-ttu-id="e6881-108">위치를 지정 하는 것은 [Microsoft 365 관리 센터](../admin/add-users/add-users.md)에서 새 사용자 계정을 만드는 데 필수 요소입니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-108">Specifying a location is a required part of creating a new user account in the [Microsoft 365 admin center](../admin/add-users/add-users.md).</span></span> 
+
+<span data-ttu-id="e6881-109">온-프레미스 Active Directory 도메인 서비스에서 동기화 되는 계정에는 기본적으로 위치가 지정 되어 있지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-109">Accounts synchronized from your on-premises Active Directory Domain Services do not by default have a location specified.</span></span> <span data-ttu-id="e6881-110">다음 계정에 대 한 위치를 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-110">You can configure a location for these accounts from:</span></span>
+
+- <span data-ttu-id="e6881-111">Microsoft 365 관리 센터</span><span class="sxs-lookup"><span data-stu-id="e6881-111">The Microsoft 365 admin center</span></span>
+ - [<span data-ttu-id="e6881-112">PowerShell</span><span class="sxs-lookup"><span data-stu-id="e6881-112">PowerShell</span></span>](configure-user-account-properties-with-microsoft-365-powershell.md)
+ - <span data-ttu-id="e6881-113">[Azure portal](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal) (**Active Directory**  >  **사용자** > 사용자 계정 > **프로필**  >  **연락처 정보**  >  **국가 또는 지역**)</span><span class="sxs-lookup"><span data-stu-id="e6881-113">The [Azure portal](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal) (**Active Directory** > **Users**  > user account > **Profile** > **Contact info** > **Country or region**).</span></span>
 
 >[!Note]
-><span data-ttu-id="b40f2-107">사용자 계정에는 위치를 할당 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-107">User accounts must be assigned a location.</span></span> <span data-ttu-id="b40f2-108">Microsoft 365 관리 센터 또는 PowerShell에서 사용자 계정의 속성을 사용 하 여이 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-108">You can do this from the properties of a user account in the Microsoft 365 admin center or from PowerShell.</span></span>
+><span data-ttu-id="e6881-114">Microsoft 365 관리 센터를 사용 하 여 [사용자 계정에 라이선스를 할당 하는 방법을 알아봅니다](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) .</span><span class="sxs-lookup"><span data-stu-id="e6881-114">[Learn how to assign licenses to user accounts](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) with the Microsoft 365 admin center.</span></span> <span data-ttu-id="e6881-115">추가 리소스 목록은 [Manage users and groups](https://docs.microsoft.com/microsoft-365/admin/add-users/)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="e6881-115">For a list of additional resources, see [Manage users and groups](https://docs.microsoft.com/microsoft-365/admin/add-users/).</span></span>
 >
 
->[!Note]
-><span data-ttu-id="b40f2-109">Microsoft 365 관리 센터를 사용 하 여 [사용자 계정에 라이선스를 할당 하는 방법을 알아봅니다](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) .</span><span class="sxs-lookup"><span data-stu-id="b40f2-109">[Learn how to assign licenses to user accounts](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) with the Microsoft 365 admin center.</span></span> <span data-ttu-id="b40f2-110">추가 리소스 목록은 [Manage users and groups](https://docs.microsoft.com/microsoft-365/admin/add-users/)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="b40f2-110">For a list of additional resources, see [Manage users and groups](https://docs.microsoft.com/microsoft-365/admin/add-users/).</span></span>
->
+## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="e6881-116">Graph 모듈용 Azure Active Directory PowerShell 사용하기</span><span class="sxs-lookup"><span data-stu-id="e6881-116">Use the Azure Active Directory PowerShell for Graph module</span></span>
 
-## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="b40f2-111">Graph 모듈용 Azure Active Directory PowerShell 사용하기</span><span class="sxs-lookup"><span data-stu-id="b40f2-111">Use the Azure Active Directory PowerShell for Graph module</span></span>
-
-<span data-ttu-id="b40f2-112">먼저 [Microsoft 365 테 넌 트에 연결](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-112">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).</span></span>
+<span data-ttu-id="e6881-117">먼저 [Microsoft 365 테 넌 트에 연결](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-117">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).</span></span>
   
 
-<span data-ttu-id="b40f2-113">그런 다음이 명령을 사용 하 여 테 넌 트에 대 한 라이선스 계획을 나열 합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-113">Next, list the license plans for your tenant with this command.</span></span>
+<span data-ttu-id="e6881-118">그런 다음이 명령을 사용 하 여 테 넌 트에 대 한 라이선스 계획을 나열 합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-118">Next, list the license plans for your tenant with this command.</span></span>
 
 ```powershell
 Get-AzureADSubscribedSku | Select SkuPartNumber
 ```
 
-<span data-ttu-id="b40f2-114">다음으로, UPN (사용자 계정 이름)이 라고도 하는 라이선스를 추가할 계정의 로그인 이름을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-114">Next, get the sign-in name of the account to which you want add a license, also known as the user principal name (UPN).</span></span>
+<span data-ttu-id="e6881-119">다음으로, UPN (사용자 계정 이름)이 라고도 하는 라이선스를 추가할 계정의 로그인 이름을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-119">Next, get the sign-in name of the account to which you want add a license, also known as the user principal name (UPN).</span></span>
 
-<span data-ttu-id="b40f2-115">다음으로, 사용자 계정에 사용 위치를 할당 했는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-115">Next, ensure that the user account has a usage location assigned.</span></span>
+<span data-ttu-id="e6881-120">다음으로, 사용자 계정에 사용 위치를 할당 했는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-120">Next, ensure that the user account has a usage location assigned.</span></span>
 
 ```powershell
 Get-AzureADUser -ObjectID <user sign-in name (UPN)> | Select DisplayName, UsageLocation
 ```
 
-<span data-ttu-id="b40f2-116">사용 위치를 할당 하지 않은 경우 다음 명령을 사용 하 여 할당을 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-116">If there is no usage location assigned, you can assign one with these commands:</span></span>
+<span data-ttu-id="e6881-121">사용 위치를 할당 하지 않은 경우 다음 명령을 사용 하 여 할당을 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-121">If there is no usage location assigned, you can assign one with these commands:</span></span>
 
 ```powershell
 $userUPN="<user sign-in name (UPN)>"
@@ -69,7 +73,7 @@ $userLoc="<ISO 3166-1 alpha-2 country code>"
 Set-AzureADUser -ObjectID $userUPN -UsageLocation $userLoc
 ```
 
-<span data-ttu-id="b40f2-117">마지막으로 사용자 로그인 이름 및 라이선스 계획 이름을 지정 하 고 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-117">Finally, specify the user sign-in name and license plan name and run these commands.</span></span>
+<span data-ttu-id="e6881-122">마지막으로 사용자 로그인 이름 및 라이선스 계획 이름을 지정 하 고 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-122">Finally, specify the user sign-in name and license plan name and run these commands.</span></span>
 
 ```powershell
 $userUPN="<user sign-in name (UPN)>"
@@ -81,93 +85,93 @@ $LicensesToAssign.AddLicenses = $License
 Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
 ```
 
-## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a><span data-ttu-id="b40f2-118">Windows PowerShell용 Microsoft Azure Active Directory 모듈 사용하기</span><span class="sxs-lookup"><span data-stu-id="b40f2-118">Use the Microsoft Azure Active Directory Module for Windows PowerShell</span></span>
+## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a><span data-ttu-id="e6881-123">Windows PowerShell용 Microsoft Azure Active Directory 모듈 사용하기</span><span class="sxs-lookup"><span data-stu-id="e6881-123">Use the Microsoft Azure Active Directory Module for Windows PowerShell</span></span>
 
-<span data-ttu-id="b40f2-119">먼저 [Microsoft 365 테 넌 트에 연결](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-119">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).</span></span>
+<span data-ttu-id="e6881-124">먼저 [Microsoft 365 테 넌 트에 연결](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-124">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).</span></span>
 
-<span data-ttu-id="b40f2-120">`Get-MsolAccountSku`사용 가능한 라이선스 계획 및 조직의 각 계획에서 사용 가능한 라이선스 수를 확인 하려면 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-120">Run the `Get-MsolAccountSku` command to view the available licensing plans and the number of available licenses in each plan in your organization.</span></span> <span data-ttu-id="b40f2-121">각 계획에서 사용할 수 있는 라이선스의 수는 **activeunits**  -  **WarningUnits**  -  **ConsumedUnits**입니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-121">The number of available licenses in each plan is **ActiveUnits** - **WarningUnits** - **ConsumedUnits**.</span></span> <span data-ttu-id="b40f2-122">라이선스 계획, 라이선스 및 서비스에 대 한 자세한 내용은 PowerShell을 [사용 하 여 라이선스 및 서비스 보기](view-licenses-and-services-with-microsoft-365-powershell.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b40f2-122">For more information about licensing plans, licenses, and services, see [View licenses and services with PowerShell](view-licenses-and-services-with-microsoft-365-powershell.md).</span></span>
+<span data-ttu-id="e6881-125">`Get-MsolAccountSku`사용 가능한 라이선스 계획 및 조직의 각 계획에서 사용 가능한 라이선스 수를 확인 하려면 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-125">Run the `Get-MsolAccountSku` command to view the available licensing plans and the number of available licenses in each plan in your organization.</span></span> <span data-ttu-id="e6881-126">각 계획에서 사용할 수 있는 라이선스의 수는 **activeunits**  -  **WarningUnits**  -  **ConsumedUnits**입니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-126">The number of available licenses in each plan is **ActiveUnits** - **WarningUnits** - **ConsumedUnits**.</span></span> <span data-ttu-id="e6881-127">라이선스 계획, 라이선스 및 서비스에 대 한 자세한 내용은 PowerShell을 [사용 하 여 라이선스 및 서비스 보기](view-licenses-and-services-with-microsoft-365-powershell.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="e6881-127">For more information about licensing plans, licenses, and services, see [View licenses and services with PowerShell](view-licenses-and-services-with-microsoft-365-powershell.md).</span></span>
 
 >[!Note]
-><span data-ttu-id="b40f2-123">PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 **Msol**이 있는 cmdlet을 지원하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-123">PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name.</span></span> <span data-ttu-id="b40f2-124">이러한 cmdlet을 계속 사용하려면 Windows PowerShell에서 이를 실행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-124">To continue using these cmdlets, you must run them from Windows PowerShell.</span></span>
+><span data-ttu-id="e6881-128">PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 **Msol**이 있는 cmdlet을 지원하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-128">PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name.</span></span> <span data-ttu-id="e6881-129">이러한 cmdlet을 계속 사용하려면 Windows PowerShell에서 이를 실행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-129">To continue using these cmdlets, you must run them from Windows PowerShell.</span></span>
 >
 
-<span data-ttu-id="b40f2-125">조직에서 라이선스가 없는 계정을 찾으려면이 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-125">To find the unlicensed accounts in your organization, run this command.</span></span>
+<span data-ttu-id="e6881-130">조직에서 라이선스가 없는 계정을 찾으려면이 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-130">To find the unlicensed accounts in your organization, run this command.</span></span>
 
 ```powershell
 Get-MsolUser -All -UnlicensedUsersOnly
 ```
 
-<span data-ttu-id="b40f2-126">**UsageLocation** 속성이 유효한 ISO 3166-1 국가 코드로 설정 된 사용자 계정에만 라이선스를 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-126">You can only assign licenses to user accounts that have the **UsageLocation** property set to a valid ISO 3166-1 alpha-2 country code.</span></span> <span data-ttu-id="b40f2-127">예를 들어 미국, 프랑스의 경우 FR을 들을 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-127">For example, US for the United States, and FR for France.</span></span> <span data-ttu-id="b40f2-128">일부 Microsoft 365 서비스는 특정 국가에서 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-128">Some Microsoft 365 services aren't available in certain countries.</span></span> <span data-ttu-id="b40f2-129">자세한 내용은 [사용권 제한 정보](https://go.microsoft.com/fwlink/p/?LinkId=691730)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b40f2-129">For more information, see [About license restrictions](https://go.microsoft.com/fwlink/p/?LinkId=691730).</span></span>
+<span data-ttu-id="e6881-131">**UsageLocation** 속성이 유효한 ISO 3166-1 국가 코드로 설정 된 사용자 계정에만 라이선스를 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-131">You can only assign licenses to user accounts that have the **UsageLocation** property set to a valid ISO 3166-1 alpha-2 country code.</span></span> <span data-ttu-id="e6881-132">예를 들어 미국, 프랑스의 경우 FR을 들을 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-132">For example, US for the United States, and FR for France.</span></span> <span data-ttu-id="e6881-133">일부 Microsoft 365 서비스는 특정 국가에서 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-133">Some Microsoft 365 services aren't available in certain countries.</span></span> <span data-ttu-id="e6881-134">자세한 내용은 [사용권 제한 정보](https://go.microsoft.com/fwlink/p/?LinkId=691730)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="e6881-134">For more information, see [About license restrictions](https://go.microsoft.com/fwlink/p/?LinkId=691730).</span></span>
     
-<span data-ttu-id="b40f2-130">**UsageLocation** 값이 없는 계정을 찾으려면이 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-130">To find accounts that don't have a **UsageLocation** value, run this command.</span></span>
+<span data-ttu-id="e6881-135">**UsageLocation** 값이 없는 계정을 찾으려면이 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-135">To find accounts that don't have a **UsageLocation** value, run this command.</span></span>
 
 ```powershell
 Get-MsolUser -All | where {$_.UsageLocation -eq $null}
 ```
 
-<span data-ttu-id="b40f2-131">계정에 **UsageLocation** 값을 설정 하려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-131">To set the **UsageLocation** value on an account, run this command.</span></span>
+<span data-ttu-id="e6881-136">계정에 **UsageLocation** 값을 설정 하려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-136">To set the **UsageLocation** value on an account, run this command.</span></span>
 
 ```powershell
 Set-MsolUser -UserPrincipalName "<Account>" -UsageLocation <CountryCode>
 ```
 
-<span data-ttu-id="b40f2-132">예시:</span><span class="sxs-lookup"><span data-stu-id="b40f2-132">For example:</span></span>
+<span data-ttu-id="e6881-137">예제:</span><span class="sxs-lookup"><span data-stu-id="e6881-137">For example:</span></span>
 
 ```powershell
 Set-MsolUser -UserPrincipalName "belindan@litwareinc.com" -UsageLocation US
 ```
     
-<span data-ttu-id="b40f2-133">**-All** 매개 변수를 사용하지 않고 **Get-MsolUser** cmdlet을 사용하는 경우 처음 500개의 계정만 반환됩니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-133">If you use the **Get-MsolUser** cmdlet without using the **-All** parameter, only the first 500 accounts are returned.</span></span>
+<span data-ttu-id="e6881-138">**-All** 매개 변수를 사용하지 않고 **Get-MsolUser** cmdlet을 사용하는 경우 처음 500개의 계정만 반환됩니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-138">If you use the **Get-MsolUser** cmdlet without using the **-All** parameter, only the first 500 accounts are returned.</span></span>
 
-### <a name="assigning-licenses-to-user-accounts"></a><span data-ttu-id="b40f2-134">사용자 계정에 라이선스 할당</span><span class="sxs-lookup"><span data-stu-id="b40f2-134">Assigning licenses to user accounts</span></span>
+### <a name="assigning-licenses-to-user-accounts"></a><span data-ttu-id="e6881-139">사용자 계정에 라이선스 할당</span><span class="sxs-lookup"><span data-stu-id="e6881-139">Assigning licenses to user accounts</span></span>
     
-<span data-ttu-id="b40f2-135">사용자에 게 라이선스를 할당 하려면 PowerShell에서 다음 명령을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-135">To assign a license to a user, use the following command in PowerShell.</span></span>
+<span data-ttu-id="e6881-140">사용자에 게 라이선스를 할당 하려면 PowerShell에서 다음 명령을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-140">To assign a license to a user, use the following command in PowerShell.</span></span>
   
 ```powershell
 Set-MsolUserLicense -UserPrincipalName "<Account>" -AddLicenses "<AccountSkuId>"
 ```
 
-<span data-ttu-id="b40f2-136">이 예에서는 **litwareinc: ENTERPRISEPACK** (Office 365 Enterprise E3) 라이선스 계획에서 라이선스가 없는 사용자 **belindan \@ litwareinc.com**에 라이선스를 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-136">This example assigns a license from the **litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) licensing plan to the unlicensed user **belindan\@litwareinc.com**:</span></span>
+<span data-ttu-id="e6881-141">이 예에서는 **litwareinc: ENTERPRISEPACK** (Office 365 Enterprise E3) 라이선스 계획에서 라이선스가 없는 사용자 **belindan \@ litwareinc.com**에 라이선스를 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-141">This example assigns a license from the **litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) licensing plan to the unlicensed user **belindan\@litwareinc.com**:</span></span>
   
 ```powershell
 Set-MsolUserLicense -UserPrincipalName "belindan@litwareinc.com" -AddLicenses "litwareinc:ENTERPRISEPACK"
 ```
 
-<span data-ttu-id="b40f2-137">라이선스가 없는 모든 사용자에 게 라이선스를 할당 하려면이 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-137">To assign a license to all unlicensed users, run this command.</span></span>
+<span data-ttu-id="e6881-142">라이선스가 없는 모든 사용자에 게 라이선스를 할당 하려면이 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-142">To assign a license to all unlicensed users, run this command.</span></span>
   
 ```powershell
 Get-MsolUser -All -UnlicensedUsersOnly [<FilterableAttributes>] | Set-MsolUserLicense -AddLicenses "<AccountSkuId>"
 ```
   
 >[!Note]
-><span data-ttu-id="b40f2-138">동일한 라이센스 제도에서 여러 라이센스 사용자 지정할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-138">You can't assign multiple licenses to a user from the same licensing plan.</span></span> <span data-ttu-id="b40f2-139">반환 하는 순서 대로 사용자에 게 라이선스 할당 된 충분 한 사용 가능한 라이센스를 설정 하지 않은 경우는 **Get-MsolUser** cmdlet 사용 가능한 라이센스가 실행 될 때까지.</span><span class="sxs-lookup"><span data-stu-id="b40f2-139">If you don't have enough available licenses, the licenses are assigned to users in the order that they're returned by the **Get-MsolUser** cmdlet until the available licenses run out.</span></span>
+><span data-ttu-id="e6881-143">동일한 라이센스 제도에서 여러 라이센스 사용자 지정할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-143">You can't assign multiple licenses to a user from the same licensing plan.</span></span> <span data-ttu-id="e6881-144">반환 하는 순서 대로 사용자에 게 라이선스 할당 된 충분 한 사용 가능한 라이센스를 설정 하지 않은 경우는 **Get-MsolUser** cmdlet 사용 가능한 라이센스가 실행 될 때까지.</span><span class="sxs-lookup"><span data-stu-id="e6881-144">If you don't have enough available licenses, the licenses are assigned to users in the order that they're returned by the **Get-MsolUser** cmdlet until the available licenses run out.</span></span>
 >
 
-<span data-ttu-id="b40f2-140">이 예에서는 **litwareinc: ENTERPRISEPACK** (Office 365 Enterprise E3) 라이선스 계획에서 라이선스가 없는 모든 사용자에 게 라이선스를 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-140">This example assigns licenses from the **litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) licensing plan to all unlicensed users:</span></span>
+<span data-ttu-id="e6881-145">이 예에서는 **litwareinc: ENTERPRISEPACK** (Office 365 Enterprise E3) 라이선스 계획에서 라이선스가 없는 모든 사용자에 게 라이선스를 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-145">This example assigns licenses from the **litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) licensing plan to all unlicensed users:</span></span>
   
 ```powershell
 Get-MsolUser -All -UnlicensedUsersOnly | Set-MsolUserLicense -AddLicenses "litwareinc:ENTERPRISEPACK"
 ```
 
-<span data-ttu-id="b40f2-141">이 예에서는 미국의 영업 부서에 있는 라이선스가 없는 사용자에 게 동일한 라이선스를 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-141">This example assigns those same licenses to unlicensed users in the Sales department in the United States:</span></span>
+<span data-ttu-id="e6881-146">이 예에서는 미국의 영업 부서에 있는 라이선스가 없는 사용자에 게 동일한 라이선스를 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-146">This example assigns those same licenses to unlicensed users in the Sales department in the United States:</span></span>
   
 ```powershell
 Get-MsolUser -All -Department "Sales" -UsageLocation "US" -UnlicensedUsersOnly | Set-MsolUserLicense -AddLicenses "litwareinc:ENTERPRISEPACK"
 ```
   
-## <a name="move-a-user-to-a-different-subscription-license-plan-with-the-azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="b40f2-142">Graph 모듈에 대 한 Azure Active Directory PowerShell을 사용 하 여 다른 구독으로 사용자 이동 (라이선스 계획)</span><span class="sxs-lookup"><span data-stu-id="b40f2-142">Move a user to a different subscription (license plan) with the Azure Active Directory PowerShell for Graph module</span></span>
+## <a name="move-a-user-to-a-different-subscription-license-plan-with-the-azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="e6881-147">Graph 모듈에 대 한 Azure Active Directory PowerShell을 사용 하 여 다른 구독으로 사용자 이동 (라이선스 계획)</span><span class="sxs-lookup"><span data-stu-id="e6881-147">Move a user to a different subscription (license plan) with the Azure Active Directory PowerShell for Graph module</span></span>
 
-<span data-ttu-id="b40f2-143">먼저 [Microsoft 365 테 넌 트에 연결](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-143">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).</span></span>
+<span data-ttu-id="e6881-148">먼저 [Microsoft 365 테 넌 트에 연결](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-148">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).</span></span>
   
-<span data-ttu-id="b40f2-144">다음으로, UPN (사용자 계정 이름)이 라고도 하는 스위치 구독을 사용할 사용자 계정의 로그인 이름을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-144">Next, get the sign-in name of the user account for which you want switch subscriptions, also known as the user principal name (UPN).</span></span>
+<span data-ttu-id="e6881-149">다음으로, UPN (사용자 계정 이름)이 라고도 하는 스위치 구독을 사용할 사용자 계정의 로그인 이름을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-149">Next, get the sign-in name of the user account for which you want switch subscriptions, also known as the user principal name (UPN).</span></span>
 
-<span data-ttu-id="b40f2-145">그런 다음이 명령을 사용 하 여 테 넌 트에 대 한 구독 (라이선스 계획)을 나열 합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-145">Next, list the subscriptions (license plans) for your tenant with this command.</span></span>
+<span data-ttu-id="e6881-150">그런 다음이 명령을 사용 하 여 테 넌 트에 대 한 구독 (라이선스 계획)을 나열 합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-150">Next, list the subscriptions (license plans) for your tenant with this command.</span></span>
 
 ```powershell
 Get-AzureADSubscribedSku | Select SkuPartNumber
 ```
 
-<span data-ttu-id="b40f2-146">다음으로는 사용자 계정에 현재 이러한 명령이 포함 된 구독을 나열 합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-146">Next, list the subscriptions that the user account currently has with these commands.</span></span>
+<span data-ttu-id="e6881-151">다음으로는 사용자 계정에 현재 이러한 명령이 포함 된 구독을 나열 합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-151">Next, list the subscriptions that the user account currently has with these commands.</span></span>
 
 ```powershell
 $userUPN="<user account UPN>"
@@ -176,9 +180,9 @@ $userList = Get-AzureADUser -ObjectID $userUPN | Select -ExpandProperty Assigned
 $userList | ForEach { $sku=$_.SkuId ; $licensePlanList | ForEach { If ( $sku -eq $_.ObjectId.substring($_.ObjectId.length - 36, 36) ) { Write-Host $_.SkuPartNumber } } }
 ```
 
-<span data-ttu-id="b40f2-147">현재 사용자가 있는 구독 (보낸 사람 구독)과 사용자가 이동 하는 구독 (TO subscription)을 식별 합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-147">Identify the subscription the user currently has (the FROM subscription) and the subscription to which the user is moving (the TO subscription).</span></span>
+<span data-ttu-id="e6881-152">현재 사용자가 있는 구독 (보낸 사람 구독)과 사용자가 이동 하는 구독 (TO subscription)을 식별 합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-152">Identify the subscription the user currently has (the FROM subscription) and the subscription to which the user is moving (the TO subscription).</span></span>
 
-<span data-ttu-id="b40f2-148">마지막으로 TO 및 FROM 구독 이름 (SKU 부분 번호)을 지정 하 고 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-148">Finally, specify the TO and FROM subscription names (SKU part numbers) and run these commands.</span></span>
+<span data-ttu-id="e6881-153">마지막으로 TO 및 FROM 구독 이름 (SKU 부분 번호)을 지정 하 고 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-153">Finally, specify the TO and FROM subscription names (SKU part numbers) and run these commands.</span></span>
 
 ```powershell
 $subscriptionFrom="<SKU part number of the current subscription>"
@@ -199,7 +203,7 @@ $licenses.AddLicenses = $License
 Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $licenses
 ```
 
-<span data-ttu-id="b40f2-149">이러한 명령을 사용 하 여 사용자 계정에 대 한 구독의 변경 내용을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b40f2-149">You can verify the change in subscription for the user account with these commands.</span></span>
+<span data-ttu-id="e6881-154">이러한 명령을 사용 하 여 사용자 계정에 대 한 구독의 변경 내용을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e6881-154">You can verify the change in subscription for the user account with these commands.</span></span>
 
 ```powershell
 $licensePlanList = Get-AzureADSubscribedSku
@@ -207,10 +211,10 @@ $userList = Get-AzureADUser -ObjectID $userUPN | Select -ExpandProperty Assigned
 $userList | ForEach { $sku=$_.SkuId ; $licensePlanList | ForEach { If ( $sku -eq $_.ObjectId.substring($_.ObjectId.length - 36, 36) ) { Write-Host $_.SkuPartNumber } } }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="b40f2-150">참고 항목</span><span class="sxs-lookup"><span data-stu-id="b40f2-150">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e6881-155">참고 항목</span><span class="sxs-lookup"><span data-stu-id="e6881-155">See also</span></span>
 
-[<span data-ttu-id="b40f2-151">PowerShell로 Microsoft 365 사용자 계정, 라이선스 및 그룹 관리</span><span class="sxs-lookup"><span data-stu-id="b40f2-151">Manage user accounts, licenses, and groups with PowerShell</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
+[<span data-ttu-id="e6881-156">PowerShell로 Microsoft 365 사용자 계정, 라이선스 및 그룹 관리</span><span class="sxs-lookup"><span data-stu-id="e6881-156">Manage user accounts, licenses, and groups with PowerShell</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
   
-[<span data-ttu-id="b40f2-152">PowerShell로 Microsoft 365 관리</span><span class="sxs-lookup"><span data-stu-id="b40f2-152">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
+[<span data-ttu-id="e6881-157">PowerShell로 Microsoft 365 관리</span><span class="sxs-lookup"><span data-stu-id="e6881-157">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
   
-[<span data-ttu-id="b40f2-153">Microsoft 365 용 PowerShell 시작</span><span class="sxs-lookup"><span data-stu-id="b40f2-153">Getting started with PowerShell for Microsoft 365</span></span>](getting-started-with-microsoft-365-powershell.md)
+[<span data-ttu-id="e6881-158">Microsoft 365 용 PowerShell 시작</span><span class="sxs-lookup"><span data-stu-id="e6881-158">Getting started with PowerShell for Microsoft 365</span></span>](getting-started-with-microsoft-365-powershell.md)
