@@ -3,7 +3,6 @@ title: PowerShell을 사용 하 여 Microsoft 365 그룹 구성원 유지 관리
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/23/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,21 +18,18 @@ ms.custom:
 - O365ITProTrain
 ms.assetid: 6770c5fa-b886-4512-8c67-ffd53226589e
 description: PowerShell을 사용 하 여 Microsoft 365 그룹의 멤버 자격을 유지 하는 방법을 알아봅니다.
-ms.openlocfilehash: 464ebcebe87fcd7ce081de85e75acf76cd6d5a46
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: 7763f4275ff31f3dc26aa7fecba93e545f7c7644
+ms.sourcegitcommit: 3165329d1fb5a7fd866ff287bea3b6354ea2be18
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235633"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580977"
 ---
 # <a name="maintain-microsoft-365-group-membership-with-powershell"></a>PowerShell을 사용 하 여 Microsoft 365 그룹 구성원 유지 관리
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
 Microsoft 365 관리 센터 대신 microsoft 365 용 PowerShell을 사용 하 여 Microsoft 365의 그룹 구성원 자격을 유지 관리할 수 있습니다. 
-
-> [!TIP]
-> 사용자 계정 및 그룹 이름을 지정 하 여 실행 가능한 PowerShell 명령을 생성 하려면이 [그룹 유지 관리 Microsoft Excel 통합 문서](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/media/maintain-group-membership-with-microsoft-365-powershell/GroupMaintPowerShellGenerator.xlsx)를 사용 합니다. 
 
 >[!Note]
 >Microsoft 365 관리 센터를 사용 하 여 [microsoft 365 그룹 구성원을 유지 관리 하는 방법을 알아봅니다](https://docs.microsoft.com/microsoft-365/admin/create-groups/add-or-remove-members-from-groups) . 추가 리소스 목록은 [Manage users and groups](https://docs.microsoft.com/microsoft-365/admin/add-users/)을 참조 하십시오.

@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: f18a98b19b6a1920d1e4d2094ba0bab74f10035e
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: e3b29a8182e38fa05e5f791478157c978632fb13
+ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430142"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48477008"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>고급 헌팅 쿼리 모범 사례
 
@@ -56,7 +56,7 @@ ms.locfileid: "48430142"
 
 - **이 비트 포함**-단어 내의 하위 문자열을 불필요 하 게 검색 하지 않으려면 `has` 대신 연산자를 사용 `contains` 합니다. [문자열 연산자에 대 한 자세한 정보](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)
 - **특정 열에서 찾기**-모든 열에서 전체 텍스트 검색을 실행 하는 것이 아니라 특정 열에서 찾습니다. `*`모든 열을 확인 하는 데 사용 하지 않습니다.
-- **속도를 중요**하 게 구분-대/소문자 구분 검색은 보다 구체적이 고 일반적으로 성능이 더 좋습니다. And와 같이 일반적으로 끝나는와 같은 대/소문자 구분 [문자열 연산자](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)의 이름 `has_cs` `contains_cs` `_cs` 입니다. 대신 대/소문자를 구분 하는 equals 연산자를 사용할 수도 있습니다 `==` `~=` .
+- **속도를 중요**하 게 구분-대/소문자 구분 검색은 보다 구체적이 고 일반적으로 성능이 더 좋습니다. And와 같이 일반적으로 끝나는와 같은 대/소문자 구분 [문자열 연산자](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)의 이름 `has_cs` `contains_cs` `_cs` 입니다. 대신 대/소문자를 구분 하는 equals 연산자를 사용할 수도 있습니다 `==` `=~` .
 - **구문 분석,** 가능한 경우 parse [연산자](https://docs.microsoft.com/azure/data-explorer/kusto/query/parseoperator) 또는 [parse_json ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction)와 같은 구문 분석 함수를 사용 합니다. `matches regex`정규식을 사용 하는 문자열 연산자나 [extract () 함수](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractfunction)는 사용할 필요가 없습니다. 좀 더 복잡 한 시나리오의 경우 정규식 사용을 예약 합니다. [구문 분석 함수에 대 한 자세한 정보](#parse-strings)
 - 테이블 열을 기준으로 필터링 할 수 있는 경우에는 계산 된 열을 필터링 **하지 않습니다.**
 - **세 문자 용어 없음**-세 개 이하의 용어를 사용 하 여 비교 하거나 필터링 하지 않습니다. 이러한 용어는 인덱싱되지 않으며 일치 하지 않으므로 리소스가 더 많이 필요 합니다.

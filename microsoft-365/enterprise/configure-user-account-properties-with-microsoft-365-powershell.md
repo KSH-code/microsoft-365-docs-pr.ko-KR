@@ -3,7 +3,6 @@ title: PowerShell을 사용 하 여 Microsoft 365 사용자 계정 속성 구성
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/16/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,12 +18,12 @@ ms.custom:
 - PowerShell
 ms.assetid: 30813f8d-b08d-444b-98c1-53df7c29b4d7
 description: '요약: Microsoft 365 용 PowerShell을 사용 하 여 Microsoft 365 테 넌 트에서 개별 또는 여러 사용자 계정의 속성을 구성 합니다.'
-ms.openlocfilehash: 6a435b3981efa8d8c2be7f6d983a1d062237f0db
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: ae797d67b47c637dc95176b92fad8090f8a7ab37
+ms.sourcegitcommit: 3165329d1fb5a7fd866ff287bea3b6354ea2be18
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692252"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580931"
 ---
 # <a name="configure-microsoft-365-user-account-properties-with-powershell"></a>PowerShell을 사용 하 여 Microsoft 365 사용자 계정 속성 구성
 
@@ -34,7 +33,7 @@ Microsoft 365 관리 센터를 사용 하 여 Microsoft 365 테 넌 트의 사�
   
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기
 
-Graph 모듈에 대 한 Azure Active Directory PowerShell을 사용 하 여 사용자 계정 속성을 구성 하려면 [AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) cmdlet을 사용 하 고 설정 하거나 변경할 속성을 지정 합니다. 
+Graph 모듈에 대 한 Azure Active Directory PowerShell을 사용 하 여 사용자 계정 속성을 구성 하려면 [AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser) cmdlet을 사용 하 고 설정 하거나 변경할 속성을 지정 합니다. 
 
 먼저 [Microsoft 365 테 넌 트에 연결](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)합니다.
    
@@ -74,8 +73,11 @@ Graph 모듈에 대 한 Azure Active Directory PowerShell을 사용 하 여 사�
     
     ISO 3166-1 alpha-2 (A2) 두 자리 국가 또는 지역 코드입니다.
     
-추가 매개 변수에 대해서는 [AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) 을 참조 하십시오.
+추가 매개 변수에 대해서는 [AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser) 을 참조 하십시오.
 
+>[!Note]
+>사용자 계정에 라이선스를 할당 하려면 사용 위치를 할당 해야 합니다.
+>
 
 사용자 계정의 사용자 계정 이름을 표시 하려면 다음 명령을 실행 합니다.
   
@@ -264,7 +266,7 @@ Get-MsolUser | Where {$_.Department -eq "Accounting"} | Set-MsolUser -UsageLocat
 - 부서 속성이 "회계"로 설정 된 모든 사용자 계정을 찾습니다 (**여기서 {$ _. 부서-eq "Accounting"}**)를 사용 하 고 결과 정보를 다음 명령 ( **|** )으로 보냅니다.
     
 - 사용자 위치를 프랑스 (**get-msoluser-UsageLocation "FR"**)로 설정 합니다.
-    
+
 
 ## <a name="see-also"></a>참고 항목
 

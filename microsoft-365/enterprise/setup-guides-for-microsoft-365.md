@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
 description: 설치 가이드를 사용 하 여 Microsoft 365 또는 Office 365의 계획 및 구성을 가속화 합니다.
-ms.openlocfilehash: fd9d9a3b65f3a4e47604299c47a85d8c5e551149
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 215f51af1fc553ef0710565af0a7c25111de8328
+ms.sourcegitcommit: 705915f8bf9b7c082d12a009523d8aa0670a74a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446942"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48493700"
 ---
 # <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Microsoft 365 및 Office 365 서비스용 설정 가이드
 
@@ -90,6 +90,17 @@ Windows 가상 데스크톱은 클라우드에서 실행 되는 종합적인 데
 
 [Windows Virtual Desktop 설정 가이드](https://aka.ms/wvdsetupguide) 에서는 관리자에 게 배포, 설치 지침 및 추가 리소스에 대 한 계획 리소스와 필수 구성 요소를 제공 합니다. 
 
+### <a name="microsoft-edge-deployment-advisor"></a>Microsoft Edge 배포 관리자
+
+Microsoft Edge는 세계 최고의 호환성과 성능, 관심 있는 보안 및 개인 정보 보호를 제공 하기 위해 처음부터 새로 재구축 되었으며, 웹을 최대한 활용 하도록 설계 되었습니다.
+
+[Microsoft Edge 배포 관리자](https://aka.ms/edgeadvisor) 는 조직에서 액세스 하는 사이트를 확인 하도록 엔터프라이즈 사이트 검색을 구성 하 고, 중요 한 보안 기능을 검토 및 구성 하며, 조직의 요구 사항을 충족 하기 위해 개인 정보 취급 방침 및 추가 정책을 구성 하 고, 장치에서 웹 액세스를 관리 하는 데 도움을 줄 수 있습니다. Microsoft Edge를 개별 장치에 다운로드 하거나 구성 관리자 또는 Microsoft Intune을 사용 하 여 조직에서 여러 사용자에 게 배포 하는 방법을 확인할 수 있습니다.
+Windows 가상 데스크톱은 클라우드에서 실행 되는 종합적인 데스크톱 및 앱 가상화 서비스입니다. 간소화 된 관리, 다중 세션 Windows 10, Microsoft 365 앱에 대 한 최적화 및 RDS (원격 데스크톱 서비스) 환경에 대 한 지원을 제공 하는 VDI (가상 데스크톱 인프라) 뿐입니다. 시간 (분)에 Windows 데스크톱 및 앱을 배포 및 확장 하 고 기본 제공 되는 보안 및 규정 준수 기능을 알아봅니다. 
+
+### <a name="intune-configuration-manager-co-management-setup-guide"></a>Intune 구성 관리자 공동 관리 설정 가이드
+
+기존 Configuration Manager 클라이언트 장치 및 조직에서 Microsoft Intune 및 Configuration Manager 둘 다로 공동 관리 하려는 새로운 인터넷 기반 장치에 대 한 [Intune Configuration manager 공동 관리 설치 가이드](https://aka.ms/comanagementsetup) 를 사용 합니다. 이 공동 관리 배포 가이드를 사용 하 여 Windows 10 장치를 관리 하 고 조직의 장치에 새로운 기능을 추가 하 여 두 솔루션의 이점을 모두 받을 수 있습니다.
+
 ## <a name="guides-for-authentication-and-access"></a>인증 및 액세스 가이드
 
 ### <a name="azure-ad-setup-guide"></a>Azure AD 설정 가이드
@@ -97,6 +108,10 @@ Windows 가상 데스크톱은 클라우드에서 실행 되는 종합적인 데
 [AZURE AD 설정 가이드](https://aka.ms/aadpguidance) 에서는 조직이 강력한 보안 토대를 갖도록 하기 위한 정보를 제공 합니다. 이 가이드에서는 관리자를 위한 azure AD (역할 기반 액세스 제어), Azure FS (온-프레미스 디렉터리에 연결) 및 Azure AD Connect Health와 같은 초기 기능을 설정 하 여 자동화 된 동기화 중에 하이브리드 id의 상태를 모니터링할 수 있도록 합니다. 
 
 또한 선택적인 고급 id 보호 및 사용자 프로비저닝 자동화를 포함 하 여 셀프 서비스 암호 재설정, 조건부 액세스 및 통합 타사 로그인을 사용 하는 방법에 대 한 필수 정보도 포함 되어 있습니다.
+
+### <a name="sync-users-from-your-orgs-directory"></a>조직의 디렉터리에서 사용자 동기화
+
+[Org 디렉터리 마법사에서 사용자 동기화](https://aka.ms/directorysyncsetup) 는 디렉터리 동기화를 설정 하는 과정을 안내 합니다. 이렇게 하면 간편 하 게 액세스 하 고 간편 하 게 관리할 수 있도록 온-프레미스 및 클라우드 id가 함께 제공 됩니다. Single sign-on, 셀프 서비스 옵션, 자동 계정 프로 비전, 조건부 액세스 제어 및 준수 정책 같은 새로운 기능을 사용할 때의 잠금을 해제 합니다. 이를 통해 사용자는 어디에서 나 필요한 리소스에 액세스할 수 있습니다.
 
 ### <a name="plan-your-passwordless-deployment"></a>Passwordless 배포 계획
 

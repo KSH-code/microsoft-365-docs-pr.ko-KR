@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: 보안 및 준수 센터의 DLP (데이터 손실 방지)에는 &amp; dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다.
-ms.openlocfilehash: adc1006628b8b4f13d30f2001fee0871b51b18ca
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 8482501dc978433587c431d18ec93b9e78fb8e03
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430435"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487496"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>중요한 정보 유형 엔터티 정의
 
@@ -670,36 +670,155 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
 - 정규식이 해당  `Regex_austria_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_austria_eu_driver's_license_number` 찾았습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_austria_eu_driver's_license_number` 입니다. 
     
 ```xml
-<!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <!-- Austria Driver's License Number -->
+      <Entity id="682f18ce-44eb-482b-8198-2bcb96a0761e" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_austria_eu_driver's_license_number" />
-          <Match idRef="Keywords_austria_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_austria_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-    </Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_austria_eu_drivers_license_number"></a>Keywords_austria_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- dl #
-- driver license
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- driver's licence
-- driver's license
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+
+#### <a name="keywords_austria_eu_drivers_license_number"></a>Keywords_austria_eu_driver ' s_license_number
+
 - fuhrerschein
-- fuhrerschein republik osterreich
+- führerschein
+- Führerscheine
+- Führerscheinnummer
+- Führerscheinnummern
 
 ## <a name="austria-identity-card"></a>오스트리아 id 카드
 이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
@@ -1501,41 +1620,163 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_belgium_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_belgium_eu_driver's_license_number` 찾았습니다.
+- From `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_belgium_eu_driver's_license_number` 입니다.
     
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <!-- Belgium Driver's License Number -->
+      <Entity id="d89fd329-9324-433c-b687-2c37bd5166f3" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_belgium_eu_driver's_license_number" />
-          <Match idRef="Keywords_belgium_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_belgium_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-**Keywords__belgium_eu_driver ' s_license_number**
 
-- dl #
-- driver license
-- 드라이버 라이선스 번호
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license
-- 운전 면허 번호
-- 운전 라이선스 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+#### <a name="keywords_belgium_eu_drivers_license_number"></a>Keywords_belgium_eu_driver ' s_license_number
+
 - rijbewijs
 - rijbewijsnummer
+- führerschein
 - führerscheinnummer
+- füehrerscheinnummer
+- fuhrerschein
+- fuehrerschein
 - fuhrerscheinnummer
 - fuehrerscheinnummer
-- führerschein-veiligheid
-- fuehrerschein-Veiligheid
-- fuehrerschein-veiligheid
+- 
+permis de conduire
+- numéro permis conduire
+
 
 ## <a name="belgium-national-number"></a>벨기에 국가 번호
 
@@ -2055,38 +2296,155 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_bulgaria_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_bulgaria_eu_driver's_license_number` 찾았습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_bulgaria_eu_driver's_license_number` 입니다. 
     
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
-             <Pattern confidenceLevel="75">
+      <!-- Bulgaria Driver's License Number -->
+      <Entity id="66d39258-94c2-43b2-804b-aa312258e54b" patternsProximity="300" recommendedConfidence="75">
+        <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_bulgaria_eu_driver's_license_number" />
-          <Match idRef="Keywords_bulgaria_eu_driver's_license_number" />
-        </Pattern> 
-</Entity>    
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_bulgaria_eu_driver's_license_number" />
+          </Any>
+        </Pattern>
+      </Entity>    
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_bulgaria_eu_drivers_license_number"></a>Keywords_bulgaria_eu_driver ' s_license_number
-- dl #
-- driver license
-- 드라이버 라이선스 번호
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+
+#### <a name="keywords_bulgaria_eu_drivers_license_number"></a>Keywords_bulgaria_eu_driver ' s_license_number
+
 - свидетелство за управление на мпс
 - свидетелство за управление на моторно превозно средство
 - сумпс
 - шофьорска книжка
-
+- шофьорски книжки
 
 ## <a name="bulgaria-uniform-civil-number"></a>불가리아 uniform 민사 번호
 이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
@@ -3317,35 +3675,152 @@ número do cartão
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
 - 정규식이 해당  `Regex_croatia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_croatia_eu_driver's_license_number` 찾았습니다. 
+- From `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_croatia_eu_driver's_license_number` 입니다. 
 
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <!-- Croatia Driver's License Number -->
+      <Entity id="005b3ef1-47dd-4e68-bb02-c6db484d00f2" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_croatia_eu_driver's_license_number" />
-          <Match idRef="Keywords_croatia_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_croatia_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_croatia_eu_drivers_license_number"></a>Keywords_croatia_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- dl #
-- driver license
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+
+#### <a name="keywords_croatia_eu_drivers_license_number"></a>Keywords_croatia_eu_driver ' s_license_number
+
 - vozačka dozvola
+- vozačke dozvole
 
 
 ## <a name="croatia-identity-card-number"></a>크로아티아 id 카드 번호
@@ -3623,34 +4098,152 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_cyprus_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_cyprus_eu_driver's_license_number` 찾았습니다.
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_cyprus_eu_driver's_license_number` 입니다.
 
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <!-- Cyprus Driver's License Number -->
+      <Entity id="356fa104-f9ac-4aff-a0e4-2e6e65ea06c4" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_cyprus_eu_driver's_license_number" />
-          <Match idRef="Keywords_cyprus_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_cyprus_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_cyprus_eu_drivers_license_number"></a>Keywords_cyprus_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- dl #
-- driver license
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+#### <a name="keywords_cyprus_eu_drivers_license_number"></a>Keywords_cyprus_eu_driver ' s_license_number
+
 - άδεια οδήγησης
+- αριθμό άδειας οδήγησης
+- άδειες οδήγησης
 
 
 ## <a name="cyprus-identity-card"></a>키프로스 id 카드
@@ -3853,7 +4446,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 8 개의 문자 및 숫자:
   
-- 2 개 문자 (대/소문자 구분 안 함)
+- ' E ' 문자 (대/소문자 구분 안 함)
+- a 문자
 - 공백 (선택 사항)
 - 6 자리 숫자
 
@@ -3865,37 +4459,153 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_czech_republic_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_czech_republic_eu_driver's_license_number` 찾았습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_czech_republic_eu_driver's_license_number` 입니다. 
 
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <Entity id="86b40d3b-d8ea-4c36-aab0-ef9416a6769c" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_czech_republic_eu_driver's_license_number" />
-          <Match idRef="Keywords_czech_republic_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_czech_republic_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_czech_republic_eu_drivers_license_number"></a>Keywords_czech_republic_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- dl #
-- driver license
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license
-- 운전 면허 번호
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+#### <a name="keywords_czech_republic_eu_drivers_license_number"></a>Keywords_czech_republic_eu_driver ' s_license_number
+
 - řidičský prúkaz
+- řidičské průkazy
+- číslo řidičského průkazu
+- čísla řidičských průkazů
 
 
 ## <a name="czech-passport-number"></a>체코어 여권 번호
@@ -4132,40 +4842,155 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="checksum"></a>제외
 
-예
+아니요
   
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_denmark_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_denmark_eu_driver's_license_number` 찾았습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_denmark_eu_driver's_license_number` 입니다. 
     
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <!-- Denmark Driver's License Number -->
+      <Entity id="98a95812-6203-451a-a220-d39870ebef0e" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_denmark_eu_driver's_license_number" />
-          <Match idRef="Keywords_denmark_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_denmark_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_denmark_eu_drivers_license_number"></a>Keywords_denmark_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- | dl #
-- driver license
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+#### <a name="keywords_denmark_eu_drivers_license_number"></a>Keywords_denmark_eu_driver ' s_license_number
+
 - kørekort
 - kørekortnummer
 
@@ -4462,35 +5287,153 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_estonia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_estonia_eu_driver's_license_number` 찾았습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_estonia_eu_driver's_license_number` 입니다. 
     
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <!-- Estonia Driver's License Number -->
+      <Entity id="51da8171-da70-4cc1-9d65-055a59ca4f83" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_estonia_eu_driver's_license_number" />
-          <Match idRef="Keywords_estonia_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_estonia_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_estonia_eu_drivers_license_number"></a>Keywords_estonia_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- dl #
-- driver license
-- 드라이버 라이선스 번호
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license
-- 운전 면허 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
-- permis de conduire
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+#### <a name="keywords_estonia_eu_drivers_license_number"></a>Keywords_estonia_eu_driver ' s_license_number
+
+--permis de conduire
+- juhilubade numbrid
+- juhiloa 번호
+- juhiluba
 
 
 ## <a name="estonia-personal-identification-code"></a>에스토니아 개인 식별 코드
@@ -5143,15 +6086,16 @@ EU 국가 식별 번호 중요 한 정보 유형의 엔터티입니다.
 
 ### <a name="format"></a>형식일
 
-하이픈을 포함 하는 10 자리 숫자
+하이픈을 포함 하는 10 자리 숫자 및 문자
   
 ### <a name="pattern"></a>패턴
 
-하이픈을 포함 하는 10 자리 숫자:
+하이픈을 포함 하는 10 자리 숫자 및 문자:
   
 - 6 자리 숫자 
 - 하이픈
-- 4 자리 숫자 
+- 3 자리 숫자 
+- 숫자 또는 문자
     
 ### <a name="checksum"></a>제외
 
@@ -5161,35 +6105,159 @@ EU 국가 식별 번호 중요 한 정보 유형의 엔터티입니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_finland_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_finland_eu_driver's_license_number` 찾았습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_finland_eu_driver's_license_number` 입니다. 
     
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <!-- Finland Driver's License Number -->
+      <Entity id="bb3b27a3-79bd-4ac4-81a7-f9fca3c7d1a7" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_finland_eu_driver's_license_number" />
-          <Match idRef="Keywords_finland_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_finland_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_finland_eu_drivers_license_number"></a>Keywords_finland_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- dl #
-- driver license
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+
+#### <a name="keywords_finland_eu_drivers_license_number"></a>Keywords_finland_eu_driver ' s_license_number
+
 - ajokortti
+- permis de conduire
+- ajokortin numero
+- kuljettaja lic
+- körkort
+- körkortnummer
+- förare lic
+- ajokortit
+- ajokortin numerot
 
 
 ## <a name="finland-european-health-insurance-number"></a>핀란드 유럽 건강 보험 번호
@@ -5497,36 +6565,155 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - Func_french_drivers_license 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
-- 다음 중 하나 이상이 충족 됩니다.
 - Keyword_french_drivers_license에서 키워드가 발견 되었습니다.
-- Func_eu_date 함수는 올바른 날짜 형식의 날짜를 찾습니다.
 
 ```xml
-<!-- France Driver's License Number -->
-<Entity id="18e55a36-a01b-4b0f-943d-dc10282a1824" patternsProximity="300" recommendedConfidence="75">
-  <Pattern confidenceLevel="75">
+    <!-- France Driver's License Number -->
+    <Entity id="18e55a36-a01b-4b0f-943d-dc10282a1824" patternsProximity="300" recommendedConfidence="75">
+      <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_french_drivers_license" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_french_drivers_license" />
-          <Match idRef="Func_eu_date" />
-        </Any>
-  </Pattern>
-</Entity>
+        <Match idRef="Keyword_french_drivers_license" />
+      </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
 #### <a name="keyword_french_drivers_license"></a>Keyword_french_drivers_license
 
-- drivers licence
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
+- 드라이버 라이선스
+- drivers lic
+- 드라이버 driver'lics
 - drivers license
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
 - driving licence
-- driving license
-- permis de conduire
-- licence number
-- license number
-- licence numbers
-- license numbers
+ 
+- 운전 면허
+- dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+- 
+permis de conduire
+- 
+licence number
+- 
+license number
+- 
+licence numbers
+- 
+
+license numbers
+- numéros de 라이선스
 
 
 ## <a name="france-health-insurance-number"></a>프랑스 건강 보험 번호
@@ -5930,124 +7117,177 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - Func_german_drivers_license 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
-- 다음 중 하나 이상이 충족됩니다.
-    - Keyword_german_drivers_license_number의 키워드가 발견되었습니다.
-    - Keyword_german_drivers_license_collaborative의 키워드가 발견되었습니다.
-    - Keyword_german_drivers_license의 키워드가 발견되었습니다.
+- Keyword_german_drivers_license_number의 키워드가 발견되었습니다.
 - 체크섬이 통과됩니다.
 
 ```xml
-<!-- Germany Driver's License Number -->
-<Entity id="91da9335-1edb-45b7-a95f-5fe41a16c63c" patternsProximity="300" recommendedConfidence="75">
-  <Pattern confidenceLevel="75">
+    <!-- German Driver's License Number -->
+    <Entity id="91da9335-1edb-45b7-a95f-5fe41a16c63c" patternsProximity="300" recommendedConfidence="75">
+      <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_german_drivers_license" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_german_drivers_license_number" />
-          <Match idRef="Keyword_german_drivers_license_collaborative" />
-          <Match idRef="Keyword_german_drivers_license" />
-        </Any>
-  </Pattern>
-</Entity>
+        <Match idRef="Keyword_german_drivers_license" />
+      </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
 #### <a name="keyword_german_drivers_license_number"></a>Keyword_german_drivers_license_number
 
-- Führerschein
-- Fuhrerschein
-- Fuehrerschein
-- Führerscheinnummer
-- Fuhrerscheinnummer
-- Fuehrerscheinnummer
-- Führerschein- 
-- Fuhrerschein- 
-- Fuehrerschein- 
-- FührerscheinnummerNr
-- FuhrerscheinnummerNr
-- FuehrerscheinnummerNr
-- FührerscheinnummerKlasse
-- FuhrerscheinnummerKlasse
-- FuehrerscheinnummerKlasse
-- Führerschein- Nr
-- Fuhrerschein- Nr
-- Fuehrerschein- Nr 
-- Führerschein- Klasse 
-- Fuhrerschein- Klasse 
-- Fuehrerschein- Klasse
-- FührerscheinnummerNr 
-- FuhrerscheinnummerNr 
-- FuehrerscheinnummerNr 
-- FührerscheinnummerKlasse 
-- FuhrerscheinnummerKlasse 
-- FuehrerscheinnummerKlasse 
-- Führerschein- Nr 
-- Fuhrerschein- Nr 
-- Fuehrerschein- Nr 
-- Führerschein- Klasse 
-- Fuhrerschein- Klasse 
-- Fuehrerschein- Klasse 
-- DL 
-- 된다
-- Driv Lic 
-- Driv Licen 
-- Driv License
-- Driv Licenses 
-- Driv Licence 
-- Driv Licences 
-- Driv Lic 
-- Driver Licen 
-- Driver License 
-- Driver Licenses 
-- Driver Licence 
-- Driver Licences 
-- Drivers Lic 
-- Drivers Licen 
-- Drivers License 
-- Drivers Licenses 
-- Drivers Licence 
-- Drivers Licences 
-- Driver's Lic 
-- Driver's Licen 
-- Driver's License 
-- Driver's Licenses 
-- Driver's Licence 
-- Driver's Licences 
-- Driving Lic 
-- Driving Licen 
-- Driving License 
-- Driving Licenses 
-- Driving Licence 
-- Driving Licences
-
-#### <a name="keyword_german_drivers_license_collaborative"></a>Keyword_german_drivers_license_collaborative
-
-- Nr-Führerschein 
-- Nr-Fuhrerschein 
-- Nr-Fuehrerschein 
-- No-Führerschein 
-- No-Fuhrerschein 
-- No-Fuehrerschein 
-- N-Führerschein 
-- N-Fuhrerschein 
-- N-Fuehrerschein
-- Nr-Führerschein 
-- Nr-Fuhrerschein 
-- Nr-Fuehrerschein 
-- No-Führerschein 
-- No-Fuhrerschein 
-- No-Fuehrerschein 
-- N-Führerschein 
-- N-Fuhrerschein 
-- N-Fuehrerschein 
-
-#### <a name="keyword_german_drivers_license"></a>Keyword_german_drivers_license
-
 - ausstellungsdatum
 - ausstellungsort
-- ausstellende behöde
-- ausstellende behorde
-- ausstellende behoerde
+- 
+ausstellende behöde
+- 
+ausstellende behorde
+- 
+
+ausstellende behoerde
+- führerschein
+- fuhrerschein
+- fuehrerschein
+- führerscheinnummer
+- fuhrerscheinnummer
+- fuehrerscheinnummer
+- führerschein- 
+- fuhrerschein- 
+- fuehrerschein- 
+- führerscheinnummernr
+- fuhrerscheinnummernr
+- fuehrerscheinnummernr
+- führerscheinnummerklasse
+- fuhrerscheinnummerklasse
+- fuehrerscheinnummerklasse
+- veiligheid-führerschein
+- veiligheid-fuhrerschein
+- veiligheid-fuehrerschein
+- führerschein
+- fuhrerschein
+- fuehrerschein
+- n-führerschein
+- n-fuhrerschein
+- n-fuehrerschein
+- 
+permis de conduire
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
+- 드라이버 라이선스
+- drivers lic
+- 드라이버 driver'lics
+- drivers license
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
+- dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dlno
 
 
 ## <a name="germany-identity-card-number"></a>독일 id 카드 번호
@@ -6322,36 +7562,154 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_greece_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_greece_eu_driver's_license_number` 찾았습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_greece_eu_driver's_license_number` 입니다. 
     
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <!-- Greece Driver's License Number -->
+      <Entity id="7a2200b5-aacf-4e3c-ab36-136d3e68b7da" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_greece_eu_driver's_license_number" />
-          <Match idRef="Keywords_greece_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_greece_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_greece_eu_drivers_license_number"></a>Keywords_greece_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- dlL #
-- driver license
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+
+#### <a name="keywords_greece_eu_drivers_license_number"></a>Keywords_greece_eu_driver ' s_license_number
+
 - δεια οδήγησης
 - Adeia odigisis
+- Άδεια οδήγησης
+- Δίπλωμα οδήγησης
 
 
 ## <a name="greece-national-id-card"></a>그리스 국가 ID 카드
@@ -6647,35 +8005,152 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
 - 정규식이 해당  `Regex_hungary_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_hungary_eu_driver's_license_number` 찾았습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_hungary_eu_driver's_license_number` 입니다. 
     
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <Entity id="9d31c46b-6e6b-444c-aeb1-6dd7e604bb24" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_hungary_eu_driver's_license_number" />
-          <Match idRef="Keywords_hungary_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_hungary_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_hungary_eu_drivers_license_number"></a>Keywords_hungary_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- dl #
-- driver license
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+
+#### <a name="keywords_hungary_eu_drivers_license_number"></a>Keywords_hungary_eu_driver ' s_license_number
+
 - vezetoi
+- vezetői engedély
+- vezetői engedélyek
 
 
 ## <a name="hungary-personal-identification-number"></a>헝가리어 개인 식별 번호
@@ -7363,36 +8838,152 @@ IPv6의 경우 DLP 정책은 다음과 같은 경우 이러한 유형의 중요�
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
 - 정규식이 해당  `Regex_ireland_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_ireland_eu_driver's_license_number` 찾았습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_ireland_eu_driver's_license_number` 입니다. 
     
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <!-- Ireland Driver's License Number -->
+      <Entity id="e01bccd9-eb4d-414f-ace1-e9b6a4c4a2ca" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_ireland_eu_driver's_license_number" />
-          <Match idRef="Keywords_ireland_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_ireland_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_ireland_eu_drivers_license_number"></a>Keywords_ireland_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- dl #
-- driver license
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
-- ceadúnas tiomána
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
 
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+
+#### <a name="keywords_ireland_eu_drivers_license_number"></a>Keywords_ireland_eu_driver ' s_license_number
+
+- ceadúnas tiomána
+- ceadúnais tiomána
 
 ## <a name="ireland-passport-number"></a>아일랜드 여권 번호
 
@@ -7655,10 +9246,10 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="pattern"></a>패턴
 
-- 10 개의 문자와 숫자를 조합한 것입니다.
+10 개의 문자와 숫자를 조합한 것입니다.
 - 1 개 문자 (대/소문자 구분 안 함) 
 - 문자 "A" 또는 "V" (대/소문자 구분 안 함) 
-- 7 개 문자 (대/소문자 구분 안 함), 숫자 또는 밑줄 문자 
+- 7 자리 숫자
 - 1 개 문자 (대/소문자 구분 안 함)
 
 ### <a name="checksum"></a>제외
@@ -7687,8 +9278,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyword_italy_drivers_license_number"></a>Keyword_italy_drivers_license_number
 
-- numero di patente di guida 
+- numero di patente
 - patente di guida 
+- patente guida
+- patenti di guida
+- patenti guida
 
 ## <a name="italy-fiscal-code"></a>이탈리아 회계 코드
 이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
@@ -7982,36 +9576,24 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Debit Acct # 
 - Debit Acct No. 
 - Debit Account No. 
-- 口座番号を当座預金口座の確認 
-- #アカウントの確認 、 勘定番号の確認 
-- #勘定の確認 
-- 勘定番号の確認 
-- 口座番号の確認 
-- 銀行口座番号 
-- 銀行口座 
-- 銀行口座＃ 
-- 銀行の勘定番号 
-- 銀行のacct＃ 
-- 銀行の勘定いいえ 
+- 口座番号
+- 銀行口座
 - 銀行口座番号
-- 普通預金口座番号 
-- 預金口座 
-- 貯蓄口座＃ 
-- 貯蓄勘定の数 
-- 貯蓄勘定＃ 
-- 貯蓄勘定番号 
-- 普通預金口座番号 
-- 引き落とし口座番号 
-- 口座番号 
-- 口座番号＃ 
-- デビットのacct番号 
-- デビット勘定＃ 
-- デビットACCTの番号 
-- デビット口座番号 
+- 総合口座
+- 普通預金口座
+- 普通口座
+- 当座預金口座
+- 当座口座
+- 預金口座
+- 振替口座
+- 銀行
+- バンク
 
 #### <a name="keyword_jp_bank_branch_code"></a>Keyword_jp_bank_branch_code
 
-Otemachi
+- 支店番号
+- 支店コード
+- 店番号
 
 ## <a name="japan-drivers-license-number"></a>일본 운전 면허 번호
 
@@ -8047,31 +9629,41 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyword_jp_drivers_license_number"></a>Keyword_jp_drivers_license_number
 
-- dl # 
-- DL 
-- 된다 # 
-- 된다 
-- driver license 
-- driver licenses 
-- drivers license 
-- driver's license 
-- drivers licenses 
-- driver's licenses 
-- driving licence 
-- lic # 
-- LIC 
-- driver'lics # 
-- state id 
-- state identification 
-- state identification number 
-- 低所得国＃ 
-- 免許証 
-- 状態ID
-- 状態の識別 
-- 状態の識別番号 
-- 運転免許 
-- 運転免許証 
-- 運転免許証番号 
+- driverlicense
+- 드라이버 라이선스
+- driver'slicense
+- 드라이버 라이선스
+- driver'slicenses
+- driverlicenses
+- dl #
+- 된다 #
+- lic #
+- driver'lics #
+- 運転免許証
+- 運転免許
+- 免許証
+- 免許
+- 運転免許証番号
+- 運転免許番号
+- 免許証番号
+- 免許番号
+- 運転免許証ナンバー
+- 運転免許ナンバー
+- 免許証ナンバー
+- 運転免許証no
+- 運転免許no
+- 免許証no
+- 免許no
+- 運転経歴証明書番号
+- 運転経歴証明書
+- 運転免許証No.
+- 運転免許No.
+- 免許証No.
+- 免許No.
+- 運転免許証 #
+- 運転免許 #
+- 免許証 #
+- 免許 #
 
 
 ## <a name="japan-my-number---corporate"></a>일본 내 번호-회사
@@ -8233,10 +9825,22 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyword_jp_passport"></a>Keyword_jp_passport
 
-- パスポート 
-- パスポート番号 
-- パスポートのNum 
-- パスポート＃ 
+- 여권
+- 여권 번호
+- Passport 번호
+- Passport #
+
+- パスポート
+- パスポート番号
+- パスポートナンバー
+- パスポート＃
+- パスポート #
+- パスポートNo.
+- 旅券番号
+- 旅券番号＃
+- 旅券番号 ♯
+- 旅券ナンバー
+
 
 ## <a name="japan-residence-card-number"></a>일본 거주지 카드 번호
 
@@ -8279,6 +9883,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 거주지 카드 아니요
 - 거주지 카드 #
 - 在留カード番号
+- 在留カード
+- 在留番号
 
 ## <a name="japan-resident-registration-number"></a>일본 상주 등록 번호
 
@@ -8315,16 +9921,15 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keyword_jp_resident_registration_number"></a>Keyword_jp_resident_registration_number
 
 - Resident Registration Number
-- Resident Register Number 
 - Residents Basic Registry Number 
 - Resident Registration No. 
 - Resident Register No. 
 - Residents Basic Registry No. 
 - Basic Resident Register No. 
-- 住民登録番号、登録番号をレジデント 
-- 住民基本登録番号、登録番号 
-- 住民基本レジストリ番号を常駐 
-- 登録番号を常駐住民基本台帳登録番号 
+- 外国人登録証明書番号
+- 証明書番号
+- 登録番号
+- 外国人登録証
 
    
 ## <a name="japan-social-insurance-number-sin"></a>일본 SIN (사회 보험 번호)
@@ -8376,8 +9981,22 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Social Insurance No. 
 - Social Insurance Num 
 - Social Insurance Number 
-- 社会保険のテンキー 
-- 社会保険番号 
+- 健康保険被保険者番号
+- 健保番号
+- 基礎年金番号
+- 雇用保険被保険者番号
+- 雇用保険番号
+- 保険証番号
+- 社会保険番号
+- 社会保険No.
+- 社会保険
+- 介護保険
+- 介護保険被保険者番号
+- 健康保険被保険者整理番号
+- 雇用保険被保険者整理番号
+- 厚生年金
+- 厚生年金被保険者整理番号
+
 
 ## <a name="latvia-drivers-license-number"></a>라트비아 운전 면허 번호
 이 중요 한 정보 유형 엔터티는 EU 드라이버의 라이선스 번호 중요 정보 유형 에서만 사용할 수 있습니다.
@@ -8401,35 +10020,153 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_latvia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_latvia_eu_driver's_license_number` 찾았습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_latvia_eu_driver's_license_number` 입니다. 
     
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <!-- Latvia Driver's License Number -->
+      <Entity id="ec996de0-30f2-46b1-b192-4d2ff8805fa7" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_latvia_eu_driver's_license_number" />
-          <Match idRef="Keywords_latvia_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_latvia_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_latvia_eu_drivers_license_number"></a>Keywords_latvia_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- dl #
-- driver license
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+
+#### <a name="keywords_latvia_eu_drivers_license_number"></a>Keywords_latvia_eu_driver ' s_license_number
+
 - autovadītāja apliecība
+- autovadītāja apliecības
+- vadītāja apliecība
 
 ## <a name="latvia-personal-code"></a>라트비아 개인 코드
 
@@ -8647,35 +10384,153 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_lithuania_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_lithuania_eu_driver's_license_number` 찾았습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_lithuania_eu_driver's_license_number` 입니다. 
     
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <!-- Lithuania Driver's License Number -->
+      <Entity id="86f7628b-e0f4-4dc3-9fbc-e4300e4c7d78" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_lithuania_eu_driver's_license_number" />
-          <Match idRef="Keywords_lithuania_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_lithuania_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_lithuania_eu_drivers_license_number"></a>Keywords_lithuania_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- dl #
-- driver license
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+
+#### <a name="keywords_lithuania_eu_drivers_license_number"></a>Keywords_lithuania_eu_driver ' s_license_number
+
 - vairuotojo pažymėjimas
+- vairuotojo pažymėjimo numeris
+- vairuotojo pažymėjimo num가는 인공 지능
 
 ## <a name="lithuania-personal-code"></a>리투아니아 개인 코드
 이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
@@ -8840,35 +10695,152 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_luxemburg_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_luxemburg_eu_driver's_license_number` 찾았습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_luxemburg_eu_driver's_license_number` 입니다. 
     
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <!-- Luxemburg Driver's License Number -->
+      <Entity id="89daf717-1544-4860-9a2e-fc9166dd8852" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_luxemburg_eu_driver's_license_number" />
-          <Match idRef="Keywords_luxemburg_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_luxemburg_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_luxemburg_eu_drivers_license_number"></a>Keywords_luxemburg_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- dl #
-- driver license
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+
+#### <a name="keywords_luxemburg_eu_drivers_license_number"></a>Keywords_luxemburg_eu_driver ' s_license_number
+
 - fahrerlaubnis
+- Führerschäin
 
 ## <a name="luxemburg-national-identification-number-natural-persons"></a>룩셈부르크 국내 식별 번호 (자연어)
 이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
@@ -9169,35 +11141,153 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_malta_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_malta_eu_driver's_license_number` 찾았습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_malta_eu_driver's_license_number` 입니다. 
     
 ```xml
-<!-- EU Driver's License Number -->
- <Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <!-- Malta Driver's License Number -->
+      <Entity id="a3bdaa4a-8371-4735-8fa5-56ee0fb4afc4" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_malta_eu_driver's_license_number" />
-          <Match idRef="Keywords_malta_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_malta_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_malta_eu_drivers_license_number"></a>Keywords_malta_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- dl #
-- driver license
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+
+#### <a name="keywords_malta_eu_drivers_license_number"></a>Keywords_malta_eu_driver ' s_license_number
+
 - liċenzja tas-sewqan
+- liċenzji tas-sewwieq
+
 
 ## <a name="malta-identity-card-number"></a>몰타 id 카드 번호
 이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
@@ -9490,37 +11580,156 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_netherlands_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_netherlands_eu_driver's_license_number` 찾았습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_netherlands_eu_driver's_license_number` 입니다. 
     
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <!-- Netherlands Driver's License Number -->
+      <Entity id="6247fbea-ab80-4be5-8233-308b7c031401" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_netherlands_eu_driver's_license_number" />
-          <Match idRef="Keywords_netherlands_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_netherlands_eu_driver's_license_number" />
+            </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_netherlands_eu_drivers_license_number"></a>Keywords_netherlands_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- dl #
-- driver license
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+
+#### <a name="keywords_netherlands_eu_drivers_license_number"></a>Keywords_netherlands_eu_driver ' s_license_number
+
 - permis de conduire
 - rijbewijs
 - rijbewijsnummer
+- rijbewijzen
+- rijbewijs nummer
+- rijbewijsnummers
 
 
 ## <a name="netherlands-passport-number"></a>네덜란드 여권 번호
@@ -9755,7 +11964,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
       <Entity id="1a97fc2b-dd2f-48f1-bc4e-2ddf25813956" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_new_zealand_bank_account_number" />
-          <Match idRef="Keywords_new_zealand_bank_account_number" />
+          <Match idRef="Keywords_new_zFealand_bank_account_number" />
         </Pattern>
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Func_new_zealand_bank_account_number" />
@@ -10175,35 +12384,152 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_poland_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_poland_eu_driver's_license_number` 찾았습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_poland_eu_driver's_license_number` 입니다. 
     
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <!-- Poland Driver's License Number -->
+      <Entity id="24d51f99-ee9e-4060-a077-cae58cab1ee4" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_poland_eu_driver's_license_number" />
-          <Match idRef="Keywords_poland_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_poland_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_poland_eu_drivers_license_number"></a>Keywords_poland_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- dl #
-- driver license
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+
+#### <a name="keywords_poland_eu_drivers_license_number"></a>Keywords_poland_eu_driver ' s_license_number
+
 - prawo jazdy
+- prawa jazdy
 
 ## <a name="poland-identity-card"></a>폴란드 id 카드
 
@@ -10541,17 +12867,24 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="format"></a>형식일
 
-두 개의 문자와 지정 된 패턴에 있는 일곱 개의 숫자
+두 개의 패턴-다음에 특수 문자가 있는 5-8 자리 문자 두 개
   
 ### <a name="pattern"></a>패턴
 
-두 문자 다음에 특수 문자를 사용한 7 개의 숫자를 입력 합니다.
-  
-- 2 개 문자 (대/소문자 구분 안 함) 
+패턴 1: 다음에 특수 문자를 포함 하는 5/6 문자 2 개:
+- 2 개 문자 (대/소문자 구분 안 함)
 - 하이픈
-- 6 자리 숫자
+- 5 또는 6 자리 숫자
 - 공백
-- 1 자리 숫자
+- 1자리 숫자
+
+패턴 2:1 개 문자 다음에 특수 문자가 있는 6/8 자리 숫자:
+- 1 개 문자 (대/소문자 구분 안 함)
+- 하이픈
+- 6 또는 8 자리 숫자
+- 공백
+- 1자리 숫자
+
     
 ### <a name="checksum"></a>제외
 
@@ -10561,35 +12894,160 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_portugal_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_portugal_eu_driver's_license_number` 찾았습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_portugal_eu_driver's_license_number` 입니다. 
     
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <!-- Portugal Driver's License Number -->
+      <Entity id="977f1e5a-2c33-4bcc-b516-95bb275cff23" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_portugal_eu_driver's_license_number" />
-          <Match idRef="Keywords_portugal_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_portugal_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_portugal_eu_drivers_license_number"></a>Keywords_portugal_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- dl #
-- driver license
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+
+#### <a name="keywords_portugal_eu_drivers_license_number"></a>Keywords_portugal_eu_driver ' s_license_number
+
 - carteira de motorista
+- carteira motorista
+- carteira de habilitação
+- carteira habilitação
+- número de licença
+- número licença
+- permissão de condução
+- permissão condução
+- Licença condução 포르투갈
+- 카 ta de condução
 
 ## <a name="portugal-passport-number"></a>포르투갈 여권 번호
 이 중요 한 정보 유형 엔터티는 EU (유럽 여권 번호) 중요 한 정보 유형 으로만 사용할 수 있습니다.
@@ -10735,7 +13193,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="pattern"></a>패턴
 
 1 개의 문자 다음에 8 자리 숫자:
-  
 - 1 개 문자 (대/소문자 구분 안 함) 또는 숫자 
 - 8 자리 숫자
     
@@ -10747,35 +13204,156 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_romania_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_romania_eu_driver's_license_number` 찾았습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_romania_eu_driver's_license_number` 입니다. 
     
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <!-- Romania Driver's License Number -->
+      <Entity id="b5511ace-2fd8-4ae4-b6fc-c7c6e4689e3c" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_romania_eu_driver's_license_number" />
-          <Match idRef="Keywords_romania_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_romania_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_romania_eu_drivers_license_number"></a>Keywords_romania_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- dl #
-- driver license
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+
+#### <a name="keywords_romania_eu_drivers_license_number"></a>Keywords_romania_eu_driver ' s_license_number
+
 - permis de conducere
+- permisului de conducere
+- permisului conducere
+- permisele de conducere
+- permisele conducere
+- permis conducere
 
 ## <a name="romania-personal-numeric-code-cnp"></a>루마니아 p (personal numeric code)
 이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
@@ -11170,35 +13748,154 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_slovakia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_slovakia_eu_driver's_license_number` 찾았습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_slovakia_eu_driver's_license_number` 입니다. 
     
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <!-- Slovakia Driver's License Number -->
+      <Entity id="14240c22-b6de-4ce5-a90b-137f74252513" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
-          <IdMatch idRef="Regex_slovaknia_eu_driver's_license_number" />
-          <Match idRef="Keywords_slovakia_eu_driver's_license_number" />
+          <IdMatch idRef="Regex_slovakia_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_slovakia_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_slovakia_eu_drivers_license_number"></a>Keywords_slovakia_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- dl #
-- driver license
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+
+#### <a name="keywords_slovakia_eu_drivers_license_number"></a>Keywords_slovakia_eu_driver ' s_license_number
+
 - vodičský preukaz
+- vodičské preukazy
+- vodičského preukazu
+- vodičských preukazov
 
 ## <a name="slovakia-personal-number"></a>슬로바키아 개인 번호
 이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
@@ -11373,35 +14070,155 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_slovenia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_slovenia_eu_driver's_license_number` 찾았습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_slovenia_eu_driver's_license_number` 입니다. 
     
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <!-- Slovenia Driver's License Number -->
+      <Entity id="d5bc089a-f2ee-433d-a6b1-5c253051d6f2" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_slovenia_eu_driver's_license_number" />
-          <Match idRef="Keywords_slovenia_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_slovenia_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_slovenia_eu_drivers_license_number"></a>Keywords_slovenia_eu_driver ' s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- dl #
-- driver license
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license 
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+
+#### <a name="keywords_slovenia_eu_drivers_license_number"></a>Keywords_slovenia_eu_driver ' s_license_number
+
 - vozniško dovoljenje
+- vozniška številka 라이선스
+- vozniških dovoljenj
+- številka vozniškega dovoljenja
+- številke vozniških dovoljenj
 
 ## <a name="slovenia-unique-master-citizen-number"></a>슬로베니아 고유 마스터 시민 번호
 이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
@@ -11734,58 +14551,180 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="definition"></a>정의
 
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
+- 해당  `Func_spain_eu_DL_and_NI_number_citizen` `Func_spain_eu_DL_and_NI_number_foreigner` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_spain_eu_driver's_license_number` 입니다. 
+
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- 이 함수는 해당  `Func_spain_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_spain_eu_driver's_license_number` 찾았습니다. 
+- 해당  `Func_spain_eu_DL_and_NI_number_citizen` `Func_spain_eu_DL_and_NI_number_foreigner` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_spain_eu_driver's_license_number" />
-          <Match idRef="Keywords_spain_eu_driver's_license_number" />
+      <!-- Spain Driver's License Number -->
+      <Entity id="d5a82922-b501-4f40-8868-341321146aa2" patternsProximity="300" recommendedConfidence="75">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_spain_eu_DL_and_NI_number_citizen" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_spain_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_spain_eu_DL_and_NI_number_citizen" />
+        </Pattern>
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_spain_eu_DL_and_NI_number_foreigner" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_spain_eu_driver's_license_number" />
+          </Any>
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_spain_eu_DL_and_NI_number_foreigner" />
+        </Pattern>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
+
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
+- 드라이버 라이선스
+- drivers lic
+- 드라이버 driver'lics
+- drivers license
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
+- dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+
 #### <a name="keywords_spain_eu_drivers_license_number"></a>Keywords_spain_eu_driver ' s_license_number
 
-- dlno #
-- dl #
-- drivers lic
-- 드라이버 라이선스
-- driver license
-- drivers licence
-- drivers license
-- driver's licence
-- driver's license
-- driving licence
-- driving license
-- 드라이버 라이선스 번호
-- 드라이버 라이선스 번호
-- 영향 요소 라이선스 번호
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
-- 추진 허용
-- 제어 허용 번호
 - permiso de conducción
 - permiso conducción
-- número licencia conducir
-- número de 네트워크 de conducir
-- número carnet conducir
+- licencia de conducir
 - licencia conducir
-- número de permiso de conducir
-- número de permiso conducir
-- número permiso conducir
 - permiso conducir
-- licencia de manejo
-- el carnet de conducir
+- permiso de conducir
+- permisos de conducir
+- permisos conducir
 - carnet conducir
+- carnet de conducir
+- licencia de manejo
+- licencia manejo
 
 ## <a name="spain-dni"></a>스페인 DNI
 이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
@@ -12185,35 +15124,161 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - 정규식이 해당  `Regex_sweden_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
-- From 키워드를  `Keywords_sweden_eu_driver's_license_number` 찾았습니다. 
+- From  `Keywords_eu_driver's_license_number` 또는 found의 키워드 `Keywords_sweden_eu_driver's_license_number` 입니다. 
     
 ```xml
- <!-- EU Driver's License Number -->
-<Entity id="b8fe86d1-c056-453b-bfaa-9fe698699ecc" patternsProximity="300" recommendedConfidence="75">
+      <!-- Sweden Driver's License Number -->
+      <Entity id="70088720-90dd-47f5-805e-5525f3567391" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_sweden_eu_driver's_license_number" />
-          <Match idRef="Keywords_sweden_eu_driver's_license_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keywords_sweden_eu_driver's_license_number" />
+          </Any>
         </Pattern>
-</Entity> 
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-**Keywords_sweden_eu_driver ' s_license_number**
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver ' s_license_number
 
-- dl #
-- driver license
-- 드라이버 라이선스 번호
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- 드라이버 lic
+- 드라이버 driver'lics
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 드라이버 라이선스
+- driverslic
+- driverslics
+- 드라이버 라이선스
+- driverslicences
+- 드라이버 라이선스
 - 드라이버 라이선스
 - drivers lic
+- 드라이버 driver'lics
 - drivers license
-- drivers licence
-- driver's license
-- 운전 면허 번호
-- 운전 라이선스 번호
-- 운전 면허 번호
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
+- driver'licences
+- 드라이버 ' lic
+- 드라이버의 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 드라이버 ' 라이선스
+- driver'slic
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- 드라이버의 lic
+- 운전 driver'lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
+- 운전 라이선스
+- dl #
+- 된다 #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- 드라이버 lic #
+- 드라이버 driver'lics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslic #
+- driverslics #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- driverslicences #
+- drivers lic #
+- 드라이버 driver'lics #
+- drivers license #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
+- 라이선스 드라이버 #
+- driver' lic #
+- driver'lics #
+- driver' 라이선스 #
+- driver'licenses #
+- driver' 라이선스 #
+- driver'licences #
+- 드라이버 ' lic #
+- 드라이버의 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 드라이버 ' 라이선스 #
+- driver'slic #
+- drivers (slics) #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- 드라이버의 lic #
+- 운전 driver'lics #
+- 운전 면허 #
+- 운전 면허증 #
+- 운전의 라이선스 #
+- 운전 라이선스 #
+- driving licence
+ 
+- 운전 면허
 - dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- driv 라이선스
+- 드라이버 licen
+- drivers licen
+- 드라이버의 licen
+- 추진 lic
+- 추진 하는 lic
+- 추진 라이선스
+- driving licence
+
+- driving licences
+
+- 추진 허용
+- dl 아니요
+- dlno
+- dl 번호
+
+
+#### <a name="keywords_sweden_eu_drivers_license_number"></a>Keywords_sweden_eu_driver ' s_license_number
+
+- ajokortti
+- permis de conducere
+- ajokortin numero
+- kuljettajat lic
+- drivere lic
 - körkort
+- numărul permisului de conducere
+-  שאָפער דערלויבעניש נומער
+- förare lic
+-  דריווערס דערלויבעניש
+- körkortsnummer
 
 ## <a name="sweden-national-id"></a>스웨덴 국가 ID
 
@@ -12533,38 +15598,54 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
    
 #### <a name="keyword_swift"></a>Keyword_swift
 
-- international organization for standardization 9362 
-- iso 9362 
-- iso9362 
-- swift\# 
-- swiftcode 
-- swiftnumber 
-- swiftroutingnumber 
-- swift code 
-- swift number # 
-- swift routing number 
-- bic number 
-- bic code 
-- bic \# 
-- bic\# 
-- bank identifier code 
-- 標準化 9362 
-- 迅速＃ 
-- SWIFTコード 
-- SWIFT番号 
-- 迅速なルーティング番号 
-- BIC番号 
-- BICコード 
-- 銀行識別コードのための国際組織 
-- Organisation internationale de normalisation 9362 
-- rapide \# 
-- code SWIFT 
-- le numéro de swift 
-- swift numéro d'acheminement 
-- le numéro BIC 
-- \# BIC 
-- code identificateur de banque 
+- international organization for standardization 9362
 
+- iso 9362
+- iso9362
+- swift #
+- swiftcode
+- swiftnumber
+- swiftroutingnumber
+- swift code
+
+- swift number #
+
+- swift routing number
+
+- bic number
+
+- bic code
+
+- bic #
+- bic #
+- bank identifier code
+
+- Organisation internationale de normalisation 9362
+
+- rapide #
+
+- code SWIFT
+
+- le numéro de swift
+
+- swift numéro d'acheminement
+
+- le numéro BIC
+
+- # <a name="bic"></a>BIC
+- code identificateur de banque
+
+- SWIFTコード
+- SWIFT番号
+- BIC番号
+- BICコード
+- SWIFT コード
+- SWIFT 番号
+- BIC 番号
+- BIC コード
+- 金融機関識別コード
+- 金融機関コード
+- 銀行コード
 
 ## <a name="switzerland-ssn-ahv-number"></a>스위스 SSN AHV 번호
 이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
@@ -13096,24 +16177,18 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - Func_uk_nino 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
-- Keyword_uk_nino의 키워드가 발견되지 않았습니다.
 
 ```xml
-<!-- U.K. NINO -->
-<Entity id="16c07343-c26f-49d2-a987-3daf717e94cc" patternsProximity="300" recommendedConfidence="75">
-    <Pattern confidenceLevel="85">
+    <!-- U.K. NINO -->
+    <Entity id="16c07343-c26f-49d2-a987-3daf717e94cc" patternsProximity="300" recommendedConfidence="75" relaxProximity="true">
+      <Pattern confidenceLevel="85">
         <IdMatch idRef="Func_uk_nino" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_uk_nino" />
-        </Any>
-    </Pattern>    
-     <Pattern confidenceLevel="75">
+        <Match idRef="Keyword_uk_nino" />
+      </Pattern>
+      <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_uk_nino" />
-        <Any minMatches="0" maxMatches="0">
-          <Match idRef="Keyword_uk_nino" />
-        </Any>
-    </Pattern>
-</Entity>
+      </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>키워드

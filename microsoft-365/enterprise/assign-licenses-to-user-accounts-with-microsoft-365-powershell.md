@@ -21,12 +21,12 @@ ms.assetid: ba235f4f-e640-4360-81ea-04507a3a70be
 search.appverid:
 - MET150
 description: 이 문서에서는 PowerShell을 사용 하 여 라이선스가 없는 사용자에 게 Microsoft 365 라이선스를 할당 하는 방법을 알아봅니다.
-ms.openlocfilehash: f042f8109bf9ac9b634bc66509c60a5181fb1af6
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: 8c3165b99477afa14e6d2b0da927b5f64c416ef1
+ms.sourcegitcommit: 3165329d1fb5a7fd866ff287bea3b6354ea2be18
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235621"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580943"
 ---
 # <a name="assign-microsoft-365-licenses-to-user-accounts-with-powershell"></a>PowerShell을 사용 하 여 사용자 계정에 Microsoft 365 라이선스 할당
 
@@ -34,9 +34,13 @@ ms.locfileid: "48235621"
 
 사용자는 계정에 라이선스 요금제의 라이선스가 할당 되기 전 까지는 Microsoft 365 서비스를 사용할 수 없습니다. PowerShell을 사용 하 여 라이선스가 없는 계정에 빠르게 라이선스를 할당할 수 있습니다. 
 
->[!Note]
->사용자 계정에는 위치를 할당 해야 합니다. Microsoft 365 관리 센터 또는 PowerShell에서 사용자 계정의 속성을 사용 하 여이 작업을 수행할 수 있습니다.
->
+사용자 계정에는 먼저 위치를 할당 해야 합니다. 위치를 지정 하는 것은 [Microsoft 365 관리 센터](../admin/add-users/add-users.md)에서 새 사용자 계정을 만드는 데 필수 요소입니다. 
+
+온-프레미스 Active Directory 도메인 서비스에서 동기화 되는 계정에는 기본적으로 위치가 지정 되어 있지 않습니다. 다음 계정에 대 한 위치를 구성할 수 있습니다.
+
+- Microsoft 365 관리 센터
+ - [PowerShell](configure-user-account-properties-with-microsoft-365-powershell.md)
+ - [Azure portal](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal) (**Active Directory**  >  **사용자** > 사용자 계정 > **프로필**  >  **연락처 정보**  >  **국가 또는 지역**)
 
 >[!Note]
 >Microsoft 365 관리 센터를 사용 하 여 [사용자 계정에 라이선스를 할당 하는 방법을 알아봅니다](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) . 추가 리소스 목록은 [Manage users and groups](https://docs.microsoft.com/microsoft-365/admin/add-users/)을 참조 하십시오.
@@ -111,7 +115,7 @@ Get-MsolUser -All | where {$_.UsageLocation -eq $null}
 Set-MsolUser -UserPrincipalName "<Account>" -UsageLocation <CountryCode>
 ```
 
-예시:
+예제:
 
 ```powershell
 Set-MsolUser -UserPrincipalName "belindan@litwareinc.com" -UsageLocation US

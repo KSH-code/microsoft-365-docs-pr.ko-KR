@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-overview
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 4ec46891248c09f580b19d888573544ad2b4930f
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: f49f1afe5461a4f2eff0a3049f1d14d1892f70ce
+ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446870"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48477023"
 ---
 # <a name="run-your-pilot-microsoft-threat-protection-project"></a>파일럿 Microsoft Threat Protection 프로젝트 실행 
 
@@ -41,6 +41,16 @@ MTP (Microsoft Threat Protection)의 이점과 채택을 효과적으로 확인 
 ## <a name="how-to-use-this-pilot-playbook"></a>이 파일럿 playbook를 사용 하는 방법
 
 이 가이드에서는 Microsoft Threat Protection에 대 한 개요와 파일럿 프로젝트를 설정 하는 방법에 대 한 단계별 지침을 제공 합니다. 
+
+Microsoft Threat Protection은 보안, 검색, 예방, 조사 및 끝점, id, 전자 메일 및 응용 프로그램 간의 응답을 고유 하 게 조정 하 여 정교한 공격에 대 한 통합 된 보호 기능을 제공 하는 통합 사전 및 사후 위반 엔터프라이즈 방어 제품군입니다. 이를 위해 다음과 같은 기능을 단일 보안 솔루션으로 결합 하 고 orchestrating 합니다.
+  - 끝점에 대 한 microsoft Defender, Microsoft Defender Advanced Threat Protection의 새 이름 (끝점)
+  - Microsoft Defender for Office 365, Office 365 ATP의 새 이름 (전자 메일) 
+  - Id 용 Microsoft Defender, Azure ATP의 새 이름 (id) 
+  - Microsoft Cloud App Security (앱)
+
+![사용자, Azure Advanced threat protection, 끝점에 대 한 위협 보호 솔루션, Microsoft Defender Advanced Threat Protection, 클라우드 앱, Microsoft Cloud App Security 및 data의 경우 Office 365 Advanced Threat Protection of_Microsoft  ](../../media/mtp/m365pillars.png)
+
+통합 Microsoft 위협 보호 솔루션을 사용 하는 경우 보안 전문가는 Microsoft Defender Advanced Threat Protection, Office 365 ATP, Azure ATP 및 Microsoft Cloud App Security 수신에 게 신호를 보내고, 위협의 전체 범위와 영향, 해당 환경의 진입 방식, 영향을 받는 방식 및 조직에 현재 적용 되는 방식을 결정할 수 있습니다. Microsoft Threat Protection은 공격을 방지 하거나 중지 하는 자동 작업을 수행 하 고 영향을 받는 사서함, 끝점 및 사용자 id를 자체 치유 합니다. 자세한 내용은 [Microsoft Threat Protection 개요](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) 를 참조 하세요.
 
 ![Microsoft Threat Protection 파일럿 실행 단계](../../media/pilotphases.png)
 

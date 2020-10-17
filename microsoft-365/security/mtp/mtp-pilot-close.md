@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 1a7b87432ce1eb16c29f462fb4865bfa5c5e2201
-ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
+ms.openlocfilehash: e56ba8933947c37db3e558ef36dd6d305915040f
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48418100"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487627"
 ---
 # <a name="closing-and-summarizing-your-microsoft-threat-protection-pilot"></a>Microsoft Threat Protection 파일럿 테스트 종료 및 요약  
 
@@ -87,13 +87,13 @@ ms.locfileid: "48418100"
 - 파일럿의 결과에 대 한 자세한 보고서
 - 앞으로 이동 하는 방법을 결정 합니다.
 
-최종 결과의 보고서에 내부 관련자 ( [준비](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) 단계에서 확인) 및 Microsoft 연락처를 모두 표시 합니다. 이러한 노력을 통해 제품 및 문서를 개선 하는 데 모든 의견을 사용할 수 있습니다.
+최종 결과의 보고서를 내부 이해 관계자 ( [준비](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) 단계에서 확인) 및 Microsoft 연락처에 게 제공 합니다. 이러한 노력을 통해 제품 및 문서를 개선 하는 데 모든 의견을 사용할 수 있습니다.
 
 이 시뮬레이션을 사용할 예정 이었습니다. 통합 보안 솔루션을 최대한 활용 하기 위해 조직의 대규모 확장에 대해 배운 내용을 구현 하기 시작 합니다.
 
 ## <a name="next-step"></a>다음 단계
 다음 대화형 가이드를 통해 Microsoft Threat Protection 핵심 요소로에 대해 자세히 알아보세요.
 - [Microsoft Defender for Office 365를 사용 하 여 조직 보호](https://aka.ms/O365ATP-Interactive-Guide)
-- [Id 용 Microsoft Defender를 사용 하 여 의심 스러운 활동 및 잠재적 공격 감지](https://aka.ms/AATP-Interactive-Guide)
+- [Microsoft Defender for Identity를 사용하여 의심스러운 활동과 잠재적인 공격을 감지](https://aka.ms/AATP-Interactive-Guide)
 - [Microsoft Cloud App Security를 사용 하 여 위협 검색 및 알림 관리](https://aka.ms/DetectThreatsAndAlertsMCAS-InteractiveGuide)
 - [끝점에 대 한 Microsoft Defender를 사용 하 여 위협 조사 및 수정](https://aka.ms/MDATP-IR-Interactive-Guide)

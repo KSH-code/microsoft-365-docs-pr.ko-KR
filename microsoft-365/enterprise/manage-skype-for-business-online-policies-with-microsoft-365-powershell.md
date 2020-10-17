@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: ''
 ms.assetid: ff93a341-6f0f-4f06-9690-726052e1be64
 description: '요약: PowerShell을 사용 하 여 정책으로 비즈니스용 Skype Online 사용자 계정 속성을 관리 합니다.'
-ms.openlocfilehash: 7657dae6fa1b27299e4cbc0cf6a311380cb90e9e
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 20a75fa1c131f693fcf30d20477af5c9ee7aed35
+ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692744"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48477044"
 ---
 # <a name="manage-skype-for-business-online-policies-with-powershell"></a>PowerShell을 사용하여 온라인 비즈니스 정책용 Skype 관리
 
@@ -30,19 +30,22 @@ ms.locfileid: "46692744"
 ## <a name="before-you-begin"></a>시작하기 전에
 
 다음 절차에 따라 명령을 실행 하도록 설정 합니다 (이미 완료 한 단계 건너뛰기).
-  
-1. [비즈니스용 Skype Online 커넥터 모듈](https://www.microsoft.com/download/details.aspx?id=39366)을 다운로드 하 고 설치 합니다.
+
+  > [!Note]
+  > 비즈니스용 Skype Online 커넥터는 현재 최신 팀 PowerShell 모듈에 포함 되어 있습니다. 최신 팀 PowerShell 공용 릴리스를 사용 하는 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.
+
+1. [팀 PowerShell 모듈](https://docs.microsoft.com/microsoftteams/teams-powershell-install)을 설치 합니다.
     
 2. Windows PowerShell 명령 프롬프트를 열고 다음 명령을 실행합니다. 
-    
-```powershell
-Import-Module SkypeOnlineConnector
-$userCredential = Get-Credential
-$sfbSession = New-CsOnlineSession -Credential $userCredential
-Import-PSSession $sfbSession
-  ```
 
-메시지가 나타나면 비즈니스용 Skype Online 관리자 계정 이름 및 암호를 입력 합니다.
+   ```powershell
+   Import-Module MicrosoftTeams
+   $userCredential = Get-Credential
+   $sfbSession = New-CsOnlineSession -Credential $userCredential
+   Import-PSSession $sfbSession
+   ```
+
+   메시지가 나타나면 비즈니스용 Skype Online 관리자 계정 이름 및 암호를 입력 합니다.
     
 ## <a name="manage-user-account-policies"></a>사용자 계정 정책 관리
 

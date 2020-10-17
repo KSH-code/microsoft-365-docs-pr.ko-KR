@@ -1,11 +1,11 @@
 ---
-title: Office 365 암호화 체인 - DOD 및 GCC High
+title: Microsoft 365 암호화 체인-DOD 및 GCC High
 f1.keywords:
 - NOCSH
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 3/24/2020
+ms.date: 10/16/2020
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -16,30 +16,32 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
-description: Office 365에서 DOD 및 GCC 상위 루트 인증서 및 CAs (인증 기관)의 전체 목록을 확인 합니다.
-ms.openlocfilehash: 19f164669392372c99c562f55cfb05487d9f7ed2
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+description: Microsoft 365에서 DOD 및 GCC 상위 루트 인증서 및 CAs (인증 기관)의 전체 목록을 확인 합니다.
+ms.openlocfilehash: a933acc14f0984e4935ff6e56ccccd3aed1f16cf
+ms.sourcegitcommit: 705915f8bf9b7c082d12a009523d8aa0670a74a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308281"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48493655"
 ---
-# <a name="office-365-encryption-chains---dod-and-gcc-high"></a>Office 365 암호화 체인 - DOD 및 GCC High
+# <a name="microsoft-365-encryption-chains---dod-and-gcc-high"></a>Microsoft 365 암호화 체인-DOD 및 GCC High
 
-Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음은 Office 365에 액세스할 때 **, DOD 및 GCC 최고 고객에 게** 발생할 수 있는 알려진 Office 365 루트 인증서의 전체 목록을 설명 합니다. 자체 인프라에서 설치 해야 할 수 있는 인증서에 대 한 자세한 내용은 [Office 365 용 타사 SSL 인증서 계획](https://docs.microsoft.com/microsoft-365/enterprise/plan-for-third-party-ssl-certificates)을 참조 하십시오.
+Microsoft 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음은 Microsoft 365에 액세스할 때 **DOD 및 GCC 최고 고객에 게** 발생할 수 있는 알려진 Microsoft 365 루트 인증서의 전체 목록을 설명 합니다. 자체 인프라에서 설치 해야 할 수 있는 인증서에 대 한 자세한 내용은 [Microsoft 365 용 타사 SSL 인증서 계획](https://docs.microsoft.com/microsoft-365/enterprise/plan-for-third-party-ssl-certificates)을 참조 하십시오.
 
 다음 인증서 정보는 **모든 DOD 및 GCC 최고 고객**에 게 적용 됩니다.
 
+마지막 업데이트 날짜: **10/16/2020**
+
 >[!NOTE]
->**전 세계 고객**에 게 적용 되는 인증서 정보는 [Office 365 암호화 체인](encryption-office-365-certificate-chains.md)을 참조 하십시오.
+>**전 세계 고객**에 게 적용 되는 인증서 정보는 [Microsoft 365 암호화 체인](encryption-office-365-certificate-chains.md)을 참조 하십시오.
 
 | **인증서 형식** | **P7b 다운로드** | **CRL 끝점** | **OCSP 끝점** |
 | --- | --- | --- | --- | --- |
-| 공개적으로 신뢰할 수 있는 루트 및 중간 인증서 | [Office 365 ITAR 인증서 번들 (P7B)](https://download.microsoft.com/download/b/3/a/b3ae08a2-516c-46a9-8723-6256e4fd6383/O365_Chain_Certs_ITAR20200304.p7b) | crl.entrust.net<br>crl3.digicert.com<br>crl4.digicert.com | ocsp.digicert.com<br>ocsp.entrust.net |
+| 공개적으로 신뢰할 수 있는 루트 및 중간 인증서 | [Microsoft 365 ITAR 인증서 번들 (P7B)](https://download.microsoft.com/download/b/3/a/b3ae08a2-516c-46a9-8723-6256e4fd6383/m365_chain_certs_itar20201012.p7b) | crl.entrust.net<br>crl3.digicert.com<br>crl4.digicert.com | ocsp.digicert.com<br>ocsp.entrust.net |
 
 아래 루트 및 중간 섹션을 확장 하 여 인증서 공급자에 대 한 추가 정보를 확인 합니다.
 
-## <a name="office-365-certificate-details"></a>**Office 365 인증서 세부 정보**
+## <a name="microsoft-365-certificate-details"></a>**Microsoft 365 인증서 세부 정보**
 
 ### <a name="baltimore-cybertrust-root"></a>**Baltimore CyberTrust Root**
 
@@ -73,6 +75,23 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 | **CRL Url** | http://crl4.digicert.com/DigiCertGlobalRootCA.crl<br>http://crl3.digicert.com/DigiCertGlobalRootCA.crl |
 | **OCSP Url** | http://ocsp.digicert.com |
 
+### <a name="digicert-cloud-services-ca-1"></a>**DigiCert Cloud Services CA-1**
+
+| **제목** | CN = DigiCert Cloud Services CA-1<br>O = DigiCert Inc<br>C = US |
+| --- | --- |
+| **발급** | CN = DigiCert 전역 루트 CA, OU = www. DigiCert, O = DigiCert Inc, C = US |
+| **일련 번호** | 0F: 17:1A: 48: C6: F2:23:80:92:18: CD: 2E: E8 |
+| **공개 키 길이** | RSA 2048 비트 |
+| **서명 알고리즘** | sha256RSA |
+| **유효 하지 않음** | 9 월 24 일 목요일 오후 2020 5:00 |
+| **유효 하지 않음** | 2006 년 9 월 24 일 화요일 오후 2030 4:59 |
+| **주체 키 식별자** | DD51D0A23173A973AE8FB4017E5D8C57CB9FF0F7 |
+| **인증 기관 키 식별자** | KeyID: 03: de: 50:35:10: d1:4c: b: 66: f0: a3 = e2:1b: 1:03:97-1b: 3d: d1 |
+| **지문 (SHA-1)** | B3F6B64A07BB9611F47174407841F564FB991F29 |
+| **지문 (SHA-256)** | 5F88694615E4C61686E106B84C3338C6720C535F60D36F61282ED15E1977DD44 |
+| **CRL Url** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
+| **OCSP Url** | http://ocsp.digicert.com |
+
 ### <a name="digicert-global-root-ca"></a>**DigiCert 전역 루트 CA**
 
 | **제목** | CN = DigiCert 전역 루트 CA<br>OU = digicert<br>O = DigiCert Inc<br>C = US |
@@ -87,6 +106,21 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 | **지문 (SHA-1)** | A8985D3A65E5E5C4B2D7D66D40C6DD2FB19C5436 |
 | **지문 (SHA-256)** | 4348A0E9444C78CB265E058D5E8944B4D84F9662BD26DB257F8934A443C70161 |
 | **Pin (SHA-256)** | r/mIkG3eEpVdm + u/ko-kr/cwxzOMo1bk4TyHIlByibiA5E = |
+
+### <a name="digicert-global-root-g2"></a>**DigiCert 전역 루트 G2**
+
+| **제목** | CN = DigiCert 글로벌 루트 G2<br>OU = digicert<br>O = DigiCert Inc<br>C = US |
+| --- | --- |
+| **발급** | CN = DigiCert Global Root G2, OU = www. DigiCert, O = DigiCert Inc, C = US |
+| **일련 번호** | 03:3A: F1: E6: A7:11: A9: A0: BB: 28:64: B1:1D: 09: FA: E5 |
+| **공개 키 길이** | RSA 2048 비트 |
+| **서명 알고리즘** | sha256RSA |
+| **유효 하지 않음** | 8 월 1 일 목요일 오전 2013 5:00 |
+| **유효 하지 않음** | 금요일, 1 월 15 일, 2038 4:00 AM |
+| **주체 키 식별자** | 4E2254201895E6E36EE60FFAFAB912ED06178F39 |
+| **인증 기관 키 식별자** | KeyID: 4e: 22:54:20:18:95: e6: e3:6e: e6:0f: fa: fa: b9:12: ed: 06:17:8f: 39 |
+| **지문 (SHA-1)** | DF3C24F9BFD666761B268073FE06D1CC8D4F82A4 |
+| **지문 (SHA-256)** | CB3CCBB76031E5E0138F8DD39A23F9DE47FFC35E43C1144CEA27D46A5AB1CB5F |
 
 ### <a name="digicert-high-assurance-ev-root-ca"></a>**DigiCert High 보증 EV 루트 CA**
 
@@ -116,6 +150,57 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 | **인증 기관 키 식별자** | keyID: b1:3e: e 3:69:03: f8: bf: 47:1: f m a. 1. |
 | **지문 (SHA-1)** | 7E2F3A4F8FE8FA8A5730AECA029696637E986F3F |
 | **지문 (SHA-256)** | 403E062A2653059113285BAF80A0D4AE422C848C9F78FAD01FC94BC5B87FEF1A |
+
+### <a name="digicert-sha2-secure-server-ca"></a>**DigiCert SHA2 보안 서버 CA**
+
+| **제목** | CN = DigiCert SHA2 Secure Server CA<br>O = DigiCert Inc<br>C = US |
+| --- | --- |
+| **발급** | CN = DigiCert 전역 루트 CA, OU = www. DigiCert, O = DigiCert Inc, C = US |
+| **일련 번호** | 01: FD: A3: EB: 6E: CA: 75: C8:88:43:8B: 72:4B: CF: BC: 91 |
+| **공개 키 길이** | RSA 2048 비트 |
+| **서명 알고리즘** | sha256RSA |
+| **유효 하지 않음** | 금요일, 3 월 8 일, 2013 4:00 AM |
+| **유효 하지 않음** | 수요일 년 3 월 8 일, 2023 4:00 AM |
+| **주체 키 식별자** | 0F80611C823161D52F28E78D4638B42CE1C6D9E2 |
+| **인증 기관 키 식별자** | KeyID: 03: de: 50:35:10: d1:4c: b: 66: f0: a3 = e2:1b: 1:03:97-1b: 3d: d1 |
+| **지문 (SHA-1)** | 1FB86B1168EC743154062E8C9CC5B171A4B7CCB4 |
+| **지문 (SHA-256)** | 154C433C491929C5EF686E838E323664A00E6A0D822CCC958FB4DAB03E49A08F |
+| **CRL Url** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
+| **OCSP Url** | http://ocsp.digicert.com |
+
+### <a name="digicert-sha2-secure-server-ca"></a>**DigiCert SHA2 보안 서버 CA**
+
+| **제목** | CN = DigiCert SHA2 Secure Server CA<br>O = DigiCert Inc<br>C = US |
+| --- | --- |
+| **발급** | CN = DigiCert 전역 루트 CA, OU = www. DigiCert, O = DigiCert Inc, C = US |
+| **일련 번호** | 02:74:2E; AA: 17HTTP: 8E: 21: C7:17: B: 1F: FC: FD: 0C: A0 |
+| **공개 키 길이** | RSA 2048 비트 |
+| **서명 알고리즘** | sha256RSA |
+| **유효 하지 않음** | 9 월 22 일 화요일 오후 2020 5:00 |
+| **유효 하지 않음** | 9 월 22 일 일요일 오후 2030 4:59 |
+| **주체 키 식별자** | 0F80611C823161D52F28E78D4638B42CE1C6D9E2 |
+| **인증 기관 키 식별자** | KeyID: 03: de: 50:35:10: d1:4c: b: 66: f0: a3 = e2:1b: 1:03:97-1b: 3d: d1 |
+| **지문 (SHA-1)** | 626D44E704D1CEABE3BF0D53397464AC8080142C |
+| **지문 (SHA-256)** | C1AD7778796D20BCA65C889A2655021156528BB62FF5FA43E1B8E5A83E3D2EAA |
+| **CRL Url** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
+| **OCSP Url** | http://ocsp.digicert.com |
+
+### <a name="digicert-tls-rsa-sha256-2020-ca1"></a>**DigiCert TLS RSA SHA256 2020 CA1**
+
+| **제목** | CN = DigiCert TLS RSA SHA256 2020 CA1<br>O = DigiCert Inc<br>C = US |
+| --- | --- |
+| **발급** | CN = DigiCert 전역 루트 CA, OU = www. DigiCert, O = DigiCert Inc, C = US |
+| **일련 번호** | 0A: 35:08: D5:5C: 29:1: 1:1, 2B |
+| **공개 키 길이** | RSA 2048 비트 |
+| **서명 알고리즘** | sha256RSA |
+| **유효 하지 않음** | 수요일 년 9 월 23 일 2020 5:00 오후 10 시 |
+| **유효 하지 않음** | 월요일 년 9 월 23 일, 2030 4:59 오후 11 |
+| **주체 키 식별자** | B76BA2EAA8AA848C79EAB4DA0F98B2C59576B9F4 |
+| **인증 기관 키 식별자** | KeyID: 03: de: 50:35:10: d1:4c: b: 66: f0: a3 = e2:1b: 1:03:97-1b: 3d: d1 |
+| **지문 (SHA-1)** | 6938FD4D98BAB03FAADB97B34396831E3780AEA1 |
+| **지문 (SHA-256)** | 25768713D3B459F9382D2A594F85F34709FD2A8930731542A4146FFB246BEC69 |
+| **CRL Url** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
+| **OCSP Url** | http://ocsp.digicert.com |
 
 ### <a name="entrust-root-certification-authority"></a>**Entrust 루트 인증 기관**
 
@@ -229,6 +314,74 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 | **CRL Url** | http://crl.entrust.net/g2ca.crl |
 | **OCSP Url** | http://ocsp.entrust.net |
 
+### <a name="microsoft-azure-tls-issuing-ca-01"></a>**Microsoft Azure TLS 발급 CA 01**
+
+| **제목** | CN = Microsoft Azure TLS 발급 CA 01<br>O = Microsoft Corporation<br>C = US |
+| --- | --- |
+| **발급** | CN = DigiCert Global Root G2, OU = www. DigiCert, O = DigiCert Inc, C = US |
+| **일련 번호** | 0A: AF: A6: C5: A C 1:1,, C4:51:-1: EA: 3B: 412 |
+| **공개 키 길이** | RSA 4096 비트 |
+| **서명 알고리즘** | sha384RSA |
+| **유효 하지 않음** | 수요일 년 7 월 29 일, 2020 5:30 AM |
+| **유효 하지 않음** | 목요일, June 27, 2024 4:59 오후 11 |
+| **주체 키 식별자** | 0F205DD7A15795DB92CF2BD0C7C27704CE728076 |
+| **인증 기관 키 식별자** | KeyID: 4e: 22:54:20:18:95: e6: e3:6e: e6:0f: fa: fa: b9:12: ed: 06:17:8f: 39 |
+| **지문 (SHA-1)** | 2F2877C5D778C31E0F29C7E371DF5471BD673173 |
+| **지문 (SHA-256)** | 24C7299864E0A2A6964F551C0E8DF2461532FA8C48E4DBBB6080716691F190E5 |
+| **CRL Url** | http://crl3.digicert.com/DigiCertGlobalRootG2.crl http://crl4.digicert.com/DigiCertGlobalRootG2.crl |
+| **OCSP Url** | http://ocsp.digicert.com |
+
+### <a name="microsoft-azure-tls-issuing-ca-02"></a>**Microsoft Azure TLS 발급 CA 02**
+
+| **제목** | CN = Microsoft Azure TLS 발급 CA 02<br>O = Microsoft Corporation<br>C = US |
+| --- | --- |
+| **발급** | CN = DigiCert Global Root G2, OU = www. DigiCert, O = DigiCert Inc, C = US |
+| **일련 번호** | 0C: 6A: E9:7C: CE: D5:99:9--712:86:90 |
+| **공개 키 길이** | RSA 4096 비트 |
+| **서명 알고리즘** | sha384RSA |
+| **유효 하지 않음** | 수요일 년 7 월 29 일, 2020 5:30 AM |
+| **유효 하지 않음** | 목요일, June 27, 2024 4:59 오후 11 |
+| **주체 키 식별자** | 00AB91FC216226979AA8791B61419060A96267FD |
+| **인증 기관 키 식별자** | KeyID: 4e: 22:54:20:18:95: e6: e3:6e: e6:0f: fa: fa: b9:12: ed: 06:17:8f: 39 |
+| **지문 (SHA-1)** | E7EEA674CA718E3BEFD90858E09F8372AD0AE2AA |
+| **지문 (SHA-256)** | 15A98761EBE011554DA3A46D206B0812CB2EB69AE87AAA11A6DD4CB84ED5142A |
+| **CRL Url** | http://crl3.digicert.com/DigiCertGlobalRootG2.crl http://crl4.digicert.com/DigiCertGlobalRootG2.crl |
+| **OCSP Url** | http://ocsp.digicert.com |
+
+### <a name="microsoft-azure-tls-issuing-ca-05"></a>**Microsoft Azure TLS 발급 CA 05**
+
+| **제목** | CN = Microsoft Azure TLS 발급 CA 05<br>O = Microsoft Corporation<br>C = US |
+| --- | --- |
+| **발급** | CN = DigiCert Global Root G2, OU = www. DigiCert, O = DigiCert Inc, C = US |
+| **일련 번호** | 0D: 7B: ED: E9:7D: 82:9: 96:7A: 52:63:1B: 8B: DD: 18: BD |
+| **공개 키 길이** | RSA 4096 비트 |
+| **서명 알고리즘** | sha384RSA |
+| **유효 하지 않음** | 수요일 년 7 월 29 일, 2020 5:30 AM |
+| **유효 하지 않음** | 목요일, June 27, 2024 4:59 오후 11 |
+| **주체 키 식별자** | C7B29C7F1CE3B85AEFE9681AA85D94C126526A68 |
+| **인증 기관 키 식별자** | KeyID: 4e: 22:54:20:18:95: e6: e3:6e: e6:0f: fa: fa: b9:12: ed: 06:17:8f: 39 |
+| **지문 (SHA-1)** | 6C3AF02E7F269AA73AFD0EFF2A88A4A1F04ED1E5 |
+| **지문 (SHA-256)** | D6831BA43607F5AC19778D627531562AF55145F191CAB5EFAFA0E0005442B302 |
+| **CRL Url** | http://crl3.digicert.com/DigiCertGlobalRootG2.crl http://crl4.digicert.com/DigiCertGlobalRootG2.crl |
+| **OCSP Url** | http://ocsp.digicert.com |
+
+### <a name="microsoft-azure-tls-issuing-ca-06"></a>**Microsoft Azure TLS 발급 CA 06**
+
+| **제목** | CN = Microsoft Azure TLS 발급 CA 06<br>O = Microsoft Corporation<br>C = US |
+| --- | --- |
+| **발급** | CN = DigiCert Global Root G2, OU = www. DigiCert, O = DigiCert Inc, C = US |
+| **일련 번호** | 02: E7:91:71: FB: 80:21: E9:가을: | |
+| **공개 키 길이** | RSA 4096 비트 |
+| **서명 알고리즘** | sha384RSA |
+| **유효 하지 않음** | 수요일 년 7 월 29 일, 2020 5:30 AM |
+| **유효 하지 않음** | 목요일, June 27, 2024 4:59 오후 11 |
+| **주체 키 식별자** | D5C1673AC2A39DF477525B59123829E65568BBA5 |
+| **인증 기관 키 식별자** | KeyID: 4e: 22:54:20:18:95: e6: e3:6e: e6:0f: fa: fa: b9:12: ed: 06:17:8f: 39 |
+| **지문 (SHA-1)** | 30E01761AB97E59A06B41EF20AF6F2DE7EF4F7B0 |
+| **지문 (SHA-256)** | 48FF8B494668C752304B48BFE818758987DEF6582E5F09B921F4B60BB3D6A8DD |
+| **CRL Url** | http://crl3.digicert.com/DigiCertGlobalRootG2.crl http://crl4.digicert.com/DigiCertGlobalRootG2.crl |
+| **OCSP Url** | http://ocsp.digicert.com |
+
 ### <a name="microsoft-it-tls-ca-1"></a>**Microsoft IT TLS CA 1**
 
 | **제목** | CN = Microsoft IT TLS CA 1<br>OU = Microsoft IT<br>O = Microsoft Corporation<br>L = Redmond<br>S = 인천<br>C = US |
@@ -298,5 +451,39 @@ Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음�
 | **지문 (SHA-1)** | AD898AC73DF333EB60AC1F5FC6C4B2219DDB79B7 |
 | **지문 (SHA-256)** | F0EE5914ED94C7252D058B4E39808AEE6FA8F62CF0974FB7D6D2A9DF16E3A87F |
 | **Pin (SHA-256)** | RCbqB + W8nwjznTeP4O6VjqcwdxIgI79eBpnBKRr32gc = |
+| **CRL Url** | http://crl3.digicert.com/Omniroot2025.crl |
+| **OCSP Url** | http://ocsp.digicert.com |
+
+### <a name="microsoft-rsa-tls-ca-01"></a>**Microsoft RSA TLS CA 01**
+
+| **제목** | CN = Microsoft RSA TLS CA 01<br>O = Microsoft Corporation<br>C = US |
+| --- | --- |
+| **발급** | CN = Baltimore CyberTrust Root, OU = CyberTrust, O = Baltimore, C = IE |
+| **일련 번호** | 0F: 14:96:5F: 20:20:69:99:4F: D5: C7: AC: 78:89:41: E2 |
+| **공개 키 길이** | RSA 4096 비트 |
+| **서명 알고리즘** | sha256RSA |
+| **유효 하지 않음** | 화요일, 7 월 21 일, 오후 2020 4:00 |
+| **유효 하지 않음** | 1 월 8 일 화요일 오전 2024 12:00 |
+| **주체 키 식별자** | B5760C3011CEC792424D4CC75C2CC8A90CE80B64 |
+| **인증 기관 키 식별자** | KeyID: e5:9d: 59:30:82:47:58: cc: ac: fa: 08:54:36:86:7b: 3a: b5: f0 |
+| **지문 (SHA-1)** | 703D7A8F0EBF55AAA59F98EAF4A206004EB2516A |
+| **지문 (SHA-256)** | 04EEEA8E50B4775B3C24797262917EE50002EC4C75B56CDF3EE1C18CFCA5BA52 |
+| **CRL Url** | http://crl3.digicert.com/Omniroot2025.crl |
+| **OCSP Url** | http://ocsp.digicert.com |
+
+### <a name="microsoft-rsa-tls-ca-02"></a>**Microsoft RSA TLS CA 02**
+
+| **제목** | CN = Microsoft RSA TLS CA 02<br>O = Microsoft Corporation<br>C = US |
+| --- | --- |
+| **발급** | CN = Baltimore CyberTrust Root, OU = CyberTrust, O = Baltimore, C = IE |
+| **일련 번호** | 0F: A7:47:22: C5::3D: 88: C8:0F: 58:9E: FB: 1F: 9E: 4A: 3A |
+| **공개 키 길이** | RSA 4096 비트 |
+| **서명 알고리즘** | sha256RSA |
+| **유효 하지 않음** | 화요일, 7 월 21 일, 오후 2020 4:00 |
+| **유효 하지 않음** | 1 월 8 일 화요일 오전 2024 12:00 |
+| **주체 키 식별자** | FF2F7FE106F438F32DED258D98C2FE0EF66CFCFA |
+| **인증 기관 키 식별자** | KeyID: e5:9d: 59:30:82:47:58: cc: ac: fa: 08:54:36:86:7b: 3a: b5: f0 |
+| **지문 (SHA-1)** | B0C2D2D13CDD56CDAA6AB6E2C04440BE4A429C75 |
+| **지문 (SHA-256)** | 05E4005DB0C382F3BD66B47729E9011577601BF6F7B287E9A52CED710D258346 |
 | **CRL Url** | http://crl3.digicert.com/Omniroot2025.crl |
 | **OCSP Url** | http://ocsp.digicert.com |

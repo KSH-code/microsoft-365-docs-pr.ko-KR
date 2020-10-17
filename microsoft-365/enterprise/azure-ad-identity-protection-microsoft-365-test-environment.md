@@ -15,28 +15,28 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Azure AD Id 보호를 구성 하 고 Microsoft 365에서 엔터프라이즈 테스트 환경에 대 한 현재 계정을 분석 합니다.
-ms.openlocfilehash: bd1e7560e978b13d24e9e93a99a2567adca95c75
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 162a6504fb7541874798f5e795bd2ecd590b5035
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46694993"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487711"
 ---
 # <a name="azure-ad-identity-protection-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경용 Microsoft 365 Azure AD Id 보호
 
 *이 테스트 랩 가이드는 엔터프라이즈 테스트 환경용 Microsoft 365에만 사용할 수 있습니다.*
 
-Azure Active Directory (Azure AD) Id 보호를 사용 하면 조직의 id에 영향을 미치는 잠재적인 취약점을 검색 하 고 자동화 된 응답을 구성 하 고 인시던트를 조사할 수 있습니다. 이 문서에서는 Azure AD Id 보호를 사용 하 여 테스트 환경 계정의 분석을 보는 방법을 설명 합니다.
+Azure Active Directory (Azure AD) Id 보호를 사용 하 여 조직의 id에 영향을 주는 잠재적 취약성을 검색 하 고 자동화 된 응답을 구성 하 고 인시던트를 조사할 수 있습니다. 이 문서에서는 Azure AD Id 보호를 사용 하 여 테스트 환경 계정의 분석을 보는 방법을 설명 합니다.
 
-엔터프라이즈 테스트 환경용 Microsoft 365에서 Azure AD Id 보호를 설정 하는 단계는 다음 두 단계로 진행 됩니다.
+엔터프라이즈 테스트 환경용 Microsoft 365에서 Azure AD Id 보호를 설정 하는 작업은 다음 두 단계로 구성 됩니다.
 
-1. 엔터프라이즈 테스트 환경용 Microsoft 365을 만듭니다.
-2. Azure AD Id 보호를 사용 합니다.
+- [1 단계: 엔터프라이즈 테스트 환경용 Microsoft 365 구축](#phase-1-build-out-your-microsoft-365-for-enterprise-test-environment)
+- [2 단계: Azure AD Id 보호 사용](#phase-2-use-azure-ad-identity-protection)
 
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> [여기](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
+> 엔터프라이즈 테스트 랩 가이드 스택의 Microsoft 365에 있는 모든 문서에 대 한 시각적 지도를 보려면 [microsoft 365 for 엔터프라이즈 테스트 랩 가이드 스택을](../downloads/Microsoft365EnterpriseTLGStack.pdf)방문 하세요.
   
 ## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>1 단계: 엔터프라이즈 테스트 환경용 Microsoft 365 구축
 
@@ -45,19 +45,19 @@ Azure Active Directory (Azure AD) Id 보호를 사용 하면 조직의 id에 영
 시뮬레이트된 엔터프라이즈에서 Azure AD Id 보호를 테스트 하려면 [통과 인증](pass-through-auth-m365-ent-test-environment.md)의 지침을 따르세요.
   
 > [!NOTE]
-> Azure AD Id 보호를 테스트 하는 경우 AD DS (Active Directory 도메인 서비스) 포리스트의 인터넷 및 디렉터리 동기화에 연결 된 시뮬레이트된 인트라넷을 포함 하는 시뮬레이트된 엔터프라이즈 테스트 환경이 필요 하지 않습니다. Azure AD Id 보호를 테스트 하 고 일반적인 조직을 나타내는 환경에서 테스트해 볼 수 있도록 여기에 제공 되는 옵션입니다. 
+> Azure AD Id 보호를 테스트 하려면 AD DS (Active Directory 도메인 서비스) 포리스트의 인터넷 및 디렉터리 동기화에 연결 된 시뮬레이트된 인트라넷을 포함 하는 시뮬레이트된 엔터프라이즈 테스트 환경이 필요 하지 않습니다. Azure AD Id 보호를 테스트 하 고 일반적인 조직을 나타내는 환경에서 테스트해 볼 수 있도록 여기에 제공 되는 옵션입니다.
   
 ## <a name="phase-2-use-azure-ad-identity-protection"></a>2 단계: Azure AD Id 보호 사용
 
 1. 브라우저의 개인 인스턴스를 열고 [https://portal.azure.com](https://portal.azure.com) 엔터프라이즈 테스트 환경에 대 한 Microsoft 365의 전역 관리자 계정을 사용 하 여 Azure 포털에 로그인 합니다.
-2. Azure portal에서 검색 상자에 **id 보호** 를 입력 하 고 **Azure AD id 보호**를 클릭 합니다.
-3. **Id 보호-개요** 블레이드에서 각 보고서를 클릭 하 여 보고 되는 내용을 확인 합니다.
-4. **알림에서 감지 된 위험에 사용자** **를 클릭**합니다.
+2. Azure portal에서 검색 상자에 **id 보호** 를 입력 한 다음 **Azure AD id 보호**를 선택 합니다.
+3. **Id 보호-개요** 블레이드에서 각 보고서를 선택 하 여 보고 되는 내용을 확인 합니다.
+4. **알림에서 감지 된 위험에서 사용자** **를 선택 합니다.**
 5. **위험 감지 됨 경고** 창에서 **보통**을 선택 합니다.
-6. **다음 사용자에 게 전자 메일을 보내는**경우 **포함** 을 클릭 하 고 전역 관리자 계정이 선택한 구성원 목록에 있는지 확인 합니다.
-7. **저장**을 클릭합니다.
+6. **다음 사용자에 게 전자 메일을 보내는**경우 **포함** 을 선택 하 고 전역 관리자 계정이 선택한 구성원 목록에 있는지 확인 합니다.
+7. **저장**을 선택합니다.
 
-**보호** 에서 각 정책을 클릭 하 여 구성 방법을 확인 합니다. 정책을 만들고 활성화 하는 경우에는 조건의 범위가 너무 광범위 하 게 액세스를 차단 하지 않도록 하거나 전역 관리자 인 로그인을 하지 못할 수도 있습니다.
+**보호**에서 다양 한 정책을 선택 하 여 구성 방법을 확인 합니다. 정책을 만들고 활성화 하는 경우에는 모든 사용자에 대 한 액세스를 차단 하지 않는지 또는 로그인 하지 못할 수 있습니다. 이를 방지 하려면 전역 관리자와 같은 특정 사용자 계정을 제외 합니다.
 
 추가 테스트 및 실험을 위해 [위험 이벤트 시뮬레이트](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-playbook)를 참조 하세요.
 

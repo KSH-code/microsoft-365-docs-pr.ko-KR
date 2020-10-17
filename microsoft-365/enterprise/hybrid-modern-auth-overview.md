@@ -4,7 +4,7 @@ ms.author: kvice
 ms.reviewer: smithre4
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 08/25/2020
+ms.date: 10/15/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 온-프레미스 비즈니스용 Skype 및 Exchange 서버와 함께 사용할 수 있는 하이브리드 최신 인증과 필수 구성 요소에 대해 설명 합니다.
-ms.openlocfilehash: 82cd4203e2e9dc53c6add542c5f0ba90530b6548
-ms.sourcegitcommit: d648356b27842e779921859480b1b405a1804c7c
+ms.openlocfilehash: dbd108d9b04445838ce8e88a921af717ebd763be
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361930"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487723"
 ---
 # <a name="hybrid-modern-authentication-overview-and-prerequisites-for-using-it-with-on-premises-skype-for-business-and-exchange-servers"></a>하이브리드 최신 인증 개요 및 온-프레미스 비즈니스용 Skype 및 Exchange 서버에서 사용하기 위한 필수 구성 요소
 
@@ -161,6 +161,7 @@ Get-CsOAuthConfiguration cmdlet에 대한 자세한 내용은 [Get-CsOAuthConfig
     POP3와 같이 나열 되지 않은 클라이언트 및/또는 프로토콜은 온-프레미스 Exchange와의 최신 인증을 지원 하지 않으며 환경에서 최신 인증을 사용할 수 있는 경우에도 계속 해 서 레거시 인증 메커니즘을 활용할 수 있습니다.
 
 - **일반 필수 구성 요소**
+  - 리소스 포리스트 시나리오에서는 하이브리드 최신 인증 요청 중에 적절 한 SID 조회가 수행 되도록 계정 포리스트와 양방향 트러스트를 사용 해야 합니다. 
   - AD FS를 사용하는 경우, 페더레이션을 위해 Windows 2012 R2 AD FS 3.0 이상이 있어야 합니다.
   - ID 구성은 암호 해시 동기화, 통과 인증 및 Office 365에서 지원되는 온-프레미스 STS와 같이 Azure AD Connect에서 지원하는 유형입니다.
   - Azure AD Connect가 구성되어 있으며 사용자 복제 및 동기화를 위해 작동하고 있습니다.
