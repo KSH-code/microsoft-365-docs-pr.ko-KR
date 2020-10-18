@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1001b5b209204785221aef40631e91f904136b0b
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 2cb1c8071e72a8a60a8bac1dd13bb2ce038a8ac0
+ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417482"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476985"
 ---
 # <a name="trusight"></a>TruSight
 
@@ -33,9 +33,9 @@ TruSight는 미국 주요 은행이 금융 기관, 공급 업체, 파트너 및 
 
 TruSight의 방법론의 토대는 TruSight의 창립 은행에 의해 만들어지고 고객 및 산업 전문가와의 협력을 통해 업데이트된 강력하고 표준화된 모범 사례 설문지 (BPQ)입니다. 27 개의 다각화된 컨트롤 도메인은 정보 및 사이버 보안, 개인 정보 보호, 비즈니스 탄력성 및 기타 운영 위험 영역 범주에서 업계의 평가 요구를 충족하도록 설계되었습니다.
 
-Microsoft의 경우 TruSight는 Microsoft Azure, Microsoft Dynamics 365 및 Microsoft Office 365에 대한 엄격하고 종합적인 현장 평가를 수행하여 BPQ 요구 사항에 따라 컨트롤의 디자인 및 구현을 검증했습니다. 종합 검증 절차에는 구조적인 문의, 정책 및 절차 검사, 근거자료의 검토 및 현장 동적 컨트롤 관찰이 포함되었습니다.
+Microsoft의 경우 TruSight는 Microsoft Azure, Microsoft Dynamics 365, Microsoft Power Platform 및 Microsoft 365에 대한 엄격하고 종합적인 현장 평가를 수행하여 BPQ 요구 사항에 따라 컨트롤의 디자인 및 구현을 검증했습니다. 종합 검증 절차에는 구조적인 문의, 정책 및 절차 검사, 근거자료의 검토 및 현장 동적 컨트롤 관찰이 포함되었습니다.
 
-2018년 9월 TruSight는 Microsoft 클라우드 서비스에 대한 첫 번째 위험 평가인 *Microsoft 클라우드 종합 평가*를 발표했습니다. Microsoft는 이제 연간 TruSight 검토를 통해 평가를 최신 상태로 유지하고 Microsoft 서비스의 새로운 규제 요구 사항 및 기술 업데이트를 반영하는지 확인합니다. TruSight는 2019년 가을에 보고서의 첫 번째 확장 업데이트를 발표할 예정입니다.
+2018년 9월 TruSight는 Microsoft 클라우드 서비스에 대한 첫 번째 위험 평가인 *Microsoft 클라우드 종합 평가*를 발표했습니다. Microsoft는 이제 연간 TruSight 검토를 통해 평가를 최신 상태로 유지하고 Microsoft 서비스의 새로운 규제 요구 사항 및 기술 업데이트를 반영하는지 확인합니다. TruSight에서 2020년 10월에 최신 보고서가 게시되었습니다.
 
 이 엄격한 TruSight 평가 결과, 금융 서비스 고객은 이제 자체적으로 수행하는 데 필요한 상당한 리소스를 소비하지 않고도 업계에서 표준화된 방법론을 기반으로한 Microsoft 클라우드 서비스에 대한 고품질 평가를 요청을 통해 액세스할 수 있습니다.
 
