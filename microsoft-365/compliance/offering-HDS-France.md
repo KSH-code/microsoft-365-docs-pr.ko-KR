@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 84b7f5959d3bd8c13476059655113ea78495862a
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 07309131e9be4ef8149ca71dfd4fc6bc5ecf845d
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417722"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487438"
 ---
 # <a name="health-data-hosting-hds-france"></a>건강 데이터 호스팅 (HDS) 프랑스
 
@@ -58,18 +58,18 @@ HDS 인증서는 미리보기 또는 시험판의 Microsoft 온라인 서비스�
 
 HDS 인증은 3년간 유효합니다.
 
-- HDS: 2018: [ASIP SANTÉ](https://esante.gouv.fr/) 및 [BSI 그룹](https://www.bsigroup.com/fr-FR/Nos-services/Certification/Recherche-dans-le-repertoire-des-certificats-et-des-clients/Resultats-de-la-recherche-dans-le-repertoire-des-certificats-et-des-clients/?searchkey=licence%3dHDS%2b701569%26company%3dMicrosoft%2bCorp&licencenumber=HDS%20701569)
+- HDS: 2018: [ASIP SANTÉ](https://esante.gouv.fr/)
+- [BSI 그룹](https://www.bsigroup.com/fr-FR/Nos-services/Certification/Recherche-dans-le-repertoire-des-certificats-et-des-clients/Resultats-de-la-recherche-dans-le-repertoire-des-certificats-et-des-clients/?searchkey=licence%3dHDS%2b701569%26company%3dMicrosoft%2bCorp&licencenumber=HDS%20701569)
 
 ## <a name="how-to-implement"></a>구현 방법
 
-**계약 조건 — French Public Health 코드에 따르면 건강 데이터 호스팅 서비스 또는 클라우드 서비스 제공 업체와 고객간에 특정 계약 조건을 실행해야 합니다. 적격 고객이 Microsoft 온라인 서비스에서 건강 개인 데이터를 호스팅하기 전에 이러한 특정 계약 조건의 동의를 위해 Microsoft 라이선스 담당자에게 문의해야 합니다.
-
-[건강 및 생명 과학 — 사례 개요, 솔루션 가이드, 자습서 및 Azure 솔루션 구축을 돕는 기타 리소스.
+- **계약 조건**: French Public Health 코드에 따르면 건강 데이터 호스팅 서비스 또는 클라우드 서비스 제공 업체와 고객간에 특정 계약 조건을 실행해야 합니다. 적격 고객이 Microsoft 온라인 서비스에서 건강 개인 데이터를 호스팅하기 전에 이러한 특정 계약 조건의 동의를 위해 Microsoft 라이선스 담당자에게 문의해야 합니다.
+- **건강 및 생명 과학**: 사례 개요, 솔루션 가이드, 자습서 및 Azure 솔루션 구축을 돕는 기타 리소스.
 
 ## <a name="resources"></a>리소스
 
 - [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
-- [Microsoft HDS 인증 블로그](https://news.microsoft.com/fr-fr/2018/11/06/microsoft-1er-acteur-majeur-du-cloud-public-a-etre-certifie-hebergeur-de-donnees-de-sante-en-france/)
+- [Microsoft HDS 인증 블로그](https://news.microsoft.com/2018/11/06/microsoft-1er-acteur-majeur-du-cloud-public-a-etre-certifie-hebergeur-de-donnees-de-sante-en-france/)
 - [Azure France](https://azure.microsoft.com/global-infrastructure/france/)
 - [보건용 Azure](https://azure.microsoft.com/industries/healthcare/)
 - [Microsoft의 보안](https://www.microsoft.com/security)
