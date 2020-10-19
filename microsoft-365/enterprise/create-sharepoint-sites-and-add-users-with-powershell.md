@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
 description: '요약: PowerShell을 사용 하 여 새 SharePoint Online 사이트를 만든 다음 해당 사이트에 사용자 및 그룹을 추가 합니다.'
-ms.openlocfilehash: 4c4edbd68343f0eaf3a25a8c60a2af1e83b058b6
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 28a51cc39fe838f6c7f9c50e9d750d28e5d830c4
+ms.sourcegitcommit: 24ccb910ffac4d065c512a57c5decd9dd19ef4c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692443"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48594921"
 ---
 # <a name="create-sharepoint-online-sites-and-add-users-with-powershell"></a>SharePoint Online 사이트 만들기 및 PowerShell을 사용 하 여 사용자 추가
 
@@ -43,6 +43,9 @@ Microsoft 365 용 PowerShell을 사용 하 여 SharePoint Online 사이트를 �
 PowerShell cmdlet은 .csv 파일을 가져온 후 파일의 첫 번째 줄을 열 머리글로 읽는 중괄호 내부의 루프에 파이프 합니다. 그런 다음 PowerShell cmdlet은 나머지 레코드를 반복 하 고 각 레코드에 대해 새 사이트 모음을 만들고, 열 머리글에 따라 사이트 모음의 속성을 할당 합니다.
 
 ### <a name="create-a-csv-file"></a>.csv 파일 만들기
+
+> [!NOTE]
+> 리소스 할당량 매개 변수는 클래식 사이트 에서만 작동 합니다. 최신 사이트에서이 매개 변수를 사용 하는 경우 더 이상 사용 되지 않는 경고 메시지가 표시 될 수 있습니다. 
 
 1. 메모장을 열고 다음 텍스트 블록을 붙여 넣습니다.<br/>
 
@@ -155,7 +158,7 @@ c:\users\MyAlias\desktop\UsersAndGroups.ps1
 
 5. 프롬프트가 반환될 때까지 기다렸다가 계속 진행합니다. 먼저 작성된 그룹이 표시되고, 사용자를 추가하면 그룹 목록이 반복적으로 표시됩니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 [SharePoint Online PowerShell에 연결](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
@@ -164,4 +167,3 @@ c:\users\MyAlias\desktop\UsersAndGroups.ps1
 [PowerShell로 Microsoft 365 관리](manage-microsoft-365-with-microsoft-365-powershell.md)
   
 [Microsoft 365 용 PowerShell 시작](getting-started-with-microsoft-365-powershell.md)
-

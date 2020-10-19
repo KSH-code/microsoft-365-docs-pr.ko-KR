@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 조직의 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 & 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7e594f758e0fb08b0b8718248466ecbc46903b82
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 7d83e86c77eb148c4c55be3f363966ac3c756e87
+ms.sourcegitcommit: 24ccb910ffac4d065c512a57c5decd9dd19ef4c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327012"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48594888"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>보안 및 준수 센터의 전자 메일 보안 보고서 보기
 
@@ -276,8 +276,8 @@ ms.locfileid: "48327012"
 
 보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 다음 **위협 방지 상태**를 선택 합니다. 보고서로 직접 이동 하려면 다음 Url 중 하나를 엽니다.
 
-- Office 365 ATP: <https://protection.office.com/reportv2?id=ATPV2AggregateReport> 입니다.
-- EOP <https://protection.office.com/reportv2?id=ATPAggregateLightReport>
+- Office 365 ATP: <https://protection.office.com/reportv2?id=TPSAggregateReportATP>
+- EOP <https://protection.office.com/reportv2?id=TPSAggregateReport>
 
 ![보고서 대시보드의 위협 보호 상태 위젯](../../media/threat-protection-status-report-widget.png)
 
@@ -301,6 +301,20 @@ ms.locfileid: "48327012"
   - **파일 샌드 박싱**
 
   ![위협 방지 상태 보고서의 콘텐츠 맬웨어 보기](../../media/threat-protection-status-report-content-malware-view.png)
+
+- **데이터 보기 기준: 메시지 재정의**: 다음과 같은 재정의 이유 정보가 표시 됩니다.
+
+  - **온-프레미스 건너뛰기**
+  - **IP 허용**
+  - **메일 흐름 규칙**
+  - **보낸 사람 허용**
+  - **도메인 허용**
+  - **ZAP을 사용할 수 없음**
+  - **정크 메일 폴더 사용 안 함**
+  - **사용자가 안전한 보낸 사람**
+  - **사용자 안전 도메인**
+
+  ![위협 방지 상태 보고서의 메시지 재정의 보기](../../media/threat-protection-status-report-message-override-view.png)
 
 - **아래로 나누기: 기술** 및 **데이터 보기 기준: 전자 메일 \> 피싱**: 다음 정보가 표시 됩니다.
 
@@ -361,16 +375,24 @@ ms.locfileid: "48327012"
 
 <sup>2</sup> 개 시간 자동 제거 (ZAP)는 독립 실행형 EOP에서 사용할 수 없습니다 (Exchange Online 사서함 에서만 작동 함).
 
-**필터**를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.
+**필터**를 클릭 하는 경우 사용 가능한 필터는 보고 있는 차트에 따라 달라 집니다.
+
+**콘텐츠 \> 맬웨어**는 **시작 날짜** 및 **종료 날짜**및 **검색** 값을 기준으로 보고서를 수정할 수 있습니다.
+
+**메시지 재정의**에 대해 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.
+
+- **시작 날짜** 및 **끝 날짜**
+- **재정의 이유**
+- **Tag**: 태그를 기준으로 필터링 하 여 특정 태그가 적용 된 사용자 또는 그룹을 반환 합니다. 사용자 태그에 대 한 자세한 내용은 [user tags](user-tags.md)를 참조 하십시오.
+- **도메인**
+
+다른 모든 보기에 대해 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.
 
 - **시작 날짜** 및 **끝 날짜**
 - **감지**
 - **Protected by**: **ATP** 또는 **EOP**
 - **Tag**: 태그를 기준으로 필터링 하 여 특정 태그가 적용 된 사용자 또는 그룹을 반환 합니다. 사용자 태그에 대 한 자세한 내용은 [user tags](user-tags.md)를 참조 하십시오.
 - **도메인**
-
-> [!NOTE]
-> **Protected by**, **Tag** 및 **Domain** 은 Office 365 ATP 전용입니다. 이 필터링 가능한 속성은 **데이터 보기: 콘텐츠 \> 맬웨어를 통해**사용할 수 없습니다.
 
 ### <a name="details-table-view-for-the-threat-protection-status-report"></a>위협 보호 상태 보고서에 대 한 세부 정보 테이블 보기
 
@@ -383,10 +405,26 @@ ms.locfileid: "48327012"
   - **보낸 사람**
   - **맬웨어 이름**
 
+이 보기에서 **필터** 를 클릭 하면 **시작 날짜** 및 **끝 날짜**및 **검색** 값을 기준으로 보고서를 수정할 수 있습니다.
+
+- **데이터 보기 기준: 메시지 재정의**:
+
+  - **날짜**
+  - **제목**
+  - **보낸 사람**
+  - **받는 사람**
+  - **검색 기준**
+  - **재정의 이유**
+  - **손상 원본**
+  - **태그**
+
 이 보기에서 **필터** 를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.
 
 - **시작 날짜** 및 **끝 날짜**
-- **감지**
+- **재정의 이유**
+- **Tag**: 태그를 기준으로 필터링 하 여 특정 태그가 적용 된 사용자 또는 그룹을 반환 합니다. 사용자 태그에 대 한 자세한 내용은 [user tags](user-tags.md)를 참조 하십시오.
+- **도메인**
+- **받는 사람** (이 필터링 가능한 속성은 세부 정보 테이블 보기 에서만 사용 가능)
 
 **데이터 보기 기준: 개요**: **뷰 정보 테이블** 단추를 사용할 수 없습니다.
 
@@ -439,7 +477,7 @@ ms.locfileid: "48327012"
 
 각 메시지에 대 한 자세한 내용은 스팸 정책 예외 또는 조직에 대해 구성 된 메일 흐름 규칙과 같은 배달 이유를 포함 합니다. 세부 정보를 보려면 사용자-보고서 목록에서 항목을 선택한 다음 **요약** 및 **세부 정보** 탭에서 해당 정보를 확인 합니다.
 
-![사용자가 보고 한 메시지 보고서에는 사용자가 정크로 레이블이 지정 된 메시지, 정크 메일, 피싱 시도 등이 표시 됩니다.](../../media/ad5e9a3d-b833-419c-bcc9-3425d9604ead.png)
+![User-Reported 메시지 보고서에는 사용자가 정크로 레이블이 지정 된 메시지, 정크 메일, 피싱 시도 등이 표시 됩니다.](../../media/ad5e9a3d-b833-419c-bcc9-3425d9604ead.png)
 
 이 보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)에서 다음 중 하나를 수행 합니다.
 
