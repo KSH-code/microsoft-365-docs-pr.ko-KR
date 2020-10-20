@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)의 보호에 대 한 응용 프로그램 순서와 보호 정책의 우선 순위 값이 적용 되는 정책을 결정 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: e2da22bfbe0e7df70cf8d8b0d8cfd09eaf6e2ee3
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 6b17a524fb9dfbf5e33604c2ec26a678befc8834
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196050"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600288"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>전자 메일 보호의 순서 및 우선 순위
 
@@ -38,16 +38,16 @@ Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (독립 실행�
 
   ****
 
-  |우선 순위|전자 메일 보호|Category|관리할 위치|
+  |우선 순위|전자 메일 보호|범주|관리할 위치|
   |---|---|---|---|
   |1 |맬웨어|CAT: MALW|[EOP에서 맬웨어 방지 정책 구성](configure-anti-malware-policies.md)|
-  |2 |피싱|CAT: PHSH|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
+  |2|피싱|CAT: PHSH|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
   |3(sp3)|높은 정확도 스팸|CAT: HSPM|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
   |4 |스푸핑|CAT: 스푸핑|[EOP에서 스푸핑 인텔리전스 구성](learn-about-spoof-intelligence.md)|
-  |5 |스팸|CAT: SPM|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
-  |6 |대량|CAT: 대량|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
-  |연중<sup>\*</sup>|도메인 가장 (보호 된 사용자)|DIMP|[ATP 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)|
-  |8<sup>\*</sup>|사용자 가장 (보호 된 도메인)|UIMP|[ATP 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)|
+  |2-5<sup>\*</sup>|사용자 가장 (보호 된 도메인)|UIMP|[ATP 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)|
+  |번<sup>\*</sup>|도메인 가장 (보호 된 사용자)|DIMP|[ATP 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)|
+  |7 |스팸|CAT: SPM|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
+  |8 |대량|CAT: 대량|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
   |
 
   <sup>\*</sup> 이러한 기능은 ATP 피싱 방지 정책 에서만 사용할 수 있습니다.
@@ -63,7 +63,7 @@ Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (독립 실행�
   |ATP 피싱 방지 정책|우선 순위|사용자 가장|스푸핑 방지|
   |---|---|---|---|
   |정책 A|1 |켜짐|해제|
-  |정책 B|2 |해제|켜짐|
+  |정책 B|2|해제|켜짐|
   |
 
 1. 스푸핑 우선 순위 (4)가 사용자 가장 (8) 보다 높기 때문에 메시지가 스푸핑로 표시 되 고 처리 됩니다.

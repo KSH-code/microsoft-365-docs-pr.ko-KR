@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 모든 사용자에 대해 격리 된 메시지를 확인 하 고 관리 하는 방법을 확인할 수 있습니다. Office 365 Advanced Threat Protection (Office 365 ATP)을 사용 하는 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀에서 격리 된 파일을 관리할 수도 있습니다.
-ms.openlocfilehash: 7e9b49e7e7a90f5271a65bb26cecdd1a7ce2ab84
-ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
+ms.openlocfilehash: 5e1115157ef7d67bc7a3f626eb61d01ecc0986cb
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48417221"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600544"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>EOP에서 관리자 권한으로 격리된 메시지 및 파일 관리하기
 
@@ -95,6 +95,13 @@ Office 365, 고급 위협 방지 (Office 365 ATP)를 사용 하는 조직의 관
      - **맬웨어**
      - **스팸**
      - **높은 신뢰도 피싱**
+     
+   - **정책 유형**: 정책 유형별로 메시지를 필터링 합니다.
+     - **맬웨어 방지 정책**
+     - **안전한 첨부 파일 정책**
+     - **피싱 정책**
+     - **호스팅된 콘텐츠 필터 정책**
+     - **전송 규칙**
 
    - **전자 메일 받는 사람**: 모든 사용자 또는 자신에 게 전송 되는 메시지에만 해당 합니다. 최종 사용자가 보낸 격리 된 메시지만 관리할 수 있습니다.
 
@@ -107,6 +114,8 @@ Office 365, 고급 위협 방지 (Office 365 ATP)를 사용 하는 조직의 관
      예를 들어 [메시지 추적](message-trace-scc.md) 을 사용 하 여 조직의 사용자에 게 전송 된 메시지를 찾고 메시지가 배달 되지 않고 격리 되었음을 확인 했습니다. 전체 메시지 ID 값에는 꺾쇠 괄호 ()가 포함 될 수 있습니다 \<\> . 예: `<79239079-d95a-483a-aacf-e954f592a0f6@XYZPR00BM0200.contoso.com>` .
 
    - **보낸 사람 전자 메일 주소**: 보낸 사람 한 명의 전자 메일 주소입니다.
+
+   - **정책 이름**: 메시지의 전체 정책 이름을 사용 합니다. 검색은 대/소문자를 구분하지 않습니다.
 
    - **받는 사람 전자 메일 주소**: 받는 사람 한 명의 전자 메일 주소입니다.
 
@@ -152,7 +161,7 @@ Office 365, 고급 위협 방지 (Office 365 ATP)를 사용 하는 조직의 관
 
 - **릴리스 메시지**: 표시 된 플라이 아웃 창에서 다음 옵션을 선택 합니다.
 
-  - **Microsoft에 분석을 위해 메시지를 보고**:이 기능은 기본적으로 선택 되며 잘못 격리 된 메시지를 microsoft에 가양성으로 보고 합니다. 메시지가 스팸으로, 대량, 피싱 또는 맬웨어를 포함 하는 것으로 격리 된 경우 메시지는 Microsoft 스팸 분석 팀에도 보고 됩니다. 분석에 따라 메시지를 통과 하도록 허용 하도록 서비스 수준 스팸 필터 규칙을 조정할 수 있습니다.
+  - **Microsoft에 분석을 위해 메시지를 보고**:이 기능은 기본적으로 선택 되며 잘못 격리 된 메시지를 microsoft에 가양성으로 보고 합니다. 메시지가 스팸으로, 대량, 피싱 또는 맬웨어를 포함 하는 것으로 격리 된 경우 메시지는 Microsoft 스팸 분석 팀에도 보고 됩니다. 분석에 따라 서비스 전체 스팸 필터 규칙이 메시지를 통과 하도록 조정 될 수 있습니다.
 
   - 다음 옵션 중 하나를 선택 합니다.
     - **모든 받는 사람에 게 메시지를 놓습니다.**

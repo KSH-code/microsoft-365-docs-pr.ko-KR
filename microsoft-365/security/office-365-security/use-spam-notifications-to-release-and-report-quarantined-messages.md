@@ -20,12 +20,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 격리 된 메시지에 대 한 최종 사용자 스팸 알림에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 9d1da6c4db245ecb065a5a076f2bc6a9c275c494
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 0440056e8e31d24e659f9d0ff6662f86f31a6189
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195822"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600300"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>사용자 스팸 알림을 사용 하 여 격리 된 메시지 릴리스 및 보고
 
@@ -58,3 +58,6 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 - **검토**: 보안 & 준수 센터에서 격리로 이동 하려면이 링크를 클릭 합니다 (메시지가 격리 된 이유에 따라 다름). 격리 된 메시지를 확인, 해제, 삭제 또는 보고 합니다. 자세한 내용은 [EOP의 사용자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.
 
 ![최종 사용자 스팸 알림 예](../../media/end-user-spam-notification.png)
+
+> [!NOTE]
+> 차단 된 보낸 사람은 여전히 메일을 보낼 수 있습니다. 이 보낸 사람이 사서함에 게 보내는 모든 메시지는 즉시 정크 메일 폴더로 이동 됩니다. 다음에이 사람이 보낸 메시지는 정크 메일 폴더 또는 최종 사용자 격리로 이동 됩니다. 이러한 메시지를 격리 하는 대신 도착 시 삭제 하려면 [메일 흐름 규칙](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) (전송 규칙이 라고도 함)을 사용 하 여 도착 시 메시지를 삭제 합니다.

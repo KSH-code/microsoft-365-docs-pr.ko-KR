@@ -18,19 +18,19 @@ ms.collection:
 - M365-security-compliance
 description: Office 365 활동 관리 API에서 조직의 SIEM server를 Office 365 Advanced Threat Protection 및 관련 위협 이벤트와 통합 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 544093960570fe0e68ac47dc7bf9965fba2d30a1
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: c4c92fc45546d3d8022a3925baa9c10f9bd0090b
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327168"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600556"
 ---
 # <a name="siem-integration-with-advanced-threat-protection"></a>Advanced Threat Protection과의 SIEM 통합
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-조직에서 SIEM (보안 인시던트 및 이벤트 관리) 서버를 사용 하는 경우 Office 365 Advanced Threat Protection (Office 365 ATP)을 SIEM 서버와 통합할 수 있습니다. [Office 365 활동 관리 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 사용 하 여이 통합을 설정할 수 있습니다. 
+조직에서 SIEM (보안 정보 및 이벤트 관리) 서버를 사용 하는 경우 Office 365 Advanced Threat Protection (Office 365 ATP)을 SIEM 서버와 통합할 수 있습니다. [Office 365 활동 관리 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 사용 하 여이 통합을 설정할 수 있습니다. 
 
 SIEM 통합을 사용 하면 SIEM server reports에서 Office 365 ATP가 검색 한 맬웨어 또는 피싱 같은 정보를 볼 수 있습니다. 
 
@@ -63,10 +63,9 @@ SIEM 서버 또는 기타 유사한 시스템은 검색 이벤트에 액세스 �
 > [!IMPORTANT]
 > Office 365 Advanced Threat Protection과 함께 SIEM 통합을 설정 하려면 전역 관리자 이거나 보안 & 준수 센터에 대 한 보안 관리자 역할이 할당 되어 있어야 합니다.<br/>Microsoft 365 환경에 대해 감사 로깅을 켜야 합니다. 이에 대 한 도움말을 보려면 [Turn 감사 로그 검색 켜기 또는 끄기를](../../compliance/turn-audit-log-search-on-or-off.md)참조 하세요.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 [Office 365 위협 조사 및 응답](office-365-ti.md)
 
 [Office 365의 자동화 된 조사 및 응답 (AIR)](automated-investigation-response-office.md)
-
 

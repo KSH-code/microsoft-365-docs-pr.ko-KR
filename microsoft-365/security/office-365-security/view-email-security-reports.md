@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 조직의 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 & 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7d83e86c77eb148c4c55be3f363966ac3c756e87
-ms.sourcegitcommit: 24ccb910ffac4d065c512a57c5decd9dd19ef4c1
+ms.openlocfilehash: 58c29d37d4f7deab17b2c24bfd7fb74e5ba9cb45
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "48594888"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600568"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>보안 및 준수 센터의 전자 메일 보안 보고서 보기
 
@@ -297,8 +297,8 @@ ms.locfileid: "48594888"
 
 - **데이터 보기 기준: 콘텐츠 \> 맬웨어**<sup>1</sup>: Office 365 ATP 조직에 대해 다음과 같은 정보가 표시 됩니다.
 
-  - **맬웨어 방지 엔진**
-  - **파일 샌드 박싱**
+  - **맬웨어 방지 엔진**: 맬웨어 방지를 통해 Sharepoint Online, OneDrive 및 팀의 악성 파일을 포착 합니다.
+  - **파일 샌드 박싱**: 안전한 첨부 파일을 통해 Sharepoint Online, OneDrive 및 팀의 악의적인 파일을 샌드 박싱 합니다.
 
   ![위협 방지 상태 보고서의 콘텐츠 맬웨어 보기](../../media/threat-protection-status-report-content-malware-view.png)
 
@@ -318,28 +318,28 @@ ms.locfileid: "48594888"
 
 - **아래로 나누기: 기술** 및 **데이터 보기 기준: 전자 메일 \> 피싱**: 다음 정보가 표시 됩니다.
 
-  - **ATP 생성 URL 신뢰도**<sup>1</sup>
-  - **고급 피싱 필터**
-  - **스푸핑 방지: DMARC 오류**
-  - **스푸핑 방지: 조직 내**
-  - **스푸핑 방지: 외부 도메인**
-  - **브랜드 가장**
-  - **도메인 가장**<sup>1</sup>
-  - **EOP URL 신뢰도**
-  - **일반 피싱 필터**
+  - **Atp 생성 URL 신뢰도**<sup>1</sup>: 다른 atp 고객의 atp detonations에서 생성 된 악의적 URL 신뢰도입니다.
+  - **Advanced 피싱 filter**: 시스템 학습을 기반으로 하는 피싱 신호입니다.
+  - **스푸핑 방지-DMARC 오류**: 메시지에서 DMARC 인증 오류가 발생 했습니다.
+  - **스푸핑 방지-조직 내**: 보낸 사람이 받는 사람 도메인을 스푸핑 하려고 합니다.
+  - **스푸핑 방지-외부 도메인**: 보낸 사람이 다른 도메인을 위장 하려고 합니다.
+  - **브랜드 가장**: 보낸 사람을 기반으로 하는 잘 알려진 브랜드의 가장입니다.
+  - **도메인 가장**<sup>1</sup>: 고객이 소유 하거나 정의한 도메인의 가장입니다.
+  - **EOP URL 신뢰도**: 악의적인 url 신뢰도
+  - **General 피싱 filter**: 분석가 규칙을 기반으로 하는 피싱 신호입니다. 
   - **상대**
-  - **피싱 ZAP**<sup>2</sup>
+  - **피싱 ZAP**<sup>2</sup>: 제로 시간 피싱 메시지를 자동으로 제거 합니다.
   - **URL 샌드 박싱**<sup>1</sup>
-  - **사용자 가장**<sup>1</sup>
+  - **사용자 가장**<sup>1</sup>: 관리자가 정의 하거나 사서함 인텔리전스를 통해 배운 사용자의 가장입니다.
 
   ![위협 방지 상태 보고서의 피싱 전자 메일에 대 한 검색 기술 보기](../../media/threat-protection-status-report-phishing-detection-tech-view.png)
 
 - **아래로 나누기: 기술** 및 **데이터 보기 By: 전자 메일 \> 맬웨어**: 다음 정보가 표시 됩니다.
 
-  - **ATP 생성 파일 신뢰도**<sup>1</sup>
-  - **맬웨어 방지 엔진**<sup>1</sup>
-  - **맬웨어 방지 정책 파일 형식 블록**
-  - **파일 샌드 박싱**<sup>1</sup>
+  - **Atp 생성 파일 신뢰도**<sup>1</sup>: ATP detonations에서 생성 된 모든 악의적 파일 신뢰도입니다.
+  - **맬웨어 방지 엔진**<sup>1</sup>: 맬웨어 방지 엔진에서 검색 합니다.
+  - **맬웨어 방지 정책 파일 형식 블록**: 메시지에서 식별 된 악의적인 파일의 유형으로 인해 필터링 된 전자 메일 메시지입니다.
+  - **File 샌드 박싱**<sup>1</sup>: 샌드 박싱 파일은 안전한 첨부 파일로 catch 합니다.  
   - **악의적인 파일 신뢰도**
   - **맬웨어 ZAP**<sup>2</sup>
   - **상대**

@@ -16,12 +16,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: 개별 사용자 또는 전체 조직에 대해 Outlook 및 웹용 outlook 용 보고서 메시지 추가 기능을 사용 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 601e3850bf046f3a0c807976fd173a6e0ec7ce2a
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: b061d9db44b08a65b59481035c055a1b75eb6e3c
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350626"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600372"
 ---
 # <a name="enable-the-report-message-add-in"></a>보고서 메시지 추가 기능을 사용하도록 설정
 
@@ -41,15 +41,15 @@ Outlook 및 웹용 Outlook에 대 한 보고서 메시지 추가 기능 (이전�
 
 개별 사용자 [의 경우에는 보고서 메시지 추가 기능을 사용 하도록 설정할](#get-the-report-message-add-in-for-yourself)수 있습니다.
 
-전역 관리자 또는 Exchange Online 관리자이 고 Exchange가 OAuth 인증을 사용 하도록 구성 된 경우 [조직에 대 한 보고서 메시지 추가 기능을 사용 하도록 설정할](#get-and-enable-the-report-message-add-in-for-your-organization)수 있습니다. 이제 [중앙 집중식 배포](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins)를 통해 보고서 메시지 추가 기능을 사용할 수 있습니다.
+전역 관리자 또는 Exchange Online 관리자이 고 Exchange가 OAuth 인증을 사용 하도록 구성 된 경우 [조직에 대 한 보고서 메시지 추가 기능을 사용 하도록 설정할](#get-and-enable-the-report-message-add-in-for-your-organization)수 있습니다. 이제 [중앙 집중식 배포](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins)를 통해 보고서 메시지 Add-In를 사용할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 보고서 메시지 추가 기능 이란 대부분의 Microsoft 365 구독과 다음 제품에서 작동 합니다.
 
   - 웹용 Outlook
   - Outlook 2013 SP1 이상
-  - Outlook 2016 for Mac
+  - Mac용 Outlook 2016
   - Microsoft 365 for Enterprise 앱에 포함 된 Outlook
 
 - 온-프레미스 Exchange 조직의 사서함에 대해서는 보고서 메시지 추가 기능을 사용할 수 없습니다.
@@ -91,7 +91,7 @@ Outlook 및 웹용 Outlook에 대 한 보고서 메시지 추가 기능 (이전�
 > [!NOTE]
 > 조직에 추가 기능을 표시 하는 데 최대 12 시간이 걸릴 수 있습니다.
 
-1. Microsoft 365 관리 센터에서 **서비스 & 추가** 기능 페이지로 이동한 <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> 후 **추가 기능 배포**를 클릭 합니다.
+1. Microsoft 365 관리 센터에서 **설정, 통합 앱 & 추가** 기능 페이지로 이동한 <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> 후에 **추가 기능 배포**를 클릭 합니다.
 
    ![Microsoft 365 관리 센터의 서비스 및 추가 기능 페이지](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
@@ -151,7 +151,7 @@ Outlook 및 웹용 Outlook에 대 한 보고서 메시지 추가 기능 (이전�
 
 1. Microsoft 365 관리 센터에서 **서비스 & 추가 기능** 페이지로 이동 <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> 합니다.
 
-   ![새 Microsoft 365 관리 센터의 서비스 및 추가 기능 페이지](../../media/ServicesAddInsPageNewM365AdminCenter.png)
+   ![새 Microsoft 365 관리 센터의 서비스 및 Add-Ins 페이지](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
 2. **보고서 메시지** 추가 기능을 찾아 선택 합니다.
 

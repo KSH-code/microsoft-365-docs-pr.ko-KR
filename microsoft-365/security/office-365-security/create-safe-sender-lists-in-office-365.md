@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 인바운드 메시지를 허용 하는 데 사용할 수 있는 옵션 및 기본 설정에 대해 알아봅니다.
-ms.openlocfilehash: b1eda98e081338a981be1d1f5991578b49c574fd
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 4009dcd506921b473e938828e5bdc10411c06ce2
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203170"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600324"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>EOP에서 수신 허용-보낸 사람 목록 만들기
 
@@ -71,7 +71,7 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 메시
 
    > [!IMPORTANT]
    >
-   > - 사용 안 함 메일 흐름 규칙을 보낸 사람 도메인 *만* 사용 하 여 스팸 필터링을 건너뛰도록 구성 합니다. 이렇게 하면 공격자가 보내는 도메인을 스푸핑할 때 (또는 전체 전자 메일 주소 가장), 모든 스팸 필터링을 건너뛰고, 보낸 사람 인증 검사를 건너뛸 수 있어 메시지가 받는 사람의 받은 편지함에 도착할 *가능성이 높아집니다.*
+   > - 메일 흐름 규칙을 보낸 사람 도메인이 스팸 필터링을 건너뛰도록 *하는 조건* 으로 구성 하지 마십시오. 이렇게 하면 공격자가 보내는 도메인을 스푸핑할 때 (또는 전체 전자 메일 주소 가장), 모든 스팸 필터링을 건너뛰고, 보낸 사람 인증 검사를 건너뛸 수 있어 메시지가 받는 사람의 받은 편지함에 도착할 *가능성이 높아집니다.*
    >
    > - 소유한 도메인 (허용 도메인이 라고도 함) 또는 인기 있는 도메인 (예: microsoft.com)을 메일 흐름 규칙의 조건으로 사용 하지 마십시오. 이렇게 하면 공격자가 다른 방식으로 필터링 할 수 있는 전자 메일을 보내는 기회가 만들어지므로 높은 위험으로 간주 됩니다.
    >
@@ -97,7 +97,7 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 메시
 
 ## <a name="use-outlook-safe-senders"></a>Outlook 수신 허용-보낸 사람 사용
 
-조직 설정 대신 사용자 또는 관리자가 사서함의 수신 허용-보낸 사람 목록에 보낸 사람 전자 메일 주소를 추가할 수 있습니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요. 이는 보낸 사람이 필터링 스택의 일부를 우회 하기 때문에 대부분의 경우에 바람직한 방법입니다. 보낸 사람을 신뢰 하는 경우에도 보낸 사람 cans 여전히 손상 되 고 악성 콘텐츠가 전송 될 수 있습니다. 필터가 잘못 된 경우 필터에서 모든 메시지를 확인 하는 데 필요한 작업을 수행한 다음 [가양성을 Microsoft에 보고](report-junk-email-messages-to-microsoft.md) 하는 것이 좋습니다. 필터링 스택을 우회 해도 [ZAP](zero-hour-auto-purge.md)이 방해 합니다.
+조직 설정 대신 사용자 또는 관리자가 사서함의 수신 허용-보낸 사람 목록에 보낸 사람 전자 메일 주소를 추가할 수 있습니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요. 이는 보낸 사람이 필터링 스택의 일부를 우회 하기 때문에 대부분의 경우에 바람직한 방법입니다. 보낸 사람을 신뢰 하는 경우에도 보낸 사람은 여전히 손상 될 수 있으며 악의적인 콘텐츠가 전송 될 수도 있습니다. 필터가 잘못 된 경우 필터에서 모든 메시지를 확인 하는 데 필요한 작업을 수행한 다음 [가양성을 Microsoft에 보고](report-junk-email-messages-to-microsoft.md) 하는 것이 좋습니다. 필터링 스택을 우회 해도 [ZAP](zero-hour-auto-purge.md)이 방해 합니다.
 
 메시지가 사용자의 수신 허용-보낸 사람 목록으로 인해 스팸 필터링을 건너뛸 때 **스팸 방지-Report** header 필드에는 `SFV:SFE` 스팸, 스푸핑 및 피싱 필터링이 무시 됨을 나타내는 값이 포함 됩니다.
 
@@ -105,7 +105,7 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 메시
 
 앞에서 설명한 것 처럼 메일 흐름 규칙을 사용할 수 없는 경우에는 연결 필터 정책의 IP 허용 목록에 원본 전자 메일 서버를 추가 하는 것이 가장 좋습니다. 자세한 내용은 [Configure connection 필터링할지 IN EOP](configure-the-connection-filter-policy.md)을 참조 하십시오.
 
-**참고:**
+**참고**:
 
 - 허용 되는 IP 주소 수를 최소로 유지 하는 것이 중요 하므로 가능 하면 전체 IP 주소 범위를 사용 하지 않는 것이 좋습니다.
 

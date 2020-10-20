@@ -20,12 +20,12 @@ ms.topic: conceptual
 ms.date: 10/09/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: 85813659d952fe936c8e8b41f2dc103a60116641
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 55a5ec4a2bfd562b581be9565022483d227f68be
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48447074"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600508"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Office 365 ATP의 새로운 기능
 
@@ -46,9 +46,9 @@ ms.locfileid: "48447074"
 - [구성 분석기를 사용 하 여 정책 확인](configuration-analyzer-for-security-policies.md)
 - [테 넌 트 허용/차단 목록을 사용 하 여 verdicts 필터를 수동으로 재정의](tenant-allow-block-list.md)
 - [상위 대상 사용자, 전송 규칙 및 커넥터를 포함 하는 위협 탐색기의 확장 된 기능](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (OFFICE 365 ATP 계획 2)
-- 사용자가 [위협 탐색기](threat-explorer.md) 에서 정보를 재정의 합니다 (전자 메일은 테 넌 트/사용자 정책에 의해 허용/차단 됨).
-- [위협 탐색기](threat-explorer.md#threats-in-urls) (맬웨어, 피싱, 스팸 또는 없음)의 서피싱 URL 위협 
-- 성능 향상, 추가 작업, 배달 위치 및 업데이트 된 시간 표시 막대 보기 [에 대 한 업데이트를 통한 사냥 경험 위협 탐색기 개선](threat-explorer.md#improvements-to-threat-hunting-experience-upcoming)
+- 서피싱에서 [위협 탐색기](threat-explorer.md) 의 정보 재정의 (전자 메일은 테 넌 트/사용자 정책에 의해 허용/차단 됨) (OFFICE 365 ATP 계획 2)
+- [위협 탐색기](threat-explorer.md#threats-in-urls) (맬웨어, 피싱, 스팸 또는 없음)의 서피싱 URL 위협 (OFFICE 365 ATP 계획 2)
+- 문제 해결, 추가 작업, 배달 위치 및 업데이트 된 시간 표시 막대 보기 (Office 365 ATP 요금제 2) [에 대 한 업데이트를 통한 사냥 경험 위협 탐색기 개선](threat-explorer.md#improvements-to-threat-hunting-experience-upcoming)
 
 ## <a name="julyaugust-2020"></a>7 월/8 월 2020 
 
@@ -106,9 +106,8 @@ ms.locfileid: "48447074"
 
 Office 365 ATP를 두 가지 요금제로 사용할 수 있다는 사실을 알고 계십니까? [각 계획에 포함 된 내용에 대해 자세히 알아보세요](office-365-atp.md#office-365-atp-plan-1-and-plan-2).
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap)
 
 [Office 365 ATP 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
-

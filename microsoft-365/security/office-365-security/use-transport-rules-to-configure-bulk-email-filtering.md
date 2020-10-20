@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 EOP (Exchange Online Protection)에서 메일 흐름 규칙 (전송 규칙)을 사용 하 여 대량 메일 (회색 메일)을 식별 하 고 필터링 하는 방법을 알 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c6a8ad5dd2752f86c0ff9ec96dafe621804b4856
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 82a93cdc7375468748f241e2d15d729811095330
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197306"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600312"
 ---
 # <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>메일 흐름 규칙을 사용하여 EOP에서 대량 전자 메일 필터링
 
@@ -79,7 +79,7 @@ Exchange online 사서함이 없는 Microsoft 365 조직, EOP (독립 실행형 
        - `If you are unable to view the content of this email\, please`
        - `\>(safe )?unsubscribe( here)?\</a\>`
        - `If you do not wish to receive further communications like this\, please`
-       - `<img height="?1"? width="?1"? sr\c=.?http\://`
+       - `<img height="?1"? width="?1"? src=.?http\://`
        - `To stop receiving these+emails\:http\://`
        - `To unsubscribe from \w+ (e\-?letter|e?-?mail|newsletter)`
        - `no longer (wish )?(to )?(be sent|receive) w+ email`
@@ -134,7 +134,7 @@ New-TransportRule -Name "<UniqueName>" [-SubjectOrBodyMatchesPatterns "<RegEx1>"
 이 예에서는 메시지를 **스팸으로**설정 하기 위해 이전 항목과 동일한 정규식 목록을 사용 하는 "대량 전자 메일 필터링-RegEx" 라는 새 규칙을 만듭니다.
 
 ```powershell
-New-TransportRule -Name "Bulk email filtering - RegEx" -SubjectOrBodyMatchesPatterns "If you are unable to view the content of this email\, please","\>(safe )?unsubscribe( here)?\</a\>","If you do not wish to receive further communications like this\, please","\<img height\="?1"? width\="?1"? sr\c=.?http\://","To stop receiving these+emails\:http\://","To unsubscribe from \w+ (e\-?letter|e?-?mail|newsletter)","no longer (wish )?(to )?(be sent|receive) w+ email","If you are unable to view the content of this email\, please click here","To ensure you receive (your daily deals|our e-?mails)\, add","If you no longer wish to receive these emails","to change your (subscription preferences|preferences or unsubscribe)","click (here to|the) unsubscribe"... -SetSCL 6
+New-TransportRule -Name "Bulk email filtering - RegEx" -SubjectOrBodyMatchesPatterns "If you are unable to view the content of this email\, please","\>(safe )?unsubscribe( here)?\</a\>","If you do not wish to receive further communications like this\, please","\<img height\="?1"? width\="?1"? src=.?http\://","To stop receiving these+emails\:http\://","To unsubscribe from \w+ (e\-?letter|e?-?mail|newsletter)","no longer (wish )?(to )?(be sent|receive) w+ email","If you are unable to view the content of this email\, please click here","To ensure you receive (your daily deals|our e-?mails)\, add","If you no longer wish to receive these emails","to change your (subscription preferences|preferences or unsubscribe)","click (here to|the) unsubscribe"... -SetSCL 6
 ```
 
 이 예에서는 메시지를 **높은 신뢰도 스팸으로**설정 하기 위해 이전 항목과 동일한 단어 목록을 사용 하는 "대량 전자 메일 필터링-단어" 라는 새 규칙을 만듭니다.

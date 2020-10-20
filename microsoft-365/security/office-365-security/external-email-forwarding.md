@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: c0a3849d330b508630eb60c7ee24cd8b498a32b8
-ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
+ms.openlocfilehash: 78ba5183667f4e5c6f713182969338f3ef2e7262
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48417235"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600532"
 ---
 # <a name="configuring-external-email-forwarding-in-office-365"></a>Office 365에서 외부 전자 메일 전달 구성
 
@@ -28,7 +28,7 @@ ms.locfileid: "48417235"
 
 외부 전달은 *아웃 바운드 스팸 방지 정책* 에 의해 제어 되며 구성 된 설정에 따라 사용자에 게 범위가 지정 됩니다. 현재 3 개의 설정이 지원 됩니다.
 
-- **자동** – 시스템이 제어 되며, 아웃 바운드 스팸 필터링을 통해 자동 외부 전자 메일 전달을 제어할 수 있습니다. 기본 설정입니다.
+- **자동** -자동 외부 전달이 차단 됩니다. 내부 자동 메시지 전달은 계속 작동 합니다. 기본 설정입니다.
 
 - **설정** – 자동 외부 전달은 허용 되며 제한 되지 않습니다.
 
