@@ -3,7 +3,7 @@ title: 세 가지 보호 계층으로 Teams 구성
 f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: O365-seccomp
@@ -20,12 +20,12 @@ ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: Microsoft Teams에서의 파일을 보호하기 위한 구성 권장 사항입니다.
-ms.openlocfilehash: 2e432c37642db7247f670dfd8d2d72da6df428bb
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: e1ec598bede2419abc19db2dbe3fd3ff63d8f583
+ms.sourcegitcommit: 24ccb910ffac4d065c512a57c5decd9dd19ef4c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377392"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48594933"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>세 가지 보호 계층으로 Teams 구성
 
@@ -61,7 +61,7 @@ ms.locfileid: "48377392"
 
 매우 중요한 옵션의 변형으로, [보안 격리를 포함한 Teams](secure-teams-security-isolation.md)는 한 팀에 대해 고유한 민감도 레이블을 사용하여 추가 보안을 제공합니다. 이 레이블을 사용하여 파일을 암호화할 수 있으며, 해당 팀 구성원만 읽을 수 있게 됩니다.
 
-기준 보호에는 공개 비공개 팀이 포함됩니다. 공개 팀은 조직의 모든 사용자가 검색하고 액세스할 수 있습니다. 개인 팀은 팀의 구성원만 검색하고 액세스할 수 있습니다. 이러한 두 가지 구성에서는 모두 권한 관리를 지원하기 위해 연결된 SharePoint 사이트의 공유를 팀 소유자로 제한합니다.
+초기 보호에는 공개 팀과 비공개 팀이 포함됩니다. 공개 팀은 조직의 모든 사용자가 검색하고 액세스할 수 있습니다. 개인 팀은 팀의 구성원만 검색하고 액세스할 수 있습니다. 이러한 두 가지 구성에서는 모두 권한 관리를 지원하기 위해 연결된 SharePoint 사이트의 공유를 팀 소유자로 제한합니다.
 
 중요한 보호 및 매우 중요한 보호에 대한 Teams는 공유 및 연결된 사이트에 대한 액세스 요청이 제한되는 비공개 팀이며, 민감도 레이블을 사용하여 게스트 공유, 장치 액세스 및 콘텐츠 암호화에 대한 정책을 설정합니다.
 

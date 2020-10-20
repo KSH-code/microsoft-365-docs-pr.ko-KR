@@ -16,18 +16,18 @@ search.appverid:
 - MET150
 description: 지원 되는 파일 형식 및 데이터 조사 (미리 보기)에 대해 볼 수 있는 뷰어를 나열 하는 표
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ca4dab40f5c3098d05323edec0ddbab54ac29273
-ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
+ms.openlocfilehash: 826ad69b1fb0074cd0c8bc1b3b0208bb8e77d528
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "48285274"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600417"
 ---
 # <a name="supported-file-types-in-data-investigations-preview"></a>데이터 조사에서 지원 되는 파일 형식 (미리 보기)
 
 데이터 조사 (미리 보기) 도구는 다음과 같은 여러 가지 방식으로 다양 한 파일 형식을 지원 합니다. 이 목록은 마무리 되지 않으며 유효성 검사 테스트를 계속할 때 새 파일 형식을 추가 합니다. 또한 증거를 검토할 때 사용할 수 있는 보기에서 파일 형식을 볼 수 있는지 여부도이 표에 나와 있습니다.
 
-| Mime 형식 | File 클래스 | 네이티브 뷰어 | 텍스트 뷰어 | 주석 달기 보기 | 컨테이너 추출 | 간격 |
+| Mime 형식 | File 클래스 | 네이티브 뷰어 | 텍스트 뷰어 | 주석 달기 보기 | 컨테이너 추출 | Extensions |
 |:------|:------|:------|:------|:------|:------|:------|
 |application/msword | 문서 | 예 | 예 | 예 | 아니요 | .doc; .dat |
 |application/pdf | 문서 | 예 | 예 | 예 | 아니요 | .pdf |
@@ -47,7 +47,7 @@ ms.locfileid: "48285274"
 |application/vnd. presentationml | 문서 | 예 | 예 | 예 | 아니요 | . potx |
 | apadsheetml | 문서 | 예 | 예 | 예 | 아니요 | .xlsx |
 |application/vnd. spreadsheetml | 문서 | 예 | 예 | 예 | 아니요 | . .xltx |
-|응용 프로그램/vnd.openxmlformats-officedocument.wordproessingml.document | 문서 | 예 | 예 | 예 | 아니요 | .docx |
+|응용 프로그램/vnd.openxmlformats-officedocument.wordprocessingml.document | 문서 | 예 | 예 | 예 | 아니요 | .docx |
 |application/vnd. wordprocessingml | 문서 | 예 | 예 | 예 | 아니요 | . dotx |
 |응용 프로그램/vnd. visio | 문서 | 예 | 예 | 예 | 아니요 | .vsd |
 |application/x-y-7z-압축 | 보관/컨테이너 | 아니요 | 아니요 | 아니요 | 예 | .7z |

@@ -21,33 +21,32 @@ search.appverid:
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 ms.custom:
 - seo-marvel-apr2020
-description: Office 365 보안 & 준수 센터에서 검색할 수 있는 전자 메일 및 파일 속성에 대해 알아봅니다.
-ms.openlocfilehash: 5445c9485d7076b3819c796028a311a523a92dde
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+description: Microsoft 365에서 검색 및 eDiscovery 도구를 사용 하 여 검색할 수 있는 전자 메일 및 파일 속성에 대해 알아봅니다.
+ms.openlocfilehash: 4ca444c7e1d7b90f76e8c3f1b23afc7edad8e44b
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446197"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600451"
 ---
-# <a name="keyword-queries-and-search-conditions-for-content-search"></a>콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건
+# <a name="keyword-queries-and-search-conditions-for-content-search-and-ediscovery"></a>콘텐츠 검색 및 eDiscovery에 대 한 키워드 쿼리 및 검색 조건
 
-이 항목에서는 보안 & 준수 센터의 콘텐츠 검색 기능을 사용 하 여 Exchange Online의 전자 메일 항목 및 SharePoint에 저장 된 문서 및 비즈니스용 OneDrive 사이트에 대해 검색할 수 있는 전자 메일 및 문서 속성에 대해 설명 합니다. 보안 & 준수 센터 PowerShell에서 ** \* -ComplianceSearch** cmdlet을 사용 하 여 이러한 속성을 검색할 수도 있습니다. 또한 다음 항목에 대해 설명 합니다.   
+이 항목에서는 Microsoft 365 준수 센터의 콘텐츠 검색 기능을 사용 하 여 Exchange Online의 전자 메일 항목 및 SharePoint에 저장 된 문서 및 비즈니스용 OneDrive 사이트에서 검색할 수 있는 전자 메일 및 문서 속성에 대해 설명 합니다. 보안 & 준수 센터 PowerShell에서 ** \* -ComplianceSearch** cmdlet을 사용 하 여 이러한 속성을 검색할 수도 있습니다. 또한 다음 항목에 대해 설명 합니다.
   
 - 부울 검색 연산자, 검색 조건 및 기타 검색 쿼리 기법을 사용 하 여 검색 결과를 구체화 합니다.
-    
-- SharePoint 및 비즈니스용 OneDrive에서 중요 한 데이터 형식 및 사용자 지정 중요 한 데이터 형식 검색
-    
-- 조직 외부의 사용자와 공유 되는 사이트 콘텐츠 검색
-    
-콘텐츠 검색을 만드는 방법에 대 한 단계별 지침은 [Office 365의 콘텐츠 검색](content-search.md)을 참조 하세요.
 
-  
+- SharePoint 및 비즈니스용 OneDrive에서 중요 한 데이터 형식 및 사용자 지정 중요 한 데이터 형식 검색
+
+- 조직 외부의 사용자와 공유 되는 사이트 콘텐츠 검색
+
+콘텐츠 검색을 만드는 방법에 대 한 단계별 지침은 [Content search](content-search.md)를 참조 하십시오.
+
 > [!NOTE]
-> 보안 & 준수 센터의 콘텐츠 검색 및 Security & 준수 센터 PowerShell에서 ** \* ComplianceSearch** Cmdlet은 키워드 쿼리 언어 (KQL)를 사용 합니다. 자세한 내용은 [키워드 쿼리 언어 구문 참조](https://go.microsoft.com/fwlink/?LinkId=269603)를 참조 하십시오. 
+> Microsoft 365 준수 센터의 콘텐츠 검색 및 Security & 준수 센터 PowerShell ** \* 의 해당 CMDLET** 은 KQL (키워드 쿼리 언어)를 사용 합니다. 자세한 내용은 [키워드 쿼리 언어 구문 참조](https://go.microsoft.com/fwlink/?LinkId=269603)를 참조 하십시오. 
   
 ## <a name="searchable-email-properties"></a>검색 가능한 전자 메일 속성
 
-다음 표에는 보안 & 준수 센터에서 콘텐츠 검색 기능을 사용 하거나 **ComplianceSearch** 또는 **ComplianceSearch** cmdlet을 사용 하 여 검색할 수 있는 전자 메일 메시지 속성이 나와 있습니다. 이 표에는 각 속성에 대 한  _속성의 값_ 구문과 예제에서 반환 된 검색 결과에 대 한 설명이 포함 되어 있습니다. `property:value`키워드 상자에 콘텐츠 검색에 대 한 이러한 쌍을 입력할 수 있습니다. 
+다음 표에는 Microsoft 365 준수 센터의 콘텐츠 검색 기능을 사용 하거나 **ComplianceSearch** 또는 **ComplianceSearch** cmdlet을 사용 하 여 검색할 수 있는 전자 메일 메시지 속성이 나와 있습니다. 이 표에는 각 속성에 대 한  _속성의 값_ 구문과 예제에서 반환 된 검색 결과에 대 한 설명이 포함 되어 있습니다. `property:value`키워드 상자에 콘텐츠 검색에 대 한 이러한 쌍을 입력할 수 있습니다. 
 
 > [!NOTE]
 > 전자 메일 속성을 검색할 때 지정 된 속성이 비어 있거나 비어 있는 항목은 검색할 수 없습니다. 예를 들어 제목 줄이 비어 있는 전자 메일 메시지를 검색 하려면 *속성: 값* 쌍 **subject: ""** 를 사용 하는 경우 0 결과가 반환 됩니다. 이는 사이트 및 연락처 속성을 검색할 때에도 적용 됩니다.
@@ -112,13 +111,13 @@ ms.locfileid: "48446197"
 |크기|항목의 크기(바이트)입니다.|`size>=1`  <br/> `size:1..10000`|첫 번째 예제에서는 1바이트 보다 큰 항목을 반환합니다. 두 번째 예제에서는 1부터 10,000바이트 크기의 항목을 반환합니다.|
 |제목|문서의 제목입니다. Title 속성은 Microsoft Office 문서에 지정 된 메타 데이터입니다. 문서의 파일 이름과 다릅니다.|`title:"communication plan"`|Office 문서의 Title 메타데이터 속성에 "communication plan"이 포함된 문서입니다.|
 |||||
-   
+
 ## <a name="searchable-contact-properties"></a>검색 가능한 연락처 속성
 
 다음 표에는 인덱싱되는 대화 상대 속성과 콘텐츠 검색을 사용 하 여 검색할 수 있는 연락처 속성이 나와 있습니다. 사용자 사서함의 개인 주소록에 있는 연락처 (개인 연락처 라고도 함)에 대해 사용자가 구성 하는 데 사용할 수 있는 속성입니다. 연락처를 검색 하려면 검색할 사서함을 선택한 다음 키워드 쿼리에서 하나 이상의 연락처 속성을 사용 하면 됩니다.
   
 > [!TIP]
-> 공백이 나 특수 문자를 포함 하는 값을 검색 하려면 큰따옴표 ("")를 사용 하 여 해당 구를 포함 합니다. 예를 들면  `businessaddress:"123 Main Street"` 입니다. 
+> 공백이 나 특수 문자를 포함 하는 값을 검색 하려면 큰따옴표 ("")를 사용 하 여 해당 구를 포함 합니다. 예를 들면 `businessaddress:"123 Main Street"` 입니다.
   
 |**속성**|**속성 설명**|
 |:-----|:-----|
@@ -144,18 +143,19 @@ ms.locfileid: "48446197"
 
 ## <a name="searchable-sensitive-data-types"></a>검색 가능한 중요한 데이터 형식
 
-보안 및 준수 센터의 콘텐츠 검색 기능을 사용 하 여 SharePoint의 문서 및 비즈니스용 OneDrive 사이트에 저장 되어 있는 중요 한 데이터 (예: 신용 카드 번호 또는 사회 보장 번호)를 검색할 수 있습니다. 이 작업은  `SensitiveType` 키워드 쿼리에 중요 한 정보 유형의 속성 및 이름을 사용 하 여 수행할 수 있습니다. 예를 들어 쿼리는  `SensitiveType:"Credit Card Number"` 신용 카드 번호가 포함 된 문서를 반환 합니다. 이 쿼리는  `SensitiveType:"U.S. Social Security Number (SSN)"` 미국 사회 보장 번호가 포함 된 문서를 반환 합니다. 검색할 수 있는 중요 한 데이터 형식 목록을 보려면 **Classifications** \> 보안 & 준수 센터에서 **중요 한 정보 유형** 분류로 이동 합니다. 또는 Security & 준수 센터 PowerShell에서 **DlpSensitiveInformationType** cmdlet을 사용 하 여 중요 한 정보 유형 목록을 표시할 수 있습니다. 
-  
-또한이 속성을 사용 하 여  `SensitiveType` 조직에 대해 자신이 만들었거나 다른 관리자가 만든 사용자 지정 중요 한 정보 유형의 이름을 검색할 수 있습니다. 보안 & 준수 센터의 **중요 한 정보 유형** 페이지 (또는 PowerShell의 **게시자** 속성)에서 **게시자** 열을 사용 하 여 기본 제공 및 사용자 지정 중요 한 정보 유형을 구분할 수 있습니다. 자세한 내용은 [사용자 지정 중요 한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)를 참조 하십시오.
+준수 센터의 콘텐츠 검색 기능을 사용 하 여 SharePoint 및 비즈니스용 OneDrive 사이트의 문서에 저장 된 신용 카드 번호 또는 사회 보장 번호와 같은 중요 한 데이터를 검색할 수 있습니다. 이 작업은 `SensitiveType` 키워드 쿼리에 중요 한 정보 유형의 속성 및 이름을 사용 하 여 수행할 수 있습니다. 예를 들어 쿼리는 `SensitiveType:"Credit Card Number"` 신용 카드 번호가 포함 된 문서를 반환 합니다. 이 쿼리는  `SensitiveType:"U.S. Social Security Number (SSN)"` 미국 사회 보장 번호가 포함 된 문서를 반환 합니다. 검색할 수 있는 중요 한 데이터 형식 목록을 보려면 **Data classifications** \> Microsoft 365 준수 센터의 데이터 분류 **중요 정보 유형** 으로 이동 하세요. 또는 Security & 준수 센터 PowerShell에서 **DlpSensitiveInformationType** cmdlet을 사용 하 여 중요 한 정보 유형 목록을 표시할 수 있습니다.
   
 이 속성을 사용 하 여 쿼리를 만드는 방법에 대 한 자세한 내용은  `SensitiveType` [Form a query to a sites에 저장 된 중요 한 데이터 찾기를](form-a-query-to-find-sensitive-data-stored-on-sites.md)참조 하십시오.
 
-> [!NOTE]
-> 중요 한 데이터 형식과 search 속성을 사용 `SensitiveType` 하 여 Exchange Online 사서함에 있는 중요 한 데이터를 검색할 수는 없습니다. 그러나 DLP (데이터 손실 방지) 정책을 사용 하 여 전송 중인 중요 한 emaill 데이터를 보호할 수 있습니다. 자세한 내용은 [데이터 손실 방지 정책 개요](data-loss-prevention-policies.md) 및 [개인 데이터 검색 및 찾기를](search-for-and-find-personal-data.md)참조 하세요.
+### <a name="limitations-for-searching-sensitive-data-types"></a>중요 한 데이터 형식 검색에 대 한 제한 사항
+
+- 이 `SensitiveType` 속성은 기본 제공 중요 한 정보 데이터 형식만 검색 하는 데에만 사용할 수 있습니다. 조직에 대해 자신이 나 다른 관리자가 만든 사용자 지정 중요 한 데이터 형식을 검색할 수는 없습니다. 기본 제공 및 사용자 지정 중요 한 정보 유형을 구분 하려면 준수 센터의 **중요 한 정보 유형** 탭 (또는 PowerShell의 **게시자** 속성)에서 **게시자** 열을 사용 합니다. 기본으로 제공 되는 중요 한 데이터 형식은 **게시자** 열의 **Microsoft Corporation** 값으로 식별 됩니다.
+  
+- 중요 한 정보 데이터 형식과 search 속성을 사용 `SensitiveType` 하 여 Exchange Online 사서함에 있는 중요 한 데이터를 검색할 수는 없습니다. 그러나 DLP (데이터 손실 방지) 정책을 사용 하 여 전송 시 중요 한 전자 메일 데이터를 보호할 수 있습니다. 자세한 내용은 [데이터 손실 방지 정책 개요](data-loss-prevention-policies.md) 및 [개인 데이터 검색 및 찾기를](search-for-and-find-personal-data.md)참조 하세요.
   
 ## <a name="search-operators"></a>검색 연산자
 
-**And**, **OR**등의 부울 검색 연산자는 검색 쿼리에 특정 단어를 포함 하거나 제외 하 여 보다 정확한 **검색을 정의**하는 데 도움이 됩니다. 다른 기술 (예: \> = 또는 ...), 따옴표, 괄호, 와일드 카드 등의 기타 기법을 사용 하면 검색 쿼리를 보다 구체화할 수 있습니다. 다음 표에서는 검색 결과를 좁히거나 넓히는 데 사용할 수 있는 연산자를 설명합니다. 
+**And**, **OR**등의 부울 검색 연산자는 검색 쿼리에 특정 단어를 포함 하거나 제외 하 여 보다 정확한 **검색을 정의**하는 데 도움이 됩니다. 또는 속성 연산자 (예: `>=` or `..` ), 따옴표, 괄호 및 와일드 카드를 사용 하는 등의 기타 기술은 검색 쿼리를 구체화 하는 데 도움이 됩니다. 다음 표에서는 검색 결과를 좁히거나 넓히는 데 사용할 수 있는 연산자를 설명합니다. 
   
 |**연산자**|**Usage**|**설명**|
 |:-----|:-----|:-----|
@@ -217,7 +217,7 @@ ms.locfileid: "48446197"
 |:-----|:-----|
 |메시지 종류| 검색할 메시지의 유형입니다. Kind 전자 메일 속성과 같은 속성입니다. 사용 가능한 값:  <br/><br/>  연락처만  <br/>  docs  <br/>  전자 메일  <br/>  externaldata  <br/>  못한  <br/>  메시징을  <br/>  저널이  <br/>  모임의  <br/>  microsoftteams  <br/>  notes  <br/>  게시물  <br/>  rssfeeds  <br/>  작업과  <br/>  음성 메일|
 |할당|전자 메일 메시지의 모든 사람 필드입니다. 이 필드는 From, To, Cc 및 Bcc입니다.|
-|유형|전자 메일 항목에 대 한 메시지 클래스 속성 이 속성은 ItemClass email 속성과 동일 합니다. 또한 다중 값 조건 이기도 합니다. 따라서 여러 메시지 클래스를 선택 하려면 **CTRL** 키를 누른 상태에서 조건에 추가할 드롭다운 목록에서 메시지 클래스를 두 개 이상 클릭 합니다. 목록에서 선택한 각 메시지 클래스는 해당 검색 쿼리의 **OR** 연산자로 논리적으로 연결 됩니다.  <br/> Exchange에서 사용 되며 **메시지 클래스** 목록에서 선택할 수 있는 메시지 클래스와 해당 메시지 클래스 ID의 목록은 [항목 형식 및 메시지 클래스](https://go.microsoft.com/fwlink/?linkid=848143)를 참조 하십시오.|
+|타이핑|전자 메일 항목에 대 한 메시지 클래스 속성 이 속성은 ItemClass email 속성과 동일 합니다. 또한 다중 값 조건 이기도 합니다. 따라서 여러 메시지 클래스를 선택 하려면 **CTRL** 키를 누른 상태에서 조건에 추가할 드롭다운 목록에서 메시지 클래스를 두 개 이상 클릭 합니다. 목록에서 선택한 각 메시지 클래스는 해당 검색 쿼리의 **OR** 연산자로 논리적으로 연결 됩니다.  <br/> Exchange에서 사용 되며 **메시지 클래스** 목록에서 선택할 수 있는 메시지 클래스와 해당 메시지 클래스 ID의 목록은 [항목 형식 및 메시지 클래스](https://go.microsoft.com/fwlink/?linkid=848143)를 참조 하십시오.|
 |수신됨|받는 사람이 전자 메일 메시지를 받은 날짜입니다. Received 전자 메일 속성과 같은 속성입니다.|
 |받는 사람|전자 메일 메시지의 모든 받는 사람 필드입니다. 이러한 필드는 받는 사람, 참조 및 숨은 참조입니다.|
 |보낸 사람|전자 메일 메시지의 보낸 사람입니다.|

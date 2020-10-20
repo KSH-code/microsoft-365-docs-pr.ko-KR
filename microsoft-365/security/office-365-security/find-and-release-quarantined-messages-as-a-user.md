@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 사용자에게 전달되었어야 하는 EOP(Exchange Online Protection)에 격리된 메시지를 보고 관리하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 03bcb0518b75d9a35aae1b6664b410b521adf940
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 2a8e37dc430af5b3d3c47179c721d83832f01184
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202846"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600348"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>EOP에서 사용자 권한으로 격리된 메시지 찾기 및 해제하기
 
@@ -100,6 +100,11 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
      - **스팸**
 
      - **피싱**
+     
+   - **정책 유형**: 정책 유형별로 메시지를 필터링합니다.
+     - **피싱 방지 정책**
+     - **호스트된 콘텐츠 필터링 정책**
+     
 
    필터를 지우려면 **지우기**를 클릭합니다. 필터 플라이아웃을 숨기려면 다시 **필터**를 클릭합니다.
 
@@ -108,6 +113,8 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
    - **메시지 ID**: 메시지의 GUID(Globally Unique Identifier)입니다. 목록에서 메시지를 선택하면 표시되는 **세부 정보** 플라이아웃 창에 **메시지 ID** 값이 표시됩니다. 관리자는 [메시지 추적](message-trace-scc.md)을 사용하여 메시지와 해당 메시지 ID 값을 찾을 수 있습니다.
 
    - **보낸 사람 전자 메일 주소**: 보낸 사람 한 명의 전자 메일 주소입니다.
+   
+   - **정책 이름**: 메시지의 전체 정책 이름을 사용합니다. 검색은 대/소문자를 구분하지 않습니다.
 
    - **받는 사람 전자 메일 주소**: 받는 사람 한 명의 전자 메일 주소입니다.
 

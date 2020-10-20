@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: c98c0081d95da19e79db03dc4b4fdb823a14e42c
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: ffa2d54385249a22d672be0c2591c3b4171bd10d
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377273"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600383"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>참가자 위험 관리 설정 시작
 
@@ -59,7 +59,7 @@ ms.locfileid: "48377273"
 정책 표시기는 다음과 같은 영역으로 분할 됩니다. 참가자 위험 정책을 만들 때 각 표시기 수준에 대해 표시기 이벤트 제한을 활성화 하 고 사용자 지정 하는 지표를 선택할 수 있습니다.
 
 - **Office 지표**: 여기에는 SharePoint 사이트, 팀 및 전자 메일 메시징의 정책 표시기가 포함 됩니다.
-- **장치 지표**: 네트워크 또는 장치와 파일을 공유 하는 등의 작업에 대 한 정책 표시기가 여기에 포함 됩니다. Microsoft Office 파일과 관련 된 활동을 포함 하는 표시기가 있습니다. CSV 파일 및. PDF 파일 **장치 표시기**를 선택 하면 Windows 10 빌드 1809 이상인 장치에 대해서만 활동이 처리 됩니다. 참가자 위험과의 통합을 위해 장치를 구성 하는 방법에 대 한 자세한 내용은 [ENDPOINT DLP 시작](endpoint-dlp-getting-started.md)을 참조 하십시오.
+- **장치 지표**: 네트워크 또는 장치와 파일을 공유 하는 등의 작업에 대 한 정책 표시기가 여기에 포함 됩니다. Microsoft Office 파일과 관련 된 활동을 포함 하는 표시기가 있습니다. CSV 파일 및. PDF 파일 **장치 표시기**를 선택 하면 Windows 10 빌드 1809 이상인 장치에 대해서만 활동이 처리 됩니다. 참가자 위험과의 통합을 위해 장치를 구성 하는 방법에 대 한 자세한 내용은 [장치 지표 및 온보드 장치 사용](insider-risk-management-settings.md#OnboardDevices) 섹션을 참조 하십시오.
 - **보안 정책 위반 지표**: 여기에는 승인 되지 않거나 악성 소프트웨어 설치와 관련 된 MICROSOFT Defender ATP에서 제공 되거나 보안 제어를 바이패스 하는 표시기가 포함 됩니다. 참가자 위험 관리에서 알림을 받으려면 활성 Microsoft Defender ATP 라이선스 및 참가자 위험 통합을 사용 하도록 설정 해야 합니다. 참가자 위험 관리 통합을 위해 Microsoft Defender ATP를 구성 하는 방법에 대 한 자세한 내용은 [Microsoft DEFENDER atp에서 고급 기능 구성을](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features\#share-endpoint-alerts-with-microsoft-compliance-center)참조 하세요.
 - **위험 점수 boosters**: 비정상적인 활동 또는 이전의 정책 위반에 대 한 위험 점수를 발생 시키는 것을 포함 합니다. 위험 점수를 사용 하도록 설정 하면 boosters 위험 성과와 이러한 유형의 활동에 대 한 알림 가능성을 높일 수 있습니다. 위험 점수 boosters는 위에서 하나 이상의 지표를 선택 하는 경우에만 선택할 수 있습니다.
 
@@ -71,6 +71,73 @@ ms.locfileid: "48377273"
 
 >[!NOTE]
 >수동으로 추가 된 새 사용자가 **사용자 대시보드에**표시 되는 데 몇 시간이 걸릴 수 있습니다. 이러한 사용자에 대 한 이전 90 일 동안의 활동은 표시 하는 데 최대 24 시간이 걸릴 수 있습니다. 수동으로 추가 된 사용자에 대 한 활동을 보려면 **사용자 대시보드에서** 사용자를 선택 하 고 세부 정보 창에서 **사용자 활동** 탭을 엽니다.
+
+### <a name="enable-device-indicators-and-onboard-devices"></a>장치 지표 및 온보드 장치 사용
+<a name="OnboardDevices"> </a>
+
+장치에서 위험 활동을 모니터링 하 고 이러한 활동에 대 한 정책 표시기를 포함 하려면 장치가 다음 요구 사항을 충족 해야 하며, 다음 온 보 딩 단계를 완료 해야 합니다.
+
+#### <a name="step-1-prepare-your-endpoints"></a>1 단계: 끝점 준비
+
+참가자 위험 관리에서 보고를 계획 하는 Windows 10 장치가 이러한 요구 사항을 충족 하는지 확인 합니다.
+
+1. Windows 10 x64 빌드 1809 이상을 실행해야 합니다.
+2. 모든 장치가 [AAD(Azure Active Directory)에 가입](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)되어 있거나 Hybrid Azure AD에 가입되어 있어야 합니다.
+3. 클라우드 업로드 활동에 대 한 작업을 모니터링 하려면 끝점 장치에 Microsoft Chromium에 지 브라우저를 설치 합니다. [Chromium 기반 새 Microsoft Edge 다운로드하기](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)를 참조하세요.
+
+#### <a name="step-2-onboarding-devices"></a>2 단계: 온 보 딩 장치
+<a name="OnboardStep2"> </a>
+
+장치에 대 한 참가자 위험 관리 활동을 모니터링 하려면 장치 모니터링을 사용 하도록 설정 하 고 끝점을 등록 해야 합니다. 이러한 작업은 모두 Microsoft 365 규정 준수 포털에서 수행됩니다.
+
+아직 등록 되지 않은 장치를 등록 하려는 경우 다음 단계에 설명 된 대로 적절 한 스크립트를 다운로드 하 고 배포 합니다.
+
+이미 [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)에 온보딩된 장치가 있으면 해당 장치가 관리되는 장치 목록에 표시됩니다. 다음 섹션에서 [3 단계: 장치에 Microsoft Defender for 등록가 있는 경우](insider-risk-management-settings.md#OnboardStep3) 를 수행 합니다.
+
+이 배포 시나리오에서는 아직 등록 되지 않은 장치를 온보드 것 이며, Windows 10 장치에서의 참가자 위험 활동도 모니터링 하 고 싶을 것입니다.
+
+1. [Microsoft 규정 준수 센터](https://compliance.microsoft.com)를 엽니다.
+2. 규정 준수 센터 설정 페이지를 열고 **장치 온보딩**을 선택합니다.
+
+   > [!NOTE]
+   > 일반적으로 장치 온보딩이 활성화되는 데 60초 정도 소요되지만, Microsoft 지원에 연락하기 전에 30분까지 기다려보세요.
+
+3. **장치 관리**를 선택하여 **장치** 목록을 엽니다. 목록은 장치가 온보딩될 때까지 비어 있습니다.
+4. **온보딩**을 선택하여 온보딩 프로세스를 시작합니다.
+5. **배포 방법** 목록에서 이러한 추가 장치에 배포할 방법을 선택한 다음 **패키지를 다운로드합니다**.
+6. [Windows 10 컴퓨터용 온보딩 도구와 방법](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)의 해당 절차를 따르세요. 이 링크를 누르면 5단계에서 선택한 배포 패키지와 일치하는 엔드포인트용 Microsoft Defender에 액세스할 수 있는 랜딩 페이지로 이동합니다.
+    - 그룹 정책을 사용하여 Windows 10 컴퓨터 온보딩하기
+    - Microsoft Endpoint Configuration Manager를 사용하여 Windows 컴퓨터 온보딩하기
+    - 모바일 장치 관리 도구를 사용하여 Windows 10 컴퓨터 온보딩하기
+    - 로컬 스크립트를 사용하여 Windows 10 컴퓨터 온보딩하기
+    - 비영구적 VDI(가상 데스크톱 인프라) 머신 온보딩하기
+
+완료 되 고 끝점이 등록 되 면 장치 목록에 표시 되 고 끝점은 감사 작업 로그를 참가자 위험 관리에 대해 보고 하기 시작 합니다.
+
+> [!NOTE]
+> 이 환경은 라이선스 적용하에 있습니다. 필수 라이선스가 없으면 데이터가 표시되지 않거나 테이터에 액세스할 수 없습니다.
+
+#### <a name="step-3-if-you-have-devices-onboarded-into-microsoft-defender-for-endpoint"></a>3 단계: 장치가 Microsoft Defender for Endpoint에 등록 있는 경우
+<a name="OnboardStep3"> </a>
+
+끝점에 대 한 Microsoft Defender가 이미 배포 되었으며 끝점 보고가 있으면 이러한 모든 끝점이 관리 되는 장치 목록에 표시 됩니다. [2 단계: 온 보 딩 devices](insider-risk-management-settings.md#OnboardStep2) 섹션을 사용 하 여 새 장치를 참가자 위험 관리로 계속 해 서 등록할 수 있습니다.
+
+1. [Microsoft 규정 준수 센터](https://compliance.microsoft.com)를 엽니다.
+2. 규정 준수 센터 설정 페이지를 열고 **장치 모니터링 사용**을 선택합니다.
+3. **장치 관리**를 선택하여 **장치** 목록을 엽니다. 이미 엔드포인트용 Microsoft Defender에 보고하고 있는 장치 목록이 표시되어야 합니다.
+4. 추가 디바이스를 온보딩해야 하는 경우에는 **온보딩**을 선택합니다.
+5. **배포 방법** 목록에서 이러한 추가 장치에 배포할 방법을 선택한 다음 **패키지를 다운로드합니다**.
+6. [Windows 10 컴퓨터용 온보딩 도구와 방법](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)의 해당 절차를 따르세요. 이 링크를 누르면 5단계에서 선택한 배포 패키지와 일치하는 엔드포인트용 Microsoft Defender에 액세스할 수 있는 랜딩 페이지로 이동합니다.
+    - 그룹 정책을 사용하여 Windows 10 컴퓨터 온보딩하기
+    - Microsoft Endpoint Configuration Manager를 사용하여 Windows 컴퓨터 온보딩하기
+    - 모바일 장치 관리 도구를 사용하여 Windows 10 컴퓨터 온보딩하기
+    - 로컬 스크립트를 사용하여 Windows 10 컴퓨터 온보딩하기
+    - 비영구적 VDI(가상 데스크톱 인프라) 머신 온보딩하기
+
+작업이 완료 되 고 끝점이 등록 **장치** 테이블 아래에 표시 되 고 끝점은 감사 작업 로그에서 위험 관리를 참가자에 게 보고 하기 시작 합니다.
+
+> [!NOTE]
+>이 환경은 라이선스 적용하에 있습니다. 필수 라이선스가 없으면 데이터가 표시되지 않거나 테이터에 액세스할 수 없습니다.
 
 ### <a name="indicator-level-settings-preview"></a>지표 수준 설정 (미리 보기)
 
