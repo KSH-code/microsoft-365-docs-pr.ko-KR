@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -25,12 +25,12 @@ ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
-ms.openlocfilehash: baf09d87f6229cb530c328d570fa70dc25729a11
-ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
+ms.openlocfilehash: 778906219c03e8cc79ccebb368b84642639a8467
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407959"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638438"
 ---
 # <a name="pay-for-your-subscription"></a>구독 결제
 
@@ -48,7 +48,7 @@ ms.locfileid: "44407959"
 
 ## <a name="pay-by-credit-card-or-bank-account"></a>신용 카드 또는 은행 계좌로 결제
 
-신용 카드 또는 은행 계좌로 결제하는 경우 구독 기간이 끝날 때까지 구독 요금이 송장 날짜 다음날에 자동으로 청구됩니다. 필요한 경우 언제 든 지 [결제 방법을 관리할](manage-payment-methods.md) 수 있습니다. 또한 [전자 메일로 청구서 사본 받기](#receive-a-copy-of-your-billing-statement-in-email) 선택할 수 있습니다.
+신용 카드 또는 은행 계좌로 결제하는 경우 구독 기간이 끝날 때까지 구독 요금이 송장 날짜 다음날에 자동으로 청구됩니다. 필요한 경우 [결제 방법을 관리](manage-payment-methods.md)할 수 있습니다. 또한 [전자 메일로 청구서 사본 받기](#receive-a-copy-of-your-billing-statement-in-email) 선택할 수 있습니다.
 
 ### <a name="what-if-my-credit-card-was-declined-and-my-payment-is-past-due"></a>신용 카드가 거부되었는데 결제 기한이 지난 경우에 어떻게 되나요?
 

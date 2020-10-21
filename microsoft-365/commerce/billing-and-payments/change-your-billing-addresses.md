@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: 비즈니스용 Microsoft 365에 대 한 대금 청구 주소를 업데이트 하는 방법을 알아봅니다. 또한 대금 청구 알림을 수신 하는 데 사용 되는 전자 메일 주소를 업데이트할 수 있습니다.
-ms.openlocfilehash: 5e6fc2bad63c445f516ba3cd473bd40c7bfcb2e3
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+ms.openlocfilehash: d6083a170adddc6bd389e5f33a1050a7e048ad31
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324355"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638486"
 ---
 # <a name="change-your-billing-addresses"></a>대금 청구 주소 변경
 
@@ -130,7 +130,7 @@ ms.locfileid: "47324355"
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
-2. **제품** 탭에서 변경 하려는 구독을 선택 합니다.
+2. **제품** 탭에서 변경할 구독을 선택합니다.
 3. 구독 정보 페이지의 **서비스 사용 주소** 섹션에서 **서비스 사용 주소 편집**을 선택 합니다.
 4. **서비스 사용 주소 편집** 창에서 주소를 업데이트 한 다음 **저장**을 선택 합니다.
 

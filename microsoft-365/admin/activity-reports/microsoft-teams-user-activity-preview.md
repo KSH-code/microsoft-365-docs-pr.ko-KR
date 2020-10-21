@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 팀 사용자 활동 보고서를 가져오고 조직의 팀 활동에 대 한 정보를 파악 하는 방법을 알아봅니다.
-ms.openlocfilehash: 32252ed89dd9447b5df59ee733088349c559a320
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+ms.openlocfilehash: 8ce29b43e6238883470d1159ad1d22fefca88792
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104513"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48637070"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>관리 센터의 microsoft 365 보고서-Microsoft 팀 사용자 활동
 
@@ -37,14 +37,14 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
 
 1. 관리 센터에서 **보고서** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> 페이지를 참조하세요.
 2. 대시보드 홈 페이지에서 Microsoft 팀 활동 카드의 **기타 보기** 단추를 클릭 합니다.
-  
+
 ## <a name="interpret-the-microsoft-teams-user-activity-report"></a>Microsoft Teams 사용자 활동 보고서 해석
 
 **사용자 작업** 탭을 선택 하 여 팀 보고서에서 사용자 활동을 볼 수 있습니다. <br/>![Microsoft 365 보고서-Microsoft 팀 사용자 활동](../../media/1011877f-3cf0-4417-9447-91d0b2312aab.png)
 
 **열 선택을** 선택 하 여 보고서에서 열을 추가 하거나 제거 합니다.  <br/> ![Teams user activity report - choose columns](../../media/a1513028-cf09-4186-93a6-8a203cd22475.png)
 
-**내보내기** 링크를 선택 하 여 보고서 데이터를 Excel .csv 파일로 내보낼 수도 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 내보낸 형식 ( **오디오 시간**, **비디오 시간** 및 **화면 공유 시간** )은 ISO8601 날짜 형식에 따릅니다.
+**내보내기** 링크를 선택 하 여 보고서 데이터를 Excel .csv 파일로 내보낼 수도 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 내보낸 형식 ( **오디오 시간**, **비디오 시간** 및 **화면 공유 시간** )은 ISO8601 duration 형식에 따릅니다.
 
 |항목|설명|
 |:-----|:-----|

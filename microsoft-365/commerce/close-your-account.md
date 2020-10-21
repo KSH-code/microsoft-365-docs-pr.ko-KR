@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -17,12 +17,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Microsoft에서 계정을 닫는 방법을 알아봅니다.
-ms.openlocfilehash: a92b9f2053d9acf4e8233bee7a42047f51288943
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: 9545c43ee27fb000149776527030b04b5e807a5c
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44898924"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638378"
 ---
 # <a name="close-your-account"></a>계정 사용 중지 
 
@@ -49,7 +49,7 @@ Microsoft 계정을 폐쇄하면 계정과 관련된 모든 정보가 삭제됩�
 
 ## <a name="step-2-cancel-all-active-subscriptions"></a>2 단계: 모든 활성 구독 취소
 
-1. 관리 센터에서 **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 청구 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 페이지로 이동하세요.
 
 2. 구독 목록이 **표** 보기에 있는 경우 오른쪽에서 **카드**를 선택 합니다.
 
@@ -61,7 +61,7 @@ Microsoft 계정을 폐쇄하면 계정과 관련된 모든 정보가 삭제됩�
 
 ## <a name="step-3-delete-all-disabled-subscriptions"></a>3 단계: 사용 하지 않는 구독 모두 삭제
 
-1. 관리 센터에서 **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 청구 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 페이지로 이동하세요.
 
 2. 구독 목록이 **표** 보기에 있는 경우 오른쪽에서 **카드**를 선택 합니다.
 

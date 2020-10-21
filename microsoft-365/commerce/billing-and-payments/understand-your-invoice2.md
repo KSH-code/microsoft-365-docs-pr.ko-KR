@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -25,12 +25,12 @@ search.appverid:
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
 description: Microsoft 365의 비즈니스 청구서 또는 송장에 대 한 청구 금액, 비용 및 지불 정보를 해석 하는 방법과 구매 주문 번호를 변경 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a46f108766ccfec4f7f6abaa2d48d38137311707
-ms.sourcegitcommit: 7f765670cb6970fdf7ddbad464ed3f8fe704bfaf
+ms.openlocfilehash: 3d71bab82be3fd9e4c633885dccaf357ccabb551
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "44909267"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638402"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>비즈니스에 대 한 Microsoft 365의 청구서 또는 송장 이해
 
@@ -139,6 +139,6 @@ ms.locfileid: "44909267"
 
 ## <a name="related-articles"></a>관련 문서
 
-[Microsoft 365 비즈니스 에디션 구독 결제](pay-for-your-subscription.md)
+[비즈니스용 Microsoft 365 구독 결제](pay-for-your-subscription.md)
 
 [Minecraft: Education Edition 결제 옵션](https://go.microsoft.com/fwlink/p/?linkid=838761)

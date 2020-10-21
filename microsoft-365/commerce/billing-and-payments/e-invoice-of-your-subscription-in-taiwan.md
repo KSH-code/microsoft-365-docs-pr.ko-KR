@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,16 +21,16 @@ search.appverid:
 ms.assetid: 66315e5b-883a-432b-8650-d896f95af228
 ROBOTS: NOINDEX
 description: 대만식 용 Microsoft 365 for business e-송장에 대해 알아봅니다.
-ms.openlocfilehash: 1ea9ff21e25229924cd6815999b9c0868173026f
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 2cdc3f6fe4b87f92b16355f10416fa99712c6fcb
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401789"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638474"
 ---
 # <a name="understand-your-e-invoice-for-microsoft-365-for-business-taiwan"></a>Microsoft 365 for business (대만식)에 대 한 전자 송장 이해
 
-전자 송장 이란 구매자가 대/세금 청구 요구 사항에 따라 판매자가 발급 한 전자 송장입니다. 정보는 레코드 유지를 위해 대만식 세금 기관의 전자 송장 클라우드로 전송 됩니다. 대만식 e-송장 관련 정보는 여기를 참조 하세요.<a href="https://www.einvoice.nat.gov.tw/" target="_blank">財政部電子發票整合服務平台</a>
+전자 송장 이란 구매자가 대/세금 청구 요구 사항에 따라 판매자가 발급 한 전자 송장입니다. 정보는 레코드 유지를 위해 대만식 세금 기관의 전자 송장 클라우드로 전송 됩니다. 대만식 e-송장 관련 정보는 여기를 참조 하세요. <a href="https://www.einvoice.nat.gov.tw/" target="_blank">財政部電子發票整合服務平台</a>
   
 전자 송장 예제 복사본은 다음과 같습니다.
   

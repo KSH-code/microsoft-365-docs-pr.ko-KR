@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -21,16 +21,16 @@ search.appverid:
 - MET150
 description: 비즈니스용 Microsoft 365의 구독 및 라이선스에 대해 알아봅니다.
 ms.date: 07/01/2020
-ms.openlocfilehash: 9f8576b00b942c4b38d6192770bd2128afb4b104
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 51d07e777fd5a9e44c864ea11bb00ddc8c1c70d1
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45015962"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638198"
 ---
 # <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>비즈니스에 대 한 Microsoft 365의 구독 및 라이선스 이해
 
-비즈니스용 Microsoft 365에 대 한 구독을 구입할 때 매월 또는 연간 기준으로 지불 하는 앱 및 서비스 집합에 등록 합니다. 구독의 일부로 수신 하는 응용 프로그램 및 서비스는 구입한 제품 (예: 비즈니스용 Microsoft 365 Apps 또는 Microsoft 365 Business Standard)에 따라 달라 집니다.  [중소 기업에 대 한 Microsoft 365](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1) 의 각 제품과 함께 제공 되는 항목을 확인할 수 있습니다.
+비즈니스용 Microsoft 365에 대 한 구독을 구입할 때 매월 또는 연간 기준으로 지불 하는 앱 및 서비스 집합에 등록 합니다. 구독의 일부로 수신 하는 응용 프로그램 및 서비스는 구입한 제품 (예: 비즈니스용 Microsoft 365 Apps 또는 Microsoft 365 Business Standard)에 따라 달라 집니다. [중소 기업에 대 한 Microsoft 365](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1) 의 각 제품과 함께 제공 되는 항목을 확인할 수 있습니다.
 
 구독을 구입할 때 조직의 사용자 수를 기준으로 필요한 라이선스 수를 지정합니다. 구독을 구매한 후에는 조직 내 사용자에 대 한 계정을 만든 다음 각 사용자에 게 라이선스를 할당 합니다. 조직의 요구 사항이 변경 되 면 새 사용자를 수용할 수 있는 라이선스를 추가로 구입 하거나 다른 사용자에 게 라이선스를 다시 할당 합니다.
 
@@ -80,11 +80,11 @@ ms.locfileid: "45015962"
 |전역 관리자  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
 |라이선스 관리자 <br/> |예 <br/>|예 <br/> |아니요 <br/> |아니요 <br/> |
 |서비스 지원 관리자  <br/> |아니요  <br/> |아니요  <br/> |아니요  <br/> |아니요  <br/> |
-|사용자 관리자  <br/> |예  <br/> |예  <br/> |아니오  <br/> |있음  <br/> |
+|사용자 관리자  <br/> |예  <br/> |예  <br/> |아니요  <br/> |예  <br/> |
 
 ## <a name="related-content"></a>관련 콘텐츠
 
 [비즈니스 구독에 대 한 라이선스 구입 또는 제거](buy-licenses.md) (문서) \
 [사용자에 게 라이선스 할당](../../admin/manage/assign-licenses-to-users.md) (문서) \
-[사용자의 라이선스 할당](../../admin/manage/remove-licenses-from-users.md) 해제 (문서) \
+[사용자의 라이선스 할당 취소](../../admin/manage/remove-licenses-from-users.md) (문서)\
 [공유 사서함에서 라이선스 제거](../../admin/email/remove-license-from-shared-mailbox.md) (문서)

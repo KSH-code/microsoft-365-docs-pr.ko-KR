@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 f1_keywords:
@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 description: Microsoft 비즈니스 제품에 대 한 청구서 또는 송장을 읽고 이해 하는 방법에 대해 알아보세요.
 keywords: 청구 계정, 조직 정보, 송장
-ms.openlocfilehash: f0575683cdcaf0ac76de80c93e0d7573e8c63bae
-ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
+ms.openlocfilehash: 80b7e4f14390e2f695dc753358f9e5bebe055bd0
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45391521"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638414"
 ---
 # <a name="understand-your-bill-or-invoice"></a>청구서 또는 송장 이해하기
 

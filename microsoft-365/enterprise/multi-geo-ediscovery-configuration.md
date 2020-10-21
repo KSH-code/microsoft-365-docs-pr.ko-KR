@@ -13,16 +13,18 @@ ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 ms.collection: Strat_SP_gtc
 description: Region 매개 변수를 사용 하 여 Microsoft 365 다중 Geo의 위성 위치에서 사용할 eDiscovery를 구성 하는 방법을 알아봅니다.
-ms.openlocfilehash: 216012791473776395d27821293e8fc565568c2c
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: d1d66a9e7953b540e318c8364bdcb8d72654b482
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547953"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48636808"
 ---
 # <a name="microsoft-365-multi-geo-ediscovery-configuration"></a>Microsoft 365 Multi-Geo eDiscovery 구성
 
-기본적으로 eDiscovery 관리자 또는 다중 위치 테넌트의 관리자는 해당 테넌트의 중앙 위치에서만 eDiscovery를 수행할 수 있습니다. 위성 위치에 대한 eDiscovery를 수행할 수 있는 기능을 지원하기 위해 "Region"이라는 새로운 준수 보안 필터 매개 변수를 PowerShell을 통해 사용할 수 있습니다.
+[고급 ediscovery 기능](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20) 을 사용 하면 다중 geo ediscovery 관리자가 "지역" 보안 필터를 이용 하지 않고도 모든 지역를 검색할 수 있습니다. 데이터를 다중 위치 테 넌 트의 중앙 위치에 대 한 Azure 인스턴스로 내보냅니다. 
+
+고급 eDiscovery 기능이 없으면 다중 위치 테 넌 트의 eDiscovery 관리자 또는 관리자가 해당 테 넌 트의 중앙 위치 에서만 eDiscovery를 수행할 수 있습니다. 위성 위치에서 eDiscovery를 수행 하는 기능을 지원 하기 위해 PowerShell을 통해 "Region" 이라는 새 규정 준수 보안 필터 매개 변수를 사용할 수 있습니다. 이 매개 변수는 중앙 위치가 북미, 유럽 또는 아시아 태평양에 있는 테 넌 트에서 사용 될 수 있습니다. 중앙 위치가 북미, 유럽 또는 아시아 태평양에 없고 위성 지리적 위치에서 eDiscovery를 수행 해야 하는 테 넌 트에는 Advanced eDiscovery가 권장 됩니다. 
 
 Microsoft 365 전역 관리자는 다른 사용자들이 eDiscovery를 수행할 수 있도록 하기 위해 eDiscovery 관리자 권한을 할당해야 하며, 해당 준수 보안 필터에서 “Region” 매개 변수를 할당하여 eDiscovery 수행 지역을 위성 위치로 지정해야 합니다. 그렇지 않으면 해당 위성 위치에 대해 eDiscovery가 수행되지 않습니다.
 
