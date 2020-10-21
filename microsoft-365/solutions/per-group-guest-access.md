@@ -1,5 +1,5 @@
 ---
-title: 특정 그룹의 게스트 사용자 차단
+title: 게스트 사용자가 특정 그룹에 추가 되지 않도록 설정
 ms.reviewer: arvaradh
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,21 +14,23 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-description: 특정 그룹의 게스트 사용자 차단
-ms.openlocfilehash: 17e5f8f9ab4107a12a0607dca3795d54b7be012c
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+description: 게스트 사용자가 특정 그룹에 추가 되지 않도록 하는 방법을 알아봅니다.
+ms.openlocfilehash: 91c7560186fb0b954075e9ff9c997b34121951cd
+ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377315"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48651353"
 ---
-# <a name="block-guest-users-from-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>특정 Microsoft 365 그룹 또는 Microsoft 팀 팀의 게스트 사용자 차단
+# <a name="prevent-guest-users-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>게스트 사용자가 특정 Microsoft 365 그룹 또는 Microsoft 팀 팀에 추가 되지 않도록 합니다.
 
-대부분의 그룹과 팀에 대 한 게스트 액세스를 허용 하지만 게스트 액세스를 차단 하려는 경우에는 개별 그룹 및 팀에 대 한 게스트 액세스를 차단할 수 있습니다. (팀에 대 한 게스트 액세스 차단은 연결 된 그룹에 대 한 게스트 액세스를 차단 하 여 수행 됩니다.)
+대부분의 그룹과 팀에 대 한 게스트 액세스를 허용 하지만 게스트 액세스를 차단 하려는 경우에는 개별 그룹 및 팀에 대 한 게스트 액세스를 차단할 수 있습니다. (팀에 대 한 게스트 액세스 차단은 연결 된 그룹에 대 한 게스트 액세스를 차단 하 여 수행 됩니다.) 이렇게 하면 새 게스트가 추가 되는 것을 방지할 수 있지만 그룹 또는 팀에 이미 있는 게스트는 제거 되지 않습니다.
 
 조직에서 민감도 레이블을 사용 하는 경우에는 그룹 단위로 게스트 액세스를 제어 하는 데 사용 하는 것이 좋습니다. 이 작업을 수행 하는 방법에 대 한 자세한 내용은 [민감도 레이블을 사용 하 여 Microsoft 팀, microsoft 365 그룹 및 SharePoint 사이트의 콘텐츠를 보호](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)합니다. 가능한 한 이 방법을 사용하는 것이 좋습니다.
 
-Microsoft PowerShell을 사용 하 여 개별 그룹에 대 한 게스트 액세스를 차단할 수도 있습니다.
+## <a name="change-group-settings-using-microsoft-powershell"></a>Microsoft PowerShell을 사용 하 여 그룹 설정 변경
+
+PowerShell을 사용 하 여 개별 그룹에 새 게스트를 추가 하지 못하게 할 수도 있습니다.
 
 그룹 수준 게스트 액세스 설정을 변경 하려면 [Graph에 대 한 Azure Active Directory PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) 의 preview 버전 (모듈 이름 **AzureADPreview**)을 사용 해야 합니다.
 

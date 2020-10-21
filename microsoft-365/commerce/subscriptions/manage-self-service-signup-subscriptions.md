@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,12 +18,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: 조직에 대 한 무료 셀프 서비스 등록 구독을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 81c67292a394c62d6057022babb88aa8796b9b3d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: fb70d0c40d4358abc227c8f6ff4a0e0dce1a7265
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403249"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48647834"
 ---
 # <a name="manage-self-service-sign-up-subscriptions"></a>셀프 서비스 등록 구독 관리
 
@@ -44,7 +44,7 @@ ms.locfileid: "44403249"
 > [!IMPORTANT]
 > 셀프 서비스 등록 구독을 삭제 하면 모든 사용자가 해당 데이터 및 전자 메일에 액세스할 수 없도록 차단 되며 모든 데이터 및 전자 메일을 삭제 합니다.
 
-1. 관리 센터에서 **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 청구 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 페이지로 이동하세요.
 2. 삭제 하려는 셀프 서비스 등록 구독을 찾습니다. **& 작업 설정** 섹션에서 **구독 삭제**를 선택 합니다.
 3. **구독 삭제** 창에서 확인란을 선택 하 고 **구독 삭제**를 선택 합니다.
 

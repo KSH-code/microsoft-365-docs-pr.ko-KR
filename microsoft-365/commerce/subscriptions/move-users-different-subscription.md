@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: 구독 간에 사용자를 이동 하는 방법에 대해 알아봅니다.
 ms.date: 07/01/2020
-ms.openlocfilehash: d110ee7c49befa34f5a2cd3bb44dc114aec25b62
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 79f3e4636ff047c4d6f27d83e3644913a8fbb0b5
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45016551"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48647798"
 ---
 # <a name="move-users-to-a-different-subscription"></a>다른 구독으로 사용자 이동
 
@@ -38,9 +38,9 @@ ms.locfileid: "45016551"
 
 구독을 두 개 이상 사용 하는 경우 사용자에 게 하나의 구독에 대 한 라이선스가 있지만 다른 구독으로 이동 하려는 경우 기존 라이선스를 다른 가입으로 바꿀 수 있습니다.
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
 
-라이선스를 할당 하려면 전역, 라이선스 또는 사용자 관리자 여야 합니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)를 참조하세요.
+라이선스를 할당하려면 전역, 라이선스 또는 사용자 관리자여야 합니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)를 참조하세요.
 
 ## <a name="move-users-to-a-different-subscription"></a>다른 구독으로 사용자 이동
 

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -22,12 +22,12 @@ search.appverid:
 - BEA160
 ROBOTS: NOINDEX
 description: 새 구독을 구입 하 고 구독이 모두 나열 되 고 활성 상태가 되도록 하 여 수동으로 구독을 변경 합니다.
-ms.openlocfilehash: 20f5492a816c6c819456ac2ca4aa0f20da24eccd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 09557b3556db1e6f17d7a4cd54a88ba34d0f0bd7
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403285"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48647822"
 ---
 # <a name="change-plans-manually"></a>수동으로 계획 변경
 
@@ -84,7 +84,7 @@ ms.locfileid: "44403285"
 
 ### <a name="reassign-a-license-for-one-user"></a>한 사용자에 대 한 라이선스 다시 할당
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. **활성 사용자** 페이지에서 라이선스를 할당 하려는 사용자를 선택 합니다.
 
@@ -92,7 +92,7 @@ ms.locfileid: "44403285"
 
 ### <a name="reassign-licenses-for-multiple-users-at-once"></a>한 번에 여러 사용자에 대해 라이선스 다시 할당
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 기존 라이선스를 바꾸려는 사용자의 이름 옆에 있는 원을 선택 합니다.
 
