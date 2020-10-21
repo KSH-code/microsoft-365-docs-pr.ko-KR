@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,31 +13,31 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f43e800d0b374fa7a4c8e4ef8b2e8d809fba0d6d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 880108ad28a6230102e3e65f87372595e66b7f24
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44396473"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48641018"
 ---
-# <a name="contact-support-for-mongolia"></a><span data-ttu-id="4076f-103">몽골에 대 한 지원 문의</span><span class="sxs-lookup"><span data-stu-id="4076f-103">Contact support for Mongolia</span></span>
+# <a name="contact-support-for-mongolia"></a><span data-ttu-id="6546b-103">몽골에 대 한 지원 문의</span><span class="sxs-lookup"><span data-stu-id="6546b-103">Contact support for Mongolia</span></span>
 
-<span data-ttu-id="4076f-104">[다른 국가 또는 지역을 찾습니다](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="4076f-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="6546b-104">[다른 국가 또는 지역을 찾습니다](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="6546b-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="4076f-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="4076f-105">Phone number</span></span>
-<span data-ttu-id="4076f-106">+ 7 499 922 86 23</span><span class="sxs-lookup"><span data-stu-id="4076f-106">+7 499 922 86 23</span></span>
+## <a name="phone-number"></a><span data-ttu-id="6546b-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="6546b-105">Phone number</span></span>
+<span data-ttu-id="6546b-106">+ 7 499 922 86 23</span><span class="sxs-lookup"><span data-stu-id="6546b-106">+7 499 922 86 23</span></span>
 
-## <a name="hours"></a><span data-ttu-id="4076f-107">시간</span><span class="sxs-lookup"><span data-stu-id="4076f-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="4076f-108">대금 청구 지원:</span><span class="sxs-lookup"><span data-stu-id="4076f-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="6546b-107">시간</span><span class="sxs-lookup"><span data-stu-id="6546b-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="6546b-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="6546b-108">Billing Support:</span></span>
 
-<span data-ttu-id="4076f-109">러시아어: Mon-금요일 오전 10 시-오후 7 시</span><span class="sxs-lookup"><span data-stu-id="4076f-109">Russian: Mon-Fri 10 AM-7 PM Moscow</span></span>
+<span data-ttu-id="6546b-109">러시아어: 오전 10 시 Mon-Fri, 오후 7 시</span><span class="sxs-lookup"><span data-stu-id="6546b-109">Russian: Mon-Fri 10 AM-7 PM Moscow</span></span>
 
-<span data-ttu-id="4076f-110">영어: Mon-금요일 오전 9 시-오후 5 시</span><span class="sxs-lookup"><span data-stu-id="4076f-110">English: Mon-Fri 9 AM-5 PM London</span></span>
+<span data-ttu-id="6546b-110">영어: Mon-Fri 오전 9 시-오후 5 시</span><span class="sxs-lookup"><span data-stu-id="6546b-110">English: Mon-Fri 9 AM-5 PM London</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="4076f-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="4076f-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="6546b-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="6546b-111">Technical Support:</span></span>
 
-<span data-ttu-id="4076f-112">러시아어: Mon-금요일 7 시-오후 8 시</span><span class="sxs-lookup"><span data-stu-id="4076f-112">Russian: Mon-Fri 7 AM-8 PM Moscow</span></span>
+<span data-ttu-id="6546b-112">러시아어: Mon-Fri 7 AM-오후 8 시</span><span class="sxs-lookup"><span data-stu-id="6546b-112">Russian: Mon-Fri 7 AM-8 PM Moscow</span></span>
 
-<span data-ttu-id="4076f-113">영어: 하루 24 시간 365 일 연중 무휴로</span><span class="sxs-lookup"><span data-stu-id="4076f-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="6546b-113">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="6546b-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="4076f-114">국제 통화 요금이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4076f-114">International call charges apply</span></span>
+<span data-ttu-id="6546b-114">국제 통화 요금이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6546b-114">International call charges apply</span></span>
