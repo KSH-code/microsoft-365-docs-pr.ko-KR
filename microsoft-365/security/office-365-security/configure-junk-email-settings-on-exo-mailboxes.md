@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online 사서함에서 정크 메일 설정을 구성 하는 방법을 알 수 있습니다. 이러한 설정 중 상당수는 Outlook 또는 웹용 Outlook에서 사용자에 게 제공 됩니다.
-ms.openlocfilehash: 632c6f37b80cdc38b513f66ad42e4a5c25b41f25
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: ed1513dc16caa25edfe0acd62db59304d90e76c5
+ms.sourcegitcommit: e17fd18b01d70e6428263c20cbce4b92e2a97765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203350"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48626158"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Exchange Online 사서함에 대한 정크 메일 설정 구성
 
@@ -36,7 +36,7 @@ Exchange Online의 사서함이 있는 Microsoft 365 조직에서 조직 스팸 
 
   - **스팸 방지 정책을 기반으로 정크 메일 폴더로 메시지 이동**: 스팸 방지 정책에 대 한 **메시지 이동** 작업을 정크 메일 필터링 결과으로 구성한 경우 정크 메일 필터 규칙은 메시지가 사서함으로 배달 된 후 해당 메시지를 정크 메일 폴더로 이동 합니다. 스팸 방지 정책에서의 스팸 필터링 verdicts에 대 한 자세한 내용은 Configure 안티스팸 information For [EOP](configure-your-spam-filter-policies.md)을 참조 하십시오. 마찬가지로, ZAP (자동 삭제)이 배달 된 메시지가 스팸으로 또는 피싱 경우 정크 메일 필터 규칙은 메시지를 **정크 메일 폴더** 스팸 필터링 결과 작업으로 이동 하기 위해 정크 메일 폴더로 이동 합니다. ZAP에 대 한 자세한 내용은 [Exchange Online에서 제로 시간 자동 삭제 (ZAP)](zero-hour-auto-purge.md)를 참조 하세요.
 
-  - **사용자가 Outlook 또는 웹용 outlook에서 자신을 위해 구성 하는 정크 메일 설정**: _수신 허용 목록 컬렉션_ 은 수신 허용-보낸 사람 목록, 수신 허용-받는 사람 목록 및 각 사서함의 보낸 사람 차단 목록입니다. 이러한 목록의 항목에 따라 정크 메일 규칙에서 메시지를 받은 편지함 또는 정크 메일 폴더로 이동할 것인지 여부가 결정 됩니다. 사용자는 Outlook 또는 웹용 Outlook (이전의 Outlook Web App)에서 자신의 사서함에 대 한 수신 허용 목록 컬렉션을 구성할 수 있습니다. 관리자는 모든 사용자 사서함에서 수신 허용 목록 컬렉션을 구성할 수 있습니다.
+  - **사용자가 Outlook 또는 웹용 outlook에서 자신을 위해 구성 하는 정크 메일 설정**: _수신 허용 목록 컬렉션_ 은 수신 허용-보낸 사람 목록, 수신 허용-받는 사람 목록 및 각 사서함에 대 한 수신 거부 목록입니다. 이러한 목록의 항목에 따라 정크 메일 규칙에서 메시지를 받은 편지함 또는 정크 메일 폴더로 이동할 것인지 여부가 결정 됩니다. 사용자는 Outlook 또는 웹용 Outlook (이전의 Outlook Web App)에서 자신의 사서함에 대 한 수신 허용 목록 컬렉션을 구성할 수 있습니다. 관리자는 모든 사용자 사서함에서 수신 허용 목록 컬렉션을 구성할 수 있습니다.
 
 사서함에서 정크 메일 규칙을 사용 하도록 설정 하면 EOP에서 사서함에 대 한 스팸 필터링 결과 작업 **이동 메시지를 정크** 메일 폴더 또는 수신 거부 목록에 기반 하 여 정크 메일 폴더로 이동 하 고 메시지를 정크 메일 폴더 (사서함의 수신 허용-보낸 사람 목록에 기반)로 배달 하지 않도록 할 수 있습니다.
 
@@ -47,7 +47,7 @@ Exchange Online의 사서함이 있는 Microsoft 365 조직에서 조직 스팸 
 > [!NOTE]
 > 사용자가 자체 수신 허용-보낸 사람 목록에 추가한 보낸 사람의 메시지는 EOP (SCL is-1)의 일부로 연결 필터링을 건너뜁니다. 사용자가 Outlook에서 수신 허용-보낸 사람 목록에 항목을 추가 하지 못하도록 하려면이 항목 뒷부분의  [outlook의 정크 메일 설정](#about-junk-email-settings-in-outlook) 섹션에 설명 된 대로 그룹 정책을 사용 합니다. 정책 필터링, 콘텐츠 필터링 및 ATP (Advanced Threat Protection) 확인은 여전히 메시지에 적용 됩니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - 다음 절차를 수행 하는 경우에만 Exchange Online PowerShell을 사용할 수 있습니다. Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
@@ -104,7 +104,7 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 
 ****
 
-|Set-mailboxjunkemailconfiguration의 매개 변수|웹용 Outlook 설정|
+|Set-MailboxJunkEmailConfiguration의 매개 변수|웹용 Outlook 설정|
 |---|---|
 |_BlockedSendersAndDomains_|**다음 보낸 사람이 나 도메인에서 정크 메일 폴더로 전자 메일 이동**|
 |_ContactsTrusted_|**내 연락처에서 전자 메일 신뢰**|
