@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -27,12 +27,12 @@ search.appverid:
 ms.assetid: 9b23c065-eef9-4bf7-acf5-127eb46d5e67
 ROBOTS: NOINDEX
 description: 'Office 365에 대 한 등록 프로세스를 진행 하기 전에 알아야 할 사항에 대해 알아봅니다. '
-ms.openlocfilehash: dd374cd12f4e3a041869d17157e7198445f99e69
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 0e5e4d89811807bfdb1bb71fb213973bdba075e2
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780520"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646634"
 ---
 # <a name="how-to-sign-up---admin-help"></a>관리자 도움말에 등록 하는 방법
 
@@ -70,7 +70,7 @@ Microsoft 365 for business 요금제를 선택 하는 방법에 대 한 간단�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/906be77d-ded6-48fb-a25f-da110f787282]
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
 
 선택에 도움이 필요하세요? 영업 컨설턴트가 질문에 답변해 드립니다. [모든 제품 비교](https://products.office.com/compare-all-microsoft-office-products?tab=2) 로 이동 하 여 페이지 왼쪽에 나열 된 연락처 지원 옵션 중 하나를 선택 하면 됩니다.
   

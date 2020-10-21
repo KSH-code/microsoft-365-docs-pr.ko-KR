@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: 5e7156a884093ca12fff7020bb045da30882547d
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: c8a1609bed124789229c6ae6d1f80b7d9c70bb66
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464339"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646814"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>메일을 보호하기 위한 정책 권장 사항
 
@@ -33,7 +33,7 @@ ms.locfileid: "48464339"
 
 이러한 권장 사항을 적용 하려면 사용자가 모바일 장치에서 iOS 및 Android 용 Outlook을 비롯 한 최신 전자 메일 클라이언트를 사용 해야 합니다. IOS 및 Android 용 Outlook에서는 Office 365의 최상의 기능을 지원 합니다. 이러한 모바일 Outlook 앱은 모바일 사용을 지원 하 고 다른 Microsoft 클라우드 보안 기능과 함께 사용할 수 있는 보안 기능으로도 설계 되었습니다. 자세한 내용은 [iOS 및 Android 용 OUTLOOK FAQ](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/outlook-for-ios-and-android-faq)를 참조 하세요.
 
-## <a name="updating-common-policies-to-include-email"></a>전자 메일을 포함 하도록 일반 정책 업데이트
+## <a name="update-common-policies-to-include-email"></a>전자 메일을 포함 하도록 일반 정책 업데이트
 
 다음 다이어그램에서는 전자 메일을 보호 하기 위해 일반 id 및 장치 액세스 정책에서 업데이트할 정책을 보여 줍니다.
 
@@ -64,6 +64,41 @@ Exchange Online에 대 한 새 정책을 추가 하 여 ActiveSync 클라이언�
 - 시나리오 1의 "2 단계: ActiveSync를 사용 하 여 Azure AD 조건부 액세스 정책 구성 (EAS)" [: Office 365 앱은 앱 보호 정책과 함께 승인 된 앱이 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies)하므로 기본 인증을 사용 하는 exchange ActiveSync 클라이언트에서 exchange Online에 연결할 수 없습니다.
 
 인증 정책을 사용 하 여 [기본 인증을 사용 하지 않도록 설정](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online)하 여 모든 클라이언트 액세스 요청이 최신 인증을 사용 하도록 할 수도 있습니다.
+
+## <a name="limit-access-to-exchange-online-from-outlook-on-the-web"></a>웹용 Outlook에서 Exchange Online에 대 한 액세스 제한
+
+사용자가 umnanaged 장치에서 웹에 있는 첨부 파일을 다운로드 하는 기능이 제한 될 수 있습니다. 이러한 장치에서 사용자는 파일을 누설 및 저장 하지 않고 Office Online을 사용 하 여 이러한 파일을 보고 편집할 수 있습니다. 또한 사용자가 관리 되지 않는 장치에서 첨부 파일을 볼 수 없도록 차단할 수도 있습니다.
+
+단계는 다음과 같습니다.
+
+1. [Exchange Online 원격 PowerShell 세션에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)합니다.
+2. 아직 OWA 사서함 정책이 없는 경우에는 [set-owamailboxpolicy](https://docs.microsoft.com/powershell/module/exchange/new-owamailboxpolicy) cmdlet을 사용 하 여 하나를 만듭니다.
+3. 다운로드 하지 않고 첨부 파일을 볼 수 있도록 허용 하려면 다음 명령을 사용 합니다.
+
+   ```powershell
+   Set-OwaMailboxPolicy -Identity Default -ConditionalAccessPolicy ReadOnly
+   ```
+
+4. 첨부 파일을 차단 하려면 다음 명령을 사용 합니다.
+
+   ```powershell
+   Set-OwaMailboxPolicy -Identity Default -ConditionalAccessPolicy ReadOnlyPlusAttachmentsBlocked
+   ```
+
+4. Azure portal에서 다음 설정을 사용 하 여 새 조건부 액세스 정책을 만듭니다.
+
+   **사용자 및 그룹 > 할당**: 포함 하거나 제외할 적절 한 사용자 및 그룹을 선택 합니다.
+
+   클라우드 앱 **또는 작업 > 할당 > 클라우드 앱 > 포함 > 앱 선택**: **Office 365 Exchange Online** 선택
+
+   **세션 > 액세스 제어**: **앱 적용 제한 사용** 을 선택 합니다.
+
+## <a name="require-that-ios-and-android-devices-must-use-outlook"></a>IOS 및 Android 장치에서 Outlook을 사용 해야 함
+
+IOS 및 Android 장치 사용자가 iOS 및 Android 용 Outlook을 사용 하 여 회사 또는 학교 콘텐츠에만 액세스할 수 있도록 하려면 이러한 잠재적 사용자를 대상으로 하는 조건부 액세스 정책이 필요 합니다.
+
+[IOS 및 Android 용 Outlook을 사용 하 여 메시징 공동 작업 액세스 관리]( https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-outlook#apply-conditional-access)에서이 정책을 구성 하는 단계를 참조 하세요.
+
 
 ## <a name="set-up-message-encryption"></a>메시지 암호화 설정
 

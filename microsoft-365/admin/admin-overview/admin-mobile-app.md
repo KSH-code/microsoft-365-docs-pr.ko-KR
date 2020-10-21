@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: e16f6421-2a1a-4142-bf9d-9846600a060a
 description: Microsoft 365 관리 앱을 다운로드 하 고 전화나 태블릿에서 온라인 조직을 관리 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 1ad44ccc379b5115ad36e657708eed38f58dca34
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 55aaf26d0da922c8d9bfb7c64f16278eb4a705a5
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948811"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646646"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>Microsoft 365 관리 모바일 앱 정보
 
@@ -61,7 +61,7 @@ ms.locfileid: "47948811"
 이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
 
  
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 다음은 앱에 대해 사람들이 주로 묻는 몇 가지 질문에 대한 대답입니다.
   
