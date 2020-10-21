@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: e2fba7a5cf83838c440cdea8436b5bbdd360885b
-ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
+ms.openlocfilehash: 7f1d3e13aebe7c7924732922bbbfc7417622d8c5
+ms.sourcegitcommit: e17fd18b01d70e6428263c20cbce4b92e2a97765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48318177"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48626191"
 ---
 # <a name="communication-compliance-feature-reference"></a>통신 준수 기능 참조
 
@@ -125,13 +125,9 @@ Microsoft 365 준수 센터에서 Microsoft 365 조 직에 대 한 통신 준수
 
     - **비즈니스용 Skype 온라인 채팅 통신**: 개별 사용자를 할당 하거나 통신 준수 정책에 [메일 그룹](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) 을 할당 합니다. 이 설정은 일대일 또는 일대다 사용자/채팅 관계에 대 한 것입니다.
 
-- 타사 **원본**: Microsoft 365 조직의 사서함으로 가져온 데이터에 대 한 타사 원본의 통신을 검색할 수 있습니다. 커넥터는 다음과 같은 타사 리소스를 지원 합니다.
+- 타사 **원본**: Microsoft 365 조직의 사서함으로 가져온 데이터에 대 한 통신을 [인스턴트 Bloomberg](archive-instant-bloomberg-data.md), [여유 시간](archive-slack-data.md), [확대/축소](archive-zoommeetings-data.md), SMS 등의 타사 소스에서 검색할 수 있습니다. 통신 준수에서 지원 되는 전체 커넥터 목록을 보려면 [타사 데이터 보관](archiving-third-party-data.md)을 참조 하십시오.
 
-    - [Instant Bloomberg](archive-instant-bloomberg-data.md)
-    - [블룸버그 메시지](archive-bloomberg-message-data.md)
-    - [ICE 채팅](archive-icechat-data.md)
-
-통신 준수 정책에 커넥터를 할당 하려면 먼저 Microsoft 365 조 직에 대 한 타사 커넥터를 구성 해야 합니다. 통신 준수 정책 마법사의 제 **3 자 원본** 섹션에는 현재 구성 된 타사 커넥터도 표시 됩니다.
+    통신 준수 정책에 커넥터를 할당 하려면 먼저 Microsoft 365 조 직에 대 한 타사 커넥터를 구성 해야 합니다. 통신 준수 정책 마법사의 제 **3 자 원본** 섹션에는 현재 구성 된 타사 커넥터도 표시 됩니다.
 
 ## <a name="transitioning-from-supervision-in-office-365"></a>Office 365의 감독에서 전환
 
@@ -217,7 +213,7 @@ Microsoft 365의 trainable 분류자에 대 한 자세한 내용은 [trainable �
 쉼표로 구분 하 여 입력 한 각 단어를 개별적으로 적용 합니다 (전자 메일 또는 첨부 파일에 적용할 정책 조건에 한 단어씩 적용 해야 함). 예를 **들어 다음**조건을 사용 하 여 메시지에 "banker", "기밀" 및 "참가자 거래" 라는 키워드를 쉼표로 구분 하 여 허용 합니다. 이 정책은 "banker", "기밀" 또는 "참가자 거래" 라는 단어가 포함 된 모든 메시지에 적용 됩니다. 이 정책 조건을 적용 하려면 이러한 단어 또는 구문 중 하나만 발생 해야 합니다. 메시지 또는 첨부 파일의 단어는 입력 한 내용과 정확히 일치 해야 합니다.
 
 >[!IMPORTANT]
->사용자 지정 사전 파일을 가져올 때는 각 단어나 구를 캐리지 리턴과 별도의 줄에 구분 해야 합니다. <br> 예제: <br><br>
+>사용자 지정 사전 파일을 가져올 때는 각 단어나 구를 캐리지 리턴과 별도의 줄에 구분 해야 합니다. <br> 예시: <br><br>
 >*banker* <br>
 >*기밀로* <br>
 >*insider 사업*

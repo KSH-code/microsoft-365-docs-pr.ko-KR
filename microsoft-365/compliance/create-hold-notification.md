@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: 고급 eDiscovery 사례의 통신 도구를 사용 하 여 법적 보존 알림을 보내고, 수집 하 고, 추적 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0bcbdef1c1393ff3e7f3baf30279909ed3a663f5
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 730b60c4d57f8fecb0e66f460942e9e890732c2c
+ms.sourcegitcommit: e17fd18b01d70e6428263c20cbce4b92e2a97765
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035790"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48626181"
 ---
 # <a name="create-a-legal-hold-notice"></a>법적 보존 알림 만들기
 
@@ -46,7 +46,11 @@ ms.locfileid: "44035790"
 
     - **Name**: 통신의 이름입니다.
 
-    - **발급**관리자: 드롭다운 목록에 사례 구성원 목록이 표시 됩니다. Custodians로 전송 되는 각 알림은 지정 된 발급 관리자를 대신 하 여 전송 됩니다.
+    - **발급**관리자: 드롭다운 목록에 사례 구성원 목록이 표시 됩니다. 새 구성원을 사례에 추가 하는 방법에 대 한 자세한 내용은 [Create a Advanced eDiscovery case](get-started-with-advanced-ediscovery.md#step-4-create-an-advanced-ediscovery-case)를 참조 하십시오. Custodians로 전송 되는 각 알림은 지정 된 발급 관리자를 대신 하 여 전송 됩니다.
+
+> [!NOTE]
+> 발급 관리자 드롭다운 목록에 표시할 **활성 사서함** 이 있어야 합니다.
+
 
 4. **다음**을 클릭합니다.
 
@@ -89,7 +93,7 @@ ms.locfileid: "44035790"
 
 5. **저장**을 클릭합니다.
 
-### <a name="re-issuance-notification"></a>재발급 알림
+### <a name="re-issuance-notification"></a>Re-Issuance 알림
 
 사례가 진행 됨에 따라 custodians는 이전에 지시 된 것 보다 더 많은 데이터를 보존 해야 할 수 있습니다. 포털 콘텐츠를 업데이트 한 후에는 재 발급 알림이 전송 되 고 custodians에 게 해당 보존 의무의 변경 내용에 대 한 알림이 생성 됩니다.
 
