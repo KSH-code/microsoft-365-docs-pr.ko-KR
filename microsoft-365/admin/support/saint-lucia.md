@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,27 +13,27 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 058c864b49b0c1c3f05c8f547cdd5168ead0df1e
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: e7f07aaaad6f8a51231e5b14251f0badb4c08089
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44389772"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48640082"
 ---
-# <a name="contact-support-for-saint-lucia"></a><span data-ttu-id="1cb3a-103">세인트 루시아에 대 한 지원 문의</span><span class="sxs-lookup"><span data-stu-id="1cb3a-103">Contact support for Saint Lucia</span></span>
+# <a name="contact-support-for-saint-lucia"></a><span data-ttu-id="8ceb1-103">세인트 루시아에 대 한 지원 문의</span><span class="sxs-lookup"><span data-stu-id="8ceb1-103">Contact support for Saint Lucia</span></span>
 
-<span data-ttu-id="1cb3a-104">[다른 국가 또는 지역을 찾습니다](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="1cb3a-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="8ceb1-104">[다른 국가 또는 지역을 찾습니다](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="8ceb1-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="1cb3a-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="1cb3a-105">Phone number</span></span>
-<span data-ttu-id="1cb3a-106">+ 1 312 843 5145</span><span class="sxs-lookup"><span data-stu-id="1cb3a-106">+1 312 843 5145</span></span>
+## <a name="phone-number"></a><span data-ttu-id="8ceb1-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="8ceb1-105">Phone number</span></span>
+<span data-ttu-id="8ceb1-106">+ 1 312 843 5145</span><span class="sxs-lookup"><span data-stu-id="8ceb1-106">+1 312 843 5145</span></span>
 
-## <a name="hours"></a><span data-ttu-id="1cb3a-107">시간</span><span class="sxs-lookup"><span data-stu-id="1cb3a-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="1cb3a-108">대금 청구 지원:</span><span class="sxs-lookup"><span data-stu-id="1cb3a-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="8ceb1-107">시간</span><span class="sxs-lookup"><span data-stu-id="8ceb1-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="8ceb1-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="8ceb1-108">Billing Support:</span></span>
 
-<span data-ttu-id="1cb3a-109">영어: Mon-금요일 오전 9 시-오후 5 시</span><span class="sxs-lookup"><span data-stu-id="1cb3a-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="8ceb1-109">영어: 오전 9 시 Mon-Fri 오후 5 시</span><span class="sxs-lookup"><span data-stu-id="8ceb1-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="1cb3a-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="1cb3a-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="8ceb1-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="8ceb1-110">Technical Support:</span></span>
 
-<span data-ttu-id="1cb3a-111">영어: 하루 24 시간 365 일 연중 무휴로</span><span class="sxs-lookup"><span data-stu-id="1cb3a-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="8ceb1-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="8ceb1-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="1cb3a-112">국제 통화 요금이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1cb3a-112">International call charges apply</span></span>
+<span data-ttu-id="8ceb1-112">국제 통화 요금이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8ceb1-112">International call charges apply</span></span>
