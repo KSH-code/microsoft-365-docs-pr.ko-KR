@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: e3b29a8182e38fa05e5f791478157c978632fb13
-ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
+ms.openlocfilehash: 29e5eb64445c6c5c45b8e1fd1633c030b5f32b86
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48477008"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48649670"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>고급 헌팅 쿼리 모범 사례
 
@@ -36,10 +36,10 @@ ms.locfileid: "48477008"
 
 이러한 권장 사항을 적용 하 여 결과를 더 빠르게 얻고 복잡 한 쿼리를 실행 하는 동안 시간 제한을 방지 합니다. 쿼리 성능을 개선하는 방법에 대한 자세한 내용은 [Kusto 쿼리 모범 사례](https://docs.microsoft.com/azure/kusto/query/best-practices)를 참조하세요.
 
-## <a name="understand-cpu-resource-limits"></a>CPU 리소스 제한 이해
-각 테 넌 트의 크기에 따라 고급 구하기 쿼리를 실행 하는 데 할당 된 CPU 리소스 집합에 액세스할 수 있습니다. 다양 한 서비스 제한에 대 한 자세한 내용은 [고급 구하기 제한](advanced-hunting-limits.md)정보를 참조 하세요.
+## <a name="understand-cpu-resource-quotas"></a>CPU 리소스 할당량 이해
+각 테 넌 트의 크기에 따라 고급 구하기 쿼리를 실행 하는 데 할당 된 CPU 리소스 집합에 액세스할 수 있습니다. 다양 한 서비스 제한에 대 한 자세한 내용은 [고급 구하기 할당량 및 사용 현황 매개 변수를 참조](advanced-hunting-limits.md)하세요.
 
-정기적으로 여러 쿼리를 실행 하는 고객은 사용을 추적 하 고이 문서의 최적화 지침을 적용 하 여 제한을 초과 하 여 발생 하는 혼란을 최소화 해야 합니다.
+정기적으로 여러 쿼리를 실행 하는 고객은 할당량 또는 사용 매개 변수를 초과 하 여 발생 한 중단을 최소화 하기 위해 소비를 추적 하 고이 문서의 최적화 지침을 적용 해야 합니다
 
 ## <a name="general-optimization-tips"></a>일반 최적화 팁
 
@@ -265,7 +265,7 @@ SHA256,MalwareFilterVerdict,MalwareDetectionMethod
 
 ## <a name="related-topics"></a>관련 항목
 - [Kusto 쿼리 언어 설명서](https://docs.microsoft.com/azure/data-explorer/kusto/query/)
-- [서비스 제한](advanced-hunting-limits.md)
+- [할당량 및 사용 현황 매개 변수](advanced-hunting-limits.md)
 - [고급 구하기 오류 처리](advanced-hunting-errors.md)
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)

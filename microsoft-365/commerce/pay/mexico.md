@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: 구독에 대 한 결제를 보낼 위치를 알아봅니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 26a2aa8790e3952874680b1e5ebf6970113676cb
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: ee59c03eedcbe214be96457d18b96a53819818d6
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44404073"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48649274"
 ---
 # <a name="payment-information-for-mexico"></a>멕시코의 결제 정보
 
@@ -29,7 +29,7 @@ ms.locfileid: "44404073"
 ## <a name="electronic-funds-transfer"></a>전자 자금 이체
 
 **뱅크:** Citibank/Banamex  
-**분기:** 작업. RoP.B. to Medellin 800, Sur, 열 산타 Fe, 멕시코 시티 C.P. 01210, 멕시코  
+**분기:** Medellin 800, P.B.를 사용할 수 있습니다. Sur, 열 산타 Fe, 멕시코 시티 C.P. 01210, 멕시코  
 **SWIFT 코드:** BNMXMM  
 **CLABE** 002180002337160225  
 **계정 번호:** 0233716022  

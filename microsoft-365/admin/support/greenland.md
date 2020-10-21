@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ebd5052c556a94ac6cf9e47296a8c707783e4923
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 12b098e7eb3344620a2ff02856e83db3014ce98a
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44397781"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48642434"
 ---
 # <a name="contact-support-for-greenland"></a>그린란드에 대 한 지원 문의
 
@@ -28,12 +28,12 @@ ms.locfileid: "44397781"
 + 1 312 843 5152
 
 ## <a name="hours"></a>시간
-### <a name="billing-support"></a>대금 청구 지원:
+### <a name="billing-support"></a>청구 지원:
 
-영어: Mon-금요일 7 시-오후 3 시
+영어: 오전 7 시 Mon-Fri 오후 3 시
 
 ### <a name="technical-support"></a>기술 지원:
 
-영어: 하루 24 시간 365 일 연중 무휴로
+영어: 연중무휴 24시간
 
 국제 통화 요금이 적용 됩니다.

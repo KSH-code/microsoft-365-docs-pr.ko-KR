@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d56e09dc37e0dbca9517e21aa386baac86d1e293
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: abe95a39cfea8443a1f27288500ec9dbc8396610
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44397733"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48642242"
 ---
 # <a name="contact-support-for-guatemala"></a>과테말라에 대 한 지원 문의
 
@@ -32,9 +32,9 @@ ms.locfileid: "44397733"
 5002 코드 입력
 
 ## <a name="hours"></a>시간
-### <a name="billing-support"></a>대금 청구 지원:
+### <a name="billing-support"></a>청구 지원:
 
-스페인어: Mon-금요일 오전 9 시-오후 5 시
+스페인어: 오전 9 시 Mon-Fri 오후 5 시
 
 ### <a name="technical-support"></a>기술 지원:
 
