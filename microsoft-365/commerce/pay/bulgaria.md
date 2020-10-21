@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,24 +13,24 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: 구독에 대 한 결제를 보낼 위치를 알아봅니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: cc2894039a9d758a8c8f81049efd1332fb9b1209
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 636f40ca39c7f1f45dbe304788f1b211c1f0a3ef
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44404169"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48637658"
 ---
-# <a name="payment-information-for-bulgaria"></a><span data-ttu-id="c3ae9-103">불가리아 결제 정보</span><span class="sxs-lookup"><span data-stu-id="c3ae9-103">Payment information for Bulgaria</span></span>
+# <a name="payment-information-for-bulgaria"></a><span data-ttu-id="ec088-103">불가리아 결제 정보</span><span class="sxs-lookup"><span data-stu-id="ec088-103">Payment information for Bulgaria</span></span>
 
-<span data-ttu-id="c3ae9-104">[다른 국가 또는 지역을 찾습니다](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="c3ae9-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="ec088-104">[다른 국가 또는 지역을 찾습니다](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="ec088-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="c3ae9-105">EUR에만 요금을 지불 하 고 결제 방식에 따라 청구서 번호를 참조 remittance.</span><span class="sxs-lookup"><span data-stu-id="c3ae9-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="ec088-105">EUR에만 요금을 지불 하 고 결제 방식에 따라 청구서 번호를 참조 remittance.</span><span class="sxs-lookup"><span data-stu-id="ec088-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="c3ae9-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="c3ae9-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="ec088-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="ec088-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="c3ae9-107">**뱅크:** Citibank, 런던</span><span class="sxs-lookup"><span data-stu-id="c3ae9-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="c3ae9-108">**Swift Code/BIC:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="c3ae9-108">**Swift Code/BIC:** CITIGB2L</span></span>  
-<span data-ttu-id="c3ae9-109">**Iban:** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="c3ae9-109">**IBAN:** GB31CITI18500812207591</span></span>  
-<span data-ttu-id="c3ae9-110">**정렬 코드:** 185008</span><span class="sxs-lookup"><span data-stu-id="c3ae9-110">**SORT Code:** 185008</span></span>  
-<span data-ttu-id="c3ae9-111">**계정 번호:** 12207591</span><span class="sxs-lookup"><span data-stu-id="c3ae9-111">**Account Number:** 12207591</span></span>  
-<span data-ttu-id="c3ae9-112">**계정 이름:** MFC</span><span class="sxs-lookup"><span data-stu-id="c3ae9-112">**Account Name:** MICROSOFT</span></span>  
+<span data-ttu-id="ec088-107">**뱅크:** Citibank, 런던</span><span class="sxs-lookup"><span data-stu-id="ec088-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="ec088-108">**Swift Code/BIC:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="ec088-108">**Swift Code/BIC:** CITIGB2L</span></span>  
+<span data-ttu-id="ec088-109">**Iban:** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="ec088-109">**IBAN:** GB31CITI18500812207591</span></span>  
+<span data-ttu-id="ec088-110">**정렬 코드:** 185008</span><span class="sxs-lookup"><span data-stu-id="ec088-110">**SORT Code:** 185008</span></span>  
+<span data-ttu-id="ec088-111">**계정 번호:** 12207591</span><span class="sxs-lookup"><span data-stu-id="ec088-111">**Account Number:** 12207591</span></span>  
+<span data-ttu-id="ec088-112">**계정 이름:** MFC</span><span class="sxs-lookup"><span data-stu-id="ec088-112">**Account Name:** MICROSOFT</span></span>  
