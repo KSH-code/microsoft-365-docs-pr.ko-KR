@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: sharik
 author: skjerland
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 description: 21Vianet에서 운영 하는 Office 365의 Azure Information Protection에 대해 자세히 알아보고 중국의 고객을 위해이를 구성 하는 방법을 알아보세요.
 monikerRange: o365-21vianet
-ms.openlocfilehash: ca30811e77f686b92b8cdd13d624182eb0d3039e
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: ad3420483701c83ffef65994996047de56a7085c
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445582"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644666"
 ---
 # <a name="parity-between-azure-information-protection-for-office-365-operated-by-21vianet-and-commercial-offerings"></a>21Vianet 및 상업적 제공품에서 운영 하는 Office 365의 Azure Information Protection 간 패리티
 
@@ -55,12 +55,12 @@ Microsoft의 목표는 21Vianet에서 운영 하는 Office 365의 Azure Informat
 
 - RMS가 사용 하도록 설정 되어 있는지 확인 합니다.
   1. 관리자로 PowerShell을 시작 합니다.
-  2. AIPService 모듈이 설치 되어 있지 않으면를 실행  `Install-Module AipService` 합니다.
+  2. AIPService 모듈이 설치 되어 있지 않으면를 실행 `Install-Module AipService` 합니다.
   3. 를 사용 하 여 모듈을 가져옵니다 `Import-Module AipService` .
-  4. 을 사용 하 여 서비스에 연결  `Connect-AipService -environmentname azurechinacloud` 합니다.
-  5.  `(Get-AipServiceConfiguration).FunctionalState`   를 실행 하 고 상태가 인지 확인  `Enabled` 합니다.
+  4. 을 사용 하 여 서비스에 연결 `Connect-AipService -environmentname azurechinacloud` 합니다.
+  5. `(Get-AipServiceConfiguration).FunctionalState`를 실행 하 고 상태가 인지 확인 `Enabled` 합니다.
 
-- 기능 상태가 이면  `Disabled` 를 실행  `Enable-AipService` 합니다.
+- 기능 상태가 이면 `Disabled` 를 실행 `Enable-AipService` 합니다.
 
 ### <a name="dns-configuration-for-encryption-windows"></a>암호화에 대 한 DNS 구성 (Windows)
 
@@ -70,27 +70,27 @@ Microsoft의 목표는 21Vianet에서 운영 하는 Office 365의 Azure Informat
 
 - RMS ID를 가져옵니다.
   1. 관리자로 PowerShell을 시작 합니다.
-  2. AIPService 모듈이 설치 되어 있지 않으면를 실행  `Install-Module AipService` 합니다.
-  3. 을 사용 하 여 서비스에 연결  `Connect-AipService -environmentname azurechinacloud` 합니다.
-  4.  `(Get-AipServiceConfiguration).RightsManagementServiceId`   를 실행 하 여 RMS ID를 가져옵니다.
+  2. AIPService 모듈이 설치 되어 있지 않으면를 실행 `Install-Module AipService` 합니다.
+  3. 을 사용 하 여 서비스에 연결 `Connect-AipService -environmentname azurechinacloud` 합니다.
+  4. `(Get-AipServiceConfiguration).RightsManagementServiceId`를 실행 하 여 RMS ID를 가져옵니다.
 
 - DNS 공급자에 로그인 하 고 도메인에 대 한 DNS 설정으로 이동한 다음 새 SRV 레코드를 추가 합니다.
-  - 서비스 = `_rmsredir`
-  - Protocol = `_http`
-  - Name = `_tcp`
-  - Target =  `[GUID].rms.aadrm.cn`   (여기서 GUID는 RMS ID)
+  - 서비스 = `_rmsredir`
+  - Protocol = `_http`
+  - Name = `_tcp`
+  - Target = `[GUID].rms.aadrm.cn` (여기서 GUID는 RMS ID)
   - 우선 순위, 가중치, 초, TTL = 기본값
 
-- 사용자 지정 도메인을 [Azure portal](https://portal.azure.cn/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains)의 테 넌 트에 연결 합니다. 이렇게 하면 dns에 항목이 추가 되 고 DNS 설정에 값을 추가한 후 확인 하는 데 몇 분 정도 걸릴 수 있습니다.
+- 사용자 지정 도메인을 [Azure portal](https://portal.azure.cn/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains)의 테 넌 트에 연결 합니다. 이렇게 하면 dns에 항목이 추가 되 고 DNS 설정에 값을 추가한 후 확인 하는 데 몇 분 정도 걸릴 수 있습니다.
 
 - 해당 하는 전역 관리자 자격 증명을 사용 하 여 Microsoft 365 관리 센터에 로그인 하 고 `contoso.cn` 사용자 만들기에 대 한 도메인 (예:)을 추가 합니다. 확인 프로세스에서 추가 DNS 변경이 필요할 수 있습니다. 확인이 완료 되 면 사용자를 만들 수 있습니다.
 
 ### <a name="dns-configuration-for-encryption-mac-ios-android"></a>암호화에 대 한 DNS 구성 (Mac, iOS, Android)
 
 - DNS 공급자에 로그인 하 고 도메인에 대 한 DNS 설정으로 이동한 다음 새 SRV 레코드를 추가 합니다.
-  - 서비스 = `_rmsdisco`
-  - Protocol = `_http`
-  - Name = `_tcp`
-  - Target = `api.aadrm.cn`
-  - Port = `80`
+  - 서비스 = `_rmsdisco`
+  - Protocol = `_http`
+  - Name = `_tcp`
+  - Target = `api.aadrm.cn`
+  - Port = `80`
   - 우선 순위, 가중치, 초, TTL = 기본값

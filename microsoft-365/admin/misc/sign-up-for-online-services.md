@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4f374dc7-b96c-49c7-80ed-554716ba0138
 description: '회사 또는 학교 전자 메일을 사용 하 여 IT 부서를 포함 하지 않고 Microsoft online services에 등록 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: c602ba52e3cca1b031e2e772355a84c06b779b5d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: ad46d698398da32d88d0c1617499b326e8fcb163
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399269"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644870"
 ---
 # <a name="your-domain-may-be-in-use-if-someone-else-signed-up-with-it"></a>다른 사용자가 사용자의 도메인에 등록 한 경우 해당 도메인이 사용 중일 수 있습니다.
 

@@ -13,12 +13,12 @@ ms.collection:
 - Adm_O365
 ms.custom: AdminSurgePortfolio
 description: 비즈니스에 큰 영향을 주는 계정에서 보내거나 받은 전자 메일로 인 한 실패 및 지연 된 메시지를 모니터링 합니다.
-ms.openlocfilehash: 053246da7f57c46045bfc777bc4de981ce51c6e5
-ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
+ms.openlocfilehash: ce78316290f18f06337adc0e78a1b8992be7b425
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46794204"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644594"
 ---
 # <a name="manage-and-monitor-priority-accounts"></a>우선 순위 계정 관리 및 모니터링
 
@@ -69,7 +69,7 @@ Microsoft 365 조직의 관리자는 이제 CEO와 같이 비즈니스에 큰 �
 
 ## <a name="email-issues-for-priority-accounts"></a>우선 순위 계정에 대 한 전자 메일 문제
 
-Exchange 관리 센터에서 **우선 순위 계정에 대 한 전자 메일 문제** 보고서로 이동 하 여 우선 순위 계정의 전자 메일 문제를 추적할 수 있습니다. 자세한 내용은 [우선 순위 계정의 전자 메일 문제](https://review.docs.microsoft.com/en-us/Exchange/mail-flow-best-practices/mail-flow-insights/mfi-email-issues-for-priority-accounts?branch=Priority-chrisda)를 확인 하세요.
+Exchange 관리 센터에서 **우선 순위 계정에 대 한 전자 메일 문제** 보고서로 이동 하 여 우선 순위 계정의 전자 메일 문제를 추적할 수 있습니다. 자세한 내용은 [우선 순위 계정의 전자 메일 문제](https://docs.microsoft.com/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report)를 확인 하세요.
 
 ## <a name="remove-a-user-from-the-priority-accounts-list"></a>우선 순위 계정 목록에서 사용자 제거
 

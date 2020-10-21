@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: c29d38b5-53a6-4bd9-b7aa-ce12c902da83
 description: 중국의 21Vianet에서 운영 하는 Office 365에 대 한 청구 내역 또는 송장을 확인 합니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: d22c9b6e479eaf11f90333b5f7ed973bcf756337
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 7a8380f74331822a25f846312aa3dd9bfb11d586
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432360"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644630"
 ---
 # <a name="view-your-bill-or-get-a-fapiao-in-office-365-operated-by-21vianet"></a>21Vianet에서 운영 하는 Office 365에서 청구서 보기 또는 Fapiao 받기
 

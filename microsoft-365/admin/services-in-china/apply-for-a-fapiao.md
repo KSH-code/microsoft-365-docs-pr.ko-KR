@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: c80a315a-af87-4996-94b9-fd2194f58a93
 description: 중국의 21Vianet에서 운영 하는 Office 365에서 지불을 수행한 후 21Vianet Fapiao 관리 시스템으로 Fapiao 요청을 제출 하는 방법을 알아봅니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 4503226d50a719e169e9112538e7d0dcd172197e
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: ebaec639c7eccbfef848c1cd8a4857a5a9a77443
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432406"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644894"
 ---
 # <a name="apply-for-a-fapiao-for-office-365-operated-by-21vianet"></a>21Vianet에서 운영 하는 Office 365 용 Fapiao에 대해 적용
 

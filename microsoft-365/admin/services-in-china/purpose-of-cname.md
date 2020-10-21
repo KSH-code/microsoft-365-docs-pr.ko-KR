@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 ROBOTS: NOINDEX
 description: 인증 프로세스를 위한 최적의 서버로 안내 하는 Office 365의 ' MSOID ' CNAME 레코드에 대해 자세히 알아보세요.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 91643e4d9cf136d0f64aac89a877ee98e373727f
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: ac9ad3ad9f860722760d59c54570a453146a3a93
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399029"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644642"
 ---
 # <a name="whats-the-purpose-of-the-office-365-cname-record-for-msoid"></a>MSOID용 Office 365 CNAME 레코드의 용도
 

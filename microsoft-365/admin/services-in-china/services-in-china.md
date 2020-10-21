@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: sharik
 author: skjerland
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: 중국의 안전 하 고 안정적 이며 확장 가능한 클라우드 서비스에 대 한 요구를 충족 하도록 설계 된 21Vianet에서 운영 하는 Office 365에 대해 자세히 알아봅니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 133df44635927d185e72c7981953e07162d458a9
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: 5906bf961e246f1d707b030ffb4c788da353200c
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45079740"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644654"
 ---
 # <a name="office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365
 
@@ -152,7 +152,7 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
 
 |**온-프레미스 Exchange 버전**|**MRM (분할 보관)**|**OWA 액세스 (분할 보관)**|**원본 위치 eDiscovery**|**사서함 감사**|**원본 위치 유지/보관**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-| 모든 2013 CU5  <br/> | 지원됨 <br/>  | 미지원 <br/>  | 지원 <br/>  | 지원  <br/> | 지원 <br/> |
+| 모든 2013 CU5  <br/> | 지원됨 <br/>  | 지원되지 않음 <br/>  | 지원 <br/>  | 지원  <br/> | 지원 <br/> |
 | 모든 2010 SP3 <br/>  | 지원되지 않음 <br/>  | 지원되지 않음 <br/>  | 지원 됨<sup>1</sup> <br/> | 지원  <br/> | 지원 <br/>  |
 | 하나 이상의 2013 CU5 서버  <br/> | 지원 됨<sup>2</sup> <br/> | 지원되지 않음  <br/> | 지원되지 않음 <br/> | 지원  <br/> | 지원 <br/> |
 |||

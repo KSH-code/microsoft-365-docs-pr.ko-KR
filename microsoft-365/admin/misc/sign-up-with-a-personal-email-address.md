@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 20816b8b-8b21-458f-81c1-320b8116597e
 ROBOTS: NOINDEX
 description: '사용자 지정 도메인을 추가 하지 않으려는 경우 개인 전자 메일 주소를 사용 하 여 Office 365에 등록 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 0b188754b169f6f0f0fb807a8ba236497a7439ff
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b8e11d7c99ce385d8d5147245ac078b7d46c7caf
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399257"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644882"
 ---
 # <a name="signing-up-for-office-365-with-a-personal-email-address"></a>개인 전자 메일 주소를 사용 하 여 Office 365에 등록
 
@@ -37,7 +37,7 @@ ms.locfileid: "44399257"
   
 |**기능**|**개인 전자 메일을 사용 하는 Office 365**|**사용자 지정 도메인을 포함 하는 Office 365**|
 |:-----|:-----|:-----|
-|**OneDrive <sup>1, 2</sup>**| [개인 OneDrive](https://onedrive.live.com/about/en-us/plans/)| [비즈니스용 OneDrive](https://onedrive.live.com/about/en-us/business/) |
+|**OneDrive <sup>1, 2</sup>**| [개인 OneDrive ](https://onedrive.live.com/about/en-us/plans/)| [비즈니스용 OneDrive](https://onedrive.live.com/about/en-us/business/) |
 |**Office 응용 프로그램: Word, Excel, PowerPoint, OneNote, Outlook, Access (PC 전용),**| 예 | 예 
 |**비즈니스 응용 프로그램 <sup>3</sup> : Microsoft 연결, 송장, 목록, 예약, MileIQ 및 Outlook 고객 관리자**| 아니요 | 예 
 |**Microsoft 365 관리 센터 액세스**| 제한 된 액세스 (청구, 지원 및 도메인 설정) | 예
