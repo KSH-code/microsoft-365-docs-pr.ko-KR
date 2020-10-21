@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: c7228a3e-061f-4575-b1ef-adf1d1669870
 description: Microsoft 365 관리 센터에 대해 설명 하 고, 관리자를 위해 로그인 하 고,이에 대 한 비디오 소개를 시청 하세요.
-ms.openlocfilehash: 84c8ef52c4cd3bf687a0849e1e3b1a25f9b31f4d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6db1ea88d9a9aeb003f16c746a8fe0a5b4d87a42
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386940"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646598"
 ---
 # <a name="admin-center-overview"></a>관리 센터 개요 
 

@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: 전자 메일 및 비즈니스용 Skype 온라인 등의 서비스에서 고유한 도메인 이름을 사용 하도록 Microsoft 365에서 도메인을 추가 및 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 34e4db5748f9d4c1f1864db09071374bcec73e1d
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: f233cc9b2d37e3ee81e52178a7cc045cb3579e42
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295061"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645398"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>모든 도메인 등록 기관에서 Microsoft 365을 설정 하도록 이름 서버 변경
 

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: c5f6140a-4a12-401b-9bbd-7dfb0d6b0ba3
 description: MyDomain에서 사용자 지정 도메인의 DNS 레코드를 관리 하도록 Microsoft를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: d8fc61c3adbe8b5b865bd82b8c4e0944198921e7
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 44d36f872ddbeeba1948ee8a7a4db029895fcb8c
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400632"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646418"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-mydomain"></a>MyDomain을 사용 하 여 Microsoft를 설정 하도록 이름 서버 변경
 

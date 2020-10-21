@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: d8ff45a2-19e3-413d-aa64-a9982bd6633c
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online에 대 한 DNS 레코드를 설정 하 고 Microsoft의 Freenom에 있는 기타 서비스를 설치 하는 방법을 알아봅니다.
-ms.openlocfilehash: f139c21915d6922c2f77281990dd09949d9db928
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 2fc2407193d41d6e0526aacad0b2b558f1b21bdb
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400476"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646190"
 ---
 # <a name="create-dns-records-at-freenom-for-microsoft"></a>Microsoft에 대 한 Freenom에서 DNS 레코드 만들기
 
@@ -71,7 +71,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
   
 6. 새 레코드의 상자에서 다음 표의 값을 입력하거나 복사하여 붙여넣습니다. 
     
-    |**이름**|**종류**|**TTL**|**Target(대상)**|
+    |**이름**|**Type(종류)**|**TTL**|**Target(대상)**|
     |:-----|:-----|:-----|:-----|
     |(공백으로 둠)  <br/> |TXT  <br/> |3600 (초)  <br/> |MS = msXXXXXXXX  <br/> **참고:** 이 값은 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
    
@@ -138,9 +138,9 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 8. 새 레코드의 상자에서 다음 표에 있는 첫 번째 행의 값을 입력하거나 복사하여 붙여넣습니다. 
     
-    |**이름**|**종류**|**TTL**|**Target(대상)**|**Priority(우선 순위)**|
+    |**이름**|**Type(종류)**|**TTL**|**Target(대상)**|**우선 순위**|
     |:-----|:-----|:-----|:-----|:-----|
-    |(공백으로 둠)  <br/> |MX (Mail Exchanger)(MX(메일 교환기))  <br/> |3600 (초)  <br/> |\<domain-key\>. mail.protection.outlook.com  <br/> **참고:** *\<domain-key\>* Microsoft 계정에서를 다운로드 하세요.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |
+    |(공백으로 둠)  <br/> |MX (Mail Exchanger)(MX(메일 교환기))  <br/> |3600 (초)  <br/> |\<domain-key\>. mail.protection.outlook.com  <br/> **참고:**  *\<domain-key\>*  Microsoft 계정에서를 다운로드 하세요.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |
    
    ![Freenom MX 레코드](../../media/8896c4a9-b3dd-45ed-9916-f7da2715ba8c.png)
   
@@ -197,7 +197,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 <a name="bkmk_spf"> </a>
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는 *단일* SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는  *단일*  SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 
 
 1. 시작 하려면 [이 링크](https://my.freenom.com/)를 사용 하 여 Freenom의 도메인 페이지로 이동 합니다. You'll be prompted to log in.
     
@@ -223,7 +223,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**이름**|**Record type(레코드 종류)**|**TTL**|**Target(대상)**|
     |:-----|:-----|:-----|:-----|
-    |(공백으로 둠)  <br/> |TXT  <br/> |3600 (초)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
+    |(공백으로 둠)  <br/> |TXT  <br/> |3600 (초)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
     ![SPF의 freenom TXT 값](../../media/1b3b1199-9104-4ca1-acdb-786d139c21ac.png)
   

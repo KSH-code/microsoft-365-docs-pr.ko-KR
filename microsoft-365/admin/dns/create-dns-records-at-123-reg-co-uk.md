@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1f2d08c9-2a88-4d2f-ae1f-e39f9e358b17
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Microsoft 용 123-reg.co.uk에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 51542e1f00153a87ca06ec540d391de6ca621bab
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: c7a6db51bd1c2b2af06a1dde8c317850db0d9e35
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307034"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646363"
 ---
 # <a name="create-dns-records-at-123-regcouk-for-microsoft"></a>123-reg.co.uk에서 Microsoft에 대 한 DNS 레코드 만들기
 

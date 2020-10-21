@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Microsoft에 대 한 Cloudflare로 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 9b717ddedaf6435f6599f4f75cc0fa7c4e618d59
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 301ed156584d9a9a2b84b88db7d6969ade5b34a2
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400548"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646154"
 ---
 # <a name="create-dns-records-at-cloudflare-for-microsoft"></a>Microsoft에 대 한 Cloudflare에서 DNS 레코드 만들기
 
@@ -132,7 +132,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**유형**|**이름**|**메일 서버**|**Priority(우선 순위)**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |@  <br/> |*\<domain-key\>*. mail.protection.outlook.com  <br/> **참고:** *\<domain-key\>* Microsoft 365 계정을 확인 하세요.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md) |1   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/>|30분  <br/> |
+    |MX  <br/> |@  <br/> |*\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:**  *\<domain-key\>*  Microsoft 365 계정을 확인 하세요.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md) |1   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/>|30분  <br/> |
    
 
   
@@ -194,7 +194,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**유형**|**이름**|**TTL**|**콘텐츠**|
     |:-----|:-----|:-----|:-----|
-    |TXT  <br/> |@  <br/> |30분  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.   |
+    |TXT  <br/> |@  <br/> |30분  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.   |
 
  
 5. **저장**을 선택합니다.

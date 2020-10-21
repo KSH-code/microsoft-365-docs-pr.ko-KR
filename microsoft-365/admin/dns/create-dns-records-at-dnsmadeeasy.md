@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: e158b079-b054-4b7e-8e01-e55169ce18d7
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Microsoft 용 DNSMadeEasy에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 07cf79b86e02fa79d59882fa51402cccc922c2b6
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 266f5e8460395ae10b9c430cf66e1f443126ff64
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307106"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646214"
 ---
 # <a name="create-dns-records-at-dnsmadeeasy-for-microsoft"></a>DNSMadeEasy에서 Microsoft에 대 한 DNS 레코드 만들기
 
@@ -110,7 +110,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**이름**|**서버**|**MX 수준**|**TTL**|
     |:-----|:-----|:-----|:-----|
-    |(이 필드는 비워 둡니다.)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:** Microsoft 계정에서 \<*domain-key*\>을(를) 받으세요. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |1800  <br/> |
+    |(이 필드는 비워 둡니다.)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:** Microsoft 계정에서 \<*domain-key*\>을(를) 받으세요. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |1800  <br/> |
    
     ![DNSMadeEasy-BP-구성-2-2](../../media/69b53af9-1eec-435c-8434-1b6058c1ec82.png)
   

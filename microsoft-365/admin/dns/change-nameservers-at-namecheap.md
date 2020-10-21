@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 84f467f6-28cf-40f0-94d0-a2a27ddfc2e7
 description: 'Microsoft에서 DNS 레코드를 관리 하도록 하려면 Namecheap을 사용 하 여 Microsoft 사용자 지정 도메인을 설정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 55fde3b0db960d78ad77c9f9189c5367de16c73f
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: e305abb7768b286dbd24336c1dab39d919f9a0ac
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400620"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646454"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-namecheap"></a>이름 서버를 변경 하 여 Namecheap을 사용 하 여 Microsoft 설정
 
@@ -107,7 +107,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 Microsoft에서 도메인 설정을 완료 하려면 도메인 등록 기관에서 도메인의 NS 레코드를 Microsoft 기본 및 보조 이름 서버를 가리키도록 변경 합니다. 이렇게 하면 Microsoft에서 도메인의 DNS 레코드를 업데이트 하도록 설정 합니다. 전자 메일, 비즈니스용 Skype Online, 공개 웹 사이트가 사용자의 도메인을 사용하도록 모든 레코드가 자동으로 추가되고 모든 설정이 완료됩니다.
   
 > [!CAUTION]
-> Microsoft 이름 서버를 가리키도록 도메인의 NS 레코드를 변경 하면 현재 도메인에 연결 된 모든 서비스가 영향을 받습니다. 예를 들어 도메인으로 전송 되는 모든 전자 메일 (rob@ *your_domain* )이 변경 된 후 Microsoft로 시작 됩니다. 
+> Microsoft 이름 서버를 가리키도록 도메인의 NS 레코드를 변경 하면 현재 도메인에 연결 된 모든 서비스가 영향을 받습니다. 예를 들어 도메인으로 전송 되는 모든 전자 메일 (rob@ *your_domain*  )이 변경 된 후 Microsoft로 시작 됩니다. 
   
 > [!IMPORTANT]
 >  이 섹션의 단계를 완료하면 다음과 같이 네 개의 이름 서버  *만*  나열됩니다. >  ns1.bdm.microsoftonline.com >  ns2.bdm.microsoftonline.com >  ns3.bdm.microsoftonline.com >  ns4.bdm.microsoftonline.com >  다음 절차에는 원치 않는 기타 이름 서버를 목록에서 삭제하는 방법과  *올바른*  이름 서버가 목록에 아직 없는 경우 이를 추가하는 방법이 설명되어 있습니다. 

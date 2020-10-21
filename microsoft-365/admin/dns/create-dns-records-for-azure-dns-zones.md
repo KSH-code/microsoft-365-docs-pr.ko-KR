@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: fbcef2d7-ebaf-40d0-ba1f-cdaeff9f50ef
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대해 Microsoft의 Azure DNS 영역에 대 한 DNS 레코드를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: fcc3ea42b7414cdd5fc0c34bfae91104287d2379
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 40fadb81ebd0ae5385bbbdad727b1c579142b227
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400271"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645674"
 ---
 # <a name="create-dns-records-for-azure-dns-zones"></a>Azure DNS 영역에 대 한 DNS 레코드 만들기
 
@@ -108,7 +108,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
     (드롭다운 목록에서 **Type (종류** ) 및 **TTL 단위** 값을 선택 합니다.) 
     
-    |**이름**|**종류**|**TTL**|**TTL 단위**|**값**|
+    |**이름**|**Type(종류)**|**TTL**|**TTL 단위**|**값**|
     |:-----|:-----|:-----|:-----|:-----|
     |@  <br/> |TXT  <br/> |1   <br/> |시간  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
    
@@ -158,9 +158,9 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     (드롭다운 목록에서 **Type (종류** ) 및 **TTL 단위** 값을 선택 합니다.) 
     
-    |**이름**|**종류**|**TTL**|**TTL 단위**|**기본 설정**|**메일 교환**|
+    |**이름**|**Type(종류)**|**TTL**|**TTL 단위**|**기본 설정**|**메일 교환**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |1   <br/> |시간  <br/> |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **참고:** *\<domain-key\>* Microsoft 계정에서를 다운로드 하세요.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)  
+    |@  <br/> |MX  <br/> |1   <br/> |시간  <br/> |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:**  *\<domain-key\>*  Microsoft 계정에서를 다운로드 하세요.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)  
    
     ![Azure-BP-구성-2-1](../../media/712c23ae-9d38-4af2-94e0-0704e70744fe.png)
   
@@ -207,7 +207,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     (드롭다운 목록에서 **Type (종류** ) 및 **TTL 단위** 값을 선택 합니다.) 
     
-    |**이름**|**종류**|**TTL**|**TTL 단위**|**별칭**|
+    |**이름**|**Type(종류)**|**TTL**|**TTL 단위**|**별칭**|
     |:-----|:-----|:-----|:-----|:-----|
     |autodiscover  <br/> |CNAME  <br/> |1   <br/> |시간  <br/> |autodiscover.outlook.com  <br/> |
     |sip  <br/> |CNAME  <br/> |1   <br/> |시간  <br/> |sipdir.online.lync.com  <br/> |
@@ -231,7 +231,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 > [!IMPORTANT]
 > Microsoft 용 MDM (모바일 장치 관리)이 있는 경우 두 개의 CNAME 레코드를 추가로 만들어야 합니다. 다른 4개의 CNAME 레코드를 만드는 데 사용한 절차를 따르되 다음 표의 값을 입력합니다. (MDM이 없는 경우에는이 단계를 건너뛰어도 됩니다.) 
   
-|**이름**|**종류**|**TTL**|**TTL 단위**|**별칭**|
+|**이름**|**Type(종류)**|**TTL**|**TTL 단위**|**별칭**|
 |:-----|:-----|:-----|:-----|:-----|
 |enterpriseregistration  <br/> |CNAME  <br/> |1   <br/> |시간  <br/> |enterpriseregistration.windows.net  <br/> |
 |enterpriseenrollment  <br/> |CNAME  <br/> |1   <br/> |시간  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |
@@ -240,7 +240,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는 *단일* SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는  *단일*  SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 
   
 1. 시작 하려면 [이 링크](https://portal.azure.com )를 사용 하 여 Azure의 도메인 페이지로 이동 합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
@@ -258,9 +258,9 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     (드롭다운 목록에서 **Type (종류** ) 및 **TTL 단위** 값을 선택 합니다.) 
     
-    |**이름**|**종류**|**TTL**|**TTL 단위**|**값**|
+    |**이름**|**Type(종류)**|**TTL**|**TTL 단위**|**값**|
     |:-----|:-----|:-----|:-----|:-----|
-    |@  <br/> |TXT  <br/> |1   <br/> |시간  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           
+    |@  <br/> |TXT  <br/> |1   <br/> |시간  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           
 
     ![Azure-BP-구성-4-2](../../media/78e84c43-e0ce-433f-8e74-9157fb093cca.png)
   
@@ -289,10 +289,10 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     (드롭다운 목록에서 **Type (종류** ) 및 **TTL 단위** 값을 선택 합니다.) 
     
-    |**이름**|**종류**|**TTL**|**TTL 단위**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**대상**|
+    |**이름**|**Type(종류)**|**TTL**|**TTL 단위**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**대상**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip _tls  <br/> |SRV  <br/> |1   <br/> |시간  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls _tcp  <br/> |SRV  <br/> |1   <br/> |시간  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> 
+    |_sip._tls  <br/> |SRV  <br/> |1   <br/> |시간  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls._tcp  <br/> |SRV  <br/> |1   <br/> |시간  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> 
 
     ![Azure-BP-구성-5-1](../../media/a436e0b4-8bb8-4a66-9c22-4e3b2dcf54ff.png)
   

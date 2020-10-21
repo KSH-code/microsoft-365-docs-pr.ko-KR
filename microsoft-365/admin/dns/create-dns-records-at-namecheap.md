@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 54ae2002-b38e-43a1-82fa-3e49d78fda56
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 Microsoft 용 Namecheap의 기타 서비스에 대 한 DNS 레코드를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 2aae667428aba5ea22ab210c47aa9c994a9acf14
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 25b40dad0eb47c190df9496d5df4f061d8fdba6d
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400391"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645926"
 ---
 # <a name="create-dns-records-at-namecheap-for-microsoft"></a>Microsoft에 대 한 Namecheap에서 DNS 레코드 만들기
 
@@ -80,7 +80,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
     (드롭다운 목록에서 **TTL** 값을 선택 합니다.) 
     
-    |**유형**|**호스트**|**값**|**TTL**|
+    |**유형**|**호스트**|**Value(값)**|**TTL**|
     |:-----|:-----|:-----|:-----|
     |TXT  <br/> |@  <br/> |MS=ms *XXXXXXXX*  <br/>**참고:** 이 값은 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |30 분  <br/> |
        
@@ -137,7 +137,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 5. **메일 설정** 섹션의 **전자 메일 전달** 드롭다운 목록에서 **사용자 지정 MX** 를 선택 합니다. 
     
-    (You may have to scroll down.)
+    (아래로 스크롤해야 할 수 있습니다.)
     
     ![Namecheap-BP-2-1](../../media/40199e2c-42cf-4c3f-9936-3cbe5d4e81a4.png)
   
@@ -151,7 +151,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**유형**|**호스트**|**Value(값)**|**Priority(우선 순위)**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX 레코드  <br/> |@  <br/> |\<*domain-key*\>. mail.protection.outlook.com  <br/> **This value MUST end with a period (.)** <br/> **참고:** *\<domain-key\>* Microsoft 계정에서를 다운로드 하세요.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |개  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |30 분  <br/> |
+    |MX 레코드  <br/> |@  <br/> |\<*domain-key*\>. mail.protection.outlook.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:**  *\<domain-key\>*  Microsoft 계정에서를 다운로드 하세요.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |개  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |30 분  <br/> |
        
     ![Namecheap-BP-2-2-2](../../media/f3b76d62-5022-48c1-901b-8615a8571309.png)
   
@@ -208,11 +208,11 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**유형**|**호스트**|**Value(값)**|**TTL**|
     |:-----|:-----|:-----|:-----|
-    |CNAME  <br/> |autodiscover  <br/> |autodiscover.outlook.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |3600  <br/> |
-    |CNAME  <br/> |sip  <br/> |sipdir.online.lync.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |3600  <br/> |
-    |CNAME  <br/> |lyncdiscover  <br/> |webdir.online.lync.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |3600  <br/> |
-    |CNAME  <br/> |enterpriseregistration  <br/> |enterpriseregistration.windows.net  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |3600  <br/> |
-    |CNAME  <br/> |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |3600  <br/> |
+    |CNAME  <br/> |autodiscover  <br/> |autodiscover.outlook.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |3600  <br/> |
+    |CNAME  <br/> |sip  <br/> |sipdir.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |3600  <br/> |
+    |CNAME  <br/> |lyncdiscover  <br/> |webdir.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |3600  <br/> |
+    |CNAME  <br/> |enterpriseregistration  <br/> |enterpriseregistration.windows.net.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |3600  <br/> |
+    |CNAME  <br/> |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |3600  <br/> |
        
     ![Namecheap-BP-3-2](../../media/f79c5679-34eb-4544-8517-caa2e8a4111a.png)
   
@@ -227,7 +227,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는 *단일* SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는  *단일*  SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 
 
 아래 단계를 따릅니다.
   
@@ -262,7 +262,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**유형**|**호스트**|**Value(값)**|**TTL**|
     |:-----|:-----|:-----|:-----|
-    |TXT  <br/> |@  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |30 분  <br/> |
+    |TXT  <br/> |@  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |30 분  <br/> |
        
     ![Namecheap-BP-4-2](../../media/ea0829f1-990b-424b-b26e-9859468318dd.png)
   
@@ -304,7 +304,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**서비스**|**프로토콜**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**대상**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip  <br/> |_tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> **This value MUST end with a period (.)** <br/> |30 분  <br/> |
+    |_sip  <br/> |_tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |30 분  <br/> |
     |_sipfederationtls  <br/> |_tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |30 분  <br/> |
        
     ![Namecheap-BP-5-2](../../media/ff9566ea-0096-4b7f-873c-027080a23b56.png)

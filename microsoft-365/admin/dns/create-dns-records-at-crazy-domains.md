@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6386d63e-b78f-4736-90e7-b99a2c116a9f
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online에 대 한 DNS 레코드를 설정 하 고 Microsoft에 사용할 수 있는 다른 서비스를 설치 하는 방법을 알아봅니다.
-ms.openlocfilehash: af154db43f486f71443497180fe64cff89e11b5f
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: cf65173873affdc66e4e6d03764a3d6c842b7642
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400536"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646226"
 ---
 # <a name="create-dns-records-at-crazy-domains-for-microsoft"></a>Microsoft에 적합 한 도메인에서 DNS 레코드 만들기
 
@@ -81,7 +81,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
     |**Sub Domain(하위 도메인)**|**Text Record(텍스트 레코드)**|
     |:-----|:-----|
-    |(Leave this field empty.)  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
+    |(이 필드는 비워 둡니다.)  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![CrazyDomains-BP-Verify-1-3](../../media/3867de97-6a98-4475-9bda-470bac75d483.png)
   
@@ -150,7 +150,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**영역용 메일**|**우선 순위**|**서버에 할당**|
     |:-----|:-----|:-----|
-    |(이 필드는 비워 둡니다.)  <br/> |1   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **참고:** *\<domain-key\>* Microsoft 계정에서를 다운로드 하세요.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
+    |(이 필드는 비워 둡니다.)  <br/> |1   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:**  *\<domain-key\>*  Microsoft 계정에서를 다운로드 하세요.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
        
    ![CrazyDomains-BP-구성-2-3](../../media/e27df6a6-19a6-4e58-9716-a74be1c3f8da.png)
   
@@ -235,7 +235,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는 *단일* SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는  *단일*  SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 
   
 1. 시작하려면 [이 링크](https://manage.crazydomains.com/members/domains/)를 사용하여 Crazy Domains의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
@@ -269,7 +269,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**Sub Domain(하위 도메인)**|**Text Record(텍스트 레코드)**|
     |:-----|:-----|
-    |(이 필드는 비워 둡니다.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
+    |(이 필드는 비워 둡니다.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
     ![CrazyDomains-BP-구성-4-3](../../media/e7fd524a-c94b-4cdd-b264-67abb532a71b.png)
   
@@ -314,8 +314,8 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**Record Type(레코드 종류)**|**Sub Domain(하위 도메인)**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**대상**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV 레코드  <br/> |_sip _tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |SRV 레코드  <br/> |_sipfederationtls _tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |SRV 레코드  <br/> |_sip._tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |SRV 레코드  <br/> |_sipfederationtls._tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
    
     ![CrazyDomains-BP-구성-5-3](../../media/cc0ea6eb-7358-434e-bd1a-2737725c6d41.png)
   

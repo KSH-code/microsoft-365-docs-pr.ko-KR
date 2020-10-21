@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9c0812e0-908b-4b41-a64b-77f0dbd3db7a
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Microsoft 용 Dreamhost에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 4b321138892cb4a7b5f67c37ed66f3baf0f6c45a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 8ab617fd5d63b292a85289d2d51a0ae0fd3b26be
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400512"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646202"
 ---
 # <a name="create-dns-records-at-dreamhost-for-microsoft"></a>Dreamhost에서 Microsoft에 대 한 DNS 레코드 만들기
 
@@ -64,9 +64,9 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
     (You may have to scroll down.)
     
-    (Choose the **Type** value from the drop-down list.) 
+    (드롭다운 목록에서 **Type(종류)** 값을 선택합니다.) 
     
-    |**이름**|**종류**|**값**|**설명**|
+    |**이름**|**Type(종류)**|**값**|**설명**|
     |:-----|:-----|:-----|:-----|
     |(Leave this field empty.)  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |(이 필드는 선택 사항입니다.)  <br/> |
    
@@ -121,13 +121,13 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 4. **사용자 지정 MX 레코드** 구역의 새 레코드 용 상자에 다음 표의 값을 입력 하거나 복사 하 여 붙여넣습니다. 
     
-    (You may have to scroll down.)
+    (아래로 스크롤해야 할 수 있습니다.)
     
     기존의 다른 MX 레코드가 있는 경우 해당 레코드를 삭제 하도록 표시 합니다.
     
     |**MX 레코드 (필수)**|
     |:-----|
-    |*\<domain-key\>* mail.protection.outlook.com.  <br/> **This value MUST end with a period (.)** <br/> 0은 MX 우선 순위 값입니다. 이 값을 MX 값 시작 부분에 추가하고 나머지 값과 공백으로 구분합니다.  <br/> **참고:** *\<domain-key\>* Microsoft 계정에서를 다운로드 하세요.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
+    |0  *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> 0은 MX 우선 순위 값입니다. 이 값을 MX 값 시작 부분에 추가하고 나머지 값과 공백으로 구분합니다.  <br/> **참고:**  *\<domain-key\>*  Microsoft 계정에서를 다운로드 하세요.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Dreamhost-BP-구성-2-3](../../media/90da1816-e186-4016-ab22-7962f8b86add.png)
   
@@ -163,17 +163,17 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 4. **사용자 지정 DNS 레코드 추가** 구역의 새 레코드 용 상자에 다음 표에 있는 첫 번째 행의 값을 입력 하거나 복사 하 여 붙여넣습니다. 
     
-    (You may have to scroll down.)
+    (아래로 스크롤해야 할 수 있습니다.)
     
-    (Choose the **Type** value from the drop-down list.) 
+    (드롭다운 목록에서 **Type(종류)** 값을 선택합니다.) 
     
-    |**이름**|**종류**|**값**|**설명**|
+    |**이름**|**Type(종류)**|**값**|**설명**|
     |:-----|:-----|:-----|:-----|
-    |autodiscover  <br/> |CNAME  <br/> |autodiscover.outlook.com  <br/> **This value MUST end with a period (.)** <br/> |(이 필드는 선택 사항입니다.)  <br/> |
-    |sip  <br/> |CNAME  <br/> |sipdir.online.lync.com  <br/> **This value MUST end with a period (.)** <br/> |(이 필드는 선택 사항입니다.)  <br/> |
-    |lyncdiscover  <br/> |CNAME  <br/> |webdir.online.lync.com  <br/> **This value MUST end with a period (.)** <br/> |(이 필드는 선택 사항입니다.)  <br/> |
-    |enterpriseregistration  <br/> |CNAME  <br/> |enterpriseregistration.windows.net  <br/> **This value MUST end with a period (.)** <br/> |(이 필드는 선택 사항입니다.)  <br/> |
-    |enterpriseenrollment  <br/> |CNAME  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |(이 필드는 선택 사항입니다.)  <br/> |
+    |autodiscover  <br/> |CNAME  <br/> |autodiscover.outlook.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |(이 필드는 선택 사항입니다.)  <br/> |
+    |sip  <br/> |CNAME  <br/> |sipdir.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |(이 필드는 선택 사항입니다.)  <br/> |
+    |lyncdiscover  <br/> |CNAME  <br/> |webdir.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |(이 필드는 선택 사항입니다.)  <br/> |
+    |enterpriseregistration  <br/> |CNAME  <br/> |enterpriseregistration.windows.net.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |(이 필드는 선택 사항입니다.)  <br/> |
+    |enterpriseenrollment  <br/> |CNAME  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |(이 필드는 선택 사항입니다.)  <br/> |
    
     ![Dreamhost-BP-구성-3-1](../../media/0c4cc587-ea24-47f2-8dc6-a35735b250e6.png)
   
@@ -188,7 +188,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는 *단일* SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다.
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는  *단일*  SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다.
   
 아래 단계를 따릅니다.
   
@@ -206,13 +206,13 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 4. **사용자 지정 DNS 레코드 추가** 구역의 새 레코드 용 상자에 다음 표에 있는 첫 번째 행의 값을 입력 하거나 복사 하 여 붙여넣습니다. 
     
-    (You may have to scroll down.)
+    (아래로 스크롤해야 할 수 있습니다.)
     
-    (Choose the **Type** value from the drop-down list.) 
+    (드롭다운 목록에서 **Type(종류)** 값을 선택합니다.) 
     
-    |**이름**|**종류**|**값**|**설명**|
+    |**이름**|**Type(종류)**|**값**|**설명**|
     |:-----|:-----|:-----|:-----|
-    |(Leave this field empty.)  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |(이 필드는 선택 사항입니다.)  <br/> |
+    |(Leave this field empty.)  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |(이 필드는 선택 사항입니다.)  <br/> |
    
    ![Dreamhost-BP-구성-4-1](../../media/cbc4bbca-bdbc-4dc9-b1b7-b55491eb1e53.png)
   
@@ -242,14 +242,14 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 4. **사용자 지정 DNS 레코드 추가** 구역의 새 레코드 용 상자에 다음 표에 있는 첫 번째 행의 값을 입력 하거나 복사 하 여 붙여넣습니다. 
     
-    (You may have to scroll down.)
+    (아래로 스크롤해야 할 수 있습니다.)
     
-    (Choose the **Type** value from the drop-down list.) 
+    (드롭다운 목록에서 **Type(종류)** 값을 선택합니다.) 
     
-    |**이름**|**종류**|**값**|**설명**|
+    |**이름**|**Type(종류)**|**값**|**설명**|
     |:-----|:-----|:-----|:-----|
-    |_sip _tls  <br/> |SRV  <br/> |100 1 443  <br/> sipdir.online.lync.com  <br/> **This value MUST end with a period (.)** <br/> |(이 필드는 선택 사항입니다.)  <br/> |
-    |_sipfederationtls _tcp  <br/> |SRV  <br/> |100 1 5061  <br/> sipfed.online.lync.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |(이 필드는 선택 사항입니다.)  <br/> |
+    |_sip._tls  <br/> |SRV  <br/> |100 1 443  <br/> sipdir.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |(이 필드는 선택 사항입니다.)  <br/> |
+    |_sipfederationtls._tcp  <br/> |SRV  <br/> |100 1 5061  <br/> sipfed.online.lync.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |(이 필드는 선택 사항입니다.)  <br/> |
    
     ![Dreamhost-BP-구성-5-1](../../media/934eb79f-3617-4b72-802c-c42c7d165283.png)
   

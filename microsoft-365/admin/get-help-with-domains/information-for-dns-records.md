@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
 description: 'Microsoft 365에 대 한 DNS 레코드를 만드는 데 필요한 값/정보를 확인 하는 방법을 설명 합니다. '
-ms.openlocfilehash: fddd1180f2dd80ffeec2aeec49ed821055dd5f15
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: eca9dbe4e40193f76538b639624b827177ff7772
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399911"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645314"
 ---
 # <a name="gather-the-information-you-need-to-create-dns-records"></a>DNS 레코드를 만드는 데 필요한 정보 수집
 

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 31efc571-c8b9-46fb-b42d-203c2fb25289
 description: 1&인터넷이 DNS 호스팅 공급자 일 때 21Vianet에서 운영 하는 Office 365을 설정 하 여 DNS 레코드를 관리 하는 방법을 알아봅니다.
-ms.openlocfilehash: 79870d534e7d825fd59dbbbec54c796227f5faf1
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 8a783be20d2f8dbdb26e9826018f911289b35235
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780376"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646562"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-11-ionos"></a>이름 서버를 변경 하 여 Microsoft 365을 설정 하 고 1&1gb 이상 OS
 
@@ -56,7 +56,7 @@ Microsoft 365에서 사용자 도메인을 사용하려면 먼저 도메인을 �
     
 5. **TXT 및 SRV 레코드** 섹션에서 **레코드 추가**를 선택 합니다.
     
-    (You may have to scroll down.) 
+    (아래로 스크롤해야 할 수 있습니다.) 
     
 6. In the **Add Record** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -92,7 +92,7 @@ Microsoft 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 
 Microsoft 365을 사용 하 여 도메인 설정을 완료 하려면 도메인 등록 기관에서 도메인의 NS 레코드가 Microsoft 365 기본 및 보조 이름 서버를 가리키도록 변경 합니다. 이렇게 하면 Microsoft 365이 설정 되어 도메인의 DNS 레코드를 업데이트 합니다. 전자 메일, 비즈니스용 Skype Online, 공개 웹 사이트가 사용자의 도메인을 사용하도록 모든 레코드가 자동으로 추가되고 모든 설정이 완료됩니다.
   
 > [!CAUTION]
-> Microsoft 365 이름 서버를 가리키도록 도메인의 NS 레코드를 변경 하면 현재 도메인에 연결 된 모든 서비스가 영향을 받습니다. 예를 들어 도메인으로 전송 되는 모든 전자 메일 (rob@ *your_domain* )이 변경 된 후 Microsoft 365으로 시작 됩니다. 
+> Microsoft 365 이름 서버를 가리키도록 도메인의 NS 레코드를 변경 하면 현재 도메인에 연결 된 모든 서비스가 영향을 받습니다. 예를 들어 도메인으로 전송 되는 모든 전자 메일 (rob@ *your_domain*  )이 변경 된 후 Microsoft 365으로 시작 됩니다. 
   
 Microsoft 365에서 도메인을 설정할 수 있도록 NS 레코드를 변경할 준비가 되셨습니까? 아래 단계를 따르거나 [비디오를 시청 하세요 (2:47에 시작)](https://support.microsoft.com/office/0ef1b3b5-d27a-4004-8ca1-fbe0453a0ea3).
   

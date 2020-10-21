@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - FRP150
 description: Microsoft 365 관리 센터에 대해 알아봅니다.
-ms.openlocfilehash: 720130f01000e1f8845d2fa28dbc2d278a258ebf
-ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
+ms.openlocfilehash: 2e54ad576b944153332aaec2012538e84c444db1
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44560426"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645074"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 정보
 

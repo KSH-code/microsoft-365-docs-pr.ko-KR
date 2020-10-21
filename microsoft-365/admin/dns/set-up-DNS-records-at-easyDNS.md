@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 446babfe-2e08-4cc2-bbfb-c05b854933ac
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Microsoft 용 easyDNS에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 24f477d240af936975141c53d382e114a24c0ac5
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 4909a02ec56fc9720a2636e822da0339e89bccf8
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400235"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645554"
 ---
 # <a name="create-dns-records-at-easydns-for-microsoft"></a>EasyDNS에서 Microsoft에 대 한 DNS 레코드 만들기
 
@@ -45,7 +45,7 @@ Microsoft로 메일을 라우팅하기 위해 등록자의 웹 사이트에서 �
     
 4. 텍스트 필드에 다음 레코드를 입력 합니다.
     
-    |**Host(호스트)**|**텍스트**|
+    |**Host(호스트)**|**Text(텍스트)**|
     |:-----|:-----|
     |@  <br/> |MS = msXXXXXXXX (관리 센터 도메인에 제공 된 값 사용 페이지)  <br/> |
    
@@ -98,11 +98,11 @@ Microsoft로 메일을 라우팅하기 위해 등록자의 웹 사이트에서 �
 
     |**호스트**|**주소 ("."로 끝나야 함)**|
     |:-----|:-----|
-    |autodiscover  <br/> |autodiscover.outlook.com  <br/> |
-    |sip  <br/> |sipdir.online.lync.com  <br/> |
-    |lyncdiscover  <br/> |webdir.online.lync.com  <br/> |
-    |enterpriseregistration  <br/> |enterpriseregistration.windows.net  <br/> |
-    |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |
+    |autodiscover  <br/> |autodiscover.outlook.com.  <br/> |
+    |sip  <br/> |sipdir.online.lync.com.  <br/> |
+    |lyncdiscover  <br/> |webdir.online.lync.com.  <br/> |
+    |enterpriseregistration  <br/> |enterpriseregistration.windows.net.  <br/> |
+    |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> |
    
 5. **다음**을 선택 합니다. 
     
@@ -118,7 +118,7 @@ Microsoft로 메일을 라우팅하기 위해 등록자의 웹 사이트에서 �
     
 4. 텍스트 필드에 다음 레코드를 입력 합니다.
     
-    |**Host(호스트)**|**텍스트**|
+    |**Host(호스트)**|**Text(텍스트)**|
     |:-----|:-----|
     |@  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> |
    
@@ -140,7 +140,7 @@ Microsoft로 메일을 라우팅하기 위해 등록자의 웹 사이트에서 �
     
     |**서비스**|**프로토콜**|**호스트**|**PRI**|**WGT**|**포트**|**대상 ("."로 끝나야 함)**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip  <br/> |TLS  <br/> |@  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |1800  <br/> |
+    |_sip  <br/> |TLS  <br/> |@  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com.  <br/> |1800  <br/> |
     |_sipfederationtls  <br/> |TCP  <br/> |@  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |1800  <br/> |
    
 5. **다음**을 선택 합니다. 

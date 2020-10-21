@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -22,12 +22,12 @@ description: 도메인의 정의와 도메인을 구입 하거나 비즈니스�
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: 9104c77218c483b61c57a38e37e8e2661db1aa15
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 0c59fb6bc5f9a7796c84a0370c771bf90102dec0
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399863"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645122"
 ---
 # <a name="what-is-a-domain"></a>도메인이란 무엇인가요?
 
@@ -45,14 +45,14 @@ Microsoft 365을 사용 하 여 새 도메인 구입-모든 항목을 설정 합
   
  **이미 소유한 도메인 사용:**
   
-You@yourcompany와 같은 도메인을 이미 소유한 경우 * <span> com* 이를 추가 하 고 OneDrive 및 Microsoft 앱 바로 사용을 시작할 수 있습니다. 메일 및 비즈니스용 Skype를 설정하는 데 몇 분 정도 걸립니다. 
+You@yourcompany와 같은 도메인을 이미 소유한 경우  * <span> com*  이를 추가 하 고 OneDrive 및 Microsoft 앱 바로 사용을 시작할 수 있습니다. 메일 및 비즈니스용 Skype를 설정하는 데 몇 분 정도 걸립니다. 
   
 > [!TIP]
 > 도메인이 등록되어 있는지 확실하지 않나요? - [도메인 등록 기관 찾기 도움말을 확인하세요.](find-your-domain-registrar.md)
   
  **지금 기본 도메인 사용:**
   
-같은 기본 도메인을 사용할 수 있습니다 *. <span> *지금 로그인 하 고 나중에 사용자 지정 도메인을 추가 하려면 com을 실행 합니다. 기본 도메인은 변경하거나 이름을 바꿀 수 없으므로 다음으로 넘어가기 전에 원하는 내용이 맞는지 확인합니다. 
+같은 기본 도메인을 사용할 수 있습니다  *. <span> *  지금 로그인 하 고 나중에 사용자 지정 도메인을 추가 하려면 com을 실행 합니다. 기본 도메인은 변경하거나 이름을 바꿀 수 없으므로 다음으로 넘어가기 전에 원하는 내용이 맞는지 확인합니다. 
   
 ## <a name="feeling-stuck"></a>도움이 필요하나요?
 

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: f40a9185-b6d5-4a80-bb31-aa3bb0cab48a
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online에 대 한 DNS 레코드를 설정 하 고 Microsoft의 GoDaddy에 게 보내는 기타 서비스에 대해 알아봅니다.
-ms.openlocfilehash: 95bc9e1ca522796111bbf5146c93686bbbac1a3d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 995e579e21a185084d9ee64a7ee462930d845844
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400464"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646130"
 ---
 # <a name="create-dns-records-at-godaddy-for-microsoft"></a>Microsoft에 대 한 GoDaddy에서 DNS 레코드 만들기
 
@@ -122,9 +122,9 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 
     (드롭다운 목록에서 **TTL** 값을 선택 합니다.)
 
-    |**Record type(레코드 종류)**|**호스트**|**Points to(연결 대상)**|**Priority(우선 순위)**|**TTL**|
+    |**Record type(레코드 종류)**|**Host(호스트)**|**Points to(연결 대상)**|**Priority(우선 순위)**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX (Mail Exchanger)(MX(메일 교환기))  <br/> |@  <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **참고:** *\<domain-key\>* Microsoft 계정에서를 다운로드 하세요.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |1시간  <br/> |
+    |MX (Mail Exchanger)(MX(메일 교환기))  <br/> |@  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:**  *\<domain-key\>*  Microsoft 계정에서를 다운로드 하세요.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |1시간  <br/> |
 
 6. **저장**을 선택합니다.
 
@@ -152,13 +152,13 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 
 5. 첫 번째 CNAME 레코드를 만듭니다.
 
-    새 레코드의 상자에서 다음 표에 있는 첫 번째 행의 값을 입력하거나 복사하여 붙여넣습니다. 
+    새 레코드의 상자에서 다음 표에 있는 첫 번째 행의 값을 입력하거나 복사하여 붙여넣습니다.
 
     (드롭다운 목록에서 **TTL** 값을 선택 합니다.)
 
-    |**Record type(레코드 종류)**|**호스트**|**Points to(연결 대상)**|**TTL**|
+    |**Record type(레코드 종류)**|**Host(호스트)**|**Points to(연결 대상)**|**TTL**|
     |:-----|:-----|:-----|:-----|
-    |CNAME (Alias)  <br/> |autodiscover  <br/> |autodiscover.outlook.com  <br/> |1시간  <br/> |
+    |CNAME (Alias)(CNAME(별칭))  <br/> |autodiscover  <br/> |autodiscover.outlook.com  <br/> |1시간  <br/> |
     |CNAME (Alias)(CNAME(별칭))  <br/> |sip  <br/> |sipdir.online.lync.com  <br/> |1시간  <br/> |
     |CNAME (Alias)(CNAME(별칭))  <br/> |lyncdiscover  <br/> |webdir.online.lync.com  <br/> |1시간  <br/> |
     |CNAME (Alias)(CNAME(별칭))  <br/> |enterpriseregistration  <br/> |enterpriseregistration.windows.net  <br/> |1시간  <br/> |
@@ -172,7 +172,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는 *단일* SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다.
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는  *단일*  SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다.
 
 아래 단계를 따릅니다.
 

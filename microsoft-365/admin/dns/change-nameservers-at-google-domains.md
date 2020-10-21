@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 68a08e94-26c2-4df2-9216-026b8ec907ca
 description: Google 도메인에서 사용자 지정 도메인의 DNS 레코드를 관리 하도록 Microsoft를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 65649632b5e28e97909d91ca3e04355375afe3ac
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 05d77ef4cb78351727870a384f4a28c6e4acc4b0
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400656"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646430"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-google-domains"></a>Google 도메인을 사용 하 여 Microsoft를 설정 하도록 이름 서버 변경
 
@@ -44,21 +44,22 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
   
 1. 시작 하려면 [이 링크](https://domains.google.com/registrar)를 통해 Google 도메인의 도메인 페이지로 이동 합니다. You'll be prompted to sign in. To do so:
     
-1. **로그인**을 선택 합니다.
+1. **로그인**을 선택합니다.
     
 2. 로그인 자격 증명을 입력 하 고 다시 **로그인**을 선택 합니다.
     
-2. **Domains** (도메인) 페이지의 **domain (도메인** ) 섹션에서 편집 하려는 도메인에 대해 **DNS 구성을** 선택 합니다. 
+2. **도메인** 페이지의 **도메인** 구역에서 편집할 도메인에 대해 **DNS 구성**을 선택합니다. 
     
-3. In the **Custom resource records** section, in the boxes for the new record, type or copy and paste the values from the following table. 
+3. 
+            **사용자 지정 리소스 레코드** 구역의 새 레코드 상자에 다음 표의 값을 입력하거나 복사하여 붙여넣습니다. 
     
-    (You may have to scroll down.)
+    (아래로 스크롤해야 할 수 있습니다.)
     
-    (Choose the **Type** value from the drop-down list.) 
+    (드롭다운 목록에서 **Type(종류)** 값을 선택합니다.) 
     
 |||||
 |:-----|:-----|:-----|:-----|
-|**이름** <br/> |**종류** <br/> |**TTL** <br/> |**데이터** <br/> |
+|**이름** <br/> |**Type(종류)** <br/> |**TTL** <br/> |**데이터** <br/> |
 |@  <br/> |TXT  <br/> |1H  <br/> |MS=ms *XXXXXXXX* <br/> **참고:** 이 값은 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)       <br/>  |
    
 4. **추가**를 선택합니다.
@@ -93,11 +94,11 @@ Microsoft에서 도메인 설정을 완료 하려면 도메인 등록 기관에�
   
 1. 시작하려면 [이 링크](https://domains.google.com/registrar)를 사용하여 Google Domains의 도메인 페이지로 이동합니다. 로그인하라는 메시지가 표시됩니다. 방법은 다음과 같습니다.
     
-1. **로그인**을 선택 합니다.
+1. **로그인**을 선택합니다.
     
-2. 로그인 자격 증명을 입력 하 고 다시 **로그인**을 선택 합니다.
+2. 로그인 자격 증명을 입력하고 다시 **로그인**를 선택 합니다.
     
-2. **Domains** (도메인) 페이지의 **domain (도메인** ) 섹션에서 편집 하려는 도메인에 대해 **DNS 구성을** 선택 합니다. 
+2. **도메인** 페이지의 **도메인** 구역에서 편집할 도메인에 대해 **DNS 구성**을 선택합니다. 
     
 3. **도메인** 페이지의 **이름 서버** 구역에서 **사용자 지정 이름 서버 사용**을 선택합니다.
     

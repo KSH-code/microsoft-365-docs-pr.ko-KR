@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -22,12 +22,12 @@ search.appverid:
 - BEA160
 ms.assetid: 48e09394-2287-4b3c-9853-21eadf61277e
 description: Microsoft의 Netregistry에서 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: c4e81e92b9f86d0a2974e6f95e397f3584c9a01e
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 016df6c61fd6934c1bc46b55c7e110d8442cf1d5
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400367"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645974"
 ---
 # <a name="create-dns-records-at-netregistry-for-microsoft"></a>Microsoft에 대 한 Netregistry에서 DNS 레코드 만들기
 
@@ -138,7 +138,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**이름**|**TTL (초)**|**Exchange (주소 또는 값을 가리키도록)**|**호스트 정규화 여부**|**기본 설정 (우선 순위)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |(공백으로 둠)  <br/> |3600 (초)  <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **참고:** *\<domain-key\>* Microsoft 계정에서를 다운로드 하세요.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)      |(확인란 선택)  <br/> |10    <br/> For more information about priority, see What is MX priority?  <br/> |
+    |(공백으로 둠)  <br/> |3600 (초)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:**  *\<domain-key\>*  Microsoft 계정에서를 다운로드 하세요.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)      |(확인란 선택)  <br/> |10    <br/> For more information about priority, see What is MX priority?  <br/> |
        
     ![Netregistry_MX_values](../../media/518b3da6-4055-4e2d-b5ce-44a0fee25419.png)
   
@@ -167,7 +167,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 5. 새 레코드의 상자에서 다음 표의 값을 입력하거나 복사하여 붙여넣습니다.
     
-    |**이름**|**종류**|**TTL**|**호스트 (포인트 또는 주소 값)**|
+    |**이름**|**Type(종류)**|**TTL**|**호스트 (포인트 또는 주소 값)**|
     |:-----|:-----|:-----|:-----|
     |autodiscover  <br/> |CNAME  <br/> |3600 (초)  <br/> |autodiscover.outlook.com  <br/> |
     |sip  <br/> |CNAME  <br/> |3600 (초)  <br/> |sipdir.online.lync.com  <br/> |
@@ -189,7 +189,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 <a name="bkmk_spf"> </a>
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는 *단일* SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다.
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는  *단일*  SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다.
   
 1. 시작 하려면 [이 링크](https://theconsole.netregistry.com.au/)를 사용 하 여 netregistry의 도메인 페이지로 이동 합니다. You'll be prompted to log in.
     
@@ -212,9 +212,9 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     > [!NOTE]
     > TXT 상자의 항목 앞뒤에는 따옴표를 사용 해야 합니다. 
   
-    |**이름**|**종류**|**TTL**|**TXT 데이터 (대상)**|
+    |**이름**|**Type(종류)**|**TTL**|**TXT 데이터 (대상)**|
     |:-----|:-----|:-----|:-----|
-    |(공백으로 둠)  <br/> |TXT  <br/> |3600 (초)  <br/> |"v = spf1 include:"-all "  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
+    |(공백으로 둠)  <br/> |TXT  <br/> |3600 (초)  <br/> |"v = spf1 include:"-all "  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
     ![Netregistry_SPF-TXTvalues](../../media/a369345a-d774-48bc-8160-b628ab8247f9.png)
   
@@ -229,7 +229,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Netregistry_login](../../media/accf6584-e5f4-4d68-a641-0f8847f8370f.png)
   
-2. 관리할 도메인 옆에 있는 **관리**를 선택 합니다.
+2. 관리할 도메인 옆에 있는  **관리**를 선택 합니다.
     
     ![Netregistry_Manage](../../media/e0ddc79e-0123-4e24-8380-9645bdb41aac.png)
   
@@ -248,8 +248,8 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
     |**유형**|**이름**|**TTL (초)**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**대상**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV (서비스)  <br/> |_sip _tls  <br/> |3600 (초)  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |SRV (서비스)  <br/> |_sipfederationtls _tcp  <br/> |3600 (초)  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |SRV (서비스)  <br/> |_sip._tls  <br/> |3600 (초)  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |SRV (서비스)  <br/> |_sipfederationtls._tcp  <br/> |3600 (초)  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
        
     ![Netregistry_SRV_values](../../media/49292846-1598-4b8c-9940-db6e10675753.png)
   

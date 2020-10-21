@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 657934ff-d9d2-4563-9ccf-ef4832a03a99
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Microsoft 용 Bluehost에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: c0db0a00b48e6a460b8e21c95b8d8852914ab87b
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: c0ba1b876c939632bc6c43a6e0004fbbe23a7723
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307046"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646238"
 ---
 # <a name="create-dns-records-at-bluehost-for-microsoft"></a>Bluehost에서 Microsoft에 대 한 DNS 레코드 만들기
 
@@ -53,7 +53,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
     (아래로 스크롤해야 할 수 있습니다.)
     
-3. ***Domain_name*** 영역의 **dns 영역 편집기** 행에서 **dns 레코드 관리**를 선택 합니다.
+3. ** _Domain_name_*_ 영역의 _* DNS 영역 편집기** 행에서 **DNS 레코드 관리**를 선택 합니다.
     
 4. On the **DNS Zone Editor** page, in the **Add DNS Record** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -93,7 +93,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     (아래로 스크롤해야 할 수 있습니다.)
     
-3. ***Domain_name*** 영역의 **dns 영역 편집기** 행에서 **dns 레코드 관리**를 선택 합니다.
+3. ** _Domain_name_*_ 영역의 _* DNS 영역 편집기** 행에서 **DNS 레코드 관리**를 선택 합니다.
     
 4. On the **DNS Zone Editor** page, in the **Add DNS Record** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -130,7 +130,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     (아래로 스크롤해야 할 수 있습니다.)
     
-3. ***Domain_name*** 영역의 **dns 영역 편집기** 행에서 **dns 레코드 관리**를 선택 합니다.
+3. ** _Domain_name_*_ 영역의 _* DNS 영역 편집기** 행에서 **DNS 레코드 관리**를 선택 합니다.
     
 4. **A (호스트)** 레코드 구역에서 **자동 검색** 레코드의 행을 찾은 다음 해당 행에 대해 **삭제** 를 선택 합니다. 
     
@@ -181,7 +181,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     (아래로 스크롤해야 할 수 있습니다.)
     
-3. ***Domain_name*** 영역의 **dns 영역 편집기** 행에서 **dns 레코드 관리**를 선택 합니다.
+3. ** _Domain_name_*_ 영역의 _* DNS 영역 편집기** 행에서 **DNS 레코드 관리**를 선택 합니다.
     
 4. On the **DNS Zone Editor** page, in the **Add DNS Record** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -206,7 +206,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     (아래로 스크롤해야 할 수 있습니다.)
     
-3. ***Domain_name*** 영역의 **dns 영역 편집기** 행에서 **dns 레코드 관리**를 선택 합니다.
+3. ** _Domain_name_*_ 영역의 _* DNS 영역 편집기** 행에서 **DNS 레코드 관리**를 선택 합니다.
     
 4. 2개의 SRV 레코드 중 첫 번째 레코드를 만듭니다.
     

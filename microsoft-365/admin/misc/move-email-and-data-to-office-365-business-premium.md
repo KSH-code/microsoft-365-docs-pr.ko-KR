@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -22,16 +22,16 @@ search.appverid:
 ms.assetid: 1062115d-e312-482a-bb5a-765235990f41
 ROBOTS: NOINDEX
 description: 새 비즈니스 id로 데이터를 이동 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ebbb680baf36386d7f2dafae61fb262bf0220e69
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 4f105e00ab6496a5d1d3edfc0e0f1abd4eced412
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780004"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645038"
 ---
 # <a name="move-email-and-data-to-microsoft-365-business-standard"></a>전자 메일 및 데이터를 Microsoft 365 Business Standard로 이동
 
-Microsoft 365 Business Standard로 업그레이드 하면 새로운 *비즈니스 id*가 제공 됩니다. 새로운 전자 메일 계정과 비즈니스 데이터에 대한 별도의 OneDrive 계정을 얻습니다. 
+Microsoft 365 Business Standard로 업그레이드 하면 새로운  *비즈니스 id*가 제공 됩니다. 새로운 전자 메일 계정과 비즈니스 데이터에 대한 별도의 OneDrive 계정을 얻습니다. 
   
 일부 개인 데이터를 새 비즈니스 ID로 이동하려면 경우 아래 지침을 따르세요.
   

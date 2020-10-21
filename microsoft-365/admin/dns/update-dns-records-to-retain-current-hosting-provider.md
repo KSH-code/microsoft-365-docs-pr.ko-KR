@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,26 +20,26 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 2c4cf347-b897-45c1-a71f-210bdc8f1061
-description: 사용자 지정 도메인에 대한 DNS 레코드를 관리하도록 Microsoft를 설정한 경우 Microsoft 외부에서 호스트되는 기존의 공용 웹 사이트로 트래픽을 라우팅하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 9a7090eef3ce7d1c67839e7320f31d7bd32aa6a7
-ms.sourcegitcommit: 167c05cc6a776f62f0a0c2de5f3ffeb68c4a27ac
+description: Microsoft가 사용자 지정 도메인에 대 한 DNS 레코드를 관리 하도록 설정한 경우 Microsoft 외부에서 호스트 되는 기존 공개 웹 사이트로 트래픽을 라우팅하는 방법을 알아봅니다.
+ms.openlocfilehash: 5d2bf23d4052815fae210d0fdf6635288ff46b57
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814401"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645566"
 ---
 # <a name="update-dns-records-to-keep-your-website-with-your-current-hosting-provider"></a>DNS 레코드를 업데이트하여 현재 호스팅 공급자에 웹 사이트 유지
 
- **DNS 호스팅 공급자에서 도메인의 Microsoft 레코드를**관리하는 경우 이 항목의 단계에 대해 신중할 필요가 없습니다. 웹 사이트 위치가 그대로 유지되며 사용자가 계속해서 액세스할 수 있습니다. 
+ **DNS 호스팅 공급자에서 도메인의 Microsoft 레코드를 관리 하는 경우**이 항목의 단계에 대해 걱정할 필요가 없습니다. 웹 사이트 위치가 그대로 유지되며 사용자가 계속해서 액세스할 수 있습니다. 
   
- **Microsoft에서 DNS 레코드를 관리하는 경우**Microsoft 외부에서 호스트되는 기존의 공개 웹 사이트로 트래픽을 라우팅할 경우 도메인을 Microsoft에 추가한 후 다음을 수행합니다. 
+ Microsoft에서 사용자가 호스트 하는 기존 공개 웹 사이트로 트래픽을 라우팅하기 위해 microsoft에 **DNS 레코드를 관리**하는 경우 다음을 수행 합니다. 
   
 ## <a name="update-dns-records-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 DNS 레코드 업데이트
 1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
 
-2. On the **Domains** page, select the domain and then choose **DNS Records.**
+2. **도메인** 페이지에서 도메인을 선택 하 고 **DNS 레코드**를 선택 합니다.
 
-3. **DNS 설정에서 사용자**지정 **레코드를 선택합니다.**
+3. **DNS 설정**에서 **사용자 지정 레코드**를 선택 합니다.
 
 4. **+ 새 사용자 지정 레코드** 를 선택하고 다음을 입력합니다. 
     
@@ -67,7 +67,7 @@ ms.locfileid: "46814401"
     
 끝으로 다음을 실행합니다.
   
-[Microsoft를 가리리도록 도메인의 NS](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions) 레코드를 업데이트합니다. 
+Microsoft를 가리키도록 [도메인의 NS 레코드를 업데이트 합니다](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions) . 
   
-Microsoft를 가리키도록 NS 레코드를 업데이트하면 도메인 설정이 완료됩니다. 전자 메일이 Microsoft로 전달되고 웹 사이트 주소 트래픽이 계속해서 현재 웹 사이트 호스트로 이동합니다.
+Microsoft를 가리키도록 NS 레코드를 업데이트 하면 도메인은 모두 설정 됩니다. 전자 메일이 Microsoft로 라우팅되고, 웹 사이트 주소에 대 한 트래픽은 계속 해 서 현재 웹 사이트 호스트로 이동 합니다.
  

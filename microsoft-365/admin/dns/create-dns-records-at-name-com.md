@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9ddcc2fc-9433-4335-8192-6ffb1f541087
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Microsoft 용 name.com에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 646f486e73705f4b1e1bab63866fc7601d34cf92
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: ce465e06b3bc18c824d741ee4cba4b9f4f410d90
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400403"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645890"
 ---
 # <a name="create-dns-records-at-namecom-for-microsoft"></a>Name.com에서 Microsoft에 대 한 DNS 레코드 만들기
 
@@ -62,12 +62,12 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
   
 4. 새 레코드의 상자에서 다음 표의 값을 입력하거나 복사하여 붙여 넣습니다.
     
-    (Choose the **Type** value from the drop-down list.) 
+    (드롭다운 목록에서 **Type(종류)** 값을 선택합니다.) 
     
     |||||
     |:-----|:-----|:-----|:-----|
-    |**Type(종류)** <br/> |**호스트** <br/> |**응답** <br/> |**TTL** <br/> |
-    |TXT  <br/> |(Leave this field empty.)  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |Use the default value (300).  <br/> |
+    |**유형** <br/> |**호스트** <br/> |**응답** <br/> |**TTL** <br/> |
+    |TXT  <br/> |(Leave this field empty.)  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |기본값(300)을 사용합니다.  <br/> |
    
     ![이름-BP-Verify-1-1](../../media/0c352fd3-cf84-439f-a481-0705e225cc54.png)
   
@@ -115,11 +115,11 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 4. 새 레코드의 상자에서 다음 표의 값을 입력하거나 복사하여 붙여 넣습니다.
     
-    (Choose the **Type** value from the drop-down list.) 
+    (드롭다운 목록에서 **Type(종류)** 값을 선택합니다.) 
     
-    |**Type(종류)**|**호스트**|**응답**|**TTL**|**우선 순위**|
+    |**유형**|**호스트**|**응답**|**TTL**|**우선 순위**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(이 필드는 비워 둡니다.)  <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **참고:** *\<domain-key\>* Microsoft 계정에서를 다운로드 하세요.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |Use the default value (300).  <br/> |개  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |
+    |MX  <br/> |(이 필드는 비워 둡니다.)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:**  *\<domain-key\>*  Microsoft 계정에서를 다운로드 하세요.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |기본값(300)을 사용합니다.  <br/> |개  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |
    
    ![이름-BP-구성-2-1](../../media/11ba2160-fc8e-4196-bb15-2b7c6d49c8fc.png)
   
@@ -160,7 +160,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     (드롭다운 목록에서 **Type(종류)** 값을 선택합니다.) 
     
-    |**Type(종류)**|**호스트**|**응답**|**TTL**|
+    |**유형**|**호스트**|**응답**|**TTL**|
     |:-----|:-----|:-----|:-----|
     |CNAME  <br/> |autodiscover  <br/> |autodiscover.outlook.com  <br/> |기본값(300)을 사용합니다.  <br/> |
     |CNAME  <br/> |sip  <br/> |sipdir.online.lync.com  <br/> |기본값(300)을 사용합니다.  <br/> |
@@ -184,7 +184,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는 *단일* SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는  *단일*  SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 
   
 1. 시작하려면 [이 링크](https://www.name.com/account/domain)를 사용하여 name.com의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
@@ -200,11 +200,11 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 4. 새 레코드의 상자에서 다음 표의 값을 입력하거나 복사하여 붙여 넣습니다.
     
-    (Choose the **Type** value from the drop-down list.) 
+    (드롭다운 목록에서 **Type(종류)** 값을 선택합니다.) 
     
-    |**Type(종류)**|**호스트**|**응답**|**TTL**|
+    |**유형**|**호스트**|**응답**|**TTL**|
     |:-----|:-----|:-----|:-----|
-    |TXT  <br/> |(Leave this field empty.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |Use the default value (300).  <br/> |
+    |TXT  <br/> |(Leave this field empty.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |Use the default value (300).  <br/> |
    
    ![이름-BP-구성-4-1](../../media/cbbfc071-840a-4ffa-a59e-0dfce03063cc.png)
   
@@ -235,8 +235,8 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**유형**|**서비스**|**가중치**|**TTL**|**우선 순위**|**프로토콜**|**포트**|**대상**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV|sip|1 |기본값(300)을 사용합니다.|100|tls|443|sipdir.online.lync.com <br> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
-    |SRV|sipfederationtls|1 |기본값(300)을 사용합니다.|100|tcp|5061|sipfed.online.lync.com <br>**참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
+    |SRV|sip|1 |기본값(300)을 사용합니다.|100|tls|443|sipdir.online.lync.com <br> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
+    |SRV|sipfederationtls|1 |기본값(300)을 사용합니다.|100|tcp|5061|sipfed.online.lync.com <br>**참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
    ![이름-BP-구성-5-1](../../media/d9a885fd-7300-45b6-ad4c-0b4bf1067560.png)
   

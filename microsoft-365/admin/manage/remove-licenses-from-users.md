@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: 사용자 계정에서 라이선스를 할당 해제 하는 방법에 대해 알아봅니다.
 ms.date: 07/01/2020
-ms.openlocfilehash: 4441fd253c4cf5304562900bf31869eb4e0f21ff
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 455348e7dba20913e54e5a4059755f9391644e03
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47306542"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645098"
 ---
 # <a name="unassign-licenses-from-users"></a>사용자의 라이선스 할당 취소
 

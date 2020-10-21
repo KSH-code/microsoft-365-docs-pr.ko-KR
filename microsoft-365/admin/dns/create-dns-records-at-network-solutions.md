@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1dc55f9f-5309-450f-acc3-b2b4119c8be3
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 Microsoft 용 네트워크 솔루션의 기타 서비스에 대 한 DNS 레코드를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 25e85bf30527b49ada711af9ba5c418409acd24c
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: f488ad3511c9901eae70691f616dcff52036c71d
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780340"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645950"
 ---
 # <a name="create-dns-records-at-network-solutions-for-microsoft"></a>Microsoft의 Network Solutions에서 DNS 레코드 만들기
 
@@ -80,7 +80,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
   
 4. **고급 DNS 레코드 관리**를 선택 합니다.
     
-    (You may have to scroll down.)
+    (아래로 스크롤해야 할 수 있습니다.)
     
     ![고급 DNS 레코드 관리 선택](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
@@ -149,7 +149,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 4. **고급 DNS 레코드 관리**를 선택 합니다.
     
-    (You may have to scroll down.)
+    (아래로 스크롤해야 할 수 있습니다.)
     
     ![고급 DNS 레코드 관리 선택](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
@@ -159,9 +159,9 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 6. 새 레코드의 상자에서 다음 표의 값을 입력하거나 복사하여 붙여넣습니다.
     
-    |**Priority(우선 순위)**|**TTL**|**메일 서버**|
+    |**우선 순위**|**TTL**|**메일 서버**|
     |:-----|:-----|:-----|
-    |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |3600  <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **This value MUST end with a period (.)** <br/> **참고:** *\<domain-key\>* Microsoft 계정에서를 다운로드 하세요. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
+    |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |3600  <br/> | *\<domain-key\>*  . mail.protection.outlook.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:**  *\<domain-key\>*  Microsoft 계정에서를 다운로드 하세요. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
        
     ![새 레코드의 상자에 값을 입력 하거나 붙여넣습니다.](../../media/0bb96872-cc6e-4dfa-a649-fb7efbbf0012.png)
   
@@ -207,7 +207,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 4. **고급 DNS 레코드 관리**를 선택 합니다.
     
-    (You may have to scroll down.)
+    (아래로 스크롤해야 할 수 있습니다.)
     
     ![고급 DNS 레코드 관리 선택](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
@@ -219,11 +219,11 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**별칭**|**TTL**|**호스트 이름 참조**|**기타 호스트          ( **기타 호스트** 옵션 단추 선택)**|
     |:-----|:-----|:-----|:-----|
-    |autodiscover  <br/> |3600  <br/> |(설정 없음)  <br/> |autodiscover.outlook.com  <br/> **This value MUST end with a period (.)** <br/> |
-    |sip  <br/> |3600  <br/> |(설정 없음)  <br/> |sipdir.online.lync.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
-    |lyncdiscover  <br/> |3600  <br/> |(설정 없음)  <br/> |webdir.online.lync.com  <br/> **This value MUST end with a period (.)** <br/> |
+    |autodiscover  <br/> |3600  <br/> |(설정 없음)  <br/> |autodiscover.outlook.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
+    |sip  <br/> |3600  <br/> |(설정 없음)  <br/> |sipdir.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
+    |lyncdiscover  <br/> |3600  <br/> |(설정 없음)  <br/> |webdir.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
     |enterpriseregistration  <br/> |3600  <br/> |(설정 없음)  <br/> |enterpriseregistration.windows.net  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
-    |enterpriseenrollment  <br/> |3600  <br/> |(설정 없음)  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> **This value MUST end with a period (.)** <br/> |
+    |enterpriseenrollment  <br/> |3600  <br/> |(설정 없음)  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
     
     ![새 레코드 값 입력 또는 붙여넣기](../../media/5ce0b30c-b46c-4778-aa5a-fb5e2f0961c1.png)
   
@@ -239,7 +239,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는 *단일* SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는  *단일*  SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 
   
 아래 단계를 따르거나 [비디오를 시청하세요(5:35에 시작)](https://support.microsoft.com/office/c49698c2-6991-47fb-b5ac-18e49a505099).
   
@@ -260,7 +260,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 4. **고급 DNS 레코드 관리**를 선택 합니다.
     
-    (You may have to scroll down.)
+    (아래로 스크롤해야 할 수 있습니다.)
     
     ![고급 DNS 레코드 관리 선택](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
@@ -272,7 +272,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**호스트**|**TTL**|**텍스트**|
     |:-----|:-----|:-----|
-    |@  <br/> (The system will change this value to **@ (None)** when you save the record.)  <br/> |3600  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다. |
+    |@  <br/> (The system will change this value to **@ (None)** when you save the record.)  <br/> |3600  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다. |
        
     ![새 레코드에 대 한 값 입력 또는 붙여넣기](../../media/11564eca-e2ee-4f17-af2b-a00eb7c157db.png)
   
@@ -306,7 +306,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 4. **고급 DNS 레코드 관리**를 선택 합니다.
     
-    (You may have to scroll down.)
+    (아래로 스크롤해야 할 수 있습니다.)
     
     ![고급 DNS 레코드 관리 선택](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
@@ -320,8 +320,8 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**서비스**|**프로토콜**|**TTL**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**대상**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip  <br/> |_tls  <br/> |3600  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
-    |_sipfederationtls  <br/> |_tcp  <br/> |3600  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> **This value MUST end with a period (.)** <br/> |
+    |_sip  <br/> |_tls  <br/> |3600  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
+    |_sipfederationtls  <br/> |_tcp  <br/> |3600  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
        
     ![새 레코드 값 입력 또는 붙여넣기](../../media/86968d1c-8e43-4e61-aeaa-37fc7d7ef7a7.png)
   

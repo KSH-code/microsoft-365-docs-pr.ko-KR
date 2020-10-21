@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5176feef-36dc-4d84-842f-1f2b5a21ba96
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Microsoft 용 OVH에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: b462979a3ab1bcf769c78d15d9fd3ad03f307ef0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 87a2a731a253fdc0593a1aae8020e615dca63c4a
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400343"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645818"
 ---
 # <a name="create-dns-records-at-ovh-for-microsoft"></a>OVH에서 Microsoft에 대 한 DNS 레코드 만들기
 
@@ -86,7 +86,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     |:-----|:-----|:-----|:-----|
     |TXT  <br/> |(공백으로 둠)  <br/> |3600 (초)  <br/> |MS = msxxxxxxxx  <br/> **참고:** 이 값은 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
    
-7. **확인**을 선택 합니다. 
+7. **확인**을 선택합니다. 
     
     ![확인을 위해 TXT 확인 OVH](../../media/bde45596-9a55-4634-b5e7-16d7cde6e1b8.png)
   
@@ -143,7 +143,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
     |**Record type(레코드 종류)**|**하위 도메인**|**TTL**|**우선 순위**|**Target(대상)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(공백으로 둠)  <br/> |3600 (초)  <br/> |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |\<domain-key\>. mail.protection.outlook.com  <br/> **참고:** *\<domain-key\>* Microsoft 계정에서를 다운로드 하세요.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)  |
+    |MX  <br/> |(공백으로 둠)  <br/> |3600 (초)  <br/> |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |\<domain-key\>. mail.protection.outlook.com  <br/> **참고:**  *\<domain-key\>*  Microsoft 계정에서를 다운로드 하세요.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)  |
    
     ![메일에 대 한 OVH MX 레코드](../../media/6e2f5655-93e2-4620-8f19-c452e7edf8f0.png)
   
@@ -151,7 +151,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![OVH MX 레코드 다음 선택](../../media/4db62d07-0dc4-49f6-bd19-2b4a07fd764a.png)
   
-8. **확인**을 선택 합니다.
+8. **확인**을 선택합니다.
     
     ![OVH MX 레코드 선택 확인](../../media/090bfb11-a753-4af0-8982-582a4069a169.png)
   
@@ -159,7 +159,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![OVH MX 레코드 삭제](../../media/892b328b-7057-4828-b8c5-fe26284dc8c2.png)
   
-10. **확인**을 선택 합니다.
+10. **확인**을 선택합니다.
     
 ## <a name="add-the-cname-records-that-are-required-for-microsoft"></a>Microsoft에 필요한 CNAME 레코드 추가하기
 <a name="bkmk_cname"> </a>
@@ -190,11 +190,11 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**Record type(레코드 종류)**|**하위 도메인**|**대상**|**TTL**|
     |:-----|:-----|:-----|:-----|
-    |CNAME  <br/> |autodiscover  <br/> |autodiscover.outlook.com  <br/> |3600 초  <br/> |
-    |CNAME  <br/> |sip  <br/> |sipdir.online.lync.com  <br/> |3600 초  <br/> |
-    |CNAME  <br/> |lyncdiscover  <br/> |webdir.online.lync.com  <br/> |3600 초  <br/> |
-    |CNAME  <br/> |enterpriseregistration  <br/> |enterpriseregistration.windows.net  <br/> |3600 초  <br/> |
-    |CNAME  <br/> |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |3600 초  <br/> |
+    |CNAME  <br/> |autodiscover  <br/> |autodiscover.outlook.com.  <br/> |3600 초  <br/> |
+    |CNAME  <br/> |sip  <br/> |sipdir.online.lync.com.  <br/> |3600 초  <br/> |
+    |CNAME  <br/> |lyncdiscover  <br/> |webdir.online.lync.com.  <br/> |3600 초  <br/> |
+    |CNAME  <br/> |enterpriseregistration  <br/> |enterpriseregistration.windows.net.  <br/> |3600 초  <br/> |
+    |CNAME  <br/> |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> |3600 초  <br/> |
    
     ![OVH CNAME 레코드](../../media/516938b3-0b12-4736-a631-099e12e189f5.png)
   
@@ -202,7 +202,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![OVH CNAME 값을 추가 하 고 다음을 선택 합니다.](../../media/f9481cb1-559d-4da1-9643-9cacb0d80d29.png)
   
-8. **확인**을 선택 합니다.
+8. **확인**을 선택합니다.
     
 9. 이전 단계를 반복 하 여 나머지 5 개의 CNAME 레코드를 만듭니다.
     
@@ -212,7 +212,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 <a name="bkmk_spf"> </a>
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는 *단일* SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는  *단일*  SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 
   
 1. 시작 하려면 [이 링크](https://www.ovh.com/manager/)를 사용 하 여 OVH의 도메인 페이지로 이동 합니다. You'll be prompted to log in.
     
@@ -236,7 +236,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**Record type(레코드 종류)**|**하위 도메인**|**TTL**|**TXT 값**|
     |:-----|:-----|:-----|:-----|
-    |TXT  <br/> |(공백으로 둠)  <br/> |3600 (초)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
+    |TXT  <br/> |(공백으로 둠)  <br/> |3600 (초)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
     ![SPF에 대 한 OVH 추가 TXT 레코드](../../media/f50466e9-1557-4548-8a39-e98978a5ee2e.png)
   
@@ -244,7 +244,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![SPF 용 TXT 레코드 추가 OVH 및 다음 선택](../../media/7937eb7c-114f-479f-a916-bcbe476d6108.png)
   
-8. **확인**을 선택 합니다.
+8. **확인**을 선택합니다.
     
     ![SPF 및 확인을 위한 OVH 추가 TXT 레코드](../../media/649eefeb-3227-49e3-98a0-1ce19c42fa54.png)
   
@@ -277,8 +277,8 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**Record type(레코드 종류)**|**하위 도메인**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**TTL**|**Target(대상)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV (Service)(SRV(서비스))  <br/> |_sip _tls  <br/> |100  <br/> |1   <br/> |443  <br/> |3600 (초)  <br/> |sipdir.online.lync.com  <br/> |
-    |SRV (Service)(SRV(서비스))  <br/> |_sipfederationtls _tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |3600 (초)  <br/> |sipfed.online.lync.com  <br/> |
+    |SRV (Service)(SRV(서비스))  <br/> |_sip._tls  <br/> |100  <br/> |1   <br/> |443  <br/> |3600 (초)  <br/> |sipdir.online.lync.com.  <br/> |
+    |SRV (Service)(SRV(서비스))  <br/> |_sipfederationtls._tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |3600 (초)  <br/> |sipfed.online.lync.com  <br/> |
        
     ![OVH SRV 레코드](../../media/73956b9e-9e4f-40a5-803e-c4ead2f77fa6.png)
   
@@ -286,7 +286,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![OVH SRV 레코드 다음 선택](../../media/cb4ad7e2-a8f0-4ab1-9797-d1b51c1d2da9.png)
   
-8. **확인**을 선택 합니다.
+8. **확인**을 선택합니다.
     
 9. 이전 단계를 반복 하 여 다른 SRV 레코드를 만듭니다. 위 표에 있는 두 번째 행의 값을 두 번째 레코드의 상자에 입력하거나 복사하여 붙여넣습니다.
     

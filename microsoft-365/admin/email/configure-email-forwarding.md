@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: Office365을 사용 하 여 하나 이상의 전자 메일 계정으로 전자 메일을 전달 하도록 설정 합니다.
-ms.openlocfilehash: f6c177ba37cf2b8ce3966732adbe8428d9b6179e
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: d19e2c533be6fac927bdf2aa65d72acab9fad6f6
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780256"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645530"
 ---
 # <a name="configure-email-forwarding"></a>전자 메일 전달 구성
 
@@ -47,7 +47,7 @@ ms.locfileid: "44780256"
 
 - 전자 메일 전달을 설정한 후에는 *보낸* 사람 사서함으로 전송 되는 **새** 전자 메일만 구성 됩니다. 
     
-- 전자 메일을 전달 하려면 *보낸 사람* 계정에 라이선스가 있어야 합니다. 사용자가 조직을 떠난 경우 전자 메일 전달을 설정 하는 경우 [사서함을 공유 사서함으로 변환](convert-user-mailbox-to-shared-mailbox.md)하는 옵션이 있습니다. 여러 사용자가 액세스할 수 있는 방식입니다. 그러나 공유 사서함은 50GB를 초과할 수 없습니다. 
+- 전자 메일을 전달 하려면  *보낸 사람*  계정에 라이선스가 있어야 합니다. 사용자가 조직을 떠난 경우 전자 메일 전달을 설정 하는 경우 [사서함을 공유 사서함으로 변환](convert-user-mailbox-to-shared-mailbox.md)하는 옵션이 있습니다. 여러 사용자가 액세스할 수 있는 방식입니다. 그러나 공유 사서함은 50GB를 초과할 수 없습니다. 
     
 이러한 단계를 수행 하려면 Exchange 관리자 이거나 Microsoft 365의 전역 관리자 여야 합니다. 자세한 내용은 [관리 역할에 대 한](../add-users/about-admin-roles.md)항목을 참조 하십시오.
 

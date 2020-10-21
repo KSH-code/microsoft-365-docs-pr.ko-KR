@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: d7941332-8aec-4e5e-87e8-92073ce73dc5
 ROBOTS: NOINDEX
 description: Power BI 및 조직의 사용자가이 비즈니스 분석 서비스를 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5a5e7516800b2010f79296d758aeaeef80194bfd
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 633052889a2ca5c5c4db4c3b3c9334b396148e2a
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432174"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644930"
 ---
 # <a name="power-bi-in-your-organization"></a>조직의 Power BI
 
@@ -172,7 +172,7 @@ To allow your existing users to sign up for Power BI, run the opposite command a
 
 ::: moniker range="o365-worldwide"
   
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
     
 2. 라이선스를 제거할 사용자를 찾은 다음 해당 이름을 선택 합니다.
     

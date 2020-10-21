@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55bd8c38-3316-48ae-a368-4959b2c1684e
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Microsoft 용 Register.com에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 7a11fa248f2602eb02fe1242234d26584bd33fd2
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 96ec44875d5bc86f46e4945d4021deb0ca427fed
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780328"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645806"
 ---
 # <a name="create-dns-records-at-registercom-for-microsoft"></a>Register.com에서 Microsoft에 대 한 DNS 레코드 만들기
 
@@ -124,7 +124,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |****Host Name(호스트 이름)****|****우선 순위****|****Mail Server(메일 서버)****|
     |:-----|:-----|:-----|
-    |@  <br/> |높음  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/>  <br/>**참고:** \<*domain-key*\>Microsoft 계정에서를 다운로드 하세요. <br> [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |높음  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/>  <br/>**참고:** Microsoft 계정에서 \<*domain-key*\>을(를) 받으세요. <br> [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![테이블의 값을 복사 하 여 붙여넣기](../../media/a1a15a14-c3dc-45dc-adcd-90fdb3f7455d.png)
   
@@ -207,7 +207,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |****Host Name(호스트 이름)****|****TXT Record(TXT 레코드)****|
     |:-----|:-----|
-    |@  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.  |
+    |@  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.  |
    
      ![테이블의 값을 복사 하 여 붙여넣기](../../media/b1dc5036-c13c-4306-b1e3-5a38a74643b7.png)
   
@@ -238,7 +238,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 6. 처음 2개의 SRV 레코드를 추가합니다.
     
-    새 레코드의 상자에서 다음 표에 있는 첫 번째 행의 값을 입력하거나 복사하여 붙여넣습니다. 
+    새 레코드의 상자에서 다음 표에 있는 첫 번째 행의 값을 입력하거나 복사하여 붙여넣습니다.
     
     (드롭다운 목록에서 **Priority (우선 순위** ) 값을 선택 합니다.) 
     
