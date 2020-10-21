@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,25 +13,25 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 277a28e1875daaf64f8ba4b55d733ee0b43e3f98
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 4c64625fbe84210bb8f5aecdff92dfa0ebb9d3d0
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398165"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48643178"
 ---
-# <a name="contact-support-for-costa-rica"></a><span data-ttu-id="5192a-103">코스타리카에 대 한 지원 문의</span><span class="sxs-lookup"><span data-stu-id="5192a-103">Contact support for Costa Rica</span></span>
+# <a name="contact-support-for-costa-rica"></a><span data-ttu-id="779cf-103">코스타리카에 대 한 지원 문의</span><span class="sxs-lookup"><span data-stu-id="779cf-103">Contact support for Costa Rica</span></span>
 
-<span data-ttu-id="5192a-104">[다른 국가 또는 지역을 찾습니다](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="5192a-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="779cf-104">[다른 국가 또는 지역을 찾습니다](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="779cf-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="5192a-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="5192a-105">Phone number</span></span>
-<span data-ttu-id="5192a-106">0800 012 1447</span><span class="sxs-lookup"><span data-stu-id="5192a-106">0800 012 1447</span></span>
+## <a name="phone-number"></a><span data-ttu-id="779cf-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="779cf-105">Phone number</span></span>
+<span data-ttu-id="779cf-106">0800 012 1447</span><span class="sxs-lookup"><span data-stu-id="779cf-106">0800 012 1447</span></span>
 
-## <a name="hours"></a><span data-ttu-id="5192a-107">시간</span><span class="sxs-lookup"><span data-stu-id="5192a-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="5192a-108">대금 청구 지원:</span><span class="sxs-lookup"><span data-stu-id="5192a-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="779cf-107">시간</span><span class="sxs-lookup"><span data-stu-id="779cf-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="779cf-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="779cf-108">Billing Support:</span></span>
 
-<span data-ttu-id="5192a-109">스페인어: Mon-금요일 오전 9 시-오후 5 시</span><span class="sxs-lookup"><span data-stu-id="5192a-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="779cf-109">스페인어: 오전 9 시 Mon-Fri 오후 5 시</span><span class="sxs-lookup"><span data-stu-id="779cf-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="5192a-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="5192a-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="779cf-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="779cf-110">Technical Support:</span></span>
 
-<span data-ttu-id="5192a-111">스페인어: 하루 24 시간 365 일 연중 무휴로</span><span class="sxs-lookup"><span data-stu-id="5192a-111">Spanish: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="779cf-111">스페인어: 하루 24 시간 365 일 연중 무휴로</span><span class="sxs-lookup"><span data-stu-id="779cf-111">Spanish: 24 hours a day, 7 days a week</span></span>

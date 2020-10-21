@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,29 +13,29 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3f9308b51517c88325dfb56c1fae5f853f4b6c6c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 4e65db4250ea1c81d3c51fb611575817db15e8db
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398597"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644102"
 ---
-# <a name="contact-support-for-bahrain-kingdom-of"></a><span data-ttu-id="44aca-103">바레인, 왕국에 대 한 지원 문의</span><span class="sxs-lookup"><span data-stu-id="44aca-103">Contact support for Bahrain, Kingdom of</span></span>
+# <a name="contact-support-for-bahrain-kingdom-of"></a><span data-ttu-id="17b89-103">바레인, 왕국에 대 한 지원 문의</span><span class="sxs-lookup"><span data-stu-id="17b89-103">Contact support for Bahrain, Kingdom of</span></span>
 
-<span data-ttu-id="44aca-104">[다른 국가 또는 지역을 찾습니다](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="44aca-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="17b89-104">[다른 국가 또는 지역을 찾습니다](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="17b89-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="44aca-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="44aca-105">Phone number</span></span>
-<span data-ttu-id="44aca-106">800 81 250</span><span class="sxs-lookup"><span data-stu-id="44aca-106">800 81 250</span></span>
+## <a name="phone-number"></a><span data-ttu-id="17b89-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="17b89-105">Phone number</span></span>
+<span data-ttu-id="17b89-106">800 81 250</span><span class="sxs-lookup"><span data-stu-id="17b89-106">800 81 250</span></span>
 
-## <a name="hours"></a><span data-ttu-id="44aca-107">시간</span><span class="sxs-lookup"><span data-stu-id="44aca-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="44aca-108">대금 청구 지원:</span><span class="sxs-lookup"><span data-stu-id="44aca-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="17b89-107">시간</span><span class="sxs-lookup"><span data-stu-id="17b89-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="17b89-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="17b89-108">Billing Support:</span></span>
 
-<span data-ttu-id="44aca-109">아랍어: Sun-오전 10 시-오후 6 시</span><span class="sxs-lookup"><span data-stu-id="44aca-109">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="17b89-109">아랍어: 오전 10 시 Sun-Thu 오후 6 시</span><span class="sxs-lookup"><span data-stu-id="17b89-109">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="44aca-110">영어: Mon-금요일 오전 10 시-오후 6 시</span><span class="sxs-lookup"><span data-stu-id="44aca-110">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="17b89-110">영어: 오전 10 시 Mon-Fri 오후 6 시</span><span class="sxs-lookup"><span data-stu-id="17b89-110">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="44aca-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="44aca-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="17b89-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="17b89-111">Technical Support:</span></span>
 
-<span data-ttu-id="44aca-112">아랍어: Sun-오전 10 시-오후 6 시</span><span class="sxs-lookup"><span data-stu-id="44aca-112">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="17b89-112">아랍어: 오전 10 시 Sun-Thu 오후 6 시</span><span class="sxs-lookup"><span data-stu-id="17b89-112">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="44aca-113">영어: 하루 24 시간 365 일 연중 무휴로</span><span class="sxs-lookup"><span data-stu-id="44aca-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="17b89-113">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="17b89-113">English: 24 hours a day, 7 days a week</span></span>
