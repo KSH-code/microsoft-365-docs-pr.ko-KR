@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,23 +13,23 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: 구독에 대 한 결제를 보낼 위치를 알아봅니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 89483e5c51ed602035c2b792dc8295612285cd55
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 0ec7130cfd8e9720fa8115ef5b9be5a7eb4a99a1
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403977"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48648926"
 ---
-# <a name="payment-information-for-norway"></a><span data-ttu-id="8cd33-103">노르웨이 결제 정보</span><span class="sxs-lookup"><span data-stu-id="8cd33-103">Payment information for Norway</span></span>
+# <a name="payment-information-for-norway"></a><span data-ttu-id="952f3-103">노르웨이 결제 정보</span><span class="sxs-lookup"><span data-stu-id="952f3-103">Payment information for Norway</span></span>
 
-<span data-ttu-id="8cd33-104">[다른 국가 또는 지역을 찾습니다](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="8cd33-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="952f3-104">[다른 국가 또는 지역을 찾습니다](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="952f3-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="8cd33-105">NOK에만 결제 하 고 결제 방식 remittance에서 청구서 번호를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="8cd33-105">Please pay in NOK only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="952f3-105">NOK에만 결제 하 고 결제 방식 remittance에서 청구서 번호를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="952f3-105">Please pay in NOK only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="8cd33-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="8cd33-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="952f3-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="952f3-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="8cd33-107">**뱅크:** Citibank, 런던</span><span class="sxs-lookup"><span data-stu-id="8cd33-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="8cd33-108">**SWIFT Code/BIC:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="8cd33-108">**SWIFT Code/BIC:** CITIGB2L</span></span>  
-<span data-ttu-id="8cd33-109">**Iban:** GB94CITI18500812207621</span><span class="sxs-lookup"><span data-stu-id="8cd33-109">**IBAN:** GB94CITI18500812207621</span></span>  
-<span data-ttu-id="8cd33-110">**계정 번호:** 12207621</span><span class="sxs-lookup"><span data-stu-id="8cd33-110">**Account Number:** 12207621</span></span>  
-<span data-ttu-id="8cd33-111">**계정 이름:** MFC</span><span class="sxs-lookup"><span data-stu-id="8cd33-111">**Account Name:** MICROSOFT</span></span>  
+<span data-ttu-id="952f3-107">**뱅크:** Citibank, 런던</span><span class="sxs-lookup"><span data-stu-id="952f3-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="952f3-108">**SWIFT Code/BIC:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="952f3-108">**SWIFT Code/BIC:** CITIGB2L</span></span>  
+<span data-ttu-id="952f3-109">**Iban:** GB94CITI18500812207621</span><span class="sxs-lookup"><span data-stu-id="952f3-109">**IBAN:** GB94CITI18500812207621</span></span>  
+<span data-ttu-id="952f3-110">**계정 번호:** 12207621</span><span class="sxs-lookup"><span data-stu-id="952f3-110">**Account Number:** 12207621</span></span>  
+<span data-ttu-id="952f3-111">**계정 이름:** MFC</span><span class="sxs-lookup"><span data-stu-id="952f3-111">**Account Name:** MICROSOFT</span></span>  
