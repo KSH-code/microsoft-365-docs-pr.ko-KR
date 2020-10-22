@@ -151,7 +151,7 @@
                       href: mtp/advanced-hunting-best-practices.md
                     - name: 오류 처리
                       href: mtp/advanced-hunting-errors.md
-                    - name: 서비스 제한
+                    - name: 할당량 및 사용량 매개 변수
                       href: mtp/advanced-hunting-limits.md
                 - name: 데이터 커버리지 확장
                   href: mtp/advanced-hunting-extend-data.md
