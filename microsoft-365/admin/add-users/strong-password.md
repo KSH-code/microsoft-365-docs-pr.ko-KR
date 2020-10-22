@@ -1,5 +1,5 @@
 ---
-title: 사용자에 대 한 강력한 암호 요구 사항 설정
+title: 사용자에 대 한 강력한 암호 요구 사항 해제
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -21,14 +21,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Windows PowerShell을 사용 하 여 사용자에 대 한 강력한 암호 요구 사항을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 9f6fd61396d99245ffeabf757d3cb65c5d5cb85e
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: f9a0b76d024cc18552657144e4ccf8de8a72f0d9
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646622"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655738"
 ---
-# <a name="set-strong-password-requirement-for-users"></a>사용자에 대 한 강력한 암호 요구 사항 설정
+# <a name="turn-off-strong-password-requirements-for-users"></a>사용자에 대 한 강력한 암호 요구 사항 해제
 
 이 문서에서는 사용자에 대해 강력한 암호 요구 사항을 해제 하는 방법에 대해 설명 합니다. 강력한 암호 요구 사항은 Microsoft 365 for business 조 직에 기본적으로 설정 되어 있습니다. 조직에서 강력한 암호를 사용 하지 않도록 설정 해야 할 수 있습니다. 다음 단계에 따라 강력한 암호 요구 사항을 해제 합니다. PowerShell을 사용 하 여 이러한 단계를 완료 해야 합니다.
 

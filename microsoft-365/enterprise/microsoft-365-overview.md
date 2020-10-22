@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 엔터프라이즈용 Microsoft 365의 구성 요소, 계획 및 배포 경로에 대한 소개를 제공합니다.
-ms.openlocfilehash: d34ddd9b577f4baff4ebb77f84f48bf2b779c93c
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: 0cee9752ae21e08831b6a3df856452a7ca6aec71
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487155"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655974"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈용 Microsoft 365 개요
 
@@ -75,13 +75,11 @@ Microsoft 365 E3 사용자는 이러한 추가 기능을 사용하여 Microsoft 
 
 ## <a name="transition-your-entire-organization"></a>전체 조직 전환
 
-전체 조직이 엔터프라이즈용 Microsoft 365의 제품 및 서비스로 전환하는 방법을 더 잘 이해하려면 [전환 포스터](../downloads/transition-org-to-m365.pdf)를 참조하세요.
+전체 조직이 엔터프라이즈용 Microsoft 365의 제품 및 서비스로 전환하는 방법을 더 잘 이해하려면 [전환 포스터](https://download.microsoft.com/download/2/c/7/2c7bcc04-aae3-4604-9707-1ffff66b9851/transition-org-to-m365.pdf)를 참조하세요.
 
-[![Microsoft 365로 전환 포스터 이미지](../media/microsoft-365-overview/transition-org-to-m365.png)](../downloads/transition-org-to-m365.pdf)
+[![Microsoft 365로 전환 포스터 이미지](../media/microsoft-365-overview/transition-org-to-m365.png)](https://download.microsoft.com/download/2/c/7/2c7bcc04-aae3-4604-9707-1ffff66b9851/transition-org-to-m365.pdf)
 
 이 두 페이지 포스터는 기존 인프라를 신속하게 인벤터리하는 방법입니다. 이를 사용하여 Microsoft 365에서 엔터프라이즈에 대한 지침을 찾고 해당 제품이나 서비스로 이동할 수 있습니다. Windows와 Office 제품, 디바이스 관리, ID, 정보 및 위협 방지와 같은 기타 인프라 및 보안 요소가 포함됩니다.
-
-[이 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/transition-org-to-m365.pdf)하고 편지형, 법률형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
 
 ## <a name="end-of-support-for-windows-7-and-office-2010-clients-and-servers"></a>Windows 7 및 Office 2010 클라이언트 및 서버 지원 종료
 

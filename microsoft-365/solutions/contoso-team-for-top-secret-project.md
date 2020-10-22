@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_Architecture
 description: '요약: Contoso에서 최상위 비밀 프로젝트에 대해 보안 격리를 적용 하 여 팀을 사용 하 여 새로운 제품 및 서비스 제품군을 개발 하는 방법을 설명 합니다.'
-ms.openlocfilehash: 16d10f5d6e5b5939172c02746c9324eb20b6987e
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: b8794502afcb77a8e597a1b05dfc92acd093f23a
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399492"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48656072"
 ---
 # <a name="isolated-team-for-a-top-secret-project-of-the-contoso-corporation"></a>Contoso Corporation의 최상위 비밀 프로젝트에 대 한 격리 된 팀
 
@@ -77,7 +77,7 @@ Contoso 관리자는 다음과 같은 **프로젝트별** 라는 새 민감도 �
 
 다음은 보안이 격리 된 프로젝트를 2 배로 구성 하는 결과입니다.
 
-![프로젝트 2 배의 결과 구성](../media/contoso-team-for-top-secret-project/contoso-team-for-top-secret-project.png)
+![프로젝트 2 배의 결과 구성](../media/contoso-team-for-top-secret-project.png)
 
  ## <a name="step-4-trained-project-2x-team-members"></a>4 단계: 팀 구성원 2 대 교육 프로젝트
 
@@ -92,7 +92,7 @@ Contoso 보안 직원은 다음과 같은 작업을 수행 하는 필수 과정�
 
 다음은 원본으로 사용 하는 프로젝트에 저장 되는 파일의 예로, 프로젝트 2X 민감도 레이블이 지정 된 사이트를 포함 하는 예제입니다.
 
-![원본으로 사용 하는 프로젝트 2 개 사이트에 저장 된 파일의 예](../media/contoso-team-for-top-secret-project/contoso-team-for-top-secret-project-example.png)
+![원본으로 사용 하는 프로젝트 2 개 사이트에 저장 된 파일의 예](../media/contoso-team-for-top-secret-project-example.png)
 
 두 개의 인스턴스에서 프로젝트 2 개 프로젝트의 보호 된 파일을 오프 라인 작업을 위해 로컬 드라이브로 다운로드 했습니다. 
 

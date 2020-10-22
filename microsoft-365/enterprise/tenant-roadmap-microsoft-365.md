@@ -15,20 +15,25 @@ ms.collection:
 - m365initiative-coredeploy
 ms.custom: it-pro
 description: Microsoft 365에 대 한 테 넌 트를 설정 하기 위한 로드맵
-ms.openlocfilehash: 0f1fa91bb81fd6cc87820f2b2d48e00e1b75a0c4
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: db0f9552fce460ca6d25ee74ea2031bea388b8dc
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446010"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48656010"
 ---
 # <a name="tenant-roadmap-for-microsoft-365"></a>Microsoft 365에 대 한 테 넌 트 로드맵
 
-Microsoft 365 테 넌 트가 조직에 할당 된 서비스 집합입니다. 일반적으로이 테 넌 트는 하나 이상의 DNS 도메인 이름과 연결 되어 있으며 사용자 계정에 할당 하는 다른 구독 및 라이선스 내의 중앙 컨테이너 역할을 합니다.
+Microsoft 365 테 넌 트가 조직에 할당 된 서비스 집합입니다. 일반적으로이 테 넌 트는 하나 이상의 DNS 도메인 이름과 연결 되어 있으며 사용자 계정에 할당 하는 다른 구독 및 라이선스 내의 중앙 컨테이너 역할을 합니다. 자세한 내용은 [구독, 라이선스, 계정 및 Microsoft 클라우드 서비스에 대 한 테 넌 트](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)를 참조 하세요.
 
 Microsoft 365 테 넌 트를 만들 때이를 특정 지리적 위치에 할당 합니다. 여러 지리적 위치를 사용 하 여 테 넌 트를 만들고 테 넌 트를 한 위치에서 다른 위치로 이동할 수도 있습니다.
 
-네트워킹 및 id의 기본 서비스에 대 한 테 넌 트를 준비 하려면 테 넌 트 구성을 신중 하 게 계획 하 고 실행 하는 것이 중요 합니다.
+테 넌 트를 id로 준비 하려면 테 넌 트 구성을 신중 하 게 계획 하 고 실행 하는 것이 중요 합니다.
+
+
+## <a name="set-up-your-microsoft-365-tenant"></a>Microsoft 365 테 넌 트 설정
+
+사용자가 온-프레미스 및 원격 작업자 모두에 대해 Microsoft 365에 액세스할 수 있도록 네트워킹을 최적화 한 후에는 다음 대규모 작업에서 DNS 도메인 이름, 일반 서비스 및 보안 사용자 로그인을 지 원하는 해당 id 인프라에 대 한 Microsoft 365 테 넌 트를 계획 하 고 구성 합니다.
 
 ## <a name="plan"></a>계획
 
@@ -41,25 +46,40 @@ Microsoft 365 테 넌 트를 만들 때이를 특정 지리적 위치에 할당 
 - [하이브리드 최신 인증을 사용 하는 방법 결정](hybrid-modern-auth-overview.md)
 - [Office 2007 및 Office 2010 업그레이드 계획](plan-upgrade-previous-versions-office.md)
 - [테 넌 트 격리 이해](microsoft-365-tenant-isolation-overview.md)
-- [Microsoft 365 서비스 보증에 대 한 세부 정보 얻기](https://docs.microsoft.com/microsoft-365/compliance/service-assurance)
+- [Microsoft 365 서비스 보증에 대 한 세부 정보 얻기](microsoft-365-administrative-access-controls-overview.md)
 
-## <a name="deploy"></a>배포
+### <a name="deploy"></a>배포
 
-테 넌 트를 배포 하려면 조직의 [DNS 도메인을 추가](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) 하 고 [Microsoft 365 관리 센터에서 설치 가이드](setup-guides-for-microsoft-365.md)를 사용 합니다.
+테 넌 트를 배포 하려면 
 
-## <a name="tenants-with-multiple-geographic-locations"></a>여러 지리적 위치가 있는 테 넌 트
+- 조직의 [DNS 도메인](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) 을 추가 합니다.
+- [Microsoft 365 관리 센터의 설치 가이드](setup-guides-for-microsoft-365.md)를 사용 합니다.
+- [Id 인프라](identity-roadmap-microsoft-365.md) 를 구축 하 고 [사용자 로그인을 보호](microsoft-365-secure-sign-in.md)합니다.
 
-Microsoft 365 Multi-Geo를 사용하면 Microsoft 365 범위를 기존 테넌트 내 여러 지리적 지역 및 / 또는 국가로 확장할 수 있습니다.
-
-이를 계획, 구성 및 관리 하는 방법을 포함 하 여 Microsoft 365 다중 위치에 대 한 자세한 내용은 [여기에서 시작](microsoft-365-multi-geo.md)합니다.
-
-## <a name="move-a-tenants-geographic-locations"></a>테 넌 트의 지리적 위치 이동
+### <a name="move-a-tenants-geographic-locations"></a>테 넌 트의 지리적 위치 이동
 
 Microsoft는 Microsoft 365 서비스에 대 한 새로운 데이터 센터 지리적 위치 (geos)를 계속 해 서 엽니다. 이러한 새 데이터 센터 지역는 고객 요구 및 사용 증가를 지원 하기 위해 용량을 추가 하 고 리소스를 계산 합니다. 또한 새 데이터 센터 지역는 핵심 고객 데이터에 대 한 상주 데이터를 제공 합니다.
 
-지리적 데이터 이동을 요청 하는 방법을 포함 하 여 Microsoft 365 데이터 센터 geo에 대 한 자세한 내용은 [여기에서 시작](moving-data-to-new-datacenter-geos.md)합니다.
+자세한 내용은 [핵심 데이터를 새로운 Microsoft 365 datacenter 지역로 이동을](moving-data-to-new-datacenter-geos.md)참조 하세요.
+
+
+## <a name="deploy-microsoft-365-multi-geo"></a>Microsoft 365 다중 지역 배포
+
+Microsoft 365 Multi-Geo를 사용하면 Microsoft 365 범위를 기존 테넌트 내 여러 지리적 지역 및 / 또는 국가로 확장할 수 있습니다.
+
+자세한 내용은 [Microsoft 365 다중 Geo](microsoft-365-multi-geo.md)를 참조 하십시오.
+
+## <a name="manage-multiple-microsoft-365-tenancies"></a>여러 Microsoft 365 테 넌 트 관리 
+
+Oganization에 대해 테 넌 트를 하나만 유지 하는 것이 이상적인 경우에도 여러 개의 테 넌 트가 있는 여러 조직 중 하나일 수 있습니다. 여러 테 넌 트에 대 한 합병 및 합병, 관리 격리가 필요한 경우 또는이를 분산 시킨 이유가 있을 수 있습니다.
+
+Microsoft 365 테 넌 트 여러 개 있는 경우 다음 문서에서 자세한 내용을 참조 하세요.
+
+- [테넌트 간 공동 작업](microsoft-365-inter-tenant-collaboration.md)
+- [교차 테넌트 사서함 마이그레이션](cross-tenant-mailbox-migration.md)
+- [테넌트 간 마이그레이션](microsoft-365-tenant-to-tenant-migrations.md)
+
 
 ## <a name="next-step"></a>다음 단계
 
 [구독, 라이선스, 계정, 테](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)넌 트를 사용 하 여 테 넌 트 계획을 시작 합니다.
-

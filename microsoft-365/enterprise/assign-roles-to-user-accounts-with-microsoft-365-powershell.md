@@ -19,22 +19,22 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: ede7598c-b5d5-4e3e-a488-195f02f26d93
-description: 이 문서에서는 Microsoft 365 용 PowerShell을 빠르고 쉽게 사용 하 여 사용자 계정에 역할을 할당 하는 방법을 알아봅니다.
-ms.openlocfilehash: 9df1b018cf3e89e0afbd5265fdd1ec9f92b34aec
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+description: 이 문서에서는 Microsoft 365 용 PowerShell을 빠르고 쉽게 사용 하 여 사용자 계정에 관리자 역할을 할당 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 1486c86172cd34e6e88f8cd02d003967518bcdb7
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235433"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655950"
 ---
-# <a name="assign-roles-to-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 사용 하 여 Microsoft 365 사용자 계정에 역할 할당
+# <a name="assign-admin-roles-to-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 사용 하 여 Microsoft 365 사용자 계정에 관리자 역할 할당
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft 365 용 PowerShell을 사용 하 여 사용자 계정에 쉽고 빠르게 역할을 할당할 수 있습니다.
+Microsoft 365 용 PowerShell을 사용 하 여 관리자 역할을 사용자 계정에 쉽고 빠르게 할당할 수 있습니다.
 
 >[!Note]
->Microsoft 365 관리 센터를 사용 하 여 [사용자 계정에 역할을 할당 하는 방법에 대해 알아봅니다](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles) . 추가 리소스 목록은 [Manage users and groups](https://docs.microsoft.com/microsoft-365/admin/add-users/)을 참조 하십시오.
+>Microsoft 365 관리 센터를 사용 하 여 [사용자 계정에 관리자 역할을 할당 하는 방법에 대해 알아봅니다](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles) . 추가 리소스 목록은 [Manage users and groups](https://docs.microsoft.com/microsoft-365/admin/add-users/)을 참조 하십시오.
 >
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기
@@ -43,7 +43,7 @@ Microsoft 365 용 PowerShell을 사용 하 여 사용자 계정에 쉽고 빠르
   
 다음으로, 역할에 추가 하려는 사용자 계정의 로그인 이름 (예: fredsm@contoso.com)을 확인 합니다. 이를 UPN (사용자 계정 이름)이 라고도 합니다.
 
-다음으로, 역할 이름을 확인 합니다. 이 [관리자 역할 권한 목록을 Azure Active Directory에서](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)사용 합니다.
+그런 다음 관리자 역할의 이름을 확인 합니다. 이 [관리자 역할 권한 목록을 Azure Active Directory에서](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)사용 합니다.
 
 >[!Note]
 >이 문서의 참고 사항에 주의 하십시오. 일부 역할 이름은 Azure AD PowerShell에 따라 다릅니다. 예를 들어 Microsoft 365 관리 센터의 "SharePoint 관리자" 역할에는 Azure AD PowerShell에 대 한 "SharePoint Service 관리자" 라는 이름이 지정 됩니다.
@@ -53,7 +53,7 @@ Microsoft 365 용 PowerShell을 사용 하 여 사용자 계정에 쉽고 빠르
   
 ```powershell
 $userName="<sign-in name of the account>"
-$roleName="<role name>"
+$roleName="<admin role name>"
 $role = Get-AzureADDirectoryRole | Where {$_.displayName -eq $roleName}
 if ($role -eq $null) {
 $roleTemplate = Get-AzureADDirectoryRoleTemplate | Where {$_.displayName -eq $roleName}
@@ -63,7 +63,7 @@ $role = Get-AzureADDirectoryRole | Where {$_.displayName -eq $roleName}
 Add-AzureADDirectoryRoleMember -ObjectId $role.ObjectId -RefObjectId (Get-AzureADUser | Where {$_.UserPrincipalName -eq $userName}).ObjectID
 ```
 
-다음은 belindan@contoso.com 계정에 SharePoint 서비스 관리자 역할을 할당 하는 완성 된 명령 집합의 예입니다.
+다음은 belindan@contoso.com 계정에 SharePoint 서비스 관리자 관리자 역할을 할당 하는 완성 된 명령 집합의 예입니다.
   
 ```powershell
 $userName="belindan@contoso.com"
@@ -77,7 +77,7 @@ $role = Get-AzureADDirectoryRole | Where {$_.displayName -eq $roleName}
 Add-AzureADDirectoryRoleMember -ObjectId $role.ObjectId -RefObjectId (Get-AzureADUser | Where {$_.UserPrincipalName -eq $userName}).ObjectID
 ```
 
-특정 역할에 대 한 사용자 이름 목록을 표시 하려면 다음 명령을 사용 합니다.
+특정 관리자 역할의 사용자 이름 목록을 표시 하려면 다음 명령을 사용 합니다.
 
 ```powershell
 $roleName="<role name>"
@@ -118,17 +118,17 @@ Get-AzureADDirectoryRole | Where { $_.DisplayName -eq $roleName } | Get-AzureADD
     
 - 할당 하려는 역할입니다.
     
-    사용자 계정에 할당할 수 있는 사용 가능한 역할 목록을 표시 하려면 다음 명령을 사용 합니다.
+    사용자 계정에 할당할 수 있는 사용 가능한 관리자 역할 목록을 표시 하려면 다음 명령을 사용 합니다.
     
   ```powershell
   Get-MsolRole | Sort Name | Select Name,Description
   ```
 
-계정의 표시 이름과 역할 이름을 확인 한 후에는 다음 명령을 사용 하 여 계정에 역할을 할당 합니다.
+계정의 표시 이름과 관리자 역할 이름을 확인 한 후에는 다음 명령을 사용 하 여 계정에 역할을 할당 합니다.
   
 ```powershell
 $dispName="<The Display Name of the account>"
-$roleName="<The role name you want to assign to the account>"
+$roleName="<The admin role name you want to assign to the account>"
 Add-MsolRoleMember -RoleMemberEmailAddress (Get-MsolUser -All | Where DisplayName -eq $dispName).UserPrincipalName -RoleName $roleName
 ```
 
@@ -236,7 +236,7 @@ $roleChanges=Import-Csv $fileName | ForEach { Add-MsolRoleMember -RoleMemberEmai
 
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 - [PowerShell로 Microsoft 365 사용자 계정, 라이선스 및 그룹 관리](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
 - [PowerShell로 Microsoft 365 관리](manage-microsoft-365-with-microsoft-365-powershell.md)

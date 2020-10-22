@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365 용 클라이언트 및 서버 소프트웨어를 설정 하기 위한 로드맵
-ms.openlocfilehash: d3401baa09d27ff9753f9a45ecb537c67701c0e9
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: 94412ca4a7665807368ae33a0e50dc928445c8b7
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464411"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655962"
 ---
 # <a name="client-and-server-software-roadmap-for-microsoft-365"></a>Microsoft 365에 대 한 클라이언트 및 서버 소프트웨어 로드맵
 
@@ -161,13 +161,11 @@ Windows 7이 **2020년 1월 14일**에 지원이 종료되었습니다. Windows 
 
 ## <a name="transition-your-entire-organization"></a>전체 조직 전환
 
-전체 조직이 엔터프라이즈용 Microsoft 365의 제품 및 서비스로 전환하는 방법을 더 잘 이해하려면 [전환 포스터](../downloads/transition-org-to-m365.pdf)를 참조하세요.
+조직의 Microsoft 365에서 제품 및 서비스로 전체 조직을 이동 하는 방법을 보다 자세히 설명 하려면 [전환 포스터](https://download.microsoft.com/download/2/c/7/2c7bcc04-aae3-4604-9707-1ffff66b9851/transition-org-to-m365.pdf)를 다운로드 하 여 확인 하세요.
 
-[![Microsoft 365로 전환 포스터 이미지](../media/microsoft-365-overview/transition-org-to-m365.png)](../downloads/transition-org-to-m365.pdf)
+[![Microsoft 365로 전환 포스터 이미지](../media/microsoft-365-overview/transition-org-to-m365.png)](https://download.microsoft.com/download/2/c/7/2c7bcc04-aae3-4604-9707-1ffff66b9851/transition-org-to-m365.pdf)
 
 이 두 페이지 포스터는 신속하게 기존 인프라를 목록화하고 엔터프라이즈용 Microsoft 365에서 해당 제품이나 서비스로 전환하는 방법에 대한 지침을 제공합니다. Windows와 Office 제품, 디바이스 관리, ID, 정보 및 위협 방지와 같은 기타 인프라 및 보안 요소가 포함됩니다.
-
-[이 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/transition-org-to-m365.pdf)하고 편지형, 법률형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
 
 ## <a name="how-microsoft-does-microsoft-365-for-enterprise"></a>Microsoft가 enterprise에 대해 Microsoft 365를 어떻게 합니까?
 
