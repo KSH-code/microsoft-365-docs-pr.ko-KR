@@ -16,12 +16,12 @@ search.appverid:
 ms.assetid: 0ee60763-a30b-495b-8543-971c3384a801
 description: AeD로 분석할 수 있도록 Microsoft 365에 저장 되어 있지 않은 콘텐츠를 Azure blob에 가져오는 방법에 대 한 설명
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fbb21f6bc3fdfd2a5251a9ec773a22351db5749e
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: be30daa35770247a9dd342b88093872083075547
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817597"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48636955"
 ---
 # <a name="import-non-microsoft-365-content-for-advanced-ediscovery-classic-analysis"></a>고급 eDiscovery에 대 한 비 Microsoft 365 콘텐츠 가져오기 (클래식) 분석
 
@@ -37,54 +37,52 @@ ms.locfileid: "44817597"
 
 이 절차에 설명 된 대로 Office 이외에 업로드 365 기능을 사용 하려면 다음이 필요 합니다.
   
-- 고급 규정 준수 추가 기능 또는 E5 구독이 포함 된 Office 365 E3
+- 고급 규정 준수 추가 기능 또는 E5 구독을 포함 하는 Office 365 E3
     
-- 비 Office 365 콘텐츠가 업로드 되는 모든 custodians에는 고급 준수 추가 기능 또는 E5 라이선스가 포함 된 E3이 있어야 합니다.
+- 비 Office 365 콘텐츠가 업로드 되는 모든 custodians에는 고급 규정 준수 추가 기능 또는 E5 라이선스가 포함 된 E3이 있어야 합니다.
     
 - 기존 eDiscovery 사례
     
-- 업로드 하기 위한 모든 파일은 custodian 당 하나의 폴더가 있고 폴더 이름이이 형식 *alias@domainname* 으로 저장 됩니다. *Alias@domainname* 사용자의 Office 365 별칭과 domain 이어야 합니다. 모든 *alias@domainname* 폴더를 루트 폴더로 수집할 수 있습니다. 루트 폴더에는 *alias@domainname* 폴더만 포함할 수 있으며 루트 폴더에는 느슨한 파일이 없어야 합니다. 
+- 업로드 하기 위한 모든 파일은 custodian 당 하나의 폴더가 있고 폴더 이름이이 형식  *alias@domainname*  으로 저장 됩니다. *Alias@domainname* 사용자의 Office 365 별칭과 domain 이어야 합니다. 모든  *alias@domainname*  폴더를 루트 폴더로 수집할 수 있습니다. 루트 폴더에는  *alias@domainname*  폴더만 포함할 수 있으며 루트 폴더에는 느슨한 파일이 없어야 합니다.
     
-- EDiscovery 관리자 또는 eDiscovery 관리자 인 계정
+- EDiscovery 관리자 또는 eDiscovery 관리자 인 계정입니다.
     
 - Office가 아닌 365 콘텐츠 폴더 구조에 대 한 액세스 권한이 있는 컴퓨터에 설치 된 [Microsoft Azure Storage Tools](https://aka.ms/downloadazcopy) 입니다. 
     
 ## <a name="upload-non-office-365-content-into-advanced-ediscovery"></a>Office 이외의 365 콘텐츠를 고급 eDiscovery에 업로드
 
 
-1. Ediscovery 관리자 또는 eDiscovery 관리자로 서 **ediscovery**를 열고 비 Office 365 데이터가 업로드 될 사례를 엽니다. 사례를 만들어야 하는 경우 [에는 보안 및 &amp; 준수 센터에서 EDiscovery 사례 관리](ediscovery-cases.md) 를 참조 하세요.
+1. Ediscovery 관리자 또는 eDiscovery 관리자로 서 **ediscovery**를 열고 비 Office 365 데이터가 업로드 될 사례를 엽니다. 사례를 만들어야 하는 경우 [에는 보안 및 &amp; 준수 센터에서 EDiscovery 사례 관리](ediscovery-cases.md)를 참조 하세요.
     
-2. **고급 eDiscovery로 전환을 클릭 합니다** .
+2. **고급 eDiscovery로 전환을**클릭 합니다.
+
+3. 메뉴에서 **검토 집합** 을 선택 합니다.
+
+4. 기존 검토 집합을 선택 하거나 **검토 설정 추가**를 선택 합니다.
+
+5. **검토 설정 관리**를 선택 합니다.
+
+6. 비 Office 365 데이터 카드에서 **업로드 보기**를 선택 합니다.
+
+7. **업로드 파일** 을 선택 하 여 파일 업로드 마법사를 시작 합니다.
+
+8. 첫 번째 탭은 **1입니다. 준비 단계** **다음: 파일 업로드**를 선택 합니다.
+
+9. **2. 파일 업로드** 탭 아직 완료 하지 않은 경우 AzCopy.exe 다운로드 한 다음 파일 위치에 대 한 경로를 제공 하 라는 메시지가 표시 됩니다. 예를 들어 `C:\Upload`  AzCopy.exe 실행 하는 명령을 제공 합니다. `C:\Upload`를 사용 하면 다음이 표시 됩니다.
+
+   `"%ProgramFiles(x86)%\Microsoft SDKs\Azure\AzCopy\AzCopy.exe" /Source:"c:\upload" /Dest:"https://spnam03salinkexternal003.blob.core.windows.net/16d13440-a6a4-4bc5-a82b-10ac9cfe9d7c-1601401811-externalstore?sv=2017-07-29&sr=c&si=ExternalStore63%7C0&sig=9Dq5v20TwkxByYDHhIEx%2FHSLlmlqUjY0njkJyTO0zGA%3D" /s`
+  
+10. 명령 프롬프트 창을 열고 AzCopy.exe 명령을 실행 하 여 Azure로 데이터를 가져옵니다. 모든 데이터를 로드 한 후에는 **다음: 프로세스 파일**을 선택 합니다.
+
+11. 다음 탭은 **3입니다. ** 데이터를 포함 하는 custodians를 보게 되는 프로세스 파일과 가져올 데이터의 진행 상황도 표시 됩니다.
+        
+    Azcopy 구문에 대 한 자세한 내용은 [Transfer data with a Windows Azcopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy)을 참조 하십시오. 
     
-3. **원본 형식** 아래에서 **비 Office 365 데이터**를 선택 합니다.
-    
-4. **컨테이너 추가**를 클릭 합니다. 컨테이너의 이름을 입력 하 고 설명을 추가 합니다.
-    
-5. 컨테이너 목록에서 새로 추가 된 컨테이너를 선택 하 고 컨테이너 세부 정보 창에 표시 되는 URL을 복사한 다음 창을 닫습니다.
-    
-6. 관리자 권한으로 명령 프롬프트를 열고 AzCopy이 설치 된 폴더로 디렉터리를 변경 합니다.
-    
-7. AzCopy 명령줄을 구성 하 여 다음과 같은 파일을 업로드 합니다.
-    
-    AzCopy/Source: " *로컬 컴퓨터의 루트 폴더* 에 대 한 전체 경로"/dest: " *컨테이너 URL까지* (으)로 이동 하 고?  "/DestSAS:"의 *컨테이너 url의 나머지 부분은? 끝* "/S. 
-    
-    예를 들어 다음 값을 사용 합니다. 
-    
-  - 루트 폴더-C:\Collected 데이터 
-    
-  - 컨테이너 url- https://zoomsabcprodeuss114.blob.core.windows.net/ingestion53d059efe5f74784afb308f66cdebf17?sv=2015-04-05&amp ; sr = c &amp; Si = NonOfficeData15% 7c0 &amp; sig = Bk5INP8CUfv1y4CSJiJl3pJt3Ekvu8GS3P8NkOvoQxA% 3d
-    
-    AzCopy 명령줄 구문은 다음과 같습니다.
-    
-     `AzCopy /Source:"C:\CollectedData" /Dest:"https://zoomsabcprodeuss114.blob.core.windows.net/ingestion53d059efe5f74784afb308f66cdebf17" /DestSAS:"?sv=2015-04-05&amp;sr=c&amp;si=NonOfficeData15%7C0&amp;sig=Bk5INP8CUfv1y4CSJiJl3pJt3Ekvu8GS3P8NkOvoQxA%3D" /S`
-    
-    Azcopy 구문에 대 한 자세한 내용은 [Windows의 Azcopy을 사용 하 여 데이터 전송](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy) 를 참조 하세요. 
+    고급 eDiscovery 처리에 대 한 자세한 내용은 [프로세스 모듈 실행 및 고급 ediscovery에서 데이터 로드 (클래식)](run-the-process-module-and-load-data-in-advanced-ediscovery.md)를 참조 하세요. 
     
     > [!IMPORTANT]
-    > 사용자 마다 루트 폴더가 하나씩 있어야 하며 폴더 이름은 *alias@domainname* 형식 이어야 합니다. 
-  
-8. 폴더 업로드가 완료 되 면 고급 eDiscovery로 다시 전환 합니다. 업로드 한 폴더의 콘텐츠를 이제 고급 eDiscovery에서 처리할 준비가 되었습니다. 컨테이너를 선택 하 고 처리 단추를 클릭 합니다. 고급 eDiscovery 처리에 대 한 자세한 내용은 [Advanced ediscovery에서 프로세스 모듈 실행 및 데이터 로드](run-the-process-module-and-load-data-in-advanced-ediscovery.md) 를 참조 하세요.
-    
+    > 사용자 마다 루트 폴더가 하나씩 있어야 하며 폴더 이름은 <b>alias@domainname</b>  형식 이어야 합니다. 
+   
     > [!IMPORTANT]
     > 고급 eDiscovery에서 컨테이너를 성공적으로 처리 하면 더 이상 Azure의 SAS 저장소에 새 콘텐츠를 추가할 수 없게 됩니다. 추가 콘텐츠를 수집 하 고 고급 eDiscovery 분석을 위해 사례에 추가 하려는 경우에는 **365 Office가 아닌 새 데이터** 컨테이너를 만들고이 절차를 반복 해야 합니다. 
   

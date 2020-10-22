@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 ms.custom: seo-marvel-apr2020
 description: 사서함 감사 로깅은 기본적으로 Microsoft 365에서 설정 됩니다 (기본 사서함 감사 또는 사서함 감사가 기본적으로 라고도 함). 즉, 사서함 소유자, 대리인 및 관리자가 수행 하는 특정 작업이 사서함 감사 로그에 자동으로 기록 되므로 사서함에 대해 수행 된 작업을 검색할 수 있습니다.
-ms.openlocfilehash: 7c0a4417496bcf18362dbcfe53b751c549ef98b9
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 8d91936f82070848dc65d1b160d4df0165875213
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545844"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48649627"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
 
@@ -35,7 +35,7 @@ ms.locfileid: "47545844"
 
 - 감사 되는 사서함 작업을 관리할 필요는 없습니다. 미리 정의 된 사서함 작업 집합은 각 로그온 유형 (관리자, 위임 및 소유자)에 대해 기본적으로 감사 됩니다.
 
-- Microsoft가 새 사서함 작업을 출시할 때 (특히 사용자의 조직 보호 및 법적 조사에 도움을 주는 작업) 작업이 기본적으로 감사 되는 사서함 작업 목록에 자동으로 추가 됩니다. 즉, 사서함에 대 한 새 작업 추가를 모니터링할 필요가 없습니다.
+- Microsoft에서 새 사서함 작업을 해제 하면 해당 라이선스가 있는 사용자에 따라 기본적으로 감사 되는 사서함 작업 목록에 작업이 자동으로 추가 될 수 있습니다. 즉, 사서함에 대 한 새 작업 추가를 모니터링할 필요가 없습니다.
 
 - 모든 사서함에 대해 동일한 작업을 감사 하 고 있으므로 조직 전체에 일관 된 사서함 감사 정책이 있습니다.
 
@@ -90,7 +90,7 @@ Get-OrganizationConfig | Format-List AuditDisabled
 
     - 준수 센터의 eDiscovery 또는 고급 eDiscovery
 
-    - Exchange Online의 원본 위치 eDiscovery
+    - Exchange Online에서 eDiscovery를 In-Place 합니다.
 
   - Microsoft Exchange Server MAPI 편집기를 사용 하 여 사서함에 액세스 합니다.
 
@@ -317,7 +317,7 @@ Set-OrganizationConfig -AuditDisabled $false
 
 현재 조직에서 사서함 감사가 기본적으로 설정 된 경우에는 특정 사서함에 대해 사서함 감사를 사용 하지 않도록 설정할 수 없습니다. 예를 들어 *Auditenabled* mailbox 속성을 **False** 로 설정 하는 것은 무시 됩니다.
 
-그러나 Exchange Online PowerShell에서 **get-mailboxauditbypassassociation** cmdlet을 사용 하 여 작업이 수행 되는 위치에 관계 없이 지정 된 사용자의 *모든* 사서함 작업이 로깅되지 않도록 할 수 있습니다. 예시:
+그러나 Exchange Online PowerShell에서 **get-mailboxauditbypassassociation** cmdlet을 사용 하 여 작업이 수행 되는 위치에 관계 없이 지정 된 사용자의 *모든* 사서함 작업이 로깅되지 않도록 할 수 있습니다. 예를 들면 다음과 같습니다.
 
 - 바이패스 된 사용자가 수행한 사서함 소유자 작업은 로깅되지 않습니다.
 

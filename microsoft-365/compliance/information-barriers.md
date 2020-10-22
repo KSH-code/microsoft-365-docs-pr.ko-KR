@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 07/08/2019
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,12 +16,12 @@ ms.collection:
 localization_priority: None
 description: 정보 장애물을 사용 하 여 조직 내에서 Microsoft 팀을 사용 하 여 통신을 준수 하는지 확인 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7b223de8eba68d49a8cc0c90239305eb05bb1090
-ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
+ms.openlocfilehash: 0630dc607d6993598f356a7090a6be5890028499
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48379197"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48636965"
 ---
 # <a name="information-barriers"></a>정보 장벽
 
@@ -35,7 +35,7 @@ Microsoft 클라우드 서비스에는 강력한 통신 및 공동 작업 기능
 - 연구 팀은 제품 개발 팀과 온라인 으로만 전화 하거나 채팅을 수행 해야 합니다.
 
 > [!IMPORTANT]
-> 정보 장벽에서는 두 가지 제한 ***만 지원*** 합니다. 마케팅과 같은 단방향 제한은 하루 상인과 통신할 수 있지만,이 경우에 ***는 상인이***marketing과 통신할 수 없습니다.
+> 정보 장벽 * _ 2 웨이 제한**만 지원**합니다. 마케팅과 같은 단방향 제한은 당일 traders와 통신할 수 있지만, 1 일에_는_마케팅에 대해 통신할 수 없습니다.
 
 이러한 모든 시나리오 (및 이상)에서 정보 장벽 정책은 Microsoft 팀의 통신을 방지 하거나 허용 하도록 정의할 수 있습니다. 이러한 정책을 사용 하면 사용자가 전화를 걸 수도 있고 채팅을 할 수 없거나, 사용자가 Microsoft 팀의 특정 그룹과 통신 하는 것을 허용 합니다. 정보 장벽 정책을 적용 하면 해당 정책에 포함 된 사용자가 Microsoft 팀의 다른 사람들과 통신을 시도할 때마다 정보 장벽 정책에 정의 된 대로 통신을 방지 하거나 허용 하기 위해 검사가 수행 됩니다. 정보 장벽에 대 한 사용자 환경에 대 한 자세한 내용은 [Microsoft 팀의 정보 장벽](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams)를 참조 하세요.
 

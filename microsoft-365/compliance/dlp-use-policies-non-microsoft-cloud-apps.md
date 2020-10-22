@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 타사 클라우드 앱에 대해 dlp 정책을 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: dd5a7a4bc0725d0785daec6b7635047cd91f20a2
-ms.sourcegitcommit: 39af527404cb06e05c5aa4550dbec39aec133016
+ms.openlocfilehash: 0b588bf27738a0f9a8078999311294f74e5193c0
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48422760"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48649659"
 ---
 # <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps-preview"></a>Microsoft 제품이 아닌 클라우드 앱에 대해 데이터 손실 방지 정책 사용 (미리 보기)
 
@@ -45,7 +45,7 @@ Microsoft 이외의 클라우드 앱에 DLP 정책을 사용 하기 전에 [micr
 
 ### <a name="prepare-your-cloud-app-security-environment"></a>Cloud App Security 환경 준비
 
-비 Microsoft 클라우드 앱에 대 한 DLP 정책은 Cloud App Security DLP 기능을 사용 합니다. 이 도구를 사용 하려면 Cloud App Security environment를 준비 해야 합니다. 자세한 내용은 [앱에 대 한 isntant visibility, protection 및 관리 작업 설정](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security#step-1-set-instant-visibility-protection-and-governance-actions-for-your-apps)를 참조 하세요.
+비 Microsoft 클라우드 앱에 대 한 DLP 정책은 Cloud App Security DLP 기능을 사용 합니다. 이 도구를 사용 하려면 Cloud App Security environment를 준비 해야 합니다. 자세한 내용은 [앱에 대 한 빠른 표시, 보호 및 관리 작업을 설정](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security#step-1-set-instant-visibility-protection-and-governance-actions-for-your-apps)합니다 .를 참조 하세요.
 
 ### <a name="connect-a-non-microsoft-cloud-app"></a>타사 클라우드 앱 연결
 

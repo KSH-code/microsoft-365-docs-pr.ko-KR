@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-compliance
 localization_priority: Normal
 description: Microsoft 365에서 규정 준수를 빠르게 시작 하는 데 도움이 되는 작업에 대해 알아봅니다.
-ms.openlocfilehash: 98526104d2ced7b86315b24bd2843701047a097c
-ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
+ms.openlocfilehash: a8fd5d72fd87fdbf9c8c3c6da094a58544efd6e8
+ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341184"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48651364"
 ---
 # <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Microsoft 365 규정 준수를 시작하기 위한 빠른 작업
 
@@ -68,13 +68,7 @@ Microsoft는 관리자 권한 남용, 맬웨어 활동, 잠재적 외부 및 내
 
 사용자 지정 알림 정책을 만드는 단계별 지침은 [보안 및 준수 센터의 경고 정책](alert-policies.md)를 참조 하십시오.
 
-## <a name="task-5-configure-just-in-time-access-for-your-administrators"></a>작업 5: 관리자에 게 just-in-time 액세스 구성
-
-일부 사용자가 중요 한 정보 또는 중요 한 네트워크 구성 설정에 대 한 권한을 부여 하는 것이 손상 된 계정 또는 내부 위협 작업에 대 한 잠재적 경로입니다. [권한이 부여 된 액세스 관리](privileged-access-management-overview.md) 는 중요 한 데이터에 대 한 액세스를 제한 하거나 중요 한 구성 설정에 액세스 하는 방식으로 규정 준수 모범 사례 로부터 조직을 보호 하는 데 도움을 줍니다. 관리자가 아닌 지속적인 액세스를 사용 하는 경우에는 높은 권한이 필요한 작업에 대해 just-in-time 액세스 규칙만 구현 됩니다. Microsoft 365에서 권한이 부여 된 액세스 관리를 사용 하도록 설정 하면 조직에서 단일 권한으로 작동 하 고 단일 관리 액세스 취약성에 대 한 방어 계층을 제공할 수 있습니다.
-
-권한이 부여 된 액세스 관리를 구성 하는 단계별 지침은 [Get a 특권 액세스 관리 시작](privileged-access-management-configuration.md)을 참조 하십시오. 권한이 부여 된 액세스 관리 라이선스 정보는 [보안 & 준수에 대 한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#privileged-access-management-in-office-365)을 참조 하세요.
-
-## <a name="task-6-classify-and-protect-sensitive-data"></a>작업 6: 중요 한 데이터 분류 및 보호
+## <a name="task-5-classify-and-protect-sensitive-data"></a>작업 5: 중요 한 데이터 분류 및 보호
 
 작업을 완료하기 위해 조직의 사용자는 조직 내부 및 외부의 다른 사용자와 공동으로 작업합니다. 이는 콘텐츠가 더 이상 방화벽 뒤에 있지 않으며 장치, 앱 및 서비스를 비롯한 모든 위치에서 로밍할 수 있음을 의미합니다. 또한 사용자는 로밍 중에는 조직의 비즈니스 및 준수 정책을 충족하는 안전하고 보호된 방식으로 진행하는 것이 좋습니다.
 
@@ -82,7 +76,7 @@ Microsoft는 관리자 권한 남용, 맬웨어 활동, 잠재적 외부 및 내
 
 민감도 레이블을 구성 및 사용 하는 단계별 지침은 [민감도 레이블 시작](get-started-with-sensitivity-labels.md)을 참조 하세요. 민감도 레이블 라이선스 정보는 [보안 & 준수에 대 한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection)을 참조 하세요.
 
-## <a name="task-7-configure-a-retention-policy"></a>작업 7: 보존 정책 구성
+## <a name="task-6-configure-a-retention-policy"></a>작업 6: 보존 정책 구성
 
 [보존 정책을](retention.md) 사용 하면 콘텐츠를 유지할지, 삭제할지 또는 둘 다를 사전에 결정할 수 있으며 지정 된 보존 기간이 끝나면 콘텐츠를 보존 했다가 삭제 합니다. 이러한 작업은 업계 규정 및 내부 정책을 준수 하는 데 필요할 수 있으며 소송 또는 보안 침해 발생 시 위험을 줄일 수 있습니다.
 
@@ -92,7 +86,7 @@ Microsoft 365 환경에서 Exchange 메일, SharePoint 사이트, OneDrive 계�
 
 보존 정책을 구성 하는 단계별 지침은 [보존 정책 만들기 및 구성을](create-retention-policies.md)참조 하십시오. Microsoft 365에서 보존을 처음 구성하는 경우 [보존 정책 및 보존 레이블 시작하기](get-started-with-retention.md)를 참조하세요.
 
-## <a name="task-8-configure-sensitive-information-and-offensive-language-policies"></a>작업 8: 중요 한 정보 및 공격적인 언어 정책 구성
+## <a name="task-7-configure-sensitive-information-and-offensive-language-policies"></a>작업 7: 중요 한 정보 및 공격적인 언어 정책 구성
 
 중요 한 정보를 보호 하 고 회사 harassment 인시던트를 검색 및 작동 하는 것은 내부 정책 및 표준을 준수 하는 데 있어 중요 한 요소입니다. Microsoft 365의 [통신 준수](communication-compliance-feature-reference.md) 는 전자 메일 및 Microsoft 팀의 의사 소통을 빠르게 감지, 캡처 및 관리 하 여 이러한 위험을 최소화 하는 데 도움이 됩니다. 여기에는 비속어, 위협 및 harassment 및 조직 내부 및 외부의 중요 한 정보를 공유 하는 통신이 포함 된 부적절 한 통신이 포함 됩니다.
 
@@ -102,7 +96,7 @@ Microsoft 365 환경에서 Exchange 메일, SharePoint 사이트, OneDrive 계�
 
 통신 준수를 계획 하 고 구성 하는 단계별 지침은 통신 준수 [계획](communication-compliance-plan.md) 및 [통신 준수 시작](communication-compliance-configure.md)을 참조 하십시오. 통신 준수 라이선스 정보는 [보안 & 준수에 대 한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#communication-compliance)을 참조 하세요.
 
-## <a name="task-9-see-whats-happening-with-your-sensitive-items"></a>작업 9: 중요 한 항목의 진행 상황 확인
+## <a name="task-8-see-whats-happening-with-your-sensitive-items"></a>작업 8: 중요 한 항목의 진행 상황 확인
 
 민감도 레이블, 중요 한 정보 유형, 보존 레이블 및 정책 및 trainable 분류자는 이전 작업에서 보았던 것 처럼 Exchange, SharePoint 및 OneDrive에서 중요 한 항목을 분류 하 고 레이블을 지정 하는 데 사용할 수 있습니다. 빠른 작업으로 이동 하는 마지막 단계에서는 레이블이 지정 된 항목과 사용자가 해당 중요 한 항목에 대해 수행 하는 작업을 확인 합니다. [콘텐츠 탐색기](data-classification-content-explorer.md) 및 [활동 탐색기](data-classification-activity-explorer.md) 에서 이러한 표시가 제공 됩니다.
 

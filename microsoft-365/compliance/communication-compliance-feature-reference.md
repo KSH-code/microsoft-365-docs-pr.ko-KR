@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 7f1d3e13aebe7c7924732922bbbfc7417622d8c5
-ms.sourcegitcommit: e17fd18b01d70e6428263c20cbce4b92e2a97765
+ms.openlocfilehash: 4ede013a1c9a9bd054fc6965cbb12b5bbabb0b5e
+ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48626191"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48651410"
 ---
 # <a name="communication-compliance-feature-reference"></a>통신 준수 기능 참조
 
@@ -213,7 +213,7 @@ Microsoft 365의 trainable 분류자에 대 한 자세한 내용은 [trainable �
 쉼표로 구분 하 여 입력 한 각 단어를 개별적으로 적용 합니다 (전자 메일 또는 첨부 파일에 적용할 정책 조건에 한 단어씩 적용 해야 함). 예를 **들어 다음**조건을 사용 하 여 메시지에 "banker", "기밀" 및 "참가자 거래" 라는 키워드를 쉼표로 구분 하 여 허용 합니다. 이 정책은 "banker", "기밀" 또는 "참가자 거래" 라는 단어가 포함 된 모든 메시지에 적용 됩니다. 이 정책 조건을 적용 하려면 이러한 단어 또는 구문 중 하나만 발생 해야 합니다. 메시지 또는 첨부 파일의 단어는 입력 한 내용과 정확히 일치 해야 합니다.
 
 >[!IMPORTANT]
->사용자 지정 사전 파일을 가져올 때는 각 단어나 구를 캐리지 리턴과 별도의 줄에 구분 해야 합니다. <br> 예시: <br><br>
+>사용자 지정 사전 파일을 가져올 때는 각 단어나 구를 캐리지 리턴과 별도의 줄에 구분 해야 합니다. <br> 예를 들면 다음과 같습니다. <br><br>
 >*banker* <br>
 >*기밀로* <br>
 >*insider 사업*
@@ -335,6 +335,9 @@ Microsoft 365의 trainable 분류자에 대 한 자세한 내용은 [trainable �
 [Microsoft Power 자동화](https://docs.microsoft.com/power-automate/getting-started) 는 응용 프로그램 및 서비스에서 작업을 자동화 하는 워크플로 서비스입니다. 템플릿에서 흐름을 사용 하거나 수동으로 만든 경우 이러한 응용 프로그램 및 서비스와 관련 된 일반적인 작업을 자동화할 수 있습니다. 통신 준수를 위해 전원 자동화 흐름을 사용 하도록 설정 하는 경우 경고 및 사용자에 대 한 중요 한 작업을 자동화할 수 있습니다. 사용자가 통신 준수 경고 및 기타 응용 프로그램을 보유 하 고 있을 때 관리자에 게 알리도록 전원 자동화 흐름을 구성할 수 있습니다.
 
 통신 준수를 포함 하는 Microsoft 365 구독을 사용 하는 고객은 추가 전원 자동화 라이선스가 없어도 권장 되는 기본 통신 준수 파워 자동화 서식 파일을 사용할 수 있습니다. 기본 서식 파일을 사용자 지정 하 여 조직을 지원 하 고 핵심 통신 준수 시나리오를 처리할 수 있습니다. 이러한 서식 파일에서 고급 고급 자동화 기능을 사용 하도록 선택 하는 경우 Microsoft 365 준수 커넥터를 사용 하 여 사용자 지정 서식 파일을 만들거나 Microsoft 365의 기타 준수 영역에 대해 Power 자동화 서식 파일을 사용 하는 경우에는 추가 전원 자동화 라이선스가 필요할 수 있습니다.
+
+>[!IMPORTANT]
+>전원 자동화 흐름을 테스트할 때 추가 라이선스 유효성 검사에 대 한 메시지를 받고 있습니까? 조직에서이 미리 보기 기능에 대 한 서비스 업데이트를 아직 받지 못한 것일 수 있습니다. 업데이트를 배포 하는 중 이며, 통신 준수를 포함 하는 Microsoft 365 구독을 가진 모든 조직은 권장 되는 전원 자동화 서식 파일에서 만든 흐름에 대 한 라이선스 지원이 있어야 합니다 (10 월 30, 2020).
 
 ![통신 준수 전원 자동화](../media/communication-compliance-power-automate.png)
 

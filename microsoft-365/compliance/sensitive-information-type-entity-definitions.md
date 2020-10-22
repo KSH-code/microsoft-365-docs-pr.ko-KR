@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: 보안 및 준수 센터의 DLP (데이터 손실 방지)에는 &amp; dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다.
-ms.openlocfilehash: 8482501dc978433587c431d18ec93b9e78fb8e03
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: 288c53d5e9264942e12d5634cec172a65ee79ca6
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487496"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48656055"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>중요한 정보 유형 엔터티 정의
 
@@ -60,14 +60,20 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Func_aba_routing 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_ABA_Routing의 키워드가 발견되었습니다.
 
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 65% 신뢰합니다.
+- Func_aba_routing 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
+
 ```xml
-<!-- ABA Routing Number -->
-<Entity id="cb353f78-2b72-4c3c-8827-92ebe4f69fdf" patternsProximity="300" recommendedConfidence="75">
+    <!-- ABA Routing Number -->
+    <Entity id="cb353f78-2b72-4c3c-8827-92ebe4f69fdf" patternsProximity="300" recommendedConfidence="75">
       <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_aba_routing" />
         <Match idRef="Keyword_ABA_Routing" />
       </Pattern>
- </Entity>
+      <Pattern confidenceLevel="65">
+        <IdMatch idRef="Func_aba_routing" />
+      </Pattern>
+    </Entity>
 ```
 
 
@@ -75,37 +81,36 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyword_aba_routing"></a>Keyword_aba_routing
 
-- aba
-- aba #
-- aba routing #
-- aba routing number
-- aba #
-- abarouting #
 - aba number
+- aba #
+- aba
+- abarouting #
 - abaroutingnumber
-- american bank association routing #
-- american bank association routing number
 - americanbankassociationrouting #
 - americanbankassociationroutingnumber
-- bank routing number
 - bankrouting #
 - bankroutingnumber
+- 라우팅 #
+- routing no
+- 라우팅 번호
 - routing transit number
-- RTN 
-   
+- 라우팅 #
+- RTN
+
+
 ## <a name="argentina-national-identity-dni-number"></a>아르헨티나 국가 id (DNI) 번호
 
 ### <a name="format"></a>형식일
 
-마침표로 구분된 8자리 숫자
+마침표가 있거나 없는 8 자리 숫자
 
 ### <a name="pattern"></a>패턴
 
 8자리 숫자:
 - 2 자리 숫자
-- 마침표
+- 선택적 기간
 - 3 자리 숫자
-- 마침표
+- 선택적 기간
 - 3 자리 숫자
 
 ### <a name="checksum"></a>제외
@@ -133,14 +138,14 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keyword_argentina_national_id"></a>Keyword_argentina_national_id
 
 - Argentina National Identity number 
-- ID 
-- 식별 국가 Id 카드 
-- DNI 
-- 개인의 NIC 국내 레지스트리 
-- Documento Nacional de Identidad 
-- Registro Nacional de las Personas 
-- Identidad 
-- Identificación 
+- cedula 
+- cédula 
+- dni 
+- documento nacional de identidad 
+- documento número 
+- documento numero 
+- registro nacional de las 가상 사용자 
+- rnp 
    
 ## <a name="australia-bank-account-number"></a>오스트레일리아 은행 계좌 번호
 
@@ -697,8 +702,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -710,8 +715,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -733,9 +738,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -786,9 +791,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -803,9 +807,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -866,9 +868,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_austria_eu_national_id_card"></a>Keywords_austria_eu_national_id_card
 
 - id 번호
-- 
-national id
-- personalausweis republik österreich
+- national id
+- personalausweis republik österreich
 
 ## <a name="austria-passport-number"></a>오스트리아 여권 번호
 이 중요 한 정보 유형 엔터티는 EU 여권 번호 sensitiveinformation type 에서만 사용할 수 있습니다.
@@ -913,13 +914,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -1043,7 +1044,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - st.nr
 - steuernummer
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -1648,8 +1648,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -1661,8 +1661,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -1684,9 +1684,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -1737,9 +1737,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -1754,9 +1753,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -1773,9 +1770,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - fuehrerschein
 - fuhrerscheinnummer
 - fuehrerscheinnummer
-- 
-permis de conduire
-- numéro permis conduire
+- permis de conduire
+- numéro permis conduire
 
 
 ## <a name="belgium-national-number"></a>벨기에 국가 번호
@@ -1825,10 +1821,10 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyword_belgium_national_number"></a>Keyword_belgium_national_number
 
-- belasting aantal
+- belasting aantal
 - bnn #
 - bnn
-- carte d'identité
+- carte d'identité
 - identifiant 국가
 - identifiantnational #
 - identificatie
@@ -1847,10 +1843,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - nationalnumber
 - m #
 - m
-- numéro d'assuré
+- numéro d'assuré
 - numéro de registre 국립
 - numéro de sécurité
-
 - numéro d'identification
 - numéro d'immatriculation
 - numéro 국가
@@ -1862,12 +1857,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 등록
 - registrationsnumme
 - registrierung
-- 주민 등록 번호
+- social security number
 - ssn #
 - ssn
 - steuernummer
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -1923,13 +1917,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -2323,8 +2317,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -2336,8 +2330,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -2359,9 +2353,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -2412,9 +2406,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -2429,9 +2422,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -2505,13 +2496,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - bnn
 - 고 대 cn #
 - 고 대 cn
-- edinen grazhdanski nomer
+- edinen grazhdanski nomer
 - egn #
 - egn
 - identification number
-
-- 
-national id
+- national id
 - 국가 번호
 - nationalnumber #
 - nationalnumber
@@ -2519,7 +2508,7 @@ national id
 - personal no
 - 개인 번호
 - personalidnumber #
-- 주민 등록 번호
+- social security number
 - ssn #
 - ssn
 - 일정 한 민사 일련번호
@@ -2532,17 +2521,17 @@ national id
 - 고유한 참여 번호
 - егн #
 - егн
-- единен граждански номер
-- идентификационен номер
-- личен номер
-- лична идентификация
-- лично не
-- национален номер
-- номер на гражданството
+- единен граждански номер
+- идентификационен номер
+- личен номер
+- лична идентификация
+- лично не
+- национален номер
+- номер на гражданството
 - униформ id
 - униформ граждански id
-- униформ граждански не
-- униформ граждански номер
+- униформ граждански не
+- униформ граждански номер
 - униформгражданскиid #
 - униформгражданскине. #
 
@@ -2585,13 +2574,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -3333,28 +3322,20 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyword_cc_verification"></a>Keyword_cc_verification
 
-- 
-card verification
-
+- card verification
 - card identification number
 - cvn
 - cid
 - cvc2
 - cvv2
-- 
-pin block
+- pin block
 - security code
-
 - security number
-
 - security no
-
 - issue number
-
 - issue no
 - cryptogramme
-- 
-numéro de sécurité
+- numéro de sécurité
 - numero de securite
 - kreditkartenprüfnummer
 - kreditkartenprufnummer
@@ -3365,32 +3346,26 @@ numéro de sécurité
 - sicherheitsnummer
 - verfalldatum
 - codice di verifica
-- cod.sicurezza
-- 
-cod sicurezza
+- cod. sicurezza
+- cod sicurezza
 - n autorizzazione
 - código
 - codigo
-- cod.seg
-- 
-cod seg
+- cod. seg
+- cod seg
 - código de segurança
-
 - codigo de seguranca
-
 - codigo de segurança
-
 - código de seguranca
-- cód.segurança
-- cod.seguranca
-- cod.segurança
-- cód.seguranca
-- cód segurança
+- cód. segurança
+- cod. seguranca
+- cod. segurança
+- cód. seguranca
+- cód segurança
 - cod seguranca
 - cod segurança
-- cód seguranca
+- cód seguranca
 - número de verificação
-
 - numero de verificacao
 - ablauf
 - gültig bis
@@ -3398,20 +3373,15 @@ cod seg
 - gultig bis
 - gultigkeitsdatum
 - scadenza
-- 
-data scad
+- data scad
 - fecha de expiracion
-
 - fecha de venc
 - vencimiento
-- 
-válido hasta
+- válido hasta
 - valido hasta
 - vto
-- 
-data de expiração
+- data de expiração
 - data de expiracao
-
 - data em que expira
 - 유효한 ade
 - valor
@@ -3420,9 +3390,9 @@ data de expiração
 - 거래 번호
 - 참조 번호
 - セキュリティコード
-- セキュリティ コード
+- セキュリティ コード
 - セキュリティナンバー
-- セキュリティ ナンバー
+- セキュリティ ナンバー
 - セキュリティ番号
 
 #### <a name="keyword_cc_name"></a>Keyword_cc_name
@@ -3431,15 +3401,13 @@ data de expiração
 - american express
 - americanexpress
 - americano espresso
-
 - Visa
 - mastercard
 - master card
 - mc
 - mastercards
-- 
-master cards
-- 식사 권을의 방망이
+- master cards
+- diner's Club
 - diners club
 - dinersclub
 - 찾아보십시오
@@ -3449,28 +3417,20 @@ master cards
 - JCB
 - BrandSmart
 - japanese card bureau
-
 - carte blanche
 - carteblanche
-- 신용 카드
+- credit card
 - 참조란 #
 - 참조 #:
-- 
-expiration date
+- expiration date
 - exp date
-
-- 
-expiry date
-- 
-date d’expiration
-- 
-date d'exp
-- 
-date expiration
+- expiry date
+- date d’expiration
+- date d'exp
+- date expiration
 - bank card
 - bankcard
-- 
-card number
+- card number
 - card num
 - 전화 번호
 - 시 번호
@@ -3496,10 +3456,8 @@ card number
 - atm cards
 - atmcards
 - enroute
-- 
-en route
+- en route
 - card type
-
 - 회원 계정
 - 회원 계정
 - Card no
@@ -3510,22 +3468,14 @@ en route
 - 카드 구성원 계정
 - 구성원 계정입니다.
 - card no.
-
 - 카드 번호
 - card number
-
 - carte bancaire
-
 - carte de crédit
-
 - carte de credit
-
 - numéro de carte
-
 - numero de carte
-
 - nº de la carte
-
 - nº de carte
 - kreditkarte
 - karte
@@ -3539,91 +3489,57 @@ en route
 - kartennummer
 - kreditkartennummer
 - kreditkarten-nummer
-- 
-carta di credito
+- carta di credito
 - carta credito
-- kn.카 ta
+- kn. 카 ta
 - n carta
-- veiligheid.카 ta
-- 
-nr carta
+- veiligheid. 카 ta
+- nr carta
 - numero carta
-
 - numero della carta
-
 - numero di carta
-
 - tarjeta credito
-
 - tarjeta de credito
-
-- 
-tarjeta crédito
-- 
-tarjeta de crédito
+- tarjeta crédito
+- tarjeta de crédito
 - tarjeta de atm
-
 - tarjeta atm
-
 - tarjeta debito
-
 - tarjeta de debito
-
-- 
-tarjeta débito
-- 
-tarjeta de débito
+- tarjeta débito
+- tarjeta de débito
 - nº de tarjeta
-- 아니요.de tarjeta
-- de tarjeta
+- 아니요. de tarjeta
+- no de tarjeta
 - numero de tarjeta
-
 - número de tarjeta
-
 - tarjeta no
 - tarjetahabiente
-- 
-cartão de crédito
+- cartão de crédito
 - cartão de credito
-
 - cartao de crédito
-
 - cartao de credito
-
 - cartão de débito
-
 - cartao de débito
-
 - cartão de debito
-
 - cartao de debito
-
 - débito automático
 - debito automatico
-
-- 
-número do cartão
+- número do cartão
 - numero do cartão
-
 - número do cartao
-
 - numero do cartao
-
 - número de cartão
-
 - numero de cartão
-
 - número de cartao
-
 - numero de cartao
-
-- n º cartão
+- nº do cartão
 - nº do cartao
-- n ºdo cartão
-- do no cartão
-- 작업 없음
-- 아니요.do cartão
-- 아니요.do cartao
+- n º do cartão
+- no do cartão
+- no do cartao
+- 아니요. do cartão
+- 아니요. do cartao
 - クレジットカード番号
 - クレジットカードナンバー
 - クレジットカード＃
@@ -3635,23 +3551,23 @@ número do cartão
 - カード＃
 - アメックス
 - アメリカンエクスプレス
-- アメリカン エクスプレス
+- アメリカン エクスプレス
 - Visaカード
 - カード
 - マスターカード
-- マスター カード
+- マスター カード
 - マスター
 - ダイナースクラブ
-- ダイナース クラブ
+- ダイナース クラブ
 - ダイナース
 - 有効期限
 - 期限
 - キャッシュカード
-- キャッシュ カード
+- キャッシュ カード
 - カード名義人
 - カードの名義人
 - カードの名義
-- デビット カード
+- デビット カード
 - デビットカード
 
 
@@ -3702,8 +3618,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -3715,8 +3631,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -3738,9 +3654,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -3791,9 +3707,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -3808,9 +3723,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -3858,20 +3771,19 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyword_croatia_id_card"></a>Keyword_croatia_id_card
 
-- majstorski broj građana
+- majstorski broj građana
 - 마스터 시민 번호
 - nacidentifikacijski alni broj
-- 국가 식별 번호
+- national identification number
 - oib #
 - oib
 - osobna iskaznica
 - osobni id
 - osobni identifikacijski broj
 - 개인 식별 번호
-- porezni broj
-- porezni identifikacijski broj
+- porezni broj
+- porezni identifikacijski broj
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -3927,13 +3839,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -3987,20 +3899,19 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyword_croatia_oib_number"></a>Keyword_croatia_oib_number
 
-- majstorski broj građana
+- majstorski broj građana
 - 마스터 시민 번호
 - nacidentifikacijski alni broj
-- 국가 식별 번호
+- national identification number
 - oib #
 - oib
 - osobna iskaznica
 - osobni id
 - osobni identifikacijski broj
 - 개인 식별 번호
-- porezni broj
-- porezni identifikacijski broj
+- porezni broj
+- porezni identifikacijski broj
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -4125,8 +4036,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -4138,8 +4049,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -4161,9 +4072,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -4214,9 +4125,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -4231,9 +4141,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -4288,8 +4196,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - id 카드 번호
 - id 카드 번호
-- kimlik karti
-- 국가 식별 번호
+- kimlik karti
+- national identification number
 - 개인 id 번호
 - ταυτοτητασ
 
@@ -4333,13 +4241,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -4408,7 +4316,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_cyprus_eu_tax_file_number"></a>Keywords_cyprus_eu_tax_file_number
 
 - tax id
-
 - 세금 식별 코드
 - 세금 식별 아니요
 - 세금 식별 번호
@@ -4429,10 +4336,10 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 언급 #
 - vergi kimlik kodu
 - vergi kimlik numarası
-- αριθμός φορολογικού μητρώου
-- κωδικός φορολογικού μητρώου
-- φορολογική ταυτότητα
-- φορολογικού κωδικού
+- αριθμός φορολογικού μητρώου
+- κωδικός φορολογικού μητρώου
+- φορολογική ταυτότητα
+- φορολογικού κωδικού
 
 
 ## <a name="czech-drivers-license-number"></a>체코어 운전 면허 번호
@@ -4486,8 +4393,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -4499,8 +4406,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -4522,9 +4429,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -4575,9 +4482,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -4592,9 +4498,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -4647,13 +4551,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -4723,32 +4627,31 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 돌 번호
 - 체코어 공화국 id
 - czechidno #
-- daňové číslo
-- identifikační číslo
+- daňové číslo
+- identifikační číslo
 - identity no
 - id 번호
 - identityno #
 - identityno
 - 보험 번호
-- 국가 식별 번호
+- national identification number
 - nationalnumber #
 - 국가 번호
-- osobní číslo
+- osobní číslo
 - personalidnumber #
 - 개인 id 번호
 - 개인 식별 번호
 - 개인 번호
 - 인 #
 - 인
-- pojištění číslo
+- pojištění číslo
 - rč
 - rodne cislo
 - rodné číslo
 - ssn
 - ssn #
-- 주민 등록 번호
+- social security number
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -4875,8 +4778,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -4888,8 +4791,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -4911,9 +4814,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -4964,9 +4867,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -4981,9 +4883,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -5034,13 +4934,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -5097,17 +4997,16 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyword_denmark_id"></a>Keyword_denmark_id
 
-- centrale personregister
-- civilt registreringssystem
+- centrale personregister
+- civilt registreringssystem
 - cpr
 - cpr #
-- gesundheitskarte nummer
-- gesundheitsversicherungkarte nummer
+- gesundheitskarte nummer
+- gesundheitsversicherungkarte nummer
 - 건강 카드
 - 건강 보험 카드 번호
 - 건강 보험 번호
 - identification number
-
 - identifikationsnummer
 - identifikationsnummer #
 - id 번호
@@ -5128,7 +5027,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - kode
 - nummer에서
 - skattenummer
-- 주민 등록 번호
+- social security number
 - sundhedsforsikringskort
 - sundhedsforsikringsnummer
 - sundhed(고 ort)
@@ -5141,7 +5040,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 세금 번호
 - 세금 등록 번호
 - tax id
-
 - 세금 식별 번호
 - taxid #
 - taxnumber #
@@ -5238,7 +5136,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 패턴에는 다음이 모두 포함되어야 합니다.
 - 이 가능한 문자 집합에서의 한 문자 (대/소문자 구분 안 함): abcdefghjklmnprstux (등록자 성의 코드) 
-- 1 개의 문자 (대/소문자 구분 안 함), 등록자 성의 성의 첫 번째 문자 
+- 1 개의 문자 (대/소문자 구분 안 함), 등록자 성의의 성 또는 숫자 ' 9 '의 첫 번째 문자
 - 검사 숫자의 마지막 7 자리 숫자
 
 ### <a name="checksum"></a>제외
@@ -5249,20 +5147,41 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
 - Func_dea_number 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
+- From 키워드를 `Keyword_dea_number` 찾음
+- 체크섬이 통과됩니다.
+
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
+- Func_dea_number 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - 체크섬이 통과됩니다.
 
 ```xml
-<!-- DEA Number -->
-<Entity id="9a5445ad-406e-43eb-8bd7-cac17ab6d0e4" recommendedConfidence="85" patternsProximity="300">
-  <Pattern confidenceLevel="85">
-     <IdMatch idRef="Func_dea_number"/>
-  </Pattern>
-</Entity>
+    <!-- DEA Number -->
+    <Entity id="9a5445ad-406e-43eb-8bd7-cac17ab6d0e4" patternsProximity="300" recommendedConfidence="85">
+      <Pattern confidenceLevel="75">
+        <IdMatch idRef="Func_dea_number" />
+      </Pattern>
+      <Version minEngineVersion="15.20.1207.000" maxEngineVersion="15.20.3134.000">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_dea_number" />
+        </Pattern>
+      </Version>
+      <Version minEngineVersion="15.20.3135.000">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_dea_number" />
+          <Match idRef="Keyword_dea_number" />
+        </Pattern>
+      </Version>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-없음
+#### <a name="keyword_dea_number"></a>Keyword_dea_number
+
+- dea
+- dea #
+- 마약 적용 관리
+- 마약 적용 기관
 
 
 ## <a name="estonia-drivers-license-number"></a>에스토니아 운전 면허 번호
@@ -5314,8 +5233,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -5327,8 +5246,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -5350,9 +5269,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -5403,9 +5322,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -5420,9 +5338,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -5496,9 +5412,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - isikukood #
 - isikukood
 - maksu id
-- maksukohustuslase identifitseerimisnumber
+- maksukohustuslase identifitseerimisnumber
 - maksunumber
-- 국가 식별 번호
+- national identification number
 - 국가 번호
 - 개인 코드
 - 개인 id 번호
@@ -5506,7 +5422,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 개인 식별 번호
 - personalidnumber #
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -5563,13 +5478,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -6132,8 +6047,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -6145,8 +6060,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -6168,9 +6083,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -6221,9 +6136,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -6238,9 +6152,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -6314,7 +6226,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - sairaanhoitokortin
 - sairausvakuutuskortti
 - sairausvakuutusnumero
-- sjukförsäkring nummer
+- sjukförsäkring nummer
 - sjukförsäkringskort
 - suomen sairausvakuutuskortti
 - terveyskortti
@@ -6364,8 +6276,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-- ainutlaatuinen henkilökohtainen tunnus
-- henkilökohtainen tunnus
+- ainutlaatuinen henkilökohtainen tunnus
+- henkilökohtainen tunnus
 - henkilötunnus
 - henkilötunnusnumero #
 - henkilötunnusnumero
@@ -6373,12 +6285,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - id 없음
 - id 번호
 - identification number
-
-- identiteetti numero
+- identiteetti numero
 - id 번호
 - idnumber
-- kansallinen henkilötunnus
-- kansallisen henkilökortin
+- kansallinen henkilötunnus
+- kansallisen henkilökortin
 - 국가 id 카드
 - 국가 id 번호입니다.
 - 개인 id
@@ -6386,10 +6297,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - personalidnumber #
 - personbeteckning
 - personnummer
-- 주민 등록 번호
+- social security number
 - sosiaaliturvatunnus
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -6406,7 +6316,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 언급 아니요
 - 언급 #
 - tunnistenumero
-- tunnus numero
+- tunnus numero
 - tunnusluku
 - tunnusnumero
 - verokortti
@@ -6453,13 +6363,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -6589,8 +6499,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -6602,8 +6512,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -6625,9 +6535,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -6678,9 +6588,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -6695,24 +6604,16 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
 - dl 번호
-- 
-permis de conduire
-- 
-licence number
-- 
-license number
-- 
-licence numbers
-- 
-
-license numbers
+- permis de conduire
+- licence number
+- license number
+- licence numbers
+- license numbers
 - numéros de 라이선스
 
 
@@ -6763,7 +6664,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keyword_france_health_insurance_number"></a>Keyword_France_health_insurance_number
 
 - 보험 카드
-- carte vitale
+- carte vitale
 - carte d'assuré social
 
 
@@ -6802,16 +6703,15 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_france_eu_national_id_card"></a>Keywords_france_eu_national_id_card
 
 - card number
-
-- carte nationale d'identité
+- carte nationale d'identité
 - carte nationale d'idenite no
 - cni #
 - cni
 - compte bancaire
-- 국가 식별 번호
+- national identification number
 - 국가 id
 - nationalidno #
-- numéro d'assurance maladie
+- numéro d'assurance maladie
 - numéro de carte vitale
 
    
@@ -7008,7 +6908,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - numéro d'identification fiscale
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -7136,22 +7035,18 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - ausstellungsdatum
 - ausstellungsort
-- 
-ausstellende behöde
-- 
-ausstellende behorde
-- 
-
-ausstellende behoerde
+- ausstellende behöde
+- ausstellende behorde
+- ausstellende behoerde
 - führerschein
 - fuhrerschein
 - fuehrerschein
 - führerscheinnummer
 - fuhrerscheinnummer
 - fuehrerscheinnummer
-- führerschein- 
-- fuhrerschein- 
-- fuehrerschein- 
+- führerschein- 
+- fuhrerschein- 
+- fuehrerschein- 
 - führerscheinnummernr
 - fuhrerscheinnummernr
 - fuehrerscheinnummernr
@@ -7167,8 +7062,7 @@ ausstellende behoerde
 - n-führerschein
 - n-fuhrerschein
 - n-fuehrerschein
-- 
-permis de conduire
+- permis de conduire
 - driverlic
 - driverlics
 - driverlicense
@@ -7177,8 +7071,8 @@ permis de conduire
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -7190,8 +7084,8 @@ permis de conduire
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -7213,9 +7107,9 @@ permis de conduire
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -7266,9 +7160,8 @@ permis de conduire
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -7283,9 +7176,7 @@ permis de conduire
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dlno
 
@@ -7336,13 +7227,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 확인과
 - identifikation
 - identifizierungsnummer
-- id 카드
+- identity card
 - id 번호
 - id-nummer
 - 개인 id
 - personalausweis
 - persönliche id nummer
-- persönliche identifikationsnummer
+- persönliche identifikationsnummer
 - persönliche-id-nummer
 
 
@@ -7459,7 +7350,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - steueridentifikationsnummer
 - steuernummer
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -7539,8 +7429,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - vat #
 - vat # mehrwertsteuer
 - mwst
-- mehrwertsteuer identifikationsnummer
-- mehrwertsteuer nummer
+- mehrwertsteuer identifikationsnummer
+- mehrwertsteuer nummer
 
 
 ## <a name="greece-drivers-license-number"></a>그리스 운전 면허 번호
@@ -7589,8 +7479,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -7602,8 +7492,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -7625,9 +7515,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -7678,9 +7568,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -7695,9 +7584,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -7764,7 +7651,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 그리스 국가 id
 - 그리스어 개인 id 카드
 - 그리스 경찰서 id
-- id 카드
+- identity card
 - tautotita
 - ταυτότητα
 - ταυτότητας
@@ -7811,13 +7698,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -7873,7 +7760,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - aφμ | aφμ αριθμός
 - aφμ
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -7892,9 +7778,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 언급 id
 - 언급 아니요
 - 언급 #
-- αριθμός φορολογικού μητρώου
-- τον αριθμό φορολογικού μητρώου
-- φορολογικού μητρώου νο
+- αριθμός φορολογικού μητρώου
+- τον αριθμό φορολογικού μητρώου
+- φορολογικού μητρώου νο
 
 
 ## <a name="hong-kong-identity-card-hkid-number"></a>HKID (홍콩 id 카드) 번호
@@ -8031,8 +7917,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -8044,8 +7930,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -8067,9 +7953,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -8120,9 +8006,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -8137,9 +8022,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -8212,12 +8095,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - id 번호
 - identification number
-
 - sz ig
-- sz.ig.
+- sz. ig.
 - sz ig
-- személyazonosító igazolvány
-- személyi igazolvány
+- személyazonosító igazolvány
+- személyi igazolvány
 
 
 ## <a name="hungary-passport-number"></a>헝가리어 여권 번호
@@ -8260,13 +8142,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -8395,14 +8277,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywords_hungary_eu_tax_file_number"></a>Keywords_hungary_eu_tax_file_number
 
-- adóazonosító szám
-- adóhatóság szám
+- adóazonosító szám
+- adóhatóság szám
 - adószám
 - 헝가리어 언급
 - hungatiantin #
 - 세금 기관 아니요
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -8480,10 +8361,10 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - hungarianvatno #
 - 세금 번호
 - 부가 세금 áfa
-- közösségi adószám
+- közösségi adószám
 - általános forgalmi adó
 - hozzáadottérték adó
-- áfa szám
+- áfa szám
 
 
 ## <a name="india-permanent-account-number-pan"></a>인도 (영구 계정 번호)
@@ -8495,29 +8376,39 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="pattern"></a>패턴
 
 10자리 문자 또는 숫자:
-- 5개 문자(대/소문자 구분 안 함)  
+- 3 개 문자 (대/소문자 구분 안 함) 
+- C, P, H, F, A, T, B, L, J, G (대/소문자 구분 안 함)의 문자
+- A 문자
 - 4자리 숫자 
-- 알파벳 검사 숫자에 해당하는 문자 1개
+- A 문자 (대/소문자 구분 안 함)
 
 ### <a name="checksum"></a>제외
 
-예
+아니요
 
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
 - 정규식 Regex_india_permanent_account_number 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 - Keyword_india_permanent_account_number에서 키워드가 발견 되었습니다.
-- 체크섬이 통과됩니다.
+
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 65% 신뢰합니다.
+- 정규식 Regex_india_permanent_account_number 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+
 
 ```xml
-<!-- India Permanent Account Number -->
-<Entity id="2602bfee-9bb0-47a5-a7a6-2bf3053e2804" recommendedConfidence="85" patternsProximity="300">
-  <Pattern confidenceLevel="85">
-     <IdMatch idRef="Regex_india_permanent_account_number"/>
-     <Match idRef="Keyword_india_permanent_account_number"/>
-  </Pattern>
-</Entity>
+      <!-- India Permanent Account Number -->
+      <Entity id="2602bfee-9bb0-47a5-a7a6-2bf3053e2804" patternsProximity="300" recommendedConfidence="85">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Regex_india_permanent_account_number" />
+          <Match idRef="Keyword_india_permanent_account_number" />
+        </Pattern>
+        <Version minEngineVersion="15.20.3520.000">
+          <Pattern confidenceLevel="65">
+            <IdMatch idRef="Regex_india_permanent_account_number" />
+          </Pattern>
+        </Version>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -8536,7 +8427,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="pattern"></a>패턴
 
 12자리 숫자:
-- 4자리 숫자 
+- 0 또는 1이 아닌 숫자
+- 3자리 숫자 
 - 선택적 공백 또는 대시  
 - 4자리 숫자 
 - 선택적 공백 또는 대시  
@@ -8573,10 +8465,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
    
 #### <a name="keyword_india_aadhar"></a>Keyword_india_aadhar
-- Aadhar
-- Aadhaar
-- UID
+- aadhaar
+- aadhar
+- aadhar #
+- uid
 - आधार
+- uidai
    
 ## <a name="indonesia-identity-card-ktp-number"></a>인도네시아 id 카드 (KTP) 번호
 
@@ -8641,7 +8535,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 각 국가의 형식은 약간 다릅니다. IBAN 중요 한 정보 유형은 다음과 같은 60 국가를 포함 합니다.
 
-ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, to, do, ee, es, fi,,, fr, gb, ge, gi, gl, gr, hr, hu, kw, il, vg,, nl-nl, tn,,,,,,,,, ,,,,,,,,,,,,, rs, l, se, si,
+ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, to, do, ee, es, fi,,, fr, gb, ge, gi, gl, gr, hr, hu, kw, il, vg,, nl-nl, tn,,,,,,,,, </c12>,,,,,,,,,,,,, rs, l, se, si,
 
 ### <a name="checksum"></a>제외
 
@@ -8865,8 +8759,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -8878,8 +8772,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -8901,9 +8795,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -8954,9 +8848,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -8971,9 +8864,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -9029,13 +8920,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -9104,11 +8995,10 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - 클라이언트 id 서비스
 - identification number
-
 - 개인 id 번호
 - 개인 공용 서비스 번호
 - 개인 서비스 없음
-- phearsanta seirbhíse poiblí
+- phearsanta seirbhíse poiblí
 - pps 아니요
 - pps 번호
 - pps 번호
@@ -9130,7 +9020,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - uimhir aitheantais phearsanta
 - uimhir phearsanta seirbhíse poiblí
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -9234,8 +9123,23 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyword_israel_national_id"></a>Keyword_Israel_National_ID
 
-- מספר זהות 
-- National ID Number
+-   מספר זהות
+-   מספר זיה וי
+-   מספר זיהוי ישר אלי      
+-   זהותישר אלית
+-   هو ية اسرائيل ية عدد
+-   هوية إسرائ يلية
+-   رقم الهوية
+-   عدد هوية فريدة من نوعها
+-   idnumber #
+-   id 번호
+-   identity no        
+-   identitynumber #
+-   id 번호
+-   israeliidentitynumber       
+-   개인 id
+-   고유 id  
+
    
 ## <a name="italy-drivers-license-number"></a>이탈리아 운전 면허 번호
 이 중요 한 정보 유형 엔터티는 EU 드라이버의 라이선스 번호 중요 한 정보 유형에 포함 되며 독립 실행형 중요 한 정보 유형 엔터티로 사용할 수 있습니다.
@@ -9342,10 +9246,10 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - codice id personale
 - codice personale
 - 회계 코드
-- numero certificato personale
+- numero certificato personale
 - numero di identificazione fiscale
 - numero id personale
-- numero personale
+- numero personale
 - 개인 인증서 번호
 - 개인 코드
 - 개인 id 코드
@@ -9353,7 +9257,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - personalcodeno #
 - 세금 코드
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 id 번호
@@ -9414,13 +9317,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -9826,10 +9729,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keyword_jp_passport"></a>Keyword_jp_passport
 
 - 여권
-- 여권 번호
+- Passport Number
 - Passport 번호
 - Passport #
-
 - パスポート
 - パスポート番号
 - パスポートナンバー
@@ -10047,8 +9949,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -10060,8 +9962,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -10083,9 +9985,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -10136,9 +10038,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -10153,9 +10054,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -10239,7 +10138,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_latvia_eu_national_id_card"></a>Keywords_latvia_eu_national_id_card
 
 - 관리 번호
-- alvas nē
+- alvas nē
 - 돌 번호
 - 시민 번호
 - 민사 번호
@@ -10250,22 +10149,19 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - i #
 - id-코드
 - identification number
-
-- identifikācijas numurs
+- identifikācijas numurs
 - id-번호
 - 개별 번호
 - latvija alva
 - nacionālais id
-- 
-national id
+- national id
 - 국가 식별 번호
 - 국가 id 번호
 - national insurance number
-
 - 국가 레지스터 번호
-- nodokļa numurs
+- nodokļa numurs
 - nodokļu id
-- nodokļu identifikācija numurs
+- nodokļu identifikācija numurs
 - 개인 인증서 번호
 - 개인 코드
 - 개인 id 코드
@@ -10279,15 +10175,13 @@ national id
 - 가상 사용자 kods
 - 인구 식별 코드
 - 공용 서비스 번호
-- 
-registration number
+- registration number
 - 수익 번호
-- 사회적 보험 번호
-- 주민 등록 번호
+- social insurance number
+- social security number
 - 주 세금 코드
-- 세금 파일 번호
+- tax file number
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -10346,13 +10240,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -10411,8 +10305,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -10424,8 +10318,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -10447,9 +10341,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -10500,9 +10394,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -10517,9 +10410,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -10588,18 +10479,17 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_lithuania_eu_national_id_card"></a>Keywords_lithuania_eu_national_id_card
 
 - as메이 inis kodas
-- asmens kodas
+- asmens kodas
 - 시민 서비스 번호
 - mokesčių id
-- mokesčių identifikavimas numeris
-- mokesčių identifikavimo numeris
-- mokesčių numeris
-- 국가 식별 번호
+- mokesčių identifikavimas numeris
+- mokesčių identifikavimo numeris
+- mokesčių numeris
+- national identification number
 - 개인 코드
 - 개인 숫자 코드
-- piliečio paslaugos numeris
+- piliečio paslaugos numeris
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -10615,8 +10505,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 언급 id
 - 언급 아니요
 - 언급 #
-- unikalus identifikavimo kodas
-- unikalus identifikavimo numeris
+- unikalus identifikavimo kodas
+- unikalus identifikavimo numeris
 - 고유 id 번호
 - 고유 id 번호
 - uniqueidentityno #
@@ -10660,13 +10550,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -10722,8 +10612,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -10735,8 +10625,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -10758,9 +10648,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -10811,9 +10701,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -10828,9 +10717,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -10912,7 +10799,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 개인 id
 - personalidno #
 - personalidnumber #
-- persönliche identifikationsnummer
+- persönliche identifikationsnummer
 - 고유 id
 - 고유 id
 - uniqueidkey #
@@ -11013,12 +10900,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - carte de sécurité 사회 ale
 - étain 아님
 - étain #
-- identifiant d'impôt
+- identifiant d'impôt
 - 룩셈부르크 세금 identifikatiounsnummer
-- numéro d'étain
+- numéro d'étain
 - numéro d'identification 회계 luxembourgeois
 - numéro d'identification fiscale
-- 소셜 보안
+- social security
 - sozialunterstützung
 - sozialversécherung
 - sozialversicherungsausweis
@@ -11029,7 +10916,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - steueridentifikationsnummer
 - steuernummer
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -11168,8 +11054,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -11181,8 +11067,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -11204,9 +11090,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -11257,9 +11143,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -11274,9 +11159,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -11341,7 +11224,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 시민 서비스 번호
 - id tat-taxxa
 - identifika numru tal-biljett
-- kodiċi numerali personali
+- kodiċi numerali personali
 - numru ta ' personali
 - numru ta ' taxxa
 - numru ta ' uniku
@@ -11393,13 +11276,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -11470,7 +11353,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 시민 서비스 번호
 - id tat-taxxa
 - identifika numru tal-biljett
-- kodiċi numerali personali
+- kodiċi numerali personali
 - numru ta ' personali
 - numru ta ' taxxa
 - numru ta ' uniku
@@ -11479,7 +11362,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - numru tat
 - 개인 숫자 코드
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -11547,7 +11429,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 개인 번호
 - 개인 숫자 코드
 - 사용자 관련 번호
-- persoonlijk nummer
+- persoonlijk nummer
 - persoonlijke 코드
 - persoonsgebonden
 - persoonsnummer
@@ -11607,8 +11489,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -11620,8 +11502,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -11643,9 +11525,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -11696,9 +11578,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -11713,9 +11594,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -11821,11 +11700,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywords_netherlands_eu_tax_file_number"></a>Keywords_netherlands_eu_tax_file_number
 
-- btw nummer
+- btw nummer
 - hollânske 세금 식별
 - hulandes impuesto id 번호
 - hulandes impuesto 식별
-- identificatienummer belasting
+- identificatienummer belasting
 - identificatienummer van belasting
 - impuesto id 번호
 - impuesto 번호
@@ -11833,13 +11712,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - nederlands belasting identificatie
 - nederlands belasting identificatienummer
 - nederlands belastingnummer
-- nederlandse belasting identificatie
+- nederlandse belasting identificatie
 - 네덜란드 세금 식별
 - netherland의 세금 식별
 - 네덜란드 언급
 - netherland의 언급
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 확인 tal
@@ -11917,7 +11795,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - vat 아니요
 - vat #
 - wearde tafoege 세금 getal
-- btw nûmer
+- btw nûmer
 - btw-nummer
 
 
@@ -11976,7 +11854,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyword_new_zealand_bank_account_number"></a>Keyword_new_zealand_bank_account_number
 
-- 계정 번호
+- account number
 - 은행 계좌
 - bank_acct_id
 - bank_acct_branch
@@ -12042,7 +11920,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverslicences
 - drivers lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -12058,7 +11936,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전의 라이선스
+- driver's licence
 - 운전 라이선스
 - driverlic #
 - driverlics #
@@ -12092,8 +11970,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 driver'lics #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- 
-international driving permit
+- international driving permit
 - international driving permits
 - nz 자동차 연결
 - 새 뉴질랜드 자동차 연결
@@ -12255,7 +12132,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyword_new_zealand_social_welfare_number"></a>Keyword_new_zealand_social_welfare_number
 
-- 소셜 welfare #
+- 소셜 welfare #
 - 소셜 welfare #
 - 소셜 welfare No
 - 소셜 welfare 번호
@@ -12411,8 +12288,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -12424,8 +12301,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -12447,9 +12324,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -12500,9 +12377,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -12517,9 +12393,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -12783,7 +12657,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - u r i identyfikacji podatkowej
 - numeridentyfikacjipodatkowej #
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -12850,7 +12723,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - id 번호
 - id 아니요
 - identification number
-
 - id 카드 번호 없음
 - id 카드 번호
 - 국가 id 카드
@@ -12921,8 +12793,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -12934,8 +12806,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -12957,9 +12829,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -13010,9 +12882,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -13027,9 +12898,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -13091,13 +12960,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -13165,7 +13034,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - número de identificação fisca
 - numero 회계
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -13231,8 +13099,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -13244,8 +13112,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -13267,9 +13135,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -13320,9 +13188,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -13337,9 +13204,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -13416,9 +13281,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 보험 번호
 - insurancenumber #
 - 국가 id #
-- 
-national id
-- 국가 식별 번호
+- national id
+- national identification number
 - număr identificare personal
 - număr identitate
 - număr personal unic
@@ -13432,9 +13296,8 @@ national id
 - pin #
 - pin
 - 세금 파일 번호
-- 세금 파일 번호
+- tax file number
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -13494,13 +13357,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -13554,19 +13417,19 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyword_russia_passport_number_domestic"></a>Keyword_russia_passport_number_domestic
 
-- 여권 번호
+- passport number
 - passport 아니요
-- 여권 #
+- 여권 #
 - 여권 번호
 - passportno #
 - passportnumber #
-- паспорт нет
+- паспорт нет
 - паспорт id
-- pоссийской паспорт
-- pусский номер паспорта
+- pоссийской паспорт
+- pусский номер паспорта
 - паспорт #
 - паспортid #
-- номер паспорта
+- номер паспорта
 - номерпаспорта #
 
 
@@ -13614,19 +13477,19 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywords_russia_passport_number_international"></a>Keywords_russia_passport_number_international
 
-- 여권 번호
+- passport number
 - passport 아니요
-- 여권 #
+- 여권 #
 - 여권 번호
 - passportno #
 - passportnumber #
-- паспорт нет
+- паспорт нет
 - паспорт id
-- pоссийской паспорт
-- pусский номер паспорта
+- pоссийской паспорт
+- pусский номер паспорта
 - паспорт #
 - паспортid #
-- номер паспорта
+- номер паспорта
 - номерпаспорта #
 
 
@@ -13775,8 +13638,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -13788,8 +13651,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -13811,9 +13674,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -13864,9 +13727,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -13881,9 +13743,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -13947,37 +13807,35 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywords_slovakia_eu_national_id_card"></a>Keywords_slovakia_eu_national_id_card
 
-- azonosító szám
+- azonosító szám
 - 돌 번호
-- číslo národnej identifikačnej karty
-- číslo občianského preukazu
-- daňové číslo
+- číslo národnej identifikačnej karty
+- číslo občianského preukazu
+- daňové číslo
 - id 번호
 - id 아니요
 - identification number
-
-- identifikačná karta č
-- identifikačné číslo
+- identifikačná karta č
+- identifikačné číslo
 - id 카드 번호 없음
 - id 카드 번호
-- národná identifikačná značka č
+- národná identifikačná značka č
 - 국가 번호
 - nationalnumber #
-- nemzeti személyazonosító igazolvány
+- nemzeti személyazonosító igazolvány
 - personalidnumber #
 - rč
 - rodne cislo
 - rodné číslo
-- 주민 등록 번호
+- social security number
 - ssn #
 - ssn
-- személyi igazolvány szám
-- személyi igazolvány száma
-- személyigazolvány szám
+- személyi igazolvány szám
+- személyi igazolvány száma
+- személyigazolvány szám
 - 세금 파일 번호
-- 세금 파일 번호
+- tax file number
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -14033,13 +13891,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -14097,8 +13955,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -14110,8 +13968,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -14133,9 +13991,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -14186,9 +14044,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -14203,9 +14060,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -14274,29 +14129,27 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - ed명령이 vena številka glavnega državljana
 - emšo
 - enotna maticna številka obcana
-- id 카드
+- id card
 - identification number
-
-- identifikacijska številka
-- id 카드
+- identifikacijska številka
+- identity card
 - nac사서함 alna id
 - nacpotni alni 목록
-- 
-national id
-- osebna izkaznica
-- osebni koda
+- national id
+- osebna izkaznica
+- osebni koda
 - osebni ne
-- osebni številka
+- osebni številka
 - 개인 코드
 - 개인 번호
 - 개인 숫자 코드
-- številka državljana
+- številka državljana
 - 고유한 시민 번호
 - 고유 id 번호
 - 고유 id 번호
 - 고유 마스터 시민 번호
 - 고유 등록 번호
-- uniqueidentityno #
+- uniqueidentityno #
 - uniqueidentityno #
 
 ## <a name="slovenia-passport-number"></a>슬로베니아 여권 번호
@@ -14342,13 +14195,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -14409,13 +14262,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywords_slovenia_eu_tax_file_number"></a>Keywords_slovenia_eu_tax_file_number
 
-- davčna številka
-- identifikacijska številka davka
+- davčna številka
+- identifikacijska številka davka
 - številka davčne datoteke
 - 세금 파일 번호
-- 세금 파일 번호
+- tax file number
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -14596,8 +14448,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -14609,8 +14461,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -14632,9 +14484,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -14685,9 +14537,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -14702,9 +14553,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -14789,10 +14638,10 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - dni
 - dninúmero #
 - documento nacional de identidad
-- identidad único
+- identidad único
 - identidadúnico #
 - 보험 번호
-- 국가 식별 번호
+- national identification number
 - 국가 id
 - nationalid #
 - nationalidno #
@@ -14800,7 +14649,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - nie
 - nienúmero #
 - número de identificación
-- número nacional identidad
+- número nacional identidad
 - 개인 식별 번호
 - 개인 id 없음
 - 고유 id 번호
@@ -14849,13 +14698,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - 여권 #
-- 여권 #
+- 여권 #
 - passportid
 - passports
 - passportno
 - passport 아니요
 - passportnumber
-- 여권 번호
+- passport number
 - passportnumbers
 - 여권 번호
 
@@ -15005,9 +14854,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - spanishcifno #
 - spanishcifno
 - 세금 파일 번호
-- 세금 파일 번호
+- tax file number
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -15151,8 +14999,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicences
 - 드라이버 lic
 - 드라이버 driver'lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- driver license
+- driver licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - driverslic
@@ -15164,8 +15012,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers lic
 - 드라이버 driver'lics
 - drivers license
-- 드라이버 라이선스
-- 드라이버 라이선스
+- drivers licenses
+- drivers licence
 - 라이선스 드라이버
 - driver' lic
 - driver'lics
@@ -15187,9 +15035,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driver'slicences
 - 드라이버의 lic
 - 운전 driver'lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
+- driver's license
+- driver's licenses
+- driver's licence
 - 운전 라이선스
 - dl #
 - 된다 #
@@ -15240,9 +15088,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 운전 면허증 #
 - 운전의 라이선스 #
 - 운전 라이선스 #
-- driving licence
- 
-- 운전 면허
+- driving licence 
+- driving license
 - dlno #
 - driv lic
 - driv licen
@@ -15257,9 +15104,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 추진 하는 lic
 - 추진 라이선스
 - driving licence
-
 - driving licences
-
 - 추진 허용
 - dl 아니요
 - dlno
@@ -15332,7 +15177,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - i #
 - id 아니요
 - identification number
-
 - identifikationsnumret #
 - identifikationsnumret
 - identitetshandling
@@ -15538,11 +15382,10 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - personnummer
 - (nummer at&t id)
 - identifikation at&t
-- skattebetalarens identifikationsnummer
+- skattebetalarens identifikationsnummer
 - sverige 언급
 - 세금 파일
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -15599,7 +15442,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keyword_swift"></a>Keyword_swift
 
 - international organization for standardization 9362
-
 - iso 9362
 - iso9362
 - swift #
@@ -15607,34 +15449,21 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - swiftnumber
 - swiftroutingnumber
 - swift code
-
 - swift number #
-
 - swift routing number
-
 - bic number
-
 - bic code
-
 - bic #
 - bic #
 - bank identifier code
-
 - Organisation internationale de normalisation 9362
-
 - rapide #
-
 - code SWIFT
-
 - le numéro de swift
-
 - swift numéro d'acheminement
-
 - le numéro BIC
-
-- # <a name="bic"></a>BIC
+- # <a name="bic"></a>BIC
 - code identificateur de banque
-
 - SWIFTコード
 - SWIFT番号
 - BIC番号
@@ -15706,7 +15535,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 인
 - 보험 번호
 - personalidno #
-- 주민 등록 번호
+- social security number
 - 개인 id 번호
 - 개인 식별 번호
 - insuranceno #
@@ -15715,11 +15544,10 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - avs 번호
 - 개인 id 없음 versicherungsnummer
 - identifikationsnummer
-- einzigartige identität nicht
+- einzigartige identität nicht
 - sozialversicherungsnummer
 - id personnelle id
-- 
-numéro de sécurité sociale
+- numéro de sécurité sociale
 
    
 ## <a name="taiwan-national-identification-number"></a>대만식 국가 식별 번호
@@ -16196,26 +16024,19 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keyword_uk_nino"></a>Keyword_uk_nino
 
 - national insurance number
-
 - national insurance contributions
-
 - protection act
 - 소유권
-- 주민 등록 번호
+- social security number
 - insurance application
-
 - medical application
-
 - social insurance
-
 - medical attention
-
-- 소셜 보안
+- social security
 - great britain
-
 - NI 번호
 - NI (아니요)
-- 니 #
+- 니 #
 - 니 #
 - 소유권 #
 - insurancenumber
@@ -16267,7 +16088,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 세금 번호
 - 세금 파일
 - tax id
-
 - 세금 식별 아니요
 - 세금 식별 번호
 - 세금 없음 #
@@ -16287,11 +16107,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="format"></a>형식일
 
-8-17자리 숫자
+6-17 자리 숫자
 
 ### <a name="pattern"></a>패턴
 
-8-17자리 연속 숫자
+6-17 연속 숫자
 
 ### <a name="checksum"></a>제외
 
@@ -16528,41 +16348,33 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
 - Func_formatted_itin 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
-- 다음 중 하나 이상이 충족됩니다.
-    - Keyword_itin의 키워드가 발견되었습니다.
-    - Func_us_address 함수가 올바른 날짜 형식의 주소를 찾습니다.
-    - Func_us_date 함수가 올바른 날짜 형식의 날짜를 찾습니다.
-    - Keyword_itin_collaborative의 키워드가 발견되었습니다.
+- Keyword_itin의 키워드가 발견되었습니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - Func_unformatted_itin 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
-- 다음 중 하나 이상이 충족됩니다.
-    - Keyword_itin_collaborative의 키워드가 발견되었습니다.
-    - Func_us_address 함수가 올바른 날짜 형식의 주소를 찾습니다.
-    - Func_us_date 함수가 올바른 날짜 형식의 날짜를 찾습니다.
+- Keyword_itin의 키워드가 발견되었습니다.
+
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 65% 신뢰합니다.
+- Func_formatted_itin 또는 Func_unformatted_itin 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 
 ```xml
-<!-- U.S. Individual Taxpayer Identification Number (ITIN) -->
-<Entity id="e55e2a32-f92d-4985-a35d-a0b269eb687b" patternsProximity="300" recommendedConfidence="75">
-    <Pattern confidenceLevel="85">
+    <!-- U.S. Individual Taxpayer Identification Number (ITIN) -->
+    <Entity id="e55e2a32-f92d-4985-a35d-a0b269eb687b" patternsProximity="300" recommendedConfidence="75">
+      <Pattern confidenceLevel="85">
         <IdMatch idRef="Func_formatted_itin" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_itin" />
-          <Match idRef="Func_us_address" />
-          <Match idRef="Func_us_date" />
-          <Match idRef="Keyword_itin_collaborative" />
-        </Any>
-    </Pattern>
-    <Pattern confidenceLevel="75">
+        <Match idRef="Keyword_itin" />
+      </Pattern>
+      <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_unformatted_itin" />
         <Match idRef="Keyword_itin" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_itin_collaborative" />
-          <Match idRef="Func_us_address" />
-          <Match idRef="Func_us_date" />
-        </Any>
-    </Pattern>
-</Entity>
+      </Pattern>
+      <Pattern confidenceLevel="65">
+        <IdMatch idRef="Func_formatted_itin" />
+      </Pattern>
+      <Pattern confidenceLevel="65">
+        <IdMatch idRef="Func_unformatted_itin" />
+      </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
@@ -16573,6 +16385,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - tax id 
 - tax identification 
 - itin 
+- i.t.i.n.
 - ssn 
 - 언급 
 - social security 
@@ -16581,14 +16394,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - taxid 
 - individual taxpayer 
 
-#### <a name="keyword_itin_collaborative"></a>Keyword_itin_collaborative
-
-- License 
-- DL 
-- DOB 
-- 생년월일 
-- 생일 
-- Date of Birth 
 
 ## <a name="us-social-security-number-ssn"></a>미국 SSN (사회 보장 번호)
 
@@ -16764,10 +16569,10 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keyword_ukraine_passport_domestic"></a>Keyword_ukraine_passport_domestic
 
 - 우크라이나 여권
-- 여권 번호
+- passport number
 - passport 아니요
-- паспорт України
-- номер паспорта
+- паспорт України
+- номер паспорта
 - персональний
 
 
@@ -16814,7 +16619,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keyword_ukraine_passport_international"></a>Keyword_ukraine_passport_international
 
 - 우크라이나 여권
-- 여권 번호
+- passport number
 - passport 아니요
-- паспорт України
-- номер паспорта
+- паспорт України
+- номер паспорта

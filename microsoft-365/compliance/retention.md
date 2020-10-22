@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 6dedb3209d16d5d9f18c1277821270f973cc16a6
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: fe28e51aa7d93872e5683c3682c110275ece3d54
+ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398985"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48651432"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -276,7 +276,7 @@ Office 365 보안 및 규정 준수 센터에는 **정보 거버넌스** > **대
 |조건을 기준으로 보존 적용 <br /> -중요한 정보 유형, KQL 쿼리, 교육 가능한 분류자| 아니요 | 예 |
 |수동으로 보존 적용됨 | 아니요 | 예 |
 |최종 사용자를 위한 UI 존재 | 아니요 | 예 |
-|콘텐츠를 이동해도 유지됨 | 아니요 | 예, Microsoft 365 내 |
+|콘텐츠를 이동해도 유지됨 | 아니요 | 예, Microsoft 365 테넌트 내에서 지원됩니다. |
 |항목을 레코드로 선언| 아니요 | 예 |
 |레이블이 지정되거나 이벤트를 기반으로 보존 기간 시작 | 아니요 | 예 |
 |처리 검토 | 아니요| 예 |
@@ -353,27 +353,50 @@ Office 365 보안 및 규정 준수 센터에는 **정보 거버넌스** > **대
 
 - [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancerule)
 
+## <a name="when-to-use-retention-policies-and-retention-labels-or-ediscovery-holds"></a>보존 정책 및 보존 레이블 또는 eDiscovery 보류를 사용하는 경우
+
+[eDiscovery 사례를 사용하여 생성한 보류](create-ediscovery-holds.md)와 보존 설정 둘 다에서 데이터가 영구적으로 삭제되는 것을 방지할 수 있지만 다른 시나리오에 맞게 설계되었습니다. 차이점을 이해하고 사용할 항목을 결정하는 데 도움을 받으려면 다음 지침을 활용하세요.
+
+- 보존 정책 및 보존 레이블에 지정할 보존 설정은 장기적인 정보 관리 전략에 맞게 설계되어 규정 준수 요구 사항에 대한 데이터를 보존하거나 삭제합니다. 일반적으로 범위가 넓으며, 개별 사용자보다는 위치와 콘텐츠에 중점을 둡니다. 추가 관리자 개입 없이 콘텐츠를 자동으로 삭제하는 옵션을 사용하여 보존 기간의 시작과 끝을 구성할 수 있습니다.
+
+- eDiscovery를 위한 보류(Core eDiscovery 또는 Advanced eDiscovery 사례)는 제한된 기간 동안 법적 조사를 위해 데이터를 보존하도록 설계되었습니다. 범위는 확인된 사용자가 소유한 콘텐츠에 따라 다릅니다. 보존 기간의 시작과 끝은 구성할 수 없지만 보류가 해제될 때 콘텐츠를 자동으로 삭제하는 옵션이 없으면 개별 관리자 작업에 따라 달라집니다.
+
+보류와 보존을 비교하는 요약:
+
+|고려 사항|보존 |eDiscovery 보존|
+|:-----|:-----|:-----|:-----|
+|비즈니스 요구 사항: |규정 준수 |법률 정보 |
+|시간 범위: |장기 |단기 |
+|포커스: |광범위, 내용 기반 |특정, 사용자 기반 |
+|시작 및 종료일 구성 가능: |예 |아니요 |
+|콘텐츠 삭제: |예(선택 사항) |아니요 |
+|관리 오버 헤드: |낮음 |높음 |
+
+콘텐츠가 보존 설정과 eDiscovery 보류의 영향을 모두 받는 경우 eDiscovery 보류의 콘텐츠 보존이 항상 우선합니다. 이렇게 하면 [보존 원칙](#the-principles-of-retention-or-what-takes-precedence)은 관리자가 보류를 수동으로 릴리스할 때까지 데이터가 유지되기 때문에 eDiscovery 보류로 확장됩니다. 그러나 이러한 우선 순위에도 불구하고 장기적인 정보 거버넌스에 eDiscovery 보류를 사용하지 않습니다. 데이터 자동 삭제가 염려되는 경우 항목을 영구적으로 보존하도록 보존 설정을 구성하거나 보존 레이블과 함께 [처리 검토](disposition.md#disposition-reviews)를 사용할 수 있습니다.
+
+오래된 eDiscovery 도구를 사용하여 데이터를 보존하는 경우, 다음 리소스를 참조하세요.
+
+- Exchange: 
+    - [원본 위치 유지 및 소송 보존](https://go.microsoft.com/fwlink/?linkid=846124)
+    - [Exchange Online 사서함의 보류 유형을 식별하는 방법](https://docs.microsoft.com/microsoft-365/compliance/identify-a-hold-on-an-exchange-online-mailbox)
+
+- SharePoint 및 OneDrive: 
+    - [eDiscovery 센터에서 사례에 콘텐츠 추가 및 원본 우 위치 유지](https://docs.microsoft.com/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)
+
+- [eDiscovery 도구의 사용 중지](legacy-ediscovery-retirement.md)
+
 ## <a name="use-retention-policies-and-retention-labels-instead-of-older-features"></a>이전 기능 대신 보존 정책 및 보존 레이블 사용하기
 
-정보 거버넌스를 위해 Microsoft 365에서 콘텐츠를 사전에 보존하거나 삭제해야 하는 경우에는 다음과 같은 이전 기능 대신 보존 정책 및 보존 레이블을 사용하는 것이 좋습니다. 
-  
+정보 거버넌스를 위해 Microsoft 365에서 콘텐츠를 사전에 보존하거나 삭제해야 하는 경우에는 다음과 같은 이전 기능 대신 보존 정책 및 보존 레이블을 사용하는 것이 좋습니다.
+
 현재 이러한 이전 기능을 사용하는 경우 해당 기능은 보존 정책 및 레이블과 함께 계속해서 작동합니다. 하지만 앞으로는 보존 정책 및 보존 레이블을 사용하는 것이 좋습니다. Microsoft 365 전체에서 콘텐츠의 보존 및 삭제를 중앙에서 관리하는 단일 메커니즘을 제공합니다.
 
 **Exchange Online의 이전 기능:**
 
-- [원본 위치 유지 및 소송 보존](https://go.microsoft.com/fwlink/?linkid=846124)(eDiscovery 보류) 
-
-- [Exchange Online 사서함의 보류 유형을 식별하는 방법](identify-a-hold-on-an-exchange-online-mailbox.md)
-    
 - [보존 태그 및 보존 정책](https://go.microsoft.com/fwlink/?linkid=846125), [[MRM(메시징 레코드 관리)](https://go.microsoft.com/fwlink/?linkid=846126)라고도 함(삭제만 해당)
-    
-또한 [레거시 eDiscovery 도구의 사용 중지](legacy-ediscovery-retirement.md)도 참조하세요.
-
 
 **SharePoint 및 OneDrive의 이전 기능:**
 
-- [eDiscovery 센터에서 사례에 콘텐츠 추가 및 원본 우 위치 유지](https://docs.microsoft.com/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)(eDiscovery 보류) 
-    
 - [문서 삭제 정책](https://support.office.com/article/Create-a-document-deletion-policy-in-SharePoint-Server-2016-4fe26e19-4849-4eb9-a044-840ab47458ff)(삭제만 해당)
     
 - [현재 위치 레코드 관리 구성](https://support.office.com/article/7707a878-780c-4be6-9cb0-9718ecde050a) (보존만 해당) 
@@ -382,10 +405,6 @@ Office 365 보안 및 규정 준수 센터에는 **정보 거버넌스** > **대
     
 - [정보 관리 정책](intro-to-info-mgmt-policies.md) (삭제만 해당)
      
-이전에 정보 거버넌스 용도로 eDiscovery 보류를 사용한 적이 있는 경우 사전 규정 준수를 위해 보존 정책을 사용해야 합니다. 보류 전용으로 eDiscovery를 사용합니다.
-  
-### <a name="retention-policies-and-sharepoint-content-type-policies-or-information-management-policies"></a>보존 정책 및 SharePoint 콘텐츠 유형 정책 또는 정보 관리 정책
-
 콘텐츠 유형 정책 또는 정보 관리 정책에 대해 SharePoint 사이트를 구성하여 목록이나 라이브러리에 대한 콘텐츠를 보존하는 경우 보존 정책이 유효하는 동안 해당 정책은 무시됩니다. 
 
 ## <a name="related-information"></a>관련 정보

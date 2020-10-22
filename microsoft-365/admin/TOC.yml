@@ -82,7 +82,7 @@
           href: services-in-china/apply-for-a-fapiao.md
         - name: Azure Information Protection 패리티
           href: services-in-china/parity-between-azure-information-protection.md
-    - name: 사용자 및 그룹 관리
+    - name: '사용자, 그룹 및 암호 관리'
       href: add-users/index.yml
       items:
         - name: 사용자
@@ -109,14 +109,6 @@
               href: add-users/get-access-to-and-back-up-a-former-user-s-data.md
             - name: 사용자 복원
               href: add-users/restore-user.md
-            - name: 암호 다시 설정
-              href: add-users/reset-passwords.md
-            - name: 만료되지 않는 암호 설정
-              href: add-users/set-password-to-never-expire.md
-            - name: 사용자 암호 초기화 허용
-              href: add-users/let-users-reset-passwords.md
-            - name: 사용자 암호 재전송
-              href: add-users/resend-user-password.md
             - name: 서식 파일을 만들어 사용자 추가
               href: add-users/create-and-use-a-template-to-add-users.md
             - name: 사용자를 최신 앱으로 업그레이드합니다.
@@ -137,6 +129,20 @@
               href: create-groups/restore-deleted-group.md
             - name: 그룹에 대한 게스트 액세스 관리
               href: create-groups/manage-guest-access-in-groups.md
+        - name: 암호
+          items:
+            - name: 암호 다시 설정
+              href: add-users/reset-passwords.md
+            - name: 사용자 암호 초기화 허용
+              href: add-users/let-users-reset-passwords.md
+            - name: 만료되지 않는 암호 설정
+              href: add-users/set-password-to-never-expire.md
+            - name: 사용자 암호 재전송
+              href: add-users/resend-user-password.md
+            - name: 강력한 암호 해제
+              href: add-users/strong-password.md
+            - name: 암호 만료 정책 설정
+              href: manage/set-password-expiration-policy.md
     - name: 전자 메일 및 일정 관리
       href: email/index.yml
       items:
