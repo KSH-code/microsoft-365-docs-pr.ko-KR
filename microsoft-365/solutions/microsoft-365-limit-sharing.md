@@ -18,12 +18,12 @@ f1.keywords: NOCSH
 ms.custom: ''
 localization_priority: Priority
 description: Microsoft 365에서 공유를 제한하거나 해제할 수 있는 옵션에 대해 알아봅니다.
-ms.openlocfilehash: 7397078b6f347858e4ca91a0deeb9a1cf2fb6911
-ms.sourcegitcommit: d648356b27842e779921859480b1b405a1804c7c
+ms.openlocfilehash: 7ed9cc499e16de835c6ba96eb19bcc28a144b68b
+ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361908"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48651421"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Microsoft 365에서의 공유 제한
 
@@ -64,7 +64,7 @@ Teams에 대해 게스트 공유를 해제하려면
 Microsoft 365 그룹에서 게스트 액세스를 방지하려는 경우 Microsoft 365 관리 센터에서 그룹 게스트 액세스 설정을 해제할 수 있습니다.
 
 Microsoft 365 그룹에서 게스트 공유를 해제하려면
-1. Microsoft 365 관리 센터에서 **설정**을 클릭한 다음 **설정**을 클릭합니다.
+1. Microsoft 365 관리 센터에서 **설정**을 클릭한 다음 **조직 설정**을 클릭합니다.
 2. **서비스** 탭에서 **Microsoft 365 그룹**을 클릭합니다.
 3. **조직 외부의 그룹 구성원이 그룹 콘텐츠에 액세스할 수 있도록 허용** 및 **그룹 소유자가 조직 외부의 사람을 그룹에 추가하도록 허용** 확인란을 선택 취소합니다.
 4. **변경 내용 저장**을 클릭합니다.

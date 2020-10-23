@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: sirkkuw
 author: sirkkuw
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Microsoft 365 Business Standard 구독을 설정하는 방법을 알아보세요.
-ms.openlocfilehash: cfc198c749cfcaa76bc3fa6323e1dba8a46e7388
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+ms.openlocfilehash: e69a3c75d77a8b4721558e72526a068df643f284
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324449"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644558"
 ---
 # <a name="set-up-microsoft-business-standard"></a>Microsoft Business Standard 설정
 
@@ -40,7 +40,7 @@ Microsoft 365 Business Standard를 설정하는 방법에 대한 간단한 비�
 
 이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
   
- *이 단계는 **[Microsoft 365 Business Standard 요금제](https://go.microsoft.com/fwlink/p/?LinkId=627220)*** 를 보유하고 있는 비즈니스 및 [비영리 기관](https://go.microsoft.com/fwlink/p/?LinkId=627221)을 위한 것입니다.
+ *이 단계는 **[Microsoft 365 Business Standard 요금제](https://go.microsoft.com/fwlink/p/?LinkId=627220)** 를 보유하고 있는 비즈니스 및 [비영리 기관](https://go.microsoft.com/fwlink/p/?LinkId=627221)을 위한 것입니다.
 
 Microsoft 365 Business Standard(이전 Office 365 Business Premium) 를 설정하는 방법에 대한 간단한 비디오를 시청하세요.<br><br>
 
@@ -56,7 +56,7 @@ Microsoft 365 Business Standard를 구입하면 사용자가 소유하고 있는
 
 1. 전역 관리자 자격 증명을 사용하여 [Microsoft 365 관리 센터](https://admin.microsoft.com)에 로그인합니다. 
 
-2. **설정으로 이동**을 선택해 마법사를 시작합니다.
+2. _*설정으로 이동**을 선택해 마법사를 시작합니다.
 
 3. **Office 앱 설치** 페이지에서 컴퓨터에 선택적으로 앱을 설치할 수 있습니다.
     

@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자가 Microsoft 365 서비스를 사용하는 방식에 대한 주기적인 보고를 받을 수 있습니다. 사용 현황 개요 대시보드를 사용하면 각 차트에 대한 세부 정보를 확인할 수 있습니다.
-ms.openlocfilehash: e1748cf25fd36787727b0f00f6ddf6553bd454ab
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+ms.openlocfilehash: 4356b287afa56201da7cb644a4056d4c975964e5
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104455"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48637010"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
@@ -102,15 +102,23 @@ ms.locfileid: "48104455"
   
 - [Microsoft 365 그룹](office-365-groups.md)
   
-- [비즈니스용 OneDrive 사용자 활동](onedrive-for-business-activity.md)
-  
-- [비즈니스용 OneDrive 사용 현황](onedrive-for-business-usage.md)
+- [비즈니스용 OneDrive 사용자 활동](onedrive-for-business-activity-ww.md)
+
+- [미국 정부 기관용 비즈니스용 OneDrive 사용자 활동](onedrive-for-business-activity.md)
+
+- [비즈니스용 OneDrive 사용 현황](onedrive-for-business-usage-ww.md)
+
+- [미국 정부 기관용 비즈니스용 OneDrive 사용](onedrive-for-business-usage.md)
 
 - [Microsoft 365 앱 사용 현황](microsoft365-apps-usage.md)
   
-- [SharePoint 사이트 사용 현황](sharepoint-site-usage.md)
+- [SharePoint 사이트 사용 현황](sharepoint-site-usage-ww.md)
+
+- [미국 정부 기관용 SharePoint 사이트 사용 현황](sharepoint-site-usage.md)
   
-- [SharePoint 활동](sharepoint-activity.md)
+- [SharePoint 활동](sharepoint-activity-ww.md)
+
+- [미국 정부 기관용 SharePoint 활동](sharepoint-activity.md)
   
 - [Skype for Business Online activity](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online-reporting/activity-report)(비즈니스용 Skype Online 활동)
   
