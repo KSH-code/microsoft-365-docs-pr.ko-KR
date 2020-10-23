@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 더블 바이트 문자 집합에 대한 지원을 위한 릴리스 노트
-ms.openlocfilehash: 13bac873f2ba18bc166451ea73ec0d569fb30f68
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 1c2244c49a92aa2c00fad06caa8194cf7e32220e
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695269"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681504"
 ---
 # <a name="support-for-double-byte-character-set-release-notes-preview"></a>더블 바이트 문자 집합 릴리스 노트(미리보기)를 지원
 
@@ -29,15 +29,6 @@ ms.locfileid: "46695269"
 - 중국어(번체)
 - 한국어
 - 일본어
-
-이 미리 보기는 상용 클라우드에서만 실행되며 롤아웃은 다음으로 제한됩니다.
-
-- 일본
-- 한국
-- 중국
-- 홍콩
-- 마카오
-- 대만
 
 이 지원은 중요한 정보 유형 및 키워드 사전에서 사용할 수 있으며 데이터 손실 방지, 통신 규정 준수, Exchange 온라인, SharePoint 온라인, OneDrive for Business 및 Teams 솔루션에 반영됩니다.
 

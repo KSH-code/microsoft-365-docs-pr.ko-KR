@@ -17,16 +17,16 @@ appliesto:
 - Office 365 Personal
 - Office Online Server
 - Office Web Apps
-ms.openlocfilehash: 270d04974cec9c36fa31a77bda401375fdac0471
-ms.sourcegitcommit: 94f2f8e3e6bc3946d8b3cf798b3eb77a49ffd12a
+ms.openlocfilehash: ab3685883ac08522ab9ea1ee0cf194ba263d9166
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45148150"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681692"
 ---
 # <a name="tls-10-and-11-deprecation-for-office-365"></a>Office 365용 TLS 1.0 및 1.1 사용 중단
 > [!IMPORTANT]
-> Microsoft는 covid-19로 인해 상업용 고객을 위해 TLS 1.0 및 1.1의 사용 중단을 일시적으로 중지 했지만, 공급망이 조정 되 고 일부 국가에서 백업이 완료 됨에 따라 TLS 적용을 다시 설정 하 여 다시 2020 시작 하는 것이 좋습니다. 
+> Microsoft는 covid-19로 인해 상업용 고객에 대 한 TLS 1.0 및 1.1의 사용 중단을 일시적으로 중지 했지만, 공급망이 조정 되 고 일부 국가에서 백업이 진행 되는 동안 TLS 적용을 다시 설정 하는 경우에는 다음과 같은 주 및 달 동안, 즉, 2020가 다시 시작 됩니다. 
 
 2018 년 10 월 31 일까 지, Office 365 서비스에 대해 TLS (전송 계층 보안) 1.0 및 1.1 프로토콜이 더 이상 사용 되지 않습니다. 최종 사용자에 대 한 영향은 최소한으로 예상 됩니다. 이 변경 내용은 2 년 이상에 게 공개 되었으며 12 월 2017에 첫 번째로 발생 한 공지를 포함 합니다. 이 문서는 office 365 서비스와 관련 하 여 Office 365 로컬 클라이언트에만 적용 되는 것이 좋지만 Office 및 Office Online Server/Office Web Apps에 온-프레미스 TLS 문제에도 적용할 수 있습니다.
 
