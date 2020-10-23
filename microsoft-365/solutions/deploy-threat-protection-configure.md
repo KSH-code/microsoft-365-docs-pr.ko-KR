@@ -14,12 +14,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 5183e6f60d825ff523db4da165d16752b3aa3cc8
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 7699b31052ecc1bda33630fcf97e9d43875f4ae3
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399352"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681593"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Microsoft 365에서 위협 보호 기능 구성
 
@@ -194,5 +194,5 @@ Microsoft 365에서는 조직에서 사용자에 게 알릴 수 있도록 다음
 - Windows 10 및 Mac Pc에서 보안 기능 사용 (관리 되지 않는 장치)
     
 또한 사용자는 다음 문서에서 권장 하는 작업을 수행 하 여 개인 전자 메일 계정을 보호 하는 것이 좋습니다.
-- [Outlook.com 전자 메일 계정 보호](https://support.microsoft.com/en-us/office/help-protect-your-outlook-com-email-account-a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
+- [Outlook.com 전자 메일 계정 보호](https://support.microsoft.com/office/help-protect-your-outlook-com-email-account-a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
 - [2 단계 인증을 사용 하 여 Gmail 계정 보호](https://go.microsoft.com/fwlink/?linkid=2015688&amp;clcid=0x409)

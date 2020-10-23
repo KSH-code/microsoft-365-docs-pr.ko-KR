@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: 그룹, 팀 및 Yammer에 대 한 수명 주기 옵션의 끝입니다.
-ms.openlocfilehash: 3720f63f99711a09d02675f10a7d639fe1bedc65
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 31383287f3288cbab68d6e249f98210dec62af2f
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377178"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681713"
 ---
 # <a name="end-of-lifecycle-options-for-groups-teams-and-yammer"></a>그룹, 팀 및 Yammer의 수명 주기 옵션 끝
 
@@ -225,7 +225,7 @@ Dynamics 365 관리 센터를 사용 하 여 프로젝트의 [사용자 데이�
 **파일 이동**
 
 또한 파일을 다른 사이트의 라이브러리와 같이 SharePoint 내의 다른 위치로 이동할 수 있습니다.
-참고할 https://support.office.com/en-us/article/move-or-copy-files-in-sharepoint-00e2f483-4df3-46be-a861-1f5f0c1a87bc
+참고할 https://support.office.com/article/move-or-copy-files-in-sharepoint-00e2f483-4df3-46be-a861-1f5f0c1a87bc
 
 **목록 내보내기** SharePoint 목록에 저장 된 데이터를 [Excel 스프레드시트로 내보낸](https://support.office.com/article/bfb2ea48-6118-4fa9-abb6-cced9424e5d9)다음 다른 사이트의 목록으로 다시 가져올 수 있습니다.
 
