@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection) 및 Office 365 Advanced Threat Protection (Office 365 ATP)에서 사용할 수 있는 피싱 방지 정책에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 1aeff889f5ced6429e7721518527e6f6725bb18b
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: f8e00c6162a40d6d81a0ef72f0ec655a4234a588
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399208"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681671"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Microsoft 365의 피싱 방지 정책
 
@@ -30,7 +30,7 @@ ms.locfileid: "48399208"
 
 피싱 방지 보호 설정을 구성 하는 정책은 Exchange Online 사서함, 독립 실행형 EOP (Exchange Online Protection), Exchange Online 사서함이 없는 조직, Office 365 Advanced Threat Protection (Office 365 ATP) 조직이 있는 Microsoft 365 조직에서 사용할 수 있습니다.
 
-ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 수 있습니다. 예시:
+ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 수 있습니다. 예제:
 
 - Microsoft 365 Enterprise E5, Microsoft 365 교육 A5 등입니다.
 - [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)
@@ -164,6 +164,9 @@ ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 
   목록 **보호를 위해 사용자** 에 게 내부 또는 외부 전자 메일 주소를 추가 하는 경우 해당 **보낸 사람이** 보낸 메시지는 가장 하는 보호 검사의 대상이 됩니다. 정책이 적용 되는 **받는 사람** 에 게 메시지를 보내는 경우 (기본 정책의 모든 받는 사람) 메시지를 가장 **하는지 여부** 를 확인 합니다. 사용자 지정 정책의 받는 사람 **에 게 적용** 됨). 보낸 사람의 전자 메일 주소에서 가장이 검색 되 면 사용자에 대 한 가장 보호 작업이 메시지에 적용 됩니다 (메시지의 경우 수행할 작업, 가장 된 사용자의 보안 팁 표시 여부 등).
 
 - **보호할 도메인**: **메시지 보낸 사람의 도메인에서**지정 된 도메인이 가장 되지 않도록 합니다. 예를 들어 소유한 모든 도메인 ([허용 도메인](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)) 또는 특정 도메인 (사용자가 소유한 도메인 또는 파트너 도메인) 가장을 통해 보호 되는 **보낸 사람 도메인** 목록은 정책이 적용 되는 **받는 사람** 목록 (기본 정책의 모든 받는 사람, [정책 설정](#policy-settings) 섹션의 **적용 대상** 설정에 구성 된 특정 받는 사람)과 다릅니다.
+
+  > [!NOTE]
+  > 모든 피싱 방지 정책에서 정의할 수 있는 보호 된 도메인의 최대 수는 50입니다. 즉, 50 보호 된 도메인은 한 정책에, 5 개 정책에서는 10 개의 보호 된 도메인 등을 가질 수 있습니다.
 
   기본적으로 도메인에서 가장을 보호 **하기**위해 보낸 사람 도메인은 구성 되지 않습니다. 따라서 기본적으로 보낸 사람 도메인은 기본 정책 또는 사용자 지정 정책에 의해 가장 보호에 포함 되지 않습니다.
 

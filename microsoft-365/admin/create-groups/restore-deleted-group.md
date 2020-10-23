@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: 삭제 된 Microsoft 365 그룹을 복원 하는 방법을 알아봅니다.
-ms.openlocfilehash: 8fb2cb3afdf390efae7854a040bb56df731cceaf
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 30e267a149bc18c2425d4ea38423b887116794c6
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307190"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681649"
 ---
 # <a name="restore-a-deleted-group"></a>삭제 된 그룹 복원
 
@@ -35,6 +35,9 @@ ms.locfileid: "47307190"
 > 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
+
+> [!NOTE]
+> 이 문서에서는 Microsoft 365 그룹만 복원에 대해 설명 합니다. 다른 모든 그룹은 삭제 한 후에 복원할 수 없습니다.
 
 그룹을 삭제 한 경우에는 기본적으로 30 일간 보존 됩니다. 이 30 일의 기간은 여전히 그룹을 복원할 수 있기 때문에 "일시 삭제"로 간주 됩니다. 30 일이 지나면 그룹 및 관련 내용이 영구적으로 삭제 되며 복원할 수 없습니다.
 

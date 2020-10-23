@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: 중앙 집중식 배포를 사용 하 여 Office 추가 기능을 배포할 수 있도록 테 넌 트 및 사용자가 요구 사항을 충족 하는지 확인 합니다.
-ms.openlocfilehash: c89cb801a5b2fcad87227feaf4228b0dcabcf609
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: af7a127d438e81d6ecd025b6a71b9d7e5df2ecc8
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464053"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681627"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 맞게 작동 하는지 확인
 
@@ -45,7 +45,7 @@ ms.locfileid: "48464053"
   
 ## <a name="requirements"></a>요구 사항
 
-추가 기능의 중앙 집중식 배포에서는 사용자가 Microsoft 365 앱 for enterprise 또는 Microsoft 365 Business Premium을 사용 하 고 있으며, 조직 ID를 사용 하 여 Office에 로그인 하 고, Exchange Online 및 active Exchange Online 사서함이 있어야 합니다. 구독 디렉터리는 내에 있거나 Azure Active Directory에 페더레이션 되어 있어야 합니다.
+추가 기능의 중앙 집중식 배포를 사용 하려면 사용자가 microsoft 365 앱 for Microsoft 365 for business for enterprise, 또는 비즈니스용 Microsoft 365 (그리고 조직 ID를 사용 하 여 Office에 로그인 해야 함)가 필요 하며 Exchange Online 및 active Exchange Online 사서함이 있어야 합니다. 구독 디렉터리는 내에 있거나 Azure Active Directory에 페더레이션 되어 있어야 합니다.
 아래의 Office 및 Exchange에 대 한 특정 요구 사항을 보거나 [중앙 집중식 배포 호환성 검사](#centralized-deployment-compatibility-checker)를 사용할 수 있습니다.
 
 중앙 집중식 배포는 다음을 지원하지 않습니다.
@@ -61,11 +61,11 @@ ms.locfileid: "48464053"
 ### <a name="office-requirements"></a>Office 요구 사항
 
 - Word, Excel 및 PowerPoint 추가 기능의 경우 사용자는 다음 중 하나를 사용 해야 합니다.
-  - Windows 장치에서 Microsoft 365 Apps for enterprise 또는 Microsoft 365 Business Premium의 버전 1704 이상입니다.
+  - Windows 장치에서 enterprise 용 microsoft 365 365 앱의 버전 1704 이상 또는 비즈니스용 Microsoft 365.
   - Mac의 경우 버전 15.34 이상입니다.
 
 - Outlook의 경우 사용자는 다음 중 하나를 사용 해야 합니다. 
-  - Microsoft 365 Apps for enterprise 또는 Microsoft 365 Business Premium 버전 1701 이상
+  - Microsoft 365 for enterprise 용 microsoft 365 앱 또는 비즈니스용 Microsoft 365 (버전 1701 이상)
   - Office Professional Plus 2019 또는 Office Standard 2019 버전 1808 이상
   - Office Professional Plus 2016 (MSI) 또는 Office Standard 2016 (MSI) 버전 16.0.4494.1000 이상\*
   - Office Professional Plus 2013 (MSI) 또는 Office Standard 2013 (MSI) 버전 15.0.4937.1000 이상\*
