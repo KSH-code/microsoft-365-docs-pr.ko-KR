@@ -634,6 +634,8 @@
               href: attorney-privilege-detection.md
             - name: 대화 검토 집합
               href: conversation-review-sets.md
+            - name: CJK 언어 지원
+              href: ediscovery-cjk-support.md
             - name: eDiscovery 사용 권한 할당
               href: assign-ediscovery-permissions.md
             - name: 키워드 쿼리 및 검색 조건
