@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 용 PowerShell 시작
+title: Microsoft 365용 PowerShell 시작
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -16,19 +16,19 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: 4712d6fd-d9c7-4ec2-88c1-3ad9201cbb7f
-description: '요약: Microsoft 365에 대 한 PowerShell의 가치를 이해 하 고 Microsoft 365 테 넌 트에 연결 하 여 도움말을 확인 하세요.'
-ms.openlocfilehash: 3a57e5188dd4161442ee722a14c2546ef28ccb01
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+description: '요약: Microsoft 365의 PowerShell 값, Microsoft 365 테 넌 트에 연결 하는 방법 및 도움말을 얻는 위치를 이해 합니다.'
+ms.openlocfilehash: 850d3eea1aa23937bf30795784405119ef6c167c
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429977"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754459"
 ---
-# <a name="get-started-with-powershell-for-microsoft-365"></a>Microsoft 365 용 PowerShell 시작
+# <a name="get-started-with-powershell-for-microsoft-365"></a>Microsoft 365용 PowerShell 시작
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft 365 용 PowerShell의 명령 및 스크립트를 사용 하 여 Microsoft 365를 관리 하 고 일상의 작업을 간소화할 수 있습니다. Microsoft 365를 관리 하 고 microsoft 365 구독에 연결 하 고 보고서를 만드는 방법 및 Microsoft 365 커뮤니티에서 추가 정보 및 도움을 얻는 데 중요 한 365 이유를 설명 합니다.
+Microsoft 365 용 PowerShell의 명령 및 스크립트를 사용 하 여 Microsoft 365를 관리 하 고 일상의 작업을 간소화할 수 있습니다. 다음 정보를 사용 하 여 microsoft 365를 관리 하 고 microsoft 365 구독에 연결 하 고 보고서를 만드는 방법 및 Microsoft 365 커뮤니티에서 자세한 정보를 얻을 수 있는 위치에 365 대해 알아봅니다.
   
 다음 항목 중에서 선택 합니다.
   
@@ -54,7 +54,7 @@ Microsoft 365 용 PowerShell의 명령 및 스크립트를 사용 하 여 Micros
     
 - [**PowerShell 용 Microsoft 365 커뮤니티 리소스**](microsoft-365-powershell-community-resources.md)
     
-    PowerShell 커뮤니티에 연결 하 여 Microsoft 365 용 PowerShell을 사용 하는 방법에 대 한 도움말을 확인 하려면 여기에서 시작 하세요.
+    PowerShell 커뮤니티에 연결 하 고 Microsoft 365 용 PowerShell 사용에 대 한 자세한 정보를 얻으려면 여기에서 시작 합니다.
     
 ## <a name="related-topics"></a>관련 항목
 

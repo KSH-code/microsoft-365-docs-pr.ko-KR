@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 06/17/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,14 +14,14 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: 가상의 대표적인 글로벌 조직에서 기업에 대해 Microsoft 365을 채택한 방식입니다.
-ms.openlocfilehash: 87dd725612ad3dfe422293b28d9643a50f9b1e05
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 980146a2a9c2a909d0b65c20e460841dce9fecee
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637226"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754671"
 ---
-# <a name="microsoft-365-for-enterprise-for-contoso-corporation"></a>Contoso Corporation의 엔터프라이즈에 대 한 Microsoft 365
+# <a name="microsoft-365-for-enterprise-for-the-contoso-corporation"></a>Contoso Corporation에 대 한 엔터프라이즈에 대 한 Microsoft 365
 
 엔터프라이즈에 대 한 microsoft 365는 Windows 10 Enterprise 및 고급 보안 기능과 함께 로컬 및 클라우드 기반 생산성 앱 및 서비스를 결합 하는 Microsoft 프리미어 클라우드 제공입니다. 모든 사용자가 creatively 및 안전 하 게 함께 작업할 수 있도록 하는 완벽 한 지능형 솔루션입니다.
 
@@ -36,7 +35,9 @@ Contoso Corporation은 파리에 있는 가상의 대표적인 글로벌 제조 
 
   Contoso는 10만 개 이상의 제품이 포함 된 글로벌 제조, 판매 및 지원 조직입니다.
 
-- [CONTOSO IT 인프라 및 요구 사항](contoso-infra-needs.md) Contoso는 온-프레미스 중앙 IT 인프라에서 클라우드 기반 개인 생산성 워크 로드, 응용 프로그램 및 하이브리드 시나리오를 통합 하는 클라우드 포함 설정으로 전환 하 고 있습니다.
+- [Contoso의 IT 인프라 및 요구 사항](contoso-infra-needs.md)
+
+  Contoso는 온-프레미스 중앙 IT 인프라에서 클라우드 기반 개인 생산성 워크 로드, 응용 프로그램 및 하이브리드 시나리오를 통합 하는 클라우드 포함 설정으로 전환 하 고 있습니다.
 
 - [네트워킹](contoso-networking.md)
 
@@ -48,11 +49,11 @@ Contoso Corporation은 파리에 있는 가상의 대표적인 글로벌 제조 
 
 - [Windows 10 Enterprise](contoso-win10.md)
 
-  Contoso Windows 10 Enterprise 인프라는 회사의 기본 PC 및 장치 운영 체제를 실행 하는 장치에 대 한 업데이트를 배포 하 고 자동으로 설치 합니다.
+  Windows 10 Enterprise 용 Contoso 인프라는 회사의 기본 PC 및 장치 운영 체제를 실행 하는 장치에 대 한 업데이트를 배포 하 고 자동으로 설치 합니다.
 
 - [Microsoft Office 365 ProPlus](contoso-o365pp.md)
 
-  엔터프라이즈에 대 한 Contoso Microsoft 365 앱의 인프라를 배포 하 고 Microsoft Office 제품의 생산성 소프트웨어에 대 한 업데이트를 자동으로 설치 합니다.
+  엔터프라이즈 용 Microsoft 365 용 Contoso 인프라 앱 배포 및 Microsoft Office 제품군 소프트웨어에 대 한 업데이트를 자동으로 설치 합니다.
 
 - [모바일 장치 관리](contoso-mdm.md)
 
@@ -76,10 +77,10 @@ Contoso Corporation은 파리에 있는 가상의 대표적인 글로벌 제조 
 
 ## <a name="next-step"></a>다음 단계
 
-Microsoft 365 for enterprise를 배포할 때 제기 된 Contoso Corporation 및 디자인 고려 사항에 [대해 알아봅니다](contoso-overview.md) .
+Microsoft 365 for enterprise를 배포할 때 제기 된 [Contoso Corporation](contoso-overview.md) 및 디자인 고려 사항에 대해 알아봅니다.
 
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 

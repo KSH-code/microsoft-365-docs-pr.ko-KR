@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso 온-프레미스 IT 인프라의 기본 구조와 기업에 대 한 Microsoft 365에서 회사의 비즈니스 요구 사항을 충족 하는 방법을 이해 합니다.
-ms.openlocfilehash: bc2b34254da01a3d49085082ab8ee8632df2d434
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 767374097efa116f116cff6f6ddf96d075eb71ed
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637178"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754589"
 ---
 # <a name="contoso-it-infrastructure-and-business-needs"></a>Contoso IT 인프라 및 비즈니스 요구 사항
 
@@ -30,12 +29,10 @@ Contoso는 온-프레미스 중앙 IT 인프라에서 클라우드 기반 개인
 
 Contoso는 주로 중앙 집중식 온-프레미스 IT 인프라를 사용하며, 응용 프로그램 데이터 센터는 파리 본사에 있습니다.
 
-그림 1은 응용 프로그램 데이터 센터, DMZ 및 인터넷이 포함 된 본사 사무실을 보여 줍니다.
+여기에는 응용 프로그램 데이터 센터, DMZ 및 인터넷이 포함 된 본사 office가 있습니다.
 
 ![기존 Contoso IT 인프라](../media/contoso-infra-needs/contoso-infra-needs-fig1.png)
 
-**그림 1: 기존 Contoso IT 인프라**
- 
 온-프레미스 응용 프로그램 데이터 센터에서는 다음과 같은 것들을 호스팅합니다. 
 
 - SQL Server 및 기타 Linux 데이터베이스를 사용 하는 사용자 지정 lob (기간 업무) 응용 프로그램
@@ -125,7 +122,7 @@ Contoso IT 부서는 배포 전에 Microsoft 365 E5 기능에 다음과 같은 �
 |  | 원격 및 모바일 작업자의 생산성 향상 | Microsoft 365 워크로드 및 클라우드 기반 데이터 |
 |  | 창의성 및 혁신 증대 | Windows Ink, Cortana at Work, PowerPoint |
 | 보안 |  |  |
-|  | ID & 액세스 관리 | MFA (Multi-factor Authentication) 및 Azure Active Directory 권한이 있는 Id 관리 (PIM)를 사용 하는 전용 전역 관리자 계정 <BR> 모든 사용자 계정에 대한 MFA <BR> 조건부 액세스 <BR> Windows Hello <BR> Windows Credential Guard |
+|  | ID 및 액세스 관리 | MFA (Multi-factor Authentication) 및 Azure Active Directory 권한이 있는 Id 관리 (PIM)를 사용 하는 전용 전역 관리자 계정 <BR> 모든 사용자 계정에 대한 MFA <BR> 조건부 액세스 <BR> Windows Hello <BR> Windows Credential Guard |
 |  | 위협 방지 | Advanced Threat Analytics <BR> Windows Defender <BR> Advanced Threat Protection <BR> Office 365 Advanced Threat Protection <BR> Microsoft 365 위협 조사 및 대응 <BR> |
 |  | 정보 보호 | Azure Information Protection <BR> DLP(데이터 손실 방지) <BR> WIP(Windows Information Protection) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
 |  | 보안 관리 | Azure Security Center  <BR> Windows Defender 보안 센터 |
@@ -136,12 +133,12 @@ Contoso IT 부서는 배포 전에 Microsoft 365 E5 기능에 다음과 같은 �
 | 규정 준수 |  |  |
 |  | 지역별 규정 준수 | Microsoft 365의 GDPR 기능 |
 | 관리 |  |  |
-|  | 클라이언트 업데이트 설치에 대 한 IT 오버 헤드 감소 | 배포 링 <BR> Windows 10 Enterprise 업데이트 <BR> Microsoft Office 365 ProPlus 업데이트 |
+|  | 클라이언트 업데이트 설치에 대 한 IT 오버 헤드 감소 | Windows 10 Enterprise 업데이트 <BR> Microsoft Office 365 ProPlus 업데이트 |
 ||||
 
 ## <a name="next-step"></a>다음 단계
 
-Contoso Corporation 온-프레미스 네트워크와 Microsoft 365 클라우드 기반 리소스에 대 한 액세스 및 대기 시간에 최적화 된 방식을 [알아봅니다](contoso-networking.md) .
+Contoso Corporation [온-프레미스 네트워크](contoso-networking.md) 와 Microsoft 365 클라우드 기반 리소스에 대 한 액세스 및 대기 시간에 최적화 된 방식을 알아봅니다.
 
 ## <a name="see-also"></a>참고 항목
 

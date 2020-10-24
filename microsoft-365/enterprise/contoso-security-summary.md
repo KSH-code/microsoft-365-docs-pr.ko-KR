@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 기업에 대 한 Microsoft 365의 보안 기능을 사용 하는 방법
-ms.openlocfilehash: 635336b70318acdd4ed013a2705691d160926e84
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: d84b1423497a6a4358142902c4e159cc54b3500b
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48649704"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754235"
 ---
 # <a name="summary-of-microsoft-365-for-enterprise-security-for-the-contoso-corporation"></a>Contoso Corporation의 엔터프라이즈 보안용 Microsoft 365 요약
 
@@ -40,7 +40,7 @@ Contoso는 다음 단계를 수행 하 여 기업에 대 한 Microsoft 365 배�
 
 1. 클라우드의 관리자 계정 제한
 
-   Contoso는 기존 AD DS (Active Directory 도메인 서비스) 관리자 계정을 광범위 하 게 검토 했으며, 일련의 전용 클라우드 관리자 계정 및 그룹을 설정 했습니다.
+   Contoso는 기존 AD DS (Active Directory 도메인 서비스) 관리자 계정을 광범위 하 게 검토 하 고 전용 클라우드 관리자 계정 및 그룹을 설정 했습니다.
 
 2. 데이터를 세 가지 보안 수준으로 분류
 

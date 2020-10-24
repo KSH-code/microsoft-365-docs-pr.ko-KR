@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso가 Microsoft 365의 정보 보호 기능을 사용 하 여 클라우드의 디지털 자산을 보호 하는 방법을 이해 합니다.
-ms.openlocfilehash: 51740db9a0bb2e770e959fe8d9dcde15c042f5b8
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: a1aa08a20d284d3a003f4a406c37f2107ce19bd1
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637238"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754608"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Contoso Corporation의 정보 보호
 
@@ -113,9 +113,9 @@ Exchange Online 및 SharePoint 배포의 일환으로 Contoso는 다음과 같�
 
 ## <a name="next-step"></a>다음 단계
 
-Contoso에서 id 및 액세스 관리, 위협 방지, 정보 보호 및 보안 관리를 위해 Microsoft 365의 보안 기능을 사용 하는 방법을 [참조 하세요](contoso-security-summary.md) .
+Contoso에서 id 및 액세스 관리, 위협 방지, 정보 보호 및 보안 관리를 위해 [Microsoft 365의 보안 기능](contoso-security-summary.md) 을 사용 하는 방법을 알아봅니다.
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [보안 로드맵](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)
 

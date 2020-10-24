@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso 365에서 microsoft Intune을 사용 하 여 기업에 대해 실행 되는 앱과 장치를 관리 하는 방법을 이해 합니다.
-ms.openlocfilehash: d3f973827a9b05a415efe9225a2bdb3d83ccaf38
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 6d7783e8c2d9b78b63bf9eefe761fbc52d0b280f
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48649648"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754000"
 ---
 # <a name="mobile-device-management-for-contoso"></a>Contoso의 모바일 장치 관리
 
@@ -71,9 +70,9 @@ Contoso는 해당 하는 Intune 장치 그룹에 Pc 및 회사 소유의 스마�
 
 ## <a name="next-step"></a>다음 단계
 
-Contoso에서 기업에 대 한 Microsoft 365의 정보 보호 기능을 사용 하 여 조직에서 중요 한 디지털 자산을 분류, 식별 및 보호 하는 방법을 [알아봅니다](contoso-info-protect.md) .
+Contoso에서 기업에 대 한 Microsoft 365의 [정보 보호 기능](contoso-info-protect.md) 을 사용 하 여 조직에서 중요 한 디지털 자산을 분류, 식별 및 보호 하는 방법을 알아봅니다.
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [Microsoft 365에 대 한 장치 관리](device-management-roadmap-microsoft-365.md)
 

@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso 네트워킹 인프라와 회사에서 엔터프라이즈 클라우드 서비스용 Microsoft 365에 대 한 최적의 네트워킹 성능을 위해 SD WAN 기술을 사용 하는 방법을 이해 합니다.
-ms.openlocfilehash: ca673e6dcbf0f3db4bde33d388598e5f4ffac914
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: d5f3581b81d33bdc200321692b82d57a96d09298
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637190"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754017"
 ---
 # <a name="networking-for-the-contoso-corporation"></a>Contoso Corporation에 대한 네트워킹
 
@@ -117,7 +116,7 @@ Contoso 사용자의 엔터프라이즈 서비스용 Microsoft 365을 성공적�
 
 ## <a name="next-step"></a>다음 단계
 
-Contoso가 어떻게 직원을 위해 클라우드에서 온-프레미스 활성 디렉터리 도메인 서비스 (AD DS)를 활용하고, 고객 및 비즈니스 파트너의 인증을 페더레이션하는지 [알아봅니다](contoso-identity.md).
+Contoso가 직원을 위해 [클라우드에서 온-프레미스 Active Directory 도메인 서비스를 활용](contoso-identity.md) 하 고 고객 및 비즈니스 파트너에 대 한 인증을 페더레이션 하는 방법을 알아봅니다.
 
 ## <a name="see-also"></a>참고 항목
 

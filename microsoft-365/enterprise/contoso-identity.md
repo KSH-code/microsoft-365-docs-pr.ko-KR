@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso가 IDaaS(Identity as a Service)를 활용하고 직원을 위해 클라우드 기반 인증을 제공하고, 파트너 및 고객을 위해 페더레이션 인증을 제공하는 방법을 알아봅니다.
-ms.openlocfilehash: 10db0a35024595c4dba9a33ad83ae75bcad3870c
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: dea0f53ef1c3fdc2ea32256303c6120c614c904d
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637250"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754644"
 ---
 # <a name="identity-for-the-contoso-corporation"></a>Contoso Corporation의 ID
 
@@ -43,7 +42,7 @@ Contoso는 다음을 허용합니다.
 - 고객은 Microsoft, Facebook 또는 Google Mail 계정을 사용 하 여 회사의 공용 웹 사이트에 로그인 할 수 있습니다.
 - 공급 업체 및 파트너가 LinkedIn, Salesforce 또는 Google Mail 계정을 사용 하 여 회사의 파트너 엑스트라넷에 로그인 할 수 있습니다.
 
-다음은 공용 웹 사이트, 파트너 엑스트라넷 및 AD FS 서버 집합을 포함 하는 Contoso DMZ입니다. DMZ는 고객, 파트너 및 인터넷 서비스가 포함 된 인터넷에 연결 됩니다.
+다음은 공용 웹 사이트, 파트너 엑스트라넷 및 AD FS (Active Directory Federation Services) 서버 집합을 포함 하는 Contoso DMZ입니다. DMZ는 고객, 파트너 및 인터넷 서비스가 포함 된 인터넷에 연결 됩니다.
 
 ![Contoso 고객 및 파트너에 대 한 페더레이션 인증 지원](../media/contoso-identity/contoso-identity-fig2.png)
  
@@ -77,7 +76,7 @@ Contoso는 다음 세 가지 보호 수준에서 Azure AD 및 Intune [조건부 
  
 ## <a name="next-step"></a>다음 단계
 
-Contoso에서 Microsoft 끝점 구성 관리자 인프라를 사용 하 여 조직 전체에 최신 Windows 10 Enterprise를 배포 하 고 유지 하는 방법을 [알아봅니다](contoso-win10.md) .
+Contoso에서 Microsoft 끝점 구성 관리자 인프라를 사용 하 여 조직 전체에 [최신 Windows 10 Enterprise를 배포 하 고 유지](contoso-win10.md) 하는 방법을 알아봅니다.
 
 ## <a name="see-also"></a>참고 항목
 

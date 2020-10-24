@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 Microsoft Endpoint Configuration Manager를 사용하여 엔터프라이즈용 Microsoft 365 앱을 배포하는 방식을 이해합니다.
-ms.openlocfilehash: 63993a27f23843fd2d75ef9bf08ae064ec46dc77
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 2c02c28ddba7c24592ce09d87bf6f5c9df700a2a
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637166"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754357"
 ---
 # <a name="microsoft-365-apps-for-enterprise-deployment-for-contoso"></a>Contoso용 엔터프라이즈용 Microsoft 365 앱 배포
 
@@ -40,7 +39,7 @@ Contoso는 Pc를 Windows 10 Enterprise로 업그레이드 하 고 Microsoft 365 
 - 지능형 언어 팩 배포 (운영 체제와 동일한 언어를 자동으로 배포 하는 작업)
 - 배포 중에 클라이언트에서 기존 버전의 Office를 제거 하기 위해 완벽 하 게 지원 되 고 사용이 편리한 방법입니다.
 
-Contoso는 Configuration Manager 외에도 Microsoft에서 제공 하는 무료 도구로 office 매크로 및 추가 기능에 대 한 호환성 문제를 평가 하는 데 사용 되는 [추가 기능 및 VBA의 준비 도구 키트](https://docs.microsoft.com/deployoffice/readiness-toolkit-application-compatibility-microsoft-365-apps)를 사용해 서 있었습니다.
+Contoso는 Configuration Manager 외에도 Microsoft에서 제공 하는 무료 도구로 office 매크로 및 추가 기능에 [대 한](https://docs.microsoft.com/deployoffice/readiness-toolkit-application-compatibility-microsoft-365-apps)호환성 문제를 평가 합니다
 
 ## <a name="managing-deployment-and-updates"></a>배포 및 업데이트 관리
 
@@ -79,9 +78,9 @@ Contoso는 자동으로 클라우드로부터 장치를 업데이트하도록 �
  
 ## <a name="next-step"></a>다음 단계
 
-Contoso가 Microsoft 365의 microsoft Intune을 사용 하 여 해당 장치 및 조직 전체에서 실행 하는 앱을 관리 하는 방법을 [알아봅니다](contoso-mdm.md) .
+Contoso가 Microsoft 365의 microsoft [Intune을 사용 하 여](contoso-mdm.md) 해당 장치 및 조직 전체에서 실행 하는 앱을 관리 하는 방법을 알아봅니다.
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [Microsoft Office 365 ProPlus](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
 

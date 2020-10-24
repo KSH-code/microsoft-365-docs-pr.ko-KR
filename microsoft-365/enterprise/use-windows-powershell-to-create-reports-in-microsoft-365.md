@@ -16,28 +16,25 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 1ea4d4ec-af89-496f-9678-701867f5a6fc
 description: '요약: microsoft 365 용 PowerShell을 사용 하 여 Microsoft 365 관리 센터에서 생성할 수 없는 보고서를 만듭니다.'
-ms.openlocfilehash: 99aa86b1b58b15c63803e1b71d071cbde5c38492
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 10000f62b1d6a747cf0373623c6038b080666e1a
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692614"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753981"
 ---
 # <a name="use-powershell-to-create-reports-for-microsoft-365"></a>PowerShell을 사용하여 Microsoft 365 보고서 만들기
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft 365 관리 센터에서는 다양한 보고서가 제공됩니다. 그러나 이러한 보고서에는 제공되는 정보가 너무 많거나 부족할 수도 있습니다. Microsoft 365 용 PowerShell이 필요한 경우
+Microsoft 365 관리 센터에서는 다양 한 보고서를 사용할 수 있습니다. 그러나 이러한 보고서는 많은 정보를 제공 하며 필요한 경우도 있습니다. Microsoft 365 용 PowerShell이 필요한 경우에는이 방법을 사용할 수 있습니다.
   
-다음 문서에서는 Microsoft 365 용 PowerShell을 사용 하 여 Microsoft 365 테 넌 트에서 정보를 가져오는 방법을 설명 합니다.
+이러한 문서에서는 microsoft 365 용 PowerShell을 사용 하 여 Microsoft 365 테 넌 트에서 정보를 가져오는 방법을 설명 합니다.
   
-- Microsoft 365 용 PowerShell을 사용 하 여 보고 기능을 시작 합니다.
+- Microsoft 365 용 PowerShell을 사용 하 여 보고 작업 시작:
     
-  - [Microsoft 365 용 PowerShell을 사용 하면 관리 센터에서는 볼 수 없는 추가 정보를 확인할 수 있습니다.](https://technet.microsoft.com/library/dn568034.aspx#reveal)
+  - [Microsoft 365 용 PowerShell을 사용해야 하는 이유](https://technet.microsoft.com/library/dn568034.aspx#reveal)
     
-  - [Microsoft 365 용 PowerShell은 데이터를 필터링 하는 데 유용 합니다.](https://technet.microsoft.com/library/dn568034.aspx#filter)
-    
-  - [Microsoft 365 용 PowerShell을 사용 하면 데이터를 쉽게 인쇄 하거나 저장할 수 있습니다.](https://technet.microsoft.com/library/dn568034.aspx#printsave)
     
 - 사용자 계정 및 라이선스에 대한 보고서:
     
@@ -53,21 +50,20 @@ Microsoft 365 관리 센터에서는 다양한 보고서가 제공됩니다. 그
     
   - [SharePoint Online 관리 셸 시작하기](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
     
-  - [PowerShell을 사용 하 여 SharePoint Online 사이트 그룹 관리](https://technet.microsoft.com/library/122f4099-c78d-4cce-bab0-4343b04596ae.aspx)
+  - [Get-Remove-spositegroup-지정 된 사이트 모음의 모든 그룹을 가져옵니다.](https://technet.microsoft.com/library/122f4099-c78d-4cce-bab0-4343b04596ae.aspx)
     
 - Exchange Online용 보고서:
     
-  - [PowerShell을 사용하여 Exchange Online 사서함 정보 표시](https://technet.microsoft.com/library/13843002-56ca-4b75-81c5-84386522b01b.aspx)
+  - [Exchange Online PowerShell을 사용 하 여 사서함 표시](https://technet.microsoft.com/library/13843002-56ca-4b75-81c5-84386522b01b.aspx)
     
-  - [PowerShell 사용하여 Exchange Online 보고서 표시](https://technet.microsoft.com/library/4873a063-9fc4-4ed9-826a-6e935fef61d4.aspx)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-articlesl"></a>관련 articlesl
 
 [PowerShell로 Microsoft 365 관리](manage-microsoft-365-with-microsoft-365-powershell.md)
   
-[Microsoft 365 용 PowerShell 시작](getting-started-with-microsoft-365-powershell.md)
+[Microsoft 365용 PowerShell 시작](getting-started-with-microsoft-365-powershell.md)
   
-[PowerShell로 SharePoint 온라인 관리](manage-sharepoint-online-with-microsoft-365-powershell.md)
+[PowerShell을 사용 하 여 SharePoint 관리](manage-sharepoint-online-with-microsoft-365-powershell.md)
   
 [PowerShell로 Microsoft 365 사용자 계정, 라이선스 및 그룹 관리](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
   

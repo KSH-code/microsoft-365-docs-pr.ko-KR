@@ -16,16 +16,16 @@ search.appverid:
 - MET150
 description: 사용자가 데스크톱, 모바일 및 웹의 Office 앱에서 민감도 레이블을 사용 하는 방법 및 민감도 레이블을 지 원하는 앱에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5207d0e3e7e6272ab4a498d1cd68ad1fe3865c39
-ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
+ms.openlocfilehash: 238dc5c0b54d09258f2f679bff5467052d3448f3
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48309210"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754566"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 사용
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
 
 Microsoft 365 준수 센터 또는 동등한 레이블 센터에서 민감도 레이블을 [게시](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) 한 경우 사용자가 만들거나 편집할 때 데이터를 분류 하 고 보호 하기 위해 Office 앱에 표시 되기 시작 합니다.
 
@@ -59,6 +59,7 @@ IOS 및 Android의 경우: 나열 되는 최소 버전은 [Office 앱](https://w
 |[레이블을 변경 하려면 사유 필요](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [예-옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[사용자 지정 도움말 페이지에 대 한 도움말 링크 제공](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [예-옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[콘텐츠 표시](sensitivity-labels.md#what-sensitivity-labels-can-do)                                              | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [예-옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[변수가 있는 동적 표식](#dynamic-markings-with-variables)                                              | 미리 보기: [베타 채널 및 현재 채널 (미리 보기)](https://office.com/insider)           | 16.42 +     | 2.42 + | 16.0.13328 + | 검토 중 |
 |[지금 권한 할당](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [예-옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[사용자가 권한을 할당하도록 허용](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | [현재 채널](https://docs.microsoft.com/deployoffice/overview-update-channels#current-channel-overview) (2003 +) | 16.35 +   | 검토 중   | 검토 중         | 검토 중                                                        |
 |[레이블 분석을 사용 하 여 레이블 사용을 확인](label-analytics.md) 하 고 관리자를 위해 데이터 보내기                      | 검토 중            | 검토 중        | 검토 중   | 검토 중         | 검토 중                                                        |
@@ -76,6 +77,7 @@ IOS 및 Android의 경우: 나열 되는 최소 버전은 [Office 앱](https://w
 |[레이블을 변경 하려면 사유 필요](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | 예               |
 |[사용자 지정 도움말 페이지에 대 한 도움말 링크 제공](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | 예               |
 |[콘텐츠 표시](sensitivity-labels.md#what-label-policies-can-do)                                              | 1910+                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | 예               |
+|[변수가 있는 동적 표식](#dynamic-markings-with-variables)                                              | 검토 중                     | 검토 중                 | 검토 중         | 검토 중           | 검토 중               |
 |[지금 권한 할당](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | 예               |
 |[사용자가 권한을 할당하도록 허용](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | 예               |
 |[레이블 분석을 사용 하 여 레이블 사용을 확인](label-analytics.md) 하 고 관리자를 위해 데이터 보내기                      | 검토 중                       | 검토 중                    | 검토 중           | 검토 중               | 검토 중               |
@@ -235,6 +237,27 @@ Office 앱 외부에 민감도 레이블을 적용 하는 경우 다음이 포�
 - Microsoft Cloud App Security
 
 이러한 시나리오에서 Office 앱을 사용 하는 경우 기본 제공 레이블이 지정 된 사용자는 현재 레이블을 일시적으로 제거 하거나 바꾼 다음 원래 레이블을 다시 적용 하 여 레이블의 내용 표시를 적용할 수 있습니다.
+
+### <a name="dynamic-markings-with-variables"></a>변수가 있는 동적 표식
+
+> [!IMPORTANT]
+> 현재 모든 플랫폼의 모든 앱이 머리글, 바닥글 및 워터 마크에 대해 지정할 수 있는 동적 콘텐츠 표식을 지 원하는 것은 아닙니다. 이 기능을 지원 하지 않는 앱에서는 변수를 확인 하는 대신 레이블 구성에 지정 된 원래 텍스트로 표시를 적용 합니다.
+> 
+> Azure Information Protection 통합 레이블 클라이언트는 동적 표시를 지원 합니다. Office에 기본 제공 되는 레이블을 지정 하려면이 페이지의 [기능](#support-for-sensitivity-label-capabilities-in-apps) 섹션에 있는 표를 참조 하세요.
+
+콘텐츠 표시에 대 한 민감도 레이블을 구성할 때 머리글, 바닥글 또는 워터 마크에 대 한 텍스트 문자열에 다음 변수를 사용할 수 있습니다.
+
+| 변수 | 설명 | 레이블이 적용 된 경우의 예 |
+| -------- | ----------- | ------- |
+| `${Item.Label}` | 현재 레이블 표시 이름 | **일반**|
+| `${Item.Name}` | 현재 파일 이름 또는 전자 메일 제목 | **Sales.docx** |
+| `${Item.Location}` | 문서의 현재 경로 및 파일 이름 또는 전자 메일에 대 한 전자 메일 제목입니다. | **\\\Sales\2020\Q3\Report.docx**|
+| `${User.Name}` | 현재 사용자 표시 이름  | **Richard a 1** |
+| `${User.PrincipalName}` | 현재 사용자의 Azure AD UPN (사용자 계정 이름) | **rcontoso.com 1 \@** |
+| `${Event.DateTime}` | 현지 표준 시간대의 현재 날짜 및 시간입니다. | **오후 8/10/2020 1:30** |
+
+> [!NOTE]
+> 이러한 변수에 대 한 구문은 대/소문자를 구분 합니다.
 
 ## <a name="end-user-documentation"></a>최종 사용자 설명서
 

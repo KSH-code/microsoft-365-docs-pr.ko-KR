@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: e518f91b264680e3d356b1e6158f4b9740ed52a2
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: d2973bd3cc2da909d7129192f2b9f9a29226de34
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196098"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754495"
 ---
 # <a name="top-scoring-in-industry-tests"></a>업계 최고의 점수 테스트
 
@@ -50,13 +50,15 @@ Microsoft Defender 바이러스 백신은 현재 최신 및 가장 정교한 위
 
 ### <a name="av-test-protection-score-of-6060-in-the-latest-test"></a>AV-테스트: 최신 테스트에서 6.0/6.0의 보호 점수
 
-AV 테스트 제품 검토 및 인증 보고서는 보호, 성능 및 유용성의 세 가지 범주를 테스트 합니다. 다음 점수는 실제 테스트와 AV-테스트 참조 집합 ("자주 사용 되는 맬웨어") 이라는 두 가지 점수가 있는 보호 범주에 대 한 것입니다.
+AV 테스트 제품 검토 및 인증 보고서는 보호, 성능 및 유용성의 세 가지 범주를 테스트 합니다. 다음 점수는 두 가지 점수가 있는 보호 범주에 대 한 것으로, Real-World 테스트 및 AV-테스트 참조 집합 ("자주 사용 되는 맬웨어" 라고 함)을 사용 합니다.
 
-**최신 투명도 보고서 다운로드: [AV-테스트 결과 검토, 1 월-2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)**
+**최신 투명도 보고서 다운로드: [AV-테스트 결과 검사, January-February 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)**
 
-- 5 월 2020 AV-테스트 비즈니스 사용자 테스트: [보호 점수 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/june-2020/microsoft-windows-defender-antivirus-4.18-202513/) <sup>**최신**</sup>
+- 7 월 2020 일, AV-비즈니스 사용자 테스트 테스트: [보호 점수 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/august-2020/microsoft-defender-antivirus-4.18-203215/) <sup>**최신**</sup>
 
-    Microsoft Defender 바이러스 백신은 6.0/6.0의 완벽 한 보호 점수를 획득 했으며, 100%는 5 월 5 일을 지원 합니다. 22190 맬웨어 샘플이 사용 되었습니다.
+    Microsoft Defender Antivirus는 6.0/6.0의 완벽 한 보호 점수를 획득 했으며 7 월과 8 월에 100%가 있습니다. 13941 맬웨어 샘플이 사용 되었습니다.
+
+- 5 월 2020 AV-테스트 비즈니스 사용자 테스트: [보호 점수 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/june-2020/microsoft-windows-defender-antivirus-4.18-202513/)
 
 - 3 월-2020 AV-테스트 비즈니스 사용자 테스트: [보호 점수 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)
 
@@ -68,19 +70,15 @@ AV 테스트 제품 검토 및 인증 보고서는 보호, 성능 및 유용성�
 
 - 7 월 2019 일, AV-비즈니스 사용자 테스트: [보호 점수 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/august-2019/microsoft-windows-defender-antivirus-4.18-193215/)  |  [분석](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4kagp)
 
-- 5 월 2019 AV-테스트 비즈니스 사용자 테스트: [보호 점수 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/june-2019/microsoft-windows-defender-antivirus-4.18-192415/)  |  [분석](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
-
 ### <a name="av-comparatives-protection-rating-of-997-in-the-latest-test"></a>AV-비교급과 최상급: 최신 테스트에서 99.7%의 보호 평점
 
-비즈니스 보안 테스트는 온라인 맬웨어 공격을 모방 하는 실제 보호 테스트, 맬웨어가 인터넷 외부에서 시스템에 들어간 맬웨어 보호 테스트, 시스템 성능에 미치는 영향을 확인 하는 성능 테스트의 세 가지 주요 부분으로 구성 됩니다.
+비즈니스 보안 테스트는 온라인 맬웨어 공격을 모방 하는 Real-World 보호 테스트, 맬웨어가 인터넷 외부에서 시스템에 들어간 맬웨어 보호 테스트, 시스템 성능에 미치는 영향을 보여 주는 성능 테스트의 세 가지 주요 부분으로 구성 됩니다.
 
 - Business Security Test 2020 (3 월, 6 월): [실제 보호 속도 99.7%](https://www.av-comparatives.org/tests/business-security-test-2020-march-june/) <sup>**최신**</sup>
 
-    Microsoft Defender Antivirus는 지난 해 동안의 실제 보호 속도에서 지속적으로 높은 점수를 획득 했으며, 99.7%는 최신 테스트를 진행 합니다.
+    Microsoft Defender 바이러스 백신은 지난 해 동안 Real-World 보호 속도를 지속적으로 높게 계산 하며, 99.7%는 최신 테스트를 진행 합니다.
 
 - 비즈니스 보안 테스트 2019 (8 월-11 월): [실제 보호 속도 99.6%](https://www.av-comparatives.org/tests/business-security-test-2019-august-november/) 
-
-- 비즈니스 보안 테스트 2019 Factsheet (9 월): [실제 보호 속도 99.9%](https://www.av-comparatives.org/tests/business-security-test-august-september-2019-factsheet/)  |  [분석](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4kagp)
 
 - Business Security Test 2019 (3 월, 6 월): [실제 보호 속도 99.9%](https://www.av-comparatives.org/tests/business-security-test-2019-march-june/)  |  [분석](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
 
@@ -88,11 +86,13 @@ AV 테스트 제품 검토 및 인증 보고서는 보호, 성능 및 유용성�
 
 SE 랩 제품 및 서비스에서 공격을 감지 및 보호 하기 위해 사용 하는 일련의 솔루션을 테스트 합니다. 여기에는 끝점 소프트웨어, 네트워크 장비 및 클라우드 서비스가 포함 됩니다.
 
-**최신 투명도 보고서 다운로드: [1 월 2020부터 실행 하는 경우의 테스트 결과를 검사](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq) 합니다.**
+**최신 투명도 보고서 다운로드: [SE Labs 테스트 결과 검사, January-March 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)**
+
+- 엔터프라이즈 끝점 보호 7 월 2020 일 때 [AAA](https://selabs.uk/reports/epp-enterprise-20q3-security-testing/) ( <sup>**가장 늦은**</sup> )
+
+    Microsoft의 차세대 보호 제품은 모든 대상 지정 된 공격을 중지 했지만 몇 가지 공개 위협은 누락 되었습니다.
 
 - 엔터프라이즈 끝점 보호 4 월 2020 일 ( [AAA](https://selabs.uk/reports/epp-ent-20q2-security-testing/) )
-
-    Microsoft의 차세대 보호는 모든 공개 및 대상 공격을 방지 하기 위해 선두적인 제품 중 하나입니다. Microsoft Defender 바이러스 백신은 악의적인 Url을 차단 하 고, 악용을 처리 하 고, 합법적인 응용 프로그램 및 웹 사이트를 올바르게 분류 하는 기능을 통해 이러한 좋은 결과를 제공
 
 - 엔터프라이즈 끝점 보호 1 월 2020: [AAA 표](https://selabs.uk/download/enterprise/essp/2020/mar-2020-essp.pdf) <sup>**pdf**</sup>  |  [분석](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)
 
@@ -100,9 +100,6 @@ SE 랩 제품 및 서비스에서 공격을 감지 및 보호 하기 위해 사�
 
 - 엔터프라이즈 끝점 보호 7 월 2019 일: [AAA 표](https://selabs.uk/download/enterprise/epp/2019/jul-sep-2019-enterprise.pdf) <sup>**pdf**</sup>  |  [분석](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4kagp)
 
-- 엔터프라이즈 끝점 보호 4 월 2019 일 때 [AAA (표](https://selabs.uk/download/enterprise/epp/2019/apr-jun-2019-enterprise.pdf) <sup>**pdf**</sup>)  |  [분석](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
-
-- 엔터프라이즈 끝점 보호 1 월 2019: [AAA 표](https://selabs.uk/download/enterprise/epp/2019/jan-mar-2019-enterprise.pdf) <sup>**pdf**</sup>  |  [분석](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
 
 ## <a name="endpoint-detection--response"></a>끝점 검색 & 응답
 
