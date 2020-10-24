@@ -4,7 +4,7 @@ ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 그룹에 대해 알아봅니다.
-ms.openlocfilehash: 5d85204687641e74f9a705162df01cebd7eeee26
-ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.openlocfilehash: f3114fdd6eefae0fe226e25907716101dcb6a51f
+ms.sourcegitcommit: 3cdb670f10519f7af4015731e7910954ba9f70dc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337172"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753268"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>관리자를 위한 Microsoft 365 그룹 개요
 
@@ -108,7 +108,7 @@ Exchange Online 및 SharePoint Online이 포함 된 모든 Microsoft 365 구독�
 
 Exchange 전용 요금제가 있는 경우에도 Outlook에서 공유 받은 편지함 및 공유 일정 기능을 가져올 수는 있지만 문서 라이브러리, Planner 또는 기타 기능은 제공 되지 않습니다.
 
-Microsoft 365 groups는 AAD (Azure Active Directory)를 사용 하 여 작동 합니다. 얻을 수 있는 그룹 기능은 사용 하는 Azure Active Directory 구독 및 그룹 구성 도우미에 할당 된 라이선스에 따라 달라 집니다.
+Microsoft 365 groups는 Azure Active Directory에서 작동 합니다. 얻을 수 있는 그룹 기능은 사용 하는 Azure Active Directory 구독 및 그룹 구성 도우미에 할당 된 라이선스에 따라 달라 집니다.
 
 > [!IMPORTANT]
 > 모든 그룹 기능에서 Azure AD Premium 구독을 사용 하는 경우 사용자는 AAD P1 라이선스가 할당 되어 있는지 여부에 관계 없이 그룹에 가입할 수 있습니다. 라이선스가 적용 되지 않습니다.
