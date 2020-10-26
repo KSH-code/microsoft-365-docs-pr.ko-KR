@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하면 사용자가 전자 메일, 문서 및 대화를 사용하여 생성하는 콘텐츠를 매우 효율적으로 유지 관리할 수 있습니다. 원하는 내용을 유지하고 원하지 않는 항목을 제거하세요.
-ms.openlocfilehash: 848ed959b1ed728a5a193641d7df42a477604d30
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 43bfe1b51b730dd41342f95a069645ff15a03437
+ms.sourcegitcommit: 095b1f52f2e73e8d44195916984efeb0908c2ad8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681786"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48755577"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -63,13 +63,13 @@ ms.locfileid: "48681786"
 
 ### <a name="retention-policy-for-teams-locations"></a>Teams 위치 보존 정책
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 **정책** > **보존**을 선택합니다.
+1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 **정책** > **보존** 을 선택합니다.
 
-2. **새 보존 정책**을 선택하여 보존 정책 만들기 마법사를 시작하고 새 보존 정책의 이름을 지정합니다.
+2. **새 보존 정책** 을 선택하여 보존 정책 만들기 마법사를 시작하고 새 보존 정책의 이름을 지정합니다.
 
-3. **정책을 적용하기 위한 위치 선택** 페이지에서, Teams에 대한 하나 혹은 양쪽 위치를 선택합니다. **Teams 채널 메시지** 및 **Teams 채팅**.
+3. **정책을 적용하기 위한 위치 선택** 페이지에서, Teams에 대한 하나 혹은 양쪽 위치를 선택합니다. **Teams 채널 메시지** 및 **Teams 채팅** .
 
-   **Teams 채널 메시지**의 경우, 표준 채널이지만 [비공개 채널](https://docs.microsoft.com/microsoftteams/private-channels)의 메시지는 포함되지 않습니다. 현재 개인 채널은 보존 정책에서 지원되지 않습니다.
+   **Teams 채널 메시지** 의 경우, 표준 채널이지만 [비공개 채널](https://docs.microsoft.com/microsoftteams/private-channels)의 메시지는 포함되지 않습니다. 현재 개인 채널은 보존 정책에서 지원되지 않습니다.
 
    기본적으로 [모든 팀과 모든 사용자가 선택되어 있지만](#a-policy-that-applies-to-entire-locations), [**선택** 및 **배제** 옵션](#a-policy-with-specific-inclusions-or-exclusions)을 선택하여 이를 구체화할 수 있습니다.
 
@@ -103,23 +103,23 @@ Microsoft 365 그룹, SharePoint 사이트 또는 OneDrive 계정에 적용되�
 >
 > 이 기능을 사용하려면 Yammer 네트워크가 하이브리드 모드가 아니라 [기본 모드](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode)여야 합니다.
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 **정책** > **보존**을 선택합니다.
+1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 **정책** > **보존** 을 선택합니다.
 
-2. **새 보존 정책**을 선택하여 새 보존 정책을 만듭니다.
+2. **새 보존 정책** 을 선택하여 새 보존 정책을 만듭니다.
 
 3. **콘텐츠를 유지, 삭제 또는 둘 다 수행할지 결정** 마법사 페이지에서 컨텐츠 유지 및 삭제에 대한 구성 옵션을 지정하세요. 
     
     삭제하지 않고 콘텐츠를 유지하거나 지정된 기간 후에 콘텐츠를 유지한 다음 삭제하거나 지정된 기간 후에 콘텐츠를 삭제하는 보존 정책을 만들 수 있습니다. 자세한 내용은 이 페이지에서 [콘텐츠를 보존하고 삭제하기 위한 설정](#settings-for-retaining-and-deleting-content)을 참조하세요.
     
-    이 옵션은 Yammer 위치에 지원되지 않으므로 **고급 보존 설정 사용**을 선택하지 않습니다. 
+    이 옵션은 Yammer 위치에 지원되지 않으므로 **고급 보존 설정 사용** 을 선택하지 않습니다. 
 
-4. **위치 선택** 페이지에 대해 **특정 위치 선택**를 선택합니다. 그런 다음 Yammer에 대한 위치 중 하나 또는 둘 모두를 전환합니다. **Yammer 커뮤니티 메시지** 및 **Yammer 개인 메시지**.
+4. **위치 선택** 페이지에 대해 **특정 위치 선택** 를 선택합니다. 그런 다음 Yammer에 대한 위치 중 하나 또는 둘 모두를 전환합니다. **Yammer 커뮤니티 메시지** 및 **Yammer 개인 메시지** .
     
     기본적으로 모든 커뮤니티와 사용자가 선택되지만 포함하거나 제외할 커뮤니티와 사용자를 지정하여 세분화할 수 있습니다.
     
     Yammer 개인 메시지의 경우 다음을 수행합니다. 
-    - 기본값 **모두**를 그대로 두면 Azure B2B 게스트 사용자가 포함되지 않습니다. 
-    - **사용자 선택**을 선택한 경우, 계정을 알고 있는 외부 사용자에게 보존 정책을 적용할 수 있습니다.
+    - 기본값 **모두** 를 그대로 두면 Azure B2B 게스트 사용자가 포함되지 않습니다. 
+    - **사용자 선택** 을 선택한 경우, 계정을 알고 있는 외부 사용자에게 보존 정책을 적용할 수 있습니다.
 
 5. 마법사를 완료하여 설정을 저장합니다.
 
@@ -147,9 +147,9 @@ SharePoint 사이트 또는 OneDrive 계정에 적용된 보존 정책은 해당
 - Microsoft 365 그룹
 - 비즈니스용 Skype
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 **정책** > **보존**을 선택합니다.
+1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 **정책** > **보존** 을 선택합니다.
 
-2. **새 보존 정책**을 선택하여 보존 정책 만들기 마법사를 시작하고 새 보존 정책의 이름을 지정합니다.
+2. **새 보존 정책** 을 선택하여 보존 정책 만들기 마법사를 시작하고 새 보존 정책의 이름을 지정합니다.
 
 3. **위치 선택** 페이지를 선택하려면 Teams 위치를 제외한 모든 위치를 토글로 설정하거나 해제합니다. 각 위치에 대해 설정을 기본값으로 유지하여 [전체 위치에 정책을 적용](#a-policy-that-applies-to-entire-locations)하거나 [포함 및 제외를 지정](#a-policy-with-specific-inclusions-or-exclusions)할 수 있습니다.
 
@@ -204,9 +204,9 @@ Exchange 전자 메일과 달리, Skype 위치의 상태는 간단히 설정으�
 
 ![보존 정책을 위한 Skype 위치 선택](../media/skype-location-retention-policies.png)
 
-**사용자 선택**을 선택하면 **모두 선택** 상자를 선택하여 모든 사용자를 빠르게 포함할 수 있습니다. 그러나 각 사용자가 정책의 특정 포함사항으로 간주된다는 점을 이해해야 합니다. 따라서 **모두 선택** 상자를 선택하여 1,000명의 사용자를 포함하는 경우, 포함할 1,000명의 사용자를 수동으로 선택한 것과 같으며 이는 비즈니스용 Skype에 대해 지원되는 최대를 선택하는 것과 같습니다.
+**사용자 선택** 을 선택하면 **모두 선택** 상자를 선택하여 모든 사용자를 빠르게 포함할 수 있습니다. 그러나 각 사용자가 정책의 특정 포함사항으로 간주된다는 점을 이해해야 합니다. 따라서 **모두 선택** 상자를 선택하여 1,000명의 사용자를 포함하는 경우, 포함할 1,000명의 사용자를 수동으로 선택한 것과 같으며 이는 비즈니스용 Skype에 대해 지원되는 최대를 선택하는 것과 같습니다.
 
-Outlook 폴더인 **대화 내용**은 Skype 아카이빙은 관계가 없는 기능 **대화 내용**은 최종 사용자가 끌 수 있지만, Skype 아카이빙은 사용자는 액세스할 수 없고 eDiscovery에서만 액세스 가능한 숨김 폴더에 Skype 대화 사본을 저장하는 기능
+Outlook 폴더인 **대화 내용** 은 Skype 아카이빙은 관계가 없는 기능 **대화 내용** 은 최종 사용자가 끌 수 있지만, Skype 아카이빙은 사용자는 액세스할 수 없고 eDiscovery에서만 액세스 가능한 숨김 폴더에 Skype 대화 사본을 저장하는 기능
 
 ## <a name="settings-for-retaining-and-deleting-content"></a>콘텐츠를 보존 및 삭제하기 위한 설정
 
@@ -214,15 +214,15 @@ Outlook 폴더인 **대화 내용**은 Skype 아카이빙은 관계가 없는 �
 
 - 보존 전용
 
-    이 구성에서는 **특정 기간에 대한 항목을 보존**을 선택하고 **보존 기간의 종료 시, 아무 작업도 수행하지 않습니다**. 또는 **항목을 영구적으로 보존**을 선택합니다.
+    이 구성에서는 **특정 기간에 대한 항목을 보존** 을 선택하고 **보존 기간의 종료 시, 아무 작업도 수행하지 않습니다** . 또는 **항목을 영구적으로 보존** 을 선택합니다.
 
 - 보존 후 삭제
 
-    이 구성에서는 **특정 기간에 대한 항목을 보존**을 선택하고 **보존 기간의 종료 시, 항목을 자동으로 삭제합니다**.
+    이 구성에서는 **특정 기간에 대한 항목을 보존** 을 선택하고 **보존 기간의 종료 시, 항목을 자동으로 삭제합니다** .
 
 - 삭제 전용
 
-    이 구성에서는 **특정 기간에 도달했을 때만 항목 삭제**를 선택합니다.
+    이 구성에서는 **특정 기간에 도달했을 때만 항목 삭제** 를 선택합니다.
 
 ### <a name="retaining-content-for-a-specific-period-of-time"></a>특정 기간 동안 콘텐츠 보존
 
@@ -252,7 +252,7 @@ Outlook 폴더인 **대화 내용**은 Skype 아카이빙은 관계가 없는 �
 
 ### <a name="a-policy-that-applies-to-entire-locations"></a>전체 위치에 적용되는 정책
 
-위치를 선택하는 경우 비즈니스용 Skype를 제외하고, 위치의 상태가 **On**인 경우, 기본 설정은 **모두**가 됩니다.
+위치를 선택하는 경우 비즈니스용 Skype를 제외하고, 위치의 상태가 **On** 인 경우, 기본 설정은 **모두** 가 됩니다.
 
 보존 정책이 전체 위치의 조합에 적용되는 경우, 정책에 포함할 수 있는 수혜자, 사이트, 계정, 그룹 등의 수에 제한이 없습니다.
 
@@ -272,10 +272,10 @@ Outlook 폴더인 **대화 내용**은 Skype 아카이빙은 관계가 없는 �
 
 보존 정책에 이러한 제한이 적용될 가능성이 높은 경우에는 해당 정책에 제한이 없는 전체 위치에 적용되는 기본 구성을 사용합니다.
 
-선택적 구성을 사용하여 보존 설정의 범위를 지정하려면 해당 위치의 **상태**가 **켜짐**인지 확인한 후 링크를 사용하여 특정 사용자, Microsoft 365 그룹 또는 사이트를 포함하거나 배제하면 됩니다.
+선택적 구성을 사용하여 보존 설정의 범위를 지정하려면 해당 위치의 **상태** 가 **켜짐** 인지 확인한 후 링크를 사용하여 특정 사용자, Microsoft 365 그룹 또는 사이트를 포함하거나 배제하면 됩니다.
 
 > [!WARNING]
-> 마지막 구성을 포함했다가 제거하면 해당 위치에 대해 **모두**로 되돌아갑니다.  정책을 저장하기 전에 원하는 구성인지 확인합니다.
+> 마지막 구성을 포함했다가 제거하면 해당 위치에 대해 **모두** 로 되돌아갑니다.  정책을 저장하기 전에 원하는 구성인지 확인합니다.
 >
 > 예를 들어 데이터를 삭제하도록 구성된 보존 정책에 포함할 SharePoint 사이트 하나를 지정한 다음 단일 사이트를 제거하면 기본적으로 모든 SharePoint 사이트는 데이터를 영구적으로 삭제하는 보존 정책의 적용을 받습니다. Exchange 수신인, OneDrive 계정, 팀 채팅 사용자 등의 경우에도 마찬가지
 >
@@ -291,7 +291,7 @@ Outlook 폴더인 **대화 내용**은 Skype 아카이빙은 관계가 없는 �
 
 규정 요구 사항을 준수하기 위해 [보존 잠금](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements)을 사용해야 하는 경우 PowerShell을 사용해야 합니다. 유지 잠금이 적용된 후에는 관리자가 보존 정책을 사용하지 않도록 설정하거나 삭제할 수 없기 때문에, 이 기능을 사용하도록 설정하는 것은 잘못된 구성으로부터 보호하는 UI에서 사용할 수 없습니다.
 
-모든 구성 지원 보존 잠금이 있는 모든 보존 정책. 그러나 뒤에 나오는 PowerShell 명령을 사용하는 경우 **작업부하** 매개변수에는 정책에 구성된 실제 작업 부하를 반영하는 것이 아니라 **Exchange, SharePoint, OneDriveForBusines, Skype, ModernGroup**을 표시하는 것을 볼 수 있습니다. 이는 표시 문제일 뿐
+모든 구성 지원 보존 잠금이 있는 모든 보존 정책. 그러나 뒤에 나오는 PowerShell 명령을 사용하는 경우 **작업부하** 매개변수에는 정책에 구성된 실제 작업 부하를 반영하는 것이 아니라 **Exchange, SharePoint, OneDriveForBusines, Skype, ModernGroup** 을 표시하는 것을 볼 수 있습니다. 이는 표시 문제일 뿐
 
 1. [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)합니다.
 
@@ -299,7 +299,7 @@ Outlook 폴더인 **대화 내용**은 Skype 아카이빙은 관계가 없는 �
 
    ![PowerShell의 보존 정책 목록](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
 
-3. 보존 정책에 보존 잠금을 설정하려면 [Set-RetentionCompliancePolicy]( ) cmdlet을 보존 정책 이름으로 실행하고 *RestrictiveRetention* 매개변수를 true로 설정합니다.
+3. 보존 정책에 보존 잠금을 설정하려면 [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) cmdlet을 보존 정책 이름으로 실행하고 *RestrictiveRetention* 매개변수를 true로 설정합니다.
 
     ```powershell
     Set-RetentionCompliancePolicy -Identity "<Name of Policy>" –RestrictiveRetention $true
@@ -309,7 +309,7 @@ Outlook 폴더인 **대화 내용**은 Skype 아카이빙은 관계가 없는 �
 
     ![PowerShell의 RestrictiveRetention 매개 변수](../media/retention-policy-preservation-lock-restrictiveretention.PNG)
 
-     메시지가 표시되면 이 구성과 함께 제공되는 제한 사항을 읽고 **Y**를 입력하여 승인합니다.
+     메시지가 표시되면 이 구성과 함께 제공되는 제한 사항을 읽고 **Y** 를 입력하여 승인합니다.
 
    ![PowerShell에서 보존 정책 잠금을 원하는지 확인하는 메시지](../media/retention-policy-preservation-lock-confirmation-prompt.PNG)
 
@@ -319,6 +319,6 @@ Outlook 폴더인 **대화 내용**은 Skype 아카이빙은 관계가 없는 �
 Get-RetentionCompliancePolicy -Identity "<Name of Policy>" |Fl
 ```
 
-**RestrictiveRetention**이 **True**로 설정되어 있는지 확인해야 합니다. 예를 들어,
+**RestrictiveRetention** 이 **True** 로 설정되어 있는지 확인해야 합니다. 예를 들어,
 
 ![PowerShell에 모든 매개 변수와 함께 표시된 잠긴 정책](../media/retention-policy-preservation-lock-locked-policy.PNG)

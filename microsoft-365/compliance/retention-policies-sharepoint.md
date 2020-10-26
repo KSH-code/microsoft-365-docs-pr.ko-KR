@@ -17,18 +17,37 @@ search.appverid:
 - MOE150
 - MET150
 description: SharePoint 및 OneDrive에서 보존이 작동하는 방식을 알아봅니다.
-ms.openlocfilehash: da700c72a03bad85310be8807bf94e54ec6a4048
-ms.sourcegitcommit: 916fa2dacbc13287b49823176375259d7af03f86
+ms.openlocfilehash: 31ffce3f02e273e771ca1753474bec48b66148bb
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47394705"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754142"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive의 보존에 대해 자세히 알아보기
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
 
 SharePoint 및 OneDrive 관련 정보를 포함하므로 이 문서의 정보는 [보존에 대한 자세한 정보](retention.md)를 보완합니다.
+
+다른 워크로드는 다음을 참조하세요.
+
+- [Microsoft Teams의 보존에 대해 자세히 알아보기](retention-policies-teams.md)
+- [Yammer의 보존에 대한 자세한 정보](retention-policies-yammer.md)
+- [Exchange의 보존에 대해 자세히 알아보기](retention-policies-exchange.md)
+
+## <a name="whats-included-for-retention-and-deletion"></a>보존 및 삭제에 포함된 항목
+
+SharePoint 또는 OneDrive 사이트에 저장된 모든 파일은 보존 정책 또는 보존 레이블을 적용하여 보존할 수 있습니다.
+
+다음 파일을 삭제할 수 있습니다.
+
+- 보존 정책을 사용하는 경우 다음을 수행합니다. 문서 라이브러리의 모든 파일. 자동으로 생성된 SharePoint 문서 라이브러리를 포함합니다(예: **사이트 자산** ).
+    
+- 보존 레이블을 사용하는 경우: 모든 문서 라이브러리의 모든 파일 및 폴더에 없는 루트 수준의 모든 파일.
+    
+    [보존 레이블에 대해 자동 적용 정책과 함께 KQL 쿼리](apply-retention-labels-automatically.md#auto-apply-labels-to-content-with-keywords-or-searchable-properties)를 사용하는 경우 `NOT(DocumentLink:"<URL to document library>")` 항목을 사용하여 문서 라이브러리를 제외할 수 있습니다.
+
 
 ## <a name="how-retention-works-for-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에서 보존이 작동하는 방식
 
@@ -59,15 +78,19 @@ SharePoint 및 OneDrive 관련 정보를 포함하므로 이 문서의 정보는
 
 ### <a name="content-paths-for-retain-only-retention-settings"></a>보존 전용 보존 설정의 컨텐츠 경로
 
-1. 보존 기간 동안 **컨텐츠가 수정되거나 삭제된 경우**: 보존 라이브러리의 사본이 2단계로 이동될 때 원본 문서의 사본이 보존 라이브러리에 작성되고 보존 기간이 끝날 때까지 보존됩니다. 휴지통이며 93일 후에 영구적으로 삭제됩니다.
+1. 보존 기간 동안 **컨텐츠가 수정되거나 삭제된 경우** : 보존 라이브러리의 사본이 2단계로 이동될 때 원본 문서의 사본이 보존 라이브러리에 작성되고 보존 기간이 끝날 때까지 보존됩니다. 휴지통이며 93일 후에 영구적으로 삭제됩니다.
 
-2. 보존 기간 동안 **컨텐츠가 수정되거나 삭제되지 않은 경우**: 보존 기간 전후에는 아무 것도 발생하지 않습니다. 문서는 원래 위치에 남아 있습니다.
+2. 보존 기간 동안 **컨텐츠가 수정되거나 삭제되지 않은 경우** : 보존 기간 전후에는 아무 것도 발생하지 않습니다. 문서는 원래 위치에 남아 있습니다.
 
 ### <a name="content-paths-for-delete-only-retention-settings"></a>삭제만 보존 설정의 컨텐츠 경로
 
-1. 구성된 기간 동안 **컨텐츠가 삭제되는 경우**, 해당 문서는 1단계 휴지통으로 이동됩니다. 여기에서 사용자가 문서를 삭제하거나 휴지통을 비우면 문서가 2단계 휴지통으로 이동됩니다. 1단계 휴지통과 2단계 휴지통을 포함하여 총 93일 간의 보존 기간이 적용됩니다. 93일이 지나면 1단계 휴지통 또는 2단계 휴지통에서 문서가 영구적으로 삭제됩니다. 구성된 기간 동안 컨텐츠가 수정되면 구성된 기간이 지난 후 동일한 삭제 경로를 따릅니다.
+1. 구성된 기간 동안 **컨텐츠가 삭제되는 경우** , 해당 문서는 1단계 휴지통으로 이동됩니다. 여기에서 사용자가 문서를 삭제하거나 휴지통을 비우면 문서가 2단계 휴지통으로 이동됩니다. 1단계 휴지통과 2단계 휴지통을 포함하여 총 93일 간의 보존 기간이 적용됩니다. 93일이 지나면 1단계 휴지통 또는 2단계 휴지통에서 문서가 영구적으로 삭제됩니다. 구성된 기간 동안 컨텐츠가 수정되면 구성된 기간이 지난 후 동일한 삭제 경로를 따릅니다.
 
-2. 구성된 기간 동안 **컨텐츠가 삭제되지 않는 경우**, 보존 정책에 구성된 기간이 끝나는 시점에 문서가 1단계 휴지통으로 이동됩니다. 여기에서 사용자가 문서를 삭제하거나 휴지통을 비우면 문서가 2단계 휴지통으로 이동됩니다. 1단계 휴지통과 2단계 휴지통을 포함하여 총 93일 간의 보존 기간이 적용됩니다. 93일이 지나면 1단계 휴지통 또는 2단계 휴지통에서 문서가 영구적으로 삭제됩니다. 휴지통이 인덱싱되지 않으므로 검색할 수 없습니다. 따라서 eDiscovery 검색에서 보류할 휴지통 콘텐츠를 찾을 수 없습니다.
+2. 구성된 기간 동안 **컨텐츠가 삭제되지 않는 경우** , 보존 정책에 구성된 기간이 끝나는 시점에 문서가 1단계 휴지통으로 이동됩니다. 여기에서 사용자가 문서를 삭제하거나 휴지통을 비우면 문서가 2단계 휴지통으로 이동됩니다. 1단계 휴지통과 2단계 휴지통을 포함하여 총 93일 간의 보존 기간이 적용됩니다. 93일이 지나면 1단계 휴지통 또는 2단계 휴지통에서 문서가 영구적으로 삭제됩니다. 휴지통이 인덱싱되지 않으므로 검색할 수 없습니다. 따라서 eDiscovery 검색에서 보류할 휴지통 콘텐츠를 찾을 수 없습니다.
+
+## <a name="how-retention-works-for-onenote-content"></a>OneNote 콘텐츠의 보존 방식
+
+OneNote 콘텐츠를 포함하는 위치에 보존 정책을 적용하면 실제로 서로 다른 OneNote 구역이 서로 다른 파일입니다. 즉, 지정한 보존 설정에 따라 각 구역이 개별적으로 유지 및 삭제됩니다.
 
 ## <a name="how-retention-works-with-document-versions-in-a-site-collection"></a>사이트 모음의 문서 버전에서 보존 작동 방식
 
@@ -88,11 +111,11 @@ SharePoint 및 OneDrive 관련 정보를 포함하므로 이 문서의 정보는
 
 ## <a name="when-a-user-leaves-the-organization"></a>사용자가 조직을 떠나는 경우
 
-**SharePoint**:
+**SharePoint** :
 
 사용자가 조직을 떠나는 경우, 사용자의 사서함 또는 OneDrive 계정과 달리, SharePoint는 공동 작업 환경으로 간주되므로 사용자가 만든 콘텐츠는 영향을 받지 않습니다.
 
-**OneDrive**:
+**OneDrive** :
 
 사용자가 조직을 떠나는 경우, 보존 정책이 적용되거나 보존 레이블이 포함된 모든 파일은 정책이나 레이블 기간 동안 유지됩니다. 이 기간 동안 모든 공유 액세스는 계속 작동합니다. 보존 기간이 만료되면 콘텐츠가 사이트 모음 휴지통으로 이동하고 관리자를 제외하고는 누구도 액세스할 수 없습니다. 문서가 보존 레이블에 의해 레코드로 표시되는 경우 보존 기간이 종료될 때까지 해당 문서는 삭제되지 않으며 그 후에는 콘텐츠가 영구적으로 삭제됩니다.
 

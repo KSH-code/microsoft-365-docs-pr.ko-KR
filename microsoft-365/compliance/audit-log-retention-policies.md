@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 감사 로그 보존 정책은 Microsoft 365의 새로운 고급 감사 기능의 일부입니다. 감사 로그 보존 정책을 사용하여 조직에서 감사 로그를 보존할 기간을 지정할 수 있습니다.
-ms.openlocfilehash: dba14d5a4132bc9c883c531ceeb83a2a8ff3c6cd
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: c2449ab90d04fd44909999d25b940ee4d2758b15
+ms.sourcegitcommit: 3cdb670f10519f7af4015731e7910954ba9f70dc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398729"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753337"
 ---
 # <a name="manage-audit-log-retention-policies"></a>로그 보존 정책 감사 관리
 
@@ -36,7 +36,7 @@ ms.locfileid: "48398729"
 
 ## <a name="default-audit-log-retention-policy"></a>기본 로그 보존 정책 감사
 
-Microsoft 365의 고급 감사는 모든 조직에 기본 감사 로그 보존 정책을 제공합니다. 이 정책은 1년 동안 모든 Exchange, SharePoint 및 Azure Active Directory 감사 레코드를 보존합니다. 이 기본 정책은 **Workload** 속성(활동이 발생한 서비스)에 대한 **AzureActiveDirectory**, **Exchange** 또는 **SharePoint** 값을 포함하는 감사 레코드를 유지합니다. 기본 정책은 수정할 수 없습니다. 기본 정책에 포함된 각 워크로드의 레코드 유형 목록은 이 문서의 [추가 정보](#more-information) 섹션을 참조하십시오.
+Microsoft 365의 고급 감사는 모든 조직에 기본 감사 로그 보존 정책을 제공합니다. 이 정책은 1년 동안 모든 Exchange, SharePoint 및 Azure Active Directory 감사 레코드를 보존합니다. 이 기본 정책은 **Workload** 속성(활동이 발생한 서비스)에 대한 **AzureActiveDirectory** , **Exchange** 또는 **SharePoint** 값을 포함하는 감사 레코드를 유지합니다. 기본 정책은 수정할 수 없습니다. 기본 정책에 포함된 각 워크로드의 레코드 유형 목록은 이 문서의 [추가 정보](#more-information) 섹션을 참조하십시오.
 
 > [!NOTE]
 > 기본 감사 로그 보존 정책은 Office 365 또는 Microsoft 365 E5 라이선스가 할당되었거나 Microsoft 365 E5 준수 또는 E5 eDiscovery 및 감사 애드온 라이선스가 있는 사용자가 수행한 활동에 대한 감사 레코드에만 적용됩니다. 조직에 E5 이외의 사용자가 있는 경우 해당 감사 레코드는 90일 동안 유지됩니다.
@@ -55,13 +55,13 @@ Microsoft 365의 고급 감사는 모든 조직에 기본 감사 로그 보존 �
 
 1. [https://compliance.microsoft.com](https://compliance.microsoft.com)으로 이동하여 지정된 사용자 계정으로보안 및 준수 센터의 조직 구성 역할로 로그인하십시오.
 
-2. Microsoft 365 준수 센터의 왼쪽 창에서 **모두 보기**를 클릭한 다음 **감사**를 클릭합니다.
+2. Microsoft 365 준수 센터의 왼쪽 창에서 **모두 보기** 를 클릭한 다음 **감사** 를 클릭합니다.
 
     **감사** 페이지가 표시됩니다.
 
     ![준수 센터의 감사 로그 검색 페이지](../media/AuditLogRetentionPolicy1.png)
 
-3. **감사 보존 정책 만들기**를 클릭한 다음 플라이 아웃 페이지에서 다음 필드를 완료하십시오.
+3. **감사 보존 정책 만들기** 를 클릭한 다음 플라이 아웃 페이지에서 다음 필드를 완료하십시오.
 
     ![감사 로그 보존 정책 플라이 아웃 페이지](../media/AuditLogRetentionPolicy2.png)
 
@@ -69,7 +69,7 @@ Microsoft 365의 고급 감사는 모든 조직에 기본 감사 로그 보존 �
 
    2. **설명:** 선택 사항이지만 레코드 유형 또는 워크로드, 정책에 지정된 사용자 및 기간과 같은 정책에 대한 정보를 제공하는 데 도움이 됩니다.
 
-   3. **사용자:** 정책을 적용할 하나 이상의 사용자를 선택하십시오. 이 상자를 비워 두면 정책이 모든 사용자에 게 적용됩니다. **레코드 유형**을 비워둔 경우 반드시 사용자를 선택해야 합니다.
+   3. **사용자:** 정책을 적용할 하나 이상의 사용자를 선택하십시오. 이 상자를 비워 두면 정책이 모든 사용자에 게 적용됩니다. **레코드 유형** 을 비워둔 경우 반드시 사용자를 선택해야 합니다.
 
    4. **레코드 유형:** 정책이 적용되는 감사 레코드 유형입니다. 또한 해당 속성을 비워둔 경우 **사용자** 상자에서 사용자를 선택해야 합니다. 단일 레코드 유형 또는 다중 레코드 유형을 선택할 수 있습니다.
 
@@ -79,9 +79,9 @@ Microsoft 365의 고급 감사는 모든 조직에 기본 감사 로그 보존 �
 
    5. **기간:** 정책 기준을 충족하는 감사 로그를 보유하는 기간입니다.
 
-   6. **우선 순위:** 이 값은 조직의 감사 로그 보존 정책이 처리되는 순서를 결정합니다. 값이 높을수록 우선 순위가 높습니다. 예를 들어, 우선 순위 값이 **5**인 정책은 우선 순위 값이 **0**인 정책보다 우선합니다. 앞에서 설명한 것처럼 사용자 지정 감사 로그 보존 정책은 조직의 기본 정책보다 우선합니다.
+   6. **우선 순위:** 이 값은 조직의 감사 로그 보존 정책이 처리되는 순서를 결정합니다. 값이 높을수록 우선 순위가 높습니다. 예를 들어, 우선 순위 값이 **5** 인 정책은 우선 순위 값이 **0** 인 정책보다 우선합니다. 앞에서 설명한 것처럼 사용자 지정 감사 로그 보존 정책은 조직의 기본 정책보다 우선합니다.
 
-4. **저장**을 클릭하여 새 감사 로그 보존 정책을 만듭니다.
+4. **저장** 을 클릭하여 새 감사 로그 보존 정책을 만듭니다.
 
 ## <a name="create-an-audit-log-retention-policy-in-powershell"></a>PowerShell에서 감사 로그 보존 정책 생성
 
@@ -99,7 +99,7 @@ Microsoft 365의 고급 감사는 모든 조직에 기본 감사 로그 보존 �
 
    - 정책에 대한 설명입니다.
 
-   - 모든 Microsoft Teams 활동을 유지합니다(*RecordType* 매개 변수로 정의된 대로).
+   - 모든 Microsoft Teams 활동을 유지합니다( *RecordType* 매개 변수로 정의된 대로).
 
    - Microsoft Teams 감사 로그를 10년 동안 보존합니다.
 
@@ -125,6 +125,10 @@ Get-UnifiedAuditLogRetentionPolicy | Sort-Object -Property Priority -Descending 
 > 현재 **Get-UnifiedAuditLogRetentionPolicy** cmdlet은 조직의 기본 감사 로그 정책을 반환하지 않습니다.
 
 자세한 정보는 [Get-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/get-unifiedauditlogretentionpolicy)를 참조하십시오.
+
+## <a name="some-audit-log-retention-policies-not-supported-in-the-ui"></a>일부 감사 로그 보존 정책은 UI에서 지원되지 않습니다.
+
+**New-UnifiedAuditLogRetentionPolicy** cmdlet을 사용하는 경우, Microsoft 365 규정 준수 센터의 **감사 보존 정책 만들기** 도구에서 사용할 수 없는 레코드 종류나 활동에 대한 감사 로그 보존 정책을 만들 수 있습니다. 이 경우, 규정 준수 센터의 **보존 정책 감사** 탭에서 정책(예: 보존 기간 또는 활동 추가/제거)을 편집할 수 없습니다. 규정 준수 센터에서만 정책을 보고 삭제할 수 있습니다. 정책을 편집하려면 보안 및 준수 센터 PowerShell에서 **Set-UnifiedAuditLogRetentionPolicy** cmdlet을 사용해야 합니다.
 
 ## <a name="more-information"></a>추가 정보
 

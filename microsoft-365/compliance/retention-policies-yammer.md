@@ -17,18 +17,30 @@ search.appverid:
 - MOE150
 - MET150
 description: Yammer에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: 2918efe63947ee17cd7f55f19876ae4b98de7a8a
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 84db671b475a9dade039136380cef0bc5bde7282
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204389"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754706"
 ---
 # <a name="learn-about-retention-for-yammer"></a>Yammer의 보존에 대한 자세한 정보
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
 Yammer에 관한 정보를 담고 있으므로 이 문서의 정보는 [보존 정책에 대해 자세히 알아보기](retention.md)를 보완합니다.
+
+다른 워크로드는 다음을 참조하세요.
+
+- [SharePoint 및 OneDrive의 보존에 대해 자세히 알아보기](retention-policies-sharepoint.md)
+- [Microsoft Teams의 보존에 대해 자세히 알아보기](retention-policies-teams.md)
+- [Exchange의 보존에 대해 자세히 알아보기](retention-policies-exchange.md)
+
+## <a name="whats-included-for-retention-and-deletion"></a>보존 및 삭제에 포함된 항목
+
+Yammer에 대한 보존 정책을 사용하여 커뮤니티 메시지 및 개인 메시지 Yammer 항목을 보존 및 삭제할 수 있습니다.
+
+이모티콘 형태의 다른 사람의 반응은 이 메시지에 포함되지 않습니다.
 
 ## <a name="how-retention-works-with-yammer"></a>Yammer를 사용하는 경우의 보존 방식
 
@@ -49,9 +61,9 @@ Yammer 메시지에 대해 보존 정책을 구성한 후 콘텐츠가 취하는
 
 다이어그램의 두 경로:
 
-1. 보존 기간 동안 사용자가 **Yammer 메시지를 편집하거나 삭제**하는 경우에는 원본 메시지가 즉시 복사되거나(편집된 경우) 또는 (삭제된 경우) SubstrateHolds 폴더로 이동됩니다. 이 메시지는 보존 기간이 만료될 때까지 저장된 다음 즉시 영구적으로 삭제됩니다.
+1. 보존 기간 동안 사용자가 **Yammer 메시지를 편집하거나 삭제** 하는 경우에는 원본 메시지가 즉시 복사되거나(편집된 경우) 또는 (삭제된 경우) SubstrateHolds 폴더로 이동됩니다. 이 메시지는 보존 기간이 만료될 때까지 저장된 다음 즉시 영구적으로 삭제됩니다.
 
-2. **Yammer 메시지가 삭제되지 않는 경우**, 편집 후 현재 메시지에 대한 메시지는 보존 기간이 만료 된 후 SubstrateHolds 폴더로 이동합니다. 이 작업은 만료 날짜로부터 최대 7일이 걸립니다. 메시지가 SubstrateHolds 폴더에 있으면 즉시 영구적으로 삭제됩니다. 
+2. **Yammer 메시지가 삭제되지 않는 경우** , 편집 후 현재 메시지에 대한 메시지는 보존 기간이 만료 된 후 SubstrateHolds 폴더로 이동합니다. 이 작업은 만료 날짜로부터 최대 7일이 걸립니다. 메시지가 SubstrateHolds 폴더에 있으면 즉시 영구적으로 삭제됩니다. 
 
 > [!NOTE]
 > SubstrateHolds 폴더의 메시지는 eDiscovery 도구에서 검색할 수 있습니다. 메시지가 영구적으로 삭제 될 때까지 (SubstrateHolds 폴더에서)는 eDiscovery 도구에 의해 검색가능한 상태로 유지됩니다.
@@ -60,20 +72,20 @@ Yammer 메시지에 대해 보존 정책을 구성한 후 콘텐츠가 취하는
 
 ### <a name="content-paths-for-retain-only-retention-policy"></a>보유 전용 보존 정책의 컨텐츠 경로
 
-1. **Yammer 메시지를 편집하거나 삭제하는 경우**: 원본 메시지의 복사본은 SubstrateHolds 폴더에 즉시 만들어지고 보존 기간이 만료될 때까지 보존됩니다. 그런 다음 즉시 SubstrateHolds 폴더에서 메시지가 영구적으로 삭제됩니다.
+1. **Yammer 메시지를 편집하거나 삭제하는 경우** : 원본 메시지의 복사본은 SubstrateHolds 폴더에 즉시 만들어지고 보존 기간이 만료될 때까지 보존됩니다. 그런 다음 즉시 SubstrateHolds 폴더에서 메시지가 영구적으로 삭제됩니다.
 
 2. **Yammer 메시지가 수정되거나 삭제되지 않거나** 보존 기간 중에 편집 후 현재 메시지에 대한 경우: 보존 기간 전후에 아무런 변화가 없습니다. 메시지는 원래 위치에 남아 있습니다.
 
 ### <a name="content-paths-for-delete-only-retention-policy"></a>삭제 전용 보존 정책의 컨텐츠 경로
 
-1. 보존 기간 동안 **Yammer 메시지가 삭제되지 않은 경우**: 보존 기간이 끝나면 메시지가 SubstrateHolds 폴더로 이동됩니다. 이 작업은 만료 날짜로부터 최대 7일이 걸립니다. 그런 다음 즉시 SubstrateHolds 폴더에서 메시지가 영구적으로 삭제됩니다.
+1. 보존 기간 동안 **Yammer 메시지가 삭제되지 않은 경우** : 보존 기간이 끝나면 메시지가 SubstrateHolds 폴더로 이동됩니다. 이 작업은 만료 날짜로부터 최대 7일이 걸립니다. 그런 다음 즉시 SubstrateHolds 폴더에서 메시지가 영구적으로 삭제됩니다.
 
 2. 해당 기간 동안 **사용자가 Yammer 메시지를 삭제하는 경우** 그 항목은 즉시 영구적으로 삭제되는 SubstrateHolds 폴더로 즉시 이동됩니다.
 
 
 ## <a name="messages-and-external-users"></a>메시지 및 외부 사용자
 
-기본적으로 Yammer 비공개 메시지에 대한 보존 정책은 조직의 모든 사용자에게 적용되지만 외부 사용자에게는 적용되지 않습니다. **사용자 선택**을 사용하고 해당 계정을 지정하는 경우 외부 사용자에게 보존 정책을 적용할 수 있습니다. 
+기본적으로 Yammer 비공개 메시지에 대한 보존 정책은 조직의 모든 사용자에게 적용되지만 외부 사용자에게는 적용되지 않습니다. **사용자 선택** 을 사용하고 해당 계정을 지정하는 경우 외부 사용자에게 보존 정책을 적용할 수 있습니다. 
 
 지금은 Azure B2B 게스트 사용자가 지원되지 않습니다.
 
@@ -85,11 +97,9 @@ Yammer 메시지에 대해 보존 정책을 구성한 후 콘텐츠가 취하는
 
 ## <a name="limitations"></a>제한 사항
 
-Yammer 보존 정책은 현재 미리 보기 상태이며 당사는 보존 기능 최적화를 계속 진행하고 있습니다. 그 동안 Yammer 커뮤니티 메시지와 비공개 메시지에 대한 보존을 사용할 때는 다음 몇 가지 제한 사항에 유의해야 합니다.
+Yammer 보존 정책은 현재 미리 보기 상태이며 당사는 보존 기능 최적화를 계속 진행하고 있습니다. 그동안 Yammer 커뮤니티 메시지 및 개인 메시지에 대해 보존을 사용할 때 다음 제한 사항에 유의해야 합니다.
 
-- **Yammer 메시지에 대해 좋아요 및 기타 응답이 보존되지 않습니다**. 이모티콘 형태의 다른 사람들의 반응은 보존 정책에 의해 지원되지 않습니다.
-
-- **Yammer 비공개 메시지** 위치에 대해 **사용자 선택**을 선택하면 게스트 및 사서함이 아닌 사용자가 표시될 수 있습니다. 보존 정책은 이러한 사용자를 위해 설계되지 않았으므로 선택하지 마세요.
+- **Yammer 비공개 메시지** 위치에 대해 **사용자 선택** 을 선택하면 게스트 및 사서함이 아닌 사용자가 표시될 수 있습니다. 보존 정책은 이러한 사용자를 위해 설계되지 않았으므로 선택하지 마세요.
 
 ## <a name="configuration-guidance"></a>구성 지침
 

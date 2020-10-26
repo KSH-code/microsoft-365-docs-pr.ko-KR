@@ -18,28 +18,27 @@ ms.custom:
 - httpsfix
 ms.assetid: 53d3eef6-4a16-4fb9-903c-816d5d98d7e8
 description: '요약: 단일 PowerShell 창에서 모든 Microsoft 365 서비스에 연결합니다.'
-ms.openlocfilehash: 36b16b491aa97e7329e440e2c1fb01b8a221a2b6
-ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
+ms.openlocfilehash: 04be916f745e2bde70554045340fc8ec03f87413
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48477056"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754319"
 ---
 # <a name="connect-to-all-microsoft-365-services-in-a-single-powershell-window"></a>단일 PowerShell 창에서 모든 Microsoft 365 서비스에 연결
 
-PowerShell을 사용하여 Microsoft 365를 관리하는 경우 사용자 계정, SharePoint 온라인, Exchange 온라인, 비즈니스용 Skype 온라인, Microsoft Teams 및 보안 &amp; 규정 준수 관리에 해당하는 서로 다른 PowerShell 창에서 여러 PowerShell 세션을 동시에 열 수 있습니다. 
+PowerShell을 사용하여 Microsoft 365를 관리하는 경우 여러 PowerShell 세션을 동시에 열 수 있습니다. 사용자 계정, SharePoint Online, Exchange Online, 비즈니스용 Skype 온라인, Microsoft Teams, 보안 &amp; 준수 센터를 관리하는 PowerShell 창이 여러 개 있을 수 있습니다.
   
-서비스 관리 창 간에 데이터를 교환할 수 없기 때문에 최적의 Microsoft 365 관리 방법이 아닙니다. 이 항목에서는 Microsoft 365 계정, 비즈니스용 Skype 온라인, Exchange 온라인, SharePoint 온라인, Microsoft Teams 및 보안 &amp; 준수 센터를 관리하는 데 사용할 수 있는 PowerShell의 단일 인스턴스를 사용하는 방법을 설명합니다.
+서비스 관리 창 간에 데이터를 교환할 수 없기 때문에 최적의 Microsoft 365 관리 방법이 아닙니다. 이 문서에서는 Microsoft 365 계정, 비즈니스용 Skype 온라인, Exchange Online, SharePoint Online, Microsoft Teams, 보안 &amp; 준수 센터를 관리하는 데 사용할 수 있는 PowerShell의 단일 인스턴스를 사용하는 방법을 설명합니다.
 
 >[!Note]
->현재 이 문서에는 전 세계(+GCC) 클라우드에 연결하는 명령만 포함 되어 있습니다. 노트에서는 Microsoft 365 클라우드에 연결하는 방법에 대한 정보가 포함된 문서 링크를 제공합니다.
->
+>현재 이 문서에는 전 세계(+GCC) 클라우드에 연결하는 명령만 포함되어 있습니다. 노트에서는 Microsoft 365 클라우드에 연결하는 방법에 대한 문서 링크를 제공합니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
 단일 PowerShell 인스턴스에서 모든 Microsoft 365를 관리하려면 먼저 다음 필수 구성 요소를 고려하세요.
   
-- 이러한 절차에 사용하는 Microsoft 365회사 또는 학교 계정은 Microsoft 365 관리자 역할의 구성원이어야 합니다. 자세한 내용은 [관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)를 참조하세요. 이러한 Microsoft 365 PowerShell 요구 사항은 모든 Microsoft 365 서비스 요구 사항이 아닙니다.
+- 사용하는 Microsoft 365 회사 또는 학교 계정은 Microsoft 365 관리자 역할의 구성원이어야 합니다. 자세한 내용은 [관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)를 참조하세요. 이러한 Microsoft 365 PowerShell 요구 사항은 모든 Microsoft 365 서비스 요구 사항이 아닙니다.
     
 - 다음 64비트 Windows 버전을 사용할 수 있습니다.
     
@@ -57,7 +56,7 @@ PowerShell을 사용하여 Microsoft 365를 관리하는 경우 사용자 계정
     
   - Windows Server 2008 R2 SP1*
     
-    \* Microsoft .NET Framework 4.5. *x*를 설치한 다음 Windows Management Framework 3.0 또는 Windows Management Framework 4.0을 설치해야 합니다. 자세한 내용은 [.NET Framework 설치](https://go.microsoft.com/fwlink/p/?LinkId=257868) 및 [Windows Management Framework 3.0](https://go.microsoft.com/fwlink/p/?LinkId=272757) 혹은 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/p/?LinkId=391344)을 참조하세요.
+    \*Microsoft .NET Framework 4.5. *x* 및 Windows Management Framework 3.0 또는 4.0을 설치해야 합니다. 자세한 내용은 [Windows Management Framework](https://docs.microsoft.com/powershell/scripting/windows-powershell/wmf/overview?view=powershell-7)를 참조하세요.
     
     비즈니스용 Skype 온라인과 하나의 Microsoft 365 모듈 요구 사항 때문에 64비트 버전의 Windows를 사용해야 합니다.
     
@@ -69,7 +68,7 @@ PowerShell을 사용하여 Microsoft 365를 관리하는 경우 사용자 계정
   - [Exchange 온라인 PowerShell V2](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
   - [Teams PowerShell 개요](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
     
--  비즈니스용 Skype 온라인과 보안 &amp; 규정 준수 센터에 대해 서명된 스크립트를 실행하기 위해 PowerShell을 구성해야 합니다. 이렇게 하려면 다음 명령어를 상위 PowerShell 세션에서 실행하세요(**관리자 권한으로 실행**을 선택하여 연 PowerShell).
+-  비즈니스용 Skype 온라인과 보안 &amp; 준수 센터에 대해 서명된 스크립트를 실행하기 위해 PowerShell을 구성해야 합니다. 관리자 권한이 있는 PowerShell 세션에서 다음 명령을 실행 합니다 ( **관리자 권한으로 실행** PowerShellPowerShell 세션).
     
    ```powershell
    Set-ExecutionPolicy RemoteSigned
@@ -77,13 +76,11 @@ PowerShell을 사용하여 Microsoft 365를 관리하는 경우 사용자 계정
 
 ## <a name="exchange-online-and-security-amp-compliance-center-with-the-exchange-online-powershell-v2-module"></a>Exchange Online PowerShell V2 모듈과 함께 Exchange Online 및 보안 &amp; 준수 센터
 
-이 문서에서는 Exchange Online PowerShell V2 모듈을 사용하여 Exchange Online 및 보안 &amp; 준수 센터에 연결합니다. 그러나 현재는 동일한 PowerShell 창에서 Exchange Online과 보안 &amp; 준수 센터 **모두에 연결할 수 없습니다**.
-
-따라서 여러 Microsoft 365 서비스에 대해 PowerShell 창 구성 시 Exchange Online *또는* 보안 &amp; 준수 센터에 연결을 선택해야 합니다.
+이 문서에서는 Exchange Online PowerShell V2 모듈을 사용하여 Exchange Online 및 보안 &amp; 준수 센터에 연결합니다. 그러나 현재 *동일한 PowerShell 창* 에서 둘 다 연결할 수 없습니다. 여러 Microsoft 365 서비스에 대해 PowerShell 창을 구성할 때 하나 또는 다른 하나에 연결하도록 선택해야 합니다.
 
 ## <a name="connection-steps-when-using-just-a-password"></a>암호만 사용하는 경우 연결 단계
 
-로그인에 암호만 사용 하는 경우 단일 PowerShell 창에서 모든 서비스에 연결 하기 위한 단계는 다음과 같습니다.
+로그인에 암호만 사용하는 경우 단일 PowerShell 창에서 모든 서비스에 연결하려면 다음 단계를 따르세요.
   
 1. Windows PowerShell을 엽니다.
     
@@ -93,29 +90,29 @@ PowerShell을 사용하여 Microsoft 365를 관리하는 경우 사용자 계정
    $credential = Get-Credential
    ```
 
-3. 이 명령을 실행하여 Graph 모듈인 Azure Active Directory PowerShell을 사용해 Azure AD에 연결 합니다.
+3. 이 명령을 실행하여 Azure Active Directory PowerShell for Grap 모듈을 사용해 Azure AD에 연결합니다.
     
    ```powershell
    Connect-AzureAD -Credential $credential
    ```
   
-   또는, Windows PowerShell 모듈에 대한 Microsoft Azure Active Directory 모듈을 사용 중이라면 이 명령을 실행하세요.
+   또는, Windows PowerShell용 Microsoft Azure Active Directory 모듈을 사용하고 있는 경우, 이 명령을 실행하세요.
       
    ```powershell
    Connect-MsolService -Credential $credential
    ```
 
    > [!Note]
-   > PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 **Msol**이 있는 cmdlet을 지원하지 않습니다. 이러한 cmdlet을 계속 사용하려면 PowerShell에서 실행해야 합니다.
+   > PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 *Msol* 이 있는 cmdlet을 지원하지 않습니다. PowerShell에서 이 cmdlet을 실행해야 합니다.
 
-4. SharePoint 온라인에 연결 하려면 이 명령을 실행하세요. 도메인에 대한 조직 이름을 지정합니다. 예를 들어 "litwareinc.onmicrosoft.com"의 경우 조직 이름 값은 "litwareinc"입니다.
+4. SharePoint 온라인에 연결 하려면 이 명령을 실행하세요. 도메인에 대한 조직 이름을 지정합니다. 예를 들어 "litwareinc\.onmicrosoft.com"의 경우 조직 이름 값은 "litwareinc"입니다.
     
    ```powershell
    $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
    Connect-SPOService -Url https://$orgName-admin.sharepoint.com -Credential $userCredential
    ```
 
-5. 비즈니스용 Skype 온라인에 연결하려면 다음 명령어를 실행합니다. `WSMan NetworkDelayms`값 증가에 대한 경고는 처음 연결 시 보여지지만 무시해야 합니다.
+5. 비즈니스용 Skype 온라인에 연결하려면 다음 명령어를 실행합니다. 처음에 연결할 때 `WSMan NetworkDelayms` 값을 늘린다는 경고가 표시됩니다. 이 경고는 무시하세요.
      
    > [!Note]
    > Skype for Business Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다. 최신 Teams PowerShell 공개 릴리스를 사용 중인 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.
@@ -136,7 +133,7 @@ PowerShell을 사용하여 Microsoft 365를 관리하는 경우 사용자 계정
    > [!Note]
    > 전 세계 외의 Microsoft 365 클라우드용 Exchange 온라인에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
-7. 또는 이러한 명령을 실행하여 보안 &amp; 준수 센터에 연결합니다.
+   또는 이러한 명령을 실행하여 보안 &amp; 준수 센터에 연결합니다.
     
    ```powershell
    $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -147,7 +144,7 @@ PowerShell을 사용하여 Microsoft 365를 관리하는 경우 사용자 계정
    > [!Note]
    > 전 세계 이외의 Microsoft 365 클라우드에 대한 보안 &amp; 준수 센터에 연결하려면 [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)을 참조하세요.
 
-8. 다음 명령을 실행하여 Teams PowerShell에 연결하세요.
+   다음 명령을 실행하여 Teams PowerShell에 연결하세요.
     
    ```powershell
    Import-Module MicrosoftTeams
@@ -155,12 +152,12 @@ PowerShell을 사용하여 Microsoft 365를 관리하는 경우 사용자 계정
    ```
   
    > [!Note]
-   > 전 세계 이외의 Microsoft Teams 클라우드에 연결하려면 [연결-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams)를 참조하세요.
+   > *전 세계* 이외의 Microsoft Teams 클라우드에 연결하려면 [연결-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams)를 참조하세요.
 
 
-### <a name="azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell
+### <a name="azure-active-directory-powershell-for-graph-module"></a>Azure Active Directory PowerShell for Grap 모듈
 
-다음은 Graph 모듈용 Azure Active Directory PowerShell을 사용하는 경우 단일 블록에서 *보안 &amp; 준수 센터를 제외한* 모든 서비스에 대한 명령입니다. 도메인 호스트의 이름을 지정하고 한 번에 모두 실행합니다.
+다음은 Azure Active Directory PowerShell for Graph 모듈을 사용하는 경우 단일 블록에서 *보안 &amp; 준수 센터를 제외한* 모든 서비스에 대한 명령입니다. 도메인 호스트의 이름을 지정하고 한 번에 모두 실행합니다.
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -177,7 +174,7 @@ Import-Module MicrosoftTeams
 Connect-MicrosoftTeams -Credential $credential
 ```
 
-다음은 Graph 모듈용 Azure Active Directory PowerShell을 사용하는 경우 단일 블록에서 보안 *Exchange Online을 제외한* 모든 서비스에 대한 명령입니다. 로그인을 위해 도메인 호스트 이름 및 UPN을 지정하고 한 번에 모두 실행합니다.
+다음은Azure Active Directory PowerShell for Graph 모듈을 사용하는 경우 단일 블록에서 보안 *Exchange Online을 제외한* 모든 서비스에 대한 명령입니다. 로그인을 위해 도메인 호스트 이름 및 UPN을 지정하고 한 번에 모두 실행합니다.
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -195,9 +192,9 @@ Import-Module MicrosoftTeams
 Connect-MicrosoftTeams -Credential $credential
 ```
 
-### <a name="microsoft-azure-active-directory-module-for-windows-powershell-module"></a>Windows PowerShell 모듈용 Microsoft Azure Active Directory 모듈
+### <a name="microsoft-azure-active-directory-module-for-windows-powershell-module"></a>Windows PowerShell용 Microsoft Azure Active Directory 모듈
 
-다음은 Windows PowerShell 모듈용 Microsoft Azure Active Directory 모듈을 사용하는 경우 단일 블록에서 *보안 &amp; 준수 센터를 제외한* 모든 서비스에 대한 명령입니다. 도메인 호스트의 이름을 지정하고 한 번에 모두 실행합니다.
+다음은 Windows PowerShell용 Microsoft Azure Active Directory 모듈을 사용하는 경우 단일 블록에서 *보안 &amp; 준수 센터를 제외한* 모든 서비스에 대한 명령입니다. 도메인 호스트의 이름을 지정하고 한 번에 모두 실행합니다.
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -214,7 +211,7 @@ Import-Module MicrosoftTeams
 Connect-MicrosoftTeams -Credential $credential
 ```
 
-다음은 Windows PowerShell 모듈용 Microsoft Azure Active Directory 모듈을 사용하는 경우 단일 블록에서 *Exchange Online을 제외한* 모든 서비스에 대한 명령입니다. 로그인을 위해 도메인 호스트 이름 및 UPN을 지정하고 한 번에 모두 실행합니다.
+다음은 Windows PowerShell용 Microsoft Azure Active Directory 모듈을 사용하는 경우 단일 블록에서 *Exchange Online을 제외한* 모든 서비스에 대한 명령입니다. 로그인을 위해 도메인 호스트 이름 및 UPN을 지정하고 한 번에 모두 실행합니다.
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -235,7 +232,7 @@ Connect-MicrosoftTeams -Credential $credential
 
 ### <a name="azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell
 
-다음은 Graph 모듈용 Azure Active Directory PowerShell을 사용하는 다단계 인증과 함께 * 보안 &amp; 준수 센터를 제외하고* 여러 Microsoft 365 서비스에 연결하는 단일 블록의 모든 명령입니다.
+다음은 Azure Active Directory PowerShell for Graph 모듈을 사용하는 다단계 인증과 함께 *보안 &amp; 준수 센터를 제외하고* 여러 Microsoft 365 서비스에 연결하는 단일 블록의 모든 명령입니다.
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -255,7 +252,7 @@ Connect-ExchangeOnline -UserPrincipalName $acctName -ShowProgress $true
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams
 ```
-다음은 Graph 모듈용 Azure Active Directory PowerShell을 사용하는 다단계 인증과 함께 *Exchange Online을 제외하고* 여러 Microsoft 365 서비스에 연결하는 단일 블록의 모든 명령입니다.
+다음은 Azure Active Directory PowerShell for Graph 모듈을 사용하는 다단계 인증과 함께 *Exchange Online을 제외하고* 여러 Microsoft 365 서비스에 연결하는 단일 블록의 모든 명령입니다.
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -275,9 +272,9 @@ Connect-IPPSSession -UserPrincipalName $acctName
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams
 ```
-### <a name="microsoft-azure-active-directory-module-for-windows-powershell-module"></a>Windows PowerShell 모듈용 Microsoft Azure Active Directory 모듈
+### <a name="microsoft-azure-active-directory-module-for-windows-powershell-module"></a>Windows PowerShell용 Microsoft Azure Active Directory 모듈
 
-다음은 Windows PowerShell 모듈용 Microsoft Azure Active Directory 모듈을 사용하는 다단계 인증과 함께 * 보안 &amp; 준수 센터를 제외하고* 여러 Microsoft 365 서비스에 연결하는 단일 블록의 모든 명령입니다.
+다음은 Windows PowerShell용 Microsoft Azure Active Directory 모듈을 사용하는 다단계 인증과 함께 *보안 &amp; 준수 센터를 제외하고* 여러 Microsoft 365 서비스에 연결하는 단일 블록의 모든 명령입니다.
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -297,7 +294,7 @@ Connect-ExchangeOnline -UserPrincipalName $acctName -ShowProgress $true
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams
 ```
-다음은 Windows PowerShell 모듈용 Microsoft Azure Active Directory 모듈과 함께 다단계 인증을 사용하는 *Exchange Online을 제외하고* 여러 Microsoft 365 서비스에 연결하는 단일 블록의 모든 명령입니다.
+다음은 Windows PowerShell용 Microsoft Azure Active Directory 모듈과 함께 다단계 인증을 사용하는 *Exchange Online을 제외하고* 여러 Microsoft 365 서비스에 연결하는 단일 블록의 모든 명령입니다.
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -320,12 +317,11 @@ Connect-MicrosoftTeams
 
 ## <a name="close-the-powershell-window"></a>PowerShell 창 닫기
 
-PowerShell 창을 닫을 준비가 되면 해당 명령을 실행하여 비즈니스용 Skype 온라인, SharePoint 온라인 및 Teams에 대한 활성 세션을 제거합니다.
+PowerShell 창을 닫으려면 이 명령을 실행하여 비즈니스용 Skype 온라인, SharePoint Online 및 Teams에 대한 활성 세션을 제거합니다.
   
 ```powershell
 Remove-PSSession $sfboSession ; Disconnect-SPOService ; Disconnect-MicrosoftTeams 
 ```
-
 
 ## <a name="see-also"></a>참고 항목
 
