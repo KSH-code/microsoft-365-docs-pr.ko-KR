@@ -17,20 +17,20 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Microsoft Endpoint Manager를 사용하여 장치, PC 및 기타 끝점을 관리합니다.
-ms.openlocfilehash: b50279166b313742dbfbe8e75dd9788aac6b1daa
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 72aa26c50f5d3c20409382f19d8beabb5d290023
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445968"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681483"
 ---
 # <a name="step-4-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>4단계. 장치, PC 및 기타 끝점에 대한 끝점 관리 기능 배포
 
 원격 작업자의 경우 점점 늘어나는 개인 장치를 지원해야 합니다. 끝점 관리 기능은 장치에서 리소스에 대한 액세스 권한을 부여받기 전에 특정 기준을 준수해야 하는 정책 기반의 보안 방식입니다. Microsoft Endpoint Manager는 클라우드 및 온-프레미스에서 데이터를 안전하게 유지하기 위한 최신 관리 기능을 제공합니다. 
 
-Endpoint Manager는 이미 알고 있고 사용하고 있는 다음 서비스를 결합하여 모바일 장치, 데스크톱 컴퓨터, 가상 머신, 내장 장치, 서버를 관리하는 서비스와 도구를 제공합니다.
+[Microsoft Endpoint Manager](https://docs.microsoft.com/mem/endpoint-manager-overview)는 사용자가 이미 알고 사용 중에 있는 다음 서비스를 결합하여 모바일 장치, 데스크톱 컴퓨터, 가상 머신, 내장 장치, 서버를 관리하는 서비스와 도구를 제공합니다.
 
-![끝점 관리용 구성 요소](../media/empower-people-to-work-remotely/endpoint-managment-step-grid.png)
+![Microsoft 365의 끝점 관리 구성 요소](../media/empower-people-to-work-remotely/endpoint-managment-step-grid.png)
 
 ## <a name="microsoft-intune"></a>Microsoft Intune
 
@@ -58,13 +58,13 @@ Configuration Manager는 온-프레미스 관리 솔루션으로서 네트워크
 
 ## <a name="desktop-analytics"></a>Desktop Analytics
 
-Desktop Analytics는 Configuration Manager와 통합하고 사용자에게 Windows 클라이언트에 대한 의사 결정을 내리는 데 도움이 되는 정보와 인텔리전스를 제공하는 클라우드 기반 서비스입니다. Microsoft 클라우드 서비스에 연결된 수백만 개의 장치에서 집계한 데이터를 조직의 데이터와 결합합니다. 
+Desktop Analytics는 Configuration Manager와 통합하고 사용자에게 Windows 클라이언트에 대한 의사 결정을 내리는 데 도움이 되는 정보와 인텔리전스를 제공하는 클라우드 기반 서비스입니다. Microsoft 클라우드 서비스에 연결된 수백만 개의 다른 장치에서 집계한 데이터를 조직의 데이터와 결합합니다. 
 
 데스크톱 분석을 통해 다음의 작업을 수행할 수 있습니다.
 
 - 조직에서 실행 중인 앱의 인벤토리를 만듭니다.
 - 최신 Windows 10 기능 업데이트와 앱 호환성을 평가합니다.
-- 호환성 문제를 확인하고 클라우드 사용 데이터를 기반으로 하는 완화 제안을 받을 수 있습니다.
+- 클라우드 사용 데이터를 기반으로 하는 호환성 문제를 식별하고 완화 제안을 받습니다.
 - 최소 장치 집합에서 전체 응용 프로그램 및 드라이버 공간을 나타내는 파일럿 그룹을 만듭니다.
 - 파일럿 및 프로덕션 관리 장치에 Windows 10을 배포합니다.
 
@@ -72,7 +72,7 @@ Desktop Analytics는 Configuration Manager와 통합하고 사용자에게 Windo
 
 ## <a name="windows-autopilot"></a>Windows Autopilot
 
-Windows Autopilot은 제로터치의 셀프 서비스 Windows 배포 플랫폼입니다. 여기에는 새 장치를 설정하고 사전 구성하는 데 사용되는 기술의 컬렉션이 포함되어 있으며, 이를 통해 장치의 생산적인 활용을 위한 준비를 합니다. 또한 Windows Autopilot를 사용하여 장치를 재설정 하고 용도를 변경하며 복구를 할 수도 있습니다. 
+Windows Autopilot은 제로터치의 셀프 서비스 Windows 배포 플랫폼입니다. 여기에는 새 장치를 설정하고 사전 구성하는 데 사용되는 기술 모음을 포함하며, 이를 통해 장치의 생산적인 활용을 위한 준비를 합니다. 또한 Windows Autopilot를 사용하여 장치를 재설정 하고 용도를 변경하며 복구를 할 수도 있습니다. 
 
 Windows 자동 실행 기능을 사용하면 IT 부서가 쉽고 간단한 프로세스를 통해 관리할 인프라가 거의 없거나 전혀 없는 장치를 미리 구성할 수 있습니다. 
 
@@ -83,9 +83,7 @@ Windows 자동 실행 기능을 사용하면 IT 부서가 쉽고 간단한 프�
 
 ## <a name="admin-technical-resources-for-endpoint-management"></a>끝점 관리를 위한 관리자 기술 리소스
 
-- [원격 작업자를 위한 Windows 10 장치 관리에 대한 동영상 파트 3](https://resources.techcommunity.microsoft.com/enabling-remote-work/#security)
-- [원격 작업자를 위한 사용자 데스크톱 및 브라우저 관리에 대한 동영상 파트 5](https://resources.techcommunity.microsoft.com/enabling-remote-work/#security)
-- [Microsoft 365에 대한 이동성 인프라 배포](https://docs.microsoft.com/microsoft-365/enterprise/mobility-infrastructure)
+- [Microsoft 365의 장치 관리 로드맵](../enterprise/device-management-roadmap-microsoft-365.md)
 - [모바일 장치 관리에 다양한 유형의 장치를 등록하는 방법](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment)
 - [Microsoft Intune에 대해 최종 사용자를 교육하는 방법](https://docs.microsoft.com/mem/intune/fundamentals/end-user-educate)
  

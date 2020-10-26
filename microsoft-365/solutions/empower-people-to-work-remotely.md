@@ -18,12 +18,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: ''
 description: 직원들이 언제 어디서나 원격으로 작업할 수 있도록 하는 보안 및 서비스 인프라를 구성합니다.
-ms.openlocfilehash: ca5774c027eebaedd42bcca23292b89d92f1e102
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: 60467f0ed3cf7aa75481cb3bb49f954c32bf2e7d
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487747"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681399"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Microsoft 365를 사용하여 원격 작업자의 역량 강화하기
 
@@ -48,6 +48,7 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
   원격 작업자는 전 세계 어디서나 언제든지 다음 항목에 액세스할 수 있습니다. 
 
   - Microsoft 365 구독의 클라우드 기반 서비스 및 데이터 
+
   - 온-프레미스 응용 프로그램 데이터 센터에서 제공하는 그러한 조직 리소스
 
 - 보안
@@ -61,15 +62,18 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 - 공동 작업 및 생산성
 
   원격 작업자는 다음과 같이 매우 협력적인 방식으로 온-프레미스 환경에서처럼 생산적으로 작업할 수 있습니다.
+
   - Teams를 통한 온라인 팀 회의 및 채팅 
+
   - SharePoint 및 OneDrive를 통한 전역 접근성과 실시간 공동 작업이 가능한 클라우드 기반 파일 저장소를 위한 공유 작업 영역
+
   - 작업을 분할하고 완료하기 위한 공유 작업 및 워크플로 
 
 원활하게 로그인하려면 온-프레미스 Active Directory 도메인 서비스(AD DS) 사용자 계정을 Azure Active Directory(Azure AD)와 동기화해야 합니다. Windows 10 장치를 보호하려면 Intune에서 장치를 등록해야 합니다. 다음은 인프라의 개괄적인 보기입니다.
 
 ![Microsoft 365를 사용하는 원격 작업자용 기본 인프라](../media/empower-people-to-work-remotely/remote-workers-basic-infrastructure.png)
 
-원격 작업자에 대한 이러한 조건을 충족하기 위해 다음과 같은 Microsoft 365 기능 및 특징을 사용합니다.
+원격 작업자를 위한 Microsoft 365의 기능을 사용하려면 다음 Microsoft 365 기능을 사용하세요.
 
 | 기능 또는 특징 | 설명 | 라이선싱 |
 |:-------|:-----|:-------|
@@ -86,7 +90,7 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 | 기능이며 | 장치의 소프트웨어 설치, 업데이트 및 설정 관리 | 별도의 Configuration Manager 라이선스 필요 |
 | Desktop Analytics | Windows 클라이언트의 업데이트 준비 상태를 확인합니다.   | 별도의 Configuration Manager 라이선스 필요 |
 | Windows Autopilot | 새 Windows 10 장치를 업무용으로 사용하도록 설정하고 사전 구성합니다.   | Microsoft 365 E3 혹은 E5 |
-| Microsoft Teams, Exchange Online, SharePoint Online 및 OneDrive, Microsoft 365 Apps, Microsoft Power Platform, Yammer, Power Apps | 만들고, 소통하며, 공동 작업합니다. | Microsoft 365 E3 혹은 E5 |
+| Microsoft Teams, Exchange Online, SharePoint Online 및 OneDrive, Microsoft 365 앱, Microsoft Power Platform 및 Yammer | 만들고, 소통하며, 공동 작업합니다. | Microsoft 365 E3 혹은 E5 |
 ||||
 
 보안 및 규정 준수 기준에 대한 내용은 [원격 작업자에 대한 보안 및 규정 준수 배포](empower-people-to-work-remotely-security-compliance.md)를 참조하세요.
@@ -97,7 +101,7 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 
 이 포스터를 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf) 형식으로 다운로드 할 수 있고 편지형, 법률형, 타블로이드(11 x 17) 크기 용지에 인쇄할 수 있습니다.
 
-다음 단계를 사용하여 조직의 서버, 데이터 및 클라우드 서비스에 대한 액세스를 보호하고 최적화하며 최대 작업자 생산성을 설정합니다.
+다음 단계를 사용하여 조직의 서버 및 클라우드 서비스에 대한 액세스를 보호하고 최적화하며 원격 작업자의 생산성을 극대화합니다.
 
 1. [MFA로 로그인 보안 강화](empower-people-to-work-remotely-secure-sign-in.md)
 2. [온-프레미스 앱 및 서비스로의 원격 액세스 제공](empower-people-to-work-remotely-remote-access.md)
@@ -108,4 +112,4 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 
 [![Microsoft 365를 사용하여 원격 작업자의 역량을 강화하기 위한 단계](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)](empower-people-to-work-remotely-secure-sign-in.md)
 
-원격 작업자 지원에 대한 Microsoft의 최신 정보는 [원격 작업 기술 커뮤니티 사이트](https://resources.techcommunity.microsoft.com/enabling-remote-work/)을 참조하세요.
+원격 작업자 지원에 대한 Microsoft의 최신 정보는 [Microsoft Teams 사이트에서 하이브리드 작업 사용](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/)을 참조하세요.

@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Microsoft 365 보안 및 규정 준수 서비스를 사용하여 원격 작업자를 위한 애플리케이션, 데이터 및 장치를 보호할 수 있습니다.
-ms.openlocfilehash: 36abe8b8dbd84a883d829308fc970258e7551f2e
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 7607f3945d2e3c4e057162296df94dce4c611dbe
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445888"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681471"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-remote-workers"></a>3단계: 원격 작업자를 위한 보안 및 규정 준수 구현
 
@@ -39,6 +39,8 @@ ms.locfileid: "48445888"
 - 정보유출 방지
 - 지역 데이터 규정을 준수
 
+다음은 원격 작업자에 대한 보안 및 규정 준수 서비스를 제공하는 Microsoft 365의 기능입니다.
+
 ![이러한 Microsoft 365 서비스를 사용하여 보안을 유지하고 규정 준수](../media/empower-people-to-work-remotely/remote-workers-security-compliance-grid.png)
 
 ## <a name="security"></a>보안
@@ -54,7 +56,7 @@ Microsoft 365의 이러한 보안 기능으로 애플리케이션과 데이터�
 | Azure AD ID 보호  | ID 기반 리스크의 감지 및 해결 작업을 자동화합니다. <br><br>위험 기반 조건부 액세스 정책을 만들어 위험 로그인에 대한 MFA(다단계 인증)를 요구합니다. | Azure AD Premium P2 라이선스를 포함한 Microsoft 365 E5 또는 E3 |
 ||||
 
-자세한 내용은 [Microsoft 365 준수 시작을 위한 빠른 작업](../compliance/compliance-quick-tasks.md)을 참조하세요.
+자세한 내용은 [보안 팀이 재택 근무를 지원하는 상위 12가지 작업](../security/top-security-tasks-for-remote-work.md)을 참조하세요.
 
 ## <a name="compliance"></a>규정 준수
 
@@ -73,13 +75,13 @@ Microsoft 365의 이러한 규정 준수 기능을 사용하여 내부 정책 �
 | 내부자 위험 관리 |  조직의 악의적이고 부주의한 위험을 감지하고, 조사하고 조치를 취합니다. Microsoft 365는 직원들이 관리되지 않는 장치를 사용하는 경우에도 이러한 위험을 감지할 수 있습니다. | 규정 준수 혹은 내부자 위험 관리 추가 기능을 사용하는 Microsoft 365 E5 또는 Microsoft 365 E3 |
 ||||
 
-자세한 내용은 [보안 팀이 재택 근무를 지원하는 상위 12가지 작업](../security/top-security-tasks-for-remote-work.md)을 참조하세요.
+자세한 내용은 [Microsoft 365 규정 준수 시작을 위한 빠른 작업](../compliance/compliance-quick-tasks.md)을 참조하세요.
 
 ## <a name="results-of-step-3"></a>3단계의 결과
 
 원격 작업자의 경우 다음을 구현했습니다.
 
-- 보안:
+- 보안
   - 원격 작업자가 통신하고 협업하는 데 사용하는 애플리케이션 및 데이터에 대한 액세스를 제어합니다.
   - 클라우드 서비스 데이터, 전자 메일 및 Windows 10 장치를 위한 악성 프로그램 차단 기능 
 - 규정 준수

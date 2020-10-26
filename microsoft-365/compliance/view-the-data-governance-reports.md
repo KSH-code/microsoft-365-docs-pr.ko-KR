@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 보안 및 준수 센터의 데이터 거버넌스 보고서를 사용하여 레이블이 의도대로 콘텐츠에 적용되는지 빠르게 확인할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a4d0fb70774dfb03dc0bc674edf09c092d8b498f
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: acd042f73500004014a9c229c2a5f34552888c97
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819008"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681756"
 ---
 # <a name="view-the-data-governance-reports"></a>데이터 거버넌스 보고서 보기
 
@@ -37,7 +37,7 @@ ms.locfileid: "44819008"
     
 이러한 모든 보고서는 Exchange, SharePoint 및 비즈니스용 OneDrive에서 레이블이 지정된 콘텐츠를 표시합니다.
   
-보안 및 &amp; 준수 센터 \>**정보 거버넌스** \> **대시보드**에서 이러한 보고서를 찾을 수 있습니다.
+&amp;보안 및  준수 센터 \> **정보 거버넌스** \> [**대시보드**](https://protection.office.com/datamanagement/dashboard)에서 이러한 보고서를 찾을 수 있습니다.
   
 ![지난 90일 동안의 레이블 추세를 보여 주는 차트](../media/0cc06c18-d3b1-4984-8374-47655fb38dd2.png)
   

@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 원격 작업자는 MFA(다단계 인증)를 사용하여 로그인해야 합니다.
-ms.openlocfilehash: 7f24402dcedd4b544c5e6d8af2a0e18d3b62da27
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: aa9b122ca18c4d8a8123914ee2d29d41c9ec789e
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445929"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681459"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>1단계. MFA를 사용하여 원격 작업자에 대 한 로그인 보안 강화
 
@@ -38,12 +38,12 @@ ms.locfileid: "48445929"
 |---------|---------|
 |모든 Microsoft 365 요금제(Azure AD Premium P1 또는 P2 라이선스 제외)     |[Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)에서 보안 기본값을 사용하도록 설정 합니다. Azure AD의 보안 기본값에는 사용자 및 관리자를 위한 MFA가 포함됩니다.   |
 |Microsoft 365 E3(Azure AD Premium P1 라이선스 포함)     | [공통 조건부 액세스 정책](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common)을 사용하여 다음 정책을 구성합니다. <br>- [관리자에게 MFA 요구](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [모든 사용자에 대해 MFA 요구](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [레거시 인증 차단](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
-|Microsoft 365 E5(Azure AD Premium P2 라이선스 포함)     | Azure Active Directory Identity Protection을 활용하여 다음 두 정책을 만들어 Microsoft의 [권장 조건부 액세스 및 관련 정책 집합](../security/office-365-security/identity-access-policies.md)을 구현하세요.<br> - [로그인 위험이 중간 이상인 경우 MFA 필요](../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [최신 인증을 지원하지 않는 클라이언트 차단](../security/office-365-security/identity-access-policies.md#block-clients-that-dont-support-modern-authentication)<br>- [위험이 높은 사용자는 암호를 변경해야 함](../security/office-365-security/identity-access-policies.md#high-risk-users-must-change-password)       |
+|Microsoft 365 E5(Azure AD Premium P2 라이선스 포함)     | Azure AD ID 보호를 활용하여 다음 정책을 만들어 Microsoft의 [권장 조건부 액세스 및 관련 정책 집합](../security/office-365-security/identity-access-policies.md)을 구현하세요.<br> - [로그인 위험이 중간 이상인 경우 MFA 필요](../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [최신 인증을 지원하지 않는 클라이언트 차단](../security/office-365-security/identity-access-policies.md#block-clients-that-dont-support-modern-authentication)<br>- [위험이 높은 사용자는 암호를 변경해야 함](../security/office-365-security/identity-access-policies.md#high-risk-users-must-change-password)       |
 | | |
 
 ## <a name="security-defaults"></a>보안 기본값
 
-보안 기본값은 2019년 10월 21일 이후에 개발된 Microsoft 365 및 Office 365 유료 또는 평가판 구독을위한 새로운 기능입니다. 이 구독에는 보안 기본값이 설정되어 있으며 ***모든 사용자가 Microsoft Authenticator 앱과 함께 MFA를 사용해야 합니다***.
+보안 기본값은 2019년 10월 21일 이후에 개발된 Microsoft 365 및 Office 365 유료 또는 평가판 구독을위한 새로운 기능입니다. 이 구독에는 보안 기본값이 설정되어 있으며 **모든 사용자가 Microsoft Authenticator 앱과 함께 MFA를 사용해야 합니다**_.
  
 사용자는 스마트 폰에서 Microsoft Authenticator 앱으로 MFA에 14일 간 등록할 수 있으며, 이는 보안 기본값이 활성화된 후 처음 로그인 할 때부터 시작됩니다. 14일이 지나면 MFA 등록이 완료될 때까지 사용자가 로그인할 수 없습니다.
 
@@ -75,6 +75,9 @@ Azure AD ID 보호 기능은 Microsoft 365 E5에 포함된 Azure AD Premium P2 �
 
 자세한 내용은 [위험에 기반한 조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk#require-mfa-medium-or-high-sign-in-risk-users)를 참조하세요.
 
+Azure AD ID 보호를 사용하여 사용자가 MFA에 등록하도록 요구하는 정책을 만들 수도 있습니다. 더 자세한 내용은 [Azure Multi-Factor Authentication 등록 정책 구성](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)을 참조하세요.
+
+
 ## <a name="using-these-methods-together"></a>이 방법들을 함께 사용
 
 다음 사항에 유의해야 합니다.
@@ -88,13 +91,13 @@ Azure AD ID 보호 기능은 Microsoft 365 E5에 포함된 Azure AD Premium P2 �
 
 | 메서드 | 사용 | 사용 안 함 | 추가 인증 방법 |
 |:-------|:-----|:-------|:-------|
-| **보안 기본값**  | 조건부 액세스 정책을 사용할 수 없습니다 | 조건부 액세스 정책을 사용할 수 있습니다 | Microsoft Authenticator 앱 |
+| _*보안 기본값**  | 조건부 액세스 정책을 사용할 수 없습니다 | 조건부 액세스 정책을 사용할 수 있습니다 | Microsoft Authenticator 앱 |
 | **조건부 액세스 정책** | 이 중 하나가 사용되는 경우 보안 기본값을 사용할 수 없습니다. | 상기 수단을 모두 사용하지 않도록 설정한 경우, MFA 등록 중 사용자가 지정한   | 보안 기본값을 사용할 수 있습니다  |
 ||||
 
 ## <a name="let-your-users-reset-their-own-passwords"></a>사용자가 암호를 직접 재설정할 수 있도록 허용
 
-사용자는 셀프 서비스 암호 재설정(SSPR)을 사용하여 IT 직원이 없어도 암호를 재설정할 수 있습니다. 사용자는 언제 어디에서나 암호를 신속하게 재설정할 수 있습니다. [이 동영상](https://go.microsoft.com/fwlink/?linkid=2128524)을 시청하여 SSPR을 설정합니다.
+사용자는 셀프 서비스 암호 재설정(SSPR)을 사용하여 IT 직원이 없어도 암호를 재설정할 수 있습니다. 사용자는 언제 어디에서나 암호를 신속하게 재설정할 수 있습니다. 더 자세한 내용은 [Azure AD 셀프 서비스 암호 재설정 배포 계획](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment)을 참조하세요.
 
 ## <a name="sign-in-to-saas-apps-with-azure-ad"></a>Azure AD를 사용하여 SaaS 앱에 로그인
 
@@ -102,12 +105,9 @@ Azure AD는 사용자에게 클라우드 인증을 제공할 뿐만 아니라 �
 
 ## <a name="admin-technical-resources-for-mfa-and-identity"></a>MFA 및 ID에 대한 관리자 기술 리소스
 
-- [Microsoft 365에 대한 MFA](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365)
 - [Azure AD를 사용하여 원격 작업을 수행하는 데 도움이 되는 상위 5가지 방법](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/top-5-ways-your-azure-ad-can-help-you-enable-remote-work/ba-p/1144691)
 - [Microsoft 365의 ID 로드맵](../enterprise/identity-roadmap-microsoft-365.md)
 - [Azure Academy Azure AD 교육 비디오](https://www.youtube.com/watch?v=pN8o0owHfI0&list=PL-V4YVm6AmwUFpC3rXr2i2piRQ708q_ia)
-- [Azure Multi-Factor Authentication 등록 정책 구성](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
-- [Azure AD 셀프 서비스 암호 재설정 배포 계획](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment)
 
 ## <a name="results-of-step-1"></a>1단계 결과
 

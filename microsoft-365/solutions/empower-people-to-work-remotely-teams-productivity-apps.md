@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 사용자가 Teams, Exchange, SharePoint 및 기타 Microsoft 365 서비스를 사용하여 생산성을 향상시킬 수 있도록 합니다.
-ms.openlocfilehash: 879df16b379a82fcdc9478f8b3a787dd74384171
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 57e862769533b8c076513874e7f6daafdbe836da
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445835"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681411"
 ---
 # <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>5단계. 원격 작업자 생산성 앱 및 서비스 배포
 
@@ -30,7 +30,7 @@ ms.locfileid: "48445835"
 
 - 사용자들이 떨어져서 작업하는 동안 그들의 연결을 유지하기 위해서 조직, 부서, 그리고 소규모 팀과 개인에게 모임을 위한 공동 통신 허브, 채팅 그리고 파일 저장소를 제공하는 Microsoft Teams를 사용합니다. 
 - 전자 메일을 교환하고 일정, 연락처 및 작업을 관리하는 데 Exchange Online과 Outlook 클라이언트를 사용하도록 합니다.
-- 파일을 저장하고 공동 작업을 하려면 SharePoint 및 OneDrive를 사용합니다. 이들은 웹 브라우저나 Teams 내에서 사용할 수 있습니다.
+- 파일을 저장하고 공동 작업을 하려면 SharePoint 및 OneDrive를 사용합니다. 웹 브라우저나 Teams 내에서 사용할 수 있습니다.
 - 새 콘텐츠를 만들거나 기존 콘텐츠에 대해 공동 작업을 하는 데, Microsoft 365 앱은 로컬 컴퓨터에 설치된 Word, PowerPoint, Excel 및 Outlook 버전이며 지속적인 기능과 보안 업데이트를 받습니다.
 
 ![Teams, Outlook, SharePoint, OneDrive 및 Microsoft 365 앱을 사용해서 생산성 유지](../media/empower-people-to-work-remotely/remote-workers-productivity-grid.png)
@@ -39,9 +39,9 @@ ms.locfileid: "48445835"
 
 Teams를 사용하면 한 곳에서 채팅, 모임, 통화, 공동 작업을 모두 수행할 수 있습니다. Teams는 팀워크를 위한 허브로 원격 작업을 하는 데 필요한 모든 것을 통합하고 있기에 수백만 명의 사용자가 매일 Teams에서 작업을 수행합니다. 
 
-[이 문서](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams)를 Teams를 이용한 원격 작업자 지원 지침으로 사용할 수 있습니다.  
+자세한 지침은 [Microsoft Teams를 사용하여 원격 작업자 지원하기](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams)를 참조하세요. 
 
-원격 작업을 위한 Teams의 사용에 대한 지침 및 데모를 보려면 [동영상 파트 1](https://resources.techcommunity.microsoft.com/enabling-remote-work/#productivity)을 시청하세요.
+원격 작업에 Teams 사용에 대한 지침 및 데모는 [Microsoft Teams 웹캐스트를 사용하여 하이브리드 작업 사용](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/)을 시청하세요.
 
 ### <a name="chat-and-conversations"></a>채팅 및 대화
 
@@ -84,12 +84,12 @@ SharePoint 및 OneDrive를 보호하기 위해 권장 ID 및 장치 액세스 �
 
 Microsoft 365 앱은 언제 어디에서나 사용자들이 원활하게 함께 작업할 수 있도록 해주는 기업에 가장 생산적이고 안전한 Office 환경입니다. 원격 작업자는 동시에 여러 사용자와 한 문서에 대해 공동 작업을 하고, 실시간으로 편집 및 변경된 내용을 보고, 모든 노트북, PC 또는 모바일 장치를 통해 다른 사용자들과 공동 작성할 수 있습니다.
 
-엔터프라이즈 환경에서 Microsoft 365 앱을 계획, 배포 및 관리하려면 [이 문서](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)를 참조하세요.
+자세한 내용은 [Microsoft 365 앱용 배포 가이드](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)를 참조하세요.
 
 ## <a name="admin-technical-resources-for-productivity-apps-and-services"></a>생산성 앱 및 서비스를 위한 관리자 기술 리소스
 
 - [Microsoft Teams를 사용하여 원격 작업자 지원하기](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams)
-- [원격 작업자를 위한 Teams에 대한 동영상 파트 1](https://resources.techcommunity.microsoft.com/enabling-remote-work/#productivity)
+- [Microsoft Teams 웹캐스트를 사용하여 하이브리드 작업 사용](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/)
 - [Teams 고객 성공 키트 다운로드](https://www.microsoft.com/download/details.aspx?id=54244)
 - [Teams의 채택을 촉진하기 위한 도구](https://docs.microsoft.com/microsoftteams/adopt-tools-and-downloads) 
 - [Microsoft Teams에 대한 변경 관리 전략 만들기](https://docs.microsoft.com/MicrosoftTeams/change-management-strategy)

@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Microsoft 365 클라우드 서비스로의 액세스를 최적화하는 동안 원격 작업자는 온-프레미스 리소스에 액세스할 수 있는지 확인합니다.
-ms.openlocfilehash: 0e44dad5172672cbe06c0690bcfee27ea153c6c3
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 1fbb1cb6ad9817f0e167ae95f9fc113ecdee4221
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445992"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681423"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>2단계. 온-프레미스 앱 및 서비스로의 원격 액세스 제공
 
@@ -30,17 +30,18 @@ ms.locfileid: "48445992"
 
 사용자가 VPN 솔루션을 사용하지 않는 경우에는 Azure AD(Azure Active Directory) 응용 프로그램 프록시 및 Azure 지점 및 사이트 간(P2S) VPN을 사용하여 모든 앱이 웹 기반 인지에 따라 액세스 권한을 제공할 수 있습니다.
 
-다음과 같은 세 가지 기본 구성이 있습니다.
+원격 액세스를 위한 기본 구성은 다음과 같습니다.
 
-1. 이미 원격 액세스 VPN 솔루션을 사용하고 있습니다.
-2. 원격 액세스 VPN 솔루션을 사용하지 않고 있으며 하이브리드 ID가 있어, 사용자는 온-프레미스 웹 기반 앱으로의 원격 액세스만 필요로 합니다.
-3. 원격 액세스 VPN 솔루션을 사용하지 않고 있어, 온-프레미스 앱으로의 액세스 권한이 필요하며 앱 중 일부는 웹 기반이 아닙니다.
+- 이미 원격 액세스 VPN 솔루션을 사용하고 있습니다.
+- 원격 액세스 VPN 솔루션을 사용하지 않고 원격 작업자가 개인용 컴퓨터를 사용하기를 원합니다.
+- 원격 액세스 VPN 솔루션을 사용하지 않고 있으며 하이브리드 ID가 있어, 사용자는 온-프레미스 웹 기반 앱으로의 원격 액세스만 필요로 합니다.
+- 원격 액세스 VPN 솔루션을 사용하지 않고 있어, 온-프레미스 앱으로의 액세스 권한이 필요하며 앱 중 일부는 웹 기반이 아닙니다.
 
 이 문서에서 설명하는 원격 액세스 구성 옵션을 보려면 이 순서도를 참조하세요.
 
 ![원격 액세스 구성 순서도](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-flowchart.png)
 
-또한 원격 액세스 연결을 사용하여 [원격 데스크톱](https://support.microsoft.com/help/4028379/windows-10-how-to-use-remote-desktop)을 사용하여 사용자를 온-프레미스 PC에 연결할 수도 있습니다. 예를 들어 원격 작업자는 원격 데스크톱을 사용 하 여 Windows, iOS 또는 Android 장치에서 사무실의 PC에 연결할 수 있습니다. 원격으로 연결되면 바로 앞에 앉아있는 것처럼 사용할 수 있습니다.
+또한 원격 액세스 연결을 사용하여 [원격 데스크톱](https://support.microsoft.com/help/4028379/windows-10-how-to-use-remote-desktop)을 사용하여 사용자를 온-프레미스 PC에 연결할 수도 있습니다. 예를 들어, 원격 작업자는 원격 데스크톱을 사용하여 Windows, iOS 또는 Android 장치에서 사무실의 PC에 연결할 수 있습니다. 원격으로 연결되면 바로 앞에 앉아있는 것처럼 사용할 수 있습니다.
 
 ## <a name="optimize-performance-for-remote-access-vpn-clients-to-microsoft-365-cloud-services"></a>Microsoft 365 클라우드 서비스에 대한 원격 액세스 VPN 클라이언트의 성능 최적화
 
@@ -54,7 +55,9 @@ Microsoft 365 트래픽은 조직을 통해 간접 경로를 가져와야 하며
 
 분할 터널링을 사용할 경우, 사용자는 특정 유형의 트래픽을 제외하여 VPN 연결을 통해 조직 네트워크에 보내지 않도록 VPN 클라이언트를 구성할 수 있습니다.
 
-Microsoft 365 클라우드 리소스에 대한 액세스를 최적화하려면 VPN 연결을 통해 범주 **최적화** Microsoft 365 끝점으로의 트래픽을 제외하도록 분할 터널링 VPN 클라이언트를 구성합니다. 자세한 내용은 [Office 365 끝점 범주](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-network-connectivity-principles#new-office-365-endpoint-categories)를 참조하세요. [여기](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)에서 범주 최적화 끝점 목록을 참조하세요.
+Microsoft 365 클라우드 리소스에 대한 액세스를 최적화하려면 VPN 연결을 통해 범주 **최적화** Microsoft 365 끝점으로의 트래픽을 제외하도록 분할 터널링 VPN 클라이언트를 구성합니다. 자세한 내용은 [Office 365 끝점 범주](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-network-connectivity-principles#new-office-365-endpoint-categories)를 참조하세요. 최적화 카테고리 끝점의 [이 목록](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)을 참조하세요.
+
+다음은 Microsoft 365 클라우드 앱에 대한 대부분의 트래픽이 VPN 연결을 바이패스하는 결과 트래픽 흐름입니다.
 
 ![터널링이 있는 VPN 클라이언트에서의 네트워크 트래픽](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-after-tunneling.png)
 
@@ -64,13 +67,13 @@ Microsoft 365 클라우드 리소스에 대한 액세스를 최적화하려면 V
 
 ## <a name="deploy-remote-access-when-all-your-apps-are-web-apps-and-you-have-hybrid-identity"></a>모든 앱이 웹 앱이고 하이브리드 ID가 있는 경우 원격 액세스 배포
 
-원격 작업자가 기존 VPN 클라이언트를 사용하지 않고 온-프레미스 사용자 계정 및 그룹이 Azure AD와 동기화되어 있는 경우, Azure AD 응용 프로그램 프록시를 사용하여 인트라넷 서버에 호스트되는 웹 기반 응용 프로그램에 대한 안전한 원격 액세스를 제공할 수 있습니다. 웹 기반 응용 프로그램에는 SharePoint 사이트, Outlook Web Access 서버 또는 기타 웹 기반 기간 업무 비즈니스 응용 프로그램이 포함됩니다. 
+원격 작업자가 기존 VPN 클라이언트를 사용하지 않고 온-프레미스 사용자 계정 및 그룹이 Azure AD와 동기화되어 있는 경우, Azure AD 응용 프로그램 프록시를 사용하여 온-프레미스 서버에 호스트되는 웹 기반 응용 프로그램에 대한 안전한 원격 액세스를 제공할 수 있습니다. 웹 기반 응용 프로그램에는 SharePoint 서버 사이트, Outlook Web Access 서버 또는 기타 웹 기반 기간 업무 비즈니스 응용 프로그램이 포함됩니다. 
 
 Azure AD 응용 프로그램 프록시의 구성 요소는 다음과 같습니다.
 
 ![Azure AD 응용 프로그램 프록시의 구성 요소](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-application-proxy.png)
 
-자세한 내용은 이 [Azure AD 응용 프로그램 프록시 개요](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy) 와 [Azure AD 응용 프로그램 프록시 사용에 대한 동영상 파트 3](https://resources.techcommunity.microsoft.com/enabling-remote-work/#security)을 참조하세요.
+자세한 내용은 이 [Azure AD 응용 프로그램 프록시 개요](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy)를 참조하세요.
 
 >[!Note]
 >Azure AD 응용 프로그램 프록시는 Microsoft 365 구독에 포함되어 있지 않습니다. 별도의 Azure 구독을 통해 비용을 지불해야 합니다.
@@ -78,7 +81,7 @@ Azure AD 응용 프로그램 프록시의 구성 요소는 다음과 같습니�
 
 ## <a name="deploy-remote-access-when-not-all-your-apps-are-web-apps"></a>모든 앱이 웹 앱이 아닌 경우의 원격 액세스 배포
 
-원격 작업자가 기존 VPN 클라이언트를 사용하고 있지 않고 웹 기반이 아닌 앱이 있는 경우, Azure 지점 및 사이트 간(P2S) VPN을 사용할 수 있습니다.
+원격 작업자가 기존 VPN 클라이언트를 사용하고 있지 않고 웹 기반이 아닌 앱이 있는 경우, Azure P2S(지점 및 사이트 간) VPN을 사용할 수 있습니다.
 
 P2S VPN 연결은 Azure 가상 네트워크를 통해 원격 작업자의 장치에서 조직 네트워크로의 연결을 안전하게 만듭니다. 
 
@@ -96,10 +99,7 @@ P2S VPN 연결은 Azure 가상 네트워크를 통해 원격 작업자의 장치
 
 ![Azure Windows Virtual Desktop의 구성 요소](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-windows-virtual-desktop.png)
 
-자세한 내용은 다음을 참조하세요. 
-
-- [Windows Virtual Desktop 개요](https://docs.microsoft.com/azure/virtual-desktop/overview).
-- [원격 작업자를 위한 Windows Virtual Desktop 사용에 대한 동영상 파트 2](https://resources.techcommunity.microsoft.com/enabling-remote-work/#productivity).
+자세한 내용은 [Windows Virtual Desktop의 개요](https://docs.microsoft.com/azure/virtual-desktop/overview)를 참조하세요. 
 
 >[!Note]
 >Windows Virtual Desktop은 Microsoft 365 구독에 포함되어 있지 않습니다. 별도의 Azure 구독을 통해 비용을 지불해야 합니다.
@@ -107,7 +107,7 @@ P2S VPN 연결은 Azure 가상 네트워크를 통해 원격 작업자의 장치
 
 ## <a name="protect-your-remote-desktop-services-connections-with-the-remote-desktop-services-gateway"></a>원격 데스크톱 서비스 게이트웨이로 원격 데스크톱 서비스 연결 보호
 
-직원이 온-프레미스 네트워크의 Windows 기반 컴퓨터에 연결할 수 있도록 원격 데스크톱 서비스(RDS)를 사용하는 경우, Edge 네트워크에서 Microsoft 원격 데스크톱 서비스 게이트웨이를 사용해야합니다. 게이트웨이는 SSL(Secure Sockets Layer)을 사용하여 통신을 암호화하고 RDS를 호스트하는 시스템이 인터넷에 직접 노출되는 것을 방지합니다.
+직원이 온-프레미스 네트워크의 Windows 기반 컴퓨터에 연결할 수 있도록 원격 데스크톱 서비스(RDS)를 사용하는 경우, Edge 네트워크에서 Microsoft 원격 데스크톱 서비스 게이트웨이를 사용해야합니다. 게이트웨이는 SSL(Secure Sockets Layer)을 사용하여 통신을 암호화하고 RDS를 호스팅하는 온-프레미스 컴퓨터가 인터넷에 직접 노출되는 것을 방지합니다.
 
 ![원격 데스크톱 서비스 게이트웨이로 원격 데스크톱 서비스 연결](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-remote-desktop.png)
 

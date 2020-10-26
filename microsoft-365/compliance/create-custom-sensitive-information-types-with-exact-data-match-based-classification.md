@@ -17,19 +17,19 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c47d682d7b3c52fa5ca5b71386a764f3b3da693
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 229eb733af85ea5f450969c6d70709cfadcb8f06
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546960"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681776"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
-[사용자 지정 중요한 정보 유형](custom-sensitive-info-types.md) 은 중요한 항목을 식별하는 데 사용되므로 해당 정보 유형이 실수로 또는 부적절하게 공유되는 것을 방지할 수 있습니다. 다음을 기반으로 사용자 지정 중요한 정보 유형을 정의합니다.
+[사용자 지정 중요한 정보 유형](custom-sensitive-info-types.md)은 중요한 항목을 식별하는 데 도움을 주어 해당 항목이 실수로 또는 부적절하게 공유되는 것을 방지할 수 있습니다. 다음을 기반으로 사용자 지정 중요한 정보 유형을 정의합니다.
 
 - 패턴
--  *직원*, *배지*또는 *ID*와 같은 키워드 증명 정보
+- *직원*, *배지* 또는 *ID*와 같은 키워드 증명 정보
 - 특정 패턴의 증거에 대한 문자 근접성
 - 신뢰 수준
 
@@ -46,7 +46,7 @@ ms.locfileid: "47546960"
 
 ![EDM 기반 분류](../media/EDMClassification.png)
 
-EDM 기반 분류를 사용하면 중요한 정보 데이터베이스의 정확한 값을 참조하는 사용자 지정 중요한 정보 유형을 만들 수 있습니다. 데이터베이스는 매일 새로 고칠 수 있으며 최대 1억 행의 데이터를 포함할 수 있습니다. 직원, 환자 또는 고객이 계속 이동하고 기록이 변경됨에 따라 사용자 지정 중요한 정보 유형을 적절하고 최신인 상태로 유지합니다. 또한 EDM 기반 분류를 [데이터 손실 방지 정책(DLP)](data-loss-prevention-policies.md) 또는 [Microsoft Cloud App Security 파일 정책](https://docs.microsoft.com/cloud-app-security/data-protection-policies) 등의 정책과 사용할 수 있습니다.
+EDM 기반 분류를 사용하면 중요한 정보 데이터베이스의 정확한 값을 참조하는 사용자 지정 중요한 정보 유형을 만들 수 있습니다. 데이터베이스는 매일 새로 고칠 수 있으며 최대 1억 행의 데이터를 포함할 수 있습니다. 직원, 환자 또는 고객이 계속 이동하고 기록이 변경됨에 따라 사용자 지정 중요한 정보 유형을 적절하고 최신인 상태로 유지합니다. 또한 EDM 기반 분류를 [데이터 손실 방지 정책](data-loss-prevention-policies.md)(DLP) 또는 [Microsoft Cloud App Security 파일 정책](https://docs.microsoft.com/cloud-app-security/data-protection-policies) 등의 정책과 사용할 수 있습니다.
 
 > [!NOTE]
 > Microsoft 365 Information Protection은 이제 다음에 대해 미리보기 더블 바이트 문자 집합 언어를 지원합니다.
@@ -54,20 +54,12 @@ EDM 기반 분류를 사용하면 중요한 정보 데이터베이스의 정확�
 > - 중국어(번체)
 > - 한국어
 > - 일본어
-> 
->이 미리 보기는 상용 클라우드에서만 실행되며 롤아웃은 다음으로 제한됩니다.
-> - 일본
-> - 한국
-> - 중국
-> - 홍콩
-> - 마카오
-> - 대만
->
+
 >이 지원은 중요한 정보 유형에 대해 사용할 수 있습니다. 자세한 정보는 [더블 바이트 문자 집합 릴리스 정보(미리 보기)에 대한 정보 보호 지원](mip-dbcs-relnotes.md)을 참조하세요.
 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 
-이 문서에 설명된 작업을 수행하려면 전역 관리자, 준수 관리자 또는 Exchange Online 관리자여야 합니다. DLP 권한에 관한 자세한 내용은  [사용 권한](data-loss-prevention-policies.md#permissions)을 참조하세요.
+이 문서에 설명된 작업을 수행하려면 전역 관리자, 준수 관리자 또는 Exchange Online 관리자여야 합니다. DLP 권한에 관한 자세한 내용은 [권한](data-loss-prevention-policies.md#permissions)을 참조하세요.
 
 EDM 기반 분류가 이 구독에 포함되어 있습니다
 
@@ -110,18 +102,18 @@ EDM 기반 분류 설정 및 구성에는 다음이 포함됩니다.
       - 데이터 원본당 최대 32개의 열(필드)
       - 검색 가능으로 표시된 최대 5개의 열(필드)
 
-2. 첫 번째 행에 EDM 기반 분류에 사용한 필드의 이름이 포함되도록 .csv 파일에 중요한 데이터를 구성합니다. .csv 파일에는 "ssn", "birthdate", "firstname", "lastname"와 같은 필드 이름이 있을 수 있습니다. 열 머리글 이름에는 공백이나 밑줄이 포함될 수 없습니다. 예를 들어, 이 문서에서 사용하는 샘플 csv 파일은  *PatientRecords.csv*라고 하며 해당 열에는  *PatientID*, *MRN*, *LastName*, *FirstName*, *SSN* 등이 포함되어 있습니다.
+2. 첫 번째 행에 EDM 기반 분류에 사용한 필드의 이름이 포함되도록 .csv 파일에 중요한 데이터를 구성합니다. .csv 파일에는 "ssn", "birthdate", "firstname", "lastname"와 같은 필드 이름이 있을 수 있습니다. 열 머리글 이름에는 공백이나 밑줄이 포함될 수 없습니다. 예를 들어, 이 문서에서 사용하는 샘플 .csv 파일은 *PatientRecords.csv*라고 하며, 해당 열에는 *PatientID*, *MRN*, *LastName*, *FirstName*, *SSN* 등이 포함되어 있습니다.
 
 #### <a name="define-the-schema-for-your-database-of-sensitive-information"></a>중요한 정보 데이터베이스의 스키마 정의
 
-3. 중요한 정보 데이터의 스키마를 XML 형식으로 정의합니다(아래 예제와 비슷). 이 스키마 파일의 이름을  **edm.xml**로 지정하고 데이터베이스의 각 열에 구문을 사용하는 줄이 있도록 구성합니다. 
+3. 중요한 정보 데이터의 스키마를 XML 형식으로 정의합니다(아래 예제와 비슷). 이 스키마 파일의 이름을 **edm.xml**로 지정하고 데이터베이스의 각 열에 구문을 사용하는 줄이 있도록 구성합니다. 
 
       `\<Field name="" searchable=""/\>`.
 
-      -  *Field name* 값에 열 이름을 사용합니다.
-      - 최대 5개의 필드까지 검색할 수 있게 하려는 필드에 *searchable="true"* 를 사용합니다. 하나 이상의 필드를 검색할 수 있어야 합니다.
+      - *필드 이름* 값에 열 이름을 사용합니다.
+      - 최대 5개의 필드까지 검색할 수 있게 하려는 필드에 *searchable="true"* 를 사용합니다. 하나 이상의 필드를 검색할 수 있어야 합니다.
 
-      예를 들어 다음 XML 파일에서는 5개의 *필드(PatientID*, *MRN*, *SSN*, *Phone* 및 *DOB*)가 검색 가능으로 지정된 환자 레코드 데이터베이스의 스키마를 정의합니다.
+      예를 들어 다음 XML 파일은 검색 가능하도록 지정된 5개의 필드(*PatientID*, *MRN*, *SSN*, *Phone* 및 *DOB*)가 있는 환자 레코드 데이터베이스의 스키마를 정의합니다.
 
       (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.)
 
@@ -161,7 +153,7 @@ EDM 기반 분류 설정 및 구성에는 다음이 포함됩니다.
       > \[Y\] 예 \[A\] 모두 예 \[N\] 아니요 \[L\] 모두 아니요 \[?\] 도움말(기본값: "Y"):
 
 > [!TIP]
-> 5단계에서 확인하지 않고 변경 사항을 적용하려면 New-DlpEdmSchema -FileData $edmSchemaXml 대신 해당 cmdlet을 사용하세요.
+> 확인하지 않고 변경 사항을 적용하려면, 5단계에서 New-DlpEdmSchema -FileData $edmSchemaXml 대신 이 cmdlet을 사용하십시오.
 
 > [!NOTE]
 > EDMSchema를 추가 사항으로 업데이트하는 데 10~60분이 소요될 수 있습니다. 추가 사항을 사용하는 단계를 실행하기 전에 업데이트를 완료해야 합니다.
@@ -172,7 +164,7 @@ EDM 기반 분류 설정 및 구성에는 다음이 포함됩니다.
 
       규칙 패키지를 설정하는 경우 .csv 파일과 **edm.xml** 파일을 정확하게 참조하도록 하세요. (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.) 이 샘플 xml에서 EDM 중요 유형을 만들려면 다음 필드를 사용자 지정해야 합니다.
 
-      - **RulePack ID & ExactMatch ID**: [New-GUID](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6)를  사용하여 GUID를 생성합니다.
+      - **RulePack ID & ExactMatch ID**:[New-GUID](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6)를 사용하여 GUID를 생성합니다.
 
       - **Datastore**: 이 필드는 사용할 EDM 조회 데이터 저장소를 지정합니다. 구성된 EDM 스키마의 데이터 원본 이름을 입력합니다.
 
@@ -235,7 +227,7 @@ EDM 기반 분류 설정 및 구성에는 다음이 포함됩니다.
 
 이 시점에서 EDM 기반 분류를 설정합니다. 다음 단계는 중요 한 데이터를 해시한 다음 인덱싱하는 해시를 업로드하는 것입니다.
 
-PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의한 이전 절차에서 *PatientID*, *MRN*, *SSN*, *Phone* 및 *DOB*를 불러오세요. 예제 규칙 패키지에는 해당 필드가 포함되어 있으며 검색 가능한 필드당 하나의 *ExactMatch* 항목과 함께 데이터베이스 스키마 파일(**edm.xml**)을 참조합니다. 다음의 ExactMatch 항목을 고려하세요.
+PatientRecords 스키마가 검색 가능한 5개의 필드를 정의한 이전 절차에서 *PatientID*, *MRN*, *SSN*, *Phone*, 및 *DOB*를 불러오십시오. 예제 규칙 패키지에는 이러한 필드가 포함되어 있으며 검색 가능한 필드 당 하나의 *ExactMatch* 항목과 함께 데이터베이스 스키마 파일(**edm.xml**)을 참조합니다. 다음의 ExactMatch 항목을 고려하세요.
 
 ```xml
 <ExactMatch id = "E1CC861E-3FE9-4A58-82DF-4BD259EAB371" patternsProximity = "300" dataStore ="PatientRecords" recommendedConfidence = "65" >
@@ -258,20 +250,20 @@ PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의�
 
 이 예에서는 다음 사항에 유의하세요.
 
-- 데이터 저장소 이름은 이전에 생성한 .csv 파일( **데이터 저장소 = "PatientRecords"**)을 참조합니다.
+- 데이터 저장소 이름은 이전에 생성한 .csv 파일을 참조합니다(**데이터 저장소 = "PatientRecords"**).
 
-- idmatch 값은 데이터베이스 스키마 파일( **idMatch matches = "SSN"**)에 나열된 검색 가능한 필드를 참조합니다.
+- idmatch 값은 데이터베이스 스키마 파일(**idMatch matches = "SSN"**)에 나열된 검색 가능한 필드를 참조합니다.
 
-- 분류 값이 기존 또는 사용자 지정 중요한 정보 유형( **분류 = "미국 SSN(사회 보장 번호)"**)을 참조합니다. (이 경우 미국 주민 등록 번호의 기존의 중요한 정보 유형을 사용합니다.)
+- 분류 값이 기존 또는 사용자 지정 중요한 정보 유형(**분류 = "미국 주민 등록 번호 (SSN)"**)을 참조합니다. (이 경우 미국 주민 등록 번호의 기존의 중요한 정보 유형을 사용합니다.)
 
 > [!NOTE]
 > EDMSchema를 추가 사항으로 업데이트하는 데 10~60분이 소요될 수 있습니다. 추가 사항을 사용하는 단계를 실행하기 전에 업데이트를 완료해야 합니다.
 
 #### <a name="editing-the-schema-for-edm-based-classification"></a>EDM 기반 분류에 대한 스키마 편집
 
-EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml** 파일을 변경하려면 다음 단계를 수행하세요.
+EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml** 파일을 변경하려면 다음 단계를 수행하십시오.
 
-1. **edm.xml** 파일을 편집하세요.(해당 문서의 [스키마 정의](#define-the-schema-for-your-database-of-sensitive-information) 섹션에서 다루는 파일입니다.)
+1. **edm.xml** 파일을 편집하십시오(이 문서의 [스키마 정의](#define-the-schema-for-your-database-of-sensitive-information) 섹션에서 논의한 파일입니다).
 
 2. [보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)의 연결 절차를 사용하여 보안 및 준수 센터에 연결
 
@@ -293,7 +285,7 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
       > \[Y\] 예 \[A\] 모두 예 \[N\] 아니요 \[L\] 모두 아니요 \[?\] 도움말(기본값: "Y"):
 
       > [!TIP]
-      > 3단계에서 확인하지 않고 변경 사항을 적용하려면 Set-DlpEdmSchema -FileData $edmSchemaXml 대신 해당 cmdlet을 사용하세요.
+      > 확인하지 않고 변경 사항을 적용하려면, 3단계에서 Set-DlpEdmSchema -FileData $edmSchemaXml 대신 이 cmdlet을 사용하십시오.
 
       > [!NOTE]
       > EDMSchema를 추가 사항으로 업데이트하는 데 10~60분이 소요될 수 있습니다. 추가 사항을 사용하는 단계를 실행하기 전에 업데이트를 완료해야 합니다.
@@ -321,7 +313,7 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
       > \[Y\] 예 \[A\] 모두 예 \[N\] 아니요 \[L\] 모두 아니요 \[?\] 도움말(기본값: "Y"):
 
       > [!TIP]
-      >  2단계에서 확인하지 않고 변경 사항을 적용하려면 Remove-DlpEdmSchema -Identity patientrecords -Confirm:$false 대신 해당 cmdlet을 사용하세요.
+      >  확인하지 않고 변경 사항을 적용하려면, 2단계에서 Remove-DlpEdmSchema -Identity patientrecords -Confirm:$false 대신 이 cmdlet을 사용하십시오.
 
 
 <!-- salt notes
@@ -405,16 +397,16 @@ just copy SALT over in a secure fashion
 
 #### <a name="set-up-the-security-group-and-user-account"></a>보안 그룹 및 사용자 계정 설정
 
-1. 전역 관리자로서 [구독에 대한 적절한 링크](#portal-links-for-your-subscription)를 사용하여 관리 센터로 이동하고  [EDM](https://docs.microsoft.com/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide)DataUploaders 라는 보안  **그룹 생성\_을 수행합니다.**
+1. 전역 관리자로서 [구독에 대한 적절한 링크](#portal-links-for-your-subscription)를 사용하여 관리 센터로 이동하고 **EDM\_ DataUploaders**라는 [보안 그룹을 만듭니다](https://docs.microsoft.com/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide).
 
-2. 한 명 이상의 사용자를 **EDM\_DataUploaders** 보안 그룹에 추가합니다. (이러한 사용자가 중요한 정보 데이터베이스를 관리합니다.)
+2. 한 명 이상의 사용자를 **EDM\_DataUploaders** 보안 그룹에 추가합니다. (이러한 사용자가 중요한 정보 데이터베이스를 관리합니다.)
 
 #### <a name="hash-and-upload-from-one-computer"></a>한 대의 컴퓨터에서 해시 및 업로드
 
 이 컴퓨터는 Microsoft 365 테넌트에 직접 액세스할 수 있어야 합니다.
 
 >[!NOTE]
-> 이 절차를 시작하기 전에  **EDM\_ DataUploaders**  보안 그룹의 구성원인지 확인하세요.
+> 이 절차를 시작하기 전에 본인이 **EDM\_DataUploaders** 보안 그룹의 구성원인지 확인하세요.
 
 #### <a name="links-to-edm-upload-agent-by-subscription-type"></a>구독 유형별 EDM 업로드 에이전트에 대한 링크
 
@@ -494,9 +486,9 @@ just copy SALT over in a secure fashion
 
 `EdmUploadAgent.exe /GetSession /DataStoreName <DataStoreName>`
 
-계속하여 [중요한 정보 데이터베이스 새로 고침](#refreshing-your-sensitive-information-database)의 프로세스 및 일정을 설정합니다.
+계속하여 [중요한 정보 데이터베이스 새로 고침](#refreshing-your-sensitive-information-database)의 프로세스 및 일정을 설정합니다.
 
-이제 Microsoft 클라우드 서비스로 EDM 기반 분류를 사용할 준비가 되었습니다. 예를 들어 [EDM 기반 분류를 사용하여 DLP 정책을 설정](#to-create-a-dlp-policy-with-edm)할 수 있습니다.
+이제 Microsoft 클라우드 서비스로 EDM 기반 분류를 사용할 준비가 되었습니다. 예를 들어 [EDM 기반 분류를 사용하여 DLP 정책을 설정](#to-create-a-dlp-policy-with-edm)할 수 있습니다.
 
 #### <a name="refreshing-your-sensitive-information-database"></a>중요한 정보 데이터베이스 새로 고침
 
@@ -504,18 +496,18 @@ just copy SALT over in a secure fashion
 
 1. 중요한 정보 데이터베이스를 새로 고치는 빈도(매일 또는 매주)와 프로세스를 판별합니다.
 
-2. Microsoft Excel과 같은 앱에 중요한 데이터를 다시 내보내고 .csv 형식으로 파일을 저장합니다.  [해시에 설명 된 단계를 수행하고 중요한 데이터](#part-2-hash-and-upload-the-sensitive-data)를 업로드할 때 사용한 것과 동일한 파일 이름과 위치를 유지합니다.
+2. Microsoft Excel과 같은 앱에 중요한 데이터를 다시 내보내고 .csv 형식으로 파일을 저장합니다. [중요한 데이터 해시 및 업로드](#part-2-hash-and-upload-the-sensitive-data)에 설명된 단계를 따를 때 사용한 것과 동일한 파일 이름과 위치를 유지합니다.
 
       > [!NOTE]
       > .csv 파일의 구조(필드 이름)를 변경하지 않은 경우 데이터를 새로 고칠 때 데이터베이스 스키마 파일을 변경하지 않아도 됩니다. 하지만 변경해야 하는 경우 데이터베이스 스키마와 규칙 패키지를 적절하게 편집해야 합니다.
 
-3.  [해시에서 2단계와 3단계를 자동화하고 중요한 데이터](#part-2-hash-and-upload-the-sensitive-data) 절차를 업로드하려면 [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page) 를 사용합니다. 다음과 같은 여러 방법을 사용하여 작업을 예약할 수 있습니다.
+3. [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page)를 사용하여 [중요한 데이터 해시 및 업로드](#part-2-hash-and-upload-the-sensitive-data) 절차의 2단계와 3단계를 자동화합니다. 다음과 같은 여러 방법을 사용하여 작업을 예약할 수 있습니다.
 
       | 메서드             | 수행할 작업 |
       | ---------------------- | ---------------- |
-      | Windows PowerShell     |  [ScheduledTasks](https://docs.microsoft.com/powershell/module/scheduledtasks/?view=win10-ps) 문서와 이 문서에 있는 [예제 PowerShell 스크립트](#example-powershell-script-for-task-scheduler)를  참고하세요. |
-      | 작업 스케줄러 API     |  [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/using-the-task-scheduler) 문서를 참조하세요.                                                                                                                                                                                                                                                                                |
-      | Windows 사용자 인터페이스 | Windows에서 **시작**을 클릭하고 작업 스케줄러를 입력합니다. 그런 다음 결과 목록에서 **작업 스케줄러**를 마우스 오른쪽 단추로 클릭하고 **관리자로 실행**을 선택합니다.                                                                                                                                                                                                                                                                           |
+      | Windows PowerShell     | [ScheduledTasks](https://docs.microsoft.com/powershell/module/scheduledtasks/?view=win10-ps) 문서와 이 문서에 있는 [예제 Windows PowerShell 스크립트](#example-powershell-script-for-task-scheduler)를 참조하세요. |
+      | 작업 스케줄러 API     | [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/using-the-task-scheduler) 문서를 참조하세요.                                                                                                                                                                                                                                                                                |
+      | Windows 사용자 인터페이스 | Windows에서 **시작**을 클릭하고 작업 스케줄러를 입력합니다. 그런 다음 결과 목록에서 **작업 스케줄러**를 마우스 오른쪽 단추로 클릭하고 **관리자로 실행**을 선택합니다.                                                                                                                                                                                                                                                                           |
 
 #### <a name="example-powershell-script-for-task-scheduler"></a>작업 스케줄러의 예제 Windows PowerShell 스크립트
 
@@ -607,36 +599,36 @@ Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $us
 
 1. [구독에 적합한 링크](#portal-links-for-your-subscription)를 사용하여 보안 및 규정 준수 센터로 이동합니다.
 
-2.  **데이터 손실 방지** \> **정책**을 선택합니다.
+2. **데이터 손실 방지** \>**정책**을 선택합니다.
 
-3.  **정책 만들기** \> **사용자 지정** \> **다음**을 선택합니다.
+3. **정책 만들기** \> **사용자 지정** \> **다음**을 선택합니다.
 
-4.  **정책 이름 지정** 탭에 이름과 설명을 지정하고 **다음**을 선택합니다.
+4. **정책 이름 지정** 탭에서 이름과 설명을 지정한 후 **다음**을 선택합니다.
 
-5.  **위치 선택** 탭에서 **특정 위치 선택 허용**을 선택하고 **다음**을 선택합니다.
+5. **위치 선택** 탭에서 **특정 위치 선택 허용**을 선택한 후 **다음**을 선택합니다.
 
-6.  **상태** 열에서 **Exchange 전자 메일, OneDrive 계정, Teams 채팅 및 채널 메시지** 를 선택하고  **다음**을 선택합니다.
+6. **상태** 열에서 **Exchange 전자 메일, OneDrive 계정, Teams 채팅 및 채널 메시지**를 선택한 후 **다음**을 선택합니다.
 
-7.  **정책 설정** 탭에서 **고급 설정 사용**을 선택하고 **다음**을 선택합니다.
+7. **정책 설정** 탭에서 **고급 설정 사용**을 선택한 후 **다음**을 선택합니다.
 
-8.  **+ 새 규칙**을 선택합니다.
+8. **+ 새 규칙**을 선택합니다.
 
-9.  **이름** 섹션에서 규칙의 이름과 설명을 지정합니다.
+9. **이름** 섹션에서 규칙의 이름과 설명을 지정합니다.
 
-10.  **조건** 섹션의 **+ 조건 추가** 목록에서 **콘텐츠에 중요한 유형 포함**을 선택합니다.
+10. **조건** 섹션의 **+ 조건 추가** 목록에서 **콘텐츠가 중요한 유형을 포함**을 선택합니다.
 
-      ![콘텐츠에 중요한 정보 유형이 포함됨](../media/edm-dlp-newrule-conditions.png)
+      ![콘텐츠가 중요한 정보 유형을 포함](../media/edm-dlp-newrule-conditions.png)
 
-11. 규칙 패키지를 설치할 때 만든 중요한 정보 유형을 검색한 다음  **+ 추가**를 선택합니다.  
-    그런 다음 **완료**를 선택합니다.
+11. 규칙 패키지를 설정할 때 만든 중요한 정보 유형을 검색한 다음 **+ 추가**를 선택합니다.  
+    그런 다음 **완료**를 선택합니다.
 
-12.  **사용자 알림**, **사용자 재정의**, **인시던트 보고서** 등의 규칙에 관한 옵션 선택을 완료한 다음 **저장**을 선택합니다.
+12. **사용자 알림**, **사용자 재정의**, **인시던트 보고서** 등의 규칙에 관한 옵션 선택을 완료한 다음 **저장**을 선택합니다.
 
-13.  **정책 설정** 탭에서 규칙을 검토하고 **다음**을 선택합니다.
+13. **정책 설정** 탭에서 규칙을 검토하고 **다음**을 선택합니다.
 
-14. 정책을 바로 설정할지, 테스트할지, 아니면 설정 해제한 상태로 유지할지 지정합니다. 그런 후 **다음**을 선택합니다.
+14. 정책을 바로 설정할지, 테스트할지, 아니면 설정 해제한 상태로 유지할지 지정합니다. 그런 후 **다음**을 선택합니다.
 
-15.  **설정 검토** 탭에서 정책을 검토합니다. 필요한 대로 변경합니다. 준비가 되면 **만들기**를 선택합니다.
+15. **설정 검토** 탭에서 정책을 검토합니다. 필요한 대로 변경합니다. 준비가 되면 **만들기**를 선택합니다.
 
 > [!NOTE]
 > 새로운 DLP 정책이 데이터 센터에 적용되는 데 1시간 정도 걸립니다.
