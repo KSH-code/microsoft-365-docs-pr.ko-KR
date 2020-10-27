@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: ae4a8b51111c53c2245005a5d863354737335ae2
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 01ee05c69a9b649ce3f0c3b93cbdb68bb7a87c69
+ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546191"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48774120"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Microsoft 365 생산성 일러스트레이션
 
@@ -64,7 +64,16 @@ Microsoft 365, 기타 SaaS 서비스 및 Azure AD 응용 프로그램 프록시�
 |**항목**|**설명**|
 |:-----|:-----|
 |[![모델 포스터: Microsoft 365에 대 한 Id 및 장치 보호](../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [PDF](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| 로 보기 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| 로 다운로드 [Visio로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)   <br/> 2020 년 9 월 업데이트|데이터, ID 및 장치 전반에 걸쳐 일관된 보호 수준을 사용하는 것이 중요합니다. 이 모델에서는 id 및 장치를 보호 하기 위한 기능에 대 한 자세한 정보와 어떤 기능을 사용할 수 있는지를 보여 줍니다.  <br/> |
-   
+ 
+<a name="BKMK_ediscovery"></a>
+### <a name="advanced-ediscovery-architecture-in-microsoft-365"></a>Microsoft 365의 고급 eDiscovery 아키텍처
+
+Microsoft 365 다중 지역 환경 내에서의 고급 eDiscovery 종단간 워크플로 및 데이터 흐름 
+
+|**항목**|**설명**|
+|:-----|:-----|
+|[![모델 포스터: Microsoft 365의 고급 eDiscovery 아키텍처](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [이미지로 보기](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| [PDF](https:download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| 로 다운로드 [Visio로 다운로드](https:download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> 2020 년 10 월 업데이트|개의 <ul><li>  단일 환경의 종단 간 워크플로</li><li>Microsoft 365 다중 지리적 환경의 종단 간 워크플로 </li><li>EDRM 워크플로를 지 원하는 종단 간 데이터 흐름</li> |
+  
 <!--
 
 <a name="BKMK_O365fileprotect"></a>

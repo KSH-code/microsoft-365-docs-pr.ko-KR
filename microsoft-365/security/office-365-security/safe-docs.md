@@ -15,23 +15,25 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 E5 또는 Microsoft 365 E5 보안의 안전 문서에 대해 알아봅니다.
-ms.openlocfilehash: cc63143d61065bc9528677ff4aec7d3433236ce0
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: baa04f74388b702b42a0bdb83a7f0797ace09883
+ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195334"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48773952"
 ---
-# <a name="safe-documents-in-microsoft-365-e5"></a>Microsoft 365 E5의 안전 문서
+# <a name="safe-documents-in-microsoft-365-e5"></a>Microsoft 365 E5에서 안전한 문서
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
 안전한 문서는 microsoft [Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 을 사용 하 여 [제한 된 보기](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653)에서 열린 문서와 파일을 검사 하는 Microsoft 365 E5 또는 microsoft 365 e5 보안 기능입니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - 안전한 문서는 *microsoft 365 e5* 또는 *Microsoft 365 e5 보안* 라이선스가 있는 사용자만 사용할 수 있습니다. 이러한 라이선스는 Office 365 ATP (Advanced Threat Protection) 계획에 포함 되지 않습니다.
+
+- 안전한 문서는 Microsoft 365 Apps for enterprise (이전 명칭: Office 365 ProPlus) 버전 2004 이상에서 지원 됩니다.
 
 - <https://protection.office.com>에서 보안 및 준수 센터를 엽니다. **ATP 안전한 첨부 파일** 페이지로 바로 이동 하려면를 엽니다 <https://protection.office.com/safeattachmentv2> .
 
@@ -47,15 +49,15 @@ ms.locfileid: "48195334"
 
 ## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>보안 & 준수 센터를 사용 하 여 안전한 문서 구성
 
-1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 안전한 첨부 파일로**이동한 후 **전역 설정을**클릭 합니다.
+1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 안전한 첨부 파일로** 이동한 후 **전역 설정을** 클릭 합니다.
 
 2. **전체 설정이** 표시 되 면 다음 설정을 구성 합니다.
 
-   - **Office 클라이언트에 대 한 안전 문서 설정**: 오른쪽으로 이동을 이동 하 여 기능을 설정 합니다. ![ ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png)
+   - **Office 클라이언트에 대 한 안전 문서 설정** : 오른쪽으로 이동을 이동 하 여 기능을 설정 합니다. ![ ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png)
 
-   - **안전한 보기를 클릭 하는 것을 허용 하는 경우에도 안전 문서에서 해당 파일을 악성으로 식별**함:이 옵션을 해제 하는 것이 좋습니다 (왼쪽으로 전환: 설정/해제 상태 그대로 둠 ![ ](../../media/scc-toggle-off.png) ).
+   - **안전한 보기를 클릭 하는 것을 허용 하는 경우에도 안전 문서에서 해당 파일을 악성으로 식별** 함:이 옵션을 해제 하는 것이 좋습니다 (왼쪽으로 전환: 설정/해제 상태 그대로 둠 ![ ](../../media/scc-toggle-off.png) ).
 
-   작업을 마쳤으면 **저장**을 클릭합니다.
+   작업을 마쳤으면 **저장** 을 클릭합니다.
 
    ![ATP 안전한 첨부 파일 페이지에서 전역 설정을 선택한 후에 안전한 문서 설정을 선택 합니다.](../../media/safe-docs.png)
 
@@ -82,7 +84,7 @@ Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
 
 안전한 문서를 사용 하도록 설정 하 고 구성 했는지 확인 하려면 다음 단계 중 하나를 수행 합니다.
 
-- 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 안전한 첨부 파일로**이동 하 여 **전역 설정을**클릭 하 고, **안전한 문서에서 해당 파일을 악성 설정으로 식별 하는 경우에도 사용자가 제한 된 보기를 클릭할 수 있도록** 합니다. **Turn on Safe Documents for Office clients**
+- 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 안전한 첨부 파일로** 이동 하 여 **전역 설정을** 클릭 하 고, **안전한 문서에서 해당 파일을 악성 설정으로 식별 하는 경우에도 사용자가 제한 된 보기를 클릭할 수 있도록** 합니다. **Turn on Safe Documents for Office clients**
 
 - Exchange Online PowerShell에서 다음 명령을 실행 하 고 속성 값을 확인 합니다.
 
