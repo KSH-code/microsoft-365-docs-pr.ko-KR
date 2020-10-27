@@ -17,16 +17,16 @@ f1.keywords:
 - NOCSH
 description: 삭제 된 콘텐츠가 저장 되는 위치 및 기간에 대 한 데이터 삭제가 SharePoint Online에서 작동 하는 방식을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e914e84f3679483e5030b7f2a06913cb052e5411
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: 888ee807e6cd4ddc435c1df86a63502a617d6cb8
+ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332727"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769045"
 ---
 # <a name="sharepoint-online-data-deletion-in-microsoft-365"></a>Microsoft 365에서 SharePoint Online 데이터 삭제
 
-SharePoint Online은 개체를 응용 프로그램 데이터베이스 내에서 추상화 된 코드로 저장 합니다. 사용자가 SharePoint Online에 파일을 업로드 하면 해당 파일이 분해 되어 응용 프로그램 코드로 변환 되어 여러 데이터베이스에 걸쳐 여러 테이블에 저장 됩니다. SharePoint Online에서 고객이 업로드 하는 모든 콘텐츠는 청크, 암호화 (여러 AES 256 비트 키 사용 가능)로 분할 되 고 데이터 센터 전체에 분산 됩니다. 청크 및 암호화 프로세스에 대 한 구체적인 정보는 [Microsoft 클라우드에서 암호화](https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-in-the-microsoft-cloud-overview)를 참조 하세요. 
+SharePoint Online은 개체를 응용 프로그램 데이터베이스 내에서 추상화 된 코드로 저장 합니다. 사용자가 SharePoint Online에 파일을 업로드 하면 해당 파일이 분해 되어 응용 프로그램 코드로 변환 되어 여러 데이터베이스에 걸쳐 여러 테이블에 저장 됩니다. SharePoint Online에서 고객이 업로드 하는 모든 콘텐츠는 청크, 암호화 (하나 이상의 AES 256 비트 키 사용)로 분할 되 고 데이터 센터 전체에 분산 됩니다. 
 
 SharePoint Online에서 항목은 원래 위치에서 삭제 한 시간부터 93 일 동안 보존 됩니다. 일부 사용자가 휴지통에서 삭제 한 경우를 제외 하 고는 전체 시간으로 사이트 휴지통에 유지 됩니다. 이 경우 항목은 나머지 93 일 동안 유지 되는 사이트 모음 휴지통으로 이동 합니다. 삭제 된 항목을 복원 하는 방법에 대 한 자세한 내용은 [SharePoint 사이트의 휴지통에서 항목 복원](https://support.office.com/article/6df466b6-55f2-4898-8d6e-c0dff851a0be#ID0EAADAAA=Online
 ) 및 [사이트 모음 휴지통에서 삭제 된 항목 복원을](https://support.office.com/article/5fa924ee-16d7-487b-9a0a-021b9062d14b)참조 하십시오. 휴지통 보존 시간은 SharePoint Online에서 구성할 수 없습니다.

@@ -20,58 +20,24 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 964724ad92c1ae29095b7368167b771b1632b003
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 71316d6c53862b80178d06726f7c249a2491d659
+ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295073"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769033"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Microsoft 보안 점수의 새로운 기능
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-
 Microsoft 보안 점수가 보안 상태를 보다 효율적으로 대표 하도록 하기 위해 몇 가지 사항을 변경 했습니다. 계획 된 변경 사항에 대 한 자세한 내용은 [Microsoft 보안 점수에서](microsoft-secure-score-whats-coming.md)제공 되는 기능을 참조 하세요.
 
 ## <a name="august-2020"></a>2020년 8월
 
-### <a name="update-improvement-action-for-azure-active-directory"></a>Azure Active Directory에 대 한 업데이트 개선 작업
+### <a name="updated-improvement-action-for-azure-active-directory"></a>Azure Active Directory에 대 한 개선 된 기능 업데이트
 
 - 정책을 사용 하 여 레거시 인증 차단
-
-## <a name="july-2020"></a>2020년 7월
-
-### <a name="adding-improvement-actions-for-azure-advanced-threat-protection"></a>Azure Advanced Threat Protection에 대 한 개선 작업 추가
-
-- 위험한 이동 경로
-- 보안 되지 않은 계정 특성
-- Active Directory 트러스트에서 보안 기능을 사용 하도록 설정
-- 엔터티에서 보안 되지 않은 SID 기록 특성 제거
-
-## <a name="june-2020"></a>2020년 6월
-
-### <a name="removed-improvement-action-for-microsoft-defender-advanced-threat-protection"></a>Microsoft Defender Advanced Threat Protection에 대 한 개선 작업 제거 됨
-
-* 공격 표면 축소 규칙 켜기
-
-### <a name="added-improvement-actions-for-microsoft-defender-advanced-threat-protection"></a>Microsoft Defender Advanced Threat Protection에 대 한 개선 작업 추가
-
-* 하위 프로세스를 만들지 못하도록 Adobe Reader 차단
-* 랜 섬 웨어에 대 한 고급 보호 사용
-* 모든 Office 응용 프로그램에서 하위 프로세스를 만들지 못하도록 차단
-* Office 응용 프로그램에서 실행 가능한 콘텐츠를 만들지 못하도록 차단
-* 다운로드 한 실행 가능한 콘텐츠를 실행 하는 JavaScript 또는 VBScript 차단
-* 잠재적으로 난독 처리 된 스크립트의 실행 차단
-* 전자 메일 클라이언트 및 webmail에서 실행 가능한 콘텐츠 차단
-* Office 통신 응용 프로그램에서 하위 프로세스를 만들지 못하도록 차단
-* 신뢰할 수 없으며 USB에서 실행 되는 서명 되지 않은 프로세스 차단
-* WMI 이벤트 구독을 통해 지 속성 차단
-* Office 응용 프로그램에서 다른 프로세스에 코드를 주입 하지 못하도록 차단
-* 실행 파일이 전파, 연령 또는 신뢰할 수 있는 목록 조건을 충족 하지 않는 이상 실행 되지 않도록 차단
-* PSExec 및 WMI 명령에서 시작 되는 프로세스 만들기 차단
-* Windows 로컬 보안 기관 하위 시스템 (lsass.exe)에서 자격 증명 가로채기 차단
-* Office 매크로에서 Win32 API 호출 차단
 
 ## <a name="incompatibility-with-identity-secure-score-and-graph-api"></a>Id 보안 점수 및 그래프 API와 호환 되지 않는 문제
 

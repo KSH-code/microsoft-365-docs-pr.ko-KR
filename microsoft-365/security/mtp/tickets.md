@@ -19,19 +19,20 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: ca13234a93ffcc226be45d337880692a3a39c28b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: a2650efbac0966b84e6fbfd6ce78cb732f4933b3
+ms.sourcegitcommit: bd36c88e731e3fee2a3a5cb3564fdc94f11bab94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196122"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769656"
 ---
 # <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a>ServiceNow 티켓을 Microsoft 365 보안 센터 및 준수 센터에 통합
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-
-[!include[Prerelease information](../includes/prerelease.md)]
+>[!CAUTION]
+>**ServiceNow 커넥터의 미리 보기 기간이 끝나고**<br>
+>이 기능은 11 월 2020 끝에 더 이상 제공 되지 않습니다. 다음 단계를 확인 하는 동안 의견을 보내주셔서 사용자에 게 지속적인 지원을 주셔서 감사 합니다.
 
 ServiceNow는 회사에서 엔터프라이즈 운영을 위한 디지털 워크플로를 관리 하는 데 사용할 수 있는 인기 있는 클라우드 컴퓨팅 플랫폼입니다. 현재 플랫폼에는 IT 워크플로, 직원 워크플로 및 고객 워크플로가 포함 되어 있습니다. [ServiceNow에 대해 자세히 알아보기](https://www.servicenow.com/)
 
@@ -77,7 +78,7 @@ Microsoft 365 보안 센터 또는 준수 센터에서 ServiceNow 티켓을 만�
 
 ### <a name="you-receive-an-error-in-the-first-step-of-the-installation-checklist-oauth-creation"></a>설치 검사 목록의 첫 번째 단계에서 오류가 표시 됩니다 (OAuth 만들기).
 
-**오류 메시지**: 테이블의 범위 간 액세스 정책으로 인해 ' x_mioms_m365ticket ' 범위에서 ' oauth_entity '에 대 한 읽기 작업이 거부 되었습니다.
+**오류 메시지** : 테이블의 범위 간 액세스 정책으로 인해 ' x_mioms_m365ticket ' 범위에서 ' oauth_entity '에 대 한 읽기 작업이 거부 되었습니다.
 
 이 앱에서는 ServiceNow 인스턴스의 관리자가 OAuth 엔터티를 만들고 읽을 수 있다고 가정 합니다. 이 오류는 ServiceNow 인스턴스에서 OAuth 엔터티를 만들거나 읽을 수 있는 사람을 제한 하는 사용자 지정으로 인해 발생할 수 있습니다.
 
@@ -92,7 +93,7 @@ Microsoft 365 보안 센터 또는 준수 센터에서 ServiceNow 티켓을 만�
 
 ### <a name="how-to-validate-the-oauth-entity-created-for-microsoft-365-security--compliance-connector"></a>Microsoft 365 보안 & 준수 커넥터에 대해 만들어진 OAuth 엔터티를 확인 하는 방법
 
-ServiceNow의 응용 프로그램 레지스트리 (**Menu > System OAuth > Application Registry**)로 이동 합니다. 자신에 게 할당 한 이름을 사용 하 여 만든 OAuth 엔터티를 찾습니다.
+ServiceNow의 응용 프로그램 레지스트리 ( **Menu > System OAuth > Application Registry** )로 이동 합니다. 자신에 게 할당 한 이름을 사용 하 여 만든 OAuth 엔터티를 찾습니다.
 
 ### <a name="signing-in-as-the-integration-user"></a>통합 사용자로 로그인
 
@@ -106,7 +107,7 @@ Microsoft 365 보안 센터와 ServiceNow 간의 연결에 권한을 부여 하�
 
 ### <a name="how-to-validate-the-integration-user-created-with-the-installation-checklist-for-microsoft-365-security--compliance-connector"></a>Microsoft 365 보안 & 준수 커넥터에 대 한 설치 검사 목록을 사용 하 여 만든 통합 사용자의 유효성을 검사 하는 방법
 
-ServiceNow에서 사용자 **> 관리 > 사용자**로 이동 하 고 자신에 게 만든 통합 사용자를 지정한 이름으로 찾습니다.
+ServiceNow에서 사용자 **> 관리 > 사용자** 로 이동 하 고 자신에 게 만든 통합 사용자를 지정한 이름으로 찾습니다.
 
 ### <a name="your-company-has-single-sign-on-enabled-which-prevents-you-from-connecting-to-servicenow-through-the-microsoft-365-security-center"></a>회사에서 Microsoft 365 보안 센터를 통해 ServiceNow에 연결 하지 못하도록 하는 single sign-on을 사용 하도록 설정 되어 있습니다.
 

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 제공 되는 정보 및 보고에 대해 알아볼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 089c6351485712d841691d5b856b1ba28dfe4fc4
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: f9ac8b8b0d346d78af252a9e427d0ef2b1a4c4ea
+ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198484"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769021"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>보안 및 준수 센터의 메일 흐름 파악
 
@@ -60,11 +60,11 @@ ms.locfileid: "48198484"
 
 ## <a name="permissions-required-to-view-the-mail-flow-dashboard"></a>메일 흐름 대시보드를 보는 데 필요한 사용 권한
 
-메일 흐름 대시보드는 다음 경로 그룹의 구성원에 게 제공 됩니다.
+메일 흐름 대시보드는 다음 역할 그룹의 구성원이 사용할 수 있습니다.
 
 - Security & 준수 센터의 **조직 관리** (전역 관리자)
 
-- Azure AD의 **[Exchange 관리자](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)**
+- Azure Active Directory의 **[Exchange 관리자](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)**
 
 - **메일 흐름 Administrator** Security & 준수 센터:이 역할 그룹의 구성원이 전역 관리자 또는 Exchange 관리자 역할 그룹의 구성원이 아닌 경우에는 다음과 같은 문제점과 요구 사항을 확인 합니다.
 
@@ -76,6 +76,6 @@ ms.locfileid: "48198484"
 
 ## <a name="where-to-find-the-mail-flow-dashboard"></a>메일 흐름 대시보드를 찾는 위치
 
-보안 & 준수 센터 <https://protection.office.com> ,에서 **메일 흐름**을 차례로 확장 하 고 **대시보드**를 선택 합니다.
+보안 & 준수 센터 <https://protection.office.com> ,에서 **메일 흐름** 을 차례로 확장 하 고 **대시보드** 를 선택 합니다.
 
 메일 흐름 대시보드로 직접 이동 하려면을 엽니다 <https://protection.office.com/mailflow/dashboard> .

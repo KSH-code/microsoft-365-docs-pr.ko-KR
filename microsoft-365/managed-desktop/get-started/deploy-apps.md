@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 6d35ee7a4a7755a043136f33600abad424956032
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 2eb8b984550f301af9d99e738f6db4623aa2cc86
+ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529400"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769109"
 ---
 # <a name="deploy-apps-to-devices"></a>장치에 앱 배포
 Microsoft Managed Desktop 온 보 딩에는 사용자의 장치에 앱을 추가 및 배포 하는 작업이 포함 됩니다. Microsoft Managed Desktop portal을 사용 하 고 나면 앱을 추가 및 배포할 수 있습니다. 
@@ -42,10 +42,10 @@ Microsoft Managed Desktop 온 보 딩에는 사용자의 장치에 앱을 추가
 Microsoft Managed Desktop portal에 로그인 하거나 Intune에 로그인 한 다음 Microsoft Managed Desktop을 검색할 수 있습니다. Microsoft Managed Desktop portal에 로그인을 표시 합니다. 
 
 1.    [Microsoft Managed 데스크톱 관리 포털](https://aka.ms/mmdportal)에 로그인 합니다. 
-2.    **인벤토리에서** **앱**을 선택 합니다.
-3.    앱 작업에서 **추가**를 선택 합니다.
-4.    **앱 추가**에서 lob ( **기간 업무) 앱** 또는 **Windows 앱 (Win32)** 을 선택 합니다.
-    - **기간 업무**(lob) 앱을 선택한 경우 lob (기간 업무) 앱 추가 및 구성에 대 한 지침을 보려면 [Microsoft Intune에 Windows lob (기간 업무) 앱 추가](https://docs.microsoft.com/intune/lob-apps-windows) 를 참조 하세요.
+2.    **인벤토리에서** **앱** 을 선택 합니다.
+3.    앱 작업에서 **추가** 를 선택 합니다.
+4.    **앱 추가** 에서 lob ( **기간 업무) 앱** 또는 **Windows 앱 (Win32)** 을 선택 합니다.
+    - **기간 업무** (lob) 앱을 선택한 경우 lob (기간 업무) 앱 추가 및 구성에 대 한 지침을 보려면 [Microsoft Intune에 Windows lob (기간 업무) 앱 추가](https://docs.microsoft.com/intune/lob-apps-windows) 를 참조 하세요.
     - **Windows 앱 (win32)** 을 선택한 경우 windows 앱 추가 및 구성에 대 한 지침은 [win32 앱 관리](https://docs.microsoft.com/intune/apps-win32-app-management) 를 참조 하세요.
 
 <span id="msfb-apps">
@@ -56,25 +56,20 @@ Microsoft Store for Business에 등록 하지 않은 경우 앱을 쇼핑 하면
 **Microsoft Store for Business에서 앱을 구입 하려면**
 
 1. 비즈니스용 microsoft 스토어 관리자 계정을 사용 하 여 [비즈니스용 Microsoft 스토어](https://businessstore.microsoft.com) 에 로그인 합니다.
-2. **내 그룹의 상점을**선택 합니다.
+2. **내 그룹의 상점을** 선택 합니다.
 3. 검색을 사용 하 여 원하는 앱을 찾은 다음 앱을 선택 합니다.
-4. 제품 정보에서 **앱 가져오기를**선택 합니다. Microsoft Store에서는 조직의 **제품** 에 앱이 추가 됩니다.
+4. 제품 정보에서 **앱 가져오기를** 선택 합니다. Microsoft Store에서는 조직의 **제품** 에 앱이 추가 됩니다.
 
 **Intune과 비즈니스용 Microsoft Store를 강제 동기화 하려면**
-1. 테 넌 트에 대 한 Intune 관리자 또는 전역 관리자로 [Azure 포털](https://portal.azure.com/) 에 로그인 합니다.
-2. **모든 서비스 > Intune**을 선택 합니다. Intune은 모니터링 + 관리 섹션에 있습니다.
-3. Intune 창에서 **클라이언트 앱**을 선택 하 고 **Microsoft Store for Business**를 선택 합니다.
-4. Intune을 사용 하 여 비즈니스 앱 용 Microsoft Store를 동기화 하려면 **사용** 을 선택 합니다.
-    - 아직 설치 하지 않은 경우 Intune을 사용 하 여 Microsoft Store for Business 계정을 등록 및 연결 합니다.
-    - Microsoft Store for Business 앱이 Intune 콘솔에 표시 되는 언어 선택
-    - **동기화** 를 선택 하 여 비즈니스용 Microsoft 스토어 앱 for Intune을 동기화 합니다.
-    - Microsoft Store for Business 및 Intune 간의 동기화가 활성 상태 인지 확인 합니다 (다음 단계). 
+1. [Microsoft Endpoint Manager 관리 센터](https://go.microsoft.com/fwlink/?linkid=2109431)에 로그인 합니다.
+2. 비즈니스용 **테 넌 트 관리**  >  **커넥터 및 토큰**  >  **Microsoft Store** 를 선택 합니다.
+3. **동기화** 를 선택 하 여 Microsoft Store에서 구입한 앱을 Intune으로 가져옵니다.
 
 **Intune과 비즈니스용 Microsoft Store 간의 동기화가 활성 상태 인지 확인 하려면**
 1. 비즈니스용 microsoft 스토어 관리자 계정을 사용 하 여 [비즈니스용 Microsoft 스토어](https://businessstore.microsoft.com) 에 로그인 합니다.
-2. **관리**를 선택 합니다.
-3. **설정을** 선택 하 고 **배포**를 선택 합니다.
-4. **관리 도구**에서 Intune이 나열 되는지와 상태가 **활성**상태 인지 확인 합니다.  
+2. **관리** 를 선택 합니다.
+3. **설정을** 선택 하 고 **배포** 를 선택 합니다.
+4. **관리 도구** 에서 Intune이 나열 되는지와 상태가 **활성** 상태 인지 확인 합니다.  
 
 <span id="2" />
 
@@ -97,10 +92,10 @@ Uninstall |  앱이 선택한 그룹의 장치에서 제거 되었습니다. | M
 **사용자에 게 앱을 할당 하려면**
 
 1. [Microsoft Managed 데스크톱 관리 포털](https://aka.ms/mmdportal)에 로그인 합니다.
-2. 관리 되는 데스크톱 창에서 **앱**을 선택 합니다.
-3. 앱 작업에서 사용자를 할당 하려는 앱을 선택 하 고 **사용자 그룹 할당**을 선택 합니다.
+2. 관리 되는 데스크톱 창에서 **앱** 을 선택 합니다.
+3. 앱 작업에서 사용자를 할당 하려는 앱을 선택 하 고 **사용자 그룹 할당** 을 선택 합니다.
 4. 특정 앱에 대해 할당 유형 (사용 가능, 필수, 제거)을 선택 하 고 적절 한 그룹을 할당 합니다.
-5. 앱 할당 창에서 **확인**을 선택 합니다.
+5. 앱 할당 창에서 **확인** 을 선택 합니다.
 
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작하기 위한 단계
