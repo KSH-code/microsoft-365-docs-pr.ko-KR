@@ -1,6 +1,6 @@
 ---
 title: 고급 헌팅 스키마의 DeviceTvmSecureConfigurationAssessment 표
-description: 고급 헌팅 스키마의 DeviceTvmSecureConfigurationAssessment 표에서 위협 및 취약성 관리 보안 평가 이벤트에 대해 알아보세요. 이러한 이벤트는 시스템 정보, 보안 구성 세부 정보, 영향, 준수 정보를 제공합니다.
+description: 고급 구하기 스키마의 DeviceTvmSecureConfigurationAssessment 테이블에 있는 보안 평가 이벤트에 대해 알아봅니다. 이러한 위협 & 취약성 관리 이벤트는 보안 구성 세부 정보, 영향 및 준수 정보를 제공 합니다.
 keywords: 고급 구하기, 위협 검색, 사이버 위협 검색, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, column, threat & 취약성 관리, TVM, 장치 관리, 보안 구성, DeviceTvmSecureConfigurationAssessment
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 8c9e886f205a3d1b402b8c39718b6ee49b86a11d
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 356548c3115aacce8c76d7fbc552811c168750ed
+ms.sourcegitcommit: e8b3855302fc34d09b6df6c737033a2f326d6eee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429890"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48770076"
 ---
 # <a name="devicetvmsecureconfigurationassessment"></a>DeviceTvmSecureConfigurationAssessment
 
@@ -42,15 +42,18 @@ ms.locfileid: "48429890"
 
 | 열 이름 | 데이터 형식 | 설명 |
 |-------------|-----------|-------------|
-| `DeviceId` | 문자열 | 서비스에서 시스템의 고유 식별자 |
-| `DeviceName` | 문자열 | 컴퓨터의 FQDN(정규화된 도메인 이름) |
-| `OSPlatform` | 문자열 | 컴퓨터에서 실행 중인 운영 체제의 플랫폼 이는 Windows 10 및 Windows 7과 같이 동일한 제품군 내의 변형을 포함하여 특정 운영 체제를 나타냅니다.|
+| `DeviceId` | 문자열 | 서비스의 장치에 대 한 고유 식별자입니다. |
+| `DeviceName` | 문자열 | 장치의 FQDN (정규화 된 도메인 이름) |
+| `OSPlatform` | 문자열 | 장치에서 실행 되는 운영 체제의 플랫폼입니다. 이는 Windows 10 및 Windows 7과 같이 동일한 제품군 내의 변형을 포함하여 특정 운영 체제를 나타냅니다.|
 | `Timestamp` | 날짜 시간 | 레코드 생성 날짜 및 시간 |
 | `ConfigurationId` | 문자열 | 특정 구성의 고유 식별자 |
 | `ConfigurationCategory` | 문자열 | 구성이 속해 있는 범주 또는 그룹(응용 프로그램, OS, 네트워크, 계정, 보안 제어) |
 | `ConfigurationSubcategory` | 문자열 | 구성이 속한 하위 범주나 하위 그룹 대부분의 경우 이는 특정 기능이나 특징을 설명합니다. |
 | `ConfigurationImpact` | 문자열 | 구성의 등급이 전반적인 구성 점수에 미치는 영향(1-10) |
 | `IsCompliant` | 부울 | 구성 또는 정책이 올바르게 구성되어 있는지 여부 |
+| `IsApplicable` | 부울 | 구성 또는 정책이 장치에 적용 되는지 여부를 나타냅니다. |
+| `Context` | 문자열 | 구성 또는 정책에 대 한 추가 컨텍스트 정보 |
+| `IsExpectedUserImpactCompliant` | 부울 | 구성 또는 정책을 적용 하는 경우 사용자에 게 영향을 적용할지 여부를 나타냅니다. |
 
 ## <a name="related-topics"></a>관련 항목
 
