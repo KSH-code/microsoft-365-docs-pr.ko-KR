@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: 디렉터리 동기화 및이 방법을 사용할 경우의 장기적 이점을 사용 하 여 사용자를 Microsoft 365에 프로 비전 하도록 준비 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 41c2ff08c8e2ae11079e82d378110d10bd7cab3e
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: b74310b0f444da118699c5ad5fbb68b15519b830
+ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464243"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48773988"
 ---
 # <a name="prepare-for-directory-synchronization-to-microsoft-365"></a> Microsoft 365로 디렉터리 동기화 준비
 
@@ -157,7 +157,7 @@ AD DS 사용자 중 일부에 중복 된 특성이 하나 이상 있는 경우�
   - **UserPrincipalName** 특성의 최대 문자 수는 113입니다. 다음과 같이 @ 기호 앞 이나 뒤에 특정 문자를 사용할 수 있습니다.
   - @ 기호 앞에 있는 사용자 이름의 최대 문자 수: 64
   - @ 기호 뒤에 있는 도메인 이름의 최대 문자 수: 48
-  - 유효 하지 않은 문자: \% &amp; \* +/=? { } | \< \> ( ) ; : , [ ] " '
+  - 유효 하지 않은 문자: \% &amp; \* +/=? { } | \< \> ( ) ; : , [ ] "
   - 허용 되는 문자: A – Z, a-z, 0 – 9, ' - _ ! # ^ ~
   - 움라우트, 악센트 부호, 물결표 등의 분음 기호가 있는 문자는 사용할 수 없는 문자입니다.
   - @ 문자는 각 **userPrincipalName** 값에 필요 합니다.
@@ -170,7 +170,7 @@ AD DS 사용자 중 일부에 중복 된 특성이 하나 이상 있는 경우�
 
 ## <a name="3-prepare-the-userprincipalname-attribute"></a>3. userPrincipalName 특성을 준비 합니다.
 
-Active Directory는 조직의 최종 사용자가 **sAMAccountName** 또는 **userPrincipalName**를 사용 하 여 디렉터리에 로그인 할 수 있도록 설계 되었습니다. 마찬가지로 최종 사용자는 회사 또는 학교 계정의 UPN (사용자 계정 이름)을 사용 하 여 Microsoft 365에 로그인 할 수 있습니다. 디렉터리 동기화는 AD DS에 있는 것과 동일한 UPN을 사용 하 여 Azure Active Directory에 새 사용자를 만들려고 시도 합니다. UPN은 전자 메일 주소와 같은 형식으로 지정 됩니다.
+Active Directory는 조직의 최종 사용자가 **sAMAccountName** 또는 **userPrincipalName** 를 사용 하 여 디렉터리에 로그인 할 수 있도록 설계 되었습니다. 마찬가지로 최종 사용자는 회사 또는 학교 계정의 UPN (사용자 계정 이름)을 사용 하 여 Microsoft 365에 로그인 할 수 있습니다. 디렉터리 동기화는 AD DS에 있는 것과 동일한 UPN을 사용 하 여 Azure Active Directory에 새 사용자를 만들려고 시도 합니다. UPN은 전자 메일 주소와 같은 형식으로 지정 됩니다.
 
 Microsoft 365에서 UPN은 전자 메일 주소를 생성 하는 데 사용 되는 기본 특성입니다. **UserPrincipalName** (AD DS 및 Azure ad) 및 **proxyAddresses** 의 기본 전자 메일 주소를 다른 값으로 설정 하는 것이 쉽습니다. 서로 다른 값으로 설정 하면 관리자와 최종 사용자에 게 혼동이 있을 수 있습니다.
 
