@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 8af782095ada41f0472e1df338ced7ebe76c97fe
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+ms.openlocfilehash: 5b09b59efa6862782b04b7aa58d7c1fdc0383bb0
+ms.sourcegitcommit: 21c3e44862854c74e4008cfb661840f069c6b709
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104415"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48787537"
 ---
 # <a name="getting-help-for-users"></a>사용자를 위한 도움말
 
@@ -33,6 +33,9 @@ ms.locfileid: "48104415"
 
 - 사용자는 제공 된 전화 번호로 전화를 다시 요청 하거나 서비스 담당자와 온라인으로 채팅할 수 있습니다.
 - Microsoft Managed Desktop 지원 범위를 벗어나는 요청은 전화를 통해 로컬 IT 헬프데스크로 리디렉션됩니다.
+
+> [!NOTE]
+> Get Help app의 표시 언어는 사용자가 장치를 설정 하거나 장치 설정에서 다른 언어를 선택한 경우에도 영어로만 제공 됩니다. 
 
 ### <a name="prerequisites"></a>필수 구성 요소
 사용자가 앱을 통해 도움을 받을 수 있도록 하려면 다음 필수 구성 요소가 충족 되는지 확인 합니다.

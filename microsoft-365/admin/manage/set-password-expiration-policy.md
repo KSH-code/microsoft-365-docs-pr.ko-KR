@@ -21,19 +21,19 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: Microsoft 365 관리 센터에서 조직에 대한 암호 만료 정책을 설정하는 방법을 알아봅니다.
-ms.openlocfilehash: 59e9f4e36843d7c5d977a49d42ae0a11e9a2db25
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: 39726846d591b2d1f72a89a7dc59038c726a8e80
+ms.sourcegitcommit: 21c3e44862854c74e4008cfb661840f069c6b709
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47362112"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48787525"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>조직의 암호 만료 정책 설정
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-worldwide)를 참조하세요.
 
 ::: moniker-end
 
@@ -56,28 +56,24 @@ ms.locfileid: "47362112"
 > [!IMPORTANT]
 > [전역 관리자](../add-users/about-admin-roles.md)만 이러한 단계를 수행할 수 있습니다.
   
-1. 관리 센터에서 **설정** \> **조직 설정**으로 이동합니다.
+1. 관리 센터에서 **설정** \> **조직 설정** 으로 이동합니다.
 
 2. <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">보안 및 개인 정보</a> 페이지로 이동합니다.
  전역 관리자가 아닌 경우에는 보안 및 개인 정보 옵션이 표시되지 않습니다.
   
-3. **암호 만료 정책**을 선택합니다.
+3. **암호 만료 정책** 을 선택합니다.
   
 4. 사용자가 암호를 변경하지 않도록 하려면 **특정 일수가 지나면 사용자 암호가 만료되도록 설정** 옆의 확인란을 선택합니다.
   
 5. 암호가 만료되는 빈도를 입력합니다. 14에서 730 사이의 일수를 선택합니다.
   
-6. 두 번째 상자에 사용자가 암호가 만료된다는 알림을 받는 시기를 입력한 다음 **저장**을 클릭합니다. 1에서 30 사이의 일수를 선택합니다.
+6. 두 번째 상자에 사용자가 암호가 만료된다는 알림을 받는 시기를 입력한 다음 **저장** 을 클릭합니다. 1에서 30 사이의 일수를 선택합니다.
 
 7. 사용자의 암호가 만료되면 화면 오른쪽 아래에 나타나는 알림이 표시됩니다.
   
 ## <a name="important-things-you-need-to-know-about-the-password-expiration-feature"></a>암호 만료 기능에 대해 알아야 할 중요 사항
-
-다음은 2018년 1월 현재 이 기능의 작동 방식에 대해 알아야 할 몇 가지 사항입니다.
   
 - Outlook 앱만 사용하는 사용자는 Microsoft 365 암호가 캐시에서 만료될 때까지 해당 암호를 강제로 재설정할 수 없습니다. 이는 실제 만료 날짜의 몇 일 이후일 수 있습니다. 관리자 수준에서는 이 문제의 해결 방법이 없습니다.
-
-- 사용자는 암호가 X일 내에 만료될 것이라는 전자 메일 알림을 받지 않습니다. 이 기능을 원하시나요? **[여기에서 투표하세요.](https://office365.uservoice.com/forums/273493-office-365-admin/suggestions/15028344-office-365-password-email-notification)**
 
 ## <a name="prevent-last-password-from-being-used-again"></a>마지막 암호가 다시 사용되지 않도록 방지
 
