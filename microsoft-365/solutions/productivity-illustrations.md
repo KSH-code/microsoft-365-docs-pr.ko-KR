@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 01ee05c69a9b649ce3f0c3b93cbdb68bb7a87c69
-ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
+ms.openlocfilehash: 7709bf9a3063863d802e8c36a09ea10d287d0e34
+ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48774120"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48779275"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Microsoft 365 생산성 일러스트레이션
 
@@ -72,7 +72,7 @@ Microsoft 365 다중 지역 환경 내에서의 고급 eDiscovery 종단간 워�
 
 |**항목**|**설명**|
 |:-----|:-----|
-|[![모델 포스터: Microsoft 365의 고급 eDiscovery 아키텍처](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [이미지로 보기](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| [PDF](https:download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| 로 다운로드 [Visio로 다운로드](https:download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> 2020 년 10 월 업데이트|개의 <ul><li>  단일 환경의 종단 간 워크플로</li><li>Microsoft 365 다중 지리적 환경의 종단 간 워크플로 </li><li>EDRM 워크플로를 지 원하는 종단 간 데이터 흐름</li> |
+|[![모델 포스터: Microsoft 365의 고급 eDiscovery 아키텍처](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [이미지로 보기](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| [PDF](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| 로 다운로드 [Visio로 다운로드](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> 2020 년 10 월 업데이트|개의 <ul><li>  단일 환경의 종단 간 워크플로</li><li>Microsoft 365 다중 지리적 환경의 종단 간 워크플로 </li><li>EDRM 워크플로를 지 원하는 종단 간 데이터 흐름</li> |
   
 <!--
 

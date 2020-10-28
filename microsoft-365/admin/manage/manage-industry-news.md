@@ -15,16 +15,16 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: 사용자에 게 조직의 업계 정보에 대 한 최신 뉴스 헤드라인을 제공 하 고, 뉴스 서비스를 사용 하 여 조직에 대해 사용자 지정 된 뉴스 피드를 사용 하도록 설정 합니다.
-ms.openlocfilehash: 003855e366e8ad4c9e7abdcf1a0c2a53ec49ec2f
-ms.sourcegitcommit: e8b3855302fc34d09b6df6c737033a2f326d6eee
+ms.openlocfilehash: 718e48c9db90ff7e598dd56c0228bb894b7a3a4d
+ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48770088"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48779181"
 ---
 # <a name="manage-industry-news"></a>업계 소식 관리
 
-사용자에 게 조직의 산업 및 정보에 대 한 최신 뉴스 헤드라인을 제공 하려면 [뉴스](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews) 서비스를 사용 하 여 조직에 대해 사용자 지정 된 뉴스 피드를 사용 하도록 설정 합니다.Bing 홈페이지에 대 한 설정을 관리할 수도 있습니다.
+사용자에 게 조직의 산업 및 정보에 대 한 최신 뉴스 헤드라인을 제공 하려면 [뉴스](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews) 서비스를 사용 하 여 조직에 대해 사용자 지정 된 뉴스 피드를 사용 하도록 설정 합니다.또한에 지 87의 릴리스로 시작 하 여 Bing 홈페이지 및 Microsoft Edge 새 탭 페이지에 대 한 설정을 관리할 수 있습니다.
 
 ## <a name="what-your-users-will-see"></a>사용자에 게 표시 되는 항목
 
@@ -40,23 +40,25 @@ Bing 홈페이지에 들어오는 로그인 한 사용자는 조직의 개인 �
 
 ## <a name="news-settings"></a>뉴스 설정
 
-관리자는 Microsoft Edge 새 탭 페이지와 함께 선택한 산업 및 Bing 홈페이지를 포함 하 여 조직의 뉴스 피드 설정을 제어할 수 있습니다.
-
-
+관리자는 선택한 산업 및 Bing 홈페이지를 포함 하 여 조직의 뉴스 피드 설정을 제어 하 고 Microsoft Edge 새 탭 페이지 (Edge 87 릴리스로 시작)와 함께 관리 합니다.
 
 1. Microsoft 365 관리 센터에서 **Settings**  >  **조직 설정**  >  **서비스**  >  [소식](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews) 설정으로 이동 합니다.
 2. **뉴스** 패널에서 **일반** 탭을 클릭 합니다.
 3. **업계** 목록에서 조직의 산업을 선택 합니다. 이는 조직의 새 피드에 표시 되는 일반적인 뉴스를 결정 합니다. Microsoft는 계정의 정보를 사용 하 여 산업을 사전 선택할 수 있습니다. 산업 목록을 업데이트 하 여 산업을 제거 하거나 추가할 수 있습니다.
 4. **항목** 필드에 관련 뉴스 기사를 참조 하십시오. 사용자가 이러한 항목을 변경할 수 없게 됩니다.
-5. **콘텐츠 제외** 필드에서 문서를 차단 하 고 키워드를 포함할 수 있습니다. 예를 들어 "bake" 키워드를 포함 하는 문서가 뉴스 피드에 표시 되지 않도록 하려면 제외 콘텐츠 필드에 키워드 "bake"를 추가 합니다. 일반 용어 (, it 및 기타)를 포함 하지 않으면 회사 뉴스 피드에 관련 콘텐츠가 표시 되지 않도록 차단할 수 있습니다.
+5. **제외 콘텐츠** 필드에서 키워드가 포함 된 문서를 차단할 수 있습니다.  예를 들어 "bake" 키워드를 포함 하는 문서가 뉴스 피드에 표시 되지 않도록 하려면 제외 콘텐츠 필드에 키워드 "bake"를 추가 합니다. 일반 용어 (, it 및 기타)를 포함 하지 않으면 회사 뉴스 피드에 관련 콘텐츠가 표시 되지 않도록 차단할 수 있습니다.
 6. **저장** 을 선택합니다. 변경 내용이 표시 되는 데 최대 24 시간이 걸릴 수 있습니다.
 
 ## <a name="bing-homepage"></a>Bing 홈페이지
 
-Bing 홈페이지를 사용자 지정 하 여 산업에 대 한 뉴스를 포함할 수 있습니다. Microsoft 365 관리 센터에서 **설정**  >  **조직 설정**  >  **서비스**  >  [뉴스](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews)로 이동 합니다. **뉴스** 패널에서 **bing 홈페이지** 탭을 클릭 하 고 **bing 홈페이지 포함** 을 선택 합니다. 업계 뉴스는 Bing.com에서 조직의 개인 설정 된 정보 아래에 표시 됩니다.
+Bing 홈페이지를 사용자 지정 하 여 산업에 대 한 뉴스를 포함할 수 있습니다. 
+
+1. Microsoft 365 관리 센터에서 **설정**  >  **조직 설정**  >  **서비스**  >  [뉴스](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews)로 이동 합니다. 
+2. **뉴스** 패널에서 **bing 홈페이지** 탭을 클릭 하 고 **bing 홈페이지 포함** 을 선택 합니다.
+3. 업계 뉴스는 Bing.com에서 조직의 개인 설정 된 정보 아래에 표시 됩니다.
 
 ## <a name="microsoft-edge-new-tab-page"></a>Microsoft Edge 새 탭 페이지 
-사용자가 유효한 회사 또는 학교 계정을 사용 하 여 Microsoft Edge에 로그인 하는 경우 조직에 맞게 조정 된 뉴스를 볼 수 있습니다.
+사용자가 유효한 회사 또는 학교 계정을 사용 하 여 Microsoft Edge (릴리스 87 이상)에 로그인 하면 조직에 맞게 조정 된 뉴스를 볼 수 있습니다.
 
 1. Microsoft 365 관리 센터에서 **설정**  >  **조직 설정**  >  **서비스**  >  [뉴스](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews)로 이동 합니다.
 2. **뉴스** 패널에서 **Microsoft Edge 새 탭 페이지** 를 클릭 합니다.

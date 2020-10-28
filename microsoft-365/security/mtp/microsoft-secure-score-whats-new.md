@@ -20,18 +20,24 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 71316d6c53862b80178d06726f7c249a2491d659
-ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
+ms.openlocfilehash: a7d79684a085072e1af113bc0466ab26574ab904
+ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48769033"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48779241"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Microsoft 보안 점수의 새로운 기능
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 Microsoft 보안 점수가 보안 상태를 보다 효율적으로 대표 하도록 하기 위해 몇 가지 사항을 변경 했습니다. 계획 된 변경 사항에 대 한 자세한 내용은 [Microsoft 보안 점수에서](microsoft-secure-score-whats-coming.md)제공 되는 기능을 참조 하세요.
+
+## <a name="october-2020"></a>2020년 10월
+
+### <a name="remove-improvement-action-related-to-microsoft-defender-advanced-threat-protection"></a>Microsoft Defender Advanced Threat Protection과 관련 된 개선 작업 제거
+
+- Microsoft Defender SmartScreen Windows 스토어 앱 웹 콘텐츠 검사를 설정 하 여 경고 표시
 
 ## <a name="august-2020"></a>2020년 8월
 

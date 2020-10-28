@@ -6,12 +6,12 @@ ms.topic: include
 ms.date: 09/21/2020
 f1.keywords:
 - NOCSH
-ms.openlocfilehash: 5a28a77785e7221e309eada149507c32774dc40e
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
-ms.translationtype: HT
+ms.openlocfilehash: d71917168a1aeda4b6333c101c009034c5d4467c
+ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195382"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48779234"
 ---
 > [!IMPORTANT]
-> **Microsoft Threat Protection**의 새 이름인 **Microsoft 365 Defender**에 오신 것을 환영합니다. [여기](https://www.microsoft.com/security/blog/?p=91813)에서 이 업데이트와 및 기타 업데이트에 대해 자세히 알아보세요.  가까운 시일 내에 제품 및 문서에 이름을 업데이트할 예정입니다.
+> **Microsoft Threat Protection** 의 새 이름인 **Microsoft 365 Defender** 에 오신 것을 환영합니다. [여기](https://www.microsoft.com/security/blog/?p=91813)에서 이 업데이트와 및 기타 업데이트에 대해 자세히 알아보세요.  가까운 시일 내에 제품 및 문서에 이름을 업데이트할 예정입니다.
