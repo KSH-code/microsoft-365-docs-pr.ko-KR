@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: troubleshooting
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -17,13 +17,13 @@ search.appverid:
 - MOE150
 ms.custom:
 - seo-marvel-apr2020
-description: Office 365 감사 로그 검색 도구를 사용 하 여 전자 메일 계정의 일반적인 지원 문제를 해결 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e370a0220fcc42854d3cc570e175ab96845f7d4b
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+description: Microsoft 365 감사 로그 검색 도구를 사용 하 여 전자 메일 계정의 일반적인 지원 문제를 해결 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: a32633d401156e00a45d15e4b38622b13bcb87cf
+ms.sourcegitcommit: 21c3e44862854c74e4008cfb661840f069c6b709
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351131"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48787594"
 ---
 # <a name="search-the-audit-log-to-investigate-common-support-issues"></a>감사 로그를 검색 하 여 일반적인 지원 문제 조사
 
@@ -34,6 +34,8 @@ ms.locfileid: "44351131"
 - 사용자가 사서함에서 전자 메일 항목을 삭제 했는지 확인 합니다.
 - 사용자가 받은 편지함 규칙을 만들었는지 확인
 - 조직 외부의 사용자가 성공적으로 로그인 한 이유 조사
+- E5가 아닌 라이선스가 있는 사용자가 수행한 사서함 활동 검색
+- 위임 된 사용자가 수행한 사서함 활동 검색
 
 ## <a name="using-the-audit-log-search-tool"></a>감사 로그 검색 도구 사용
 
@@ -41,7 +43,7 @@ ms.locfileid: "44351131"
 
 ### <a name="permissions-required-to-use-the-audit-log-search-tool"></a>감사 로그 검색 도구를 사용 하는 데 필요한 사용 권한
 
-감사 로그를 검색 하려면 Exchange Online의 보기 전용 감사 로그 또는 감사 로그 역할이 할당 되어 있어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 **사용 권한** 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. Office 365 및 Microsoft 365의 전역 관리자는 Exchange Online에서 조직 관리 역할 그룹의 구성원으로 자동 추가 됩니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://go.microsoft.com/fwlink/p/?LinkID=730688)를 참조하세요.
+감사 로그를 검색 하려면 Exchange Online에서 View-Only 감사 로그 또는 감사 로그 역할이 할당 되어 있어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 **사용 권한** 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. Office 365 및 Microsoft 365의 전역 관리자는 Exchange Online에서 조직 관리 역할 그룹의 구성원으로 자동 추가 됩니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://go.microsoft.com/fwlink/p/?LinkID=730688)를 참조하세요.
 
 ### <a name="running-audit-log-searches"></a>감사 로그 검색 실행
 
@@ -79,7 +81,7 @@ ms.locfileid: "44351131"
 
 이 시나리오에 대 한 감사 로그 검색 쿼리를 구성 하는 방법은 다음과 같습니다.
 
-**활동:** 해당 사례와 관련 된 경우 검색할 특정 활동을 선택 합니다. 손상 된 계정 문제를 해결 하려면 **Exchange 사서함 활동**아래에서 **사서함에 로그인 한 사용자** 를 선택 하는 것이 좋습니다. 사서함에 로그인 할 때 사용 되는 IP 주소를 보여 주는 감사 레코드를 반환 합니다. 그렇지 않은 경우에는이 필드를 비워 두어 모든 활동에 대 한 감사 레코드를 반환 합니다. 
+**활동:** 해당 사례와 관련 된 경우 검색할 특정 활동을 선택 합니다. 손상 된 계정 문제를 해결 하려면 **Exchange 사서함 활동** 아래에서 **사서함에 로그인 한 사용자** 를 선택 하는 것이 좋습니다. 사서함에 로그인 할 때 사용 되는 IP 주소를 보여 주는 감사 레코드를 반환 합니다. 그렇지 않은 경우에는이 필드를 비워 두어 모든 활동에 대 한 감사 레코드를 반환 합니다. 
 
 > [!TIP]
 > 이 필드를 비워 두면 누군가가 사용자 계정에 로그인 했음을 나타내는 Azure Active Directory 활동 인 **UserLoggedIn** 활동이 반환 됩니다. 검색 결과에서 필터링을 사용 하 여 **UserLoggedIn** 감사 레코드를 표시 합니다.
@@ -94,7 +96,7 @@ ms.locfileid: "44351131"
 
 ## <a name="determine-who-set-up-email-forwarding-for-a-mailbox"></a>사서함에 대 한 전자 메일 전달을 설정한 사람 결정
 
-사서함에 대해 전자 메일 전달이 구성 되 면 사서함으로 전송 되는 전자 메일 메시지가 다른 사서함으로 전달 됩니다. 조직 내부 또는 외부의 사용자에 게 메시지를 전달할 수 있습니다. 사서함에 전자 메일 전달이 설정 되 면 사용 되는 기본 Exchange Online cmdlet이 설정 된 **사서함**이 됩니다.
+사서함에 대해 전자 메일 전달이 구성 되 면 사서함으로 전송 되는 전자 메일 메시지가 다른 사서함으로 전달 됩니다. 조직 내부 또는 외부의 사용자에 게 메시지를 전달할 수 있습니다. 사서함에 전자 메일 전달이 설정 되 면 사용 되는 기본 Exchange Online cmdlet이 설정 된 **사서함** 이 됩니다.
 
 이 시나리오에 대 한 감사 로그 검색 쿼리를 구성 하는 방법은 다음과 같습니다.
 
@@ -110,7 +112,7 @@ ms.locfileid: "44351131"
 
 ![감사 로그 검색 결과 필터링](../media/emailforwarding1.png)
 
-이때 각 감사 레코드의 세부 정보를 확인 하 여 활동이 전자 메일 전달과 관련이 있는지 확인 해야 합니다. 감사 레코드를 선택 하 여 **세부 정보** 플라이 아웃 페이지를 표시 한 다음 **자세한 정보**를 선택 합니다. 다음 스크린샷 및 설명은 사서함에 대해 전자 메일 전달이 설정 되었음을 나타내는 정보를 강조 표시 합니다.
+이때 각 감사 레코드의 세부 정보를 확인 하 여 활동이 전자 메일 전달과 관련이 있는지 확인 해야 합니다. 감사 레코드를 선택 하 여 **세부 정보** 플라이 아웃 페이지를 표시 한 다음 **자세한 정보** 를 선택 합니다. 다음 스크린샷 및 설명은 사서함에 대해 전자 메일 전달이 설정 되었음을 나타내는 정보를 강조 표시 합니다.
 
 ![감사 레코드에서 자세한 정보](../media/emailforwarding2.png)
 
@@ -118,7 +120,7 @@ a. **ObjectId** 필드에는 전자 메일 전달이 설정 된 사서함의 별
 
 b. **매개 변수** 필드에서 *ForwardingSmtpAddress* 값은 사서함에 대해 전자 메일 전달이 설정 되었음을 나타냅니다. 이 예에서는 메일이 alpinehouse.onmicrosoft.com 조직 외부에 있는 전자 메일 주소 mike@contoso.com 전달 됩니다.
 
-c. *DeliverToMailboxAndForward* 매개 변수의 값이 *True 이면* 메시지 복사본이 sarad@alpinehouse.onmicrosoft.com로 배달 되 *고* *ForwardingSmtpAddress* 매개 변수에 지정 된 전자 메일 주소로 전달 되며,이 예에서는 mike@contoso.com입니다. *DeliverToMailboxAndForward* 매개 변수의 값이 *False*로 설정 된 경우 전자 메일은 *ForwardingSmtpAddress* 매개 변수로 지정 된 주소로만 전달 됩니다. 이는 **ObjectId** 필드에 지정 된 사서함으로 배달 되지 않습니다.
+c. *DeliverToMailboxAndForward* 매개 변수의 값이 *True 이면* 메시지 복사본이 sarad@alpinehouse.onmicrosoft.com로 배달 되 *고* *ForwardingSmtpAddress* 매개 변수에 지정 된 전자 메일 주소로 전달 되며,이 예에서는 mike@contoso.com입니다. *DeliverToMailboxAndForward* 매개 변수의 값이 *False* 로 설정 된 경우 전자 메일은 *ForwardingSmtpAddress* 매개 변수로 지정 된 주소로만 전달 됩니다. 이는 **ObjectId** 필드에 지정 된 사서함으로 배달 되지 않습니다.
 
 d. **UserId** 필드에는 **ObjectId** 필드에 지정 된 사서함에 대해 전자 메일 전달을 설정한 사용자가 표시 됩니다. 이 사용자는 검색 결과 페이지의 **사용자** 열에도 표시 됩니다. 이 경우 사서함 소유자가 사서함에서 전자 메일을 전달 하는 것으로 보입니다.
 
@@ -138,9 +140,9 @@ Set-Mailbox <mailbox alias> -ForwardingSmtpAddress $null
 
 이 시나리오에 대 한 감사 로그 검색 쿼리를 구성 하는 방법은 다음과 같습니다.
 
-**활동:** **Exchange 사서함 활동**에서 다음 작업 중 하나 또는 둘 다를 선택 합니다.
+**활동:** **Exchange 사서함 활동** 에서 다음 작업 중 하나 또는 둘 다를 선택 합니다.
 
-- **지운 편지함 폴더에서 삭제 된 메시지:** 이 활동은 **소프트 삭제** 사서함 감사 작업에 해당 합니다. 이 작업은 사용자가 항목을 선택 하 고 **Shift + Delete**키를 눌러 영구적으로 삭제 한 경우에도 기록 됩니다. 항목이 영구적으로 삭제 된 후에는 삭제 된 항목 보존 기간이 만료 될 때까지 사용자가 해당 항목을 복구할 수 있습니다.
+- **지운 편지함 폴더에서 삭제 된 메시지:** 이 활동은 **소프트 삭제** 사서함 감사 작업에 해당 합니다. 이 작업은 사용자가 항목을 선택 하 고 **Shift + Delete** 키를 눌러 영구적으로 삭제 한 경우에도 기록 됩니다. 항목이 영구적으로 삭제 된 후에는 삭제 된 항목 보존 기간이 만료 될 때까지 사용자가 해당 항목을 복구할 수 있습니다.
 
 - **사서함에서 메시지 제거 됨:** 이 작업은 사서함 감사 기능 **하드 삭제** 작업에 해당 합니다. 사용자가 복구 가능한 항목 폴더에서 항목을 제거 하면이 로그를 기록 합니다. 관리자는 보안 및 준수 센터의 콘텐츠 검색 도구를 사용 하 여 삭제 된 항목 보존 기간이 만료 되거나 사용자의 사서함이 대기 중인 경우 더 오래 된 항목을 검색 하 고 복구할 수 있습니다.
 
@@ -150,7 +152,7 @@ Set-Mailbox <mailbox alias> -ForwardingSmtpAddress $null
 
 **파일, 폴더 또는 사이트:** 이 필드는 비워 둡니다.
 
-검색을 실행 한 후에는 검색 결과를 필터링 하 여 일시 삭제 된 항목에 대 한 감사 레코드를 표시 하거나 일시적으로 삭제 한 항목의 경우이를 표시할 수 있습니다. 감사 레코드를 선택 하 여 **세부 정보** 플라이 아웃 페이지를 표시 한 다음 **자세한 정보**를 선택 합니다. 제목 줄과 삭제 된 항목의 위치와 같은 삭제 된 항목에 대 한 추가 정보는 **AffectedItems** 필드에 표시 됩니다. 다음 스크린샷에서는 일시 삭제 된 항목의 **AffectedItems** 필드와 영구 삭제 된 항목의 예를 보여 줍니다.
+검색을 실행 한 후에는 검색 결과를 필터링 하 여 일시 삭제 된 항목에 대 한 감사 레코드를 표시 하거나 일시적으로 삭제 한 항목의 경우이를 표시할 수 있습니다. 감사 레코드를 선택 하 여 **세부 정보** 플라이 아웃 페이지를 표시 한 다음 **자세한 정보** 를 선택 합니다. 제목 줄과 삭제 된 항목의 위치와 같은 삭제 된 항목에 대 한 추가 정보는 **AffectedItems** 필드에 표시 됩니다. 다음 스크린샷에서는 일시 삭제 된 항목의 **AffectedItems** 필드와 영구 삭제 된 항목의 예를 보여 줍니다.
 
 **일시 삭제 된 항목에 대 한 AffectedItems 필드의 예**
 
@@ -178,7 +180,7 @@ Set-Mailbox <mailbox alias> -ForwardingSmtpAddress $null
 
 이 시나리오에 대 한 감사 로그 검색 쿼리를 구성 하는 방법은 다음과 같습니다.
 
-**활동:** **Exchange 사서함 활동**에서 **disable-inboxrule 만들기/수정/사용/사용 안 함 규칙**을 선택 합니다.
+**활동:** **Exchange 사서함 활동** 에서 **disable-inboxrule 만들기/수정/사용/사용 안 함 규칙** 을 선택 합니다.
 
 **시작 날짜** 및 **종료 날짜:** 조사에 적용할 수 있는 날짜 범위를 선택 합니다.
 
@@ -186,7 +188,7 @@ Set-Mailbox <mailbox alias> -ForwardingSmtpAddress $null
 
 **파일, 폴더 또는 사이트:** 이 필드는 비워 둡니다.
 
-검색을 실행 한 후에는이 작업에 대 한 감사 레코드가 검색 결과에 표시 됩니다. 감사 레코드를 선택 하 여 **세부 정보** 플라이 아웃 페이지를 표시 한 다음 **자세한 정보**를 선택 합니다. 받은 편지함 규칙 설정에 대 한 정보는 **매개 변수** 필드에 표시 됩니다. 다음 스크린샷 및 설명은 받은 편지함 규칙에 대 한 정보를 강조 합니다.
+검색을 실행 한 후에는이 작업에 대 한 감사 레코드가 검색 결과에 표시 됩니다. 감사 레코드를 선택 하 여 **세부 정보** 플라이 아웃 페이지를 표시 한 다음 **자세한 정보** 를 선택 합니다. 받은 편지함 규칙 설정에 대 한 정보는 **매개 변수** 필드에 표시 됩니다. 다음 스크린샷 및 설명은 받은 편지함 규칙에 대 한 정보를 강조 합니다.
 
 ![새 받은 편지함 규칙에 대 한 감사 레코드](../media/NewInboxRuleRecord.png)
 
@@ -194,20 +196,20 @@ a. **ObjectId** 필드에 받은 편지함 규칙의 전체 이름이 표시 됩
 
 b. **매개 변수** 필드에 받은 편지함 규칙의 조건이 표시 됩니다. 이 예제에서는 *From* 매개 변수를 통해 조건을 지정 합니다. *From* 매개 변수에 대해 정의 된 값은 받은 편지함 규칙이 admin@alpinehouse.onmicrosoft.com에서 보내는 전자 메일을 작동 함을 나타냅니다. 받은 편지함 규칙의 조건을 정의 하는 데 사용할 수 있는 매개 변수의 전체 목록은 [disable-inboxrule](https://docs.microsoft.com/powershell/module/exchange/new-inboxrule) 문서를 참조 하십시오.
 
-c. *MoveToFolder* 매개 변수는 받은 편지함 규칙에 대 한 동작을 지정 합니다. 이 예에서는 admin@alpinehouse.onmicrosoft.com에서 받은 메시지가 *Adminsearch*라는 폴더로 이동 됩니다. 또한 받은 편지함 규칙의 동작을 정의 하는 데 사용할 수 있는 매개 변수의 전체 목록은 [disable-inboxrule](https://docs.microsoft.com/powershell/module/exchange/new-inboxrule) 문서를 참조 하십시오.
+c. *MoveToFolder* 매개 변수는 받은 편지함 규칙에 대 한 동작을 지정 합니다. 이 예에서는 admin@alpinehouse.onmicrosoft.com에서 받은 메시지가 *Adminsearch* 라는 폴더로 이동 됩니다. 또한 받은 편지함 규칙의 동작을 정의 하는 데 사용할 수 있는 매개 변수의 전체 목록은 [disable-inboxrule](https://docs.microsoft.com/powershell/module/exchange/new-inboxrule) 문서를 참조 하십시오.
 
 d. **UserId** 필드에는 **ObjectId** 필드에 지정 된 받은 편지함 규칙을 만든 사용자가 표시 됩니다. 이 사용자는 검색 결과 페이지의 **사용자** 열에도 표시 됩니다.
 
 ## <a name="investigate-why-there-was-a-successful-login-by-a-user-outside-your-organization"></a>조직 외부의 사용자가 성공적으로 로그인 한 이유 조사
 
-감사 로그의 감사 레코드를 검토할 때 외부 사용자가 Azure Active Directory에서 인증 되었으며 조직에 성공적으로 로그인 되었음을 나타내는 레코드가 표시 될 수 있습니다. 예를 들어 contoso.onmicrosoft.com의 관리자는 다른 조직의 사용자 (예: fabrikam.onmicrosoft.com)가 contoso.onmicrosoft.com에 성공적으로 로그인 한 것으로 표시 되는 감사 레코드를 볼 수 있습니다. 마찬가지로 Outlook.com 또는 Live.com와 같은 Microsoft 계정 (MSA)을 사용 하는 사용자에 게 조직에 로그인 했을 나타내는 감사 레코드가 표시 될 수 있습니다. 이러한 상황에서 감사 된 활동은 **사용자가 로그인 한**것입니다. 
+감사 로그의 감사 레코드를 검토할 때 외부 사용자가 Azure Active Directory에서 인증 되었으며 조직에 성공적으로 로그인 되었음을 나타내는 레코드가 표시 될 수 있습니다. 예를 들어 contoso.onmicrosoft.com의 관리자는 다른 조직의 사용자 (예: fabrikam.onmicrosoft.com)가 contoso.onmicrosoft.com에 성공적으로 로그인 한 것으로 표시 되는 감사 레코드를 볼 수 있습니다. 마찬가지로 Outlook.com 또는 Live.com와 같은 Microsoft 계정 (MSA)을 사용 하는 사용자에 게 조직에 로그인 했을 나타내는 감사 레코드가 표시 될 수 있습니다. 이러한 상황에서 감사 된 활동은 **사용자가 로그인 한** 것입니다. 
 
 이것은 의도적으로 설계된 동작입니다. Azure Active Directory (Azure AD), 디렉터리 서비스인 경우 외부 사용자가 조직의 SharePoint 사이트 또는 OneDrive 위치에 액세스 하려고 할 때 *통과 인증* 을 사용 하는 것을 허용 합니다. 외부 사용자가이 작업을 수행 하려고 하면 자격 증명을 입력 하 라는 메시지가 표시 됩니다. Azure AD는 자격 증명을 사용 하 여 사용자를 인증 하며, Azure AD는 사용자가 누구 인지를 확인 합니다. 감사 레코드에 성공한 로그인을 나타내는 것은 Azure AD 사용자 인증의 결과입니다. 성공한 로그인은 사용자가 조직에서 모든 리소스에 액세스 하거나 다른 작업을 수행할 수 없음을 의미 합니다. 사용자가 Azure AD에서 인증 되었음을 나타냅니다. 통과 사용자가 SharePoint 또는 OneDrive 리소스에 액세스 하기 위해 조직의 사용자는 공유 초대 또는 익명 공유 링크를 보내 해당 리소스를 외부 사용자와 명시적으로 공유 해야 합니다. 
 
 > [!NOTE]
-> Azure AD에서는 SharePoint Online 및 비즈니스용 OneDrive와 같은 *첫 번째 타사 응용 프로그램*에 대해서만 통과 인증을 허용 합니다. 다른 타사 응용 프로그램에는 허용 되지 않습니다.
+> Azure AD에서는 SharePoint Online 및 비즈니스용 OneDrive와 같은 *첫 번째 타사 응용 프로그램* 에 대해서만 통과 인증을 허용 합니다. 다른 타사 응용 프로그램에는 허용 되지 않습니다.
 
-다음은 통과 인증의 결과인 **사용자가 로그인** 한 이벤트에 대 한 감사 레코드의 관련 속성에 대 한 예 및 설명입니다. 감사 레코드를 선택 하 여 **세부 정보** 플라이 아웃 페이지를 표시 한 다음 **자세한 정보**를 선택 합니다.
+다음은 통과 인증의 결과인 **사용자가 로그인** 한 이벤트에 대 한 감사 레코드의 관련 속성에 대 한 예 및 설명입니다. 감사 레코드를 선택 하 여 **세부 정보** 플라이 아웃 페이지를 표시 한 다음 **자세한 정보** 를 선택 합니다.
 
 ![성공적인 통과 인증에 대 한 감사 레코드의 예](../media/PassThroughAuth1.png)
 
@@ -229,7 +231,6 @@ UserLoggedIn 감사 레코드에 표시 되는 다른 속성에 대 한 자세�
 
   - 조직에 회사 또는 학교 계정 (예: pilarp@fabrikam.onmicrosoft.com)이 있는 사용자가 contoso.onmicrosoft.com에서 SharePoint 사이트에 액세스 하려고 했지만 contoso.onmicrosoft.com의 pilarp@fabrikam.com에 해당 하는 게스트 사용자 계정이 없습니다.
 
-
 ### <a name="tips-for-investigating-successful-logins-resulting-from-pass-through-authentication"></a>통과 인증의 성공한 로그인을 조사 하기 위한 팁
 
 - **사용자가 로그인 한** 감사 레코드에서 식별 된 외부 사용자가 수행한 활동에 대 한 감사 로그를 검색 합니다. **사용자** 상자에 외부 사용자에 대 한 UPN을 입력 하 고 시나리오와 관련이 있는 경우 날짜 범위를 사용 합니다. 예를 들어 다음과 같은 검색 조건을 사용 하 여 검색을 만들 수 있습니다.
@@ -240,4 +241,55 @@ UserLoggedIn 감사 레코드에 표시 되는 다른 속성에 대 한 자세�
 
 - **사용자가 로그인** 한 감사 레코드에 의해 식별 된 외부 사용자와 파일이 공유 되었음을 나타내는 SharePoint 공유 활동을 검색 합니다. 자세한 내용은 [감사 로그에서 공유 감사 사용](use-sharing-auditing.md)을 참조하세요.
 
-- Excel을 사용 하 여 외부 사용자와 관련 된 다른 작업을 검색할 수 있도록 조사와 관련 된 레코드를 포함 하는 감사 로그 검색 결과를 내보냅니다. 자세한 내용은 [감사 로그 기록 내보내기, 구성 및 보기](export-view-audit-log-records.md)를 참조 하세요.
+- Excel을 사용 하 여 외부 사용자와 관련 된 다른 작업을 검색할 수 있도록 조사와 관련 된 레코드를 포함 하는 감사 로그 검색 결과를 내보냅니다. 자세한 내용은  [감사 로그 기록 내보내기, 구성 및 보기](export-view-audit-log-records.md)를 참조 하세요.
+
+## <a name="search-for-mailbox-activities-performed-by-users-with-non-e5-licenses"></a>E5가 아닌 라이선스가 있는 사용자가 수행한 사서함 활동 검색
+
+조직에 대해 [기본적으로 사서함 감사가](enable-mailbox-auditing.md) 설정 된 경우에도 준수 센터, **Search-unifiedauditlog** Cmdlet 또는 OFFICE 365 관리 작업 API를 사용 하 여 일부 사용자에 대 한 사서함 감사 이벤트가 감사 로그 검색에서 발견 되지 않는 것을 확인할 수 있습니다. 이는 통합 된 감사 로그를 검색 하기 위한 이전 방법 중 하나에 해당 하는 경우 E5 라이선스가 있는 사용자에 대해서만 사서함 감사 이벤트가 반환 되기 때문입니다.
+
+E5가 아닌 사용자에 대 한 사서함 감사 로그 레코드를 검색 하려면 다음 해결 방법 중 하나를 수행 하면 됩니다.
+
+- 개별 사서함에서 사서함 감사를 수동으로 사용 하도록 설정 `Set-Mailbox -Identity <MailboxIdentity> -AuditEnabled $true` 합니다 (Exchange Online PowerShell에서 명령 실행). 이 작업을 수행한 후 준수 센터, **검색 search-unifiedauditlog** Cmdlet 또는 Office 365 관리 활동 API를 사용 하 여 사서함 감사 작업을 검색 합니다.
+  
+  > [!NOTE]
+  > 사서함 감사가 이미 사용 하도록 설정 된 것으로 나타나지만 검색에서 결과가 반환 되지 않는 경우에는 _Auditenabled_ 매개 변수의 값을로 변경한 `$false` 다음 다시으로 변경 `$true` 합니다.
+  
+- Exchange Online PowerShell에서 다음 cmdlet을 사용 합니다.
+
+  - [검색-search-mailboxauditlog](https://docs.microsoft.com/powershell/module/exchange/search-mailboxauditlog) 에서 특정 사용자에 대 한 사서함 감사 로그를 검색 합니다.
+
+  - [New-mailboxauditlogsearch를 사용](https://docs.microsoft.com/powershell/module/exchange/new-mailboxauditlogsearch) 하 여 특정 사용자에 대 한 사서함 감사 로그를 검색 하 고 지정 된 받는 사람에 게 전자 메일을 통해 전송 되는 결과를 포함 합니다.
+
+## <a name="search-for-mailbox-activities-performed-in-a-specific-mailbox-including-shared-mailboxes"></a>특정 사서함에서 수행 된 사서함 활동 검색 (공유 사서함 포함)
+
+준수 센터의 감사 로그 검색 도구에 있는 **사용자** 드롭다운 목록을 사용 하거나 Exchange Online PowerShell의 **search-unifiedauditlog-UserIds** 명령을 사용할 때 특정 사용자가 수행한 활동을 검색할 수 있습니다. 사서함 감사 작업의 경우이 검색 유형은 지정 된 사용자가 수행한 활동을 검색 합니다. 동일한 사서함에서 실행 되는 모든 작업이 검색 결과에 반환 된다는 보장은 없습니다. 예를 들어 감사 로그 검색에서는 특정 사용자가 수행 하는 사서함 작업을 검색 하면 다른 사용자의 사서함에 액세스할 수 있는 권한이 할당 된 대리인 사용자가 수행한 작업을 반환 하지 않으므로 위임 사용자가 수행한 활동에 대 한 감사 기록이 반환 되지 않습니다. 대리인 사용자는 다른 사용자의 사서함에 대 한 SendAs, SendOnBehalf FullAccess mailbox 권한이 할당 된 사람입니다.
+
+또한 감사 로그 검색 도구에서 **사용자** 드롭다운 목록을 사용 하거나 **search-unifiedauditlog-UserIds** 는 공유 사서함에서 수행 된 작업에 대 한 결과를 반환 하지 않습니다.
+
+특정 사서함에서 수행 된 활동을 검색 하거나 공유 사서함에서 수행 되는 활동을 검색 하려면 **search-unifiedauditlog** cmdlet을 실행할 때 다음 구문을 사용 합니다.
+
+```powershell
+Search-UnifiedAuditLog  -StartDate <date> -EndDate <date> -FreeText (Get-Mailbox <mailbox identity).ExchangeGuid
+```
+
+예를 들어 다음 명령은 Contoso 규정 준수 팀 공유 사서함에서 수행 된 작업에 대 한 감사 기록을 반환 합니다. 2020 년 8 월 2020 일 사이:
+
+```powershell
+Search-UnifiedAuditLog  -StartDate 08/01/2020 -EndDate 10/31/2020 -FreeText (Get-Mailbox complianceteam@contoso.onmicrosoft.com).ExchangeGuid
+```
+
+또는 **search-mailboxauditlog** cmdlet을 사용 하 여 특정 사서함에서 수행 되는 작업에 대 한 감사 레코드를 검색할 수 있습니다. 여기에는 공유 사서함에서 수행 된 작업에 대 한 검색이 포함 됩니다.
+
+다음 예에서는 Contoso 규정 준수 팀 공유 사서함에서 수행 된 작업에 대 한 사서함 감사 로그 기록을 반환 합니다.
+
+```powershell
+Search-MailboxAuditLog -Identity complianceteam@contoso.onmicrosoft.com -StartDate 08/01/2020 -EndDate 10/31/2020 -ShowDetails
+```
+
+다음 예에서는 대리인 사용자가 지정 된 사서함에서 수행 하는 작업에 대 한 사서함 감사 로그 기록을 반환 합니다.
+
+```powershell
+Search-MailboxAuditLog -Identity <mailbox identity> -StartDate <date> -EndDate <date> -LogonTypes Delegate -ShowDetails
+```
+
+**New-mailboxauditlogsearch** cmdlet을 사용 하 여 특정 사서함에 대 한 감사 로그를 검색 하 고 지정 된 받는 사람에 게 전자 메일을 통해 결과를 보낼 수도 있습니다.

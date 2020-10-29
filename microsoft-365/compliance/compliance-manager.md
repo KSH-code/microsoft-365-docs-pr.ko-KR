@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 조직에서 위험 평가를 간소화 하 고 자동화 하 고 위험을 해결 하는 데 도움이 되는 권장 조치를 제안 합니다.
-ms.openlocfilehash: d26d187277b021e278667b6e0ae19a0772b34f03
-ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
+ms.openlocfilehash: d7136368a1c9726d1a77a0c99e717b98e1920242
+ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48368131"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48791810"
 ---
 # <a name="microsoft-compliance-manager"></a>Microsoft 준수 관리자
 
@@ -83,9 +83,9 @@ ms.locfileid: "48368131"
 
 준수 관리자는 다음과 같은 유형의 컨트롤을 추적 합니다.
 
-1. **Microsoft 관리 컨트롤**: microsoft에서 구현에 책임이 있는 microsoft 클라우드 서비스에 대 한 컨트롤입니다.
-2. **사용자**가 관리 하는 컨트롤, 즉 조직에서 구현 하 고 관리 하는 컨트롤이 라고도 하는 컨트롤입니다.
-3. **공유 컨트롤**: 조직 및 Microsoft 공유에서 구현 해야 하는 컨트롤입니다.
+1. **Microsoft 관리 컨트롤** : microsoft에서 구현에 책임이 있는 microsoft 클라우드 서비스에 대 한 컨트롤입니다.
+2. **사용자** 가 관리 하는 컨트롤, 즉 조직에서 구현 하 고 관리 하는 컨트롤이 라고도 하는 컨트롤입니다.
+3. **공유 컨트롤** : 조직 및 Microsoft 공유에서 구현 해야 하는 컨트롤입니다.
 
 ##### <a name="learn-more"></a>자세히 알아보기
 
@@ -99,11 +99,11 @@ ms.locfileid: "48368131"
 
 평가에는 다음과 같은 몇 가지 구성 요소가 있습니다.
 
-- **범위 내 서비스**: 평가에 적용할 수 있는 특정 Microsoft 서비스 집합
-- **Microsoft 관리 되는 컨트롤**: microsoft 클라우드 서비스에 대 한 컨트롤로, microsoft는 사용자를 대신 하 여 구현 됩니다.
-- **사용자**가 관리 하는 컨트롤, 즉 조직에서 구현 하 고 관리 하는 컨트롤이 라고도 하는 컨트롤입니다.
-- **공유 컨트롤**: 조직 및 Microsoft 공유에서 구현 해야 하는 컨트롤입니다.
-- **평가 점수**: 평가 내에서 조직이 나 Microsoft가 관리 하는 작업의 가능한 총 점수를 달성할 때의 진행 상태를 보여줍니다.
+- **범위 내 서비스** : 평가에 적용할 수 있는 특정 Microsoft 서비스 집합
+- **Microsoft 관리 되는 컨트롤** : microsoft 클라우드 서비스에 대 한 컨트롤로, microsoft는 사용자를 대신 하 여 구현 됩니다.
+- **사용자** 가 관리 하는 컨트롤, 즉 조직에서 구현 하 고 관리 하는 컨트롤이 라고도 하는 컨트롤입니다.
+- **공유 컨트롤** : 조직 및 Microsoft 공유에서 구현 해야 하는 컨트롤입니다.
+- **평가 점수** : 평가 내에서 조직이 나 Microsoft가 관리 하는 작업의 가능한 총 점수를 달성할 때의 진행 상태를 보여줍니다.
 
 평가를 만들 때 사용자를 그룹에 할당 합니다. 조직에 가장 논리적으로 어떤 방식으로 그룹을 구성할 수 있습니다. 예를 들어 감사 연도, 지역, 솔루션, 조직 내의 팀 또는 기타 다른 방식으로 평가를 그룹화 할 수 있습니다. 그룹을 만든 후에는 [준수 관리자 대시보드를 필터링](compliance-manager-setup.md#filtering-your-dashboard-view) 하 여 하나 이상의 그룹에 따라 점수를 볼 수 있습니다.
 

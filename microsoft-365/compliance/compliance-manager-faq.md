@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직에서 위험 평가를 간소화 하 고 자동화 하는 데 도움이 되는 Microsoft 준수 관리자에 대 한 질문과 대답을 확인할 수 있습니다.
-ms.openlocfilehash: 3e1b6cdbcafd0cb4af4545cb258dab2ce082a2d8
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 49886cba59cc486c4345e069a4b782951fed4c68
+ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204448"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48791784"
 ---
 # <a name="compliance-manager-frequently-asked-questions"></a>준수 관리자에 게 자주 문의 하는 질문
 
@@ -27,7 +27,7 @@ ms.locfileid: "48204448"
 
 솔루션은 준수 관리자 일 뿐입니다. 이 섹션에서는 아래 기본적인 개요부터 시작 하 여 전환을 안내 합니다. 또한 다음 섹션 중 하나로 직접 이동 하는 것이 유용할 수 있습니다.
 
-- [조직에서 Microsoft Service Trust Portal에 있는 준수 관리자 (기본 또는 공용 preview 버전)를 주로 사용 합니다.](#your-organization-regularly-used-compliance-manger-in-the-service-trust-portal)
+- [조직에서 Microsoft Service Trust Portal에 있는 준수 관리자 (기본 또는 공용 preview 버전)를 주로 사용 합니다.](#your-organization-regularly-used-compliance-manager-in-the-service-trust-portal)
 
 - [조직에서 Microsoft 365 준수 센터에 있는 규정 준수 점수 (공용 미리 보기)를 주로 사용 합니다.](#your-organization-used-compliance-score-public-preview-in-the-microsoft-365-compliance-center)
 
@@ -41,7 +41,7 @@ Microsoft 준수 관리자는 Microsoft Service Trust Portal 내에서 준수 �
 
 이 [블로그 게시물](https://aka.ms/compliancemanager/GAblog) 을 읽고 준수 관리자의 GA 릴리스의 새로운 기능에 대해 자세히 알아보세요.
 
-#### <a name="your-organization-regularly-used-compliance-manger-in-the-service-trust-portal"></a>조직에서 서비스 보안 포털의 준수 관리자를 정기적으로 사용
+#### <a name="your-organization-regularly-used-compliance-manager-in-the-service-trust-portal"></a>조직에서 서비스 보안 포털의 준수 관리자를 정기적으로 사용
 
 서비스 신뢰 포털에서 준수 관리자를 사용 하는 경우 이제 조직의 모든 데이터가 Microsoft 365 준수 센터의 준수 관리자에 있습니다 https://compliance.microsoft.com/compliancemanager . 이전 위치에 포함 된 책갈피를 업데이트 하는 것이 아니라 새 위치에서 준수 관리자의 작업을 다시 시작 하기 위해 수행 해야 하는 작업이 없습니다. 모든 평가 및 기타 데이터가 사용자에 게 전달 되었습니다.
 
@@ -51,7 +51,7 @@ Microsoft 준수 관리자는 Microsoft Service Trust Portal 내에서 준수 �
 
 다음은 유용한 리소스입니다.
 
-- [새 준수 관리자 환경에 대해 자세히 알아보세요.](compliance-manager-setup.md#understand-the-compliance-manger-dashboard)
+- [새 준수 관리자 환경에 대해 자세히 알아보세요.](compliance-manager-setup.md#understand-the-compliance-manager-dashboard)
 - [새 홈에서 준수 관리자에 대 한 사용 권한 및 기타 설치 정보 찾기](compliance-manager-setup.md#who-can-access-compliance-manager)
 - [Microsoft 365 준수 센터에 대 한 자세한 정보](microsoft-365-compliance-center.md)
 

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 준수 관리자를 사용 하 여 이해, 설정 가져오기 및 준수 관리자 사용에 대 한 정보를 확인할 수 있습니다.
-ms.openlocfilehash: 9fd86550652860b1c89be414f4c0b55c28a817e5
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 895f03482c0af9603aa96d907d7339a853ef5e9d
+ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204440"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48791794"
 ---
 # <a name="compliance-manager-quickstart"></a>준수 관리자 빠른 시작
 
@@ -39,7 +39,7 @@ ms.locfileid: "48204440"
 
 - [준수 점수 이해](compliance-manager.md#understanding-your-compliance-score)
 - [주요 요소 개요: 컨트롤, 평가, 서식 파일 및 개선 작업](compliance-manager.md#key-elements-controls-assessments-templates-improvement-actions)
-- [준수 관리자 대시보드 이해](compliance-manager-setup.md#understand-the-compliance-manger-dashboard)
+- [준수 관리자 대시보드 이해](compliance-manager-setup.md#understand-the-compliance-manager-dashboard)
 - [대시보드 보기 필터링](compliance-manager-setup.md#filtering-your-dashboard-view)
 - [개선 작업에 대 한 자세한 정보](compliance-manager-setup.md#improvement-actions-page)
 - [평가 이해](compliance-manager.md#assessments)
@@ -55,7 +55,7 @@ ms.locfileid: "48204440"
 
 ## <a name="scaling-up-use-advanced-functionality-to-meet-your-custom-needs"></a>수직 확장: 사용자 지정 요구 사항을 충족 하기 위해 고급 기능 사용
 
-규정 준수 관리자의 평가 관리가 어려우면 서식 파일을 사용 하 여 사용자의 작업 및 컨트롤로 준수 관리자 평가를 수정할 수 있습니다. 고유한 사용자 지정 평가를 만들 수도 있습니다. 사용자 지정 평가는 다음과 같은 경우에 유용 합니다.
+준수 관리자에서 평가를 관리 하는 것이 어려우면 서식 파일을 사용 하 여 사용자의 작업 및 컨트롤로 준수 관리자 평가를 수정할 수 있습니다. 고유한 사용자 지정 평가를 만들 수도 있습니다. 사용자 지정 평가는 다음과 같은 경우에 유용 합니다.
 
 - 타사 앱 및 서비스, 온-프레미스 응용 프로그램 및 기타 자산과 같은 Microsoft 제품이 아닌 365 제품에 대 한 준수 관리
 - 사용자 지정 또는 비즈니스 관련 규정 준수 제어 관리
