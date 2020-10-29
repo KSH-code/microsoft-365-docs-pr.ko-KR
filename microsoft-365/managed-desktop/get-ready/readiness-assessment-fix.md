@@ -9,16 +9,16 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 2c9638dc7b8c6d095b87cf81114f3812c8362597
-ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
+ms.openlocfilehash: a6dec9473ee632b74bb79e50156cedff53a3cba3
+ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48656154"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48795120"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>준비 상태 평가 도구에서 발견 된 문제 해결
 
-각 검사에 대해이 도구는 다음과 같은 세 가지 가능한 결과 중 하나를 보고 합니다.
+각 검사에 대해이 도구는 다음과 같은 네 가지 가능한 결과 중 하나를 보고 합니다.
 
 
 |결과  |의미  |
@@ -26,6 +26,7 @@ ms.locfileid: "48656154"
 |맞춤형     | 등록을 완료 하기 전에 작업을 수행할 필요가 없습니다.        |
 |조언    | 등록 및 사용자를 위한 최상의 환경을 위해서는이 도구 또는이 문서에 나와 있는 단계를 따르세요. 등록을 완료할 *수* 있지만 첫 번째 장치를 배포 하기 전에 이러한 문제를 해결 해야 합니다.        |
 |준비되지 않음 | *이러한 문제를 해결 하지 않으면 등록에 실패 합니다.* 도구 또는이 문서의 단계에 따라 문제를 해결 합니다.        |
+|오류 | 사용 중인 Azure 활성 디렉터 (AD) 역할에이 검사를 실행할 수 있는 충분 한 권한이 없습니다. |
 
 ## <a name="microsoft-intune-settings"></a>Microsoft Intune 설정
 
@@ -72,6 +73,16 @@ Azure AD 조직의 조건부 액세스 정책은 Microsoft 관리 데스크톱 �
 
 모든 조건부 액세스 정책에서 **최신 직장의 작업 공간 서비스 계정** Azure AD 그룹을 제외 했는지 확인 합니다. 단계에 대 한 자세한 내용은 [조건부 액세스 조정을](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/conditional-access)참조 하십시오. **최신 작업 공간 서비스 계정** Azure AD 그룹은 등록할 때 서비스를 위해 만드는 동적 그룹입니다. 등록 한 후에는이 그룹을 제외 하려면 다시 방문 해야 합니다. 이러한 서비스 계정에 대 한 자세한 내용은 [표준 운영 절차](../service-description/operations-and-monitoring.md#standard-operating-procedures)를 참조 하세요.
 
+**오류**
+
+Intune 관리자 역할에는이 검사에 대 한 충분 한 사용 권한이 없습니다. 또한이 검사를 실행 하려면 이러한 모든 Azure AD 역할을 할당 받아야 합니다.
+
+- 보안 읽기 권한자
+- 보안 관리자
+- 조건부 액세스 관리자
+- 전역 읽기 권한자
+- 장치 관리자
+
 
 ### <a name="device-compliance-policies"></a>장치 준수 정책
 
@@ -107,7 +118,7 @@ Microsoft Managed Desktop 장치는 Intune에서 등록할 수 있어야 합니�
 
 **준비되지 않음**
 
-[등록 제한 설정](https://docs.microsoft.com/mem/intune/enrollment/enrollment-restrictions-set) 의 단계에 따라 설정을 **허용**으로 변경 합니다.
+[등록 제한 설정](https://docs.microsoft.com/mem/intune/enrollment/enrollment-restrictions-set) 의 단계에 따라 설정을 **허용** 으로 변경 합니다.
 
 
 ### <a name="enrollment-status-page"></a>등록 상태 페이지
@@ -116,7 +127,7 @@ Microsoft Managed Desktop 장치는 Intune에서 등록할 수 있어야 합니�
 
 **준비되지 않음**
 
-**앱 및 프로필 구성 진행률을 표시**하도록 ESP 기본 프로필을 설정 해야 합니다. [등록 상태 설정 페이지](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status)의 단계를 수행 하 여이 설정을 사용 하지 않도록 설정 합니다.
+**앱 및 프로필 구성 진행률을 표시** 하도록 ESP 기본 프로필을 설정 해야 합니다. [등록 상태 설정 페이지](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status)의 단계를 수행 하 여이 설정을 사용 하지 않도록 설정 합니다.
 
 **조언**
 
@@ -128,7 +139,7 @@ Azure AD 조직의 Windows 10 장치는 Intune에서 자동으로 등록 해야 
 
 **준비되지 않음**
 
-Azure AD 조직의 사용자는 Microsoft Intune에 자동으로 등록 되지 않습니다. MDM 사용자 범위를 **일부** 또는 **모두**로 변경 합니다. 을 선택 합니다. 일부 * *는 등록 후에 다시 돌아와서 **그룹**에 대 한 **최신 직장 작업 공간 (All** Azure AD 그룹)을 선택 합니다.
+Azure AD 조직의 사용자는 Microsoft Intune에 자동으로 등록 되지 않습니다. MDM 사용자 범위를 **일부** 또는 **모두** 로 변경 합니다. **일부** 를 선택 하는 경우 등록 후에 다시 돌아와서 **그룹** 에 대 한 **최신 작업 회사-All** Azure AD 그룹을 선택 합니다.
 
 
 ### <a name="microsoft-store-for-business"></a>비즈니스용 Microsoft Store
@@ -152,6 +163,15 @@ Microsoft Managed Desktop 서비스 계정에는 실수로 다단계 인증을 �
 
 MFA가 필요한 조건부 액세스 정책이 **최신 직장의 모든** Azure AD 그룹을 제외 하는지 확인 합니다. 자세한 내용은 [조건부 액세스 정책](#conditional-access-policies) 및 [조건부 액세스: 모든 사용자에 대해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)를 참조 하세요. **최신 작업 회사-All** Azure AD 그룹은 Microsoft Managed Desktop에 등록할 때 작성 하는 동적 그룹으로, 등록 후에이 그룹을 제외 하려면 다시 방문 해야 합니다.
 
+**오류**
+
+Intune 관리자 역할에는이 검사에 대 한 충분 한 사용 권한이 없습니다. 또한이 검사를 실행 하려면 이러한 모든 Azure AD 역할을 할당 받아야 합니다.
+
+- 보안 읽기 권한자
+- 보안 관리자
+- 조건부 액세스 관리자
+- 전역 읽기 권한자
+- 장치 관리자
 
 
 ### <a name="powershell-scripts"></a>PowerShell 스크립트
@@ -234,7 +254,7 @@ Intune의 "Windows 10 업데이트 링" 정책은 Microsoft Managed Desktop 장�
 
 **조언**
 
-**AllowAdHocSubscriptions** 이 **True**로 설정 되어 있는지 확인 합니다. 그렇지 않으면 엔터프라이즈 상태 로밍이 작동 하지 않을 수 있습니다. 자세한 내용은 [set-msolcompanysettings](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0)를 참조 하십시오.
+**AllowAdHocSubscriptions** 이 **True** 로 설정 되어 있는지 확인 합니다. 그렇지 않으면 엔터프라이즈 상태 로밍이 작동 하지 않을 수 있습니다. 자세한 내용은 [set-msolcompanysettings](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0)를 참조 하십시오.
 
 
 ### <a name="enterprise-state-roaming"></a>Enterprise State Roaming
@@ -297,6 +317,11 @@ Azure Active Directory의 보안 기본값을 설정 하면 Microsoft Managed De
 **조언**
 
 SSPR **Selected** 설정에 Microsoft Managed Desktop devices가 포함 되어 있는지 확인 합니다.
+
+**오류**
+
+Intune 관리자 역할에는이 검사에 대 한 충분 한 사용 권한이 없습니다. 또한이 검사를 실행 하려면 보고서 판독기 Azure AD 역할이 할당 되어 있어야 합니다.
+
 
 ### <a name="standard-user-role"></a>표준 사용자 역할
 

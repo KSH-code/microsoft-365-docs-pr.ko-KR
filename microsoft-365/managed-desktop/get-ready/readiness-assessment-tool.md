@@ -9,18 +9,20 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: c574be6d171a230479d8b6c96e2e0a1dec8a87ac
-ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
+ms.openlocfilehash: 56d849a7abcbe480d82200cc7841d42e9c189762
+ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48656161"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48795108"
 ---
 # <a name="readiness-assessment-tool"></a>준비 상태 평가 도구
 
 Microsoft Managed Desktop에 등록할 때 발생할 수 있는 환경에 대 한 원활한 다양 한 설정과 기타 매개 변수를 미리 설정 해야 합니다. 이 도구를 사용 하 여 해당 설정을 확인 하 고, 적절 하지 않은 문제를 해결 하기 위한 자세한 단계를 받을 수 있습니다.
 
-이 도구는 microsoft Endpoint Manager (특히, Microsoft Intune), Azure Active Directory (Azure AD) 및 microsoft 365의 설정을 검사 하 여 Microsoft Managed Desktop에서 작동 하도록 합니다. Microsoft Managed Desktop은 Azure AD 조 직 (테 넌 트)에서 검사를 마지막으로 실행 한 후 12 개월 동안 이러한 검사와 관련 된 데이터를 보존 합니다.  12 개월 후에는 식별 되지 않은 형식으로 보존 됩니다.  수집한 데이터를 삭제 하도록 선택할 수 있습니다.
+이 도구는 microsoft Endpoint Manager (특히, Microsoft Intune), Azure Active Directory (Azure AD) 및 microsoft 365의 설정을 검사 하 여 Microsoft Managed Desktop에서 작동 하도록 합니다. Microsoft Managed Desktop은 Azure AD 조 직 (테 넌 트)에서 검사를 마지막으로 실행 한 후 12 개월 동안 이러한 검사와 관련 된 데이터를 보존 합니다. 12 개월 후에는 식별 되지 않은 형식으로 보존 됩니다.  수집한 데이터를 삭제 하도록 선택할 수 있습니다.
+
+적어도 Intune 관리자 역할을 가진 모든 사용자는이 도구를 실행할 수 있지만 세 가지 검사 ([인증서 커넥터](readiness-assessment-fix.md#certificate-connectors), [다단계 인증](readiness-assessment-fix.md#multi-factor-authentication)및 [셀프 서비스 암호 재설정](readiness-assessment-fix.md#self-service-password-reset))에는 추가 권한이 필요 합니다.
  
 평가 도구는 다음 항목을 확인 합니다.
 
@@ -68,7 +70,7 @@ Microsoft Managed Desktop에 등록할 때 발생할 수 있는 환경에 대 �
 |비즈니스용 OneDrive     | 비즈니스용 OneDrive에서 지원 되지 않는 설정을 사용 하는지 여부를 확인 합니다.        |
 
 
-각 검사에 대해이 도구는 다음과 같은 세 가지 가능한 결과 중 하나를 보고 합니다.
+각 검사에 대해이 도구는 다음과 같은 네 가지 가능한 결과 중 하나를 보고 합니다.
 
 
 |결과  |의미  |
@@ -76,3 +78,4 @@ Microsoft Managed Desktop에 등록할 때 발생할 수 있는 환경에 대 �
 |맞춤형     | 등록을 완료 하기 전에 작업을 수행할 필요가 없습니다.        |
 |조언    | 등록 및 사용자를 위한 최상의 환경을 위한 도구에 나와 있는 단계를 수행 합니다. 등록을 완료할 *수* 있지만 첫 번째 장치를 배포 하기 전에 이러한 문제를 해결 해야 합니다.        |
 |준비되지 않음 | 이러한 문제를 해결 하지 않으면 *등록에 실패* 합니다. 도구의 단계에 따라 문제를 해결 합니다.        |
+|오류 | 사용 중인 Azure 활성 디렉터 (AD) 역할에이 검사를 실행할 수 있는 충분 한 권한이 없습니다. |

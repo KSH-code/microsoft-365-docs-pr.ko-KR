@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: 개인 정보를 생산성 점수가 보호 되는 방식입니다.
-ms.openlocfilehash: 1af2553e67b4f14e9783c23d679a7ac96443512a
-ms.sourcegitcommit: e8b3855302fc34d09b6df6c737033a2f326d6eee
+ms.openlocfilehash: 62ff3a9f0434421cbe1115f13376e92bd9f3cac9
+ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48770050"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48794980"
 ---
 # <a name="privacy-controls-for-productivity-score"></a>생산성 점수에 대 한 개인 정보 제어
 
@@ -55,7 +55,21 @@ ms.locfileid: "48770050"
 
 변경 관리 및 채택을 담당 하는 모든 사용자에 게 보고서 독자 역할을 할당 합니다. 이 역할을 사용 하면 테 넌 트 수준 메트릭 및 사용자별 수준 세부 정보를 비롯 하 여 전체 환경에 액세스할 수 있습니다.
 
-사용자 경험 보고서에는 각 범주 세부 정보 페이지에 대 한 사용자별 활동 세부 정보가 포함 되어 있습니다. 사용자 환경에 대 한 집계 메트릭에만 액세스할 수 있도록 사용 현황 요약 보고서 읽기 권한자 (사용 가능한 시작 29 년 10 월 2020)를 할당 합니다.
+사용자 경험 보고서에는 각 범주 세부 정보 페이지에 대 한 사용자별 활동 세부 정보가 포함 되어 있습니다. 사용자 환경에 대 한 집계 메트릭에만 액세스할 수 있도록 사용 현황 요약 보고서 읽기 권한자 (사용 가능한 시작 29 년 10 월 2020)를 할당 합니다. 이 역할은 11/15/2020의 Microsoft 관리 센터에서 할당할 수 있을 때까지 PowerShell cmdlet을 통해 할당 해야 합니다.
+
+PowerShell로 사용 현황 요약 보고서 읽기 권한자 역할을 할당 하려면 다음을 수행 합니다.
+
+- 다음 PowerShell을 실행 합니다.
+
+```powershell
+Connect-AzureAD
+$role=Get-AzureADDirectoryRole -Filter "roleTemplateId eq '75934031-6c7e-415a-99d7-48dbd49e875e'"
+Get-AzureADDirectoryRoleMember -ObjectId $role.ObjectId
+$u=Get-AzureADUser -ObjectId <user upn>
+Add-AzureADDirectoryRoleMember -ObjectId $role.ObjectId -RefObjectId $u.ObjectId
+```
+
+</br>
 
 :::image type="content" source="../../media/communicationspage.jpg" alt-text="생산성 보고서의 통신 페이지":::
 

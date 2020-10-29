@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 준수 점수 및 준수 관리자를 사용 하 여 개인 데이터에 대 한 보호 수준을 향상 시키는 방법을 알아봅니다.
-ms.openlocfilehash: 5b41fa9fc52253d415a22aaa3422a87c4f1bda7c
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: f90826795197b392f629eb8eec71b7f27081b697
+ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377102"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48791885"
 ---
 # <a name="use-compliance-manager-to-manage-improvement-actions"></a>준수 관리자를 사용 하 여 개선 작업 관리
 
@@ -44,7 +44,7 @@ Microsoft 준수 관리자는 유럽 연합 [일반 데이터 보호 규정 (GDP
 
 준수 관리자는 GDPR 및 HIPAA/HITECH와 같은 데이터 개인 정보 관련 규정에 부합 되는 [평가를 빌드하기](../compliance/compliance-manager-assessments.md) 위한 미리 작성 된 템플릿을 제공 합니다. 이 서식 파일에는 규정 요구 사항을 충족 하기 위한 개선 작업을 수행 하는 데 도움이 되는 기본 제공 컨트롤 매핑이 있습니다. 각 평가에서는 특정 대상 서비스에 대 한 각 규정 호출을 제어 하는 컨트롤에 대 한 정보를 제공 하며, Microsoft에서 관리 하 고 제어 하는 컨트롤을 통해 분류 하 여 
 
-미리 작성 된 서식 파일을 사용 하면 위험 평가를 빠르게 시작할 수 있습니다. 규정 준수 관리자를 보다 능숙 하 게 사용할 수 있는 것 처럼, 사용자가 직접 작성 한 서식 파일을 사용자 지정할 수도 있고, 향상 된 작업을 추가 하 여 조직의 요구 사항에 맞게 고유한 사용자 지정 평가를 만들 수도 있습니다.
+미리 작성 된 서식 파일을 사용 하면 위험 평가를 빠르게 시작할 수 있습니다. 준수 관리자를 사용 하는 것이 더욱 능숙 해지면 사용자 지정 컨트롤 및 개선 작업을 추가 하 여 미리 작성 된 서식 파일을 사용자 지정 하거나 조직의 요구에 맞게 고유한 사용자 정의 평가를 만들 수 있습니다.
 
 준수 관리자가 제공한 [평가 템플릿의 전체 목록을](../compliance/compliance-manager-templates-list.md) 확인 합니다.
 
