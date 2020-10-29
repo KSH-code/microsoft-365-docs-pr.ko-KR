@@ -15,28 +15,26 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: 사용자에 게 조직의 업계 정보에 대 한 최신 뉴스 헤드라인을 제공 하 고, 뉴스 서비스를 사용 하 여 조직에 대해 사용자 지정 된 뉴스 피드를 사용 하도록 설정 합니다.
-ms.openlocfilehash: 718e48c9db90ff7e598dd56c0228bb894b7a3a4d
-ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.openlocfilehash: c0758c3a762c39534629095345d935456cb938e9
+ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 10/28/2020
-ms.locfileid: "48779181"
+ms.locfileid: "48791825"
 ---
 # <a name="manage-industry-news"></a>업계 소식 관리
 
 사용자에 게 조직의 산업 및 정보에 대 한 최신 뉴스 헤드라인을 제공 하려면 [뉴스](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews) 서비스를 사용 하 여 조직에 대해 사용자 지정 된 뉴스 피드를 사용 하도록 설정 합니다.또한에 지 87의 릴리스로 시작 하 여 Bing 홈페이지 및 Microsoft Edge 새 탭 페이지에 대 한 설정을 관리할 수 있습니다.
 
 ## <a name="what-your-users-will-see"></a>사용자에 게 표시 되는 항목
-
-:::image type="content" source="../../media/manage-industry-news-1.png" alt-text="Microsoft search 업계 업데이트 롤업":::
  
 Bing 홈페이지에 들어오는 로그인 한 사용자는 조직의 개인 설정 된 정보에 따라 뉴스 피드를 볼 수 있습니다.
 
-:::image type="content" source="../../media/manage-industry-news-2.jpg" alt-text="Microsoft search 업계 업데이트 롤업":::
+:::image type="content" source="../../media/manage-industry-news-2.jpg" alt-text="웹에서 업계 소식을 사용한 이미지 컨베이어 스크린샷":::
 
 또한 Microsoft Edge 새 탭 페이지에 회사, 산업, 내부 뉴스 또는 개인 설정 된 작업 정보를 볼 수 있습니다. 
 
-:::image type="content" source="../../media/manage-industry-news-3.png" alt-text="Microsoft search 업계 업데이트 롤업":::
+:::image type="content" source="../../media/manage-industry-news-3.png" alt-text="웹에서 업계 소식을 사용한 이미지 컨베이어 스크린샷":::
 
 ## <a name="news-settings"></a>뉴스 설정
 
