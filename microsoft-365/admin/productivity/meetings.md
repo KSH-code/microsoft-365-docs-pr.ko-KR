@@ -18,14 +18,13 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: 모임 세부 정보-생산성 점수가 사용자에 게 제공 됩니다.
-ms.openlocfilehash: 09869d92b093304e070d669db7d0e7dea825441f
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: cdb83000e176fb2a88d848a1b7f114499362672a
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795536"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804588"
 ---
 # <a name="meetings--people-experiences"></a>모임 – 사용자 환경
 
@@ -166,3 +165,12 @@ Microsoft 팀은 Outlook 일정과 통합 되며, 회의를 보다 효율적이 
 - Microsoft 팀에 대 한 액세스 권한이 있는 사용자만 평가에 대 한 것으로 간주 됩니다.
 - 브로드캐스트 이벤트 및 모임 또는 통화 태그가 지정 되지 않은 특정 이벤트는 제외 합니다.
 - 참가자 간 화면 공유로 시작 되는 이벤트는 1:1 통화 (참가자 2 명 포함) 또는 그룹 통화 (3 개 이상의 참가자)로 분류 됩니다.
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[Microsoft 365 apps health-기술 환경](apps-health.md) (문서) \
+[통신-사용자 환경](communication.md) (문서) \
+[콘텐츠 공동 작업-사용자 환경](content-collaboration.md) (문서) \
+[모바일 기능-사용자 환경](mobility.md) (문서) \
+[생산성 점수에 대 한 개인 정보 제어](privacy.md) (문서) \
+[팀 작업 – 사용자 환경](teamwork.md) (문서)

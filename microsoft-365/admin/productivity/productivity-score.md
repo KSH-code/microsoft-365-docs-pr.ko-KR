@@ -18,14 +18,13 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 생산성 점수 개요
-ms.openlocfilehash: 3d014cd0eb3a3ceed3b3f3b48f126453e4ced193
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: 3808583429c78460483cd7193d38810a7e189040
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48794968"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804729"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft 생산성 점수 
 
@@ -43,25 +42,28 @@ Microsoft는 다음과 같은 두 가지 분야에서 데이터, 통찰력 및 �
 
     이 정보는 사용자가 온라인으로 공동 작업 하 고 시간을 절약 하며 모든 장치에서 자유롭게 작업할 수 있도록 하는 생산성과 만족도를 높이기 위해 제공 됩니다. 융통성 있는 방식으로 통신 기능을 사용 하면 사용자가 보다 효율적이 고 효율적인 관계를 형성할 수 있으므로 조직의 통합이 더욱 향상 됩니다. 증거는 [Forrester report](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf)를 참조 하십시오.
 
-- **기술 환경:** 생산성은 안정적이 고 적절 한 수행 기술 및 Microsoft 365의 효율적인 사용에 달려 있습니다. Microsoft는 끝점 [분석](https://aka.ms/endpointanalytics)을 제공 하 여 사용자의 생산성과 종점 하드웨어 및 소프트웨어에 대 한 상태 문제에 영향을 줄 수 있는 방법을 이해 하는 데 도움이 됩니다. 또한 조직에 대 한 Microsoft 365 네트워크 연결 통찰력과 함께 수정 하는 데 필요한 권장 작업을 제공 합니다.
+- **기술 환경:** 팀의 생산성은 안정적이 고 잘 작동 하는 기술 및 Microsoft 365의 효율적인 사용에 따라 달라 집니다. [끝점 분석](https://aka.ms/endpointanalytics) 은 하드웨어 및 소프트웨어의 성능 및 상태 문제에 따라 사용자 생산성이 어떻게 영향을 받을 수 있는지를 이해 하는 데 도움이 됩니다. 권장 작업은 이러한 문제를 수정 하는 데 도움이 됩니다. Microsoft 365 네트워크 연결 통찰력은 조직의 connectivty 문제를 해결 하는 데 도움이 됩니다.
 
 개요 및 필수 구성 요소 세부 정보에 대 한 [끝점 분석 이란?](https://docs.microsoft.com/mem/analytics/overview) 를 참조 하세요. Microsoft 365 network connectivity insights에 대 한 자세한 내용은 [네트워크 연결 개요](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-networking-overview)를 참조 하세요.
   
 
 ## <a name="how-the-score-is-calculated"></a>점수가 계산 되는 방식
 
-생산성 점수가 사용자와 기술 경험 범주의 조합 점수를 기반으로 합니다. 각 범주는 가중치가 동일 하며 총 100 포인트입니다. 가능한 최대 생산성 점수는 500입니다.
+생산성 점수가 사용자와 기술 경험 범주의 조합 점수를 기반으로 합니다. 각 범주는 가중치가 동일 하며 총 100 포인트입니다. 가능한 최대 생산성 점수는 800입니다.
 
 ### <a name="score-categories"></a>점수 범주 
 
-- 콘텐츠 공동 작업 (100 포인트)
 - 통신 (100 지점)
+- 모임 (100 점)
+- 콘텐츠 공동 작업 (100 포인트)
+- 팀 작업 (100 points)
 - 모바일 기능 (100 지점)
 - 끝점 분석 (100 포인트)
 - 네트워크 연결 (100 포인트)
-- **총 가능 = 500 포인트**
+- Microsoft 365 Apps Health (100 포인트)
+- **총 가능 = 800 포인트**
  
- 각 범주에서 사용자가 Microsoft 365 제품을 사용 하 여 플랫폼 공동 작업, 통신 및 작업을 수행 하는 방법에 대 한 지표를 나타내는 주요 작업의 패턴을 식별 합니다. 여기서는 28 일 및 180 일 동안의 주요 활동 보기를 제공 합니다. 또한 점수 계산에 포함 되지 않는 지원 메트릭을 제공 하지만, 기본 동작 및 작업을 수행할 수 있는 설정을 확인 하는 데 도움이 되는 것이 중요 합니다.
+ 각 점수 범주에서는 사용자가 Microsoft 365 제품을 사용 하 여 플랫폼 공동 작업, 통신 및 작업을 수행 하는 방법에 대 한 지표를 나타내는 주요 활동의 패턴을 식별 합니다. 여기서는 28 일 및 180 일 동안의 주요 활동 보기를 제공 합니다. 또한 점수 계산에 포함 되지 않는 지원 메트릭스를 제공 하지만 처리할 수 있는 기본 동작과 설정을 식별 하는 데 도움이 되는 것이 중요 합니다.
 
 ### <a name="products-included-in-productivity-score"></a>생산성 점수에 포함 된 제품 
 
@@ -72,7 +74,9 @@ Microsoft는 다음과 같은 두 가지 분야에서 데이터, 통찰력 및 �
 
 ## <a name="pre-requisites"></a>필수 구성 요소 
 
-사용자가 경험 하는 데이터를 가져오려면 비즈니스용 Microsoft 365 for business 또는 Office 365 for enterprise subscription이 필요 하며, 다중 테 넌 트 클라우드 서비스를 사용 해야 합니다. 테 넌 트에 대 한 끝점 분석 데이터를 가져오려면 구독에 Microsoft Intune을 추가 해야 합니다. Intune은 장치 및 앱을 관리 하 여 조직의 데이터를 보호 하는 데 도움이 됩니다.       Intune을 사용 하는 경우 Intune 환경 내에서 끝점 분석을 켤 수 있습니다. 자세한 내용은 Microsoft Intune을 참고 하세요. 
+사용자 환경 데이터의 경우에는 Microsoft 365 for business 또는 Office 365 for enterprise 구독을 받아야 합니다. 테 넌 트에 대 한 끝점 분석 데이터의 경우 구독에 Microsoft Intune을 추가 해야 합니다. Intune은 장치 및 앱을 관리 하 여 조직의 데이터를 보호 하는 데 도움이 됩니다. Intune을 사용 하는 경우 Intune 환경 내에서 끝점 분석을 켤 수 있습니다. 자세한 내용은 Microsoft Intune을 참고 하세요. 
+> [!NOTE]
+> 생산성 점수 기능을 얻기 위해 작업 공간 분석 라이선스가 필요 하지는 않습니다.
 
 조직의 생산성 점수를 확인 하려면 다음 역할 중 하나가 있어야 합니다. 
 
@@ -90,11 +94,11 @@ Microsoft는 다음과 같은 두 가지 분야에서 데이터, 통찰력 및 �
 
 생산성 점수 홈 페이지에는 각 범주에 대 한 주요 통찰력 및 총 점수 및 점수 기록이 표시 됩니다.
 
-![생산성 점수 홈 페이지](../../media/pslanding.png)
+:::image type="content" source="../../media/prodscore-landing.png" alt-text="보고서의 생산성 점수 페이지":::
 
 **점수가** 백분율 값과 포인트 단위로 표시 됩니다. 분자에서 점수를 확인 하 고 가능한 최대 점수를 분모에서 확인할 수 있습니다.
 
-**피어 벤치 마크** 를 사용 하 여 사용자와 같은 조직과 점수를 비교할 수 있습니다. 사용자 경험 범주에서 동위 벤치 마크 측정값은 비슷한 조직 집합 내의 측정값 평균으로 계산 됩니다. 이 집합은 사용자의 사용이 허가 된 사용자, 라이선스 유형, 산업 및 Microsoft 365을 사용 하 여 tenure와 비슷한 수의 조직으로 구성 됩니다. 
+**피어 벤치 마크** 를 사용 하 여 사용자와 같은 조직과 점수를 비교할 수 있습니다. 사용자 경험 범주에 대 한 피어 벤치 마크는 비슷한 조직의 집합 내에서 발생 하는 평균 측정값으로 계산 됩니다. 조직의 집합은 사용이 허가 된 사용자, 라이선스 유형, 산업, Microsoft 365을 사용 하 여 tenure와 비슷한 수의 조직으로 구성 됩니다. 
 
 끝점 분석 피어 벤치 마크에는 모든 테 넌 트에서 집계 된 중앙값을 기반으로 하는 장치 시작 성능 및 권장 소프트웨어 구성에 대 한 대상이 포함 됩니다.
 

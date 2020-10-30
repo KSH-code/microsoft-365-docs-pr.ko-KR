@@ -18,14 +18,13 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: 팀 작업에 대 한 자세한 내용은 생산성 성과를 경험 합니다.
-ms.openlocfilehash: d76447a187003aa3d3e87ec293cf4550ced2fc74
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: d7edd5685c8e818e08faf4ac227f3eb1a416c94c
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795474"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804796"
 ---
 # <a name="teamwork--people-experiences"></a>팀 작업 – 사용자 환경
 
@@ -193,3 +192,12 @@ ms.locfileid: "48795474"
 - 팀 작업에서는 조직 내 사용자의 계약을 측정 합니다. 외부 구성원의 활동을 캡처할&#39;없습니다.
 - 팀 작업의 채널 메시지에는 Microsoft 팀 모바일 클라이언트를 통해 전송 되는 메시지가 포함 되지 않습니다.
 - 해결 하는 데 사용 하는 통신 및 팀 작업 범주 간의 전자 메일 메트릭과 채널 메시지 사이에는 약간의 차이점이 있을 수 있습니다.
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[Microsoft 365 apps health-기술 환경](apps-health.md) (문서) \
+[통신-사용자 환경](communication.md) (문서) \
+[콘텐츠 공동 작업-사용자 환경](content-collaboration.md) (문서) \
+[모임 – 사용자 환경](meetings.md) (문서) \
+[모바일 기능-사용자 환경](mobility.md) (문서) \
+[생산성 점수에 대 한 개인 정보 제어](privacy.md) (문서)

@@ -18,14 +18,13 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: 이동성에 대 한 세부 정보-생산성 점수가 사용자에 게 제공 됩니다.
-ms.openlocfilehash: 0d67cae7421b7b27e39420f691d72abd57a63a32
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: f40984b3c053dcb976c901830bf796e3b7297f2d
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795551"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804784"
 ---
 # <a name="mobility--people-experiences"></a>모바일 기능-사용자 환경
 
@@ -172,3 +171,12 @@ Microsoft 365에서는 Microsoft Outlook, Word, Excel, PowerPoint, OneNote, Micr
 - **Skype의 일 (데스크톱):** 데스크톱 플랫폼의 Skype에서 사용자가 활성 상태인 일 수입니다.
 - **Skype (웹)에서의 일:** 웹 플랫폼에서 Skype가 활성 상태인 일 수입니다.
 - **Skype의 일 (휴대폰):** 모바일 플랫폼의 Skype에서 사용자가 활성 상태 였던 일 수입니다.
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[Microsoft 365 apps health-기술 환경](apps-health.md) (문서) \
+[통신-사용자 환경](communication.md) (문서) \
+[콘텐츠 공동 작업-사용자 환경](content-collaboration.md) (문서) \
+[모임 – 사용자 환경](meetings.md) (문서) \
+[생산성 점수에 대 한 개인 정보 제어](privacy.md) (문서) \
+[팀 작업 – 사용자 환경](teamwork.md) (문서)

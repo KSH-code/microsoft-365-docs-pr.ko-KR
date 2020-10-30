@@ -18,14 +18,13 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: 통신에 대 한 세부 정보-생산성 점수가 사용자에 게 제공 됩니다.
-ms.openlocfilehash: 071621759a922e6dda28a5a18f531a0f01d2f88f
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: 6f79a636c24548586048adf0151ac5eefb98fffe
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795039"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804658"
 ---
 # <a name="communication--people-experiences"></a>통신-사용자 환경
 
@@ -160,3 +159,12 @@ Microsoft 365에서는 사용자가 여러 모드를 제공 하 여 모든 사�
 - **전자 메일에 @mention 사용 되는 날짜:** 지난 28 일 이내에 @mention를 포함 하는 전자 메일을 사용자가 보낸 일 수입니다.
 
 내보내기/내보내기 **단추** 링크를 선택 하 여 보고서 데이터를 Excel .csv 파일로 내보낼 수도 있습니다. **열 선택을** 클릭 한 후에 필요한 열을 선택 하 여 보기의 열 집합을 사용자 지정할 수 있습니다.
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[Microsoft 365 apps health-기술 환경](apps-health.md) (문서) \
+[콘텐츠 공동 작업-사용자 환경](content-collaboration.md) (문서) \
+[모임 – 사용자 환경](meetings.md) (문서) \
+[모바일 기능-사용자 환경](mobility.md) (문서) \
+[생산성 점수에 대 한 개인 정보 제어](privacy.md) (문서) \
+[팀 작업 – 사용자 환경](teamwork.md) (문서)

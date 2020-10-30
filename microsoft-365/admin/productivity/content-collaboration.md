@@ -18,14 +18,13 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: 콘텐츠 공동 작업에 대 한 세부 정보-생산성 점수가 사용자에 게 제공 됩니다.
-ms.openlocfilehash: 6e8f3113d2f35e6af268e4a8088bef34f529a676
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: 87f89af527e2a1b843a9b70fbef590b69d920f7d
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795527"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804600"
 ---
 # <a name="content-collaboration--people-experiences"></a>콘텐츠 공동 작업-사용자 환경
 
@@ -203,3 +202,12 @@ Microsoft 비즈니스용 OneDrive 및 SharePoint에서는 사용자가 장치 �
 - **이메일로 받은 첨부 파일:** 사용자가 OneDrive 또는 SharePoint에서 파일을 사용 하 여 전자 메일을 지난 28 일 동안 첨부 파일로 보냈는지 여부를 나타내는 부울 값입니다.
 - **전자 메일로 전송 되는 온라인 파일 첨부:** 사용자가 최근 28 일 이내에 첨부 파일로 온라인 파일 (OneDrive 또는 SharePoint)에 대 한 링크를 사용 하 여 전자 메일을 보냈는지 여부를 나타내는 부울 값입니다.
 - **온라인 파일에 대 한 링크 포함:** 지난 28 일 동안 전자 메일 본문에 포함 된 온라인 파일 (OneDrive 또는 SharePoint)에 대 한 링크를 사용 하 여 전자 메일을 보냈는지 여부를 나타내는 부울 값입니다.
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[Microsoft 365 apps health-기술 환경](apps-health.md) (문서) \
+[통신-사용자 환경](communication.md) (문서) \
+[모임 – 사용자 환경](meetings.md) (문서) \
+[모바일 기능-사용자 환경](mobility.md) (문서) \
+[생산성 점수에 대 한 개인 정보 제어](privacy.md) (문서) \
+[팀 작업 – 사용자 환경](teamwork.md) (문서)

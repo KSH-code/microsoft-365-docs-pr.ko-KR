@@ -18,14 +18,13 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 365 apps 상태 기술에 대 한 자세한 내용은 생산성 성과를 경험 합니다.
-ms.openlocfilehash: bb6454b336caa9ac1e7b8f6049ea46c681c8bd77
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: 4242a9b665bc7292232cc15ee0f1ec37915fb1ac
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795457"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804772"
 ---
 # <a name="microsoft-365-apps-health--technology-experiences"></a>Microsoft 365 앱 상태-기술 환경
 
@@ -112,3 +111,12 @@ Microsoft 365 apps 상태 점수는 장치가 권장 채널 및 최신 버전에
 - **상태:**   Microsoft 365 apps 현재 채널 및 버전을 기반으로 하는 장치의 상태를 지원 합니다.
 - **버전:**   장치에 있는 최신 Microsoft 365 apps 버전
 - **장치 수:**  장치 수입니다.
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[통신-사용자 환경](communication.md) (문서) \
+[콘텐츠 공동 작업-사용자 환경](content-collaboration.md) (문서) \
+[모임 – 사용자 환경](meetings.md) (문서) \
+[모바일 기능-사용자 환경](mobility.md) (문서) \
+[생산성 점수에 대 한 개인 정보 제어](privacy.md) (문서) \
+[팀 작업 – 사용자 환경](teamwork.md) (문서)
