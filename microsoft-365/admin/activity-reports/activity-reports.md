@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자가 Microsoft 365 서비스를 사용하는 방식에 대한 주기적인 보고를 받을 수 있습니다. 사용 현황 개요 대시보드를 사용하면 각 차트에 대한 세부 정보를 확인할 수 있습니다.
-ms.openlocfilehash: 4356b287afa56201da7cb644a4056d4c975964e5
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: dee0f3e586c49c25daafe999d065e743babf020e
+ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637010"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48779123"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
@@ -130,19 +130,37 @@ ms.locfileid: "48637010"
   
 ::: moniker range="o365-worldwide"
 
-- [Yammer 활동](yammer-activity-report.md)
+- [Yammer 활동](yammer-activity-report-ww.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
 
-- [Yammer 장치 사용 현황](yammer-device-usage-report.md)
+- [미국 정부 기관용 Yammer 활동](yammer-activity-report.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
 
-- [Yammer 그룹 활동 보고서](yammer-groups-activity-report.md)
+- [Yammer 장치 사용 현황](yammer-device-usage-report-ww.md)
+
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+- [미국 정부 기관용 Yammer 장치](yammer-device-usage-report.md)
+
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+- [Yammer 그룹 활동 보고서](yammer-groups-activity-report-ww.md)
+
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+- [미국 정부 기관용 Yammer 그룹 활동 보고서](yammer-groups-activity-report.md)
 
 ::: moniker-end
 
@@ -188,7 +206,7 @@ ms.locfileid: "48637010"
   
 1. 관리 센터 미리 보기에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">서비스 &amp; 추가 기능</a> 페이지로 이동합니다.
 
-2. **보고서**를 선택합니다. 
+2. **보고서** 를 선택합니다. 
   
 3. **보고서** 창에서 원하는 옵션을 선택한 다음 변경 내용을 저장합니다.
   
