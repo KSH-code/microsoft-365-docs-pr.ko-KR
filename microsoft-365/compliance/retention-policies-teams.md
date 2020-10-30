@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Teams에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: 32656dc91350e5082171eb4fadd91d3a6287b9b7
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 85f272c5c663a95c749f7971b6e23c178dab2b94
+ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754064"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48795097"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Microsoft Teams의 보존에 대해 알아보기
 
@@ -38,9 +38,9 @@ ms.locfileid: "48754064"
 
 ## <a name="whats-included-for-retention-and-deletion"></a>보존 및 삭제에 포함된 항목
 
-Teams 보존 정책을 사용하여 Teams 내에서 채팅 및 채널 메시지 항목을 유지 및 삭제할 수 있습니다.
+Teams 보존 정책을 사용하여 다음의 Teams 항목(포함된 이미지를 비롯한 채팅 및 채널 메시지)을 보존하고 삭제할 수 있습니다.
 
-개인 채널의 Teams 메시지는 포함되지 않으며 이모티콘 형태의 다른 사람들의 반응은 포함되지 않습니다.
+비공개 채널의 Teams 메시지는 포함되지 않으며 이모티콘 형태의 다른 사용자의 반응도 포함되지 않습니다.
 
 Teams에서 사용하는 전자 메일 및 파일은 Teams의 보존 정책에 포함되지 않습니다. 이러한 항목은 자체 보존 정책이 있습니다.
 
