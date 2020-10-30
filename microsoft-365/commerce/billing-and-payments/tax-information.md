@@ -20,12 +20,12 @@ description: '다른 지역의 Microsoft 365 비즈니스 에디션 구독에 �
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: d3d1bc1239cb99da33f776e603356ccae95a2353
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: d3654dd307e15e58acdd06277cf7338da537e5c6
+ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464099"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48806603"
 ---
 # <a name="tax-information"></a>세금 정보
 
@@ -99,21 +99,21 @@ Microsoft 365 제품 및 서비스를 구입 하는 경우 지불 하는 세금�
 
 ## <a name="europe-the-middle-east-and-africa-emea"></a>EMEA(유럽, 중동, 아프리카)
 
-유럽 연합에서 Microsoft 365 서비스를 구입 하는 경우이 구매에는 VAT (Value-Added 세금)가 적용 됩니다.
+EMEA 지역에서 Microsoft 365 서비스를 구입 하는 경우이 구매는 Value-Added 세금 (VAT)을 준수할 수 있습니다.
   
-- 유럽 연합 회원 상태에 있고 유효한 로컬 VAT ID를 제공 하지 않으면 (Microsoft 아일랜드;) 사용자의 계정이 설정 된 청구 국가에 따라 현재 로컬 VAT 속도가 적용 됩니다.
+- 유럽 연합 멤버 상태, 아르메니아, 벨로루시, 노르웨이, 터키 또는 아랍에미리트에 해당 하는 경우 유효한 로컬 VAT ID를 제공 하지 않고 Microsoft 아일랜드 운영을 사용 하는 경우 사용자 계정이 설정 된 결제 국가를 기반으로 현재 로컬 VAT 속도를 적용 합니다.
 
-- 스위스 또는 리히텐슈타인에 있는 경우 VAT ID 제공 여부와 관계없이 현재 스위치 VAT 세율이 적용됩니다.
+- 리히텐슈타인, 러시아, 세르비아, 남아프리카 공화국 또는 스위스에 있는 경우 VAT ID 제공 여부에 관계 없이 VAT가 적용 됩니다.
 
-- 일반적으로 유럽 연합 및 스위스/리히텐슈타인가 아닌 EMEA 국가에 있는 경우에는 VAT가 Microsoft 아일랜드;
-
-- Microsoft에서 귀하의 VAT ID를 확인하기 전에 VIES(VAT Information Exchange System)에서 확인이 가능한 상태여야 합니다. VAT ID를 확인할 수 없는 경우 현지 세금 인증 기관에 문의 하십시오.
+- EU 고객은 VAT ID를 확인 하기 전에 VAT 정보 교환 시스템 (VIES)에서 확인할 수 있어야 합니다. VAT ID를 확인할 수 없는 경우 현지 세금 인증 기관에 문의 하십시오.
 
 다음과 같은 경우 VAT의 경우 0 등급에 해당 하는 경우를 한정할 수 있습니다.
   
 - **아일랜드를 벗어나는 유럽 연합 구성원 상태입니다.** 유효한 로컬 VAT ID를 제공할 수 있습니다. 이를 통해 Microsoft 아일랜드 운영을 할 수 있습니다. 그러나 로컬 VAT 회계 의무가 있을 수 있습니다. 문제가 있는 경우 세금 세무 확인 합니다. 자세한 내용은 [VAT ID 추가](#add-your-vat-id)를 참조 하세요.
 
 - **아일랜드에 있고 관련 유효한 VAT 면제 인증을 보유 하 고 있습니다.** Microsoft 아일랜드; i d. VAT에서 거래를 제외 하는 자격이 있을 수 있습니다. 그렇지 않으면 Microsoft Ireland Operations Ltd.에서 VAT ID 제공 여부와 관계없이 현재 아일랜드 작업 VAT 세율을 적용합니다.
+
+- **아르메니아, 벨로루시, 노르웨이, 터키 또는 아랍에미리트에 있습니다.** 로컬 VAT ID를 제공할 수 있습니다. 이 통해 Microsoft 아일랜드 운영을 수행 합니다. 하지만 현지의 VAT 회계 의무가 있을 수 있으므로 궁금한 점이 있으면 세무 담당자에게 확인하시기 바랍니다. 자세한 내용은 [VAT ID 추가](#add-your-vat-id)를 참조 하세요.
 
 ## <a name="asia-pacific-countries-apac"></a>APAC(아시아 태평양 국가)
 
@@ -136,16 +136,16 @@ Microsoft Corporation에서 대금 청구를 수행 하는 경우 ([청구서 �
 ## <a name="add-your-vat-id"></a>VAT ID 추가
 
 1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
-2. **제품** 탭에서 업데이트할 구독을 선택 합니다.
-3. 구독 정보 페이지의 **서비스 사용 주소** 섹션에서 **서비스 사용 주소 편집**을 선택 합니다.
+2. **제품** 탭에서 업데이트할 구독을 선택합니다.
+3. 구독 정보 페이지의 **서비스 사용 주소** 섹션에서 **서비스 사용 주소 편집** 을 선택 합니다.
 4. **서비스 사용 주소 편집** 창의 **vat 번호** 상자에 접두사를 포함 한 vat ID와 공백 없이 입력 합니다.
-5. **저장**을 선택합니다.
+5. **저장** 을 선택합니다.
 
 ## <a name="how-taxes-are-calculated"></a>세금 계산 방법
 
 판매 세금이 단가를 기준으로 계산 된 다음 집계 됩니다.
 
-예시:
+예를 들어,
 
 >*(단가 X 세금 비율) X 수량 = 총 판매액 세금*
 

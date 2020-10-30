@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: EOP (Exchange Online Protection) 및 ATP (Advanced Threat Protection) 보안 설정에 대 한 모범 사례 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 ATP (Advanced Threat Protection)를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: fd2d680e093289aa5fc2dbcac127e35caf50098b
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 4afd662be28c047d5f738dc0f70f0254e7a7a83f
+ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430660"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48806775"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>EOP 및 Office 365 ATP 보안에 대 한 권장 설정
 
@@ -30,11 +30,12 @@ ms.locfileid: "48430660"
 
 **EOP (Exchange Online Protection)** 는 Microsoft 365 구독의 보안 핵심으로, 악성 전자 메일이 직원의 받은 편지함에 도달 하지 못하도록 합니다. 하지만 매일 보다 정교한 공격이 새로 등장 하면서도 향상 된 보호 기능은 대개 필요 합니다. **Office 365 ATP (Advanced Threat Protection)** ATP 계획 1 또는 ATP 계획 2에는 관리자가 더 많은 보안, 제어 및 조사 계층을 제공 하는 추가 기능이 포함 되어 있습니다.
 
-보안 관리자는 보안 설정을 사용자 지정할 수 있도록 하지만 EOP 및 Office 365 ATP에는 **표준** 및 **Strict**의 두 가지 보안 수준이 권장 됩니다. 각 고객의 환경과 요구 사항은 다르지만, 이러한 필터링 수준을 통해 대부분의 상황에서 원치 않는 메일이 직원의 받은 편지함에 도달 하는 것을 방지할 수 있습니다.
+보안 관리자는 보안 설정을 사용자 지정할 수 있도록 하지만 EOP 및 Office 365 ATP에는 **표준** 및 **Strict** 의 두 가지 보안 수준이 권장 됩니다. 각 고객의 환경과 요구 사항은 다르지만, 이러한 필터링 수준을 통해 대부분의 상황에서 원치 않는 메일이 직원의 받은 편지함에 도달 하는 것을 방지할 수 있습니다.
 
 사용자에 게 표준 또는 엄격한 설정을 자동으로 적용 하려면 [EOP 및 Office 365 ATP에서 미리 설정 된 보안 정책을](preset-security-policies.md)참조 하세요.
 
-**참고**: 필터링이 제대로 작동 하려면 사서함에서 정크 메일 규칙을 사용 하도록 설정 해야 합니다. 이 기능은 기본적으로 사용 하도록 설정 되어 있지만 필터링이 작동 하지 않는 것 처럼 보이는 경우에는 확인 해야 합니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함에 대한 정크 메일 설정 구성하기](configure-junk-email-settings-on-exo-mailboxes.md)를 참조하세요.
+> [!NOTE]
+> 필터링이 제대로 작동 하려면 사서함에서 정크 메일 규칙을 사용 하도록 설정 해야 합니다. 이 기능은 기본적으로 사용 하도록 설정 되어 있지만 필터링이 작동 하지 않는 것 처럼 보이는 경우에는 확인 해야 합니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함에 대한 정크 메일 설정 구성하기](configure-junk-email-settings-on-exo-mailboxes.md)를 참조하세요.
 
 이 문서에서는 기본 설정 및 사용자를 보호 하기 위한 권장 표준 및 엄격한 설정에 대해서도 설명 합니다.
 
@@ -62,7 +63,7 @@ ms.locfileid: "48430660"
 |격리 보존 기간 <br/><br/> _QuarantineRetentionPeriod_|15일|30일|30일||
 |**보안 팁** <br/><br/> _InlineSafetyTipsEnabled_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
 |허용 된 보낸 사람 <br/><br/> _AllowedSenders 사람_|없음|없음|없음||
-|허용 된 보낸 사람 도메인 <br/><br/> _AllowedSenderDomains_|없음|없음|없음|사용자가 소유한 도메인 (허용_도메인_)을 허용 된 보낸 사람 목록에 추가 하는 것은 매우 나쁜 개념입니다. 공격자는 필터링 되지 않는 전자 메일을 보낼 수 있습니다. <br/><br/> **스팸 방지 설정** 페이지의 보안 & 준수 센터 [에서 스푸핑 관리자를 사용 하](learn-about-spoof-intelligence.md) 여 조직의 전자 메일 도메인에 있는 보낸 사람 전자 메일 주소를 위장 하거나 외부 도메인의 보낸 사람 전자 메일 주소를 위장 하는 모든 보낸 사람을 검토할 수 있습니다.|
+|허용 된 보낸 사람 도메인 <br/><br/> _AllowedSenderDomains_|없음|없음|없음|허용 된 보낸 사람 목록에 도메인을 추가 하는 것은 매우 좋지 않습니다. 공격자는 필터링 되지 않는 전자 메일을 보낼 수 있습니다. <br/><br/> **스팸 방지 설정** 페이지의 보안 & 준수 센터 [에서 스푸핑 관리자를 사용 하](learn-about-spoof-intelligence.md) 여 조직의 전자 메일 도메인에 있는 보낸 사람 전자 메일 주소를 위장 하거나 외부 도메인의 보낸 사람 전자 메일 주소를 위장 하는 모든 보낸 사람을 검토할 수 있습니다.|
 |수신 거부 <br/><br/> _BlockedSenders_|없음|없음|없음||
 |차단할 보낸 사람 도메인 <br/><br/> _BlockedSenderDomains_|없음|없음|없음||
 |**최종 사용자 스팸 알림 사용** <br/><br/> _EnableEndUserSpamNotifications_|사용 안 함 <br/><br/> `$false`|사용 <br/><br/> `$true`|사용 <br/><br/> `$true`||
@@ -80,21 +81,21 @@ ms.locfileid: "48430660"
 
 |보안 기능 이름|댓글|
 |---|---|
-|**원격 사이트에 대 한 이미지 링크** (_IncreaseScoreWithImageLinks_)||
-|**URL의 숫자 IP 주소** (_IncreaseScoreWithNumericIps_)||
-|**UL이 다른 포트로 리디렉션** (_IncreaseScoreWithRedirectToOtherPort_)||
+|**원격 사이트에 대 한 이미지 링크** ( _IncreaseScoreWithImageLinks_ )||
+|**URL의 숫자 IP 주소** ( _IncreaseScoreWithNumericIps_ )||
+|**UL이 다른 포트로 리디렉션** ( _IncreaseScoreWithRedirectToOtherPort_ )||
 |**-Biz 또는 IncreaseScoreWithBizOrInfoUrls (info websites)에 대 한 URL** _IncreaseScoreWithBizOrInfoUrls_||
-|**빈 메시지** (_MarkAsSpamEmptyMessages_)||
-|**JavaScript 또는 HTML의 VBScript** (_MarkAsSpamJavaScriptInHtml_)||
-|**HTML의 Frame 또는 IFrame 태그** (_MarkAsSpamFramesInHtml_)||
-|**HTML의 개체 태그** (_MarkAsSpamObjectTagsInHtml_)||
-|**HTML로 태그 포함** (_MarkAsSpamEmbedTagsInHtml_)||
-|**HTML의 양식 태그** (_MarkAsSpamFormTagsInHtml_)||
-|**HTML의 웹 버그** (_MarkAsSpamWebBugsInHtml_)||
-|**중요 한 단어 목록 적용** (_MarkAsSpamSensitiveWordList_)||
-|**SPF 레코드: 하드 실패** (_MarkAsSpamSpfRecordHardFail_)||
-|**조건부 보낸 사람 ID 필터링: 하드 실패** (_MarkAsSpamFromAddressAuthFail_)||
-|**NDR 백 분산** (_MarkAsSpamNdrBackscatter_)||
+|**빈 메시지** ( _MarkAsSpamEmptyMessages_ )||
+|**JavaScript 또는 HTML의 VBScript** ( _MarkAsSpamJavaScriptInHtml_ )||
+|**HTML의 Frame 또는 IFrame 태그** ( _MarkAsSpamFramesInHtml_ )||
+|**HTML의 개체 태그** ( _MarkAsSpamObjectTagsInHtml_ )||
+|**HTML로 태그 포함** ( _MarkAsSpamEmbedTagsInHtml_ )||
+|**HTML의 양식 태그** ( _MarkAsSpamFormTagsInHtml_ )||
+|**HTML의 웹 버그** ( _MarkAsSpamWebBugsInHtml_ )||
+|**중요 한 단어 목록 적용** ( _MarkAsSpamSensitiveWordList_ )||
+|**SPF 레코드: 하드 실패** ( _MarkAsSpamSpfRecordHardFail_ )||
+|**조건부 보낸 사람 ID 필터링: 하드 실패** ( _MarkAsSpamFromAddressAuthFail_ )||
+|**NDR 백 분산** ( _MarkAsSpamNdrBackscatter_ )||
 |
 
 #### <a name="eop-outbound-spam-policy-settings"></a>EOP 아웃 바운드 스팸 정책 설정
@@ -231,7 +232,8 @@ PowerShell에서는 이러한 설정에 대해 [AtpPolicyForO365](https://docs.m
 
 PowerShell에서는 이러한 설정에 대해 [get-safelinkspolicy](https://docs.microsoft.com/powershell/module/exchange/new-safelinkspolicy) 및 [get-safelinkspolicy](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy) cmdlet을 사용 합니다.
 
-**참고**: 앞에서 설명한 것 처럼 기본 안전 링크 정책은 없습니다. 기본 열의 값은 새로 만든 안전한 링크 정책의 기본값입니다.
+> [!NOTE]
+> 앞에서 설명한 것 처럼 기본 안전 링크 정책은 없습니다. 기본 열의 값은 새로 만든 안전한 링크 정책의 기본값입니다.
 
 ****
 
@@ -271,7 +273,8 @@ PowerShell에서는 이러한 설정에 대해 [AtpPolicyForO365](https://docs.m
 
 PowerShell에서는 이러한 설정에 대해 [get-safeattachmentpolicy](https://docs.microsoft.com/powershell/module/exchange/new-safeattachmentpolicy) 및 [get-safeattachmentpolicy](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy) cmdlet을 사용 합니다.
 
-**참고**: 앞에서 설명한 것 처럼 기본 안전 첨부 파일 정책은 없습니다. 기본 열의 값은 새로 만든 안전한 첨부 파일 정책의 기본값입니다.
+> [!NOTE]
+> 앞에서 설명한 것 처럼 기본 안전 첨부 파일 정책은 없습니다. 기본 열의 값은 새로 만든 안전한 첨부 파일 정책의 기본값입니다.
 
 ****
 
@@ -284,10 +287,10 @@ PowerShell에서는 이러한 설정에 대해 [get-safeattachmentpolicy](https:
 
 ## <a name="related-articles"></a>관련 문서
 
-- **Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함**)에 대 한 모범 사례를 찾으십니까? [Exchange Online에서 메일 흐름 규칙을 구성 하기 위한 모범 사례](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/configuration-best-practices)를 참조 하세요.
+- **Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함** )에 대 한 모범 사례를 찾으십니까? [Exchange Online에서 메일 흐름 규칙을 구성 하기 위한 모범 사례](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/configuration-best-practices)를 참조 하세요.
 
 - 관리자 및 사용자는 가양성 (잘못 된 것으로 표시 된 좋은 전자 메일)과 거짓 네거티브 (잘못 된 전자 메일 허용)를 분석을 위해 Microsoft에 제출할 수 있습니다. 자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
 
 - [EOP 서비스](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-your-eop-service)를 **설정** 하는 방법에 대 한 정보를 보려면 다음 링크를 사용 하 고, [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)을 **구성** 합니다. '[Office 365의 위협 으로부터 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)'에서 도움이 되는 지침을 잊지 마십시오.
 
-- GPO/온-프레미스 옵션에 대 한 **Windows 용 보안 기준을** [여기](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) 에서 찾아볼 수 [있으며,](https://docs.microsoft.com/intune/protect/security-baselines) 이는 Intune 기반 보안을 위한 것입니다. 마지막으로 Microsoft의 ATP (Advanced Threat Protection)와 Microsoft Intune 보안 기준을 비교 하 [여 사용할 수 있습니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines)
+- **Windows 용 보안 기준은** 여기에서 찾을 수 있습니다. GPO/온-프레미스 옵션에 대 한 보안 기준을 제공 하 고 [보안 기준을 사용 하 여 Intune 기반 보안용 intune에서 Windows 10 장치를 구성 하](https://docs.microsoft.com/intune/protect/security-baselines) [는 방법을 알아봅니다](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) . 마지막으로 microsoft [DEFENDER atp 및 Windows intune 보안 기준선을 비교](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines)하는 방법을 사용할 수 있는 것과 동일한 ATP (Advanced Threat Protection)와 microsoft intune 보안 기준을 비교 합니다.

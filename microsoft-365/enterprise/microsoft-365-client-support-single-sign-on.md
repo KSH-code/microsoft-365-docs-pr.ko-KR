@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 클라이언트 앱 지원-Single Sign-on
+title: 'Microsoft 365 클라이언트 앱 지원: 단일 Sign-On'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -14,59 +14,65 @@ search.appverid:
 - MET150
 f1.keywords:
 - NOCSH
-description: 이 문서에서는 Microsoft 365에 대 한 single sign-on을 지 원하는 플랫폼, 클라이언트 및 Powershell 모듈에 대해 설명 합니다.
+description: 이 문서에서는 Microsoft 365에 대 한 single sign-on을 지 원하는 플랫폼, 클라이언트 및 PowerShell 모듈에 대해 설명 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d0a45c30ffe736cf67e811bce6eb029d6fb50674
-ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
+ms.openlocfilehash: b70f0c1ec4a6e94651b987830c8b29993732a3c2
+ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48384802"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48806669"
 ---
-# <a name="microsoft-365-client-app-support--single-sign-on"></a>Microsoft 365 클라이언트 앱 지원-Single Sign-on
+# <a name="microsoft-365-client-app-support-single-sign-on"></a>Microsoft 365 클라이언트 앱 지원: 단일 Sign-On
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-SSO (Single sign-on)는 사용자가 Azure Active Directory (Azure AD)의 응용 프로그램에 로그온 할 때 보안 및 편의성을 추가 합니다. Single sign-on을 사용 하는 경우 사용자는 온-프레미스 AD DS (Active Directory 도메인 서비스) 도메인에 가입 된 장치, SaaS (software as a service) 응용 프로그램 및 웹 응용 프로그램에 액세스 하기 위해 한 계정으로 한 번씩 로그인 합니다.
+SSO (Single sign-on)는 사용자가 Azure Active Directory의 응용 프로그램에 로그온 할 때 보안 및 편의성을 추가 합니다. Single sign-on을 사용 하는 경우 사용자는 온-프레미스 AD DS (Active Directory 도메인 서비스) 도메인에 가입 된 장치, SaaS (software as a service) 응용 프로그램 및 웹 응용 프로그램에 액세스 하기 위해 한 계정으로 한 번씩 로그인 합니다.
 
 자세한 내용은 [single sign-on](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-single-sign-on)을 참고 하세요.
 
-## <a name="supported-platforms"></a>지원되는 플랫폼
+## <a name="supported-clients--platforms"></a>지원 되는 클라이언트 & 플랫폼
 
- - Windows 10 데스크톱<sup>2</sup>
- - Windows 10 최신 앱
- - 웹 브라우저
- - Android<sup>3</sup>
- - iOS<sup>1</sup>
- - macOS<sup>4</sup>
+다음 클라이언트 및 플랫폼의 최신 버전에서는 single sign-on을 지원 합니다. Microsoft 365의 플랫폼 지원에 대 한 자세한 내용은 [microsoft 365의 시스템 요구 사항을](https://products.office.com/office-system-requirements)참조 하세요.
+<br>
+<br>
 
-Microsoft 365의 플랫폼 지원에 대 한 자세한 내용은 [microsoft 365의 시스템 요구 사항을](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources)참조 하세요.
-
-## <a name="supported-clients"></a>지원되는 클라이언트
-
-최신 버전의 다음 클라이언트는 single sign-on을 지원 합니다.
-
-| | | | | | |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| ![Access 아이콘](../media/o365-access-64x64.png) <br> [Access](https://products.office.com/access) | ![회사 포털 아이콘](../media/o365-microsoft-64x64.png) <br> [회사 <br> 포털<sup>3, 4</sup>](https://docs.microsoft.com/intune-user-help/sign-in-to-the-company-portal) | ![Delve 아이콘](../media/o365-delve-64x64.png) <br> [Delve](https://products.office.com/business/intelligent-search) | ![에 지 아이콘](../media/o365-edge-64x64.png) <br> [에 지<sup>1</sup>](https://www.microsoft.com/windows/microsoft-edge) | ![Excel 아이콘](../media/o365-excel-64x64.png) <br> [Excel](https://products.office.com/excel) 
-| ![Kaizala 아이콘](../media/o365-kaizala-64x64.png) <br> [Kaizala<sup>1</sup>](https://products.office.com/en/business/microsoft-kaizala) | ![Office.com 아이콘](../media/o365-office-64x64.png) <br> [Office.com](https://www.office.com/) | ![렌즈 아이콘](../media/o365-lens-64x64.png) <br> [Office Lens](https://www.microsoft.com/p/office-lens/9wzdncrfj3t8?activetab=pivot%3Aoverviewtab) | ![비즈니스용 OneDrive 아이콘](../media/o365-OneDrive-64x64.png) <br> [OneDrive](https://products.office.com/onedrive-for-business/online-cloud-storage) | ![OneNote 아이콘](../media/o365-OneNote-64x64.png) <br> [OneNote<sup>2</sup>](https://products.office.com/onenote) 
-| ![Outlook 아이콘](../media/o365-outlook-64x64.png) <br> [Outlook<sup>4</sup>](https://products.office.com/outlook) | ![Planner 아이콘](../media/o365-planner-64x64.png) <br> [Planner](https://products.office.com/business/task-management-software) | ![전원 자동화 아이콘](../media/o365-flow-64x64.png) <br> [전원 <br> 자동화](https://flow.microsoft.com) | ![PowerBI 아이콘](../media/o365-powerbi-64x64.png) <br> [Power BI<sup>2</sup>](https://powerbi.microsoft.com)| ![PowerPoint 아이콘](../media/o365-powerpoint-64x64.png) <br> [PowerPoint](https://products.office.com/powerpoint) 
-| ![Project 아이콘](../media/o365-project-64x64.png) <br> [Project](https://products.office.com/project) | ![Publisher 아이콘](../media/o365-publisher-64x64.png) <br> [Publisher](https://products.office.com/publisher) | ![SharePoint 아이콘](../media/o365-sharepoint-64x64.png) <br> [Sharepoint](https://products.office.com/sharepoint) | ![스티커 메모 아이콘](../media/o365-stickynotes-64x64.png) <br> [스티커 메모](https://www.microsoft.com/p/microsoft-sticky-notes/9nblggh4qghw)  | ![Sway 아이콘](../media/o365-sway-64x64.png) <br> [Sway](https://sway.com) 
-| ![Teams 아이콘](../media/o365-teams-64x64.png) <br> [팀<sup>2, 4</sup>](https://products.office.com/microsoft-teams/group-chat-software) | ![할 일 아이콘](../media/o365-todo-64x64.png) <br> [To Do](https://todo.microsoft.com) | ![Visio 아이콘](../media/o365-visio-64x64.png) <br> [Visio](https://products.office.com/visio/flowchart-software) | ![Whiteboard 아이콘](../media/o365-whiteboard-64x64.png) <br> [화이트 보드<sup>3</sup>](https://whiteboard.microsoft.com/) | ![Word 아이콘](../media/o365-word-64x64.png) <br> [Word](https://products.office.com/word) 
-| ![Yammer 아이콘](../media/o365-yammer-64x64.png) <br> [Yammer<sup>2</sup>](https://products.office.com/yammer/yammer-overview) |
+| 클라이언트 | Android | iOS | Mac| Windows 10 <br> 최신 앱| Windows 10 <br> 데스크톱 |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| Access | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |
+| 회사 포털 | 해당 없음 | ![지원](../media/check-mark.png) | 하려고 | ![지원됨](../media/check-mark.png) | 해당 없음 |
+| Cortana | 해당 없음 | 해당 없음 | 해당 없음 | ![지원됨](../media/check-mark.png) | 해당 없음 |
+| Delve | 하려고 | ![지원됨](../media/check-mark.png) | 해당 없음 | 해당 없음 | 해당 없음 |
+| 면 | ![지원](../media/check-mark.png) | 하려고 | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |
+| Excel | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) |
+| Kaizala | ![지원](../media/check-mark.png) | 하려고 | 해당 없음 | 해당 없음 | 해당 없음 |
+| Office Lens| ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 해당 없음 | 해당 없음 | 해당 없음 |
+| Office mobile | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 해당 없음 | 해당 없음 | 해당 없음 |
+| Office 포털 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원됨](../media/check-mark.png) | 해당 없음 |
+| OneDrive | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 하려고 | ![지원](../media/check-mark.png) | 하려고 |
+| OneNote | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 하려고 |
+| Outlook | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 하려고 | ![지원](../media/check-mark.png) |
+| Planner | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 해당 없음 | 해당 없음 | 해당 없음 |
+| Power Apps | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 해당 없음 | 하려고 | 해당 없음 |
+| 전원 자동화 | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 해당 없음 | 해당 없음 | 해당 없음 |
+| Power BI | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 해당 없음 | ![지원](../media/check-mark.png) | 하려고 |
+| PowerPoint | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) |
+| Project | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |
+| Publisher | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |
+| 비즈니스용 Skype | 하려고 | 하려고 | 해당 없음 | 해당 없음 | 해당 없음 |
+| SharePoint | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 해당 없음 | 해당 없음 | 해당 없음 |
+| 스티커 메모 | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |
+| Stream | 하려고 | 하려고 | 해당 없음 | 해당 없음 | 해당 없음 |
+| Sway | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |
+| Teams | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 하려고 | 해당 없음 | 하려고 |
+| To Do | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 해당 없음 | ![지원됨](../media/check-mark.png) | 해당 없음 |
+| Visio | 해당 없음 | ![지원됨](../media/check-mark.png) | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |
+| Whiteboard | 해당 없음 | ![지원됨](../media/check-mark.png) | 해당 없음 | ![지원됨](../media/check-mark.png) | 해당 없음 |
+| Word | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) |
+| Yammer | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 해당 없음 | 해당 없음 | 하려고 |
 
 ## <a name="supported-powershell-modules"></a>지원 되는 PowerShell 모듈
 
-| | | | | | |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| ![Azure 아이콘](../media/o365-azure-64x64.png) <br> [Azure AD <br> PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) | ![Exchange 아이콘](../media/o365-exchange-64x64.png) <br> [Exchange Online <br> PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell) | ![SharePoint 아이콘](../media/o365-sharepoint-64x64.png) <br> [SharePoint Online <br> PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
-
-> [!NOTE]
-> <sup>1</sup> IOS의 Edge 및 Kaizala에 대 한 지원이 곧 제공 될 예정입니다. <br>
-> <sup>2</sup> Windows 10 데스크톱의 OneNote, PowerBI, 팀 및 Yammer에 대 한 지원이 곧 제공 될 예정입니다. <br>
-> <sup>3</sup> Android의 화이트 보드 지원 곧 제공 될 예정입니다. <br>
-> <sup>4</sup> Macos에서 Outlook, 팀 및 회사 포털에 대 한 지원이 곧 제공 될 예정입니다. <br>
-
-## <a name="see-also"></a>참고 항목
-
-[Microsoft 365 Enterprise 개요](microsoft-365-overview.md)
+- [Azure Active Directory PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)
+- [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)
+- [SharePoint 온라인 PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
