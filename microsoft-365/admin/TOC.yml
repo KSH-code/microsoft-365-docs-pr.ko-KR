@@ -210,6 +210,8 @@
       items:
         - name: 보고서를 사용하여 사용자 활동 모니터링
           href: activity-reports/activity-reports.md
+        - name: 생산성 점수를 사용하여 사용자 생산성 모니터링
+          href: productivity/productivity-score.md
         - name: 조직 연락처 정보 변경
           href: manage/change-address-contact-and-more.md
         - name: 관리자 연락처 정보 업데이트
