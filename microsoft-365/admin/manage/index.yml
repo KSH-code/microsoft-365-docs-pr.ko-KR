@@ -11,12 +11,12 @@ metadata:
   ms.date: 04/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 8af267e0317b396cbcb1364598bbce70c86df3e0
-  ms.sourcegitcommit: 97ef8f846939c3d31bb0638edf07bb89463ace0b
+  ms.openlocfilehash: 821bfbac12e01f73fa3fbb52be9f95165bb3dd1b
+  ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 08/28/2020
-  ms.locfileid: "47300425"
+  ms.lasthandoff: 10/30/2020
+  ms.locfileid: "48804566"
 landingContent:
 - title: 서비스 상태 모니터링
   linkLists:
@@ -24,6 +24,8 @@ landingContent:
     links:
     - text: 보고서를 사용하여 사용자 활동 모니터링
       url: ../activity-reports/activity-reports.md
+    - text: 생산성 점수를 사용하여 사용자 생산성 모니터링
+      url: ../productivity/productivity-score.md
     - text: 사용량 분석 정보
       url: ../usage-analytics/usage-analytics.md
     - text: 사용 현황 분석 사용

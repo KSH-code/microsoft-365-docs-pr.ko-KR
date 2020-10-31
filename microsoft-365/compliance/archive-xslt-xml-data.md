@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 Microsoft 365에서 Globanet 로부터 XSLT/XML 데이터를 가져오고 보관 하기 위한 커넥터를 설정할 수 있습니다. 이 커넥터를 사용 하면 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 통해 조직의 타사 데이터를 관리 하는 데 도움이 됩니다.
-ms.openlocfilehash: 20d24e919c0fe045e487c41e42745f73acb521ad
-ms.sourcegitcommit: 16cbac5eacadd7b30cbca1fd2435ba9098de5e1c
+ms.openlocfilehash: 3cc41ace1be3f0131458f885b66e7b5645b8eb2c
+ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48785500"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816750"
 ---
 # <a name="set-up-a-connector-to-archive-xsltxml-data"></a>XSLT/XML 데이터를 보관 하는 커넥터 설정
 
@@ -41,9 +41,9 @@ XSLT/XML 데이터가 사용자 사서함에 저장 되 면 소송 보존, eDisc
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- Microsoft 커넥터에 대 한 Globanet Merge1 계정을 만듭니다. 이 작업을 수행 하려면 [Globanet 고객 지원](https://globanet.com/contact-us/)에 문의 하세요. 1 단계에서 커넥터를 만들 때이 계정에 로그인 해야 합니다.
+- Microsoft 커넥터에 대 한 Globanet Merge1 계정을 만듭니다. 이 계정을 만들려면 [Globanet 고객 지원](https://globanet.com/contact-us/)에 문의 하세요. 1 단계에서 커넥터를 만들 때이 계정에 로그인 합니다.
 
-- 1 단계에서 XSLT/XML 커넥터를 만든 후 3 단계에서 완료 한 사용자는 Exchange Online의 사서함 가져오기 내보내기 역할에 할당 해야 합니다. 이 역할은 Microsoft 365 준수 센터의 **데이터 커넥터** 페이지에 커넥터를 추가 하는 데 필요 합니다. 기본적으로이 역할은 Exchange Online의 어떠한 역할 그룹에도 할당 되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당 한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange Online에서 역할 그룹 관리" 문서의 [역할 그룹 만들기](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) 또는 [역할 그룹 수정](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 섹션을 참조 하세요.
+- 1 단계에서 XSLT/XML 커넥터를 만든 후 3 단계에서 완료 한 사용자는 Exchange Online의 사서함 가져오기 내보내기 역할에 할당 해야 합니다. 이 역할은 Microsoft 365 준수 센터의 **데이터 커넥터** 페이지에 커넥터를 추가 하는 데 필요 합니다. 기본적으로이 역할은 Exchange Online의 역할 그룹에 할당 되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당 한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange Online에서 역할 그룹 관리" 문서의 [역할 그룹 만들기](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) 또는 [역할 그룹 수정](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 섹션을 참조 하세요.
 
 ## <a name="step-1-set-up-an-xsltxml-connector"></a>1 단계: XSLT/XML 커넥터 설정
 
@@ -63,7 +63,7 @@ XSLT/XML 데이터가 사용자 사서함에 저장 되 면 소송 보존, eDisc
 
 두 번째 단계는 Merge1 사이트에서 XSLT/XML 커넥터를 구성 하는 것입니다. Globanet Merge1 사이트에서 XSLT/XML 커넥터를 구성 하는 방법에 대 한 자세한 내용은 [Merge1 타사 커넥터 사용자 가이드](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20XSLT-XML%20User%20Guide%20.pdf)를 참조 하십시오.
 
-**마침을 & 저장** 을 클릭 하면 Microsoft 365 준수 센터로 다시 이동 하 여 커넥터 마법사의 **사용자 매핑** 페이지로 리디렉션됩니다.
+**마침 & 저장** 을 클릭 하면 Microsoft 365 준수 센터의 커넥터 마법사에 있는 **사용자 매핑** 페이지가 표시 됩니다.
 
 ## <a name="step-3-map-users-and-complete-the-connector-setup"></a>3 단계: 사용자 매핑 및 커넥터 설정 완료
 
@@ -83,7 +83,7 @@ XSLT/XML 커넥터를 만든 후에는 Microsoft 365 준수 센터에서 커넥�
 
 1. 으로 이동 하 여 [https://compliance.microsoft.com](https://compliance.microsoft.com) 왼쪽 탐색 창에서 **데이터 커넥터** 를 클릭 합니다.
 
-2. **커넥터 탭을** 클릭 한 다음 **XSLT/XML** 커넥터를 선택 하 여 커넥터에 대 한 속성 및 정보가 포함 된 플라이 아웃 페이지를 표시 합니다.
+2. **커넥터** 탭을 클릭 한 다음 **XSLT/XML** 커넥터를 선택 하 여 플라이 아웃 페이지를 표시 합니다. 이 페이지에는 커넥터에 대 한 속성 및 정보가 포함 되어 있습니다.
 
 3. **커넥터 상태 (원본 포함** )에서 **로그 다운로드** 링크를 클릭 하 여 커넥터의 상태 로그를 열거나 저장 합니다. 이 로그는 Microsoft 클라우드로 가져온 데이터를 포함 합니다.
 

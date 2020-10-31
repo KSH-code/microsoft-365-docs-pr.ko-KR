@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: 보안 및 준수 센터의 DLP (데이터 손실 방지)에는 &amp; dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다.
-ms.openlocfilehash: 288c53d5e9264942e12d5634cec172a65ee79ca6
-ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
+ms.openlocfilehash: 498ff1482bd0109903968d1c8fe250311e37a51f
+ms.sourcegitcommit: 2810d1347e5016412074b2dd18e654aee7e593de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48656055"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48819118"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>중요한 정보 유형 엔터티 정의
 
@@ -3162,9 +3162,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 7 ~ 8 자리와 구분 기호:
 - 1 ~ 2 자리 숫자 
-- 마침표 
+- 선택적 기간 
 - 3 자리 숫자 
-- 마침표 
+- 선택적 기간 
 - 3 자리 숫자 
 - 대시 
 - 검사 숫자에 해당 하는 1 자리 숫자 또는 문자 (대/소문자 구분 안 함)
@@ -3201,18 +3201,40 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyword_chile_id_card"></a>Keyword_chile_id_card
 
-- National Identification Number 
-- Identity card 
-- ID 
-- 확인과 
-- Rol Único Nacional 
-- 실행 
-- Rol Único Tributario 
-- RUT 
-- Cédula de Identidad 
-- Número De Identificación Nacional 
-- Tarjeta de identificación 
-- Identificación 
+- cédula de identidad
+- identificación
+- national identification
+- national identification number
+- national id
+- número de identificación nacional
+- rol único nacional
+- rol único tributario
+- 실행
+- RUT
+- tarjeta de identificación
+- Rol Unico Nacional
+- Rol Unico Tributario
+- 실행 #
+- RUT #
+- nationaluniqueroleID #
+- nacional identidad
+- número identificación
+- identidad número
+- numero identificacion
+- identidad numero
+- (칠레) id 번호입니다.
+- (칠레) id 번호
+- (칠레) id #
+- 고유 세금 레지스트리
+- 고유 Tributary 역할
+- 고유 세금 역할
+- 고유 Tributary 번호
+- 고유 국가 번호
+- 고유 국가 역할
+- 국가별 고유 역할
+- 칠레 id 번호입니다.
+- 칠레 id 번호
+- 칠레 id #
 
    
 ## <a name="china-resident-identity-card-prc-number"></a>중국의 중국 id 카드 (PRC) 번호
@@ -12044,7 +12066,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="pattern"></a>패턴
 
-3 개의 문자 (대/소문자 구분 안 함) 공백 (선택 사항) 4 자리 숫자
+- ' I ' 및 ' O '를 제외한 3 개의 문자 (대/소문자 구분 안 함)
+- 공백 (선택 사항) 
+- 4 자리 숫자
 
 ### <a name="checksum"></a>제외
 
@@ -12057,27 +12081,38 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Keyword_nz_terms의 키워드가 발견되었습니다.
 - 체크섬이 통과됩니다.
 
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
+- Func_new_zealand_ministry_of_health_number 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
+- 체크섬이 통과됩니다.
+
 ```xml
-<!-- New Zealand Health Number -->
-<Entity id="2b71c1c8-d14e-4430-82dc-fd1ed6bf05c7" patternsProximity="300" recommendedConfidence="85">
-    <Pattern confidenceLevel="85">
+    <!-- New Zealand Health Number -->
+    <Entity id="2b71c1c8-d14e-4430-82dc-fd1ed6bf05c7" patternsProximity="300" recommendedConfidence="85">
+      <Pattern confidenceLevel="85">
         <IdMatch idRef="Func_new_zealand_ministry_of_health_number" />
-        <Any minMatches="1">
           <Match idRef="Keyword_nz_terms" />
-        </Any>
-    </Pattern>
-</Entity>
+      </Pattern>
+      <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_new_zealand_ministry_of_health_number" />
+       </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
 #### <a name="keyword_nz_terms"></a>Keyword_nz_terms
 
-- NHI 
-- New Zealand 
-- 상태 
-- 처리가 
-
+- NHI
+- New Zealand
+- 상태
+- 처리가
+- 국가 건강 인덱스 번호
+- nhi
+- 안녕?
+- NHI #
+- 국가 건강 인덱스 번호
+- 국가 상태 인덱스 Id
+- 국가 건강 인덱스 #
 
 ## <a name="new-zealand-social-wlefare-number"></a>뉴질랜드 공유 wlefare 번호
 이 중요 한 정보 유형은 다음 에서만 사용할 수 있습니다.
