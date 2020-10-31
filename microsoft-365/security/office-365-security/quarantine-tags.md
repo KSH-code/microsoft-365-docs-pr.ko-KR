@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX
 description: 관리자는 격리 태그를 사용 하 여 사용자가 격리 된 메시지에 대해 수행할 수 있는 작업을 제어 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 557a6832807c1768f482e76c76c0e92b027e49a7
-ms.sourcegitcommit: 2810d1347e5016412074b2dd18e654aee7e593de
+ms.openlocfilehash: 89f03795d8f12b3df3e5090648c5a6c8b64c322a
+ms.sourcegitcommit: 676479f1e65492b44c4d0316a765f55ae9fae374
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 10/31/2020
-ms.locfileid: "48819228"
+ms.locfileid: "48819743"
 ---
 # <a name="quarantine-tags"></a>격리 태그
 
@@ -477,7 +477,7 @@ Remove-QuarantineTag -Identity "<TagName>"
 
 수신 허용-보낸 사람 목록에 대 한 자세한 내용은 [신뢰할 수 있는 보낸 사람이 차단 되지 않도록 설정](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379666) 및 [Exchange Online PowerShell을 사용 하 여 사서함에서 수신 허용 목록 컬렉션을 구성](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox)합니다 .을 참조 하십시오.
 
-### <a name="block-sender-permission"></a>보낸 사람 차단 권한
+#### <a name="block-sender-permission"></a>보낸 사람 차단 권한
 
 **차단** _된 보낸 사람_ 메시지를 사용자가 편리 하 게 수신 허용 목록에 추가 하는 데 사용할 수 있는 단추에 대 한 액세스를 제어 합니다.
 
@@ -491,7 +491,7 @@ Remove-QuarantineTag -Identity "<TagName>"
 
 수신 거부 목록에 대 한 자세한 내용은 [특정인이 보낸 메시지 차단](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379667) 및 [Exchange Online PowerShell을 사용 하 여 사서함에서 수신 허용 목록 컬렉션을 구성](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox)합니다 .을 참조 하십시오.
 
-### <a name="delete-permission"></a>삭제 권한
+#### <a name="delete-permission"></a>삭제 권한
 
 **삭제** 권한 (고 대 _삭제_ )은 사용자가 격리에서 메시지 (사용자가 받는 메시지)를 삭제 하는 기능을 제어 합니다.
 
@@ -501,7 +501,7 @@ Remove-QuarantineTag -Identity "<TagName>"
 
 - **최종 사용자 스팸 알림** : 효과 없음
 
-### <a name="preview-permission"></a>미리 보기 권한
+#### <a name="preview-permission"></a>미리 보기 권한
 
 **미리 보기** 권한 (고가을 _검토_ )을 통해 사용자가 격리에서 메시지를 미리 보는 기능을 제어할 수 있습니다.
 
