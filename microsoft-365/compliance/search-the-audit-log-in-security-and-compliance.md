@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Office 365 보안 및 준수 센터 또는 Microsoft 365 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e427cb2eaa282ebac46b47c6dd97718039c12cb8
-ms.sourcegitcommit: 3cdb670f10519f7af4015731e7910954ba9f70dc
+ms.openlocfilehash: 6c2ffc926114b8ffc2ebf2005b98e549ac03cf26
+ms.sourcegitcommit: 21c3e44862854c74e4008cfb661840f069c6b709
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753347"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48787584"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -672,6 +672,7 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 |사서함에서 메시지 제거됨|HardDelete|메시지가 복구 가능한 항목 폴더에서 제거되었습니다(사서함에서 영구적으로 삭제됨).|
 |대리인 사서함 사용 권한 제거됨|Remove-MailboxPermission|관리자가 다른 사람의 사서함에서 (대리인에게 부여되었던) FullAccess 사용 권한을 제거했습니다. FullAccess 사용 권한이 제거되면 대리인이 더 이상 다른 사람의 사서함을 열거나 사서함의 콘텐츠에 액세스할 수 없습니다.|
 |폴더에서 사용 권한이 제거됨|RemoveFolderPermissions|폴더 사용 권한이 제거되었습니다. 폴더 사용 권한은 사서함의 폴더와 해당 폴더에 있는 메시지에 액세스할 수 있는 조직의 사용자를 제어합니다.|
+|보낸 메시지|보내기|메시지가 전송되었거나 회신 또는 전달되었습니다. 이 활동은 Office 365 또는 Microsoft 365 E5 라이선스가 있는 사용자에게만 기록됩니다. 자세한 내용은 [고급 감사](advanced-audit.md#access-to-crucial-events-for-investigations)의 "조사에 대한 중요 이벤트 액세스" 섹션을 참조하세요.|
 |다른 사람 이름으로 보내기 권한을 사용하여 메시지 전송됨|SendAs|SendAs 권한을 사용하여 메시지가 전송되었습니다. 즉 사서함 소유자가 보낸 것처럼 보이도록 하여 다른 사용자가 메시지를 보냈습니다.|
 |대신 보내기 권한을 사용하여 메시지 전송됨|SendOnBehalf|SendOnBehalf 권한을 사용하여 메시지가 전송되었습니다. 즉 다른 사용자가 사서함 소유자 대신에 메시지를 보낸 것입니다. 이 메시지는 메시지가 대신 전송된 사람과 실제로 메시지를 보낸 사람을 받는 사람에게 알립니다.|
 |Outlook 클라이언트로부터 편지함 규칙 업데이트됨|UpdateInboxRules|사서함에 액세스할 수 있는 사서함 소유자 또는 다른 사용자가 Outlook 클라이언트에서 받은 편지함 규칙을 수정했습니다.|

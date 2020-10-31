@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Yammer에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: 3e4cfd5c9e5ef8c28ecd069f3474764b966d6c9a
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: b23161f57aedec062e155586f2e20d2791d02d3f
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795003"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804577"
 ---
 # <a name="learn-about-retention-for-yammer"></a>Yammer의 보존에 대한 자세한 정보
 
@@ -61,7 +61,7 @@ Yammer 메시지에 대해 보존 정책을 구성한 후 콘텐츠가 취하는
 
 다이어그램의 두 경로:
 
-1. 보존 기간 동안 사용자가 **Yammer 메시지를 편집하거나 삭제** 하는 경우 원본 메시지는 복사되거나(편집된 경우) 또는 SubstrateHolds 폴더로 이동됩니다.(삭제된 경우) 이 메시지는 보존 기간이 만료될 때까지 저장된 다음 즉시 영구적으로 삭제됩니다.
+1. 보존 기간 동안 사용자가 **Yammer 메시지를 편집하거나 삭제** 하는 경우에는 원본 메시지가 즉시 복사되거나(편집된 경우) 또는 (삭제된 경우) SubstrateHolds 폴더로 이동됩니다. 이 메시지는 보존 기간이 만료될 때까지 저장된 다음 즉시 영구적으로 삭제됩니다.
 
 2. **Yammer 메시지가 삭제되지 않는 경우** , 편집 후 현재 메시지에 대한 메시지는 보존 기간이 만료 된 후 SubstrateHolds 폴더로 이동합니다. 이 작업은 만료 날짜로부터 최대 7일이 걸립니다. 메시지가 SubstrateHolds 폴더에 있으면 즉시 영구적으로 삭제됩니다. 
 
@@ -72,7 +72,7 @@ Yammer 메시지에 대해 보존 정책을 구성한 후 콘텐츠가 취하는
 
 ### <a name="content-paths-for-retain-only-retention-policy"></a>보유 전용 보존 정책의 컨텐츠 경로
 
-1. **Yammer 메시지를 편집하거나 삭제하는 경우** : 원본 메시지의 복사본은 SubstrateHolds 폴더에 생성되고 보존 기간이 만료될 때까지 보존됩니다. 그런 다음 즉시 SubstrateHolds 폴더에서 메시지가 영구적으로 삭제됩니다.
+1. **Yammer 메시지를 편집하거나 삭제하는 경우** : 원본 메시지의 복사본은 SubstrateHolds 폴더에 즉시 만들어지고 보존 기간이 만료될 때까지 보존됩니다. 그런 다음 즉시 SubstrateHolds 폴더에서 메시지가 영구적으로 삭제됩니다.
 
 2. **Yammer 메시지가 수정되거나 삭제되지 않거나** 보존 기간 중에 편집 후 현재 메시지에 대한 경우: 보존 기간 전후에 아무런 변화가 없습니다. 메시지는 원래 위치에 남아 있습니다.
 
@@ -80,7 +80,7 @@ Yammer 메시지에 대해 보존 정책을 구성한 후 콘텐츠가 취하는
 
 1. 보존 기간 동안 **Yammer 메시지가 삭제되지 않은 경우** : 보존 기간이 끝나면 메시지가 SubstrateHolds 폴더로 이동됩니다. 이 작업은 만료 날짜로부터 최대 7일이 걸립니다. 그런 다음 즉시 SubstrateHolds 폴더에서 메시지가 영구적으로 삭제됩니다.
 
-2. 해당 기간 동안 **사용자가 Yammer 메시지를 삭제하는 경우** 해당 항목은 즉시 영구적으로 삭제되는 SubstrateHolds 폴더로 이동됩니다.
+2. 해당 기간 동안 **사용자가 Yammer 메시지를 삭제하는 경우** 그 항목은 즉시 영구적으로 삭제되는 SubstrateHolds 폴더로 즉시 이동됩니다.
 
 
 ## <a name="messages-and-external-users"></a>메시지 및 외부 사용자
