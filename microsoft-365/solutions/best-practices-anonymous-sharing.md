@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: 이 문서에서는 인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례를 알아봅니다.
-ms.openlocfilehash: 511e04e69dae03caafd7c7828dd24cea6e7a8832
-ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
+ms.openlocfilehash: 18587fc6a718955cd5a752954b614c4d6fa5ee22
+ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48769344"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48779263"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례
 
@@ -125,8 +125,6 @@ DLP 규칙을 만들려면 다음을 수행합니다.
 12. **저장** 을 클릭한 다음 **다음** 을 클릭합니다.
 13. 테스트 옵션을 선택하고 **다음** 을 클릭합니다.
 14. **제출** 을 클릭한 다음 **완료** 를 클릭합니다.
-
-limit-accidental-exposure-dlp-anyone-links.png
 
 ## <a name="protect-against-malicious-files"></a>악성 파일로부터 보호
 
