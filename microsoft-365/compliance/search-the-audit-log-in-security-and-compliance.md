@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: how-to
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Office 365 보안 및 준수 센터 또는 Microsoft 365 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c2ffc926114b8ffc2ebf2005b98e549ac03cf26
-ms.sourcegitcommit: 21c3e44862854c74e4008cfb661840f069c6b709
+ms.openlocfilehash: cf5481584031469b459d5662f75e32fd9a793a94
+ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48787584"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816761"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -893,7 +893,7 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 |:-----|:-----|:-----|
 |메모가 작성됨|CreateComment|양식 소유자가 퀴즈에 메모 또는 점수를 추가합니다.|
 |양식이 만들어짐|CreateForm|양식 소유자가 새 양식을 만듭니다.|
-|양식이 편집됨|EditForm|양식 소유자는 질문을 만들거나, 제거하거나, 편집하는 등 양식을 편집합니다. <br><br>속성 EditOperation: 문자열은 편집 작업의 이름을 나타냅니다. CreateQuestion, CreateQuestionChoice, DeleteQuestion, DeleteQuestionChoice, DeleteFormImage, DeleteQuestionImage, UpdateQuestion, UpdateQuestionChoice, UploadFormImage/Bing/Onedrive, UploadQuestionImage, ChangeTheme 등의 작업을 수행할 수 있습니다.  <br><br>대부분의 작업 이름에는 따로 설명이 필요 없습니다. <br><br>FormImage에는 사용자가 이미지를 업로드할 수 있는 양식 내의 모든 위치(예: 쿼리나 배경 테마)가 포함됩니다.|
+|양식이 편집됨|EditForm|양식 소유자는 질문을 만들거나, 제거하거나, 편집하는 등 양식을 편집합니다. 속성 *EditOperation:string* 은 편집 작업의 이름을 나타냅니다. 가능한 작업은 다음과 같습니다.<br/>- CreateQuestion<br/>- CreateQuestionChoice <br/>- DeleteQuestion <br/>- DeleteQuestionChoice <br/>- DeleteFormImage <br/>- DeleteQuestionImage <br/>- UpdateQuestion <br/>- UpdateQuestionChoice <br/>- UploadFormImage/Bing/Onedrive <br/>- UploadQuestionImage <br/>- ChangeTheme <br><br>FormImage에는 사용자가 이미지를 업로드할 수 있는 양식 내의 모든 위치(예: 쿼리나 배경 테마)가 포함됩니다.|
 |양식 이동됨|MoveForm|양식 소유자가 양식을 이동합니다. <br><br>속성 DestinationUserId: 문자열은 양식을 이동한 사람의 사용자 ID를 나타냅니다. 속성 NewFormId: 문자열은 새로 복사한 양식의 새 ID입니다.|
 |양식 삭제됨|DeleteForm|양식 소유자가 양식을 삭제합니다. 여기에는 SoftDelete(삭제 옵션이 사용되고 양식은 휴지통으로 이동) 및 HardDelete(휴지통 비워짐)가 포함됩니다.|
 |양식을 확인함(디자인 타임)|ViewForm|양식 소유자가 편집할 기존 양식을 엽니다.|
@@ -912,7 +912,8 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 |응답을 확인함|ViewResponse|양식 소유자가 특정 응답을 봅니다. <br><br>속성 ResponseId: 문자열 및 속성 ResponderId: 문자열은 어떤 결과를 보고 있는지 나타냅니다. <br><br>익명 응답자의 경우 ResponderId 속성은 null입니다.|
 |요약 링크가 만들어짐|GetSummaryLink|양식 소유자는 결과를 공유하기 위한 요약 결과 링크를 만듭니다.|
 |요약 링크가 삭제됨|DeleteSummaryLink|양식 소유자가 요약 결과 링크를 삭제합니다.|
-|양식 피싱 상태가 업데이트됨|UpdatePhishingStatus|이 이벤트는 최종 보안 상태가 변경되었는지에 관계없이 내부 보안 상태 세부 값이 변경될 때마다 기록됩니다(예: 이제 양식이 닫힘 또는 열림). 즉, 최종 보안 상태 변경이 없는 중복 이벤트를 볼 수 있습니다.|
+|양식 피싱 상태가 업데이트됨|UpdatePhishingStatus|이 이벤트는 최종 보안 상태가 변경되었는지에 관계없이 내부 보안 상태에 대한 세부 값이 변경될 때마다 기록됩니다(예: 이제 양식이 닫힘 또는 열림). 즉, 최종 보안 상태의 변경이 없는 중복 이벤트를 볼 수 있습니다. 이 이벤트에 대한 가능한 상태 값은 다음과 같습니다.<br/>- 다운시킴 <br/>- 관리자가 다운시킴 <br/>- 관리자가 차단 해제함 <br/>- 자동 차단됨 <br/>- 자동 차단 해제됨 <br/>- 보고된 고객 <br/>- 보고된 고객 초기화|
+|사용자 피싱 상태 업데이트됨|UpdateUserPhishingStatus|이 이벤트는 사용자 보안 상태의 값이 변경되었을 때마다 기록됩니다. 사용자가 Microsoft Online Safety Team에서 다운시킨 피싱 양식을 만들었을 때 감사 레코드에서 사용자의 상태 값이 **피셔로 확인** 됩니다. 관리자가 사용자의 차단을 해제하는 경우, 사용자의 상태 값은 **정규 사용자로 재설정** 됩니다.|
 |Forms Pro 초대가 보내짐|ProInvitation|사용자가 클릭하여 Pro 평가판을 활성화합니다.|
 |양식 설정을 업데이트함|UpdateFormSetting|양식 소유자가 양식 설정을 업데이트합니다. <br><br>속성 FormSettingName: 문자열은 설정의 이름과 새 값을 나타냅니다.|
 |사용자 설정이 업데이트됨|UpdateUserSetting|양식 소유자가 사용자 설정을 업데이트합니다. <br><br>속성 UserSettingName: 문자열은 설정의 이름과 새 값을 나타냅니다.|
@@ -922,7 +923,7 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 
 #### <a name="forms-activities-performed-by-coauthors-and-anonymous-responders"></a>공동 작성자 및 익명 응답자가 수행하는 Forms 활동
 
-Forms는 양식을 설계할 때와 응답을 분석할 때 공동 작업을 지원합니다. 양식 협력자는 *공동 작성자* 라고 합니다. 공동 작성자는 양식을 삭제하거나 이동하는 것을 제외하고 양식 소유자가 할 수 있는 모든 작업을 수행할 수 있습니다. Forms를 사용하면 익명으로 응답할 수 있는 양식을 만들 수도 있습니다. 즉, 응답자는 조직에 로그인하지 않아도 양식에 응답할 수 있습니다. 
+폼은 양식이 디자인되고 응답을 분석할 때 공동 작업을 지원합니다. 양식 협력자는 *공동 작성자* 라고 합니다. 공동 작성자는 양식을 삭제하거나 이동하는 것을 제외하고 양식 소유자가 할 수 있는 모든 작업을 수행할 수 있습니다. Forms를 사용하면 익명으로 응답할 수 있는 양식을 만들 수도 있습니다. 즉, 응답자는 조직에 로그인하지 않아도 양식에 응답할 수 있습니다.
 
 다음 표에서는 공동 작성자와 익명 응답자가 수행한 활동에 대한 감사 레코드의 감사 활동과 정보를 설명합니다.
 
@@ -944,9 +945,9 @@ Forms는 양식을 설계할 때와 응답을 분석할 때 공동 작업을 지
 |:-----|:-----|:-----|
 |사이트에 적용된 민감도 레이블|SensitivityLabelApplied|민감도 레이블이 SharePoint 또는 Teams 사이트에 적용됩니다.|
 |사이트에서 제거된 민감도 레이블|SensitivityLabelRemoved|민감도 레이블이 SharePoint 또는 Teams 사이트에서 제거되었습니다.|
-|파일에 적용된 민감도 레이블|FileSensitivityLabelApplied|웹용 Office 또는 자동 레이블 정책을 사용하여 민감도 레이블을 문서에 적용했습니다.|
-|파일에 변경된 민감도 레이블을 적용|FileSensitivityLabelChanged|웹용 Office 또는 자동 레이블 정책을 사용하여 다른 민감도 레이블을 문서에 적용했습니다.|
-|파일에서 제거된 민감도 레이블|FileSensitivityLabelRemoved|웹용 Office 또는 자동 레이블 정책을 사용하여 민감도 레이블을 문서에서 제거했습니다.|
+|파일에 적용된 민감도 레이블|FileSensitivityLabelApplied|웹용 Office 또는 자동 레이블 지정 정책을 사용하여 민감도 레이블을 문서에 적용했습니다.|
+|파일에 변경된 민감도 레이블을 적용|FileSensitivityLabelChanged|웹용 Office 또는 자동 레이블 지정 정책을 사용하여 다른 민감도 레이블을 문서에 적용했습니다.|
+|파일에서 제거된 민감도 레이블|FileSensitivityLabelRemoved|웹용 Office 또는 자동 레이블 지정 정책을 사용하여 민감도 레이블을 문서에서 제거했습니다.|
 ||||
 
 ### <a name="retention-policy-and-retention-label-activities"></a>유지 정책 및 보존 레이블 활동
