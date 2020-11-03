@@ -19,29 +19,28 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: 조직이 Microsoft 365 서비스를 채택 하 여 통신 및 공동 작업 하는 방법에 대 한 개요를 확인 하세요.
-ms.openlocfilehash: fecaed3aa9fc2d0990cb3e7b416cee1bfab21d7e
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: d7e9e6cf945134df54221bb8a03ef83d1a8851cc
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948631"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841390"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석
----
 
 ## <a name="overview-of-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석 개요
 
-Power BI 내에서 Microsoft 365 사용 현황 분석을 사용 하 여 조직에서 Microsoft 365 내의 다양 한 서비스를 채택 하 여 통신 및 공동 작업을 수행 하는 방법을 통찰력을 얻으십시오. Microsoft 365 사용 현황 데이터를 시각화 및 분석 하 고, 사용자 지정 보고서를 만들고, 조직 내에서 통찰력을 공유 하 고, 특정 지역 또는 부서가 Microsoft 365을 활용 하는 방법을 파악할 수 있습니다.
+Power BI 내에서 Microsoft 365 사용 현황 분석을 사용 하 여 조직이 Microsoft 365 내에서 다양 한 서비스를 채택 하는 방법에 대 한 정보를 습득 합니다. Microsoft 365 사용 현황 데이터를 시각화 및 분석 하 고, 사용자 지정 보고서를 만들고, 조직 내에서 정보를 공유할 수 있습니다. 특정 지역 또는 부서가 Microsoft 365을 사용 하는 방법을 통찰력을 얻을 수도 있습니다.
   
-Microsoft 365 사용 현황 분석은 지난 12 개월간의 제품 간 보기를 제공 하 고 미리 작성 된 여러 보고서를 포함 하는 미리 구성 된 대시보드에 액세스할 수 있게 해 주는 서식 파일 앱입니다. 각 보고서는 특정 사용 현황 정보를 제공합니다. 지난 달 전체 일정에 대한 사용자 특정 정보를 사용할 수 있습니다.
+Microsoft 365 사용 현황 분석을 통해 지난 12 개월간의 제품 간 보기를 제공 하 고 미리 작성 된 여러 보고서를 포함 하는 미리 구성 된 대시보드에 액세스할 수 있습니다. 각 보고서는 특정 사용 현황 정보를 제공합니다. 사용자 관련 정보는 지난 전체 달력 달에만 사용할 수 있습니다.
   
-서식 파일 앱에 게 제공 되는 [데이터 모델](usage-analytics-data-model.md) 에는 특정 보고서에서 피벗을 할 수 있도록 하는 Active Directory의 사용자 특성이 포함 됩니다. 위치, 부서 및 조직은 다음과 같은 Active Directory 특성을 포함 합니다. 
+서식 파일 앱에 게 제공 되는 [데이터 모델](usage-analytics-data-model.md) 에는 특정 보고서에서 피벗을 할 수 있도록 하는 Active Directory의 사용자 특성이 포함 됩니다. 위치, 부서 및 조직은 다음과 같은 Active Directory 특성이 포함 됩니다. 
   
 데이터 수집을 시작하려면 [Microsoft 365 사용 현황 분석을 사용하도록 설정](enable-usage-analytics.md)을 참조하세요. 
   
 Microsoft 365 사용 현황 분석에는 다음 섹션에서 설명 하는 여러 보고서가 포함 되어 있습니다. 
 
-데이터 테이블을 선택 하 여 각 영역에 대 한 자세한 보고서에 액세스할 수 있습니다. 보고서를 보고 나면 사이트 맨 아래에 있는 탭을 선택 하 여 미리 작성 된 모든 보고서를 볼 수 있습니다. 자세한 내용은 [microsoft 365 사용 현황 분석에서 보고서 탐색 및 활용](navigate-and-utilize-reports.md) 및 [microsoft 365 사용 현황 분석에서 보고서 사용자 지정](customize-reports.md)을 참조 하세요.
+데이터 테이블을 선택 하 여 각 영역에 대 한 자세한 보고서에 액세스할 수 있습니다. 사이트 아래쪽의 탭을 선택 하 여 미리 작성 된 모든 보고서를 볼 수 있습니다. 자세한 지침을 보려면 [보고서 탐색 및 활용](navigate-and-utilize-reports.md) 및 [보고서 사용자 지정](customize-reports.md)을 참조 하세요.
 
 ## <a name="executive-summary"></a>요약
 
@@ -93,7 +92,7 @@ Microsoft 365 개요 보고서에는 다음 보고서가 포함 되어 있습니
 
 ### <a name="who-can-connect-to-microsoft-365-usage-analytics"></a>누가 Microsoft 365 사용 현황 분석에 연결할 수 있나요?
 
-서식 파일 앱에 대 한 연결을 설정 하려면 **전역 관리자**, **Exchange 관리자**, **비즈니스용 Skype 관리자**, **SharePoint 관리자**, **전역 독자** 또는 **보고서 독자** 여야 합니다. 자세한 내용은 [관리자 역할 정보](../add-users/about-admin-roles.md) 를 참조 하세요.
+서식 파일 앱에 대 한 연결을 설정 하려면 **전역 관리자** , **Exchange 관리자** , **비즈니스용 Skype 관리자** , **SharePoint 관리자** , **전역 독자** 또는 **보고서 독자** 여야 합니다. 자세한 내용은 [관리자 역할 정보](../add-users/about-admin-roles.md) 를 참조 하세요.
 
 ### <a name="who-can-customize-the-usage-analytics-reports"></a>사용 현황 분석 보고서를 사용자 지정할 수 있는 사람은 누구 입니까?
 

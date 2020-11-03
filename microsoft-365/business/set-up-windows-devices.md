@@ -26,12 +26,12 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: Windows 10 Pro for Microsoft 365 Business Premium users를 실행 하는 Windows 장치를 설정 하 고 중앙 집중식 관리 및 보안 제어를 사용 하는 방법을 알아봅니다.
-ms.openlocfilehash: 85ac3c964792a132d5699703e543289020e38f57
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+ms.openlocfilehash: c95b9e51c7ec3c440509fe34084d2a030c7f2eec
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785855"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841262"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Microsoft 365 Business Premium 사용자를 위한 Windows 장치 설정
 
@@ -49,7 +49,7 @@ Microsoft 365에 Windows를 연결 하는 방법에 대 한 간단한 비디오�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10 장치를 조직의 Azure AD에 연결
 
@@ -77,49 +77,49 @@ Windows 10 Pro 크리에이터 업데이트를 실행하는 새로운 장치 또
   
    ![In the Start menu, click Windows Settings icon](../media/74e1ce9a-1554-4761-beb9-330b176e9b9d.png)
   
-2. **설정**에서 **계정**으로 이동합니다.
+2. **설정** 에서 **계정** 으로 이동합니다.
   
    ![In Windows Settings, go to Accounts](../media/472fd688-d111-4788-9fbb-56a00fbdc24d.png)
   
-3. **사용자 정보** 페이지에서 **회사 또는 학교 액세스** \> **연결**을 차례로 클릭합니다.
+3. **사용자 정보** 페이지에서 **회사 또는 학교 액세스** \> **연결** 을 차례로 클릭합니다.
   
    ![Choose Connect under Access work or school](../media/af3a4e3f-f9b9-4969-b3e2-4ef99308090c.png)
   
-4. **회사 또는 학교 계정 설정** 대화 상자의 **대체 작업**에서 **Azure Active Directory에 이 장치 가입**을 선택합니다.
+4. **회사 또는 학교 계정 설정** 대화 상자의 **대체 작업** 에서 **Azure Active Directory에 이 장치 가입** 을 선택합니다.
   
    ![Click Join this device to Azure Active Directory](../media/fb709a1b-05a9-4750-9cb9-e097f4412cba.png)
   
-5. **로그인 시작** 페이지에 회사 또는 학교 계정을 입력합니다 \> **다음**.
+5. **로그인 시작** 페이지에 회사 또는 학교 계정을 입력합니다 \> **다음** .
   
-   **암호 입력** 페이지에서 암호를 입력합니다 \> **로그인**.
+   **암호 입력** 페이지에서 암호를 입력합니다 \> **로그인** .
   
    ![Enter your work or school email on the Let's get you signed in page](../media/f70eb148-b1d2-4ba3-be38-7317eaf0321a.png)
   
-6. **조직** 확인 페이지에서 정보가 올바른지 확인 하 고 **참가**를 클릭 합니다.
+6. **조직** 확인 페이지에서 정보가 올바른지 확인 하 고 **참가** 를 선택 합니다.
   
-   **완료되었습니다!** 페이지에서 **완료**를 클릭합니다.
+   **완료 되었습니다!** 페이지 (chosse **Done** )
   
-   ![On the Make sure this is your organization screen, click Join](../media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
+   ![조직의 조직 인지 확인 하 고 참가를 선택 합니다.](../media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
   
 비즈니스용 OneDrive에 파일을 업로드 한 경우 다시 동기화 하세요. 타사 도구를 사용 하 여 프로필 및 파일을 마이그레이션한 경우이를 새 프로필과 동기화 해야 합니다.
   
 ## <a name="verify-the-device-is-connected-to-azure-ad"></a>장치가 Azure AD에 연결되었는지 확인
 
-동기화 상태를 확인 하려면 **설정**의 **회사 또는 학교** 페이지에서 **연결** 프로그램을 클릭 하 여 단추 정보를 표시 \<organization name\> 하 고 연결을 **해제**합니다 **Info** . **정보** 를 클릭 하 여 동기화 상태를 가져옵니다. 
+동기화 상태를 확인 하려면 **설정** 의 **작업 또는 학교** 페이지에 있는 **연결 대상** 에서 \<organization name\> 단추 **정보** 를 표시 하 고 연결 **끊기를** 선택 합니다. 동기화 상태를 가져오려면 **정보** 를 선택 합니다. 
   
-동기화 상태 페이지에서 동기화를 클릭하여 최신 모바일 장치 관리 정책을 PC로 이동합니다.
+**동기화 상태** 페이지에서 **동기화** 를 선택 하 여 PC에 최신 모바일 장치 관리 정책을 가져옵니다.
   
-Microsoft 365 Business Premium 계정을 사용 하려면 Windows **시작** 단추로 이동 하 여 현재 계정 사진을 마우스 오른쪽 단추로 클릭 한 다음 **계정을 전환**합니다. 조직 전자 메일 및 암호를 사용 하 여 로그인 합니다.
+Microsoft 365 Business Premium 계정을 사용 하려면 Windows **시작** 단추로 이동 하 여 현재 계정 사진을 마우스 오른쪽 단추로 클릭 한 다음 **계정을 전환** 합니다. 조직 전자 메일 및 암호를 사용 하 여 로그인 합니다.
   
 ![동기화 상태를 보려면 정보 버튼을 클릭합니다.](../media/818f7043-adbf-402a-844a-59d50034911d.png)
   
-## <a name="verify-the-device-is-upgraded-to-windows-10-business"></a>장치가 Windows 10 Business로 업그레이드 되었는지 확인
+## <a name="verify-the-pc-is-upgraded-to-windows-10-business"></a>PC가 Windows 10 Business로 업그레이드 되었는지 확인 합니다.
 
 Azure AD에 연결 된 Windows 10 장치가 Microsoft 365 Business Premium 구독의 일부로 서 Windows 10 Business로 업그레이드 되었는지 확인 합니다.
   
-1. **설정** \> **시스템** \> **정보**로 이동합니다.
+1. **설정** \> **시스템** \> **정보** 로 이동합니다.
     
-2. **버전**이 **Windows 10 Business**인지 확인합니다.
+2. **버전** 이 **Windows 10 Business** 인지 확인합니다.
     
     ![Verify that Windows edition is Windows 10 Business.](../media/ff660fc8-d3ba-431b-89a5-f5abded96c4d.png)
   

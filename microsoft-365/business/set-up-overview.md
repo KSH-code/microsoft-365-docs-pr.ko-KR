@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Microsoft 365 Business Premium, 구독에서 도메인 및 사용자 추가, 보안 정책 설정 등에 대 한 설정 단계를 알아봅니다.
-ms.openlocfilehash: fa9c02fa9546437c83b9cc6c1f1e6e0d723ec868
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 8ec01a58d1a15d5c4aa1cef8b81518b474630d8b
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47306472"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841144"
 ---
 # <a name="overview-of-setup"></a>설치 개요
 
@@ -40,21 +40,21 @@ Microsoft 365 Business Premium 설치에 대 한 간단한 비디오를 시청 �
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
 
-대부분의 설치 단계는 설치 마법사에서 수행할 수 있지만 다른 옵션도 나열 됩니다.
+대부분의 설치 단계는 안내 설정에서 수행할 수 있지만 다른 옵션도 나열 됩니다.
 
 ## <a name="step-1-add-your-domain-and-users"></a>1 단계: 도메인 및 사용자 추가
 
    - **[도메인 추가](set-up.md#add-your-domain-to-personalize-sign-in)** ( [등록](sign-up.md)중에 도메인을 구매한 경우이 단계는 이미 완료 됨)
 
-   - **사용자를 추가**합니다. 다음 세 가지 방법 중 하나를 통해 사용자를 추가할 수 있습니다.
-        - [마법사](set-up.md#add-users-in-the-wizard)에서
+   - **사용자를 추가** 합니다. 다음 세 가지 방법 중 하나를 통해 사용자를 추가할 수 있습니다.
+        - 를 [설치](set-up.md#add-users-in-the-wizard)합니다.
         - 온-프레미스 Active directory가 있는 경우 디렉터리 동기화를 사용 하 여 [AZURE AD Connect를 사용 하 여 사용자를 추가](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization) 합니다.
         - 나중에 관리 센터에서 [사용자를 추가할](add-users-m365b.md) 수도 있습니다.
 ## <a name="step-2-set-up-security-policies-and-configure-devices"></a>2 단계: 보안 정책 설정 및 장치 구성 
 
-  - [설치 마법사](set-up.md#protect-your-organization) 를 사용 하 여 장치 정책을 구성 합니다. 
+  - 안내가 제공 되는 [설치 프로그램](set-up.md#protect-your-organization) 을 사용 하 여 장치 정책을 구성 합니다. 
   - [관리 센터](view-policies-and-devices.md) 및 [Intune 포털](https://docs.microsoft.com/intune/tutorial-walkthrough-intune-portal)에서 나중에 추가 하거나 편집할 수도 있습니다.
   - 또한 설정 마법사는 기본 위협 보호 및 데이터 손실 방지 설정을 설정 합니다.
   
@@ -63,15 +63,15 @@ Microsoft 365 Business Premium 설치에 대 한 간단한 비디오를 시청 �
 - **전자 메일 맬웨어 방지**
 - **ATP 피싱 방지**
 - **Exchange Online Archiving**
-- **Azure Information Protection (Plan1**)
+- **Azure Information Protection (Plan1** )
 
 시작 하려면 [위협 방지 강화](increase-threat-protection.md) 및 [규정 준수 기능](set-up-compliance.md)을 참조 하세요.
 
-모범 사례에 대 한 로드맵을 제공 하기 위해 [Microsoft 365 Business Premium을 보호 하는 상위 10 가지 방법](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) 에 대해서도 알아봅니다.
+모범 보안 모범 사례 맵을 위해 [Microsoft 365 Business Premium의 보안을 유지 하는 상위 10 가지 방법](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) 에 대해서도 알아봅니다.
 
 ## <a name="step-3-set-up-and-manage-windows-10-devices"></a>3 단계: Windows 10 장치 설정 및 관리
 
-설정 마법사를 실행 한 후에는 조직의 모든 Windwos 10 컴퓨터를 다시 사용할 수 있습니다.
+안내가 제공 되는 설치를 완료 한 후에는 조직의 모든 Windows 10 컴퓨터를 보호 하는 방법을 사용할 수 있습니다.
   
 - Windows 10 Pro는 Microsoft 365 Business Premium에 대 한 [필수 구성 요소](pre-requisites-for-data-protection.md) 지만, Windows 7 Pro, Windows 8 Pro 또는 Windows 8.1 pro가 있는 경우 구독을 통해 [windows 10 Pro로 업그레이드할](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update)수 통해.
 - Windows 10 용 정책 정책을 설정 하는 windows 10 [pc 보안](secure-win-10-pcs.md) 의 단계를 수행 합니다.

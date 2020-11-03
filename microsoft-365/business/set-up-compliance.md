@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 규정 준수 기능을 설정 하 여 데이터 손실을 방지 하 고 및 고객의 중요 한 정보를 안전 하 게 유지 합니다.
-ms.openlocfilehash: 18886ff3a0ba5e99e63c70ef083d7a69c75bac91
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+ms.openlocfilehash: 2c95ad3f36df28af2c68cd11192bcfe92dfe29e3
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785835"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841176"
 ---
 # <a name="set-up-compliance-features"></a>준수 기능 설정
 
@@ -35,7 +35,7 @@ Microsoft 365 Business Premium에는 데이터와 장치를 보호 하는 기능
 
 ## <a name="set-up-dlp-features"></a>DLP 기능 설정
 
-PII(개인 식별 정보)를 보호하도록 정책을 설정하는 방법의 예제를 보려면 [템플릿에서 DLP 정책 만들기](https://docs.microsoft.com/microsoft-365/compliance/create-a-dlp-policy-from-a-template)를 참조하세요. 
+개인 데이터의 보호 손실을 방지 하기 위해 정책을 설정 하는 방법에 대 한 예제는 [템플릿에서 DLP 정책 만들기](https://docs.microsoft.com/microsoft-365/compliance/create-a-dlp-policy-from-a-template) 를 참조 하세요. 
   
 DLP에는 다양 한 로캘에 대 한 다양 한 사용 가능 정책 템플릿이 제공 됩니다. 예를 들어 오스트레일리아 재무 데이터, 캐나다 개인 정보 Act, 미국 재무 데이터 등이 있습니다. 전체 목록에 대해 [DLP 정책 템플릿에 포함 된 내용을](https://docs.microsoft.com/microsoft-365/compliance/what-the-dlp-policy-templates-include) 확인 합니다. 이러한 서식 파일은 모두 PII 서식 파일 예제와 비슷하게 설정할 수 있습니다. 
   
@@ -47,13 +47,13 @@ DLP에는 다양 한 로캘에 대 한 다양 한 사용 가능 정책 템플릿
     
 사서함에 소송 보존을 적용하려면 관리 센터에서 다음을 수행합니다.
     
-1. 왼쪽 탐색 영역에서 **사용자** \> **활성 사용자**로 이동합니다.
+1. 왼쪽 탐색 영역에서 **사용자** \> **활성 사용자** 로 이동합니다.
     
-2. 사서함에 소송 보존을 적용 하려는 사용자를 선택 합니다. 사용자 창에서 **메일 설정을**확장 하 고 **기타 설정**옆에 있는 **Exchange 속성 편집**을 선택 합니다.
+2. 사서함에 소송 보존을 적용 하려는 사용자를 선택 합니다. 사용자 창에서 **메일 설정을** 확장 하 고 **기타 설정** 옆에 있는 **Exchange 속성 편집** 을 선택 합니다.
     
 3. 사용자의 사서함 페이지에서 왼쪽 탐색 영역의 ** 사서함 기능**을 선택하고 **소송 보존** 아래의 **사용** 링크를 선택합니다.
     
-4. **소송** 보존 대화 상자의 소송 보존 **기간** 필드에 소송 보존 기간을 지정할 수 있습니다. 무기한 유지 하려면 필드를 비워 둡니다. 메모를 추가 하 고 사서함 소유자에 게 소송 보존에 대 한 자세한 내용을 설명 해야 할 수 있는 웹 사이트로 지시할 수도 있습니다. \>**저장**을 합니다.
+4. **소송** 보존 대화 상자의 소송 보존 **기간** 필드에 소송 보존 기간을 지정할 수 있습니다. 무기한 유지 하려면 필드를 비워 둡니다. 메모를 추가 하 고 사서함 소유자에 게 소송 보존에 대 한 자세한 내용을 설명 해야 할 수 있는 웹 사이트로 지시할 수도 있습니다. \>**저장** 을 합니다.
     
 **보존:** 특정 기간 동안 보존하거나 보존 기간이 끝나면 영구적으로 콘텐츠를 삭제하는 것과 같은 사용자 지정된 보존 정책을 사용하도록 설정할 수 있습니다. 자세한 내용은 [보존 정책 개요](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)를 참조하세요.
 
