@@ -19,44 +19,44 @@ mms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: dcacc31f8ea2546cbf90e45a4323a60670a98458
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 87ebf4ca0ff773dd5622097385173f538d990afc
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429842"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847479"
 ---
-# <a name="emailattachmentinfo"></a><span data-ttu-id="6dd24-104">EmailAttachmentInfo</span><span class="sxs-lookup"><span data-stu-id="6dd24-104">EmailAttachmentInfo</span></span>
+# <a name="emailattachmentinfo"></a><span data-ttu-id="0d4ad-104">EmailAttachmentInfo</span><span class="sxs-lookup"><span data-stu-id="0d4ad-104">EmailAttachmentInfo</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="6dd24-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="6dd24-105">**Applies to:**</span></span>
-- <span data-ttu-id="6dd24-106">Microsoft Threat Protection</span><span class="sxs-lookup"><span data-stu-id="6dd24-106">Microsoft Threat Protection</span></span>
+<span data-ttu-id="0d4ad-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="0d4ad-105">**Applies to:**</span></span>
+- <span data-ttu-id="0d4ad-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="0d4ad-106">Microsoft 365 Defender</span></span>
 
 
 
-<span data-ttu-id="6dd24-107">[고급 헌팅](advanced-hunting-overview.md) 스키마의 `EmailAttachmentInfo` 표에는 Office 365 ATP에서 처리된 전자 메일의 첨부 파일에 대한 정보가 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6dd24-107">The `EmailAttachmentInfo` table in the [advanced hunting](advanced-hunting-overview.md) schema contains information about attachments on emails processed by Office 365 ATP.</span></span> <span data-ttu-id="6dd24-108">이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="6dd24-108">Use this reference to construct queries that return information from this table.</span></span>
+<span data-ttu-id="0d4ad-107">`EmailAttachmentInfo` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 Microsoft Defender for Office 365에서 처리 되는 전자 메일의 첨부 파일에 대 한 정보가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0d4ad-107">The `EmailAttachmentInfo` table in the [advanced hunting](advanced-hunting-overview.md) schema contains information about attachments on emails processed by Microsoft Defender for Office 365.</span></span> <span data-ttu-id="0d4ad-108">이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="0d4ad-108">Use this reference to construct queries that return information from this table.</span></span>
 
-<span data-ttu-id="6dd24-109">고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="6dd24-109">For information on other tables in the advanced hunting schema, [see the advanced hunting reference](advanced-hunting-schema-tables.md).</span></span>
+<span data-ttu-id="0d4ad-109">고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="0d4ad-109">For information on other tables in the advanced hunting schema, [see the advanced hunting reference](advanced-hunting-schema-tables.md).</span></span>
 
-| <span data-ttu-id="6dd24-110">열 이름</span><span class="sxs-lookup"><span data-stu-id="6dd24-110">Column name</span></span> | <span data-ttu-id="6dd24-111">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="6dd24-111">Data type</span></span> | <span data-ttu-id="6dd24-112">설명</span><span class="sxs-lookup"><span data-stu-id="6dd24-112">Description</span></span> |
+| <span data-ttu-id="0d4ad-110">열 이름</span><span class="sxs-lookup"><span data-stu-id="0d4ad-110">Column name</span></span> | <span data-ttu-id="0d4ad-111">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="0d4ad-111">Data type</span></span> | <span data-ttu-id="0d4ad-112">설명</span><span class="sxs-lookup"><span data-stu-id="0d4ad-112">Description</span></span> |
 |-------------|-----------|-------------|
-| `Timestamp` | <span data-ttu-id="6dd24-113">날짜/시간</span><span class="sxs-lookup"><span data-stu-id="6dd24-113">datetime</span></span> | <span data-ttu-id="6dd24-114">이벤트가 기록된 날짜와 시간</span><span class="sxs-lookup"><span data-stu-id="6dd24-114">Date and time when the event was recorded</span></span> |
-| `AttachmentId` | <span data-ttu-id="6dd24-115">문자열</span><span class="sxs-lookup"><span data-stu-id="6dd24-115">string</span></span> | <span data-ttu-id="6dd24-116">고유한 전자 메일 첨부 파일 식별자</span><span class="sxs-lookup"><span data-stu-id="6dd24-116">Unique email attachment identifier</span></span> |
-| `NetworkMessageId` | <span data-ttu-id="6dd24-117">문자열</span><span class="sxs-lookup"><span data-stu-id="6dd24-117">string</span></span> | <span data-ttu-id="6dd24-118">Microsoft 365에서 생성 된 전자 메일에 대 한 고유 식별자입니다.</span><span class="sxs-lookup"><span data-stu-id="6dd24-118">Unique identifier for the email, generated by Microsoft 365</span></span> |
-| `SenderFromAddress` | <span data-ttu-id="6dd24-119">문자열</span><span class="sxs-lookup"><span data-stu-id="6dd24-119">string</span></span> | <span data-ttu-id="6dd24-120">전자 메일 클라이언트의 전자 메일 수신자에게 표시되는 FROM 머리글의 발신자 전자 메일 주소 </span><span class="sxs-lookup"><span data-stu-id="6dd24-120">Sender email address in the FROM header, which is visible to email recipients on their email clients</span></span> |
-| `RecipientEmailAddress` | <span data-ttu-id="6dd24-121">문자열</span><span class="sxs-lookup"><span data-stu-id="6dd24-121">string</span></span> | <span data-ttu-id="6dd24-122">받는 사람의 전자 메일 주소 또는 메일 그룹 확장 후 받는 사람의 전자 메일 주소</span><span class="sxs-lookup"><span data-stu-id="6dd24-122">Email address of the recipient, or email address of the recipient after distribution list expansion</span></span> |
-| `FileName` | <span data-ttu-id="6dd24-123">문자열</span><span class="sxs-lookup"><span data-stu-id="6dd24-123">string</span></span> | <span data-ttu-id="6dd24-124">기록된 조치가 적용된 파일의 이름</span><span class="sxs-lookup"><span data-stu-id="6dd24-124">Name of the file that the recorded action was applied to</span></span> |
-| `FileType` | <span data-ttu-id="6dd24-125">문자열</span><span class="sxs-lookup"><span data-stu-id="6dd24-125">string</span></span> | <span data-ttu-id="6dd24-126">파일 확장명 유형</span><span class="sxs-lookup"><span data-stu-id="6dd24-126">File extension type</span></span> |
-| `SHA256` | <span data-ttu-id="6dd24-127">문자열</span><span class="sxs-lookup"><span data-stu-id="6dd24-127">string</span></span> | <span data-ttu-id="6dd24-128">기록된 조치가 적용된 파일의 SHA-256</span><span class="sxs-lookup"><span data-stu-id="6dd24-128">SHA-256 of the file that the recorded action was applied to.</span></span> <span data-ttu-id="6dd24-129">일반적으로이 필드는 채워지지 않습니다. 가능한 경우 SHA1 열을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="6dd24-129">This field is usually not populated — use the SHA1 column when available.</span></span> |
-| `MalwareFilterVerdict` | <span data-ttu-id="6dd24-130">문자열</span><span class="sxs-lookup"><span data-stu-id="6dd24-130">string</span></span> | <span data-ttu-id="6dd24-131">전자 메일이 맬웨어를 포함하는지 여부에 대한 전자 메일 필터링 스택의 결과. Malware. malware 아님.</span><span class="sxs-lookup"><span data-stu-id="6dd24-131">Verdict of the email filtering stack on whether the email contains malware: Malware, Not malware</span></span> |
-| `MalwareDetectionMethod` | <span data-ttu-id="6dd24-132">문자열</span><span class="sxs-lookup"><span data-stu-id="6dd24-132">string</span></span> | <span data-ttu-id="6dd24-133">전자 메일에서 맬웨어를 검색하는 데 사용하는 방법: Antimalware engine, File reputation, ATP Safe Attachments</span><span class="sxs-lookup"><span data-stu-id="6dd24-133">Method used to detect malware in the email: Antimalware engine, File reputation, ATP Safe Attachments</span></span> |
+| `Timestamp` | <span data-ttu-id="0d4ad-113">날짜/시간</span><span class="sxs-lookup"><span data-stu-id="0d4ad-113">datetime</span></span> | <span data-ttu-id="0d4ad-114">이벤트가 기록된 날짜와 시간</span><span class="sxs-lookup"><span data-stu-id="0d4ad-114">Date and time when the event was recorded</span></span> |
+| `AttachmentId` | <span data-ttu-id="0d4ad-115">문자열</span><span class="sxs-lookup"><span data-stu-id="0d4ad-115">string</span></span> | <span data-ttu-id="0d4ad-116">고유한 전자 메일 첨부 파일 식별자</span><span class="sxs-lookup"><span data-stu-id="0d4ad-116">Unique email attachment identifier</span></span> |
+| `NetworkMessageId` | <span data-ttu-id="0d4ad-117">문자열</span><span class="sxs-lookup"><span data-stu-id="0d4ad-117">string</span></span> | <span data-ttu-id="0d4ad-118">Microsoft 365에서 생성 된 전자 메일에 대 한 고유 식별자입니다.</span><span class="sxs-lookup"><span data-stu-id="0d4ad-118">Unique identifier for the email, generated by Microsoft 365</span></span> |
+| `SenderFromAddress` | <span data-ttu-id="0d4ad-119">문자열</span><span class="sxs-lookup"><span data-stu-id="0d4ad-119">string</span></span> | <span data-ttu-id="0d4ad-120">전자 메일 클라이언트의 전자 메일 수신자에게 표시되는 FROM 머리글의 발신자 전자 메일 주소 </span><span class="sxs-lookup"><span data-stu-id="0d4ad-120">Sender email address in the FROM header, which is visible to email recipients on their email clients</span></span> |
+| `RecipientEmailAddress` | <span data-ttu-id="0d4ad-121">문자열</span><span class="sxs-lookup"><span data-stu-id="0d4ad-121">string</span></span> | <span data-ttu-id="0d4ad-122">받는 사람의 전자 메일 주소 또는 메일 그룹 확장 후 받는 사람의 전자 메일 주소</span><span class="sxs-lookup"><span data-stu-id="0d4ad-122">Email address of the recipient, or email address of the recipient after distribution list expansion</span></span> |
+| `FileName` | <span data-ttu-id="0d4ad-123">문자열</span><span class="sxs-lookup"><span data-stu-id="0d4ad-123">string</span></span> | <span data-ttu-id="0d4ad-124">기록된 조치가 적용된 파일의 이름</span><span class="sxs-lookup"><span data-stu-id="0d4ad-124">Name of the file that the recorded action was applied to</span></span> |
+| `FileType` | <span data-ttu-id="0d4ad-125">문자열</span><span class="sxs-lookup"><span data-stu-id="0d4ad-125">string</span></span> | <span data-ttu-id="0d4ad-126">파일 확장명 유형</span><span class="sxs-lookup"><span data-stu-id="0d4ad-126">File extension type</span></span> |
+| `SHA256` | <span data-ttu-id="0d4ad-127">문자열</span><span class="sxs-lookup"><span data-stu-id="0d4ad-127">string</span></span> | <span data-ttu-id="0d4ad-128">기록된 조치가 적용된 파일의 SHA-256</span><span class="sxs-lookup"><span data-stu-id="0d4ad-128">SHA-256 of the file that the recorded action was applied to.</span></span> <span data-ttu-id="0d4ad-129">일반적으로이 필드는 채워지지 않습니다. 가능한 경우 SHA1 열을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="0d4ad-129">This field is usually not populated — use the SHA1 column when available.</span></span> |
+| `MalwareFilterVerdict` | <span data-ttu-id="0d4ad-130">문자열</span><span class="sxs-lookup"><span data-stu-id="0d4ad-130">string</span></span> | <span data-ttu-id="0d4ad-131">전자 메일이 맬웨어를 포함하는지 여부에 대한 전자 메일 필터링 스택의 결과. Malware. malware 아님.</span><span class="sxs-lookup"><span data-stu-id="0d4ad-131">Verdict of the email filtering stack on whether the email contains malware: Malware, Not malware</span></span> |
+| `MalwareDetectionMethod` | <span data-ttu-id="0d4ad-132">문자열</span><span class="sxs-lookup"><span data-stu-id="0d4ad-132">string</span></span> | <span data-ttu-id="0d4ad-133">전자 메일에서 맬웨어를 감지 하는 데 사용 되는 방법: 맬웨어 방지 엔진, 파일 신뢰도, 안전한 첨부 파일</span><span class="sxs-lookup"><span data-stu-id="0d4ad-133">Method used to detect malware in the email: Antimalware engine, File reputation, Safe Attachments</span></span> |
 
-## <a name="related-topics"></a><span data-ttu-id="6dd24-134">관련 항목</span><span class="sxs-lookup"><span data-stu-id="6dd24-134">Related topics</span></span>
-- [<span data-ttu-id="6dd24-135">고급 헌팅 개요</span><span class="sxs-lookup"><span data-stu-id="6dd24-135">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
-- [<span data-ttu-id="6dd24-136">쿼리 언어 배우기</span><span class="sxs-lookup"><span data-stu-id="6dd24-136">Learn the query language</span></span>](advanced-hunting-query-language.md)
-- [<span data-ttu-id="6dd24-137">공유 쿼리 사용</span><span class="sxs-lookup"><span data-stu-id="6dd24-137">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
-- [<span data-ttu-id="6dd24-138">기기, 전자 메일, 앱 및 ID를 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="6dd24-138">Hunt across devices, emails, apps, and identities</span></span>](advanced-hunting-query-emails-devices.md)
-- [<span data-ttu-id="6dd24-139">스키마의 이해</span><span class="sxs-lookup"><span data-stu-id="6dd24-139">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
-- [<span data-ttu-id="6dd24-140">쿼리 모범 사례 적용</span><span class="sxs-lookup"><span data-stu-id="6dd24-140">Apply query best practices</span></span>](advanced-hunting-best-practices.md)
+## <a name="related-topics"></a><span data-ttu-id="0d4ad-134">관련 항목</span><span class="sxs-lookup"><span data-stu-id="0d4ad-134">Related topics</span></span>
+- [<span data-ttu-id="0d4ad-135">고급 헌팅 개요</span><span class="sxs-lookup"><span data-stu-id="0d4ad-135">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="0d4ad-136">쿼리 언어 배우기</span><span class="sxs-lookup"><span data-stu-id="0d4ad-136">Learn the query language</span></span>](advanced-hunting-query-language.md)
+- [<span data-ttu-id="0d4ad-137">공유 쿼리 사용</span><span class="sxs-lookup"><span data-stu-id="0d4ad-137">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
+- [<span data-ttu-id="0d4ad-138">기기, 전자 메일, 앱 및 ID를 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="0d4ad-138">Hunt across devices, emails, apps, and identities</span></span>](advanced-hunting-query-emails-devices.md)
+- [<span data-ttu-id="0d4ad-139">스키마의 이해</span><span class="sxs-lookup"><span data-stu-id="0d4ad-139">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
+- [<span data-ttu-id="0d4ad-140">쿼리 모범 사례 적용</span><span class="sxs-lookup"><span data-stu-id="0d4ad-140">Apply query best practices</span></span>](advanced-hunting-best-practices.md)
