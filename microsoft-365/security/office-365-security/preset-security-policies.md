@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: 관리자는 EOP (Exchange Online Protection) 및 Office 365 Advanced Threat Protection (ATP)의 보호 기능을 통해 표준 및 엄격한 정책 설정을 적용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 8431d36779069b0b289a2533fbd6b85abee24536
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: a624d48944965c217fb8547e4f09da0ec388e615
+ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326546"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48830540"
 ---
 # <a name="preset-security-policies-in-eop-and-office-365-atp"></a>EOP 및 Office 365 ATP의 미리 설정 된 보안 정책
 
@@ -44,32 +44,32 @@ ms.locfileid: "48326546"
 
 프로필은 보호 수준을 결정 합니다. 다음과 같은 프로필을 사용할 수 있습니다.
 
-- **표준 보호**: 대부분의 사용자에 게 적합 한 기본 보호 프로필입니다.
-- **엄격한 보호**: 선택한 사용자 (높은 값 목표 또는 우선 순위 사용자)에 대 한 적극적인 보호 프로필입니다.
+- **표준 보호** : 대부분의 사용자에 게 적합 한 기본 보호 프로필입니다.
+- **엄격한 보호** : 선택한 사용자 (높은 값 목표 또는 우선 순위 사용자)에 대 한 적극적인 보호 프로필입니다.
 
 프로필을 지정 하거나 적용 하지 않을 사람을 결정 하는 조건 및 예외 사항에 규칙을 사용 합니다.
 
-조건이나 예외는 한 번만 사용할 수 있지만, 조건이나 예외에 대한 값을 여러 개 지정할 수 있습니다. 동일한 조건의 여러 값이나 예외는 OR 논리를 사용합니다(예: _\<recipient1\>_ 혹은 _\<recipient2\>_). 다양한 조건이나 예외는 AND 논리를 사용합니다(예: _\<recipient1\>_ 및 _\<member of group 1\>_).
+조건이나 예외는 한 번만 사용할 수 있지만, 조건이나 예외에 대한 값을 여러 개 지정할 수 있습니다. 동일한 조건의 여러 값이나 예외는 OR 논리를 사용합니다(예: _\<recipient1\>_ 혹은 _\<recipient2\>_ ). 다양한 조건이나 예외는 AND 논리를 사용합니다(예: _\<recipient1\>_ 및 _\<member of group 1\>_ ).
 
 사용 가능한 조건 및 예외는 다음과 같습니다.
 
-- **받는 사람은**조직의 사서함, 메일 사용자 또는 메일 연락처입니다.
-- **받는 사람은**조직의 그룹 구성원입니다.
-- **받는 사람 도메인**은 Microsoft 365에 구성 되어 있는 허용 도메인입니다.
+- **받는 사람은** 조직의 사서함, 메일 사용자 또는 메일 연락처입니다.
+- **받는 사람은** 조직의 그룹 구성원입니다.
+- **받는 사람 도메인** 은 Microsoft 365에 구성 되어 있는 허용 도메인입니다.
 
 ### <a name="policies-in-preset-security-policies"></a>미리 설정 된 보안 정책의 정책
 
 미리 설정 된 보안 정책은 EOP 및 Office 365 ATP의 다양 한 보호 기능에서 해당 하는 정책을 사용 합니다. 이러한 정책은 **표준 보호** 또는 **엄격한 보호** 사전 설정 보안 정책을 사용자에 게 할당 _한 후_ 에 만들어집니다. 이러한 정책은 수정할 수 없습니다.
 
-- **EOP (Exchange Online Protection) 정책**: exchange online 사서함을 사용 하는 Microsoft 365 조직과 exchange online 사서함이 없는 독립 실행형 EOP 조직이 포함 됩니다.
+- **EOP (Exchange Online Protection) 정책** : exchange online 사서함을 사용 하는 Microsoft 365 조직과 exchange online 사서함이 없는 독립 실행형 EOP 조직이 포함 됩니다.
   
-  - **표준 사전 설정 보안 정책** 및 **엄격한 사전 설정 보안 정책**이라는 [스팸 방지 정책](configure-your-spam-filter-policies.md)
-  - **표준 사전 설정 보안 정책** 및 **엄격한 사전 설정 보안 정책**이라는 [맬웨어 방지 정책](configure-anti-malware-policies.md)
+  - **표준 사전 설정 보안 정책** 및 **엄격한 사전 설정 보안 정책** 이라는 [스팸 방지 정책](configure-your-spam-filter-policies.md)
+  - **표준 사전 설정 보안 정책** 및 **엄격한 사전 설정 보안 정책** 이라는 [맬웨어 방지 정책](configure-anti-malware-policies.md)
   - **표준 사전 설정 보안 정책** 및 **엄격한 미리 설정 된 보안 정책** (스푸핑 설정) 이라는 [EOP 피싱 방지 정책](set-up-anti-phishing-policies.md#spoof-settings)
 
-- **Office 365 atp (Advanced Threat Protection) 정책**: 여기에는 Microsoft 365 E5 또는 OFFICE 365 ATP 추가 기능 구독이 있는 조직이 포함 됩니다.
+- **Office 365 atp (Advanced Threat Protection) 정책** : 여기에는 Microsoft 365 E5 또는 OFFICE 365 ATP 추가 기능 구독이 있는 조직이 포함 됩니다.
 
-  - 다음을 포함 하는 **표준 사전 설정 보안 정책** 및 **엄격한 미리 설정 보안 정책**이라는 ATP 피싱 방지 정책
+  - 다음을 포함 하는 **표준 사전 설정 보안 정책** 및 **엄격한 미리 설정 보안 정책** 이라는 ATP 피싱 방지 정책
 
     - EOP 피싱 방지 정책에서 사용할 수 있는 것과 동일한 [스푸핑 설정](set-up-anti-phishing-policies.md#spoof-settings)
     - [가장 설정](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies)
@@ -77,7 +77,7 @@ ms.locfileid: "48326546"
 
   - [안전한 링크 정책](set-up-atp-safe-links-policies.md) **표준 사전 설정 보안 정책** 및 **엄격한 미리 설정 된 보안 정책**
 
-  - [안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md) **표준 미리 설정 보안 정책** 및 **엄격한 미리 설정 된 보안 정책**이라고 합니다.
+  - [안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md) **표준 미리 설정 보안 정책** 및 **엄격한 미리 설정 된 보안 정책** 이라고 합니다.
 
 ATP 보호와는 다른 사용자에 게 EOP 보호를 적용할 수 있습니다.
 
@@ -114,17 +114,18 @@ ATP 보호와는 다른 사용자에 게 EOP 보호를 적용할 수 있습니�
   - 미리 설정 된 보안 정책에 대 한 읽기 전용 액세스를 위해서는 다음 역할 그룹 중 하나의 구성원 이어야 합니다.
 
     - [보안 및 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **보안 읽기**
+    - [보안 & 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **전역 독자** 입니다.
     - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리**
 
 ### <a name="use-the-security--compliance-center-to-assign-preset-security-policies-to-users"></a>보안 & 준수 센터를 사용 하 여 사용자에 게 미리 설정 된 보안 정책 할당
 
-1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **미리 설정 된 보안 정책**으로 이동 합니다.
+1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **미리 설정 된 보안 정책** 으로 이동 합니다.
 
-2. **표준 보호** 또는 **엄격한 보호**에서 **편집**을 클릭 합니다.
+2. **표준 보호** 또는 **엄격한 보호** 에서 **편집** 을 클릭 합니다.
 
 3. **표준 보호 적용** 또는 **엄격한 보호 적용** 마법사가 시작 됩니다. **EOP 보호 적용** 단계에서 [EOP 보호](#policies-in-preset-security-policies) 를 적용할 내부 받는 사람을 식별 합니다.
 
-   1. **조건 추가를**클릭 합니다. 표시 되는 드롭다운 목록에서 다음의 **경우 적용**아래의 조건을 선택 합니다.
+   1. **조건 추가를** 클릭 합니다. 표시 되는 드롭다운 목록에서 다음의 **경우 적용** 아래의 조건을 선택 합니다.
 
       - **받는 사람이**
       - **받는 사람이 다음 구성원 인 경우**
@@ -138,23 +139,23 @@ ATP 보호와는 다른 사용자에 게 EOP 보호를 적용할 수 있습니�
 
       이전 단계를 반복 하 여 조건에 값을 추가 하 고, 필요에 따라 또는 조건이 없어질 때까지이 단계를 반복 합니다.
 
-   4. 예외를 추가 하려면 **조건 추가**를 클릭 합니다. 표시 되는 드롭다운 목록에서 **When 제외**아래의 조건을 선택 합니다. 설정 및 동작은 조건과 정확히 같습니다.
+   4. 예외를 추가 하려면 **조건 추가** 를 클릭 합니다. 표시 되는 드롭다운 목록에서 **When 제외** 아래의 조건을 선택 합니다. 설정 및 동작은 조건과 정확히 같습니다.
 
-   작업을 마친 후 **다음**을 클릭합니다.
+   작업을 마친 후 **다음** 을 클릭합니다.
 
 4. 조직에 Office 365 ATP가 있는 경우 **ATP 보호를 적용** 하 여 [office 365 atp 보호가](#policies-in-preset-security-policies) 적용 되는 내부 받는 사람을 식별 하는 단계를 수행 합니다.
 
    설정 및 동작은 **EOP 보호 적용** 단계와 동일 합니다.
 
-   작업을 마친 후 **다음**을 클릭합니다.
+   작업을 마친 후 **다음** 을 클릭합니다.
 
-5. **확인** 단계에서 선택한 항목을 확인 하 고 **확인**을 클릭 합니다.
+5. **확인** 단계에서 선택한 항목을 확인 하 고 **확인** 을 클릭 합니다.
 
 ### <a name="use-the-security--compliance-center-to-modify-the-assignments-of-preset-security-policies"></a>보안 & 준수 센터를 사용 하 여 미리 설정 된 보안 정책의 할당 수정
 
 **표준 보호** 또는 **엄격한 보호** 보안 정책에 대 한 할당을 수정 하는 단계는 [미리 설정 된 보안 정책을 사용자에 게 처음 할당](#use-the-security--compliance-center-to-assign-preset-security-policies-to-users)했을 때와 동일 합니다.
 
-기존 조건 및 예외를 유지 하면서 **표준 보호** 또는 **엄격한 보호** 보안 정책을 사용 하지 않도록 설정 하려면 슬라이드를 **사용 안 함으로**설정 합니다. 정책을 사용 하도록 설정 하려면 설정/해제를 **사용**으로 이동 합니다.
+기존 조건 및 예외를 유지 하면서 **표준 보호** 또는 **엄격한 보호** 보안 정책을 사용 하지 않도록 설정 하려면 슬라이드를 **사용 안 함으로** 설정 합니다. 정책을 사용 하도록 설정 하려면 설정/해제를 **사용** 으로 이동 합니다.
 
 ### <a name="how-do-you-know-these-procedures-worked"></a>이 절차가 제대로 수행되었는지 어떻게 확인하나요?
 

@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: aeb669aa-1770-4537-9de2-a82ac11b0540
 description: 이 문서에서는 PowerShell에서 Microsoft 365 그룹에 대 한 일반적인 관리 작업을 수행 하는 방법을 알아봅니다.
-ms.openlocfilehash: c1aa551597644b7f41c3445a791ea27579464f7b
-ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
+ms.openlocfilehash: 1cad2aa39a6b106cbb4dbfbafa995899b2442ed1
+ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277473"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48830618"
 ---
 # <a name="manage-microsoft-365-groups-with-powershell"></a>PowerShell을 사용 하 여 Microsoft 365 그룹 관리
 
@@ -114,7 +114,7 @@ Exchange online PowerShell을 사용 하는 방법에 대 한 자세한 내용�
 ## <a name="hide-microsoft-365-groups-from-the-global-address-list"></a>전체 주소 목록에서 Microsoft 365 그룹을 숨깁니다.
 <a name="BKMK_CreateClassification"> </a>
 
-조직의 GAL (전체 주소 목록) 및 기타 목록에 Microsoft 365 그룹을 표시할지 여부를 지정할 수 있습니다. 예를 들어 주소 목록에 표시 하지 않으려는 법무 부서 그룹이 있는 경우 GAL에 해당 그룹이 나타나지 않게 할 수 있습니다. 통합 그룹 cmdlet을 실행 하 여 다음과 같은 주소 목록에서 그룹을 숨깁니다.
+조직의 GAL (전체 주소 목록) 및 기타 목록에 Microsoft 365 그룹을 표시할지 여부를 지정할 수 있습니다. 예를 들어 주소 목록에 표시 하지 않으려는 법무 부서 그룹이 있는 경우 GAL에 해당 그룹이 나타나지 않게 할 수 있습니다. 다음과 같이 Set-Unified Group cmdlet을 실행 하 여 주소 목록에서 그룹을 숨깁니다.
 
 ```powershell
 Set-UnifiedGroup -Identity "Legal Department" -HiddenFromAddressListsEnabled $true
@@ -125,7 +125,7 @@ Set-UnifiedGroup -Identity "Legal Department" -HiddenFromAddressListsEnabled $tr
 
 다른 조직의 사용자가 Microsoft 365 그룹에 전자 메일을 보내지 못하도록 하려면 해당 그룹의 설정을 변경 하면 됩니다. 이를 통해 내부 사용자만 그룹에 전자 메일을 보낼 수 있습니다. 외부 사용자가 해당 그룹에 메시지를 보내려고 하면 거부 됩니다.
 
-다음과 같이 Remove-unifiedgroup cmdlet을 실행 하 여이 설정을 업데이트할 수 있습니다.
+다음과 같이 Set-UnifiedGroup cmdlet을 실행 하 여이 설정을 업데이트할 수 있습니다.
 
 ```powershell
 Set-UnifiedGroup -Identity "Internal senders only" -RequireSenderAuthenticationEnabled $true
@@ -136,7 +136,7 @@ Set-UnifiedGroup -Identity "Internal senders only" -RequireSenderAuthenticationE
 
 보낸 사람이 Microsoft 365 그룹에 전자 메일을 보내려고 할 때마다 메일 설명이 표시 될 수 있습니다.
 
-통합 그룹 cmdlet을 실행 하 여 그룹에 메일 설명를 추가 합니다.
+그룹에 메일 설명를 추가 하려면 Set-Unified Group cmdlet을 실행 합니다.
 
 ```powershell
 Set-UnifiedGroup -Identity "MailTip Group" -MailTip "This group has a MailTip"
@@ -150,7 +150,7 @@ Set-UnifiedGroup -Identity "MailaTip Group" -MailTip "This group has a MailTip" 
 
 ## <a name="change-the-display-name-of-the-microsoft-365-group"></a>Microsoft 365 그룹의 표시 이름 변경
 
-표시 이름은 Microsoft 365 그룹의 이름을 지정 합니다. Exchange 관리 센터 또는 Microsoft 365 관리 센터에서이 이름을 볼 수 있습니다. Remove-unifiedgroup 명령을 실행 하 여 그룹의 표시 이름을 편집 하거나 기존 Microsoft 365 그룹에 표시 이름을 할당할 수 있습니다.
+표시 이름은 Microsoft 365 그룹의 이름을 지정 합니다. Exchange 관리 센터 또는 Microsoft 365 관리 센터에서이 이름을 볼 수 있습니다. Set-UnifiedGroup 명령을 실행 하 여 그룹의 표시 이름을 편집 하거나 기존 Microsoft 365 그룹에 표시 이름을 할당할 수 있습니다.
 
 ```powershell
 Set-UnifiedGroup -Identity "mygroup@contoso.com" -DisplayName "My new group"
@@ -181,10 +181,10 @@ Microsoft 365 그룹에서는 다음과 같은 cmdlet을 사용할 수 있습니
 |:-----|:-----|
 |[Remove-unifiedgroup](https://go.microsoft.com/fwlink/p/?LinkId=616182) <br/> |이 cmdlet을 사용 하 여 기존 Microsoft 365 그룹을 조회 하 고 group 개체의 속성을 볼 수 있습니다.  <br/> |
 |[Remove-unifiedgroup](https://go.microsoft.com/fwlink/p/?LinkId=616189) <br/> |특정 Microsoft 365 그룹의 속성 업데이트  <br/> |
-|[Remove-unifiedgroup](https://go.microsoft.com/fwlink/p/?LinkId=616183) <br/> |새 Microsoft 365 그룹을 만듭니다. 이 cmdlet은 최소한의 매개 변수 집합을 제공 합니다. 확장 속성의 값을 설정 하려면 새 그룹을 만든 후 Remove-unifiedgroup를 사용 합니다.  <br/> |
+|[Remove-unifiedgroup](https://go.microsoft.com/fwlink/p/?LinkId=616183) <br/> |새 Microsoft 365 그룹을 만듭니다. 이 cmdlet은 최소한의 매개 변수 집합을 제공 합니다. 확장 속성의 값을 설정 하려면 새 그룹을 만든 후에 Set-UnifiedGroup를 사용 합니다.  <br/> |
 |[Remove-unifiedgroup을 제거 합니다.](https://go.microsoft.com/fwlink/p/?LinkId=616186) <br/> |기존 Microsoft 365 그룹 삭제  <br/> |
 |[Add-unifiedgrouplinks](https://go.microsoft.com/fwlink/p/?LinkId=616194) <br/> |Microsoft 365 그룹에 대 한 멤버 자격 및 소유자 정보 검색  <br/> |
-|[Add-unifiedgrouplinks 추가](https://go.microsoft.com/fwlink/p/?LinkId=616191) <br/> |기존 Microsoft 365 그룹에 수백 또는 수천 명의 사용자 또는 새 소유자 추가  <br/> |
+|[Add-unifiedgrouplinks 추가](https://go.microsoft.com/fwlink/p/?LinkId=616191) <br/> |기존 Microsoft 365 그룹에 구성원, 소유자 및 구독자 추가 <br/> |
 |[Add-unifiedgrouplinks을 제거 합니다.](https://go.microsoft.com/fwlink/p/?LinkId=616195) <br/> |기존 Microsoft 365 그룹에서 소유자 및 구성원을 제거 합니다.  <br/> |
 |[UserPhoto](https://go.microsoft.com/fwlink/p/?LinkId=536510) <br/> |계정에 연결 된 사용자 사진에 대 한 정보를 확인 하는 데 사용 됩니다. Active Directory에 사용자 사진 저장  <br/> |
 |[UserPhoto](https://go.microsoft.com/fwlink/p/?LinkId=536511) <br/> |사용자 사진을 계정에 연결 하는 데 사용 됩니다. Active Directory에 사용자 사진 저장  <br/> |
