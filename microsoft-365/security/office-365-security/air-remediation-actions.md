@@ -20,12 +20,12 @@ description: Office 365 용 Microsoft Defender의 자동화 된 조사에 따라
 ms.date: 09/29/2020
 ms.custom:
 - air
-ms.openlocfilehash: ffd0429d3dc85371e7b6bb1c2d1246d9820d0e2e
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: c178655d60b45e45680a86c3973317e63c354f17
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446710"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844539"
 ---
 # <a name="remediation-actions-following-automated-investigation-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 자동화 된 조사 후의 수정 작업
 
@@ -53,7 +53,7 @@ ms.locfileid: "48446710"
 |범주|위협/위험|재구성 작업|
 |---|---|---|
 |이메일|맬웨어|전자 메일/클러스터 일시 삭제 <br/><br/>클러스터에 맬웨어를 포함 하는 소수의 전자 메일 메시지가 여러 개 있는 경우 클러스터가 악성으로 간주 됩니다.|
-|이메일|악성 URL<br/>( [Office 365 ATP의 안전한 링크](atp-safe-links.md)에서 악의적인 URL이 검색 되었습니다.|전자 메일/클러스터 일시 삭제 <br/><br/>악성 URL이 포함 된 전자 메일은 악성으로 간주 됩니다.|
+|이메일|악성 URL<br/>( [Microsoft Defender For Office 365의 안전한 링크](atp-safe-links.md)에서 악성 URL이 검색 되었습니다.|전자 메일/클러스터 일시 삭제 <br/><br/>악성 URL이 포함 된 전자 메일은 악성으로 간주 됩니다.|
 |이메일|피싱|전자 메일/클러스터 일시 삭제 <br/><br/>클러스터의 전자 메일 메시지 중 몇 개 이상이 피싱 시도를 포함 하는 경우 클러스터는 피싱 것으로 간주 됩니다.|
 |이메일|Zapped 피싱 <br/>(전자 메일 메시지를 배달 하 고 [zapped](https://docs.microsoft.com/microsoft-365/security/office-365-security/zero-hour-auto-purge).)|전자 메일/클러스터 일시 삭제 <br/><br/>보고서를 사용 하 여 zapped 메시지를 볼 수 있습니다. [ZAP이 메시지 및 faq를 이동 하는지 확인](https://docs.microsoft.com/microsoft-365/security/office-365-security/zero-hour-auto-purge#how-to-see-if-zap-moved-your-message)합니다.|
 |이메일|사용자가 [보고](https://docs.microsoft.com/microsoft-365/security/office-365-security/enable-the-report-message-add-in) 하는 누락 된 피싱 전자 메일|[사용자의 보고서에 의해 트리거되는 자동화 된 조사](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-user-reported-phish-message-launches-an-investigation-playbook)|

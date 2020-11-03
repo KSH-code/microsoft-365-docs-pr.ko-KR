@@ -18,23 +18,23 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 - seo-marvel-apr2020
-description: 관리자는 Office 365의 ATP (Advanced Threat Protection)에서 안전한 첨부 파일 기능에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: b8a74ac9cea56612d4669f3e68b1b2c83f23c7a4
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+description: 관리자는 Office 용 Microsoft Defender 365의 안전 첨부 파일 기능에 대해 알아볼 수 있습니다.
+ms.openlocfilehash: 031760c58ae18ca7dec1ecd1c1c7f870633e87fd
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446698"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844287"
 ---
-# <a name="safe-attachments-in-office-365-atp"></a>Office 365 ATP의 안전한 첨부 파일
+# <a name="safe-attachments-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 안전한 첨부 파일
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-안전한 첨부 파일 [Office 365의 ATP (Advanced Threat protection)](office-365-atp.md) 는 [EOP (Exchange Online protection)에서 맬웨어 방지 보호](anti-malware-protection.md)를 통해 이미 검사 한 전자 메일 첨부 파일에 대 한 추가 보호 계층을 제공 합니다. 특히 안전한 첨부 파일은 가상 환경을 사용 하 여 받는 사람에 게 배달 되기 전에 전자 메일 메시지에서 첨부 파일을 확인 합니다 ( _샌드 박싱_이라는 프로세스).
+[Microsoft Defender For Office 365](office-365-atp.md) 의 안전한 첨부 파일은 [EOP (Exchange Online protection)의 맬웨어 방지 보호](anti-malware-protection.md)기능에 의해 이미 검색 된 전자 메일 첨부 파일에 대 한 추가 보호 계층을 제공 합니다. 특히 안전한 첨부 파일은 가상 환경을 사용 하 여 받는 사람에 게 배달 되기 전에 전자 메일 메시지에서 첨부 파일을 확인 합니다 ( _샌드 박싱_ 이라는 프로세스).
 
-전자 메일 메시지에 대 한 안전한 첨부 파일 보호는 안전한 첨부 파일 정책에 의해 제어 됩니다. 안전한 첨부 파일 정책을 보호 하지 않는 경우에는 안전 첨부 파일 **을 보호할 수**있습니다. 자세한 내용은 [ATP에서 안전한 첨부 파일 정책 설정을](set-up-atp-safe-attachments-policies.md)참조 하십시오.
+전자 메일 메시지에 대 한 안전한 첨부 파일 보호는 안전한 첨부 파일 정책에 의해 제어 됩니다. 안전한 첨부 파일 정책을 보호 하지 않는 경우에는 안전 첨부 파일 **을 보호할 수** 있습니다. 자세한 내용은 [Defender For Safe Attachments 정책만 For Office 365](set-up-atp-safe-attachments-policies.md)을 참조 하십시오.
 
-다음 표에서는 ATP를 포함 하는 Microsoft 365 및 Office 365 조 직의 안전한 첨부 파일에 대 한 시나리오를 설명 합니다 (즉, 라이선스 부족은 해당 예제에서는 문제가 되지 않음).
+다음 표에서는 Microsoft 365 및 office 365 조 직에서 Microsoft Defender for Office 365를 포함 하는 안전한 첨부 파일에 대 한 시나리오를 설명 합니다 (즉, 라이선스 부족은 예제에서 문제가 되지 않음).
 
 ****
 
@@ -59,7 +59,7 @@ ms.locfileid: "48446698"
 
 이 섹션에서는 안전한 첨부 파일 정책의 설정에 대해 설명 합니다.
 
-- **안전한 첨부 파일 알 수 없는 맬웨어 응답**:이 설정은 전자 메일 메시지에서 안전한 첨부 파일 맬웨어 검색 작업을 제어 합니다. 사용 가능한 옵션은 다음 표에 설명 되어 있습니다.
+- **안전한 첨부 파일 알 수 없는 맬웨어 응답** :이 설정은 전자 메일 메시지에서 안전한 첨부 파일 맬웨어 검색 작업을 제어 합니다. 사용 가능한 옵션은 다음 표에 설명 되어 있습니다.
 
   ****
 
@@ -72,21 +72,21 @@ ms.locfileid: "48446698"
   |**동적 배달**|메시지를 즉시 배달 하지만 안전한 첨부 파일 검색이 완료 될 때까지 첨부 파일을 자리 표시자로 대체 합니다. <br/><br/> 자세한 내용은이 항목 뒷부분에 있는 [안전한 첨부 파일 정책에서 동적 배달](#dynamic-delivery-in-safe-attachments-policies) 섹션을 참조 하십시오.|악성 파일에서 받는 사람을 보호 하는 동안 메시지 지연 방지 <br/> <br/> 검색을 수행 하는 동안 받는 사람이 안전 모드에서 첨부 파일을 미리 볼 수 있도록 허용|
   |
 
-- **검색 시 첨부 파일 리디렉션: 설정 리디렉션** 후 **첨부 파일을 다음 전자 메일 주소로 보내기**: **차단**, **모니터**또는 **바꾸기** 작업의 경우에는 맬웨어 첨부 파일이 포함 된 메시지를 분석 및 조사를 위해 지정 된 내부 또는 외부 전자 메일 주소로 보냅니다.
+- **검색 시 첨부 파일 리디렉션: 설정 리디렉션** 후 **첨부 파일을 다음 전자 메일 주소로 보내기** : **차단** , **모니터** 또는 **바꾸기** 작업의 경우에는 맬웨어 첨부 파일이 포함 된 메시지를 분석 및 조사를 위해 지정 된 내부 또는 외부 전자 메일 주소로 보냅니다.
 
   표준 및 엄격한 정책 설정에 대 한 권장 사항은 리디렉션을 사용 하도록 설정 하는 것입니다. 자세한 내용은 [안전한 첨부 파일 설정을](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-settings)참조 하십시오.
 
-- **첨부 파일에 대 한 맬웨어 검사 시간이 초과 되거나 오류가 발생 하면 위의 선택 사항을 적용**합니다. **안전한** 첨부 파일에서 지정한 작업은 안전한 첨부 파일 검색을 완료할 수 없는 경우에도 메시지에 대해 수행 됩니다. **리디렉션 사용**을 선택 하는 경우 항상이 옵션을 선택 합니다. 그렇지 않으면 메시지가 손실 될 수 있습니다.
+- **첨부 파일에 대 한 맬웨어 검사 시간이 초과 되거나 오류가 발생 하면 위의 선택 사항을 적용** 합니다. **안전한** 첨부 파일에서 지정한 작업은 안전한 첨부 파일 검색을 완료할 수 없는 경우에도 메시지에 대해 수행 됩니다. **리디렉션 사용** 을 선택 하는 경우 항상이 옵션을 선택 합니다. 그렇지 않으면 메시지가 손실 될 수 있습니다.
 
-- **받는 사람 필터**: 정책을 적용할 사람을 결정 하는 예외 및 받는 사람 조건을 지정 해야 합니다. 다음 속성을 사용 하 여 조건 및 예외를 확인할 수 있습니다.
+- **받는 사람 필터** : 정책을 적용할 사람을 결정 하는 예외 및 받는 사람 조건을 지정 해야 합니다. 다음 속성을 사용 하 여 조건 및 예외를 확인할 수 있습니다.
 
   - **받는 사람이 다음과 같음**
   - **받는 사람 도메인**
   - **받는 사람이 다음의 구성원임**
 
-  조건 또는 예외는 한 번만 사용할 수 있지만 조건 또는 예외에 여러 값이 포함 될 수 있습니다. 동일한 조건의 여러 값이나 예외는 OR 논리를 사용합니다(예: _\<recipient1\>_ 혹은 _\<recipient2\>_). 다양한 조건이나 예외는 AND 논리를 사용합니다(예: _\<recipient1\>_ 및 _\<member of group 1\>_).
+  조건 또는 예외는 한 번만 사용할 수 있지만 조건 또는 예외에 여러 값이 포함 될 수 있습니다. 동일한 조건의 여러 값이나 예외는 OR 논리를 사용합니다(예: _\<recipient1\>_ 혹은 _\<recipient2\>_ ). 다양한 조건이나 예외는 AND 논리를 사용합니다(예: _\<recipient1\>_ 및 _\<member of group 1\>_ ).
 
-- **우선 순위**: 여러 정책을 만드는 경우 적용 되는 순서를 지정할 수 있습니다. 두 정책의 우선순위는 동일 할 수 없으며, 첫 번째 정책이 적용된 후에는 정책 처리가 중지됩니다.
+- **우선 순위** : 여러 정책을 만드는 경우 적용 되는 순서를 지정할 수 있습니다. 두 정책의 우선순위는 동일 할 수 없으며, 첫 번째 정책이 적용된 후에는 정책 처리가 중지됩니다.
 
   우선순위 및 여러 정책을 평가하고 적용하는 방법에 대 한 자세한 내용은 전자 메일의 [전자 메일의 우선순위 및 보호](how-policies-and-protections-are-combined.md)를 참조하세요.
 
@@ -125,7 +125,7 @@ ms.locfileid: "48446698"
 
 - [S/MIME)](s-mime-for-message-signing-and-encryption.md) 암호화 된 메시지
 
-- 안전한 첨부 파일 정책에서 동적 배달 작업을 구성 했지만 수신자가 동적 전달을 지원 하지 않는 경우 (예: 받는 사람이 온-프레미스 Exchange 조직의 사서함 인 경우) 그러나 [office 365 ATP의 안전한 링크](set-up-atp-safe-links-policies.md) 는 [안전한 링크에 대 한 전역 설정이](configure-global-settings-for-safe-links.md) 구성 된 방식에 따라 Url이 포함 된 office 파일 첨부 파일을 검색할 수 있습니다.
+- 안전한 첨부 파일 정책에서 동적 배달 작업을 구성 했지만 수신자가 동적 전달을 지원 하지 않는 경우 (예: 받는 사람이 온-프레미스 Exchange 조직의 사서함 인 경우) 그러나 [Microsoft Defender For office 365의 안전한 링크](set-up-atp-safe-links-policies.md) 는 url이 포함 된 office 파일 첨부 파일을 검색할 수 있습니다 ( [안전한 링크에 대 한 전역 설정이](configure-global-settings-for-safe-links.md) 구성 된 방식에 따라 다름).
 
 ## <a name="submitting-files-for-malware-analysis"></a>맬웨어 분석용 파일 제출
 

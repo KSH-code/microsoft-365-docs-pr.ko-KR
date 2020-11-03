@@ -1,6 +1,6 @@
 ---
 title: 문제 API 업데이트
-description: Microsoft Threat Protection API를 사용 하 여 인시던트를 업데이트 하는 방법에 대해 알아봅니다.
+description: Microsoft 365 Defender API를 사용 하 여 인시던트를 업데이트 하는 방법에 대해 알아봅니다.
 keywords: 업데이트, api, 인시던트
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 8ad47453c7163bfac99c17f42986b818cdca603f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 3f77980863b0c232166d736a6b557444df98c8ac
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203643"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844839"
 ---
 # <a name="update-incidents-api"></a>문제 API 업데이트
 
@@ -32,7 +32,7 @@ ms.locfileid: "48203643"
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 >[!IMPORTANT] 
 >일부 정보는 상업적으로 출시 되기 전에 크게 수정 될 수 있는 prereleased 제품과 관련 되어 있습니다. Microsoft makes no warranties, express or implied, with respect to the information provided here.
@@ -49,7 +49,7 @@ ms.locfileid: "48203643"
 
 
 ## <a name="permissions"></a>권한
-이 API를 호출 하려면 다음 사용 권한 중 하나가 필요 합니다. 사용 권한을 선택 하는 방법을 비롯 하 여 자세한 내용은 [Microsoft Threat Protection Api 액세스](api-access.md)를 참조 하십시오.
+이 API를 호출 하려면 다음 사용 권한 중 하나가 필요 합니다. 사용 권한을 선택 하는 방법을 비롯 하 여 자세한 내용은 [Microsoft 365 Defender Api 액세스](api-access.md)를 참조 하세요.
 
 사용 권한 유형 |   사용 권한  |   사용 권한 표시 이름
 :---|:---|:---
@@ -71,8 +71,8 @@ PATCH /api/incidents/{id}
 
 이름 | 유형 | 설명
 :---|:---|:---
-권한 부여 | 문자열 | 전달자 {토큰}. **필수**입니다.
-Content-Type | 문자열 | application/json **필수**입니다.
+권한 부여 | String | 전달자 {토큰}. **필수** 입니다.
+Content-Type | String | application/json **필수** 입니다.
 
 
 ## <a name="request-body"></a>요청 본문

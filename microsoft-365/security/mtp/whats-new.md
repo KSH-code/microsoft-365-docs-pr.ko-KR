@@ -1,6 +1,6 @@
 ---
-title: Microsoft Threat Protection의 새로운 기능
-description: Microsoft Threat Protection의 새로운 기능을 소개 합니다.
+title: Microsoft 365 Defender의 새로운 기능
+description: Microsoft 365 Defender의 새로운 기능을 소개 합니다.
 keywords: microsoft threat protection의 새로운 기능, ga, 일반적으로 사용 가능, 기능, 사용 가능, 신규
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,19 +17,19 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: conceptual
-ms.openlocfilehash: 1b3cc273b61fcdff3c01b30c9ef64619a0e7a368
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 5214f7c399ab511ec16231e4dda97a2c33b37668
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430400"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844707"
 ---
-# <a name="whats-new-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 새로운 기능
+# <a name="whats-new-in-microsoft-365-defender"></a>Microsoft 365 Defender의 새로운 기능
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-일반적으로 Microsoft Threat Protection의 최신 릴리스에서는 다음 기능을 사용할 수 있습니다.
+일반적으로 Microsoft 365 Defender의 최신 릴리스에서는 다음 기능을 사용할 수 있습니다.
 
 RSS 피드: 다음 URL을 복사 하 여 피드 판독기에 붙여 넣어이 페이지를 업데이트 하면 알림을 받습니다.
 ```http

@@ -1,6 +1,6 @@
 ---
-title: Microsoft Threat Protection Api 사용권 및 사용 약관
-description: Microsoft Threat Protection의 Api 사용 약관 및 사용권 조항에 대 한 설명
+title: Microsoft 365 Defender Api 사용권 및 사용 약관
+description: Microsoft 365 Defender의 Api에 대 한 라이선스 및 사용 약관에 대 한 설명
 keywords: api, api, 라이선스, 용어, api, 법률, 통지, 수행 코드
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,19 +19,19 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d76992108fb3cda82bd9ad9886a2886f70695788
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: e88b59ea28f9e71c677c25d95edc2f91cc2e56d4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203680"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844899"
 ---
-#  <a name="microsoft-threat-protection-apis-license-and-terms-of-use"></a>Microsoft Threat Protection Api 사용권 및 사용 약관
+#  <a name="microsoft-365-defender-apis-license-and-terms-of-use"></a>Microsoft 365 Defender Api 사용권 및 사용 약관
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 >[!IMPORTANT] 
 >일부 정보는 상업적으로 출시 되기 전에 크게 수정 될 수 있는 prereleased 제품과 관련 되어 있습니다. Microsoft makes no warranties, express or implied, with respect to the information provided here.
@@ -39,7 +39,7 @@ ms.locfileid: "48203680"
 
 ## <a name="apis"></a>API
 
- Microsoft 위협 보호 Api는 [MICROSOFT API 사용권 및 사용 약관](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use)에 따라 결정 됩니다.
+ Microsoft 365 Defender Api는 [MICROSOFT API 사용권 및 사용 약관](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use)에 따라 제어 됩니다.
 
 ### <a name="throttling-limits"></a>제한
 

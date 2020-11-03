@@ -1,6 +1,6 @@
 ---
-title: Microsoft Threat Protection API의 문제 리소스 종류
-description: Microsoft Threat Protection에서 문제 리소스 유형의 방법 및 속성에 대해 자세히 알아보기
+title: Microsoft 365 Defender API의 문제 리소스 종류
+description: Microsoft 365 Defender에서 문제 리소스 종류의 방법 및 속성에 대해 자세히 알아보기
 keywords: 인시던트, 사건, api
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: ac149ca7263b8ef8bb37a7dd18bf0787a3114b37
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 68bee647cdd5687dbaad08ce3cd01b427dabf030
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201306"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844023"
 ---
 # <a name="incident-resource-type"></a>문제 리소스 종류
 
@@ -32,7 +32,7 @@ ms.locfileid: "48201306"
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 >[!IMPORTANT] 
 >일부 정보는 상업적으로 출시 되기 전에 크게 수정 될 수 있는 prereleased 제품과 관련 되어 있습니다. Microsoft makes no warranties, express or implied, with respect to the information provided here.

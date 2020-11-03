@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: ee93840cb6855d776d8fd3007bc6ec7c7f44fa29
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 28f438c80f2da5740f7fcd0a2927fede1af6eb50
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308066"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844071"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 네트워크 구성
 
@@ -60,7 +60,7 @@ Microsoft 서비스 | 설명서
 Microsoft 365 | [Microsoft 365 URL 및 IP 주소 범위](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)
 Azure Active Directory Domain Services | [하이브리드 id 필수 포트 및 프로토콜](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) , [Active Directory 및 Active Directory 도메인 서비스 포트 요구 사항](https://aka.ms/AA26ygm) 
 Microsoft Intune | [Intune 네트워크 구성 요구 사항](https://docs.microsoft.com/intune/network-bandwidth-use)<br>[Microsoft Intune의 네트워크 끝점](https://docs.microsoft.com/mem/intune/fundamentals/intune-endpoints)
-Microsoft Defender Advanced Threat Protection (ATP) | [Microsoft Defender ATP 끝점](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)
+엔드포인트용 Microsoft Defender | [끝점 요구 사항에 대 한 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)
 Windows Autopilot | [Windows Autopilot 네트워킹 요구 사항](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot-requirements#networking-requirements)
 
 <!---

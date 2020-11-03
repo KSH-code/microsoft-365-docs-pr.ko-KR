@@ -21,19 +21,19 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-description: SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀의 파일에 대 한 Office 365 Advanced Threat Protection에 대해 알아봅니다.
-ms.openlocfilehash: e536809c74abbe87e1250acda3f3922180cfae97
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+description: SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀의 파일용 Office 365 용 Microsoft Defender에 대해 알아봅니다.
+ms.openlocfilehash: 7b007671a7fecb3ae074fd07ce38d17fb025f6b4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446266"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844335"
 ---
 # <a name="atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-Office 365에서 SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP [atp (Advanced Threat Protection)](office-365-atp.md) 는 [microsoft 365의 일반적인 바이러스 검색 엔진](virus-detection-in-spo.md)을 통해 업로드 시간에 이미 검색 된 파일에 대 한 추가 보호 계층을 제공 합니다. SharePoint, OneDrive 및 Microsoft 팀의 ATP는 팀 사이트 및 문서 라이브러리에서 악의적으로 식별 되는 기존 파일을 검색 하 고 차단 하는 데 도움이 됩니다.
+SharePoint, OneDrive 및 Microsoft 팀의 microsoft [Defender For Office 365](office-365-atp.md) 의 ATP는 [microsoft 365의 일반적인 바이러스 검색 엔진](virus-detection-in-spo.md)을 통해 업로드 시간에 이미 검색 된 파일에 대 한 추가 보호 계층을 제공 합니다. SharePoint, OneDrive 및 Microsoft 팀의 ATP는 팀 사이트 및 문서 라이브러리에서 악의적으로 식별 되는 기존 파일을 검색 하 고 차단 하는 데 도움이 됩니다.
 
 SharePoint, OneDrive 및 Microsoft 팀의 ATP는 기본적으로 사용 하도록 설정 되어 있지 않습니다. 이 기능을 설정 하려면 [SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP 끄기를](turn-on-atp-for-spo-odb-and-teams.md)참조 하세요.
 
@@ -59,14 +59,14 @@ SharePoint Online 관리자는 사용자가 악성 파일을 다운로드 하지
 
 ## <a name="view-information-about-malicious-files-detected-by-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft 팀에서 ATP가 검색 한 악성 파일에 대 한 정보 보기
 
-ATP에서 악의적으로 식별 된 파일은 [Office 365 Advanced Threat Protection](view-reports-for-atp.md) 과 [Explorer (및 실시간 검색)](threat-explorer.md)에 대 한 보고서에 표시 됩니다.
+Microsoft Defender for Office 365에서 악의적으로 식별 된 파일은 [Microsoft defender For office 365](view-reports-for-atp.md) 및 [Explorer (및 실시간 검색)](threat-explorer.md)에 표시 됩니다.
 
-파일을 ATP에서 악의적으로 식별 한 경우에는이 파일을 격리 에서도 사용할 수 2018. 자세한 내용은 [Security & 준수 센터를 사용 하 여 격리 된 파일 관리](manage-quarantined-messages-and-files.md#atp-only-use-the-security--compliance-center-to-manage-quarantined-files)를 참조 하세요.
+Microsoft Defender for Office 365에서 파일이 악성으로 식별 되는 경우에는 5 월 2018까지 파일을 격리로도 사용할 수 있습니다. 자세한 내용은 [Security & 준수 센터를 사용 하 여 격리 된 파일 관리](manage-quarantined-messages-and-files.md#microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files)를 참조 하세요.
 
 ## <a name="keep-these-points-in-mind"></a>다음의 사항을 염두에 둡니다.
 
-- ATP는 SharePoint Online, 비즈니스용 OneDrive 또는 Microsoft 팀에서 모든 단일 파일을 검색 하지 않습니다. 이것은 정상적인 현상입니다. 파일은 비동기적으로 검색 됩니다. 이 프로세스에서는 공유 및 게스트 활동 이벤트와 스마트 추론 및 위협 신호를 함께 사용 하 여 악성 파일을 식별 합니다.
+- Defender for Office 365에서는 SharePoint Online, 비즈니스용 OneDrive 또는 Microsoft 팀의 모든 단일 파일을 검사 하지 않습니다. 이것은 정상적인 현상입니다. 파일은 비동기적으로 검색 됩니다. 이 프로세스에서는 공유 및 게스트 활동 이벤트와 스마트 추론 및 위협 신호를 함께 사용 하 여 악성 파일을 식별 합니다.
 
-- SharePoint 사이트가 [최신 환경을](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience)사용 하도록 구성 되었는지 확인 합니다. ATP 보호는 최신 환경이 나 클래식 보기가 사용 되는지 여부에 관계 없이 적용 됩니다. 그러나 파일이 차단 된 시각적 표시기는 최신 환경 에서만 사용할 수 있습니다.
+- SharePoint 사이트가 [최신 환경을](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience)사용 하도록 구성 되었는지 확인 합니다. Defender for Office 365 protection은 최신 환경이 나 클래식 보기가 사용 되는지 여부에 관계 없이 적용 됩니다. 그러나 파일이 차단 된 시각적 표시기는 최신 환경 에서만 사용할 수 있습니다.
 
-- SharePoint, OneDrive 및 Microsoft 팀은 Exchange Online Protection (EOP)의 스팸 방지 및 맬웨어 방지 보호 기능을 비롯 하 여 Office 365 ATP의 안전한 링크 및 안전한 첨부 파일을 포함 하는 조직의 전반적인 위협 보호 전략에 속합니다. 자세한 내용은 [Office 365에서 위협 으로부터 보호](protect-against-threats.md)를 참조 하세요.
+- SharePoint, OneDrive 및 Microsoft 팀의 ATP는 EOP (Exchange Online Protection)의 스팸 방지 및 맬웨어 방지 보호 기능을 포함 하는 조직의 전반적인 위협 보호 전략의 일부분으로, Microsoft Defender for Office 365의 안전한 링크 및 안전한 첨부 파일을 비롯 합니다. 자세한 내용은 [Office 365에서 위협 으로부터 보호](protect-against-threats.md)를 참조 하세요.

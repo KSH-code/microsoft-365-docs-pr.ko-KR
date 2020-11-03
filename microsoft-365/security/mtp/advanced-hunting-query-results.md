@@ -1,6 +1,6 @@
 ---
-title: Microsoft Threat Protection의 고급 구하기 쿼리 결과 작업
-description: Microsoft Threat Protection에서 상세하게 검색에 의해 반환 되는 쿼리 결과의 대부분 만들기
+title: Microsoft 365 Defender에서 고급 구하기 쿼리 결과 작업
+description: Microsoft 365 Defender의 고급 검색에서 반환 되는 쿼리 결과의 대부분 만들기
 keywords: 고급 구하기, 위협 검색, 사이버 위협 사냥, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 사용자 지정 감지, 스키마, kusto, microsoft 365, 마이크로소프트 Threat Protection, 시각화, 차트, 필터, 드릴 다운
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: e19859189b57bbc9a6a4bbfb87fb224b2735331b
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: de26989b9092b783a45d27ad2a529720d21169f8
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48431078"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844131"
 ---
 # <a name="work-with-advanced-hunting-query-results"></a>고급 구하기 쿼리 결과 작업
 
@@ -32,7 +32,7 @@ ms.locfileid: "48431078"
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
@@ -146,7 +146,7 @@ AppFileEvents
 ## <a name="filter-the-query-results"></a>쿼리 결과 필터링
 오른쪽에 표시되는 필터는 결과 집합에 대한 요약을 제공합니다. 각 열에는 해당 열에 대해 발견된 고유 값과 인스턴스 수를 나열하는 자체적인 섹션이 있습니다.
 
-`+` `-` 포함 하거나 제외할 값의 또는 단추를 선택 하 고 **쿼리 실행**을 선택 하 여 쿼리를 구체화 합니다.
+`+` `-` 포함 하거나 제외할 값의 또는 단추를 선택 하 고 **쿼리 실행** 을 선택 하 여 쿼리를 구체화 합니다.
 
 ![고급 헌팅 필터 이미지](../../media/advanced-hunting-filter.png)
 

@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: 사용자가 업로드 하 고 사용자가 파일을 다운로드 하거나 동기화 하지 못하게 하는 파일에서 SharePoint Online이 바이러스를 감지 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 38d6111fe665e0af79cbd93f534b1058881ff76c
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: f774c9afd0988c504d6207b0e71ee9561312e6b4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327990"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844239"
 ---
 # <a name="built-in-virus-protection-in-sharepoint-online-onedrive-and-microsoft-teams"></a>SharePoint Online, OneDrive 및 Microsoft 팀의 기본 제공 바이러스 방지
 
@@ -65,9 +65,9 @@ Microsoft 365 바이러스 검색 엔진은 SharePoint Online 내에서 비동�
 
 OneDrive 동기화 클라이언트는 바이러스를 포함 하는 파일을 다운로드 하지 않습니다. 동기화 클라이언트에서는 파일을 동기화 할 수 없다는 알림을 표시 합니다.
 
-## <a name="extended-capabilities-with-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection을 사용한 확장 기능
+## <a name="extended-capabilities-with-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 확장 기능
 
-Microsoft 365 조직에서 구독에 포함 되거나 추가 기능으로 구매한 [Office 365 Advanced Threat Protection (atp)](office-365-atp.md) 을 사용 하는 경우 SharePoint, OneDrive 및 Microsoft 팀에서 atp가 향상 된 보고 및 보호 기능을 사용할 수 있습니다. 자세한 내용은 [SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP](atp-for-spo-odb-and-teams.md)를 참조 하세요.
+Microsoft 365 SharePoint, OneDrive 및 Microsoft 팀이 구독에 포함 되거나 추가 기능으로 구매한 microsoft [Defender For Office 365](office-365-atp.md) 을 사용 하는 조직에서는 보고 및 보호 기능을 향상 시킬 수 있습니다. 자세한 내용은 [SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP](atp-for-spo-odb-and-teams.md)를 참조 하세요.
 
 ## <a name="more-information"></a>추가 정보
 

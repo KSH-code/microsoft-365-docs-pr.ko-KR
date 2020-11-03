@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
 description: 설치 가이드를 사용 하 여 Microsoft 365 또는 Office 365의 계획 및 구성을 가속화 합니다.
-ms.openlocfilehash: 215f51af1fc553ef0710565af0a7c25111de8328
-ms.sourcegitcommit: 705915f8bf9b7c082d12a009523d8aa0670a74a1
+ms.openlocfilehash: 7024494de231e5adcce4bb91414b5f7bb3349f88
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48493700"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844095"
 ---
 # <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Microsoft 365 및 Office 365 서비스용 설정 가이드
 
@@ -42,7 +42,7 @@ Microsoft 365 및 Office 365 설치 가이드에는 테 넌 트, 앱 및 서비�
 
    ![Microsoft 365 관리 센터의 가이드 카드 & 교육](../media/setup-guides-for-microsoft-365/adminportal-trainingandguides.png)
 
-3. **사용자 지정 설치 지침**을 선택 합니다.
+3. **사용자 지정 설치 지침** 을 선택 합니다.
 
    ![Microsoft 365 관리 센터의 설치 지침 페이지 스크린샷](../media/setup-guides-for-microsoft-365/adminportal-setupguidance.png)
 
@@ -135,12 +135,12 @@ Windows 가상 데스크톱은 클라우드에서 실행 되는 종합적인 데
 
 ## <a name="guides-for-security-and-compliance"></a>보안 및 규정 준수 가이드
 
-### <a name="microsoft-defender-advanced-threat-protection-atp-advisor"></a>Microsoft Defender ATP (Advanced Threat Protection) advisor
+### <a name="microsoft-defender-for-endpoint-advisor"></a>끝점 관리자 용 Microsoft Defender
 
-[Microsoft Defender Advanced Threat Protection advisor](https://aka.ms/mdatpsetup) 는 엔터프라이즈 네트워크가 고급 위협에 대해 예방, 감지, 조사 및 대응 하는 데 도움이 되는 지침을 제공 합니다. 조직의 취약성에 대 한 정보를 확인 하 고 가장 적합 한 배포 패키지 및 구성 방법을 결정 합니다. 
+[Microsoft Defender For Endpoint advisor](https://aka.ms/mdatpsetup) 는 엔터프라이즈 네트워크에서 advanced threat를 차단, 감지, 조사 및 대응 하는 데 도움이 되는 지침을 제공 합니다. 조직의 취약성에 대 한 정보를 확인 하 고 가장 적합 한 배포 패키지 및 구성 방법을 결정 합니다. 
 
 >[!NOTE]
->Microsoft Volume License가 필요 합니다.
+>Microsoft 볼륨 라이선스는 Microsoft Defender for Endpoint에 필요 합니다.
 
 ### <a name="exchange-online-protection-setup-guide"></a>Exchange Online Protection 설정 가이드
 
@@ -148,9 +148,9 @@ Microsoft EOP (Exchange Online Protection)는 메시징 정책 위반 으로부�
 
 [Exchange Online Protection 설정 가이드](https://aka.ms/EOPguidance) 를 사용 하 여 세 가지 배포 시나리오 온 &mdash; -프레미스 사서함, 하이브리드 (온-프레미스 및 클라우드) 사서함 또는 조직에 적합 한 모든 클라우드 사서함을 선택 하 여 EOP를 설정 합니다 &mdash; . 이 가이드에서는 사용자의 라이선스를 설정 및 검토 하 고, Microsoft 365 관리 센터에서 사용 권한을 할당 하 고, 보안 & 준수 센터에서 조직의 맬웨어 방지 및 스팸 정책을 구성할 수 있는 정보와 리소스를 제공 합니다. 
 
-### <a name="office-365-advanced-threat-protection-advisor"></a>Office 365 Advanced Threat Protection advisor
+### <a name="microsoft-defender-for-office-365-advisor"></a>Microsoft Defender for Office 365 advisor
 
-[Office 365 Advanced Threat Protection advisor](https://aka.ms/oatpsetup) 는 환경에서 전자 메일 메시지, 링크 및 타사 공동 작업 도구를 통해 발생할 수 있는 악의적인 위협 으로부터 조직을 보호 합니다. 이 가이드에서는 조직의 요구에 맞게 advanced threat protection 계획을 준비 하 고 식별 하는 데 도움이 되는 리소스와 정보를 제공 합니다. 
+[Microsoft Defender For Office 365 advisor](https://aka.ms/oatpsetup) 는 환경에서 전자 메일 메시지, 링크 및 타사 공동 작업 도구를 통해 발생할 수 있는 악의적인 위협 으로부터 조직을 보호 합니다. 이 가이드에서는 조직의 요구 사항에 맞게 Office 용 Defender 365 계획을 준비 하 고 식별 하는 데 도움이 되는 리소스와 정보를 제공 합니다. 
 
 ### <a name="microsoft-information-protection-setup-guide"></a>Microsoft information protection 설정 가이드
 

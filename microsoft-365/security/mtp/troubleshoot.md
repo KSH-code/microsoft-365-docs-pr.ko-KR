@@ -1,6 +1,6 @@
 ---
-title: Microsoft Threat Protection 서비스 문제 트러블슈팅
-description: 기존 Microsoft Threat Protection 문제 해결 및 해결 방법
+title: Microsoft 365 Defender 서비스 문제 해결
+description: 알려진 Microsoft 365 Defender 문제에 대 한 해결 방법 및 해결 방법 찾기
 keywords: Microsoft Threat Protection, 문제 해결, Azure ATP, 문제, 추가 기능, 설정 페이지 문제 해결
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,35 +19,35 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: bcf5b79fcd2fdf0a5af5648e6f6b7ea65d69594c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 16cb1116f400c8d0a83ccc4cac23da06cd1be2a4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201294"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844671"
 ---
-# <a name="troubleshoot-microsoft-threat-protection-service-issues"></a>Microsoft Threat Protection 서비스 문제 트러블슈팅
+# <a name="troubleshoot-microsoft-365-defender-service-issues"></a>Microsoft 365 Defender 서비스 문제 해결
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **적용 대상:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
-이 섹션에서는 Microsoft Threat Protection 서비스를 사용 하는 경우 발생할 수 있는 문제를 해결 합니다.
+이 섹션에서는 Microsoft 365 Defender 서비스를 사용할 때 발생할 수 있는 문제에 대해 설명 합니다.
 
 
-## <a name="i-dont-see-microsoft-threat-protection-content"></a>Microsoft Threat Protection 콘텐츠가 표시 되지 않음
+## <a name="i-dont-see-microsoft-365-defender-content"></a>Microsoft 365 Defender 콘텐츠가 표시 되지 않음
 포털의 인시던트, 작업 센터 또는 검색 등의 기능이 탐색 창에 표시 되지 않는 경우에는 테 넌 트에 적절 한 라이선스가 있는지 확인 해야 합니다. 
 
 자세한 내용은 [전제 조건](prerequisites.md)을 참조하세요.
 
-## <a name="azure-atp-alerts-are-not-showing-up-in-the-microsoft-threat-protection-incidents"></a>Microsoft Threat Protection 사고에 Azure ATP 알림이 표시 되지 않음
-환경에서 Azure ATP가 배포 되었지만 Microsoft Threat Protection 사건에서 Azure ATP 알림이 표시되지 않는 경우 Microsoft Cloud App Security 및 Azure ATP 통합 사용 설정이 허용되었는지 확인 합니다.  
+## <a name="microsoft-defender-for-identity-alerts-are-not-showing-up-in-the-microsoft-365-defender-incidents"></a>Microsoft Defender for Identity alerts for Id 365 알림
+사용자 환경에 Microsoft Defender for Identity가 배포 되어 있지만 Microsoft 365 Defender 인시던트의의 일환으로 Id 알림을 위한 Defender가 표시 되지 않는 경우 Microsoft Cloud App Security 및 Defender for Identity 통합을 사용 하도록 설정 했는지 확인 해야 합니다. 
 
-자세한 내용은 [Azure ATP integration](https://docs.microsoft.com/cloud-app-security/aatp-integration)을 확인하세요. 
+자세한 내용은 [id 통합용 Microsoft Defender](https://docs.microsoft.com/cloud-app-security/aatp-integration)를 참조 하세요.
 
 ## <a name="where-is-the-settings-page-for-turning-the-service-on"></a>서비스를 켜는 설정 페이지는 어디에 있나요?
-Microsoft Threat Protection을 설정 하려면 Microsoft 365 보안 센터의 탐색 창에서 **설정** 에 액세스 합니다. 이 탐색 항목은 [필수 사용 권한 및 라이선스가](mtp-enable.md#check-license-eligibility-and-required-permissions)있는 경우에만 표시 됩니다.
+Microsoft 365 Defender를 켜려면 Microsoft 365 보안 센터의 탐색 창에서 **설정** 에 액세스 합니다. 이 탐색 항목은 [필수 사용 권한 및 라이선스가](mtp-enable.md#check-license-eligibility-and-required-permissions)있는 경우에만 표시 됩니다.
  
 

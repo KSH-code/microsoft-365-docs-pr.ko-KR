@@ -13,20 +13,20 @@ MS.collection: ''
 search.appverid: MET150
 description: 위협 수정
 appliesto:
-- Microsoft Threat Protection
-ms.openlocfilehash: a7c1f6f89f5414f5fc6ef8dd59d2894195e75f7f
-ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
+- Microsoft 365 Defender
+ms.openlocfilehash: af34b171cb213836d47edb2fb2905fb75341b02f
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48774062"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845603"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>Office 365에서 제공 되는 악성 전자 메일 재구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-업데이트 관리는 위협에 대해 규정 된 조치를 취하는 것을 의미 합니다. 조직으로 전송 되는 악성 전자 메일은 시스템에서 지울 수 있으며, 자동 제거 (ZAP)를 통해 또는 보안 팀에서 *받은 편지 함으로 이동* , *정크로 이동* , *삭제 된 항목* , *일시 삭제* 또는 *하드 삭제* 로 이동 하는 것과 같은 수정 작업을 통해 정리할 수도 있습니다. Office Advanced Threat Protection (Office ATP) P2/E5에서는 보안 팀이 수동 및 자동 조사를 통해 전자 메일 및 공동 작업 기능의 위협을 수정할 수 있도록 합니다.
+업데이트 관리는 위협에 대해 규정 된 조치를 취하는 것을 의미 합니다. 조직으로 전송 되는 악성 전자 메일은 시스템에서 지울 수 있으며, 자동 제거 (ZAP)를 통해 또는 보안 팀에서 *받은 편지 함으로 이동* , *정크로 이동* , *삭제 된 항목* , *일시 삭제* 또는 *하드 삭제* 로 이동 하는 것과 같은 수정 작업을 통해 정리할 수도 있습니다. Microsoft Defender for Office 365 P2/E5에서는 보안 팀이 수동 및 자동 조사를 통해 전자 메일 및 공동 작업 기능의 위협을 수정할 수 있도록 지원 합니다.
 
 > [!NOTE]
 > 보안 팀은 악성 전자 메일을 재구성 하기 위해 *검색 및 삭제* 역할이 할당 되어야 합니다. 역할 할당은 보안 및 준수 센터에서 사용 권한을 통해 수행 됩니다.
@@ -47,7 +47,7 @@ ms.locfileid: "48774062"
 > 미리 보기는 역할 *그룹이* 아니라 *역할* 입니다. 미리 보기 역할은 Office 365의 기존 역할 그룹에 추가 해야 합니다. *전역 관리자 역할* 은 [Microsoft 365 관리 센터](https://admin.microsoft.com)에서 할당 됩니다. 보안 관리자 및 보안 독자 역할은 [보안 및 준수 센터](https://protection.office.com)에 할당 됩니다. 역할 및 사용 권한에 대 한 자세한 내용은 [보안 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
 > [!NOTE]
-> 관리자는 전자 메일에 필요한 작업을 수행할 수 있지만, 승인 된 작업을 받으려면 **보안 및 준수 센터** 권한을 통해 해당 사용자에 게 *검색 및 제거* 역할이 할당 되어 있어야 합니다  >  **Permissions** .
+> 관리자는 전자 메일에 필요한 작업을 수행할 수 있지만, 승인 된 작업을 받으려면 **보안 및 준수 센터** 권한을 통해 해당 사용자에 게 *검색 및 제거* 역할이 할당 되어 있어야 합니다  >  **Permissions**.
 
 ## <a name="manual-and-automated-remediation"></a>수동 및 자동 수정
 

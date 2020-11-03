@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365이 사용자에 게 미치는 영향에 대해 알아봅니다.
-ms.openlocfilehash: fc10e3521b9e165d0a6efd6d1ed37b53a5abf74f
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: c9cbb64a5585aae4db8f878afcfc19c98711518b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527021"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845195"
 ---
 # <a name="how-microsoft-365-for-campaigns-affects-your-users"></a>캠페인에 대 한 Microsoft 365이 사용자에 게 미치는 영향
 
@@ -40,8 +40,8 @@ ms.locfileid: "46527021"
 ## <a name="use-secure-email-practices"></a>보안 전자 메일 방법 사용
 모든 사용자는 전자 메일 보안을 유지 하는 데 도움이 되는 다음과 같은 전자 메일 지침을 숙지 하 고 사용 해야 합니다.
 - 인증자 앱과 함께 다단계 인증을 사용 하도록 전자 메일을 설정 합니다.
-- 합법적인 전자 메일을 확인 하 고 ATP Advanced 피싱 보호에서 안전 팁을 찾습니다.
-- ATP 안전한 링크 및 ATP 안전한 첨부 파일에서 확인 된 것 처럼 안전한 링크 및 첨부 파일만 엽니다.
+- 합법적인 전자 메일을 확인 하 고 Defender for Office 365 Protection의 고급 피싱에서 안전 팁을 확인 하세요.
+- 안전 링크 및 안전한 첨부 파일에서 확인 한 안전한 링크 및 첨부 파일만 엽니다.
 
 자세한 내용은 [피싱 및 기타 공격](m365-campaigns-phishing-and-attacks.md)에 대해 자세히 알아보세요. 
 

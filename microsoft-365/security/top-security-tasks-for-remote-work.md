@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: 랜 섬 웨어, 피싱 및 악의적 첨부 파일을 포함 하 여 사이버 위협 으로부터 비즈니스 전자 메일 및 데이터를 보호 합니다.
-ms.openlocfilehash: c72090bebe92ea61d99772eccde041d011c05580
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: e91d2c6fc3df7cbcd7fedc198747838d470ab7d8
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398650"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845423"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>집에서 작업을 지원 하기 위한 보안 팀을 위한 상위 12 개 작업
 
@@ -41,10 +41,10 @@ ms.locfileid: "48398650"
 |단계|작업|모든 Office 365 Enterprise 요금제|Microsoft 365 E3|Microsoft 365 E5|
 |---|---|---|---|---|
 |1 |[Azure MFA (Multi-factor Authentication) 사용](#1-enable-azure-multi-factor-authentication-mfa)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|2 |[위협으로부터 보호](#2-protect-against-threats)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|3 |[Office 365 Advanced Threat Protection 구성](#3-configure-office-365-advanced-threat-protection)|||![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|4 |[Azure ATP (Advanced Threat Protection) 구성](#4-configure-azure-advanced-threat-protection)|||![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|5 |[Microsoft 위협 방지 설정](#5-turn-on-microsoft-threat-protection)|||![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|2|[위협으로부터 보호](#2-protect-against-threats)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|3(sp3)|[Office 365 용 Microsoft Defender 구성](#3-configure-microsoft-defender-for-office-365)|||![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|4 |[Id에 대 한 Microsoft Defender 구성](#4-configure-microsoft-defender-for-identity)|||![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|5 |[Microsoft 365 Defender 켜기](#5-turn-on-microsoft-365-defender)|||![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |6 |[전화 및 태블릿에서 Intune 모바일 앱 보호 구성](#6-configure-intune-mobile-app-protection-for-phones-and-tablets)||![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |7 |[Intune 앱 보호를 포함 하 여 게스트에 대 한 MFA 및 조건부 액세스 구성](#7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection)||![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |8 |[Pc를 장치 관리에 등록 하 고 준수 Pc 필요](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)||![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -86,17 +86,17 @@ ms.locfileid: "48398650"
 
 시작 점으로 사용할 수 있는 지침에 대해서는 [Office 365의 위협 으로부터 보호](office-365-security/protect-against-threats.md) 를 참조 하세요.
 
-## <a name="3-configure-office-365-advanced-threat-protection"></a>3: Office 365 Advanced Threat Protection 구성
+## <a name="3-configure-microsoft-defender-for-office-365"></a>3: Office 365 용 Microsoft Defender 구성
 
-Microsoft 365 E5 및 Office 365 E5에 포함 된 Office 365 Advanced Threat Protection (ATP)은 전자 메일 메시지, 링크 (Url) 및 공동 작업 도구로 인해 야기 되는 악의적인 위협 으로부터 조직을 보호 합니다. 이 작업을 구성 하는 데 몇 시간이 걸릴 수 있습니다.
+Microsoft 365 E5 및 Office 365 E5에 포함 된 microsoft Defender for Office 365에는 전자 메일 메시지, 링크 (Url) 및 공동 작업 도구로 인해 야기 되는 악의적인 위협 으로부터 조직이 보호 됩니다. 이 작업을 구성 하는 데 몇 시간이 걸릴 수 있습니다.
 
-Office 365 ATP:
+Office 용 Microsoft Defender 365:
 
 - 악성 콘텐츠를 위한 첨부 파일 및 링크를 검사 하는 지능형 시스템을 사용 하 여 알 수 없는 전자 메일 위협 으로부터 조직에서 실시간으로 보호 합니다. 이러한 자동화 된 시스템에는 강력한 샌드 박싱 플랫폼, 추론 및 기계 학습 모델이 포함 되어 있습니다.
 - 사용자가 팀 사이트 및 문서 라이브러리에서 악의적인 파일을 식별 하 고 차단 하 여 파일을 공동 작업 하 고 공유할 때 조직을 보호 합니다.
 - Avert 피싱 공격에 기계 학습 모델 및 고급 가장 검색 알고리즘을 적용 합니다.
 
-계획 요약을 포함 하 여 개요를 보려면 [Office 365 Advanced Threat Protection](office-365-security/office-365-atp.md)를 참조 하세요.
+계획 요약을 포함 하 여 개요를 보려면 [Office 365 용 Defender](office-365-security/office-365-atp.md)를 참조 하세요.
 
 전역 관리자는 이러한 보호를 구성할 수 있습니다.
 
@@ -104,25 +104,25 @@ Office 365 ATP:
 - [안전한 링크에 대 한 전역 설정 구성](office-365-security/configure-global-settings-for-safe-links.md)
 - [안전한 첨부 파일 정책 설정](office-365-security/set-up-atp-safe-attachments-policies.md)
 
-Exchange Online 관리자 및 SharePoint Online 관리자와 협력 하 여 이러한 작업에 대 한 ATP를 구성 해야 합니다.
+Exchange Online 관리자 및 SharePoint Online 관리자와 협력 하 여 이러한 작업에 대해 Office 365 용 Defender를 구성 해야 합니다.
 
 - [SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](office-365-security/atp-for-spo-odb-and-teams.md)
 
-## <a name="4-configure-azure-advanced-threat-protection"></a>4: Azure Advanced Threat Protection 구성
+## <a name="4-configure-microsoft-defender-for-identity"></a>4: Id를 위해 Microsoft Defender 구성
 
-[AZURE ATP (Advanced Threat Protection](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) )는 온-프레미스 Active Directory 신호를 활용 하 여 고급 위협, 손상 된 id 및 조직에서 보낸 악의적인 참가자 작업을 식별, 감지 및 조사 하기 위한 클라우드 기반 보안 솔루션입니다. 다음에는 온-프레미스 및 클라우드 인프라를 보호 하 고, 종속성 이나 필수 구성 요소가 없으며, 즉각적인 이점을 제공할 수 있으므로 중점적으로 설명 합니다.
+[Microsoft Defender For Identity](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) 는 온-프레미스 Active Directory 신호를 활용 하 여 고급 위협, 손상 된 id 및 조직에서 보낸 악의적인 참가자 작업을 식별, 감지 및 조사 하기 위한 클라우드 기반 보안 솔루션입니다. 다음에는 온-프레미스 및 클라우드 인프라를 보호 하 고, 종속성 이나 필수 구성 요소가 없으며, 즉각적인 이점을 제공할 수 있으므로 중점적으로 설명 합니다.
 
-- 설치를 빠르게 받으려면 [AZURE ATP 퀵 스타트](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) 를 참조 하세요.
-- [비디오 보기: AZURE ATP 소개](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)
-- [AZURE ATP 배포의 세 단계](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp#whats-next) 검토
+- 신속한 설치를 위해 [Microsoft Defender For Identity 퀵 스타트](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) 를 참조 하세요.
+- [비디오 보기: id 용 Microsoft Defender 소개](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)
+- [Microsoft Defender에서 id 배포를 위한 3 단계](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp#whats-next) 검토
 
-## <a name="5-turn-on-microsoft-threat-protection"></a>5: Microsoft Threat Protection 설정
+## <a name="5-turn-on-microsoft-365-defender"></a>5: Microsoft 365 Defender 켜기
 
-Office 365 ATP 및 Azure ATP가 구성 되었으므로 한 대시보드에서 이러한 기능 으로부터 결합 된 신호를 볼 수 있습니다. MTP ( [Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) )는 작업 (Azure Atp, OFFICE 365 ATP, MICROSOFT Defender ATP 및 Microsoft Cloud App Security)에서 경고, 문제, 자동화 된 조사 및 응답을 함께 제공 하며 [security.microsoft.com](https://security.microsoft.com)에서 단일 창으로 진행 됩니다.
+Microsoft Defender for Office 365 및 Microsoft Defender for Identity를 사용할 수 있으므로 한 대시보드에 이러한 기능을 통해 제공 되는 신호를 확인 하면 됩니다. [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) 는 작업 전반에 대 한 경고, 인시던트, 자동화 된 조사 및 대응 및 고급 검색과 함께, [security.microsoft.com](https://security.microsoft.com)의 단일 창에 대 한 microsoft Defender for Identity, Defender for Office 365, microsoft Cloud App Security)를 함께 제공 합니다.
 
 ![MTP 대시보드 그림](../media/top-ten-security-remote-work-mtp-dashboard.png)
 
-Advanced threat protection 서비스를 하나 이상 구성한 후에 MTP를 켜십시오. 새 기능은 MTP에 계속적으로 추가 됩니다. 미리 보기 기능을 받으려면 옵트인을 고려 하세요.
+Office 365 서비스에 대 한 Defender를 하나 이상 구성한 후에 MTP를 켜십시오. 새 기능은 MTP에 계속적으로 추가 됩니다. 미리 보기 기능을 받으려면 옵트인을 고려 하세요.
 
 - [MTP에 대해 자세히 알아보기](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)
 - [MTP 켜기](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable)
@@ -173,7 +173,7 @@ Microsoft 365 E5 요금제를 사용 하는 경우에는 위험 기반 MFA에 �
 
 장치를 등록 한 후 [일반 id 및 장치 액세스 정책](./office-365-security/identity-access-policies.md) 에 설명 된 지침을 사용 하 여 다음 정책을 만듭니다.
 
-- [장치 준수 정책 정의](./office-365-security/identity-access-policies.md#define-device-compliance-policies) -Windows 10에 권장 되는 설정에는 바이러스 백신 보호가 필요 합니다. Microsoft 365 E5가 있는 경우 Microsoft Defender Advanced Threat Protection을 사용 하 여 직원 장치의 상태를 모니터링 합니다. 다른 운영 체제에 대 한 준수 정책에는 바이러스 백신 보호 및 최종 지점 보호 소프트웨어가 포함 되어 있어야 합니다.
+- [장치 준수 정책 정의](./office-365-security/identity-access-policies.md#define-device-compliance-policies) -Windows 10에 권장 되는 설정에는 바이러스 백신 보호가 필요 합니다. Microsoft 365 E5가 있는 경우 Endpoint 용 Microsoft Defender를 사용 하 여 직원 장치의 상태를 모니터링 합니다. 다른 운영 체제에 대 한 준수 정책에는 바이러스 백신 보호 및 최종 지점 보호 소프트웨어가 포함 되어 있어야 합니다.
 - [준수 Pc 필요](./office-365-security/identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets) -이는 장치 준수 정책을 적용 하는 Azure AD의 조건부 액세스 규칙입니다.
 
 한 조직 에서만 장치를 관리할 수 있으므로 Azure AD의 조건부 액세스 규칙에서 게스트 계정을 제외 해야 합니다. 장치 준수를 요구 하는 정책에서 게스트 및 외부 사용자를 제외 하지 않으면 이러한 정책은 이러한 사용자를 차단 합니다. 자세한 내용은 [게스트 및 외부 액세스를 허용 하 고 보호 하기 위해 일반 정책 업데이트](./office-365-security/identity-access-policies-guest-access.md)를 참조 하세요.
@@ -247,6 +247,6 @@ Microsoft 365에는 상태를 모니터링 하 고 적절 한 조치를 취하�
 
 ## <a name="next-steps"></a>다음 단계
 
-축하합니다! 가장 중요 한 보안 보호 중 일부를 빠르게 구현 했으며 조직이 보다 안전 합니다. 이제는 위협 방지 기능 (Microsoft Defender Advanced Threat Protection), 데이터 분류 및 보호 기능, 관리 계정 보안 등을 계속 진행할 준비가 되었습니다. Microsoft 365에 대 한 체계적인 조직적 보안 권장 사항에 대 한 자세한 내용은 [microsoft 365 security For Business 의사 결정권자 (BDMs)](Microsoft-365-security-for-bdm.md)를 참조 하십시오.
+축하합니다! 가장 중요 한 보안 보호 중 일부를 빠르게 구현 했으며 조직이 보다 안전 합니다. 이제 위협을 위한 Microsoft Defender를 비롯 한 위협 방지 기능, 데이터 분류 및 보호 기능, 관리 계정 보안에 대해 자세히 살펴보겠습니다. Microsoft 365에 대 한 체계적인 조직적 보안 권장 사항에 대 한 자세한 내용은 [microsoft 365 security For Business 의사 결정권자 (BDMs)](Microsoft-365-security-for-bdm.md)를 참조 하십시오.
 
 또한 [docs.microsoft.com/security](https://docs.microsoft.com/security)에서 Microsoft의 새 보안 센터를 방문 하세요.

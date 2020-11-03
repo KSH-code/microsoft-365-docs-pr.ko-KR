@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: 관리자는 EOP (Exchange Online Protection) 및 Office 365 Advanced Threat Protection (ATP)의 보호 기능을 통해 표준 및 엄격한 정책 설정을 적용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a624d48944965c217fb8547e4f09da0ec388e615
-ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
+description: 관리자는 EOP (Exchange Online Protection)의 보호 기능 및 Office 용 Microsoft Defender 365에서 표준 및 엄격한 정책 설정을 적용 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 38a03727f91878f356d8bc0dc618c711bfc500bb
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48830540"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845735"
 ---
-# <a name="preset-security-policies-in-eop-and-office-365-atp"></a>EOP 및 Office 365 ATP의 미리 설정 된 보안 정책
+# <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>EOP의 미리 설정 된 보안 정책 및 Office 365 용 Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -59,7 +59,7 @@ ms.locfileid: "48830540"
 
 ### <a name="policies-in-preset-security-policies"></a>미리 설정 된 보안 정책의 정책
 
-미리 설정 된 보안 정책은 EOP 및 Office 365 ATP의 다양 한 보호 기능에서 해당 하는 정책을 사용 합니다. 이러한 정책은 **표준 보호** 또는 **엄격한 보호** 사전 설정 보안 정책을 사용자에 게 할당 _한 후_ 에 만들어집니다. 이러한 정책은 수정할 수 없습니다.
+미리 설정 된 보안 정책은 EOP의 다양 한 보호 기능과 Office 용 Microsoft Defender 365의 해당 정책을 사용 합니다. 이러한 정책은 **표준 보호** 또는 **엄격한 보호** 사전 설정 보안 정책을 사용자에 게 할당 _한 후_ 에 만들어집니다. 이러한 정책은 수정할 수 없습니다.
 
 - **EOP (Exchange Online Protection) 정책** : exchange online 사서함을 사용 하는 Microsoft 365 조직과 exchange online 사서함이 없는 독립 실행형 EOP 조직이 포함 됩니다.
   
@@ -67,23 +67,23 @@ ms.locfileid: "48830540"
   - **표준 사전 설정 보안 정책** 및 **엄격한 사전 설정 보안 정책** 이라는 [맬웨어 방지 정책](configure-anti-malware-policies.md)
   - **표준 사전 설정 보안 정책** 및 **엄격한 미리 설정 된 보안 정책** (스푸핑 설정) 이라는 [EOP 피싱 방지 정책](set-up-anti-phishing-policies.md#spoof-settings)
 
-- **Office 365 atp (Advanced Threat Protection) 정책** : 여기에는 Microsoft 365 E5 또는 OFFICE 365 ATP 추가 기능 구독이 있는 조직이 포함 됩니다.
+- **Microsoft Defender For office 365 정책** : 여기에는 Microsoft 365 E5 또는 Defender for office 365 추가 기능 구독이 있는 조직이 포함 됩니다.
 
-  - 다음을 포함 하는 **표준 사전 설정 보안 정책** 및 **엄격한 미리 설정 보안 정책** 이라는 ATP 피싱 방지 정책
+  - 다음을 포함 하는 **표준 사전** 설정 보안 정책 및 **엄격한 사전 설정 보안 정책** 이라는 Office 365 용 Microsoft Defender의 피싱 방지 정책
 
     - EOP 피싱 방지 정책에서 사용할 수 있는 것과 동일한 [스푸핑 설정](set-up-anti-phishing-policies.md#spoof-settings)
-    - [가장 설정](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies)
-    - [고급 피싱 임계값](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-atp-anti-phishing-policies)
+    - [가장 설정](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
+    - [고급 피싱 임계값](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
 
   - [안전한 링크 정책](set-up-atp-safe-links-policies.md) **표준 사전 설정 보안 정책** 및 **엄격한 미리 설정 된 보안 정책**
 
   - [안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md) **표준 미리 설정 보안 정책** 및 **엄격한 미리 설정 된 보안 정책** 이라고 합니다.
 
-ATP 보호와는 다른 사용자에 게 EOP 보호를 적용할 수 있습니다.
+Microsoft Defender for Office 365 보호와 다른 사용자에 게 EOP 보호를 적용할 수 있습니다.
 
 ### <a name="policy-settings-in-preset-security-policies"></a>미리 설정 된 보안 정책의 정책 설정
 
-보호 프로필에서 정책 설정은 수정할 수 없습니다. **표준** 및 **엄격한** 정책 설정 값은 [EOP 및 Office 365 ATP 보안에 대 한 권장 설정](recommended-settings-for-eop-and-office365-atp.md)에 설명 되어 있습니다.
+보호 프로필에서 정책 설정은 수정할 수 없습니다. **표준** 및 **엄격한** 정책 설정 값은 [EOP에 대 한 권장 설정 및 Office 365 보안에 대 한 Microsoft Defender](recommended-settings-for-eop-and-office365-atp.md)에 설명 되어 있습니다.
 
 ### <a name="order-of-precedence-for-preset-security-policies-and-other-policies"></a>미리 설정 된 보안 정책 및 기타 정책의 우선 순위 순서
 
@@ -143,7 +143,7 @@ ATP 보호와는 다른 사용자에 게 EOP 보호를 적용할 수 있습니�
 
    작업을 마친 후 **다음** 을 클릭합니다.
 
-4. 조직에 Office 365 ATP가 있는 경우 **ATP 보호를 적용** 하 여 [office 365 atp 보호가](#policies-in-preset-security-policies) 적용 되는 내부 받는 사람을 식별 하는 단계를 수행 합니다.
+4. 조직에 Office 365 용 Microsoft Defender가 있는 경우 **ATP 보호를 적용** 하 여 [Microsoft defender for office 365 보호](#policies-in-preset-security-policies) 를 적용할 내부 받는 사람을 식별 합니다.
 
    설정 및 동작은 **EOP 보호 적용** 단계와 동일 합니다.
 

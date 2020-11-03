@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 94e83110ef9761f551fd1401884dbba58a8df107
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 43a5c0f2e207274574c3c08eadd2804b9c241bb7
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208440"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845068"
 ---
 # <a name="federal-risk-and-authorization-management-program-fedramp"></a>FedRAMP(Federal Risk and Authorization Management Program)
 
@@ -70,8 +70,8 @@ Dynamics 365 U.S. 정부에는 FedRAMP 에이전시 ATO이 고 HUD (도시 개�
 - Intune
 - [Office 365 및 Office 365 미국 Governmen](https://go.microsoft.com/fwlink/p/?linkid=2077751)
 - Office 365 US Government Defense
-- 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
-- Microsoft Defender ATP
+- 독립형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
+- 엔드포인트용 Microsoft Defender
 
 > [!NOTE]
 > Azure 정부 내에 Azure Active Directory를 사용 하려면 Azure 공개 클라우드에서 Azure 정부 외부에 배포 된 구성 요소를 사용 해야 합니다.
@@ -91,7 +91,7 @@ Microsoft에서 ATO 프로세스를 안내 하 고 FedRAMP 고급 청사진을 �
 
 [Azure FedRAMP 고급 청사진 사용 시작](https://aka.ms/fedrampblueprint)
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **Microsoft 클라우드 서비스가 FISMA (연방 정보 보안 관리) Act를 준수 하나요?**
 
@@ -109,9 +109,9 @@ FedRAMP을 성공적으로 탐색 하 고 해당 요구 사항을 충족 하기 
 
 예. 연방 정부 기관에서 ATO를 필요로 하는 모든 프로그램 또는 이니셔티브의 기반으로 Microsoft 클라우드 서비스의 인증을 사용할 수 있습니다. 그러나 이러한 서비스 외부의 구성 요소에 대 한 사용자의 권한 부여를 구현 해야 합니다.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용 하 여 위험 평가
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용하여 위험 평가
 
-[Microsoft 준수 관리자](compliance-manager.md) 는 조직의 규정 준수 상태를 이해 하 고 위험을 줄이는 데 도움이 되는 작업을 수행 하는 데 도움이 되는 [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 기능입니다. 준수 관리자는이 규정에 대 한 평가를 빌드하기 위한 프리미엄 템플릿을 제공 합니다. 준수 관리자의 **평가 템플릿** 페이지에서 템플릿을 찾습니다. [준수 관리자에서 평가를 작성](compliance-manager-assessments.md)하는 방법을 알아봅니다.
+[Microsoft 준수 관리자](compliance-manager.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)의 기능입니다. 준수 관리자는 이 규제에 대한 평가를 빌드하기 위한 프리미엄 서식 파일을 제공합니다. 준수 관리자의 **평가 서식 파일** 페이지에서 서식 파일을 찾습니다. [준수 관리자의 평가 빌드](compliance-manager-assessments.md) 방법에 대해 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

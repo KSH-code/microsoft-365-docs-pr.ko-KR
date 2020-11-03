@@ -18,19 +18,19 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 승인 되지 않은 전자 메일을 합법적으로 전송 하는 보낸 사람을 빠르게 확인 하는 방법을 포함 하 여 스푸핑 인텔리전스 통찰력의 작동 방식을 확인할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6fc934491606a53ebfb4bae4f46ab9e1ee93467b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 5995095e442bbcd07ddf4538b67be6e1b14fd8f1
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198574"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844215"
 ---
-# <a name="walkthrough---atp-spoof-intelligence-insight-in-microsoft-365"></a>Microsoft 365의 연습-ATP 스푸핑 인텔리전스 정보
+# <a name="walkthrough---defender-for-office-365-spoof-intelligence-insight-in-microsoft-365"></a>Office 용 연습-Defender 365 Microsoft 365의 스푸핑 인텔리전스 통찰력
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Microsoft 365 조직에서 ATP (Advanced Threat Protection)를 사용 하는 경우 스푸핑 인텔리전스 정보를 활용 하 여 인증 되지 않은 전자 메일을 합법적으로 전송 하는 보낸 사람을 빠르게 확인할 수 있습니다. 그들에 게 스푸핑된 메시지를 보낼 수 있도록 허용 하면 가양성이 사용자에 게 노출 되는 위험을 줄이는 데 도움이 됩니다. 또한 스푸핑 인텔리전스 통찰력을 사용 하 여 허용 되는 도메인 쌍을 모니터링 하 고 관리 하 여 추가 보안 계층을 제공 하 고 안전 하지 않은 메시지가 조직에 도착 하지 못하도록 할 수 있습니다.
+Office 365 용 Defender를 사용 하는 Microsoft 365 조 직에서는 스푸핑 인텔리전스 정보를 사용 하 여 인증 되지 않은 전자 메일을 합법적으로 전송 하는 보낸 사람을 빠르게 확인할 수 있습니다. 그들에 게 스푸핑된 메시지를 보낼 수 있도록 허용 하면 가양성이 사용자에 게 노출 되는 위험을 줄이는 데 도움이 됩니다. 또한 스푸핑 인텔리전스 통찰력을 사용 하 여 허용 되는 도메인 쌍을 모니터링 하 고 관리 하 여 추가 보안 계층을 제공 하 고 안전 하지 않은 메시지가 조직에 도착 하지 못하도록 할 수 있습니다.
 
 [보안 & 준수 센터에서 보고서 및 통찰력](reports-and-insights-in-security-and-compliance.md)을 처음 사용할 경우 대시보드를 통해 파악 및 권장 작업으로 쉽게 이동할 수 있는 방법을 확인 하는 데 도움이 될 수 있습니다.
 
@@ -49,7 +49,7 @@ Microsoft 365 조직에서 ATP (Advanced Threat Protection)를 사용 하는 경
   - [보안 및 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **보안 읽기**
   - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리**
 
-- ATP 피싱 방지 정책에서 스푸핑 인텔리전스를 사용 하도록 설정 하 고 사용 하지 않도록 설정 합니다. 자세한 내용은 [Microsoft 365에서 ATP 피싱 방지 정책 구성을](configure-atp-anti-phishing-policies.md)참조 하세요.
+- Office 365 용 Microsoft Defender의 피싱 방지 정책에서 스푸핑 인텔리전스를 사용 하도록 설정 하 고 사용 하지 않도록 설정 합니다. 자세한 내용은 microsoft 365의 microsoft [Defender For Office 365에서 피싱 방지 정책 구성을](configure-atp-anti-phishing-policies.md)참조 하세요.
 
 - Exchange Online 사서함이 있는 Microsoft 365 조직 및 독립 실행형 EOP (Exchange Online Protection)에서 Exchange Online 사서함이 없는 경우 스푸핑 인텔리전스를 사용 하 여 인증 되지 않은 메시지를 보내는 보낸 사람을 모니터링 하 고 관리할 수 있습니다. 자세한 내용은 [Microsoft 365에 스푸핑 인텔리전스 구성](learn-about-spoof-intelligence.md)을 참조하세요.
 
@@ -59,9 +59,9 @@ Microsoft 365 조직에서 ATP (Advanced Threat Protection)를 사용 하는 경
 
 2. **Insights** 행에서 다음 항목 중 하나를 찾습니다.
 
-   - **스푸핑 인텔리전스를 사용 하도록 설정**된 경우: 위장 된 도메인 이라는 것은 **최근 30 일의 인증에 실패 한**것입니다. 이 옵션이 기본값입니다.
+   - **스푸핑 인텔리전스를 사용 하도록 설정** 된 경우: 위장 된 도메인 이라는 것은 **최근 30 일의 인증에 실패 한** 것입니다. 이 옵션이 기본값입니다.
 
-   - **스푸핑 지능 사용 안 함**: 명명 된 **스푸핑 보호 사용**을 선택 하 고이를 클릭 하면 스푸핑 인텔리전스를 사용 하도록 설정할 수 있습니다.
+   - **스푸핑 지능 사용 안 함** : 명명 된 **스푸핑 보호 사용** 을 선택 하 고이를 클릭 하면 스푸핑 인텔리전스를 사용 하도록 설정할 수 있습니다.
 
 3. 대시보드에 대 한 통찰력은 다음과 같은 정보를 보여 줍니다.
 
@@ -69,11 +69,11 @@ Microsoft 365 조직에서 ATP (Advanced Threat Protection)를 사용 하는 경
 
    이 통찰력에는 두 가지 모드가 있습니다.
 
-   - **통찰력 모드**입니다. 스푸핑 정책이 사용 하도록 설정 된 경우에는 지난 30 일 동안 스푸핑 인텔리전스 기능으로 영향을 받은 메일의 수를 확인할 수 있습니다.
+   - **통찰력 모드** 입니다. 스푸핑 정책이 사용 하도록 설정 된 경우에는 지난 30 일 동안 스푸핑 인텔리전스 기능으로 영향을 받은 메일의 수를 확인할 수 있습니다.
 
    - **If 모드** 스푸핑 정책이 사용 하도록 설정 되어 있지 않은 경우에는 지난 30 일 동안 스푸핑 인텔리전스 기능으로  *영향을 받은 메일의*  수를 확인할 수 있습니다.
 
-   어느 방법을 사용 하 든, 파악에 표시 되는 스푸핑된 도메인은 **의심 스러운 도메인 쌍** 및 **의심 되지 않는 도메인 쌍**으로 구분 됩니다. 이러한 범주는 검토할 세 가지 다른 버킷으로 세분화 됩니다.
+   어느 방법을 사용 하 든, 파악에 표시 되는 스푸핑된 도메인은 **의심 스러운 도메인 쌍** 및 **의심 되지 않는 도메인 쌍** 으로 구분 됩니다. 이러한 범주는 검토할 세 가지 다른 버킷으로 세분화 됩니다.
 
    **도메인 쌍** 은 보낸 사람 주소와 보내는 인프라의 조합입니다.
 
@@ -83,17 +83,17 @@ Microsoft 365 조직에서 ATP (Advanced Threat Protection)를 사용 하는 경
 
    **의심 스러운 도메인 쌍** 은 다음과 같습니다.
 
-   - **신뢰도가 높은 스푸핑**: Microsoft 365는 해당 도메인의 전송 패턴 및 신뢰도 점수를 기반으로 이러한 도메인이 의심 스 럽 거는 강력한 신호를 수신 했습니다. Microsoft 365는 도메인이 스푸핑 대상이 고 이러한 도메인에서 전송 된 메시지가 합법적 일 가능성이 낮은 지를 확실 하 게 확신 합니다.
+   - **신뢰도가 높은 스푸핑** : Microsoft 365는 해당 도메인의 전송 패턴 및 신뢰도 점수를 기반으로 이러한 도메인이 의심 스 럽 거는 강력한 신호를 수신 했습니다. Microsoft 365는 도메인이 스푸핑 대상이 고 이러한 도메인에서 전송 된 메시지가 합법적 일 가능성이 낮은 지를 확실 하 게 확신 합니다.
 
-   - **보통 신뢰 스푸핑**: Microsoft 365는 이러한 도메인이 의심 됨을 알리는 일반 신호 및 도메인의 전송 패턴 및 신뢰도 점수를 수신 했습니다. Office 365에서는 도메인이 스푸핑 되 고 이러한 도메인에서 전송 된 메시지가 합법적 인지 확실 하 게 확신 합니다. 이 버킷에는 신뢰도가 높은 위장 버킷 보다 더 많은 FPs가 포함 될 가능성이 높습니다.
+   - **보통 신뢰 스푸핑** : Microsoft 365는 이러한 도메인이 의심 됨을 알리는 일반 신호 및 도메인의 전송 패턴 및 신뢰도 점수를 수신 했습니다. Office 365에서는 도메인이 스푸핑 되 고 이러한 도메인에서 전송 된 메시지가 합법적 인지 확실 하 게 확신 합니다. 이 버킷에는 신뢰도가 높은 위장 버킷 보다 더 많은 FPs가 포함 될 가능성이 높습니다.
 
-   - **의심 스러운 도메인 쌍** (자동 **복구 스푸핑**포함): 자동 복구 스푸핑이 명시적 인증 검사 [SPF](how-office-365-uses-spf-to-prevent-spoofing.md), [dkim](use-dkim-to-validate-outbound-email.md), [DMARC](use-dmarc-to-validate-email.md))에 실패 했지만 암시적 전자 메일 인증 검사 ([복합 인증](email-validation-and-authentication.md#composite-authentication))를 통과 한 도메인입니다. 따라서 Microsoft 365는 사용자를 대신 하 여 메일을 자동 복구 하며, 메시지에 대해 스푸핑 방지 작업을 수행 하지 않았습니다.
+   - **의심 스러운 도메인 쌍** (자동 **복구 스푸핑** 포함): 자동 복구 스푸핑이 명시적 인증 검사 [SPF](how-office-365-uses-spf-to-prevent-spoofing.md), [dkim](use-dkim-to-validate-outbound-email.md), [DMARC](use-dmarc-to-validate-email.md))에 실패 했지만 암시적 전자 메일 인증 검사 ( [복합 인증](email-validation-and-authentication.md#composite-authentication))를 통과 한 도메인입니다. 따라서 Microsoft 365는 사용자를 대신 하 여 메일을 자동 복구 하며, 메시지에 대해 스푸핑 방지 작업을 수행 하지 않았습니다.
 
 ### <a name="view-detailed-information-about-suspicious-domain-pairs-from-the-spoof-intelligence-insight"></a>스푸핑 인텔리전스 통찰력에서 의심 스러운 도메인 쌍에 대 한 세부 정보 보기
 
 1. 스푸핑 인텔리전스 이해에서 도메인 쌍 (높음, 중간 또는 자동 복구)을 클릭 합니다.
 
-   승인 되지 않은 메일을 조직으로 보내는 보낸 사람 목록을 보여 주는 **스푸핑 인텔리전스 이해** 페이지가 표시 됩니다. 이 페이지의 정보는 스푸핑된 메시지에 대 한 권한이 부여 되었는지 또는 추가 작업을 수행 해야 하는지 여부를 결정 하는 데 도움이 됩니다. 메시지 수, 스푸핑이 마지막으로 검색 된 날짜 등을 기준으로 정보를 정렬할 수 있습니다. (예를 들어 **메시지 수** 또는 **마지막으로 본**것과 같은 열 머리글을 클릭 합니다.)
+   승인 되지 않은 메일을 조직으로 보내는 보낸 사람 목록을 보여 주는 **스푸핑 인텔리전스 이해** 페이지가 표시 됩니다. 이 페이지의 정보는 스푸핑된 메시지에 대 한 권한이 부여 되었는지 또는 추가 작업을 수행 해야 하는지 여부를 결정 하는 데 도움이 됩니다. 메시지 수, 스푸핑이 마지막으로 검색 된 날짜 등을 기준으로 정보를 정렬할 수 있습니다. (예를 들어 **메시지 수** 또는 **마지막으로 본** 것과 같은 열 머리글을 클릭 합니다.)
 
 2. 테이블에서 항목을 선택 하 여 도메인 쌍에 대 한 다양 한 정보가 포함 된 세부 정보 창 (이 예에서는 사용자가 수행 해야 하는 작업, 보낸 사람에 대 한 WhoIs 데이터 및 같은 보낸 사람에 대 한 테 넌 트에 표시 되는 유사한 전자 메일)을 제공 합니다. 여기에서 **Allowedtospoof** 수신 허용-보낸 사람 목록에서 도메인 쌍을 추가 하거나 제거 하도록 선택할 수도 있습니다.
 

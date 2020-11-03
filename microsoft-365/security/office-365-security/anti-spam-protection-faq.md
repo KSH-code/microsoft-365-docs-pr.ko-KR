@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)의 스팸 방지 보호 기능에 대 한 질문과 대답을 볼 수 있습니다.
-ms.openlocfilehash: 2bf2808cc0da6124a0377b52dc46f88b2c8a69e0
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: d2505eea572e512b306cf26c7a57d1dc1b705c0b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445738"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844467"
 ---
 # <a name="anti-spam-protection-faq"></a>스팸 방지 보호 FAQ
 
@@ -59,7 +59,7 @@ ms.locfileid: "48445738"
 
 자세한 내용은 아래 항목을 참조하세요.
 
-[EOP 및 Office 365 ATP 보안에 대 한 권장 설정](recommended-settings-for-eop-and-office365-atp.md)
+[EOP 및 Office 용 Microsoft Defender 365 보안에 대 한 권장 설정](recommended-settings-for-eop-and-office365-atp.md)
 
 [EOP에서 연결 필터링 구성](configure-the-connection-filter-policy.md)
 
@@ -105,9 +105,9 @@ Exchange Online 고객: [Exchange online의 모니터링, 보고 및 메시지 �
 
 예. Microsoft에 대 한 MX 레코드를 가리키는 것이 좋지만 Microsoft가 아닌 다른 사람에 게 전자 메일을 라우팅하는 합법적인 비즈니스 이유가 있다는 것을 알게 되었습니다.
 
-- **Inbound**: 타사 공급자를 가리키도록 MX 레코드를 변경한 다음 추가 처리를 위해 메시지를 EOP로 리디렉션합니다. 자세한 내용은 [Exchange Online의 커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)을 참조 하십시오.
+- **Inbound** : 타사 공급자를 가리키도록 MX 레코드를 변경한 다음 추가 처리를 위해 메시지를 EOP로 리디렉션합니다. 자세한 내용은 [Exchange Online의 커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)을 참조 하십시오.
 
-- **Outbound**: Microsoft 365에서 대상 타사 공급자로의 스마트 호스트 라우팅을 구성 합니다.
+- **Outbound** : Microsoft 365에서 대상 타사 공급자로의 스마트 호스트 라우팅을 구성 합니다.
 
 ## <a name="does-microsoft-have-any-documentation-about-how-i-can-protect-myself-from-phishing-scams"></a>Microsoft에 피싱 메일로부터 자기 자신을 보호할 수 있는 방법에 대한 설명서가 있습니까?
 

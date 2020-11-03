@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft Threat Protection 고급 헌팅의 공유 쿼리 사용 '
+title: Microsoft 365 Defender advanced 사냥에서 공유 쿼리 사용
 description: 미리 정의된 쿼리 및 공유 쿼리를 사용하여 위협 요소를 즉시 헌팅합니다. 쿼리를 공용 또는 조직에 공유합니다.
 keywords: 고급 구하기, 위협 검색, 사이버 위협 사냥, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 사용자 지정 감지, 스키마, kusto, github 리포지토리, 내 쿼리, 공유 쿼리
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 7cdb15be274c89bd92995b9e947489c62521c6bb
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 48da1a3a64926f44582e7872f0b0ee03240409ca
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429686"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844083"
 ---
 # <a name="use-shared-queries-in-advanced-hunting"></a>고급 헌팅에서 공유 쿼리 사용
 
@@ -32,7 +32,7 @@ ms.locfileid: "48429686"
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 
 
@@ -45,7 +45,7 @@ ms.locfileid: "48429686"
 
 1. 쿼리 만들기 또는 수정 
 
-2. **쿼리 저장** 드롭다운 단추를 클릭하고 **다른 이름으로 저장**을 선택합니다.
+2. **쿼리 저장** 드롭다운 단추를 클릭하고 **다른 이름으로 저장** 을 선택합니다.
     
 3. 쿼리 이름을 입력합니다. 
 
@@ -55,17 +55,17 @@ ms.locfileid: "48429686"
     - **공유 쿼리** — 조직에 있는 모든 사용자에게 공유합니다.
     - **나의 쿼리** — 사용자 본인만 액세스 가능합니다.
     
-5. **저장**을 선택합니다. 
+5. **저장** 을 선택합니다. 
 
 ## <a name="delete-or-rename-a-query"></a>쿼리 삭제 또는 이름 바꾸기
 1. 이름을 바꾸거나 삭제하려는 쿼리를 마우스 오른쪽 단추로 클릭합니다.
 
     ![쿼리 삭제의 이미지](../../media/advanced_hunting_delete_rename.png)
 
-2. **삭제** 선택하고 삭제를 확인합니다. 또는 **이름 바꾸기**를 선택하고 쿼리의 새 이름을 입력합니다.
+2. **삭제** 선택하고 삭제를 확인합니다. 또는 **이름 바꾸기** 를 선택하고 쿼리의 새 이름을 입력합니다.
 
 ## <a name="create-a-direct-link-to-a-query"></a>쿼리에 대 한 직접 연결 만들기
-고급 구하기 쿼리 편집기에서 쿼리를 직접 여는 링크를 생성 하려면 쿼리를 완성 하 고 **링크 공유**를 선택 합니다.
+고급 구하기 쿼리 편집기에서 쿼리를 직접 여는 링크를 생성 하려면 쿼리를 완성 하 고 **링크 공유** 를 선택 합니다.
 
 ## <a name="access-queries-in-the-github-repository"></a>GitHub 리포지토리의 쿼리에 액세스  
 Microsoft 보안 연구원은 [GitHub의 지정된 공용 저장소](https://aka.ms/hunting-queries)에서 고급 헌팅 쿼리를 정기적으로 공유 합니다. 이 리포지토리는 참가 기회가 열려 있습니다. 참가하려면 [무료로 GitHub에 가입](https://github.com/)하세요.

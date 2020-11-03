@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: ed91ca8a2300cf69cb78ae24ad61e9aebb4dcc85
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 9aaeb5323900e65de47015b8cb28abf967694ea3
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429422"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844803"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터 개요
 
@@ -52,7 +52,7 @@ Microsoft 365 보안 센터는 다음을 포함합니다.
 
 * **Home** -조직의 전반적인 보안 상태를 한눈에 파악할 수 있는 보기입니다.
 * **인시던트** -엔터티의 개별 알림에 표시 된 점을 연결 하 여 더 넓은 공격에 대 한 이야기를 봅니다. 공격이 시작 되는 위치, 영향을 받는 장치, 영향이 받은 시간 및 위협이 사라진 위치를 정확히 알 수 있습니다.
-* **경고** -Microsoft 365 환경 전체에서 모든 경고에 대 한 가시성을 높일 수 있습니다. Microsoft Cloud App Security, Office 365 ATP, Azure Active Directory, Azure ATP 및 Microsoft Defender ATP의 알림을 포함 합니다. E3 및 E5 고객에 게 제공 됩니다.  
+* **경고** -Microsoft 365 환경 전체에서 모든 경고에 대 한 가시성을 높일 수 있습니다. Microsoft Cloud App Security, Microsoft Defender for Office 365, Azure Active Directory, Id 용 Microsoft Defender 및 끝점에 대 한 Microsoft Defender의 알림을 포함 합니다. E3 및 E5 고객에 게 제공 됩니다.  
 * 알림 **센터** -보안 팀이 수동으로 해결 해야 하는 경고의 양을 줄이고 보안 운영 팀이 보다 복잡 한 위협 및 기타 높은 가치 이니셔티브에 집중할 수 있도록 합니다.
 * **보고서** -사용자, 장치, 앱 등을 보다 효율적으로 보호 하기 위해 필요한 세부 정보와 정보를 얻습니다.
 * **보안 점수** – Microsoft 보안 점수를 사용하여 전반적인 보안 상태를 개선할 수 있습니다. 이 페이지에서는 사용할 수 있는 다양 한 보안 기능 및 기능에 대 한 모든 요약을 제공 하 고 개선할 영역에 대 한 권장 사항을 소개 합니다.

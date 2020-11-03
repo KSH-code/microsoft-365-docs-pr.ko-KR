@@ -16,13 +16,13 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능의 수정 작업에 대해 알아봅니다.
-ms.openlocfilehash: 1df963a77054e1adc9a290e976be5998d6298436
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+description: Microsoft Defender for Office 365 계획 2의 자동화 된 조사 및 응답 기능에서 제공 되는 수정 작업에 대해 알아봅니다.
+ms.openlocfilehash: 7dc5c0ba2e320e3f140d26e79e5c2e4a8fde79d7
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446630"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844563"
 ---
 # <a name="view-pending-or-completed-remediation-actions-following-an-automated-investigation-in-office-365"></a>Office 365에서 자동화 된 조사에 따라 보류 중 또는 완료 된 재구성 작업 보기
 
@@ -41,7 +41,7 @@ ms.locfileid: "48446630"
 
 1. [https://protection.office.com](https://protection.office.com)으로 이동하여 로그인합니다. 그러면 보안 & 준수 센터로 이동 합니다.
 
-2. **위협 관리**  >  **조사**로 이동 합니다.
+2. **위협 관리**  >  **조사** 로 이동 합니다.
 
 3. 조사 목록에서 **ID** 열의 항목을 선택 합니다. 
 

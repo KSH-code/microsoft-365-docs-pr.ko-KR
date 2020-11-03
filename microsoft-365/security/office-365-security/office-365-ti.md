@@ -1,5 +1,5 @@
 ---
-title: 위협 조사 & 응답 기능-Office 365 ATP 계획 2
+title: 위협 조사 & 응답 기능-Microsoft Defender for Office 365 계획 2
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -19,20 +19,20 @@ ms.collection:
 - m365initiative-m365-defender
 ms.custom:
 - seo-marvel-apr2020
-description: Office 365 Advanced Threat Protection 계획의 위협 조사 및 응답 기능에 대해 알아봅니다.
-ms.openlocfilehash: 4d51a172c3b6fb8641648ecd7a33e320b0a42b24
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+description: Microsoft Defender for Office 365 계획의 위협 조사 및 응답 기능에 대해 알아봅니다.
+ms.openlocfilehash: 6dba883a910306b548f1880be00ad45207da27dd
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48431138"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845795"
 ---
 # <a name="threat-investigation-and-response"></a>위협 조사 및 응답
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-위협 조사 및 응답 기능 [Office 365 Advanced Threat Protection](office-365-atp.md) 은 다음과 같은 방법으로 보안 분석가와 관리자에 게 조직의 Microsoft 365 비즈니스 사용자를 보호 하는 데 도움을 제공 합니다.
+[Microsoft Defender For Office 365](office-365-atp.md) 의 위협 조사 및 응답 기능-보안 분석가와 관리자는 다음을 통해 조직의 microsoft 365을 보호 하는 데 도움이 됩니다.
 - 고 사이버 공격를 쉽게 식별, 모니터링 및 이해할 수 있도록 설정
 - Exchange Online, SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀의 위협에 빠르게 문제를 해결 하는 데 도움을 줍니다.
 - 보안 작업에 도움이 되는 통찰력 및 지식을 제공 하 여 조직에 대 한 고 사이버 공격 방지
@@ -56,7 +56,7 @@ ms.locfileid: "48431138"
   
 ![위협 대시보드](../../media/ce013a31-3f80-4d09-bb95-bfb7623b8bc4.png)
   
-이 대시보드를 보고 사용 하려면 보안 및 &amp; 준수 센터에서 **위협 관리** \> **대시보드로**이동 합니다.
+이 대시보드를 보고 사용 하려면 보안 및 &amp; 준수 센터에서 **위협 관리** \> **대시보드로** 이동 합니다.
   
 ### <a name="threat-explorer"></a>위협 탐색기
 
@@ -64,7 +64,7 @@ ms.locfileid: "48431138"
 
 ![위협 탐색기](../../media/7a7cecee-17f0-4134-bcb8-7cee3f3c3890.png)
   
-이 보고서를 보고 사용 하려면 보안 및 &amp; 준수 센터에서 **위협 관리** \> **탐색기**로 이동 합니다.
+이 보고서를 보고 사용 하려면 보안 및 &amp; 준수 센터에서 **위협 관리** \> **탐색기** 로 이동 합니다.
   
 ### <a name="incidents"></a>인시던트
 
@@ -72,7 +72,7 @@ ms.locfileid: "48431138"
 
 ![Office 365의 현재 위협 인시던트 목록](../../media/acadd4c7-d2de-4146-aeb8-90cfad805a9c.png)
 
-조직의 현재 인시던트 목록을 보려면 보안 & 준수 센터에서 **위협 관리** \> **검토** \> **인시던트**로 이동 합니다.
+조직의 현재 인시던트 목록을 보려면 보안 & 준수 센터에서 **위협 관리** \> **검토** \> **인시던트** 로 이동 합니다.
 
 ![보안 & 준수 센터에서 위협 관리 검토를 선택 합니다. \>](../../media/e0f46454-fa38-40f0-a120-b595614d1d22.png)
 
@@ -86,17 +86,17 @@ ms.locfileid: "48431138"
 
 ## <a name="threat-intelligence-widgets"></a>위협 인텔리전스 위젯
 
-보안 분석가는 Office 365 Advanced Threat Protection 계획 2 제공의 일부로 알려진 위협에 대 한 세부 정보를 검토할 수 있습니다. 이 기능은 사용자가 안전 하 게 유지 하기 위해 수행할 수 있는 추가 예방 조치/단계가 있는지 여부를 확인 하는 데 유용 합니다.
+Microsoft Defender for Office 365 계획 2 제공의 일부로, 보안 분석가는 알려진 위협에 대 한 세부 정보를 검토할 수 있습니다. 이 기능은 사용자가 안전 하 게 유지 하기 위해 수행할 수 있는 추가 예방 조치/단계가 있는지 여부를 확인 하는 데 유용 합니다.
 
 ![최근 위협에 대 한 정보를 보여 주는 보안 경향](../../media/11e7d40d-139b-4c56-8d52-c091c8654151.png)
 
 ## <a name="how-do-we-get-these-capabilities"></a>이러한 기능은 어떻게 얻을 수 있나요?
 
-Microsoft 365 위협 조사 및 응답 기능은 Enterprise E5에 포함 되거나 특정 구독에 대 한 추가 기능으로 제공 되는 Office 365 Advanced Threat Protection 계획 2에 포함 되어 있습니다. 자세한 내용은 [Office 365 ATP 계획 1 및 계획 2](office-365-atp.md#office-365-atp-plan-1-and-plan-2)를 참조 하세요.
+Microsoft 365 위협 조사 및 응답 기능은 Enterprise E5에 포함 된 Microsoft Defender for Office 365 계획 2, 특정 구독에 대 한 추가 기능으로 포함 되어 있습니다. 자세한 내용은 [Defender For Office 365 계획 1 및 계획 2](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2)를 참조 하십시오.
 
 ## <a name="required-roles-and-permissions"></a>필요한 역할 및 사용 권한 할당
 
-Office 365 Advanced Threat Protection은 역할 기반 액세스 제어를 사용 합니다. 사용 권한은 Azure Active Directory의 특정 역할, Microsoft 365 관리 센터 또는 보안 & 준수 센터를 통해 할당 됩니다.
+Microsoft Defender for Office 365는 역할 기반 액세스 제어를 사용 합니다. 사용 권한은 Azure Active Directory의 특정 역할, Microsoft 365 관리 센터 또는 보안 & 준수 센터를 통해 할당 됩니다.
 
 > [!TIP]
 > 보안 관리자와 같은 일부 역할은 보안 & 준수 센터에서 할당할 수 있지만 대신 Microsoft 365 관리 센터 또는 Azure Active Directory를 사용 하는 것이 좋습니다. 역할, 역할 그룹 및 권한에 대 한 자세한 내용은 다음 리소스를 참조 하십시오.
@@ -113,7 +113,7 @@ Office 365 Advanced Threat Protection은 역할 기반 액세스 제어를 사�
 |[위협 탐색기 (및 실시간 검색)](threat-explorer.md) 를 사용 하 여 위협 분석|다음 중 하나가 필요합니다. <br/>- **전역 관리자**  <br/> - **보안 관리자** <br/>- **보안 독자** <br/> <br/>이러한 역할은 Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) 또는 Microsoft 365 관리 센터 ()에서 할당할 수 있습니다 [https://admin.microsoft.com](https://admin.microsoft.com) .|
 |인시던트 보기 (조사가 라고도 함) <br/> 인시던트에 전자 메일 메시지 추가|다음 중 하나가 필요합니다. <br/>- **전역 관리자**  <br/> - **보안 관리자** <br/>- **보안 독자** <br/> <br/>이러한 역할은 Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) 또는 Microsoft 365 관리 센터 ()에서 할당할 수 있습니다 [https://admin.microsoft.com](https://admin.microsoft.com) .|
 |인시던트에서 전자 메일 작업 트리거 <br/> <br/> 의심 스러운 전자 메일 메시지 찾기 및 삭제|다음 중 하나가 필요합니다. <br/>- **전역 관리자**  <br/> - **보안 관리자** 와 **검색 및 제거** 역할<br/><br/>**전역 관리자** 및 **보안 관리자** 역할은 Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) 또는 Microsoft 365 관리 센터 ()에서 할당 될 수 있습니다 [https://admin.microsoft.com](https://admin.microsoft.com) . <br/><br/>**검색 및 제거** 역할은 Security & 준수 센터 ()에서 할당 되어야 합니다 [https://protection.office.com](https://protection.office.com) .|
-|Microsoft Defender Advanced Threat Protection과 Office 365 Advanced Threat Protection 계획 2 통합  <br/><br/> SIEM 서버를 사용 하 여 Office 365 Advanced Threat Protection 계획 2 통합|Azure Active Directory () 또는 Microsoft 365 관리 센터 ()에서 할당 된 **전역 관리자** 또는 **보안 관리자** 역할 [https://portal.azure.com](https://portal.azure.com) [https://admin.microsoft.com](https://admin.microsoft.com) 입니다.<br/>--- **기호** ---<br/>추가 응용 프로그램에서 할당 되는 적절 한 역할 (예: [Microsoft Defender Security Center](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles) 또는 siem server)|
+|끝점에 microsoft Defender for Office 365 계획 2 통합  <br/><br/> SIEM 서버에 Microsoft Defender for Office 365 계획 2 통합|Azure Active Directory () 또는 Microsoft 365 관리 센터 ()에서 할당 된 **전역 관리자** 또는 **보안 관리자** 역할 [https://portal.azure.com](https://portal.azure.com) [https://admin.microsoft.com](https://admin.microsoft.com) 입니다.<br/>--- **기호** ---<br/>추가 응용 프로그램에서 할당 되는 적절 한 역할 (예: [Microsoft Defender Security Center](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles) 또는 siem server)|
 |
 
 ## <a name="next-steps"></a>다음 단계
@@ -122,6 +122,6 @@ Office 365 Advanced Threat Protection은 역할 기반 액세스 제어를 사�
 
 - [배달 된 악성 전자 메일 찾기 및 조사 (Office 365 위협 조사 및 응답)](investigate-malicious-email-that-was-delivered.md)
 
-- [Microsoft Defender Advanced Threat Protection을 사용 하 여 Office 365 위협 조사 및 응답 통합](integrate-office-365-ti-with-wdatp.md)
+- [끝점에 대 한 Microsoft Defender와 Office 365 위협 조사 및 응답 통합](integrate-office-365-ti-with-wdatp.md)
 
 - [공격 시뮬레이터에 대 한 자세한 정보](attack-simulator.md)

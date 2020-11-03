@@ -18,18 +18,18 @@ ms.collection:
 - m365initiative-defender-office365
 description: 보안 및 준수 센터에서 Explorer 및 실시간 검색을 사용 하 여 위협에 효과적이 고 효율적으로 대응 하는 방법에 대해 알아봅니다 &amp; .
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ae2c53f12465fd1d6ef5c5e4bd24309467be008
-ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
+ms.openlocfilehash: a6123306c1d707a3eeab5c5dd67ed25bebb71965
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48769379"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845688"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
-조직에 [office 365 Advanced Threat Protection](office-365-atp.md) (OFFICE 365 ATP)이 있고 [필요한 사용 권한이](#required-licenses-and-permissions)있는 경우에는 **Explorer** 또는 **실시간** 검색 (이전에는 [새로운 기능을 참조 하세요](#new-features-in-threat-explorer-and-real-time-detections) *.)을* 수행 해야 합니다. 보안 & 준수 센터에서 **위협 관리** 로 이동한 다음 **Explorer** _또는_ **실시간** 검색을 선택 합니다.
+조직에 [Office 365 용 Microsoft Defender](office-365-atp.md)가 있고 [필요한 사용 권한이](#required-licenses-and-permissions)있는 경우에는 **Explorer** 또는 **실시간** 검색 (이전에는 [새로운 기능을 참조 하세요](#new-features-in-threat-explorer-and-real-time-detections) *.)을* 사용할 수 있습니다. 보안 & 준수 센터에서 **위협 관리** 로 이동한 다음 **Explorer** _또는_ **실시간** 검색을 선택 합니다.
 
-|ATP 계획 2를 사용 하는 경우 다음을 확인할 수 있습니다.|ATP 계획 1을 사용 하는 경우 다음을 확인할 수 있습니다.|
+|Microsoft Defender for Office 365 계획 2를 사용 하 여 다음을 확인할 수 있습니다.|Microsoft Defender for Office 365 계획 1을 사용 하 여 다음을 확인할 수 있습니다.|
 |---|---|
 |![위협 탐색기](../../media/threatmgmt-explorer.png)|![실시간 탐지](../../media/threatmgmt-realtimedetections.png)|
 |
@@ -42,27 +42,27 @@ Explorer (또는 실시간 검색)를 사용 하는 경우 보안 운영 팀이 
 
 - [Microsoft 365 보안 기능으로 검색 된 맬웨어를 참조 하세요.](#see-malware-detected-in-email-by-technology)
 - [피싱 Url에 대 한 데이터를 확인 하 고 결과를 클릭 합니다.](#view-data-about-phishing-urls-and-click-verdict)
-- [탐색기에서 보기 로부터 자동화 된 조사 및 응답 프로세스 시작](#start-automated-investigation-and-response) (ATP 요금제 2에만 해당)
+- [Explorer의 보기에서 자동화 된 조사 및 응답 프로세스 시작](#start-automated-investigation-and-response) (Office 용 Defender 365 계획 2에만 해당)
 - ... [악성 전자 메일을 조사 하 고 더 많은 방법을 확인해](#more-ways-to-use-explorer-or-real-time-detections)보세요.
 
 
 ## <a name="experience-improvements-to-threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색 기능이 향상 되었습니다.
 
-## <a name="tags-in-threat-explorer"></a>위협 탐색기의 태그
+### <a name="tags-in-threat-explorer"></a>위협 탐색기의 태그
 
 > [!NOTE]
 > 사용자 태그 기능은 미리 보기에서 모든 사용자가 사용할 수 없으며 변경할 수 있습니다. 릴리스 일정에 대 한 자세한 내용은 Microsoft 365 로드맵를 참조 하세요.
 
-사용자 태그는 Microsoft Defender for Office 365의 특정 사용자 그룹에 대 한 식별자입니다. 태그에 대 한 자세한 내용, 태그 라이선스 및 구성에 대 한 자세한 내용은 [Office 365 ATP의 사용자 태그](user-tags.md)를 참조 하세요.
+사용자 태그는 Microsoft Defender for Office 365의 특정 사용자 그룹에 대 한 식별자입니다. 태그에 대 한 자세한 내용, 태그 라이선스 및 구성에 대 한 자세한 내용은 [Defender For Office 365에서 사용자 태그](user-tags.md)를 참조 하세요.
 
-위협 탐색기 내에서 사용자 태그에 대 한 정보를 볼 수 있는 경험은 다음과 같습니다.
+위협 탐색기 내에서는 다음과 같은 환경에서 사용자 태그에 대 한 정보를 확인할 수 있습니다.
 
 #### <a name="email-grid-view"></a>전자 메일 표 보기
 
 전자 메일 표에 표시 되는 태그 열에는 보낸 사람 또는 받는 사람 사서함에 적용 된 모든 태그가 포함 되어 있습니다. 기본적으로 우선 순위 계정과 같은 시스템 태그가 먼저 표시 됩니다.
 
 > [!div class="mx-imgBorder"]
-> ![필터 태그](../../media/tags-grid.png)
+> ![전자 메일 표 보기의 필터 태그](../../media/tags-grid.png)
 
 #### <a name="filtering"></a>필터링
 이제는 태그를 필터로 사용 하 여 우선 순위 계정 또는 특정 사용자 태그 시나리오를 검색 하 고 특정 태그에서 결과를이 환경의 일부로 제외할 수 있습니다. 이러한 정보를 제공 하는 여러 필터를 결합 하 여 조사 범위를 좁히는 데 도움이 될 수 있습니다.
@@ -172,7 +172,7 @@ URL 및 URL 클릭 데이터를 중심으로 하는 향상 된 기능 집합은 
 
  - Url 플라이 아웃의 클릭 섹션 내에서 URL의 일부인 쿼리 매개 변수를 포함 하 여 클릭 한 전체 URL을 표시 합니다. 현재 URL 도메인과 경로가 제목 표시줄에 표시 됩니다. 이 정보를 확장 하 여 전체 URL을 표시 합니다.
 
- - Url 필터 (URL vs url 도메인 vs URL 도메인 및 경로): URL이 포함 된 메시지를 검색 하는 과정에서 업데이트를 수행 하 고 결과를 클릭 합니다. 이 작업의 일부로, 프로토콜에 관계 없이 검색을 지원 하도록 설정 했습니다 (http를 사용 하지 않고 URL을 직접 검색할 수 있음). 기본적으로 URL 검색은 명시적으로 지정 된 경우를 제외 하 고 http에 매핑됩니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+ - Url 필터 (URL vs url 도메인 vs URL 도메인 및 경로): URL이 포함 된 메시지를 검색 하는 과정에서 업데이트를 수행 하 고 결과를 클릭 합니다. 이 작업의 일부로, 프로토콜에 관계 없이 검색을 지원 하도록 설정 했습니다 (http를 사용 하지 않고 URL을 직접 검색할 수 있음). 기본적으로 URL 검색은 명시적으로 지정 된 경우를 제외 하 고 http에 매핑됩니다. 예:
 
    1. `http://`"Url", "Url 도메인" 및 "Url 도메인 및 경로" 필터 필드에서 접두사를 사용 하지 않고 검색 합니다. 이 동작은 일관적 이며 같은 결과를 표시 합니다.
 
@@ -196,6 +196,16 @@ URL 및 URL 클릭 데이터를 중심으로 하는 향상 된 기능 집합은 
 - [새로 고침 프로세스의 업데이트](#update-in-the-refresh-process)
 - [필터에 추가할 차트 드릴 다운](#chart-drilldown-to-add-to-filters)
 - [제품 정보 업데이트](#in-product-information-updates)
+
+### <a name="filter-by-user-tags"></a>사용자 태그로 필터링
+
+이제 시스템 또는 사용자 지정 사용자 태그로 정렬 및 필터링 하 여 위협의 범위를 신속 하 게 파악할 수 있습니다. 자세한 내용은 [Office 365 ATP의 사용자 태그](user-tags.md) 를 참조 하세요.
+
+> [!IMPORTANT]
+> 사용자 태그에의 한 필터링 및 정렬은 현재 공개 미리 보기입니다.
+> 이 파일은 상업적으로 출시 되기 전에 크게 수정 될 수 있습니다. Microsoft는 제공 되는 정보와 관련 하 여 명시적 이거나 묵시적인 어떠한 보증도 하지 않습니다.
+
+![탐색기의 태그 열](../../media/threat-explorer-tags.png)
 
 ### <a name="timezone-improvements"></a>향상 된 표준 시간대
 
@@ -375,7 +385,7 @@ Microsoft 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 �
 2. **보기** 메뉴에서 **전자 메일**  >  **피싱** 을 선택 합니다.
 
    > [!div class="mx-imgBorder"]
-   > ![탐색기에 대 한 보기 메뉴](../../media/ExplorerViewEmailPhishMenu.png)
+   > ![피싱 컨텍스트의 탐색기에 대 한 보기 메뉴](../../media/ExplorerViewEmailPhishMenu.png)
 
 3. **보낸 사람** 을 클릭 한 다음 **url** 을 선택  >  합니다 **결과를 클릭** 합니다.
 
@@ -422,7 +432,7 @@ Microsoft 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 �
 2. **보기** 메뉴에서 **전자 메일**  >  **제출을** 선택 합니다.
 
    > [!div class="mx-imgBorder"]
-   > ![탐색기에 대 한 보기 메뉴](../../media/explorer-view-menu-email-user-reported.png)
+   > ![전자 메일용 탐색기 메뉴 보기](../../media/explorer-view-menu-email-user-reported.png)
 
 3. **보낸 사람** 을 클릭 한 다음 **기본**  >  **보고서 유형을** 선택 합니다.
 
@@ -431,12 +441,12 @@ Microsoft 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 �
    > [!div class="mx-imgBorder"]
    > ![사용자가 보고 한 피싱](../../media/EmailUserReportedReportType.png)
 
-보고서가 새로 고쳐지고 조직의 사용자가 피싱 시도로 보고 한 전자 메일 메시지에 대 한 데이터가 표시 됩니다. 이 정보를 사용 하 여 추가 분석을 수행 하 고, 필요한 경우 [ATP 피싱 방지 정책을](configure-atp-anti-phishing-policies.md)조정할 수 있습니다.
+보고서가 새로 고쳐지고 조직의 사용자가 피싱 시도로 보고 한 전자 메일 메시지에 대 한 데이터가 표시 됩니다. 이 정보를 사용 하 여 추가 분석을 수행 하 고 필요한 경우 [Microsoft Defender For Office 365에서 피싱 방지 정책을](configure-atp-anti-phishing-policies.md)조정할 수 있습니다.
 
 ## <a name="start-automated-investigation-and-response"></a>자동 조사 및 응답 시작
 
 > [!NOTE]
-> 자동화 된 조사 및 응답 기능은 **office 365 ATP 계획 2** 및 **Office 365 E5** 에서 사용할 수 있습니다.
+> 자동화 된 조사 및 응답 기능은 **Microsoft Defender For Office 365 계획 2** 및 **Office 365 E5** 에서 사용할 수 있습니다.
 
 (새로운 방법!) [자동화 된 조사 및 응답](automated-investigation-response-office.md) 을 통해 보안 운영 팀이 고 사이버 공격을 조사 및 완화할 때 필요한 시간과 노력을 많이 절감할 수 있습니다. 보안 playbook 트리거될 수 있는 알림을 구성 하는 것 외에도 탐색기의 보기에서 자동화 된 조사 및 응답 프로세스를 시작할 수 있습니다.
 
@@ -454,11 +464,11 @@ Microsoft 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 �
 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 
-Explorer 또는 실시간 검색을 하려면 [Office 365 ATP](office-365-atp.md) 가 있어야 합니다.
+Explorer 또는 실시간 검색을 받으려면 [Microsoft Defender For Office 365](office-365-atp.md) 이 있어야 합니다.
 
-- Explorer는 Office 365 ATP 계획 2에 포함 되어 있습니다.
-- 실시간 검색 보고서는 Office 365 ATP 계획 1에 포함 되어 있습니다.
-- Office 365 ATP로 보호 해야 하는 모든 사용자에 대해 라이선스를 할당 하도록 계획 합니다. (탐색기 또는 실시간 검색은 사용이 허가 된 사용자에 대 한 검색 데이터를 표시 합니다.)
+- Explorer는 Defender for Office 365 계획 2에 포함 되어 있습니다.
+- 실시간 감지 보고서는 Defender for Office 365 계획 1에 포함 되어 있습니다.
+- Defender for Office 365 용으로 보호 해야 하는 모든 사용자에 대해 라이선스를 할당 하도록 계획 합니다. (탐색기 또는 실시간 검색은 사용이 허가 된 사용자에 대 한 검색 데이터를 표시 합니다.)
 
 탐색기 또는 실시간 검색을 보고 사용 하려면 보안 관리자 또는 보안 판독기에 부여 된 것과 같은 적절 한 사용 권한이 있어야 합니다.
 
@@ -482,9 +492,9 @@ Explorer 또는 실시간 검색을 하려면 [Office 365 ATP](office-365-atp.md
 
 ## <a name="some-differences-between-threat-explorer-and-real-time-detections"></a>위협 탐색기와 실시간 감지 간의 약간의 차이점
 
-- **실시간** 검색 보고서는 OFFICE 365 atp 계획 1에서 사용할 수 있지만, **Threat Explorer** 는 office 365 atp 계획 2에서 사용할 수 있습니다.
+- **실시간** 검색 보고서는 Defender for Office 365 plan 1에서 사용할 수 있지만, **Threat Explorer** 는 Defender for office 365 plan 2에 있습니다.
 - **실시간** 검색 보고서를 사용 하면 실시간으로 검색을 볼 수 있습니다. **위협 탐색기** 도이를 수행 하지만 지정 된 공격에 대 한 추가 세부 정보를 볼 수도 있습니다.
 - **모든 전자 메일** 보기는 **위협 탐색기** 에서 사용할 수 있으며 **실시간** 검색 보고서에는 없습니다.
 - **위협 탐색기** 에는 추가 필터링 기능 및 사용 가능한 작업이 포함 되어 있습니다.
 
-자세한 내용은 [Office 365 Atp 서비스 설명: atp (Advanced Threat Protection) 계획에서의 기능 사용 가능 여부](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)를 참조 하세요.
+자세한 내용은 [Microsoft defender For office 365 Service Description: Defender For office 365 요금제의 기능 사용 가능 여부](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)를 참조 하세요.

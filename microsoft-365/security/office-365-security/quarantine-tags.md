@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX
 description: 관리자는 격리 태그를 사용 하 여 사용자가 격리 된 메시지에 대해 수행할 수 있는 작업을 제어 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 89f03795d8f12b3df3e5090648c5a6c8b64c322a
-ms.sourcegitcommit: 676479f1e65492b44c4d0316a765f55ae9fae374
+ms.openlocfilehash: e50d7eea4cec3c87231dda855725b1e901f5fa33
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48819743"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845699"
 ---
 # <a name="quarantine-tags"></a>격리 태그
 
@@ -229,7 +229,7 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
 |기능|격리 태그가 지원 됩니까?|기본 격리 태그 사용|
 |---|:---:|---|
 |[스팸 방지 정책](configure-your-spam-filter-policies.md): <ul><li>**스팸** ( _spamaction_ )</li><li>_HighConfidenceSpamAction_ ( **High 신임 스팸** )</li><li>**피싱 전자 메일** ( _PhishSpamAction_ )</li><li>**높은 신뢰도 피싱 전자 메일** ( _HighConfidencePhishAction_ )</li><li>**대량 전자 메일 (다량** _spamaction_ )</li></ul>|예|<ul><li>DefaultSpamTag (모든 권한)</li><li>DefaultHighConfSpamTag (모든 권한)</li><li>DefaultPhishTag (모든 권한)</li><li>DefaultHighConfPhishTag (액세스 권한 없음)</li><li>Default대량 태그 (모든 권한)</li></ul>
-|피싱 방지 정책: <ul><li>[스푸핑 인텔리전스 보호](set-up-anti-phishing-policies.md#spoof-settings) ( _authenticationfailaction_ )</li><li>[가장 보호](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies):<sup>\*</sup> <ul><li>**가장 된 사용자가 전자 메일을 보낸 경우** ( _TargetedUserProtectionAction_ )</li><li>**가장 된 도메인에서 전자 메일을 보낸 경우** ( _TargetedDomainProtectionAction_ )</li><li>**사서함 인텔리전스** \> **가장 된 사용자가 전자 메일을 보낸 경우** ( _MailboxIntelligenceProtectionAction_ )</li></ul></li></ul></ul>|아니요|해당 없음|
+|피싱 방지 정책: <ul><li>[스푸핑 인텔리전스 보호](set-up-anti-phishing-policies.md#spoof-settings) ( _authenticationfailaction_ )</li><li>[가장 보호](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365):<sup>\*</sup> <ul><li>**가장 된 사용자가 전자 메일을 보낸 경우** ( _TargetedUserProtectionAction_ )</li><li>**가장 된 도메인에서 전자 메일을 보낸 경우** ( _TargetedDomainProtectionAction_ )</li><li>**사서함 인텔리전스** \> **가장 된 사용자가 전자 메일을 보낸 경우** ( _MailboxIntelligenceProtectionAction_ )</li></ul></li></ul></ul>|아니요|해당 없음|
 |[맬웨어 방지 정책](configure-anti-malware-policies.md): 검색 된 모든 메시지는 항상 격리 됩니다.|아니요|해당 없음|
 |[SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](atp-for-spo-odb-and-teams.md)|아니요|해당 없음|
 |[메일 흐름 규칙](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) (전송 규칙이 라고도 함)은 **메시지를 호스팅된 격리** ( _격리_ )로 배달 합니다.|아니요|해당 없음|

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Threat Protection의 사용자 지정 검색 개요
+title: Microsoft 365 Defender의 사용자 지정 검색 개요
 description: 고급 검색을 사용 하 여 사용자 지정 검색을 만들고 알림을 생성 하는 방법을 이해 합니다.
 keywords: 고급 구하기, 위협 검색, 사이버 위협 요소 검색, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 사용자 지정 검색, 스키마, kusto, microsoft 365 및 microsoft Threat Protection
 search.product: eADQiWindows 10XVcnh
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 28d6cca20c8b386d5e6f7f39b80264a39f88ec55
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: fe2b9f1b52fa2c8d9031bb58597992f3dda91520
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199468"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843915"
 ---
 # <a name="custom-detections-overview"></a>사용자 지정 검색 개요
 
@@ -30,7 +30,7 @@ ms.locfileid: "48199468"
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 사용자 지정 검색을 사용 하면 의심 스러운 위반 작업과 잘못 구성 된 끝점을 포함 하 여 다양 한 이벤트 및 시스템 상태를 사전에 모니터링 하 고 응답할 수 있습니다. 이는 응답 작업 뿐만 아니라 경고를 자동으로 트리거하는 사용자 지정 가능한 검색 규칙이 적용 될 수 있습니다.
 

@@ -14,12 +14,12 @@ ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 Microsoft EOP (Exchange Online Protection) 관리자가 사용할 수 있는 보고서 및 문제 해결 도구에 대해 알아봅니다.
-ms.openlocfilehash: 86f4e18430324ed95f036f93746d826225ec3b2f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 9a8eb8e35ef73eb27604eef4bf701982b1d51710
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196402"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845555"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>EOP의 보고 및 메시지 추적
 
@@ -30,13 +30,13 @@ Exchange online 사서함이 없는 exchange Online 또는 독립 실행형 EOP 
 
 ## <a name="usage-reports"></a>사용 현황 보고서
 
-**Microsoft 365 groups activity**: 만들어지고 사용 되는 microsoft 365 그룹 수에 대 한 정보를 봅니다.
+**Microsoft 365 groups activity** : 만들어지고 사용 되는 microsoft 365 그룹 수에 대 한 정보를 봅니다.
 
-**전자 메일 활동**: 전체 조직에서 전송, 수신 및 읽은 메시지 수와 특정 사용자에 대 한 정보를 확인 합니다.
+**전자 메일 활동** : 전체 조직에서 전송, 수신 및 읽은 메시지 수와 특정 사용자에 대 한 정보를 확인 합니다.
 
-**전자 메일 앱 사용 현황**: 사용 되는 전자 메일 앱에 대 한 정보를 볼 수 있습니다. 여기에는 각 앱에 대 한 총 연결 수와 연결 중인 Outlook의 버전이 포함 됩니다.
+**전자 메일 앱 사용 현황** : 사용 되는 전자 메일 앱에 대 한 정보를 볼 수 있습니다. 여기에는 각 앱에 대 한 총 연결 수와 연결 중인 Outlook의 버전이 포함 됩니다.
 
-**사서함 사용량**: 사서함에 사용 되는 저장소, 할당량 소비, 항목 수 및 마지막 활동 (보내기 또는 읽기 작업)에 대 한 정보를 확인 합니다.
+**사서함 사용량** : 사서함에 사용 되는 저장소, 할당량 소비, 항목 수 및 마지막 활동 (보내기 또는 읽기 작업)에 대 한 정보를 확인 합니다.
 
 자세한 내용은 다음 리소스를 참조 하십시오.
 
@@ -52,11 +52,11 @@ Exchange online 사서함이 없는 exchange Online 또는 독립 실행형 EOP 
 
 이러한 향상 된 보고서는 요약 정보와 자세한 정보를 드릴 다운 하는 기능을 포함 하는 EOP 관리자에 게 대화형 보고 환경을 제공 합니다.
 
-**Atp (Advanced Threat Protection)**: atp에 속하는 안전한 링크 및 안전한 첨부 파일에 대 한 정보를 확인 합니다.
+**Defender For office 365** : Microsoft Defender for office 365의 일부인 안전한 링크 및 안전한 첨부 파일에 대 한 정보를 볼 수 있습니다.
 
-**EOP**: 조직에서 보내고 보낸 맬웨어 감지, 스푸핑된 메일, 스팸 감지 및 메일 흐름에 대 한 정보를 확인 합니다.
+**EOP** : 조직에서 보내고 보낸 맬웨어 감지, 스푸핑된 메일, 스팸 감지 및 메일 흐름에 대 한 정보를 확인 합니다.
 
-[Office 365 Advanced Threat Protection에 대 한 보고서 보기](view-reports-for-atp.md)
+[Office 365 용 Defender에 대 한 보고서 보기](view-reports-for-atp.md)
 
 ## <a name="custom-reports-using-microsoft-graph"></a>Microsoft Graph를 사용한 사용자 지정 보고서
 

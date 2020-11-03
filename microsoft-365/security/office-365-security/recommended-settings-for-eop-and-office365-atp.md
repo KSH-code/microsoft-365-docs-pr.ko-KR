@@ -1,5 +1,5 @@
 ---
-title: EOP 및 Office 365 ATP 보안 설정, 권장 사항, 보낸 사람 정책 프레임 워크, 도메인 기반 메시지 보고 및 적합성, DomainKeys 식별 된 메일, 단계, 작업 방법, 보안 기준, EOP, 초기 계획, atp에 대 한 기준선, atp에 대 한 사전, 구성, 구성 EOP, 보안 구성에 대 한 Microsoft 권장 사항
+title: Microsoft의 EOP 및 Defender for Office 365 보안 설정, 권장 사항, 보낸 사람 정책 프레임 워크, 도메인 기반 메시지 보고 및 적합성, DomainKeys 식별 된 메일, 단계, 작업 방법, 보안 초기 계획, EOP의 초기 계획, office for a 365 Defender for office 365, set up EOP, Office 365 구성 EOP, 보안 구성
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,23 +16,23 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-description: EOP (Exchange Online Protection) 및 ATP (Advanced Threat Protection) 보안 설정에 대 한 모범 사례 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 ATP (Advanced Threat Protection)를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: 4afd662be28c047d5f738dc0f70f0254e7a7a83f
-ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
+description: EOP (Exchange Online Protection) 및 Defender for Office 365 보안 설정에 대 한 모범 사례는 무엇 인가요? 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 Office 365 용으로 Defender를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
+ms.openlocfilehash: ab8640574d15cc1950ac0873ef90c4d984553510
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48806775"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845651"
 ---
-# <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>EOP 및 Office 365 ATP 보안에 대 한 권장 설정
+# <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>EOP 및 Office 용 Microsoft Defender 365 보안에 대 한 권장 설정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-**EOP (Exchange Online Protection)** 는 Microsoft 365 구독의 보안 핵심으로, 악성 전자 메일이 직원의 받은 편지함에 도달 하지 못하도록 합니다. 하지만 매일 보다 정교한 공격이 새로 등장 하면서도 향상 된 보호 기능은 대개 필요 합니다. **Office 365 ATP (Advanced Threat Protection)** ATP 계획 1 또는 ATP 계획 2에는 관리자가 더 많은 보안, 제어 및 조사 계층을 제공 하는 추가 기능이 포함 되어 있습니다.
+**EOP (Exchange Online Protection)** 는 Microsoft 365 구독의 보안 핵심으로, 악성 전자 메일이 직원의 받은 편지함에 도달 하지 못하도록 합니다. 하지만 매일 보다 정교한 공격이 새로 등장 하면서도 향상 된 보호 기능은 대개 필요 합니다. **Microsoft Defender For Office 365** 계획 1 또는 계획 2에는 관리자가 더 많은 보안, 제어 및 조사 계층을 제공 하는 추가 기능이 포함 되어 있습니다.
 
-보안 관리자는 보안 설정을 사용자 지정할 수 있도록 하지만 EOP 및 Office 365 ATP에는 **표준** 및 **Strict** 의 두 가지 보안 수준이 권장 됩니다. 각 고객의 환경과 요구 사항은 다르지만, 이러한 필터링 수준을 통해 대부분의 상황에서 원치 않는 메일이 직원의 받은 편지함에 도달 하는 것을 방지할 수 있습니다.
+보안 관리자는 보안 설정을 사용자 지정 하는 데 사용할 수 있지만 EOP에는 두 가지 보안 수준인 Office 365 용 Microsoft Defender와 권장 되는 **표준** 및 **Strict** 가 있습니다. 각 고객의 환경과 요구 사항은 다르지만, 이러한 필터링 수준을 통해 대부분의 상황에서 원치 않는 메일이 직원의 받은 편지함에 도달 하는 것을 방지할 수 있습니다.
 
-사용자에 게 표준 또는 엄격한 설정을 자동으로 적용 하려면 [EOP 및 Office 365 ATP에서 미리 설정 된 보안 정책을](preset-security-policies.md)참조 하세요.
+사용자에 게 표준 또는 엄격한 설정을 자동으로 적용 하려면 [미리 설정 된 보안 정책 EOP 및 Office 365 용 Microsoft Defender](preset-security-policies.md)를 참조 하세요.
 
 > [!NOTE]
 > 필터링이 제대로 작동 하려면 사서함에서 정크 메일 규칙을 사용 하도록 설정 해야 합니다. 이 기능은 기본적으로 사용 하도록 설정 되어 있지만 필터링이 작동 하지 않는 것 처럼 보이는 경우에는 확인 해야 합니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함에 대한 정크 메일 설정 구성하기](configure-junk-email-settings-on-exo-mailboxes.md)를 참조하세요.
@@ -142,27 +142,27 @@ ms.locfileid: "48806775"
 |**도메인을 스푸핑할 수 없는 사용자가 전자 메일을 보낸 경우** <br/><br/> _AuthenticationFailAction_|**받는 사람의 정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**받는 사람의 정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**메시지 격리** <br/><br/> `Quarantine`|이 설정은 [위장 인텔리전스](learn-about-spoof-intelligence.md)에서 수신 거부에 적용 됩니다.|
 |
 
-## <a name="office-365-advanced-threat-protection-security"></a>Office 365 Advanced Threat Protection 보안
+## <a name="microsoft-defender-for-office-365-security"></a>Microsoft Defender for Office 365 보안
 
-추가 보안 이점은 Office 365의 ATP (Advanced Threat Protection) 구독에서 제공 됩니다. 최신 뉴스 및 정보에 대 한 [Office 365 ATP의 새로운 기능](whats-new-in-office-365-atp.md)을 확인할 수 있습니다.
+추가 보안 혜택은 Microsoft Defender for Office 365 구독에서 제공 됩니다. 최신 뉴스 및 정보를 보려면 [Defender For Office 365의 새로운 기능](whats-new-in-office-365-atp.md)을 확인 하세요.
 
 > [!IMPORTANT]
 >
-> - 기본 ATP 피싱 방지 정책은 모든 받는 사람에 대해 [스푸핑 보호](set-up-anti-phishing-policies.md#spoof-settings) 를 제공 합니다. 그러나 특정 보낸 사람 또는 보낸 사람 도메인에 대 한 사용 가능한 [가장 보호](#impersonation-settings-in-atp-anti-phishing-policies) 설정은 기본 정책에서 구성 되거나 사용 하도록 설정 되지 않습니다. 가장을 보호 하도록 설정 하려면 기본 정책을 구성 하거나 추가 피싱 방지 정책을 만듭니다.
+> - Microsoft Defender for Office 365의 기본 피싱 방지 정책은 모든 받는 사람에 대해 [스푸핑 보호](set-up-anti-phishing-policies.md#spoof-settings) 를 제공 합니다. 그러나 특정 보낸 사람 또는 보낸 사람 도메인에 대 한 사용 가능한 [가장 보호](#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 설정은 기본 정책에서 구성 되거나 사용 하도록 설정 되지 않습니다. 가장을 보호 하도록 설정 하려면 기본 정책을 구성 하거나 Defender for Office 365에서 추가 피싱 방지 정책을 만듭니다.
 >
 > - 조직의 모든 받는 사람을 자동으로 보호 하는 기본 안전 링크 정책 또는 안전한 첨부 파일 정책이 없습니다. 보호를 받으려면 하나 이상의 안전한 링크 정책 및 안전한 첨부 파일 정책을 만들어야 합니다.
 >
 > - [SharePoint, OneDrive 및 Microsoft 팀](atp-for-spo-odb-and-teams.md) 보호 및 [안전한 문서](safe-docs.md) 보호를 위한 ATP는 안전한 링크 정책에 종속 되지 않습니다.
 
-구독에 Office 365 ATP가 포함 되어 있거나 Office 365 ATP를 추가 기능으로 구매한 경우에는 다음 표준 또는 엄격한 구성을 설정 합니다.
+구독에 Office 365 용 Microsoft Defender가 포함 되어 있거나 추가 기능으로 Office 365 용 Defender를 구매한 경우에는 다음 표준 또는 엄격한 구성을 설정 합니다.
 
-### <a name="atp-anti-phishing-policy-settings"></a>ATP 피싱 방지 정책 설정
+### <a name="anti-phishing-policy-settings-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 피싱 방지 정책 설정
 
-EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하지만 Office 365 ATP에는 공격을 방지, 감지 및 수정 하는 데 도움이 되는 다양 한 기능 및 제어가 포함 되어 있습니다. 이러한 정책을 만들고 구성 하려면 [Office 365에서 ATP 피싱 방지 정책 구성을](configure-atp-anti-phishing-policies.md)참조 하세요.
+EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지 기능을 사용할 수 있지만 Microsoft Defender for Office 365에는 공격을 방지, 감지 및 수정 하는 데 도움이 되는 다양 한 기능과 제어가 포함 되어 있습니다. 이러한 정책을 만들고 구성 하려면 [Defender에서 피싱 방지 정책 구성 Office 365](configure-atp-anti-phishing-policies.md)를 참조 하세요.
 
-#### <a name="impersonation-settings-in-atp-anti-phishing-policies"></a>ATP 피싱 방지 정책의 가장 설정
+#### <a name="impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Office 용 Microsoft Defender의 피싱 방지 정책에서 가장 설정 365
 
-이러한 설정에 대 한 자세한 내용은 [ATP 피싱 방지 정책에서 가장 설정을](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies)참조 하십시오. 이러한 설정을 구성 하려면 [ATP 피싱 방지 정책 구성을](configure-atp-anti-phishing-policies.md)참조 하십시오.
+이러한 설정에 대 한 자세한 내용은 [피싱 방지 정책에서 Office 용 Microsoft Defender 365의 가장 설정을](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)참조 하세요. 이러한 설정을 구성 하려면 [Defender의 피싱 방지 정책 구성에서 Office 365](configure-atp-anti-phishing-policies.md)를 참조 하세요.
 
 ****
 
@@ -183,7 +183,7 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 |**신뢰할 수 있는 도메인** <br/><br/> _ExcludedDomains_|없음|없음|없음|조직에 따라 가장을 제외 하 고는 다른 필터를 제외 하 고는 전용으로 피싱로 표시 된 도메인을 추가 하는 것이 좋습니다.|
 |
 
-#### <a name="spoof-settings-in-atp-anti-phishing-policies"></a>ATP 피싱 방지 정책의 스푸핑 설정
+#### <a name="spoof-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender의 피싱 방지 정책에서 스푸핑 설정 (Office 365 용)
 
 이러한 설정은 [EOP의 스팸 방지 정책 설정](#eop-anti-spam-policy-settings)에서 사용할 수 있는 설정과 동일 합니다.
 
@@ -196,9 +196,9 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 |**도메인을 스푸핑할 수 없는 사용자가 전자 메일을 보낸 경우** <br/><br/> _AuthenticationFailAction_|**받는 사람의 정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**메시지 격리** <br/><br/> `Quarantine`|이 설정은 [위장 인텔리전스](learn-about-spoof-intelligence.md)에서 수신 거부에 적용 됩니다.|
 |
 
-#### <a name="advanced-settings-in-atp-anti-phishing-policies"></a>ATP 피싱 방지 정책의 고급 설정
+#### <a name="advanced-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Office 용 Microsoft Defender의 피싱 방지 정책에서 고급 설정 365
 
-이 설정에 대 한 자세한 내용은 [ATP 피싱 방지 정책에서 Advanced 피싱 임계값](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-atp-anti-phishing-policies)을 참조 하십시오. 이 설정을 구성 하려면 [ATP 피싱 방지 정책 구성을](configure-atp-anti-phishing-policies.md)참조 하십시오.
+이 설정에 대 한 자세한 내용은 [Microsoft Defender For Office 365의 피싱 방지 정책에서 Advanced 피싱 임계값](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365)을 참조 하세요. 이 설정을 구성 하려면 [Defender의 피싱 방지 정책 구성에서 Office 365](configure-atp-anti-phishing-policies.md)를 참조 하세요.
 
 ****
 
@@ -209,11 +209,11 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 ### <a name="safe-links-settings"></a>안전한 링크 설정
 
-안전한 링크 Office 365 ATP에는 활성 안전한 링크 정책에 포함 된 모든 사용자에 게 적용 되는 전역 설정과 각 안전한 링크 정책과 관련 된 설정이 포함 되어 있습니다. 자세한 내용은 [Office 365 ATP의 안전한 링크](atp-safe-links.md)를 참조 하세요.
+Defender for Office 365의 안전한 링크는 활성 안전한 링크 정책에 포함 된 모든 사용자에 게 적용 되는 전역 설정 및 각 안전한 링크 정책과 관련 된 설정을 포함 합니다. 자세한 내용은 [Defender For Office 365의 안전한 링크](atp-safe-links.md)를 참조 하세요.
 
 #### <a name="global-settings-for-safe-links"></a>안전한 링크에 대 한 전역 설정
 
-이러한 설정을 구성 하려면 [Office 365 ATP의 안전한 링크에 대 한 전역 설정 구성을](configure-global-settings-for-safe-links.md)참조 하십시오.
+이러한 설정을 구성 하려면 [Defender For Office 365의 안전한 링크에 대 한 전역 설정 구성을](configure-global-settings-for-safe-links.md)참조 하십시오.
 
 PowerShell에서는 이러한 설정에 대해 [AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange/set-atppolicyforo365) cmdlet을 사용 합니다.
 
@@ -221,14 +221,14 @@ PowerShell에서는 이러한 설정에 대해 [AtpPolicyForO365](https://docs.m
 
 |보안 기능 이름|기본|Standard|항등|댓글|
 |---|:---:|:---:|:---:|---|
-|**에서 안전한 링크 사용: Office 365 응용 프로그램** <br/><br/> _EnableSafeLinksForO365Clients_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|ATP Safe 링크는 지원 되는 Office 365 desktop 및 mobile (iOS 및 Android) 앱에서 사용 합니다. 자세한 내용은 [Office 365 앱에 대 한 안전한 링크 설정](atp-safe-links.md#safe-links-settings-for-office-365-apps)를 참조 하세요.|
+|**에서 안전한 링크 사용: Office 365 응용 프로그램** <br/><br/> _EnableSafeLinksForO365Clients_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|지원 되는 Office 365 desktop 및 mobile (iOS 및 Android) 앱의 안전한 링크를 사용 합니다. 자세한 내용은 [Office 365 앱에 대 한 안전한 링크 설정](atp-safe-links.md#safe-links-settings-for-office-365-apps)를 참조 하세요.|
 |**사용자가 안전 링크를 클릭 하는 경우 추적 안 함** <br/><br/> _가을 클릭 하면_|켜짐 <br/><br/> `$false`|해제 <br/><br/> `$true`|해제 <br/><br/> `$true`|이 설정을 해제 하면 _TrackClicks_ `$true` 지원 되는 Office 365 앱에서 사용자가 클릭을 추적 합니다.|
 |**사용자가 원본 URL에 대 한 안전한 링크를 클릭 하는 것을 허용 하지 않음** <br/><br/> _AllowClickThrough 광고_|켜짐 <br/><br/> `$false`|켜짐 <br/><br/> `$false`|켜짐 <br/><br/> `$false`|이 설정을 켜면 ( _allowclickthrough_ 로 설정 `$false` )을 클릭 하면 지원 되는 Office 365 앱의 원본 URL로 이동할 수 없습니다.|
 |
 
 #### <a name="safe-links-policy-settings"></a>안전한 링크 정책 설정
 
-이러한 설정을 구성 하려면 [Office 365 ATP에서 안전한 링크 정책 설정](set-up-atp-safe-links-policies.md)을 참조 하십시오.
+이러한 설정을 구성 하려면 [Office 용 Microsoft Defender 365에서 안전한 링크 정책 설정](set-up-atp-safe-links-policies.md)를 참조 하세요.
 
 PowerShell에서는 이러한 설정에 대해 [get-safelinkspolicy](https://docs.microsoft.com/powershell/module/exchange/new-safelinkspolicy) 및 [get-safelinkspolicy](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy) cmdlet을 사용 합니다.
 
@@ -250,7 +250,7 @@ PowerShell에서는 이러한 설정에 대해 [get-safelinkspolicy](https://doc
 
 ### <a name="safe-attachments-settings"></a>안전한 첨부 파일 설정
 
-안전한 첨부 파일 Office 365 ATP에는 안전한 첨부 파일 정책과 관계가 없는 전역 설정 및 각 안전한 링크 정책과 관련 된 설정이 포함 됩니다. 자세한 내용은 [Office 365 ATP의 안전한 첨부 파일](atp-safe-attachments.md)을 참조 하십시오.
+Microsoft Defender for Office 365의 안전한 첨부 파일에는 안전한 첨부 파일 정책과 관계가 없는 전역 설정 및 각 안전한 링크 정책과 관련 된 설정이 포함 됩니다. 자세한 내용은 [Defender For Office 365의 안전한 첨부 파일](atp-safe-attachments.md)을 참조 하세요.
 
 #### <a name="global-settings-for-safe-attachments"></a>안전한 첨부 파일에 대 한 전역 설정
 
@@ -263,13 +263,13 @@ PowerShell에서는 이러한 설정에 대해 [AtpPolicyForO365](https://docs.m
 |보안 기능 이름|기본|Standard|항등|댓글|
 |---|:---:|:---:|:---:|---|
 |**SharePoint, OneDrive 및 Microsoft Teams의 ATP 켜기** <br/><br/> _EnableATPForSPOTeamsODB_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
-|**Office 클라이언트에 대 한 안전 문서 설정**<bt/><br/> _EnableSafeDocs_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|이 설정은 Microsoft 365 E5 또는 Microsoft 365 E5 보안 라이선스 에서만 사용할 수 있습니다. 자세한 내용은 [Office 365 Advanced Threat Protection의 안전한 문서](safe-docs.md)를 참조 하세요.|
+|**Office 클라이언트에 대 한 안전 문서 설정**<bt/><br/> _EnableSafeDocs_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|이 설정은 Microsoft 365 E5 또는 Microsoft 365 E5 보안 라이선스 에서만 사용할 수 있습니다. 자세한 내용은 [Microsoft Defender For Office 365의 안전 문서](safe-docs.md)를 참조 하세요.|
 |**안전한 문서에 악성 프로그램으로 확인 된 안전 문서가 있는 경우에도 제한 됨 보기를 클릭 하도록 허용**<bt/><br/> _AllowSafeDocsOpen_|해제 <br/><br/> `$false`|해제 <br/><br/> `$false`|이 설정은 안전한 문서와 관련이 있습니다.|
 |
 
 #### <a name="safe-attachments-policy-settings"></a>안전한 첨부 파일 정책 설정
 
-이러한 설정을 구성 하려면 [Office 365 ATP에서 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md)을 참조 하십시오.
+이러한 설정을 구성 하려면 [Defender For Safe Attachments 정책만 For Office 365](set-up-atp-safe-attachments-policies.md)을 참조 하십시오.
 
 PowerShell에서는 이러한 설정에 대해 [get-safeattachmentpolicy](https://docs.microsoft.com/powershell/module/exchange/new-safeattachmentpolicy) 및 [get-safeattachmentpolicy](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy) cmdlet을 사용 합니다.
 
@@ -291,6 +291,6 @@ PowerShell에서는 이러한 설정에 대해 [get-safeattachmentpolicy](https:
 
 - 관리자 및 사용자는 가양성 (잘못 된 것으로 표시 된 좋은 전자 메일)과 거짓 네거티브 (잘못 된 전자 메일 허용)를 분석을 위해 Microsoft에 제출할 수 있습니다. 자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
 
-- [EOP 서비스](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-your-eop-service)를 **설정** 하는 방법에 대 한 정보를 보려면 다음 링크를 사용 하 고, [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)을 **구성** 합니다. '[Office 365의 위협 으로부터 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)'에서 도움이 되는 지침을 잊지 마십시오.
+- [EOP 서비스](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-your-eop-service)를 **설정** 하는 방법에 대 한 정보를 보려면 다음 링크를 사용 하 고 [Office 365 용 Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)를 **구성** 합니다. '[Office 365의 위협 으로부터 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)'에서 도움이 되는 지침을 잊지 마십시오.
 
-- **Windows 용 보안 기준은** 여기에서 찾을 수 있습니다. GPO/온-프레미스 옵션에 대 한 보안 기준을 제공 하 고 [보안 기준을 사용 하 여 Intune 기반 보안용 intune에서 Windows 10 장치를 구성 하](https://docs.microsoft.com/intune/protect/security-baselines) [는 방법을 알아봅니다](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) . 마지막으로 microsoft [DEFENDER atp 및 Windows intune 보안 기준선을 비교](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines)하는 방법을 사용할 수 있는 것과 동일한 ATP (Advanced Threat Protection)와 microsoft intune 보안 기준을 비교 합니다.
+- **Windows 용 보안 기준은** 여기에서 찾을 수 있습니다. GPO/온-프레미스 옵션에 대 한 보안 기준을 제공 하 고 [보안 기준을 사용 하 여 Intune 기반 보안용 intune에서 Windows 10 장치를 구성 하](https://docs.microsoft.com/intune/protect/security-baselines) [는 방법을 알아봅니다](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) . 마지막으로 microsoft defender for Endpoint 및 Microsoft Intune 보안 기준을 비교 하 여 [끝점 및 Windows intune 보안 기준을 비교해](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines)볼 수 있습니다.

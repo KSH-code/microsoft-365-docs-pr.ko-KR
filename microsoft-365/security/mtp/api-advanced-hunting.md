@@ -1,6 +1,6 @@
 ---
 title: 고급 구하기 Api
-description: Microsoft Threat Protection API를 사용 하 여 고급 구하기 쿼리를 실행 하는 방법 알아보기
+description: Microsoft 365 Defender API를 사용 하 여 고급 구하기 쿼리를 실행 하는 방법에 대해 알아봅니다.
 keywords: 고급 구하기, Api, api, MTP
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: dd7b02200e370588bbb9470a3d7e897b30234ead
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: c43d263009578af6280ffdc780ab0f9a174a3b97
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197812"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844035"
 ---
 # <a name="advanced-hunting-apis"></a>고급 구하기 Api
 
@@ -32,7 +32,7 @@ ms.locfileid: "48197812"
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 >[!IMPORTANT] 
 >일부 정보는 상업적으로 출시 되기 전에 크게 수정 될 수 있는 prereleased 제품과 관련 되어 있습니다. Microsoft makes no warranties, express or implied, with respect to the information provided here.
@@ -46,7 +46,7 @@ ms.locfileid: "48197812"
 
 
 ## <a name="permissions"></a>권한
-이 API를 호출 하려면 다음 사용 권한 중 하나가 필요 합니다. 사용 권한을 선택 하는 방법을 비롯 하 여 자세한 내용은 [Microsoft Threat Protection Api 액세스](api-access.md) 를 참조 하세요.
+이 API를 호출 하려면 다음 사용 권한 중 하나가 필요 합니다. 사용 권한을 선택 하는 방법을 비롯 하 여 자세한 내용을 보려면 [Microsoft 365 Defender Api 액세스](api-access.md) 를 참조 하세요.
 
 사용 권한 유형 |   사용 권한  |   사용 권한 표시 이름
 :---|:---|:---
@@ -67,7 +67,7 @@ POST https://api.security.microsoft.com/api/advancedhunting/run
 
 Header | 값 
 :---|:---
-권한 부여 | 전달자 {토큰}. **필수**입니다.
+권한 부여 | 전달자 {토큰}. **필수** 입니다.
 Content-Type    | application/json
 
 ## <a name="request-body"></a>요청 본문
@@ -75,14 +75,14 @@ Content-Type    | application/json
 
 매개 변수 | 유형    | 설명
 :---|:---|:---
-Query | 텍스트 |  실행할 쿼리입니다. **필수**입니다.
+Query | 텍스트 |  실행할 쿼리입니다. **필수** 입니다.
 
 ## <a name="response"></a>응답
 성공 하면이 메서드는 응답 본문에 200 OK 및 _Queryresponse_ 개체를 반환 합니다. <br><br>
 
 Response 개체는 3 개의 부분으로 나뉩니다 (속성).<br>
 1) ```Stats``` -성능 통계를 쿼리 합니다.<br>
-2) ```Schema``` -응답의 스키마 이며 각 열에 대 한 이름 형식 쌍의 목록입니다. <br>
+2) ```Schema``` -응답의 스키마 이며, 각 열에 대 한 Name-Type 쌍 목록입니다. <br>
 3) ```Results``` -고급 구하기 이벤트 목록입니다.
 
 ## <a name="example"></a>예제
@@ -168,4 +168,4 @@ Response 개체는 3 개의 부분으로 나뉩니다 (속성).<br>
 ```
 
 ## <a name="related-topic"></a>관련 항목
-- [Microsoft Threat Protection Api 액세스](api-access.md)
+- [Microsoft 365 Defender Api 액세스](api-access.md)

@@ -14,12 +14,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 7699b31052ecc1bda33630fcf97e9d43875f4ae3
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: f3fa5c82efad0a51adf5e798bd89860e78256e15
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681593"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845315"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Microsoft 365에서 위협 보호 기능 구성
 
@@ -49,91 +49,91 @@ Microsoft는 모든 SaaS 응용 프로그램 (특히 Microsoft 365)에 대 한 �
 - [ID 및 장치 액세스 구성](../security/office-365-security/microsoft-365-policies-configurations.md)
 - [Azure MFA에 대 한 보안 지침](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication-security-best-practices)
 
-## <a name="step-2-configure-azure-advanced-threat-protection"></a>2 단계: Azure Advanced Threat Protection 구성
+## <a name="step-2-configure-microsoft-defender-for-identity"></a>2 단계: Id 용 Microsoft Defender 구성
 
-[AZURE ATP (Advanced Threat Protection](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) )는 온-프레미스 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) 에서 작동 하는 클라우드 기반 보안 솔루션으로, 사용자가 조직에서 보낸 고급 위협, 손상 된 id 및 악의적인 참가자 작업을 식별, 감지 및 조사 합니다.
+[Id에 대 한 Microsoft Defender](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) 는 온-프레미스 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) 에서 작동 하는 클라우드 기반 보안 솔루션으로, 고급 위협, 손상 된 id 및 조직에서 보낸 악성 참가자 작업을 식별, 감지 및 조사 합니다.
 
-Azure ATP에서는 하이브리드 환경의 고급 공격을 검색 하는 데 사용할 수 있는 보안 작업 (SecOps) 분석가 및 보안 전문가가 다음을 수행 합니다.
+Id 용 Microsoft Defender에서는 하이브리드 환경의 고급 공격을 검색 하는 데 필요한 보안 작업 (SecOps) 분석가 및 보안 전문가가 다음을 수행 합니다.
 - 학습 기반 분석을 사용 하 여 사용자, 엔터티 동작 및 활동을 모니터링 합니다.
 - Active Directory에 저장된 사용자 ID와 자격 증명을 보호합니다.
 - 킬체인에서 수상한 사용자 활동과 고급 공격을 식별하고 조사합니다.
 - 빠른 분류를 위해 간단한 시간 표시 막대에 명확한 인시던트 정보를 제공합니다.
 
-### <a name="to-set-up-azure-atp"></a>Azure ATP를 설정 하려면
+### <a name="to-set-up-microsoft-defender-for-identity"></a>Id를 위해 Microsoft Defender를 설정 하려면
 
-![Azure ATP 배포 프로세스](../media/solutions-architecture-center/deploy-azure-atp-steps.png) 
+![Id 용 Microsoft Defender 배포 프로세스](../media/solutions-architecture-center/deploy-azure-atp-steps.png) 
 
-1. [AZURE ATP를 설정](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) 하 여 기본 환경을 보호 합니다.
+1. [Microsoft Defender For Identity를 설정](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) 하 여 기본 환경을 보호 합니다.
 2. 모든 [도메인 컨트롤러](https://docs.microsoft.com/azure-advanced-threat-protection/atp-sensor-monitoring) 와 [포리스트](https://docs.microsoft.com/azure-advanced-threat-protection/atp-multi-forest)를 보호 합니다.
-3. [AZURE ATP 알림을](https://docs.microsoft.com/azure-advanced-threat-protection/suspicious-activity-guide?tabs=external) 보안 작업 (secops) 워크플로에 통합 합니다.
+3. [Id 알림을 위해 Microsoft Defender](https://docs.microsoft.com/azure-advanced-threat-protection/suspicious-activity-guide?tabs=external) 를 보안 작업 (secops) 워크플로에 통합 합니다.
 
-### <a name="more-information-about-azure-atp"></a>Azure ATP에 대 한 추가 정보
+### <a name="more-information-about-microsoft-defender-for-identity"></a>Id 용 Microsoft Defender에 대 한 자세한 정보
 
-- [Azure ATP란 무엇인가요?](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)
-- [비디오: Azure ATP 소개](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)
-- [Azure ATP 배포](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp#whats-next)
+- [Id 용 Microsoft Defender 란?](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)
+- [비디오: Id 용 Microsoft Defender 소개](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)
+- [Id 배포용 Microsoft Defender](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp#whats-next)
 
-## <a name="step-3-turn-on-microsoft-threat-protection"></a>3 단계: Microsoft Threat Protection 설정
+## <a name="step-3-turn-on-microsoft-365-defender"></a>3 단계: Microsoft 365 Defender 켜기
 
-[Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) 은 신호 및 orchestrates 기능을 단일 솔루션에 결합 합니다. 통합 Microsoft 위협 보호 솔루션을 사용 하는 경우 보안 전문가는 이러한 각 제품이 수신 하 고 위협의 모든 범위와 영향을 결정 하는 위협 신호를 함께 연결할 수 있습니다. 환경의 진입 방식, 영향을 받는 대상 및 현재 조직에 영향을 주는 방법 Microsoft Threat Protection은 공격을 방지 하거나 중지 하는 자동 작업을 수행 하 고 영향을 받는 사서함, 끝점 및 사용자 id를 자체 치유 합니다.
+[Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) 는 신호 및 orchestrates 기능을 단일 솔루션으로 결합 합니다. 통합 된 Microsoft 365 Defender 솔루션을 통해 보안 전문가는 이러한 각 제품이 수신 하 고 위협의 모든 범위와 영향을 결정 하는 위협 신호를 함께 연결할 수 있습니다. 환경의 진입 방식, 영향을 받는 대상 및 현재 조직에 영향을 주는 방법 Microsoft 365 Defender는 자동 작업을 수행 하 여 공격을 방지 하거나 중지 하 고 영향을 받는 사서함, 끝점 및 사용자 id를 자체 치유 합니다.
 
-Microsoft Threat Protection은 작업 (Azure ATP, Office 365 ATP, Microsoft Defender ATP 및 Microsoft Cloud App Security) 전반에 경고, 문제, 자동화 된 조사 및 대응 및 고급 검사를 통합 하 여 유리 환경의 단일 창에 제공 합니다. Advanced threat protection 서비스를 하나 이상 구성한 후에는 Microsoft Threat Protection을 사용 하도록 설정 합니다. 새로운 기능은 Microsoft Threat Protection에 지속적으로 추가 됩니다. 미리 보기 기능을 받으려면 옵트인을 고려 하세요.
+Microsoft 365 Defender는 작업 (microsoft defender for Identity, Microsoft Defender for Office 365, microsoft Defender App Security) 전반에 대 한 경고, 문제, 자동화 조사 및 대응 및 고급 기능을 단일 유리 환경 창에 통합 합니다. Office 365 서비스에 대 한 Defender를 하나 이상 구성한 후에는 Microsoft 365 Defender를 켜십시오. 새로운 기능은 Microsoft 365 Defender에 지속적으로 추가 됩니다. 미리 보기 기능을 받으려면 옵트인을 고려 하세요.
 
-### <a name="to-set-up-microsoft-threat-protection"></a>Microsoft Threat Protection을 설정 하려면
+### <a name="to-set-up-microsoft-365-defender"></a>Microsoft 365 Defender를 설정 하려면
 
-![Microsoft Threat Protection 배포 프로세스](../media/solutions-architecture-center/deploy-mtp-steps.png) 
+![Microsoft 365 Defender 배포 프로세스](../media/solutions-architecture-center/deploy-mtp-steps.png) 
 
 1. [필수 구성 요소를 검토](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites)합니다.
-2. [Microsoft Threat Protection을 사용 하도록 설정](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable)합니다.
+2. [Microsoft 365 Defender를 켜십시오](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable).
 3. [미리 보기 기능에 옵트인](https://docs.microsoft.com/microsoft-365/security/mtp/preview)합니다.
 
-### <a name="more-information-about-microsoft-threat-protection"></a>Microsoft Threat Protection에 대 한 추가 정보
+### <a name="more-information-about-microsoft-365-defender"></a>Microsoft 365 Defender에 대 한 추가 정보
 
-- [Microsoft 위협 방지란 무엇인가요?](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)
-- [Microsoft Threat Protection의 새로운 기능](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)
+- [Microsoft 365 Defender 란?](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)
+- [Microsoft 365 Defender의 새로운 기능](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)
 
-## <a name="step-4-configure-office-365-advanced-threat-protection"></a>4 단계: Office 365 Advanced Threat Protection 구성
+## <a name="step-4-configure-microsoft-defender-for-office-365"></a>4 단계: Office 365 용 Microsoft Defender 구성
 
-[Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) (OFFICE 365 ATP)은 전자 메일 메시지 (첨부 파일 및 url), Office 문서 및 공동 작업 도구에서 악의적인 위협 으로부터 조직을 보호 합니다. 다음 표에는 Microsoft 365 E5에 포함 된 Office 365 ATP 기능과 기능이 나와 있습니다.
+[Microsoft Defender For Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) 는 전자 메일 메시지 (첨부 파일 및 url), Office 문서 및 공동 작업 도구의 악의적인 위협 으로부터 조직을 보호 합니다. 다음 표에는 microsoft 365 E5에 포함 된 Office 365 기능과 기능에 대 한 Microsoft Defender가 나와 있습니다.
 
 |구성, 보호 및 검색 기능|자동화, 조사, 수정 및 교육 기능|
 |---|---|
-|[안전한 첨부 파일](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br/>[안전한 링크](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)<br/>[안전한 문서](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)<br/>[SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)<br/>[ATP 피싱 방지 보호 기능](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#exclusive-settings-in-atp-anti-phishing-policies)|[위협 트래커](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-trackers)<br/>[위협 탐색기](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)<br/>[자동화된 조사 및 응답](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>[공격 시뮬레이터](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulator)|
+|[안전한 첨부 파일](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br/>[안전한 링크](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)<br/>[안전한 문서](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)<br/>[SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)<br/>[Office 365 보호를 위한 Defender의 피싱 방지](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#exclusive-settings-in-atp-anti-phishing-policies)|[위협 트래커](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-trackers)<br/>[위협 탐색기](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)<br/>[자동화된 조사 및 응답](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>[공격 시뮬레이터](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulator)|
 |
 
-Office 365 ATP를 사용 하면 조직의 사용자가 전자 메일 콘텐츠 및 Office 문서에 대 한 위협 보호를 통해 통신을 보다 안전 하 게 진행 하 고 공동으로 작업할 수 있습니다.
+Office 365 용 Microsoft Defender를 사용 하 여 조직 전체의 사용자가 전자 메일 콘텐츠 및 Office 문서에 대 한 위협 보호를 통해 통신 하 고 보다 안전 하 게 공동 작업을 수행할 수 있습니다.
 
-### <a name="to-set-up-office-365-atp"></a>Office 365 ATP를 설정 하려면
+### <a name="to-set-up-microsoft-defender-for-office-365"></a>Office 365 용 Microsoft Defender를 설정 하려면
 
-![Office 365 ATP 배포 프로세스](../media/solutions-architecture-center/deploy-office365-atp-steps.png) 
+![Office 365 용 Microsoft Defender 배포 프로세스](../media/solutions-architecture-center/deploy-office365-atp-steps.png) 
 
-1. [Office 365 ATP 정책을 설정 하 고 구성](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)합니다.
-2. [Office 365 ATP 보고서를 보고 사용](https://docs.microsoft.com/microsoft-365/security/office-365-security/view-reports-for-atp)합니다.
+1. [Microsoft Defender For Office 365 정책을 설정 하 고 구성](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)합니다.
+2. [Microsoft Defender For Office 365 보고서를 보고 사용](https://docs.microsoft.com/microsoft-365/security/office-365-security/view-reports-for-atp)합니다.
 3. [위협 조사 및 응답 기능을 사용](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti)합니다.
 
-### <a name="more-information-about-office-365-atp"></a>Office 365 ATP에 대 한 추가 정보
+### <a name="more-information-about-microsoft-defender-for-office-365"></a>Office 365 용 Microsoft Defender에 대 한 자세한 정보
 
-- [Office 365 ATP 개요](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
-- [Office 365 ATP의 새로운 기능](https://docs.microsoft.com/microsoft-365/security/office-365-security/whats-new-in-office-365-atp)
+- [Microsoft Defender for Office 365 개요](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
+- [Microsoft Defender for Office 365의 새로운 기능](https://docs.microsoft.com/microsoft-365/security/office-365-security/whats-new-in-office-365-atp)
 
-## <a name="step-5-configure-microsoft-defender-advanced-threat-protection"></a>5 단계: Microsoft Defender Advanced Threat Protection 구성
+## <a name="step-5-configure-microsoft-defender-for-endpoint"></a>5 단계: 끝점에 대 한 Microsoft Defender 구성
 
-Microsoft [Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection) (MICROSOFT defender ATP)은 cyberthreats, Advanced 공격 및 데이터 위반 으로부터 조직 장치 (종점이 라고도 함)를 보호 합니다. 보안 팀은 해당 끝점의 보안을 관리 하는 것이 보다 효율적입니다. 강력한 도구는 조직이 [위협 및 취약성 관리](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)에 대 한 취약성 검색을 사용 하 여 패치가 적용 되지 않은 시스템을 유지 하도록 지원 합니다. [공격 표면 축소](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction), [차세대 보호](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10), [끝점 검색 및 응답과](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response)같은 자동화 된 검색 및 재구성 기능 및 [자동화 된 조사 및 개선](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) 도움말-장치를 맬웨어에 안전 하 게 유지 합니다. 이러한 기능을 통해 고객은 옵트인 알림을 받을 수 있으며, 필요에 따라 Microsoft 위협 전문가와 의견을 사용 하 여 관리 되는 사냥 서비스의 일부로도 도움이 됩니다. 
+[끝점에 대 한 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection) 는 cyberthreats, advanced 공격 및 데이터 위반 으로부터 조직 장치 (끝점도 함)를 보호 합니다. 보안 팀은 해당 끝점의 보안을 관리 하는 것이 보다 효율적입니다. 강력한 도구는 조직이 [위협 및 취약성 관리](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)에 대 한 취약성 검색을 사용 하 여 패치가 적용 되지 않은 시스템을 유지 하도록 지원 합니다. [공격 표면 축소](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction), [차세대 보호](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10), [끝점 검색 및 응답과](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response)같은 자동화 된 검색 및 재구성 기능 및 [자동화 된 조사 및 개선](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) 도움말-장치를 맬웨어에 안전 하 게 유지 합니다. 이러한 기능을 통해 고객은 옵트인 알림을 받을 수 있으며, 필요에 따라 Microsoft 위협 전문가와 의견을 사용 하 여 관리 되는 사냥 서비스의 일부로도 도움이 됩니다. 
 
 
-### <a name="set-up-microsoft-defender-atp"></a>Microsoft Defender ATP 설정
+### <a name="set-up-microsoft-defender-for-endpoint"></a>끝점에 대 한 Microsoft Defender 설정
 
-![Microsoft Defender ATP 배포 프로세스](../media/solutions-architecture-center/deploy-mdatp-steps.png) 
+![끝점에 대 한 Microsoft Defender 배포 프로세스](../media/solutions-architecture-center/deploy-mdatp-steps.png) 
 
-1. [Microsoft DEFENDER ATP 배포를 준비](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases)합니다.
-2. [Microsoft Defender ATP 배포 설정](https://docs.microsoft.com/windows/security/threat-protection/micros.oft-defender-atp/production-deployment)
-3. [Microsoft DEFENDER ATP 서비스에 내장 되어](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/onboarding)있습니다.
+1. [끝점 배포용 Microsoft Defender를 준비](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases)합니다.
+2. [끝점 배포용 Microsoft Defender 설정](https://docs.microsoft.com/windows/security/threat-protection/micros.oft-defender-atp/production-deployment)
+3. [끝점 서비스에 대 한 Microsoft Defender에 내장 되어](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/onboarding)있습니다.
 4. [최상위 보안 관리 작업을 완료](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-security-recommendation)합니다.
 
-### <a name="more-information-about-microsoft-defender-atp"></a>Microsoft Defender ATP에 대 한 추가 정보
+### <a name="more-information-about-microsoft-defender-for-endpoint"></a>끝점에 대 한 Microsoft Defender에 대 한 자세한 정보
 
-- 자세한 내용은 [Microsoft DEFENDER ATP](https://docs.microsoft.com/windows/security/threat-protection)를 확인 하세요.
-- [Microsoft DEFENDER ATP 평가 랩을 사용해 보세요](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/evaluation-lab).
+- [끝점에 대 한 Microsoft Defender에 대 한 자세한 내용을 알아보세요](https://docs.microsoft.com/windows/security/threat-protection).
+- [Microsoft Defender For Endpoint evaluation lab을 사용해 보세요](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/evaluation-lab).
 
 ## <a name="step-6-configure-microsoft-cloud-app-security"></a>6 단계: Microsoft Cloud App Security 구성
 

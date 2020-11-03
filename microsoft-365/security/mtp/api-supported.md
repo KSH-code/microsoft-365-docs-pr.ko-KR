@@ -1,6 +1,6 @@
 ---
-title: 지원되는 Microsoft Threat Protection API
-description: 지원되는 Microsoft Threat Protection API
+title: 지원 되는 Microsoft 365 Defender Api
+description: 지원 되는 Microsoft 365 Defender Api
 keywords: MTP, Api, api
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,19 +19,19 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: fda90945f09abfadfe56ea11469687130d88b2a7
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: b7c0accf2d649d4ad6177260294922ee17783f2c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203698"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844963"
 ---
-# <a name="supported-microsoft-threat-protection-apis"></a>지원되는 Microsoft Threat Protection API 
+# <a name="supported-microsoft-365-defender-apis"></a>지원 되는 Microsoft 365 Defender Api 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 >[!IMPORTANT] 
 >일부 정보는 상업적으로 출시 되기 전에 크게 수정 될 수 있는 prereleased 제품과 관련 되어 있습니다. Microsoft makes no warranties, express or implied, with respect to the information provided here.

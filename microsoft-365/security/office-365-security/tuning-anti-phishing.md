@@ -15,33 +15,33 @@ ms.collection:
 - m365initiative-defender-office365
 - MET150
 description: 관리자는 Microsoft 365에서 피싱 메시지를 통해 얻은 이유와 방법을 파악 하 고, 향후 피싱 메시지를 더 많이 방지 하기 위해 수행 해야 하는 작업에 대해 알아봅니다.
-ms.openlocfilehash: ab7087355ce8ee41616f63a7b466a0d5d0fc7b0f
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: e933769b6bce9eb10765fb2b58025445432bed18
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446468"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845471"
 ---
 # <a name="tune-anti-phishing-protection"></a>피싱 방지 보호 기능 조정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Microsoft 365에는 기본적으로 사용 하도록 설정 된 다양 한 피싱 방지 기능이 포함 되어 있지만 일부 피싱 메시지가 여전히 사서함으로 이동할 수 있습니다. 이 항목에서는 피싱 메시지가 발생 한 이유를 파악 하기 위해 수행할 수 있는 작업과 _실수로 작업을 더 악화 하지 않고_Microsoft 365 조 직에서 피싱 방지 설정을 조정 하기 위해 수행할 수 있는 작업에 대해 설명 합니다.
+Microsoft 365에는 기본적으로 사용 하도록 설정 된 다양 한 피싱 방지 기능이 포함 되어 있지만 일부 피싱 메시지가 여전히 사서함으로 이동할 수 있습니다. 이 항목에서는 피싱 메시지가 발생 한 이유를 파악 하기 위해 수행할 수 있는 작업과 _실수로 작업을 더 악화 하지 않고_ Microsoft 365 조 직에서 피싱 방지 설정을 조정 하기 위해 수행할 수 있는 작업에 대해 설명 합니다.
 
 ## <a name="first-things-first-deal-with-any-compromised-accounts-and-make-sure-you-block-any-more-phishing-messages-from-getting-through"></a>첫 번째 작업: 손상 된 계정을 처리 하 고 더 이상 피싱 메시지를 수신 하지 못하도록 차단 합니다.
 
 피싱 메시지의 결과로 받는 사람의 계정이 손상 된 경우 [Microsoft 365에서 손상 된 전자 메일 계정에 응답 하](responding-to-a-compromised-email-account.md)는 단계를 따르세요.
 
-구독에 ATP (Advanced Threat Protection)가 포함 되어 있으면 [Office 365 위협 인텔리전스](office-365-ti.md) 를 사용 하 여 피싱 메시지도 받은 다른 사용자를 식별할 수 있습니다. 피싱 메시지를 차단 하는 추가 옵션은 다음과 같습니다.
+구독에 Office 365 용 Microsoft Defender가 포함 되어 있는 경우 [office 365 위협 인텔리전스](office-365-ti.md) 를 사용 하 여 피싱 메시지도 받은 다른 사용자를 식별할 수 있습니다. 피싱 메시지를 차단 하는 추가 옵션은 다음과 같습니다.
 
-- [Office 365 ATP의 안전한 링크](set-up-atp-safe-links-policies.md)
+- [Microsoft Defender for Office 365의 안전한 링크](set-up-atp-safe-links-policies.md)
 
-- [Office 365 ATP의 안전한 첨부 파일](set-up-atp-safe-attachments-policies.md)
+- [Microsoft Defender for Office 365의 안전한 첨부 파일](set-up-atp-safe-attachments-policies.md)
 
-- [Office 365 ATP의 피싱 방지 정책](configure-atp-anti-phishing-policies.md) 정책의 **고급 피싱 임계값** 을 **표준** 에서 일시적 **으로, 적극적** **으로 또는** **적극적인**로 높일 수 있습니다.
+- [Office 365 용 Microsoft Defender의 피싱 방지 정책](configure-atp-anti-phishing-policies.md) 정책의 **고급 피싱 임계값** 을 **표준** 에서 일시적 **으로, 적극적** **으로 또는** **적극적인** 로 높일 수 있습니다.
 
-ATP 기능이 설정 되어 있는지 확인 합니다.
+이러한 Defender for Office 365 기능이 켜져 있는지 확인 합니다.
 
 ## <a name="report-the-phishing-message-to-microsoft"></a>Microsoft에 피싱 메시지 보고
 
@@ -59,9 +59,9 @@ ATP 기능이 설정 되어 있는지 확인 합니다.
 
 - 실수로 격리 되거나, 허용 되는 메시지에 대해 차단 되는 메시지의 경우 [위협 탐색기 및 실시간](threat-explorer.md)검색에서 해당 메시지를 찾는 것이 좋습니다. 보낸 사람, 받는 사람 또는 메시지 ID 별로 검색할 수 있습니다. 메시지를 찾은 후 주제를 클릭 하 여 세부 정보로 이동 합니다. 격리 된 메시지의 경우 적절 한 방법으로 재정의 하는 데 사용할 수 있도록 "검색 기술"이 있던 것을 확인 합니다. 허용 되는 메시지에 대해 메시지를 허용 하는 정책을 확인 합니다. 
 
-- 스푸핑된 메일에는 ATP의 피싱로 태그가 지정 됩니다. 때로는 스푸핑이 심각 하지 않으며 사용자가 격리 하지 않을 수도 있습니다. 사용자에 게 미치는 영향을 최소화 하기 위해, 주기적으로 [스푸핑 인텔리전스 보고서](learn-about-spoof-intelligence.md)를 검토 합니다. 필요한 재정의를 검토 하 고 수행한 후에는 사용자의 정크 메일 폴더로 배달 하지 않고 의심 스러운 메시지를 **격리** 하도록 [스푸핑 인텔리전스를 구성](set-up-anti-phishing-policies.md#spoof-settings) 하는 것을 확신할 수 있습니다.
+- 스푸핑된 메일에는 Defender for Office 365의 피싱로 태그가 지정 됩니다. 때로는 스푸핑이 심각 하지 않으며 사용자가 격리 하지 않을 수도 있습니다. 사용자에 게 미치는 영향을 최소화 하기 위해, 주기적으로 [스푸핑 인텔리전스 보고서](learn-about-spoof-intelligence.md)를 검토 합니다. 필요한 재정의를 검토 하 고 수행한 후에는 사용자의 정크 메일 폴더로 배달 하지 않고 의심 스러운 메시지를 **격리** 하도록 [스푸핑 인텔리전스를 구성](set-up-anti-phishing-policies.md#spoof-settings) 하는 것을 확신할 수 있습니다.
 
-- 가장 (도메인 또는 사용자)에 대해 위의 단계를 반복할 수 있습니다. 가장 보고서는 **Threat Management** \> **Dashboard** \> **Insights**에서 찾을 수 있습니다.
+- 가장 (도메인 또는 사용자)에 대해 위의 단계를 반복할 수 있습니다. 가장 보고서는 **Threat Management** \> **Dashboard** \> **Insights** 에서 찾을 수 있습니다.
 
 - [위협 방지 상태 보고서](view-reports-for-atp.md#threat-protection-status-report)를 주기적으로 검토 합니다.
 
