@@ -1,5 +1,5 @@
 ---
-title: ATP 피싱 방지 정책 구성
+title: Microsoft Defender for Office 365에서 피싱 방지 정책 구성
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -13,48 +13,46 @@ localization_priority: Normal
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: 관리자는 Office 365 Advanced Threat Protection (Office 365 ATP)을 사용 하 여 조직에서 사용할 수 있는 고급 피싱 방지 정책을 만들고, 수정 하 고, 삭제 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: d6655089556f7268222dc47e2196f8aa1fc3da4e
-ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
+description: 관리자는 Microsoft Defender for Office 365를 사용 하 여 조직에서 사용할 수 있는 고급 피싱 방지 정책을 만들고, 수정 하 고, 삭제 하는 방법에 대해 알아볼 수 있습니다.
+ms.openlocfilehash: 9e07107c302f83b71a97517b11e71eac81f84f6b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48769223"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845927"
 ---
-# <a name="configure-atp-anti-phishing-policies"></a>ATP 피싱 방지 정책 구성
+# <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365에서 피싱 방지 정책 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-ATP 피싱 방지 정책은 [Office 365 Advanced Threat Protection](office-365-atp.md)의 일부입니다. ATP 피싱 방지 정책은 악의 있는 가장 기반 피싱 공격과 기타 유형의 피싱 공격 으로부터 조직을 보호 하는 데 도움이 될 수 있습니다. EOP (Exchange Online Protection)의 피싱 방지 정책, ATP 피싱 방지 정책 간의 차이점에 대 한 자세한 내용은 [피싱 방지 보호](anti-phishing-protection.md)를 참조 하십시오.
+[Microsoft Defender For Office 365](office-365-atp.md) 의 피싱 방지 정책은 공격자가 악의적인 가장 기반 피싱 공격 및 기타 유형의 피싱 공격 으로부터 조직을 보호 하는 데 도움이 될 수 있습니다. EOP (Exchange Online Protection)의 피싱 방지 정책 및 Office 용 Microsoft Defender 365의 피싱 방지 정책 간의 차이점에 대 한 자세한 내용은 [피싱 방지 보호](anti-phishing-protection.md)를 참조 하세요.
 
-관리자는 기본 ATP 피싱 방지 정책을 보고, 편집 하 고, 구성 하 고, 삭제할 수는 없습니다. 세분성을 높이기 위해 조직의 특정 사용자, 그룹 또는 도메인에 적용 되는 사용자 지정 ATP 피싱 방지 정책을 만들 수도 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만, 사용자 지정 정책의 우선순위(실행 순서)를 변경할 수 있습니다.
+관리자는 기본 피싱 방지 정책을 보고 편집 하 고 구성할 수 있습니다 (삭제 하지 않음). 세분성을 높이기 위해 조직의 특정 사용자, 그룹 또는 도메인에 적용 되는 사용자 지정 피싱 방지 정책을 만들 수도 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만, 사용자 지정 정책의 우선순위(실행 순서)를 변경할 수 있습니다.
 
-보안 & 준수 센터 또는 Exchange Online PowerShell에서 ATP 피싱 방지 정책을 구성할 수 있습니다.
+보안 & 준수 센터 또는 Exchange Online PowerShell에서 피싱 방지 정책을 구성할 수 있습니다.
 
-Exchange Online Protection 조직에서 사용할 수 있는 피싱 방지 정책에서 더 제한 된 기능 365 365을 구성 하는 방법에 대 한 자세한 내용은 [EOP에서 피싱 방지 정책 구성을](configure-anti-phishing-policies-eop.md)참조 하십시오.
+Exchange Online Protection 조직에서 사용할 수 있는 피싱 방지 정책에서 더 제한 된 기능 365을 구성 하는 방법에 대 한 자세한 내용은 [EOP에서 피싱 방지 정책 구성을](configure-anti-phishing-policies-eop.md)참조 하십시오.
 
-## <a name="atp-anti-phishing-policies-in-the-security--compliance-center-vs-powershell"></a>보안 & 준수 센터 vs PowerShell의 ATP 피싱 방지 정책
-
-ATP 피싱 방지 정책의 기본 요소는 다음과 같습니다.
+피싱 방지 정책의 기본 요소는 다음과 같습니다.
 
 - **피싱 정책** : 사용 하거나 사용 하지 않도록 설정할 피싱 보호를 지정 하 고 옵션을 적용 하는 작업입니다.
 - **피싱 규칙** : 피싱 정책에 대해 정책이 적용 되는 우선 순위 및 받는 사람 필터를 지정 합니다.
 
-보안 & 준수 센터에서 ATP 피싱 방지 정책을 관리할 때는 이러한 두 가지 요소 간의 차이가 명확 하지 않습니다.
+보안 & 준수 센터에서 피싱 방지 정책을 관리할 때는 이러한 두 가지 요소 간의 차이가 명확 하지 않습니다.
 
 - 정책을 만들 때 실제로는 피싱 규칙과 관련 된 피싱 정책을 모두 같은 이름으로 사용 하 여 동시에 만드는 것입니다.
 - 정책을 수정 하면 이름, 우선 순위, 사용/사용 안 함 및 받는 사람 필터와 관련 된 설정이 피싱 규칙을 수정 합니다. 다른 모든 설정은 연결 된 피싱 정책을 수정 합니다.
 - 정책을 제거 하면 피싱 규칙과 연결 된 피싱 정책이 모두 제거 됩니다.
 
-Exchange Online PowerShell에서는 정책과 규칙을 별도로 관리 합니다. 자세한 내용은이 항목 뒷부분에 나오는 [Exchange Online PowerShell을 사용 하 여 ATP 피싱 방지 정책 구성](#use-exchange-online-powershell-to-configure-atp-anti-phishing-policies) 섹션을 참조 하세요.
+Exchange Online PowerShell에서는 정책과 규칙을 별도로 관리 합니다. 자세한 내용은이 항목 뒷부분에 나오는 [Microsoft Defender For Office 365 섹션에서 Exchange Online PowerShell을 사용 하 여 피싱 방지 정책을 구성 하](#use-exchange-online-powershell-to-configure-anti-phishing-policies-in-microsoft-defender-for-office-365) 는 방법을 참조 하세요.
 
-모든 Office 365 ATP 조직에는 다음과 같은 속성이 포함 된 Office365 AntiPhish Default 라는 기본 제공 되는 ATP 피싱 방지 정책이 있습니다.
+모든 Microsoft Defender for Office 365 조직에는 다음 속성이 포함 된 Office365 AntiPhish Default 라는 피싱 방지 정책이 기본 제공 됩니다.
 
 - 정책과 연결 된 피싱 규칙 (받는 사람 필터)이 없더라도 조직의 모든 받는 사람에 게 정책이 적용 됩니다.
 - 정책의 사용자 지정 우선순위 값은 **가장 낮음** 이며 변경할 수 없습니다(이 정책은 항상 마지막으로 적용됨). 사용자가 만든 모든 사용자 지정 정책은 항상 더 높은 우선순위를 갖습니다.
 - 그 정책이 기본 정책( **IsDefault** 속성의 값은 `True`)이고, 기본 정책은 삭제할 수 없습니다.
 
-피싱 방지 보호 기능의 효율성을 높이려면 특정 사용자 또는 사용자 그룹에 적용 되는 보다 엄격한 설정을 사용 하 여 사용자 지정 ATP 피싱 방지 정책을 만들 수 있습니다.
+Microsoft Defender for Office 365에서 피싱 방지 보호 기능의 효율성을 높이려면 특정 사용자나 사용자 그룹에 적용 되는 보다 엄격한 설정을 사용 하 여 사용자 지정 피싱 방지 정책을 만들 수 있습니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
@@ -64,27 +62,27 @@ Exchange Online PowerShell에서는 정책과 규칙을 별도로 관리 합니�
 
 - 이 문서의 절차를 수행 하려면 먼저 사용 권한을 할당 받아야 합니다.
 
-  - ATP 피싱 방지 정책을 추가, 수정 및 삭제 하려면 다음 역할 그룹 중 하나의 구성원 이어야 합니다.
+  - 피싱 방지 정책을 추가, 수정 및 삭제 하려면 다음 역할 그룹 중 하나의 구성원 이어야 합니다.
 
     - [보안 및 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **조직 관리** 또는 **보안 관리자**
     - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **조직 관리** 및 **예방 조치 관리**
 
-  - ATP 피싱 방지 정책에 대 한 읽기 전용 액세스를 위해서는 다음 역할 그룹 중 하나의 구성원 이어야 합니다.
+  - 피싱 방지 정책에 대 한 읽기 전용 액세스를 위해서는 다음 역할 그룹 중 하나의 구성원 이어야 합니다.
 
     - [보안 및 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **보안 읽기**
     - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리**
 
-- ATP 피싱 사기 정책에 대 한 권장 설정은 [atp 피싱 방지 정책 설정을](recommended-settings-for-eop-and-office365-atp.md#atp-anti-phishing-policy-settings)참조 하십시오.
+- Microsoft Defender for Office 365의 피싱 방지 정책에 대 한 권장 설정에 대해서는 [Defender For office 365 설정에서 피싱 방지 정책을](recommended-settings-for-eop-and-office365-atp.md#anti-phishing-policy-settings-in-microsoft-defender-for-office-365)참조 하세요.
 
 - 새 정책이 나 업데이트 된 정책을 적용할 최대 30 분을 허용 합니다.
 
 - 필터링 파이프라인에서 피싱 방지 정책이 적용 되는 위치에 대 한 자세한 내용은 [전자 메일 보호의 주문 및 우선 순위](how-policies-and-protections-are-combined.md)를 참조 하세요.
 
-## <a name="use-the-security--compliance-center-to-create-atp-anti-phishing-policies"></a>보안 & 준수 센터를 사용 하 여 ATP 피싱 방지 정책 만들기
+## <a name="use-the-security--compliance-center-to-create-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>보안 & 준수 센터를 사용 하 여 Microsoft Defender for Office 365의 피싱 방지 정책 만들기
 
-보안 & 준수 센터에서 사용자 지정 ATP 피싱 방지 정책을 만들면 두 가지 모두에 동일한 이름을 사용 하 여 피싱 규칙과 연결 된 피싱 정책이 동시에 만들어집니다.
+보안 & 준수 센터에서 사용자 지정 피싱 방지 정책을 만들면 두 가지 모두에 동일한 이름을 사용 하 여 피싱 규칙과 연결 된 피싱 정책이 동시에 만들어집니다.
 
-ATP 피싱 방지 정책을 만들 때는 정책 이름, 설명 및 정책이 적용 되는 사람을 식별 하는 받는 사람 필터를 지정할 수만 있습니다. 정책을 만든 후에 정책을 수정 하 여 기본 피싱 방지 설정을 변경 하거나 검토할 수 있습니다.
+피싱 방지 정책을 만들 때 정책 이름, 설명 및 정책이 적용 되는 사람을 식별 하는 받는 사람 필터를 지정할 수만 있습니다. 정책을 만든 후에 정책을 수정 하 여 기본 피싱 방지 설정을 변경 하거나 검토할 수 있습니다.
 
 1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 피싱 방지** 로 이동 합니다.
 
@@ -128,15 +126,15 @@ ATP 피싱 방지 정책을 만들 때는 정책 이름, 설명 및 정책이 �
 
 6. 나타나는 확인 대화 상자에서 **확인을** 클릭 합니다.
 
-이러한 일반 정책 설정을 사용 하 여 ATP 피싱 방지 정책을 만든 후에는 다음 섹션의 지침을 사용 하 여 정책에서 보호 설정을 구성 합니다.
+이러한 일반 설정을 사용 하 여 피싱 방지 정책을 만든 후에는 다음 섹션의 지침을 사용 하 여 정책에서 보호 설정을 구성 합니다.
 
-## <a name="use-the-security--compliance-center-to-modify-atp-anti-phishing-policies"></a>보안 & 준수 센터를 사용 하 여 ATP 피싱 방지 정책 수정
+## <a name="use-the-security--compliance-center-to-modify-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>보안 & 준수 센터를 사용 하 여 Microsoft Defender for Office 365의 피싱 방지 정책 수정
 
-다음 절차에 따라 ATP 피싱 방지 정책, 즉 새로 만든 정책 또는 이미 사용자 지정한 기존 정책을 수정 합니다.
+다음 절차에 따라 새로 만든 정책 또는 이미 사용자 지정 했던 기존 정책을 사용 하 여 피싱 방지 정책을 수정 합니다.
 
 1. 아직 없는 경우 보안 & 준수 센터를 열고 **위협 관리** \> **정책** \> **ATP 피싱 방지** 로 이동 합니다.
 
-2. 수정 하려는 사용자 지정 ATP 피싱 방지 정책을 선택 합니다. 이미 선택 되어 있으면 선택을 취소 하 고 다시 선택 합니다.
+2. 수정 하려는 사용자 지정 피싱 방지 정책을 선택 합니다. 이미 선택 되어 있으면 선택을 취소 하 고 다시 선택 합니다.
 
 3. 정책 플라이 아웃 **\<name\> 편집** 이 표시 됩니다. 섹션에서 **편집** 을 클릭 하면 해당 섹션의 설정에 액세스할 수 있습니다.
 
@@ -144,7 +142,7 @@ ATP 피싱 방지 정책을 만들 때는 정책 이름, 설명 및 정책이 �
 
    - 섹션에서 **편집** 을 클릭 하면 사용 가능한 설정이 마법사 형식으로 제공 되지만 페이지 **내에서 언제** 든 지 페이지를 이동할 수 있습니다. **또는** 닫기 아이콘을 클릭 하 여 **Close** ![ ](../../media/scc-remove-icon.png) **\<name\> 정책 편집** 페이지로 돌아갈 수 있습니다 (마법사의 마지막 페이지를 방문 하 여 저장 하거나 나갈 필요가 없음).
 
-4. **정책 설정** : 이전 섹션에서 [정책을 만들](#use-the-security--compliance-center-to-create-atp-anti-phishing-policies) 때 사용 가능한 것과 동일한 설정을 수정 하려면 **편집** 을 클릭 합니다.
+4. **정책 설정** : 이전 섹션에서 [정책을 만들](#use-the-security--compliance-center-to-create-anti-phishing-policies-in-microsoft-defender-for-office-365) 때 사용 가능한 것과 동일한 설정을 수정 하려면 **편집** 을 클릭 합니다.
 
    - **이름**
    - **설명**
@@ -153,7 +151,7 @@ ATP 피싱 방지 정책을 만들 때는 정책 이름, 설명 및 정책이 �
 
    작업이 끝나면 모든 페이지에서 **저장** 을 클릭 합니다.
 
-5. **가장** : 정책에서 **편집** 을 클릭 하 여 보호 된 보낸 사람 및 보호 된 도메인을 수정 합니다. 이러한 설정은 인바운드 메시지의 보낸 사람 주소에서 찾을 수 있도록 (개별적으로 또는 도메인) 확인 되는 정책에 대 한 조건입니다. 자세한 내용은 [ATP 피싱 방지 정책에서 가장 설정을](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies)참조 하십시오.
+5. **가장** : 정책에서 **편집** 을 클릭 하 여 보호 된 보낸 사람 및 보호 된 도메인을 수정 합니다. 이러한 설정은 인바운드 메시지의 보낸 사람 주소에서 찾을 수 있도록 (개별적으로 또는 도메인) 확인 되는 정책에 대 한 조건입니다. 자세한 내용은 [Office 용 Microsoft Defender 365의 피싱 방지 정책에서 가장 설정을](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)참조 하세요.
 
    - **보호할 사용자 추가** : 기본값은 **Off** 입니다. 설정 하려면 켜기/끄기를 **설정 하 고** 표시 되는 **사용자 추가** 단추를 클릭 합니다.
 
@@ -275,7 +273,7 @@ ATP 피싱 방지 정책을 만들 때는 정책 이름, 설명 및 정책이 �
 
    작업이 끝나면 모든 페이지에서 **저장** 을 클릭 합니다.
 
-7. **고급 설정** : 고급 피싱 임계값을 구성 하려면 **편집** 을 클릭 합니다. 자세한 내용은 [ATP 피싱 방지 정책에서 Advanced 피싱 임계값](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-atp-anti-phishing-policies)을 참조 하십시오.
+7. **고급 설정** : 고급 피싱 임계값을 구성 하려면 **편집** 을 클릭 합니다. 자세한 내용은 [Microsoft Defender For Office 365의 피싱 방지 정책에서 Advanced 피싱 임계값](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365)을 참조 하세요.
 
    - **고급 피싱 임계값** : 다음 값 중 하나를 선택 합니다.
 
@@ -290,15 +288,15 @@ ATP 피싱 방지 정책을 만들 때는 정책 이름, 설명 및 정책이 �
 
 8. **\<Name\> 정책 편집** 페이지에서 설정을 검토 하 고 **닫기를** 클릭 합니다.
 
-### <a name="use-the-security--compliance-center-to-modify-the-default-atp-anti-phishing-policy"></a>보안 & 준수 센터를 사용 하 여 기본 ATP 피싱 방지 정책 수정
+### <a name="use-the-security--compliance-center-to-modify-the-default-anti-phishing-policy-in-microsoft-defender-for-office-365"></a>보안 & 준수 센터를 사용 하 여 Microsoft Defender for Office 365의 기본 피싱 방지 정책 수정
 
-기본 ATP 피싱 방지 정책은 Office365 AntiPhish Default로 이름이 지정 되며 정책 목록에 표시 되지 않습니다. 기본 ATP 피싱 방지 정책을 수정 하려면 다음 단계를 수행 합니다.
+Microsoft Defender for Office 365의 기본 피싱 방지 정책은 Office365 AntiPhish Default로 명명 되며 정책 목록에 표시 되지 않습니다. 기본 피싱 방지 정책을 수정 하려면 다음 단계를 수행 합니다.
 
 1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 피싱 방지** 로 이동 합니다.
 
 2. **피싱 방지** 페이지에서 **기본 정책을** 클릭 합니다.
 
-3. **정책 편집 Office365 AntiPhish 기본값** 페이지가 나타납니다. 다음 섹션에서는 [사용자 지정 정책을 수정할](#use-the-security--compliance-center-to-modify-atp-anti-phishing-policies)때의 설정이 동일 합니다.
+3. **정책 편집 Office365 AntiPhish 기본값** 페이지가 나타납니다. 다음 섹션에서는 [사용자 지정 정책을 수정할](#use-the-security--compliance-center-to-modify-anti-phishing-policies-in-microsoft-defender-for-office-365)때의 설정이 동일 합니다.
 
    - **가장**
    - **신분을**
@@ -312,7 +310,7 @@ ATP 피싱 방지 정책을 만들 때는 정책 이름, 설명 및 정책이 �
 
 4. **Policy Office365 AntiPhish 기본값 편집** 페이지에서 설정을 검토 하 고 **닫기를** 클릭 합니다.
 
-### <a name="enable-or-disable-custom-atp-anti-phishing-policies"></a>사용자 지정 ATP 피싱 방지 정책 사용 또는 사용 안 함
+### <a name="enable-or-disable-custom-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365에서 사용자 지정 피싱 방지 정책 사용 또는 사용 안 함
 
 1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 피싱 방지** 로 이동 합니다.
 
@@ -324,15 +322,15 @@ ATP 피싱 방지 정책을 만들 때는 정책 이름, 설명 및 정책이 �
 
 기본 피싱 방지 정책을 사용 하지 않도록 설정할 수 없습니다.
 
-### <a name="set-the-priority-of-custom-atp-anti-phishing-policies"></a>사용자 지정 ATP 피싱 방지 정책의 우선 순위 설정
+### <a name="set-the-priority-of-custom-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365에서 사용자 지정 피싱 방지 정책의 우선 순위를 설정 합니다.
 
-기본적으로 ATP 피싱 방지 정책에는 만든 순서를 기준으로 하는 우선 순위가 지정 됩니다 (최신 정책은 이전 정책 보다 낮은 우선 순위입니다). 낮은 우선순위 번호는 정책의 높은 우선순위(0이 가장 높음)를 나타내고 정책은 우선순위 순서에 따라 처리됩니다(높은 우선순위 정책은 낮은 우선순위 정책보다 먼저 처리됨). 두 정책의 우선순위는 동일 할 수 없으며, 첫 번째 정책이 적용된 후에는 정책 처리가 중지됩니다.
+기본적으로 피싱 방지 정책에는 만든 순서를 기준으로 하는 우선 순위가 지정 됩니다 (최신 정책은 이전 정책 보다 낮은 우선 순위입니다). 낮은 우선순위 번호는 정책의 높은 우선순위(0이 가장 높음)를 나타내고 정책은 우선순위 순서에 따라 처리됩니다(높은 우선순위 정책은 낮은 우선순위 정책보다 먼저 처리됨). 두 정책의 우선순위는 동일 할 수 없으며, 첫 번째 정책이 적용된 후에는 정책 처리가 중지됩니다.
 
 우선순위 및 여러 정책을 평가하고 적용하는 방법에 대 한 자세한 내용은 전자 메일의 [전자 메일의 우선순위 및 보호](how-policies-and-protections-are-combined.md)를 참조하세요.
 
-사용자 지정 ATP 피싱 방지 정책은 처리 되는 순서 대로 표시 됩니다 (첫 번째 정책의 **우선 순위** 값은 0). Office365 AntiPhish Default 라는 기본 피싱 방지 정책은 사용자 지정 우선 순위 값이 **가장 낮은** 반면,이를 변경할 수는 없습니다.
+사용자 지정 피싱 방지 정책은 처리 되는 순서 대로 표시 됩니다 (첫 번째 정책의 **우선 순위** 값은 0). Office365 AntiPhish Default 라는 기본 피싱 방지 정책은 사용자 지정 우선 순위 값이 **가장 낮은** 반면,이를 변경할 수는 없습니다.
 
- **참고** : 보안 & 준수 센터에서는 ATP 피싱 방지 정책의 우선 순위를 만든 후에만 변경할 수 있습니다. PowerShell에서는 기존 규칙의 우선 순위에 영향을 줄 수 있는 피싱 규칙을 만들 때 기본 우선 순위를 재정의할 수 있습니다.
+ **참고** : 보안 & 준수 센터에서는 피싱 방지 정책의 우선 순위를 만든 후에만 변경할 수 있습니다. PowerShell에서는 기존 규칙의 우선 순위에 영향을 줄 수 있는 피싱 규칙을 만들 때 기본 우선 순위를 재정의할 수 있습니다.
 
 정책의 우선 순위를 변경 하려면 정책의 속성에서 우선 **순위 높임** 또는 **우선 순위 낮추기** (보안 & 준수 센터에서 직접 **우선 순위** 번호를 수정할 수 없음)을 클릭 합니다. 정책 우선 순위를 변경 하는 것은 정책이 여러 개인 경우에만 의미가 있습니다.
 
@@ -342,9 +340,9 @@ ATP 피싱 방지 정책을 만들 때는 정책 이름, 설명 및 정책이 �
 
 3. 정책 플라이 아웃 **\<name\> 편집** 이 표시 됩니다.
 
-   - **우선 순위** 값이 **0** 인 사용자 지정 ATP 피싱 방지 정책에는 **우선 순위 낮추기** 단추만 사용할 수 있습니다.
+   - **우선 순위** 값이 **0** 인 사용자 지정 피싱 방지 정책에는 **우선 순위 낮추기** 단추만 사용할 수 있습니다.
 
-   - 가장 낮은 **우선 순위** 값을 갖는 사용자 지정 ATP 피싱 방지 정책 (예: **3** )에는 **우선 순위 향상** 단추만 사용할 수 있습니다.
+   - **우선 순위** 값이 가장 낮은 사용자 지정 피싱 방지 정책 (예: **3** )에는 **우선 순위 향상** 단추만 사용할 수 있습니다.
 
    - 사용자 지정 피싱 방지 정책이 3 개 이상 있는 경우 가장 높거나 낮은 우선 순위 값 사이의 정책에는 **우선 순위 증가** 와 **우선 순위 낮추기** 단추가 모두 있습니다.
 
@@ -352,19 +350,19 @@ ATP 피싱 방지 정책을 만들 때는 정책 이름, 설명 및 정책이 �
 
 5. 작업을 마쳤으면 **닫기** 를 클릭합니다.
 
-## <a name="use-the-security--compliance-center-to-view-atp-anti-phishing-policies"></a>보안 & 준수 센터를 사용 하 여 ATP 피싱 방지 정책 보기
+## <a name="use-the-security--compliance-center-to-view-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>보안 & 준수 센터를 사용 하 여 Microsoft Defender for Office 365의 피싱 방지 정책 보기
 
 1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 피싱 방지** 로 이동 합니다.
 
 2. 다음 단계 중 하나를 수행 합니다.
 
-   - 보려는 사용자 지정 ATP 피싱 방지 정책을 선택 합니다. 이미 선택 되어 있으면 선택을 취소 하 고 다시 선택 합니다.
+   - 보려는 사용자 지정 피싱 방지 정책을 선택 합니다. 이미 선택 되어 있으면 선택을 취소 하 고 다시 선택 합니다.
 
    - 기본 **정책을** 클릭 하 여 기본 피싱 방지 정책을 확인 합니다.
 
 3. 설정 및 값을 볼 수 있는 **정책 \<name\>** 플라이 아웃 편집이 표시 됩니다.
 
-## <a name="use-the-security--compliance-center-to-remove-atp-anti-phishing-policies"></a>보안 & 준수 센터를 사용 하 여 ATP 피싱 방지 정책 제거
+## <a name="use-the-security--compliance-center-to-remove-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>보안 & 준수 센터를 사용 하 여 Microsoft Defender for Office 365에서 피싱 방지 정책 제거
 
 1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 피싱 방지** 로 이동 합니다.
 
@@ -374,9 +372,9 @@ ATP 피싱 방지 정책을 만들 때는 정책 이름, 설명 및 정책이 �
 
 기본 정책은 제거할 수 없습니다.
 
-## <a name="use-exchange-online-powershell-to-configure-atp-anti-phishing-policies"></a>Exchange Online PowerShell을 사용 하 여 ATP 피싱 방지 정책 구성
+## <a name="use-exchange-online-powershell-to-configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Exchange Online PowerShell을 사용 하 여 Microsoft Defender for Office 365에서 피싱 방지 정책 구성
 
-앞에서 설명한 것 처럼 ATP 스팸 방지 정책은 피싱 정책 및 피싱 규칙으로 구성 됩니다.
+앞에서 설명한 것 처럼 스팸 방지 정책은 피싱 정책 및 피싱 규칙으로 구성 됩니다.
 
 Exchange Online PowerShell에서 피싱 정책 및 피싱 규칙 간의 차이가 명백 합니다. **\* -AntiPhishPolicy** cmdlet을 사용 하 여 피싱 정책을 관리 하 고 **\* -AntiPhishRule** cmdlet을 사용 하 여 피싱 규칙을 관리 합니다.
 
@@ -614,7 +612,7 @@ Remove-AntiPhishRule -Identity "Marketing Department"
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>이 절차가 제대로 수행되었는지 어떻게 확인하나요?
 
-ATP 피싱 방지 정책이 구성 되었는지 확인 하려면 다음 단계 중 하나를 수행 합니다.
+Microsoft Defender for Office 365에서 피싱 방지 정책을 성공적으로 구성 했는지 확인 하려면 다음 단계 중 하나를 수행 합니다.
 
 - 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 피싱 방지** 로 이동 합니다. 정책 목록, 해당 **상태** 값 및 해당 **우선 순위** 값을 확인 합니다. 자세한 정보를 보려면 다음 단계 중 하나를 수행 합니다.
 

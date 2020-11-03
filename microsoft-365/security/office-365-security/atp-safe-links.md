@@ -25,26 +25,26 @@ search.appverid:
 - ZPP160
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
-description: 이 문서에서는 관리자가 악성 Url을 사용 하는 피싱 및 기타 공격 으로부터 조직을 보호 하기 위해 Office 365 ATP (Advanced Threat Protection)의 안전한 링크 보호에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 45936cabf012c5f40080f3bbfee224aec9593d30
-ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
+description: 이 문서에서는 관리자가 Defender for Office 365의 안전 링크 보호에 대해 알아보고 악의적인 Url을 사용 하는 피싱 및 기타 공격 으로부터 조직을 보호할 수 있습니다.
+ms.openlocfilehash: 869cb2f330b81481a2a0a013564853274654d0ef
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48806729"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846059"
 ---
-# <a name="safe-links-in-office-365-atp"></a>Office 365 ATP의 안전한 링크
+# <a name="safe-links-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 안전한 링크
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 > [!IMPORTANT]
-> 이 문서는 [Office 365 ATP (Advanced Threat Protection)](office-365-atp.md)가 있는 비즈니스 고객을 위한 것입니다. Outlook.com, Microsoft 365 제품군 또는 Microsoft 365 Personal을 사용 하 고 있고 Outlook의 Safelinks에 대 한 정보를 찾으려는 경우 [Advanced Outlook.com security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하세요.
+> 이 문서는 [Office 365 용 Microsoft Defender](office-365-atp.md)가 있는 비즈니스 고객을 위한 것입니다. Outlook.com, Microsoft 365 제품군 또는 Microsoft 365 Personal을 사용 하 고 있고 Outlook의 Safelinks에 대 한 정보를 찾으려는 경우 [Advanced Outlook.com security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하세요.
 
-안전한 링크는 메일 흐름에서 인바운드 전자 메일 메시지에 대 한 URL 검색 및 다시 쓰기를 제공 하 고 전자 메일 메시지와 기타 위치의 Url 및 링크에 대 한 클릭 하는 방법으로, [Office 365 Advanced Threat Protection](office-365-atp.md) 의 기능입니다. 안전한 링크 검색은 EOP (Exchange Online Protection)의 인바운드 전자 메일 메시지에 있는 일반 [스팸 방지 및 맬웨어 방지 보호 기능](anti-spam-and-anti-malware-protection.md) 외에도 발생 합니다. 안전한 링크 검색 기능은 피싱 및 기타 공격에 사용 되는 악의적인 링크 로부터 조직을 보호 하는 데 도움이 될 수 있습니다.
+안전한 링크는 [Defender For Office 365](office-365-atp.md) 의 기능으로, 메일 흐름에서 인바운드 전자 메일 메시지의 url 검색 및 다시 쓰기를 제공 하 고 전자 메일 메시지 및 기타 위치의 url 및 링크에 대 한 클릭 시간을 확인할 수 있습니다. 안전한 링크 검색은 EOP (Exchange Online Protection)의 인바운드 전자 메일 메시지에 있는 일반 [스팸 방지 및 맬웨어 방지 보호 기능](anti-spam-and-anti-malware-protection.md) 외에도 발생 합니다. 안전한 링크 검색 기능은 피싱 및 기타 공격에 사용 되는 악의적인 링크 로부터 조직을 보호 하는 데 도움이 될 수 있습니다.
 
 안전한 링크 보호는 다음 위치에서 사용할 수 있습니다.
 
-- **전자 메일 메시지** : 전자 메일 메시지의 링크에 대 한 안전한 링크 보호는 안전한 링크 정책에 의해 제어 됩니다. 안전한 링크 정책 없이도 **전자 메일 메시지의 안전한 링크를 보호 하려면 하나 이상의 안전한 링크 정책을 만들어야** 합니다. 자세한 내용은 [ATP에서 안전한 링크 정책 설정을](set-up-atp-safe-links-policies.md)참조 하십시오.
+- **전자 메일 메시지** : 전자 메일 메시지의 링크에 대 한 안전한 링크 보호는 안전한 링크 정책에 의해 제어 됩니다. 안전한 링크 정책 없이도 **전자 메일 메시지의 안전한 링크를 보호 하려면 하나 이상의 안전한 링크 정책을 만들어야** 합니다. 자세한 내용은 [Office 용 Microsoft Defender 365에서 안전한 링크 정책 설정을](set-up-atp-safe-links-policies.md)참조 하십시오.
 
   전자 메일 메시지에 대 한 안전한 링크 보호에 대 한 자세한 내용은이 문서 뒷부분의 [전자 메일 메시지에 대 한 안전한 링크 설정](#safe-links-settings-for-email-messages) 섹션을 참조 하십시오.
 
@@ -52,7 +52,7 @@ ms.locfileid: "48806729"
 
   팀의 안전한 링크 보호에 대 한 자세한 내용은이 항목 뒷부분의 [Microsoft 팀에 대 한 안전한 링크 설정](#safe-links-settings-for-microsoft-teams) 섹션을 참조 하십시오.
 
-- **Office 365 앱** : office 365 앱에 대 한 안전한 링크 보호는 지원 되는 데스크톱, 모바일 및 웹 ap에서 사용할 수 있습니다. 안전한 링크 정책을 **벗어나는** 전역 설정에서 Office 365 앱에 대 한 안전한 링크 보호를 **구성** 합니다. 자세한 내용은 [Office 365 ATP에서 안전한 링크 설정에 대 한 전역 설정 구성을](configure-global-settings-for-safe-links.md)참조 하십시오.
+- **Office 365 앱** : office 365 앱에 대 한 안전한 링크 보호는 지원 되는 데스크톱, 모바일 및 웹 ap에서 사용할 수 있습니다. 안전한 링크 정책을 **벗어나는** 전역 설정에서 Office 365 앱에 대 한 안전한 링크 보호를 **구성** 합니다. 자세한 내용은 [Office 용 Microsoft Defender 365에서 안전한 링크 설정에 대 한 전역 설정 구성을](configure-global-settings-for-safe-links.md)참조 하세요.
 
   그러나 Office 365 앱에 대 한 안전한 링크 보호는 활성 안전한 링크 정책에 포함 된 사용자 에게만 **적용** 됩니다. 활성 안전한 링크 정책에 사용자가 포함 되어 있지 않으면 사용자가 지원 되는 Office 365 앱에서 안전한 링크 보호를 받지 않습니다.
 
@@ -71,7 +71,7 @@ ms.locfileid: "48806729"
   - [Office 365 앱에 대 한 안전한 링크 설정](#safe-links-settings-for-office-365-apps)
   - [안전한 링크에 대 한 "다음 Url 차단" 목록](#block-the-following-urls-list-for-safe-links)
 
-다음 표에서는 ATP를 포함 하는 Microsoft 365 및 Office 365 조 직의 안전한 링크에 대 한 시나리오를 설명 합니다 (즉, 라이선스 부족은 해당 예에서 문제가 되지 않음).
+다음 표에서는 Microsoft 365 및 Office 365 조 직 용 Defender for Office 365 (즉, 라이선스 부족은 예제에서는 문제가 되지 않음)의 안전한 링크 시나리오에 대해 설명 합니다.
 
 ****
 
@@ -100,7 +100,7 @@ ms.locfileid: "48806729"
 
 - **의심 스러운 링크 및 파일을 가리키는 링크에 대해 실시간 URL 검사 적용** : 다운로드 가능한 콘텐츠를 가리키는 전자 메일 메시지의 링크를 비롯 한 실시간 링크 검색을 사용 하도록 설정 합니다. 권장 값은 사용 하도록 설정 되어 있습니다.
 
-  - **메시지를 배달 하기 전에 URL 검색이 완료 될 때까지 기다립니다** .
+  - **메시지를 배달 하기 전에 URL 검색이 완료 될 때까지 기다립니다**.
 
     - Enabled: 검색이 완료 될 때까지 Url이 포함 된 메시지가 저장 됩니다. 메시지는 Url이 안전한 것으로 확인 된 후에만 배달 됩니다. 권장 값은 다음과 같습니다.
     - 사용 안 함: URL 검색을 완료할 수 없는 경우 메시지를 배달 합니다.
@@ -180,7 +180,7 @@ Microsoft 팀에 대 한 안전한 링크 보호를 설정한 후에는 보호 �
 
 1. 사용자가 팀 앱을 시작 합니다.
 
-2. Microsoft 365에서는 사용자의 조직에 Office 365 ATP가 포함 되어 있고 사용자가 Microsoft 팀에 대 한 보호가 사용 하도록 설정 된 활성 안전한 링크 정책에 포함 되어 있는지 확인 합니다.
+2. Microsoft 365에서는 사용자의 조직에 Microsoft Defender for Office 365가 포함 되어 있으며 사용자가 Microsoft 팀에 대 한 보호가 사용 하도록 설정 된 활성 안전한 링크 정책에 포함 되어 있는지 확인 합니다.
 
 3. Url은 대화방, 그룹 채팅, 채널 및 탭에서 사용자를 클릭 하는 시점에 유효성을 검사 합니다.
 

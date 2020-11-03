@@ -1,6 +1,6 @@
 ---
-title: 일반적인 Microsoft Threat Protection REST API 오류 코드
-description: 일반적인 Microsoft Threat Protection REST API 오류 코드에 대해 자세히 알아보기
+title: 일반적인 Microsoft 365 Defender REST API 오류 코드
+description: 일반적인 Microsoft 365 Defender REST API 오류 코드에 대해 자세히 알아보기
 keywords: api, 오류, 코드, 일반 오류, mtp, api 오류 코드
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,25 +19,25 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 81375b919b52ff895e5ec7014feb747b1a0eae65
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: aceb376662f2b27397aa2332f8929a57d5a3ee03
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201342"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846011"
 ---
-# <a name="common-microsoft-threat-protection-rest-api-error-codes"></a>일반적인 Microsoft Threat Protection REST API 오류 코드
+# <a name="common-microsoft-365-defender-rest-api-error-codes"></a>일반적인 Microsoft 365 Defender REST API 오류 코드
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 >[!IMPORTANT] 
 >일부 정보는 상업적으로 출시 되기 전에 크게 수정 될 수 있는 prereleased 제품과 관련 되어 있습니다. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-다음 표에 나와 있는 오류 코드는 Microsoft Threat Protection Api에서 작업에 의해 반환 될 수 있습니다.
+다음 표에 나와 있는 오류 코드는 Microsoft 365 Defender Api에서 작업에 의해 반환 될 수 있습니다.
 
 모든 오류 응답에 오류 메시지가 포함 되어 있어 문제를 해결 하는 데 도움이 됩니다.
 

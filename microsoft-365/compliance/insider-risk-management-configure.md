@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: e8d30706895774986bc68936bd84c303a6460ece
-ms.sourcegitcommit: 21c3e44862854c74e4008cfb661840f069c6b709
+ms.openlocfilehash: 684e21a8288aee72f6170d54ffc86af3bcb0ece0
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48787514"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846266"
 ---
 # <a name="get-started-with-insider-risk-management"></a>내부자 위험 관리 시작
 
@@ -165,7 +165,7 @@ DLP 정책은 중요 한 정보에 대 한 높은 심각도 DLP에 대 한 참�
     - [변칙 감지](insider-risk-management-settings.md#anomaly-detections)
     - [공격적인 언어 감지](insider-risk-management-settings.md#offensive-language-detections)
     - [경고 볼륨 수준](insider-risk-management-settings.md#alert-volume)
-    - [Microsoft 365 Defender Advanced Threat Protection 경고 상태](insider-risk-management-settings.md#microsoft-defender-advanced-threat-protection-preview)
+    - [끝점 경고 상태에 대 한 Microsoft Defender](insider-risk-management-settings.md#microsoft-defender-for-endpoint-preview)
     - [도메인 설정](insider-risk-management-settings.md#domains-preview)
 6. 필요한 경우 **알림 내보내기** 페이지에서 Office 365 관리 api를 사용 하 여 참가자 위험 알림 정보를 내보낼 수 있도록 설정 합니다.
 7. **우선 순위 사용자 그룹** 페이지에서 우선 순위 사용자 그룹을 만들고 **3 단계** 에서 만들지 않은 경우 사용자를 추가 합니다.

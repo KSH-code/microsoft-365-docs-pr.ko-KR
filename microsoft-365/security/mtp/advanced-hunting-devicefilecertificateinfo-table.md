@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 926f129b95e1d9d6b07f56955bdf061884d4340b
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 9291d9f113fdc1c082b38d92399c1dee646b523d
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430113"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846173"
 ---
 # <a name="devicefilecertificateinfo"></a>DeviceFileCertificateInfo
 
@@ -32,7 +32,7 @@ ms.locfileid: "48430113"
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 `DeviceFileCertificateInfo` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 파일 서명 인증서에 대 한 정보가 포함 되어 있습니다. 이 테이블은 끝점에서 파일에 대해 정기적으로 수행 되는 인증서 확인 작업에서 얻은 데이터를 사용 합니다.
 

@@ -17,12 +17,12 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8787bf212db342c84f13f8522e8853310e00c0ce
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: dcb7997c8c248c2b4e7d16902b6ebdd7756ccd0b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429410"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846631"
 ---
 # <a name="app-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 앱 모니터링 및 보고
 
@@ -65,10 +65,10 @@ ms.locfileid: "48429410"
 
 ## <a name="monitor-health-for-infrastructure-workloads"></a>인프라 작업의 상태 모니터링
 
-**인프라 상태** 는 Azure 보안 센터에서 인프라 작업에 대 한 상태 알림을 표시 합니다.
+**인프라 상태** 는 Azure Defender *의 인프라 작업에 대 한 상태 알림을 표시 합니다.
 
-Azure 보안 센터는 온-프레미스 및 클라우드 워크 로드에서 통합 된 보안 관리 및 advanced threat protection을 제공 합니다. 방화벽과 기타 파트너 솔루션을 비롯 한 다양 한 원본의 보안 데이터를 수집, 검색 및 분석할 수 있습니다.
+Azure Defender *는 온-프레미스 및 클라우드 워크 로드에서 Office 365 용 통합 보안 관리 및 Defender를 제공 합니다. 방화벽과 기타 파트너 솔루션을 비롯 한 다양 한 원본의 보안 데이터를 수집, 검색 및 분석할 수 있습니다.
 
-자세한 내용은 [Azure 보안 센터 설명서](https://docs.microsoft.com/azure/security-center/)를 참조 하세요.
+자세한 내용은 [Azure Defender * 설명서](https://docs.microsoft.com/azure/security-center/)를 참조 하세요.
 
 ![인프라 상태 카드](../../media/infrastructure-health.png)

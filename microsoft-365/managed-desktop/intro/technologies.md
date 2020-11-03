@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: f4af346877b41b03c07750508ff93661cc642ec4
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: b98cec62a018556bfbd31df0aa824acbd00b37b6
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289108"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846243"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Microsoft Managed Desktop 기술
 
@@ -42,7 +42,7 @@ Win32 응용 프로그램 |    팀은 장치와 함께 제공 되지 않지만 m
  |
  --- | ---
 Application Virtualization (App-v) |    고객은 Intune Win32 앱 관리 클라이언트를 사용 하 여 App-v 패키지를 배포할 수 있습니다.
-Microsoft Defender Advanced Threat Protection |  Microsoft Managed Desktop은이를 사용 하 여 장치 보안을 모니터링 합니다. 
+엔드포인트용 Microsoft Defender |    Microsoft Managed Desktop은이를 사용 하 여 장치 보안을 모니터링 합니다. 
 
 ## <a name="enterprise-mobility--security-e5"></a>Enterprise Mobility + Security E5
 

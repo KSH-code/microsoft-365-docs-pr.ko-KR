@@ -1,6 +1,6 @@
 ---
-title: 파일럿 Microsoft Threat Protection 프로젝트 계획
-description: 예상 성과를 관리 하 고 성공적인 결과를 확인 하기 위해 관련자를 사용 하 여 파일럿 Microsoft Threat Protection 프로젝트를 계획 합니다.
+title: 파일럿 Microsoft 365 Defender 프로젝트 계획
+description: 기대치를 관리 하 고 성공적인 결과를 확인 하기 위해 관련자와 함께 파일럿 Microsoft 365 Defender 프로젝트를 계획 합니다.
 keywords: Microsoft 위협 보호 파일럿, 파일럿 Microsoft 위협 보호 프로젝트 계획, 마이크로소프트의 microsoft threat Protection, Microsoft Threat Protection 파일럿 프로젝트, 사이버 보안, advanced persistent 위협, 엔터프라이즈 보안, 장치, 장치, id, 사용자, 데이터, 응용 프로그램, 사건, 자동화 된 조사 및 개선, 고급 구하기
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,41 +20,41 @@ ms.collection:
 - m365solution-scenario
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: e62b4ec0ee6c9d05321accf269406e8127019f5b
-ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
+ms.openlocfilehash: ec2bfe52308231577e4f2749e1f4cdf24a36f604
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48418112"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846023"
 ---
-# <a name="planning-your-pilot-microsoft-threat-protection-project"></a>파일럿 Microsoft Threat Protection 프로젝트 계획 
+# <a name="planning-your-pilot-microsoft-365-defender-project"></a>파일럿 Microsoft 365 Defender 프로젝트 계획 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 <br>
 <table border="0" width="100%" align="center">
   <tr style="text-align:center;">
     <td align="center" style="width:25%; border:0;" bgcolor="#d5f5e3">
       <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
-        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft Threat Protection project" title="파일럿 Microsoft Threat Protection 프로젝트 계획" />
+        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft 365 Defender project" title="파일럿 Microsoft 365 Defender 프로젝트 계획" />
       <br/>계획</a><br>
     </td>
     <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">
-        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft Threat Protection trial lab or pilot environment" title="Microsoft Threat Protection 평가판 랩 또는 파일럿 환경 준비" />
+        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft 365 Defender trial lab or pilot environment" title="Microsoft 365 Defender 평가판 랩 또는 파일럿 환경 준비" />
       <br/>준비</a><br>
     </td>
     <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate">
-        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft Threat Protection attack simulations" title="Microsoft Threat Protection 공격 시뮬레이션 실행" />
+        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft 365 Defender attack simulations" title="Microsoft 365 Defender attack 시뮬레이션 실행" />
      <br/>공격 시뮬레이션</a><br>
     </td>
     <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-close">
-        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft Threat Protection pilot" title="Microsoft Threat Protection 파일럿을 닫고 요약 합니다." />
+        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft 365 Defender pilot" title="Microsoft 365 Defender 파일럿을 닫고 요약 합니다." />
      <br/>닫기 및 요약</a><br>
     </td>
   </tr>
@@ -91,13 +91,13 @@ ms.locfileid: "48418112"
 - Microsoft 365, Azure, Active Directory 서비스, 끝점 및 서버가 포함 된 프로덕션 환경
 
 >[!NOTE]
->아직 전체 라이선스가 없는 경우에는 평가판 라이선스를 통해 [Microsoft 위협 보호를 평가](https://aka.ms/mtp-trial-lab) 하 고 파일럿 프로젝트를 계획, 준비, 설정 및 구성 하 고 실행할 수 있습니다. 관련자는 시작부터 끝까지 쉽게 프로세스를 진행 하는 데 큰 역할을 합니다.
+>아직 전체 라이선스를 보유 하 고 있지 않은 경우 [Microsoft 365 Defender](https://aka.ms/mtp-trial-lab) -파일럿 프로젝트를 계획, 준비, 설치, 구성 및 실행 하는 평가판 라이선스를 받을 수 있습니다. 관련자는 시작부터 끝까지 쉽게 프로세스를 진행 하는 데 큰 역할을 합니다.
 
 평가할 운영 체제의 유형도 조직 makeup을 기반으로 정의 해야 합니다. 여기에는 [Mac 끝점](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-mac#system-requirements), [Linux 서버](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-linux#system-requirements), [Windows 10 끝점](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements#supported-windows-versions), [windows Server 2016](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements#supported-windows-versions)이 포함 될 수 있습니다.
 
 ## <a name="use-cases"></a>사용 사례
 
-사용 사례는 테스트 중인 도구를 의도 한 사용자가 소비 하는 방식에 대 한 설명을 나타냅니다. 이러한 요소는 SOC 분석가와 같은 특정 가상 사용자의 관점에서 사용자 스토리로 사용 될 수 있습니다. 예제:
+사용 사례는 테스트 중인 도구를 의도 한 사용자가 소비 하는 방식에 대 한 설명을 나타냅니다. 이러한 요소는 SOC 분석가와 같은 특정 가상 사용자의 관점에서 사용자 스토리로 사용 될 수 있습니다. 예:
 - SOC 분석가는 내 네트워크의 장치, 사용자 및 사서함에서 알림 및 이벤트를 확인, 상관 관계, 평가 및 관리 해야 합니다. [인시던트 관리]
 - SOC 분석가는 내 네트워크의 악의적인 이벤트를 자동으로 조사 하 고 대응 하기 위해 도구와 프로세스를 수행 해야 합니다. [자동 IR]
 - SOC 분석가는 필자의 환경에서 알려진 문제 및 잠재적인 위협과 의심 스러운 활동을 찾기 위해 환경의 데이터를 검색 해야 합니다. [고급 구하기]
@@ -110,11 +110,11 @@ ms.locfileid: "48418112"
 
 ## <a name="test-plan"></a>테스트 계획
 
-요구 사항에 따라 다양 한 테스트 방법이 적합할 수 있습니다. 예를 들어 자동화 된 수정의 efficacy를 평가 해야 하는 경우 테스트 계획에는 Microsoft Threat Protection 내에서 자동화 된 재구성 작업을 트리거하는 동작을 생성 하기 위한 단계가 포함 되어야 합니다. 요구 사항으로 인해 특정 동작이 나 공격을 검색 해야 하는 경우 테스트에 더 많은 단계가 포함 될 수 있습니다. 요구 사항을 정확히 테스트할 수 있도록 계획을 수립 하는 것입니다.
+요구 사항에 따라 다양 한 테스트 방법이 적합할 수 있습니다. 예를 들어 자동화 된 수정의 efficacy를 평가 해야 하는 경우 테스트 계획에는 Microsoft 365 Defender 내에서 자동화 된 재구성 작업을 트리거하는 동작을 생성 하기 위한 단계가 포함 되어야 합니다. 요구 사항으로 인해 특정 동작이 나 공격을 검색 해야 하는 경우 테스트에 더 많은 단계가 포함 될 수 있습니다. 요구 사항을 정확히 테스트할 수 있도록 계획을 수립 하는 것입니다.
 
 ## <a name="success-criteria"></a>성공 기준
 
-성공 기준은 궁극적으로 테스트 대상에 대 한 기준으로 설정 됩니다. Microsoft Threat Protection (또는 해당 문제에 대 한 다른 기술)을 다른 도구나 자체에 대해 테스트할 지 여부에 관계 없이 도구에서 제공 하는 값을 결정 하려면 몇 가지 수량화 된 기준이 있어야 합니다. 범위, 요구 사항 및 테스트 계획에 따라 성공 기준은 테스트 점수를 결정 하는 것입니다. 이는 합격 또는 불합격이 더 적거나 필요에 따라 가중치 점수를 많이 가져야 합니다. 예를 들어, 확인이 성공 하려면 도구는 특정 중요 한 영역에서 80% 이상 점수를 두어야 할 수도 있습니다.
+성공 기준은 궁극적으로 테스트 대상에 대 한 기준으로 설정 됩니다. Microsoft 365 Defender (또는 해당 문제에 대 한 다른 기술)를 다른 도구나 자체에 대해 테스트할 지 여부에 관계 없이 도구에서 제공 하는 값을 결정 하려면 몇 가지 수량화 된 기준이 있어야 합니다. 범위, 요구 사항 및 테스트 계획에 따라 성공 기준은 테스트 점수를 결정 하는 것입니다. 이는 합격 또는 불합격이 더 적거나 필요에 따라 가중치 점수를 많이 가져야 합니다. 예를 들어, 확인이 성공 하려면 도구는 특정 중요 한 영역에서 80% 이상 점수를 두어야 할 수도 있습니다.
 
 ## <a name="scorecard"></a>표
 
@@ -122,12 +122,12 @@ ms.locfileid: "48418112"
 
 | 사용 사례 | 요구 사항 | 구성 요구 사항 | 테스트 계획 | 예상 결과 | 테스트 상태 | 점수 | 참고 |
 |:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
-|사건 관리|-Microsoft Threat Protection </br></br>-Azure ATP </br></br>-Microsoft Defender ATP </br></br>-Microsoft Cloud App Security (선택 사항)|자세한 내용은 준비, 설정 및 구성을 위한 [필수 구성 요소](https://aka.ms/mtp-trial-lab) 를 참조 하세요. |[공격 시뮬레이션](mtp-pilot-simulate.md) <br></br>[문제 조사](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate#investigate-an-incident) |Investigators는 사고의 범위와 영향을 이해 하 고 인시던트를 관리할 수 있습니다.||||
-|AutoIR|-Microsoft Threat Protection </br></br>-Azure ATP </br></br>-Microsoft Defender ATP |자세한 내용은 준비, 설정 및 구성을 위한 [필수 구성 요소](https://aka.ms/mtp-trial-lab) 를 참조 하세요. <br>AutoIR 사용  |[공격 시뮬레이션](mtp-pilot-simulate.md) <br></br>[자동화 된 조사](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#automated-investigation-and-remediation) |Microsoft Threat Protection에서 경고 및 인시던트가 자동으로 재구성 됨||||
-|고급 헌팅|-Microsoft Threat Protection </br></br>-Microsoft Defender ATP </br></br>-Office 365 ATP   |자세한 내용은 준비, 설정 및 구성을 위한 [필수 구성 요소](https://aka.ms/mtp-trial-lab) 를 참조 하세요.|[고급 구하기 시나리오](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#advanced-hunting-scenario) |Investigators에서는 고급 검색을 통해 데이터를 찾고, 영향을 받는 엔터티에 대 한 피벗을 하며, 사용자 지정 감지를 만들면||||
+|사건 관리|-Microsoft 365 Defender  </br></br>-Id 용 Microsoft Defender </br></br>-끝점에 대 한 Microsoft Defender </br></br>-Microsoft Cloud App Security (선택 사항)|자세한 내용은 준비, 설정 및 구성을 위한 [필수 구성 요소](https://aka.ms/mtp-trial-lab) 를 참조 하세요. |[공격 시뮬레이션](mtp-pilot-simulate.md) <br></br>[문제 조사](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate#investigate-an-incident) |Investigators는 사고의 범위와 영향을 이해 하 고 인시던트를 관리할 수 있습니다.||||
+|AutoIR|-Microsoft 365 Defender </br></br>-Id 용 Microsoft Defender </br></br>-끝점에 대 한 Microsoft Defender |자세한 내용은 준비, 설정 및 구성을 위한 [필수 구성 요소](https://aka.ms/mtp-trial-lab) 를 참조 하세요. <br>AutoIR 사용  |[공격 시뮬레이션](mtp-pilot-simulate.md) <br></br>[자동화 된 조사](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#automated-investigation-and-remediation) |경고 및 인시던트는 Microsoft 365 Defender에서 자동으로 재구성 됩니다.||||
+|고급 헌팅|-Microsoft 365 Defender </br></br>-끝점에 대 한 Microsoft Defender </br></br>-Microsoft Defender for Office 365 |자세한 내용은 준비, 설정 및 구성을 위한 [필수 구성 요소](https://aka.ms/mtp-trial-lab) 를 참조 하세요.|[고급 구하기 시나리오](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#advanced-hunting-scenario) |Investigators에서는 고급 검색을 통해 데이터를 찾고, 영향을 받는 엔터티에 대 한 피벗을 하며, 사용자 지정 감지를 만들면||||
 
 
 
 ## <a name="next-step"></a>다음 단계
-|![준비 단계](../../media/mtp/prep.png) <br>[준비 단계](prepare-mtpeval.md) | Microsoft Threat Protection 파일럿 환경 준비
+|![준비 단계](../../media/mtp/prep.png) <br>[준비 단계](prepare-mtpeval.md) | Microsoft 365 Defender 파일럿 환경 준비
 |:-------|:-----|

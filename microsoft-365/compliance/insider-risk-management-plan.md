@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 5944439da4c4df9253e5c6d67944ccc1a7339e71
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: b2aa72dea55d4c75f6e73161e07cf0a9bb5ecf1c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199774"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846276"
 ---
 # <a name="plan-for-insider-risk-management"></a>내부자 위험 관리 계획
 
@@ -65,7 +65,7 @@ Microsoft 365 Enterprise E5 요금제가 아직 없는 경우 microsoft 365을 �
 
 - Departing users 서식 파일을 사용 하 여 **데이터 절도** 를 사용할 때는 조직의 사용자에 대 한 resignation 및 종료 날짜 정보를 정기적으로 가져오기 위해 MICROSOFT 365 HR 커넥터를 구성 해야 합니다. 조직의 Microsoft 365 HR 커넥터를 구성 하는 방법에 대 한 단계별 지침은 [HR connector 문서를 사용한 가져오기 데이터](import-hr-data.md) 를 참조 하십시오.
 - **데이터 누수** 템플릿을 사용 하는 경우에는 하나 이상의 DLP (데이터 손실 방지) 정책을 구성 하 여 조직에서 중요 한 정보를 정의 하 고 심각도가 높은 DLP 정책 알림에 대해 참가자 위험 경고를 수신 해야 합니다. 조직의 DLP 정책을 구성 하는 방법에 대 한 자세한 내용은 [dlp 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md) 의 단계별 지침을 참조 하십시오.
-- **보안 정책 위반** 템플릿을 사용 하는 경우 Defender 보안 센터의 참가자 위험 관리 통합에서 보안 위반 알림을 가져오려면 MICROSOFT defender ATP (Advanced Threat Protection)를 사용 하도록 설정 해야 합니다. Microsoft Defender ATP를 참가자 위험 관리와의 통합을 사용 하도록 설정 하는 단계별 지침을 보려면 [Microsoft defender 문서에서 고급 기능 구성을](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features) 참조 하세요.
+- **보안 정책 위반** 템플릿을 사용 하는 경우 Defender 보안 센터의 참가자 위험 관리 통합에서 보안 위반 알림을 가져오려면 끝점에 대해 Microsoft defender를 사용 하도록 설정 해야 합니다. 참가자 위험 관리와의 끝점 통합을 위해 Defender를 사용 하도록 설정 하는 단계별 지침을 보려면 [Microsoft defender 문서에서 고급 기능 구성을](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features) 참조 하세요.
 - **불만 사용자** 서식 파일을 사용 하는 경우 조직의 사용자에 대 한 성능 또는 강등 상태 정보를 정기적으로 가져오기 위해 MICROSOFT 365 HR 커넥터를 구성 해야 합니다. 조직의 Microsoft 365 HR 커넥터를 구성 하는 방법에 대 한 단계별 지침은 [HR connector 문서를 사용한 가져오기 데이터](import-hr-data.md) 를 참조 하십시오.
 
 ## <a name="test-with-a-small-group-of-users-in-a-production-environment"></a>프로덕션 환경에서 소규모 사용자 그룹으로 테스트

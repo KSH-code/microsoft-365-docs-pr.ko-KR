@@ -8,12 +8,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 1e50b07208df46b199aada9c2ccbe04cc1c1ae72
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: e69656e13cd9a300cd56bdd5db7703f2387d23d4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289486"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846207"
 ---
 # <a name="security-technologies-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 보안 기술
 
@@ -39,7 +39,7 @@ Microsoft Managed Desktop은 모든 관리 장치를 보호 하 고 보호할 �
 --- | ---
 바이러스 검사 | Microsoft Defender AV를 설치 하 고 구성 합니다.<br>Microsoft Defender AV 정의가 최신 상태입니다.
 전체 볼륨 암호화 |    Windows BitLocker는 Microsoft Managed Desktop 장치에 대 한 볼륨 암호화 솔루션입니다.<br><br>조직이 서비스에 등록 장치가 절전 모드일 때 로컬 데이터에 대 한 무단 액세스를 방지 하기 위해 TPM (기본 제공 트러스트 플랫폼 모듈)이 포함 된 Windows BitLocker를 사용 하 여 디바이스가 암호화 됩니다. 
-모니터링 |    Microsoft Defender Advanced Threat Protection (Microsoft Defender ATP)은 모든 Microsoft 관리 되는 데스크톱 장치에서 보안 위협 모니터링에 사용 됩니다. 기업 고객은 Microsoft Defender ATP를 사용 하 여 회사 네트워크에서 advanced threat를 감지, 조사 및 응답할 수 있습니다. 자세한 내용은 [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) 를 참조 하세요. 
+모니터링 |    끝점에 대 한 microsoft Defender는 모든 Microsoft 관리 되는 데스크톱 장치에서 보안 위협 모니터링에 사용 됩니다. 끝점에 대 한 Defender 기업 고객은 회사 네트워크에서 advanced threat를 감지, 조사 및 대응할 수 있습니다. 자세한 내용은 [For Endpoint 용 Microsoft Defender를 참조 하세요.](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) 
 운영 체제 업데이트 |  Microsoft Managed Desktop 장치는 항상 최신 보안 업데이트를 사용 하 여 보호 됩니다.
 보안 장치 구성 |   Microsoft Managed Desktop은 Microsoft 보안 기준을 구현 합니다. 자세한 내용은 [Windows 보안 기준을](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines) 참조 하십시오.
 

@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 09/16/2020
-ms.openlocfilehash: 83a897438b9da88287574ff576fab9b2f6b30236
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 183435596706855479c49abc34358c85dccb0da4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430802"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846511"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>자동화 된 조사에 대 한 세부 정보 및 결과
 
@@ -34,9 +34,9 @@ ms.locfileid: "48430802"
 
 
 **적용 대상:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
-Microsoft Threat Protection에서 자동 조사가 발생 하는 경우, 해당 조사에 대한 세부 정보는 자동화 검사 프로세스 중에 확인할 수 있습니다. [필수 권한이](mtp-action-center.md#required-permissions-for-action-center-tasks)있는 경우 조사 세부 정보 보기에서 해당 정보를 확인할 수 있습니다.  조사 세부정부 보기에서 최신 상태를 확인하거나 보류중인 작업을 승인할 수 있습니다. 
+Microsoft 365 Defender에서 자동 조사가 발생 하면 자동화 된 조사 프로세스 중 및 후에 해당 조사에 대 한 세부 정보를 사용할 수 있습니다. [필수 권한이](mtp-action-center.md#required-permissions-for-action-center-tasks)있는 경우 조사 세부 정보 보기에서 해당 정보를 확인할 수 있습니다.  조사 세부정부 보기에서 최신 상태를 확인하거나 보류중인 작업을 승인할 수 있습니다. 
 
 ![조사 세부정보](../../media/mtp-air-investdetails.png)
 
@@ -48,11 +48,11 @@ Microsoft Threat Protection에서 자동 조사가 발생 하는 경우, 해당 
 
 ### <a name="select-an-item-in-the-action-center"></a>작업 센터에서 항목 선택
 
-작업 센터를 사용하여 승인이 보류 중이거나 (**보류 중인** 탭에서) 기승인 된 (**기록** 탭에서) 작업을 볼 수 있습니다. 
+작업 센터를 사용하여 승인이 보류 중이거나 ( **보류 중인** 탭에서) 기승인 된 ( **기록** 탭에서) 작업을 볼 수 있습니다. 
 
 1. [https://security.microsoft.com](https://security.microsoft.com)으로 이동하여 로그인합니다. 
 
-2. 탐색 창에서 **작업 센터**를 선택합니다. 
+2. 탐색 창에서 **작업 센터** 를 선택합니다. 
 
 3. **보류 중인** 또는 **기록** 탭에서 항목을 선택 합니다. [필수 권한이](mtp-action-center.md#required-permissions-for-action-center-tasks)있는 경우 보류 중인 작업을 승인(또는 거부) 할 수 있습니다.
 
@@ -62,7 +62,7 @@ Microsoft Threat Protection에서 자동 조사가 발생 하는 경우, 해당 
 
 1. [https://security.microsoft.com](https://security.microsoft.com)으로 이동하여 로그인합니다. 
 
-2. 탐색 창에서 **사건**을 선택합니다. 
+2. 탐색 창에서 **사건** 을 선택합니다. 
 
 3. 목록에서 항목을 선택 하여 사건 세부정보 보기를 엽니다.<br/>![사건 세부 정보](../../media/mtp-incidentdetails-tabs.png)
 
@@ -74,11 +74,11 @@ Microsoft Threat Protection에서 자동 조사가 발생 하는 경우, 해당 
 
 ![조사 세부정보](../../media/mtp-air-investdetails.png)
 
-조사 세부정보 보기에서 아래 테이블에 설명되어 있는 것 처럼 **조사 그래프**, **알람**, **장치**, **항목**, **주요 발견 사항**, **대상**, **로그** 및 **보류 활동**을 확인할 수 있습니다. 
+조사 세부정보 보기에서 아래 테이블에 설명되어 있는 것 처럼 **조사 그래프** , **알람** , **장치** , **항목** , **주요 발견 사항** , **대상** , **로그** 및 **보류 활동** 을 확인할 수 있습니다. 
 
 |Tab    |설명 |
 |--------|--------|
-|조사 그래프    |조사 내용이 시각적으로 표시 됩니다. 위협 대상과 목록 알람과 현재 활동이나 보류중인 활동을 보여줍니다. <br/>그래프에서 항목을 클릭 하면 세부정보를 볼 수 있습니다. 예를들어, **찾은 위협** 아이콘을 클릭하면 **주요 발견 사항**으로 이동합니다.  |
+|조사 그래프    |조사 내용이 시각적으로 표시 됩니다. 위협 대상과 목록 알람과 현재 활동이나 보류중인 활동을 보여줍니다. <br/>그래프에서 항목을 클릭 하면 세부정보를 볼 수 있습니다. 예를들어, **찾은 위협** 아이콘을 클릭하면 **주요 발견 사항** 으로 이동합니다.  |
 |알람 |조사와 관련 된 알람목록을 보여줍니다.  사용자 컴퓨터의 위협 방지 기능, Office 앱, 클라우드 앱 보안 및 기타 Microsoft 365 Threat Protection에서 알람이 발생합니다. |
 |장치|재구성 수준과 함께 조사에 포함된 기기 목록을 보여줍니다. |
 |주요 발견 사항   |검사 결과 및 상황, 활동 중이거나 보류중인 작업 목록을 보여줍니다.  이 탭에서 장치 빛 식별 보류 작업을 승인할 수 있습니다. |

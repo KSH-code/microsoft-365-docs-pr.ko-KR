@@ -1,5 +1,5 @@
 ---
-title: Office 365 ATP에서 안전한 링크 정책 설정
+title: Microsoft Defender for Office 365에서 안전한 링크 정책 설정
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,31 +16,31 @@ search.appverid:
 ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
-description: 관리자는 Office 365 ATP (Advanced Threat Protection)에서 안전한 링크 정책 및 전역 안전한 링크 설정을 확인, 작성, 수정 및 삭제 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: cf60820297401de92781a48f22f70d1f503e3097
-ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
+description: 관리자는 Office 365 용 Microsoft Defender에서 안전한 링크 정책 및 전역 안전 링크 설정을 확인, 작성, 수정 및 삭제 하는 방법을 확인할 수 있습니다.
+ms.openlocfilehash: ed95c72c98e0c9d59b9860e89843c5f9b4970c8e
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48417249"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846439"
 ---
-# <a name="set-up-safe-links-policies-in-office-365-atp"></a>Office 365 ATP에서 안전한 링크 정책 설정
+# <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365에서 안전한 링크 정책 설정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 > [!IMPORTANT]
-> 이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)이 있는 비즈니스 고객을 대상으로 합니다. Outlook에서 Safelinks에 대 한 정보를 검색 하는 개인 사용자는 [Advanced Outlook.com security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하십시오.
+> 이 문서는 [Office 365 용 Microsoft Defender](office-365-atp.md)가 있는 비즈니스 고객을 위한 것입니다. Outlook에서 Safelinks에 대 한 정보를 검색 하는 개인 사용자는 [Advanced Outlook.com security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하십시오.
 
-안전한 링크는 메일 흐름에서 인바운드 전자 메일 메시지의 URL 검색을 제공 하 고 전자 메일 메시지와 다른 위치의 Url 및 링크 확인을 클릭 하는 경우 [Office 365 ATP (Advanced Threat Protection)](office-365-atp.md) 의 기능입니다. 자세한 내용은 [Office 365 ATP의 안전한 링크](atp-safe-links.md)를 참조 하세요.
+안전한 링크는 메일 흐름에서 인바운드 전자 메일 메시지의 URL 검색을 제공 하 고 전자 메일 메시지 및 기타 위치에서 Url 및 링크 확인을 클릭 하는 경우 [Microsoft Defender For Office 365](office-365-atp.md) 의 기능입니다. 자세한 내용은 [Office 용 Microsoft Defender 365의 안전한 링크](atp-safe-links.md)를 참조 하세요.
 
 기본 제공 또는 기본 안전 링크 정책이 없습니다. 안전한 링크 Url 검색을 얻으려면이 문서에 설명 된 대로 하나 이상의 안전한 링크 정책을 만들어야 합니다.
 
-보안 & 준수 센터 또는 PowerShell (exchange online에 사서함이 있는 적격 Microsoft 365 조직에 대 한 Exchange Online PowerShell, exchange online 사서함이 없는 조직의 경우 독립 실행형 EOP PowerShell, Office 365 ATP 추가 기능 구독이 있는 경우)에서 안전한 링크 정책을 구성할 수 있습니다.
+보안 & 준수 센터 또는 PowerShell (exchange online에 사서함이 있는 적격 Microsoft 365 조직에 대 한 Exchange Online PowerShell, exchange online 사서함이 없는 조직에는 독립 실행형 EOP PowerShell, Microsoft Defender for Office 365 추가 기능 구독)에서 안전한 링크 정책을 구성할 수 있습니다.
 
 안전한 링크 정책의 기본 요소는 다음과 같습니다.
 
-- **안전한 링크 정책**: 안전한 링크 보호를 설정 하 고, 실시간 URL 검색을 사용 하도록 설정 하 고, 메시지를 배달 하기 전에 실시간 검색이 완료 되기를 기다릴지 여부를 지정 하 고, 내부 메시지에 대 한 검색을 설정 하 고, 사용자가 url을 클릭 하는지 여부를 지정 하 고, 사용자가 원래 url을 클릭할 수 있도록 허용할지 여부를 지정 합니다.
-- **Safe links rule**: 우선 순위 및 받는 사람 필터 (정책이 적용 되는 사용자)를 지정 합니다.
+- **안전한 링크 정책** : 안전한 링크 보호를 설정 하 고, 실시간 URL 검색을 사용 하도록 설정 하 고, 메시지를 배달 하기 전에 실시간 검색이 완료 되기를 기다릴지 여부를 지정 하 고, 내부 메시지에 대 한 검색을 설정 하 고, 사용자가 url을 클릭 하는지 여부를 지정 하 고, 사용자가 원래 url을 클릭할 수 있도록 허용할지 여부를 지정 합니다.
+- **Safe links rule** : 우선 순위 및 받는 사람 필터 (정책이 적용 되는 사용자)를 지정 합니다.
 
 보안 & 준수 센터에서 안전 링크 정책을 관리할 때는 이러한 두 가지 요소 간의 차이가 명확 하지 않습니다.
 
@@ -51,11 +51,11 @@ ms.locfileid: "48417249"
 Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책과 규칙을 개별적으로 관리합니다. 자세한 내용은이 문서 뒷부분에 나오는 [Exchange Online PowerShell 또는 독립 실행형 EOP powershell을 사용 하 여 안전한 링크 정책 구성](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies) 섹션을 참조 하십시오.
 
 > [!NOTE]
-> 안전한 링크 보호 정책 **외부** 에서 안전한 링크 방지에 대 한 전역 설정을 구성 합니다. 자세한 내용은 [Office 365 ATP에서 안전한 링크에 대 한 전역 설정 구성을](configure-global-settings-for-safe-links.md)참조 하세요.
+> 안전한 링크 보호 정책 **외부** 에서 안전한 링크 방지에 대 한 전역 설정을 구성 합니다. 자세한 내용은 [Microsoft Defender For Office 365의 안전한 링크에 대 한 전역 설정 구성을](configure-global-settings-for-safe-links.md)참조 하세요.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **ATP 안전한 링크** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/safelinksv2> 합니다.
+- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **안전한 링크** 페이지로 바로 이동 하려면를 사용 <https://protection.office.com/safelinksv2> 합니다.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
@@ -68,41 +68,41 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
 - 새 정책이 나 업데이트 된 정책을 적용할 최대 30 분을 허용 합니다.
 
-- [새 기능은 ATP에 계속 추가 됩니다](office-365-atp.md#new-features-in-office-365-atp). 새 기능을 추가 하면 기존 안전한 링크 정책을 조정 해야 할 수 있습니다.
+- [새로운 기능은 Office 365 용 Microsoft Defender에 지속적으로 추가 됩니다](office-365-atp.md#new-features-in-microsoft-defender-for-office-365). 새 기능을 추가 하면 기존 안전한 링크 정책을 조정 해야 할 수 있습니다.
 
 ## <a name="use-the-security--compliance-center-to-create-safe-links-policies"></a>보안 & 준수 센터를 사용 하 여 안전한 링크 정책 만들기
 
 보안 & 준수 센터에서 사용자 지정 안전 링크 정책을 만들면 둘 다에 동일한 이름을 사용 하 여 안전 링크 규칙과 연결 된 안전한 링크 정책이 동시에 만들어집니다.
 
-1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 안전한 링크로**이동 합니다.
+1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 안전한 링크로** 이동 합니다.
 
-2. **안전한 링크** 페이지에서 **만들기**를 클릭 합니다.
+2. **안전한 링크** 페이지에서 **만들기** 를 클릭 합니다.
 
 3. **새 안전 링크 정책** 마법사가 열립니다. **정책 이름** 설정 페이지에서 다음 설정을 구성 합니다.
 
-   - **이름**: 정책을 설명하는 고유한 이름을 입력합니다.
+   - **이름** : 정책을 설명하는 고유한 이름을 입력합니다.
 
-   - **설명**: 정책에 대한 선택적 설명을 입력합니다.
+   - **설명** : 정책에 대한 선택적 설명을 입력합니다.
 
-   작업을 마친 후 **다음**을 클릭합니다.
+   작업을 마친 후 **다음** 을 클릭합니다.
 
 4. **설정** 페이지가 나타나면 다음 설정을 구성 합니다.
 
-   - **메시지에서 알 수 없는 잠재적 악성 url에 대 한 작업을 선택**합니다 .를 **선택 하 여** 전자 메일 메시지의 링크에 안전한 링크 보호를 사용 하도록 설정 합니다.
+   - **메시지에서 알 수 없는 잠재적 악성 url에 대 한 작업을 선택** 합니다 .를 **선택 하 여** 전자 메일 메시지의 링크에 안전한 링크 보호를 사용 하도록 설정 합니다.
 
-   - **Microsoft 팀 내에서 알 수 없거나 잠재적 악성 url에 대 한 작업을 선택**합니다. 팀의 링크에 대해 안전한 링크 보호를 **사용 하려면 선택** 합니다.
+   - **Microsoft 팀 내에서 알 수 없거나 잠재적 악성 url에 대 한 작업을 선택** 합니다. 팀의 링크에 대해 안전한 링크 보호를 **사용 하려면 선택** 합니다.
 
-   - **의심 스러운 링크 및 파일을 가리키는 링크에 대해 실시간 URL 검색을 적용**합니다. 전자 메일 메시지에서 실시간으로 링크를 검색할 수 있도록 하려면이 설정을 선택 합니다.
+   - **의심 스러운 링크 및 파일을 가리키는 링크에 대해 실시간 URL 검색을 적용** 합니다. 전자 메일 메시지에서 실시간으로 링크를 검색할 수 있도록 하려면이 설정을 선택 합니다.
 
    - **메시지를 배달 하기 전에 URL 검색이 완료 될 때까지 기다립니다**. 메시지를 배달 하기 전에 실시간 url 검색이 완료 될 때까지 기다리려면이 설정을 선택 합니다.
 
-   - **조직 내에서 전송 되는 전자 메일 메시지에 안전한 링크 적용**: 내부 보낸 사람과 내부 받는 사람 간의 메시지에 안전한 링크 정책을 적용 하려면이 설정을 선택 합니다.
+   - **조직 내에서 전송 되는 전자 메일 메시지에 안전한 링크 적용** : 내부 보낸 사람과 내부 받는 사람 간의 메시지에 안전한 링크 정책을 적용 하려면이 설정을 선택 합니다.
 
-   - **사용자 클릭 추적 안 함**: 추적 사용자가 전자 메일 메시지의 url을 클릭할 수 있도록 하려면이 설정을 선택 하지 않습니다.
+   - **사용자 클릭 추적 안 함** : 추적 사용자가 전자 메일 메시지의 url을 클릭할 수 있도록 하려면이 설정을 선택 하지 않습니다.
 
-   - **사용자가 원래 url로 이동**하는 것을 허용 하지 않습니다. 사용자가 [경고 페이지](atp-safe-links.md#warning-pages-from-safe-links)의 원래 url을 클릭 하지 못하도록 차단 하려면이 설정을 선택 합니다.
+   - **사용자가 원래 url로 이동** 하는 것을 허용 하지 않습니다. 사용자가 [경고 페이지](atp-safe-links.md#warning-pages-from-safe-links)의 원래 url을 클릭 하지 못하도록 차단 하려면이 설정을 선택 합니다.
 
-   - **다음 url은 다시 쓰지**않습니다. 안전한 링크에 의해 차단 되는 지정 된 url에 액세스할 수 있도록 허용 합니다.
+   - **다음 url은 다시 쓰지** 않습니다. 안전한 링크에 의해 차단 되는 지정 된 url에 액세스할 수 있도록 허용 합니다.
 
      상자에 원하는 URL 또는 값을 입력 하 고 ![단추 추가 아이콘](../../media/ITPro-EAC-AddIcon.png).
 
@@ -114,16 +114,16 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
    표준 및 엄격한 정책 설정에 대 한 권장 값은 [안전한 링크 정책 설정을](recommended-settings-for-eop-and-office365-atp.md#safe-links-policy-settings)참조 하십시오.
 
-   작업을 마친 후 **다음**을 클릭합니다.
+   작업을 마친 후 **다음** 을 클릭합니다.
 
 5. **적용 대상** 페이지에서 정책이 적용 되는 내부 받는 사람을 식별 합니다.
 
-   조건이나 예외는 한 번만 사용할 수 있지만, 조건이나 예외에 대한 값을 여러 개 지정할 수 있습니다. 동일한 조건의 여러 값이나 예외는 OR 논리를 사용합니다(예: _\<recipient1\>_ 혹은 _\<recipient2\>_). 다양한 조건이나 예외는 AND 논리를 사용합니다(예: _\<recipient1\>_ 및 _\<member of group 1\>_).
+   조건이나 예외는 한 번만 사용할 수 있지만, 조건이나 예외에 대한 값을 여러 개 지정할 수 있습니다. 동일한 조건의 여러 값이나 예외는 OR 논리를 사용합니다(예: _\<recipient1\>_ 혹은 _\<recipient2\>_ ). 다양한 조건이나 예외는 AND 논리를 사용합니다(예: _\<recipient1\>_ 및 _\<member of group 1\>_ ).
 
-   **조건 추가를**클릭 합니다. 표시 되는 드롭다운 목록에서 다음의 **경우 적용**아래의 조건을 선택 합니다.
+   **조건 추가를** 클릭 합니다. 표시 되는 드롭다운 목록에서 다음의 **경우 적용** 아래의 조건을 선택 합니다.
 
-   - **받는 사람**: 조직의 사서함, 메일 사용자 또는 메일 연락처를 하나 이상 지정 합니다.
-   - **받는 사람이 다음 구성원 인**경우: 조직에서 그룹을 하나 이상 지정 합니다.
+   - **받는 사람** : 조직의 사서함, 메일 사용자 또는 메일 연락처를 하나 이상 지정 합니다.
+   - **받는 사람이 다음 구성원 인** 경우: 조직에서 그룹을 하나 이상 지정 합니다.
    - **받는 사람 도메인은** 조직에서 구성된 허용 도메인 중 하나 이상에서 받는 사람을 지정합니다.
 
    조건을 선택한 후에는 **이러한 상자 중 하나** 에 해당 하는 dropdown이 표시 됩니다.
@@ -134,19 +134,19 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
    - 개별 항목을 제거 하려면 값에서 제거 아이콘 **제거** 를 클릭 ![ ](../../media/scc-remove-icon.png) 합니다.
    - 전체 조건을 제거 하려면 **Remove** ![ 조건에서 제거 아이콘 제거를 클릭 ](../../media/scc-remove-icon.png) 합니다.
 
-   조건을 더 추가 하려면 **조건 추가** 를 클릭 하 고 **적용 된 경우**에는 나머지 값을 선택 합니다.
+   조건을 더 추가 하려면 **조건 추가** 를 클릭 하 고 **적용 된 경우** 에는 나머지 값을 선택 합니다.
 
-   예외를 추가 하려면 **조건 추가** 를 클릭 하 고 다음의 **경우 제외**에서 예외를 선택 합니다. 설정 및 동작은 조건과 정확히 같습니다.
+   예외를 추가 하려면 **조건 추가** 를 클릭 하 고 다음의 **경우 제외** 에서 예외를 선택 합니다. 설정 및 동작은 조건과 정확히 같습니다.
 
-   작업을 마친 후 **다음**을 클릭합니다.
+   작업을 마친 후 **다음** 을 클릭합니다.
 
 6. **설정 검토** 페이지가 나타나면 설정을 검토 합니다. 각 설정에 대해 **편집** 을 클릭 하 여 수정할 수 있습니다.
 
-   작업이 완료 되 면 **마침을**클릭 합니다.
+   작업이 완료 되 면 **마침을** 클릭 합니다.
 
 ## <a name="use-the-security--compliance-center-to-view-safe-links-policies"></a>보안 & 준수 센터를 사용 하 여 안전한 링크 정책 보기
 
-1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 안전한 링크로**이동 합니다.
+1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 안전한 링크로** 이동 합니다.
 
 2. **안전한 링크** 페이지의 목록에서 정책을 선택 하 고 다음을 클릭 합니다 (확인란을 선택 하지 않음).
 
@@ -154,11 +154,11 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
 ## <a name="use-the-security--compliance-center-to-modify-safe-links-policies"></a>보안 & 준수 센터를 사용 하 여 안전한 링크 정책 수정
 
-1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 안전한 링크로**이동 합니다.
+1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 안전한 링크로** 이동 합니다.
 
 2. **안전한 링크** 페이지의 목록에서 정책을 선택 하 고 다음을 클릭 합니다 (확인란을 선택 하지 않음).
 
-3. 정책 세부 정보가 표시 되 면 **정책 편집**을 클릭 합니다.
+3. 정책 세부 정보가 표시 되 면 **정책 편집** 을 클릭 합니다.
 
 즉시 표시 되는 사용 가능한 설정은 [보안 & 준수 센터를 사용 하 여 안전한 링크 정책 만들기](#use-the-security--compliance-center-to-create-safe-links-policies) 섹션에 설명 된 설정과 동일 합니다.
 
@@ -166,7 +166,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
 ### <a name="enable-or-disable-safe-links-policies"></a>안전한 링크 정책 설정 또는 해제
 
-1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 안전한 링크로**이동 합니다.
+1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 안전한 링크로** 이동 합니다.
 
 2. **상태** 열에서 다음 값을 확인 합니다.
 
@@ -182,11 +182,11 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
 안전한 링크 정책은 처리 되는 순서 대로 표시 됩니다 (첫 번째 정책의 **우선 순위** 값은 0).
 
-**참고**: 보안 & 준수 센터에서는 안전한 링크 정책의 우선 순위를 만든 후에만 변경할 수 있습니다. PowerShell에서는 안전한 링크 규칙을 만들 때 기본 우선 순위를 재정의할 수 있습니다 (기존 규칙의 우선 순위에 영향을 줄 수 있음).
+**참고** : 보안 & 준수 센터에서는 안전한 링크 정책의 우선 순위를 만든 후에만 변경할 수 있습니다. PowerShell에서는 안전한 링크 규칙을 만들 때 기본 우선 순위를 재정의할 수 있습니다 (기존 규칙의 우선 순위에 영향을 줄 수 있음).
 
 정책의 우선순위를 변경하려면 목록에서 정책을 위나 아래로 이동합니다. 보안 및 준수 센터에서 **우선순위** 번호를 직접 수정할 수는 없습니다.
 
-1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 안전한 링크로**이동 합니다.
+1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 안전한 링크로** 이동 합니다.
 
 2. **안전한 링크** 페이지의 목록에서 정책을 선택 하 고 다음을 클릭 합니다 (확인란을 선택 하지 않음).
 
@@ -194,27 +194,27 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
    - **우선 순위** 값이 **0** 인 안전한 링크 정책에는 **우선 순위 낮추기** 단추만 사용할 수 있습니다.
 
-   - **우선 순위** 값이 가장 낮은 안전한 링크 정책 (예: **3**)에는 **우선 순위 향상** 단추만 사용할 수 있습니다.
+   - **우선 순위** 값이 가장 낮은 안전한 링크 정책 (예: **3** )에는 **우선 순위 향상** 단추만 사용할 수 있습니다.
 
    - 안전 링크 정책이 3 개 이상인 경우 가장 높거나 낮은 우선 순위 값 사이의 정책에는 **우선 순위 증가** 와 **우선 순위 낮추기** 단추가 모두 있습니다.
 
 4. 우선 **순위 높임** 또는 **우선 순위 낮추기** 를 클릭 하 여 **우선 순위** 값을 변경 합니다.
 
-5. 작업을 마쳤으면 **닫기**를 클릭합니다.
+5. 작업을 마쳤으면 **닫기** 를 클릭합니다.
 
 ## <a name="use-the-security--compliance-center-to-remove-safe-links-policies"></a>보안 & 준수 센터를 사용 하 여 안전한 링크 정책 제거
 
-1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 안전한 링크로**이동 합니다.
+1. 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 안전한 링크로** 이동 합니다.
 
 2. **안전한 링크** 페이지의 목록에서 정책을 선택 하 고 다음을 클릭 합니다 (확인란을 선택 하지 않음).
 
-3. 정책 세부 정보가 표시 되 면 **정책 삭제**를 클릭 한 다음 표시 되는 경고 대화 상자에서 **예** 를 클릭 합니다.
+3. 정책 세부 정보가 표시 되 면 **정책 삭제** 를 클릭 한 다음 표시 되는 경고 대화 상자에서 **예** 를 클릭 합니다.
 
 ## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies"></a>Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell을 사용 하 여 안전한 링크 정책 구성
 
 앞에서 설명한 것 처럼 안전한 링크 정책은 안전한 링크 정책 및 안전한 링크 규칙으로 구성 됩니다.
 
-PowerShell에서는 안전한 링크 정책과 안전한 링크 규칙 간의 차이가 명백 합니다. ** \* -Get-safelinkspolicy** cmdlet을 사용 하 여 안전한 링크 정책을 관리 하 고 ** \* -disable-safelinksrule** cmdlet을 사용 하 여 안전한 링크 규칙을 관리 합니다.
+PowerShell에서는 안전한 링크 정책과 안전한 링크 규칙 간의 차이가 명백 합니다. **\* -Get-safelinkspolicy** cmdlet을 사용 하 여 안전한 링크 정책을 관리 하 고 **\* -disable-safelinksrule** cmdlet을 사용 하 여 안전한 링크 규칙을 관리 합니다.
 
 - PowerShell에서는 먼저 안전한 링크 정책을 만든 다음 규칙이 적용 되는 정책을 식별 하는 안전 링크 규칙을 만듭니다.
 - PowerShell에서는 안전 링크 정책의 설정과 안전 링크 규칙을 각각 수정 합니다.
@@ -227,14 +227,14 @@ PowerShell에서 안전한 링크 정책을 만드는 과정은 두 단계로 �
 1. 안전한 링크 정책을 만듭니다.
 2. 규칙이 적용 되는 안전한 링크 정책을 지정 하는 안전 링크 규칙을 만듭니다.
 
- **참고**:
+ **참고** :
 
 - 새 안전 링크 규칙을 만들고 연결 되지 않은 기존 안전 링크 정책을 할당할 수 있습니다. 안전한 링크 규칙은 둘 이상의 안전한 링크 정책에 연결할 수 없습니다.
 
 - 정책을 만든 후에 야 보안 & 준수 센터에서 사용할 수 없는 PowerShell의 새 안전 링크 정책에 대해 다음 설정을 구성할 수 있습니다.
 
-  - Disable-safelinksrule cmdlet에서_사용 하도록 설정_ 된 새 정책을 사용 하지 않도록 설정 `$false` **New-SafeLinksRule** 합니다.
-  - Disable-safelinksrule cmdlet에 대 한 생성 (_우선 순위_ ) 중에 정책의 우선 순위를 설정 _\<Number\>_ 합니다. **New-SafeLinksRule**
+  - Disable-safelinksrule cmdlet에서 _사용 하도록 설정_ 된 새 정책을 사용 하지 않도록 설정 `$false` **New-SafeLinksRule** 합니다.
+  - Disable-safelinksrule cmdlet에 대 한 생성 ( _우선 순위_ ) 중에 정책의 우선 순위를 설정 _\<Number\>_ 합니다. **New-SafeLinksRule**
 
 - PowerShell에서 만든 새 안전 링크 정책은 안전한 링크 규칙에 정책을 할당할 때까지 보안 & 준수 센터에 표시 되지 않습니다.
 
@@ -246,7 +246,7 @@ PowerShell에서 안전한 링크 정책을 만드는 과정은 두 단계로 �
 New-SafeLinksPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [-IsEnabled <$true | $false>] [-EnableSafeLinksForTeams <$true | $false>] [-ScanUrls <$true | $false>] [-DeliverMessageAfterScan <$true | $false>] [-EnableForInternalSenders <$true | $false>] [-DoNotAllowClickThrough <$true | $false>] [-DoNotTrackUserClicks <$true | $false>] [-DoNotRewriteUrls "Entry1","Entry2",..."EntryN"]
 ```
 
-**참고**:
+**참고** :
 
 - _DoNotRewriteUrls_ 매개 변수에 사용할 항목 구문에 대 한 자세한 내용은 ["다음 url을 다시 쓰지 않음" 목록의 항목 구문을](atp-safe-links.md#entry-syntax-for-the-do-not-rewrite-the-following-urls-list)참조 하십시오.
 
@@ -345,7 +345,7 @@ Get-SafeLinksRule -Identity "Contoso Executives"
 
 ### <a name="use-powershell-to-modify-safe-links-policies"></a>PowerShell을 사용 하 여 안전한 링크 정책 수정
 
-PowerShell에서 안전한 링크 정책의 이름을 바꿀 수는 없습니다 ( **get-safelinkspolicy** Cmdlet은 _Name_ 매개 변수를 사용 하지 않음). 보안 & 준수 센터에서 안전 링크 정책의 이름을 바꿀 때 안전한 링크 _규칙만_이름을 변경 하는 것입니다.
+PowerShell에서 안전한 링크 정책의 이름을 바꿀 수는 없습니다 ( **get-safelinkspolicy** Cmdlet은 _Name_ 매개 변수를 사용 하지 않음). 보안 & 준수 센터에서 안전 링크 정책의 이름을 바꿀 때 안전한 링크 _규칙만_ 이름을 변경 하는 것입니다.
 
 PowerShell에서 안전한 링크 정책을 수정 하는 경우에는 _DoNotRewriteUrls_ 매개 변수 ( ["다음 url을 다시 쓰지 않음" 목록](atp-safe-links.md#do-not-rewrite-the-following-urls-lists-in-safe-links-policies))에 대해 사용 가능한 추가 고려 사항은 다음과 같습니다.
 
@@ -416,7 +416,7 @@ Set-SafeLinksRule -Identity "<RuleName>" -Priority <Number>
 Set-SafeLinksRule -Identity "Marketing Department" -Priority 2
 ```
 
-**참고**: 새 규칙을 만들 때 우선 순위를 설정 하려면 대신 **Disable-safelinksrule** cmdlet에서 _priority_ 매개 변수를 사용 하십시오.
+**참고** : 새 규칙을 만들 때 우선 순위를 설정 하려면 대신 **Disable-safelinksrule** cmdlet에서 _priority_ 매개 변수를 사용 하십시오.
 
 구문 및 매개 변수에 대 한 자세한 내용은 [disable-safelinksrule](https://docs.microsoft.com/powershell/module/exchange/set-safelinksrule)를 참조 하십시오.
 
@@ -456,13 +456,13 @@ Remove-SafeLinksRule -Identity "Marketing Department"
 
 구문과 매개 변수에 대 한 자세한 내용은 [disable-safelinksrule](https://docs.microsoft.com/powershell/module/exchange/remove-safelinksrule)를 참조 하십시오.
 
-안전한 링크가 메시지를 검색 하는지 확인 하려면 사용 가능한 Advanced Threat Protection 보고서를 확인 합니다. 자세한 내용은 [View reports For Office 365 ATP](view-reports-for-atp.md) 및 [Security & 준수 센터에서 탐색기 사용](threat-explorer.md)을 참조 하십시오.
+안전한 링크가 메시지를 검색 하는지 확인 하려면 사용 가능한 Microsoft Defender for Office 365 reports를 확인 합니다. 자세한 내용은 [View reports For Office 365](view-reports-for-atp.md) 및 [Security & 준수 센터에서 탐색기 사용](threat-explorer.md)을 참조 하십시오.
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>이 절차가 제대로 수행되었는지 어떻게 확인하나요?
 
 안전한 링크 정책이 성공적으로 생성, 수정 또는 제거 되었는지 확인 하려면 다음 단계 중 하나를 수행 합니다.
 
-- 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 안전한 링크로**이동 합니다. 정책 목록, 해당 **상태** 값 및 해당 **우선 순위** 값을 확인 합니다. 자세한 내용을 보려면 목록에서 정책을 선택 하 고 플라이 아웃에서 세부 정보를 확인 합니다.
+- 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 안전한 링크로** 이동 합니다. 정책 목록, 해당 **상태** 값 및 해당 **우선 순위** 값을 확인 합니다. 자세한 내용을 보려면 목록에서 정책을 선택 하 고 플라이 아웃에서 세부 정보를 확인 합니다.
 
 - Exchange Online PowerShell 또는 Exchange Online Protection PowerShell에서 \<Name\> 정책 또는 규칙의 이름으로 바꾸고 다음 명령을 실행 하 고 설정을 확인 합니다.
 

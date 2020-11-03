@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: EOP (독립 실행형 Exchange Online Protection)에 대해 직접 설정 하 여 성공적인 작동을 방지 하 고 일반적인 구성 오류가 발생 하지 않도록 하려면 다음과 같은 모범 사례 권장 사항을 따르십시오.
-ms.openlocfilehash: b734fe87b82c243531944bbd9cf53d22d5b42f53
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: abf68e361293b2a55cd0a382cc376cbfe21236e7
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48414037"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845951"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>독립 실행형 EOP 구성 모범 사례
 
@@ -35,7 +35,7 @@ EOP (독립 실행형 Exchange Online Protection)에 대해 직접 설정 하 �
 
 ## <a name="recommended-settings"></a>권장 설정
 
-조직의 요구 사항을 충족 하기 위해 보안 설정을 사용자 지정 하는 보안 관리자를 지원 합니다. 일반적으로 EOP 및 Office 365 ATP에는 표준 및 Strict의 두 가지 보안 수준이 권장 됩니다. 이러한 설정은 [EOP 및 Office 365 ATP 보안에 대 한 권장 설정](recommended-settings-for-eop-and-office365-atp.md)에 나와 있습니다.
+조직의 요구 사항을 충족 하기 위해 보안 설정을 사용자 지정 하는 보안 관리자를 지원 합니다. 일반적으로 EOP에는 두 가지 보안 수준이 있으며, Office 365 용 Microsoft Defender에는 표준 및 Strict가 권장 됩니다. 이러한 설정은 [EOP 및 Office 용 Microsoft Defender 365 보안에 대 한 권장 설정](recommended-settings-for-eop-and-office365-atp.md)에 나와 있습니다.
 
 ### <a name="miscellaneousnon-policy-settings"></a>기타/정책 외 설정
 
@@ -74,7 +74,7 @@ EOP (독립 실행형 Exchange Online Protection)에 대해 직접 설정 하 �
 
 비즈니스 요구를 충족 하기 위해 메일 흐름 규칙 (전송 규칙이 라고도 함) 또는 사용자 지정 필터를 만듭니다.
 
-새 규칙을 프로덕션 환경으로 배포할 때는 먼저 테스트 모드 중 하나를 선택하여 규칙의 효과를 확인합니다. 규칙이 원하는 방식으로 작동하면 규칙 모드를 **적용**으로 변경합니다.
+새 규칙을 프로덕션 환경으로 배포할 때는 먼저 테스트 모드 중 하나를 선택하여 규칙의 효과를 확인합니다. 규칙이 원하는 방식으로 작동하면 규칙 모드를 **적용** 으로 변경합니다.
 
 새 규칙을 배포할 때는 적용된 규칙을 모니터링하기 위해 **문제 보고서 생성** 동작을 추가할 수 있습니다.
 

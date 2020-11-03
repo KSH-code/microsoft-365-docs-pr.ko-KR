@@ -7,12 +7,12 @@ author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 39209e81c380887d8a65e28f12ea00c6050e28fa
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 52bbbad5acac3b0407ffbf0cd78888d74cfb05d3
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950333"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846195"
 ---
 # <a name="support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 지원
 
@@ -33,7 +33,7 @@ Microsoft 관리형 데스크톱 지원에는 다음이 포함 됩니다.
 
 지원 되는 제품:
 
-- Microsoft Defender Advanced Threat Protection이 포함 된 Windows 10 
+- 끝점에 대 한 Microsoft Defender가 포함 된 Windows 10
 - 엔터프라이즈 앱에 대 한 Microsoft 365 앱: Outlook, Word, PowerPoint, Excel, 비즈니스용 Skype 클라이언트, Microsoft 팀 
 - 비즈니스용 Microsoft Store 
 - 비즈니스용 OneDrive 클라이언트 

@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: a76bae70adeb07d9ea0574a25bac14f89a0a790d
-ms.sourcegitcommit: 61d7284b412d0f7bbd8bbb2225c2e6324f86b717
+ms.openlocfilehash: 5533284d4a3f55a51b3017a64e4c353b4ec71352
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262220"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846231"
 ---
 # <a name="device-configuration"></a>장치 구성
 
@@ -39,7 +39,7 @@ ms.locfileid: "48262220"
 보안 초기 계획 | MDM 용 [microsoft 보안 기준은](https://docs.microsoft.com/windows/device-security/windows-security-baselines) 모든 Microsoft 관리 데스크톱 장치에 대해 구성 됩니다. 이 기준은 업계 표준 구성입니다. 이 기능은 공개적으로 출시 되 고 테스트 되었으며 microsoft의 관리 되는 데스크톱 장치 및 앱을 최신 회사에서 안전 하 게 유지 하기 위해 마이크로소프트 보안 전문가가 검토 하 고 있습니다. <br><br>지속적으로 진화 하는 보안 위협 요소에서 위협을 완화 하기 위해 Microsoft 보안 기준은 각 Windows 10 기능 업데이트를 사용 하 여 Microsoft Managed Desktop 장치에 배포 됩니다.<br><br>자세한 내용은 [Windows 보안 기준을](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines)참조 하십시오.
 Microsoft Managed Desktop 권장 보안 서식 파일 | 보안 기준이 사용자 환경을 최적화 하는 권장 변경 사항 집합입니다.  이러한 변경 내용은 [보안 추 록](#security-addendum)에 설명 되어 있습니다. 추 록 정책에 대 한 업데이트는 필요한 기준에 따라 발생 합니다.  
 업데이트 배포 | 비즈니스용 Windows 업데이트를 사용 하 여 소프트웨어 업데이트의 점진적 배포를 수행 합니다. IT 관리자는 배포 그룹 정책에 대 한 설정을 수정할 수 없습니다. 그룹 기반 배포에 대 한 자세한 내용은 [Microsoft Managed Desktop에서 업데이트를 처리 하는 방법을](updates.md)참조 하세요.
-데이터 통신 연결 | 기본적으로 LTE 네트워크와 같은 유료 연결을 통한 업데이트는 사용 되지 않지만 각 사용자는 **고급 옵션 > 업데이트 > 설정**에 독립적으로이 기능을 켤 수 있습니다. 모든 사용자가 데이터 통신 연결을 통해 업데이트를 사용 하도록 허용 하려면 모든 장치에 대해이 설정을 사용 하는 [변경 요청을 제출](../working-with-managed-desktop/admin-support.md)합니다.
+데이터 통신 연결 | 기본적으로 LTE 네트워크와 같은 유료 연결을 통한 업데이트는 사용 되지 않지만 각 사용자는 **고급 옵션 > 업데이트 > 설정** 에 독립적으로이 기능을 켤 수 있습니다. 모든 사용자가 데이터 통신 연결을 통해 업데이트를 사용 하도록 허용 하려면 모든 장치에 대해이 설정을 사용 하는 [변경 요청을 제출](../working-with-managed-desktop/admin-support.md)합니다.
 | 장치 준수 | 이러한 정책은 모든 Microsoft 관리 데스크톱 장치에 대해 구성 됩니다. 장치가 필요한 보안 구성에서 drifts 때 비 준수로 보고 됩니다.
 
 ## <a name="windows-diagnostic-data"></a>Windows 진단 데이터
@@ -53,5 +53,5 @@ Microsoft Managed Desktop 권장 보안 서식 파일 | 보안 기준이 사용�
  ### <a name="additional-security-policies"></a>추가 보안 정책
 
  높은 규제 대상 업계에 대 한 보안을 강화 하기 위해 이러한 정책이 추가 됩니다. 
- - **보안 모니터링**: Microsoft는 [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)을 사용 하 여 장치를 모니터링 합니다. 위협이 검색 되 면 Microsoft는 고객에 게 알리고, 장치를 격리 하 고, 원격으로 문제를 해결 합니다. 
- - **Powershell V2 사용 안 함**: Microsoft에서 Powershell V2 8 월 2017을 제거 했습니다. 이 기능은 모든 Microsoft 관리 되는 데스크톱 장치에서 사용 하지 않도록 설정 되었습니다. 이 변경 사항에 대 한 자세한 내용은 [Windows PowerShell 2.0](https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/)을 참조 하십시오.
+ - **보안 모니터링** : Microsoft는 [끝점에 대해 microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)를 사용 하 여 장치를 모니터링 합니다. 위협이 검색 되 면 Microsoft는 고객에 게 알리고, 장치를 격리 하 고, 원격으로 문제를 해결 합니다. 
+ - **Powershell V2 사용 안 함** : Microsoft에서 Powershell V2 8 월 2017을 제거 했습니다. 이 기능은 모든 Microsoft 관리 되는 데스크톱 장치에서 사용 하지 않도록 설정 되었습니다. 이 변경 사항에 대 한 자세한 내용은 [Windows PowerShell 2.0](https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/)을 참조 하십시오.

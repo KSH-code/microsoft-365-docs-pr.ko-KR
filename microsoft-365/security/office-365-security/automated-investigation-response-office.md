@@ -21,12 +21,12 @@ description: Microsoft Defender for Office 365의 자동화 된 조사 및 응�
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: d63ba8a6d3ffb653b30448a973e1cd862631d350
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 316e2e30e5865e068f20d151cd0b081a96ee853f
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48447110"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845975"
 ---
 # <a name="an-overview-of-automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 자동 조사 및 응답 (AIR)에 대 한 개요
 
@@ -62,7 +62,7 @@ AIR을 사용 하면 보안 운영 팀이 보다 효율적이 고 효율적으�
 > [!NOTE]
 > 별표 ()로 표시 된 경고에는 `*` Microsoft 365 보안 센터 내의 각 경고 정책에 *정보* 심각도가 할당 되며 전자 메일 알림이 해제 됩니다. [알림 정책 구성을](../../compliance/alert-policies.md#alert-policy-settings)통해 전자 메일 알림을 설정할 수 있습니다. 
 
-알림을 보려면 보안 & 준수 센터 **에서 경고**  >  **보기**를 선택 합니다. 알림을 선택 하 여 세부 정보를 확인 하 고, **보기 조사** 링크를 사용 하 여 해당 [조사](air-view-investigation-results.md#investigation-graph)로 이동 합니다.  
+알림을 보려면 보안 & 준수 센터 **에서 경고**  >  **보기** 를 선택 합니다. 알림을 선택 하 여 세부 정보를 확인 하 고, **보기 조사** 링크를 사용 하 여 해당 [조사](air-view-investigation-results.md#investigation-graph)로 이동 합니다.  
 
 > [!NOTE]
 > 정보 알림은 기본적으로 경고 보기에 숨겨집니다. 이러한 항목을 보려면 알림 필터링을 변경 하 여 정보 알림 메시지를 포함 합니다.
@@ -73,7 +73,7 @@ AIR을 사용 하면 보안 운영 팀이 보다 효율적이 고 효율적으�
 
 ## <a name="security-playbooks"></a>보안 playbook
 
-Security playbook는 microsoft Defender for Office 365 및 microsoft Threat Protection의 자동화 중심에 있는 백 엔드 정책입니다. AIR에서 제공 되는 보안 playbook은 일반적인 실제 보안 시나리오를 기반으로 하며, 보안 운영 팀의 의견을 기반으로 개발 되었습니다. 조직 내에서 특정 알림이 트리거될 때 보안 playbook 자동으로 실행 됩니다. 알림이 트리거되 면 연결 된 playbook 자동 조사 및 응답 시스템에 의해 실행 됩니다. 이 조사 단계에서는 특정 경고의 playbook에 따라 경고를 분석 하 여 연결 된 모든 메타 데이터 (전자 메일 메시지, 사용자, 제목, 보낸 사람 등)를 조사 합니다. 조사 playbook의 결과에 따라, AIR에서는 조직의 보안 팀이 위협을 제어 하 고 완화 하기 위해 취할 수 있는 일련의 작업을 권장 합니다. 
+Security playbook는 microsoft Defender for Office 365 및 Microsoft 365 Defender의 자동화 중심에 있는 백 엔드 정책입니다. AIR에서 제공 되는 보안 playbook은 일반적인 실제 보안 시나리오를 기반으로 하며, 보안 운영 팀의 의견을 기반으로 개발 되었습니다. 조직 내에서 특정 알림이 트리거될 때 보안 playbook 자동으로 실행 됩니다. 알림이 트리거되 면 연결 된 playbook 자동 조사 및 응답 시스템에 의해 실행 됩니다. 이 조사 단계에서는 특정 경고의 playbook에 따라 경고를 분석 하 여 연결 된 모든 메타 데이터 (전자 메일 메시지, 사용자, 제목, 보낸 사람 등)를 조사 합니다. 조사 playbook의 결과에 따라, AIR에서는 조직의 보안 팀이 위협을 제어 하 고 완화 하기 위해 취할 수 있는 일련의 작업을 권장 합니다. 
 
 AIR에서 제공 하는 보안 playbook은 조직이 현재 전자 메일을 통해 직면 한 가장 흔한 위협에 대 한 해결 방법을 제공 합니다. Microsoft 및 고객의 자산을 보호 하는 데 도움이 되는 사용자를 비롯 하 여 보안 작업 및 사건 대응 팀의 입력을 기반으로 합니다.
 
@@ -118,7 +118,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 - 전자 메일 클러스터 검색을 통해 유사한 전자 메일 메시지가 식별 됩니다.
 - 신호가 [Microsoft Defender For Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)와 같은 다른 플랫폼과 공유 됩니다.
 - 의심 스러운 전자 메일 메시지에서 모든 사용자가 악의적인 링크를 클릭 했는지 여부가 결정 됩니다.
-- [EOP](exchange-online-protection-overview.md)(Exchange Online Protection) 및 Office 365 Advanced Threat Protection ([ATP](office-365-atp.md))에서 확인 작업을 수행 하 여 사용자가 다른 유사한 메시지가 보고 되었는지 확인 합니다.
+- [EOP](exchange-online-protection-overview.md)(Exchange Online Protection) 및 ([Microsoft Defender for Office 365](office-365-atp.md))에서 확인을 수행 하 여 사용자가 보고 하는 다른 유사한 메시지가 있는지 확인 합니다.
 - 사용자가 손상 되었는지 확인 하는 검사를 수행 합니다. 이 검사는 Office 365, [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)및 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory)간의 신호를 활용 하 여 관련 된 사용자 활동에 대 한 예외를 모두 연관 시킵니다.
 
 사냥 단계에서는 위험과 위협이 다양 한 구하기 단계에 할당 됩니다. 
@@ -133,7 +133,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 ![선택한 메시지가 있는 탐색기](../../media/Explorer-Malware-Email-ActionsInvestigate.png)
 
-**동작** 메뉴를 사용 하 여 **트리거 조사**를 선택할 수 있습니다.
+**동작** 메뉴를 사용 하 여 **트리거 조사** 를 선택할 수 있습니다.
 
 ![선택한 메시지에 대 한 동작 메뉴](../../media/explorer-malwareview-selectedemails-actions.jpg)
 
@@ -143,7 +143,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 Microsoft Defender for Office 365의 AIR 기능에는 보안 작업 팀이 위협을 모니터링 하 고 해결 하는 데 사용할 수 있는 [자세한 정보 & 보고서](air-view-investigation-results.md) 가 포함 되어 있습니다. 그러나 AIR 기능을 다른 솔루션과 통합할 수도 있습니다. 예를 들면 SIEM (보안 정보 및 이벤트 관리) 시스템, 사례 관리 시스템 또는 사용자 지정 보고 솔루션 등이 있습니다. 이러한 종류의 통합은 [Office 365 관리 활동 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 사용 하 여 수행할 수 있습니다. 
 
-예를 들어 조직에서는 보안 운영 팀이 AIR에서 이미 처리 된 피싱 경고를 볼 수 있는 방법을 설정 했습니다. 솔루션은 관련 경고를 조직의 SIEM 서버와 해당 사례 관리 시스템과 통합 합니다. 이 솔루션은 보안 운영 팀이 실제 위협에 집중 하 고 시간과 노력을 집중할 수 있도록 가양성의 수를 크게 줄여줍니다. 이 사용자 지정 솔루션에 대 한 자세한 내용은 [기술 커뮤니티 블로그: Office 365 ATP 및 O365 관리 API를 사용 하 여 SOC의 효율성 향상](https://techcommunity.microsoft.com/t5/microsoft-security-and/improve-the-effectiveness-of-your-soc-with-office-365-atp-and/ba-p/1525185)을 참조 하세요.
+예를 들어 조직에서는 보안 운영 팀이 AIR에서 이미 처리 된 피싱 경고를 볼 수 있는 방법을 설정 했습니다. 솔루션은 관련 경고를 조직의 SIEM 서버와 해당 사례 관리 시스템과 통합 합니다. 이 솔루션은 보안 운영 팀이 실제 위협에 집중 하 고 시간과 노력을 집중할 수 있도록 가양성의 수를 크게 줄여줍니다. 이 사용자 지정 솔루션에 대 한 자세한 내용은 [Tech 커뮤니티 블로그: 365 Office 365 용 Microsoft Defender 및 O365 관리 API를 사용 하 여 SOC의 효율성 향상](https://techcommunity.microsoft.com/t5/microsoft-security-and/improve-the-effectiveness-of-your-soc-with-office-365-atp-and/ba-p/1525185)을 참조 하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

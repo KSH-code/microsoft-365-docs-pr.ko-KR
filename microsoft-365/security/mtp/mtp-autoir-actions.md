@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 09/16/2020
-ms.openlocfilehash: 22a40e3c0c804800f2de02e705d1dfec6e296db0
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: ed0b9afa576f65d33cd9a49dfacd96ffaf173d28
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429614"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846535"
 ---
 # <a name="approve-or-reject-pending-actions-following-an-automated-investigation"></a>자동화 된 조사에 따라 보류 중인 작업 승인 또는 거부
 
@@ -34,12 +34,12 @@ ms.locfileid: "48429614"
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 자동화 조사가 실행되면 승인이 필요한 [수정 작업](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-remediation-actions)이 하나 이상 진행될 수 있습니다. 예를 들어 전자 메일 메시지의 클러스터를 삭제 하거나 격리된 파일을 제거해야 할 수 있습니다. 자동화된 조사가 진행되고 적시에 완료될 수 있도록 가능한 한 빨리 보류 중인 작업을 승인하거나 거부하는 것이 중요합니다. 
 
 > [!TIP]
-> Microsoft Threat Protection의 자동화 된 조사 및 응답 기능을 통해 누락 되었거나 지워지는이 감지 되었다고 생각 되 면 알려주세요. [Microsoft Threat Protection에서 자동 조사 및 응답 (AIR) 기능을 통해 허위 긍정/네거티브를 보고 하는 방법을](mtp-autoir-report-false-positives-negatives.md)참조 하세요.
+> Microsoft 365 Defender의 자동화 된 조사 및 응답 기능을 통해 누락 되었거나 지워지는이 감지 되었다고 생각 되 면 알려주세요. [Microsoft 365 Defender에서 자동 조사 및 응답 (AIR) 기능을 통해 가양성/네거티브를 보고 하는 방법을](mtp-autoir-report-false-positives-negatives.md)참조 하세요.
 
 [작업 센터](#review-a-pending-action-in-the-action-center) 또는 [조사 세부 정보 보기](#review-a-pending-action-in-the-investigation-details-view)를 사용 하 여 보류 중인 작업을 검토 하 고 승인할 수 있습니다.
 
@@ -50,7 +50,7 @@ ms.locfileid: "48429614"
 
 1. [https://security.microsoft.com](https://security.microsoft.com)으로 이동하여 로그인합니다. 
 
-2. 탐색 창에서 **알림 센터**를 선택합니다. 
+2. 탐색 창에서 **알림 센터** 를 선택합니다. 
 
 3. 알림 센터의 **보류 중인** 탭의 목록에서 항목을 선택합니다. 
 
@@ -62,9 +62,9 @@ ms.locfileid: "48429614"
 
 ![조사 세부 정보](../../media/mtp-air-investdetails.png)
 
-1. [조사 세부 정보](mtp-autoir-results.md) 페이지에서 **보류 중인 작업** (또는 **작업**) 탭을 선택합니다. 승인이 보류 중인 항목은 여기에 나열됩니다.
+1. [조사 세부 정보](mtp-autoir-results.md) 페이지에서 **보류 중인 작업** (또는 **작업** ) 탭을 선택합니다. 승인이 보류 중인 항목은 여기에 나열됩니다.
 
-2. 목록에서 항목을 선택한 다음 **승인** 또는 **거부**를 선택합니다.
+2. 목록에서 항목을 선택한 다음 **승인** 또는 **거부** 를 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
