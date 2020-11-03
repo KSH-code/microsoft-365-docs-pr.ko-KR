@@ -12,12 +12,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: f6b79d3252084b298f94e01b18ebe3505f83b480
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 3840a6beae3b586fc90420f7813ff6e9d3cc6c60
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196860"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843855"
 ---
 # <a name="device-profile-page"></a>장치 프로필 페이지
 
@@ -27,9 +27,9 @@ ms.locfileid: "48196860"
 Microsoft 365 보안 포털은 장치 프로필 페이지를 제공 하므로 네트워크의 장치 상태를 빠르게 평가할 수 있습니다.
 
 > [!IMPORTANT]
-> 장치가 Microsoft Defender ATP, Azure ATP 또는 둘 다에 등록 되어 있는지에 따라 장치 프로필 페이지가 약간 다르게 표시 될 수 있습니다.
+> 장치가 Microsoft Defender for Endpoint, Microsoft Defender for Identity 또는 둘 다에 등록 되었는지에 따라 장치 프로필 페이지가 약간 다르게 표시 될 수 있습니다.
 
-장치가 Microsoft Defender ATP에 등록 되어 있는 경우 장치 프로필 페이지를 사용 하 여 몇 가지 일반적인 보안 작업을 수행할 수도 있습니다.
+장치가 Microsoft Defender for Endpoint에 등록 되어 있는 경우 장치 프로필 페이지를 사용 하 여 몇 가지 일반적인 보안 작업을 수행할 수도 있습니다.
 
 ## <a name="navigating-the-device-profile-page"></a>장치 프로필 페이지 탐색
 
@@ -41,7 +41,7 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공 하므로 �
 
 기본 콘텐츠 영역 (2)에는 장치에 대 한 다양 한 종류의 정보를 보기 위해 전환할 수 있는 탭이 있습니다.
 
-장치가 Microsoft Defender ATP에 등록 되어 있는 경우 응답 작업 목록도 표시 됩니다 (3). 응답 동작을 사용 하 여 일반적인 보안 관련 작업을 수행할 수 있습니다.
+장치가 Microsoft Defender for Endpoint에 등록 되어 있는 경우 응답 작업 목록도 표시 됩니다 (3). 응답 동작을 사용 하 여 일반적인 보안 관련 작업을 수행할 수 있습니다.
 
 ## <a name="sidebar"></a>기사의
 
@@ -51,15 +51,15 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공 하므로 �
 
 보조 기사에는 장치의 전체 이름 및 노출 수준이 나열 됩니다. 또한 다음과 같이 열리거나 닫을 수 있는 작은 하위 섹션의 몇 가지 중요 한 기본 정보를 제공 합니다.
 
-* **Tag** -장치에 연결 된 MICROSOFT Defender Atp, Azure ATP 또는 사용자 지정 태그입니다. Azure ATP의 태그는 편집할 수 없습니다.
-* **보안 정보** -인시던트 및 활성 알림을 엽니다. Microsoft Defender ATP에 등록 되어 있는 장치에도 노출 수준 및 위험 수준도 표시 됩니다.
+* **Tags** -모든 microsoft Defender for Endpoint, microsoft Defender for Identity 또는 장치와 연결 된 사용자 지정 태그입니다. Id에 대 한 Microsoft Defender의 태그는 편집할 수 없습니다.
+* **보안 정보** -인시던트 및 활성 알림을 엽니다. 끝점에 대해 Microsoft Defender에 등록 되어 있는 장치에도 노출 수준 및 위험 수준도 표시 됩니다.
 
 > [!TIP]
 > 노출 수준은 장치가 보안 권장 사항을 준수 하는 양과 관련 된 반면 위험 수준은 활성 알림의 유형과 심각도를 비롯 한 다양 한 요인에 따라 계산 됩니다.
 
-* **장치 정보** -도메인, OS, 장치가 처음 표시 된 타임 스탬프, IP 주소, 리소스입니다. Microsoft Defender ATP에 등록 되어 있는 장치에도 상태 상태가 표시 됩니다. Azure ATP에 등록 된 장치는 디바이스를 처음 만들 때의 SAM 이름 및 타임 스탬프를 표시 합니다.
+* **장치 정보** -도메인, OS, 장치가 처음 표시 된 타임 스탬프, IP 주소, 리소스입니다. 끝점에 대해 Microsoft Defender에 등록 되어 있는 장치에도 상태 상태가 표시 됩니다. Id 용 Microsoft Defender에 등록 되어 있는 장치는 디바이스를 처음 만들 때의 SAM 이름 및 타임 스탬프를 표시 합니다.
 * **네트워크 활동** -네트워크에서 장치를 마지막으로 본 시간에 대 한 타임 스탬프입니다.
-* **디렉터리 데이터** (*Azure ATP에 등록 된 장치에만*해당)- [UAC](https://docs.microsoft.com/windows/security/identity-protection/user-account-control/user-account-control-overview) 플래그, [spn](https://docs.microsoft.com/windows/win32/ad/service-principal-names)및 그룹 멤버 자격
+* **디렉터리 데이터** ( *Id를 위해 Microsoft Defender에 등록 된 장치* )- [UAC](https://docs.microsoft.com/windows/security/identity-protection/user-account-control/user-account-control-overview) 플래그, [spn](https://docs.microsoft.com/windows/win32/ad/service-principal-names)및 그룹 구성원 자격
 
 ## <a name="response-actions"></a>응답 작업
 
@@ -68,13 +68,13 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공 하므로 �
 ![장치 프로필에 대 한 작업 모음 이미지](../../media/mtp-device-profile/hybrid-device-long-action-bar.png)
 
 > [!IMPORTANT]
-> * [응답 작업](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts) 은 장치가 MICROSOFT Defender ATP에 등록 되어 있는 경우에만 사용할 수 있습니다.
-> * Microsoft Defender ATP에 등록 된 장치는 장치의 OS 및 버전 번호에 따라 다양 한 응답 작업을 표시할 수 있습니다.
+> * [응답 작업](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts) 은 장치가 Microsoft Defender for Endpoint에 등록 되어 있는 경우에만 사용할 수 있습니다.
+> * 끝점에 대해 Microsoft Defender에 등록 되어 있는 장치에서 장치의 OS 및 버전 번호에 따라 다양 한 응답 작업을 표시할 수 있습니다.
 
 장치 프로필 페이지에서 사용할 수 있는 작업은 다음과 같습니다.
 
 * **Manage tags** -이 장치에 적용 한 사용자 지정 태그를 업데이트 합니다.
-* **장치 격리** -Microsoft Defender Advanced Threat Protection에 연결 된 상태로 장치를 조직의 네트워크에서 격리 합니다. 통신 목적으로, 장치가 격리 된 상태에서 Outlook, 팀 및 비즈니스용 Skype가 실행 되도록 허용할 수 있습니다.
+* **장치 격리** -장치를 조직의 네트워크에서 격리 하 고 끝점에 대해 Microsoft Defender에 계속 연결 합니다. 통신 목적으로, 장치가 격리 된 상태에서 Outlook, 팀 및 비즈니스용 Skype가 실행 되도록 허용할 수 있습니다.
 * **동작 센터** -전송 된 작업의 상태를 확인 합니다. 이미 다른 작업을 선택한 경우에만 사용할 수 있습니다.
 * **앱 실행 제한** -Microsoft에서 서명 하지 않은 응용 프로그램이 실행 되지 않도록 합니다.
 * **바이러스** 검사 프로그램 실행-Windows Defender 바이러스 백신 정의를 업데이트 하 고 바이러스 백신 검사를 즉시 실행 합니다. 빠른 검색 또는 전체 검사 중에서 선택 합니다.
@@ -87,21 +87,21 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공 하므로 �
 
 장치 프로필 탭을 사용 하 여 장치에 대 한 보안 세부 정보 개요와 경고 목록을 포함 하는 테이블을 전환할 수 있습니다.
 
-Microsoft Defender ATP에 등록 된 장치에는 시간 표시 막대, 보안 권장 사항 목록, 소프트웨어 인벤토리, 검색 된 취약점 목록, 빠진 Kb (보안 업데이트) 등을 나타내는 탭이 표시 됩니다.
+또한 Microsoft Defender for Endpoint에 등록 되어 있는 장치에는 시간 표시줄, 보안 추천 목록, 소프트웨어 인벤토리, 검색 된 취약점 목록, 누락 된 Kb (보안 업데이트)에 대 한 기능을 제공 하는 탭이 표시 됩니다.
 
 ### <a name="overview-tab"></a>개요 탭
 
-기본 탭은 **개요**입니다. 이를 통해 장치에 대 한 가장 중요 한 보안 팩트를 빠르게 확인할 수 있습니다.
+기본 탭은 **개요** 입니다. 이를 통해 장치에 대 한 가장 중요 한 보안 팩트를 빠르게 확인할 수 있습니다.
 
 ![장치 프로필에 대 한 개요 탭 이미지](../../media/mtp-device-profile/hybrid-device-tab-overview.png)
 
 여기서는 장치의 활성 알림과 현재 로그온 한 사용자를 빠르게 확인할 수 있습니다.
 
-장치가 Microsoft Defender ATP에 등록 되어 있으면 장치의 위험 수준 및 보안 평가에 대 한 사용 가능한 모든 데이터도 표시 됩니다. 보안 평가에서는 장치의 노출 수준, 보안 권장 사항 및 영향을 받는 소프트웨어 나열 및 발견 된 취약점을 설명 합니다.
+장치가 Microsoft Defender for Endpoint에 등록 되어 있는 경우 장치의 위험 수준 및 보안 평가에 대 한 사용 가능한 모든 데이터도 표시 됩니다. 보안 평가에서는 장치의 노출 수준, 보안 권장 사항 및 영향을 받는 소프트웨어 나열 및 발견 된 취약점을 설명 합니다.
 
 ### <a name="alerts-tab"></a>알림 탭
 
-**알림** 탭에는 Azure Atp 및 MICROSOFT Defender atp에서 장치에 대해 발생 한 경고 목록이 포함 되어 있습니다.
+**알림** 탭에는 Id 용 microsoft Defender 및 끝점 용 microsoft defender에서 장치에 대해 발생 한 경고 목록이 포함 되어 있습니다.
 
 ![장치 프로필에 대 한 알림 탭 이미지](../../media/mtp-device-profile/hybrid-device-tab-alerts.png)
 
@@ -179,7 +179,7 @@ Microsoft Defender ATP에 등록 된 장치에는 시간 표시 막대, 보안 �
 
 ## <a name="related-topics"></a>관련 항목
 
-* [Microsoft 위협 방지 개요](microsoft-threat-protection.md)
-* [Microsoft 위협 방지 설정](mtp-enable.md)
+* [Microsoft 365 Defender 개요](microsoft-threat-protection.md)
+* [Microsoft 365 Defender 켜기](mtp-enable.md)
 * [라이브 응답을 사용 하 여 장치의 엔터티 조사](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response)
 * [Office 365의 자동화 된 조사 및 응답 (AIR)](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)

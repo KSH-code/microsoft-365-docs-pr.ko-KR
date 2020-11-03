@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 분류자는 다양 한 유형의 콘텐츠를 확인할 수 있도록 교육을 제공 하는 도구입니다. 이 문서에서는 사용자 지정 분류자를 만들고 학습 하는 방법과이를 재교육 하 여 정확성을 향상 시키는 방법을 설명 합니다.
-ms.openlocfilehash: 4c9f5dae702c71fe7f2da1ccbc0364e7bdd15b0e
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 4475456e7116acbc705a3121079391a571fcca8a
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48636987"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841235"
 ---
 # <a name="get-started-with-trainable-classifiers-preview"></a>학습 가능한 분류자 시작(미리 보기)
 
@@ -44,7 +44,7 @@ Microsoft 365 trainable 분류자는 다양 한 유형의 콘텐츠를 확인할
 UI의 분류자에 액세스 하려면: 
 
 - 전역 관리자는 테 넌 트가 사용자 지정 분류자를 만들기 위해 옵트인 해야 합니다.
-- 분류자를 학습 하려면 준수 관리자 역할 또는 준수 데이터 관리자가 필요 합니다.
+- 분류자를 학습 하려면 준수 관리자 역할, 데이터 조사 역할 또는 준수 데이터 관리자가 필요 합니다.
 
 이러한 시나리오에서 분류자를 사용 하려면 다음과 같은 권한이 있는 계정이 필요 합니다.
 
@@ -74,7 +74,7 @@ UI의 분류자에 액세스 하려면:
 
 ### <a name="seed-content"></a>콘텐츠 시드
 
-Trainable 분류자가 특정 콘텐츠 범주에 있는 항목을 독립적으로 식별 하도록 하려면 먼저 범주에 포함 된 콘텐츠 형식의 여러 샘플을 사용 하 여이를 제공 해야 합니다. 이러한 trainable 분류자에 대 한 샘플 공급을 *시드*라고 합니다. 시드 콘텐츠는 사용자가 선택 하 고 콘텐츠 범주를 나타내도록 판단 됩니다.
+Trainable 분류자가 특정 콘텐츠 범주에 있는 항목을 독립적으로 식별 하도록 하려면 먼저 범주에 포함 된 콘텐츠 형식의 여러 샘플을 사용 하 여이를 제공 해야 합니다. 이러한 trainable 분류자에 대 한 샘플 공급을 *시드* 라고 합니다. 시드 콘텐츠는 사용자가 선택 하 고 콘텐츠 범주를 나타내도록 판단 됩니다.
 
 > [!TIP]
 > 최소 50의 양수 500 샘플을 포함 해야 합니다. Trainable 분류자는 가장 최근에 생성 500 된 샘플 (파일을 만든 날짜/시간 스탬프)까지 처리 합니다. 제공 하는 샘플이 많을 수록 분류자가 더 정확 하 게 예측할 수 있습니다.
@@ -101,11 +101,11 @@ Trainable 분류자가 예측 모델을 작성 하기에 충분 한 긍정적인
    > [!TIP]
    > 시드 데이터에 대 한 새 사이트 및 폴더를 만드는 경우 해당 위치에 대해 최소 1 시간 이상 해당 시드 데이터를 사용 하는 trainable 분류자를 만들기 전에이를 인덱싱할 수 있습니다.
 
-3. 준수 관리자 또는 보안 관리자 역할 액세스를 사용 하 여 microsoft 365 준수 센터에 로그인 하 고 **microsoft 365 준수 센터** 또는 **microsoft 365 보안 센터**  >  **데이터 분류**를 엽니다.
+3. 준수 관리자 또는 보안 관리자 역할 액세스를 사용 하 여 microsoft 365 준수 센터에 로그인 하 고 **microsoft 365 준수 센터** 또는 **microsoft 365 보안 센터**  >  **데이터 분류** 를 엽니다.
 
 4. **Trainable 분류자** 탭을 선택 합니다.
 
-5. **Trainable 분류자 만들기**를 선택 합니다.
+5. **Trainable 분류자 만들기** 를 선택 합니다.
 
 6. `Name` `Description` 이 trainable 분류자가 식별 하는 데 사용할 항목 범주의 and 필드에 적절 한 값을 입력 합니다.
 
@@ -125,7 +125,7 @@ Trainable 분류자가 예측 모델을 작성 하기에 충분 한 긍정적인
     > [!IMPORTANT]
     > 샘플 항목은 암호화 하지 않아야 하며 영어로 되어 있어야 합니다.
 
-12. 테스트 *콘텐츠만*보류 전용으로 설정 된 테스트 콘텐츠를 SharePoint Online 폴더에 배치 합니다. SharePoint Online 사이트, 라이브러리 및 폴더 URL을 기록해 둡니다.
+12. 테스트 *콘텐츠만* 보류 전용으로 설정 된 테스트 콘텐츠를 SharePoint Online 폴더에 배치 합니다. SharePoint Online 사이트, 라이브러리 및 폴더 URL을 기록해 둡니다.
 
     > [!TIP]
     > 테스트 데이터에 대 한 새 사이트와 폴더를 만드는 경우 해당 위치에 대해 최소 1 시간 이상 해당 시드 데이터를 사용 하는 trainable 분류자를 만들기 전에이를 인덱싱할 수 있습니다.
@@ -169,7 +169,7 @@ Trainable 분류자가 예측 모델을 작성 하기에 충분 한 긍정적인
    Add-ComplianceCaseMember -Case "<classifier name>" -Member "<user or role group>"
    ```
    
-   예를 들면 다음과 같습니다.
+   예:
    
    `Add-ComplianceCaseMember -Case "Financial Contract Classifier" -Member johnevans@contoso.com`
 

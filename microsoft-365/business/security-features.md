@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Pc, 휴대폰 및 태블릿에서 데이터를 안전 하 게 보호 하기 위해 Microsoft 365 Business Premium에 제공 되는 보안 기능에 대해 알아봅니다.
-ms.openlocfilehash: 5e16d4bf297d363b6f9b44ce854c857e7e5464ed
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 587d80c27f867a387c901d23f4ec05f3c5905bf6
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357321"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843491"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Microsoft 365 Business Premium 보안 및 규정 준수 기능
 
@@ -63,9 +63,9 @@ Microsoft 365 Business Premium은 Pc, 휴대폰 및 태블릿에서 데이터를
 
 Microsoft 365 비즈니스 Premium의 고급 기능은 비즈니스를 사이버 위협 으로부터 보호 하 고 중요 한 정보를 보호 하는 데 도움이 됩니다.
   
-- **[Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)**
+- **[Microsoft Defender for Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)**
     
-    ATP(Advanced Threat Protection)는 직원이나 고객 정보를 손상시키도록 설계된 정교한 피싱 및 랜섬웨어 공격으로부터 비즈니스를 보호할 수 있도록 합니다.기능은 다음과 같습니다.
+    Microsoft Defender for Office 365는 직원 또는 고객 정보를 손상 시 키도 록 설계 된 정교한 피싱 및 랜 섬 웨어 공격 으로부터 비즈니스를 보호 합니다. 기능에는 다음이 포함 됩니다.
     
   - 위험한 메시지를 감지하고 삭제하기 위한 정교한 첨부 파일 검색 및 AI 기반 분석
     
@@ -96,7 +96,7 @@ Microsoft 365 비즈니스 Premium의 고급 기능은 비즈니스를 사이버
 
 Microsoft 365 Business Premium subscription에는 준수 및 규정 표준을 유지 관리 하는 데 도움이 되는 기능이 포함 되어 있습니다.
 
-- **[데이터 손실 방지 정책 개요](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)**(DLP) 
+- **[데이터 손실 방지 정책 개요](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)** (DLP) 
     
     신용 카드 번호, 주민 등록 번호 등의 중요 한 정보를 자동으로 검색 하도록 DLP를 설정 하 여 회사 외부에서 실수로 공유 되는 것을 방지할 수 있습니다.
     
@@ -106,7 +106,7 @@ Microsoft 365 Business Premium subscription에는 준수 및 규정 표준을 �
     
 - **[민감도 레이블](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)**
 
-   Microsoft 365 Business Premium에는 [Azure Information Protection 계획 1](https://go.microsoft.com/fwlink/p/?linkid=871407)의 모든 기능이 포함 되어 있습니다. 이 요금제를 사용 하면 전자 메일 및 문서에 있는 중요 한 정보에 대 한 액세스를 제어 하는 **민감도 레이블을** 만들 수 있으며 "전달 금지" 및 "복사 하지 않음" 등의 컨트롤이 있습니다. 중요 한 정보를 "기밀"으로 분류 하 고 분류 된 정보를 비즈니스 외부 및 내부에 공유 하는 방법을 지정할 수도 있습니다. 엔터프라이즈 등급 암호화는 전자 메일 및 문서에 쉽게 적용할 수 있으며 정보를 비공개로 유지 하는 데 사용 됩니다. Office 용 Azure Information Protection 클라이언트 추가 기능을 설치할 수도 있습니다. 자세한 내용은 [Azure Information Protection 통합 레이블 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)를 참조 하세요. 민감도 레이블의 경우 **AzInfoProtection_UL.exe**를 설치 합니다.
+   Microsoft 365 Business Premium에는 [Azure Information Protection 계획 1](https://go.microsoft.com/fwlink/p/?linkid=871407)의 모든 기능이 포함 되어 있습니다. 이 요금제를 사용 하면 전자 메일 및 문서에 있는 중요 한 정보에 대 한 액세스를 제어 하는 **민감도 레이블을** 만들 수 있으며 "전달 금지" 및 "복사 하지 않음" 등의 컨트롤이 있습니다. 중요 한 정보를 "기밀"으로 분류 하 고 분류 된 정보를 비즈니스 외부 및 내부에 공유 하는 방법을 지정할 수도 있습니다. 엔터프라이즈 등급 암호화는 전자 메일 및 문서에 쉽게 적용할 수 있으며 정보를 비공개로 유지 하는 데 사용 됩니다. Office 용 Azure Information Protection 클라이언트 추가 기능을 설치할 수도 있습니다. 자세한 내용은 [Azure Information Protection 통합 레이블 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)를 참조 하세요. 민감도 레이블의 경우 **AzInfoProtection_UL.exe** 를 설치 합니다.
 
 이러한 기능은 보안 &amp; 및 준수 센터 및 Intune 관리 센터에서 관리할 수 있습니다. 시간이 지남에 따라 간소화 된 컨트롤이 Microsoft 365 관리 센터에 추가 됩니다.
   
@@ -121,8 +121,8 @@ Microsoft 365 Business Premium subscription에는 준수 및 규정 표준을 �
   
 1. 관리자 자격 증명을 사용 하 여 [Microsoft 365 Business Premium에 로그인](https://portal.microsoft.com/) 합니다. 
     
-2. 왼쪽 탐색 창에서 **관리 센터**를 찾아 확장합니다. 
+2. 왼쪽 탐색 창에서 **관리 센터** 를 찾아 확장합니다. 
     
     ![Microsoft 365 관리 센터의 왼쪽 탐색 창에서 관리 센터를 선택합니다.](../media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
   
-3. **보안 및 준수**를 선택하여 보안 및 준수 센터로 이동합니다.
+3. **보안 및 준수** 를 선택하여 보안 및 준수 센터로 이동합니다.

@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: 하드웨어 기반 격리의 최신 버전을 다운로드 합니다. 악용 또는 악성 링크와 같은 현재 및 신흥 공격을 방지 하 여 직원의 생산성 및 기업 보안을 방해 하지 않도록 합니다.
-ms.openlocfilehash: 3a20649338bbcd58ad86f70142c2bd9f1c2fd948
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 3b31ef639667c7ef761d1d5fa0295f5d767e0c48
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197576"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843009"
 ---
 # <a name="application-guard-for-office-public-preview-for-admins"></a>관리자를 위한 Application Guard for Office (공용 미리 보기)
 
@@ -40,15 +40,15 @@ Microsoft Defender Application Guard for Office (Application Guard for office)�
 
 ### <a name="minimum-hardware-requirements"></a>최소 하드웨어 요구 사항
 
-* **CPU**: 64 비트, 4 코어 (실제 또는 가상), 가상화 확장 (Intel VT-x 또는 AMD-V), 핵심 i5가 동일 하거나 더 권장 됩니다.
-* **실제 메모리**: 8gb RAM
-* **하드 디스크**: 시스템 드라이브에 10gb의 사용 가능한 공간 (SSD 권장)
+* **CPU** : 64 비트, 4 코어 (실제 또는 가상), 가상화 확장 (Intel VT-x 또는 AMD-V), 핵심 i5가 동일 하거나 더 권장 됩니다.
+* **실제 메모리** : 8gb RAM
+* **하드 디스크** : 시스템 드라이브에 10gb의 사용 가능한 공간 (SSD 권장)
 
 ### <a name="minimum-software-requirements"></a>최소 소프트웨어 요구 사항
 
-* **Windows 10**: Windows 10 Enterprise Edition, 클라이언트 빌드 버전 2004 (20H1) 빌드 19041
-* **Office**: Office 베타 채널 빌드 버전 2008 16.0.13212 이상
-* **업데이트 패키지**: Windows 10 누적 월별 보안 업데이트 [KB4571756](https://support.microsoft.com/help/4571756/windows-10-update-KB4571756) 
+* **Windows 10** : Windows 10 Enterprise Edition, 클라이언트 빌드 버전 2004 (20H1) 빌드 19041
+* **Office** : Office 베타 채널 빌드 버전 2008 16.0.13212 이상
+* **업데이트 패키지** : Windows 10 누적 월별 보안 업데이트 [KB4571756](https://support.microsoft.com/help/4571756/windows-10-update-KB4571756) 
 
 시스템 요구 사항에 대 한 자세한 내용은 [Microsoft Defender Application Guard에 대 한 시스템 요구 사항을](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/reqs-md-app-guard)참조 하세요. Office Insider Preview 빌드에 대 한 자세한 내용은 [Office 참가자 빌드 배포 시작](https://insider.office.com/business/deploy)을 참조 하세요.
 
@@ -59,9 +59,9 @@ Microsoft Defender Application Guard for Office (Application Guard for office)�
 
 ### <a name="enable-application-guard-for-office"></a>Office 용 응용 프로그램 보호 사용
 
-1.  **Windows 10 누적 월별 보안 업데이트 KB4571756**를 다운로드 하 여 설치 합니다. 
+1.  **Windows 10 누적 월별 보안 업데이트 KB4571756** 를 다운로드 하 여 설치 합니다. 
 
-2.  Windows 기능에서 **Microsoft Defender Application Guard** 를 선택 하 고 **확인을**선택 합니다. 응용 프로그램 보호 기능을 사용 하도록 설정 하면 시스템을 다시 부팅 하 라는 메시지가 표시 됩니다. 시작 하거나 3 단계를 수행한 후에 다시 부팅 하도록 선택할 수 있습니다.
+2.  Windows 기능에서 **Microsoft Defender Application Guard** 를 선택 하 고 **확인을** 선택 합니다. 응용 프로그램 보호 기능을 사용 하도록 설정 하면 시스템을 다시 부팅 하 라는 메시지가 표시 됩니다. 시작 하거나 3 단계를 수행한 후에 다시 부팅 하도록 선택할 수 있습니다.
 
     ![AG가 표시 된 Windows 기능 대화 상자](../../media/ag03-deploy.png)
     
@@ -71,7 +71,7 @@ Microsoft Defender Application Guard for Office (Application Guard for office)�
     Enable-WindowsOptionalFeature -online -FeatureName Windows-Defender-ApplicationGuard 
     ```
 
-3.  **컴퓨터 구성 \\ 관리 템플릿 \\ Windows 구성 요소 \\ microsoft defender Application Guard**에 있는 관리 되는 모드 그룹 정책에서 microsoft defender application guard를 찾아보십시오. 옵션 아래의 값을 **2** 또는 **3** 으로 설정 하 고 **확인** 또는 **적용**을 선택 하 여이 정책을 설정 합니다.
+3.  **컴퓨터 구성 \\ 관리 템플릿 \\ Windows 구성 요소 \\ microsoft defender Application Guard** 에 있는 관리 되는 모드 그룹 정책에서 microsoft defender application guard를 찾아보십시오. 옵션 아래의 값을 **2** 또는 **3** 으로 설정 하 고 **확인** 또는 **적용** 을 선택 하 여이 정책을 설정 합니다.
 
     ![관리 모드에서 AG 설정](../../media/ag04-deploy.png)
   
@@ -92,11 +92,11 @@ Microsoft Defender Application Guard for Office (Application Guard for office)�
 
     ![시작 메뉴](../../media/ag05-diagnostic.png)
 
-2.  **Windows 설정**에서 **개인 정보**를 선택 합니다.
+2.  **Windows 설정** 에서 **개인 정보** 를 선택 합니다.
 
     ![Windows 설정 메뉴](../../media/ag06-diagnostic.png)
 
-3.  개인 정보 아래에서 **진단 & 피드백** 을 선택 하 고 **선택적 진단 데이터**를 선택 합니다.
+3.  개인 정보 아래에서 **진단 & 피드백** 을 선택 하 고 **선택적 진단 데이터** 를 선택 합니다.
 
     ![진단 및 피드백 메뉴](../../media/ag07a-diagnostic.png)
 
@@ -158,11 +158,11 @@ Office 용 응용 프로그램 보호를 시작할 때 문제가 발생 하면 �
 
 3.  사용자 의견을 **요약** 상자에 입력 합니다 (아직 채워져 있지 않은 경우).
 
-4.  발생 한 문제에 대 한 자세한 설명과, 수행한 단계를 **자세히 설명 하** 고 **다음**을 선택 합니다.
+4.  발생 한 문제에 대 한 자세한 설명과, 수행한 단계를 **자세히 설명 하** 고 **다음** 을 선택 합니다.
 
-5.  문제 옆에 있는 거품을 선택 합니다. 선택한 범주가 **보안 및 개인 정보 \> Microsoft Defender application Guard**인지 확인 하 고 **다음**을 선택 합니다.
+5.  문제 옆에 있는 거품을 선택 합니다. 선택한 범주가 **보안 및 개인 정보 \> Microsoft Defender application Guard** 인지 확인 하 고 **다음** 을 선택 합니다.
 
-6.  **새 의견**을 선택한 후 **다음**을 선택 합니다.
+6.  **새 의견** 을 선택한 후 **다음** 을 선택 합니다.
 
 7.  문제에 대 한 추적을 수집 합니다.
 
@@ -170,7 +170,7 @@ Office 용 응용 프로그램 보호를 시작할 때 문제가 발생 하면 �
 
     2.  응용 프로그램 보호가 실행 되는 동안 문제가 발생 하면 Application Guard 인스턴스를 엽니다. 이렇게 하면 응용 프로그램 보호 컨테이너 내에서 추가 추적을 수집할 수 있습니다.
 
-    3.  **녹음 시작** 을 선택 하 고 타일이 회전을 중지할 때까지 기다린 후 *녹음 중지*를 말합니다.
+    3.  **녹음 시작** 을 선택 하 고 타일이 회전을 중지할 때까지 기다린 후 *녹음 중지* 를 말합니다.
 
     4.  Application Guard에서 문제를 완전히 재현 합니다. 여기에는 응용 프로그램 보호 인스턴스를 시작 하 고 오류가 발생할 때까지 기다리거나 실행 중인 Application Guard 인스턴스에서 문제를 재현할 수 있습니다.
 
@@ -180,7 +180,7 @@ Office 용 응용 프로그램 보호를 시작할 때 문제가 발생 하면 �
 
 8.  문제와 관련 된 모든 관련 스크린샷 또는 파일을 첨부 합니다.
 
-9.  **전송**을 선택합니다.
+9.  **전송** 을 선택합니다.
 
 
 
@@ -188,13 +188,13 @@ Office 용 응용 프로그램 보호를 시작할 때 문제가 발생 하면 �
 
 Office 문서를 Application Guard에서 열면 문제가 발생 하는 경우 Office 내에서 사용자 의견을 제출할 수도 있습니다. 의견을 제출 하려면 [Office 참가자](https://insider.office.com/handbook) 소개 서를 참조 하세요.
 
-## <a name="integration-with-microsoft-defender-atp-and-office-atp"></a>Microsoft Defender ATP 및 Office ATP와의 통합
+## <a name="integration-with-microsoft-defender-for-endpoint-and-microsoft-defender-for-office-365"></a>끝점에 대 한 Microsoft Defender와 Office 용 Microsoft Defender 365 통합
 
-Office 용 application Guard는 Microsoft의 ATP (고급 위협 보호)와 통합 되어 격리 된 환경에서 악의적인 작업에 대 한 모니터링 및 경고를 제공 합니다.
+Office 용 application Guard는 Microsoft Defender for Endpoint와 통합 되어 격리 된 환경에서 악의적인 활동에 대 한 모니터링 및 경고를 제공 합니다.
 
-Microsoft Defender ATP는 엔터프라이즈 네트워크가 고급 위협에 대해 예방, 감지, 조사 및 대응 하는 데 도움이 되는 보안 플랫폼입니다. 이 플랫폼에 대 한 자세한 내용을 보려면 [Microsoft Defender Advanced Threat Protection](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp) 페이지를 방문 하세요. 이 플랫폼의 온 보 딩 장치에 대 한 자세한 내용은 [온보드 장치에서 Microsoft DEFENDER ATP 서비스에](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/onboard-configure)대해 알아보세요.
+끝점에 대 한 Microsoft Defender는 엔터프라이즈 네트워크가 advanced threat를 차단, 감지, 조사 및 대응 하도록 설계 된 보안 플랫폼입니다. 이 플랫폼에 대 한 자세한 내용을 보려면 [Microsoft Defender For Endpoint](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp) 페이지를 방문 하세요. 이 플랫폼의 온 보 딩 장치에 대 한 자세한 내용은 [온보드 장치에서 Microsoft Defender For Endpoint service를](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/onboard-configure)확인 하세요.
 
-Microsoft Defender ATP와 함께 작동 하도록 Office 365 ATP를 구성할 수도 있습니다. [Office 365 ATP와 Microsoft DEFENDER Atp 통합](https://docs.microsoft.com/microsoft-365/security/office-365-security/integrate-office-365-ti-with-wdatp?view=o365-worldwide)을 참조 하세요.
+또한 Microsoft Defender for Office 365에서 Defender for Endpoint를 사용 하도록 구성할 수도 있습니다. For a [Office 365 용 Microsoft defender](https://docs.microsoft.com/microsoft-365/security/office-365-security/integrate-office-365-ti-with-wdatp?view=o365-worldwide)를 참조 하세요.
 
 ## <a name="limitations-and-considerations"></a>제한 및 고려 사항
 

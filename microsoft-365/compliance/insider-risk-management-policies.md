@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 9ff029904a34291f4131f2013ffe30b73aa3233c
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 722f0bfe18e5e7375da17f6fc6ebdb7f32676488
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208784"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842812"
 ---
 # <a name="insider-risk-management-policies"></a>참가자 위험 관리 정책
 
@@ -27,12 +27,12 @@ ms.locfileid: "48208784"
 
 **정책 대시보드** 를 사용 하 여 조직의 정책과 각 정책에 연결 된 알림의 현재 상태를 빠르게 확인할 수 있습니다.
 
-- **정책 이름**: 정책 마법사에서 정책에 할당 된 이름입니다.
-- **활성 경고**: 각 정책에 대 한 활성 경고 수입니다.
-- **확인 된 알림**: 최근 365 일 동안의 정책에서 발생 하는 경고의 총 수입니다.
-- **경고에 대해 수행 된 작업**: 지난 365 일 동안 확인 되거나 해제 된 총 경고 수입니다.
-- **정책 효율성**: 지난 해 동안 확인 되거나 해제 된 경고의 합을 알리는 전체 작업으로 나눈 총 확인 된 경고에 따라 결정 되는 백분율입니다.
-- **Active**: 사례 상태 ( *예* 또는 *아니요*)입니다.
+- **정책 이름** : 정책 마법사에서 정책에 할당 된 이름입니다.
+- **활성 경고** : 각 정책에 대 한 활성 경고 수입니다.
+- **확인 된 알림** : 최근 365 일 동안의 정책에서 발생 하는 경고의 총 수입니다.
+- **경고에 대해 수행 된 작업** : 지난 365 일 동안 확인 되거나 해제 된 총 경고 수입니다.
+- **정책 효율성** : 지난 해 동안 확인 되거나 해제 된 경고의 합을 알리는 전체 작업으로 나눈 총 확인 된 경고에 따라 결정 되는 백분율입니다.
+- **Active** : 사례 상태 ( *예* 또는 *아니요* )입니다.
 
 ![참가자 위험 관리 정책 대시보드](../media/insider-risk-policy-dashboard.png)
 
@@ -62,7 +62,7 @@ ms.locfileid: "48208784"
 
      예를 들어 DLP 정책 규칙이 판매 팀의 사용자 에게만 범위 지정 되 고 **데이터 누수** 서식 파일에서 만든 참가자 위험 정책에 의해 모든 사용자가 범위 내로 정의 된 경우, 참가자 위험 정책은 영업 팀의 사용자에 대 한 높은 심각도 DLP 알림만 실제로 처리 합니다. 이 예제의 DLP 규칙에 정의 되지 않은 사용자에 게 처리할 수 있는 높은 우선 순위의 DLP 알림은 참가자 위험 정책에 수신 되지 않습니다. 반대로, **데이터 누출** 서식 파일에서 만든 참가자 위험 관리 정책이 영업 팀의 사용자 에게만 범위 지정 되 고 할당 된 DLP 정책의 범위가 모든 사용자로 설정 된 경우, 참가자 위험 정책은 Sales 팀 구성원에 대 한 높은 심각도 DLP 경고만 처리 합니다. 참가자 위험 관리 정책은 영업 팀이 아닌 모든 사용자에 대해 심각도가 높은 DLP 경고를 무시 합니다.
 
-- 이 참가자 위험 관리 템플릿에 사용 되는 DLP 정책의 **문제 보고서** 규칙 설정이 *높은* 심각도 수준 알림에 대해 구성 되어 있는지 확인 합니다. *높은* 심각도 수준은 트리거하는 이벤트이 고, 위험 **보고서** 필드가 *낮음* 또는 *보통*으로 설정 된 DLP 정책의 규칙에서 생성 되지 않습니다.
+- 이 참가자 위험 관리 템플릿에 사용 되는 DLP 정책의 **문제 보고서** 규칙 설정이 *높은* 심각도 수준 알림에 대해 구성 되어 있는지 확인 합니다. *높은* 심각도 수준은 트리거하는 이벤트이 고, 위험 **보고서** 필드가 *낮음* 또는 *보통* 으로 설정 된 DLP 정책의 규칙에서 생성 되지 않습니다.
 
     ![DLP 정책 경고 설정](../media/insider-risk-DLP-policy-high-severity.png)
 
@@ -77,7 +77,7 @@ ms.locfileid: "48208784"
 
 데이터를 보호 하 고 조직의 사용자에 대 한 데이터 누출을 방지 하는 일은 해당 위치, 중요 한 정보에 대 한 액세스 수준 또는 위험 기록에 따라 달라질 수 있습니다. 데이터 누수는 조직 외부의 중요 한 정보를 실수로 과도 하 게 공유 하거나 악의적인 의도로 데이터를 도용 하는 것을 포함할 수 있습니다. 할당 된 DLP (데이터 손실 방지) 정책과 함께이 서식 파일은 의심 스러운 활동의 실시간 검색을 평가 하 고 더 높은 심각도 수준으로 인해 참가자 위험 경고 및 경고의 발생 가능성을 증대 시킵니다. 우선 순위 사용자는 참가자 위험 관리 설정 영역에 구성 된 [우선 순위 사용자 그룹](insider-risk-management-settings.md#priority-user-groups-preview) 에 정의 됩니다.
 
-**일반 데이터 누수 템플릿과**마찬가지로 조직의 심각도가 높은 경고에 대 한 참가자 위험 정책의 지표를 트리거하기 위해 DLP 정책을 할당 해야 합니다. 이 템플릿을 사용 하 여 정책을 만들 때 위의 데이터 누수 정책 지침을 따릅니다. 또한 **참가자 위험 관리**  >  **설정**  >  **우선 순위 사용자 그룹** 에서 만든 우선 순위 사용자 그룹을 정책에 할당 해야 합니다.
+**일반 데이터 누수 템플릿과** 마찬가지로 조직의 심각도가 높은 경고에 대 한 참가자 위험 정책의 지표를 트리거하기 위해 DLP 정책을 할당 해야 합니다. 이 템플릿을 사용 하 여 정책을 만들 때 위의 데이터 누수 정책 지침을 따릅니다. 또한 **참가자 위험 관리**  >  **설정**  >  **우선 순위 사용자 그룹** 에서 만든 우선 순위 사용자 그룹을 정책에 할당 해야 합니다.
 
 ### <a name="data-leaks-by-disgruntled-users-preview"></a>불만 사용자의 데이터 유출 (미리 보기)
 
@@ -87,23 +87,23 @@ ms.locfileid: "48208784"
 
 ### <a name="general-security-policy-violations-preview"></a>일반 보안 정책 위반 (미리 보기)
 
-대부분의 조직에서는 사용자가 자신의 장치에 소프트웨어를 설치 하거나 장치 설정을 수정 하 여 작업에 도움을 받을 수 있는 권한을 보유 하 고 있습니다. 실수로 또는 악의적인 의도로 인해 사용자가 맬웨어를 설치 하거나 장치나 네트워크 리소스에서 정보를 보호 하는 데 도움이 되는 중요 한 보안 기능을 사용 하지 않도록 설정할 수 있습니다. 이 정책 템플릿은 Microsoft의 ATP (Advanced Threat Protection)에서 보안 알림을 사용 하 여 이러한 활동의 점수를 계산 하 고이 위험 영역에 대 한 검색 및 알림을 집중 합니다. 이 템플릿을 사용 하 여 사용자가 참가자 위험에 대 한 지표 일 수 있는 보안 정책 위반 기록을 포함할 수 있는 시나리오에서 보안 정책 위반에 대 한 통찰력을 제공 합니다.
+대부분의 조직에서는 사용자가 자신의 장치에 소프트웨어를 설치 하거나 장치 설정을 수정 하 여 작업에 도움을 받을 수 있는 권한을 보유 하 고 있습니다. 실수로 또는 악의적인 의도로 인해 사용자가 맬웨어를 설치 하거나 장치나 네트워크 리소스에서 정보를 보호 하는 데 도움이 되는 중요 한 보안 기능을 사용 하지 않도록 설정할 수 있습니다. 이 정책 템플릿은 Microsoft Defender for Endpoint의 보안 경고를 사용 하 여 이러한 활동의 점수를 계산 하 고이 위험 영역에 대 한 검색 및 알림을 집중 합니다. 이 템플릿을 사용 하 여 사용자가 참가자 위험에 대 한 지표 일 수 있는 보안 정책 위반 기록을 포함할 수 있는 시나리오에서 보안 정책 위반에 대 한 통찰력을 제공 합니다.
 
-보안 위반 알림을 가져오려면 해당 조직에 Microsoft Defender ATP를 구성 하 고 Defender 보안 센터의 참가자 위험 관리 통합을 위해 Microsoft Defender atp를 사용 하도록 설정 해야 합니다. 참가자 위험 관리 통합을 위해 Microsoft Defender ATP를 구성 하는 방법에 대 한 자세한 내용은 [Microsoft DEFENDER atp에서 고급 기능 구성을](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)참조 하세요.
+Defender 보안 센터의 참가자 위험 관리 통합에서 보안 위반 알림을 가져오려면 관리자에 게 Microsoft Defender를 구성 하 고 defender for Endpoint을 사용 하도록 설정 해야 합니다. 참가자 위험 관리 통합을 위한 끝점에 대 한 Defender 구성에 대 한 자세한 내용은 [endpoint에 대 한 defender의 고급 기능 구성을](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)참조 하세요.
 
 ### <a name="security-policy-violations-by-departing-users-preview"></a>Departing 사용자의 보안 정책 위반 (미리 보기)
 
-Departing 사용자는 긍정 또는 음의 용어를 떠나는 경우 보안 정책 위반의 위험이 높아질 수 있습니다. Departing 사용자에 대해 실수로 또는 악의적인 보안 위반 으로부터 보호 하기 위해이 정책 서식 파일은 Microsoft Defender ATP 알림을 사용 하 여 보안 관련 작업에 대 한 정보를 제공 합니다. 이러한 활동에는 맬웨어 또는 기타 해로운 응용 프로그램을 설치 하는 사용자와 장치에서 보안 기능을 사용 하지 않도록 설정 하는 작업이 포함 됩니다 사용자가 Microsoft 365 HR 커넥터에서 트리거하는 이벤트로 resignation 또는 종료 날짜를 가져온 후에는 정책 표시기가 활성화 됩니다.
+Departing 사용자는 긍정 또는 음의 용어를 떠나는 경우 보안 정책 위반의 위험이 높아질 수 있습니다. Departing 사용자에 대해 실수로 또는 악의적인 보안 위반 으로부터 보호 하기 위해이 정책 템플릿은 Defender for Endpoint alerts를 사용 하 여 보안 관련 작업에 대 한 정보를 제공 합니다. 이러한 활동에는 맬웨어 또는 기타 해로운 응용 프로그램을 설치 하는 사용자와 장치에서 보안 기능을 사용 하지 않도록 설정 하는 작업이 포함 됩니다 사용자가 Microsoft 365 HR 커넥터에서 트리거하는 이벤트로 resignation 또는 종료 날짜를 가져온 후에는 정책 표시기가 활성화 됩니다.
 
 이 서식 파일을 사용 하는 경우 조직의 사용자에 대 한 resignation 및 종료 날짜 정보를 정기적으로 가져오기 위해 Microsoft 365 HR 커넥터를 구성 해야 합니다. 조직의 Microsoft 365 HR 커넥터를 구성 하는 방법에 대 한 단계별 지침은 [HR connector 문서를 사용한 가져오기 데이터](import-hr-data.md) 를 참조 하십시오.
 
-보안 위반 알림을 가져오려면 해당 조직에 Microsoft Defender ATP를 구성 하 고 Defender 보안 센터의 참가자 위험 관리 통합을 위해 Microsoft Defender atp를 사용 하도록 설정 해야 합니다. 참가자 위험 관리 통합을 위해 Microsoft Defender ATP를 구성 하는 방법에 대 한 자세한 내용은 [Microsoft DEFENDER atp에서 고급 기능 구성을](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)참조 하세요.
+Defender 보안 센터의 참가자 위험 관리 통합에서 보안 위반 알림을 가져오려면 관리자에 게 Microsoft Defender를 구성 하 고 defender for Endpoint을 사용 하도록 설정 해야 합니다. 참가자 위험 관리 통합을 위한 끝점에 대 한 Defender 구성에 대 한 자세한 내용은 [endpoint에 대 한 defender의 고급 기능 구성을](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)참조 하세요.
 
 ### <a name="security-policy-violations-by-priority-users-preview"></a>우선 순위 사용자 별 보안 정책 위반 (미리 보기)
 
-조직의 사용자에 대 한 보안 위반 으로부터 보호 하는 작업은 해당 위치, 중요 한 정보에 대 한 액세스 수준 또는 위험 기록에 따라 달라 집니다. 우선 순위 사용자의 보안 위반은 조직의 중요 영역에 크게 영향을 줄 수 있으므로이 정책 템플릿은 이러한 지표에 대 한 점수를 지정 하 고 Microsoft Defender ATP 알림을 사용 하 여 이러한 사용자에 대 한 보안 관련 작업에 대 한 정보를 제공 합니다. 여기에는 맬웨어 또는 기타 잠재적으로 유해한 응용 프로그램을 설치 하는 우선 순위 사용자와 장치에서 보안 기능을 사용 하지 않도록 설정할 수 있습니다. 우선 순위 사용자는 참가자 위험 관리 설정 영역에 구성 된 우선 순위 사용자 그룹에 정의 됩니다.
+조직의 사용자에 대 한 보안 위반 으로부터 보호 하는 작업은 해당 위치, 중요 한 정보에 대 한 액세스 수준 또는 위험 기록에 따라 달라 집니다. 우선 순위 사용자의 보안 위반은 조직의 중요 영역에 크게 영향을 줄 수 있으므로,이 정책 템플릿은 이러한 지표에 대 한 점수를 지정 하 고 Microsoft Defender for Endpoint alerts를 사용 하 여 이러한 사용자에 대 한 보안 관련 작업에 대 한 정보를 제공 합니다. 여기에는 맬웨어 또는 기타 잠재적으로 유해한 응용 프로그램을 설치 하는 우선 순위 사용자와 장치에서 보안 기능을 사용 하지 않도록 설정할 수 있습니다. 우선 순위 사용자는 참가자 위험 관리 설정 영역에 구성 된 우선 순위 사용자 그룹에 정의 됩니다.
 
-보안 위반 알림을 가져오려면 해당 조직에 Microsoft Defender ATP를 구성 하 고 Defender 보안 센터의 참가자 위험 관리 통합을 위해 Microsoft Defender atp를 사용 하도록 설정 해야 합니다. 참가자 위험 관리 통합을 위해 Microsoft Defender ATP를 구성 하는 방법에 대 한 자세한 내용은 [Microsoft DEFENDER atp에서 고급 기능 구성을](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)참조 하세요. 또한 **참가자 위험 관리**  >  **설정**  >  **우선 순위 사용자 그룹** 에서 만든 우선 순위 사용자 그룹을 정책에 할당 해야 합니다.
+Defender 보안 센터의 참가자 위험 관리 통합에서 보안 위반 알림을 가져오려면 관리자에 게 Microsoft Defender를 구성 하 고 defender for Endpoint을 사용 하도록 설정 해야 합니다. 참가자 위험 관리 통합을 위한 끝점에 대 한 Defender 구성에 대 한 자세한 내용은 [endpoint에 대 한 defender의 고급 기능 구성을](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)참조 하세요. 또한 **참가자 위험 관리**  >  **설정**  >  **우선 순위 사용자 그룹** 에서 만든 우선 순위 사용자 그룹을 정책에 할당 해야 합니다.
 
 ### <a name="security-policy-violations-by-disgruntled-users-preview"></a>불만 사용자의 보안 정책 위반 (미리 보기)
 
@@ -111,7 +111,7 @@ Departing 사용자는 긍정 또는 음의 용어를 떠나는 경우 보안 �
 
 이 서식 파일을 사용 하는 경우에는 조직의 사용자에 대 한 성능 개선 알림, 잘못 된 성능 검토 상태 또는 작업 수준 변경 정보를 정기적으로 가져오기 위해 Microsoft 365 HR 커넥터도 구성 해야 합니다. 조직의 Microsoft 365 HR 커넥터를 구성 하는 방법에 대 한 단계별 지침은 [HR connector 문서를 사용한 가져오기 데이터](import-hr-data.md) 를 참조 하십시오.
 
-또한 조직에서 Microsoft Defender ATP를 구성 하 고 Defender 보안 센터의 참가자 위험 관리 통합을 위해 Microsoft Defender atp를 사용 하도록 설정 해야 보안 위반 알림을 가져올 수 있습니다. 참가자 위험 관리 통합을 위해 Microsoft Defender ATP를 구성 하는 방법에 대 한 자세한 내용은 [Microsoft DEFENDER atp에서 고급 기능 구성을](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)참조 하세요.
+또한 Microsoft Defender를 조직에 구성 하 고 Defender 보안 센터의 참가자 위험 관리 통합을 통해 보안 위반 알림을 가져오기 위해 Defender for Endpoint를 사용 하도록 설정 해야 합니다. 참가자 위험 관리 통합을 위한 끝점에 대 한 Defender 구성에 대 한 자세한 내용은 [endpoint에 대 한 defender의 고급 기능 구성을](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)참조 하세요.
 
 ### <a name="offensive-language-in-email"></a>전자 메일의 공격적인 언어
 
@@ -132,10 +132,10 @@ Departing 사용자는 긍정 또는 음의 용어를 떠나는 경우 보안 �
 | 일반 데이터 누수 | 심각도가 높은 경고를 생성 하는 데이터 누수 정책 작업 | 심각도가 높은 경고에 대해 구성 된 DLP 정책 |
 | 우선 순위 사용자 별 데이터 유출 | 심각도가 높은 경고를 생성 하는 데이터 누수 정책 작업 | 심각도가 높은 경고에 대해 구성 된 DLP 정책 <br><br> 참가자 위험 설정에 구성 된 우선 순위 사용자 그룹 |
 | 불만 사용자에의 한 데이터 유출 | 인사 향상, 성능 저하 또는 HR 커넥터에서의 작업 수준 변경 지표 | Disgruntlement 지표에 대해 구성 된 Microsoft 365 HR 커넥터 |
-| 일반 보안 정책 위반 | Microsoft Defender ATP에서 감지 하는 보안 제어 또는 원치 않는 소프트웨어의 방어 evasion | 활성 Microsoft Defender ATP 구독 <br><br> Microsoft 365 준수 센터가 구성 된 microsoft Defender ATP 통합 |
-| Departing 사용자의 보안 정책 위반 | HR 커넥터의 Resignation 또는 종료 날짜 표시기 | 종료 및 resignation 날짜 표시기에 대해 구성 된 Microsoft 365 HR 커넥터 <br><br> 활성 Microsoft Defender ATP 구독 <br><br> Microsoft 365 준수 센터가 구성 된 microsoft Defender ATP 통합 |
-| 우선 순위 사용자 별 보안 정책 위반 | Microsoft Defender ATP에서 감지 하는 보안 제어 또는 원치 않는 소프트웨어의 방어 evasion | 활성 Microsoft Defender ATP 구독 <br><br> Microsoft 365 준수 센터가 구성 된 microsoft Defender ATP 통합 <br><br> 참가자 위험 설정에 구성 된 우선 순위 사용자 그룹 |
-| 불만 사용자에의 한 보안 정책 위반 | 인사 향상, 성능 저하 또는 HR 커넥터에서의 작업 수준 변경 지표 | Disgruntlement 지표에 대해 구성 된 Microsoft 365 HR 커넥터 <br><br> 활성 Microsoft Defender ATP 구독 <br><br> Microsoft 365 준수 센터가 구성 된 microsoft Defender ATP 통합 |
+| 일반 보안 정책 위반 | 끝점에 대해 Microsoft Defender에서 검색 하는 보안 제어 또는 원치 않는 소프트웨어의 방어 evasion | 끝점 구독에 대 한 활성 Microsoft Defender <br><br> Microsoft 365 준수 센터가 구성 된 끝점 통합용 microsoft Defender |
+| Departing 사용자의 보안 정책 위반 | HR 커넥터의 Resignation 또는 종료 날짜 표시기 | 종료 및 resignation 날짜 표시기에 대해 구성 된 Microsoft 365 HR 커넥터 <br><br> 끝점 구독에 대 한 활성 Microsoft Defender <br><br> Microsoft 365 준수 센터가 구성 된 끝점 통합용 microsoft Defender |
+| 우선 순위 사용자 별 보안 정책 위반 | 끝점에 대해 Microsoft Defender에서 검색 하는 보안 제어 또는 원치 않는 소프트웨어의 방어 evasion | 끝점 구독에 대 한 활성 Microsoft Defender <br><br> Microsoft 365 준수 센터가 구성 된 끝점 통합용 microsoft Defender <br><br> 참가자 위험 설정에 구성 된 우선 순위 사용자 그룹 |
+| 불만 사용자에의 한 보안 정책 위반 | 인사 향상, 성능 저하 또는 HR 커넥터에서의 작업 수준 변경 지표 | Disgruntlement 지표에 대해 구성 된 Microsoft 365 HR 커넥터 <br><br> 끝점 구독에 대 한 활성 Microsoft Defender <br><br> Microsoft 365 준수 센터가 구성 된 끝점 통합용 microsoft Defender |
 | 전자 메일의 공격적인 언어 | 전자 메일 메시지의 불경, 위협 또는 harassing 언어 | 활성 Exchange Online 구독 |
 
 ## <a name="prioritize-content-in-policies"></a>정책의 콘텐츠 우선 순위 지정
@@ -146,9 +146,9 @@ Departing 사용자는 긍정 또는 음의 용어를 떠나는 경우 보안 �
 
 정책 마법사에서 참가자 위험 관리 정책을 만들 때 다음 우선 순위 중에서 선택할 수 있습니다.
 
-- **Sharepoint 사이트**: 정의 된 SharePoint 사이트의 모든 파일 형식과 연결 된 모든 활동에 높은 위험 점수가 할당 됩니다. 
-- **중요 한 정보 유형**: [중요 한 정보 유형을](sensitive-information-type-entity-definitions.md) 포함 하는 콘텐츠와 관련 된 모든 활동에 더 높은 위험 점수를 할당 합니다.
-- **민감도 레이블**: 특정 [민감도 레이블이](sensitivity-labels.md) 적용 된 콘텐츠와 관련 된 활동에 더 높은 위험 점수를 할당 합니다.
+- **Sharepoint 사이트** : 정의 된 SharePoint 사이트의 모든 파일 형식과 연결 된 모든 활동에 높은 위험 점수가 할당 됩니다. 
+- **중요 한 정보 유형** : [중요 한 정보 유형을](sensitive-information-type-entity-definitions.md) 포함 하는 콘텐츠와 관련 된 모든 활동에 더 높은 위험 점수를 할당 합니다.
+- **민감도 레이블** : 특정 [민감도 레이블이](sensitivity-labels.md) 적용 된 콘텐츠와 관련 된 활동에 더 높은 위험 점수를 할당 합니다.
 
 ## <a name="create-a-new-policy"></a>Create a new policy
 
@@ -159,9 +159,9 @@ Departing 사용자는 긍정 또는 음의 용어를 떠나는 경우 보안 �
 1. [Microsoft 365 준수 센터](https://compliance.microsoft.com)에서 **참가자 위험 관리** 로 이동 하 여 **정책** 탭을 선택 합니다.
 2. **정책 만들기** 를 선택 하 여 정책 마법사를 엽니다.
 3. **새 참가자 위험 정책** 페이지에서 다음 필드를 작성 합니다.
-    - **이름 (필수)**: 정책의 이름을 입력 합니다.
-    - **설명 (선택 사항)**: 정책에 대 한 설명을 입력 합니다.
-    - **정책 템플릿 선택 (필수)**: 정책 [템플릿](insider-risk-management-policies.md#policy-templates) 중 하나를 선택 하 여 위험 지표 유형을 정의 합니다.
+    - **이름 (필수)** : 정책의 이름을 입력 합니다.
+    - **설명 (선택 사항)** : 정책에 대 한 설명을 입력 합니다.
+    - **정책 템플릿 선택 (필수)** : 정책 [템플릿](insider-risk-management-policies.md#policy-templates) 중 하나를 선택 하 여 위험 지표 유형을 정의 합니다.
 
     >[!IMPORTANT]
     >대부분의 정책 템플릿은 관련 알림을 생성 하기 위해 정책에 대해 구성 해야 하는 필수 구성 요소를 포함 합니다. 해당 하는 정책 필수 구성 요소를 구성 하지 않은 경우에는 [참가자 위험 관리 시작](insider-risk-management-configure.md#step-3-configure-prerequisites-for-templates)을 참조 하세요.
@@ -169,17 +169,17 @@ Departing 사용자는 긍정 또는 음의 용어를 떠나는 경우 보안 �
 4. 계속 하려면 **다음** 을 선택 합니다.
 5. **사용자** 페이지에서 **사용자 또는 그룹 추가** 를 선택 하거나 **우선 순위 사용자 그룹** 을 선택 하 여 선택한 정책 템플릿에 따라 정책에 포함 되는 사용자 또는 우선 순위 사용자 그룹을 정의 합니다. 해당 **하는 경우 모든 사용자 및 메일 사용 가능 그룹** 확인란을 선택 합니다 (우선 순위 사용자 기반 서식 파일을 선택 하지 않은 경우). 계속 하려면 **다음** 을 선택 합니다.
 6. **우선 순위를 지정할 콘텐츠 지정 (선택 사항)** 페이지에서 향상 된 위험 점수에 대해 우선 순위를 지정할 원본을 할당할 수 있습니다. 그러나 관련 콘텐츠가이 페이지에서 기본 제공 또는 사용자 지정 중요 한 정보 유형을 포함 하거나 우선 순위로 지정 되지 않은 경우에는 일부 작업에서 경고가 생성 되지 않습니다.
-    - **Sharepoint 사이트**: **sharepoint 사이트 추가** 를 선택 하 고 우선 순위를 지정할 SharePoint 조직을 선택 합니다. 예를 들면 *"group1@contoso.sharepoint.com/sites/group1"* 입니다.
-    - **중요 한 정보 유형**: **중요 한 정보 유형 추가** 를 선택 하 고 우선 순위를 지정할 민감도 유형을 선택 합니다. 예를 들어 *"미국 은행 계좌 번호"* 및 *"신용 카드 번호"* 를 들 수 있습니다.
-    - **민감도 레이블**: **민감도 레이블 추가** 를 선택 하 고 우선 순위를 지정할 레이블을 선택 합니다. 예를 들어 *"기밀"* 및 *"비밀"* 가 있습니다.
+    - **Sharepoint 사이트** : **sharepoint 사이트 추가** 를 선택 하 고 우선 순위를 지정할 SharePoint 조직을 선택 합니다. 예를 들면 *"group1@contoso.sharepoint.com/sites/group1"* 입니다.
+    - **중요 한 정보 유형** : **중요 한 정보 유형 추가** 를 선택 하 고 우선 순위를 지정할 민감도 유형을 선택 합니다. 예를 들어 *"미국 은행 계좌 번호"* 및 *"신용 카드 번호"* 를 들 수 있습니다.
+    - **민감도 레이블** : **민감도 레이블 추가** 를 선택 하 고 우선 순위를 지정할 레이블을 선택 합니다. 예를 들어 *"기밀"* 및 *"비밀"* 가 있습니다.
 7. 계속 하려면 **다음** 을 선택 합니다.
-8. **정책 지표 선택** 페이지에는 **참가자 위험 설정**지표 페이지에서 사용할 수 있는 것으로 정의 된 [표시기](insider-risk-management-settings.md#indicators) 가 표시 됩니다  >  **Indicators** . 마법사를 시작할 때 *데이터 누수* 템플릿을 선택한 경우에는 **dlp 정책** 드롭다운 목록에서 dlp 정책을 선택 하 여 정책에 대 한 지표를 트리거합니다. 정책에 적용할 지표를 선택 합니다. 이러한 지표에 대 한 기본 정책 임계값 설정을 사용 하지 않으려면 **Microsoft에서 권장 하는 기본 임계값 사용** 을 사용 하지 않도록 설정 하 고 선택한 각 표시기에 대해 임계값을 입력 합니다. 하나 이상의 *Office* 또는 *장치* 지표를 선택한 경우 **위험 성과** 를 적절 하 게 boosters 선택 합니다. 위험 점수 boosters는 선택한 지표에만 적용 됩니다.
+8. **정책 지표 선택** 페이지에는 **참가자 위험 설정** 지표 페이지에서 사용할 수 있는 것으로 정의 된 [표시기](insider-risk-management-settings.md#indicators) 가 표시 됩니다  >  **Indicators** . 마법사를 시작할 때 *데이터 누수* 템플릿을 선택한 경우에는 **dlp 정책** 드롭다운 목록에서 dlp 정책을 선택 하 여 정책에 대 한 지표를 트리거합니다. 정책에 적용할 지표를 선택 합니다. 이러한 지표에 대 한 기본 정책 임계값 설정을 사용 하지 않으려면 **Microsoft에서 권장 하는 기본 임계값 사용** 을 사용 하지 않도록 설정 하 고 선택한 각 표시기에 대해 임계값을 입력 합니다. 하나 이상의 *Office* 또는 *장치* 지표를 선택한 경우 **위험 성과** 를 적절 하 게 boosters 선택 합니다. 위험 점수 boosters는 선택한 지표에만 적용 됩니다.
 
     >[!IMPORTANT]
     >이 페이지의 표시기를 선택할 수 없는 경우에는 **참가자 위험 관리**  >  **설정**  >  **정책 지표** 페이지에서 모든 정책에 대해 사용 하도록 설정할 지표를 선택 해야 합니다.
 
 9. 계속 하려면 **다음** 을 선택 합니다.
-10. **정책 기한** 페이지에는 **참가자 위험 설정**정책 기간 페이지의 정책에 대 한 [정품 인증 기간 조건이](insider-risk-management-settings.md#policy-timeframes) 표시 됩니다  >  **Policy timeframes** .
+10. **정책 기한** 페이지에는 **참가자 위험 설정** 정책 기간 페이지의 정책에 대 한 [정품 인증 기간 조건이](insider-risk-management-settings.md#policy-timeframes) 표시 됩니다  >  **Policy timeframes** .
 11. 계속 하려면 **다음** 을 선택 합니다.
 12. **검토** 페이지에서 정책에 대해 선택한 설정을 검토 합니다. **편집** 을 선택 하 여 정책 값을 변경 하거나 **제출을** 선택 하 여 정책을 만들고 활성화 합니다.
 
@@ -193,23 +193,23 @@ Departing 사용자는 긍정 또는 음의 용어를 떠나는 경우 보안 �
 2. 정책 대시보드에서 관리 하려는 정책을 선택 합니다.
 3. 정책 세부 정보 페이지에서 **정책 편집** 을 선택 합니다.
 4. 정책 마법사에서는 다음 필드를 편집할 수 없습니다.
-    - **이름**: 정책의 식별 이름입니다.
-    - **정책 서식 파일 선택**: 정책으로 모니터링 되는 위험 지표 유형을 정의 하는 데 사용 되는 서식 파일입니다.
+    - **이름** : 정책의 식별 이름입니다.
+    - **정책 서식 파일 선택** : 정책으로 모니터링 되는 위험 지표 유형을 정의 하는 데 사용 되는 서식 파일입니다.
 5. **설명** 필드에 정책에 대 한 새 설명을 입력 합니다. 
 6. 계속 하려면 **다음** 을 선택 합니다.
 7. **사용자** 페이지에서 **사용자 또는 그룹 추가** 를 선택 하거나 **우선 순위 사용자 그룹** 을 선택 하 여 선택한 정책 템플릿에 따라 정책에 포함 되는 사용자 또는 우선 순위 사용자 그룹을 정의 합니다. 해당 **하는 경우 모든 사용자 및 메일 사용 가능 그룹** 확인란을 선택 합니다 (우선 순위 사용자 기반 서식 파일을 선택 하지 않은 경우). 계속 하려면 **다음** 을 선택 합니다.
 8. **우선 순위를 지정할 콘텐츠 지정 (선택 사항)** 페이지에서 향상 된 위험 점수에 대해 우선 순위를 지정할 원본을 할당할 수 있습니다. 그러나 관련 콘텐츠가이 페이지에서 기본 제공 또는 사용자 지정 중요 한 정보 유형을 포함 하거나 우선 순위로 지정 되지 않은 경우에는 일부 작업에서 경고가 생성 되지 않습니다.
-    - **Sharepoint 사이트**: **sharepoint 사이트 추가** 를 선택 하 고 우선 순위를 지정할 SharePoint 조직을 선택 합니다. 예를 들면 *"group1@contoso.sharepoint.com/sites/group1"* 입니다.
-    - **중요 한 정보 유형**: **중요 한 정보 유형 추가** 를 선택 하 고 우선 순위를 지정할 민감도 유형을 선택 합니다. 예를 들어 *"미국 은행 계좌 번호"* 및 *"신용 카드 번호"* 를 들 수 있습니다.
-    - **민감도 레이블**: **민감도 레이블 추가** 를 선택 하 고 우선 순위를 지정할 레이블을 선택 합니다. 예를 들어 *"기밀"* 및 *"비밀"* 가 있습니다.
+    - **Sharepoint 사이트** : **sharepoint 사이트 추가** 를 선택 하 고 우선 순위를 지정할 SharePoint 조직을 선택 합니다. 예를 들면 *"group1@contoso.sharepoint.com/sites/group1"* 입니다.
+    - **중요 한 정보 유형** : **중요 한 정보 유형 추가** 를 선택 하 고 우선 순위를 지정할 민감도 유형을 선택 합니다. 예를 들어 *"미국 은행 계좌 번호"* 및 *"신용 카드 번호"* 를 들 수 있습니다.
+    - **민감도 레이블** : **민감도 레이블 추가** 를 선택 하 고 우선 순위를 지정할 레이블을 선택 합니다. 예를 들어 *"기밀"* 및 *"비밀"* 가 있습니다.
 9. 계속 하려면 **다음** 을 선택 합니다.
-10. **정책 지표 선택** 페이지에는 **참가자 위험 설정**지표 페이지에서 사용할 수 있는 것으로 정의 된 [표시기](insider-risk-management-settings.md#indicators) 가 표시 됩니다  >  **Indicators** . 마법사를 시작할 때 *데이터 누수* 템플릿을 선택한 경우에는 **dlp 정책** 드롭다운 목록에서 dlp 정책을 선택 하 여 정책에 대 한 지표를 트리거합니다. 정책에 적용할 지표를 선택 합니다. 이러한 지표에 대 한 기본 정책 임계값 설정을 사용 하지 않으려면 **Microsoft에서 권장 하는 기본 임계값 사용** 을 사용 하지 않도록 설정 하 고 선택한 각 표시기에 대해 임계값을 입력 합니다. 하나 이상의 *Office* 또는 *장치* 지표를 선택한 경우 **위험 성과** 를 적절 하 게 boosters 선택 합니다. 위험 점수 boosters는 선택한 지표에만 적용 됩니다.
+10. **정책 지표 선택** 페이지에는 **참가자 위험 설정** 지표 페이지에서 사용할 수 있는 것으로 정의 된 [표시기](insider-risk-management-settings.md#indicators) 가 표시 됩니다  >  **Indicators** . 마법사를 시작할 때 *데이터 누수* 템플릿을 선택한 경우에는 **dlp 정책** 드롭다운 목록에서 dlp 정책을 선택 하 여 정책에 대 한 지표를 트리거합니다. 정책에 적용할 지표를 선택 합니다. 이러한 지표에 대 한 기본 정책 임계값 설정을 사용 하지 않으려면 **Microsoft에서 권장 하는 기본 임계값 사용** 을 사용 하지 않도록 설정 하 고 선택한 각 표시기에 대해 임계값을 입력 합니다. 하나 이상의 *Office* 또는 *장치* 지표를 선택한 경우 **위험 성과** 를 적절 하 게 boosters 선택 합니다. 위험 점수 boosters는 선택한 지표에만 적용 됩니다.
 
     >[!IMPORTANT]
     >이 페이지의 표시기를 선택할 수 없는 경우에는 **참가자 위험 관리**  >  **설정**  >  **정책 지표** 페이지에서 모든 정책에 대해 사용 하도록 설정할 지표를 선택 해야 합니다.
 
 11. 계속 하려면 **다음** 을 선택 합니다.
-12. **정책 기한** 페이지에는 **참가자 위험 설정**정책 기간 페이지의 정책에 대 한 [정품 인증 기간 조건이](insider-risk-management-settings.md#policy-timeframes) 표시 됩니다  >  **Policy timeframes** .
+12. **정책 기한** 페이지에는 **참가자 위험 설정** 정책 기간 페이지의 정책에 대 한 [정품 인증 기간 조건이](insider-risk-management-settings.md#policy-timeframes) 표시 됩니다  >  **Policy timeframes** .
 13. 계속 하려면 **다음** 을 선택 합니다.
 14. **검토** 페이지에서 정책에 대해 업데이트 한 설정을 검토 합니다. **편집** 을 선택 하 여 정책 값을 변경 하거나 **제출을** 선택 하 여 정책을 업데이트 하 고 정품 인증 합니다.
 

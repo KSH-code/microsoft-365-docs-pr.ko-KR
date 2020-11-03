@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Cybersecurity 위협 으로부터 전자 메일, 데이터 및 통신으로 캠페인을 보호할 수 있도록 Microsoft 365 for 캠페인을 확인 하세요.
-ms.openlocfilehash: fcb28ba7ca52ee3498afd12cf93157fa90d0d80b
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 6fe67f8e5723a272643c7980bf1744f80c612188
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131979"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843237"
 ---
 # <a name="get-microsoft-365-for-campaigns"></a>캠페인에 대 한 Microsoft 365 받기
 
@@ -43,11 +43,11 @@ Microsoft 365 Business Premium을 사용한 모든 귀하는이 지침을 사용
 
 ## <a name="what-does-microsoft-365-for-campaigns-include"></a>캠페인에 대 한 Microsoft 365의 기능은 무엇입니까?
 이러한 Microsoft 365 Business Premium 구성에는 사용자와 직원이 안전 하 게 공동 작업 하는 데 도움이 되는 간단한 컨트롤이 포함 됩니다. 
-- **사용자 Id 보호**: 사용자가 로그인 하 여 전자 메일을 보내거나 access 파일 (다단계 인증)을 사용할 수 있는지 확인 합니다.
-- **중요 한 정보 보호**: 중요 한 정보를 보호 하 여 조직 외부에서 공유 되는 정보를 모니터링 합니다 (데이터 손실 방지).
-- **모바일 장치 보호**: 모바일 장치 (모바일 앱 보호 정책)의 데이터를 보호 합니다.
-- **악성 콘텐츠 보호**: 전자 메일 첨부 파일을 검색 하 여 악의적인 콘텐츠에 액세스 하지 못하도록 합니다 (advanced threat protection).
-- **암호 보호**: 암호를 만료 되지 않도록 설정 하 여 보안을 강화 하 고 작업 stoppages (암호 정책)을 방지 합니다. 
+- **사용자 Id 보호** : 사용자가 로그인 하 여 전자 메일을 보내거나 access 파일 (다단계 인증)을 사용할 수 있는지 확인 합니다.
+- **중요 한 정보 보호** : 중요 한 정보를 보호 하 여 조직 외부에서 공유 되는 정보를 모니터링 합니다 (데이터 손실 방지).
+- **모바일 장치 보호** : 모바일 장치 (모바일 앱 보호 정책)의 데이터를 보호 합니다.
+- **악성 콘텐츠 보호** : 전자 메일 첨부 파일을 검색 하 여 악의적인 콘텐츠에 액세스 하지 못하도록 합니다 (Office 365 용 Defender).
+- **암호 보호** : 암호를 만료 되지 않도록 설정 하 여 보안을 강화 하 고 작업 stoppages (암호 정책)을 방지 합니다. 
 
 
 ## <a name="what-does-it-cost-who-needs-it-and-what-is-the-commitment"></a>It 비용은 무엇이 고, 필요한 지, 그리고 약정 이란?

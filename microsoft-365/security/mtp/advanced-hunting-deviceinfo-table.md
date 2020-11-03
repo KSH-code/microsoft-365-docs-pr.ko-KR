@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 966f329d1d3ce374cc3eed9eccb6c337071f4ee1
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 1bb48b4332bc9d60de15bb513f04a503d6a6913b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430082"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842717"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -32,7 +32,7 @@ ms.locfileid: "48430082"
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "48430082"
 | `DeviceId` | 문자열 | 서비스에서 시스템의 고유 식별자 |
 | `DeviceName` | 문자열 | 컴퓨터의 FQDN(정규화된 도메인 이름) |
 | `ClientVersion` | 문자열 | 컴퓨터에서 실행 되는 끝점 에이전트 또는 센서의 버전 |
-| `PublicIP` | 문자열 | 등록 컴퓨터에서 Microsoft Defender ATP 서비스에 연결 하는 데 사용 되는 공용 IP 주소입니다. 컴퓨터 자체의 IP 주소, NAT 장치 또는 프록시 일 수 있습니다. |
+| `PublicIP` | 문자열 | 등록 컴퓨터에서 Microsoft Defender for Endpoint 서비스에 연결 하는 데 사용 하는 공용 IP 주소입니다. 컴퓨터 자체의 IP 주소, NAT 장치 또는 프록시 일 수 있습니다. |
 | `OSArchitecture` | 문자열 | 컴퓨터에서 실행 중인 운영 체제의 아키텍처 |
 | `OSPlatform` | 문자열 | 컴퓨터에서 실행 중인 운영 체제의 플랫폼 이는 Windows 10 및 Windows 7과 같은 제품군 내의 변형을 비롯 하 여 특정 운영 체제를 나타냅니다. |
 | `OSBuild` | 문자열 | 컴퓨터에서 실행 되는 운영 체제의 빌드 버전 |

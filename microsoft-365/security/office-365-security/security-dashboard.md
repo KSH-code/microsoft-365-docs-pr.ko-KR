@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 새 보안 대시보드를 사용 하 여 Office 365 위협 방지 상태를 검토 하 고 보안 경고를 보고 작동 합니다.
-ms.openlocfilehash: 1bef6d0496c39d5157bbc40893d2710e89d1c734
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: f7576de9db1403c3c010b2fd826866ec11a7e20a
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200076"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843627"
 ---
 # <a name="security-dashboard"></a>보안 대시보드
 
@@ -40,7 +40,7 @@ ms.locfileid: "48200076"
 
 조직의 구독에 포함 된 내용에 따라 보안 대시보드에는 다음 섹션에 설명 된 것 처럼 위협 관리 요약, 위협 방지 상태, 전역 주간 위협 감지, 맬웨어 등의 여러 widget이 포함 됩니다.
 
-보안 대시보드를 보려면 [보안 & 준수 센터](../../compliance/go-to-the-securitycompliance-center.md)에서 **위협 관리** \> **대시보드로**이동 합니다.
+보안 대시보드를 보려면 [보안 & 준수 센터](../../compliance/go-to-the-securitycompliance-center.md)에서 **위협 관리** \> **대시보드로** 이동 합니다.
 
 > [!NOTE]
 > 보안 대시보드를 보려면 전역 관리자, 보안 관리자 또는 보안 독자 여야 합니다. 일부 위젯을 보려면 추가 권한이 필요 합니다. 자세한 내용은 [Security & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
@@ -57,7 +57,7 @@ ms.locfileid: "48200076"
 |---|---|
 |차단 된 맬웨어 메시지<br/>차단 된 피싱 메시지<br>사용자가 보고 한 메시지<br><br><br><br>|차단 된 맬웨어 메시지<br>차단 된 피싱 메시지<br>사용자가 보고 한 메시지<br>제로 일 맬웨어 차단<br>검색 된 고급 피싱 메시지<br>차단 된 악의적인 Url|
 
-위협 관리 요약 위젯을 보거나 액세스 하려면 Advanced Threat Protection 보고서를 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 [ATP 보고서를 확인 하는 데 필요한 사용 권한](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports)를 참조 하십시오.
+위협 관리 요약 위젯을 보거나 액세스 하려면 Defender for Office 365 reports를 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 [어떤 사용 권한으로 Defender For Office 365 reports?를 확인 해야 합니까?](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)를 참조 하십시오.
 
 ## <a name="threat-protection-status"></a>위협 방지 상태
 
@@ -65,14 +65,14 @@ ms.locfileid: "48200076"
 
 ![위협 방지 상태 위젯](../../media/tpswidget.png)
 
-세부 정보는 Microsoft 365 구독에 [Office 365 ATP (Advanced Threat protection](office-365-atp.md) )가 있는 EOP ( [Exchange Online Protection](exchange-online-protection-overview.md) )가 포함 되어 있는지 여부에 따라 달라 집니다.
+자세한 내용은 365 Microsoft [Defender For Office 365](office-365-atp.md)이 포함 되어 있는지 여부에 따라 사용 하는 EOP ( [Exchange Online Protection](exchange-online-protection-overview.md) )에 대해 설명 합니다.
 
 |구독에 다음이 포함 된 경우 ...|다음 정보가 표시 됩니다.|
 |---|---|
-|EOP는 아니지만 Office 365 ATP|EOP에서 검색 하 고 차단한 악성 전자 메일입니다.<br><br> [위협 방지 상태 보고서 (EOP)](view-email-security-reports.md#threat-protection-status-report)를 참조 하세요.|
-|Office 365 ATP|EOP 및 Office 365 ATP가 검색 하 고 차단한 악성 콘텐츠 및 악성 전자 메일<br><br>맬웨어 방지 엔진, [자동 삭제](zero-hour-auto-purge.md)및 atp 기능 ( [안전한 링크](atp-safe-links.md), [안전한 첨부 파일](atp-safe-attachments.md)및 [atp 피싱 방지](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies))에 의해 차단 되는 악성 콘텐츠가 포함 된 고유한 전자 메일 메시지의 집계 개수입니다.<br><br>[ATP (Threat protection 상태 보고서)](view-reports-for-atp.md#threat-protection-status-report)를 참조 하세요.|
+|EOP 이지만 Office 용 Microsoft Defender 365이 아님|EOP에서 검색 하 고 차단한 악성 전자 메일입니다.<br><br> [위협 방지 상태 보고서 (EOP)](view-email-security-reports.md#threat-protection-status-report)를 참조 하세요.|
+|Microsoft Defender for Office 365|EOP 및 Office 365 용 Defender에서 검색 및 차단 된 악의적인 콘텐츠 및 악성 전자 메일<br><br>맬웨어 방지 엔진에 의해 차단 되는 악성 콘텐츠가 포함 된 고유 전자 메일 메시지의 집계 횟수, [영 자동 제거](zero-hour-auto-purge.md)및 office 365 기능 ( [안전 링크](atp-safe-links.md), [안전한 첨부 파일](atp-safe-attachments.md), [defender for office 365의 사전 피싱](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365))<br><br>[위협 방지 상태 보고서](view-reports-for-atp.md#threat-protection-status-report)를 참조 하세요.|
 
-위협 방지 상태 위젯을 보거나 액세스 하려면 Advanced Threat Protection 보고서를 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 [ATP 보고서를 확인 하는 데 필요한 사용 권한](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports) 를 참조 하세요.
+위협 방지 상태 위젯을 보거나 액세스 하려면 Defender for Office 365 보고서용 보기 권한이 있어야 합니다. 자세한 내용은 [어떤 권한이 있는지 Defender For Office 365 reports를 확인 하는 데 필요한 사용 권한을](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports) 참조 하세요.
 
 ## <a name="global-weekly-threat-detections"></a>전역 주간 위협 감지
 
@@ -86,7 +86,7 @@ ms.locfileid: "48200076"
 |---|---|
 |검색 된 메시지|검색 된 전자 메일 메시지의 수를 받는 사람 수에 곱하여 함|
 |위협이 중지 됨|맬웨어를 포함 하는 것으로 식별 되는 전자 메일 메시지 수 (받는 사람 수)|
-|[ATP](office-365-atp.md) 에 의해 차단 됨|ATP에 의해 차단 되는 전자 메일 메시지 수와 받는 사람 수를 곱합니다.|
+|[Defender For Office 365에 대해](office-365-atp.md) 차단 됨|Defender for Office 365에 받는 사람 수를 곱하여 차단 된 전자 메일 메시지 수|
 |배달 후 제거 됨|[자동 삭제](zero-hour-auto-purge.md) 를 통해 제거 되는 메시지 수를 받는 사람 수 곱하여|
 
 ## <a name="malware"></a>맬웨어
@@ -105,7 +105,7 @@ ms.locfileid: "48200076"
 
 ## <a name="threat-investigation-and-response"></a>위협 조사 및 응답
 
-조직의 구독에  [Office 365 Advanced Threat Protection 계획 2](office-365-ti.md)가 포함 되어 있는 경우 보안 대시보드에 Advanced threat 조사한 및 응답 도구가 포함 된 섹션이 있습니다. 이러한 도구에는 [자동화 된 조사 및 응답 기능이](automated-investigation-response-office.md)포함 되어 있습니다. 자동화 된 조사 및 응답은 [손상 된 사용자 계정에 빠르게 주소를 지정](address-compromised-users-quickly.md)하는 등의 시나리오에서 유용할 수 있습니다.
+조직의 구독에  [Office 365 계획 2 용 Microsoft Defender](office-365-ti.md)가 포함 되어 있는 경우 보안 대시보드에 advanced threat 조사한 및 응답 도구가 포함 된 섹션이 있습니다. 이러한 도구에는 [자동화 된 조사 및 응답 기능이](automated-investigation-response-office.md)포함 되어 있습니다. 자동화 된 조사 및 응답은 [손상 된 사용자 계정에 빠르게 주소를 지정](address-compromised-users-quickly.md)하는 등의 시나리오에서 유용할 수 있습니다.
 
 자세한 내용은 [Office 365에서 자동 조사 및 응답을 사용 하 여 시작](office-365-air.md)하기를 참조 하세요.
 
@@ -115,9 +115,9 @@ ms.locfileid: "48200076"
 
 ![조직에 대 한 전자 메일 흐름 추세를 요약 하는 추세 섹션](../../media/trends.png)
 
-또한 조직의 구독에 [Office 365 Advanced Threat Protection 계획 2](office-365-ti.md)가 포함 되어 있는 경우 보안 팀이 우선 순위가 높은 보안 경고에 대 한 작업을 보고 수행할 수 있도록 하는 **최근 위협 관리 경고** 보고서가이 섹션에도 제공 됩니다.
+또한 조직의 구독에 [Office 365 계획 2에 대 한 Defender](office-365-ti.md)가 포함 되어 있는 경우 보안 팀이 우선 순위가 높은 보안 경고에 대 한 작업을 확인 하 고 수행할 수 있도록 하는 **최근 위협 관리 경고** 보고서가이 섹션에 포함 됩니다.
 
-보내고 받은 전자 메일 위젯을 보거나 액세스 하려면 Advanced Threat Protection 보고서를 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 [ATP 보고서를 확인 하는 데 필요한 사용 권한](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports)를 참조 하십시오.
+보내고 받은 전자 메일 위젯을 보거나 액세스 하려면 Defender for Office 365 reports에 대 한 사용 권한이 있어야 합니다. 자세한 내용은 [어떤 사용 권한으로 Defender For Office 365 reports?를 확인 해야 합니까?](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)를 참조 하십시오.
 
 최신 위협 관리 알림 위젯을 보거나 액세스 하려면 알림을 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 [경고를 보는 데 필요한 RBAC 사용 권한을](../../compliance/alert-policies.md#rbac-permissions-required-to-view-alerts)참조 하세요.
 
@@ -125,8 +125,8 @@ ms.locfileid: "48200076"
 
 [보안 및 준수 센터의 전자 메일 보안 보고서 보기](view-email-security-reports.md)
 
-[Office 365 Advanced Threat Protection에 대 한 보고서 보기](view-reports-for-atp.md)
+[Microsoft Defender for Office 365에 대 한 보고서 보기](view-reports-for-atp.md)
 
-[Office 365 Advanced Threat Protection](office-365-atp.md)
+[Office 365용 Microsoft Defender](office-365-atp.md)
 
 [Office 365 위협 조사 및 응답](office-365-ti.md)

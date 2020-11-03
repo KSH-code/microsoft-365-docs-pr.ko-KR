@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: c0bd20ee9b100fcdc53ebf2e5d755ca38c6df545
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 40ee2b6a68438cf703daa2337483bb44d8cbeca9
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197754"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841853"
 ---
 # <a name="additional-protection-apis"></a>추가 보호 Api
 
@@ -32,13 +32,13 @@ ms.locfileid: "48197754"
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 >[!IMPORTANT] 
 >일부 정보는 상업적으로 출시 되기 전에 크게 수정 될 수 있는 prereleased 제품과 관련 되어 있습니다. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-다음 리소스에서는 Microsoft Threat Protection에서 워크플로에 사용할 수 있는 다른 Api에 대 한 자세한 정보를 제공 합니다.
+다음 리소스에서는 Microsoft 365 Defender의 워크플로에 제공 되는 다른 Api에 대 한 자세한 정보를 제공 합니다.
 
-- [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/apis-intro)
-- [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office/office-365-management-api/)
+- [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/apis-intro)
+- [Microsoft Defender for Office 365](https://docs.microsoft.com/office/office-365-management-api/)
 - [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/api-introduction)

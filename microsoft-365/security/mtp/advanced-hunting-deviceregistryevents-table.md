@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 4d70176e7dbbb6963565c0b6c38699cb09b5cd9b
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 1f7df85838654473fea593b235785b4320ea7164
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429902"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842681"
 ---
 # <a name="deviceregistryevents"></a>DeviceRegistryEvents
 
@@ -32,7 +32,7 @@ ms.locfileid: "48429902"
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 `DeviceRegistryEvents` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 레지스트리 항목 만들기 및 수정에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 

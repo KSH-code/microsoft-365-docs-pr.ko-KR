@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Microsoft 365 Business Premium에서 Microsoft 365 E3로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: fbd5c0710bffa92cfc17447094bb9b2683641d5f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 874da0d35759c8af4c3ee2ca4a1bdfa90a91627c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195522"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842203"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Microsoft 365 Business Premium에서 Microsoft 365 E3로 마이그레이션
 
@@ -40,7 +40,7 @@ Microsoft 365 Business Premium에는 소규모 기업에 필요한 모든 것이
 업그레이드는 [관리 센터에서](../commerce/subscriptions/upgrade-to-different-plan.md)업그레이드를 시작할 수 있습니다. 현재 구독의 모든 데이터와 구성이 유지 됩니다. 새 기능을 사용 하는 경우를 제외 하 고는 마이그레이션을 준비 하 고 나중에 수행 해야 하는 작업이 없습니다.
 
 >[!Note]
->또한 최대 300의 사용자를 위해 Microsoft 365 Business Premium subscription을 사용 하 고, 300 명 보다 더 많은 Microsoft 365 E3 구독을 사용할 수 있습니다. 그러나 Office 365 ATP는 Microsoft 365 E3에 포함 되어 있지 않습니다. 계속 해 서 위협 방지를 위해 office 365 ATP 정책 범위에 있는 모든 사용자에 게 라이선스가 있도록 Office 365 ATP 라이선스를 추가 해야 합니다.
+>또한 최대 300의 사용자를 위해 Microsoft 365 Business Premium subscription을 사용 하 고, 300 명 보다 더 많은 Microsoft 365 E3 구독을 사용할 수 있습니다. 그러나 microsoft 365 E3에는 Office 365 용 마이크로소프트 Defender가 포함 되어 있지 않습니다. 위협 방지를 계속 하려면 defender for Office 365 정책 범위에 있는 모든 사용자에 게 라이선스가 있도록 Office 365 라이선스에 대 한 Defender를 추가 해야 합니다.
 >
 
 ## <a name="differences-between-microsoft-365-business-premium-and-microsoft-365-enterprise"></a>Microsoft 365 Business Premium과 Microsoft 365 Enterprise의 차이점
@@ -60,12 +60,12 @@ Microsoft 365 Business Premium에는 소규모 기업에 필요한 모든 것이
 | Outlook 고객 관리자, MileIQ    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | | 
 | **위협 방지**        | | | 
 | 공격 표면 축소 기능    | [이 목록 보기](#threat-protection) | Microsoft Edge에 대 한 하드웨어 기반 격리의 엔터프라이즈 관리 | 
-| Office 365 ATP (Advanced Threat Protection) 계획 1 | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | 포함 되지 않지만 추가할 수 있음 | 
+| Defender for Office 365 계획 1 | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | 포함 되지 않지만 추가할 수 있음 | 
 | **Id 관리**        | | | 
 | 하이브리드 Azure Active Directory에 대 한 셀프 서비스 암호 재설정 (Azure AD) 계정, Azure MFA (다단계 인증), 조건부 액세스, 온-프레미스 id에 대 한 암호 쓰기 저장|     ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | Cloud App Discovery, Azure AD Connect Health    |     | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
-| Azure AD Office 365 앱 SSO (Single Sign-on): 사용자 당 10 개의 앱 (예: Salesforce와 같은 SaaS 응용 프로그램) * | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
-| Azure AD Premium 1 SSO: 제한 없음 (셀프 서비스 앱 통합 서식 파일을 사용 하는 Azure AD 응용 프로그램 프록시 및 비 갤러리 앱을 통한 온-프레미스 앱)    |     | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| Azure AD Office 365 apps SSO (Single Sign-On): 사용자 당 10 개의 앱 (예: Salesforce 등의 SaaS 응용 프로그램) * | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| Azure AD Premium 1 SSO: 제한 없음 (Self-Service 앱 통합 서식 파일을 사용 하 여 Azure AD 응용 프로그램 프록시 및 비 갤러리 앱을 통한 온-프레미스 앱)    |     | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | **장치 및 앱 관리**        | | | 
 | Microsoft Intune, Windows Autopilot|     ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 |VDA (가상 데스크톱 액세스)    |  |     ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
@@ -129,7 +129,7 @@ Windows 10 Business에는 다음과 같은 보호 기능이 포함 되어 있습
 Windows 10 Enterprise e 3에는 Microsoft Edge에 대 한 하드웨어 기반 격리의 엔터프라이즈 관리도 포함 됩니다.
 
 >[!Note]
->Microsoft 365 E3로 마이그레이션된 사용자에 게는 계속 해 서 위협 방지를 위해 Office 365 ATP 라이선스가 필요 합니다. Office 365 ATP 정책 범위에 있는 모든 사용자에 게 라이선스가 있도록 추가 Office 365 ATP 라이선스를 구입 해야 합니다. 
+>Microsoft 365 E3로 마이그레이션된 사용자에 게는 계속 해 서 위협 방지를 위해 Microsoft Defender for Office 365 라이선스가 필요 합니다. Office 365 정책에 대 한 Defender의 모든 사용자에 게 라이선스가 부여 되도록 Office 365 라이선스에 대 한 추가 Defender를 구입 해야 합니다. 
 >
 
 ### <a name="device-management-with-intune"></a>Intune을 사용한 장치 관리

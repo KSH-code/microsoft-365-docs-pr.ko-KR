@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 f1.keywords: NOCSH
 description: 해당 민감도에 따라 데이터를 보호 하도록 팀을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: ef49e788805139bf82fa5b1b43d2a87323640820
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 5cf4937a79fdf33e160432c740504ec84d196585
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527711"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843543"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Microsoft 365를 사용하여 안전한 공동 작업 설정
 
@@ -62,7 +62,7 @@ Microsoft 365에서는 다음과 같은 다양 한 구성을 사용 하 여 팀�
 
 | 제품 또는 구성 요소 | 기능 또는 특징 | 라이선싱 |
 |:-------|:-----|:-------|
-| Office 365 Advanced Threat Protection | ATP SPO, OneDrive 및 팀에 대 한 안전한 첨부 파일 ATP 안전한 문서 ATP가 팀에 대 한 안전한 링크    | Microsoft 365 E1, E3 및 E5 |
+| Microsoft Defender for Office 365 | SPO, OneDrive 및 팀에 대 한 안전한 첨부 파일 안전한 문서 팀에 대 한 안전한 링크    | Microsoft 365 E1, E3 및 E5 |
 | SharePoint    | 사이트 및 파일 공유 정책, 사이트 공유 권한, 공유 링크, 액세스 요청, 사이트 게스트 공유 설정 | Microsoft 365 E1, E3 및 E5 |
 | Microsoft Teams   | 게스트 액세스, 개인 팀, 개인 채널 | Microsoft 365 E1, E3 및 E5 |
 | Microsoft 365 규정 준수  | 민감도 레이블    | Microsoft 365 E3 및 E5 |
@@ -74,7 +74,7 @@ Microsoft 365에서는 다음과 같은 다양 한 구성을 사용 하 여 팀�
 ![Teams 논리 아키텍처 포스터의 축소판 그림 이미지](../media/solutions-architecture-center/Teams-tiers-of-protection-1.png)
 
 
-이러한 계층- *초기 계획*, *중요*및 *높은 수준의 중요* -다음 표와 같이 과잉 공유 및 잠재적인 정보 누출을 방지 하는 보호 기능을 단계적으로 향상 시킵니다.
+이러한 계층- *초기 계획* , *중요* 및 *높은 수준의 중요* -다음 표와 같이 과잉 공유 및 잠재적인 정보 누출을 방지 하는 보호 기능을 단계적으로 향상 시킵니다.
 
 ||**기본 계층**|**중요 계층**|**높은 중요 계층**|
 |:--|:-----------|:------------|:-------------------|

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Threat Protection의 고급 구하기 쿼리 결과에 대해 작업 수행
+title: Microsoft 365 Defender의 고급 구하기 쿼리 결과에 대해 작업 수행
 description: 고급 구하기 쿼리 결과에서 위협과 영향을 받는 자산에 빠르게 주소 만들기
 keywords: 고급 구하기, 위협 검색, 사이버 위협 사냥, microsoft threat protection, microsoft 365, mtp, m365, search, query, 원격 분석, 작업 수행
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 7250feffa69cc1a6cc37908a599dff0fab6c5e6c
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 506af82ec08ad6cd8dbeece5c1c2741e09e4817a
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429659"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842467"
 ---
 # <a name="take-action-on-advanced-hunting-query-results"></a>고급 구하기 쿼리 결과에 대해 작업 수행
 
@@ -32,7 +32,7 @@ ms.locfileid: "48429659"
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
@@ -42,7 +42,7 @@ ms.locfileid: "48429659"
 - 파일 격리
 
 ## <a name="required-permissions"></a>필요한 사용 권한
-고급 구하기를 통해 조치를 취할 수 있으려면 [장치에 대 한 재구성 작업을 제출할](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles#permission-options)수 있는 권한이 있는 MICROSOFT Defender ATP 역할이 필요 합니다. 작업을 수행할 수 없는 경우 전역 관리자에 게 다음 사용 권한을 부여 하는 것에 대해 문의 하세요.
+고급 구하기를 통해 작업을 수행 하려면 [장치에 대 한 재구성 작업을 제출할 수 있는 권한이](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles#permission-options)있는 끝점에 대 한 Microsoft Defender의 역할이 필요 합니다. 작업을 수행할 수 없는 경우 전역 관리자에 게 다음 사용 권한을 부여 하는 것에 대해 문의 하세요.
 
 *활성 수정 작업 > 위협 및 취약성 관리-업데이트 관리 처리*
 
@@ -55,7 +55,7 @@ ms.locfileid: "48429659"
 - 장치 및 기타 영향을 받는 장치에서 위협을 확인 하 고 수정 하는 자동화 된 조사 시작
 - 앱 실행을 Microsoft 서명 된 실행 파일로 제한 하 여 맬웨어 또는 기타 신뢰할 수 없는 실행 파일을 통한 위협 작업을 방지 합니다.
 
-이러한 응답 작업을 Microsoft Defender ATP를 통해 수행 하는 방법에 대 한 자세한 내용은 [장치에 대 한 응답 작업 정보를 참조](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts)하세요.
+끝점에 대해 Microsoft Defender를 통해 이러한 응답 작업을 수행 하는 방법에 대 한 자세한 내용은 [장치에 대 한 응답 작업을 참조](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts)하세요.
    
 ## <a name="quarantine-files"></a>파일 격리
 파일에 *격리* 작업을 배포 하 여 오류가 발생 하면 자동으로 격리 되도록 할 수 있습니다. 이 작업을 선택할 때 다음 열 중에서 선택 하 여 쿼리 결과에서 격리 될 파일을 식별할 수 있습니다.
@@ -71,12 +71,12 @@ ms.locfileid: "48429659"
 >파일을 찾아 격리 하기 위해 쿼리 결과에 `DeviceId` 장치 식별자로 값도 포함 해야 합니다.  
 
 ## <a name="take-action"></a>작업 수행
-설명 된 작업을 수행 하려면 쿼리 결과에서 하나 이상의 레코드를 선택 하 고 **작업 수행**을 선택 합니다. 마법사는 원하는 작업을 선택 하 여 전송 하는 프로세스를 안내 합니다.
+설명 된 작업을 수행 하려면 쿼리 결과에서 하나 이상의 레코드를 선택 하 고 **작업 수행** 을 선택 합니다. 마법사는 원하는 작업을 선택 하 여 전송 하는 프로세스를 안내 합니다.
 
 ![레코드를 검사 하기 위한 패널이 있는 선택한 레코드의 이미지](../../media/mtp-ah/ah-take-actions.png)
 
 ## <a name="review-actions-taken"></a>수행한 작업 검토
-각 작업은 action **center** [action center](mtp-action-center.md)  >  **History** ([security.microsoft.com/action-center/history](https://security.microsoft.com/action-center/history))의 작업 센터에 개별적으로 기록 됩니다. 작업 센터로 이동 하 여 각 작업의 상태를 확인 합니다.
+각 작업은 action **center** [action center](mtp-action-center.md)  >  **History** ( [security.microsoft.com/action-center/history](https://security.microsoft.com/action-center/history))의 작업 센터에 개별적으로 기록 됩니다. 작업 센터로 이동 하 여 각 작업의 상태를 확인 합니다.
  
 ## <a name="related-topics"></a>관련 항목
 - [고급 헌팅 개요](advanced-hunting-overview.md)

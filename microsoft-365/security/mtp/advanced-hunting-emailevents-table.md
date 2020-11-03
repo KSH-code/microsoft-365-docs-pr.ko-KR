@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 63f12aaa84415b354fd257558612dbbe28e41360
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 86cc32cf395f2216eb3e167e372d1225734c4c28
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429458"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842635"
 ---
 # <a name="emailevents"></a>EmailEvents
 
@@ -32,11 +32,11 @@ ms.locfileid: "48429458"
 
 
 **적용 대상:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 
 
-[고급 헌팅](advanced-hunting-overview.md) 스키마의 `EmailEvents` 표에는 Office 365 ATP에서 전자 메일의 처리를 수반하는데 이벤트에 대한 정보가 포함되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+`EmailEvents` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 Office 365 용 Microsoft Defender의 전자 메일 처리와 관련 된 이벤트에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 >[!TIP]
 > 테이블에서 지 원하는 이벤트 유형 (값)에 대 한 자세한 내용은 `ActionType` 보안 센터에서 사용할 수 있는 [기본 제공 스키마 참조](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 를 사용 하십시오.
@@ -62,9 +62,9 @@ ms.locfileid: "48429458"
 | `DeliveryAction` | 문자열 | 전자 메일 전송 작업: 전달됨, 정크 메일함으로 전송됨, 차단됨 또는 대체됨 |
 | `DeliveryLocation` | 문자열 | 전자 메일이 전송된 위치: 받은 편지함/폴더, 온-프레미스/외부, 정크, 격리, 실패, 중단, 삭제된 항목 |
 | `PhishFilterVerdict` | 문자열 | 전자 메일이 피싱인지 여부에 대한 전자 메일 필터링 스택의 결과. 피싱 혹은 피싱 아님. |
-| `PhishDetectionMethod` | 문자열 | 전자 메일을 피싱으로 감지하는 데 사용되는 방법: 악의적인 URL의 평판, ATP 안전 링크 URL표시, 고급 피싱 필터, 일반 피싱 필터, 스푸핑 방지: 조직 내, 스푸핑 방지: 외부 도메인, 도메인 가장, 사용자 가장, 브랜드 가장 |
+| `PhishDetectionMethod` | 문자열 | 전자 메일을 검색 하는 데 사용 되는 방법: 악성 URL 신뢰도, 안전한 링크 URL 샌드 박싱, 고급 피싱 필터, 일반 피싱 필터, 스푸핑 방지: 조직 내, 피싱: 외부 도메인, 도메인 가장, 사용자 가장, 브랜드 가장 |
 | `MalwareFilterVerdict` | 문자열 | 전자 메일이 맬웨어를 포함하는지 여부에 대한 전자 메일 필터링 스택의 결과. 멜웨어, 멜웨어 아님 |
-| `MalwareDetectionMethod` | 문자열 | 전자 메일에서 맬웨어를 검색하는 데 사용하는 방법: 멜웨어 방지 엔지, 파일 평판, ATP 안전 첨부 파일 |
+| `MalwareDetectionMethod` | 문자열 | 전자 메일에서 맬웨어를 감지 하는 데 사용 되는 방법: 맬웨어 방지 엔진, 파일 신뢰도, 안전한 첨부 파일 |
 | `FinalEmailAction` | 문자열 | 필터 판정, 정책 및 사용자 작업에 기반하여 전자 메일에 대해 수행된 마지막 작업: 메시지를 정크 메일 폴더로 이동, X 머리글을 추가, 제목을 수정, 메시지를 리디렉션, 메시지를 삭제, 검역소로 전송, 작업 없음, Bcc 메시지 |
 | `FinalEmailActionPolicy` | 문자열 | 적용된 작업 정책: 스팸 방지 높은 신뢰감, 스팸 방지, 스팸 방지 대량 메일, 스팸 방지 피싱, 피싱 방지 도메인 가장, 피싱 방지 사용자 가장, 피싱 방지 스푸핑, 피싱 방지 그래프 가장, 멜웨어 방지, 안전 첨부 파일, 엔터프라이즈 전송 규칙(ETR) |
 | `FinalEmailActionPolicyGuid` | 문자열 | 마지막 메일 작업을 결정한 정책의 고유 식별자 |

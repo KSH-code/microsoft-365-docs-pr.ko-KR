@@ -14,12 +14,12 @@ ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 ms.custom:
 - seo-marvel-apr2020
 description: EOP (Exchange Online Protection)를 사용 하 여 독립 실행형 및 하이브리드 환경에서 온-프레미스 전자 메일 조직을 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: f99954ec280eeb8c84e6183cea9ad0b9fee63507
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: a8b30a475e6865916c74f08c4d927662f658a096
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202906"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842407"
 ---
 # <a name="exchange-online-protection-overview"></a>Exchange Online Protection 개요
 
@@ -28,9 +28,9 @@ ms.locfileid: "48202906"
 
 EOP (Exchange Online Protection)는 스팸 및 맬웨어로부터 조직을 보호 하는 클라우드 기반 필터링 서비스입니다. EOP는 Exchange Online 사서함이 있는 모든 Microsoft 365 조직에 포함 되어 있습니다. 그러나 EOP는 다음과 같은 온-프레미스 시나리오 에서도 사용할 수 있습니다.
 
-- **독립 실행형 시나리오에서**EOP는 온-프레미스 Exchange 조직 또는 기타 모든 온-프레미스 SMTP 전자 메일 솔루션에 대해 클라우드 기반 전자 메일 보호 기능을 제공 합니다.
+- **독립 실행형 시나리오에서** EOP는 온-프레미스 Exchange 조직 또는 기타 모든 온-프레미스 SMTP 전자 메일 솔루션에 대해 클라우드 기반 전자 메일 보호 기능을 제공 합니다.
 
-- **하이브리드 배포에서**: 온-프레미스 및 클라우드 사서함을 함께 사용 하는 경우 전자 메일 환경을 보호 하 고 메일 라우팅을 제어 하도록 EOP를 구성할 수 있습니다.
+- **하이브리드 배포에서** : 온-프레미스 및 클라우드 사서함을 함께 사용 하는 경우 전자 메일 환경을 보호 하 고 메일 라우팅을 제어 하도록 EOP를 구성할 수 있습니다.
 
 이러한 시나리오에서 EOP는 전자 메일 환경 관리를 단순화 하 고 온-프레미스 하드웨어 및 소프트웨어 유지 관리와 함께 제공 되는 많은 부담을 완화할 수 있습니다.
 
@@ -58,11 +58,11 @@ EOP가 받는 전자 메일을 처리하는 방법을 확인하면 EOP의 작동
 
 사용 가능한 EOP 구독 계획은 다음과 같습니다.
 
-- **EOP 독립 실행형**: EOP에 등록 하 여 온-프레미스 전자 메일 조직을 보호 합니다.
+- **EOP 독립 실행형** : EOP에 등록 하 여 온-프레미스 전자 메일 조직을 보호 합니다.
 
-- **Exchange online의 EOP 기능**: exchange online (독립 실행형 또는 Microsoft 365의 일부로)이 포함 된 모든 구독은 EOP을 사용 하 여 exchange online 사서함을 보호 합니다.
+- **Exchange online의 EOP 기능** : exchange online (독립 실행형 또는 Microsoft 365의 일부로)이 포함 된 모든 구독은 EOP을 사용 하 여 exchange online 사서함을 보호 합니다.
 
-- **Exchange ENTERPRISE cal With services**: 서비스 라이선스로 추가 EXCHANGE Enterprise cal을 구매한 온-프레미스 Exchange 조직이 있는 경우 EOP는 포함 된 서비스의 일부입니다.
+- **Exchange ENTERPRISE cal With services** : 서비스 라이선스로 추가 EXCHANGE Enterprise cal을 구매한 온-프레미스 Exchange 조직이 있는 경우 EOP는 포함 된 서비스의 일부입니다.
 
 모든 EOP 구독 계획에서 요구 사항, 중요 제한 및 기능 가용성에 대 한 자세한 내용은 [Exchange Online Protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)참조 하세요.
 
@@ -80,7 +80,7 @@ EOP는 특정 지역 내에서만 데이터 센터 간 부하 분산을 수행�
 
 - EMEA(유럽, 중동 및 아프리카)에서는 모든 Exchange Online 사서함이 EMEA 데이터 센터에 있으며 모든 메시지가 EOP 필터링용으로 EMEA 데이터 센터를 통해 라우팅됩니다.
 
-- APAC (아시아 태평양)에서는 모든 Exchange Online 사서함이 APAC 데이터 센터에 있고 메시지는 현재 EOP 필터링을 위해 APAC 데이터 센터를 통해 라우팅됩니다.
+- APAC (Asia-Pacific)에서는 모든 Exchange Online 사서함이 APAC 데이터 센터에 있으며 현재 메시지가 EOP 필터링을 위해 APAC 데이터 센터를 통해 라우팅됩니다.
 
 - 미주에서 서비스는 다음 위치에 배포 됩니다.
 
@@ -96,7 +96,7 @@ EOP는 특정 지역 내에서만 데이터 센터 간 부하 분산을 수행�
 
 EOP 관리자의 도움말 내용은 다음과 같은 최상위 범주로 구성되어 있습니다.
 
-- Office 365 Advanced Threat Protection의 핵심에 EOP 보호 및 검색 도구를 구성 하려면 [EOP, 1 일 365,](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide)#을 구성 합니다.
+- Microsoft defender for Office 365 관리자: Office 365 용 Microsoft Defender의 핵심에 EOP 보호 및 검색 도구를 구성 하 여 [EOP을 구성](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide)합니다.
 
 - [EOP 기능](eop-features.md): EOP에서 사용할 수 있는 기능 목록을 제공 합니다.
 

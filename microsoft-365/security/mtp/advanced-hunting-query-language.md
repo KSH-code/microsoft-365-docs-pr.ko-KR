@@ -1,5 +1,5 @@
 ---
-title: Microsoft Threat Protection에서 고급 헌팅 쿼리 언어 알아보기
+title: Microsoft 365 Defender에서 고급 구하기 쿼리 언어 알아보기
 description: 첫 번째 위협 헌팅 쿼리를 만들고 고급 헌팅 쿼리 언어의 일반적인 연산자와 기타 요소에 대한 정보를 알아봅니다.
 keywords: 고급 구하기, 위협 검색, 사이버 threat 사냥, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 언어, 학습, 첫 번째 쿼리, 원격 분석, 이벤트, 원격, 사용자 지정 감지, 스키마, kusto, operators, 데이터 형식, powershell 다운로드, 쿼리 예제
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 09f0a5437c3ae3b54fa086d93e475e4881c2d4bf
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: bb3caff642e752cb6d3941b697820fbad69ae23c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48431054"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841979"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>고급 헌팅 쿼리 언어 알아보기
 
@@ -32,7 +32,7 @@ ms.locfileid: "48431054"
 
 
 **적용 대상:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 고급 헌팅은 [Kusto 쿼리 언어](https://docs.microsoft.com/azure/kusto/query/)를 기반으로 합니다. Kusto 연산자와 문을 사용 하 여 특수화 된 [스키마](advanced-hunting-schema-tables.md)에서 정보를 찾는 쿼리를 생성할 수 있습니다. 이러한 개념을 보다 잘 이해하려면 첫 번째 쿼리를 실행합니다.
 
@@ -155,15 +155,15 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 
 ## <a name="get-help-as-you-write-queries"></a>쿼리 작성시 도움말 보기
 다음 기능을 활용하여 쿼리를 더 빠르게 작성하세요.
-- **Autosuggest**-쿼리를 작성할 때 고급 사냥은 IntelliSense의 추천 단어를 제공 합니다. 
-- **스키마 트리**-테이블 및 해당 열 목록이 포함 된 스키마 표현이 작업 영역 옆에 제공 됩니다. 자세한 내용을 보려면 항목 위로 마우스를 가져갑니다. 항목을 두 번 클릭하여 쿼리 편집기에 삽입합니다.
-- **[스키마 참조](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)**-테이블 및 열 설명과 관련 된 포털 내 참조 및 지원 되는 이벤트 유형 ( `ActionType` 값) 및 예제 쿼리
+- **Autosuggest** -쿼리를 작성할 때 고급 사냥은 IntelliSense의 추천 단어를 제공 합니다. 
+- **스키마 트리** -테이블 및 해당 열 목록이 포함 된 스키마 표현이 작업 영역 옆에 제공 됩니다. 자세한 내용을 보려면 항목 위로 마우스를 가져갑니다. 항목을 두 번 클릭하여 쿼리 편집기에 삽입합니다.
+- **[스키마 참조](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** -테이블 및 열 설명과 관련 된 포털 내 참조 및 지원 되는 이벤트 유형 ( `ActionType` 값) 및 예제 쿼리
 
 ## <a name="work-with-multiple-queries-in-the-editor"></a>편집기에서 여러 쿼리 작업
 쿼리 편집기를 사용 하 여 여러 쿼리를 테스트해 볼 수 있습니다. 여러 쿼리를 사용 하려면 다음을 수행 합니다.
 
 - 각 쿼리를 빈 줄로 구분 합니다.
-- 쿼리를 실행 하기 전에 쿼리 부분에 커서를 놓고 선택 합니다. 이렇게 하면 선택한 쿼리만 실행 됩니다. 다른 쿼리를 실행 하려면 그에 따라 커서를 이동 하 고 **쿼리 실행**을 선택 합니다.
+- 쿼리를 실행 하기 전에 쿼리 부분에 커서를 놓고 선택 합니다. 이렇게 하면 선택한 쿼리만 실행 됩니다. 다른 쿼리를 실행 하려면 그에 따라 커서를 이동 하 고 **쿼리 실행** 을 선택 합니다.
 
 ![쿼리가 여러 개 있는 쿼리 편집기 이미지](../../media/mtp-ah/ah-multi-query.png)
 

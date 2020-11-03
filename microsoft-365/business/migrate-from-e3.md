@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Office 365 E3에서 Microsoft 365 Business Premium로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: f3f3894a2a5cb69f9f91825d89db4f4b857fac5c
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: b8aa58f1f050ec6247479ed02e142507a2df45fc
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295293"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842163"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Office 365 E3에서 Microsoft 365 Business Premium으로 마이그레이션 
 
@@ -51,7 +51,7 @@ Microsoft 365 Business Premium에는 최고급 비즈니스에 필요한 모든 
 | StaffHub    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Office 365 E3에 포함](../media/check-mark.png) | 
 | Outlook 고객 관리자, MileIQ    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | | 
 | **위협 방지**        | | | 
-| Office 365 ATP (Advanced Threat Protection) 계획 1 | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | 포함 되지 않지만 추가할 수 있음 | 
+| Defender for Office 365 계획 1 | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | 포함 되지 않지만 추가할 수 있음 | 
 | **Id 관리**        | | | 
 | 하이브리드 Azure Active Directory에 대 한 셀프 서비스 암호 재설정 (Azure AD) 계정, Azure MFA (다단계 인증), 조건부 액세스, 온-프레미스 id에 대 한 암호 쓰기 저장|     ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    |  | 
 | **장치 및 앱 관리**        | | |
@@ -80,7 +80,7 @@ Microsoft 365 Business Premium에는 최고급 비즈니스에 필요한 모든 
 - 팀, Exchange Online 사서함, SharePoint Online 사이트, 비즈니스용 OneDrive 폴더, OneNote 전자 필기장 등의 생산성 서비스 구성 및 데이터
 - Office 응용 프로그램은 자동으로 확장 됩니다. Office 365 최신 라이선스는 매 72 시간 마다 사용자의 라이선스 할당을 확인 하 고 Office 응용 프로그램을 사용자 구독과 일치 하는 버전으로 변환 합니다.
 
-### <a name="windows-10"></a>Windows 10
+### <a name="windows-10"></a>Windows 10
 
 Windows Pro Creator update가 아직 없는 경우 windows [Pro 크리에이터 업데이트로 업그레이드](upgrade-to-windows-pro-creators-update.md)합니다.
 
@@ -95,9 +95,9 @@ Microsoft 365 Business Premium에 라이선스를 할당 한 후에는 사용자
 
 장치 페이지에서 다음 단계를 완료할 수도 있습니다.
   
-1. 관리 센터의 왼쪽 탐색 창에서 **장치** \> **정책**으로 이동 합니다.
+1. 관리 센터의 왼쪽 탐색 창에서 **장치** \> **정책** 으로 이동 합니다.
     
-2. **장치 정책** 페이지에서 **추가**를 선택 합니다.
+2. **장치 정책** 페이지에서 **추가** 를 선택 합니다.
     
 3. 정책 **추가** 창에서 정책에 이름을 지정 하 고 드롭다운에서 **정책 유형을** 선택 합니다. 
     
@@ -122,7 +122,7 @@ Microsoft 365 Business Premium은 Exchange Online 계획 1을 사용 하므로 5
 
 ### <a name="threat-protection"></a>위협 방지
 
-Microsoft 365 Business Premium으로 마이그레이션한 후 Office 365 ATP가 있습니다. 개요는 [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) 를 참조 하세요. 설정 하려면 [atp 안전한 링크 설정](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa), [atp 안전한 첨부 파일 설정](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)및 [atp 피싱 방지 설정을](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)참조 하세요.
+Microsoft 365 Business Premium으로 마이그레이션한 후에는 Defender for Office 365이 있습니다. 개요는 [Microsoft Defender For Office 365를](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) 참조 하세요. 설정 하려면 [안전한 링크 설정](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa), [안전한 첨부 파일 설정](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)및 [Office 용 Defender 365에서 피싱 방지 설정을](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)참조 하세요.
 
 ### <a name="sensitivity-labels"></a>민감도 레이블
 

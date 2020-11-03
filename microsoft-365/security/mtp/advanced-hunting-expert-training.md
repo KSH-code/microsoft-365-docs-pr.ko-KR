@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 4e63badee2ca031bdd3ea7682396353d1658981b
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: c2772d0fc77e563bc80b0f29815349d1bfb3e2ea
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430412"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842515"
 ---
 # <a name="get-expert-training-on-advanced-hunting"></a>고급 구하기에 대 한 전문 교육 받기
 
@@ -32,14 +32,14 @@ ms.locfileid: "48430412"
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 새 보안 분석가 및 seasoned threat hunters에 대 한 웹캐스트 시리즈를 추적 하 여 고급 구하기에 대 한 지식을 신속 하 게 개선 _합니다_. 계열에서는 사용자가 복잡 한 쿼리를 직접 만드는 모든 방법의 기본 개념을 안내 합니다. 기본 비디오로 시작 하거나 환경 수준에 적합 한 고급 비디오로 이동 합니다.
 
 
 | 제목 | 설명 | 조사식 | 쿼리하도록 | 
 |--|--|--|--|
-| 에피소드 1: KQL 기본 | 이 에피소드에는 Microsoft Threat Protection의 고급 구하기에 대 한 기본 사항이 포함 되어 있습니다. 사용 가능한 고급 구하기 데이터 및 기본 KQL 구문 및 연산자에 대해 알아봅니다. | [YouTube](https://youtu.be/0D9TkGjeJwM?t=351) (54:14) | [CSL 파일](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl) |
+| 에피소드 1: KQL 기본 | 이 에피소드에는 Microsoft 365 Defender의 고급 구하기에 대 한 기본 사항이 포함 되어 있습니다. 사용 가능한 고급 구하기 데이터 및 기본 KQL 구문 및 연산자에 대해 알아봅니다. | [YouTube](https://youtu.be/0D9TkGjeJwM?t=351) (54:14) | [CSL 파일](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl) |
 | 에피소드 2: 조인 | 고급 구하기의 데이터에 대해 배우고 테이블을 함께 조인 하는 방법을 계속 설명 합니다. `inner` `outer` `unique` `semi` 기본 kusto의 nuances에 대해 알아보고,, 및 참가를 이해 `innerunique` 합니다. | [YouTube](https://youtu.be/LMrO6K5TWOU?t=297) (53:33) | [CSL 파일](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.csl) |
 | 에피소드 3: 데이터 요약, 피벗 및 시각화 | 데이터를 필터링, 조작 및 조인 하는 방법을 배웠으므로 이제 요약, 수량화, 피벗 및 시각화를 확인 해야 합니다. 이 에피소드에서는 `summarize` 연산자 및 다양 한 계산에 대해 설명 하 고 스키마에 추가 테이블을 소개 합니다. 또한 데이터 집합을 정보를 추출 하는 데 도움이 되는 차트로 변환 하는 방법에 대해서도 알아봅니다. | [YouTube](https://youtu.be/UKnk9U1NH6Y?t=296) (48:52) | [CSL 파일](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%203%20-%20Summarizing%2C%20Pivoting%2C%20and%20Joining.csl) |
 | 에피소드 4: 이번에는 사냥을 사용 합니다. 인시던트 추적에 KQL 적용 | 이 에피소드에서는 일부 공격자 활동을 추적 하는 방법을 알아봅니다. 여기서는 Kusto 및 고급 사냥에 대 한 향상 된 이해를 통해 공격을 추적 합니다. Cybersecurity의 ABCs와이를 인시던트 응답에 적용 하는 방법을 비롯 하 여 필드에 사용 되는 실제 트릭에 대해 알아봅니다. | [YouTube](https://youtu.be/2EUxOc_LNd8?t=291) (59:36) | [CSL 파일](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.csl)
@@ -51,7 +51,7 @@ CSL 파일에서 발췌 한 다음은 설명과 함께 표시 되는 포괄적�
 
 ```kusto
 // DeviceLogonEvents
-// A table containing a row for each logon a device enrolled in Defender ATP
+// A table containing a row for each logon a device enrolled in Microsoft Defender for Endpoint
 // Contains
 // - Account information associated with the logon
 // - The device which the account logged onto
@@ -60,14 +60,14 @@ CSL 파일에서 발췌 한 다음은 설명과 함께 표시 되는 포괄적�
 // - Timestamp
 ```
 
-동일한 CSL 파일에는 아래에 표시 된 것 처럼 설명의 전후에 쿼리가 포함 됩니다. [편집기에서 쿼리를 여러 개](advanced-hunting-query-language.md#work-with-multiple-queries-in-the-editor)사용 하 여 특정 쿼리를 실행 하려면 해당 쿼리로 커서를 이동 하 고 **쿼리 실행**을 선택 합니다.   
+동일한 CSL 파일에는 아래에 표시 된 것 처럼 설명의 전후에 쿼리가 포함 됩니다. [편집기에서 쿼리를 여러 개](advanced-hunting-query-language.md#work-with-multiple-queries-in-the-editor)사용 하 여 특정 쿼리를 실행 하려면 해당 쿼리로 커서를 이동 하 고 **쿼리 실행** 을 선택 합니다.   
 
 ```kusto
 DeviceLogonEvents
 | count
 
 // DeviceLogonEvents
-// A table containing a row for each logon a device enrolled in Defender ATP
+// A table containing a row for each logon a device enrolled in Microsoft Defender for Endpoint
 // Contains
 // - Account information associated with the logon
 // - The device which the account logged onto

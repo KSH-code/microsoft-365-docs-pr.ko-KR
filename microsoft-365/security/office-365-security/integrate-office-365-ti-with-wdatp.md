@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
-description: Office 365 용 Microsoft Defender for Microsoft Defender Advanced Threat Protection과 함께 사용 하 여 장치 및 전자 메일 콘텐츠에 대 한 위협에 대 한 자세한 정보를 확인할 수 있습니다.
+description: Microsoft defender for Office 365와 Microsoft Defender for Endpoint를 함께 사용 하 여 장치 및 전자 메일 콘텐츠에 대 한 위협에 대 한 자세한 정보를 확인 하세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2c95e15c3cf16547843f9d2976dbf9df0d5747c0
-ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
+ms.openlocfilehash: 6b8bec8d3ebe52de9b4e1b919b2aceee20b5b5b0
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48309240"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842359"
 ---
-# <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-advanced-threat-protection"></a>Microsoft defender Advanced Threat Protection과 함께 Microsoft Defender for Office 365 사용
+# <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>Microsoft defender for Office 365 with Endpoint for for 끝점 사용
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -41,7 +41,7 @@ Microsoft defender for Office 365을 끝점에 통합 하면 사용자의 장치
 이 예에서는 검색 된 전자 메일 메시지의 받는 사람에 게 4 개의 장치가 있고 하나에 경고가 있음을 확인할 수 있습니다. 장치에 대 한 링크를 클릭 하면 Microsoft Defender 보안 센터 ()에서 해당 페이지가 열립니다 [https://securitycenter.windows.com](https://securitycenter.windows.com) .
 
 > [!TIP]
-> **[Microsoft Defender Security Center](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use)** (MICROSOFT defender ATP 포털이 라고도 함)에 대해 자세히 알아보세요.
+> **[Microsoft Defender 보안 센터](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use)** (끝점 포털 용 microsoft defender 라고도 함)에 대해 자세히 알아보세요.
   
 ## <a name="requirements"></a>요구 사항
 
@@ -57,17 +57,17 @@ Microsoft defender for Office 365을 끝점에 통합 하면 사용자의 장치
   
 1. 전역 관리자 또는 보안 관리자로 이동 하 여 [https://protection.office.com](https://protection.office.com) 로그인 합니다. (이 경우 Office 365 보안 & 준수 센터가로 이동 합니다.)
     
-2. 탐색 창에서 **위협 관리**  >  **탐색기**를 선택 합니다.<br>![위협 관리 메뉴의 탐색기](../../media/ThreatMgmt-Explorer-nav.png)<br>
+2. 탐색 창에서 **위협 관리**  >  **탐색기** 를 선택 합니다.<br>![위협 관리 메뉴의 탐색기](../../media/ThreatMgmt-Explorer-nav.png)<br>
     
-3. 화면의 오른쪽 위 모서리에서 **Wdatp 설정을**선택 합니다.
+3. 화면의 오른쪽 위 모서리에서 **끝점 설정에 대해 Defender** 를 선택 합니다.
     
-4. Microsoft Defender for 끝점 연결 대화 상자에서 **WINDOWS ATP에 연결**을 설정 합니다.<br>![끝점 연결용 Microsoft Defender](../../media/Explorer-WDATPConnection-dialog.png)<br>
+4. Microsoft Defender for 끝점 연결 대화 상자에서 **끝점에 대 한 Microsoft defender에 연결** 을 설정 합니다.<br>![끝점 연결용 Microsoft Defender](../../media/Explorer-WDATPConnection-dialog.png)<br>
     
 5. Microsoft Defender 보안 센터 ()로 이동 [https://securitycenter.windows.com](https://securitycenter.windows.com) 합니다.
 
-6. 탐색 모음에서 **설정을**선택 합니다. 그런 다음 **일반**에서 **고급 기능**을 선택 합니다.
+6. 탐색 모음에서 **설정을** 선택 합니다. 그런 다음 **일반** 에서 **고급 기능** 을 선택 합니다.
 
-7. 아래로 스크롤하여 **Office 365 위협 인텔리전스 연결**을 설정 하 고 연결을 켭니다.<br/>![Office 365 위협 인텔리전스 연결](../../media/mdatp-oatptoggle.png)<br>
+7. 아래로 스크롤하여 **Office 365 위협 인텔리전스 연결** 을 설정 하 고 연결을 켭니다.<br/>![Office 365 위협 인텔리전스 연결](../../media/mdatp-oatptoggle.png)<br>
 
 ## <a name="related-articles"></a>관련 문서
 
@@ -75,4 +75,4 @@ Microsoft defender for Office 365을 끝점에 통합 하면 사용자의 장치
   
 [Microsoft Defender for Office 365](office-365-atp.md)
   
-[끝점에 대 한 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection)
+[엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection)

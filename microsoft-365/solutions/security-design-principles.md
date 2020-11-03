@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 563972c458e77d96cf075f048dcee027bf29bc95
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 9a1a0204f1c79ad1eab7d62adf45022d1d5bc035
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399400"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842801"
 ---
 # <a name="security-hurdles-you-can-sail-over--one-architects-viewpoint"></a>Sail 수 있는 보안 기능-한 설계자의 관점
 
@@ -55,7 +55,7 @@ ms.locfileid: "48399400"
 
 대부분의 보안 팀은 "네트워크 경계 보안" 유지 관리를 비롯 하 여 온-프레미스 세계 전체에 구축 된 전통적인 보안 모범 사례를 계속 사용 하 고 있으며, 프레미스 보안 도구 및 컨트롤을 클라우드 솔루션에 "강제" 할 수 있습니다. 이러한 컨트롤은 클라우드에 대해 디자인 되지 않았으므로, 기능이 비효율적 이며 최신 클라우드 기능의 채택이 저하 됩니다. 네트워크 경계 보안 접근 방식에 작동 하는 프로세스 및 도구는 비효율적으로 입증 되었으며, 클라우드 기능을 obstructive 하 고, 최신 및 자동화 된 보안 기능을 활용할 수 없습니다.
 
-클라우드 관리 보호, 자동 조사 및 재구성, 자동화 된 펜-테스팅, advanced threat protection, 문제 분석으로 방어 전략을 이동 하 여이 hurdle를 sail 수 있습니다. 최신 장치 관리 솔루션을 사용 하는 고객은 모든 장치에 대 한 자동화 된 관리, 표준화 된 패치, 바이러스 백신, 정책 적용 및 응용 프로그램 보호를 구현 했으며, smartphone, 개인용 컴퓨터, 랩탑 또는 태블릿이 든 관계 없습니다. 이를 통해 VPN, Microsoft SCCM (System Center Configuration Manager) 및 Active Directory 그룹 정책에 대 한 요구가 없어집니다. 이를 통해 조건부 액세스 정책과 결합 되어 강력 하 게 제어 및 가시성을 제공 하 고 사용자가 작업 하는 위치에 관계 없이 리소스에 간편 하 게 액세스할 수 있습니다.
+클라우드 관리 보호, 자동화 된 조사 및 재구성, 자동화 된 펜-테스팅, sail for Office 365 및 문제 분석으로 방어 전략을 이동 하 여이 hurdle를 사용할 수 있습니다. 최신 장치 관리 솔루션을 사용 하는 고객은 모든 장치에 대 한 자동화 된 관리, 표준화 된 패치, 바이러스 백신, 정책 적용 및 응용 프로그램 보호를 구현 했으며, smartphone, 개인용 컴퓨터, 랩탑 또는 태블릿이 든 관계 없습니다. 이를 통해 VPN, Microsoft SCCM (System Center Configuration Manager) 및 Active Directory 그룹 정책에 대 한 요구가 없어집니다. 이를 통해 조건부 액세스 정책과 결합 되어 강력 하 게 제어 및 가시성을 제공 하 고 사용자가 작업 하는 위치에 관계 없이 리소스에 간편 하 게 액세스할 수 있습니다.
 
 ## <a name="strive-for-best-together-security-tools"></a>' 최상의 ' 보안 도구에 대 한 노력
 
@@ -79,7 +79,7 @@ ms.locfileid: "48399400"
 
 |리소스   |추가 정보  |
 |---------|---------|
-|[재택 근무를 지원하는 보안 팀의 주요 작업](../security/top-security-tasks-for-remote-work.md)      | 거의 모든 작업 시간을 지 원하는 경우이 문서를 통해 보안을 빠르게 높일 수 있습니다. 여기에는 라이선스 계획을 기준으로 하는 상위 권장 작업이 포함 되어 있습니다.    |
+|[보안팀의 재택 근무 지원용 최상위 작업](../security/top-security-tasks-for-remote-work.md)      | 거의 모든 작업 시간을 지 원하는 경우이 문서를 통해 보안을 빠르게 높일 수 있습니다. 여기에는 라이선스 계획을 기준으로 하는 상위 권장 작업이 포함 되어 있습니다.    |
 |[비즈니스 의사 결정권자를 위한 Microsoft 365 보안](../security/Microsoft-365-security-for-bdm.md)    | 보다 포괄적인 계획을 수립할 시간이 있으면이 문서에는 Microsoft 365에 나와 있는 권장 사항과 함께 공격 허점의 우선 순위가 포함 되어 있습니다. 또한 라이선스 및 영역 (예: id, 위협 보호, 모니터링)을 정렬 하는 데 사용할 수 있는 스프레드시트도 함께 제공 됩니다.  |
 |[Microsoft 보안 아키텍처 권장 사항](https://docs.microsoft.com/security/compass/compass)    | 보안 설계자는 id, 네트워킹 및 보안 작업을 포함 하 여 부문별 구성 권장 사항을 확인 해야 합니다.   |
 |[Microsoft 보안 작업 권장 사항](https://docs.microsoft.com/security/compass/security-operations-videos-and-decks)|SOC (보안 작업 센터) 설정 및 실행에 대 한 Microsoft 권장 사항에 대해 알아보세요. |

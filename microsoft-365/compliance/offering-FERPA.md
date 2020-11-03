@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 89f7e0ca95144e783b70e23c21008dcc46328522
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 668a92bf57e61d68d07a2d40e4405cc7bd111580
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208460"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843120"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>가족 교육 기관 권한 및 FERPA (개인 정보 취급 방침)
 
@@ -51,13 +51,13 @@ FERPA는 감사 또는 기타 인증을 요구 하거나 인식 하지 않으므
 - [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Power BI, PowerApps 및 Power 자동화 (이전의 Microsoft Flow)를 독립 실행형 서비스로 또는 Office 365 브랜드 요금제 또는 suite에 포함
 - Azure DevOps Services
-- Windows Defender ATP
+- 엔드포인트용 Microsoft Defender 
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 
 FERPA는 감사 또는 인증을 요구 하거나 인식 하지 않습니다.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **FERPA 중요 한 이유는 무엇 인가요?**
 
@@ -68,9 +68,9 @@ FERPA는 감사 또는 인증을 요구 하거나 인식 하지 않습니다.
 - [연방 레지스터: FERPA Final Rule](https://aka.ms/ferpa-reg) (12 월 2011)
 - [부모에 대 한 FERPA 일반 지침](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/parents.html)
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용 하 여 위험 평가
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용하여 위험 평가
 
-[Microsoft 준수 관리자](compliance-manager.md) 는 조직의 규정 준수 상태를 이해 하 고 위험을 줄이는 데 도움이 되는 작업을 수행 하는 데 도움이 되는 [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 기능입니다. 준수 관리자는이 규정에 대 한 평가를 빌드하기 위한 프리미엄 템플릿을 제공 합니다. 준수 관리자의 **평가 템플릿** 페이지에서 템플릿을 찾습니다. [준수 관리자에서 평가를 작성](compliance-manager-assessments.md)하는 방법을 알아봅니다.
+[Microsoft 준수 관리자](compliance-manager.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)의 기능입니다. 준수 관리자는 이 규제에 대한 평가를 빌드하기 위한 프리미엄 서식 파일을 제공합니다. 준수 관리자의 **평가 서식 파일** 페이지에서 서식 파일을 찾습니다. [준수 관리자의 평가 빌드](compliance-manager-assessments.md) 방법에 대해 알아봅니다.
 
 ## <a name="resources"></a>리소스
 

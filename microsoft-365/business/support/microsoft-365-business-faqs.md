@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 Business Premium 자주 묻는 질문 
-description: 중소기업을 위한 새로운 솔루션인 Microsoft 365 Business에 대해 자주 묻는 질문에 대합 답을 알아봅니다. 
+title: Microsoft 365 Business Premium 자주 묻는 질문
+description: 중소기업을 위한 새로운 솔루션인 Microsoft 365 Business에 대해 자주 묻는 질문에 대합 답을 알아봅니다.
 author: Sirkkuw
 f1.keywords:
 - NOCSH
@@ -10,15 +10,15 @@ ms.prod: microsoft-365-business
 ms.collection: M365-subscription-management
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-audience: microsoft-business 
+audience: microsoft-business
 keywords: Microsoft 365 Business Premium, Microsoft 365, SMB, FAQ, 질문과 대답, 답변, 비즈니스
 ms.date: 07/21/2020
-ms.openlocfilehash: a8547240a2733a10730d0f8fb62fe8e8c7ef971c
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: b117f0aecb76dc3b30a30e067c37328865eb0fdf
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948571"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842113"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Microsoft 365 Business Premium 자주 묻는 질문
 
@@ -27,15 +27,15 @@ ms.locfileid: "47948571"
 ### <a name="what-is-microsoft-365-business-premium"></a>Microsoft 365 Business Premium이란 무엇인가요?
 Microsoft 365는 중소기업을 위해 동급 최고의 생산성 도구, 보안 및 장치 관리 기능을 결합한 통합 솔루션입니다. 이 목록에는 다음과 같은 내용이 포함됩니다.
 
-**비즈니스 생산성 및 공동 작업 도구 집합**:
+**비즈니스 생산성 및 공동 작업 도구 집합** :
 
 - Word, Excel, PowerPoint, Outlook, OneNote, Publisher 및 Access
 - Exchange, OneDrive, 비즈니스용 Skype, Microsoft Teams 및 SharePoint
 - Office의 Business 앱(Bookings, MileIQ<sup>[1](#footnote1)</sup>).
 
-**엔터프라이즈 등급 장치 관리 및 보안 기능**:
+**엔터프라이즈 등급 장치 관리 및 보안 기능** :
 
-- Office 365 Advanced Threat Protection 계획 1 및 Microsoft Defender Exploit Guard와 같은 피싱 및 정교한 멀웨어와 같은 외부 위협 으로부터 보호를 제공 합니다.
+- Microsoft Defender for Office 365 계획 1 및 Microsoft Defender Exploit Guard와 같은 피싱 및 정교한 멀웨어와 같은 외부 위협 으로부터 보호 기능을 제공 합니다.
 - 데이터 손실 방지 정책과 Azure Information Protection 플랜 1을 사용하여 중요한 정보에 액세스하고 해당 정보를 전송하는 방법을 제어하고 관리하는 데 도움이 됩니다.
 - Exchange Online Archiving을 사용하여 데이터를 보호하고, 유지하며 백업하는 데 도움이 됩니다.
 - Intune 앱 보호를 사용하여 Office 및 기타 모바일 앱에 대한 앱 보호
@@ -43,14 +43,14 @@ Microsoft 365는 중소기업을 위해 동급 최고의 생산성 도구, 보�
 - 다단계 인증, 셀프 서비스 암호 재설정, 조건부 액세스를 통한 ID 보호
 - 장치에서 &mdash; 회사 데이터를 보호 하는 장치 간의 일관성 있는 보안 구성 Microsoft Defender 바이러스 백신: 항상 켜져 있고 최신 상태입니다.
 
-**간소화 된 장치 배포 및 사용자 설정**:
+**간소화 된 장치 배포 및 사용자 설정** :
 
 - 사용자와 디바이스를 설정 및 관리하기 위한 단일 관리 콘솔
 - Windows 10 PC에 Office 앱 자동 설치..
 - 항상 최신 상태를 유지하는 Office + Windows 10.
 - Windows AutoPilot을 통해 간소화된 PC 배포.
 
-**기타 권리**:
+**기타 권리** :
 
 - Microsoft 365 Business Premium 고객은 Windows Virtual Desktop 및 Office 공유 컴퓨터 인증 기능에도 액세스할 수 있습니다. 자세한 내용은 [Microsoft 365 Business Premium 블로그](https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog)를 참조하세요. 또한 [Microsoft 365 for business service description](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description)을 참조 하세요.
 
@@ -70,7 +70,7 @@ Microsoft 365 Business Premium은 [Microsoft 파트너](https://www.microsoft.co
 
 ### <a name="how-much-does-microsoft-365-business-premium-cost"></a>Microsoft 365 Business Premium을 사용하는 데 드는 비용은 얼마인가요?
 
-Microsoft 365 Business Premium은 Microsoft에서 직접 구입하는 경우 _연간 계약_에 따라 사용자당 월 미화 20.00달러에 제공됩니다. Microsoft 파트너 통해 구입한 경우 파트너가 제공하는 서비스와 Microsoft 365 Business Premium에 대한 가격 책정 모델에 따라 가격은 다를 수 있습니다.
+Microsoft 365 Business Premium은 Microsoft에서 직접 구입하는 경우 _연간 계약_ 에 따라 사용자당 월 미화 20.00달러에 제공됩니다. Microsoft 파트너 통해 구입한 경우 파트너가 제공하는 서비스와 Microsoft 365 Business Premium에 대한 가격 책정 모델에 따라 가격은 다를 수 있습니다.
 
 ### <a name="is-there-a-cap-to-how-many-microsoft-365-business-premium-seats-a-customer-can-have"></a>고객이 포함할 수 있는 Microsoft 365 Business Premium 사용자 수에 제한이 있습니까?
 
@@ -110,7 +110,7 @@ Windows 7, 8 및 8.1 Professional 라이선스가 있는 디바이스를 사용�
 
 Microsoft 365 Business Premium은 직원이 업무에 자신의 기기를 사용하도록 하지만 해당 기기가 비즈니스 정보에 액세스하거나 이를 보유, 또는 공유하지 못하도록 하는 기능을 제공하는 단순하지만 강력한 수단을 고객에게 제공합니다. 더 구체적으로 말하자면
 
-- **Office 모바일 앱에 대한 앱 보호**는 저장 서비스에 연결되지 않은 지정된 시간 후 자동으로 삭제, 필요한 정보를 비즈니스용 OneDrive에만 저장하도록 요구, Office 앱에 액세스 하려면 PIN/지문 인증 요구, 회사의 데이터가 Office 앱에서 개인 앱으로 복사되는 것을 방지하는 등 정책을 시행하여 앱에서 iOS 및 Android 모바일 장치의 이메일, 일정, 연락처 및 문서 등의 Office 데이터를 보호하는 것을 돕습니다. Intune을 통해 다른 모바일 앱에 대한 모바일 응용 프로그램 관리를 Microsoft 365 Business Premium 구독자도 사용할 수 있습니다.
+- **Office 모바일 앱에 대한 앱 보호** 는 저장 서비스에 연결되지 않은 지정된 시간 후 자동으로 삭제, 필요한 정보를 비즈니스용 OneDrive에만 저장하도록 요구, Office 앱에 액세스 하려면 PIN/지문 인증 요구, 회사의 데이터가 Office 앱에서 개인 앱으로 복사되는 것을 방지하는 등 정책을 시행하여 앱에서 iOS 및 Android 모바일 장치의 이메일, 일정, 연락처 및 문서 등의 Office 데이터를 보호하는 것을 돕습니다. Intune을 통해 다른 모바일 앱에 대한 모바일 응용 프로그램 관리를 Microsoft 365 Business Premium 구독자도 사용할 수 있습니다.
 
 - **Windows 10 pc 용 장치 관리** 에서는 비즈니스에서 맬웨어, 자동 업데이트에 대 한 Microsoft Defender 바이러스 백신 보호와 같은 기능을 설정 및 적용 하 고 정해진 시간 후 화면을 끌 수 있습니다. 또한 Windows 10 디바이스를 분실하거나 도난당한 경우 관리 센터를 통해 비즈니스 응용 프로그램 및 데이터를 완전히 삭제할 수 있습니다.
 
@@ -126,9 +126,9 @@ Windows 10 Business에는 새로운 침입 방지 기능 집합인 Microsoft Def
 
 Microsoft는 중소규모의 고객이 데스크톱 및 디바이스 인프라를 업그레이드할 때 고려할 수 있는 각각 점점 더 강력한 기능을 제공하는 다양한 생산성 및 보안 관리 서비스를 보유하고 있습니다.
 
-**Microsoft 365 Business Standard**에서 Office 365 앱 및 서비스를 통해 동급 최고의 생산성을 제공하지만 Microsoft 365 Business Premium의 응용 프로그램 보호와 디바이스 관리 기능을 포함하지 않습니다.
+**Microsoft 365 Business Standard** 에서 Office 365 앱 및 서비스를 통해 동급 최고의 생산성을 제공하지만 Microsoft 365 Business Premium의 응용 프로그램 보호와 디바이스 관리 기능을 포함하지 않습니다.
 
-**Microsoft 365 Business Premium**은 Office 365 앱과 서비스를 고급 보안 기능과 통합하여 고도의 사이버 공격으로부터 기업을 보호하고 데이터를 안전하게 지키며 디바이스를 관리하도록 도와줍니다. 디바이스 및 데이터 정책을 관리할 수 있는 단순한 관리 콘솔이 포함됩니다. 많은 중소기업에 Microsoft 365 Business Premium을 제공하는 것이 가장 좋습니다.
+**Microsoft 365 Business Premium** 은 Office 365 앱과 서비스를 고급 보안 기능과 통합하여 고도의 사이버 공격으로부터 기업을 보호하고 데이터를 안전하게 지키며 디바이스를 관리하도록 도와줍니다. 디바이스 및 데이터 정책을 관리할 수 있는 단순한 관리 콘솔이 포함됩니다. 많은 중소기업에 Microsoft 365 Business Premium을 제공하는 것이 가장 좋습니다.
 
 **Microsoft 365 Enterprise** Microsoft 365 Business Premium을 통한 향상된 수준의 규정 준수 및 보안 관리를 제공하는 라이선싱 플랜 집합이며 엔터프라이즈 고객과 사용자가 300명을 초과하는 고객을 위해 고안되었습니다. 또한 Microsoft 365 Enterprise 플랜은 비즈니스 인텔리전스 및 분석 도구를 비롯한 추가 기능을 제공합니다.
 
@@ -156,7 +156,7 @@ Microsoft 365 Business Premium의 전체 기능을 경험 하려는 고객은 �
 
 ### <a name="does-microsoft-365-business-premium-include-the-full-capabilities-of-microsoft-intune"></a>Microsoft 365 Business Premium에 Microsoft Intune의 전체 기능이 포함되나요?
 
-예, Microsoft 365 Business Premium 구독자에는 iOS, Android, macOS 및 기타 플랫폼 간 장치 관리에 대해 전체 Intune 기능을 사용할 수 있는 라이선스가 있습니다. Microsoft 365 Business Premium의 간소화 된 관리 콘솔에서 사용할 수 없는 기능은 타사 앱 관리, Wi-fi 프로필 구성 및 VPN 인증서와 같이 전체 Intune 콘솔에서 관리할 수 있습니다.
+예, Microsoft 365 Business Premium 구독자에는 iOS, Android, macOS 및 기타 플랫폼 간 장치 관리에 대해 전체 Intune 기능을 사용할 수 있는 라이선스가 있습니다. Microsoft 365 Business Premium의 간소화 된 관리 콘솔에서 사용할 수 없는 기능은 타사 앱 관리, Wi-Fi 프로필 구성 및 VPN 인증서와 같이 전체 Intune 콘솔에서 관리할 수 있습니다.
 
 ### <a name="does-azure-active-directory-azure-ad-premium-p1-come-with-microsoft-365-business-premium"></a>Azure Active Directory (Azure AD) Premium P1은 Microsoft 365 Business Premium과 함께 제공 되나요?
 
@@ -180,9 +180,9 @@ Microsoft 365 Business Standard에 추가할 수 있는 모든 추가 기능을 
 
 예, 비즈니스 음성 구독을 구매할 수 있습니다. [비즈니스 음성](https://docs.microsoft.com/microsoftteams/business-voice/whats-business-voice) 은 전화 시스템, 오디오 회의, 국내 통화 계획 등을 구성 하는 최대 300 사용자의 중소 기업에 맞게 설계 된 전화 통신 솔루션입니다. 음성 메일, 발신자 ID, 통화 대기, 착신 전환, 자동 전화 교환, 통화 큐 등의 전화 시스템 기능을 사용할 수 있습니다. <br> 사용자의 국가나 지역에서 비즈니스 음성을 사용할 수 있는지 여부를 확인 하려면 [country and region availability For Business voice](https://docs.microsoft.com/microsoftteams/business-voice/country-region-availability)를 참조 하세요. 가격 정보에 대 한 자세한 내용은 [비즈니스 Voice 가격 산정](https://go.microsoft.com/fwlink/?linkid=2127221)을 참조 하세요.
 
-### <a name="can-microsoft-365-business-premium-customers-use--microsoft-defender-advanced-threat-protection"></a>Microsoft 365 Business Premium 고객은 Microsoft Defender Advanced Threat Protection을 사용할 수 있나요?
+### <a name="can-microsoft-365-business-premium-customers-use-microsoft-defender-for-endpoint"></a>Microsoft 365 Business Premium 고객은 Microsoft Defender for Endpoint를 사용할 수 있나요?
 
-예, microsoft [클라우드 솔루션 공급자](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)에서 구입할 때 마이크로소프트 365 Business Premium에 대 한 추가 기능으로 사용 가능 합니다.
+예, microsoft [클라우드 솔루션 공급자](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)로부터 구매한 경우 Microsoft 365 Business Premium의 추가 기능을 사용할 수 있습니다.
 
 ## <a name="partner-opportunity"></a>파트너 기회
 
@@ -224,7 +224,7 @@ Microsoft 클라우드 솔루션 공급자는 항상 고객의 비즈니스 요�
 
 ### <a name="what-is-the-gdpr-and-how-does-microsoft-365-business-premium-help-customers-with-their-compliance-obligations"></a>GDPR이란 무엇이며, 어떻게 Microsoft 365 Business Premium에서 고객의 규정 준수 의무를 지원하나요?
 
-일반 데이터 보호 규정(GDPR)은 유럽 연합(EU)의 거주자에게 "개인 데이터"에 대한 더 큰 제어를 제공하며 조직에게 개인 데이터의 무결성을 유지하도록 요구하는 종합적인 새 개인 정보 보호 법률입니다. GDPR은 EU 거주자와 관련된 개인 데이터를 제어 또는 처리하는 조직이 개인 데이터 처리에 대한 GDPR의 요구 사항을 충족하는 제3자 데이터 프로세서만을 사용할 것을 요구합니다. 2017년 3월 Microsoft는 이러한 보장을 제공하는 보증 계약을 체결했습니다. Microsoft가 어떻게 추가 GDPR 준수를 충족하는 것을 돕는지에 대해 질문이 있는 경우 Microsoft 365 Business Premium(예: Azure Information Protection, 데이터 손실 방지, Advanced Threat Protection 등) 및 기타 제품군(예: Microsoft 365 Enterprise E5)에서 사용 가능한 고급 준수 및 보안 기능에 대해 알아보세요. 자세한 내용을 보려면 [www.microsoft.com/gdpr](https://www.microsoft.com/gdpr)를 방문하세요.
+일반 데이터 보호 규정(GDPR)은 유럽 연합(EU)의 거주자에게 "개인 데이터"에 대한 더 큰 제어를 제공하며 조직에게 개인 데이터의 무결성을 유지하도록 요구하는 종합적인 새 개인 정보 보호 법률입니다. GDPR은 EU 거주자와 관련된 개인 데이터를 제어 또는 처리하는 조직이 개인 데이터 처리에 대한 GDPR의 요구 사항을 충족하는 제3자 데이터 프로세서만을 사용할 것을 요구합니다. 2017년 3월 Microsoft는 이러한 보장을 제공하는 보증 계약을 체결했습니다. Microsoft에서 추가 GDPR 의무를 충족 하는 데 도움이 되는 고객은 microsoft 365 Business Premium (예: Azure Information Protection, 데이터 손실 방지, Defender for Office 365 등) 및 기타 제품군 (예: Microsoft 365 Enterprise E5)에서 사용할 수 있는 고급 규정 준수 및 보안 기능에 대해 알아봅니다. 자세한 내용을 보려면 [www.microsoft.com/gdpr](https://www.microsoft.com/gdpr)를 방문하세요.
 
 ## <a name="footnotes"></a>각주
 

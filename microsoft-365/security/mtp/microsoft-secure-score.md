@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: ea580ad6b7bb7cc905a299e473f23a4c74fb289e
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: a41e05f54a8ba94752c6df91628a2200367ac0f3
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294787"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843843"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft 보안 점수
 
@@ -76,7 +76,7 @@ Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 
 
 ### <a name="products-included-in-secure-score"></a>안전한 점수에 포함 된 제품
 
-현재 Microsoft 365 (Exchange Online 포함), Azure Active Directory, Microsoft Defender ATP, Azure ATP 및 Cloud App Security에 대 한 권장 사항이 있습니다. 다른 보안 제품에 대 한 권장 사항은 곧 제공 될 예정입니다. 이 권장 사항은 각 제품과 연결 된 모든 공격 표면을 포괄 하는 것이 좋지만 좋은 기준이 됩니다. 또한 제 3 자 또는 다른 완화 조치로 인 한 향상 작업을 표시할 수도 있습니다.
+현재 Microsoft 365 (Exchange Online 포함), Azure Active Directory, Microsoft Defender for Endpoint, Microsoft Defender for Identity 및 Cloud App Security에 대 한 권장 사항이 있습니다. 다른 보안 제품에 대 한 권장 사항은 곧 제공 될 예정입니다. 이 권장 사항은 각 제품과 연결 된 모든 공격 표면을 포괄 하는 것이 좋지만 좋은 기준이 됩니다. 또한 제 3 자 또는 다른 완화 조치로 인 한 향상 작업을 표시할 수도 있습니다.
 
 ### <a name="security-defaults"></a>보안 기본값
 

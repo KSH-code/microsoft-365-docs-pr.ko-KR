@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Microsoft 365 Business Premium, 구독에서 도메인 및 사용자 추가, 보안 정책 설정 등에 대 한 설정 단계를 알아봅니다.
-ms.openlocfilehash: 8ec01a58d1a15d5c4aa1cef8b81518b474630d8b
-ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
+ms.openlocfilehash: 46370166a9d5e8c9308b8947513e631c159f0b86
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841144"
+ms.locfileid: "48842133"
 ---
 # <a name="overview-of-setup"></a>설치 개요
 
@@ -61,7 +61,7 @@ Microsoft 365 Business Premium 설치에 대 한 간단한 비디오를 시청 �
   설치 마법사의 보안 설정 외에도 다음 설정을 추가 하 여 보안을 강화할 수 있습니다.
 
 - **전자 메일 맬웨어 방지**
-- **ATP 피싱 방지**
+- **Office 365 용 Defender의 피싱 방지**
 - **Exchange Online Archiving**
 - **Azure Information Protection (Plan1** )
 

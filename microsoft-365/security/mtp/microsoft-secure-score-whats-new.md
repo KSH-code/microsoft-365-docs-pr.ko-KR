@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: a7d79684a085072e1af113bc0466ab26574ab904
-ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.openlocfilehash: d63994778762968962b2a32f026dbb81af39b664
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48779241"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843819"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Microsoft 보안 점수의 새로운 기능
 
@@ -35,7 +35,7 @@ Microsoft 보안 점수가 보안 상태를 보다 효율적으로 대표 하도
 
 ## <a name="october-2020"></a>2020년 10월
 
-### <a name="remove-improvement-action-related-to-microsoft-defender-advanced-threat-protection"></a>Microsoft Defender Advanced Threat Protection과 관련 된 개선 작업 제거
+### <a name="remove-improvement-action-related-to-microsoft-defender-for-endpoint"></a>끝점에 대 한 Microsoft Defender와 관련 된 개선 작업 제거
 
 - Microsoft Defender SmartScreen Windows 스토어 앱 웹 콘텐츠 검사를 설정 하 여 경고 표시
 
@@ -54,8 +54,8 @@ Microsoft 보안 점수가 보안 상태를 보다 효율적으로 대표 하도
 ## <a name="updated-improvement-actions"></a>업데이트 된 개선 작업
 
 - Azure Active Directory 개선 작업 추가 됨
-- Azure Advanced Threat Protection 개선 작업 추가
-- Microsoft Defender ATP [위협 & 취약성 관리](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) 보안 권장 사항에 대 한 지원
+- Id 향상 작업을 위해 Microsoft Defender를 추가 했습니다.
+- 끝점 위협에 대 한 Microsoft Defender 지원 [& 취약성 관리](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) 보안 권장 사항
     - 이제 TVM에서 제공 하는 모든 릴리스된 보안 권장 사항을 사용할 수 있습니다.
 
 ## <a name="updated-interface-and-functionality"></a>업데이트 된 인터페이스 및 기능

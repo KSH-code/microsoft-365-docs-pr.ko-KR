@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 for Exchange Online, 비즈니스용 Skype, SharePoint Online, 비즈니스용 OneDrive 및 팀 파일에 대 한 고객 키를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: be7aacf180cf8ffc59a490279083aeb2aa6a0567
-ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
+ms.openlocfilehash: 69e12d46ae4106a399a8eeff49ebbe0f2a3055e2
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48768976"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841289"
 ---
 # <a name="set-up-customer-key"></a>고객 키 설정
 
@@ -31,9 +31,9 @@ Office 365에 대해 고객 키를 사용 하려면 먼저 Azure를 설정 해�
   
 ## <a name="before-you-set-up-customer-key"></a>Customer 키를 설정 하기 전에
 
-시작 하기 전에 조직에 적합 한 라이선스를가지고 있는지와 계정이 송장 발부 되었으며 신용 카드로 지불 되지 않았는지 확인 합니다. Microsoft 365의 고객 키는 Office 365 E5 또는 Advanced 준수 SKU에 제공 됩니다. 이 항목의 개념과 절차를 이해 하려면 [Azure 키 보관소](https://docs.microsoft.com/azure/key-vault/) 설명서를 검토 하십시오. 또한 Azure에서 사용 되는 용어 (예: [테 넌 트](https://docs.microsoft.com/previous-versions/azure/azure-services/jj573650(v=azure.100)))에 익숙해지는 것이 좋습니다.
+시작 하기 전에 조직에 적합 한 라이선스를 보유 하 고 있는지 확인 합니다. Office 365에서 2020 년 4 월 1 일부 터 M365 E5, M365 E5 규격 및 M365 E5 Information Protection & 관리 Sku 365에 제공 됩니다. Office 365 고급 규정 준수 SKU가 더 이상 조달 새 라이선스를 사용할 수 없습니다. 기존 Office 365 고급 규정 준수 라이선스는 계속 지원 됩니다.
 
-이 항목의 개념과 절차를 이해 하려면 [Azure 키 보관소](https://docs.microsoft.com/azure/key-vault/) 설명서를 검토 하십시오. 또한 azure에서 사용 되는 용어 (예: [AZURE AD 테 넌 트](https://docs.microsoft.com/previous-versions/azure/azure-services/jj573650(v=azure.100)#what-is-an-azure-ad-tenant))를 익힙니다.
+시작 하기 전에 조직에 적합 한 라이선스를가지고 있는지와 계정이 송장 발부 되었으며 신용 카드로 지불 되지 않았는지 확인 합니다. 이 항목의 개념과 절차를 이해 하려면 [Azure 키 보관소](https://docs.microsoft.com/azure/key-vault/) 설명서를 검토 하십시오. 또한 azure에서 사용 되는 용어 (예: [AZURE AD 테 넌 트](https://docs.microsoft.com/previous-versions/azure/azure-services/jj573650(v=azure.100)#what-is-an-azure-ad-tenant))를 익힙니다.
 
 FastTrack은 고객 키를 등록 하는 데 사용 되는 필수 테 넌 트 및 서비스 구성 정보를 수집 하는 데만 사용 됩니다. 고객 키 제공은 FastTrack을 통해 게시 되므로 사용자와 파트너가 모두 동일한 방법을 사용 하 여 필요한 정보를 제출할 수 있습니다. FastTrack을 사용 하면 제공 되는 데이터를 쉽게 보관할 수도 있습니다.
   
@@ -55,7 +55,7 @@ FastTrack은 고객 키를 등록 하는 데 사용 되는 필수 테 넌 트 �
 
 - [Office 365에 대 한 고객 키를 정품 인증 하기 위한 요청 제출](#submit-a-request-to-activate-customer-key-for-office-365)
 
-새로운 두 Azure 구독을 만든 후에는 Microsoft FastTrack 포털에서 호스팅되는 웹 양식을 완료 하 여 해당 하는 고객 키 제공 요청을 제출 해야 합니다. **FastTrack 팀은 고객 키에 대 한 지원을 제공 하지 않습니다. Office는 FastTrack 포털을 사용 하 여 양식을 전송 하 고 고객 키에 대 한 관련 서비스를 추적 하는 데 도움이 됩니다** .
+새로운 두 Azure 구독을 만든 후에는 Microsoft FastTrack 포털에서 호스팅되는 웹 양식을 완료 하 여 해당 하는 고객 키 제공 요청을 제출 해야 합니다. **FastTrack 팀은 고객 키에 대 한 지원을 제공 하지 않습니다. Office는 FastTrack 포털을 사용 하 여 양식을 전송 하 고 고객 키에 대 한 관련 서비스를 추적 하는 데 도움이 됩니다**.
 
 - [각 구독에 프리미엄 Azure 키 자격 증명 모음 만들기](#create-a-premium-azure-key-vault-in-each-subscription)
 
@@ -203,7 +203,7 @@ Microsoft 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각
    Set-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user> -PermissionsToKeys create,import,list,get,backup,restore
    ```
 
-   예시:
+   예:
 
    ```powershell
    Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
@@ -327,7 +327,7 @@ Backup-AzKeyVaultKey -VaultName <vault name> -Name <key name>
 > [!TIP]
 > 출력 파일의 경우 자격 증명 모음 이름 및 키 이름을 조합 하 여 선택 합니다. 이렇게 하면 파일 이름이 자체 설명 됩니다. 또한 백업 파일 이름이 충돌 하지 않도록 해야 합니다.
   
-예시:
+예:
   
 ```powershell
 Backup-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -OutputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
