@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: cb2aad70b8ba6ccd9075513b5f383ede42ebd6c0
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: ff81b6e1a290d928d68cb43b455713183d24f75b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295131"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846643"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Microsoft 보안 점수를 사용 하 여 보안 상황 평가
 
@@ -38,7 +38,7 @@ Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 
 
 * Id (Azure Active Directory 계정 & 역할)
 * 데이터 (Microsoft Information Protection)
-* 장치 ( [장치에 대 한 Microsoft 보안 점수](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices)라고 알려진 MICROSOFT Defender ATP)
+* 장치 ( [장치에 대 한](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices)microsoft Defender for Endpoint)
 * 앱 (Office 365 및 Microsoft Cloud App Security)을 포함 하는 전자 메일 및 클라우드 앱
 * 인프라 (지금은 향상 작업 없음)
 
@@ -51,15 +51,15 @@ Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간 점 분할 �
 
 ## <a name="check-your-current-score"></a>현재 점수 확인
 
-현재 점수를 확인 하려면 Microsoft 보안 점수 개요 페이지로 이동 하 여 **보안 점수가**있는 타일을 확인 합니다. 점수는 총 가능한 점수에서 달성 한 점수와 함께 백분율로 표시 됩니다.
+현재 점수를 확인 하려면 Microsoft 보안 점수 개요 페이지로 이동 하 여 **보안 점수가** 있는 타일을 확인 합니다. 점수는 총 가능한 점수에서 달성 한 점수와 함께 백분율로 표시 됩니다.
 
 또한 점수 옆에 있는 **포함** 단추를 선택 하면 점수에 대 한 다양 한 보기를 선택할 수 있습니다. 이러한 서로 다른 점수 보기는 점수 타일 및 점 분석 차트의 그래프에 표시 됩니다.
 
 다음과 같은 점수를 통해 전체 점수를 보기에 추가 하 여 전체 점수를 완벽 하 게 파악할 수 있습니다.
 
-- **계획 된 점수**: 계획 된 작업이 완료 되 면 예상 점수 표시
-- **현재 사용권 점수**: 현재 Microsoft 라이선스로 얻을 수 있는 점수를 표시 합니다.
-- 실현 가능한 **점수**: Microsoft 라이선스 및 현재 위험 수용으로 달성 가능한 점수 표시
+- **계획 된 점수** : 계획 된 작업이 완료 되 면 예상 점수 표시
+- **현재 사용권 점수** : 현재 Microsoft 라이선스로 얻을 수 있는 점수를 표시 합니다.
+- 실현 가능한 **점수** : Microsoft 라이선스 및 현재 위험 수용으로 달성 가능한 점수 표시
 
 이 보기는 가능한 모든 점수 보기를 포함 했을 때의 모양입니다.
 

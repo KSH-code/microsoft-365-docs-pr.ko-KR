@@ -1,5 +1,5 @@
 ---
-title: Microsoft Threat Protection에 대 한 고급 구하기의 오류 처리
+title: Microsoft 365 Defender에 대 한 고급 구하기의 오류 처리
 description: 고급 구하기 사용 시 표시 되는 오류 이해
 keywords: 고급 구하기, 위협 검색, 사이버 위협 사냥, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마, kusto, timeout, 리소스, 오류, 알 수 없는 오류, 제한, 할당량, 매개 변수, 할당
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 8b9c46e312d28c7a08efbfa74f96dc33b90fee0a
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: a5379db66034ecfe537f7d9effdd83f6c41bfd58
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48636896"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846895"
 ---
 # <a name="handle-advanced-hunting-errors"></a>고급 구하기 오류 처리
 
@@ -45,6 +45,6 @@ ms.locfileid: "48636896"
 
 ## <a name="related-topics"></a>관련 항목
 - [고급 구하기 모범 사례](advanced-hunting-best-practices.md)
-- [할당량 및 사용 현황 매개 변수](advanced-hunting-limits.md)
+- [할당량 및 사용량 매개 변수](advanced-hunting-limits.md)
 - [스키마의 이해](advanced-hunting-schema-tables.md)
 - [Kusto 쿼리 언어 개요](https://docs.microsoft.com/azure/data-explorer/kusto/query/)

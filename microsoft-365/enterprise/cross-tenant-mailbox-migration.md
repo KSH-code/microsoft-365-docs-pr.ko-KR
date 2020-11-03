@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: 06a82fda31e602ed2feb53d00e8839daf801bf7e
-ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
+ms.openlocfilehash: a9f983cebfbed1482fca7e44b77c200cbd9574ac
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277502"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847121"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>테 넌 트 사서함 마이그레이션 (미리 보기)
 
@@ -141,7 +141,7 @@ ms.locfileid: "48277502"
 
 7. 원격 PowerShell 세션에 URL이 표시 됩니다. 테 넌 트 동의를 위해 제공 된 링크를 복사한 다음 웹 브라우저에 붙여넣습니다.
 
-8. 전역 관리자 자격 증명으로 로그인 합니다. 다음 화면이 표시 되 면 **수락**을 선택 합니다.
+8. 전역 관리자 자격 증명으로 로그인 합니다. 다음 화면이 표시 되 면 **수락** 을 선택 합니다.
 
     :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-dialog.png" alt-text="사용 권한 수락 대화 상자":::
     
@@ -405,7 +405,7 @@ T2Tbatch-testforignitedemo Syncing ExchangeRemoteMove 1
  
 #### <a name="update-on-premises-mailusers"></a>온-프레미스 MailUsers 업데이트
 
-사서함이 원본에서 대상으로 이동한 후에는 원본 및 대상 모두의 온-프레미스 메일 사용자가 새 targetAddress 업데이트 되도록 해야 합니다. 예제에서 이동에 사용 되는 targetDeliveryDomain는 **contoso \. onmicrosoft.com**입니다. 이 targetAddress를 사용 하 여 메일 사용자를 업데이트 합니다.
+사서함이 원본에서 대상으로 이동한 후에는 원본 및 대상 모두의 온-프레미스 메일 사용자가 새 targetAddress 업데이트 되도록 해야 합니다. 예제에서 이동에 사용 되는 targetDeliveryDomain는 **contoso \. onmicrosoft.com** 입니다. 이 targetAddress를 사용 하 여 메일 사용자를 업데이트 합니다.
  
 ## <a name="frequently-asked-questions"></a>자주 묻는 질문
  
@@ -533,7 +533,7 @@ NT AUTHORITY\SELF                                {FullAccess, ReadPermission}   
 
 - **문제: 소유 하지 않은 smtp proxyAddress block을 사용 하는 클라우드 MailUsers MRS가 background를 이동 합니다.** 대상 테 넌 트 MailUser 개체를 만들 때 모든 SMTP 프록시 주소가 대상 테 넌 트 조직에 속하는지 확인 해야 합니다. 로컬 테 넌 트에 속하지 않은 대상 메일 사용자에 게 SMTP proxyAddress가 있으면 MailUser를 Mailbox로 변환 하는 것이 차단 됩니다. 이는 사서함 개체가 테 넌 트가 신뢰할 수 있는 도메인 (테 넌 트에 의해 요구 되는 도메인)에서 메일을 보내기만 하기 때문입니다. 
 - 
-   - Azure AD Connect를 사용 하 여 온-프레미스에서 사용자를 동기화 하는 경우 온-프레미스 MailUser 개체에 사서함이 있는 원본 테 넌 트를 가리키는 ExternalEmailAddress (laran@contoso onmicrosoft.com)를 제공 하 \. 고 PrimarySMTPAddress를 대상 테 넌 트 (Lara. Newton@northwind com)에 있는 도메인으로 스탬프 처리 합니다. \. 이러한 값은 테 넌 트에서 동기화 되 고 적절 한 메일 사용자가 프로 비전 되어 마이그레이션 준비가 완료 된 것입니다. 예제 개체는 다음과 같습니다.
+   - Azure AD Connect를 사용 하 여 온-프레미스에서 사용자를 동기화 하는 경우 온-프레미스 MailUser 개체는 사서함이 있는 원본 테 넌 트를 가리키는 ExternalEmailAddress (laran@contoso onmicrosoft.com)를 제공 하 \. 고 PrimarySMTPAddress를 대상 테 넌 트 (Lara.Newton@northwind com)에 있는 도메인으로 스탬프 처리 합니다 \. . 이러한 값은 테 넌 트에서 동기화 되 고 적절 한 메일 사용자가 프로 비전 되어 마이그레이션 준비가 완료 된 것입니다. 예제 개체는 다음과 같습니다.
      ```powershell
      target/AADSynced user] PS C> Get-MailUser laran | select ExternalEmailAddress, EmailAddresses   
      ExternalEmailAddress               EmailAddresses 
@@ -644,8 +644,8 @@ NT AUTHORITY\SELF                                {FullAccess, ReadPermission}   
    | Microsoft 비즈니스 센터                         |
    | Microsoft MyAnalytics (Full)                      |
    | Office 365 고급 eDiscovery                    |
-   | Office 365 Advanced Threat Protection (요금제 1)    |
-   | Office 365 Advanced Threat Protection (계획 2)    |
+   | Microsoft Defender for Office 365 (요금제 1)    |
+   | Microsoft Defender for Office 365 (요금제 2)    |
    | Office 365 권한 있는 액세스 관리           |
    | Outlook Customer Manager                          |
    | Office 365의 Premium 암호화                  |

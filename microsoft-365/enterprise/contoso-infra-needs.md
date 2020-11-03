@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso 온-프레미스 IT 인프라의 기본 구조와 기업에 대 한 Microsoft 365에서 회사의 비즈니스 요구 사항을 충족 하는 방법을 이해 합니다.
-ms.openlocfilehash: 767374097efa116f116cff6f6ddf96d075eb71ed
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 0a837a457869fc579d94ee5e5f9bb114cb93f641
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754589"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847133"
 ---
 # <a name="contoso-it-infrastructure-and-business-needs"></a>Contoso IT 인프라 및 비즈니스 요구 사항
 
@@ -122,10 +122,10 @@ Contoso IT 부서는 배포 전에 Microsoft 365 E5 기능에 다음과 같은 �
 |  | 원격 및 모바일 작업자의 생산성 향상 | Microsoft 365 워크로드 및 클라우드 기반 데이터 |
 |  | 창의성 및 혁신 증대 | Windows Ink, Cortana at Work, PowerPoint |
 | 보안 |  |  |
-|  | ID 및 액세스 관리 | MFA (Multi-factor Authentication) 및 Azure Active Directory 권한이 있는 Id 관리 (PIM)를 사용 하는 전용 전역 관리자 계정 <BR> 모든 사용자 계정에 대한 MFA <BR> 조건부 액세스 <BR> Windows Hello <BR> Windows Credential Guard |
-|  | 위협 방지 | Advanced Threat Analytics <BR> Windows Defender <BR> Advanced Threat Protection <BR> Office 365 Advanced Threat Protection <BR> Microsoft 365 위협 조사 및 대응 <BR> |
+|  | ID & 액세스 관리 | Azure MFA (Multi-Factor Authentication) 및 Azure PIM (Privileged Identity Management다)를 포함하는 전용 전역 관리자 계정 <BR> 모든 사용자 계정에 대한 MFA <BR> 조건부 액세스 <BR> Windows Hello <BR> Windows Credential Guard |
+|  | 위협 방지 | Advanced Threat Analytics <BR> Windows Defender <BR> Office 365용 Microsoft Defender <BR> Microsoft Defender for Office 365 <BR> Microsoft 365 위협 조사 및 대응 <BR> |
 |  | 정보 보호 | Azure Information Protection <BR> DLP(데이터 손실 방지) <BR> WIP(Windows Information Protection) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
-|  | 보안 관리 | Azure Security Center  <BR> Windows Defender 보안 센터 |
+|  | 보안 관리 | Azure Defender *  <BR> Windows Defender 보안 센터 |
 | 원격 및 모바일 액세스 및 비즈니스 파트너 |  |  |
 |  | 원격 및 모바일 작업자를 위한 향상된 보안 | Microsoft Intune |
 |  | 직원을 위한 원격 액세스 인프라 감소 | Microsoft 365 워크로드 및 클라우드 기반 데이터 |

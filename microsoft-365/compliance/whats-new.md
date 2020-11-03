@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 준수 센터에 새로운 새 솔루션을 추가 하 고, 사용자 의견에 따라 기존 기능을 업데이트 하거나, 새로운 문서 및 업데이트 된 설명서를 롤아웃할 지 여부에 관계 없이 Microsoft 365에서는 지속적인 변경 준수 가로를 유지 하는 데 도움이 됩니다. 이번 달에 제공 된 내용을 확인 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b124e4c4d120d981766493034aba9bc6eefa7d9c
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 1ebe91e94b286e7d9a1b46b7fd7abf625881a6a9
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446561"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847804"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -34,7 +34,7 @@ ms.locfileid: "48446561"
 
 
 > [!TIP]
-> 다른 관리 센터에서 어떤 작업을 진행 하 고 싶으십니까? 다음 문서를 확인 하세요.<br>[Microsoft 365 관리 센터의 새로운 기능](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br>[Microsoft Threat Protection의 새로운 기능](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)<br><br>
+> 다른 관리 센터에서 어떤 작업을 진행 하 고 싶으십니까? 다음 문서를 확인 하세요.<br>[Microsoft 365 관리 센터의 새로운 기능](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br>[Microsoft 365 Defender의 새로운 기능](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)<br><br>
 [Microsoft 365 로드맵을](https://www.microsoft.com/en-us/microsoft-365/roadmap) 방문 하 여 시작 되었거나, 배포 중이거나, 개발 중 이거나, 이전에 출시 된 microsoft 365 기능에 대해 알아보세요.
 
 ## <a name="august-2020"></a>2020년 8월
@@ -53,10 +53,10 @@ ms.locfileid: "48446561"
     - 우선 순위 사용자 별 보안 정책 위반
     - 불만 사용자에의 한 보안 정책 위반
 
-- [Microsoft DEFENDER atp](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 와 통합 하면 새 보안 위반 정책 템플릿에서 만든 정책으로 인해 검색 된 작업에 대 한 MICROSOFT defender atp 경고를 가져오고 필터링 할 수 있습니다. Microsoft Defender ATP 경고 심사 상태를 기반으로 하는 위험 관리를 위해 보안 경고를 가져오도록 선택할 수 있는 관련 된 [참가자 위험 설정](insider-risk-management-settings.md#microsoft-defender-advanced-threat-protection-preview) 도 있습니다.
+- 끝점에 [대 한 Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 와의 통합을 통해 새 보안 위반 정책 템플릿에서 만든 정책으로 검색 된 활동에 대해 microsoft Defender for endpoint alerts를 가져오고 필터링 할 수 있습니다. 끝점 경고 심사 상태에 대 한 Microsoft Defender를 기반으로 하는 위험 관리를 위해 보안 경고를 가져오도록 선택할 수 있는 관련 된 [참가자 위험 설정](insider-risk-management-settings.md#microsoft-defender-for-endpoint-preview) 도 있습니다.
 
     > [!NOTE]
-    > Microsoft Defender ATP 통합 (새 보안 정책 위반 서식 파일 포함)을 활용 하려면 조직에 Microsoft Defender ATP를 구성 해야 합니다. 또한 [Microsoft DEFENDER atp에서 고급 기능을 구성](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)하 여 참가자 위험 관리 통합을 위해 MICROSOFT defender atp를 사용 하도록 설정 해야 합니다.
+    > Microsoft Defender for Endpoint 통합용 (새 보안 정책 위반 서식 파일 포함)을 활용 하려면 조직에 끝점을 구성 하는 Microsoft Defender가 있어야 합니다. 또한 [Microsoft defender For endpoint의 고급 기능을 구성](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)하 여 사용자의 참가자 위험 관리 통합을 위해 microsoft Defender for endpoint을 사용 하도록 설정 해야 합니다.
  
 - [정책을 만들](insider-risk-management-policies.md#create-a-new-policy)때 표시기 임계값을 사용자 지정 합니다.
 - [우선 순위 사용자 그룹](insider-risk-management-settings.md#priority-user-groups-preview) 을 설정 하 여 조직의 사용자를 정의 하 고, 해당 활동은 중요 한 정보에 대 한 액세스 수준 또는 위험 기록 등의 요소를 기반으로 하 여 더 근접 한 검사를 수행 합니다.
@@ -170,7 +170,7 @@ SharePoint 또는 OneDrive의 콘텐츠를 보호 하는 DLP 정책을 설정할
 
 ### <a name="sensitivity-labels-new-privacy-option"></a>민감도 레이블: 새 개인 정보 옵션
 
-레이블에 대해 [사이트 및 그룹 설정을](sensitivity-labels-teams-groups-sites.md#how-to-configure-groups-and-site-settings) 구성 하는 경우 이제 개인 정보 옵션을 **없음-사용자가 사이트에 액세스할 수 있는 사람을 선택**하도록 설정할 수 있습니다. 이 기능은 민감도 레이블을 사용 하 여 컨테이너의 콘텐츠를 보호 하려는 경우에 유용 하지만 사용자가 개인 정보 설정을 직접 구성할 수 있도록 합니다.
+레이블에 대해 [사이트 및 그룹 설정을](sensitivity-labels-teams-groups-sites.md#how-to-configure-groups-and-site-settings) 구성 하는 경우 이제 개인 정보 옵션을 **없음-사용자가 사이트에 액세스할 수 있는 사람을 선택** 하도록 설정할 수 있습니다. 이 기능은 민감도 레이블을 사용 하 여 컨테이너의 콘텐츠를 보호 하려는 경우에 유용 하지만 사용자가 개인 정보 설정을 직접 구성할 수 있도록 합니다.
 
 ## <a name="april-2020"></a>2020년 4월
 
@@ -345,7 +345,7 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 |감사 로그 검색|검색 > 감사 로그 검색 <br/> https://protection.office.com/unifiedauditlog |감사 <br/> https://compliance.microsoft.com/auditlogsearch | [보안 & 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)|
 |콘텐츠 검색|검색 > 콘텐츠 검색 <br/> https://protection.office.com/contentsearchbeta?ContentOnly=1 | 콘텐츠 검색 <br/> https://compliance.microsoft.com/contentsearch |[Office 365에서 콘텐츠 검색](search-for-content.md) |
 |데이터 커넥터|타사 데이터 보관 > 정보 관리 기능 <br/> https://protection.office.com/nativeconnector | 데이터 커넥터 <br/> https://compliance.microsoft.com/connectorlanding |[타사 데이터 보관](archiving-third-party-data.md)|
-|데이터 손실 방지|데이터 손실 방지 <br/> https://protection.office.com/datalossprevention |데이터 손실 방지 <br/> https://compliance.microsoft.com/datalossprevention |[데이터 손실 방지 개요](data-loss-prevention-policies.md)|
+|데이터 손실 방지|데이터 손실 방지 <br/> https://protection.office.com/datalossprevention |데이터 손실 방지 <br/> https://compliance.microsoft.com/datalossprevention |[데이터 손실 방지의 개요](data-loss-prevention-policies.md)|
 |데이터 주체 요청 |데이터 개인 정보 > 데이터 주체 요청 <br/> https://protection.office.com/dsrcases |데이터 주체 요청 <br/> https://compliance.microsoft.com/datasubjectrequest |[DSR 사례 도구를 사용 하 여 GDPR 데이터 주체 요청 관리](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)|
 |eDiscovery|eDiscovery > eDiscovery <br/> https://protection.office.com/ediscoveryv1 |eDiscovery > 코어 <br/> https://compliance.microsoft.com/classicediscovery |[eDiscovery 사례 관리](ediscovery-cases.md) |
 |Events|레코드 관리 > 이벤트 <br/> https://protection.office.com/events |레코드 관리 > 이벤트 탭 <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[이벤트가 발생할 때 보존 시작하기](event-driven-retention.md)|
@@ -366,7 +366,7 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 ### <a name="new-encryption-options-for-sensitivity-labels"></a>민감도 레이블의 새 암호화 옵션 
 
 민감도 레이블에 대 한 암호화를 구성할 때 사용자가 전자 메일 및 문서에 레이블을 수동으로 적용할 때 사용 권한을 할당할 수 있는 두 가지 옵션이 있습니다.<br>
-- **Outlook 전자 메일**에 레이블을 적용할 때 사용자는 전달 금지 옵션에 해당 하는 제한을 적용할 수 있습니다. 받는 사람은 메시지를 읽을 수는 있지만 콘텐츠를 전달, 인쇄 또는 복사 하지는 못합니다.
-- **Word, PowerPoint 및 Excel 파일**에 레이블을 적용 하는 경우 사용자에 게 특정 사용자 및 그룹에 대 한 액세스 권한을 지정 하 라는 메시지가 표시 됩니다.
+- **Outlook 전자 메일** 에 레이블을 적용할 때 사용자는 전달 금지 옵션에 해당 하는 제한을 적용할 수 있습니다. 받는 사람은 메시지를 읽을 수는 있지만 콘텐츠를 전달, 인쇄 또는 복사 하지는 못합니다.
+- **Word, PowerPoint 및 Excel 파일** 에 레이블을 적용 하는 경우 사용자에 게 특정 사용자 및 그룹에 대 한 액세스 권한을 지정 하 라는 메시지가 표시 됩니다.
 
 [민감도 레이블을 사용 하 여 콘텐츠에 대 한 액세스 제한](encryption-sensitivity-labels.md#let-users-assign-permissions) 으로 이동 하 여 자세한 내용을 확인 하 고 자세한 내용은 암호화를 적용 합니다.

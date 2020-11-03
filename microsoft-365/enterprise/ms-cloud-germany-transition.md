@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: 독일 Microsoft 클라우드(도이칠란드 Microsoft 클라우드)에서 Office 365 서비스 독일 신규 데이터 센터 지역으로의 마이그레이션 이해 '
-ms.openlocfilehash: a77dc43c4c30992d2e50aad94878f9269573db52
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 23ccc30bab5d1045e4716cd637899e20362fc597
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327120"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846943"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Microsoft Cloud 독일에서 새 독일어 데이터 센터 지역의 Office 365 서비스로 마이그레이션
 
@@ -133,7 +133,7 @@ Microsoft Cloud 독일 cloud 서비스 제공에서는 다음과 같은 15 가�
 3. 그룹 (모던 그룹)
 4. Delve 프로필
 5. Exchange Online Protection
-6. ATP (Advanced Threat Protection)
+6. Office 365용 Microsoft Defender
 7. Advanced eDiscovery
 8. 고급 데이터 관리
 9. SharePoint Online
@@ -153,7 +153,7 @@ Microsoft Cloud 독일 cloud 서비스 제공에서는 다음과 같은 15 가�
 5. MyAnalytics
 6. Workplace Analytics
 7. Exchange Online Protection
-8. ATP (Advanced Threat Protection)
+8. Office 365용 Microsoft Defender
 9. Advanced eDiscovery
 10. 고급 보안 관리
 11. 정보 권한 관리
@@ -221,7 +221,7 @@ Microsoft Cloud 독일 from Office 365 services로 마이그레이션하는 동�
 | Office 365 A1 for 교직원 \_ de (STANDARDWOFFPACK \_ 교직원 \_ de) | 교직원 용 Office 365 A1 (STANDARDWOFFPACK \_ 교직원) |
 | Office 365 A1 for 학생 \_ de (STANDARDWOFFPACK \_ STUDENT \_ de) | Office 365 A1 for 학생용 (STANDARDWOFFPACK \_ STUDENT) |
 | Office 365 Advanced 준수 \_ de (EQUIVIO \_ ANALYTICS \_ de) | Microsoft 365 E5 준수 (정보 \_ 보호 \_ 규정 준수) |
-| Office 365 Advanced Threat Protection (계획 1) \_ DE (ATP \_ ENTERPRISE \_ DE) | Office 365 Advanced Threat Protection (계획 1) (ATP \_ ENTERPRISE) |
+|Microsoft Defender for Office 365 (요금제 1) \_ DE (ATP \_ ENTERPRISE \_ DE) |Microsoft Defender for Office 365 (계획 1) (ATP \_ ENTERPRISE) |
 | Office 365 Business Essentials \_ de (O365 \_ business \_ essentials \_ de) | Microsoft 365 Business Basic (O365 \_ business \_ ESSENTIALS) |
 | Office 365 Business Premium de \_ (O365 \_ business \_ premium \_ de) | Microsoft 365 Business Standard (O365 \_ business \_ PREMIUM) |
 | Office 365 Business \_ de (O365 \_ business \_ de) | Microsoft 365 비즈니스용 앱 (O365 \_ 비즈니스) |

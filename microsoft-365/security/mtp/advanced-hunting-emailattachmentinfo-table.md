@@ -19,12 +19,12 @@ mms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: dcacc31f8ea2546cbf90e45a4323a60670a98458
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 87ebf4ca0ff773dd5622097385173f538d990afc
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429842"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847479"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
@@ -32,11 +32,11 @@ ms.locfileid: "48429842"
 
 
 **적용 대상:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 
 
-[고급 헌팅](advanced-hunting-overview.md) 스키마의 `EmailAttachmentInfo` 표에는 Office 365 ATP에서 처리된 전자 메일의 첨부 파일에 대한 정보가 포함되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+`EmailAttachmentInfo` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 Microsoft Defender for Office 365에서 처리 되는 전자 메일의 첨부 파일에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 
@@ -51,7 +51,7 @@ ms.locfileid: "48429842"
 | `FileType` | 문자열 | 파일 확장명 유형 |
 | `SHA256` | 문자열 | 기록된 조치가 적용된 파일의 SHA-256 일반적으로이 필드는 채워지지 않습니다. 가능한 경우 SHA1 열을 사용합니다. |
 | `MalwareFilterVerdict` | 문자열 | 전자 메일이 맬웨어를 포함하는지 여부에 대한 전자 메일 필터링 스택의 결과. Malware. malware 아님. |
-| `MalwareDetectionMethod` | 문자열 | 전자 메일에서 맬웨어를 검색하는 데 사용하는 방법: Antimalware engine, File reputation, ATP Safe Attachments |
+| `MalwareDetectionMethod` | 문자열 | 전자 메일에서 맬웨어를 감지 하는 데 사용 되는 방법: 맬웨어 방지 엔진, 파일 신뢰도, 안전한 첨부 파일 |
 
 ## <a name="related-topics"></a>관련 항목
 - [고급 헌팅 개요](advanced-hunting-overview.md)

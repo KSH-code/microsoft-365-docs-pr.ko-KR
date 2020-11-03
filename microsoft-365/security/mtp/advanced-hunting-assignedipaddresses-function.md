@@ -1,5 +1,5 @@
 ---
-title: Microsoft Threat Protection에 대 한 고급 구하기의 AssignedIPAddresses () 함수
+title: Microsoft 365 Defender에 대 한 고급 구하기의 AssignedIPAddresses () 함수
 description: AssignedIPAddresses () 함수를 사용 하 여 장치에 할당 된 최신 IP 주소를 가져오는 방법에 대해 알아봅니다.
 keywords: 고급 구하기, 위협 검색, 사이버 위협 사냥, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, FileProfile, file profile, function, 향상
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 462a4884e2b17f9ae75ea3bdc1531b180dcc5934
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: cb9dffca148c95f284a6a7e920f3a08a839b748d
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430130"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847647"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
@@ -32,7 +32,7 @@ ms.locfileid: "48430130"
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 `AssignedIPAddresses()` [고급 구하기](advanced-hunting-overview.md) 쿼리의 함수를 사용 하 여 장치에 할당 된 최신 IP 주소를 빠르게 얻습니다. Timestamp 인수를 지정 하면이 함수는 지정 된 시간에 가장 최근 IP 주소를 가져옵니다. 
 
@@ -54,8 +54,8 @@ AssignedIPAddresses(x, y)
 
 ## <a name="arguments"></a>인수나
 
-- **x**- `DeviceId` `DeviceName` 장치를 식별 하는 값입니다.
-- **y**- `Timestamp` (datetime)-함수가 특정 시간에서 가장 최근 할당 된 IP 주소를 가져오도록 지시 합니다. 이를 지정 하지 않으면이 함수는 최신 IP 주소를 반환 합니다.
+- **x** - `DeviceId` `DeviceName` 장치를 식별 하는 값입니다.
+- **y** - `Timestamp` (datetime)-함수가 특정 시간에서 가장 최근 할당 된 IP 주소를 가져오도록 지시 합니다. 이를 지정 하지 않으면이 함수는 최신 IP 주소를 반환 합니다.
 
 ## <a name="examples"></a>예
 

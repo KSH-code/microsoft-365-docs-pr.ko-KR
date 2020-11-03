@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 9c4898f6ecf17ad57da9ecd54499764c7efc2a6c
-ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
+ms.openlocfilehash: 160211fe481d14749bd778255e6844b12aa80672
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816877"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847239"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Microsoft 365 생산성 일러스트레이션
 
@@ -58,14 +58,14 @@ Microsoft 365에는 광범위 한 정보 보호 및 준수 기능이 포함 되�
 |:-----|:-----|
 |[![다중 영역 인포그래픽의 축소판 이미지](../media/solutions-architecture-center/multi-region-single-tenant-security-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.vsdx)<br>2020년 3월에 업데이트됨 |글로벌 조직에 단일 Microsoft 365 테넌트의 사용은 많은 이유로 최선의 선택과 경험이 될 것입니다. 하지만 많은 설계자들이 다양한 영역에 걸쳐 보안 및 정보 보호 목적을 충족하기 위한 방법을 고심하고 있습니다. 이 항목의 집합은 권장 사항을 제공합니다. |
 
-### <a name="microsoft-defender-atp-deployment-strategy"></a>Microsoft Defender ATP 배포 전략
+### <a name="microsoft-defender-for-endpoint-deployment-strategy"></a>끝점 배포 전략 용 Microsoft Defender
 
 환경에 따라 일부 도구는 특정 아키텍처에 더 적합합니다.
 
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![Microsoft Defender ATP 배포 전략의 축소판 이미지](../media/solutions-architecture-center/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)  \| [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.vsdx) <br>2020년 2월에 업데이트됨| 건축 자료는 다음 아키텍처의 배포를 계획하는 데 도움이 됩니다. <ul><li> 클라우드 네이티브 </li><li> 공동 관리 </li><li> 온-프레미스</li><li>평가 및 로컬 온보딩</li>
+|[![끝점 배포 전략 용 Microsoft Defender에 대 한 축소판 이미지](../media/solutions-architecture-center/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)  \| [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.vsdx) <br>2020년 2월에 업데이트됨| 건축 자료는 다음 아키텍처의 배포를 계획하는 데 도움이 됩니다. <ul><li> 클라우드 네이티브 </li><li> 공동 관리 </li><li> 온-프레미스</li><li>평가 및 로컬 온보딩</li>
 
 
 <a name="BKMK_O365IDP"></a>

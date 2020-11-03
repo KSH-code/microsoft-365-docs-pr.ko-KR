@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Microsoft 365의 id, 장치 및 위협 보호 서비스를 통해 개인 데이터 위반을 방지 합니다.
-ms.openlocfilehash: e084036860f5d15a14ca6c75305583b86a5fc53f
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 321b60efbdabe62b14502df4a16dd2dcec4b9cef
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398694"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847181"
 ---
 # <a name="use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>데이터 개인 정보 규정에 대 한 id, 장치 및 위협 보호 사용
 
@@ -70,12 +70,12 @@ Microsoft 365에서는 조직에서 데이터 개인 정보 관련 규정 준수
 - 비활성 상태가 되 면 모바일 장치가 잠길 수 있도록 요구 합니다.
 - 여러 로그인 오류가 발생 하면 모바일 장치에서 데이터를 정리 해야 합니다.
 
-다음을 수행할 수 있는 **위협 으로부터 보호** 범주에 대해 [Exchange Online Protection 및 Office 365 ATP (Advanced Threat Protection)](../security/office-365-security/office-365-atp.md) 를 사용 합니다.
+다음 작업을 수행할 수 있는 **위협 으로부터 보호** 범주에 대해 [Exchange Online Protection 및 Office 365 용 Microsoft Defender](../security/office-365-security/office-365-atp.md) 를 사용 합니다.
 
 - 보낸 사람 인증 (SPF, DMARC 및 DKIM)을 사용 하도록 설정 합니다.
-- Office 365 ATP (Advanced Threat Protection) 피싱 방지 정책을 설정 합니다.
-- ATP 안전한 첨부 파일을 구현 합니다.
-- ATP 안전한 링크를 구현 합니다.
+- Microsoft Defender for Office 365-피싱 방지 정책을 설정 합니다.
+- 안전한 첨부 파일을 구현 합니다.
+- 안전한 링크를 구현 합니다.
 - 맬웨어 검색 및 응답 정책을 구현 합니다.
 - 아웃 바운드 및 인바운드 스팸 정책을 구현 합니다.
 
@@ -83,6 +83,6 @@ Microsoft 365에서는 조직에서 데이터 개인 정보 관련 규정 준수
 
 - [일반 ID 및 장치 액세스 정책](../security/office-365-security/identity-access-policies.md)
 - [Office 365에서 위협 으로부터 보호](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58)
-- [ATP 안전한 첨부 파일](../security/office-365-security/atp-safe-attachments.md)
-- [ATP 안전한 링크](../security/office-365-security/atp-safe-links.md)
-- [ATP 안전한 문서](../security/office-365-security/safe-docs.md)
+- [안전한 첨부 파일](../security/office-365-security/atp-safe-attachments.md)
+- [안전한 링크](../security/office-365-security/atp-safe-links.md)
+- [안전한 문서](../security/office-365-security/safe-docs.md)

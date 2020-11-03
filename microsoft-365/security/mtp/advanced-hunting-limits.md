@@ -1,5 +1,5 @@
 ---
-title: Microsoft Threat Protection의 고급 구하기 할당량 및 사용 현황 매개 변수
+title: Microsoft 365 Defender의 고급 구하기 할당량 및 사용 현황 매개 변수
 description: 고급 구하기 서비스의 응답성을 유지 하는 다양 한 할당량 및 사용 매개 변수 (서비스 제한) 이해
 keywords: 고급 구하기, 위협 검색, 사이버 위협 사냥, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마, kusto, CPU 제한, 쿼리 제한, 리소스, 최대 결과, 할당량, 매개 변수, 할당
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 192fb47aafdd20bd5e1f0774a64ec3215f1203d1
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: bab63d9e5939f87f6a1edbf62d256b82552e4fe9
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48636908"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847371"
 ---
 # <a name="advanced-hunting-quotas-and-usage-parameters"></a>고급 구하기 할당량 및 사용 현황 매개 변수
 
@@ -32,7 +32,7 @@ ms.locfileid: "48636908"
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 서비스의 성능과 응답성을 유지 하기 위해 고급 사냥은 다양 한 할당량 및 사용 현황 매개 변수 ("서비스 제한"이 라고도 함)를 설정 합니다. 이러한 할당량 및 매개 변수는 수동으로 실행 되는 쿼리와 [사용자 지정 검색 규칙](custom-detection-rules.md)에 따라 적용 됩니다. 정기적으로 여러 쿼리를 실행 하는 고객은 소비를 추적 하 고, 중단을 최소화 하기 위한 [최적화 모범 사례를 적용](advanced-hunting-best-practices.md) 해야 합니다
 

@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 8ced46ea30c7225fd3e5c8f1309ef482542e51b2
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: de0bc092c35c7f48c562da8d4218f7a638abe1d5
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445786"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847783"
 ---
 # <a name="microsoft-managed-desktop-roles-and-responsibilities"></a>Microsoft Managed Desktop 역할 및 책임
 
@@ -33,7 +33,7 @@ Microsoft는 다음과 같은 주요 역할 및 책임을 제공 합니다.
 MDM 정책 관리 | Microsoft는 모범 사례에 따라 MDM 정책을 적용 하 고 정책 변경에 대 한 요청을 고려 합니다. 또한 [장치 정책](../service-description/device-policies.md)에 지정 된 대로 테 넌 트를 변경 하 게 됩니다.
 사용자 지원 | 모든 Microsoft 관리 되는 데스크톱 장치에 사전 설치 된 도움말 보기 앱을 통해 모든 등록 된 사용자에 대해 장치, Windows 및 Microsoft 365 앱 제품군에 대 한 사용자 지원 서비스를 제공 합니다. 
 Microsoft Managed Desktop 서비스 지원 | Microsoft는 Microsoft 관리 데스크톱 운영 팀을 통해 IT 부서를 지원 합니다. 이 팀은 고객의 Microsoft Managed Desktop 환경에 대 한 기술 문제 해결, 변경 요청 및 문제 관리를 지원 합니다. 자세한 내용은 [Microsoft Managed Desktop에 대 한 관리자 지원을](../working-with-managed-desktop/admin-support.md)참조 하세요.
-보안 모니터링 | Microsoft는 microsoft Defender ATP를 사용 하 여 Microsoft Managed Desktop devices를 모니터링 합니다. Microsoft Managed Desktop (데스크톱 보안 작업 센터)이 위협을 감지 하면 사용자에 게 알림을 제공 하 고, 장치를 격리 하 고, 원격으로 문제를 수정 합니다. 자세한 내용은 [Security](../service-description/security.md)를 참조 하십시오.
+보안 모니터링 | Microsoft는 끝점에 대해 Microsoft Defender를 사용 하 여 Microsoft Managed Desktop devices를 모니터링 합니다. Microsoft Managed Desktop (데스크톱 보안 작업 센터)이 위협을 감지 하면 사용자에 게 알림을 제공 하 고, 장치를 격리 하 고, 원격으로 문제를 수정 합니다. 자세한 내용은 [Security](../service-description/security.md)를 참조 하십시오.
 모니터링 및 관리 업데이트 | Microsoft 관리 데스크톱 장치를 적극적으로 모니터링 하 여 Microsoft Windows 및 Microsoft Office에 대 한 최신 품질 및 기능 업데이트가 설치 되어 있는지 확인 합니다. 자세한 내용은 [업데이트를 처리 하는 방법을](../service-description/updates.md)참조 하세요.
 사용자 및 장치 그룹화 | Microsoft Managed Desktop operations team은 IT 작업의 일부로 필요한 장치 및 사용자 그룹을 만들고 관리 합니다. 이러한 그룹에는 멤버 자격 또는 구성 변경이 허용 되지 않습니다. 이러한 그룹을 변경 하면 예기치 않은 장치를 구성 하 고 기능 손실을 유발할 수 있습니다. 이러한 그룹에 대 한 문제나 의문 사항이 일단 설정 되 면 IT 관리자는 Microsoft Managed Desktop 작업에 문의할 수 있습니다. 자세한 내용은 [Microsoft Managed Desktop에 대 한 관리자 지원을](../working-with-managed-desktop/admin-support.md)참조 하세요.
 

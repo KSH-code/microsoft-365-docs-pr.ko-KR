@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 289f0763d6a7e887946a5672fde5341f79f96855
-ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
+ms.openlocfilehash: 82a7d1c9eec13d87fa45b12b072e9712ccd267c2
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816863"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847814"
 ---
 # <a name="insider-risk-management-in-microsoft-365"></a>Microsoft 365의 참가자 위험 관리
 
@@ -146,7 +146,7 @@ Microsoft 365의 참가자 위험 관리의 내부 위험 활동 및 준수 문�
 
 ## <a name="intentional-or-unintentional-security-policy-violations-preview"></a>의도적인 또는 의도 보안 정책 위반 (미리 보기)
 
-사용자는 일반적으로 최신 직장에서 자신의 장치를 관리할 때 많은 제어 권한을 갖습니다. 여기에는 해당 작업의 성능에 필요한 응용 프로그램을 설치 또는 제거 하거나 장치 보안 기능을 일시적으로 사용 하지 않도록 설정할 수 있는 권한이 포함 될 수 있습니다. 이 활동이 실수로 든 실수로 또는 악의적이 든 관계 없이이 작업은 조직에 위험을 초래할 수 있으며 파악 및 최소화 작업을 수행 하는 것이 중요 합니다. 이러한 위험한 보안 활동을 식별 하기 위해 다음과 같은 참가자 위험 관리 보안 정책 위반 템플릿은 보안 위험 요소를 파악 하 고 Microsoft의 다음 ATP (Advanced Threat Protection) 알림을 사용 하 여 보안 관련 작업에 대 한 정보를 제공 합니다.
+사용자는 일반적으로 최신 직장에서 자신의 장치를 관리할 때 많은 제어 권한을 갖습니다. 여기에는 해당 작업의 성능에 필요한 응용 프로그램을 설치 또는 제거 하거나 장치 보안 기능을 일시적으로 사용 하지 않도록 설정할 수 있는 권한이 포함 될 수 있습니다. 이 활동이 실수로 든 실수로 또는 악의적이 든 관계 없이이 작업은 조직에 위험을 초래할 수 있으며 파악 및 최소화 작업을 수행 하는 것이 중요 합니다. 이러한 위험한 보안 활동을 식별 하기 위해 다음과 같은 참가자 위험 관리 보안 정책 위반 템플릿은 보안 위험 요소를 확인 하 고 Microsoft Defender를 사용 하 여 끝점 알림에 대해 보안 관련 작업에 대 한 정보를 제공 합니다.
 
 - [일반 보안 정책 위반 (미리 보기)](insider-risk-management-policies.md#general-security-policy-violations-preview)
 - [Departing 사용자의 보안 정책 위반 (미리 보기)](insider-risk-management-policies.md#security-policy-violations-by-departing-users-preview)

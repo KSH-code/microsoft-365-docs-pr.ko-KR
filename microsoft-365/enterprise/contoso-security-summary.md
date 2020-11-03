@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 기업에 대 한 Microsoft 365의 보안 기능을 사용 하는 방법
-ms.openlocfilehash: d84b1423497a6a4358142902c4e159cc54b3500b
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 8d62dba96ecf19f0dc31af2cf5a2d85257ca19d5
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754235"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847109"
 ---
 # <a name="summary-of-microsoft-365-for-enterprise-security-for-the-contoso-corporation"></a>Contoso Corporation의 엔터프라이즈 보안용 Microsoft 365 요약
 
@@ -89,9 +89,9 @@ Contoso는 다음 단계를 수행 하 여 기업에 대 한 Microsoft 365 배�
 
   Contoso는 Windows 10 Enterprise가 실행되는 PC 및 장치에 대해 맬웨어 보호 및 맬웨어 방지 관리를 제공하기 위해 [Windows Defender 바이러스 백신](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10)을 사용하고 있습니다.
 
-- Office 365 고급 위협 방지 기능으로 전자 메일 흐름 및 사서함 감사 로깅 보호 
+- Office 용 Microsoft Defender 365의 보안 전자 메일 흐름 및 사서함 감사 로깅 
 
-  Contoso는 Exchange Online Protection 및 [Office 365 Threat Protection ATP(Advanced)](https://docs.microsoft.com/office365/securitycompliance/office-365-atp)를 사용하여 알 수 없는 맬웨어, 바이러스 및 전자 메일을 통해 전송되는 악성 URL로부터 보호하고 있습니다.
+  Contoso는 Exchange Online Protection 및 [Defender For Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-atp) 를 사용 하 여 알 수 없는 맬웨어, 바이러스 및 전자 메일을 통해 전송 되는 악성 url 로부터 보호 합니다.
 
   또한 Contoso는 사서함 감사 로깅을 사용 하도록 설정 하 여 사용자 사서함에 로그인 하 고 메시지를 보내며 사서함 소유자, 위임 된 사용자 또는 관리자가 수행 하는 다른 작업을 식별 합니다.
 
@@ -127,9 +127,9 @@ Contoso는 다음 단계를 수행 하 여 기업에 대 한 Microsoft 365 배�
 
 ## <a name="security-management"></a>보안 관리
 
-- Azure Security Center의 IT 부서를 위한 중앙 보안 대시보드
+- Azure Defender *를 사용 하는 IT 용 중앙 보안 대시보드 *
 
-  Contoso는 [Azure 보안 센터](https://azure.microsoft.com/services/security-center/) 를 사용 하 여 보안 및 위협 방지의 통합 된 보기를 표시 하 고, 작업에 대 한 보안 정책을 관리 하 고, 고 사이버 공격에 응답 합니다.
+  Contoso는 [Azure Defender *](https://azure.microsoft.com/services/security-center/) 를 사용 하 여 보안 및 위협 보호에 대 한 통합 된 보기를 제공 하 고, 워크 로드에 대 한 보안 정책을 관리 하 고, 고 사이버 공격에 응답 합니다.
 
 - Windows Defender 보안 센터의 사용자를 위한 중앙 보안 대시보드
 

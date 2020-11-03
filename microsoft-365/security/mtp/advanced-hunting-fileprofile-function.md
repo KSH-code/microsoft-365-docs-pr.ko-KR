@@ -1,5 +1,5 @@
 ---
-title: Microsoft Threat Protection의 FileProfile () 함수 고급 구하기
+title: FileProfile () 함수 Microsoft 365 Defender의 고급 구하기
 description: FileProfile ()을 사용 하 여 고급 구하기 쿼리 결과의 파일에 대 한 정보를 보강 하는 방법을 알아봅니다.
 keywords: 고급 구하기, 위협 검색, 사이버 위협 사냥, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, FileProfile, file profile, function, 향상
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: e99e545b5578b5eff8c19345dc672f735e4f7bd2
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 31959ed146df52aa6568f7aa60617b74ab8dd4db
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430588"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847455"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
@@ -32,7 +32,7 @@ ms.locfileid: "48430588"
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 `FileProfile()`이 함수는 [고급](advanced-hunting-overview.md) 검색에서 쿼리에 의해 찾은 파일에 다음 데이터를 추가 하는 향상 함수입니다.
 
@@ -63,8 +63,8 @@ invoke FileProfile(x,y)
 
 ## <a name="arguments"></a>인수나
 
-- **x**-사용할 파일 ID 열: `SHA1` , `SHA256` , `InitiatingProcessSHA1` , 또는 `InitiatingProcessSHA256` ; function이 `SHA1` 지정 되지 않은 경우 사용 합니다.
-- **y**-보강할 레코드 수에 대 한 제한 1-1000; 함수가 지정 되지 않은 경우 100을 사용 합니다.
+- **x** -사용할 파일 ID 열: `SHA1` , `SHA256` , `InitiatingProcessSHA1` , 또는 `InitiatingProcessSHA256` ; function이 `SHA1` 지정 되지 않은 경우 사용 합니다.
+- **y** -보강할 레코드 수에 대 한 제한 1-1000; 함수가 지정 되지 않은 경우 100을 사용 합니다.
 
 ## <a name="examples"></a>예
 

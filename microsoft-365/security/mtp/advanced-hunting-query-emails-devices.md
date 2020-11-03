@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 6c758c05a64cd7ce84a2b021fe32f9e5ce5c1090
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 97640c318908b87c211caed780624080508a255f
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48431066"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847347"
 ---
 # <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a>장치, 전자 메일, 앱 및 id 간의 위협 구하기
 
@@ -32,12 +32,12 @@ ms.locfileid: "48431066"
 
 
 **적용 대상:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
-Microsoft Threat Protection의 [고급 구하기](advanced-hunting-overview.md) 에서는 다음을 통해 위협을 사전에 사냥 할 수 있습니다.
-- Microsoft Defender ATP에서 관리 하는 장치
+Microsoft 365 Defender의 [고급 구하기](advanced-hunting-overview.md) 에서는 다음을 통해 위협을 사전에 사냥 하는 데 도움이 됩니다.
+- Microsoft Defender for Endpoint에서 관리 되는 장치
 - Microsoft 365에서 처리 하는 전자 메일
-- Microsoft Cloud App Security 및 Azure ATP에서 추적 하는 클라우드 앱 작업, 인증 이벤트 및 도메인 컨트롤러 작업
+- Microsoft Cloud App Security 및 Id 용 Microsoft Defender에서 추적 되는 클라우드 앱 작업, 인증 이벤트 및 도메인 컨트롤러 작업
 
 이 표시 수준을 사용 하면 전자 메일 또는 웹에 도착 하는 정교한 침입, 로컬 권한 승격, 권한이 부여 된 도메인 자격 증명 획득 및 장치 간에 laterally 이동을 비롯 하 여 네트워크의 섹션을 통과 하는 위협 요소를 신속 하 게 파악할 수 있습니다. 
 

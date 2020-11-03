@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 15a62da1222fc55d50dfd4c3b2f0e7ba4a0554eb
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: 5698e2a88adf3d2bae84a82e0e001132293e36be
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778623"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847719"
 ---
 # <a name="security-operations-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 보안 작업
 
@@ -41,4 +41,4 @@ SOC는 다음과 같은 서비스를 제공 합니다.
     - 복구
     - 인시던트 사후 활동
 - Microsoft Managed Desktop 고객은 Microsoft Threat services 전문가 서비스에 등록할 수 있습니다. 이 서비스를 사용 하는 SOC liaises에서는 경고 조회, 잠재적으로 손상 된 장치, 의심 스러운 네트워크 연결의 근본 원인 및 진행 중인 고급 지속적인 위협 캠페인에 대 한 추가 위협 인텔리전스를 비롯 하 여 조직에 영향을 주는 복잡 한 위협을 이해 하는 데 도움이 됩니다. 자세한 내용은 [Microsoft Threat 전문가가](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-threat-experts)를 참조 하세요.
-- SOC의 위협 및 취약성 관리 프로세스는 Microsoft의 일부 서비스를 사용 하 여 조직에서 위협 으로부터 보호 하기 위한 권장 사항을 알리는 데 도움을 줍니다. SOC는 Microsoft Defender Advanced Threat Protection 보안 센터 및 Microsoft 외부의 관련 취약성 데이터 원본에서 데이터를 사용 하 여 취약성 및 구성 오류를 검색 하 고 조치를 취할 수 있는 보고 기능을 제공 합니다.
+- SOC의 위협 및 취약성 관리 프로세스는 Microsoft의 일부 서비스를 사용 하 여 조직에서 위협 으로부터 보호 하기 위한 권장 사항을 알리는 데 도움을 줍니다. SOC는 microsoft Defender for Endpoint 보안 센터 및 Microsoft 외부의 관련 취약성 데이터 원본에서 데이터를 사용 하 여 취약성 및 구성 오류를 검색 하 고 조치를 취할 수 있는 보고 기능을 제공 합니다.

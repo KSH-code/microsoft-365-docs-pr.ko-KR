@@ -1,6 +1,6 @@
 ---
-title: Microsoft Threat Protection의 자동화 된 조사에 따라 수정 작업 수행
-description: Microsoft Threat Protection의 자동화 된 조사를 따르는 업데이트 관리 작업에 대 한 개요를 확인 하세요.
+title: Microsoft 365 Defender의 자동화 된 조사에 따라 수정 작업 수행
+description: Microsoft 365 Defender의 자동화 된 조사를 따르는 업데이트 관리 작업에 대 한 개요를 확인 하세요.
 keywords: 자동화된, 조사, 경고, 트리거, 작업, 수정
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -21,27 +21,27 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.date: 09/16/2020
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 5106ef34f11cb43d74fa993fcdb820d6a5dce86f
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 71cdf2d1b9a40e9cfbf487ca8596a0c2b09475d1
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429482"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847215"
 ---
-# <a name="remediation-actions-following-automated-investigations-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 자동화 된 조사에 따라 수정 작업 수행
+# <a name="remediation-actions-following-automated-investigations-in-microsoft-365-defender"></a>Microsoft 365 Defender의 자동화 된 조사에 따라 수정 작업 수행
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 
 ## <a name="remediation-actions"></a>수정 작업
 
-Microsoft Threat Protection에 대 한 자동화 된 조사 중 및 후에는 악성 또는 의심 스러운 항목에 대 한 재구성 작업이 식별 됩니다. 일부 유형의 재구성 작업은 끝점이 라고도 하는 장치에서 수행 됩니다. 전자 메일 콘텐츠에 대 한 기타 수정 작업을 수행 합니다. 자동화 된 조사 작업을 수행, 승인 또는 거부 한 후에 완료 됩니다.
+Microsoft 365 Defender에 대 한 자동화 된 조사 중 및 후에는 악성 또는 의심 스러운 항목에 대 한 재구성 작업이 식별 됩니다. 일부 유형의 재구성 작업은 끝점이 라고도 하는 장치에서 수행 됩니다. 전자 메일 콘텐츠에 대 한 기타 수정 작업을 수행 합니다. 자동화 된 조사 작업을 수행, 승인 또는 거부 한 후에 완료 됩니다.
 
-다음 표에서는 현재 Microsoft Threat Protection에서 지원 되는 수정 작업을 요약 하 여 보여 줍니다. 
+다음 표에서는 현재 Microsoft 365 Defender에서 지원 되는 수정 작업을 요약 하 여 보여 줍니다. 
 
 |장치 (끝점) 재구성 작업  |전자 메일 수정 작업  |
 |---------|---------|
@@ -57,14 +57,14 @@ Microsoft Threat Protection에 대 한 자동화 된 조사 중 및 후에는 �
 
 |의견    |영역    |결과|
 |------|------|------|
-|악성    |장치 (끝점)    |관리 작업이 자동으로 수행 됩니다 (조직의 [장치 그룹이](mtp-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups) **전체 치료 위협으로 자동으로**설정 된 경우).|
+|악성    |장치 (끝점)    |관리 작업이 자동으로 수행 됩니다 (조직의 [장치 그룹이](mtp-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups) **전체 치료 위협으로 자동으로** 설정 된 경우).|
 |악성    |전자 메일 콘텐츠 (Url 또는 첨부 파일) | 승인 보류 중인 재구성 활동 |
 |피싱    |장치 또는 전자 메일 콘텐츠 |승인 보류 중인 재구성 활동 |
 |발견 된 위협 없음    |장치 또는 전자 메일 콘텐츠    |재구성 작업이 필요 하지 않습니다.|
 
 > [!IMPORTANT]
 > 재구성 작업이 자동으로 수행 되는지, 승인 된 경우에만 조직의 장치 그룹 정책 등의 특정 설정에 따라 달라 집니다. 자세한 내용은 다음 문서를 참조 하십시오.
-> - [Microsoft Threat Protection에서 자동화 된 조사 및 응답 기능 구성](mtp-configure-auto-investigation-response.md)
+> - [Microsoft 365 Defender에서 자동화 된 조사 및 응답 기능 구성](mtp-configure-auto-investigation-response.md)
 > - [장치에서 위협이 재구성 되는 방식](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 
 ## <a name="next-steps"></a>다음 단계

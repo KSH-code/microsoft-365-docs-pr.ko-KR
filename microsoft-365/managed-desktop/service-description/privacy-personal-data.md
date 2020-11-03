@@ -10,12 +10,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 33a2bf0b85b9b8561a5dcf32eae6e4cd0cb53765
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 294a3c6c54e28fa03ff6264898e7763325f78c3e
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950487"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847771"
 ---
 # <a name="privacy-and-personal-data"></a>개인 정보 및 개인 데이터
 
@@ -56,7 +56,7 @@ Microsoft Managed Desktop에서는 다음 데이터를 사용 합니다.
 |---------|---------|
 |Azure Active Directory 데이터     | Microsoft Managed Desktop Admin 포털에서 사용할 수 있는 테 넌 트 관리자 용으로 만든 보고서에서 사용 됩니다.        |
 |Intune 데이터     | Microsoft Managed Desktop Admin 포털에서 사용할 수 있는 테 넌 트 관리자 용으로 만든 보고서에서 사용 됩니다.        |
-|Microsoft Defender Advanced Threat Protection (ATP)     |  Microsoft 관리 되는 데스크톱의 SOC (보안 작업 센터)에 의해 등록 된 장치에서 검색 된 보안 위험을 해결 하는 데 사용 됩니다.  |
+|엔드포인트용 Microsoft Defender     |  Microsoft 관리 되는 데스크톱의 SOC (보안 작업 센터)에 의해 등록 된 장치에서 검색 된 보안 위험을 해결 하는 데 사용 됩니다.  |
 |Windows 진단 데이터     |관리 되는 장치의 업데이트 상태를 확인 하 고, Microsoft Managed Desktop의 IT 서비스 (ITaaS) 제공을 제공 및 개선 하는 데 사용 됩니다.         |
 |관리자 연락처 데이터     | Microsoft Managed Desktop이 테 넌 트 관리자와 통신 하는 데 사용 됩니다.        |
 
@@ -73,7 +73,7 @@ Microsoft Managed Desktop은 이러한 엔터티를 처리 하 여 서비스를 
 - 테 넌 트 데이터
 - Azure Active Directory 리소스
 - 정책 및 구성 데이터
-- Microsoft Defender ATP 메타 데이터
+- 끝점 메타 데이터에 대 한 Microsoft Defender
 - Windows 진단 데이터
 - 제품 및 서비스 사용 현황 데이터
 
@@ -87,9 +87,9 @@ Microsoft Managed Desktop에서 사용 되는 id 데이터는 Office 365 또는 
 
 Intune 데이터는 유럽 북부 (아일랜드) 및 유럽 서 부 (네덜란드)와 같은 몇 가지 다른 지역에 저장 될 수 있습니다. IT 관리자가 테 넌 트 계정을 만들고 처음 Intune 서비스에 등록할 때 데이터가 저장 될 국가를 선택 합니다. Intune에서 사용 되는 데이터 센터 위치 목록은 [Microsoft Intune-내 고객 데이터의 위치](http://intunedatacentermap.azurewebsites.net/)를 참조 하세요. Intune에서 데이터를 저장 하 고 사용 하는 방법에 대 한 자세한 내용은 [intune에서 데이터 수집](https://docs.microsoft.com/intune/privacy-data-collect)을 참조 하십시오.
 
-### <a name="microsoft-defender-advanced-threat-protection"></a>Microsoft Defender Advanced Threat Protection
+### <a name="microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender
 
-Microsoft Defender ATP (Advanced Threat Protection) 데이터는 몇 가지 다른 지역에 저장 될 수 있습니다. 이러한 이유 때문에 microsoft defender ATP는 microsoft [DEFENDER atp](http://intunedatacentermap.azurewebsites.net/)에 설명 된 대로 유럽 연합, 영국 및 미국의 microsoft Azure 데이터 센터에서 작동 합니다. Microsoft Defender ATP에서 데이터를 저장 하 고 사용 하는 방법에 대 한 자세한 내용은 [Microsoft DEFENDER atp에서 수집 하는 데이터](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy#what-data-does-microsoft-defender-atp-collect) 를 참조 하세요.
+끝점 데이터에 대 한 Microsoft Defender는 몇 가지 다른 지역에 저장 될 수 있습니다. 이러한 이유로, Defender for Endpoint는 microsoft [defender for a for a Data storage 위치](http://intunedatacentermap.azurewebsites.net/)에 설명 된 유럽 연합, 영국 및 미국의 microsoft Azure 데이터 센터에서 작동 합니다. Defender for Endpoint에서 데이터를 저장 하 고 사용 하는 방법에 대 한 자세한 내용은 [Microsoft Defender에서 종단점을 수집 하는 데이터](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy#what-data-does-microsoft-defender-atp-collect) 를 참조 하세요.
 
 ### <a name="windows-10"></a>Windows 10
 
@@ -138,5 +138,5 @@ Microsoft Managed Desktop은 프로 파일링, 광고 또는 마케팅 목적으
 
 - [Azure Active Directory](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure?view=o365-worldwide)
 - [Microsoft Intune](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-intune?view=o365-worldwide)
-- [Microsoft Defender ATP](https:/docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
+- [끝점에 대 한 Microsoft Defender](https:/docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
 - [Windows 10](https://docs.microsoft.com/windows/privacy/windows-10-and-privacy-compliance)

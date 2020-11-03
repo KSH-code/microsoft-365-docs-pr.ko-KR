@@ -14,12 +14,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용 하 여 추가 Microsoft 365 보안 설정 (엔터프라이즈 테스트 환경에 대해 Microsoft 365)을 사용 하도록 설정 합니다.
-ms.openlocfilehash: 7c3300111f5999714b87a176087207a1651cdcaf
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: d385688a6e59ee500442bcf1b815dfd165102242
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487403"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847003"
 ---
 # <a name="increased-microsoft-365-security-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈 테스트 환경용 Microsoft 365에 대 한 Microsoft 365 보안 강화
 
@@ -55,22 +55,22 @@ ms.locfileid: "48487403"
     
   - 시뮬레이트된 엔터프라이즈 Microsoft 365 테스트 환경을 사용 하는 경우 [Azure portal](https://portal.azure.com) 을 사용 하 여 client1 가상 컴퓨터에 연결한 다음 client1에서 로그인 합니다.
  
-2. 새 **Microsoft 365 관리 센터** 탭의 왼쪽 탐색 창에 있는 **관리 센터** 에서 **SharePoint**를 클릭 합니다.
-3. 새 **SharePoint 관리 센터** 탭에서 **정책 > 액세스 제어**를 클릭 합니다.
-4. **최신 인증을 지원 하지 않는 앱**을 클릭 하 고 **액세스 차단을**선택한 다음 **저장**을 클릭 합니다.
+2. 새 **Microsoft 365 관리 센터** 탭의 왼쪽 탐색 창에 있는 **관리 센터** 에서 **SharePoint** 를 클릭 합니다.
+3. 새 **SharePoint 관리 센터** 탭에서 **정책 > 액세스 제어** 를 클릭 합니다.
+4. **최신 인증을 지원 하지 않는 앱** 을 클릭 하 고 **액세스 차단을** 선택한 다음 **저장** 을 클릭 합니다.
 
 
-### <a name="enable-advanced-threat-protection-for-sharepoint-onedrive-for-business-and-microsoft-teams"></a>SharePoint, 비즈니스용 OneDrive 및 Microsoft 팀에 대해 Advanced Threat Protection을 사용 하도록 설정
+### <a name="enable-defender-for-office-365-for-sharepoint-onedrive-for-business-and-microsoft-teams"></a>SharePoint, 비즈니스용 OneDrive 및 Microsoft 팀에 대해 Defender for Office 365을 사용 하도록 설정
 
-SharePoint, OneDrive 및 Microsoft 팀의 Office 365 Advanced Threat Protection (ATP)은 악의적인 파일을 실수로 공유 하지 않도록 조직을 보호 합니다.
+Defender for Office 365 for SharePoint, OneDrive 및 Microsoft 팀에서는 조직이 악성 파일을 실수로 공유 하지 않도록 보호 합니다.
 
 1. [보안 & 준수 센터로](https://protection.office.com) 이동 하 여 전역 관리자 계정으로 로그인 합니다.
 
-2. 왼쪽 탐색 창의 **위협 관리**에서 **정책을**클릭 하 고 **ATP 안전한 첨부 파일**을 클릭 합니다. 
+2. 왼쪽 탐색 창의 **위협 관리** 에서 **정책을** 클릭 하 고 **안전한 첨부 파일** 을 클릭 합니다. 
 
-3. **SharePoint, OneDrive 및 Microsoft 팀의 파일을 보호**합니다. **SharePoint, OneDrive 및 Microsoft 팀에 대해 ATP 사용**을 선택 합니다.
+3. **SharePoint, OneDrive 및 Microsoft 팀의 파일을 보호** 합니다. **SharePoint, OneDrive 및 Microsoft 팀에 대해 ATP 사용** 을 선택 합니다.
 
-4. **저장**을 클릭합니다.
+4. **저장** 을 클릭합니다.
 
 
 ### <a name="enable-anti-malware"></a>맬웨어 방지 사용
@@ -82,10 +82,10 @@ Microsoft 365에는 악성 소프트웨어 로부터 인바운드 및 아웃 바
 일반적인 첨부 파일 형식이 포함 된 파일에서 맬웨어 방지 처리가 수행 되 고 있는지 확인 하려면 다음과 같이 합니다.
 
 1. 브라우저에서 뒤로 단추를 클릭 하 여 **정책** 페이지로 돌아갑니다.
-2. **맬웨어 방지**를 클릭 합니다.
-3. **Default**라는 정책을 두 번 클릭 합니다.
-4. **맬웨어 방지 정책** 창에서 **설정을**클릭 합니다.
-4. **일반 첨부 파일 형식 필터**에서 **설정**를 선택 하 고 **저장**을 클릭 합니다.
+2. **맬웨어 방지** 를 클릭 합니다.
+3. **Default** 라는 정책을 두 번 클릭 합니다.
+4. **맬웨어 방지 정책** 창에서 **설정을** 클릭 합니다.
+4. **일반 첨부 파일 형식 필터** 에서 **설정** 를 선택 하 고 **저장** 을 클릭 합니다.
 
 
 ## <a name="phase-3-examine-the-security-dashboard"></a>3 단계: 보안 대시보드 검사
@@ -96,7 +96,7 @@ Microsoft 365의 위협 관리 기능을 사용 하면 조직의 데이터에 �
 
 1. 필요한 경우 [보안 & 준수 센터로](https://protection.office.com) 이동 하 여 전역 관리자 계정으로 로그인 합니다.
 
-2. 왼쪽 탐색 창의 **위협 관리**에서 **대시보드**를 클릭 합니다.
+2. 왼쪽 탐색 창의 **위협 관리** 에서 **대시보드** 를 클릭 합니다.
 
 대시보드의 모든 카드를 살펴보고 제공 된 정보를 숙지 합니다.
 
@@ -107,7 +107,7 @@ Microsoft 365의 위협 관리 기능을 사용 하면 조직의 데이터에 �
 
 Microsoft 보안 점수는 구독에서 사용할 수 있는 기능을 기준으로 현재 수준을 나타내는 숫자로, 보안 상황을 표시 합니다. 또한 점수를 높이기 위해 수행할 수 있는 개선 작업 목록을 제공 합니다.
 
-1. 브라우저에서 새 탭을 만들고 [Microsoft 365 보안 센터로](https://security.microsoft.com/)이동한 후 **보안 점수**를 클릭 합니다.
+1. 브라우저에서 새 탭을 만들고 [Microsoft 365 보안 센터로](https://security.microsoft.com/)이동한 후 **보안 점수** 를 클릭 합니다.
 2. **개요** 탭에서 현재 보안 점수를 확인 하 고, 유사한 라이선스 수를 포함 하는 전역 평균과 구독과 비교 하는 방법을 알아봅니다.
 3. **향상 작업** 탭에서 점수를 증가 시키기 위해 수행할 수 있는 작업 목록을 읽습니다.
 

@@ -1,6 +1,6 @@
 ---
-title: Microsoft Threat Protection 사고 우선순위
-description: Microsoft Threat Protection의 사고 큐에서 우선 순위를 지정 하는 방법을 알아봅니다.
+title: Microsoft 365 Defender의 문제점 우선 순위 지정
+description: Microsoft 365 Defender의 인시던트 큐에서 인시던트의 우선 순위를 지정 하는 방법을 알아봅니다.
 keywords: 사고, 큐, 개요, 장치, 식별, 사용자, 사서함, 전자 메일, 사고
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -21,27 +21,27 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 382cfd374c40d0c5a0dd7d7705281bd56263d8b8
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: f681d02cc4af8bd56ba945a3d944798e545bf93c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430826"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846715"
 ---
-# <a name="prioritize-incidents-in-microsoft-threat-protection"></a>Microsoft Threat Protection 사고 우선순위
+# <a name="prioritize-incidents-in-microsoft-365-defender"></a>Microsoft 365 Defender의 문제점 우선 순위 지정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **적용 대상:**
-- Microsoft Threat Protection 
+- Microsoft 365 Defender
 
 
 
-Microsoft Threat Protection은 상관 관계 분석을 하고 관련된 모든 알람을 수집한 뒤 각각의 다른 제품에서 발생한 알람을 하나의 사고로 조사합니다.  Microsoft Threat Protection 전체 항목 및 제품군 엔드 투 엔드 가시성에서 악성으로 판단된 작업에 대해서는 특별 알람을 발생시킵니다.  Microsoft Threat Protection은 보다 광범위한 공격내용을 구연함으로써 보안 운영 분석가가 조직 전반을 위협하는 복잡한 공격을 이해하고 처리할 수 있도록 합니다. 
+Microsoft 365 Defender는 상관 분석을 적용 하 고 다양 한 제품의 모든 관련 알림과 조사를 하나의 인시던트로 집계 합니다. Microsoft 365 Defender는 또한 Microsoft 365 Defender가 전체 부동산 및 제품군에 걸쳐 있는 종단 간 가시성과 함께 악의적으로 식별 될 수 있는 작업에 대 한 고유한 경고를 트리거합니다. 이를 통해 Microsoft 365 Defender는 보다 폭넓은 공격 영역을 narrates, 보안 작업 분석가가 조직 전체에서 복잡 한 위협을 이해 하 고 처리할 수 있도록 허용 합니다.
 
 
-**사고 큐**는 장치, 사용자 및 사서함에 대해 플래그가 지정 된 사고의 모음을 보여 줍니다. 이 기능은 사고 우선순위를 정하고 사이버 보안 반응 결정을 내리는 데 도움을 줍니다.
+**사고 큐** 는 장치, 사용자 및 사서함에 대해 플래그가 지정 된 사고의 모음을 보여 줍니다. 이 기능은 사고 우선순위를 정하고 사이버 보안 반응 결정을 내리는 데 도움을 줍니다.
 
 
 ![사고 큐의 이미지](../../media/incidents-queue.png) 
@@ -75,7 +75,7 @@ Microsoft Threat Protection은 상관 관계 분석을 하고 관련된 모든 �
 
 
 ### <a name="multiple-service-sources"></a>다중 서비스 원인 
-다중 원인(Microsoft Defender ATP, Microsoft Cloud App Security, Azure ATP, Office 365 ATP) 알림이 포함 된 사고만 표시 하도록 필터링 할 수 있습니다. 
+서로 다른 원본 (끝점에 대 한 Microsoft Defender, Microsoft Cloud App Security, Id 용 microsoft defender, Office 365 용 Microsoft Defender)의 경고가 포함 된 인시던트만 표시 되도록 필터링 합니다.
 ### <a name="service-sources"></a>서비스 원인
 특정 원인을 선택 하면 해당 원인에서 최소 하나의 알림을 포함 하는 사고에 집중할 수 있습니다. 
 

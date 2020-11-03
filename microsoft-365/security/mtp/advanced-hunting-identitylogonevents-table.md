@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 212189c89f354b186072bb109f119cf048680d08
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 176f131ad020d001b72b97332d54be71feef5548
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48431090"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847419"
 ---
 # <a name="identitylogonevents"></a>IdentityLogonEvents
 
@@ -32,9 +32,9 @@ ms.locfileid: "48431090"
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
-`IdentityLogonEvents` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 Azure ATP가 캡처한 온-프레미스 Active Directory를 통해 작성 된 인증 작업 및 Microsoft Cloud App Security에서 캡처한 microsoft online services와 관련 된 인증 작업에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+`IdentityLogonEvents` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 Microsoft Cloud App Security에서 캡처한 microsoft online services와 관련 된 인증 작업 및 Id에 대해 microsoft Defender에서 캡처한 인증 작업에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 >[!TIP]
 > 테이블에서 지 원하는 이벤트 유형 (값)에 대 한 자세한 내용은 `ActionType` 보안 센터에서 사용할 수 있는 [기본 제공 스키마 참조](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 를 사용 하십시오.

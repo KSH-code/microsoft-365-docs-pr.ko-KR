@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 739ee33b162c1e701603a17e59f0d0c2611c064c
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 7672d974666a381a48da15e0917a46c97df88895
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430178"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847671"
 ---
 # <a name="alertinfo"></a>AlertInfo
 
@@ -32,11 +32,11 @@ ms.locfileid: "48430178"
 
 
 **적용 대상:**
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 
 
-`AlertInfo` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 microsoft Defender atp, Office 365 ATP, Microsoft Cloud App SECURITY 및 Azure ATP의 알림에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+`AlertInfo` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 끝점에 대 한 microsoft Defender, Microsoft defender for Office 365, Microsoft Cloud App Security 및 Identity 용 microsoft defender의 경고에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 

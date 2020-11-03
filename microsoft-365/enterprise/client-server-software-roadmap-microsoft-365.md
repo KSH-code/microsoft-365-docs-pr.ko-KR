@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365 용 클라이언트 및 서버 소프트웨어를 설정 하기 위한 로드맵
-ms.openlocfilehash: 94412ca4a7665807368ae33a0e50dc928445c8b7
-ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
+ms.openlocfilehash: d51aead9a50df3acace94526824cfa08fc083a01
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655962"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847157"
 ---
 # <a name="client-and-server-software-roadmap-for-microsoft-365"></a>Microsoft 365에 대 한 클라이언트 및 서버 소프트웨어 로드맵
 
@@ -31,7 +31,7 @@ ms.locfileid: "48655962"
 - 장치의 Windows 7 및 Windows 8.1을 Windows 10 Enterprise로
 
 >[!Note]
->Windows 7이 **2020년 1월 14일**에 지원이 종료되었습니다. 자세한 내용은 [여기](https://support.microsoft.com/help/4057281/windows-7-support-will-end-on-january-14-2020)를 클릭하세요.
+>Windows 7이 **2020년 1월 14일** 에 지원이 종료되었습니다. 자세한 내용은 [여기](https://support.microsoft.com/help/4057281/windows-7-support-will-end-on-january-14-2020)를 클릭하세요.
 >
 
 시간에 따른 이러한 마이그레이션을 모두 수행 하면 조직이 [최신 작업 회사](https://www.microsoft.com/microsoft-365/blog/2018/04/27/making-it-simpler-with-a-modern-workplace/)와 보다 가까운 환경, 즉 조직의 팀 작업 및 표준에 대 한 잠금을 해제 하는 안전 하 고 통합 된 환경을 사용할 수 있으며, 이러한 모든 기능을 사용 하도록 설정 하 여 기업에 대 한 Microsoft 365의 권한을 얻습니다.
@@ -60,7 +60,7 @@ Office 2007을 실행하는 컴퓨터를 Office 2010, Office 2013 또는 Office 
 
 ### <a name="office-2010"></a>Office 2010
 
-Office 2010 릴리스의 Office 버전의 경우 지원은 **2020 년 10 월 13 일**에 종료 되었습니다. 자세한 내용은 [Office 2010 지원 종료 로드맵](https://docs.microsoft.com/deployoffice/office-2010-end-support-roadmap)을 참조하세요.
+Office 2010 릴리스의 Office 버전의 경우 지원은 **2020 년 10 월 13 일** 에 종료 되었습니다. 자세한 내용은 [Office 2010 지원 종료 로드맵](https://docs.microsoft.com/deployoffice/office-2010-end-support-roadmap)을 참조하세요.
 
 Office 2010을 실행하는 컴퓨터를 Office 2013 또는 Office 2016으로 업그레이드하는 대신(둘 다 수동으로 업데이트해야 함), 다음을 수행하는 것이 좋습니다.
 
@@ -89,7 +89,7 @@ Office 2013 또는 Office 2016용 최신 보안 업데이트로 컴퓨터를 계
 - 최신 보안 업데이트 및 지원 수정 프로그램으로 업데이트하는 것이 좋습니다. 경우에 따라 이러한 업데이트는 매월 출시됩니다.
 - Microsoft의 클라우드 기술을 활용하여 비즈니스의 디지털 혁신을 이룰 수 있도록 최적화되지 않았습니다.
 - Microsoft Teams와 같은 새로운 생산성 응용 프로그램이 포함되어 있지 않습니다.
-- Exchange Advanced Threat Protection과 같은 최신 보안 기능이 포함되어 있지 않습니다.
+- Exchange 및 Defender for Office 365의 최신 보안 기능을 포함 하지 마세요.
 
 엔터프라이즈에 대 한 Microsoft 365에는 웹 브라우저 및 Outlook 클라이언트와 같은 온-프레미스 버전의 Office 서버 소프트웨어와 동일한 도구 중 일부를 사용 하는 클라우드 기반 버전의 Office server 서비스가 포함 되어 있습니다. 이러한 서비스는 IT 부서가 연관되지 않고도 보안을 위해 지속적으로 업데이트되므로 온-프레미스 서버를 유지 관리하고 업데이트하는 데 걸리는 시간이 절약됩니다. 이러한 서비스에는 Office 서버 소프트웨어에 없는 새로운 기능 향상 기능도 있습니다.
 
@@ -117,7 +117,7 @@ Office 2007 릴리스의 서버 제품을 Office 2010, Office 2013 또는 Office
 
 ### <a name="office-server-2010"></a>Office Server 2010
 
-[Exchange Server 2010](exchange-2010-end-of-support.md) 에 대 한 지원은 **2020 년 10 월 13 일**에 종료 되었습니다.
+[Exchange Server 2010](exchange-2010-end-of-support.md) 에 대 한 지원은 **2020 년 10 월 13 일** 에 종료 되었습니다.
 
 [SharePoint Server 2010](upgrade-from-sharepoint-2010.md) 지원 종료일은 **2021년 4월 13일입니다**.
 
@@ -145,7 +145,7 @@ Office 2016 릴리스 서버 제품의 경우, 지원 종료가 결정되지 않
 
 ## <a name="migration-for-microsoft-windows-7-and-81"></a>Microsoft Windows 7 및 8.1에 대한 마이그레이션
 
-Windows 7이 **2020년 1월 14일**에 지원이 종료되었습니다. Windows 7 또는 Windows 8.1이 실행 중인 장치를 마이그레이션하려면 현재 위치 업그레이드를 수행할 수 있습니다.
+Windows 7이 **2020년 1월 14일** 에 지원이 종료되었습니다. Windows 7 또는 Windows 8.1이 실행 중인 장치를 마이그레이션하려면 현재 위치 업그레이드를 수행할 수 있습니다.
 
 추가 방법에 대해서는 [Windows 10 배포 시나리오](https://docs.microsoft.com/windows/deployment/windows-10-deployment-scenarios)를 참조하세요. 직접 [Windows 10 배포를 계획](https://aka.ms/planforwin10deployment)할 수도 있습니다.
 
