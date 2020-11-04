@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 끝점 데이터 손실 방지 알아보기
+title: Microsoft 365 끝점 데이터 손실 방지(미리 보기) 알아보기
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -19,14 +19,14 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'Microsoft 365 끝점 데이터 손실 방지는 파일 활동의 모니터링 및 해당 파일에 대한 보호 작업을 끝점으로 확장합니다. 파일은 Microsoft 365 규정 준수 솔루션에서 확인할 수 있습니다. '
-ms.openlocfilehash: d9260da3e007885821441c8217e01650823eb8b4
-ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
+ms.openlocfilehash: cbf4a53658885102226d2b874180f5cc5f264a91
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48768966"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841864"
 ---
-# <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Microsoft 365 끝점 데이터 손실 방지 알아보기
+# <a name="learn-about-microsoft-365-endpoint-data-loss-prevention-preview"></a>Microsoft 365 끝점 데이터 손실 방지(미리 보기) 알아보기
 
 Microsoft 365 DLP(데이터 손실 방지)를 사용하여 중요한 항목에 대해 수행 중인 작업을 모니터링하고 해당 항목이 의도치 않게 공유되는 것을 방지할 수 있습니다. DLP에 대한 자세한 내용은 [데이터 손실 방지 개요](data-loss-prevention-policies.md)를 참조하세요.
 
@@ -69,7 +69,7 @@ Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사
 
  [Microsoft 365 끝점 DLP 시작하기](endpoint-dlp-getting-started.md)의 절차를 사용하여 장치를 등록하세요.
 
-[Microsoft Defender Advanced Threat Protection(Microsoft Defender ATP)](https://docs.microsoft.com/windows/security/threat-protection/)를 통해 장치를 등록한 경우 해당 장치는 자동으로 장치 목록에 표시됩니다.
+[엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)를 통해 장치를 온보딩한 경우, 해당 장치는 장치 목록에 자동으로 표시됩니다.
 
 ![관리된 장치 목록](../media/endpoint-dlp-learn-about-2-device-list.png)
 
@@ -142,5 +142,5 @@ Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사
 - [데이터 손실 방지 개요](data-loss-prevention-policies.md)
 - [DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)
-- [Microsoft Defender Advanced Threat Protection(Microsoft Defender ATP)](https://docs.microsoft.com/windows/security/threat-protection/)
+- [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)
 - [내부자 위험 관리](insider-risk-management.md)

@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Office 365 보안 및 준수 센터 또는 Microsoft 365 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cf5481584031469b459d5662f75e32fd9a793a94
-ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
+ms.openlocfilehash: d7deb2068db9f15f31a04c45564b966af90d2e2b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816761"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846304"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -112,7 +112,7 @@ ms.locfileid: "48816761"
 
   |Microsoft 365 서비스 또는 기능|30분|24시간|
   |:-----|:-----:|:-----:|
-  |고급 위협 방지 및 위협 인텔리전스|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Office 365용 Defender 및 위협 인텔리전스|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Azure Active Directory(사용자 로그인 이벤트)||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Azure Active Directory(관리 이벤트)||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |데이터 손실 방지|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
@@ -139,6 +139,9 @@ ms.locfileid: "48816761"
 
 ## <a name="search-the-audit-log"></a>감사 로그 검색
 
+> [!NOTE]
+> 현재 감사 로그 검색 도구에서 Azure AD 활동을 사용할 수 없는 문제를 조사하고 있습니다. 이 문제는 2020년 10월 26일에 시작되었습니다. 관련 활동에 Azure AD 사용자 관리 활동, 그룹 관리 활동, 응용 프로그램 관리 활동, 역할 관리 활동 및 디렉터리 관리 활동이 포함됩니다. 문제가 해결되면 업데이트를 제공할 예정입니다.
+    
 Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다. 
 
 [1단계: 감사 로그 검색 실행](#step-1-run-an-audit-log-search)
@@ -996,7 +999,7 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 
 **현재 감사되는 다른 Microsoft 365 서비스는 무엇인가요?**
 
-Exchange Online, SharePoint Online, 비즈니스용 OneDrive, Azure Active Directory, Microsoft Teams, Dynamics 365, Advanced Threat Protection 및 Power BI와 같이 가장 많이 사용되는 서비스가 감사됩니다. 감사되는 서비스 목록은 [이 문서의 시작 부분](search-the-audit-log-in-security-and-compliance.md)을 참조하세요.
+Exchange Online, SharePoint Online, 비즈니스용 OneDrive, Azure Active Directory, Microsoft Teams, Dynamics 365, Office 365용 Defender 및 Power BI와 같이 가장 많이 사용되는 서비스가 감사됩니다. 감사되는 서비스 목록은 [이 문서의 시작 부분](search-the-audit-log-in-security-and-compliance.md)을 참조하세요.
 
 **Office 365의 감사 서비스에서 어떤 활동을 감사하나요?**
 
