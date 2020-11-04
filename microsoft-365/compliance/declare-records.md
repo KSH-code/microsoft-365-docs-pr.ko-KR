@@ -17,21 +17,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 사용하여 레코드 선언
-ms.openlocfilehash: 490f81ba9c1d2d291539107650ec3c3f5938eba8
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 34b5272a8bed9be01c3965dae258c88facec0145
+ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198927"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48830607"
 ---
 # <a name="declare-records-by-using-retention-labels"></a>보존 레이블을 사용하여 레코드 선언
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
-문서 및 전자 메일을 [레코드](records-management.md#records)로 선언하려면 콘텐츠를 **레코드** 또는 **규제 레코드**로 표시하는 [보존 레이블](retention.md#retention-labels)을 사용합니다.
-
-> [!NOTE]
-> 규제 레코드는 현재 미리 보기 중입니다.
+문서 및 전자 메일을 [레코드](records-management.md#records)로 선언하려면 콘텐츠를 **레코드** 또는 **규제 레코드** 로 표시하는 [보존 레이블](retention.md#retention-labels)을 사용합니다.
 
 레코드 또는 규제 레코드를 사용할지 확실하지 않은 경우 [허용되거나 차단된 작업에 대한 제한을 비교](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked)를 참조하세요. 규제 레코드를 사용해야 하는 경우 먼저 다음 섹션에 설명된 대로 PowerShell 명령을 실행해야 합니다.
 
@@ -40,7 +37,7 @@ ms.locfileid: "48198927"
 ## <a name="how-to-display-the-option-to-mark-content-as-a-regulatory-record"></a>콘텐츠를 규제 레코드로 표시하는 옵션을 표시하는 방법입니다.
 
 >[!NOTE] 
-> 다음 절차는 감사 로그의 [보존 정책 및 보존 레이블 활동](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities) 섹션에 있는 **보존 레이블에 대해 사용 설정된 규제 레코드 옵션**을 로깅하는 감사 작업입니다.
+> 다음 절차는 감사 로그의 [보존 정책 및 보존 레이블 활동](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities) 섹션에 있는 **보존 레이블에 대해 사용 설정된 규제 레코드 옵션** 을 로깅하는 감사 작업입니다.
 
 기본적으로 내용을 규제 레코드로 표시하는 보존 레이블 옵션은 보존 레이블 마법사에 표시되지 않습니다. 이 옵션을 표시하려면 먼저 PowerShell 명령을 실행해야 합니다.
 

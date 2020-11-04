@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Microsoft 365의 레코드 관리를 사용하여 보존 일정을 파일 플랜에 적용하여 보존, 레코드 선언, 처리를 관리할 수 있습니다.
-ms.openlocfilehash: e6e72a14d0d3e22823c8341145f64721831586f9
-ms.sourcegitcommit: 095b1f52f2e73e8d44195916984efeb0908c2ad8
+ms.openlocfilehash: 6648a3a671e40dd5218eba1a1e8bafe42120f0de
+ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48755567"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48830529"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Microsoft 365의 레코드 관리하기에 대해 알아보기
 
@@ -42,13 +42,13 @@ Microsoft 365에서 다음 기능을 사용하여 레코드 관리 솔루션을 
 
 - **보존 레이블을 사용하여 보존 및 삭제 설정을 구성합니다.** 마지막으로 수정 또는 생성된 날짜를 포함하는 다양한 요소를 기반으로 보존 기간 및 작업을 사용하여 [보존 레이블](retention.md#retention-labels)을 구성합니다.
 
-- [이벤트 기반 보존**을 사용하여 **이벤트가 발생하는 경우 다른 보존 기간을 시작](event-driven-retention.md)합니다.
+- [이벤트 기반 보존 **을 사용하여** 이벤트가 발생하는 경우 다른 보존 기간을 시작](event-driven-retention.md)합니다.
 
-- [처리 검토](disposition.md#disposition-reviews) 및 [레코드 삭제](disposition.md#disposition-of-records) 검사를 통해 **처리를 검토하고 확인**합니다.
+- [처리 검토](disposition.md#disposition-reviews) 및 [레코드 삭제](disposition.md#disposition-of-records) 검사를 통해 **처리를 검토하고 확인** 합니다.
 
 - [내보내기 옵션](disposition.md#filter-and-export-the-views)으로 **모든 처리된 항목에 대한 정보를 내보냅니다**.
 
-- 조직 레코드 관리자 기능의 **특정 권한을 설정**하여 [올바른 액세스 권한을 보유](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)합니다.
+- 조직 레코드 관리자 기능의 **특정 권한을 설정** 하여 [올바른 액세스 권한을 보유](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)합니다.
 
 해당 기능을 사용하면 조직의 보존 일정 및 요구 사항을 보존, 레코드 선언 및 처리를 관리하여 콘텐츠의 전체 라이프 사이클을 지원하는 레코드 관리 솔루션에 통합할 수 있습니다.
 
@@ -64,7 +64,7 @@ Microsoft 365에서 다음 기능을 사용하여 레코드 관리 솔루션을 
 
 - 보존 기간 종료 시에 항목이 삭제되는 경우 처리 증명을 가집니다.
 
-[보존 레이블](retention.md#retention-labels)을 사용하여 콘텐츠를 **레코드** 혹은 **규제 레코드**로 표시(현재 미리 보기에) 이 두 개의 차이점은 다음 섹션에서 설명합니다. 사용자 및 관리자가 콘텐츠에 직접 적용할 수 있도록 해당 레이블을 게시하거나 레코드 혹은 규제 레코드로 표시하기를 원하는 콘텐츠에 해당 레이블을 자동으로 적용할 수 있습니다.
+[보존 레이블](retention.md#retention-labels)을 사용하여 콘텐츠를 **레코드** 혹은 **규제 레코드** 로 표시 이 두 개의 차이점은 다음 섹션에서 설명합니다. 사용자 및 관리자가 콘텐츠에 직접 적용할 수 있도록 해당 레이블을 게시하거나 레코드 혹은 규제 레코드로 표시하기를 원하는 콘텐츠에 해당 레이블을 자동으로 적용할 수 있습니다.
 
 보존 레이블을 사용하여 레코드를 선언하면 Microsoft 365 환경에서 일관된 단일 레코드 관리 전략을 구현할 수 있습니다.
 
