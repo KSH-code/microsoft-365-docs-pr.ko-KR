@@ -21,12 +21,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f681d02cc4af8bd56ba945a3d944798e545bf93c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 4369d51ed740af652be632ba0b8752c708d6c719
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846715"
+ms.locfileid: "48877222"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Microsoft 365 Defender의 문제점 우선 순위 지정
 
@@ -46,44 +46,29 @@ Microsoft 365 Defender는 상관 분석을 적용 하 고 다양 한 제품의 �
 
 ![사고 큐의 이미지](../../media/incidents-queue.png) 
 
-기본적으로 Microsoft 365 보안 센터의 큐에는\ 최근 30일 동안 발생한 사고가 표시 되며, 최신 사고가 목록의 맨 위에 표시 되어 최신 사고를 가장 먼저 확인 할 수 있습니다. 
+기본적으로 Microsoft 365 보안 센터의 큐에는 지난 30 일 동안 표시 된 인시던트가 표시 됩니다. 가장 최근 인시던트가 목록 맨 위에 표시 되므로 먼저 해당 인시던트를 확인할 수 있습니다.
 
-사고 큐는 사고나 사고 관련 항목을 알려주는 커스터마이징이 가능한 열을 보여줌으로써 사고 처리 우선수위를 결정하는데 도움을 줍니다.
+인시던트 큐는 인시던트 또는 포함 된 엔터티에 대 한 다양 한 특성을 표시 하는 사용자 지정 가능한 열을 제공 합니다. 이를 통해 처리할 인시던트의 우선 순위에 대 한 정보를 확인할 수 있습니다.
 
-보다 쉽게 확인할 수 있도록, 자동 인시던트 명명은 영향을 받는 끝점 (예: 사용자에 게 영향을 받음, 검색 원본 또는 범주)와 같은 경고 특성을 기반으로 하는 인시던트 이름을 생성 합니다. 이를 통해 사고의 범위를 빠르게 파악할 수 있습니다.
+보다 한눈에 확인할 수 있도록, 자동 인시던트 명명은 영향을 받는 끝점 (예: 사용자에 게 영향을 받음, 검색 원본 또는 범주) 등의 경고 특성을 기반으로 하는 인시던트 이름을 생성 합니다. 이를 통해 사고의 범위를 빠르게 파악할 수 있습니다.
 
 예를 들어 *여러 출처에서 보고 하는 여러 끝점에 대 한 다단계 인시던트가 있습니다.*
 
 > [!NOTE]
 > 자동 인시던트 이름 지정 롤아웃 이전에 존재 했던 인시던트는 이름을 변경할 수 없습니다.
 
-또한 사고 큐는 여러 개의 필터링 옵션을 제공 합니다. 이 옵션을 적용 하면 환경이 허용하는 모든 기존 사고에 대한 광범위 한 스위프를 수행 하도록 선택 하거나 특정 시나리오 또는 위협에 집중할 수 있도록 결정할 수 있습니다. 사고 큐 필터를 적용 하면 즉시 주의가 필요한 사고를 결정할 수 있습니다. 
+또한 인시던트 큐는 여러 필터링 옵션을 제공 하며,이를 적용 하면 사용자 환경에서 기존의 모든 인시던트가 광범위 하 게 작동 하거나 특정 시나리오 또는 위협에 집중할 수 있도록 결정 됩니다. 사고 큐 필터를 적용 하면 즉시 주의가 필요한 사고를 결정할 수 있습니다. 
 
 ## <a name="available-filters"></a>사용 가능한 필터
 
-### <a name="status"></a>상태
-상태에 따라 표시 되는 사고의 목록을 제한하여 활성 또는 해결 완료 된 사고를 확인할 수 있습니다.
-
-### <a name="severity"></a>심각도
-사고의 심각도는 자산에 미칠 수 있는 영향을 의미합니다.  심각도가 높아지면 영향을 크게 받게 되므로 일반적으로 가장 즉각적으로 주의 해야 합니다. 
-
-### <a name="assigned-to-owner"></a>담당자(소유자)
-필터를 사용하여 특정 담당자에게 할당 된 목록이나 자신에게 할당된 목록을 선택할 수 있습니다. 
-
-### <a name="multiple-alerts"></a>다중 경고  
-하나 이상의 경고를 포함 하는 사고만 표시 하도록 필터링 할 수 있습니다.  이는 보다 복잡하거나 진화된 킬체인 공격일 수 있습니다.  
-
-
-### <a name="multiple-service-sources"></a>다중 서비스 원인 
-서로 다른 원본 (끝점에 대 한 Microsoft Defender, Microsoft Cloud App Security, Id 용 microsoft defender, Office 365 용 Microsoft Defender)의 경고가 포함 된 인시던트만 표시 되도록 필터링 합니다.
-### <a name="service-sources"></a>서비스 원인
-특정 원인을 선택 하면 해당 원인에서 최소 하나의 알림을 포함 하는 사고에 집중할 수 있습니다. 
-
-### <a name="multiple-categories"></a>다중 범주 
-킬체인의 다중 범주에 매핑된 사고 및 잠재적으로 더 큰 손상을 유발할만한 사고를 선택해서 표시할 수 있습니다. 
+### <a name="assigned-to"></a>담당자
+자신에 게 할당 되거나 자동화로 처리 되는 경고를 표시 하도록 선택할 수 있습니다.
 
 ### <a name="categories"></a>범주
-범주를 선택 하여 킬체인 특정 단계에 집중할 수 있습니다. 
+표시 되는 특정 기법, 기술 또는 공격 구성 요소에 중점을 둘 범주를 선택 합니다. 
+
+### <a name="classification"></a>분류
+관련 된 알림의 분류 설정에 따라 인시던트를 필터링 합니다. 값에는 true 알림, 거짓 경고 또는 설정 되지 않음이 포함 됩니다.
 
 ### <a name="data-sensitivity"></a>데이터 민감도
 일부 공격은 민감하거나 가치있는 데이터 수집을 목적으로 합니다.  필터를 적용하여 민감한 데이터가 사건에 연루되었는지를 확인한 후 민감 정보의 누출 여부를 결정하고 해당 사고의 우선순위를 결정할 수 있습니다.  
@@ -91,13 +76,40 @@ Microsoft 365 Defender는 상관 분석을 적용 하 고 다양 한 제품의 �
 >[!NOTE]
 >Microsoft Threat Protection이 설정 된 경우에만 적용 됩니다.
 
+### <a name="device-group"></a>장치 그룹
+정의 된 장치 그룹으로 필터링 합니다.
+
+### <a name="investigation-state"></a>조사 상태
+자동화 된 조사 상태별로 인시던트를 필터링 합니다. 
+
+### <a name="multiple-categories"></a>다중 범주 
+여러 범주에 매핑된 인시던트만 표시 하도록 선택할 수 있으므로 손상을 더 많이 유발할 수 있습니다. 
+
+### <a name="multiple-service-sources"></a>다중 서비스 원인 
+서로 다른 원본 (끝점에 대 한 microsoft Defender, Microsoft Cloud App Security, Microsoft Defender for Identity, Microsoft Defender for Office 365에 대 한 알림)이 포함 된 인시던트만 표시 되도록 필터링 합니다.
+
+### <a name="os-platform"></a>OS 플랫폼
+운영 체제별로 인시던트 큐 보기를 제한 합니다.
+
+### <a name="service-sources"></a>서비스 원인
+특정 원인을 선택 하면 해당 원인에서 최소 하나의 알림을 포함 하는 사고에 집중할 수 있습니다. 
+
+### <a name="severity"></a>심각도
+인시던트의 심각도는 해당 자산의 영향을 자산에 미칠 수 있음을 말합니다. 심각도가 높을수록 영향은 더 높고 일반적으로는 가장 즉각적인 주의가 필요 합니다. 
+
+### <a name="status"></a>상태
+상태에 따라 표시 되는 사고의 목록을 제한하여 활성 또는 해결 완료 된 사고를 확인할 수 있습니다.
+
+>[!IMPORTANT]
+>분류, 장치 그룹, 조사 상태 및 OS 플랫폼 필터는 현재 공개 미리 보기 에서만 사용할 수 있습니다.
+
 
 ## <a name="next-steps"></a>다음 단계
 사고의 우선순위를 결정한 뒤 사고에 대한 조사를 진행할 수 있습니다. 
 - [사고 조사](investigate-incidents.md)
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="see-also"></a>참고 항목
 - [사고 개요](incidents-overview.md)
 - [사고 조사](investigate-incidents.md)
 - [인시던트 관리](manage-incidents.md)

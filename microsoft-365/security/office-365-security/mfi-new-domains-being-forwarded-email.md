@@ -2,7 +2,7 @@
 title: 전자 메일 인사이트가 전달되는 새 도메인
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -11,12 +11,12 @@ ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 최신 Exchange 관리 센터에서 전달 되는 새 도메인을 사용 하 여 조직의 사용자가 전달 된 적이 없는 외부 도메인으로 메시지를 전달 하는 경우 조사를 진행 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 62e254e324322aec55d692cfe3128e8e4dd60e4b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 7dfdd63a9358b1057313962bc21424a325d7bc52
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200738"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877744"
 ---
 # <a name="new-domains-being-forwarded-email-insight-in-the-security--compliance-center"></a>보안 & 준수 센터에서 전자 메일을 전달 하는 새 도메인
 

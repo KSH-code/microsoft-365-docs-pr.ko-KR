@@ -2,7 +2,7 @@
 title: 발생할 수 있는 메일 루프 인사이트 수정
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -13,12 +13,12 @@ ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드를 사용 하 여 조직의 메일 루프를 식별 하 고 수정 하는 데 사용할 수 있는 메일 루프 이해 문제를 해결 하는 방법을 알아봅니다.
-ms.openlocfilehash: e868c020ae307ba490e85e5803f94a67a1a94057
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 15ad5c467d18ce3038bcb05db798a9b5a7c3e391
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198448"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877511"
 ---
 # <a name="fix-possible-mail-loop-insight-in-the-security--compliance-center"></a>보안 & 준수 센터에서 가능한 메일 루프 통찰력 수정
 
@@ -34,10 +34,10 @@ ms.locfileid: "48198448"
 위젯에 대 한 **세부 정보 보기** 를 클릭 하면 추가 정보가 포함 된 플라이 아웃이 나타납니다.
 
 - **도메인**
-- **메시지 수**: **예제 메시지 보기** 를 클릭 하 여 루프의 영향을 받는 메시지의 예제에 대 한 [메시지 추적](message-trace-scc.md) 결과를 볼 수 있습니다.
-- **도메인 유형**"(예: 정식 또는 신뢰할 수 없음)입니다.
-- **Mx 레코드**: 도메인의 mx 레코드에 대 한 호스트 (**메일 서버**) 및 **우선 순위** 값입니다.
-- **반복 이유와** **해결 방법**: 가장 일반적인 메일 루프 시나리오를 식별 하 고, 권장 작업 (사용 가능한 경우)을 제공 하 여 루프를 수정 합니다.
+- **메시지 수** : **예제 메시지 보기** 를 클릭 하 여 루프의 영향을 받는 메시지의 예제에 대 한 [메시지 추적](message-trace-scc.md) 결과를 볼 수 있습니다.
+- **도메인 유형** "(예: 정식 또는 신뢰할 수 없음)입니다.
+- **Mx 레코드** : 도메인의 mx 레코드에 대 한 호스트 ( **메일 서버** ) 및 **우선 순위** 값입니다.
+- **반복 이유와** **해결 방법** : 가장 일반적인 메일 루프 시나리오를 식별 하 고, 권장 작업 (사용 가능한 경우)을 제공 하 여 루프를 수정 합니다.
 
 ![수정 가능한 메일 루프 통찰력에 대 한 세부 정보 보기를 클릭 한 후에 표시 되는 세부 정보](../../media/mfi-fix-possible-mail-loop-details.png)
 

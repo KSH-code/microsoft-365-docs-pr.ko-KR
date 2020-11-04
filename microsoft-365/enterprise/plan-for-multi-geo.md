@@ -15,12 +15,12 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: Microsoft 365 Multi-Geo, Multi-Geo 작동 방식 및 데이터 저장소에 사용할 수 있는 지리적 위치에 대해 알아봅니다.
-ms.openlocfilehash: 1924141b86ba3e1c16e4760e0f40d61b6f47ce69
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: a8eba731fac16e56ef66ac0a905de521dfa7a6c8
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692540"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877235"
 ---
 # <a name="plan-for-microsoft-365-multi-geo"></a>Microsoft 365 Business를 위한 계획
 
@@ -31,7 +31,7 @@ Multi-Geo 구성에서 Microsoft 365 테넌트는 중앙 위치와 하나 이상
 
 다음은 구성의 기본 개념을 이해하는 데 도움이 되는 몇 가지 핵심적인 다중 위치 용어입니다.
 
--   **테넌트** – Microsoft 365에서 일반적으로 하나 이상의 도메인에 연결되어 있는 조직을 나타내는 표현(예: https://contoso.sharepoint.com). 
+-   **테넌트** – Microsoft 365에서 일반적으로 하나 이상의 도메인에 연결되어 있는 조직을 나타내는 표현(예: https://contoso.sharepoint.com). 
 
 -   **지리적 위치** – Microsoft 365 테넌트에서 데이터를 호스팅하는 데 사용할 수 있는 지리적 위치입니다.
 
@@ -66,7 +66,7 @@ Multi-Geo를 구성할 경우 Microsoft 365로 마이그레이션하는 동안 �
 
 테스트 사용자와 테스트를 마친 후에는 IT 부서의 파일럿 그룹을 선택하여 새로운 지리적 위치에서 OneDrive 및 Exchange를 가장 먼저 사용할 수 있습니다. 이 첫 번째 그룹에서는 아직 OneDrive가 없는 사용자를 선택합니다. 이 초기 그룹에 5명 이하를 두고 일괄 공개 접근 방식을 따라 점차적으로 확장하는 것을 권장합니다.
 
-Microsoft 365에서 해당 OneDrive를 프로비전할 지리적 위치를 결정할 수 있도록 각 사용자에게는 PDL(*기본 설정 데이터 위치*)이 설정되어 있어야 합니다. 사용자의 기본 설정 데이터 위치는 선택한 위성 위치 중 하나 또는 사용자의 중앙 위치와 일치해야 합니다. PDL 필드는 필수는 아니지만 모든 사용자에 대해 PDL을 설정하는 것이 좋습니다. PDL이 없는 사용자의 워크로드는 중앙 위치에 프로비전됩니다.
+Microsoft 365에서 해당 OneDrive를 프로비전할 지리적 위치를 결정할 수 있도록 각 사용자에게는 PDL( *기본 설정 데이터 위치* )이 설정되어 있어야 합니다. 사용자의 기본 설정 데이터 위치는 선택한 위성 위치 중 하나 또는 사용자의 중앙 위치와 일치해야 합니다. PDL 필드는 필수는 아니지만 모든 사용자에 대해 PDL을 설정하는 것이 좋습니다. PDL이 없는 사용자의 워크로드는 중앙 위치에 프로비전됩니다.
 
 사용자 목록을 만들고, 해당 UPN(사용자 주체 이름)과 해당 기본 설정 데이터 위치에 대한 위치 코드를 포함합니다. 시작할 테스트 사용자와 초기 파일럿 그룹을 포함합니다. 구성 절차를 위해 이 목록이 필요합니다.
 
@@ -74,7 +74,7 @@ Microsoft 365에서 해당 OneDrive를 프로비전할 지리적 위치를 결�
 
 SharePoint 및 OneDrive 설정과 서비스가 다중 위치를 인식하므로 다중 위치 테넌트의 관리는 다중 위치가 아닌 테넌트의 관리와 다를 수 있습니다. 구성을 계속하기 전에 [다중 위치 환경 관리](administering-a-multi-geo-environment.md)를 검토하는 것이 좋습니다.
 
-다중 위치 환경의 최종 사용자 경험에 대한 자세한 내용은 [다중 위치 환경의 사용자 경험](multi-geo-user-experience.md)을 읽어보세요.
+다중 지리적 환경에서 최종 사용자의 경험에 대 한 세부 정보를 확인 하기 위해 [다기능 환경의 사용자 환경을](multi-geo-user-experience.md) 확인할 수 있습니다.
 
 Microsoft 365 Multi-Geo 테넌시의 Teams 경험에 대한 자세한 내용은 [Microsoft 365 OneDrive 및 SharePoint Online Multi-Geo 지원 테넌시의 Teams 경험](https://docs.microsoft.com/microsoftteams/teams-experience-o365odb-spo-multi-geo)을 참조하세요.
 

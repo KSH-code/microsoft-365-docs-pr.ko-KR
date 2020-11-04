@@ -2,7 +2,7 @@
 title: 분석을 위해 Microsoft에 수동으로 메시지 전송
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 ms.date: ''
@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자 및 최종 사용자는 분석을 위해 Microsoft에 전자 메일 메시지 (잘못 되었거나 잘못 된 메일을 허용 하는 것으로 표시 된 좋은 메일)를 확인할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6673dc7e7ac263ea9f734c002d0ffac410fadc07
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 68a0921f85e5b916cd53ebe84e4ea7d35e39967e
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202206"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877708"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>분석을 위해 Microsoft에 수동으로 메시지 전송
 
@@ -48,9 +48,9 @@ ms.locfileid: "48202206"
 
 1. 다음 받는 사람 중 하 나와의 비어 있는 새 전자 메일 메시지를 만듭니다.
 
-   - **정크 메일**: `junk@office365.microsoft.com`
+   - **정크 메일** : `junk@office365.microsoft.com`
 
-   - **피싱**: `phish@office365.microsoft.com`
+   - **피싱** : `phish@office365.microsoft.com`
 
 2. 정크 또는 피싱 메시지를 새 메시지에 끌어서 놓습니다. 이렇게 하면 정크 또는 피싱 메시지가 새 메시지에 첨부 파일로 저장 됩니다. 메시지의 내용을 복사 하 여 붙여넣거나 메시지를 전달 하지 않습니다 (메시지 헤더를 검사할 수 있도록 원본 메시지가 필요 함).
 
@@ -62,7 +62,7 @@ ms.locfileid: "48202206"
    >
    > - 첨부 된 메시지의 형식은 .msg (기본 Outlook 형식) 또는 .eml (기본 outlook 형식) 중 하나를 사용 합니다.
 
-3. 작업이 완료 되 면 **보내기를**클릭 합니다.
+3. 작업이 완료 되 면 **보내기를** 클릭 합니다.
 
 > [!TIP]
 > 관리자는 스팸으로 잘못 식별 되어는 특정 메시지를 차단 하는 여러 가지 방법을 제공 합니다. 자세한 내용은 [EOP에서 차단 된 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조 하십시오.
@@ -86,7 +86,7 @@ ms.locfileid: "48202206"
    >
    > - 첨부 된 메시지의 형식은 .msg (기본 Outlook 형식) 또는 .eml (기본 outlook 형식) 중 하나를 사용 합니다.
 
-3. 작업이 완료 되 면 **보내기를**클릭 합니다.
+3. 작업이 완료 되 면 **보내기를** 클릭 합니다.
 
 > [!TIP]
 > 관리자는 특정 메시지에서 스팸 필터링을 건너뛰는 여러 가지 방법을 사용할 수 있습니다. 자세한 내용은 [EOP에서 수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조 하십시오.

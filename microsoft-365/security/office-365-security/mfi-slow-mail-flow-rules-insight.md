@@ -2,7 +2,7 @@
 title: 느린 메일 흐름 규칙 인사이트 수정
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 ms.date: ''
@@ -14,12 +14,12 @@ ms.assetid: 37125cdb-715d-42d0-b669-1a8efa140813
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 보안 & 준수 센터에서 문제 해결을 사용 하 여 조직에서 비효율적인 메일 흐름 규칙 (전송 규칙이 라고도 함)을 식별 하 고 수정 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 2f9a35534ab4377cff164b38eeb66dd55c48d5b9
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 6a2a3c42eadf3c621b34d2a21344eafd2618e669
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199268"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877540"
 ---
 # <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>보안 & 준수 센터의 메일 흐름 규칙에 대 한 자세한 정보를 수정 합니다.
 
@@ -40,10 +40,10 @@ ms.locfileid: "48199268"
 
 위젯에 대 한 **세부 정보 보기** 를 클릭 하면 추가 정보가 포함 된 플라이 아웃이 나타납니다.
 
-- **규칙**: 요약을 마우스로 가리키면 규칙의 모든 조건, 예외 및 작업을 볼 수 있습니다. 요약을 클릭 하 여 Exchange 관리 센터 (EAC)에서 규칙을 편집할 수 있습니다.
-- **평가 된 메시지 수**: **예제 메시지 보기** 를 클릭 하 여 규칙의 영향을 받는 메시지의 예제에 대 한 [메시지 추적](message-trace-scc.md) 결과를 볼 수 있습니다.
+- **규칙** : 요약을 마우스로 가리키면 규칙의 모든 조건, 예외 및 작업을 볼 수 있습니다. 요약을 클릭 하 여 Exchange 관리 센터 (EAC)에서 규칙을 편집할 수 있습니다.
+- **평가 된 메시지 수** : **예제 메시지 보기** 를 클릭 하 여 규칙의 영향을 받는 메시지의 예제에 대 한 [메시지 추적](message-trace-scc.md) 결과를 볼 수 있습니다.
 - **각 메시지에 소요 된 평균 시간**
-- **평균 메시지에 소요 된 시간**: 데이터의 하한값에서 위쪽을 구분 하는 가운데 값입니다.
+- **평균 메시지에 소요 된 시간** : 데이터의 하한값에서 위쪽을 구분 하는 가운데 값입니다.
 
 ![문제 해결에 대 한 세부 정보 보기를 클릭 한 후 표시 되는 세부 정보 플라이 인 느린 메일 흐름 규칙 이해](../../media/mfi-fix-slow-mail-flow-rules-details.png)
 

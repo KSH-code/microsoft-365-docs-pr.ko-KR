@@ -2,7 +2,7 @@
 title: 메일 흐름 대시보드의 메일 흐름 정보
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 제공 되는 정보 및 보고에 대해 알아볼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9ac8b8b0d346d78af252a9e427d0ef2b1a4c4ea
-ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
+ms.openlocfilehash: d252b9d898d4ee5a0df854a871f821c2b02bb482
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48769021"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877780"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>보안 및 준수 센터의 메일 흐름 파악
 

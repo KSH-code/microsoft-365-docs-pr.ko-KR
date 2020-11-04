@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: 기존 Office 365 고객은 Microsoft 365 서비스 데이터를 새 지역으로 이동 하기 위해 해당 국가의 마감 날짜 이전에 요청을 제출 해야 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7f8f25fcaf3e8beb59ca43ad260e2636cf0c4949
-ms.sourcegitcommit: d648356b27842e779921859480b1b405a1804c7c
+ms.openlocfilehash: b6ad699830389ef405b005bf8675a2bd0fb4f20b
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361942"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877258"
 ---
 # <a name="how-to-request-your-data-move"></a>데이터 이동을 요청하는 방법
 
@@ -44,16 +44,16 @@ ms.locfileid: "48361942"
 |남아프리카 공화국  <br/> |2019년 7월 25일  <br/> |2020년 6월 30일  <br/> |
 |스위스, 리히텐슈타인  <br/> |2019년 12월 10일  <br/> |2020년 6월 30일  <br/> |
 |노르웨이  <br/> |2020년 4월 15일  <br/> |2020 년 10 월 31 일  <br/> |
-|독일  <br/> |하려고  <br/> |하려고  <br/> |
+|독일  <br/> |2020 년 11 월 1 일  <br/> |2021 년 4 월 30 일  <br/> |
 
 ## <a name="how-to-request-a-move"></a>이동을 요청하는 방법
 
-적격 고객은 [Microsoft 365 관리 센터](https://aka.ms/365admin)의 페이지를 볼 수 있으며,이를 통해 핵심 고객 데이터가 새 데이터 센터 지역으로 이동 하 게 됩니다.  
+적격 고객은 Microsoft 365 관리 센터의 페이지를 볼 수 있으며,이를 통해 핵심 고객 데이터가 새 데이터 센터 지역으로 이동 하 게 됩니다.  
   
-Microsoft 365 관리 센터의 페이지에 액세스 하려면 왼쪽의 탐색 창에서 **설정을**확장 하 고 **조직 설정을**클릭 합니다.
-탭 **조직 프로필**을 선택 하 고 옵션 **데이터 상주**를 선택 합니다.
+Microsoft 365 관리 센터의 페이지에 액세스 하려면 왼쪽의 탐색 창에서 **설정을** 확장 하 고 **조직 설정을** 클릭 합니다.
+탭 **조직 프로필** 을 선택 하 고 옵션 **데이터 상주** 를 선택 합니다.
   
-테 넌 트가 Microsoft 365 이동 프로그램에 적합 하지 않은 경우에는이 섹션이 표시 되지 않습니다.  조직에 데이터 상주 요구 사항이 있고 마이그레이션을 요청 해야 하는 경우에는 확인란을 표시 하 고 **저장**합니다.
+테 넌 트가 Microsoft 365 이동 프로그램에 적합 하지 않은 경우에는이 섹션이 표시 되지 않습니다.  조직에 데이터 상주 요구 사항이 있고 마이그레이션을 요청 해야 하는 경우에는 확인란을 표시 하 고 **저장** 합니다.
   
 ![데이터 센터 옵트인 작업 화면](../media/dataresidencyflyoutae.jpg)
   

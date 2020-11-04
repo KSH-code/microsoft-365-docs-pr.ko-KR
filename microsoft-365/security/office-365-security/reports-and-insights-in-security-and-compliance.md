@@ -2,7 +2,7 @@
 title: 스마트 보고서, insights-Microsoft 365 보안 & 준수 센터
 f1.keywords:
 - NOCSH
-ms.author: deniseb
+ms.author: siosulli
 author: denisebmsft
 manager: dansimp
 ms.date: ''
@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 보안 & 준수 센터에서 사용할 수 있는 스마트 보고서 및 정보 및이를 사용 하 여 데이터를 보고 탐색 하 고 바로 작업을 수행 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6a73e93de79f346fb1bce8da23e25194d202191
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 384ae51a514c31c659ce80f30e0b8c09976ec44b
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845519"
+ms.locfileid: "48877352"
 ---
 # <a name="smart-reports-and-insights-in-the-security--compliance-center"></a>보안 및 준수 센터의 똑똑한 보고서 및 분석
 

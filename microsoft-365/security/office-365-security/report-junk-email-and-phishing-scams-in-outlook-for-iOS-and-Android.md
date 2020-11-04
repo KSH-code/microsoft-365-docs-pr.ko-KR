@@ -2,7 +2,7 @@
 title: IOS 및 Android 용 Outlook에서 정크 및 피싱 전자 메일 보고
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 ms.date: ''
@@ -16,12 +16,12 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: 관리자는 iOS 및 Android 용 Outlook에서 기본적으로 제공 되는 정크 메일, 정크 메일이 아닌 경우 및 피싱 메일로 보고 옵션에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 23668a762301ee442bc805e62863079ee7ae6076
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: 1c842ac5349f9c2804c637fa4c5598b06e8f489f
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350858"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877294"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a>Exchange Online에서 iOS 및 Android 용 Outlook에서 정크 및 피싱 전자 메일 보고
 
@@ -50,11 +50,11 @@ Exchange Online 또는 온-프레미스 사서함의 사서함을 포함 하는 
 
    ![작업 메뉴에서 정크 또는 피싱 전자 메일 보고](../../media/Android-report-as-junk-dialog.png)
 
-3. **정크 메일 보고** 를 누른 다음 **정크** 또는 **피싱**을 선택 합니다.
+3. **정크 메일 보고** 를 누른 다음 **정크** 또는 **피싱** 을 선택 합니다.
 
    ![정크 또는 피싱 전자 메일 보고](../../media/Android-report-junk-or-phishing.png)
 
-4. 대화 상자가 나타나면 **보고서** 를 선택 하거나 **아니요/아니요**를 선택할 수 있습니다. **아니요 아니요**를 선택 하면 **정크** 메일 폴더로 메시지가 이동 하는 경우 **피싱** 메일로 보낸 메시지는 지운 편지함 폴더로 이동 됩니다. **보고서** 를 선택 하 여 메시지의 복사본을 Microsoft로 보냅니다.
+4. 대화 상자가 나타나면 **보고서** 를 선택 하거나 **아니요/아니요** 를 선택할 수 있습니다. **아니요 아니요** 를 선택 하면 **정크** 메일 폴더로 메시지가 이동 하는 경우 **피싱** 메일로 보낸 메시지는 지운 편지함 폴더로 이동 됩니다. **보고서** 를 선택 하 여 메시지의 복사본을 Microsoft로 보냅니다.
 
    ![정크 또는 피싱 전자 메일 보고 옵션 보고](../../media/Android-junk-email-reporting-options.png)
 
@@ -69,6 +69,6 @@ Exchange Online 또는 온-프레미스 사서함의 사서함을 포함 하는 
 
    ![작업 메뉴에서 정크 메일 아님으로 보고](../../media/Android-not-junk-email.png)
 
-3. **정크 메일 아님으로**탭 합니다.
+3. **정크 메일 아님으로** 탭 합니다.
 
 전자 메일이 받은 편지 함으로 이동 되었음을 알리는 알림 메시지가 표시 됩니다. 생각이 변경 되 면 toast 알림에서 **실행 취소** 를 선택 합니다. 전자 메일이 정크 폴더에 남아 있습니다.

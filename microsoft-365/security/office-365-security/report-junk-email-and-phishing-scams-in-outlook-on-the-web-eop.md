@@ -2,7 +2,7 @@
 title: 웹용 Outlook에서 정크 및 피싱 전자 메일 보고
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 ms.date: ''
@@ -16,12 +16,12 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online의 Outlook 웹 (Outlook Web App)에서 기본 제공 정크 메일, 정크 메일이 아닌 피싱 메일로 보고 옵션, 사용자를 위해 이러한 보고 옵션을 사용 하지 않도록 설정 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 076f2858e84359d788714dc5d7e8bdb972b2c2ee
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: ebf266f3bb825a5ef81a3cd2b5d2bceb270fc260
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48351080"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877376"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-exchange-online"></a>Exchange Online의 웹용 Outlook에서 정크 메일 및 피싱 메일로 신고
 
@@ -44,13 +44,13 @@ Exchange Online의 사서함이 있는 Microsoft 365 조 직에서는 웹에서 
 
 1. 정크 메일을 제외한 받은 편지함 또는 다른 모든 전자 메일 폴더의 메시지에 대해 다음 방법 중 하나를 사용 하 여 스팸 및 피싱 메시지를 보고 합니다.
 
-   - 메시지를 선택 하 고 도구 모음에서 **정크 메일** 을 클릭 한 다음 **정크** 또는 **피싱**을 선택 합니다.
+   - 메시지를 선택 하 고 도구 모음에서 **정크 메일** 을 클릭 한 다음 **정크** 또는 **피싱** 을 선택 합니다.
 
      ![리본 메뉴에서 정크 또는 피싱 전자 메일 보고](../../media/owa-report-junk.png)
 
-   - 하나 이상의 메시지를 선택 하 고 마우스 오른쪽 단추를 클릭 한 다음 **정크 메일로 표시**를 선택 합니다.
+   - 하나 이상의 메시지를 선택 하 고 마우스 오른쪽 단추를 클릭 한 다음 **정크 메일로 표시** 를 선택 합니다.
 
-2. 대화 상자가 나타나면 **보고서**를 클릭 합니다. 생각이 변경 되 면 **보고서 표시 안 함을**클릭 합니다.
+2. 대화 상자가 나타나면 **보고서** 를 클릭 합니다. 생각이 변경 되 면 **보고서 표시 안 함을** 클릭 합니다.
 
    |차단할|피싱|
    |:---:|:---:|
@@ -62,13 +62,13 @@ Exchange Online의 사서함이 있는 Microsoft 365 조 직에서는 웹에서 
 
 1. 정크 메일 폴더에서 다음 방법 중 하나를 사용 하 여 스팸 가양성 또는 피싱 메시지를 보고 합니다.
 
-   - 메시지를 선택 하 고 도구 모음에서 **정크 메일** 아님으로 클릭 한 다음 **정크** 또는 **피싱**아님을 선택 합니다.
+   - 메시지를 선택 하 고 도구 모음에서 **정크 메일** 아님으로 클릭 한 다음 **정크** 또는 **피싱** 아님을 선택 합니다.
 
      ![리본 메뉴에서 정크 또는 피싱 전자 메일 보고](../../media/owa-report-not-junk.png)
 
-   - 하나 이상의 메시지를 선택 하 고 마우스 오른쪽 단추를 클릭 한 다음 **정크 메일 아님으로 표시**를 선택 합니다.
+   - 하나 이상의 메시지를 선택 하 고 마우스 오른쪽 단추를 클릭 한 다음 **정크 메일 아님으로 표시** 를 선택 합니다.
 
-2. 대화 상자가 나타나면 정보를 읽고 **보고서**를 클릭 합니다. 생각이 변경 되 면 **보고서 표시 안 함을**클릭 합니다.
+2. 대화 상자가 나타나면 정보를 읽고 **보고서** 를 클릭 합니다. 생각이 변경 되 면 **보고서 표시 안 함을** 클릭 합니다.
 
    |정크 메일 아님|피싱|
    |:---:|:---:|
@@ -128,13 +128,13 @@ Exchange Online의 사서함이 있는 Microsoft 365 조 직에서는 웹에서 
   Get-OwaMailboxPolicy | Format-Table Name,ReportJunkEmailEnabled
   ```
 
-- 영향 받는 사용자의 사서함을 웹에서 열고, 받은 편지함에서 메시지를 선택 하 고, **정크** \> **메일** 을 클릭 하 고, Microsoft에 게 메시지를 보고할지 묻는 메시지가 표시 되는지 확인 합니다.<sup>\*</sup>
+- 영향 받는 사용자의 사서함을 웹에서 열고, 받은 편지함에서 메시지를 선택 하 고, **정크** \> **메일** 을 클릭 하 고, Microsoft에 게 메시지를 보고할지 묻는 메시지가 표시 되는지 확인 합니다. <sup>\*</sup>
 
-- 영향을 받는 사용자의 사서함을 웹에서 열고 정크 메일 폴더에서 메시지를 선택 하 고 **정크** 메일로 확인을 클릭 하 \> **Junk** 고 Microsoft에 게 메시지를 보고할지 여부를 묻는 메시지가 표시 되는지 여부를 결정 합니다.<sup>\*</sup>
+- 영향을 받는 사용자의 사서함을 웹에서 열고 정크 메일 폴더에서 메시지를 선택 하 고 **정크** 메일로 확인을 클릭 하 \> **Junk** 고 Microsoft에 게 메시지를 보고할지 여부를 묻는 메시지가 표시 되는지 여부를 결정 합니다. <sup>\*</sup>
 
 <sup>\*</sup> 사용자는 메시지를 보고 하는 동안 메시지를 보고 하 라는 메시지가 표시 되지 않도록 숨길 수 있습니다. 웹용 Outlook에서이 설정을 확인 하려면:
 
-1. **Settings** ![ 웹 설정 아이콘의 outlook 설정을 클릭 하 여 ](../../media/owa-settings-icon.png) \> **모든 outlook 설정** \> **정크 메일**을 봅니다.
-2. **보고** 섹션 **에서 다음 값**을 확인 합니다.
+1. **Settings** ![ 웹 설정 아이콘의 outlook 설정을 클릭 하 여 ](../../media/owa-settings-icon.png) \> **모든 outlook 설정** \> **정크 메일** 을 봅니다.
+2. **보고** 섹션 **에서 다음 값** 을 확인 합니다.
 
    ![웹용 Outlook 정크 메일 보고 설정](../../media/owa-junk-email-reporting-options.png)

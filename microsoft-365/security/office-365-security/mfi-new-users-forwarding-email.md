@@ -2,7 +2,7 @@
 title: 전자 메일을 전달하는 새 사용자
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -11,12 +11,12 @@ ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 보안 & 준수 센터에서 전자 메일을 전달 하는 새 사용자를 사용 하 여 조직의 사용자가 새 도메인으로 메시지를 전달 하는 경우 조사 하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 42f8c536f8a8a1421d97726c7af432c01d053b05
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: af66a84efbd4c0b8f1ccdacf4b71d1caca1c3929
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200658"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877528"
 ---
 # <a name="new-users-forwarding-email-insight-in-the-security--compliance-center"></a>보안 & 준수 센터에서 전자 메일을 전달 하는 새 사용자
 
@@ -59,53 +59,53 @@ ms.locfileid: "48200658"
 
 보고서 보기에서는 다음과 같은 차트를 사용할 수 있습니다.
 
-- **데이터 표시: 새 전달 사용자**:
+- **데이터 표시: 새 전달 사용자** :
 
   ![전달 수정 보고서의 새 전달 사용자 보기](../../media/forwarding-modifications-report-new-forwarding-users.png)
 
-- **데이터 표시: 새 전달 도메인**:
+- **데이터 표시: 새 전달 도메인** :
 
   ![전달 수정 보고서의 새 전달 된 도메인 보기](../../media/forwarding-modifications-report-new-forwarded-domains.png)
 
-보고서 보기에서 **필터** 를 클릭 하면 **시작 날짜** 및 **종료 날짜**와 함께 날짜 범위를 지정할 수 있습니다.
+보고서 보기에서 **필터** 를 클릭 하면 **시작 날짜** 및 **종료 날짜** 와 함께 날짜 범위를 지정할 수 있습니다.
 
 ### <a name="details-table-view-for-the-forwarding-modifications-report"></a>전달 수정 보고서에 대 한 세부 정보 테이블 보기
 
-**세부 정보 표 보기**를 클릭 하면 표시 되는 정보는 보고 있는 차트에 따라 달라 집니다.
+**세부 정보 표 보기** 를 클릭 하면 표시 되는 정보는 보고 있는 차트에 따라 달라 집니다.
 
-- **데이터 표시: 새 전달 사용자**:
+- **데이터 표시: 새 전달 사용자** :
 
-  - **이름**: 보낸 사람의 전자 메일 주소입니다.
+  - **이름** : 보낸 사람의 전자 메일 주소입니다.
   - **전달 유형**
   - **받는 사람 주소**
   - **세부 정보**
   - **개수**
   - **첫 번째 전달 날짜**
 
-- **데이터 표시: 새 전달 도메인**:
+- **데이터 표시: 새 전달 도메인** :
 
-  - **이름**: 보낸 사람의 전자 메일 도메인입니다.
+  - **이름** : 보낸 사람의 전자 메일 도메인입니다.
   - **전달 유형**
   - **받는 사람 주소**
   - **세부 정보**
   - **개수**
   - **첫 번째 전달 날짜**
 
-세부 정보 표 보기에서 **필터** 를 클릭 하면 **시작 날짜** 및 **종료 날짜**와 함께 날짜 범위를 지정할 수 있습니다.
+세부 정보 표 보기에서 **필터** 를 클릭 하면 **시작 날짜** 및 **종료 날짜** 와 함께 날짜 범위를 지정할 수 있습니다.
 
 표에서 행을 선택 하면 다음과 같은 정보가 포함 된 **세부 정보** 플라이 아웃이 나타납니다.
 
-- **Name**: 보낸 사람의 전자 메일 주소 ( **새 착신 전환 사용자** 보기) 또는 보낸 사람의 전자 메일 도메인 ( **데이터 표시 위치: 새 포워딩 도메인** 보기)입니다.
+- **Name** : 보낸 사람의 전자 메일 주소 ( **새 착신 전환 사용자** 보기) 또는 보낸 사람의 전자 메일 도메인 ( **데이터 표시 위치: 새 포워딩 도메인** 보기)입니다.
 - **전달 유형**
 - **받는 사람**
 - **세부 정보**
 - **개수**
 - **시작 날짜**
-- **권장 사항**: 여기서는 Microsoft 365 관리 센터에서 사용자를 관리 하기 위한 링크를 클릭할 수 있습니다.
+- **권장 사항** : 여기서는 Microsoft 365 관리 센터에서 사용자를 관리 하기 위한 링크를 클릭할 수 있습니다.
 
 ![전달 수정 보고서의 새 전달 사용자 보기의 세부 정보 테이블에서 정보 플라이 아웃](../../media/mfi-forwarding-modifications-report-new-forwarding-users-view-details-table-details.png)
 
-보고서 보기로 돌아가려면 **보고서 보기**를 클릭 합니다.
+보고서 보기로 돌아가려면 **보고서 보기** 를 클릭 합니다.
 
 ## <a name="related-topics"></a>관련 항목
 

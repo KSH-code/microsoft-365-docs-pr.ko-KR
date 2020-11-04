@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: 핵심 데이터를 새 Office 365 데이터 센터 지역으로 이동 하는 방법에 대 한 Faq (질문과 대답)에 대 한 답을 찾아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 043c5ee5206b30cbbc656c8886c806c2b7c2361c
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: 3eb3b7ec99da2cdca357f45eb4e71500a235fc61
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333573"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877828"
 ---
 # <a name="data-move-general-faq"></a>데이터 이동 일반 FAQ
 
@@ -28,10 +28,10 @@ ms.locfileid: "48333573"
   
 ## <a name="what-customers-are-eligible-to-request-a-move"></a>이동을 요청할 수 있는 고객은 무엇입니까?
   
-기존 Microsoft 365 상업용 고객은 새 데이터 센터 지역에 적합 한 국가를 선택한 경우 이동을 요청할 수 있습니다.  이 프로그램은 Microsoft 365 테 넌 트에 할당 된 적격 국가 코드가 있는 테 넌 트에만 해당 Microsoft 365 데이터 센터 지역에 적합 한 작업을 위해 휴지 상태로 핵심 고객 데이터를 마이그레이션합니다.  국가 자격 확인 [방법은 데이터 이동을 요청 하는 방법](request-your-data-move.md) 페이지를 참조 하세요.   
+기존 Microsoft 365 상업용 고객은 새 데이터 센터 지역에 적합 한 국가를 선택한 경우 이동을 요청할 수 있습니다.  이 프로그램은 Microsoft 365 테 넌 트에 할당 된 적격 국가 코드가 있는 테 넌 트에만 해당 Microsoft 365 데이터 센터 지역에 적합 한 작업을 위해 휴지 상태로 핵심 고객 데이터를 마이그레이션합니다.  국가 자격 확인 [방법은 데이터 이동을 요청 하는 방법](request-your-data-move.md) 페이지를 참조 하세요.   
 
 ## <a name="how-do-we-define-core-customer-data"></a>핵심 고객 데이터를 정의 하려면 어떻게 해야 합니까?
- 
+ 
 핵심 고객 데이터는 [Microsoft Online Services 조항](https://aka.ms/ost)에 정의 된 고객 데이터의 하위 집합을 지칭 하는 용어입니다. 
 - Exchange Online 사서함 콘텐츠 (전자 메일 본문, 일정 항목 및 전자 메일 첨부 파일 콘텐츠)
 - SharePoint Online 사이트 콘텐츠 및 해당 사이트 내에 저장 된 파일
@@ -43,7 +43,7 @@ Exchange Online, SharePoint Online 및 비즈니스용 OneDrive와 함께 사용
 - 개인 메시지 및 채널 메시지를 포함 한 팀 대화방 메시지 
 - 채팅에 사용 되는 팀 이미지 
 
-팀 파일은 SharePoint Online 및 팀 채팅 파일에 저장 되며 비즈니스용 OneDrive에 저장 됩니다.  음성 메일, 일정, 채팅 기록 및 연락처는 Exchange Online에 저장 됩니다.  대부분의 경우 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive는 고객이 로컬 데이터 센터 지역에 있는 고객에 게 이미 사용 되 고 있으며 적합 한 고객 국가에 대 한 Microsoft 365 마이그레이션 프로그램의 일부 이기도 합니다.
+팀 파일은 SharePoint Online 및 팀 채팅 파일에 저장 되며 비즈니스용 OneDrive에 저장 됩니다.  음성 메일, 일정 및 연락처는 Exchange Online에 저장 됩니다.  대부분의 경우 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive는 고객이 로컬 데이터 센터 지역에 있는 고객에 게 이미 사용 되 고 있으며 적합 한 고객 국가에 대 한 Microsoft 365 마이그레이션 프로그램의 일부 이기도 합니다.
 
 ## <a name="at-what-point-is-my-migration-complete-so-that-my-tenants-core-customer-data-is-being-stored-at-rest-in-my-new-geo"></a>내 테 넌 트의 핵심 고객 데이터가 새 geo의 나머지 위치에 저장 되도록 내 마이그레이션이 완료 되는 점은 무엇입니까?
 
@@ -57,11 +57,11 @@ Exchange Online과 SharePoint Online/비즈니스용 OneDrive 간의 공유 종�
   
 ## <a name="what-is-the-impact-of-having-different-services-located-in-different-geos"></a>서로 다른 온-os에 다른 서비스가 있는 경우의 영향은 무엇입니까?
 
-일부 Microsoft 365 서비스는 일부 기존 고객 및 이동 프로세스의 중심에 있는 고객을 위해 다른 지역에 있을 수 있습니다. 서비스는 서로 독립적으로 실행 되며,이 경우 사용자 환경에 영향을 주지 않습니다.그러나 데이터 상주 목적으로 Exchange Online과 SharePoint Online/비즈니스용 OneDrive를 모두 동일한 데이터 센터 지역으로 마이그레이션할 때까지 테 넌 트 마이그레이션을 완료로 간주할 수 없습니다.
+일부 Microsoft 365 서비스는 일부 기존 고객 및 이동 프로세스의 중심에 있는 고객을 위해 다른 지역에 있을 수 있습니다. 서비스는 서로 독립적으로 실행 되며,이 경우 사용자 환경에 영향을 주지 않습니다. 그러나 데이터 상주 목적으로 Exchange Online과 SharePoint Online/비즈니스용 OneDrive를 모두 동일한 데이터 센터 지역으로 마이그레이션할 때까지 테 넌 트 마이그레이션을 완료로 간주할 수 없습니다.
 
  ## <a name="where-is-my-core-customer-data-located"></a>내 코어 고객 데이터는 어디에 있나요?
 
-고객 테 넌 트 관리자는 언제 든 지 관리자 센터에서 데이터 위치 카드를 확인 하 여 각 서비스의 rest 위치 (테 넌 트에 대 한)에서 핵심 고객 데이터를 확인할 수 있습니다.또한 [Microsoft 365 대화형 데이터 센터 ](https://office.com/datamaps) 의 Office 365 customer 데이터 센터의 위치를 새 테 넌 트의 rest 위치에 있는 현재 기본 핵심 고객 데이터에 대 한 참조로 게시 합니다.  Microsoft 365 관리 센터에서 조직 프로필의 데이터 위치 섹션을 통해 rest에서 고객 데이터의 위치를 확인할 수 있습니다.  
+고객 테 넌 트 관리자는 언제 든 지 관리자 센터에서 데이터 위치 카드를 확인 하 여 각 서비스의 rest 위치 (테 넌 트에 대 한)에서 핵심 고객 데이터를 확인할 수 있습니다.  또한 [Microsoft 365 대화형 데이터 센터 ](https://office.com/datamaps) 의 Office 365 customer 데이터 센터의 위치를 새 테 넌 트의 rest 위치에 있는 현재 기본 핵심 고객 데이터에 대 한 참조로 게시 합니다.  Microsoft 365 관리 센터에서 조직 프로필의 데이터 위치 섹션을 통해 rest에서 고객 데이터의 위치를 확인할 수 있습니다.  
  
 ## <a name="when-will-i-be-able-to-request-a-move"></a>이동을 요청할 수 있는 시기는 언제 입니까?
   
@@ -101,7 +101,7 @@ Microsoft는 이동의 구체적 날짜나 기간을 알려드릴 수 없습니�
   
  ## <a name="how-do-i-know-the-move-is-complete"></a>이동이 완료 되었는지 어떻게 알 수 있나요?
   
-각 서비스 데이터의 이동이 완료 되었는지 확인 하려면 Microsoft 365 메시지 센터를 시청 하세요. 각 서비스의 데이터를 이동 하면 완료 알림을 게시 하 여 Exchange Online, SharePoint Online 및 비즈니스용 Skype Online에 대 한 세 가지 완료 알림을 받게 됩니다.  Microsoft 365 관리 센터에서 조직 프로필 아래의 데이터 위치 섹션을 통해 rest에서 고객 데이터의 위치를 확인할 수도 있습니다.  
+각 서비스 데이터의 이동이 완료 되었는지 확인 하려면 Microsoft 365 메시지 센터를 시청 하세요. 각 서비스의 데이터를 이동 하면 완료 알림을 게시 하 여 Exchange Online, SharePoint Online 및 비즈니스용 Skype Online에 대 한 세 가지 완료 알림을 받게 됩니다.  Microsoft 365 관리 센터에서 조직 프로필 아래의 데이터 위치 섹션을 통해 rest에서 고객 데이터의 위치를 확인할 수도 있습니다.  
   
 ## <a name="i-am-a-microsoft-365-customer-in-one-of-the-new-datacenter-geos-but-when-i-signed-up-i-selected-a-different-country-how-can-i-be-moved-to-the-new-datacenter-geo"></a>Microsoft 365 고객은 새 데이터 센터의 geos 중 하나에서, 등록을 마친 후 다른 국가를 선택 했습니다. 새 데이터 센터 지역으로 이동 하려면 어떻게 해야 합니까?
 
@@ -109,7 +109,7 @@ Microsoft는 이동의 구체적 날짜나 기간을 알려드릴 수 없습니�
   
 ## <a name="what-happens-if-we-are-in-process-of-email-data-migration-to-microsoft-365-during-the-exchange-online-move"></a>Exchange Online 이동 중에 전자 메일 데이터를 Microsoft 365로 마이그레이션하는 프로세스를 진행 하는 경우 어떻게 되나요?
 
-이는 매우 일반적인 시나리오로, 완벽 하 게 지원 됩니다.  데이터 센터의 클라우드 마이그레이션은 클라우드 사서함 마이그레이션에 영향을 주지 않습니다.
+이는 매우 일반적인 시나리오로, 완벽 하 게 지원 됩니다.  데이터 센터의 클라우드 마이그레이션은 온-프레미스에서 클라우드 사서함 마이그레이션을 방해 하지 않습니다.
   
  ## <a name="can-i-pilot-some-users"></a>일부 사용자를 파일럿 할 수 있습니까?
   

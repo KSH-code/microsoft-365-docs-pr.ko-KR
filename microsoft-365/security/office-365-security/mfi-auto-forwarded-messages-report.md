@@ -2,7 +2,7 @@
 title: 자동 전달 메시지 인사이트
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에 있는 자동 전달 메시지 보고서에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: d4b772e6392e0af22e6bed475970f637ed03dcb1
-ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
+ms.openlocfilehash: 01a094b8531672708fc024e8ed0c5833786dbb0c
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48245950"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877792"
 ---
 # <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>보안 & 준수 센터에 대 한 자동 전달 메시지 이해
 
@@ -31,14 +31,14 @@ ms.locfileid: "48245950"
 
 위젯의 메시지 수를 클릭 하면 자동 전달 메시지에 대 한 자세한 내용을 보여주는 플라이 아웃 창이 표시 됩니다.
 
-- **전달 메서드를 사용 하 여 메시지 자동 전달**:
+- **전달 메서드를 사용 하 여 메시지 자동 전달** :
 
   - **메일 흐름 규칙에 따라**
   - **받은 편지함 규칙에 따라**
-  - **SMTP 전달**: 관리자가 [사서함에 대 한 전자 메일 전달 구성](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding)에 설명 된 대로 사서함에 대해 구성할 수 있는 자동 전달입니다.
+  - **SMTP 전달** : 관리자가 [사서함에 대 한 전자 메일 전달 구성](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding)에 설명 된 대로 사서함에 대해 구성할 수 있는 자동 전달입니다.
   - 자세한 내용은 [전달 보고서](view-mail-flow-reports.md#forwarding-report) 에 대 한 링크를 참조 하십시오.
 
-- **도메인 및 사용자가 자동으로 메시지를 전달 하는**경우:
+- **도메인 및 사용자가 자동으로 메시지를 전달 하는** 경우:
 
   - **다음에 전달 된 상위 5 개 도메인**
   - **새 도메인 (지난 주)**
