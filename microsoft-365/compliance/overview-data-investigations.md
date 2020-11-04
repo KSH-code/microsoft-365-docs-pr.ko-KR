@@ -18,14 +18,19 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-mar2020
 description: 이 문서에서는 Microsoft 365의 데이터 조사 (미리 보기) 도구에 대해 설명 합니다. 데이터 조사 도구는 데이터 유출를 평가 하 고 수정 하는 데 도움이 됩니다.
-ms.openlocfilehash: 21241ad36278bc75a8363b9aeefeaf4caec783b5
-ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
+ms.openlocfilehash: f3e08ca602d9d131cd25d234c96c660f0b9639aa
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "48285994"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906933"
 ---
 # <a name="overview-of-data-investigations-preview-in-microsoft-365"></a>Microsoft 365의 데이터 조사 개요 (미리 보기)
+
+> [!IMPORTANT]
+> 고객과의 의견을 많이 deliberation 후에는 데이터 조사 도구를 일반 가용성으로 해제 하지 않기로 결정 했습니다. 따라서이 도구 및 기존 데이터 조사 사례와 연결 된 모든 데이터는 2020 년 12 월 31 일에 제거 됩니다.  조직의 데이터 조사를 관리 하려면 핵심 eDiscovery 사례를 사용 하는 것이 좋습니다. Microsoft 365에서 콘텐츠를 검색 하 고 제거 해야 하는 경우 다음 문서를 참조 하세요. 
+> - [eDiscovery 솔루션 시리즈: 데이터 유출 시나리오-검색 및 삭제](data-spillage-scenariosearch-and-purge.md)
+> - [전자 메일 메시지 검색 및 삭제](search-for-and-delete-messages-in-your-organization.md)
 
 데이터 분산은 기밀, 중요 또는 악성 콘텐츠가 포함 된 문서가 신뢰할 수 없는 환경으로 릴리스될 때 발생 합니다. 데이터 분산을 검색 하는 경우 환경을 빠르게 포함 하 고, 유출의 크기와 위치를 평가 하 고, 해당 사용자의 활동을 조사 하 고, 서비스에서 분산 된 데이터를 삭제 하는 것이 중요 합니다. 새 데이터 조사 (미리 보기) 도구를 사용 하 여 Office 365에서 중요, 악성 또는 잘못 된 데이터를 검색 하 고, 발생 한 상황을 조사 하 고, 적절 한 작업을 수행 하 여 유출를 수정할 수 있습니다.  
 
@@ -37,7 +42,7 @@ ms.locfileid: "48285994"
 
 ## <a name="data-investigations-preview-workflow"></a>데이터 조사 (미리 보기) 워크플로 
 
-다음 섹션에서는 데이터 조사 (미리 보기)에서 기본 제공 워크플로의 각 단계에 대해 설명 합니다. 다음 스크린샷은 *높은 위험 (금융 문서 누출*) 이라는 조사에 대 한 **홈** 탭을 보여 줍니다. 
+다음 섹션에서는 데이터 조사 (미리 보기)에서 기본 제공 워크플로의 각 단계에 대해 설명 합니다. 다음 스크린샷은 *높은 위험 (금융 문서 누출* ) 이라는 조사에 대 한 **홈** 탭을 보여 줍니다. 
 
 ![데이터 조사 도구의 워크플로](../media/DataInvestigationsWorkflow.png)
 
@@ -62,7 +67,7 @@ ms.locfileid: "48285994"
 
 ## <a name="indexing-the-data-of-people-of-interest"></a>관심 있는 사용자의 데이터 인덱싱
 
-조사에 관심이 있는 사람을 추가 하면 해당 사용자의 데이터 원본에서 부분적으로 인덱싱된 모든 항목의 인덱스가 다시 됩니다. 이 프로세스를 *고급 인덱싱*이라고 합니다. 고급 인덱싱 검색을 실행 하 여 조사를 위해 데이터를 수집 하는 경우이 데이터를 완벽 하 게 검색할 수 있도록 이미지, 지원 되지 않는 파일 형식 등의 데이터를 reprocesses. **처리** 탭을 사용 하 여 고급 인덱싱 상태를 모니터링 하 고 *오류 수정 관리*라는 프로세스를 사용 하 여 발생할 수 있는 처리 오류를 수정 합니다. 자세한 내용은 확인 [을 위해 데이터를 처리할 때 오류 수정을](error-remediation.md)참조 하십시오.
+조사에 관심이 있는 사람을 추가 하면 해당 사용자의 데이터 원본에서 부분적으로 인덱싱된 모든 항목의 인덱스가 다시 됩니다. 이 프로세스를 *고급 인덱싱* 이라고 합니다. 고급 인덱싱 검색을 실행 하 여 조사를 위해 데이터를 수집 하는 경우이 데이터를 완벽 하 게 검색할 수 있도록 이미지, 지원 되지 않는 파일 형식 등의 데이터를 reprocesses. **처리** 탭을 사용 하 여 고급 인덱싱 상태를 모니터링 하 고 *오류 수정 관리* 라는 프로세스를 사용 하 여 발생할 수 있는 처리 오류를 수정 합니다. 자세한 내용은 확인 [을 위해 데이터를 처리할 때 오류 수정을](error-remediation.md)참조 하십시오.
 
 ## <a name="exporting-data"></a>데이터 내보내기
 

@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 분류자는 다양 한 유형의 콘텐츠를 확인할 수 있도록 교육을 제공 하는 도구입니다. 이 문서에서는 사용자 지정 분류자를 만들고 학습 하는 방법과이를 재교육 하 여 정확성을 향상 시키는 방법을 설명 합니다.
-ms.openlocfilehash: 4475456e7116acbc705a3121079391a571fcca8a
-ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
+ms.openlocfilehash: f0d3659c1ee03fe69a5513f24d15b295400a24dc
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841235"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906349"
 ---
 # <a name="get-started-with-trainable-classifiers-preview"></a>학습 가능한 분류자 시작(미리 보기)
 
@@ -44,7 +44,7 @@ Microsoft 365 trainable 분류자는 다양 한 유형의 콘텐츠를 확인할
 UI의 분류자에 액세스 하려면: 
 
 - 전역 관리자는 테 넌 트가 사용자 지정 분류자를 만들기 위해 옵트인 해야 합니다.
-- 분류자를 학습 하려면 준수 관리자 역할, 데이터 조사 역할 또는 준수 데이터 관리자가 필요 합니다.
+- 분류자를 학습 하려면 준수 관리자 또는 데이터 조사 역할이 필요 합니다.
 
 이러한 시나리오에서 분류자를 사용 하려면 다음과 같은 권한이 있는 계정이 필요 합니다.
 
@@ -169,7 +169,7 @@ Trainable 분류자가 예측 모델을 작성 하기에 충분 한 긍정적인
    Add-ComplianceCaseMember -Case "<classifier name>" -Member "<user or role group>"
    ```
    
-   예:
+   예제:
    
    `Add-ComplianceCaseMember -Case "Financial Contract Classifier" -Member johnevans@contoso.com`
 
