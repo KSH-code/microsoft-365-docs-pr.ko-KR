@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3dc182ce799078e50087699aa3ca88c3abbcf769
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 1acab5da365b8d89671bca37a5b84bdab9e3e47b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208430"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843374"
 ---
 # <a name="isoiec-270012013-information-security-management-standards"></a>ISO/IEC 27001:2013 정보 보안 관리 표준
 
@@ -42,8 +42,8 @@ Microsoft 클라우드에서 ISO/IEC-27001의 혜택에 대해 알아보세요. 
 - [Azure, Azure Government, Azure Germany](https://aka.ms/AzureCompliance)
 - Azure DevOps Services
 - Microsoft Cloud App Security
-- Microsoft Defender Advanced Threat Protection
-- [Dynamics 365, Dynamics 365 Government, and Dynamics 365 Germany](https://aka.ms/d365-compliance-list)
+- 엔드포인트용 Microsoft Defender
+- [Dynamics 365, Dynamics 365 Government 및 Dynamics 365 Germany](https://aka.ms/d365-compliance-list)
 - Microsoft Graph
 - Microsoft Healthcare Bot
 - Intune

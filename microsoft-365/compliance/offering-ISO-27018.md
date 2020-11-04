@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a83bfef591c0e4baa2a24f0218999189dba7dba7
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 8e7dfcad68dc56e071072124c02c7e1346ddcde8
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208290"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843354"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>클라우드 내 개인 데이터 보호를 위한 ISO/IEC 27018 규약
 
@@ -61,7 +61,7 @@ ISO/IEC 27001 표준과 ISO/IEC 27018에 포함된 규약을 준수하는(이 �
 - 파워 가상 에이전트
 - Microsoft 위협 전문가
 - Microsoft Stream
-- Windows Defender ATP — 끝점 감지 및 대응, 자동 조사 및 조치, 보안 점수
+- 엔드포인트용 Microsoft Defender — 엔드포인트 감지 및 대응, 자동 조사 및 조치, 보안 점수
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 

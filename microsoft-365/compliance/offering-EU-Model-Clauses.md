@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b4767b9cc3d267020fee1c44876bf47442d0cea2
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 61744c9c9d8bd5a7bb94cf9ab3599be0c2889efc
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415496"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843110"
 ---
 # <a name="european-union-model-clauses"></a>유럽 연합 모델 조항
 
@@ -51,7 +51,7 @@ Microsoft는 검토 및 승인을 받기 위해 EU의 29 조항 특별 조사 �
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
 - 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
 - Azure DevOps Services
-- 다음 클라우드 서비스 부분에 대한 Windows Defender Advanced Threat Protection: 끝점 감지 및 대응, 자동 조사 및 조치, 보안 점수
+- 다음의 클라우드 서비스 부분에 대한 엔드포인트용 Windows Defender: 끝점 감지 및 대응, 자동 조사 및 조치, 보안 점수
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 

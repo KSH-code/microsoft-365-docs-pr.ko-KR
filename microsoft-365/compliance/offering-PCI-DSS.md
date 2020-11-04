@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1151fd74e5f40a91107467b6004049081c4a9a69
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 00f9832eadb55b3056ca3fcd3a79ee12afe83034
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208240"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841887"
 ---
 # <a name="payment-card-industry-pci-data-security-standard-dss"></a>PCI(Payment Card Industry) DSS(Data Security Standard)
 
@@ -44,8 +44,8 @@ Azure, 비즈니스용 OneDrive, SharePoint Online의 PCI DSS 규정 준수 상�
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Flow 클라우드 서비스
 - Microsoft Graph
 - Intune
-- [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
-- 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
+- [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
+- 독립 실행형 서비스 혹은 Office 365 또는 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
 - 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
 - 비즈니스용 OneDrive 및 SharePoint Online(미국에만 해당)
 

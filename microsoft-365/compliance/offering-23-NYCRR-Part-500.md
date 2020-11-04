@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a44c52c31377e0644a817affe068c11b19d006f5
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 623b78946eae36849da8e1b139e2df4a9dff7742
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416226"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845150"
 ---
 # <a name="title-23-nycrr-part-500"></a>Title 23 NYCRR Part 500
 
@@ -35,19 +35,19 @@ Microsoft는 Title 23 NYCRR Part 500에 따라 규제되는 재무 서비스를 
 
 뉴욕 규정에는 각 재무 기관이 다음을 수행해야 합니다.
 
-- 기관의 특정 위험 프로필 평가부터 시작한 다음 문제를 해결하는 프로그램을 설계하는 **강력한 사이버 보안 프로그램을 개발하고 유지 관리**합니다. [Microsoft 클라우드 금융 서비스 규정 준수 프로그램](https://www.microsoft.com/download/confirmation.aspx?id=55332)은 금융 서비스가 Microsoft 클라우드 서비스 사용에 대한 위험을 평가하는 데 도움이 되도록 만들어졌습니다. 여기에는 엔지니어와 회사 위험 관리자의 직접적인 참여와 규정 준수 및 보안 전문가에 대한 액세스 권한이 포함되어 있습니다.
-- 정보 보안, 데이터 관리 및 분류, 액세스 제어, 비즈니스 연속성 등을 처리하는 **종합 사이버 보안 정책을 구현**합니다. Microsoft는 인증 및 위험 평가, 비즈니스 연속성 및 재해 복구 메트릭, 로깅 및 감사용 진단에 대한 자세한 정보를 포함하여 이 정책을 개발하는 데 대한 참고 자료를 제공합니다.
-- 사이버 보안 프로그램을 관리하고 정책을 적용하기 위한 **수석 정보 보안 책임자(CISO)를 지정**합니다. CISO를 지원하기 위해 Microsoft는 [Azure Security Center](https://azure.microsoft.com/services/security-center/?v=17.23h), [Office 365 Advanced Threat Analytics](https://docs.microsoft.com/advanced-threat-analytics/) 및 [Power BI 보안](https://go.microsoft.com/fwlink/?LinkId=829185)을 통해 Microsoft 클라우드 배포에 대한 심층 사이버 보안 정보를 제공합니다.
-- **사이버 보안 프로그램의 효율성 모니터링 및 테스트**: Microsoft에서는 지속적인 모니터링, 주기적인 침투 테스트, 취약점 평가를 포함 하는 사이버 보안 관행 감사에 대한 정보를 제공합니다. 고객은 사전에 Microsoft에서 제공 하는 고급 권한을 사용하지 않고 자체 테스트를 수행할 수 있습니다.
+- 기관의 특정 위험 프로필 평가부터 시작한 다음 문제를 해결하는 프로그램을 설계하는 **강력한 사이버 보안 프로그램을 개발하고 유지 관리** 합니다. [Microsoft 클라우드 금융 서비스 규정 준수 프로그램](https://www.microsoft.com/download/confirmation.aspx?id=55332)은 금융 서비스가 Microsoft 클라우드 서비스 사용에 대한 위험을 평가하는 데 도움이 되도록 만들어졌습니다. 여기에는 엔지니어와 회사 위험 관리자의 직접적인 참여와 규정 준수 및 보안 전문가에 대한 액세스 권한이 포함되어 있습니다.
+- 정보 보안, 데이터 관리 및 분류, 액세스 제어, 비즈니스 연속성 등을 처리하는 **종합 사이버 보안 정책을 구현** 합니다. Microsoft는 인증 및 위험 평가, 비즈니스 연속성 및 재해 복구 메트릭, 로깅 및 감사용 진단에 대한 자세한 정보를 포함하여 이 정책을 개발하는 데 대한 참고 자료를 제공합니다.
+- 사이버 보안 프로그램을 관리하고 정책을 적용하기 위한 **최고 정보 보호 책임자(CISO)를 지정** 합니다. CISO를 지원하기 위해 Microsoft는 [Azure Defender*](https://azure.microsoft.com/services/security-center/?v=17.23h), [Office 365 Advanced Threat Analytics](https://docs.microsoft.com/advanced-threat-analytics/) 및 [Power BI 보안](https://go.microsoft.com/fwlink/?LinkId=829185)을 통해 Microsoft 클라우드 배포에 대한 심층 사이버 보안 정보를 제공합니다.
+- **사이버 보안 프로그램의 효율성 모니터링 및 테스트** : Microsoft에서는 지속적인 모니터링, 주기적인 침투 테스트, 취약점 평가를 포함하는 사이버 보안 사례 감사에 대한 정보를 제공합니다. 고객은 사전에 Microsoft에서 제공 하는 고급 권한을 사용하지 않고 자체 테스트를 수행할 수 있습니다.
 - **감사 내역을 관리합니다.** Azure, Office 365 및 Power BI 고객에 대한 기본 제공 감사 기능은 재무 거래를 재구성하고 감사 추적 정보를 개발하는 데 사용할 수 있는 정보를 생성합니다.
-- **비공개 정보를 포함하는 정보 시스템에 대한 액세스 제한**: Azure, Office 365, Power BI는 각 서비스에 대한 기본 RBAC(역할 기반 액세스 제어) 프로세스, 모든 Microsoft 관리자의 엄격한 보안 및 액세스 요구 사항, 강화된 액세스 권한에 대한 모든 요청 감사를 제공하는지 평가합니다.
-- **외부 개발 애플리케이션에 대한 보안을 평가하고 테스트하기 위한 절차 도입**: Visual Studio를 사용하는 개발자는 관리 코드에 대한 [보안 규칙](https://docs.microsoft.com/visualstudio/code-quality/security-rules-rule-set-for-managed-code)을 코드가 배포되기 전에 애플리케이션 사이버 보안 위협이 감지되고 완화되는지 확인할 수 있습니다.
-- **주기적인 위험 평가를 사용하여 사이버 보안 프로그램을 설계 및 개선**: 고객을 위해 Microsoft는 보안 위협에 대한 정보를 집계하고 변경 관리의 로드맵을 제공하며 하도급업자에 대한 정보를 정기적으로 업데이트합니다. Microsoft는 또한 고객에게 제공되는 결과인 자체 서비스에 대한 위험 평가를 정기적으로 실시합니다.
-- **공인 담당자를 통해 사이버 보안 위험을 관리하고 사이버 보안 기능을 감독**: Microsoft는 직원들이 고객 데이터에 액세스하는 데 엄격한 절차를 사용합니다. 하도급업자를 고용하는 경우 서비스 제공을 관리하고, 중요한 데이터를 처리하는 데 필요한 요구 사항, 신원 조사 및 비공개 계약을 비롯하여 하도급업자가 Microsoft의 개인정보취급방침 및 보안 지침 내용을 완전하게 준수하는지 확인합니다.
-- **타사 서비스 공급자가 제공하는 정보의 보안을 보장하는 정책 및 절차 구현**: Azure, Office 365 및 Power BI는 회사 네트워크에 대한 모든 인바운드 연결에 대해 다단계 인증을 사용할 수 있습니다. 외부 네트워크를 통한 전송에서 비공개 정보를 보호하고 rest에서 보호할 수 있는 암호화를 비롯한 제어를 구현합니다. [Microsoft Online Services 사용 약관](https://aka.ms/Online-Services-Terms)을 통해 보안 문제에 대한 고객 공지, 인시던트 조사 및 위험 완화를 제공합니다.
-- **데이터 보존 및 삭제 정책과 절차 구현**: Azure, Office 365, Power BI에 저장된 고객 데이터를 언제든지 액세스하고 추출할 수 있습니다.
-- **권한이 부여된 사용자의 활동을 모니터링하고, 무단 액세스를 감지하고, 직원들에게 정기적인 사이버 보안 인식 교육 제공**: Azure, Office 365, 및 Power BI에는 로깅 및 감사에 대한 다양한 진단과 인시던트에 대한 경고를 표시하는 간접적인 상호 작용 모니터링이 포함되어 있습니다. [Microsoft Virtual Academy](https://mva.microsoft.com/)는 Microsoft 클라우드 서비스의 사이버 보안을 다루는 온라인 교육을 제공합니다.
-- **사이버 보안 인시던트에 대응하고 복구하는 계획 개발**: Microsoft는보안 위반이 발생하기 전에 이를 감지하고 예측하며 방지하기 위해 방어 전략을 사용하여 사이버 보안 인시던트를 준비할 수 있도록 도움을 줍니다. 직접 계획을 개발할 때는 인시던트 관리 계획을 세워 사이버 보안 위반에 대응할 수 있습니다.
+- **비공개 정보를 포함하는 정보 시스템에 대한 액세스 제한** : Azure, Office 365, Power BI는 각 서비스에 대한 기본 RBAC(역할 기반 액세스 제어) 프로세스, 모든 Microsoft 관리자의 엄격한 보안 및 액세스 요구 사항, 강화된 액세스 권한에 대한 모든 요청 감사를 제공하는지 평가합니다.
+- **외부 개발 애플리케이션에 대한 보안을 평가하고 테스트하기 위한 절차 도입** : Visual Studio를 사용하는 개발자는 관리 코드에 대한 [보안 규칙](https://docs.microsoft.com/visualstudio/code-quality/security-rules-rule-set-for-managed-code)을 코드가 배포되기 전에 애플리케이션 사이버 보안 위협이 감지되고 완화되는지 확인할 수 있습니다.
+- **주기적인 위험 평가를 사용하여 사이버 보안 프로그램을 설계 및 개선** : 고객을 위해 Microsoft는 보안 위협에 대한 정보를 집계하고 변경 관리의 로드맵을 제공하며 하도급업자에 대한 정보를 정기적으로 업데이트합니다. Microsoft는 또한 고객에게 제공되는 결과인 자체 서비스에 대한 위험 평가를 정기적으로 실시합니다.
+- **공인 담당자를 통해 사이버 보안 위험을 관리하고 사이버 보안 기능을 감독** : Microsoft는 직원들이 고객 데이터에 액세스하는 데 엄격한 절차를 사용합니다. 하도급업자를 고용하는 경우 서비스 제공을 관리하고, 중요한 데이터를 처리하는 데 필요한 요구 사항, 신원 조사 및 비공개 계약을 비롯하여 하도급업자가 Microsoft의 개인정보취급방침 및 보안 지침 내용을 완전하게 준수하는지 확인합니다.
+- **타사 서비스 공급자가 제공하는 정보의 보안을 보장하는 정책 및 절차 구현** : Azure, Office 365 및 Power BI는 회사 네트워크에 대한 모든 인바운드 연결에 대해 다단계 인증을 사용할 수 있습니다. 외부 네트워크를 통한 전송에서 비공개 정보를 보호하고 rest에서 보호할 수 있는 암호화를 비롯한 제어를 구현합니다. [Microsoft Online Services 사용 약관](https://aka.ms/Online-Services-Terms)을 통해 보안 문제에 대한 고객 공지, 인시던트 조사 및 위험 완화를 제공합니다.
+- **데이터 보존 및 삭제 정책과 절차 구현** : Azure, Office 365, Power BI에 저장된 고객 데이터를 언제든지 액세스하고 추출할 수 있습니다.
+- **권한이 부여된 사용자의 활동을 모니터링하고, 무단 액세스를 감지하고, 직원들에게 정기적인 사이버 보안 인식 교육 제공** : Azure, Office 365, 및 Power BI에는 로깅 및 감사에 대한 다양한 진단과 인시던트에 대한 경고를 표시하는 간접적인 상호 작용 모니터링이 포함되어 있습니다. [Microsoft Virtual Academy](https://mva.microsoft.com/)는 Microsoft 클라우드 서비스의 사이버 보안을 다루는 온라인 교육을 제공합니다.
+- **사이버 보안 인시던트에 대응하고 복구하는 계획 개발** : Microsoft는보안 위반이 발생하기 전에 이를 감지하고 예측하며 방지하기 위해 방어 전략을 사용하여 사이버 보안 인시던트를 준비할 수 있도록 도움을 줍니다. 직접 계획을 개발할 때는 인시던트 관리 계획을 세워 사이버 보안 위반에 대응할 수 있습니다.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 

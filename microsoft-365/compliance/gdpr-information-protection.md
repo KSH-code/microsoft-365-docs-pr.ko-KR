@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2c9f0a97869f27cbcf5829a15f50bf2905472c28
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 547d79093b65fba37a020781fbfce938d122c943
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398487"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846380"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>Microsoft 365 기능을 사용한 GDPR에 대한 정보 보호
 
@@ -58,8 +58,8 @@ Microsoft에서는 시작점으로 사용할 수 있는 권장 구성을 제공�
 
 - [Office 365 보안 로드맵: 처음 30일, 90일 및 그 이상 기간에 주요 우선 순위 두기](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap). 이 로드맵에는 기능을 구현하기 위한 권장 사항이 포함되어 있습니다. 
 - [Office 365에서 위협으로부터 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats). Microsoft 365 보안 센터에서 수행할 수 있는 보호 조치에 대해 알아봅니다.
-- [Windows 위협 보호](https://docs.microsoft.com/windows/security/threat-protection/). Windows Defender Advanced Threat Protection 및 Windows 10의 기타 기능에 대해 자세히 알아봅니다.
+- [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/) Windows 10의 엔드포인트와 기타 기능에 대한 Microsoft Defender에 대해 자세히 알아봅니다.
 
-## <a name="learn-more"></a>자세한 정보
+## <a name="learn-more"></a>자세히 알아보기
 
 [Microsoft 보안 센터](https://www.microsoft.com/trust-center/privacy/gdpr-overview)

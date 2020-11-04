@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e156a8dc71dc9aca4a5d608b29307f4d36f0ec6b
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 697124400ab869825a0d7e46357566c82b1583b3
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208140"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845046"
 ---
 # <a name="isoiec-27701-privacy-information-management-system-pims"></a>ISO/IEC 27701 PIMS(개인 정보 관리 시스템)
 
@@ -33,9 +33,9 @@ ms.locfileid: "48208140"
 
 공급 업체가 PIMS를 인증하려면 조직 규모와 상관없이 공급자와 파트너가 책임 개인 정보 보호 방침을 설정하는 것이 효율적입니다. ISO/IEC 27701는 다음 세 가지 주요 규정 준수 문제를 해결합니다.
 
-- **조율할 규정 요구 사항이 너무 많음**: 법용 운영 제어 집합을 사용하여 여러 규제 요구 사항을 조정하는 것이 일관되고 효율적인 구현를 가능하게 합니다.
-- **규정을 통해 규정을 감사하는 데 너무 많은 비용이 듦**: 감사자(내부 및 제3자)는 하나의 감사 주기 내에서 범용 운영 제어 집합을 사용하여 규제 준수를 평가할 수 있습니다.
-- **증명을 사용하지 않는 규정 준수 약속은 잠재 위험 요소가 있음**: 개인 정보 이동을 포함한 상업적 계약이 규정 준수에 대한 인증을 보증할 수 있습니다.
+- **조율할 규정 요구 사항이 너무 많음** : 법용 운영 제어 집합을 사용하여 여러 규제 요구 사항을 조정하는 것이 일관되고 효율적인 구현를 가능하게 합니다.
+- **규정을 통해 규정을 감사하는 데 너무 많은 비용이 듦** : 감사자(내부 및 제3자)는 하나의 감사 주기 내에서 범용 운영 제어 집합을 사용하여 규제 준수를 평가할 수 있습니다.
+- **증명을 사용하지 않는 규정 준수 약속은 잠재 위험 요소가 있음** : 개인 정보 이동을 포함한 상업적 계약이 규정 준수에 대한 인증을 보증할 수 있습니다.
 
 ## <a name="too-many-regulatory-requirements-to-juggle"></a>조율할 규정 요구 사항이 너무 많음
 
@@ -84,7 +84,7 @@ ISO/IEC 27001 및 PIMS의 주요 사항:
 - Power Virtual Agents
 - Microsoft Stream
 - Microsoft 위협 전문가
-- Windows Defender Advanced Threat Protection
+- 엔드포인트용 Microsoft Defender
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 

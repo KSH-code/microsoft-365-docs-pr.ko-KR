@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a5da8e0168b58011a696f1f602d21e410e2a1eb6
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 504135d30cbb859f419307ba0641c721d171d747
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415607"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847794"
 ---
 # <a name="cloud-security-alliance-csa-star-certification"></a>CSA(Cloud Security Alliance) STAR 인증
 
@@ -47,7 +47,7 @@ Azure 보안 및 규정 준수 청사진을 사용하여 CSA STAR 인증 배포�
 - Microsoft Healthcare Bot
 - Intune
 - Microsoft Managed Desktop
-- Microsoft Defender Advanced Threat Protection
+- 엔드포인트용 Microsoft Defender
 - OMS 서비스 지도
 - Power Automate(이전 Microsoft Flow): 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 클라우드 서비스
 - PowerApps 클라우드 서비스: 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태
@@ -75,9 +75,9 @@ Azure, Microsoft Cloud App Security, Intune 및 Power BI는 성숙도 기능 평
 
 **Microsoft 비즈니스 클라우드 서비스는 어떤 CSA STAR 보증 수준을 획득했나요?**
 
-- **수준 1**: **CSA STAR 자체 평가**: Azure, Dynamics 365, Office 365. [자체 평가](offering-csa-star-self-assessment.md)는 클라우드 서비스 공급자가 고객이 서비스 보안을 평가하는 것을 돕기 위해 보안 제어를 문서화하는 무료 서비스입니다.
-- **수준 2**: **CSA STAR 인증**: Microsoft Azure, Cloud App Security, Intune, Power BI. STAR 인증은 ISO/IEC 27001 인증을 획득과 CCM에 지정된 기준 충족에 기반합니다. 클라우드 서비스 공급자의 보안 제어 및 관행에 대한 엄격한 제3자 평가 후에 이를 수여합니다.
-- **수준 2**: **CSA STAR 증명**: Azure, Intune. CSA와 AICPA는 AICPA(Trust Service Principles, AT 101)와 CSA CCM의 기준을 사용하여 CPA가 SOC 2 계약을 수행하는 데 사용할 지침을 제공하기 위해 협력했습니다. [STAR 증명](offering-CSA-STAR-Attestation.md)은 이러한 지침을 기반으로 하며 클라우드 공급자에 대한 엄격한 독립적인 평가 후에 수여됩니다.
+- **수준 1** : **CSA STAR 자체 평가** : Azure, Dynamics 365, Office 365. [자체 평가](offering-csa-star-self-assessment.md)는 클라우드 서비스 공급자가 고객이 서비스 보안을 평가하는 것을 돕기 위해 보안 제어를 문서화하는 무료 서비스입니다.
+- **수준 2** : **CSA STAR 인증** : Microsoft Azure, Cloud App Security, Intune, Power BI. STAR 인증은 ISO/IEC 27001 인증을 획득과 CCM에 지정된 기준 충족에 기반합니다. 클라우드 서비스 공급자의 보안 제어 및 관행에 대한 엄격한 제3자 평가 후에 이를 수여합니다.
+- **수준 2** : **CSA STAR 증명** : Azure, Intune. CSA와 AICPA는 AICPA(Trust Service Principles, AT 101)와 CSA CCM의 기준을 사용하여 CPA가 SOC 2 계약을 수행하는 데 사용할 지침을 제공하기 위해 협력했습니다. [STAR 증명](offering-CSA-STAR-Attestation.md)은 이러한 지침을 기반으로 하며 클라우드 공급자에 대한 엄격한 독립적인 평가 후에 수여됩니다.
 
 ## <a name="resources"></a>리소스
 
