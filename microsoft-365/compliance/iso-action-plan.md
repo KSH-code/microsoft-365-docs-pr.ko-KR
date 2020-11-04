@@ -14,12 +14,12 @@ audience: itpro
 ms.collection:
 - M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f2aeb7bd56b81427a184a051e1dc11ba3a3ec932
-ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
+ms.openlocfilehash: 49774f9ac3bbc422ddd60f123477d0e144cb3dce
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48791952"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845184"
 ---
 # <a name="microsoft-365-iso-27001-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>Microsoft 365 ISO 27001 작업 계획 - 처음 30일, 90일 및 그 이상 기간에 대한 최고 우선 순위 지정
 
@@ -59,10 +59,10 @@ ISO/IEC 27001은 ISMS(정보 보안 관리 시스템)를 구현하기 위한 국
 |||
 |:-----|:-----|
 |**영역**|**태스크**|
-|Microsoft 365 보안 기능을 사용하여 환경에 대한 액세스를 제어하고, 정의된 SOP(표준 운영 절차)에 따라 조직 정보 및 자산을 보호합니다.|•  모든 사용자 계정에 대해 MFA(Multi-Factor Authentication)와 모든 앱에 대해 최신 인증을 사용하도록 설정하는 것을 포함하여 [ID 및 장치 액세스 정책](../security/office-365-security/microsoft-365-policies-configurations.md)을 구현하여 관리자 및 최종 사용자 계정을 보호합니다.<br>•    [강력한 암호 정책](https://www.microsoft.com/research/publication/password-guidance)을 설정하여 사용자 계정 자격 증명을 관리하고 보호합니다.<br>• [OME(Office 365 메시지 암호화)](https://docs.microsoft.com/microsoft-365/compliance/ome)를 설정하여 전자 메일을 통해 중요한 데이터를 보낼 때 최종 사용자가 조직의 SOP를 준수하도록 도와줍니다.<br>•    데이터 침해 방지 및 응답뿐만 아니라 악성 코드에 대한 보호를 위해 모든 데스크톱에 [Windows Defender ATP(Advanced Threat Protection)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)를 배포합니다.<br>•  [DLP(데이터 손실 방지) 정책](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)을 구성, 테스트 및 배포하여 재무, 의료 및 개인 식별 가능 정보를 포함하여 문서 및 전자 메일 내에 포함된 80가지가 넘는 중요한 데이터 유형을 식별, 모니터링 및 [자동으로 보호](https://docs.microsoft.com/microsoft-365/compliance/apply-protection-to-personal-data-in-office-365)합니다.<br>• [정책 팁](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/policy-tips)을 구성하여 문제의 메시지를 보내기 전에도 전자 메일 발송자가 정책 중 하나를 위반할 가능성이 있음을 자동으로 알릴 수 있습니다. 메시지를 만드는 동안 가능한 정책 위반에 대한 정보를 제공하는 Outlook, 웹상의 Outlook 및 장치의 OWA에 간단한 메모를 제공하도록 정책 팁을 구성할 수 있습니다.<br>•  [Office 365 ATP(Advanced Threat Protection)](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)를 구현하여 악의적인 링크 및 첨부 파일이 들어 있는 피싱 전자 메일 및 Office 문서를 포함하는 가장 일반적인 공격 벡터를 방지합니다.|
+|Microsoft 365 보안 기능을 사용하여 환경에 대한 액세스를 제어하고, 정의된 SOP(표준 운영 절차)에 따라 조직 정보 및 자산을 보호합니다.|•  모든 사용자 계정에 대해 MFA(Multi-Factor Authentication)와 모든 앱에 대해 최신 인증을 사용하도록 설정하는 것을 포함하여 [ID 및 장치 액세스 정책](../security/office-365-security/microsoft-365-policies-configurations.md)을 구현하여 관리자 및 최종 사용자 계정을 보호합니다.<br>•    [강력한 암호 정책](https://www.microsoft.com/research/publication/password-guidance)을 설정하여 사용자 계정 자격 증명을 관리하고 보호합니다.<br>• [OME(Office 365 메시지 암호화)](https://docs.microsoft.com/microsoft-365/compliance/ome)를 설정하여 전자 메일을 통해 중요한 데이터를 보낼 때 최종 사용자가 조직의 SOP를 준수하도록 도움을 줍니다.<br>•    데이터 침해 방지 및 대응뿐만 아니라 악성 코드로부터의 보호를 위해 모든 데스크톱에 [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)를 배포합니다.<br>•  [DLP(데이터 손실 방지) 정책](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)을 구성, 테스트 및 배포하여 재무, 의료 및 개인 식별 가능 정보를 포함하여 문서 및 전자 메일 내에 포함된 80가지가 넘는 중요한 데이터 유형을 식별, 모니터링 및 [자동으로 보호](https://docs.microsoft.com/microsoft-365/compliance/apply-protection-to-personal-data-in-office-365)합니다.<br>• [정책 팁](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/policy-tips)을 구성하여 위반하는 메시지를 보내기도 전에, 전자 메일 발송자가 정책 중 하나를 위반할 수 있음을 자동으로 알립니다. Outlook, 웹용 Outlook및 장치용 OWA에 메시지를 작성하는 동안 가능한 정책 위반에 대한 정보를 제공하는 간단한 메모를 표시하도록 정책 팁을 구성할 수 있습니다.<br>•  [Office 365용 Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)를 구현하여 악성 링크 및 첨부 파일이 포함된 피싱 전자 메일 및 Office 문서를 포함하여 가장 일반적인 공격 벡터를 방지합니다.|
 
 
-## <a name="beyond-90-days--ongoing-security-data-governance-and-reporting"></a>90일 — 지속적인 보안, 데이터 거버넌스 및 보고
+## <a name="beyond-90-days--ongoing-security-data-governance-and-reporting"></a>90일 이상 — 지속적인 보안, 데이터 관리 및 보고
 
 미사용 개인 데이터 및 전송 중인 개인 데이터를 보호하고, 데이터 위반을 감지 및 대응하고, 보안 조치의 정기적인 테스트를 지원합니다. 이러한 작업은 이전 업무를 토대로 구축된 중요한 보안 조치입니다.  
 
