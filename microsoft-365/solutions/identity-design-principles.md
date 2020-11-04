@@ -1,6 +1,6 @@
 ---
-title: Id 및 그 외의 설계자 관점
-description: 설명이.
+title: Microsoft 365 enterprise 자원 계획-보안 아키텍처
+description: Microsoft의 Alex Shteynberg, 기술 주체 설계자의 Microsoft 엔터프라이즈 아키텍처에 대 한 주요 디자인 전략에 대해 알아봅니다.
 ms.author: bcarter
 author: brendacarter
 manager: bcarter
@@ -11,14 +11,15 @@ localization_priority: Normal
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.custom: ''
+- M365solutions
+ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: fc975610e24980c6a552179359bb643eb9ac040c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: e691b47a2d508064243886957ac491088df2f8ae
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845255"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906898"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Id 및 그 외의 설계자 관점
 
@@ -284,7 +285,7 @@ Office 365에는 [통합 감사 로그가](https://docs.microsoft.com/microsoft-
 
 높은 수준의 다이어그램:
 
-![로그 흐름에 대 한 높은 수준의 다이어그램](../media/solutions-architecture-center/identity-beyond-illustration-4.png)  
+![보안 및 준수 프로그램에 대 한 로그 원본 다이어그램](../media/solutions-architecture-center/identity-beyond-illustration-4.png)  
 
 위의 다이어그램은 이벤트 허브 및/또는 azure 저장소 및/또는 Azure Log Analytics에 로그를 전송 하는 기본 제공 기능을 나타냅니다. 일부 시스템에는이 기본 제공 기능이 포함 되어 있지 않습니다. 하지만 이러한 로그를 동일한 저장소로 보내는 다른 방법도 있습니다. 예를 들어 [Azure 센티널로 팀 보호](https://techcommunity.microsoft.com/t5/azure-sentinel/protecting-your-teams-with-azure-sentinel/ba-p/1265761)를 참조 하세요.
 

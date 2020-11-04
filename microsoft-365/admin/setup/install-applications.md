@@ -13,26 +13,28 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: d0653266-31db-4f6a-a804-d34b667c16bf
-description: 'Mac, PC 또는 모바일 장치에서 Office 응용 프로그램을 설정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: e48725a6e4997d6891cb3876d1b0ba07966d416b
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.custom:
+- seo-marvel-may2020
+- AdminSurgePortfolio
+description: Microsoft 365를 설정 했으므로 Mac, PC 또는 모바일 장치에 개별 Office 응용 프로그램을 설치 하 고 Outlook에서 전자 메일을 설정 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 07a347894946ee1f71f43f729d0e2e5401e36933
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44779024"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906456"
 ---
 # <a name="install-office-applications"></a>Office 응용 프로그램 설치
 
-Microsoft 365를 설정 했으므로 Mac, PC 또는 모바일 장치에서 Office 응용 프로그램을 설정할 수 있습니다.
+Microsoft 365를 설정 했으므로 Mac, PC 또는 모바일 장치에 개별 Office 응용 프로그램을 설치할 수 있습니다.
   
 방법에 대 한 정보를 보려면 다음 링크를 참조 하세요.
   
-- Office 응용 프로그램 설치: [PC 또는 Mac에 Office 설치](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
+- Office 응용 프로그램 설치:  [PC 또는 Mac에 Office 설치](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
 
 - 모바일 장치 설정: [Microsoft 365 모바일 설정-도움말](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f)
 

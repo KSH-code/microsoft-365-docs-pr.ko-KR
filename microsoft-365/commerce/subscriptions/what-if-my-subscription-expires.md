@@ -23,16 +23,16 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Microsoft 365 for business 구독이 만료 되거나, 사용 하지 않도록 설정 되었거나, 취소 된 경우 데이터에 대 한 결과를 알아봅니다.
-ms.openlocfilehash: 77b65931056ca504d6f3efd7ca86560496495f5d
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b09f56fefb7791af012c9dab2ba4e5684b9bf89f
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646874"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906826"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>내 데이터 및 액세스에 대 한 Microsoft 365 for business 구독이 종료 될 때 어떤 일이 발생 하나요?
 
-구독이 만료 되거나 취소 하기로 결정 하는 경우, Microsoft 365 서비스, 응용 프로그램 및 고객 데이터에 대 한 액세스 권한이 구독을 완전히 해제 되기 전에 여러 상태로 진행 되거나 *구축*를 사용 하지 않도록 설정 됩니다. 이 단계를 이해 하 고 있으면 구독을 이전 상태로 되돌릴 것이 더 나 Microsoft 365를 떠나는 경우 최종적으로 삭제 되기 전에 데이터를 백업 하는 것이 좋습니다.
+구독이 만료 되거나 취소 하기로 결정 하는 경우, Microsoft 365 서비스, 응용 프로그램 및 고객 데이터에 대 한 액세스 권한이 구독을 완전히 해제 되기 전에 여러 상태로 진행 되거나 *구축* 를 사용 하지 않도록 설정 됩니다. 이 단계를 이해 하 고 있으면 구독을 이전 상태로 되돌릴 것이 더 나 Microsoft 365를 떠나는 경우 최종적으로 삭제 되기 전에 데이터를 백업 하는 것이 좋습니다.
 
 [Microsoft 365 지원](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)서비스에 문의 하기 전에이 중요 정보를 읽으십시오.
   
@@ -203,6 +203,10 @@ ms.locfileid: "48646874"
 > [!NOTE]
 > 구축에 있는 같은 유형의 새 구독을 추가 해도 구축 구독과 연결 된 데이터는 복원 되지 않습니다.
 
+
+> [!NOTE]
+> CSP 라이선스가 일시 중단 되 면 30 일 유예 기간이 없으며 서비스가 즉시 사용 하지 않도록 설정 됩니다. 새 라이선스를 추가 하 여 테 넌 트가 다시 활성화 되지 않은 경우 90 일 후 데이터가 삭제 됩니다.
+
 ### <a name="what-happens-when-my-trial-ends"></a>평가판이 종료 되 면 어떻게 되나요?
 
 평가판이 끝나면 Microsoft 365을 무료로 계속 사용할 수 없습니다. 다음 몇 가지 옵션을 사용할 수 있습니다.
@@ -237,3 +241,4 @@ ms.locfileid: "48646874"
 [구독 취소](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/cancel-your-subscription) (문서) \
 [Microsoft 365 for Business 갱신](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/renew-your-subscription) (문서) \
 [구독 다시 활성화](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/reactivate-your-subscription) (문서)
+

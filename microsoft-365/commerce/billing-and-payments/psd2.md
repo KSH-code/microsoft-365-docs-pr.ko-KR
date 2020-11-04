@@ -14,18 +14,18 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
-description: 결제를 처리 하려면 먼저 온라인 구매를 수행 하는 사용자의 id를 확인 하는 데 유럽 경제 분야의 31 개국 년 9 월 2019 14 일에 시작 하는 것이 필요 합니다.
+description: 2019 년 9 월 14 일부 터, 대금을 지불 하기 전에 온라인 구매를 진행 하는 사람의 신원을 확인 하려면 유럽 경제 분야의 31 개국 은행이 필요 합니다. "
 keywords: 결제 서비스 지시어 2, 강력한 고객 인증, 다단계 인증
-ms.openlocfilehash: fc8784949cdacea10957660c99795b4ade0f9f7a
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: d6564a8c6d31bd0758f1084e7ee9b6857aed034e
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638426"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906612"
 ---
 # <a name="payment-services-directive-2-and-strong-customer-authentication-for-commercial-customers"></a>상업용 고객을 위한 결제 서비스 지시어 2 및 강력한 고객 인증
 
-결제를 처리 하려면 먼저 온라인 구매를 수행 하는 사용자의 id를 확인 하는 데 유럽 경제 분야의 31 개국 년 9 월 2019 14 일에 시작 하는 것이 필요 합니다. 이 확인을 위해서는 온라인 구매를 안전 하 게 보호 하 고 보호할 수 있도록 다단계 인증이 필요 합니다. 이 확인 요구 사항에 대 한 날짜는 일부 국가에서 지연 됩니다. 
+2019 년 9 월 14 일에는, 결제를 처리 하기 전에 온라인 구매를 수행 하는 사람의 신원을 확인 하기 위해 유럽 경제 분야의 31 개국에 있는 은행이 필요 합니다. 이 확인을 위해서는 온라인 구매를 안전 하 게 보호 하 고 보호할 수 있도록 다단계 인증이 필요 합니다. 이 확인 요구 사항에 대 한 날짜는 일부 국가에서 지연 됩니다.
 
 자세한 내용은 [결제 서비스 지시어 2 및 강력한 고객 인증에 대 한 MICROSOFT FAQ](https://support.microsoft.com/help/4517854/microsoft-account-open-banking-customer-authentication)를 참조 하세요.
 

@@ -11,27 +11,29 @@ ms.collection:
 - M365-collaboration
 - m365solution-securecollab
 - m365solution-overview
-ms.custom: ''
+ms.custom:
+- M365solutions
+- seo-marvel-jun2020
 f1.keywords: NOCSH
-description: 해당 민감도에 따라 데이터를 보호 하도록 팀을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 5cf4937a79fdf33e160432c740504ec84d196585
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+description: 팀에서 보안 콘텐츠 공동 작업을 설정 하 여 해당 민감도를 기반으로 데이터를 보호 하는 방법을 알아봅니다.
+ms.openlocfilehash: 310605d0db84e33be1d5fdc925fadcfcdf9dddaf
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843543"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906802"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Microsoft 365를 사용하여 안전한 공동 작업 설정
 
 조직의 성공적인 공유를 방지 하면서 적절 한 사람들과 쉽게 정보를 공유할 수 있습니다. 여기에는 액세스 권한이 있는 사람만 중요 한 데이터를 안전 하 게 공유할 수 있는 권한이 포함 됩니다. 프로젝트에 따라 중요 한 데이터를 조직 외부의 사용자와 공유 하는 것이 여기에 포함 될 수 있습니다.
 
-이 솔루션 지침에는 다음과 같은 두 가지 구성 요소가 포함 됩니다.
+이 공동 작업 솔루션 지침에는 다음과 같은 두 가지 구성 요소가 포함 됩니다.
 - 각 프로젝트에 적절 한 수준의 보호를 사용 하 여 Microsoft 팀 배포
 - 각 프로젝트에 대해 적절 한 보안 설정을 사용 하 여 외부 공유 구성
 
 ![적절 한 보호를 사용 하 여 팀 배포 및 적절 한 보안 설정을 사용 하 여 외부 공유 구성](..\media\solutions-architecture-center\secure-collaboration-overview.png)
 
-다용도이 고 사용 하기 쉬운 공동 작업 도구를 사용할 수 없는 경우 사용자는 문서를 이메일로 보내 자주 공동 작업을 수행 하 게 됩니다. 이는 공동 작업을 위한 지루한 및 오류가 발생 하기 쉬운 방법으로, 부적절 한 정보 공유 위험을 높일 수 있습니다. 사용자가 너무 어려운 공유 정보를 찾는 경우에는 해당 정보가 관리 되지 않는 소비자 제품을 사용 하 여 되돌릴 수 있습니다. 이 경우 훨씬 더 많은 위험을 초래할 수 있습니다.
+다양 하 고 사용 하기 쉬운 콘텐츠 공동 작업 도구를 사용할 수 없는 경우 사용자는 문서를 이메일로 보내 자주 공동 작업을 수행 하 게 됩니다. 이는 공동 작업을 위한 지루한 및 오류가 발생 하기 쉬운 방법으로, 부적절 한 정보 공유 위험을 높일 수 있습니다. 사용자가 너무 어려운 공유 정보를 찾는 경우에는 해당 정보가 관리 되지 않는 소비자 제품을 사용 하 여 되돌릴 수 있습니다. 이 경우 훨씬 더 많은 위험을 초래할 수 있습니다.
 
 Microsoft 365에서는 다음과 같은 다양 한 구성을 사용 하 여 팀을 배포할 수 있습니다.
 

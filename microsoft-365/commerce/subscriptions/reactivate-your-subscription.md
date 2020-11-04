@@ -21,13 +21,13 @@ ms.custom:
 search.appverid:
 - MET150
 ms.assetid: 23aa9dd5-a2b0-42f5-8893-9541d2f3761f
-description: 구독이 만료 되는 경우 다시 활성화 하는 방법 또는 Microsoft가 사용 하지 않도록 설정 하는 경우 또는 중앙에서 취소할 수 있습니다.
-ms.openlocfilehash: cbd5fbc5bd6423f6583701682e63ed93206b562e
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+description: 구독이 만료 되거나, 사용 하지 않도록 설정 되거나, 취소 된 경우 다시 활성화 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 36d82699f6eb0c1cd4a1c404d7b030a865111d03
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324295"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906778"
 ---
 # <a name="reactivate-your-subscription"></a>구독 다시 활성화
 
@@ -38,7 +38,7 @@ ms.locfileid: "47324295"
 
 ::: moniker-end
 
-구독이 만료 되거나 Microsoft에 의해 사용 하지 않도록 설정 되었거나 구독 용어 중에 취소 한 경우에는 관리 센터에서 다시 활성화할 수 있습니다.
+구독 기간이 만료 되었거나, Microsoft가 사용 하지 않도록 설정 되었거나, 구독 기간 중에 취소 한 경우에는 관리 센터에서 구독을 다시 활성화할 수 있습니다.
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -51,10 +51,10 @@ ms.locfileid: "47324295"
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
-2. **제품** 탭에서 다시 활성화할 구독을 찾습니다. **기타 작업** (점 3 개)을 선택 하 고 **이 구독 다시 활성화**를 선택 합니다. \
-    **이 구독 다시 활성화**가 표시 되지 않으면 [고객 지원에 문의 하세요](../../admin/contact-support-for-business-products.md).
-3. **이 구독 다시 활성화** 창의 드롭다운 목록에서 결제 방법을 선택 하거나 **결제 방법 추가**를 선택 합니다.
-4. **저장**을 선택합니다.
+2. **제품** 탭에서 다시 활성화하려는 구독을 찾으세요. **기타 작업** (점 3 개)을 선택 하 고 **이 구독 다시 활성화** 를 선택 합니다. \
+    **이 구독 다시 활성화** 가 표시 되지 않으면 [고객 지원에 문의 하세요](../../admin/contact-support-for-business-products.md).
+3. **이 구독 다시 활성화** 창의 드롭다운 목록에서 결제 방법을 선택하거나 **결제 방법 추가** 를 선택합니다.
+4. **저장** 을 선택합니다.
 
 ::: moniker-end
 
@@ -62,7 +62,7 @@ ms.locfileid: "47324295"
   
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 
-2. 다시 활성화할 구독을 찾은 다음 **다시 활성화**를 선택 합니다.
+2. 다시 활성화할 구독을 찾은 다음 **다시 활성화** 를 선택 합니다.
 
     ![다시 활성화 단추를 사용 하 여 사용 하지 않도록 설정 되거나 축소 된 기능을 의미 하는 가입 카드의 클로즈업](../../media/4042c2c7-48d3-4add-963f-42f9fbcede07.png)
   
@@ -83,7 +83,7 @@ ms.locfileid: "47324295"
   
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
 
-2. 다시 활성화할 구독을 찾은 다음 **다시 활성화**를 선택 합니다.
+2. 다시 활성화할 구독을 찾은 다음 **다시 활성화** 를 선택 합니다.
 
     ![다시 활성화 단추를 사용 하 여 사용 하지 않도록 설정 되거나 축소 된 기능을 의미 하는 가입 카드의 클로즈업](../../media/4042c2c7-48d3-4add-963f-42f9fbcede07.png)
   
@@ -91,7 +91,7 @@ ms.locfileid: "47324295"
 
 3. 결제 정보를 입력합니다. 여기에서 기존 결제 정보를 업데이트할 수 있습니다.
 
-   구독이 만료 된 경우 지불 세부 정보를 제출 하면 구독은 활성 상태로 반환 되 고, 현재 구독 약정에 따라 **다음 청구** 날짜가 1 개월 또는 1 년으로 연장 됩니다. 신용 카드 또는 은행 계좌로 결제 하는 경우 신용 카드 또는 은행 계좌에 내선 번호 요금이 부과 됩니다. 송장 단위로 결제 하는 경우 다음 송장에 해당 확장이 반영 된 것을 볼 수 있습니다. 구독이 다시 만료 되지 않도록 하려면 되풀이 되는 [대금 청구를 켜 세요](renew-your-subscription.md#turn-recurring-billing-off-or-on).
+   구독이 만료 된 경우 지불 세부 정보를 제출 하면 구독은 활성 상태로 반환 되 고, 현재 구독 약정에 따라 **다음 청구** 날짜가 1 개월 또는 1 년으로 연장 됩니다. 신용 카드 또는 은행 계좌로 결제 하는 경우 신용 카드 또는 은행 계좌에 내선 번호 요금이 부과 됩니다. 송장 단위로 결제 하는 경우 다음 송장에 해당 확장이 반영 된 것을 볼 수 있습니다. 구독이 다시 만료 되지 않도록 하려면 주기적으로 청구를 [설정](renew-your-subscription.md#turn-recurring-billing-off-or-on)합니다.
 
    > [!NOTE]
    > 은행 계좌로 지불할 수 없는 국가 또는 지역에서는 사용할 수 없습니다.

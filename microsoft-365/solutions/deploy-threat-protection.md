@@ -14,12 +14,12 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 2d1316927124b1ce03910190922fa0804853ae4b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 1bf06c605290dc94f64da6c2aabca3683c234c9a
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845279"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906754"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365"></a>Microsoft 365에서 위협 보호 기능 배포
 
@@ -77,5 +77,3 @@ Office 365 기능에 대 한 Defender를 배포 하는 즉시 Microsoft 365 Defe
 위협 방지 기능은 동시에 구성할 수 있으므로 서로 다른 서비스를 담당 하는 여러 네트워크 보안 팀이 있는 경우에는 동시에 조직의 보호 기능을 구성할 수 있습니다. 다음 다이어그램에서는 위협 방지 기능을 배포 하기 위한 높은 수준의 프로세스를 보여 줍니다. 
 
 ![위협 보호 기능 배포 프로세스](../media/solutions-architecture-center/deploy-threat-protection-across-m365-grid.png) 
-
-

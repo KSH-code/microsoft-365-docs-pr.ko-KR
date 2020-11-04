@@ -1,5 +1,5 @@
 ---
-title: 비즈니스 사용자를 위한 Microsoft 365를 최신 Office 클라이언트로 업그레이드
+title: Microsoft 365로 Office 2010 업그레이드-Microsoft 365 관리
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -16,16 +16,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.custom:
+- fwlink 824861; CampaignID
+- O365_Comm_SR_UpgradeOffice
+- seo-marvel-may2020
 - fwlink 824861; CampaignID O365_Comm_SR_UpgradeOffice
 - AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
-description: 사용자를 최신 Office 클라이언트로 업그레이드 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 40160dc5590144a1132971368da70c6f36ed460c
-ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
+description: 조직의 사용자를 위해 Microsoft Office를 최신 Office 클라이언트로 업그레이드 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 596dfc8f4a005d01c0bf330243bf1fb3c639f97e
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456335"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906444"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>비즈니스 사용자를 위한 Microsoft 365를 최신 Office 클라이언트로 업그레이드
 
@@ -47,7 +50,7 @@ Office 2010는 2020 년 10 월 13 일에 지원 종료에 도달 했습니다. M
 
  관리자가 아닌 경우 [Microsoft 365](https://support.microsoft.com/office/28cbc8cf-1332-4f04-9123-9b660abb629e#BKMK_OfficePlans) 제품을 사용 하는 경우 office 업그레이드에 대 한 자세한 내용을 확인 [하는 방법을](https://support.microsoft.com/office/ee68f6cf-422f-464a-82ec-385f65391350) 참조 하세요.
 
-## <a name="get-ready-to-upgrade"></a>업그레이드 준비
+## <a name="get-ready-to-upgrade-to-microsoft-365"></a>Microsoft 365으로의 업그레이드 준비
 
 관리자는 조직에서 설치할 수 있는 Office 사용자의 버전을 제어 합니다. 조직의 사용자가 Office 2010, Office 2013 또는 Office 2016과 같은 이전 버전의 Office를 실행 하 여 보안 및 생산성 향상을 활용 하는 데 도움이 되도록 하는 것이 좋습니다.
 

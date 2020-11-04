@@ -1,5 +1,5 @@
 ---
-title: 도메인 FAQ
+title: 도메인에 대해 자주 묻는 질문
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -16,6 +16,7 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- seo-marvel-may2020
 search.appverid:
 - BCS160
 - MET150
@@ -23,20 +24,20 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
-description: 도메인에 대 한 자세한 내용은 질문과 대답을 확인 하세요.
-ms.openlocfilehash: b51b5fe56bbae56dd473dd831ec91e629d9233f3
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: FAQ에서 질문에 대 한 답변을 찾아 도메인 (onmicrosoft domain 및 tranfer 도메인)에 대해 자세히 알아보세요.
+ms.openlocfilehash: 8d504711f46383000697736d6825a813f01fbe69
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644587"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906480"
 ---
 # <a name="domains-faq"></a>도메인 FAQ
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview)를 참조하세요.
 
 ::: moniker-end
 
@@ -73,7 +74,7 @@ ms.locfileid: "48644587"
     
 ## <a name="how-can-i-validate-spf-records-for-my-domain"></a>내 도메인에 대 한 SPF 레코드를 확인 하려면 어떻게 하나요?
 
-**SPF에 대해서는 TXT 레코드를**하나만 만들거나 만들어야 합니다. SPF 레코드가 이미 있는 경우 새 Microsoft 365 값을 만드는 대신 새 사용자에 게 해당 레코드를 추가 해야 합니다. Microsoft 전자 메일에 대 한 SPF 레코드를 추가 하거나 업데이트 한 후 다음 도구 중 하나를 사용 하 여 구문이 올바른지 확인 해야 합니다. 
+**SPF에 대해서는 TXT 레코드를** 하나만 만들거나 만들어야 합니다. SPF 레코드가 이미 있는 경우 새 Microsoft 365 값을 만드는 대신 새 사용자에 게 해당 레코드를 추가 해야 합니다. Microsoft 전자 메일에 대 한 SPF 레코드를 추가 하거나 업데이트 한 후 다음 도구 중 하나를 사용 하 여 구문이 올바른지 확인 해야 합니다. 
   
 - [SPF 레코드 테스트 도구](http://www.kitterman.com/spf/validate.html)
     
@@ -85,7 +86,7 @@ ms.locfileid: "48644587"
 
 도메인은 전자 메일 주소에서 **@** 기호 뒤에, 그리고 웹 주소에서 **www.** 뒤에 나타나는 고유한 이름입니다. 일반적으로  *yourbusiness.com*  또는 stateuniversity.edu와 같은 표준 인터넷 접미사와 조직의 이름 형식을 사용 합니다  *.* 
   
-"**Rob \@ contoso.com**"과 같은 사용자 지정 도메인을 Microsoft 365와 함께 사용 하면 신용 및 브랜드를 위한 신뢰도를 구축 하는 데 도움이 될 수 있습니다. 
+" **Rob \@ contoso.com** "과 같은 사용자 지정 도메인을 Microsoft 365와 함께 사용 하면 신용 및 브랜드를 위한 신뢰도를 구축 하는 데 도움이 될 수 있습니다. 
   
 [Microsoft 365에서 도메인을 구입 하 여 자동으로 설정](../get-help-with-domains/buy-a-domain-name.md)하거나 이미 도메인 등록 기관에서 소유한 사용자를 구입 하거나 가져올 수 있습니다.
     
@@ -125,25 +126,25 @@ ms.locfileid: "48644587"
 
 ::: moniker range="o365-worldwide"
 
-1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
+1. I관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인</a> 페이지로 이동하십시오.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. I관리 센터에서 ** 설정 ** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
+1. I관리 센터에서 **설정** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank"> 도메인</a> 페이지로 이동하십시오.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. I관리 센터에서 ** 설정 ** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
+1. I관리 센터에서 **설정** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank"> 도메인</a> 페이지로 이동하십시오.
 
 ::: moniker-end
     
 2. **도메인** 페이지에서 새 전자 메일 주소에 대 한 기본값으로 설정할 도메인을 선택 합니다. 
     
-3. **기본값으로 설정**을 선택합니다.
+3. **기본값으로 설정** 을 선택합니다.
     
 ::: moniker range="o365-worldwide"
 
@@ -206,9 +207,9 @@ Microsoft 365에 여러 도메인을 추가 하면 추가한 도메인에서 모
 
 ## <a name="why-do-i-have-an-onmicrosoftcom-domain"></a>"Onmicrosoft.com" 도메인을 보유 하는 이유는 무엇 인가요?
 
-Microsoft 365는 서비스에 등록할 때 *contoso.onmicrosoft.com*와 같은 도메인을 만듭니다. 등록할 때 만드는 사용자 ID에는 *alan@contoso.onmicrosoft.com*와 같은 도메인이 포함 됩니다. 
+Microsoft 365는 서비스에 등록할 때 *contoso.onmicrosoft.com* 와 같은 도메인을 만듭니다. 등록할 때 만드는 사용자 ID에는 *alan@contoso.onmicrosoft.com* 와 같은 도메인이 포함 됩니다. 
   
- **전자 메일을 *alan \@ contoso.com*:** 으로 지정 하려면 [도메인을 구입](../get-help-with-domains/buy-a-domain-name.md) 하거나 [사용자 및 도메인을 이미 소유 하 고 있는 경우 Microsoft 365에 추가](add-domain.md) 단계를 수행 합니다. 
+ **전자 메일을 *alan \@ contoso.com* :** 으로 지정 하려면 [도메인을 구입](../get-help-with-domains/buy-a-domain-name.md) 하거나 [사용자 및 도메인을 이미 소유 하 고 있는 경우 Microsoft 365에 추가](add-domain.md) 단계를 수행 합니다. 
   
 - **등록 후에는 onmicrosoft 도메인의 이름을 바꿀 수 없습니다.** 예를 들어 선택한 초기 도메인이 fourthcoffee.onmicrosoft.com 인 경우 fabrikam.onmicrosoft.com로 변경할 수 없습니다. 다른 onmicrosoft.com 도메인을 사용 하려면 Microsoft 365을 사용 하 여 새 구독을 시작 해야 합니다. 
     
@@ -223,9 +224,9 @@ Microsoft 365는 서비스에 등록할 때 *contoso.onmicrosoft.com*와 같은 
 ::: moniker range="o365-germany"
 ## <a name="why-do-i-have-an-onmicrosoftde-domain"></a>"Onmicrosoft.de" 도메인을 보유 하는 이유는 무엇 인가요?
 
-Microsoft 365는 서비스에 등록할 때 *contoso.onmicrosoft.de*와 같은 도메인을 만듭니다. 등록할 때 만드는 사용자 ID에는 *alan@contoso.onmicrosoft.de*와 같은 도메인이 포함 됩니다. 
+Microsoft 365는 서비스에 등록할 때 *contoso.onmicrosoft.de* 와 같은 도메인을 만듭니다. 등록할 때 만드는 사용자 ID에는 *alan@contoso.onmicrosoft.de* 와 같은 도메인이 포함 됩니다. 
   
- **전자 메일을 *alan@contoso.de*같이 표시 하려면** [도메인을 구입](../get-help-with-domains/buy-a-domain-name.md) 하거나 [사용자와 도메인을 이미 소유한 경우 Microsoft 365에 추가](add-domain.md) 의 단계를 따르세요. 
+ **전자 메일을 *alan@contoso.de* 같이 표시 하려면** [도메인을 구입](../get-help-with-domains/buy-a-domain-name.md) 하거나 [사용자와 도메인을 이미 소유한 경우 Microsoft 365에 추가](add-domain.md) 의 단계를 따르세요. 
   
 - **등록 후에는 onmicrosoft 도메인의 이름을 바꿀 수 없습니다.** 예를 들어 선택한 초기 도메인이 fourthcoffee.onmicrosoft.de 인 경우 fabrikam.onmicrosoft.de로 변경할 수 없습니다. 다른 onmicrosoft.de 도메인을 사용 하려면 Microsoft 365을 사용 하 여 새 구독을 시작 해야 합니다. 
     

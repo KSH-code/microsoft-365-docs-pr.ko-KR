@@ -17,6 +17,7 @@ ms.collection:
 ms.custom:
 - TopSMBIssues
 - okr_smb
+- seo-marvel-may2020
 - AdminSurgePortfolio
 search.appverid:
 - MET150
@@ -26,25 +27,25 @@ search.appverid:
 - MOL140
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
-description: 'Gmail 또는 다른 전자 메일 공급자에서 Microsoft 365로 연락처, 일정, 전자 메일을 가져오는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 4cc7a68929bdcc4cb79f3c7b78e07023a8952f81
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+description: Gmail 또는 다른 전자 메일 공급자에서 연락처, 일정, 전자 메일을 가져와서 Microsoft 365로 마이그레이션하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: eb82711bc8fb431c6e29272b601b898566446f02
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44779012"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906384"
 ---
 # <a name="migrate-email-and-contacts-to-microsoft-365"></a>Microsoft 365로 전자 메일 및 연락처 마이그레이션
 
-Gmail 또는 다른 전자 메일 공급자에서 Microsoft 365으로 전자 메일을 가져오거나 복사 합니다.
+Gmail 또는 다른 전자 메일 공급자에서 Microsoft 365로 전자 메일을 가져오거나 마이그레이션합니다.
   
  **이에 대 한 도움이 필요 하십니까?**  [Microsoft 365에 문의 하 여 비즈니스 지원을 받을](../contact-support-for-business-products.md) 수 있습니다. 
   
 이 작업을 위해 데스크톱에 설치 된 Outlook 버전을 사용 해야 합니다. Outlook은 대부분의 Microsoft 365 [계획](https://go.microsoft.com/fwlink/p/?LinkId=723731)에 포함 되어 있습니다.
   
-### <a name="import-from-gmail"></a>Gmail에서 가져오기
+### <a name="migrate-gmail-to-microsoft-365"></a>Microsoft 365로 Gmail 마이그레이션
 
-다음 단계에 따라 Gmail에서 전자 메일, 연락처 및 일정을 Microsoft 365로 Outlook으로 가져옵니다.
+다음 단계에 따라 Microsoft 365을 사용 하 여 Gmail에서 전자 메일, 연락처 및 일정을 Outlook으로 가져오거나 마이그레이션합니다.
   
 - [Outlook에 Gmail 가져오기](https://support.microsoft.com/office/20fdb8f2-fed8-4b14-baf0-bf04b9c44bf7)
     
@@ -54,7 +55,7 @@ Gmail 또는 다른 전자 메일 공급자에서 Microsoft 365으로 전자 메
     
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c1e45708-9a92-475b-910b-f5aa40614d92?autoplay=false]
   
-### <a name="import-from-outlook-desktop"></a>Outlook에서 가져오기 (데스크톱)
+### <a name="import-outlook-pst-files-to-microsoft-365-desktop"></a>Outlook pst 파일을 Microsoft 365로 가져오기 (데스크톱)
 
 다음 단계에 따라 Outlook에서 전자 메일, 연락처 및 일정을 .pst 파일로 내보낸 다음 해당 파일을 Microsoft 365을 사용 하 여 Outlook으로 가져옵니다.
   
@@ -68,7 +69,7 @@ Gmail 또는 다른 전자 메일 공급자에서 Microsoft 365으로 전자 메
     
 2. [Outlook으로 연락처 가져오기](https://support.microsoft.com/office/bb796340-b58a-46c1-90c7-b549b8f3c5f8)
     
-프로세스를 시작 하려면 Outlook을 열고 **파일** \> **열기 &amp; ** \> **/내보내기 가져오기/내보내기를**선택 합니다.
+프로세스를 시작 하려면 Outlook을 열고 **파일** \> **열기 &amp;** \> **/내보내기 가져오기/내보내기를** 선택 합니다.
   
 ![Outlook 2016의 파일 메뉴](../../media/2f1c39a5-177e-4052-9dd8-90c0d140be2c.png)![&amp;Outlook 2016에서 내보내기 명령 열기](../../media/eecab6df-c372-45b1-8a8a-2f6d7af0dd68.png)![Outlook 2016의 가져오기/내보내기 단추](../../media/ed90ae47-20db-4be1-b0c0-826008432c6e.png)
   
@@ -80,7 +81,7 @@ Outlook에서 Gmail, Yahoo 또는 Live.com와 같은 다른 공급자의 전자 
 
 개인 Gmail 계정 등의 계정을 Outlook에 추가 합니다.
   
-- Outlook을 연 다음 **파일** \> **계정 추가**로 이동 합니다.
+- Outlook을 연 다음 **파일** \> **계정 추가** 로 이동 합니다.
     
 좀 더 자세한 단계가 필요 한가요? [계정 추가](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b)를 참조 하세요.
   
@@ -88,6 +89,4 @@ Outlook에서 Gmail, Yahoo 또는 Live.com와 같은 다른 공급자의 전자 
   
 ## <a name="multiple-mailboxes-admins-can-bulk-import-email-contacts-and-calendars-to-microsoft-365"></a>여러 사서함: 관리자는 전자 메일, 연락처 및 일정을 Microsoft 365로 대량 가져올 수 있습니다.
 
-원본 전자 메일 시스템에 따라 여러 대량 마이그레이션 방법에서 선택할 수 있습니다. [Microsoft 365로 여러 전자 메일 계정을 마이그레이션하](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration) 는 방법을 확인 하 여 어떤 방법을 사용할 것인지 결정 합니다. 
-  
-
+원본 전자 메일 시스템에 따라 여러 대량 마이그레이션 방법에서 선택할 수 있습니다. [Microsoft 365로 여러 전자 메일 계정을 마이그레이션하](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration) 는 방법을 확인 하 여 어떤 방법을 사용할 것인지 결정 합니다.

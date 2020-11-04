@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 보안 센터 개요
-description: Microsoft id, 데이터, 장치 및 앱 간의 보안을 모니터링 하 고 관리 하는 새로운 홈에 대해 설명 합니다.
+title: 개요-Microsoft 365 보안 센터
+description: Microsoft 365 보안을 사용 하 여 Microsoft id, 데이터, 장치 및 앱에서 보안을 모니터링 하 고 관리 하는 방법에 대해 설명 합니다.
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 모니터, 보고서, id, 데이터, 장치, 앱
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -16,12 +16,13 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 9aaeb5323900e65de47015b8cb28abf967694ea3
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: 97dece3f3c732686cff885923532af14b6106b48
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844803"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906851"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터 개요
 

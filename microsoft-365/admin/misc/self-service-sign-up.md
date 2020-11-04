@@ -19,17 +19,17 @@ ms.custom:
 search.appverid:
 - MET150
 ms.assetid: 4f8712ff-9346-4c6c-bb63-a21ad7a62cbd
-description: Microsoft 365 셀프 서비스에 제공 되는 microsoft Power Apps, Microsoft Flow 및 Dynamics 365 같은 금융 관련 셀프 서비스 프로그램에 대해 알아봅니다.
-ms.openlocfilehash: 8e8ed80cc24e3c6ec0a4a9d408d202495de52adb
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+description: Microsoft 365 셀프 서비스에 제공 되는 microsoft Power Apps, Microsoft Flow 및 Dynamics 365과 같은 사용 가능한 금융 서비스 프로그램에 대해 알아봅니다.
+ms.openlocfilehash: 21e41661141a817a1751c80608035d839d2e3952
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324483"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906576"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>조직에서 셀프 서비스 등록 사용
 
-셀프 서비스 등록 기능을 사용 하면 조직의 사용자가 Microsoft의 온라인 서비스에 쉽게 등록할 수 있습니다. 사용자는 구독에 의해 지불 되는 서비스를 사용 하도록 등록할 수 있고 대신 작업을 수행할 것을 요구 하지 않고 무료 서비스를 사용 하 여 "셀프 서비스 등록"으로이 등록 프로세스를 호출 합니다.
+셀프 서비스 등록 기능을 사용 하면 조직의 사용자가 Microsoft의 온라인 서비스에 쉽게 등록할 수 있습니다. 사용자는 구독에 의해 지불 되는 서비스를 사용 하도록 등록할 수 있고 대신 작업을 수행할 것을 요구 하지 않고 무료 서비스를 사용 하 여이 등록 프로세스 "셀프 서비스 등록"을 호출 합니다.
   
 ## <a name="how-self-service-sign-up-works"></a>셀프 서비스 등록 작동 방식
 
@@ -44,9 +44,8 @@ ms.locfileid: "47324483"
 
 다음은 현재 사용할 수 있는 셀프 서비스 프로그램입니다. 이 목록은 새 프로그램을 추가할 때 업데이트 됩니다.
   
-|||||
+| 프로그램 <br/> | 설명 <br/> | 추가 정보 <br/> | 셀프 서비스 등록 웹 사이트 <br/> |
 |:-----|:-----|:-----|:-----|
-|**프로그램** <br/> |**설명** <br/> |**추가 정보** <br/> |셀프 서비스 등록 웹 사이트 * * * * <br/> |
 |Office 365 A1 * * * * <br/> |모든 학생이 나 교사는 학교 전자 메일 주소를 사용 하 여 무료 Office 365에 등록 하 고 웹 (1TB의 OneDrive 클라우드 저장소 및 SharePoint Online)에 대 한 Office 앱에서 수업, 팀 및 프로젝트 사이트를 확인할 수 있습니다.  <br/> |[Office 365 교육 기술 FAQ](https://go.microsoft.com/fwlink/p/?LinkId=536625) <br/> |[Office 365 Education](https://go.microsoft.com/fwlink/p/?linkid=140841) <br/> |
 |**Office 365 A1 Plus** <br/> |적격 학생 및 교사는 위의 모든 내용과 Microsoft 365 앱 for enterprise를 포함 하는 Office 365 A1 Plus에 등록할 수 있습니다. Microsoft 365 Business for enterprise는 데스크톱 또는 랩톱 컴퓨터에 설치 되어 있는 Word, PowerPoint, Excel, Outlook, OneNote, Publisher, Access 및 비즈니스용 Skype 등의 생산성 소프트웨어입니다.  <br/> |[Office 365 교육 기술 FAQ](https://go.microsoft.com/fwlink/p/?LinkId=536625) <br/> |[Office 365 Education](https://go.microsoft.com/fwlink/p/?linkid=140841) <br/> |
 |**Power BI** <br/> |Power BI에서는 사용자가 직관적인 새로운 방식으로 데이터를 시각화 하 고, 검색을 공유 하 고, 공동 작업을 수행할 수 있습니다. <br/> 조직에서 이미 구독을 신청한 경우 사용자에 게 고급 기능에 대 한 제한 된 무료 액세스 권한을 제공 하는 "Power BI Pro 개별 사용자 평가판"에 대 한 라이선스가 추가로 표시 될 수 있습니다.  <br/> |[조직의 Power BI](https://go.microsoft.com/fwlink/p/?LinkId=536626) <br/> |[Microsoft Power BI](https://go.microsoft.com/fwlink/p/?LinkId=536629) <br/> |
