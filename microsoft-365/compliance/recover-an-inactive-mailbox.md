@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 35d0ecdb-7cb0-44be-ad5c-69df2f8f8b25
 ms.custom: seo-marvel-apr2020
 description: 비활성 사서함의 콘텐츠를 포함 하는 새 사서함으로 변환 하 여 Office 365에서 비활성화 된 사서함의 내용을 복구 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 41096df9fe4c2ae78b07e06ebf8bd8384a83f4fa
-ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
+ms.openlocfilehash: ab5b3265cd9d3b1bab539d45e5daf0e6b4110f9a
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655749"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920054"
 ---
 # <a name="recover-an-inactive-mailbox"></a>비활성 사서함 복구
 
@@ -87,13 +87,13 @@ ms.locfileid: "48655749"
 
     - 원본 **위치 유지** In-Place 보류가 복구 된 사서함에서 제거 됩니다. 즉, 복구 된 사서함은 In-Place 보류 또는 In-Place eDiscovery 검색에서 원본 사서함으로 제거 됩니다.
 
-    - **보존 잠금을 사용 하는 Microsoft 365 보존 정책** 비활성 사서함에 보존 잠금 ( *잠긴 보존 정책*이라고 함)이 할당 된 경우에는 복구 된 사서함이 동일한 잠긴 보존 정책에 할당 됩니다. 잠긴 보존 정책에 대 한 자세한 내용은 [Use 보존이 Lock을 사용 하 여 규정 요구 사항 준수](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements)를 참조 하세요.
+    - **보존 잠금을 사용 하는 Microsoft 365 보존 정책** 비활성 사서함에 보존 잠금 ( *잠긴 보존 정책* 이라고 함)이 할당 된 경우에는 복구 된 사서함이 동일한 잠긴 보존 정책에 할당 됩니다. 잠긴 보존 정책에 대 한 자세한 내용은 [보존[잠금 사용]을 참조 하 여 보관 정책 및 보존 레이블 정책에 대 한 변경 제한](retention-preservation-lock.md)
 
     - **보존 잠금 없이 Microsoft 365 보존 정책을 사용 합니다.** 비활성 사서함은 해당에 적용 된 잠기지 않은 모든 Microsoft 365 보존 정책에서 제거 됩니다. 그러나 특정 기간 보다 오래 된 콘텐츠를 삭제 하는 조직 차원의 보존 정책을 기반으로 사서함 콘텐츠 삭제를 방지 하기 위해 복구 된 사서함에서 소송 보존을 사용 하도록 설정 됩니다. 소송 보존을 유지 하거나 제거할 수 있습니다. 자세한 내용은 [소송 보존 만들기](create-a-litigation-hold.md)를 참조 하세요.
 
   - **RetainDeletedItemsFor** mailbox 속성으로 정의 되는 단일 항목 복구 기간은 30 일로 설정 됩니다. 일반적으로 Exchange Online에서 새 사서함을 만들면이 보존 기간은 14 일로 설정 됩니다. 이 값을 최대 30 일로 설정 하면 비활성 사서함에서 영구적으로 삭제 (또는 제거 된) 데이터를 복구할 수 있는 시간이 더 많이 제공 됩니다. 단일 항목 복구를 사용 하지 않도록 설정 하거나 단일 항목 복구 기간을 기본값인 14 일로 다시 설정할 수도 있습니다. 자세한 내용은 [사서함에 대한 단일 항목을 사용하거나 사용하지 않도록 설정](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-single-item-recovery)을 참조하세요.
 
-  - 보존 설정이 사용 하도록 설정 되어 있고 보존 기간이 30 일로 설정 됩니다. 즉, 새 사서함에 할당 된 기본 Exchange 보존 정책 및 조직 전체 또는 Exchange 전체 Microsoft 365 보존 정책은 30 일 동안 처리 되지 않습니다. 이렇게 하면 반환 되는 직원 또는 복구 된 비활성 사서함 시간의 새 소유자가 이전 메시지를 관리할 수 있습니다. 그렇지 않으면 Exchange 또는 microsoft 365 보존 정책에서 Exchange 또는 Microsoft 365 보존 정책에 대해 구성 된 설정을 기반으로 만료 된 이전 사서함 항목을 삭제 하거나 (사용 하도록 설정 된 경우 보관 사서함으로 항목을 이동할 수 있음) 30 일 후에 보존 기간이 만료 되 면 **RetentionHoldEnabled** mailbox 속성은 **False**로 설정 되 고 관리 되는 폴더 도우미는 사서함에 할당 된 정책을 처리 하기 시작 합니다. 이 추가 시간이 필요 하지 않으면 보존 유지를 제거 하면 됩니다. 또는, **설정 된 사서함-Enddatefor소송** 명령을 사용 하 여 보존 기간을 늘릴 수 있습니다. 자세한 내용은 [사서함을 보존 상태로 두기](https://docs.microsoft.com/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold)를 참조 하십시오.
+  - 보존 설정이 사용 하도록 설정 되어 있고 보존 기간이 30 일로 설정 됩니다. 즉, 새 사서함에 할당 된 기본 Exchange 보존 정책 및 조직 전체 또는 Exchange 전체 Microsoft 365 보존 정책은 30 일 동안 처리 되지 않습니다. 이렇게 하면 반환 되는 직원 또는 복구 된 비활성 사서함 시간의 새 소유자가 이전 메시지를 관리할 수 있습니다. 그렇지 않으면 Exchange 또는 microsoft 365 보존 정책에서 Exchange 또는 Microsoft 365 보존 정책에 대해 구성 된 설정을 기반으로 만료 된 이전 사서함 항목을 삭제 하거나 (사용 하도록 설정 된 경우 보관 사서함으로 항목을 이동할 수 있음) 30 일 후에 보존 기간이 만료 되 면 **RetentionHoldEnabled** mailbox 속성은 **False** 로 설정 되 고 관리 되는 폴더 도우미는 사서함에 할당 된 정책을 처리 하기 시작 합니다. 이 추가 시간이 필요 하지 않으면 보존 유지를 제거 하면 됩니다. 또는, **설정 된 사서함-Enddatefor소송** 명령을 사용 하 여 보존 기간을 늘릴 수 있습니다. 자세한 내용은 [사서함을 보존 상태로 두기](https://docs.microsoft.com/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold)를 참조 하십시오.
 
 - **비활성 사서함의 원래 상태를 보존 해야 하는 경우 복구 된 사서함을 유지 합니다.** 새 사서함 소유자 또는 보존 정책이 복구 된 비활성 사서함에서 메시지를 영구적으로 삭제 하지 못하게 하려면 사서함을 소송 보존 상태로 설정 하면 됩니다. 자세한 내용은 [소송 보존 만들기](https://docs.microsoft.com/microsoft-365/compliance/create-a-litigation-hold)를 참조 하세요.
 

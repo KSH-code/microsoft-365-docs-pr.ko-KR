@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b70393bfff32d855e49c74bab340379cdaf488f1
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: dc4adef382724ce4176f2b5f779218d62b6079e0
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415872"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919692"
 ---
 # <a name="financial-industry-regulatory-authority-finra-rule-4511c-united-states"></a>금융 업계의 FINRA (규정 기관) Rule 4511 (c) 미국
 
@@ -47,7 +47,7 @@ Cohasset는 정책 잠금 옵션을 사용 하 여 [Azure 불변 Blob 저장소]
 
 ## <a name="microsoft-office-365"></a>Microsoft Office 365
 
-FINRA Rule 4511 (c)를 사용 하 여 Office 365 준수를 평가 하기 위해 Microsoft는 규정 관련 문제를 전문적으로 Covington & Burling, LLP로 유지 하는 주요 독립적 법칙을 보유 하 고 있습니다. 결과 보고서에서 보관 되는 Microsoft Office 365, 데이터 보존 및 규칙 17a-4 준수 규정에 따라, [365](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements) Covington에 게는 브로커를 포함 한 규제 된 고객이 레코드 보존 요구 사항을 준수 하는 데 도움이 되는 정보를 저장할 수 있도록 하는 보관 기능이 포함 되어 있습니다.
+FINRA Rule 4511 (c)를 사용 하 여 Office 365 준수를 평가 하기 위해 Microsoft는 규정 관련 문제를 전문적으로 Covington & Burling, LLP로 유지 하는 주요 독립적 법칙을 보유 하 고 있습니다. 결과 보고서에서 보관 되는 Microsoft Office 365, 데이터 보존 및 규칙 17a-4 준수 규정에 따라, [365](retention-preservation-lock.md) Covington에 게는 브로커를 포함 한 규제 된 고객이 레코드 보존 요구 사항을 준수 하는 데 도움이 되는 정보를 저장할 수 있도록 하는 보관 기능이 포함 되어 있습니다.
 
 Office 365의 보관 기능은 전자 메일, 음성 메일, 공유 문서, 인스턴트 메시지 및 타사 데이터를 포함 하는 광범위 한 데이터를 보존 하는 데 도움이 됩니다. 특히, Office 365의 보관을 통해 고객은 정의 된 기간에 대 한 데이터를 저장 하 고, erasable이 아닌 다른 형식으로 저장할 수 있도록 전역 또는 세분화 메시징 보존 정책을 설정 합니다.
 
@@ -68,9 +68,9 @@ Office 365의 보관 기능은 전자 메일, 음성 메일, 공유 문서, 인�
 
 ## <a name="how-to-implement"></a>구현 방법
 
-- **금융 서비스 규정**: 클라우드 컴퓨팅 및 Microsoft online 서비스에 대 한 주요 US 규정 원칙을 준수 합니다. [자세한 정보](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
-- **위험 평가 & 준수 가이드**: Microsoft 클라우드 서비스의 위험 평가 및 규제 기관의 알림에 대한 거버넌스 모델을 만들 수 있습니다. [자세한 정보](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-- **금융 유스케이스**: 금융 서비스용 Azure 솔루션을 구축하기 위한 유스케이스 개요, 자습서 및 기타 리소스.. [자세한 정보](https://docs.microsoft.com/azure/industry/financial/)
+- **금융 서비스 규정** : 클라우드 컴퓨팅 및 Microsoft online 서비스에 대 한 주요 US 규정 원칙을 준수 합니다. [자세한 정보](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
+- **위험 평가 & 규제 준수 가이드** : Microsoft 클라우드 서비스의 위험 평가 및 규제 기관의 알림에 대한 거버넌스 모델을 만듭니다. [자세한 정보](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+- **재무 사용 사례** : 금융 서비스용 Azure 솔루션을 구축하기 위한 사용 사례 개요, 자습서 및 기타 리소스. [자세한 정보](https://docs.microsoft.com/azure/industry/financial/)
 
 ## <a name="resources"></a>리소스
 

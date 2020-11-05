@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 73d52a91620bc0bd50a310c4085fa821fab80da2
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: bff804e726a62563621b11932e590ffcb631835a
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416358"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920400"
 ---
 # <a name="commodity-futures-trading-commission-cftc-rule-131c-d-united-states"></a>필수품 퓨처 거래 위원회 (CFTC) Rule 1.31 (c 차원) 미국
 
@@ -41,7 +41,7 @@ CFTC Rule 1.31 (c 차원)을 사용 하 여 Azure 준수를 평가 하기 위해
 
 ### <a name="microsoft-office-365"></a>Microsoft Office 365
 
-CFTC Rule 1.31 (c 차원)을 사용 하 여 Office 365 준수를 평가 하기 위해 Microsoft는 규정 관련 문제를 전문적으로 담당 하는 Covington & Burling, LLP와 함께 하는 주요을 담당 합니다. 결과 보고서에서 보관 되는 [Microsoft office 365, 데이터 보존 및 규칙 17a-4 준수 규정](https://go.microsoft.com/fwlink/?linkid=830440)에서는 Covington가 [보존 잠금 기능이 있는 Office 365](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements) 에 데이터를 저장 하는 데 사용할 수 있는 보관 기능을 포함 하 고 있습니다.
+CFTC Rule 1.31 (c 차원)을 사용 하 여 Office 365 준수를 평가 하기 위해 Microsoft는 규정 관련 문제를 전문적으로 담당 하는 Covington & Burling, LLP와 함께 하는 주요을 담당 합니다. 결과 보고서에서 보관 되는 [Microsoft office 365, 데이터 보존 및 규칙 17a-4 준수 규정](https://go.microsoft.com/fwlink/?linkid=830440)에서는 Covington가 [보존 잠금 기능이 있는 Office 365](retention-preservation-lock.md) 에 데이터를 저장 하는 데 사용할 수 있는 보관 기능을 포함 하 고 있습니다.
 
 Office 365의 보관 기능은 전자 메일, 음성 메일, 공유 문서, 인스턴트 메시지 및 타사 데이터를 포함 하는 광범위 한 데이터를 보존 하는 데 도움이 됩니다. 특히, Office 365의 보관을 통해 고객은 정의 된 기간에 대 한 데이터를 저장 하 고, erasable이 아닌 다른 형식으로 저장할 수 있도록 전역 또는 세분화 메시징 보존 정책을 설정 합니다.
 
@@ -59,8 +59,8 @@ Office 365의 보관 기능은 전자 메일, 음성 메일, 공유 문서, 인�
 ## <a name="how-to-implement"></a>구현 방법
 
 - [금융 서비스 규정](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides): 클라우드 컴퓨팅 및 Microsoft online 서비스에 대 한 주요 US 규정 원칙을 준수 합니다.
-- [위험 평가 & 준수 가이드](https://aka.ms/RiskGovernanceGuide): Microsoft 클라우드 서비스의 위험 평가 및 규제 기관의 알림에 대한 거버넌스 모델을 만들 수 있습니다.
-- [금융 유스케이스](https://docs.microsoft.com/azure/industry/financial/): 금융 서비스용 Azure 솔루션을 구축하기 위한 유스케이스 개요, 자습서 및 기타 리소스..
+- [위험 평가 & 규제 준수 가이드](https://aka.ms/RiskGovernanceGuide): Microsoft 클라우드 서비스의 위험 평가 및 규제 기관의 알림에 대한 거버넌스 모델을 만듭니다.
+- [재무 사용 사례](https://docs.microsoft.com/azure/industry/financial/): 금융 서비스용 Azure 솔루션을 구축하기 위한 사용 사례 개요, 자습서 및 기타 리소스.
 
 ## <a name="resources"></a>리소스
 
