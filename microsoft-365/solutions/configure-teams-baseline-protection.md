@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 기본 수준의 보호로 팀을 배포하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ac6974b5625a4eff0fcd11a17c4607a7c2caf97f
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 76b60a61812c4d30884825b41ee7220d6686b58b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398868"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845303"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>기본 보호 기능으로 팀 구성
 
@@ -33,13 +33,13 @@ ms.locfileid: "48398868"
 
 첫 번째 단계로 기본 ID 및 장치 액세스 정책을 구성하는 것이 좋습니다. 자세한 내용은 [팀 채팅, 그룹, 파일에 대한 정책 권장 사항](../security/office-365-security/teams-access-policies.md)을 참조하세요.
 
-또한 문서, 첨부 파일 및 링크의 맬웨어를 방지하기 위해 기본 고급 위협 방지 기능을 설정하는 것이 좋습니다. 다음 표의 각 옵션을 설정하는 것이 좋습니다.
+또한 문서, 첨부 파일 및 링크의 맬웨어를 방지하기 위해 기본 Office 365용 Defender 기능을 설정하는 것이 좋습니다. 다음 표의 각 옵션을 설정하는 것이 좋습니다.
 
 |옵션|정보|
 |:------|:-----------|
-|ATP SPO, OneDrive 및 팀을 위한 안전한 첨부 파일|[Office 365 ATPATP 안전한 첨부 파일](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br>[SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)|
-|ATP 안전한 문서|[Office 365 고급 위협 보호의 안전한 문서](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)|
-|Teams용 ATP 안전 링크|[Teams의 Office 365 안전한 링크](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams)<br>[Office 365 ATP 안전한 링크](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)|
+|SPO, OneDrive 및 Teams용 안전 첨부 파일|[안전 첨부 파일](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br>[Office 365용 Defender - SharePoint, OneDrive 및 Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)|
+|안전 문서|[Office 365용 Microsoft Defender의 안전 문서](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)|
+|Teams용 안전 링크|[Teams의 Office 365 안전한 링크](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams)<br>[안전 링크](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)|
 
 ## <a name="teams-guest-sharing"></a>Teams 게스트 공유
 
@@ -50,11 +50,11 @@ ms.locfileid: "48398868"
 Teams 게스트 액세스를 설정하려면 다음을 수행합니다.
 
 1. [https://admin.microsoft.com](https://admin.microsoft.com)에서 Microsoft 365 관리 센터에 로그인합니다.
-2. 왼쪽 탐색 창에서 **모두 표시**를 클릭합니다.
-3. **관리 센터**에서 **Teams**를 클릭합니다.
-4. Teams 관리 센터의 왼쪽 탐색 창에서 **조직 전체 설정**을 확장한 다음 **게스트 액세스**를 클릭합니다.
-5. Teams의 **게스트 액세스 허용**이 **사용**으로 설정되어 있는지 확인합니다.
-6. 추가 게스트 설정을 원하는대로 변경 한 다음 **저장**을 클릭하세요.
+2. 왼쪽 탐색 창에서 **모두 표시** 를 클릭합니다.
+3. **관리 센터** 에서 **Teams** 를 클릭합니다.
+4. Teams 관리 센터의 왼쪽 탐색 창에서 **조직 전체 설정** 을 확장한 다음 **게스트 액세스** 를 클릭합니다.
+5. Teams의 **게스트 액세스 허용** 이 **사용** 으로 설정되어 있는지 확인합니다.
+6. 추가 게스트 설정을 원하는대로 변경 한 다음 **저장** 을 클릭하세요.
 
 > [!NOTE]
 > Teams 게스트 설정을 켠 후 활성화되려면 최대 24시간이 걸릴 수 있습니다.
@@ -63,13 +63,13 @@ Office 365 그룹 ​​및 SharePoint에서는 게스트 공유가 기본적으
 
 ## <a name="site-and-file-sharing"></a>사이트 및 파일 공유
 
-실수로 조직 외부 사람과 파일 또는 폴더를 공유 할 위험을 줄이려면 SharePoint의 기본 공유 링크를 *조직 내 사용자 전용*으로 변경하는 것이 좋습니다. (사용자가 외부에서 공유해야 하고 게스트 공유를 활성화한 경우 공유할 때 링크 유형을 계속 변경할 수 있습니다.)
+실수로 조직 외부 사람과 파일 또는 폴더를 공유 할 위험을 줄이려면 SharePoint의 기본 공유 링크를 *조직 내 사용자 전용* 으로 변경하는 것이 좋습니다. (사용자가 외부에서 공유해야 하고 게스트 공유를 활성화한 경우 공유할 때 링크 유형을 계속 변경할 수 있습니다.)
 
 기본 공유 링크를 변경하려면
 1. [SharePoint 관리 센터](https://admin.microsoft.com/sharepoint)를 엽니다.
-2. **정책**에서 **공유**를 클릭하세요.
-3. **파일 및 폴더 링크**에서 **조직 내 사용자만**을 선택합니다.
-4. **저장**을 클릭합니다.
+2. **정책** 에서 **공유** 를 클릭하세요.
+3. **파일 및 폴더 링크** 에서 **조직 내 사용자만** 을 선택합니다.
+4. **저장** 을 클릭합니다.
 
 최상의 게스트 공유 환경을 위해서는 [Azure AD B2B와의 SharePoint 및 OneDrive 통합](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)을 사용하는 것이 좋습니다.
 
@@ -84,11 +84,11 @@ Office 365 그룹 ​​및 SharePoint에서는 게스트 공유가 기본적으
 권한 관리를 돕기 위해 소유자만 사이트를 공유할 수 있도록 연결된 사이트를 구성하는 것이 좋습니다. 이는 권한 관리를 단순화하고 팀 소유자 모르게 사람들이 액세스하지 못하게합니다. 기본 보호가 필요한 각 팀에 대해 이 작업을 수행하세요.
 
 사이트 공유 설정을 업데이트하려면
-1. 팀의 도구 막대에서 **파일**을 클릭합니다.
-2. ** SharePoint에서 열기**를 클릭하세요.
-3. SharePoint 사이트의 도구 모음에서 설정 아이콘을 클릭한 다음 **사이트 권한**을 클릭하세요.
-4. **사이트 권한** 창의 **공유 설정**에서 **공유 설정 변경**을 클릭하세요.
-5. **권한 공유**에서 **사이트 소유자 및 회원을 선택하고 편집 권한이 있는 사용자는 파일 및 폴더를 공유할 수 있지만 사이트 소유자 만 사이트를 공유할 수 있습니다**를 선택한 다음 **저장**을 클릭합니다.
+1. 팀의 도구 막대에서 **파일** 을 클릭합니다.
+2. **SharePoint에서 열기** 를 클릭하세요.
+3. SharePoint 사이트의 도구 모음에서 설정 아이콘을 클릭한 다음 **사이트 권한** 을 클릭하세요.
+4. **사이트 권한** 창의 **공유 설정** 에서 **공유 설정 변경** 을 클릭하세요.
+5. **권한 공유** 에서 **사이트 소유자 및 회원을 선택하고 편집 권한이 있는 사용자는 파일 및 폴더를 공유할 수 있지만 사이트 소유자 만 사이트를 공유할 수 있습니다** 를 선택한 다음 **저장** 을 클릭합니다.
 
 ## <a name="additional-protections"></a>추가 보호
 
