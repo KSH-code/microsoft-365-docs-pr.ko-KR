@@ -266,6 +266,8 @@
           href: dlp-sensitivity-label-as-condition.md
         - name: 타사 클라우드 앱용 데이터 손실 방지 정책 사용
           href: dlp-use-policies-non-microsoft-cloud-apps.md
+        - name: DLP 정책 조건 및 예외 (미리 보기)
+          href: dlp-conditions-and-exceptions.md
 - name: 정보 거버넌스 관리
   items:
     - name: 사용자 데이터 관리

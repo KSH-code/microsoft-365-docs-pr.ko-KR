@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: 이 문서에서는 인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례를 알아봅니다.
-ms.openlocfilehash: 18587fc6a718955cd5a752954b614c4d6fa5ee22
-ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.openlocfilehash: afbd2cf5e2e522228987941977fd53b8562aa9d7
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48779263"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845375"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례
 
@@ -128,7 +128,7 @@ DLP 규칙을 만들려면 다음을 수행합니다.
 
 ## <a name="protect-against-malicious-files"></a>악성 파일로부터 보호
 
-익명 사용자가 파일을 업로드할 수 있도록 허용하는 경우 악성 파일이 업로드되는 위험이 증가하게 됩니다. Microsoft 365에서는 고급 위협 방지에서 *안전한 첨부 파일* 기능을 사용하여 업로드된 파일을 자동으로 검사하여 안전하지 않은 파일을 격리할 수 있습니다.
+익명 사용자가 파일을 업로드할 수 있도록 허용하는 경우 악성 파일이 업로드되는 위험이 증가하게 됩니다. Microsoft 365에서는 Office 365용 Defender에서 *안전한 첨부 파일* 기능을 사용하여 업로드된 파일을 자동으로 검사하고 안전하지 않은 파일을 격리할 수 있습니다.
 
 안전한 첨부 파일을 설정하려면
 1. 보안 및 준수 관리 센터에서 [ATP 안전한 첨부 파일 페이지](https://protection.office.com/safeattachmentv2)를 엽니다.

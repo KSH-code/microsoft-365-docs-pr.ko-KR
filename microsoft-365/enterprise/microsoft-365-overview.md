@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 엔터프라이즈용 Microsoft 365의 구성 요소, 계획 및 배포 경로에 대한 소개를 제공합니다.
-ms.openlocfilehash: 0cee9752ae21e08831b6a3df856452a7ca6aec71
-ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
+ms.openlocfilehash: 0916fa97daec166a7bae8b19e3c9efbd693f4874
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655974"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846967"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈용 Microsoft 365 개요
 
@@ -44,7 +44,7 @@ ms.locfileid: "48655974"
 |요금제 이름|기능|
 |---|---|
 |E3|Microsoft 365 핵심 제품 및 기능에 액세스하여 안전하게 작업 공간의 생산성을 향상하고 혁신을 주도합니다.|
-|E5|Microsoft 365 최신 제품 및 기능에 액세스합니다. 고급 위협 방지, 보안 도구 및 공동 작업 도구를 포함합니다. 이 플랜에는 모든 E3 기능을 포함하고 고급 보안, 보이스 및 데이터 분석 도구도 포함됩니다.|
+|E5|Microsoft 365 최신 제품 및 기능에 액세스합니다. 여기에는 Office 365용 Defender, 보안 도구 및 공동 작업 도구가 포함됩니다. 이 플랜에는 모든 E3 기능을 포함하고 고급 보안, 보이스 및 데이터 분석 도구도 포함됩니다.|
 |F3|가장 적합한 작업을 수행하는 데 사용할 수 있는 목적으로 빌드된 도구와 리소스를 사용하여 일선 인력과 연결합니다.|
 |||
 
@@ -83,14 +83,14 @@ Microsoft 365 E3 사용자는 이러한 추가 기능을 사용하여 Microsoft 
 
 ## <a name="end-of-support-for-windows-7-and-office-2010-clients-and-servers"></a>Windows 7 및 Office 2010 클라이언트 및 서버 지원 종료
 
-[Windows 7](https://aka.ms/win7upgrade)에 대한 서비스 지원이 **2020년 1월 14일**에 종료 되었습니다.
+[Windows 7](https://aka.ms/win7upgrade)에 대한 서비스 지원이 **2020년 1월 14일** 에 종료 되었습니다.
 
-**2020년 10월 13일**에 다음 제품의 지원이 종료됩니다.
+**2020년 10월 13일** 에 다음 제품의 지원이 종료됩니다.
 
 - [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
 - [Exchange Server 2010](exchange-2010-end-of-support.md)
 
-[SharePoint 서버 2010](upgrade-from-sharepoint-2010.md)에 대한 서비스 지원이 **2021년 4월 13일**에 종료 될 예정입니다.
+[SharePoint 서버 2010](upgrade-from-sharepoint-2010.md)에 대한 서비스 지원이 **2021년 4월 13일** 에 종료 될 예정입니다.
 
 이러한 제품에 대한 업그레이드, 클라우드로 이동 옵션을 알기 쉽게 요약한 내용을 보려면 [지원 종료 포스터](../downloads/Office2010Windows7EndOfSupport.pdf)를 참조하세요.
 

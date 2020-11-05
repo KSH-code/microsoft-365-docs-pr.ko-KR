@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Microsoft Endpoint Manager를 사용하여 장치, PC 및 기타 끝점을 관리합니다.
-ms.openlocfilehash: 72aa26c50f5d3c20409382f19d8beabb5d290023
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 291c1111bbfaf9a549c0d2ac22dab450a32a6a96
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681483"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845267"
 ---
 # <a name="step-4-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>4단계. 장치, PC 및 기타 끝점에 대한 끝점 관리 기능 배포
 
@@ -44,7 +44,7 @@ Microsoft Intune은 Microsoft 365에 포함된 MDM(모바일 장치 관리) 및 
 
 ## <a name="configuration-manager"></a>Configuration Manager
 
-Configuration Manager는 온-프레미스 관리 솔루션으로서 네트워크에 있거나 또는 인터넷 기반의 데스크톱, 서버 및 노트북을 관리합니다. Configuration Manager를 사용하여 앱, 소프트웨어 업데이트 및 운영 체제를 배포합니다. 또한 규정 준수를 모니터링하고, 쿼리를 실행하고, 실시간으로 클라이언트에 대한 작업을 수행하는 등의 더 많은 작업을 수행할 수 있습니다. 클라우드를 사용하도록 설정하여 Intune, Azure AD, Microsoft Defender ATP 및 기타 클라우드 서비스와 통합할 수 있습니다. 
+Configuration Manager는 온-프레미스 관리 솔루션으로서 네트워크에 있거나 또는 인터넷 기반의 데스크톱, 서버 및 노트북을 관리합니다. Configuration Manager를 사용하여 앱, 소프트웨어 업데이트 및 운영 체제를 배포합니다. 또한 규정 준수를 모니터링하고, 쿼리를 실행하고, 실시간으로 클라이언트에 대한 작업을 수행하는 등의 더 많은 작업을 수행할 수 있습니다. 클라우드를 사용하도록 설정하여 Intune, Azure AD, 엔드포인트용 Microsoft Defender 및 기타 클라우드 서비스와 통합할 수 있습니다. 
 
 자세한 내용은 이 [Configuration Manager 개요](https://docs.microsoft.com/mem/configmgr/core/understand/introduction)를 참조하세요.
 
