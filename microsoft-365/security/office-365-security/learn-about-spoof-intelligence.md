@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)의 스푸핑 인텔리전스에 대해 자세히 알아보고, 특정 스푸핑된 보낸 사람을 허용 하거나 차단할 수 있습니다.
-ms.openlocfilehash: 4ebc32a6c87c58edcceb0d57ee8d55be43f2dd20
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 4d40dae9518b451affc11c6666ee8f7454eceff3
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841831"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920647"
 ---
 # <a name="configure-spoof-intelligence-in-eop"></a>EOP에서 스푸핑 인텔리전스 구성
 
@@ -33,7 +33,7 @@ ms.locfileid: "48841831"
 
 Exchange online 사서함이 없는 Microsoft 365 조직에서 사서함이 있는 EOP (exchange online Protection) 조직에서 인바운드 전자 메일 메시지는 EOP의 2018에서 자동으로 스푸핑 으로부터 보호 됩니다. EOP에서는 피싱에 대 한 조직의 전반적인 방어 과정에서 스푸핑 인텔리전스를 사용 합니다. 자세한 내용은 [EOP의 스푸핑 방지 보호](anti-spoofing-protection.md)를 참조 하세요.
 
-보낸 사람이 전자 메일 주소를 위장 하면 조직의 도메인 중 하나의 사용자 또는 조직에 전자 메일을 보내는 외부 도메인의 사용자로 표시 됩니다. 스팸 또는 피싱 전자 메일을 보내도록 보낸 사람을 위장 하는 공격자는 차단 해야 합니다. 그러나 합법적인 보낸 사람이 스푸핑 되는 시나리오가 있습니다. 예:
+보낸 사람이 전자 메일 주소를 위장 하면 조직의 도메인 중 하나의 사용자 또는 조직에 전자 메일을 보내는 외부 도메인의 사용자로 표시 됩니다. 스팸 또는 피싱 전자 메일을 보내도록 보낸 사람을 위장 하는 공격자는 차단 해야 합니다. 그러나 합법적인 보낸 사람이 스푸핑 되는 시나리오가 있습니다. 예시:
 
 - 내부 도메인 스푸핑에 대 한 합법적인 시나리오:
 
@@ -181,7 +181,7 @@ Get-PhishFilterPolicy -AllowedToSpoof Yes -Detailed -SpoofType Internal
 
 - [EOP에서 피싱 방지 정책을 구성](configure-anti-phishing-policies-eop.md)합니다.
 
-- Microsoft [365의 Office 365 용 Microsoft Defender에서 피싱 방지 정책을 구성](configure-atp-anti-phishing-policies.md)합니다.
+- [Microsoft Defender For Office 365에서 피싱 방지 정책을 구성](configure-atp-anti-phishing-policies.md)합니다.
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>이 절차가 제대로 수행되었는지 어떻게 확인하나요?
 

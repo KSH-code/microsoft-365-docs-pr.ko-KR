@@ -17,12 +17,12 @@ ms.custom:
 - SIEM
 - seo-marvel-apr2020
 description: Microsoft 365 클라우드 서비스 및 응용 프로그램과의 SIEM (보안 정보 및 이벤트 관리) 서버 통합에 대 한 개요를 확인 하세요.
-ms.openlocfilehash: 0e582333615d11c500b114225435903cea386ade
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 17e21d19463187744afe855b2304ac71956545d2
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846403"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919767"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Microsoft 365 서비스 및 응용 프로그램과의 SIEM (보안 정보 및 이벤트 관리) 서버 통합
 
@@ -52,7 +52,7 @@ SIEM 서버는 다양 한 Microsoft 365 서비스 및 응용 프로그램에서 
 
 |Microsoft 365 서비스 또는 응용 프로그램|SIEM server 입력/메서드|자세한 정보를 알아볼 수 있는 리소스|
 |---|---|---|
-|[Microsoft Defender for Office 365](office-365-atp.md)|감사 로그|[Microsoft Defender for Office 365의 SIEM 통합](siem-integration-with-office-365-ti.md)|
+|[Office 365용 Microsoft Defender](office-365-atp.md)|감사 로그|[Microsoft Defender for Office 365의 SIEM 통합](siem-integration-with-office-365-ti.md)|
 |[엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)|Azure에서 호스트 되는 HTTPS 끝점 <br/>REST API|[SIEM 도구에 대 한 알림 가져오기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem)|
 |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|로그 통합|[Microsoft Cloud App Security와의 SIEM 통합](https://docs.microsoft.com/cloud-app-security/siem)|
 |
@@ -70,6 +70,6 @@ SIEM 서버 통합을 구성 하기 전에 감사 로깅이 설정 되어 있는
 
 ## <a name="more-resources"></a>추가 리소스
 
-[Azure Defender에서 보안 솔루션 통합 *](https://docs.microsoft.com/azure/security-center/security-center-partner-integration#exporting-data-to-a-siem)
+[Azure Defender에서 보안 솔루션 통합](https://docs.microsoft.com/azure/security-center/security-center-partner-integration#exporting-data-to-a-siem)
 
 [SIEM을 사용 하 여 Microsoft Graph 보안 API 알림 통합](https://docs.microsoft.com/graph/security-integration)

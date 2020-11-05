@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에 있는 자동 전달 메시지 보고서에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 01a094b8531672708fc024e8ed0c5833786dbb0c
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 28cb593d56d0b0054c8c8cbe4596d4f7df6442ab
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877792"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920599"
 ---
 # <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>보안 & 준수 센터에 대 한 자동 전달 메시지 이해
 
@@ -35,7 +35,7 @@ ms.locfileid: "48877792"
 
   - **메일 흐름 규칙에 따라**
   - **받은 편지함 규칙에 따라**
-  - **SMTP 전달** : 관리자가 [사서함에 대 한 전자 메일 전달 구성](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding)에 설명 된 대로 사서함에 대해 구성할 수 있는 자동 전달입니다.
+  - **SMTP 전달** :이 메서드는 관리자가 [사서함에 대 한 전자 메일 전달 구성](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding)에 설명 된 대로 사서함에 대해 구성할 수 있는 자동 전달을 나타냅니다.
   - 자세한 내용은 [전달 보고서](view-mail-flow-reports.md#forwarding-report) 에 대 한 링크를 참조 하십시오.
 
 - **도메인 및 사용자가 자동으로 메시지를 전달 하는** 경우:

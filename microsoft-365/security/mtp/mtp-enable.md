@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b5bb99ed4b8cee7ea920679e20f69c7a0e002d26
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: c5b8cae9e4eabcb2b3c6a7eb76971784193a221d
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843639"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920505"
 ---
 # <a name="turn-on-microsoft-365-defender"></a>Microsoft 365 Defender 켜기
 
@@ -69,7 +69,7 @@ Microsoft 365 Defender는 [Microsoft Defender For Endpoint에서 사용 하는 �
 Microsoft 기술 지원 서비스에 문의 하 여 microsoft 365 Defender를 다른 데이터 센터 위치에 프로 비전 하는 방법에 대 한 자세한 내용은 마이크로소프트 365 보안 센터를 **참조** 하세요. 
 
 >[!NOTE]
->끝점에 대 한 Microsoft Defender Azure Defender *를 통해 켜면 EU (유럽 연합) 데이터 센터를 자동으로 프로 비전 합니다. Microsoft 365 Defender는이 방식으로 끝점에 대 한 Defender를 프로 비전 한 고객을 위해 동일한 EU 데이터 센터를 자동으로 프로 비전 합니다. 
+>끝점에 대 한 Microsoft Defender Azure Defender를 통해 켜면 EU (유럽 연합) 데이터 센터를 자동으로 프로 비전 합니다. Microsoft 365 Defender는이 방식으로 끝점에 대 한 Defender를 프로 비전 한 고객을 위해 동일한 EU 데이터 센터를 자동으로 프로 비전 합니다. 
 
 ### <a name="confirm-that-the-service-is-on"></a>서비스가 켜져 있는지 확인합니다.
 서비스를 프로비전하면 다음이 추가됩니다.

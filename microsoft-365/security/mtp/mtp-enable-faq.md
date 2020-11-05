@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: bfb58cb043f2bc641245814c41e389ddcdbfdefa
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 3dae9f208f5bb08d694322eb9f7cff35986930da
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842419"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920493"
 ---
 # <a name="frequently-asked-questions-when-turning-on-microsoft-365-defender"></a>Microsoft 365 Defender를 켤 때 자주 묻는 질문
 
@@ -59,7 +59,7 @@ Microsoft 365 Defender 환경을 최적화 하려면 지원 되는 *모든* [Mic
 Microsoft 365 Defender는 통합 데이터가 처리 되 고 저장 되는 데이터 센터의 최적의 위치를 자동으로 선택 합니다. Endpoint 용 Microsoft Defender가 있는 경우에는 Defender for Endpoint에서 사용 하는 것과 동일한 위치를 선택 합니다.
 
 >[!NOTE]
->끝점에 대 한 Microsoft Defender Azure Defender *를 통해 켜면 EU (유럽 연합) 데이터 센터를 자동으로 프로 비전 합니다. Microsoft 365 Defender는 이러한 방식으로 끝점에 대 한 Microsoft Defender를 프로 비전 한 고객을 위해 동일한 EU 데이터 센터를 자동으로 프로 비전 합니다. 
+>끝점에 대 한 Microsoft Defender Azure Defender를 통해 켜면 EU (유럽 연합) 데이터 센터를 자동으로 프로 비전 합니다. Microsoft 365 Defender는 이러한 방식으로 끝점에 대 한 Microsoft Defender를 프로 비전 한 고객을 위해 동일한 EU 데이터 센터를 자동으로 프로 비전 합니다. 
 
 데이터 센터 위치는 Microsoft 365 Defender ( **settings > microsoft 365 defender** )의 설정 페이지에서 서비스가 프로 비전 되기 전과 후에 표시 됩니다. 다른 데이터 센터 위치를 사용 하려면 microsoft 365 보안 센터에서 Microsoft 지원 서비스에 문의 **하세요** .를 선택 합니다.
 

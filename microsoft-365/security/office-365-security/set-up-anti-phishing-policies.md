@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 사용할 수 있는 피싱 방지 정책 및 Office 용 Microsoft Defender 365에 대해 알아봅니다.
-ms.openlocfilehash: 5c3b79dcf462dbab4fc67b75952ca0ef39b80e75
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: c1254ccdc678bd25c2d3481b0a43cca5ff9816c0
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844299"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919779"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Microsoft 365의 피싱 방지 정책
 
@@ -30,7 +30,7 @@ ms.locfileid: "48844299"
 
 피싱 방지 보호 설정을 구성 하기 위한 정책은 exchange Online 사서함, 독립 실행형 EOP (exchange Online Protection), Exchange Online 사서함이 없는 microsoft 365 조직 및 Office 365 조 직 용 Microsoft Defender에서 사용할 수 있습니다.
 
-Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365 용 Defender가 있는 조직 에서만 사용할 수 있습니다. 예:
+Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365 용 Defender가 있는 조직 에서만 사용할 수 있습니다. 예시:
 
 - Microsoft 365 Enterprise E5, Microsoft 365 교육 A5 등입니다.
 - [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)
@@ -57,7 +57,7 @@ EOP의 피싱 방지 정책 및 Office 용 Microsoft Defender 365의 피싱 방�
 
 - [EOP에서 피싱 방지 정책 구성](configure-anti-phishing-policies-eop.md)
 
-- [Microsoft 365의 Microsoft Defender for Office 365에서 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)
+- [Microsoft Defender for Office 365에서 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)
 
 이 문서의 나머지 부분에서는 EOP 및 Defender for Office 365의 피싱 방지 정책에서 사용할 수 있는 설정에 대해 설명 합니다.
 

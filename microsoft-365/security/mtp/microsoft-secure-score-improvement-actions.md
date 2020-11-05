@@ -20,24 +20,23 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: ff81b6e1a290d928d68cb43b455713183d24f75b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 02c79edaa05e7903a8797cdf83c18a4ce69716dc
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846643"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920539"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Microsoft 보안 점수를 사용 하 여 보안 상황 평가
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
-
 
 Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 많은 향상 작업이 수행 되었음을 나타냅니다. 이 도구 https://security.microsoft.com/securescore 는 [Microsoft 365 보안 센터](overview-security-center.md)에서 찾을 수 있습니다.
 
 필요한 정보를 보다 신속 하 게 지원 하기 위해 Microsoft 개선 작업을 그룹으로 구성 합니다.
 
 * Id (Azure Active Directory 계정 & 역할)
-* 데이터 (Microsoft Information Protection)
+* 데이터 (지금 향상 작업을 수행 하지 않음)
 * 장치 ( [장치에 대 한](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices)microsoft Defender for Endpoint)
 * 앱 (Office 365 및 Microsoft Cloud App Security)을 포함 하는 전자 메일 및 클라우드 앱
 * 인프라 (지금은 향상 작업 없음)

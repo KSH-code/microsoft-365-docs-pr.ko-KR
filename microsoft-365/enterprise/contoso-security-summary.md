@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 기업에 대 한 Microsoft 365의 보안 기능을 사용 하는 방법
-ms.openlocfilehash: 8d62dba96ecf19f0dc31af2cf5a2d85257ca19d5
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: a72a770029328eaddf76cbe1b2039386c50c2750
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847109"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920421"
 ---
 # <a name="summary-of-microsoft-365-for-enterprise-security-for-the-contoso-corporation"></a>Contoso Corporation의 엔터프라이즈 보안용 Microsoft 365 요약
 
@@ -127,9 +127,9 @@ Contoso는 다음 단계를 수행 하 여 기업에 대 한 Microsoft 365 배�
 
 ## <a name="security-management"></a>보안 관리
 
-- Azure Defender *를 사용 하는 IT 용 중앙 보안 대시보드 *
+- Azure Defender를 사용 하는 IT 용 중앙 보안 대시보드
 
-  Contoso는 [Azure Defender *](https://azure.microsoft.com/services/security-center/) 를 사용 하 여 보안 및 위협 보호에 대 한 통합 된 보기를 제공 하 고, 워크 로드에 대 한 보안 정책을 관리 하 고, 고 사이버 공격에 응답 합니다.
+  Contoso는 [Azure Defender](https://azure.microsoft.com/services/security-center/) 를 사용 하 여 보안 및 위협 보호에 대 한 통합 된 보기를 제공 하 고, 워크 로드에 대 한 보안 정책을 관리 하 고, 고 사이버 공격에 응답할 수 있습니다.
 
 - Windows Defender 보안 센터의 사용자를 위한 중앙 보안 대시보드
 

@@ -14,12 +14,12 @@ ms.assetid: 37125cdb-715d-42d0-b669-1a8efa140813
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 보안 & 준수 센터에서 문제 해결을 사용 하 여 조직에서 비효율적인 메일 흐름 규칙 (전송 규칙이 라고도 함)을 식별 하 고 수정 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 6a2a3c42eadf3c621b34d2a21344eafd2618e669
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: f51c5a577fc6d9c52e35a5217cae4ae94c546c9d
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877540"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920551"
 ---
 # <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>보안 & 준수 센터의 메일 흐름 규칙에 대 한 자세한 정보를 수정 합니다.
 
@@ -32,7 +32,9 @@ ms.locfileid: "48877540"
 - 정규식 (regex) 패턴 일치를 사용 하는 조건입니다.
 - 첨부 파일에서 콘텐츠 검사를 사용 하는 조건입니다.
 
-[보안 & 준수 센터](https://protection.office.com) 의 [메일 흐름 대시보드의](mail-flow-insights-v2.md) **권장 사항에 대 한** **수정 메일 흐름 규칙** 에 대 한 자세한 정보는 메일 흐름 규칙을 완료 하는 데 시간이 너무 오래 걸려 사용자에 게 알려 줍니다. 이 통찰력은 조건이 감지 된 후에만 표시 됩니다 (메일 루프가 없는 경우에는 통찰력을 볼 수 없음).
+[보안 & 준수 센터](https://protection.office.com) 의 [메일 흐름 대시보드의](mail-flow-insights-v2.md) **권장 사항에 대 한** **수정 메일 흐름 규칙** 에 대 한 자세한 정보는 메일 흐름 규칙을 완료 하는 데 시간이 너무 오래 걸려 사용자에 게 알려 줍니다.
+
+이 통찰력은 조건이 감지 된 후에만 표시 됩니다 (메일 루프가 없는 경우에는 통찰력을 볼 수 없음).
 
 이 알림을 사용 하면 메일 흐름 규칙을 식별 하 고 미세 조정 하 여 메일 흐름 지연을 줄이는 데 도움을 줄 수 있습니다.
 
@@ -47,8 +49,8 @@ ms.locfileid: "48877540"
 
 ![문제 해결에 대 한 세부 정보 보기를 클릭 한 후 표시 되는 세부 정보 플라이 인 느린 메일 흐름 규칙 이해](../../media/mfi-fix-slow-mail-flow-rules-details.png)
 
-Exchange Online의 메일 흐름 규칙에 대 한 조건 및 예외에 대 한 자세한 내용은 [Exchange online의 메일 흐름 규칙 조건 및 예외 (조건자)](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)를 참조 하십시오.
+메일 흐름 규칙의 조건 및 예외에 대 한 자세한 내용은 [Exchange Online의 메일 흐름 규칙 조건 및 예외 (조건자)](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)를 참조 하십시오.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="see-also"></a>참고 항목
 
 메일 흐름 대시보드의 다른 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.

@@ -5,7 +5,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: how-to
+ms.article: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -14,25 +14,29 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Microsoft 365 관리자는 랜 섬 웨어 공격 으로부터 복구 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: dd740b19abac9d30196c1ffd82c8a3f377b19dbf
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: de1cddbdf1c2b3ffeb8fd74a8f0d31e815eb1b70
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845543"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920611"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Microsoft 365에서 랜 섬 웨어 공격 으로부터 복구
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-조직을 보호 하기 위해 모든 예방책을 사용 하는 경우에도 여전히 [랜 섬 웨어](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) 공격을 막을 수 있습니다. 랜 섬 웨어는 대규모 기업 이며, 공격은 정교 하 게 확인 됩니다.
+조직을 보호 하기 위해 모든 예방책을 사용 하는 경우에도 여전히 [랜 섬 웨어](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) 공격을 막을 수 있습니다. 랜 섬 웨어는 대규모 비즈니스로, 공격은 매우 정교 합니다.
 
-이 항목의 단계에서는 랜 섬 웨어로 암호화 된 데이터를 복구할 수 있는 최상의 기회를 제공 하며, 조직에서 감염의 확산을 중지 하는 데 도움이 됩니다. 시작하기 전에 다음 항목을 고려하세요.
+이 문서에서 설명 하는 단계에서는 데이터를 복구 하 고 감염의 내부 확산을 중지할 수 있는 최상의 기회를 제공 합니다. 시작하기 전에 다음 항목을 고려하세요.
 
-- Ransom의 비용을 지불 하면 파일에 대 한 액세스 권한이 반환 된다는 보장이 없습니다. 실제로 ransom를 지불할 경우 더 많은 랜 섬 웨어를 대상으로 할 수 있습니다. 이미 지불 되었지만 공격자의 확인을 사용 하지 않고 파일을 성공적으로 복구할 수 있는 경우에는 뱅크를 호출 하 여 트랜잭션을 차단할 수 있는지 확인 해야 합니다. 또한이 항목의 뒷부분에 설명 된 대로, 섬 웨어 공격을 법 집행, 사기 보고 웹 사이트 및 Microsoft에 보고 하는 것이 좋습니다.
+- Ransom의 비용을 지불 하면 파일에 대 한 액세스 권한이 반환 된다는 보장이 없습니다. 실제로 ransom를 지불할 경우 더 많은 랜 섬 웨어를 대상으로 할 수 있습니다.
 
-- 공격에 빠르게 응답 하 고 그 결과를 처리 하는 것이 매우 중요 합니다. 기다리는 시간이 길수록 영향을 받는 데이터를 복구할 수 있다는 것을 덜 가능성이 줄어듭니다.
+  이미 지불 되었지만 공격자의 솔루션을 사용 하지 않고 복구 한 경우에는 해당 은행에 연락 하 여 트랜잭션을 차단할 수 있는지 확인 합니다.
+
+  또한이 문서 뒷부분에 설명 된 대로, 섬 웨어 공격을 법 집행, 사기 보고 웹 사이트 및 Microsoft에 보고 하는 것이 좋습니다.
+
+- 공격에 빠르게 응답 하 고 그 결과를 처리 하는 것이 중요 합니다. 기다리는 시간이 길수록 영향을 받는 데이터를 복구할 수 있다는 것을 덜 가능성이 줄어듭니다.
 
 ## <a name="step-1-verify-your-backups"></a>1 단계: 백업 확인
 
@@ -40,13 +44,13 @@ ms.locfileid: "48845543"
 
 백업이 없거나 해당 백업이 랜 섬 웨어의 영향을 받는 경우에는이 단계를 건너뛰어도 됩니다.
 
-## <a name="step-2-disable-activesync-and-onedrive-sync"></a>2 단계: ActiveSync 및 OneDrive 동기화를 사용 하지 않도록 설정
+## <a name="step-2-disable-exchange-activesync-and-onedrive-sync"></a>2 단계: Exchange ActiveSync 및 OneDrive 동기화 사용 안 함
 
 여기서 중요 한 점은 랜 섬 웨어에의 한 데이터 암호화 확산을 중지 하는 것입니다.
 
-전자 메일이 대상이 되는 것으로 의심 되는 경우 사서함에 대 한 사용자 액세스를 일시적으로 사용 하지 않도록 설정 해야 합니다. Exchange ActiveSync는 모바일 장치에서 장치와 Exchange Online 사서함 간에 데이터를 동기화 하는 데 사용 됩니다.
+전자 메일이 랜 섬 웨어 암호화의 대상으로 의심 되는 경우 사서함에 대 한 사용자 액세스를 일시적으로 사용 하지 않도록 설정 합니다. Exchange ActiveSync는 장치와 Exchange Online 사서함 간에 데이터를 동기화 합니다.
 
-사서함에 대해 ActiveSync를 사용 하지 않도록 설정 하려면 [Exchange Online에서 사용자에 대해 Exchange activesync를 사용 하지 않도록 설정 하는 방법을](https://support.microsoft.com/help/2795303)참조 하세요.
+사서함에 대해 Exchange ActiveSync를 사용 하지 않도록 설정 하려면 [Exchange Online에서 사용자에 대해 Exchange activesync를 사용 하지 않도록 설정 하는 방법을](https://support.microsoft.com/help/2795303)참조 하세요.
 
 사서함에 대 한 다른 유형의 액세스를 사용 하지 않도록 설정 하려면 다음을 참조 하세요.
 
@@ -58,7 +62,9 @@ OneDrive 동기화를 일시 중지 하면 잠재적으로 감염 된 장치에 
 
 ## <a name="step-3-remove-the-malware-from-the-affected-devices"></a>3 단계: 영향을 받는 장치에서 맬웨어 제거
 
-의심 되는 모든 컴퓨터 및 장치에 대 한 최신 업데이트를 사용 하 여 전체 바이러스 검사를 실행 하 여 랜 섬 웨어에 연결 된 페이로드를 검색 하 고 제거 합니다. 데이터를 동기화 하는 장치 또는 매핑된 네트워크 드라이브의 대상 (즉, 검색 해야 하는 컴퓨터와 장치)을 잊지 마십시오.
+의심 되는 모든 컴퓨터 및 장치에 대해 최신 바이러스 백신 검사를 실행 하 여 랜 섬 웨어와 연결 된 페이로드를 검색 하 고 제거 합니다.
+
+데이터를 동기화 하는 장치를 검색 하거나 매핑된 네트워크 드라이브의 대상을 잊어 버리는 것은 잊지 마십시오.
 
 [Windows Defender](https://www.microsoft.com/windows/comprehensive-security) 또는 (이전 클라이언트용) [Microsoft Security Essentials](https://www.microsoft.com/download/details.aspx?id=5201)를 사용할 수 있습니다.
 
@@ -90,7 +96,7 @@ OneDrive 동기화를 일시 중지 하면 잠재적으로 감염 된 장치에 
 
 ## <a name="step-7-re-enable-exchange-activesync-and-onedrive-sync"></a>7 단계: Exchange ActiveSync 및 OneDrive 동기화 다시 사용
 
-컴퓨터 및 장치를 청소 하 고 데이터를 복구한 후에는 [2 단계](#step-2-disable-activesync-and-onedrive-sync)에서 이전에 사용 하지 않도록 설정한 ActiveSync 및 OneDrive 동기화를 다시 사용 하도록 설정할 수 있습니다.
+컴퓨터 및 장치를 청소 하 고 데이터를 복구한 후에는 [2 단계](#step-2-disable-exchange-activesync-and-onedrive-sync)에서 이전에 사용 하지 않도록 설정한 Exchange ActiveSync 및 OneDrive 동기화를 다시 사용 하도록 설정할 수 있습니다.
 
 ## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>8 단계 (선택 사항): 특정 파일 확장명에 대 한 OneDrive 동기화 차단
 

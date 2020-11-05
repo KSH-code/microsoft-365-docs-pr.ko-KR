@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 37a43717ebb003c10a65e14da46012dab164916d
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 2af301fcac2f02a415972f8bf7857fa7b6ee0c1e
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429386"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919835"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치 
 
@@ -28,7 +28,7 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 여기에 장치에 대 한 링크는 참조용 으로만 제공 됩니다. 장치를 주문 하려면 상업용 채널 대화 상대와 협력 하 여 올바른 구성을 선택 했는지 확인 합니다. 이 표에서 *보관 날짜* 는 이러한 모델이 보다 짧은 Microsoft Managed Desktop service 수명에 적용 되는 날짜입니다. 이 날짜 이후에 등록 되는 모든 장치는 Microsoft Managed Desktop의 3 년 전체 지원 기간을 받지 않습니다. 보관 된 장치는 [Microsoft Managed Desktop 아카이브된 장치](archived-device-list.md)에도 나열 됩니다. *퇴직 date* 는 Microsoft Managed Desktop에서 더 이상이 모델을 지원 하지 않는 날짜입니다. 해당 날짜에이 모델의 등록 된 모든 장치는 등록 시점에 관계 없이 Microsoft Managed Desktop에서 제거 됩니다.
 
 >[!NOTE]
->언제 든 지이 테이블에 장치를 추가할 수 있지만 보관 또는 만료 날짜에 영향을 주는 변경 내용은 90 days를 제공 합니다. 가장 최근에 추가 된 장치는로 표시 됩니다 **\*** .
+>언제 든 지이 테이블에 장치를 추가할 수 있지만 보관 또는 만료 날짜에 영향을 주는 변경 내용은 90 days를 제공 합니다. 가장 최근에 추가 된 장치는 * _로 표시 됩니다 *\** .
 
 
 ## <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치
@@ -37,7 +37,7 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 
 | 모델    | 최소 사양  | 추가 요구 사항    | 보관 날짜   | 퇴직 날짜   |
 |----------|----------------|---------------------------|----------------|--------------------|
-| **\*[Dell Precision 5310 2-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-5310-2-in-1-business-laptop/spd/latitude-13-5310-2-in-1-laptop)** | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | 2022 년 4 월 28 일  | 2025 년 4 월 28 일 |
+| _ *\* [Dell Precision 5310 2-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-5310-2-in-1-business-laptop/spd/latitude-13-5310-2-in-1-laptop)** | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | 2022 년 4 월 28 일  | 2025 년 4 월 28 일 |
 | **\*[Dell Latitude 5410](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/new-latitude-5410-business-laptop/spd/latitude-14-5410-laptop)** | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | 2022 년 4 월 28 일 | 2025 년 4 월 28 일  |
 | **\*[Dell Latitude 5510](https://www.dell.com/en-us/work/shop/laptops/15-5510/spd/latitude-15-5510-laptop)** | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | 2022 년 4 월 28 일 | 2025 년 4 월 28 일 |
 | **\*[Dell Latitude 7310/7310 2-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/latitude-7310-business-laptop-or-2-in-1/spd/latitude-13-7310-2-in-1-laptop)** | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | 5 월 4 일, 2022  | 5 월 4 일, 2025  |
@@ -59,7 +59,7 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 | [HP EliteBook x360 1040 G7](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1040-g7-notebook-pc-customizable-8wa57av-mb) | 256 GB/Intel i5/8gb RAM | 8XW08AV을 사용한 SKU| 2021 년 8 월 31 일 | 2024 년 8 월 31 일 |
 | [HP 정예 DragonFly](https://www8.hp.com/us/en/laptops/2-in-1s/elite-dragonfly-convertible.html) | 256 GB/Intel i5/8gb RAM | 9MZ21AV가 포함 된 SKU | 2021 년 3 월 31 일 | 2024 년 3 월 31 일 |
 | [HP Z2 미니 G5 워크스테이션](https://store.hp.com/us/en/pdp/hp-z2-mini-g5-workstation-customizable-9jd39av-mb) | 256 GB/Intel i5/8gb RAM | 8QR48AV가 포함 된 SKU| 2021 년 12 월 31 일 | 2024 년 12 월 31 일 |
-| [HP ZBook 14u/15u G6 모바일 워크스테이션](https://store.hp.com/us/en/mdp/hp-zbook-14u-mobile-workstation) | 256 GB/Intel i5/8gb RAM | 9JD63 AV가 포함 된 SKU, IR 카메라가 필요 합니다. | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
+| **\*[HP ZBook Firefly 14/15 모바일 워크스테이션](https://store.hp.com/us/en/mdp/laptops/hp-zbook-14u-mobile-workstation)** | 256 GB/Intel i5/8gb RAM | 9MZ22AV의 SKU, IR 카메라 필요 | 11 월 30 일, 2021 | 11 월 30 일, 2024 |
 
 ### <a name="microsoft"></a>Microsoft
 

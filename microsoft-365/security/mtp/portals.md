@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 26cba70070fdb08c715ea38ca35a8ed8cd26096a
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 83385b2f3df4b1763de6b6c11da35923d6157c1b
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844791"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919757"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Microsoft 보안 포털 및 관리 센터
 
@@ -42,7 +42,7 @@ ms.locfileid: "48844791"
 | Microsoft 365 보안 센터 | [Microsoft 365 Defender](microsoft-threat-protection.md) 를 사용 하 여 id, 전자 메일, 데이터, 끝점 및 앱에서 위협 활동을 모니터링 및 응답 하 고 보안 환경을 강화 합니다. | [security.microsoft.com](https://security.microsoft.com/) |
 | Microsoft Defender 보안 센터 | [끝점에 대해 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 와 함께 제공 된 기능을 사용 하 여 끝점에서 위협 활동 모니터링 및 응답 | [securitycenter.windows.com](https://securitycenter.microsoft.com/) |
 | 보안 및 준수 센터 | [Exchange Online Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-worldwide) 및 [Microsoft Defender for Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) 을 관리 하 여 전자 메일 및 공동 작업 서비스를 보호 하 고 다양 한 데이터 처리 규정 준수 확인 | [protection.office.com](https://protection.office.com) |
-| Azure Defender * 포털 | [Azure Defender *](https://docs.microsoft.com/azure/security-center/security-center-intro) 를 사용 하 여 클라우드에서 데이터 센터의 보안 및 하이브리드 작업 부하를 강화 합니다. | [portal.azure.com/#blade/Microsoft_Azure_Security](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0) |
+| Azure Defender 포털 | [Azure Defender](https://docs.microsoft.com/azure/security-center/security-center-intro) 를 사용 하 여 클라우드에서 데이터 센터의 보안 및 하이브리드 작업 부하를 강화 합니다. | [portal.azure.com/#blade/Microsoft_Azure_Security](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0) |
 | Microsoft Defender for Identity 포털 | [Id를 위해 Microsoft Defender](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) 에 Active Directory 신호를 사용 하 여 advanced threat, 손상 된 id 및 악의적인 참가자 작업 확인, 감지, 조사 | [portal.atp.azure.com](https://portal.atp.azure.com/) |
 | Cloud App Security 포털 | [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) 를 사용 하 여 다양 한 가시성을 얻고, 데이터 이동을 제어할 수 있으며, 클라우드 서비스에서 cyberthreats을 식별 하 고 공격 하는 정교한 분석 | [portal.cloudappsecurity.com](https://portal.cloudappsecurity.com/) |
 | Microsoft Defender 보안 인텔리전스 포털 | Microsoft Defender for Endpoint에 대 한 보안 인텔리전스 업데이트 받기, 샘플 제출 및 위협 백과 사전 살펴보기 | [microsoft.com/wdsi](https://microsoft.com/wdsi) |

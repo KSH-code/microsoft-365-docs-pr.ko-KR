@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 제공 되는 정보 및 보고에 대해 알아볼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d252b9d898d4ee5a0df854a871f821c2b02bb482
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: f7781dca48e1eae4716dbe6c7c3b40da4bae0cd8
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877780"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920011"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>보안 및 준수 센터의 메일 흐름 파악
 
@@ -66,13 +66,12 @@ ms.locfileid: "48877780"
 
 - Azure Active Directory의 **[Exchange 관리자](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)**
 
-- **메일 흐름 Administrator** Security & 준수 센터:이 역할 그룹의 구성원이 전역 관리자 또는 Exchange 관리자 역할 그룹의 구성원이 아닌 경우에는 다음과 같은 문제점과 요구 사항을 확인 합니다.
-
+- 보안 & 준수 센터의 **관리자 메일 흐름** 계정이 조직 관리 또는 Exchange 관리자 역할 그룹의 구성원이 아닌 경우에는 다음 문제를 고려 하십시오.
   - 사용자는에서 직접 보안 & 준수 센터에 로그인 해야 합니다 <https://protection.office.com> .
   - 사용자에 게는 메일 흐름 대시보드에 대 한 읽기 전용 권한만 있습니다.
   - 사용자에 게 Microsoft 365 관리 센터에 액세스할 수 있는 권한이 없습니다.
 
-보안 & 준수 센터의 사용 권한에 대 한 자세한 내용은 [security & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md) 참조 하 고 [사용자에 게 보안 & 준수 센터에](grant-access-to-the-security-and-compliance-center.md)대 한 액세스 권한을 부여 합니다.
+사용 권한에 대 한 자세한 내용은 [security & 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md) 및 [사용자에 게 보안 & 준수 센터에](grant-access-to-the-security-and-compliance-center.md)대 한 액세스 권한을 부여를 참조 하세요.
 
 ## <a name="where-to-find-the-mail-flow-dashboard"></a>메일 흐름 대시보드를 찾는 위치
 

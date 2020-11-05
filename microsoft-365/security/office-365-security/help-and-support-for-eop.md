@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Microsoft에서는 자체 지원 및 보조 지원을 비롯하여 다양한 방법 및 위치에서 EOP에 대한 도움말을 제공합니다.
-ms.openlocfilehash: c305f2e63d668a163bb82f5a4712cbdddc6f9259
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: dd68200b7a3723adc7ccba899c0cc88031891197
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202726"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920433"
 ---
 # <a name="help-and-support-for-eop"></a>EOP에 대한 도움말 및 지원
 
@@ -28,7 +28,7 @@ Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (exchange online
 
 ## <a name="self-support-options"></a>자체 지원 옵션
 
-로그인 할 때 Microsoft 365 관리 센터는 조직의 서비스 상태에 대 한 정보를 제공 합니다. 또한 서비스 상태 섹션에는 서비스의 현재 상태, 장애 및 중단에 대 한 세부 정보 및 계획 된 유지 관리 시간 목록이 표시 됩니다. 또한 Microsoft 365 관리 센터에서는 알려진 문제 및 예상 해결 방법에 대 한 정보도 제공 합니다. 서비스 수준 이벤트의 영향을 받은 경우 일반적으로 종 모양 아이콘이 표시된 통신 경고가 나타납니다. 모든 항목을 읽고 적절한 조치를 취하는 것이 좋습니다. 서비스 상태 영역에 대 한 자세한 내용은 [서비스 상태 및 연속성](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity)를 참조 하세요. 여기에 나열된 도구, 포럼 및 커뮤니티 사이트를 사용하여 추가 도움말을 직접 찾을 수 있습니다.
+로그인 할 때 Microsoft 365 관리 센터는 조직의 서비스 상태에 대 한 정보를 제공 합니다. 또한 서비스 상태 섹션에는 서비스의 현재 상태, 장애 및 중단에 대 한 세부 정보 및 계획 된 유지 관리 시간 목록이 표시 됩니다. 또한 Microsoft 365 관리 센터에서는 알려진 문제 및 예상 해결 방법에 대 한 정보도 제공 합니다. 서비스 수준 이벤트의 영향을 받은 경우 일반적으로 종 모양 아이콘이 표시된 통신 경고가 나타납니다. 모든 항목을 읽고 적절한 조치를 취하는 것이 좋습니다. 서비스 상태 영역에 대 한 자세한 내용은 [서비스 상태 및 연속성](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity)를 참조 하세요. 여기에 나열 된 도구, 포럼 및 커뮤니티 사이트를 사용 하 여 사용자에 게 추가 도움말을 찾을 수 있습니다.
 
 [Exchange Online Protection에 대한 제품 개요](https://products.office.com/exchange/exchange-email-security-spam-protection)
 
@@ -42,7 +42,7 @@ Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (exchange online
 
 ## <a name="assisted-support-from-microsoft"></a>Microsoft의 보조 지원
 
-Microsoft 365 관리 센터에서 새 서비스 요청을 시작 하거나 전화를 걸어 Microsoft 로부터 도움을 받을 수 있습니다. 프리미어 지원 구독자는 추가 지원 옵션을 사용할 수 있습니다.
+Microsoft 365 관리 센터에서 새 서비스 요청을 시작 하거나 전화를 걸어 Microsoft 로부터 도움을 받을 수 있습니다. 프리미어 지원 구독자는 추가 지원 옵션을 제공 합니다.
 
 ### <a name="support-for-microsoft-premier-support-subscribers"></a>Microsoft 프리미어 지원 구독자에 대한 지원
 
@@ -54,7 +54,7 @@ EOP 고객이면서 Microsoft 프리미어 지원 계약도 보유하고 있는 
 
 1. Microsoft 365 관리 센터에 로그인 합니다.
 
-2. **지원** \> **고객 지원 요청** \> **새 서비스 요청**으로 이동합니다.
+2. **지원** \> **고객 지원 요청** \> **새 서비스 요청** 으로 이동합니다.
 
 3. 양식을 사용하여 문제에 대한 정보를 추가하거나 이전 문제에 대한 해결 방법을 검색하거나 로그 또는 관련 파일을 첨부합니다.
 
@@ -62,9 +62,9 @@ EOP 고객이면서 Microsoft 프리미어 지원 계약도 보유하고 있는 
 
 1. Microsoft 365 관리 센터에 로그인 합니다.
 
-2. 일반적인 제품 문제의 경우 **지원** \> **고객 지원 요청** \> **기술 지원 서비스에 문의**로 이동합니다.
+2. 일반적인 제품 문제의 경우 **Support** \> **고객 지원 요청** \> **전화 기술 지원** 서비스에 문의 하세요.
 
-   EOP를 구입하기 전 궁금한 사항이 있거나 대금 청구 및 구독과 관련하여 궁금한 사항이 있는 경우 **지원** \> **고객 지원 요청** \> **청구 및 구독 지원에 문의**로 이동합니다.
+   EOP를 구입하기 전 궁금한 사항이 있거나 대금 청구 및 구독과 관련하여 궁금한 사항이 있는 경우 **지원** \> **고객 지원 요청** \> **청구 및 구독 지원에 문의** 로 이동합니다.
 
 3. 가상 에이전트를 사용 하 여 해당 하는 최신 전화 번호를 검색 합니다.
 
