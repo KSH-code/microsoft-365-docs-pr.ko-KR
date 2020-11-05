@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Microsoft 365 보안 센터나 Microsoft 365 규정 준수 센터를 사용하여 보안 또는 규정 준수와 관련된 모든 작업에 대한 권한을 중앙에서 관리할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9ad17933592b860fb81e469fd55a454c90b71320
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 0f7dcddd7070f95ae61b17b9623dfcbab4a62e5f
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845759"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920635"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터의 권한
 
@@ -103,8 +103,8 @@ Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터에 나타나�
 |**엔드포인트용 Microsoft Defender 및 EDR**|역할을 할당합니다. <br/><br/> 머신 그룹을 관리합니다. <br/><br/> 엔드포인트 위협 검색 및 자동 수정을 구성합니다. <br/><br/> 경고를 확인, 조사 및 대응합니다.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|사용자, 디바이스, 등록, 구성 및 애플리케이션 정보를 확인합니다. <br/><br/> Intune은 변경할 수 **없습니다**.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|관리자, 정책, 설정을 추가하고, 로그를 업로드하고, 거버넌스 작업을 수행합니다.|
-|[**Azure Defender** _](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles) (출시 예정)|보안 정책을 보고, 보안 상태를 보고, 보안 정책을 편집하고, 경고 및 권장 사항을 보고, 경고 및 권장 사항을 해제합니다.|
-|[_ *Office 365 서비스 상태**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Office 365 서비스의 상태를 확인합니다.|
+|[**Azure Defender** _](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)(출시 예정)|보안 정책을 보고, 보안 상태를 보고, 보안 정책을 편집하고, 경고 및 권장 사항을 보고, 경고 및 권장 사항을 해제합니다.|
+|[**Office 365 서비스 상태**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Office 365 서비스의 상태를 확인합니다.|
 |
 
 ### <a name="security-operator"></a>보안 운영자
@@ -141,7 +141,7 @@ Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터에 나타나�
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|사용자, 디바이스, 등록, 구성 및 애플리케이션 정보를 확인합니다. <br/><br/> Intune은 변경할 수 **없습니다**.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|읽기 전용 권한을 사용하여 정보를 확인합니다. <br/><br/> 알림을 관리합니다.|
 |[**Azure Defender** _](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)|권장 사항 및 경고를 봅니다. <br/><br/> 보안 정책을 봅니다. <br/><br/> 보안 상태를 볼 수 있지만 변경할 수는 없습니다.|
-|[_ *Office 365 서비스 상태**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Office 365 서비스의 상태를 확인합니다.|
+|[**Office 365 서비스 상태**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Office 365 서비스의 상태를 확인합니다.|
 |
 
 ## <a name="global-administrators-can-manage-roles-in-azure-active-directory"></a>전역 관리자는 Azure Active Directory에서 역할을 관리할 수 있습니다.
