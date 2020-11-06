@@ -16,14 +16,14 @@ ms.collection:
 - m365solution-remotework
 - m365solution-overview
 - M365initiative-coredeploy
-ms.custom: ''
-description: 직원들이 언제 어디서나 원격으로 작업할 수 있도록 하는 보안 및 서비스 인프라를 구성합니다.
-ms.openlocfilehash: 23ec0ef33294bb532229c8f736ab5b6a5d000d4e
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.custom: seo-marvel-jun2020
+description: 원격 작업자의 생산성을 극대화하고 서버, 데이터 및 클라우드에 대한 보안 액세스를 유지하려면 Microsoft 365의 모든 기능을 사용하도록 설정했는지 확인합니다.
+ms.openlocfilehash: b886341adc49ba728856dc39786e926ebfadd3ef
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845243"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906742"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Microsoft 365를 사용하여 원격 작업자의 역량 강화하기
 
