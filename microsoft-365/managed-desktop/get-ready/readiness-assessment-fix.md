@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: a6dec9473ee632b74bb79e50156cedff53a3cba3
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: c28353698dd372e14d5ec51b92eb4c0c051c92a4
+ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795120"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48931915"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>준비 상태 평가 도구에서 발견 된 문제 해결
 
@@ -127,7 +127,7 @@ Microsoft Managed Desktop 장치는 Intune에서 등록할 수 있어야 합니�
 
 **준비되지 않음**
 
-**앱 및 프로필 구성 진행률을 표시** 하도록 ESP 기본 프로필을 설정 해야 합니다. [등록 상태 설정 페이지](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status)의 단계를 수행 하 여이 설정을 사용 하지 않도록 설정 합니다.
+**앱 및 프로필 구성 진행률을 표시** 하도록 ESP 기본 프로필을 설정 해야 합니다. 이 설정을 사용 하지 않도록 설정 하거나, Azure AD 그룹에 대 한 할당에 [등록 상태 설정 페이지](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status)의 단계에 따라 Microsoft Managed Desktop devices가 포함 되지 않는지 확인 합니다.
 
 **조언**
 
@@ -137,9 +137,9 @@ Microsoft Managed Desktop 장치는 Intune에서 등록할 수 있어야 합니�
 
 Azure AD 조직의 Windows 10 장치는 Intune에서 자동으로 등록 해야 합니다.
 
-**준비되지 않음**
+**조언**
 
-Azure AD 조직의 사용자는 Microsoft Intune에 자동으로 등록 되지 않습니다. MDM 사용자 범위를 **일부** 또는 **모두** 로 변경 합니다. **일부** 를 선택 하는 경우 등록 후에 다시 돌아와서 **그룹** 에 대 한 **최신 작업 회사-All** Azure AD 그룹을 선택 합니다.
+MDM 사용자 범위가 **전혀** 또는 **모두** 로 설정 되어 **Some** 있지는 않은지 확인 합니다. **일부** 를 선택 하는 경우 등록 후에 다시 돌아와서 **그룹** 에 대 한 **최신 작업 회사-All** Azure AD 그룹을 선택 합니다.
 
 
 ### <a name="microsoft-store-for-business"></a>비즈니스용 Microsoft Store
@@ -180,7 +180,7 @@ Microsoft Managed Desktop 장치를 대상으로 하는 방식으로 Windows Pow
 
 **조언**
 
-Azure AD 조직의 Windows PowerShell 스크립트에서 어떤 Microsoft 데스크톱 장치나 사용자도 관리 하지 않는지 확인 합니다. 자세한 내용은 [Intune에서 Windows 10 장치에서 PowerShell 스크립트 사용](https://docs.microsoft.com/mem/intune/apps/intune-management-extension)을 참조 하세요.
+Azure AD 조직의 Windows PowerShell 스크립트에서 어떤 Microsoft 데스크톱 장치나 사용자도 관리 하지 않는지 확인 합니다. 모든 사용자, 모든 장치 또는 둘 다를 대상으로 하는 PowerShell 스크립트를 할당 하지 마십시오. Microsoft Managed Desktop 장치를 포함 하지 않는 특정 Azure AD 그룹을 대상으로 하는 할당을 사용 하도록 정책을 변경 합니다. 자세한 내용은 [Intune에서 Windows 10 장치에서 PowerShell 스크립트 사용](https://docs.microsoft.com/mem/intune/apps/intune-management-extension)을 참조 하세요.
 
 ### <a name="region"></a>지역
 
@@ -308,19 +308,11 @@ Azure Active Directory의 보안 기본값을 설정 하면 Microsoft Managed De
 
 ### <a name="self-service-password-reset"></a>셀프 서비스 암호 재설정
 
-셀프 서비스 암호 재설정 (SSPR)을 사용 하도록 설정 해야 합니다.
-
-**준비되지 않음**
-
-모든 사용자에 대해 SSPR를 사용 하도록 설정 해야 합니다. 그렇지 않으면 Microsoft Managed Desktop service 계정이 작동할 수 없습니다. 자세한 내용은 [Tutorial: 사용자가 Azure Active Directory 셀프 서비스 암호 재설정을 사용 하 여 계정의 잠금을 해제 하거나 암호를 재설정할 수 있도록](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr)합니다 .를 참조 하세요.
+모든 사용자가 SSPR (셀프 서비스 암호 재설정)를 사용 하도록 설정 해야 합니다. 그렇지 않으면 Microsoft Managed Desktop service 계정이 작동할 수 없습니다. 자세한 내용은 [Tutorial: 사용자가 Azure Active Directory 셀프 서비스 암호 재설정을 사용 하 여 계정의 잠금을 해제 하거나 암호를 재설정할 수 있도록](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr)합니다 .를 참조 하세요.
 
 **조언**
 
 SSPR **Selected** 설정에 Microsoft Managed Desktop devices가 포함 되어 있는지 확인 합니다.
-
-**오류**
-
-Intune 관리자 역할에는이 검사에 대 한 충분 한 사용 권한이 없습니다. 또한이 검사를 실행 하려면 보고서 판독기 Azure AD 역할이 할당 되어 있어야 합니다.
 
 
 ### <a name="standard-user-role"></a>표준 사용자 역할
