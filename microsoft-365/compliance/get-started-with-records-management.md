@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 법률, 비즈니스 또는 규제 의무에 대한 높은 가치의 콘텐츠를 관리하는 Microsoft 365의 레코드 관리 솔루션이 필요하지만 어디서 시작해야 하나요? 시작을 도와주는 실질적인 지침을 참조하세요.
-ms.openlocfilehash: b7fc33e8a58857d839598cc74cdddc5247fd4a0d
-ms.sourcegitcommit: 7e8151ff74cb1cfc0dd59fadcac423c338415d77
+ms.openlocfilehash: 679300f581dd9177c00f367f4452d12142f49ee4
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48390165"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919856"
 ---
 # <a name="get-started-with-records-management"></a>레코드 관리 시작
 
@@ -30,7 +30,7 @@ ms.locfileid: "48390165"
 
 Microsoft 365에서 레코드 관리 솔루션을 사용하여 법률, 비즈니스 또는 규제 의무에 대한 조직의 높은 가치의 콘텐츠 관리를 시작할 준비가 되었나요? 시작하려면 다음과 같은 고급 지침을 사용하세요.
 
-1. **레코드 관리 솔루션**과 문서 및 전자 메일을 레코드로 선언할 때 허용되거나 차단되는 작업을 이해합니다. [레코드 관리에 대해 자세히 알아보세요.](records-management.md) 
+1. **레코드 관리 솔루션** 과 문서 및 전자 메일을 레코드로 선언할 때 허용되거나 차단되는 작업을 이해합니다. [레코드 관리에 대해 자세히 알아보세요.](records-management.md) 
 
 2. 레코드를 선언하는 데 보존 레이블이 사용되므로 **보존 레이블과 SharePoint 및 Exchange에 대한 보존 작동 방식을 이해합니다.** [보존 정책 및 보존 레이블에 대해 자세히 알아보세요.](retention.md)
 
@@ -49,9 +49,9 @@ Microsoft 365에서 레코드 관리 솔루션을 사용하여 법률, 비즈니
 
 ## <a name="permissions-required-for-records-management"></a>레코드 관리에 필요한 사용 권한
 
-레코드 관리에 대해 책임이 있는 규정 준수 팀의 구성원에게는 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에 대한 권한이 필요합니다. 기본적으로 테넌트 관리자(전역 관리자)는 이 위치에 액세스할 수 있으며 규정 준수 책임자와 기타 사용자에게 테넌트 관리자의 모든 권한을 부여하지 않고도 액세스 권한을 부여할 수 있습니다. 해당 제한적 관리에 대해 권한을 부여하려면 **RecordManagement** 역할을 부여하는 **레코드 관리**의 관리 역할 그룹에 사용자를 추가하는 것이 좋습니다.
+레코드 관리에 대해 책임이 있는 규정 준수 팀의 구성원에게는 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에 대한 권한이 필요합니다. 기본적으로 테넌트 관리자(전역 관리자)는 이 위치에 액세스할 수 있으며 규정 준수 책임자와 기타 사용자에게 테넌트 관리자의 모든 권한을 부여하지 않고도 액세스 권한을 부여할 수 있습니다. 해당 제한적 관리에 대해 권한을 부여하려면 **RecordManagement** 역할을 부여하는 **레코드 관리** 의 관리 역할 그룹에 사용자를 추가하는 것이 좋습니다.
 
-이 역할 그룹에 포함된 권한에는 [처리 검토 및 확인](disposition.md)에 대해 필요한 권한이 포함되어 있지 않으며 전역 관리자에게는 기본적으로 해당 권한이 없습니다. 처리를 관리하려면 사용자 지정 역할 그룹을 만들거나 이 역할(예: **준수 관리자**)을 포함하는 기본 역할 그룹을 사용하여 **처리 관리** 역할을 사용합니다.
+이 역할 그룹에 포함된 권한에는 [처리 검토 및 확인](disposition.md)에 대해 필요한 권한이 포함되어 있지 않으며 전역 관리자에게는 기본적으로 해당 권한이 없습니다. 처리를 관리하려면 사용자 지정 역할 그룹을 만들거나 이 역할(예: **준수 관리자** )을 포함하는 기본 역할 그룹을 사용하여 **처리 관리** 역할을 사용합니다.
 
 해당 역할 그룹 및 역할에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center#roles-in-the-security--compliance-center)을 참조하세요.
 
@@ -76,10 +76,11 @@ Microsoft 365에서 레코드 관리 솔루션을 사용하여 법률, 비즈니
 |관리자가 문서를 이해하기 위해 보존 및 삭제 작업을 적용할 수 있도록 합니다 .이는 SharePoint 라이브러리의 식별된 문서에 자동으로 적용됩니다.|[보존 레이블을 만들어 앱에 적용합니다](create-apply-retention-labels.md)|
 |문서 및 전자 메일에 대한 보존 및 삭제 동작을 자동으로 적용 |[보존 레이블을 콘텐츠에 자동으로 적용하기](apply-retention-labels-automatically.md)|
 |다음과 같은 이벤트가 발생할 때 보존 기간 시작:  <br />- 직원 퇴사 <br />- 계약 만료 <br />- 제품 수명 주기 종료| [이벤트가 발생할 때 보존 시작하기](event-driven-retention.md)|
+|규정 요구 사항을 충족하거나 로그 관리자로부터 안전을 보호하는 데 도움이 되는 정책 변경 제한| [보존 정책 및 보존 레이블 정책 변경을 제한하기 위한 유지 잠금 사용](retention-preservation-lock.md)
 |SharePoint에서 다른 문서 유형 수명 주기 관리| [보존 레이블로 SharePoint에 저장된 문서의 수명 주기 관리](auto-apply-retention-labels-scenario.md)|
-|보존 기간 종료 시 콘텐츠를 영구적으로 삭제하기 전에 누군가가 검토하고 승인하도록 하세요.|[처리 검토](disposition.md#disposition-reviews) |
+|보존 기간 종료 시 콘텐츠를 삭제하기 전에 누군가가 검토하고 승인하도록 하세요.|[처리 검토](disposition.md#disposition-reviews) |
 |보존 기간 종료시 영구적으로 삭제되는 콘텐츠에 대한 처리 증명을 보유합니다.|[콘텐츠 처분](disposition.md#disposition-of-records) |
-|항목에 대한 보존 및 삭제 설정이 적용되는 방법과 위치 모니터링 | [보존 레이블 모니터링](retention.md#monitoring-retention-labels) |
+| 항목에 대한 보존 및 삭제 설정이 적용되는 방법과 위치 모니터링 | [보존 레이블 모니터링](retention.md#monitoring-retention-labels) |
 
 ## <a name="end-user-documentation-for-records"></a>레코드에 대한 최종 사용자 설명서
 

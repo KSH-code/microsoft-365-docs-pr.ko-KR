@@ -288,40 +288,61 @@
           href: 'https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-new'
         - name: GDPR 준수 가이드
           href: security-and-compliance/gdpr-compliance.md
-    - name: 장치 관리
+    - name: 장치 및 앱 데이터 관리
+      href: devices/index.yml
       items:
-        - name: 정책 및 장치 보기 및 편집
-          href: ../business/view-policies-and-devices.md
-        - name: 회사 데이터 제거
-          href: ../business/remove-company-data.md
-        - name: 장치를 공장 설정으로 초기화
-          href: ../business/reset-devices-to-factory-settings.md
-        - name: Intune 설정에 대한 맵 보호 기능
-          href: ../business/map-protection-features-to-intune-settings.md
-        - name: 장치 상태
-          href: ../business/device-states.md
-        - name: Windows 10 PC의 앱 보호 설정
-          href: ../business/protection-settings-for-windows-10-devices.md
-        - name: Android 및 iOS용 앱 보호 설정 설정하기
-          href: ../business/app-protection-settings-for-android-and-ios.md
+        - name: 장치 및 앱 데이터 보호 방법
+          href: devices/choose-device-security.md
+        - name: Microsoft Intune 문서
+          href: 'https://docs.microsoft.com/mem/intune/'
+        - name: Microsoft 365 Business Premium
           items:
-            - name: Android 또는 iOS의 설정 확인
-              href: ../business/validate-settings-on-android-or-ios.md
-        - name: Windows 10 PC를 위한 장치 보호 설정 편집 또는 생성
-          href: ../business/protection-settings-for-windows-10-pcs.md
+            - name: 정책 및 장치 보기 및 편집
+              href: ../business/view-policies-and-devices.md
+            - name: 회사 데이터 제거
+              href: ../business/remove-company-data.md
+            - name: 장치를 공장 설정으로 초기화
+              href: ../business/reset-devices-to-factory-settings.md
+            - name: Intune 설정에 대한 맵 보호 기능
+              href: ../business/map-protection-features-to-intune-settings.md
+            - name: 장치 상태
+              href: ../business/device-states.md
+            - name: Windows 10 PC의 앱 보호 설정
+              href: ../business/protection-settings-for-windows-10-devices.md
+            - name: Android 및 iOS용 앱 보호 설정 설정하기
+              href: ../business/app-protection-settings-for-android-and-ios.md
+              items:
+                - name: Android 또는 iOS의 설정 확인
+                  href: ../business/validate-settings-on-android-or-ios.md
+            - name: Windows 10 PC를 위한 장치 보호 설정 편집 또는 생성
+              href: ../business/protection-settings-for-windows-10-pcs.md
+              items:
+                - name: Windows 10 PC의 설정 확인
+                  href: ../business/validate-settings-on-windows-10-pcs.md
+            - name: Autopilot
+              items:
+                - name: Autopilot 장치 및 프로필 추가
+                  href: ../business/add-autopilot-devices-and-profile.md
+                - name: AutoPilot 프로필 만들기 및 편집
+                  href: ../business/create-and-edit-autopilot-profiles.md
+                - name: AutoPilot 장치 만들기 및 편집
+                  href: ../business/create-and-edit-autopilot-devices.md
+                - name: Autopilot 프로필 설정
+                  href: ../business/autopilot-profile-settings.md
+        - name: 기업용 Microsoft 365 설명서
+          href: ../enterprise/index.yml
+        - name: 기본 모바일 및 보안
           items:
-            - name: Windows 10 PC의 설정 확인
-              href: ../business/validate-settings-on-windows-10-pcs.md
-        - name: Autopilot
-          items:
-            - name: Autopilot 장치 및 프로필 추가
-              href: ../business/add-autopilot-devices-and-profile.md
-            - name: AutoPilot 프로필 만들기 및 편집
-              href: ../business/create-and-edit-autopilot-profiles.md
-            - name: AutoPilot 장치 만들기 및 편집
-              href: ../business/create-and-edit-autopilot-devices.md
-            - name: Autopilot 프로필 설정
-              href: ../business/autopilot-profile-settings.md
+            - name: 기본 모바일 및 보안 개요
+              href: basic-mobility-security/overview.md
+            - name: 기본 모바일 및 보안 및 Intune 비교
+              href: basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md
+            - name: 기본 모바일 및 보안 FAQ
+              href: basic-mobility-security/frequently-asked-questions.md
+            - name: 기본 모바일 및 보안 기능
+              href: basic-mobility-security/capabilities.md
+            - name: 기본 모바일 및 보안 및 Intune 비교
+              href: basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md
     - name: 고객과 협력
       href: work-with-customers/index.yml
       items:

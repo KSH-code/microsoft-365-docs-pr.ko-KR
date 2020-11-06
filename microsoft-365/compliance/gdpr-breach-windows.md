@@ -15,56 +15,56 @@ audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: 30fefe49dbbe1bffa0447d66695431d30342b843
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: dc921215ef8e1e1a1a187a5b8be46916c30d5f2c
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843142"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920282"
 ---
 # <a name="data-processor-service-for-windows-enterprise-breach-notification-under-the-gdpr"></a>GDPR에 따른 Windows Enterprise 위반 알림용 데이터 프로세서 서비스
 
 >[!NOTE]
->이 항목은 Windows Enterprise 미리 보기 프로그램 데이터 프로세서 서비스 참여자를 대상으로 하며 특정 사용 약관을 수락해야 합니다. 프로그램에 대해 자세히 알아보고 사용 조건에 동의하려면 [https://aka.ms/WindowsEnterprisePublicPreview](https://aka.ms/WindowsEnterprisePublicPreview)을(를) 참조하세요.
+>This topic is intended for participants in the data processor service for Windows Enterprise preview program and requires acceptance of specific terms of use. To learn more about the program and agree to the terms of use, see [https://aka.ms/WindowsEnterprisePublicPreview](https://aka.ms/WindowsEnterprisePublicPreview).
 
-Windows Enterprise용 Microsoft 데이터 프로세서 서비스는 GDPR(일반 데이터 보호 규정)에 따라 의무를 다합니다. Windows Enterprise용 Microsoft 데이터 프로세서 서비스는 데이터 위반 으로부터 보호를 위해 광범위한 보안 조치를 취합니다. 여기에는 악의적 액세스를 사전에 예측, 방지, 완화하는 전담 위협 관리 팀이 포함됩니다.  포트 검색, 경계 취약성 검색, 침입 감지와 같은 내부 보안 조치는 악의적인 액세스를 감지하고 예방하며 자동화된 보안 프로세스, 포괄적인 정보 보안 및 개인 정보 보호 정책, 모든 담당자에 대한 보안 및 개인 정보 보호 교육 등도 포함됩니다. 
+Microsoft data processor service for Windows Enterprise takes its obligations under the General Data Protection Regulation (GDPR) seriously. Microsoft data processor service for Windows Enterprise takes extensive security measures to protect against data breaches. These include dedicated threat management teams that proactively anticipate, prevent, and mitigate malicious access.  Internal security measures such as port scanning, perimeter vulnerability scanning, and intrusion detection detect and prevent malicious access, as well as automated security processes, comprehensive information security and privacy policies, and security and privacy training for all personnel. 
 
-보안은 처음부터 끝까지 Windows Enterprise용 Microsoft 데이터 프로세서 서비스에서 구축되며 설계에 따른 개인 정보 보호 및 기본적인 방법론에 따른 개인 정보 보호를 통합하는 필수 개발 프로세스인 [보안 개발 수명 주기](https://www.microsoft.com/sdl/)부터 시작합니다. Microsof의 보안 전략의 지침 원칙은 심층 방어 전략의 확장인 '침해 추정'입니다. Microsoft는 Windows Enterprise용 데이터 프로세서 서비스의 보안 기능에 끊임없이 도전하여 최신 위협에 앞장설 수 있습니다. Windows Enterprise 보안용데이터 프로세서 서비스에 대한 자세한 내용은 해당 [리소스](https://www.microsoft.com/TrustCenter/Security/windows10-security)를 참조하세요. Windows Enterprise 데이터 프로세서 서비스는 보안 인시던트 대응 프로세스에 따라 잠재적인 데이터 위반에 대해 대응합니다. Windows Enterprise 보안 인시던트 대응에 대한 데이터 프로세서 서비스는 5단계 프로세스(검색, 평가, 진단, 안정화 및 닫기)를 사용하여 구현됩니다. 보안 인시던트 대응 팀은 조사가 진행되면서 진단 및 안정화 단계를 전환하면서 수행할 수 있습니다. 보안 인시던트 대응 프로세스에 대한 개요는 다음과 같습니다. 
+Security is built into the Microsoft data processor service for Windows Enterprise from the ground up, starting with the [Security Development Lifecycle](https://www.microsoft.com/sdl/), a mandatory development process that incorporates privacy-by-design and privacy-by-default methodologies. The guiding principle of Microsoft's security strategy is to 'assume breach', which is an extension of the defense-in-depth strategy. By constantly challenging the security capabilities of the data processor service for Windows Enterprise, Microsoft can stay ahead of emerging threats. For more information on the data processor service for Windows Enterprise security, please review these [resources](https://www.microsoft.com/TrustCenter/Security/windows10-security) the data processor service for Windows Enterprise responds to a potential data breach according to the security incident response process. The data processor service for Windows Enterprise security incident response is implemented using a five-stage process: Detect, Assess, Diagnose, Stabilize, and Close. The Security Incident Response Team may alternate between the diagnose and stabilize stages as the investigation progresses. An overview of the security incident response process is below: 
 
 |**단계**|**설명**|
 | ------- | ------------- |
-| **_1-감지_* | 잠재적인 인시던트의 첫 번째 표시입니다. |
-| _*_2-평가_*_ | 대기 인시던트 대응 팀 구성원이 이벤트의 영향 및 심각도를 평가합니다. 이러한 평가는 증거에 따라 보안 대응 팀으로의 추가 에스컬레이션으로 이어질 수도 있고 그렇지 않을 수도 있습니다. |
-| _*_3-진단_*_ | 보안 대응 전문가는 기술 또는 법적 조사를 수행하고 제약, 완화 및 해결 전략을 파악합니다. 보안 팀에서 고객 데이터가 불법적이거나 권한이 없는 개인에게 노출될 수 있다고 판단하는 경우 고객 인시던트 알림 프로세스가 동시에 실행됩니다. |
+| **_1 - 감지_* _ | 잠재적인 인시던트의 최초 지표 |
+| _*_2 - 평가_*_ | 대기 인시던트 대응 팀 구성원이 이벤트의 영향 및 심각도를 평가합니다. 이러한 평가는 증거에 따라 보안 대응 팀으로의 추가 에스컬레이션으로 이어질 수도 있고 그렇지 않을 수도 있습니다. |
+| _*_3 - 진단_*_ | Security response experts conduct the technical or forensic investigation, identify containment, mitigation, and workaround strategies. If the security team believes that customer data may have become exposed to an unlawful or unauthorized individual, execution of the Customer Incident Notification process begins in parallel. |
 | _*_4 - 안정화 및 복구_*_ | 인시던트 대응 팀이 문제를 완화하기 위한 복구 계획을 세웁니다. 영향을 받은 시스템을 격리하는 등의 위기 제약 단계가 즉시 진행되거나 진단과 동시에 진행될 수 있습니다. 즉각적인 위험이 지나간 후에 더 장기적인 완화 조치를 계획할 수 있습니다. |
 | _*_5 - 종료 및 사후 분석_*_ | 인시던트 대응 팀은 정책, 절차 및 프로세스를 수정하여 이벤트 재발을 방지하기 위해 인시던트의 세부 정보를 대략적으로 설명하는 사후 분석 단계를 만듭니다. |
 
-Windows Enterprise Microsoft 데이터 프로세서 서비스에서 사용하는 감지 프로세스는 Windows Enterprise 데이터 프로세서 서비스의 기밀성, 무결성 및 가용성을 침해하는 이벤트를 검색하도록 고안되었습니다. 다음과 같은 일부 이벤트가 조사를 트리거할 수 있습니다. 
+The detection processes used by Microsoft data processor service for Windows Enterprise are designed to discover events that risk the confidentiality, integrity, and availability of the data processor service for Windows Enterprise. Several events can trigger an investigation: 
 
- - 내부 모니터링 및 경고 프레임워크를 통한 자동화된 시스템 알림. 이러한 경고는 맬웨어 방지, 침입 감지와 같은 서명 기반 경보나 비정상 상황 발생 시 예상되는 작업 및 경고를 프로파일링하도록 설계된 알고리즘을 통해 제공됩니다.
+ - Automated system alerts via internal monitoring and alerting frameworks. These alerts could come in the way of signature-based alarms such as anti-malware, intrusion detection or via algorithms designed to profile expected activity and alert upon anomalies.
  - 첫 번째 파티는 Microsoft Azure 및 Azure Government에서 실행되는 Microsoft 서비스의 첫 번째 파티 보고서입니다.
- - 보안상 취약한 부분은 [secure@microsoft.com] (mailto:secure@microsoft.com)을 통해 [MSRC (Microsoft Security Response Center)](https://technet.microsoft.com/security/dn440717)로 보고됩니다. MSRC는 전 세계의 파트너 및 보안 연구자들과 협력하여 보안 인시던트를 방지하고 Microsoft 제품 보안을 향상시킬 수 있도록 지원합니다.
+ - Security vulnerabilities are reported to the [Microsoft Security Response Center (MSRC)](https://technet.microsoft.com/security/dn440717) via [secure@microsoft.com] (mailto:secure@microsoft.com). MSRC works with partners and security researchers around the world to help prevent security incidents and to advance Microsoft product security.
  - 고객 지원 포털 또는 Microsoft Azure 및 Azure Government Management 포탈을 통한 고객 보고서로, 고객의 책임 범위 내에서 발생하는 활동과는 달리 Azure 인프라로 인한 의심스러운 활동을 설명합니다.
- - 보안 [Red 팀 및 Blue 팀](https://azure.microsoft.com/blog/red-teaming-using-cutting-edge-threat-simulation-to-harden-the-microsoft-enterprise-cloud/) 활동. 이 전략은 공격적 보안 전문가로 구성된 고도로 훈련된 Red 팀을 사용하여 Azure에서 잠재적인 취약점을 밝히고 공격할 수 있습니다. 보안 응답 Blue 팀은 Red 팀의 활동을 감지하고 방어해야 합니다. Azure 보안 대응 노력으로 보안 문제를 효과적으로 관리하는지 확인하는 데 Red 및 Blue 팀 작업이 모두 사용 됩니다. 보안 Red 팀 및 Blue 팀 활동은 고객 데이터 보호를 보장하기 위해 계약 규칙에 따라 운영됩니다.
- - Azure 서비스의 연산자에 의한 에스컬레이션 Microsoft 직원은 잠재적인 보안 문제를 식별하고 에스컬레이션하도록 교육을 받았습니다.
+ - Security [Red Team and Blue Team](https://azure.microsoft.com/blog/red-teaming-using-cutting-edge-threat-simulation-to-harden-the-microsoft-enterprise-cloud/) activity. This strategy uses a highly skilled Red Team of offensive Microsoft security experts to uncover and attack potential weaknesses in Azure. The security response Blue Team must detect and defend against the Red Team’s activity. Both Red and Blue Team actions are used to verify that Azure security response efforts are effectively managing security incidents. Security Red Team and Blue Team activities are operated under rules of engagement to help ensure the protection of customer data.
+ - Azure 서비스 운영자에 의한 에스컬레이션. Microsoft 직원들은 잠재적인 보안 문제를 식별하고 에스컬레이션하도록 교육을 받습니다.
 
  ## <a name="data-processor-service-for-windows-enterprise-data-breach-response"></a>Windows Enterprise 데이터 위반 대응에 대한 데이터 프로세서 서비스 
 
- Microsoft는 인시던트가 기능에 미치는 영향, 복구 가능성 및 정보에 미치는 영향을 결정하여 조사의 적절한 우선순위와 심각도 수준을 할당합니다. 우선 순위와 심각도는 새로 확인한 결과 및 결론에 따라, 조사가 진행되는 동안 변경될 수 있습니다. 고객 데이터의 즉각적인 위험이나 확인된 위험과 관련된 보안 이벤트는 높은 심각도로 처리하고 24시간 내내 해결합니다. Windows Enterprise용 Microsoft 데이터 프로세서 서비스는 인시던트의 정보 영향을 다음의 위반 범주로 분류합니다. 
+ Microsoft assigns the investigation appropriate priority and severity levels by determining the functional impact, recoverability, and information impact of the incident. Both the priority and severity may change over the course of the investigation, based on new findings and conclusions. Security events involving imminent or confirmed risk to customer data are treated as high severity and worked around the clock to resolution. Microsoft data processor service for Windows Enterprise categorizes the information impact of the incident into the following breach categories: 
 
 | _ *범주**             | **정의**                                                                                                                   |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
 | **_없음_* _               | 정보가 제거, 변경, 삭제 또는 손상되지 않았습니다. |
 | _*_개인 정보 보호 위반_*_     | 납세자, 직원, 수익자 등의 중요한 개인 데이터가 액세스되거나 제거되었습니다. |
 | _*_독점 위반_*_ | PCII(보호되는 중요 인프라 정보)와 같은 분류되지 않은 독점 정보가 액세스되거나 제거되었습니다. |
-| _*_무결성 손실_*_     | 중요한 정보 또는 독점 정보가 변경되거나 삭제되었습니다. |
+| _*_무결성 손실_*_     | 중요한 정보 또는 소유 정보가 변경되었거나 삭제되었습니다. |
 
-보안 대응 팀은 Windows Enterprise Microsoft 데이터 프로세서 서비스 보안 엔지니어 및 SME와 공조하여 증거를 통한 실제 데이터를 기준으로 이벤트를 분류합니다. 보안 이벤트를 다음과 같이 분류할 수 있습니다. 
+The Security Response Team works with Microsoft data processor service for Windows Enterprise Security Engineers and SMEs to classify the event based on factual data from the evidence. A security event may be classified as: 
 
- - _*가양성**: 검색 기준을 충족하지만 일반적인 비즈니스 관행의 일부로 발견되고 필터링해야 하는 이벤트입니다. 서비스 팀은 가양성의 근본 원인을 파악하고 필요에 따라 탐지 원본을 활용하고 미세 조정하는 체계적인 방식을 통해 해결합니다. 
+ - _*False Positive**: An event that meets detection criteria but is found to be part of a normal business practice and may need to be filtered. The service team will identify the root cause for false positives and will address them in a systematic way leveraging detection sources and fine-tuning them as needed. 
  - **보안 인시던트** : Microsoft 장비 또는 Microsoft 시설에 저장된 고객 데이터 또는 지원 데이터에 대한 불법 액세스 또는 이러한 장비 또는 시설에 대한 무단 액세스로 인해 고객 데이터 또는 지원 데이터가 손실, 노출 또는 변경되는 사고가 발생했습니다. 
  - **고객 보고 가능한 보안 인시던트** : Microsoft의 시스템, 장비 또는 설비에 불법적이거나 무단으로 액세스하여 고객 데이터가 노출, 수정 또는 손실됩니다. 
- - **개인 정보 보호 위반:** 개인 데이터와 관련된 보안 인시던트의 하위 유형입니다. 처리 절차는 보안 인시던트와 다르지 않습니다. 
+ - **Privacy Breach** : A subtype of Security Incident involving personal data. Handling procedures are no different than a security incident. 
 
  CRSI가 선언되려면, Microsoft가 고객 데이터에 대한 무단 액세스가 발생했거나 발생했을 가능성이 높고, 알림이 진행되어야 하는 법적 또는 계약 조항이 있음을 확인해야 합니다. 구체적인 고객 영향, 리소스 액세스 및 복구 단계가 공개되면 좋지만 반드시 그럴 필요는 없습니다.인시던트는 일반적으로 보안 인시던트의 진단 단계가 끝난 후에 CRSI로 선언됩니다. 그렇지만 모든 관려 정보를 사용할 수 있게 되는 언제든지 이러한 선언이 진해욀 수 있습니다. 보안 인시던트 관리자는 고객 인시던트 알림 프로세스를 실행하기 전에, 보고 가능한 이벤트가 발생했을 것이라는 합리적인 추측을 넘어서는 명확한 증거를 확보해야 합니다. 
 
@@ -72,20 +72,20 @@ Windows Enterprise Microsoft 데이터 프로세서 서비스에서 사용하는
 
 Microsoft는 고객 및 비즈니스 위험이 성공적으로 방지되고, 수정 조치가 구현되는지 확인합니다. 필요한 경우 이벤트와 연결된 즉각적인 보안 위험을 해결하기 위한 긴급 완화 단계가 수행됩니다. 
 
-Microsoft는 또한 데이터 유출을 위한 내부 사후 평가을 완료합니다. 이 연습의 일환으로 응답 및 운영 절차의 충분성이 평가되고 보안 사고 대응 SOP 또는 관련 프로세스에 필요한 업데이트가 식별되고 구현됩니다. 데이터 유출에 대한 내부 사후 평가는 고객이 이용할 수 없는 극비 기록입니다. 그러나 사후 평가는 요약되어 다른 고객 이벤트 통지에 포함될 수 있습니다. 이 보고서는 Windows Enterprise 정기 감사 주기에 대한 데이터 프로세서 서비스의 일부로 검토를 위해 외부 감사인에게 제공됩니다. 
+Microsoft also completes an internal post-mortem for data breaches. As a part of this exercise, sufficiency of response and operating procedures are evaluated, and any updates that may be necessary to the Security Incident Response SOP or related processes are identified and implemented. Internal postmortems for data breaches are highly confidential records not available to customers. Postmortems may, however, be summarized and included in other customer event notifications. These reports are provided to external auditors for review as part of the data processor service for Windows Enterprise routine audit cycle. 
 
 ## <a name="customer-notice"></a>고객 알림
 
-Windows Enterprise Microsoft 데이터 프로세서 서비스는 필요한 경우 데이터 위반 사실을 고객과 규제 기관에 알립니다. Microsoft는 Windows Enterprise 데이터 프로세서 서비스의 운영에 있어서 많은 내부 구획화에 의존합니다. 데이터 흐름 로그 역시 강력합니다. 이 설계에 대한 혜택으로 대부분의 인시던트는 특정 고객으로 범위가 지정될 수 있습니다. 해당 목표는 데이터가 위반되는 경우 영향을 받는 고객에게 제때에 정확하고 조치를 취할 수 있는 알림을 제공하는 것입니다. 
+Microsoft data processor service for Windows Enterprise notifies customers and regulatory authorities of data breaches as required. Microsoft relies on heavy internal compartmentalization in the operation of the data processor service for Windows Enterprise. Data flow logs are also robust. As a benefit of this design, most incidents can be scoped to specific customers. The goal is to provide impacted customers with an accurate, actionable, and timely notice when their data has been breached. 
 
-CRSI를 선언한 후에는 빠르게 이동하는 보안 위험을 계속 고려하면서 최대한 신속하게 알림 프로세스가 수행됩니다. 일반적으로 인시던트 조사가 진행되는 동안에 알림 작성 프로세스가 수행됩니다. 고객 알림은 다음 상황을 제외하고 위반을 선언한 시점으로부터 72시간 이내에 전달됩니다. 
+After the declaration of a CRSI, the notification process takes place as expeditiously as possible while still considering the security risks of moving quickly. Generally, the process of drafting notifications occurs as the incident investigation is ongoing. Customer notices are delivered in no more than 72 hours from the time we declared a breach except for the following circumstances: 
 
  - Microsoft가 알림을 진행할 때 다른 고객에 대한 위험이 증가할 수 있다고 판단한 경우, 예를 들어 알림이 진행될 경우 공격자가 알게 되어 수정 기회를 높일 수 있습니다. 
  - Microsoft의 법률 부서 CELA(회사 외부 업무 및 법률 담당) 및 인시던트 책임 관리자가 기타 비정상적이거나 극단적인 상황을 조사한 경우입니다. 
 
  Windows Enterprise Microsoft 데이터 프로세서 서비스는 알림 프로세스를 과도하게 지연시키지 않으면서 내부 조사를 수행할 수 있도록 하고 최종 사용자 약정을 충족하도록 지원할 수 있는 자세한 정보를 고객에게 제공합니다. 
 
-개인 데이터 침해에 대한 알림은 전자 메일을 포함하여 Microsoft에서 선택하는 모든 방법으로 고객에게 전달됩니다. 데이터 침해에 대한 알림은 Azure Defender *에서 제공되는 보안 연락처 목록으로 전달되며 이는 [구현 지침](https://docs.microsoft.com/azure/security-center/security-center-provide-security-contact-details)에 따라 구성될 수 있습니다. Azure Defender* 에 연락처 정보가 제공되지 않는 경우, 알림은 Azure 구독에서 한 명 이상의 관리자에게 전송됩니다. 알림이 제대로 전달될 수 있도록 해당하는 각 구독 및 온라인 서비스 포털에 대한 관리 연락처 정보가 올바른지 확인하는 것은 고객의 책임입니다.
+개인 데이터 침해에 대한 알림은 전자 메일을 포함하여 Microsoft가 선택한 모든 방법을 통해 고객에게 전달됩니다. 데이터 침해 알림은 [구현 지침](https://docs.microsoft.com/azure/security-center/security-center-provide-security-contact-details)에 따라 구성될 수 있는 Azure Defender에서 제공된 보안 연락처 목록으로 전달됩니다. Azure Defender에서 연락처 정보가 제공되지 않으면 알림은 Azure 구독의 한 명 이상의 관리자에게 전송됩니다. 이러한 알림이 성공적으로 전달되도록 하기 위해 고객은 적용 가능한 각 구독 및 온라인 서비스 포털의 관리 연락처 정보가 올바른지 확인해야 합니다.
 
 Windows Enterprise 팀을 위한 데이터 프로세서 서비스는 또한 고객 서비스(CSS) 및 고객 어카운트 매니저(AM) 또는 기술 어카운트 매니저(TAM)와 같은 추가 Microsoft 직원에게 알리도록 선택할 수도 있습니다. 이러한 개인은 고객과 밀접하게 관련되어 있는 경우가 많으며 보다 빠른 수정이 이루어지는 데 도움이 될 수 있습니다. 
 

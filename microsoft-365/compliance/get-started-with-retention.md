@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 관리하도록 보존 정책 및 보존 레이블 구현을 시작할 준비가 되었지만, 어디서부터 시작해야 할지 모르겠나요? 시작을 도와주는 실질적인 지침을 읽어 보세요.
-ms.openlocfilehash: ea5ccdbe0267c2b894e6b69cf8b048925af1b409
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: b4dcbe15e2a2d9e3d056555a9212125b60133826
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399513"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919866"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블 시작하기
 
@@ -32,9 +32,9 @@ ms.locfileid: "48399513"
 
 보관해야 할 콘텐츠를 보존하고 보관할 필요 없는 콘텐츠를 삭제하여 조직의 데이터 관리를 시작할 준비가 되었나요? 시작하려면 다음과 같은 개괄적인 지침을 사용하세요.
 
-1. Microsoft 365의 **보존 방식을 이해**한 다음 보존 정책이나 보존 레이블을 사용해야 하는지 또는 조합을 사용해야 하는지 식별합니다. [보존에 대해 알아보기](retention.md)
+1. Microsoft 365의 **보존 방식을 이해** 한 다음 보존 정책이나 보존 레이블을 사용해야 하는지 또는 조합을 사용해야 하는지 식별합니다. [보존에 대해 알아보기](retention.md)
 
-2. 조직 정책 또는 업계 규정에 필요한 **보존 설정 및 작업을 식별**합니다.
+2. 조직 정책 또는 업계 규정에 필요한 **보존 설정 및 작업을 식별** 합니다.
     
     이 평가의 일환으로 [레코드 관리](records-management.md)를 사용할지 여부를 결정합니다.
 
@@ -69,9 +69,8 @@ ms.locfileid: "48399513"
 |관리자가 문서를 이해하기 위해 보존 및 삭제 작업을 적용할 수 있도록 합니다 .이는 SharePoint 라이브러리의 식별된 문서에 자동으로 적용됩니다.|[보존 레이블을 만들어 앱에 적용합니다](create-apply-retention-labels.md)|
 |문서 및 전자 메일에 대한 보존 및 삭제 동작을 자동으로 적용 |[보존 레이블을 콘텐츠에 자동으로 적용하기](apply-retention-labels-automatically.md)|
 |다음과 같은 이벤트가 발생할 때 보존 기간 시작:  <br />- 직원 퇴사 <br />- 계약 만료 <br />- 제품 수명 주기 종료| [이벤트가 발생할 때 보존 시작하기](event-driven-retention.md)|
-|SharePoint에서 다른 문서 유형 수명 주기 관리| [보존 레이블로 SharePoint에 저장된 문서의 수명 주기 관리](auto-apply-retention-labels-scenario.md)|
-|SEC 규칙 17a-4 준수|[SEC Rule 17a-4를 준수하기 위해 Exchange Online과 보안 및 준수 센터 사용하기](use-exchange-online-to-comply-with-sec-rule-17a-4.md) |
-|보존 기간 종료 시 콘텐츠를 영구적으로 삭제하기 전에 누군가가 검토하고 승인하도록 하세요.|[처리 검토](disposition.md#disposition-reviews) |
+|규정 요구 사항을 충족하거나 로그 관리자로부터 안전을 보호하는 데 도움이 되는 정책 변경 제한| [보존 정책 및 보존 레이블 정책 변경을 제한하기 위한 유지 잠금 사용](retention-preservation-lock.md)
+|보존 기간 종료 시 콘텐츠를 삭제하기 전에 누군가가 검토하고 승인하도록 하세요.|[처리 검토](disposition.md#disposition-reviews) |
 | 항목에 대한 보존 및 삭제 설정이 적용되는 방법과 위치 모니터링 | [보존 레이블 모니터링](retention.md#monitoring-retention-labels) |
 |문서 및 전자 메일에 대한 단일 레코드 관리 솔루션 사용 |[레코드 관리에 대한 자세한 정보](records-management.md) |
 
