@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4ca7654482251d86c44a3956c71f704a0cc3f2d4
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 042555cfcbe231f370c07ee3887e6b7f6b3701b8
+ms.sourcegitcommit: 751dc531f0410ee075c179efe409a01664483ee2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208620"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48925595"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>형사법 (CJIS) 보안 정책
 
@@ -56,15 +56,15 @@ FBI에서는 CJIS 요구 사항을 준수 하는 Microsoft의 인증을 제공 �
 
 [Microsoft CJIS 클라우드 요구 사항](https://aka.ms/MicrosoftCJISCloudRequirements)
 
-## <a name="cjis-status-in-the-united-states-current-as-of-9232019"></a>미국 (현재 상태는 9/23/2019) 인 CJIS 상태
+## <a name="cjis-status-in-the-united-states-current-as-of-1152020"></a>미국 (현재 상태는 11/5/2020) 인 CJIS 상태
 
-37: 관리 계약을 포함 한 콜롬비아의 학구 및 해당 지역에 녹색으로 강조 표시 됩니다.
+44: 관리 계약을 포함 한 콜롬비아의 학구 및 해당 지역에 녹색으로 강조 표시 됩니다.
 
-앨라배마, 알래스카, Arkansas, 애리조나, 캘리포니아, Colorado, Florida, 그루지야, 하와이, Illinois, 인디애나, Iowa, Kansas, 켄터키, Maine, Massachusetts, Michigan, Minnesota, Missouri, Montana,, Jersey,,, Nevada, Carolina, Oregon, Pennsylvania,, Rhode,,,, Carolina,, Tennessee,
+앨라배마, 알래스카, 애리조나, Arkansas, 캘리포니아, Colorado, Connecticut, Florida, 그루지야, 하와이, Idaho, Illinois, 인디애나, Iowa, Kansas, 켄터키, Maine, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, 새 Hampshire, 새 Jersey, 서울 Carolina,, Dakota, Oregon, Pennsylvania,,, Rhode,,, Carolina,, Tennessee,, Utah 및 구역
 
 해당 하는 CJIS 규정 제어를 충족 하기 위해 Microsoft는 범죄자가 클라우드 기반 솔루션을 구현 하 고 CJIS 보안 정책 V 5.8을 준수할 수 있도록 합니다.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **준수 정보를 요청 하는 위치**
 
@@ -78,9 +78,9 @@ Microsoft는 CSA (CJIS Systems 에이전시)를 사용 하 여 정보 계약에 
 
 [Cjis 보안 정책은](https://aka.ms/cjis-security-policy) CJI을 보호 하기 위해 에이전시에서 수행 해야 하는 예방 조치를 다룹니다. 또한 Microsoft 계정 담당자는 관할지 요구 사항에 익숙한 사용자에 게 연락할 수 있습니다.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용 하 여 위험 평가
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Microsoft 준수 관리자를 사용하여 위험 평가
 
-[Microsoft 준수 관리자](compliance-manager.md) 는 조직의 규정 준수 상태를 이해 하 고 위험을 줄이는 데 도움이 되는 작업을 수행 하는 데 도움이 되는 [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 기능입니다. 준수 관리자는이 규정에 대 한 평가를 빌드하기 위한 프리미엄 템플릿을 제공 합니다. 준수 관리자의 **평가 템플릿** 페이지에서 템플릿을 찾습니다. [준수 관리자에서 평가를 작성](compliance-manager-assessments.md)하는 방법을 알아봅니다.
+[Microsoft 준수 관리자](compliance-manager.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)의 기능입니다. 준수 관리자는 이 규제에 대한 평가를 빌드하기 위한 프리미엄 서식 파일을 제공합니다. 준수 관리자의 **평가 서식 파일** 페이지에서 서식 파일을 찾습니다. [준수 관리자의 평가 빌드](compliance-manager-assessments.md) 방법에 대해 알아봅니다.
 
 ## <a name="resources"></a>리소스
 
