@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들고 자동 게시하여 레이블을 자동으로 적용하여 필요한 항목을 보존하고 필요하지 않은 항목을 삭제할 수 있습니다.
-ms.openlocfilehash: 9a4b19bd30201f5a5ff75b49ec384b451526b91b
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 5833684c729876315ce3866a8af52d79b924caef
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877305"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920022"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>보존 레이블 자동 적용하여 콘텐츠를 보존 또는 삭제하기
 
@@ -224,8 +224,6 @@ ProgID:Media AND ProgID:Meeting
     Set-RetentionCompliancePolicy -Identity <policy name> -RetryDistribution
    ```
 
-
-
 ## <a name="updating-retention-labels-and-their-policies"></a>보존 레이블과 해당 정책 업데이트하기
 
 보존 레이블 또는 자동 적용 정책을 편집할 때 보존 레이블이 이미 콘텐츠에 적용된 경우, 새로 식별된 콘텐츠 외에 이 콘텐츠에도 업데이트된 설정이 자동으로 적용됩니다.
@@ -233,6 +231,10 @@ ProgID:Media AND ProgID:Meeting
 다음 내용을 포함하는 레이블이나 정책을 만들고 저장한 후에는 일부 설정을 변경할 수 없습니다.
 - 사용자가 만든 날짜를 기준으로 콘텐츠를 보존하거나 삭제하도록 레이블을 구성하지 않은 경우 보존 기간을 제외한 보존 설정입니다.
 - 항목을 레코드로 표시하는 옵션입니다.
+
+## <a name="locking-the-policy-to-prevent-changes"></a>정책을 잠가 변경 방지
+
+아무도 정책을 끄거나, 정책을 삭제하거나, 제한을 덜 하도록 만들 수 없게 해야 하면 [보존 잠금을 사용하여 보존 정책 및 보존 레이블 정책의 변경 제한하기](retention-preservation-lock.md)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
