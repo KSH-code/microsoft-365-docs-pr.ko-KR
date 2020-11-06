@@ -16,561 +16,564 @@ ms.collection: M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
 description: Salesforce Chatter, Yahoo Messenger 또는 Yammer와 같은 데이터 원본에서 타사 데이터를 가져오도록 사용자 지정 커넥터를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: c3b824909ae1243e2dd1f12b799e53d00d9615ca
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 97e36566c3dcc9b069a39eb50e203cda971ba3c2
+ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126657"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48931950"
 ---
-# <a name="work-with-a-partner-to-archive-third-party-data"></a><span data-ttu-id="f166a-103">타사 데이터를 저장하는 데 파트너와 협력</span><span class="sxs-lookup"><span data-stu-id="f166a-103">Work with a partner to archive third-party data</span></span>
+# <a name="work-with-a-partner-to-archive-third-party-data"></a><span data-ttu-id="6d854-103">타사 데이터를 저장하는 데 파트너와 협력</span><span class="sxs-lookup"><span data-stu-id="6d854-103">Work with a partner to archive third-party data</span></span>
 
-<span data-ttu-id="f166a-104">Microsoft 파트너와 협력 하 여 타사 데이터 원본에서 Microsoft 365로 데이터를 가져오고 보관할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-104">You can work with a Microsoft Partner to import and archive data from a third-party data source to Microsoft 365.</span></span> <span data-ttu-id="f166a-105">파트너는 타사 데이터 원본에서 정기적으로 항목을 추출 하 고 해당 항목을 가져오기 위해 구성 된 사용자 지정 커넥터를 제공할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-105">A partner can provide you with a custom connector that is configured to extract items from the third-party data source (on a regular basis) and then import those items.</span></span> <span data-ttu-id="f166a-106">파트너 커넥터는 항목의 콘텐츠를 데이터 원본에서 전자 메일 메시지 형식으로 변환한 다음 항목을 사서함에 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-106">The partner connector converts the content of an item from the data source to an email message format and then stores the items in mailboxes.</span></span> <span data-ttu-id="f166a-107">타사 데이터를 가져온 후에는이 데이터에 소송 보존, 콘텐츠 검색, 원본 위치 보관, 감사 및 Microsoft 365 고정 정책 등의 Microsoft 365 준수 기능을 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-107">After third-party data is imported, you can apply Microsoft 365 compliance features such as Litigation Hold, Content Search, In-Place Archiving, Auditing, and Microsoft 365 retention policies to this data.</span></span>
-  
-<span data-ttu-id="f166a-108">타사 데이터를 가져오기 위해 Microsoft 파트너와 함께 작업 하는 데 필요한 프로세스 및 단계의 개요는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-108">Here's an overview of the process and the steps necessary to work with a Microsoft Partner to import third-party data.</span></span>
+<span data-ttu-id="6d854-104">Microsoft 파트너와 협력 하 여 타사 데이터 원본에서 Microsoft 365로 데이터를 가져오고 보관할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-104">You can work with a Microsoft Partner to import and archive data from a third-party data source to Microsoft 365.</span></span> <span data-ttu-id="6d854-105">파트너는 타사 데이터 원본에서 정기적으로 항목을 추출 하 고 해당 항목을 가져오기 위해 구성 된 사용자 지정 커넥터를 제공할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-105">A partner can provide you with a custom connector that is configured to extract items from the third-party data source (on a regular basis) and then import those items.</span></span> <span data-ttu-id="6d854-106">파트너 커넥터는 항목의 콘텐츠를 데이터 원본에서 전자 메일 메시지 형식으로 변환한 다음 항목을 사서함에 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-106">The partner connector converts the content of an item from the data source to an email message format and then stores the items in mailboxes.</span></span> <span data-ttu-id="6d854-107">타사 데이터를 가져온 후에는이 데이터에 소송 보존, eDiscovery, In-Place 보관, 감사 및 Microsoft 365 고정 정책 등의 Microsoft 365 준수 기능을 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-107">After third-party data is imported, you can apply Microsoft 365 compliance features such as Litigation Hold, eDiscovery, In-Place Archiving, Auditing, and Microsoft 365 retention policies to this data.</span></span>
+ 
+>[!IMPORTANT]
+><span data-ttu-id="6d854-108">Microsoft 365의 [통신 준수](communication-compliance.md) 솔루션은이 문서에 설명 된 파트너 커넥터로 가져온 타사 데이터에는 적용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-108">The [Communication compliance](communication-compliance.md) solution in Microsoft 365 can't be applied to the third-party data imported by partner connectors mentioned in this article.</span></span> 
+ 
+<span data-ttu-id="6d854-109">타사 데이터를 가져오기 위해 Microsoft 파트너와 함께 작업 하는 데 필요한 프로세스 및 단계의 개요는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-109">Here's an overview of the process and the steps necessary to work with a Microsoft Partner to import third-party data.</span></span>
 
-[<span data-ttu-id="f166a-109">Step 1: Find a third-party data partner</span><span class="sxs-lookup"><span data-stu-id="f166a-109">Step 1: Find a third-party data partner</span></span>](#step-1-find-a-third-party-data-partner)
+[<span data-ttu-id="6d854-110">Step 1: Find a third-party data partner</span><span class="sxs-lookup"><span data-stu-id="6d854-110">Step 1: Find a third-party data partner</span></span>](#step-1-find-a-third-party-data-partner)
 
-[<span data-ttu-id="f166a-110">2 단계: 타사 데이터 사서함 만들기 및 구성</span><span class="sxs-lookup"><span data-stu-id="f166a-110">Step 2: Create and configure a third-party data mailbox</span></span>](#step-2-create-and-configure-a-third-party-data-mailbox-in-office-365)
+[<span data-ttu-id="6d854-111">2 단계: 타사 데이터 사서함 만들기 및 구성</span><span class="sxs-lookup"><span data-stu-id="6d854-111">Step 2: Create and configure a third-party data mailbox</span></span>](#step-2-create-and-configure-a-third-party-data-mailbox-in-office-365)
 
-[<span data-ttu-id="f166a-111">Step 3: Configure user mailboxes for third-party data</span><span class="sxs-lookup"><span data-stu-id="f166a-111">Step 3: Configure user mailboxes for third-party data</span></span>](#step-3-configure-user-mailboxes-for-third-party-data)
+[<span data-ttu-id="6d854-112">Step 3: Configure user mailboxes for third-party data</span><span class="sxs-lookup"><span data-stu-id="6d854-112">Step 3: Configure user mailboxes for third-party data</span></span>](#step-3-configure-user-mailboxes-for-third-party-data)
 
-[<span data-ttu-id="f166a-112">4단계: 파트너에게 정보 제공</span><span class="sxs-lookup"><span data-stu-id="f166a-112">Step 4: Provide your partner with information</span></span>](#step-4-provide-your-partner-with-information)
+[<span data-ttu-id="6d854-113">4단계: 파트너에게 정보 제공</span><span class="sxs-lookup"><span data-stu-id="6d854-113">Step 4: Provide your partner with information</span></span>](#step-4-provide-your-partner-with-information)
 
-[<span data-ttu-id="f166a-113">5 단계: Azure Active Directory에서 타사 데이터 커넥터 등록</span><span class="sxs-lookup"><span data-stu-id="f166a-113">Step 5: Register the third-party data connector in Azure Active Directory</span></span>](#step-5-register-the-third-party-data-connector-in-azure-active-directory)
+[<span data-ttu-id="6d854-114">5 단계: Azure Active Directory에서 타사 데이터 커넥터 등록</span><span class="sxs-lookup"><span data-stu-id="6d854-114">Step 5: Register the third-party data connector in Azure Active Directory</span></span>](#step-5-register-the-third-party-data-connector-in-azure-active-directory)
 
-## <a name="how-the-third-party-data-import-process-works"></a><span data-ttu-id="f166a-114">타사 데이터 가져오기 프로세스의 작동 방식</span><span class="sxs-lookup"><span data-stu-id="f166a-114">How the third-party data import process works</span></span>
+## <a name="how-the-third-party-data-import-process-works"></a><span data-ttu-id="6d854-115">타사 데이터 가져오기 프로세스의 작동 방식</span><span class="sxs-lookup"><span data-stu-id="6d854-115">How the third-party data import process works</span></span>
 
-<span data-ttu-id="f166a-115">다음 그림 및 설명은 파트너와 함께 작업 하는 경우 타사 데이터 가져오기 프로세스의 작동 방식에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-115">The following illustration and description explain how the third-party data import process works when working with a partner.</span></span>
+<span data-ttu-id="6d854-116">다음 그림 및 설명은 파트너와 함께 작업 하는 경우 타사 데이터 가져오기 프로세스의 작동 방식에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-116">The following illustration and description explain how the third-party data import process works when working with a partner.</span></span>
   
 ![타사 데이터 가져오기 프로세스의 작동 방식](../media/5d4cf8e9-b4cc-4547-90c8-d12d04a9f0e7.png)
   
-1. <span data-ttu-id="f166a-117">고객은 선택한 파트너와 함께 작업 하 여 타사 데이터 원본에서 항목을 추출 하 고 해당 항목을 Microsoft 365로 가져오는 커넥터를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-117">Customer works with their partner of choice to configure a connector that will extract items from the third-party data source and then import those items to Microsoft 365.</span></span>
+1. <span data-ttu-id="6d854-118">고객은 선택한 파트너와 함께 작업 하 여 타사 데이터 원본에서 항목을 추출 하 고 해당 항목을 Microsoft 365로 가져오는 커넥터를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-118">Customer works with their partner of choice to configure a connector that will extract items from the third-party data source and then import those items to Microsoft 365.</span></span>
     
-2. <span data-ttu-id="f166a-118">파트너 커넥터가 타사 API (예약 또는 구성 된 기준)를 통해 타사 데이터 원본에 연결 하 고 데이터 원본에서 항목을 추출 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-118">The partner connector connects to third-party data sources via a third-party API (on a scheduled or as-configured basis) and extracts items from the data source.</span></span> <span data-ttu-id="f166a-119">파트너 커넥터는 항목의 내용을 전자 메일 메시지 형식으로 변환합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-119">The partner connector converts the content of an item to an email message format.</span></span> <span data-ttu-id="f166a-120">메시지 형식 스키마에 대 한 [자세한 내용은 More information](#more-information) 섹션을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="f166a-120">See the [More information](#more-information) section for a description of the message-format schema.</span></span> 
+2. <span data-ttu-id="6d854-119">파트너 커넥터가 타사 API (예약 또는 구성 된 기준)를 통해 타사 데이터 원본에 연결 하 고 데이터 원본에서 항목을 추출 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-119">The partner connector connects to third-party data sources via a third-party API (on a scheduled or as-configured basis) and extracts items from the data source.</span></span> <span data-ttu-id="6d854-120">파트너 커넥터는 항목의 내용을 전자 메일 메시지 형식으로 변환합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-120">The partner connector converts the content of an item to an email message format.</span></span> <span data-ttu-id="6d854-121">메시지 형식 스키마에 대 한 [자세한 내용은 More information](#more-information) 섹션을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="6d854-121">See the [More information](#more-information) section for a description of the message-format schema.</span></span> 
     
-3. <span data-ttu-id="f166a-121">파트너 커넥터는 잘 알려진 끝점을 통해 EWS (Exchange 웹 서비스)를 사용 하 여 Microsoft 365의 Azure 서비스에 연결 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-121">Partner connector connects to the Azure service in Microsoft 365 by using Exchange Web Service (EWS) via a well-known end point.</span></span>
+3. <span data-ttu-id="6d854-122">파트너 커넥터는 잘 알려진 끝점을 통해 EWS (Exchange 웹 서비스)를 사용 하 여 Microsoft 365의 Azure 서비스에 연결 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-122">Partner connector connects to the Azure service in Microsoft 365 by using Exchange Web Service (EWS) via a well-known end point.</span></span>
     
-4. <span data-ttu-id="f166a-p103">항목은 특정 사용자의 사서함 또는 "범용" 타사 데이터 사서함으로 가져오기됩니다. 항목을 특정 사용자 사서함으로 가져올지 또는 타사 데이터 사서함으로 가져올지는 다음 기준을 기반으로 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-p103">Items are imported into the mailbox of a specific user or into a "catch-all" third-party data mailbox. Whether an item is imported into a specific user mailbox or to the third-party data mailbox is based on the following criteria:</span></span>
+4. <span data-ttu-id="6d854-p103">항목은 특정 사용자의 사서함 또는 "범용" 타사 데이터 사서함으로 가져오기됩니다. 항목을 특정 사용자 사서함으로 가져올지 또는 타사 데이터 사서함으로 가져올지는 다음 기준을 기반으로 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-p103">Items are imported into the mailbox of a specific user or into a "catch-all" third-party data mailbox. Whether an item is imported into a specific user mailbox or to the third-party data mailbox is based on the following criteria:</span></span>
     
-   1. <span data-ttu-id="f166a-124">**사용자 계정에 해당 하는 사용자 ID가 있는 항목:** 파트너 커넥터가 타사 데이터 원본 항목의 사용자 ID를 Office 365의 특정 사용자 ID에 매핑할 수 있는 경우 해당 항목은 사용자의 복구 가능한 항목 폴더에 있는 **제거** 폴더에 복사 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-124">**Items that have a user ID that corresponds to an user account:** If the partner connector can map the user ID of the item in the third-party data source to a specific user ID in Office 365, the item is copied to the **Purges** folder in the user's Recoverable Items folder.</span></span> <span data-ttu-id="f166a-125">제거 폴더의 항목에는 액세스할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-125">Users can't access items in the Purges folder.</span></span> <span data-ttu-id="f166a-126">그러나 eDiscovery 도구를 사용 하 여 제거 폴더에서 항목을 검색할 수는 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-126">However, you can use eDiscovery tools to search for items in the Purges folder.</span></span>
+   1. <span data-ttu-id="6d854-125">**사용자 계정에 해당 하는 사용자 ID가 있는 항목:** 파트너 커넥터가 타사 데이터 원본 항목의 사용자 ID를 Office 365의 특정 사용자 ID에 매핑할 수 있는 경우 해당 항목은 사용자의 복구 가능한 항목 폴더에 있는 **제거** 폴더에 복사 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-125">**Items that have a user ID that corresponds to a user account:** If the partner connector can map the user ID of the item in the third-party data source to a specific user ID in Office 365, the item is copied to the **Purges** folder in the user's Recoverable Items folder.</span></span> <span data-ttu-id="6d854-126">제거 폴더의 항목에는 액세스할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-126">Users can't access items in the Purges folder.</span></span> <span data-ttu-id="6d854-127">그러나 eDiscovery 도구를 사용 하 여 제거 폴더에서 항목을 검색할 수는 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-127">However, you can use eDiscovery tools to search for items in the Purges folder.</span></span>
     
-   1. <span data-ttu-id="f166a-127">**사용자 계정에 해당 하는 사용자 ID가 없는 항목:** 파트너 커넥터가 항목의 사용자 ID를 특정 사용자 ID에 매핑할 수 없는 경우 항목은 타사 데이터 사서함의 **받은 편지함** 폴더에 복사 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-127">**Items that don't have a user ID that corresponds to an user account:** If the partner connector can't map the user ID of an item to a specific user ID, the item is copied to the **Inbox** folder of the third-party data mailbox.</span></span> <span data-ttu-id="f166a-128">받은 편지함에 항목을 가져올 수 있으면 관리자 또는 조직의 누군가가 타사 사서함에 로그인하여 이러한 항목을 보고 관리할 수 있으며 파트너 커넥터 구성을 조정해야 하는지 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-128">Importing items to the inbox allows you or someone in your organization to sign in to the third-party mailbox to view and manage these items, and see if any adjustments need to be made in the partner connector configuration.</span></span>
+   1. <span data-ttu-id="6d854-128">**사용자 계정에 해당 하는 사용자 ID가 없는 항목:** 파트너 커넥터가 항목의 사용자 ID를 특정 사용자 ID에 매핑할 수 없는 경우 항목은 타사 데이터 사서함의 **받은 편지함** 폴더에 복사 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-128">**Items that don't have a user ID that corresponds to a user account:** If the partner connector can't map the user ID of an item to a specific user ID, the item is copied to the **Inbox** folder of the third-party data mailbox.</span></span> <span data-ttu-id="6d854-129">받은 편지함에 항목을 가져올 수 있으면 관리자 또는 조직의 누군가가 타사 사서함에 로그인하여 이러한 항목을 보고 관리할 수 있으며 파트너 커넥터 구성을 조정해야 하는지 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-129">Importing items to the inbox allows you or someone in your organization to sign in to the third-party mailbox to view and manage these items, and see if any adjustments need to be made in the partner connector configuration.</span></span>
  
-## <a name="step-1-find-a-third-party-data-partner"></a><span data-ttu-id="f166a-129">1단계: 타사 데이터 파트너 찾기</span><span class="sxs-lookup"><span data-stu-id="f166a-129">Step 1: Find a third-party data partner</span></span>
+## <a name="step-1-find-a-third-party-data-partner"></a><span data-ttu-id="6d854-130">1단계: 타사 데이터 파트너 찾기</span><span class="sxs-lookup"><span data-stu-id="6d854-130">Step 1: Find a third-party data partner</span></span>
 
-<span data-ttu-id="f166a-130">Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요소는 타사 데이터 원본에서 데이터를 캡처하고 Office 365로 가져오는 Microsoft 파트너를 찾고 사용 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-130">A key component for archiving third-party data in Microsoft 365 is finding and working with a Microsoft partner that specializes in capturing data from a third-party data source and importing it to Office 365.</span></span> <span data-ttu-id="f166a-131">데이터를 가져온 후에는 조직의 다른 Microsoft 데이터 (예: Exchange의 전자 메일, SharePoint의 문서 및 비즈니스용 OneDrive)와 함께 보관 하 고 보존할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-131">After the data is imported, it can be archived and preserved along with your organization's other Microsoft data, such as email from Exchange and documents from SharePoint and OneDrive for Business.</span></span> <span data-ttu-id="f166a-132">파트너는 조직의 타사 데이터 원본 (예: BlackBerry, Facebook, Google +,: Thomson Reuters, Twitter)에서 데이터를 추출 하는 커넥터를 만들고 해당 데이터를 Exchange 사서함에 전자 메일 메시지로 가져오는 Office 365 API에 전달 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-132">A partner creates a connector that extracts data from your organization's third-party data sources (such as BlackBerry, Facebook, Google+, Thomson Reuters, Twitter, and YouTube) and passes that data to an Office 365 API that imports items to Exchange mailboxes as email messages.</span></span> 
+<span data-ttu-id="6d854-131">Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요소는 타사 데이터 원본에서 데이터를 캡처하고 Office 365로 가져오는 Microsoft 파트너를 찾고 사용 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-131">A key component for archiving third-party data in Microsoft 365 is finding and working with a Microsoft partner that specializes in capturing data from a third-party data source and importing it to Office 365.</span></span> <span data-ttu-id="6d854-132">데이터를 가져온 후에는 조직의 다른 Microsoft 데이터 (예: Exchange의 전자 메일, SharePoint의 문서 및 비즈니스용 OneDrive)와 함께 보관 하 고 보존할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-132">After the data is imported, it can be archived and preserved along with your organization's other Microsoft data, such as email from Exchange and documents from SharePoint and OneDrive for Business.</span></span> <span data-ttu-id="6d854-133">파트너는 조직의 타사 데이터 원본 (예: BlackBerry, Facebook, Google +,: Thomson Reuters, Twitter)에서 데이터를 추출 하는 커넥터를 만들고 해당 데이터를 Exchange 사서함에 전자 메일 메시지로 가져오는 Office 365 API에 전달 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-133">A partner creates a connector that extracts data from your organization's third-party data sources (such as BlackBerry, Facebook, Google+, Thomson Reuters, Twitter, and YouTube) and passes that data to an Office 365 API that imports items to Exchange mailboxes as email messages.</span></span> 
   
-<span data-ttu-id="f166a-133">다음 섹션에는 Office 365에서 타사 데이터를 보관 하기 위한 프로그램에 참여 하는 Microsoft 파트너 (지원 되는 타사 데이터 원본)이 나와 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-133">The following sections list the Microsoft partners (and the third-party data sources they support) that are participating in the program for archiving third-party data in Office 365.</span></span>
+<span data-ttu-id="6d854-134">다음 섹션에는 Office 365에서 타사 데이터를 보관 하기 위한 프로그램에 참여 하는 Microsoft 파트너 (지원 되는 타사 데이터 원본)이 나와 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-134">The following sections list the Microsoft partners (and the third-party data sources they support) that are participating in the program for archiving third-party data in Office 365.</span></span>
 
-[<span data-ttu-id="f166a-134">17a-4 LLC</span><span class="sxs-lookup"><span data-stu-id="f166a-134">17a-4 LLC</span></span>](#17a-4-llc)
+[<span data-ttu-id="6d854-135">17a-4 LLC</span><span class="sxs-lookup"><span data-stu-id="6d854-135">17a-4 LLC</span></span>](#17a-4-llc)
   
-[<span data-ttu-id="f166a-135">ArchiveSocial</span><span class="sxs-lookup"><span data-stu-id="f166a-135">ArchiveSocial</span></span>](#archivesocial)
+[<span data-ttu-id="6d854-136">ArchiveSocial</span><span class="sxs-lookup"><span data-stu-id="6d854-136">ArchiveSocial</span></span>](#archivesocial)
   
-[<span data-ttu-id="f166a-136">Globanet</span><span class="sxs-lookup"><span data-stu-id="f166a-136">Globanet</span></span>](#globanet)
+[<span data-ttu-id="6d854-137">Globanet</span><span class="sxs-lookup"><span data-stu-id="6d854-137">Globanet</span></span>](#globanet)
   
-[<span data-ttu-id="f166a-137">OpenText</span><span class="sxs-lookup"><span data-stu-id="f166a-137">OpenText</span></span>](#opentext)
+[<span data-ttu-id="6d854-138">OpenText</span><span class="sxs-lookup"><span data-stu-id="6d854-138">OpenText</span></span>](#opentext)
   
-[<span data-ttu-id="f166a-138">Smarsh</span><span class="sxs-lookup"><span data-stu-id="f166a-138">Smarsh</span></span>](#smarsh)
+[<span data-ttu-id="6d854-139">Smarsh</span><span class="sxs-lookup"><span data-stu-id="6d854-139">Smarsh</span></span>](#smarsh)
 
-[<span data-ttu-id="f166a-139">Verba</span><span class="sxs-lookup"><span data-stu-id="f166a-139">Verba</span></span>](#verba)
+[<span data-ttu-id="6d854-140">Verba</span><span class="sxs-lookup"><span data-stu-id="6d854-140">Verba</span></span>](#verba)
   
-### <a name="17a-4-llc"></a><span data-ttu-id="f166a-140">17a-4 LLC</span><span class="sxs-lookup"><span data-stu-id="f166a-140">17a-4 LLC</span></span>
+### <a name="17a-4-llc"></a><span data-ttu-id="6d854-141">17a-4 LLC</span><span class="sxs-lookup"><span data-stu-id="6d854-141">17a-4 LLC</span></span>
 
-<span data-ttu-id="f166a-141">[17a-4 LLC](https://www.17a-4.com) 에서는 다음 타사 데이터 원본을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-141">[17a-4 LLC](https://www.17a-4.com) supports the following third-party data sources:</span></span>
+<span data-ttu-id="6d854-142">[17a-4 LLC](https://www.17a-4.com) 에서는 다음 타사 데이터 원본을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-142">[17a-4 LLC](https://www.17a-4.com) supports the following third-party data sources:</span></span>
   
-- <span data-ttu-id="f166a-142">BlackBerry</span><span class="sxs-lookup"><span data-stu-id="f166a-142">BlackBerry</span></span>
+- <span data-ttu-id="6d854-143">BlackBerry</span><span class="sxs-lookup"><span data-stu-id="6d854-143">BlackBerry</span></span>
     
-- <span data-ttu-id="f166a-143">Bloomberg Data Streams</span><span class="sxs-lookup"><span data-stu-id="f166a-143">Bloomberg Data Streams</span></span>
+- <span data-ttu-id="6d854-144">Bloomberg Data Streams</span><span class="sxs-lookup"><span data-stu-id="6d854-144">Bloomberg Data Streams</span></span>
     
-- <span data-ttu-id="f166a-144">Cisco Jabber</span><span class="sxs-lookup"><span data-stu-id="f166a-144">Cisco Jabber</span></span>
+- <span data-ttu-id="6d854-145">Cisco Jabber</span><span class="sxs-lookup"><span data-stu-id="6d854-145">Cisco Jabber</span></span>
     
-- <span data-ttu-id="f166a-145">FactSet</span><span class="sxs-lookup"><span data-stu-id="f166a-145">FactSet</span></span>
+- <span data-ttu-id="6d854-146">FactSet</span><span class="sxs-lookup"><span data-stu-id="6d854-146">FactSet</span></span>
     
-- <span data-ttu-id="f166a-146">HipChat</span><span class="sxs-lookup"><span data-stu-id="f166a-146">HipChat</span></span>
+- <span data-ttu-id="6d854-147">HipChat</span><span class="sxs-lookup"><span data-stu-id="6d854-147">HipChat</span></span>
     
-- <span data-ttu-id="f166a-147">InvestEdge</span><span class="sxs-lookup"><span data-stu-id="f166a-147">InvestEdge</span></span>
+- <span data-ttu-id="6d854-148">InvestEdge</span><span class="sxs-lookup"><span data-stu-id="6d854-148">InvestEdge</span></span>
     
-- <span data-ttu-id="f166a-148">LivePerson</span><span class="sxs-lookup"><span data-stu-id="f166a-148">LivePerson</span></span>
+- <span data-ttu-id="6d854-149">LivePerson</span><span class="sxs-lookup"><span data-stu-id="6d854-149">LivePerson</span></span>
     
-- <span data-ttu-id="f166a-149">MessageLabs Data Streams</span><span class="sxs-lookup"><span data-stu-id="f166a-149">MessageLabs Data Streams</span></span>
+- <span data-ttu-id="6d854-150">MessageLabs Data Streams</span><span class="sxs-lookup"><span data-stu-id="6d854-150">MessageLabs Data Streams</span></span>
     
-- <span data-ttu-id="f166a-150">OpenText</span><span class="sxs-lookup"><span data-stu-id="f166a-150">OpenText</span></span>
+- <span data-ttu-id="6d854-151">OpenText</span><span class="sxs-lookup"><span data-stu-id="6d854-151">OpenText</span></span>
     
-- <span data-ttu-id="f166a-151">Oracle/ATG 'click-to-call' Live Help</span><span class="sxs-lookup"><span data-stu-id="f166a-151">Oracle/ATG 'click-to-call' Live Help</span></span>
+- <span data-ttu-id="6d854-152">Oracle/ATG 'click-to-call' Live Help</span><span class="sxs-lookup"><span data-stu-id="6d854-152">Oracle/ATG 'click-to-call' Live Help</span></span>
     
-- <span data-ttu-id="f166a-152">Pivot IMTRADER</span><span class="sxs-lookup"><span data-stu-id="f166a-152">Pivot IMTRADER</span></span>
+- <span data-ttu-id="6d854-153">Pivot IMTRADER</span><span class="sxs-lookup"><span data-stu-id="6d854-153">Pivot IMTRADER</span></span>
     
-- <span data-ttu-id="f166a-153">Microsoft SharePoint</span><span class="sxs-lookup"><span data-stu-id="f166a-153">Microsoft SharePoint</span></span>
+- <span data-ttu-id="6d854-154">Microsoft SharePoint</span><span class="sxs-lookup"><span data-stu-id="6d854-154">Microsoft SharePoint</span></span>
     
-- <span data-ttu-id="f166a-154">MindAlign</span><span class="sxs-lookup"><span data-stu-id="f166a-154">MindAlign</span></span>
+- <span data-ttu-id="6d854-155">MindAlign</span><span class="sxs-lookup"><span data-stu-id="6d854-155">MindAlign</span></span>
     
-- <span data-ttu-id="f166a-155">Sitrion One(Newsgator)</span><span class="sxs-lookup"><span data-stu-id="f166a-155">Sitrion One (Newsgator)</span></span>
+- <span data-ttu-id="6d854-156">Sitrion One(Newsgator)</span><span class="sxs-lookup"><span data-stu-id="6d854-156">Sitrion One (Newsgator)</span></span>
     
-- <span data-ttu-id="f166a-156">비즈니스용 Skype(Lync/OCS)</span><span class="sxs-lookup"><span data-stu-id="f166a-156">Skype for Business (Lync/OCS)</span></span>
+- <span data-ttu-id="6d854-157">비즈니스용 Skype(Lync/OCS)</span><span class="sxs-lookup"><span data-stu-id="6d854-157">Skype for Business (Lync/OCS)</span></span>
     
-- <span data-ttu-id="f166a-157">비즈니스용 Skype Online(Lync Online)</span><span class="sxs-lookup"><span data-stu-id="f166a-157">Skype for Business Online (Lync Online)</span></span>
+- <span data-ttu-id="6d854-158">비즈니스용 Skype Online(Lync Online)</span><span class="sxs-lookup"><span data-stu-id="6d854-158">Skype for Business Online (Lync Online)</span></span>
     
-- <span data-ttu-id="f166a-158">SQL 데이터베이스</span><span class="sxs-lookup"><span data-stu-id="f166a-158">SQL Databases</span></span>
+- <span data-ttu-id="6d854-159">SQL 데이터베이스</span><span class="sxs-lookup"><span data-stu-id="6d854-159">SQL Databases</span></span>
     
-- <span data-ttu-id="f166a-159">Squawker</span><span class="sxs-lookup"><span data-stu-id="f166a-159">Squawker</span></span>
+- <span data-ttu-id="6d854-160">Squawker</span><span class="sxs-lookup"><span data-stu-id="6d854-160">Squawker</span></span>
     
-- <span data-ttu-id="f166a-160">Thomson Reuters Eikon Messenger</span><span class="sxs-lookup"><span data-stu-id="f166a-160">Thomson Reuters Eikon Messenger</span></span>
+- <span data-ttu-id="6d854-161">Thomson Reuters Eikon Messenger</span><span class="sxs-lookup"><span data-stu-id="6d854-161">Thomson Reuters Eikon Messenger</span></span>
   
 
   
-### <a name="archivesocial"></a><span data-ttu-id="f166a-161">ArchiveSocial</span><span class="sxs-lookup"><span data-stu-id="f166a-161">ArchiveSocial</span></span>
+### <a name="archivesocial"></a><span data-ttu-id="6d854-162">ArchiveSocial</span><span class="sxs-lookup"><span data-stu-id="6d854-162">ArchiveSocial</span></span>
 
-<span data-ttu-id="f166a-162">[ArchiveSocial](https://www.archivesocial.com) 에서는 다음의 타사 데이터 원본을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-162">[ArchiveSocial ](https://www.archivesocial.com) supports the following third-party data sources:</span></span> 
+<span data-ttu-id="6d854-163">[ArchiveSocial ](https://www.archivesocial.com) 에서는 다음의 타사 데이터 원본을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-163">[ArchiveSocial ](https://www.archivesocial.com) supports the following third-party data sources:</span></span> 
   
-- <span data-ttu-id="f166a-163">Facebook</span><span class="sxs-lookup"><span data-stu-id="f166a-163">Facebook</span></span>
+- <span data-ttu-id="6d854-164">Facebook</span><span class="sxs-lookup"><span data-stu-id="6d854-164">Facebook</span></span>
     
-- <span data-ttu-id="f166a-164">Flickr</span><span class="sxs-lookup"><span data-stu-id="f166a-164">Flickr</span></span>
+- <span data-ttu-id="6d854-165">Flickr</span><span class="sxs-lookup"><span data-stu-id="6d854-165">Flickr</span></span>
     
-- <span data-ttu-id="f166a-165">명령이 있는 agram</span><span class="sxs-lookup"><span data-stu-id="f166a-165">Instagram</span></span>
+- <span data-ttu-id="6d854-166">명령이 있는 agram</span><span class="sxs-lookup"><span data-stu-id="6d854-166">Instagram</span></span>
     
-- <span data-ttu-id="f166a-166">LinkedIn</span><span class="sxs-lookup"><span data-stu-id="f166a-166">LinkedIn</span></span>
+- <span data-ttu-id="6d854-167">LinkedIn</span><span class="sxs-lookup"><span data-stu-id="6d854-167">LinkedIn</span></span>
     
-- <span data-ttu-id="f166a-167">유 이율</span><span class="sxs-lookup"><span data-stu-id="f166a-167">Pinterest</span></span>
+- <span data-ttu-id="6d854-168">유 이율</span><span class="sxs-lookup"><span data-stu-id="6d854-168">Pinterest</span></span>
     
-- <span data-ttu-id="f166a-168">Twitter</span><span class="sxs-lookup"><span data-stu-id="f166a-168">Twitter</span></span>
+- <span data-ttu-id="6d854-169">Twitter</span><span class="sxs-lookup"><span data-stu-id="6d854-169">Twitter</span></span>
     
-- <span data-ttu-id="f166a-169">YouTube</span><span class="sxs-lookup"><span data-stu-id="f166a-169">YouTube</span></span>
+- <span data-ttu-id="6d854-170">YouTube</span><span class="sxs-lookup"><span data-stu-id="6d854-170">YouTube</span></span>
     
-- <span data-ttu-id="f166a-170">Vimeo</span><span class="sxs-lookup"><span data-stu-id="f166a-170">Vimeo</span></span>
+- <span data-ttu-id="6d854-171">Vimeo</span><span class="sxs-lookup"><span data-stu-id="6d854-171">Vimeo</span></span>
   
-### <a name="globanet"></a><span data-ttu-id="f166a-171">Globanet</span><span class="sxs-lookup"><span data-stu-id="f166a-171">Globanet</span></span>
+### <a name="globanet"></a><span data-ttu-id="6d854-172">Globanet</span><span class="sxs-lookup"><span data-stu-id="6d854-172">Globanet</span></span>
 
-<span data-ttu-id="f166a-172">[Globanet](https://www.globanet.com) 에서는 다음의 타사 데이터 원본을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-172">[Globanet](https://www.globanet.com) supports the following third-party data sources:</span></span> 
+<span data-ttu-id="6d854-173">[Globanet](https://www.globanet.com) 에서는 다음의 타사 데이터 원본을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-173">[Globanet](https://www.globanet.com) supports the following third-party data sources:</span></span> 
   
-- <span data-ttu-id="f166a-173">AOL with Pivot Client </span><span class="sxs-lookup"><span data-stu-id="f166a-173">AOL with Pivot Client</span></span> 
+- <span data-ttu-id="6d854-174">AOL with Pivot Client </span><span class="sxs-lookup"><span data-stu-id="6d854-174">AOL with Pivot Client</span></span> 
     
-- <span data-ttu-id="f166a-174">BlackBerry Call Logs(v5, v10, v12)</span><span class="sxs-lookup"><span data-stu-id="f166a-174">BlackBerry Call Logs (v5, v10, v12)</span></span>
+- <span data-ttu-id="6d854-175">BlackBerry Call Logs(v5, v10, v12)</span><span class="sxs-lookup"><span data-stu-id="6d854-175">BlackBerry Call Logs (v5, v10, v12)</span></span>
     
-- <span data-ttu-id="f166a-175">BlackBerry Messenger(v5, v10, v12)</span><span class="sxs-lookup"><span data-stu-id="f166a-175">BlackBerry Messenger (v5, v10, v12)</span></span>
+- <span data-ttu-id="6d854-176">BlackBerry Messenger(v5, v10, v12)</span><span class="sxs-lookup"><span data-stu-id="6d854-176">BlackBerry Messenger (v5, v10, v12)</span></span>
     
-- <span data-ttu-id="f166a-176">BlackBerry PIN(v5, v10, v12)</span><span class="sxs-lookup"><span data-stu-id="f166a-176">BlackBerry PIN (v5, v10, v12)</span></span>
+- <span data-ttu-id="6d854-177">BlackBerry PIN(v5, v10, v12)</span><span class="sxs-lookup"><span data-stu-id="6d854-177">BlackBerry PIN (v5, v10, v12)</span></span>
     
-- <span data-ttu-id="f166a-177">BlackBerry SMS(v5, v10, v12)</span><span class="sxs-lookup"><span data-stu-id="f166a-177">BlackBerry SMS (v5, v10, v12)</span></span>
+- <span data-ttu-id="6d854-178">BlackBerry SMS(v5, v10, v12)</span><span class="sxs-lookup"><span data-stu-id="6d854-178">BlackBerry SMS (v5, v10, v12)</span></span>
     
-- <span data-ttu-id="f166a-178">Bloomberg Chat</span><span class="sxs-lookup"><span data-stu-id="f166a-178">Bloomberg Chat</span></span>
+- <span data-ttu-id="6d854-179">Bloomberg Chat</span><span class="sxs-lookup"><span data-stu-id="6d854-179">Bloomberg Chat</span></span>
     
-- <span data-ttu-id="f166a-179">Bloomberg Mail</span><span class="sxs-lookup"><span data-stu-id="f166a-179">Bloomberg Mail</span></span>
+- <span data-ttu-id="6d854-180">Bloomberg Mail</span><span class="sxs-lookup"><span data-stu-id="6d854-180">Bloomberg Mail</span></span>
     
-- <span data-ttu-id="f166a-180">Box</span><span class="sxs-lookup"><span data-stu-id="f166a-180">Box</span></span>
+- <span data-ttu-id="6d854-181">Box</span><span class="sxs-lookup"><span data-stu-id="6d854-181">Box</span></span>
     
-- <span data-ttu-id="f166a-181">CipherCloud for Salesforce Chatter</span><span class="sxs-lookup"><span data-stu-id="f166a-181">CipherCloud for Salesforce Chatter</span></span>
+- <span data-ttu-id="6d854-182">CipherCloud for Salesforce Chatter</span><span class="sxs-lookup"><span data-stu-id="6d854-182">CipherCloud for Salesforce Chatter</span></span>
     
-- <span data-ttu-id="f166a-182">Cisco IM &amp; 현재 상태 서버 (v10, v 10.5.1 SU1, v 11.0, v 11.5 SU2)</span><span class="sxs-lookup"><span data-stu-id="f166a-182">Cisco IM &amp; Presence Server (v10, v10.5.1 SU1, v11.0, v11.5 SU2)</span></span>
+- <span data-ttu-id="6d854-183">Cisco IM &amp; 현재 상태 서버 (v10, v 10.5.1 SU1, v 11.0, v 11.5 SU2)</span><span class="sxs-lookup"><span data-stu-id="6d854-183">Cisco IM &amp; Presence Server (v10, v10.5.1 SU1, v11.0, v11.5 SU2)</span></span>
 
-- <span data-ttu-id="f166a-183">Cisco Webex 팀</span><span class="sxs-lookup"><span data-stu-id="f166a-183">Cisco Webex Teams</span></span>
+- <span data-ttu-id="6d854-184">Cisco Webex 팀</span><span class="sxs-lookup"><span data-stu-id="6d854-184">Cisco Webex Teams</span></span>
 
-- <span data-ttu-id="f166a-184">Citrix 작업 영역 &amp; sharefile</span><span class="sxs-lookup"><span data-stu-id="f166a-184">Citrix Workspace &amp; ShareFile</span></span>
+- <span data-ttu-id="6d854-185">Citrix 작업 영역 &amp; sharefile</span><span class="sxs-lookup"><span data-stu-id="6d854-185">Citrix Workspace &amp; ShareFile</span></span>
 
-- <span data-ttu-id="f166a-185">CrowdCompass</span><span class="sxs-lookup"><span data-stu-id="f166a-185">CrowdCompass</span></span>
+- <span data-ttu-id="6d854-186">CrowdCompass</span><span class="sxs-lookup"><span data-stu-id="6d854-186">CrowdCompass</span></span>
 
-- <span data-ttu-id="f166a-186">사용자 지정 구분 텍스트 파일</span><span class="sxs-lookup"><span data-stu-id="f166a-186">Custom-delimited text files</span></span>
+- <span data-ttu-id="6d854-187">사용자 지정 구분 텍스트 파일</span><span class="sxs-lookup"><span data-stu-id="6d854-187">Custom-delimited text files</span></span>
     
-- <span data-ttu-id="f166a-187">사용자 지정 XML 파일</span><span class="sxs-lookup"><span data-stu-id="f166a-187">Custom XML files</span></span>
+- <span data-ttu-id="6d854-188">사용자 지정 XML 파일</span><span class="sxs-lookup"><span data-stu-id="6d854-188">Custom XML files</span></span>
     
-- <span data-ttu-id="f166a-188">Facebook (페이지)</span><span class="sxs-lookup"><span data-stu-id="f166a-188">Facebook (Pages)</span></span>
+- <span data-ttu-id="6d854-189">Facebook (페이지)</span><span class="sxs-lookup"><span data-stu-id="6d854-189">Facebook (Pages)</span></span>
     
-- <span data-ttu-id="f166a-189">Factset</span><span class="sxs-lookup"><span data-stu-id="f166a-189">Factset</span></span>
+- <span data-ttu-id="6d854-190">Factset</span><span class="sxs-lookup"><span data-stu-id="6d854-190">Factset</span></span>
     
-- <span data-ttu-id="f166a-190">FXConnect</span><span class="sxs-lookup"><span data-stu-id="f166a-190">FXConnect</span></span>
+- <span data-ttu-id="6d854-191">FXConnect</span><span class="sxs-lookup"><span data-stu-id="6d854-191">FXConnect</span></span>
     
-- <span data-ttu-id="f166a-191">ICE Chat/YellowJacket</span><span class="sxs-lookup"><span data-stu-id="f166a-191">ICE Chat/YellowJacket</span></span>
+- <span data-ttu-id="6d854-192">ICE Chat/YellowJacket</span><span class="sxs-lookup"><span data-stu-id="6d854-192">ICE Chat/YellowJacket</span></span>
     
-- <span data-ttu-id="f166a-192">Jive</span><span class="sxs-lookup"><span data-stu-id="f166a-192">Jive</span></span>
+- <span data-ttu-id="6d854-193">Jive</span><span class="sxs-lookup"><span data-stu-id="6d854-193">Jive</span></span>
     
-- <span data-ttu-id="f166a-193">Macgregor XIP</span><span class="sxs-lookup"><span data-stu-id="f166a-193">Macgregor XIP</span></span>
+- <span data-ttu-id="6d854-194">Macgregor XIP</span><span class="sxs-lookup"><span data-stu-id="6d854-194">Macgregor XIP</span></span>
 
-- <span data-ttu-id="f166a-194">Microsoft Exchange Server</span><span class="sxs-lookup"><span data-stu-id="f166a-194">Microsoft Exchange Server</span></span>
+- <span data-ttu-id="6d854-195">Microsoft Exchange Server</span><span class="sxs-lookup"><span data-stu-id="6d854-195">Microsoft Exchange Server</span></span>
     
-- <span data-ttu-id="f166a-195">Microsoft 비즈니스용 OneDrive</span><span class="sxs-lookup"><span data-stu-id="f166a-195">Microsoft OneDrive for Business</span></span>
+- <span data-ttu-id="6d854-196">Microsoft 비즈니스용 OneDrive</span><span class="sxs-lookup"><span data-stu-id="6d854-196">Microsoft OneDrive for Business</span></span>
 
-- <span data-ttu-id="f166a-196">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="f166a-196">Microsoft Teams</span></span>
+- <span data-ttu-id="6d854-197">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="6d854-197">Microsoft Teams</span></span>
        
-- <span data-ttu-id="f166a-197">Microsoft Yammer</span><span class="sxs-lookup"><span data-stu-id="f166a-197">Microsoft Yammer</span></span>
+- <span data-ttu-id="6d854-198">Microsoft Yammer</span><span class="sxs-lookup"><span data-stu-id="6d854-198">Microsoft Yammer</span></span>
     
-- <span data-ttu-id="f166a-198">Mobile Guard</span><span class="sxs-lookup"><span data-stu-id="f166a-198">Mobile Guard</span></span>
+- <span data-ttu-id="6d854-199">Mobile Guard</span><span class="sxs-lookup"><span data-stu-id="6d854-199">Mobile Guard</span></span>
     
-- <span data-ttu-id="f166a-199">Pivot</span><span class="sxs-lookup"><span data-stu-id="f166a-199">Pivot</span></span>
+- <span data-ttu-id="6d854-200">Pivot</span><span class="sxs-lookup"><span data-stu-id="6d854-200">Pivot</span></span>
     
-- <span data-ttu-id="f166a-200">Salesforce Chatter</span><span class="sxs-lookup"><span data-stu-id="f166a-200">Salesforce Chatter</span></span>
+- <span data-ttu-id="6d854-201">Salesforce Chatter</span><span class="sxs-lookup"><span data-stu-id="6d854-201">Salesforce Chatter</span></span>
 
-- <span data-ttu-id="f166a-201">비즈니스용 Skype Online</span><span class="sxs-lookup"><span data-stu-id="f166a-201">Skype for Business Online</span></span>
+- <span data-ttu-id="6d854-202">비즈니스용 Skype Online</span><span class="sxs-lookup"><span data-stu-id="6d854-202">Skype for Business Online</span></span>
     
-- <span data-ttu-id="f166a-202">비즈니스용 Skype, 버전 2007 R2 - 2016(온-프레미스)</span><span class="sxs-lookup"><span data-stu-id="f166a-202">Skype for Business, versions 2007 R2 - 2016 (on-premises)</span></span>
+- <span data-ttu-id="6d854-203">비즈니스용 Skype, 버전 2007 R2 - 2016(온-프레미스)</span><span class="sxs-lookup"><span data-stu-id="6d854-203">Skype for Business, versions 2007 R2 - 2016 (on-premises)</span></span>
     
-- <span data-ttu-id="f166a-203">Slack Enterprise Grid</span><span class="sxs-lookup"><span data-stu-id="f166a-203">Slack Enterprise Grid</span></span>
+- <span data-ttu-id="6d854-204">Slack Enterprise Grid</span><span class="sxs-lookup"><span data-stu-id="6d854-204">Slack Enterprise Grid</span></span>
     
-- <span data-ttu-id="f166a-204">Symphony</span><span class="sxs-lookup"><span data-stu-id="f166a-204">Symphony</span></span>
+- <span data-ttu-id="6d854-205">Symphony</span><span class="sxs-lookup"><span data-stu-id="6d854-205">Symphony</span></span>
     
-- <span data-ttu-id="f166a-205">Thomson Reuters Eikon</span><span class="sxs-lookup"><span data-stu-id="f166a-205">Thomson Reuters Eikon</span></span>
+- <span data-ttu-id="6d854-206">Thomson Reuters Eikon</span><span class="sxs-lookup"><span data-stu-id="6d854-206">Thomson Reuters Eikon</span></span>
     
-- <span data-ttu-id="f166a-206">Thomson Reuters Messenger</span><span class="sxs-lookup"><span data-stu-id="f166a-206">Thomson Reuters Messenger</span></span>
+- <span data-ttu-id="6d854-207">Thomson Reuters Messenger</span><span class="sxs-lookup"><span data-stu-id="6d854-207">Thomson Reuters Messenger</span></span>
     
-- <span data-ttu-id="f166a-207">Thomson Reuters Dealings 3000 / FX Trading</span><span class="sxs-lookup"><span data-stu-id="f166a-207">Thomson Reuters Dealings 3000 / FX Trading</span></span>
+- <span data-ttu-id="6d854-208">Thomson Reuters Dealings 3000 / FX Trading</span><span class="sxs-lookup"><span data-stu-id="6d854-208">Thomson Reuters Dealings 3000 / FX Trading</span></span>
     
-- <span data-ttu-id="f166a-208">Twitter</span><span class="sxs-lookup"><span data-stu-id="f166a-208">Twitter</span></span>
+- <span data-ttu-id="6d854-209">Twitter</span><span class="sxs-lookup"><span data-stu-id="6d854-209">Twitter</span></span>
     
-- <span data-ttu-id="f166a-209">UBS Chat</span><span class="sxs-lookup"><span data-stu-id="f166a-209">UBS Chat</span></span>
+- <span data-ttu-id="6d854-210">UBS Chat</span><span class="sxs-lookup"><span data-stu-id="6d854-210">UBS Chat</span></span>
     
-- <span data-ttu-id="f166a-210">YouTube</span><span class="sxs-lookup"><span data-stu-id="f166a-210">YouTube</span></span>
+- <span data-ttu-id="6d854-211">YouTube</span><span class="sxs-lookup"><span data-stu-id="6d854-211">YouTube</span></span>
   
-### <a name="opentext"></a><span data-ttu-id="f166a-211">OpenText</span><span class="sxs-lookup"><span data-stu-id="f166a-211">OpenText</span></span>
+### <a name="opentext"></a><span data-ttu-id="6d854-212">OpenText</span><span class="sxs-lookup"><span data-stu-id="6d854-212">OpenText</span></span>
 
-<span data-ttu-id="f166a-212">[OpenText](https://www.opentext.com/what-we-do/products/opentext-product-offerings-catalog/rebranded-products/daegis) 에서는 다음의 타사 데이터 원본을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-212">[OpenText](https://www.opentext.com/what-we-do/products/opentext-product-offerings-catalog/rebranded-products/daegis) supports the following third-party data sources:</span></span> 
+<span data-ttu-id="6d854-213">[OpenText](https://www.opentext.com/what-we-do/products/opentext-product-offerings-catalog/rebranded-products/daegis) 에서는 다음의 타사 데이터 원본을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-213">[OpenText](https://www.opentext.com/what-we-do/products/opentext-product-offerings-catalog/rebranded-products/daegis) supports the following third-party data sources:</span></span> 
   
-- <span data-ttu-id="f166a-213">Axs Encrypted</span><span class="sxs-lookup"><span data-stu-id="f166a-213">Axs Encrypted</span></span>
+- <span data-ttu-id="6d854-214">Axs Encrypted</span><span class="sxs-lookup"><span data-stu-id="6d854-214">Axs Encrypted</span></span>
     
-- <span data-ttu-id="f166a-214">Axs Exchange</span><span class="sxs-lookup"><span data-stu-id="f166a-214">Axs Exchange</span></span>
+- <span data-ttu-id="6d854-215">Axs Exchange</span><span class="sxs-lookup"><span data-stu-id="6d854-215">Axs Exchange</span></span>
     
-- <span data-ttu-id="f166a-215">Axs Local Archive</span><span class="sxs-lookup"><span data-stu-id="f166a-215">Axs Local Archive</span></span>
+- <span data-ttu-id="6d854-216">Axs Local Archive</span><span class="sxs-lookup"><span data-stu-id="6d854-216">Axs Local Archive</span></span>
     
-- <span data-ttu-id="f166a-216">Axs PlaceHolder</span><span class="sxs-lookup"><span data-stu-id="f166a-216">Axs PlaceHolder</span></span>
+- <span data-ttu-id="6d854-217">Axs PlaceHolder</span><span class="sxs-lookup"><span data-stu-id="6d854-217">Axs PlaceHolder</span></span>
     
-- <span data-ttu-id="f166a-217">Axs Signed</span><span class="sxs-lookup"><span data-stu-id="f166a-217">Axs Signed</span></span>
+- <span data-ttu-id="6d854-218">Axs Signed</span><span class="sxs-lookup"><span data-stu-id="6d854-218">Axs Signed</span></span>
     
-- <span data-ttu-id="f166a-218">Bloomberg</span><span class="sxs-lookup"><span data-stu-id="f166a-218">Bloomberg</span></span>
+- <span data-ttu-id="6d854-219">Bloomberg</span><span class="sxs-lookup"><span data-stu-id="6d854-219">Bloomberg</span></span>
     
-- <span data-ttu-id="f166a-219">Thomson Reuters</span><span class="sxs-lookup"><span data-stu-id="f166a-219">Thomson Reuters</span></span>
+- <span data-ttu-id="6d854-220">Thomson Reuters</span><span class="sxs-lookup"><span data-stu-id="6d854-220">Thomson Reuters</span></span>
   
-### <a name="smarsh"></a><span data-ttu-id="f166a-220">Smarsh</span><span class="sxs-lookup"><span data-stu-id="f166a-220">Smarsh</span></span>
+### <a name="smarsh"></a><span data-ttu-id="6d854-221">Smarsh</span><span class="sxs-lookup"><span data-stu-id="6d854-221">Smarsh</span></span>
 
-<span data-ttu-id="f166a-221">[Smarsh](https://www.smarsh.com) 에서는 다음의 타사 데이터 원본을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-221">[Smarsh](https://www.smarsh.com) supports the following third-party data sources:</span></span> 
+<span data-ttu-id="6d854-222">[Smarsh](https://www.smarsh.com) 에서는 다음의 타사 데이터 원본을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-222">[Smarsh](https://www.smarsh.com) supports the following third-party data sources:</span></span> 
   
-- <span data-ttu-id="f166a-222">AIM</span><span class="sxs-lookup"><span data-stu-id="f166a-222">AIM</span></span>
+- <span data-ttu-id="6d854-223">AIM</span><span class="sxs-lookup"><span data-stu-id="6d854-223">AIM</span></span>
     
-- <span data-ttu-id="f166a-223">American Idol</span><span class="sxs-lookup"><span data-stu-id="f166a-223">American Idol</span></span>
+- <span data-ttu-id="6d854-224">American Idol</span><span class="sxs-lookup"><span data-stu-id="6d854-224">American Idol</span></span>
     
-- <span data-ttu-id="f166a-224">Apple Juice</span><span class="sxs-lookup"><span data-stu-id="f166a-224">Apple Juice</span></span>
+- <span data-ttu-id="6d854-225">Apple Juice</span><span class="sxs-lookup"><span data-stu-id="6d854-225">Apple Juice</span></span>
     
-- <span data-ttu-id="f166a-225">AOL with Pivot client</span><span class="sxs-lookup"><span data-stu-id="f166a-225">AOL with Pivot client</span></span>
+- <span data-ttu-id="6d854-226">AOL with Pivot client</span><span class="sxs-lookup"><span data-stu-id="6d854-226">AOL with Pivot client</span></span>
     
-- <span data-ttu-id="f166a-226">Ares</span><span class="sxs-lookup"><span data-stu-id="f166a-226">Ares</span></span>
+- <span data-ttu-id="6d854-227">Ares</span><span class="sxs-lookup"><span data-stu-id="6d854-227">Ares</span></span>
     
-- <span data-ttu-id="f166a-227">Bazaar Voice</span><span class="sxs-lookup"><span data-stu-id="f166a-227">Bazaar Voice</span></span>
+- <span data-ttu-id="6d854-228">Bazaar Voice</span><span class="sxs-lookup"><span data-stu-id="6d854-228">Bazaar Voice</span></span>
     
-- <span data-ttu-id="f166a-228">Bear Share</span><span class="sxs-lookup"><span data-stu-id="f166a-228">Bear Share</span></span>
+- <span data-ttu-id="6d854-229">Bear Share</span><span class="sxs-lookup"><span data-stu-id="6d854-229">Bear Share</span></span>
     
-- <span data-ttu-id="f166a-229">Bit Torrent</span><span class="sxs-lookup"><span data-stu-id="f166a-229">Bit Torrent</span></span>
+- <span data-ttu-id="6d854-230">Bit Torrent</span><span class="sxs-lookup"><span data-stu-id="6d854-230">Bit Torrent</span></span>
     
-- <span data-ttu-id="f166a-230">BlackBerry Call Logs(v5, v10, v12)</span><span class="sxs-lookup"><span data-stu-id="f166a-230">BlackBerry Call Logs (v5, v10, v12)</span></span>
+- <span data-ttu-id="6d854-231">BlackBerry Call Logs(v5, v10, v12)</span><span class="sxs-lookup"><span data-stu-id="6d854-231">BlackBerry Call Logs (v5, v10, v12)</span></span>
     
-- <span data-ttu-id="f166a-231">BlackBerry Messenger(v5, v10, v12)</span><span class="sxs-lookup"><span data-stu-id="f166a-231">BlackBerry Messenger (v5, v10, v12)</span></span>
+- <span data-ttu-id="6d854-232">BlackBerry Messenger(v5, v10, v12)</span><span class="sxs-lookup"><span data-stu-id="6d854-232">BlackBerry Messenger (v5, v10, v12)</span></span>
     
-- <span data-ttu-id="f166a-232">BlackBerry PIN(v5, v10, v12)</span><span class="sxs-lookup"><span data-stu-id="f166a-232">BlackBerry PIN (v5, v10, v12)</span></span>
+- <span data-ttu-id="6d854-233">BlackBerry PIN(v5, v10, v12)</span><span class="sxs-lookup"><span data-stu-id="6d854-233">BlackBerry PIN (v5, v10, v12)</span></span>
     
-- <span data-ttu-id="f166a-233">BlackBerry SMS(v5, v10, v12)</span><span class="sxs-lookup"><span data-stu-id="f166a-233">BlackBerry SMS (v5, v10, v12)</span></span>
+- <span data-ttu-id="6d854-234">BlackBerry SMS(v5, v10, v12)</span><span class="sxs-lookup"><span data-stu-id="6d854-234">BlackBerry SMS (v5, v10, v12)</span></span>
     
-- <span data-ttu-id="f166a-234">Bloomberg Mail</span><span class="sxs-lookup"><span data-stu-id="f166a-234">Bloomberg Mail</span></span>
+- <span data-ttu-id="6d854-235">Bloomberg Mail</span><span class="sxs-lookup"><span data-stu-id="6d854-235">Bloomberg Mail</span></span>
     
-- <span data-ttu-id="f166a-235">셀 신뢰</span><span class="sxs-lookup"><span data-stu-id="f166a-235">CellTrust</span></span>
+- <span data-ttu-id="6d854-236">셀 신뢰</span><span class="sxs-lookup"><span data-stu-id="6d854-236">CellTrust</span></span>
     
-- <span data-ttu-id="f166a-236">Chat Import</span><span class="sxs-lookup"><span data-stu-id="f166a-236">Chat Import</span></span>
+- <span data-ttu-id="6d854-237">Chat Import</span><span class="sxs-lookup"><span data-stu-id="6d854-237">Chat Import</span></span>
     
-- <span data-ttu-id="f166a-237">Chat Real Time Logging and Policy</span><span class="sxs-lookup"><span data-stu-id="f166a-237">Chat Real Time Logging and Policy</span></span>
+- <span data-ttu-id="6d854-238">Chat Real Time Logging and Policy</span><span class="sxs-lookup"><span data-stu-id="6d854-238">Chat Real Time Logging and Policy</span></span>
     
-- <span data-ttu-id="f166a-238">Chatter</span><span class="sxs-lookup"><span data-stu-id="f166a-238">Chatter</span></span>
+- <span data-ttu-id="6d854-239">Chatter</span><span class="sxs-lookup"><span data-stu-id="6d854-239">Chatter</span></span>
     
-- <span data-ttu-id="f166a-239">Cisco IM &amp; 현재 상태 서버 (v 9.0.1, v 9.1, v 9.1.1 SU1, v10, v 10.5.1 SU1)</span><span class="sxs-lookup"><span data-stu-id="f166a-239">Cisco IM &amp; Presence Server (v9.0.1, v9.1, v9.1.1 SU1, v10, v10.5.1 SU1)</span></span>
+- <span data-ttu-id="6d854-240">Cisco IM &amp; 현재 상태 서버 (v 9.0.1, v 9.1, v 9.1.1 SU1, v10, v 10.5.1 SU1)</span><span class="sxs-lookup"><span data-stu-id="6d854-240">Cisco IM &amp; Presence Server (v9.0.1, v9.1, v9.1.1 SU1, v10, v10.5.1 SU1)</span></span>
     
-- <span data-ttu-id="f166a-240">Cisco Unified Presence Server(v8.6.3, v8.6.4, v8.6.5)</span><span class="sxs-lookup"><span data-stu-id="f166a-240">Cisco Unified Presence Server (v8.6.3, v8.6.4, v8.6.5)</span></span>
+- <span data-ttu-id="6d854-241">Cisco Unified Presence Server(v8.6.3, v8.6.4, v8.6.5)</span><span class="sxs-lookup"><span data-stu-id="6d854-241">Cisco Unified Presence Server (v8.6.3, v8.6.4, v8.6.5)</span></span>
     
-- <span data-ttu-id="f166a-241">Collaboration Import</span><span class="sxs-lookup"><span data-stu-id="f166a-241">Collaboration Import</span></span>
+- <span data-ttu-id="6d854-242">Collaboration Import</span><span class="sxs-lookup"><span data-stu-id="6d854-242">Collaboration Import</span></span>
     
-- <span data-ttu-id="f166a-242">Collaboration Real Time Logging</span><span class="sxs-lookup"><span data-stu-id="f166a-242">Collaboration Real Time Logging</span></span>
+- <span data-ttu-id="6d854-243">Collaboration Real Time Logging</span><span class="sxs-lookup"><span data-stu-id="6d854-243">Collaboration Real Time Logging</span></span>
     
-- <span data-ttu-id="f166a-243">Direct Connect</span><span class="sxs-lookup"><span data-stu-id="f166a-243">Direct Connect</span></span>
+- <span data-ttu-id="6d854-244">Direct Connect</span><span class="sxs-lookup"><span data-stu-id="6d854-244">Direct Connect</span></span>
     
-- <span data-ttu-id="f166a-244">Facebook</span><span class="sxs-lookup"><span data-stu-id="f166a-244">Facebook</span></span>
+- <span data-ttu-id="6d854-245">Facebook</span><span class="sxs-lookup"><span data-stu-id="6d854-245">Facebook</span></span>
     
-- <span data-ttu-id="f166a-245">FactSet</span><span class="sxs-lookup"><span data-stu-id="f166a-245">FactSet</span></span>
+- <span data-ttu-id="6d854-246">FactSet</span><span class="sxs-lookup"><span data-stu-id="6d854-246">FactSet</span></span>
     
-- <span data-ttu-id="f166a-246">FastTrack</span><span class="sxs-lookup"><span data-stu-id="f166a-246">FastTrack</span></span>
+- <span data-ttu-id="6d854-247">FastTrack</span><span class="sxs-lookup"><span data-stu-id="6d854-247">FastTrack</span></span>
     
-- <span data-ttu-id="f166a-247">Gnutella</span><span class="sxs-lookup"><span data-stu-id="f166a-247">Gnutella</span></span>
+- <span data-ttu-id="6d854-248">Gnutella</span><span class="sxs-lookup"><span data-stu-id="6d854-248">Gnutella</span></span>
     
-- <span data-ttu-id="f166a-248">Google +</span><span class="sxs-lookup"><span data-stu-id="f166a-248">Google+</span></span>
+- <span data-ttu-id="6d854-249">Google +</span><span class="sxs-lookup"><span data-stu-id="6d854-249">Google+</span></span>
     
-- <span data-ttu-id="f166a-249">GoToMyPC</span><span class="sxs-lookup"><span data-stu-id="f166a-249">GoToMyPC</span></span>
+- <span data-ttu-id="6d854-250">GoToMyPC</span><span class="sxs-lookup"><span data-stu-id="6d854-250">GoToMyPC</span></span>
     
-- <span data-ttu-id="f166a-250">Hopster</span><span class="sxs-lookup"><span data-stu-id="f166a-250">Hopster</span></span>
+- <span data-ttu-id="6d854-251">Hopster</span><span class="sxs-lookup"><span data-stu-id="6d854-251">Hopster</span></span>
     
-- <span data-ttu-id="f166a-251">HubConnex</span><span class="sxs-lookup"><span data-stu-id="f166a-251">HubConnex</span></span>
+- <span data-ttu-id="6d854-252">HubConnex</span><span class="sxs-lookup"><span data-stu-id="6d854-252">HubConnex</span></span>
     
-- <span data-ttu-id="f166a-252">IBM Connections(v3.0.1, v4.0, v4.5, v4.5 CR3, v5)</span><span class="sxs-lookup"><span data-stu-id="f166a-252">IBM Connections (v3.0.1, v4.0, v4.5, v4.5 CR3, v5)</span></span>
+- <span data-ttu-id="6d854-253">IBM Connections(v3.0.1, v4.0, v4.5, v4.5 CR3, v5)</span><span class="sxs-lookup"><span data-stu-id="6d854-253">IBM Connections (v3.0.1, v4.0, v4.5, v4.5 CR3, v5)</span></span>
     
-- <span data-ttu-id="f166a-253">IBM Connections Chat Cloud</span><span class="sxs-lookup"><span data-stu-id="f166a-253">IBM Connections Chat Cloud</span></span>
+- <span data-ttu-id="6d854-254">IBM Connections Chat Cloud</span><span class="sxs-lookup"><span data-stu-id="6d854-254">IBM Connections Chat Cloud</span></span>
     
-- <span data-ttu-id="f166a-254">IBM Connections Social Cloud</span><span class="sxs-lookup"><span data-stu-id="f166a-254">IBM Connections Social Cloud</span></span>
+- <span data-ttu-id="6d854-255">IBM Connections Social Cloud</span><span class="sxs-lookup"><span data-stu-id="6d854-255">IBM Connections Social Cloud</span></span>
     
-- <span data-ttu-id="f166a-255">IBM SameTime Advanced 8.5.2 IFR1</span><span class="sxs-lookup"><span data-stu-id="f166a-255">IBM SameTime Advanced 8.5.2 IFR1</span></span>
+- <span data-ttu-id="6d854-256">IBM SameTime Advanced 8.5.2 IFR1</span><span class="sxs-lookup"><span data-stu-id="6d854-256">IBM SameTime Advanced 8.5.2 IFR1</span></span>
     
-- <span data-ttu-id="f166a-256">IBM SameTime Communicate 9.0</span><span class="sxs-lookup"><span data-stu-id="f166a-256">IBM SameTime Communicate 9.0</span></span>
+- <span data-ttu-id="6d854-257">IBM SameTime Communicate 9.0</span><span class="sxs-lookup"><span data-stu-id="6d854-257">IBM SameTime Communicate 9.0</span></span>
     
-- <span data-ttu-id="f166a-257">IBM SameTime Community(v8.0.2, v8.5.1 IFR2, v8.5.2 IFR1, v9.1)</span><span class="sxs-lookup"><span data-stu-id="f166a-257">IBM SameTime Community (v8.0.2, v8.5.1 IFR2, v8.5.2 IFR1, v9.1)</span></span>
+- <span data-ttu-id="6d854-258">IBM SameTime Community(v8.0.2, v8.5.1 IFR2, v8.5.2 IFR1, v9.1)</span><span class="sxs-lookup"><span data-stu-id="6d854-258">IBM SameTime Community (v8.0.2, v8.5.1 IFR2, v8.5.2 IFR1, v9.1)</span></span>
     
-- <span data-ttu-id="f166a-258">IBM SameTime Complete 9.0</span><span class="sxs-lookup"><span data-stu-id="f166a-258">IBM SameTime Complete 9.0</span></span>
+- <span data-ttu-id="6d854-259">IBM SameTime Complete 9.0</span><span class="sxs-lookup"><span data-stu-id="6d854-259">IBM SameTime Complete 9.0</span></span>
     
-- <span data-ttu-id="f166a-259">IBM SameTime Conference 9.0</span><span class="sxs-lookup"><span data-stu-id="f166a-259">IBM SameTime Conference 9.0</span></span>
+- <span data-ttu-id="6d854-260">IBM SameTime Conference 9.0</span><span class="sxs-lookup"><span data-stu-id="6d854-260">IBM SameTime Conference 9.0</span></span>
     
-- <span data-ttu-id="f166a-260">IBM SameTime Meeting 8.5.2 IFR1</span><span class="sxs-lookup"><span data-stu-id="f166a-260">IBM SameTime Meeting 8.5.2 IFR1</span></span>
+- <span data-ttu-id="6d854-261">IBM SameTime Meeting 8.5.2 IFR1</span><span class="sxs-lookup"><span data-stu-id="6d854-261">IBM SameTime Meeting 8.5.2 IFR1</span></span>
     
-- <span data-ttu-id="f166a-261">아이스/YellowJacket</span><span class="sxs-lookup"><span data-stu-id="f166a-261">ICE/YellowJacket</span></span>
+- <span data-ttu-id="6d854-262">아이스/YellowJacket</span><span class="sxs-lookup"><span data-stu-id="6d854-262">ICE/YellowJacket</span></span>
     
-- <span data-ttu-id="f166a-262">IM Import</span><span class="sxs-lookup"><span data-stu-id="f166a-262">IM Import</span></span>
+- <span data-ttu-id="6d854-263">IM Import</span><span class="sxs-lookup"><span data-stu-id="6d854-263">IM Import</span></span>
     
-- <span data-ttu-id="f166a-263">IM Real Time Logging and Policy</span><span class="sxs-lookup"><span data-stu-id="f166a-263">IM Real Time Logging and Policy</span></span>
+- <span data-ttu-id="6d854-264">IM Real Time Logging and Policy</span><span class="sxs-lookup"><span data-stu-id="6d854-264">IM Real Time Logging and Policy</span></span>
     
-- <span data-ttu-id="f166a-264">Indii Messenger</span><span class="sxs-lookup"><span data-stu-id="f166a-264">Indii Messenger</span></span>
+- <span data-ttu-id="6d854-265">Indii Messenger</span><span class="sxs-lookup"><span data-stu-id="6d854-265">Indii Messenger</span></span>
     
-- <span data-ttu-id="f166a-265">Instant Bloomberg</span><span class="sxs-lookup"><span data-stu-id="f166a-265">Instant Bloomberg</span></span>
+- <span data-ttu-id="6d854-266">Instant Bloomberg</span><span class="sxs-lookup"><span data-stu-id="6d854-266">Instant Bloomberg</span></span>
     
-- <span data-ttu-id="f166a-266">IRC</span><span class="sxs-lookup"><span data-stu-id="f166a-266">IRC</span></span>
+- <span data-ttu-id="6d854-267">IRC</span><span class="sxs-lookup"><span data-stu-id="6d854-267">IRC</span></span>
     
-- <span data-ttu-id="f166a-267">Jive</span><span class="sxs-lookup"><span data-stu-id="f166a-267">Jive</span></span>
+- <span data-ttu-id="6d854-268">Jive</span><span class="sxs-lookup"><span data-stu-id="6d854-268">Jive</span></span>
     
-- <span data-ttu-id="f166a-268">Jive 6 Real Time Logging(v6, v7)</span><span class="sxs-lookup"><span data-stu-id="f166a-268">Jive 6 Real Time Logging (v6, v7)</span></span>
+- <span data-ttu-id="6d854-269">Jive 6 Real Time Logging(v6, v7)</span><span class="sxs-lookup"><span data-stu-id="6d854-269">Jive 6 Real Time Logging (v6, v7)</span></span>
     
-- <span data-ttu-id="f166a-269">Jive Import</span><span class="sxs-lookup"><span data-stu-id="f166a-269">Jive Import</span></span>
+- <span data-ttu-id="6d854-270">Jive Import</span><span class="sxs-lookup"><span data-stu-id="6d854-270">Jive Import</span></span>
     
-- <span data-ttu-id="f166a-270">JXTA</span><span class="sxs-lookup"><span data-stu-id="f166a-270">JXTA</span></span>
+- <span data-ttu-id="6d854-271">JXTA</span><span class="sxs-lookup"><span data-stu-id="6d854-271">JXTA</span></span>
     
-- <span data-ttu-id="f166a-271">LinkedIn</span><span class="sxs-lookup"><span data-stu-id="f166a-271">LinkedIn</span></span>
+- <span data-ttu-id="6d854-272">LinkedIn</span><span class="sxs-lookup"><span data-stu-id="6d854-272">LinkedIn</span></span>
     
-- <span data-ttu-id="f166a-272">Microsoft Lync(2010, 2013)</span><span class="sxs-lookup"><span data-stu-id="f166a-272">Microsoft Lync (2010, 2013)</span></span>
+- <span data-ttu-id="6d854-273">Microsoft Lync(2010, 2013)</span><span class="sxs-lookup"><span data-stu-id="6d854-273">Microsoft Lync (2010, 2013)</span></span>
     
-- <span data-ttu-id="f166a-273">MFTP</span><span class="sxs-lookup"><span data-stu-id="f166a-273">MFTP</span></span>
+- <span data-ttu-id="6d854-274">MFTP</span><span class="sxs-lookup"><span data-stu-id="6d854-274">MFTP</span></span>
     
-- <span data-ttu-id="f166a-274">Microsoft Lync 2013 Voice</span><span class="sxs-lookup"><span data-stu-id="f166a-274">Microsoft Lync 2013 Voice</span></span>
+- <span data-ttu-id="6d854-275">Microsoft Lync 2013 Voice</span><span class="sxs-lookup"><span data-stu-id="6d854-275">Microsoft Lync 2013 Voice</span></span>
     
-- <span data-ttu-id="f166a-275">Microsoft SharePoint(2010, 2013)</span><span class="sxs-lookup"><span data-stu-id="f166a-275">Microsoft SharePoint (2010, 2013)</span></span>
+- <span data-ttu-id="6d854-276">Microsoft SharePoint(2010, 2013)</span><span class="sxs-lookup"><span data-stu-id="6d854-276">Microsoft SharePoint (2010, 2013)</span></span>
     
-- <span data-ttu-id="f166a-276">Microsoft SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="f166a-276">Microsoft SharePoint Online</span></span>
+- <span data-ttu-id="6d854-277">Microsoft SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="6d854-277">Microsoft SharePoint Online</span></span>
     
-- <span data-ttu-id="f166a-277">Microsoft UC(Unified Communications)</span><span class="sxs-lookup"><span data-stu-id="f166a-277">Microsoft UC (Unified Communications)</span></span>
+- <span data-ttu-id="6d854-278">Microsoft UC(Unified Communications)</span><span class="sxs-lookup"><span data-stu-id="6d854-278">Microsoft UC (Unified Communications)</span></span>
     
-- <span data-ttu-id="f166a-278">MindAlign</span><span class="sxs-lookup"><span data-stu-id="f166a-278">MindAlign</span></span>
+- <span data-ttu-id="6d854-279">MindAlign</span><span class="sxs-lookup"><span data-stu-id="6d854-279">MindAlign</span></span>
     
-- <span data-ttu-id="f166a-279">Mobile Guard</span><span class="sxs-lookup"><span data-stu-id="f166a-279">Mobile Guard</span></span>
+- <span data-ttu-id="6d854-280">Mobile Guard</span><span class="sxs-lookup"><span data-stu-id="6d854-280">Mobile Guard</span></span>
     
-- <span data-ttu-id="f166a-280">수신</span><span class="sxs-lookup"><span data-stu-id="f166a-280">MSN</span></span>
+- <span data-ttu-id="6d854-281">수신</span><span class="sxs-lookup"><span data-stu-id="6d854-281">MSN</span></span>
     
-- <span data-ttu-id="f166a-281">My Space</span><span class="sxs-lookup"><span data-stu-id="f166a-281">My Space</span></span>
+- <span data-ttu-id="6d854-282">My Space</span><span class="sxs-lookup"><span data-stu-id="6d854-282">My Space</span></span>
     
-- <span data-ttu-id="f166a-282">NEONetwork</span><span class="sxs-lookup"><span data-stu-id="f166a-282">NEONetwork</span></span>
+- <span data-ttu-id="6d854-283">NEONetwork</span><span class="sxs-lookup"><span data-stu-id="6d854-283">NEONetwork</span></span>
     
-- <span data-ttu-id="f166a-283">Office 365 Lync Dedicated</span><span class="sxs-lookup"><span data-stu-id="f166a-283">Office 365 Lync Dedicated</span></span>
+- <span data-ttu-id="6d854-284">Office 365 Lync Dedicated</span><span class="sxs-lookup"><span data-stu-id="6d854-284">Office 365 Lync Dedicated</span></span>
     
-- <span data-ttu-id="f166a-284">Office 365 Shared IM</span><span class="sxs-lookup"><span data-stu-id="f166a-284">Office 365 Shared IM</span></span>
+- <span data-ttu-id="6d854-285">Office 365 Shared IM</span><span class="sxs-lookup"><span data-stu-id="6d854-285">Office 365 Shared IM</span></span>
     
-- <span data-ttu-id="f166a-285">유 이율</span><span class="sxs-lookup"><span data-stu-id="f166a-285">Pinterest</span></span>
+- <span data-ttu-id="6d854-286">유 이율</span><span class="sxs-lookup"><span data-stu-id="6d854-286">Pinterest</span></span>
     
-- <span data-ttu-id="f166a-286">Pivot</span><span class="sxs-lookup"><span data-stu-id="f166a-286">Pivot</span></span>
+- <span data-ttu-id="6d854-287">Pivot</span><span class="sxs-lookup"><span data-stu-id="6d854-287">Pivot</span></span>
     
-- <span data-ttu-id="f166a-287">QQ</span><span class="sxs-lookup"><span data-stu-id="f166a-287">QQ</span></span>
+- <span data-ttu-id="6d854-288">QQ</span><span class="sxs-lookup"><span data-stu-id="6d854-288">QQ</span></span>
     
-- <span data-ttu-id="f166a-288">비즈니스용 Skype 2015</span><span class="sxs-lookup"><span data-stu-id="f166a-288">Skype for Business 2015</span></span>
+- <span data-ttu-id="6d854-289">비즈니스용 Skype 2015</span><span class="sxs-lookup"><span data-stu-id="6d854-289">Skype for Business 2015</span></span>
     
-- <span data-ttu-id="f166a-289">SoftEther</span><span class="sxs-lookup"><span data-stu-id="f166a-289">SoftEther</span></span>
+- <span data-ttu-id="6d854-290">SoftEther</span><span class="sxs-lookup"><span data-stu-id="6d854-290">SoftEther</span></span>
     
-- <span data-ttu-id="f166a-290">Symphony</span><span class="sxs-lookup"><span data-stu-id="f166a-290">Symphony</span></span>
+- <span data-ttu-id="6d854-291">Symphony</span><span class="sxs-lookup"><span data-stu-id="6d854-291">Symphony</span></span>
     
-- <span data-ttu-id="f166a-291">Thomson Reuters Eikon</span><span class="sxs-lookup"><span data-stu-id="f166a-291">Thomson Reuters Eikon</span></span>
+- <span data-ttu-id="6d854-292">Thomson Reuters Eikon</span><span class="sxs-lookup"><span data-stu-id="6d854-292">Thomson Reuters Eikon</span></span>
     
-- <span data-ttu-id="f166a-292">Thomson Reuters Messenger</span><span class="sxs-lookup"><span data-stu-id="f166a-292">Thomson Reuters Messenger</span></span>
+- <span data-ttu-id="6d854-293">Thomson Reuters Messenger</span><span class="sxs-lookup"><span data-stu-id="6d854-293">Thomson Reuters Messenger</span></span>
     
-- <span data-ttu-id="f166a-293">한자</span><span class="sxs-lookup"><span data-stu-id="f166a-293">Tor</span></span>
+- <span data-ttu-id="6d854-294">한자</span><span class="sxs-lookup"><span data-stu-id="6d854-294">Tor</span></span>
     
-- <span data-ttu-id="f166a-294">TTT</span><span class="sxs-lookup"><span data-stu-id="f166a-294">TTT</span></span>
+- <span data-ttu-id="6d854-295">TTT</span><span class="sxs-lookup"><span data-stu-id="6d854-295">TTT</span></span>
     
-- <span data-ttu-id="f166a-295">Twitter</span><span class="sxs-lookup"><span data-stu-id="f166a-295">Twitter</span></span>
+- <span data-ttu-id="6d854-296">Twitter</span><span class="sxs-lookup"><span data-stu-id="6d854-296">Twitter</span></span>
     
-- <span data-ttu-id="f166a-296">WinMX</span><span class="sxs-lookup"><span data-stu-id="f166a-296">WinMX</span></span>
+- <span data-ttu-id="6d854-297">WinMX</span><span class="sxs-lookup"><span data-stu-id="6d854-297">WinMX</span></span>
     
-- <span data-ttu-id="f166a-297">Winny</span><span class="sxs-lookup"><span data-stu-id="f166a-297">Winny</span></span>
+- <span data-ttu-id="6d854-298">Winny</span><span class="sxs-lookup"><span data-stu-id="6d854-298">Winny</span></span>
     
-- <span data-ttu-id="f166a-298">Yahoo</span><span class="sxs-lookup"><span data-stu-id="f166a-298">Yahoo</span></span>
+- <span data-ttu-id="6d854-299">Yahoo</span><span class="sxs-lookup"><span data-stu-id="6d854-299">Yahoo</span></span>
     
-- <span data-ttu-id="f166a-299">Yammer</span><span class="sxs-lookup"><span data-stu-id="f166a-299">Yammer</span></span>
+- <span data-ttu-id="6d854-300">Yammer</span><span class="sxs-lookup"><span data-stu-id="6d854-300">Yammer</span></span>
     
-- <span data-ttu-id="f166a-300">YouTube</span><span class="sxs-lookup"><span data-stu-id="f166a-300">YouTube</span></span>
+- <span data-ttu-id="6d854-301">YouTube</span><span class="sxs-lookup"><span data-stu-id="6d854-301">YouTube</span></span>
     
 
-### <a name="verba"></a><span data-ttu-id="f166a-301">Verba</span><span class="sxs-lookup"><span data-stu-id="f166a-301">Verba</span></span>
+### <a name="verba"></a><span data-ttu-id="6d854-302">Verba</span><span class="sxs-lookup"><span data-stu-id="6d854-302">Verba</span></span>
 
-<span data-ttu-id="f166a-302">[Verba](https://www.verba.com) 는 다음 타사 데이터 원본을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-302">[Verba](https://www.verba.com) supports the following third-party data sources:</span></span> 
+<span data-ttu-id="6d854-303">[Verba](https://www.verba.com) 는 다음 타사 데이터 원본을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-303">[Verba](https://www.verba.com) supports the following third-party data sources:</span></span> 
   
-- <span data-ttu-id="f166a-303">Avaya Aura Video</span><span class="sxs-lookup"><span data-stu-id="f166a-303">Avaya Aura Video</span></span>
+- <span data-ttu-id="6d854-304">Avaya Aura Video</span><span class="sxs-lookup"><span data-stu-id="6d854-304">Avaya Aura Video</span></span>
     
-- <span data-ttu-id="f166a-304">Avaya Aura Voice</span><span class="sxs-lookup"><span data-stu-id="f166a-304">Avaya Aura Voice</span></span>
+- <span data-ttu-id="6d854-305">Avaya Aura Voice</span><span class="sxs-lookup"><span data-stu-id="6d854-305">Avaya Aura Voice</span></span>
     
-- <span data-ttu-id="f166a-305">Avtec Radio</span><span class="sxs-lookup"><span data-stu-id="f166a-305">Avtec Radio</span></span>
+- <span data-ttu-id="6d854-306">Avtec Radio</span><span class="sxs-lookup"><span data-stu-id="6d854-306">Avtec Radio</span></span>
     
-- <span data-ttu-id="f166a-306">Bosch/Telex Radio</span><span class="sxs-lookup"><span data-stu-id="f166a-306">Bosch/Telex Radio</span></span>
+- <span data-ttu-id="6d854-307">Bosch/Telex Radio</span><span class="sxs-lookup"><span data-stu-id="6d854-307">Bosch/Telex Radio</span></span>
     
-- <span data-ttu-id="f166a-307">BroadSoft Video</span><span class="sxs-lookup"><span data-stu-id="f166a-307">BroadSoft Video</span></span>
+- <span data-ttu-id="6d854-308">BroadSoft Video</span><span class="sxs-lookup"><span data-stu-id="6d854-308">BroadSoft Video</span></span>
     
-- <span data-ttu-id="f166a-308">BroadSoft Voice</span><span class="sxs-lookup"><span data-stu-id="f166a-308">BroadSoft Voice</span></span>
+- <span data-ttu-id="6d854-309">BroadSoft Voice</span><span class="sxs-lookup"><span data-stu-id="6d854-309">BroadSoft Voice</span></span>
     
-- <span data-ttu-id="f166a-309">Centile Voice</span><span class="sxs-lookup"><span data-stu-id="f166a-309">Centile Voice</span></span>
+- <span data-ttu-id="6d854-310">Centile Voice</span><span class="sxs-lookup"><span data-stu-id="6d854-310">Centile Voice</span></span>
     
-- <span data-ttu-id="f166a-310">Cisco Jabber IM</span><span class="sxs-lookup"><span data-stu-id="f166a-310">Cisco Jabber IM</span></span>
+- <span data-ttu-id="6d854-311">Cisco Jabber IM</span><span class="sxs-lookup"><span data-stu-id="6d854-311">Cisco Jabber IM</span></span>
     
-- <span data-ttu-id="f166a-311">Cisco UC Video</span><span class="sxs-lookup"><span data-stu-id="f166a-311">Cisco UC Video</span></span>
+- <span data-ttu-id="6d854-312">Cisco UC Video</span><span class="sxs-lookup"><span data-stu-id="6d854-312">Cisco UC Video</span></span>
     
-- <span data-ttu-id="f166a-312">Cisco UC Voice</span><span class="sxs-lookup"><span data-stu-id="f166a-312">Cisco UC Voice</span></span>
+- <span data-ttu-id="6d854-313">Cisco UC Voice</span><span class="sxs-lookup"><span data-stu-id="6d854-313">Cisco UC Voice</span></span>
     
-- <span data-ttu-id="f166a-313">Cisco c s p/c h i v 비디오</span><span class="sxs-lookup"><span data-stu-id="f166a-313">Cisco UCCX/UCCE Video</span></span>
+- <span data-ttu-id="6d854-314">Cisco c s p/c h i v 비디오</span><span class="sxs-lookup"><span data-stu-id="6d854-314">Cisco UCCX/UCCE Video</span></span>
     
-- <span data-ttu-id="f166a-314">Cisco c s p/c h 음성</span><span class="sxs-lookup"><span data-stu-id="f166a-314">Cisco UCCX/UCCE Voice</span></span>
+- <span data-ttu-id="6d854-315">Cisco c s p/c h 음성</span><span class="sxs-lookup"><span data-stu-id="6d854-315">Cisco UCCX/UCCE Voice</span></span>
     
-- <span data-ttu-id="f166a-315">ESChat Radio</span><span class="sxs-lookup"><span data-stu-id="f166a-315">ESChat Radio</span></span>
+- <span data-ttu-id="6d854-316">ESChat Radio</span><span class="sxs-lookup"><span data-stu-id="6d854-316">ESChat Radio</span></span>
     
-- <span data-ttu-id="f166a-316">Geoman Contact Expert</span><span class="sxs-lookup"><span data-stu-id="f166a-316">Geoman Contact Expert</span></span>
+- <span data-ttu-id="6d854-317">Geoman Contact Expert</span><span class="sxs-lookup"><span data-stu-id="6d854-317">Geoman Contact Expert</span></span>
     
-- <span data-ttu-id="f166a-317">IP Trade Voice</span><span class="sxs-lookup"><span data-stu-id="f166a-317">IP Trade Voice</span></span>
+- <span data-ttu-id="6d854-318">IP Trade Voice</span><span class="sxs-lookup"><span data-stu-id="6d854-318">IP Trade Voice</span></span>
     
-- <span data-ttu-id="f166a-318">Luware LUCS Contact Center</span><span class="sxs-lookup"><span data-stu-id="f166a-318">Luware LUCS Contact Center</span></span>
+- <span data-ttu-id="6d854-319">Luware LUCS Contact Center</span><span class="sxs-lookup"><span data-stu-id="6d854-319">Luware LUCS Contact Center</span></span>
     
-- <span data-ttu-id="f166a-319">Microsoft UC(Unified Communications)</span><span class="sxs-lookup"><span data-stu-id="f166a-319">Microsoft UC (Unified Communications)</span></span>
+- <span data-ttu-id="6d854-320">Microsoft UC(Unified Communications)</span><span class="sxs-lookup"><span data-stu-id="6d854-320">Microsoft UC (Unified Communications)</span></span>
     
-- <span data-ttu-id="f166a-320">Mitel MiContact Center for Lync(prairieFyre)</span><span class="sxs-lookup"><span data-stu-id="f166a-320">Mitel MiContact Center for Lync (prairieFyre)</span></span>
+- <span data-ttu-id="6d854-321">Mitel MiContact Center for Lync(prairieFyre)</span><span class="sxs-lookup"><span data-stu-id="6d854-321">Mitel MiContact Center for Lync (prairieFyre)</span></span>
     
-- <span data-ttu-id="f166a-321">Oracle/Acme Packet Session Border Controller Video</span><span class="sxs-lookup"><span data-stu-id="f166a-321">Oracle / Acme Packet Session Border Controller Video</span></span>
+- <span data-ttu-id="6d854-322">Oracle/Acme Packet Session Border Controller Video</span><span class="sxs-lookup"><span data-stu-id="6d854-322">Oracle / Acme Packet Session Border Controller Video</span></span>
     
-- <span data-ttu-id="f166a-322">Oracle/Acme Packet Session Border Controller Voice</span><span class="sxs-lookup"><span data-stu-id="f166a-322">Oracle / Acme Packet Session Border Controller Voice</span></span>
+- <span data-ttu-id="6d854-323">Oracle/Acme Packet Session Border Controller Voice</span><span class="sxs-lookup"><span data-stu-id="6d854-323">Oracle / Acme Packet Session Border Controller Voice</span></span>
     
-- <span data-ttu-id="f166a-323">Singtel Mobile Voice</span><span class="sxs-lookup"><span data-stu-id="f166a-323">Singtel Mobile Voice</span></span>
+- <span data-ttu-id="6d854-324">Singtel Mobile Voice</span><span class="sxs-lookup"><span data-stu-id="6d854-324">Singtel Mobile Voice</span></span>
     
-- <span data-ttu-id="f166a-324">SIPREC Video</span><span class="sxs-lookup"><span data-stu-id="f166a-324">SIPREC Video</span></span>
+- <span data-ttu-id="6d854-325">SIPREC Video</span><span class="sxs-lookup"><span data-stu-id="6d854-325">SIPREC Video</span></span>
     
--  <span data-ttu-id="f166a-325">SIPREC Voice</span><span class="sxs-lookup"><span data-stu-id="f166a-325">SIPREC Voice</span></span> 
+-  <span data-ttu-id="6d854-326">SIPREC Voice</span><span class="sxs-lookup"><span data-stu-id="6d854-326">SIPREC Voice</span></span> 
     
-- <span data-ttu-id="f166a-326">비즈니스용 Skype/Lync IM</span><span class="sxs-lookup"><span data-stu-id="f166a-326">Skype for Business / Lync IM</span></span>
+- <span data-ttu-id="6d854-327">비즈니스용 Skype/Lync IM</span><span class="sxs-lookup"><span data-stu-id="6d854-327">Skype for Business / Lync IM</span></span>
     
-- <span data-ttu-id="f166a-327">비즈니스용 Skype/Lync Video</span><span class="sxs-lookup"><span data-stu-id="f166a-327">Skype for Business / Lync Video</span></span>
+- <span data-ttu-id="6d854-328">비즈니스용 Skype/Lync Video</span><span class="sxs-lookup"><span data-stu-id="6d854-328">Skype for Business / Lync Video</span></span>
     
-- <span data-ttu-id="f166a-328">비즈니스용 Skype/Lync Voice</span><span class="sxs-lookup"><span data-stu-id="f166a-328">Skype for Business / Lync Voice</span></span>
+- <span data-ttu-id="6d854-329">비즈니스용 Skype/Lync Voice</span><span class="sxs-lookup"><span data-stu-id="6d854-329">Skype for Business / Lync Voice</span></span>
     
-- <span data-ttu-id="f166a-329">Speakerbus Voice</span><span class="sxs-lookup"><span data-stu-id="f166a-329">Speakerbus Voice</span></span>
+- <span data-ttu-id="6d854-330">Speakerbus Voice</span><span class="sxs-lookup"><span data-stu-id="6d854-330">Speakerbus Voice</span></span>
     
-- <span data-ttu-id="f166a-330">Standard SIP/H.323 Video</span><span class="sxs-lookup"><span data-stu-id="f166a-330">Standard SIP/H.323 Video</span></span>
+- <span data-ttu-id="6d854-331">Standard SIP/H.323 Video</span><span class="sxs-lookup"><span data-stu-id="6d854-331">Standard SIP/H.323 Video</span></span>
     
-- <span data-ttu-id="f166a-331">Standard SIP/H.323 Voice</span><span class="sxs-lookup"><span data-stu-id="f166a-331">Standard SIP/H.323 Voice</span></span>
+- <span data-ttu-id="6d854-332">Standard SIP/H.323 Voice</span><span class="sxs-lookup"><span data-stu-id="6d854-332">Standard SIP/H.323 Voice</span></span>
     
-- <span data-ttu-id="f166a-332">Truphone Voice</span><span class="sxs-lookup"><span data-stu-id="f166a-332">Truphone Voice</span></span>
+- <span data-ttu-id="6d854-333">Truphone Voice</span><span class="sxs-lookup"><span data-stu-id="6d854-333">Truphone Voice</span></span>
     
-- <span data-ttu-id="f166a-333">TwistedPair Radio</span><span class="sxs-lookup"><span data-stu-id="f166a-333">TwistedPair Radio</span></span>
+- <span data-ttu-id="6d854-334">TwistedPair Radio</span><span class="sxs-lookup"><span data-stu-id="6d854-334">TwistedPair Radio</span></span>
     
-- <span data-ttu-id="f166a-334">Windows 데스크톱 컴퓨터 화면</span><span class="sxs-lookup"><span data-stu-id="f166a-334">Windows Desktop Computer Screen</span></span>
+- <span data-ttu-id="6d854-335">Windows 데스크톱 컴퓨터 화면</span><span class="sxs-lookup"><span data-stu-id="6d854-335">Windows Desktop Computer Screen</span></span>
   
-## <a name="step-2-create-and-configure-a-third-party-data-mailbox-in-office-365"></a><span data-ttu-id="f166a-335">2단계: Office 365에서 타사 데이터 사서함 만들기 및 구성</span><span class="sxs-lookup"><span data-stu-id="f166a-335">Step 2: Create and configure a third-party data mailbox in Office 365</span></span>
+## <a name="step-2-create-and-configure-a-third-party-data-mailbox-in-office-365"></a><span data-ttu-id="6d854-336">2단계: Office 365에서 타사 데이터 사서함 만들기 및 구성</span><span class="sxs-lookup"><span data-stu-id="6d854-336">Step 2: Create and configure a third-party data mailbox in Office 365</span></span>
 
-<span data-ttu-id="f166a-336">다음은 Office 365로 데이터를 가져오기 위한 타사 데이터 사서함을 만들고 구성 하는 단계입니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-336">Here are the steps for creating and configuring a third-party data mailbox for importing data to Office 365.</span></span> <span data-ttu-id="f166a-337">앞에서 설명한 것 처럼 파트너 커넥터에서 항목의 사용자 ID를 사용자 계정에 매핑할 수 없는 경우에는이 사서함으로 항목을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-337">As previous explained, items are imported to this mailbox if the partner connector can't map the user ID of the item to an user account.</span></span>
+<span data-ttu-id="6d854-337">다음은 Office 365로 데이터를 가져오기 위한 타사 데이터 사서함을 만들고 구성 하는 단계입니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-337">Here are the steps for creating and configuring a third-party data mailbox for importing data to Office 365.</span></span> <span data-ttu-id="6d854-338">앞에서 설명한 것 처럼 파트너 커넥터에서 항목의 사용자 ID를 사용자 계정에 매핑할 수 없는 경우에는이 사서함으로 항목을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-338">As previous explained, items are imported to this mailbox if the partner connector can't map the user ID of the item to a user account.</span></span>
   
- <span data-ttu-id="f166a-338">**Microsoft 365 관리 센터에서이 작업 완료**</span><span class="sxs-lookup"><span data-stu-id="f166a-338">**Complete these tasks in the Microsoft 365 admin center**</span></span>
+ <span data-ttu-id="6d854-339">**Microsoft 365 관리 센터에서이 작업 완료**</span><span class="sxs-lookup"><span data-stu-id="6d854-339">**Complete these tasks in the Microsoft 365 admin center**</span></span>
   
-1. <span data-ttu-id="f166a-339">사용자 계정을 만들고이 계정에 Exchange Online 계획 2 라이선스를 할당 합니다. [Office 365에 사용자 추가를](https://go.microsoft.com/fwlink/p/?LinkId=692098)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f166a-339">Create a user account and assign it an Exchange Online Plan 2 license; see [Add users to Office 365](https://go.microsoft.com/fwlink/p/?LinkId=692098).</span></span> <span data-ttu-id="f166a-340">계획 2 라이선스는 사서함을 소송 보존 상태로 설정 하거나 저장소 할당량이 무제한 인 보관 사서함을 사용 하는 데 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-340">A Plan 2 license is required to place the mailbox on Litigation Hold or enable an archive mailbox that has an unlimited storage quota.</span></span>
+1. <span data-ttu-id="6d854-340">사용자 계정을 만들고이 계정에 Exchange Online 계획 2 라이선스를 할당 합니다. [Office 365에 사용자 추가를](https://go.microsoft.com/fwlink/p/?LinkId=692098)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6d854-340">Create a user account and assign it an Exchange Online Plan 2 license; see [Add users to Office 365](https://go.microsoft.com/fwlink/p/?LinkId=692098).</span></span> <span data-ttu-id="6d854-341">계획 2 라이선스는 사서함을 소송 보존 상태로 설정 하거나 저장소 할당량이 무제한 인 보관 사서함을 사용 하는 데 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-341">A Plan 2 license is required to place the mailbox on Litigation Hold or enable an archive mailbox that has an unlimited storage quota.</span></span>
     
-2. <span data-ttu-id="f166a-341">타사 데이터 사서함에 대 한 사용자 계정을 Office 365의 **Exchange 관리자** 관리자 역할에 추가 합니다. [Office 365에서 관리자 역할 할당을](https://go.microsoft.com/fwlink/p/?LinkId=532393)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f166a-341">Add the user account for the third-party data mailbox to the **Exchange administrator** admin role in Office 365; see [Assign admin roles in Office 365](https://go.microsoft.com/fwlink/p/?LinkId=532393).</span></span>
+2. <span data-ttu-id="6d854-342">타사 데이터 사서함에 대 한 사용자 계정을 Office 365의 **Exchange 관리자** 관리자 역할에 추가 합니다. [Office 365에서 관리자 역할 할당을](https://go.microsoft.com/fwlink/p/?LinkId=532393)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6d854-342">Add the user account for the third-party data mailbox to the **Exchange administrator** admin role in Office 365; see [Assign admin roles in Office 365](https://go.microsoft.com/fwlink/p/?LinkId=532393).</span></span>
     
     > [!TIP]
-    > <span data-ttu-id="f166a-342">이 사용자 계정의 자격 증명을 기록해 둡니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-342">Write down the credentials for this user account.</span></span> <span data-ttu-id="f166a-343">4단계에서 설명한 것처럼 파트너에게 제공해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-343">You need to provide them to your partner, as described in Step 4.</span></span> 
+    > <span data-ttu-id="6d854-343">이 사용자 계정의 자격 증명을 기록해 둡니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-343">Write down the credentials for this user account.</span></span> <span data-ttu-id="6d854-344">4단계에서 설명한 것처럼 파트너에게 제공해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-344">You need to provide them to your partner, as described in Step 4.</span></span> 
   
- <span data-ttu-id="f166a-344">**Exchange 관리 센터에서 다음 작업 완료**</span><span class="sxs-lookup"><span data-stu-id="f166a-344">**Complete these tasks in the Exchange admin center**</span></span>
+ <span data-ttu-id="6d854-345">**Exchange 관리 센터에서 다음 작업 완료**</span><span class="sxs-lookup"><span data-stu-id="6d854-345">**Complete these tasks in the Exchange admin center**</span></span>
   
-1. <span data-ttu-id="f166a-345">조직의 주소록 및 기타 주소 목록에서 타사 데이터 사서함을 숨깁니다. [사용자 사서함 관리](https://go.microsoft.com/fwlink/p/?LinkId=616058)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f166a-345">Hide the third-party data mailbox from the address book and other address lists in your organization; see [Manage user mailboxes](https://go.microsoft.com/fwlink/p/?LinkId=616058).</span></span> <span data-ttu-id="f166a-346">또는 다음 PowerShell 명령을 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-346">Alternatively, you can run the following PowerShell command:</span></span>
+1. <span data-ttu-id="6d854-346">조직의 주소록 및 기타 주소 목록에서 타사 데이터 사서함을 숨깁니다. [사용자 사서함 관리](https://go.microsoft.com/fwlink/p/?LinkId=616058)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6d854-346">Hide the third-party data mailbox from the address book and other address lists in your organization; see [Manage user mailboxes](https://go.microsoft.com/fwlink/p/?LinkId=616058).</span></span> <span data-ttu-id="6d854-347">또는 다음 PowerShell 명령을 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-347">Alternatively, you can run the following PowerShell command:</span></span>
     
     ```powershell
     Set-Mailbox -Identity <identity of third-party data mailbox> -HiddenFromAddressListsEnabled $true
     ```
 
-2. <span data-ttu-id="f166a-347">Administrators 또는 규정 준수 관리자가 Outlook 데스크톱 클라이언트에서 타사 데이터 사서함을 열 수 있도록 타사 데이터 사서함에 대 한 **FullAccess** 권한을 할당 합니다. [받는 사람의 사용 권한 관리를](https://go.microsoft.com/fwlink/p/?LinkId=692104)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f166a-347">Assign the **FullAccess** permission to the third-party data mailbox so that administrators or compliance officers can open the third-party data mailbox in the Outlook desktop client; see [Manage permissions for recipients](https://go.microsoft.com/fwlink/p/?LinkId=692104).</span></span>
+2. <span data-ttu-id="6d854-348">Administrators 또는 규정 준수 관리자가 Outlook 데스크톱 클라이언트에서 타사 데이터 사서함을 열 수 있도록 타사 데이터 사서함에 대 한 **FullAccess** 권한을 할당 합니다. [받는 사람의 사용 권한 관리를](https://go.microsoft.com/fwlink/p/?LinkId=692104)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6d854-348">Assign the **FullAccess** permission to the third-party data mailbox so that administrators or compliance officers can open the third-party data mailbox in the Outlook desktop client; see [Manage permissions for recipients](https://go.microsoft.com/fwlink/p/?LinkId=692104).</span></span>
     
-3. <span data-ttu-id="f166a-348">타사 데이터 사서함에 대해 다음과 같은 준수 관련 기능을 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-348">Enable the following compliance-related features for the third-party data mailbox:</span></span>
+3. <span data-ttu-id="6d854-349">타사 데이터 사서함에 대해 다음과 같은 준수 관련 기능을 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-349">Enable the following compliance-related features for the third-party data mailbox:</span></span>
     
-    - <span data-ttu-id="f166a-349">보관 사서함을 사용 하도록 설정 합니다. [보관 사서함 사용](enable-archive-mailboxes.md) 및 [무제한 보관 사용](enable-unlimited-archiving.md)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f166a-349">Enable the archive mailbox; see [Enable archive mailboxes](enable-archive-mailboxes.md) and [Enable unlimited archiving](enable-unlimited-archiving.md).</span></span> <span data-ttu-id="f166a-350">이렇게 하면 타사 데이터 항목을 보관 사서함으로 이동 하는 보관 정책을 설정 하 여 기본 사서함의 저장 공간을 확보할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-350">This lets you free-up storage space in the primary mailbox by setting up an archive policy that moves third-party data items to the archive mailbox.</span></span> <span data-ttu-id="f166a-351">이를 통해 타사 데이터에 대해 무제한 저장소를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-351">This provides you with unlimited storage for third-party data.</span></span>
+    - <span data-ttu-id="6d854-350">보관 사서함을 사용 하도록 설정 합니다. [보관 사서함 사용](enable-archive-mailboxes.md) 및 [무제한 보관 사용](enable-unlimited-archiving.md)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6d854-350">Enable the archive mailbox; see [Enable archive mailboxes](enable-archive-mailboxes.md) and [Enable unlimited archiving](enable-unlimited-archiving.md).</span></span> <span data-ttu-id="6d854-351">이렇게 하면 타사 데이터 항목을 보관 사서함으로 이동 하는 보관 정책을 설정 하 여 기본 사서함의 저장 공간을 확보할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-351">This lets you free-up storage space in the primary mailbox by setting up an archive policy that moves third-party data items to the archive mailbox.</span></span> <span data-ttu-id="6d854-352">이를 통해 타사 데이터에 대해 무제한 저장소를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-352">This provides you with unlimited storage for third-party data.</span></span>
     
-    - <span data-ttu-id="f166a-352">타사 데이터 사서함에 소송 보존을 적용합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-352">Place the third-party data mailbox on Litigation Hold.</span></span> <span data-ttu-id="f166a-353">보안 및 준수 센터에서 Microsoft 365 보존 정책을 적용할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-353">You can also apply a Microsoft 365 retention policy in the security and compliance center.</span></span> <span data-ttu-id="f166a-354">이 사서함을 보류 상태로 두면 타사 데이터 항목 (무기한 또는 지정 된 기간 동안)이 유지 되 고 사서함에서 제거 되는 것을 방지할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-354">Placing this mailbox on hold retains third-party data items (indefinitely or for a specified duration) and prevent them from being purged from the mailbox.</span></span> <span data-ttu-id="f166a-355">다음 항목 중 하나를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f166a-355">See one of the following topics:</span></span>
+    - <span data-ttu-id="6d854-353">타사 데이터 사서함에 소송 보존을 적용합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-353">Place the third-party data mailbox on Litigation Hold.</span></span> <span data-ttu-id="6d854-354">보안 및 준수 센터에서 Microsoft 365 보존 정책을 적용할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-354">You can also apply a Microsoft 365 retention policy in the security and compliance center.</span></span> <span data-ttu-id="6d854-355">이 사서함을 보류 상태로 두면 타사 데이터 항목 (무기한 또는 지정 된 기간 동안)이 유지 되 고 사서함에서 제거 되는 것을 방지할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-355">Placing this mailbox on hold retains third-party data items (indefinitely or for a specified duration) and prevent them from being purged from the mailbox.</span></span> <span data-ttu-id="6d854-356">다음 항목 중 하나를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6d854-356">See one of the following topics:</span></span>
     
-      - [<span data-ttu-id="f166a-356">사서함을 소송 자료 보존으로 설정</span><span class="sxs-lookup"><span data-stu-id="f166a-356">Place a mailbox on Litigation Hold</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=404420)
+      - [<span data-ttu-id="6d854-357">사서함을 소송 자료 보존으로 설정</span><span class="sxs-lookup"><span data-stu-id="6d854-357">Place a mailbox on Litigation Hold</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=404420)
     
-      - [<span data-ttu-id="f166a-357">보존 정책 및 보존 레이블에 대 한 자세한 정보</span><span class="sxs-lookup"><span data-stu-id="f166a-357">Learn about retention policies and retention labels</span></span>](retention.md)
+      - [<span data-ttu-id="6d854-358">보존 정책 및 보존 레이블에 대해 알아보기</span><span class="sxs-lookup"><span data-stu-id="6d854-358">Learn about retention policies and retention labels</span></span>](retention.md)
     
-    - <span data-ttu-id="f166a-358">타사 데이터 사서함에 대 한 소유자, 대리인 및 관리자 액세스에 대 한 사서함 감사 로깅을 사용 하도록 설정 합니다. [사서함 감사 사용](enable-mailbox-auditing.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="f166a-358">Enable mailbox audit logging for owner, delegate, and admin access to the third-party data mailbox; see [Enable mailbox auditing](enable-mailbox-auditing.md).</span></span> <span data-ttu-id="f166a-359">이렇게 하면 타사 데이터 사서함에 대 한 액세스 권한이 있는 모든 사용자가 수행한 모든 작업을 감사할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-359">This allows you to audit all activity performed by any user who has access to the third-party data mailbox.</span></span>
+    - <span data-ttu-id="6d854-359">타사 데이터 사서함에 대 한 소유자, 대리인 및 관리자 액세스에 대 한 사서함 감사 로깅을 사용 하도록 설정 합니다. [사서함 감사 사용](enable-mailbox-auditing.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="6d854-359">Enable mailbox audit logging for owner, delegate, and admin access to the third-party data mailbox; see [Enable mailbox auditing](enable-mailbox-auditing.md).</span></span> <span data-ttu-id="6d854-360">이렇게 하면 타사 데이터 사서함에 대 한 액세스 권한이 있는 모든 사용자가 수행한 모든 작업을 감사할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-360">This allows you to audit all activity performed by any user who has access to the third-party data mailbox.</span></span>
 
-## <a name="step-3-configure-user-mailboxes-for-third-party-data"></a><span data-ttu-id="f166a-360">3단계: 타사 데이터에 대한 사용자 사서함 구성</span><span class="sxs-lookup"><span data-stu-id="f166a-360">Step 3: Configure user mailboxes for third-party data</span></span>
+## <a name="step-3-configure-user-mailboxes-for-third-party-data"></a><span data-ttu-id="6d854-361">3단계: 타사 데이터에 대한 사용자 사서함 구성</span><span class="sxs-lookup"><span data-stu-id="6d854-361">Step 3: Configure user mailboxes for third-party data</span></span>
 
-<span data-ttu-id="f166a-361">다음 단계는 타사 데이터를 지원하도록 사용자 사서함을 구성하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-361">The next step is to configure user mailboxes to support third-party data.</span></span> <span data-ttu-id="f166a-362">Exchange 관리 센터를 사용 하거나 해당 Windows PowerShell cmdlet을 사용 하 여 이러한 작업을 완료 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-362">Complete these tasks by using the Exchange admin center or by using the corresponding Windows PowerShell cmdlets.</span></span>
+<span data-ttu-id="6d854-362">다음 단계는 타사 데이터를 지원하도록 사용자 사서함을 구성하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-362">The next step is to configure user mailboxes to support third-party data.</span></span> <span data-ttu-id="6d854-363">Exchange 관리 센터를 사용 하거나 해당 Windows PowerShell cmdlet을 사용 하 여 이러한 작업을 완료 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-363">Complete these tasks by using the Exchange admin center or by using the corresponding Windows PowerShell cmdlets.</span></span>
   
-1. <span data-ttu-id="f166a-363">각 사용자에 대해 보관 사서함을 사용 하도록 설정 합니다. [보관 사서함 사용](enable-archive-mailboxes.md) 및 [무제한 보관 사용](enable-unlimited-archiving.md)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f166a-363">Enable the archive mailbox for each user; see [Enable archive mailboxes](enable-archive-mailboxes.md) and [Enable unlimited archiving](enable-unlimited-archiving.md).</span></span>
+1. <span data-ttu-id="6d854-364">각 사용자에 대해 보관 사서함을 사용 하도록 설정 합니다. [보관 사서함 사용](enable-archive-mailboxes.md) 및 [무제한 보관 사용](enable-unlimited-archiving.md)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6d854-364">Enable the archive mailbox for each user; see [Enable archive mailboxes](enable-archive-mailboxes.md) and [Enable unlimited archiving](enable-unlimited-archiving.md).</span></span>
     
-2. <span data-ttu-id="f166a-364">사용자 사서함을 소송 보존으로 설정 하거나 Microsoft 365 보관 정책을 적용 합니다. 다음 항목 중 하나를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f166a-364">Place user mailboxes on Litigation Hold or apply a Microsoft 365 retention policy; see one of the following topics:</span></span> 
+2. <span data-ttu-id="6d854-365">사용자 사서함을 소송 보존으로 설정 하거나 Microsoft 365 보관 정책을 적용 합니다. 다음 항목 중 하나를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6d854-365">Place user mailboxes on Litigation Hold or apply a Microsoft 365 retention policy; see one of the following topics:</span></span> 
     
-    - [<span data-ttu-id="f166a-365">사서함을 소송 자료 보존으로 설정</span><span class="sxs-lookup"><span data-stu-id="f166a-365">Place a mailbox on Litigation Hold</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=404420)
+    - [<span data-ttu-id="6d854-366">사서함을 소송 자료 보존으로 설정</span><span class="sxs-lookup"><span data-stu-id="6d854-366">Place a mailbox on Litigation Hold</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=404420)
     
-    - [<span data-ttu-id="f166a-366">보존 정책 및 보존 레이블에 대 한 자세한 정보</span><span class="sxs-lookup"><span data-stu-id="f166a-366">Learn about retention policies and retention labels</span></span>](retention.md)
+    - [<span data-ttu-id="6d854-367">보존 정책 및 보존 레이블에 대해 알아보기</span><span class="sxs-lookup"><span data-stu-id="6d854-367">Learn about retention policies and retention labels</span></span>](retention.md)
     
-    <span data-ttu-id="f166a-367">앞서 언급한 것처럼 사서함을 보존하면 타사 데이터 원본의 항목을 보존하는 기간을 설정하거나 항목을 무기한 보존하도록 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-367">As previously stated, when you place mailboxes on hold, you can set a duration for how long to hold items from the third-party data source or you can choose to hold items indefinitely.</span></span>
+    <span data-ttu-id="6d854-368">앞서 언급한 것처럼 사서함을 보존하면 타사 데이터 원본의 항목을 보존하는 기간을 설정하거나 항목을 무기한 보존하도록 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-368">As previously stated, when you place mailboxes on hold, you can set a duration for how long to hold items from the third-party data source or you can choose to hold items indefinitely.</span></span>
 
-## <a name="step-4-provide-your-partner-with-information"></a><span data-ttu-id="f166a-368">4단계: 파트너에게 정보 제공</span><span class="sxs-lookup"><span data-stu-id="f166a-368">Step 4: Provide your partner with information</span></span>
+## <a name="step-4-provide-your-partner-with-information"></a><span data-ttu-id="6d854-369">4단계: 파트너에게 정보 제공</span><span class="sxs-lookup"><span data-stu-id="6d854-369">Step 4: Provide your partner with information</span></span>
 
-<span data-ttu-id="f166a-369">마지막 단계는 조직에 연결 하 여 데이터를 사용자 사서함 및 타사 데이터 사서함으로 가져오기 위해 커넥터를 구성할 수 있도록 파트너에 게 다음 정보를 제공 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-369">The final step is to provide your partner with the following information so they can configure the connector to connect to your organization to import data to user mailboxes and to the third-party data mailbox.</span></span> 
+<span data-ttu-id="6d854-370">마지막 단계는 조직에 연결 하 여 데이터를 사용자 사서함 및 타사 데이터 사서함으로 가져오기 위해 커넥터를 구성할 수 있도록 파트너에 게 다음 정보를 제공 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-370">The final step is to provide your partner with the following information so they can configure the connector to connect to your organization to import data to user mailboxes and to the third-party data mailbox.</span></span> 
   
-- <span data-ttu-id="f166a-370">Office 365에서 Azure 서비스에 연결 하는 데 사용 되는 끝점:</span><span class="sxs-lookup"><span data-stu-id="f166a-370">The endpoint used to connect to the Azure service in Office 365:</span></span>
+- <span data-ttu-id="6d854-371">Office 365에서 Azure 서비스에 연결 하는 데 사용 되는 끝점:</span><span class="sxs-lookup"><span data-stu-id="6d854-371">The endpoint used to connect to the Azure service in Office 365:</span></span>
 
     ```http
     https://office365ingestionsvc.gble1.protection.outlook.com/service/ThirdPartyIngestionService.svc
     ```
 
-- <span data-ttu-id="f166a-371">2 단계에서 만든 타사 데이터 사서함의 로그인 자격 증명 (Microsoft 365 사용자 ID 및 암호)입니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-371">The sign-in credentials (Microsoft 365 user ID and password) of the third-party data mailbox that you created in Step 2.</span></span> <span data-ttu-id="f166a-372">이러한 자격 증명은 파트너 커넥터가 항목을 액세스하고 사용자 사서함 및 타사 데이터 사서함으로 가져올 수 있도록 하는 데 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-372">These credentials are required so that the partner connector can access and import items to user mailboxes and to the third-party data mailbox.</span></span>
+- <span data-ttu-id="6d854-372">2 단계에서 만든 타사 데이터 사서함의 로그인 자격 증명 (Microsoft 365 사용자 ID 및 암호)입니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-372">The sign-in credentials (Microsoft 365 user ID and password) of the third-party data mailbox that you created in Step 2.</span></span> <span data-ttu-id="6d854-373">이러한 자격 증명은 파트너 커넥터가 항목을 액세스하고 사용자 사서함 및 타사 데이터 사서함으로 가져올 수 있도록 하는 데 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-373">These credentials are required so that the partner connector can access and import items to user mailboxes and to the third-party data mailbox.</span></span>
  
-## <a name="step-5-register-the-third-party-data-connector-in-azure-active-directory"></a><span data-ttu-id="f166a-373">5 단계: Azure Active Directory에서 타사 데이터 커넥터 등록</span><span class="sxs-lookup"><span data-stu-id="f166a-373">Step 5: Register the third-party data connector in Azure Active Directory</span></span>
+## <a name="step-5-register-the-third-party-data-connector-in-azure-active-directory"></a><span data-ttu-id="6d854-374">5 단계: Azure Active Directory에서 타사 데이터 커넥터 등록</span><span class="sxs-lookup"><span data-stu-id="6d854-374">Step 5: Register the third-party data connector in Azure Active Directory</span></span>
 
-<span data-ttu-id="f166a-374">2018 년 9 월 30 일부 부터는 Office 365의 Azure 서비스가 Exchange Online의 최신 인증을 사용 하 여 데이터를 가져오기 위해 조직에 연결을 시도 하는 타사 데이터 커넥터를 인증 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-374">Starting September 30, 2018, the Azure service in Office 365 will begin using modern authentication in Exchange Online to authenticate third-party data connectors that attempt to connect to your organization to import data.</span></span> <span data-ttu-id="f166a-375">이러한 변경이 발생 하는 이유는 최신 인증이 이전에 설명한 끝점을 사용 하 여 Azure 서비스에 연결 하는 타사 커넥터에 대 한 허용 목록을 기반으로 하는 현재 방법 보다 더 많은 보안을 제공 한다는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-375">The reason for this change is that modern authentication provides more security than the current method, which was based on an allow list for third-party connectors that use the previously described endpoint to connect to the Azure service.</span></span>
+<span data-ttu-id="6d854-375">2018 년 9 월 30 일부 부터는 Office 365의 Azure 서비스가 Exchange Online의 최신 인증을 사용 하 여 데이터를 가져오기 위해 조직에 연결을 시도 하는 타사 데이터 커넥터를 인증 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-375">Starting September 30, 2018, the Azure service in Office 365 will begin using modern authentication in Exchange Online to authenticate third-party data connectors that attempt to connect to your organization to import data.</span></span> <span data-ttu-id="6d854-376">이러한 변경이 발생 하는 이유는 최신 인증이 이전에 설명한 끝점을 사용 하 여 Azure 서비스에 연결 하는 타사 커넥터에 대 한 허용 목록을 기반으로 하는 현재 방법 보다 더 많은 보안을 제공 한다는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-376">The reason for this change is that modern authentication provides more security than the current method, which was based on an allow list for third-party connectors that use the previously described endpoint to connect to the Azure service.</span></span>
 
-<span data-ttu-id="f166a-376">최신 인증 방법을 사용 하 여 타사 데이터 커넥터에서 Office 365에 연결할 수 있도록 하려면 조직의 관리자가 해당 커넥터를 Azure Active Directory의 신뢰할 수 있는 서비스 응용 프로그램으로 등록 하는 것이 동의 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-376">To enable a third-party data connector to connect to Office 365 using the new modern authentication method, an administrator in your organization must consent to register the connector as a trusted service application in Azure Active Directory.</span></span> <span data-ttu-id="f166a-377">이 작업은 사용 권한 요청을 수락 하 여 커넥터가 Azure Active Directory에서 조직의 데이터에 액세스할 수 있도록 허용 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-377">This is done by accepting a permission request to allow the connector to access your organization's data in Azure Active Directory.</span></span> <span data-ttu-id="f166a-378">이 요청을 수락 하면 타사 데이터 커넥터가 엔터프라이즈 응용 프로그램으로 Azure Active Directory에 추가 되 고 서비스 사용자로 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-378">After you accept this request, the third-party data connector is added as an enterprise application to Azure Active Directory and represented as a service principal.</span></span> <span data-ttu-id="f166a-379">승인 프로세스에 대 한 자세한 내용은 [테 넌 트 관리자 동의](https://docs.microsoft.com/skype-sdk/trusted-application-api/docs/tenantadminconsent)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="f166a-379">For more information the consent process, see  [Tenant Admin Consent](https://docs.microsoft.com/skype-sdk/trusted-application-api/docs/tenantadminconsent).</span></span>
+<span data-ttu-id="6d854-377">최신 인증 방법을 사용 하 여 타사 데이터 커넥터에서 Office 365에 연결할 수 있도록 하려면 조직의 관리자가 해당 커넥터를 Azure Active Directory의 신뢰할 수 있는 서비스 응용 프로그램으로 등록 하는 것이 동의 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-377">To enable a third-party data connector to connect to Office 365 using the new modern authentication method, an administrator in your organization must consent to register the connector as a trusted service application in Azure Active Directory.</span></span> <span data-ttu-id="6d854-378">이 작업은 사용 권한 요청을 수락 하 여 커넥터가 Azure Active Directory에서 조직의 데이터에 액세스할 수 있도록 허용 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-378">This is done by accepting a permission request to allow the connector to access your organization's data in Azure Active Directory.</span></span> <span data-ttu-id="6d854-379">이 요청을 수락 하면 타사 데이터 커넥터가 엔터프라이즈 응용 프로그램으로 Azure Active Directory에 추가 되 고 서비스 사용자로 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-379">After you accept this request, the third-party data connector is added as an enterprise application to Azure Active Directory and represented as a service principal.</span></span> <span data-ttu-id="6d854-380">승인 프로세스에 대 한 자세한 내용은  [테 넌 트 관리자 동의](https://docs.microsoft.com/skype-sdk/trusted-application-api/docs/tenantadminconsent)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="6d854-380">For more information the consent process, see  [Tenant Admin Consent](https://docs.microsoft.com/skype-sdk/trusted-application-api/docs/tenantadminconsent).</span></span>
 
-<span data-ttu-id="f166a-380">커넥터 등록을 위한 요청에 액세스 하 고 수락 하는 단계는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-380">Here are the steps to access and accept the request to register the connector:</span></span>
+<span data-ttu-id="6d854-381">커넥터 등록을 위한 요청에 액세스 하 고 수락 하는 단계는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-381">Here are the steps to access and accept the request to register the connector:</span></span>
 
-1. <span data-ttu-id="f166a-381">[이 페이지로](https://login.microsoftonline.com/common/oauth2/authorize?client_id=8dfbc50b-2111-4d03-9b4d-dd0d00aae7a2&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) 이동 하 여 전역 관리자의 자격 증명을 사용 하 여 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-381">Go to [this page](https://login.microsoftonline.com/common/oauth2/authorize?client_id=8dfbc50b-2111-4d03-9b4d-dd0d00aae7a2&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) and sign in using the credentials of a global administrator.</span></span>
+1. <span data-ttu-id="6d854-382">[이 페이지로](https://login.microsoftonline.com/common/oauth2/authorize?client_id=8dfbc50b-2111-4d03-9b4d-dd0d00aae7a2&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) 이동 하 여 전역 관리자의 자격 증명을 사용 하 여 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-382">Go to [this page](https://login.microsoftonline.com/common/oauth2/authorize?client_id=8dfbc50b-2111-4d03-9b4d-dd0d00aae7a2&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) and sign in using the credentials of a global administrator.</span></span>
 
-   <span data-ttu-id="f166a-382">다음 대화 상자가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-382">The following dialog box is displayed.</span></span> <span data-ttu-id="f166a-383">Carets를 확장 하 여 커넥터에 할당 되는 사용 권한을 검토할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-383">You can expand the carets to review the permissions that will be assigned to the connector.</span></span>
+   <span data-ttu-id="6d854-383">다음 대화 상자가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-383">The following dialog box is displayed.</span></span> <span data-ttu-id="6d854-384">Carets를 확장 하 여 커넥터에 할당 되는 사용 권한을 검토할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-384">You can expand the carets to review the permissions that will be assigned to the connector.</span></span>
 
    ![사용 권한 요청 대화 상자가 표시 됩니다.](../media/O365-ThirdPartyDataConnector-OptIn1.png)
 
-2. <span data-ttu-id="f166a-385">**Accept(동의함)** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-385">Click **Accept**.</span></span>
+2. <span data-ttu-id="6d854-386">**Accept(동의함)** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-386">Click **Accept**.</span></span>
 
-<span data-ttu-id="f166a-386">요청을 수락 하면 [Azure portal](https://portal.azure.com) 이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-386">After you accept the request, the [Azure portal](https://portal.azure.com) is displayed.</span></span> <span data-ttu-id="f166a-387">조직의 응용 프로그램 목록을 보려면 **Azure Active Directory**  >  **Enterprise 응용 프로그램**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-387">To view the list of applications for your organization, click **Azure Active Directory** > **Enterprise applications**.</span></span> <span data-ttu-id="f166a-388">Office 365 타사 데이터 커넥터가 **엔터프라이즈 응용 프로그램** 블레이드에서 나열 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-388">The Office 365 third-party data connector is listed on the **Enterprise applications** blade.</span></span>
+<span data-ttu-id="6d854-387">요청을 수락 하면 [Azure portal](https://portal.azure.com) 이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-387">After you accept the request, the [Azure portal](https://portal.azure.com) is displayed.</span></span> <span data-ttu-id="6d854-388">조직의 응용 프로그램 목록을 보려면 **Azure Active Directory**  >  **Enterprise 응용 프로그램** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-388">To view the list of applications for your organization, click **Azure Active Directory** > **Enterprise applications**.</span></span> <span data-ttu-id="6d854-389">Office 365 타사 데이터 커넥터가 **엔터프라이즈 응용 프로그램** 블레이드에서 나열 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-389">The Office 365 third-party data connector is listed on the **Enterprise applications** blade.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="f166a-389">Azure Active Directory에 타사 데이터 커넥터를 등록 하지 않으면, 2018 년 9 월 30 일 이후에는 타사 데이터를 조직의 사서함으로 가져올 수 없게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-389">After September 30, 2018, third-party data will no longer be imported into mailboxes in your organization if you don't register a third-party data connector in Azure Active Directory.</span></span> <span data-ttu-id="f166a-390">참고 5 단계에 나와 있는 절차에 따라 기존 타사 데이터 커넥터 (9 월 30 일 이전에는 2018)도 Azure Active Directory에 등록 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-390">Note existing third-party data connectors (those created before September 30, 2018) must also be registered in Azure Active Directory by following the procedure in Step 5.</span></span>
+> <span data-ttu-id="6d854-390">Azure Active Directory에 타사 데이터 커넥터를 등록 하지 않으면, 2018 년 9 월 30 일 이후에는 타사 데이터를 조직의 사서함으로 가져올 수 없게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-390">After September 30, 2018, third-party data will no longer be imported into mailboxes in your organization if you don't register a third-party data connector in Azure Active Directory.</span></span> <span data-ttu-id="6d854-391">참고 5 단계에 나와 있는 절차에 따라 기존 타사 데이터 커넥터 (9 월 30 일 이전에는 2018)도 Azure Active Directory에 등록 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-391">Note existing third-party data connectors (those created before September 30, 2018) must also be registered in Azure Active Directory by following the procedure in Step 5.</span></span>
 
-### <a name="revoking-consent-for-a-third-party-data-connector"></a><span data-ttu-id="f166a-391">타사 데이터 커넥터에 대 한 동의 해지</span><span class="sxs-lookup"><span data-stu-id="f166a-391">Revoking consent for a third-party data connector</span></span>
+### <a name="revoking-consent-for-a-third-party-data-connector"></a><span data-ttu-id="6d854-392">타사 데이터 커넥터에 대 한 동의 해지</span><span class="sxs-lookup"><span data-stu-id="6d854-392">Revoking consent for a third-party data connector</span></span>
 
-<span data-ttu-id="f166a-392">조직이 Azure Active Directory에서 타사 데이터 커넥터를 등록 하기 위해 권한 요청을 consents 후에는 조직에서 언제 든 지 해당 동의를 해지할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-392">After your organization consents to the permissions request to register a third-party data connector in Azure Active Directory, your organization can revoke that consent at any time.</span></span> <span data-ttu-id="f166a-393">그러나 커넥터에 대 한 동의를 취소 하는 것은 타사 데이터 원본의 데이터를 더 이상 Office 365로 가져올 수 없다는 것을 의미 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-393">However, revoking the consent for a connector means that data from the third-party data source will no longer be imported into Office 365.</span></span>
+<span data-ttu-id="6d854-393">조직이 Azure Active Directory에서 타사 데이터 커넥터를 등록 하기 위해 권한 요청을 consents 후에는 조직에서 언제 든 지 해당 동의를 해지할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-393">After your organization consents to the permissions request to register a third-party data connector in Azure Active Directory, your organization can revoke that consent at any time.</span></span> <span data-ttu-id="6d854-394">그러나 커넥터에 대 한 동의를 취소 하는 것은 타사 데이터 원본의 데이터를 더 이상 Office 365로 가져올 수 없다는 것을 의미 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-394">However, revoking the consent for a connector means that data from the third-party data source will no longer be imported into Office 365.</span></span>
 
-<span data-ttu-id="f166a-394">타사 데이터 커넥터에 대 한 동의를 해지 하려면 Azure portal에서 **엔터프라이즈 응용 프로그램** 블레이드를 사용 하 여 Azure Active Directory에서 해당 서비스 사용자를 삭제 하거나 Office 365 PowerShell의 [(new-msolserviceprincipal에서 제거](https://docs.microsoft.com/powershell/module/msonline/remove-msolserviceprincipal) 를 사용 하 여 응용 프로그램을 삭제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-394">To revoke consent for a third-party data connector, you can delete the application (by deleting the corresponding service principal) from Azure Active Directory using the **Enterprise applications** blade in the Azure portal, or by using the [Remove-MsolServicePrincipal](https://docs.microsoft.com/powershell/module/msonline/remove-msolserviceprincipal) in Office 365 PowerShell.</span></span> <span data-ttu-id="f166a-395">Azure Active Directory PowerShell에서 [AzureADServicePrincipal](https://docs.microsoft.com/powershell/module/azuread/remove-azureadserviceprincipal) cmdlet을 사용할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-395">You can also use the [Remove-AzureADServicePrincipal](https://docs.microsoft.com/powershell/module/azuread/remove-azureadserviceprincipal) cmdlet in Azure Active Directory PowerShell.</span></span>
+<span data-ttu-id="6d854-395">타사 데이터 커넥터에 대 한 동의를 해지 하려면 Azure portal에서 **엔터프라이즈 응용 프로그램** 블레이드를 사용 하 여 Azure Active Directory에서 해당 서비스 사용자를 삭제 하거나 Office 365 PowerShell의 [(new-msolserviceprincipal에서 제거](https://docs.microsoft.com/powershell/module/msonline/remove-msolserviceprincipal) 를 사용 하 여 응용 프로그램을 삭제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-395">To revoke consent for a third-party data connector, you can delete the application (by deleting the corresponding service principal) from Azure Active Directory using the **Enterprise applications** blade in the Azure portal, or by using the [Remove-MsolServicePrincipal](https://docs.microsoft.com/powershell/module/msonline/remove-msolserviceprincipal) in Office 365 PowerShell.</span></span> <span data-ttu-id="6d854-396">Azure Active Directory PowerShell에서 [AzureADServicePrincipal](https://docs.microsoft.com/powershell/module/azuread/remove-azureadserviceprincipal) cmdlet을 사용할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-396">You can also use the [Remove-AzureADServicePrincipal](https://docs.microsoft.com/powershell/module/azuread/remove-azureadserviceprincipal) cmdlet in Azure Active Directory PowerShell.</span></span>
   
-## <a name="more-information"></a><span data-ttu-id="f166a-396">추가 정보</span><span class="sxs-lookup"><span data-stu-id="f166a-396">More information</span></span>
+## <a name="more-information"></a><span data-ttu-id="6d854-397">추가 정보</span><span class="sxs-lookup"><span data-stu-id="6d854-397">More information</span></span>
 
-- <span data-ttu-id="f166a-397">앞서 설명한 것처럼 타사 데이터 원본의 항목을 Exchange 사서함에 전자 메일 메시지로 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-397">As previous explained, items from third-party data sources are imported to Exchange mailboxes as email messages.</span></span> <span data-ttu-id="f166a-398">파트너 커넥터는 Office 365 API에 필요한 스키마를 사용 하 여 항목을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-398">The partner connector imports the item using a schema required by the Office 365 API.</span></span> <span data-ttu-id="f166a-399">다음 표에서는 타사 데이터 원본 항목을 Exchange 사서함에 전자 메일 메시지로 가져온 후, 타사 데이터 원본 항목에 대한 메시지 속성을 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-399">The following table describes the message properties of an item from a third-party data source after it's imported to an Exchange mailbox as an email message.</span></span> <span data-ttu-id="f166a-400">또한 이 표는 메시지 속성이 필수인지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-400">The table also indicates if the message property is mandatory.</span></span> <span data-ttu-id="f166a-401">필수 속성은 채워야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-401">Mandatory properties must be populated.</span></span> <span data-ttu-id="f166a-402">항목에 필수 속성이 없는 경우에는 Office 365로 가져올 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-402">If an item is missing a mandatory property, it won't be imported to Office 365.</span></span> <span data-ttu-id="f166a-403">가져오기 프로세스를 진행 하면 항목을 가져오지 못한 이유와 해당 속성이 누락 된 이유를 설명 하는 오류 메시지가 반환 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-403">The import process returns an error message explaining why an item wasn't imported and which property is missing.</span></span><br/><br/>
+- <span data-ttu-id="6d854-398">앞서 설명한 것처럼 타사 데이터 원본의 항목을 Exchange 사서함에 전자 메일 메시지로 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-398">As previous explained, items from third-party data sources are imported to Exchange mailboxes as email messages.</span></span> <span data-ttu-id="6d854-399">파트너 커넥터는 Office 365 API에 필요한 스키마를 사용 하 여 항목을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-399">The partner connector imports the item using a schema required by the Office 365 API.</span></span> <span data-ttu-id="6d854-400">다음 표에서는 타사 데이터 원본 항목을 Exchange 사서함에 전자 메일 메시지로 가져온 후, 타사 데이터 원본 항목에 대한 메시지 속성을 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-400">The following table describes the message properties of an item from a third-party data source after it's imported to an Exchange mailbox as an email message.</span></span> <span data-ttu-id="6d854-401">또한 이 표는 메시지 속성이 필수인지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-401">The table also indicates if the message property is mandatory.</span></span> <span data-ttu-id="6d854-402">필수 속성은 채워야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-402">Mandatory properties must be populated.</span></span> <span data-ttu-id="6d854-403">항목에 필수 속성이 없는 경우에는 Office 365로 가져올 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-403">If an item is missing a mandatory property, it won't be imported to Office 365.</span></span> <span data-ttu-id="6d854-404">가져오기 프로세스를 진행 하면 항목을 가져오지 못한 이유와 해당 속성이 누락 된 이유를 설명 하는 오류 메시지가 반환 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-404">The import process returns an error message explaining why an item wasn't imported and which property is missing.</span></span><br/><br/>
     
-    |<span data-ttu-id="f166a-404">**메시지 속성**</span><span class="sxs-lookup"><span data-stu-id="f166a-404">**Message property**</span></span>|<span data-ttu-id="f166a-405">**강제?**</span><span class="sxs-lookup"><span data-stu-id="f166a-405">**Mandatory?**</span></span>|<span data-ttu-id="f166a-406">**설명**</span><span class="sxs-lookup"><span data-stu-id="f166a-406">**Description**</span></span>|<span data-ttu-id="f166a-407">**예제 값**</span><span class="sxs-lookup"><span data-stu-id="f166a-407">**Example value**</span></span>|
+    |<span data-ttu-id="6d854-405">**메시지 속성**</span><span class="sxs-lookup"><span data-stu-id="6d854-405">**Message property**</span></span>|<span data-ttu-id="6d854-406">**강제?**</span><span class="sxs-lookup"><span data-stu-id="6d854-406">**Mandatory?**</span></span>|<span data-ttu-id="6d854-407">**설명**</span><span class="sxs-lookup"><span data-stu-id="6d854-407">**Description**</span></span>|<span data-ttu-id="6d854-408">**예제 값**</span><span class="sxs-lookup"><span data-stu-id="6d854-408">**Example value**</span></span>|
     |:-----|:-----|:-----|:-----|
-    |<span data-ttu-id="f166a-408">**보낸 사람**</span><span class="sxs-lookup"><span data-stu-id="f166a-408">**FROM**</span></span> <br/> |<span data-ttu-id="f166a-409">예</span><span class="sxs-lookup"><span data-stu-id="f166a-409">Yes</span></span>  <br/> |<span data-ttu-id="f166a-410">타사 데이터 원본 항목을 처음 만들었거나 보낸 사람입니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-410">The user who originally created or sent the item in the third-party data source.</span></span> <span data-ttu-id="f166a-411">파트너 커넥터는 원본 항목 (예: Twitter 핸들)의 사용자 ID를 모든 참가자 (시작 및 대상 필드의 사용자)의 사용자 계정에 매핑하도록 시도 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-411">The partner connector attempts to map the user ID from the source item (for example a Twitter handle) to an user account for all participants (users in the FROM and TO fields).</span></span> <span data-ttu-id="f166a-412">메시지 복사본을 모든 참가자의 사서함으로 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-412">A copy of the message will be imported to the mailbox of every participant.</span></span> <span data-ttu-id="f166a-413">항목에서 사용자 계정에 매핑할 수 없는 참가자가 없는 경우 Office 365에서 타사 보관 사서함으로 항목을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-413">If none of the participants from the item can be mapped to an user account, the item will be imported to the third-party archiving mailbox in Office 365.</span></span>  <br/> <br/> <span data-ttu-id="f166a-414">항목을 보낸 사람으로 식별 된 참석자는 해당 항목을 가져올 조직의 활성 사서함이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-414">The participant who's identified as the sender of the item must have an active mailbox in the organization that the item is being imported to.</span></span> <span data-ttu-id="f166a-415">보낸 사람에게 활성 사서함이 없으면 다음과 같은 오류가 반환됩니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-415">If the sender doesn't have an active mailbox, the following error is returned:</span></span><br/><br/>  `One or more messages in the Request failed to be delivered to either From or Sender email address. You will need to resend your entire Request. Error: The request failed. The remote server returned an error: (401) Unauthorized.`  | `bob@contoso.com` <br/> |
-    |<span data-ttu-id="f166a-416">**받는 사람**</span><span class="sxs-lookup"><span data-stu-id="f166a-416">**TO**</span></span> <br/> |<span data-ttu-id="f166a-417">예</span><span class="sxs-lookup"><span data-stu-id="f166a-417">Yes</span></span>  <br/> |<span data-ttu-id="f166a-418">데이터 원본의 항목을 받은 사람입니다(해당되는 경우).</span><span class="sxs-lookup"><span data-stu-id="f166a-418">The user who received an item, if applicable for an item in the data source.</span></span>  <br/> | `bob@contoso.com` <br/> |
-    |<span data-ttu-id="f166a-419">**제목**</span><span class="sxs-lookup"><span data-stu-id="f166a-419">**SUBJECT**</span></span> <br/> |<span data-ttu-id="f166a-420">아니요</span><span class="sxs-lookup"><span data-stu-id="f166a-420">No</span></span>  <br/> |<span data-ttu-id="f166a-421">원본 항목의 제목입니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-421">The subject from the source item.</span></span>  <br/> | `"Mega deals with Contoso coming your way! #ContosoHolidayDeals"` <br/> |
-    |<span data-ttu-id="f166a-422">**종료일**</span><span class="sxs-lookup"><span data-stu-id="f166a-422">**DATE**</span></span> <br/> |<span data-ttu-id="f166a-423">예</span><span class="sxs-lookup"><span data-stu-id="f166a-423">Yes</span></span>  <br/> |<span data-ttu-id="f166a-424">항목이 처음으로 작성 되거나 고객 데이터 원본에 게시 된 날짜입니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-424">The date the item was originally created or posted in the customer data source.</span></span> <span data-ttu-id="f166a-425">예를 들어, Twitter 메시지가 tweeted 된 날짜입니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-425">For example, that date when a Twitter message was tweeted.</span></span>  <br/> | `01 NOV 2015` <br/> |
-    |<span data-ttu-id="f166a-426">**보내기**</span><span class="sxs-lookup"><span data-stu-id="f166a-426">**BODY**</span></span> <br/> |<span data-ttu-id="f166a-427">아니요</span><span class="sxs-lookup"><span data-stu-id="f166a-427">No</span></span>  <br/> |<span data-ttu-id="f166a-428">메시지 또는 게시물의 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-428">The contents of the message or post.</span></span> <span data-ttu-id="f166a-429">일부 데이터 원본의 경우 이 속성의 콘텐츠는 **SUBJECT** 속성의 콘텐츠와 같을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-429">For some data sources, the contents of this property could be the same as the content for the **SUBJECT** property.</span></span> <span data-ttu-id="f166a-430">가져오기 프로세스 중에 파트너 커넥터는 가능한 한 콘텐츠 원본에서 완전 한 충실도를 유지 하려고 시도 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-430">During the import process, the partner connector attempts to maintain full fidelity from the content source as possible.</span></span> <span data-ttu-id="f166a-431">가능한 경우 원본 항목의 본문에서 가져온 파일, 그래픽 또는 기타 콘텐츠가 이 속성에 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-431">If possible files, graphics, or other content from the body of the source item is included in this property.</span></span> <span data-ttu-id="f166a-432">그렇지 않은 경우 원본 항목의 콘텐츠가 **ATTACHMENT** 속성에 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-432">Otherwise, content from the source item is included in the **ATTACHMENT** property.</span></span> <span data-ttu-id="f166a-433">이 속성의 내용은 파트너 커넥터와 원본 플랫폼의 기능에 따라 달라 집니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-433">The contents of this property depends on the partner connector and on the capability of the source platform.</span></span>  <br/> | `Author: bob@contoso.com` <br/>  `Date: 10 DEC 2014` <br/>  `Tweet: "Mega deals with Contoso coming your way! #ContosoHolidayDeals"` <br/>  `Date: 01 NOV 2015` <br/> |
-    |<span data-ttu-id="f166a-434">**덧붙인**</span><span class="sxs-lookup"><span data-stu-id="f166a-434">**ATTACHMENT**</span></span> <br/> |<span data-ttu-id="f166a-435">아니요</span><span class="sxs-lookup"><span data-stu-id="f166a-435">No</span></span>  <br/> |<span data-ttu-id="f166a-436">데이터 원본의 항목 (예: Twitter 또는 인스턴트 메시징 대화에 있는 tweet)에 첨부 된 파일이 있거나 이미지를 포함 하는 경우, 파트너 연결에서는 먼저 **BODY** 속성에 첨부 파일을 포함 하 려 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-436">If an item in the data source (such as a tweet in Twitter or an instant messaging conversation) has an attached file or include images, the partner connect will first attempt to include attachments in the **BODY** property.</span></span> <span data-ttu-id="f166a-437">이것이 가능 하지 않으면 \* \* ATTACHMENT \* \* 속성에 추가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-437">If that isn't possible, then it's added to the \*\* ATTACHMENT \*\* property.</span></span> <span data-ttu-id="f166a-438">첨부 파일의 다른 예로는 Facebook의 좋아요, 콘텐츠 원본의 메타데이터, 메시지 또는 게시물에 대한 응답이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-438">Other examples of attachments include Likes in Facebook, metadata from the content source, and responses to a message or post.</span></span>  <br/> | `image.gif` <br/> |
-    |<span data-ttu-id="f166a-439">**MESSAGECLASS**</span><span class="sxs-lookup"><span data-stu-id="f166a-439">**MESSAGECLASS**</span></span> <br/> |<span data-ttu-id="f166a-440">예</span><span class="sxs-lookup"><span data-stu-id="f166a-440">Yes</span></span>  <br/> | <span data-ttu-id="f166a-441">파트너 커넥터가 만들어서 채우는 다중 값 속성입니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-441">This is a multi-value property, which is created and populated by partner connector.</span></span> <span data-ttu-id="f166a-442">이 속성의 형식은 `IPM.NOTE.Source.Event` 입니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-442">The format of this property is  `IPM.NOTE.Source.Event`.</span></span> <span data-ttu-id="f166a-443">(이 속성은로 시작 해야 합니다 `IPM.NOTE` .</span><span class="sxs-lookup"><span data-stu-id="f166a-443">(This property must begin with  `IPM.NOTE`.</span></span> <span data-ttu-id="f166a-444">이 형식은 메시지 클래스의 형식과 유사 `IPM.NOTE.X` 합니다. 이 속성에는 다음 정보가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-444">This format is similar to the one for the  `IPM.NOTE.X` message class.) This property includes the following information:</span></span>  <br/><br/><span data-ttu-id="f166a-445">`Source`: 타사 데이터 원본을 나타냅니다. 예: Twitter, Facebook 또는 BlackBerry를 예로 들 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-445">`Source`: Indicates the third-party data source; for example, Twitter, Facebook, or BlackBerry.</span></span>  <br/> <br/>  <span data-ttu-id="f166a-446">`Event`: 항목을 생성 한 타사 데이터 원본에서 수행한 작업의 유형을 나타냅니다. 예를 들어, Twitter에 있는 tweet 또는 Facebook의 게시물입니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-446">`Event`: Indicates the type of activity that was performed in the third-party data source that produced the items; for example, a tweet in Twitter or a post in Facebook.</span></span> <span data-ttu-id="f166a-447">이벤트는 데이터 원본에 따라 다릅니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-447">Events are specific to the data source.</span></span>  <br/> <br/>  <span data-ttu-id="f166a-448">이 속성의 한 가지 목적은 항목이 시작된 데이터 원본이나 이벤트의 유형에 따라 특정 항목을 필터링하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-448">One purpose of this property is to filter specific items based on the data source where an item originated or based on the type of event.</span></span> <span data-ttu-id="f166a-449">예를 들어 eDiscovery 검색에서 특정 사용자가 게시한 모든 트윗을 찾는 검색 쿼리를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-449">For example, in an eDiscovery search you could create a search query to find all the tweets that were posted by a specific user.</span></span>  <br/> | `IPM.NOTE.Twitter.Tweet` <br/> |
+    |<span data-ttu-id="6d854-409">**보낸 사람**</span><span class="sxs-lookup"><span data-stu-id="6d854-409">**FROM**</span></span> <br/> |<span data-ttu-id="6d854-410">예</span><span class="sxs-lookup"><span data-stu-id="6d854-410">Yes</span></span>  <br/> |<span data-ttu-id="6d854-411">타사 데이터 원본 항목을 처음 만들었거나 보낸 사람입니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-411">The user who originally created or sent the item in the third-party data source.</span></span> <span data-ttu-id="6d854-412">파트너 커넥터는 원본 항목 (예: Twitter 핸들)의 사용자 ID를 모든 참가자 (시작 및 대상 필드의 사용자)의 사용자 계정에 매핑하도록 시도 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-412">The partner connector attempts to map the user ID from the source item (for example a Twitter handle) to a user account for all participants (users in the FROM and TO fields).</span></span> <span data-ttu-id="6d854-413">메시지 복사본을 모든 참가자의 사서함으로 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-413">A copy of the message will be imported to the mailbox of every participant.</span></span> <span data-ttu-id="6d854-414">항목에서 사용자 계정에 매핑할 수 없는 참가자가 없는 경우 Office 365에서 타사 보관 사서함으로 항목을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-414">If none of the participants from the item can be mapped to a user account, the item will be imported to the third-party archiving mailbox in Office 365.</span></span>  <br/> <br/> <span data-ttu-id="6d854-415">항목을 보낸 사람으로 식별 된 참석자는 해당 항목을 가져올 조직의 활성 사서함이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-415">The participant who's identified as the sender of the item must have an active mailbox in the organization that the item is being imported to.</span></span> <span data-ttu-id="6d854-416">보낸 사람에게 활성 사서함이 없으면 다음과 같은 오류가 반환됩니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-416">If the sender doesn't have an active mailbox, the following error is returned:</span></span><br/><br/>  `One or more messages in the Request failed to be delivered to either From or Sender email address. You will need to resend your entire Request. Error: The request failed. The remote server returned an error: (401) Unauthorized.`  | `bob@contoso.com` <br/> |
+    |<span data-ttu-id="6d854-417">**받는 사람**</span><span class="sxs-lookup"><span data-stu-id="6d854-417">**TO**</span></span> <br/> |<span data-ttu-id="6d854-418">예</span><span class="sxs-lookup"><span data-stu-id="6d854-418">Yes</span></span>  <br/> |<span data-ttu-id="6d854-419">데이터 원본의 항목을 받은 사람입니다(해당되는 경우).</span><span class="sxs-lookup"><span data-stu-id="6d854-419">The user who received an item, if applicable for an item in the data source.</span></span>  <br/> | `bob@contoso.com` <br/> |
+    |<span data-ttu-id="6d854-420">**제목**</span><span class="sxs-lookup"><span data-stu-id="6d854-420">**SUBJECT**</span></span> <br/> |<span data-ttu-id="6d854-421">아니요</span><span class="sxs-lookup"><span data-stu-id="6d854-421">No</span></span>  <br/> |<span data-ttu-id="6d854-422">원본 항목의 제목입니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-422">The subject from the source item.</span></span>  <br/> | `"Mega deals with Contoso coming your way! #ContosoHolidayDeals"` <br/> |
+    |<span data-ttu-id="6d854-423">**종료일**</span><span class="sxs-lookup"><span data-stu-id="6d854-423">**DATE**</span></span> <br/> |<span data-ttu-id="6d854-424">예</span><span class="sxs-lookup"><span data-stu-id="6d854-424">Yes</span></span>  <br/> |<span data-ttu-id="6d854-425">항목이 처음으로 작성 되거나 고객 데이터 원본에 게시 된 날짜입니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-425">The date the item was originally created or posted in the customer data source.</span></span> <span data-ttu-id="6d854-426">예를 들어, Twitter 메시지가 tweeted 된 날짜입니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-426">For example, that date when a Twitter message was tweeted.</span></span>  <br/> | `01 NOV 2015` <br/> |
+    |<span data-ttu-id="6d854-427">**보내기**</span><span class="sxs-lookup"><span data-stu-id="6d854-427">**BODY**</span></span> <br/> |<span data-ttu-id="6d854-428">아니요</span><span class="sxs-lookup"><span data-stu-id="6d854-428">No</span></span>  <br/> |<span data-ttu-id="6d854-429">메시지 또는 게시물의 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-429">The contents of the message or post.</span></span> <span data-ttu-id="6d854-430">일부 데이터 원본의 경우 이 속성의 콘텐츠는 **SUBJECT** 속성의 콘텐츠와 같을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-430">For some data sources, the contents of this property could be the same as the content for the **SUBJECT** property.</span></span> <span data-ttu-id="6d854-431">가져오기 프로세스 중에 파트너 커넥터는 가능한 한 콘텐츠 원본에서 완전 한 충실도를 유지 하려고 시도 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-431">During the import process, the partner connector attempts to maintain full fidelity from the content source as possible.</span></span> <span data-ttu-id="6d854-432">가능한 경우 원본 항목의 본문에서 가져온 파일, 그래픽 또는 기타 콘텐츠가 이 속성에 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-432">If possible files, graphics, or other content from the body of the source item is included in this property.</span></span> <span data-ttu-id="6d854-433">그렇지 않은 경우 원본 항목의 콘텐츠가 **ATTACHMENT** 속성에 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-433">Otherwise, content from the source item is included in the **ATTACHMENT** property.</span></span> <span data-ttu-id="6d854-434">이 속성의 내용은 파트너 커넥터와 원본 플랫폼의 기능에 따라 달라 집니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-434">The contents of this property depends on the partner connector and on the capability of the source platform.</span></span>  <br/> | `Author: bob@contoso.com` <br/>  `Date: 10 DEC 2014` <br/>  `Tweet: "Mega deals with Contoso coming your way! #ContosoHolidayDeals"` <br/>  `Date: 01 NOV 2015` <br/> |
+    |<span data-ttu-id="6d854-435">**덧붙인**</span><span class="sxs-lookup"><span data-stu-id="6d854-435">**ATTACHMENT**</span></span> <br/> |<span data-ttu-id="6d854-436">아니요</span><span class="sxs-lookup"><span data-stu-id="6d854-436">No</span></span>  <br/> |<span data-ttu-id="6d854-437">데이터 원본의 항목 (예: Twitter 또는 인스턴트 메시징 대화에 있는 tweet)에 첨부 된 파일이 있거나 이미지를 포함 하는 경우, 파트너 연결에서는 먼저 **BODY** 속성에 첨부 파일을 포함 하 려 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-437">If an item in the data source (such as a tweet in Twitter or an instant messaging conversation) has an attached file or include images, the partner connect will first attempt to include attachments in the **BODY** property.</span></span> <span data-ttu-id="6d854-438">이것이 가능 하지 않으면 \* \* ATTACHMENT \* \* 속성에 추가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-438">If that isn't possible, then it's added to the \*\* ATTACHMENT \*\* property.</span></span> <span data-ttu-id="6d854-439">첨부 파일의 다른 예로는 Facebook의 좋아요, 콘텐츠 원본의 메타데이터, 메시지 또는 게시물에 대한 응답이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-439">Other examples of attachments include Likes in Facebook, metadata from the content source, and responses to a message or post.</span></span>  <br/> | `image.gif` <br/> |
+    |<span data-ttu-id="6d854-440">**MESSAGECLASS**</span><span class="sxs-lookup"><span data-stu-id="6d854-440">**MESSAGECLASS**</span></span> <br/> |<span data-ttu-id="6d854-441">예</span><span class="sxs-lookup"><span data-stu-id="6d854-441">Yes</span></span>  <br/> | <span data-ttu-id="6d854-442">파트너 커넥터가 만들어서 채우는 다중 값 속성입니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-442">This is a multi-value property, which is created and populated by partner connector.</span></span> <span data-ttu-id="6d854-443">이 속성의 형식은  `IPM.NOTE.Source.Event` 입니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-443">The format of this property is  `IPM.NOTE.Source.Event`.</span></span> <span data-ttu-id="6d854-444">(이 속성은로 시작 해야 합니다  `IPM.NOTE` .</span><span class="sxs-lookup"><span data-stu-id="6d854-444">(This property must begin with  `IPM.NOTE`.</span></span> <span data-ttu-id="6d854-445">이 형식은 메시지 클래스의 형식과 유사  `IPM.NOTE.X` 합니다. 이 속성에는 다음 정보가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-445">This format is similar to the one for the  `IPM.NOTE.X` message class.) This property includes the following information:</span></span>  <br/><br/><span data-ttu-id="6d854-446">`Source`: 타사 데이터 원본을 나타냅니다. 예: Twitter, Facebook 또는 BlackBerry를 예로 들 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-446">`Source`: Indicates the third-party data source; for example, Twitter, Facebook, or BlackBerry.</span></span>  <br/> <br/>  <span data-ttu-id="6d854-447">`Event`: 항목을 생성 한 타사 데이터 원본에서 수행한 작업의 유형을 나타냅니다. 예를 들어, Twitter에 있는 tweet 또는 Facebook의 게시물입니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-447">`Event`: Indicates the type of activity that was performed in the third-party data source that produced the items; for example, a tweet in Twitter or a post in Facebook.</span></span> <span data-ttu-id="6d854-448">이벤트는 데이터 원본에 따라 다릅니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-448">Events are specific to the data source.</span></span>  <br/> <br/>  <span data-ttu-id="6d854-449">이 속성의 한 가지 목적은 항목이 시작된 데이터 원본이나 이벤트의 유형에 따라 특정 항목을 필터링하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-449">One purpose of this property is to filter specific items based on the data source where an item originated or based on the type of event.</span></span> <span data-ttu-id="6d854-450">예를 들어 eDiscovery 검색에서 특정 사용자가 게시한 모든 트윗을 찾는 검색 쿼리를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-450">For example, in an eDiscovery search you could create a search query to find all the tweets that were posted by a specific user.</span></span>  <br/> | `IPM.NOTE.Twitter.Tweet` <br/> |
    
-- <span data-ttu-id="f166a-450">Office 365에서 사서함에 항목을 성공적으로 가져오면 고유한 식별자가 HTTP 응답의 일부로 다시 발신자에 게 반환 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-450">When items are successfully imported to mailboxes in Office 365, a unique identifier is returned back to the caller as part of the HTTP response.</span></span> <span data-ttu-id="f166a-451">이 식별자는 `x-IngestionCorrelationID` 종단 간 항목 추적을 위해 파트너의 후속 문제 해결을 위해 사용 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-451">This identifier, called  `x-IngestionCorrelationID`, can be used for subsequent troubleshooting purposes by partners for end-to-end tracking of items.</span></span> <span data-ttu-id="f166a-452">파트너는 이 정보를 수집하고 적절하게 기록해두는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-452">It's recommended that partners capture this information and log it accordingly at their end.</span></span> <span data-ttu-id="f166a-453">이 식별자를 나타내는 HTTP 응답의 예는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-453">Here's an example of an HTTP response showing this identifier:</span></span>
+- <span data-ttu-id="6d854-451">Office 365에서 사서함에 항목을 성공적으로 가져오면 고유한 식별자가 HTTP 응답의 일부로 다시 발신자에 게 반환 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-451">When items are successfully imported to mailboxes in Office 365, a unique identifier is returned back to the caller as part of the HTTP response.</span></span> <span data-ttu-id="6d854-452">이 식별자는  `x-IngestionCorrelationID` 종단 간 항목 추적을 위해 파트너의 후속 문제 해결을 위해 사용 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-452">This identifier, called  `x-IngestionCorrelationID`, can be used for subsequent troubleshooting purposes by partners for end-to-end tracking of items.</span></span> <span data-ttu-id="6d854-453">파트너는 이 정보를 수집하고 적절하게 기록해두는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-453">It's recommended that partners capture this information and log it accordingly at their end.</span></span> <span data-ttu-id="6d854-454">이 식별자를 나타내는 HTTP 응답의 예는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-454">Here's an example of an HTTP response showing this identifier:</span></span>
 
     ```http
     HTTP/1.1 200 OK
@@ -582,17 +585,17 @@ ms.locfileid: "45126657"
     Date: Tue, 02 Feb 2016 22:55:33 GMT 
     ```
 
-- <span data-ttu-id="f166a-454">보안 및 준수 센터의 콘텐츠 검색 도구를 사용 하 여 타사 데이터 원본에서 사서함으로 가져온 항목을 검색할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-454">You can use the Content Search tool in the security and compliance center to search for items that were imported to mailboxes from a third-party data source.</span></span> <span data-ttu-id="f166a-455">이러한 가져온 항목을 구체적으로 검색 하려면 콘텐츠 검색의 키워드 상자에 다음과 같은 메시지 속성-값 쌍을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-455">To search specifically for these imported items, you can use the following message property-value pairs in the keyword box for a Content Search.</span></span>
+- <span data-ttu-id="6d854-455">보안 및 준수 센터의 콘텐츠 검색 도구를 사용 하 여 타사 데이터 원본에서 사서함으로 가져온 항목을 검색할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-455">You can use the Content Search tool in the security and compliance center to search for items that were imported to mailboxes from a third-party data source.</span></span> <span data-ttu-id="6d854-456">이러한 가져온 항목을 구체적으로 검색 하려면 콘텐츠 검색의 키워드 상자에 다음과 같은 메시지 속성-값 쌍을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-456">To search specifically for these imported items, you can use the following message property-value pairs in the keyword box for a Content Search.</span></span>
     
-  - <span data-ttu-id="f166a-456">**`kind:externaldata`**:이 속성-값 쌍을 사용 하 여 모든 타사 데이터 형식을 검색 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-456">**`kind:externaldata`**: Use this property-value pair to search all third-party data types.</span></span> <span data-ttu-id="f166a-457">예를 들어 타사 데이터 원본에서 가져온 항목과 가져온 항목의 Subject 속성에 "contoso" 라는 단어가 포함 된 항목을 검색 하려면 keyword 쿼리를 사용 `kind:externaldata AND subject:contoso` 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-457">For example, to search for items that were imported from a third-party data source and contained the word "contoso" in the Subject property of the imported item, you would use the keyword query  `kind:externaldata AND subject:contoso`.</span></span>
+  - <span data-ttu-id="6d854-457">**`kind:externaldata`** :이 속성-값 쌍을 사용 하 여 모든 타사 데이터 형식을 검색 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-457">**`kind:externaldata`** : Use this property-value pair to search all third-party data types.</span></span> <span data-ttu-id="6d854-458">예를 들어 타사 데이터 원본에서 가져온 항목과 가져온 항목의 Subject 속성에 "contoso" 라는 단어가 포함 된 항목을 검색 하려면 keyword 쿼리를 사용  `kind:externaldata AND subject:contoso` 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-458">For example, to search for items that were imported from a third-party data source and contained the word "contoso" in the Subject property of the imported item, you would use the keyword query  `kind:externaldata AND subject:contoso`.</span></span>
     
-  - <span data-ttu-id="f166a-458">**`itemclass:ipm.externaldata.<third-party data type>`**:이 속성-값 쌍을 사용 하 여 지정 된 타사 데이터 형식만 검색 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-458">**`itemclass:ipm.externaldata.<third-party data type>`**: Use this property-value pair to only search a specify type of third-party data.</span></span> <span data-ttu-id="f166a-459">예를 들어 Subject 속성에서 "contoso" 라는 단어가 포함 된 Facebook 데이터만 검색 하려면 keyword 쿼리를 사용 `itemclass:ipm.externaldata.Facebook* AND subject:contoso` 합니다.</span><span class="sxs-lookup"><span data-stu-id="f166a-459">For example, to only search Facebook data that contains the word "contoso" in the Subject property, you would use the keyword query  `itemclass:ipm.externaldata.Facebook* AND subject:contoso`.</span></span> 
+  - <span data-ttu-id="6d854-459">**`itemclass:ipm.externaldata.<third-party data type>`** :이 속성-값 쌍을 사용 하 여 지정 된 타사 데이터 형식만 검색 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-459">**`itemclass:ipm.externaldata.<third-party data type>`** : Use this property-value pair to only search a specify type of third-party data.</span></span> <span data-ttu-id="6d854-460">예를 들어 Subject 속성에서 "contoso" 라는 단어가 포함 된 Facebook 데이터만 검색 하려면 keyword 쿼리를 사용  `itemclass:ipm.externaldata.Facebook* AND subject:contoso` 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d854-460">For example, to only search Facebook data that contains the word "contoso" in the Subject property, you would use the keyword query  `itemclass:ipm.externaldata.Facebook* AND subject:contoso`.</span></span> 
 
-  <span data-ttu-id="f166a-460">속성의 타사 데이터 형식에 사용할 값의 전체 목록은 `itemclass` [Office 365로 가져온 타사 데이터를 검색 하려면 사용 콘텐츠 검색](use-content-search-to-search-third-party-data-that-was-imported.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="f166a-460">For a complete list of values to use for third-party data types for the  `itemclass` property, see [Use Content Search to search third-party data that was imported to Office 365](use-content-search-to-search-third-party-data-that-was-imported.md).</span></span>
+  <span data-ttu-id="6d854-461">속성의 타사 데이터 형식에 사용할 값의 전체 목록은  `itemclass` [Office 365로 가져온 타사 데이터를 검색 하려면 사용 콘텐츠 검색](use-content-search-to-search-third-party-data-that-was-imported.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="6d854-461">For a complete list of values to use for third-party data types for the  `itemclass` property, see [Use Content Search to search third-party data that was imported to Office 365](use-content-search-to-search-third-party-data-that-was-imported.md).</span></span>
     
-   <span data-ttu-id="f166a-461">콘텐츠 검색 사용 및 키워드 검색 쿼리를 만드는 방법에 대한 자세한 내용은 다음을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="f166a-461">For more information about using Content Search and creating keyword search queries, see:</span></span>
+   <span data-ttu-id="6d854-462">콘텐츠 검색 사용 및 키워드 검색 쿼리를 만드는 방법에 대한 자세한 내용은 다음을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="6d854-462">For more information about using Content Search and creating keyword search queries, see:</span></span>
     
-  - [<span data-ttu-id="f166a-462">Office 365의 콘텐츠 검색</span><span class="sxs-lookup"><span data-stu-id="f166a-462">Content Search in Office 365</span></span>](content-search.md)
+  - [<span data-ttu-id="6d854-463">Office 365의 콘텐츠 검색</span><span class="sxs-lookup"><span data-stu-id="6d854-463">Content Search in Office 365</span></span>](content-search.md)
     
-  - [<span data-ttu-id="f166a-463">콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건</span><span class="sxs-lookup"><span data-stu-id="f166a-463">Keyword queries and search conditions for Content Search</span></span>](keyword-queries-and-search-conditions.md)
+  - [<span data-ttu-id="6d854-464">콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건</span><span class="sxs-lookup"><span data-stu-id="6d854-464">Keyword queries and search conditions for Content Search</span></span>](keyword-queries-and-search-conditions.md)
  
