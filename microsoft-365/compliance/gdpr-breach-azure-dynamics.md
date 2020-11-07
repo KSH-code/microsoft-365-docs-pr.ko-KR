@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: c420e5a8fd94a9fb549cb6683f46c4bc5457632a
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 0cdd3a2d8e158800cef534a1488df0f25e3d232f
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843174"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920265"
 ---
 # <a name="azure-and-dynamics-365-breach-notification-under-the-gdpr"></a>Azure 및 Dynamics 365 GDPR의 위반 알림
 
@@ -32,9 +32,9 @@ Microsoft에는 Microsoft Azure에 대한 공격 영향력을 완화하기 위�
 
 ## <a name="detection-of-potential-breaches"></a>잠재적인 위반 감지
 
-최신 클라우드 컴퓨팅의 특성상 고객 클라우드 환경에서 발생하는 모든 데이터 위반이 Microsoft Azure 서비스와 관련이 있는 것은 아닙니다. Microsoft에서는 Azure 서비스에 대한 공유 책임 모델을 채택하여 보안과 운영상의 책임을 정의합니다. 클라우드 서비스 공급자와 고객 모두 클라우드 보안의 일부에 책임이 있으므로 공유 책임은 클라우드 서비스의 보안을 논의할 때 중요합니다.
+Due to the nature of modern cloud computing, not all data breaches occurring in a customer cloud environment involve Microsoft Azure services. Microsoft employs a shared responsibility model for Azure services to define security and operational accountabilities. Shared responsibility is important when discussing security of a cloud service, because both the cloud services provider and the customer are accountable for portions of cloud security.
 
-Microsoft는 고객의 책임 영역 내에서 보안 인시던트를 모니터링하거나 대응하지 않습니다. 고객만의 보안 손상은 Azure 보안 인시던트로 처리되지 않으며 고객 테넌트에서 대응 노력을 관리해야 합니다. 적절한 서비스 계약을 바탕으로 고객 인시던트 대응 시 Microsoft Azure [고객 지원](https://azure.microsoft.com/support/options/)과의 협업이 수반될 수 있습니다. 또한 Microsoft Azure는 고객이 보안 인시던트 대응을 개발 및 관리하기 위해 활용할 수 있는 다양한 서비스(예: [Azure Security Center*](https://azure.microsoft.com/services/security-center/))도 제공합니다.
+Microsoft does not monitor for or respond to security incidents within the customer's realm of responsibility. A customer-only security compromise would not be processed as an Azure security incident and would require the customer tenant to manage the response effort. Customer incident response may involve collaboration with Microsoft Azure [customer support](https://azure.microsoft.com/support/options/), given appropriate service contracts. 또한 Microsoft Azure는 고객이 보안 인시던트 대응을 개발하고 관리하기 위해 활용할 수 있는 다양한 서비스(예: [Azure Defender](https://azure.microsoft.com/services/security-center/))도 제공합니다.
 
 Azure는 Microsoft Azure 인시던트 관리 플랜의 하위 집합인 보안 인시던트 대응 프로세스에 따라 잠재적인 데이터 위반에 대응합니다. Azure의 보안 인시던트 대응은 감지, 평가, 진단, 안정화 및 종료의 5단계 프로세스로 구현됩니다. 보안 인시던트 대응 팀은 조사가 진행되면서 진단 및 안정화 단계 사이를 전환할 수 있습니다. 보안 인시던트 대응 프로세스의 개요는 다음과 같습니다.
 
@@ -42,7 +42,7 @@ Azure는 Microsoft Azure 인시던트 관리 플랜의 하위 집합인 보안 �
 | ------- | ------------- |
 | **_1 - 감지_* _ | 잠재적인 인시던트의 최초 지표 |
 | _*_2 - 평가_*_ | 대기 인시던트 대응 팀 구성원이 이벤트의 영향 및 심각도를 평가합니다. 이러한 평가는 증거에 따라 보안 대응 팀으로의 추가 에스컬레이션으로 이어질 수도 있고 그렇지 않을 수도 있습니다. |
-| _*_3 - 진단_*_ | 보안 대응 전문가는 기술 또는 법정 조사를 수행하고 제약, 완화 및 해결 전략을 파악합니다. 보안 팀에서 고객 데이터가 불법적이거나 권한이 없는 개인에게 노출될 수 있다고 판단하는 경우 고객 인시던트 알림 프로세스가 동시에 실행됩니다. |
+| _*_3 - 진단_*_ | Security response experts conduct the technical or forensic investigation, identify containment, mitigation, and workaround strategies. If the security team believes that customer data may have become exposed to an unlawful or unauthorized individual, execution of the Customer Incident Notification process begins in parallel. |
 | _*_4 - 안정화 및 복구_*_ | 인시던트 대응 팀이 문제를 완화하기 위한 복구 계획을 세웁니다. 영향을 받은 시스템을 격리하는 등의 위기 제약 단계가 즉시 진행되거나 진단과 동시에 진행될 수 있습니다. 즉각적인 위험이 지나간 후에 더 장기적인 완화 조치를 계획할 수 있습니다. |
 | _*_5 - 종료 및 사후 평가_*_ | 인시던트 대응 팀은 정책, 절차 및 프로세스를 수정하여 이벤트 재발을 방지하기 위해 인시던트의 세부 정보를 대략적으로 설명하는 사후 평가를 생성합니다. |
 
@@ -50,16 +50,16 @@ Azure는 Microsoft Azure 인시던트 관리 플랜의 하위 집합인 보안 �
 
 Microsoft Azure에서 사용하는 감지 프로세스는 Azure 서비스의 기밀성, 무결성 및 가용성을 침해하는 이벤트를 검색하도록 고안되었습니다. 다음과 같은 일부 이벤트가 조사를 트리거할 수 있습니다.
 
-- 내부 모니터링 및 경고 프레임워크를 통한 자동화된 시스템 알림. 이러한 경고는 맬웨어 방지, 침입 감지와 같은 서명 기반 경보나 비정상 상황 발생 시 예상되는 작업 및 경고를 프로파일링하도록 설계된 알고리즘을 통해 제공됩니다.
+- Automated system alerts via internal monitoring and alerting frameworks. These alerts could come in the way of signature-based alarms such as anti-malware, intrusion detection or via algorithms designed to profile expected activity and alert upon anomalies.
 - 첫 번째 파티는 Microsoft Azure 및 Azure Government에서 실행되는 Microsoft 서비스의 첫 번째 파티 보고서입니다.
-- 보안상 취약한 부분은 [secure@microsoft.com](mailto:secure@microsoft.com)을 통해[MSRC (Microsoft Security Response Center)](https://technet.microsoft.com/security/dn440717)로 보고됩니다. MSRC는 전 세계의 파트너 및 보안 연구자들과 협력하여 보안 인시던트를 방지하고 Microsoft 제품 보안을 향상시킬 수 있도록 지원합니다.
+- Security vulnerabilities are reported to the [Microsoft Security Response Center (MSRC)](https://technet.microsoft.com/security/dn440717) via [secure@microsoft.com](mailto:secure@microsoft.com). MSRC works with partners and security researchers around the world to help prevent security incidents and to advance Microsoft product security.
 - 고객은 [고객 지원 포털](https://www.windowsazure.com/support/contact/) 또는 Microsoft Azure 및 Azure Government 관리 포털을 통해 보고하고 Azure 인프라에 기인하는 의심스러운 작업(고객의 책임 범위 내에서 발생하는 작업과는 반대됨)을 설명합니다.
-- 보안 [Red 팀 및 Blue 팀](https://azure.microsoft.com/blog/red-teaming-using-cutting-edge-threat-simulation-to-harden-the-microsoft-enterprise-cloud/) 활동. 이 전략은 공격적 보안 전문가로 구성된 고도로 훈련된 Red 팀을 사용하여 Azure에서 잠재적인 취약점을 밝히고 공격할 수 있습니다. 보안 응답 Blue 팀은 Red 팀의 활동을 감지하고 방어해야 합니다. Azure 보안 대응 노력으로 보안 문제를 효과적으로 관리하는지 확인하는 데 Red 및 Blue 팀 작업이 모두 사용 됩니다. 보안 Red 팀 및 Blue 팀 활동은 고객 데이터 보호를 보장하기 위해 계약 규칙에 따라 운영됩니다.
-- Azure 서비스의 연산자에 의한 에스컬레이션 Microsoft 직원은 잠재적인 보안 문제를 식별하고 에스컬레이션하도록 교육을 받았습니다.
+- Security [Red Team and Blue Team](https://azure.microsoft.com/blog/red-teaming-using-cutting-edge-threat-simulation-to-harden-the-microsoft-enterprise-cloud/) activity. This strategy uses a highly skilled Red Team of offensive Microsoft security experts to uncover and attack potential weaknesses in Azure. The security response Blue Team must detect and defend against the Red Team's activity. Both Red and Blue Team actions are used to verify that Azure security response efforts are effectively managing security incidents. Security Red Team and Blue Team activities are operated under rules of engagement to help ensure the protection of customer data.
+- Azure 서비스 운영자에 의한 에스컬레이션. Microsoft 직원들은 잠재적인 보안 문제를 식별하고 에스컬레이션하도록 교육을 받습니다.
 
 ## <a name="azures-data-breach-response"></a>Azure의 데이터 위반 대응
 
-Microsoft는 인시던트가 기능에 미치는 영향, 복구 가능성 및 정보에 미치는 영향을 결정하여 조사의 적절한 우선순위와 심각도 수준을 할당합니다. 우선 순위와 심각도는 새로 확인한 결과 및 결론에 따라, 조사가 진행되는 동안 변경될 수 있습니다. 고객 데이터의 즉각적인 위험이나 확인된 위험과 관련된 보안 이벤트는 높은 심각도로 처리하고 24시간 내내 해결합니다. 
+Microsoft assigns the investigation appropriate priority and severity levels by determining the functional impact, recoverability, and information impact of the incident. Both the priority and severity may change over the course of the investigation, based on new findings and conclusions. Security events involving imminent or confirmed risk to customer data are treated as high severity and worked around the clock to resolution. 
 
 Microsoft Azure는 다음의 위반 카테고리에 따라 인시던트가 정보에 미치는 영향을 분류합니다.
 
@@ -72,32 +72,32 @@ Microsoft Azure는 다음의 위반 카테고리에 따라 인시던트가 정�
 
 보안 대응 팀은 Microsoft Azure 보안 엔지니어 및 SME와 공조하여 증거를 통한 실제 데이터를 기준으로 이벤트를 분류합니다. 보안 이벤트를 다음과 같이 분류할 수 있습니다.
 
-- _*가양성**: 검색 기준을 충족하지만 일반적인 비즈니스 사례에 해당되며 필터링해야 하는 이벤트입니다. 서비스 팀은 가양성의 근본 원인을 파악한 후 탐지 원본을 활용하고 필요에 따라 미세 조정하는 체계적인 방식을 통해 해결합니다.
-- **보안 인시던트:** Microsoft 장비 또는 Microsoft 시설에 저장되어 있는 모든 고객 데이터 또는 지원 데이터에 대한 불법 액세스 또는 이러한 장비 또는 시설에 대한 무단 액세스로 인해 고객 데이터 또는 지원 데이터가 손실, 노출 또는 변경되는 인시던트입니다.
+- _*False Positive**: An event that meets detection criteria but is found to be part of a normal business practice and may need to be filtered. The service team identifies the root cause for false positives and will address them in a systematic way using detection sources and fine-tuning them as needed.
+- **보안 인시던트** : Microsoft 장비 또는 Microsoft 시설에 저장된 고객 데이터 또는 지원 데이터에 대한 불법 액세스 또는 이러한 장비 또는 시설에 대한 무단 액세스로 인해 고객 데이터 또는 지원 데이터가 손실, 노출 또는 변경되는 사고가 발생했습니다.
 - **CRSPI(고객 보고 가능 보안/개인 정보 보호 인시던트)** : Microsoft의 시스템, 장비 또는 시설을 불법적으로 또는 무단으로 액세스하거나 사용하여 고객 데이터를 공개, 수정 또는 손실하는 경우입니다.
-- **개인 정보 보호 위반:** 개인 데이터와 관련된 보안 인시던트의 하위 유형입니다. 처리 절차는 보안 인시던트와 다르지 않습니다.
+- **Privacy Breach** : A subtype of Security Incident involving personal data. Handling procedures are no different than a security incident.
 
-CRSPI를 선언하려면 Microsoft에서 고객 데이터에 무단 액세스가 발생했거나 발생했을 가능성이 높은지 및/또는 알림이 있어야 한다는 법적 또는 계약상 약정이 있는지를 판단해야 합니다. 필수는 아니지만 특정 고객 영향, 리소스 액세스 및 복구 단계를 알고 있다고 기대합니다. 일반적으로 인시던트는 보안 인시던트의 진단 단계가 끝난 후 CRSPI로 선언됩니다. 그러나 모든 관련 정보를 사용할 수 있는 모든 위치에서 선언이 발생할 수 있습니다. 보안 인시던트 관리자는 보고 가능한 이벤트가 발생하여 고객 인시던트 알림 프로세스가 실행되기 시작했다는 것에 대해 합리적 의심을 넘어서 증명해야 합니다.
+For a CRSPI to be declared, Microsoft must determine that unauthorized access to customer data has or has likely occurred and/or that there is a legal or contractual commitment that notification must occur. It is desired, but not required, that specific customer impact, resource access, and repair steps be known. An incident is generally declared a CRSPI after the conclusion of the Diagnose stage of a security incident. However, the declaration may happen at any point that all pertinent information is available. The security incident manager must establish evidence beyond reasonable doubt that a reportable event has occurred to begin execution of the Customer Incident Notification Process.
 
 조사 과정 전반에서, 보안 대응 팀은 전역 법률 자문과 긴밀히 협의하면서 법률적 의무 및 고객과의 약정에 따라 법정 조치가 수행되도록 합니다. 또한 다양한 운영 환경에서 시스템 및 고객 데이터를 보고 처리하는 데 중요한 제한 사항이 적용됩니다. 고객 데이터뿐만 아니라 중요한 데이터 또는 기밀 데이터는 해당 인시던트 티켓에 기록된 인시던트 관리자의 명시적인 서면 동의 없이 프로덕션 환경 외부로 전송되지 않습니다.
 
 Microsoft는 고객 및 비즈니스 위험이 성공적으로 방지되고, 수정 조치가 구현되는지 확인합니다. 필요한 경우 이벤트와 연결된 즉각적인 보안 위험을 해결하기 위한 긴급 완화 단계가 수행됩니다.
 
-Microsoft는 또한 데이터 유출을 위한 내부 사후 평가을 완료합니다. 이 연습의 일환으로 응답 및 운영 절차의 충분성이 평가되고 보안 사고 대응 SOP 또는 관련 프로세스에 필요한 업데이트가 식별되고 구현됩니다. 데이터 유출에 대한 내부 사후 평가는 고객이 이용할 수 없는 극비 기록입니다. 그러나 사후 평가는 요약되어 다른 고객 이벤트 통지에 포함될 수 있습니다. 이 보고서는 Azure의 정기 감사 주기의 일부로 검토를 위해 외부 감사인에게 제공됩니다.
+Microsoft also completes an internal post-mortem for data breaches. As a part of this exercise, sufficiency of response and operating procedures are evaluated, and any updates that may be necessary to the Security Incident Response SOP or related processes are identified and implemented. Internal postmortems for data breaches are highly confidential records not available to customers. Postmortems may, however, be summarized and included in other customer event notifications. These reports are provided to external auditors for review as part of Azure's routine audit cycle.
 
 ## <a name="customer-notification"></a>고객 알림
 
 Microsoft Azure는 필요에 따라 데이터 침해 사실을 고객과 규제 기관에 알립니다. Microsoft은 Azure를 운영하면서 내부 구조를 과도하게 구획화하고 있습니다. 데이터 흐름 로그도 강력해졌습니다. 이러한 설계 방식은 대부분의 인시던트를 구체적인 고객의 범주에 포함할 수 있다는 장점이 있습니다. 이렇게 하는 목적은 데이터 침해 시, 영향을 받은 고객에게 정확하고 실행 가능한 방식으로 시기 적절하게 알리는 것입니다.
 
-CRSPI를 선언한 후에는 빠르게 이동하는 보안 위험을 고려하면서 최대한 신속하게 알림 프로세스가 수행됩니다. 일반적으로 인시던트 조사가 진행되는 동안에 알림 작성 프로세스가 수행됩니다. 고객 알림은 다음 상황을 *제외하고* 위반을 선언한 시점으로부터 72시간 이내에 전달됩니다.
+After the declaration of a CRSPI, the notification process takes place as expeditiously as possible while still considering the security risks of moving quickly. Generally, the process of drafting notifications occurs as the incident investigation is ongoing. Customer notices are delivered in no more than 72 hours from the time we declared a breach *except* in the following circumstances:
 
-- Microsoft는 알림을 수행하면 다른 고객의 위험이 증가할 것으로 생각합니다. 예를 들어, 통지하는 행위는 침입자에게 정보를 제공하여 교정할 수 없는 상황을 야기할 수 있습니다.
+- Microsoft believes that the act of performing a notification increases the risk to other customers. For example, the act of notifying may tip off an adversary causing an inability to remediate.
 - Microsoft의 법률 부서 CELA(회사 외부 업무 및 법률 담당) 및 인시던트 책임 관리자가 기타 비정상적이거나 극단적인 상황을 조사한 경우입니다.
-- 72시간의 타임라인 동안 일부 인시던트 정보는 사용 가능하게 유지될 수 있습니다. 이는 조사가 진행될 때 고객 및 규제 기관에 제공됩니다.
+- The 72-hour timeline may leave some incident details available. These are provided to customers and regulatory authorities as the investigation proceeds.
 
 Microsoft Azure는 알림 프로세스를 과도하게 지연시키지 않으면서 내부 조사를 수행할 수 있도록 하고 최종 사용자 약정을 충족하도록 지원할 수 있는 자세한 정보를 고객에게 제공합니다.
 
-개인 데이터 침해에 대한 알림은 전자 메일을 포함하여 Microsoft에서 선택하는 모든 방법으로 고객에게 전달됩니다. 데이터 침해에 대한 알림은 Azure Defender *에서 제공되는 보안 연락처 목록으로 전달되며 이는 [구현 지침](https://docs.microsoft.com/azure/security-center/security-center-provide-security-contact-details)에 따라 구성될 수 있습니다. Azure Defender* 에 연락처 정보가 제공되지 않는 경우, 알림은 Azure 구독에서 한 명 이상의 관리자에게 전송됩니다. 알림이 제대로 전달될 수 있도록 해당하는 각 구독 및 온라인 서비스 포털에 대한 관리 연락처 정보가 올바른지 확인하는 것은 고객의 책임입니다.
+개인 데이터 침해에 대한 알림은 전자 메일을 포함하여 Microsoft가 선택한 모든 방법을 통해 고객에게 전달됩니다. 데이터 침해 알림은 [구현 지침](https://docs.microsoft.com/azure/security-center/security-center-provide-security-contact-details)에 따라 구성될 수 있는 Azure Defender에서 제공된 보안 연락처 목록으로 전달됩니다. Azure Defender에서 연락처 정보가 제공되지 않으면 알림은 Azure 구독의 한 명 이상의 관리자에게 전송됩니다. 이러한 알림이 성공적으로 전달되도록 하기 위해 고객은 적용 가능한 각 구독 및 온라인 서비스 포털의 관리 연락처 정보가 올바른지 확인해야 합니다.
 
 Microsoft Azure 또는 Azure Government 팀은 CSS(고객 서비스) 및 고객 AM(계정 관리자) 또는 TAM(기술 계정 관리자)과 같은 추가 Microsoft 직원에게도 알리도록 선택할 수 있습니다. 이러한 개인은 고객과 밀접하게 관련되어 있는 경우가 많으며 보다 빠른 수정이 이루어지는 데 도움이 될 수 있습니다.
 

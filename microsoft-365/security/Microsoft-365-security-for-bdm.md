@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 현재 조직이 Microsoft 365 환경에 직면 하 게 되는 가장 일반적인 위협과 공격 시나리오로, 이러한 위험을 완화 하기 위한 권장 작업을 소개 합니다.
-ms.openlocfilehash: b359b16042d419a06096a48ddcbc50affbcc4cd6
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 64f4491db3dc4ef18411b166fb23c4388383dae2
+ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843131"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "48944307"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>BDMs (비즈니스 의사 결정권자 용 Microsoft 365 Security)
 
@@ -30,6 +30,8 @@ ms.locfileid: "48843131"
 [![엄지 단추 이미지 Microsoft 365 BDM 보안 권장 사항 스프레드시트](../downloads/microsoft-365-bdm-security-recommendations-spreadsheet-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-BDM-security-recommendations-spreadsheet.xlsx)
 
 Microsoft는 테 넌 트 내에서 보안 점수 도구를 제공 하 여 정기적인 활동에 따라 보안 환경을 자동으로 분석 하 고, 점수를 할당 하 고, 보안 강화 권장 사항을 제공 합니다. 이 문서에서 권장 하는 작업을 수행 하기 전에 현재 점수 및 권장 사항을 기록해 둡니다. 이 문서에서 권장 하는 작업을 통해 점수가 증가 합니다. 목표는 최대 점수를 얻는 것이 아니라 사용자의 생산성에 부정적인 영향을 주지 않는 방식으로 환경을 보호 하기 위한 기회를 확보 하기 위한 것입니다. [Microsoft 보안 점수](mtp/microsoft-secure-score.md)를 참조 하세요.
+
+![비즈니스에 대 한 위험을 완화 하려면 다음 단계를 수행 합니다.](../media/security/security-for-bdms-overview.png)
 
 시작 하기 전에 한 가지 더 많은 일이 있습니다. . . [감사 로그를 설정](../compliance/search-the-audit-log-in-security-and-compliance.md)해야 합니다. 이 데이터는 나중에 문제 또는 위반을 조사 해야 하는 경우에 필요 합니다. 
 

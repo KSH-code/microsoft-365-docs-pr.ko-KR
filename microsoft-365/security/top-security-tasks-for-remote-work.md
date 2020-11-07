@@ -15,16 +15,18 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: 랜 섬 웨어, 피싱 및 악의적 첨부 파일을 포함 하 여 사이버 위협 으로부터 비즈니스 전자 메일 및 데이터를 보호 합니다.
-ms.openlocfilehash: e91d2c6fc3df7cbcd7fedc198747838d470ab7d8
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 8f170079a5542f703376139cdd6ec4550712d0fd
+ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845423"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "48944382"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>집에서 작업을 지원 하기 위한 보안 팀을 위한 상위 12 개 작업
 
 [Microsoft](https://www.microsoft.com/microsoft-365/blog/2020/03/10/staying-productive-while-working-remotely-with-microsoft-teams/) 와의 동시에 사용자가 주로 홈 기반 직원을 지 원하는 경우에는 조직이 가능한 한 안전 하 게 작동 하는지 확인 하는 데 도움이 될 것입니다. 이 문서에서는 보안 팀이 가장 중요 한 보안 기능을 최대한 신속 하 게 구현 하기 위한 작업을 우선적으로 설명 합니다.
+
+![가정에서 작업을 지원 하기 위해 이러한 주요 작업을 수행 합니다.](../media/security/security-support-remote-work.png)
 
 중소 규모 조직에서 Microsoft의 비즈니스 계획 중 하나를 사용 하는 경우에는 대신 다음 리소스를 참조 하세요.
 
@@ -110,7 +112,7 @@ Exchange Online 관리자 및 SharePoint Online 관리자와 협력 하 여 이�
 
 ## <a name="4-configure-microsoft-defender-for-identity"></a>4: Id를 위해 Microsoft Defender 구성
 
-[Microsoft Defender For Identity](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) 는 온-프레미스 Active Directory 신호를 활용 하 여 고급 위협, 손상 된 id 및 조직에서 보낸 악의적인 참가자 작업을 식별, 감지 및 조사 하기 위한 클라우드 기반 보안 솔루션입니다. 다음에는 온-프레미스 및 클라우드 인프라를 보호 하 고, 종속성 이나 필수 구성 요소가 없으며, 즉각적인 이점을 제공할 수 있으므로 중점적으로 설명 합니다.
+[ID용 Microsoft Defender](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)는 온-프레미스 Active Directory 신호를 활용하여 조직에서 일어나는 고급 위협, ID 손상 및 악의적인 내부자 작업을 식별, 감지 및 조사하는 클라우드 기반 보안 솔루션입니다. 다음에는 온-프레미스 및 클라우드 인프라를 보호 하 고, 종속성 이나 필수 구성 요소가 없으며, 즉각적인 이점을 제공할 수 있으므로 중점적으로 설명 합니다.
 
 - 신속한 설치를 위해 [Microsoft Defender For Identity 퀵 스타트](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) 를 참조 하세요.
 - [비디오 보기: id 용 Microsoft Defender 소개](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)
