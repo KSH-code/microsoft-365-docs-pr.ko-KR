@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Power BI의 Microsoft 365 사용 현황 분석 서식 파일 앱을 사용 하 여 테 넌 트에 대 한 데이터 수집을 시작 하는 방법을 알아봅니다.
-ms.openlocfilehash: 0817e6441540086bf679c6533b1bad2e4087b4b9
-ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
+ms.openlocfilehash: 347256fa7acaae18cd31f0c8c6b7eca20ad2e9dd
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841460"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48941334"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석을 사용하도록 설정
 
@@ -56,12 +56,7 @@ Power BI가 아직 없는 경우 [POWER Bi Pro에 등록할](https://go.microsof
   
 ### <a name="enable-the-template-app"></a>서식 파일 앱 사용
 
-서식 파일 앱을 사용 하도록 설정 하려면 다음 중 하나 여야 합니다. 
-- **전역 관리자**
-- **보고서 읽기 권한자**
-- **Exchange 관리자**
-- **비즈니스용 Skype 관리자**
-- **SharePoint 관리자** 
+서식 파일 앱을 사용 하도록 설정 하려면 **전역 관리자** 여야 합니다.
   
 자세한 내용은 [관리자 역할 정보](../add-users/about-admin-roles.md) 를 참조 하세요. 
   
@@ -91,13 +86,13 @@ Power BI가 아직 없는 경우 [POWER Bi Pro에 등록할](https://go.microsof
 
 6.  **Microsoft 365 usage analytics에 연결** 화면에서 **연결** 을 선택 하 고 단계 (1)에서 복사한 테 넌 트 ID (대시 없이)를 입력 한 후 **다음** 을 선택 합니다.
     
-7. 다음 화면에서 **인증 방법** 로그인으로 **OAuth2** 을 선택 합니다 \> **Sign in** . 다른 인증 방법을 선택 하는 경우에는 서식 파일 앱에 대 한 연결이 실패 하 게 됩니다.
+7. 다음 화면에서 **인증 방법** 로그인으로 **OAuth2** 을 선택 합니다 \> **Sign in**. 다른 인증 방법을 선택 하는 경우에는 서식 파일 앱에 대 한 연결이 실패 하 게 됩니다.
     
     ![인증 방법으로 Microsoft 계정 선택](../../media/ab6f0463-c3f7-4088-a605-67c699fa86adnew.png)
   
 8. 서식 파일 앱이 인스턴스화된 후에는 Microsoft 365 사용 현황 분석 대시보드를 웹의 Power BI에서 사용할 수 있습니다. 대시보드의 초기 로드는 2 ~ 30 분 정도 소요 됩니다.
   
-모든 보고서에서 테 넌 트 수준 집계를 사용할 수 있습니다. **사용자 수준 세부 정보는 다음 달 또는 15 일 후에 옵트인 하면 사용할 수 있습니다** . 이렇게 하면 사용자 활동 아래의 모든 보고서에 영향을 줍니다. 이러한 보고서를 보고 사용 하는 방법에 대 한 팁 [은 Microsoft 365 사용 현황 분석에서 보고서 탐색 및 활용](navigate-and-utilize-reports.md) 을 참조 하세요.
+모든 보고서에서 테 넌 트 수준 집계를 사용할 수 있습니다. **사용자 수준 세부 정보는 다음 달 또는 15 일 후에 옵트인 하면 사용할 수 있습니다**. 이렇게 하면 사용자 활동 아래의 모든 보고서에 영향을 줍니다. 이러한 보고서를 보고 사용 하는 방법에 대 한 팁 [은 Microsoft 365 사용 현황 분석에서 보고서 탐색 및 활용](navigate-and-utilize-reports.md) 을 참조 하세요.
     
 ## <a name="make-the-collected-data-anonymous"></a>수집된 데이터를 익명으로 설정
 

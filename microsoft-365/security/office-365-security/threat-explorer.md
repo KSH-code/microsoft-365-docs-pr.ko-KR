@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: 보안 및 준수 센터에서 Explorer 및 실시간 검색을 사용 하 여 위협에 효과적이 고 효율적으로 대응 하는 방법에 대해 알아봅니다 &amp; .
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a6123306c1d707a3eeab5c5dd67ed25bebb71965
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 6a1aff37cc845e09be332b853aa938cb66fdb43f
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845688"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48941490"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
@@ -53,7 +53,7 @@ Explorer (또는 실시간 검색)를 사용 하는 경우 보안 운영 팀이 
 > [!NOTE]
 > 사용자 태그 기능은 미리 보기에서 모든 사용자가 사용할 수 없으며 변경할 수 있습니다. 릴리스 일정에 대 한 자세한 내용은 Microsoft 365 로드맵를 참조 하세요.
 
-사용자 태그는 Microsoft Defender for Office 365의 특정 사용자 그룹에 대 한 식별자입니다. 태그에 대 한 자세한 내용, 태그 라이선스 및 구성에 대 한 자세한 내용은 [Defender For Office 365에서 사용자 태그](user-tags.md)를 참조 하세요.
+사용자 태그는 Microsoft Defender for Office 365의 특정 사용자 그룹에 대 한 식별자입니다. 태그에 대 한 자세한 내용, 태그 라이선스 및 구성에 대 한 자세한 내용은 [User tags](user-tags.md)를 참조 하십시오.
 
 위협 탐색기 내에서는 다음과 같은 환경에서 사용자 태그에 대 한 정보를 확인할 수 있습니다.
 
@@ -172,7 +172,7 @@ URL 및 URL 클릭 데이터를 중심으로 하는 향상 된 기능 집합은 
 
  - Url 플라이 아웃의 클릭 섹션 내에서 URL의 일부인 쿼리 매개 변수를 포함 하 여 클릭 한 전체 URL을 표시 합니다. 현재 URL 도메인과 경로가 제목 표시줄에 표시 됩니다. 이 정보를 확장 하 여 전체 URL을 표시 합니다.
 
- - Url 필터 (URL vs url 도메인 vs URL 도메인 및 경로): URL이 포함 된 메시지를 검색 하는 과정에서 업데이트를 수행 하 고 결과를 클릭 합니다. 이 작업의 일부로, 프로토콜에 관계 없이 검색을 지원 하도록 설정 했습니다 (http를 사용 하지 않고 URL을 직접 검색할 수 있음). 기본적으로 URL 검색은 명시적으로 지정 된 경우를 제외 하 고 http에 매핑됩니다. 예:
+ - Url 필터 (URL vs url 도메인 vs URL 도메인 및 경로): URL이 포함 된 메시지를 검색 하는 과정에서 업데이트를 수행 하 고 결과를 클릭 합니다. 이 작업의 일부로, 프로토콜에 관계 없이 검색을 지원 하도록 설정 했습니다 (http를 사용 하지 않고 URL을 직접 검색할 수 있음). 기본적으로 URL 검색은 명시적으로 지정 된 경우를 제외 하 고 http에 매핑됩니다. 예제:
 
    1. `http://`"Url", "Url 도메인" 및 "Url 도메인 및 경로" 필터 필드에서 접두사를 사용 하지 않고 검색 합니다. 이 동작은 일관적 이며 같은 결과를 표시 합니다.
 
@@ -199,7 +199,7 @@ URL 및 URL 클릭 데이터를 중심으로 하는 향상 된 기능 집합은 
 
 ### <a name="filter-by-user-tags"></a>사용자 태그로 필터링
 
-이제 시스템 또는 사용자 지정 사용자 태그로 정렬 및 필터링 하 여 위협의 범위를 신속 하 게 파악할 수 있습니다. 자세한 내용은 [Office 365 ATP의 사용자 태그](user-tags.md) 를 참조 하세요.
+이제 시스템 또는 사용자 지정 사용자 태그로 정렬 및 필터링 하 여 위협의 범위를 신속 하 게 파악할 수 있습니다. 자세한 내용은 [사용자 태그](user-tags.md) 를 참조 하세요.
 
 > [!IMPORTANT]
 > 사용자 태그에의 한 필터링 및 정렬은 현재 공개 미리 보기입니다.

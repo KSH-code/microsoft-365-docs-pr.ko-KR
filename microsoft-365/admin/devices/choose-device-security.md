@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 여러 MDM 및 MAM 방법 중에서 선택 합니다.
-ms.openlocfilehash: 6231b7c82f280a60ae9d30bcf27697dc131b2471
-ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
+ms.openlocfilehash: 2866aa8cf172361b2b5f5055932717154cd6ddd1
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/06/2020
-ms.locfileid: "48930283"
+ms.locfileid: "48941300"
 ---
 # <a name="options-for-protecting-your-devices-and-app-data"></a>장치 및 앱 데이터를 보호 하기 위한 옵션
 
@@ -37,8 +37,6 @@ ms.locfileid: "48930283"
 - Microsoft 365 advanced security 및 threat protection이 포함 된 Enterprise 요금제입니다.
 
 ## <a name="device-management-options"></a>장치 관리 옵션
-
-![어떤 구독에서 어떤 MDM 및 MAM 방법을 사용 해야 하는지 보여 주는 그림입니다.](../../m365-mam-mdm.png)
 
 - **기본 이동성 및 보안** 은 대부분의 microsoft 365 요금제와 함께 제공 되며 Microsoft 365 business Standard 및 Microsoft 365 business Basic에 제공 되는 유일한 기본 제공 옵션입니다. 자세한 내용은 [기본 이동성 및 보안의 가용성](../basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md#availability-of-basic-mobility-and-security-and-intune)을 참조 하세요. 
 

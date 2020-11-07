@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: c28353698dd372e14d5ec51b92eb4c0c051c92a4
-ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
+ms.openlocfilehash: 642de80e1a133f212b7afb6774d9aab2eeaabdbf
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/06/2020
-ms.locfileid: "48931915"
+ms.locfileid: "48941412"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>준비 상태 평가 도구에서 발견 된 문제 해결
 
@@ -308,20 +308,20 @@ Azure Active Directory의 보안 기본값을 설정 하면 Microsoft Managed De
 
 ### <a name="self-service-password-reset"></a>셀프 서비스 암호 재설정
 
-모든 사용자가 SSPR (셀프 서비스 암호 재설정)를 사용 하도록 설정 해야 합니다. 그렇지 않으면 Microsoft Managed Desktop service 계정이 작동할 수 없습니다. 자세한 내용은 [Tutorial: 사용자가 Azure Active Directory 셀프 서비스 암호 재설정을 사용 하 여 계정의 잠금을 해제 하거나 암호를 재설정할 수 있도록](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr)합니다 .를 참조 하세요.
+Microsoft Managed Desktop service 계정을 제외한 모든 사용자에 대해 셀프 서비스 암호 재설정 (SSPR)을 사용 하도록 설정 해야 합니다. 자세한 내용은 [Tutorial: 사용자가 Azure Active Directory 셀프 서비스 암호 재설정을 사용 하 여 계정의 잠금을 해제 하거나 암호를 재설정할 수 있도록](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr)합니다 .를 참조 하세요.
 
 **조언**
 
-SSPR **Selected** 설정에 Microsoft Managed Desktop devices가 포함 되어 있는지 확인 합니다.
+SSPR **Selected** 설정에 Microsoft managed desktop devices가 포함 되어 있지만 Microsoft managed desktop service 계정은 제외 되지 않도록 합니다. SSPR가 사용 하도록 설정 되어 있으면 Microsoft Managed Desktop service 계정이 예상 대로 작동 하지 않습니다.  
 
 
 ### <a name="standard-user-role"></a>표준 사용자 역할
 
-Microsoft Managed Desktop 사용자는 로컬 관리자 권한이 없는 표준 사용자 여야 합니다. Microsoft Managed Desktop 장치를 시작할 때 표준 사용자 역할이 할당 될 예정입니다.
+전역 관리자 및 장치 관리자의 Azure AD 역할이 할당 된 사용자를 제외 하 고, Microsoft Managed Desktop 사용자는 로컬 관리자 권한이 없는 표준 사용자가 됩니다. 다른 모든 사용자는 Microsoft Managed Desktop 장치를 시작할 때 표준 사용자 역할이 할당 됩니다.
 
 **조언**
 
-Microsoft Managed Desktop 사용자에 게 등록 하기 전에 로컬 관리자 권한이 없어야 합니다.
+Microsoft Managed Desktop users에는 등록 후에도 Microsoft Managed Desktop 장치에 대 한 로컬 관리자 권한이 없습니다.
 
 ## <a name="microsoft-365-apps-for-enterprise"></a>엔터프라이즈용 Microsoft 365 앱
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 조직의 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 & 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 36d7fde77ae8a6280dae26e5a0f7a75537bf28d4
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: fafb499e40c0014a85c9566b3e5aadf2751202a1
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841875"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48941478"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>보안 및 준수 센터의 전자 메일 보안 보고서 보기
 
@@ -67,7 +67,7 @@ ms.locfileid: "48841875"
 
 ## <a name="encryption-report"></a>암호화 보고서
 
-**암호화 보고서** 는 EOP (exchange online의 사서함과 exchange online 사서함이 없는 독립 실행형 EOP 구독)에서 사용할 수 있습니다. 조직의 보안 팀은이 보고서의 정보를 사용 하 여 패턴을 식별 하 고 중요 한 전자 메일 메시지에 대 한 정책을 사전에 적용 하거나 조정할 수 있습니다. 예:
+**암호화 보고서** 는 EOP (exchange online의 사서함과 exchange online 사서함이 없는 독립 실행형 EOP 구독)에서 사용할 수 있습니다. 조직의 보안 팀은이 보고서의 정보를 사용 하 여 패턴을 식별 하 고 중요 한 전자 메일 메시지에 대 한 정책을 사전에 적용 하거나 조정할 수 있습니다. 예제:
 
 - 사용자가 암호화 한 전자 메일 메시지가 많은 경우 특정 사용 사례에 대 한 암호화를 자동화 하는 암호화 정책을 추가 하는 것이 좋습니다. 자세한 내용은 [Microsoft 365에서 전자 메일 메시지를 암호화 하는 메일 흐름 규칙 정의](../../compliance/define-mail-flow-rules-to-encrypt-email.md)를 참조 하십시오.
 
@@ -336,7 +336,7 @@ ms.locfileid: "48841875"
 
 - **아래로 나누기: 기술** 및 **데이터 보기 By: 전자 메일 \> 맬웨어** : 다음 정보가 표시 됩니다.
 
-  - **Atp 생성 파일 신뢰도**<sup>1</sup>: ATP detonations에서 생성 된 모든 악의적 파일 신뢰도입니다.
+  - **ATP 생성 파일 신뢰도**<sup>1</sup>: Defender에서 Office 365 detonations에 대해 생성 하는 모든 악의적 파일 신뢰도입니다.
   - **맬웨어 방지 엔진**<sup>1</sup>: 맬웨어 방지 엔진에서 검색 합니다.
   - **맬웨어 방지 정책 파일 형식 블록** : 메시지에서 식별 된 악의적인 파일의 유형으로 인해 필터링 된 전자 메일 메시지입니다.
   - **File 샌드 박싱**<sup>1</sup>: 샌드 박싱 파일은 안전한 첨부 파일로 catch 합니다.  

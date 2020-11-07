@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender for Office 365에서 자동화 된 조사 및 응답을 시작 하세요.
+title: Microsoft Defender for Office 365의 자동화 된 조사 및 응답
 keywords: AIR, autoIR, ATP, 자동화, 조사, 대응, 재구성, 위협, 고급, 위협, 보호
 f1.keywords:
 - NOCSH
@@ -21,14 +21,14 @@ description: Microsoft Defender for Office 365의 자동화 된 조사 및 응�
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: 5796cdf21f9dd12c35a2f84422f03503433755b0
-ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
+ms.openlocfilehash: 5a7995e0aeba0f29efb1a085a04a299b1e709b1f
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/06/2020
-ms.locfileid: "48931939"
+ms.locfileid: "48941466"
 ---
-# <a name="get-started-using-automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365에서 자동화 된 조사 및 응답 (AIR) 사용 시작
+# <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 자동 조사 및 응답 (AIR)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 

@@ -7,12 +7,12 @@ author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 772d1d52e977a067ff9bc3517de9cb2ae6c8c9a3
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: b3b1f43217b3be285f20925065bf9710a38f9606
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950370"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48941444"
 ---
 # <a name="windows-security-update-insights"></a>Windows 보안 업데이트 정보 활용
 이 보기에서는 Microsoft Managed Desktop 장치에 대 한 보안 업데이트 상태에 대 한 개요를 제공 합니다. 
@@ -23,11 +23,11 @@ ms.locfileid: "47950370"
 
 ## <a name="device-status"></a>장치 상태
 
-Windows 업데이트를 통해 장치를 업데이트 하려면 해당 장치가 인터넷에 연결 되어 있어야 하 고, 최소 6 시간 동안 최대 절전 상태가 아니어야 하며,이 중 두 가지는 연속적 이어야 합니다. 장치가 최대 절전 모드와 연결 되어 있지 않으면 "사용 중인 것으로 간주 됩니다." 이러한 요구 사항을 충족 하지 않는 장치가 업데이트 될 수 있지만, 이러한 장치를 충족 하는 장치를 업데이트 하는 것이 가장 높습니다. 
+Windows 업데이트를 통해 장치를 업데이트 하려면 해당 장치가 인터넷에 연결 되어 있어야 하 고, 최소 6 시간 동안 최대 절전 상태가 아니어야 하며,이 중 두 가지는 연속적 이어야 합니다. 이러한 요구 사항을 충족 하지 않는 장치가 업데이트 될 수 있지만, 이러한 장치를 충족 하는 장치를 업데이트 하는 것이 가장 높습니다. 
 
 다음 용어로 Windows Update 컨텍스트에서 장치 활동을 분류 합니다.
 
-- <strong>활성 상태:</strong> 최신 보안 업데이트 릴리스에 대 한 최소 사용 조건 (6 시간, 두 개 연속)을 충족 하 고 최소 5 일 마다 Microsoft Intune을 체크 인 한 장치
+- <strong>활성 상태:</strong> 최신 보안 업데이트 릴리스에 대 한 최소 작업 조건 (6 시간, 두 개 연속)을 충족 했으며 최소 5 일 마다 Microsoft Intune을 체크 인 한 장치
 - <strong>동기화 됨:</strong> 지난 28 일 이내에 Intune을 사용 하 여 체크 인 한 장치
 - <strong>비동기화 됨:</strong> 지난 28 일 동안 Intune을 사용 하 <i>여 체크 인하지 않은 장치</i>
 
