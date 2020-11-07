@@ -16,19 +16,19 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 인바운드 메시지를 허용 하는 데 사용할 수 있는 옵션 및 기본 설정에 대해 알아봅니다.
-ms.openlocfilehash: 4009dcd506921b473e938828e5bdc10411c06ce2
-ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
+ms.openlocfilehash: 0ab0a636cb70d98aa7c17ffe6aaec66ae1f4ecc7
+ms.sourcegitcommit: 9dbc6a08177aaca112e84d30dbaa79a0a8e9dbf8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48600324"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "48945345"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>EOP에서 수신 허용-보낸 사람 목록 만들기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Exchange online 사서함이 없는 Microsoft 365, EOP (독립 실행형 Exchange Online Protection) 고객의 사서함을 사용 하는 경우 EOP에서는 사용자가 신뢰할 수 있는 보낸 사람 으로부터 전자 메일을 수신 하도록 하는 여러 가지 방법을 제공 합니다. 이러한 옵션에는 스팸 방지 정책에서 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함), Outlook 수신 허용-IP 허용 목록 (연결 필터링), 허용 되는 보낸 사람 목록 또는 허용 도메인 목록이 포함 됩니다. 이러한 옵션은 집합적으로 _수신 허용-보낸 사람 목록_으로 간주할 수 있습니다.
+Exchange online 사서함이 없는 Microsoft 365, EOP (독립 실행형 Exchange Online Protection) 고객의 사서함을 사용 하는 경우 EOP에서는 사용자가 신뢰할 수 있는 보낸 사람 으로부터 전자 메일을 수신 하도록 하는 여러 가지 방법을 제공 합니다. 이러한 옵션에는 스팸 방지 정책에서 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함), Outlook 수신 허용-IP 허용 목록 (연결 필터링), 허용 되는 보낸 사람 목록 또는 허용 도메인 목록이 포함 됩니다. 이러한 옵션은 집합적으로 _수신 허용-보낸 사람 목록_ 으로 간주할 수 있습니다.
 
 사용 가능한 수신 허용-보낸 사람 목록은 다음 목록에서 권장 되는 것부터 최소 권장 사항 순으로 설명 됩니다.
 
@@ -49,7 +49,7 @@ Exchange online 사서함이 없는 Microsoft 365, EOP (독립 실행형 Exchang
 >
 > - EOP 및 Outlook에서 다른 메시지 속성을 검사 하 여 메시지를 보낸 사람을 확인 합니다. 자세한 내용은이 항목의 뒷부분에 나오는 [대량 전자 메일 고려 사항](#considerations-for-bulk-email) 섹션을 참조 하십시오.
 
-반면, _차단 된 보낸 사람 목록을_사용 하 여 특정 원본의 전자 메일을 차단 하는 몇 가지 옵션도 있습니다. 자세한 내용은 [EOP에서 차단할 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조하세요.
+반면, _차단 된 보낸 사람 목록을_ 사용 하 여 특정 원본의 전자 메일을 차단 하는 몇 가지 옵션도 있습니다. 자세한 내용은 [EOP에서 차단할 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조하세요.
 
 ## <a name="recommended-use-mail-flow-rules"></a>는 메일 흐름 규칙 사용
 
@@ -57,17 +57,17 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 메시
 
 다음 예에서는 스팸 필터링을 건너뛰려면 contoso.com의 전자 메일이 필요한 것으로 가정 합니다. 이렇게 하려면 다음 설정을 구성 합니다.
 
-1. **조건**: **보낸 사람** \> **도메인** 은 \> contoso.com입니다.
+1. **조건** : **보낸 사람** \> **도메인** 은 \> contoso.com입니다.
 
 2. 다음 설정 중 하나를 구성 합니다.
 
-   - **메일 흐름 규칙 조건**: **메시지 헤더에** 는 다음과 같은 \> 단어 **includes any of these words** \> **헤더 이름**( `Authentication-Results` \> **헤더 값**: `dmarc=pass` 또는 `dmarc=bestguesspass` )이 포함 됩니다.
+   - **메일 흐름 규칙 조건** : **메시지 헤더에** 는 다음과 같은 \> 단어 **includes any of these words** \> **헤더 이름** ( `Authentication-Results` \> **헤더 값** : `dmarc=pass` 또는 `dmarc=bestguesspass` )이 포함 됩니다.
 
-     이 조건은 보내는 전자 메일 도메인의 보낸 사람 인증 상태를 확인 하 여 해당 도메인이 위장 되 고 있지 않은지 확인 합니다. 전자 메일 인증에 대 한 자세한 내용은 [SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md), [Dkim](use-dkim-to-validate-outbound-email.md)및 [DMARC](use-dmarc-to-validate-email.md)을 참조 하십시오.
+     이 조건은 보내는 전자 메일 도메인의 전자 메일 인증 상태를 확인 하 여 해당 도메인이 위장 되 고 있지 않은지 확인 합니다. 전자 메일 인증에 대 한 자세한 내용은 [SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md), [Dkim](use-dkim-to-validate-outbound-email.md)및 [DMARC](use-dmarc-to-validate-email.md)을 참조 하십시오.
 
-   - **IP 허용 목록**: 연결 필터 정책에 원본 IP 주소 또는 주소 범위를 지정 합니다.
+   - **IP 허용 목록** : 연결 필터 정책에 원본 IP 주소 또는 주소 범위를 지정 합니다.
   
-     보내는 도메인에 인증이 없는 경우이 설정을 사용 합니다. IP 허용 목록의 원본 IP 주소에 도달 하는 경우 최대한 제한적 이어야 합니다. IP 주소 범위가/24 이하인 것이 좋습니다 (더 나은 것이 좋음). 소비자 서비스 (예: outlook.com) 또는 공유 인프라에 속하는 IP 주소 범위는 사용 하지 마십시오.
+     보내는 도메인에서 전자 메일 인증을 사용 하지 않는 경우이 설정을 사용 합니다. IP 허용 목록의 원본 IP 주소에 도달 하는 경우 최대한 제한적 이어야 합니다. IP 주소 범위가/24 이하인 것이 좋습니다 (더 나은 것이 좋음). 소비자 서비스 (예: outlook.com) 또는 공유 인프라에 속하는 IP 주소 범위는 사용 하지 마십시오.
 
    > [!IMPORTANT]
    >
@@ -77,17 +77,17 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 메시
    >
    > - NAT (network address translation) 게이트웨이 뒤에 있는 IP 주소를 허용 하는 경우 IP 허용 목록의 범위를 확인 하기 위해 NAT 풀에 포함 된 서버를 파악 해야 합니다. IP 주소 및 NAT 참가자가 변경 될 수 있습니다. 표준 유지 관리 절차의 일부로 IP 허용 목록 항목을 주기적으로 확인 해야 합니다.
 
-3. **선택적 조건**:
+3. **선택적 조건** :
 
-   - **보낸 사람** \> **내부/외부** \> **조직 외부**:이 조건은 암시적 이지만, 제대로 구성 되지 않았을 수 있는 온-프레미스 전자 메일 서버를 고려 하는 데에는이 조건이 확인 됩니다.
+   - **보낸 사람** \> **내부/외부** \> **조직 외부** :이 조건은 암시적 이지만, 제대로 구성 되지 않았을 수 있는 온-프레미스 전자 메일 서버를 고려 하는 데에는이 조건이 확인 됩니다.
 
    - **제목 또는 본문** \> **제목 또는 본문에 다음 단어 포함** \> \<keywords\>: 제목 줄 또는 메시지 본문의 키워드나 구로 메시지를 추가로 제한할 수 있는 경우 해당 단어를 조건으로 사용할 수 있습니다.
 
-4. **작업**: 규칙에서 이러한 작업을 모두 구성 합니다.
+4. **작업** : 규칙에서 이러한 작업을 모두 구성 합니다.
 
-   a. **메시지 속성 수정** \> **SCL (스팸 지 수) 설정** \> **스팸 필터링을 무시**합니다.
+   a. **메시지 속성 수정** \> **SCL (스팸 지 수) 설정** \> **스팸 필터링을 무시** 합니다.
 
-   b. **메시지 헤더** \> **다음 단어 포함** \> **헤더 이름**: \<CustomHeaderName\> **헤더 값**: \<CustomHeaderValue\> 입니다.
+   b. **메시지 속성 수정** \> **메시지 헤더 설정** : **메시지 헤더** 를 \<CustomHeaderName\> **값으로** 설정 \<CustomHeaderValue\> 합니다.
 
       예를 들면 `X-ETR: Bypass spam filtering for authenticated sender 'contoso.com'`와 같습니다. 규칙에 도메인이 둘 이상 있는 경우 머리글 텍스트를 적절 하 게 사용자 지정할 수 있습니다.
 
@@ -105,7 +105,7 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 메시
 
 앞에서 설명한 것 처럼 메일 흐름 규칙을 사용할 수 없는 경우에는 연결 필터 정책의 IP 허용 목록에 원본 전자 메일 서버를 추가 하는 것이 가장 좋습니다. 자세한 내용은 [Configure connection 필터링할지 IN EOP](configure-the-connection-filter-policy.md)을 참조 하십시오.
 
-**참고**:
+**참고:**
 
 - 허용 되는 IP 주소 수를 최소로 유지 하는 것이 중요 하므로 가능 하면 전체 IP 주소 범위를 사용 하지 않는 것이 좋습니다.
 
@@ -130,7 +130,7 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 메시
 
 ## <a name="considerations-for-bulk-email"></a>대량 전자 메일에 대 한 고려 사항
 
-표준 SMTP 전자 메일 메시지는 *메시지 봉투* 와 메시지 콘텐츠로 구성 됩니다. 메시지 봉투에는 SMTP 서버 간에 메시지를 전송 및 배달 하는 데 필요한 정보가 포함 되어 있습니다. 메시지 콘텐츠에는 메시지 헤더 필드 (통칭 *메시지 헤더*) 및 메시지 본문이 포함 됩니다. 메시지 봉투는 RFC 5321에 설명 되어 있고 메시지 헤더는 RFC 5322에 설명 되어 있습니다. 실제 메시지 봉투는 메시지 전송 프로세스에 의해 생성 되며 실제로는 메시지의 일부가 아니기 때문에 받는 사람에 게는 표시 되지 않습니다.
+표준 SMTP 전자 메일 메시지는 *메시지 봉투* 와 메시지 콘텐츠로 구성 됩니다. 메시지 봉투에는 SMTP 서버 간에 메시지를 전송 및 배달 하는 데 필요한 정보가 포함 되어 있습니다. 메시지 콘텐츠에는 메시지 헤더 필드 (통칭 *메시지 헤더* ) 및 메시지 본문이 포함 됩니다. 메시지 봉투는 RFC 5321에 설명 되어 있고 메시지 헤더는 RFC 5322에 설명 되어 있습니다. 실제 메시지 봉투는 메시지 전송 프로세스에 의해 생성 되며 실제로는 메시지의 일부가 아니기 때문에 받는 사람에 게는 표시 되지 않습니다.
 
 - `5321.MailFrom`주소 ( **메일** 보낸 사람 주소, P1 sender 또는 envelope sender)는 메시지의 SMTP 전송에 사용 되는 전자 메일 주소입니다. 이 전자 메일 주소는 일반적으로 메시지 헤더의 **반환 경로** 헤더 필드에 기록 됩니다 (보낸 사람이 다른 **반환 경로** 전자 메일 주소를 지정할 수 있지만). 메시지를 배달할 수 없는 경우 NDR 또는 바운스 메시지가 라고도 하는 배달 못 함 보고서 (예를 들어)의 받는 사람을 나타냅니다.
 

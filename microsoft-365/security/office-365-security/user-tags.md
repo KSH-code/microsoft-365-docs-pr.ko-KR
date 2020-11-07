@@ -15,19 +15,19 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Microsoft Defender for Office 365 계획 2에서 사용자 태그를 사용 하 여 특정 사용자 그룹을 식별 하는 방법을 확인할 수 있습니다. 태그 필터링은 태그가 지정 된 사용자를 빠르게 식별 하기 위해 Microsoft Defender for Office 365의 경고, 보고서 및 조사를 통해 제공 됩니다.
-ms.openlocfilehash: fcc13a04ed603712bb2a45ccaadbaf161702c502
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 9c83a323a3116b3da61a133c7fb449978ca13841
+ms.sourcegitcommit: 9dbc6a08177aaca112e84d30dbaa79a0a8e9dbf8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842883"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "48945321"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 사용자 태그
 
 > [!NOTE]
 > 사용자 태그 기능은 미리 보기에서 모든 사용자가 사용할 수 없으며 변경할 수 있습니다. 릴리스 일정에 대 한 자세한 내용은 [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap)를 참조 하세요.
 
-사용자 태그는 [Defender For Office 365](office-365-atp.md)의 특정 사용자 그룹에 대 한 식별자입니다. 사용자 태그에는 다음과 같은 두 가지 유형이 있습니다.
+사용자 태그는 [Microsoft Defender For Office 365](office-365-atp.md)의 특정 사용자 그룹에 대 한 식별자입니다. 사용자 태그에는 다음과 같은 두 가지 유형이 있습니다.
 
 - **시스템 태그** : 현재 [우선 순위 계정만](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) 시스템 태그 유형입니다.
 - **사용자 지정 태그** : 이러한 사용자 태그를 직접 만듭니다.
