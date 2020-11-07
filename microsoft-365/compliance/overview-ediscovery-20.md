@@ -20,16 +20,16 @@ search.appverid:
 ms.assetid: ''
 description: 이 문서에서는 내부 및 외부 조사 도구인 Microsoft 365의 고급 eDiscovery에 대 한 개요를 제공 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d8a43d8a7f0b1803b374839d8ed0d7d82c6adace
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 95c864b9e2222000b1114ae42dbbb5705228d531
+ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399057"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "48944346"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Microsoft 365의 고급 eDiscovery 솔루션 개요
 
-Microsoft 365의 고급 eDiscovery 솔루션은 Office 365의 기존 eDiscovery 및 분석 기능을 기반으로 작성 되었습니다. *Advanced eDiscovery*라는이 새로운 솔루션은 조직의 내부 및 외부 조사에 응답 하는 콘텐츠를 보존, 수집, 검토, 분석 및 내보내기 위한 종단 간 워크플로를 제공 합니다. 또한 법률 팀에서 법적 보존 알림 워크플로 전체를 관리 하 여 사례와 관련 된 custodians와 통신할 수 있습니다. 
+Microsoft 365의 고급 eDiscovery 솔루션은 Office 365의 기존 eDiscovery 및 분석 기능을 기반으로 작성 되었습니다. *Advanced eDiscovery* 라는이 새로운 솔루션은 조직의 내부 및 외부 조사에 응답 하는 콘텐츠를 보존, 수집, 검토, 분석 및 내보내기 위한 종단 간 워크플로를 제공 합니다. 또한 법률 팀에서 법적 보존 알림 워크플로 전체를 관리 하 여 사례와 관련 된 custodians와 통신할 수 있습니다. 
 
 > [!NOTE]
 > 고급 eDiscovery에는 Office 365 또는 Microsoft 365 E5 Enterprise 구독이 필요 합니다. 고급 eDiscovery 라이선스에 대 한 자세한 내용은 [보안 & 준수에 대 한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-ediscovery)을 참조 하세요.
@@ -44,27 +44,35 @@ Microsoft 365의 고급 eDiscovery 솔루션은 Office 365의 기존 eDiscovery 
 
 높은 수준에서 고급 eDiscovery는 EDRM 워크플로를 지 원하는 방법에 대해 설명 합니다.
 
-- **확인과.** 조사에서 관심 있는 잠재적 사용자를 확인 한 후에는 조사와 관련 된 정보를 custodians ( *데이터 custodians*라고도 함)로 고급 eDiscovery 사례에 추가할 수 있습니다. 사용자가 custodians로 추가 된 후에는 custodian 문서를 보존, 수집 및 검토 하기가 쉽습니다.
+- **확인과.** 조사에서 관심 있는 잠재적 사용자를 확인 한 후에는 조사와 관련 된 정보를 custodians ( *데이터 custodians* 라고도 함)로 고급 eDiscovery 사례에 추가할 수 있습니다. 사용자가 custodians로 추가 된 후에는 custodian 문서를 보존, 수집 및 검토 하기가 쉽습니다.
 
 - **보관.** 조사와 관련 된 데이터를 보존 하 고 보호 하기 위해 Advanced eDiscovery를 사용 하면 custodians와 연결 된 데이터 원본을 한 사례에 보관할 수 있습니다. Custodial 되지 않은 데이터를 보류로 설정할 수도 있습니다. 또한 Advanced eDiscovery에는 custodians에 법적 보존 알림을 전송 하 고 해당 승인을 추적할 수 있는 기본 제공 되는 통신 워크플로가 포함 되어 있습니다.
 
 - **모음.** 조사와 관련 된 데이터 원본을 식별 하 고 유지 한 후에는 해당 사례와 관련이 있을 수 있는 custodial 데이터 원본 (및 custodial이 아닌 데이터 원본)에서 기본 제공 검색 도구를 사용 하 여 실시간 데이터를 수집할 수 있습니다.
 
-- **처리.** 사례와 관련 된 모든 데이터를 수집한 후에는 다음 단계에서 자세한 검토 및 분석을 위해 프로세스를 진행 합니다. 고급 eDiscovery에서는 컬렉션 단계에서 식별 한 원본 위치 데이터가 Azure 저장소 위치 ( *검토 집합*이라고 함)로 복사 되어 사례 데이터에 대 한 정적 보기가 제공 됩니다. 
- 
+- **처리.** 사례와 관련 된 모든 데이터를 수집한 후에는 다음 단계에서 자세한 검토 및 분석을 위해 프로세스를 진행 합니다. 고급 eDiscovery에서는 컬렉션 단계에서 식별 한 원본 위치 데이터가 Azure 저장소 위치 ( *검토 집합* 이라고 함)로 복사 되어 사례 데이터에 대 한 정적 보기가 제공 됩니다. 
+
 - **검토.** 데이터를 검토 집합에 추가한 후에는 특정 문서를 보고, 사례와 가장 관련성이 높은 데이터를 줄이기 위해 다른 쿼리를 실행할 수 있습니다. 또한 주석을 달고 특정 문서에 태그를 지정할 수 있습니다.
- 
+
 - **분석할.** Advanced eDiscovery는 확인 하는 것이 적절 하지 않은 검토 집합에서 데이터를 추가로 cull 수 있도록 하는 통합 분석 도구를 제공 합니다. 또한 정보를 보다 효율적으로 구성 하 여 검토 프로세스를 보다 쉽게 수행할 수 있도록 하 여 관련 데이터의 양을 줄이는 것 외에도 eDiscovery는 콘텐츠를 구성할 수 있도록 하 여 법적 검토 비용을 절감할 수 있습니다.
 
 - **프로덕션** 및 **프레젠테이션** 준비가 완료 되 면 검토 집합에서 법률 검토를 위해 문서를 내보낼 수 있습니다. 기본 형식이 나 EDRM으로 지정 된 형식으로 문서를 내보내서 타사 검토 응용 프로그램으로 가져올 수 있습니다.
 
-## <a name="advanced-ediscovery-workflow"></a>고급 eDiscovery 워크플로
+## <a name="advanced-ediscovery-architecture"></a>고급 eDiscovery 아키텍처
 
-다음 섹션에서는 고급 eDiscovery에서 기본 제공 워크플로의 각 단계에 대해 설명 합니다. 다음 스크린샷에서는 *제품 책임 2019002*라는 사례에 대 한 **홈** 탭을 보여 줍니다. 참고 페이지 맨 위에 있는 워크플로 탭은 EDRM 프로세스에 맞게 시퀀싱 됩니다. 
+다음은 단일 지리적 환경 및 다중 위치 환경에서 종단 간 워크플로와 EDRM에 맞춰진 종단 간 데이터 흐름을 표시 하는 고급 eDiscovery 아키텍처 다이어그램을 소개 합니다.
+
+[![모델 포스터: Microsoft 365의 고급 eDiscovery 아키텍처](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png)
+
+[이미지로 보기](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png)
+
+[PDF 파일로 다운로드](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf)
+
+[Visio 파일로 다운로드](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)
 
 Advanced eDiscovery의 종단 간 워크플로에 대 한 자세한 내용은이 [Microsoft 메커니즘 비디오](https://go.microsoft.com/fwlink/?linkid=2066133)를 참조 하세요.
 
-![고급 eDiscovery의 탭은 EDRM 워크플로를 따릅니다.](../media/aedisco-homepage-1.png)
+다음 섹션에서는 고급 eDiscovery에서 기본 제공 워크플로의 각 단계에 대해 설명 합니다.
 
 ## <a name="managing-custodians-and-non-custodial-data-sources"></a>Custodians 및 비 custodial 데이터 원본 관리
 
@@ -80,7 +88,7 @@ Custodian를 사례에 추가할 때 custodial 데이터를 보유할 수 있습
 
 ## <a name="indexing-custodian-data"></a>Custodian 데이터 인덱싱
 
-Custodian 및 해당 custodial 데이터 원본을 사례에 추가 하면 custodian 데이터 원본의 모든 부분적으로 인덱싱된 항목이 *고급 인덱싱*프로세스에 의해 다시 인덱싱됩니다. 이를 통해 이미지, 지원 되지 않는 파일 형식 및 기타 잠재적으로 인덱싱되지 않은 콘텐츠와 같은 custodial 콘텐츠가 검색을 실행 하 여 사례에 대 한 데이터를 수집할 때 완벽 하 게 검색할 수 있습니다. **처리** 탭을 사용 하 여 *오류 수정 관리*라는 프로세스를 사용 하 여 고급 인덱싱의 상태를 모니터링 하 고 처리 오류를 해결 합니다. 자세한 내용은 [Advanced eDiscovery의 처리 오류 수정을](processing-data-for-case.md)참조 하세요.
+Custodian 및 해당 하는 custodial 데이터 원본을 사례에 추가할 때 custodian 데이터 원본의 모든 부분적으로 인덱싱된 항목은 *고급 인덱싱* 프로세스에 의해 reindexed 됩니다. 이를 통해 이미지, 지원 되지 않는 파일 형식 및 기타 잠재적으로 인덱싱되지 않은 콘텐츠와 같은 custodial 콘텐츠가 검색을 실행 하 여 사례에 대 한 데이터를 수집할 때 완벽 하 게 검색할 수 있습니다. **처리** 탭을 사용 하 여 *오류 수정 관리* 라는 프로세스를 사용 하 여 고급 인덱싱의 상태를 모니터링 하 고 처리 오류를 해결 합니다. 자세한 내용은 [Advanced eDiscovery의 처리 오류 수정을](processing-data-for-case.md)참조 하세요.
 
 ## <a name="collecting-case-data"></a>사례 데이터 수집하기
 

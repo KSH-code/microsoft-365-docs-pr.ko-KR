@@ -16,12 +16,12 @@ ms.collection:
 localization_priority: None
 description: Microsoft 팀에서 정보 장벽에 대 한 정책을 정의 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f7e1fbb0f1d468f8e1b79f9cc414fdb87a224283
-ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
+ms.openlocfilehash: ffeb1f1ca3296390fa10a636d3806127095712f8
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48379180"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48941433"
 ---
 # <a name="define-information-barrier-policies"></a>정보 장벽 정책 정의
 
@@ -38,7 +38,7 @@ ms.locfileid: "48379180"
 
 - 사용자 계정 특성은 Azure Active Directory (또는 Exchange Online)에서 정의 됩니다. 이러한 특성에는 부서, 직함, 위치, 팀 이름 및 기타 작업 프로필 정보가 포함 될 수 있습니다. 
 
-- 세그먼트는 선택한 **사용자 계정 특성**을 사용 하 여 보안 & 준수 센터에 정의 된 사용자 집합입니다. ( [지원 되는 특성 목록](information-barriers-attributes.md)참조) 
+- 세그먼트는 선택한 **사용자 계정 특성** 을 사용 하 여 보안 & 준수 센터에 정의 된 사용자 집합입니다. ( [지원 되는 특성 목록](information-barriers-attributes.md)참조) 
 
 - 정보 장벽 정책에 따라 통신 제한 또는 제한이 결정 됩니다. 정보 장벽 정책을 정의할 때는 두 가지 정책 유형 중에서 선택 합니다.
     - "차단" 정책은 한 세그먼트가 다른 세그먼트와 통신 하지 못하도록 합니다.
@@ -70,10 +70,10 @@ ms.locfileid: "48379180"
 
 - 감사 로깅-정책 응용 프로그램의 상태를 조회 하려면 감사 로깅을 설정 해야 합니다. 세그먼트 또는 정책 정의를 시작 하기 전에이 작업을 수행 하는 것이 좋습니다. 자세한 내용은 [감사 로그 검색 켜기 또는 끄기를](turn-audit-log-search-on-or-off.md)참조 하세요.
 
-- 주소록 정책 없음-정보 장벽 정책을 정의 하 고 적용 하기 전에 Exchange 주소록 정책이 없는지 확인 합니다. 정보 장애물은 주소록 정책에 기반을 둔 반면 두 가지 종류의 정책은 서로 호환 되지 않습니다. 이러한 정책이 있는 경우 먼저 주소록 [정책을 제거](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) 해야 합니다. 정보 장벽 정책이 사용 하도록 설정 되 고 계층 구조 주소록을 사용 하도록 설정 하면 정보 장벽 세그먼트에 ***포함 되지*** 않은 모든 사용자에 게 Exchange online의 [계층 구조](https://docs.microsoft.com/exchange/address-books/hierarchical-address-books/hierarchical-address-books) 주소록이 표시 됩니다.
+- 주소록 정책 없음-정보 장벽 정책을 정의 하 고 적용 하기 전에 Exchange 주소록 정책이 없는지 확인 합니다. 정보 장애물은 주소록 정책에 기반을 둔 반면 두 가지 종류의 정책은 서로 호환 되지 않습니다. 이러한 정책이 있는 경우 먼저 주소록 [정책을 제거](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) 해야 합니다. 정보 장벽 정책이 사용 하도록 설정 되 고 계층 구조 주소록을 사용 하도록 설정 되 면 정보 장벽 세그먼트에 *_포함 되지 않은_* 모든 사용자 *가 Exchange online에서 [계층 구조](https://docs.microsoft.com/exchange/address-books/hierarchical-address-books/hierarchical-address-books) 주소록을 볼 수 있습니다.
 
 - PowerShell-현재 정보 장벽 정책은 PowerShell cmdlet을 사용 하 여 Office 365 보안 & 준수 센터에서 정의 되 고 관리 됩니다. 이 문서에서는 몇 가지 예를 제공 했지만 PowerShell cmdlet 및 매개 변수에 익숙해져야 합니다. Azure PowerShell 모듈도 필요 합니다.
-    - [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+    - [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
     - [Azure PowerShell 모듈 설치](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-2.3.2)
 
 - 관리자 동의 Microsoft 팀의 정보 장벽-정책이 마련 되 면 정보 장벽에서 사용자를 제거할 수 있습니다. 이렇게 하면 조직이 정책 및 규정 준수 상태를 유지할 수 있습니다. 다음 절차를 사용 하 여 정보 장벽 정책이 Microsoft 팀에서 예상 대로 작동 하도록 설정 합니다. 
@@ -90,7 +90,7 @@ ms.locfileid: "48379180"
 
    2. 메시지가 나타나면 Office 365에 대 한 회사 또는 학교 계정을 사용 하 여 로그인 합니다.
 
-   3. 요청 된 **사용 권한** 대화 상자에서 정보를 검토 하 고 **수락**을 선택 합니다.
+   3. *사용 권한 요청* 됨 * 대화 상자에서 정보를 검토 하 고 **수락** 을 선택 합니다.
 
 모든 필수 구성 요소가 충족 되 면 다음 섹션으로 이동 합니다.
 
@@ -116,10 +116,10 @@ ms.locfileid: "48379180"
 > [!IMPORTANT]
 > 사용자는 하나의 세그먼트에만 있을 수 있습니다.
 
-세그먼트를 정의 하는 데 사용할 조직의 디렉터리 데이터 특성을 결정 합니다. *부서*, *MemberOf*또는 지원 되는 특성을 사용할 수 있습니다. 사용자에 대해 선택한 특성에 값이 있는지 확인 합니다. [정보 장벽에 대해 지원 되는 특성 목록을 참조 하세요](information-barriers-attributes.md).
+세그먼트를 정의 하는 데 사용할 조직의 디렉터리 데이터 특성을 결정 합니다. *부서* , *MemberOf* 또는 지원 되는 특성을 사용할 수 있습니다. 사용자에 대해 선택한 특성에 값이 있는지 확인 합니다. [정보 장벽에 대해 지원 되는 특성 목록을 참조 하세요](information-barriers-attributes.md).
 
 > [!IMPORTANT]
-> **다음 섹션을 진행 하기 전에 디렉터리 데이터에 세그먼트를 정의 하는 데 사용할 수 있는 특성 값이 있는지 확인**합니다. 사용할 특성 값이 디렉터리 데이터에 없는 경우에는 정보 장애물을 계속 하기 전에 해당 정보를 포함 하도록 사용자 계정을 업데이트 해야 합니다. 이에 대 한 도움말을 보려면 다음 리소스를 참조 하세요.<br/>- [Office 365 PowerShell을 사용 하 여 사용자 계정 속성 구성](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)<br/>- [Azure Active Directory를 사용 하 여 사용자 프로필 정보 추가 또는 업데이트](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+> **다음 섹션을 진행 하기 전에 디렉터리 데이터에 세그먼트를 정의 하는 데 사용할 수 있는 특성 값이 있는지 확인** 합니다. 사용할 특성 값이 디렉터리 데이터에 없는 경우에는 정보 장애물을 계속 하기 전에 해당 정보를 포함 하도록 사용자 계정을 업데이트 해야 합니다. 이에 대 한 도움말을 보려면 다음 리소스를 참조 하세요.<br/>- [Office 365 PowerShell을 사용 하 여 사용자 계정 속성 구성](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)<br/>- [Azure Active Directory를 사용 하 여 사용자 프로필 정보 추가 또는 업데이트](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
 ### <a name="define-segments-using-powershell"></a>PowerShell을 사용 하 여 세그먼트 정의
 
@@ -136,7 +136,7 @@ ms.locfileid: "48379180"
 2. 정의 하려는 각 세그먼트에 대해이 프로세스를 반복 합니다.
 
     > [!IMPORTANT]
-    > **세그먼트가 겹치지 않는지 확인**합니다. 정보 장벽에 영향을 받게 되는 각 사용자는 하나의 세그먼트에만 속해야 합니다. 두 개 이상의 세그먼트에 속해야 하는 사용자가 없습니다. (예제:이 문서에 나와 있는 [Contoso의 정의 된 세그먼트](#contosos-defined-segments) 참조)
+    > **세그먼트가 겹치지 않는지 확인** 합니다. 정보 장벽에 영향을 받게 되는 각 사용자는 하나의 세그먼트에만 속해야 합니다. 두 개 이상의 세그먼트에 속해야 하는 사용자가 없습니다. (예제:이 문서에 나와 있는 [Contoso의 정의 된 세그먼트](#contosos-defined-segments) 참조)
 
 
 세그먼트를 정의한 후에는 [정보 장벽 정책 정의](#part-2-define-information-barrier-policies)로 이동 합니다.
@@ -147,21 +147,21 @@ ms.locfileid: "48379180"
 
 |예제  |
 |---------|
-|`New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"` <p>이 예제에서 세그먼트 정의에는 **-eq**로 표시 되는 "equals" 매개 변수가 포함 되어 있습니다. 
+|`New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"` <p>이 예제에서 세그먼트 정의에는 **-eq** 로 표시 되는 "equals" 매개 변수가 포함 되어 있습니다. 
   |
 
-다음 표에 나와 있는 것 처럼 "같지 않음" 매개 변수를 사용 하 여 **세그먼트를 정의할**수도 있습니다.
+다음 표에 나와 있는 것 처럼 "같지 않음" 매개 변수를 사용 하 여 **세그먼트를 정의할** 수도 있습니다.
 
 |구문과  |예제  |
 |---------|---------|
-|`New-OrganizationSegment -Name "NotSales" -UserGroupFilter "Department -ne 'Sales'"`   | <p>이 예에서는 *sales*에 없는 모든 사용자를 포함 하는 *notsales* 라는 세그먼트를 정의 했습니다. Cmdlet의 **-ne** 부분은 "같지 않음"을 참조 합니다.  |
+|`New-OrganizationSegment -Name "NotSales" -UserGroupFilter "Department -ne 'Sales'"`   | <p>이 예에서는 *sales* 에 없는 모든 사용자를 포함 하는 *notsales* 라는 세그먼트를 정의 했습니다. Cmdlet의 **-ne** 부분은 "같지 않음"을 참조 합니다.  |
 
 "같음" 또는 "같지 않음"을 사용 하 여 세그먼트를 정의 하는 것 외에도 "같음" 및 "같지 않음" 매개 변수를 모두 사용 하 여 세그먼트를 정의할 수 있습니다. 논리적 *AND* 및 *OR* 연산자를 사용 하 여 복잡 한 그룹 필터를 정의할 수도 있습니다.
 
 
 |구문과    |예제  |
 |---------|---------|
-|`New-OrganizationSegment -Name "LocalFTE" -UserGroupFilter "Location -eq 'Local'" -and "Position -ne 'Temporary'"` |<p>이 예에서는 로컬에 있고 위치가 *임시*로 나열 되지 않은 사용자를 포함 하는 *LocalFTE* 라는 세그먼트를 정의 했습니다.    |
+|`New-OrganizationSegment -Name "LocalFTE" -UserGroupFilter "Location -eq 'Local'" -and "Position -ne 'Temporary'"` |<p>이 예에서는 로컬에 있고 위치가 *임시* 로 나열 되지 않은 사용자를 포함 하는 *LocalFTE* 라는 세그먼트를 정의 했습니다.    |
  |`New-OrganizationSegment -Name "Segment1" -UserGroupFilter "MemberOf -eq 'group1@contoso.com'' -and MemberOf -ne 'group3@contoso.com'"`|  <p>이 예에서는 group3@contoso.com의 구성원이 아니라 group1@contoso.com의 구성원 인 사용자를 포함 하는 *Segment1* 라는 세그먼트를 정의 했습니다.
 |`New-OrganizationSegment -Name "Segment2" -UserGroupFilter "MemberOf -eq 'group2@contoso.com' -or MemberOf -ne 'group3@contoso.com'"` | 이 예에서는 group3@contoso.com의 구성원이 아니라 group2@contoso.com의 구성원 인 사용자를 포함 하는 *Segment2* 라는 세그먼트를 정의 했습니다.
 |`New-OrganizationSegment -Name "Segment1and2" -UserGroupFilter "(MemberOf -eq 'group1@contoso.com' -or MemberOf -eq 'group2@contoso.com') -and MemberOf -ne 'group3@contoso.com'"`|  이 예에서는 group3@contoso.com의 구성원이 아닌 group1@contoso.com 및 group2@contoso.com의 구성원을 포함 하는 *Segment1and2* 라는 세그먼트를 정의 했습니다.
@@ -180,7 +180,7 @@ ms.locfileid: "48379180"
 - [시나리오 2: 특정 세그먼트가 다른 세그먼트와만 통신할 수 있도록 허용](#scenario-2-allow-a-segment-to-communicate-only-with-one-other-segment)
 
 > [!IMPORTANT]
-> **정책을 정의할 때 세그먼트에 두 개 이상의 정책을 할당 하지**않도록 해야 합니다. 예를 들어 *sales*라는 세그먼트에 대해 하나의 정책을 정의 하는 경우에는 *sales*에 대 한 추가 정책을 정의 하지 마십시오.<p>또한 정보 장벽 정책을 정의 하는 동안 이러한 정책을 적용할 준비가 될 때까지 해당 정책이 비활성 상태로 설정 되었는지 확인 합니다. 정책 정의 (또는 편집)는 해당 정책이 활성 상태로 설정 된 후에 야 사용자에 게 영향을 줍니다.
+> **정책을 정의할 때 세그먼트에 두 개 이상의 정책을 할당 하지** 않도록 해야 합니다. 예를 들어 *sales* 라는 세그먼트에 대해 하나의 정책을 정의 하는 경우에는 *sales* 에 대 한 추가 정책을 정의 하지 마십시오.<p>또한 정보 장벽 정책을 정의 하는 동안 이러한 정책을 적용할 준비가 될 때까지 해당 정책이 비활성 상태로 설정 되었는지 확인 합니다. 정책 정의 (또는 편집)는 해당 정책이 활성 상태로 설정 된 후에 야 사용자에 게 영향을 줍니다.
 
 (이 문서의 [예: Contoso의 정보 장벽 정책](#contosos-information-barrier-policies) 참조)
 
@@ -194,13 +194,13 @@ ms.locfileid: "48379180"
 
     |구문과  |예제  |
     |---------|---------|
-    |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsBlocked "segment2name"`     |`New-InformationBarrierPolicy -Name "Sales-Research" -AssignedSegment "Sales" -SegmentsBlocked "Research" -State Inactive` <p>    이 예에서는 *sales*라는 세그먼트에 대 한 *영업 조사* 라는 정책을 정의 했습니다. 이 정책을 사용 하면 *영업* 직원이 *조사*라는 세그먼트에 있는 사람들과 통신할 수 없습니다.         |
+    |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsBlocked "segment2name"`     |`New-InformationBarrierPolicy -Name "Sales-Research" -AssignedSegment "Sales" -SegmentsBlocked "Research" -State Inactive` <p>    이 예에서는 *sales* 라는 세그먼트에 대 한 *영업 조사* 라는 정책을 정의 했습니다. 이 정책을 사용 하면 *영업* 직원이 *조사* 라는 세그먼트에 있는 사람들과 통신할 수 없습니다.         |
 
 2. 두 번째 차단 세그먼트를 정의 하려면 **SegmentsBlocked** 매개 변수와 함께 **InformationBarrierPolicy** cmdlet을 사용 하 여 세그먼트를 거꾸로 된 상태로 다시 지정 합니다.
 
     |예제  |
     |---------|
-    |`New-InformationBarrierPolicy -Name "Research-Sales" -AssignedSegment "Research" -SegmentsBlocked "Sales" -State Inactive` <p>    이 예에서는 *연구가* *영업*과의 통신을 방지 하기 위해 *research-Sales* 라는 정책을 정의 했습니다.     |
+    |`New-InformationBarrierPolicy -Name "Research-Sales" -AssignedSegment "Research" -SegmentsBlocked "Sales" -State Inactive` <p>    이 예에서는 *연구가* *영업* 과의 통신을 방지 하기 위해 *research-Sales* 라는 정책을 정의 했습니다.     |
 
 2. 다음 중 하나로 이동 합니다.
 
@@ -213,13 +213,13 @@ ms.locfileid: "48379180"
 
     |구문과  |예제  |
     |---------|---------|
-    |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name","segment1name"`     |`New-InformationBarrierPolicy -Name "Manufacturing-HR" -AssignedSegment "Manufacturing" -SegmentsAllowed "HR","Manufacturing" -State Inactive` <p>    이 예에서는 *manufacturing*이라는 세그먼트에 대해 *제조-HR* 이라는 정책을 정의 했습니다. 이 정책을 사용 하면 *제조* 중인 사용자가 *HR*이라는 세그먼트에 있는 사용자와만 통신할 수 있습니다. (이 경우, *Manufacturing* 은 *HR*에 속하지 않는 사용자와 통신할 수 없습니다.)         |
+    |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name","segment1name"`     |`New-InformationBarrierPolicy -Name "Manufacturing-HR" -AssignedSegment "Manufacturing" -SegmentsAllowed "HR","Manufacturing" -State Inactive` <p>    이 예에서는 *manufacturing* 이라는 세그먼트에 대해 *제조-HR* 이라는 정책을 정의 했습니다. 이 정책을 사용 하면 *제조* 중인 사용자가 *HR* 이라는 세그먼트에 있는 사용자와만 통신할 수 있습니다. (이 경우, *Manufacturing* 은 *HR* 에 속하지 않는 사용자와 통신할 수 없습니다.)         |
 
     **필요한 경우 다음 예와 같이이 cmdlet을 사용 하 여 여러 세그먼트를 지정할 수 있습니다.**
 
     |구문과  |예제  |
     |---------|---------|
-    |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name", "segment3name","segment1name"`     |`New-InformationBarrierPolicy -Name "Research-HRManufacturing" -AssignedSegment "Research" -SegmentsAllowed "HR","Manufacturing","Research" -State Inactive` <p>이 예에서는 *조사* 세그먼트가 *HR* 및 *제조*와만 통신할 수 있도록 하는 정책을 정의 했습니다.        |
+    |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name", "segment3name","segment1name"`     |`New-InformationBarrierPolicy -Name "Research-HRManufacturing" -AssignedSegment "Research" -SegmentsAllowed "HR","Manufacturing","Research" -State Inactive` <p>이 예에서는 *조사* 세그먼트가 *HR* 및 *제조* 와만 통신할 수 있도록 하는 정책을 정의 했습니다.        |
 
     특정 세그먼트가 다른 특정 세그먼트와만 통신할 수 있도록 정의 하려는 각 정책에 대해이 단계를 반복 합니다.
 
@@ -236,7 +236,7 @@ ms.locfileid: "48379180"
 
     구문과 `Get-InformationBarrierPolicy`
 
-2. 정책을 활성 상태로 설정 하려면 **Identity** 매개 변수와 함께 **InformationBarrierPolicy** cmdlet을 사용 하 고 **State** 매개 변수를 **active**로 설정 합니다. 
+2. 정책을 활성 상태로 설정 하려면 **Identity** 매개 변수와 함께 **InformationBarrierPolicy** cmdlet을 사용 하 고 **State** 매개 변수를 **active** 로 설정 합니다. 
 
     |구문과  |예제  |
     |---------|---------|
@@ -256,11 +256,11 @@ PowerShell을 사용 하 여 다음 표에 나와 있는 것 처럼 사용자 �
 
 |이를 보려면  |실행할 작업  |
 |---------|---------|
-|사용자 계정     |Identity 매개 변수와 함께 **InformationBarrierRecipientStatus** cmdlet을 사용 합니다. <p>구문과 `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같은 각 사용자를 고유 하 게 식별 하는 모든 값을 사용할 수 있습니다. <p>예: `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p>이 예에서는 Office 365의 두 사용자 계정 ( *Megan*용 *meganb* 및 *Alex*용 *alexw* )을 참조 합니다. <p>(단일 사용자에 대해이 cmdlet을 사용할 수도 있습니다. `Get-InformationBarrierRecipientStatus -Identity <value>` ) <p>이 cmdlet은 특성 값 및 적용 되는 정보 장벽 정책과 같은 사용자에 대 한 정보를 반환 합니다.|
+|사용자 계정     |Identity 매개 변수와 함께 **InformationBarrierRecipientStatus** cmdlet을 사용 합니다. <p>구문과 `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같은 각 사용자를 고유 하 게 식별 하는 모든 값을 사용할 수 있습니다. <p>예: `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p>이 예에서는 Office 365의 두 사용자 계정 ( *Megan* 용 *meganb* 및 *Alex* 용 *alexw* )을 참조 합니다. <p>(단일 사용자에 대해이 cmdlet을 사용할 수도 있습니다. `Get-InformationBarrierRecipientStatus -Identity <value>` ) <p>이 cmdlet은 특성 값 및 적용 되는 정보 장벽 정책과 같은 사용자에 대 한 정보를 반환 합니다.|
 |세그먼트     |**OrganizationSegment** cmdlet을 사용 합니다.<p>구문과 `Get-OrganizationSegment` <p>이렇게 하면 조직에 대해 정의 된 모든 세그먼트의 목록이 표시 됩니다.         |
 |정보 장벽 정책     |**InformationBarrierPolicy** cmdlet을 사용 합니다. <p> 구문과 `Get-InformationBarrierPolicy` <p>이렇게 하면 정의 된 정보 장벽 정책 목록과 해당 상태가 표시 됩니다.       |
 |가장 최근 정보 장벽 정책 응용 프로그램     | **InformationBarrierPoliciesApplicationStatus** cmdlet을 사용 합니다. <p>구문과 `Get-InformationBarrierPoliciesApplicationStatus`<p>    이렇게 하면 정책 응용 프로그램이 완료, 실패 또는 진행 중인지에 대 한 정보가 표시 됩니다.       |
-|모든 정보 장벽 정책 응용 프로그램|`Get-InformationBarrierPoliciesApplicationStatus -All $true` 사용<p>이렇게 하면 정책 응용 프로그램이 완료, 실패 또는 진행 중인지에 대 한 정보가 표시 됩니다.|
+|모든 정보 장벽 정책 응용 프로그램|`Get-InformationBarrierPoliciesApplicationStatus -All` 사용<p>이렇게 하면 정책 응용 프로그램이 완료, 실패 또는 진행 중인지에 대 한 정보가 표시 됩니다.|
 
 <!-- IN the " The most recent information barrier policy application, add link to troubleshooting topic -->
 
@@ -319,9 +319,9 @@ Contoso는 다음 표에 설명 된 세 가지 정책을 정의 합니다.
 
 |정책  |정책 정의  |
 |---------|---------|
-|정책 1: 영업에서 연구와의 통신을 방지 합니다.     | `New-InformationBarrierPolicy -Name "Sales-Research" -AssignedSegment "Sales" -SegmentsBlocked "Research" -State Inactive` <p> 이 예에서 정보 장벽 정책을 *판매 조사*라고 합니다. 이 정책이 활성 상태이 고 적용 되 면 Sales 세그먼트에 있는 사용자가 리서치 세그먼트의 사용자와 통신할 수 없도록 하는 데 도움이 됩니다. 이는 단방향 정책입니다. 이로 인해 연구가 영업과의 통신을 방지할 수는 없습니다. 따라서 정책 2가 필요 합니다.      |
-|정책 2: 영업 담당자가 리서치를 진행 하지 못하도록 방지     | `New-InformationBarrierPolicy -Name "Research-Sales" -AssignedSegment "Research" -SegmentsBlocked "Sales" -State Inactive` <p> 이 예에서는 정보 장벽 정책을 *리서치-판매*라고 합니다. 이 정책이 활성화 및 적용 되 면 리서치 세그먼트에 있는 사용자가 Sales 세그먼트의 사용자와 통신할 수 없도록 하는 데 도움이 됩니다.       |
-|정책 3: 제조에서 HR 및 마케팅과의 통신만 허용     | `New-InformationBarrierPolicy -Name "Manufacturing-HRMarketing" -AssignedSegment "Manufacturing" -SegmentsAllowed "HR","Marketing","Manufacturing" -State Inactive` <p>이 경우 정보 장벽 정책은 *제조-HRMarketing*이라고 합니다. 이 정책이 활성 상태이 고 적용 되 면 Manufacturing은 HR 및 Marketing과만 통신할 수 있습니다. HR 및 Marketing은 다른 세그먼트와 통신 하는 것이 제한 되지 않습니다. |
+|정책 1: 영업에서 연구와의 통신을 방지 합니다.     | `New-InformationBarrierPolicy -Name "Sales-Research" -AssignedSegment "Sales" -SegmentsBlocked "Research" -State Inactive` <p> 이 예에서 정보 장벽 정책을 *판매 조사* 라고 합니다. 이 정책이 활성 상태이 고 적용 되 면 Sales 세그먼트에 있는 사용자가 리서치 세그먼트의 사용자와 통신할 수 없도록 하는 데 도움이 됩니다. 이는 단방향 정책입니다. 이로 인해 연구가 영업과의 통신을 방지할 수는 없습니다. 따라서 정책 2가 필요 합니다.      |
+|정책 2: 영업 담당자가 리서치를 진행 하지 못하도록 방지     | `New-InformationBarrierPolicy -Name "Research-Sales" -AssignedSegment "Research" -SegmentsBlocked "Sales" -State Inactive` <p> 이 예에서는 정보 장벽 정책을 *리서치-판매* 라고 합니다. 이 정책이 활성화 및 적용 되 면 리서치 세그먼트에 있는 사용자가 Sales 세그먼트의 사용자와 통신할 수 없도록 하는 데 도움이 됩니다.       |
+|정책 3: 제조에서 HR 및 마케팅과의 통신만 허용     | `New-InformationBarrierPolicy -Name "Manufacturing-HRMarketing" -AssignedSegment "Manufacturing" -SegmentsAllowed "HR","Marketing","Manufacturing" -State Inactive` <p>이 경우 정보 장벽 정책은 *제조-HRMarketing* 이라고 합니다. 이 정책이 활성 상태이 고 적용 되 면 Manufacturing은 HR 및 Marketing과만 통신할 수 있습니다. HR 및 Marketing은 다른 세그먼트와 통신 하는 것이 제한 되지 않습니다. |
 
 **InformationBarrierPoliciesApplication** cmdlet을 실행 하 여 모든 세그먼트와 정책을 정의 하 고, Contoso는 정책을 적용 합니다. 
 
