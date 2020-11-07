@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365의 고급 감사는 조직에서 법의학 및 규정 준수 조사를 수행하는 데 도움이 되는 새로운 감사 기능을 제공합니다.
-ms.openlocfilehash: c63280825c04d401c0cdc44d7128031c3b7ffdd8
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 6524eadfd1622771e0da5bb8bcec73e11c0cfcdf
+ms.sourcegitcommit: 751dc531f0410ee075c179efe409a01664483ee2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398559"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48925618"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Microsoft 365의 고급 감사
 
@@ -36,7 +36,7 @@ Microsoft 365의 [통합 감사 기능](search-the-audit-log-in-security-and-com
 
 ## <a name="long-term-retention-of-audit-logs"></a>감사 로그의 장기 보존
 
-고급 감사는 1년 동안 모든 Exchange, SharePoint 및 Azure Active Directory 감사 레코드를 보존합니다. 이는 1년 동안의 **워크로드** 속성(활동이 발생한 서비스를 나타냄)에 대한 **Exchange**, **SharePoint ** 또는 **AzureActiveDirectory** 값을 포함하는 모든 감사 레코드를 보유하는 기본 감사 로그 보유 정책에 의해 수행됩니다. 감사 기록을 장기간 유지하면 진행 중인 법률적 또는 규정 준수 조사에 도움이 될 수 있습니다. 자세한 정보는 [감사 로그 보존 정책 관리](audit-log-retention-policies.md#default-audit-log-retention-policy)의 "기본 감사 로그 보존 정책"섹션을 참조하십시오.
+고급 감사는 1년 동안 모든 Exchange, SharePoint 및 Azure Active Directory 감사 레코드를 보존합니다. 이는 1년 동안의 **워크로드** 속성(활동이 발생한 서비스를 나타냄)에 대한 **Exchange** , **SharePoint** 또는 **AzureActiveDirectory** 값을 포함하는 모든 감사 레코드를 보유하는 기본 감사 로그 보유 정책에 의해 수행됩니다. 감사 기록을 장기간 유지하면 진행 중인 법률적 또는 규정 준수 조사에 도움이 될 수 있습니다. 자세한 정보는 [감사 로그 보존 정책 관리](audit-log-retention-policies.md#default-audit-log-retention-policy)의 "기본 감사 로그 보존 정책"섹션을 참조하십시오.
 
 10년간 감사 로그를 보존하는 기능 또한 해제하고 있습니다. 감사 로그의 10년 보존은 장기 실행 조사를 지원하고 규제, 법률 및 내부 의무에 대응하는 데 도움이 됩니다.
 
@@ -81,7 +81,7 @@ MailItemsAccessed 이벤트는 사서함 감사 작업이며 메일 프로토콜
 
 MailItemsAccessed 액세스 활동의 감사 레코드에 대한 자세한 내용은 [고급 감사를 사용하여 손상된 계정 조사](mailitemsaccessed-forensics-investigations.md)를 참조하세요.
 
-MailItemsAccessed 감사 레코드를 검색하려면 Microsoft 365 보안 및 준수 센터의 [감사 로그 검색 도구](search-the-audit-log-in-security-and-compliance.md)의 **Exchange 사서함 활동** 드롭다운 목록에서 **액세스한 사서함 항목**에 대한 활동을 검색할 수 있습니다.
+MailItemsAccessed 감사 레코드를 검색하려면 Microsoft 365 보안 및 준수 센터의 [감사 로그 검색 도구](search-the-audit-log-in-security-and-compliance.md)의 **Exchange 사서함 활동** 드롭다운 목록에서 **액세스한 사서함 항목** 에 대한 활동을 검색할 수 있습니다.
 
 ![감사 로그 검색 도구에서 MailItemsAccessed 작업 검색](../media/AdvAudit_MailItemsAccessed.png)
 
@@ -107,7 +107,7 @@ Exchange Online PowerShell에서 [Search-UnifiedAuditLog -Operations MailItemsAc
 
 ### <a name="searchqueryinitiatedexchange"></a>SearchQueryInitiatedExchange
 
-SearchQueryInitiatedExchange 이벤트는 사용자가 Outlook 또는 웹용 Outlook의 검색 창을 사용하여 사서함의 항목을 검색하는 경우에 트리거됩니다. 조사관은 SearchQueryInitiatedExchange 이벤트를 사용하여 계정을 손상시켰을 수 있는 공격자가 사서함의 중요한 정보를 찾아보았는지 혹은 액세스하려 시도했는지를 확인할 수 있습니다. SearchQueryInitiatedExchange 이벤트에 대한 감사 레코드에는 실제 검색 쿼리 텍스트와 검색이 Outlook 데스크톱 클라이언트에서 수행되었는지 또는 웹용 Outlook에서 수행되었는지와 같은 정보를 포함합니다. 공격자가 수행한 검색 쿼리를 관찰하여 조사관은 검색된 전자 메일 데이터의 의도를 더욱 잘 이해할 수 있습니다.
+SearchQueryInited Exchange 이벤트는사용자가 OWA(Outlook)의 OWA(Outlook)에서 검색 표시줄을 사용하여 편지함에서 항목을 검색할 때 트리거됩니다. 조사자는 SearchQueryInited Exchange 이벤트를 사용하여 계정을 손상시켰을 수 있는 공격자가 우편함에서 중요한 정보를 찾거나 액세스하려고 시도했는지 여부를 확인합니다. SearchQueryInitedExchange 이벤트에 대한 감사 레포트에는 검색 질의의 실제 텍스트와 같은 정보가 포함되어 있습니다. 공격자가 수행한 검색 쿼리를 보면 조사자가 검색된 전자 메일 데이터의 의도를 더 잘 이해할 수 있습니다.
 
 SearchQueryInitiatedExchange 감사 레코드를 검색하려면 준수 센터의 [감사 로그 검색 도구](search-the-audit-log-in-security-and-compliance.md)의 **검색 활동** 드롭다운 목록에서 **수행한 전자 메일 검색** 활동을 검색할 수 있습니다.
 
@@ -120,7 +120,7 @@ Exchange Online PowerShell에서 [Search-UnifiedAuditLog-Operations SearchQueryI
 
 ### <a name="searchqueryinitiatedsharepoint"></a>SearchQueryInitiatedSharePoint
 
-사서함 항목을 검색하는 것과 마찬가지로 SearchQueryInitiatedSharePoint 이벤트는 사용자가 조직의 SharePoint 홈 사이트, Teams 사이트, 공동 작업 사이트 및 허브 사이트에서 항목을 검색할 때 트리거됩니다. 조사관은 SearchQueryInitiatedSharePoint 이벤트를 사용하여 SharePoint에서 공격자가 중요한 정보를 찾고(잠정적으로 액세스했는지) 확인할 수 있습니다. SearchQueryInitiatedSharePoint 이벤트에 대한 감사 레코드에는 실제 검색 쿼리 텍스트도 포함되어 있습니다. 공격자가 수행한 검색 쿼리를 관찰하여 조사관은 검색된 파일 데이터의 의도와 범위를 더욱 잘 이해할 수 있습니다.
+사서함 항목 검색과 마찬가지로 SearchQueryInitiatedSharePoint 이벤트는 사용자가 조직의 SharePoint 홈 사이트에서 항목을 검색할 때 트리거됩니다. 조사자는 SearchQueryInitialSharePoint 이벤트를 사용하여 공격자가 SharePoint에서 중요한 정보를 찾고 액세스했는지 여부를 확인할 수 있습니다. SearchQueryInitialSharePoint 이벤트에 대한 감사 레코드에는 검색 쿼리의 실제 텍스트도 포함됩니다. 공격자가 수행한 검색 쿼리를 관찰하여 조사관은 검색된 파일 데이터의 의도와 범위를 더욱 잘 이해할 수 있습니다.
 
 SearchQueryInitiatedSharePoint 감사 레코드를 검색하려면 준수 센터의 [감사 로그 검색 도구](search-the-audit-log-in-security-and-compliance.md)의 **검색 활동** 드롭다운 목록에서 **수행한 SharePoint 검색** 활동을 검색할 수 있습니다.
 

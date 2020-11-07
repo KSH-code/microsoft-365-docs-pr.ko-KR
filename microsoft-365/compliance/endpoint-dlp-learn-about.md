@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'Microsoft 365 끝점 데이터 손실 방지는 파일 활동의 모니터링 및 해당 파일에 대한 보호 작업을 끝점으로 확장합니다. 파일은 Microsoft 365 규정 준수 솔루션에서 확인할 수 있습니다. '
-ms.openlocfilehash: cbf4a53658885102226d2b874180f5cc5f264a91
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 3dedf8f3134dbdd00c45e6b0aed741a3b3173984
+ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841864"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48931972"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention-preview"></a>Microsoft 365 끝점 데이터 손실 방지(미리 보기) 알아보기
 
@@ -55,7 +55,8 @@ Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사
 
 장치 관리는 장치에서 원격 분석 수집을 사용하도록 설정하고 원격 분석 수집을 끝점 DLP 및 [참가자 위험 관리](insider-risk-management.md)와 같은 Microsoft 365 규정 준수 솔루션으로 가져오는 기능입니다. DLP 정책에서 위치로 사용하려는 모든 장치를 등록해야 합니다.
 
-![장치 관리 사용 설정](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
+> [!div class="mx-imgBorder"]
+> ![장치 관리를 사용하도록 설정](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
 
 장치 관리 센터에서 다운로드한 스크립트를 통해 온보딩 및 오프보딩이 처리됩니다. 해당 센터는 각 배포 방법에 대한 사용자 지정 스크립트를 포함합니다.
 
@@ -65,13 +66,15 @@ Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사
 - 모바일 장치 관리/Microsoft Intune
 - 비 영구적인 컴퓨터에 대한 VDI 온보딩 스크립트
 
-![장치 온보딩 페이지](../media/endpoint-dlp-learn-about-3-device-onboarding-page.png)
+> [!div class="mx-imgBorder"]
+> ![장치 온보딩 페이지](../media/endpoint-dlp-learn-about-3-device-onboarding-page.png)
 
  [Microsoft 365 끝점 DLP 시작하기](endpoint-dlp-getting-started.md)의 절차를 사용하여 장치를 등록하세요.
 
 [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)를 통해 장치를 온보딩한 경우, 해당 장치는 장치 목록에 자동으로 표시됩니다.
 
-![관리된 장치 목록](../media/endpoint-dlp-learn-about-2-device-list.png)
+> [!div class="mx-imgBorder"]
+> ![관리된 장치 목록](../media/endpoint-dlp-learn-about-2-device-list.png)
 
 ### <a name="viewing-endpoint-dlp-data"></a>끝점 DLP 데이터 확인하기
 
@@ -83,6 +86,8 @@ Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사
 - PDF 파일
 - .csv 파일
 - .tsv 파일
+- .txt 파일
+- RTF 파일
 - c 파일
 - 클래스 파일
 - cpp 파일
@@ -91,11 +96,12 @@ Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사
 - java 파일
 
 > [!NOTE]
-> .txt와 원본 코드 파일은 기본적으로 감사되지 않습니다. DLP는 적용된 정책에 대해 해당 파일을 평가하고 이에 따라 사용자 작업이 감사 또는 차단됩니다.
+> 끝점 DLP는 DLP 정책을 기준으로 위의 모든 유형의 파일을 평가하고 그에 따라 보호 작업을 적용합니다. DLP 정책과 일치하는 모든 파일은 차단되지 않은 경우에도 지원되는 모든 작업에 대해 감사됩니다. 또한 Word, PowerPoint, Excel, PDF 및 .csv 파일에서 수행되는 파일 작업은 DLP 정책이 있는지 또는 이러한 파일과 일치하는지 여부에 관계없이 기본적으로 감사됩니다.
 
 장치가 등록되면 장치를 위치로 포함하는 모든 DLP 정책을 구성하고 배포하기 전에 감사 활동에 대한 정보가 활동 탐색기로 전달됩니다.
 
-![활동 탐색기의 끝점 DLP 이벤트](../media/endpoint-dlp-learn-about-4-activity-explorer.png)
+> [!div class="mx-imgBorder"]
+> ![활동 탐색기의 끝점 DLP 이벤트](../media/endpoint-dlp-learn-about-4-activity-explorer.png)
 
 끝점 DLP는 감사 활동에 대한 광범위한 정보를 수집합니다.
 
@@ -126,7 +132,8 @@ Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사
 - 이동식 미디어 장치 모델
 - 이동식 미디어 장치 일련 번호
 
-![USB 활동 특성에 복사](../media/endpoint-dlp-learn-about-5-activity-attributes.png)
+> [!div class="mx-imgBorder"]
+> ![USB 활동 특성에 복사](../media/endpoint-dlp-learn-about-5-activity-attributes.png)
 
 ## <a name="next-steps"></a>다음 단계
 

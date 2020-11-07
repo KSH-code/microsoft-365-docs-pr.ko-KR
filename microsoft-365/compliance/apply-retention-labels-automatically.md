@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들고 자동 게시하여 레이블을 자동으로 적용하여 필요한 항목을 보존하고 필요하지 않은 항목을 삭제할 수 있습니다.
-ms.openlocfilehash: 5833684c729876315ce3866a8af52d79b924caef
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: c1c18f5445b326ad7353d8c534940d3db69a3f24
+ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920022"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48931982"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>보존 레이블 자동 적용하여 콘텐츠를 보존 또는 삭제하기
 
@@ -180,17 +180,8 @@ KQL(키워드 쿼리 언어)에 대한 자세한 내용은 [KQL(키워드 쿼리
 ProgID:Media AND ProgID:Meeting
 ```
 
-이 보존 레이블의 경우 레이블 정책을 만들어 관련 사용자의 OneDrive 계정 또는 SharePoint 사이트에도 게시해야 합니다. 대부분의 경우 모임 녹음/녹화는 OneDrive에 저장되지만, 채널 모임의 경우에는 SharePoint에 저장됩니다.
+대부분의 경우 모임 녹음/녹화는 OneDrive에 저장되지만,  채널 모임의 경우에는 SharePoint에 저장됩니다.
 
-자동 적용 보존 레이블 정책을 저장한 경우:
-
-1. **레이블 정책** 탭 > **레이블 게시** 를 선택합니다.
-
-2. 레이블을 선택하라는 메시지가 표시되는 경우, Teams 모임 녹음/녹화를 식별하는 자동 적용 정책에 대해 선택한 동일한 레이블을 선택합니다.
-
-3. 위치를 묻는 메시지가 표시되면 **SharePoint 사이트** 및 **OneDrive 계정** 을 선택합니다. 그런 다음 **모든** 의 기본값을 유지하거나 특정 OneDrive 계정을 포함하거나 제외하는 등의 개별 위치를 지정할 수 있습니다.
-
-4. 마법사를 완료하고 이 레이블 정책을 저장합니다.
 
 #### <a name="auto-apply-labels-to-content-by-using-trainable-classifiers"></a>학습 가능한 분류자를 사용하여 콘텐츠에 레이블 자동 적용
 
@@ -216,7 +207,7 @@ ProgID:Media AND ProgID:Meeting
 
 7일 후에 레이블이 표시되지 않는 경우, 준수 센터의 **레이블 정책** 페이지에서 자동 적용 정책을 선택하여 그 **상태** 를 확인합니다. **꺼짐(오류)** 의 상태가 표시되고 위치에 대한 세부 정보에 정책을 배포하거나(SharePoint의 경우) 혹은 정책 재배포를 시도하는 데(OneDrive의 경우) 예상보다 시간이 오래 걸리고 있다는 메시지가 표시되는 경우, [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) PowerShell 명령을 실행하여 정책 배포를 다시 시도하세요.
 
-1. [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+1. [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)합니다.
 
 2. 다음 명령을 실행합니다.
     
