@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 정보 거버넌스 및 레코드 관리를 위해 규정 요구 사항을 충족할 수 있도록 도움이 되는 리소스
-ms.openlocfilehash: 2aa413400d9d60b759b35d04175b674cedb0a733
-ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
+ms.openlocfilehash: f8641af2ec839c9ed3f4d029b4f6de52fe7033e3
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/06/2020
-ms.locfileid: "48930191"
+ms.locfileid: "48941423"
 ---
 # <a name="regulatory-requirements-for-information-governance-and-records-management"></a>정보 거버넌스 및 레코드 관리를 위한 규정 요구 사항
 
@@ -36,7 +36,7 @@ Microsoft 365의 정보 거버넌스 및 레코드 관리를 위해 특정 규�
 
 적용 가능한 작업: SharePoint, OneDrive, Teams, Exchange, 비즈니스용 Skype
 
-2020년 10월에 발표된 해당 보고서는 Cohasset Associates, Inc. (Cohasset)와 협력하여 다음에 명시된 대로 전자 레코드에 대한 요구 사항을 기록, 저장, 관리하는 Microsoft 365 서비스의 기능을 평가하기 위해 작성되었습니다.  
+2020년 11월에 발표된 해당 보고서는 Cohasset Associates, Inc. (Cohasset)와 협력하여 다음에 명시된 대로 전자 레코드에 대한 요구 사항을 기록, 저장, 관리하는 Microsoft 365 서비스의 기능을 평가하기 위해 작성되었습니다.  
 
 - 거래소 회원, 브로커 또는 딜러를 규제하는 17 CFR § 240.17a-4(f)의 SEC(증권 거래 위원회)  
 
