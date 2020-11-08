@@ -292,6 +292,8 @@
       items:
         - name: 개요
           items:
+            - name: 보안 로드맵
+              href: ./office-365-security/security-roadmap.md
             - name: Exchange Online Protection
               items:
                 - name: Exchange Online Protection 개요
@@ -318,8 +320,6 @@
               href: ./office-365-security/atp-for-spo-odb-and-teams.md
             - name: 새로운 Microsoft 365 보안 센터
               href: ./mtp/overview-security-center.md
-            - name: 보안 로드맵
-              href: ./office-365-security/security-roadmap.md
             - name: 위협 탐색기(및 실시간 검출)
               href: ./office-365-security/threat-explorer.md
             - name: AIR 개요
@@ -376,7 +376,9 @@
               href: ./office-365-security/siem-server-integration.md
             - name: Office 365용 Defender와 SIEM 통합
               href: ./office-365-security/siem-integration-with-office-365-ti.md
-            - name: 피싱 방지 정책 구성
+            - name: 기본적으로 보호
+              href: ./office-365-security/secure-by-default.md
+            - name: ATP 피싱 방지 정책 구성
               href: ./office-365-security/configure-atp-anti-phishing-policies.md
             - name: 맬웨어 방지 정책 구성
               href: ./office-365-security/configure-anti-malware-policies.md
@@ -461,6 +463,12 @@
               href: ./office-365-security/configuration-analyzer-for-security-policies.md
             - name: Office 365용 Defender의 공격 시뮬레이터
               href: ./office-365-security/attack-simulator.md
+            - name: 공격 시뮬레이션 교육으로 피싱 공격 시뮬레이션
+              href: ./office-365-security/attack-simulation-training.md
+            - name: 공격 시뮬레이션 교육에 대한 사용자 지정 페이로드 만들기
+              href: ./office-365-security/attack-simulation-training-payloads.md
+            - name: 공격 시뮬레이션 교육 활용
+              href: ./office-365-security/attack-simulation-training-insights.md
             - name: EOP 및 Office 365용 Defender 보안 구성에 대한 권장 설정
               href: ./office-365-security/recommended-settings-for-eop-and-office365-atp.md
             - name: EOP 구성을 위한 모범 사례

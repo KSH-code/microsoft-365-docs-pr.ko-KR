@@ -68,6 +68,11 @@
           items:
             - name: Microsoft 컨설팅 서비스 활용
               href: get-ready/apps-MCS.md
+        - name: 준비 평가 도구 사용
+          href: get-ready/readiness-assessment-tool.md
+          items:
+            - name: 준비 평가 도구에서 발견한 문제 해결
+              href: get-ready/readiness-assessment-fix.md
     - name: Microsoft Managed Desktop 시작
       href: get-started/index.md
       items:

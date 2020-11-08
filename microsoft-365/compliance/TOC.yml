@@ -475,7 +475,7 @@
               href: change-the-size-of-pst-files-when-exporting-results.md
             - name: 콘텐츠 보고서를 사용하지 않도록 설정
               href: disable-reports-when-you-export-content-search-results.md
-        - name: 콘텐츠 검색 이해하기
+        - name: 콘텐츠 검색 참조
           items:
             - name: 콘텐츠 검색 제한
               href: limits-for-content-search.md
@@ -535,6 +535,8 @@
               href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
             - name: eDiscovery 도구의 암호 해독
               href: ediscovery-decryption.md
+            - name: eDiscovery 진단 정보 수집
+              href: ediscovery-diagnostic-info.md
             - name: 일반적인 eDiscovery 문제 해결
               href: ediscovery-troubleshooting-common-issues.md
             - name: 실패한 검색 다시 시도
@@ -666,6 +668,8 @@
               href: set-up-compliance-boundaries.md
             - name: eDiscovery 도구의 암호 해독
               href: ediscovery-decryption.md
+            - name: eDiscovery 진단 정보 수집
+              href: ediscovery-diagnostic-info.md
             - name: 감사 로그에서 eDiscovery 활동 검색
               href: search-for-ediscovery-activities-in-the-audit-log.md
             - name: AzCopy 문제 해결
