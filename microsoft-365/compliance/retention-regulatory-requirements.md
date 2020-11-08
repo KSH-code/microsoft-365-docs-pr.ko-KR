@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 정보 거버넌스 및 레코드 관리를 위해 규정 요구 사항을 충족할 수 있도록 도움이 되는 리소스
-ms.openlocfilehash: 47fa49f1253ee5e5b5ee4546a7243a529b6105a1
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 2aa413400d9d60b759b35d04175b674cedb0a733
+ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920713"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48930191"
 ---
 # <a name="regulatory-requirements-for-information-governance-and-records-management"></a>정보 거버넌스 및 레코드 관리를 위한 규정 요구 사항
 
@@ -28,15 +28,15 @@ ms.locfileid: "48920713"
 
 Microsoft 365의 정보 거버넌스 및 레코드 관리를 위해 특정 규정 요구 사항을 충족할 수 있도록 도움이 되는 이 페이지의 리소스를 사용합니다. 본 문서의 각 섹션에서는 하나 이상의 관련 규정에 중점을 두고 있으며 명시된 요구 사항을 지원하기 위해 Microsoft 365를 구성하는 방법에 대한 모든 기존 지침이나 제3자 평가를 포함하고 있습니다.
 
-해당 리소스는 Service Trust Portal의 [데이터 보호 리소스, FAQ 및 백서](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9fa8349d-a0c9-47d9-93ad-472aa0fa44ec&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) 페이지에서 다운로드할 수 있습니다.
+해당 리소스는 Service Trust Portal의 [데이터 보호 리소스, FAQ 및 백서](https://servicetrust.microsoft.com/ViewPage/TrustDocuments) 페이지에서 다운로드할 수 있습니다.
 
 ## <a name="sec-17a-4f-finra-4511c-and-cftc-131c-d"></a>SEC 17a-4(f), FINRA 4511(c), CFTC 1.31(c)-(d)
 
-**Cohasset 평가 - Microsoft 365 - SEC 규칙 17a-4(f) - SharePoint, OneDrive, Teams, Exchange 및 Skype의 변경이 불가능한 저장소**
+**Cohasset 평가 - Microsoft 365 - SEC 규칙 17a-4(f) - SharePoint, OneDrive, Teams, Exchange 및 Skype의 변경이 불가능한 저장소** - [평가 다운로드](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9fa8349d-a0c9-47d9-93ad-472aa0fa44ec&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 
 적용 가능한 작업: SharePoint, OneDrive, Teams, Exchange, 비즈니스용 Skype
 
-2020년 11월에 발표된 해당 보고서는 Cohasset Associates, Inc. (Cohasset)와 협력하여 다음에 명시된 대로 전자 레코드에 대한 요구 사항을 기록, 저장, 관리하는 Microsoft 365 서비스의 기능을 평가하기 위해 작성되었습니다.  
+2020년 10월에 발표된 해당 보고서는 Cohasset Associates, Inc. (Cohasset)와 협력하여 다음에 명시된 대로 전자 레코드에 대한 요구 사항을 기록, 저장, 관리하는 Microsoft 365 서비스의 기능을 평가하기 위해 작성되었습니다.  
 
 - 거래소 회원, 브로커 또는 딜러를 규제하는 17 CFR § 240.17a-4(f)의 SEC(증권 거래 위원회)  
 
