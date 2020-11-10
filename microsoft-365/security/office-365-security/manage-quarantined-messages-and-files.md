@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 모든 사용자에 대해 격리 된 메시지를 확인 하 고 관리 하는 방법을 확인할 수 있습니다. Microsoft Defender for Office 365를 사용 하는 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀에서 격리 된 파일을 관리할 수도 있습니다.
-ms.openlocfilehash: b6f6f47dc227d3bada425d02784a8aff5da8b3d3
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 9d58f8c08d994e5e9736c8223239b54e52c4edab
+ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842931"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48951050"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>EOP에서 관리자 권한으로 격리된 메시지 및 파일 관리하기
 
@@ -127,14 +127,6 @@ Microsoft Defender for Office 365를 사용 하는 조직의 관리자는 ShareP
    검색 조건을 입력한 후 ![새로 고침 단추](../../media/scc-quarantine-refresh.png) **새로 고침** 을 클릭하여 결과를 필터링합니다.
 
 격리된 특정 메시지를 찾은 후 해당 메시지를 선택하여 세부 정보를 확인하고 메시지에 대한 작업을 수행합니다(예를 들어 메시지를 보거나, 해제하거나, 다운로드하거나, 삭제하기).
-
-#### <a name="export-message-results"></a>메시지 결과 내보내기
-
-1. 원하는 메시지를 선택하고 **결과 내보내기** 를 클릭합니다.
-
-2. 브라우저를 열어 두라고 경고하는 확인 메시지에서 **예** 를 클릭합니다.
-
-3. 내보내기가 준비되면 .csv 파일에 이름을 지정하고 다운로드 위치를 선택할 수 있습니다.
 
 #### <a name="view-quarantined-message-details"></a>격리된 메시지 세부 정보 보기
 
@@ -255,14 +247,6 @@ Office 365 용 Defender가 있는 조직에서는 관리자가 SharePoint Online
    - **정책 유형**
 
 격리 된 특정 파일을 찾은 후 파일을 선택 하 여 자세한 정보를 확인 하 고 메시지에 대 한 작업을 수행 (예: 보기, 릴리스, 다운로드 또는 삭제) 합니다.
-
-#### <a name="export-file-results"></a>파일 내보내기 결과
-
-1. 관심 있는 파일을 선택 하 고 **결과 내보내기를** 클릭 합니다.
-
-2. 브라우저를 열어 두라고 경고하는 확인 메시지에서 **예** 를 클릭합니다.
-
-3. 내보내기가 준비되면 .csv 파일에 이름을 지정하고 다운로드 위치를 선택할 수 있습니다.
 
 #### <a name="view-quarantined-file-details"></a>격리 된 파일 세부 정보 보기
 

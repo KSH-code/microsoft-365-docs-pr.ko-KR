@@ -1,5 +1,5 @@
 ---
-title: 공격 시뮬레이션 학습을 통한 통찰력 획득
+title: 공격 시뮬레이션 교육 활용
 ms.author: daniha
 author: danihalfin
 manager: dansimp
@@ -10,15 +10,15 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-description: Microsoft 365 보안 센터의 공격 시뮬레이션 교육 방식에 대해 설명 하 고 시뮬레이션 및 교육 결과를 통해 통찰력을 획득 하는 방법을 알아봅니다.
-ms.openlocfilehash: 180ddc773b5a299692e40ddc558d3b3a89f4093b
-ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
+description: Microsoft 365 보안 센터의 공격 시뮬레이션 교육을 통해 직원에 게 어떤 영향을 주는지, 그리고 시뮬레이션 및 교육 결과를 통해 통찰력을 얻을 방법을 알아봅니다.
+ms.openlocfilehash: 80b8c275d1d64dd3dbd6509309fb88cd641734e3
+ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944531"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48950986"
 ---
-# <a name="gain-insights-through-attack-simulation-training"></a>공격 시뮬레이션 학습을 통한 통찰력 획득
+# <a name="gain-insights-through-attack-simulation-training"></a>공격 시뮬레이션 교육 활용
 
 Microsoft는 Attack 시뮬레이션이 진행 되는 동안 시뮬레이션이 발생 한 결과를 기반으로 정보를 제공 합니다. 이러한 통찰력은 직원 들이 위협 준비를 진행 하 고 있는지를 알려 주고, 직원을 보다 잘 준비 하 고 공격 환경을 개선 하기 위한 다음 단계를 권장 합니다.
 
@@ -38,14 +38,20 @@ Microsoft는 Attack 시뮬레이션이 진행 되는 동안 시뮬레이션이 �
 
 또한 `<number> less susceptible to phishing` 공격에 의해 손상 된 실제 직원 수와 예상 되는 손상 률 간의 차이를 반영 합니다. 이 직원 수는 나중에 유사한 공격에 의해 손상 될 가능성이 낮고, 예상 되는 `<percent%> better than predicted rate` 손상 률과 대비 하 여 직원의 전반적인 전체적인 정도를 나타냅니다.
 
-![동작 영향 카드 공격 시뮬레이션 교육 개요](../../media/attack-sim-preview-behavior-impact-card.png)
+> [!div class="mx-imgBorder"]
+> ![동작 영향 카드 공격 시뮬레이션 교육 개요](../../media/attack-sim-preview-behavior-impact-card.png)
 
 보다 자세한 보고서를 보려면 시뮬레이션 기술 및 전체 사용자를 대상으로 하는 것과 같이 시뮬레이션 자체의 추가 컨텍스트와 함께 동일한 정보를 제공 하는 시뮬레이션 **및 교육 efficacy 보고서 보기** 를 클릭 합니다.
 
 ## <a name="recommended-actions"></a>권장 작업
 
-시뮬레이션이 설정 [ **된** 탭](https://security.microsoft.com/attacksimulator?viewid=simulations) 에서 시뮬레이션을 선택 하면 시뮬레이션 정보가 사용 됩니다. 여기서는 **권장 작업** 섹션을 찾습니다.
+시뮬레이션 [ **Simulations** 탭](https://security.microsoft.com/attacksimulator?viewid=simulations)에서 시뮬레이션을 선택 하면 시뮬레이션 세부 정보로 이동 됩니다. 여기서는 **권장 작업** 섹션을 찾습니다.
 
 권장 작업 섹션에는 [Microsoft 보안 점수](../mtp/microsoft-secure-score.md)에서 제공 되는 권장 사항에 대 한 정보가 나와 있습니다. 이러한 권장 사항은 시뮬레이션에 사용 되는 페이로드를 기반으로 하며 직원과 환경을 보호 하는 데 도움이 됩니다. 각 향상 작업을 클릭 하면 세부 정보로 이동 됩니다.
 
-![공격 시뮬레이션 교육에 대 한 권장 조치 섹션](../../media/attack-sim-preview-recommended-actions.png)
+> [!div class="mx-imgBorder"]
+> ![공격 시뮬레이션 교육에 대 한 권장 조치 섹션](../../media/attack-sim-preview-recommended-actions.png)
+
+## <a name="related-links"></a>관련 링크
+
+**Attack 시뮬레이터** [는 피싱 공격 시뮬레이션을 만들고](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulation-training?view=o365-worldwide) [사용자에 게 교육을 위한 페이로드를 만듭니다](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulation-training-payloads?view=o365-worldwide) .

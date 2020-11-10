@@ -16,16 +16,16 @@ f1.keywords:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에는 업그레이드를 계획 하는 데 도움이 되는 Office 2007 또는 Office 2010을 사용 하는 사용자를 위한 리소스가 나와 있습니다.
-ms.openlocfilehash: 4fa340f2dfa8091aba962da475f5ffb883ba4e3f
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 3193be0fb7b386f78ed4bdb9b80f2a2da72102b4
+ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920270"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48951142"
 ---
 # <a name="plan-your-upgrade-from-office-2007-or-office-2010-servers-and-clients"></a>Office 2007 또는 Office 2010 서버 및 클라이언트에서 업그레이드 계획
 
-*이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
+*이 문서는 엔터프라이즈의 Microsoft 365 및 Office 365 for Enterprise에 모두 적용 됩니다.*
 
 조직에서 이전 버전의 Office 제품 및 서버를 사용 하는 경우에는 이제 업그레이드 계획을 시작 하는 것이 좋습니다. Office 2007 제품 및 서비스의 [지원이 종료](upgrade-from-office-2007-servers-and-products.md)되었습니다. Office 2010 제품 및 서비스에 대해 다음을 수행 합니다.
 
@@ -40,16 +40,16 @@ ms.locfileid: "48920270"
 
 [Microsoft 365](https://www.microsoft.com/microsoft-365) 는 혁신적인 Office 앱, 지능형 클라우드 서비스 및 세계적 급 보안의 조합으로, 더 많은 기능을 활용할 수 있도록 설계 되었습니다.
 
-Microsoft 365에는 조직이 최신 Windows 운영 체제에서 작업 하 고 있는지 확인 하는 데 도움이 되는 라이선스 및 기능이 포함 되어 있습니다. 또한 인증 및 데이터 보호가 필요한 정책에 따라 Windows, iOS 및 Android 장치를 등록 하 고 보호 합니다. 또한 Windows 10 및 Microsoft 365 Apps for enterprise (이전 이름 Office 365 ProPlus) 클라이언트 소프트웨어는 최신 기능과 보안 업데이트를 포함 하도록 지속적으로 업데이트 됩니다.
+Microsoft 365에는 조직이 최신 Windows 운영 체제에서 작업 하 고 있는지 확인 하는 데 도움이 되는 라이선스 및 기능이 포함 되어 있습니다. 또한 인증 및 데이터 보호가 필요한 정책에 따라 Windows, iOS 및 Android 장치를 등록 하 고 보호 합니다. 또한 Windows 10 및 Microsoft 365 Apps for Enterprise (이전 이름 Office 365 ProPlus) 클라이언트 소프트웨어는 최신 기능과 보안 업데이트를 포함 하도록 지속적으로 업데이트 됩니다.
   
 Microsoft 365는 Microsoft 클라우드에서 사용 하 고 보호 하는 장치 및 생산성 환경을 지속적으로 향상 시켜 비즈니스를 디지털로 변환 하는 방법입니다.
  
 |리소스|설명|
 |---|---|
 |[Microsoft 365](https://www.microsoft.com/microsoft-365)|Microsoft 365의 버전에 대 한 정보를 가져옵니다.|
-|[Microsoft 365 비즈니스 문서](https://docs.microsoft.com/microsoft-365/business/)|중소 기업에 대 한 Microsoft 365 버전에 대 한 자세한 정보를 확인 하세요.|
-|[Microsoft 365 교육 문서](https://docs.microsoft.com/microsoft-365/education/)|교육용 조직의 Microsoft 365 버전에 대 한 자세한 정보를 확인 하세요.|
-|[Microsoft 365 Enterprise 설명서](https://docs.microsoft.com/microsoft-365/enterprise/)|엔터프라이즈 조직의 Microsoft 365 버전에 대 한 자세한 정보를 확인 하세요.|
+|[Microsoft 365 for Business 설명서](https://docs.microsoft.com/microsoft-365/business/)|중소 기업에 대 한 Microsoft 365 버전에 대 한 자세한 정보를 확인 하세요.|
+|[교육 설명서에 대 한 Microsoft 365](https://docs.microsoft.com/microsoft-365/education/)|교육용 조직의 Microsoft 365 버전에 대 한 자세한 정보를 확인 하세요.|
+|[엔터프라이즈 설명서에 대 한 Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/)|엔터프라이즈 조직의 Microsoft 365 버전에 대 한 자세한 정보를 확인 하세요.|
 |||
 
 ## <a name="what-happens-if-i-dont-upgrade"></a>업그레이드하지 않으면 어떻게 되나요?

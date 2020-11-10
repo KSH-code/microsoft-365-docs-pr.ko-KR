@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 이 로드맵을 사용 하 여 Microsoft 365 용 클라이언트 및 서버 소프트웨어를 설치 합니다.
-ms.openlocfilehash: 2fb63f73ad49c68cbeb6c92497835c36f9faf737
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 7ebb48eb474991feae325cab00ebc2a0e9348db8
+ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920445"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48950964"
 ---
 # <a name="client-and-server-software-roadmap-for-microsoft-365"></a>Microsoft 365에 대 한 클라이언트 및 서버 소프트웨어 로드맵
 
-대부분의 엔터프라이즈 조직은 여러 버전의 운영 체제, 클라이언트 소프트웨어 및 서버 소프트웨어를 포함 하는 이기종 환경을 제공 합니다. Microsoft 365 Enterprise에는 IT 인프라의 주요 구성 요소에 대 한 가장 안전한 버전이 포함 되어 있습니다. 또한 클라우드 기술을 활용 하도록 설계 된 생산성 기능도 포함 되어 있습니다.
+대부분의 엔터프라이즈 조직은 여러 버전의 운영 체제, 클라이언트 소프트웨어 및 서버 소프트웨어를 포함 하는 이기종 환경을 제공 합니다. 엔터프라이즈에 대 한 Microsoft 365에는 IT 인프라의 주요 구성 요소에 대 한 가장 안전한 버전이 포함 되어 있습니다. 또한 클라우드 기술을 활용 하도록 설계 된 생산성 기능도 포함 되어 있습니다.
 
-Microsoft 365 Enterprise 통합 제품군의 비즈니스 가치를 최대화하려면 다음 릴리스를 마이그레이션하기 위한 계획을 세우고 전략을 구현하세요.
+엔터프라이즈 통합 제품 제품군에 대 한 Microsoft 365의 비즈니스 가치를 최대화 하려면 다음 릴리스를 마이그레이션하기 위한 전략 계획 및 구현을 시작 합니다.
 
 - 컴퓨터에 설치 된 Office 클라이언트는 Microsoft 365 for enterprise 용 앱입니다.
 - 서버에 설치 된 Office 서버는 Microsoft 365의 해당 서비스로 해당 서비스를 합니다.
@@ -34,7 +34,7 @@ Microsoft 365 Enterprise 통합 제품군의 비즈니스 가치를 최대화하
 >Windows 7 지원은 *2020 년 1 월 14* 일에 종료 됩니다. 자세한 내용은 [지원 종료 세부 정보](https://support.microsoft.com/help/4057281/windows-7-support-will-end-on-january-14-2020)를 참조 하세요.
 >
 
-시간에 따른 마이그레이션을 수행 하는 동안 조직은 [현대 회사](https://www.microsoft.com/microsoft-365/blog/2018/04/27/making-it-simpler-with-a-modern-workplace/)의 비전에 더 근접 하 게 됩니다. 이러한 안전한 환경 및 통합 된 환경을 통해 조직의 팀 작업 및 지 수를 보다 쉽게 해제할 수도 있습니다. Microsoft 365 Enterprise를 통해 모든 기능을 사용할 수 있습니다.
+시간에 따른 마이그레이션을 수행 하는 동안 조직은 [현대 회사](https://www.microsoft.com/microsoft-365/blog/2018/04/27/making-it-simpler-with-a-modern-workplace/)의 비전에 더 근접 하 게 됩니다. 이러한 안전한 환경 및 통합 된 환경을 통해 조직의 팀 작업 및 지 수를 보다 쉽게 해제할 수도 있습니다. 기업에 대 한 Microsoft 365는 모든 기능을 함께 지원 하 고 지원 합니다.
 
 ## <a name="migration-for-office-client-products"></a>Office 클라이언트 제품 마이그레이션
 
@@ -44,7 +44,7 @@ Microsoft 365 Enterprise 통합 제품군의 비즈니스 가치를 최대화하
 - 비즈니스를 디지털로 변환 하는 데 도움이 되는 Microsoft 클라우드 기술을 사용 하도록 최적화 되지 않았습니다.
 - 최신 기능을 제공 하지 마세요.
 
-Microsoft 365 Enterprise에는 Microsoft 365 앱 for enterprise가 포함 되어 있습니다. 이 버전의 Office 클라이언트 제품은 Microsoft 365 Enterprise 라이선스를 사용할 수 있습니다. Microsoft 클라우드에서 설치 및 업데이트 되었습니다. 엔터프라이즈용 Microsoft 365 앱에는 보안 업데이트와 최신 기능이 포함되어 있습니다. 자세한 내용은 [Microsoft 365 Apps for Enterprise 정보](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps)를 참조 하세요.
+엔터프라이즈에 대 한 365 microsoft 365 앱은 기업에만 해당 됩니다. 이 버전의 Office 클라이언트 제품은 Microsoft 365 for Enterprise 라이선스를 사용할 수 있습니다. Microsoft 클라우드에서 설치 및 업데이트 되었습니다. 엔터프라이즈용 Microsoft 365 앱에는 보안 업데이트와 최신 기능이 포함되어 있습니다. 자세한 내용은 [Microsoft 365 Apps for Enterprise 정보](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps)를 참조 하세요.
 
 ### <a name="office-2007"></a>Office 2007
 
@@ -72,7 +72,7 @@ Microsoft 365 enterprise 용 앱은 보안 업데이트와 새 기능 업데이�
 
 ### <a name="office-2013-and-office-2016"></a>Office 2013 및 Office 2016
 
-Office 2013 및 Office 2016의 지원 종료 로드맵은 아직 확인 되지 않았습니다. Office 2010와 같은 이러한 버전에서는 여전히 [보안 업데이트를 설치](https://support.office.com/article/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5)해야 합니다. 이 작업은 조직의 크기에 따라 제대로 확장 되지 않을 수 있습니다.
+[Office 2013의 지원 종료 로드맵을](https://docs.microsoft.com/lifecycle/products/microsoft-office-2013)참조 하세요. Office 2016에 대 한 지원 종료는 아직 확인 되지 않았습니다. Office 2010와 같은 이러한 버전에서는 여전히 [보안 업데이트를 설치](https://support.office.com/article/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5)해야 합니다. 이 작업은 조직의 크기에 따라 제대로 확장 되지 않을 수 있습니다.
 
 컴퓨터에 Office 2013 또는 Office 2016의 최신 보안 업데이트를 적용 하거나 컴퓨터를 office 2013에서 Office 2016로 업데이트 하는 대신 다음 단계를 수행 하는 것이 좋습니다.
 
@@ -91,7 +91,7 @@ Microsoft 365 enterprise 용 앱은 보안 업데이트와 새 기능 업데이�
 - Microsoft 팀과 같은 새로운 생산성 응용 프로그램은 포함 하지 마십시오.
 - Exchange 및 Defender for Office 365의 최신 보안 기능을 포함 하지 마세요.
 
-Microsoft 365 Enterprise에는 웹 브라우저 및 Outlook 클라이언트와 같은 온-프레미스 버전의 Office 서버 소프트웨어와 동일한 도구 중 일부를 사용 하는 클라우드 기반 버전의 Office server 서비스가 포함 되어 있습니다. 이러한 서비스는 보안을 위해 자동으로 업데이트 됩니다. 따라서 IT 직원은 온-프레미스 서버를 유지 관리 하 고 업데이트 하는 데 걸리는 시간을 절약할 수 있습니다. 이러한 서비스는 Office server 소프트웨어에 없는 새로운 기능 향상 기능도 제공 합니다.
+엔터프라이즈에 대 한 Microsoft 365에는 웹 브라우저 및 Outlook 클라이언트와 같은 온-프레미스 버전의 Office 서버 소프트웨어와 동일한 도구 중 일부를 사용 하는 클라우드 기반 버전의 Office server 서비스가 포함 되어 있습니다. 이러한 서비스는 보안을 위해 자동으로 업데이트 됩니다. 따라서 IT 직원은 온-프레미스 서버를 유지 관리 하 고 업데이트 하는 데 걸리는 시간을 절약할 수 있습니다. 이러한 서비스는 Office server 소프트웨어에 없는 새로운 기능 향상 기능도 제공 합니다.
 
 다음 리소스를 사용 하 여 특정 Microsoft 365 작업에 대 한 사용자 및 데이터 마이그레이션에 대 한 정보를 알아봅니다.
 
@@ -155,21 +155,21 @@ Office 2016 릴리스의 서버 제품에 대 한 지원 종료는 확인 되지
 
 [![Office 2010 클라이언트 및 서버 및 Windows 7의 지원 종료에 대 한 옵션을 보여 주는 이미지](../media/microsoft-365-overview/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
 
-이 한 페이지 포스터는 Office 2010 클라이언트 및 서버 제품 및 Windows 7의 지원 종료를 관리 하기 위해 수행할 수 있는 경로를 이해 하는 빠른 방법입니다. 기본 경로는 Microsoft 365 Enterprise에서 지원 됩니다.
+이 한 페이지 포스터는 Office 2010 클라이언트 및 서버 제품 및 Windows 7의 지원 종료를 관리 하기 위해 수행할 수 있는 경로를 이해 하는 빠른 방법입니다. 기본 경로는 Microsoft 365 for Enterprise에서 지원 됩니다.
 
 [이 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Office2010Windows7EndOfSupport.pdf) 하 여 letter 크기, legal 크기 또는 tabloid (11 x 17) 크기로 인쇄할 수 있습니다.
 
 ## <a name="transition-your-entire-organization"></a>전체 조직 전환
 
-전체 조직을 Microsoft 365 Enterprise의 제품 및 서비스로 이동 하는 방법을 보다 자세히 설명 하려면이 전환 포스터를 다운로드 하세요.
+전체 조직을 Microsoft 365의 엔터프라이즈 제품 및 서비스로 이동 하는 방법에 대 한 자세한 그림을 얻으려면이 전환 포스터를 다운로드 하세요.
 
 [![Microsoft 365 포스터에 대 한 전환을 보여 주는 이미지입니다.](../media/microsoft-365-overview/transition-org-to-m365.png)](https://download.microsoft.com/download/2/c/7/2c7bcc04-aae3-4604-9707-1ffff66b9851/transition-org-to-m365.pdf)
 
-이 두 페이지 포스터는 기존 인프라를 신속하게 인벤터리하는 방법입니다. 이 도구를 사용 하 여 Microsoft 365 Enterprise에서 제품 또는 서비스로 이동 하기 위한 지침을 확인할 수 있습니다. 여기에는 Windows 및 Office 제품과 기타 인프라 및 보안 요소 (예: 장치 관리, id 및 위협 보호, 정보 및 준수 보호)가 표시 됩니다.
+이 두 페이지 포스터는 기존 인프라를 신속하게 인벤터리하는 방법입니다. 이 도구를 사용 하 여 기업에 대 한 Microsoft 365에서 제품 또는 서비스로 이동 하기 위한 지침을 확인할 수 있습니다. 여기에는 Windows 및 Office 제품과 기타 인프라 및 보안 요소 (예: 장치 관리, id 및 위협 보호, 정보 및 준수 보호)가 표시 됩니다.
 
-## <a name="how-microsoft-migrated-to-microsoft-365-enterprise"></a>Microsoft에서 Microsoft 365 Enterprise로 마이그레이션되는 방식
+## <a name="how-microsoft-migrated-to-microsoft-365-for-enterprise"></a>Microsoft에서 기업을 위한 Microsoft 365로 마이그레이션하는 방법
 
-Microsoft의 IT 전문가가 회사를 Microsoft 365 Enterprise로 마이그레이션한 방식을 확인 하세요.
+Microsoft의 IT 전문가가 기업을 위해 Microsoft 365를 어떻게 마이그레이션 하는지 확인 하세요.
 
 - [Microsoft 365 Apps for enterprise 배포 및 업데이트](https://www.microsoft.com/itshowcase/Article/Content/757/Deploying-and-updating-Microsoft-Office-365-ProPlus)
 - [Microsoft에서 150,000개의 사서함을 Exchange Online으로 마이그레이션](https://www.microsoft.com/itshowcase/Article/Content/577/Microsoft-migrates-150000-mailboxes-to-Exchange-Online)
