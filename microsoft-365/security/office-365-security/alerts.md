@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Office 365 보안 & 준수 센터의 알림 기능을 사용 하 여 고급 경고 관리를 비롯 한 알림을 보고 관리 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8867732611af275b45b14dc0894e24ed4c89d062
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: a29da0a76ff1b681c87182ff55b787327a969607
+ms.sourcegitcommit: 89f56c3e0b619a4700a75a21927d9ffc90658632
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48447050"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48984891"
 ---
 # <a name="alerts-in-the-security--compliance-center"></a>보안 & 준수 센터의 알림
 
@@ -40,7 +40,7 @@ ms.locfileid: "48447050"
 
 ### <a name="to-go-directly-to-the-security--compliance-center"></a>보안 & 준수 센터로 바로 이동 하려면
 
-1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
+1. <https://protection.office.com>으로 이동합니다.
 
 2. 회사 또는 학교 계정을 사용하여 로그인합니다.
 
@@ -50,9 +50,9 @@ ms.locfileid: "48447050"
 
 1. 회사 또는 학교 계정을 사용하여 로그인합니다.
 
-2. 왼쪽 위 모서리에 있는 앱 시작 관리자를 클릭 한 다음 **보안 & 준수**를 클릭 합니다.
+2. 왼쪽 위 모서리에 있는 앱 시작 관리자를 클릭 한 다음 **보안 & 준수** 를 클릭 합니다.
 
-    찾고자 하는 앱을 찾을 수 없나요? 앱 시작 관리자에서 **모든 앱**을 선택하여 사용 가능한 Office 365 앱의 사전순 목록을 보세요. 거기에서 특정 앱을 검색할 수 있습니다.
+   찾고자 하는 앱을 찾을 수 없나요? 앱 시작 관리자에서 **모든 앱** 을 선택하여 사용 가능한 Office 365 앱의 사전순 목록을 보세요. 거기에서 특정 앱을 검색할 수 있습니다.
 
 3. 왼쪽 창에서 **경고** 를 클릭 하 여 알림 기능을 표시 합니다.
 
@@ -64,6 +64,6 @@ ms.locfileid: "48447050"
 
 |도구|설명|
 |---|---|
-|[알림 관리](../../compliance/create-activity-alerts.md)|사용자가 Office 365에서 특정 작업을 수행할 때 활동 알림을 사용 하 여 자신이 나 다른 관리자에 게 전자 메일 알림을 보낼 수 있습니다. 활동 경고는 경고를 만든 이벤트가 발생 하는 경우 전자 메일 메시지를 보내는 것을 제외 하 고 감사 로그에서 이벤트를 검색 하는 것과 비슷합니다.|
-|[고급 알림 관리 ](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|Office 365 Cloud App Security의 **고급 알림 관리** 기능을 사용 하 여 office 365에서 의심 스 럽 거 나 비정상적인 활동을 알릴 수 있는 정책을 설정 합니다. 경고가 표시 되 면 문제가 발생할 가능성이 있는 상황을 조사 하 고, 필요한 경우 보안 문제 해결에 대 한 조치를 취할 수 있습니다.|
+|[알림 관리](../../compliance/create-activity-alerts.md)|사용자가 Microsoft 365에서 특정 작업을 수행할 때 활동 알림을 사용 하 여 자신이 나 다른 관리자에 게 전자 메일 알림을 보낼 수 있습니다. 활동 경고는 경고를 만든 이벤트가 발생 하는 경우 전자 메일 메시지를 보내는 것을 제외 하 고 감사 로그에서 이벤트를 검색 하는 것과 비슷합니다.|
+|[고급 알림 관리](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|Microsoft 365 Cloud App Security의 **고급 알림 관리** 기능을 사용 하 여 microsoft 365에서 의심 스 럽 거 나 비정상적인 활동을 알릴 수 있는 정책을 설정 합니다. 경고가 표시 되 면 문제가 발생할 가능성이 있는 상황을 조사 하 고, 필요한 경우 보안 문제 해결에 대 한 조치를 취할 수 있습니다.|
 |

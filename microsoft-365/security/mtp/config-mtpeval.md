@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: 88db2182ec1a3250d2f4308858026fec97a2f91b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 5259c7b74446ad273ff9b1ae0baccd339e34baa3
+ms.sourcegitcommit: 89f56c3e0b619a4700a75a21927d9ffc90658632
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844107"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48984953"
 ---
 # <a name="configure-microsoft-365-defender-pillars-for-your-trial-lab-or-pilot-environment"></a>평가판 랩 또는 파일럿 환경에 대해 Microsoft 365 Defender 핵심 요소로 구성
 
@@ -68,10 +68,10 @@ Microsoft 365 Defender 평가판 랩 또는 파일럿 환경을 만들고 배포
 ## <a name="microsoft-365-defender-pillars"></a>Microsoft 365 Defender 핵심 요소로
 Microsoft 365 Defender는 4 가지 핵심 요소로로 구성 되어 있습니다. 한 번에 네트워크 조직의 보안에 대 한 가치를 제공할 수 있지만 Microsoft 365 Defender 핵심 요소로 4 개를 사용 하도록 설정 하면 조직에 가장 많은 값이 제공 됩니다.
 
-![Image of_Microsoft 365 Defender solution for users 365, for a for a for a for a for a for a for a for a 사용자](../../media/mtp-eval-31.png)
+![Image of_Microsoft 365 Defender solution for users 365, for a for a for a for a for a for a for a for a 사용자](../../media/mtp/m365pillars.png)
 
 이 섹션에서는 다음을 구성할 수 있도록 안내 합니다.
--   Microsoft Defender for Office 365
+-   Office 365용 Microsoft Defender
 -   ID용 Microsoft Defender 
 -   Microsoft Cloud App Security
 -   엔드포인트용 Microsoft Defender
@@ -288,7 +288,7 @@ Microsoft 365 Defender는 4 가지 핵심 요소로로 구성 되어 있습니�
 
     ![클릭 해야 하는 이미지 of_Save 기본 설정 단추](../../media/mtp-eval-72.png)
 
-## <a name="start-the-microsoft-365-defender-service"></a>Microsoft 365 Defender service 시작
+## <a name="start-the-microsoft-365-defender-service"></a>Microsoft 365 Defender 서비스 시작
 
 >[!NOTE]
 >2020 년 6 월 1 일부부터 Microsoft는 모든 적격 테 넌 트에 대해 Microsoft 365 Defender 기능을 자동으로 사용 하도록 설정 합니다. 자세한 내용은 [라이선스 자격에 대 한 Microsoft 기술 커뮤니티 문서를](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/microsoft-threat-protection-will-automatically-turn-on-for/ba-p/1345426) 참조 하세요. 
