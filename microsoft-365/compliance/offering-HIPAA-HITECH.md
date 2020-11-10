@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a6605f7d8561532121e54f02b579de26879baa1a
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: 6e0f8e2661692930469aff85e0a7eeef2dd647e0
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48305242"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948389"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>HITECH의 상태 보험 이식성 및 책임 (HIPAA) &
 
@@ -55,6 +55,7 @@ Microsoft 엔터프라이즈 클라우드 서비스에는 FedRAMP 평가도 포�
 
 - [Azure 및 Azure Government](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App Security
+- [Microsoft Cloud for Healthcare](https://aka.ms/MicrosoftCloudforHealthcareCompliance)
 - Microsoft Microsoft 의료 Bot 서비스
 - Microsoft Stream
 - Microsoft 전문 서비스: Azure, Dynamics 365, Intune, 비즈니스용 Microsoft 365의 중간 규모 비즈니스 및 엔터프라이즈 고객 대상 프리미어 및 온-프레미스
@@ -72,7 +73,7 @@ Azure 보안 및 규정 준수 청사진 (HIPAA/HITRUST Health Data and AI)을 �
 
 [Azure HIPAA/HITRUST 청사진 사용 시작](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust-9-2)
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 **조직이 Microsoft의 BAA에 입력 될 수 있나요?**
 
@@ -114,4 +115,4 @@ Microsoft 서비스가 모든 고객에 대해 일관성이 있으므로 microso
 - [Microsoft Government 클라우드](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Azure에서 HIPAA 준수 이해](https://www.youtube.com/embed/6ptdye1LZ5k?autoplay=0)(5 월 19 2016 일)
 - [Azure HIPAA HITRUST 청사진 샘플](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/)
-- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터의 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)

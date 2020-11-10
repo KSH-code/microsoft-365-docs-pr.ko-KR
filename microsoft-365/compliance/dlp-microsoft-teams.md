@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 이제 Microsoft 팀 채팅 및 채널에 DLP 정책을 적용할 수 있습니다. 이 문서를 읽으면 작동 방식에 대해 자세히 알아볼 수 있습니다.
-ms.openlocfilehash: 58a96cea3a45fb640b06e09debd35dd005b15a32
-ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
+ms.openlocfilehash: 22f279eaccaed20984a59b9b3ae5655df00b2ae3
+ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45024728"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48951091"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft 팀
 
@@ -31,7 +31,7 @@ ms.locfileid: "45024728"
 
 ## <a name="overview-of-dlp-for-microsoft-teams"></a>Microsoft 팀의 DLP 개요
 
-최근에 DLP ( [데이터 손실 방지](data-loss-prevention-policies.md) ) 기능은 **개인 채널 메시지를 포함 하 여**Microsoft 팀 채팅 및 채널 메시지를 포함 하도록 확장 되었습니다.
+최근에 DLP ( [데이터 손실 방지](data-loss-prevention-policies.md) ) 기능은 **개인 채널 메시지를 포함 하 여** Microsoft 팀 채팅 및 채널 메시지를 포함 하도록 확장 되었습니다.
 
 
 조직에 DLP가 있는 경우에는 사용자가 Microsoft 팀 채널 또는 채팅 세션에서 중요 한 정보를 공유 하지 못하도록 하는 정책을 정의할 수 있습니다. 다음은 이러한 보호의 작동 방식에 대 한 몇 가지 예입니다.
@@ -41,7 +41,7 @@ ms.locfileid: "45024728"
     > [!NOTE]
     > Microsoft 팀의 DLP는 다음을 포함 하는 Microsoft 팀 사용자와 공유할 때 중요 한 콘텐츠를 차단 합니다.<br/>- 팀 및 채널에서의 [게스트 액세스](https://docs.microsoft.com/MicrosoftTeams/guest-access) 사용자나<br/>- 모임 및 채팅 세션의 [외부 액세스](https://docs.microsoft.com/MicrosoftTeams/manage-external-access) <p>외부 채팅 세션에 대 한 DLP는 보낸 사람과 받는 사람이 모두 팀 전용 모드이 고 [Microsoft 팀 전용 페더레이션을](https://docs.microsoft.com/microsoftteams/manage-external-access)사용 하는 경우에만 작동 합니다. 팀에 대 한 DLP는 비즈니스용 Skype 또는 비기본 페더레이션 채팅 세션을 사용한 [interop](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability#interoperability-of-teams-and-skype-for-business) 의 메시지를 차단 하지 않습니다.
 
-- **예 2: 문서에서 중요 한 정보를 보호**하는 방법을 설명 합니다. 다른 사용자가 Microsoft 팀 채널 또는 채팅에서 게스트와 문서를 공유 하려고 하지만 문서에 중요 한 정보가 포함 되어 있다고 가정해 보겠습니다. 이를 방지 하기 위해 DLP 정책을 정의 하는 경우 해당 사용자에 대 한 문서가 열리지 않습니다. 이 경우에는 보호 기능을 적용 하기 위해 DLP 정책에 SharePoint 및 OneDrive가 포함 되어야 합니다. (이는 Microsoft 팀에 표시 되는 SharePoint 용 DLP의 예 이며, 사용자가 office 365 DLP (Office 365 E3에 포함)에 대 한 사용이 허가 되어야 하지만, 사용자에 게 Office 365 고급 규정 준수를 허가할 필요가 없습니다.)
+- **예 2: 문서에서 중요 한 정보를 보호** 하는 방법을 설명 합니다. 다른 사용자가 Microsoft 팀 채널 또는 채팅에서 게스트와 문서를 공유 하려고 하지만 문서에 중요 한 정보가 포함 되어 있다고 가정해 보겠습니다. 이를 방지 하기 위해 DLP 정책을 정의 하는 경우 해당 사용자에 대 한 문서가 열리지 않습니다. 이 경우에는 보호 기능을 적용 하기 위해 DLP 정책에 SharePoint 및 OneDrive가 포함 되어야 합니다. (이는 Microsoft 팀에 표시 되는 SharePoint 용 DLP의 예 이며, 사용자가 office 365 DLP (Office 365 E3에 포함)에 대 한 사용이 허가 되어야 하지만, 사용자에 게 Office 365 고급 규정 준수를 허가할 필요가 없습니다.)
 
 ## <a name="policy-tips-help-educate-users"></a>사용자를 교육 하는 데 도움이 되는 정책 팁
 
@@ -67,17 +67,17 @@ ms.locfileid: "45024728"
 
 1. 보안 & 준수 센터 ()로 이동 [https://protection.office.com](https://protection.office.com) 하 여 로그인 합니다.
 
-2. **데이터 손실 방지**  >  **정책을**선택 합니다.
+2. **데이터 손실 방지**  >  **정책을** 선택 합니다.
 
-3. 정책을 선택 하 고 **정책 설정**옆에서 **편집**을 선택 합니다.
+3. 정책을 선택 하 고 **정책 설정** 옆에서 **편집** 을 선택 합니다.
 
 4. 새 규칙을 만들거나 정책에 대 한 기존 규칙을 편집 합니다.<br/>![정책에 대 한 규칙 편집](../media/dlp-teams-editrule.png)<br/>
 
 5. **사용자 알림** 탭에서 **전자 메일 텍스트 사용자 지정** 및/또는 **정책 팁 텍스트 옵션 사용자 지정** 을 선택 합니다.<br/>![사용자 알림 및 정책 팁 사용자 지정](../media/dlp-teams-editrule-usernotifications.png)<br/>  
 
-6. 전자 메일 알림 및/또는 정책 팁에 사용할 텍스트를 지정 하 고 **저장**을 선택 합니다.
+6. 전자 메일 알림 및/또는 정책 팁에 사용할 텍스트를 지정 하 고 **저장** 을 선택 합니다.
 
-7. **정책 설정** 탭에서 **저장**을 선택 합니다.
+7. **정책 설정** 탭에서 **저장** 을 선택 합니다.
 
 변경 내용이 데이터 센터를 통해 작동 하 고 사용자 계정과 동기화 되도록 약 1 시간을 허용 합니다.
  <!-- why are these syncing to user accounts? -->
@@ -87,15 +87,15 @@ ms.locfileid: "45024728"
 
 1. 보안 & 준수 센터 ()로 이동 [https://protection.office.com](https://protection.office.com) 하 여 로그인 합니다.
 
-2. **데이터 손실 방지**  >  **정책을**선택 합니다.
+2. **데이터 손실 방지**  >  **정책을** 선택 합니다.
 
-3. 정책을 선택 하 고 **위치**아래의 값을 확인 합니다. **팀 채팅 및 채널 메시지가**표시 되 면 모든 설정이 완료 됩니다. 그렇지 않으면 **편집**을 클릭 합니다.<br/>![기존 정책에 대 한 위치](../media/dlp-teams-editexistingpolicy.png)<br/>
+3. 정책을 선택 하 고 **위치** 아래의 값을 확인 합니다. **팀 채팅 및 채널 메시지가** 표시 되 면 모든 설정이 완료 됩니다. 그렇지 않으면 **편집** 을 클릭 합니다.<br/>![기존 정책에 대 한 위치](../media/dlp-teams-editexistingpolicy.png)<br/>
 
-4. **상태** 열에서 **팀 채팅 및 채널 메시지**에 대 한 정책을 설정 합니다.<br/>![팀 채팅 및 채널에 대 한 DLP](../media/dlp-teams-addteamschatschannels.png)<br/>
+4. **상태** 열에서 **팀 채팅 및 채널 메시지** 에 대 한 정책을 설정 합니다.<br/>![팀 채팅 및 채널에 대 한 DLP](../media/dlp-teams-addteamschatschannels.png)<br/>
 
 5. 모든 계정의 기본 설정을 유지 하거나 포함 하거나 제외할 계정을 지정 합니다.
 
-6. **저장**을 클릭합니다.
+6. **저장** 을 클릭합니다.
 
 변경 내용이 데이터 센터를 통해 작동 하 고 사용자 계정과 동기화 되도록 약 1 시간을 허용 합니다.
 <!-- again, why user accounts? -->
@@ -105,30 +105,55 @@ ms.locfileid: "45024728"
 
 1. 보안 & 준수 센터 ()로 이동 [https://protection.office.com](https://protection.office.com) 하 여 로그인 합니다.
 
-2. **데이터 손실 방지**  >  **정책**및  >  **정책 만들기를**선택 합니다.
+2. **데이터 손실 방지**  >  **정책** 및  >  **정책 만들기를** 선택 합니다.
 
-3. [서식 파일](data-loss-prevention-policies.md#dlp-policy-templates)을 선택 하 고 **다음**을 선택 합니다.<br/>이 예제에서는 미국 개인 식별이 가능한 정보 데이터 서식 파일을 선택 했습니다.<br/>![DLP 정책에 대 한 개인 정보 서식 파일](../media/dlp-teams-createnewpolicy-template.png)<br/>
+3. [서식 파일](data-loss-prevention-policies.md#dlp-policy-templates)을 선택 하 고 **다음** 을 선택 합니다.<br/>이 예제에서는 미국 개인 식별이 가능한 정보 데이터 서식 파일을 선택 했습니다.<br/>![DLP 정책에 대 한 개인 정보 서식 파일](../media/dlp-teams-createnewpolicy-template.png)<br/>
 
-4. **정책 이름** 지정 탭에서 정책의 이름과 설명을 입력 하 고 **다음**을 선택 합니다.
+4. **정책 이름** 지정 탭에서 정책의 이름과 설명을 입력 하 고 **다음** 을 선택 합니다.
 
-5. **위치 선택** 탭에서 모든 위치의 기본 설정을 유지 하거나, **특정 위치 선택 허용**을 선택 하 고 **다음**을 선택 합니다.<br/>특정 위치를 선택 하는 경우 DLP 정책에 대해이를 선택한 후 **다음**을 선택 합니다.<br/>![DLP 정책 위치](../media/dlp-teams-selectlocationsnewpolicy.png)<br/>
+5. **위치 선택** 탭에서 모든 위치의 기본 설정을 유지 하거나, **특정 위치 선택 허용** 을 선택 하 고 **다음** 을 선택 합니다.<br/>특정 위치를 선택 하는 경우 DLP 정책에 대해이를 선택한 후 **다음** 을 선택 합니다.<br/>![DLP 정책 위치](../media/dlp-teams-selectlocationsnewpolicy.png)<br/>
     > [!NOTE]
-    > 중요 한 정보가 포함 된 문서가 팀에서 잘못 공유 되지 않도록 하려면 **팀 채팅 및 채널 메시지**와 함께 **SharePoint 사이트** 와 **OneDrive 계정이** 설정 되어 있는지 확인 합니다.
+    > 중요 한 정보가 포함 된 문서가 팀에서 잘못 공유 되지 않도록 하려면 **팀 채팅 및 채널 메시지** 와 함께 **SharePoint 사이트** 와 **OneDrive 계정이** 설정 되어 있는지 확인 합니다.
 
 <br/>
 
-6. **정책 설정** 탭의 **보호 하려는 콘텐츠 형식 사용자 지정**에서 기본 설정을 유지 하거나 **고급 설정 사용**을 선택 하 고 **다음**을 선택 합니다. 고급 설정을 선택 하는 경우 정책에 대 한 규칙을 만들거나 편집할 수 있습니다. 이에 대 한 도움말을 보려면 [단순 설정 및 고급 설정을](data-loss-prevention-policies.md#simple-settings-vs-advanced-settings)참조 하세요.
+6. **정책 설정** 탭의 **보호 하려는 콘텐츠 형식 사용자 지정** 에서 기본 설정을 유지 하거나 **고급 설정 사용** 을 선택 하 고 **다음** 을 선택 합니다. 고급 설정을 선택 하는 경우 정책에 대 한 규칙을 만들거나 편집할 수 있습니다. 이에 대 한 도움말을 보려면 [단순 설정 및 고급 설정을](data-loss-prevention-policies.md#simple-settings-vs-advanced-settings)참조 하세요.
 
-7.  **정책 설정** 탭의 **중요 한 정보를 검색 하는 경우 어떤**작업을 수행 하 시겠습니까?에서 설정을 검토 합니다. (여기에서 기본 [정책 팁과 전자 메일 알림을](use-notifications-and-policy-tips.md)유지 하거나 사용자 지정할 수 있습니다.)<br/>![팁 및 알림이 포함 된 DLP 정책 설정](../media/dlp-teams-policysettings-tipsemails.png)<br/>설정 검토 또는 편집을 마친 후 **다음**을 선택 합니다.
+7.  **정책 설정** 탭의 **중요 한 정보를 검색 하는 경우 어떤** 작업을 수행 하 시겠습니까?에서 설정을 검토 합니다. (여기에서 기본 [정책 팁과 전자 메일 알림을](use-notifications-and-policy-tips.md)유지 하거나 사용자 지정할 수 있습니다.)<br/>![팁 및 알림이 포함 된 DLP 정책 설정](../media/dlp-teams-policysettings-tipsemails.png)<br/>설정 검토 또는 편집을 마친 후 **다음** 을 선택 합니다.
 
-8. **정책 설정** 탭의 정책을 **설정 하거나 먼저 테스트를 수행**하 시겠습니까?에서 정책을 켤 지, [먼저](data-loss-prevention-policies.md#roll-out-dlp-policies-gradually-with-test-mode)테스트를 시작할지, 지금은 해제를 선택 하 고 **다음**을 선택 합니다.<br/>![정책을 켤 지 여부를 지정 합니다.](../media/dlp-teams-policysettings-turnonnow.png)<br/>
+8. **정책 설정** 탭의 정책을 **설정 하거나 먼저 테스트를 수행** 하 시겠습니까?에서 정책을 켤 지, [먼저](data-loss-prevention-policies.md#roll-out-dlp-policies-gradually-with-test-mode)테스트를 시작할지, 지금은 해제를 선택 하 고 **다음** 을 선택 합니다.<br/>![정책을 켤 지 여부를 지정 합니다.](../media/dlp-teams-policysettings-turnonnow.png)<br/>
 
-9. **설정 검토** 탭에서 새 정책에 대 한 설정을 검토 합니다. **편집** 을 선택 하 여 변경 내용을 적용 합니다. 작업이 완료 되 면 **만들기**를 선택 합니다.
+9. **설정 검토** 탭에서 새 정책에 대 한 설정을 검토 합니다. **편집** 을 선택 하 여 변경 내용을 적용 합니다. 작업이 완료 되 면 **만들기** 를 선택 합니다.
 
 새 정책이 데이터 센터를 통해 작동 하 고 사용자 계정과 동기화 되도록 약 1 시간을 허용 합니다.
 
+## <a name="prevent-external-access-to-sensitive-documents"></a>중요 한 문서에 대 한 외부 액세스 차단
+
+중요 한 정보를 포함 하는 SharePoint 문서를 SharePoint 또는 팀의 외부 게스트에서 기본적으로 액세스할 수 없도록 하려면 다음을 선택 합니다.
+
+- [새 파일을 기본적으로 중요 한 것으로 표시](https://docs.microsoft.com/sharepoint/sensitive-by-default) 하 여 DLP가 검색 되어 공유 해도 안전한 것으로 표시 될 때까지 문서가 보호 되는지 확인할 수 있습니다.
+- 권장 DLP 정책 구조
+    - **조건**
+        - 콘텐츠에는 다음 중요 한 정보 유형이 포함 됩니다. [모두 선택]
+        - 콘텐츠가 Microsoft 365에서 조직 외부의 사용자와 공유 됨
+        <br/>![중요 한 콘텐츠의 외부 공유를 검색 하기 위한 DLP 조건](../media/dlp-teams-external-sharing/external-condition.png)<br/>
+
+
+    - **작업**
+        - 외부 사용자에 대 한 콘텐츠에 대 한 액세스 제한
+        - 전자 메일 및 정책 팁으로 사용자에 게 알림
+        - 관리자에 게 문제 보고서 보내기    
+        <br/>![중요 콘텐츠의 외부 공유를 차단 하는 DLP 작업](../media/dlp-teams-external-sharing/external-action.png)<br/>
+
+외부 게스트가 중요 한 정보를 포함 하는 SharePoint에서 문서를 공유 하려고 할 때 수행 되는 DLP 정책:
+<br/>![외부 공유 차단 됨](../media/dlp-teams-external-sharing/external-sharing-blocked.png)<br/>
+
+
+게스트에서 외부 차단 된 팀의 문서를 열려고 할 때 수행 되는 DLP 정책:
+<br/>![외부 액세스 차단 됨](../media/dlp-teams-external-sharing/external-access-blocked.png)<br/>
+
 ## <a name="related-articles"></a>관련 문서
 
-[DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
+[DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md)
 
 [DLP 정책에 대한 전자 메일 알림 보내기 및 정책 팁 표시](use-notifications-and-policy-tips.md)

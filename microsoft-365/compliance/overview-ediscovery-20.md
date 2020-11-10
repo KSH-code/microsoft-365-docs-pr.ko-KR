@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: ''
 description: 이 문서에서는 내부 및 외부 조사 도구인 Microsoft 365의 고급 eDiscovery에 대 한 개요를 제공 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 95c864b9e2222000b1114ae42dbbb5705228d531
-ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
+ms.openlocfilehash: 2ef61c8c60cb2cd7114798969dce14c7dce0a2fd
+ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944346"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48951159"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Microsoft 365의 고급 eDiscovery 솔루션 개요
 
@@ -72,11 +72,13 @@ Microsoft 365의 고급 eDiscovery 솔루션은 Office 365의 기존 eDiscovery 
 
 Advanced eDiscovery의 종단 간 워크플로에 대 한 자세한 내용은이 [Microsoft 메커니즘 비디오](https://go.microsoft.com/fwlink/?linkid=2066133)를 참조 하세요.
 
-다음 섹션에서는 고급 eDiscovery에서 기본 제공 워크플로의 각 단계에 대해 설명 합니다.
+다음 섹션에서는 고급 eDiscovery에서 기본 제공 워크플로의 각 단계에 대해 설명 합니다. 다음 스크린샷에서는 *2020.11.03* 이라는 사례에 대 한 **개요** 탭을 보여 줍니다.
+
+![기본 제공 되는 고급 eDiscovery 워크플로의 탭](../media/AeD-Case-Screenshot1.png)
 
 ## <a name="managing-custodians-and-non-custodial-data-sources"></a>Custodians 및 비 custodial 데이터 원본 관리
 
-Sources ( **원본** ) 탭을 사용 하 여 custodian와 연결 되지 않을 수도 있는 다른 데이터 원본 및 사례에서 관심 있는 사람으로 식별 된 사용자를 추가 하 고 관리 합니다. Custodians 또는 비 custodial 데이터 원본을 추가 하는 경우 custodian 및 비 custodial 데이터 원본에 법적 보존 기능을 배치 하 고, custodians, 검색 custodian 및 비-custodial 데이터 원본을 사용 하 여 사례와 관련 된 콘텐츠를 수집 하는 등의 작업을 빠르게 수행할 수 있습니다. 사례가 진행 됨에 따라 새 custodians 또는 비 custodial 날짜 원본을 추가 하거나 사례에서 릴리스 하기가 쉽습니다. 자세한 내용은 [Advanced eDiscovery에서 custodians 사용](managing-custodians.md)을 참조 하십시오.
+**데이터 원본** 탭을 사용 하 여 custodian와 연결 되지 않을 수도 있는 사용자를 사례 및 기타 데이터 원본으로 식별 한 사람을 추가 하 고 관리 합니다. Custodians 또는 비 custodial 데이터 원본을 추가 하는 경우 custodian 및 비 custodial 데이터 원본에 법적 보존 기능을 배치 하 고, custodians, 검색 custodian 및 비-custodial 데이터 원본을 사용 하 여 사례와 관련 된 콘텐츠를 수집 하는 등의 작업을 빠르게 수행할 수 있습니다. 사례가 진행 됨에 따라 새 custodians 또는 비 custodial 날짜 원본을 추가 하거나 사례에서 릴리스 하기가 쉽습니다. 자세한 내용은 [Advanced eDiscovery에서 custodians 사용](managing-custodians.md)을 참조 하십시오.
 
 ## <a name="managing-legal-hold-notifications"></a>법적 보존 알림 관리
 
@@ -84,7 +86,7 @@ Sources ( **원본** ) 탭을 사용 하 여 custodian와 연결 되지 않을 �
 
 ## <a name="managing-content-preservation"></a>콘텐츠 보존 관리
 
-Custodian를 사례에 추가할 때 custodial 데이터를 보유할 수 있습니다. **보류** 중 탭을 사용 하 여 custodians을 추가할 때 생성 되는 보류를 관리 하 고 사례와 연결 된 다른 법적 보존을 관리할 수 있습니다. 예를 들어 custodial이 아닌 데이터 원본을 확인 하 고 보류할 수 있습니다. 또한 사례에서 보류를 편집 하 고 쿼리 기반 유지로 설정 하 여 쿼리와 일치 하는 콘텐츠만 보존할 수 있습니다. 예를 들어 날짜 범위를 보류에 추가 하 여 특정 날짜 이내에 만들어진 콘텐츠만 유지 되도록 할 수 있습니다. 보류 중인 콘텐츠에 대 한 통계를 가져오거나 사례에 더 이상 관련 되지 않은 보류를 제거 하거나 삭제할 수도 있습니다. 자세한 내용은 [Advanced eDiscovery에서 보류 관리](managing-holds.md)를 참조 하세요.
+Custodian를 사례에 추가할 때 custodial 데이터를 보유할 수 있습니다. **보류** 탭을 사용 하 여 custodians을 추가할 때 생성 되는 보류를 관리 하 고 사례와 연결 된 다른 법적 보존을 관리할 수 있습니다. 예를 들어 custodial이 아닌 데이터 원본을 확인 하 고 보류할 수 있습니다. 또한 사례에서 보류를 편집 하 고 쿼리 기반 유지로 설정 하 여 쿼리와 일치 하는 콘텐츠만 보존할 수 있습니다. 예를 들어 날짜 범위를 보류에 추가 하 여 특정 날짜 이내에 만들어진 콘텐츠만 유지 되도록 할 수 있습니다. 보류 중인 콘텐츠에 대 한 통계를 가져오거나 사례에 더 이상 관련 되지 않은 보류를 제거 하거나 삭제할 수도 있습니다. 자세한 내용은 [Advanced eDiscovery에서 보류 관리](managing-holds.md)를 참조 하세요.
 
 ## <a name="indexing-custodian-data"></a>Custodian 데이터 인덱싱
 
