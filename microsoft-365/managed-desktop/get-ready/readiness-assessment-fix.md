@@ -1,5 +1,5 @@
 ---
-title: 준비 상태 평가 도구에서 발견 된 문제 해결
+title: 준비 평가 도구에서 발견한 문제 해결
 description: 도구에서 발견 되는 각 문제에 대해 수행할 세부 작업
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
@@ -9,14 +9,14 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 642de80e1a133f212b7afb6774d9aab2eeaabdbf
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: c342ea9f662d883883755d2f67e5c25ffabddf83
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941412"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948412"
 ---
-# <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>준비 상태 평가 도구에서 발견 된 문제 해결
+# <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>준비 평가 도구에서 발견한 문제 해결
 
 각 검사에 대해이 도구는 다음과 같은 네 가지 가능한 결과 중 하나를 보고 합니다.
 
@@ -242,7 +242,7 @@ Intune의 "Windows 10 업데이트 링" 정책은 Microsoft Managed Desktop 장�
 
 **조언**
 
-업데이트 링 정책에서 **최신 직장의 작업 공간-All** Azure AD 그룹을 제외 했는지 확인 합니다. 자세한 단계는 [Intune에서 Windows 10 소프트웨어 업데이트 관리](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure)를 참조 하세요. **최신 작업 공간 장치-모든** Azure AD 그룹은 Microsoft Managed Desktop에 등록할 때 만든 동적 그룹으로, 등록 후에이 그룹을 제외 하려면 다시 받아야 합니다.
+모든 업데이트 링 정책에서 **최신 작업 공간 장치 (모든** Azure AD 그룹)를 제외 했는지 확인 합니다. 이러한 정책에 대해 Azure AD 사용자 그룹을 할당 한 경우에는 모든 업데이트 링 정책에서 Microsoft Managed Desktop users를 포함 하는 **최신 직장** 의 Azure AD 그룹도 제외 했는지 확인 합니다. 자세한 단계는 [Intune에서 Windows 10 소프트웨어 업데이트 관리](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure)를 참조 하세요. **최신 작업 공간 장치-all** 및 **현대 직장의 모든** Azure AD 그룹은 Microsoft Managed Desktop에 등록할 때 만드는 그룹에 할당 되므로 등록 후에는이 그룹을 제외 해야 합니다.
 
 
 ## <a name="azure-active-directory-settings"></a>Azure Active Directory 설정

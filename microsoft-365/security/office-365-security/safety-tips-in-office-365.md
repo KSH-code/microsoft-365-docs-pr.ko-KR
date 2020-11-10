@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 전자 메일 맨 위에 보안 팁을 추가 하 여 EOP 및 Office 365에서 스팸, 피싱 및 맬웨어 방지 기능을 보호 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3da52a8ef2913c30c281fec74f92142847e29792
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 0e204021bfd79dabd4abdeefaa990da50915eaf0
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201986"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948460"
 ---
 # <a name="safety-tips-in-email-messages"></a>전자 메일 메시지의 안전 팁
 
@@ -47,14 +47,6 @@ Outlook의 안전 팁은 보안 팁이 열려 있어 메시지 본문에 직접 
     ![녹색 보안 팁을 보여 주는 스크린샷](../../media/acbc11d0-f626-4848-9fbf-66eeeda3f803.png)
 
     안전 하지 않은 메시지 외에도, 믿을 수 있는 보낸 사람의 유효한 메시지에 대해 설명 합니다. 전자 메일의 녹색 보안 팁은 메시지 보낸 사람을 확인 하 고 안전 하다 고 확인 했음을 의미 합니다. Microsoft는 금융 조직과 자주 위장 되거나 가장 되는 다른 사용자를 포함 하는 신뢰할 수 있는 보낸 사람 목록을 유지 관리 합니다.
-
-- 필터링 되지 않은 메일 (회색 보안 팁)
-
-    ![회색 보안 팁을 보여 주는 스크린샷](../../media/c4d0cf8f-08e9-4c84-beee-1d9e0b022e0a.png)
-
-    또한 수신 허용-보낸 사람 목록을 신뢰할 수 있거나 메일 흐름 규칙이 필터링을 우회 하기 위해 사용 하는 경우 메일 확인이 생략 된 경우에도 알려줍니다.
-
-    외부 이미지가 차단 되는 경우, 즉 메시지가 받은 편지함에 있고 해당 메시지는 스팸으로 표시 되지 않고 다운로드 하도록 설정 하지 않은 외부 이미지를 포함 하는 경우에도 회색 보안 팁이 표시 됩니다.
 
 ## <a name="working-with-safety-tips"></a>보안 팁 작업
 

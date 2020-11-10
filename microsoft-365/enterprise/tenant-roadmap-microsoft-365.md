@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-coredeploy
 ms.custom: it-pro
 description: Microsoft 365에 대 한 테 넌 트를 설정 하기 위한 로드맵
-ms.openlocfilehash: 038d9b0d94b84d184f0d9d9b250d0ee4d2c19de9
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: d2640a036eedda0b0962a15a03dcf0211ea0209b
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753969"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948400"
 ---
 # <a name="tenant-roadmap-for-microsoft-365"></a>Microsoft 365에 대 한 테 넌 트 로드맵
 
@@ -66,7 +66,7 @@ Microsoft 365 Multi-Geo를 사용하면 Microsoft 365 범위를 기존 테넌트
 
 자세한 내용은 [Microsoft 365 다중 Geo](microsoft-365-multi-geo.md)를 참조 하십시오.
 
-## <a name="manage-multiple-microsoft-365-tenant"></a>여러 Microsoft 365 테 넌 트 관리 
+## <a name="manage-multiple-microsoft-365-tenants"></a>여러 Microsoft 365 테 넌 트 관리 
 
 Oganization에 대 한 테 넌 트를 하나만 사용할 수 있기는 하지만 여러 테 넌 트가 있는 여러 조직 중 하나일 수도 있습니다. 합병에는 인수 및 합병이 포함 되거나, 관리 격리가 필요 하거나, 분산 되어 있는 이유가 있습니다.
 

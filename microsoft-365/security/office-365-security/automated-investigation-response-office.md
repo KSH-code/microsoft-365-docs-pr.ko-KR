@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender for Office 365에서 자동화 된 조사 및 응답 (AIR) 작동 방식
+title: Microsoft Defender for Office 365에서 자동화 된 조사 및 대응 작동 방식
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -21,14 +21,14 @@ description: Office 용 Microsoft Defender 365에서 자동화 된 조사 및 �
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: 6923e283e4ec62de9e4a9c1d9196eb032724798d
-ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
+ms.openlocfilehash: 039cca2f6f61d7c82f8c3e85f1fd147a68f84b68
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48931961"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948436"
 ---
-# <a name="how-automated-investigation-and-response-air-works-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365에서 자동화 된 조사 및 응답 (AIR) 작동 방식
+# <a name="how-automated-investigation-and-response-works-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365에서 자동화 된 조사 및 대응 작동 방식
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 

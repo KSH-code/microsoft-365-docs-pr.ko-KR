@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Microsoft Defender for Office 365의 캠페인 보기에 대해 알아봅니다.
-ms.openlocfilehash: 181b6ce5859dd5146512fe854c983b6b9096d8c6
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: 1e5754e077d4c1b8f685b5dea1f8a59985e08a13
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941358"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948484"
 ---
 # <a name="campaign-views-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 캠페인 보기
 
@@ -85,7 +85,7 @@ Microsoft는 캠페인을 식별 하는 데 도움이 되도록 전체 서비스
 
 - **Type** :이 값은 **피싱** 또는 **맬웨어** 입니다.
 
-- **하위 유형** :이 값에는 캠페인에 대 한 자세한 정보가 포함 되어 있습니다. 예제:
+- **하위 유형** :이 값에는 캠페인에 대 한 자세한 정보가 포함 되어 있습니다. 예를 들면 다음과 같습니다.
   - **피싱** :이 캠페인에서 phished 되는 브랜드입니다. ,,,, 등을 예로 들 `Microsoft` `365` `Unknown` `Outlook` `DocuSign` 있습니다.
   - **맬웨어** : 또는 등이 `HTML/PHISH` `HTML/<MalwareFamilyName>` 있습니다.
 
@@ -115,9 +115,9 @@ Microsoft는 캠페인을 식별 하는 데 도움이 되도록 전체 서비스
 
 보기를 추가로 필터링 하려면 **캠페인 유형** 단추를 클릭 하 고 원하는 항목을 선택한 다음 **새로 고침** 을 클릭 하 여 여러 값 필터링을 통해 단일 속성을 수행 하면 됩니다.
 
-사용 가능한 캠페인 속성은 다음 목록에 설명 되어 있습니다.
+다음 목록에서는 **캠페인 유형** 단추에서 사용할 수 있는 필터링 가능한 캠페인 속성에 대해 설명 합니다.
 
-- Basic
+- **기본** :
   - **캠페인 유형** : **맬웨어** 또는 **피싱** 을 선택 합니다. 선택 항목을 지우면 둘 다를 선택 하는 것과 결과가 같습니다.
   - **캠페인 이름**
   - **캠페인 하위 유형**
@@ -127,23 +127,26 @@ Microsoft는 캠페인을 식별 하는 데 도움이 되도록 전체 서비스
   - **제목**
   - **첨부 파일 이름**
   - **맬웨어 제품군**
+  - **태그** : 지정 된 사용자 태그가 적용 된 사용자 또는 그룹 (우선 순위 계정 포함)입니다. 사용자 태그에 대 한 자세한 내용은 [user tags](user-tags.md)를 참조 하십시오.
+  - **시스템 재정의**
   - **배달 작업**
+  - **추가 작업**
+  - **Directionality**
   - **검색 기술**
-  - **태그**
+  - **원래 배달 위치**
+  - **최신 배달 위치**
   - **시스템 재정의**
 
-- 고급
+- **고급** :
   - **인터넷 메시지 id** : 메시지 헤더의 **메시지-id** 헤더 필드에서 사용할 수 있습니다. 예를 들면 `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` 꺾쇠 괄호를 참고 하십시오.
   - **네트워크 메시지 id** : 메시지 헤더의 **X-Exchange-네트워크-ID** 헤더 필드에서 사용할 수 있는 GUID 값입니다.
   - **보낸 사람 IP**
   - **첨부 파일 sha256** : Windows에서 파일의 SHA256 해시 값을 찾으려면 명령 프롬프트에서 다음 명령을 실행 합니다 `certutil.exe -hashfile "<Path>\<Filename>" SHA256` .
-
   - **클러스터 ID**
-
   - **경고 정책 ID**
+  - **ZAP URL 신호**
 
-- URL
-
+- **Url** :
   - **URL 도메인**
   - **URL 도메인 및 경로**
   - **URL**
