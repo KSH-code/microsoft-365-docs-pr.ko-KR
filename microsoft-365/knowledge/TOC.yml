@@ -11,6 +11,6 @@
 - name: 설치 시작
   items:
     - name: 지식 관리 설정
-      href: set-up-knowledge-network.md
+      href: set-up-topic-experiences.md
     - name: 지식 관리 네트워크 관리
-      href: manage-knowledge-network.md
+      href: topic-experiences-discovery.md

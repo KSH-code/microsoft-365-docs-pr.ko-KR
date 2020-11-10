@@ -11,12 +11,12 @@ ms.service: o365-administration
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: d2fd3df200ab350ca3e6595402bab17034d960a7
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 464a926b99cceeb652756ad6d1456c5e17d2a925
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906922"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988741"
 ---
 # <a name="work-with-topics-in-the-topic-center-preview"></a>항목 센터의 항목에 대 한 작업 (미리 보기)
 
@@ -28,7 +28,7 @@ ms.locfileid: "48906922"
 
 ## <a name="requirements"></a>요구 사항
 
-항목 센터에서 작업 하려면 필요한 사용 권한이 있어야 합니다. 관리자는 [지식 관리 설치](set-up-knowledge-network.md)중에 사용자를 추가 하거나 [나중](give-user-permissions-to-the-topic-center.md)에 새 사용자를 추가할 수 있습니다.
+항목 센터에서 작업 하려면 필요한 사용 권한이 있어야 합니다. 관리자는 [지식 관리 설치](set-up-topic-experiences.md)중에 사용자를 추가 하거나 [나중](give-user-permissions-to-the-topic-center.md)에 새 사용자를 추가할 수 있습니다.
 
 항목 센터 사용자에 게는 다음과 같은 두 가지 권한 집합이 제공 될 수 있습니다.
 
@@ -72,7 +72,7 @@ ms.locfileid: "48906922"
 3. 이를 거부 해도 됩니다.
 
 ## <a name="review-published-topics"></a>게시 된 항목 검토
-게시 된 항목은 페이지를 encountrs 하는 사람에 게 항상 표시 되는 speific 정보를 편집 했습니다. 수동으로 만든 항목은 여기에 표시 됩니다.
+게시 된 항목은 특정 정보가 항상 페이지를 발견 하는 사람에 게 표시 되도록 편집 되었습니다. 수동으로 만든 항목은 여기에 표시 됩니다.
 
    
 ## <a name="create-a-new-topic"></a>새 항목 만들기
@@ -101,7 +101,7 @@ ms.locfileid: "48906922"
 
     ![새 항목 페이지](../media/content-understanding/k-new-topic-page.png)
     
-3. 페이지에 텍스트, 이미지, 웹 파트, 링크 등의 다른 구성 요소를 추가 해야 하는 경우 페이지 가운데에서 캔버스 아이콘을 선택 하 여 셰이프를 찾아서 추가 합니다.
+3. 텍스트, 이미지, 웹 파트, 링크 등의 다른 구성 요소를 페이지에 추가 해야 하는 경우 페이지 가운데에서 캔버스 아이콘을 선택 하 여 셰이프를 찾아서 추가 합니다.
 
     ![페이지에 항목 추가](../media/content-understanding/static-icon.png)
 

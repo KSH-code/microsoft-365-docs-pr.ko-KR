@@ -11,12 +11,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Project Cortex의 지식 관리에 대 한 개요입니다.
-ms.openlocfilehash: d422b54bb7991fb5fd61465cd0428ab586d10bf5
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 27ce6457f2329ccaa4738d6868b4f2051c0c0a51
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906944"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988845"
 ---
 # <a name="knowledge-management-overview-preview"></a>지식 관리 개요 (미리 보기)
 
@@ -75,7 +75,7 @@ Microsoft 365 관리 센터의 관리 컨트롤을 사용 하 여 지식 네트�
 - 항목 센터의 항목을 확인 하거나 거부할 수 있는 사용자를 제어 합니다.
 - 항목 센터에서 항목을 만들고 편집할 수 있는 사용자를 제어 합니다.
 
-자세한 내용은 [지식 네트워크 관리](manage-knowledge-network.md) 를 참조 하세요. 
+자세한 내용은 [지식 네트워크 관리](topic-experiences-discovery.md) 를 참조 하세요. 
 
 ## <a name="topic-curation--feedback"></a>사용자 의견 &
 
@@ -87,5 +87,5 @@ Microsoft 365 관리 센터의 관리 컨트롤을 사용 하 여 지식 네트�
 
 
 ## <a name="see-also"></a>참고 항목
-[지식 관리 설정](set-up-knowledge-network.md)</br>
+[지식 관리 설정](set-up-topic-experiences.md)</br>
 [항목 센터 개요](topic-center-overview.md)

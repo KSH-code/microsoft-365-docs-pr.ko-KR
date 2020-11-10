@@ -11,19 +11,19 @@ ms.service: o365-administration
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: d87a52bc6aca2f033a6e0d26a8c9c0e167908759
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 39a851ed3613057c7b3b931a94a79fed235d277a
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906968"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988833"
 ---
 # <a name="topic-center-overview-preview"></a>항목 센터 개요 (미리 보기)
 
 > [!Note] 
 > 이 문서에서 설명 하는 내용은 Project Cortex 비공개 미리 보기를 위한 것입니다. [Project Cortex](https://aka.ms/projectcortex)에 대해 자세히 알아보세요.
 
-항목 센터는 조직에 대 한 지식 중심으로 사용 되는 최신 SharePoint 사이트입니다. Microsoft 365 관리 센터에서 [기술 관리를 설치](set-up-knowledge-network.md) 하는 동안 만들어집니다.
+항목 센터는 조직에 대 한 지식 중심으로 사용 되는 최신 SharePoint 사이트입니다. Microsoft 365 관리 센터에서 [기술 관리를 설치](set-up-topic-experiences.md) 하는 동안 만들어집니다.
 
 항목 센터에는 연결 되거나 연결 되도록 제안 된 항목을 볼 수 있는 기본 홈 페이지가 있습니다. 적절 한 사용 권한이 있는 사용자는 다음 작업도 수행할 수 있습니다.
 
@@ -36,7 +36,7 @@ ms.locfileid: "48906968"
 
 ## <a name="where-is-the-topic-center"></a>주제 센터
 
-항목 센터는 지식 관리 설치 중에 작성 됩니다. 설치가 완료 되 면 관리자가 [정보 센터 관리 페이지](manage-knowledge-network.md)에서 해당 URL을 찾을 수 있습니다.
+항목 센터는 지식 관리 설치 중에 작성 됩니다. 설치가 완료 되 면 관리자가 [정보 센터 관리 페이지](topic-experiences-discovery.md)에서 해당 URL을 찾을 수 있습니다.
 
 1. Microsoft 365 관리 센터의 탐색 창에서 **설치** 를 선택 하 고 **조직의 기술 자료** 섹션에서 **사용자에 게 정보 연결을** 선택 합니다.
 
@@ -46,7 +46,7 @@ ms.locfileid: "48906968"
 
 ## <a name="home-page"></a>홈페이지
 
-항목 센터를 보려면 항목 및 항목 경험을 볼 수 있는 권한이 있어야 합니다. 관리자는 [지식 관리 설치](set-up-knowledge-network.md)중에 사용자에 게 이러한 사용 권한을 할당할 수 있으며, 이후에는 Microsoft 365 관리 센터를 통해 관리자가 새 사용자를 [추가할](give-user-permissions-to-the-topic-center.md) 수 있습니다.
+항목 센터를 보려면 항목 및 항목 경험을 볼 수 있는 권한이 있어야 합니다. 관리자는 [지식 관리 설치](set-up-topic-experiences.md)중에 사용자에 게 이러한 사용 권한을 할당할 수 있으며, 이후에는 Microsoft 365 관리 센터를 통해 관리자가 새 사용자를 [추가할](give-user-permissions-to-the-topic-center.md) 수 있습니다.
 
 홈 페이지 
 - **항목 보기** : 항목 환경 보기 따라서 조직의 주제를 확인 하 고 연결 된 항목에 대 한 의견을 제공할 수 있습니다.
@@ -59,7 +59,7 @@ ms.locfileid: "48906968"
 
 ## <a name="permissions-to-use-the-manage-topics-capability-topic-center"></a>항목 관리 기능 항목 센터 사용 권한
 
-항목 센터의 항목 관리 섹션에서 작업 하려면 필요한 사용 권한이 있어야 합니다. 관리자는 [지식 관리 설치](set-up-knowledge-network.md)중에 사용자에 게 이러한 사용 권한을 할당할 수 있으며, 이후에는 Microsoft 365 관리 센터를 통해 관리자가 새 사용자를 [추가할](give-user-permissions-to-the-topic-center.md) 수 있습니다.
+항목 센터의 항목 관리 섹션에서 작업 하려면 필요한 사용 권한이 있어야 합니다. 관리자는 [지식 관리 설치](set-up-topic-experiences.md)중에 사용자에 게 이러한 사용 권한을 할당할 수 있으며, 이후에는 Microsoft 365 관리 센터를 통해 관리자가 새 사용자를 [추가할](give-user-permissions-to-the-topic-center.md) 수 있습니다.
 
 항목 센터 사용자에 게는 다음과 같은 두 가지 권한 집합이 제공 될 수 있습니다.
 

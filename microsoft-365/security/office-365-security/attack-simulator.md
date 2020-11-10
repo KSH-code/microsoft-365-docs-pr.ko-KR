@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 Attack 시뮬레이터를 사용 하 여 Microsoft 365 E5 또는 Microsoft Defender for Office 365 계획 2 조 직에서 시뮬레이트된 피싱 및 암호 공격을 실행 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b7d04b3c81791bfc107b48176373ffc84fc8f6c5
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 0698d5d97dcedec05e76728379971fad2ab669c6
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845999"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988567"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 공격 시뮬레이터
 
@@ -35,6 +35,9 @@ ms.locfileid: "48845999"
 
 > [!NOTE]
 > 공격 시뮬레이션 및 교육 관련 데이터는 Microsoft 365 서비스용 다른 고객 데이터와 함께 저장 됩니다. 자세한 내용은 [Microsoft 365 데이터 위치](/microsoft-365/enterprise/o365-data-locations)를 참조 하세요.
+
+> [!TIP]
+> Microsoft 365 보안 센터에서는 공개 미리 보기에 대해 공격 시뮬레이션 학습을 사용할 수 있습니다. 자세한 내용은 [Microsoft Defender For Office 365를 사용 하 여 피싱 공격 시뮬레이트](attack-simulation-training.md) 를 참조 하세요.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
