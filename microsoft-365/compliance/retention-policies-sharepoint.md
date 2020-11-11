@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: SharePoint 및 OneDrive에서 보존이 작동하는 방식을 알아봅니다.
-ms.openlocfilehash: 258cc8e777ca39d2528e520ff5634086bff302c7
-ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
+ms.openlocfilehash: 84191cf7df1c8382b336ecce47c50ca24bc2aede
+ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48804543"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48951111"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive의 보존에 대해 자세히 알아보기
 
@@ -38,7 +38,7 @@ SharePoint 및 OneDrive 관련 정보를 포함하므로 이 문서의 정보는
 
 ## <a name="whats-included-for-retention-and-deletion"></a>보존 및 삭제에 포함된 항목
 
-SharePoint 또는 OneDrive 사이트에 저장된 모든 파일은 보존 정책 또는 보존 레이블을 적용하여 보존할 수 있습니다.
+SharePoint 또는 OneDrive 사이트에 저장된 모든 파일은 보존 정책 또는 보존 레이블을 적용하여 보존할 수 있습니다. 
 
 다음 파일을 삭제할 수 있습니다.
 
@@ -46,8 +46,12 @@ SharePoint 또는 OneDrive 사이트에 저장된 모든 파일은 보존 정책
     
 - 보존 레이블을 사용하는 경우: 모든 문서 라이브러리의 모든 파일 및 폴더에 없는 루트 수준의 모든 파일.
     
-    [보존 레이블에 대해 자동 적용 정책과 함께 KQL 쿼리](apply-retention-labels-automatically.md#auto-apply-labels-to-content-with-keywords-or-searchable-properties)를 사용하는 경우 `NOT(DocumentLink:"<URL to document library>")` 항목을 사용하여 문서 라이브러리를 제외할 수 있습니다.
+> [!TIP]
+> [보존 레이블에 자동 적용 정책과 함께 쿼리](apply-retention-labels-automatically.md#auto-apply-labels-to-content-with-keywords-or-searchable-properties)를 사용하는 경우, `NOT(DocumentLink:"<URL to document library>")` 항목을 사용하여 특정 문서 라이브러리를 제외할 수 있습니다.
 
+보존 설정은 라이브러리, 목록 및 폴더를 포함하는 구조를 구성하는 데 적용되지 않습니다. 또는 시스템 목록의 항목(SharePoint에서 시스템을 관리하고 마스터 페이지 카탈로그, 솔루션 카탈로그 및 데이터 원본을 포함하는 데 사용되는 숨겨진 목록)에 적용되지 않습니다.
+
+보존 정책 및 자동 적용 레이블 정책의 경우, 보존 설정을 적용하려면 SharePoint 사이트를 색인화해야 합니다. 그러나 SharePoint 문서 라이브러리의 항목이 검색 결과에 나타나지 않도록 구성된 경우, 이 구성은 보존 설정의 파일을 제외하지 않습니다.
 
 ## <a name="how-retention-works-for-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에서 보존이 작동하는 방식
 

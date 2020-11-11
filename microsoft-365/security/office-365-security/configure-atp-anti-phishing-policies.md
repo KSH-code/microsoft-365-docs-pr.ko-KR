@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Microsoft Defender for Office 365를 사용 하 여 조직에서 사용할 수 있는 고급 피싱 방지 정책을 만들고, 수정 하 고, 삭제 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: ecc68a8dc050a5f08c6982b023861e0ea8976775
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 7665d0dc475909d04da209aa6c1cd6b12378f8a9
+ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920659"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993391"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365에서 피싱 방지 정책 구성
 
@@ -170,7 +170,10 @@ Microsoft Defender for Office 365에서 피싱 방지 보호 기능의 효율성
      기존 항목을 편집 하려면 목록에서 보호 된 사용자를 선택 합니다.
 
      > [!NOTE]
-     > 모든 피싱 방지 정책에서 최대 60 명의 사용자를 포함할 수 있습니다. 즉, 60는 한 정책에서 보호 된 사용자 12 명, 5 개의 보호 된 사용자의 경우에는 여러 개 있을 수 있습니다.
+     >
+     > - 각 피싱 방지 정책에서 최대 60의 보호 된 사용자 (보낸 사람 전자 메일 주소)를 지정할 수 있습니다. 여러 정책에서 동일한 보호 된 사용자를 지정할 수는 없습니다.
+     >
+     > - 보낸 사람과 받는 사람이 전자 메일을 통해 이전에 통신 한 경우에는 사용자 가장 보호가 작동 하지 않습니다. 보낸 사람과 받는 사람이 전자 메일을 통해 통신 하지 않는 경우 메시지는 가장 시도로 식별 됩니다.
 
    - **보호할 도메인 추가** : 다음 설정 중 하나 또는 둘 다를 구성 합니다.
 
@@ -178,7 +181,7 @@ Microsoft Defender for Office 365에서 피싱 방지 보호 기능의 효율성
      - **사용자 지정 도메인 포함** : 기본값은 **Off** 입니다. 이 옵션을 설정 하려면 켜기/끄기를 **켜** 세요. 도메인 **추가** 상자에 도메인 이름 (예: contoso.com)을 입력 하 고 enter 키를 누른 다음 필요에 따라 반복 합니다.
 
      > [!NOTE]
-     > 모든 피싱 방지 정책에 최대 50 개의 도메인을 포함할 수 있습니다. 즉, 50의 보호 된 사용자는 한 정책에서, 10 개의 보호 된 사용자는 5 정책 등을 사용할 수 있습니다.
+     > 모든 피싱 방지 정책에 최대 50 개의 도메인을 포함할 수 있습니다.
 
    - **작업** : **편집** 을 클릭 합니다.
 
@@ -388,7 +391,7 @@ PowerShell에서 피싱 방지 정책을 만드는 과정은 다음 두 단계�
 1. 피싱 정책을 만듭니다.
 2. 규칙이 적용 되는 피싱 정책을 지정 하는 피싱 규칙을 만듭니다.
 
- **참고** :
+ **참고:**
 
 - 새 피싱 규칙을 만들고 연결 되지 않은 기존 피싱 정책을 할당할 수 있습니다. 피싱 규칙을 두 개 이상의 피싱 정책에 연결할 수 없습니다.
 

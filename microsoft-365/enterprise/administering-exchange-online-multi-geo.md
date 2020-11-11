@@ -12,12 +12,12 @@ f1.keywords:
 ms.custom: seo-marvel-mar2020
 localization_priority: normal
 description: PowerShell을 사용 하 여 Microsoft 365 환경에서 Exchange Online 다중 지역 설정을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ea7090cd65634138f9677960beab7770825a6e86
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: c9219d29a1fdae68075d296404a6c2aeab30f1aa
+ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950679"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993379"
 ---
 # <a name="administering-exchange-online-mailboxes-in-a-multi-geo-environment"></a>Multi-Geo 환경에서 Exchange Online 사서함 관리
 
@@ -65,7 +65,7 @@ Microsoft 365 또는 Microsoft 365 GCC 고객은 일반적으로 _Connectionuri_
    $UserCredential = Get-Credential
    ```
 
-   표시되는 **Windows PowerShell 자격 증명 요청** 대화 상자에서 회사 또는 학교 계정 사용자 이름과 비밀번호를 입력한 다음, **확인**을 클릭합니다.
+   표시되는 **Windows PowerShell 자격 증명 요청** 대화 상자에서 회사 또는 학교 계정 사용자 이름과 비밀번호를 입력한 다음, **확인** 을 클릭합니다.
 
 3. 다음 예제에서는 사서함 olga@contoso.onmicrosoft.com가 상주 하는 위치에서 대상 지리적 위치를 지정 합니다.
 
@@ -93,11 +93,11 @@ Get-OrganizationConfig | Select DefaultMailboxRegion
 
 Exchange Online PowerShell의 **Get-Mailbox** cmdlet은 사서함에 다음과 같은 Multi-Geo 관련 속성을 표시합니다.
 
-- **Database**: 데이터베이스 이름의 첫 세 글자는 지역 코드에 해당하며, 사서함의 현재 위치를 알려줍니다. 온라인 보관 사서함의 경우 **ArchiveDatabase** 속성을 사용해야 합니다.
+- **Database** : 데이터베이스 이름의 첫 세 글자는 지역 코드에 해당하며, 사서함의 현재 위치를 알려줍니다. 온라인 보관 사서함의 경우 **ArchiveDatabase** 속성을 사용해야 합니다.
 
-- **MailboxRegion**: 관리자가 설정한 지리적 위치 코드를 지정합니다(Azure AD의 **PreferredDataLocation**에서 동기화됨).
+- **MailboxRegion** : 관리자가 설정한 지리적 위치 코드를 지정합니다(Azure AD의 **PreferredDataLocation** 에서 동기화됨).
 
-- **MailboxRegionLastUpdateTime**: MailboxRegion이 마지막으로 업데이트(자동 또는 수동으로)된 시간을 나타냅니다.
+- **MailboxRegionLastUpdateTime** : MailboxRegion이 마지막으로 업데이트(자동 또는 수동으로)된 시간을 나타냅니다.
 
 사서함의 속성을 보려면 다음 구문을 사용합니다.
 
@@ -160,21 +160,39 @@ Set-MsolUser -UserPrincipalName michelle@contoso.onmicrosoft.com -PreferredDataL
 >   - 이동 중인 사서함 수
 >   - 이동 리소스의 가용성
 
-### <a name="move-disabled-mailboxes-that-are-on-litigation-hold"></a>사용하지 않도록 설정한 소송 보존 중인 사서함 이동
+### <a name="move-an-inactive-mailbox-to-a-specific-geo"></a>비활성 사서함을 특정 지역으로 이동
 
-eDiscovery 목적으로 보존된 소송 보존 중인 사서함을 사용하지 않도록 설정하면, 사용하지 않도록 설정한 상태에서 **PreferredDataLocation** 값을 변경해도 이동할 수가 없습니다. 사용하지 않도록 설정한 소송 보존 중인 사서함을 이동하려면:
+규정 준수를 위해 보존 되는 비활성 사서함 (예: 소송 보존 사서함)은 해당 **PreferredDataLocation** 값을 변경 하 여 이동할 수 없습니다. 비활성 사서함을 다른 지역으로 이동 하려면 다음 단계를 수행 합니다.
 
-1. 사서함에 일시적으로 라이선스를 할당합니다.
+1. 비활성 사서함을 복구 합니다. 자세한 내용은 [비활성 사서함 복구](https://docs.microsoft.com/microsoft-365/compliance/recover-an-inactive-mailbox)를 참조 하십시오.
 
-2. **PreferredDataLocation**을 변경합니다.
+2. \<MailboxIdentity\>사서함의 이름, 별칭, 계정 또는 전자 메일 주소로 교체 하 고 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)에서 다음 명령을 실행 하 여 관리 되는 폴더 도우미가 복구 된 사서함을 처리 하지 않도록 합니다.
 
-3. 선택한 지리적 위치로 라이선스를 이동한 후 사서함에서 라이선스를 제거함으로써 사용 안 함 상태로 되돌립니다.
+    ```powershell
+    Set-Mailbox <MailboxIdentity> -ElcProcessingDisabled $true
+    ```
+
+3. **Exchange Online 계획 2** 라이선스를 복구 된 사서함에 할당 합니다. 이 단계는 사서함을 소송 보존 상태로 다시 설정 하는 데 필요 합니다. 자세한 내용은 [사용자에 게 라이선스 할당](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)을 참조 하세요.
+
+4. 이전 섹션에 설명 된 대로 사서함에서 **PreferredDataLocation** 값을 구성 합니다.
+
+5. 사서함이 새 지리적 위치로 이동 되었는지 확인 한 후에는 복구 된 사서함을 소송 보존 상태로 다시 설정 합니다. 자세한 내용은 [사서함에 소송 보존](https://docs.microsoft.com/microsoft-365/compliance/create-a-litigation-hold#place-a-mailbox-on-litigation-hold)을 참조 하십시오.
+
+6. 소송 보존이 적용 되었는지 확인 한 후에는 관리 되는 폴더 도우미가 \<MailboxIdentity\> 사서함의 이름, 별칭, 계정 또는 전자 메일 주소로 교체 하 고 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)에서 다음 명령을 실행 하 여 사서함을 다시 처리할 수 있도록 합니다.
+
+    ```powershell
+    Set-Mailbox <MailboxIdentity> -ElcProcessingDisabled $false
+    ```
+
+7. 사서함과 연결 된 사용자 계정을 제거 하 여 사서함을 다시 비활성 상태로 만듭니다. 자세한 내용은 [조직에서 사용자 삭제](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)를 참조 하십시오. 이 단계에서는 다른 용도로도 Exchange Online 계획 2 라이선스를 릴리스 합니다.
+
+**참고** : 비활성 사서함을 다른 지리적 위치로 이동 하는 경우에는 콘텐츠 검색 결과 또는 이전 지리적 위치에서 사서함을 검색 하는 기능에 영향을 줄 수 있습니다. 자세한 내용은 [다중 지리적 환경에서 콘텐츠 검색 및 내보내기](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries#searching-and-exporting-content-in-multi-geo-environments)를 참조 하세요.
 
 ## <a name="create-new-cloud-mailboxes-in-a-specific-geo-location"></a>특정 지리적 위치에 새 클라우드 사서함 만들기
 
 특정 지리적 위치에 새 사서함을 만들려면 다음 단계 중 하나를 수행해야 합니다.
 
-- Exchange Online에 사서함을 만들기 *전에* 이전 섹션에 설명된 대로 **PreferredDataLocation** 값부터 구성합니다. 예를 들어 라이선스를 할당하기 전에 먼저 사용자의 **PreferredDataLocation** 값을 구성합니다.
+- Exchange Online에서 사서함을 만들기 *전에* 이전 [클라우드 전용 사서함을 특정 지리적 위치까지 이동](#move-an-existing-cloud-only-mailbox-to-a-specific-geo-location) 섹션에 설명 된 대로 **PreferredDataLocation** 값을 구성 합니다. 예를 들어 라이선스를 할당 하기 전에 사용자에 대해 **PreferredDataLocation** 값을 구성 합니다.
 
 - **PreferredDataLocation** 값을 설정함과 동시에 라이선스를 할당합니다.
 
@@ -190,7 +208,7 @@ New-MsolUser -UserPrincipalName <UserPrincipalName> -DisplayName "<Display Name>
 - 이름: Elizabeth
 - 성: Brunner
 - 표시할 이름: Elizabeth Brunner
-- 비밀번호: 임의로 생성되고 명령의 결과에 표시됨(*비밀번호* 매개 변수를 사용하지 않고 있기 때문)
+- 비밀번호: 임의로 생성되고 명령의 결과에 표시됨( *비밀번호* 매개 변수를 사용하지 않고 있기 때문)
 - 라이선스: `contoso:ENTERPRISEPREMIUM` (E5)
 - 위치: 오스트레일리아(AUS)
 
@@ -201,7 +219,7 @@ New-MsolUser -UserPrincipalName ebrunner@contoso.onmicrosoft.com -DisplayName "E
 새 사용자 계정을 만들고 Azure AD PowerShell에서 LicenseAssignment 값을 찾는 방법에 대한 자세한 내용은 [PowerShell을 사용하여 사용자 계정 만들기](create-user-accounts-with-microsoft-365-powershell.md) 및 [PowerShell을 사용하여 라이선스 및 서비스 보기](view-licenses-and-services-with-microsoft-365-powershell.md)를 참조하세요.
 
 > [!NOTE]
-> Exchange Online PowerShell로 사서함을 사용하도록 설정하고 해당 사서함을 **PreferredDataLocation**에 지정된 지리적 위치에 직접 만들려면 **Enable-Mailbox** 또는 **New-Mailbox** 등의 Exchange Online cmdlet을 클라우드 서비스에 직접 사용해야 합니다. 온 - 프레미스 Exchange PowerShell에서 **Enable-RemoteMailbox** cmdlet를 사용하면 사서함이 중앙 지리적 위치에 만들어집니다.
+> Exchange Online PowerShell로 사서함을 사용하도록 설정하고 해당 사서함을 **PreferredDataLocation** 에 지정된 지리적 위치에 직접 만들려면 **Enable-Mailbox** 또는 **New-Mailbox** 등의 Exchange Online cmdlet을 클라우드 서비스에 직접 사용해야 합니다. 온 - 프레미스 Exchange PowerShell에서 **Enable-RemoteMailbox** cmdlet를 사용하면 사서함이 중앙 지리적 위치에 만들어집니다.
 
 ## <a name="onboard-existing-on-premises-mailboxes-in-a-specific-geo-location"></a>특정 지리적 위치에 기존 온-프레미스 사서함 등록
 
@@ -211,7 +229,7 @@ New-MsolUser -UserPrincipalName ebrunner@contoso.onmicrosoft.com -DisplayName "E
 
 또는 Exchange Online PowerShell의 [새로 만들기 MoveRequest](https://docs.microsoft.com/powershell/module/exchange/new-moverequest) cmdlet을 사용하는 다음 단계를 통해 사서함을 특정 지리적 위치에 직접 등록할 수 있습니다.
 
-1. 등록될 사서함마다 사용자 개체가 있고 **PreferredDataLocation**이 Azure AD에서 원하는 값으로 설정되어 있는지 확인합니다. **PreferredDataLocation** 값은 Exchange Online에서 해당 메일 사용자 개체의 **MailboxRegion** 특성에 동기화됩니다.
+1. 등록될 사서함마다 사용자 개체가 있고 **PreferredDataLocation** 이 Azure AD에서 원하는 값으로 설정되어 있는지 확인합니다. **PreferredDataLocation** 값은 Exchange Online에서 해당 메일 사용자 개체의 **MailboxRegion** 특성에 동기화됩니다.
 
 2. 이 항목 앞부분의 연결 지침을 사용하여 특정 위성 지리적 위치에 직접 연결하십시오.
 
@@ -221,7 +239,7 @@ New-MsolUser -UserPrincipalName ebrunner@contoso.onmicrosoft.com -DisplayName "E
    $RC = Get-Credential
    ```
 
-4. Exchange Online PowerShell에서 다음 예제와 비슷한 새로운 **New-MoveRequest**를 만듭니다.
+4. Exchange Online PowerShell에서 다음 예제와 비슷한 새로운 **New-MoveRequest** 를 만듭니다.
 
    ```powershell
    New-MoveRequest -Remote -RemoteHostName mail.contoso.com -RemoteCredential $RC -Identity user@contoso.com -TargetDeliveryDomain <YourAppropriateDomain>
@@ -233,7 +251,7 @@ New-MsolUser -UserPrincipalName ebrunner@contoso.onmicrosoft.com -DisplayName "E
 
 ## <a name="multi-geo-reporting"></a>Multi-Geo 보고
 
-Microsoft 365 관리자 센터의 **Multi-Geo 사용 보고서**는 지리적 위치별 사용자 수를 표시합니다. 보고서는 이번 달의 사용자 분포를 표시하고 지난 6개월 동안의 기록 데이터를 제공합니다.
+Microsoft 365 관리자 센터의 **Multi-Geo 사용 보고서** 는 지리적 위치별 사용자 수를 표시합니다. 보고서는 이번 달의 사용자 분포를 표시하고 지난 6개월 동안의 기록 데이터를 제공합니다.
 
 ## <a name="see-also"></a>참고 항목
 
