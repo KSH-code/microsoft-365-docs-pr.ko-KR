@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 준수 센터에 새로운 새 솔루션을 추가 하 고, 사용자 의견에 따라 기존 기능을 업데이트 하거나, 새로운 문서 및 업데이트 된 설명서를 롤아웃할 지 여부에 관계 없이 Microsoft 365에서는 지속적인 변경 준수 가로를 유지 하는 데 도움이 됩니다. 이번 달에 제공 된 내용을 확인 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1ebe91e94b286e7d9a1b46b7fd7abf625881a6a9
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: cf019e15b1d5b915c58325c7d7c6f160acffe03e
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847804"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988856"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -43,7 +43,7 @@ ms.locfileid: "48847804"
 
 이번 달에는 몇 가지 새로운 기능 및 향상 된 기능이 공개 미리 보기에 방문 합니다.
 
-**참가자 위험 관리**
+**내부자 위험 관리**
 
 - 새 [정책 템플릿](insider-risk-management-policies.md#policy-templates)6 개를 확인 하세요.
     - 우선 순위 사용자 별 데이터 유출
@@ -100,7 +100,7 @@ ms.locfileid: "48847804"
 
 조직의 중요 한 데이터를 보호 하 고 제어 하는 데 사용 되는 준수 솔루션을 쉽게 이해할 수 있도록 두 개의 새 랜딩 페이지를 만든 후 관련 문서 링크를 비롯 하 여 이러한 목표를 달성 하는 방법에 대해 간략하게 설명 합니다.
 
-[Microsoft 365의 microsoft Information Protection](protect-information.md)<br>
+[Microsoft 365의 microsoft Information Protection](information-protection.md)<br>
 [Microsoft 365의 microsoft 정보 거 버 넌 스](manage-Information-governance.md)
 
 ### <a name="advanced-ediscovery-add-non-custodial-data-sources-to-your-cases"></a>고급 eDiscovery: 사례에 custodial 되지 않는 데이터 원본 추가
@@ -345,7 +345,7 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 |감사 로그 검색|검색 > 감사 로그 검색 <br/> https://protection.office.com/unifiedauditlog |감사 <br/> https://compliance.microsoft.com/auditlogsearch | [보안 & 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)|
 |콘텐츠 검색|검색 > 콘텐츠 검색 <br/> https://protection.office.com/contentsearchbeta?ContentOnly=1 | 콘텐츠 검색 <br/> https://compliance.microsoft.com/contentsearch |[Office 365에서 콘텐츠 검색](search-for-content.md) |
 |데이터 커넥터|타사 데이터 보관 > 정보 관리 기능 <br/> https://protection.office.com/nativeconnector | 데이터 커넥터 <br/> https://compliance.microsoft.com/connectorlanding |[타사 데이터 보관](archiving-third-party-data.md)|
-|데이터 손실 방지|데이터 손실 방지 <br/> https://protection.office.com/datalossprevention |데이터 손실 방지 <br/> https://compliance.microsoft.com/datalossprevention |[데이터 손실 방지의 개요](data-loss-prevention-policies.md)|
+|데이터 손실 방지|데이터 손실 방지 <br/> https://protection.office.com/datalossprevention |데이터 손실 방지 <br/> https://compliance.microsoft.com/datalossprevention |[데이터 손실 방지 개요](data-loss-prevention-policies.md)|
 |데이터 주체 요청 |데이터 개인 정보 > 데이터 주체 요청 <br/> https://protection.office.com/dsrcases |데이터 주체 요청 <br/> https://compliance.microsoft.com/datasubjectrequest |[DSR 사례 도구를 사용 하 여 GDPR 데이터 주체 요청 관리](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)|
 |eDiscovery|eDiscovery > eDiscovery <br/> https://protection.office.com/ediscoveryv1 |eDiscovery > 코어 <br/> https://compliance.microsoft.com/classicediscovery |[eDiscovery 사례 관리](ediscovery-cases.md) |
 |Events|레코드 관리 > 이벤트 <br/> https://protection.office.com/events |레코드 관리 > 이벤트 탭 <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[이벤트가 발생할 때 보존 시작하기](event-driven-retention.md)|

@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 description: 포함 된 내용, 가져오는 방법 및 다음 단계를 포함 하 여 Microsoft 365 솔루션 카탈로그에 대해 알아봅니다.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: a560193bf7ee2911b90332f84eef2d60027cbbf9
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 1cb707c47594b59bcb762aac5c25eaa03b33dbf1
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198361"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988578"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Microsoft 365 솔루션 카탈로그
 
@@ -46,7 +46,7 @@ Microsoft 365의 규정 준수 솔루션은 종단 간 규정 준수 시나리�
 
 - [데이터 손실 방지](data-loss-prevention-policies.md): 조직 전체에서 사용 되 고 공유 되는 중요 한 콘텐츠 (클라우드 및 장치)를 검색 하 고 실수로 인 한 데이터 손실을 방지 하는 데 도움이 됩니다.
 - [정보 거 버 넌 스](manage-information-governance.md): 솔루션을 사용 하 여 콘텐츠 수명 주기를 관리 함으로써 업무상 중요 한 데이터를 가져오고, 저장 하 고, 분류 하 여 필요한 항목을 유지 하 고 사용자가 사용 하지 않는 내용을 삭제할 수 있습니다
-- [정보 보호](protect-information.md): 조직 전체에서 수명 주기 동안 중요 및 업무상 중요 한 콘텐츠를 검색 하 고 분류 하며 보호 합니다.
+- [정보 보호](information-protection.md): 조직 전체에서 수명 주기 동안 중요 및 업무상 중요 한 콘텐츠를 검색 하 고 분류 하며 보호 합니다.
 - [레코드 관리](records-management.md): 지능형 분류를 사용 하 여 조직의 규정, 법률 및 업무상 중요 한 레코드에 대 한 보존 일정을 자동화 하 고 간소화 합니다.
 
 ## <a name="insider-risk-management-section"></a>참가자 위험 관리 섹션
@@ -79,7 +79,7 @@ Microsoft 365의 규정 준수 솔루션은 종단 간 규정 준수 시나리�
 
 Microsoft 365 솔루션 카탈로그를 방문 하려면로 이동 하 [https://compliance.microsoft.com](https://compliance.microsoft.com) 고 전역 관리자, 준수 관리자 또는 준수 데이터 관리자로 로그인 합니다. 화면 왼쪽의 탐색 창에서 **카탈로그** 를 선택 하 여 카탈로그 홈 페이지를 엽니다.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 **Microsoft 365 솔루션 카탈로그가 표시 되지 않는 이유는 무엇 인가요?**
 
@@ -93,14 +93,14 @@ Microsoft 365 솔루션 카탈로그를 방문 하려면로 이동 하 [https://
 
 ## <a name="next-steps"></a>다음 단계
 
-- 조직의 주요 표준 및 규정 준수 상태를 이해 하는 데 도움이 되는 **Microsoft 준수 관리자를 방문**합니다. 전체 준수 상황을 강화 하기 위해 수행할 수 있는 권장 작업을 제공 하 고 이러한 작업을 효율적으로 수행 하는 데 도움이 되는 워크플로 기능을 제공 합니다. 자세한 내용은 [준수 관리자](compliance-manager.md)를 참조 하세요.
+- 조직의 주요 표준 및 규정 준수 상태를 이해 하는 데 도움이 되는 **Microsoft 준수 관리자를 방문** 합니다. 전체 준수 상황을 강화 하기 위해 수행할 수 있는 권장 작업을 제공 하 고 이러한 작업을 효율적으로 수행 하는 데 도움이 되는 워크플로 기능을 제공 합니다. 자세한 내용은 [준수 관리자](compliance-manager.md)를 참조 하세요.
 
 - 내부 위험을 최소화 하 고 조직에서 위험한 활동을 감지 하 고 조사 하며 작업을 수행할 수 있도록 하는 **참가자 위험 관리 정책을 구성** 합니다. [참가자 위험 관리](insider-risk-management.md)를 참조 하세요.
 
 - 회사에서 수행 하는 정책 위반을 빠르게 확인 하 고 수정 하기 위한 **통신 준수 정책에 대해 알아봅니다** . [통신 준수](communication-compliance.md)를 참조 하세요.
 
-- **Microsoft**365 솔루션을 통해 microsoft에서 중요 한 정보를 검색, 분류 및 보호 하는 방법에 대해 알아봅니다.
-    - **Microsoft Cloud App Security를 숙지 하 고 설정**합니다. [퀵 스타트: Microsoft Cloud App Security 시작을](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)참조 하세요.
-    - **분류자 작업을 시작**합니다. 콘텐츠를 분류 한 다음이를 보호 하 고 적절 하 게 레이블을 지정 하 여 정보 보호 규칙의 시작 위치입니다. 자세한 내용은 [trainable 분류자 (preview)](classifier-learn-about.md)를 참조 하십시오.
+- **Microsoft** 365 솔루션을 통해 microsoft에서 중요 한 정보를 검색, 분류 및 보호 하는 방법에 대해 알아봅니다.
+    - **Microsoft Cloud App Security를 숙지 하 고 설정** 합니다. [퀵 스타트: Microsoft Cloud App Security 시작을](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)참조 하세요.
+    - **분류자 작업을 시작** 합니다. 콘텐츠를 분류 한 다음이를 보호 하 고 적절 하 게 레이블을 지정 하 여 정보 보호 규칙의 시작 위치입니다. 자세한 내용은 [trainable 분류자 (preview)](classifier-learn-about.md)를 참조 하십시오.
 
-- **Microsoft 365 솔루션 카탈로그를 자주 방문**하 고, 준수 요구 사항에 도움이 되는 새로운 솔루션을 검토 해야 합니다. 로그인 [https://compliance.microsoft.com](https://compliance.microsoft.com) 한 다음 왼쪽 탐색 창에서 **카탈로그** 를 선택 합니다.
+- **Microsoft 365 솔루션 카탈로그를 자주 방문** 하 고, 준수 요구 사항에 도움이 되는 새로운 솔루션을 검토 해야 합니다. 로그인 [https://compliance.microsoft.com](https://compliance.microsoft.com) 한 다음 왼쪽 탐색 창에서 **카탈로그** 를 선택 합니다.

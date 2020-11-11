@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Information 관리 365 기능을 구현 하 여 규정 준수 또는 규제 요구 사항에 맞게 데이터를 제어 합니다.
-ms.openlocfilehash: b02c724ee812e622a45939d11b78f87245e2f194
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 7e516c42071272e9d38381dbf9d84e774271566c
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866952"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988428"
 ---
 # <a name="microsoft-information-governance-in-microsoft-365"></a>Microsoft 365의 microsoft 정보 거 버 넌 스
 
@@ -29,7 +29,7 @@ Microsoft 정보 거 버 넌 스 (MIG) 기능을 사용 하 여 규정 준수 �
 
 ![데이터 정보 거 버 넌 스 및 레코드 관리 제어](../media/information-governance-records-management.png)
 
-데이터를 보호 하 고 싶으십니까? Microsoft [365의 Microsoft Information Protection을](protect-information.md)참조 하세요.
+데이터를 보호 하 고 싶으십니까? Microsoft [365의 Microsoft Information Protection을](information-protection.md)참조 하세요.
 
 ## <a name="information-governance"></a>정보 거 버 넌 스
 
