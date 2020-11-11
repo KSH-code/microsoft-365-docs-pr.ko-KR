@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: 8a5a4bbc-667a-4cac-8769-d8ac9015db4c
 description: Office 365 독일에 대해 알아봅니다.
-ms.openlocfilehash: b0b370399cc7687f3c564903d01bd07f447dc16a
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 8b999ecbd2e429ad8a60fa60de1ad3a06664f085
+ms.sourcegitcommit: 321610fd312e5c54ae8a757a71ab0c9fd2f1ac03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843333"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48995860"
 ---
 # <a name="learn-about-office-365-germany"></a>독일 Office 365에 대해 알아보기
 
@@ -43,7 +43,7 @@ Deutsche Telekom의 독립적인 독일 회사이자 자회사인 T-Systems Inte
 
 Office 365 독일 계획 제공은이 격리 된 환경에서 글로벌 제공에 최대한 부합 됩니다. Yammer 관련 요금제, 수명이 끝나가는 요금제 및 비영리 프로그램을 통해 사용 가능한 요금제는 제외됩니다. Office 365 E5, SPE 및 기타 서비스는 일반적으로 Office 365 전라남도 사용 가능 후에 사용할 수 있습니다. 
   
-다음과 같은 서비스 및 기능을 일부 [Office 365 Germany 구독 요금제](https://go.microsoft.com/fwlink/p/?linkid=839016)에서 사용할 수 있습니다. 또한 [온라인 서비스 약관](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=46)을 참조하세요.
+다음과 같은 서비스 및 기능을 일부 [Office 365 Germany 구독 요금제](https://go.microsoft.com/fwlink/p/?linkid=839016)에서 사용할 수 있습니다. 또한 [온라인 서비스 약관](https://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=46)을 참조하세요.
   
 - Microsoft 365 Apps for enterprise, Office 2016 및 Office 2013<sup>1</sup> Office 2013에서는 office [클라이언트에 office 365 최신 인증을 사용](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016)해야 합니다.
     
@@ -73,7 +73,7 @@ Office 365 독일 계획 제공은이 격리 된 환경에서 글로벌 제공�
     
 - 고급 eDiscovery
     
-- Microsoft Defender for Office 365
+- Office 365용 Microsoft Defender
     
 - Office 365 위협 인텔리전스
     
@@ -85,7 +85,7 @@ Office 365 독일 계획 제공은이 격리 된 환경에서 글로벌 제공�
     
 - Delve
     
-<sup>1</sup> Office 365 독일 계획에는 최종 사용자의 장치에서 설치 및 실행 되는 클라이언트 소프트웨어 응용 프로그램 (365 예: 엔터프라이즈, Office 2013 및 Office 2016)이 포함 됩니다 ("클라이언트 소프트웨어 응용 프로그램"). 클라이언트 소프트웨어 응용 프로그램은 독일 데이터 센터에서 독점적으로 실행되는 것이 아니며, 최종 사용자가 [독일 온라인 서비스](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58)가 아닌 온라인 서비스에 액세스하도록 할 수 있습니다. Microsoft와의 계약 목적을 위해 클라이언트 소프트웨어 응용 프로그램은 [독일 온라인 서비스](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58)가 아닙니다. 독일 데이터 수탁자에 의한 독일 데이터 상주 약속 및 액세스 제어는 [독일 온라인 서비스](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58)에만 적용됩니다.
+<sup>1</sup> Office 365 독일 계획에는 최종 사용자의 장치에서 설치 및 실행 되는 클라이언트 소프트웨어 응용 프로그램 (365 예: 엔터프라이즈, Office 2013 및 Office 2016)이 포함 됩니다 ("클라이언트 소프트웨어 응용 프로그램"). 클라이언트 소프트웨어 응용 프로그램은 독일 데이터 센터에서 독점적으로 실행되는 것이 아니며, 최종 사용자가 [독일 온라인 서비스](https://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58)가 아닌 온라인 서비스에 액세스하도록 할 수 있습니다. Microsoft와의 계약 목적을 위해 클라이언트 소프트웨어 응용 프로그램은 [독일 온라인 서비스](https://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58)가 아닙니다. 독일 데이터 수탁자에 의한 독일 데이터 상주 약속 및 액세스 제어는 [독일 온라인 서비스](https://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58)에만 적용됩니다.
   
 ## <a name="general-information"></a>일반 정보
 
