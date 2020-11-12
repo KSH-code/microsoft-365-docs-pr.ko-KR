@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6b575573753ef270b5936c315c8bbf3acf9e4a7f
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 6e8291f4fc21b0a1d3aaee74b47760fca3a4b220
+ms.sourcegitcommit: 321610fd312e5c54ae8a757a71ab0c9fd2f1ac03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919702"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48995881"
 ---
 # <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>증권 및 Exchange 위원회 (SEC) 규칙 17a-4 (미국)
 
@@ -40,7 +40,7 @@ Microsoft Azure 불변 Blob Storage with Policy Lock 및 Microsoft Office 365 wi
 SEC 규칙 17a-4 (f)를 사용 하 여 Azure 및 Office 365 준수를 평가 하기 위해 Microsoft는 레코드 관리 및 정보 거 버 넌 스를 전문적으로 담당 하는 독립 평가 회사를 보유 하 고 있습니다. 결과 보고서에서 다음을 수행 합니다.
 
 - **Azure** : [초 17a-4 (f) 준수 평가: Microsoft azure Storage](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports), With Hasset는 정책 잠금 옵션으로 시간 기반 blob을 유지 하는 데 사용 되는 경우 erasable 및 비 다시 쓰기가 가능한 (웜) 형식의 [AZURE 불변 blob 저장소](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutable-storage) 에서 SEC 규칙의 변경 불가능 한 저장소 요구 사항을 충족 하는지 확인 했습니다. 필요한 보존 기간이 만료 되 고 연결 된 법적 보유가 출시 될 때까지 각 Blob (레코드)은 수정 하거나 덮어쓰거나 삭제 되지 않도록 보호 됩니다. 이제 중요 한 작업을 포함 하는 소프트웨어 공급자와 파트너가 Azure 불변의 Blob 저장소를 레코드 보존 및 불변 저장소 용 onestop 솔루션으로 사용할 수 있습니다. 이제 금융 기관은 나머지 규격에 따라 이러한 기능을 활용 하 여 자체 응용 프로그램을 작성할 수 있습니다.
-- **Microsoft 365** : [초 17a-4 (f), finra 4511 (c) 및 CFTC 1.31 (c)-(d)](retention-regulatory-requirements.md#sec-17a-4f-finra-4511c-and-cftc-131c-d), microsoft 365가 레코드 보존에 대 한 SEC 요구 사항을 준수 하는 데 도움이 되는 방식으로 데이터를 저장할 수 있도록 지원 되는 보관 기능을 포함 하 고 있습니다. Microsoft 365의 보존 기능은 전자 메일, 음성 메일, 공유 문서, 인스턴트 메시지 및 타사 데이터를 비롯 한 광범위 한 데이터를 보존 하는 데 도움이 됩니다. 특히, Microsoft 365에서 보관을 통해 고객은 정의 된 기간에 대 한 데이터를 저장 하지 않는 전역 또는 세분화 메시징 보존 정책을 설정할 수 있습니다.
+- **Microsoft 365** : [초 17a-4 (f)](retention-regulatory-requirements.md#sec-17a-4f-finra-4511c-and-cftc-131c-d), cohasset는 중개자가 포함 된 고객에 게 데이터를 저장할 수 있도록 지원 되는 보관 기능을 사용 하 여 microsoft 365에서 레코드 보존에 대 한 SEC 요구 사항을 준수 하는 방법을 제공 합니다. Microsoft 365의 보존 기능은 전자 메일, 음성 메일, 공유 문서, 인스턴트 메시지 및 타사 데이터를 비롯 한 광범위 한 데이터를 보존 하는 데 도움이 됩니다. 특히, Microsoft 365에서 보관을 통해 고객은 정의 된 기간에 대 한 데이터를 저장 하 고, erasable이 아닌 다른 형식으로 저장할 수 있도록 전역 또는 세분화 메시징 보존 정책을 설정할 수 있습니다.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 

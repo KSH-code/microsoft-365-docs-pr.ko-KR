@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: dc4adef382724ce4176f2b5f779218d62b6079e0
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 2ba5dc4726f359545d59de7387fc62a3fe897588
+ms.sourcegitcommit: 321610fd312e5c54ae8a757a71ab0c9fd2f1ac03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919692"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48995891"
 ---
 # <a name="financial-industry-regulatory-authority-finra-rule-4511c-united-states"></a>금융 업계의 FINRA (규정 기관) Rule 4511 (c) 미국
 
@@ -45,11 +45,9 @@ Cohasset는 정책 잠금 옵션을 사용 하 여 [Azure 불변 Blob 저장소]
 
 이제 중요 한 작업을 포함 하는 소프트웨어 공급자와 파트너가 Azure 불변의 Blob 저장소를 레코드 보존 및 불변 저장을 위한 단일 stop 샵 클라우드 솔루션으로 사용할 수 있습니다. 이제 금융 기관은 나머지 규격에 따라 이러한 기능을 활용 하 여 자체 응용 프로그램을 작성할 수 있습니다.
 
-## <a name="microsoft-office-365"></a>Microsoft Office 365
+## <a name="microsoft-365"></a>Microsoft 365
 
-FINRA Rule 4511 (c)를 사용 하 여 Office 365 준수를 평가 하기 위해 Microsoft는 규정 관련 문제를 전문적으로 Covington & Burling, LLP로 유지 하는 주요 독립적 법칙을 보유 하 고 있습니다. 결과 보고서에서 보관 되는 Microsoft Office 365, 데이터 보존 및 규칙 17a-4 준수 규정에 따라, [365](retention-preservation-lock.md) Covington에 게는 브로커를 포함 한 규제 된 고객이 레코드 보존 요구 사항을 준수 하는 데 도움이 되는 정보를 저장할 수 있도록 하는 보관 기능이 포함 되어 있습니다.
-
-Office 365의 보관 기능은 전자 메일, 음성 메일, 공유 문서, 인스턴트 메시지 및 타사 데이터를 포함 하는 광범위 한 데이터를 보존 하는 데 도움이 됩니다. 특히, Office 365의 보관을 통해 고객은 정의 된 기간에 대 한 데이터를 저장 하 고, erasable이 아닌 다른 형식으로 저장할 수 있도록 전역 또는 세분화 메시징 보존 정책을 설정 합니다.
+[4511 (c)](retention-regulatory-requirements.md#sec-17a-4f-finra-4511c-and-cftc-131c-d) 요구 사항에 대 한 자세한 내용은 Microsoft 365에서 정보를 보존 하기 위한 SEC 요구 사항을 준수 하는 방식으로 데이터를 저장 하기 위해 중개자를 비롯 한 규제 고객을 지원 하는 보관 기능이 포함 되어 있음을 확인 했습니다. Microsoft 365의 보존 기능은 전자 메일, 음성 메일, 공유 문서, 인스턴트 메시지 및 타사 데이터를 비롯 한 광범위 한 데이터를 보존 하는 데 도움이 됩니다. 특히, Microsoft 365에서 보관을 통해 고객은 정의 된 기간에 대 한 데이터를 저장 하 고, erasable이 아닌 다른 형식으로 저장할 수 있도록 전역 또는 세분화 메시징 보존 정책을 설정할 수 있습니다.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 

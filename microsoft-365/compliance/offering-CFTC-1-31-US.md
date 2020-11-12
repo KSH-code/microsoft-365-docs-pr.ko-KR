@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bff804e726a62563621b11932e590ffcb631835a
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 3026c2490c88d03cda948e6da972d8663c4d6d5c
+ms.sourcegitcommit: 321610fd312e5c54ae8a757a71ab0c9fd2f1ac03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920400"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48995871"
 ---
 # <a name="commodity-futures-trading-commission-cftc-rule-131c-d-united-states"></a>필수품 퓨처 거래 위원회 (CFTC) Rule 1.31 (c 차원) 미국
 
@@ -39,11 +39,9 @@ ms.locfileid: "48920400"
 
 CFTC Rule 1.31 (c 차원)을 사용 하 여 Azure 준수를 평가 하기 위해 Microsoft는 레코드 관리 및 정보 거 버 넌 스를 전문적으로 담당 하는 독립 평가 회사를 보유 하 고 있습니다. 결과 보고서에서 [CFTC 1.31 (c) – (d) 준수 평가: Microsoft Azure Storage](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports), 정책 잠금 옵션을 사용 하 여 [Azure 불변 blob 저장소](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutable-storage) 를 erasable 및 비 다시 쓰기가 가능 하지 않은 (웜) 형식으로 유지 하는 데 사용 하는 경우 CFTC 규칙의 원칙 기반 요구 사항을 충족 하는지 확인 합니다. 필요한 보존 기간이 만료 되 고 연결 된 법적 보유가 출시 될 때까지 각 Blob (레코드)은 수정 하거나 덮어쓰거나 삭제 되지 않도록 보호 됩니다. 이제 중요 한 작업을 포함 하는 소프트웨어 공급자와 파트너가 Azure 불변의 Blob 저장소를 레코드 보존을 위한 단일 stop 샵 클라우드 솔루션으로 사용할 수 있습니다. 이제 금융 기관은 나머지 규격에 따라 이러한 기능을 활용 하 여 자체 응용 프로그램을 작성할 수 있습니다.
 
-### <a name="microsoft-office-365"></a>Microsoft Office 365
+### <a name="microsoft-365"></a>Microsoft 365
 
-CFTC Rule 1.31 (c 차원)을 사용 하 여 Office 365 준수를 평가 하기 위해 Microsoft는 규정 관련 문제를 전문적으로 담당 하는 Covington & Burling, LLP와 함께 하는 주요을 담당 합니다. 결과 보고서에서 보관 되는 [Microsoft office 365, 데이터 보존 및 규칙 17a-4 준수 규정](https://go.microsoft.com/fwlink/?linkid=830440)에서는 Covington가 [보존 잠금 기능이 있는 Office 365](retention-preservation-lock.md) 에 데이터를 저장 하는 데 사용할 수 있는 보관 기능을 포함 하 고 있습니다.
-
-Office 365의 보관 기능은 전자 메일, 음성 메일, 공유 문서, 인스턴트 메시지 및 타사 데이터를 포함 하는 광범위 한 데이터를 보존 하는 데 도움이 됩니다. 특히, Office 365의 보관을 통해 고객은 정의 된 기간에 대 한 데이터를 저장 하 고, erasable이 아닌 다른 형식으로 저장할 수 있도록 전역 또는 세분화 메시징 보존 정책을 설정 합니다.
+[CFTC 1.31 (c)-(d)](retention-regulatory-requirements.md#sec-17a-4f-finra-4511c-and-cftc-131c-d) 요구 사항에 대 한 자세한 내용은 Microsoft 365에 규정 된 고객을 위한 통제 기능을 사용 하 여 데이터를 저장 하는 것이 레코드 보존에 대 한 SEC 요구 사항을 준수 하도록 하는 보관 기능이 포함 되어 있는지 확인 해야 합니다. Microsoft 365의 보존 기능은 전자 메일, 음성 메일, 공유 문서, 인스턴트 메시지 및 타사 데이터를 비롯 한 광범위 한 데이터를 보존 하는 데 도움이 됩니다. 특히, Microsoft 365에서 보관을 통해 고객은 정의 된 기간에 대 한 데이터를 저장 하 고, erasable이 아닌 다른 형식으로 저장할 수 있도록 전역 또는 세분화 메시징 보존 정책을 설정할 수 있습니다.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 

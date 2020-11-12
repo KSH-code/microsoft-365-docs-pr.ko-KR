@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0310226bba62995a6e72178fcf1fd2e96f462944
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: 9a0878e513b48b7c6d5ca95cc9399918e1998af0
+ms.sourcegitcommit: 321610fd312e5c54ae8a757a71ab0c9fd2f1ac03
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48304818"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48995901"
 ---
 # <a name="general-data-protection-regulation-summary"></a>일반 데이터 보호 규정 요약
 
@@ -31,10 +31,10 @@ GDPR(일반 데이터 보호 규제)는 EU(유럽 연합) 회원국 국민에게
 
 이 문서에서 사용된 GDPR 용어에 대한 유용한 정의:
 
-- **데이터 컨트롤러(컨트롤러)**: 개인 데이터 처리의 목적과 수단을 결정하는 법인, 공공 기관, 에이전시 또는 다른 사람과 독립적으로 또는 공동으로 작업하는 기타 단체입니다.  
-- **개인 데이터 및 데이터 주체**: 식별되거나 식별 가능한 자연인(데이터 주체)과 관련된 모든 정보. 식별 가능한 자연인은 직접 또는 간접적으로 식별될 수 있는 사람입니다.  
-- **프로세서**: 컨트롤러를 대신하여 개인 데이터를 처리하는 자연인이나 법인, 공공 기관, 에이전시 또는 기타 단체입니다.  
-- **고객 데이터**: 비즈니스 운영의 일상적인 작업에서 생성되고 저장되는 데이터입니다.
+- **데이터 컨트롤러(컨트롤러)** : 개인 데이터 처리의 목적과 수단을 결정하는 법인, 공공 기관, 에이전시 또는 다른 사람과 독립적으로 또는 공동으로 작업하는 기타 단체입니다.  
+- **개인 데이터 및 데이터 주체** : 식별되거나 식별 가능한 자연인(데이터 주체)과 관련된 모든 정보. 식별 가능한 자연인은 직접 또는 간접적으로 식별될 수 있는 사람입니다.  
+- **프로세서** : 컨트롤러를 대신하여 개인 데이터를 처리하는 자연인이나 법인, 공공 기관, 에이전시 또는 기타 단체입니다.  
+- **고객 데이터** : 비즈니스 운영의 일상적인 작업에서 생성되고 저장되는 데이터입니다.
 
 ## <a name="what-is-the-gdpr"></a>GDPR이란?
 
@@ -212,7 +212,7 @@ Microsoft의 GDPR 조항은 제28조에 프로세서에게 필요한 약정을 �
 
 **Microsoft는 어떤 기준에 따라 EU 외부부에서의 개인 데이터의 전송을 촉진하나요?**
 
-Microsoft는 오랫동안 표준 계약 조항(모델 조항이라고도 함)을 엔터프라이즈 온라인 서비스를 위한 데이터 전송의 기초로 사용해 왔습니다. 표준 계약 조항은 유럽위원회(European Commission)에서 제공하는 표준 조건으로 데이터를 유럽 경제 지역(European Economic Area) 외부로 전송하는 데 사용될 수 있습니다. Microsoft는 [온라인 서비스 약관](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46)을 통해 표준 계약 조항을 모든 볼륨 라이선싱 계약에 통합했습니다. 제29조 실무 그룹(Working Party)은 Microsoft가 규정을 준수하여 표준 계약 조항을 이행함을 확인했습니다. EU-US Privacy Shield를 사용할 수있게 되었을 때 Microsoft는 최초로 인증을 받은 회사였습니다. [개인 정보 보호에 대한 Microsoft 인증](https://www.privacyshield.gov/participant?id=a2zt0000000KzNaAAK&status=Active)을 참조하고 [온라인 서비스 약관](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46)을 검토하세요. EU-US Privacy Shield는 데이터를 미국으로 전송하려는 고객이 데이터 보호 의무를 준수하는 방식으로 데이터를 전송하도록 도와줍니다.
+Microsoft는 오랫동안 표준 계약 조항(모델 조항이라고도 함)을 엔터프라이즈 온라인 서비스를 위한 데이터 전송의 기초로 사용해 왔습니다. 표준 계약 조항은 유럽위원회(European Commission)에서 제공하는 표준 조건으로 데이터를 유럽 경제 지역(European Economic Area) 외부로 전송하는 데 사용될 수 있습니다. Microsoft는 [온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46)을 통해 표준 계약 조항을 모든 볼륨 라이선싱 계약에 통합했습니다. 제29조 실무 그룹(Working Party)은 Microsoft가 규정을 준수하여 표준 계약 조항을 이행함을 확인했습니다. EU-US Privacy Shield를 사용할 수있게 되었을 때 Microsoft는 최초로 인증을 받은 회사였습니다. [개인 정보 보호에 대한 Microsoft 인증](https://www.privacyshield.gov/participant?id=a2zt0000000KzNaAAK&status=Active)을 참조하고 [온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46)을 검토하세요. EU-US Privacy Shield는 데이터를 미국으로 전송하려는 고객이 데이터 보호 의무를 준수하는 방식으로 데이터를 전송하도록 도와줍니다.
 
 **다른 Microsoft 규정 준수 제품에는 무엇이 있나요?**
 
@@ -222,12 +222,12 @@ Microsoft는 오랫동안 표준 계약 조항(모델 조항이라고도 함)을
 
 GDPR은 6가지 주요 원칙을 준수하기 위한 요구 사항을 포함하여 기관에 대해 개인 데이터를 수집하거나 처리하는 광범위한 요구 사항을 적용합니다.
 
-- 개인정보를 처리하고 사용하는 과정에서의 *투명성*, *공정성* 및 *적법성*. 개인 데이터를 사용하는 방법에 대해 개인에게 명확하게 설명해야 하며 해당 데이터를 처리하기 위해 "합법적인 기준"도 필요합니다.
-- 개인 데이터의 처리를 *구체적*, *명시적* 및 *합법적 목적*으로 제한. 데이터가 원래 수집된 목적과 "호환되지 않는" 목적으로는 개인 데이터를 재사용하거나 공개할 수 없습니다.
+- 개인정보를 처리하고 사용하는 과정에서의 *투명성* , *공정성* 및 *적법성*. 개인 데이터를 사용하는 방법에 대해 개인에게 명확하게 설명해야 하며 해당 데이터를 처리하기 위해 "합법적인 기준"도 필요합니다.
+- 개인 데이터의 처리를 *구체적* , *명시적* 및 *합법적 목적* 으로 제한. 데이터가 원래 수집된 목적과 "호환되지 않는" 목적으로는 개인 데이터를 재사용하거나 공개할 수 없습니다.
 - 의도된 목적에 적합하고 관련성 있는 경우로 *개인 데이터의 수집 및 저장을 최소화*
-- *개인 데이터의 정확성*을 보장하고 데이터를 *지우거나 수정*할 수 있도록 합니다. 보유한 개인 데이터가 정확하고 오류가 발생할 경우 이를 정정할 수 있도록 조치를 취해야 합니다.
+- *개인 데이터의 정확성* 을 보장하고 데이터를 *지우거나 수정* 할 수 있도록 합니다. 보유한 개인 데이터가 정확하고 오류가 발생할 경우 이를 정정할 수 있도록 조치를 취해야 합니다.
 - *개인 데이터 저장소 제한*. 사용자는 데이터가 수집된 목적을 달성하기 위해 필요한 경우에만 개인 데이터를 보존하도록 해야 합니다.
-- 개인 데이터의 *보안*, *무결성* 및 *기밀성* 보장. 조직은 기술 및 조직 보안 조치를 통해 개인 데이터를 보호하기 위한 조치를 취해야합니다.
+- 개인 데이터의 *보안* , *무결성* 및 *기밀성* 보장. 조직은 기술 및 조직 보안 조치를 통해 개인 데이터를 보호하기 위한 조치를 취해야합니다.
 
 사용자의 GDPR 여정을 Microsoft가 지원하지만, 조직의 GDPR에 대한 구체적인 의무가 무엇인지와 이러한 의무를 어떻게 충족시킬 것인지를 이해해야 합니다.
 
