@@ -12,12 +12,12 @@ ms.custom: seo-marvel-jun2020
 localization_priority: Priority
 description: 재무 서비스 기관에서 Microsoft 365와 Teams를 사용하여 재무 보안 규정 준수를 유지하고 효과적으로 공동 작업하는 방법을 알아봅니다.
 f1.keywords: NOCSH
-ms.openlocfilehash: 7192b29d09acb23df368e2458fac62c18bbbadb2
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+ms.openlocfilehash: 2e0148a89a811fb910237469c42e136d0c744087
+ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988717"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993403"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>미국 은행 및 자본 시장에 대한 주요 규정 준수 및 보안 고려 사항
 
@@ -46,6 +46,15 @@ ms.locfileid: "48988717"
 * 데이터 유출 및 내부 위험으로부터 보호
 
 Microsoft 파트너인 Protiviti에서 이 문서에 기여하고 중요한 피드백을 제공했습니다.
+
+다음의 다운로드 가능한 일러스트레이션은 이 문서를 보완합니다. Woodgrove Bank나 Contoso를 사용하여 이 문서에 설명된 기능을 적용하여 재무 서비스의 일반적인 규제 요구 사항을 해결할 수 있는 방법을 보여줍니다. 사용자 개인 용도로 이 그림을 사용할 수 있습니다. 
+
+**Microsoft 365 정보 보호 및 규정 준수 그림**
+
+| 항목 | 설명 |
+|:-----|:-----|
+|[![모델 포스터: Microsoft 365 정보 보호 및 규정 준수 기능](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> [PDF로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf)  \| [Visio로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) <br/> 업데이트 날짜: 2020년 10월|포함 항목: <ul><li>  Microsoft 정보 보호 및 데이터 손실 방지</li><li>보존 정책 및 보존 레이블 </li><li>정보 장벽</li><li>커뮤니케이션 규정 준수</li><li>참가자 위험</li><li>타사 데이터 수집</li>|
+
 
 ## <a name="empower-organizational-and-employee-productivity-by-using-microsoft-365-and-teams"></a>Microsoft 365 및 Teams를 사용하여 조직 및 직원 생산성 향상
 

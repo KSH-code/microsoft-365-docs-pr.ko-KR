@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Endpoint 데이터 손실 방지(미리 보기) 시작하기
+title: Microsoft 365 엔드포인트 데이터 손실 방지 시작하기
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -18,17 +18,17 @@ ms.collection:
 - m365initiative-compliance
 search.appverid:
 - MET150
-description: Microsoft 365 Endpoint 데이터 손실 방지를 설정하여 파일 활동을 모니터링하고 해당 파일에 대한 보호 작업을 엔드포인트에 구현합니다.
-ms.openlocfilehash: 95446e15e656e3c1aa658f897863608311b350e0
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+description: Microsoft 365 엔드포인트 데이터 손실 방지를 설정하여 파일 활동을 모니터링하고 해당 파일에 대한 보호 작업을 엔드포인트에 구현합니다.
+ms.openlocfilehash: 8f4b1b04aadbb639f6c7daeeb564c10abd7737b2
+ms.sourcegitcommit: ca733da1ed919b286a93068b560608e82f8def05
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842042"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48990553"
 ---
-# <a name="get-started-with-endpoint-data-loss-prevention-preview"></a>Endpoint 데이터 손실 방지(미리 보기) 시작하기
+# <a name="get-started-with-endpoint-data-loss-prevention"></a>엔드포인트 데이터 손실 방지 시작하기
 
-Microsoft Endpoint 데이터 손실 방지(Endpoint DLP)는 Microsoft 365 서비스에서 중요 한 항목을 검색하고 보호하는 데 사용할 수 있는 Microsoft 365의 DLP(데이터 손실 방지) 제품군의 일부입니다. 모든 Microsoft의 DLP 제공에 대한 자세한 내용은 [데이터 손실 방지 개요](data-loss-prevention-policies.md)를 참조하세요. Endpoint DLP에 대한 자세한 내용은 [Endpoint 데이터 손실 방지(미리 보기)에 대한 자세한 정보](endpoint-dlp-learn-about.md)를 참조하세요.
+Microsoft 엔드포인트 데이터 손실 방지(엔드포인트 DLP)는 Microsoft 365 서비스에서 중요한 항목을 검색하고 보호하는 데 사용할 수 있는 Microsoft 365의 DLP(데이터 손실 방지) 제품군의 일부입니다. 모든 Microsoft의 DLP 제공에 대한 자세한 내용은 [데이터 손실 방지 개요](data-loss-prevention-policies.md)를 참조하세요. Endpoint DLP에 대한 자세한 내용은 [Endpoint 데이터 손실 방지(미리 보기)에 대한 자세한 정보](endpoint-dlp-learn-about.md)를 참조하세요.
 
 Microsoft Endpoint DLP를 사용하면 Windows 10 장치를 모니터링하고 중요한 항목이 사용되고 공유되는 때를 탐지할 수 있습니다. 이를 통해 중요한 항목이 올바르게 사용되며 보호하고 위험을 초래할 수 있는 위험한 행동을 방지하는 데 필요한 가시성과 제어 기능을 제공합니다.
 
@@ -44,6 +44,7 @@ Endpoint DLP를 시작하기 전에 [Microsoft 365 구독](https://www.microsoft
 - Microsoft 365 A5 compliance
 - Microsoft 365 E5 Information Protection 및 거버넌스
 - Microsoft 365 A5 Information Protection 및 거버넌스
+
 
 ### <a name="permissions"></a>권한
 
@@ -94,7 +95,9 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 
 4. 모든 장치가 [AAD(Azure Active Directory)에 연결](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)되어 있거나 Hybrid Azure AD에 연결되어 있어야 합니다.
 
-5. 엔드 포인트 장치에 Microsoft Chromium Edge 브라우저를 설치하여 클라우드로 업로드 활동에 대한 정책 작업을 적용하세요. [Chromium 기반 새 Microsoft Edge 다운로드하기](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)를 참조하세요.
+5. 엔드 포인트 장치에 Microsoft Chromium Edge 브라우저를 설치하여 클라우드로 업로드 활동에 대한 정책 작업을 적용하세요. [Chromium 기반의 새 Microsoft Edge 다운로드](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)를 참조하세요.
+
+6. Microsoft 365 앱 버전 2004~2008의 월 단위 엔터프라이즈 채널을 사용하고 있는 경우 Office 콘텐츠를 분류하는 엔드포인트 DLP와 관련된 알려진 문제가 있으며 버전 2009 이상으로 업데이트해야 합니다. 현재 버전에 대한 자세한 내용은 [Microsoft 365 앱의 업데이트 기록(날짜순)](https://docs.microsoft.com/officeupdates/update-history-microsoft365-apps-by-date)을 참조하세요. 해당 문제에 대한 자세한 내용을 보려면 [2020년 현재 채널 릴리스에 대한 릴리스 노트](https://docs.microsoft.com/officeupdates/current-channel#version-2010-october-27)의 Office 제품군 섹션을 참조하세요.
 
 ## <a name="onboarding-devices-into-device-management"></a>장치 관리에 장치 온보딩
 
