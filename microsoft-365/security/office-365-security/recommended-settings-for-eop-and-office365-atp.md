@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: EOP (Exchange Online Protection) 및 Defender for Office 365 보안 설정에 대 한 모범 사례는 무엇 인가요? 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 Office 365 용으로 Defender를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: ab8640574d15cc1950ac0873ef90c4d984553510
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 032cd6a50f56fd3e1e47faebfaea5f6665553a4b
+ms.sourcegitcommit: 09518b7c9146cda7fd42839ee644ad418d48491a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845651"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "49001528"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>EOP 및 Office 용 Microsoft Defender 365 보안에 대 한 권장 설정
 
@@ -54,22 +54,22 @@ ms.locfileid: "48845651"
 
 |보안 기능 이름|기본|Standard|항등|댓글|
 |---|:---:|:---:|:---:|---|
-|**스팸** 검색 작업 <br/><br/> _SpamAction_|**정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**메시지 격리** <br/><br/> `Quarantine`||
-|**높은 정확도 스팸** 검색 작업 <br/><br/> _HighConfidenceSpamAction_|**정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**메시지 격리** <br/><br/> `Quarantine`|**메시지 격리** <br/><br/> `Quarantine`||
-|**피싱 전자 메일** 검색 작업 <br/><br/> _PhishSpamAction_|**정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**메시지 격리** <br/><br/> `Quarantine`|**메시지 격리** <br/><br/> `Quarantine`||
-|**높은 신뢰도 피싱 전자 메일** 검색 작업 <br/><br/> _HighConfidencePhishAction_|**메시지 격리** <br/><br/> `Quarantine`|**메시지 격리** <br/><br/> `Quarantine`|**메시지 격리** <br/><br/> `Quarantine`||
-|**대량 전자 메일** 검색 작업 <br/><br/> _대량 Spampaction_|**정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**메시지 격리** <br/><br/> `Quarantine`||
-|대량 전자 메일 임계값 <br/><br/> _대량 임계값_|7 |6 |4 |자세한 내용은 [Office 365의 BCL (대량 불만 수준)](bulk-complaint-level-values.md)을 참조 하세요.|
-|격리 보존 기간 <br/><br/> _QuarantineRetentionPeriod_|15일|30일|30일||
-|**보안 팁** <br/><br/> _InlineSafetyTipsEnabled_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
-|허용 된 보낸 사람 <br/><br/> _AllowedSenders 사람_|없음|없음|없음||
-|허용 된 보낸 사람 도메인 <br/><br/> _AllowedSenderDomains_|없음|없음|없음|허용 된 보낸 사람 목록에 도메인을 추가 하는 것은 매우 좋지 않습니다. 공격자는 필터링 되지 않는 전자 메일을 보낼 수 있습니다. <br/><br/> **스팸 방지 설정** 페이지의 보안 & 준수 센터 [에서 스푸핑 관리자를 사용 하](learn-about-spoof-intelligence.md) 여 조직의 전자 메일 도메인에 있는 보낸 사람 전자 메일 주소를 위장 하거나 외부 도메인의 보낸 사람 전자 메일 주소를 위장 하는 모든 보낸 사람을 검토할 수 있습니다.|
-|수신 거부 <br/><br/> _BlockedSenders_|없음|없음|없음||
-|차단할 보낸 사람 도메인 <br/><br/> _BlockedSenderDomains_|없음|없음|없음||
-|**최종 사용자 스팸 알림 사용** <br/><br/> _EnableEndUserSpamNotifications_|사용 안 함 <br/><br/> `$false`|사용 <br/><br/> `$true`|사용 <br/><br/> `$true`||
-|**다음 간격으로 최종 사용자 스팸 알림 보내기 (일)** <br/><br/> _EndUserSpamNotificationFrequency_|3 일|3 일|3 일||
-|**스팸 ZAP** <br/><br/> _SpamZapEnabled_|사용 <br/><br/> `$true`|사용 <br/><br/> `$true`|사용 <br/><br/> `$true`||
-|**피싱 ZAP** <br/><br/> _PhishZapEnabled_|사용 <br/><br/> `$true`|사용 <br/><br/> `$true`|사용 <br/><br/> `$true`||
+|**스팸** 검색 작업 <p> _SpamAction_|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 격리** <p> `Quarantine`||
+|**높은 정확도 스팸** 검색 작업 <p> _HighConfidenceSpamAction_|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 격리** <p> `Quarantine`|**메시지 격리** <p> `Quarantine`||
+|**피싱 전자 메일** 검색 작업 <p> _PhishSpamAction_|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 격리** <p> `Quarantine`|**메시지 격리** <p> `Quarantine`||
+|**높은 신뢰도 피싱 전자 메일** 검색 작업 <p> _HighConfidencePhishAction_|**메시지 격리** <p> `Quarantine`|**메시지 격리** <p> `Quarantine`|**메시지 격리** <p> `Quarantine`||
+|**대량 전자 메일** 검색 작업 <p> _대량 Spampaction_|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 격리** <p> `Quarantine`||
+|대량 전자 메일 임계값 <p> _대량 임계값_|7 |6 |4 |자세한 내용은 [Office 365의 BCL (대량 불만 수준)](bulk-complaint-level-values.md)을 참조 하세요.|
+|격리 보존 기간 <p> _QuarantineRetentionPeriod_|15일|30일|30일||
+|**보안 팁** <p> _InlineSafetyTipsEnabled_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`||
+|허용 된 보낸 사람 <p> _AllowedSenders 사람_|없음|없음|없음||
+|허용 된 보낸 사람 도메인 <p> _AllowedSenderDomains_|없음|없음|없음|허용 된 보낸 사람 목록에 도메인을 추가 하는 것은 매우 좋지 않습니다. 공격자는 필터링 되지 않는 전자 메일을 보낼 수 있습니다. <p> **스팸 방지 설정** 페이지의 보안 & 준수 센터 [에서 스푸핑 관리자를 사용 하](learn-about-spoof-intelligence.md) 여 조직의 전자 메일 도메인에 있는 보낸 사람 전자 메일 주소를 위장 하거나 외부 도메인의 보낸 사람 전자 메일 주소를 위장 하는 모든 보낸 사람을 검토할 수 있습니다.|
+|수신 거부 <p> _BlockedSenders_|없음|없음|없음||
+|차단할 보낸 사람 도메인 <p> _BlockedSenderDomains_|없음|없음|없음||
+|**최종 사용자 스팸 알림 사용** <p> _EnableEndUserSpamNotifications_|사용 안 함 <p> `$false`|사용 <p> `$true`|사용 <p> `$true`||
+|**다음 간격으로 최종 사용자 스팸 알림 보내기 (일)** <p> _EndUserSpamNotificationFrequency_|3 일|3 일|3 일||
+|**스팸 ZAP** <p> _SpamZapEnabled_|사용 <p> `$true`|사용 <p> `$true`|사용 <p> `$true`||
+|**피싱 ZAP** <p> _PhishZapEnabled_|사용 <p> `$true`|사용 <p> `$true`|사용 <p> `$true`||
 |_MarkAsSpamBulkMail_|켜짐|켜짐|켜짐|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
 |
 
@@ -108,10 +108,10 @@ ms.locfileid: "48845651"
 
 |보안 기능 이름|기본|Standard|항등|댓글|
 |---|:---:|:---:|:---:|---|
-|**사용자 당 최대 받는 사람 수: 외부 시간 제한** <br/><br/> _RecipientLimitExternalPerHour_|개|500|400|기본값 0은 서비스 기본값을 사용 함을 의미 합니다.|
-|**사용자 당 최대 받는 사람 수: 내부 시간 제한** <br/><br/> _RecipientLimitInternalPerHour_|개|1000|800|기본값 0은 서비스 기본값을 사용 함을 의미 합니다.|
-|**사용자 당 최대 받는 사람 수: 일일 제한** <br/><br/> _RecipientLimitPerDay_|개|1000|800|기본값 0은 서비스 기본값을 사용 함을 의미 합니다.|
-|**사용자가 제한을 초과 하는 경우의 동작** <br/><br/> _ActionWhenThresholdReached_|**다음 날까지 사용자가 메일을 보낼 수 없도록 제한** <br/><br/> `BlockUserForToday`|**사용자가 메일을 보낼 수 없도록 제한** <br/><br/> `BlockUser`|**사용자가 메일을 보낼 수 없도록 제한** <br/><br/> `BlockUser`||
+|**사용자 당 최대 받는 사람 수: 외부 시간 제한** <p> _RecipientLimitExternalPerHour_|개|500|400|기본값 0은 서비스 기본값을 사용 함을 의미 합니다.|
+|**사용자 당 최대 받는 사람 수: 내부 시간 제한** <p> _RecipientLimitInternalPerHour_|개|1000|800|기본값 0은 서비스 기본값을 사용 함을 의미 합니다.|
+|**사용자 당 최대 받는 사람 수: 일일 제한** <p> _RecipientLimitPerDay_|개|1000|800|기본값 0은 서비스 기본값을 사용 함을 의미 합니다.|
+|**사용자가 제한을 초과 하는 경우의 동작** <p> _ActionWhenThresholdReached_|**다음 날까지 사용자가 메일을 보낼 수 없도록 제한** <p> `BlockUserForToday`|**사용자가 메일을 보낼 수 없도록 제한** <p> `BlockUser`|**사용자가 메일을 보낼 수 없도록 제한** <p> `BlockUser`||
 |
 
 ### <a name="eop-anti-malware-policy-settings"></a>EOP 맬웨어 방지 정책 설정
@@ -122,11 +122,11 @@ ms.locfileid: "48845651"
 
 |보안 기능 이름|기본|Standard|항등|댓글|
 |---|:---:|:---:|:---:|---|
-|**메시지가 격리 된 경우 받는 사람에 게 알릴지 여부** <br/><br/> _작업_|아니요 <br/><br/> _DeleteMessage_|아니요 <br/><br/> _DeleteMessage_|아니요 <br/><br/> _DeleteMessage_|전자 메일 첨부 파일에서 맬웨어가 검색 되 면 메시지가 격리 되며 관리자만 해제할 수 있습니다.|
-|**일반 첨부 파일 형식 필터** <br/><br/> _EnableFileFilter_|해제 <br/><br/> `$false`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|이 설정은 첨부 파일 내용에 상관 없이 설정별 첨부 파일이 들어 있는 메시지의 형식을 설정 합니다.|
-|**맬웨어 제로 시간 자동 삭제** <br/><br/> _ZapEnabled_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
-|배달 되지 않은 메시지의 **내부 보낸 사람에 게 알림** <br/><br/> _EnableInternalSenderNotifications_|사용 안 함 <br/><br/> `$false`|사용 안 함 <br/><br/> `$false`|사용 안 함 <br/><br/> `$false`||
-|배달 되지 않은 메시지의 **외부 보낸 사람에 게 알림** <br/><br/> _EnableExternalSenderNotifications_|사용 안 함 <br/><br/> `$false`|사용 안 함 <br/><br/> `$false`|사용 안 함 <br/><br/> `$false`||
+|**메시지가 격리 된 경우 받는 사람에 게 알릴지 여부** <p> _작업_|아니요 <p> _DeleteMessage_|아니요 <p> _DeleteMessage_|아니요 <p> _DeleteMessage_|전자 메일 첨부 파일에서 맬웨어가 검색 되 면 메시지가 격리 되며 관리자만 해제할 수 있습니다.|
+|**일반 첨부 파일 형식 필터** <p> _EnableFileFilter_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`|이 설정은 첨부 파일 내용에 상관 없이 설정별 첨부 파일이 들어 있는 메시지의 형식을 설정 합니다.|
+|**맬웨어 제로 시간 자동 삭제** <p> _ZapEnabled_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`||
+|배달 되지 않은 메시지의 **내부 보낸 사람에 게 알림** <p> _EnableInternalSenderNotifications_|사용 안 함 <p> `$false`|사용 안 함 <p> `$false`|사용 안 함 <p> `$false`||
+|배달 되지 않은 메시지의 **외부 보낸 사람에 게 알림** <p> _EnableExternalSenderNotifications_|사용 안 함 <p> `$false`|사용 안 함 <p> `$false`|사용 안 함 <p> `$false`||
 |
 
 ### <a name="eop-default-anti-phishing-policy-settings"></a>EOP 기본 피싱 방지 정책 설정
@@ -137,9 +137,9 @@ ms.locfileid: "48845651"
 
 |보안 기능 이름|기본|Standard|항등|댓글|
 |---|:---:|:---:|:---:|---|
-|**스푸핑 방지 보호 사용** <br/><br/> _EnableAntispoofEnforcement_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
-|**인증 되지 않은 보낸 사람 사용** <br/><br/> _EnableUnauthenticatedSender_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|알 수 없는 스푸핑된 보낸 사람에 대 한 Outlook의 보낸 사람 사진에 물음표 (?)를 추가 합니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md)참조 하십시오.|
-|**도메인을 스푸핑할 수 없는 사용자가 전자 메일을 보낸 경우** <br/><br/> _AuthenticationFailAction_|**받는 사람의 정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**받는 사람의 정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**메시지 격리** <br/><br/> `Quarantine`|이 설정은 [위장 인텔리전스](learn-about-spoof-intelligence.md)에서 수신 거부에 적용 됩니다.|
+|**스푸핑 방지 보호 사용** <p> _EnableAntispoofEnforcement_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`||
+|**인증 되지 않은 보낸 사람 사용** <p> _EnableUnauthenticatedSender_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`|알 수 없는 스푸핑된 보낸 사람에 대 한 Outlook의 보낸 사람 사진에 물음표 (?)를 추가 합니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md)참조 하십시오.|
+|**도메인을 스푸핑할 수 없는 사용자가 전자 메일을 보낸 경우** <p> _AuthenticationFailAction_|**받는 사람의 정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**받는 사람의 정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 격리** <p> `Quarantine`|이 설정은 [위장 인텔리전스](learn-about-spoof-intelligence.md)에서 수신 거부에 적용 됩니다.|
 |
 
 ## <a name="microsoft-defender-for-office-365-security"></a>Microsoft Defender for Office 365 보안
@@ -168,19 +168,19 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지 기능을 사�
 
 |보안 기능 이름|기본|Standard|항등|댓글|
 |---|:---:|:---:|:---:|---|
-|보호 된 사용자: **보호를 위해 사용자 추가** <br/><br/> _EnableTargetedUserProtection_ <br/><br/> _TargetedUsersToProtect_|해제 <br/><br/> `$false` <br/><br/> 없음|켜짐 <br/><br/> `$true` <br/><br/> \<list of users\>|켜짐 <br/><br/> `$true` <br/><br/> \<list of users\>|조직에 따라 주요 역할에 사용자 (메시지 보낸 사람)를 추가 하는 것이 좋습니다. 내부적으로 보호 된 보낸 사람은 CEO, CFO 및 기타 선임 리더가 될 수 있습니다. 외부적으로 보호 된 보낸 사람은 council 구성원 또는 이사회의 보드를 포함할 수 있습니다.|
-|보호 된 도메인: **내가 소유한 도메인을 자동으로 포함** <br/><br/> _EnableOrganizationDomainsProtection_|해제 <br/><br/> `$false`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
-|보호 된 도메인: **사용자 지정 도메인 포함** <br/><br/> _EnableTargetedDomainsProtection_ <br/><br/> _TargetedDomainsToProtect_|해제 <br/><br/> `$false` <br/><br/> 없음|켜짐 <br/><br/> `$true` <br/><br/> \<list of domains\>|켜짐 <br/><br/> `$true` <br/><br/> \<list of domains\>|조직에 따라 소유 하지 않지만 자주 상호 작용 하는 도메인 (보낸 사람 도메인)을 추가 하는 것이 좋습니다.|
-|보호 된 사용자: **가장 된 사용자가 전자 메일을 보낸 경우** <br/><br/> _TargetedUserProtectionAction_|**작업 적용 안 함** <br/><br/> `NoAction`|**메시지 격리** <br/><br/> `Quarantine`|**메시지 격리** <br/><br/> `Quarantine`||
-|보호 된 도메인: **가장 된 도메인에서 전자 메일을 보내는 경우** <br/><br/> _TargetedDomainProtectionAction_|**작업 적용 안 함** <br/><br/> `NoAction`|**메시지 격리** <br/><br/> `Quarantine`|**메시지 격리** <br/><br/> `Quarantine`||
-|**가장 한 사용자에 대 한 팁 표시** <br/><br/> _EnableSimilarUsersSafetyTips_|해제 <br/><br/> `$false`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
-|**가장 한 도메인에 대 한 팁 표시** <br/><br/> _EnableSimilarDomainsSafetyTips_|해제 <br/><br/> `$false`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
-|**비정상적 캐릭터에 대 한 팁 표시** <br/><br/> _EnableUnusualCharactersSafetyTips_|해제 <br/><br/> `$false`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
-|**사서함 인텔리전스 사용 가능 여부** <br/><br/> _EnableMailboxIntelligence_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
-|**사서함 인텔리전스 기반 가장 보호를 사용 하도록 설정** <br/><br/> _EnableMailboxIntelligenceProtection_|해제 <br/><br/> `$false`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
-|**사서함 인텔리전스를 통해 보호 되는 가장 된 사용자가 전자 메일을 보낸 경우** <br/><br/> _MailboxIntelligenceProtectionAction_|**작업 적용 안 함** <br/><br/> `NoAction`|**받는 사람의 정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**메시지 격리** <br/><br/> `Quarantine`||
-|**신뢰할 수 있는 보낸 사람** <br/><br/> _ExcludedSenders_|없음|없음|없음|조직에 따라 가장을 제외 하 고 다른 필터는 제외 하 고는 전용으로 피싱로 표시 된 사용자를 추가 하는 것이 좋습니다.|
-|**신뢰할 수 있는 도메인** <br/><br/> _ExcludedDomains_|없음|없음|없음|조직에 따라 가장을 제외 하 고는 다른 필터를 제외 하 고는 전용으로 피싱로 표시 된 도메인을 추가 하는 것이 좋습니다.|
+|보호 된 사용자: **보호를 위해 사용자 추가** <p> _EnableTargetedUserProtection_ <p> _TargetedUsersToProtect_|해제 <p> `$false` <p> 없음|켜짐 <p> `$true` <p> \<list of users\>|켜짐 <p> `$true` <p> \<list of users\>|조직에 따라 주요 역할에 사용자 (메시지 보낸 사람)를 추가 하는 것이 좋습니다. 내부적으로 보호 된 보낸 사람은 CEO, CFO 및 기타 선임 리더가 될 수 있습니다. 외부적으로 보호 된 보낸 사람은 council 구성원 또는 이사회의 보드를 포함할 수 있습니다.|
+|보호 된 도메인: **내가 소유한 도메인을 자동으로 포함** <p> _EnableOrganizationDomainsProtection_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
+|보호 된 도메인: **사용자 지정 도메인 포함** <p> _EnableTargetedDomainsProtection_ <p> _TargetedDomainsToProtect_|해제 <p> `$false` <p> 없음|켜짐 <p> `$true` <p> \<list of domains\>|켜짐 <p> `$true` <p> \<list of domains\>|조직에 따라 소유 하지 않지만 자주 상호 작용 하는 도메인 (보낸 사람 도메인)을 추가 하는 것이 좋습니다.|
+|보호 된 사용자: **가장 된 사용자가 전자 메일을 보낸 경우** <p> _TargetedUserProtectionAction_|**작업 적용 안 함** <p> `NoAction`|**메시지 격리** <p> `Quarantine`|**메시지 격리** <p> `Quarantine`||
+|보호 된 도메인: **가장 된 도메인에서 전자 메일을 보내는 경우** <p> _TargetedDomainProtectionAction_|**작업 적용 안 함** <p> `NoAction`|**메시지 격리** <p> `Quarantine`|**메시지 격리** <p> `Quarantine`||
+|**가장 한 사용자에 대 한 팁 표시** <p> _EnableSimilarUsersSafetyTips_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
+|**가장 한 도메인에 대 한 팁 표시** <p> _EnableSimilarDomainsSafetyTips_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
+|**비정상적 캐릭터에 대 한 팁 표시** <p> _EnableUnusualCharactersSafetyTips_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
+|**사서함 인텔리전스 사용 가능 여부** <p> _EnableMailboxIntelligence_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`||
+|**사서함 인텔리전스 기반 가장 보호를 사용 하도록 설정** <p> _EnableMailboxIntelligenceProtection_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
+|**사서함 인텔리전스를 통해 보호 되는 가장 된 사용자가 전자 메일을 보낸 경우** <p> _MailboxIntelligenceProtectionAction_|**작업 적용 안 함** <p> `NoAction`|**받는 사람의 정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 격리** <p> `Quarantine`||
+|**신뢰할 수 있는 보낸 사람** <p> _ExcludedSenders_|없음|없음|없음|조직에 따라 가장을 제외 하 고 다른 필터는 제외 하 고는 전용으로 피싱로 표시 된 사용자를 추가 하는 것이 좋습니다.|
+|**신뢰할 수 있는 도메인** <p> _ExcludedDomains_|없음|없음|없음|조직에 따라 가장을 제외 하 고는 다른 필터를 제외 하 고는 전용으로 피싱로 표시 된 도메인을 추가 하는 것이 좋습니다.|
 |
 
 #### <a name="spoof-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender의 피싱 방지 정책에서 스푸핑 설정 (Office 365 용)
@@ -191,9 +191,9 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지 기능을 사�
 
 |보안 기능 이름|Standard|항등|댓글|
 |---|---|---|---|
-|**스푸핑 방지 보호 사용** <br/><br/> _EnableAntispoofEnforcement_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
-|**인증 되지 않은 보낸 사람 사용** <br/><br/> _EnableUnauthenticatedSender_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|알 수 없는 스푸핑된 보낸 사람에 대 한 Outlook의 보낸 사람 사진에 물음표 (?)를 추가 합니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md)참조 하십시오.|
-|**도메인을 스푸핑할 수 없는 사용자가 전자 메일을 보낸 경우** <br/><br/> _AuthenticationFailAction_|**받는 사람의 정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**메시지 격리** <br/><br/> `Quarantine`|이 설정은 [위장 인텔리전스](learn-about-spoof-intelligence.md)에서 수신 거부에 적용 됩니다.|
+|**스푸핑 방지 보호 사용** <p> _EnableAntispoofEnforcement_|켜짐 <p> `$true`|켜짐 <p> `$true`||
+|**인증 되지 않은 보낸 사람 사용** <p> _EnableUnauthenticatedSender_|켜짐 <p> `$true`|켜짐 <p> `$true`|알 수 없는 스푸핑된 보낸 사람에 대 한 Outlook의 보낸 사람 사진에 물음표 (?)를 추가 합니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md)참조 하십시오.|
+|**도메인을 스푸핑할 수 없는 사용자가 전자 메일을 보낸 경우** <p> _AuthenticationFailAction_|**받는 사람의 정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 격리** <p> `Quarantine`|이 설정은 [위장 인텔리전스](learn-about-spoof-intelligence.md)에서 수신 거부에 적용 됩니다.|
 |
 
 #### <a name="advanced-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Office 용 Microsoft Defender의 피싱 방지 정책에서 고급 설정 365
@@ -204,7 +204,7 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지 기능을 사�
 
 |보안 기능 이름|기본|Standard|항등|댓글|
 |---|:---:|:---:|:---:|---|
-|**고급 피싱 임계값** <br/><br/> _PhishThresholdLevel_|**1-표준** <br/><br/> `1`|**2-적극적인** <br/><br/> `2`|**3-적극적인** <br/><br/> `3`||
+|**고급 피싱 임계값** <p> _PhishThresholdLevel_|**1-표준** <p> `1`|**2-적극적인** <p> `2`|**3-적극적인** <p> `3`||
 |
 
 ### <a name="safe-links-settings"></a>안전한 링크 설정
@@ -221,9 +221,9 @@ PowerShell에서는 이러한 설정에 대해 [AtpPolicyForO365](https://docs.m
 
 |보안 기능 이름|기본|Standard|항등|댓글|
 |---|:---:|:---:|:---:|---|
-|**에서 안전한 링크 사용: Office 365 응용 프로그램** <br/><br/> _EnableSafeLinksForO365Clients_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|지원 되는 Office 365 desktop 및 mobile (iOS 및 Android) 앱의 안전한 링크를 사용 합니다. 자세한 내용은 [Office 365 앱에 대 한 안전한 링크 설정](atp-safe-links.md#safe-links-settings-for-office-365-apps)를 참조 하세요.|
-|**사용자가 안전 링크를 클릭 하는 경우 추적 안 함** <br/><br/> _가을 클릭 하면_|켜짐 <br/><br/> `$false`|해제 <br/><br/> `$true`|해제 <br/><br/> `$true`|이 설정을 해제 하면 _TrackClicks_ `$true` 지원 되는 Office 365 앱에서 사용자가 클릭을 추적 합니다.|
-|**사용자가 원본 URL에 대 한 안전한 링크를 클릭 하는 것을 허용 하지 않음** <br/><br/> _AllowClickThrough 광고_|켜짐 <br/><br/> `$false`|켜짐 <br/><br/> `$false`|켜짐 <br/><br/> `$false`|이 설정을 켜면 ( _allowclickthrough_ 로 설정 `$false` )을 클릭 하면 지원 되는 Office 365 앱의 원본 URL로 이동할 수 없습니다.|
+|**에서 안전한 링크 사용: Office 365 응용 프로그램** <p> _EnableSafeLinksForO365Clients_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`|지원 되는 Office 365 desktop 및 mobile (iOS 및 Android) 앱의 안전한 링크를 사용 합니다. 자세한 내용은 [Office 365 앱에 대 한 안전한 링크 설정](atp-safe-links.md#safe-links-settings-for-office-365-apps)를 참조 하세요.|
+|**사용자가 안전 링크를 클릭 하는 경우 추적 안 함** <p> _가을 클릭 하면_|켜짐 <p> `$false`|해제 <p> `$true`|해제 <p> `$true`|이 설정을 해제 하면 _TrackClicks_ `$true` 지원 되는 Office 365 앱에서 사용자가 클릭을 추적 합니다.|
+|**사용자가 원본 URL에 대 한 안전한 링크를 클릭 하는 것을 허용 하지 않음** <p> _AllowClickThrough 광고_|켜짐 <p> `$false`|켜짐 <p> `$false`|켜짐 <p> `$false`|이 설정을 켜면 ( _allowclickthrough_ 로 설정 `$false` )을 클릭 하면 지원 되는 Office 365 앱의 원본 URL로 이동할 수 없습니다.|
 |
 
 #### <a name="safe-links-policy-settings"></a>안전한 링크 정책 설정
@@ -239,13 +239,13 @@ PowerShell에서는 이러한 설정에 대해 [get-safelinkspolicy](https://doc
 
 |보안 기능 이름|기본|Standard|항등|댓글|
 |---|:---:|:---:|:---:|---|
-|**메시지에서 알 수 없는 잠재적 악성 Url에 대 한 작업 선택** <br/><br/> _IsEnabled_|해제 <br/><br/> `$false`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
-|**Microsoft 팀 내에서 알 수 없거나 잠재적으로 악성 Url에 대 한 작업 선택** <br/><br/> _EnableSafeLinksForTeams_|해제 <br/><br/> `$false`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
-|**의심 스러운 링크에 대 한 실시간 URL 검사 및 파일을 가리키는 링크를 적용 합니다.** <br/><br/> _ScanUrls_|해제 <br/><br/> `$false`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
-|**메시지를 배달 하기 전에 URL 검색이 완료 될 때까지 기다립니다.** <br/><br/> _배달 Messageafterscan_|해제 <br/><br/> `$false`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
-|**조직 내에서 전송 된 전자 메일 메시지에 안전한 링크 적용** <br/><br/> _EnableForInternalSenders 사람_|해제 <br/><br/> `$false`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
-|**사용자 클릭 추적 안 함** <br/><br/> _DoNotTrackUserClicks_|해제 <br/><br/> `$false`|해제 <br/><br/> `$false`|해제 <br/><br/> `$false`|이 설정을 해제 하면 사용자가 클릭 하는 _DoNotTrackUserClicks_ 를 `$false` 추적 합니다.|
-|**사용자가 원래 URL로 클릭 하도록 허용 안 함** <br/><br/> _DoNotAllowClickThrough_|해제 <br/><br/> `$false`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|이 설정을 켜면 ( _DoNotAllowClickThrough_ to to 설정 `$true` )을 클릭 하면 원래 URL로 이동 하지 않습니다.|
+|**메시지에서 알 수 없는 잠재적 악성 Url에 대 한 작업 선택** <p> _IsEnabled_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
+|**Microsoft 팀 내에서 알 수 없거나 잠재적으로 악성 Url에 대 한 작업 선택** <p> _EnableSafeLinksForTeams_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
+|**의심 스러운 링크에 대 한 실시간 URL 검사 및 파일을 가리키는 링크를 적용 합니다.** <p> _ScanUrls_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
+|**메시지를 배달 하기 전에 URL 검색이 완료 될 때까지 기다립니다.** <p> _배달 Messageafterscan_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
+|**조직 내에서 전송 된 전자 메일 메시지에 안전한 링크 적용** <p> _EnableForInternalSenders 사람_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
+|**사용자 클릭 추적 안 함** <p> _DoNotTrackUserClicks_|해제 <p> `$false`|해제 <p> `$false`|해제 <p> `$false`|이 설정을 해제 하면 사용자가 클릭 하는 _DoNotTrackUserClicks_ 를 `$false` 추적 합니다.|
+|**사용자가 원래 URL로 클릭 하도록 허용 안 함** <p> _DoNotAllowClickThrough_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`|이 설정을 켜면 ( _DoNotAllowClickThrough_ to to 설정 `$true` )을 클릭 하면 원래 URL로 이동 하지 않습니다.|
 |
 
 ### <a name="safe-attachments-settings"></a>안전한 첨부 파일 설정
@@ -262,9 +262,9 @@ PowerShell에서는 이러한 설정에 대해 [AtpPolicyForO365](https://docs.m
 
 |보안 기능 이름|기본|Standard|항등|댓글|
 |---|:---:|:---:|:---:|---|
-|**SharePoint, OneDrive 및 Microsoft Teams의 ATP 켜기** <br/><br/> _EnableATPForSPOTeamsODB_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
-|**Office 클라이언트에 대 한 안전 문서 설정**<bt/><br/> _EnableSafeDocs_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|이 설정은 Microsoft 365 E5 또는 Microsoft 365 E5 보안 라이선스 에서만 사용할 수 있습니다. 자세한 내용은 [Microsoft Defender For Office 365의 안전 문서](safe-docs.md)를 참조 하세요.|
-|**안전한 문서에 악성 프로그램으로 확인 된 안전 문서가 있는 경우에도 제한 됨 보기를 클릭 하도록 허용**<bt/><br/> _AllowSafeDocsOpen_|해제 <br/><br/> `$false`|해제 <br/><br/> `$false`|이 설정은 안전한 문서와 관련이 있습니다.|
+|**SharePoint, OneDrive 및 Microsoft Teams의 ATP 켜기** <p> _EnableATPForSPOTeamsODB_|켜짐 <p> `$true`|켜짐 <p> `$true`||
+|**Office 클라이언트에 대 한 안전 문서 설정**<bt/><br/> _EnableSafeDocs_|켜짐 <p> `$true`|켜짐 <p> `$true`|이 설정은 Microsoft 365 E5 또는 Microsoft 365 E5 보안 라이선스 에서만 사용할 수 있습니다. 자세한 내용은 [Microsoft Defender For Office 365의 안전 문서](safe-docs.md)를 참조 하세요.|
+|**안전한 문서에 악성 프로그램으로 확인 된 안전 문서가 있는 경우에도 제한 됨 보기를 클릭 하도록 허용**<bt/><br/> _AllowSafeDocsOpen_|해제 <p> `$false`|해제 <p> `$false`|이 설정은 안전한 문서와 관련이 있습니다.|
 |
 
 #### <a name="safe-attachments-policy-settings"></a>안전한 첨부 파일 정책 설정
@@ -280,9 +280,9 @@ PowerShell에서는 이러한 설정에 대해 [get-safeattachmentpolicy](https:
 
 |보안 기능 이름|기본|Standard|항등|댓글|
 |---|:---:|:---:|:---:|---|
-|**안전한 첨부 파일 알 수 없는 맬웨어 응답** <br/><br/> _작업_|차단 <br/><br/> `Block`|차단 <br/><br/> `Block`|차단 <br/><br/> `Block`||
-|**검색 시 첨부 파일 리디렉션** : **리디렉션 사용** <br/><br/> _리디렉션_ <br/><br/> _RedirectAddress_|Off 및 지정 된 전자 메일 주소가 없습니다. <br/><br/> `$true` <br/><br/> 없음|설정 및 전자 메일 주소를 지정 합니다. <br/><br/> `$true` <br/><br/> 전자 메일 주소|설정 및 전자 메일 주소를 지정 합니다. <br/><br/> `$true` <br/><br/> 전자 메일 주소|검토를 위해 보안 관리자에 게 메시지를 리디렉션합니다.|
-|**첨부 파일에 대 한 맬웨어 검사 시간이 초과 되거나 오류가 발생 하는 경우 위의 선택 사항을 적용 합니다.** <br/><br/> _ActionOnError_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
+|**안전한 첨부 파일 알 수 없는 맬웨어 응답** <p> _작업_|차단 <p> `Block`|차단 <p> `Block`|차단 <p> `Block`||
+|**검색 시 첨부 파일 리디렉션** : **리디렉션 사용** <p> _리디렉션_ <p> _RedirectAddress_|Off 및 지정 된 전자 메일 주소가 없습니다. <p> `$true` <p> 없음|설정 및 전자 메일 주소를 지정 합니다. <p> `$true` <p> 전자 메일 주소|설정 및 전자 메일 주소를 지정 합니다. <p> `$true` <p> 전자 메일 주소|검토를 위해 보안 관리자에 게 메시지를 리디렉션합니다.|
+|**첨부 파일에 대 한 맬웨어 검사 시간이 초과 되거나 오류가 발생 하는 경우 위의 선택 사항을 적용 합니다.** <p> _ActionOnError_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`||
 |
 
 ## <a name="related-articles"></a>관련 문서

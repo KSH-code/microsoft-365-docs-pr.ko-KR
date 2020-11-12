@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자가 Microsoft 365 서비스를 사용하는 방식에 대한 주기적인 보고를 받을 수 있습니다. 사용 현황 개요 대시보드를 사용하면 각 차트에 대한 세부 정보를 확인할 수 있습니다.
-ms.openlocfilehash: dee0f3e586c49c25daafe999d065e743babf020e
-ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.openlocfilehash: 9c3416f415c43377669b2c032e10696343c4416f
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48779123"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988461"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
@@ -96,10 +96,14 @@ ms.locfileid: "48779123"
   
 - [이메일 앱 사용 현황](email-apps-usage.md)
 
-- [양식 활동](forms-activity.md)
+- [양식 활동](forms-activity-ww.md)
 
-- [Forms Pro 활동](forms-pro-activity.md)
+- [미국 정부 기관용 Yammer 활동](forms-activity.md)
+
+- [Dynamics 365 고객 음성 활동](forms-pro-activity-ww.md)
   
+- [미국 정부 기관용 Dynamics 365 고객 음성 활동](forms-pro-activity.md)
+
 - [Microsoft 365 그룹](office-365-groups.md)
   
 - [비즈니스용 OneDrive 사용자 활동](onedrive-for-business-activity-ww.md)
