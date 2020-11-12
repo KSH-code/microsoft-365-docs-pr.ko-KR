@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 데이터 이동은 테 넌 트에 대 한 서비스 및 연결 된 데이터를 새 데이터 센터 geo로 이동할 때 발생 하는 백 엔드 작업입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d2e63dd046f62f07e367b3632f96bf7261b99c9c
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: 63536a46e28f264f49e8071710221b0847f62414
+ms.sourcegitcommit: 86e878849a8bdd456cee6a3f49939d26223fb626
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333703"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48997794"
 ---
 # <a name="during-and-after-your-data-move"></a>데이터 이동 도중 및 이후
 
@@ -45,7 +45,7 @@ ms.locfileid: "48333703"
 |남아프리카 공화국  <br/> |2022 년 7 월 1 일  <br/> |
 |스위스, 리히텐슈타인  <br/> |2022 년 7 월 1 일  <br/> |
 |노르웨이  <br/> |2022 년 11 월 1 일  <br/> |
-|독일  <br/> |2023 년 4 월 1 일  <br/> |
+|독일  <br/> |5 월 1 일, 2023  <br/> |
 
 ## <a name="exchange-online"></a>Exchange Online
 
@@ -57,7 +57,7 @@ ms.locfileid: "48333703"
   
 |**구성**|**설명**|
 |:-----|:-----|
-|사용자에게 다른 사서함에 대한 사서함 폴더 권한이 있음  <br/> |제한될 수 있습니다.  <br/> 사용자 a와 사서함 B가 테 넌 트 이동 중에 같은 지역에 있지 않은 경우 사용자 a는 사서함 B의 특정 폴더에 대 한 사용 권한이 있는 경우 Outlook Web Access에서 사서함 B의 폴더를 열 수 없습니다.  <br/> 공유 폴더를 추가하려면 왼쪽 탐색 패널에서 사용자 이름을 마우스 오른쪽 단추로 클릭하고 **공유 폴더 추가**를 선택합니다.  <br/> |
+|사용자에게 다른 사서함에 대한 사서함 폴더 권한이 있음  <br/> |제한될 수 있습니다.  <br/> 사용자 a와 사서함 B가 테 넌 트 이동 중에 같은 지역에 있지 않은 경우 사용자 a는 사서함 B의 특정 폴더에 대 한 사용 권한이 있는 경우 Outlook Web Access에서 사서함 B의 폴더를 열 수 없습니다.  <br/> 공유 폴더를 추가하려면 왼쪽 탐색 패널에서 사용자 이름을 마우스 오른쪽 단추로 클릭하고 **공유 폴더 추가** 를 선택합니다.  <br/> |
 |사용자에게 다른 사서함에 대한 모든 사서함 권한이 있음  <br/> |완전히 지원됩니다.  <br/> 사용자 A에 게 사서함 B에 대 한 "모든 권한" 권한이 있으면 사용자 A가 Outlook Web Access의 왼쪽 탐색 패널에서 공유 폴더를 클릭 하 여 사서함 B가 표시 된 창을 열 수 있습니다.  사용자는 부정적인 영향을 주지 않으면 서 이동 하는 동안 Outlook Web Access를 사용 하 여 공유 사서함을 열 수 있습니다. 이러한 제한 사항은 사서함의 폴더 수준 공유에만 적용됩니다.           |
   
 ## <a name="sharepoint-online"></a>SharePoint Online
