@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: e7968303-c234-46c4-b8b0-b5c93c6d57a7
 description: Microsoft 365와 동기화 하기 전에 온-프레미스 사용자와 연결 된 routale 도메인이 있는 경우 수행 해야 하는 작업에 대해 알아봅니다.
-ms.openlocfilehash: 835beffb77c495179991fbb4388ecd9ee804ec91
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 21344cb0d495691a96867d401a5262fbbcfd02d4
+ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46696282"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "49002384"
 ---
 # <a name="prepare-a-non-routable-domain-for-directory-synchronization"></a>디렉터리 동기화를 위해 라우팅할 수 없는 도메인(예: .local 도메인) 준비
 온-프레미스 디렉터리를 Microsoft 365와 동기화 하는 경우 Azure Active Directory (Azure AD)에서 확인 된 도메인이 있어야 합니다. 온-프레미스 도메인과 연결 된 UPN (사용자 계정 이름)만 동기화 됩니다. 하지만 예를 들어 라우팅할 수 없는 도메인을 포함 하는 UPN은 billa@contoso와 마찬가지로 billa@contoso.onmicrosoft.com와 같은 onmicrosoft.com 도메인에 동기화 됩니다. 
@@ -42,7 +42,7 @@ Azure AD Connect 사용자가 온-프레미스에서 사용 하는 것과 동일
   
 ### <a name="change-your-primary-domain"></a>**주 도메인 변경**
 
-Microsoft 365에서 확인 한 도메인 (예: contoso.com)으로 주 도메인을 변경 합니다. 그런 다음 contoso.com으로 업데이트 되는 contoso 라는 도메인이 있는 모든 사용자입니다. 자세한 내용은 [도메인 이름 바꾸기 작동 방법을](https://go.microsoft.com/fwlink/p/?LinkId=624174)참조 하세요. 이는 매우 관련이 있는 프로세스 이며, 다음 섹션에서 보다 쉬운 솔루션을 설명 합니다.
+Microsoft 365에서 확인 한 도메인 (예: contoso.com)으로 주 도메인을 변경 합니다. 그런 다음 contoso.com으로 업데이트 되는 contoso 라는 도메인이 있는 모든 사용자입니다. 이는 매우 관련이 있는 프로세스 이며, 다음 섹션에서 보다 쉬운 솔루션을 설명 합니다.
   
 ### <a name="add-upn-suffixes-and-update-your-users-to-them"></a>**UPN 접미사를 추가 하 고 사용자를 업데이트 합니다.**
 
@@ -52,19 +52,19 @@ Microsoft 365에서 확인 한 도메인 (또는 도메인)과 일치 하도록 
   
  **1 단계: 새 UPN 접미사 추가**
   
-1. AD DS 도메인 컨트롤러의 서버 관리자에서 **도구** \> **Active Directory 도메인 및 트러스트**를 선택 합니다.
+1. AD DS 도메인 컨트롤러의 서버 관리자에서 **도구** \> **Active Directory 도메인 및 트러스트** 를 선택 합니다.
     
     **또는 Windows Server 2012이 없는 경우**
     
-    **Windows 키 + R** 을 눌러 **실행** 대화 상자를 열고 도메인 .msc를 입력 한 다음 **확인**을 선택 합니다.
+    **Windows 키 + R** 을 눌러 **실행** 대화 상자를 열고 도메인 .msc를 입력 한 다음 **확인** 을 선택 합니다.
     
     ![Active Directory 도메인 및 트러스트를 선택 합니다.](../media/46b6e007-9741-44af-8517-6f682e0ac974.png)
   
-2. **Active Directory 도메인 및 트러스트** 창에서 **active Directory 도메인 및 트러스트**를 마우스 오른쪽 단추로 클릭 한 다음 **속성**을 선택 합니다.
+2. **Active Directory 도메인 및 트러스트** 창에서 **active Directory 도메인 및 트러스트** 를 마우스 오른쪽 단추로 클릭 한 다음 **속성** 을 선택 합니다.
     
     ![Active Directory 도메인 및 트러스트를 마우스 오른쪽 단추로 클릭 하 고 속성을 선택 합니다.](../media/39d20812-ffb5-4ba9-8d7b-477377ac360d.png)
   
-3. **Upn 접미사** 탭의 **대체 UPN 접미사** 상자에 새 upn 접미사 또는 접미사를 입력 한 다음 적용 **추가** 를 선택 \> **Apply**합니다.
+3. **Upn 접미사** 탭의 **대체 UPN 접미사** 상자에 새 upn 접미사 또는 접미사를 입력 한 다음 적용 **추가** 를 선택 \> **Apply** 합니다.
     
     ![새 UPN 접미사 추가](../media/a4aaf919-7adf-469a-b93f-83ef284c0915.PNG)
   
@@ -72,15 +72,15 @@ Microsoft 365에서 확인 한 도메인 (또는 도메인)과 일치 하도록 
     
  **2 단계: 기존 사용자에 대 한 UPN 접미사 변경**
   
-1. AD DS 도메인 컨트롤러의 서버 관리자에서 **도구** \> **Active Directory 사용자 및 컴퓨터**를 선택 합니다.
+1. AD DS 도메인 컨트롤러의 서버 관리자에서 **도구** \> **Active Directory 사용자 및 컴퓨터** 를 선택 합니다.
     
     **또는 Windows Server 2012이 없는 경우**
     
     **Windows 키 + R** 을 눌러 **실행** 대화 상자를 연 다음 dsa.msc를 입력 하 고 **확인** 을 클릭 합니다.
     
-2. 사용자를 선택 하 고 마우스 오른쪽 단추를 클릭 한 다음 **속성**을 선택 합니다.
+2. 사용자를 선택 하 고 마우스 오른쪽 단추를 클릭 한 다음 **속성** 을 선택 합니다.
     
-3. **계정** 탭의 UPN 접미사 드롭다운 목록에서 새 UPN 접미사를 선택한 다음 **확인**을 선택 합니다.
+3. **계정** 탭의 UPN 접미사 드롭다운 목록에서 새 UPN 접미사를 선택한 다음 **확인** 을 선택 합니다.
     
     ![사용자에 대해 새 UPN 접미사 추가](../media/54876751-49f0-48cc-b864-2623c4835563.png)
   

@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: c342ea9f662d883883755d2f67e5c25ffabddf83
-ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
+ms.openlocfilehash: b77313a18a5744549e492de991e282bc34dbb6da
+ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "48948412"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "49002420"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>준비 평가 도구에서 발견한 문제 해결
 
@@ -214,7 +214,7 @@ Microsoft Managed Desktop 사용자에 게 부여할 앱을 검토 합니다.
 
 **조언**
 
-Microsoft Managed Desktop 사용자에 게 부여할 앱의 인벤토리를 준비 해야 합니다. Intune을 통해 이러한 앱을 배포할 수 있는지 확인 합니다. 자세한 내용은 [Microsoft Managed Desktop의 앱](apps.md)을 참조 하세요.
+Microsoft Managed Desktop 사용자에 게 부여할 앱의 인벤토리를 준비 해야 합니다. 이러한 앱은 Intune에서 배포 해야 하므로 기존 Intune 앱 다시 사용을 평가 합니다. 회사 포털을 사용 하는 것이 좋습니다 (장치 및 ESP (등록 상태 페이지) [에 Intune 회사 포털 설치](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/company-portal) 를 참조 하 여 앱을 사용자에 게 배포 합니다. 자세한 내용은 [Microsoft Managed Desktop의 앱](apps.md) 및 [Autopilot 및 등록 상태 페이지를 사용 하 여 처음 실행 경험](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/esp-first-run)을 참조 하십시오.
 
 Microsoft 계정 담당자에 게 문의 하 여 Intune으로 마이그레이션하거나, 조정이 필요한 앱을 확인할 수 있습니다.
 
@@ -289,9 +289,8 @@ Microsoft Managed Desktop에서 만든 계정 이름과 충돌 하는 계정이 
 
 **조언**
 
-Azure AD 조직에 이러한 역할이 할당 되어 있는 경우이 역할에도 Microsoft Defender for Endpoint에 할당 된 이러한 역할이 있는지 확인 합니다. 그렇지 않으면 이러한 역할을 가진 관리자가 관리자 포털에 액세스할 수 없습니다.
+사용자가 Azure AD 조직에서 이러한 역할 중 하나에 할당 되어 있는 경우에는이 역할에도 Microsoft Defender for Endpoint에서 이러한 역할이 할당 되어 있는지 확인 합니다. 그렇지 않으면 이러한 역할을 가진 관리자가 관리자 포털에 액세스할 수 없습니다.
 
-- 보안 읽기 권한자
 - 보안 운영자
 - 전역 읽기 권한자
 
@@ -308,7 +307,7 @@ Azure Active Directory의 보안 기본값을 설정 하면 Microsoft Managed De
 
 ### <a name="self-service-password-reset"></a>셀프 서비스 암호 재설정
 
-Microsoft Managed Desktop service 계정을 제외한 모든 사용자에 대해 셀프 서비스 암호 재설정 (SSPR)을 사용 하도록 설정 해야 합니다. 자세한 내용은 [Tutorial: 사용자가 Azure Active Directory 셀프 서비스 암호 재설정을 사용 하 여 계정의 잠금을 해제 하거나 암호를 재설정할 수 있도록](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr)합니다 .를 참조 하세요.
+Microsoft Managed Desktop service 계정을 제외한 모든 Microsoft 관리 데스크톱 사용자에 대해 셀프 서비스 암호 재설정 (SSPR)을 사용 하도록 설정 해야 합니다. 자세한 내용은 [Tutorial: 사용자가 Azure Active Directory 셀프 서비스 암호 재설정을 사용 하 여 계정의 잠금을 해제 하거나 암호를 재설정할 수 있도록](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr)합니다 .를 참조 하세요.
 
 **조언**
 
@@ -325,11 +324,11 @@ Microsoft Managed Desktop users에는 등록 후에도 Microsoft Managed Desktop
 
 ## <a name="microsoft-365-apps-for-enterprise"></a>엔터프라이즈용 Microsoft 365 앱
 
-### <a name="onedrive-for-business"></a>비즈니스용 OneDrive
+### <a name="onedrive"></a>OneDrive
 
 **특정 도메인에 가입 된 pc 에서만 동기화 허용** 설정은 Microsoft Managed Desktop과 충돌 합니다.
 
 **조언**
 
-**특정 도메인에 가입 된 pc 에서만 동기화 허용** 설정을 사용 하 고 있습니다. 이 설정은 Microsoft Managed Desktop에서는 작동 하지 않습니다. 이 설정을 사용 하지 않고 비즈니스용 OneDrive에서 조건부 액세스 정책을 사용 하도록 설정 합니다. 도움말을 보려면 [조건부 액세스 배포 계획을](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access) 참조 하세요.
+**특정 도메인에 가입 된 pc 에서만 동기화 허용** 설정을 사용 하 고 있습니다. 이 설정은 Microsoft Managed Desktop에서는 작동 하지 않습니다. 이 설정을 사용 하지 않고 대신 조건부 액세스 정책을 사용 하도록 OneDrive를 설정 합니다. 도움말을 보려면 [조건부 액세스 배포 계획을](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access) 참조 하세요.
 

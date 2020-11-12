@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: a9f983cebfbed1482fca7e44b77c200cbd9574ac
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: a2065ac324acd0a4d5980bceb97f9f6b8ad73058
+ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847121"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "49002248"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>테 넌 트 사서함 마이그레이션 (미리 보기)
 
@@ -407,7 +407,7 @@ T2Tbatch-testforignitedemo Syncing ExchangeRemoteMove 1
 
 사서함이 원본에서 대상으로 이동한 후에는 원본 및 대상 모두의 온-프레미스 메일 사용자가 새 targetAddress 업데이트 되도록 해야 합니다. 예제에서 이동에 사용 되는 targetDeliveryDomain는 **contoso \. onmicrosoft.com** 입니다. 이 targetAddress를 사용 하 여 메일 사용자를 업데이트 합니다.
  
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
  
 **이동 후 원본 온-프레미스에서 RemoteMailboxes을 업데이트 해야 하나요?**
  
@@ -647,7 +647,5 @@ NT AUTHORITY\SELF                                {FullAccess, ReadPermission}   
    | Microsoft Defender for Office 365 (요금제 1)    |
    | Microsoft Defender for Office 365 (요금제 2)    |
    | Office 365 권한 있는 액세스 관리           |
-   | Outlook Customer Manager                          |
    | Office 365의 Premium 암호화                  |
-   || 
- 
+    
