@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 콘텐츠 공동 작업에 대 한 세부 정보-생산성 점수가 사용자에 게 제공 됩니다.
-ms.openlocfilehash: 87f89af527e2a1b843a9b70fbef590b69d920f7d
-ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
+ms.openlocfilehash: 5cdbe0cbb683715a19b182d0781fe238d026a400
+ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48804600"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "48999431"
 ---
 # <a name="content-collaboration--people-experiences"></a>콘텐츠 공동 작업-사용자 환경
 
@@ -32,7 +32,7 @@ ms.locfileid: "48804600"
 
 ## <a name="why-your-organization39s-content-collaboration-score-matters"></a>조직의&#39;s 콘텐츠 공동 작업 점수가 중요 한 이유
 
-조직의 생산성을 유지 하는 기본 기둥은 사용자가 파일에서 공동 작업 하는 방법입니다. Microsoft 365의 콘텐츠를 사용 하 여 다른 사용자와의 모든 위치에서 콘텐츠를 액세스 하 고, 수정 하 고, 공동 작업을 수행 합니다. 조사에서는 사용자가 온라인 파일을 사용 하 여 공동 작업을 하는 경우 각 사용자가 일주일에 평균 100 분을 절약할 수 있음을 보여 줍니다. [증거](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf)를 참조 하세요.
+조직의 생산성을 유지 하는 기본 기둥은 사용자가 파일에서 공동 작업 하는 방법입니다. Microsoft 365의 콘텐츠를 사용 하 여 다른 사용자와의 모든 위치에서 콘텐츠를 액세스 하 고, 수정 하 고, 공동 작업을 수행 합니다. 조사에서는 사용자가 온라인 파일을 사용 하 여 공동 작업을 하는 경우 각 사용자가 일주일에 평균 100 분을 절약할 수 있음을 보여 줍니다. [증거를 참조 하세요](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
 
 ## <a name="how-we-calculate-the-content-collaboration-score"></a>콘텐츠 공동 작업 점수를 계산 하는 방법
 
@@ -81,7 +81,7 @@ Microsoft 비즈니스용 OneDrive 및 SharePoint에서는 사용자가 장치 �
 
 경향 시각화 차트는 최근 180 일 동안 독자, 작성자 및 공동 작업자에 대 한 기본 통찰력 지표의 추세를 보여 줍니다. 차트의 각 데이터 요소는 지난 28 일 동안의 활동 집계입니다. 각 creator 데이터 포인트는 x 축에서 각 날짜에 대해 마지막 28 일 이내에 작성자로 태그가 지정 된 모든 사용자의 수를 제공 합니다.
 
-:::image type="content" source="../../media/trendvisualization.jpg" alt-text="통신 공동 작업 점수에 대 한 기본 정보를 파악 합니다.":::
+:::image type="content" source="../../media/trendvisualization.jpg" alt-text="공동 작업 기본 통찰력 추세를 포함 하는 차트":::
 
 ### <a name="scoring-framework"></a>성과 구조 평가
 
@@ -93,7 +93,7 @@ Microsoft 비즈니스용 OneDrive 및 SharePoint에서는 사용자가 장치 �
 
 ### <a name="creating-files-to-onedrive-or-sharepoint"></a>OneDrive 또는 SharePoint에 파일 만들기
 
-:::image type="content" source="../../media/sharepointonedrivefiles.jpg" alt-text="통신 공동 작업 점수에 대 한 기본 정보를 파악 합니다.":::
+:::image type="content" source="../../media/sharepointonedrivefiles.jpg" alt-text="OneDrive 또는 SharePoint에서 파일을 만든 사용자 수를 보여 주는 차트":::
 
 1. **머리글:** OneDrive 또는 SharePoint에서 파일을 만드는 Microsoft 365 Office 응용 프로그램에서 활성 상태인 사용자의 백분율을 강조 표시 합니다.
 2. **본문:** OneDrive 및 SharePoint의 콘텐츠 생성 값에 대 한 정보를 제공 합니다.
@@ -109,7 +109,7 @@ Microsoft 비즈니스용 OneDrive 및 SharePoint에서는 사용자가 장치 �
 
 ### <a name="use-of-attachments-in-email"></a>전자 메일에 첨부 파일 사용
 
-:::image type="content" source="../../media/emailattachments.png" alt-text="통신 공동 작업 점수에 대 한 기본 정보를 파악 합니다.":::
+:::image type="content" source="../../media/emailattachments.png" alt-text="전자 메일 첨부 파일을 사용 합니다.":::
 
 1. **머리글:** OneDrive 또는 SharePoint에 저장 되지 않은 전자 메일에서 첨부 파일을 사용 하는 사용자의 백분율을 강조 표시 합니다.
 2. **본문:** 공동 작업 및 보안 측면에서 온라인 파일에 대 한 링크 공유 값에 대 한 정보를 제공 합니다.
@@ -127,7 +127,7 @@ Microsoft 비즈니스용 OneDrive 및 SharePoint에서는 사용자가 장치 �
 
 ### <a name="sharing-of-online-files"></a>온라인 파일 공유
 
-:::image type="content" source="../../media/sharingonlinefiles.png" alt-text="통신 공동 작업 점수에 대 한 기본 정보를 파악 합니다.":::
+:::image type="content" source="../../media/sharingonlinefiles.png" alt-text="온라인으로 파일을 공유 하는 사용자 수를 보여 주는 차트입니다.":::
 
 1. **머리글:** 외부에서 파일을 공유 하는 OneDrive 또는 SharePoint에 대 한 액세스 권한이 있는 사용자의 백분율을 강조 표시 합니다.
 2. **본문:** 조직의 파일 공유 설정을 변경 하 여 조직에 가장 적합 한 공동 작업 수준을 사용할 수 있도록 하는 관리자&#39; 기능에 대 한 정보를 제공 합니다.
@@ -142,7 +142,7 @@ Microsoft 비즈니스용 OneDrive 및 SharePoint에서는 사용자가 장치 �
 
 ### <a name="intensity-of-files-collaborated-on"></a>Collaborated 파일의 농도
 
-:::image type="content" source="../../media/intensityofcollab.png" alt-text="통신 공동 작업 점수에 대 한 기본 정보를 파악 합니다.":::
+:::image type="content" source="../../media/intensityofcollab.png" alt-text="가장 collaborated 되는 파일의 수를 보여 주는 차트":::
 
 1. **머리글:** 여기에는 4 개 이상의 파일을 사용 하 여 공동으로 작업 하는 OneDrive 또는 SharePoint에 대 한 액세스 권한이 있는 사용자의 백분율이 강조 표시 됩니다.
 2. **본문:** 이렇게 하면 사용자가 온라인 파일을 활용 하 여 보다 나은 공동 작업을 수행할 수 있습니다.
@@ -164,7 +164,7 @@ Microsoft 비즈니스용 OneDrive 및 SharePoint에서는 사용자가 장치 �
 
 ### <a name="network-performance-strength-for-onedrive-and-sharepoint"></a>OneDrive 및 SharePoint의 네트워크 성능 수준
 
-:::image type="content" source="../../media/networkperfstrength.png" alt-text="통신 공동 작업 점수에 대 한 기본 정보를 파악 합니다.":::
+:::image type="content" source="../../media/networkperfstrength.png" alt-text="OneDrive 및 SharePoint의 네트워크 성능을 보여 주는 차트":::
 
 1. **머리글:** 모든 테스트에서 OneDrive 및 SharePoint에 대 한 네트워크 연결이 잘못 된 장치 비율을 강조 표시 합니다. 
 2. **본문:** 공동 작업을 위해 네트워크 연결 성능이 중요 한 이유에 대 한 정보를 제공 합니다. 

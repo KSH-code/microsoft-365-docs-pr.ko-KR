@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: 개인 정보를 생산성 점수가 보호 되는 방식입니다.
-ms.openlocfilehash: 4978039d99704c0658fe22f3725167ac31276dcd
-ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
+ms.openlocfilehash: 8686c7c86249a408fe8d4fda14c2ae23a168cafe
+ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48804750"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "48999409"
 ---
 # <a name="privacy-controls-for-productivity-score"></a>생산성 점수에 대 한 개인 정보 제어
 
-생산성 점수 조직은 사용자 및 기술 환경을 측정 하 고 향상 시키는 데 도움이 되는 메트릭으로 작업을 수행 하는 방식을 변환 합니다. 이를 통해 조직의 작동 방식을 파악 하는 데 도움이 되며 향상 된 경험을 사용 하기 위해 집중할 수 있는 메트릭이 제공 됩니다.  또한 모든 사용자가 최상의 작업을 수행할 수 있도록 메트릭을 작업에 연결 하 여 기술 및 시스템을 업데이트할 수 있습니다. 점수가 조직의 성과를 반영 하며 점수를 사용자와 같은 다른 조직과 안전 하 게 비교할 수도 있습니다.  자세한 내용은 [생산성 점수 개요](productivity-score.md)를 참조 하세요.
+생산성 점수 조직은 사용자 및 기술 환경을 평가 하 고 개선 하는 데 도움이 되는 메트릭으로 작업을 수행 하는 방식을 변환 합니다. 조직의 작동 방식을 파악 하는 데 도움이 되며 향상 된 경험을 사용 하도록 설정 하는 데 도움이 되는 메트릭을 제공 합니다.  또한 모든 사용자가 최상의 작업을 수행할 수 있도록 메트릭을 작업에 연결 하 여 기술 및 시스템을 업데이트할 수 있습니다. 점수가 조직의 성과를 반영 하며 점수를 사용자와 같은 다른 조직과 안전 하 게 비교할 수도 있습니다.  자세한 내용은 [생산성 점수 개요](productivity-score.md)를 참조 하세요.
 
 개인 정보를 보호 하는 것이 중요 합니다. 개인 정보를 보호 하는 방법에 대 한 자세한 내용은 [Microsoft의 개인 정보 취급](https://privacy.microsoft.com/privacystatement)방침를 참조 하세요. 생산성 점수 조직의 사용자가 Microsoft에 설치한 트러스트를 손상 시 키 지 않고 정보에 대 한 작업을 수행 하는 방법에 대 한 중요 한 정보를 제공 합니다.
 
@@ -77,17 +77,17 @@ Add-AzureADDirectoryRoleMember -ObjectId $role.ObjectId -RefObjectId $u.ObjectId
 모든 보고서에 대해 수집 되는 데이터를 익명으로 만들려면 전역 관리자 여야 합니다. 이 작업은 생산성 점수 및 Microsoft 365 사용량을 비롯 하 여 모든 보고서에서 사용자, 그룹 및 사이트 이름과 같은 식별 가능한 정보를 숨깁니다.
 
 1. 관리 센터에서 조직 설정 **설정** 으로 이동 하   >   **Org Settings** 고 **서비스** 탭에서 **보고서** 를 선택 합니다.
-2. **보고서** 를 선택한 다음 **생산성 점수 및 사용 현황 보고서의 사용자, 그룹 및 사이트 이름에 대 한 익명 식별자를 표시** 하도록 선택 합니다. 이 설정은 사용 현황 보고서와 서식 파일 앱에 모두 적용 됩니다.
+2. **보고서** 를 선택한 다음 **생산성 점수 및 사용 현황 보고서에서 사용자, 그룹 및 사이트 이름에 대 한 익명 식별자를 표시** 하도록 선택 합니다. 이 설정은 사용 현황 보고서와 서식 파일 앱에 모두 적용 됩니다.
 3. **변경 내용 저장** 을 선택 합니다.
 
-:::image type="content" source="../../media/orgsettings_anonymous.jpg" alt-text="생산성 보고서의 통신 페이지":::
+:::image type="content" source="../../media/orgsettings_anonymous.jpg" alt-text="보고서에 대해 사용자 정보를 익명으로 설정 합니다.":::
 
 ## <a name="capability-to-opt-out-of-people-experiences"></a>사용자 환경에 대 한 경험을 옵트아웃 하는 기능
 
 일반적으로 생산성 점수를 사용할 수 있는 경우에도 생산성 점수가 사용자에 게 주는 분야를 거부할 수 있습니다. 옵트아웃 하는 경우 조직에서 이러한 메트릭을 볼 수 없으며, 조직이 통신, 회의, 팀 작업, 콘텐츠 공동 작업 및 이동성과 관련 된 모든 계산에서 제거 됩니다.
 
 1. 관리 센터에서 조직 설정 **설정** 으로 이동 하   >   **Org Settings** 고 **서비스** 탭에서 **보고서** 를 선택 합니다.
-2. **보고서** 를 선택한 다음 **Microsoft 365 사용 현황 데이터를 사용 하는 사용자에 게 유용한 정보** 를 제공 하는 확인란을 선택 취소 합니다. Intune 구성 관리자에서 끝점 분석에 대 한 데이터 공유 설정을 수정 하는 방법을 이해 하려면 **자세한 정보** 를 클릭 합니다.
+2. **보고서** 를 선택 하 고 **Microsoft 365 사용 현황 데이터를 사용 하 여 사용자의 정보를 확인할 수** 있는 확인란의 선택을 취소 합니다. Intune 구성 관리자에서 끝점 분석에 대 한 데이터 공유 설정을 수정 하는 방법을 이해 하려면 **자세한 정보** 를 클릭 합니다.
 3. **변경 내용 저장** 을 선택 합니다.
 
-:::image type="content" source="../../media/orgsettingspageoptout.jpg" alt-text="생산성 보고서의 통신 페이지":::
+:::image type="content" source="../../media/orgsettingspageoptout.jpg" alt-text="사용자 환경에서 제외할 수 있는 조직 설정 페이지입니다.":::
