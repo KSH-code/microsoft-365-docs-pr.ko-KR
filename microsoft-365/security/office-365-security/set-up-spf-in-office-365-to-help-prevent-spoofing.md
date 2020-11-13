@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365에서 사용자 지정 도메인과 함께 SPF(Sender Policy Framework)를 사용할 수 있도록 DNS(도메인 이름 서비스) 레코드를 업데이트하는 방법을 알아봅니다.
-ms.openlocfilehash: 20943f38dab436b48ff734753e951db4342d24ac
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: ce8a982b875632ad58b34ae240c02b507c4656fe
+ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350690"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49021064"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>스푸핑을 방지할 수 있도록 SPF 설정
 
@@ -55,9 +55,9 @@ DNS에서 TXT 레코드를 업데이트하기 전에 먼저 정보를 수집하�
 
 - 모든 온-프레미스 메시징 서버의 외부 IP 주소. 예를 들어, **131.107.2.200**.
 
-- SPF TXT 레코드에 포함해야하는 모든 제3자 도메인에 사용할 도메인 이름. 일부 대량 메일 공급자는 고객에게 사용할 하위 도메인을 설정했습니다. 예를 들어, MailChimp 회사는 **servers.mcsv.net**을 설정했습니다.
+- SPF TXT 레코드에 포함해야하는 모든 제3자 도메인에 사용할 도메인 이름. 일부 대량 메일 공급자는 고객에게 사용할 하위 도메인을 설정했습니다. 예를 들어, MailChimp 회사는 **servers.mcsv.net** 을 설정했습니다.
 
-- SPF TXT 레코드에 사용할 시행 규칙을 결정합니다. **-all**을 권장합니다. 다른 구문 옵션에 대한 자세한 내용은 [Office 365용 SPF TXT 레코드 구문](how-office-365-uses-spf-to-prevent-spoofing.md#SPFSyntaxO365)을 참조하세요.
+- SPF TXT 레코드에 사용할 시행 규칙을 결정합니다. **-all** 을 권장합니다. 다른 구문 옵션에 대한 자세한 내용은 [Office 365용 SPF TXT 레코드 구문](how-office-365-uses-spf-to-prevent-spoofing.md#SPFSyntaxO365)을 참조하세요.
 
 ### <a name="to-add-or-update-your-spf-txt-record"></a>SPF TXT 레코드를 추가하거나 업데이트하려면
 
@@ -105,7 +105,7 @@ DNS에서 TXT 레코드를 업데이트하기 전에 먼저 정보를 수집하�
 모든 도메인 및 하위 도메인에 대해 추가 와일드카드 SPF 레코드(`*.`)가 있어야 공격자가 존재하지 않는 하위 도메인에서 보낸다고 주장하는 전자 메일을 보낼 수 없습니다. 예를 들어,
 
 ```text
-*.subdomain.contoso.com. IN TXT "v=spf1 –all"
+*.subdomain.contoso.com. IN TXT "v=spf1 -all"
 ```
 
 ## <a name="more-information-about-spf"></a>SPF에 대한 자세한 정보

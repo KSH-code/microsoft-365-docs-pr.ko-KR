@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: 보안 및 준수 센터에서 Explorer 및 실시간 검색을 사용 하 여 위협에 효과적이 고 효율적으로 대응 하는 방법에 대해 알아봅니다 &amp; .
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 561e4c62922a4da0789111de5c3be7844bb83692
-ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
+ms.openlocfilehash: bc137a7390961e2b6abe049aead2b238cb9d3a16
+ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "48948496"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49021124"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
@@ -172,7 +172,7 @@ URL 및 URL 클릭 데이터를 중심으로 하는 향상 된 기능 집합은 
 
 - Url 플라이 아웃의 클릭 섹션 내에서 URL의 일부인 쿼리 매개 변수를 포함 하 여 클릭 한 전체 URL을 표시 합니다. 현재 URL 도메인과 경로가 제목 표시줄에 표시 됩니다. 이 정보를 확장 하 여 전체 URL을 표시 합니다.
 
-- Url 필터 (URL vs url 도메인 vs URL 도메인 및 경로): URL이 포함 된 메시지를 검색 하는 과정에서 업데이트를 수행 하 고 결과를 클릭 합니다. 이 작업의 일부로, 프로토콜에 관계 없이 검색을 지원 하도록 설정 했습니다 (http를 사용 하지 않고 URL을 직접 검색할 수 있음). 기본적으로 URL 검색은 명시적으로 지정 된 경우를 제외 하 고 http에 매핑됩니다. 예를 들면 다음과 같습니다.
+- Url 필터 (URL vs url 도메인 vs URL 도메인 및 경로): URL이 포함 된 메시지를 검색 하는 과정에서 업데이트를 수행 하 고 결과를 클릭 합니다. 이 작업의 일부로, 프로토콜에 관계 없이 검색을 지원 하도록 설정 했습니다 (http를 사용 하지 않고 URL을 직접 검색할 수 있음). 기본적으로 URL 검색은 명시적으로 지정 된 경우를 제외 하 고 http에 매핑됩니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
 
   1. `http://`"Url", "Url 도메인" 및 "Url 도메인 및 경로" 필터 필드에서 접두사를 사용 하지 않고 검색 합니다. 이 동작은 일관적 이며 같은 결과를 표시 합니다.
 

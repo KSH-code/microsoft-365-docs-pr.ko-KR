@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: 다음 표에는 EOP(Exchange 온라인 보호) 호스팅 전자 메일 필터링 서비스에서 사용할 수 있는 기능 목록이 나와 있습니다.
-ms.openlocfilehash: 58893cd4a4d6c90c8d19de5a6b2f0d108ee797e0
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: dcbb7d2e31e230633d0401eee0ef0874eb6af615
+ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202930"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49021040"
 ---
 # <a name="eop-features"></a>EOP 기능
 
@@ -34,10 +34,10 @@ ms.locfileid: "48202930"
 |기능|설명|
 |---|---|
 |**스팸 방지 보호 기능**||
-|인바운드 스팸 검색|자세한 내용은 [Microsoft 365의 스팸 방지 보호](anti-spam-protection.md)를 참조 하세요. <br/><br/> EOP로 온-프레미스 Exchange 사서함을 보호하는 독립 실행형 EOP 환경에서는 EOP 스팸 필터링 결과를 변환하여 정크 메일 규칙에 따라 메시지를 정크 메일 폴더로 이동하기 위해 온-프레미스 Exchange에서 메일 흐름 규칙(전송 규칙이라고도 함)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성를](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) 참조 하세요.|
+|인바운드 스팸 검색|자세한 내용은 [Microsoft 365의 스팸 방지 보호](anti-spam-protection.md)를 참조 하세요. <p> EOP로 온-프레미스 Exchange 사서함을 보호하는 독립 실행형 EOP 환경에서는 EOP 스팸 필터링 결과를 변환하여 정크 메일 규칙에 따라 메시지를 정크 메일 폴더로 이동하기 위해 온-프레미스 Exchange에서 메일 흐름 규칙(전송 규칙이라고도 함)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성를](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) 참조 하세요.|
 |아웃바운드 스팸 검색|아웃 바운드 메일을 보내는 데 서비스를 사용 하는 경우 아웃 바운드 스팸 방지 보호는 항상 사용 하도록 설정 됩니다. 자세한 내용은 [아웃 바운드 스팸 보호](outbound-spam-controls.md)를 참조 하세요.|
 |Backscatter 보호|자세한 내용은 [Backscatter 및 EOP](backscatter-messages-and-eop.md)을 참조 하십시오.|
-|대량 메일 필터링|EOP에서는 BCL (대량 불만 임계값)을 사용 하 여 대량 전자 메일 메시지를 스팸으로 표시 합니다. 자세한 내용은 다음 항목을 참조하세요. <br/><br/> [정크 이메일과 대량 이메일의 차이점이 무엇인가요?](what-s-the-difference-between-junk-email-and-bulk-email.md) <br/> [EOP의 BCL (대량 불만 수준)](bulk-complaint-level-values.md) <br/> [스팸 방지 정책 구성](configure-your-spam-filter-policies.md)|
+|대량 메일 필터링|EOP에서는 BCL (대량 불만 임계값)을 사용 하 여 대량 전자 메일 메시지를 스팸으로 표시 합니다. 자세한 내용은 다음 항목을 참조하세요. <p> [정크 이메일과 대량 이메일의 차이점이 무엇인가요?](what-s-the-difference-between-junk-email-and-bulk-email.md) <p> [EOP의 BCL (대량 불만 수준)](bulk-complaint-level-values.md) <p> [스팸 방지 정책 구성](configure-your-spam-filter-policies.md)|
 |악성 URL 차단 목록|EOP에서는 메시지 내에서 알려진 악성 링크를 검색하는 데 도움이 되는 여러 URL 차단 목록을 사용합니다.|
 |피싱 방지 보호 기능|EOP에는 750,000개의 알려진 스팸 발송자 도메인이 포함되어 있습니다.|
 |스푸핑 방지 보호 기능|자세한 내용은 [스푸핑 방지 보호](anti-spoofing-protection.md)를 참조 하세요.|
@@ -46,7 +46,7 @@ ms.locfileid: "48202930"
 |사용자 지정 스팸 방지 정책 만들기|세분성을 높이기 위해 사용자 지정 스팸 방지 정책을 만들어 조직의 지정 된 사용자, 그룹 또는 도메인에 적용할 수 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만 사용자 지정 정책의 우선 순위(즉, 실행 순서)를 변경할 수 있습니다. 자세한 내용은 [스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.|
 |스팸 필터링 메시지에 대 한 작업 구성|예를 들어 콘텐츠가 필터링된 메시지를 삭제하거나 이러한 메시지를 격리 또는 정크 메일 폴더로 보낼 수 있습니다. 자세한 내용은 [스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.|
 |다국어 스팸 필터링|스팸 방지 필터링을 구성 하 여 특정 언어로 작성 되었거나 특정 국가나 지역에서 보낸 메시지를 필터링 할 수 있습니다. 자세한 내용은 [스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.|
-|Outlook 또는 웹용 Outlook을 통한 스팸 관리 (이전의 Outlook Web App)|관리자 및 최종 사용자가 안전한 보낸 사람 목록 및 차단된 보낸 사람 목록을 만들 수 있습니다. 자세한 내용은 [Outlook의 정크 메일 설정 정보](configure-junk-email-settings-on-exo-mailboxes.md#about-junk-email-settings-in-outlook)를 참조 하세요. <br/><br/> EOP을 사용 하 여 온-프레미스 사서함을 보호 하는 경우 이러한 설정이 서비스와 동기화 되도록 디렉터리 동기화를 사용 해야 합니다. 디렉터리 동기화 설정에 대한 자세한 내용은 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)에서 "디렉터리 동기화를 사용하여 메일 사용자 관리"를 참조하세요.|
+|Outlook 또는 웹용 Outlook을 통한 스팸 관리 (이전의 Outlook Web App)|관리자 및 최종 사용자가 안전한 보낸 사람 목록 및 차단된 보낸 사람 목록을 만들 수 있습니다. 자세한 내용은 [Outlook의 정크 메일 설정 정보](configure-junk-email-settings-on-exo-mailboxes.md#about-junk-email-settings-in-outlook)를 참조 하세요. <p> EOP을 사용 하 여 온-프레미스 사서함을 보호 하는 경우 이러한 설정이 서비스와 동기화 되도록 디렉터리 동기화를 사용 해야 합니다. 디렉터리 동기화 설정에 대한 자세한 내용은 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)에서 "디렉터리 동기화를 사용하여 메일 사용자 관리"를 참조하세요.|
 |Microsoft에 가양성 및 거짓 네거티브를 보고 합니다.|자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.|
 |최종 사용자 스팸 격리 알림|자세한 내용은 [최종 사용자 스팸 알림을](use-spam-notifications-to-release-and-report-quarantined-messages.md) 참조 하 고 [최종 사용자 스팸 알림을 구성](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)합니다.|
 |격리 포털에서 메시지를 보고, 찾고, 관리 합니다.|자세한 내용은 [격리 된 메시지 및 파일을 관리자 권한으로 관리 EOP](manage-quarantined-messages-and-files.md) 또는 [사용자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.|
@@ -61,7 +61,7 @@ ms.locfileid: "48202930"
 |스파이웨어 방지 보호 기능|맬웨어 방지 보호는 바이러스 백신 및 스파이웨어 방지를 포괄합니다.|
 |사용자 지정 맬웨어 필터 정책 만들기|세분성을 높이기 위해 사용자 지정 맬웨어 필터 정책을 만들어서 조직의 지정된 사용자, 그룹 또는 도메인에 적용할 수 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만 사용자 지정 정책의 우선 순위(즉, 실행 순서)를 변경할 수 있습니다. 자세한 내용은 [맬웨어 방지 정책 구성을](configure-anti-malware-policies.md)참조 하세요.|
 |**메일 라우팅 및 커넥터**||
-|조건부 메일 라우팅|자세한 내용은 [Scenario: 조건부 메일 routing In Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/conditional-mail-routing)를 참조 하세요.|
+|조건부 메일 라우팅|자세한 내용은 [시나리오: Exchange Online에서 조건부 메일 라우팅](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/conditional-mail-routing)을 참조하세요.|
 |편의적 또는 강제 TLS|커넥터에서 oplocks 또는 강제 TLS를 사용할 수 있습니다. Oplocks tls는 tls 연결을 시도 하지만 TLS 연결이 실패 하면 SMTP 연결을 사용 합니다. Tls 연결을 강제 적용 하면 tls 연결이 실패 하는 경우 메시지가 거부 된다는 것을 의미 합니다. TLS, 보안 및 커넥터에 대한 자세한 내용은 [Set up connectors for secure mail flow with a partner organization](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-for-secure-mail-flow-with-a-partner)을 참조하세요.|
 |국가별 라우팅(메일 흐름이 특정 지역으로 제한)|자세한 내용은 [Exchange Online Protection 개요](exchange-online-protection-overview.md)에서 "EOP 데이터 센터" 섹션을 참조하세요.|
 |SMTP 연결 검사기 도구|이 도구를 사용 하 여 메일 흐름을 테스트 하는 방법에 대 한 자세한 내용은 [Microsoft 365 커넥터를 확인 하 여 메일 흐름 테스트](https://docs.microsoft.com/exchange/mail-flow-best-practices/test-mail-flow)를 참조 하세요.|

@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: b77313a18a5744549e492de991e282bc34dbb6da
-ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
+ms.openlocfilehash: 0459de8974fe6bae98e6984fd7dc65afeb04b4e7
+ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49002420"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49021088"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>준비 평가 도구에서 발견한 문제 해결
 
@@ -29,6 +29,8 @@ ms.locfileid: "49002420"
 |오류 | 사용 중인 Azure 활성 디렉터 (AD) 역할에이 검사를 실행할 수 있는 충분 한 권한이 없습니다. |
 
 ## <a name="microsoft-intune-settings"></a>Microsoft Intune 설정
+
+Intune 설정에는 Microsoft Endpoint Manager [관리 센터](https://endpoint.microsoft.com)에서 액세스할 수 있습니다.
 
 ### <a name="autopilot-deployment-profile"></a>Autopilot 배포 프로필
 
@@ -247,6 +249,7 @@ Intune의 "Windows 10 업데이트 링" 정책은 Microsoft Managed Desktop 장�
 
 ## <a name="azure-active-directory-settings"></a>Azure Active Directory 설정
 
+Azure [portal](https://portal.azure.com)에서 Azure Active Directory 설정에 액세스할 수 있습니다.
 
 ### <a name="ad-hoc-subscriptions"></a>임시 구독
 
@@ -326,7 +329,7 @@ Microsoft Managed Desktop users에는 등록 후에도 Microsoft Managed Desktop
 
 ### <a name="onedrive"></a>OneDrive
 
-**특정 도메인에 가입 된 pc 에서만 동기화 허용** 설정은 Microsoft Managed Desktop과 충돌 합니다.
+**특정 도메인에 가입 된 pc 에서만 동기화 허용** 설정은 Microsoft Managed Desktop과 충돌 합니다. Onedrive [관리 센터](https://admin.onedrive.com)에서 onedrive 설정에 액세스할 수 있습니다.
 
 **조언**
 

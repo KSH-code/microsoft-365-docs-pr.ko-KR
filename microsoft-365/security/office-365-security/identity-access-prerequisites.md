@@ -18,18 +18,18 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: d57709d78cd8b64b740c88362cb99653f6dec681
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: db0f001d20f46c5c248ec153238fe394b8e9721c
+ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48463993"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49020976"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Id 및 장치 액세스 정책을 구현 하기 위한 필수 작업
 
 이 문서에서는 권장 되는 id 및 장치 액세스 정책을 배포 하기 전에 구현 해야 하는 필수 구성 요소에 대해 설명 합니다. 이 문서에서는 또한 사용자에 게 최적의 SSO (single sign-on) 환경을 제공 하는 데 필요한 기본 플랫폼 클라이언트 구성과 조건부 액세스에 대 한 기술적 필수 구성 요소에 대해 설명 합니다.
 
-## <a name="prerequisites"></a>필수 조건
+## <a name="prerequisites"></a>필수 구성 요소
 
 권장 되는 id 및 장치 액세스 정책을 구현 하기 전에 조직에서 Microsoft 365 및 Office 365에 대 한 이러한 id 및 인증 모델에 대해 충족 해야 하는 몇 가지 필수 구성 요소가 있습니다.
 
@@ -60,7 +60,7 @@ ms.locfileid: "48463993"
 ### <a name="windows-devices"></a>Windows 장치
 Azure는 온-프레미스 및 Azure AD 둘 다에 사용할 수 있는 원활한 SSO 환경을 제공 하도록 디자인 되었기 때문에 Windows 10 (버전 2004 이상)이 권장 됩니다. 회사 또는 학교에서 발급 한 장치를 Azure AD에 직접 가입 하도록 구성 하거나, 조직에서 온-프레미스 AD 도메인 가입을 사용 하는 경우 해당 장치를 [자동으로 AZURE AD에 등록 하도록 구성](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup)해야 합니다.
 
-BYOD Windows 장치에서는 사용자가 **회사 또는 학교 계정 추가**를 사용할 수 있습니다. Windows 10 장치의 Google Chrome 브라우저 사용자는 Microsoft Edge 사용자와 동일한 순조로운 로그인 환경을 사용 하기 위해 [내선 번호를 설치](https://chrome.google.com/webstore/detail/windows-10-accounts/ppnbnpeolgkicgegkbkbjmhlideopiji?utm_source=chrome-app-launcher-info-dialog) 해야 합니다. 또한 조직에서 도메인에 가입한 Windows 8 또는 8.1 장치를 사용 하는 경우 비 Windows 10 컴퓨터에 대해 Microsoft 작업 영역 참가를 설치할 수 있습니다. Azure AD를 사용 하 여 장치를 [등록 하는 패키지를 다운로드](https://www.microsoft.com/download/details.aspx?id=53554) 합니다.
+BYOD Windows 장치에서는 사용자가 **회사 또는 학교 계정 추가** 를 사용할 수 있습니다. Windows 10 장치의 Google Chrome 브라우저 사용자는 Microsoft Edge 사용자와 동일한 순조로운 로그인 환경을 사용 하기 위해 [내선 번호를 설치](https://chrome.google.com/webstore/detail/windows-10-accounts/ppnbnpeolgkicgegkbkbjmhlideopiji?utm_source=chrome-app-launcher-info-dialog) 해야 합니다. 또한 조직에서 도메인에 가입한 Windows 8 또는 8.1 장치를 사용 하는 경우 비 Windows 10 컴퓨터에 대해 Microsoft 작업 영역 참가를 설치할 수 있습니다. Azure AD를 사용 하 여 장치를 [등록 하는 패키지를 다운로드](https://www.microsoft.com/download/details.aspx?id=53554) 합니다.
 
 ### <a name="ios-devices"></a>iOS 장치
 조건부 액세스 또는 MFA 정책을 배포 하기 전에 사용자 장치에 [Microsoft Authenticator 앱](https://docs.microsoft.com/azure/multi-factor-authentication/end-user/microsoft-authenticator-app-how-to) 을 설치 하는 것이 좋습니다. 사용자가 회사 또는 학교 계정을 추가 하 여 Azure AD에 장치를 등록 해야 하거나, 관리자에 게 장치를 등록 하기 위해 Intune 회사 포털 앱을 설치할 때 앱이 설치 되어 있어야 합니다. 이는 구성 된 조건부 액세스 정책에 따라 달라 집니다.

@@ -16,12 +16,12 @@ ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
 description: 전자 메일을 사용할 때 사용자의 신뢰를 유지 하기 위해 Microsoft는 사용자를 보호 하기 위한 다양 한 정책 및 기술을 배치 했습니다.
-ms.openlocfilehash: e9389d52ee1d6c1c0bbab8630778749a6ed6005f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 478f94d2ed1a03253168486d48fb2b2df57a6a5e
+ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199580"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49021028"
 ---
 # <a name="services-for-non-customers-sending-mail-to-microsoft-365"></a>비 고객을 위한 Microsoft 365 메일을 보내는 서비스
 
@@ -38,7 +38,7 @@ ms.locfileid: "48199580"
 
 |서비스|이점|
 |---|---|
-|온라인 도움말 콘텐츠|단계별로 <br/> EOP 사용자에 게 통신을 제공 하는 것과 관련 된 질문에 대 한 시작 지점입니다. <br/><br/> 여기에는 정책과 요구 사항이 포함 된 간단한 온라인 가이드가 포함 되어 있습니다. <br/><br/> Microsoft에서 채택 하 고 있는 정크 메일 필터 및 인증 기술에 대 한 개요입니다.|
+|온라인 도움말 콘텐츠|단계별로 <ul><li>EOP 사용자에 게 통신을 제공 하는 것과 관련 된 질문에 대 한 시작 지점입니다.</li><li>여기에는 정책과 요구 사항이 포함 된 간단한 온라인 가이드가 포함 되어 있습니다.</li><li>Microsoft에서 채택 하 고 있는 정크 메일 필터 및 인증 기술에 대 한 개요입니다.</li><ul>|
 |[Microsoft 지원](#microsoft-support)|배달 문제에 대 한 자가 진단 및 에스컬레이션 지원을 제공 합니다.|
 |[스팸 방지 IP 목록 포털](#anti-spam-ip-delist-portal)|IP 목록 요청을 제출 하는 도구입니다. 이 요청을 제출 하기 전에 해당 IP가 보낸 모든 메일이 악의적이 든 악의적인 지 확인 해야 합니다.|
 |[Exchange Online에서 보내는 정크 메일에 대 한 불건전 및 스팸 보고](#abuse-and-spam-reporting-for-junk-email-originating-from-exchange-online)|스팸 및 기타 원치 않는 메일이 Exchange Online에서 전송 되 고 인터넷 및 메일 시스템을 복잡 하 게 유지 합니다.|
