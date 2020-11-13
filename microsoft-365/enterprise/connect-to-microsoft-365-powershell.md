@@ -17,12 +17,12 @@ ms.custom:
 - Ent_Office_Other
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
 description: Microsoft 365용 PowerShell을 사용하여 Microsoft 365 테넌트에 연결하여 명령줄에서 관리 센터 작업을 수행합니다.
-ms.openlocfilehash: d8263fd14d5eae58d3686f18056945a60158b421
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 33f9af45418ae8a1f126d2b321e7246201bd1f6e
+ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754307"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "49002408"
 ---
 # <a name="connect-to-microsoft-365-with-powershell"></a>PowerShell을 사용하여 Microsoft 365에 연결
 
@@ -33,9 +33,9 @@ Microsoft 365용 PowerShell을 사용하여 명령줄에서 Microsoft 365 설정
 Microsoft 365 및 관리자 계정, 그룹 및 라이선스에 연결하는 데 사용할 수 있는 두 가지 버전의 PowerShell 모듈이 있습니다.
 
 - Azure Active Directory PowerShell for Graph(cmdlet의 이름에 *AzureAD* 포함)
-- Windows PowerShell용 Microsoft Azure Active Directory 모듈(cmdlet의 이름에 *Sol* 포함)
+- Windows PowerShell용 Microsoft Azure AD 모듈(cmdlet의 이름에 *Msol* 포함)
 
-현재, Azure Active Directory PowerShell for Graph 모듈이 사용자, 그룹 및 라이선스 관리를 위해 Windows PowerShell용 Microsoft Azure Active Directory 모듈을 완전히 대체하는 것은 아닙니다. 어떤 경우에는, 두 버전을 모두 사용해야 합니다. 동일한 컴퓨터에 두 버전을 안전하게 설치할 수 있습니다.
+현재, Azure Active Directory PowerShell for Graph 모듈이 사용자, 그룹 및 라이선스 관리를 위한 Windows PowerShell용 Microsoft Azure Active Directory 모듈을 완전히 대체하는 것은 아닙니다. 어떤 경우에는, 두 버전을 모두 사용해야 합니다. 동일한 컴퓨터에 두 버전을 안전하게 설치할 수 있습니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
@@ -148,7 +148,7 @@ PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈
   
 오류 메시지가 표시되는 경우 다음 문제를 확인하세요.
   
-- **가장 흔한 문제는 암호를 잘못 입력한 경우입니다** . [2단계](#step-2-connect-to-azure-ad-for-your-microsoft-365-subscription)를 다시 실행하고 사용자 이름과 암호를 입력할 때 신중하게 확인하세요.
+- **가장 흔한 문제는 암호를 잘못 입력한 경우입니다**. [2단계](#step-2-connect-to-azure-ad-for-your-microsoft-365-subscription)를 다시 실행하고 사용자 이름과 암호를 입력할 때 신중하게 확인하세요.
     
 - **Windows PowerShell용 Microsoft Azure Active Directory 모듈을 사용하려면 컴퓨터에 Microsoft .NET Framework 3.5.* x*가 있어야 합니다**. 컴퓨터에 최신 버전(예: 4 또는 4.5.* x*)이 설치되어 있을 수 있습니다. 이전 버전의 .NET Framework와 이전 버전과의 호환성을 사용하거나 사용하지 않도록 설정할 수 있습니다. 자세한 내용은 다음 문서를 참조하세요.
     
