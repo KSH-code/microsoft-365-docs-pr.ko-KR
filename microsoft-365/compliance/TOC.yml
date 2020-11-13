@@ -82,7 +82,7 @@
 - name: 정보 보호 관리
   items:
     - name: '데이터를 확인하고, 데이터를 보호하고, 데이터 손실을 방지하세요.'
-      href: protect-information.md
+      href: information-protection.md
     - name: 중요한 정보 유형
       items:
         - name: 중요한 정보 유형 엔터티 정의
@@ -1019,7 +1019,7 @@
           href: gdpr-information-protection.md
         - name: Microsoft의 데이터 보호 관리자
           href: gdpr-data-protection-officer.md
-        - name: 시스템 생성 로그 데이터를 내보낼 수 있는 추가 단계
+        - name: 시스템 생성 로그 데이터를 내보내기 위한 추가 단계
           href: gdpr-system-generated-log-data.md
 - name: 하이브리드 준수 기능
   items:
