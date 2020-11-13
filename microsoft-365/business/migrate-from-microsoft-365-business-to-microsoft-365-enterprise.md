@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Microsoft 365 Business Premium에서 Microsoft 365 E3로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: 874da0d35759c8af4c3ee2ca4a1bdfa90a91627c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 2b15d20e3ae1ad0bef871b139e61abf3ba260729
+ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842203"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071430"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Microsoft 365 Business Premium에서 Microsoft 365 E3로 마이그레이션
 
@@ -57,7 +57,7 @@ Microsoft 365 Business Premium에는 소규모 기업에 필요한 모든 것이
 | Teams    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | 비즈니스용 OneDrive    | 사용자 당 1TB 저장소 제한    | 무제한 | 
 | Yammer, SharePoint Online, Planner, 스트림    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
-| Outlook 고객 관리자, MileIQ    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | | 
+| MileIQ    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | | 
 | **위협 방지**        | | | 
 | 공격 표면 축소 기능    | [이 목록 보기](#threat-protection) | Microsoft Edge에 대 한 하드웨어 기반 격리의 엔터프라이즈 관리 | 
 | Defender for Office 365 계획 1 | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | 포함 되지 않지만 추가할 수 있음 | 
@@ -106,7 +106,7 @@ Microsoft 365 Business Premium에는 소규모 기업에 필요한 모든 것이
 앱을 10 개 넘게 사용 하려면 Cloud App Discovery, Azure AD Connect Health 및 SSO를 사용할 수 있습니다.
 
 >[!Note]
->Microsoft 365 E3으로 마이그레이션된 사용자는 더 이상 Outlook 고객 관리자 및 MileIQ를 사용할 수 없습니다.
+>Microsoft 365 E3으로 마이그레이션된 사용자는 더 이상 MileIQ를 사용할 수 없습니다.
 >
 
 <a name="threat-protection"></a>

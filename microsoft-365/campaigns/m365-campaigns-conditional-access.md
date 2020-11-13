@@ -1,5 +1,5 @@
 ---
-title: 조건부 액세스 정책 설정
+title: 조건부 액세스 정책을 설정합니다.
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: MFA를 요구 하는 방법과 비즈니스용 Microsoft 365에 대 한 조건부 액세스 정책을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 917fb52eb5034c3dda28c277b9e86e04db6cac62
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 5908a36f09753cd8f66169c6a67be45c748807b7
+ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527201"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071504"
 ---
 # <a name="require-multi-factor-authentication-and-set-up-conditional-access-policies"></a>다단계 인증 필요 및 조건부 액세스 정책 설정
 
@@ -54,15 +54,15 @@ ms.locfileid: "46527201"
 
 모든 사용자에 게 다른 ID 형태의 로그인을 요구 하려면 다음을 수행 합니다.
 
-1. 관리 센터로 이동 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 하 여 **설치**를 선택 합니다.
+1. 관리 센터로 이동 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 하 여 **설치** 를 선택 합니다.
 
 2. 설정 페이지의 **고급 보안 설정** 카드에서 **보기** 를 선택 합니다.
 
 
     ![더 안전 하 게 로그인 카드를 만듭니다.](../media/setupmfa.png)
-3. 더 안전 하 게 로그인 하기 페이지에서 **시작**을 선택 합니다.
+3. 더 안전 하 게 로그인 하기 페이지에서 **시작** 을 선택 합니다.
  
-4. 로그인 보안 강화 창에서 **관리자에 대 한 다단계 인증 필요** 옆의 확인란을 선택 하 고, **위험이 감지 되 면 사용자에 게 다단계 인증을 등록 하 고 액세스를 차단 하도록 요구**합니다.
+4. 로그인 보안 강화 창에서 **관리자에 대 한 다단계 인증 필요** 옆의 확인란을 선택 하 고, **위험이 감지 되 면 사용자에 게 다단계 인증을 등록 하 고 액세스를 차단 하도록 요구** 합니다.
     **사용자 찾기** 상자에서 MFA 요구 사항 으로부터 [응급](m365-campaigns-protect-admin-accounts.md#create-an-emergency-admin-account) 또는 "투명 효과" 관리자 계정을 제외 해야 합니다.
     
     ![공동으로 보안 페이지를 강화 합니다.](../media/requiremfa.png)
@@ -71,16 +71,16 @@ ms.locfileid: "46527201"
 
 ## <a name="set-up-baseline-policies"></a>기본 정책 설정
 
-1. [Azure 포털로](https://portal.azure.com)이동한 다음 **azure Active Directory** \> **조건부 액세스**로 이동 합니다.
-    
-    기본 정책은 페이지에 나열 되며, [mfa](#require-mfa) **에 대 한 mfa** 필요의 단계를 완료 한 후에는 관리자 및 **최종 사용자 보호** 를 사용 하도록 설정 해야 한다는 것을 확인할 수 있습니다.
+1. [Azure 포털로](https://portal.azure.com)이동한 다음 **azure Active Directory** \> **조건부 액세스** 로 이동 하 여 **새 정책을** 만듭니다.
 
-    ![조건부 액세스에 대 한 기준 정책을 나열 하는 페이지입니다.](../media/casettings.png)
-2. 각 정책에 대해 다음과 같은 구체적인 지침을 참조 하세요.
-
-    - [관리자를 위해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
-    - [사용자에 대해 MFA 요구](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
-    - [레거시 인증 차단](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
+각 정책에 대해 다음과 같은 구체적인 지침을 참조 하세요. <br>
+    - [관리자를 위해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators) <br>
+    - [사용자에 대해 MFA 요구](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users) <br>
+    - [레거시 인증 차단](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth) <br>
     - [서비스 관리를 위해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
+    
+> [!NOTE]
+> 미리 보기 정책은 더 이상 존재 하지 않으므로 사용자가 고유한 정책을 만들어야 합니다.
+
 
 승인 된 클라이언트 앱을 요구 하는 등 추가 정책을 설정할 수 있습니다. 자세한 내용은 [조건부 액세스 설명서](https://docs.microsoft.com/azure/active-directory/conditional-access/)를 참조 하세요.

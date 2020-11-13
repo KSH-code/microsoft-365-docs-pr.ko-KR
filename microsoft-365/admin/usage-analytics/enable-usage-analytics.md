@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Power BI의 Microsoft 365 사용 현황 분석 서식 파일 앱을 사용 하 여 테 넌 트에 대 한 데이터 수집을 시작 하는 방법을 알아봅니다.
-ms.openlocfilehash: 347256fa7acaae18cd31f0c8c6b7eca20ad2e9dd
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: cda5931e81f7ea13208825afa658f1c672a2f326
+ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941334"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071458"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석을 사용하도록 설정
 
@@ -92,7 +92,7 @@ Power BI가 아직 없는 경우 [POWER Bi Pro에 등록할](https://go.microsof
   
 8. 서식 파일 앱이 인스턴스화된 후에는 Microsoft 365 사용 현황 분석 대시보드를 웹의 Power BI에서 사용할 수 있습니다. 대시보드의 초기 로드는 2 ~ 30 분 정도 소요 됩니다.
   
-모든 보고서에서 테 넌 트 수준 집계를 사용할 수 있습니다. **사용자 수준 세부 정보는 다음 달 또는 15 일 후에 옵트인 하면 사용할 수 있습니다**. 이렇게 하면 사용자 활동 아래의 모든 보고서에 영향을 줍니다. 이러한 보고서를 보고 사용 하는 방법에 대 한 팁 [은 Microsoft 365 사용 현황 분석에서 보고서 탐색 및 활용](navigate-and-utilize-reports.md) 을 참조 하세요.
+테 넌 트 수준 집계는 옵트인 후 모든 보고서에서 사용할 수 있습니다. **사용자 수준 세부 정보는 다음 달의 5 일 후에는 해당 월의 다섯째 기간에만 사용할 수 있습니다**. 이렇게 하면 사용자 작업의 모든 보고서에 영향을 줍니다 (이 보고서를 보고 사용 하는 방법에 대 한 팁은 [Microsoft 365 사용 현황 분석에서 보고서 탐색 및 활용](navigate-and-utilize-reports.md) 참조).
     
 ## <a name="make-the-collected-data-anonymous"></a>수집된 데이터를 익명으로 설정
 

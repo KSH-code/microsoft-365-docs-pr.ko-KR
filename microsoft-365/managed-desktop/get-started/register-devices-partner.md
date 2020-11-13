@@ -7,12 +7,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: f1b1a8f03b7a11a0467826281bc2b789140dbcee
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 7e40a5eb7144fef3d330e0e8fc3c711af15d4c49
+ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327059"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071446"
 ---
 # <a name="steps-for-partners-to-register-devices"></a>파트너가 장치를 등록하기 위한 단계
 
@@ -35,8 +35,8 @@ ms.locfileid: "44327059"
 
 1. [파트너 센터로](https://partner.microsoft.com/dashboard) 이동
 2. 파트너 센터 메뉴에서 **고객** 을 선택한 다음 해당 장치를 관리할 고객을 선택 합니다.
-3. 고객 정보 페이지에서 **장치**를 선택 합니다.
-4. 장치에 **프로필 적용** 에서 **장치 추가**를 선택 합니다.
+3. 고객 정보 페이지에서 **장치** 를 선택 합니다.
+4. 장치에 **프로필 적용** 에서 **장치 추가** 를 선택 합니다.
 5. 그룹 이름으로 **Microsoft365Managed_Autopilot** 입력 한 다음 **찾아보기를** 선택 하 여 고객 목록 (.csv 파일 형식)을 파트너 센터에 업로드 합니다.
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "44327059"
 >[!NOTE]
 > 장치 구입처에서이 .csv 파일을 받아야 합니다. .Csv 파일을 받지 못한 경우에는 [Windows Autopilot에 장치 추가](https://docs.microsoft.com/windows/deployment/windows-autopilot/add-devices#collecting-the-hardware-id-from-existing-devices-using-powershell)의 단계를 수행 하 여 직접 만들 수 있습니다. Windows PowerShell 스크립트는 [Microsoft Managed Desktop Admin 포털](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/register-devices-self?view=o365-worldwide#obtain-the-hardware-hash)에 사용 된 것과 다릅니다. 파트너는 [get-windowsautopilotinfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) 을 사용 하 여 파트너 센터에서 Microsoft Managed Desktop 장치에 대 한 장치를 등록 해야 합니다.
 
-.Csv 파일을 업로드 하는 동안 오류 메시지가 표시 되 면 파일 형식을 확인 합니다. 하드웨어 해시 전용, OEM 이름, 일련 번호 및 모델 (열 순서) 또는 Windows 제품 ID를 사용할 수 있습니다. 장치 **추가** 옆의 링크에서 제공 되는 예제 .csv 파일을 사용 하 여 디바이스 목록을 만들 수도 있습니다. 
+.Csv 파일을 업로드 하는 동안 오류 메시지가 표시 되 면 파일 형식을 확인 합니다. 열 순서가 [새 장치에서 Windows Autopilot 프로필 사용에서 설명 하는 내용과 일치 하는지 확인 하 여 고객의 기본 경험 치를 사용자 지정](https://docs.microsoft.com/partner-center/autopilot#add-devices-to-a-customers-account)합니다. 장치 **추가** 옆의 링크에서 제공 되는 예제 .csv 파일을 사용 하 여 디바이스 목록을 만들 수도 있습니다. 
 
 파트너 시나리오의 Autopilot에 대 한 자세한 내용은 [고객의 계정에 장치 추가](https://docs.microsoft.com/partner-center/autopilot#add-devices-to-a-customers-account)를 참조 하세요.
 
@@ -55,7 +55,7 @@ ms.locfileid: "44327059"
 
 고객에 대 한 등록을 완료 하기 전에 먼저 해당 고객과의 관계를 설정 해야 합니다. 각 고객에 게 제공할 고유한 링크가 있어야 합니다. [OEM 관계를 설정 하는 방법을](https://docs.microsoft.com/windows/deployment/windows-autopilot/registration-auth#oem-authorization)참조 하세요.
 
-관계를 설정한 후에는 Group 태그 **Microsoft365Managed_Autopilot**를 사용 하 여 고객을 위한 장치 등록을 시작할 수 있습니다.
+관계를 설정한 후에는 Group 태그 **Microsoft365Managed_Autopilot** 를 사용 하 여 고객을 위한 장치 등록을 시작할 수 있습니다.
 
 > [!IMPORTANT]
 > 그룹 이름은 대/소문자 및 특수 문자를 포함 하 여 **Microsoft365Managed_Autopilot** 정확히 일치 해야 합니다. 이렇게 하면 새로 등록 된 장치를 Microsoft Managed Desktop Autopilot 프로필에 할당할 수 있습니다.

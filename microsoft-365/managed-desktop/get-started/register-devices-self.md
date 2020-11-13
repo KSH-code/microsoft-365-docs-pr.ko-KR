@@ -7,12 +7,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 225cb8b74a50fa8308cc14e8ad35283e6a7aa044
-ms.sourcegitcommit: e9f32675061cd1cf4a3e2dada393e10d7c552efe
+ms.openlocfilehash: 48c69a71a98e381123a8f87acc20a34eb6e99806
+ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48279565"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071492"
 ---
 # <a name="register-new-devices-yourself"></a>직접 새 장치 등록
 
@@ -47,13 +47,15 @@ PowerShell 갤러리 웹 사이트에서 [Get-WindowsAutoPilotInfo.ps1](https://
 1.  관리 권한으로 PowerShell 프롬프트를 엽니다.
 2.  실행 `Install-Script -Name Get-WindowsAutoPilotInfo`
 3.  실행 `powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
+4.  `powershell -ExecutionPolicy restricted`제한 없는 후속 스크립트가 실행 되지 않도록 하려면 실행 합니다.
+
 
 #### <a name="flash-drive-method"></a>Flash drive 메서드
 
 1. 등록 중인 장치 이외의 디바이스에서 USB 드라이브를 삽입 합니다.
 2. 관리 권한으로 PowerShell 프롬프트를 엽니다.
 3. 실행 `Save-Script -Name Get-WindowsAutoPilotInfo -Path <pathToUsb>`
-4. 등록 중인 디바이스를 켜면 *설치 환경이 시작 되지*않습니다. 실수로 설치 환경을 시작한 경우 장치를 초기화 하거나 다시 이미지로 만들어야 합니다.
+4. 등록 중인 디바이스를 켜면 *설치 환경이 시작 되지* 않습니다. 실수로 설치 환경을 시작한 경우 장치를 초기화 하거나 다시 이미지로 만들어야 합니다.
 5. USB 드라이브를 삽입 한 다음 SHIFT + F10 키를 누릅니다.
 6. 관리 권한으로 PowerShell 프롬프트를 열고를 실행 `cd <pathToUsb>` 합니다.
 7. 실행 `Set-ExecutionPolicy -ExecutionPolicy Unrestricted`
@@ -73,7 +75,7 @@ PowerShell 갤러리 웹 사이트에서 [Get-WindowsAutoPilotInfo.ps1](https://
 
 #### <a name="register-devices-by-using-the-admin-portal"></a>관리 포털을 사용 하 여 장치 등록
 
-[Microsoft Endpoint Manager](https://endpoint.microsoft.com/)의 왼쪽 탐색 창에서 **장치** 를 선택 합니다. 메뉴의 Microsoft Managed Desktop 섹션을 찾아 **장치**를 선택 합니다. Microsoft Managed Desktop Devices 작업 영역에서 **+ register Devices** 를 선택 하 여 새 장치를 등록 합니다.
+[Microsoft Endpoint Manager](https://endpoint.microsoft.com/)의 왼쪽 탐색 창에서 **장치** 를 선택 합니다. 메뉴의 Microsoft Managed Desktop 섹션을 찾아 **장치** 를 선택 합니다. Microsoft Managed Desktop Devices 작업 영역에서 **+ register Devices** 를 선택 하 여 새 장치를 등록 합니다.
 
 <!-- [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
 
@@ -83,8 +85,8 @@ PowerShell 갤러리 웹 사이트에서 [Get-WindowsAutoPilotInfo.ps1](https://
 
 다음 단계를 따릅니다.
 
-1. **파일 업로드**에서 이전에 만든 CSV 파일의 경로를 제공 합니다.
-3. **장치 등록**을 선택 합니다. 시스템은 장치를 디바이스 **블레이드에서**장치 목록에 추가 하 고 **등록 보류 중**으로 표시 합니다. 등록은 일반적으로 10 분 미만이 걸리고, 성공적으로 완료 되 면 장치에 **사용자가** 사용할 준비가 된 것으로 표시 되 고 사용자가 사용을 시작할 때까지 대기 하 게 됩니다.
+1. **파일 업로드** 에서 이전에 만든 CSV 파일의 경로를 제공 합니다.
+3. **장치 등록** 을 선택 합니다. 시스템은 장치를 디바이스 **블레이드에서** 장치 목록에 추가 하 고 **등록 보류 중** 으로 표시 합니다. 등록은 일반적으로 10 분 미만이 걸리고, 성공적으로 완료 되 면 장치에 **사용자가** 사용할 준비가 된 것으로 표시 되 고 사용자가 사용을 시작할 때까지 대기 하 게 됩니다.
 
 
 기본 페이지에서 장치 등록의 진행 상태를 모니터링할 수 있습니다. 다음과 같은 가능한 상태가 보고 됩니다.
@@ -119,7 +121,6 @@ PowerShell 갤러리 웹 사이트에서 [Get-WindowsAutoPilotInfo.ps1](https://
 > 사용자에 게 디바이스를 전달 하기 전에 해당 사용자에 대 한 [적절 한 라이선스](../get-ready/prerequisites.md) 를 확보 하 고 적용 했는지 확인 합니다.
 
 모든 라이선스가 적용 되 면 [사용자가 장치를 사용할 준비가](get-started-devices.md)되 면 사용자가 장치를 시작 하 고 Windows 설치 환경을 진행할 수 있습니다.
-
 
 
 
