@@ -18,14 +18,14 @@ ms.collection:
 search.appverid:
 - MET150
 description: DLP(데이터 손실 방지) 정책을 구성하여 Microsoft 365 끝점 데이터 손실 방지(EPDLP) 위치를 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: 95c470a3dfc90f9c7b9a36d282c016781e4e13a8
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 6de6443dc0d276c862db43963ac28bd762e3756f
+ms.sourcegitcommit: 89f56c3e0b619a4700a75a21927d9ffc90658632
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847192"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48984922"
 ---
-# <a name="using-endpoint-data-loss-prevention-preview"></a>끝점 데이터 손실 방지(미리 보기) 사용
+# <a name="using-endpoint-data-loss-prevention"></a>끝점 데이터 손실 방지 사용
 
 이 문서에서는 장치를 위치로 사용하는 DLP 정책을 만들고 수정하는 3가지 시나리오를 안내합니다.
 

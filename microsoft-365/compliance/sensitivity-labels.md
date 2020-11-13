@@ -22,12 +22,12 @@ description: 암호화 및 워터마크로 중요한 콘텐츠를 분류하고 �
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: de123c842623d709c9360652becc8c4604b0c234
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: f29ba461cb3ae8cc79ff90b7b129e82f7401e187
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754098"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988866"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -54,9 +54,9 @@ Microsoft Information Protection 프레임 워크의 민감도 레이블을 사�
 
 - **다양한 플랫폼 및 장치에서 Office 앱의 콘텐츠를 보호합니다.** 지원되는 앱 목록은 [Office 앱의 민감도 레이블 사용](sensitivity-labels-office-apps.md)을 참조하세요.
 
-- Microsoft Cloud App Security를 사용하여 **타사 앱 및 서비스의 콘텐츠 보호** . Cloud App Security를 사용하여 SalesForce, Box 또는 DropBox 등의 타사 앱 및 서비스에 있는 콘텐츠를 감지, 분류, 레이블 지정 및 보호할 수 있습니다. 타사 앱 또는 서비스가 민감도 레이블을 읽지 않고 지원하지 않더라도 문제가 되지 않습니다.
+- Microsoft Cloud App Security를 사용하여 **타사 앱 및 서비스의 콘텐츠 보호**. Cloud App Security를 사용하여 SalesForce, Box 또는 DropBox 등의 타사 앱 및 서비스에 있는 콘텐츠를 감지, 분류, 레이블 지정 및 보호할 수 있습니다. 타사 앱 또는 서비스가 민감도 레이블을 읽지 않고 지원하지 않더라도 문제가 되지 않습니다.
 
-- Teams, Microsoft 365 그룹 및 SharePoint 사이트를 포함하는 **컨테이너를 보호하세요** . 예를 들어 개인 정보 설정, 외부 사용자 액세스 및 관리되지 않는 장치에서의 액세스를 설정합니다.
+- Teams, Microsoft 365 그룹 및 SharePoint 사이트를 포함하는 **컨테이너를 보호하세요**. 예를 들어 개인 정보 설정, 외부 사용자 액세스 및 관리되지 않는 장치에서의 액세스를 설정합니다.
 
 - **타사 앱 및 서비스에 민감도 레이블을 연장.** Microsoft 정보 보호 SDK를 사용하는 경우, 타사 앱에서 민감도 레이블을 읽고 보호 설정을 적용할 수 있습니다.
 
@@ -95,8 +95,10 @@ Office 앱의 경우, 민감도 레이블이 전자 메일 또는 문서에서 �
     
     콘텐츠 표시가 적용되는 경우를 확인해야 하나요? [Office 앱에서 콘텐츠 표시 및 암호화를 적용하는 경우](sensitivity-labels-office-apps.md#when-office-apps-apply-content-marking-and-encryption)를 참조하세요.
     
-    일부 앱은 변수를 사용한 동적 표시를 지원하지 않습니다. 예를 들어 머리글, 바닥글 또는 워터마크에 레이블 이름 또는 문서 이름을 삽입합니다. 자세한 내용은 [변수를 사용한 동적 마킹](sensitivity-labels-office-apps.md#dynamic-markings-with-variables)을 참호자세요.
+    일부 앱은 변수를 사용한 동적 표시를 지원하지 않습니다. 예를 들어 머리글, 바닥글 또는 워터마크에 레이블 이름 또는 문서 이름을 삽입합니다. 자세한 내용은 [변수를 사용한 동적 마킹](sensitivity-labels-office-apps.md#dynamic-markings-with-variables)을 참조하세요.
     
+    이러한 콘텐츠 표시에 대한 사용자 지정 글꼴 이름을 RGB 코드를 통해 사용자 지정을 포함 하는 광범위한 글꼴 색으로 구성할 수 있지만, 이러한 설정은 [Azure Information Protection 통합 레이블 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)에서만 지원됩니다. 기본 제공되는 레이블을 사용하는 경우 글꼴 이름 설정은 무시되고 검정, 노랑, 파랑, 녹색, 빨간색 중 한 가지 색상만 지원됩니다. 지원되지 않는 색을 선택하면 검정색이 기본값으로 사용됩니다.
+
     문자열 길이: 워터 마크는 255자로 제한됩니다. Excel의 경우를 제외하고 머리글과 바닥글은 1024자로 제한됩니다. Excel에서는 머리글과 바닥글의 총 글자 수가 255자로 제한되지만 이 제한에는 서식 코드처럼 보이지 않는 문자가 포함됩니다. 해당 한도에 도달하면 입력한 문자열이 Excel에 표시되지 않습니다.
 
 - [Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 민감도 레이블을 사용](sensitivity-labels-teams-groups-sites.md)하도록 기능을 사용하여 **사이트 및 그룹과 같은 컨테이너의 컨텐츠를 보호** 합니다.
@@ -169,7 +171,7 @@ Office 앱의 경우, 민감도 레이블이 전자 메일 또는 문서에서 �
 
     ![사용자가 사유를 입력하는 메시지 표시](../media/Sensitivity-label-justification-required.png)
 
-- **사용자에게 전자 메일 및 문서에 대한 옵션 그리고 컨테이너에 대한 또 다른 옵션을 포함하여 레이블을 적용하도록 요구합니다** . 필수 레이블 지정으로도 알려졌으며 이러한 옵션은 사용자가 문서를 저장하고 전자 메일을 보내고 새 그룹 혹은 사이트를 만들기 전에 레이블이 반드시 적용되도록 보장합니다.
+- **사용자에게 전자 메일 및 문서에 대한 옵션 그리고 컨테이너에 대한 또 다른 옵션을 포함하여 레이블을 적용하도록 요구합니다**. 필수 레이블 지정으로도 알려졌으며 이러한 옵션은 사용자가 문서를 저장하고 전자 메일을 보내고 새 그룹 혹은 사이트를 만들기 전에 레이블이 반드시 적용되도록 보장합니다.
     
     문서 및 전자 메일의 경우 레이블은 사용자가 수동으로 지정하거나, 구성하는 조건의 결과로서 자동으로 지정하거나 혹은 기본적으로 지정될 수 있습니다(위에 설명된 기본 레이블 옵션). 사용자가 레이블을 할당해야 할 때 Outlook에 표시되는 프롬프트의 예:
 

@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 엔드포인트 데이터 손실 방지를 설정하여 파일 활동을 모니터링하고 해당 파일에 대한 보호 작업을 엔드포인트에 구현합니다.
-ms.openlocfilehash: 8f4b1b04aadbb639f6c7daeeb564c10abd7737b2
-ms.sourcegitcommit: ca733da1ed919b286a93068b560608e82f8def05
+ms.openlocfilehash: 3f29d8e49daa6dd4f0900e0e92123306c799c6ee
+ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48990553"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "48999420"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>엔드포인트 데이터 손실 방지 시작하기
 
@@ -173,7 +173,14 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 > [!NOTE]
 >이 환경은 라이선스 적용하에 있습니다. 필수 라이선스가 없으면 데이터가 표시되지 않거나 테이터에 액세스할 수 없습니다.
 
-### <a name="viewing-endpoint-dlp-data-in-activity-explorer"></a>활동 탐색기에서 Endpoint DLP 데이터 보기
+### <a name="viewing-endpoint-dlp-alerts-in-dlp-alerts-management-dashboard"></a>DLP 경고 관리 대시보드에서 끝점 DLP 경고 보기
+
+1. Microsoft 365 규정 준수 센터에서 데이터 손실 방지 페이지를 열고 경고를 선택합니다.
+
+2. 끝점 DLP 정책에 대한 경고를 보려면 [DLP 정책에 대한 경고를 구성하고 보는 방법](dlp-configure-view-alerts-policies.md)에서 절차를 참조하세요.
+
+
+### <a name="viewing-endpoint-dlp-data-in-activity-explorer"></a>활동 탐색기에서 끝점 DLP 데이터 보기
 
 1. Microsoft 365 규정 준수 센터에서 도메인에 대한 [데이터 분류 페이지](https://compliance.microsoft.com/dataclassification?viewid=overview)를 열고 활동 탐색기를 선택합니다.
 

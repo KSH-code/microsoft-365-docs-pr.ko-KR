@@ -22,12 +22,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365에서 조직의 중요한 정보를 자동으로 식별하고 모니터링하고 보호하는 방법을 알아봅니다.
-ms.openlocfilehash: d1b82f1e5581e1d24284a549f3c9572e0f8343a3
-ms.sourcegitcommit: 89f56c3e0b619a4700a75a21927d9ffc90658632
+ms.openlocfilehash: 0817d48879fccbefcda22d677c85a250dc017dd0
+ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48984942"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "48999504"
 ---
 # <a name="overview-of-data-loss-prevention"></a>데이터 손실 방지 개요
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -55,9 +55,9 @@ DLP 정책을 사용하여 다음과 같은 작업을 수행할 수 있습니다
     
     사용자에게 DLP 정책에 대해 교육하고 자신의 작업을 중단하지 않고 규정 준수 상태를 유지하도록 할 수 있습니다. 예를 들어 사용자가 중요한 정보를 포함하는 문서를 공유하려고 하면 DLP 정책은 전자 메일 알림을 보내고, 업무 정당성이 있을 경우 이 정책을 재정의할 수 있는 문서 라이브러리의 컨텍스트에서 정책 팁을 표시합니다. 웹 상의 Outlook, Outlook, Excel, PowerPoint 및 Word에도 동일한 정책 팁이 나타납니다.
     
-- **조직의 DLP 정책과 일치하는 콘텐츠를 표시하는 DLP 보고서를 확인하십시오.**
+- **조직의 DLP 정책과 일치하는 내용을 표시하는 DLP 알림 및 보고서를 확인합니다.**
     
-    조직이 DLP 정책을 어떻게 준수하고 있는지를 평가하기 위해 시간에 따른 각 정책 및 규칙의 일치 횟수를 확인할 수 있습니다. DLP 정책에서 사용자가 정책 팁을 재정의하고 가양성을 보고할 수 있도록 허용하는 경우 사용자가 보고한 항목을 확인할 수 있습니다.
+    DLP 정책에 관련된 알림 및 메타 데이터를 확인하려면 [DLP 알림 관리 대시보드](dlp-configure-view-alerts-policies.md)를 사용할 수 있습니다. 조직의 DLP 정책 준수 방식을 평가하는 정책 일치 보고서를 볼 수도 있습니다. DLP 정책에서 사용자가 정책 팁을 재정의하고 가양성을 보고하도록 허용하는 경우, 사용자가 보고한 항목을 볼 수도 있습니다.
     
 Microsoft 365 준수 센터의 데이터 손실 방지 페이지에서 DLP 정책을 생성하고 관리할 수 있습니다.
   
@@ -196,13 +196,15 @@ DLP 정책이 신용 카드 번호와 같은 중요한 정보 유형을 찾을 �
 
  DLP 정책의 사용자 알림과 정책 팁에 대한 자세한 내용은 [알림 및 정책 팁 사용](use-notifications-and-policy-tips.md)을 참조하세요.
 
-#### <a name="incident-reports"></a>사고 보고서
+#### <a name="alerts-and-incident-reports"></a>경고 및 인시던트 보고서
 
-규칙이 일치하면 규정 준수 책임자(또는 다른 사용자)에게 사고 보고서와 이벤트에 대한 세부 정보를 보낼 수 있습니다. 이 보고서에는 일치된 항목에 관한 정보, 규칙과 일치한 실제 콘텐츠, 해당 콘텐츠를 마지막으로 수정한 사람이 포함됩니다. 전자 메일 메시지의 경우 보고서에는 DLP 정책과 일치하는 원본 메시지가 첨부 파일로 포함되어 있습니다.
+규칙이 일치하면 규정 준수 책임자(또는 선택한 다른 사람)에게 세부 정보와 함께 경고 전자 메일을 보낼 수 있습니다. 이 경고 전자 메일에는 규정 준수 책임자가 경고 및 이벤트의 세부 정보를 볼 수 있도록 [DLP 경고 관리 대시보드](dlp-configure-view-alerts-policies.md)의 링크를 포함합니다. 대시보드에는 DLP 정책과 일치하는 세부 정보 및 검색된 중요한 콘텐츠와 함께 경고를 트리거한 이벤트의 세부 정보를 포함합니다.
+
+또한 이벤트 세부 정보가 포함된 인시던트 보고서를 보낼 수도 있습니다. 이 보고서에는 일치된 항목에 관한 정보, 규칙과 일치한 실제 콘텐츠, 해당 콘텐츠를 마지막으로 수정한 사람이 포함됩니다. 전자 메일 메시지의 경우 보고서에는 DLP 정책과 일치하는 원본 메시지가 첨부 파일로 포함되어 있습니다.
   
-![사고 보고서를 구성하기 위한 페이지](../media/31c6da0e-981c-415e-91bf-d94ca391a893.png)
+![사고 보고서를 구성하기 위한 페이지](../media/Alerts-and-incident-report.png)
 
-DLP는 SharePoint Online 또는 비즈니스용 OneDrive의 항목과는 다른 방식으로 전자 메일을 검사합니다. SharePoint Online 및 비즈니스용 OneDrive에서 DLP는 기존 항목을 비롯하여 새 항목을 검사하고 일치하는 항목이 발견될 때마다 인시던트 보고서를 생성합니다. Exchange Online에서 DLP는 새 전자 메일 메시지만 검사하고 정책 일치 항목이 있는 경우에 보고서를 생성합니다. DLP는 사서함이나 보관함에 저장된 기존 전자 메일 항목을 검색하거나 일치시키지 *_않습니다._*
+DLP는 SharePoint Online 또는 비즈니스용 OneDrive의 항목과는 다른 방식으로 전자 메일을 검사합니다. SharePoint Online 및 비즈니스용 OneDrive에서 DLP는 기존 항목을 비롯하여 새 항목을 검사하고 일치하는 항목이 발견될 때마다 경고 및 인시던트 보고서를 생성합니다. Exchange Online에서 DLP는 새 전자 메일 메시지만 검사하고 정책 일치 항목이 있는 경우에 보고서를 생성합니다. DLP는 사서함이나 보관함에 저장된 기존 전자 메일 항목을 검색하거나 일치시키지 *_않습니다._*
   
 ## <a name="grouping-and-logical-operators"></a>그룹화 및 논리 연산자
 
