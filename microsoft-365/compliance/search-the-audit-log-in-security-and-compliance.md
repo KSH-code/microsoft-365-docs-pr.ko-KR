@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Office 365 보안 및 준수 센터 또는 Microsoft 365 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2254fb9fd47b1554064194b815ff4d19b2d33472
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: ded01bc262cd1bb2fbabcd237278447e486d109a
+ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941455"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "48999512"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -140,7 +140,7 @@ ms.locfileid: "48941455"
 ## <a name="search-the-audit-log"></a>감사 로그 검색
 
 > [!NOTE]
-> 현재 감사 로그 검색 도구에서 Azure AD 활동을 사용할 수 없는 문제를 조사하고 있습니다. 이 문제는 2020년 10월 26일에 시작되었습니다. 관련 활동에 Azure AD 사용자 관리 활동, 그룹 관리 활동, 응용 프로그램 관리 활동, 역할 관리 활동 및 디렉터리 관리 활동이 포함됩니다. 문제가 해결되면 업데이트를 제공할 예정입니다.
+> 2020년 10월 22일부터 2020년 11월 6일까지 감사 로그 검색 도구에서 Azure AD 활동을 사용할 수 없는 문제가 있었습니다. 관련 활동에 Azure AD 사용자 관리 활동, 그룹 관리 활동, 응용 프로그램 관리 활동, 역할 관리 활동 및 디렉터리 관리 활동이 포함됩니다. 영향을 받는 기간 동안 누락된 이벤트는 앞으로 며칠 동안 사용할 수 있으며, 늦어도 2020년 11월 20일까지는 완료될 것으로 예상됩니다. 일부 경우에는 고객이 2020년 10월 26일부터 2020년 11월 05일 사이에 생성된 이벤트에 대한 중복 이벤트 데이터를 발견할 수 있습니다.
     
 Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다. 
 

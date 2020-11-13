@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 데이터 분류 대시보드에서는 조직에서 검색 및 분류한 중요한 데이터의 양을 시각적으로 파악할 수 있습니다.
-ms.openlocfilehash: 503235ad2ee35760a03cb2427d1e84f5f3639b9f
-ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
+ms.openlocfilehash: 7bf9a7151f8df45716ab032dd3c62a33f4f5adc8
+ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48379228"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "48999398"
 ---
 # <a name="know-your-data---data-classification-overview"></a>데이터 파악 - 데이터 분류 개요
 
@@ -39,24 +39,19 @@ Microsoft 365 관리자 또는 준수 관리자는 조직의 콘텐츠가 이동
 - [학습 가능한 분류자](classifier-learn-about.md)
 - [중요한 정보 유형](what-the-sensitive-information-types-look-for.md)
 
-**Microsoft 365 규정 준수 센터** 또는 **Microsoft 365 보안 센터** > **분류** > **데이터 분류**에서 데이터 분류를 찾을 수 있습니다.
+**Microsoft 365 규정 준수 센터** 또는 **Microsoft 365 보안 센터** > **분류** > **데이터 분류** 에서 데이터 분류를 찾을 수 있습니다.
 
 비디오를 시청하여 데이터 분류 기능에 대해 알아보세요.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vx8x]
 
-정책을 만들기 전에 데이터 분류에서 중요한 콘텐츠와 레이블이 지정된 콘텐츠를 검사합니다. 이를 **제로 변경 관리**라고 합니다. 이를 통해 모든 보존 및 민감도 레이블이 환경에 미치는 영향을 확인하고, 보호 및 관리 정책 요구 사항을 평가할 수 있습니다.
+정책을 만들기 전에 데이터 분류에서 중요한 콘텐츠와 레이블이 지정된 콘텐츠를 검사합니다. 이를 **제로 변경 관리** 라고 합니다. 이를 통해 모든 보존 및 민감도 레이블이 환경에 미치는 영향을 확인하고, 보호 및 관리 정책 요구 사항을 평가할 수 있습니다.
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
-테이터 분류에 액세스하고 이를 사용하는 모든 계정에는 다음 구독 중 하나에서 할당된 라이선스가 있어야 합니다.
+다양한 구독에서 끝점 DLP를 지원합니다. 끝점 DLP 라이선스 옵션을 보려면 [지침에 관한 Information Protection](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection)을 참조하세요. 
 
-- Microsoft 365 (E5/A5)
-- Office 365 (E5)
-- 고급 규정 준수 (E5) 추가 기능
-- 고급 위협 인텔리전스 (E5) 추가 기능
-
-### <a name="permissions"></a>권한
+### <a name="permissions"></a>사용 권한
 
  테이터 분류 페이지에 액세스하려면 계정에 다음 역할이나 역할 그룹 중 하나의 구성원 자격이 할당되어야 합니다.
 

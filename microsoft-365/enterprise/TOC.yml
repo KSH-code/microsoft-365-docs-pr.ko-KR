@@ -415,8 +415,6 @@
           href: manage-microsoft-365-groups.md
         - name: 거버넌스
           href: manage-microsoft-365-identity-governance.md
-        - name: '사용자의 사서함에서 삭제된 항목 복구 '
-          href: recover-deleted-items-in-a-mailbox.md
         - name: 디렉터리 동기화
           items:
             - name: 상태 보기
@@ -604,7 +602,7 @@
                   href: disable-access-to-services-while-assigning-user-licenses.md
         - name: 그룹
           items:
-            - name: 그룹 멤버 자격 유지 관리
+            - name: 보안 그룹 멤버십 유지 관리
               href: maintain-group-membership-with-microsoft-365-powershell.md
             - name: Microsoft 365 그룹 관리
               href: manage-microsoft-365-groups-with-powershell.md
