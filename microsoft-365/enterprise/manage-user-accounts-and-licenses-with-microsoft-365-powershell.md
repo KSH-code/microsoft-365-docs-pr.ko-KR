@@ -3,7 +3,7 @@ title: PowerShell로 Microsoft 365 사용자 계정, 라이선스 및 그룹 관
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/17/2020
+ms.date: 11/13/2020
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-administration
@@ -17,12 +17,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 26b9ff81-93b0-4251-beaf-3c9f1d7c80c8
 description: PowerShell을 사용 하 여 Microsoft 365 사용자 계정, 라이선스 및 그룹을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 0c6ca6a4165b616097405a9de178c254aa489a3c
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+ms.openlocfilehash: ec60fcfe3c3d2c0e26cb2cca6a56741067d154c0
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429989"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49073128"
 ---
 # <a name="manage-microsoft-365-user-accounts-licenses-and-groups-with-powershell"></a>PowerShell로 Microsoft 365 사용자 계정, 라이선스 및 그룹 관리
 
@@ -40,6 +40,7 @@ Microsoft 365 관리자는 사용자 계정, 라이선스 및 그룹을 관리 �
 - [사용자 계정에 역할 할당](assign-roles-to-user-accounts-with-microsoft-365-powershell.md)
 - [사용자 계정 삭제 및 복원](delete-and-restore-user-accounts-with-microsoft-365-powershell.md)
 - [사용자 계정 차단](block-user-accounts-with-microsoft-365-powershell.md)
+- [암호](manage-passwords-with-microsoft-365-powershell.md)
 
 ## <a name="licenses-and-services"></a>라이선스 및 서비스
 - [라이선스 및 서비스 보기](view-licenses-and-services-with-microsoft-365-powershell.md)

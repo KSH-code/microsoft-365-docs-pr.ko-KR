@@ -15,38 +15,34 @@ ms.collection:
 - commerce
 - Adm_NonTOC
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
-ms.assetid: 0199dd39-7c46-4875-af9b-588df3a9afea
 ROBOTS: NOINDEX
 description: 소매점 스토어에서 구입한 Microsoft 365 Business Standard 제품 키를 사용 하는 방법을 알아봅니다.
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: 9dcf38937e6140f1b0b20688d1dac0a9f3962cbe
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 1c647efaa880096a9fc7713aa28960d563eff69d
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638366"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49072750"
 ---
 # <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Microsoft 365 비즈니스 표준에 대 한 제품 키 입력
 
-소매점 스토어에서 Microsoft 365 Business Standard를 구매한 경우이 문서를 통해 구독을 정품 인증할 수 있습니다. 
+소매점 스토어에서 Microsoft 365 Business Standard를 구매한 경우이 문서를 통해 구독을 정품 인증할 수 있습니다.
   
  **다른 사항이 필요 합니다.**
- **Microsoft 365 제품군 또는 microsoft 365 Personal에 대 한 도움말**을 보려면 [Office와 함께 제품 키 사용](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx)을 참조 하세요.  
+ **Microsoft 365 제품군 또는 microsoft 365 Personal에 대 한 도움말** 을 보려면 [Office와 함께 제품 키 사용](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx)을 참조 하세요.  
  **볼륨 라이선스 고객** Microsoft [Open 라이선스 프로그램](https://go.microsoft.com/fwlink/p/?LinkID=613298)을 통해 비즈니스용 microsoft 365을 구매한 경우 [microsoft에서 구입한 제품 키를 입력](purchases-from-microsoft-open.md)하십시오 문서를 참조 하세요.
   
 ## <a name="activate-a-new-subscription"></a>새 구독 활성화
 
-1. <a href="https://go.microsoft.com/fwlink/p/?LinkId=839911" target="_blank">Office.com/setupkey</a>으로 이동 합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?LinkId=839911" target="_blank">https://microsoft365.com/setupbusiness</a>으로 이동합니다.
 
-2. 제품 키를 입력 하 고 **다음**을 선택 합니다.
+2. 제품 키를 입력 하 고 **다음** 을 선택 합니다.
 
-3. 이름, 회사 전자 메일 주소, 근무지 전화 번호, 회사 이름, 국가 또는 지역을 입력 하 고 **다음**을 선택 합니다.
+3. 이름, 회사 전자 메일 주소, 근무지 전화 번호, 회사 이름, 국가 또는 지역을 입력 하 고 **다음** 을 선택 합니다.
 
 4. 텍스트 또는 통화를 수신 하는 전화 번호를 입력 하 여 id를 확인 합니다.
 
@@ -59,7 +55,7 @@ ms.locfileid: "48638366"
 
 ## <a name="extend-the-expiration-date-or-add-a-license-to-an-existing-subscription"></a>만료 날짜를 연장 하거나 기존 구독에 라이선스 추가
 
-제품 키를 사용 하 여 만료 날짜를 연장 하거나 기존 Microsoft 365 Business Standard 구독에 라이선스를 추가 하려면 동일한 Microsoft 365 계획에 대해 사용 되지 않는 새 키가 있어야 합니다. 이미 회수 된 키는 다시 사용할 수 없으므로 원래 Microsoft 365 제품 키를 입력 하는 것은 작동 하지 않습니다. [제품 키를 사용 하 여 유료 구독에 라이선스 추가 또는 확장](licenses/add-licenses-using-product-key.md)을 참조 하세요.
+만료 날짜를 연장 하거나 기존 Microsoft 365 Business Standard 구독에 라이선스를 추가 하려면 동일한 Microsoft 365 요금제에 대해 사용 되지 않는 새 키를 사용 합니다. 이미 회수 된 키는 다시 사용할 수 없으므로 원래 Microsoft 365 제품 키를 입력 하는 것은 작동 하지 않습니다. [제품 키를 사용 하 여 유료 구독에 라이선스 추가 또는 확장](licenses/add-licenses-using-product-key.md)을 참조 하세요.
 
 ## <a name="whats-next"></a>다음 작업
 

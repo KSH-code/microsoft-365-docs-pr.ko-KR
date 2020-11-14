@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: f9c26e7e4af99174c5723b44c59d7279ca93afa5
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 19e121ce3f85dc31c3bf81c4750300c4016b1222
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846451"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49072774"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
 
@@ -35,8 +35,9 @@ ms.locfileid: "48846451"
 
 다음 다이어그램에서는 권장 되는 정책 집합을 보여 줍니다. 각 정책이 적용 되는 보호 계층과 정책이 Pc 또는 휴대폰 및 태블릿에서 적용 되는지, 아니면 두 장치 범주 모두를 보여 줍니다. 또한 이러한 정책을 구성 하는 위치를 나타냅니다.
 
-[ ![ Id 및 장치 액세스를 구성 하기 위한 일반 정책](../../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png) 
- [더 큰 버전의 이미지를 참조 하세요](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png) .
+[![Id 및 장치 액세스 구성에 대 한 일반 정책](../../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
+
+[이 이미지의 더 큰 버전 보기](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
 
 다음은 개별 정책에 대 한 링크를 포함 하는 한 페이지 PDF 요약입니다.
 
@@ -120,7 +121,7 @@ ms.locfileid: "48846451"
 
 대상으로 지정 하는 보호 수준에 따라 위험 수준 설정을 적용 합니다.
 
-|보호 수준|필요한 위험 수준 값|작업|
+|보호 수준|필요한 위험 수준 값|조치|
 |:---------|:-----|:----|
 |기준|높음, 중간|두 확인란을 모두 선택 합니다.|
 |중요|높음, 중간, 낮음|세 가지를 모두 선택 합니다.|
@@ -129,7 +130,7 @@ ms.locfileid: "48846451"
 
 **액세스 제어** 섹션에서 다음을 수행 합니다.
 
-|설정|속성|값|작업|
+|설정|속성|값|조치|
 |:---|:---------|:-----|:----|
 |권한 부여|**Grant access**| | 선택한 |
 |||**다단계 인증 필요**| 수표 |
@@ -160,7 +161,7 @@ ms.locfileid: "48846451"
 
 **액세스 제어** 섹션에서 다음을 수행 합니다.
 
-|설정|속성|값|작업|
+|설정|속성|값|조치|
 |:---|:---------|:-----|:----|
 |권한 부여|**액세스 차단**| | 선택한 |
 ||**선택된 컨트롤이 모두 필요함** ||선택한|
@@ -182,7 +183,7 @@ Exchange Online에서는 인증 정책을 사용 하 여 [기본 인증을 사�
 
 **지정** 섹션에서 다음을 수행 합니다.
 
-|유형|속성|값|작업|
+|유형|속성|값|조치|
 |:---|:---------|:-----|:----|
 |사용자|포함|**모든 사용자**|선택한|
 |사용자 위험| **High**||선택한|
@@ -190,9 +191,9 @@ Exchange Online에서는 인증 정책을 사용 하 여 [기본 인증을 사�
 
 두 번째 **지정** 섹션에서 다음을 수행 합니다.
 
-| 유형 | 속성 | 값                  | 작업 |
+| 유형 | 속성 | 값                  | 조치 |
 |:-----|:-----------|:------------------------|:------|
-| 접근 | **액세스 허용** |  | 선택한  |
+| 액세스 | **액세스 허용** |  | 선택한  |
 |      |     | **암호 변경 필요** | 수표  |
 |||||
 
@@ -286,7 +287,7 @@ Intune에서 준수 정책을 만드는 방법에 대 한 단계별 지침은 In
 
 **Windows 상태 증명 서비스 평가 규칙을 > 장치 상태** 를 확인 하려면이 표를 참조 하십시오.
 
-|속성|값|작업|
+|속성|값|조치|
 |:---------|:-----|:----|
 |BitLocker 필요|할| 선택한 |
 |장치에서 보안 부팅이 사용 되도록 설정 해야 합니다.|할| 선택한 |
@@ -299,7 +300,7 @@ Intune에서 준수 정책을 만드는 방법에 대 한 단계별 지침은 In
 
 **시스템 보안** 에 대해서는이 표를 참조 하세요.
 
-|유형|속성|값|작업|
+|유형|속성|값|조치|
 |:---|:---------|:-----|:----|
 |암호|모바일 장치의 잠금을 해제 하는 데 암호 필요|할| 선택한 |
 ||단순 암호|차단|선택한|
@@ -321,7 +322,7 @@ Intune에서 준수 정책을 만드는 방법에 대 한 단계별 지침은 In
 
 **엔드포인트용 Microsoft Defender**
 
-|유형|속성|값|작업|
+|유형|속성|값|조치|
 |:---|:---------|:-----|:----|
 |끝점 규칙에 대 한 Microsoft Defender|장치가 컴퓨터 위험 점수에 있거나 그 아래에 있어야 합니다.|보통|선택한|
 |||||
