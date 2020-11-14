@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자 사용자 권한 및 역할을 설정 하 고 자동 작업 테스트를 구성 합니다. 사용자 기록을 관리 하 고 대시보드 보기를 필터링 합니다.
-ms.openlocfilehash: 141ddc8ac371b1a36c69ee79b5438408f8da19e8
-ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
+ms.openlocfilehash: d6dd7263779ae7f3e9366c0984360c191a62d5e8
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48791896"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49072893"
 ---
 # <a name="get-started-with-compliance-manager"></a>규정 준수 관리자 시작
 
@@ -30,7 +30,7 @@ ms.locfileid: "48791896"
 
 ## <a name="who-can-access-compliance-manager"></a>준수 관리자에 액세스할 수 있는 사용자
 
-준수 관리자는 Office 365 및 Microsoft 365 라이선스가 있는 조직에서 사용할 수 있습니다. 평가 가용성 및 관리 기능은 사용권 계약에 따라 달라 집니다.  [서비스 설명 세부 정보를 확인](https://go.microsoft.com/fwlink/?linkid=2132371)합니다.
+준수 관리자는 Office 365 및 Microsoft 365 라이선스가 있는 조직 및 GCC (정부 커뮤니티 클라우드) 일반 고객에 게 제공 됩니다. 평가 가용성 및 관리 기능은 사용권 계약에 따라 달라 집니다.  [서비스 설명 세부 정보를 확인](https://go.microsoft.com/fwlink/?linkid=2132371)합니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 

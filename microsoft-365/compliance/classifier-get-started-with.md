@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 분류자는 다양 한 유형의 콘텐츠를 확인할 수 있도록 교육을 제공 하는 도구입니다. 이 문서에서는 사용자 지정 분류자를 만들고 학습 하는 방법과이를 재교육 하 여 정확성을 향상 시키는 방법을 설명 합니다.
-ms.openlocfilehash: f0d3659c1ee03fe69a5513f24d15b295400a24dc
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 9fe50f7faada77492fd93a86d0c3549cc8e1d361
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906349"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49072967"
 ---
 # <a name="get-started-with-trainable-classifiers-preview"></a>학습 가능한 분류자 시작(미리 보기)
 
@@ -39,7 +39,7 @@ Microsoft 365 trainable 분류자는 다양 한 유형의 콘텐츠를 확인할
 
 분류자는 Microsoft 365 E5 또는 E5 규정 준수 기능입니다. 이러한 구독 중 하나를 사용 하 여이를 사용할 수 있어야 합니다.
 
-### <a name="permissions"></a>권한
+### <a name="permissions"></a>사용 권한
 
 UI의 분류자에 액세스 하려면: 
 
@@ -53,7 +53,7 @@ UI의 분류자에 액세스 하려면:
 - 통신 준수 정책 시나리오: 참가자 위험 관리 관리자, 관리 검토 관리자 
 
 > [!IMPORTANT]
-> 기본적으로 사용자 지정 분류자를 만드는 사용자만이 해당 분류자에서 수행한 예측을 학습 하 고 검토할 수 있습니다. 다른 사용자가 분류자 예측을 학습 하 고 검토할 수 있도록 하려면 [다른 사용자에 게 교육 및 권한 검토](#give-others-train-and-review-rights)를 참조 하세요.
+> 기본적으로 사용자 지정 분류자를 만드는 사용자만이 해당 분류자에서 수행한 예측을 학습 하 고 검토할 수 있습니다.
 
 ## <a name="prepare-for-a-custom-trainable-classifier"></a>사용자 지정 trainable 분류자 준비 
 
@@ -156,21 +156,3 @@ Trainable 분류자가 예측 모델을 작성 하기에 충분 한 긍정적인
 20. 분류자를 게시 합니다.
 
 21. 게시 한 분류자는 [민감도 레이블이 있는 Office 자동 레이블](apply-sensitivity-label-automatically.md)지정의 조건으로 사용할 수 있으며, 조건 및 [통신 준수](communication-compliance.md)에 [따라 보존 레이블 정책을 자동으로 적용](apply-retention-labels-automatically.md#configuring-conditions-for-auto-apply-retention-labels) 합니다.
-
-## <a name="give-others-train-and-review-rights"></a>다른 사용자에 게 교육 권한 제공 및 검토
-
-다음 절차에 따라 다른 사람에 게 사용자 지정 trainable 분류자를 훈련, 검토 및 조정할 수 있는 권한을 부여 합니다.  
- 
-1. 분류자를 만든 사람은 전역 관리자 또는 eDiscovery 관리자가 PowerShell을 사용 하 여 준수 센터에 연결 하 여 [Security to & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps&preserve-view=true)의 절차를 수행 합니다.
-
-2. 다음 명령을 실행합니다.
-
-   ```powershell
-   Add-ComplianceCaseMember -Case "<classifier name>" -Member "<user or role group>"
-   ```
-   
-   예제:
-   
-   `Add-ComplianceCaseMember -Case "Financial Contract Classifier" -Member johnevans@contoso.com`
-
-   이 명령을 여러 번 실행 하 여 여러 사용자를 추가할 수 있습니다. Azure 역할 그룹은 EOP (Exchange Online Protection) 역할 그룹만 추가할 수 있습니다.

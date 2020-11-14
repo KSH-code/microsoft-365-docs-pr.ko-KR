@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6e0f8e2661692930469aff85e0a7eeef2dd647e0
-ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
+ms.openlocfilehash: bdfb99531035054e0d6a27bc2c8b82c7f641ff2d
+ms.sourcegitcommit: d333d82fd5e4f3265e8b9372094e85875bee6fe5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "48948389"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071944"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>HITECH의 상태 보험 이식성 및 책임 (HIPAA) &
 
@@ -114,5 +114,5 @@ Microsoft 서비스가 모든 고객에 대해 일관성이 있으므로 microso
 - [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
 - [Microsoft Government 클라우드](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Azure에서 HIPAA 준수 이해](https://www.youtube.com/embed/6ptdye1LZ5k?autoplay=0)(5 월 19 2016 일)
-- [Azure HIPAA HITRUST 청사진 샘플](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/)
+- [Azure HIPAA HITRUST 청사진 샘플](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust-9-2)
 - [Microsoft 보안 센터의 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)

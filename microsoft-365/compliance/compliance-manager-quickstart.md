@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 준수 관리자를 사용 하 여 이해, 설정 가져오기 및 준수 관리자 사용에 대 한 정보를 확인할 수 있습니다.
-ms.openlocfilehash: 895f03482c0af9603aa96d907d7339a853ef5e9d
-ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
+ms.openlocfilehash: 9f24a0495b7d453b70a28ad54d76ccf835000ed6
+ms.sourcegitcommit: d333d82fd5e4f3265e8b9372094e85875bee6fe5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48791794"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071976"
 ---
 # <a name="compliance-manager-quickstart"></a>준수 관리자 빠른 시작
 
@@ -43,6 +43,7 @@ ms.locfileid: "48791794"
 - [대시보드 보기 필터링](compliance-manager-setup.md#filtering-your-dashboard-view)
 - [개선 작업에 대 한 자세한 정보](compliance-manager-setup.md#improvement-actions-page)
 - [평가 이해](compliance-manager.md#assessments)
+- [Microsoft 준수 구성 관리자를 사용 하 여 환경에 대 한 빠른 검사 수행](compliance-manager-mcca.md)
 
 ## <a name="ramping-up-configure-compliance-manager-to-manage-your-compliance-activities"></a>램프 업: 준수 작업을 관리 하도록 준수 관리자 구성
 

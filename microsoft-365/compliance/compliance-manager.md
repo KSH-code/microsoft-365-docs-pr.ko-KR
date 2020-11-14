@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 조직에서 위험 평가를 간소화 하 고 자동화 하 고 위험을 해결 하는 데 도움이 되는 권장 조치를 제안 합니다.
-ms.openlocfilehash: d7136368a1c9726d1a77a0c99e717b98e1920242
-ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
+ms.openlocfilehash: 4508f07b0077d409de1ac033de67d20d1c3f2a7e
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48791810"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49072937"
 ---
 # <a name="microsoft-compliance-manager"></a>Microsoft 준수 관리자
 
@@ -30,7 +30,7 @@ ms.locfileid: "48791810"
 
 ## <a name="whats-new-the-ga-release-of-compliance-manager"></a>새로운 기능: 준수 관리자의 GA 릴리스
 
-이제 준수 관리자를 [Microsoft 365 준수 센터](microsoft-365-compliance-center.md)내의 종단 간 준수 관리 솔루션으로 사용할 수 있습니다. 이 릴리스부터 준수 관리자는 Microsoft Service Trust Portal에서 이전 위치 로부터의 전환을 완료 합니다.
+이제 준수 관리자를 [Microsoft 365 준수 센터](microsoft-365-compliance-center.md)내의 종단 간 준수 관리 솔루션으로 사용할 수 있습니다. 이 릴리스부터 준수 관리자는 Microsoft Service Trust Portal에서 이전 위치 로부터의 전환을 완료 합니다. 이제 GCC (미국 정부 커뮤니티) 일반 고객 에게도 준수 관리자를 사용할 수 있습니다.
 
 규정 준수 점수의 공개 미리 보기가 향상 된 준수 관리 기능 및 더 많은 사용 편이성의 중앙 집중식 도구로 발전 했을 때 시작 된 것입니다.  GA release를 사용 하면 준수 작업을 확장 하는 데 도움이 되는 미리 구성 된 평가를 보다 광범위 하 게 수집할 수 있습니다.
 
