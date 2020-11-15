@@ -8,24 +8,24 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.author: daniha
+ms.author: siosulli
 author: DaniHalfin
 manager: dansimp
 audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: 5d30440d0051f4ec678effac657808853c7a6515
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: a31ccc8cab6995e0647e397be4b869e48da599b4
+ms.sourcegitcommit: e03bc2945e63f7f2638257e530056ae9283b45d9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48305008"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49070892"
 ---
-# <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-data-processor-service-for-windows-enterprise"></a>데이터 보호 영향 평가는 다음과 같습니다. Windows Enterprise용 Microsoft 데이터 프로세서 서비스를 사용하는 데이터 컨트롤러에 대한 지침입니다.
+# <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-data-processor-service-for-windows-enterprise"></a>데이터 보호 영향 평가: Windows Enterprise용 Microsoft 데이터 프로세서 서비스를 사용하는 데이터 컨트롤러에 대한 지침입니다.
 
 >[!NOTE]
->이 항목은 Windows Enterprise 미리 보기 프로그램 데이터 프로세서 서비스 참여자를 대상으로 하며 특정 사용 약관을 수락해야 합니다. 프로그램에 대해 자세히 알아보고 사용 조건에 동의하려면 [https://aka.ms/WindowsEnterprisePublicPreview](https://aka.ms/WindowsEnterprisePublicPreview)을(를) 참조하세요.
+>이것은 Windows Enterprise 미리보기 프로그램용 데이터 프로세서 서비스에 참여하고 특정 사용 조건에 동의를 요구하기 위한 토픽입니다. 프로그램에 대해 더 알아보고 사용 조건에 동의하려면 [https://aka.ms/WindowsEnterprisePublicPreview](https://aka.ms/WindowsEnterprisePublicPreview)을(를) 참조하세요.
 
 GDPR(일반 데이터 보호 규정)에 따르면 데이터 컨트롤러는 ‘자연인의 권리와 자유에 높은 위험을 초래하기 쉬운" 작업을 처리하기 위한 DPIA(데이터 보호 영향 평가)를 준비해야 합니다. Windows Enterprise용 데이터 프로세서 서비스 자체에는 데이터 컨트롤러를 사용하여 DPIA를 생성해야 하는 고유한 기능이 없습니다. 대신 DPIA가 필요한지 여부는 데이터 컨트롤러가 Windows Enterprise용 데이터 프로세서 서비스를 배포, 구성 및 사용하는 방법에 대한 세부 정보와 컨텍스트에 따라 달라집니다. 
 

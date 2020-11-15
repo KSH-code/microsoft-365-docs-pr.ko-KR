@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: '모든 Microsoft Information Protection 솔루션에 대한 요구 사항: 조직의 문서와 전자 메일을 분류하고 보호하기 위해 민감도 레이블을 생성, 구성 및 게시합니다.'
-ms.openlocfilehash: 2476c1f7e73c4da5699dcd8b297e251ab13b0798
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 9fc130a15229f7d464ed8336c3ae37d1af367ed3
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445427"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49073117"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책 생성 및 구성
 
@@ -45,7 +45,7 @@ ms.locfileid: "48445427"
     - Microsoft 365 규정 준수 센터: 
         - **솔루션** > **정보 보호**
         
-        이 옵션이 바로 보이지 않는 경우에는 먼저 **모두 표시**를 선택합니다. 
+        이 옵션이 바로 보이지 않는 경우에는 먼저 **모두 표시** 를 선택합니다. 
     
     - Microsoft 365 보안 센터: 
         - **분류** > **민감도 레이블**
@@ -53,7 +53,7 @@ ms.locfileid: "48445427"
     - 보안 및 준수 센터:
         - **분류** > **민감도 레이블**
 
-2. **레이블** 페이지에서 **+레이블 만들기**를 선택하여 새 민감도 레이블 마법사를 시작합니다. 
+2. **레이블** 페이지에서 **+레이블 만들기** 를 선택하여 새 민감도 레이블 마법사를 시작합니다. 
     
     예를 들어, Microsoft 365 규정 준수 센터에서 다음을 수행합니다.
     
@@ -65,17 +65,17 @@ ms.locfileid: "48445427"
     
     ![민감도 레이블 범위](../media/sensitivity-labels-scopes.png)
     
-    - **파일 및 전자 메일**이 선택된 경우, 이 마법사에서 Office Word 및 Outlook과 같은 민감도 레이블을 지원하는 앱에 적용되는 설정을 구성할 수 있습니다. 이 옵션이 선택되지 않은 경우, 마법사는 해당 설정의 첫 번째 페이지를 표시하지만 사용자는 설정을 구성할 수 없으며 레이블은 이들 앱에서 사용자들이 선택하도록 제공되지 않습니다.
+    - **파일 및 전자 메일** 이 선택된 경우, 이 마법사에서 Office Word 및 Outlook과 같은 민감도 레이블을 지원하는 앱에 적용되는 설정을 구성할 수 있습니다. 이 옵션이 선택되지 않은 경우, 마법사는 해당 설정의 첫 번째 페이지를 표시하지만 사용자는 설정을 구성할 수 없으며 레이블은 이들 앱에서 사용자들이 선택하도록 제공되지 않습니다.
     
-    - **그룹 및 사이트**가 선택된 경우, 이 마법사에서 Microsoft 365 그룹 및 Teams와 SharePoint용 사이트에 적용되는 설정을 구성할 수 있습니다. 이 옵션이 선택되지 않은 경우, 마법사는 해당 설정의 첫 번째 페이지를 표시하지만 사용자는 설정을 구성할 수 없으며 레이블은 그룹 및 사이트에 대해 사용자들이 선택하도록 제공되지 않습니다.
+    - **그룹 및 사이트** 가 선택된 경우, 이 마법사에서 Microsoft 365 그룹 및 Teams와 SharePoint용 사이트에 적용되는 설정을 구성할 수 있습니다. 이 옵션이 선택되지 않은 경우, 마법사는 해당 설정의 첫 번째 페이지를 표시하지만 사용자는 설정을 구성할 수 없으며 레이블은 그룹 및 사이트에 대해 사용자들이 선택하도록 제공되지 않습니다.
 
 4. 화면에 나타나는 레이블 설정 마법사 메시지를 따릅니다.
     
     레이블 설정에 대한 자세한 정보는 개요 정보에서 [민감도 레이블이 수행하는 작업](sensitivity-labels.md#what-sensitivity-labels-can-do)을 참조하고 개별 설정 마법사의 도움말을 사용하세요.
 
-5. 이 단계를 반복하여 레이블을 더 만듭니다. 그러나 하위 레이블을 만들고자 하는 경우 먼저 상위 레이블을 선택하고 **추가 작업**에서 **...** 을 선택한 다음 **하위 레이블 추가**를 선택합니다.
+5. 이 단계를 반복하여 레이블을 더 만듭니다. 그러나 하위 레이블을 만들고자 하는 경우 먼저 상위 레이블을 선택하고 **추가 작업** 에서 **...** 을 선택한 다음 **하위 레이블 추가** 를 선택합니다.
 
-6. 필요한 레이블을 모두 만든 경우 해당 주문을 검토하고 필요한 경우 해당 항목을 위나 아래로 이동합니다. 레이블 순서를 변경하려면 **추가 작업**에 대해 **...** 를 선택한 다음 **위로 이동** 또는 **아래로 이동**을 선택합니다. 자세한 내용은 개요 정보에서 [레이블 우선 순위(순서가 중요함)](sensitivity-labels.md#label-priority-order-matters)를 참조하세요.
+6. 필요한 레이블을 모두 만든 경우 해당 주문을 검토하고 필요한 경우 해당 항목을 위나 아래로 이동합니다. 레이블 순서를 변경하려면 **추가 작업** 에 대해 **...** 를 선택한 다음 **위로 이동** 또는 **아래로 이동** 을 선택합니다. 자세한 내용은 개요 정보에서 [레이블 우선 순위(순서가 중요함)](sensitivity-labels.md#label-priority-order-matters)를 참조하세요.
 
 기존 레이블을 편집하려면 해당 레이블을 선택하고 **레이블 편집** 단추를 선택합니다.
 
@@ -101,11 +101,7 @@ ms.locfileid: "48445427"
 
 - 사용자가 로컬 언어로 레이블 이름과 도구 설명을 확인하기 위한 다국적 배포에는 *LocaleSettings* 매개 변수를 사용합니다. [다음 섹션](#example-configuration-to-configure-a-sensitivity-label-for-different-languages)에는 프랑스어, 이탈리아어, 독일어에 대한 레이블 이름 및 도구 설명 텍스트를 지정하는 예제 구성이 있습니다.
 
-- *ApplyContentMarkingFooterFontName* 매개 변수를 사용하여 지정된 바닥글의 글꼴을 선택합니다. 맑은 고딕은 머리글, 바닥글 및 워터마크 텍스트의 기본 글꼴입니다. 레이블을 표시하는 서비스나 장치에서 대체 글꼴 이름을 사용할 수 없는 경우, 글꼴이 맑은 고딕으로 돌아갑니다.
-
-- *ApplyContentMarkingHeaderFontColor* 매개 변수를 사용하여 빨간색, 녹색 및 파란색(RGB) 구성 요소에 대한 16진수 코드를 사용하여 지정된 머리글에 대한 사용자 지정 색 선택을 지정합니다. 예를 들어, #40e0d0은 옥색의 RGB 16진수 값입니다. 그림을 편집하는 여러 응용 프로그램에서 이러한 코드를 찾을 수 있습니다. 예를 들어, Microsoft 그림판을 사용하면 팔레트에서 사용자 지정 색을 선택할 수 있고 RGB 값이 자동으로 표시되므로 이를 복사할 수 있습니다.
-
-Azure Information Protection 통합 레이블 클라이언트의 경우, 레이블 색 설정과 레이블이 적용된 경우 사용자 지정 속성 적용을 포함하는 [고급 설정](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)을 지정할 수 있습니다. 전체 목록을 보려면 이 클라이언트의 관리자 가이드에서 [레이블의 사용 가능한 고급 설정](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-labels)을 참조하세요.
+- Azure Information Protection 통합 레이블 클라이언트의 경우, 레이블 색 설정과 레이블이 적용된 경우 사용자 지정 속성 적용을 포함하는 [고급 설정](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)을 지정할 수 있습니다. 전체 목록을 보려면 이 클라이언트의 관리자 가이드에서 [레이블의 사용 가능한 고급 설정](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-labels)을 참조하세요.
 
 #### <a name="example-configuration-to-configure-a-sensitivity-label-for-different-languages"></a>다양한 언어로 민감도 레이블을 구성하는 예제 구성입니다.
 
@@ -143,7 +139,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
     - Microsoft 365 규정 준수 센터: 
         - **솔루션** > **정보 보호**
         
-        이 옵션이 바로 보이지 않는 경우에는 먼저 **모두 표시**를 선택합니다. 
+        이 옵션이 바로 보이지 않는 경우에는 먼저 **모두 표시** 를 선택합니다. 
     
     - Microsoft 365 보안 센터: 
         - **분류** > **민감도 레이블**
@@ -151,7 +147,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
     - 보안 및 준수 센터:
         - **분류** > **민감도 레이블**
 
-2. **레이블 정책** 탭을 선택한 다음 **레이블 게시**를 선택하여 정책 만들기 마법사를 시작합니다.
+2. **레이블 정책** 탭을 선택한 다음 **레이블 게시** 를 선택하여 정책 만들기 마법사를 시작합니다.
     
     예를 들어, Microsoft 365 규정 준수 센터에서 다음을 수행합니다.
         
@@ -159,12 +155,12 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
     
     참고: 기본적으로 테넌트에는 레이블 정책이 없으며 만들어야 합니다. 
 
-3. 마법사에서 **민감도 레이블을 선택하여 게시**를 선택합니다. 앱과 서비스에서 사용할 수 있도록 설정할 레이블을 선택한 다음 **추가**를 선택합니다.
+3. 마법사에서 **민감도 레이블을 선택하여 게시** 를 선택합니다. 앱과 서비스에서 사용할 수 있도록 설정할 레이블을 선택한 다음 **추가** 를 선택합니다.
     
     > [!IMPORTANT]
     > 하위 레이블을 선택한 경우 해당 상위 레이블도 선택해야 합니다.
     
-4. 선택한 레이블을 검토하 고 내용을 변경하려면 **편집**을 선택합니다. 그렇지 않으면 **다음**을 선택합니다.
+4. 선택한 레이블을 검토하 고 내용을 변경하려면 **편집** 을 선택합니다. 그렇지 않으면 **다음** 을 선택합니다.
 
 5. 화면에 나타나는 메시지에 따라 정책 설정을 구성합니다.
     
@@ -174,7 +170,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 7. 다양한 사용자나 위치에 대해 다양한 정책 설정이 필요한 경우에는 이 단계를 반복합니다. 예를 들어 사용자 그룹에 대한 추가 레이블이나 사용자 하위 집합에 대한 다른 기본 레이블을 원하는 경우가 해당됩니다. 또는 레이블이 다양한 범위를 갖도록 구성한 경우가 해당됩니다.
 
-8. 사용자에 충돌이 발생할 수 있는 레이블 정책을 여러 개 만드는 경우에는 정책 순서를 검토하고 필요한 경우 해당 항목을 위나 아래로 이동합니다. 레이블 정책 순서를 변경하려면 **추가 작업**에 대해 **...** 를 선택한 다음 **위로 이동** 또는 **아래로 이동**을 선택합니다. 자세한 내용은 개요 정보에서 [레이블 정책 우선 순위(순서가 중요함)](sensitivity-labels.md#label-policy-priority-order-matters)를 참조하세요.
+8. 사용자에 충돌이 발생할 수 있는 레이블 정책을 여러 개 만드는 경우에는 정책 순서를 검토하고 필요한 경우 해당 항목을 위나 아래로 이동합니다. 레이블 정책 순서를 변경하려면 **추가 작업** 에 대해 **...** 를 선택한 다음 **위로 이동** 또는 **아래로 이동** 을 선택합니다. 자세한 내용은 개요 정보에서 [레이블 정책 우선 순위(순서가 중요함)](sensitivity-labels.md#label-policy-priority-order-matters)를 참조하세요.
 
 마법사를 완료하면 자동으로 레이블 정책이 게시됩니다. 게시된 정책을 변경하려면 정책을 편집하기만 하면 됩니다. 사용자가 선택할 특정 게시 또는 재게시 작업이 없습니다.
 

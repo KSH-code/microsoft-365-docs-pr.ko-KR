@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 0dfccef331c279354f066ebffa80143d43192472
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: bedf82d9d53ef14755651d5994e6c5c269cf5d6e
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920528"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49073139"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -204,16 +204,9 @@ Exchange 공용 폴더, Skype, Teams 및 Yammer 메시지는 보존 레이블을
     
 - 자동 적용 레이블을 할당하는 규칙이 여러 개이고 내용이 여러 규칙의 조건을 충족하는 경우 가장 오래된 규칙(작성 날짜 기준)의 보존 레이블이 할당됩니다.
     
-한 보존 레이블이 적용되는 방법과 그 이유를 이해하려면 레이블을 명시적으로 할당하는 것과 암시적으로 레이블이 할당되는 것의 차이점을 이해하는 것이 좋습니다.
+기본 레이블을 사용할 때 모든 결과를 완전히 이해하려면 [기본 보존 레이블을 SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 컨텐츠에 기본 보존 레이블 적용](create-apply-retention-labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set) 섹션의 정보를 참조하십시오.
 
-- 레이블 정책에서 적용되는 보존 레이블은 명시적으로 할당됩니다.
-- 자동 적용 정책에서 자동으로 적용되는 보존 레이블은 암시적으로 할당됩니다.
-
-명시적으로 할당된 보존 레이블이 암시적으로 할당된 보존 레이블에 우선합니다. 자세한 내용은 [보존 원칙 또는 우선하는 항목](retention.md#the-principles-of-retention-or-what-takes-precedence)에 대한 이 페이지의 섹션을 참조하세요.
-
-SharePoint의 경우 SharePoint 라이브러리, 폴더 또는 문서 세트의 모든 콘텐츠에 대한 기본 레이블을 구성할 때도 보존 레이블을 암시적으로 할당할 수 있습니다. 이 시나리오에서는 자동 적용된 레이블이 기본 레이블보다 우선하지만 기본 레이블을 사용할 때 모든 결과를 완전히 이해하려면 [기본 보존 레이블을 SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 컨텐츠에 기본 보존 레이블 적용](create-apply-retention-labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set) 섹션의 정보를 참조하십시오. 
-
-#### <a name="monitoring-retention-labels"></a>보존 레이블 모네터링
+#### <a name="monitoring-retention-labels"></a>보존 레이블 모니터링
 
 Microsoft 365 규정 준수 센터에서 **데이터 분류** > **개요** 를 사용하여 보존 레이블이 테넌트에게 어떻게 사용되고 있는지 모니터링 하고 레이블 항목의 위치를 식별합니다. 필수 구성 요소를 비롯한 더 자세한 내용은 [데이터 알기 - 데이터 분류 개요](data-classification-overview.md)를 참조하세요.
 
