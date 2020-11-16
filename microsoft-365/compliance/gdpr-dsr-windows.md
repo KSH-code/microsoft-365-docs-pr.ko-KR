@@ -8,35 +8,35 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.author: daniha
+ms.author: siosulli
 author: DaniHalfin
 manager: dansimp
 audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: 916ee45dae92d14c78b92bb16b6dca7c455bf803
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: e4065fc992305976a1309b05a473e15e1f03f09c
+ms.sourcegitcommit: e03bc2945e63f7f2638257e530056ae9283b45d9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48304902"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49070882"
 ---
 # <a name="data-processor-service-for-windows-enterprise-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Windows 엔터프라이즈 데이터 주체 요청용 데이터 프로세서 서비스 
 
 >[!NOTE]
->이 항목은 Windows Enterprise 미리 보기 프로그램 데이터 프로세서 서비스 참여자를 대상으로 하며 특정 사용 약관을 수락해야 합니다. 프로그램에 대해 자세히 알아보고 사용 조건에 동의하려면 [https://aka.ms/WindowsEnterprisePublicPreview](https://aka.ms/WindowsEnterprisePublicPreview)을(를) 참조하세요.
+>This topic is intended for participants in the data processor service for Windows Enterprise preview program and requires acceptance of specific terms of use. To learn more about the program and agree to the terms of use, see [https://aka.ms/WindowsEnterprisePublicPreview](https://aka.ms/WindowsEnterprisePublicPreview).
 
 ## <a name="introduction-to-data-subject-requests-dsrs"></a>DSR(데이터 주체 요청) 소개 
-EU GDPR(일반 데이터 보호 규정)은 사람들(규정에서 _데이터 주체_)에게 고용주 또는 다른 유형의 기관이나 조직(_데이터 컨트롤러_ 또는 간단하게 _컨트롤러_)에 의해 수집된 개인 데이터를 관리할 권한을 제공합니다. GDPR에서 개인 데이터는 식별되거나 식별 가능한 자연인에 관련된 모든 데이터로 광범위하게 정의됩니다. GDPR은 데이터 주체에게 개인 데이터에 대한 특정 권한을 제공합니다. 이러한 권한에는 개인 데이터의 복사본을 얻거나, 수정을 요청하거나, 처리를 제한하거나, 삭제하거나, 다른 관리자에게 전달할 수 있도록 전자 형식으로 개인 데이터를 수신할 권한이 포함됩니다. 데이터 주체가 개인 데이터에 대한 작업을 수행하도록 관리자에게 공식적으로 요청하는 것을 DSR(_Data Subject Request_)이라고 합니다. 
+EU GDPR(일반 데이터 보호 규정)은 사람들(규정에서 _데이터 주체_ )에게 고용주 또는 다른 유형의 기관이나 조직( _데이터 컨트롤러_ 또는 간단하게 _컨트롤러_ )에 의해 수집된 개인 데이터를 관리할 권한을 제공합니다. GDPR에서 개인 데이터는 식별되거나 식별 가능한 자연인에 관련된 모든 데이터로 광범위하게 정의됩니다. GDPR은 데이터 주체에게 개인 데이터에 대한 특정 권한을 제공합니다. 이러한 권한에는 개인 데이터의 복사본을 얻거나, 수정을 요청하거나, 처리를 제한하거나, 삭제하거나, 다른 관리자에게 전달할 수 있도록 전자 형식으로 개인 데이터를 수신할 권한이 포함됩니다. 데이터 주체가 개인 데이터에 대한 작업을 수행하도록 관리자에게 공식적으로 요청하는 것을 DSR( _Data Subject Request_ )이라고 합니다. 
 
 마찬가지로 캘리포니아 소비자 개인 정보 보호법(CCPA)은 캘리포니아 소비자에게 GDPR의 데이터 주체 권리와 유사한 권리를 포함하여, 소비자의 개인 정보 삭제, 액세스 및 수신(이식성)과 같은 개인 정보 보호 권리 및 의무를 제공합니다. 또한 CCPA는 특정 공개, 실행 권리 행사 시 차별 대우로부터 보호, “판매"로 분류되는 특정 데이터 전송에 대한 "옵트아웃(opt-out)/옵트인(opt-in)" 요구도 허용합니다. 판매는 가치 있는 대가관계를 위하여 데이터 공유를 포함하도록 광범위하게 정의됩니다. CCPA에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법](https://docs.microsoft.com/microsoft-365/compliance/offering-ccpa) 및 [캘리포니아 소비자 개인 정보 보호법 FAQ](https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq)를 참조하세요.
 
 이 가이드에서는 Microsoft 제품, 서비스 및 관리 도구를 사용하여 통제자 고객이 DSR에 응답하기 위해 개인 데이터를 찾고 조치를 취하는 데 도움을 주는 방식을 설명합니다. 특히, Microsoft 클라우드에 있는 개인 데이터를 찾고, 액세스하고, 조치를 취하는 방법도 포함되어 있습니다. 이 가이드에 설명된 프로세스에 대한 간략한 개요는 다음과 같습니다. 
 
-1. **액세스**—Microsoft 클라우드에 있는 개인 데이터를 검색하고, 요청될 경우 데이터 주체가 사용할 수 있는 복사본을 만듭니다. 
-2. **삭제**Microsoft 클라우드에 있는 개인 데이터를 영구적으로 제거합니다. 
-3. **내보내기**—개인 데이터의 전자 사본(컴퓨터가 읽을 수 있는 형식)을 데이터 주체에게 제공합니다. CCPA 하에서 개인 정보는 식별된 또는 식별 가능한 개인과 관련 있는 모든 정보입니다.
+1. **액세스** —Microsoft 클라우드에 있는 개인 데이터를 검색하고, 요청될 경우 데이터 주체가 사용할 수 있는 복사본을 만듭니다. 
+2. **삭제** Microsoft 클라우드에 있는 개인 데이터를 영구적으로 제거합니다. 
+3. **내보내기** —개인 데이터의 전자 사본(컴퓨터가 읽을 수 있는 형식)을 데이터 주체에게 제공합니다. CCPA 하에서 개인 정보는 식별된 또는 식별 가능한 개인과 관련 있는 모든 정보입니다.
 
 CCPA 하에서 개인 정보는 식별된 또는 식별 가능한 개인과 관련 있는 모든 정보입니다. 이때 개인의 비공개, 공개 또는 업무 역할이 구분되지 않습니다. 정의된 "개인 정보"라는 용어는 GDPR에 따른 "개인 데이터"와 대략 일치합니다. 그러나 CCPA에는 가족 및 가정 데이터가 포함되어 있습니다. CCPA에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법](https://docs.microsoft.com/microsoft-365/compliance/offering-ccpa) 및 [캘리포니아 소비자 개인 정보 보호법 FAQ](https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq)를 참조하세요.
 
@@ -52,9 +52,9 @@ CCPA 하에서 개인 정보는 식별된 또는 식별 가능한 개인과 관�
 
 * _데이터 프로세서_ 데이터 컨트롤러를 대신하여 개인 정보를 처리하는 자연인 또는 법인, 공공 당국, 기관 또는 기타 주체입니다. 
 
-* _고객 데이터_—모든 텍스트, 사운드, 비디오 또는 이미지 파일 및 소프트웨어를 포함한 모든 데이터와 엔터프라이즈 서비스를 사용하여 고객이 또는 대신하여 Microsoft에 제공합니다. 
+* _고객 데이터_ —모든 텍스트, 사운드, 비디오 또는 이미지 파일 및 소프트웨어를 포함한 모든 데이터와 엔터프라이즈 서비스를 사용하여 고객이 또는 대신하여 Microsoft에 제공합니다. 
 
-* _Windows 진단 데이터_- 디바이스와 Windows 및 관련 소프트웨어의 작동 방식에 대한 Windows 디바이스의 핵심 기술 데이터입니다. Windows를 최신 상태로 유지하고, 안전하고, 안정적이며, 성능을 향상시키는 데 사용되며, Windows 사용의 집계 분석을 통해 Windows를 개선합니다. Windows 진단 데이터의 몇 가지 예로는 사용 중인 하드웨어 유형, 각각의 용도와 함께 설치된 응용 프로그램 및 장치 드라이버의 안정성 정보가 있습니다. 일부 Windows 구성 요소 및 앱은 Microsoft 서비스에 직접 연결되지만 교환하는 데이터는 Windows 진단 데이터가 아닙니다. 예를 들어 로컬 날씨 또는 뉴스를 위해 사용자 위치를 교환하는 것은 Windows 진단 데이터의 예가 아닙니다. 
+* _Windows 진단 데이터_ - 디바이스와 Windows 및 관련 소프트웨어의 작동 방식에 대한 Windows 디바이스의 핵심 기술 데이터입니다. Windows를 최신 상태로 유지하고, 안전하고, 안정적이며, 성능을 향상시키는 데 사용되며, Windows 사용의 집계 분석을 통해 Windows를 개선합니다. Windows 진단 데이터의 몇 가지 예로는 사용 중인 하드웨어 유형, 각각의 용도와 함께 설치된 응용 프로그램 및 장치 드라이버의 안정성 정보가 있습니다. 일부 Windows 구성 요소 및 앱은 Microsoft 서비스에 직접 연결되지만 교환하는 데이터는 Windows 진단 데이터가 아닙니다. 예를 들어 로컬 날씨 또는 뉴스를 위해 사용자 위치를 교환하는 것은 Windows 진단 데이터의 예가 아닙니다. 
 
 ## <a name="how-to-use-this-guide"></a>이 가이드를 사용하는 방법 
 
@@ -98,4 +98,4 @@ Microsoft는 기존 API(응용 프로그램 프로그래밍 인터페이스)를 
 
 ## <a name="notify-about-exporting-or-deleting-issues"></a>내보내기 또는 삭제 중 발생하는 문제에 대한 알림 
 
-Azure Portal에서 데이터를 내보내거나 삭제하는 동안 문제가 발생하면 Azure Portal **도움말 + 지원** 블레이드로 이동하여 **등록 관리 > 기타 보안 및 준수 요청 > 개인 정보 보호 블레이드 및 GDPR 요청**에서 새 티켓을 제출합니다. 
+Azure Portal에서 데이터를 내보내거나 삭제하는 동안 문제가 발생하면 Azure Portal **도움말 + 지원** 블레이드로 이동하여 **등록 관리 > 기타 보안 및 준수 요청 > 개인 정보 보호 블레이드 및 GDPR 요청** 에서 새 티켓을 제출합니다. 
