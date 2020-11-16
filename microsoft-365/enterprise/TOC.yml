@@ -467,10 +467,10 @@
               href: 'https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade'
             - name: 프로젝트 서버 2010
               href: project-server-2010-end-of-support.md
-- name: 보안
-  href: 'https://docs.microsoft.com/microsoft-365/security/'
 - name: 규정 준수
-  href: 'https://docs.microsoft.com/microsoft-365/compliance/'
+  href: ../compliance/index.yml
+- name: 보안
+  href: ../security/index.yml
 - name: 클라우드 서비스
   items:
     - name: 로드맵
@@ -581,6 +581,8 @@
               href: delete-and-restore-user-accounts-with-microsoft-365-powershell.md
             - name: 차단
               href: block-user-accounts-with-microsoft-365-powershell.md
+            - name: 암호
+              href: manage-passwords-with-microsoft-365-powershell.md
         - name: 라이선스 및 서비스
           items:
             - name: 라이선스 및 서비스 보기
@@ -602,6 +604,8 @@
                   href: disable-access-to-services-while-assigning-user-licenses.md
         - name: 그룹
           items:
+            - name: 보안 그룹 관리
+              href: manage-security-groups-with-microsoft-365-powershell.md
             - name: 보안 그룹 멤버십 유지 관리
               href: maintain-group-membership-with-microsoft-365-powershell.md
             - name: Microsoft 365 그룹 관리
@@ -723,10 +727,6 @@
       href: contoso-info-protect.md
     - name: 보안 요약
       href: contoso-security-summary.md
-- name: Microsoft 365 규정 준수
-  href: ../compliance/index.yml
-- name: Microsoft 365 보안
-  href: ../security/index.yml
 - name: Microsoft 365 아키텍처 및 솔루션
   href: ../solutions/index.yml
 - name: 클라우드 서비스를 사용한 엔터프라이즈 비즈니스 연속성 관리(EBCM)

@@ -61,6 +61,8 @@
           href: get-ready/mapped-drives.md
         - name: 인증서 및 네트워크 프로필 준비
           href: get-ready/certs-wifi-lan.md
+        - name: 게스트 계정에 대한 필수 구성 요소
+          href: get-ready/guest-accounts.md
         - name: 인쇄 리소스 준비
           href: get-ready/printing.md
         - name: 앱 준비
