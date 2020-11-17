@@ -20,17 +20,17 @@ search.appverid:
 - MOE150
 ms.assetid: 613a845c-4b71-41de-b331-acdcf5b6625d
 description: '조직의 모든 사용자나 특정 사용자에 대해 중요 받은 편지함을 구성하는 방법을 알아봅니다. '
-ms.openlocfilehash: eaf2c7623c81b24670a7b512c6311f0af036b255
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 76a449295b7a2ad0cc1c82488a131a3a89fe41fc
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644606"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49123432"
 ---
 # <a name="configure-focused-inbox-for-everyone-in-your-organization"></a>조직의 모든 사용자에 대해 중요 받은 편지함 구성
 
   회사의 모든 사용자에 대해 전자 메일 작동 방법을 구성해야 하는 경우 이 문서를 참조하세요. 이 문서에서는 해당 비즈니스에 맞게 이러한 구성을 사용자 지정하거나 끄는 방법을 설명하고 [자주하는 질문](#faq-for-focused-inbox)에 대답합니다.  <br/> 자신의 중요 받은 편지함을 끄려면 [중요 받은 편지함 끄기](https://support.microsoft.com/office/f714d94d-9e63-4217-9ccb-6cb2986aa1b2)를 참조하세요.  
-   
+
 사용자가 예를 들어 HR 또는 급여로부터 비즈니스 관련 전자 메일 메시지를 받을 수 있도록 하려면 이러한 메시지가 중요 보기로 오도록 중요 받은 편지함을 구성할 수 있습니다. 사서함에서 중요 받은 편지함이 조직의 사용자에게 표시되도록 할 것인지를 제어할 수도 있습니다.
   
 ## <a name="turn-focused-inbox-on-or-off-in-your-organization"></a>조직의 중요 받은 편지함 켜기 또는 끄기
@@ -42,32 +42,32 @@ PowerShell을 사용하여 조직의 모든 사용자에 대해 중요 받은 �
 다음 PowerShell 예제는 조직의 중요 받은 편지함을 **끕니다**. 하지만 이렇게 해도 사용자의 기능 사용 가능성은 차단되지 않습니다. 사용자가 원하는 경우 각 클라이언트에서 중요 받은 편지함을 다시 사용하도록 설정할 수 있습니다. 
   
 1. [원격 PowerShell을 사용하여 Exchange Online에 연결](https://go.microsoft.com/fwlink/p/?LinkId=396554)
-    
+
 2. 이 절차를 수행하려면 사용 권한이 할당된 상태여야 합니다. 필요한 사용 권한을 확인하려면 [메시징 정책 및 규정 준수 권한](https://go.microsoft.com/fwlink/p/?LinkId=829796)의 "전송 규칙" 항목을 참조하세요.
-    
+
 3. 
             **Get-OrganizationConfig** cmdlet을 실행합니다. 
-    
+
  ``` PowerShell
 Get-OrganizationConfig
  ```
 
 4. **FocusedInboxOn** 을 찾아 현재 설정을 확인합니다. 
-    
+
     ![중요 받은 편지함 상태에서의 PowerShell 응답.](../../media/419d8caa-89b9-45c5-91d9-8c023297456e.png)
   
 5. 다음 cmdlet을 실행하여 중요 받은 편지함을 끕니다.
-    
+
  ``` PowerShell
  Set-OrganizationConfig -FocusedInboxOn $false
  ```
 
 6. **Get-OrganizationConfig** cmdlet을 다시 실행하면 FocusedInboxOn이 $false로 설정되며, 이는 중요 받은 편지함이 꺼졌음을 의미합니다. 
-    
+
  **중요 받은 편지함을 켜는 방법:**
   
 - 위의 5단계에서 다음 cmdlet을 실행하여 중요 받은 편지함을 켭니다.
-    
+
  ``` PowerShell
  Set-OrganizationConfig -FocusedInboxOn $true
  ```
@@ -89,27 +89,27 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
 이 예제에서는 Contoso 조직의 Tim Matthews에 대해 중요 받은 편지함을 **끕니다**. 하지만 이렇게 해도 Tim Matthews의 기능 사용 가능성은 차단되지 않습니다. Tim Matthews가 원하는 경우 각 클라이언트에서 중요 받은 편지함을 다시 사용하도록 설정할 수 있습니다. 
   
 1. [원격 PowerShell을 사용하여 Exchange Online에 연결](https://go.microsoft.com/fwlink/p/?LinkId=396554)
-    
+
 2. 이 절차를 수행하려면 사용 권한이 할당된 상태여야 합니다. 필요한 사용 권한을 확인하려면 Messaging policy and compliance permissions(메시징 정책 및 규정 준수 권한) 항목에서 “Transport rules”(전송 규칙) 항목을 참조하세요.
-    
+
 3. **Get-FocusedInbox** cmdlet을 실행합니다. 예를 들면 다음과 같습니다. 
-    
+
  ``` PowerShell
  Get-FocusedInbox -Identity <tim@contoso.com>
  ```
 
 4. FocusedInboxOn을 찾아 현재 설정을 확인합니다.
-    
+
     ![중요 받은 편지함 상태에서의 PowerShell 응답.](../../media/419d8caa-89b9-45c5-91d9-8c023297456e.png)
   
 5. 다음 cmdlet을 실행하여 중요 받은 편지함을 끕니다.
-    
+
  ``` PowerShell
  Set-FocusedInbox -Identity <tim@contoso.com> -FocusedInboxOn $false
  ```
 
 6. 또는 다음 cmdlet을 실행하여 중요 받은 편지함을 켭니다.
-    
+
  ``` PowerShell
  Set-FocusedInbox -Identity <tim@contoso.com> -FocusedInboxOn $true
  ```
@@ -117,23 +117,26 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
 ## <a name="use-the-ui-to-create-a-transport-rule-to-direct-email-messages-to-the-focused-view-for-all-your-users"></a>UI를 사용하여 전자 메일 메시지를 모든 사용자의 중요 보기로 보내도록 전송 규칙을 만듭니다.
 
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a>로 이동합니다.
-    
-2. **메일 흐름** \> **규칙**으로 이동합니다. ![EAC 아이콘 추가](../../media/795e5bdd-48bb-433f-8e07-3c7a19f8eca2.gif)를 선택한 다음 **새 규칙 만들기**를 선택합니다. 
-    
-3. 새 규칙 만들기가 완료되면 **저장** 을 선택하여 해당 규칙을 시작합니다. 
-    
+
+2. **메일 흐름** \> **규칙** 으로 이동합니다. ![EAC 아이콘 추가](../../media/795e5bdd-48bb-433f-8e07-3c7a19f8eca2.gif)를 선택한 다음 **새 규칙 만들기** 를 선택합니다. 
+
+3. 새 규칙 만들기가 완료되면 **저장** 을 선택하여 해당 규칙을 시작합니다.
+
     다음 이미지는 "급여 부서"의 모든 메시지가 중요 받은 편지함으로 배달되는 예를 보여 줍니다.
-    
+
     ![focusedinbox 급여](../../media/focusedinbox-transport-rule.PNG)
+
+> [!NOTE]
+> 이 예제에서 메시지 헤더 값 텍스트는 **X-MS-Exchange-Organization-BypassFocusedInbox** 입니다.
   
-## <a name="use-powershell-to-create-a-transport-rule-to-direct-email-messages-to-the-focused-view-for-all-your-users"></a>PowerShell을 사용하여 전자 메일 메시지를 모든 사용자의 중요 보기로 보내도록 전송 규칙을 만듭니다.
+## <a name="use-powershell-to-create-a-transport-rule-to-direct-email-messages-to-the-focused-view-for-all-your-users"></a>PowerShell을 사용하여 전자 메일 메시지를 모든 사용자의 중요 보기로 보내도록 전송 규칙을 만들기
 
 1. [원격 PowerShell을 사용하여 Exchange Online에 연결](https://go.microsoft.com/fwlink/p/?LinkId=396554)
-    
+
 2. 이 절차를 수행하려면 사용 권한이 할당된 상태여야 합니다. 필요한 사용 권한을 확인하려면 [메시징 정책 및 규정 준수 권한](https://go.microsoft.com/fwlink/p/?LinkId=829796)의 "전송 규칙" 항목을 참조하세요.
 
 3. 예를 들어 다음 명령을 실행하여 "급여 부서"의 모든 메시지가 중요 받은 편지함으로 배달되도록 할 수 있습니다.
-    
+
  ``` PowerShell
  New-TransportRule -Name <name_of_the_rule> -From "Payroll Department" -SetHeaderName "X-MS-Exchange-Organization-BypassFocusedInbox" -SetHeaderValue "true"
  ```
@@ -144,15 +147,15 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
 
 ### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
-전자 메일 메시지 헤더를 확인하여 중요 받은 편지함 전송 규칙 바이패스로 인해 받은 편지함으로 전자 메일 메시지가 도착하는지 확인할 수 있습니다. 중요 받은 편지함 전송 규칙이 적용된 조직의 사서함에서 전자 메일 메시지를 선택합니다. 메시지에 스탬프 처리된 헤더를 확인하고 **X-MS-Exchange-Organization-BypassFocusedInbox: true** 헤더를 확인해야 합니다. 이는 바이패스가 작동 중임을 의미합니다. 헤더 정보를 찾는 방법에 대한 정보는 [전자 메일 메시지에 대한 인터넷 헤더 정보 확인](https://go.microsoft.com/fwlink/p/?LinkId=822530) 문서를 참조하세요. 
- 
+전자 메일 메시지 헤더를 확인하여 중요 받은 편지함 전송 규칙 바이패스로 인해 받은 편지함으로 전자 메일 메시지가 도착하는지 확인할 수 있습니다. 중요 받은 편지함 전송 규칙이 적용된 조직의 사서함에서 전자 메일 메시지를 선택합니다. 메시지에 스탬프 처리된 헤더를 확인하고 **X-MS-Exchange-Organization-BypassFocusedInbox: true** 헤더를 확인해야 합니다. 이는 바이패스가 작동 중임을 의미합니다. 헤더 정보를 찾는 방법에 대한 정보는 [전자 메일 메시지에 대한 인터넷 헤더 정보 확인](https://go.microsoft.com/fwlink/p/?LinkId=822530) 문서를 참조하세요.
+
 ## <a name="turn-onoff-clutter"></a>낮은 우선 순위 메일 켜기/끄기
- 
+
 일부 사용자에서 낮은 우선 순위 메일이 갑자기 작동 중지되었다는 보고를 받았습니다. 이 경우 특정 사용자에 대해 낮은 우선 순위 메일을 다시 사용하도록 설정할 수 있습니다. [조직에 대한 낮은 우선 순위 메일 구성](../email/configure-clutter.md)을 참조하세요.
- 
+
 ## <a name="faq-for-focused-inbox"></a>중요 받은 편지함에 대한 FAQ
 
-다음은 중요 받은 편지함에 대한 질문과 대답입니다. 
+다음은 중요 받은 편지함에 대한 질문과 대답입니다.
 
 ### <a name="can-i-control-how-i-roll-out-focused-inbox-in-my-organization"></a>조직에서 중요 받은 편지함 배포 방법을 제어할 수 있나요?
 
@@ -184,10 +187,10 @@ Microsoft MVP인 [Tony Redmond](https://www.petri.com/author/tony-redmond)의 �
 
 중요 받은 편지함과 연관된 상태는 두 가지가 있습니다.
   
-- **조직 수준**: 중요 받은 편지함 상태 및 연관된 마지막 업데이트 타임스탬프입니다. 
-    
+- **조직 수준**: 중요 받은 편지함 상태 및 연관된 마지막 업데이트 타임스탬프입니다.
+
 - **사서함 수준​​**: 중요 받은 편지함 상태 및 연관된 마지막 업데이트 타임스탬프입니다. 
-    
+
 ### <a name="how-does-outlook-decide-to-show-the-focused-inbox-experience-with-these-two-states"></a>Outlook에서 이러한 두 가지 상태로 중요 받은 편지함 환경 표시를 결정하는 방법은 무엇인가요?
 
 Outlook은 최신 타임스탬프가 있는 cmdlet을 선택하여 환경 표시를 결정합니다. 기본적으로 두 타임스탬프 모두 “null”이며 이런 경우에는 이 기능이 사용하도록 설정됩니다.

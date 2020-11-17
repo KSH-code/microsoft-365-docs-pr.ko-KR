@@ -17,18 +17,18 @@ search.appverid:
 - SPO160
 - MET150
 description: 이 문서에서는 포털 시작 스케줄러를 사용 하 여 포털을 시작 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 6a191cf323e180fa77614eb09bae4185228a5029
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: a7a007fdd95638109830a8e3689232060f2b9d8b
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087670"
+ms.locfileid: "49123586"
 ---
 # <a name="launch-your-portal-using-the-portal-launch-scheduler"></a>포털 시작 스케줄러를 사용 하 여 포털 시작
 
 포털은 사이트에서 콘텐츠를 사용하는 다수의 사이트 방문자를 보유하는 인트라넷 상의 SharePoint 사이트입니다. 물결에서 포털을 시작 하는 것은 사용자에 게 새 SharePoint Online 포털에 쉽게 액세스할 수 있도록 하는 데 있어 중요 한 요소입니다. 
 
-물결에서 시작 하는 것은 [SharePoint Online에서 포털 시작 롤아웃 계획 계획](https://docs.microsoft.com/en-us/microsoft-365/Enterprise/Planportallaunchroll-out?view=o365-worldwide)에 설명 된 것 처럼 포털을 롤아웃 하는 핵심 방법입니다. 포털 시작 스케줄러는 새 포털의 리디렉션을 관리 하 여 웨이브/단계적 롤아웃 방식에 따라 진행 하는 데 도움을 주기 위한 것입니다. 각 물결 중에는 각 배포 전파가 진행 되는 동안 사용자 의견을 수집 하 고 성능을 모니터링할 수 있습니다. 이렇게 하면 다음 웨이브를 계속 진행 하기 전에 문제를 일시 중지 및 해결 하 고 궁극적으로 사용자에 게 긍정적인 환경을 유지 하는 옵션이 제공 됩니다. 
+물결에서 시작 하는 것은 [SharePoint Online에서 포털 시작 롤아웃 계획 계획](https://docs.microsoft.com/microsoft-365/Enterprise/Planportallaunchroll-out?view=o365-worldwide)에 설명 된 것 처럼 포털을 롤아웃 하는 핵심 방법입니다. 포털 시작 스케줄러는 새 포털의 리디렉션을 관리 하 여 웨이브/단계적 롤아웃 방식에 따라 진행 하는 데 도움을 주기 위한 것입니다. 각 물결 중에는 각 배포 전파가 진행 되는 동안 사용자 의견을 수집 하 고 성능을 모니터링할 수 있습니다. 이렇게 하면 다음 웨이브를 계속 진행 하기 전에 문제를 일시 중지 및 해결 하 고 궁극적으로 사용자에 게 긍정적인 환경을 유지 하는 옵션이 제공 됩니다. 
 
 리디렉션에는 다음과 같은 두 가지 유형이 있습니다. 
 - 양방향 작업: 새로운 최신 SharePoint Online 포털을 시작 하 여 기존 SharePoint 클래식 또는 최신 포털을 교체 합니다. 
