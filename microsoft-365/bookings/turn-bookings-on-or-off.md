@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 5382dc07-aaa5-45c9-8767-502333b214ce
 description: Microsoft 365에서 Microsoft 예약에 액세스 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 815aa3a859db15364aa18d3550001a28d085b711
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 7e4eaa1e474f3f49807b842097c855193f028af0
+ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419919"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49126602"
 ---
 # <a name="turn-microsoft-bookings-on-or-off"></a>Microsoft 예약 켜기 또는 끄기
 
@@ -27,18 +27,18 @@ ms.locfileid: "47419919"
 
 1. 전역 관리자 권한으로 Microsoft 365 관리 센터에 로그인 합니다.
 
-2. 관리 센터에서 **설정** 설정으로 이동 하 여   \> **Settings** **예약**을 선택 합니다.
+2. 관리 센터에서  **설정**   \> **조직 설정** 으로 이동 하 고 **예약** 을 선택 합니다.
 
 3. **조직에서 예약을 사용** 하 여 조직에 대해 예약을 사용 하거나 사용 하지 않도록 설정할 수 있는 확인란을 선택 합니다.
 
    > [!NOTE]
    > 예약을 끄면 예약 페이지 만들기 및 관리를 포함 하 여 서비스에 대 한 모든 액세스를 사용할 수 없게 됩니다.
 
-4. **변경 내용 저장**을 선택 합니다.
+4. **변경 내용 저장** 을 선택 합니다.
 
 ## <a name="turn-bookings-on-or-off-for-your-organization-using-powershell"></a>PowerShell을 사용 하 여 조직에 대해 예약 설정 또는 해제
 
-PowerShell cmdlet [set-organizationconfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig)를 사용 하 여 조직에 대해 예약을 설정 하거나 해제 하려면 [Exchange Online PowerShell에 연결]() 하 고 다음 명령을 실행 합니다.
+PowerShell cmdlet [set-organizationconfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig)를 사용 하 여 조직에 대해 예약을 설정 하거나 해제 하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) 하 고 다음 명령을 실행 합니다.
 
 ```PowerShell
    Set-OrganizationConfig -BookingsEnabled $false
@@ -48,9 +48,9 @@ PowerShell cmdlet [set-organizationconfig](https://docs.microsoft.com/powershell
 
 개별 사용자에 대해 예약을 사용 하지 않도록 설정할 수 있습니다.
 
-1. Microsoft 365 관리 센터로 이동한 후 **사용자** \> **활성 사용자**를 선택 합니다.
+1. Microsoft 365 관리 센터로 이동한 후 **사용자** \> **활성 사용자** 를 선택 합니다.
 
-1. 원하는 사용자를 선택한 다음 **라이선스 및 앱**을 선택 합니다.
+1. 원하는 사용자를 선택한 다음 **라이선스 및 앱** 을 선택 합니다.
 
 1. **앱** 을 확장 하 고 Microsoft 예약에 대 한 확인란의 선택을 취소 합니다.
 

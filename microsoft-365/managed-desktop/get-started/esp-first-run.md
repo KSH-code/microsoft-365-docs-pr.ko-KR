@@ -1,5 +1,5 @@
 ---
-title: Autopilot 및 등록 상태 페이지를 사용 하 여 처음 실행 환경
+title: Autopilot 및 등록 상태 페이지의 첫 실행 환경
 description: ESP 환경을 배포 하는 방법, 사용 된 설정 및 구성 변경 사항
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
@@ -10,14 +10,14 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 7337dd28f7940256d1753cd4c0b6309406fab2d1
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: 5e2340c7c0bf00165bb43740d3d095b5b0402fc0
+ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48305273"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49126628"
 ---
-# <a name="first-run-experience-with-autopilot-and-the-enrollment-status-page"></a>Autopilot 및 등록 상태 페이지를 사용 하 여 처음 실행 환경
+# <a name="first-run-experience-with-autopilot-and-the-enrollment-status-page"></a>Autopilot 및 등록 상태 페이지의 첫 실행 환경
 
 Microsoft Managed Desktop은 [Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot) 와 Microsoft Intune의 [등록 상태 페이지 (ESP)](https://docs.microsoft.com/windows/deployment/windows-autopilot/enrollment-status) 를 모두 사용 하 여 사용자에 게 최적의 첫 실행 환경을 제공 합니다.
 
@@ -77,7 +77,7 @@ Microsoft Managed Desktop은 등록 상태 페이지 환경에 이러한 설정�
 
 1. Autopilot 환경이 시작 되 고 사용자가 자격 증명을 입력 합니다.
 2. 장치에서 등록 상태 페이지가 열리고 장치 준비 및 장치 설정 단계가 진행 됩니다. 사용자 ESP가 사용 하지 않도록 설정 되어 있기 때문에 현재 Microsoft 관리 데스크톱 구성에서 세 번째 단계 (계정 설정)가 *생략* 됩니다. 장치가 다시 시작 됩니다.
-3. 다시 시작 되 면 장치에서 **다른 사용자**와의 Windows 로그인 페이지를 엽니다.
+3. 다시 시작 되 면 장치에서 **다른 사용자** 와의 Windows 로그인 페이지를 엽니다.
 4. 사용자가 자격 증명을 다시 입력 하 고 바탕 화면이 열립니다.
 
 > [!NOTE]
@@ -95,7 +95,7 @@ Microsoft Managed Desktop에서 사용 하는 설치가 사용자의 요구에 �
 
 ### <a name="autopilot-settings-change"></a>Autopilot 설정 변경
 
-다른 장치 이름 템플릿을 요청 해야 할 수도 있습니다. 그러나 배포 모드를 변경 하 고 Azure에 Join, 개인 정보 설정 또는 사용자 계정 유형을 변경할 수는 없습니다.
+다른 장치 이름 템플릿을 요청 해야 할 수도 있습니다. 그러나 배포 모드를 변경 하거나, Azure AD에 가입 하거나, 개인 정보 설정 또는 사용자 계정 유형을 변경할 수는 없습니다.
 
 ### <a name="enrollment-status-page-settings-change"></a>등록 상태 페이지 설정 변경
 

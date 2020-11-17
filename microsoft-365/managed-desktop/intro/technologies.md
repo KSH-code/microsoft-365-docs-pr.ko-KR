@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: a6e3e7cc0404a56e4d69da69b95aa95fa6795dd5
-ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
+ms.openlocfilehash: 9ec6f73996b2626ef62d33435ed88fb08dfc1a16
+ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49002224"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49126582"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Microsoft Managed Desktop 기술
 
@@ -37,7 +37,7 @@ Win32 응용 프로그램 |    팀은 장치와 함께 제공 되지 않지만 m
 웹 응용 프로그램 |  Yammer, Office for browser, Delve, 흐름, StaffHub, PowerApps 및 Planner가 장치와 함께 제공 되지 않습니다. 사용자는 브라우저를 사용 하 여 이러한 응용 프로그램의 웹 버전에 액세스할 수 있습니다.
 
 
-## <a name="windows-10-enterprise-e3-or-e5"></a>Windows 10 Enterprise E3 또는 E5
+## <a name="windows-10-enterprise-e5-or-e3-with-microsoft-defender-for-endpoint"></a>끝점에 대 한 Microsoft Defender가 있는 Windows 10 Enterprise E5 또는 E3
 
  |
  --- | ---

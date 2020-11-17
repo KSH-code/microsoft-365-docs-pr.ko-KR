@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 8c3a913c-2247-4519-894d-b6263eeb9920
 description: Microsoft 365 관리 센터 또는 Windows PowerShell을 사용 하 여 예약 일정을 삭제할 수 있습니다.
-ms.openlocfilehash: 3a1cb1c54f60247ab72056b3e39b56b0981228b7
-ms.sourcegitcommit: eb3c30d53a5434d8bad7c8f48a5612f3e2675945
+ms.openlocfilehash: 2fcb92cee18d709ef0e1fa3faa0246e622a9f9db
+ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422445"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49126652"
 ---
 # <a name="delete-a-booking-calendar-in-bookings"></a>예약에서 예약 달력 삭제
 
@@ -40,13 +40,13 @@ ms.locfileid: "47422445"
 
    ![Microsoft 365 관리 센터의 사용자 UI의 이미지](../media/bookings-admin-center-users.png)
 
-1. **활성 사용자** 페이지에서 삭제할 사용자의 이름을 선택한 다음 **사용자 삭제**를 선택합니다.
+1. **활성 사용자** 페이지에서 삭제할 사용자의 이름을 선택한 다음 **사용자 삭제** 를 선택합니다.
 
    ![Microsoft 365 관리 센터의 사용자 UI 삭제 이미지](../media/bookings-delete-user.png)
 
 ## <a name="delete-a-booking-calendar-using-exchange-online-powershell"></a>Exchange Online PowerShell을 사용 하 여 예약 달력 삭제
 
-필수 구성 요소는 exchange [Online powershell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) 및 Exchange online powershell에 연결 하기 위한 지침을 참조 하세요.
+필수 구성 요소는 exchange [Online powershell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) 및 Exchange online powershell에 연결 하기 위한 지침을 참조 하세요.
 
 이 단계를 수행 하려면 "관리자 권한으로 실행" 옵션을 선택 하 여 실행 한 활성 Microsoft PowerShell 명령 창을 사용 해야 합니다.
 

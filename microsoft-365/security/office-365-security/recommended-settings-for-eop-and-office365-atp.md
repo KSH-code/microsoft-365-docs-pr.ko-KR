@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: EOP (Exchange Online Protection) 및 Defender for Office 365 보안 설정에 대 한 모범 사례는 무엇 인가요? 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 Office 365 용으로 Defender를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: bc91ba58c9dc14954f638853ad24fcf7a26684e3
-ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
+ms.openlocfilehash: bcad3609f5f73ac538ae9d1a0964ecc8e176003e
+ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/17/2020
-ms.locfileid: "49123477"
+ms.locfileid: "49126640"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>EOP 및 Office 용 Microsoft Defender 365 보안에 대 한 권장 설정
 
@@ -189,11 +189,11 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지 기능을 사�
 
 ****
 
-|보안 기능 이름|Standard|항등|댓글|
-|---|---|---|---|
-|**스푸핑 방지 보호 사용** <p> _EnableAntispoofEnforcement_|켜짐 <p> `$true`|켜짐 <p> `$true`||
-|**인증 되지 않은 보낸 사람 사용** <p> _EnableUnauthenticatedSender_|켜짐 <p> `$true`|켜짐 <p> `$true`|알 수 없는 스푸핑된 보낸 사람에 대 한 Outlook의 보낸 사람 사진에 물음표 (?)를 추가 합니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md)참조 하십시오.|
-|**도메인을 스푸핑할 수 없는 사용자가 전자 메일을 보낸 경우** <p> _AuthenticationFailAction_|**받는 사람의 정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 격리** <p> `Quarantine`|이 설정은 [위장 인텔리전스](learn-about-spoof-intelligence.md)에서 수신 거부에 적용 됩니다.|
+|보안 기능 이름|기본|Standard|항등|댓글|
+|---|---|---|---|---|
+|**스푸핑 방지 보호 사용** <p> _EnableAntispoofEnforcement_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`||
+|**인증 되지 않은 보낸 사람 사용** <p> _EnableUnauthenticatedSender_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`|알 수 없는 스푸핑된 보낸 사람에 대 한 Outlook의 보낸 사람 사진에 물음표 (?)를 추가 합니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md)참조 하십시오.|
+|**도메인을 스푸핑할 수 없는 사용자가 전자 메일을 보낸 경우** <p> _AuthenticationFailAction_|**받는 사람의 정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**받는 사람의 정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 격리** <p> `Quarantine`|이 설정은 [위장 인텔리전스](learn-about-spoof-intelligence.md)에서 수신 거부에 적용 됩니다.|
 |
 
 #### <a name="advanced-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Office 용 Microsoft Defender의 피싱 방지 정책에서 고급 설정 365
