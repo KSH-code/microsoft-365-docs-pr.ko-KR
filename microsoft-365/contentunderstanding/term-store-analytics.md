@@ -8,17 +8,18 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Priority
-ms.openlocfilehash: 75bd60aab424bdf391038a95055a6660ef2ceecc
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: bd5d0b180a95239b1a3ac7b85ae0ada57f098293
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322214"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087284"
 ---
 # <a name="term-store-reports"></a>용어 저장소 보고서
 
-SharePoint 관리 센터에서 용어 저장소 보고서에 액세스 할 수 있습니다. **보고서**를 확장하고 **콘텐츠 서비스**를 클릭하세요.
+SharePoint 관리 센터에서 용어 저장소 보고서에 액세스 할 수 있습니다. **보고서** 를 확장하고 **콘텐츠 서비스** 를 클릭하세요.
 
 사용 가능한 보고서는 다음과 같습니다.
 

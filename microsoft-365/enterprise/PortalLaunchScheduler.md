@@ -17,90 +17,126 @@ search.appverid:
 - SPO160
 - MET150
 description: 이 문서에서는 포털 시작 스케줄러를 사용 하 여 포털을 시작 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 929492742fd140654bd13be8165093ee10647c6d
-ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
+ms.openlocfilehash: 6a191cf323e180fa77614eb09bae4185228a5029
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999594"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087670"
 ---
 # <a name="launch-your-portal-using-the-portal-launch-scheduler"></a>포털 시작 스케줄러를 사용 하 여 포털 시작
 
-새 포털에 대 한 물결을 설정 하는 테 넌 트 관리자의 기능을 먼저 확인 하 여 포털 시작 스케줄러를 사용 하 여 포털을 시작할 수 있습니다. 그런 다음 관리자는 활성 물결에 사용자가 있는지 여부에 따라 요청 리디렉션을 확인할 수 있습니다.
+포털은 사이트에서 콘텐츠를 사용하는 다수의 사이트 방문자를 보유하는 인트라넷 상의 SharePoint 사이트입니다. 물결에서 포털을 시작 하는 것은 사용자에 게 새 SharePoint Online 포털에 쉽게 액세스할 수 있도록 하는 데 있어 중요 한 요소입니다. 
 
-성공적인 포털을 시작 하는 방법에 대 한 자세한 내용은 [정상 포털 만들기, 시작 및 유지 관리](https://go.microsoft.com/fwlink/?linkid=2105838)에서 자세히 설명 하는 기본 원칙, 모범 사례 및 권장 사항을 따르세요. 
+물결에서 시작 하는 것은 [SharePoint Online에서 포털 시작 롤아웃 계획 계획](https://docs.microsoft.com/en-us/microsoft-365/Enterprise/Planportallaunchroll-out?view=o365-worldwide)에 설명 된 것 처럼 포털을 롤아웃 하는 핵심 방법입니다. 포털 시작 스케줄러는 새 포털의 리디렉션을 관리 하 여 웨이브/단계적 롤아웃 방식에 따라 진행 하는 데 도움을 주기 위한 것입니다. 각 물결 중에는 각 배포 전파가 진행 되는 동안 사용자 의견을 수집 하 고 성능을 모니터링할 수 있습니다. 이렇게 하면 다음 웨이브를 계속 진행 하기 전에 문제를 일시 중지 및 해결 하 고 궁극적으로 사용자에 게 긍정적인 환경을 유지 하는 옵션이 제공 됩니다. 
 
-## <a name="app-setup"></a>앱 설치
-1. `Microsoft.Online.SharePoint.PowerShell`제어판을 통해 컴퓨터에서 기존 프로그램이 있으면 제거 합니다.
-2. PowerShell `Install-Module -Name Microsoft.Online.SharePoint.PowerShell` 통과
+리디렉션에는 다음과 같은 두 가지 유형이 있습니다. 
+- 양방향 작업: 새로운 최신 SharePoint Online 포털을 시작 하 여 기존 SharePoint 클래식 또는 최신 포털을 교체 합니다. 
+- 임시 페이지 리디렉션: 기존 SharePoint 포털을 사용 하지 않고 새로운 최신 SharePoint Online 포털 시작
 
-## <a name="connect-to-sharepoint-online"></a>SharePoint Online에 연결
-1. Windows에서 [SharePoint Online 관리 셸을](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) 엽니다.
-2. 관리자 권한으로 테 넌 트에 연결 합니다.
-   - `Connect-SPOService -Url "https://*-admin.sharepoint.com" -Credential "username”`
-3.  메시지가 표시 되 면 암호를 입력 합니다.
+포털 시작 스케줄러는 커뮤니케이션 사이트 및 최신 팀 사이트와 같은 최신 SharePoint Online 포털을 실행 하는 경우에만 사용할 수 있습니다. 시작을 7 일 이상 미리 예약 해야 합니다. 필요한 물결 수는 예상 사용자 수에 따라 결정 됩니다. 포털 시작을 예약 하기 전에 포털의 홈 페이지가 정상 인지 확인 하기 위해 [SharePoint 용 페이지 진단을](https://aka.ms/perftool) 실행 해야 합니다. 포털 시작이 끝나면 사이트에 대 한 사용 권한이 있는 모든 사용자가 새 사이트에 액세스할 수 있습니다. 
 
-## <a name="command-to-get-an-existing-setup"></a>기존 설치 프로그램을 가져오기 위한 명령
+성공적인 포털을 시작 하는 방법에 대 한 자세한 내용은 [정상 포털을 만들고, 시작 하 고, 유지 관리](https://docs.microsoft.com/sharepoint/portal-health)하는 방법에 대해 설명 하는 기본 원칙, 모범 사례 및 권장 사항을 따르세요. 
 
-기존 포털 시작 구성을 보려면 다음을 수행 합니다.
+> [!NOTE]
+> 이 기능은 Office 365 독일, 21Vianet에서 운영 하는 Office 365 (중국) 또는 Microsoft 365 US 정부 요금제에는 사용할 수 없습니다.
 
-1. 통과 `Get-SPOPortalLaunchWaves  -LaunchSiteUrl  https://*.sharepoint.com/sites/newsite` 합니다.
-2. `-DisplayFormat Raw`웨이브 컬렉션을 raw 입력 형식으로 서식이 지정 된 경우 추가 매개 변수를 전달 합니다.
+## <a name="app-setup-and-connecting-to-sharepoint-online"></a>앱 설치 및 SharePoint Online에 연결
+1. [최신 SharePoint Online 관리 셸 다운로드](https://go.microsoft.com/fwlink/p/?LinkId=255251)
 
-## <a name="commands-for-bi-directional-redirection"></a>양방향 리디렉션 명령
+    > [!NOTE]
+    > 이전 버전의 SharePoint Online 관리 셸을 설치한 경우 프로그램 추가/제거로 이동하여 "SharePoint Online 관리 셸"을 제거합니다.<br>다운로드 센터 페이지에서 언어를 선택하고 다운로드 단추를 클릭합니다. x64 및 x86 .msi 파일 다운로드 중에서 선택하라는 메시지가 표시됩니다. 64 비트 버전의 Windows를 실행하는 경우 x64 파일을, 32 비트 버전을 실행하는 경우 x86 파일을 다운로드합니다. 버전을 모르는 경우에는 [어떠한 Windows 운영 체제 버전을 실행 중인가요?](https://support.microsoft.com/help/13443/windows-which-operating-system)를 참조하세요. 파일을 다운로드한 후 파일을 실행하고 설정 마법사의 단계를 따릅니다.
 
-이전 사이트 사용자를 미리 구성 된 방식으로 새 사이트로 마이그레이션하려면 다음을 수행 합니다.
+2. Microsoft 365에서 [전역 관리자 또는 SharePoint 관리자](/sharepoint/sharepoint-admin-role)로 SharePoint에 연결합니다. 자세한 방법은 [SharePoint Online 관리 셸 시작](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)을 참조하세요.
 
-1. 포털 시작 물결을 만듭니다.
-   - 이 작업은 초기 릴리스 테스트 단계 에서만 적용 됩니다.
-   - 변경의 영향을 즉시 테스트 하려면 첫 번째 물결이 `LaunchDateUtc` 현재 날짜로 설정 되어 있는지 확인 합니다. 이 플래그를 지정 하지 않으면 오류 메시지가 표시 됩니다. 이 오류는 프로덕션에서 시작을 최소 7 일 이상으로 예약 해야 하기 때문에 발생 합니다.
 
-  `New-SPOPortalLaunchWaves  -LaunchSiteUrl "https://*.sharepoint.com/sites/newsite" -RedirectionType Bidirectional -RedirectUrl "https://*.sharepoint.com/sites/oldsite" -ExpectedNumberOfUsers LessThan10kUsers -WaveOverrideUsers "*@microsoft.com" -Waves ' [{Name:"Wave 1", Groups:["Viewers SG1"], LaunchDateUtc:"2020/10/14"}, {Name:"Wave 2", Groups:["Viewers SG2"], LaunchDateUtc:"2020/10/15"}]' -IsTesting $true`
+## <a name="view-any-existing-portal-launch-setups"></a>기존 포털 시작 프로그램 보기
 
-2. 유효성 검사를 완료 합니다.
-  - 리디렉션이 서비스 전체에서 구성을 완료 하는 데 최대 5 분이 걸릴 수 있으므로 계속 하기 전에 잠시 기다려 주십시오.
-  - 로 지정 된 사용자에 게 로그인 하는 경우 `WaveOverrideUsers` 아무 것도 변경 되지 않습니다. 탐색 한 사이트를 그대로 두어야 합니다.
-  - 보기 관리자에 게 속하는 사용자와 로그인 *합니다.*
-    - 이전 사이트로 이동 하 여 새 사이트로 리디렉션됩니다.
-    - 새 사이트로 이동 하 여 새 사이트를 계속 사용할 수 있습니다.
-    - *VIEWER SG2* 에서 사용자에 게 로그온 하 여 이전 사이트로 이동한 후 이전 사이트를 유지 합니다.
-    - 새 사이트로 이동 하 여 이전 사이트로 리디렉션됩니다.
+기존 포털 시작 구성이 있는지 확인 하려면 다음을 수행 합니다.
 
-3. 포털 시작을 일시 중지 합니다.
-  - 시작 물결을 일시 중지 해야 하는 경우 "x" 일 수 동안 일시 중지할 수 있습니다. 플래그를 `Status` 일시 중지로 설정 하면 예정 된 모든 웨이브 progressions를 방지할 수 있습니다. 
-  - `Set-SPOPortalLaunchWaves -Status Pause - LaunchSiteUrl  https://*.sharepoint.com/sites/NewSite`.
-  - 모든 사용자가 이전 사이트로 리디렉션되는 것을 확인 합니다.
+   ```PowerShell
+   Get-SPOPortalLaunchWaves -LaunchSiteUrl <object> -DisplayFormat <object>
+   ```
 
-4. 포털 시작 진행을 다시 시작 합니다. 
-  - `Set-SPOPortalLaunchWaves -Status Restart - LaunchSiteUrl  https://*.sharepoint.com/sites/NewSite`.
-  - 리디렉션이 이제 복원 되었는지 확인 합니다.
+## <a name="schedule-a-portal-launch-on-the-site"></a>사이트에서 포털 시작 예약
 
-5. 포털을 삭제 하 여 설치 프로그램을 시작 합니다.
-  - `Remove-SPOPortalLaunchWaves -LaunchSiteUrl https://*.sharepoint.com/sites/NewSite`.
-  - 모든 사용자에 대해 리디렉션이 발생 하지 않음을 확인 합니다.
+필요한 물결 수는 예상 되는 시작 크기에 따라 달라 집니다. 
+- 10k 미만의 사용자: 웨이브 1 개
+- 10k ~ 30k 사용자: 3 개의 물결 
+- 30k + 10만 명의 사용자: 5 물결
+- 10만 명 이상: 5 개의 물결 및 Microsoft 계정 팀에 문의
 
-## <a name="commands-for-redirection-to-temporary-page"></a>임시 페이지로의 리디렉션 명령
+### <a name="steps-for-bi-directional-redirection"></a>양방향 리디렉션 단계
 
-이전 사이트가 없고, 새 포털 페이지에서 웨이브에서 연결 되지 않은 사용자를 생략 하려면 다음 단계를 수행 합니다.
+양방향 리디렉션에는 기존 SharePoint 클래식 또는 최신 포털을 대체 하기 위해 최신 SharePoint Online 포털을 새로 시작 하는 작업이 포함 됩니다. 활성 물결의 사용자가 이전 사이트 또는 새 사이트로 이동 하는지 여부에 관계 없이 새 사이트로 리디렉션됩니다. 시작 되지 않은 웨이브의 사용자가 새 사이트에 액세스 하려고 하면 해당 물결이 시작 될 때까지 이전 사이트로 다시 리디렉션됩니다. 이전 및 새 사이트를 리디렉션하지 않고 액세스 해야 하는 관리자 또는 소유자가 있는 경우에는 매개 변수를 사용 하 여 나열 되는지 확인 합니다 `WaveOverrideUsers` . 
 
-사이트에서 임시 페이지를 만들려면 다음을 수행 합니다.
+기존 SharePoint 사이트의 사용자를 미리 구성 된 방식으로 새 SharePoint 사이트로 마이그레이션하려면 다음을 수행 합니다.
 
+1. 다음 명령을 실행 하 여 포털 시작 물결을 지정 합니다.
+   
+   ```PowerShell
+    New-SPOPortalLaunchWaves -LaunchSiteUrl <object> -RedirectionType Bidirectional -RedirectUrl <string> -ExpectedNumberOfUsers <object> -WaveOverrideUsers <object> -Waves <object>
+    ```
+
+예제:
+   ```PowerShell
+   New-SPOPortalLaunchWaves -LaunchSiteUrl "https://contoso.sharepoint.com/teams/newsite" -RedirectionType Bidirectional -RedirectUrl "https://contoso.sharepoint.com/teams/oldsite" -ExpectedNumberOfUsers 10kTo30kUsers -WaveOverrideUsers "admin@contoso.com" -Waves ' 
+[{Name:"Wave 1", Groups:["Viewers 1"], LaunchDateUtc:"2020/10/14"}, 
+{Name:"Wave 2", Groups:["Viewers 2"], LaunchDateUtc:"2020/10/15"}, 
+{Name:"Wave 3", Groups:["Viewers 3"], LaunchDateUtc:"2020/10/16"}]'
+   ```
+
+2. 유효성 검사를 완료 합니다. 리디렉션이 서비스 전체에서 구성을 완료 하는 데 5-10 분 정도 걸릴 수 있습니다. 
+
+### <a name="steps-for-redirection-to-temporary-page"></a>임시 페이지로 리디렉션하는 단계
+
+기존 SharePoint 포털이 없는 경우 임시 페이지 리디렉션을 사용 해야 합니다. 사용자는 미리 구성 된 새로운 SharePoint Online 포털을 미리 안내 합니다. 사용자가 아직 시작 되지 않은 웨이브에 있는 경우에는 임시 페이지 (모든 URL)로 리디렉션됩니다. 
+
+1. 다음 명령을 실행 하 여 포털 시작 물결을 지정 합니다.
+   
+      ```PowerShell
+    New-SPOPortalLaunchWaves -LaunchSiteUrl <object> -RedirectionType ToTemporaryPage -RedirectUrl <string> -ExpectedNumberOfUsers <object> -WaveOverrideUsers <object> -Waves <object>
+    ```
+
+예제:
+   ```PowerShell
+   New-SPOPortalLaunchWaves -LaunchSiteUrl "https://contoso.sharepoint.com/teams/newsite" -RedirectionType ToTemporaryPage -RedirectUrl "https://portal.contoso.com/UnderConstruction.aspx" -ExpectedNumberOfUsers 10kTo30kUsers -WaveOverrideUsers "admin@contoso.com" -Waves ' 
+[{Name:"Wave 1", Groups:["Viewers 1"], LaunchDateUtc:"2020/10/14"}, 
+{Name:"Wave 2", Groups:["Viewers 2"], LaunchDateUtc:"2020/10/15"}, 
+{Name:"Wave 3", Groups:["Viewers 3"], LaunchDateUtc:"2020/10/16"}]'
+   ```
+
+2. 유효성 검사를 완료 합니다. 리디렉션이 서비스 전체에서 구성을 완료 하는 데 5-10 분 정도 걸릴 수 있습니다. 
+   - `New-SPOPortalLaunchWaves  -LaunchSiteUrl "https://*.sharepoint.com/sites/newsite" -RedirectionType Bidirectional -RedirectUrl "https://*.sharepoint.com/sites/oldsite" -ExpectedNumberOfUsers LessThan10kUsers -WaveOverrideUsers "*@microsoft.com" -Waves ' [{Name:"Wave 1", Groups:["Viewers SG1"], LaunchDateUtc:"2020/10/14"}, {Name:"Wave 2", Groups:["Viewers SG2"], LaunchDateUtc:"2020/10/15"}]' -IsTesting $true`
+
+## <a name="pause-or-restart-a-portal-launch-on-the-site"></a>사이트에서 포털 시작 일시 중지 또는 다시 시작
+
+1. 진행 중인 포털 시작을 일시 중지 하 고 예정 된 웨이브 progressions 발생 하는 것을 일시적으로 방지 하려면 다음 명령을 실행 합니다.
+
+   ```PowerShell
+   Set-SPOPortalLaunchWaves -Status Pause - LaunchSiteUrl <object>
+   ```
+2. 모든 사용자가 이전 사이트로 리디렉션되도록 확인 합니다. 
+
+3. 일시 중지 된 포털 시작을 다시 시작 하려면 다음 명령을 실행 합니다.
+
+   ```PowerShell
+   Set-SPOPortalLaunchWaves -Status Restart - LaunchSiteUrl <object>
+   ```
+   
+4. 리디렉션이 이제 복원 되었는지 확인 합니다. 
+
+## <a name="delete-a-portal-launch-on-the-site"></a>사이트에서 포털 시작을 삭제 합니다.
 1. 포털 시작 웨이브를 만듭니다.
-   - `New-SPOPortalLaunchWaves  -LaunchSiteUrl "https://*.sharepoint.com/sites/NewSite" -RedirectionType ToTemporaryPage -RedirectUrl "https://*.sharepoint.com/sites/OldSite" -ExpectedNumberOfUsers From10kTo30kUsers -WaveOverrideUsers *@microsoft.com -Waves [{Name:"Wave 1", Groups:["Viewers SG1"], LaunchDateUtc:"2020/10/14"}, {Name:"Wave 2", Groups:["Viewers SG2"], LaunchDateUtc:"2020/10/15"}]' -IsTesting $true`
+  - `New-SPOPortalLaunchWaves  -LaunchSiteUrl "https://*.sharepoint.com/sites/NewSite" -RedirectionType ToTemporaryPage -RedirectUrl "https://*.sharepoint.com/sites/OldSite" -ExpectedNumberOfUsers From10kTo30kUsers -WaveOverrideUsers *@microsoft.com -Waves [{Name:"Wave 1", Groups:["Viewers SG1"], LaunchDateUtc:"2020/10/14"}, {Name:"Wave 2", Groups:["Viewers SG2"], LaunchDateUtc:"2020/10/15"}]' -IsTesting $true`
 
-2. 유효성 검사를 완료 합니다.
+2. 다음 명령을 실행 하 여 사이트에 대해 예약 되거나 진행 중인 포털 시작을 삭제 합니다.
 
-  - 5 분 정도 기다린 후에 작업을 완료 하는 데 최대 5 분까지 걸릴 수 있습니다.
-  - *뷰어* \ 관리자에 게 속하는 사용자에 게 로그 하 여 다음을 수행 합니다.
-     - 새 사이트로 이동 하 여 새 사이트를 계속 사용할 수 있습니다.
-     - Temp 페이지로 이동 하 여 임시 페이지를 유지 해야 합니다.
-  - *뷰어 SG2* 에 속하는 사용자에 게 로그 하 고 다음을 수행 합니다.
-     - 새 사이트로 이동 하 여 temp 페이지로 리디렉션됩니다.
-     - Temp 페이지로 이동 하 여 임시 페이지를 유지 해야 합니다.
+   ```PowerShell
+   Remove-SPOPortalLaunchWaves -LaunchSiteUrl <object>
+   ```
 
-3. 포털을 삭제 하 여 설치 프로그램을 시작 합니다.
-  - `Remove-SPOPortalLaunchWaves - LaunchSiteUrl  https://*.sharepoint.com/sites/NewSite`.
-  - 모든 사용자에 대해 리디렉션이 발생 하지 않음을 확인 합니다.
+3. 모든 사용자에 대해 리디렉션이 발생 하지 않음을 확인 합니다.
 
 ## <a name="learn-more"></a>자세히 알아보기
 [SharePoint Online에서 포털 시작 롤아웃 계획 계획](https://docs.microsoft.com/microsoft-365/Enterprise/Planportallaunchroll-out)

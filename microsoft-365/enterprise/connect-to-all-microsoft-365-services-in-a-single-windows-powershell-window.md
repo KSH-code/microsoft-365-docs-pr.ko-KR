@@ -18,12 +18,12 @@ ms.custom:
 - httpsfix
 ms.assetid: 53d3eef6-4a16-4fb9-903c-816d5d98d7e8
 description: '요약: 단일 PowerShell 창에서 모든 Microsoft 365 서비스에 연결합니다.'
-ms.openlocfilehash: 04be916f745e2bde70554045340fc8ec03f87413
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 4128e360a3664d3a61559139bc4e6e346418fa61
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754319"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087030"
 ---
 # <a name="connect-to-all-microsoft-365-services-in-a-single-powershell-window"></a>단일 PowerShell 창에서 모든 Microsoft 365 서비스에 연결
 
@@ -56,7 +56,7 @@ PowerShell을 사용하여 Microsoft 365를 관리하는 경우 여러 PowerShel
     
   - Windows Server 2008 R2 SP1*
     
-    \*Microsoft .NET Framework 4.5. *x* 및 Windows Management Framework 3.0 또는 4.0을 설치해야 합니다. 자세한 내용은 [Windows Management Framework](https://docs.microsoft.com/powershell/scripting/windows-powershell/wmf/overview?view=powershell-7)를 참조하세요.
+    \*Microsoft .NET Framework 4.5.*x* 및 Windows Management Framework 3.0 또는 4.0을 설치해야 합니다. 자세한 내용은 [Windows Management Framework](https://docs.microsoft.com/powershell/scripting/windows-powershell/wmf/overview?view=powershell-7)를 참조하세요.
     
     비즈니스용 Skype 온라인과 하나의 Microsoft 365 모듈 요구 사항 때문에 64비트 버전의 Windows를 사용해야 합니다.
     
@@ -68,7 +68,7 @@ PowerShell을 사용하여 Microsoft 365를 관리하는 경우 여러 PowerShel
   - [Exchange 온라인 PowerShell V2](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
   - [Teams PowerShell 개요](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
     
--  비즈니스용 Skype 온라인과 보안 &amp; 준수 센터에 대해 서명된 스크립트를 실행하기 위해 PowerShell을 구성해야 합니다. 관리자 권한이 있는 PowerShell 세션에서 다음 명령을 실행 합니다 ( **관리자 권한으로 실행** PowerShellPowerShell 세션).
+-  비즈니스용 Skype 온라인과 보안 &amp; 준수 센터에 대해 서명된 스크립트를 실행하기 위해 PowerShell을 구성해야 합니다. 관리자 권한이 있는 PowerShell 세션에서 다음 명령을 실행 합니다 (**관리자 권한으로 실행** PowerShellPowerShell 세션).
     
    ```powershell
    Set-ExecutionPolicy RemoteSigned
@@ -109,7 +109,7 @@ PowerShell을 사용하여 Microsoft 365를 관리하는 경우 여러 PowerShel
     
    ```powershell
    $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
-   Connect-SPOService -Url https://$orgName-admin.sharepoint.com -Credential $userCredential
+   Connect-SPOService -Url https://$orgName-admin.sharepoint.com -Credential $Credential
    ```
 
 5. 비즈니스용 Skype 온라인에 연결하려면 다음 명령어를 실행합니다. 처음에 연결할 때 `WSMan NetworkDelayms` 값을 늘린다는 경고가 표시됩니다. 이 경고는 무시하세요.

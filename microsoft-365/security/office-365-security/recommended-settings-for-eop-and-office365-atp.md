@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: EOP (Exchange Online Protection) 및 Defender for Office 365 보안 설정에 대 한 모범 사례는 무엇 인가요? 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 Office 365 용으로 Defender를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: 032cd6a50f56fd3e1e47faebfaea5f6665553a4b
-ms.sourcegitcommit: 09518b7c9146cda7fd42839ee644ad418d48491a
+ms.openlocfilehash: bc91ba58c9dc14954f638853ad24fcf7a26684e3
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49001528"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49123477"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>EOP 및 Office 용 Microsoft Defender 365 보안에 대 한 권장 설정
 
@@ -81,21 +81,21 @@ ms.locfileid: "49001528"
 
 |보안 기능 이름|댓글|
 |---|---|
-|**원격 사이트에 대 한 이미지 링크** ( _IncreaseScoreWithImageLinks_ )||
-|**URL의 숫자 IP 주소** ( _IncreaseScoreWithNumericIps_ )||
-|**UL이 다른 포트로 리디렉션** ( _IncreaseScoreWithRedirectToOtherPort_ )||
+|**원격 사이트에 대 한 이미지 링크** (_IncreaseScoreWithImageLinks_)||
+|**URL의 숫자 IP 주소** (_IncreaseScoreWithNumericIps_)||
+|**UL이 다른 포트로 리디렉션** (_IncreaseScoreWithRedirectToOtherPort_)||
 |**-Biz 또는 IncreaseScoreWithBizOrInfoUrls (info websites)에 대 한 URL** _IncreaseScoreWithBizOrInfoUrls_||
-|**빈 메시지** ( _MarkAsSpamEmptyMessages_ )||
-|**JavaScript 또는 HTML의 VBScript** ( _MarkAsSpamJavaScriptInHtml_ )||
-|**HTML의 Frame 또는 IFrame 태그** ( _MarkAsSpamFramesInHtml_ )||
-|**HTML의 개체 태그** ( _MarkAsSpamObjectTagsInHtml_ )||
-|**HTML로 태그 포함** ( _MarkAsSpamEmbedTagsInHtml_ )||
-|**HTML의 양식 태그** ( _MarkAsSpamFormTagsInHtml_ )||
-|**HTML의 웹 버그** ( _MarkAsSpamWebBugsInHtml_ )||
-|**중요 한 단어 목록 적용** ( _MarkAsSpamSensitiveWordList_ )||
-|**SPF 레코드: 하드 실패** ( _MarkAsSpamSpfRecordHardFail_ )||
-|**조건부 보낸 사람 ID 필터링: 하드 실패** ( _MarkAsSpamFromAddressAuthFail_ )||
-|**NDR 백 분산** ( _MarkAsSpamNdrBackscatter_ )||
+|**빈 메시지** (_MarkAsSpamEmptyMessages_)||
+|**JavaScript 또는 HTML의 VBScript** (_MarkAsSpamJavaScriptInHtml_)||
+|**HTML의 Frame 또는 IFrame 태그** (_MarkAsSpamFramesInHtml_)||
+|**HTML의 개체 태그** (_MarkAsSpamObjectTagsInHtml_)||
+|**HTML로 태그 포함** (_MarkAsSpamEmbedTagsInHtml_)||
+|**HTML의 양식 태그** (_MarkAsSpamFormTagsInHtml_)||
+|**HTML의 웹 버그** (_MarkAsSpamWebBugsInHtml_)||
+|**중요 한 단어 목록 적용** (_MarkAsSpamSensitiveWordList_)||
+|**SPF 레코드: 하드 실패** (_MarkAsSpamSpfRecordHardFail_)||
+|**조건부 보낸 사람 ID 필터링: 하드 실패** (_MarkAsSpamFromAddressAuthFail_)||
+|**NDR 백 분산** (_MarkAsSpamNdrBackscatter_)||
 |
 
 #### <a name="eop-outbound-spam-policy-settings"></a>EOP 아웃 바운드 스팸 정책 설정
@@ -148,7 +148,7 @@ ms.locfileid: "49001528"
 
 > [!IMPORTANT]
 >
-> - Microsoft Defender for Office 365의 기본 피싱 방지 정책은 모든 받는 사람에 대해 [스푸핑 보호](set-up-anti-phishing-policies.md#spoof-settings) 를 제공 합니다. 그러나 특정 보낸 사람 또는 보낸 사람 도메인에 대 한 사용 가능한 [가장 보호](#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 설정은 기본 정책에서 구성 되거나 사용 하도록 설정 되지 않습니다. 가장을 보호 하도록 설정 하려면 기본 정책을 구성 하거나 Defender for Office 365에서 추가 피싱 방지 정책을 만듭니다.
+> - Microsoft Defender for Office 365의 기본 피싱 방지 정책은 모든 받는 사람에 대해 [스푸핑 보호](set-up-anti-phishing-policies.md#spoof-settings) 및 사서함 인텔리전스를 제공 합니다. 그러나 기본 정책에서는 다른 사용 가능한 [가장 보호](#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 기능 및 [고급 설정이](#advanced-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 구성 되거나 사용 하도록 설정 되지 않습니다. 모든 보호 기능을 사용 하도록 설정 하려면 기본 피싱 방지 정책을 수정 하거나 추가 피싱 방지 정책을 만듭니다.
 >
 > - 조직의 모든 받는 사람을 자동으로 보호 하는 기본 안전 링크 정책 또는 안전한 첨부 파일 정책이 없습니다. 보호를 받으려면 하나 이상의 안전한 링크 정책 및 안전한 첨부 파일 정책을 만들어야 합니다.
 >
@@ -287,7 +287,7 @@ PowerShell에서는 이러한 설정에 대해 [get-safeattachmentpolicy](https:
 
 ## <a name="related-articles"></a>관련 문서
 
-- **Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함** )에 대 한 모범 사례를 찾으십니까? [Exchange Online에서 메일 흐름 규칙을 구성 하기 위한 모범 사례](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/configuration-best-practices)를 참조 하세요.
+- **Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함**)에 대 한 모범 사례를 찾으십니까? [Exchange Online에서 메일 흐름 규칙을 구성 하기 위한 모범 사례](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/configuration-best-practices)를 참조 하세요.
 
 - 관리자 및 사용자는 가양성 (잘못 된 것으로 표시 된 좋은 전자 메일)과 거짓 네거티브 (잘못 된 전자 메일 허용)를 분석을 위해 Microsoft에 제출할 수 있습니다. 자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
 

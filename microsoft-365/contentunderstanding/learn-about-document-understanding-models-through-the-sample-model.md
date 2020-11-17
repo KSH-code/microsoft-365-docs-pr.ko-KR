@@ -7,14 +7,15 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Priority
 description: 샘플 모델을 통해 문서 이해 모델 알아보기
-ms.openlocfilehash: 75e17c8075fa381c68b6f85e0dfbe96e5d2ad557
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 664b0ad7cb00a4570fbe8a4bd8a2c6f319cf8800
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321268"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087382"
 ---
 # <a name="learn-about-document-understanding-models-through-a-sample-model"></a>샘플 모델을 통해 문서 이해 모델 알아보기
 
@@ -24,8 +25,8 @@ Microsoft SharePoint Syntex에서 제공하는 샘플 모델을 사용하여 사
 
 샘플 모델에 액세스 하려면 먼저 모델을 콘텐츠 센터로 가져와야 합니다.
 
-1. 콘텐츠 센터에서 모델 목록을 보려면 **모델**을 선택합니다.</br>
-2. **모델** 페이지에서 **샘플 모델 가져오기**를 선택합니다.</br>
+1. 콘텐츠 센터에서 모델 목록을 보려면 **모델** 을 선택합니다.</br>
+2. **모델** 페이지에서 **샘플 모델 가져오기** 를 선택합니다.</br>
 
     ![샘플 모델 가져오기](../media/content-understanding/import-sample-model.png) </br>
 
@@ -35,7 +36,7 @@ Microsoft SharePoint Syntex에서 제공하는 샘플 모델을 사용하여 사
 
 샘플 모델 분석을 통해 모델을 구성하는 방법에 대한 이해를 할 수 있을 뿐만 아니라 작업 모델이 더 진행 되어 다음과 같은 작업을 수행하도록 할 수 있습니다.
 
-- 다른 추출기 추가 예를 들어 *할인율*을 추출 하는 항목을 추가합니다.
+- 다른 추출기 추가 예를 들어 *할인율* 을 추출 하는 항목을 추가합니다.
 - 문서 라이브러리에 모델을 적용하고 교육 파일을 업로드 하여 모델이 파일을 분류하고 데이터를 추출하는 방법을 확인합니다.
 
 

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직에서 위험 평가를 간소화 하 고 자동화 하는 데 도움이 되는 Microsoft 준수 관리자에 대 한 질문과 대답을 확인할 수 있습니다.
-ms.openlocfilehash: 49886cba59cc486c4345e069a4b782951fed4c68
-ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
+ms.openlocfilehash: 91b5957d843a2e3fba22a1a9f1e630fbfede8713
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48791784"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087071"
 ---
 # <a name="compliance-manager-frequently-asked-questions"></a>준수 관리자에 게 자주 문의 하는 질문
 
@@ -73,7 +73,7 @@ Microsoft 준수 관리자는 Microsoft Service Trust Portal 내에서 준수 �
 
 ## <a name="are-there-licensing-requirements-for-using-compliance-manager"></a>준수 관리자 사용에 대 한 라이선스 요구 사항이 있나요?
 
-예. 준수 관리자의 GA 릴리스에는 새로운 사용권 조항 들이 포함 되어 있습니다. Office 365 및 Microsoft 365 라이선스가 있는 모든 조직 (US 정부 및 DoD 제외)은 준수 관리자에 게 액세스 권한이 있습니다. 그러나 조직에서 사용할 수 있는 평가 및 평가 템플릿을 관리 하는 방법은 사용권 계약에 따라 달라 집니다. 자세한 내용은 [Microsoft 365 라이선스 지침에서 보안 및 규정 준수를](https://go.microsoft.com/fwlink/?linkid=2132371) 참조 하세요.
+예. 준수 관리자의 GA 릴리스에는 새로운 사용권 조항 들이 포함 되어 있습니다. 모든 조직에서 Office 365 및 Microsoft 365 라이선스 및 GCC (미국 정부 커뮤니티) 일반 고객은 준수 관리자에 게 액세스 권한이 있습니다. 그러나 조직에서 사용할 수 있는 평가 및 평가 템플릿을 관리 하는 방법은 사용권 계약에 따라 달라 집니다. 자세한 내용은 [Microsoft 365 라이선스 지침에서 보안 및 규정 준수를](https://go.microsoft.com/fwlink/?linkid=2132371) 참조 하세요.
 
 ## <a name="if-i-have-a-high-score-does-it-mean-im-fully-compliant"></a>높은 점수를 받은 경우 완벽 한 규격을 의미 하나요?
 

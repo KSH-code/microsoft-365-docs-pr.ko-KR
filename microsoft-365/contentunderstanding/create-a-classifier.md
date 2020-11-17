@@ -7,14 +7,15 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Priority
 description: 분류자를 만드는 방법 알아보기
-ms.openlocfilehash: 97a7b28d45499a46d72029d47b422d2c32696a54
-ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
+ms.openlocfilehash: 478b4253f7bb888323c2a873f3ab295cc841e193
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48804818"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087682"
 ---
 # <a name="create-a-classifier-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 분류자 만들기
 

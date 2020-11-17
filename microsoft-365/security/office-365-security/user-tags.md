@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Microsoft Defender for Office 365 계획 2에서 사용자 태그를 사용 하 여 특정 사용자 그룹을 식별 하는 방법을 확인할 수 있습니다. 태그 필터링은 태그가 지정 된 사용자를 빠르게 식별 하기 위해 Microsoft Defender for Office 365의 경고, 보고서 및 조사를 통해 제공 됩니다.
-ms.openlocfilehash: 9c83a323a3116b3da61a133c7fb449978ca13841
-ms.sourcegitcommit: 9dbc6a08177aaca112e84d30dbaa79a0a8e9dbf8
+ms.openlocfilehash: 14ebcebeb8081a2de341fd06facabd9f7d55b119
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48945321"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49123622"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 사용자 태그
 
@@ -29,8 +29,8 @@ ms.locfileid: "48945321"
 
 사용자 태그는 [Microsoft Defender For Office 365](office-365-atp.md)의 특정 사용자 그룹에 대 한 식별자입니다. 사용자 태그에는 다음과 같은 두 가지 유형이 있습니다.
 
-- **시스템 태그** : 현재 [우선 순위 계정만](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) 시스템 태그 유형입니다.
-- **사용자 지정 태그** : 이러한 사용자 태그를 직접 만듭니다.
+- **시스템 태그**: 현재 [우선 순위 계정만](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) 시스템 태그 유형입니다.
+- **사용자 지정 태그**: 이러한 사용자 태그를 직접 만듭니다.
 
 조직에 Office 365 계획 2에 대 한 Defender가 있는 경우 (구독 또는 추가 기능에 포함 된 경우) priority accounts 태그를 사용 하는 것 외에 사용자 지정 사용자 태그를 만들 수 있습니다.
 
@@ -40,6 +40,7 @@ ms.locfileid: "48945321"
 - [위협 탐색기 및 실시간 검색](threat-explorer.md)
 - [위협 방지 상태 보고서](view-email-security-reports.md#threat-protection-status-report)
 - [캠페인 보기](campaigns.md)
+- 우선 순위 계정의 경우 EAC (Exchange 관리 센터)에서 [우선 순위 계정에 대 한 전자 메일 문제 보고서](https://docs.microsoft.com/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) 를 사용할 수 있습니다.
 
 이 문서에서는 보안 & 준수 센터에서 사용자 태그를 구성 하는 방법을 설명 합니다. 사용자 태그를 관리 하기 위한 보안 & 준수 센터에 cmdlet이 없습니다.
 
@@ -60,17 +61,14 @@ ms.locfileid: "48945321"
 2. **사용자 태그** 페이지가 열리면 **태그 만들기** 를 클릭 합니다.
 
 3. 새 플라이 아웃에서 **태그 만들기** 마법사가 열립니다. **태그 정의** 페이지에서 다음 설정을 구성 합니다.
-
-   - **이름** : 태그에 대해 설명 하는 고유한 이름을 입력 합니다. 이 값을 보고 사용 하는 것이 좋습니다.
-
-   - **설명** : 태그에 대 한 설명을 입력 합니다 (선택 사항).
+   - **이름**: 태그에 대해 설명 하는 고유한 이름을 입력 합니다. 이 값을 보고 사용 하는 것이 좋습니다.
+   - **설명**: 태그에 대 한 설명을 입력 합니다 (선택 사항).
 
    작업을 마친 후 **다음** 을 클릭합니다.
 
 4. **사서함 할당** 페이지에서 다음 단계 중 하나를 수행 합니다.
 
    - **사서함 추가** 를 클릭 합니다. 즉시 표시 되는 다음 단계를 수행 하 여 개별 사용자 또는 그룹을 추가 합니다.
-
      - 상자를 클릭 하 고 목록을 스크롤하여 사용자 또는 그룹을 선택 합니다.
      - 상자를 클릭 하 고 입력을 시작 하 여 목록을 필터링 하 고 사용자 또는 그룹을 선택 합니다.
      - 값을 더 추가 하려면 상자에서 빈 영역을 클릭 합니다.
@@ -109,7 +107,7 @@ ms.locfileid: "48945321"
 
 ## <a name="use-the-security-center-to-remove-user-tags"></a>보안 센터를 사용 하 여 사용자 태그 제거
 
-**참고** : 기본 제공 **우선 순위 계정** 태그는 제거할 수 없습니다.
+**참고**: 기본 제공 **우선 순위 계정** 태그는 제거할 수 없습니다.
 
 1. 보안 센터에서 **위협 관리** \> **사용자 태그로** 이동 합니다.
 

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 통신에 대 한 세부 정보-생산성 점수가 사용자에 게 제공 됩니다.
-ms.openlocfilehash: 6f79a636c24548586048adf0151ac5eefb98fffe
-ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
+ms.openlocfilehash: ba2e69659f49c90d3b65e56e54b3026c7c9ff36a
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48804658"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49123452"
 ---
 # <a name="communication--people-experiences"></a>통신-사용자 환경
 
@@ -57,8 +57,8 @@ Microsoft 365에서는 사용자가 여러 모드를 제공 하 여 모든 사�
 3. **현재 상태의 시각화:**
     - 파란색 부분이 머리글에 표시 된 백분율을 나타내는 가로 막대입니다.
     - 헤더에 표시 된 백분율을 계산 하는 데 사용 되는 (분자/분모)를 강조 표시 합니다.
-      - **분자** : 지난 28 일 동안 두 개 이상의 통신 모드를 사용 하는 사용자 수
-      - **분모** : 지난 28 일 동안 둘 이상의 커뮤니케이션 제품에 대해 사용으로 표시 된 사용자 수입니다.
+      - **분자**: 지난 28 일 동안 두 개 이상의 통신 모드를 사용 하는 사용자 수
+      - **분모**: 지난 28 일 동안 둘 이상의 커뮤니케이션 제품에 대해 사용으로 표시 된 사용자 수입니다.
     - 키 메트릭의 **피어 벤치 마크** 값도 백분율로 표시 됩니다.
 
 1. **통신 리소스를 확인 합니다.** 여기를 클릭 하면 통신에 관련 된 비디오/문서 형식으로 모든 지원 콘텐츠를 등록할 수 있습니다. 이렇게 하면 통신을 위해 사용자 지정 재생 목록으로 이동한 후 모든 생산성 점수 범주를 확인할 수 있습니다.
@@ -67,7 +67,7 @@ Microsoft 365에서는 사용자가 여러 모드를 제공 하 여 모든 사�
 
  이 차트에서는 지난 180 일 동안 두 개 이상의 통신 모드를 사용 하는 사용자 수에 대 한 주요 메트릭의 분자 추세를 제공 합니다. 여기에서 일별 값은 지난 28 일 동안 여러 형태의 통신을 사용 하는 사용자 수를 집계 한 것입니다.
 
-:::image type="content" source="../../media/trend-communication.png" alt-text="통신 모드에 대 한 기본 정보를 파악 합니다.":::
+:::image type="content" source="../../media/trend-communication.png" alt-text="두 개 이상의 모드를 사용 하 여 통신 하는 사용자 수를 보여 주는 차트":::
 
 ### <a name="scoring-model"></a>성과 모델
 
@@ -79,17 +79,17 @@ Microsoft 365에서는 사용자가 여러 모드를 제공 하 여 모든 사�
 
 ### <a name="breakdown-of-communication-by-modes"></a>모드를 통한 통신 분석
 
-:::image type="content" source="../../media/howpeoplecommunicate.png" alt-text="통신 모드에 대 한 기본 정보를 파악 합니다.":::
+:::image type="content" source="../../media/howpeoplecommunicate.png" alt-text="! [통신 모드 분석]":::
 
 1. **머리글:** 통신 내에서 고려 되는 다양 한 통신 모드에 대 한 자세한 분석을 제공 하는 방법을 파악 하는 목표를 강조 합니다.
 2. **본문:** 서로 다른 모드를 사용 하 여 정보를 공유할 때의 가치에 대해 설명 합니다.
 3. **시각화:** 분석 결과는 각 모드에 대 한 ues를 나타냅니다. 각 막대의 색 부분과 분수는 전자 메일, 메시지 또는 커뮤니티 게시물을 보내는 사용자 수를 해당 모드에 대해 사용 하도록 설정 된 사용자 수에 대 한 백분율로 나타냅니다.
       - **전자 메일을 보내는 사용자:** 색이 지정 된 부분 및 분수는 전자 메일을 보내는 Exchange에 대해 사용 하도록 설정 된 사용자의 백분율을 나타냅니다. 이 분수는 다음을 통해 생성 됩니다.
-          - **분자** : 지난 28 일 동안 전자 메일을 보내는 사용자
-          - **분모** : 지난 28 일 동안 Exchange가 사용 하도록 설정 된 사용자
+          - **분자**: 지난 28 일 동안 전자 메일을 보내는 사용자
+          - **분모**: 지난 28 일 동안 Exchange가 사용 하도록 설정 된 사용자
       - **Microsoft 팀에서 메시지를 보내는 사용자:** 색이 지정 된 부분 및 분수는 Microsoft 팀에서 메시지를 보내는 데 사용할 수 있는 사용자의 백분율을 나타냅니다. 이 분수는 다음을 통해 생성 됩니다.
-          - **분자** : 지난 28 일 동안 Microsoft 팀에 메시지를 보내는 사람
-          - **분모** : 지난 28 일 동안 Microsoft 팀에 대해 사용 하도록 설정 된 사용자
+          - **분자**: 지난 28 일 동안 Microsoft 팀에 메시지를 보내는 사람
+          - **분모**: 지난 28 일 동안 Microsoft 팀에 대해 사용 하도록 설정 된 사용자
       - **커뮤니티에 게시 되는 사용자:** 색이 지정 된 부분 및 분수는 커뮤니티에 게시 되는 Yammer에 대해 사용 하도록 설정 된 사용자의 백분율을 나타냅니다. 이 분수는 다음을 통해 생성 됩니다.
           - **분자:** 지난 28 일 동안의 Yammer 커뮤니티에 게시 되는 사용자
           - **분모:** 지난 28 일 이내에 Yammer가 사용 하도록 설정 된 사용자
@@ -97,15 +97,15 @@ Microsoft 365에서는 사용자가 여러 모드를 제공 하 여 모든 사�
 
 ### <a name="mentions-in-emails"></a>전자 메일 @mentions
 
-:::image type="content" source="../../media/emailmentions.png" alt-text="통신 모드에 대 한 기본 정보를 파악 합니다.":::
+:::image type="content" source="../../media/emailmentions.png" alt-text="! [멘 션이 있는 전자 메일]":::
 
 1. **머리글:** 지난 28 일 이내에 시작 되는 새 전자 메일 스레드의 응답 속도 증가를 강조 합니다 @mentions
 2. **본문:** 전자 메일에 @mentions 사용 값에 대 한 정보를 제공 합니다. 또한 @mentions를 사용 하는 사용자는 지난 28 일 이내에 전자 메일을 보낸 모든 사용자의 비율로 표현 됩니다.
 3. **시각화:** @Mentions 여부에 따라 새 전자 메일 스레드의 응답 비율을 나눕니다.
-      - **@Mentions 전자 메일에 응답:** 색이 지정 된 부분 및 분수는 @mentions를 포함 하는 새 전자 메일 스레드의 응답 비율을 나타냅니다. 이 분수는 다음을 통해 생성 됩니다.
+      - **\@ 멘 션이 있는 전자 메일에 대 한 응답:** 색이 지정 된 부분 및 분수는 @mentions를 포함 하는 새 전자 메일 스레드의 응답 비율을 나타냅니다. 이 분수는 다음을 통해 생성 됩니다.
           - **분자:** 시작 되었으며 지난 28 일 동안 응답이 수신 된 @mentions를 포함 하는 새 전자 메일 스레드
           - **분모:** 지난 28 일 이내에 시작 된 @mentions를 포함 하는 새 전자 메일 스레드
-      - **@Mentions 없이 전자 메일에 응답:** 색이 지정 된 부분 및 분수는 @mentions를 포함 하는 새 전자 메일 스레드의 응답 비율을 나타냅니다. 이 분수는 다음을 통해 생성 됩니다.
+      - **답변 \@ :** 색 부분과 분수는 @mentions를 포함 하는 새 전자 메일 스레드의 응답 비율을 나타냅니다. 이 분수는 다음을 통해 생성 됩니다.
           - **분자:** 시작 되었으며 지난 28 일 동안 응답이 수신 되는 @mentions를 포함 하지 않는 새 전자 메일 스레드
           - **분모:** 새 전자 메일 스레드가 지난 28 일 이내에 시작 된 @mentions를 포함 하 고 있지 않습니다.
 4. **관련 콘텐츠 보기:** 이 링크를 선택 하 여 한 부씩 인쇄 된 비디오 및 기타 관련 도움말 콘텐츠를 볼 수 있습니다.
@@ -113,7 +113,7 @@ Microsoft 365에서는 사용자가 여러 모드를 제공 하 여 모든 사�
 
 ### <a name="breakdown-of-messages-by-type-in-microsoft-teams"></a>Microsoft 팀에서 유형별 메시지 분석
 
-:::image type="content" source="../../media/teamsmessages.png" alt-text="통신 모드에 대 한 기본 정보를 파악 합니다.":::
+:::image type="content" source="../../media/teamsmessages.png" alt-text="! [팀 메시지 유형]":::
 
 1. **머리글:** 지난 28 일 이내에 채팅 및 채널 메시지를 포함 하 여 모든 종류의 메시지를 보낸 사용자의 비율로 채널 메시지를 보낸 사용자를 강조 표시 합니다.
 2. **본문:** Microsoft 팀 내에서 채널 메시지 사용 값에 대 한 정보를 제공 합니다.
@@ -128,7 +128,7 @@ Microsoft 365에서는 사용자가 여러 모드를 제공 하 여 모든 사�
 
 ### <a name="questions-and-answers-in-yammer"></a>Yammer의 질문과 대답
 
-:::image type="content" source="../../media/yammerqsandas.png" alt-text="통신 모드에 대 한 기본 정보를 파악 합니다.":::
+:::image type="content" source="../../media/yammerqsandas.png" alt-text="[Yammer의 질문 및 대답]":::
 
 1. **머리글:** &quot; &quot; 지난 28 일 동안 yammer에 질문으로 표시 된 모든 게시물에 대 한 백분율로 답변으로 표시 되는 게시물을 표시 합니다.
 2. **본문:** 정보를 공유 하기 위해 Yammer에서 질문과 대답을 사용 하는 방법에 대 한 정보를 제공 합니다.

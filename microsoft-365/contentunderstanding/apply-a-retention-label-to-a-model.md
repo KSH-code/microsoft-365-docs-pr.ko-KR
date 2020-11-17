@@ -7,14 +7,15 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Priority
 description: 이 문서는 문서 이해 모델에 보존 레이블을 적용하는 방법에 대해 설명합니다.
-ms.openlocfilehash: b6ace2a11a7205919fdcf767b888401a5c28db0c
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 2e6d300b63a173d01488406485cffa44fab4278e
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338628"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087478"
 ---
 # <a name="apply-a-retention-label-to-a-document-understanding-model"></a>문서 이해 모델에 보존 레이블 적용
 
@@ -36,10 +37,10 @@ Microsoft SharePoint Syntex의 문서 이해 모델에 [보존 레이블](https:
 
 ## <a name="to-add-a-retention-label-to-a-document-understanding-model"></a>문서 이해 모델에 보존 레이블 추가
 
-1. 모델 홈페이지에서 **모델 설정**을 선택합니다.</br>
-2. **모델 설정**의 **보안 및 준수** 섹션에서 **보존 레이블** 메뉴를 선택하여 모델에 적용 가능한 보존 레이블 목록을 확인합니다.</br>
+1. 모델 홈페이지에서 **모델 설정** 을 선택합니다.</br>
+2. **모델 설정** 의 **보안 및 준수** 섹션에서 **보존 레이블** 메뉴를 선택하여 모델에 적용 가능한 보존 레이블 목록을 확인합니다.</br>
  ![보존 레이블 메뉴](../media/content-understanding/retention-labels-menu.png)</br> 
-3. 모델에 적용할 보존 레이블을 선택하고 **저장**을 선택 합니다.</br>
+3. 모델에 적용할 보존 레이블을 선택하고 **저장** 을 선택 합니다.</br>
 
 모델에 보존 레이블을 적용한 후, 다음에 적용할 수 있습니다.
 - 새 문서 라이브러리
@@ -50,7 +51,7 @@ Microsoft SharePoint Syntex의 문서 이해 모델에 [보존 레이블](https:
 문서 이해 모델이 이미 문서 라이브러리에 적용된 경우, 다음을 수행하여 보존 레이블 업데이트를 동기화하여 문서 라이브러리에 적용할 수 있습니다.</br>
 
 1. 모델 홈페이지의 **이 모델을 사용하는 라이브러리** 섹션에서 보존 레이블 업데이트를 적용할 문서 라이브러리를 선택합니다. </br> 
-2. **동기화**를 선택합니다. </br>
+2. **동기화** 를 선택합니다. </br>
  ![모델 동기화](../media/content-understanding/sync-model.png)</br> 
 
 

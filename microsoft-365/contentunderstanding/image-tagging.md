@@ -7,15 +7,16 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: SharePoint Syntex에서 이미지 태그 지정에 대해 알아보기
-ms.openlocfilehash: c6d7513db2fd6aadabe5d813f3b49073a8f8c933
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 3eaf72659cf14f05943159a6e7cd2d357a9f5e88
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413737"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087622"
 ---
 # <a name="image-tagging-in-sharepoint-syntex"></a>SharePoint Syntex에서 이미지 태그 지정
 
@@ -39,16 +40,16 @@ SharePoint Syntex의 이미지 태그를 사용 하면 사용자가 이미지 �
 
 이미지 태그 지정 설정 또는 해제 방법
 
-1. Microsoft 365 관리 센터에서 **설정**을 클릭합니다.
+1. Microsoft 365 관리 센터에서 **설정** 을 클릭합니다.
 
-2. **조직 지식**에서 **콘텐츠 이해 자동화**를 클릭합니다.
+2. **조직 지식** 에서 **콘텐츠 이해 자동화** 를 클릭합니다.
 
-3. **관리**를 클릭합니다.
+3. **관리** 를 클릭합니다.
 
-4. **이미지 태그 지정** 탭에서 **편집**을 클릭합니다.
+4. **이미지 태그 지정** 탭에서 **편집** 을 클릭합니다.
 
-5. **기본 태그 지정**을 허용하거나 태그 지정 **해제**를 선택합니다.
+5. **기본 태그 지정** 을 허용하거나 태그 지정 **해제** 를 선택합니다.
 
-6. **저장**을 클릭합니다.
+6. **저장** 을 클릭합니다.
 
     ![이미지 태그 지정 컨트롤 스크린샷](../media/content-understanding/sharepoint-syntex-image-tagging-control.png)

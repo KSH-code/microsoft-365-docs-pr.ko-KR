@@ -18,17 +18,17 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-description: Microsoft 365 apps 상태 기술에 대 한 자세한 내용은 생산성 성과를 경험 합니다.
-ms.openlocfilehash: 9497118f4ebfb1cb2b64670638ce939da21eb261
-ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
+description: Microsoft 365 Apps 상태 기술에 대 한 자세한 내용은 생산성 성과를 경험 합니다.
+ms.openlocfilehash: c38f2109ed41377cfccb9838c95dbfbebbfd322a
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841192"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49123514"
 ---
 # <a name="microsoft-365-apps-health--technology-experiences"></a>Microsoft 365 앱 상태-기술 환경
 
-생산성 점수 조직은 조직에서 Microsoft 365 앱과 지원 되는 기술 환경을 사용 하는 방법에 대 한 메트릭으로 작업을 수행 하는 방식을 변환 합니다. 점수에는 사용자와 기술 경력 범주에 대 한&#39;s 조직의 성과를 반영 하 고 사용자의 성과와 같은 조직에 대 한 점수가 비교 됩니다. 앱 상태 범주는 사용자 환경에 속하는 측정값의 일부입니다. 자세한 내용은 [생산성 점수 개요](productivity-score.md) 를 참조 하세요.
+생산성 점수 조직은 조직에서 Microsoft 365 앱과 지원 되는 기술 환경을 사용 하는 방법에 대 한 메트릭으로 작업을 수행 하는 방식을 변환 합니다. 점수에는 사용자와 기술 경력 범주에 대 한&#39;s 조직의 성과를 반영 하 고 사용자의 성과와 같은 조직에 대 한 점수가 비교 됩니다. 앱 상태 범주는 기술 환경에 따라 측정 되는 측정값의 일부입니다. 자세한 내용은 [생산성 점수 개요](productivity-score.md) 를 참조 하세요.
 
 ## <a name="why-your-organization39s-microsoft-365-apps-health-score-matters"></a>조직의&#39;s Microsoft 365 앱 상태 점수가 중요 한 이유
 
@@ -59,7 +59,7 @@ ms.locfileid: "48841192"
 
 다음 차트에서는 최근 180 일 동안의 권장 업데이트 채널에 있는 장치 수를 보여 줍니다. 꺽은선형 차트의 데이터 요소는 지난 28 일 동안의 활동 집계입니다.
 
-:::image type="content" source="../../media/appshealth-primarytrend.png" alt-text="Microsoft 365 앱에 대 한 시각 시각화의 기본 사항입니다.":::
+:::image type="content" source="../../media/appshealth-primarytrend.png" alt-text="권장 업데이트 채널을 실행 하는 장치의 추세를 보여 주는 차트":::
 
 ### <a name="scoring-framework"></a>성과 구조 평가
 
@@ -71,7 +71,7 @@ Microsoft 365 apps 상태 점수는 장치가 권장 채널 및 최신 버전에
 
 ### <a name="devices-on-current-channel-and-running-supported-versions"></a>현재 채널의 장치 및 지원 되는 버전 실행
 
-:::image type="content" source="../../media/devices-current-suppported-channel.png" alt-text="Microsoft 365 앱에 대 한 시각 시각화의 기본 사항입니다.":::
+:::image type="content" source="../../media/devices-current-suppported-channel.png" alt-text="지원 되는 현재 채널의 장치 수를 보여 주는 차트":::
 
 1. **머리글:**  하이라이트 현재 채널의 장치 백분율이 지원 되는 Microsoft 365 앱 버전을 실행 중입니다.
 1. **본문:**  권장 채널에서 Microsoft 365 앱을 실행 하는 장치의 값에 대 한 정보를 제공 합니다.
@@ -82,7 +82,7 @@ Microsoft 365 apps 상태 점수는 장치가 권장 채널 및 최신 버전에
 
 ### <a name="devices-running-latest-and-supported-versions"></a>최신 버전과 지원 되는 버전을 실행 하는 장치
 
-:::image type="content" source="../../media/device-supported-versions.png" alt-text="Microsoft 365 앱에 대 한 시각 시각화의 기본 사항입니다.":::
+:::image type="content" source="../../media/device-supported-versions.png" alt-text="최신 및 지원 되는 앱 버전을 실행 하는 장치 수를 보여 주는 차트":::
 
 1. **머리글:**  지원 되는 버전 및 최신 버전을 실행 하는 장치를 실행 하는 장치의 비율을 강조 표시 합니다.
 1. **본문:**  권장 채널 및 지원 되는/최신 버전에서 장치를 실행 하는 값에 대 한 정보를 제공 합니다.
@@ -99,7 +99,7 @@ Microsoft 365 apps 상태 점수는 장치가 권장 채널 및 최신 버전에
 
 이 차트에서는 지난 180 일 동안 지원 되는 버전 및 최신 버전의 Microsoft 365 앱을 실행 하는 장치의 추세를 보여 줍니다.
 
-:::image type="content" source="../../media/trendline-devices-supportedversions.png" alt-text="Microsoft 365 앱에 대 한 시각 시각화의 기본 사항입니다.":::
+:::image type="content" source="../../media/trendline-devices-supportedversions.png" alt-text="시간에 따라 지원 되는 장치 수와 최신 버전의 앱이 실행 되는 방식을 나타내는 차트입니다.":::
 
 ## <a name="people-in-your-organization"></a>조직 내부 사용자
 

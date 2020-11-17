@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: 보안 및 준수 센터에서 Office 365 용 Microsoft Defender에 대 한 보고서를 찾아서 사용 &amp; 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b24249bcbba60bc5340d973567369f534a0178fb
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 8885eea2168cc40c497f6fa1066ae020dda7fd7c
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842919"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087721"
 ---
 # <a name="view-reports-for-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365에 대 한 보고서 보기
 
@@ -35,7 +35,7 @@ Microsoft Defender for Office 365 조 직 (예: Microsoft 365 E5 구독 또는 m
 
 ![보안 & 준수 센터의 보고서 대시보드](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
-## <a name="defender-for-office-365-file-types-report"></a>Defender for Office 365 파일 형식 보고서
+## <a name="defender-for-office-365-file-types-report"></a>Office 365용 Defender 파일 형식 보고서
 
 **Office 용 Defender 365 파일 형식 보고서** 보고서에는 [안전한 첨부 파일](atp-safe-attachments.md)에서 악의적으로 검색 된 파일 유형이 표시 됩니다.
 
@@ -52,7 +52,7 @@ Microsoft Defender for Office 365 조 직 (예: Microsoft 365 E5 구독 또는 m
 
 다음 보기를 사용할 수 있습니다.
 
-- **데이터 보기 기준: 파일** : 차트에 다음 정보가 포함 되어 있습니다.
+- **데이터 보기 기준: 파일**: 차트에 다음 정보가 포함 되어 있습니다.
 
   - **악의 있는 Excel 첨부 파일**
   - **악의 있는 Flash 첨부 파일**
@@ -72,7 +72,7 @@ Microsoft Defender for Office 365 조 직 (예: Microsoft 365 E5 구독 또는 m
   - **시작 날짜** 및 **끝 날짜**
   - 차트에 표시 되는 것과 동일한 파일 형식 값입니다.
 
-- **데이터 보기 기준: 메시지** : 차트에 다음 정보가 포함 되어 있습니다.
+- **데이터 보기 기준: 메시지**: 차트에 다음 정보가 포함 되어 있습니다.
 
   - **액세스 차단**
   - **대체 되는 메시지**
@@ -90,12 +90,12 @@ Microsoft Defender for Office 365 조 직 (예: Microsoft 365 E5 구독 또는 m
 
 **세부 정보 테이블 보기** 를 클릭 하면 보고서에 지난 10 일 동안 조직 내에서 발생 하는 모든 클릭의 거의 실시간 보기가 제공 됩니다. 표시 되는 정보는 현재 보고 있는 차트에 따라 다릅니다.
 
-- **데이터 보기 기준: 파일** :
+- **데이터 보기 기준: 파일**:
 
   - **날짜**
   - **받는 사람 주소**
   - **보낸 사람 주소**
-  - **메시지 id** : 메시지 헤더의 **메시지 id** 헤더 필드에서 사용할 수 있으며 고유 해야 합니다. 예를 들면 `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` 꺾쇠 괄호를 참고 하십시오.
+  - **메시지 id**: 메시지 헤더의 **메시지 id** 헤더 필드에서 사용할 수 있으며 고유 해야 합니다. 예를 들면 `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` 꺾쇠 괄호를 참고 하십시오.
   - **파일**
 
   **필터** 를 클릭 하면 다음 필터를 사용 하 여 보고서를 수정할 수 있습니다.
@@ -103,7 +103,7 @@ Microsoft Defender for Office 365 조 직 (예: Microsoft 365 E5 구독 또는 m
   - **시작 날짜** 및 **끝 날짜**
   - 차트에 표시 되는 것과 동일한 파일 형식 값입니다.
 
-- **데이터 보기 기준: 메시지** :
+- **데이터 보기 기준: 메시지**:
 
   - **날짜**
   - **받는 사람 주소**
@@ -119,7 +119,7 @@ Microsoft Defender for Office 365 조 직 (예: Microsoft 365 E5 구독 또는 m
 
 보고서 보기로 돌아가려면 **보고서 보기** 를 클릭 합니다.
 
-## <a name="defender-for-office-365-message-disposition-report"></a>Defender for Office 365 메시지 처리 보고서
+## <a name="defender-for-office-365-message-disposition-report"></a>Office 365용 Defender 메시지 처리 보고서
 
 **ATP 메시지 처리** 보고서에는 악성 콘텐츠가 있는 것으로 검색 된 전자 메일 메시지에 대해 수행 된 작업이 표시 됩니다.
 
@@ -134,7 +134,7 @@ Microsoft Defender for Office 365 조 직 (예: Microsoft 365 E5 구독 또는 m
 
 다음 보기를 사용할 수 있습니다.
 
-- **데이터 보기 기준: 메시지** : 차트에 다음 정보가 포함 되어 있습니다.
+- **데이터 보기 기준: 메시지**: 차트에 다음 정보가 포함 되어 있습니다.
 
   - **액세스 차단**
   - **대체 되는 메시지**
@@ -148,7 +148,7 @@ Microsoft Defender for Office 365 조 직 (예: Microsoft 365 E5 구독 또는 m
   - **시작 날짜** 및 **끝 날짜**
   - 차트에서 사용할 수 있는 메시지 처리 값과 전송 값이 추가 된 **메시지** 입니다.
 
-- **데이터 보기 기준: 파일** : 차트에 다음 정보가 포함 되어 있습니다.
+- **데이터 보기 기준: 파일**: 차트에 다음 정보가 포함 되어 있습니다.
 
   - **악의 있는 Excel 첨부 파일**
   - **악의 있는 Flash 첨부 파일**
@@ -172,7 +172,7 @@ Microsoft Defender for Office 365 조 직 (예: Microsoft 365 E5 구독 또는 m
 
 **세부 정보 테이블 보기** 를 클릭 하면 보고서에 지난 10 일 동안 조직 내에서 발생 하는 모든 클릭의 거의 실시간 보기가 제공 됩니다. 표시 되는 정보는 현재 보고 있는 차트에 따라 다릅니다.
 
-- **데이터 보기 기준: 메시지** :
+- **데이터 보기 기준: 메시지**:
 
   - **날짜**
   - **받는 사람 주소**
@@ -186,7 +186,7 @@ Microsoft Defender for Office 365 조 직 (예: Microsoft 365 E5 구독 또는 m
   - **시작 날짜** 및 **끝 날짜**
   - 차트에서 사용할 수 있는 메시지 처리 값과 전송 값이 추가 된 **메시지** 입니다.
 
-- **데이터 보기 기준: 파일** :
+- **데이터 보기 기준: 파일**:
 
   - **날짜**
   - **받는 사람 주소**
@@ -200,6 +200,61 @@ Microsoft Defender for Office 365 조 직 (예: Microsoft 365 E5 구독 또는 m
   - 차트에 표시 되는 것과 동일한 파일 형식 값입니다.
 
 보고서 보기로 돌아가려면 **보고서 보기** 를 클릭 합니다.
+
+## <a name="mail-latency-report"></a>메일 대기 시간 보고서
+
+**메일 대기 시간 보고서** 에는 조직 내에서 발생 하는 메일 배달 및 샌드 박싱 대기 시간에 대 한 집계 보기가 표시 됩니다. 서비스의 메일 배달 시간은 여러 요인의 영향을 받으며, 절대 배달 시간 (초)은 성공적인 문제나 문제를 나타내는 좋은 지표 일 수 없습니다. 하루 동안 배달 되는 시간이 느린 것은 평균적으로 하루 종일 배달 되는 것으로 간주 될 수 있습니다. **메일 대기 시간 보고서** 는 다른 메시지에 대 한 관찰 된 배달 시간에 대 한 통계 데이터를 기반으로 메시지 배달을 한정 하려고 합니다.
+
+- **50 번째 백분위** 수: 메시지 배달 시간의 중간입니다. 이 값은 평균 배달 시간으로 고려할 수 있습니다.
+- **90 번째 백분위** 수:이는 메시지 배달에 대 한 대기 시간이 긴 것을 나타냅니다. 메시지 중 10%만이 값 보다 오래 걸렸습니다.
+- **99 번째 백분위** 수:이는 메시지 배달의 최대 대기 시간을 나타냅니다.
+
+클라이언트 쪽 및 네트워크 대기 시간이 포함 되지 않습니다.
+
+보고서를 보려면 [보안 & 준수 센터](https://protection.office.com)를 열고 **보고서** \> **대시보드로** 이동한 다음 **메일 대기 시간 보고서** 를 선택 합니다. 보고서로 직접 이동 하려면를 엽니다 <https://protection.office.com/mailLatencyReport?viewid=P50> .
+
+![보고서 대시보드의 메일 대기 시간 보고서 위젯](../../media/mail-latency-report-widget.png)
+
+### <a name="report-view-for-the-mail-latency-report"></a>메일 대기 시간 보고서에 대 한 보고서 보기
+
+보고서를 열 때 **50 번째 백분위 수** 탭이 기본적으로 선택 되어 있습니다.
+
+기본적으로이 보기에는 다음 필터로 구성 된 차트가 포함 되어 있습니다.
+
+- **날짜**: 지난 7 일간
+- **메시지 보기**:
+  - 열 메시지
+
+이 차트에서는 다음 범주로 구성 된 메시지를 보여 줍니다.
+
+- **메일 배달 대기 시간**
+- **샌드 박싱 대기 시간**
+
+차트의 범주 위에 마우스를 올리면 각 범주의 대기 시간 분석 결과를 볼 수 있습니다.
+
+![메일 대기 시간 보고서](../../media/mail-latency-report.png)
+
+보고서 보기에서 **필터** 를 클릭 하면 다음 필터를 사용 하 여 결과를 수정할 수 있습니다.
+
+- 모든 메시지
+- 첨부 파일이 나 Url이 포함 된 메시지
+
+**90 번째 백분위 수** 탭 이나 **99th 백분위 수** 탭을 클릭 하면 **50 번째 백분위 수** 보기에 있는 것과 동일한 기본 필터가 사용 됩니다.
+
+### <a name="details-table-view-for-the-mail-latency-report"></a>메일 대기 시간 보고서에 대 한 세부 정보 테이블 보기
+
+세부 정보 테이블 보기에는 다음과 같은 정보가 표시 됩니다.
+
+- **날짜**
+- **백분위 수**
+- **메시지 수**
+- **전체 대기 시간**
+
+![메일 대기 시간 보고서 세부 정보](../../media/mail-latency-report-details.png)
+
+위의 예에서는 11 월 14 일에 배달 된 모든 메시지와 열의 평균 대기 시간이 **108.033** 초 인지 확인할 것을 보여 줍니다.
+
+Details 테이블에는 각 탭에 대 한 동일한 정보가 포함 되어 있습니다.
 
 ## <a name="threat-protection-status-report"></a>위협 방지 상태 보고서
 
@@ -220,7 +275,7 @@ Microsoft Defender for Office 365 조 직 (예: Microsoft 365 E5 구독 또는 m
 
 **URL threat protection** 보고서에는 최근 90 일 동안의 데이터를 표시 하는 4 시간 마다 한 번씩 새로 고쳐지는 두 가지 보기가 있습니다.
 
-- **URL 보호 작업 클릭** : 조직의 사용자가 클릭 한 URL의 수를 표시 하 고 해당 결과를 선택 합니다.
+- **URL 보호 작업 클릭**: 조직의 사용자가 클릭 한 URL의 수를 표시 하 고 해당 결과를 선택 합니다.
 
   - **차단** (사용자가 URL로 이동할 수 없도록 차단 됨)
   - **차단 및 클릭**
@@ -235,7 +290,7 @@ Microsoft Defender for Office 365 조 직 (예: Microsoft 365 E5 구독 또는 m
 
   ![URL URL 위협 방지 보고서에서 보호 작업 보기를 클릭 합니다.](../../media/url-threat-protection-report-url-click-protection-action-view.png)
 
-- **Url 클릭 응용 프로그램** : 안전한 링크를 지 원하는 응용 프로그램에서 클릭 한 url의 수를 표시 합니다.
+- **Url 클릭 응용 프로그램**: 안전한 링크를 지 원하는 응용 프로그램에서 클릭 한 url의 수를 표시 합니다.
 
   - **전자 메일 클라이언트**
   - **PowerPoint**

@@ -8,13 +8,14 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Priority
-ms.openlocfilehash: 6adaef77f6989d541f8028252c5bb1ec7db7a6fc
-ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.openlocfilehash: d64dd5ab49d371df075f1044024c12fbf78e265c
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337196"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087610"
 ---
 # <a name="push-content-types-to-a-hub"></a>허브로 콘텐츠 유형 푸시
 
@@ -31,17 +32,17 @@ SharePoint 라이브러리 및 목록에서 중요한 콘텐츠 형식을 더 �
 
 허브로 콘텐츠 유형을 푸시하려면
 
-1. SharePoint 관리 센터에서 **콘텐츠 서비스**를 확장하고 **콘텐츠 유형 갤러리**를 클릭합니다.
+1. SharePoint 관리 센터에서 **콘텐츠 서비스** 를 확장하고 **콘텐츠 유형 갤러리** 를 클릭합니다.
 
 2. 허브로 푸시하고자 하는 데이터베이스를 클릭합니다.
 
-3. 명령 모음에서 **편집**을 클릭합니다.
+3. 명령 모음에서 **편집** 을 클릭합니다.
  
-4. **허브 사이트 선택**을 클릭합니다.
+4. **허브 사이트 선택** 을 클릭합니다.
  
-5. 원하는 허브 사이트를 선택한 다음 **확인**을 클릭합니다.
+5. 원하는 허브 사이트를 선택한 다음 **확인** 을 클릭합니다.
  
-6. **저장**을 클릭합니다.
+6. **저장** 을 클릭합니다.
 
 기존 허브 및 관련된 사이트로 콘텐츠 유형을 푸시하는 것이 처음이라면 허브 혹은 관련된 사이트가 방문되고 사이트가 업데이트 되도록 설정되는 데 까지 한 시간 까지 걸릴 수 있습니다. 허브에 새로운 연결을 하는데에는 이런 기다림이 필요하지 않고 몇 분 이내에 설정이 반영됩니다. 
 

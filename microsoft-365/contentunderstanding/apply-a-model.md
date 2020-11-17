@@ -7,14 +7,15 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Priority
 description: SharePoint 문서 라이브러리에 게시된 모델을 적용하는 방법 알아보기
-ms.openlocfilehash: 771b0f451d404c6e90f62091ca466bfaf34bae39
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 0ca58e863d42d41b634978f53f55201a10a5ed93
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338676"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087490"
 ---
 # <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint 구문에서 문서 이해 모델 적용
 
@@ -34,7 +35,7 @@ ms.locfileid: "48338676"
 
 SharePoint 문서 라이브러리에 모델 적용하기:
 
-1. 모델 홈페이지의 **라이브러리에 모델 적용** 타일에서 **모델 게시**를 선택합니다. 또는 **이 모델 라이브러리** 섹션에서 **+라이브러리 추가**를 선택할 수 있습니다. </br>
+1. 모델 홈페이지의 **라이브러리에 모델 적용** 타일에서 **모델 게시** 를 선택합니다. 또는 **이 모델 라이브러리** 섹션에서 **+라이브러리 추가** 를 선택할 수 있습니다. </br>
 
     ![라이브러리에 모델 추가](../media/content-understanding/apply-to-library.png)</br>
 
@@ -49,11 +50,11 @@ SharePoint 문서 라이브러리에 모델 적용하기:
 
     ![문서 라이브러리 선택](../media/content-understanding/select-doc-library.png)</br>
 
-4. 모델이 콘텐츠 유형에 연결되어 있으므로 라이브러리에 적용하면 추출한 레이블이 열로 표시되는 컨텐츠 유형 및 보기가 추가됩니다. 이 보기는 기본적으로 라이브러리의 기본 보기이지만, **고급 설정**을 선택하고 **이 새 보기를 기본값으로 설정**을 선택 취소하여 선택적으로 기본 보기가되지 않도록 선택할 수 있습니다.</br>
+4. 모델이 콘텐츠 유형에 연결되어 있으므로 라이브러리에 적용하면 추출한 레이블이 열로 표시되는 컨텐츠 유형 및 보기가 추가됩니다. 이 보기는 기본적으로 라이브러리의 기본 보기이지만, **고급 설정** 을 선택하고 **이 새 보기를 기본값으로 설정** 을 선택 취소하여 선택적으로 기본 보기가되지 않도록 선택할 수 있습니다.</br>
 
     ![라이브러리 보기](../media/content-understanding/library-view.png)</br>
 
-5. 라이브러리에 모델을 적용하려면 **추가**를 선택합니다. 
+5. 라이브러리에 모델을 적용하려면 **추가** 를 선택합니다. 
 6. 모델 홈페이지의 **모델이있는 라이브러리** 섹션에서 나열된 SharePoint 사이트의 URL이 표시되어야 합니다.</br>
 
     ![선택된 라이브러리](../media/content-understanding/selected-library.png)</br>
@@ -72,7 +73,7 @@ SharePoint 문서 라이브러리에 모델 적용하기:
 적용된 모델이 문서 라이브러리에 적용된 후 문서 라이브러리에 업로드 한 모든 파일을 처리하는 동안, 다음을 수행하여 모델이 적용되기 전에 문서 라이브러리에 이미 있는 파일에 대해 모델을 실행할 수도 있습니다.
 
 1. 문서 라이브러리에서 모델이 처리하려는 파일을 선택합니다.
-2. 파일을 선택한 후 **분류 및 추출**이 문서 라이브러리 리본에 나타납니다. **분류 및 추출**을 선택합니다.
+2. 파일을 선택한 후 **분류 및 추출** 이 문서 라이브러리 리본에 나타납니다. **분류 및 추출** 을 선택합니다.
 3. 선택한 파일이 처리할 큐에 추가됩니다.
 
       ![분류 및 추출](../media/content-understanding/extract-classify.png)</br> 

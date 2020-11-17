@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
-ms.openlocfilehash: 5ba17c414b6f6470d2e9af14d1f484b435cb4f51
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 3c8477ce16249cb4d21c736da60d619774175041
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846499"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49123610"
 ---
 # <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-365-defender"></a>Microsoft 365 Defender에서 자동화 된 조사 및 응답 기능 구성
 
@@ -91,13 +91,13 @@ Office 365의 보안 설정은 전자 메일 및 콘텐츠를 보호 하는 데 
 
 1. Microsoft 365 보안 센터 ()로 이동 [https://security.microsoft.com](https://security.microsoft.com) 하 여 로그인 합니다.
 
-2. 탐색 창에서 다음 이미지에 표시 된 것 처럼 **인시던트** , **작업 센터** **및 검색** 을 찾습니다.
+2. 탐색 창에서 다음 이미지에 표시 된 것 처럼 **인시던트**, **작업 센터** **및 검색** 을 찾습니다.
 
    :::image type="content" source="../../media/mtp-enable/mtp-on.png" alt-text="MTP 켜기":::
 
-   - **문제** , **조치 센터** 및 **사냥** 이 표시 되 면 Microsoft 365 Defender가 켜져 있습니다. 다음 절차를 진행 하 여 [장치 그룹에 대 한 자동화 수준을 검토 하거나 변경](#review-or-change-the-automation-level-for-device-groups)합니다.
+   - **문제**, **조치 센터** 및 **사냥** 이 표시 되 면 Microsoft 365 Defender가 켜져 있습니다. 이 문서에서는 [장치 그룹에 대 한 자동화 수준 검토 또는 변경](#review-or-change-the-automation-level-for-device-groups) 절차를 참조 하세요.
 
-   - **인시던트** , **작업 센터** 또는 **사냥** 을 볼 수 *없는* 경우 Microsoft 365 Defender가 켜져 있지 않을 수 있습니다. 이 경우에는 다음 단계를 진행 합니다.
+   - **인시던트**, **작업 센터** 또는 **사냥** 을 볼 수 *없는* 경우 Microsoft 365 Defender가 켜져 있지 않을 수 있습니다. 이 경우 다음 단계 (이 문서의[보류 중 및 완료 된 작업 검토](#review-pending-and-completed-actions-in-the-action-center))로 이동 합니다.
 
 3. 탐색 창에서 **Settings**  >  **Microsoft 365 Defender** 설정을 선택 합니다. Microsoft 365 Defender가 켜져 있는지 확인 합니다. 
 

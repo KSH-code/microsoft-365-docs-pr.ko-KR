@@ -7,14 +7,15 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Priority
 description: 콘텐츠 센터 만드는 방법 알아보기
-ms.openlocfilehash: f65b542dfe9cbb945f347323053cee582deef25b
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 878319dd938f565f00a250f0b08de15641644e1c
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321836"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087442"
 ---
 # <a name="create-a-content-center-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 콘텐츠 센터 만들기
 
@@ -37,15 +38,15 @@ ms.locfileid: "48321836"
 새 콘텐츠 센터를 만들려면 다음과 같이 합니다.
 
 1. Microsoft 365 관리 센터에서 SharePoint 관리 센터로 이동합니다.
-2. SharePoint 관리 센터의 **사이트**에서 **활성 사이트**를 선택합니다.
-3. **활성 사이트** 페이지에서 **만들기**를 클릭하고 **다른 옵션**을 선택합니다.
-4. **서식 파일 선택** 메뉴에서 **콘텐츠 센터**를 선택합니다.
-5. 새 사이트의 경우 **사이트 이름**, **주 관리자** 및 **언어**를 입력합니다.</br>
+2. SharePoint 관리 센터의 **사이트** 에서 **활성 사이트** 를 선택합니다.
+3. **활성 사이트** 페이지에서 **만들기** 를 클릭하고 **다른 옵션** 을 선택합니다.
+4. **서식 파일 선택** 메뉴에서 **콘텐츠 센터** 를 선택합니다.
+5. 새 사이트의 경우 **사이트 이름**, **주 관리자** 및 **언어** 를 입력합니다.</br>
 
 > [!NOTE] 
 > 사용 가능한 모든 언어로 콘텐츠 센터 사이트를 렌더링하도록 선택할 수 있지만 현재 모델은 영문 파일에 대해서만 만들 수 있습니다. 또한 사이트 형식처럼 사이트가 만들어진 이후에 기본 언어 편집은 불가능합니다.</br>
 
-6. **마침**을 선택합니다.
+6. **마침** 을 선택합니다.
  
 콘텐츠 센터 사이트를 만든 후에는 SharePoint 관리 센터의 **활성 사이트** 페이지에 표시되는 것을 볼 수 있습니다. 
 

@@ -7,14 +7,15 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Priority
 description: 문서 이해 모델에 보존 레이블을 적용하는 방법 알아보기
-ms.openlocfilehash: 052c137a419c0185010fbd152e73615a4bb093af
-ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
+ms.openlocfilehash: b71f75006a856d4fd551bffe232cbe044f7726a5
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367956"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087140"
 ---
 # <a name="document-understanding-model-usage-analytics"></a>문서 이해 모델 사용 분석
 
@@ -38,7 +39,7 @@ Microsoft SharePoint Syntex 콘텐츠 센터는 콘텐츠 센터에서 게시 �
 
 **총 모델 백분율** 파이 차트는 게시된 각 모델을 콘텐츠 센터에서 게시된 모델에 의해 총 프로세스된 파일에 대한 백분율을 보여줍니다.
 
-각 모델은 모델에 의해 성공적으로 분석된 업로드 된 파일의 백분율인 **완성율**을 보여줍니다. 낮은 완성율은 모델 혹은 분석된 파일에 문제가 있음을 의미 할 수도 있습니다.
+각 모델은 모델에 의해 성공적으로 분석된 업로드 된 파일의 백분율인 **완성율** 을 보여줍니다. 낮은 완성율은 모델 혹은 분석된 파일에 문제가 있음을 의미 할 수도 있습니다.
 
 ## <a name="files-processed-over-time"></a>시간에 따라 처리 된 파일
 

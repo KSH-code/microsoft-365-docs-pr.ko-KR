@@ -7,14 +7,15 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 양식 처리 모델 알아보기
-ms.openlocfilehash: 7340e0c78db71fbb0acc05c2985b60f6bafbba80
-ms.sourcegitcommit: 705915f8bf9b7c082d12a009523d8aa0670a74a1
+ms.openlocfilehash: 6c2cb2ee3c1fc621e7814f4603ad2e6f0b891701
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48493676"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087406"
 ---
 # <a name="form-processing-overview"></a>양식 처리 개요
 
@@ -29,7 +30,7 @@ AI 작성기 양식 처리를 사용하여 기계 학습 기술을 사용하여 
 > [!NOTE]
 > 양식 처리 시나리오 예제에 대한 자세한 내용은 [SharePoint Syntex 채택: 시작 가이드](https://docs.microsoft.com/microsoft-365/contentunderstanding/adoption-getstarted#form-processing-scenario-example)를 참조하세요.
 
-예를 들어 문서 라이브러리에 업로드 되는 모든 구매 주문 문서를 식별하는 양식 처리 모델을 만들 수 있습니다. 각 구매 주문서에서 *PO 번호*, *날짜* 또는 *전체 비용*과 같이 사용자에게 중요 한 특정 데이터를 추출하여 표시할 수 있습니다.
+예를 들어 문서 라이브러리에 업로드 되는 모든 구매 주문 문서를 식별하는 양식 처리 모델을 만들 수 있습니다. 각 구매 주문서에서 *PO 번호*, *날짜* 또는 *전체 비용* 과 같이 사용자에게 중요 한 특정 데이터를 추출하여 표시할 수 있습니다.
 
 ![문서 라이브러리 보기](../media/content-understanding/doc-lib-done.png)</br>  
 

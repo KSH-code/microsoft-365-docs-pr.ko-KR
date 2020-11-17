@@ -12,18 +12,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 TeleMessage 커넥터를 설정 하 여 WhatsApp 데이터를 가져오고 보관 하도록 Microsoft 365에서 설정할 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: a8a3465ca3f728290b69cf9b6c5d0820daf00221
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 2600356fc2628d5832f93f7dbe4fc247d8812410
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199161"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087185"
 ---
 # <a name="set-up-a-connector-to-archive-whatsapp-data"></a>WhatsApp 데이터를 보관 하기 위한 커넥터 설정
 
 Microsoft 365 준수 센터의 TeleMessage 커넥터를 사용 하 여 WhatsApp 통화, 채팅, 첨부 파일 및 삭제 된 메시지를 가져오고 보관 합니다. 커넥터를 설정 하 고 구성한 후에는 매일 한 번씩 조직의 TeleMessage 계정에 연결 하 고 TeleMessage WhatsApp Phone Winrar 또는 TeleMessage WhatsApp 클라우드 Winrar를 사용 하 여 직원의 모바일 통신을 Microsoft 365의 사서함으로 가져옵니다.
 
-WhatsApp 데이터를 사용자 사서함에 저장 한 후에는 Verizon 데이터에 소송 보존, 콘텐츠 검색 및 Microsoft 365 보존 정책과 같은 Microsoft 365 준수 기능을 적용할 수 있습니다. 예를 들어 콘텐츠 검색을 사용 하 여 WhatsApp 메시지를 검색 하거나 WhatsApp 메시지가 포함 된 사서함을 Advanced eDiscovery 사례의 custodian에 연결할 수 있습니다. WhatsApp 커넥터를 사용 하 여 Microsoft 365에서 데이터를 가져오고 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
+WhatsApp 데이터를 사용자 사서함에 저장 한 후에는 소송 보존, 콘텐츠 검색 및 Microsoft 365 고정 정책과 같은 Microsoft 365 규정 준수 기능을 WhatsApp 데이터에 적용할 수 있습니다. 예를 들어 콘텐츠 검색을 사용 하 여 WhatsApp 메시지를 검색 하거나 WhatsApp 메시지가 포함 된 사서함을 Advanced eDiscovery 사례의 custodian에 연결할 수 있습니다. WhatsApp 커넥터를 사용 하 여 Microsoft 365에서 데이터를 가져오고 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
 
 ## <a name="overview-of-archiving-whatsapp-data"></a>WhatsApp 데이터 보관 개요
 
@@ -59,13 +59,13 @@ WhatsApp 통신 데이터를 보관 하는 데 필요한 일부 구현 단계는
 
 이전 섹션에 설명 된 필수 구성 요소를 완료 한 후에는 Microsoft 365 준수 센터에서 WhatsApp 커넥터를 만들 수 있습니다. 커넥터는 제공 하는 정보를 사용 하 여 TeleMessage 사이트에 연결 하 고 WhatsApp 데이터를 Microsoft 365의 해당 사용자 사서함 상자로 전송 합니다.
 
-1. 로 이동한 [https://compliance.microsoft.com](https://compliance.microsoft.com/) 후 **데이터 커넥터**  >  **WhatsApp winrar**을 클릭 합니다.
+1. 로 이동한 [https://compliance.microsoft.com](https://compliance.microsoft.com/) 후 **데이터 커넥터**  >  **WhatsApp winrar** 을 클릭 합니다.
 
 2. **WhatsApp winrar** 제품 설명 페이지에서 **커넥터 추가** 를 클릭 합니다.
 
-3. **서비스 약관** 페이지에서 **수락**을 클릭 합니다.
+3. **서비스 약관** 페이지에서 **수락** 을 클릭 합니다.
 
-4. **TeleMessage 로그인** 페이지의 3 단계에서 다음 상자에 필요한 정보를 입력 하 고 **다음**을 클릭 합니다.
+4. **TeleMessage 로그인** 페이지의 3 단계에서 다음 상자에 필요한 정보를 입력 하 고 **다음** 을 클릭 합니다.
 
    - **사용자 이름:** 사용자의 TeleMessage 사용자 이름입니다.
 
@@ -73,7 +73,7 @@ WhatsApp 통신 데이터를 보관 하는 데 필요한 일부 구현 단계는
 
 5. 커넥터를 만든 후에는 팝업 창을 닫고 다음 페이지로 이동할 수 있습니다.
 
-6. **사용자 매핑** 페이지에서 자동 사용자 매핑을 사용 하도록 설정 하 고 **다음**을 클릭 합니다. 사용자 지정 매핑이 필요한 경우 CSV 파일을 업로드 하 고 **다음**을 클릭 합니다.
+6. **사용자 매핑** 페이지에서 자동 사용자 매핑을 사용 하도록 설정 하 고 **다음** 을 클릭 합니다. 사용자 지정 매핑이 필요한 경우 CSV 파일을 업로드 하 고 **다음** 을 클릭 합니다.
 
 7. 관리자 동의를 제공 하 고 **Next (다음**)를 클릭 합니다.
 

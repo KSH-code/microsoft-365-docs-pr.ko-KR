@@ -30,7 +30,7 @@ ms.locfileid: "49072977"
 
 Microsoft 365 DLP(데이터 손실 방지)를 사용하여 중요하다고 판단한 항목에 대해 수행되는 작업을 모니터링하고 해당 항목이 의도치 않게 공유되는 것을 방지할 수 있습니다. DLP에 대한 자세한 내용은 [데이터 손실 방지 개요](data-loss-prevention-policies.md)를 참조하세요.
 
-**끝점 데이터 손실 방지** (끝점 DLP)는 Windows 10 장치에 있는 중요한 항목으로 DLP의 활동 모니터링 및 보호 기능을 확장합니다. 장치가 Microsoft 365 규정 준수 솔루션에 등록되면, [활동 탐색기](data-classification-activity-explorer.md)에서 사용자가 중요한 항목으로 수행하는 작업에 대한 정보를 확인할 수 있으며 이러한 항목에 대해 [DLP 정책](create-test-tune-dlp-policy.md)을 통해 보호 작업을 적용할 수 있습니다.
+**끝점 데이터 손실 방지**(끝점 DLP)는 Windows 10 장치에 있는 중요한 항목으로 DLP의 활동 모니터링 및 보호 기능을 확장합니다. 장치가 Microsoft 365 규정 준수 솔루션에 등록되면, [활동 탐색기](data-classification-activity-explorer.md)에서 사용자가 중요한 항목으로 수행하는 작업에 대한 정보를 확인할 수 있으며 이러한 항목에 대해 [DLP 정책](create-test-tune-dlp-policy.md)을 통해 보호 작업을 적용할 수 있습니다.
 
 ## <a name="endpoint-activities-you-can-monitor-and-take-action-on"></a>모니터링 및 조치를 취할 수 있는 끝점 활동
 

@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 네트워크 연결 테스트 도구 (미리 보기)
-ms.openlocfilehash: 2be48f42c8529334b55b311e6f202d9f3b25ff9e
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 4fc12645ccd6a022e4ef4ebe849ac91ba431129b
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295529"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087082"
 ---
 # <a name="microsoft-365-network-connectivity-test-tool-preview"></a>Microsoft 365 네트워크 연결 테스트 도구 (미리 보기)
 
@@ -75,7 +75,7 @@ Microsoft 365 네트워크 연결 테스트는 두 부분으로 구성 됩니다
 
 ### <a name="sharing-with-your-microsoft-account-team-support-or-other-personnel"></a>Microsoft 계정 팀, 지원 또는 기타 직원과 공유
 
-개인 식별을 제외 하는 테스트 보고서는 Microsoft 직원과 공유 됩니다. 이 기능은 기본적으로 사용 하도록 설정 되어 있으며 관리자가 상태를 사용 하지 않도록 설정할 수 있습니다. **| ** Microsoft 365 관리 센터의 네트워크 연결 페이지입니다.
+개인 식별을 제외 하는 테스트 보고서는 Microsoft 직원과 공유 됩니다. 이 기능은 기본적으로 사용 하도록 설정 되어 있으며 관리자가 상태를 사용 하지 않도록 설정할 수 있습니다. **|** Microsoft 365 관리 센터의 네트워크 연결 페이지입니다.
 
 ### <a name="sharing-with-other-users-who-sign-in-to-the-same-office-365-tenant"></a>동일한 Office 365 테 넌 트에 로그인 하는 다른 사용자와 공유
 
@@ -183,7 +183,7 @@ Exchange 서비스 전면 도어의 TCP 대기 시간 (ms)에 대 한 잠재적 
 
 #### <a name="download-speed"></a>다운로드 속도
 
-SharePoint 서비스 전면 도어에서 15Mb 파일의 다운로드 속도를 측정 합니다. 결과는 **1 초**에 SharePoint 또는 OneDrive에서 다운로드할 수 있는 크기 (mb)를 나타내기 위해 초당 mb로 표시 됩니다. 이 숫자는 최소 회로 대역폭과 초당 1-10과 비슷해야 합니다. 예를 들어 100mbps 인터넷 연결이 있는 경우 초당 10mb가 될 수 있습니다 (10MBps).
+SharePoint 서비스 전면 도어에서 15Mb 파일의 다운로드 속도를 측정 합니다. 결과는 **1 초** 에 SharePoint 또는 OneDrive에서 다운로드할 수 있는 크기 (mb)를 나타내기 위해 초당 mb로 표시 됩니다. 이 숫자는 최소 회로 대역폭과 초당 1-10과 비슷해야 합니다. 예를 들어 100mbps 인터넷 연결이 있는 경우 초당 10mb가 될 수 있습니다 (10MBps).
 
 #### <a name="buffer-bloat"></a>버퍼 팽창
 
@@ -207,17 +207,17 @@ SharePoint 서비스 전면 도어에서 15Mb 파일의 다운로드 속도를 �
 
 #### <a name="latency"></a>대기 시간
 
-측정 된 UDP 대기 시간 ( **적고 100 밀리초**미만 이어야 함)을 표시 합니다.
+측정 된 UDP 대기 시간 ( **적고 100 밀리초** 미만 이어야 함)을 표시 합니다.
 
 #### <a name="jitter"></a>지터
 
-계산 된 UDP 지터를 표시 하며이 값은 **30ms**보다 작아야 합니다.
+계산 된 UDP 지터를 표시 하며이 값은 **30ms** 보다 작아야 합니다.
 
 #### <a name="connectivity"></a>연결
 
 사용자 사무실 위치에서 필요한 모든 Microsoft 365 네트워크 끝점에 대 한 HTTP 연결을 테스트 합니다. 이러한 기능은에 게시 됩니다 [https://aka.ms/o365ip](https://aka.ms/o365ip) . 연결할 수 없는 모든 필수 네트워크 끝점에 대 한 네트워크 통찰력이 표시 됩니다.
 
-연결 ay는 회사 네트워크 경계에 있거나 클라우드 프록시로 사용 중인 프록시 서버, 방화벽 또는 다른 네트워크 보안 장치에 의해 차단 됩니다.
+엔터프라이즈 네트워크 경계에서 프록시 서버, 방화벽 또는 다른 네트워크 보안 장치에 의해 연결이 차단 될 수 있습니다. TCP 포트 80에 대 한 연결이 HTTP 요청을 통해 테스트 되 고 TCP 포트 443에 대 한 연결이 HTTPS 요청으로 테스트 됩니다. 응답이 없는 경우 FQDN은 실패로 표시 됩니다. HTTP 응답 코드가 407 FQDN이 오류로 표시 됩니다. HTTP 응답 코드 403가 있는 경우 응답의 서버 특성을 확인 하 여 해당 응답이 프록시 서버 라고 표시 되 면이를 실패로 표시 합니다. curl.exe Windows 명령줄 도구를 사용 하 여 수행 하는 테스트를 시뮬레이션할 수 있습니다.
 
 에서 정의 된 최적화 또는 허용 범주에 있는 각각의 필수 Microsoft 365 네트워크 끝점에서 SSL 인증서를 테스트 합니다 [https://aka.ms/o365ip](https://aka.ms/o365ip) . Microsoft SSL 인증서를 찾지 못하는 테스트는 중간 네트워크 장치에 의해 연결 된 암호화 된 네트워크를 차단 해야 합니다. 네트워크에 대 한 통찰력은 모든 암호화 된 네트워크 끝점에 표시 됩니다.
 
@@ -225,7 +225,7 @@ Microsoft에서 제공 하지 않는 SSL 인증서가 발견 되 면 테스트�
 
 #### <a name="network-path"></a>네트워크 경로
 
-이 섹션에서는 Exchange Online 서비스 전면 도어, SharePoint Online 서비스 전면 도어 및 Microsoft 팀 서비스 전면 도어에 대 한 ICMP traceroute 결과를 보여 줍니다. 정보를 제공 하기 위한 것 이며 연결 된 네트워크 통찰력은 없습니다. 3 개의 traceroutes 제공 됩니다. _Outlook.office365.com_에 대 한 traceroute, 고객 SharePoint 프런트 엔드에 대 한 traceroute 또는 _microsoft.sharepoint.com_ 에 대 한 _traceroute를 제공 합니다._
+이 섹션에서는 Exchange Online 서비스 전면 도어, SharePoint Online 서비스 전면 도어 및 Microsoft 팀 서비스 전면 도어에 대 한 ICMP traceroute 결과를 보여 줍니다. 정보를 제공 하기 위한 것 이며 연결 된 네트워크 통찰력은 없습니다. 3 개의 traceroutes 제공 됩니다. _Outlook.office365.com_ 에 대 한 traceroute, 고객 SharePoint 프런트 엔드에 대 한 traceroute 또는 _microsoft.sharepoint.com_ 에 대 한 _traceroute를 제공 합니다._
 
 ## <a name="connectivity-reports"></a>연결 보고서
 
