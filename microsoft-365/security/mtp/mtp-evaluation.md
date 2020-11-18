@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-overview
 - m365solution-evalutatemtp
 ms.topic: conceptual
-ms.openlocfilehash: d6c96f7720344721bb2786dc130c490a5a8ea657
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: fe0a06dd104f0f0532363ee046f4bad1c03c5400
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846487"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130889"
 ---
 # <a name="create-a-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Microsoft 365 Defender 평가판 랩 또는 파일럿 환경 만들기 
 
@@ -54,11 +54,13 @@ ms.locfileid: "48846487"
 
 Microsoft 365 Defender 평가판 랩 환경을 만들고 배포 하는 과정은 다음 세 단계로 진행 됩니다.
 
+![배포 단계: prepare, setup, 온보드](../../media/phase-diagrams/deployment-phases.png)
+
 |단계 | 설명 | 
 |:-------|:-----|
-| ![1 단계: 준비](../../media/prepare.png)<br>[1 단계: 준비](prepare-mtpeval.md)| 평가판 랩 또는 파일럿 환경에서 Microsoft 365 Defender를 배포할 때 고려해 야 할 사항에 대해 알아봅니다. <br><br>-관련자 및 승인 <br> -환경 고려 사항 <br>-액세스 <br>-Azure Active Directory 설치 <br> -구성 순서
-|  ![2 단계: 설치](../../media/setup.png) <br>[2 단계: 설치](setup-mtpeval.md)|  Microsoft 365 보안 센터에 액세스 하는 초기 단계를 수행 하 여 Microsoft 365 Defender 평가판 lab 또는 파일럿 환경을 설정 합니다. 다음을 안내 합니다.<br><br>-Microsoft 365 E5 평가판 등록 <br>  -도메인 구성<br>-Microsoft 365 E5 라이선스 할당<br>-포털에서 설치 마법사 완료|
-|  ![3 단계: 온보드 & 구성](../../media/config-onboard.png) <br>[3 단계: 온보드 & 구성](config-mtpeval.md) | 각 Microsoft 365 Defender 기둥 및 온보드 끝점을 구성 합니다. 다음을 안내 합니다.<br><br>-Office 365 용 Microsoft Defender 구성<br>-Microsoft Cloud App Security 구성<br>-Id를 사용 하 여 Microsoft Defender 구성<br>-끝점에 대 한 Microsoft Defender 구성
+|[1 단계: 준비](prepare-mtpeval.md)| 평가판 랩 또는 파일럿 환경에서 Microsoft 365 Defender를 배포할 때 고려해 야 할 사항에 대해 알아봅니다. <br><br>-관련자 및 승인 <br> -환경 고려 사항 <br>-액세스 <br>-Azure Active Directory 설치 <br> -구성 순서
+|[2 단계: 설치](setup-mtpeval.md)|  Microsoft 365 보안 센터에 액세스 하는 초기 단계를 수행 하 여 Microsoft 365 Defender 평가판 lab 또는 파일럿 환경을 설정 합니다. 다음을 안내 합니다.<br><br>-Microsoft 365 E5 평가판 등록 <br>  -도메인 구성<br>-Microsoft 365 E5 라이선스 할당<br>-포털에서 설치 마법사 완료|
+|[3 단계: 온보드 & 구성](config-mtpeval.md) | 각 Microsoft 365 Defender 기둥 및 온보드 끝점을 구성 합니다. 다음을 안내 합니다.<br><br>-Office 365 용 Microsoft Defender 구성<br>-Microsoft Cloud App Security 구성<br>-Id를 사용 하 여 Microsoft Defender 구성<br>-끝점에 대 한 Microsoft Defender 구성
 
 
 ## <a name="in-scope"></a>범위 내
@@ -71,7 +73,7 @@ Microsoft 365 Defender 평가판 랩 환경을 만들고 배포 하는 과정은
     -   Microsoft 365 E5 라이선스 할당
     -   포털 내에서 설정 마법사 완료
 -   모범 사례를 기반으로 모든 Microsoft 365 Defender 핵심 요소로를 구성 합니다.
-    -   Microsoft Defender for Office 365
+    -   Office 365용 Microsoft Defender
     -   ID용 Microsoft Defender
     -   Microsoft Cloud App Security
     -   엔드포인트용 Microsoft Defender
@@ -84,5 +86,5 @@ Microsoft 365 Defender 평가판 랩 환경을 만들고 배포 하는 과정은
 -   프로덕션 환경의 침투 테스트
 
 ## <a name="next-step"></a>다음 단계
-![1 단계: 준비](../../media/prepare.png) <br>[1 단계: 준비](prepare-mtpeval.md) 
+[1 단계: 준비](prepare-mtpeval.md) 
 <br> Microsoft 365 Defender 평가판 랩 또는 파일럿 환경 준비

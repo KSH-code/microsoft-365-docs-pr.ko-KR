@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 준수 경계를 사용 하 여 eDiscovery 관리자가 Microsoft 365에서 검색할 수 있는 사용자 콘텐츠 위치를 제어 하는 논리적 경계를 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c57689cc6e626b62ae976bac9f9771205431bc8a
-ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
+ms.openlocfilehash: afc01ea88e9a2de6550741dcaac105ef764a752f
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48370404"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131133"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>EDiscovery 조사에 대 한 준수 경계 설정
 
@@ -145,7 +145,7 @@ New-ComplianceSecurityFilter -FilterName <name of filter> -Users <role groups> -
     - `Site_Path`: 매개 변수에 정의 된 역할 그룹이 검색할 수 있는 SharePoint 사이트를 지정 합니다  `Users` . *SharePointURL* 은 역할 그룹의 구성원이 검색할 수 있는 에이전시의 사이트를 지정 합니다. 예:  `"Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'"`. `Site`및 필터는 `Site_Path` **or** 연산자로 연결 됩니다.
 
      > [!NOTE]
-     > 매개 변수에 대 한 구문에 `Filters` *필터 목록이*포함 되어 있습니다. 필터 목록은 사서함 필터와 쉼표로 구분 된 사이트 필터를 포함 하는 필터입니다. 위의 예제에서는 쉼표로 **Mailbox_ComplianceAttribute** 구분 하 고 **Site_ComplianceAttribute** `-Filters "Mailbox_<ComplianceAttribute>  -eq '<AttributeVale> '", "Site_ComplianceAttribute  -eq '<AttributeValue>' -or Site_Path -like '<SharePointURL>*'"` 합니다. 콘텐츠 검색을 실행 하는 동안이 필터를 처리 하면 필터 목록 (하나의 사서함 필터 및 사이트 필터)에서 두 개의 검색 권한 필터가 만들어집니다. 필터 목록을 사용 하는 대신 각 에이전시에 대해 두 개의 검색 권한 필터, 즉 사서함 특성에 대 한 검색 권한 필터와 사이트 특성에 대 한 하나의 필터를 만들 수 있습니다. 두 경우 모두 결과는 동일 하 게 됩니다. 필터 목록을 사용 하거나 별도의 검색 권한 만들기 필터를 만드는 것은 기본 설정의 중요 한 사항입니다.
+     > 매개 변수에 대 한 구문에 `Filters` *필터 목록이* 포함 되어 있습니다. 필터 목록은 사서함 필터와 쉼표로 구분 된 사이트 필터를 포함 하는 필터입니다. 위의 예제에서는 쉼표로 **Mailbox_ComplianceAttribute** 구분 하 고 **Site_ComplianceAttribute** `-Filters "Mailbox_<ComplianceAttribute>  -eq '<AttributeVale> '", "Site_ComplianceAttribute  -eq '<AttributeValue>' -or Site_Path -like '<SharePointURL>*'"` 합니다. 콘텐츠 검색을 실행 하는 동안이 필터를 처리 하면 필터 목록 (하나의 사서함 필터 및 사이트 필터)에서 두 개의 검색 권한 필터가 만들어집니다. 필터 목록을 사용 하는 대신 각 에이전시에 대해 두 개의 검색 권한 필터, 즉 사서함 특성에 대 한 검색 권한 필터와 사이트 특성에 대 한 하나의 필터를 만들 수 있습니다. 두 경우 모두 결과는 동일 하 게 됩니다. 필터 목록을 사용 하거나 별도의 검색 권한 만들기 필터를 만드는 것은 기본 설정의 중요 한 사항입니다.
 
 - `Action`: 필터가 적용 되는 준수 검색 작업의 유형을 지정 합니다. 예를 들어  `-Action Search` 매개 변수에 정의 된 역할 그룹의 구성원이 `Users` 콘텐츠 검색을 실행 하는 경우에만 필터를 적용 합니다. 이 경우 검색 결과를 내보낼 때 필터가 적용 되지 않습니다. 준수 경계의 경우 필터를  `-Action All` 모든 검색 작업에 적용 하도록 사용 합니다. 
 
@@ -179,11 +179,11 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 2. EDiscovery 사례 목록에서 만든 사례 이름을 클릭 합니다.
 
-3. **이 사례** 플라이 아웃 관리 페이지의 **역할 그룹 관리**에서 ![ 아이콘 추가를 클릭 ](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **Add**합니다.
+3. **이 사례** 플라이 아웃 관리 페이지의 **역할 그룹 관리** 에서 ![ 아이콘 추가를 클릭 ](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **Add** 합니다.
 
     ![EDiscovery 사례의 구성원으로 역할 그룹 추가](../media/f8b4b557-01b9-4388-85be-b5b5ab7c5629.png)
   
-4. 역할 그룹 목록에서 3 단계에서 만든 역할 그룹 중 하나를 선택 하 고 **추가**를 클릭 합니다.
+4. 역할 그룹 목록에서 3 단계에서 만든 역할 그룹 중 하나를 선택 하 고 **추가** 를 클릭 합니다.
 
 5. **이 사례** 플라이 아웃 관리에서 **저장** 을 클릭 하 여 변경 내용을 저장 합니다.
 
@@ -219,6 +219,8 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
     |JPN  <br/> |아시아 태평양  <br/> |
     |IND  <br/> |아시아 태평양  <br/> |
     |LAM  <br/> |US  <br/> |
+    |폴더도  <br/> |유럽 |
+    |BRA  <br/> |북미 데이터 센터 |
     |||
 
    검색 권한 필터에 **Region** 매개 변수를 지정 하지 않으면 조직의 기본 SharePoint 지역이 검색 됩니다. 검색 결과는 가장 가까운 데이터 센터로 내보내집니다.
@@ -298,9 +300,9 @@ EDiscovery 사례를 관리 하 고 준수 경계를 사용 하는 조사를 관
 
 - `-not()`콘텐츠 기반 규정 준수 범위에 대해 검색 권한 필터에 사용 하는 것과 같은 제외 필터는 사용 하지 않는 것이 좋습니다. 최근에 업데이트 된 특성이 있는 콘텐츠가 인덱싱되지 않은 경우 제외 필터를 사용 하면 예기치 않은 결과가 발생 합니다. 
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
-**New-compliancesecurityfilter 및 New-compliancesecurityfilter cmdlet을 사용 하 여 검색 권한 필터를 만들고 관리할 수 있는 사람은 누구 인가요?**
+**New-ComplianceSecurityFilter 및 Set-ComplianceSecurityFilter cmdlet을 사용 하 여 검색 권한 필터를 만들고 관리할 수 있는 사람**
   
 검색 권한 필터를 만들고 보고 수정 하려면 보안 & 준수 센터에서 조직 관리 역할 그룹의 구성원 이어야 합니다.
   
@@ -310,7 +312,7 @@ EDiscovery 관리자는 검색 쿼리에 특정 에이전시로 제한 되는 �
   
 **검색 권한 필터에서 준수 특성으로 사용 되는 특성의 값이 변경 된 경우 어떻게 되나요?**
   
-필터에 사용 된 특성의 값이 변경 되는 경우 검색 권한 필터에 대해 최대 3 일이 소요 됩니다. 예를 들어 Contoso 시나리오에서, 네 번째 커피 에이전시의 사용자가 Coho Winery 에이전시로 전송 된다는 것을 가정해 보겠습니다. 따라서 사용자 개체의 **부서** 특성 값은 *FourthCoffee* 에서 *CohoWinery*로 변경 됩니다. 이 상황에서 네 번째 커피 eDiscovery 및 투자자는 해당 사용자에 대 한 검색 결과를 3 일 동안 (특성이 변경 된 후)으로 가져옵니다. 마찬가지로, Coho Winery eDiscovery 관리자 및 investigators에서 사용자에 대 한 검색 결과를 가져올 때까지 3 일 정도 걸립니다.
+필터에 사용 된 특성의 값이 변경 되는 경우 검색 권한 필터에 대해 최대 3 일이 소요 됩니다. 예를 들어 Contoso 시나리오에서, 네 번째 커피 에이전시의 사용자가 Coho Winery 에이전시로 전송 된다는 것을 가정해 보겠습니다. 따라서 사용자 개체의 **부서** 특성 값은 *FourthCoffee* 에서 *CohoWinery* 로 변경 됩니다. 이 상황에서 네 번째 커피 eDiscovery 및 투자자는 해당 사용자에 대 한 검색 결과를 3 일 동안 (특성이 변경 된 후)으로 가져옵니다. 마찬가지로, Coho Winery eDiscovery 관리자 및 investigators에서 사용자에 대 한 검색 결과를 가져올 때까지 3 일 정도 걸립니다.
   
 **EDiscovery 관리자가 두 개의 별도 준수 경계의 콘텐츠를 볼 수 있습니까?**
   

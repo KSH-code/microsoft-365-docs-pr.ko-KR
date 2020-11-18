@@ -21,12 +21,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 0 시간 자동 삭제 (ZAP)가 Exchange Online 사서함의 배달 된 메시지를 retroactively에서 정크 메일 폴더로 이동 하는 것을 retroactively 수 있는 격리 또는 피싱 인 것으로 확인 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: e59d93285dd75a749739b8247c156c19533ce2b1
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: fd5186bc40d2d80097e6292d86ea113a41e0dd52
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845447"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131152"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Exchange Online에서 제로 시간 자동 제거 (ZAP)
 
@@ -55,13 +55,13 @@ Exchange Online의 사서함이 있는 Microsoft 365 조 직에서 제로 시간
 
 ### <a name="phish-zap"></a>피싱 ZAP
 
-배달 후에 피싱으로 식별 되는 **읽음 또는 읽지 않은 메시지** 의 경우 ZAP 결과는 해당 하는 스팸 방지 정책에서 **피싱 전자 메일** 필터링 결과에 대해 구성 된 작업에 따라 달라 집니다. 다음 목록에서는 피싱에 대 한 사용 가능한 필터링 결과 작업 및 가능한 ZAP 결과에 대해 설명 합니다.
+배달 후에 피싱으로 식별 된 **읽음 또는 읽지 않은 메시지** 의 경우 ZAP 결과는 해당 하는 스팸 방지 정책에서 **피싱 전자 메일** 필터링 결과에 대해 구성 된 작업에 따라 달라 집니다. 다음 목록에는 피싱에 대 한 사용 가능한 필터링 결과 작업 및 가능한 ZAP 결과에 대 한 설명이 나와 있습니다.
 
-- **X-헤더 추가** ( **제목 줄 앞에 텍스트 포함** ): ZAP이 메시지에 대해 작업을 수행 하지 않습니다.
+- **X-헤더 추가**( **제목 줄 앞에 텍스트 포함**): ZAP이 메시지에 대해 작업을 수행 하지 않습니다.
 
-- **정크 메일로 메시지 이동** : ZAP 사서함에서 정크 메일 규칙을 사용 하는 경우 (기본적으로 사용 하도록 설정 되어 있음) 메시지를 정크 메일 폴더로 이동 합니다. 자세한 내용은 [Microsoft 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
+- **정크 메일로 메시지 이동**: ZAP 사서함에서 정크 메일 규칙을 사용 하는 경우 (기본적으로 사용 하도록 설정 되어 있음) 메시지를 정크 메일 폴더로 이동 합니다. 자세한 내용은 [Microsoft 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
 
-- **전자 메일 주소로 메시지 리디렉션** , **메시지 삭제** , **격리 메시지** : ZAP 설정별 메시지
+- **전자 메일 주소로 메시지 리디렉션**, **메시지 삭제**, **격리 메시지**: ZAP 설정별 메시지
 
 기본적으로 스팸 방지 정책에서 피싱 ZAP을 사용 하도록 설정 되어 있으며 **피싱 전자 메일** 필터링 결과의 기본 작업은 **메시지를 격리** 하며,이는 메시지를 기본적으로 피싱 ZAP 설정별 한다는 것을 의미 합니다.
 
@@ -71,11 +71,11 @@ Exchange Online의 사서함이 있는 Microsoft 365 조 직에서 제로 시간
 
 배달 후 스팸으로 식별 된 **읽지 않은 메시지** 의 경우 ZAP 결과는 해당 하는 스팸 방지 정책에서 **스팸** 필터링 결과에 대해 구성 된 작업에 따라 달라 집니다. 스팸 및 가능한 ZAP 결과에 대 한 사용 가능한 필터링 결과 작업은 다음 목록에 설명 되어 있습니다.
 
-- **X-헤더 추가** ( **제목 줄 앞에 텍스트 포함** ): ZAP이 메시지에 대해 작업을 수행 하지 않습니다.
+- **X-헤더 추가**( **제목 줄 앞에 텍스트 포함**): ZAP이 메시지에 대해 작업을 수행 하지 않습니다.
 
-- **정크 메일로 메시지 이동** : ZAP 사서함에서 정크 메일 규칙을 사용 하는 경우 (기본적으로 사용 하도록 설정 되어 있음) 메시지를 정크 메일 폴더로 이동 합니다. 자세한 내용은 [Microsoft 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
+- **정크 메일로 메시지 이동**: ZAP 사서함에서 정크 메일 규칙을 사용 하는 경우 (기본적으로 사용 하도록 설정 되어 있음) 메시지를 정크 메일 폴더로 이동 합니다. 자세한 내용은 [Microsoft 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
 
-- **전자 메일 주소로 메시지 리디렉션** , **메시지 삭제** , **격리 메시지** : ZAP 설정별 메시지 최종 사용자는 자신의 스팸 격리 된 메시지를 보고 관리할 수 있습니다.
+- **전자 메일 주소로 메시지 리디렉션**, **메시지 삭제**, **격리 메시지**: ZAP 설정별 메시지 최종 사용자는 자신의 스팸 격리 된 메시지를 보고 관리할 수 있습니다.
 
 기본적으로 스팸 방지 정책에서 스팸 ZAP을 사용 하도록 설정 되어 있으며 스팸 필터링 결과의 기본 작업은 **정크 메일 폴더로 메시지를 이동** 하는 것으로 **, 스팸 zap** 은 **읽지 않은** 메시지를 정크 메일 폴더로 이동 합니다.
 
@@ -83,7 +83,7 @@ Exchange Online의 사서함이 있는 Microsoft 365 조 직에서 제로 시간
 
 ### <a name="zap-considerations-for-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 ZAP 고려 사항
 
-ZAP은 안전한 첨부 파일 검색에서 [동적 배달](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies) 프로세스에 있는 메시지를 격리 하지 않으며, EOP 맬웨어 필터링이 이미 해당 첨부 파일을 **맬웨어 경고 Text.txt** 파일로 바꾸었습니다. 이러한 유형의 메시지에 대 한 피싱 또는 스팸 신호를 수신 하 고 스팸 방지 정책의 필터링 결과 메시지에 대 한 특정 작업을 수행 하도록 설정 된 경우 (정크로 이동, 리디렉션, 삭제 또는 격리), ZAP은 ' 정크로 이동 ' 작업을 기본값으로 사용 합니다.
+ZAP은 안전한 첨부 파일 검색에서 [동적 배달](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies) 프로세스에 있는 메시지를 격리 하지 않으며, EOP 맬웨어 필터링이 이미 해당 첨부 파일을 **맬웨어 경고 Text.txt** 파일로 바꾸었습니다. 이러한 유형의 메시지에 대해 피싱 또는 스팸 신호를 수신 하 고 스팸 방지 정책의 필터링 결과 메시지에 대 한 특정 작업을 수행 하도록 설정 된 경우 (정크로 이동, 리디렉션, 삭제 또는 격리), ZAP은 ' 정크로 이동 ' 작업을 기본으로 합니다.
 
 ## <a name="how-to-see-if-zap-moved-your-message"></a>메시지가 ZAP에서 이동 된 것을 확인 하는 방법
 
@@ -105,7 +105,7 @@ ZAP은이 항목의 앞부분에서 설명한 스팸 방지 정책 구성을 기
 
 ### <a name="what-if-a-message-is-moved-to-another-folder-eg-inbox-rules"></a>다른 폴더 (예: 받은 편지함 규칙)로 메시지를 이동 하는 경우
 
-메시지가 삭제 되지 않았거나, 동일 하거나 더 강력 하지만 작업이 아직 적용 되지 않은 경우에도 ZAP이 계속 작동 합니다. 예를 들어 피싱 정책이 quarantine로 설정 되어 있고 사용자 또는 관리자가 이미 전자 메일을 junked 하는 경우 격리를 통해 파일을 격리 하는 작업이 수행 됩니다.
+메시지가 삭제 되지 않았거나, 동일 하거나 더 강력 하지만 작업이 아직 적용 되지 않은 경우에도 ZAP이 계속 작동 합니다. 예를 들어 피싱 방지 정책이 격리로 설정 되어 있고 메시지가 이미 정크 메일에 있는 경우에는 ZAP에서 메시지를 격리 하는 작업을 수행 합니다.
 
 ### <a name="how-does-zap-affect-mailboxes-on-hold"></a>ZAP이 보류 중인 사서함에 어떤 영향을 줍니까?
 

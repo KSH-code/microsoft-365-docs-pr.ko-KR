@@ -20,59 +20,21 @@ ms.collection:
 - m365solution-scenario
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 700bd7a3f4ba8d152cf66a27c0f66aa375872698
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: fac3a79f1522e5e7777b2b54bce2b8bd695f8d7a
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842065"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131348"
 ---
 # <a name="run-your-microsoft-365-defender-attack-simulations"></a>Microsoft 365 Defender attack 시뮬레이션 실행  
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-**적용 대상:**
-- Microsoft 365 Defender
-<br>
-<table border="0" width="100%" align="center">
-  <tr style="text-align:center;">
-    <td align="center" style="width:25%; border:0;" >
-      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
-        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft 365 Defender project" title="파일럿 Microsoft 365 Defender 프로젝트 계획" />
-      <br/>만들려는 </a><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">
-        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft 365 Defender trial lab or pilot environment" title="Microsoft 365 Defender 평가판 랩 또는 파일럿 환경 준비" />
-      <br/>함 </a><br>
-    </td>
-    <td align="center"bgcolor="#d5f5e3">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate">
-        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft 365 Defender attack simulations" title="Microsoft 365 Defender attack 시뮬레이션 실행" />
-      <br/>공격 시뮬레이트 </a><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-close">
-        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft 365 Defender pilot" title="Microsoft 365 Defender 파일럿을 닫고 요약 합니다." />
-      <br/>닫기 및 요약 </a><br>
-    </td>
-  </tr>
-  <tr>
-    <td style="width:25%; border:0;">
-   
-    </td>
-    <td valign="top" style="width:25%; border:0;">
-    
-</td>
-    <td valign="top" style="width:25%; border:0;">
-
-</td>    
-    <td valign="top" style="width:25%; border:0;">
-
-</td>
-  </tr>
-</table>
+|[![계획](../../media/phase-diagrams/1-planning.png)](mtp-pilot-plan.md)<br/>[계획](mtp-pilot-plan.md) |[![준비](../../media/phase-diagrams/2-prepare.png)](prepare-mtpeval.md)<br/>[미리](prepare-mtpeval.md) | ![공격 시뮬레이션](../../media/phase-diagrams/3-simluate.png)<br/>공격 시뮬레이션| [![닫기 및 요약](../../media/phase-diagrams/4-summary.png)](mtp-pilot-close.md)<br/>[닫기 및 요약](mtp-pilot-close.md)|
+|--|--|--|--|
+|| |*사용자가 여기 있어!* | |
 
 현재 공격 시뮬레이션 단계입니다.
 
@@ -369,9 +331,9 @@ Microsoft 365 보안 센터 포털의 인시던트로 다시 이동 합니다. *
 
     1.  결과를 확인 하 고 열었던 전자 메일을 식별할 수 있는지 확인 합니다.  메시지가 고급 구하기에 표시 되는 데 최대 2 시간이 걸릴 수 있습니다. 전자 메일 환경이 크고 결과가 많은 경우에는 **필터 표시 옵션** 을 사용 하 여 메시지를 찾을 수 있습니다. 
 
-   이 예제에서는 전자 메일이 Yahoo 계정에서 전송 되었습니다. **+** SenderFromDomain 섹션 아래의 **yahoo.com** 옆에 있는 아이콘을 클릭 한 다음 **적용** 을 클릭 하 여 선택한 도메인을 쿼리에 추가 합니다.  시뮬레이션을 실행 하 여 결과를 필터링 하는 1 단계에서 테스트 메시지를 보내는 데 사용 된 도메인 또는 전자 메일 계정을 사용 합니다.  쿼리를 다시 실행 하 여 더 작은 결과 집합을 가져와 시뮬레이션에서 메시지가 표시 되는지 확인 합니다.
+           이 예제에서는 전자 메일이 Yahoo 계정에서 전송 되었습니다. **+** SenderFromDomain 섹션 아래의 **yahoo.com** 옆에 있는 아이콘을 클릭 한 다음 **적용** 을 클릭 하 여 선택한 도메인을 쿼리에 추가 합니다.  시뮬레이션을 실행 하 여 결과를 필터링 하는 1 단계에서 테스트 메시지를 보내는 데 사용 된 도메인 또는 전자 메일 계정을 사용 합니다.  쿼리를 다시 실행 하 여 더 작은 결과 집합을 가져와 시뮬레이션에서 메시지가 표시 되는지 확인 합니다.
    
-        ![Screenshot of the filters. Use filters to narrow down the search, and find what you’re looking for faster.](../../media/mtp/fig20.png) 
+        ![필터의 스크린샷 필터를 사용 하 여 검색 범위를 좁혀 원하는 속도를 빠르게 찾을 수 있습니다.](../../media/mtp/fig20.png) 
 
         ```console
         EmailEvents 
@@ -394,7 +356,7 @@ Microsoft 365 보안 센터 포털의 인시던트로 다시 이동 합니다. *
 
 5.  다음으로, 첨부 파일에 대 한 정보 (예: 이름, 해시)를 결과 집합에 포함 합니다. 이렇게 하려면 **EmailAttachmentInfo** 테이블을 조인 합니다. 조인에 사용 하는 일반 필드는 **Networkmessageid** 및 **RecipientObjectId** 입니다.
 
-다음 쿼리에는 추가 줄 "|"도 포함 되어 있습니다. **project-Rename EmailTimestamp = Timestamp** "다음 단계에서 추가할 파일 작업과 관련 된 전자 메일 및 타임 스탬프와 관련 된 타임 스탬프를 식별 하는 데 도움이 되는 정보입니다.
+    다음 쿼리에는 추가 줄 "|"도 포함 되어 있습니다. **project-Rename EmailTimestamp = Timestamp**"다음 단계에서 추가할 파일 작업과 관련 된 전자 메일 및 타임 스탬프와 관련 된 타임 스탬프를 식별 하는 데 도움이 되는 정보입니다.
 
     ```console
     EmailEvents 
@@ -473,9 +435,9 @@ Microsoft 365 보안 센터 포털의 인시던트로 다시 이동 합니다. *
 
     ![규칙 및 실행 세부 정보를 표시 하는 검색 규칙 페이지 스크린샷](../../media/mtp/fig27b.png) 
 
-이 페이지에서 세부 정보 페이지를 여는 검색 규칙을 선택할 수 있습니다. 
+    이 페이지에서 세부 정보 페이지를 여는 검색 규칙을 선택할 수 있습니다. 
 
-    ![Screenshot of the email attachments page where you can see the status of the rule execution, triggered alerts and actions, edit the detection, and so on](../../media/mtp/fig28.png) 
+    ![규칙 실행 상태, 트리거된 경고 및 작업, 검색 편집 등을 볼 수 있는 전자 메일 첨부 파일 페이지 스크린샷](../../media/mtp/fig28.png) 
 
 ### <a name="additional-advanced-hunting-walk-through-exercises"></a>추가 고급 구하기 단계별 연습
 

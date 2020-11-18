@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: 47f4ceeebd50784b1880a028ebe2698012c406da
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 503b7a6a6b3ad6394293e9f70dbdd336f6bee9dd
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844827"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131312"
 ---
 # <a name="set-up-your-microsoft-365-defender-trial-lab-environment"></a>Microsoft 365 Defender 평가판 랩 환경 설정 
 
@@ -36,30 +36,10 @@ ms.locfileid: "48844827"
 
 Microsoft 365 Defender 평가판 랩 또는 파일럿 환경을 만들고 배포 하는 과정은 다음 3 단계로 진행 됩니다.
 
-<br>
-<table border="0" width="100%" align="center">
-  <tr style="text-align:center;">
-    <td align="center" style="width:25%; border:0;" >
-      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval?view=o365-worldwide"> 
-        <img src="../../media/prepare.png" alt="Prepare your Microsoft 365 Defender trial lab or pilot environment" title="Microsoft 365 Defender evaluation lab 또는 파일럿 환경 준비" />
-      <br/>1 단계: 준비 </a><br>
-    </td>
-     <td align="center"bgcolor="#d5f5e3">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval?view=o365-worldwide">
-        <img src="../../media/setup.png" alt="Set up your Microsoft 365 Defender trial lab or pilot environment" title="Microsoft 365 Defender 평가판 랩 또는 파일럿 환경 설정" />
-      <br/>2 단계: 설치 </a><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide">
-        <img src="../../media/config-onboard.png" alt="
-Configure each Microsoft 365 Defender pillar for your Microsoft 365 Defender trial lab or pilot environment and onboard your endpoints" title="
-Microsoft 365 Defender 평가판 lab 또는 파일럿 환경에 대해 각 Microsoft 365 Defender를 구성 하 고 끝점을 등록 합니다." />
-      <br/>3 단계: 온보드 & 구성 </a><br>
-</td>
+|[![1 단계: 준비](../../media/phase-diagrams/prepare.png)](prepare-mtpeval.md)<br/>[1 단계: 준비](prepare-mtpeval.md) |![2 단계: 설정](../../media/phase-diagrams/setup.png)<br/>2 단계: 설정 |[![3 단계: 온보드](../../media/phase-diagrams/onboard.png)](config-mtpeval.md)<br/>[3 단계: 온보드](config-mtpeval.md) | [![파일럿으로 돌아가기](../../media/phase-diagrams/backtopilot.png)](mtp-pilot.md)<br/>[파일럿 playbook 돌아가기](mtp-pilot.md) |
+|--|--|--|--|
+||*사용자가 여기 있어!*  | | |
 
-
-  </tr>
-</table>
 
 현재 설정 단계입니다. 초기 단계를 수행 하 여 Microsoft 365 보안 센터에 액세스 한 다음 평가판 랩 또는 파일럿 환경을 설정 합니다.
 
@@ -178,5 +158,5 @@ Microsoft 365 E5 라이선스를 등록 하는 데 사용할 수 있는 *onmicro
 
 
 ## <a name="next-step"></a>다음 단계
-|![3 단계: 온보드 & 구성](../../media/config-onboard.png) <br>[3 단계: 온보드 & 구성](config-mtpeval.md) | Microsoft 365 Defender 평가판 lab 또는 파일럿 환경에 대해 각 Microsoft 365 Defender를 구성 하 고 끝점을 등록 합니다.
+|[3 단계: 온보드 & 구성](config-mtpeval.md) | Microsoft 365 Defender 평가판 lab 또는 파일럿 환경에 대해 각 Microsoft 365 Defender를 구성 하 고 끝점을 등록 합니다.
 |:-------|:-----|

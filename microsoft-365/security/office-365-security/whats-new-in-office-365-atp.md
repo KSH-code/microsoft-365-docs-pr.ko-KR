@@ -20,12 +20,12 @@ ms.topic: conceptual
 ms.date: 10/09/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: e0801fb26b0bc7c4d37ab9455d9fcd2630f0fe51
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 5aa1d5fe14f6213931e089c2f97fcf06c96397b3
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842847"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131156"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 새로운 기능
 
@@ -34,12 +34,16 @@ ms.locfileid: "48842847"
 
 **적용 대상:**
 
-- [Microsoft Defender for Office 365](office-365-atp.md)
+- [Office 365용 Microsoft Defender](office-365-atp.md)
 
 이 문서에서는 최신 Microsoft Defender for Office 365의 새로운 기능을 소개 합니다. 현재 미리 보기 상태인 기능은 **(미리 보기)** 로 표시 됩니다.
 
 > [!TIP]
 > Microsoft Defender for Office 365이 아직 없습니까? [영업 담당자에 게 문의 하 여 평가판을 시작](https://go.microsoft.com/fwlink/p/?LinkId=518644)합니다.
+
+## <a name="november-2020"></a>11 월 2020 
+
+- 업데이트 된 내보내기 제한 사항 검토 > 관리 센터에서 메일 전송 및 작업 로그의 재구성 > 업데이트 (Office 365 계획 2)
 
 ## <a name="septemberoctober-2020"></a>9 월/10 월 2020 
 
@@ -75,11 +79,11 @@ ms.locfileid: "48842847"
 
 - [URL 내보내기 오프 라인 분석을 위한 데이터 클릭](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Microsoft Defender for Office 365 plan 1 또는 요금제 2)
 
-- [Microsoft defender For office 365 ( **preview** )의 캠페인 보기 사용](campaigns.md) (office 365 계획 2 용 microsoft defender)
+- [Microsoft defender For office 365 (**preview**)의 캠페인 보기 사용](campaigns.md) (office 365 계획 2 용 microsoft defender)
 
 ## <a name="november-2019"></a>2019년 11월
 
-- [새로운 손상 된 사용자 검색 및 응답 기능 확인](address-compromised-users-quickly.md) ( **Preview** ) (Microsoft Defender for Office 365 Plan 2)
+- [새로운 손상 된 사용자 검색 및 응답 기능 확인](address-compromised-users-quickly.md) (**Preview**) (Microsoft Defender for Office 365 Plan 2)
 
 ## <a name="september-2019"></a>2019년 9월
 
@@ -101,7 +105,7 @@ ms.locfileid: "48842847"
 
 - [피싱 url에 대 한 데이터를 보고 결과](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) (Microsoft Defender for Office 365 plan 1 또는 요금제 2)를 클릭 합니다.
 
-## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Microsoft Defender for Office 365 계획 1 및 계획 2
+## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Office 365용 Microsoft Defender 플랜 1 및 플랜 2
 
 Microsoft Defender for Office 365를 두 가지 계획으로 사용할 수 있다는 사실을 알고 계십니까? [각 계획에 포함 된 내용에 대해 자세히 알아보세요](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2).
 

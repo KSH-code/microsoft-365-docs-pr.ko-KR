@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: 5259c7b74446ad273ff9b1ae0baccd339e34baa3
-ms.sourcegitcommit: 89f56c3e0b619a4700a75a21927d9ffc90658632
+ms.openlocfilehash: 240ffd7ec8d46da33c43ec2f9cb50cf59c89f11b
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48984953"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131300"
 ---
 # <a name="configure-microsoft-365-defender-pillars-for-your-trial-lab-or-pilot-environment"></a>평가판 랩 또는 파일럿 환경에 대해 Microsoft 365 Defender 핵심 요소로 구성
 
@@ -38,29 +38,11 @@ ms.locfileid: "48984953"
 
 Microsoft 365 Defender 평가판 랩 또는 파일럿 환경을 만들고 배포 하는 과정은 다음 3 단계로 진행 됩니다.
 
-<br>
-<table border="0" width="100%" align="center">
-  <tr style="text-align:center;">
-    <td align="center" style="width:25%; border:0;" >
-      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval?view=o365-worldwide"> 
-        <img src="../../media/prepare.png" alt="Prepare your Microsoft 365 Defender trial lab or pilot environment" title="Microsoft 365 Defender 평가판 랩 또는 파일럿 환경 준비" />
-      <br/>1 단계: 준비 </a><br>
-    </td>
-     <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval?view=o365-worldwide">
-        <img src="../../media/setup.png" alt="Set up your Microsoft 365 Defender trial lab or pilot environment" title="Microsoft 365 Defender 평가판 랩 또는 파일럿 환경 설정" />
-      <br/>2 단계: 설치 </a><br>
-    </td>
-    <td align="center" bgcolor="#d5f5e3">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide">
-        <img src="../../media/config-onboard.png" alt="Configure & Onboard" title="Microsoft 365 Defender 평가판 lab 또는 파일럿 환경 및 온보드 끝점에 대해 각 Microsoft 365 Defender를 구성 합니다." />
-      <br/>3 단계: 온보드 & 구성 </a><br>
-</td>
-  </tr>
-</table>
+|[![1 단계: 준비](../../media/phase-diagrams/prepare.png)](prepare-mtpeval.md)<br/>[1 단계: 준비](prepare-mtpeval.md) |[![2 단계: 설정](../../media/phase-diagrams/setup.png)](setup-mtpeval.md)<br/>[2 단계: 설정](setup-mtpeval.md) |![3 단계: 온보드](../../media/phase-diagrams/onboard.png)<br/>3 단계: 온보드 | [![파일럿으로 돌아가기](../../media/phase-diagrams/backtopilot.png)](mtp-pilot.md)<br/>[파일럿 playbook 돌아가기](mtp-pilot.md) |
+|--|--|--|--|
+|| |*사용자가 여기 있어!* | |
 
 현재 구성 단계입니다.
-
 
 준비는 성공적인 배포의 핵심입니다. 이 문서에서는 Microsoft Defender for Endpoint 배포를 준비할 때 고려해 야 할 사항을 안내 합니다.
 
@@ -308,5 +290,5 @@ Microsoft 365 Defender는 4 가지 핵심 요소로로 구성 되어 있습니�
 다음으로, 공격을 시뮬레이트하고 상호 제품 기능 검색 방법, 알림을 만들고 끝점에 대 한 fileless 공격에 자동으로 대응 하는 방법을 확인할 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계
-|![공격 시뮬레이션 단계](../../media/mtp/run-sim.png) <br>[공격 시뮬레이션 단계](mtp-pilot-simulate.md) | Microsoft 365 Defender 파일럿 환경에 대 한 공격 시뮬레이션을 실행 합니다.
+|[공격 시뮬레이션 단계](mtp-pilot-simulate.md) | Microsoft 365 Defender 파일럿 환경에 대 한 공격 시뮬레이션을 실행 합니다.
 |:-------|:-----|

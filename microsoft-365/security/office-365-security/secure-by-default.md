@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection)의 보안 강화 설정에 대 한 자세한 정보
-ms.openlocfilehash: d4345134e98ae204f73dfb51a0abf5136590a24c
-ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
+ms.openlocfilehash: 9f676dcd89f0322792bd40e06879b9758082d94e
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49126664"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131100"
 ---
 # <a name="secure-by-default-in-office-365"></a>Office 365에서 기본적으로 보안
 
@@ -41,7 +41,7 @@ Exchange Online 사서함이 있는 Microsoft 365 조직은 EOP (Exchange Online
 1. 의심 스러운 맬웨어가 있는 전자 메일은 자동으로 격리 되 고 받는 사람에 게 알림이 제공 됩니다. [EOP에서 맬웨어 방지 정책 구성을](configure-anti-malware-policies.md)참조 하세요.
 1. "높은 신뢰도"로 식별 된 피싱 전자 메일은 스팸 방지 정책 작업에 따라 처리 됩니다. [EOP에서 스팸 방지 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
 
-Microsoft는 고객에 게 기본적으로 보안을 유지 하려고 하기 때문에 일부 테 넌 트 재정의는 맬웨어 또는 높은 신뢰도 피싱 적용 되지 않습니다. 이러한 재정의에는 다음이 포함 됩니다.
+Microsoft는 고객의 보안을 기본적으로 유지 하려고 하기 때문에 맬웨어 또는 높은 신뢰 피싱에 대해 일부 테 넌 트 재정의가 적용 되지 않습니다. 이러한 재정의에는 다음이 포함 됩니다.
 
 - 허용 된 보낸 사람 목록 또는 허용 된 도메인 목록 (스팸 방지 정책)
 - Outlook 수신 허용-보낸 사람

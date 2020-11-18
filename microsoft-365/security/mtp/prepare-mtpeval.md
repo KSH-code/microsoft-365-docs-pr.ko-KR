@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: a255c74db030325ba22c2095fba732a93b8c269c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 7149524de868a3670807556f5f423ba0ee4a772a
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844851"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131268"
 ---
 # <a name="prepare-your-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Microsoft 365 Defender 평가판 랩 또는 파일럿 환경 준비
 
@@ -35,37 +35,9 @@ ms.locfileid: "48844851"
 
 Microsoft 365 Defender 평가판 랩 또는 파일럿 환경을 만들고 배포 하는 과정은 다음 3 단계로 진행 됩니다.
 
-<br>
-<table border="0" width="100%" align="center">
-  <tr style="text-align:center;">
-    <td align="center" style="width:25%; border:0;" bgcolor="#d5f5e3">
-      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval"> 
-        <img src="../../media/prepare.png" alt="Prepare your Microsoft 365 Defender trial lab environment" title="Microsoft 365 Defender 평가판 랩 또는 파일럿 환경 준비" />
-      <br/>1 단계: 준비 </a><br>
-    </td>
-     <td align="center"  >
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval">
-        <img src="../../media/setup.png" alt="Set up your Microsoft 365 Defender trial lab environment" title="Microsoft 365 Defender 평가판 랩 또는 파일럿 환경 설정" />
-      <br/>2 단계: 설치 </a><br>
-        </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval">
-        <img src="../../media/config-onboard.png" alt="Configure each Microsoft 365 Defender pillar" title="각 Microsoft 365 Defender 기둥을 구성 하 고 끝점을 온보드" />
-      <br/>3 단계: 온보드 & 구성</a><br>
-</td>
-  </tr>
-  <tr>
-    <td style="width:25%; border:0;">
-   
-    </td>
-    <td valign="top" style="width:25%; border:0;">
-    
-</td>
-    <td valign="top" style="width:25%; border:0;">
-
-</td>    
-  </tr>
-</table>
+|![1 단계: 준비](../../media/phase-diagrams/prepare.png)<br/>1 단계: 준비 |[![2 단계: 설정](../../media/phase-diagrams/setup.png)](setup-mtpeval.md)<br/>[2 단계: 설정](setup-mtpeval.md) |[![3 단계: 온보드](../../media/phase-diagrams/onboard.png)](config-mtpeval.md)<br/>[3 단계: 온보드](config-mtpeval.md) | [![파일럿으로 돌아가기](../../media/phase-diagrams/backtopilot.png)](mtp-pilot.md)<br/>[파일럿 playbook 돌아가기](mtp-pilot.md) |
+|--|--|--|--|
+|*사용자가 여기 있어!* | || |
 
 현재 준비 단계입니다.
 
@@ -89,7 +61,7 @@ Microsoft 365 Defender를 프로 비전 하 고 사용 하기 위한 라이선�
 
 -   I =이 프로젝트에 대 한 정보
 
-| 이름                 | 역할                                                                                                                                                                                                          | 작업 |
+| 이름                 | 역할                                                                                                                                                                                                          | 조치 |
 |----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
 | 이름 및 전자 메일 입력 | **최고 정보 보안 담당자 (CISO)** *새 기술 배포를 위해 조직 내에서 스폰서 역할을 하는 임원 담당자입니다.*                                                  | 하면     |
 | 이름 및 전자 메일 입력 | **사이버 (cdoc)의 머리** *이 변경 내용이 고객 보안 운영 팀의 프로세스와 부합 되는 방식을 정의 하는 방법을 담당 하는 cdoc 팀의 대표입니다.*       | 하면     |
@@ -100,7 +72,7 @@ Microsoft 365 Defender를 프로 비전 하 고 사용 하기 위한 라이선�
 ## <a name="prepare-your-azure-active-directory"></a>Azure Active Directory 준비
 Active Directory와 Azure Active Directory 간의 동기화를 이미 사용 하도록 설정한 경우에는이 단계를 건너뜁니다. Azure Active Directory에서 기존 모범 사례 설명서를 검토 합니다. 다음 단계는 파일럿 Microsoft 365 Defender 프로젝트를 평가 하거나 실행 하도록 최적화 되어 있습니다.
 
-1. Azure **AD Connect** > [azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade) 포털로 이동 합니다. 
+1. Azure **AD Connect**> [azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade) 포털로 이동 합니다. 
 ![Azure Active Directory 포털 페이지 이미지](../../media/mtp-eval-1.png) <br> 
 
 2. **Microsoft Azure Active Directory Connect** 에서 **다운로드** 를 클릭 하 고 도메인 컨트롤러로 전송 합니다.
@@ -132,8 +104,8 @@ Active Directory와 Azure Active Directory 간의 동기화를 이미 사용 하
 
 | 구성 요소                               | 설명                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | 구성 순서 순위 |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-|Microsoft Defender for Office 365|Microsoft Defender for Office 365는 전자 메일 메시지, 링크 (Url) 및 공동 작업 도구로 인해 야기 되는 악의적인 위협 으로부터 조직을 보호 합니다. <br> [더 알아보세요.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)                                                                                                                                                                                                                                             | 1                    |
-|ID용 Microsoft Defender|Id 용 Microsoft Defender는 Active Directory 신호를 사용 하 여 조직에서 진행 되는 고급 위협, 손상 된 id 및 악의적인 참가자 작업을 식별, 감지 및 조사 합니다. <br> [자세한 정보](https://docs.microsoft.com/azure-advanced-threat-protection/)| 2 |
+|Office 365용 Microsoft Defender|Office 365용 Microsoft Defender는 전자 메일 메시지, 링크 (URL) 및 공동 작업 도구로 인한 악의적인 위협으로부터 조직을 보호합니다. <br> [더 알아보세요.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)                                                                                                                                                                                                                                             | 1                    |
+|ID용 Microsoft Defender|Id 용 Microsoft Defender는 Active Directory 신호를 사용 하 여 조직에서 진행 되는 고급 위협, 손상 된 id 및 악의적인 참가자 작업을 식별, 감지 및 조사 합니다. <br> [자세한 정보](https://docs.microsoft.com/azure-advanced-threat-protection/)| 2  |
 |Microsoft Cloud App Security| Microsoft Cloud App Security는 여러 클라우드에서 작동 하는 "CASB (Cloud Access Security Broker)"입니다. 이를 통해 다양 한 가시성, 데이터 이동에 대 한 제어, 모든 클라우드 서비스에서 cyberthreats을 식별 하 고 공격 하는 정교한 분석이 제공 됩니다. <br> [자세한 정보](https://docs.microsoft.com/cloud-app-security/)                                                                                                                                                                                                                                                                                                                                                                       |3(sp3)                   |
 |엔드포인트용 Microsoft Defender | 끝점 끝점 검색 및 응답 기능은 Microsoft Defender를 사용 하 여 실시간이 고 적합 한 고급 공격 감지를 제공 합니다. 보안 분석가는 알림에 효과적으로 우선 순위를 지정하고, 침해의 전체 범위에 대한 가시성을 확보하고 위협을 수정하기 위한 대응 조치를 취할 수 있습니다. <br> [더 알아보세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |4                    |                                                                                                                                                                                                                                    
 

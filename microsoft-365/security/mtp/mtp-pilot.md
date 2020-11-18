@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-overview
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 350904022ec86acdbebf109dd5946598643aea83
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 50f334a055a5bd974f9ea1f39c8fa38d44be9c26
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843663"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131287"
 ---
 # <a name="run-your-pilot-microsoft-365-defender-project"></a>파일럿 Microsoft 365 Defender 프로젝트 실행 
 
@@ -56,7 +56,7 @@ Microsoft 365 Defender는 여러 끝점, id, 전자 메일 및 응용 프로그�
 
 다음의 시간 표시 막대는 환경에 적절 한 리소스가 있는 경우에 따라 달라 집니다. 일부 검색 및 워크플로에는 다른 일부 사용자 보다 더 많은 학습 시간이 필요할 수 있습니다.
 
-![Microsoft 365 Defender 파일럿 실행의 샘플 시간 표시줄](../../media/pilotimeline.png)
+![Microsoft 365 Defender 파일럿 실행의 샘플 시간 표시줄](../../media/phase-diagrams/pilot-phases.png)
 
 >[!IMPORTANT]
 >최적의 결과를 위해 파일럿 지침을 최대한 면밀 하 게 따릅니다.
@@ -68,11 +68,11 @@ Microsoft 365 Defender 파일럿을 실행 하는 데는 다음과 같은 네 �
 
 |단계 | 설명 | 
 |:-------|:-----|
-| ![계획](../../media/mtp/plan.png)<br>[계획](mtp-pilot-plan.md)| Microsoft 365 Defender 파일럿 프로젝트를 실행 하기 전에 고려해 야 할 사항에 대해 알아봅니다. <br><br>-범위 <br> -사용 사례 <br>- 요구 사항 <br>-테스트 계획 <br> -성공 조건 <br> -성과 기록표 
-| ![미리](../../media/mtp/prep.png) <br>[미리](mtp-evaluation.md)|  Microsoft 365 보안 센터에 액세스 하 여 Microsoft 365 Defender 파일럿 환경을 설정 합니다. 다음을 안내 합니다.<br><br>-관련자 식별 및 파일럿에 대 한 승인 찾기 <br> -환경 고려 사항 <br>-액세스 <br>-Azure Active Directory 설치 <br> -구성 순서 <br> -Microsoft 365 E5 평가판 등록 <br> -도메인 구성 <br>-Microsoft 365 E5 라이선스 할당 <br> -포털에서 설치 마법사 완료|
-| ![공격 시뮬레이션](../../media/mtp/run-sim.png) <br>[공격 시뮬레이션](mtp-pilot-simulate.md) | 공격을 시뮬레이트하기 위해 다음을 안내 합니다.<br><br>-테스트 환경 요구 사항 확인 <br>-시뮬레이션을 실행 합니다. <br>-문제 조사 <br>-인시던트를 해결 합니다. 
-| ![맺음말 및 요약](../../media/mtp/close.png) <br>[맺음말 및 요약](mtp-pilot-close.md) | 프로세스의 끝에 도달 하면 다음을 안내 합니다.<br><br>-최종 출력으로 이동<br>-결과를 이해 관계자에 게 제공 <br>-사용자 의견 제공 <br>-다음 단계 수행 
+| [계획](mtp-pilot-plan.md)<br> ~ 1 일| Microsoft 365 Defender 파일럿 프로젝트를 실행 하기 전에 고려해 야 할 사항에 대해 알아봅니다. <br><br>-범위 <br> -사용 사례 <br>- 요구 사항 <br>-테스트 계획 <br> -성공 조건 <br> -성과 기록표 
+| [미리](mtp-evaluation.md) <br>~ 2 일|  Microsoft 365 보안 센터에 액세스 하 여 Microsoft 365 Defender 파일럿 환경을 설정 합니다. 다음을 안내 합니다.<br><br>-관련자 식별 및 파일럿에 대 한 승인 찾기 <br> -환경 고려 사항 <br>-액세스 <br>-Azure Active Directory 설치 <br> -구성 순서 <br> -Microsoft 365 E5 평가판 등록 <br> -도메인 구성 <br>-Microsoft 365 E5 라이선스 할당 <br> -포털에서 설치 마법사 완료|
+| [공격 시뮬레이션](mtp-pilot-simulate.md) <br>~ 2 일| 공격을 시뮬레이트하기 위해 다음을 안내 합니다.<br><br>-테스트 환경 요구 사항 확인 <br>-시뮬레이션을 실행 합니다. <br>-문제 조사 <br>-인시던트를 해결 합니다. 
+| [맺음말 및 요약](mtp-pilot-close.md) <br>~ 1 일| 프로세스의 끝에 도달 하면 다음을 안내 합니다.<br><br>-최종 출력으로 이동<br>-결과를 이해 관계자에 게 제공 <br>-사용자 의견 제공 <br>-다음 단계 수행 
 
 ## <a name="next-step"></a>다음 단계
-|![계획 단계](../../media/mtp/plan.png) <br>[계획 단계](mtp-pilot-plan.md) | Microsoft 365 Defender 파일럿 프로젝트 계획 
+|[계획 단계](mtp-pilot-plan.md) | Microsoft 365 Defender 파일럿 프로젝트 계획 
 |:-------|:-----|

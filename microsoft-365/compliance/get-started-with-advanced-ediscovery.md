@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 Microsoft 365에서 고급 eDiscovery 사용을 시작 하는 방법을 설명 합니다. 몇 가지 빠른 단계를 완료 한 후에는 고급 eDiscovery 도구를 사용할 준비가 된 것입니다. 첫 번째 단계는 사례를 만든 다음 고급 eDiscovery 기능 및 기능 사용을 시작 하는 것입니다.
-ms.openlocfilehash: 59537499ed52f44a9d32b8921fd297c5cd7c0d3f
-ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
+ms.openlocfilehash: 13a4bfac34201e81ba13b76791e097891409dd0b
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944336"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130843"
 ---
 # <a name="get-started-with-advanced-ediscovery"></a>Advanced eDiscovery 시작
 
@@ -68,7 +68,7 @@ Microsoft 365의 고급 eDiscovery는 조직의 내부 및 외부 조사에 응�
 
 3. EDiscovery 관리자 플라이 아웃 페이지에서 **Ediscovery 관리자** 섹션 옆에 있는 **편집** 을 클릭 합니다.
 
-4. 역할 그룹 편집 마법사의 **EDiscovery 관리자 선택** 페이지에서 **검색 관리자 선택을** 클릭 합니다.
+4. 역할 그룹 편집 마법사의 **Ediscovery 관리자 선택** 페이지에서 **ediscovery 관리자 선택을** 클릭 합니다.
 
 5. **추가** 를 클릭 한 다음 역할 그룹에 추가 하려는 모든 사용자의 확인란을 선택 합니다.
 
@@ -107,7 +107,7 @@ Ediscovery 권한 및 eDiscovery 관리자 역할 그룹에 할당 된 각 역�
 
 다음 단계에서는 사례를 만들고 고급 eDiscovery를 사용 하 여 시작 합니다. 사례를 만들고 구성원을 추가 하려면 다음 단계를 완료 합니다. 서비스 케이스를 만드는 사용자는 자동으로 구성원으로 추가 됩니다.
 
-1. 적절 한 [https://compliance.microsoft.com](https://compliance.microsoft.com) eDiscovery 권한이 할당 된 사용자 계정에 대 한 자격 증명을 사용 하 여으로 이동 하 여 로그인 합니다. 또한 조직 관리 역할 그룹의 구성원은 고급 eDiscovery 사례를 만들 수 있습니다.
+1. 로 이동 하 여 [https://compliance.microsoft.com](https://compliance.microsoft.com) 적절 한 eDiscovery 권한이 할당 된 사용자 계정으로 로그인 합니다. 또한 조직 관리 역할 그룹의 구성원은 고급 eDiscovery 사례를 만들 수 있습니다.
 
 2. Microsoft 365 준수 센터의 왼쪽 탐색 창에서 **모두 표시** 를 클릭 한 다음 **eDiscovery > 고급** 을 클릭 합니다.
 
@@ -117,7 +117,7 @@ Ediscovery 권한 및 eDiscovery 관리자 역할 그룹에 할당 된 각 역�
 
 5. **저장** 을 클릭 하 여 사례를 만듭니다.
 
-   새 사례가 만들어지고 새 사례의 **설정** 탭이 표시 됩니다. 
+   새 사례가 만들어지고 새 사례의 **설정** 탭이 표시 됩니다.
 
 6. **액세스 & 사용 권한** 타일의 **설정** 탭에서 **선택을** 클릭 한 다음 **업데이트** 를 클릭 합니다.
 
@@ -167,12 +167,12 @@ Ediscovery 권한 및 eDiscovery 관리자 역할 그룹에 할당 된 각 역�
 
    - [문서를 봅니다](view-documents-in-review-set.md). 여기에는 검토 집합의 각 문서에 대 한 메타 데이터 보기 및 해당 기본 버전 또는 텍스트 버전에서 문서 보기 등이 포함 됩니다.
 
-   - [쿼리 및 필터를 만듭니다](review-set-search.md). 모든 [파일 메타 데이터 속성](document-metadata-fields-in-advanced-ediscovery.md)을 검색 하는 기능을 비롯 한 다양 한 검색 조건을 사용 하 여 검색 쿼리를 만들면 사례 데이터를 사례에 가장 적합 한 cull 합니다. 또한 검토 집합 필터를 사용 하 여 검색 쿼리 결과에 추가 조건을 빠르게 적용 하 여 이러한 결과를 보다 구체화할 수 있습니다. 
+   - [쿼리 및 필터를 만듭니다](review-set-search.md). 모든 [파일 메타 데이터 속성](document-metadata-fields-in-advanced-ediscovery.md)을 검색 하는 기능을 비롯 한 다양 한 검색 조건을 사용 하 여 검색 쿼리를 만들면 사례 데이터를 사례에 가장 적합 한 cull 합니다. 또한 검토 집합 필터를 사용 하 여 검색 쿼리 결과에 추가 조건을 빠르게 적용 하 여 이러한 결과를 보다 구체화할 수 있습니다.
 
    - [태그를 만들고 사용](tagging-documents.md)합니다. 검토 집합의 문서에 태그를 적용 하 여 응답 하는 (또는 해당 사례에 응답 하지 않음)를 식별 한 다음 검색 쿼리를 작성 하 여 태그가 지정 된 문서를 포함 하거나 제외할 때 해당 태그를 사용할 수 있습니다. 또한 태그를 지정 하 여 내보낼 문서를 결정할 수도 있습니다.
 
-   - [문서에 주석을 달고 교정](view-documents-in-review-set.md#annotate-view)합니다. 검토에서 주석 도구를 사용 하 여 문서에 주석을 달고 문서 내용을 작업 산출물로 교정 하는 데 사용할 수 있습니다. 검토 중에 PDF 버전의 주석이 지정 되거나 redacted 문서를 생성 하 여 unredacted 네이티브 버전의 문서를 내보낼 위험을 줄입니다.
+   - [문서에 주석을 달고 교정](view-documents-in-review-set.md#annotate-view)합니다. 검토에서 주석 도구를 사용 하 여 문서에 주석을 달고 문서 내용을 작업 산출물로 교정 하는 데 사용할 수 있습니다. 검토 중에 PDF 버전의 주석이 지정 되거나 redacted 문서를 생성 하 여 redacted 네이티브 버전의 문서를 내보낼 위험을 줄입니다.
 
-   - [사례 데이터를 분석](analyzing-data-in-review-set.md)합니다. 고급 eDiscovery의 분석 기능은 강력 합니다. 검토 설정에서 데이터에 대 한 분석을 실행 한 후에는 검토 해야 하는 문서 크기를 줄이는 데 도움이 될 수 있는 유사 중복 검색, 전자 메일 스레딩 및 테마와 같은 분석을 수행 합니다. 또한 실행 중인 분석 결과를 요약 한 분석 보고서도 생성 합니다. 앞에서 설명한 것 처럼 실행 분석 [은 변호사 클라이언트 권한 검색 모델](attorney-privilege-detection.md#use-the-attorney-client-privilege-detection-model)도 실행 합니다.
+   - [사례 데이터를 분석](analyzing-data-in-review-set.md)합니다. 고급 eDiscovery의 분석 기능은 강력 합니다. 고급 eDiscovery에서는 검토 집합에서 검토할 문서 크기를 더 줄이기 위해 문서를 분석할 수 있는 다양 한 도구를 제공 합니다. 또한 실행 중인 분석 결과를 요약 한 분석 보고서가 생성 됩니다. 앞에서 설명한 것 처럼 실행 분석 [은 변호사 클라이언트 권한 검색 모델](attorney-privilege-detection.md#use-the-attorney-client-privilege-detection-model)도 실행 합니다.
 
 5. **사례 데이터를 내보내고 다운로드** 합니다. 사례 데이터를 수집 하 고, 검토 하 고, 분석 한 후 마지막 단계는 조사 팀 외부의 사용자가 외부를 검토 하거나 검토할 수 있도록 고급 eDiscovery에서이를 내보내는 것입니다. 데이터 내보내기는 두 단계로 진행 됩니다. 첫 번째 단계는 검토 집합에서 데이터를 [내보내고](export-documents-from-review-set.md) 이를 다른 Azure 저장소 위치 (Microsoft에서 제공 하거나 조직에서 관리 하는 위치로)로 복사 하는 것입니다. 그런 다음 Azure Storage Explorer를 사용 하 여 로컬 컴퓨터에 데이터를 [다운로드](download-export-jobs.md) 합니다. 내보낸 데이터 파일 외에도 내보내기 패키지의 포함에는 내보내기 보고서, 요약 보고서 및 오류 보고서가 포함 되어 있습니다.

@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: ec2bfe52308231577e4f2749e1f4cdf24a36f604
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 4420342f964564305bb113c45ee0e3107f8a822e
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846023"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130984"
 ---
 # <a name="planning-your-pilot-microsoft-365-defender-project"></a>파일럿 Microsoft 365 Defender 프로젝트 계획 
 
@@ -34,45 +34,10 @@ ms.locfileid: "48846023"
 
 **적용 대상:**
 - Microsoft 365 Defender
-<br>
-<table border="0" width="100%" align="center">
-  <tr style="text-align:center;">
-    <td align="center" style="width:25%; border:0;" bgcolor="#d5f5e3">
-      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
-        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft 365 Defender project" title="파일럿 Microsoft 365 Defender 프로젝트 계획" />
-      <br/>계획</a><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">
-        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft 365 Defender trial lab or pilot environment" title="Microsoft 365 Defender 평가판 랩 또는 파일럿 환경 준비" />
-      <br/>준비</a><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate">
-        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft 365 Defender attack simulations" title="Microsoft 365 Defender attack 시뮬레이션 실행" />
-     <br/>공격 시뮬레이션</a><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-close">
-        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft 365 Defender pilot" title="Microsoft 365 Defender 파일럿을 닫고 요약 합니다." />
-     <br/>닫기 및 요약</a><br>
-    </td>
-  </tr>
-  <tr>
-    <td style="width:25%; border:0;">
-   
-    </td>
-    <td valign="top" style="width:25%; border:0;">
-    
-</td>
-    <td valign="top" style="width:25%; border:0;">
 
-</td>    
-    <td valign="top" style="width:25%; border:0;">
-
-</td>
-  </tr>
-</table>
+|![계획](../../media/phase-diagrams/1-planning.png)<br/>계획|[![준비](../../media/phase-diagrams/2-prepare.png)](prepare-mtpeval.md)<br/>[미리](prepare-mtpeval.md) | [![공격 시뮬레이션](../../media/phase-diagrams/3-simluate.png)](mtp-pilot-simulate.md)<br/>[공격 시뮬레이션](mtp-pilot-simulate.md) | [![닫기 및 요약](../../media/phase-diagrams/4-summary.png)](mtp-pilot-close.md)<br/>[닫기 및 요약](mtp-pilot-close.md)|
+|--|--|--|--|
+|*사용자가 여기 있어!*| | | |
 
 현재 계획 단계입니다.
 
@@ -97,7 +62,7 @@ ms.locfileid: "48846023"
 
 ## <a name="use-cases"></a>사용 사례
 
-사용 사례는 테스트 중인 도구를 의도 한 사용자가 소비 하는 방식에 대 한 설명을 나타냅니다. 이러한 요소는 SOC 분석가와 같은 특정 가상 사용자의 관점에서 사용자 스토리로 사용 될 수 있습니다. 예:
+사용 사례는 테스트 중인 도구를 의도 한 사용자가 소비 하는 방식에 대 한 설명을 나타냅니다. 이러한 요소는 SOC 분석가와 같은 특정 가상 사용자의 관점에서 사용자 스토리로 사용 될 수 있습니다. 예시:
 - SOC 분석가는 내 네트워크의 장치, 사용자 및 사서함에서 알림 및 이벤트를 확인, 상관 관계, 평가 및 관리 해야 합니다. [인시던트 관리]
 - SOC 분석가는 내 네트워크의 악의적인 이벤트를 자동으로 조사 하 고 대응 하기 위해 도구와 프로세스를 수행 해야 합니다. [자동 IR]
 - SOC 분석가는 필자의 환경에서 알려진 문제 및 잠재적인 위협과 의심 스러운 활동을 찾기 위해 환경의 데이터를 검색 해야 합니다. [고급 구하기]
@@ -120,7 +85,7 @@ ms.locfileid: "48846023"
 
 계획의 모든 요소를 함께 가져오는 한 가지 방법으로 성과 기록표를 만들 수 있습니다. 아래의 샘플 성과 기록표를 참조 하세요.
 
-| 사용 사례 | 요구 사항 | 구성 요구 사항 | 테스트 계획 | 예상 결과 | 테스트 상태 | 점수 | 참고 |
+| 사용 사례 | 요구 사항 | 구성 요구 사항 | 테스트 계획 | 예상 결과 | 테스트 상태 | 점수 | 메모들 |
 |:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
 |사건 관리|-Microsoft 365 Defender  </br></br>-Id 용 Microsoft Defender </br></br>-끝점에 대 한 Microsoft Defender </br></br>-Microsoft Cloud App Security (선택 사항)|자세한 내용은 준비, 설정 및 구성을 위한 [필수 구성 요소](https://aka.ms/mtp-trial-lab) 를 참조 하세요. |[공격 시뮬레이션](mtp-pilot-simulate.md) <br></br>[문제 조사](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate#investigate-an-incident) |Investigators는 사고의 범위와 영향을 이해 하 고 인시던트를 관리할 수 있습니다.||||
 |AutoIR|-Microsoft 365 Defender </br></br>-Id 용 Microsoft Defender </br></br>-끝점에 대 한 Microsoft Defender |자세한 내용은 준비, 설정 및 구성을 위한 [필수 구성 요소](https://aka.ms/mtp-trial-lab) 를 참조 하세요. <br>AutoIR 사용  |[공격 시뮬레이션](mtp-pilot-simulate.md) <br></br>[자동화 된 조사](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#automated-investigation-and-remediation) |경고 및 인시던트는 Microsoft 365 Defender에서 자동으로 재구성 됩니다.||||
