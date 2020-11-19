@@ -13,13 +13,13 @@ localization_priority: Priority
 search.appverid:
 - MOE150
 - MET150
-description: Microsoft 365의 Microsoft 정보 거버넌스 기능을 구현하여 규정 준수 또는 규제 요구 사항에 대한 데이터를 관리합니다.
-ms.openlocfilehash: c85fd74f0e3259c40f16bc2faa766b3313239134
-ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
+description: Microsoft 정보 거버넌스 기능을 구현하여 규정 준수 또는 규제 요구 사항에 대한 데이터를 관리합니다.
+ms.openlocfilehash: 6b06de54f18ce4081c3b13d108a5c0ceae6d24a7
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49071469"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087117"
 ---
 # <a name="microsoft-information-governance-in-microsoft-365"></a>Microsoft 365의 Microsoft 정보 거버넌스
 
@@ -29,7 +29,7 @@ Microsoft 정보 거버넌스(MIG) 기능을 사용하여 규정 준수 또는 �
 
 ![데이터 관리 - 정보 거버넌스 및 레코드 관리](../media/information-governance-records-management.png)
 
-데이터 보호에 대해 찾고 있으신가요? [Microsoft 365의 Microsoft 정보 보호](information-protection.md)를 참조하세요.
+데이터 보호가 필요하신가요? [Microsoft 365의 Microsoft Information Protection](information-protection.md)을 참조하세요.
 
 ## <a name="information-governance"></a>정보 거버넌스
 
