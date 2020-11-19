@@ -21,12 +21,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e5ac3e9a02c333d3168c328aa6ad5532c48af99e
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 6149b6f128b3c96d2338e325caa8df835c292b13
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846691"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357614"
 ---
 # <a name="incidents-overview-in-microsoft-365-defender"></a>Microsoft 365 Defender의 문제 개요
 
@@ -36,6 +36,8 @@ ms.locfileid: "48846691"
 **적용 대상:**
 - Microsoft 365 Defender
 
+> Microsoft 365 Defender를 경험해 원하십니까? [랩 환경에서이를 평가](https://aka.ms/mtp-trial-lab) 하거나 [프로덕션에서 파일럿 프로젝트를 실행할](https://aka.ms/m365d-pilotplaybook)수 있습니다.
+>
 
 
 인시던트는 관련 경고에 따라 달라 집니다. 네트워크에서 악성 이벤트 또는 활동이 발견되면 경고가 만들어집니다. 개별 알림은 진행 중인 공격에 대 한 귀중 한 단서를 제공 합니다. 그러나 일반적으로 공격에서는 다양 한 벡터와 기법을 사용 하 여 위반을 수행 합니다. 개별 단서를 함께 사용 하는 것은 Piecing 시간이 많이 소요 될 수 있습니다.

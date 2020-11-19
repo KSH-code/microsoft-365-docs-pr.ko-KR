@@ -20,12 +20,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365용 Microsoft Defender에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
-ms.openlocfilehash: c102948ff66a6362a1adb60734629b79e7eb7ad5
-ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
+ms.openlocfilehash: 11b6445e17fc870c2999ddb56715b0c5cee5b5fc
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49021112"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357710"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender
 
@@ -37,29 +37,29 @@ ms.locfileid: "49021112"
 
 Office 365용 Microsoft Defender는 전자 메일 메시지, 링크 (URL) 및 공동 작업 도구로 인한 악의적인 위협으로부터 조직을 보호합니다. Office 365용 Defender는 다음 사항을 포함합니다.
 
-- **[위협 방지 정책](#configure-microsoft-defender-for-office-365-policies)** : 위협 방지 정책을 정의하여 조직에 맞는 적절한 수준의 보호를 설정합니다.
+- **[위협 방지 정책](#configure-microsoft-defender-for-office-365-policies)**: 위협 방지 정책을 정의하여 조직에 맞는 적절한 수준의 보호를 설정합니다.
 
-- **[보고서](#view-microsoft-defender-for-office-365-reports)** : 조직의 Office 365용 Defender 성능을 모니터링하는 실시간 보고서를 볼 수 있습니다.
+- **[보고서](#view-microsoft-defender-for-office-365-reports)**: 조직의 Office 365용 Defender 성능을 모니터링하는 실시간 보고서를 볼 수 있습니다.
 
-- **[위협 조사 및 응답 기능](#use-threat-investigation-and-response-capabilities)** : 최신 도구를 사용하여 위협의 조사, 이해, 시뮬레이션 및 예방 등을 할 수 있습니다.
+- **[위협 조사 및 응답 기능](#use-threat-investigation-and-response-capabilities)**: 최신 도구를 사용하여 위협의 조사, 이해, 시뮬레이션 및 예방 등을 할 수 있습니다.
 
-- **[자동화된 조사 및 응답 기능](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)** : 위협에 대한 조사 및 위협을 낮추기 위한 시간과 노력을 줄입니다.
+- **[자동화된 조사 및 응답 기능](office-365-air.md)**: 위협에 대한 조사 및 위협을 낮추기 위한 시간과 노력을 줄입니다.
 
 ## <a name="getting-started"></a>시작
 
 Office 365용 Microsoft Defender가 처음이거나 *사용하면서* 배우기 가장 적합한 경우에는 초기 Office 365용 Defender 구성을 청크로 나눈 다음 이 문서를 참조로 사용하여 보고서를 조사 및 검토하는 것이 좋습니다. 아래에는 논리적 초기 구성 덩어리가 나와 있습니다.
 
-- 이름에 ' *방지* '가 포함 된 모든 항목에 구성
-    - 밸웨어 방지
-    - 피싱 방지
-    - 스팸 방지
-- 이름에 ' *안전한* '을 사용한 모등 항목에 설정
-    - 안전한 링크
-    - 안전한 첨부 파일
-- 작업을 방어할 때 (예: SharePoint Online, OneDrive 및 Teams) 
+- 이름에 '*방지*'가 포함 된 모든 항목에 구성
+  - 밸웨어 방지
+  - 피싱 방지
+  - 스팸 방지
+- 이름에 '*안전한*'을 사용한 모등 항목에 설정
+  - 안전한 링크
+  - 안전한 첨부 파일
+- 작업을 방어할 때 (예: SharePoint Online, OneDrive 및 Teams)
 - ZAP로 보호
 
-이 작업을 수행하여 자세한 내용을 보려면 [링크를 클릭](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide&preserve-view=true). 
+이 작업을 수행하여 자세한 내용을 보려면 [링크를 클릭](protect-against-threats.md).
 
 > [!NOTE]
 > Office 365용 Microsoft Defender는 두 가지 다른 플랜 유형으로 제공됩니다. ‘실시간 감지’를 가지고 있으면 **플랜 1** 이고 위협 탐색기를 가지고 있으면 **플랜2** 입니다. 어떤 플랜을 가지고 있는지 여부는 사용자에게 보여지는 도구에 영향을 미치기 때문에 배우는 동안 어떤 플랜을 가지고 있는지에 대해서 유의하세요.
@@ -72,7 +72,7 @@ Office 365용 Microsoft Defender가 처음이거나 *사용하면서* 배우기 
 
 |Office 365용 Microsoft Defender 플랜 1|Office 365용 Microsoft Defender 플랜 2|
 |---|---|
-|<br/>구성, 보호 및 검색 기능: <ul><li>[안전한 첨부 파일](atp-safe-attachments.md)</li><li>[안전한 링크](atp-safe-links.md)</li><li>[SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](atp-for-spo-odb-and-teams.md)</li><li>[Office 365용 Defender 보호의 피싱 방지](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[실시간 탐지](threat-explorer.md)</li></ul>|Office 365용 Microsoft Defender 플랜 1 기능<br/>--- 추가 ---<br/>자동화, 조사, 수정 및 교육 기능:</li><li>[위협 트래커](threat-trackers.md)</li><li>[위협 탐색기](threat-explorer.md)</li><li>[자동화된 조사 및 응답](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)</li><li>[공격 시뮬레이터](attack-simulator.md)</li></ul>|
+|<br/>구성, 보호 및 검색 기능: <ul><li>[안전한 첨부 파일](atp-safe-attachments.md)</li><li>[안전한 링크](atp-safe-links.md)</li><li>[SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](atp-for-spo-odb-and-teams.md)</li><li>[Office 365용 Defender 보호의 피싱 방지](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[실시간 탐지](threat-explorer.md)</li></ul>|Office 365용 Microsoft Defender 플랜 1 기능<br/>--- 추가 ---<br/>자동화, 조사, 수정 및 교육 기능:</li><li>[위협 트래커](threat-trackers.md)</li><li>[위협 탐색기](threat-explorer.md)</li><li>[자동화된 조사 및 응답](office-365-air.md)</li><li>[공격 시뮬레이터](attack-simulator.md)</li></ul>|
 |
 
 - Office 365용 Microsoft Defender 플랜 2는 Office 365 E5, Office 365 A5, Microsoft 365 E5 보안 및 Microsoft 365 E5에 포함되어 있습니다.
@@ -87,7 +87,7 @@ Office 365용 Microsoft Defender가 처음이거나 *사용하면서* 배우기 
 
 ## <a name="configure-microsoft-defender-for-office-365-policies"></a>Office 365용 Microsoft Defender 정책 구성
 
-Office 365용 Microsoft Defender를 사용하여 조직의 보안팀은 보안 및 준수 센터에서 정책을 정의하여 보호를 구성할 수 있습니다.( [https://protection.office.com](https://protection.office.com) > **위협 관리** > **정책** 으로 이동하세요.)
+Office 365용 Microsoft Defender를 사용하여 조직의 보안팀은 보안 및 준수 센터에서 정책을 정의하여 보호를 구성할 수 있습니다.([https://protection.office.com](https://protection.office.com) > **위협 관리** > **정책** 으로 이동하세요.)
 
 > [!TIP]
 > 정의할 정책의 빠른 목록을 보려면 [위협으로부터 보호](protect-against-threats.md)를 참조하세요.
@@ -96,13 +96,13 @@ Office 365용 Microsoft Defender를 사용하여 조직의 보안팀은 보안 �
 
 조직에 정의된 정책에 따라 미리 정의된 위협에 대한 동작 및 보호 수준이 결정됩니다. 정책 옵션은 매우 유동적입니다. 예를 들어 조직의 보안팀은 사용자, 조직, 수신자 및 도메인 수준에서 세분화된 위협 방지를 설정할 수 있습니다. 새로운 위협과 문제점이 매일 발생하므로 정책을 정기적으로 검토하는 것이 중요합니다.
 
-- **[안전한 첨부 파일](atp-safe-attachments.md)** : 전자 메일의 첨부 파일에 악성 콘텐츠가 있는지 확인하여 메시지 시스템을 보호하는 제로 데이 보호 기능을 제공합니다. 바이러스/맬웨어 서명이 없는 모든 메시지 및 첨부 파일을 특수 환경으로 경로 지정한 다음 기계 학습 및 분석 기법을 사용하여 악의적인 의도를 탐지합니다. 의심스러운 활동이 없는 경우 메시지가 사서함으로 전달됩니다. 자세한 내용은 [안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md)을 참조하세요.
+- **[안전한 첨부 파일](atp-safe-attachments.md)**: 전자 메일의 첨부 파일에 악성 콘텐츠가 있는지 확인하여 메시지 시스템을 보호하는 제로 데이 보호 기능을 제공합니다. 바이러스/맬웨어 서명이 없는 모든 메시지 및 첨부 파일을 특수 환경으로 경로 지정한 다음 기계 학습 및 분석 기법을 사용하여 악의적인 의도를 탐지합니다. 의심스러운 활동이 없는 경우 메시지가 사서함으로 전달됩니다. 자세한 내용은 [안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md)을 참조하세요.
 
 - **[안전한 링크](atp-safe-links.md)** 전자 메일 메시지 및 Office 파일 등에서 URL의 클릭시간 확인기능을 제공합니다. 보호가 진행 중이며 메시징 및 Office 환경에 적용됩니다. 클릭 할 때마다 링크가 검색됩니다. 안전한 링크는 계속 액세스할 수 있으며 악성 링크는 동적으로 차단됩니다. 자세한 내용은 [안전한 링크 정책 설정](set-up-atp-safe-links-policies.md)을 참조하세요.
 
-- **[SharePoint, OneDrive 및 Microsoft Teams용 ATP](atp-for-spo-odb-and-teams.md)** : 팀 사이트 및 문서 라이브러리에서 악성 파일을 식별하고 차단하여 사용자가 파일을 공동 작업하고 공유할 때 사용자 조직을 보호합니다. 자세한 내용은 [SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365용 Defender 실행](turn-on-atp-for-spo-odb-and-teams.md)을 참조하세요.
+- **[SharePoint, OneDrive 및 Microsoft Teams용 ATP](atp-for-spo-odb-and-teams.md)**: 팀 사이트 및 문서 라이브러리에서 악성 파일을 식별하고 차단하여 사용자가 파일을 공동 작업하고 공유할 때 사용자 조직을 보호합니다. 자세한 내용은 [SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365용 Defender 실행](turn-on-atp-for-spo-odb-and-teams.md)을 참조하세요.
 
-- **[Office 365용 Defender의 피싱 방지 보호](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)** : 사용자와 내부 또는 사용자 지정 도메인으로 위장하려는 시도를 감지합니다. 피싱 공격을 피하기 위해 기계 학습 모델과 고급 위장 탐지 알고리즘을 적용합니다. 자세한 내용은 [Office 365용 Microsoft Defender에서 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)을 참조하세요.
+- **[Office 365용 Defender의 피싱 방지 보호](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)**: 사용자와 내부 또는 사용자 지정 도메인으로 위장하려는 시도를 감지합니다. 피싱 공격을 피하기 위해 기계 학습 모델과 고급 위장 탐지 알고리즘을 적용합니다. 자세한 내용은 [Office 365용 Microsoft Defender에서 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)을 참조하세요.
 
 ## <a name="view-microsoft-defender-for-office-365-reports"></a>Office 365용 Microsoft Defender 보고서 보기
 
@@ -132,7 +132,7 @@ Office 365용 Microsoft Defender 플랜 2에는 조직의 보안팀이 악의적
 
 ## <a name="save-time-with-automated-investigation-and-response"></a>자동화된 조사 및 응답으로 시간 절약하기
 
-( **새로운 기능!** ) 잠재적인 사이버 공격을 조사할 때는 시간이 가장 중요합니다. 위협을 빨리 식별하고 완화할 수록 조직을 보호하는데 더욱 좋습니다. [자동화된 조사 및 대응](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)(AIR) 기능에는 알림이 트리거되는 경우와 같이 자동으로 시작되거나 또는 Explorer의 보기와 같이 수동으로 시작할 수 있는 보안 플레이북 세트가 포함되어 있습니다. AIR을 사용하면 보안 운영팀이 위협을 효과적이고 효율적으로 완화하도록 하는데 드는 시간과 노력을 절약할 수 있습니다. 자세한 내용은 [Office 365의 AIR](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)를 참조하세요.
+(**새로운 기능!**) 잠재적인 사이버 공격을 조사할 때는 시간이 가장 중요합니다. 위협을 빨리 식별하고 완화할 수록 조직을 보호하는데 더욱 좋습니다. [자동화된 조사 및 대응](office-365-air.md)(AIR) 기능에는 알림이 트리거되는 경우와 같이 자동으로 시작되거나 또는 Explorer의 보기와 같이 수동으로 시작할 수 있는 보안 플레이북 세트가 포함되어 있습니다. AIR을 사용하면 보안 운영팀이 위협을 효과적이고 효율적으로 완화하도록 하는데 드는 시간과 노력을 절약할 수 있습니다. 자세한 내용은 [Office 365의 AIR](office-365-air.md)를 참조하세요.
 
 ## <a name="permissions-required-to-use-microsoft-defender-for-office-365-features"></a>Office 365용 Microsoft Defender 기능을 사용하는 데 필요한 사용 권한
 

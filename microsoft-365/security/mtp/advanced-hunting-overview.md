@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 627791e9dc3d4bf18047a05734a4e275152d19da
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: bab055036a8e7fdcf88329413c9fd86269af2aaa
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845035"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357228"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>Microsoft 365 Defender의 고급 구하기를 통한 위협에 대 한 사전 사냥
 
@@ -34,6 +34,9 @@ ms.locfileid: "48845035"
 
 **적용 대상:**
 - Microsoft 365 Defender
+
+> Microsoft 365 Defender를 경험해 원하십니까? [랩 환경에서이를 평가](https://aka.ms/mtp-trial-lab) 하거나 [프로덕션에서 파일럿 프로젝트를 실행할](https://aka.ms/m365d-pilotplaybook)수 있습니다.
+>
 
 고급 헌팅은 최대 30일간의 원시 데이터를 탐색할 수 있는 쿼리 기반의 위협 헌팅 도구입니다. 네트워크에서 이벤트를 사전에 검사 하 여 위협 지표 및 엔터티를 찾을 수 있습니다. 데이터에 대 한 유연한 액세스를 통해 알려진 위협과 잠재적인 위협 모두에 대해 제한 되지 않은 방법을 사용할 수 있습니다.
 <p></p>
@@ -45,7 +48,7 @@ ms.locfileid: "48845035"
 이 기능은 [끝점에 대 한 Microsoft Defender의 고급 구하기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)와 비슷합니다. Microsoft 365 보안 센터에서 제공 되는이 기능은 보다 광범위 한 데이터 집합을 확인 하는 쿼리를 지원 합니다.
 
 - 엔드포인트용 Microsoft Defender
-- Microsoft Defender for Office 365
+- Office 365용 Microsoft Defender
 - Microsoft Cloud App Security
 - ID용 Microsoft Defender
 
@@ -70,8 +73,8 @@ ms.locfileid: "48845035"
 ## <a name="data-freshness-and-update-frequency"></a>데이터 유효성 및 업데이트 빈도
 고급 구하기 데이터는 서로 다르게 통합 되는 두 가지 형식으로 분류할 수 있습니다.
 
-- **이벤트 또는 활동 데이터** -경고, 보안 이벤트, 시스템 이벤트 및 루틴 평가에 대 한 표를 채웁니다. 고급 사냥은 해당 클라우드 서비스에 성공적으로 전송 하기 위해 수집한 센서 바로 다음에이 데이터를 받습니다. 예를 들어 워크스테이션 또는 도메인 컨트롤러의 정상 센서에서 이벤트 데이터를 끝점에 대 한 Microsoft Defender 및 Id 용 Microsoft Defender에서 사용할 수 있게 되는 즉시 쿼리할 수 있습니다.
-- **엔터티 데이터** -사용자 및 장치에 대 한 정보로 표를 채웁니다. 이 데이터는 상대적으로 정적인 데이터 원본과 Active Directory 항목 및 이벤트 로그 같은 동적 원본 모두에서 제공 됩니다. 새로운 데이터를 제공 하기 위해 테이블은 15 분 마다 새 정보로 업데이트 되어 완전히 채워지지 않을 수 있는 행을 추가 합니다. 24 시간 마다 데이터를 통합 하 여 각 엔터티에 대 한 가장 포괄적인 최신 데이터 집합을 포함 하는 레코드를 삽입 합니다.
+- **이벤트 또는 활동 데이터**-경고, 보안 이벤트, 시스템 이벤트 및 루틴 평가에 대 한 표를 채웁니다. 고급 사냥은 해당 클라우드 서비스에 성공적으로 전송 하기 위해 수집한 센서 바로 다음에이 데이터를 받습니다. 예를 들어 워크스테이션 또는 도메인 컨트롤러의 정상 센서에서 이벤트 데이터를 끝점에 대 한 Microsoft Defender 및 Id 용 Microsoft Defender에서 사용할 수 있게 되는 즉시 쿼리할 수 있습니다.
+- **엔터티 데이터**-사용자 및 장치에 대 한 정보로 표를 채웁니다. 이 데이터는 상대적으로 정적인 데이터 원본과 Active Directory 항목 및 이벤트 로그 같은 동적 원본 모두에서 제공 됩니다. 새로운 데이터를 제공 하기 위해 테이블은 15 분 마다 새 정보로 업데이트 되어 완전히 채워지지 않을 수 있는 행을 추가 합니다. 24 시간 마다 데이터를 통합 하 여 각 엔터티에 대 한 가장 포괄적인 최신 데이터 집합을 포함 하는 레코드를 삽입 합니다.
 
 ## <a name="time-zone"></a>표준 시간대
 고급 구하기의 시간 정보는 UTC 표준 시간대입니다.

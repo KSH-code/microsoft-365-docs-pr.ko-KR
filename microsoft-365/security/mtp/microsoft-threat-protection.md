@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: conceptual
-ms.openlocfilehash: a8d25ba0b36ad6ba1651ffe19e3e2f6e241548c7
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 573f30dc3d8a43a337a4333dbaf05baf916857fa
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843807"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357906"
 ---
 # <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 
@@ -34,7 +34,8 @@ ms.locfileid: "48843807"
 **적용 대상:**
 - Microsoft 365 Defender
 
-
+> Microsoft 365 Defender를 경험해 원하십니까? [랩 환경에서이를 평가](https://aka.ms/mtp-trial-lab) 하거나 [프로덕션에서 파일럿 프로젝트를 실행할](https://aka.ms/m365d-pilotplaybook)수 있습니다.
+>
 
 Microsoft 365 Defender는 끝점, id, 전자 메일 및 응용 프로그램 간의 검색, 예방, 조사 및 응답을 고유 하 게 조정 하 고 복잡 한 공격에 대 한 통합 된 보호 기능을 제공 하는 통합 사전 및 사후 위반 엔터프라이즈 방어 제품군입니다.
 
@@ -87,7 +88,7 @@ Microsoft 365 Defender 제품 간 기능은 다음과 같습니다.
 - **제품 간 위협 사냥** -보안 팀은 다양 한 보호 제품에서 수집한 원시 데이터에 대 한 고유한 사용자 지정 쿼리를 만들어 해당 조직의 고유한 정보를 활용 하 여 손상의 징후를 검색할 수 있습니다. Microsoft 365 Defender에서는 쿼리 기반 액세스를 30 일 동안 기록 하며, 끝점 간 및 Microsoft Defender for Office 365 데이터에 대 한 정보를 제공 합니다. 
 
 
-## <a name="get-started"></a>시작하기
+## <a name="get-started"></a>시작
 Microsoft 365 Defender 라이선스 요구 사항을 충족 해야 [security.microsoft.com](https://security.microsoft.com)의 microsoft 365 보안 센터에서 서비스를 사용 하도록 설정할 수 있습니다. 자세한 내용은 다음을 참조 하세요.
 - [라이선스 요구 사항](prerequisites.md#licensing-requirements)
 - [Microsoft 365 Defender 켜기](mtp-enable.md)

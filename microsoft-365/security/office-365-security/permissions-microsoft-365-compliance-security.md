@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Microsoft 365 보안 센터나 Microsoft 365 규정 준수 센터를 사용하여 보안 또는 규정 준수와 관련된 모든 작업에 대한 권한을 중앙에서 관리할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0f7dcddd7070f95ae61b17b9623dfcbab4a62e5f
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: a6c0ceee2b07dd93affc75fae1111aad9d7f5198
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920635"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357878"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터의 권한
 
@@ -116,7 +116,7 @@ Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터에 나타나�
 |이 서비스에서는...|보안 운영자는 다음을 수행할 수 있습니다.|
 |---|---|
 |[**Microsoft 365 보안 센터**](https://security.microsoft.com/)|보안 읽기 권한자 역할이 할 수 있는 모든 작업을 수행합니다. <br/><br/> 보안 경고를 확인, 조사 및 대응합니다.|
-|**ID 보호 센터** (서비스 예정)|보안 읽기 권한자 역할이 할 수 있는 모든 작업을 수행합니다.|
+|**ID 보호 센터**(서비스 예정)|보안 읽기 권한자 역할이 할 수 있는 모든 작업을 수행합니다.|
 |[**Privileged Identity Management**](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)|보안 읽기 권한자 역할이 할 수 있는 모든 작업을 수행합니다.|
 |[**보안 및 준수 센터**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|보안 읽기 권한자 역할이 할 수 있는 모든 작업을 수행합니다. <br/><br/> 보안 위협을 확인, 조사 및 대응합니다.|
 |**엔드포인트용 Microsoft Defender 및 EDR**|보안 읽기 권한자 역할이 할 수 있는 모든 작업을 수행합니다. <br/><br/> 경고를 확인, 조사 및 대응합니다.|
@@ -172,7 +172,7 @@ Azure Active Directory에서 이러한 역할을 관리하는 경우에는 **모
 
 |Microsoft 365 서비스|역할 정보|
 |---|---|
-|Office 365 및 Microsoft 365 비즈니스 요금제 관리자 역할|[Microsoft 365 관리자 역할](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)|
+|Office 365 및 Microsoft 365 비즈니스 요금제 관리자 역할|[Microsoft 365 관리자 역할](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
 |Azure AD(Azure Active Directory) 및 Azure AD ID 보호|[Azure AD 관리자 역할](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |ID용 Microsoft Defender|[ID용 Microsoft Defender 역할 그룹](https://docs.microsoft.com/azure-advanced-threat-protection/atp-role-groups)|
 |Azure Information Protection|[Azure AD 관리자 역할](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|

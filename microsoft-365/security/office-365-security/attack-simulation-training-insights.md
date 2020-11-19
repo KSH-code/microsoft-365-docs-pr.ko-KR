@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Microsoft 365 보안 센터의 공격 시뮬레이션 교육을 통해 직원에 게 어떤 영향을 주는지, 그리고 시뮬레이션 및 교육 결과를 통해 통찰력을 얻을 방법을 알아봅니다.
-ms.openlocfilehash: 80b8c275d1d64dd3dbd6509309fb88cd641734e3
-ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
+ms.openlocfilehash: 6a8ee15f14475a1cebb169ab49bdb0f490c81345
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48950986"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357354"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>공격 시뮬레이션 교육 활용
 
@@ -54,4 +54,4 @@ Microsoft는 Attack 시뮬레이션이 진행 되는 동안 시뮬레이션이 �
 
 ## <a name="related-links"></a>관련 링크
 
-**Attack 시뮬레이터** [는 피싱 공격 시뮬레이션을 만들고](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulation-training?view=o365-worldwide) [사용자에 게 교육을 위한 페이로드를 만듭니다](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulation-training-payloads?view=o365-worldwide) .
+**Attack 시뮬레이터** [는 피싱 공격 시뮬레이션을 만들고](attack-simulation-training.md) [사용자에 게 교육을 위한 페이로드를 만듭니다](attack-simulation-training-payloads.md) .

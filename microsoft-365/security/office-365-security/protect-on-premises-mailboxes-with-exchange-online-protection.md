@@ -21,12 +21,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 중국의 관리자 21Vianet에서 운영 하는 Office 365을 사용 하 여 온-프레미스 사서함을 보호 하기 위해 독립 실행형 EOP (Exchange Online Protection)를 사용 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: eb17b25db93aa50c6c390b5f79cdbd707762a0f9
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 9b91abec8d258df2b549cee1d538d2f65d2974ab
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202486"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356898"
 ---
 # <a name="protect-on-premises-mailboxes-in-china-with-standalone-eop"></a>독립형 EOP를 사용하여 중국에 있는 온-프레미스 사서함 보호
 
@@ -36,7 +36,7 @@ ms.locfileid: "48202486"
 > [!NOTE]
 > 이 문서는 중국의 21Vianet에서 운영 하는 Office 365에만 적용 됩니다.
 
-온-프레미스에서 사서함의 일부 또는 전체를 호스트 하는 경우에도 EOP (Exchange Online Protection)를 사용 하 여 사서함을 보호할 수 있습니다. 커넥터를 구성 하려면 계정이 전역 관리자 또는 Exchange 회사 관리자 (조직 관리 역할 그룹) 여야 합니다. Office 365 권한이 Exchange 권한과 관련 된 방식에 대 한 자세한 내용은 [21vianet에서 운영 하는 office 365에서 관리자 역할 할당](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles?view=o365-21vianet)을 참조 하세요. 모든 Exchange 사서함이 온-프레미스에 있는 경우 다음 단계를 수행 하 여 EOP 서비스를 설정 합니다.
+온-프레미스에서 사서함의 일부 또는 전체를 호스트 하는 경우에도 EOP (Exchange Online Protection)를 사용 하 여 사서함을 보호할 수 있습니다. 커넥터를 구성 하려면 계정이 전역 관리자 또는 Exchange 회사 관리자 (조직 관리 역할 그룹) 여야 합니다. Office 365 권한이 Exchange 권한과 관련 된 방식에 대 한 자세한 내용은 [21vianet에서 운영 하는 office 365에서 관리자 역할 할당](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles?view=o365-21vianet&preserve-view=true)을 참조 하세요. 모든 Exchange 사서함이 온-프레미스에 있는 경우 다음 단계를 수행 하 여 EOP 서비스를 설정 합니다.
 
 ## <a name="step-1-use-the-microsoft-365-admin-center-to-add-and-verify-your-domain"></a>1 단계: Microsoft 365 관리 센터를 사용 하 여 도메인 추가 및 확인
 
@@ -45,7 +45,7 @@ ms.locfileid: "48202486"
 2. 도메인 소유권을 확인 하기 위해 포털의 단계에 따라 DNS 호스팅 공급자에 게 해당 DNS 레코드를 추가 합니다.
 
 > [!TIP]
-> 도메인 [및 사용자를 21vianet에서 운영 하는 office 365에 추가](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain?view=o365-21vianet) 하 고, [dns 레코드를 관리할 때 office 365에 대 한 Dns 레코드를 만들려면](https://docs.microsoft.com/microsoft-365/admin/services-in-china/create-dns-records-when-you-manage-your-dns-records?view=o365-21vianet) 도메인을 서비스에 추가 하 고 dns를 구성할 때 참조 하면 도움이 되는 리소스입니다.
+> 도메인 [및 사용자를 21vianet에서 운영 하는 office 365에 추가](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain?view=o365-21vianet&preserve-view=true) 하 고, [dns 레코드를 관리할 때 office 365에 대 한 Dns 레코드를 만들려면](https://docs.microsoft.com/microsoft-365/admin/services-in-china/create-dns-records-when-you-manage-your-dns-records?view=o365-21vianet&preserve-view=true) 도메인을 서비스에 추가 하 고 dns를 구성할 때 참조 하면 도움이 되는 리소스입니다.
 
 ### <a name="step-2-add-recipients-and-configure-the-domain-type"></a>2 단계: 받는 사람 추가 및 도메인 유형 구성
 

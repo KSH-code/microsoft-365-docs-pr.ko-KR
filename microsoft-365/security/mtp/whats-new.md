@@ -17,17 +17,19 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: conceptual
-ms.openlocfilehash: 5214f7c399ab511ec16231e4dda97a2c33b37668
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: ade93bf8c89077c117ada764478cc74f4a5f14cc
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844707"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357322"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Microsoft 365 Defender의 새로운 기능
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
+> Microsoft 365 Defender를 경험해 원하십니까? [랩 환경에서이를 평가](https://aka.ms/mtp-trial-lab) 하거나 [프로덕션에서 파일럿 프로젝트를 실행할](https://aka.ms/m365d-pilotplaybook)수 있습니다.
+>
 
 일반적으로 Microsoft 365 Defender의 최신 릴리스에서는 다음 기능을 사용할 수 있습니다.
 
@@ -35,6 +37,9 @@ RSS 피드: 다음 URL을 복사 하 여 피드 판독기에 붙여 넣어이 �
 ```http
 https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+Threat+Protection%22&locale=en-us
 ```
+> Microsoft 365 Defender를 경험해 원하십니까? 프로덕션 [환경에서 테스트를 평가](https://aka.ms/mtp-trial-lab) 하거나 [파일럿 프로젝트를 실행할](https://aka.ms/m365d-pilotplaybook) 수 있습니다.
+>
+
 ## <a name="september-2020"></a>2020년 9월
 - [IdentityDirectoryEvents 테이블](advanced-hunting-identitydirectoryevents-table.md) <br> AD (Active Directory)를 실행 하는 온-프레미스 도메인 컨트롤러를 포함 하는 이벤트를 찾습니다. 이 [고급 구하기](advanced-hunting-overview.md) 스키마 테이블은 도메인 컨트롤러의 id 관련 이벤트 및 시스템 이벤트 범위를 다룹니다.
 - [AssignedIPAddresses () 함수](advanced-hunting-assignedipaddresses-function.md) <br> 고급 구하기 쿼리에이 함수를 사용 하 여 특정 시간에 장치에 할당 된 최신 IP 주소 또는 가장 최근 IP 주소를 빠르게 가져올 수 있습니다.

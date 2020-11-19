@@ -20,19 +20,19 @@ description: 사용자 지정 또는 타사 보고 솔루션을 사용 하 여 �
 ms.date: 09/29/2020
 ms.custom:
 - air
-ms.openlocfilehash: 8b08b441ca468b5efa1c4c003c636de2a43b3e7d
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 7b0b0570624b2e0dd40d40b178951a747698afe2
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844551"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357470"
 ---
 # <a name="use-the-management-activity-api-for-custom-or-third-party-reporting-solutions"></a>사용자 지정 또는 타사 보고 솔루션에 대해 관리 활동 API 사용
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-[Office 365 용 Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)를 사용 하 여 [자동화 된 조사에 대 한 자세한 정보](air-view-investigation-results.md)를 확인할 수 있습니다. 그러나 일부 조직에서는 사용자 지정 또는 타사 보고 솔루션을 사용 하기도 합니다. 조직에서 이러한 솔루션을 통해 자동화 된 조사에 대 한 정보를 통합 하려는 경우에는 Office 365 관리 활동 API를 사용할 수 있습니다.
+[Office 365 용 Microsoft Defender](office-365-atp.md)를 사용 하 여 [자동화 된 조사에 대 한 자세한 정보](air-view-investigation-results.md)를 확인할 수 있습니다. 그러나 일부 조직에서는 사용자 지정 또는 타사 보고 솔루션을 사용 하기도 합니다. 조직에서 이러한 솔루션을 통해 자동화 된 조사에 대 한 정보를 통합 하려는 경우에는 Office 365 관리 활동 API를 사용할 수 있습니다.
 
 다음 리소스를 사용 하 여이를 설정할 수 있습니다.
 
@@ -48,6 +48,6 @@ ms.locfileid: "48844551"
 
 ## <a name="see-also"></a>참고 항목
 
-- [Microsoft Defender for Office 365](office-365-atp.md)
+- [Office 365용 Microsoft Defender](office-365-atp.md)
 
 - [Microsoft 365 Defender의 자동화 된 조사 및 응답](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

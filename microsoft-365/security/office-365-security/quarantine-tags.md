@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX
 description: 관리자는 격리 태그를 사용 하 여 사용자가 격리 된 메시지에 대해 수행할 수 있는 작업을 제어 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: e50d7eea4cec3c87231dda855725b1e901f5fa33
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: e194aabf57a1a105f01d8d34815312d3c2fa153d
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845699"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357650"
 ---
 # <a name="quarantine-tags"></a>격리 태그
 
@@ -44,11 +44,11 @@ EOP에서는 [격리](find-and-release-quarantined-messages-as-a-user.md) 및 [�
 
 |사용 권한|권한 없음|제한 된 액세스|모든 권한|
 |---|:---:|:---:|:---:|
-|**보낸 사람 허용** (권한 권한 _보낸 사람_ )|||![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**보낸 사람 허용** (권한 권한 _보낸 사람_)|||![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**차단 보낸 사람** _(권한 권한)_||![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**삭제** ( _권한 삭제)_||![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**미리 보기** (한/이상 _검토_ )||![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**받는 사람이 격리에서 메시지를 해제할 수 있도록 허용** ( _PermissionToRelease_ )|||![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**삭제** (_권한 삭제)_||![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**미리 보기** (한/이상 _검토_)||![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**받는 사람이 격리에서 메시지를 해제할 수 있도록 허용** (_PermissionToRelease_)|||![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**받는 사람이 격리에서** _PermissionToRequestRelease_ 메시지를 요청 하도록 허용||![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |
 
@@ -83,12 +83,12 @@ EOP에서는 [격리](find-and-release-quarantined-messages-as-a-user.md) 및 [�
 
    사용자 지정 사용 권한을 지정 하려면 **특정 액세스 설정 (고급)** 을 선택 하 고 다음 설정을 구성 합니다.
 
-     - **Release action 기본 설정** : 다음 값 중 하나를 선택 합니다.
-       - **릴리스 작업 없음** :이 값은 기본값입니다.
+     - **Release action 기본 설정**: 다음 값 중 하나를 선택 합니다.
+       - **릴리스 작업 없음**:이 값은 기본값입니다.
        - **받는 사람이 격리에서 메시지를 해제할 수 있도록 허용**
        - **받는 사람이 격리에서 해제 되도록 메시지를 요청 하도록 허용**
 
-     - **받는 사람이 격리 된 메시지에 대해 수행할 수 있는 추가 작업 선택** : 다음 값 중 일부 또는 모두를 선택 합니다.
+     - **받는 사람이 격리 된 메시지에 대해 수행할 수 있는 추가 작업 선택**: 다음 값 중 일부 또는 모두를 선택 합니다.
        - **삭제**
        - **미리 보기**
        - **보낸 사람 허용**
@@ -178,19 +178,19 @@ $<VariableName> = New-QuarantinePermissions [-PermissionToAllowSender <$true | $
 
 다음 예에서는 미리 설정 된 사용 권한 그룹에 해당 하는 permission 개체를 만드는 방법을 보여 줍니다.
 
-- **액세스 권한 없음** :
+- **액세스 권한 없음**:
 
   ```powershell
   $NoAccess = New-QuarantinePermissions
   ```
 
-- **제한 된 액세스** :
+- **제한 된 액세스**:
 
   ```powershell
   $LimitedAccess = New-QuarantinePermissions -PermissionToBlockSender $true -PermissionToDelete $true -PermissionToPreview $true -PermissionToRequestRelease $true
   ```
 
-- **모든 권한** :
+- **모든 권한**:
 
   ```powershell
   $FullAccess = New-QuarantinePermissions -PermissionToAllowSender $true -PermissionToBlockSender $true -PermissionToDelete $true -PermissionToPreview $true -PermissionToRelease $true
@@ -228,11 +228,11 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
 
 |기능|격리 태그가 지원 됩니까?|기본 격리 태그 사용|
 |---|:---:|---|
-|[스팸 방지 정책](configure-your-spam-filter-policies.md): <ul><li>**스팸** ( _spamaction_ )</li><li>_HighConfidenceSpamAction_ ( **High 신임 스팸** )</li><li>**피싱 전자 메일** ( _PhishSpamAction_ )</li><li>**높은 신뢰도 피싱 전자 메일** ( _HighConfidencePhishAction_ )</li><li>**대량 전자 메일 (다량** _spamaction_ )</li></ul>|예|<ul><li>DefaultSpamTag (모든 권한)</li><li>DefaultHighConfSpamTag (모든 권한)</li><li>DefaultPhishTag (모든 권한)</li><li>DefaultHighConfPhishTag (액세스 권한 없음)</li><li>Default대량 태그 (모든 권한)</li></ul>
-|피싱 방지 정책: <ul><li>[스푸핑 인텔리전스 보호](set-up-anti-phishing-policies.md#spoof-settings) ( _authenticationfailaction_ )</li><li>[가장 보호](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365):<sup>\*</sup> <ul><li>**가장 된 사용자가 전자 메일을 보낸 경우** ( _TargetedUserProtectionAction_ )</li><li>**가장 된 도메인에서 전자 메일을 보낸 경우** ( _TargetedDomainProtectionAction_ )</li><li>**사서함 인텔리전스** \> **가장 된 사용자가 전자 메일을 보낸 경우** ( _MailboxIntelligenceProtectionAction_ )</li></ul></li></ul></ul>|아니요|해당 없음|
+|[스팸 방지 정책](configure-your-spam-filter-policies.md): <ul><li>**스팸** (_spamaction_)</li><li>_HighConfidenceSpamAction_( **High 신임 스팸** )</li><li>**피싱 전자 메일** (_PhishSpamAction_)</li><li>**높은 신뢰도 피싱 전자 메일** (_HighConfidencePhishAction_)</li><li>**대량 전자 메일 (다량** _spamaction_)</li></ul>|예|<ul><li>DefaultSpamTag (모든 권한)</li><li>DefaultHighConfSpamTag (모든 권한)</li><li>DefaultPhishTag (모든 권한)</li><li>DefaultHighConfPhishTag (액세스 권한 없음)</li><li>Default대량 태그 (모든 권한)</li></ul>
+|피싱 방지 정책: <ul><li>[스푸핑 인텔리전스 보호](set-up-anti-phishing-policies.md#spoof-settings) (_authenticationfailaction_)</li><li>[가장 보호](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365):<sup>\*</sup> <ul><li>**가장 된 사용자가 전자 메일을 보낸 경우** (_TargetedUserProtectionAction_)</li><li>**가장 된 도메인에서 전자 메일을 보낸 경우** (_TargetedDomainProtectionAction_)</li><li>**사서함 인텔리전스** \> **가장 된 사용자가 전자 메일을 보낸 경우** (_MailboxIntelligenceProtectionAction_)</li></ul></li></ul></ul>|아니요|해당 없음|
 |[맬웨어 방지 정책](configure-anti-malware-policies.md): 검색 된 모든 메시지는 항상 격리 됩니다.|아니요|해당 없음|
 |[SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](atp-for-spo-odb-and-teams.md)|아니요|해당 없음|
-|[메일 흐름 규칙](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) (전송 규칙이 라고도 함)은 **메시지를 호스팅된 격리** ( _격리_ )로 배달 합니다.|아니요|해당 없음|
+|[메일 흐름 규칙](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) (전송 규칙이 라고도 함)은 **메시지를 호스팅된 격리** (_격리_)로 배달 합니다.|아니요|해당 없음|
 |
 
 <sup>\*</sup> 가장을 보호 하는 설정은 Microsoft Defender for Office 365의 피싱 방지 정책 에서만 사용할 수 있습니다.
@@ -251,7 +251,7 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
   
 4. 사용 가능한 스팸 필터링 결과의 동작에 대 한 **메시지 격리** 를 선택한 경우 해당 결과에 대 **한 quarantine 태그** 를 선택할 수 있습니다.
 
-   **참고** : 새 정책을 만들 때 스팸 필터링 결과에 대 한 빈 quarantine 태그 값은 해당 결과에 대 한 기본 quarantine 태그가 사용 됨을 나타냅니다. 나중에 정책을 편집할 때 빈 값은 위의 표에 설명 된 것 처럼 실제 기본 quarantine 태그 이름으로 대체 됩니다.
+   **참고**: 새 정책을 만들 때 스팸 필터링 결과에 대 한 빈 quarantine 태그 값은 해당 결과에 대 한 기본 quarantine 태그가 사용 됨을 나타냅니다. 나중에 정책을 편집할 때 빈 값은 위의 표에 설명 된 것 처럼 실제 기본 quarantine 태그 이름으로 대체 됩니다.
   
    ![스팸 방지 정책에서 태그 선택 차단](../../media/quarantine-tags-in-anti-spam-policies.png)
 
@@ -265,7 +265,7 @@ PowerShell을 사용 하 여 스팸 방지 정책에서 격리 태그를 할당 
 <New-HostedContentFilterPolicy -Name "<Unique name>" | Set-HostedContentFilterPolicy -Identity "<Policy name>">  [-SpamAction Quarantine] [-SpamQuarantineTag <QuarantineTagName>] [-HighConfidenceSpamAction Quarantine] [-HighConfidenceSpamQuarantineTag <QuarantineTagName>] [-PhishSpamAction Quarantine] [-PhishQuarantineTag <QuarantineTagName>] [-HighConfidencePhishQuarantineTag <QuarantineTagName>] [-BulkSpamAction Quarantine] [-BulkQuarantineTag <QuarantineTagName>] ...
 ```
 
-**참고** :
+**참고:**
 
 - _HighConfidencePhishAction_ 매개 변수의 기본값은 격리 이므로 새 스팸 방지 정책에서 높은 신뢰도의 피싱 감지에 대 한 격리 작업을 설정할 필요가 없습니다. 신규 또는 기존 스팸 방지 정책에 있는 다른 모든 스팸 필터링 verdicts에 대해 quarantine 태그는 action 값이 격리 인 경우에만 유효 합니다. 기존 스팸 방지 정책에서 작업 값을 확인 하려면 다음 명령을 실행 합니다.
 
@@ -310,19 +310,19 @@ Set-HostedContentFilterPolicy -Identity "Human Resources" -SpamAction Quarantine
 
 3. **격리 알림 설정** 플라이 인이 열리면 다음 설정 중 일부 또는 전체를 구성 합니다.
 
-   - **회사 로고 사용** : 최종 사용자 스팸 알림의 맨 위에서 사용 되는 기본 Microsoft 로고를 교체 하려면이 옵션을 선택 합니다. 이 작업을 수행 하기 전에 [조직의 Microsoft 365 테마 사용자 지정](https://docs.microsoft.com/microsoft-365/admin/setup/customize-your-organization-theme) 의 지침을 따라 사용자 지정 로고를 업로드 해야 합니다.
+   - **회사 로고 사용**: 최종 사용자 스팸 알림의 맨 위에서 사용 되는 기본 Microsoft 로고를 교체 하려면이 옵션을 선택 합니다. 이 작업을 수행 하기 전에 [조직의 Microsoft 365 테마 사용자 지정](https://docs.microsoft.com/microsoft-365/admin/setup/customize-your-organization-theme) 의 지침을 따라 사용자 지정 로고를 업로드 해야 합니다.
 
      다음 스크린샷은 최종 사용자 스팸 알림에 사용자 지정 로고를 보여 줍니다.
 
      ![최종 사용자 스팸 알림의 사용자 지정 로고](../../media/quarantine-tags-esn-customization-logo.png)
 
-   - **언어 선택** : 최종 사용자 스팸 알림은 받는 사람의 언어 설정에 따라 이미 지역화 되어 있습니다. **표시 이름** 및 고 **지** 사항 값에 대해 다양 한 언어로 사용자 지정 된 텍스트를 지정할 수 있습니다.
+   - **언어 선택**: 최종 사용자 스팸 알림은 받는 사람의 언어 설정에 따라 이미 지역화 되어 있습니다. **표시 이름** 및 고 **지** 사항 값에 대해 다양 한 언어로 사용자 지정 된 텍스트를 지정할 수 있습니다.
 
      첫 번째 언어 상자에서 하나 이상의 언어를 선택 하 고 **추가** 를 클릭 합니다. **추가** 를 클릭 하 여 여러 언어를 선택할 수 있습니다. 섹션 언어 상자에는 선택한 모든 언어가 표시 됩니다.
 
      ![격리 태그의 전역 격리 알림 설정에서 두 번째 언어 상자의 선택 된 언어](../../media/quarantine-tags-esn-customization-selected-languages.png)
 
-   - **표시 이름** : 최종 사용자 스팸 알림에 사용 되는 보낸 사람의 표시 이름을 사용자 지정 합니다.
+   - **표시 이름**: 최종 사용자 스팸 알림에 사용 되는 보낸 사람의 표시 이름을 사용자 지정 합니다.
 
      추가한 각 언어에 대해 두 번째 언어 상자의 언어 (X를 클릭 하지 않음)를 선택 하 고 **표시 이름** 상자에 원하는 텍스트 값을 입력 합니다.
 
@@ -372,7 +372,7 @@ PowerShell을 사용 하 여 격리 태그를 보려면 다음 단계 중 하나
 
 ## <a name="remove-quarantine-tags-in-the-security--compliance-center"></a>보안 & 준수 센터에서 격리 태그 제거
 
-**참고** :
+**참고:**
 
 - 기본 제공 격리 태그는 제거할 수 없습니다.
 
@@ -412,11 +412,11 @@ Remove-QuarantineTag -Identity "<TagName>"
 
 격리 태그가 액세스 권한 없이 사용 권한을 할당 하는 경우에도 사용자는 다음과 같은 기본 기능을 얻게 **됩니다** .
 
-- **격리 된 메시지 정보** : **메시지 머리글 보기** 단추를 항상 사용할 수 있습니다.
+- **격리 된 메시지 정보**: **메시지 머리글 보기** 단추를 항상 사용할 수 있습니다.
 
   ![격리 된 메시지에서 사용자에 게 액세스 권한이 없는 격리 태그를 제공 하는 경우 사용 가능한 단추 세부 정보](../../media/quarantine-tags-quarantined-message-details-no-access.png)
 
-- **최종 사용자 스팸 알림** : 격리에서 메시지를 사용자에 게 가져오는 **검토** 단추를 항상 사용할 수 있습니다.
+- **최종 사용자 스팸 알림**: 격리에서 메시지를 사용자에 게 가져오는 **검토** 단추를 항상 사용할 수 있습니다.
 
   ![격리 태그가 사용자에 게 액세스 권한을 부여 하지 않는 경우 최종 사용자 스팸 알림의 사용 가능한 단추](../../media/quarantine-tags-esn-no-access.png)
 
@@ -424,7 +424,7 @@ Remove-QuarantineTag -Identity "<TagName>"
 
 격리 태그가 **제한 된 액세스** 권한을 할당 하는 경우 사용자는 다음과 같은 기능을 얻게 됩니다.
 
-- **격리 된 메시지 정보** : 다음 단추를 사용할 수 있습니다.
+- **격리 된 메시지 정보**: 다음 단추를 사용할 수 있습니다.
   - **요청 릴리스**
   - **메시지 헤더 보기**
   - **메시지 미리 보기**
@@ -433,7 +433,7 @@ Remove-QuarantineTag -Identity "<TagName>"
 
   ![격리 태그가 사용자에 게 제한 된 액세스 권한을 제공 하는 경우 격리 된 메시지의 사용 가능한 단추 세부 정보](../../media/quarantine-tags-quarantined-message-details-limited-access.png)
 
-- **최종 사용자 스팸 알림** : 다음 단추를 사용할 수 있습니다.
+- **최종 사용자 스팸 알림**: 다음 단추를 사용할 수 있습니다.
   - **보낸 사람 차단**
   - **검토**
 
@@ -443,7 +443,7 @@ Remove-QuarantineTag -Identity "<TagName>"
 
 격리 태그가 모든 사용 권한을 할당 하는 경우 (모든 사용 가능한 권한) 사용자는 다음과 같은 기능을 얻게 **됩니다** .
 
-- **격리 된 메시지 정보** : 다음 단추를 사용할 수 있습니다.
+- **격리 된 메시지 정보**: 다음 단추를 사용할 수 있습니다.
   - **메시지 릴리스**
   - **메시지 헤더 보기**
   - **메시지 미리 보기**
@@ -453,7 +453,7 @@ Remove-QuarantineTag -Identity "<TagName>"
 
   ![격리 태그에서 사용자에 게 모든 권한이 부여 되는 경우 격리 된 메시지의 사용 가능한 단추 세부 정보](../../media/quarantine-tags-quarantined-message-details-full-access.png)
 
-- **최종 사용자 스팸 알림** : 다음 단추를 사용할 수 있습니다.
+- **최종 사용자 스팸 알림**: 다음 단추를 사용할 수 있습니다.
   - **보낸 사람 차단**
   - **릴리스**
   - **검토**
@@ -467,68 +467,68 @@ Remove-QuarantineTag -Identity "<TagName>"
 
 #### <a name="allow-sender-permission"></a>보낸 사람 사용 권한 허용
 
-사용자가 편리 하 게 수신 허용- _보낸 사람 목록_ 에 격리 된 메시지 보낸 사람을 추가 하는 데 사용할 수 있는 단추에 대 한 액세스를 **제어 합니다.**
+사용자가 편리 하 게 수신 허용-_보낸 사람 목록_ 에 격리 된 메시지 보낸 사람을 추가 하는 데 사용할 수 있는 단추에 대 한 액세스를 **제어 합니다.**
 
-- **격리 된 메시지 정보** :
+- **격리 된 메시지 정보**:
   - **보낸 사람** 권한 허용 사용: **보낸 사람 허용** 단추를 사용할 수 있습니다.
   - **보낸 사람** 허용 사용 안 함: **보낸 사람 허용** 단추를 사용할 수 없습니다.
 
-- **최종 사용자 스팸 알림** : 효과 없음
+- **최종 사용자 스팸 알림**: 효과 없음
 
-수신 허용-보낸 사람 목록에 대 한 자세한 내용은 [신뢰할 수 있는 보낸 사람이 차단 되지 않도록 설정](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379666) 및 [Exchange Online PowerShell을 사용 하 여 사서함에서 수신 허용 목록 컬렉션을 구성](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox)합니다 .을 참조 하십시오.
+수신 허용-보낸 사람 목록에 대 한 자세한 내용은 [신뢰할 수 있는 보낸 사람이 차단 되지 않도록 설정](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379666) 및 [Exchange Online PowerShell을 사용 하 여 사서함에서 수신 허용 목록 컬렉션을 구성](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox)합니다 .을 참조 하십시오.
 
 #### <a name="block-sender-permission"></a>보낸 사람 차단 권한
 
 **차단** _된 보낸 사람_ 메시지를 사용자가 편리 하 게 수신 허용 목록에 추가 하는 데 사용할 수 있는 단추에 대 한 액세스를 제어 합니다.
 
-- **격리 된 메시지 정보** :
+- **격리 된 메시지 정보**:
   - **보낸 사람** 차단 사용 권한을 사용 하도록 설정 됨: **보낸 사람 차단** 단추를 사용할 수 있습니다.
   - **보낸 사람** 차단 권한 사용 안 함: **보낸 사람 차단** 단추를 사용할 수 없습니다.
 
-- **최종 사용자 스팸 알림** :
+- **최종 사용자 스팸 알림**:
   - **보낸 사람** 차단 권한 사용 안 함: **보낸 사람 차단** 단추를 사용할 수 없습니다.
   - **보낸 사람** 차단 사용 권한을 사용 하도록 설정 됨: **보낸 사람 차단** 단추를 사용할 수 있습니다.
 
-수신 거부 목록에 대 한 자세한 내용은 [특정인이 보낸 메시지 차단](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379667) 및 [Exchange Online PowerShell을 사용 하 여 사서함에서 수신 허용 목록 컬렉션을 구성](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox)합니다 .을 참조 하십시오.
+수신 거부 목록에 대 한 자세한 내용은 [특정인이 보낸 메시지 차단](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379667) 및 [Exchange Online PowerShell을 사용 하 여 사서함에서 수신 허용 목록 컬렉션을 구성](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox)합니다 .을 참조 하십시오.
 
 #### <a name="delete-permission"></a>삭제 권한
 
-**삭제** 권한 (고 대 _삭제_ )은 사용자가 격리에서 메시지 (사용자가 받는 메시지)를 삭제 하는 기능을 제어 합니다.
+**삭제** 권한 (고 대 _삭제_)은 사용자가 격리에서 메시지 (사용자가 받는 메시지)를 삭제 하는 기능을 제어 합니다.
 
-- **격리 된 메시지 정보** :
+- **격리 된 메시지 정보**:
   - **삭제** 권한 사용: **격리에서 제거** 단추를 사용할 수 있습니다.
   - **삭제** 권한 사용 안 함: **격리에서 제거** 단추를 사용할 수 없습니다.
 
-- **최종 사용자 스팸 알림** : 효과 없음
+- **최종 사용자 스팸 알림**: 효과 없음
 
 #### <a name="preview-permission"></a>미리 보기 권한
 
-**미리 보기** 권한 (고가을 _검토_ )을 통해 사용자가 격리에서 메시지를 미리 보는 기능을 제어할 수 있습니다.
+**미리 보기** 권한 (고가을 _검토_)을 통해 사용자가 격리에서 메시지를 미리 보는 기능을 제어할 수 있습니다.
 
-- **격리 된 메시지 정보** :
+- **격리 된 메시지 정보**:
   - 사용 권한 **미리 보기** 사용: **메시지 미리 보기** 단추를 사용할 수 있습니다.
   - **미리 보기** 사용 안 함: **메시지 미리 보기** 단추를 사용할 수 없습니다.
 
-- **최종 사용자 스팸 알림** : 효과 없음
+- **최종 사용자 스팸 알림**: 효과 없음
 
 #### <a name="allow-recipients-to-release-a-message-from-quarantine-permission"></a>받는 사람이 격리 사용 권한에서 메시지를 해제할 수 있도록 허용
 
-**받는 사람이 격리 사용 권한에서 메시지를 릴리스할 수 있도록 허용** ( _PermissionToRelease_ )은 관리자의 승인 없이 사용자가 격리 된 메시지를 릴리스할 수 있는지 여부를 제어 합니다.
+**받는 사람이 격리 사용 권한에서 메시지를 릴리스할 수 있도록 허용** (_PermissionToRelease_)은 관리자의 승인 없이 사용자가 격리 된 메시지를 릴리스할 수 있는지 여부를 제어 합니다.
 
-- **격리 된 메시지 정보** :
+- **격리 된 메시지 정보**:
   - 사용 권한 사용: **릴리즈 메시지** 단추를 사용할 수 있습니다.
   - 사용 안 함: **메시지 릴리스** 단추를 사용할 수 없습니다.
   
-- **최종 사용자 스팸 알림** :
+- **최종 사용자 스팸 알림**:
   - 사용 권한 사용: **릴리스** 단추를 사용할 수 있습니다.
   - 사용 안 함: **릴리스** 단추를 사용할 수 없습니다.
 
 #### <a name="allow-recipients-to-request-a-message-to-be-released-from-quarantine-permission"></a>받는 사람이 격리 사용 권한에서 해제 되도록 메시지를 요청 하도록 허용
 
-**받는 사람이 격리 사용 권한에서 해제할 메시지를 요청할 수 있도록 허용** ( _PermissionToRequestRelease_ )은 사용자가 격리 된 메시지의 릴리스를 _요청할_ 수 있는 기능을 제어 합니다. 이 메시지는 관리자가 요청을 승인한 후에만 릴리스됩니다.
+**받는 사람이 격리 사용 권한에서 해제할 메시지를 요청할 수 있도록 허용** (_PermissionToRequestRelease_)은 사용자가 격리 된 메시지의 릴리스를 _요청할_ 수 있는 기능을 제어 합니다. 이 메시지는 관리자가 요청을 승인한 후에만 릴리스됩니다.
 
-- **격리 된 메시지 정보** :
+- **격리 된 메시지 정보**:
   - 사용 권한 사용: **요청 릴리스** 단추를 사용할 수 있습니다.
   - 사용 안 함: **요청 릴리스** 단추를 사용할 수 없습니다.
 
-- **최종 사용자 스팸 알림** : **릴리스** 단추를 사용할 수 없습니다.
+- **최종 사용자 스팸 알림**: **릴리스** 단추를 사용할 수 없습니다.

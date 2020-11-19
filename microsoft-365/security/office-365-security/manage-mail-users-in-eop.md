@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: 디렉터리 동기화, EAC 및 PowerShell을 사용 하 여 사용자를 관리 하는 등의 EOP (Exchange Online Protection)에서 메일 사용자를 관리 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56e6f8955b5993fb4b5064aa92cdde80a4c67ffe
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 3c3e69def731a85c0dccffdcb5620560dcf00052
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201786"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356730"
 ---
 # <a name="manage-mail-users-in-standalone-eop"></a>독립 실행형 EOP에서 메일 사용자 관리
 
@@ -34,7 +34,7 @@ Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protec
 
 사용자 수가 적은 독립 실행형 EOP 조직의 경우이 항목에 설명 된 대로 EAC (Exchange 관리 센터) 또는 독립 실행형 EOP PowerShell에서 메일 사용자를 추가 하 고 관리할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - EAC (Exchange 관리 센터)를 열려면 [독립 실행형 EOP에서 exchange 관리 센터](exchange-admin-center-in-exchange-online-protection-eop.md)를 참조 하세요.
 
@@ -63,7 +63,7 @@ Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protec
 
    - **성**
 
-   - <sup>\*</sup>**표시 이름**:이 상자에는 기본적으로 **이름**, **이니셜**및 **성** 상자의 값이 표시 됩니다. 이 값을 그대로 사용 하거나 변경할 수 있습니다. 이 값은 고유 해야 하며 최대 길이는 64 자입니다.
+   - <sup>\*</sup>**표시 이름**:이 상자에는 기본적으로 **이름**, **이니셜** 및 **성** 상자의 값이 표시 됩니다. 이 값을 그대로 사용 하거나 변경할 수 있습니다. 이 값은 고유 해야 하며 최대 길이는 64 자입니다.
 
    - <sup>\*</sup>**별칭**: 사용자에 대해 최대 64 문자를 사용 하 여 고유한 별칭을 입력 합니다.
 
@@ -73,17 +73,17 @@ Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protec
 
    - <sup>\*</sup>**새 암호** 및 <sup>\*</sup> **암호 확인**: 계정 암호를 입력 하 고 다시 입력 합니다. 암호가 조직의 암호 길이, 복잡도 및 기록 요구 사항을 따르는지 확인 합니다.
 
-3. 모든 설정이 끝나면 **저장**을 클릭하여 메일 사용자를 만듭니다.
+3. 모든 설정이 끝나면 **저장** 을 클릭하여 메일 사용자를 만듭니다.
 
 ### <a name="use-the-eac-to-modify-mail-users"></a>EAC를 사용 하 여 메일 사용자 수정
 
-1. EAC에서 **받는 사람** \> **연락처**로 이동합니다.
+1. EAC에서 **받는 사람** \> **연락처** 로 이동합니다.
 
 2. 수정할 메일 사용자를 선택 하 고 편집 아이콘 **편집** 을 클릭 ![ ](../../media/ITPro-EAC-AddIcon.png) 합니다.
 
 3. 메일 사용자 속성 페이지가 열리면 다음 탭 중 하나를 클릭 하 여 속성을 보거나 변경 합니다.
 
-   작업을 마쳤으면 **저장**을 클릭합니다.
+   작업을 마쳤으면 **저장** 을 클릭합니다.
 
 #### <a name="general"></a>일반
 
@@ -128,7 +128,7 @@ Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protec
 
 ### <a name="use-the-eac-to-remove-mail-users"></a>EAC를 사용 하 여 메일 사용자 제거
 
-1. EAC에서 **받는 사람** \> **연락처**로 이동합니다.
+1. EAC에서 **받는 사람** \> **연락처** 로 이동합니다.
 
 2. 제거할 메일 사용자를 선택한 다음 제거 아이콘 **제거** 를 클릭 ![ ](../../media/ITPro-EAC-RemoveIcon.gif) 합니다.
 
@@ -230,7 +230,7 @@ Remove-EOPMailUser -Identity "Jeffrey Zeng"
 
 독립 실행형 EOP에서 메일 사용자를 성공적으로 생성, 수정 또는 제거 했는지 확인 하려면 다음 절차 중 하나를 사용 하십시오.
 
-- EAC에서 **받는 사람** \> **연락처**로 이동합니다. 메일 사용자가 나열 되어 있거나 나열 되지 않았는지 확인 합니다. 메일 사용자를 선택 하 고 세부 정보 창에서 정보를 보거나 편집 아이콘 **편집** ![ 을 클릭 ](../../media/ITPro-EAC-AddIcon.png) 하 여 설정을 확인 합니다.
+- EAC에서 **받는 사람** \> **연락처** 로 이동합니다. 메일 사용자가 나열 되어 있거나 나열 되지 않았는지 확인 합니다. 메일 사용자를 선택 하 고 세부 정보 창에서 정보를 보거나 편집 아이콘 **편집** ![ 을 클릭 ](../../media/ITPro-EAC-AddIcon.png) 하 여 설정을 확인 합니다.
 
 - 독립 실행형 EOP PowerShell에서 다음 명령을 실행 하 여 메일 사용자가 나열 되어 있거나 나열 되지 않았는지 확인 합니다.
 
@@ -258,11 +258,11 @@ Remove-EOPMailUser -Identity "Jeffrey Zeng"
 
 - 다음 기능을 사용하려면 디렉터리 동기화를 사용하는 것이 좋습니다.
 
-  - **Outlook 수신 허용-보낸 사람 목록 및 수신 거부 목록**: 서비스에 동기화 된 경우 이러한 목록이 서비스의 스팸 필터링 보다 우선 적용 됩니다. 이렇게 하면 개별 보낸 사람 및 도메인 항목을 사용 하 여 사용자의 수신 허용-보낸 사람의 목록 및 수신 거부 목록을 관리할 수 있습니다. 자세한 내용은 [Exchange Online 사서함에 대한 정크 메일 설정 구성하기](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes)를 참조하세요.
+  - **Outlook 수신 허용-보낸 사람 목록 및 수신 거부 목록**: 서비스에 동기화 된 경우 이러한 목록이 서비스의 스팸 필터링 보다 우선 적용 됩니다. 이렇게 하면 개별 보낸 사람 및 도메인 항목을 사용 하 여 사용자의 수신 허용-보낸 사람의 목록 및 수신 거부 목록을 관리할 수 있습니다. 자세한 내용은 [Exchange Online 사서함에 대한 정크 메일 설정 구성하기](configure-junk-email-settings-on-exo-mailboxes.md)를 참조하세요.
 
   - **Dbeb (디렉터리 기반 Edge 차단)**: dbeb에 대 한 자세한 내용은 [Use Directory Based edge 차단은 잘못 된 받는 사람에 게 보낸 메시지를 거부](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)합니다 .를 참조 하세요.
 
-  - **최종 사용자에 게 격리에 대 한 액세스 권한**: 격리 된 메시지에 액세스 하려면 받는 사람에 게 서비스의 유효한 사용자 ID와 암호가 있어야 합니다. 격리에 대 한 자세한 내용은 [사용자로 격리 된 메시지 찾기 및 릴리스](https://docs.microsoft.com/microsoft-365/security/office-365-security/find-and-release-quarantined-messages-as-a-user)를 참조 하세요.
+  - **최종 사용자에 게 격리에 대 한 액세스 권한**: 격리 된 메시지에 액세스 하려면 받는 사람에 게 서비스의 유효한 사용자 ID와 암호가 있어야 합니다. 격리에 대 한 자세한 내용은 [사용자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.
 
   - **메일 흐름 규칙 (전송 규칙이 라고도 함)**: 디렉터리 동기화를 사용 하는 경우 기존 Active directory 사용자 및 그룹이 클라우드로 자동 업로드 되 고, 서비스에서 해당 사용자 및/또는 그룹을 수동으로 추가 하지 않고도이를 대상으로 하는 메일 흐름 규칙을 만들 수 있습니다. [동적 메일 그룹](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups) 은 디렉터리 동기화를 통해 동기화 할 수 없습니다.
 
@@ -285,4 +285,4 @@ Remove-EOPMailUser -Identity "Jeffrey Zeng"
 > [!IMPORTANT]
 > Azure Active Directory 동기화 도구 구성 마법사를 완료하면 Active Directory 포리스트에 **MSOL_AD_SYNC** 계정이 만들어집니다. 이 계정을 사용하여 온-프레미스 Active Directory 정보를 읽고 동기화합니다. 디렉터리 동기화가 정상적으로 작동하도록 하려면 로컬 디렉터리 동기화 서버의 TCP 443이 열려 있는지 확인합니다.
 
-동기화를 구성한 후 AAD 연결이 제대로 동기화 되는지 확인 해야 합니다. 이렇게 하려면 EAC에서 **받는 사람** \> **연락처**로 이동한 다음 온-프레미스 환경에서 사용자 목록이 올바르게 동기화되었는지 확인합니다.
+동기화를 구성한 후 AAD 연결이 제대로 동기화 되는지 확인 해야 합니다. 이렇게 하려면 EAC에서 **받는 사람** \> **연락처** 로 이동한 다음 온-프레미스 환경에서 사용자 목록이 올바르게 동기화되었는지 확인합니다.

@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection)의 보안 강화 설정에 대 한 자세한 정보
-ms.openlocfilehash: 9f676dcd89f0322792bd40e06879b9758082d94e
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 23c0cad2b96b3a2002f235db7739b903cf862366
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131100"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357866"
 ---
 # <a name="secure-by-default-in-office-365"></a>Office 365에서 기본적으로 보안
 
@@ -47,7 +47,7 @@ Microsoft는 고객의 보안을 기본적으로 유지 하려고 하기 때문�
 - Outlook 수신 허용-보낸 사람
 - IP 허용 목록 (연결 필터링)
 
-이러한 재정의에 대 한 자세한 내용은 [수신 허용-보낸 사람 목록 만들기](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365)에서 찾을 수 있습니다.
+이러한 재정의에 대 한 자세한 내용은 [수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)에서 찾을 수 있습니다.
 
 기본적으로 보안은 설정 또는 해제할 수 있는 설정이 아니며, 필터링이 상자에서 작동 하 여 위험할 수도 있고 원치 않는 메시지를 사서함에서 제외 하는 방법을 제공 합니다. 맬웨어 및 높은 신뢰도의 피싱이 격리로 전송 되어야 합니다. 관리자만이 맬웨어 또는 높은 자신감 피싱 메일로 격리 된 메시지를 관리할 수 있으며, Microsoft에 가양성을 보고할 수도 있습니다. 자세한 내용은 [격리 된 메시지 및 파일을 관리자 권한으로 EOP에서 관리](manage-quarantined-messages-and-files.md) 를 참조 하세요.
 

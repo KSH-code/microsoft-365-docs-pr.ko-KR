@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: EOP (Exchange Online Protection) 및 Defender for Office 365 보안 설정에 대 한 모범 사례는 무엇 인가요? 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 Office 365 용으로 Defender를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: bcad3609f5f73ac538ae9d1a0964ecc8e176003e
-ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
+ms.openlocfilehash: af741e1af412d535c53beb83c36c0cbe3fcd617b
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49126640"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357124"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>EOP 및 Office 용 Microsoft Defender 365 보안에 대 한 권장 설정
 
@@ -291,6 +291,6 @@ PowerShell에서는 이러한 설정에 대해 [get-safeattachmentpolicy](https:
 
 - 관리자 및 사용자는 가양성 (잘못 된 것으로 표시 된 좋은 전자 메일)과 거짓 네거티브 (잘못 된 전자 메일 허용)를 분석을 위해 Microsoft에 제출할 수 있습니다. 자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
 
-- [EOP 서비스](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-your-eop-service)를 **설정** 하는 방법에 대 한 정보를 보려면 다음 링크를 사용 하 고 [Office 365 용 Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)를 **구성** 합니다. '[Office 365의 위협 으로부터 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)'에서 도움이 되는 지침을 잊지 마십시오.
+- [EOP 서비스](set-up-your-eop-service.md)를 **설정** 하는 방법에 대 한 정보를 보려면 다음 링크를 사용 하 고 [Office 365 용 Microsoft Defender](office-365-atp.md)를 **구성** 합니다. '[Office 365의 위협 으로부터 보호](protect-against-threats.md)'에서 도움이 되는 지침을 잊지 마십시오.
 
 - **Windows 용 보안 기준은** 여기에서 찾을 수 있습니다. GPO/온-프레미스 옵션에 대 한 보안 기준을 제공 하 고 [보안 기준을 사용 하 여 Intune 기반 보안용 intune에서 Windows 10 장치를 구성 하](https://docs.microsoft.com/intune/protect/security-baselines) [는 방법을 알아봅니다](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) . 마지막으로 microsoft defender for Endpoint 및 Microsoft Intune 보안 기준을 비교 하 여 [끝점 및 Windows intune 보안 기준을 비교해](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines)볼 수 있습니다.

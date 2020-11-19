@@ -17,18 +17,19 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 97dece3f3c732686cff885923532af14b6106b48
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 70fd278dd4cdeadd5e8911705ac3f87d981a3de0
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906851"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356874"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터 개요
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-
+> Microsoft 365 Defender를 경험해 원하십니까? [랩 환경에서이를 평가](https://aka.ms/mtp-trial-lab) 하거나 [프로덕션에서 파일럿 프로젝트를 실행할](https://aka.ms/m365d-pilotplaybook)수 있습니다.
+>
 비즈니스 보안을 관리 하 여 지속적으로 진화 하는 위협 으로부터 보호 하려면 많은 과제가 제공 됩니다. 여러 가지 위치를 사용 하 여 많은 수의 컨트롤을 구성 하는 경우 보안 솔루션이 너무 많이 있을 수 있습니다. 가장 효율적이 고 직원 들에 게 새로운 도전 과제가 도입 되는 컨트롤을 파악 하는 데 어려움이 있을 수 있습니다. 보안 팀이 보안 및 생산성에 대 한 적절 한 균형을 찾는 것이 어려울 수 있습니다.
 
 Microsoft 365 보안 센터-Microsoft id, 데이터, 장치, 앱 및 인프라 간의 보안을 모니터링 하 고 관리 하는 새 홈을 입력 합니다. 여기에서 조직의 보안 상태를 쉽게 확인 하 고, 장치, 사용자 및 앱을 구성 하 고, 의심 스러운 활동에 대 한 알림을 받을 수 있습니다. Microsoft 365 보안 센터는 보안 관리자 및 보안 운영 팀이 조직을 관리 하 고 보호 하는 데 도움을 주기 위한 것입니다.

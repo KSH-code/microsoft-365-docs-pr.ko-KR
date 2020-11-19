@@ -21,12 +21,12 @@ description: Office 용 Microsoft Defender 365에서 자동화 된 조사 및 �
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: 039cca2f6f61d7c82f8c3e85f1fd147a68f84b68
-ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
+ms.openlocfilehash: b901585f0a25c51c377e974c56faffe560eab5f3
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "48948436"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357674"
 ---
 # <a name="how-automated-investigation-and-response-works-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365에서 자동화 된 조사 및 대응 작동 방식
 
@@ -97,4 +97,4 @@ Microsoft Defender for Office 365의 AIR 기능에는 보안 작업 팀이 위�
 
 - [Microsoft 365 로드맵를 방문 하 여 곧 계획 되 고 출시 되는 사항을 확인 하세요.](https://www.microsoft.com/microsoft-365/roadmap?filters=)
 
-- [Microsoft 365 Defender의 자동화 된 조사 및 응답 기능에 대해 알아보기](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir?view=o365-worldwide&preserve-view=true)
+- [Microsoft 365 Defender의 자동화 된 조사 및 응답 기능에 대해 알아보기](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

@@ -17,18 +17,18 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: 653bd90fb68eb42423d5f32633736bba4b5943b4
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: 7e8104e234bd1b724bc62fb1a9b401ab83a2bcb4
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464315"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357530"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>SharePoint 사이트 및 파일을 보호 하기 위한 정책 권장 사항
 
 이 문서에서는 SharePoint 및 비즈니스용 OneDrive를 보호 하기 위해 권장 되는 id 및 장치 액세스 정책을 구현 하는 방법을 설명 합니다. 이 지침은 [일반 id 및 장치 액세스 정책을](identity-access-policies.md)기반으로 합니다.
 
-이러한 권장 사항은 **기본**, **중요**및 **높은 규제**의 요구 사항에 따라 적용할 수 있는 SharePoint 파일에 대 한 세 가지 보안 및 보호 계층을 기반으로 합니다. 이러한 보안 계층 및 권장 되는 클라이언트 운영 체제에 대 한 자세한 내용은 [개요](microsoft-365-policies-configurations.md)의 이러한 권장 사항을 참조 하세요.
+이러한 권장 사항은 **기본**, **중요** 및 **높은 규제** 의 요구 사항에 따라 적용할 수 있는 SharePoint 파일에 대 한 세 가지 보안 및 보호 계층을 기반으로 합니다. 이러한 보안 계층 및 권장 되는 클라이언트 운영 체제에 대 한 자세한 내용은 [개요](microsoft-365-policies-configurations.md)의 이러한 권장 사항을 참조 하세요.
 
 이 지침을 구현 하는 것 외에도 중요 한 콘텐츠와 고도로 규제 된 콘텐츠에 대 한 적절 한 사용 권한을 설정 하는 것을 포함 하 여 SharePoint 사이트를 올바른 보호 수준으로 구성 해야 합니다.
 
@@ -47,17 +47,18 @@ SharePoint 및 OneDrive에서 파일을 보호 하기 위해 일반 id 및 장�
 다음 표에는 SharePoint 용으로 검토 하 고 업데이트 하거나 새를 만드는 데 필요한 정책이 나와 있습니다. 공통 정책- [일반 id 및 장치 액세스 정책](identity-access-policies.md) 문서의 관련 구성 지침에 대 한 링크를 제공 합니다.
 
 |보호 수준|정책|추가 정보|
-|:---------------|:-------|:----------------|
+|---|---|---|
 |**기준**|[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 SharePoint를 포함 합니다.|
-|        |[최신 인증을 지원하지 않는 클라이언트 차단](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|클라우드 앱 할당에 SharePoint를 포함 합니다.|
-|        |[앱 데이터 보호 정책 적용](identity-access-policies.md#apply-app-data-protection-policies)|모든 권장 앱이 앱 목록에 포함 되어 있는지 확인해 보십시오. 각 플랫폼 (iOS, Android, Windows)에 대 한 정책을 업데이트 해야 합니다.|
-|        |[호환 PC 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|클라우드 앱 목록에 SharePoint를 포함 합니다.|
-|        |[SharePoint에서 앱 적용 제한을 사용 합니다.](#use-app-enforced-restrictions-in-sharepoint)|새 정책을 추가 합니다. 이렇게 하면 Azure Active Directory (Azure AD)에서 SharePoint에 지정 된 설정을 사용 하 라는 메시지가 나타납니다. 이 정책은 모든 사용자에 게 적용 되지만 SharePoint 액세스 정책에 포함 된 사이트에 대 한 액세스에만 영향을 줍니다.|
+||[최신 인증을 지원하지 않는 클라이언트 차단](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|클라우드 앱 할당에 SharePoint를 포함 합니다.|
+||[앱 데이터 보호 정책 적용](identity-access-policies.md#apply-app-data-protection-policies)|모든 권장 앱이 앱 목록에 포함 되어 있는지 확인해 보십시오. 각 플랫폼 (iOS, Android, Windows)에 대 한 정책을 업데이트 해야 합니다.|
+||[호환 PC 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|클라우드 앱 목록에 SharePoint를 포함 합니다.|
+||[SharePoint에서 앱 적용 제한을 사용 합니다.](#use-app-enforced-restrictions-in-sharepoint)|새 정책을 추가 합니다. 이렇게 하면 Azure Active Directory (Azure AD)에서 SharePoint에 지정 된 설정을 사용 하 라는 메시지가 나타납니다. 이 정책은 모든 사용자에 게 적용 되지만 SharePoint 액세스 정책에 포함 된 사이트에 대 한 액세스에만 영향을 줍니다.|
 |**중요**|[로그인 위험이 *낮은* *경우 MFA* 필요 *high*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱의 할당에 SharePoint를 포함 합니다.|
-|         |[준수 Pc *및* 모바일 장치 요구](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|클라우드 앱 목록에 SharePoint를 포함 합니다.|
+||[준수 Pc *및* 모바일 장치 요구](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|클라우드 앱 목록에 SharePoint를 포함 합니다.|
 ||[SharePoint 액세스 제어 정책](#sharepoint-access-control-policies): 관리 되지 않는 장치에서 특정 SharePoint 사이트에 대 한 브라우저 전용 액세스를 허용 합니다.|이렇게 하면 파일을 편집 하 고 다운로드할 수 없습니다. PowerShell을 사용 하 여 사이트를 지정 합니다.|
 |**매우 엄격한 규제**|[*항상* MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 SharePoint를 포함 합니다.|
 ||[SharePoint 액세스 제어 정책](#use-app-enforced-restrictions-in-sharepoint): 관리 되지 않는 장치에서 특정 SharePoint 사이트에 대 한 액세스를 차단 합니다.|PowerShell을 사용 하 여 사이트를 지정 합니다.|
+|
 
 ## <a name="use-app-enforced-restrictions-in-sharepoint"></a>SharePoint에서 앱 적용 제한 사용
 
@@ -98,4 +99,3 @@ James에는 기준 조건부 액세스 정책이 할당 되었지만 중요 하�
 
 - [Microsoft Teams](teams-access-policies.md)
 - [Exchange Online](secure-email-recommended-policies.md)
-

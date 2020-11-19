@@ -11,12 +11,12 @@ ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 보안 & 준수 센터에서 전자 메일을 전달 하는 새 사용자를 사용 하 여 조직의 사용자가 새 도메인으로 메시지를 전달 하는 경우 조사 하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: af66a84efbd4c0b8f1ccdacf4b71d1caca1c3929
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 22bbd762b221fae151a489aa1e9485dfc7baf06a
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877528"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357276"
 ---
 # <a name="new-users-forwarding-email-insight-in-the-security--compliance-center"></a>보안 & 준수 센터에서 전자 메일을 전달 하는 새 사용자
 
@@ -25,7 +25,7 @@ ms.locfileid: "48877528"
 
 조직의 새 사용자 계정이 갑자기 외부 도메인으로 전자 메일 메시지를 전달 하기 시작 하면 의심 스러운 것입니다.
 
-[보안 & 준수 센터](https://protection.office.com) 에 **전달 되는 새 도메인** 은 조직에서 새로 만든 사용자가 외부 도메인으로 메시지를 전달 하는 경우 사용자에 게 알려 줍니다. 이 조건은 손상 된 관리자 계정을 사용 하 여 새 사용자를 만드는 것을 나타낼 수 있습니다. 계정이 손상 된 것으로 의심 되는 경우 [손상 된 전자 메일 계정에 응답](https://docs.microsoft.com/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account)을 참조 하세요.
+[보안 & 준수 센터](https://protection.office.com) 에 **전달 되는 새 도메인** 은 조직에서 새로 만든 사용자가 외부 도메인으로 메시지를 전달 하는 경우 사용자에 게 알려 줍니다. 이 조건은 손상 된 관리자 계정을 사용 하 여 새 사용자를 만드는 것을 나타낼 수 있습니다. 계정이 손상 된 것으로 의심 되는 경우 [손상 된 전자 메일 계정에 응답](responding-to-a-compromised-email-account.md)을 참조 하세요.
 
 이 통찰력은 문제가 검색 된 경우에만 나타나며 [전달 보고서](view-mail-flow-reports.md#forwarding-report) 페이지에 표시 됩니다.
 
@@ -59,11 +59,11 @@ ms.locfileid: "48877528"
 
 보고서 보기에서는 다음과 같은 차트를 사용할 수 있습니다.
 
-- **데이터 표시: 새 전달 사용자** :
+- **데이터 표시: 새 전달 사용자**:
 
   ![전달 수정 보고서의 새 전달 사용자 보기](../../media/forwarding-modifications-report-new-forwarding-users.png)
 
-- **데이터 표시: 새 전달 도메인** :
+- **데이터 표시: 새 전달 도메인**:
 
   ![전달 수정 보고서의 새 전달 된 도메인 보기](../../media/forwarding-modifications-report-new-forwarded-domains.png)
 
@@ -73,18 +73,18 @@ ms.locfileid: "48877528"
 
 **세부 정보 표 보기** 를 클릭 하면 표시 되는 정보는 보고 있는 차트에 따라 달라 집니다.
 
-- **데이터 표시: 새 전달 사용자** :
+- **데이터 표시: 새 전달 사용자**:
 
-  - **이름** : 보낸 사람의 전자 메일 주소입니다.
+  - **이름**: 보낸 사람의 전자 메일 주소입니다.
   - **전달 유형**
   - **받는 사람 주소**
   - **세부 정보**
   - **개수**
   - **첫 번째 전달 날짜**
 
-- **데이터 표시: 새 전달 도메인** :
+- **데이터 표시: 새 전달 도메인**:
 
-  - **이름** : 보낸 사람의 전자 메일 도메인입니다.
+  - **이름**: 보낸 사람의 전자 메일 도메인입니다.
   - **전달 유형**
   - **받는 사람 주소**
   - **세부 정보**
@@ -95,13 +95,13 @@ ms.locfileid: "48877528"
 
 표에서 행을 선택 하면 다음과 같은 정보가 포함 된 **세부 정보** 플라이 아웃이 나타납니다.
 
-- **Name** : 보낸 사람의 전자 메일 주소 ( **새 착신 전환 사용자** 보기) 또는 보낸 사람의 전자 메일 도메인 ( **데이터 표시 위치: 새 포워딩 도메인** 보기)입니다.
+- **Name**: 보낸 사람의 전자 메일 주소 ( **새 착신 전환 사용자** 보기) 또는 보낸 사람의 전자 메일 도메인 ( **데이터 표시 위치: 새 포워딩 도메인** 보기)입니다.
 - **전달 유형**
 - **받는 사람**
 - **세부 정보**
 - **개수**
 - **시작 날짜**
-- **권장 사항** : 여기서는 Microsoft 365 관리 센터에서 사용자를 관리 하기 위한 링크를 클릭할 수 있습니다.
+- **권장 사항**: 여기서는 Microsoft 365 관리 센터에서 사용자를 관리 하기 위한 링크를 클릭할 수 있습니다.
 
 ![전달 수정 보고서의 새 전달 사용자 보기의 세부 정보 테이블에서 정보 플라이 아웃](../../media/mfi-forwarding-modifications-report-new-forwarding-users-view-details-table-details.png)
 

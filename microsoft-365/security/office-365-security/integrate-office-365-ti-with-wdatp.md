@@ -18,19 +18,19 @@ ms.collection:
 - M365-security-compliance
 description: Microsoft defender for Office 365와 Microsoft Defender for Endpoint를 함께 사용 하 여 장치 및 전자 메일 콘텐츠에 대 한 위협에 대 한 자세한 정보를 확인 하세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6b8bec8d3ebe52de9b4e1b919b2aceee20b5b5b0
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 7f668aa1234509789dacd2b018b94f1bfbc79e2c
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842359"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357782"
 ---
 # <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>Microsoft defender for Office 365 with Endpoint for for 끝점 사용
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-[Microsoft defender For Office 365 For](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) [Endpoint에 대](https://docs.microsoft.com/windows/security/threat-protection)
+[Microsoft defender For Office 365 For](office-365-atp.md) [Endpoint에 대](https://docs.microsoft.com/windows/security/threat-protection)
 
 Microsoft defender for Office 365을 끝점에 통합 하면 사용자의 장치가 위험에 처 한 경우 보안 운영 팀이 보다 신속 하 게 작업을 수행 하는 데 도움이 될 수 있습니다. 예를 들어 통합을 사용 하도록 설정 하면 보안 운영 팀이 검색 된 전자 메일 메시지의 영향을 받을 가능성이 있는 장치를 볼 수 있을 뿐만 아니라 끝점에 대 한 Microsoft Defender에서 해당 장치에 대 한 최근 경고가 발생 한 횟수를 확인할 수도 있습니다. 
 
@@ -73,6 +73,6 @@ Microsoft defender for Office 365을 끝점에 통합 하면 사용자의 장치
 
 [Office 365의 위협 조사 및 응답 기능](office-365-ti.md)
   
-[Microsoft Defender for Office 365](office-365-atp.md)
+[Office 365용 Microsoft Defender](office-365-atp.md)
   
 [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection)

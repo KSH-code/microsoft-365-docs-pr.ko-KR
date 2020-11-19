@@ -17,17 +17,19 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e434f6088fa1cd08e6b14e3808007e89f32b83a3
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: d52c401c4b2e995e5ec18895c158f77ce0fce746
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48431042"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356886"
 ---
 # <a name="monitor-and-view-reports-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터에서 보고서 모니터링 및 보기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
+> Microsoft 365 Defender를 경험해 원하십니까? [랩 환경에서이를 평가](https://aka.ms/mtp-trial-lab) 하거나 [프로덕션에서 파일럿 프로젝트를 실행할](https://aka.ms/m365d-pilotplaybook)수 있습니다.
+>
 
 Microsoft 365 보안 센터에서는 Microsoft 365 환경 전체의 보호 및 보안 상태에 대 한 요약을 제공 합니다.
 
@@ -42,7 +44,7 @@ Microsoft 365 보안 센터에서는 Microsoft 365 환경 전체의 보호 및 �
 * [장치](monitor-devices.md) -컴퓨터, 휴대폰 및 기타 장치
 * [앱](monitor-apps.md) -프로그램 및 연결 된 온라인 서비스
 
-그룹화 방법 **항목**으로 전환 하 여 카드를 다시 정렬 하 고 다음 항목으로 그룹화 합니다.
+그룹화 방법 **항목** 으로 전환 하 여 카드를 다시 정렬 하 고 다음 항목으로 그룹화 합니다.
 
 * **위험** -계정 및 장치와 같이 위험에 노출 될 수 있는 엔터티를 강조 표시 하는 카드입니다. 이러한 카드는 새 위협 캠페인 및 권한이 부여 된 클라우드 앱과 같은 가능한 위험 출처를 강조 합니다.  
 * **검색 경향** -새로운 위협 감지, 예외 및 정책 위반을 강조 표시 하는 카드

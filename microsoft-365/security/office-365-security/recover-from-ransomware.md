@@ -14,12 +14,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Microsoft 365 관리자는 랜 섬 웨어 공격 으로부터 복구 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: de1cddbdf1c2b3ffeb8fd74a8f0d31e815eb1b70
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: a1369e64821902e3c2a3061acd1bbebeeb6c85ac
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920611"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357100"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Microsoft 365에서 랜 섬 웨어 공격 으로부터 복구
 
@@ -76,7 +76,7 @@ OneDrive 동기화를 일시 중지 하면 잠재적으로 감염 된 장치에 
 
 이전 단계를 완료 하 여 환경에서 랜 섬 웨어 페이로드를 제거한 후 (섬 웨어 파일을 암호화 하거나 제거 하지 못하게 함) windows 10 및 Windows 8.1의 [파일 기록을](https://support.microsoft.com/help/17128) 사용 하 여 로컬 파일 및 폴더 복구를 시도할 수 있습니다.
 
-**참고** :
+**참고:**
 
 - 일부 랜 섬 웨어도 백업 버전을 암호화 하거나 삭제 하므로 파일 기록 또는 시스템 보호를 사용 하 여 파일을 복원할 수 없습니다. 이 경우 다음 섹션에 설명 된 대로 랜 섬 웨어 또는 OneDrive의 영향을 받지 않았던 외부 드라이브 또는 장치에서 백업을 사용 해야 합니다.
 
@@ -88,7 +88,7 @@ OneDrive 동기화를 일시 중지 하면 잠재적으로 감염 된 장치에 
 
 ## <a name="step-6-recover-deleted-email"></a>6 단계: 삭제 된 전자 메일 복구
 
-드물지만 랜 섬 웨어가 모든 전자 메일을 삭제 한 경우에는 삭제 된 항목을 복구할 수 있습니다. 자세한 내용은 다음을 참조하세요.
+드물지만 랜 섬 웨어가 모든 전자 메일을 삭제 한 경우에는 삭제 된 항목을 복구할 수 있습니다. 자세한 내용은 다음을 참조하시기 바랍니다.
 
 - [사용자의 사서함에서 삭제된 메시지 복구](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/recover-deleted-messages)
 
@@ -148,7 +148,7 @@ OneDrive 동기화를 일시 중지 하면 잠재적으로 감염 된 장치에 
 
 - [Office 파일에서 매크로를 사용 하거나 사용 하지 않도록 설정](https://support.microsoft.com/office/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
 
-- [EOP 및 Office 용 Microsoft Defender 365 보안에 대 한 권장 설정](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp)
+- [EOP 및 Office 용 Microsoft Defender 365 보안에 대 한 권장 설정](recommended-settings-for-eop-and-office365-atp.md)
 
 - [훌륭한 업그레이드: Windows 10의 차세대 보안은 2017에서 랜 섬 웨어에 대 한 복원성을 입증 합니다.](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
 

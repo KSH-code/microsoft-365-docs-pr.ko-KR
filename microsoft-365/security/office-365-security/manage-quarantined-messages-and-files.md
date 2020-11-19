@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP (Exchange Online Protection)에서 모든 사용자에 대해 격리 된 메시지를 확인 하 고 관리 하는 방법을 확인할 수 있습니다. Microsoft Defender for Office 365를 사용 하는 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀에서 격리 된 파일을 관리할 수도 있습니다.
-ms.openlocfilehash: 94dfc8503d61c16aadc8e9d0ccfd295e2684fbba
-ms.sourcegitcommit: 1db81b85d327fe423695ce675ad325e538417211
+ms.openlocfilehash: fed05ee202e4352200a80516e0ec1b62c8421178
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49349283"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357136"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>EOP에서 관리자 권한으로 격리된 메시지 및 파일 관리하기
 
@@ -165,7 +165,7 @@ Microsoft Defender for Office 365를 사용 하는 조직의 관리자는 ShareP
   - 다음 옵션 중 하나를 선택 합니다.
     - **모든 받는 사람에 게 메시지를 놓습니다.**
     - **특정 받는 사람에 게 메시지를 놓습니다.**
-    - **다른 사람에 게 메시지를 놓습니다.**
+    - **다른 사용자에 게 메시지 놓기**: 원래 받는 사람 이외의 사용자에 게 맬웨어 메시지를 릴리스하기는 지원 되지 않습니다. 
 
   작업을 마쳤으면 **메시지 해제** 를 클릭합니다.
 
@@ -208,7 +208,7 @@ Microsoft Defender for Office 365를 사용 하는 조직의 관리자는 ShareP
   > [!NOTE]
   > John@gmail.com에서 faith@contoso.com 및 john@subsidiary.contoso.com에 메시지를 전송 하는 시나리오를 살펴보겠습니다. Gmail 분기가 수행이 메시지는 모두 Microsoft의 피싱으로 격리로 라우팅되는 두 개의 복사본으로 전달 됩니다. 관리자가 이러한 메시지를 모두 admin@contoso.com에 게 릴리스 합니다. 관리자 사서함에 도달 하는 첫 번째로 릴리스된 메시지가 배달 됩니다. 두 번째로 릴리스된 메시지는 중복 배달으로 식별 되며 건너 뜁니다. 메시지 ID가 같고 시간이 받은 경우 메시지는 중복 항목으로 식별 됩니다.
 
-- **메시지 삭제하기**: 표시되는 경고에서 **예** 를 클릭하면 메시지는 원래 받는 사람에게 보내지지 않고 즉시 삭제됩니다.
+- **메시지 삭제**: 표시 되는 경고에서 **예** 를 클릭 하면 메시지가 원래 받는 사람에 게 전송 되지 않고 즉시 삭제 됩니다.
 
 작업을 마쳤으면 **닫기** 를 클릭합니다.
 

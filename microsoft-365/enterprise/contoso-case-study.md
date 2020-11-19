@@ -14,12 +14,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: 가상의 대표적인 글로벌 조직에서 기업에 대해 Microsoft 365을 채택한 방식입니다.
-ms.openlocfilehash: 980146a2a9c2a909d0b65c20e460841dce9fecee
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: eef22b372df36a4e5d14351df342268c195d04ce
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754671"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356994"
 ---
 # <a name="microsoft-365-for-enterprise-for-the-contoso-corporation"></a>Contoso Corporation에 대 한 엔터프라이즈에 대 한 Microsoft 365
 
@@ -66,6 +66,12 @@ Contoso Corporation은 파리에 있는 가상의 대표적인 글로벌 제조 
 - [엔터프라이즈 보안용 Microsoft 365 요약](contoso-security-summary.md)
 
   Contoso는 id 및 액세스 관리, 위협 방지, 정보 보호 및 보안 관리를 위해 Microsoft 365의 전체 엔터프라이즈 보안 기능을 사용 합니다.
+
+다음과 같은 추가 IT 시나리오 및 구성을 참조 하세요.
+
+- [하이브리드 직원을 위한 COVID-19 대응 및 인프라](../solutions/contoso-hybrid-workforce.md)
+
+  Contoso에서 COVID-19 pandemic에 대 한 원격 액세스 인프라를 업데이트 하 고, 하이브리드 직원을 위해 새로운 설치 및 업데이트 인프라에 대해 설명 합니다.
 
 - [극비 프로젝트를 위한 팀](../solutions/contoso-team-for-top-secret-project.md)
 

@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: 이 문서에서는 포털 시작 스케줄러를 사용 하 여 포털을 시작 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: a7a007fdd95638109830a8e3689232060f2b9d8b
-ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
+ms.openlocfilehash: e5e5850fa7e74f3e3b342e9bb28d17f65b491664
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49123586"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356670"
 ---
 # <a name="launch-your-portal-using-the-portal-launch-scheduler"></a>포털 시작 스케줄러를 사용 하 여 포털 시작
 
@@ -34,7 +34,7 @@ ms.locfileid: "49123586"
 - 양방향 작업: 새로운 최신 SharePoint Online 포털을 시작 하 여 기존 SharePoint 클래식 또는 최신 포털을 교체 합니다. 
 - 임시 페이지 리디렉션: 기존 SharePoint 포털을 사용 하지 않고 새로운 최신 SharePoint Online 포털 시작
 
-포털 시작 스케줄러는 커뮤니케이션 사이트 및 최신 팀 사이트와 같은 최신 SharePoint Online 포털을 실행 하는 경우에만 사용할 수 있습니다. 시작을 7 일 이상 미리 예약 해야 합니다. 필요한 물결 수는 예상 사용자 수에 따라 결정 됩니다. 포털 시작을 예약 하기 전에 포털의 홈 페이지가 정상 인지 확인 하기 위해 [SharePoint 용 페이지 진단을](https://aka.ms/perftool) 실행 해야 합니다. 포털 시작이 끝나면 사이트에 대 한 사용 권한이 있는 모든 사용자가 새 사이트에 액세스할 수 있습니다. 
+포털 시작 스케줄러는 최신 SharePoint Online 포털 (예: 커뮤니케이션 사이트)을 실행 하는 경우에만 사용할 수 있습니다. 시작을 7 일 이상 미리 예약 해야 합니다. 필요한 물결 수는 예상 사용자 수에 따라 결정 됩니다. 포털 시작을 예약 하기 전에 포털의 홈 페이지가 정상 인지 확인 하기 위해 [SharePoint 용 페이지 진단을](https://aka.ms/perftool) 실행 해야 합니다. 포털 시작이 끝나면 사이트에 대 한 사용 권한이 있는 모든 사용자가 새 사이트에 액세스할 수 있습니다. 
 
 성공적인 포털을 시작 하는 방법에 대 한 자세한 내용은 [정상 포털을 만들고, 시작 하 고, 유지 관리](https://docs.microsoft.com/sharepoint/portal-health)하는 방법에 대해 설명 하는 기본 원칙, 모범 사례 및 권장 사항을 따르세요. 
 
@@ -66,9 +66,11 @@ ms.locfileid: "49123586"
 - 30k + 10만 명의 사용자: 5 물결
 - 10만 명 이상: 5 개의 물결 및 Microsoft 계정 팀에 문의
 
-### <a name="steps-for-bi-directional-redirection"></a>양방향 리디렉션 단계
+### <a name="steps-for-bidirectional-redirection"></a>양방향 리디렉션 단계
 
-양방향 리디렉션에는 기존 SharePoint 클래식 또는 최신 포털을 대체 하기 위해 최신 SharePoint Online 포털을 새로 시작 하는 작업이 포함 됩니다. 활성 물결의 사용자가 이전 사이트 또는 새 사이트로 이동 하는지 여부에 관계 없이 새 사이트로 리디렉션됩니다. 시작 되지 않은 웨이브의 사용자가 새 사이트에 액세스 하려고 하면 해당 물결이 시작 될 때까지 이전 사이트로 다시 리디렉션됩니다. 이전 및 새 사이트를 리디렉션하지 않고 액세스 해야 하는 관리자 또는 소유자가 있는 경우에는 매개 변수를 사용 하 여 나열 되는지 확인 합니다 `WaveOverrideUsers` . 
+양방향 리디렉션에는 기존 SharePoint 클래식 또는 최신 포털을 대체 하기 위해 최신 SharePoint Online 포털을 새로 시작 하는 작업이 포함 됩니다. 활성 물결의 사용자가 이전 사이트 또는 새 사이트로 이동 하는지 여부에 관계 없이 새 사이트로 리디렉션됩니다. 시작 되지 않은 웨이브의 사용자가 새 사이트에 액세스 하려고 하면 해당 물결이 시작 될 때까지 이전 사이트로 다시 리디렉션됩니다. 
+
+이전 및 새 사이트를 리디렉션하지 않고 액세스 해야 하는 관리자 또는 소유자가 있는 경우에는 매개 변수를 사용 하 여 나열 되는지 확인 합니다 `WaveOverrideUsers` . 이전 사이트의 기본 홈 페이지와 새 사이트의 기본 홈 페이지 간 리디렉션을 지원 합니다.
 
 기존 SharePoint 사이트의 사용자를 미리 구성 된 방식으로 새 SharePoint 사이트로 마이그레이션하려면 다음을 수행 합니다.
 

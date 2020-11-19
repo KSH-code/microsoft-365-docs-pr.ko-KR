@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 4420342f964564305bb113c45ee0e3107f8a822e
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 649f3e777a330e1b60faf4f3513a470b51e56a80
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130984"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356982"
 ---
 # <a name="planning-your-pilot-microsoft-365-defender-project"></a>파일럿 Microsoft 365 Defender 프로젝트 계획 
 
@@ -88,8 +88,8 @@ ms.locfileid: "49130984"
 | 사용 사례 | 요구 사항 | 구성 요구 사항 | 테스트 계획 | 예상 결과 | 테스트 상태 | 점수 | 메모들 |
 |:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
 |사건 관리|-Microsoft 365 Defender  </br></br>-Id 용 Microsoft Defender </br></br>-끝점에 대 한 Microsoft Defender </br></br>-Microsoft Cloud App Security (선택 사항)|자세한 내용은 준비, 설정 및 구성을 위한 [필수 구성 요소](https://aka.ms/mtp-trial-lab) 를 참조 하세요. |[공격 시뮬레이션](mtp-pilot-simulate.md) <br></br>[문제 조사](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate#investigate-an-incident) |Investigators는 사고의 범위와 영향을 이해 하 고 인시던트를 관리할 수 있습니다.||||
-|AutoIR|-Microsoft 365 Defender </br></br>-Id 용 Microsoft Defender </br></br>-끝점에 대 한 Microsoft Defender |자세한 내용은 준비, 설정 및 구성을 위한 [필수 구성 요소](https://aka.ms/mtp-trial-lab) 를 참조 하세요. <br>AutoIR 사용  |[공격 시뮬레이션](mtp-pilot-simulate.md) <br></br>[자동화 된 조사](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#automated-investigation-and-remediation) |경고 및 인시던트는 Microsoft 365 Defender에서 자동으로 재구성 됩니다.||||
-|고급 헌팅|-Microsoft 365 Defender </br></br>-끝점에 대 한 Microsoft Defender </br></br>-Microsoft Defender for Office 365 |자세한 내용은 준비, 설정 및 구성을 위한 [필수 구성 요소](https://aka.ms/mtp-trial-lab) 를 참조 하세요.|[고급 구하기 시나리오](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#advanced-hunting-scenario) |Investigators에서는 고급 검색을 통해 데이터를 찾고, 영향을 받는 엔터티에 대 한 피벗을 하며, 사용자 지정 감지를 만들면||||
+|AutoIR|-Microsoft 365 Defender </br></br>-Id 용 Microsoft Defender </br></br>-끝점에 대 한 Microsoft Defender |자세한 내용은 준비, 설정 및 구성을 위한 [필수 구성 요소](https://aka.ms/mtp-trial-lab) 를 참조 하세요. <br>AutoIR 사용  |[공격 시뮬레이션](mtp-pilot-simulate.md) <br></br>[자동화 된 조사](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate#automated-investigation-and-remediation) |경고 및 인시던트는 Microsoft 365 Defender에서 자동으로 재구성 됩니다.||||
+|고급 헌팅|-Microsoft 365 Defender </br></br>-끝점에 대 한 Microsoft Defender </br></br>-Microsoft Defender for Office 365 |자세한 내용은 준비, 설정 및 구성을 위한 [필수 구성 요소](https://aka.ms/mtp-trial-lab) 를 참조 하세요.|[고급 구하기 시나리오](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate#advanced-hunting-scenario) |Investigators에서는 고급 검색을 통해 데이터를 찾고, 영향을 받는 엔터티에 대 한 피벗을 하며, 사용자 지정 감지를 만들면||||
 
 
 

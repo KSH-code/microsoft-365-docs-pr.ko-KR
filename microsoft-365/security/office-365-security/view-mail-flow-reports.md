@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 보안 & 준수 센터의 보고서 대시보드에서 사용할 수 있는 메일 흐름 보고서에 대해 알아볼 수 있습니다.
 ms.custom: ''
-ms.openlocfilehash: 807166ea0c6ea8a26716bc7017387499382c9e7e
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 840b9920fc3f994140702eae0bf5ddbdeac4b465
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131336"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357926"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>보안 & 준수 센터의 보고서 대시보드에서 메일 흐름 보고서 보기
 
@@ -541,7 +541,7 @@ EOP 또는 Office 365 용 Defender에서 필터링 한 전자 메일을 별도�
 
   -조직 관리-보안 관리자 ( [Azure Active Directory 관리 센터](https://aad.portal.azure.com) 에서이 작업을 수행할 수도 있음)-보안 독자
 
-  자세한 내용은 [보안 및 준수 센터의 사용 권한](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)을 참조하세요.
+  자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
 - Exchange Online에서 다음 역할 그룹 중 하나의 구성원 이어야 합니다.
 

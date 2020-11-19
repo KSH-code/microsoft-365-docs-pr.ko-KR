@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-m365-defender
 description: 관리자는 Microsoft 365의 위협 보호에 대해 알아보고 조직에서이를 사용 하는 방법을 구성할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f6ac5b67d589db57d449ba61f07668b10b32706d
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: d80e81ab5648d186bb72f29acc010442877aba7c
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845723"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356682"
 ---
 # <a name="protect-against-threats"></a>위협으로부터 보호
 
@@ -43,20 +43,20 @@ ms.locfileid: "48845723"
 위협 보호 기능은 *모든* Microsoft 또는 Office 365 구독에 포함 되어 있습니다. 그러나 일부 구독은 고급 기능을 제공 합니다. 아래 표에는이 문서에 포함 된 보호 기능과 최소 구독 요구 사항이 함께 나와 있습니다.
 
 > [!TIP]
-> 감사를 설정 하는 지침 보다는 Office 365 Exchange Online Protection ( **EOP** )의 일부로 표시 되는 맬웨어 방지, 피싱 방지 및 스팸 방지에 대 한 *단계가* 진행 되 고 있음을 확인할 수 있습니다. 이는 office 365 용 defender ( **defender 365** )에 들어 있고, EOP를 사용할 수 있을 때까지이 문서에 대 한 정보
+> 감사를 설정 하는 지침 보다는 Office 365 Exchange Online Protection (**EOP**)의 일부로 표시 되는 맬웨어 방지, 피싱 방지 및 스팸 방지에 대 한 *단계가* 진행 되 고 있음을 확인할 수 있습니다. 이는 office 365 용 defender (**defender 365**)에 들어 있고, EOP를 사용할 수 있을 때까지이 문서에 대 한 정보
 
 ****
 
 |보호 유형|구독 요구 사항|
 |---|---|
 |감사 로깅 (보고 목적)|[Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description)|
-|맬웨어 방지 보호 기능|**EOP** ( [Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) )|
+|맬웨어 방지 보호 기능|**EOP**( [Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) )|
 |피싱 방지 보호 기능|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |스팸 방지 보호 기능|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |0 시간 자동 삭제 (전자 메일의 경우)|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
-|전자 메일 및 Office 문서 (안전한 링크 및 안전한 첨부 파일)의 악성 Url 및 파일과의 보호|[Microsoft Defender for Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
+|전자 메일 및 Office 문서 (안전한 링크 및 안전한 첨부 파일)의 악성 Url 및 파일과의 보호|[Office 365용 Microsoft Defender](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
 |SharePoint, OneDrive 및 Microsoft 팀 작업에 대 한 ATP 켜기|[Defender for Office 365 ](atp-for-spo-odb-and-teams.md)|
-|고급 피싱 방지 보호|[Office 365용 Microsoft Defender](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
+|고급 피싱 방지 보호|[Office 365용 Defender](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
 
 ### <a name="roles-and-permissions"></a>역할 및 사용 권한
 
@@ -169,7 +169,7 @@ Office 365 정책에 대해 Defender를 구성 하려면 [보안 & 준수 센터
 
      **다음** 을 클릭합니다.
 
-3. **적용 대상** 페이지에서 **조건 추가** 를 클릭 하 고, **받는 사람 도메인이 있는 경우 적용** 을 선택한 다음, **추가,** 도메인 또는 도메인을 차례로 선택 하 고 **추가** , **완료** 를 차례로 클릭 한 후 **다음** 을 클릭 합니다.
+3. **적용 대상** 페이지에서 **조건 추가** 를 클릭 하 고, **받는 사람 도메인이 있는 경우 적용** 을 선택한 다음, **추가,** 도메인 또는 도메인을 차례로 선택 하 고 **추가**, **완료** 를 차례로 클릭 한 후 **다음** 을 클릭 합니다.
 
 4. 설정을 검토 하 고 **마침을** 클릭 합니다.
 
@@ -180,7 +180,7 @@ Office 365 정책에 대해 Defender를 구성 하려면 [보안 & 준수 센터
 1. [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리**  >  **정책**  >  **ATP 안전한 링크** 를 선택 하 고 **전역 설정을** 클릭 한 후에 다음 설정을 구성 합니다.
 
    - **에서 안전한 링크 사용 확인: Office 365 응용 프로그램** 은 켜져 있음: ![ 설정/해제 ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) 합니다.
-   - **사용자가 안전 링크를 클릭 하는 경우 추적 안 함** :이 설정을 해제 하 여 사용자 클릭: 토글을 추적 ![ ](../../media/scc-toggle-off.png) 합니다.
+   - **사용자가 안전 링크를 클릭 하는 경우 추적 안 함**:이 설정을 해제 하 여 사용자 클릭: 토글을 추적 ![ ](../../media/scc-toggle-off.png) 합니다.
    - **사용자가 원본 URL에 대 한 안전한 링크를 클릭 하는 것을 허용 하지** 않습니다 .이 설정이 설정 되어 있는지 확인 합니다: 켜기를 선택 ![ ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) 합니다.
 
    작업을 마쳤으면 **저장** 을 클릭합니다.
@@ -201,7 +201,7 @@ Office 365 정책에 대해 Defender를 구성 하려면 [보안 & 준수 센터
 
      **다음** 을 클릭합니다.
 
-4. **적용 대상** 페이지에서 **조건 추가** 를 클릭 하 고, **받는 사람 도메인이 있는 경우 적용** 을 선택한 다음, **추가,** 도메인 또는 도메인을 차례로 선택 하 고 **추가** , **완료** 를 차례로 클릭 한 후 **다음** 을 클릭 합니다.
+4. **적용 대상** 페이지에서 **조건 추가** 를 클릭 하 고, **받는 사람 도메인이 있는 경우 적용** 을 선택한 다음, **추가,** 도메인 또는 도메인을 차례로 선택 하 고 **추가**, **완료** 를 차례로 클릭 한 후 **다음** 을 클릭 합니다.
 
 5. 설정을 검토 하 고 **마침을** 클릭 합니다.
 
@@ -209,7 +209,7 @@ Office 365 정책에 대해 Defender를 구성 하려면 [보안 & 준수 센터
 
 ## <a name="part-5---verify-atp-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on"></a>5 부-SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP가 설정 되어 있는지 확인
 
-SharePoint, OneDrive 및 팀과 같은 워크 로드는 공동 작업을 위해 빌드됩니다. Office 365 용 Defender를 사용 하면 팀 사이트 및 문서 라이브러리에서 악의적으로 식별 된 파일을 차단 하 고 검색할 수 있습니다. 여기서 작동 하는 방법에 대 한 자세한 내용은 [여기](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)에서 확인할 수 있습니다.
+SharePoint, OneDrive 및 팀과 같은 워크 로드는 공동 작업을 위해 빌드됩니다. Office 365 용 Defender를 사용 하면 팀 사이트 및 문서 라이브러리에서 악의적으로 식별 된 파일을 차단 하 고 검색할 수 있습니다. 여기서 작동 하는 방법에 대 한 자세한 내용은 [여기](atp-for-spo-odb-and-teams.md)에서 확인할 수 있습니다.
 
 > [!IMPORTANT]
 > **이 절차를 시작 하기 전에 Microsoft 365 환경에 대해 감사 로깅이 이미 설정 되어 있는지 확인** 합니다. 이 작업은 일반적으로 Exchange Online에서 감사 로그 역할이 할당 된 사용자가 수행 합니다. 자세한 내용은 [Turn 감사 로그 검색 켜기 또는 끄기를](../../compliance/turn-audit-log-search-on-or-off.md)참조 하세요.

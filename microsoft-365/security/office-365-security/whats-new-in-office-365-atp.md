@@ -20,12 +20,12 @@ ms.topic: conceptual
 ms.date: 10/09/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: 5aa1d5fe14f6213931e089c2f97fcf06c96397b3
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 01a5e374396b1f7ef79dff436cd9ecc4e0c4abf1
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131156"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357240"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 새로운 기능
 
@@ -41,11 +41,11 @@ ms.locfileid: "49131156"
 > [!TIP]
 > Microsoft Defender for Office 365이 아직 없습니까? [영업 담당자에 게 문의 하 여 평가판을 시작](https://go.microsoft.com/fwlink/p/?LinkId=518644)합니다.
 
-## <a name="november-2020"></a>11 월 2020 
+## <a name="november-2020"></a>11 월 2020
 
 - 업데이트 된 내보내기 제한 사항 검토 > 관리 센터에서 메일 전송 및 작업 로그의 재구성 > 업데이트 (Office 365 계획 2)
 
-## <a name="septemberoctober-2020"></a>9 월/10 월 2020 
+## <a name="septemberoctober-2020"></a>9 월/10 월 2020
 
 - [구성 분석기를 사용 하 여 정책 확인](configuration-analyzer-for-security-policies.md)
 - [테 넌 트 허용/차단 목록을 사용 하 여 verdicts 필터를 수동으로 재정의](tenant-allow-block-list.md)
@@ -53,27 +53,27 @@ ms.locfileid: "49131156"
 - [위협 탐색기](threat-explorer.md#threats-in-urls) (맬웨어, 피싱, 스팸 또는 없음)의 서피싱 URL 위협 (Office 365 계획 2 용 Defender)
 - 문제 해결, 추가 작업, 배달 위치 및 업데이트 된 시간 표시 막대에 대 한 업데이트를 통한 [사냥 경험 위협 탐색기 개선 사항](threat-explorer.md#improvements-to-threat-hunting-experience-upcoming) (Office 365 계획 2 용 Defender)
 
-## <a name="julyaugust-2020"></a>7 월/8 월 2020 
+## <a name="julyaugust-2020"></a>7 월/8 월 2020
 
 - [사냥 경험 향상](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections) (Microsoft Defender for Office 365 요금제 1 또는 요금제 2)
 - [미리 설정 된 보안 정책을 사용 하 여 권장 설정을 쉽게 적용](preset-security-policies.md) 
 
 ## <a name="marchapril-2020"></a>3 월/4 월 2020
 
-- 이제 [자동 조사 및 응답을 통해 손상 된 사용자 계정을 처리할](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) 수 있는 기능이 일반적으로 제공 됩니다. (Microsoft Defender for Office 365 요금제 2)
+- 이제 [자동 조사 및 응답을 통해 손상 된 사용자 계정을 처리할](address-compromised-users-quickly.md) 수 있는 기능이 일반적으로 제공 됩니다. (Microsoft Defender for Office 365 요금제 2)
 
 ## <a name="januaryfebruary-2020"></a>1 월/2 월 2020 일
 
 - [Microsoft defender For office 365의 일반 캠페인 보기 가용성](campaigns.md) (Office 365 계획 2 용 microsoft defender)
 - 보안 운영 팀이 [전자 메일 조사](investigate-malicious-email-that-was-delivered.md)중에 여러 필드를 검색 및 필터링 할 수 있도록 하는 [위협 탐색기](threat-explorer.md) 향상: (Microsoft Defender for Office 365 Plan 2)
-    - 배달 위치 및 특수 작업
-    - 방향성 (인바운드, 아웃 바운드 또는 조직 내)
-    - 고급 필터 (포함 하지 않는 고급 필터링 옵션, 포함 하지 않음 등)
-    - 자세한 시간 필터 (일, 시간, 30 분) 
+  - 배달 위치 및 특수 작업
+  - 방향성 (인바운드, 아웃 바운드 또는 조직 내)
+  - 고급 필터 (포함 하지 않는 고급 필터링 옵션, 포함 하지 않음 등)
+  - 자세한 시간 필터 (일, 시간, 30 분)
 
 - **문제** 위젯은 이제 **동작 센터** 위젯입니다. 보안 위젯을 보려면 보안 & 준수 센터에서 **위협 관리**  >  로 이동 합니다. **검토** 합니다. (Microsoft Defender for Office 365 요금제 2)
 
-- [Microsoft 365의 안전한 문서](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(미리 보기)**
+- [Microsoft 365의 안전한 문서](safe-docs.md) **(미리 보기)**
 
 ## <a name="december-2019"></a>2019년 12월
 
