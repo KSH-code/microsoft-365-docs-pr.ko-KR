@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
-ms.openlocfilehash: a2cf47d12d00eb2f4b4d58921ea09ddfaa91cece
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 7f9e33a6f117f5da592d875e40cefc6a0072fd4a
+ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446432"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49126676"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 
@@ -103,7 +103,7 @@ SPF는 메시지 봉투에 정보를 추가하지만 DKIM은 실제로 메시지
       New-DkimSigningConfig -DomainName {Domain for which config is to be created} -KeySize 2048 -Enabled $True
       ```
 
-Microsoft 365로의 연결 상태를 유지하여 구성을 *검증*합니다.
+Microsoft 365로의 연결 상태를 유지하여 구성을 *검증* 합니다.
 
 1. 다음 명령을 실행합니다.
 
@@ -142,7 +142,7 @@ Microsoft 365의 초기 도메인 외에 사용자 지정 도메인을 프로비
 CNAME 레코드에는 다음 형식을 사용합니다.
 
 > [!IMPORTANT]
-> 사용자가 GCC High 고객인 경우 _domainGuid_를 다르게 계산합니다! _domainGuid_를 계산하기 위해 _initialDomain_에 대한 MX 레코드를 조회하는 대신 사용자 정의된 도메인에서 직접 계산합니다. 예를 들어, 사용자 지정 도메인이 "contoso.com"인 경우 domainGuid는 "contoso-com"이되고 마침표는 대시로 바뀝니다. 따라서 initialDomain이 가리키는 MX 레코드와 상관없이 항상 위의 방법을 사용하여 CNAME 레코드에서 사용할 domainGuid를 계산합니다.
+> 사용자가 GCC High 고객인 경우 _domainGuid_ 를 다르게 계산합니다! _domainGuid_ 를 계산하기 위해 _initialDomain_ 에 대한 MX 레코드를 조회하는 대신 사용자 정의된 도메인에서 직접 계산합니다. 예를 들어, 사용자 지정 도메인이 "contoso.com"인 경우 domainGuid는 "contoso-com"이되고 마침표는 대시로 바뀝니다. 따라서 initialDomain이 가리키는 MX 레코드와 상관없이 항상 위의 방법을 사용하여 CNAME 레코드에서 사용할 domainGuid를 계산합니다.
 
 ```console
 Host name:            selector1._domainkey
@@ -158,7 +158,7 @@ TTL:                3600
 
 - Microsoft 365의 경우 셀렉터는 항상 "selector1" 또는 "selector2"입니다.
 
-- _domainGUID_는 mail.protection.outlook.com 이전에 표시되는 사용자 정의 도메인에 대한 사용자 정의된 MX 레코드의 _domainGUID_와 동일합니다. 예를 들어 도메인 contoso.com에 대한 다음 MX 레코드에서 _domainGUID_는 contoso-com입니다.
+- _domainGUID_ 는 mail.protection.outlook.com 이전에 표시되는 사용자 정의 도메인에 대한 사용자 정의된 MX 레코드의 _domainGUID_ 와 동일합니다. 예를 들어 도메인 contoso.com에 대한 다음 MX 레코드에서 _domainGUID_ 는 contoso-com입니다.
 
   > @contoso.com.  3600  IN  MX   5 contoso-com.mail.protection.outlook.com
 
@@ -199,13 +199,13 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
 
 1. 회사 또는 학교 계정으로 [Microsoft 365에 로그인](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)합니다.
 
-2. 왼쪽 위에서 앱 시작 관리자 아이콘을 선택하고 **관리자**를 선택합니다.
+2. 왼쪽 위에서 앱 시작 관리자 아이콘을 선택하고 **관리자** 를 선택합니다.
 
-3. 왼쪽 아래 탐색에서 **관리자**를 확장하고 **Exchange**를 선택합니다.
+3. 왼쪽 아래 탐색에서 **관리자** 를 확장하고 **Exchange** 를 선택합니다.
 
-4. **보호**\>**dkim**으로 이동합니다.
+4. **보호**\>**dkim** 으로 이동합니다.
 
-5. DKIM을 활성화 할 도메인을 선택한 다음 **DKIM 서명을 사용하여 이 도메인의 메시지 서명**에 대해 **활성화**를 선택합니다. 각 사용자 지정 도메인에 대해 이 단계를 반복합니다.
+5. DKIM을 활성화 할 도메인을 선택한 다음 **DKIM 서명을 사용하여 이 도메인의 메시지 서명** 에 대해 **활성화** 를 선택합니다. 각 사용자 지정 도메인에 대해 이 단계를 반복합니다.
 
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-by-using-powershell"></a>PowerShell을 사용하여 사용자 지정 도메인에 DKIM 서명 사용
 
@@ -217,7 +217,7 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
    Set-DkimSigningConfig -Identity <domain> -Enabled $true
    ```
 
-   여기서 _도메인_은 DKIM 서명을 활성화하려는 사용자 지정 도메인의 이름입니다.
+   여기서 _도메인_ 은 DKIM 서명을 활성화하려는 사용자 지정 도메인의 이름입니다.
 
    예를 들어 contoso.com 도메인의 경우
 
@@ -246,7 +246,7 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
         b=<signed field>;
   ```
 
-- Authentication-Results 머리글을 찾습니다. 각 수신 서비스는 수신 메일을 스탬프 처리하기 위해 약간씩 다른 형식을 사용하지만 결과에는 **DKIM=pass** 또는 **DKIM=OK**가 포함되어야 합니다.
+- Authentication-Results 머리글을 찾습니다. 각 수신 서비스는 수신 메일을 스탬프 처리하기 위해 약간씩 다른 형식을 사용하지만 결과에는 **DKIM=pass** 또는 **DKIM=OK** 가 포함되어야 합니다.
 
 ## <a name="to-configure-dkim-for-more-than-one-custom-domain"></a>Microsoft 365에서 두 개 이상의 사용자 지정 도메인에 대해 DKIM을 구성
 <a name="DKIMMultiDomain"> </a>
@@ -282,7 +282,7 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
    Set-DkimSigningConfig -Identity $p[<number>].Identity -Enabled $false
    ```
 
-   여기에서 _numbe_r는 정책의 인덱스입니다. 예시:
+   여기에서 _numbe_ r는 정책의 인덱스입니다. 예시:
 
    ```powershell
    Set-DkimSigningConfig -Identity $p[0].Identity -Enabled $false
@@ -311,7 +311,7 @@ DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
 ## <a name="set-up-dkim-so-that-a-third-party-service-can-send-or-spoof-email-on-behalf-of-your-custom-domain"></a>타사 서비스에서 사용자 지정 도메인을 대신하여 이메일을 보내거나 스푸핑할 수 있도록 DKIM을 설정
 <a name="SetUp3rdPartyspoof"> </a>
 
-일부 대량 전자 메일 서비스 공급자 또는 소프트웨어를 서비스로 제공하는 공급자는 서비스에서 보낸 전자 메일에 대해 DKIM 키를 설정할 수 있습니다. 따라서 필수 DNS 레코드를 설정하기 위해 본인과 타사 간의 조정이 필요합니다. 두 조직이 정확히 동일한 방식으로 이 작업을 수행할 수 없습니다. 그 대신 프로세스는 전적으로 조직에 따라 다릅니다.
+일부 대량 전자 메일 서비스 공급자 또는 소프트웨어를 서비스로 제공하는 공급자는 서비스에서 보낸 전자 메일에 대해 DKIM 키를 설정할 수 있습니다. 필수 DNS 레코드를 설정하기 위해서는 본인과 타사 간의 조정이 필요합니다. 일부 타사 서버에는 다양한 선택기를 포함한 고유 CNAME 레코드가 있을 수 있습니다. 두 조직이 정확히 동일한 방식으로 이 작업을 수행할 수 없습니다. 그 대신 프로세스는 전적으로 조직에 따라 다릅니다.
 
 contoso.com 및 bulkemailprovider.com에 대해 올바르게 구성된 DKIM을 보여주는 메시지의 예는 다음과 같습니다.
 

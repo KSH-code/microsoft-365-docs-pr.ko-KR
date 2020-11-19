@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Microsoft 365 고객 데이터가 전 세계에 저장되는 위치를 확인
-ms.openlocfilehash: e450468b54bdbce0e6c01dd3b935922836ab9f90
-ms.sourcegitcommit: 705915f8bf9b7c082d12a009523d8aa0670a74a1
+ms.openlocfilehash: 4fd3f480ef2ad3389e9a959695b9654badbda27f
+ms.sourcegitcommit: 0badd6a7af803a52c7c46a4374211cb89307eacf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48493688"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49135994"
 ---
 <!--
 Note to new owner: Links in the Notes and FAQ sections need to be added from the source document at https://microsoft.sharepoint.com/:w:/t/golocalteam/Ebv6_Lw6FvNKucfA1eESTPUBy6O1MdvWEeT-L8O5a2HsIg?e=4%3AUfF1Uj&at=9&xsdata=MDR8MDF8am9zZXBoZEBtaWNyb3NvZnQuY29tfGM1ZTg1ODI0ZWRmMTRlN2E3MDkzMDhkNzgzNDMxYTczfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2MzcxMjIxOTY1MzQ5NjM5NDl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fC0x&sdata=MkxOUXhlZEdyR0I1SzBvd044d2hkd2RPaGN2RUpaS09jMkZTcys0dkZQRT0%3D
@@ -31,7 +31,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 아래 표는 미사용 고객 데이터가 모든 Microsoft 전역 클라우드 위치에서 Microsoft 365 서비스에 대해 저장되는 위치를 보여 줍니다. 청구지 주소 국가의 위치를 확장하여 각 서비스에 대한 고객 데이터가 저장되는 위치를 확인합니다.
 
-고객은 **설정 | 조직 설정 | 조직 프로필 | 데이터 위치**의 Microsoft 365 관리 센터에서 테넌트 별 데이터 위치 정보를 봐야 합니다.
+고객은 **설정 | 조직 설정 | 조직 프로필 | 데이터 위치** 의 Microsoft 365 관리 센터에서 테넌트 별 데이터 위치 정보를 봐야 합니다.
 
 새 Microsoft 365 테넌트는 해당 테넌트의 첫 번째 구독과 연결된 거래 국가를 기준으로 기본 지역이 설정됩니다.
 
@@ -127,6 +127,7 @@ Microsoft는 명시된 Geo 외부에 미사용 Intune 고객 데이터를 저장
 | 국가 | 구/군/시 |
 | --- | --- |
 | 오스트레일리아 | 시드니, 멜버른 |
+| 브라질 | 리오, 캄피나스 |
 | 캐나다 | 퀘벡 시티, 토론토 |
 | 유럽 연합 | 오스트리아(비엔나), 핀란드(헬싱키), 프랑스(파리, 마르세유), 아일랜드(더블린), 네덜란드(암스테르담) |
 | 프랑스 | 파리, 마르세유 |
@@ -892,19 +893,19 @@ Microsoft는 명시된 Geo 외부에 미사용 Intune 고객 데이터를 저장
 
 | 서비스 | 위치 |
 | --- | --- |
-| Exchange Online | 전세계 지리적 위치 3 - 아메리카 |
-| 비즈니스용 OneDrive | 전세계 지리적 위치 3 - 아메리카 |
-| SharePoint Online | 전세계 지리적 위치 3 - 아메리카 |
+| 온라인으로 교환 | 브라질 |
+| 비즈니스용 OneDrive | 브라질 |
+| SharePoint Online | 브라질 |
 | 비즈니스용 Skype | 미국 |
-| Microsoft Teams | 미국 |
-| Office Online &amp; Mobile | 전세계 지리적 위치 3 - 아메리카 |
-| EOP | 전세계 지리적 위치 3 - 아메리카 |
+| Microsoft Teams | 브라질 |
+| Office Online &amp; 모바일 | 브라질 |
+| EOP | 브라질 |
 | Intune | 미국 |
-| MyAnalytics | 전세계 지리적 위치 3 - 아메리카 |
+| MyAnalytics | 브라질 |
 | Planner | 미국 |
 | Sway | 미국 |
 | Yammer | 미국 |
-| OneNote 서비스 | 전세계 지리적 위치 3 - 아메리카 |
+| OneNote 서비스 | 브라질 |
 | Stream | 미국 |
 | Whiteboard | 미국 |
 | Forms | 미국 |
