@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: conceptual
+ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 Microsoft 365에서 고급 eDiscovery 사용을 시작 하는 방법을 설명 합니다. 몇 가지 빠른 단계를 완료 한 후에는 고급 eDiscovery 도구를 사용할 준비가 된 것입니다. 첫 번째 단계는 사례를 만든 다음 고급 eDiscovery 기능 및 기능 사용을 시작 하는 것입니다.
-ms.openlocfilehash: 13a4bfac34201e81ba13b76791e097891409dd0b
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: dd3ddb3e5ef3a46fc0b7b4925b639975167c15d2
+ms.sourcegitcommit: 5480982967a90ca3060a59676a6b29155f2de861
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130843"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49350726"
 ---
 # <a name="get-started-with-advanced-ediscovery"></a>Advanced eDiscovery 시작
 

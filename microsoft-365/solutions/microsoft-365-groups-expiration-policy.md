@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 그룹 만료 정책에 대해 자세히 알아봅니다.
-ms.openlocfilehash: 8fc9c48d5a86c68eabd4139ad0a2d0dc1e83da0f
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 4b283bcc9f4e54462a71b9aee70d6312b9f127d6
+ms.sourcegitcommit: 5480982967a90ca3060a59676a6b29155f2de861
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377226"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49350715"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Microsoft 365 그룹 만료 정책
 
@@ -34,7 +34,7 @@ Microsoft 365 그룹 및 Microsoft 팀의 사용이 증가 함에 따라서 관�
 관리자는 만료 기간을 지정할 수 있으며 해당 기간 끝에 도달 하 고 갱신 되지 않은 비활성 그룹은 삭제 됩니다. 여기에는 보관 된 팀이 포함 됩니다. 만료 기간은 그룹을 만들 때 또는 마지막으로 갱신 된 날짜에 시작 됩니다. 그룹 소유자는 만료 되기 전에 자동으로 전자 메일을 보내 다른 만료 간격으로 그룹을 갱신할 수 있습니다. 팀 사용자는 팀에 영구 알림을 볼 수 있습니다.
 
 현재 사용 중인 그룹은 자동으로 갱신 됩니다. 다음 작업 중 하나를 수행 하면 그룹이 자동으로 갱신 됩니다.
-- SharePoint-파일을 보고, 편집 하 고, 다운로드 하거나, 이동 하거나, 공유 하거나, 업로드 합니다.
+- SharePoint-파일을 보고, 편집 하 고, 다운로드 하거나, 이동 하거나, 공유 하거나, 업로드 합니다. (SharePoint 페이지를 보기 위해 자동 갱신을 위한 작업으로 계산 되지 않습니다.)
 - Outlook-그룹에서 그룹 메시지를 읽거나 메시지를 작성 합니다 (예를 들어, 웹에서 Outlook).
 - 팀-팀 채널을 방문 합니다.
 
@@ -55,7 +55,7 @@ Microsoft 365 그룹 및 Microsoft 팀의 사용이 증가 함에 따라서 관�
 
 ## <a name="how-to-set-the-expiration-policy"></a>만료 정책을 설정 하는 방법
 
-위에서 설명한 것 처럼 만료는 기본적으로 해제 되어 있습니다. 관리자는 만료 정책을 사용 하도록 설정 하 고 속성을 설정 해야 해당 정책이 적용 됩니다. **Azure Active Directory**  >  **그룹**  >  **만료**로 이동 하려면이 기능을 사용 하도록 설정 합니다. 여기에서 기본 그룹 수명을 설정 하 고 첫 번째 및 두 번째 만료 알림이 그룹 소유자에 게 이동 하기 전 까지의 간격을 지정할 수 있습니다.
+위에서 설명한 것 처럼 만료는 기본적으로 해제 되어 있습니다. 관리자는 만료 정책을 사용 하도록 설정 하 고 속성을 설정 해야 해당 정책이 적용 됩니다. 이 기능을 사용 하려면 **Azure Active Directory**  >  **그룹**  >  **만료** 로 이동 합니다. 여기에서 기본 그룹 수명을 설정 하 고 첫 번째 및 두 번째 만료 알림이 그룹 소유자에 게 이동 하기 전 까지의 간격을 지정할 수 있습니다.
 
 그룹 수명은 일 단위로 지정 되며 180, 365 또는 지정한 사용자 지정 값으로 설정할 수 있습니다. 사용자 지정 값은 30 일 이상 이어야 합니다.
 

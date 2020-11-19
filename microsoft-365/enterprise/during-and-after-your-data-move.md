@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: 데이터 이동은 테 넌 트에 대 한 서비스 및 연결 된 데이터를 새 데이터 센터 geo로 이동할 때 발생 하는 백 엔드 작업입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 63536a46e28f264f49e8071710221b0847f62414
-ms.sourcegitcommit: 86e878849a8bdd456cee6a3f49939d26223fb626
+ms.openlocfilehash: ca3159aeb951fb0cb3bf3aba953979dabc6ba024
+ms.sourcegitcommit: 1db81b85d327fe423695ce675ad325e538417211
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48997794"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349259"
 ---
 # <a name="during-and-after-your-data-move"></a>데이터 이동 도중 및 이후
 
@@ -46,6 +46,7 @@ ms.locfileid: "48997794"
 |스위스, 리히텐슈타인  <br/> |2022 년 7 월 1 일  <br/> |
 |노르웨이  <br/> |2022 년 11 월 1 일  <br/> |
 |독일  <br/> |5 월 1 일, 2023  <br/> |
+|브라질  <br/> |2023 년 6 월 1 일  <br/> |
 
 ## <a name="exchange-online"></a>Exchange Online
 

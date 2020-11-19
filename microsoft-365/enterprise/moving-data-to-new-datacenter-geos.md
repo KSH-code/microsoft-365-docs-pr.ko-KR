@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: 새로운 Office 365 데이터 센터의 지역 및 data 상주 옵션을 사용 하 여 핵심 데이터를 새 지역으로 이동 하도록 요청 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 17b8d5c828a8c528aba180c260510345e77226d5
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: 6c5e63a973ca6fdf6aaaaca884df306ff790c325
+ms.sourcegitcommit: 1db81b85d327fe423695ce675ad325e538417211
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333715"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349247"
 ---
 # <a name="moving-core-data-to-new-microsoft-365-datacenter-geos"></a>핵심 데이터를 새로운 Microsoft 365 datacenter (지역)로 이동
 
@@ -48,6 +48,7 @@ Microsoft 365 서비스에 대 한 새 데이터 센터 지역가 계속 해 서
 |**스위스, 리히텐슈타인**| 유럽 연합 | 스위스 | 2019년 12월 |
 |**독일**| 유럽 연합 | 독일 | 2019년 12월 |
 |**노르웨이**| 유럽 연합 | 노르웨이 | 2020년 4월 |
+|**브라질**| 아메리카 | 브라질 | 11 월 2020 |
 
 10 월 1 일 (으)로 2020, 테 넌 트에 포함 된 Office 365 교육 구독을 사용 하는 고객은 마이그레이션에 적합 하지 않습니다.
 

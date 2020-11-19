@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: 기존 Office 365 고객은 Microsoft 365 서비스 데이터를 새 지역으로 이동 하기 위해 해당 국가의 마감 날짜 이전에 요청을 제출 해야 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b6ad699830389ef405b005bf8675a2bd0fb4f20b
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 216cd3b0cb55cbbe6be89945b98a01ae469ec4e2
+ms.sourcegitcommit: 1db81b85d327fe423695ce675ad325e538417211
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877258"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349235"
 ---
 # <a name="how-to-request-your-data-move"></a>데이터 이동을 요청하는 방법
 
@@ -45,6 +45,7 @@ ms.locfileid: "48877258"
 |스위스, 리히텐슈타인  <br/> |2019년 12월 10일  <br/> |2020년 6월 30일  <br/> |
 |노르웨이  <br/> |2020년 4월 15일  <br/> |2020 년 10 월 31 일  <br/> |
 |독일  <br/> |2020 년 11 월 1 일  <br/> |2021 년 4 월 30 일  <br/> |
+|브라질  <br/> |2020 년 11 월 18 일  <br/> |5 월 31 일, 2021  <br/> |
 
 ## <a name="how-to-request-a-move"></a>이동을 요청하는 방법
 
