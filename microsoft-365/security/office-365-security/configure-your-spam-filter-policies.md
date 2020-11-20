@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online Protection(EOP)에서 스팸 방지 정책을 보고, 만들고 수정하고 삭제하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 2bb6bff5fae661d755ea19dbb5af8ca62fbacbd8
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 34e0f3cf1ae382dcb256887557af18556d52a7df
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130866"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357890"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>EOP에서 스팸 방지 정책 구성하기
 
@@ -30,7 +30,7 @@ ms.locfileid: "49130866"
 
 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직의 경우, 인바운드 전자 메일 메시지가 EOP를 통해 자동으로 스팸으로부터 보호됩니다. EOP는 스팸에 대한 조직의 전반적인 방어책의 일부로 스팸 방지 정책(스팸 필터 정책 또는 콘텐츠 필터 정책)을 사용합니다. 자세한 내용은 [스팸 방지 보호](anti-spam-protection.md)를 참조하세요.
 
-관리자는 기본 스팸 방지 정책을 보고, 편집하고, 구성할 수 있습니다. 세분성을 높이기 위해 사용자 지정 스팸 방지 정책을 만들어 조직의 특정 사용자, 그룹 또는 도메인에 적용할 수도 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만, 사용자 지정 정책의 우선순위(실행 순서)를 변경할 수 있습니다.
+관리자는 기본 스팸 방지 정책을 보고, 편집하고, 구성할 수 있습니다(삭제는 할 수 없음). 세분성을 높이기 위해 사용자 지정 스팸 방지 정책을 만들어 조직의 특정 사용자, 그룹 또는 도메인에 적용할 수도 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만, 사용자 지정 정책의 우선순위(실행 순서)를 변경할 수 있습니다.
 
 보안 및 준수 센터 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직의 경우 Exchange Online PowerShell; Exchange Online 사서함이 없는 조직의 경우 독립 실행형 EOP PowerShell)에서 스팸 방지 정책을 구성할 수 있습니다.
 
@@ -42,10 +42,10 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange online 
 보안 및 준수 센터에서 스팸 방지 정책을 관리하면, 두 가지 요소의 차이는 명확하지 않습니다.
 
 - 스팸 방지 정책을 만드는 경우에는 사용자가 같은 이름을 사용하여 동시에 스팸 필터 규칙과 관련 스팸 필터 정책을 작성하게 됩니다.
-- 스팸 방지 정책을 수정하는 경우, 이름, 우선 순위, 사용 또는 사용 안 함 및 받는 사람 필터와 관련된 설정은 스팸 필터 규칙을 수정합니다. 다른 모든 설정은 관련 스팸 필터 정책을 수정합니다.
+- 스팸 방지 정책을 수정할 때, 이름, 우선순위, 활성화됨 또는 비활성화됨 및 받는 사람 필터와 관련된 설정은 스팸 필터 규칙을 수정합니다. 다른 모든 설정은 관련 스팸 필터 정책을 수정합니다.
 - 스팸 방지 정책을 제거하면, 스팸 필터 규칙과 관련 스팸 필터 정책이 제거됩니다.
 
-Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책과 규칙을 개별적으로 관리합니다. 자세한 내용은 이 항목의 뒷부분에 나오는 [Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell을 사용하여 스팸 방지 정책 구성](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-anti-spam-policies) 섹션을 참조하세요.
+Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서는 정책과 규칙을 개별적으로 관리합니다. 자세한 내용은 이 항목의 뒷부분에 나오는 [Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell을 사용하여 스팸 방지 정책 구성](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-anti-spam-policies) 섹션을 참조하세요.
 
 모든 조직에는 다음과 같은 속성을 포함하는 기본 제공되는 Default 스팸 방지 정책이 있습니다.
 
@@ -55,9 +55,9 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
 스팸 필터링의 효율성을 높이려면 특정 사용자 또는 사용자 그룹에 적용되는 더 엄격한 설정을 사용하여 사용자 지정 스팸 방지 정책을 만들 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **스팸 방지 설정** 페이지로 바로 이동하려면 <https://protection.office.com/antispam>을 사용하세요.
+- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. 보안 및 준수 센터의 **스팸 방지 설정** 페이지로 바로 이동하려면 <https://protection.office.com/antispam>을(를) 사용하세요.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
@@ -85,7 +85,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
 3. 열리는 **새 스팸 필터 정책** 플라이아웃에서 다음 설정을 구성합니다.
 
-   - **이름**: 정책을 설명하는 고유한 이름을 입력합니다. `\ % & * + / = ? { } | < > ( ) ; : , [ ] "` 문자를 사용하지 마세요.
+   - **이름**: 정책을 설명하는 고유한 이름을 입력합니다. `\ % & * + / = ? { } | < > ( ) ; : , [ ] "` 문자는 사용하지 마세요.
 
       이전에 EAC(Exchange 관리 센터)에서 이러한 문자가 포함된 스팸 방지 정책을 만들었다면 PowerShell에서 스팸 방지 정책의 이름을 바꾸어야 합니다. 자세한 내용은 이 항목의 뒷부분에 나오는 [PowerShell을 사용하여 스팸 필터 규칙 수정하기](#use-powershell-to-modify-spam-filter-rules) 섹션을 참조하세요.
 
@@ -108,7 +108,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
      ****
 
-     |<span>|스팸|높음<br/>신뢰 수준<br/>스팸|피싱<br/>전자 메일|높음<br/>신뢰 수준<br/>피싱<br/>전자 메일|대량<br/>전자 메일|
+     |조치|스팸|높음<br/>신뢰 수준<br/>스팸|피싱<br/>전자 메일|높음<br/>신뢰 수준<br/>피싱<br/>전자 메일|대량<br/>전자 메일|
      |---|:---:|:---:|:---:|:---:|:---:|
      |**정크 메일 폴더로 메시지 이동**: 메시지가 사서함으로 배달되고, 정크 메일 폴더로 이동됩니다.<sup>1</sup>|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
      |**X-헤더 추가**: 메시지 헤더에 X-헤더를 추가하고, 메시지를 사서함에 배달합니다. <p> 나중에 **이 X-헤더 텍스트를 추가** 상자에서 X-헤더 필드 이름(값 아님)을 입력합니다. <p> **스팸** 및 **높은 정확도의 스팸** 결과의 경우, 메시지가 정크 메일 폴더로 이동됩니다.<sup>1, 2</sup>|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|

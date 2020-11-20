@@ -18,12 +18,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: seo-marvel-jun2020
 description: 원격 작업자의 생산성을 극대화하고 서버, 데이터 및 클라우드에 대한 보안 액세스를 유지하려면 Microsoft 365의 모든 기능을 사용하도록 설정했는지 확인합니다.
-ms.openlocfilehash: b886341adc49ba728856dc39786e926ebfadd3ef
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 6cf956d7d7e895dc328c8551f98e78d0fc42d86c
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906742"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357040"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Microsoft 365를 사용하여 원격 작업자의 역량 강화하기
 
@@ -113,3 +113,5 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 [![Microsoft 365를 사용하여 원격 작업자의 역량을 강화하기 위한 단계](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)](empower-people-to-work-remotely-secure-sign-in.md)
 
 원격 작업자 지원에 대한 Microsoft의 최신 정보는 [Microsoft Teams 사이트에서 하이브리드 작업 사용](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/)을 참조하세요.
+
+가상이지만 대표적인 다국적 조직에서 원격 작업자의 역량을 강화한 방법을 보려면 [Contoso의 COVID-19 대응 및 하이브리드 인력을 위한 인프라](contoso-hybrid-workforce.md)를 참조하세요.
