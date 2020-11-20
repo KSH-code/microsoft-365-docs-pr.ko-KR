@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: EOP (Exchange Online Protection) 및 Defender for Office 365 보안 설정에 대 한 모범 사례는 무엇 인가요? 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 Office 365 용으로 Defender를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: af741e1af412d535c53beb83c36c0cbe3fcd617b
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: ee450c8da346d5815710afe2622f8f2c600132d4
+ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357124"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367216"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>EOP 및 Office 용 Microsoft Defender 365 보안에 대 한 권장 설정
 
@@ -144,7 +144,7 @@ ms.locfileid: "49357124"
 
 ## <a name="microsoft-defender-for-office-365-security"></a>Microsoft Defender for Office 365 보안
 
-추가 보안 혜택은 Microsoft Defender for Office 365 구독에서 제공 됩니다. 최신 뉴스 및 정보를 보려면 [Defender For Office 365의 새로운 기능](whats-new-in-office-365-atp.md)을 확인 하세요.
+추가 보안 혜택은 Microsoft Defender for Office 365 구독에 제공 됩니다. 최신 뉴스 및 정보를 보려면 [Defender For Office 365의 새로운 기능](whats-new-in-office-365-atp.md)을 확인 하세요.
 
 > [!IMPORTANT]
 >

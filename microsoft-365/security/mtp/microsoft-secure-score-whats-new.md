@@ -20,18 +20,26 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: d63994778762968962b2a32f026dbb81af39b664
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 0ba3d7a5e46f7e0f8677ce2844c5551bf70739e3
+ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843819"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367118"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Microsoft 보안 점수의 새로운 기능
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 Microsoft 보안 점수가 보안 상태를 보다 효율적으로 대표 하도록 하기 위해 몇 가지 사항을 변경 했습니다. 계획 된 변경 사항에 대 한 자세한 내용은 [Microsoft 보안 점수에서](microsoft-secure-score-whats-coming.md)제공 되는 기능을 참조 하세요.
+
+## <a name="november-2020"></a>11 월 2020
+
+### <a name="added-3-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>끝점에 대 한 Microsoft Defender에 대 한 서비스 관련 향상 작업 3 개 (이전의 Microsoft Defender ATP)가 추가 되었습니다.
+
+- Windows 서비스에 대 한 따옴표 붙지 않은 서비스 경로 수정
+- 서비스 실행 가능한 경로를 일반 보호 위치로 변경
+- Windows 레지스트리에서 캐시 된 암호를 사용 하지 않도록 서비스 계정 변경
 
 ## <a name="october-2020"></a>2020년 10월
 
