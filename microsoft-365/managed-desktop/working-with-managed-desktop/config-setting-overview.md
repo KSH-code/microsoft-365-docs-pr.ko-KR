@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 1af320ee6151036000e4e8c6fedc4d9152411283
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: bf8672ee6c3332ea6f8522f5086d72e58d1b9048
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530238"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371493"
 ---
 # <a name="configurable-settings---microsoft-managed-desktop"></a>구성 가능한 설정-Microsoft 관리형 데스크톱
 
@@ -22,7 +22,7 @@ Microsoft Managed Desktop은 Microsoft Managed Desktop이 관리 하는 모든 �
 
 Microsoft Managed Desktop의 구성 가능한 설정은 IT 관리자에 게 조직 및 비즈니스 요구에 고유한 설정을 사용자 지정 하 고 배포 하는 방법을 제공 합니다. 이러한 설정은 Microsoft Managed Desktop에서 관리 하는 장치 구성 설정 및 정책에 추가 됩니다.  
 
-구성 가능한 설정 변경 내용은 클라우드에서 작성 되며 정의 된 배포 그룹의 Microsoft Managed Desktop 장치에 적용 됩니다. 이 프로세스는 Microsoft Managed Desktop이 서비스에 의해 정의 되 고 관리 되는 장치 configuruation 설정 및 정책에 대 한 변경 내용을 관리 하는 방법과 비슷합니다. Microsoft Managed Desktop이 변경 내용을 배포 하는 데 사용 하는 것과 동일한 프로세스를 사용 하 여 최신 IT 관리 방법을 사용 하 여 조직을 앞으로 계속 이동할 수 있습니다.
+구성 가능한 설정 변경 내용은 클라우드에서 작성 되며 정의 된 배포 그룹의 Microsoft Managed Desktop 장치에 적용 됩니다. 이 프로세스는 Microsoft Managed Desktop이 서비스에 의해 정의 되 고 관리 되는 장치 구성 설정 및 정책에 대 한 변경 내용을 관리 하는 방법과 비슷합니다. Microsoft Managed Desktop이 변경 내용을 배포 하는 데 사용 하는 것과 동일한 프로세스를 사용 하 여 최신 IT 관리 방법을 사용 하 여 조직을 앞으로 계속 이동할 수 있습니다.
 
 ## <a name="when-to-use-configurable-settings"></a>구성 가능한 설정을 사용 하는 경우
 
@@ -43,7 +43,7 @@ Microsoft Managed Desktop의 구성 가능한 설정은 IT 관리자에 게 조�
 
 각 설정 범주를 사용자 지정 하 고 직접 배포할 수 있습니다. 동시에 여러 설정 범주에 대 한 변경 내용을 배포할 수 있지만 한 번에 하나의 변경만 설정 범주에 배포할 수 있습니다.
 
-예제:
+예시:
 - 데스크톱 배경 그림 및 신뢰할 수 있는 사이트에 대 한 변경 내용을 각 사용자에 게 동시에 배포할 수 있습니다. 
 - 두 개의 배포를 브라우저 시작 페이지에 동시에 배포할 수는 없습니다. 가장 최근 배포에서는 아직 진행 중인 이전 배포를 중지 합니다.
 
@@ -64,7 +64,7 @@ Microsoft Managed Desktop admin 포털에서 변경 사항을 구성 하 고 준
 모든 구성 가능한 설정은 Microsoft Managed Desktop admin 포털을 사용 하 여 관리 됩니다. 자세한 내용은 [배포 변경](config-setting-deploy.md)항목을 참조 하십시오. 
 
 **5 단계-변경 내용 추적** -배포 상태에 대 한 변경 진행률을 추적 합니다. 각 설정에 대해 다음 작업을 수행할 수 있습니다.
-- **진행 상황 관리** -변경 내용을 배포한 후 상태를 추적 합니다. 상태가 **진행**중으로 변경 되 고 **완료**되거나 **실패**합니다. 배포에 실패 하면 문제를 조사 하기 위해 Microsoft Managed Desktop 작업에 대 한 지원 요청이 자동으로 열립니다.  
+- **진행 상황 관리** -변경 내용을 배포한 후 상태를 추적 합니다. 상태가 **진행** 중으로 변경 되 고 **완료** 되거나 **실패** 합니다. 배포에 실패 하면 문제를 조사 하기 위해 Microsoft Managed Desktop 작업에 대 한 지원 요청이 자동으로 열립니다.  
 - **배포 된 버전 확인** -각 배포 되는 변경 내용에 버전 번호가 있습니다.
 - **변경 내용 되돌리기** -변경 내용을 되돌리면 현재 배포가 중지 되 고 모든 그룹이 모든 그룹에 배포 된 마지막 변경 내용으로 되돌아갑니다. 마지막으로 성공한 설정 값으로 롤백하는 중입니다.
 - **변경 내용 유효성 검사** -배포가 완료 된 후 변경 내용이 예상 대로 적용 되었는지 확인 합니다.  

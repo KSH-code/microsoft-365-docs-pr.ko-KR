@@ -17,12 +17,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 26b9ff81-93b0-4251-beaf-3c9f1d7c80c8
 description: PowerShell을 사용 하 여 Microsoft 365 사용자 계정, 라이선스 및 그룹을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ec60fcfe3c3d2c0e26cb2cca6a56741067d154c0
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+ms.openlocfilehash: d3745b9365c67615efe32881408d1a717b8dbbed
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49073128"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371539"
 ---
 # <a name="manage-microsoft-365-user-accounts-licenses-and-groups-with-powershell"></a>PowerShell로 Microsoft 365 사용자 계정, 라이선스 및 그룹 관리
 
@@ -53,5 +53,6 @@ Microsoft 365 관리자는 사용자 계정, 라이선스 및 그룹을 관리 �
 - [사용자 계정에서 라이선스 제거](remove-licenses-from-user-accounts-with-microsoft-365-powershell.md)
 
 ## <a name="groups"></a>그룹
-- [그룹 멤버 자격 유지 관리](maintain-group-membership-with-microsoft-365-powershell.md)
+- [보안 그룹 관리](manage-security-groups-with-microsoft-365-powershell.md)
+- [보안 그룹 구성원 유지 관리](maintain-group-membership-with-microsoft-365-powershell.md)
 - [Microsoft 365 그룹](manage-microsoft-365-groups-with-powershell.md)

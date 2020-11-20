@@ -9,12 +9,12 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: 5adf57c2397c4de3c5ea8622a2a9be7207ebf152
-ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
+ms.openlocfilehash: 66e4e5c305947f90f935563a3baf0592ce42480a
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48379295"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371673"
 ---
 # <a name="access-the-admin-portal"></a>관리 포털 액세스
 
@@ -37,7 +37,7 @@ Azure portal 또는 Microsoft Endpoint Manager에서 Microsoft Managed Desktop �
 |전역 관리자     | 이 역할을 가진 관리자에 게는 Microsoft Managed Desktop Admin 포털의 **모든 기능에 대 한 읽기 및 쓰기 권한이** 있습니다.         |
 |전역 읽기 권한자     | 이 역할을 가진 관리자에 게는 Microsoft Managed Desktop Admin 포털의 **모든 기능에 대 한 읽기 전용 권한이** 부여 됩니다.         |
 |Intune 서비스 관리자     |  이 역할을 가진 관리자에 게는 Microsoft Managed Desktop Admin 포털의 **보안과 관련이 없는 기능에 대 한 읽기 및 쓰기 권한이** 있습니다.       |
-|서비스 지원 관리자     | 이 역할을 가진 관리자에 게는 Microsoft Managed Desktop Admin 포털의 **보안과 관련이 없는 기능에 대 한 읽기 및 쓰기 권한이** 있습니다.         |
+|서비스 지원 관리자     | 이 역할을 가진 관리자에 게는 Microsoft Managed Desktop Admin 포털에서 **지원 요청을 관리 하기 위한 보안 및 쓰기 권한과** **관련 되지 않은 기능에 대 한 읽기 전용 권한이** 부여 됩니다.         |
 |보안 관리자 | 이 역할을 가진 관리자는 관리 포털의 Microsoft Managed Desktop에 있는 **보안 관련 기능에 대 한 모든 기능 및 쓰기 권한에 대 한** **읽기 전용 권한을** 갖게 됩니다. |
 |보안 읽기 권한자 |이 역할을 가진 관리자에 게는 Microsoft Managed Desktop Admin 포털의 **모든 기능에 대 한 읽기 전용 권한이** 부여 됩니다.|
 
