@@ -18,18 +18,18 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: seo-marvel-jun2020
 description: 원격 작업자의 생산성을 극대화하고 서버, 데이터 및 클라우드에 대한 보안 액세스를 유지하려면 Microsoft 365의 모든 기능을 사용하도록 설정했는지 확인합니다.
-ms.openlocfilehash: 6cf956d7d7e895dc328c8551f98e78d0fc42d86c
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 833f0351c3eb78afb7218ea1c1c51151d70bb608
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357040"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371505"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Microsoft 365를 사용하여 원격 작업자의 역량 강화하기
 
 직원들이 회사의 사내 구축 환경 및 클라우드 기반 정보, 도구 및 리소스에 안전하게 액세스할 수 있도록 해야 합니다. 직원이 원격으로 작업할 수 있도록 하는 것은 조직에 다음과 같은 이유로 중요합니다.
 
-- 사무실 공간에 저장
+- 사무실 공간을 절약할 수 있습니다.
 - 이동할 의사가 없는 직원을 고용하고 유지할 수 있습니다.
 - 직원의 출퇴근를 줄여 업무 이외에 생산성을 높이고 스트레스 해소 활동을 위한 시간을 늘릴 수 있습니다.
 
@@ -69,7 +69,7 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 
   - 작업을 분할하고 완료하기 위한 공유 작업 및 워크플로 
 
-원활하게 로그인하려면 온-프레미스 Active Directory 도메인 서비스(AD DS) 사용자 계정을 Azure Active Directory(Azure AD)와 동기화해야 합니다. Windows 10 장치를 보호하려면 Intune에서 장치를 등록해야 합니다. 다음은 인프라의 개괄적인 보기입니다.
+원활하게 로그인하려면 온-프레미스 Active Directory 도메인 서비스(AD DS) 사용자 계정을 Azure AD(Active Directory)와 동기화해야 합니다. Windows 10 장치를 보호하려면 Intune에서 장치를 등록해야 합니다. 다음은 인프라의 개괄적인 보기입니다.
 
 ![Microsoft 365를 사용하는 원격 작업자용 기본 인프라](../media/empower-people-to-work-remotely/remote-workers-basic-infrastructure.png)
 
@@ -114,4 +114,4 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 
 원격 작업자 지원에 대한 Microsoft의 최신 정보는 [Microsoft Teams 사이트에서 하이브리드 작업 사용](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/)을 참조하세요.
 
-가상이지만 대표적인 다국적 조직에서 원격 작업자의 역량을 강화한 방법을 보려면 [Contoso의 COVID-19 대응 및 하이브리드 인력을 위한 인프라](contoso-hybrid-workforce.md)를 참조하세요.
+가상이지만 대표적인 다국적 조직에서 원격 작업자의 역량을 강화한 방법을 보려면 [Contoso의 COVID-19 대응 및 하이브리드 인력을 위한 인프라](contoso-remote-onsite-work.md)를 참조하세요.
