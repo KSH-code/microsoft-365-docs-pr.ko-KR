@@ -20,18 +20,18 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: b9d7655377b1bb5ff4810fd469efd092bd7a5f67
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+ms.openlocfilehash: d41965741bc02876cde7e99904194c9f5787202a
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49072927"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357193"
 ---
 # <a name="get-started-with-communication-compliance"></a>커뮤니케이션 규정 준수 시작
 
 통신 준수 정책을 사용 하 여 내부 또는 외부 검토자의 검사를 위한 사용자 통신을 식별 합니다. 통신 준수 정책을 통해 조직의 통신을 모니터링 하는 방법에 대 한 자세한 내용은 [Microsoft 365의 통신 준수 정책을](communication-compliance.md)참조 하세요. Contoso에서 Microsoft 팀, Exchange Online 및 Yammer 통신의 공격적인 언어를 모니터링 하도록 통신 준수 정책을 빠르게 구성 하는 방법을 검토 하려면이 [사례 연구](communication-compliance-case-study.md)를 확인 하세요.
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="subscriptions-and-licensing"></a>구독 및 라이선스
 
 통신 준수를 시작 하기 전에 [Microsoft 365 구독](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) 및 모든 추가 기능을 확인 해야 합니다. 통신 준수를 액세스 하 고 사용 하려면 조직에 다음 구독 또는 추가 기능 중 하나가 있어야 합니다.
 
@@ -190,10 +190,10 @@ Exchange 온-프레미스 배포 또는 외부 전자 메일 공급자가 있는
     
     - 중요 한 정보 유형을 포함 하 고 싶은 경우 선택 합니다. 이 단계에서는 기본 및 사용자 지정 중요 한 정보 유형을 선택할 수 있습니다. 통신 준수 정책 마법사의 기존 사용자 지정 중요 한 정보 유형 또는 사용자 지정 키워드 사전을 선택 합니다. 필요한 경우 마법사를 실행 하기 전에 이러한 항목을 만들 수 있습니다. 또한 통신 준수 정책 마법사 내에서 새 중요 한 정보 유형을 만들 수도 있습니다.
     
-    - 분류자를 사용 하도록 설정 하려면 선택 합니다. 분류자는 전자 메일 메시지 또는 기타 유형의 텍스트 본문에서 보내거나 받는 부적절 한 언어 및 이미지를 검색할 수 있습니다. *위협* , *불경* , *대상 harassment* , *성인용 이미지* , *Racy 이미지* 및 *Gory 이미지* 와 같은 기본 제공 분류자를 선택할 수 있습니다.
+    - 분류자를 사용 하도록 설정 하려면 선택 합니다. 분류자는 전자 메일 메시지 또는 기타 유형의 텍스트 본문에서 보내거나 받는 부적절 한 언어 및 이미지를 검색할 수 있습니다. *위협*, *불경*, *대상 harassment*, *성인용 이미지*, *Racy 이미지* 및 *Gory 이미지* 와 같은 기본 제공 분류자를 선택할 수 있습니다.
 
       > [!CAUTION]
-      > 당사는 **비속어** 기본 제공 분류자가 많은 수의 가양성을 생성하였기 에 그 사용을 중단하고 있습니다. 이 도구를 사용 하지 않고 현재 사용 중인 경우 비즈니스 프로세스를 외부에서 이동 해야 합니다. 대신 **위협** , **불경** 및 대상이 지정 된 **harassment** 기본 제공 분류자를 사용 하는 것이 좋습니다.
+      > 당사는 **비속어** 기본 제공 분류자가 많은 수의 가양성을 생성하였기 에 그 사용을 중단하고 있습니다. 이 도구를 사용 하지 않고 현재 사용 중인 경우 비즈니스 프로세스를 외부에서 이동 해야 합니다. 대신 **위협**, **불경** 및 대상이 지정 된 **harassment** 기본 제공 분류자를 사용 하는 것이 좋습니다.
 
     - 검토할 통신의 비율을 정의 합니다.
     

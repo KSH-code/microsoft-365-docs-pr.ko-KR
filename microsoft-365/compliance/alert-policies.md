@@ -19,12 +19,12 @@ ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 ms.custom:
 - seo-marvel-apr2020
 description: 잠재적인 위협, 데이터 손실 및 사용 권한 문제를 모니터링 하려면 Office 365 및 Microsoft 365의 보안 및 준수 센터에서 알림 정책을 만듭니다.
-ms.openlocfilehash: 7b2d5b380f71a31302a54cedb6076e6fca54fa86
-ms.sourcegitcommit: 5480982967a90ca3060a59676a6b29155f2de861
+ms.openlocfilehash: b6a1689ab475b9518c290bf3db03d2144610bf8b
+ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49350748"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367181"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>보안 및 준수 센터의 경고 정책
 
@@ -33,7 +33,7 @@ Microsoft 365 보안 및 준수 센터의 경고 정책 및 알림 대시보드 
 경고 정책을 사용 하면 정책에 의해 트리거되는 경고를 분류 하 고, 조직의 모든 사용자에 게 정책을 적용 하 고, 경고가 트리거되는 경우에 대 한 임계값 수준을 설정 하 고, 경고가 트리거될 때 전자 메일 알림을 받을지 여부를 결정할 수 있습니다. 보안 및 준수 센터에는 경고를 보고 필터링 하 고 알림을 관리 하는 데 도움이 되도록 경고 상태를 설정 하 고 기본 인시던트를 해결 하거나 해결 한 후 알림을 해제할 수 있는 **알림 보기** 페이지도 있습니다.
 
 > [!NOTE]
-> Microsoft 365 Enterprise, Office 365 Enterprise 또는 Office 365 US 정부 E1/F1/G1, E3/G3 또는 E5/G5 구독이 있는 조직에 대해 경고 정책을 사용할 수 있습니다. 고급 기능은 E5/G5 구독이 있는 조직 또는 E1/F1/G1 또는 E3/G3 365 구독을 포함 하는 조직이 나 microsoft 365 E5 규정 준수 또는 microsoft 365 E5 및 감사 추가 기능 구독의 경우에만 사용할 수 있습니다. 이 항목에서는 E5/G5 또는 추가 기능 구독이 필요한 기능을 강조 표시 합니다. 또한 경고 정책은 Office 365 GCC, GCC High 및 DoD US 정부 환경에서 사용할 수 있습니다.
+> Microsoft 365 Enterprise, Office 365 Enterprise 또는 Office 365 US 정부 E1/F1/G1, E3/G3 또는 E5/G5 구독이 있는 조직에 대해 경고 정책을 사용할 수 있습니다. 고급 기능은 E5/G5 구독이 있는 조직 또는 E1/F1/G1 또는 E3/G3 구독 365 및 microsoft 365 E5 준수 또는 E5 eDiscovery 및 감사 추가 기능 구독을 사용 하는 조직에만 사용할 수 있습니다. 이 항목에서는 E5/G5 또는 추가 기능 구독이 필요한 기능을 강조 표시 합니다. 또한 경고 정책은 Office 365 GCC, GCC High 및 DoD US 정부 환경에서 사용할 수 있습니다.
 
 ## <a name="how-alert-policies-work"></a>경고 정책이 작동 하는 방식
 
@@ -76,7 +76,7 @@ Microsoft 365 보안 및 준수 센터의 경고 정책 및 알림 대시보드 
     비정상적인 활동을 기준으로 설정을 선택 하면 Microsoft는 선택한 활동의 일반 빈도를 정의 하는 초기 계획 값을 설정 합니다. 이 기준을 설정 하는 데 최대 7 일이 걸리고 알림이 생성 되지 않습니다. 초기 계획을 설정한 후에는 경고 정책으로 추적 되는 작업의 빈도가 너무 많으면 초기 계획 값을 초과 하는 경우 경고가 트리거됩니다. 감사 관련 활동 (예: 파일 및 폴더 활동)의 경우에는 단일 사용자 또는 조직의 모든 사용자를 기반으로 기준을 설정할 수 있습니다. 맬웨어 관련 활동의 경우 단일 맬웨어 제품군, 단일 받는 사람 또는 조직의 모든 메시지를 기반으로 기준을 설정할 수 있습니다.
 
     > [!NOTE]
-    > 임계값을 기반으로 하거나 비정상적인 활동을 기반으로 하는 경고 정책을 구성 하는 기능은 E5/G5 구독 또는 Microsoft Defender for Office 365 P2, Microsoft 365 E5 준수 또는 Microsoft 365 eDiscovery 및 감사 추가 기능 구독을 사용 하 여 E1/F1/G1 또는 E3/G3 구독을 필요로 합니다. E1/F1/G1 및 E3/G3 구독이 있는 조직은 활동이 발생할 때마다 경고가 트리거되는 알림 정책만 만들 수 있습니다.
+    > 임계값을 기반으로 하거나 비정상적인 활동을 기반으로 하는 경고 정책을 구성 하는 기능은 E5/G5 구독 또는 Microsoft Defender for Office 365 P2, Microsoft 365 E5 준수 또는 Microsoft 365 eDiscovery 및 감사 추가 기능 구독을 포함 하는 E1/F1/G1 또는 E3/G3 구독을 필요로 합니다. E1/F1/G1 및 E3/G3 구독이 있는 조직은 활동이 발생할 때마다 경고가 트리거되는 알림 정책만 만들 수 있습니다.
 
 - **경고 범주** -정책에 의해 생성 된 경고를 추적 하 고 관리 하는 데 도움이 되도록 다음 범주 중 하나를 정책에 할당할 수 있습니다.
 

@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: b2aa72dea55d4c75f6e73161e07cf0a9bb5ecf1c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: e8bf55cf3c27170c471dd45a68fd1ec2fa4a615b
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846276"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357447"
 ---
 # <a name="plan-for-insider-risk-management"></a>내부자 위험 관리 계획
 
@@ -57,7 +57,7 @@ ms.locfileid: "48846276"
 
 참가자 위험 관리 정책을 구현 하는 방법에 따라 적절 한 Microsoft 365 라이선스 구독을 준비 하 고 일부 솔루션 필수 구성 요소를 계획 해야 합니다.
 
-**라이선싱:** Microsoft 365 라이선스 구독을 광범위 하 게 선택한 경우의 참가자 위험 관리를 사용할 수 있습니다. 자세한 내용은 [참가자 위험 관리 시작](insider-risk-management-configure.md#before-you-begin) 문서를 참조 하세요.
+**라이선싱:** Microsoft 365 라이선스 구독을 광범위 하 게 선택한 경우의 참가자 위험 관리를 사용할 수 있습니다. 자세한 내용은 [참가자 위험 관리 시작](insider-risk-management-configure.md#subscriptions-and-licensing) 문서를 참조 하세요.
 
 Microsoft 365 Enterprise E5 요금제가 아직 없는 경우 microsoft 365을 기존 구독에 [추가](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) 하거나 Microsoft 365 Enterprise e 5의 [평가판을 등록할](https://www.microsoft.com/microsoft-365/enterprise) 수 있습니다.
 
