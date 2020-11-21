@@ -342,6 +342,8 @@
           href: data-move-faq.md
         - name: 고객 데이터가 저장되는 위치
           href: o365-data-locations.md
+        - name: 유럽 연합의 데이터 위치
+          href: eu-data-storage-locations.md
         - name: Microsoft Cloud Deutschland
           items:
             - name: 개요
@@ -564,7 +566,7 @@
           href: cmdlet-references-for-microsoft-365-services.md
         - name: PowerShell 커뮤니티 리소스
           href: microsoft-365-powershell-community-resources.md
-    - name: 'PowerShell로 Microsoft 365 사용자 계정, 라이선스 및 그룹 관리'
+    - name: '사용자 계정, 암호, 라이선스 및 그룹'
       href: manage-user-accounts-and-licenses-with-microsoft-365-powershell.md
       items:
         - name: 사용자 계정

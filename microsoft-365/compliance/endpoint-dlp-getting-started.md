@@ -19,16 +19,16 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 엔드포인트 데이터 손실 방지를 설정하여 파일 활동을 모니터링하고 해당 파일에 대한 보호 작업을 엔드포인트에 구현합니다.
-ms.openlocfilehash: 6ba3b83d634f946f818890a732a83166f346162d
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+ms.openlocfilehash: 8211ffbe3a84c0ee9fb4cb4c22d4dcea7f906a78
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49073097"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371604"
 ---
-# <a name="get-started-with-endpoint-data-loss-prevention"></a>엔드포인트 데이터 손실 방지 시작
+# <a name="get-started-with-endpoint-data-loss-prevention"></a>엔드포인트 데이터 손실 방지 시작하기
 
-Microsoft 엔드포인트 데이터 손실 방지(엔드포인트 DLP)는 Microsoft 365 서비스에서 중요한 항목을 검색하고 보호하는 데 사용할 수 있는 Microsoft 365의 DLP(데이터 손실 방지) 제품군의 일부입니다. 모든 Microsoft의 DLP 제공에 대한 자세한 내용은 [데이터 손실 방지 개요](data-loss-prevention-policies.md)를 참조하세요. 엔드포인트 DLP에 대한 자세한 내용은 [엔드포인트 데이터 손실 방지에 대한 자세한 정보](endpoint-dlp-learn-about.md)를 참조하세요.
+Microsoft 엔드포인트 데이터 손실 방지(엔드포인트 DLP)는 Microsoft 365 서비스에서 중요한 항목을 검색하고 보호하는 데 사용할 수 있는 Microsoft 365의 DLP(데이터 손실 방지) 제품군의 일부입니다. 모든 Microsoft의 DLP 제공에 대한 자세한 내용은 [데이터 손실 방지 개요](data-loss-prevention-policies.md)를 참조하세요. Endpoint DLP에 대해 자세히 알아보려면 [Endpoint 데이터 손실 방지](endpoint-dlp-learn-about.md)를 참조합니다.
 
 Microsoft 엔드포인트 DLP를 사용하면 Windows 10 장치를 모니터링하고 중요한 항목이 사용되고 공유되는 시기를 감지할 수 있습니다. 이를 통해 중요한 항목이 올바르게 사용되며 보호하고 손상을 일으킬 수 있는 위험한 행동을 방지하는 데 필요한 가시성과 제어 기능을 제공합니다.
 
@@ -105,7 +105,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 
 아직 온보딩되지 않은 장치를 온보딩하려는 경우 적절한 스크립트를 다운로드하여 해당 장치에 배포합니다. [장치 온보딩 절차](endpoint-dlp-getting-started.md#onboarding-devices)를 따르세요.
 
-이미 [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)에 온보딩된 장치가 있으면 해당 장치가 관리되는 장치 목록에 표시됩니다. [엔드포인트용 Microsoft Defender에 온보딩된 장치 사용](endpoint-dlp-getting-started.md#with-devices-onboarded-into-microsoft-defender-for- endpoint)을 참조하세요.
+이미 [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)에 온보딩된 장치가 있으면 해당 장치가 관리되는 장치 목록에 표시됩니다. [엔드포인트용 Microsoft Defender에 온보딩된 장치 사용](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-getting-started?view=o365-worldwide&source=docs#with-devices-onboarded-into-microsoft-defender-for-endpoint)을 참조하세요.
 
 ### <a name="onboarding-devices"></a>온보딩 장치
 
