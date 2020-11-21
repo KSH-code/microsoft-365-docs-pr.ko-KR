@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: f84c1c4a8d507ae9a4be3cb69a816a8494e08cc3
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 9bd5ad3e2544e0c715ade59ca4744e08c8a548a6
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906790"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376668"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Microsoft 365 생산성 일러스트레이션
 
@@ -43,12 +43,12 @@ IT 설계자가 Microsoft 365의 그룹에 대해 알아야 하는 점
 
 Microsoft 365에는 광범위 한 정보 보호 및 준수 기능이 포함 되어 있습니다. Microsoft의 생산성 도구와 함께 이러한 기능은 조직이 엄격한 규정 준수 프레임 워크를 준수 하면서 실시간으로 공동 작업 하는 데 도움이 되도록 설계 되었습니다. 
 
-이 그림 집합은 가장 규정 된 업계 금융 서비스 중 하나를 사용 하 여 일반적인 규정 요구 사항에 맞게 이러한 기능을 적용할 수 있는 방법을 보여 줍니다. 자신만의 사용을 위해 이러한 그림을 자유롭게 적용할 수 있습니다. 
+이 그림 집합은 가장 규정 된 업계 금융 서비스 중 하나를 사용 하 여 일반적인 규정 요구 사항에 맞게 이러한 기능을 적용할 수 있는 방법을 보여 줍니다. 사용자 개인 용도로 이 그림을 사용할 수 있습니다. 
 
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![모델 포스터: Microsoft 365 정보 보호 및 준수 기능](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> [PDF](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) \| 로 다운로드 [Visio로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx)   <br/> 2020 년 10 월 업데이트|개의 <ul><li>  Microsoft 정보 보호 및 데이터 손실 방지</li><li>보존 정책 및 보존 레이블 </li><li>정보 장벽</li><li>커뮤니케이션 규정 준수</li><li>참가자 위험</li><li>타사 데이터 수집</li>|
+|[![모델 포스터: Microsoft 365 정보 보호 및 규정 준수 기능](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> 영어: [PDF](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) \| [다운로드로 Visio로](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) 다운로드   <br/> 일본어: [PDF](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf) \| [다운로드로 Visio로](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx) 다운로드   <br/> 2020 년 11 월 업데이트|개의 <ul><li>  Microsoft 정보 보호 및 데이터 손실 방지</li><li>보존 정책 및 보존 레이블 </li><li>정보 장벽</li><li>커뮤니케이션 규정 준수</li><li>참가자 위험</li><li>타사 데이터 수집</li>|
 
 
 ### <a name="security-and-information-protection-for-multi-region-organizations"></a>다중 영역 조직에 대한 보안 및 정보 보호
@@ -84,7 +84,7 @@ Microsoft 365 다중 지역 환경 내에서의 고급 eDiscovery 종단간 워�
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![모델 포스터: Microsoft 365의 고급 eDiscovery 아키텍처](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [이미지로 보기](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| [PDF](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| 로 다운로드 [Visio로 다운로드](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> 2020 년 10 월 업데이트|개의 <ul><li>  단일 환경의 종단 간 워크플로</li><li>Microsoft 365 다중 지리적 환경의 종단 간 워크플로 </li><li>EDRM 워크플로를 지 원하는 종단 간 데이터 흐름</li> |
+|[![모델 포스터: Microsoft 365의 고급 eDiscovery 아키텍처](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [이미지로 보기](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| [PDF](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| 로 다운로드 [Visio로 다운로드](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> 업데이트 날짜: 2020년 10월|개의 <ul><li>  단일 환경의 종단 간 워크플로</li><li>Microsoft 365 다중 지리적 환경의 종단 간 워크플로 </li><li>EDRM 워크플로를 지 원하는 종단 간 데이터 흐름</li> |
   
 <!--
 

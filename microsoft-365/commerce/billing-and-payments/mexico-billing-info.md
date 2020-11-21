@@ -20,12 +20,12 @@ ms.custom:
 - AdminSurgePortfolio
 - Commerce
 monikerRange: o365-worldwide
-ms.openlocfilehash: 279b41716a5d69c819330e0fbcadd04d0aa51fee
-ms.sourcegitcommit: aa8d2de6ffac0157fffd14d0ea7f51ef0c287607
+ms.openlocfilehash: ea6a60d205c7fbe91b35b22b7ec7b3ee51715444
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49374040"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376296"
 ---
 # <a name="billing-information-for-microsoft-365-for-business-in-mexico"></a>Microsoft 365 비즈니스에 대 한 대금 청구 정보 (멕시코)
 
@@ -63,5 +63,5 @@ ms.locfileid: "49374040"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[청구서 또는 송장 보기](view-your-bill-or-invoice.md)\
-[비즈니스에 대 한 Microsoft 365의 청구서 또는 송장 이해](understand-your-invoice2.md)
+[청구서 또는 송장 보기](view-your-bill-or-invoice.md) (문서) \
+[Microsoft 365 for business (문서)에 대 한 청구서 또는 송장 이해](understand-your-invoice2.md)

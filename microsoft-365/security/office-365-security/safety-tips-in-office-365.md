@@ -18,23 +18,22 @@ ms.collection:
 - M365-security-compliance
 description: 전자 메일 맨 위에 보안 팁을 추가 하 여 EOP 및 Office 365에서 스팸, 피싱 및 맬웨어 방지 기능을 보호 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0e204021bfd79dabd4abdeefaa990da50915eaf0
-ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
+ms.openlocfilehash: e36887e2bb0146c86a8a4f1526f1e712a38b46ba
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "48948460"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376622"
 ---
 # <a name="safety-tips-in-email-messages"></a>전자 메일 메시지의 안전 팁
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-
 EOP (Exchange Online Protection) 및 Microsoft 365는 스팸, 피싱 및 맬웨어 방지 기능을 사용 하 여 사용자를 보호 합니다. 현재 이러한 공격 중 일부는 합법적인 것으로 제대로 조작 되었습니다. 정크 메일 폴더로 메시지를 보내는 것이 항상 적절 하지는 않습니다. 이제는 Outlook 또는 웹용 Outlook 또는 전자 메일 클라이언트에서 전자 메일을 확인 하면 EOP에서 자동으로 보낸 사람을 확인 하 고 전자 메일의 맨 위에 보안 팁을 추가 합니다.
 
 Outlook의 안전 팁은 보안 팁이 열려 있어 메시지 본문에 직접 삽입 하기 때문에 사용 중인 Outlook 버전에 따라 달라 집니다. 즉, 보안 팁은 사용 중인 모든 전자 메일 클라이언트에 표시 됩니다. 이 작업은 전자 메일 필터 수준에서 수행 되며 메일 클라이언트 수준에서 렌더링 되지 않으므로 모든 Outlook 버전에 표시 될 뿐 이며, 모든 전자 메일 클라이언트에도 표시 됩니다.
 
-보안 팁-색으로 구분 된 메시지를 통해 잠재적으로 유해한 메시지에 대해 경고 합니다. 대부분의 받은 편지함의 메시지에는 보안 팁이 없습니다. 스팸, 피싱 및 맬웨어 공격을 방지 하는 데 필요한 정보가 EOP 및 Microsoft 365에만 표시 됩니다. 받은 편지함에 보안 팁이 표시 되 면 다음 예제를 사용 하 여 각 유형의 안전 팁에 대해 자세히 알아볼 수 있습니다.
+보안 팁--색으로 구분 된 메시지는 잠재적으로 유해한 메시지에 대 한 경고를 표시 합니다. 대부분의 받은 편지함의 메시지에는 보안 팁이 없습니다. 스팸, 피싱 및 맬웨어 공격을 방지 하는 데 필요한 정보가 EOP 및 Microsoft 365에만 표시 됩니다. 받은 편지함에 보안 팁이 표시 되 면 다음 예제를 사용 하 여 각 유형의 안전 팁에 대해 자세히 알아볼 수 있습니다.
 
 - 의심 스러운 메일 (red 보안 팁)
 
