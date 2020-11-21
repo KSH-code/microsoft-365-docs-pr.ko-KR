@@ -289,7 +289,7 @@
           href: security-and-compliance/set-up-multi-factor-authentication.md
         - name: Office 2013에 대해 최신 인증 사용
           href: security-and-compliance/enable-modern-authentication.md
-        - name: Microsoft Business Premium 보안
+        - name: Microsoft 365 Business Premium을 사용하여 원격 작업을 보안
           items:
             - name: 데이터 보호를 위한 필수 조건
               href: ../business/pre-requisites-for-data-protection.md
@@ -297,6 +297,10 @@
               href: ../business/security-features.md
             - name: 위협 방지 강화
               href: ../business/increase-threat-protection.md
+            - name: Microsoft Defender 바이러스 백신에서 탐지된 위협
+              href: ../business/threats-detected-defender-av.md
+            - name: 탐지된 위협 검토 및 조치 수행
+              href: ../business/review-threats-take-action.md
             - name: 준수 기능 설정
               href: ../business/set-up-compliance.md
         - name: 보안 점수
