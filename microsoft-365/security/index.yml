@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: be575abfe658c77c0346b20efe77e1d52bc49918
-  ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+  ms.openlocfilehash: 971382e5da5b8bedf7527a7f30ae81dcbffdebdd
+  ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 11/04/2020
-  ms.locfileid: "48906814"
+  ms.lasthandoff: 11/19/2020
+  ms.locfileid: "49356694"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
@@ -32,9 +32,9 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Microsoft Threat Protection 사용 설정
+    - text: Microsoft 365 Defender 계산
       url: mtp/mtp-evaluation.md
-    - text: Microsoft Threat Protection 파일럿 플레이북
+    - text: Microsoft 365 Defender 파일럿 플레이북
       url: mtp/mtp-pilot.md
 - title: 원격 작업자 보안 유지
   linkLists:

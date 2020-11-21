@@ -171,6 +171,8 @@
       items:
         - name: Contoso Corporation의 Microsoft 365 솔루션
           href: contoso-case-study-solutions.md
+        - name: 하이브리드 인력을 위한 코로나19 대응 및 지원
+          href: contoso-hybrid-workforce.md
         - name: 극비 프로젝트를 위해 격리된 팀
           href: contoso-team-for-top-secret-project.md
         - name: Teams 음성 마이그레이션

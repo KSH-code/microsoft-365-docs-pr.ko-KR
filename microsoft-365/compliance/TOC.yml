@@ -860,7 +860,7 @@
       href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
 - name: 감사 및 경고 정책 관리
   items:
-    - name: 통합 감사
+    - name: 기본 감사
       items:
         - name: 감사 로그 검색
           href: search-the-audit-log-in-security-and-compliance.md
