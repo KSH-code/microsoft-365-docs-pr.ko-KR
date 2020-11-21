@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 준수 센터에 새로운 새 솔루션을 추가 하 고, 사용자 의견에 따라 기존 기능을 업데이트 하거나, 새로운 문서 및 업데이트 된 설명서를 롤아웃할 지 여부에 관계 없이 Microsoft 365에서는 지속적인 변경 준수 가로를 유지 하는 데 도움이 됩니다. 이번 달에 제공 된 내용을 확인 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cf019e15b1d5b915c58325c7d7c6f160acffe03e
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+ms.openlocfilehash: 27228f37673eee64ae44de9b88b7505d1958c05f
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988856"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376611"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -36,6 +36,77 @@ ms.locfileid: "48988856"
 > [!TIP]
 > 다른 관리 센터에서 어떤 작업을 진행 하 고 싶으십니까? 다음 문서를 확인 하세요.<br>[Microsoft 365 관리 센터의 새로운 기능](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br>[Microsoft 365 Defender의 새로운 기능](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)<br><br>
 [Microsoft 365 로드맵을](https://www.microsoft.com/en-us/microsoft-365/roadmap) 방문 하 여 시작 되었거나, 배포 중이거나, 개발 중 이거나, 이전에 출시 된 microsoft 365 기능에 대해 알아보세요.
+
+## <a name="october-2020"></a>2020년 10월
+
+### <a name="advanced-ediscovery"></a>Advanced eDiscovery
+
+[CJK 언어 지원](ediscovery-cjk-support.md) 이제 고급 eDiscovery에서는 CJK 언어로 통칭 되는 더블 바이트 문자 집합 언어 (중국어 간체, 중국어 번체, 일본어 및 한국어)가 지원 됩니다. 여러 고급 검토 설정 시나리오에서 사용할 수 있습니다.
+
+### <a name="sensitivity-labels"></a>민감도 레이블
+
+- [레이블 범위](sensitivity-labels.md#label-scopes) 민감도 레이블을 만들 때 레이블의 범위를 정의 하는 새 옵션이 표시 됩니다. 이 옵션을 사용 하면 파일 및 전자 메일, 컨테이너 (예를 들어 SharePoint 사이트 및 팀)에 대해서만 레이블을 구성할 수 있습니다.
+- [동적 콘텐츠 표시](sensitivity-labels-office-apps.md#dynamic-markings-with-variables) 민감도 레이블에 대 한 콘텐츠 표시를 구성 하는 경우에는 `${Item.Label}` `${Item.Location}` 머리글, 바닥글 또는 워터 마크에 대 한 텍스트 문자열 등의 동적 변수를 사용할 수 있습니다.
+
+## <a name="september-2020"></a>2020년 9월
+
+### <a name="spotlight-compliance-manager"></a>스포트라이트: 준수 관리자
+
+이번 연도의 Ignite에서 발표 된 규정 준수 점수가 [준수 관리자](compliance-manager.md)인 것으로 확인 되었습니다. 이 릴리스는 서비스 보안 포털에서 준수 관리자의 이전 홈에 대 한 전환을 완료 하 고 Microsoft 365 준수 센터에서 종단 간 준수 관리 솔루션을 소개 합니다.
+
+준수 관리자가 규정 준수를 관리 하는 방법을 간소화 하는 방법을 알아보려면 아래 비디오를 시청 하세요.
+<br>
+<br>
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4FGYZ]
+
+### <a name="advanced-audit"></a>고급 감사
+
+- 새로운 10 년의 감사 로그 보존을 통해 오랫동안 실행 되는 조사를 지원 하 고 규정, 법률 및 내부 의무에 대응할 수 있습니다.
+- 새로운 [중요 이벤트가 3 개](advanced-audit.md#access-to-crucial-events-for-investigations)있습니다. 다음 새 이벤트는 가능한 위반을 조사 하 고 손상 범위 (Send, SearchQueryInitiatedExchange 및 SearchQueryInitiatedSharePoint)를 결정 하는 데 도움이 될 수 있습니다.
+
+### <a name="communication-compliance"></a>커뮤니케이션 규정 준수
+
+- [역할 그룹이 업데이트 되었습니다](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance). 이제 통신 준수 역할 그룹은 참가자 위험 관리 솔루션에 사용할 수 있는 역할 그룹 구조와 일치 합니다.
+- [보고서 대시보드](communication-compliance-feature-reference.md#reports-preview) 모든 통신 준수 보고서를 볼 중앙 위치입니다. 보고서 위젯은 의사 준수 작업의 상태에 대 한 전반적인 평가를 위해 가장 일반적으로 필요한 정보를 신속 하 게 보여 줍니다.
+- [전원이 자동으로 흐릅니다](communication-compliance-feature-reference.md#power-automate-flows-preview). 흐름을 설정 하 여 알림 및 사용자에 대 한 작업을 자동화 하 고, 사용자가 경고를 트리거한 경우 관리자에 게 알립니다.
+- [' 분류 개선 관리 ' 작업을 수행](communication-compliance-investigate-remediate.md#step-3-decide-on-a-remediation-action)합니다. Trainable 분류자와 일치 하는 항목이 포함 된 경고는 사용자 의견을 통해 조직에서 가양성을 최소화 하는 데 도움이 될 수 있습니다. **분류 향상** 옵션을 사용 하면 검색 된 항목이 관련 통신 준수 정책에 구성 되어 있는 분류자와 일치 하는지 여부에 대 한 피드백을 제공할 수 있습니다. 나중에 발생할 경고에 대 한 일치를 높이기 위해 항목에 연결 하는 다른 분류자도 제안할 수 있습니다.
+
+### <a name="data-connectors"></a>데이터 커넥터
+
+- [새 타사 데이터 커넥터](archiving-third-party-data.md#third-party-data-connectors) Globanet에서 14 개 커넥터를 포함 하는 새 데이터 커넥터 25 개 (Telemessage의 경우 8 개)
+- [실제 배지 획득 커넥터](import-physical-badging-data.md) 직원의 원시 물리적 액세스 이벤트 또는 조직의 배지 획득 시스템에서 생성 하는 모든 실제 액세스 경보 같은 물리적 배지 획득 데이터를 가져옵니다. 예를 들면 건물, 서버 대화방 또는 데이터 센터에 대 한 항목이 포함 됩니다. 실제 배지 획득 데이터는 조직 내부의 악성 활동 또는 데이터 절도 로부터 조직을 보호 하는 데 도움이 되는 참가자 위험 관리 솔루션에서 사용 될 수 있습니다.
+
+### <a name="insider-risk-management"></a>내부자 위험 관리
+
+- [Microsoft 팀 통합](insider-risk-management-settings.md#microsoft-teams-preview) 팀 통합이 참가자 위험 설정에서 설정 된 경우, 개별 사례와 관련 된 데이터를 안전 하 게 공유 하 고 저장 하 고, 분석가 및 investigators의 응답 활동을 추적 및 검토 하는 등의 작업을 수행 하 여 팀에서 다른 관련자와 공동으로 작업할 수 있습니다.
+- [전원이 자동으로 흐릅니다](insider-risk-management-settings.md#power-automate-flows-preview). 사용자, 알림 및 사례 정보를 검색 하 여 관련자 및 기타 앱과 공유 하 고 사례 메모에 게시 하는 등의 작업을 자동화 하는 등 사례 및 사용자에 대 한 중요 한 작업을 자동화 하는 흐름을 설정 합니다.
+- [활동 탐색기](insider-risk-management-alerts.md#activity-explorer-preview) 사용 가능 알림 검토 시 활동 탐색기는 investigators 및 분석가에 게 각 경고를 드릴 다운할 수 있는 포괄적인 분석 도구를 제공 합니다. 검색 된 위험한 활동의 시간 표시 막대를 신속 하 게 검토 하 고 경고와 관련 한 모든 위험 활동을 식별 하 고 필터링 합니다.
+
+### <a name="retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블
+
+- [Yammer에 대 한 지원](retention-policies-yammer.md) 이제 보존 정책을 사용 하 여 Yammer 커뮤니티 메시지 및 개인 메시지를 보존 하 고 삭제할 수 있습니다.
+- [팀 모임 녹음/녹화에 레이블을 적용](apply-retention-labels-automatically.md#microsoft-teams-meeting-recordings)합니다. 자동 레이블 정책을 만들 때 키워드 쿼리 편집기를 사용 하 여 사용자의 OneDrive 계정 또는 SharePoint에 저장 된 팀 모임 녹음/녹화를 식별 합니다.
+
+### <a name="records-management"></a>레코드 관리
+
+[규정 레코드 지원](declare-records.md#how-to-display-the-option-to-mark-content-as-a-regulatory-record) 레이블을 규정 레코드로 분류 하면 레이블이 적용 되는 콘텐츠에 대 한 제한이 증가 하 고 레이블 자체에 대 한 사용 가능한 관리 작업을 제한 합니다. 예를 들어 콘텐츠를 적용 한 후에 전역 관리자가 아닌 사람은 레이블을 제거할 수 있습니다. 규정 레코드에 대해 허용 및 차단 되는 작업에 대해 자세히 [알아보세요](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked) .
+
+### <a name="sensitivity-labels"></a>민감도 레이블
+
+[미국 정부 고객을 지원](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description)합니다. 민감도 레이블은 이제 GCC, GCC High 및 DoD 고객에 대해 지원 되며, Azure Information Protection 통합 레이블 클라이언트 및 스캐너용입니다.
+
+### <a name="trainable-classifiers"></a>교육 가능한 분류자
+
+새로운 재교육 및 피드백 기능은 정확성을 높이고 모든 사용자 지정 분류자 및 미리 훈련 된 분류자에 대해 가양성 일치를 최소화할 수 있도록 지원 합니다. 이 흐름을 사용 하면 항목이 특정 분류자와 일치 하는지, 항목과 연결 하기 위한 다른 분류자를 제안 하 고, 재교육 분류자가 일치 하는 정확도를 향상 시 키도 록 의견을 제공할 수 있습니다.
+
+이 새로운 기능은 다음 기능에 포함 되어 있습니다.
+
+> [!NOTE]
+> 모든 기능에 대해 30 개 이상의 피드백 응답을 제공 하는 경우 검토할 수 있는 retrained 버전의 해당 분류자를 만듭니다. 향상 된 기능을 제공 하는 경우에는 해당 분류자를 다시 게시할 수 있습니다.
+
+- [Trainable 분류자](classifier-learn-about.md#retraining-classifiers) 게시 된 분류자의 정확성을 높이기 위해 검색 한 항목이 분류자와 일치 하는지 여부에 대 한 피드백을 제공할 수 있습니다.
+- [통신 준수](classifier-how-to-retrain-comms-compliance.md) 새 **분류 기능 개선** 방안 작업을 통해 통신 준수 알림의 항목이 통신 준수 정책에 구성 된 분류자와 일치 하는지 여부를 사용자에 게 알릴 수 있습니다.
+- [콘텐츠 탐색기](classifier-how-to-retrain-content-explorer.md) Trainable 분류자와 일치 하는 전자 메일 메시지에 레이블을 자동으로 적용 하도록 보존 자동 레이블 정책을 설정 하는 경우 content explorer를 사용 하 여 레이블이 지정 된 항목을 검토 하 고 항목이 분류자와 일치 하는지 여부에 대 한 의견을 제공할 수 있습니다.
 
 ## <a name="august-2020"></a>2020년 8월
 
@@ -101,7 +172,7 @@ ms.locfileid: "48988856"
 조직의 중요 한 데이터를 보호 하 고 제어 하는 데 사용 되는 준수 솔루션을 쉽게 이해할 수 있도록 두 개의 새 랜딩 페이지를 만든 후 관련 문서 링크를 비롯 하 여 이러한 목표를 달성 하는 방법에 대해 간략하게 설명 합니다.
 
 [Microsoft 365의 microsoft Information Protection](information-protection.md)<br>
-[Microsoft 365의 microsoft 정보 거 버 넌 스](manage-Information-governance.md)
+[Microsoft 365의 Microsoft 정보 거버넌스](manage-Information-governance.md)
 
 ### <a name="advanced-ediscovery-add-non-custodial-data-sources-to-your-cases"></a>고급 eDiscovery: 사례에 custodial 되지 않는 데이터 원본 추가
 
@@ -326,7 +397,7 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 |솔루션 카탈로그 (미리 보기) <br/>|솔루션 카탈로그는 규정 준수 및 위험 관리 솔루션을 검색 하 고 학습 하며 빠르게 시작할 수 있는 1-스톱-상점입니다. 카탈로그는 세 가지 준수 범주로 구성 되며 각각에 해당 범주를 구성 하는 솔루션에 대 한 세부 정보를 포함 합니다. 종류에는 정보 보호 & 거 버 넌 스, 참가자 위험 관리 및 검색 & 응답이 포함 됩니다. <br/>|[솔루션 카탈로그 개요 (미리 보기)](microsoft-365-solution-catalog.md)|
 |통신 준수 (미리 보기) <br/>|통신 준수는 조직의 부적절 한 메시지에 대해 검색, 캡처 및 수정 작업을 수행 하 여 통신 위험을 최소화 하는 데 도움이 되는 새로운 참가자 위험 관리 범주의 일부입니다. 이 솔루션은 지능형 서식 파일, 유연한 재구성 워크플로 및 실행 가능한 통찰력과 같은 새로운 향상 된 기능을 도입 하 여 Office 365의 감독 정책 기능을 확장 합니다. <br/>|[Microsoft 365의 통신 준수 (미리 보기)](communication-compliance.md)|
 |데이터 분류 (미리 보기) <br/>|새 데이터 분류 페이지에는 조직 전체의 콘텐츠에 중요 한 정보 및 레이블 (보존 및 민감도)이 사용 되는 방식을 검색 하 고 평가 하는 데 도움이 되는 강력한 통찰력 및 도구가 포함 되어 있습니다. 중요 한 정보가 포함 된 콘텐츠를 검토 하거나 레이블이 적용 되 고, Microsoft 365 위치 간 레이블 작업을 탐색 하 고, 사용자 지정 중요 한 정보 유형을 만듭니다.<br/>|[데이터 분류 개요(미리 보기)](data-classification-overview.md)|
-|Trainable 분류자 (미리 보기) <br/>|이 강력한 새 도구는 컴퓨터 학습 엔진을 사용 하 여 규정 문서 또는 직원 계약과 같은 조직 내 콘텐츠 범주를 식별 하는 데 도움이 됩니다. 만든 분류자는 다양 한 준수 솔루션에서 사용 하 여 관련 콘텐츠를 검색 하 고 분류 하며 보호 하 고 유지 합니다.<br/>|[학습 가능한 분류자에 대한 자세한 정 (미리 보기)](classifier-learn-about.md)|
+|교육 가능한 분류자(미리 보기) <br/>|이 강력한 새 도구는 컴퓨터 학습 엔진을 사용 하 여 규정 문서 또는 직원 계약과 같은 조직 내 콘텐츠 범주를 식별 하는 데 도움이 됩니다. 만든 분류자는 다양 한 준수 솔루션에서 사용 하 여 관련 콘텐츠를 검색 하 고 분류 하며 보호 하 고 유지 합니다.<br/>|[학습 가능한 분류자에 대한 자세한 정 (미리 보기)](classifier-learn-about.md)|
 
 #### <a name="updated-compliance-solutions"></a>업데이트 된 준수 솔루션
 
@@ -358,15 +429,3 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 |민감도 레이블 및 레이블 정책|분류 > 민감도 레이블 > 레이블 및 레이블 정책 탭 <br/> https://protection.office.com/sensitivity |정보 보호 > 레이블 및 레이블 정책 탭 <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabels <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabelpolicies |[민감도 레이블에 대해 알아보기](sensitivity-labels.md) |
 |서비스 보증|서비스 보증 <br/> https://protection.office.com/serviceassurance/dashboard |현재 서비스 보증 리소스는 Office 365 보안 & 준수 센터 에서만 액세스할 수 있습니다. |[보안 및 준수 센터의 서비스 보증](service-assurance.md)|
 |감독|감독 <br/> https://protection.office.com/supervisoryreviewv2 |커뮤니케이션 규정 준수 <br/> https://compliance.microsoft.com/supervisoryreview |[Microsoft 365의 통신 준수 (미리 보기)](communication-compliance.md) |
-
-## <a name="september-2019"></a>2019년 9월
-
-이번 달에 출시 된 릴리스가 어떻게 조용한 지 궁금 하십니까? [Microsoft Ignite](https://www.microsoft.com/ignite) 의 11 월에 unveiled 되는 혁신적인 새 규정 준수 솔루션을 구축 하 고 있습니다. 계속 조정
-
-### <a name="new-encryption-options-for-sensitivity-labels"></a>민감도 레이블의 새 암호화 옵션 
-
-민감도 레이블에 대 한 암호화를 구성할 때 사용자가 전자 메일 및 문서에 레이블을 수동으로 적용할 때 사용 권한을 할당할 수 있는 두 가지 옵션이 있습니다.<br>
-- **Outlook 전자 메일** 에 레이블을 적용할 때 사용자는 전달 금지 옵션에 해당 하는 제한을 적용할 수 있습니다. 받는 사람은 메시지를 읽을 수는 있지만 콘텐츠를 전달, 인쇄 또는 복사 하지는 못합니다.
-- **Word, PowerPoint 및 Excel 파일** 에 레이블을 적용 하는 경우 사용자에 게 특정 사용자 및 그룹에 대 한 액세스 권한을 지정 하 라는 메시지가 표시 됩니다.
-
-[민감도 레이블을 사용 하 여 콘텐츠에 대 한 액세스 제한](encryption-sensitivity-labels.md#let-users-assign-permissions) 으로 이동 하 여 자세한 내용을 확인 하 고 자세한 내용은 암호화를 적용 합니다.

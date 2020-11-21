@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 사용자가 데스크톱, 모바일 및 웹의 Office 앱에서 민감도 레이블을 사용 하는 방법 및 민감도 레이블을 지 원하는 앱에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: de005e40cf346c8dd6e02e0394272a97b186920f
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 415f9345c3634adf62c42b9e13192be5ad7ea795
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131111"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371696"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 사용
 
@@ -52,7 +52,7 @@ Windows 컴퓨터 에서만 실행 되는 Azure Information Protection 통합 �
 
 IOS 및 Android의 경우: 나열 되는 최소 버전은 [Office 앱](https://www.microsoft.com/en-us/microsoft-365/blog/2020/02/19/new-office-app-android-ios-available/)에서도 민감도 레이블 기능을 지원 합니다.
 
-|기능                                                                                                        |Windows 데스크톱 |Mac 데스크톱 |iOS    |Android      |웹                                                         |
+|기능                                                                                                        |Windows 데스크톱 |Mac 데스크톱 |iOS    |Android      |Web                                                         |
 |------------------------------------------------------------------------------------------------------------------|----------------|------------|-------|-------------|------------------------------------------------------------|
 |[수동으로 레이블 적용, 변경 또는 제거](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [예-옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[기본 레이블 적용](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [예-옵트인](sensitivity-labels-sharepoint-onedrive-files.md)                                                        |
@@ -258,6 +258,41 @@ Office 앱 외부에 민감도 레이블을 적용 하는 경우 다음이 포�
 
 > [!NOTE]
 > 이러한 변수에 대 한 구문은 대/소문자를 구분 합니다.
+
+#### <a name="setting-different-visual-markings-for-word-excel-powerpoint-and-outlook"></a>Word, Excel, PowerPoint 및 Outlook에 대해 다른 시각적 표시 설정
+
+추가 변수로, 텍스트 문자열에 "If. App" 변수 문을 사용 하 여 Office 응용 프로그램 유형별 표시를 구성 하 고, **Word**, **Excel**, **PowerPoint** 또는 **Outlook** 값을 사용 하 여 응용 프로그램 유형을 식별할 수 있습니다. 또한 동일한 If. App 문에서 두 개 이상의 값을 지정 하려는 경우에 필요 합니다.
+
+> [!NOTE]
+> 자세한 내용은 현재 Azure Information Protection 통합 레이블 클라이언트 에서만 지원 되지만 Outlook에 대 한 지침이 포함 되어 있습니다.
+
+다음 구문을 사용합니다.
+
+```
+${If.App.<application type>}<your visual markings text> ${If.End}
+```
+
+다른 동적 시각적 표시와 마찬가지로 구문은 대/소문자를 구분 합니다.
+
+예제:
+
+- **Word 문서에 대해서만 머리글 텍스트를 설정 합니다.**
+
+    `${If.App.Word}This Word document is sensitive ${If.End}`
+
+    Word 문서 머리글만 해당 레이블에는 "이 Word 문서가 중요 함" 이라는 머리글 텍스트가 적용 됩니다. 다른 Office 응용 프로그램에는 머리글 텍스트가 적용 되지 않습니다.
+
+- **Word, Excel, Outlook 및 PowerPoint 용 다른 바닥글 텍스트에 대 한 바닥글 텍스트를 설정 합니다.**
+
+    `${If.App.WXO}This content is confidential. ${If.End}${If.App.PowerPoint}This presentation is confidential. ${If.End}`
+
+    Word, Excel 및 Outlook에서 레이블에는 "이 콘텐츠는 기밀입니다." 라는 바닥글 텍스트가 적용 됩니다. PowerPoint에서 레이블은 "이 프레젠테이션은 기밀입니다." 라는 바닥글 텍스트를 적용 합니다.
+
+- **Word 및 PowerPoint에 대 한 특정 워터 마크 텍스트를 설정한 다음 Word, Excel 및 PowerPoint에 대 한 워터 마크 텍스트를 설정 합니다.**
+
+    `${If.App.WP}This content is ${If.End}Confidential`
+
+    Word 및 PowerPoint에서 레이블은 워터 마크 텍스트 "이 콘텐츠는 기밀 항목입니다."를 적용 합니다. Excel에서 레이블은 워터 마크 텍스트 "기밀"을 적용 합니다. Outlook에서는 워터 마크를 표시 하는 데 사용할 수 없는 워터 마크가 있을 수 있습니다.
 
 ## <a name="end-user-documentation"></a>최종 사용자 설명서
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 SharePoint 및 OneDrive에서 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용 하도록 설정할 수 있습니다.
-ms.openlocfilehash: 84628cdf1e56bfcdf72bc5aca7aed61eba6a7782
-ms.sourcegitcommit: 2beefb695cead03cc21d6066f589572d3ae029aa
+ms.openlocfilehash: 0feb98c6a0040ad67b4607062abdf0be5b5fbdb8
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49349694"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376331"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용
 
@@ -218,6 +218,26 @@ SharePoint 및 OneDrive에서 민감도 레이블을 사용 하는 경우 새 �
     ``` 
 
 관리 속성을 사용 하는 방법에 대 한 자세한 내용은 [SharePoint에서 검색 스키마 관리](https://docs.microsoft.com/sharepoint/manage-search-schema)를 참조 하세요.
+
+## <a name="remove-encryption-for-a-labeled-document"></a>레이블이 지정 된 문서에 대 한 암호화 제거
+
+SharePoint 관리자가 SharePoint에 저장 된 문서에서 암호화를 제거 해야 하는 경우가 있습니다. 해당 문서에 대해 내보내기 [권한](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) 또는 모든 권한이 할당 된 모든 사용자는 Azure 권한 관리 서비스에서 Azure Information Protection을 통해 적용 한 암호화를 제거할 수 있습니다. 예를 들어 이러한 사용 권한을 가진 사용자는 암호화를 사용 하지 않고 암호를 적용 하는 레이블을 암호화를 통해 바꿀 수 있습니다. 또는 [수퍼 사용자](https://docs.microsoft.com/azure/information-protection/configure-super-users) 가 암호화 하지 않고 파일을 다운로드 하 고 로컬 복사본을 저장할 수 있습니다.
+
+또 다른 방법으로, 전역 관리자 또는 [SharePoint 관리자](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) 는 [SPOSensitivityLabelEncryptedFile](https://docs.microsoft.com/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) cmdlet을 실행 하 여 민감도 레이블과 암호화를 모두 제거할 수 있습니다. 이 cmdlet은 관리자에 게 사이트 또는 파일에 대 한 액세스 권한이 없거나 Azure 권한 관리 서비스를 사용할 수 없는 경우에도 실행 됩니다. 
+
+예시:
+
+```powershell
+Unlock-SPOSensitivityLabelEncryptedFile -FileUrl "https://contoso.com/sites/Marketing/Shared Documents/Doc1.docx" -JustificationText "Need to decrypt this file"
+```
+
+요구 사항:
+
+- SharePoint Online 관리 셸 버전 16.0.20616.12000 이상
+
+- 관리자가 정의한 암호화 설정 ( [이제 사용 권한](encryption-sensitivity-labels.md#assign-permissions-now) 레이블 설정 지정)을 사용 하 여 민감도 레이블에서 암호화를 적용 했습니다. 이 cmdlet에는 [이중 키 암호화](encryption-sensitivity-labels.md#double-key-encryption) 가 지원 되지 않습니다.
+
+사유 텍스트가 **파일에서 제거 된 민감도 레이블의** [감사 이벤트](search-the-audit-log-in-security-and-compliance.md#sensitivity-label-activities) 에 추가 되 고 암호 해독 작업은 [Azure Information protection의 보호 사용 현황 로깅](https://docs.microsoft.com/azure/information-protection/log-analyze-usage)에도 기록 됩니다.
 
 ## <a name="how-to-disable-sensitivity-labels-for-sharepoint-and-onedrive-opt-out"></a>SharePoint 및 OneDrive에 대해 민감도 레이블을 사용 하지 않도록 설정 하는 방법 (옵트아웃)
 
