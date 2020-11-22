@@ -12,21 +12,21 @@ ms.custom: seo-marvel-jun2020
 localization_priority: Priority
 description: 재무 서비스 기관에서 Microsoft 365와 Teams를 사용하여 재무 보안 규정 준수를 유지하고 효과적으로 공동 작업하는 방법을 알아봅니다.
 f1.keywords: NOCSH
-ms.openlocfilehash: 2e0148a89a811fb910237469c42e136d0c744087
-ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
+ms.openlocfilehash: cf485ec673c2f53d1b088c24be950dfe98c71276
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48993403"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376646"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>미국 은행 및 자본 시장에 대한 주요 규정 준수 및 보안 고려 사항
 
 ## <a name="introduction"></a>소개
-금융 서비스 기관은 엄격한 보안, 규정 준수 및 거버넌스 통제에 대한 수요에서 거의 모든 상업적 기업들을 상회하는 수요를 지니고 있습니다. 데이터, 신원, 장치 및 응용 프로그램의 보호는 이들의 비즈니스에서 중요할 뿐만 아니라 SEC(증권거래위원회), FINRA(금융산업규제당국), FFIEC(연방금융기관검사위원회) 및 CFTC(상품선물거래위원회)와 같은 규제 기관의 규정 준수 요건과 지침의 대상입니다. 또한 금융 기관은 Dodd-Frank 및 Sarbanes-Oxley Act 2002와 같은 법률의 적용을 받습니다.
+금융 서비스 기관은 엄격한 보안, 규정 준수 및 거버넌스 통제에 대한 수요에서 거의 모든 상업적 기업들을 앞서고 있습니다. 데이터, ID, 장치 및 응용 프로그램의 보호는 비즈니스에 매우 중요할 뿐만 아니라 미국 SEC(증권 거래 위원회), FINRA(재무 산업 규제 기관), FINRA(연방금융기관검사 협의회) 그리고 CFTC(상품선물거래 위원회)와 같은 규제 기관의 규정 준수 요구 사항 및 지침의 적용을 받습니다. 또한 금융 기관은 Dodd-Frank 및 Sarbanes-Oxley Act 2002와 같은 법률의 적용을 받습니다.
 
-오늘날 보안 경계, 내부자 위험 우려 및 공공 데이터 유출이 증가하는 오늘날의 상황에서 고객은 개인 데이터와 은행 자산을 관리하는 금융 기관을 신뢰하기 위해 금융 기관에 높은 수준의 보안을 요구합니다.
+보안 경계, 내부자 위험 우려 및 공용 데이터 유출이 증가하는 오늘날의 상황에서 고객은 개인 데이터와 은행 자산을 관리하는 금융 기관을 신뢰하기 위해 높은 수준의 보안을 요구합니다.
 
-과거에는 포괄적인 통제의 필요성으로 인해 금융 기관의 대내외적인 공동 작업을 가능하게 하는 IT 시스템과 플랫폼에 직접적인 영향을 미치고 제약을 가했습니다. 오늘날 금융 서비스 직원들에게는 도입하기 쉽고 사용하기 쉬운 최신 공동 작업 플랫폼을 필요합니다. 그러나 금융 서비스는 사용자, 팀 및 부서 간에 공동 작업할 수 있는 유연성을 높이기 위해 사용자와 IT 시스템을 위협으로부터 보호하는 정책을 시행하는 보안 및 규정 준수 통제를 포기할 수 없습니다.
+과거에는 포괄적인 통제의 필요성으로 인해 금융 기관의 대내외적인 공동 작업을 가능하게 하는 IT 시스템과 플랫폼에 직접적인 영향을 미치고 제약을 가했습니다. 오늘날 금융 서비스 직원들에게는 도입하기 쉽고 사용하기 쉬운 최신 공동 작업 플랫폼이 필요합니다. 그러나 금융 서비스는 사용자, 팀 및 부서 간에 공동 작업할 수 있는 유연성을 높이기 위해 사용자와 IT 시스템을 위협으로부터 보호하는 정책을 시행하는 보안 및 규정 준수 통제를 희생할 수는 없습니다.
 
 금융 서비스 부문에서는 다음과 같은 공동 작업 도구 및 보안 통제를 구성하고 배포할 때 신중하게 고려해야 합니다.
 - 일반적인 조직 공동 작업 및 비즈니스 프로세스 시나리오의 위험 평가
@@ -35,9 +35,9 @@ ms.locfileid: "48993403"
 - 규정 준수 요구 사항
 - 기타 운영 위험
 
-**Microsoft 365는 금융 서비스 조직이 직면한 오늘날의 어려움을 해결할 수 있는 최신 작업 공간 클라우드 환경입니다. 기업 전체의 안전하고 유연한 공동 작업은 통제 및 정책 시행과 결합하여 엄격한 규정 준수 프레임워크를 준수할 수 있습니다.** 이 문서에서는 Microsoft 365 플랫폼이 데이터와 시스템을 안전하게 보호하고 규정을 준수하도록 지원하면서 금융 서비스를 최신 공동 작업 플랫폼으로 전환하는 방법을 알아봅니다.
+**Microsoft 365는 금융 서비스 조직이 직면한 오늘날의 어려움을 해결할 수 있는 최신 작업 공간 클라우드 환경입니다. 기업 전체의 안전하고 유연한 공동 작업은 통제 및 정책 적용과 결합하여 엄격한 규정 준수 프레임워크를 준수할 수 있습니다.** 이 문서에서는 Microsoft 365 플랫폼이 데이터와 시스템을 안전하게 보호하고 규정을 준수하도록 지원하면서 금융 서비스를 최신 공동 작업 플랫폼으로 전환하는 방법을 설명합니다.
 
-* Microsoft 365 및 Microsoft Teams를 사용하여 조직 및 직원 생산성 향상
+* Microsoft 365 및 Microsoft Teams를 사용하여 조직 및 직원 생산성 활성화
 * Microsoft 365를 사용하여 최신 공동 작업 보호 
 * 중요한 데이터 식별 및 데이터 손실 방지
 * 정보 요새 방어
@@ -47,13 +47,13 @@ ms.locfileid: "48993403"
 
 Microsoft 파트너인 Protiviti에서 이 문서에 기여하고 중요한 피드백을 제공했습니다.
 
-다음의 다운로드 가능한 일러스트레이션은 이 문서를 보완합니다. Woodgrove Bank나 Contoso를 사용하여 이 문서에 설명된 기능을 적용하여 재무 서비스의 일반적인 규제 요구 사항을 해결할 수 있는 방법을 보여줍니다. 사용자 개인 용도로 이 그림을 사용할 수 있습니다. 
+다음의 다운로드 가능한 일러스트레이션은 이 문서를 보완합니다. Woodgrove Bank나 Contoso를 사용하여 이 문서에 설명된 기능을 적용하여 재무 서비스의 일반적인 규제 요구 사항을 해결할 수 있는 방법을 보여줍니다. 사용자 개인 용도로 이 일러스트레이션을 자유로이 사용할 수 있습니다. 
 
-**Microsoft 365 정보 보호 및 규정 준수 그림**
+**Microsoft 365 정보 보호 및 규정 준수 일러스트레이션**
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![모델 포스터: Microsoft 365 정보 보호 및 규정 준수 기능](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> [PDF로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf)  \| [Visio로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) <br/> 업데이트 날짜: 2020년 10월|포함 항목: <ul><li>  Microsoft 정보 보호 및 데이터 손실 방지</li><li>보존 정책 및 보존 레이블 </li><li>정보 장벽</li><li>커뮤니케이션 규정 준수</li><li>참가자 위험</li><li>타사 데이터 수집</li>|
+|[![모델 포스터: Microsoft 365 정보 보호 및 규정 준수 기능](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/>영어: [PDF로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf)  \| [Visio로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) <br/> 일본어: [PDF로 다운로드](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf)  \| [Visio로 다운로드](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx)<br/> 2020년 11월에 업데이트됨|포함 항목: <ul><li>  Microsoft 정보 보호 및 데이터 손실 방지</li><li>보존 정책 및 보존 레이블 </li><li>정보 장벽</li><li>커뮤니케이션 규정 준수</li><li>참가자 위험</li><li>타사 데이터 수집</li>|
 
 
 ## <a name="empower-organizational-and-employee-productivity-by-using-microsoft-365-and-teams"></a>Microsoft 365 및 Teams를 사용하여 조직 및 직원 생산성 향상
@@ -62,7 +62,7 @@ Microsoft 파트너인 Protiviti에서 이 문서에 기여하고 중요한 피�
 
 직원들에게 최신 클라우드 기반 공동 작업 플랫폼을 제공함으로써 직원들이 생산성을 높이고 민첩한 업무 방식을 찾는 데 도움이 되는 도구를 선택하고 통합할 수 있습니다. 조직을 보호하는 보안 통제 및 정보 거버넌스 정책과 함께 Teams를 사용하면 직원들이 효과적으로 의사소통하고 공동 작업할 수 있습니다.
 
-Teams는 조직을 위한 공동 작업 허브를 제공합니다. 사람들을 모아 공동의 이니셔티브와 프로젝트를 생산적으로 수행할 수 있도록 하는 데 도움이 됩니다. 팀 구성원은 Teams를 통해 1:1 및 다자간 대화를 진행하고 문서를 공동 작업 및 작성하며 파일을 저장하고 공유할 수 있습니다. Teams는 또한 통합된 엔터프라이즈급 음성 및 비디오를 통해 온라인 회의를 용이하게 합니다. Microsoft Planner, Microsoft Dynamics 365, PowerApps, PowerBI 및 타사 LOB(기간 업무) 응용 프로그램과 같은 Microsoft 앱으로 Teams를 사용자 지정할 수도 있습니다. Teams는 내부 팀 구성원과 허용된 외부 사용자 모두가 팀 채널에 가입하고 대화에 참여하고 저장된 파일에 액세스하고 다른 응용 프로그램을 활용할 수 있도록 설계되었습니다.
+Teams는 조직을 위한 공동 작업 허브를 제공합니다. 사람들을 모아 공동의 이니셔티브와 프로젝트를 생산적으로 수행할 수 있도록 하는 데 도움이 됩니다. 팀 구성원은 Teams를 통해 1:1 및 다자간 대화를 진행하고 문서를 공동 작업 및 작성하며 파일을 저장하고 공유할 수 있습니다. Teams는 또한 통합된 엔터프라이즈 음성 및 비디오를 통해 온라인 모임을 용이하게 합니다. Microsoft Planner, Microsoft Dynamics 365, PowerApps, Power BI 및 타사 LOB(기간 업무) 응용 프로그램과 같은 Microsoft 앱으로 Teams를 사용자 지정할 수도 있습니다. Teams는 팀 채널에 가입하고, 채팅 대화에 참여하고, 저장된 파일에 액세스하고, 다른 응용 프로그램을 활용할 수 있는 내부 팀 구성원과 허용된 외부 사용자 모두가 사용하도록 설계되었습니다.
 
 모든 Microsoft Teams는 Microsoft 365 그룹의 지원을 받습니다. 이 그룹은 Teams를 포함한 다양한 Office 365 서비스의 멤버십 서비스로 간주됩니다. Microsoft 365 그룹은 "소유자"와 "구성원"을 안전하게 구분하고 Teams 내 다양한 기능에 대한 액세스를 제어하는 데 사용됩니다. Teams는 적절한 거버넌스 통제 및 정기적으로 관리되는 액세스 검토를 함께 사용하여 구성원 및 소유자만 승인된 채널 및 기능을 활용할 수 있도록 합니다.
 
