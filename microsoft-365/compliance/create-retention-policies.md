@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하면 사용자가 전자 메일, 문서 및 대화로 생성하는 콘텐츠를 매우 효율적으로 제어할 수 있습니다. 원하는 것을 유지하고 원하지 않는 것은 없애세요.
-ms.openlocfilehash: 83f438b6a32ad56f1f239858d2f3fad61875c460
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: bcf0ef5aa76113102013bc20fca02e6d516c3203
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357343"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376581"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -99,7 +99,7 @@ Microsoft 365 그룹, SharePoint 사이트 또는 OneDrive 계정에 적용된 �
 ### <a name="retention-policy-for-yammer-locations"></a>Yammer 위치에 대한 보존 정책
 
 > [!NOTE]
-> Yammer에 대 한 보존 정책이 미리 보기에서 배포됩니다. Yammer에 대한 새 위치가 아직 표시되지 않는 경우 며칠 후에 다시 시도하세요.
+> Yammer에 대 한 보존 정책이 미리 보기에서 배포됩니다. Yammer에 대한 새 위치가 아직 표시되지 않는 경우 몇주 후에 다시 시도하세요.
 >
 > 이 기능을 사용하려면 Yammer 네트워크가 하이브리드 모드가 아니라 [기본 모드](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode)여야 합니다.
 
