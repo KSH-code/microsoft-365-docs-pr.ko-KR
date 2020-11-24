@@ -1,5 +1,5 @@
 ---
-title: 검색 된 위협 검토 및 조치 수행
+title: 탐지된 위협 검토 및 조치 수행
 f1.keywords: NOCSH
 ms.author: sharik
 author: SKjerland
@@ -15,14 +15,14 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Windows 10 장치에서 Microsoft Defender 바이러스 백신이 감지한 위협을 검토 하 고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 21830b91bfbb88fdd5d5139ee07c4dfb35f5b875
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: ffdf5cffb50d6145d6059233e0850839f4dfb582
+ms.sourcegitcommit: 26b35012c42fef935d6c4a6509dde6c22a9b922a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376705"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385243"
 ---
-# <a name="review-detected-threats-and-take-action"></a>검색 된 위협 검토 및 조치 수행
+# <a name="review-detected-threats-and-take-action"></a>탐지된 위협 검토 및 조치 수행
 
 악성 파일 또는 소프트웨어가 검색 되는 즉시 Microsoft Defender 바이러스 백신은이를 차단 하 고 실행 되지 않도록 합니다. 또한 클라우드에서 전달 된 보호가 설정 되어 있으면 다른 장치 및 사용자도 보호 되도록 새롭게 검색 된 위협이 바이러스 백신 및 맬웨어 방지 엔진에 추가 됩니다.
 
@@ -58,7 +58,7 @@ IT 전문가/관리자는 Microsoft 365 관리 센터의 [Intune에 등록 되�
 
 ## <a name="manage-threat-detections-on-the-active-threats-page"></a>**활성 위협** 페이지에서 위협 감지 관리
 
-다음 절차는 Microsoft 365 Business가 있는 고객에 게 적용 됩니다. [Windows 10 장치](/microsoft-365/business/secure-win-10-pcs) 는 [Intune에서](/mem/intune/enrollment/windows-enrollment-methods)보호 되 고 등록 해야 합니다.
+다음 절차는 Microsoft 365 Business Premium이 있는 고객에 게 적용 됩니다. [Windows 10 장치](/microsoft-365/business/secure-win-10-pcs) 는 [Intune에서](/mem/intune/enrollment/windows-enrollment-methods)보호 되 고 등록 해야 합니다.
 
 > [!NOTE]
 > **Microsoft Defender 바이러스 백신** 카드 및 **활성 위협** 페이지는 단계별로 롤아웃 되므로 즉시 액세스 하지 못할 수 있습니다.
