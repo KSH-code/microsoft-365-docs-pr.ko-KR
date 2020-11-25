@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 MS SQL 데이터베이스에서 데이터를 가져오고 보관 하기 위한 커넥터를 설정할 수 있습니다. 이 커넥터를 사용 하면 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있습니다. 이 데이터를 보관 한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 6e3a4a79845539745bec233acbfaeff22f4ad4a9
-ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
+ms.openlocfilehash: 576ba38616b9a6a9c1b0e7c78c5e8d03c5a0e9df
+ms.sourcegitcommit: 95b85a1fdf43e3f0839483fa22e279262703f15f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49002800"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "49407302"
 ---
-# <a name="set-up-a-connector-to-archive-data-from-ms-sql-database-preview"></a>MS SQL 데이터베이스에서 데이터를 보관 하는 커넥터 설정 (미리 보기)
+# <a name="set-up-a-connector-to-archive-data-from-ms-sql-database"></a>MS SQL 데이터베이스에서 데이터를 보관 하는 커넥터 설정
 
 Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 Microsoft 365 조직의 사용자 사서함으로 MS SQL 데이터베이스의 데이터를 가져오고 보관 합니다. Globanet에서는 XML 구성 파일을 사용 하 여 데이터베이스에서 항목을 캡처하고 해당 항목을 Microsoft 365로 가져오는 MS SQL 데이터베이스 가져오기 커넥터를 제공 합니다. 이 커넥터는 MS SQL 데이터베이스에서 전자 메일 메시지 형식으로 콘텐츠를 변환한 다음 Microsoft 365의 사용자 사서함으로 해당 항목을 가져옵니다.
 
@@ -85,7 +85,7 @@ MS SQL 데이터베이스 가져오기 커넥터를 만든 후에는 Microsoft 3
 
 2. **커넥터** 탭을 클릭 한 다음 **MS SQL Database** **가져오기 도구** 를 선택 하 여 커넥터에 대 한 속성 및 정보가 포함 된 플라이 아웃 페이지를 표시 합니다.
 
-3. **커넥터 상태 (원본 포함** )에서 **로그 다운로드** 링크를 클릭 하 여 커넥터의 상태 로그를 열거나 저장 합니다. 이 로그는 Microsoft 클라우드로 가져온 데이터를 포함 합니다.
+3. **커넥터 상태 (원본 포함**)에서 **로그 다운로드** 링크를 클릭 하 여 커넥터의 상태 로그를 열거나 저장 합니다. 이 로그는 Microsoft 클라우드로 가져온 데이터를 포함 합니다.
 
 ## <a name="known-issues"></a>알려진 문제
 

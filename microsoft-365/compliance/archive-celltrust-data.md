@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 Globanet에서 Microsoft 365로 셀 신뢰 데이터를 가져오고 보관 하기 위한 커넥터를 설정할 수 있습니다. 이 커넥터를 사용 하면 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있습니다. 이 데이터를 보관 한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: c5ed8af29ad3b81b19e80cfe98702b5e357d9815
-ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
+ms.openlocfilehash: 2952e4e36a73b53fba61af9f38341a0b69136363
+ms.sourcegitcommit: 95b85a1fdf43e3f0839483fa22e279262703f15f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49002791"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "49407272"
 ---
-# <a name="set-up-a-connector-to-archive-celltrust-data-preview"></a>셀 신뢰 데이터를 보관 하는 연결선 설정 (미리 보기)
+# <a name="set-up-a-connector-to-archive-celltrust-data"></a>셀 신뢰 데이터를 보관 하는 커넥터 설정
 
 Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 Microsoft 365 조직의 사용자 사서함에 대 한 데이터를 가져오고 보관 합니다. Globanet는 타사 데이터 원본의 항목을 정기적으로 캡처하여 해당 항목을 Microsoft 365로 가져오는 데 사용 하도록 구성 된 모든 사용자 [트러스트](https://globanet.com/celltrust/) 커넥터를 제공 합니다. 이 커넥터는 SMS 메시지의 콘텐츠를 셀 신뢰 계정에서 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 Microsoft 365에서 사용자의 사서함으로 가져옵니다.
 
@@ -85,7 +85,7 @@ Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 Microsoft 36
 
 2. **커넥터** 탭을 클릭 한 다음 연결 **신뢰** 커넥터를 선택 하 여 커넥터에 대 한 속성 및 정보가 포함 된 플라이 아웃 페이지를 표시 합니다.
 
-3. **커넥터 상태 (원본 포함** )에서 **로그 다운로드** 링크를 클릭 하 여 커넥터의 상태 로그를 열거나 저장 합니다. 이 로그는 Microsoft 클라우드로 가져온 데이터를 포함 합니다.
+3. **커넥터 상태 (원본 포함**)에서 **로그 다운로드** 링크를 클릭 하 여 커넥터의 상태 로그를 열거나 저장 합니다. 이 로그는 Microsoft 클라우드로 가져온 데이터를 포함 합니다.
 
 ## <a name="known-issues"></a>알려진 문제
 

@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 Globanet에서 Microsoft 365로 XIP 원본 데이터를 가져오고 보관 하는 커넥터를 설정할 수 있습니다. 이 커넥터를 사용 하면 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있습니다. 이 데이터를 보관 한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 2a91fdd5d0acf5bab7945906b4c7dde511a30f4e
-ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
+ms.openlocfilehash: 1e2513df8666056f623ef4b5bb42699663d51b64
+ms.sourcegitcommit: 95b85a1fdf43e3f0839483fa22e279262703f15f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49002797"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "49407322"
 ---
-# <a name="set-up-a-connector-to-archive-xip-source-data-preview"></a>XIP 원본 데이터를 보관 하는 커넥터 설정 (미리 보기)
+# <a name="set-up-a-connector-to-archive-xip-source-data"></a>XIP 원본 데이터를 보관 하는 커넥터 설정
 
 Microsoft 365 준수 센터의 Globanet 커넥터를 사용 하 여 Microsoft 365 조직의 사용자 사서함에 대 한 XIP 원본 플랫폼의 데이터를 가져오고 보관 합니다. Globanet은 XIP 파일을 사용 하 여 항목을 Microsoft 365로 가져올 수 있도록 하는 [xip](https://globanet.com/xip/) 커넥터를 제공 합니다. XIP 파일은 ZIP 파일과 유사 하지만 디지털 서명을 사용 하는 데 사용할 수 있습니다. 디지털 서명은 XIP 원본 파일을 추출 하기 전에 Globanet Merge 1에 의해 확인 됩니다. 커넥터는 XIP 원본 파일의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 Microsoft 365에서 해당 항목을 사용자의 사서함으로 가져옵니다.
 
@@ -85,7 +85,7 @@ XIP 커넥터를 만든 후에는 Microsoft 365 준수 센터에서 커넥터 �
 
 2. **커넥터** 탭을 클릭 한 다음 **xip** 커넥터를 선택 하 여 커넥터에 대 한 속성 및 정보가 포함 된 플라이 아웃 페이지를 표시 합니다.
 
-3. **커넥터 상태 (원본 포함** )에서 **로그 다운로드** 링크를 클릭 하 여 커넥터의 상태 로그를 열거나 저장 합니다. 이 로그는 Microsoft 클라우드로 가져온 데이터를 포함 합니다.
+3. **커넥터 상태 (원본 포함**)에서 **로그 다운로드** 링크를 클릭 하 여 커넥터의 상태 로그를 열거나 저장 합니다. 이 로그는 Microsoft 클라우드로 가져온 데이터를 포함 합니다.
 
 ## <a name="known-issues"></a>알려진 문제
 
