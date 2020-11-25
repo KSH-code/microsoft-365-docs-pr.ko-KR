@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하면 사용자가 전자 메일, 문서 및 대화로 생성하는 콘텐츠를 매우 효율적으로 제어할 수 있습니다. 원하는 것을 유지하고 원하지 않는 것은 없애세요.
-ms.openlocfilehash: bcf0ef5aa76113102013bc20fca02e6d516c3203
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: 4479731af4787a6ef77dc48d27e5dfb60834d9c5
+ms.sourcegitcommit: 26b35012c42fef935d6c4a6509dde6c22a9b922a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376581"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385254"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -99,7 +99,7 @@ Microsoft 365 그룹, SharePoint 사이트 또는 OneDrive 계정에 적용된 �
 ### <a name="retention-policy-for-yammer-locations"></a>Yammer 위치에 대한 보존 정책
 
 > [!NOTE]
-> Yammer에 대 한 보존 정책이 미리 보기에서 배포됩니다. Yammer에 대한 새 위치가 아직 표시되지 않는 경우 몇주 후에 다시 시도하세요.
+> Yammer에 대한 보존 정책이 미리 보기에서 롤아웃됩니다. 아직 Yammer의 새 위치가 보이지 않으면 몇 주 후에 다시 시도합니다.
 >
 > 이 기능을 사용하려면 Yammer 네트워크가 하이브리드 모드가 아니라 [기본 모드](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode)여야 합니다.
 
@@ -193,7 +193,7 @@ SharePoint 사이트 또는 OneDrive 계정에 대한 위치를 지정하는 경
 
 Microsoft 365 그룹(이전의 Office 365 그룹)의 콘텐츠를 유지하거나 삭제하려면 **Microsoft 365 그룹** 위치를 사용합니다. Microsoft 365 그룹에 Exchange 편지함이 있더라도 전체 **Exchange 전자 메일** 위치를 포함하는 보존 정책은 Microsoft 365 그룹 편지함에 콘텐츠를 포함하지 않습니다. 또한 처음에 **Exchange e-메일** 위치를 사용하여 포함하거나 제외할 그룹 편지함을 지정할 수 있지만 보존 정책을 저장하려고 하면 "RemoteGroupMailbox"가 Exchange 위치에 대해 올바른 선택이 아니라는 오류가 표시됩니다.
 
-Microsoft 365 그룹에 적용된 보존 정책에는 그룹 편지함 및 Teams 사이트가 포함됩니다. 그룹 생성 시 팀 사이트를 선택했거나 나중에 그룹에 추가한 경우 이 사이트는 그룹 편지함 및 Teams 사이트를 포함합니다. Teams 사이트에 저장된 파일은 이 위치에 포함되지만 Teams 대화 또는 Teams 채널 메시지가 자체 보존 정책 위치에 있는 것은 아닙니다.
+Microsoft 365 그룹에 적용되는 보존 정책에는 그룹 사서함 및 SharePoint Teams 사이트가 포함됩니다. SharePoint Teams 사이트에 저장된 파일은 이 위치에 포함되지만 Teams 대화 또는 Teams 채널 메시지가 고유한 보존 정책 위치를 가지지 않습니다.
 
 ### <a name="configuration-information-for-skype-for-business"></a>비즈니스용 Skype에 대한 구성 정보
 
@@ -279,6 +279,9 @@ Outlook의 **대화 내용** 폴더는 Skype 보관과 아무 관계가 없는 �
 > 이 시나리오에서 위치에 대한 **All** 설정을 보존 정책의 적용을 받지 않으려면 위치를 해제합니다. 또는 정책에서 제외할 제외 항목을 지정합니다.
 
 ## <a name="updating-retention-policies"></a>보존 정책 업데이트
+
+다음 내용을 포함하는 보존 정책을 만들고 저장한 후에는 일부 설정을 변경할 수 없습니다.
+- 보존 기간 및 보존 기간의 시작 시기를 제외한 보존 정책 이름 및 보존 설정입니다.
 
 보존 정책을 편집하고 항목이 보존 정책의 원래 설정에 이미 적용되어 있는 경우 업데이트된 설정은 새로 식별된 항목 외에 이 항목에도 자동으로 적용됩니다.
 

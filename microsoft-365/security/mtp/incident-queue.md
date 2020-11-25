@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 Defender의 문제점 우선 순위 지정
-description: Microsoft 365 Defender의 인시던트 큐에서 인시던트의 우선 순위를 지정 하는 방법을 알아봅니다.
+description: Microsoft 365 Defender의 인시던트 큐에서 인시던트를 필터링 하는 방법에 대해 알아봅니다.
 keywords: 사고, 큐, 개요, 장치, 식별, 사용자, 사서함, 전자 메일, 사고
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -21,12 +21,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 4369d51ed740af652be632ba0b8752c708d6c719
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: e587004fbb3bc6defab985cea9b427f64b3aab35
+ms.sourcegitcommit: a9486f9dc51f0908393000ec3c211e3430c26abd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877222"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49409258"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Microsoft 365 Defender의 문제점 우선 순위 지정
 
@@ -38,7 +38,7 @@ ms.locfileid: "48877222"
 
 
 
-Microsoft 365 Defender는 상관 분석을 적용 하 고 다양 한 제품의 모든 관련 알림과 조사를 하나의 인시던트로 집계 합니다. Microsoft 365 Defender는 또한 Microsoft 365 Defender가 전체 부동산 및 제품군에 걸쳐 있는 종단 간 가시성과 함께 악의적으로 식별 될 수 있는 작업에 대 한 고유한 경고를 트리거합니다. 이를 통해 Microsoft 365 Defender는 보다 폭넓은 공격 영역을 narrates, 보안 작업 분석가가 조직 전체에서 복잡 한 위협을 이해 하 고 처리할 수 있도록 허용 합니다.
+Microsoft 365 Defender는 상관 분석을 적용 하 고 다양 한 제품의 모든 관련 알림과 조사를 하나의 인시던트로 집계 합니다. Microsoft 365 Defender는 또한 Microsoft 365 Defender가 전체 부동산 및 제품군에 걸쳐 있는 종단 간 가시성과 함께 악의적으로 식별 될 수 있는 작업에 대 한 고유한 경고를 트리거합니다. 이 보기는 보안 작업 분석가에 게 보다 폭넓은 공격 정보를 제공 하므로 조직 전체에서 복잡 한 위협을 보다 효율적으로 이해 하 고 처리할 수 있습니다.
 
 
 **사고 큐** 는 장치, 사용자 및 사서함에 대해 플래그가 지정 된 사고의 모음을 보여 줍니다. 이 기능은 사고 우선순위를 정하고 사이버 보안 반응 결정을 내리는 데 도움을 줍니다.
@@ -100,8 +100,7 @@ Microsoft 365 Defender는 상관 분석을 적용 하 고 다양 한 제품의 �
 ### <a name="status"></a>상태
 상태에 따라 표시 되는 사고의 목록을 제한하여 활성 또는 해결 완료 된 사고를 확인할 수 있습니다.
 
->[!IMPORTANT]
->분류, 장치 그룹, 조사 상태 및 OS 플랫폼 필터는 현재 공개 미리 보기 에서만 사용할 수 있습니다.
+
 
 
 ## <a name="next-steps"></a>다음 단계

@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 3e9a8b34f8f112cadc0377dd73ba846c88b8604c
-ms.sourcegitcommit: aa8d2de6ffac0157fffd14d0ea7f51ef0c287607
+ms.openlocfilehash: e42c65fdb4d409c1da7b85fbe7eca13170b9b974
+ms.sourcegitcommit: a9486f9dc51f0908393000ec3c211e3430c26abd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49374010"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49409236"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>Microsoft 보안 점수를 보내는 대상
 
@@ -33,6 +33,17 @@ Microsoft 보안 점수 https://security.microsoft.com/securescore 는 [microsof
 ## <a name="proposed-changes"></a>제안된 변경 내용
 
 [Microsoft 보안 점수가](microsoft-secure-score.md) 보안 환경을 보다 효율적으로 지원 하 고 유용성이 향상 되도록 하기 위해 곧 향후 몇 가지 사항을 변경 하 고 있습니다. 점수 및 가능한 최대 점수가 변경 될 수 있습니다.
+
+### <a name="december-2020"></a>12 월 2020
+
+끝점에 대 한 Microsoft Defender에 대해 6 개의 계정 관련 개선 작업 추가 (이전 Microsoft Defender ATP):
+
+- ' 최소 암호 길이 '를 ' 14 자 이상 '으로 설정 합니다.
+- ' 최근 암호 기억 '을 ' 24 개 이상의 암호 '로 설정 합니다.
+- ' 최대 암호 사용 기간 '을 ' 60 개 이하의 일으로 설정 하 고, 0은 제외 합니다.
+- ' 최소 암호 사용 기간 '을 ' 1 일 이상 '로 설정 합니다.
+- 기본 제공 관리자 계정 사용 안 함
+- 기본 제공 Guest 계정 사용 안 함
 
 ### <a name="november-2020"></a>11 월 2020
 
