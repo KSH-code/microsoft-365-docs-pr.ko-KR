@@ -19,12 +19,12 @@ ms.assetid: ''
 description: Office 365 eDiscovery에서 일반적인 문제를 해결 하기 위해 수행할 수 있는 기본적인 문제 해결 단계에 대해 알아봅니다.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5c9d917306c1a4ffd0dd1e11e1dd87c135e94f05
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: a2db7fac04f29587f451b8feff5b641624e0cf45
+ms.sourcegitcommit: 8ad481ed61cb6dabf8afb0fb04296666fa166450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545956"
+ms.lasthandoff: 11/26/2020
+ms.locfileid: "49422867"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>일반적인 eDiscovery 문제 조사, 문제 해결 및 해결
 
@@ -113,25 +113,25 @@ EDiscovery 검색이 실패 하 고 오류가 발생 `recipient not found` 합�
 
 ### <a name="resolution"></a>해결 방법
 
-1. [다운로드 속도 증가](https://docs.microsoft.com/office365/securitycompliance/increase-download-speeds-when-exporting-ediscovery-results)문서에서 식별 된 단계를 사용해 봅니다.
-
-2. 문제가 계속 되 면 [보안 & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 에 연결 하 고 다음 명령을 실행 합니다.
+1. [보안 & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 에 연결한 후 다음 명령을 실행 합니다.
 
    ```powershell
    Get-ComplianceSearch <searchname> | FL
    ```
 
-3. SearchResults 및 Searchresults 매개 변수로 다운로드할 데이터 양을 찾습니다.
+2. SearchResults 및 Searchresults 매개 변수로 다운로드할 데이터 양을 찾습니다.
 
-4. 다음 명령을 실행합니다.
+3. 다음 명령을 실행합니다.
 
    ```powershell
    Get-ComplianceSearchAction | FL
    ```
 
-5. 결과 필드에서 내보낸 데이터를 찾아 발생 한 오류를 확인 합니다.
+4. 결과 필드에서 내보낸 데이터를 찾아 발생 한 오류를 확인 합니다.
 
-6. 오류에 대해 콘텐츠를 내보낸 디렉터리에 있는 trace 파일을 확인 합니다.
+5. 오류에 대해 콘텐츠를 내보낸 디렉터리에 있는 trace 파일을 확인 합니다.
+
+6. 여전히 문제가 있는 경우 큰 결과 집합을 반환 하는 검색을 더 작은 검색으로 나누는 것이 좋습니다. 예를 들어 검색 쿼리에 날짜 범위를 사용 하 여 더 빠르게 다운로드할 수 있는 더 작은 결과 집합을 반환할 수 있습니다.
 
 ## <a name="errorissue-internal-server-error-500-occurred"></a>오류/문제: "내부 서버 오류 (500)가 발생 했습니다."
 

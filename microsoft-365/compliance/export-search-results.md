@@ -20,14 +20,14 @@ search.appverid:
 - MED150
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
-description: '보안 & 준수 센터의 콘텐츠 검색에서 로컬 컴퓨터로 검색 결과를 내보냅니다. 전자 메일 결과를 PST 파일로 내보냅니다. SharePoint의 콘텐츠 및 비즈니스용 OneDrive 사이트는 기본 Office 문서로 내보내집니다. '
+description: Microsoft 365 준수 센터의 콘텐츠 검색에서 로컬 컴퓨터로 검색 결과를 내보냅니다. 전자 메일 결과를 PST 파일로 내보냅니다. SharePoint의 콘텐츠 및 비즈니스용 OneDrive 사이트는 기본 Office 문서로 내보내집니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d1d657c7dc004bc587a8934292b6117ac4e023a0
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 48f5cab4c25199873c795cdfb9afac54f4f402a0
+ms.sourcegitcommit: 8ad481ed61cb6dabf8afb0fb04296666fa166450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087335"
+ms.lasthandoff: 11/26/2020
+ms.locfileid: "49422877"
 ---
 # <a name="export-content-search-results"></a>콘텐츠 검색 결과 내보내기
 
@@ -57,7 +57,9 @@ ms.locfileid: "49087335"
   > <sup>1</sup> Microsoft는 ClickOnce 응용 프로그램에 대 한 타사 확장 또는 추가 기능을 제조 하지 않습니다. 타사 확장 또는 추가 기능에서 지원 되지 않는 브라우저를 사용 하 여 검색 결과를 내보낼 수는 없습니다.<br/>
   > <sup>2</sup> Microsoft Edge의 최근 변경 사항으로 인해 ClickOnce 지원은 더 이상 기본적으로 사용 되지 않도록 설정 되어 있습니다. 에 지에 ClickOnce 지원을 사용 하는 방법에 대 한 자세한 내용은 [Microsoft Edge에서 EDiscovery 내보내기 도구 사용](configure-edge-to-export-search-results.md)을 참조 하십시오.
   
-- 2 단계에 설명 된 대로 검색 결과를 다운로드할 때 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리 설정을 구성 하 여 다운로드 속도를 높일 수 있습니다. 자세한 내용은 [Office 365에서 eDiscovery 검색 결과를 내보낼 때 다운로드 속도 높이기](increase-download-speeds-when-exporting-ediscovery-results.md)를 참조 하세요.
+- 로컬 컴퓨터에 검색 결과를 다운로드 하는 것이 좋습니다. 그러나 회사의 방화벽 또는 프록시 인프라에서 검색 결과를 다운로드할 때 문제가 발생 하지 않도록 하려면 검색 결과를 네트워크 외부의 가상 데스크톱으로 다운로드 하는 것이 좋습니다. 이렇게 하면 많은 수의 파일을 내보낼 때 Azure 데이터 연결에서 발생 하는 시간 초과가 줄어들 수 있습니다. 가상 데스크톱에 대 한 자세한 내용은 [Windows 가상 데스크톱](https://azure.microsoft.com/services/virtual-desktop)을 참조 하십시오. 
+
+- 검색 결과를 다운로드할 때 성능을 개선 하려면 큰 결과 집합을 반환 하는 검색을 더 작은 검색으로 나누는 것이 좋습니다. 예를 들어 검색 쿼리에 날짜 범위를 사용 하 여 더 빠르게 다운로드할 수 있는 더 작은 결과 집합을 반환할 수 있습니다.
   
 - 검색 결과를 내보낼 때 데이터가 로컬 컴퓨터로 다운로드 되기 전에 Microsoft 클라우드에서 Microsoft가 제공한 Azure 저장소 위치에 일시적으로 저장 됩니다. 조직이 Azure의 끝점에 연결할 수 있는지 (와일드 카드는 내보내기에 대 한 고유 식별자를 나타냄) **\* blob.core.windows.net 합니다** . 검색 결과 데이터는 만들어진 후 2 주 후 Azure 저장소 위치에서 삭제 됩니다. 
   
@@ -135,8 +137,6 @@ ms.locfileid: "49087335"
 ## <a name="step-2-download-the-search-results"></a>2 단계: 검색 결과 다운로드
 
 다음 단계에서는 Azure 저장소 위치에서 로컬 컴퓨터로의 검색 결과를 다운로드 합니다.
-  
-앞에서 설명한 것 처럼 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리 설정을 구성 하 여 다운로드 속도를 높일 수 있습니다. 자세한 내용은 [Office 365에서 eDiscovery 검색 결과를 내보낼 때 다운로드 속도 높이기](increase-download-speeds-when-exporting-ediscovery-results.md)를 참조 하세요.
   
 1. **콘텐츠 검색** 페이지에서 **내보내기** 탭을 클릭 합니다. 
   
