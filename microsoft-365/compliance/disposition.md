@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용하든 콘텐츠가 구성한 설정에 따라 자동으로 삭제되는지, 콘텐츠의 처리를 모니터링하고 관리합니다.
-ms.openlocfilehash: dfea1cfece8a9faccced134cf30923527bd241f5
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: 9900bbc58818a98ad41f4f796184ccf21041bbfe
+ms.sourcegitcommit: a9486f9dc51f0908393000ec3c211e3430c26abd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941369"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49409215"
 ---
 # <a name="disposition-of-content"></a>콘텐츠의 처리
 
@@ -42,7 +42,9 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스하려면 사용자에
 > [!NOTE]
 > 전역 관리자 조차도 **처리 관리** 역할이 부여되어야 합니다. 
 
-지침은 [사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
+또한 처리 프로세스 중에 항목의 내용을 보려면 **콘텐츠 탐색기 콘텐츠 뷰어** 와 **콘텐츠 탐색기 목록 뷰어** 의 두 역할 그룹에 사용자를 추가합니다. 사용자가 이 역할 그룹의 사용 권한이 없는 경우, 처리 검토 완료를 위해 처리 검토 작업을 여전히 선택할 수 있지만, 준수 센터에서 항목의 내용을 보지 않고 이를 수행해야 합니다.
+
+지침은 [사용자에게 Office 365 보안 및 준수 센터의 액세스 권한 부여하기](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
 
 ### <a name="enable-auditing"></a>감사 사용
 
@@ -131,9 +133,9 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스하려면 사용자에
 레코드 레이블을 위해 **처리된 항목** 탭에 표시되는 항목은 항목이 처리된 후 최대 7년간 유지되고, 해당 기간에 대한 레코드 당 100만 항목의 제한을 둡니다. **계산** 수가 이 100만의 제한에 근접하고 레코드에 대한 처리 증거가 필요한 경우, [Microsoft 지원](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)에 문의하세요.
 
 > [!NOTE]
-> 이 기능은 [통합 감사 로그](search-the-audit-log-in-security-and-compliance.md)의 정보를 기초로 하며, 따라서 해당 이벤트를 캡처할 수 있도록 감사를 [사용하도록 설정하고 검색 가능하도록](turn-audit-log-search-on-or-off.md) 해야 합니다.
+> 이 기능은 [통합 감사 로그](search-the-audit-log-in-security-and-compliance.md)의 정보를 기초로 하며, 따라서 해당 이벤트를 캡처할 수 있도록 감사를 [사용 설정하고 검색 가능하도록](turn-audit-log-search-on-or-off.md) 해야 합니다.
 
-감사를 위해 **레코드로 표시된 삭제 파일** 을 검색합니다.
+감사를 위해 **파일 및 페이지 활동** 범주에서 **레코드로 표시된 삭제된 파일** 을 검색합니다. 이 감사 이벤트는 문서 및 이일에 적용됩니다.
 
 ## <a name="filter-and-export-the-views"></a>보기 필터링 및 내보내기
 
