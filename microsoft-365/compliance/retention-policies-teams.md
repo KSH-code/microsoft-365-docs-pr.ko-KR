@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Teams에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: 85f272c5c663a95c749f7971b6e23c178dab2b94
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: 5e460c75bf51dd23e662696c725623d3b7eab39d
+ms.sourcegitcommit: a9486f9dc51f0908393000ec3c211e3430c26abd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795097"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49409228"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Microsoft Teams의 보존에 대해 알아보기
 
@@ -38,9 +38,9 @@ ms.locfileid: "48795097"
 
 ## <a name="whats-included-for-retention-and-deletion"></a>보존 및 삭제에 포함된 항목
 
-Teams 보존 정책을 사용하여 다음의 Teams 항목(포함된 이미지를 비롯한 채팅 및 채널 메시지)을 보존하고 삭제할 수 있습니다.
+Teams 보존 정책을 통해 다음의 Teams 항목(포함된 이미지, 표, 하이퍼텍스트 링크, 다른 Teams 메시지와 파일에 연결된 링크를 포함한 채팅 및 채널 메시지)을 보존하고 삭제할 수 있습니다. 채팅 메시지에는 채팅에 속한 모든 사람의 이름이 포함되어 있고, 채널 메시지에는 팀 이름과 메시지 제목이 포함되어 있습니다(제공되는 경우). 
 
-비공개 채널의 Teams 메시지는 포함되지 않으며 이모티콘 형태의 다른 사용자의 반응도 포함되지 않습니다.
+비공개 채널의 Teams 메시지는 포함되지 않으며 이모티콘 형태의 상대방의 반응도 포함되지 않습니다.
 
 Teams에서 사용하는 전자 메일 및 파일은 Teams의 보존 정책에 포함되지 않습니다. 이러한 항목은 자체 보존 정책이 있습니다.
 
@@ -67,7 +67,7 @@ Teams 채팅 및 채널 메시지는 사용자 또는 그룹 사서함에 대해
 
 1. 보존 기간 동안 사용자가 **채팅 또는 채널 메시지를 편집하거나 삭제** 하는 경우에는, 원본 메시지가 21일 내에 복사되거나(편집된 경우) 또는 (삭제된 경우) SubstrateHolds 폴더로 이동됩니다. 이 메시지는 여기 보존 기간이 만료될 때까지 저장된 다음 24시간 내에 영구적으로 삭제됩니다.
 
-2. **채팅 또는 채널 메시지가 삭제되지 않는 경우** , 편집 후 현재 메시지에 대한 메시지는 보존 기간이 만료 된 후 SubstrateHolds 폴더로 이동됩니다. 이 작업은 만료 날짜로부터 최대 7일이 걸립니다. 메시지가 SubstrateHolds 폴더에 있으면 24시간 내에 영구적으로 삭제됩니다. 
+2. **채팅 또는 채널 메시지가 삭제되지 않는 경우**, 편집 후 현재 메시지에 대한 메시지는 보존 기간이 만료 된 후 SubstrateHolds 폴더로 이동됩니다. 이 작업은 만료 날짜로부터 최대 7일이 걸립니다. 메시지가 SubstrateHolds 폴더에 있으면 24시간 내에 영구적으로 삭제됩니다. 
 
 > [!NOTE]
 > SubstrateHolds 폴더의 메시지는 eDiscovery 도구에서 검색할 수 있습니다. SubstrateHolds 폴더에서 메시지가 영구적으로 삭제될 때까지 메시지는 eDiscovery 도구로 검색 가능한 상태로 유지됩니다.
@@ -76,13 +76,13 @@ Teams 채팅 및 채널 메시지는 사용자 또는 그룹 사서함에 대해
 
 ### <a name="content-paths-for-retain-only-retention-policy"></a>보유 전용 보존 정책의 콘텐츠 경로
 
-1. **채팅 또는 채널 메시지를 편집하거나 삭제하는 경우** , 원본 메시지의 복사본은 21일 내에 SubstrateHolds 폴더에 만들어지고 보존 기간이 만료될 때까지 보존됩니다. 그런 다음 24시간 이내에 SubstrateHolds 폴더에서 메시지가 영구적으로 삭제됩니다.
+1. **채팅 또는 채널 메시지를 편집하거나 삭제하는 경우**, 원본 메시지의 복사본은 21일 내에 SubstrateHolds 폴더에 만들어지고 보존 기간이 만료될 때까지 보존됩니다. 그런 다음 24시간 이내에 SubstrateHolds 폴더에서 메시지가 영구적으로 삭제됩니다.
 
 2. **항목이 수정되거나 삭제되지 않거나** 보존 기간 중에 편집 후 현재 메시지에 대한 경우: 보존 기간 전후에 아무런 변화가 없습니다. 메시지는 원래 위치에 남아 있습니다.
 
 ### <a name="content-paths-for-delete-only-retention-policy"></a>삭제 전용 보존 정책의 컨텐츠 경로
 
-1. 보존 기간 동안 **메시지가 삭제되지 않은 경우** : 보존 기간이 끝나면 메시지가 SubstrateHolds 폴더로 이동됩니다. 이 작업은 만료 날짜로부터 최대 7일이 걸립니다. 그런 다음 24시간 이내에 SubstrateHolds 폴더에서 메시지가 영구적으로 삭제됩니다.
+1. 보존 기간 동안 **메시지가 삭제되지 않은 경우**: 보존 기간이 끝나면 메시지가 SubstrateHolds 폴더로 이동됩니다. 이 작업은 만료 날짜로부터 최대 7일이 걸립니다. 그런 다음 24시간 이내에 SubstrateHolds 폴더에서 메시지가 영구적으로 삭제됩니다.
 
 2. 해당 기간 동안 **사용자가 해당 항목을 삭제하는 경우** 항목은 21일 이내에 24시간 안에 영구적으로 삭제되는 SubstrateHolds 폴더로 이동됩니다.
 
@@ -115,7 +115,7 @@ Teams 채팅 및 채널 메시지는 사용자 또는 그룹 사서함에 대해
 
 Microsoft는 Teams에서 보존 기능을 최적화하기 위해 지속적으로 노력하고 있습니다. 그 동안 Teams 채널 메시지와 채팅에 대한 보존을 사용할 때는 다음 몇 가지 제한 사항에 유의해야 합니다.
 
-- **Outlook에서 잘못된 표시 문제가 발생했습니다** . Skype 또는 Teams 위치에 대한 보존 정책을 만드는 경우 사용자가 Outlook 데스크톱 클라이언트에서 사서함 폴더의 속성을 볼 때 해당 정책 중 하나가 기본 폴더 정책으로 표시됩니다. 이것은 Outlook의 잘못된 표시 문제이며 [알려진 문제](https://support.microsoft.com/help/4491013/outlook-client-displays-teams-or-skype-for-business-retention-policies)입니다. 기본 폴더 정책으로 표시되어야 하는 것은 폴더에 적용되는 사서함 보존 정책입니다. Skype 또는 Teams 보존 정책은 사용자의 사서함에 적용되지 않습니다.
+- **Outlook에서 잘못된 표시 문제가 발생했습니다**. Skype 또는 Teams 위치에 대한 보존 정책을 만드는 경우 사용자가 Outlook 데스크톱 클라이언트에서 사서함 폴더의 속성을 볼 때 해당 정책 중 하나가 기본 폴더 정책으로 표시됩니다. 이것은 Outlook의 잘못된 표시 문제이며 [알려진 문제](https://support.microsoft.com/help/4491013/outlook-client-displays-teams-or-skype-for-business-retention-policies)입니다. 기본 폴더 정책으로 표시되어야 하는 것은 폴더에 적용되는 사서함 보존 정책입니다. Skype 또는 Teams 보존 정책은 사용자의 사서함에 적용되지 않습니다.
 
 - **구성 문제** 
     - **Teams 채널 메시지** 위치에 **팀 선택** 을 선택하면 팀이 아닌 Microsoft 365 그룹이 표시될 수 있습니다. 이 그룹을 선택하지 마세요.

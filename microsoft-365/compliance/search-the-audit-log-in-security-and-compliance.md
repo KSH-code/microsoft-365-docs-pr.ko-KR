@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Office 365 보안 및 준수 센터 또는 Microsoft 365 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aa47cc0c460e77a6faadd5cb2ff7d46c62ed88ab
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: b27ba2ff9343599dc35b1bae8cd5656197497bea
+ms.sourcegitcommit: a9486f9dc51f0908393000ec3c211e3430c26abd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376657"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49409269"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -438,7 +438,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |파일 삭제됨|FileDeleted|사용자가 사이트에서 문서를 삭제합니다.|
 |휴지통에서 파일 삭제됨|FileDeletedFirstStageRecycleBin|사용자가 사이트의 휴지통에서 파일을 삭제합니다.|
 |2단계 휴지통에서 파일 삭제됨|FileDeletedSecondStageRecycleBin|사용자가 사이트의 2단계 휴지통에서 파일을 삭제합니다.|
-|레코드로 표시된 삭제된 파일|RecordDelete|기록으로 표시된 문서가 삭제되었습니다. 내용을 기록으로 표시하는 보존 레이블이 문서에 적용될 때 문서는 기록으로 간주됩니다.|
+|레코드로 표시된 삭제된 파일|RecordDelete|레코드으로 표시된 문서 또는 이메일이 삭제되었습니다. 항목을 레코드로 표시하는 보존 레이블을 콘텐츠에 적용하면 항목은 레코드로 간주됩니다.|
 |발견된 문서 민감도 불일치|DocumentSensitivityMismatchDetected|사용자는 민감도 레이블로 보호된 사이트에 문서를 업로드하고 문서는 사이트에 적용된 민감도 레이블보다 우선 순위 민감도 레이블을 갖습니다. 예를 들어 기밀 문서라는 문서가 일반 문서라는 사이트에 업로드됩니다. <br/><br/> 문서에 사이트에 적용된 민감도 레이블보다 낮은 우선순위 민감도 레이블이 있는 경우 이 이벤트는 트리거되지 않습니다. 예를 들어 일반이라는 문서가 기밀이라는 사이트에 업로드됩니다. 감도 레이블 우선 순위에 대한 자세한 내용은 [레이블 우선 순위(주문 문제)](sensitivity-labels.md#label-priority-order-matters)를 참조하세요.|
 |파일에서 맬웨어 검색됨|FileMalwareDetected|SharePoint 바이러스 백신 엔진이 파일에서 맬웨어를 검색합니다.|
 |파일 체크 아웃 취소됨|FileCheckOutDiscarded|사용자가 체크 아웃한 파일을 취소(또는 명령 취소)합니다. 즉, 체크 아웃되었을 때 파일에서 변경한 내용이 취소되고 문서 라이브러리의 문서 버전에 저장되지 않습니다.|
@@ -581,7 +581,7 @@ FilePreviewed 및 FileAccessed 이벤트는 모두 사용자의 호출로 인해
 
 |이름|작업|설명|
 |:-----|:-----|:-----|
-|컴퓨터에서 파일을 동기화할 수 있도록 허용됨|ManagedSyncClientAllowed|사용자가 사이트와 동기화 관계를 설정합니다. 사용자 컴퓨터가 조직의 문서 라이브러리에 액세스할 수 있는 도메인 목록(*수신 허용 - 받는 사람 목록*)에 추가된 도메인의 구성원이므로 동기화 관계에 성공합니다. <br/><br/> 이 기능에 대한 자세한 내용은 [Windows PowerShell cmdlet을 통해 수신 허용 - 받는 사람 목록에 있는 도메인에 대해 OneDrive 동기화를 사용하도록 설정](https://go.microsoft.com/fwlink/p/?LinkID=534609)을 참조하세요.|
+|컴퓨터에서 파일을 동기화할 수 있도록 허용됨|ManagedSyncClientAllowed|사용자가 사이트와 동기화 관계를 성공적으로 설정했습니다. 사용자의 컴퓨터가 조직의 문서 라이브러리에 액세스할 수 있는 도메인 목록(*안전한 받는 사람 목록* 으로 칭함)에 추가된 도메인의 구성원이므로 동기화 관계가 성공적으로 설정됩니다.<br/><br/> 이 기능에 대한 자세한 내용은 [Windows PowerShell cmdlet을 통해 수신 허용 - 받는 사람 목록에 있는 도메인에 대해 OneDrive 동기화를 사용하도록 설정](https://go.microsoft.com/fwlink/p/?LinkID=534609)을 참조하세요.|
 |컴퓨터에서 파일을 동기화할 수 없도록 차단됨|UnmanagedSyncClientBlocked|사용자가 조직의 도메인 구성원이 아니거나 조직의 문서 라이브러리에 액세스할 수 있는 도메인 목록(*수신 허용 - 받는 사람 목록*)에 추가되지 않은 도메인의 구성원인 컴퓨터에서 사이트와 동기화 관계를 설정하려고 합니다. 동기화 관계가 허용되지 않으며, 사용자 컴퓨터에서 문서 라이브러리의 파일을 동기화, 다운로드 또는 업로드할 수 없도록 차단되었습니다. <br/><br/> 이 기능에 대한 자세한 내용은 [Windows PowerShell cmdlet을 통해 수신 허용 - 받는 사람 목록에 있는 도메인에 대해 OneDrive 동기화를 사용하도록 설정](https://go.microsoft.com/fwlink/p/?LinkID=534609)을 참조하세요.|
 |컴퓨터에 파일 다운로드됨|FileSyncDownloadedFull|사용자가 동기화 관계를 설정하고 처음으로 문서 라이브러리에서 해당 컴퓨터로 파일을 다운로드합니다.|
 |컴퓨터에 파일 변경 내용 다운로드됨|FileSyncDownloadedPartial|사용자가 문서 라이브러리의 파일에 대한 변경 내용을 다운로드합니다. 이 활동은 문서 라이브러리의 파일에 대한 변경 내용이 사용자 컴퓨터로 모두 다운로드되었음을 나타냅니다. **컴퓨터에 파일 다운로드됨** 활동에 표시된 것처럼 사용자가 이전에 문서 라이브러리를 다운로드했기 때문에 변경 내용만 다운로드되었습니다.|
