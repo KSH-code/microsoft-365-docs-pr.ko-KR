@@ -477,8 +477,6 @@
           items:
             - name: 콘텐츠 검색에 대한 권한 필터링 구성
               href: permissions-filtering-for-content-search.md
-            - name: 검색 결과를 내보낼 때 다운로드 속도 높이기
-              href: increase-download-speeds-when-exporting-ediscovery-results.md
             - name: 검색 결과를 내보낼 때 PST 파일 크기 변경
               href: change-the-size-of-pst-files-when-exporting-results.md
             - name: 콘텐츠 보고서를 사용하지 않도록 설정
