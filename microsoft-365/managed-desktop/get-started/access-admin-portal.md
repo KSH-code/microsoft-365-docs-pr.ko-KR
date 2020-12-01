@@ -9,12 +9,12 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: 66e4e5c305947f90f935563a3baf0592ce42480a
-ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
+ms.openlocfilehash: deeced350ad867a374a486967c2cbd278ba91710
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49371673"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519332"
 ---
 # <a name="access-the-admin-portal"></a>관리 포털 액세스
 
@@ -59,7 +59,7 @@ Azure portal 또는 Microsoft Endpoint Manager에서 Microsoft Managed Desktop �
 Azure Active Directory 역할을 할당 하는 데 도움이 필요한 경우 [Azure Active directory에서 관리자 역할 권한을](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)참조 하세요.
 
 기본 제공 역할을 쉽게 관리 하기 위해 각 사용자 지정 역할에 대 한 보안 그룹 (예: "현대 직장 역할-보안 관리자")을 만들었습니다. 사용자를 보안 그룹 중 하나에 할당 하려면 다음 단계를 수행 합니다.
-1.  Azure portal로 이동 하 여 Azure Active Directory 블레이드에서 이동 합니다.
+1.  Microsoft Endpoint Manager 포털으로 이동
 2.  왼쪽에서 그룹을 선택 합니다.
 3.  최신 작업 공간 역할을 검색 한 다음 할당 하려는 역할과 연결 된 그룹을 선택 합니다. 
 4.  왼쪽에서 구성원을 선택 하 고 명령 모음에서 + 구성원 추가를 선택 합니다.

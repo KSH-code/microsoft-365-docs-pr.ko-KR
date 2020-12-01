@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 description: 21Vianet에서 운영 하는 Office 365의 Azure Information Protection에 대해 자세히 알아보고 중국의 고객을 위해이를 구성 하는 방법을 알아보세요.
 monikerRange: o365-21vianet
-ms.openlocfilehash: ad3420483701c83ffef65994996047de56a7085c
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 7be40466c43a49cf51a2a2c1c273cef035bee831
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644666"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519344"
 ---
 # <a name="parity-between-azure-information-protection-for-office-365-operated-by-21vianet-and-commercial-offerings"></a>21Vianet 및 상업적 제공품에서 운영 하는 Office 365의 Azure Information Protection 간 패리티
 
@@ -42,8 +42,6 @@ Microsoft의 목표는 21Vianet에서 운영 하는 Office 365의 Azure Informat
 - 현재 상업용 클라우드의 사용자에 게 문서 및 전자 메일 첨부 파일을 공유할 수 없습니다. 여기에는 상업용 클라우드의 21Vianet 사용자가 운영 하는 Office 365, 상업용 클라우드의 21Vianet 사용자가 운영 하는 Office 365 및 개별 라이선스에 대 한 RMS가 있는 사용자가 포함 됩니다.
   
 - SharePoint (IRM으로 보호 된 사이트 및 라이브러리)가 포함 된 IRM을 현재 사용할 수 없습니다.
-  
-- 권한 관리 커넥터를 현재 사용할 수 없습니다.
   
 - AD RMS에 대 한 모바일 장치 확장을 현재 사용할 수 없습니다.
 

@@ -10,12 +10,12 @@ search.appverid: ''
 ms.collection: enabler-strategic
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 양식 처리 모델 알아보기
-ms.openlocfilehash: 6c2cb2ee3c1fc621e7814f4603ad2e6f0b891701
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: a1429d93d6716fe5db31f0da2a77a68dcf98cd6e
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087406"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519673"
 ---
 # <a name="form-processing-overview"></a>양식 처리 개요
 
@@ -35,8 +35,6 @@ AI 작성기 양식 처리를 사용하여 기계 학습 기술을 사용하여 
 ![문서 라이브러리 보기](../media/content-understanding/doc-lib-done.png)</br>  
 
 예제 파일을 사용하여 모델을 훈련시키고 양식에서 추출할 정보를 정의할 수 있습니다. 문서의 레이아웃은 모델 교육을 통해 배울 수 있습니다. 5개의 양식 문서가 있으면 시작 할 수 있습니다. AI 작성기는 예제 파일에서 키-값 쌍을 분석하고 사용자는 감지되지 않은 정보를 수동으로 식별할 수 있습니다.  AI 작성기는 예제 파일에서 모델의 정확도를 테스트 하도록 합니다.
-
-시작 하려면 최소한 5개 이상의 양식 문서가 필요 합니다. AI 작성기는 예제 파일에서 키-값 쌍을 분석하고 감지되지 않은 정보를 수동으로 식별합니다.  AI 작성기는 예제 파일에서 모델의 정확도를 테스트 하도록 합니다.
 
 모델을 훈련하고 게시하면 모델은 [파워 자동화 흐름](https://docs.microsoft.com/power-automate/getting-started)을 만듭니다. 파일이 SharePoint 문서 라이브러리에 업로드 되면 흐름이 실행되고 모델에서 식별된 데이터를 추출합니다. 추출 된 데이터가 모델의 문서 라이브러리 보기에서 열에 표시 됩니다.
 

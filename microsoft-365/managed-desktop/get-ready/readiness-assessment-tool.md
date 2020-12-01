@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 347266f71dada3de1bbd9b1434cb1e6628249147
-ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
+ms.openlocfilehash: e2d1c68c3fe963c957e4c3e18fce441b92c96bf1
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48931927"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519824"
 ---
 # <a name="readiness-assessment-tool"></a>준비 상태 평가 도구
 
@@ -22,7 +22,7 @@ Microsoft Managed Desktop에 등록할 때 발생할 수 있는 환경에 대 �
 
 이 도구는 microsoft Endpoint Manager (특히, Microsoft Intune), Azure Active Directory (Azure AD) 및 microsoft 365의 설정을 검사 하 여 Microsoft Managed Desktop에서 작동 하도록 합니다. Microsoft Managed Desktop은 Azure AD 조 직 (테 넌 트)에서 검사를 마지막으로 실행 한 후 12 개월 동안 이러한 검사와 관련 된 데이터를 보존 합니다. 12 개월 후에는 식별 되지 않은 형식으로 보존 됩니다.  수집한 데이터를 삭제 하도록 선택할 수 있습니다.
 
-적어도 Intune 관리자 역할을 가진 모든 사용자는이 도구를 실행할 수 있지만, 두 가지 검사 ([인증서 커넥터](readiness-assessment-fix.md#certificate-connectors) 및 [multi-factor authentication](readiness-assessment-fix.md#multi-factor-authentication) 에는 추가 권한이 필요 함)가 있습니다.
+적어도 Intune 관리자 역할을 가진 모든 사용자는이 도구를 실행할 수 있지만 두 가지 검사 ([조건부 액세스 정책](readiness-assessment-fix.md#conditional-access-policies) 및 [다단계 인증](readiness-assessment-fix.md#multi-factor-authentication) 에 추가 권한이 필요 함)가 있습니다.
  
 평가 도구는 다음 항목을 확인 합니다.
 

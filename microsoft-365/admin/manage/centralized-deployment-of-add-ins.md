@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: 중앙 집중식 배포를 사용 하 여 Office 추가 기능을 배포할 수 있도록 테 넌 트 및 사용자가 요구 사항을 충족 하는지 확인 합니다.
-ms.openlocfilehash: af7a127d438e81d6ecd025b6a71b9d7e5df2ecc8
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 04c5f9090ca788f00f2d17d3af59e8022195e9be
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681627"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519368"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 맞게 작동 하는지 확인
 
@@ -45,7 +45,7 @@ ms.locfileid: "48681627"
   
 ## <a name="requirements"></a>요구 사항
 
-추가 기능의 중앙 집중식 배포를 사용 하려면 사용자가 microsoft 365 앱 for Microsoft 365 for business for enterprise, 또는 비즈니스용 Microsoft 365 (그리고 조직 ID를 사용 하 여 Office에 로그인 해야 함)가 필요 하며 Exchange Online 및 active Exchange Online 사서함이 있어야 합니다. 구독 디렉터리는 내에 있거나 Azure Active Directory에 페더레이션 되어 있어야 합니다.
+추가 기능의 중앙 집중식 배포에서는 사용자가 Microsoft 365 Enterprise Sku: E3/E5/F3 또는 Business Sku: 비즈니스 기본, 비즈니스 표준, 비즈니스 Premium을 사용 하 고 있으며, 조직 ID를 사용 하 여 Office에 로그인 되어 있으며, Exchange Online 및 active Exchange Online 사서함이 있어야 합니다. 구독 디렉터리는 내에 있거나 Azure Active Directory에 페더레이션 되어 있어야 합니다.
 아래의 Office 및 Exchange에 대 한 특정 요구 사항을 보거나 [중앙 집중식 배포 호환성 검사](#centralized-deployment-compatibility-checker)를 사용할 수 있습니다.
 
 중앙 집중식 배포는 다음을 지원하지 않습니다.
@@ -55,17 +55,17 @@ ms.locfileid: "48681627"
 - Exchange 온-프레미스 사서함에 대 한 추가 기능 배포
 - SharePoint에 대한 추가 기능 배포  
 - 팀 앱
-- COM(구성 요소 개체 모델) 또는 VSTO(Visual Studio Tools for Office) 추가 기능의 배포
-- 비즈니스를 위한 Microsoft 365 앱과 같은 Exchange를 포함 하지 않는 Microsoft 365 배포
+- COM (구성 요소 개체 모델) 또는 Visual Studio Tools for Office (VSTO) 추가 기능 배포
+- Sku와 같은 Exchange Online을 포함 하지 않는 Microsoft 365의 배포: 비즈니스용 Microsoft 365 Apps 및 Microsoft 365 Apps for Enterprise.
 
 ### <a name="office-requirements"></a>Office 요구 사항
 
 - Word, Excel 및 PowerPoint 추가 기능의 경우 사용자는 다음 중 하나를 사용 해야 합니다.
-  - Windows 장치에서 enterprise 용 microsoft 365 365 앱의 버전 1704 이상 또는 비즈니스용 Microsoft 365.
+  - Windows 장치에서 버전 1704, Microsoft 365 Enterprise Sku: E3/E5/F3 또는 Business Sku: Business Basic, Business Standard, Business Premium.
   - Mac의 경우 버전 15.34 이상입니다.
 
 - Outlook의 경우 사용자는 다음 중 하나를 사용 해야 합니다. 
-  - Microsoft 365 for enterprise 용 microsoft 365 앱 또는 비즈니스용 Microsoft 365 (버전 1701 이상)
+  - 버전 1701 Microsoft 365 Enterprise Sku: E3/E5/F3 또는 Business Sku: Business Basic, Business Standard, Business Premium.
   - Office Professional Plus 2019 또는 Office Standard 2019 버전 1808 이상
   - Office Professional Plus 2016 (MSI) 또는 Office Standard 2016 (MSI) 버전 16.0.4494.1000 이상\*
   - Office Professional Plus 2013 (MSI) 또는 Office Standard 2013 (MSI) 버전 15.0.4937.1000 이상\*
@@ -74,20 +74,6 @@ ms.locfileid: "48681627"
 - Android 용 Outlook mobile의 버전 2.2.145 이상 
     
     * MSI 버전의 Outlook에는 "내 추가 기능" 섹션이 아닌 해당 Outlook 리본 메뉴에 관리자가 설치한 추가 기능이 표시 됩니다.
-    
-
-#### <a name="find-out-if-microsoft-365-apps-for-enterprise-is-installed"></a>Microsoft 365 for enterprise 앱이 설치 되어 있는지 확인
-
-Microsoft 365 Apps for enterprise를 사용 하려면 사용자에 게 Microsoft 365 계정이 있고 라이선스가 할당 되어 있어야 합니다. 자세한 내용은 [Overview For Microsoft 365 Apps for enterprise](https://go.microsoft.com/fwlink/p/?linkid=846328)를 참조 하세요.
-
-사용자가 office 용 Microsoft 365 앱이 설치 되어 있고 최근에 사용 중인 경우 microsoft 365 관리 센터에서 사용할 수 있는 Microsoft Office 정품 인증 보고서를 사용 하는 것이 가장 간단한 방법입니다. 이 보고서는 지난 7 일, 30 일, 90 일 또는 180 일 이내에 엔터프라이즈 용 Microsoft 365 앱을 정품 인증 한 모든 사용자의 목록을 제공 합니다. 중앙 집중식 배포를 위해 Windows 또는 Mac에 대한 데스크톱 정품 인증은 보고서의 중요 열에 있습니다. 보고서를 Excel로 내보낼 수 있습니다. 보고서에 대 한 자세한 내용은 [관리 센터의 microsoft 365 보고서-Microsoft Office 정품 인증](../activity-reports/microsoft-office-activations.md)을 참조 하세요.
-  
-정품 인증 보고서를 사용 하지 않으려는 경우 사용자에 게 컴퓨터에서 Word와 같은 Office 응용 프로그램을 열도록 요청 하 고 **파일** \> **계정을**선택 하면 됩니다. **제품 정보**에는 다음 이미지에 표시 된 것과 비슷한 **구독 제품** 및 microsoft 365 Business Premium **for enterprise**또는 microsoft 365이 표시 됩니다.
-
-![Office 응용 프로그램의 제품 정보](../../media/product-information-microsoft-365-enterprise.png)
-  
-Microsoft 365 for enterprise 용 앱에 대 한 도움말을 보려면 [microsoft 365 앱 for Enterprise 문제 해결 팁](https://go.microsoft.com/fwlink/p/?linkid=846339)을 참조 하십시오.
-
 
 ### <a name="exchange-online-requirements"></a>Exchange Online 요구 사항
 
@@ -170,5 +156,5 @@ Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능�
 |**플랫폼**|**디버그 정보**|
 |:-----|:-----|
 |사무실  <br/> | Charles/Fiddler 로그  <br/>  테넌트 ID( [방법 알아보기](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id.aspx))  <br/>  관계. Office 페이지 중 하나의 원본을 확인 하 고 상관 관계 ID 값을 확인 한 다음 지원에 보냅니다.  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
-|리치 클라이언트(Windows, Mac)  <br/> | Charles/Fiddler 로그  <br/>  클라이언트 응용 프로그램의 빌드 번호 ( **파일/계정의**스크린샷)  <br/> |
+|리치 클라이언트(Windows, Mac)  <br/> | Charles/Fiddler 로그  <br/>  클라이언트 응용 프로그램의 빌드 번호 ( **파일/계정의** 스크린샷)  <br/> |
    

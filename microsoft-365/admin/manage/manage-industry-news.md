@@ -15,12 +15,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: 사용자에 게 조직의 업계 정보에 대 한 최신 뉴스 헤드라인을 제공 하 고, 뉴스 서비스를 사용 하 여 조직에 대해 사용자 지정 된 뉴스 피드를 사용 하도록 설정 합니다.
-ms.openlocfilehash: c0758c3a762c39534629095345d935456cb938e9
-ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
+ms.openlocfilehash: 90fa9a046e5207ae032180099f7766ef18d71898
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48791825"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519308"
 ---
 # <a name="manage-industry-news"></a>업계 소식 관리
 
@@ -28,13 +28,11 @@ ms.locfileid: "48791825"
 
 ## <a name="what-your-users-will-see"></a>사용자에 게 표시 되는 항목
  
-Bing 홈페이지에 들어오는 로그인 한 사용자는 조직의 개인 설정 된 정보에 따라 뉴스 피드를 볼 수 있습니다.
-
-:::image type="content" source="../../media/manage-industry-news-2.jpg" alt-text="웹에서 업계 소식을 사용한 이미지 컨베이어 스크린샷":::
-
+로그인 한 사용자가 Bing 홈 페이지로 이동 하는 경우 조직의 개인 설정 된 정보에 해당 업계의 뉴스 피드가 표시 됩니다.   
+ :::image type="content" source="../../media/manage-industry-news-2.jpg" alt-text="웹에서 업계 소식을 사용한 이미지 컨베이어 스크린샷":::
 또한 Microsoft Edge 새 탭 페이지에 회사, 산업, 내부 뉴스 또는 개인 설정 된 작업 정보를 볼 수 있습니다. 
 
-:::image type="content" source="../../media/manage-industry-news-3.png" alt-text="웹에서 업계 소식을 사용한 이미지 컨베이어 스크린샷":::
+:::image type="content" source="../../media/manage-industry-news-3.png" alt-text="뉴스 홈페이지의 Microsoft":::
 
 ## <a name="news-settings"></a>뉴스 설정
 

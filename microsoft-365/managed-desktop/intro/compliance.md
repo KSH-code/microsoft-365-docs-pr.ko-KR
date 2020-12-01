@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 7674777214cb5684bb02039f739458352bc701ad
-ms.sourcegitcommit: 61d7284b412d0f7bbd8bbb2225c2e6324f86b717
+ms.openlocfilehash: 65d1d18037a10cd36c3be9498a4373fa67b6afd9
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262282"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519613"
 ---
 # <a name="compliance"></a>규정 준수
 
@@ -24,17 +24,17 @@ Microsoft Managed Desktop IT-서비스를 사용 하는 경우 Microsoft는 광�
 
 Microsoft Managed Desktop은 다음과 같은 인증을 얻은 것입니다.
 
-- [ISO 27001 정보 보안 관리 표준 (ISMS)](../../compliance/offering-ISO-27001.md)
-- [ISO 27701 개인 정보 관리 시스템 (PIMS)](../../compliance/offering-iso-27701.md)
-- [ISO 27017 정보 보안 제어를 위한 연습용 코드](../../compliance/offering-ISO-27017.md)
-- [ISO 27018 클라우드에서 개인 데이터를 보호 하기 위한 방법의 코드](../../compliance/offering-ISO-27018.md)
-- [ISO 9001 품질 관리 시스템 표준](../../compliance/offering-ISO-9001.md)
-- [ISO 20000-1 Information 기술 서비스 관리](../../compliance/offering-ISO-20000-1-2011.md)
-- [ISO 22301 비즈니스 연속성 관리 표준](../../compliance/offering-ISO-22301.md)
-- [CSA(Cloud Security Alliance) STAR 증명](../../compliance/offering-CSA-STAR-Attestation.md)
-- [CSA(Cloud Security Alliance) STAR 인증](../../compliance/offering-CSA-Star-Certification.md)
-- [SOC (서비스 조직 제어) 1, 2, 3](../../compliance/offering-SOC.md)
-- [PCI(Payment Card Industry) DSS(Data Security Standard)](../../compliance/offering-PCI-DSS.md)
+- [ISO 27001 정보 보안 관리 표준 (ISMS)](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27001)
+- [ISO 27701 개인 정보 관리 시스템 (PIMS)](https://docs.microsoft.com/compliance/regulatory/offering-iso-27701)
+- [ISO 27017 정보 보안 제어를 위한 연습용 코드](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27017)
+- [ISO 27018 클라우드에서 개인 데이터를 보호 하기 위한 방법의 코드](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27018)
+- [ISO 9001 품질 관리 시스템 표준](https://docs.microsoft.com/compliance/regulatory/offering-ISO-9001)
+- [ISO 20000-1 Information 기술 서비스 관리](https://docs.microsoft.com/compliance/regulatory/offering-ISO-20000-1-2011)
+- [ISO 22301 비즈니스 연속성 관리 표준](https://docs.microsoft.com/compliance/regulatory/offering-ISO-22301)
+- [CSA(Cloud Security Alliance) STAR 증명](https://docs.microsoft.com/compliance/regulatory/offering-CSA-STAR-Attestation)
+- [CSA(Cloud Security Alliance) STAR 인증](https://docs.microsoft.com/compliance/regulatory/offering-CSA-Star-Certification)
+- [SOC (서비스 조직 제어) 1, 2, 3](https://docs.microsoft.com/compliance/regulatory/offering-SOC)
+- [PCI(Payment Card Industry) DSS(Data Security Standard)](https://docs.microsoft.com/compliance/regulatory/offering-PCI-DSS)
 
 ## <a name="auditor-reports-and-compliance-certificates"></a>감사자 보고서 및 준수 인증서
 
