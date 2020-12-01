@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 5ceec4ed45286afa14004dcfcb9476040df9a5ec
-ms.sourcegitcommit: 26b35012c42fef935d6c4a6509dde6c22a9b922a
+ms.openlocfilehash: e2833d966fb8a1fcc15cbeb02b781d9c0325b9c1
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385274"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519379"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -111,13 +111,13 @@ ms.locfileid: "49385274"
 
 단일 정책을 여러 위치 또는 특정 위치 또는 사용자에게 효율적으로 적용할 수 있습니다.
 
-보존 기간이 시작되는 경우 또한 콘텐츠를 언제 만들어졌을지 또는 콘텐츠가 마지막으로 수정된 경우에는 파일 및 SharePoint, OneDrive 및 Microsoft 365 그룹 위치에 대해서만 지원되었는지의 경우를 선택할 수도 있습니다.
+보존 기간 시작 시 콘텐츠가 생성된 시기 또는 콘텐츠가 마지막으로 수정된시기(파일 및 SharePoint, OneDrive 및 Microsoft 365 그룹 위치에 대해서만 지원됨)를 선택할 수 있습니다.
 
 항목은 보존 정책에 지정된 컨테이너의 보존 설정을 상속합니다. 해당 정책이 콘텐츠를 보존하도록 구성될 때 항목이 컨테이너 외부로 이동되는 경우 해당 항목의 사본은 작업의 보안 위치에 유지됩니다. 그러나 보존 설정은 새 위치의 콘텐츠와 함께 이동되지 않습니다. 필요한 경우 보존 정책 대신 보존 레이블을 사용합니다.
 
 ### <a name="retention-labels"></a>보존 레이블
 
-다른 보존 설정이 있어야 하는 다양한 유형의 콘텐츠에는 보존 레이블을 사용합니다. 예제:
+다른 보존 설정이 있어야 하는 다양한 유형의 콘텐츠에는 보존 레이블을 사용합니다. 예:
   
 - 최소 기간 동안 보존해야 하는 세금 양식 
     
@@ -138,7 +138,7 @@ ms.locfileid: "49385274"
     - 만든 쿼리와 일치하는 특정 키워드
     - 학습 가능한 분류자에 대한 패턴 일치
 
-- **콘텐츠에 레이블이 지정된 시점부터 보존 기간 시작**(SharePoint 사이트 및 OneDrive 계정의 문서, 일정 항목을 제외한 전자 메일 항목) 이 구성과 함께 보존 레이블을 일정 항목에 적용하는 경우 해당 보존 기간은 보낸 날짜부터 시작됩니다.
+- **콘텐츠에 레이블이 지정된 시점부터 보존 기간 시작**(SharePoint 사이트 및 OneDrive 계정의 문서, 일정 항목을 제외한 전자 메일 항목). 이 구성과 함께 보존 레이블을 일정 항목에 적용하는 경우 해당 보존 기간은 보낸 날짜부터 시작됩니다. 
 
 - **이벤트가 발생할 때 보존 기간 시작**(예: 직원 퇴사, 계약 만료)
 
@@ -196,17 +196,26 @@ Exchange 공용 폴더, Skype, Teams 및 Yammer 메시지는 보존 레이블을
 
 #### <a name="only-one-retention-label-at-a-time"></a>한 번에 하나의 보존 레이블만
 
-전자 메일 또는 문서에는 한 번에 하나의 보존 레이블만 할당할 수 있습니다.
-  
-- 관리자나 최종 사용자가 수동으로 할당한 보존 레이블의 경우, 할당된 보존 레이블을 제거하거나 변경할 수 있습니다.
+전자 메일 또는 문서에는 한 번에 하나의 보존 레이블만 할당할 수 있습니다. 보존 레이블은 최종 사용자나 관리자가 [수동으로](create-apply-retention-labels.md#manually-apply-retention-labels) 적용하거나 다음 방법 중 하나를 사용하여 자동으로 적용할 수 있습니다.
+
+- [자동 적용 레이블 정책](apply-retention-labels-automatically.md)
+- [SharePoint Syntex용 문서 이해 모델](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-retention-label-to-a-model)
+- [SharePoint용 기본 레이블](create-apply-retention-labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set) 또는 [Outlook](create-apply-retention-labels.md#applying-a-default-retention-label-to-an-outlook-folder)
+- [Outlook 규칙](create-apply-retention-labels.md#automatically-applying-a-retention-label-to-email-by-using-rules)
+
+표준 보존 레이블의 경우(항목을 [레코드 또는 규제 레코드](records-management.md#records)로 표시하지 않음):
+
+- 관리자 및 최종 사용자는 콘텐츠에 적용된 기존 보존 레이블을 수동으로 변경하거나 제거할 수 있습니다. 
+
+- 콘텐츠에 이미 보존 레이블이 적용된 경우 기존 레이블은 자동으로 제거되거나 다른 보존 레이블로 대체되지 않습니다. 한 가지 예외: 기존 레이블이 기본 레이블로 적용되었습니다.
     
-- 콘텐츠에 자동 적용 레이블이 할당된 경우에는 이 레이블을 게시된 보존 레이블로 바꿀 수 있습니다.
-    
-- 콘텐츠에 게시된 보존 레이블이 할당된 경우 자동 적용 레이블은 대체되지 않습니다.
-    
-- 자동 적용 레이블을 할당하는 규칙이 여러 개이고 내용이 여러 규칙의 조건을 충족하는 경우 가장 오래된 규칙(작성 날짜 기준)의 보존 레이블이 할당됩니다.
-    
-기본 레이블을 사용할 때 모든 결과를 완전히 이해하려면 [기본 보존 레이블을 SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 컨텐츠에 기본 보존 레이블 적용](create-apply-retention-labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set) 섹션의 정보를 참조하십시오.
+    기본 레이블을 사용하여 적용될 때 레이블 동작에 대한 자세한 내용은 다음을 참조하세요.
+    - Sharepoint의 기본 레이블: [SharePoint에서 기본 레이블을 사용하는 경우 레이블 동작](create-apply-retention-labels.md#label-behavior-when-you-use-a-default-label-for-sharepoint)
+    - Outlook의 기본 레이블: [Outlook 폴더에 기본 보존 레이블 적용](create-apply-retention-labels.md#applying-a-default-retention-label-to-an-outlook-folder)
+
+- 보존 레이블을 적용할 수 있는 자동 적용 레이블 정책이 여러 개이고, 콘텐츠가 여러 정책의 조건을 충족하는 경우 가장 오래된 자동 적용 레이블 정책(작성 날짜 기준)의 보존 레이블이 적용됩니다.
+
+보존 레이블이 항목을 레코드 또는 규제 레코드로 표시하는 경우 이러한 레이블은 자동으로 변경되지 않습니다. 컨테이너 관리자만 항목을 레코드로 표시하는 보존 레이블을 수동으로 변경하거나 제거할 수 있지만, 규제 레코드는 변경할 수 없습니다. 자세한 내용은 [허용 또는 차단되는 작업에 대한 제한 사항 비교](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked)를 참조하세요.
 
 #### <a name="monitoring-retention-labels"></a>보존 레이블 모니터링
 
