@@ -2,8 +2,8 @@
 title: 파일 저장 및 공유 설정
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
+ms.author: sharik
+author: SKjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -29,12 +29,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: OneDrive 및 Microsoft 365 저장소 및 Microsoft 365 파일 공유에 대 한 팀 사이트를 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: cc6a7a45fda65073dc9b0cd15a844ec9aefca794
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: aa85789b950965a33c07214b5eaebf827ed8cc92
+ms.sourcegitcommit: 4a9e1b6851b988bcd31e87b184fc185be949840d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906396"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49525572"
 ---
 # <a name="set-up-file-storage-and-sharing-in-microsoft-365"></a>Microsoft 365에서 파일 저장 및 공유 설정
 
@@ -117,7 +117,7 @@ OneDrive 및 팀 사이트를 함께 사용할 때 각 위치에 저장할 항�
   
 5. 컴퓨터에서 파일을 삭제할 수 있습니다. 다음 단계에서는 [온라인 파일을 PC 또는 Mac과 동기화](#sync-online-files-with-your-pc-or-mac)하 고 컴퓨터에서 이러한 파일에 대 한 새 위치를 만듭니다.
 
-    팀 사이트에 업로드할 파일이 많거나 대용량이면 [대용량 파일이나 여러 파일을 라이브러리에 업로드](https://support.microsoft.com/office/da549fb1-1fcb-4167-87d0-4693e93cb7a0#__toc384119242)하는 방법을 설명한 팁을 참조합니다.
+    팀 사이트에 업로드할 파일이 많거나 대용량 파일이 여러 개 있는 경우 [라이브러리에 큰 파일 또는 여러 개를 업로드 하는](https://support.microsoft.com/office/da549fb1-1fcb-4167-87d0-4693e93cb7a0#__toc384119242)방법에 대 한 다음 팁을 읽어 보십시오.
 
     저장소 공간이 더 필요한 경우 [구독용 저장소 공간 변경](../../commerce/add-storage-space.md)을 참조합니다.
 
@@ -158,11 +158,11 @@ OneDrive 또는 SharePoint 팀 사이트를 최대한 활용 하기 위한 몇 �
   
 ### <a name="file-storage-and-collaboration-recommendations-for-other-types-of-small-businesses"></a>기타 유형의 중소기업에 권장되는 파일 저장 및 공동 작업 사항
 
-- **단독 기업** : OneDrive를 사용 하 여 자신의 파일을 저장 하 고 사례별로 공유 합니다.
+- **단독 기업**: OneDrive를 사용 하 여 자신의 파일을 저장 하 고 사례별로 공유 합니다.
 
-- **공동 기업 소유자도** : 두 소유자 모두 OneDrive를 사용 하 고 파일을 앞뒤로 공유 합니다.
+- **공동 기업 소유자도**: 두 소유자 모두 OneDrive를 사용 하 고 파일을 앞뒤로 공유 합니다.
 
-- **파일에 액세스 해야 하는 외부 클라이언트나 파트너가 있는 회사** : 새 팀 사이트를 만들어 특정 고객을 위한 문서를 저장 하 고 공유 합니다. 해당 고객 에게만 액세스를 허용 하도록 사이트를 설정 합니다. 한 고객이 실수로 다른 고객을 위한 정보에 액세스 하는 것을 걱정 하지 않아도 됩니다.
+- **파일에 액세스 해야 하는 외부 클라이언트나 파트너가 있는 회사**: 새 팀 사이트를 만들어 특정 고객을 위한 문서를 저장 하 고 공유 합니다. 해당 고객 에게만 액세스를 허용 하도록 사이트를 설정 합니다. 한 고객이 실수로 다른 고객을 위한 정보에 액세스 하는 것을 걱정 하지 않아도 됩니다.
 
 ### <a name="keep-private-files-private"></a>개인 파일을 비공개로 보관
 

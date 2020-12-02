@@ -2,8 +2,8 @@
 title: 파일 저장 및 공유를 위해 SharePoint 팀 사이트 사용자 지정
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
+ms.author: sharik
+author: SKjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 70a62f09-45ea-4968-8482-43cddfb8cc01
 description: 문서 라이브러리, 목록 및 허브를 사용 하 여 SharePoint 팀 사이트를 사용자 지정, 구성 및 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3eb09f0b0160333e3b17ebc5f02424ba3d24a13c
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 3ef82cecf22226380fbb18492a7630aa023b4036
+ms.sourcegitcommit: 4a9e1b6851b988bcd31e87b184fc185be949840d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906492"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49525536"
 ---
 # <a name="customize-your-team-site-for-file-storage-and-sharing"></a>파일 저장 및 공유를 위해 팀 사이트 사용자 지정
 
@@ -85,7 +85,7 @@ SharePoint에는 링크 목록, 일정, 연락처 또는 작업 등 사이트에
 
 팀 사이트는 거의 모든 내용을 사이트와 연결 된 그룹의 모든 구성원과 공유 합니다. 특정 고객을 위한 별도의 사이트를 만들려면 추가 팀 사이트를 만들고 SharePoint 허브 사이트를 사용 하 여 관리할 수 있습니다. 자세한 내용은 다음과 같습니다.
   
-허브 사이트를 사용 하 여 사이트를 추가 하 고 연결할 수 있습니다. 자세한 내용은 [SharePoint 허브 사이트 란?](https://support.microsoft.com/office/fe26ae84-14b7-45b6-a6d1-948b3966427f)을 참조 하십시오.
+허브 사이트를 사용 하 여 사이트를 추가 하 고 연결할 수 있습니다. 자세한 내용은 [SharePoint 허브 사이트용 이란?](https://support.microsoft.com/office/fe26ae84-14b7-45b6-a6d1-948b3966427f)를 참조 하세요.
   
 허브 사이트를 작성할 준비가 되 면 [SharePoint Online에서 허브 사이트 만들기](/sharepoint/create-hub-site)를 참조 하세요.
   
@@ -93,11 +93,11 @@ SharePoint에는 링크 목록, 일정, 연락처 또는 작업 등 사이트에
   
 ## <a name="sharing-files-with-the-team"></a>팀과 파일 공유
 
-파일 저장 및 문서 관리가 시작 되는 동안 팀과 외부 클라이언트와 공유 하는 것도 중요 합니다. 다음은 사용자를 관리 하 고 데이터를 공유 하는 데 도움이 되는 항목에 대 한 링크입니다.
+파일 저장 및 문서 관리가 시작 되는 동안 팀과 외부 클라이언트와 공유 하는 것도 중요 합니다. 다음 문서는 사용자를 관리 하 고 데이터를 공유 하는 데 도움이 됩니다.
   
-팀과 파일을 공유 하는 경우에는 [Microsoft 365에서 SharePoint 파일 또는 폴더 공유](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)를 참조 하세요.
+- 팀과 파일을 공유 하는 경우에는 [Microsoft 365에서 SharePoint 파일 또는 폴더 공유](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)를 참조 하세요.
   
-팀 외부의 공유를 이해 하려면 [외부 공유 개요](/sharepoint/external-sharing-overview)를 참조 하세요.
+- 팀 외부의 공유를 이해 하려면 [외부 공유 개요](/sharepoint/external-sharing-overview)를 참조 하세요.
   
 ## <a name="managing-users-and-groups"></a>사용자 및 그룹 관리
 
@@ -109,9 +109,9 @@ Microsoft 365 그룹에 사용자를 추가 하려면 [사용자 추가 및 동�
   
 [설정 및 관리 액세스 요청](https://support.microsoft.com/office/94B26E0B-2822-49D4-929A-8455698654B3)을 사용 하 여 액세스 요청을 처리 하는 방법을 알아봅니다.
   
-## <a name="here-are-more-topics-you-might-be-interested-in"></a>여기에 관심을 가질 수 있는 항목은 다음과 같습니다.
+## <a name="here-are-more-articles-you-might-be-interested-in"></a>여기에 관심을 가질 수 있는 추가 문서는 다음과 같습니다.
 
-- **태블릿 및 휴대폰에 Office 앱을 설정** 합니다. 그렇게 해야 팀 사이트에 저장된 파일을 태블릿이나 휴대폰에서 편집할 수 있습니다. 태블릿 또는 휴대폰에 Office 앱을 설치 하지 않으면 팀 사이트에서 파일을 볼 수는 있지만 편집이 가능 하지는 않습니다. 
+- **태블릿 및 휴대폰에 Office 앱을 설정** 합니다. 이 작업을 수행 해야 태블릿 또는 휴대폰에서 팀 사이트에 저장 된 파일을 편집할 수 있습니다. 태블릿 또는 휴대폰에 Office 앱을 설치 하지 않으면 팀 사이트에서 파일을 볼 수는 있지만 편집이 가능 하지는 않습니다. 
     
   - [Microsoft 365을 사용 하 여 Android에서 Office 설치 및 설정](https://support.microsoft.com/office/cafe9d6f-8b0c-4b03-b20a-12438a82a22d)
     

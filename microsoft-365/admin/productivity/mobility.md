@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: 이동성에 대 한 세부 정보-생산성 점수가 사용자에 게 제공 됩니다.
-ms.openlocfilehash: f40984b3c053dcb976c901830bf796e3b7297f2d
-ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
+ms.openlocfilehash: e37d5ff0377163bea270b1d16e8b4fddae9099b4
+ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48804784"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49551866"
 ---
 # <a name="mobility--people-experiences"></a>모바일 기능-사용자 환경
 
-생산성 점수 조직은 조직에서 Microsoft 365 앱과 지원 되는 기술 환경을 사용 하는 방법에 대 한 메트릭으로 작업을 수행 하는 방식을 변환 합니다. 점수에는 사용자와 기술 경력 범주에 대 한&#39;s 조직의 성과를 반영 하 고 사용자의 성과와 같은 조직에 대 한 점수가 비교 됩니다. 팀 작업 범주는 사용자 환경에서 발생 하는 측정값의 일부입니다. 자세한 내용은 [생산성 점수 개요](productivity-score.md) 를 참조 하세요.
+생산성 점수는 조직이 Microsoft 365 및 해당 기술을 사용 하는 방법에 대 한 정보를 사용 하 여 디지털로의 여행 변환을 지원 합니다. 조직의 점수에는 사용자 및 기술 경력 측정이 반영 되며, 크기와 비슷한 벤치 마크와 비교해 볼 수 있습니다. 모바일 범주는 사용자 환경의 일부입니다. 자세한 내용은 [생산성 점수 개요](productivity-score.md) 를 참조 하세요.
 
 ## <a name="why-your-organization39s-mobility-score-matters"></a>조직의 모바일 기능에 대 한 중요 한 성과를&#39;하는 이유
 
@@ -56,19 +56,20 @@ Microsoft 365에서는 Microsoft Outlook, Word, Excel, PowerPoint, OneNote, Micr
 
 #### <a name="trend-visualization-of-the-primary-insight"></a>주요 통찰력 추세 시각화
 
-:::image type="content" source="../../media/mobility-primary.png" alt-text="모바일 기능에 대 한 주요 통찰력을 보여 주는 차트-생산성 점수가 사용자에 게 제공 됩니다.":::
+:::image type="content" source="../../media/mobility-primary.png" alt-text="둘 이상의 플랫폼 및 시간을 사용 하는 사용자 수를 보여 주는 차트":::
 
 이 차트에서는 지난 180 일 동안 분자를 사용 하 여 앱을 사용한 사용자 수를 보여 주는 추세를 보여줍니다. 꺽은선형 차트의 각 데이터 요소는 지난 28 일 동안의 작업을 집계 한 것입니다. 각 데이터 요소는 x 축에서 각 날짜에 대해 마지막 28 일 동안 최소 두 개의 플랫폼에서 응용 프로그램을 사용 하는 모든 사용자의 수를 제공 합니다.
 
 ### <a name="scoring-framework"></a>성과 구조 평가
 
-모바일 점수는 데스크톱, 웹 및 모바일에 따라 사용자가 Microsoft 365 앱, Outlook, 팀, Word, Excel, PowerPoint, OneNote, Yammer 및 Skype를 사용 하 고 있는지 여부를 측정 합니다.
+조직에 대 한 모바일 점수는 다른 사용자가 Microsoft 365 앱-Outlook, 팀, Word, Excel, PowerPoint, OneNote, Yammer 및 Skype를 사용 하 여 데스크톱, 웹, 모바일 등을 수행 하는지 여부에 관계 없이 조직 (집계) 수준에서 측정 됩니다.
+이러한 점수는 개별 사용자 수준에서 제공 되지 않습니다.
 
 ## <a name="explore-how-your-org-works-across-platforms-and-locations"></a>플랫폼과 위치에서 조직이 작동 하는 방식을 알아봅니다.
 
 ### <a name="use-of-outlook-across-platforms"></a>플랫폼 간 Outlook 사용
 
-:::image type="content" source="../../media/outlook-across-platforms.png" alt-text="모바일 기능에 대 한 주요 통찰력을 보여 주는 차트-생산성 점수가 사용자에 게 제공 됩니다.":::
+:::image type="content" source="../../media/outlook-across-platforms.png" alt-text="여러 플랫폼에서 Outlook을 사용 중인 사용자 수를 보여 주는 차트":::
 
 1. **머리글:** 여러 플랫폼에서 Outlook을 사용 하는 Outlook에서 활성 상태인 사용자의 백분율을 표시 합니다.
 2. **본문:** 모바일 장치에서 Outlook을 사용 하 여 전자 메일을 어디에서 든 연결 상태를 유지할 수 있는 값에 대 한 정보를 제공 합니다.
@@ -89,7 +90,7 @@ Microsoft 365에서는 Microsoft Outlook, Word, Excel, PowerPoint, OneNote, Micr
 
 ### <a name="use-of-teams-across-platforms"></a>플랫폼 간 팀 사용
 
-:::image type="content" source="../../media/teams-across-platforms.png" alt-text="모바일 기능에 대 한 주요 통찰력을 보여 주는 차트-생산성 점수가 사용자에 게 제공 됩니다.":::
+:::image type="content" source="../../media/teams-across-platforms.png" alt-text="여러 또는 단일 플랫폼에서 팀을 사용 중인 사용자 수를 보여 주는 차트":::
 
 1. **머리글:** Microsoft 팀에서 활성 상태인 사용자가 여러 플랫폼에서 사용 되 고 있는 비율을 보여 줍니다.
 2. **본문:** 모바일 장치에서 팀을 사용 하 여 모든 위치에서 작업 중에 사용자가 메시지를 최신 상태로 유지할 수 있도록 하는 값에 대 한 정보를 제공 합니다.
@@ -110,7 +111,7 @@ Microsoft 365에서는 Microsoft Outlook, Word, Excel, PowerPoint, OneNote, Micr
 
 ### <a name="use-of-microsoft-365-apps-across-platforms"></a>플랫폼 간 Microsoft 365 앱 사용
 
-:::image type="content" source="../../media/microsoft365apps-platforms.png" alt-text="모바일 기능에 대 한 주요 통찰력을 보여 주는 차트-생산성 점수가 사용자에 게 제공 됩니다.":::
+:::image type="content" source="../../media/microsoft365apps-platforms.png" alt-text="여러 또는 단일 플랫폼에서 Microsoft 365 앱을 사용 하는 사용자 수를 보여 주는 차트입니다.":::
 
 1. **머리글:** 여러 플랫폼에서 Microsoft 365 앱 (Word, Excel, PowerPoint 및 OneNote)의 활성 사용자 비율을 표시 합니다.
 2. **본문:** 조직의 사용자가 어디에서 든 파일에 액세스할 수 있는 유연성을 제공 하는 것에 대 한 정보를 제공 합니다.
@@ -123,7 +124,7 @@ Microsoft 365에서는 Microsoft Outlook, Word, Excel, PowerPoint, OneNote, Micr
 
 ### <a name="remote-work"></a>원격 작업
 
-:::image type="content" source="../../media/remotework-trend.png" alt-text="모바일 기능에 대 한 주요 통찰력을 보여 주는 차트-생산성 점수가 사용자에 게 제공 됩니다.":::
+:::image type="content" source="../../media/remotework-trend.png" alt-text="원격으로 작업 하는 사용자 수, 사이트 또는 두 가지 모두를 보여 주는 차트":::
 
 1. **머리글:** 집에서 나 회사&#39;s 네트워크 외부에 있는 사용자의 백분율을 표시 합니다.
 2. **본문:** 조직&#39;s 실제 사무실에 액세스 하지 않고 사용자의 원격 작업을 촉진 하는 중요성을 중점적으로 설명 합니다.

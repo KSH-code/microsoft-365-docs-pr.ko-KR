@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection)의 보안 강화 설정에 대 한 자세한 정보
-ms.openlocfilehash: 23c0cad2b96b3a2002f235db7739b903cf862366
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 1a68c14a2d37f1fc3bfb032c4d3ca34c09a89890
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357866"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527772"
 ---
 # <a name="secure-by-default-in-office-365"></a>Office 365에서 기본적으로 보안
 
@@ -59,5 +59,5 @@ Microsoft는 고객의 보안을 기본적으로 유지 하려고 하기 때문�
 
 - 피싱 시뮬레이션: 시뮬레이션 된 공격은 실제 공격이 조직에 영향을 미치는 경우 취약 한 사용자를 식별 하는 데 도움이 될 수 있습니다.
 - Security/SecOps 사서함: 보안 팀에서 필터링 되지 않은 메시지를 가져오는 데 사용 하는 전용 사서함입니다 (정상 및 불량). 그런 다음 팀이 악성 콘텐츠가 포함 되어 있는지 검토할 수 있습니다.
-- 타사 필터: 타사 필터는 메일 필터링을 관리 하기 때문에 제 3 자 공급 업체가 EOP (SCL =-1)를 해제 하는 것이 좋습니다. Office 365 용 Defender에는 EOP as EOP이 필요 하므로이 기능을 해제 하는 것은 권장 되지 않습니다.
+- 타사 필터: 타사 필터는 메일 필터링을 관리 하기 때문에 일부 타사 공급 업체는 EOP (SCL =-1)를 해제 하는 것이 좋습니다. Office 365 용 Defender에는 EOP as EOP이 필요 하므로이 기능을 해제 하는 것은 권장 되지 않습니다. 대신 [커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) 을 사용 하도록 설정 하는 것이 좋습니다.
 - 가양성: 여전히 [관리자 제출을 통해](admin-submission.md)Microsoft가 분석 중인 특정 메시지를 허용 하려고 할 수 있습니다. 모든 재정의와 마찬가지로 임시적으로 사용 하는 것이 좋습니다.

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 통신에 대 한 세부 정보-생산성 점수가 사용자에 게 제공 됩니다.
-ms.openlocfilehash: ba2e69659f49c90d3b65e56e54b3026c7c9ff36a
-ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
+ms.openlocfilehash: a6fccdcc7f6440195bb83949ee294bbb4fe5ce7f
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49123452"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527504"
 ---
 # <a name="communication--people-experiences"></a>통신-사용자 환경
 
@@ -119,9 +119,9 @@ Microsoft 365에서는 사용자가 여러 모드를 제공 하 여 모든 사�
 2. **본문:** Microsoft 팀 내에서 채널 메시지 사용 값에 대 한 정보를 제공 합니다.
 3. **시각화:** 채팅 및 채널 메시지 사용을 중단 합니다.
       - **채팅 메시지를 보내는 사용자:** 색이 지정 된 부분 및 분수는 Microsoft 팀에서 메시지를 보낸 사람에 게 서 채팅 메시지를 사용 하는 것을 나타냅니다. 분수는 다음을 통해 생성 됩니다.
-        - **분자:** 지난 28 일 동안 Microsoft 팀의 채팅 메시지를 보낸 사람
-        - **분모:** 지난 28 일 동안 Microsoft 팀에 메시지를 보낸 사람
-      - **채팅 메시지를 보내는 사용자:** 색이 지정 된 부분 및 분수는 Microsoft 팀에서 메시지를 보내는 사용자 내에서 채널 메시지를 사용 하는 것을 나타냅니다. 분수는 다음을 통해 생성 됩니다.
+        - **분자:** 지난 28 일 동안 Microsoft 팀의 채팅 메시지를 보낸 사람입니다.
+        - **분모:** 지난 28 일 동안 Microsoft 팀에 메시지를 보낸 사람입니다.
+      - **채널 메시지를 보내는 사용자:** 색이 지정 된 부분 및 분수는 Microsoft 팀에서 메시지를 보내는 사용자 내에서 채널 메시지를 사용 하는 것을 나타냅니다. 분수는 다음을 통해 생성 됩니다.
         - **분자:** 지난 28 일 동안 Microsoft 팀의 채팅 메시지를 보낸 사람입니다.
         - **분모:** 지난 28 일 동안 Microsoft 팀에 메시지를 보낸 사람입니다.
 4. **관련 콘텐츠 보기:** 이 링크를 선택 하 여 한 부씩 인쇄 된 비디오 및 기타 관련 도움말 콘텐츠를 볼 수 있습니다.

@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: d41965741bc02876cde7e99904194c9f5787202a
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: a3c9aabd370117c085574144ff9450e74ae277c7
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357193"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527527"
 ---
 # <a name="get-started-with-communication-compliance"></a>커뮤니케이션 규정 준수 시작
 
@@ -45,6 +45,7 @@ ms.locfileid: "49357193"
 - Microsoft 365 G5 구독 + Microsoft 365 G5 준수 추가 기능
 - Microsoft 365 G5 subscription + Microsoft 365 G5 Insider 위기 관리 추가 기능
 - Office 365 Enterprise E5 구독 (유료 또는 평가판 버전)
+- Office 365 A5 구독 (유료 또는 평가판 버전)
 - Office 365 Enterprise E3 구독 + Office 365 고급 준수 추가 기능 (새 구독에 더 이상 사용할 수 없음)
 
 통신 준수 정책에 포함 된 사용자는 위의 라이선스 중 하나를 할당 받아야 합니다.
@@ -52,7 +53,7 @@ ms.locfileid: "49357193"
 >[!IMPORTANT]
 >Office 365 고급 규정 준수는 더 이상 독립 실행형 구독으로 판매 되지 않습니다. 현재 구독이 만료 되 면 고객은 위의 구독 중 하나로 전환 해야 하며, 이러한 기능은 동일 하거나 추가 준수 기능이 포함 되어 있습니다.
 
-기존 Office 365 Enterprise E5 요금제가 없고, 참가자 위험 관리를 수행 하려는 경우 기존 구독에 [Microsoft 365을 추가](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) 하거나 Office 365 Enterprise e 5의 [평가판을 등록할](https://www.microsoft.com/microsoft-365/enterprise) 수 있습니다.
+기존의 Office 365 Enterprise E5 요금제가 없고 통신 준수를 시도 하려는 경우 기존 구독에 [Microsoft 365을 추가](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) 하거나 Office 365 Enterprise e 5의 [평가판을 등록할](https://www.microsoft.com/microsoft-365/enterprise) 수 있습니다.
 
 ## <a name="step-1-required-enable-permissions-for-communication-compliance"></a>1 단계 (필수 사항): 통신 준수에 대 한 사용 권한 설정
 
@@ -125,10 +126,10 @@ ms.locfileid: "49357193"
 
 다음 차트를 사용 하 여 조직의 통신 준수 정책에 맞게 그룹을 구성 하는 방법을 확인할 수 있습니다.
 
-| 정책 구성원 | 지원 되는 그룹 | 지원 되지 않는 그룹 |
+| **정책 구성원** | **지원 되는 그룹** | **지원 되지 않는 그룹** |
 |:-----|:-----|:-----|
-|감독 사용자 <br> 감독 되지 않은 사용자 | 메일 그룹 <br> Microsoft 365 그룹 | 동적 메일 그룹 <br> 메일 사용 가능 보안 그룹 |
-| 가 | 없음 | 메일 그룹 <br> 동적 메일 그룹 <br> 메일 사용 가능 보안 그룹 |
+|감독 사용자 <br> 감독 되지 않은 사용자 | 메일 그룹 <br> Microsoft 365 그룹 | 동적 메일 그룹 <br> 중첩 된 메일 그룹 <br> 메일 사용 가능 보안 그룹 |
+| 가 | 없음 | 메일 그룹 <br> 동적 메일 그룹 <br> 중첩 된 메일 그룹 <br> 메일 사용 가능 보안 그룹 |
   
 정책에서 메일 그룹을 할당 하면이 정책은 메일 그룹의 각 사용자에 대 한 모든 전자 메일 및 팀 채팅을 모니터링 합니다. 정책에서 Microsoft 365 그룹을 할당 하면 정책에서 각 그룹 구성원이 받은 개별 전자 메일 및 채팅을 통해 해당 그룹으로 전송 되는 모든 전자 메일 및 팀 채팅을 모니터링 합니다.
 

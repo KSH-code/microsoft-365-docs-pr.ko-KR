@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: MIP(Microsoft Information Protection)를 구현하여 중요한 정보를 어디에서나 보호할 수 있습니다.
-ms.openlocfilehash: 4f98adbcee2b3daf4b347a16137d61cc0e790486
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 4c8f4af11779cd8b3df043bc92187625c41f4ac9
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087195"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519813"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Microsoft 365의 Microsoft Information Protection
 

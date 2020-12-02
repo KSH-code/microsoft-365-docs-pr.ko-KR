@@ -12,12 +12,12 @@ f1.keywords:
 ms.custom: seo-marvel-mar2020
 localization_priority: normal
 description: PowerShell을 사용 하 여 Microsoft 365 환경에서 Exchange Online 다중 지역 설정을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: c9219d29a1fdae68075d296404a6c2aeab30f1aa
-ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
+ms.openlocfilehash: 63eb1957611fd57e216012435188a6ddd1b232d3
+ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48993379"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49552010"
 ---
 # <a name="administering-exchange-online-mailboxes-in-a-multi-geo-environment"></a>Multi-Geo 환경에서 Exchange Online 사서함 관리
 
@@ -37,7 +37,9 @@ Exchange Online PowerShell을 특정 지리적 위치에 연결 하려면 *Conne
 
 Microsoft 365 또는 Microsoft 365 GCC 고객은 일반적으로 _Connectionuri_ 매개 변수를 사용 하 여 Exchange Online PowerShell에 연결할 필요가 없습니다. 그러나 특정 지리적 위치에 연결 하려면 값에 _Connectionuri_ 매개 변수를 사용 해야 `?email=<emailaddress>` 합니다.
 
-### <a name="connect-to-a-geo-location-in-exchange-online-powershell-using-multi-factor-authentication-mfa"></a>MFA (multi-factor authentication)를 사용 하 여 Exchange Online PowerShell에서 지리적 위치에 연결
+### <a name="connect-to-a-geo-location-in-exchange-online-powershell"></a>Exchange Online PowerShell에서 지리적 위치에 연결
+
+다음 연결 지침은 MFA (multi-factor authentication)에 대 한 구성 된 계정에 대해 작동 합니다.
 
 1. Windows PowerShell 창에서 다음 명령을 실행하여 EXO V2 모듈을 로드합니다.
 
@@ -47,31 +49,11 @@ Microsoft 365 또는 Microsoft 365 GCC 고객은 일반적으로 _Connectionuri_
 
 2. 다음 예제에서는 admin@contoso.onmicrosoft.com이 관리자 계정이 고, 대상 지리적 위치는 사서함 olga@contoso.onmicrosoft.com가 상주 합니다.
 
-  ```powershell
-  Connect-ExchangeOnline -UserPrincipalName admin@contoso.onmicrosoft.com -ShowProgress $true -ConnectionUri https://outlook.office365.com/powershell?email=olga@contoso.onmicrosoft.com
-  ```
-
-### <a name="connect-to-a-geo-location-in-exchange-online-powershell-without-using-mfa"></a>MFA를 사용 하지 않고 Exchange Online PowerShell에서 지리적 위치에 연결
-
-1. Windows PowerShell 창에서 다음 명령을 실행하여 EXO V2 모듈을 로드합니다.
-
    ```powershell
-   Import-Module ExchangeOnlineManagement
+   Connect-ExchangeOnline -UserPrincipalName admin@contoso.onmicrosoft.com -ConnectionUri https://outlook.office365.com/powershell?email=olga@contoso.onmicrosoft.com
    ```
 
-2. 다음 명령을 실행합니다.
-
-   ```powershell
-   $UserCredential = Get-Credential
-   ```
-
-   표시되는 **Windows PowerShell 자격 증명 요청** 대화 상자에서 회사 또는 학교 계정 사용자 이름과 비밀번호를 입력한 다음, **확인** 을 클릭합니다.
-
-3. 다음 예제에서는 사서함 olga@contoso.onmicrosoft.com가 상주 하는 위치에서 대상 지리적 위치를 지정 합니다.
-
-   ```powershell
-   Connect-ExchangeOnline -Credential $UserCredential -ShowProgress $true -ConnectionUri https://outlook.office365.com/powershell?email=olga@contoso.onmicrosoft.com
-   ```
+3. 표시 되는 프롬프트에 admin@contoso.onmicrosoft.com에 대 한 암호를 입력 합니다. 계정이 MFA에 대해 구성 된 경우 보안 코드도 입력 해야 합니다.
 
 ## <a name="view-the-available-geo-locations-that-are-configured-in-your-exchange-online-organization"></a>Exchange Online 조직에서 구성된 사용 가능한 지리적 위치 보기
 
@@ -93,11 +75,11 @@ Get-OrganizationConfig | Select DefaultMailboxRegion
 
 Exchange Online PowerShell의 **Get-Mailbox** cmdlet은 사서함에 다음과 같은 Multi-Geo 관련 속성을 표시합니다.
 
-- **Database** : 데이터베이스 이름의 첫 세 글자는 지역 코드에 해당하며, 사서함의 현재 위치를 알려줍니다. 온라인 보관 사서함의 경우 **ArchiveDatabase** 속성을 사용해야 합니다.
+- **Database**: 데이터베이스 이름의 첫 세 글자는 지역 코드에 해당하며, 사서함의 현재 위치를 알려줍니다. 온라인 보관 사서함의 경우 **ArchiveDatabase** 속성을 사용해야 합니다.
 
-- **MailboxRegion** : 관리자가 설정한 지리적 위치 코드를 지정합니다(Azure AD의 **PreferredDataLocation** 에서 동기화됨).
+- **MailboxRegion**: 관리자가 설정한 지리적 위치 코드를 지정합니다(Azure AD의 **PreferredDataLocation** 에서 동기화됨).
 
-- **MailboxRegionLastUpdateTime** : MailboxRegion이 마지막으로 업데이트(자동 또는 수동으로)된 시간을 나타냅니다.
+- **MailboxRegionLastUpdateTime**: MailboxRegion이 마지막으로 업데이트(자동 또는 수동으로)된 시간을 나타냅니다.
 
 사서함의 속성을 보려면 다음 구문을 사용합니다.
 
@@ -186,7 +168,7 @@ Set-MsolUser -UserPrincipalName michelle@contoso.onmicrosoft.com -PreferredDataL
 
 7. 사서함과 연결 된 사용자 계정을 제거 하 여 사서함을 다시 비활성 상태로 만듭니다. 자세한 내용은 [조직에서 사용자 삭제](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)를 참조 하십시오. 이 단계에서는 다른 용도로도 Exchange Online 계획 2 라이선스를 릴리스 합니다.
 
-**참고** : 비활성 사서함을 다른 지리적 위치로 이동 하는 경우에는 콘텐츠 검색 결과 또는 이전 지리적 위치에서 사서함을 검색 하는 기능에 영향을 줄 수 있습니다. 자세한 내용은 [다중 지리적 환경에서 콘텐츠 검색 및 내보내기](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries#searching-and-exporting-content-in-multi-geo-environments)를 참조 하세요.
+**참고**: 비활성 사서함을 다른 지리적 위치로 이동 하는 경우에는 콘텐츠 검색 결과 또는 이전 지리적 위치에서 사서함을 검색 하는 기능에 영향을 줄 수 있습니다. 자세한 내용은 [다중 지리적 환경에서 콘텐츠 검색 및 내보내기](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries#searching-and-exporting-content-in-multi-geo-environments)를 참조 하세요.
 
 ## <a name="create-new-cloud-mailboxes-in-a-specific-geo-location"></a>특정 지리적 위치에 새 클라우드 사서함 만들기
 
@@ -208,7 +190,7 @@ New-MsolUser -UserPrincipalName <UserPrincipalName> -DisplayName "<Display Name>
 - 이름: Elizabeth
 - 성: Brunner
 - 표시할 이름: Elizabeth Brunner
-- 비밀번호: 임의로 생성되고 명령의 결과에 표시됨( *비밀번호* 매개 변수를 사용하지 않고 있기 때문)
+- 비밀번호: 임의로 생성되고 명령의 결과에 표시됨(*비밀번호* 매개 변수를 사용하지 않고 있기 때문)
 - 라이선스: `contoso:ENTERPRISEPREMIUM` (E5)
 - 위치: 오스트레일리아(AUS)
 

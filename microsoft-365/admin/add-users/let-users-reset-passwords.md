@@ -2,8 +2,8 @@
 title: 사용자가 암호를 직접 재설정할 수 있도록 허용
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: 셀프 서비스 암호 재설정 도구를 사용 하 여 암호를 다시 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7ecadaa42610e0b77dc1727c11140080bd7b1779
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: bbde517858186d844412aca21f231620ed76496a
+ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646682"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49551923"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>사용자가 암호를 직접 재설정할 수 있도록 허용
 
@@ -41,7 +41,7 @@ Microsoft 365 관리자는 사용자가 [셀프 서비스 암호 다시 설정 �
 
 - Azure를 사용합니다. 이러한 단계를 수행할 때 자동으로 Azure의 이 기능을 **무료** 로 이용할 수 있습니다. 다른 Azure 기능을 사용하지 않으면 셀프 서비스 암호 재설정을 사용하는 비용이 부과되지 않습니다.
 
-- **온-프레미스 Active Directory를 사용**하는 경우 위의 두 지점이 적용 되지 않습니다. 대신이를 설정할 수는 있지만 **AZURE AD Premium에 대 한 유료 구독을 사용 해야**합니다.
+- **온-프레미스 Active Directory를 사용** 하는 경우 위의 두 지점이 적용 되지 않습니다. 대신이를 설정할 수는 있지만 **AZURE AD Premium에 대 한 유료 구독을 사용 해야** 합니다.
 
 회사, 학교 또는 비영리용 암호 만료 정책을 설정하는 사용자를 위한 문서입니다. 이 단계를 완료하려면 Microsoft 365 관리자 계정으로 로그인해야 합니다. [관리자 계정 이란?](../admin-overview/admin-overview.md)
 
@@ -77,13 +77,13 @@ Microsoft 365 관리자는 사용자가 [셀프 서비스 암호 다시 설정 �
 
 2. **조직 설정** 페이지 맨 위에서 **보안 & 개인 정보 보호** 탭을 선택 합니다.
   
-3. **셀프 서비스 암호 재설정**을 선택 합니다.
+3. **셀프 서비스 암호 재설정** 을 선택 합니다.
 
-4. **셀프 서비스 암호 재설정**에서 **Azure portal로 이동을 선택 하 여 셀프 서비스 암호 재설정을 켭니다**.
+4. **셀프 서비스 암호 재설정** 에서 **Azure portal로 이동을 선택 하 여 셀프 서비스 암호 재설정을 켭니다**.
 
-5. 왼쪽 탐색 창에서 **사용자**를 선택 하 고 **사용자 | 모든 사용자** 페이지에서 **암호 재설정**을 선택 합니다.
+5. 왼쪽 탐색 창에서 **사용자** 를 선택 하 고 **사용자 | 모든 사용자** 페이지에서 **암호 재설정** 을 선택 합니다.
   
-6. **속성** 페이지에서 **모두** 를 선택 하 여 회사의 모든 사용자에 대해 사용 하도록 설정 하 고 **저장**을 선택 합니다.
+6. **속성** 페이지에서 **모두** 를 선택 하 여 회사의 모든 사용자에 대해 사용 하도록 설정 하 고 **저장** 을 선택 합니다.
   
 7. 사용자가 로그인 하면 나중에 암호를 다시 설정 하는 데 도움이 되는 추가 연락처 정보를 입력 하 라는 메시지가 표시 됩니다.
 

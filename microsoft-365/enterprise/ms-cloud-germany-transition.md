@@ -3,7 +3,7 @@ title: Microsoft Cloud 독일에서 새 독일어 데이터 센터 지역의 Off
 ms.author: andyber
 author: andybergen
 manager: laurawi
-ms.date: 09/30/2020
+ms.date: 12/01/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: 독일 Microsoft 클라우드(도이칠란드 Microsoft 클라우드)에서 Office 365 서비스 독일 신규 데이터 센터 지역으로의 마이그레이션 이해 '
-ms.openlocfilehash: 23ccc30bab5d1045e4716cd637899e20362fc597
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 37bf052739bf15c1a0d3712539779e9dff31d9e8
+ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846943"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49551537"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Microsoft Cloud 독일에서 새 독일어 데이터 센터 지역의 Office 365 서비스로 마이그레이션
 
@@ -59,7 +59,7 @@ Microsoft 주도 방식에 동의하면 다음 서비스도 함께 마이그레�
 
 \*\*\*이러한 서비스에 대 한 마이그레이션의 필수 구성 요소 및 영향은 [Dynamics 365 고객 계약](https://aka.ms/d365ceoptin) 문서에 설명 되어 있습니다.
 
-Office 365 비디오가 2021년 3월 1일에 사용 중지됩니다. Office 365 테넌트를 새 독일어 데이터 센터 영역으로 마이그레이션하도록 선택하면 SharePoint Online 마이그레이션이 완료된 후에 Office 365 비디오가 지원되지 않습니다. 자세한 내용을 보려면 [여기](https://docs.microsoft.com/stream/migrate-from-office-365#microsoft-cloud-deutschland-timeline) 를 클릭 하세요.
+Office 365 비디오가 2021년 3월 1일에 사용 중지됩니다. Office 365 테넌트를 새 독일어 데이터 센터 영역으로 마이그레이션하도록 선택하면 SharePoint Online 마이그레이션이 완료된 후에 Office 365 비디오가 지원되지 않습니다. 자세한 내용은 [Microsoft Cloud 독일 timeline](https://docs.microsoft.com/stream/migrate-from-office-365#microsoft-cloud-deutschland-timeline)를 참조 하세요.
 
 ## <a name="how-is-the-migration-organized"></a>마이그레이션 구성 방법
 
@@ -69,7 +69,10 @@ Office 365 비디오가 2021년 3월 1일에 사용 중지됩니다. Office 365 
 
 마이그레이션은 [마이그레이션을 옵트인](https://aka.ms/office365germanymoveoptin)할 때 모두 시작 되는 단계로 실행 됩니다. 대부분의 마이그레이션 단계는 최소 고객 상호 작용을 사용 하 여 백 엔드 서비스 작업으로 실행 되며, 한 단계 후에 한 단계로 실행 됩니다. 추가 고객-led 작업 및 전체 마이그레이션 상태에 대 한 시작은 마이그레이션 프로세스 동안 Microsoft 365 관리 센터의 메시지 센터를 통해 전달 됩니다. 작업 예에는 고객 관리 DNS 업데이트, Exchange hybrid customers에 대 한 하이브리드 설치 재구성 또는 Azure migration이 포함 될 수 있습니다.
 
-옵트인이 수행 될 때 마이그레이션이 즉시 시작 되지 않습니다. 조직이 나중에 마이그레이션을 위해 예약 된 테 넌 트 목록에 추가 됩니다. 작업이 완료 되 면 성공적인 마이그레이션 및 사용을 보장 하기 위해 작업 전 단계를 지금 시작할 수 있습니다.
+옵트인이 수행 될 때 마이그레이션이 즉시 시작 되지 않습니다. 조직이 나중에 마이그레이션을 위해 예약 된 테 넌 트 목록에 추가 됩니다. 완료 시에 성공적인 마이그레이션 및 사용을 보장 하려면 다음과 같은 작업 전 단계를 수행 하면 됩니다.
+
+- [마이그레이션 단계 작업 및 영향](ms-cloud-germany-transition-phases.md)
+- [추가 사전 작업](ms-cloud-germany-transition-add-pre-work.md)
 
 테 넌 트 마이그레이션을 시작 하기 1 주 전에 메시지 센터 서비스에 모든 필수 구성 요소가 완료 되어야 함을 알리는 최종 경고가 표시 됩니다.
 
@@ -102,6 +105,7 @@ Office 365 비디오가 2021년 3월 1일에 사용 중지됩니다. Office 365 
 첫 번째 단계는 Microsoft Cloud 독일에서 새 독일어 데이터 센터 지역의 Office 365 서비스로 구독 및 데이터를 마이그레이션할 수 있는 권한이 있도록 Microsoft에 알리는 것입니다. [옵트인 프로세스](https://aka.ms/office365germanymoveoptin) 에서 지침을 참조 하 고 다음 사항을 확인 하세요.
 
 - 모든 마이그레이션 고객은 새로운 독일어 데이터 센터 지역을 포함 하는 Office 365 서비스 [office 365 url 및 IP 주소](urls-and-ip-address-ranges.md)에 대 한 연결을 확인 해야 합니다. Inaction에서 서비스 및 클라이언트 오류가 발생할 수 있습니다.
+- 조직에 대 한 정보를 제공 하 고 해당 변경 내용을 준비할 수 있도록 [작업 전](ms-cloud-germany-transition-add-pre-work.md) 작업 목록을 검토 합니다.
 - 독일어 지역으로 마이그레이션한 후에는 Office 365 플랫폼 서비스 설명을 검토 하 여 조직에서 사용할 수 있는 기능 및 서비스를 파악 해야 합니다.
 - 평가판 구독은 마이그레이션되지 않으며 유료 구독의 마이그레이션도 차단 됩니다. 마이그레이션을 시작 하기 전에 모든 평가판을 취소 하거나 유료 구독으로 변환 해야 합니다.
 
@@ -125,6 +129,7 @@ Microsoft는 Microsoft Cloud 독일에서 새 독일어 데이터 센터 지역�
 - 기존 온라인 서비스 계약을 통해 사용 가능합니다. 
 
 ### <a name="what-is-the-service-availability-between-the-different-office-365-cloud-service-offerings"></a>여러 Office 365 클라우드 서비스 간에 사용할 수 있는 서비스는 무엇인가요?
+<h2 id="serv-avail"></h2>
 
 Microsoft Cloud 독일 cloud 서비스 제공에서는 다음과 같은 15 가지 서비스를 사용할 수 있습니다. Microsoft 클라우드 독일에 새 서비스를 추가 하 고 있지 않습니다.
 
@@ -133,7 +138,7 @@ Microsoft Cloud 독일 cloud 서비스 제공에서는 다음과 같은 15 가�
 3. 그룹 (모던 그룹)
 4. Delve 프로필
 5. Exchange Online Protection
-6. Office 365용 Microsoft Defender
+6. Defender for Office 365
 7. Advanced eDiscovery
 8. 고급 데이터 관리
 9. SharePoint Online
@@ -153,7 +158,7 @@ Microsoft Cloud 독일 cloud 서비스 제공에서는 다음과 같은 15 가�
 5. MyAnalytics
 6. Workplace Analytics
 7. Exchange Online Protection
-8. Office 365용 Microsoft Defender
+8. Defender for Office 365
 9. Advanced eDiscovery
 10. 고급 보안 관리
 11. 정보 권한 관리
@@ -180,7 +185,9 @@ Microsoft Cloud 독일 cloud 서비스 제공에서는 다음과 같은 15 가�
 
 **Azure**
 
-Azure 고객만 있는 경우 오늘 Azure 리소스를 다른 지역으로 [마이그레이션하기](https://docs.microsoft.com/azure/germany/germany-migration-main) 시작할 수 있습니다. Azure에서 Office 365, Dynamics 365 또는 Power BI를 사용 하는 경우 다음 단계를 수행 하세요.
+Azure 고객만 있는 경우 오늘 Azure 리소스를 다른 지역으로 [마이그레이션하기](https://docs.microsoft.com/azure/germany/germany-migration-main) 시작할 수 있습니다. 
+
+Azure에서 Office 365, Dynamics 365 또는 Power BI를 사용 하는 경우에는 마이그레이션 프로세스를 수행 하 여 자체 방향 Azure 마이그레이션을 시작 하기 전에 마이그레이션 AzureAD 성공적으로 완료 되었는지 확인 해야 합니다. AzureAD 및 Office 365 조직에서 Azure 작업을 유지 관리 하려면 서비스를 종료 하기 전에 Azure 마이그레이션을 완료 해야 합니다.
 
 **Office 365**
 
@@ -266,13 +273,27 @@ Microsoft Cloud 독일 from Office 365 services로 마이그레이션하는 동�
 - Office 365의 경우 &quot; &quot; [Microsoft 365 관리 센터](https://portal.office.de/)의 링크를 사용 하 여 질문을 제출할 수 있습니다.
 - Dynamics 365 고객 계약 및 Power BI 고객 뿐 아니라 Office 365도 사용 하는 경우 &quot; &quot; [Microsoft 365 관리 센터](https://portal.office.de/)의 링크 필요 여부에 따라 질문을 제출할 수 있습니다. Dynamics 365 고객 참여 지원은 [여기](https://docs.microsoft.com/dynamics365/get-started/support/)를 이용하세요.  Power BI 지원은 [여기](https://powerbi.microsoft.com/support/)를 이용하세요. 
 
+
+## <a name="next-step"></a>다음 단계
+
+[마이그레이션에 대해 옵트인](ms-cloud-germany-migration-opt-in.md)
+
 ## <a name="more-information"></a>추가 정보
 
-새 독일어 데이터 센터 지역으로 마이그레이션하는 방법에 대 한 자세한 정보가 제공 됩니다. 체크 인하고 현재 상태로 유지할 수 있도록이 페이지에 책갈피를 선택 합니다.
+시작 하기:
 
 - [Microsoft Cloud Deutschland 마이그레이션 지원](https://aka.ms/germanymigrateassist)
-- [마이그레이션에 대해 옵트인하는 방법](https://aka.ms/office365germanymoveoptin)
+- [마이그레이션에 대해 옵트인하는 방법](ms-cloud-germany-migration-opt-in.md)
+- [마이그레이션 중의 고객 환경](ms-cloud-germany-transition-experience.md)
+
+전환을 통해 이동 하는 경우:
+
+- [마이그레이션 단계 작업 및 영향](ms-cloud-germany-transition-phases.md)
+- [추가 사전 작업](ms-cloud-germany-transition-add-pre-work.md)
+- [서비스](ms-cloud-germany-transition-add-general.md), [장치](ms-cloud-germany-transition-add-devices.md), [환경](ms-cloud-germany-transition-add-experience.md)및 [AD FS](ms-cloud-germany-transition-add-adfs.md)에 대 한 추가 정보
+
+클라우드 앱:
+
 - [Dynamics 365 마이그레이션 프로그램 정보](https://aka.ms/d365ceoptin)
 - [Power BI 마이그레이션 프로그램 정보](https://aka.ms/pbioptin)
-- [Office 365 URL 및 IP 주소 범위](https://aka.ms/o365endpoints)
 - [Microsoft Teams 업그레이드 시작하기](https://aka.ms/SkypeToTeams-Home)

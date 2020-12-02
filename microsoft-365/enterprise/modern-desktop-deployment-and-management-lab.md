@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: 65c251b2cd161687eb0a2e9c7ece29f453fcaae8
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: 4ee3663e326dc5a7fbefce06a696cca6a4b060a9
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519625"
+ms.locfileid: "49527458"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 
@@ -36,7 +36,7 @@ ms.locfileid: "49519625"
 
   - 새로운 기능! Windows 10 Enterprise, 버전 20H2
   - Windows 7 Enterprise
-  - Microsoft Endpoint Configuration Manager, 버전 2002
+  - Microsoft Endpoint Configuration Manager, 버전 2010 *
   - Windows 10용 Windows 평가 및 배포 키트
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization(App-V)
@@ -94,7 +94,7 @@ ms.locfileid: "49519625"
 
 [Windows 및 Office 배포 랩 키트 다운로드](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
-*이 콘텐츠를 다운로드 하려면 광범위 한 대역폭을 사용 하 여 다운로드 환경을 개선 하 고 자동 프로비저닝을 위해 30-45 분을 허용 하십시오. 랩 환경에는 최소 16gb의 사용 가능한 메모리 및 300 GB의 사용 가능한 디스크 공간이 필요 합니다. 최적의 성능을 위해 32 GB의 사용 가능한 메모리가 권장 됩니다. 랩이 만료 되는 경우 (2 월 2020 일) 새 버전이 만료 되기 전에 게시 됩니다.
+* 설치 된 초기 계획 버전 2002는 콘솔에서 업데이트를 사용 하 여 버전 2010로 업데이트할 수 있습니다. 광범위 한 대역폭을 사용 하 여이 콘텐츠를 다운로드 하 여 다운로드 환경을 개선 하 고 자동 프로비저닝을 위해 30-45 분을 허용 하세요. 랩 환경에는 최소 16GB의 사용 가능한 메모리 및 150GB의 사용 가능한 디스크 공간이 필요 합니다. 최적의 성능을 위해서는 32GB의 사용 가능한 메모리 및 300GB의 사용 가능한 공간을 확보 하는 것이 좋습니다. 랩은 2021 년 2 월 7 일에 만료 됩니다. 새 버전이 만료 되기 전에 게시 됩니다.
 
 ## <a name="additional-guidance"></a>추가 안내
 

@@ -1,5 +1,5 @@
 ---
-title: 보안 & 준수 센터에서 코어 eDiscovery 사례의 보류에 사용자를 추가 하는 스크립트 사용
+title: 스크립트를 사용 하 여 중요 eDiscovery 사례에서 보류에 사용자 추가
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -19,19 +19,19 @@ search.appverid:
 - MET150
 ms.assetid: bad352ff-d5d2-45d8-ac2a-6cb832f10e73
 ms.custom: seo-marvel-apr2020
-description: 스크립트를 실행 하 여 보안 & 준수 센터에서 eDiscovery 사례와 관련 된 새 보류에 사서함 & 비즈니스용 OneDrive 사이트에 추가 하는 방법을 알아봅니다.
-ms.openlocfilehash: 454fd4ea4517a46410c9d0922cc83b141fdbd893
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+description: Microsoft 365 준수 센터에서 스크립트를 실행 하 여 비즈니스용 OneDrive 사이트 & eDiscovery 사례와 연결 된 새 보류에 사서함을 추가 하는 방법을 알아봅니다.
+ms.openlocfilehash: 31c3bfef4eda4802618020f607bc7706780f3629
+ms.sourcegitcommit: 4a9e1b6851b988bcd31e87b184fc185be949840d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357678"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49525617"
 ---
 # <a name="use-a-script-to-add-users-to-a-hold-in-a-core-ediscovery-case"></a>스크립트를 사용 하 여 중요 eDiscovery 사례에서 보류에 사용자 추가
 
-보안 & 준수 센터에서는 eDiscovery 사례를 만들고 관리 하는 데 관련 된 시간이 오래 걸리는 작업을 자동화할 수 있는 PowerShell cmdlet을 제공 합니다. 현재는 보안 & 준수 센터에서 eDiscovery 사례 도구를 사용 하 여 많은 수의 custodian 콘텐츠 위치를 유지 하는 데 시간이 오래 걸리고 준비를 진행 합니다. 예를 들어 보류를 만들기 전에 보류 하려는 각 비즈니스용 OneDrive 사이트의 URL을 수집 해야 합니다. 그런 다음 보류 하려는 각 사용자에 대해 해당 사서함 및 비즈니스용 OneDrive 사이트를 보류에 추가 해야 합니다. 향후 릴리스된 보안 & 준수 센터에서이 작업을 수행 하는 것이 더 쉽습니다. 그때까지이 문서의 스크립트를 사용 하 여이 프로세스를 자동화할 수 있습니다.
+보안 & 준수 센터 PowerShell에서는 eDiscovery 사례를 만들고 관리 하는 데 관련 된 시간이 오래 걸리는 작업을 자동화할 수 있는 cmdlet을 제공 합니다. 현재는 보안 & 준수 센터에서 코어 eDiscovery 사례를 사용 하 여 많은 수의 custodian 콘텐츠 위치를 유지 하는 데 시간이 오래 걸리고 준비를 진행 합니다. 예를 들어 보류를 만들기 전에 보류 하려는 각 비즈니스용 OneDrive 사이트의 URL을 수집 해야 합니다. 그런 다음 보류 하려는 각 사용자에 대해 해당 사서함 및 비즈니스용 OneDrive 사이트를 보류에 추가 해야 합니다. 이 문서의 스크립트를 사용 하 여이 프로세스를 자동화할 수 있습니다.
   
-이 스크립트에서는 조직의 내 사이트 도메인 이름 (예: URL의 **contoso** , https://contoso-my.sharepoint.com) 기존 eDiscovery 사례 이름, 사례와 연결 된 새 보류의 이름, 유지 하려는 사용자의 전자 메일 주소 목록, 쿼리 기반 보존을 만들려는 경우 사용할 검색 쿼리 등)을 입력 하 라는 메시지가 표시 됩니다. 그런 다음 스크립트는 목록에 있는 각 사용자의 비즈니스용 OneDrive 사이트에 대 한 URL을 가져오고, 새로 보존을 만든 다음 목록에 있는 각 사용자에 대 한 비즈니스용 OneDrive 사이트를 보류에 추가 합니다. 또한이 스크립트는 새로 보존에 대 한 정보가 포함 된 로그 파일을 생성 합니다.
+이 스크립트는 `contoso` URL https://contoso-my.sharepoint.com) , 기존 eDiscovery 사례의 이름, 사례와 연결 된 새 보류의 이름, 보류 중인 사용자의 전자 메일 주소 목록, 쿼리 기반 보존을 만들려는 경우 사용할 검색 쿼리 등의 조직 내 사이트 도메인 이름을 입력 하 라는 메시지를 표시 합니다 (예: 여기에서 선택). 그런 다음 스크립트는 목록에 있는 각 사용자의 비즈니스용 OneDrive 사이트에 대 한 URL을 가져오고, 새로 보존을 만든 다음 목록에 있는 각 사용자에 대 한 비즈니스용 OneDrive 사이트를 보류에 추가 합니다. 또한이 스크립트는 새로 보존에 대 한 정보가 포함 된 로그 파일을 생성 합니다.
   
 이 작업을 수행 하는 단계는 다음과 같습니다.
   
@@ -51,7 +51,9 @@ ms.locfileid: "47357678"
 
 - 이 스크립트는 기존 사례와 연결 된 새 보류에 사용자 목록을 추가 합니다. 스크립트를 실행 하기 전에 보류를 연결 하려는 대/소문자를 만들어야 합니다.
 
-- 스크립트를 실행할 때마다 새 보안 & 준수 PowerShell 및 SharePoint Online PowerShell 세션이 만들어집니다. 따라서 사용할 수 있는 모든 PowerShell 세션을 사용할 수 있습니다. 이러한 상황이 발생 하지 않도록 하려면 다음 명령을 실행 하 여 활성 PowerShell 세션의 연결을 끊을 수 있습니다.
+- 이 문서에 나와 있는 스크립트는 보안 & 준수 센터 PowerShell에 연결할 때의 최신 인증을 지원 합니다. Microsoft 365 또는 Microsoft 365 GCC 조직인 경우에는 스크립트를 그대로 사용할 수 있습니다. Office 365 독일 조 직, Microsoft 365 GCC High 조 직 또는 Microsoft 365 DoD 조직인 경우 스크립트를 편집 하 여 성공적으로 실행 해야 합니다. 특히, 회선을 편집 하 `Connect-IPPSSession` 고 *connectionuri* 및 *AzureADAuthorizationEndpointUri* 매개 변수와 조직 유형에 해당 하는 값을 사용 하 여 Security & 준수 센터 PowerShell에 연결 해야 합니다. 자세한 내용은 [Connect To Security & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell#connect-to-security--compliance-center-powershell-without-using-mfa)의 예를 참조 하세요.
+
+- 스크립트를 실행할 때마다 새 보안 & 준수 PowerShell 및 SharePoint Online 관리 셸 세션이 만들어집니다. 따라서 사용할 수 있는 모든 PowerShell 세션을 사용할 수 있습니다. 이러한 상황이 발생 하지 않도록 하려면 다음 명령을 실행 하 여 활성 PowerShell 세션의 연결을 끊을 수 있습니다.
 
   ```powershell
   Get-PSSession | Remove-PSSession
@@ -115,21 +117,20 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
 
    ```powershell
    #script begin
-   " " 
+   " "
    write-host "***********************************************"
    write-host "   Security & Compliance Center   " -foregroundColor yellow -backgroundcolor darkgreen
    write-host "   eDiscovery cases - Add users to a hold   " -foregroundColor yellow -backgroundcolor darkgreen 
    write-host "***********************************************"
-   " " 
-   # Get user credentials &amp; Connect to Office 365 SCC, SPO
-   $credentials = Get-Credential -Message "Specify your credentials to connect to the Security & Compliance Center and SharePoint Online"
-   $s = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri "https://ps.compliance.protection.outlook.com/powershell-liveid" -Credential $credentials -Authentication Basic -AllowRedirection -SessionOption (New-PSSessionOption -SkipCACheck -SkipCNCheck -SkipRevocationCheck)
-   $a = Import-PSSession $s -AllowClobber
-       if (!$s)
-       {
-           Write-Error "Couldn't create PowerShell session."
-           return;
-       }
+   " "
+   # Connect to SCC PowerShell using modern authentication
+   if (!$SccSession)
+   {
+     Import-Module ExchangeOnlineManagement
+     Connect-IPPSSession
+   }
+   # Get user credentials to connect to SPO Management Shell
+   $credentials = Get-Credential -Message "Type your credentials again to connect to SharePoint Online Management Shell"
    # Load the SharePoint assemblies from the SharePoint Online Management Shell
    # To install, go to https://go.microsoft.com/fwlink/p/?LinkId=255251
    if (!$SharePointClient -or !$SPRuntime -or !$SPUserProfile)
@@ -296,7 +297,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
 
 4. 스크립트에서 묻는 메시지가 표시 되는 정보를 입력 합니다.
 
-   이 스크립트는 Security & 준수 센터 PowerShell에 연결한 다음 eDiscovery 사례에 새로 보존을 만들고 사서함 및 비즈니스용 OneDrive를 목록의 사용자에 게 추가 합니다. 보안 & 준수 센터의 **eDiscovery** 페이지에서 해당 사례로 이동 하 여 새 보존을 볼 수 있습니다. 
+   이 스크립트는 Security & 준수 센터 PowerShell에 연결한 다음 eDiscovery 사례에 새로 보존을 만들고 사서함 및 비즈니스용 OneDrive를 목록의 사용자에 게 추가 합니다. 보안 & 준수 센터의 **eDiscovery** 페이지에서 해당 사례로 이동 하 여 새 보존을 볼 수 있습니다.
 
 스크립트 실행이 완료 되 면 다음 로그 파일이 만들어지고 스크립트가 있는 폴더에 저장 됩니다.
   

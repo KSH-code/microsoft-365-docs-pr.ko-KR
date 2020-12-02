@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: e7968303-c234-46c4-b8b0-b5c93c6d57a7
 description: Microsoft 365와 동기화 하기 전에 온-프레미스 사용자와 연결 된 routale 도메인이 있는 경우 수행 해야 하는 작업에 대해 알아봅니다.
-ms.openlocfilehash: 21344cb0d495691a96867d401a5262fbbcfd02d4
-ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
+ms.openlocfilehash: f38f6143b6e26b2849c174f74c94d009ddea73cd
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49002384"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527724"
 ---
 # <a name="prepare-a-non-routable-domain-for-directory-synchronization"></a>디렉터리 동기화를 위해 라우팅할 수 없는 도메인(예: .local 도메인) 준비
 온-프레미스 디렉터리를 Microsoft 365와 동기화 하는 경우 Azure Active Directory (Azure AD)에서 확인 된 도메인이 있어야 합니다. 온-프레미스 도메인과 연결 된 UPN (사용자 계정 이름)만 동기화 됩니다. 하지만 예를 들어 라우팅할 수 없는 도메인을 포함 하는 UPN은 billa@contoso와 마찬가지로 billa@contoso.onmicrosoft.com와 같은 onmicrosoft.com 도메인에 동기화 됩니다. 
@@ -91,7 +91,7 @@ Microsoft 365에서 확인 한 도메인 (또는 도메인)과 일치 하도록 
 
 업데이트 해야 하는 사용자가 많은 경우에는 Windows PowerShell을 사용 하는 것이 더 쉽습니다. 다음 예에서는 [contoso.com cmdlet을](https://go.microsoft.com/fwlink/p/?LinkId=624312) [사용 하 여](https://go.microsoft.com/fwlink/p/?LinkId=624313) 모든 contoso 접미사를 변경 합니다. 
 
-예를 들어 다음 Windows PowerShell 명령을 실행 하 여 모든 contoso. 로컬 접미사를 contoso.com으로 업데이트할 수 있습니다.
+예를 들어 다음 Windows PowerShell 명령을 실행 하 여 모든 contoso 접미사를 contoso.com으로 업데이트할 수 있습니다.
     
   ```powershell
   $LocalUsers = Get-ADUser -Filter "UserPrincipalName -like '*contoso.local'" -Properties userPrincipalName -ResultSetSize $null

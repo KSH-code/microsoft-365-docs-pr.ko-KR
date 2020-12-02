@@ -1,5 +1,5 @@
 ---
-title: 준비 평가 도구에서 발견한 문제 해결
+title: 준비 상태 평가 도구에서 발견 된 문제 해결
 description: 도구에서 발견 되는 각 문제에 대해 수행할 세부 작업
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
@@ -9,14 +9,14 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 0459de8974fe6bae98e6984fd7dc65afeb04b4e7
-ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
+ms.openlocfilehash: f23209568fcfc2db4a22dbb034890c5a25e21bf7
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49021088"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527736"
 ---
-# <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>준비 평가 도구에서 발견한 문제 해결
+# <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>준비 상태 평가 도구에서 발견 된 문제 해결
 
 각 검사에 대해이 도구는 다음과 같은 네 가지 가능한 결과 중 하나를 보고 합니다.
 
@@ -152,14 +152,14 @@ MDM 사용자 범위가 **전혀** 또는 **모두** 로 설정 되어 **Some** 
 
 비즈니스용 Microsoft Store가 사용 하도록 설정 되지 않았거나 Intune과 동기화 되지 않습니다. 자세한 내용은 microsoft [intune을 사용 하 여 비즈니스용 Microsoft 스토어에서 구입한 볼륨 구입 앱을 관리](https://docs.microsoft.com/mem/intune/apps/windows-store-for-business) 하 고 [장치에 Intune 회사 포털을 설치](../get-started/company-portal.md)하는 방법을 참조 하세요.
 
-### <a name="multi-factor-authentication"></a>다단계 인증
+### <a name="multifactor-authentication"></a>다단계 인증
 
-Microsoft Managed Desktop 서비스 계정에는 실수로 다단계 인증을 적용 해서는 안 됩니다.
+다단계 인증을 Microsoft Managed Desktop service 계정에 실수로 적용 해서는 안 됩니다.
 
 
 **준비되지 않음**
 
-일부 MFA (multi-factor authentication) 정책이 모든 사용자에 게 할당 된 조건부 액세스 정책에 대해 "필수"로 설정 되어 있어야 합니다. Microsoft Managed Desktop 장치를 포함 하지 않는 특정 Azure AD 그룹을 대상으로 하는 할당을 사용 하도록 정책을 변경 합니다. 자세한 내용은 [조건부 액세스 정책](#conditional-access-policies) 및 [조건부 액세스: 모든 사용자에 대해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)를 참조 하세요.
+일부 사용자에 게 할당 된 조건부 액세스 정책에 대해 일부 MFA (다단계 인증) 정책이 "필수"로 설정 되어 있어야 합니다. Microsoft Managed Desktop 장치를 포함 하지 않는 특정 Azure AD 그룹을 대상으로 하는 할당을 사용 하도록 정책을 변경 합니다. 자세한 내용은 [조건부 액세스 정책](#conditional-access-policies) 및 [조건부 액세스: 모든 사용자에 대해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)를 참조 하세요.
 
 **조언**
 

@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Microsoft Defender for Office 365 계획 2에서 사용자 태그를 사용 하 여 특정 사용자 그룹을 식별 하는 방법을 확인할 수 있습니다. 태그 필터링은 태그가 지정 된 사용자를 빠르게 식별 하기 위해 Microsoft Defender for Office 365의 경고, 보고서 및 조사를 통해 제공 됩니다.
-ms.openlocfilehash: 14ebcebeb8081a2de341fd06facabd9f7d55b119
-ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
+ms.openlocfilehash: 136de95addae7dcd48de2c6ac1f30ce67714817c
+ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49123622"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49552022"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 사용자 태그
 
@@ -66,9 +66,9 @@ ms.locfileid: "49123622"
 
    작업을 마친 후 **다음** 을 클릭합니다.
 
-4. **사서함 할당** 페이지에서 다음 단계 중 하나를 수행 합니다.
+4. **사용자 할당** 페이지에서 다음 단계 중 하나를 수행 합니다.
 
-   - **사서함 추가** 를 클릭 합니다. 즉시 표시 되는 다음 단계를 수행 하 여 개별 사용자 또는 그룹을 추가 합니다.
+   - **사용자 추가** 를 클릭 합니다. 즉시 표시 되는 다음 단계를 수행 하 여 개별 사용자 또는 그룹을 추가 합니다.
      - 상자를 클릭 하 고 목록을 스크롤하여 사용자 또는 그룹을 선택 합니다.
      - 상자를 클릭 하 고 입력을 시작 하 여 목록을 필터링 하 고 사용자 또는 그룹을 선택 합니다.
      - 값을 더 추가 하려면 상자에서 빈 영역을 클릭 합니다.
