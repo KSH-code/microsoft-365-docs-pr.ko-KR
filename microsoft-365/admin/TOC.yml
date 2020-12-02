@@ -121,6 +121,8 @@
               href: create-groups/compare-groups.md
             - name: 그룹 만들기
               href: create-groups/create-groups.md
+            - name: 그룹 설명
+              href: create-groups/explain-groups-knowledge-worker.md
             - name: 그룹 관리
               href: create-groups/manage-groups.md
             - name: 그룹 구성원 추가 또는 제거
@@ -208,9 +210,9 @@
     - name: 데이터 및 서비스 관리
       href: manage/index.yml
       items:
-        - name: 보고서를 사용하여 사용자 활동 모니터링
+        - name: 보고서를 이용하여 Microsoft 365 활동 모니터링
           href: activity-reports/activity-reports.md
-        - name: 생산성 점수를 사용하여 사용자 생산성 모니터링
+        - name: Microsoft 생산성 점수 - 개요
           href: productivity/productivity-score.md
           items:
             - name: 콘텐츠 공동 작업

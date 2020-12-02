@@ -18,235 +18,243 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 보안 & 준수 센터에서 전송 포털을 사용 하 여 의심 스러운 전자 메일, 의심 되는 피싱 메일, 스팸 및 기타 해로운 메시지, Url 및 파일을 검색을 위해 Microsoft에 제출 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: be2fc8e41e3b53923b0297f30dfb102bbabd7489
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 1e133c0d4a875fc9735cc8a92e42b6ffeee6dd5f
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877270"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527748"
 ---
-# <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a><span data-ttu-id="4cd71-103">관리자 제출을 사용하여 의심스러운 스팸, 피싱, URL 및 파일을 Microsoft에 제출</span><span class="sxs-lookup"><span data-stu-id="4cd71-103">Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft</span></span>
+# <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a><span data-ttu-id="2ac72-103">관리자 제출을 사용하여 의심스러운 스팸, 피싱, URL 및 파일을 Microsoft에 제출</span><span class="sxs-lookup"><span data-stu-id="2ac72-103">Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-<span data-ttu-id="4cd71-104">Exchange Online의 사서함이 있는 Microsoft 365 조 직에서는 관리자가 보안 & 준수 센터의 전송 포털을 사용 하 여 검색을 위해 전자 메일 메시지, Url 및 첨부 파일을 Microsoft에 제출할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-104">In Microsoft 365 organizations with mailboxes in Exchange Online, admins can use the Submissions portal in the Security & Compliance Center to submit email messages, URLs, and attachments to Microsoft for scanning.</span></span>
+<span data-ttu-id="2ac72-104">Exchange Online의 사서함이 있는 Microsoft 365 조 직에서는 관리자가 보안 & 준수 센터의 전송 포털을 사용 하 여 검색을 위해 전자 메일 메시지, Url 및 첨부 파일을 Microsoft에 제출할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-104">In Microsoft 365 organizations with mailboxes in Exchange Online, admins can use the Submissions portal in the Security & Compliance Center to submit email messages, URLs, and attachments to Microsoft for scanning.</span></span>
 
-<span data-ttu-id="4cd71-105">전자 메일을 제출 하면 메일에 포함 된 Url 및 첨부 파일을 검사 하는 것은 물론 수신 전자 메일을 허용 했을 수 있는 모든 정책에 대 한 정보를 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-105">When you submit an email, you will get information about any policies that may have allowed the incoming email into your tenant, as well as examination of any URLs and attachments in the mail.</span></span> <span data-ttu-id="4cd71-106">메일을 허용할 수 있는 정책에는 개별 사용자의 수신 허용-보낸 사람 목록 뿐 아니라 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)과 같은 테 넌 트 수준 정책이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-106">Policies that may have allowed a mail include an individual user's safe sender list as well as tenant level policies such as Exchange mail flow rules (also known as transport rules).</span></span>
+<span data-ttu-id="2ac72-105">전자 메일을 제출 하면 메일에 포함 된 Url 및 첨부 파일을 검사 하는 것은 물론 수신 전자 메일을 허용 했을 수 있는 모든 정책에 대 한 정보를 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-105">When you submit an email, you will get information about any policies that may have allowed the incoming email into your tenant, as well as examination of any URLs and attachments in the mail.</span></span> <span data-ttu-id="2ac72-106">메일을 허용할 수 있는 정책에는 개별 사용자의 수신 허용-보낸 사람 목록 뿐 아니라 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)과 같은 테 넌 트 수준 정책이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-106">Policies that may have allowed a mail include an individual user's safe sender list as well as tenant level policies such as Exchange mail flow rules (also known as transport rules).</span></span>
 
-<span data-ttu-id="4cd71-107">전자 메일 메시지, Url 및 첨부 파일을 Microsoft에 전송 하는 다른 방법에 대 한 자세한 내용은 [Report messages and files In microsoft](report-junk-email-messages-to-microsoft.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="4cd71-107">For other ways to submit email messages, URLs, and attachments to Microsoft, see [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).</span></span>
+<span data-ttu-id="2ac72-107">전자 메일 메시지, Url 및 첨부 파일을 Microsoft에 전송 하는 다른 방법에 대 한 자세한 내용은 [Report messages and files In microsoft](report-junk-email-messages-to-microsoft.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="2ac72-107">For other ways to submit email messages, URLs, and attachments to Microsoft, see [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).</span></span>
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="4cd71-108">시작하기 전에 알아야 할 내용은 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="4cd71-108">What do you need to know before you begin?</span></span>
+## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="2ac72-108">시작하기 전에 알아야 할 내용은 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="2ac72-108">What do you need to know before you begin?</span></span>
 
-- <span data-ttu-id="4cd71-109"><https://protection.office.com/>에서 보안 및 준수 센터를 엽니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-109">You open the Security & Compliance Center at <https://protection.office.com/>.</span></span> <span data-ttu-id="4cd71-110">**제출** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/reportsubmission> 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-110">To go directly to the **Submission** page, use <https://protection.office.com/reportsubmission>.</span></span>
+- <span data-ttu-id="2ac72-109"><https://protection.office.com/>에서 보안 및 준수 센터를 엽니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-109">You open the Security & Compliance Center at <https://protection.office.com/>.</span></span> <span data-ttu-id="2ac72-110">**제출** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/reportsubmission> 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-110">To go directly to the **Submission** page, use <https://protection.office.com/reportsubmission>.</span></span>
 
-- <span data-ttu-id="4cd71-111">메시지 및 파일을 Microsoft에 전송 하려면 다음 역할 그룹 중 하나의 구성원 이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-111">To submit messages and files to Microsoft, you need to be a member of one of the following role groups:</span></span>
+- <span data-ttu-id="2ac72-111">메시지 및 파일을 Microsoft에 전송 하려면 다음 역할 그룹 중 하나의 구성원 이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-111">To submit messages and files to Microsoft, you need to be a member of one of the following role groups:</span></span>
 
-  - <span data-ttu-id="4cd71-112">[보안 및 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **조직 관리** 또는 **보안 관리자**</span><span class="sxs-lookup"><span data-stu-id="4cd71-112">**Organization Management** or **Security Administrator** in the [Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span>
+  - <span data-ttu-id="2ac72-112">[보안 및 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **조직 관리** 또는 **보안 관리자**</span><span class="sxs-lookup"><span data-stu-id="2ac72-112">**Organization Management** or **Security Administrator** in the [Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span>
 
-  - <span data-ttu-id="4cd71-113">[Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **조직 관리**</span><span class="sxs-lookup"><span data-stu-id="4cd71-113">**Organization Management** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).</span></span>
+  - <span data-ttu-id="2ac72-113">[Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **조직 관리**</span><span class="sxs-lookup"><span data-stu-id="2ac72-113">**Organization Management** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).</span></span>
 
-    <span data-ttu-id="4cd71-114">이 항목의 뒷부분에 설명 된 대로 사용자 [지정 사서함에 대 한 사용자 제출을 확인](#view-user-submissions-to-the-custom-mailbox) 하려면이 역할 그룹의 구성원 이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-114">Note that membership in this role group is required to [View user submissions to the custom mailbox](#view-user-submissions-to-the-custom-mailbox) as described later in this topic.</span></span>
+    <span data-ttu-id="2ac72-114">이 항목의 뒷부분에 설명 된 대로 사용자 [지정 사서함에 대 한 사용자 제출을 확인](#view-user-submissions-to-the-custom-mailbox) 하려면이 역할 그룹의 구성원 이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-114">Note that membership in this role group is required to [View user submissions to the custom mailbox](#view-user-submissions-to-the-custom-mailbox) as described later in this topic.</span></span>
 
-- <span data-ttu-id="4cd71-115">사용자가 메시지 및 파일을 Microsoft에 전송 하는 방법에 대 한 자세한 내용은 [Report messages and files In microsoft를](report-junk-email-messages-to-microsoft.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="4cd71-115">For more information about how users can submit messages and files to Microsoft, see [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).</span></span>
+- <span data-ttu-id="2ac72-115">사용자가 메시지 및 파일을 Microsoft에 전송 하는 방법에 대 한 자세한 내용은 [Report messages and files In microsoft를](report-junk-email-messages-to-microsoft.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="2ac72-115">For more information about how users can submit messages and files to Microsoft, see [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).</span></span>
 
-## <a name="report-suspicious-content-to-microsoft"></a><span data-ttu-id="4cd71-116">의심 스러운 콘텐츠를 Microsoft에 보고</span><span class="sxs-lookup"><span data-stu-id="4cd71-116">Report suspicious content to Microsoft</span></span>
+## <a name="report-suspicious-content-to-microsoft"></a><span data-ttu-id="2ac72-116">의심 스러운 콘텐츠를 Microsoft에 보고</span><span class="sxs-lookup"><span data-stu-id="2ac72-116">Report suspicious content to Microsoft</span></span>
 
-1. <span data-ttu-id="4cd71-117">보안 & 준수 센터에서 **위협 관리** \> **전송** 으로 이동 하 여 **관리자의 제안** 탭에 있는지 확인 하 고 **새 제출을** 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-117">In the Security & Compliance Center, go to **Threat management** \> **Submissions** , verify that you're on the **Admin submissions** tab, and then click **New submission**.</span></span>
+1. <span data-ttu-id="2ac72-117">보안 & 준수 센터에서 **위협 관리** \> **전송** 으로 이동 하 여 **관리자의 제안** 탭에 있는지 확인 하 고 **새 제출을** 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-117">In the Security & Compliance Center, go to **Threat management** \> **Submissions**, verify that you're on the **Admin submissions** tab, and then click **New submission**.</span></span>
 
-2. <span data-ttu-id="4cd71-118">다음 섹션에 설명 된 대로 메시지, URL 또는 첨부 파일을 전송 하는 것 처럼 보이는 **새 전송** 플라이 아웃을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-118">Use **New submission** flyout that appears to submit the message, URL, or attachment as described in the following sections.</span></span>
+2. <span data-ttu-id="2ac72-118">다음 섹션에 설명 된 대로 메시지, URL 또는 첨부 파일을 전송 하는 것 처럼 보이는 **새 전송** 플라이 아웃을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-118">Use **New submission** flyout that appears to submit the message, URL, or attachment as described in the following sections.</span></span>
 
-### <a name="submit-a-questionable-email-to-microsoft"></a><span data-ttu-id="4cd71-119">Microsoft에 의심 스러운 전자 메일 제출</span><span class="sxs-lookup"><span data-stu-id="4cd71-119">Submit a questionable email to Microsoft</span></span>
+### <a name="submit-a-questionable-email-to-microsoft"></a><span data-ttu-id="2ac72-119">Microsoft에 의심 스러운 전자 메일 제출</span><span class="sxs-lookup"><span data-stu-id="2ac72-119">Submit a questionable email to Microsoft</span></span>
 
-1. <span data-ttu-id="4cd71-120">**개체 유형** 섹션에서 **전자 메일** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-120">In the **Object type** section, select **Email**.</span></span> <span data-ttu-id="4cd71-121">**전송 형식** 섹션에서 다음 옵션 중 하나를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-121">In the **Submission format** section, use one of the following options:</span></span>
+1. <span data-ttu-id="2ac72-120">**개체 유형** 섹션에서 **전자 메일** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-120">In the **Object type** section, select **Email**.</span></span> <span data-ttu-id="2ac72-121">**전송 형식** 섹션에서 다음 옵션 중 하나를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-121">In the **Submission format** section, use one of the following options:</span></span>
 
-   - <span data-ttu-id="4cd71-122">**네트워크 메시지 id** : 메시지의 **X-Exchange-네트워크 메시지 ID** 헤더에서 사용할 수 있는 GUID 값입니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-122">**Network Message ID** : This is a GUID value that's available in the **X-MS-Exchange-Organization-Network-Message-Id** header in the message.</span></span>
+   - <span data-ttu-id="2ac72-122">**네트워크 메시지 id**: 메시지의 **X-Exchange-네트워크 메시지 ID** 헤더에서 사용할 수 있는 GUID 값입니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-122">**Network Message ID**: This is a GUID value that's available in the **X-MS-Exchange-Organization-Network-Message-Id** header in the message.</span></span>
 
-   - <span data-ttu-id="4cd71-123">**파일** : **파일 선택을** 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-123">**File** : Click **Choose file**.</span></span> <span data-ttu-id="4cd71-124">대화 상자가 열리면 .eml 또는 .msg 파일을 찾아 선택한 다음 **열기** 를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-124">In the dialog that opens, find and select the .eml or .msg file, and then click **Open**.</span></span>
+   - <span data-ttu-id="2ac72-123">**파일**: **파일 선택을** 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-123">**File**: Click **Choose file**.</span></span> <span data-ttu-id="2ac72-124">대화 상자가 열리면 .eml 또는 .msg 파일을 찾아 선택한 다음 **열기** 를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-124">In the dialog that opens, find and select the .eml or .msg file, and then click **Open**.</span></span>
+   
+   > [!NOTE]
+   > <span data-ttu-id="2ac72-125">Defender for Office 365 계획 1 또는 요금제 2를 포함 하는 관리자는 30 일 동안 오래 된 메시지를 제출할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-125">Admins with Defender for Office 365 Plan 1 or Plan 2 are able to submit messages as old as 30 days.</span></span> <span data-ttu-id="2ac72-126">다른 관리자는 7 일 전으로 진행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-126">Other admins will only be able to go back 7 days.</span></span>
 
-2. <span data-ttu-id="4cd71-125">**받는 사람** 섹션에서 정책을 확인 하기 위해 실행할 받는 사람을 한 명 이상 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-125">In the **Recipients** section, specify one or more recipients that you would like to run a policy check against.</span></span> <span data-ttu-id="4cd71-126">정책 확인에서는 사용자 또는 조직 정책으로 인해 전자 메일에서 검색을 통과 하지 않는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-126">The policy check will determine if the email bypassed scanning due to user or organization policies.</span></span>
+2. <span data-ttu-id="2ac72-127">**받는 사람** 섹션에서 정책을 확인 하기 위해 실행할 받는 사람을 한 명 이상 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-127">In the **Recipients** section, specify one or more recipients that you would like to run a policy check against.</span></span> <span data-ttu-id="2ac72-128">정책 확인에서는 사용자 또는 조직 정책으로 인해 전자 메일에서 검색을 통과 하지 않는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-128">The policy check will determine if the email bypassed scanning due to user or organization policies.</span></span>
 
-3. <span data-ttu-id="4cd71-127">**제출 사유** 섹션에서 다음 옵션 중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-127">In the **Reason for submission** section, select one of the following options:</span></span>
+3. <span data-ttu-id="2ac72-129">**제출 사유** 섹션에서 다음 옵션 중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-129">In the **Reason for submission** section, select one of the following options:</span></span>
 
-   - <span data-ttu-id="4cd71-128">**차단 되지 않아야 합니다.**</span><span class="sxs-lookup"><span data-stu-id="4cd71-128">**Should not have been blocked**</span></span>
+   - <span data-ttu-id="2ac72-130">**차단 되지 않아야 합니다.**</span><span class="sxs-lookup"><span data-stu-id="2ac72-130">**Should not have been blocked**</span></span>
 
-   - <span data-ttu-id="4cd71-129">**차단 됨** : **스팸** , **피싱** 또는 **맬웨어** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-129">**Should have been blocked** : Select **Spam** , **Phishing** , or **Malware**.</span></span> <span data-ttu-id="4cd71-130">확실히 모르겠으면 가장 좋은 판단을 사용 하세요.</span><span class="sxs-lookup"><span data-stu-id="4cd71-130">If you're not sure, use your best judgment.</span></span>
+   - <span data-ttu-id="2ac72-131">**차단 됨**: **스팸**, **피싱** 또는 **맬웨어** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-131">**Should have been blocked**: Select **Spam**, **Phishing**, or **Malware**.</span></span> <span data-ttu-id="2ac72-132">확실히 모르겠으면 가장 좋은 판단을 사용 하세요.</span><span class="sxs-lookup"><span data-stu-id="2ac72-132">If you're not sure, use your best judgment.</span></span>
 
-4. <span data-ttu-id="4cd71-131">전송 시 정책으로 인해 필터가 생략 되 면 해당 정책에 대 한 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-131">If the filter was bypassed due to policies upon submission, you'll see information about that policy.</span></span>
-
-   <span data-ttu-id="4cd71-132">하나 이상의 정책으로 인해 필터가 무시 되지 않으면 몇 분 안에 검색이 완료 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-132">If the filter was not bypassed due to one or more policies, the scan will complete in several minutes.</span></span> <span data-ttu-id="4cd71-133">상태 링크를 클릭 하 여 전송에 대 한 추가 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-133">You'll see additional information about the submission by clicking on the status link.</span></span> <span data-ttu-id="4cd71-134">여기에는 정책 확인 및 다시 검사 결과의 결과가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-134">This includes the results of the policy check and the rescan verdict.</span></span> <span data-ttu-id="4cd71-135">참고 Microsoft Defender for Office 365 full 필터링 스택을 통해 전자 메일을 다시 실행 하지만 메일, URL 또는 파일의 특정 특성에 따라 부분 다시 검사를 실행 하는 것은 아닙니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-135">Note this does not run the email through the Microsoft Defender for Office 365 full filtering stack again but runs a partial rescan based on certain attributes of the mail, URL, or file.</span></span>
-
-5. <span data-ttu-id="4cd71-136">작업이 끝나면 **Submit (제출** ) 단추를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-136">When you're finished, click the **Submit** button.</span></span>
+4. <span data-ttu-id="2ac72-133">작업이 끝나면 **Submit (제출** ) 단추를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-133">When you're finished, click the **Submit** button.</span></span>
 
 ![URL 전송 예](../../media/submission-flyout-email.PNG)
 
-### <a name="send-a-suspect-url-to-microsoft"></a><span data-ttu-id="4cd71-138">Microsoft에 의심 스러운 URL 보내기</span><span class="sxs-lookup"><span data-stu-id="4cd71-138">Send a suspect URL to Microsoft</span></span>
+### <a name="send-a-suspect-url-to-microsoft"></a><span data-ttu-id="2ac72-135">Microsoft에 의심 스러운 URL 보내기</span><span class="sxs-lookup"><span data-stu-id="2ac72-135">Send a suspect URL to Microsoft</span></span>
 
-1. <span data-ttu-id="4cd71-139">**개체 유형** 섹션에서 **URL** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-139">In the **Object type** section, select **URL**.</span></span> <span data-ttu-id="4cd71-140">상자가 나타나면 전체 URL (예:)을 입력 합니다 `https://www.fabrikam.com/marketing.html` .</span><span class="sxs-lookup"><span data-stu-id="4cd71-140">In the box that appears, enter the full URL (for example, `https://www.fabrikam.com/marketing.html`).</span></span>
+1. <span data-ttu-id="2ac72-136">**개체 유형** 섹션에서 **URL** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-136">In the **Object type** section, select **URL**.</span></span> <span data-ttu-id="2ac72-137">상자가 나타나면 전체 URL (예:)을 입력 합니다 `https://www.fabrikam.com/marketing.html` .</span><span class="sxs-lookup"><span data-stu-id="2ac72-137">In the box that appears, enter the full URL (for example, `https://www.fabrikam.com/marketing.html`).</span></span>
 
-2. <span data-ttu-id="4cd71-141">**제출 사유** 섹션에서 다음 옵션 중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-141">In the **Reason for submission** section, select one of the following options:</span></span>
+2. <span data-ttu-id="2ac72-138">**제출 사유** 섹션에서 다음 옵션 중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-138">In the **Reason for submission** section, select one of the following options:</span></span>
 
-   - <span data-ttu-id="4cd71-142">**차단 되지 않아야 합니다.**</span><span class="sxs-lookup"><span data-stu-id="4cd71-142">**Should not have been blocked**</span></span>
+   - <span data-ttu-id="2ac72-139">**차단 되지 않아야 합니다.**</span><span class="sxs-lookup"><span data-stu-id="2ac72-139">**Should not have been blocked**</span></span>
 
-   - <span data-ttu-id="4cd71-143">**차단 되어야** 하는 경우: **피싱** 또는 **맬웨어** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-143">**Should have been blocked** : Select **Phishing** or **Malware**.</span></span>
+   - <span data-ttu-id="2ac72-140">**차단 되어야** 하는 경우: **피싱** 또는 **맬웨어** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-140">**Should have been blocked**: Select **Phishing** or **Malware**.</span></span>
 
-3. <span data-ttu-id="4cd71-144">작업이 끝나면 **Submit (제출** ) 단추를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-144">When you're finished, click the **Submit** button.</span></span>
+3. <span data-ttu-id="2ac72-141">작업이 끝나면 **Submit (제출** ) 단추를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-141">When you're finished, click the **Submit** button.</span></span>
 
 ![전자 메일 전송 예](../../media/submission-url-flyout.png)
 
-### <a name="submit-a-suspected-file-to-microsoft"></a><span data-ttu-id="4cd71-146">Microsoft에 의심 스러운 파일 제출</span><span class="sxs-lookup"><span data-stu-id="4cd71-146">Submit a suspected file to Microsoft</span></span>
+### <a name="submit-a-suspected-file-to-microsoft"></a><span data-ttu-id="2ac72-143">Microsoft에 의심 스러운 파일 제출</span><span class="sxs-lookup"><span data-stu-id="2ac72-143">Submit a suspected file to Microsoft</span></span>
 
-1. <span data-ttu-id="4cd71-147">**개체 유형** 섹션에서 **첨부 파일** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-147">In the **Object type** section, select **Attachment**.</span></span>
+1. <span data-ttu-id="2ac72-144">**개체 유형** 섹션에서 **첨부 파일** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-144">In the **Object type** section, select **Attachment**.</span></span>
 
-2. <span data-ttu-id="4cd71-148">**파일 선택을** 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-148">Click **Choose File**.</span></span> <span data-ttu-id="4cd71-149">대화 상자가 열리면 파일을 찾아 선택한 다음 **열기** 를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-149">In the dialog that opens, find and select the file, and then click **Open**.</span></span>
+2. <span data-ttu-id="2ac72-145">**파일 선택을** 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-145">Click **Choose File**.</span></span> <span data-ttu-id="2ac72-146">대화 상자가 열리면 파일을 찾아 선택한 다음 **열기** 를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-146">In the dialog that opens, find and select the file, and then click **Open**.</span></span>
 
-3. <span data-ttu-id="4cd71-150">**제출 사유** 섹션에서 다음 옵션 중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-150">In the **Reason for submission** section, select one of the following options:</span></span>
+3. <span data-ttu-id="2ac72-147">**제출 사유** 섹션에서 다음 옵션 중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-147">In the **Reason for submission** section, select one of the following options:</span></span>
 
-   - <span data-ttu-id="4cd71-151">**차단 되지 않아야 합니다.**</span><span class="sxs-lookup"><span data-stu-id="4cd71-151">**Should not have been blocked**</span></span>
+   - <span data-ttu-id="2ac72-148">**차단 되지 않아야 합니다.**</span><span class="sxs-lookup"><span data-stu-id="2ac72-148">**Should not have been blocked**</span></span>
 
-   - <span data-ttu-id="4cd71-152">**차단 됨** : **맬웨어가** 유일한 선택 항목 이며 자동으로 선택 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-152">**Should have been blocked** : **Malware** is the only choice, and is automatically selected..</span></span>
+   - <span data-ttu-id="2ac72-149">**차단 됨**: **맬웨어가** 유일한 선택 항목 이며 자동으로 선택 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-149">**Should have been blocked**: **Malware** is the only choice, and is automatically selected..</span></span>
 
-4. <span data-ttu-id="4cd71-153">작업이 끝나면 **Submit (제출** ) 단추를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-153">When you're finished, click the **Submit** button.</span></span>
+4. <span data-ttu-id="2ac72-150">작업이 끝나면 **Submit (제출** ) 단추를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-150">When you're finished, click the **Submit** button.</span></span>
 
 ![첨부 파일 전송 예](../../media/submission-file-flyout.PNG)
 
-## <a name="view-admin-submissions"></a><span data-ttu-id="4cd71-155">관리자 전송 보기</span><span class="sxs-lookup"><span data-stu-id="4cd71-155">View admin submissions</span></span>
+## <a name="view-admin-submissions"></a><span data-ttu-id="2ac72-152">관리자 전송 보기</span><span class="sxs-lookup"><span data-stu-id="2ac72-152">View admin submissions</span></span>
 
-<span data-ttu-id="4cd71-156">보안 & 준수 센터에서 **위협 관리** \> **전송** 으로 이동 하 여 **관리자의 제안** 탭에 있는지 확인 하 고 **새 제출을** 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-156">In the Security & Compliance Center, go to **Threat management** \> **Submissions** , verify that you're on the **Admin submissions** tab, and then click **New submission**.</span></span>
+<span data-ttu-id="2ac72-153">보안 & 준수 센터에서 **위협 관리** \> **전송** 으로 이동 하 여 **관리자의 제안** 탭에 있는지 확인 하 고 **새 제출을** 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-153">In the Security & Compliance Center, go to **Threat management** \> **Submissions**, verify that you're on the **Admin submissions** tab, and then click **New submission**.</span></span>
 
-<span data-ttu-id="4cd71-157">페이지 맨 위에 있는 시작 날짜와 끝 날짜를 입력할 수 있으며, 기본적으로 상자에 값을 입력 하 고 새로 고침 단추를 클릭 하 여 **전송 ID** (모든 전송에 할당 된 GUID 값)를 기준으로 필터링 할 수 있습니다 ![ ](../../media/scc-quarantine-refresh.png) .</span><span class="sxs-lookup"><span data-stu-id="4cd71-157">Near the top of the page, you can enter a start date, an end date, and (by default) you can filter by **Submission ID** (a GUID value that's assigned to every submission) by entering a value in the box and clicking ![Refresh button](../../media/scc-quarantine-refresh.png).</span></span> <span data-ttu-id="4cd71-158">Update</span><span class="sxs-lookup"><span data-stu-id="4cd71-158">You can enter multiple values separated by commas.</span></span>
+<span data-ttu-id="2ac72-154">페이지 맨 위에 있는 시작 날짜와 끝 날짜를 입력할 수 있으며, 기본적으로 상자에 값을 입력 하 고 새로 고침 단추를 클릭 하 여 **전송 ID** (모든 전송에 할당 된 GUID 값)를 기준으로 필터링 할 수 있습니다 ![ ](../../media/scc-quarantine-refresh.png) .</span><span class="sxs-lookup"><span data-stu-id="2ac72-154">Near the top of the page, you can enter a start date, an end date, and (by default) you can filter by **Submission ID** (a GUID value that's assigned to every submission) by entering a value in the box and clicking ![Refresh button](../../media/scc-quarantine-refresh.png).</span></span> <span data-ttu-id="2ac72-155">Update</span><span class="sxs-lookup"><span data-stu-id="2ac72-155">You can enter multiple values separated by commas.</span></span>
 
-<span data-ttu-id="4cd71-159">필터 조건을 변경 하려면 **제출 ID** 단추를 클릭 하 고 다음 값 중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-159">To change the filter criteria, click the **Submission ID** button and choose one of the following values:</span></span>
+<span data-ttu-id="2ac72-156">필터 조건을 변경 하려면 **제출 ID** 단추를 클릭 하 고 다음 값 중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-156">To change the filter criteria, click the **Submission ID** button and choose one of the following values:</span></span>
 
-- <span data-ttu-id="4cd71-160">**보낸 사람**</span><span class="sxs-lookup"><span data-stu-id="4cd71-160">**Sender**</span></span>
-- <span data-ttu-id="4cd71-161">**제목/u i/파일 이름**</span><span class="sxs-lookup"><span data-stu-id="4cd71-161">**Subject/URL/File name**</span></span>
-- <span data-ttu-id="4cd71-162">**제출한 사람**</span><span class="sxs-lookup"><span data-stu-id="4cd71-162">**Submitted by**</span></span>
-- <span data-ttu-id="4cd71-163">**전송 유형**</span><span class="sxs-lookup"><span data-stu-id="4cd71-163">**Submission type**</span></span>
-- <span data-ttu-id="4cd71-164">**상태**</span><span class="sxs-lookup"><span data-stu-id="4cd71-164">**Status**</span></span>
+- <span data-ttu-id="2ac72-157">**보낸 사람**</span><span class="sxs-lookup"><span data-stu-id="2ac72-157">**Sender**</span></span>
+- <span data-ttu-id="2ac72-158">**제목/u i/파일 이름**</span><span class="sxs-lookup"><span data-stu-id="2ac72-158">**Subject/URL/File name**</span></span>
+- <span data-ttu-id="2ac72-159">**제출한 사람**</span><span class="sxs-lookup"><span data-stu-id="2ac72-159">**Submitted by**</span></span>
+- <span data-ttu-id="2ac72-160">**전송 유형**</span><span class="sxs-lookup"><span data-stu-id="2ac72-160">**Submission type**</span></span>
+- <span data-ttu-id="2ac72-161">**상태**</span><span class="sxs-lookup"><span data-stu-id="2ac72-161">**Status**</span></span>
 
 ![관리자 전송에 대 한 필터 옵션](../../media/admin-submission-email-filter-options.png)
 
-<span data-ttu-id="4cd71-166">결과를 내보내려면 페이지 위쪽에서 **내보내기를** 클릭 하 고 **차트 데이터** 또는 **표** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-166">To export the results, click **Export** near the top of the page and select **Chart data** or **Table**.</span></span> <span data-ttu-id="4cd71-167">대화 상자가 나타나면 .csv 파일을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-167">In the dialog that appears, save the .csv file.</span></span>
+<span data-ttu-id="2ac72-163">결과를 내보내려면 페이지 위쪽에서 **내보내기를** 클릭 하 고 **차트 데이터** 또는 **표** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-163">To export the results, click **Export** near the top of the page and select **Chart data** or **Table**.</span></span> <span data-ttu-id="2ac72-164">대화 상자가 나타나면 .csv 파일을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-164">In the dialog that appears, save the .csv file.</span></span>
 
-<span data-ttu-id="4cd71-168">그래프 아래에는 **전자 메일** (기본값), **URL** 및 **첨부 파일** 의 세 가지 탭이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-168">Below the graph, there are three tabs: **Email** (default), **URL** , and **Attachment**.</span></span>
+<span data-ttu-id="2ac72-165">그래프 아래에는 **전자 메일** (기본값), **URL** 및 **첨부 파일** 의 세 가지 탭이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-165">Below the graph, there are three tabs: **Email** (default), **URL**, and **Attachment**.</span></span>
 
-### <a name="view-admin-email-submissions"></a><span data-ttu-id="4cd71-169">관리자 전자 메일 전송 보기</span><span class="sxs-lookup"><span data-stu-id="4cd71-169">View admin email submissions</span></span>
+### <a name="view-admin-email-submissions"></a><span data-ttu-id="2ac72-166">관리자 전자 메일 전송 보기</span><span class="sxs-lookup"><span data-stu-id="2ac72-166">View admin email submissions</span></span>
 
-<span data-ttu-id="4cd71-170">**전자 메일** 탭을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-170">Click the **Email** tab.</span></span>
+<span data-ttu-id="2ac72-167">**전자 메일** 탭을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-167">Click the **Email** tab.</span></span>
 
-<span data-ttu-id="4cd71-171">페이지 아래쪽에 있는 **열 옵션** 단추를 클릭 하 여 보기에서 열을 추가 하거나 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-171">You can click the **Column options** button near the bottom of the page to add or remove columns from the view:</span></span>
+<span data-ttu-id="2ac72-168">페이지 아래쪽에 있는 **열 옵션** 단추를 클릭 하 여 보기에서 열을 추가 하거나 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-168">You can click the **Column options** button near the bottom of the page to add or remove columns from the view:</span></span>
 
-- <span data-ttu-id="4cd71-172">**날짜**</span><span class="sxs-lookup"><span data-stu-id="4cd71-172">**Date**</span></span>
-- <span data-ttu-id="4cd71-173">**전송 ID** : 모든 전송에 할당 되는 GUID 값입니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-173">**Submission ID** : A GUID value that's assigned to every submission.</span></span>
-- <span data-ttu-id="4cd71-174">**제출한 사람**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="4cd71-174">**Submitted by**<sup>\*</sup></span></span>
-- <span data-ttu-id="4cd71-175">**제목**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="4cd71-175">**Subject**<sup>\*</sup></span></span>
-- <span data-ttu-id="4cd71-176">**보낸 사람**</span><span class="sxs-lookup"><span data-stu-id="4cd71-176">**Sender**</span></span>
-- <span data-ttu-id="4cd71-177">**보낸 사람 IP**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="4cd71-177">**Sender IP**<sup>\*</sup></span></span>
-- <span data-ttu-id="4cd71-178">**전송 유형**</span><span class="sxs-lookup"><span data-stu-id="4cd71-178">**Submission type**</span></span>
-- <span data-ttu-id="4cd71-179">**배달 이유**</span><span class="sxs-lookup"><span data-stu-id="4cd71-179">**Delivery reason**</span></span>
-- <span data-ttu-id="4cd71-180">**상태별**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="4cd71-180">**Status**<sup>\*</sup></span></span>
-- <span data-ttu-id="4cd71-181">**컨트롤 형식**</span><span class="sxs-lookup"><span data-stu-id="4cd71-181">**Control type**</span></span>
-- <span data-ttu-id="4cd71-182">**컨트롤 원본**</span><span class="sxs-lookup"><span data-stu-id="4cd71-182">**Control source**</span></span>
+- <span data-ttu-id="2ac72-169">**날짜**</span><span class="sxs-lookup"><span data-stu-id="2ac72-169">**Date**</span></span>
+- <span data-ttu-id="2ac72-170">**전송 ID**: 모든 전송에 할당 되는 GUID 값입니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-170">**Submission ID**: A GUID value that's assigned to every submission.</span></span>
+- <span data-ttu-id="2ac72-171">**제출한 사람**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="2ac72-171">**Submitted by**<sup>\*</sup></span></span>
+- <span data-ttu-id="2ac72-172">**제목**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="2ac72-172">**Subject**<sup>\*</sup></span></span>
+- <span data-ttu-id="2ac72-173">**보낸 사람**</span><span class="sxs-lookup"><span data-stu-id="2ac72-173">**Sender**</span></span>
+- <span data-ttu-id="2ac72-174">**보낸 사람 IP**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="2ac72-174">**Sender IP**<sup>\*</sup></span></span>
+- <span data-ttu-id="2ac72-175">**전송 유형**</span><span class="sxs-lookup"><span data-stu-id="2ac72-175">**Submission type**</span></span>
+- <span data-ttu-id="2ac72-176">**배달 이유**</span><span class="sxs-lookup"><span data-stu-id="2ac72-176">**Delivery reason**</span></span>
+- <span data-ttu-id="2ac72-177">**상태별**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="2ac72-177">**Status**<sup>\*</sup></span></span>
 
-  <span data-ttu-id="4cd71-183"><sup>\*</sup> 이 값을 클릭 하면 자세한 정보가 플라이 아웃에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-183"><sup>\*</sup> If you click this value, detailed information is displayed in a flyout.</span></span>
+  <span data-ttu-id="2ac72-178"><sup>\*</sup> 이 값을 클릭 하면 자세한 정보가 플라이 아웃에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-178"><sup>\*</sup> If you click this value, detailed information is displayed in a flyout.</span></span>
 
-### <a name="view-admin-url-submissions"></a><span data-ttu-id="4cd71-184">관리자 URL 전송 보기</span><span class="sxs-lookup"><span data-stu-id="4cd71-184">View admin URL submissions</span></span>
+#### <a name="admin-submission-rescan-details"></a><span data-ttu-id="2ac72-179">관리자 전송 세부 정보 다시 검사</span><span class="sxs-lookup"><span data-stu-id="2ac72-179">Admin submission rescan details</span></span>
 
-<span data-ttu-id="4cd71-185">**URL** 탭을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-185">Click the **URL** tab.</span></span>
+<span data-ttu-id="2ac72-180">관리자 전송에 제출 된 메시지는 다시 검색 되며 세부 정보 플라이 아웃에 표시 되는 결과입니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-180">Messages that are submitted in admin submissions are rescanned and results shown in the details flyout:</span></span>
 
-<span data-ttu-id="4cd71-186">페이지 아래쪽에 있는 **열 옵션** 단추를 클릭 하 여 보기에서 열을 추가 하거나 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-186">You can click the **Column options** button near the bottom of the page to add or remove columns from the view:</span></span>
+- <span data-ttu-id="2ac72-181">배달 시 보낸 사람의 전자 메일 인증에 오류가 발생 한 경우</span><span class="sxs-lookup"><span data-stu-id="2ac72-181">If there was a failure in the sender's email authentication at the time of delivery.</span></span>
+- <span data-ttu-id="2ac72-182">메시지의 결과에 영향을 있거나 재정의 했을 수 있는 모든 정책 방문에 대 한 정보입니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-182">Information about any policy hits that could have affected or overridden the verdict of a message.</span></span>
+- <span data-ttu-id="2ac72-183">Current 샌드 박싱-메시지에 포함 된 Url 이나 파일이 악의적 인지 여부를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-183">Current detonation results to see if the URLs or files contained in the message were malicious or not.</span></span>
+- <span data-ttu-id="2ac72-184">Graders의 피드백</span><span class="sxs-lookup"><span data-stu-id="2ac72-184">Feedback from graders.</span></span>
 
-- <span data-ttu-id="4cd71-187">**날짜**</span><span class="sxs-lookup"><span data-stu-id="4cd71-187">**Date**</span></span>
-- <span data-ttu-id="4cd71-188">**전송 ID**</span><span class="sxs-lookup"><span data-stu-id="4cd71-188">**Submission ID**</span></span>
-- <span data-ttu-id="4cd71-189">**제출한 사람**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="4cd71-189">**Submitted by**<sup>\*</sup></span></span>
-- <span data-ttu-id="4cd71-190">**URL**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="4cd71-190">**URL**<sup>\*</sup></span></span>
-- <span data-ttu-id="4cd71-191">**전송 유형**</span><span class="sxs-lookup"><span data-stu-id="4cd71-191">**Submission type**</span></span>
-- <span data-ttu-id="4cd71-192">**상태별**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="4cd71-192">**Status**<sup>\*</sup></span></span>
+<span data-ttu-id="2ac72-185">재정의가 발견 되 면 몇 분 후에 다시 검사를 완료 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-185">If an override was found, the rescan should complete in several minutes.</span></span> <span data-ttu-id="2ac72-186">전자 메일 인증에 문제가 없거나 재정의로 인해 배달 되지 않은 경우 graders의 피드백은 하루까지 소요 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-186">If there wasn't a problem in email authentication or delivery wasn't affected by an override, then the feedback from graders could take up to a day.</span></span>
 
-  <span data-ttu-id="4cd71-193"><sup>\*</sup> 이 값을 클릭 하면 자세한 정보가 플라이 아웃에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-193"><sup>\*</sup> If you click this value, detailed information is displayed in a flyout.</span></span>
+### <a name="view-admin-url-submissions"></a><span data-ttu-id="2ac72-187">관리자 URL 전송 보기</span><span class="sxs-lookup"><span data-stu-id="2ac72-187">View admin URL submissions</span></span>
 
-### <a name="view-admin-attachment-submissions"></a><span data-ttu-id="4cd71-194">관리자 첨부 파일 전송 보기</span><span class="sxs-lookup"><span data-stu-id="4cd71-194">View admin attachment submissions</span></span>
+<span data-ttu-id="2ac72-188">**URL** 탭을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-188">Click the **URL** tab.</span></span>
 
-<span data-ttu-id="4cd71-195">**첨부 파일** 탭을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-195">Click the **Attachments** tab.</span></span>
+<span data-ttu-id="2ac72-189">페이지 아래쪽에 있는 **열 옵션** 단추를 클릭 하 여 보기에서 열을 추가 하거나 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-189">You can click the **Column options** button near the bottom of the page to add or remove columns from the view:</span></span>
 
-<span data-ttu-id="4cd71-196">페이지 아래쪽에 있는 **열 옵션** 단추를 클릭 하 여 보기에서 열을 추가 하거나 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-196">You can click the **Column options** button near the bottom of the page to add or remove columns from the view:</span></span>
+- <span data-ttu-id="2ac72-190">**날짜**</span><span class="sxs-lookup"><span data-stu-id="2ac72-190">**Date**</span></span>
+- <span data-ttu-id="2ac72-191">**전송 ID**</span><span class="sxs-lookup"><span data-stu-id="2ac72-191">**Submission ID**</span></span>
+- <span data-ttu-id="2ac72-192">**제출한 사람**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="2ac72-192">**Submitted by**<sup>\*</sup></span></span>
+- <span data-ttu-id="2ac72-193">**URL**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="2ac72-193">**URL**<sup>\*</sup></span></span>
+- <span data-ttu-id="2ac72-194">**전송 유형**</span><span class="sxs-lookup"><span data-stu-id="2ac72-194">**Submission type**</span></span>
+- <span data-ttu-id="2ac72-195">**상태별**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="2ac72-195">**Status**<sup>\*</sup></span></span>
 
-- <span data-ttu-id="4cd71-197">**날짜**</span><span class="sxs-lookup"><span data-stu-id="4cd71-197">**Date**</span></span>
-- <span data-ttu-id="4cd71-198">**전송 ID**</span><span class="sxs-lookup"><span data-stu-id="4cd71-198">**Submission ID**</span></span>
-- <span data-ttu-id="4cd71-199">**제출한 사람**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="4cd71-199">**Submitted by**<sup>\*</sup></span></span>
-- <span data-ttu-id="4cd71-200">**파일 이름**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="4cd71-200">**File name**<sup>\*</sup></span></span>
-- <span data-ttu-id="4cd71-201">**전송 유형**</span><span class="sxs-lookup"><span data-stu-id="4cd71-201">**Submission type**</span></span>
-- <span data-ttu-id="4cd71-202">**상태별**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="4cd71-202">**Status**<sup>\*</sup></span></span>
+  <span data-ttu-id="2ac72-196"><sup>\*</sup> 이 값을 클릭 하면 자세한 정보가 플라이 아웃에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-196"><sup>\*</sup> If you click this value, detailed information is displayed in a flyout.</span></span>
 
-  <span data-ttu-id="4cd71-203"><sup>\*</sup> 이 값을 클릭 하면 자세한 정보가 플라이 아웃에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-203"><sup>\*</sup> If you click this value, detailed information is displayed in a flyout.</span></span>
+### <a name="view-admin-attachment-submissions"></a><span data-ttu-id="2ac72-197">관리자 첨부 파일 전송 보기</span><span class="sxs-lookup"><span data-stu-id="2ac72-197">View admin attachment submissions</span></span>
 
-## <a name="view-user-submissions-to-microsoft"></a><span data-ttu-id="4cd71-204">Microsoft에 대 한 사용자 제출을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-204">View user submissions to Microsoft</span></span>
+<span data-ttu-id="2ac72-198">**첨부 파일** 탭을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-198">Click the **Attachments** tab.</span></span>
 
-<span data-ttu-id="4cd71-205">[보고서 메시지 추가 기능](enable-the-report-message-add-in.md)을 배포 했거나 사용자가 [웹에서 Outlook의 기본 제공 보고](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)를 사용 하는 경우 **사용자 전송** 탭에서 사용자에 게 보고 하는 항목을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-205">If you've deployed the [Report Message add-in](enable-the-report-message-add-in.md), or people use the [built-in reporting in Outlook on the web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md), you can see what users are reporting on the **User submissions** tab.</span></span>
+<span data-ttu-id="2ac72-199">페이지 아래쪽에 있는 **열 옵션** 단추를 클릭 하 여 보기에서 열을 추가 하거나 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-199">You can click the **Column options** button near the bottom of the page to add or remove columns from the view:</span></span>
 
-1. <span data-ttu-id="4cd71-206">보안 & 준수 센터에서 **위협 관리** \> **전송** 으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-206">In the Security & Compliance Center, go to **Threat management** \> **Submissions**.</span></span>
+- <span data-ttu-id="2ac72-200">**날짜**</span><span class="sxs-lookup"><span data-stu-id="2ac72-200">**Date**</span></span>
+- <span data-ttu-id="2ac72-201">**전송 ID**</span><span class="sxs-lookup"><span data-stu-id="2ac72-201">**Submission ID**</span></span>
+- <span data-ttu-id="2ac72-202">**제출한 사람**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="2ac72-202">**Submitted by**<sup>\*</sup></span></span>
+- <span data-ttu-id="2ac72-203">**파일 이름**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="2ac72-203">**File name**<sup>\*</sup></span></span>
+- <span data-ttu-id="2ac72-204">**전송 유형**</span><span class="sxs-lookup"><span data-stu-id="2ac72-204">**Submission type**</span></span>
+- <span data-ttu-id="2ac72-205">**상태별**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="2ac72-205">**Status**<sup>\*</sup></span></span>
 
-2. <span data-ttu-id="4cd71-207">**사용자 전송** 탭을 선택한 다음 **새 제출을** 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-207">Select the **User submissions** tab, and then click **New submission**.</span></span>
+  <span data-ttu-id="2ac72-206"><sup>\*</sup> 이 값을 클릭 하면 자세한 정보가 플라이 아웃에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-206"><sup>\*</sup> If you click this value, detailed information is displayed in a flyout.</span></span>
 
-<span data-ttu-id="4cd71-208">페이지 아래쪽에 있는 **열 옵션** 단추를 클릭 하 여 보기에서 열을 추가 하거나 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-208">You can click the **Column options** button near the bottom of the page to add or remove columns from the view:</span></span>
+## <a name="view-user-submissions-to-microsoft"></a><span data-ttu-id="2ac72-207">Microsoft에 대 한 사용자 제출을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-207">View user submissions to Microsoft</span></span>
 
-- <span data-ttu-id="4cd71-209">**제출 된 날짜**</span><span class="sxs-lookup"><span data-stu-id="4cd71-209">**Submitted on**</span></span>
-- <span data-ttu-id="4cd71-210">**제출한 사람**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="4cd71-210">**Submitted by**<sup>\*</sup></span></span>
-- <span data-ttu-id="4cd71-211">**제목**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="4cd71-211">**Subject**<sup>\*</sup></span></span>
-- <span data-ttu-id="4cd71-212">**보낸 사람**</span><span class="sxs-lookup"><span data-stu-id="4cd71-212">**Sender**</span></span>
-- <span data-ttu-id="4cd71-213">**보낸 사람 IP**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="4cd71-213">**Sender IP**<sup>\*</sup></span></span>
-- <span data-ttu-id="4cd71-214">**전송 유형**</span><span class="sxs-lookup"><span data-stu-id="4cd71-214">**Submission type**</span></span>
+<span data-ttu-id="2ac72-208">[보고서 메시지 추가 기능](enable-the-report-message-add-in.md)을 배포 했거나 사용자가 [웹에서 Outlook의 기본 제공 보고](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)를 사용 하는 경우 **사용자 전송** 탭에서 사용자에 게 보고 하는 항목을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-208">If you've deployed the [Report Message add-in](enable-the-report-message-add-in.md), or people use the [built-in reporting in Outlook on the web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md), you can see what users are reporting on the **User submissions** tab.</span></span>
 
-<span data-ttu-id="4cd71-215"><sup>\*</sup> 이 값을 클릭 하면 자세한 정보가 플라이 아웃에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-215"><sup>\*</sup> If you click this value, detailed information is displayed in a flyout.</span></span>
+1. <span data-ttu-id="2ac72-209">보안 & 준수 센터에서 **위협 관리** \> **전송** 으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-209">In the Security & Compliance Center, go to **Threat management** \> **Submissions**.</span></span>
 
-<span data-ttu-id="4cd71-216">페이지 맨 위에 있는 시작 날짜와 끝 날짜를 입력할 수 있으며, 기본적으로 상자에 값을 입력 하 고 새로 고침 단추를 클릭 하 여 **보낸 사람** 을 기준으로 필터링 할 수 있습니다 ![ ](../../media/scc-quarantine-refresh.png) .</span><span class="sxs-lookup"><span data-stu-id="4cd71-216">Near the top of the page, you can enter a start date, an end date, and (by default) you can filter by **Sender** by entering a value in the box and clicking ![Refresh button](../../media/scc-quarantine-refresh.png).</span></span> <span data-ttu-id="4cd71-217">Update</span><span class="sxs-lookup"><span data-stu-id="4cd71-217">You can enter multiple values separated by commas.</span></span>
+2. <span data-ttu-id="2ac72-210">**사용자 전송** 탭을 선택한 다음 **새 제출을** 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-210">Select the **User submissions** tab, and then click **New submission**.</span></span>
 
-<span data-ttu-id="4cd71-218">필터 조건을 변경 하려면 **보낸 사람** 단추를 클릭 하 고 다음 값 중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-218">To change the filter criteria, click the **Sender** button and choose one of the following values:</span></span>
+<span data-ttu-id="2ac72-211">페이지 아래쪽에 있는 **열 옵션** 단추를 클릭 하 여 보기에서 열을 추가 하거나 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-211">You can click the **Column options** button near the bottom of the page to add or remove columns from the view:</span></span>
 
-- <span data-ttu-id="4cd71-219">**보낸 사람 도메인**</span><span class="sxs-lookup"><span data-stu-id="4cd71-219">**Sender domain**</span></span>
-- <span data-ttu-id="4cd71-220">**제목**</span><span class="sxs-lookup"><span data-stu-id="4cd71-220">**Subject**</span></span>
-- <span data-ttu-id="4cd71-221">**제출한 사람**</span><span class="sxs-lookup"><span data-stu-id="4cd71-221">**Submitted by**</span></span>
-- <span data-ttu-id="4cd71-222">**전송 유형**</span><span class="sxs-lookup"><span data-stu-id="4cd71-222">**Submission type**</span></span>
-- <span data-ttu-id="4cd71-223">**보낸 사람 IP**</span><span class="sxs-lookup"><span data-stu-id="4cd71-223">**Sender IP**</span></span>
+- <span data-ttu-id="2ac72-212">**제출 된 날짜**</span><span class="sxs-lookup"><span data-stu-id="2ac72-212">**Submitted on**</span></span>
+- <span data-ttu-id="2ac72-213">**제출한 사람**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="2ac72-213">**Submitted by**<sup>\*</sup></span></span>
+- <span data-ttu-id="2ac72-214">**제목**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="2ac72-214">**Subject**<sup>\*</sup></span></span>
+- <span data-ttu-id="2ac72-215">**보낸 사람**</span><span class="sxs-lookup"><span data-stu-id="2ac72-215">**Sender**</span></span>
+- <span data-ttu-id="2ac72-216">**보낸 사람 IP**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="2ac72-216">**Sender IP**<sup>\*</sup></span></span>
+- <span data-ttu-id="2ac72-217">**전송 유형**</span><span class="sxs-lookup"><span data-stu-id="2ac72-217">**Submission type**</span></span>
+
+<span data-ttu-id="2ac72-218"><sup>\*</sup> 이 값을 클릭 하면 자세한 정보가 플라이 아웃에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-218"><sup>\*</sup> If you click this value, detailed information is displayed in a flyout.</span></span>
+
+<span data-ttu-id="2ac72-219">페이지 맨 위에 있는 시작 날짜와 끝 날짜를 입력할 수 있으며, 기본적으로 상자에 값을 입력 하 고 새로 고침 단추를 클릭 하 여 **보낸 사람** 을 기준으로 필터링 할 수 있습니다 ![ ](../../media/scc-quarantine-refresh.png) .</span><span class="sxs-lookup"><span data-stu-id="2ac72-219">Near the top of the page, you can enter a start date, an end date, and (by default) you can filter by **Sender** by entering a value in the box and clicking ![Refresh button](../../media/scc-quarantine-refresh.png).</span></span> <span data-ttu-id="2ac72-220">Update</span><span class="sxs-lookup"><span data-stu-id="2ac72-220">You can enter multiple values separated by commas.</span></span>
+
+<span data-ttu-id="2ac72-221">필터 조건을 변경 하려면 **보낸 사람** 단추를 클릭 하 고 다음 값 중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-221">To change the filter criteria, click the **Sender** button and choose one of the following values:</span></span>
+
+- <span data-ttu-id="2ac72-222">**보낸 사람 도메인**</span><span class="sxs-lookup"><span data-stu-id="2ac72-222">**Sender domain**</span></span>
+- <span data-ttu-id="2ac72-223">**제목**</span><span class="sxs-lookup"><span data-stu-id="2ac72-223">**Subject**</span></span>
+- <span data-ttu-id="2ac72-224">**제출한 사람**</span><span class="sxs-lookup"><span data-stu-id="2ac72-224">**Submitted by**</span></span>
+- <span data-ttu-id="2ac72-225">**전송 유형**</span><span class="sxs-lookup"><span data-stu-id="2ac72-225">**Submission type**</span></span>
+- <span data-ttu-id="2ac72-226">**보낸 사람 IP**</span><span class="sxs-lookup"><span data-stu-id="2ac72-226">**Sender IP**</span></span>
 
 ![사용자 전송에 대 한 필터 옵션](../../media/user-submissions-filter-options.png)
 
-<span data-ttu-id="4cd71-225">결과를 내보내려면 페이지 위쪽에서 **내보내기를** 클릭 하 고 **차트 데이터** 또는 **표** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-225">To export the results, click **Export** near the top of the page and select **Chart data** or **Table**.</span></span> <span data-ttu-id="4cd71-226">대화 상자가 나타나면 .csv 파일을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-226">In the dialog that appears, save the .csv file.</span></span>
+<span data-ttu-id="2ac72-228">결과를 내보내려면 페이지 위쪽에서 **내보내기를** 클릭 하 고 **차트 데이터** 또는 **표** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-228">To export the results, click **Export** near the top of the page and select **Chart data** or **Table**.</span></span> <span data-ttu-id="2ac72-229">대화 상자가 나타나면 .csv 파일을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-229">In the dialog that appears, save the .csv file.</span></span>
 
-## <a name="view-user-submissions-to-the-custom-mailbox"></a><span data-ttu-id="4cd71-227">사용자 지정 사서함에 대 한 사용자 전송 보기</span><span class="sxs-lookup"><span data-stu-id="4cd71-227">View user submissions to the custom mailbox</span></span>
+## <a name="view-user-submissions-to-the-custom-mailbox"></a><span data-ttu-id="2ac72-230">사용자 지정 사서함에 대 한 사용자 전송 보기</span><span class="sxs-lookup"><span data-stu-id="2ac72-230">View user submissions to the custom mailbox</span></span>
 
-<span data-ttu-id="4cd71-228">사용자가 보고 한 메시지를 수신 하도록 [사용자 지정 사서함을 구성한](user-submission.md) **경우** 보고 사서함으로 배달 된 메시지를 확인 하 고 제출할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-228">**If** you've [configured a custom mailbox](user-submission.md) to receive user reported messages, you can view and also submit messages that were delivered to the reporting mailbox.</span></span>
+<span data-ttu-id="2ac72-231">사용자가 보고 한 메시지를 수신 하도록 [사용자 지정 사서함을 구성한](user-submission.md) **경우** 보고 사서함으로 배달 된 메시지를 확인 하 고 제출할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-231">**If** you've [configured a custom mailbox](user-submission.md) to receive user reported messages, you can view and also submit messages that were delivered to the reporting mailbox.</span></span>
 
-1. <span data-ttu-id="4cd71-229">보안 & 준수 센터에서 **위협 관리** \> **전송** 으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-229">In the Security & Compliance Center, go to **Threat management** \> **Submissions**.</span></span>
+1. <span data-ttu-id="2ac72-232">보안 & 준수 센터에서 **위협 관리** \> **전송** 으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-232">In the Security & Compliance Center, go to **Threat management** \> **Submissions**.</span></span>
 
-2. <span data-ttu-id="4cd71-230">**사용자 지정 사서함** 탭을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-230">Select the **Custom mailbox** tab.</span></span>
+2. <span data-ttu-id="2ac72-233">**사용자 지정 사서함** 탭을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-233">Select the **Custom mailbox** tab.</span></span>
 
-<span data-ttu-id="4cd71-231">페이지 아래쪽에 있는 **열 옵션** 단추를 클릭 하 여 보기에서 열을 추가 하거나 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-231">You can click the **Column options** button near the bottom of the page to add or remove columns from the view:</span></span>
+<span data-ttu-id="2ac72-234">페이지 아래쪽에 있는 **열 옵션** 단추를 클릭 하 여 보기에서 열을 추가 하거나 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-234">You can click the **Column options** button near the bottom of the page to add or remove columns from the view:</span></span>
 
-- <span data-ttu-id="4cd71-232">**제출 된 날짜**</span><span class="sxs-lookup"><span data-stu-id="4cd71-232">**Submitted on**</span></span>
-- <span data-ttu-id="4cd71-233">**제출한 사람**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="4cd71-233">**Submitted by**<sup>\*</sup></span></span>
-- <span data-ttu-id="4cd71-234">**제목**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="4cd71-234">**Subject**<sup>\*</sup></span></span>
-- <span data-ttu-id="4cd71-235">**보낸 사람**</span><span class="sxs-lookup"><span data-stu-id="4cd71-235">**Sender**</span></span>
-- <span data-ttu-id="4cd71-236">**보낸 사람 IP**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="4cd71-236">**Sender IP**<sup>\*</sup></span></span>
-- <span data-ttu-id="4cd71-237">**전송 유형**</span><span class="sxs-lookup"><span data-stu-id="4cd71-237">**Submission type**</span></span>
+- <span data-ttu-id="2ac72-235">**제출 된 날짜**</span><span class="sxs-lookup"><span data-stu-id="2ac72-235">**Submitted on**</span></span>
+- <span data-ttu-id="2ac72-236">**제출한 사람**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="2ac72-236">**Submitted by**<sup>\*</sup></span></span>
+- <span data-ttu-id="2ac72-237">**제목**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="2ac72-237">**Subject**<sup>\*</sup></span></span>
+- <span data-ttu-id="2ac72-238">**보낸 사람**</span><span class="sxs-lookup"><span data-stu-id="2ac72-238">**Sender**</span></span>
+- <span data-ttu-id="2ac72-239">**보낸 사람 IP**<sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="2ac72-239">**Sender IP**<sup>\*</sup></span></span>
+- <span data-ttu-id="2ac72-240">**전송 유형**</span><span class="sxs-lookup"><span data-stu-id="2ac72-240">**Submission type**</span></span>
 
-<span data-ttu-id="4cd71-238">페이지 위쪽에 있는 시작 날짜, 종료 날짜를 입력 하 고 상자에 값을 입력 하 고 새로 고침 단추를 **클릭 하 여** 필터링 하 여 필터할 수 있습니다 ![ ](../../media/scc-quarantine-refresh.png) .</span><span class="sxs-lookup"><span data-stu-id="4cd71-238">Near the top of the page, you can enter a start date, an end date, and you can filter by **Submitted by** by entering a value in the box and clicking ![Refresh button](../../media/scc-quarantine-refresh.png).</span></span> <span data-ttu-id="4cd71-239">Update</span><span class="sxs-lookup"><span data-stu-id="4cd71-239">You can enter multiple values separated by commas.</span></span>
+<span data-ttu-id="2ac72-241">페이지 위쪽에 있는 시작 날짜, 종료 날짜를 입력 하 고 상자에 값을 입력 하 고 새로 고침 단추를 **클릭 하 여** 필터링 하 여 필터할 수 있습니다 ![ ](../../media/scc-quarantine-refresh.png) .</span><span class="sxs-lookup"><span data-stu-id="2ac72-241">Near the top of the page, you can enter a start date, an end date, and you can filter by **Submitted by** by entering a value in the box and clicking ![Refresh button](../../media/scc-quarantine-refresh.png).</span></span> <span data-ttu-id="2ac72-242">Update</span><span class="sxs-lookup"><span data-stu-id="2ac72-242">You can enter multiple values separated by commas.</span></span>
 
-<span data-ttu-id="4cd71-240">결과를 내보내려면 페이지 위쪽에서 **내보내기를** 클릭 하 고 **차트 데이터** 또는 **표** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-240">To export the results, click **Export** near the top of the page and select **Chart data** or **Table**.</span></span> <span data-ttu-id="4cd71-241">대화 상자가 나타나면 .csv 파일을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-241">In the dialog that appears, save the .csv file.</span></span>
+<span data-ttu-id="2ac72-243">결과를 내보내려면 페이지 위쪽에서 **내보내기를** 클릭 하 고 **차트 데이터** 또는 **표** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-243">To export the results, click **Export** near the top of the page and select **Chart data** or **Table**.</span></span> <span data-ttu-id="2ac72-244">대화 상자가 나타나면 .csv 파일을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-244">In the dialog that appears, save the .csv file.</span></span>
 
-## <a name="undo-user-submissions"></a><span data-ttu-id="4cd71-242">사용자 전송 실행 취소</span><span class="sxs-lookup"><span data-stu-id="4cd71-242">Undo user submissions</span></span>
+## <a name="undo-user-submissions"></a><span data-ttu-id="2ac72-245">사용자 전송 실행 취소</span><span class="sxs-lookup"><span data-stu-id="2ac72-245">Undo user submissions</span></span>
 
-<span data-ttu-id="4cd71-243">사용자가 의심 스러운 전자 메일을 사용자 지정 사서함에 전송 하면 사용자 및 관리자에 게 제출을 취소할 수 있는 옵션이 표시 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-243">Once a user submits a suspicious email to the custom mailbox, the user and admin don't have an option to undo the submission.</span></span> <span data-ttu-id="4cd71-244">사용자가 전자 메일을 복구 하려는 경우에는 삭제 된 항목 또는 정크 메일 폴더에서 복구할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-244">If the user would like to recover the email, it will be available for recovery in the Deleted Items or Junk Email folders.</span></span> 
+<span data-ttu-id="2ac72-246">사용자가 의심 스러운 전자 메일을 사용자 지정 사서함에 전송 하면 사용자 및 관리자에 게 제출을 취소할 수 있는 옵션이 표시 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-246">Once a user submits a suspicious email to the custom mailbox, the user and admin don't have an option to undo the submission.</span></span> <span data-ttu-id="2ac72-247">사용자가 전자 메일을 복구 하려는 경우에는 삭제 된 항목 또는 정크 메일 폴더에서 복구할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-247">If the user would like to recover the email, it will be available for recovery in the Deleted Items or Junk Email folders.</span></span> 
 
-### <a name="submit-messages-to-microsoft-from-the-custom-mailbox"></a><span data-ttu-id="4cd71-245">사용자 지정 사서함에서 Microsoft로 메시지 전송</span><span class="sxs-lookup"><span data-stu-id="4cd71-245">Submit messages to Microsoft from the custom mailbox</span></span>
+### <a name="submit-messages-to-microsoft-from-the-custom-mailbox"></a><span data-ttu-id="2ac72-248">사용자 지정 사서함에서 Microsoft로 메시지 전송</span><span class="sxs-lookup"><span data-stu-id="2ac72-248">Submit messages to Microsoft from the custom mailbox</span></span>
 
-<span data-ttu-id="4cd71-246">Microsoft에 메시지를 보내지 않고 사용자가 보고 한 메시지를 가로채는 사용자 지정 사서함을 구성한 경우 분석을 위해 특정 메시지를 찾아서 Microsoft로 보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-246">If you've configured the custom mailbox to intercept user-reported messages without sending the messages to Microsoft, you can find and send specific messages to Microsoft for analysis.</span></span> <span data-ttu-id="4cd71-247">이렇게 하면 사용자 제출을 관리자 제출으로 이동 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-247">This effectively moves a user submission to an admin submission.</span></span>
+<span data-ttu-id="2ac72-249">Microsoft에 메시지를 보내지 않고 사용자가 보고 한 메시지를 가로채는 사용자 지정 사서함을 구성한 경우 분석을 위해 특정 메시지를 찾아서 Microsoft로 보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-249">If you've configured the custom mailbox to intercept user-reported messages without sending the messages to Microsoft, you can find and send specific messages to Microsoft for analysis.</span></span> <span data-ttu-id="2ac72-250">이렇게 하면 사용자 제출을 관리자 제출으로 이동 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-250">This effectively moves a user submission to an admin submission.</span></span>
 
-<span data-ttu-id="4cd71-248">**사용자 지정 사서함** 탭의 목록에서 메시지를 선택 하 고 **실행** 단추를 클릭 한 후 다음 중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4cd71-248">On the **Custom mailbox** tab, select a message in the list, click the **Action** button, and make one of the following selections:</span></span>
+<span data-ttu-id="2ac72-251">**사용자 지정 사서함** 탭의 목록에서 메시지를 선택 하 고 **실행** 단추를 클릭 한 후 다음 중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ac72-251">On the **Custom mailbox** tab, select a message in the list, click the **Action** button, and make one of the following selections:</span></span>
 
-- <span data-ttu-id="4cd71-249">**보고서 정리**</span><span class="sxs-lookup"><span data-stu-id="4cd71-249">**Report clean**</span></span>
-- <span data-ttu-id="4cd71-250">**신고 피싱**</span><span class="sxs-lookup"><span data-stu-id="4cd71-250">**Report phishing**</span></span>
-- <span data-ttu-id="4cd71-251">**맬웨어 보고**</span><span class="sxs-lookup"><span data-stu-id="4cd71-251">**Report malware**</span></span>
-- <span data-ttu-id="4cd71-252">**스팸 보고**</span><span class="sxs-lookup"><span data-stu-id="4cd71-252">**Report spam**</span></span>
+- <span data-ttu-id="2ac72-252">**보고서 정리**</span><span class="sxs-lookup"><span data-stu-id="2ac72-252">**Report clean**</span></span>
+- <span data-ttu-id="2ac72-253">**신고 피싱**</span><span class="sxs-lookup"><span data-stu-id="2ac72-253">**Report phishing**</span></span>
+- <span data-ttu-id="2ac72-254">**맬웨어 보고**</span><span class="sxs-lookup"><span data-stu-id="2ac72-254">**Report malware**</span></span>
+- <span data-ttu-id="2ac72-255">**스팸 보고**</span><span class="sxs-lookup"><span data-stu-id="2ac72-255">**Report spam**</span></span>
 
 ![실행 단추 옵션](../../media/user-submission-custom-mailbox-action-button.png)
